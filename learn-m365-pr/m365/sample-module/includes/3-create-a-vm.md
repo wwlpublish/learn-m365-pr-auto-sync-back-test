@@ -120,8 +120,6 @@ Let's get your Windows VM up and running.
       --admin-username azureuser
     ```
 
-    [!include[](../../../includes/azure-cloudshell-copy-paste-tip.md)]
-
     Although you can specify the Windows admin password through the command, here you'll be prompted to enter one. Choose a password that contains at least 12 characters with a combination of upper and lowercase letters, numbers, and symbols. Don't use a password you use elsewhere.
 
     Your VM will take four to five minutes to come up. Compare that to the time it takes to purchase, rack, and configure a system in your data center. Quite a difference!
@@ -177,8 +175,6 @@ Let's get your Linux VM up and running.
       --size Standard_DS2_v2 \
       --generate-ssh-keys
     ```
-
-    [!include[](../../../includes/azure-cloudshell-copy-paste-tip.md)]
 
     Your VM will take about two minutes to come up. Compare that to the time it takes to purchase, rack, and configure a system in your data center. Quite a difference!
 
