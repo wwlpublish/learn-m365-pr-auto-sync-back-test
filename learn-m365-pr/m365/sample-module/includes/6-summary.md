@@ -4,8 +4,6 @@ Azure provides services that can help transform the way your organization delive
 
 ![A graduation cap representing the successful start of your learning journey](../media/6-heading.png)
 
-[!include[](../../../includes/azure-sandbox-cleanup.md)]
-
 ## Continue your Azure journey
 
 Microsoft Learn provides learning paths based on your role and interests.

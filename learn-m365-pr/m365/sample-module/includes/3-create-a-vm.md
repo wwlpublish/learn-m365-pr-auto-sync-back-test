@@ -94,8 +94,6 @@ Cloud Shell provides two experiences to choose from: Bash and PowerShell. Both i
 
 You can use any Azure management interface, including the Azure portal, Azure CLI, and Azure PowerShell, to manage any kind of VM. For learning purposes, here you'll use the Azure CLI to create and manage either a Windows or Linux VM.
 
-[!include[](../../../includes/azure-sandbox-activate.md)]
-
 ## Creating resources in Azure
 
 Normally, the first thing we'd do is to create a _resource group_ to hold all the things that we need to create. This allows us to administer all the VMs, disks, network interfaces, and other elements that make up our solution as a unit. We can use the Azure CLI to create a resource group with the `az group create` command. It takes a `--name` to give it a unique name in our subscription, and a `--location` to tell Azure what area of the world we want the resources to be located by default.
@@ -103,9 +101,6 @@ Normally, the first thing we'd do is to create a _resource group_ to hold all th
 Since we are in the free Azure sandbox environment, you don't need to do this step, instead, you will use the pre-created resource group **<rgn>[Resource Group Name]</rgn>**.
 
 ## Choosing a location
-
-<!-- Resource selection -->
-[!include[](../../../includes/azure-sandbox-regions-first-mention-note.md)]
 
 ::: zone pivot="windows-cloud"
 
