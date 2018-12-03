@@ -28,7 +28,7 @@
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices",
-          "azure/**"
+          "learn-m365-pr/**"
         ]
       }
     ],
