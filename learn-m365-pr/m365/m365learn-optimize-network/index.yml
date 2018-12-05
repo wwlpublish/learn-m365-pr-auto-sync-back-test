@@ -1,0 +1,36 @@
+### YamlMime:Module
+uid: learn.m365learn-optimize-network
+metadata:
+  title: Optimize your network for Microsoft 365
+  description: In this module, we'll discuss how to optimize your network for Microsoft 365.
+  ms.date: 11/26/2018
+  author: JoeDavies-MSFT
+  ms.author: josephd
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: Optimize your network for Microsoft 365
+summary: >
+  Optimizing network traffic to on-premises datacenters is very different than optimizing for Internet traffic. To get the best performance for on-premises users of Microsoft 365, you need to modify your network to remove intermediate and unneeded paths, destinations, and packet processing.
+abstract: | 
+  In this module, you will:
+  - State the three categories of Office 365 endpoints and name which ones must be bypassed for the best network performance.
+  - Describe the attributes of local Internet connections for all offices of an organization.
+  - Explain the impact of network hairpins on performance.
+  - Explain how edge devices must be configured for Microsoft 365 traffic bypass to get the best performance.
+prerequisites: |
+  - Knowledge of Internet connections and typical network edge devices.
+iconUrl: /learn-m365-pr/achievements/windows-logo.svg
+levels:
+- intermediate
+roles:
+- solution-architect
+products:
+- azure
+achievement: learn.welcome-to-azure.badge
+units:
+- learn.m365learn-optimize-network.1-introduction
+- learn.m365learn-optimize-network.2-microsoft-365-endpoint-categories
+- learn.m365learn-optimize-network.3-local-internet-connections
+- learn.m365learn-optimize-network.4-network-hairpins
+- learn.m365learn-optimize-network.5-proxy-edge-device-bypass
+- learn.m365learn-optimize-network.6-summary

@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.m365learn-optimize-network.4-network-hairpins
+title: Network hairpins
+metadata:
+  title: Network hairpins
+  description: Network hairpins
+  ms.date: 11/26/2018
+  author: JoeDavies-MSFT
+  ms.author: josephd
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+  [!include[](includes/4-network-hairpins.md)]

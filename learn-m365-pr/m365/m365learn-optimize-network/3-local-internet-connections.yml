@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.m365learn-optimize-network.3-local-internet-connections
+title: Local Internet connections
+metadata:
+  title: Local Internet connections
+  description: Local Internet connections
+  ms.date: 11/26/2018
+  author: JoeDavies-MSFT
+  ms.author: josephd
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-local-internet-connections.md)]
