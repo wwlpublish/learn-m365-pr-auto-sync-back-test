@@ -41,6 +41,11 @@ Microsoft Learn has multiple repos supporting the content.
 
 * [Microsoft Learn - Azure Content Repo](https://github.com/MicrosoftDocs/learn-pr)
 * [Microsoft Learn - Business Applications Content Repo](https://github.com/MicrosoftDocs/learn-bizapps-pr)
+* [Microsoft Learn - Windows Content Repo](https://github.com/MicrosoftDocs/learn-windows-pr)
+* [Microsoft Learn - M365 Content Repo](https://github.com/MicrosoftDocs/learn-m365-pr)
+* [Microsoft Learn - SQL Server Content Repo](https://github.com/MicrosoftDocs/learn-sqlserver-pr)
+* [Microsoft Learn - Worldwide Learning (WWL) Content Repo](https://github.com/MicrosoftDocs/learn-wwl-pr)
+* [Microsoft Learn - Xamarin Content Repo](https://github.com/MicrosoftDocs/learn-xamarin-pr)
 
 Code repos for individual modules follow the naming convention of https://github.com/MicrosoftDocs/mslearn-module-name. 
 
