@@ -26,7 +26,7 @@ roles:
 - developer
 - solution-architect
 products:
-- m365
+- azure
 units:
 - learn.m365-creativity.1-introduction
 - learn.m365-creativity.2-create-compelling-content
