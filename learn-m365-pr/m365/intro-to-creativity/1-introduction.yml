@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.m365-creativity.1-introduction
+title: Introduction
+metadata:
+  title: Introduction
+  description: Arm your workforce with the right tools to unleash creativity and fuel innovation.
+  ms.date: 01/23/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 1
+content: |
+  [!include[](includes/1-introduction.md)]

@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.m365-creativity.6-create-naturally
+title: Create naturally
+metadata:
+  title: Create naturally
+  description: Attract and retain talent, embrace new workplace expectations, and inspire innovation with modern tools that boost productivity and enable people to record thoughts and share ideas quickly with others.
+  ms.date: 01/23/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 1
+content: |
+  [!include[](includes/6-create-naturally.md)]

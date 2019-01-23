@@ -1,0 +1,18 @@
+### YamlMime:ModuleUnit
+uid: learn.m365-creativity.3-turn-data-into-insights
+title: Turn data into insights
+metadata:
+  title: Turn data into insights
+  description: Learn about AI-powered tools and data visualization capabilities to help people at every level of the business make informed, data-driven decisions faster.
+  ms.date: 01/23/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+  zone_pivot_groups: platform-cloud
+interactive: bash
+azureSandbox: true
+durationInMinutes: 7
+content: |
+  [!include[](includes/3-turn-data-into-insights.md)]
