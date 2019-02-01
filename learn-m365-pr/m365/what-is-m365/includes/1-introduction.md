@@ -4,8 +4,9 @@
 
 In this module, you will:
 
-- 
-- 
+- List the components of Microsoft 365
+- Understand the value provided by the Microsoft 365 Solution Pillars
+- Name the subscription options
 
 ## Prerequisites 
 <!--if any, otherwise delete this topic. Remove this comment.-->

@@ -1,17 +1,22 @@
 ### YamlMime:Achievements
 achievements:
-- uid: learn.store-data-in-azure.trophy
-  type: trophy
-  title: Store data in Azure Trophy
-  summary: Trophy for the 'Store data in Azure' learning path.
-  iconUrl: /learn-m365-pr/achievements/store-data-in-azure.svg
-- uid: learn.welcome-to-azure.badge
-  type: badge
-  title: Welcome to Azure
-  summary: Welcome to Azure
-  iconUrl: /learn-m365-pr/achievements/welcome-to-azure.svg
-#- uid: learn.build-a-serverless-web-app.badge
+#- uid: learn-m365.what-is-m365.trophy
+#  type: trophy
+#  title: What is Microsoft 365
+#  summary: Trophy for the 'What is Microsoft 365' learning path.
+#  iconUrl: /learn-m365-pr/achievements/what-is-m365.svg
+#- uid: learn-m365.introduction-to-cloud-computing.badge
 #  type: badge
-#  title: Build a serverless web app
-#  summary: Badge for the 'Build a serverless web app' module.
-#  iconUrl: /learn/achievements/build-a-serverless-web-app.svg
+#  title: Introduction to cloud computing
+#  summary: Badge for the 'Introductions to cloud computing' module.
+#  iconUrl: /learn-m365-pr/achievements/introduction-to-cloud-computing.svg
+#- uid: learn-m365.understand-the-benefits-and-costs-of-cloud-computing.badge
+#  type: badge
+#  title: Understand the benefits and costs of cloud computing
+#  summary: Badge for the 'Understand the benefits and costs of cloud computing' module.
+#  iconUrl: /learn/achievements/understand-the-benefits-and-costs-of-cloud-computing.svg
+#- uid: learn-m365.introduction-to-cloud-deployment-models.badge
+#  type: badge
+#  title: Introduction to cloud deployment models 
+#  summary: Badge for the 'Understand the benefits and costs of cloud computing' module.
+#  iconUrl: /learn/achievements/understand-the-benefits-and-costs-of-cloud-computing.svg

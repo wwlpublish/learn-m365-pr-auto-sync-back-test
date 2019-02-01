@@ -17,8 +17,8 @@ abstract: |
    - Understand the value provided by the Microsoft 365 Solution Pillars
    - Name the subscription options
 prerequisites: None
-#TODO: Update with correct value.
-iconUrl: /learn/achievements/what-is-m365.svg
+#TODO: Update with correct value, i.e. /learn/achievements/what-is-m365.svg
+iconUrl: http://via.placeholder.com/120x120
 levels:
 - beginner
 roles:
@@ -30,6 +30,6 @@ products:
 units:
 - learn-m365.what-is-m365.1-introduction
 - learn-m365.what-is-m365.2-content
-- learn-m365.what-is-m365.3-summary-and-resources
+- learn-m365.what-is-m365.3-summary-and-knowledge-check
 badge: 
   uid: learn-m365.what-is-m365.badge

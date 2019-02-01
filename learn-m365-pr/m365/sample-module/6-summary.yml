@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn.welcome-to-azure.6-summary
+uid: learn-m365.what-is-m365.3-summary-and-knowledge-check
 title: Summary
 metadata:
   title: Summary
@@ -12,7 +12,7 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 1
 content: |
-  [!include[](includes/6-summary.md)]
+  [!include[](includes/3-summary-and-knowledge-check.md)]
 quiz:
     title: Check your knowledge
     questions:
