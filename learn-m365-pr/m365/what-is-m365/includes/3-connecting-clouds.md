@@ -1,6 +1,6 @@
 Now that you’ve learned more about Microsoft 365, it’s time to explore what Microsoft 365 can do. As mentioned in the previous unit, by connecting Office 365, Windows 10 Enterprise, Enterprise Mobility + Security into a single subscription model, Microsoft 365 helps drive digital transformation in four key areas: 
 
-![The value of connecting cloude services](../media/3-connected-clouds.png)
+![The value of connecting cloude services](media/3-connected-clouds.png)
 
 ## Unlocks creativity 
 Creativity capabilities in Microsoft 365 are all about providing AI-powered tools that unleash creativity and fuel innovation. Create high-quality content that stands out, from impressive slides to animated 3D models and immersive mixed reality experiences. Turn an ever-growing mass of data into actionable insights to transform your organization. Find people and access the information you need without leaving the flow of your work. Remove distractions and overcome information overload by focusing on what is most important. Go from thought to content effortlessly on any device through more natural ways of working with voice, touch, and pen.

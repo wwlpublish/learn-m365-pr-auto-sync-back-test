@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.what-is-m365.1-whats-in-m365
+uid: learn-m365.what-is-m365.2-whats-in-m365
 title: Introduction
 metadata:
   title: Introduction
@@ -12,4 +12,4 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 4
 content: |
-  [!include[](includes/1-whats-in-m365.md)]
+  [!include[](includes/2-whats-in-m365.md)]
