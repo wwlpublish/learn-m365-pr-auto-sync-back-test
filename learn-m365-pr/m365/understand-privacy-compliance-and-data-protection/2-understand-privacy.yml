@@ -15,4 +15,4 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 3
 content: |
-  [!include[](includes/2-understand-privacy)]
+  [!include[](includes/2-understand-privacy.md)]
