@@ -1,10 +1,11 @@
 ### YamlMime:Achievements
 achievements:
-#- uid: learn-m365.what-is-m365.trophy
-#  type: trophy
-#  title: What is Microsoft 365
-#  summary: Trophy for the 'What is Microsoft 365' learning path.
-#  iconUrl: /learn-m365-pr/achievements/what-is-m365.svg
+- uid: learn-m365.what-is-m365.trophy
+  type: trophy
+  title: What is Microsoft 365
+  summary: Trophy for the 'What is Microsoft 365' learning path.
+  #TODO: Update with correct value, i.e. /learn/achievements/what-is-m365.svg
+  iconUrl: http://via.placeholder.com/120x120
 #- uid: learn-m365.introduction-to-cloud-computing.badge
 #  type: badge
 #  title: Introduction to cloud computing
