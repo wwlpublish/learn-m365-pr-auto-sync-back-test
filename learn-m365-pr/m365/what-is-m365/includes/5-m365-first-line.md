@@ -1,0 +1,10 @@
+So far, you’ve seen the benefit of using cloud computing. Let’s dive into one of the ways that cloud computing and Microsoft 365 are helping organizations empower all employees—from executives, to information workers, to first-line workers. 
+
+By providing the processes and technology tools that enhance productivity and promote the collaboration that is core to accelerating organizations, you can grow your business faster, in all roles, including the following:
+
+- **Information workers who are in office roles such as sales, accounting, engineering, administration, management, and design.** Information is their input, and with the right productivity tools in hand, they develop products, establish schedules, determine costs, and gain insight into the nature of the organization and its business.
+- **First-line workers are generally customer service representatives, support and repair technicians, service professionals, and more.** These people sit on the company’s “first line” and are commonly the first point of contact for customers. These employees need the right productivity and collaboration tools to empower them to do their best work. They also need to connect securely through any device wherever they are and use the most up-to-date software to keep business information protected.
+
+Microsoft 365 blends critical organizational tasks with technology solutions to meet the needs of modern organizations and all sorts of busy professionals. Microsoft 365 improves enterprise collaboration, provides a modernized system that is continually updated, and increases productivity for your modern workforce, no matter where your employees are or what devices they’re using. 
+
+For more information about solutions that Microsoft offers first-line workers, go to https://blogs.technet.microsoft.com/skypehybridguy/2018/01/04/first-line-worker-your-most-valuable-employees/
