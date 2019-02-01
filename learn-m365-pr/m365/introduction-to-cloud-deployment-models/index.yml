@@ -1,5 +1,5 @@
 ### YamlMime:Module
-uid: learn-m365.introduction-to-cloud-development-models
+uid: learn-m365.introduction-to-cloud-deployment-models
 metadata:
   title: Introduction to cloud development models - Learn
   description: This module introduces you to the public, private, and hybrid deployment models. 
@@ -9,14 +9,14 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
   ROBOTS: NOINDEX
-title: Introduction to cloud development models
+title: Introduction to cloud deployment models
 summary: Cloud deployment models are the different ways you can set up your cloud depending on where you store your data, how you want to access it, and where your applications run.   
 abstract: |
   In this module, you will:
    - Define the three deployment models  
    - List the advantages and considerations for each  
 prerequisites: None
-#TODO: Update with correct value, i.e. /learn/achievements/introduction-to-cloud-development-models.svg
+#TODO: Update with correct value, i.e. /learn/achievements/introduction-to-cloud-deployment-models.svg
 iconUrl: http://via.placeholder.com/120x120
 levels:
 - beginner
@@ -27,8 +27,8 @@ products:
 - m365
 - azure
 units:
-- learn-m365.introduction-to-cloud-development-models.1-introduction
-- learn-m365.introduction-to-cloud-development-models.2-content
-- learn-m365.introduction-to-cloud-development-models.3-summary-and-knowledge-check
+- learn-m365.introduction-to-cloud-deployment-models.1-introduction
+- learn-m365.introduction-to-cloud-deployment-models.2-content
+- learn-m365.introduction-to-cloud-deployment-models.3-summary-and-knowledge-check
 badge: 
-  uid: learn-m365.introduction-to-cloud-development-models.badge
+  uid: learn-m365.introduction-to-cloud-deployment-models.badge
