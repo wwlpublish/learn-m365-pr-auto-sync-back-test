@@ -33,5 +33,5 @@ units:
 - learn.welcome-to-azure.3-create-a-vm
 - learn.welcome-to-azure.4-add-web-server
 - learn.welcome-to-azure.5-scale-up
-- learn.welcome-to-azure.6-summary
+#- learn.welcome-to-azure.6-summary
 achievement: learn.welcome-to-azure.badge
