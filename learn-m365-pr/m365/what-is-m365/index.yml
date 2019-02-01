@@ -29,10 +29,15 @@ products:
 - azure
 units:
 - learn-m365.what-is-m365.1-introduction
+<<<<<<< HEAD
 - learn-m365.what-is-m365.2-whats-in-m365
 - learn-m365.what-is-m365.3-connecting-clouds
 - learn-m365.what-is-m365.4-m365-subscriptions
 - learn-m365.what-is-m365.5-m365-first-line
 - learn-m365.what-is-m365.6-summary-and-knowledge-check
+=======
+- learn-m365.what-is-m365.2-what-is-in-m365
+- learn-m365.what-is-m365.3-summary-and-knowledge-check
+>>>>>>> bc8ca919a5ca03940dada7bfa068208916363b31
 badge: 
   uid: learn-m365.what-is-m365.badge
