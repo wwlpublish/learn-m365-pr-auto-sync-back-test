@@ -1,11 +1,8 @@
-<!--# Heading 1 is pulled in from metadata in .yml files, no need to add level 1 heading, just add you first paragraph here. Remove this comment.-->
+In this module you’ll learn about the benefits that cloud computing services bring to organizations, and how the costing model works. 
 
 ## Learning objectives
 
-In this module, you will:
+At the end of this module, you will be able to:
 
 - Explain what cloud computing is 
 - Identify different cloud deployment models  
-
-## Prerequisites 
-<!--if any, otherwise delete this topic. Remove this comment.-->
