@@ -1,0 +1,18 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.what-is-m365.2-content
+#TODO: Add real titles based on unit.
+title: Content
+metadata:
+  title: Content
+  #TODO: Add the unit description.
+  description: Learn about the business value of Dynamics 365 Business Central and how it meets business needs across roles and organizations.
+  msdate: 02/08/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  #TODO: Update with correct ms.prod value.
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-content.md)]
