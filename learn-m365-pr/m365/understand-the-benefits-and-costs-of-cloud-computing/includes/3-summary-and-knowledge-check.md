@@ -1,0 +1,1 @@
+Have a basic understanding of what cloud computing is, and the cloud services offered in Microsoft 365.
