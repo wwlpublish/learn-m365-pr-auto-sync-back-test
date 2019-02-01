@@ -30,6 +30,7 @@ units:
 - learn-m365.introduction-to-cloud-computing.1-introduction
 - learn-m365.introduction-to-cloud-computing.2-intro-to-cloud
 - learn-m365.introduction-to-cloud-computing.3-explore-computing
-- learn-m365.introduction-to-cloud-computing.3-summary-and-knowledge-check
+- learn-m365.introduction-to-cloud-computing.4-what-is-microsoft-azure
+- learn-m365.introduction-to-cloud-computing.5-summary-and-knowledge-check
 badge: 
   uid: learn-m365.introduction-to-cloud-computing.badge

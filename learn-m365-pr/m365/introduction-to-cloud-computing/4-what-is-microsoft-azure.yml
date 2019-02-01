@@ -1,18 +1,16 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.introduction-to-cloud-computing.2-content
-#TODO: Add real titles based on unit.
-title: Content
+uid: learn-m365.introduction-to-cloud-computing.4-what-is-microsoft-azure
+title: What is Microsoft Azure?
 metadata:
-  title: Content
+  title: What is Microsoft Azure?
   #TODO: Add the unit description.
   description: Learn about cloud computing.
   msdate: 02/08/2019
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
-  #TODO: Update with correct ms.prod value.
   ms.prod: learning-m365
   ROBOTS: NOINDEX
 durationInMinutes: 3
 content: |
-  [!include[](includes/2-content.md)]
+  [!include[](includes/4-what-is-microsoft-azure.md)]

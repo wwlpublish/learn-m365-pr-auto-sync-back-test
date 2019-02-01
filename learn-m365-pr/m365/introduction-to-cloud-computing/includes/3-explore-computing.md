@@ -8,7 +8,7 @@ Cloud computing providers offer a wide range of services to meet the different n
 
 To get a basic understanding of some of the services that the cloud provides, let’s briefly look at two common services that all cloud providers offer – compute power and storage. 
 
-![Cloud - compute power and storage](media/3-compute-power-storage.png)
+![Cloud - compute power and storage](../media/3-compute-power-storage.png)
 
 ## Compute power
 You use compute power every day – when you send emails, browse websites, or check the weather on your mobile device. Hardware is there behind the scenes doing all the computer processing work needed to accomplish these tasks.
@@ -36,4 +36,4 @@ Cloud providers generally offer three service models:
 
 These models differ based on the components that are managed by the cloud vendor. The following figure breaks down how these different service offerings are managed in Microsoft Azure’s cloud service:
   
-![Microsoft Azure's service offerings and how they're managed](media/3-azure-services.png)
+![Microsoft Azure's service offerings and how they're managed](../media/3-azure-services.png)
