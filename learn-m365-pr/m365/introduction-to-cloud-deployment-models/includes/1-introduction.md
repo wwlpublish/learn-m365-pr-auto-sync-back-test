@@ -1,11 +1,10 @@
-<!--# Heading 1 is pulled in from metadata in .yml files, no need to add level 1 heading, just add you first paragraph here. Remove this comment.-->
+Cloud deployment models are the different ways you can set up your cloud depending on where you store your data, how you want to access it, and where your applications run. 
+
+This module introduces you to the public, private, and hybrid deployment models.
 
 ## Learning objectives
 
-In this module, you will:
+At the end of this module, you will be able to:
 
 - Define the three deployment models
 - List the advantages and considerations for each  
-
-## Prerequisites 
-<!--if any, otherwise delete this topic. Remove this comment.-->

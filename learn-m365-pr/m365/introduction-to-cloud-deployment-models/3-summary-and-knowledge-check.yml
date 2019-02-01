@@ -21,29 +21,29 @@ quiz:
       choices:
       - content: "True"
         isCorrect: true
-        explanation: "Explain why this is correct."
+        explanation: "Choose the cloud provider that offers the best solution for your specific needs."
       - content: "False"
         isCorrect: false
-        explanation: "Explain why this is incorrect."
+        explanation: "Choose the cloud provider that offers the best solution for your specific needs."
     - content: "A manufacturer wants to keep tight control over their design plans and doesn’t want to maintain their outdated email system on premises anymore.  What type of deployment model might be her best option?"
       choices:
       - content: "Hybrid"
         isCorrect: true
-        explanation: "Explain why this is correct."
+        explanation: "A hybrid solution lets the manufacturer take advantage of cloud-based email while also keeping her files secure."
       - content: "Private"
         isCorrect: false
-        explanation: "Explain why this is incorrect."
+        explanation: "A hybrid solution lets the manufacturer take advantage of cloud-based email while also keeping her files secure."
       - content: "Public"
         isCorrect: false
-        explanation: "Explain why this is incorrect."
+        explanation: "A hybrid solution lets the manufacturer take advantage of cloud-based email while also keeping her files secure."
     - content: "Tailspin Toys is a small, specialty toy dealer. It has a web-based storefront as well as a brick and mortar store. What type of deployment model might be best for them?"
       choices:
       - content: "Public"
         isCorrect: true
-        explanation: "Explain why this is correct."
+        explanation: "A public cloud works best for Tailspin."
       - content: "Private"
         isCorrect: false
-        explanation: "Explain why this is incorrect."
+        explanation: "A public cloud works best for Tailspin."
       - content: "Hybrid"
         isCorrect: false
-        explanation: "Explain why this is incorrect."
+        explanation: "A public cloud works best for Tailspin."
