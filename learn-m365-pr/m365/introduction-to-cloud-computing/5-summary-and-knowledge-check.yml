@@ -36,7 +36,7 @@ quiz:
       - content: "All of the above"
         isCorrect: true
         explanation: "All of these are common cloud services."
-   - content: "The cloud provider is responsible for the physical hardware required to execute your work, and for keeping it up to date. What you are responsible for depends on the type of cloud service model you choose."
+    - content: "The cloud provider is responsible for the physical hardware required to execute your work and for keeping it up to date. What you are responsible for depends on the type of cloud service model you choose."
       choices:
       - content: "True"
         isCorrect: true

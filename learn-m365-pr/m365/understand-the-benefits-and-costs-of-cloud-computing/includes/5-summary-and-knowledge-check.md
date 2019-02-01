@@ -1,0 +1,1 @@
+Cloud computing aims to make running an organization easier. It’s cost-effective, scalable, elastic, current, reliable, and secure. This means you’re able to spend more time on what matters to you and your organization.

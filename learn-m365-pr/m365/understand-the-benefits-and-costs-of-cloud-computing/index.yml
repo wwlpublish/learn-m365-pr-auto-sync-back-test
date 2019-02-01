@@ -17,7 +17,6 @@ abstract: |
    - Identify types of expenditures 
    - Describe on-premises vs cloud costs   
 prerequisites: None
-#TODO: Update with correct value, i.e. /learn/achievements/understand-the-benefits-and-costs-of-cloud-computing.svg
 iconUrl: http://via.placeholder.com/120x120
 levels:
 - beginner
@@ -29,7 +28,9 @@ products:
 - azure
 units:
 - learn-m365.understand-the-benefits-and-costs-of-cloud-computing.1-introduction
-- learn-m365.understand-the-benefits-and-costs-of-cloud-computing.2-content
-- learn-m365.understand-the-benefits-and-costs-of-cloud-computing.3-summary-and-knowledge-check
+- learn-m365.understand-the-benefits-and-costs-of-cloud-computing.2-benefits-of-cloud-computing
+- learn-m365.understand-the-benefits-and-costs-of-cloud-computing.3-funding-models
+- learn-m365.understand-the-benefits-and-costs-of-cloud-computing.4-onprem-cloud-costs
+- learn-m365.understand-the-benefits-and-costs-of-cloud-computing.5-summary-and-knowledge-check
 badge: 
   uid: learn-m365.understand-the-benefits-and-costs-of-cloud-computing.badge
