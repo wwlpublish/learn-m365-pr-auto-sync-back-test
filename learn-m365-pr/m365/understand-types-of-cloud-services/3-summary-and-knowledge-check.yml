@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.understand-types-of-cloud-services.3-summary-and-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Review what you've learned and discover how to continue your journey.
+  ms.date: 02/08/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 1
+content: |
+  [!include[](includes/3-summary-and-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    #TODO: Edit the question and choices to fit the contents and knowledge check.
+    - content: "Which type of cloud service would you use if you wanted to move a legacy accounting system off of on-premises hardware to a virtual machine in the cloud?"
+      choices:
+      - content: "SaaS"
+        isCorrect: false
+        explanation: "Explain why this is incorrect."
+      - content: "PaaS"
+        isCorrect: false
+        explanation: "Explain why this is incorrect."
+      - content: "IaaS"
+        isCorrect: true
+        explanation: "Explain why this is correct."
+    - content: "Office 365 is what type of cloud service?"
+      choices:
+      - content: "SaaS"
+        isCorrect: true
+        explanation: "Explain why this is correct."
+      - content: "PaaS"
+        isCorrect: false
+        explanation: "Explain why this is incorrect."
+      - content: "IaaS"
+        isCorrect: false
+        explanation: "Explain why this is incorrect."
+    - content: "Which type of cloud service provides a framework that developers can build on to develop or customize cloud-based applications?"
+      choices:
+      - content: "SaaS"
+        isCorrect: false
+        explanation: "Explain why this is incorrect."
+      - content: "PaaS"
+        isCorrect: true
+        explanation: "Explain why this is correct."
+      - content: "IaaS"
+        isCorrect: false
+        explanation: "Explain why this is incorrect."
