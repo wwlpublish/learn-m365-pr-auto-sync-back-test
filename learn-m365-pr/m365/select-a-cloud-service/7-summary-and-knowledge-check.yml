@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.select-a-cloud-service.6-plan-and-compare
+uid: learn-m365.select-a-cloud-service.7-summary-and-knowledge-check
 title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
@@ -12,7 +12,7 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 1
 content: |
-  [!include[](includes/3-summary-and-knowledge-check.md)]
+  [!include[](includes/7-summary-and-knowledge-check.md)]
 quiz:
     title: Check your knowledge
     questions:
