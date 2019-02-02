@@ -1,0 +1,40 @@
+### YamlMime:Module
+uid: learn-m365.introduction-to-simplified-management
+metadata:
+  title: Introduction to simplified management - Learn
+  description: This module introduces you to the common device management and configuration issues and the tools that M365 provides to help you address them.
+  ms.date: 02/08/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+title: Introduction to simplified management in Microsoft 365
+summary: This module introduces you to the common device management and configuration issues and the tools that M365 provides to help you address them.   
+abstract: |
+  In this module, you will:
+   - Identify challenges involved with managing the modern workplace
+   - Define MDM and MAM
+   - Understand how Microsoft 365 protects user data 
+prerequisites: None
+iconUrl: http://via.placeholder.com/120x120
+levels:
+- beginner
+roles:
+- administrator
+products:
+- m365
+- azure
+units:
+- learn-m365.introduction-to-simplified-management.1-introduction
+- learn-m365.introduction-to-simplified-management.2-explore-simplified-management
+- learn-m365.introduction-to-simplified-management.3-manage-modern-workplace
+- learn-m365.introduction-to-simplified-management.4-mdm-and-mam
+- learn-m365.introduction-to-simplified-management.5-how-m365-does-mdm-mam
+- learn-m365.introduction-to-simplified-management.6-emm-unified-endpoint
+- learn-m365.introduction-to-simplified-management.7-protect-data
+- learn-m365.introduction-to-simplified-management.8-wip
+- learn-m365.introduction-to-simplified-management.9-assess-compliance
+- learn-m365.introduction-to-simplified-management.10-summary-and-knowledge-check
+badge: 
+  uid: learn-m365.introduction-to-cloud-deployment-models.badge
