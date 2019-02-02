@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.select-a-cloud-service.3-summary-and-knowledge-check
+uid: learn-m365.select-a-cloud-service.6-plan-and-compare
 title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
@@ -17,19 +17,19 @@ quiz:
     title: Check your knowledge
     questions:
     #TODO: Edit the question and choices to fit the contents and knowledge check.
-    - content: "A Hybrid cloud service model allows you to combine your on-premises environment with cloud-based services?"
+    - content: "A hybrid cloud service model allows you to combine your on-premises environment with cloud-based services?"
       choices:
-      - content: "False"
-        isCorrect: false
-        explanation: "Explain why this is incorrect."
       - content: "True"
         isCorrect: true
-        explanation: "Explain why this is correct."
+        explanation: "A hybrid cloud environment combines your on-premises resources with cloud services."
+      - content: "False"
+        isCorrect: false
+        explanation: "A hybrid cloud environment combines your on-premises resources with cloud services."
     - content: "To maximize the value of Microsoft 365 integrated suite of products to an organization, you need to develop a migration strategy. ?"
       choices:
       - content: "True"
         isCorrect: true
-        explanation: "Explain why this is correct."
+        explanation: "There are many different considerations when moving to Microsoft 365. "
       - content: "false"
         isCorrect: false
-        explanation: "Explain why this is incorrect."
+        explanation: "There are many different considerations when moving to Microsoft 365. "

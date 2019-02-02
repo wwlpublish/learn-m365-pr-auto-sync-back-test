@@ -12,7 +12,7 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 1
 content: |
-  [!include[](includes/3-summary-and-knowledge-check.md)]
+  [!include[](includes/5-summary-and-knowledge-check.md)]
 quiz:
     title: Check your knowledge
     questions:
@@ -21,32 +21,32 @@ quiz:
       choices:
       - content: "SaaS"
         isCorrect: false
-        explanation: "Explain why this is incorrect."
+        explanation: "VM = infrastructure. The correct answer is IaaS."
       - content: "PaaS"
         isCorrect: false
-        explanation: "Explain why this is incorrect."
+        explanation: "VM = infrastructure. The correct answer is IaaS."
       - content: "IaaS"
         isCorrect: true
-        explanation: "Explain why this is correct."
+        explanation: "VM = infrastructure. The correct answer is IaaS."
     - content: "Office 365 is what type of cloud service?"
       choices:
       - content: "SaaS"
         isCorrect: true
-        explanation: "Explain why this is correct."
+        explanation: "Office 365 gives you access to software and services in the cloud, making it SaaS."
       - content: "PaaS"
         isCorrect: false
-        explanation: "Explain why this is incorrect."
+        explanation: "Office 365 gives you access to software and services in the cloud, making it SaaS."
       - content: "IaaS"
         isCorrect: false
-        explanation: "Explain why this is incorrect."
+        explanation: "Office 365 gives you access to software and services in the cloud, making it SaaS."
     - content: "Which type of cloud service provides a framework that developers can build on to develop or customize cloud-based applications?"
       choices:
       - content: "SaaS"
         isCorrect: false
-        explanation: "Explain why this is incorrect."
+        explanation: "PaaS lets developers create applications using built-in software components."
       - content: "PaaS"
         isCorrect: true
-        explanation: "Explain why this is correct."
+        explanation: "PaaS lets developers create applications using built-in software components."
       - content: "IaaS"
         isCorrect: false
-        explanation: "Explain why this is incorrect."
+        explanation: "PaaS lets developers create applications using built-in software components."

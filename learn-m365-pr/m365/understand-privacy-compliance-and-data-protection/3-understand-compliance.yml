@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.understand-privacy-compliance-and-data-protection.3-understand-copmliance
+title: Understand compliance
+metadata:
+  title: Understand compliance
+  description: Learn about data compliance in the cloud.
+  msdate: 02/08/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-understand-compliance.md)]

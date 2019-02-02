@@ -1,0 +1,17 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.select-a-cloud-service.6-plan-and-compare
+#TODO: Add real titles based on unit.
+title: Plan and compare purchasing and subscription models
+metadata:
+  title: Plan and compare purchasing and subscription models
+  description: Learn the difference between purchasing software and subscribing to services.
+  msdate: 02/08/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  #TODO: Update with correct ms.prod value.
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+  [!include[](includes/6-plan-and-compare.md)]

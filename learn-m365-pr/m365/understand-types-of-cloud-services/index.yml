@@ -30,6 +30,8 @@ products:
 units:
 - learn-m365.understand-types-of-cloud-services.1-introduction
 - learn-m365.understand-types-of-cloud-services.2-what-is-saas
-- learn-m365.understand-types-of-cloud-services.3-summary-and-knowledge-check
+- learn-m365.understand-types-of-cloud-services.3-what-is-paas
+- learn-m365.understand-types-of-cloud-services.4-what-is-iaas
+- learn-m365.understand-types-of-cloud-services.5-summary-and-knowledge-check
 badge: 
   uid: learn-m365.understand-types-of-cloud-services.badge

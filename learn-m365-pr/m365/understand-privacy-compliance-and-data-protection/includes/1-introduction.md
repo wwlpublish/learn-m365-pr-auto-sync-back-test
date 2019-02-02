@@ -1,4 +1,4 @@
-<!--# Heading 1 is pulled in from metadata in .yml files, no need to add level 1 heading, just add you first paragraph here. Remove this comment.-->
+You will be partnering with your cloud service provider to make sure your data and services are only accessed by the people who should use them, and that private information stays private   and protected. This module introduces you to basic things to keep in mind as you evaluate what your cloud service provider will do.
 
 ## Learning objectives
 
@@ -7,6 +7,3 @@ In this module, you will:
 - Explain the basic things to look for when evaluating a Cloud Service Provider’s Privacy and Compliance policies.
 - Summarize a service provider’s disaster recovery and organizational continuity offerings
 - Recall general knowledge about compliance, privacy, and data protection.
-
-## Prerequisites 
-<!--if any, otherwise delete this topic. Remove this comment.-->

@@ -30,6 +30,8 @@ products:
 units:
 - learn-m365.understand-privacy-compliance-and-data-protection.1-introduction
 - learn-m365.understand-privacy-compliance-and-data-protection.2-understand-privacy
-- learn-m365.understand-privacy-compliance-and-data-protection.3-summary-and-knowledge-check
+- learn-m365.understand-privacy-compliance-and-data-protection.3-understand-compliance
+- learn-m365.understand-privacy-compliance-and-data-protection.4-understand-data-protection
+- learn-m365.understand-privacy-compliance-and-data-protection.5-summary-and-knowledge-check
 badge: 
   uid: learn-m365.understand-privacy-compliance-and-data-protection.badge

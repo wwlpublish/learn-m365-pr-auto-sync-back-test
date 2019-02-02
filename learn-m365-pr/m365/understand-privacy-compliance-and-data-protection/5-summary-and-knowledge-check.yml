@@ -19,34 +19,25 @@ quiz:
     #TODO: Edit the questions and choices to fit the contents and knowledge check.
     - content: "When running services and storing data in the cloud, you should follow the standard best practices for security, just as you would on any on-premises network."
       choices:
-      - content: "SaaS"
-        isCorrect: false
-        explanation: "Explain why this is incorrect."
-      - content: "PaaS"
-        isCorrect: false
-        explanation: "Explain why this is incorrect."
-      - content: "IaaS"
+      - content: "True"
         isCorrect: true
-        explanation: "Explain why this is correct."
+        explanation: "Security requirements are the same, whether you are in the cloud or on-premises."
+      - content: "False"
+        isCorrect: false
+        explanation: "Security requirements are the same, whether you are in the cloud or on-premises."
     - content: "If you work with European companies or customers, you only have to abide by the United States regulations because your company is based in the United States?"
       choices:
-      - content: "SaaS"
+      - content: "True"
+        isCorrect: false
+        explanation: "You need to abide by the regulations of all governments where you do business."
+      - content: "False"
         isCorrect: true
-        explanation: "Explain why this is correct."
-      - content: "PaaS"
-        isCorrect: false
-        explanation: "Explain why this is incorrect."
-      - content: "IaaS"
-        isCorrect: false
-        explanation: "Explain why this is incorrect."
+        explanation: "You need to abide by the regulations of all governments where you do business."
     - content: "When considering protection for data in the cloud, you should explore how to best protect your data both where it’s stored, and when it’s being used or transmitted?"
       choices:
-      - content: "SaaS"
-        isCorrect: false
-        explanation: "Explain why this is incorrect."
-      - content: "PaaS"
+      - content: "True"
         isCorrect: true
-        explanation: "Explain why this is correct."
-      - content: "IaaS"
+        explanation: "Make sure your data is protecting, both when static and when moving."
+      - content: "False"
         isCorrect: false
-        explanation: "Explain why this is incorrect."
+        explanation: "Make sure your data is protecting, both when static and when moving."
