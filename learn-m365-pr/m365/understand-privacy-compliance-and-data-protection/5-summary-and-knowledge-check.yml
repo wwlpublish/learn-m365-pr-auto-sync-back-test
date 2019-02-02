@@ -12,7 +12,7 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 1
 content: |
-  [!include[](includes/3-summary-and-knowledge-check.md)]
+  [!include[](includes/5-summary-and-knowledge-check.md)]
 quiz:
     title: Check your knowledge
     questions:
