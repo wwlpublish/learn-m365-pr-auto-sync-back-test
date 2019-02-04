@@ -1,5 +1,0 @@
-Cloud computing changes not only how and where an organization uses computing systems, it also changes the costs associated with providing IT services – also known as the funding model. Cloud computing turns providing IT services from a full ownership model into a utility model (a service you subscribe to from a provider). Because cloud service providers operate globally, they can do things more efficiently or at a lower cost-per-unit when operating at a larger scale. This cost advantage is an important benefit in cloud computing.
-
-In the past, there was a large up-front, capital expense, known as CapEx, in hardware and infrastructure to start or grow the IT infrastructure of an organization. Cloud computing has changed that requirement to be more equivalent to paying an operating expense, known as OpEx, like an electric bill.
-
-Today, the cloud can be used to get your company up and running quickly. You can start providing services to customers without significant upfront costs or equipment setup time.

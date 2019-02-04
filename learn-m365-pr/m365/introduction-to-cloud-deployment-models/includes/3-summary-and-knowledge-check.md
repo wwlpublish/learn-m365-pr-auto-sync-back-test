@@ -1,1 +1,0 @@
-Cloud computing is flexible and gives you the ability to choose how you want to deploy it. The cloud deployment model you choose depends on your budget, security, scalability, and maintenance needs.

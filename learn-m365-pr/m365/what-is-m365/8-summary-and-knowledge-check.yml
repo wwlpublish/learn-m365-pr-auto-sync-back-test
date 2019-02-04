@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.what-is-m365.6-summary-and-knowledge-check
+uid: learn-m365.what-is-m365.8-summary-and-knowledge-check
 title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
@@ -12,7 +12,7 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 1
 content: |
-  [!include[](includes/6-summary-and-knowledge-check.md)]
+  [!include[](includes/8-summary-and-knowledge-check.md)]
 quiz:
     title: Check your knowledge
     questions:
@@ -32,3 +32,11 @@ quiz:
       - content: "Yes, you can choose the subscirption that works best for your organization."
         isCorrect: true
         explanation: "Microsoft 365 offers subscriptions to meet your organizations needs - E3, and E5, which is all of E3 and the latest advanced threat protection, security, and collaboration tools."
+    - content: "To maximize the value of Microsoft 365 integrated suite of products to an organization, you need to develop a migration strategy. ?"
+      choices:
+      - content: "True"
+        isCorrect: true
+        explanation: "There are many different considerations when moving to Microsoft 365. "
+      - content: "false"
+        isCorrect: false
+        explanation: "There are many different considerations when moving to Microsoft 365. "
