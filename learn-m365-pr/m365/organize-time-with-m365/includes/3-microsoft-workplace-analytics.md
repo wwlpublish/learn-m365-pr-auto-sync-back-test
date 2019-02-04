@@ -8,6 +8,7 @@ By augmenting Office 365 data with business outcome data, you can:
 - Establish organizational benchmarks
 
 ![Workplace analtyics](//media/3-workplace-analytics.png)
+
 You can use the data gathered by Workplace Analytics to: 
 - Improve organizational efficiency.
 - Help employees reduce work-related stress.
