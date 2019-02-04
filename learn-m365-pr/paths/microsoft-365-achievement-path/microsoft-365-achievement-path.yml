@@ -26,12 +26,6 @@ products:
 - m365
 modules:
 - learn-m365.what-is-m365
-#- learn-m365.introduction-to-cloud-computing
-#- learn-m365.understand-the-benefits-and-costs-of-cloud-computing
-- learn-m365.introduction-to-cloud-deployment-models
-#- learn-m365.understand-types-of-cloud-services
-#- learn-m365.understand-privacy-compliance-and-data-protection
-#- learn-m365.select-a-cloud-service
-#- learn.m365.introduction-to-simplified-management
+- learn.m365.introduction-to-simplified-management
 trophy: 
   uid: learn-m365.what-is-m365.trophy
