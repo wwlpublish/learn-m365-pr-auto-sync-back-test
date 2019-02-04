@@ -26,6 +26,6 @@ products:
 - m365
 modules:
 - learn-m365.what-is-m365
-- learn.m365.introduction-to-simplified-management
+#- learn.m365.introduction-to-simplified-management
 trophy: 
   uid: learn-m365.what-is-m365.trophy
