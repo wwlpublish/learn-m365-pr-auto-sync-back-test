@@ -28,7 +28,7 @@ modules:
 - learn-m365.what-is-m365
 #- learn-m365.introduction-to-cloud-computing
 #- learn-m365.understand-the-benefits-and-costs-of-cloud-computing
-- learn-m365.introduction-to-cloud-deployment-models
+#- learn-m365.introduction-to-cloud-deployment-models
 #- learn.principles-cloud-computing (TODO: Luke, Ashley, Barry to clarify/coordinate with Engineering - solve build validation error)
 #- learn-m365.understand-types-of-cloud-services (TODO: to be replaced by learn.principles-cloud-computing in learning path, see above)
 #- learn-m365.understand-privacy-compliance-and-data-protection
