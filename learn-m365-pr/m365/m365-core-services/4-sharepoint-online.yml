@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-core-features.4-sharepoint-online
+title: Understand the key features of SharePoint Online
+metadata:
+  title: Understand the key features of SharePoint Online
+  description: Learn about the features of SharePoint Online.
+  msdate: 02/08/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+  [!include[](includes/4-sharepoint-online.md)]
