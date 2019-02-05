@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.organize-time-with-m365.4-summary-and-knowledge-check
+uid: learn-m365.m365-core-services.9-summary-and-knowledge-check
 title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
@@ -12,7 +12,7 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 1
 content: |
-  [!include[](includes/4-summary-and-knowledge-check.md)]
+  [!include[](includes/9-summary-and-knowledge-check.md)]
 quiz:
     title: Check your knowledge
     questions:
