@@ -1,0 +1,59 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.explore-windows-as-a-service-model.7-summary-and-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Review what you've learned about teamwork options in Microsoft 365.
+  ms.date: 02/08/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+durationInMinutes: 1
+content: |
+  [!include[](includes/7-summary-and-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "In Windows as a service, revisions and updates are released more frequently and fall into two categories: feature updates and quality updates."
+      choices:
+      - content: "True"
+        isCorrect: true
+        explanation: "Previous servicing models saw considerably more time between releases."
+      - content: "False"
+        isCorrect: false
+        explanation: "Previous servicing models saw considerably more time between releases."
+    - content: "By defining and using deployment rings, you can effectively control how feature and quality updates are deployed through your organization."
+      choices:
+      - content: "True"
+        isCorrect: true
+        explanation: "You control who gets what updates when by assigning different people and systems to different rings and channels."
+      - content: "False"
+        isCorrect: false
+        explanation: "You control who gets what updates when by assigning different people and systems to different rings and channels."
+    - content: "Cloud-based methods include Windows Autopilot, Subscription Activation, and either Azure AD or MDM."
+      choices:
+      - content: "True"
+        isCorrect: true
+        explanation: "These are all cloud-based deployment methods."
+      - content: "False"
+        isCorrect: false
+        explanation: "These are all cloud-based deployment methods."
+    - content: "Traditional deployment tools such as Microsoft Deployment Toolkit (MDT) and System Center Configuration Manager (SCCM) can support both on-premises and cloud methods."
+      choices:
+      - content: "True"
+        isCorrect: true
+        explanation: "MDT and SCCM are both regularly updated to support the latest Windows deployment methods."
+      - content: "False"
+        isCorrect: false
+        explanation: "MDT and SCCM are both regularly updated to support the latest Windows deployment methods."
+    - content: "With Windows Autopilot enables you to customize the out-of-box experience (OOBE) for your organization’s Windows 10 computers."
+      choices:
+      - content: "True"
+        isCorrect: true
+        explanation: "Windows Autopilot lets you control what your end users see the first time they start up their new Windows device."
+      - content: "False"
+        isCorrect: false
+        explanation: "Windows Autopilot lets you control what your end users see the first time they start up their new Windows device."
+
