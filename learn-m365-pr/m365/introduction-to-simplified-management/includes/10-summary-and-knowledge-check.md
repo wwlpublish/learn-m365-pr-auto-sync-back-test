@@ -1,0 +1,1 @@
+In this module you learned how to identify challenges involved with managing the modern workplace. You learned how Microsoft DLP keeps company data secure and how Intune enables you to manage mobile devices and apps. 

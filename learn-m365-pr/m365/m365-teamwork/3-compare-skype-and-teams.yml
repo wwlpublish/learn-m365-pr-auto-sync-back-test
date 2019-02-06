@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-teamwork.3-compare-skype-and-teams
+title: Compare Microsoft Skype for Business and Microsoft Teams
+metadata:
+  title: Compare Microsoft Skype for Business and Microsoft Teams
+  description: Learn the difference between Skype for Business and Microsoft Teams.
+  msdate: 02/08/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-compare-skype-and-teams.md)]

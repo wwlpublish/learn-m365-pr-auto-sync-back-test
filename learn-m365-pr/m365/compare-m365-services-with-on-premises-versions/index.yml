@@ -30,7 +30,10 @@ products:
 - azure
 units:
 - learn-m365.compare-m365-services-with-on-premises-versions.1-introduction
-- learn-m365.compare-m365-services-with-on-premises-versions.2-compare-exchange-online-and-on-premises-exchange-server
-- learn-m365.compare-m365-services-with-on-premises-versions.3-summary-and-knowledge-check
+- learn-m365.compare-m365-services-with-on-premises-versions.2-exchange-online-server
+- learn-m365.compare-m365-services-with-on-premises-versions.3-sharepoint-online-server
+- learn-m365.compare-m365-services-with-on-premises-versions.4-skype-online-server
+- learn-m365.compare-m365-services-with-on-premises-versions.5-o365-proplus-office-server
+- learn-m365.compare-m365-services-with-on-premises-versions.6-summary-and-knowledge-check
 badge: 
   uid: learn-m365.compare-m365-services-with-on-premises-versions.badge

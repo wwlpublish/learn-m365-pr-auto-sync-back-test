@@ -32,7 +32,11 @@ products:
 - azure
 units:
 - learn-m365.explore-windows-as-a-service-model.1-introduction
-- learn-m365.explore-windows-as-a-service-model.2-understand-the-difference-between-feature-and-quality-updates
-- learn-m365.explore-windows-as-a-service-model.3-summary-and-knowledge-check
+- learn-m365.explore-windows-as-a-service-model.2-features-updates
+- learn-m365.explore-windows-as-a-service-model.3-servicing-channels
+- learn-m365.explore-windows-as-a-service-model.4-deployment-rings
+- learn-m365.explore-windows-as-a-service-model.5-waas-vs-traditional-windows
+- learn-m365.explore-windows-as-a-service-model.6-autopilot-dynamic-provisioning
+- learn-m365.explore-windows-as-a-service-model.7-summary-and-knowledge-check
 badge: 
   uid: learn-m365.explore-windows-as-a-service-model.badge

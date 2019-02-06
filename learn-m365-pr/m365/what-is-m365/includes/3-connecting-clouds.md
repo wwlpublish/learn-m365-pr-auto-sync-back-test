@@ -1,0 +1,15 @@
+Now that you’ve learned more about Microsoft 365, it’s time to explore what Microsoft 365 can do. As mentioned in the previous unit, by connecting Office 365, Windows 10 Enterprise, Enterprise Mobility + Security into a single subscription model, Microsoft 365 helps drive digital transformation in four key areas: 
+
+![The value of connecting cloude services](../media/3-connected-clouds.png)
+
+## Unlocks creativity 
+Creativity capabilities in Microsoft 365 are all about providing AI-powered tools that unleash creativity and fuel innovation. Create high-quality content that stands out, from impressive slides to animated 3D models and immersive mixed reality experiences. Turn an ever-growing mass of data into actionable insights to transform your organization. Find people and access the information you need without leaving the flow of your work. Remove distractions and overcome information overload by focusing on what is most important. Go from thought to content effortlessly on any device through more natural ways of working with voice, touch, and pen.
+
+## Built for teamwork 
+Microsoft Teams is the hub for teamwork, where you can chat, hold meetings and share files and apps. Connect your people to their content with file storage and sharing. Connect and collaborate wherever you go with Outlook for iOS and Android, which brings email, calendar, contacts and documents securely together, so you can share files, coordinate schedules, and book meetings. Use SharePoint Online to share resources, news, and apps across the organization with dynamic sites and portals. Use Yammer to build communities, conduct live and on-demand events, encourage sharing of knowledge and best practices, and crowdsource ideas. Work together in real time with Office apps. Share your files securely with OneDrive for Business and co-create in real time. See who’s working on a file with you and easily track changes with version history using apps like Word and PowerPoint.
+
+## Integrated for simplicity 
+Reduce complexity, increase agility, and lower costs by making technology easier to adopt and manage with Microsoft 365. Empower employees with the most productive tools and secure computing environment while lowering costs and simplifying IT. Provision, deploy, and manage all your devices―from mobile to PCs, across all platforms. Increase your security posture by connecting your infrastructure through the cloud, all on your own terms. Administer apps, services, data, devices, and users―all from a unified, web-based admin center. Quickly accomplish common tasks and retain the ability to dive deep from a central console. Easily assess your compliance risk, govern and protect your data, and efficiently respond to regulatory requirements.
+
+## Intelligent security 
+Microsoft 365 delivers holistic security across users, devices, apps, and data. Help stop damaging attacks with integrated and automated security. Protect against credential and device compromise with conditional access. Locate, classify, and protect information anywhere it lives. 

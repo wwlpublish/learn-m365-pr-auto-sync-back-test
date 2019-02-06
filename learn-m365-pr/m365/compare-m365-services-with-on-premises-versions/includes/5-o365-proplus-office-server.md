@@ -1,0 +1,5 @@
+Office 365 ProPlus is very similar to Office Professional Plus 2019, which is a version of Office that is available to organizations through volume licensing instead of through a Microsoft 365 plan. But, there are significant differences between the two versions of Office:
+- Office 365 ProPlus continues to get new and improved features on a regular basis, but the features included in Office Professional Plus 2019 remain the same.
+- Users can install Office 365 ProPlus on multiple devices with a single license, but Office Professional Plus 2019 can only be installed on one device with a single license.
+- There is a web-based portal where administrators can have users install Office 365 ProPlus for themselves, if the users are a local administrator on their devices. Office Professional Plus 2019 doesn’t provide a self-install portal.
+- Office 365 ProPlus is activated by connecting to the internet and needs regular internet connectivity to remain activated. Office Professional Plus 2019 is activated by using volume activation methods, such as Key Management Service (KMS), and the user’s device doesn’t require internet connectivity to remain activated.

@@ -1,0 +1,1 @@
+In this unit you learned the difference between the online Microsoft 365 services, like Exchange Online and SharePoint Online, and their respective on-premises counterparts, like Exchange Server and SharePoint Server.
