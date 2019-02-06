@@ -6,4 +6,4 @@ These key pillars are foundational to the security of every computer system:
 - Information protection
 - Security management
 
-![Key security pillars](../media/3-key-pllars.png)
+![Key security pillars](../media/3-key-pillars.png)
