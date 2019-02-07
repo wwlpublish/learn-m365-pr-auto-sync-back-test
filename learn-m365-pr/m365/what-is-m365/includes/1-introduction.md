@@ -7,4 +7,3 @@ By the end of this module, you will be able to:
 - List the components of Microsoft 365
 - Understand the value provided by the Microsoft 365 Solution Pillars
 - Name the subscription options
-- Recommend when an organization might want to move systems with older operating systems and Microsoft Office directly to Microsoft 365 instead of upgrading legacy software.

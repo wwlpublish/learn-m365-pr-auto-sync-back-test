@@ -16,7 +16,6 @@ abstract: |
    - List the components of Microsoft 365
    - Understand the value provided by the Microsoft 365 Solution Pillars
    - Name the subscription options
-   - Recommend when an organization might want to move systems with older operating systems and Microsoft Office directly to Microsoft 365 instead of upgrading legacy software.
 prerequisites: None
 #TODO: Update with correct value, i.e. /learn/achievements/what-is-m365.svg
 iconUrl: http://via.placeholder.com/120x120
@@ -33,9 +32,6 @@ units:
 - learn-m365.what-is-m365.2-whats-in-m365
 - learn-m365.what-is-m365.3-connecting-clouds
 - learn-m365.what-is-m365.4-m365-subscriptions
-- learn-m365.what-is-m365.5-m365-first-line
-- learn-m365.what-is-m365.6-plan-and-compare
-- learn-m365.what-is-m365.7-migration-m365
-- learn-m365.what-is-m365.8-summary-and-knowledge-check
+- learn-m365.what-is-m365.5-summary-and-knowledge-check
 badge: 
   uid: learn-m365.what-is-m365.badge
