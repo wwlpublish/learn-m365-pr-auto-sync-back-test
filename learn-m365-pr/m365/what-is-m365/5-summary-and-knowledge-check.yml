@@ -40,12 +40,12 @@ quiz:
       - content: "Microsoft 365 Business"
         isCorrect: false
         explanation: "This is just one of the available Microsoft 365 versions."
-              - content: "Microsoft 365 Education"
+      - content: "Microsoft 365 Education"
         isCorrect: false
         explanation: "This is just one of the available Microsoft 365 versions."
-              - content: "Microsoft 365 Firstline"
+      - content: "Microsoft 365 Firstline"
         isCorrect: false
         explanation: "This is just one of the available Microsoft 365 versions."
-              - content: "All of the above"
+      - content: "All of the above"
         isCorrect: false
         explanation: "These are all available Microsoft 365 versions."
