@@ -32,7 +32,7 @@ quiz:
       - content: "False"
         isCorrect: false
         explanation: "Microsoft 365 helps you protect all of your organization, from users to data."
-    - content: "3.	Microsoft 365 comes in which of these versions?"
+    - content: "Microsoft 365 comes in which of these versions?"
       choices:
       - content: "Microsoft 365 Enterprise"
         isCorrect: false
