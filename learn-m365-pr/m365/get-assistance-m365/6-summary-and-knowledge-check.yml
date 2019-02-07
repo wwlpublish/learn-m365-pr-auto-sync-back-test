@@ -24,17 +24,17 @@ quiz:
       - content: "False"
         isCorrect: false
         explanation: "Review the SLA so you know what to expect from the cloud provider."
-    - content: "What does "SLA" stand for?""
+    - content: "What does SLA stand for?
       choices:
       - content: "Service legal agreement"
         isCorrect: false
-        explanation: "'SLA' stands for service level agreement."
+        explanation: "SLA stands for service level agreement."
       - content: "Service level argument"
         isCorrect: false
-        explanation: "'SLA' stands for service level agreement."
+        explanation: "SLA stands for service level agreement."
       - content: "Service level agreement"
         isCorrect: true
-        explanation: "'SLA' stands for service level agreement."
+        explanation: "SLA stands for service level agreement."
     - content: "A service request is a support process that formalizes a user’s request to Microsoft Support for help. These requests can be made through different channels including telephone support, online chat support, and email."
       choices:
       - content: "True"
