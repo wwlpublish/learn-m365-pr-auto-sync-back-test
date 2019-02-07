@@ -1,0 +1,39 @@
+## YamlMime:Module
+uid: learn-m365.get-assistance-m365
+metadata:
+  title: Get assistance in Microsoft 365 - Learn
+  description: In this module, you’ll learn about what support options are available in Microsoft 365, and the guarantees and service-level agreements (SLAs) that it offers. You’ll also learn how to monitor your Microsoft 365 service health, how to create new service requests, and how to review the status of active service requests. 
+  ms.date: 02/08/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+title: Get assistance in Microsoft 365
+summary: In this module, you’ll learn about what support options are available in Microsoft 365, and the guarantees and service-level agreements (SLAs) that it offers. You’ll also learn how to monitor your Microsoft 365 service health, how to create new service requests, and how to review the status of active service requests.
+abstract: |
+  In this module, you will:
+  -	Learn what support options are available with Microsoft 365. 
+  -	Discuss guarantees, SLAs, and capping of liability of the Cloud Service Provider. 
+  - See how to create a service request and how to review any active service requests in your subscription. 
+  - See how to monitor your Microsoft 365 service health.
+prerequisites: None
+#TODO: Update with correct value, i.e. /learn/achievements/what-is-m365.svg
+iconUrl: http://via.placeholder.com/120x120
+levels:
+- beginner
+roles:
+- administrator
+products:
+#TODO: Update with correct value.
+- m365
+- azure
+units:
+- learn-m365.get-assistance-m365.1-explore-support-options
+- learn-m365.get-assistance-m365.2-m365-slas
+- learn-m365.get-assistance-m365.3-sla-considerations
+- learn-m365.get-assistance-m365.4-service-request
+- learn-m365.get-assistance-m365.5-service-health
+- learn-m365.get-assistance-m365.6-summary-and-knowledge-check
+badge: 
+  uid: learn-m365.get-assistance-m365.badge
