@@ -47,5 +47,5 @@ quiz:
         isCorrect: false
         explanation: "This is just one of the available Microsoft 365 versions."
       - content: "All of the above"
-        isCorrect: false
+        isCorrect: true
         explanation: "These are all available Microsoft 365 versions."
