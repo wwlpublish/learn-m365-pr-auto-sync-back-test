@@ -13,3 +13,20 @@ metadata:
 durationInMinutes: 1
 content: |
   [!include[](includes/5-summary-and-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "What technology can you use to discover sensitive information located on on-premises file shares or SharePoint Server sites?"
+      choices:
+      - content: "Microsoft Cloud App Security"
+        isCorrect: false
+        explanation: "You find sensitive information with Azure Information Protection Scanner."
+      - content: "Azure Information Protection Scanner"
+        isCorrect: true
+        explanation: "You find sensitive information with Azure Information Protection Scanner."
+      - content: "DLP Policies"
+        isCorrect: false
+        explanation: "You find sensitive information with Azure Information Protection Scanner."
+      - content: "Office Message Encryption"
+        isCorrect: false
+        explanation: "You find sensitive information with Azure Information Protection Scanner."
