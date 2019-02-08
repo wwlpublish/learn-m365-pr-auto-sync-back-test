@@ -31,7 +31,7 @@ products:
 - m365
 - azure
 units:
-- learn-m365.infrastructure-security-m365.1-introduction
+#- learn-m365.infrastructure-security-m365.1-introduction
 - learn-m365.infrastructure-security-m365.2-infrastructure-components
 - learn-m365.infrastructure-security-m365.3-identity-and-access
 - learn-m365.infrastructure-security-m365.4-apps-data-security

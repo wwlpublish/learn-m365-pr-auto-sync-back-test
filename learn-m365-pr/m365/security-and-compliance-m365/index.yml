@@ -10,7 +10,7 @@ metadata:
   ms.prod: learning-m365
   ROBOTS: NOINDEX
 title: Introduction to Microsoft 365 security and compliance
-summary: This module introduces security and compliance in Microsoft 365. 
+summary: In this module, you’ll learn how the cybersecurity landscape is changing and Microsoft’s approach to comprehensive security. 
 abstract: |
   In this module, you will:
   -	Describe the key pillars of security
@@ -28,7 +28,7 @@ products:
 - m365
 - azure
 units:
-- learn-m365.security-and-compliance-m365.1-introduction
+#- learn-m365.security-and-compliance-m365.1-introduction
 - learn-m365.security-and-compliance-m365.2-cybersecurity-changes
 - learn-m365.security-and-compliance-m365.3-key-security-pillars
 - learn-m365.security-and-compliance-m365.4-summary-and-knowledge-check

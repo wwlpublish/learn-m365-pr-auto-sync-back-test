@@ -10,7 +10,7 @@ metadata:
   ms.prod: learning-m365
   ROBOTS: NOINDEX
 title: Assess risk and manage compliance in Microsoft 365
-summary: Learn what compliance features are available in Microsoft 365 and how they can help your organization become and remain compliant.
+summary: Microsoft 365 complies with industry standard regulations and is designed to help you to meet the regulatory requirements for your business. In this module, you will learn what compliance features are available within Microsoft 365 and how they can help your organization become and remain compliant.
 abstract: |
   In this module, you will:
   -	Identify compliance needs in your organization.
@@ -28,7 +28,7 @@ products:
 - m365
 - azure
 units:
-- learn-m365.assess-risk-manage-compliance.1-introduction
+#- learn-m365.assess-risk-manage-compliance.1-introduction
 - learn-m365.assess-risk-manage-compliance.2-common-compliance
 - learn-m365.assess-risk-manage-compliance.3-assess-your-compliance
 - learn-m365.assess-risk-manage-compliance.4-meet-compliance

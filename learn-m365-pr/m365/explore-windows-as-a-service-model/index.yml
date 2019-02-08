@@ -10,7 +10,7 @@ metadata:
   ms.prod: learning-m365
   ROBOTS: NOINDEX
 title: Explore Windows as a service model
-summary: Have a basic understanding of what cloud computing is, and the cloud services offered in Microsoft 365.  
+summary: This module introduces the Windows as a service (WaaS) model, compares it to traditional desktop deployment, and introduces new deployment methods like Windows Autopilot.   
 abstract: |
   In this module, you will:
    - Explain what the Windows as a service model is 
@@ -31,7 +31,7 @@ products:
 - m365
 - azure
 units:
-- learn-m365.explore-windows-as-a-service-model.1-introduction
+#- learn-m365.explore-windows-as-a-service-model.1-introduction
 - learn-m365.explore-windows-as-a-service-model.2-features-updates
 - learn-m365.explore-windows-as-a-service-model.3-servicing-channels
 - learn-m365.explore-windows-as-a-service-model.4-deployment-rings

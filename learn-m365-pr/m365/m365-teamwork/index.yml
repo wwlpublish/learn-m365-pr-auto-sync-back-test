@@ -31,7 +31,7 @@ products:
 - m365
 - azure
 units:
-- learn-m365.m365-teamwork.1-introduction
+#- learn-m365.m365-teamwork.1-introduction
 - learn-m365.m365-teamwork.2-collaboration-vs-communication
 - learn-m365.m365-teamwork.3-compare-skype-and-teams
 - learn-m365.m365-teamwork.4-summary-and-knowledge-check

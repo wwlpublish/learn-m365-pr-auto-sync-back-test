@@ -1,7 +1,7 @@
 ## YamlMime:Module
 uid: learn-m365.organize-time-with-m365
 metadata:
-  title: Organize time effectively in Microsoft 365 - Learn
+  title: Analytics in Microsoft 365 - Learn
   description: In this module you’ll learn about time management with Microsoft 365. 
   ms.date: 02/08/2019
   author: lizap
@@ -9,8 +9,8 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
   ROBOTS: NOINDEX
-title: Organize time effectively in Microsoft 365
-summary: This module introduces the MyAnalytics and Workplace Analytics. 
+title: Analytics in Microsoft 365
+summary: In this module you will learn about the MyAnalytics and Workplace Analytics tools that come with Microsoft 365. These tools can be used at the individual and organizational level to better organize how work time is used. 
 abstract: |
   In this module, you will:
   -	Describe the difference between MyAnalytics and Workplace Analytics
@@ -28,7 +28,7 @@ products:
 - m365
 - azure
 units:
-- learn-m365.organize-time-with-m365.1-introduction
+#- learn-m365.organize-time-with-m365.1-introduction
 - learn-m365.organize-time-with-m365.2-microsoft-myanalytics
 - learn-m365.organize-time-with-m365.3-microsoft-workplace-analytics
 - learn-m365.organize-time-with-m365.4-summary-and-knowledge-check

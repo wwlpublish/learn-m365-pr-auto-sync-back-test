@@ -10,7 +10,7 @@ metadata:
   ms.prod: learning-m365
   ROBOTS: NOINDEX
 title: Identity and access in Microsoft 365
-summary: learn the different Microsoft solutions for managing identity and access within an organization.  
+summary: Learn the different Microsoft solutions for managing identity and access within an organization.  
 abstract: |
   In this module, you will:
   -	Describe secure authentication
@@ -29,7 +29,7 @@ products:
 - m365
 - azure
 units:
-- learn-m365.identity-and-access-in-m365.1-introduction
+#- learn-m365.identity-and-access-in-m365.1-introduction
 - learn-m365.identity-and-access-in-m365.2-secure-authentication
 - learn-m365.identity-and-access-in-m365.3-conditional-access
 - learn-m365.identity-and-access-in-m365.4-identity-protection

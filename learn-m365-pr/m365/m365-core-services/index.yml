@@ -10,7 +10,7 @@ metadata:
   ms.prod: learning-m365
   ROBOTS: NOINDEX
 title: Introduction to Microsoft 365 core services and features
-summary: This module introduces the core services and features for Microsoft 365. 
+summary: You’ve already learned that you get Office 365, Windows 10 Enterprise and Enterprise Mobility + Security in your Microsoft 365 subscription. Let’s dive into the details of what that means. 
 abstract: |
   In this module, you will:
   -	List the key features of core Microsoft 365 services and products.
@@ -29,7 +29,7 @@ products:
 - m365
 - azure
 units:
-- learn-m365.m365-core-services.1-introduction
+#- learn-m365.m365-core-services.1-introduction
 - learn-m365.m365-core-services.2-windows-10-versions
 - learn-m365.m365-core-services.3-exchange-online
 - learn-m365.m365-core-features.4-sharepoint-online

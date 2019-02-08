@@ -28,7 +28,7 @@ products:
 - m365
 - azure
 units:
-- learn-m365.strengthen-security-and-compliance.1-introduction
+#- learn-m365.strengthen-security-and-compliance.1-introduction
 - learn-m365.strengthen-security-and-compliance.2-m365-security-center
 - learn-m365.strengthen-security-and-compliance.3-microsoft-secure-score
 - learn-m365.strengthen-security-and-compliance.4-microsoft-compliance-center
