@@ -1,0 +1,42 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.introduction-to-simplified-management.10-summary-and-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Review the basics of simplified management in Microsoft 365.
+  ms.date: 02/08/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+durationInMinutes: 1
+content: |
+  [!include[](includes/10-summary-and-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Using Intune, can you enforce security policies, wipe devices, remotely, and deploy apps?"
+      choices:
+      - content: "Yes"
+        isCorrect: true
+        explanation: "Intune provides a full slate of tools to manage mobile devices."
+      - content: "No"
+        isCorrect: false
+        explanation: "Intune provides a full slate of tools to manage mobile devices."
+    - content: "An employee can create a document and then determine the level of protection that should apply to the document, such as preventing unauthorized users from opening the document."
+      choices:
+      - content: "True"
+        isCorrect: true
+        explanation: "Windows Information Protection lets you determine the level of protection for documents."
+      - content: "False"
+        isCorrect: false
+        explanation: "Windows Information Protection lets you determine the level of protection for documents."
+    - content: "Azure Information Protection encrypts documents and enforces policies on their use."
+      choices:
+      - content: "True"
+        isCorrect: true
+        explanation: "Azure Information Protection uses Azure Rights Management (Azure RMS) to provide for IRM in Office 365."
+      - content: "False"
+        isCorrect: false
+        explanation: "Azure Information Protection uses Azure Rights Management (Azure RMS) to provide for IRM in Office 365."
