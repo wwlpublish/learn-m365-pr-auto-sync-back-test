@@ -10,12 +10,12 @@ metadata:
   ms.prod: learning-m365
   ROBOTS: NOINDEX
 title: What is Microsoft 365?
-summary: Microsoft 365 Enterprise includes Office 365, Windows 10 Enterprise, and Enterprise Mobility + Security - representing a complete, intelligent solution to empower everyone in your organization to collaborate and be creative, securely. In this module you’ll learn what Microsoft 365 is and how the software as a service cloud model helps your organization. You’ll also review some considerations for how an organization approaches migrating systems with older versions of Office, Windows, and Office Server to Microsoft 365. And finally, review som business scenarios that demonstrate when to choose one type of migration over the other.
+summary: Microsoft 365 Enterprise includes Office 365, Windows 10 Enterprise, and Enterprise Mobility + Security - representing a complete, intelligent solution to empower everyone in your organization to collaborate and be creative, securely. Learn what Microsoft 365 is and how the software as a service cloud model helps your organization. 
 abstract: |
   In this module, you will:
    - Learn the components of Microsoft 365
    - Understand the value provided by the Microsoft 365 solution pillars
-   - Review the subscription options
+   - Review subscription options
 prerequisites: None
 #TODO: Update with correct value, i.e. /learn/achievements/what-is-m365.svg
 iconUrl: http://via.placeholder.com/120x120
