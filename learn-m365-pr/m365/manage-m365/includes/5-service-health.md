@@ -1,8 +1,8 @@
-The first place to go to review your Microsoft 365 subscription’s health status is Microsoft 365 admin portal. As depicted in the following figure, clicking **Service health** in the Microsoft 365 admin center’s **Health** pane will display a list of all your subscription’s services and their associated health statuses. You can also filter the list to only view incidents that can indicate a degraded or interrupted service, advisories view issues which are more limited in scope or impact, or view all services including those running normally.
+You can monitor the health of your Microsoft 365 subscription in the Microsoft 365 admin portal. As shown in the following figure, click **Service health** in the Microsoft 365 admin center’s **Health** pane to display all your subscription’s services and their associated health status. You can filter the list to view only what's most relevant to you - from services with degrated service to advisories to all services.
 
 ![Service health view](../media/5-service-health-1.png)
 
-You can also click on any entry to get more details. For example, the following screenshot displays the details of a Microsoft Exchange Online incident, including:
+lick on any entry to get more details. For example, the following screenshot shows the details of a Microsoft Exchange Online incident, including:
 - A description of the problem
 - When the incident was first logged
 - Last update to the incident

@@ -48,7 +48,7 @@ quiz:
       - content: "False"
         isCorrect: false
         explanation: "MDT and SCCM are both regularly updated to support the latest Windows deployment methods."
-    - content: "With Windows Autopilot enables you to customize the out-of-box experience (OOBE) for your organization’s Windows 10 computers."
+    - content: "Windows Autopilot enables you to customize the out-of-box experience (OOBE) for your organization’s Windows 10 computers."
       choices:
       - content: "True"
         isCorrect: true
