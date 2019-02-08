@@ -1,4 +1,4 @@
-In Windows 10, you can use deployment rings to control how and when updates are applied to your devices. Defining deployment rings is generally a one-time event (or at least infrequent), but you should revisit these groups periodically to ensure that the sequencing is still correct. Also, there are times in which client computers could move between different deployment rings when necessary. 
+In Windows 10, you can use deployment rings to control how and when updates are applied to your devices. Defining deployment rings is generally a one-time event (or at least infrequent), but you should revisit these groups periodically to ensure that the sequencing is still correct. Also, there are times in which client computers could move between  deployment rings when necessary. 
 
 A typical deployment ring strategy is described in the following table. These ring names are only examples and not related to specific build versions. (For example, there is no "Pilot" version of the SAC.) Choose ring names that are relevant for your organization.
 
