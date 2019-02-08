@@ -2,7 +2,7 @@
 uid: learn-m365.manage-m365
 metadata:
   title: Manage your Microsoft 365 subscription - Learn
-  description: This module introduces you to some basic concepts and tasks that are involved with managing your Microsoft 365 subscription including subscription billing and licensing users. 
+  description: This module introduces you to some basic concepts and tasks for managing your Microsoft 365 subscription, including subscription billing and licensing users. It also discusses how to get assistance in Microsoft 365. 
   ms.date: 02/08/2019
   author: lizap
   ms.author: elizapo
@@ -10,11 +10,15 @@ metadata:
   ms.prod: learning-m365
   ROBOTS: NOINDEX
 title: Manage your Microsoft 365 subscription
-summary: This module introduces you to some basic concepts and tasks that are involved with managing your Microsoft 365 subscription including subscription billing and licensing users.
+summary: This module introduces you to some basic concepts and tasks that are involved with managing your Microsoft 365 subscription including subscription billing and licensing users. It also discusses how to get assistance in Microsoft 365.
 abstract: |
   In this module, you will:
   -	Understand what needs to be done to manage your M365 subscription billing
   -	Understand what needs to be done to manage user licenses in your Microsoft 365 subscription
+  -	Learn what support options are available with Microsoft 365. 
+  -	Discuss guarantees, SLAs, and capping of liability of the Cloud Service Provider. 
+  - See how to create a service request and how to review any active service requests in your subscription. 
+  - See how to monitor your Microsoft 365 service health.
 prerequisites: None
 #TODO: Update with correct value, i.e. /learn/achievements/what-is-m365.svg
 iconUrl: http://via.placeholder.com/120x120
@@ -29,6 +33,10 @@ products:
 units:
 - learn-m365.manage-m365.1-manage-licenses
 - learn-m365.manage-m365.2-manage-billing
-- learn-m365.manage-m365.3-summary-and-knowledge-check
+- learn-m365.manage-m365.3-explore-support-options
+- learn-m365.manage-m365.4-m365-slas
+- learn-m365.manage-m365.5-service-request
+- learn-m365.manage-m365.6-service-health
+- learn-m365.manage-m365.7-summary-and-knowledge-check
 badge: 
   uid: learn-m365.manage-m365.badge

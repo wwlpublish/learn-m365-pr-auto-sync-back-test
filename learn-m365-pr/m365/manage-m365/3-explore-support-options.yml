@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.get-assistance-m365.1-explore-support-options
+uid: learn-m365.manage-m365.3-explore-support-options
 title: Explore support options in Microsoft 365
 metadata:
   title: Explore support options in Microsoft 365
@@ -12,4 +12,4 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 4
 content: |
-  [!include[](includes/1-explore-support-options.md)]
+  [!include[](includes/3-explore-support-options.md)]
