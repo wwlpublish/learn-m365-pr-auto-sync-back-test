@@ -1,1 +1,0 @@
-In this module you learned that Microsoft 365 Enterprise includes Office 365, Windows 10 Enterprise, and Enterprise Mobility + Security, representing a complete, intelligent solution to empower everyone in your organization to be creative and work together, securely. 
