@@ -13,12 +13,10 @@ title: Introduction to Microsoft 365 core services and features
 summary: You’ve already learned that you get Office 365, Windows 10 Enterprise, and Enterprise Mobility + Security in your Microsoft 365 subscription. However, many organizations use on-premises IT solutions that you are probably familiar with, like Exchange, and SharePoint. This means that they maintain physical or virtual servers and services in their datacenters. Let’s dive into the details of the enhancements that the cloud services bring and how they differ from the versions you are already familiar with. 
 abstract: |
   In this module, you will:
-  -	List the key features of core Microsoft 365 services and products.
   -	Understand what the core Microsoft 365 services and products do
-  -	Explain how Exchange Online differs from Exchange server
-  -	Explain how SharePoint Online differs from SharePoint Server
-  -	Explain how Skype for Business Online differs from Skype for Business Server
-  -	Explain how Office 365 ProPlus differs from Office Professional Plus 2019 
+  -	Explain the difference between the Microsoft 365 services and their on-premises counterparts (like Exchange Online and Exchange Server)
+  - Understand the role of Microsoft 365 Analytics and Microsoft Workplace Analytics
+ 
 prerequisites: None
 #TODO: Update with correct value, i.e. /learn/achievements/what-is-m365.svg
 iconUrl: http://via.placeholder.com/120x120
