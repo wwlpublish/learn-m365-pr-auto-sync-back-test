@@ -1,1 +1,0 @@
-In this unit you learned about the analytics capabilities in Microsoft 365 - MyAnalytics for individual users, and Workplace Analytics for organizations.

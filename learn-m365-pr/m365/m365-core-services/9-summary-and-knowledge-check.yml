@@ -40,3 +40,19 @@ quiz:
       - content: "False"
         isCorrect: true
         explanation: "As long as users connect to the service once every 30 days they can access the services offline."
+    - content: "MyAnalytics accesses data from your use of Office 365 to help you determine how you can become more efficient during your work day."
+      choices:
+      - content: "True"
+        isCorrect: true
+        explanation: "MyAnalytics helps you see how you spend your time at work."
+      - content: "False"
+        isCorrect: false
+        explanation: "MyAnalytics helps you see how you spend your time at work."
+    - content: "Anti-malware protection is included in SharePoint Server."
+      choices:
+      - content: "True"
+        isCorrect: false
+        explanation: "Antimalware protection is included in SharePoint Online, not SharePoint Server."
+      - content: "False"
+        isCorrect: true
+        explanation: "Antimalware protection is included in SharePoint Online, not SharePoint Server."

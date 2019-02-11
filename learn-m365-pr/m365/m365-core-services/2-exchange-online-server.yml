@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.compare-m365-services-with-on-premises-versions.2-exchange-online-server
+uid: learn-m365.m365-core-services.2-exchange-online-server
 title: Compare Exchange Online and on-premises Exchange Server
 metadata:
   title: Compare Exchange Online and on-premises Exchange Server
@@ -12,4 +12,4 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 4
 content: |
-  [!include[](includes/2-exchange-online.md)]
+  [!include[](includes/2-exchange-online-server.md)]

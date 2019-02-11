@@ -1,4 +1,4 @@
-To determine whether Exchange Online is appropriate for your organization, you must identify the differences between Exchange Online and on-premises Exchange Server. Some of these 
+To determine whether Exchange Online is right for your organization, you must understand the differences between Exchange Online and an on-premises Exchange Server. Some of these 
 differences are:
 
 - **Unlimited storage**. Many on-premises deployments of Exchange Server place relatively low limits on mailbox sizes, such as one or two gigabytes (GB). Exchange Online supports larger mailboxes of 50 GB or larger depending on the plan you have purchased.
