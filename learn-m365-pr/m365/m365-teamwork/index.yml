@@ -16,8 +16,8 @@ abstract: |
   - Compare collaboration and communication
   -	List the collaboration solutions
   -	List communication solutions
+  - Understand the role of Microsoft 365 Analytics
   -	Explain how M365 can address businesses’ collaboration needs.
-  -	Compare Skype for Business with Microsoft Teams.
 
 prerequisites: None
 #TODO: Update with correct value, i.e. /learn/achievements/what-is-m365.svg
@@ -33,7 +33,7 @@ products:
 units:
 #- learn-m365.m365-teamwork.1-introduction
 - learn-m365.m365-teamwork.2-collaboration-vs-communication
-- learn-m365.m365-teamwork.3-compare-skype-and-teams
+- learn-m365.m365-teamwork.2-choose-the-right-solution
 - learn-m365.m365-teamwork.4-summary-and-knowledge-check
 badge: 
   uid: learn-m365.m365-teamwork.badge
