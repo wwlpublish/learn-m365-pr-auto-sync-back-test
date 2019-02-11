@@ -38,14 +38,23 @@ For the latest information about Microsoft 365 Enterprise plans, features, and p
 
 ## Microsoft 365 Business
  
-Microsoft 365 Business brings together features from across Microsoft’s offerings in a solution designed for small and medium-sized organizations. Like Microsoft 365 Enterprise, Microsoft 365 Business offers the full set of productivity tools found in Office 365 and includes security and device management features. It doesn’t include some of the more advanced information protection, compliance, or analytics tools available to enterprise subscribers. It’s designed for organizations that need up to 300 licenses; if your organization is larger than that, you’ll need to subscribe to a Microsoft 365 Enterprise plan instead.
+[Microsoft 365 Business](https://www.microsoft.com/microsoft-365/business) brings together features from across Microsoft’s offerings in a solution designed for small and medium-sized organizations. Like Microsoft 365 Enterprise, Microsoft 365 Business offers the full set of productivity tools found in Office 365 and includes security and device management features. It doesn’t include some of the more advanced information protection, compliance, or analytics tools available to enterprise subscribers. It’s designed for organizations that need up to 300 licenses; if your organization is larger than that, you’ll need to subscribe to a Microsoft 365 Enterprise plan instead.
 
 <a href="https://support.office.com/en-us/article/what-is-microsoft-365-business-901e2522-c2cf-4b8c-894e-f482cda3347a"><img src="media/4-m365-video.png"></a>
 
-For the latest information about Microsoft 365 Business plans, features, and pricing, go to https://www.microsoft.com/en-US/microsoft-365/business 
 
 ## Microsoft 365 Education 
-Microsoft 365 Education is available for educational organizations. Academic licenses can be tailored to fit any institution’s needs, including productivity and security solutions for faculty, staff, and students. 
+[Microsoft 365 Education](https://www.microsoft.com/education/buy-license/microsoft365/default.aspx) is available for educational organizations. Academic licenses can be tailored to fit any institution’s needs, including productivity and security solutions for faculty, staff, and students. 
 
-For more information about Microsoft 365 Education, go to https://www.microsoft.com/en-us/education/buy-license/microsoft365/default.aspx. 
+## Microsoft 365 for first-line workers
+In an increasingly digital world, organizations can no longer ignore the unique opportunity and potential that first line workers represent, and the value that can be unlocked by maximizing their impact. First-line workers include customer service representatives, support and repair technicians, and service professionals. These people are commonly the first point of contact for customers, and they need the right productivity and collaboration tools to do their best work. They also need to connect securely through any device wherever they are and use the most up-to-date software to keep business information protected.
 
+An organization's digital transformation must be inclusive of all workers. Microsoft 365 Firstline can help you:  
+
+- **Foster culture and community**: put people first and strengthen culture, community and inclusivity by connecting Firstline Workers to each other and the rest of the company. 
+- **Train and upskill employees**: deliver new experiences to train and upskill employees, amplifying institutional knowledge and creating opportunities for workers to develop, grow, and apply their skills. 
+- **Digitize business process**: empower Firstline Workers with intelligent tools and the digital business processes they need to be agile and identify and meet business and customer needs. 
+- **Deliver real-time expertise**:  amplify the capabilities of Firstline Workers by transforming the access, application and availability of real-time expertise across the organization to solve business problems.
+- **Minimize risk and cost**: streamline IT management and extend protection to every endpoint, employee and environment.
+
+Microsoft 365 blends organizational tasks with technology solutions to meet the needs of modern organizations and all sorts of busy professionals. Microsoft 365 improves collaboration, provides a modernized system that is continually updated, and increases productivity for your modern workforce, no matter where your employees are or what devices they’re using. 
