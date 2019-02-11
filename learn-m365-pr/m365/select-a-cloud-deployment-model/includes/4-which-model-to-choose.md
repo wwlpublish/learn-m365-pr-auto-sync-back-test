@@ -6,9 +6,9 @@ When companies consider cloud solutions, they usually focus on three areas:
 - Security/reliability and compliance
 - Functionality 
 
-Because different companies have different priorities, these three categories aren’t of equal importance for everyone. While some smaller companies might favor lower cost over functionality, some larger, more complex companies might have security and compliance as their top priority. 
+Because different companies have different priorities, these three categories aren’t equally important. Some smaller companies might favor lower cost over functionality, while larger, more complex companies might have security and compliance as their top priority. 
 
-In terms of an organization’s operational activities, timing can also be a key factor. Consider the following circumstances:
+In terms of an operational activities, timing can also be a key factor. Consider the following circumstances:
 
 - **Recent investment in hardware.** A medium-sized company that has made a significant investment in new hardware for their on-premises datacenter one year ago likely won’t be interested in any major shift to the cloud for at least year or two. Companies in a similar situation will likely opt for a limited hybrid cloud model that focuses on providing functionalities they lack in their local datacenter. 
 - **Outdated hardware and systems.** In contrast to the previous example, a company that’s considering a local datacenter renewal versus cloud-based solutions as a replacement can have a very different perspective. If they have old hardware and unsupported versions of software running in their datacenter, they’ll be more likely to consider moving to the cloud. Moreover, if the cloud offering meets their security and compliance requirements, the relative cost and the type of cost model (OpEx vs. CapEx) will probably be the deciding factors. 
