@@ -1,0 +1,5 @@
+Privileged access management allows granular access control over privileged admin tasks. It can help protect your organization from breaches that may use existing privileged admin accounts with standing access to sensitive data or access to critical configuration settings. After enabling privileged access management, users will need to request just-in-time access to complete elevated and privileged tasks through an approval workflow that is highly scoped and time-bound. This gives users just-enough-access to perform the task at hand, without risking exposure of sensitive data or critical configuration settings. Enabling privileged access management will enable your organization to operate with zero standing privileges and provide a layer of defense against vulnerabilities arising because of such standing administrative access.
+
+Video (3:47): https://www.youtube.com/watch?v=30_igb5r1eE
+
+![VIDEO https://www.youtube.com/embed/30_igb5r1eE]

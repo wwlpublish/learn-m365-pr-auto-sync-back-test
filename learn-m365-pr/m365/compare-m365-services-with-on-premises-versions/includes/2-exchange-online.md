@@ -1,9 +1,0 @@
-To determine whether Exchange Online is appropriate for your organization, you must identify the differences between Exchange Online and on-premises Exchange Server. Some of these 
-differences are:
-
-- **Unlimited storage**. Many on-premises deployments of Exchange Server place relatively low limits on mailbox sizes, such as one or two gigabytes (GB). Exchange Online supports larger mailboxes of 50 GB or larger depending on the plan you have purchased.
-- **High availability**. For an on-premises Exchange Server, you need to purchase and configure hardware to store multiple mailbox copies and configure load balancing to achieve high availability. For true high availability, you also need an alternate datacenter. Whereas Exchange Online is automatically highly available with your data replicated to multiple datacenters.
-- **Backups**. With Exchange Server, you need to manage your own backups. Exchange Online does not have any built-in methods for configuring backups. Instead, it replicates data across multiple servers and datacenters, and you configure retention through single-item recovery and litigation hold.    
-- **Automatic integration with other Office 365 features**. Exchange Online offers additional features such as Office 365 groups, which integrate multiple Office 365 features together. Another example is the online viewing and editing of Office email attachments.
-- **New features**. Exchange Online has many features that do not exist in an on-premises Exchange server. It is possible that some of these features will be integrated into on-premises Exchange server in the future, but they will always appear first in Exchange Online because development happens there first.
-- **No access to Exchange Online databases or servers**. Unlike an on-premises Exchange server where you administer and manage Exchange servers and databases, Microsoft manages these items in Exchange Online.

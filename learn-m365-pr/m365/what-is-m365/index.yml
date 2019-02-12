@@ -2,21 +2,20 @@
 uid: learn-m365.what-is-m365
 metadata:
   title: What is Microsoft 365 - Learn
-  description: In this module you’ll learn what Microsoft 365 is and how the software as a service cloud model helps your organization. 
+  description: In this module you’ll learn what Microsoft 365 is and how the software as a service cloud model helps your organization. You’ll also review some considerations for how an organization approaches migrating systems with older versions of Office, Windows, and Office Server to Microsoft 365. And finally, review som business scenarios that demonstrate when to choose one type of migration over the other.
   ms.date: 02/08/2019
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
   ROBOTS: NOINDEX
-title: What is Microsoft 365
-summary: Microsoft 365 Enterprise includes Office 365, Windows 10 Enterprise, and Enterprise Mobility + Security - representing a complete, intelligent solution to empower everyone in your organization to collaborate and be creative, securely. 
+title: What is Microsoft 365?
+summary: Microsoft 365 Enterprise includes Office 365, Windows 10 Enterprise, and Enterprise Mobility + Security - representing a complete, intelligent solution to empower everyone in your organization to collaborate and be creative, securely. Learn what Microsoft 365 is and how the software as a service cloud model helps your organization. 
 abstract: |
   In this module, you will:
-   - List the components of Microsoft 365
-   - Understand the value provided by the Microsoft 365 Solution Pillars
-   - Name the subscription options
-   - Recommend when an organization might want to move systems with older operating systems and Microsoft Office directly to Microsoft 365 instead of upgrading legacy software.
+   - Learn the components of Microsoft 365
+   - Understand the value provided by the Microsoft 365 solution pillars
+   - Review subscription options
 prerequisites: None
 #TODO: Update with correct value, i.e. /learn/achievements/what-is-m365.svg
 iconUrl: http://via.placeholder.com/120x120
@@ -29,13 +28,9 @@ products:
 - m365
 - azure
 units:
-- learn-m365.what-is-m365.1-introduction
 - learn-m365.what-is-m365.2-whats-in-m365
-- learn-m365.what-is-m365.3-connecting-clouds
 - learn-m365.what-is-m365.4-m365-subscriptions
-- learn-m365.what-is-m365.5-m365-first-line
-- learn-m365.what-is-m365.6-plan-and-compare
-- learn-m365.what-is-m365.7-migration-m365
-- learn-m365.what-is-m365.8-summary-and-knowledge-check
+- learn-m365.what-is-m365.3-connecting-clouds
+- learn-m365.what-is-m365.5-summary-and-knowledge-check
 badge: 
   uid: learn-m365.what-is-m365.badge
