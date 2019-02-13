@@ -1,1 +1,1 @@
-In this unit you learned about managing subscriptions, licenses, and billing in the Microsoft 365 admin center. You also learned about getting assistance with Microsoft 365, as well as some of the basics of SLAs.
+In this unit you learned how users are granted access to Microsoft 365 services through licenses, the support options available in Microsoft 365, how SLAs work, and what to look for in your specific SLAs. You also learned how to create, submit and monitor a service request. 

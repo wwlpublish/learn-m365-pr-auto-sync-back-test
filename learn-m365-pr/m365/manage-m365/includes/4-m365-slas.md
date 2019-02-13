@@ -1,10 +1,10 @@
-As with any cloud-based service offering, Microsoft 365 subscriptions come with a guaranteed amount of uptime in terms of a percentage of service availability over a given period, such as a 99 percent available uptime average over the period of one year. The details of the guarantee are detailed in a legal agreement between a cloud service provider and the customer, known as a Service Level Agreement (SLA). The details of a SLA vary from one cloud service provider to another. 
+As with any cloud-based service offering, Microsoft 365 subscriptions come with a guaranteed amount of uptime in terms of a percentage of service availability over a given period, such as a 99 percent available uptime average over the period of one year. The details of the guarantee are detailed in a legal agreement between a cloud service provider and the customer, known as a **Service Level Agreement (SLA)**. The details of a SLA vary from one cloud service provider to another. 
 
-In addition to your CSP’s SLA, Microsoft offers Microsoft 365 subscribers a Microsoft Online Services Agreement that provides financial backing to our commitment to achieve and maintain service levels for each service.
+In addition to your CSP’s SLA, Microsoft offers Microsoft 365 subscribers a [Microsoft Online Services Agreement](https://www.microsoft.com/servicesagreement) that provides financial backing to our commitment to achieve and maintain service levels for each service.
 
 ## SLA considerations
 
-Before signing any service agreement between your organization and the cloud provider, thoroughly review the SLA. Although the cloud has much to offer, it’s not unlike any other network, server, or on-premises service - an unforeseen problem or disaster can cause the service to be unavailable. 
+Make sure you thoroughly review any service agreement before you sign it. Although the cloud has much to offer, it’s still like any other network, server, or on-premises service - an unforeseen problem or disaster can cause the service to be unavailable. 
 
 When reviewing the agreement, ask yourself the following questions:
 
