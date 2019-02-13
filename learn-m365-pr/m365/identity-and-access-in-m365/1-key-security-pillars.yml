@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.security-and-compliance-m365.3-key-security-pillars
-title: Key security pillars in Microsoft 365
+uid: identity-and-access-in-m365.1-key-security-pillars
+title: Introduction to the key security pillars in Microsoft 365
 metadata:
-  title: Key security pillars in Microsoft 365
+  title: Introduction to the key security pillars in Microsoft 365
   description: Learn about the key security pillars in Microsoft 365
   msdate: 02/08/2019
   author: lizap
@@ -12,4 +12,4 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 3
 content: |
-  [!include[](includes/3-key-security-pillars.md)]
+  [!include[](includes/1-key-security-pillars.md)]

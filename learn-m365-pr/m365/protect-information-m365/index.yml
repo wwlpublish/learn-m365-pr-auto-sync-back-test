@@ -1,21 +1,23 @@
 ## YamlMime:Module
 uid: learn-m365.protect-information-in-m365
 metadata:
-  title: Protect information in Microsoft 365 - Learn
-  description: In this module you’ll learn how Microsoft Information Protection solutions help you protect sensitive data throughout its lifecycle—across devices, apps, cloud services, and on-premises locations.  
+  title: Protect information and reduce compliance risk in Microsoft 365 - Learn
+  description: In this module, you’ll learn how Microsoft Information Protection solutions help you protect sensitive data throughout its lifecycle—across devices, apps, cloud services, and on-premises locations. You’ll also learn how these information protection capabilities help you meet your compliance needs. Microsoft 365 complies with global, industry, and regional standards and regulations and is designed to help you to meet the regulatory requirements for your business. You will learn what integrated compliance solutions are available within Microsoft 365 and how they can help your organization leverage intelligence to reduce your compliance risk.  
   ms.date: 02/08/2019
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
   ROBOTS: NOINDEX
-title: Protect information in Microsoft 365
-summary: Learn how Microsoft Information Protection solutions help you protect sensitive data throughout its lifecycle—across devices, apps, cloud services, and on-premises locations.
+title: Protect information and reduce compliance risk in Microsoft 365
+summary: In this module, you’ll learn how Microsoft Information Protection solutions help you protect sensitive data throughout its lifecycle—across devices, apps, cloud services, and on-premises locations. You’ll also learn how these information protection capabilities help you meet your compliance needs. Microsoft 365 complies with global, industry, and regional standards and regulations and is designed to help you to meet the regulatory requirements for your business. You will learn what integrated compliance solutions are available within Microsoft 365 and how they can help your organization leverage intelligence to reduce your compliance risk.
 abstract: |
   In this module, you will:
   -	Understand the key activities involved in information protection
   -	Explain how sensitivity labels can help protect content
   -	Describe some ways Microsoft 365 can prevent data loss
+  - Understand the three pillars of compliance.
+  - Explain the benefits of the Compliance Manager tool.
 prerequisites: None
 #TODO: Update with correct value, i.e. /learn/achievements/what-is-m365.svg
 iconUrl: http://via.placeholder.com/120x120

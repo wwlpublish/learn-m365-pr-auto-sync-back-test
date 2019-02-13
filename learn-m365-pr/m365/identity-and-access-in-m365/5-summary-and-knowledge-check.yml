@@ -13,3 +13,36 @@ metadata:
 durationInMinutes: 1
 content: |
   [!include[](includes/5-summary-and-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Conditional access is a solution that evaluates users, devices, apps, location, and risk before access is granted to corporate data."
+      choices:
+      - content: "True"
+        isCorrect: true
+        explanation: "True - Conditional access helps you control who has access to what from where using which device."
+      - content: "False"
+        isCorrect: false
+        explanation: "False - Conditional access helps you control who has access to what from where using which device."
+    - content: "What are some of the problems with passwords?"
+      choices:
+      - content: "Complex passwords are hard to remember."
+        isCorrect: false
+        explanation: "This is just one of the problems with passwords."
+      - content: "User often use the same password for different accounts."
+        isCorrect: false
+        explanation: "This is just one of the problems with passwords."
+      - content: "If an attacker finds a compromised password, they can access a wide variety of accounts."
+        isCorrect: false
+        explanation: "This is just one of the problems with passwords."
+      - content: "All of the above"
+        isCorrect: true
+        explanation: "These are all problems with passwords."
+    - content: "Microsoft identity protection solutions include Azure AD Identity protection, Microsoft Cloud app security, Azure Advanced Threat Protection, and Windows 10."
+      choices:
+      - content: "True"
+        isCorrect: true
+        explanation: "True - use all of these solutions to protect user identities."
+      - content: "False"
+        isCorrect: false
+        explanation: "False - these solutions make up Microsoft's identity protection."
