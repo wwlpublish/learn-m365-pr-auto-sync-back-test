@@ -29,7 +29,7 @@ products:
 - m365
 - azure
 units:
-- learn-m365.identity-and-access-in-m365.1-key-pillars
+- learn-m365.identity-and-access-in-m365.1-key-security-pillars
 - learn-m365.identity-and-access-in-m365.2-secure-authentication
 - learn-m365.identity-and-access-in-m365.3-conditional-access
 - learn-m365.identity-and-access-in-m365.4-identity-protection
