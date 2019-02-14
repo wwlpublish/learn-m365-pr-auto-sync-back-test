@@ -23,7 +23,7 @@ iconUrl: http://via.placeholder.com/120x120
 levels:
 - beginner
 roles:
-- administrator `
+- administrator
 products:
 #TODO: Update with correct value.
 - m365

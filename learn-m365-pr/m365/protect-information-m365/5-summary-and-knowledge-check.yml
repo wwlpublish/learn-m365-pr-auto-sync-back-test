@@ -24,13 +24,6 @@ quiz:
       - content: "False"
         isCorrect: true
         explanation: "Correct - Privileged access management allows granular access control over privileged admin tasks to help protect your organization from breaches that may use existing privileged admin accounts with standing access to sensitive data or critical configuration settings"
-    - content: "True or false - The Advanced Data Governance capabilities in Microsoft 365 help you manage your content over its lifecycle."
-      - content: "True"
-        isCorrect: true
-        explanation: "True - You can manage the content over the lifecycle."
-      - content: "False"
-        isCorrect: false
-        explanation: "Incorrect - You can manage the content over the lifecycle."
     - content: "What technology can you use to discover sensitive information located on on-premises file shares or SharePoint Server sites"
       - content: "Microsoft Cloud App Security"
         isCorrect: false
