@@ -1,0 +1,1 @@
+In this module you learned about Windows as a service and how Microsoft simplifies the operating system build, deployment, and servicing process. You also learned about servicing models and deployment rings.
