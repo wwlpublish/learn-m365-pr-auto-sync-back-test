@@ -26,12 +26,6 @@ It can be helpful to think about managing compliance in terms of three phases:
 - **Protect**:  Integrated protection and governance of sensitive data across devices, apps and cloud services
 - **Respond**:  Intelligently respond to data discovery requests by leveraging AI to find the most relevant data
 
-The graphic below visualizes how in each of these phases, the built-in information protection and data governance capabilities in Microsoft 365 help you achieve your compliance requirements: 
-
-- Tools like Service Trust Portal and Compliance Manager help you assess your risk. 
-- The built-in information protection and access control features in Microsoft 365 help you implement protection and data governance. 
-- Capabilities like Advanced eDiscovery and Auditing give you the tools to find information to respond to regulatory requests or investigations.
+The graphic below visualizes each of these phases and the solutions in Microsoft 365 that can help you: 
 
 ![Tools to reduce risk](../media/2-reduce-risk.png)
-
-In the following units, we’ll look at some of the tools Microsoft 365 provides to assess your compliance risk, protect and govern information, and respond to regulatory requests or manage investigations.

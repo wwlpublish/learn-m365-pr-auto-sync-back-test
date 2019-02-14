@@ -1,5 +1,5 @@
 Sensitive data may initially be created on an individual device, but it is then frequently shared or stored in other locations, such as cloud-based storage, on-premises file shares, or email. There are several complementary protection measures you can take to protect this sensitive information wherever it lives or travels: 
-- [bullet on protecting info at app level with mobile app protection policies?]
+
 - As a starting point, both Microsoft 365 has data encryption built into the service – for both data at rest and data in transit. 
 - To protect individual files, you can apply rights-based permissions so that only intended recipients can access and view the information.
 - You can apply Data Loss Prevention actions, such as blocking the sharing of a file that is detected to have sensitive information, such as credit card information or social security numbers.
@@ -30,12 +30,12 @@ Because email is one of the most common ways employees share information, it pos
 
 Video: Office 365 Essentials: Office Message Encryption: 
 
-[!VIDEO https://www.youtube.com/embed/CQR0cG_iEUc]
+>[!VIDEO https://www.youtube.com/embed/CQR0cG_iEUc]
 
 ## Prevent inappropriate sharing with Data Loss Prevention policies (DLP)
 By configuring Data Loss Prevention (DLP) policies, you can help prevent sensitive information from being leaked outside your organization. Sensitive information might include financial data, health records, or personally identifiable information (PII) such as credit card numbers or government identification numbers. DLP detects sensitive information by using deep content analysis (not just a simple text scan). This deep content analysis uses keyword matches, dictionary matches, the evaluation of regular expressions, internal functions, and other methods to detect content that matches your DLP policies. Potentially only a small percentage of your data is considered sensitive. A DLP policy can identify, monitor, and automatically protect just that data, without impeding or affecting people who work with the rest of your content.
 
-DLP includes many sensitive information types that you can use in your DLP policies. You can customize thse built-in sensitive information types or create new custom sensitive information types.
+DLP includes many sensitive information types that you can use in your DLP policies. You can customize these built-in sensitive information types or create new custom sensitive information types.
 
 With a DLP policy, you can:
 - **Identify sensitive information across many locations, such as Exchange Online, SharePoint Online, and OneDrive for Business**. For example, you can identify any document containing a credit card number that's stored in any OneDrive for Business site, or you can monitor just the OneDrive sites of specific people.

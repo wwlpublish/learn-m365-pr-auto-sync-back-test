@@ -16,8 +16,8 @@ abstract: |
   -	Understand the key activities involved in information protection
   -	Explain how sensitivity labels can help protect content
   -	Describe some ways Microsoft 365 can prevent data loss
-  - Understand the three pillars of compliance.
-  - Explain the benefits of the Compliance Manager tool.
+  -	Understand the three pillars of compliance.
+  -	Explain the benefits of the Compliance Manager tool.
 prerequisites: None
 #TODO: Update with correct value, i.e. /learn/achievements/what-is-m365.svg
 iconUrl: http://via.placeholder.com/120x120
@@ -34,6 +34,12 @@ units:
 - learn-m365.protect-information-in-m365.2-discover-and-classify
 - learn-m365.protect-information-in-m365.3-protect-and-prevent
 - learn-m365.protect-information-in-m365.4-monitor-and-respond
+- learn-m365.protect-information-in-m365.2-common-compliance
+- learn-m365.protect-information-in-m365.3-assess-your-compliance
+- learn-m365.protect-information-in-m365.4-integrated-protection
+- learn-m365.protect-information-in-m365.4-enable-encryption
+- learn-m365.protect-information-in-m365.5-enforce-zero-standing
+- learn-m365.protect-information-in-m365.6-respond-to-data-discovery
 - learn-m365.protect-information-in-m365.5-summary-and-knowledge-check
 badge: 
   uid: learn-m365.protect-information-in-m365.badge
