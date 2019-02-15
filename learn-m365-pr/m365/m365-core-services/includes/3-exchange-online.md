@@ -2,12 +2,12 @@ Exchange Online is a messaging and collaboration platform that provides one loca
 
 Some features of Exchange Online include:
 
-- **Mailboxes and online archives**. Individual users have their own mailboxes that they can use to store mail messages. In addition to the main mailbox, some plans include an online archive that provides additional storage.
-- **Calendaring**. Each user has a calendar that they can use to track upcoming events. Users can use calendars when booking meetings to verify availability. Where appropriate, users can delegate access to their calendars to other users such as administrative assistants and teammates. 
-- **View and edit Office attachments online**. When users receive Office attachments, they can view and edit them online in Outlook on the web. They do not require a locally installed version of Office.
-- **Shared mailboxes and resources**. You can use shared mailboxes for groups of users that need to share information in a central mailbox. You can configure resources for meeting rooms and equipment to facilitate booking. 
-- **Public folders**. Earlier versions of Microsoft Exchange Server relied on public folders for collaboration. This feature is still available in Exchange Online if required.
-- **Message policy and compliance**. There are several message policy and compliance features in Exchange Online. These include retention policies, message encryption, eDiscovery, data loss prevention, and journaling. 
+- **Mailboxes and online archives**. Individual users have their own mailboxes. Some plans also include an online archive for additional storage.
+- **Calendars**. Each user has a calendar that they can use to track upcoming events and check availability when booking meetings. Where appropriate, users can delegate access to their calendars to other users, like administrative assistants and teammates. 
+- **View and edit Office attachments online**. Users can view and edit Office attachments online in Outlook on the web. (They don't need a locally installed version of Office.)
+- **Shared mailboxes and resources**. Groups of users can use shared mailboxes to share information. You can configure resources for meeting rooms and equipment to facilitate booking. 
+- **Public folders**. Exchange online supports public folders for collaboration.
+- **Message policy and compliance**. Exchange Online includes message policy and compliance features like retention policies, message encryption, eDiscovery, data loss prevention, and journaling. 
 - **Antispam and anti-malware**. All Exchange Online subscriptions include Exchange Online Protection, which provides configurable antispam and anti-malware scanning.
 - **Configurable mail flow**. To support specialized mail flow (hybrid, partner, or third-party service scenarios), you can create inbound and outbound connectors in Office 365. For example, you can create connectors that use additional security settings for mail flow with a business partner. 
 - **Mobile and multiplatform access**. Users can access mailboxes and calendars from Outlook on either Windows or Mac clients by using Messaging Application Programming Interface (MAPI) over HTTPS or Microsoft Graph. Exchange Web Services is still supported but if you’re updating or creating an app, use Microsoft Graph instead. Outlook on the web supports accessing mailboxes and calendars from almost any platform. Mobile devices can access mailboxes and calendars by using Exchange ActiveSync.  

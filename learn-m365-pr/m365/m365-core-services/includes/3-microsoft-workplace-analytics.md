@@ -1,4 +1,4 @@
-While users can gain insight into their workaday practices by using MyAnalytics, analysts can identify work practices across an entire organization by using Workplace Analytics. 
+While users can gain insight into their workday practices by using MyAnalytics, analysts can identify work practices across an entire organization by using Workplace Analytics. 
 
 Workplace Analytics offers insight into how an organization spends its time by showing how groups collaborate. Business decision makers can use these insights to push for cultural transformation within the organization. 
 
