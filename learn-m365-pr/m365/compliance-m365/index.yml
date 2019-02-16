@@ -34,6 +34,7 @@ units:
 - learn-m365.compliance-m365.4-enable-encryption
 - learn-m365.compliance-m365.5-enforce-zero-standing
 - learn-m365.compliance-m365.6-respond-to-data-discovery
+- learn-m365.compliance-m365.4-microsoft-compliance-center
 - learn-m365.compliance-m365.5-summary-and-knowledge-check
 badge: 
   uid: learn-m365.compliance-m365.badge
