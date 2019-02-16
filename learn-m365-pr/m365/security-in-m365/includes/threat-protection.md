@@ -8,20 +8,6 @@ Microsoft Threat Protection helps protect users, identities, devices, user data,
 - **Cloud Apps**. Exchange Online Protection, Office 365 Advanced Threat Protection, Microsoft Cloud App Security.
 - **Infrastructure**. Azure Security Center, SQL Server, Linux.
 
-## Threat protection pillars
-
-Microsoft Threat Protection helps protect users, identities, devices, user data, apps, and your infrastructure.
-
-![Microsoft Threat Protection](../media/2-threat-protection.png)
-
-- **Identities**. Detect suspicious user behavior, logins from multiple locations, and more. Solutions include  Azure Active Directory Identity Protection, Azure Advanced Threat Protection, Microsoft Cloud App Security.
-- **Endpoints**. Help prevent attacks on devices, detect anomalous behavior, like suspicious processes, and automatically block potential threats. Solutions include Windows Defender Advanced Threat Protection, Windows 10, Microsoft Intune.
-- **User Data**. Apply analytics and intelligence to prevent threats such as phishing and 0-day attacks. Microsoft solutions include: Exchange Online Protection, Office 365 Advanced Threat Protection, Office 365 Threat Intelligence, Windows Defender Advanced Threat Protection, Microsoft Cloud App Security.
-- **Cloud Apps**. Exchange Online Protection, Office 365 Advanced Threat Protection, Microsoft Cloud App Security.
-- **Infrastructure**. Azure Security Center, SQL Server, Linux.
-
-## Threat protection solutions in Microsoft 365
-
 Microsoft threat protection solutions help you deal with threats to your users, devices, and data.
 
 ## Azure Active Directory Identity Protection 
@@ -61,7 +47,7 @@ You can use EOP for messaging protection in the following ways:
 - As a **part of Microsoft Exchange Online** by default, EOP protects Microsoft Exchange Online cloud-hosted mailboxes.
 - In a **hybrid deployment** you can configure EOP to protect your messaging environment and control mail routing when you have a mix of on-premises and cloud mailboxes.
 
-### Microsoft Intune
+## Microsoft Intune
 Microsoft Intune is the component of Enterprise Mobility + Security (EMS) that manages mobile devices and apps. Intune provides a single management experience to control the mobile devices and computers in your organization. Intune helps you set the enrollment, policies, and configurations for iOS, Android, Windows, and macOS devices. 
 
 With Intune, you can:
@@ -72,7 +58,7 @@ With Intune, you can:
 
 Intune integrates closely with other EMS components like Azure Active Directory (Azure AD) for identity and access control and Azure Information Protection for data protection. When you use it with Office 365, you can help your users be productive on all their devices, while protecting your information.
 
-### Office 365 Advanced Threat Protection
+## Office 365 Advanced Threat Protection
 Because email is a primary way malware gets into your organization, Advanced Threat PZrotection helps to identify threats before they land in a user’s mailbox. This feature,  included in Microsoft 365 E5 subscriptions, provides protection by:
 - Scanning email attachments for malware. 
 - Scanning URLs in email messages and Microsoft Office documents. 
@@ -80,7 +66,7 @@ Because email is a primary way malware gets into your organization, Advanced Thr
 - Checking email messages for unauthorized spoofing. 
 - Detecting when someone attempts to impersonate your users and access your organization's custom domains. 
 
-### Office 365 Threat Intelligence
+## Office 365 Threat Intelligence
 Office 365 Threat Intelligence helps protect your Office 365 users by:
 - Making it easy to identify, monitor, and understand attacks.
 - Helping to quickly address threats in Exchange Online and SharePoint Online.
@@ -88,11 +74,11 @@ Office 365 Threat Intelligence helps protect your Office 365 users by:
 
 Office 365 Threat Intelligence is a collection of insights and information available in the Office 365 Security & Compliance Center. These insights can help protect Office 365 users from attacks. Office 365 Threat Intelligence monitors signals and gathers data from multiple sources, such as user activity, authentication, email, compromised PCs, and security incidents. Business decision makers and Office 365 global administrators, security administrators, and security analysts can all use this information to understand and respond to threats against users and intellectual property.
 
-### Windows Defender Advanced Threat Protection (ATP)
+## Windows Defender Advanced Threat Protection (ATP)
 Windows Defender Advanced Threat Protection (ATP) helps you  prevent, detect, investigate, and respond to advanced threats. Windows Defender ATP uses technologies built into Windows 10 that connect to Microsoft's cloud services:
 - Endpoint behavioral sensors: Collect and process behavioral signals from the OS and send this sensor data to your private, isolated, cloud instance of Windows Defender ATP.
 - Cloud security analytics: Leverage big-data, machine-learning, Microsoft optics across the Windows ecosystem, to translate behavioral signals into insights, detections, and recommended responses to advanced threats.
 - Threat intelligence: Generated by Microsoft hunters, security teams, and augmented by threat intelligence provided by partners, threat intelligence enables Windows Defender ATP to identify attacker tools, techniques, and procedures, and generate alerts when these are observed in collected sensor data.
 
-### Windows 10
+## Windows 10
 Windows 10 has built-in security protections to help safeguard you against viruses, phishing, and malware. Hardware and software security features like BitLocker and credential guard help protect the integrity of the boot process and user credentials. Windows Hello helps strengthen authentication and helps to guard against potential spoofing through fingerprint matching and facial recognition. Windows Information Protection (WIP) helps protect against potential data leakage without interfering with the employee experience. WIP also helps to protect enterprise apps and data against accidental data leaks on both enterprise-owned and personal devices without requiring changes to your environment or other apps. Azure Rights Management works alongside WIP to extend data protection for data that leaves the device, such as when email attachments are sent from an enterprise-aware version of a rights management mail client.
