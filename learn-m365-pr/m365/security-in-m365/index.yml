@@ -30,6 +30,7 @@ products:
 - m365
 - azure
 units:
+- learn-m365.security-m365.key-security-pillars
 - learn-m365.security-m365.identity-and-access
 - learn-m365.security-m365.threat-protection
 - learn-m365.security-m365.information-protection

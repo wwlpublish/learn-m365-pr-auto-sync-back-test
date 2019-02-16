@@ -75,12 +75,6 @@ Sensitive data may initially be created on an individual device, but it's freque
 
 ![Sensitive information](../media/3-sensitive-info.png)
 
-Here’s a closer look at a few specific protections you can apply.
-
-- Apply encryption using a sensitivity label.
-- Prevent inappropriate sharing with Data Loss Prevention policies (DLP).
-- Protect data when it travels outside your org by using Microsoft Cloud App Security.
-
 ## Monitor and respond to threats
 There are two key activities in the “Monitor” phase of the information protection lifecycle. First, you need to **gain visibility** into all the events impacting your environment. Second, you need to **take action** or remediate, based on the event.
 
@@ -92,7 +86,7 @@ If you use a security incident and event management system (SIEM), you can also 
 
 Here’s a closer look at some of the monitoring capabilities in Microsoft 365.
 
-### Microsoft Information Protection label analytics
+### Information protection reports and analytics
 
 The Label Analytics dashboard aggregates label insights so that you can see how sensitivity and retention labels are being used for both Office 365 and non-Office 365 data.
 
