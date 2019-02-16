@@ -1,4 +1,4 @@
-You can monitor the health of your Microsoft 365 subscription in the Microsoft 365 admin portal. As shown in the following figure, click **Service health** in the Microsoft 365 admin center’s **Health** pane to display all your subscription’s services and their associated health status. You can filter the list to view only what's most relevant to you - from services with degraded service to advisories to all services.
+You can monitor the health of your Microsoft 365 services (whether it's up or down or if performance is impacted) in the Microsoft 365 admin portal. You can filter the list of subscriptions and services to view only what's most relevant to you - from services with degraded performance to advisories to all services.
 
 ![Service health view](../media/5-service-health-1.png)
 
