@@ -34,6 +34,8 @@ units:
 - learn-m365.security-m365.identity-and-access
 - learn-m365.security-m365.threat-protection
 - learn-m365.security-m365.information-protection
+- learn-m365.security-m365.m365-security-center
+- learn-m365.security-m365.microsoft-secure-score
 - learn-m365.security-m365.summary-and-knowledge-check
 badge: 
   uid: learn-m365.security-m365.badge
