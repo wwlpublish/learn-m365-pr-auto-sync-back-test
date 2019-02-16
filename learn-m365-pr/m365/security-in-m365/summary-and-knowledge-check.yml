@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.security-m365.5-summary-and-knowledge-check
+uid: learn-m365.security-m365.summary-and-knowledge-check
 title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
-  description: Review what you've learned about security and compliance in Microsoft 365.
+  description: Review what you've learned about security in Microsoft 365.
   ms.date: 02/08/2019
   author: lizap
   ms.author: elizapo
@@ -46,3 +46,11 @@ quiz:
       - content: "False"
         isCorrect: false
         explanation: "False - these solutions make up Microsoft's identity protection."
+    - content: "True or false: Privileged Access Management grants global admin rights to individuals in your organization."
+      choices:
+      - content: "True"
+        isCorrect: false
+        explanation: "False - Privileged access management allows granular access control over privileged admin tasks to help protect your organization from breaches that may use existing privileged admin accounts with standing access to sensitive data or critical configuration settings."
+      - content: "False"
+        isCorrect: true
+        explanation: "Correct - Privileged access management allows granular access control over privileged admin tasks to help protect your organization from breaches that may use existing privileged admin accounts with standing access to sensitive data or critical configuration settings"

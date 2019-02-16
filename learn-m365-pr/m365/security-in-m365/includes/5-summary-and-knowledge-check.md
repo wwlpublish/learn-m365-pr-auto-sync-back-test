@@ -1,1 +1,0 @@
-In this module you learned about the first pillar of security in Microsoft 365 - identity and access protection.

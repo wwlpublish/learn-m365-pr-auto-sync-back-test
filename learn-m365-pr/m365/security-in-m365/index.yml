@@ -9,11 +9,15 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
   ROBOTS: NOINDEX
-title: Identity and access in Microsoft 365
+title: Security in Microsoft 365
 summary: In this module you’ll learn the different Microsoft solutions for managing security in your organization.
 abstract: |
   In this module, you will:
-  - Describe Microsoft solutions to help ...
+  - Learn the key pillars of security.
+  - Discover how Microsoft 365 helps protect identity and access.
+  - Discover how Microsoft 365 helps you protect against threats.
+  - Discover how Microsoft 365 helps you protect information.
+  - Learn about security management options in Microsoft 365.
 prerequisites: None
 #TODO: Update with correct value, i.e. /learn/achievements/what-is-m365.svg
 iconUrl: http://via.placeholder.com/120x120
@@ -26,18 +30,9 @@ products:
 - m365
 - azure
 units:
-- learn-m365.security-m365.1-key-security-pillars
-- learn-m365.security-m365.2-secure-authentication
-- learn-m365.security-m365.3-conditional-access
-- learn-m365.security-m365.4-identity-protection
-- learn-m365.security-m365.1-introduction-protect
-- learn-m365.security-m365.2-threat-protection-pillars
-- learn-m365.security-m365.3-threat-protection-solutions
-- learn-m365.security-m365.1-introduction-tp
-- learn-m365.security-m365.2-discover-and-classify
-- learn-m365.security-m365.3-protect-and-prevent
-- learn-m365.security-m365.4-monitor-and-respond
-- learn-m365.security-m365.4-summary-and-knowledge-check
-- learn-m365.security-m365.5-summary-and-knowledge-check
+- learn-m365.security-m365.identity-and-access
+- learn-m365.security-m365.threat-protection
+- learn-m365.security-m365.information-protection
+- learn-m365.security-m365.summary-and-knowledge-check
 badge: 
   uid: learn-m365.security-m365.badge

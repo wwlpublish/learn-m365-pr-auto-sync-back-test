@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.security-m365.1-introduction-protect
+uid: learn-m365.security-m365.information-protection
 title: Meet the Microsoft information protection solutions
 metadata:
   title: Meet the Microsoft information protection solutions
@@ -12,4 +12,4 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 4
 content: |
-  [!include[](includes/1-introduction-threat-protection.md)]
+  [!include[](includes/information-protection.md)]
