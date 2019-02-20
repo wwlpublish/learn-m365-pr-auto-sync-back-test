@@ -1,8 +1,8 @@
 ### YamlMime:LearningPath
 uid: learn-m365.microsoft-365-achievement-path
 metadata:
-  title: Have an understanding of what Microsoft 365 is
-  description: Gain an understanding what Microsoft 365 is and how the software as a service cloud model helps your organization.
+  title: Microsoft 365 Fundamentals
+  description: Learn how Microsoft 365, a software as a service solution, helps your organization create and collaborate securely.
   brand: m365
   ms.date: 02/08/2019
   author: lizap
@@ -10,9 +10,9 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
   ROBOTS: NOINDEX
-title: Have an understanding of what Microsoft 365 is
+title: Microsoft 365 Fundamentals
 #TODO: Update
-summary: Gain an understanding what Microsoft 365 is and how the software as a service cloud model helps your organization.
+summary: Learn how Microsoft 365, a software as a service solution, helps your organization create and collaborate securely.
 prerequisites: None
 #TODO: Update with correct value, i.e. /learn/achievements/what-is-m365.svg
 iconUrl: http://via.placeholder.com/120x120
@@ -26,12 +26,14 @@ products:
 - m365
 modules:
 - learn-m365.what-is-m365
-#- learn-m365.introduction-to-cloud-computing
-#- learn-m365.understand-the-benefits-and-costs-of-cloud-computing
-#- learn-m365.introduction-to-cloud-deployment-models
-#- learn.principles-cloud-computing (TODO: Luke, Ashley, Barry to clarify/coordinate with Engineering - solve build validation error)
-#- learn-m365.understand-types-of-cloud-services (TODO: to be replaced by learn.principles-cloud-computing in learning path, see above)
-#- learn-m365.understand-privacy-compliance-and-data-protection
-#- learn-m365.select-a-cloud-service
+- learn-m365.m365-core-services
+- learn-m365.explore-windows-as-a-service
+- learn-m365.move-to-modern-desktop-m365
+- learn-m365.m365-teamwork
+- learn-m365.security-in-m365
+- learn-m365.compliance-m365
+- learn-m365.m365-unified-endpoint-management
+- learn-m365.select-a-cloud-deployment-model
+- learn-m365.manage-m365
 trophy: 
   uid: learn-m365.what-is-m365.trophy
