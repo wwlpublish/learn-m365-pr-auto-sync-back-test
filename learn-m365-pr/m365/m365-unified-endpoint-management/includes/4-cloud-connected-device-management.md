@@ -11,14 +11,14 @@ If you have an existing on-premises Configuration Manager infrastructure, you ca
    - Do a factory reset on any Windows 10 device
 - **Client Health** – Configuration Manager monitors client device health while it’s connected to your network. On a co-managed device, Intune communicates with and monitors the health of the device, even when it’s not connected to your network. With co-management, Intune can report on the client health state. It provides timestamp information for the validity of the data. This information tells you if your devices are healthy, able to connect, able to install apps, or can update to the required OS builds. With this feature, you have an external data source with Intune. It allows you to determine what the next steps should be when troubleshooting client issues. You don't need to create additional reports or use other tools to get client data.
 - **Windows 10 Autopilot** - When you use co-management and Autopilot together, you make sure that new devices entering your network are in the same state of management as existing devices. In this setup, devices are enrolled in Intune and have a Configuration Manager client. It allows you to use the Windows 10 provisioning model, and helps you eliminate the need to create, maintain, and update custom OS images. It can also:
-- Reduce time, costs, and complexity
-- Improve the user experience
-- Use Autopilot and Configuration Manager to migrate existing Windows 7 devices to Windows 10
+   - Reduce time, costs, and complexity
+   - Improve the user experience
+   - Use Autopilot and Configuration Manager to migrate existing Windows 7 devices to Windows 10
 
 - **Hybrid Azure AD** - Azure Active Directory (Azure AD) allows you to link your users, devices, and applications across both cloud and on-premises environments. Registering your devices to Azure AD enables you to improve productivity for your users, and improve security for your resources. Having devices in Azure AD is the foundation for both co-management and device-based conditional access. It also includes:
-- Single sign on to cloud resources
-- Windows Hello for Business
-- Device-based conditional access
-- Automatic Device Licensing
-- Self Service functionality
-- Enterprise state roaming
+   - Single sign on to cloud resources
+   - Windows Hello for Business
+   - Device-based conditional access
+   - Automatic Device Licensing
+   - Self Service functionality
+   - Enterprise state roaming
