@@ -1,0 +1,36 @@
+### YamlMime:Module
+uid: learn-m365.unified-endpoint-management
+metadata:
+  title: Introduction to Microsoft 365 unified endpoint management - Learn
+  description: This module introduces you to common device management and configuration issues and how you can simplify your management processes by cloud connecting your existing device management infrastructure to the tools that Microsoft 365 provides.  
+  ms.date: 02/08/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+title: Introduction to Microsoft 365 unified endpoint management
+summary: This module introduces you to common device management and configuration issues and how you can simplify your management processes by cloud connecting your existing device management infrastructure to the tools that Microsoft 365 provides.
+abstract: |
+  In this module, you will:
+  - Define what unified endpoint management is in the context of the Microsoft 365 toolset 
+  - Identify challenges involved with managing and securing devices 
+  - Understand the concepts and benefits of cloud connected management 
+  - Understand how Microsoft 365 protects data across Windows 10, iOS, Android, and macOS devices 
+prerequisites: None
+iconUrl: http://via.placeholder.com/120x120
+levels:
+- beginner
+roles:
+- administrator
+products:
+- m365
+- azure
+units:
+- learn-m365.unified-endpoint-management.1-what-is-uem
+- learn-m365.unified-endpoint-management.2-device-management-challenges
+- learn-m365.unified-endpoint-management.3-ems-components
+- learn-m365.unified-endpoint-management.4-cloud-connected-device-management
+- learn-m365.unified-endpoint-management.5-summary-and-knowledge-check
+badge: 
+  uid: learn-m365.unified-endpoint-management.badge

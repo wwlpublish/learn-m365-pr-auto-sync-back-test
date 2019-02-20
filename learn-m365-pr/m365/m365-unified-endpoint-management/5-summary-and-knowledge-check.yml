@@ -1,0 +1,42 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.unified-endpoint-management.5-summary-and-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Review the basics of unified endpoint management in Microsoft 365.
+  ms.date: 02/08/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+durationInMinutes: 1
+content: |
+  [!include[](includes/5-summary-and-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Using Intune, can you enforce security policies, wipe devices, remotely, and deploy apps?"
+      choices:
+      - content: "Yes"
+        isCorrect: true
+        explanation: "Intune provides a full slate of tools to manage mobile devices."
+      - content: "No"
+        isCorrect: false
+        explanation: "Intune provides a full slate of tools to manage mobile devices."
+    - content: "Azure Information Protection encrypts documents and enforces policies on their use."
+      choices:
+      - content: "True"
+        isCorrect: true
+        explanation: "Azure Information Protection uses Azure Rights Management (Azure RMS) to provide for IRM in Office 365."
+      - content: "False"
+        isCorrect: false
+        explanation: "Azure Information Protection uses Azure Rights Management (Azure RMS) to provide for IRM in Office 365."
+    - content: "Dual-management is when a Windows 10 device is managed by both Configuration Manager and Intune. This results in conflicting configurations being applied to the device."
+      choices:
+      - content: "True"
+        isCorrect: false
+        explanation: "This is actually co-management and is supported for Windows 10 devices."
+      - content: "False"
+        isCorrect: true
+        explanation: "This is actually co-management and is supported for Windows 10 devices."        
