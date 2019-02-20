@@ -30,9 +30,9 @@ modules:
 - learn-m365.explore-windows-as-a-service
 - learn-m365.move-to-modern-desktop-m365
 - learn-m365.m365-teamwork
-- learn-m365.security-in-m365
+- learn-m365.security-m365
 - learn-m365.compliance-m365
-- learn-m365.m365-unified-endpoint-management
+- learn-m365.unified-endpoint-management
 - learn-m365.select-a-cloud-deployment-model
 - learn-m365.manage-m365
 trophy: 
