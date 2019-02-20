@@ -1,6 +1,6 @@
 If you have an existing on-premises Configuration Manager infrastructure, you can connect it with your cloud-based Intune management system using the “co-management” function from Configuration Manager. This cloud connected scenario enables you to concurrently manage Windows 10 devices using both Configuration Manager and Microsoft Intune. It brings Intune functionality into your device management ecosystem and provides immediate value, such as:
 
- **Conditional access** - Conditional access makes sure that only trusted users can access organizational resources on trusted devices using trusted apps. With co-management, Intune evaluates every device in your network to determine how trustworthy it is. Intune makes sure a device or app is managed and securely configured. Intune can also detect active security incidents on a device.
+ - **Conditional access** - Conditional access makes sure that only trusted users can access organizational resources on trusted devices using trusted apps. With co-management, Intune evaluates every device in your network to determine how trustworthy it is. Intune makes sure a device or app is managed and securely configured. Intune can also detect active security incidents on a device.
 - **Remote actions** – You can manage every registered device every time it connects, no matter where it is. Remote device actions give you management controls on the device without interfering with personal data. These remote device actions allow you to:
    - Delete company data on lost or stolen devices
    - Rename a device
