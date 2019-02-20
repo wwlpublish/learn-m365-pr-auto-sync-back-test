@@ -16,22 +16,22 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Using Intune, can you enforce security policies, wipe devices, remotely, and deploy apps?"
-      choices:
-      - content: "Yes"
-        isCorrect: true
-        explanation: "Intune provides a full slate of tools to manage mobile devices."
-      - content: "No"
-        isCorrect: false
-        explanation: "Intune provides a full slate of tools to manage mobile devices."
-    - content: "Azure Information Protection encrypts documents and enforces policies on their use."
+    - content: "Microsoft’s approach to unified endpoint management includes the combination of Configuration Manager and Intune working together to manage devices and apps."
       choices:
       - content: "True"
         isCorrect: true
-        explanation: "Azure Information Protection uses Azure Rights Management (Azure RMS) to provide for IRM in Office 365."
+        explanation: "Configuration Manager and Intune together provide a full slate of tools to manage mobile devices."
       - content: "False"
         isCorrect: false
-        explanation: "Azure Information Protection uses Azure Rights Management (Azure RMS) to provide for IRM in Office 365."
+        explanation: "Configuration Manager and Intune together provide a full slate of tools to manage mobile devices."
+    - content: "For devices cloud connected in a co-managed state, can you enforce security policies, wipe devices remotely, and deploy apps from the Intune portal?"
+      choices:
+      - content: "Yes"
+        isCorrect: true
+        explanation: "Intune enables you to manage cloud-connected devices."
+      - content: "No"
+        isCorrect: false
+        explanation: "Intune enables you to manage cloud-connected devices."
     - content: "Dual-management is when a Windows 10 device is managed by both Configuration Manager and Intune. This results in conflicting configurations being applied to the device."
       choices:
       - content: "True"
@@ -40,3 +40,11 @@ quiz:
       - content: "False"
         isCorrect: true
         explanation: "This is actually co-management and is supported for Windows 10 devices."        
+    - content: "Microsoft Intune provides the ability to manage devices and protect company data centrally across all of the following operating systems - Windows 10, iOS, Android, and macOS."
+      choices:
+      - content: "True"
+        isCorrect: true
+        explanation: "Microsoft Intune manages all of these operating systems."
+      - content: "False"
+        isCorrect: false
+        explanation: "Microsoft Intune manages all of these operating systems."
