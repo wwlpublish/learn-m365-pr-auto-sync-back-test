@@ -15,5 +15,3 @@ Taking all the learnings from how Microsoft manages its own datacenter, Office 3
 With privileged access management in Office 365, access requests must be approved by an authorized set of approvers. Requests for access can be automatically or manually approved.  Either way, all the activity is logged and auditable, so that both privileged access requests and approvals can be reviewed and seamlessly provided for internal reviews and auditor requests.
 
 >[!VIDEO https://www.youtube.com/embed/30_igb5r1eE]
-
-More information: [Whitepaper: Zero Standing Access](https://aka.ms/zerostandingaccess)
