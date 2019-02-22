@@ -7,7 +7,7 @@ The Service Trust Portal (STP) provides a variety of content, tools, and other r
 - Service Organization Controls (SOC).
 - National Institute of Standards and Technology (NIST)
 - Federal Risk and Authorization Management Program (FedRAMP)
-- General Data Protection Regulation (GDPR 
+- General Data Protection Regulation (GDPR) 
 - Office 365 Auditing
 
 The Service Trust Portal includes the following compliance tools:

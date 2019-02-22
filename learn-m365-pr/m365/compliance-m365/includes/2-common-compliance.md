@@ -19,7 +19,7 @@ Organizations must comply with a number of governmental regulations regarding da
 - The Personal Information Protection and Electronic Documents Act (PIPEDA). PIPEDA is a Canadian law pertaining to how private sector organizations collect, use, and disclose personal information in regard to commercial business. 
 - The Gramm–Leach–Bliley Act (GLBA). This act protects customers’ nonpublic personal information, and financial institutions are required to follow these regulations to protect their clients’ information.
 
-Microsoft 365 supports your organization’s compliance needs with built in tools and capabilities to help you protection information, manage data governance, and respond to regulatory requests. 
+Microsoft 365 supports your organization’s compliance needs with built in tools and capabilities to help you protect information, manage data governance, and respond to regulatory requests. 
 
 It can be helpful to think about managing compliance in terms of three phases: 
 - **Assess**:  Simplify assessment of compliance risk and posture with actionable insights
