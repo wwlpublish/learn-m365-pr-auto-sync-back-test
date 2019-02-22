@@ -10,13 +10,12 @@ MyAnalytics helps you:
 - Focus on what matters to you
 - Create healthy work habits and goals for yourself 
 
-MyAnalytics uses data from your Office 365 mailbox; specifically, data about emails, meetings, and chats and calls in Teams and in Skype for Business. MyAnalytics doesn't use an agent or tracking software to capture this data. MyAnalytics also doesn't use data from activities on your computer, like apps you use or websites you visit.
-
-MyAnalytics provides insights in various ways:
-
-- **MyAnalytics personal dashboard**: Statistics on how you’ve spent your time over the past week.
-- **Outlook add-in**: Interactive insight cards that report on aspects of your recent work experience. 
-- **Email digests**: Weekly highlights about your previous week.
-- **MyAnalytics nudges**: Notifications in Microsoft Outlook that can help boost your productivity by displaying useful suggestions and tips around emails, meetings, and to-do tasks.
-
 ![MyAnalytics image](../media/2-myanalytics.png)
+
+MyAnalytics accesses data from your use of Office 365 to help you determine how you can become more efficient during your work day. It uses that data to provide insights like:
+
+- **MyAnalytics personal dashboard**: In the MyAnalytics dashboard, you can view statistics on how you’ve spent your time over the past week.
+- **Outlook add-in**: The Outlook add-in presents you with interactive insight cards that report on aspects of your recent work experience. <ASHLEY NOTE: MIGHT BE HELPFUL TO PROVIDE AN EXAMPLE HERE>
+- **Email digests**: You receive a weekly digest email that gives you highlights about your previous week, like how much time you've spent in meetings. 
+- **MyAnalytics nudges**: MyAnalytics nudges are notifications that appear in Microsoft Outlook that can help boost your productivity by displaying useful suggestions and tips around emails, meetings, and to-do tasks.
+
