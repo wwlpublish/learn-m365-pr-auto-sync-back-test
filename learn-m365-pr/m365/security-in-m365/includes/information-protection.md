@@ -94,12 +94,10 @@ The Label Analytics dashboard aggregates label insights so that you can see how 
 
 Additional reports that help you monitor information protection:
 
-|Type of information|Where to go to learn more|
-|-|-|
-|**Data loss prevention** <br>Data loss prevention policy matches, false positives and overrides, and links to create or edit policies |[View the reports for data loss prevention](https://docs.microsoft.com/office365/securitycompliance/view-the-dlp-reports)|
-|**Data governance**<br>Information about how labels are applied, labels classified as records, label trends, and more|[View the data governance reports](https://docs.microsoft.com/office365/securitycompliance/view-the-data-governance-reports) |
-|**Threat management dashboard** (this is also referred to as the Security dashboard and the Threat Intelligence dashboard)<br>Threat detections, malware trends, top targeted users, details about sent and received email messages, and more|[Security dashboard overview](https://docs.microsoft.com/office365/securitycompliance/security-dashboard) |
-|**Mail flow**<br>Information about sent and received email messages, recent alerts, top senders and recipients, email forwarding reports, and more|[Mail flow insights in the Office 365 Security & Compliance Center](https://support.office.com/article/beb6acaa-6016-4d54-ba7e-3d6d035e2b46.aspx)| 
-|**GDPR compliance**<br>Information about GDPR compliance, including links to data subjects, label trends, and active & closed cases|[Office 365 Information Protection for GDPR](https://docs.microsoft.com/office365/enterprise/office-365-information-protection-for-gdpr)|
-|**Audit log**<br>Information about Office 365 activities, users, files or folders, and more|[Search the audit log in the Office 365 Security & Compliance Center](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance) |
-|**Compliance reports**<br>FedRAMP reports, governance, risk and compliance reports, ISO information security management reports, and Service Organization Controls audit and assessment reports||
+- **Data loss prevention** - Data loss prevention policy matches, false positives and overrides, and links to create or edit policies 
+- **Data governance**- Information about how labels are applied, labels classified as records, label trends, and more
+- **Threat management dashboard** (this is also referred to as the Security dashboard and the Threat Intelligence dashboard)
+- **Mail flow** - Information about sent and received email messages, recent alerts, top senders and recipients, email forwarding reports, and more
+- **GDPR compliance** - Information about GDPR compliance, including links to data subjects, label trends, and active & closed cases
+- **Audit log** - Information about Office 365 activities, users, files or folders, and more
+- **Compliance reports** - FedRAMP reports, governance, risk and compliance reports, ISO information security management reports, and Service Organization Controls audit and assessment reports

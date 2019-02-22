@@ -8,18 +8,18 @@ Microsoft 365 blends organizational tasks with technology solutions to meet the 
 ## Microsoft 365 Enterprise 
 Microsoft 365 Enterprise provides enterprise-class services to organizations that want a productivity solution that includes robust threat protection, security, compliance, and analytics features.
 
-There are two available plans for Microsoft 365 Enterprise, letting you further refine what's included in your implementation - E3 and E5. E5 includes all of the same features as E3 plus the latest advanced threat protection, security, and collaboration tools. [Compare the different versions](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans) - you can also check out features and pricing.
+There are two available plans for Microsoft 365 Enterprise, letting you further refine what's included in your implementation - E3 and E5. E5 includes all of the same features as E3 plus the latest advanced threat protection, security, and collaboration tools. 
 
 ## Microsoft 365 Business
  
-[Microsoft 365 Business](https://www.microsoft.com/microsoft-365/business) is designed for small and medium-sized organizations. Like Microsoft 365 Enterprise, Microsoft 365 Business offers the full set of Office 365 productivity tools and includes security and device management features. It doesn’t include some of the more advanced information protection, compliance, or analytics tools available to enterprise subscribers. It’s designed for organizations that need up to 300 licenses; if your organization is larger than that, you’ll need to subscribe to a Microsoft 365 Enterprise plan instead.
+Microsoft 365 Business is designed for small and medium-sized organizations. Like Microsoft 365 Enterprise, Microsoft 365 Business offers the full set of Office 365 productivity tools and includes security and device management features. It doesn’t include some of the more advanced information protection, compliance, or analytics tools available to enterprise subscribers. It’s designed for organizations that need up to 300 licenses; if your organization is larger than that, you’ll need to subscribe to a Microsoft 365 Enterprise plan instead.
 
 <a href="https://support.office.com/en-us/article/what-is-microsoft-365-business-901e2522-c2cf-4b8c-894e-f482cda3347a"><img src="media/4-m365-video.png"></a>
 
 
 ## Microsoft 365 Education 
-[Microsoft 365 Education](https://www.microsoft.com/education/buy-license/microsoft365/default.aspx) is available for educational organizations. Academic licenses can be tailored to fit any institution’s needs, including productivity and security solutions for faculty, staff, and students. 
+Microsoft 365 Education is available for educational organizations. Academic licenses can be tailored to fit any institution’s needs, including productivity and security solutions for faculty, staff, and students. 
 
 ## Microsoft 365 for firstline workers
 
-Microsoft 365 F1 connects your firstline Workers through purpose-built tools and resources that allow them to do their best work. Microsoft 365 F1 has many of the same features and services as Microsoft 365 Enterprise but modified to better fit the needs of firstline workers. For example, firstline workers don't generally use virtual machines, so Microsoft 365 F1 includes Windows 10 E3, without virtualization rights. Learn more about [Microsoft 365 F1](https://www.microsoft.com/microsoft-365/enterprise/firstline).
+Microsoft 365 F1 connects your firstline Workers through purpose-built tools and resources that allow them to do their best work. Microsoft 365 F1 has many of the same features and services as Microsoft 365 Enterprise but modified to better fit the needs of firstline workers. For example, firstline workers don't generally use virtual machines, so Microsoft 365 F1 includes Windows 10 E3, without virtualization rights. 
