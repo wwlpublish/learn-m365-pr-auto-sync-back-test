@@ -3,8 +3,7 @@ In this module you learned that Microsoft 365 Enterprise includes Office 365, Wi
 ## Resources
 [Compare the different versions of Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans) - you can also check out features and pricing.
 
-[Microsoft 365 Business]
-(https://www.microsoft.com/microsoft-365/business)
+[Microsoft 365 Business](https://www.microsoft.com/microsoft-365/business)
 
 [Microsoft 365 Education](https://www.microsoft.com/education/buy-license/microsoft365/default.aspx)
 
