@@ -21,7 +21,7 @@ abstract: |
   - See how to monitor your Microsoft 365 service health.
 prerequisites: None
 #TODO: Update with correct value, i.e. /learn/achievements/what-is-m365.svg
-iconUrl: /learn/achievements/azure-sfa-generalist-path
+iconUrl: /learn/achievements/azure-sfa-generalist-path.svg
 levels:
 - beginner
 roles:
