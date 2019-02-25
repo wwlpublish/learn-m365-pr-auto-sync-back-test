@@ -18,7 +18,7 @@ abstract: |
   - Understand the concepts and benefits of cloud connected management 
   - Understand how Microsoft 365 protects data across Windows 10, iOS, Android, and macOS devices 
 prerequisites: None
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/teamwork-in-m365.svg
 levels:
 - beginner
 roles:

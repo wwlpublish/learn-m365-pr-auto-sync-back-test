@@ -20,7 +20,7 @@ abstract: |
   -	Use Microsoft 365 analytics tools to improve efficiency 
 prerequisites: None
 #TODO: Update with correct value, i.e. /learn/achievements/what-is-m365.svg
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/work-across-org-with-m365.svg
 levels:
 - beginner
 roles:

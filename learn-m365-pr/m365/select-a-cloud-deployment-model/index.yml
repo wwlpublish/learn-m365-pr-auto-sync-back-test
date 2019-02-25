@@ -19,7 +19,7 @@ abstract: |
    - Recommend when an organization might want to move systems with older operating systems and Microsoft Office directly to Microsoft 365 instead of upgrading legacy software.   
 prerequisites: None
 #TODO: Update with correct value, i.e. /learn/achievements/select-a-cloud-service.svg
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/cloud-operating-model.svg
 levels:
 - beginner
 roles:

@@ -18,7 +18,7 @@ abstract: |
   - Learn about the Microsoft Compliance Center.
 prerequisites: None
 #TODO: Update with correct value, i.e. /learn/achievements/what-is-m365.svg
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/meet-compliance-with-m365.svg
 levels:
 - beginner
 roles:
