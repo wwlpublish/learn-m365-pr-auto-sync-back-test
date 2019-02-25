@@ -13,7 +13,7 @@ metadata:
 title: Microsoft 365 Fundamentals
 #TODO: Update
 summary: Learn how Microsoft 365, a software as a service solution, helps your organization create and collaborate securely.
-prerequisites: [Principles of cloud computing](https://docs.microsoft.com/en-us/learn/modules/principles-cloud-computing/index)
+prerequisites: <a href='https://docs.microsoft.com/en-us/learn/modules/principles-cloud-computing/index'>Principles of cloud computing</a>
 #TODO: Update with correct value, i.e. /learn/achievements/what-is-m365.svg
 iconUrl: /learn/achievements/m365-sfa-learning-path.svg
 levels: 
