@@ -18,7 +18,7 @@ abstract: |
    - Review subscription options
 prerequisites: None
 #TODO: Update with correct value, i.e. /learn/achievements/what-is-m365.svg
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/welcome-to-microsoft-365.svg
 levels:
 - beginner
 roles:

@@ -15,7 +15,7 @@ title: Microsoft 365 Fundamentals
 summary: Learn how Microsoft 365, a software as a service solution, helps your organization create and collaborate securely.
 prerequisites: https://docs.microsoft.com/en-us/learn/modules/principles-cloud-computing/index
 #TODO: Update with correct value, i.e. /learn/achievements/what-is-m365.svg
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/m365-sfa-learning-path.svg
 levels: 
 - beginner
 roles:
