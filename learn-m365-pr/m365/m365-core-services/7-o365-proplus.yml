@@ -12,4 +12,4 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 2
 content: |
-  [!include[](includes/7-o365proplus.md)]
+  [!include[](includes/7-o365-proplus.md)]

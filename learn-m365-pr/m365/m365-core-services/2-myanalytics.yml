@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.m365-core-services.2-microsoft-myanalytics
+uid: learn-m365.m365-core-services.2-myanalytics
 title: Microsoft MyAnalytics - maximize your efficiency
 metadata:
   title: Microsoft MyAnalytics - maximize your efficiency
@@ -12,4 +12,4 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 2
 content: |
-  [!include[](includes/2-microsoft-myanalytics.md)]
+  [!include[](includes/2-myanalytics.md)]
