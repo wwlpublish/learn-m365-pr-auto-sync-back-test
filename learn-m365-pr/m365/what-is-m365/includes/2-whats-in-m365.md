@@ -1,4 +1,4 @@
-Microsoft 365 Enterprise includes Office 365, Windows 10 Enterprise, and Enterprise Mobility and Security (EMS) - representing a complete, intelligent solution to empower everyone in your organization to collaborate and be creative, securely.  
+Microsoft 365 Enterprise includes Office 365, Windows 10 Enterprise, and Enterprise Mobility + Security (EMS) - representing a complete, intelligent solution to empower everyone in your organization to collaborate and be creative, securely.  
 
 When you move to Microsoft 365 Enterprise you get the following products and services: 
 
