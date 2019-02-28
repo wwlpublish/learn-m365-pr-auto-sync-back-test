@@ -14,7 +14,7 @@ There are two available plans for Microsoft 365 Enterprise, letting you further 
  
 Microsoft 365 Business is designed for small and medium-sized organizations. Like Microsoft 365 Enterprise, Microsoft 365 Business offers the full set of Office 365 productivity tools and includes security and device management features. It doesn’t include some of the more advanced information protection, compliance, or analytics tools available to enterprise subscribers. It’s designed for organizations that need up to 300 licenses; if your organization is larger than that, you’ll need to subscribe to a Microsoft 365 Enterprise plan instead.
 
-<a href="https://support.office.com/en-us/article/what-is-microsoft-365-business-901e2522-c2cf-4b8c-894e-f482cda3347a"><img src="media/4-m365-video.png"></a>
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA]
 
 
 ## Microsoft 365 Education 
