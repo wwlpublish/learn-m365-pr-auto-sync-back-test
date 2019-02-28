@@ -16,7 +16,7 @@ abstract: |
    - List the components of Microsoft 365
    - Understand the value provided by the Microsoft 365 solution pillars
    - Name the subscription options
-prerequisites: None
+prerequisites: Cloud Concepts - Principles of cloud computing [Cloud Concepts - Principles of cloud computing](https://docs.microsoft.com/en-us/learn/modules/principles-cloud-computing/index)
 #TODO: Update with correct value, i.e. /learn/achievements/what-is-m365.svg
 iconUrl: /learn/achievements/welcome-to-microsoft-365.svg
 levels:
