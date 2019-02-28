@@ -25,7 +25,7 @@ quiz:
       - content: "False"
         isCorrect: false
         explanation: "A hybrid cloud environment combines your on-premises resources with cloud services."
-    - content: "To maximize the value of Microsoft 365 integrated suite of products to an organization, you need to develop a migration strategy. ?"
+    - content: "To maximize the value of Microsoft 365 integrated suite of products to an organization, you need to develop a migration strategy."
       choices:
       - content: "True"
         isCorrect: true

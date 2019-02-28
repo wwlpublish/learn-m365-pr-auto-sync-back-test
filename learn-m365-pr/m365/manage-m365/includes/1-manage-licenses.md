@@ -1,6 +1,6 @@
 When you buy a Microsoft 365 subscription, you specify the number of licenses that you need, based on how many people you have in your organization. If you have more than one subscription, you can assign licenses to different people for each subscription.
 
-The **Microsoft 365 admin center** is where youcreate user accounts and assign licenses to them. As your organizational needs change, you can buy more licenses to accommodate new people. You can also remove a license from one user and reassign it to a different person. (For example, if someone leaves your organization, you can reassign their license to another employee.) This helps you maintain the correct number of licenses your organization needs without paying for unneeded additional licenses (known as "over-licensing") or running out of licenses. 
+The **Microsoft 365 admin center** is where you create user accounts and assign licenses to them. As your organizational needs change, you can buy more licenses to accommodate new people. You can also remove a license from one user and reassign it to a different person. (For example, if someone leaves your organization, you can reassign their license to another employee.) This helps you maintain the correct number of licenses your organization needs without paying for unneeded additional licenses (known as "over-licensing") or running out of licenses. 
 
 ![Microsoft 365 admin portal](../media/1-admin-portal.png)
 

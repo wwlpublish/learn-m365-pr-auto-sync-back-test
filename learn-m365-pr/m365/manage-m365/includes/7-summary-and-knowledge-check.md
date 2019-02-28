@@ -4,10 +4,10 @@ In this unit you learned how users are granted access to Microsoft 365 services 
 
 [Contact support for business products - Admin Help](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=phone)
 
-[**Azure forums**](https://azure.microsoft.com/support/community/) 
+[Azure forums](https://azure.microsoft.com/support/community/) 
 
-[**Windows forums**](https://answers.microsoft.com/windows/forum?sort=LastReplyDate&dir=Desc&tab=All&status=all&mod=&modAge=&advFil=&postedAfter=&postedBefore=&threadType=All&isFilterExpanded=false&page=1)
+[Windows forums](https://answers.microsoft.com/windows/forum?sort=LastReplyDate&dir=Desc&tab=All&status=all&mod=&modAge=&advFil=&postedAfter=&postedBefore=&threadType=All&isFilterExpanded=false&page=1)
 
-[**Office forums**](https://answers.microsoft.com/msoffice/forum?sort=LastReplyDate&dir=Desc&tab=All&status=all&mod=&modAge=&advFil=&postedAfter=&postedBefore=&threadType=All&isFilterExpanded=false&page=1)
+[Office forums](https://answers.microsoft.com/msoffice/forum?sort=LastReplyDate&dir=Desc&tab=All&status=all&mod=&modAge=&advFil=&postedAfter=&postedBefore=&threadType=All&isFilterExpanded=false&page=1)
 
 [Microsoft Online Services Agreement](https://www.microsoft.com/servicesagreement)
