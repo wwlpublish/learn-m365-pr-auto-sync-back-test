@@ -1,25 +1,26 @@
 Every organizations has unique requirements, so Microsoft offers a variety of subscriptions and plans to accommodate your organization’s needs. In this unit, we’ll summarize these subscriptions.
 
-Microsoft 365 blends organizational tasks with technology solutions to meet the needs of modern organizations and all sorts of busy professionals. Microsoft 365 improves collaboration, provides a modernized system that is continually updated, and increases productivity for your modern workforce, no matter where your employees are or what devices they’re using. 
+Microsoft 365 blends organizational tasks with technology solutions to meet the needs of modern organizations and all sorts of busy professionals. Microsoft 365 improves collaboration, provides a modernized system that is continually updated, and increases productivity for your modern workforce, no matter where your employees are or what devices they’re using.
 
 >[!NOTE]
-> The plans, exact set of features, pricing, and licensing requirements can vary between countries and regions. If you require a Microsoft 365 subscription for a non-US organization, contact your regional sales representative to learn what subscriptions, plans, features, and pricing are available. 
+> The plans, exact set of features, pricing, and licensing requirements can vary between countries and regions. If you require a Microsoft 365 subscription for a non-US organization, contact your regional sales representative to learn what subscriptions, plans, features, and pricing are available.
 
 ## Microsoft 365 Enterprise 
 Microsoft 365 Enterprise provides enterprise-class services to organizations that want a productivity solution that includes robust threat protection, security, compliance, and analytics features.
 
-There are two available plans for Microsoft 365 Enterprise, letting you further refine what's included in your implementation - E3 and E5. E5 includes all of the same features as E3 plus the latest advanced threat protection, security, and collaboration tools. 
+There are two available plans for Microsoft 365 Enterprise, letting you further refine what's included in your implementation - E3 and E5. E5 includes all of the same features as E3 plus the latest advanced threat protection, security, and collaboration tools.
 
 ## Microsoft 365 Business
  
 Microsoft 365 Business is designed for small and medium-sized organizations. Like Microsoft 365 Enterprise, Microsoft 365 Business offers the full set of Office 365 productivity tools and includes security and device management features. It doesn’t include some of the more advanced information protection, compliance, or analytics tools available to enterprise subscribers. It’s designed for organizations that need up to 300 licenses; if your organization is larger than that, you’ll need to subscribe to a Microsoft 365 Enterprise plan instead.
 
-<a href="https://support.office.com/en-us/article/what-is-microsoft-365-business-901e2522-c2cf-4b8c-894e-f482cda3347a"><img src="media/4-m365-video.png"></a>
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA]
 
 
 ## Microsoft 365 Education 
-Microsoft 365 Education is available for educational organizations. Academic licenses can be tailored to fit any institution’s needs, including productivity and security solutions for faculty, staff, and students. 
+Microsoft 365 Education is available for educational organizations. Academic licenses can be tailored to fit any institution’s needs, including productivity and security solutions for faculty, staff, and students.
 
 ## Microsoft 365 for firstline workers
 
-Microsoft 365 F1 connects your firstline Workers through purpose-built tools and resources that allow them to do their best work. Microsoft 365 F1 has many of the same features and services as Microsoft 365 Enterprise but modified to better fit the needs of firstline workers. For example, firstline workers don't generally use virtual machines, so Microsoft 365 F1 includes Windows 10 E3, without virtualization rights. 
+Microsoft 365 F1 connects your firstline workers, such as customer service representatives, support and repair technicians,and service professionals, through purpose-built tools and resources that allow them to do their best work. These people are commonly the first point of contact for customers, and they need the right productivity and collaboration tools to do their jobs.
+Microsoft 365 F1 has many of the same features and services as Microsoft 365 Enterprise but has been modified to better fit the needs of firstline workers. For example, firstline workers don't generally use virtual machines, so Microsoft 365 F1 includes Windows 10 E3, without virtualization rights.

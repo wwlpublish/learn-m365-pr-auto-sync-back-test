@@ -10,13 +10,13 @@ metadata:
   ms.prod: learning-m365
   ROBOTS: NOINDEX
 title: What is Microsoft 365?
-summary: Microsoft 365 Enterprise includes Office 365, Windows 10 Enterprise, and Enterprise Mobility + Security - representing a complete, intelligent solution to empower everyone in your organization to collaborate and be creative, securely. Learn what Microsoft 365 is and how the software as a service cloud model helps your organization. 
+summary: Microsoft 365 Enterprise includes Office 365, Windows 10 Enterprise, and Enterprise Mobility and Security - representing a complete, intelligent solution to empower everyone in your organization to collaborate and be creative, securely. Learn what Microsoft 365 is and how the software as a service cloud model helps your organization. 
 abstract: |
-  In this module, you will:
-   - Learn the components of Microsoft 365
+  At the end of this module, you should be able to:
+   - List the components of Microsoft 365
    - Understand the value provided by the Microsoft 365 solution pillars
-   - Review subscription options
-prerequisites: None
+   - Name the subscription options
+prerequisites: Cloud Concepts - Principles of cloud computing [Cloud Concepts - Principles of cloud computing](https://docs.microsoft.com/en-us/learn/modules/principles-cloud-computing/index)
 #TODO: Update with correct value, i.e. /learn/achievements/what-is-m365.svg
 iconUrl: /learn/achievements/welcome-to-microsoft-365.svg
 levels:
@@ -29,8 +29,8 @@ products:
 - azure
 units:
 - learn-m365.what-is-m365.2-whats-in-m365
-- learn-m365.what-is-m365.4-m365-subscriptions
 - learn-m365.what-is-m365.3-connecting-clouds
+- learn-m365.what-is-m365.4-m365-subscriptions
 - learn-m365.what-is-m365.5-summary-and-knowledge-check
 badge: 
   uid: learn-m365.what-is-m365.badge
