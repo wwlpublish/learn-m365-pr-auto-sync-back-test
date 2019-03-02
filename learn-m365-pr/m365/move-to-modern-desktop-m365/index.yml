@@ -12,7 +12,7 @@ metadata:
 title: Move to a modern desktop with Microsoft 365
 summary: This module introduces the modern desktop in Microsoft 365.  
 abstract: |
-  In this module, you will:
+  At the end of this module, you should be able to:
    - Explain ...
 prerequisites: None
 iconUrl: /learn/achievements/deploy-manage-desktop-with-m365.svg
@@ -26,12 +26,6 @@ products:
 - azure
 units:
 - learn-m365.move-to-modern-desktop-m365.1-introduction
-- learn-m365.move-to-modern-desktop-m365.2-content
-- learn-m365.move-to-modern-desktop-m365.2-features-updates
-- learn-m365.move-to-modern-desktop-m365.3-servicing-channels
-- learn-m365.move-to-modern-desktop-m365.4-deployment-rings
-- learn-m365.move-to-modern-desktop-m365.5-waas-vs-traditional-windows
-- learn-m365.move-to-modern-desktop-m365.6-autopilot-dynamic-provisioning
 - learn-m365.move-to-modern-desktop-m365.7-summary-and-knowledge-check
 badge: 
   uid: learn-m365.move-to-modern-desktop-m365.badge

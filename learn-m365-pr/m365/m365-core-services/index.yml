@@ -10,9 +10,9 @@ metadata:
   ms.prod: learning-m365
   ROBOTS: NOINDEX
 title: Introduction to Microsoft 365 core services and features
-summary: Your Microsoft 365 subscription includes Office 365, Windows 10 Enterprise, and Enterprise Mobility + Security. You may already be using on-premises versions of many of these servers (like Exchange Server). Let’s dive into the cloud services and how they differ from the on-prem versions youre already familiar with. 
+summary: Your Microsoft 365 subscription includes Office 365, Windows 10 Enterprise, and Enterprise Mobility + Security. You may already be using on-premises versions of many of these servers (like Exchange Server). Let’s dive into the cloud services and how they differ from the on-prem versions you're already familiar with. 
 abstract: |
-  In this module, you will:
+  At the end of this module, you should be able to:
   -	Understand what the core Microsoft 365 services and products do
   -	Explain the difference between the Microsoft 365 services and their on-premises counterparts (like Exchange Online and Exchange Server)
   - Understand the role of Microsoft 365 Analytics and Microsoft Workplace Analytics

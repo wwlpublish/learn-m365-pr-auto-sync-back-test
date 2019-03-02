@@ -12,7 +12,7 @@ metadata:
 title: Introduction to Microsoft 365 unified endpoint management
 summary: This module introduces you to common device management and configuration issues and how you can simplify your management processes by cloud connecting your existing device management infrastructure to the tools that Microsoft 365 provides.
 abstract: |
-  In this module, you will:
+  At the end of this module, you should be able to:
   - Define what unified endpoint management is in the context of the Microsoft 365 toolset 
   - Identify challenges involved with managing and securing devices 
   - Understand the concepts and benefits of cloud connected management 
