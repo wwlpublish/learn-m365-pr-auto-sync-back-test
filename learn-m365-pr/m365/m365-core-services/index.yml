@@ -35,8 +35,7 @@ units:
 - learn-m365.m365-core-services.8-intune
 - learn-m365.m365-core-services.2-windows-10-enterprise
 - learn-m365.m365-core-services.7-o365-proplus
-- learn-m365.m365-core-services.2-myanalytics
-- learn-m365.m365-core-services.3-workplace-analytics
+
 - learn-m365.m365-core-services.9-summary-and-knowledge-check
 badge: 
   uid: learn-m365.m365-core-services.badge

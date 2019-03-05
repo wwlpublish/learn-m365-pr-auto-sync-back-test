@@ -10,4 +10,4 @@ As a Microsoft 365 subscriber you have a variety of support options. The particu
 
 
 Video: Exploring Microsoft 365 support options
-(*Where is this video hosted*)
+(*source from WWL, mp3s here https://microsoft.sharepoint.com/:f:/t/OfficeContentExperienceTeam/CommercialCX/O365Enterprise/Epmw80LcSztIiOvKtGK8VuYBIPp9PQQL2ZyW_a69AfY9wQ?e=iZcTqM   waiting confirmation from WWL and MAX commercial CX that they are useable Where is this video hosted*)

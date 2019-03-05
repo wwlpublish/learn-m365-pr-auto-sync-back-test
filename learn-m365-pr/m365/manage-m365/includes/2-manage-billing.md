@@ -9,4 +9,4 @@ You can review and modify all billing aspects in the Microsoft 365 admin center,
 
 ![Billing](../media/2-billing.png)
 
-(Video: Exploring Microsoft 365 subscription and licenses management) - *Where is this video hosted?*
+(Video: Exploring Microsoft 365 subscription and licenses management) - source from WWL, mp3s here https://microsoft.sharepoint.com/:f:/t/OfficeContentExperienceTeam/CommercialCX/O365Enterprise/Epmw80LcSztIiOvKtGK8VuYBIPp9PQQL2ZyW_a69AfY9wQ?e=iZcTqM   waiting confirmation from WWL and MAX commercial CX that they are useable *Where is this video hosted?*
