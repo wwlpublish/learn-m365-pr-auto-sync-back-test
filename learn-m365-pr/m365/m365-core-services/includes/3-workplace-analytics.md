@@ -16,4 +16,4 @@ You can use the data gathered by Workplace Analytics to:
 Find out more in the following video, An introduction to Workplace Analytics for Office 365:
 
  
->[!VIDEO https://www.youtube.com/embed/xiRb8T4ohFc]
+[!VIDEO https://www.microsoft.com/videoplayer/embed/RWtIBf]
