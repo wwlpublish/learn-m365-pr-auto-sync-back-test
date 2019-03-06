@@ -1,9 +1,16 @@
-Add any info you want here. You can also copy this MD file and use for other units - just be sure that your file name is descriptive of the content. 
+The modern desktop is powered by Windows 10 and Office 365 ProPlus, is always up to date, and brings insights and security powered by the cloud. Shifting to a modern desktop—a shift that is well underway in thousands of organizations around the world—improves productivity and security for users and streamlines the work for IT.  
 
-You'll also need one YAML file per unit (in directory above this) - start by copying the 1-introduction.yml file. Anywhere that you see "1-introduction", replace it with the new file that you created. This should prevent too many build issues.
+## Benefits of the modern desktop 
+Right now, security concerns are the top reason organizations are making the shift to a modern desktop. Putting the right technology in the hands of users can help protect against some of the most common security threats, such as compromised credentials. For example, Windows 10 provides security features like Windows Hello, which enables companies to eliminate passwords, as well as support for FIDO2 security keys, which enables organizations to better secure their data and devices.  Office 365 ProPlus is a critical part of the security story for Microsoft 365. Its built-in features integrate with Windows 10 to help you protect sensitive data, stay in control in the cloud, and meet your compliance needs. 
+ 
+In addition to improving security, Windows 10 and Office 365 ProPlus help productivity by providing faster ways to get work done. Users can find apps, settings, documents, and messages by using enterprise search and Cortana, and use Timeline to stay in the flow, with a chronological view of their activities and documents. Windows 10 also supports collaboration through Office 365 ProPlus, Microsoft Whiteboard, and OneNote. 
 
-If you'd prefer to not deal with files and structure - feel free to have all your new content here - just use headings to separate, then I can break up into individual files and accompnanying YAML files.
+## Shifting to the modern desktop 
+To shift to the modern desktop, you deploy Windows 10, deploy Office 365 ProPlus, and adopt a stay current process that uses Windows and Office servicing to deploy regular security and feature updates. Each of these steps has been improved for the IT professional—they’re easier to implement and more efficient to manage.  
 
-The other files in this directory are the source for the **Explore Windows as a service** module. Feel free to edit away. I have another, protected copy of that module, should things go sideways.
+To help you get ready for your deployment, Microsoft has released new tools and features that you can use to prepare your environment. Delivery Optimization, for example, is built into Windows and can help improve how you deploy and manage updates to Windows and Office across your network. Application compatibility, always a concern for organizations that are upgrading to a new operating system or a version of Office, has been greatly improved. It includes application compatibility testing and the tools for testing and fixing the applications in your own environment.  
 
-Let me know if you have any issues.
+To deploy, you can use cloud-based services, including Intune, or existing software management solutions such as Configuration Manager. Whatever tool you use, it’s become easier than ever to deploy and manage Windows and Office from the cloud. After deployment, Microsoft provides regular security and feature updates to keep your devices secure and as productive as possible. You can choose how to manage these updates, including automating them across your organization or defining exactly when and how they are delivered to different groups.  
+ 
+ 
+ 
