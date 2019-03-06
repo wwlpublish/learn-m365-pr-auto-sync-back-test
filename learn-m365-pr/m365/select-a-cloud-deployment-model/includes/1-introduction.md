@@ -4,7 +4,7 @@ In this lesson, we’ll discuss how companies can work purely in the cloud (“c
 
 ## Learning objectives
 
-In this module, you will:
+When you finish this module, you should be able to: :
 
 - List the considerations to keep in mind when selecting a cloud service.
 - Understand terminology associated with adopting a cloud service.

@@ -19,7 +19,8 @@ The Service Trust Portal includes the following compliance tools:
 You can access the Service Trust Portal by going to http://aka.ms/STP.
 
 Video: Service Trust Portal video (6.23 minutes) 
->[!VIDEO https://www.youtube.com/embed/qtzdqCPdMNg]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtDo4]
+
 
 ## Compliance Manager
 
@@ -38,4 +39,4 @@ Compliance Manager provides three key capabilities:
 - **Simplified compliance**. Simplify processes to achieve compliance. It provides built-in collaboration tools that you can use to assign tasks to your teams. You can also generate audi-ready reports with links to the evidence you collected. 
 
 Video: New Compliance manager demo: 
->[!VIDEO https://www.youtube.com/embed/r1vs8NdSXKQ]
+>> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWruAJ]
