@@ -18,4 +18,5 @@ When reviewing the agreement, ask yourself the following questions:
 - What happens if the service is brought down by acts of war or natural disasters, such as earthquakes, floods, storms, tornadoes, or hurricanes?
 - What limits to the CSP’s liability are stated in the SLA?
 
-View the video, [Understand cloud services and liabilities](https://support.office.com/article/understand-service-and-liability-of-the-cloud-provider-523ef169-7119-4c4b-a09b-e01c7c3d334e?ui=en-US&rs=en-US&ad=US), to learn more. When you're done with the video, close the window and return to this course.
+View the video, > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FGkW]
+ to learn more. When you're done with the video, close the window and return to this course.

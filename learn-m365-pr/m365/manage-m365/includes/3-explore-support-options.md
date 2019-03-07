@@ -9,5 +9,3 @@ As a Microsoft 365 subscriber you have a variety of support options. The particu
 - **Microsoft 365 support forums** - Microsoft offers official support forums where you can ask questions and get answers from both Microsoft and community members. Different technologies and services in Microsoft 365 have their own forums. Some of the more popular ones are the Azure, Windows, and Office forums.
 
 
-Video: Exploring Microsoft 365 support options
-(*Where is this video hosted*)

@@ -5,5 +5,3 @@ Digital Transformation gives end users the flexibility to work from anywhere, on
  
  
  
-
->[!VIDEO https://www.youtube.com/embed/3gAtjMOJ-uw]
