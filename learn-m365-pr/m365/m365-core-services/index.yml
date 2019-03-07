@@ -15,7 +15,6 @@ abstract: |
   At the end of this module, you should be able to:
   -	Understand what the core Microsoft 365 services and products do
   -	Explain the difference between the Microsoft 365 services and their on-premises counterparts (like Exchange Online and Exchange Server)
-  - Understand the role of Microsoft 365 Analytics and Microsoft Workplace Analytics
  
 prerequisites: None
 #TODO: Update with correct value, i.e. /learn/achievements/what-is-m365.svg

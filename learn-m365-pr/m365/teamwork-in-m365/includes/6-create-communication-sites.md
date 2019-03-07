@@ -5,4 +5,5 @@ With **SharePoint** you can create communication sites. These sites are designed
 Once you’ve created a communication site, you can adjust page layouts and add web parts to pull in valuable content from other services, like conversations from Yammer, videos from Microsoft Stream, and content from across Office 365. You can use these sites to communicate about upcoming events, campaigns, or product launches, or share team insights and expertise on various topics. The result is a vibrant, interactive, dynamic experience for your site visitors that keeps them engaged.
 
 ![Communication site](../media/comms-site.png)
+
 *A communication site shown in a desktop Web browser (left) and in the SharePoint mobile app (right). Features include a consistent logo, top navigation, page layouts, and web parts: Hero, News, Events, Microsoft Stream, Yammer, and People.*

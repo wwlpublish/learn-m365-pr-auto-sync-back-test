@@ -4,6 +4,8 @@ Analytics can provide insights into the working habits of individuals and organi
 - Create healthy work habits and goals
 - Organize time and tasks more effectively. 
 
+>[!VIDEO https://www.microsoft.com/videoplayer/embed/RWtQu6]
+
 **MyAnalytics** lets users see how they spend their time at work. MyAnalytics helps them see how to make their workday more efficient by looking at data about emails, meetings, and Teams calls and chats and on how they use Office 365. MyAnalytics is included in the Microsoft 365 E5 subscriptions. 
 
 >[!NOTE]
@@ -15,4 +17,3 @@ Analytics can provide insights into the working habits of individuals and organi
 
 ![Workplace analytics](../media/3-workplace-analytics.png)
 
->[!VIDEO https://www.microsoft.com/videoplayer/embed/RWtQu6]

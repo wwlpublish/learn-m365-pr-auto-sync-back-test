@@ -26,7 +26,6 @@ Here’s an example deployment ring strategy. These ring names are examples and 
 |-|-|-|-|-| 
 |Preview|Windows Insider Program|No|No|A small group of devices that can test pre-release builds without affecting productivity. |
 |Test|Semi-Annual Channel|No|No|Another group of devices to test the update before you deploy it to the majority of your devices. |
-|Organization|Semi-Annual Channel|120 days|7 to 14 days|Most of your users. Use the deferment period to make sure you‘ve thoroughly tested the updates before you deploy them. 
-Note: You can pause an update if you run into issues. |
+|Organization|Semi-Annual Channel|120 days|7 to 14 days|Most of your users. Use the deferment period to make sure you‘ve thoroughly tested the updates before you deploy them. <br><br>**Note:** You can pause an update if you run into issues. |
 |Line of Business|Semi-Annual Channel|180 days|30 days|Devices that are mission-critical and are only updated once all other devices have successfully updated. |
 |LTSC|Long-term servicing channel|n/a|n/a|Isolated devices that can’t use the Semi-annual Channel. |
