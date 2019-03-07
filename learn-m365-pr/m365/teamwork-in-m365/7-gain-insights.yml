@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.teamwork-in-m365.5-manage-time-and-communications
-title: Manage your time and communications
+uid: learn-m365.teamwork-in-m365.7-gain-insights
+title: Gain insights into working habits
 metadata:
-  title: Manage your time and communications
+  title: Gain insights into working habits
   description: Learn how to use analytics solutions in Microsoft 365 to manage your time.
   msdate: 02/08/2019
   author: lizap
@@ -12,4 +12,4 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 4
 content: |
-  [!include[](includes/5-manage-time-and-communications.md)]
+  [!include[](includes/7-gain-insights.md)]

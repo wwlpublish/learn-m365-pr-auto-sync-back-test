@@ -6,4 +6,4 @@ Microsoft Secure Score gives you robust visualizations, integration with other M
 
 You're given points for configuring recommended security features, performing security-related tasks (such as viewing reports), or addressing the improvement action with a third-party application or software. Some actions are scored for partial completion, like enabling multi-factor authentication (MFA) for your users. Security should always be balanced with usability, and not every recommendation will work for your environment.
 
-You can use Microsoft Secure Score recommendations to target the most important settings and make changes quickly.  
+You can use Microsoft Secure Score recommendations to target the most important settings and make changes quickly. 

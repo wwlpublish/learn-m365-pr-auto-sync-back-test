@@ -6,7 +6,7 @@ Organizations need to balance productivity and security. How do you create and s
 
 To balance productivity and security effectively, you need strategy for protecting and managing your sensitive information. You need to know where your sensitive information is located. And you need to be able to control it as it travels within and outside your organization. You also need to have a way to classify, label, and apply appropriate protections to this information.
 
-It can be helpful to think about your information protection strategy in terms of these four key activities:  
+It can be helpful to think about your information protection strategy in terms of these four key activities:
 - Discover
 - Classify
 - Protect
@@ -27,7 +27,7 @@ The following units will explain in greater detail how these capabilities work a
 The Discover and Classify phases of information protection involve scanning and detecting sensitive data – all based on the policies defined and configured by your organization. 
 
 Key considerations:
-- Is there an automated way to discover important data?  
+- Is there an automated way to discover important data?
 - Which regulations and compliance factors matter? 
 - Is my data spread out across devices, the cloud, and on-premises servers? 
 - Is my data spread out geographically? 

@@ -1,4 +1,4 @@
-Microsoft 365 provides built-in, suite-wide search and discovery tools to help reduce your risk and exposure of multiple copies of data in multiple places.  
+Microsoft 365 provides built-in, suite-wide search and discovery tools to help reduce your risk and exposure of multiple copies of data in multiple places. 
 
 You can use Advanced eDiscovery to review and redact content prior to export to ensure that only the most relevant data is being shared, and that any business confidential pieces of that data are redacted.
 

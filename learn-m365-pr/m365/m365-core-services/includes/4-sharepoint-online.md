@@ -1,6 +1,6 @@
 SharePoint Online is the cloud evolution of Microsoft SharePoint Server. It helps you create team or communication-focused sites for efficient collaboration and communication. Internal users with an appropriate Microsoft 365 or SharePoint Online license can use SharePoint Online. They can share files or folders with others inside or outside the organization. Sharing outside the organization can be controlled by site administrators. 
 
-With SharePoint Online, users can:  
+With SharePoint Online, users can: 
 - Build sites, pages, document libraries, and lists. 
 - Add web parts to customize their pages. 
 - Share important visuals, news, and updates with a team or and more. 
@@ -14,9 +14,9 @@ SharePoint Online is a Microsoft cloud-based service. Instead of installing and 
 
 SharePoint Server, in comparison, requires your organization to maintain servers, including patching, updating, setting up, and maintaining the environment for high availability and disaster recovery. 
 
-Some of the feature differences between SharePoint Online and SharePoint Server include:  
+Some of the feature differences between SharePoint Online and SharePoint Server include: 
 - Anti-malware is only available in SharePoint Online. 
 - Claims-based authentication is only available in SharePoint Server. 
-- Data loss prevention policies are available in SharePoint Online as part of Microsoft 365 E3 or Microsoft 365 E5 subscriptions.  
+- Data loss prevention policies are available in SharePoint Online as part of Microsoft 365 E3 or Microsoft 365 E5 subscriptions. 
 - Encryption at rest is only available in SharePoint Online.
 - Not all modern web parts are available in SharePoint Server 2019. No modern pages or parts are available on-premise for earlier versions.

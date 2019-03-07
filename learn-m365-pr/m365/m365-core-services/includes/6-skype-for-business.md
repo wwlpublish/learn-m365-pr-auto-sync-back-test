@@ -4,7 +4,7 @@ Skype for Business Online is available as part of most Microsoft 365 subscriptio
 Skype for Business Online provides the following key features:
 - **Real-time presence**. Users get availability and location information to make it easier for them to choose the best method of communication with their co-workers. Skype for Business Online tracks presence information for all Skype for Business Online users, and it provides this information to the Skype for Business client and other apps such as Outlook.
 - **Instant messaging**. Users can utilize standard text-based instant messages to communicate in real time with multiple users, and users can transfer files to those users.
-- **Voice calls**. Users can make Skype for Business calls to other Skype for Business users inside and outside an organization.  If enabled, they can also call Skype consumer users.
+- **Voice calls**. Users can make Skype for Business calls to other Skype for Business users inside and outside an organization. If enabled, they can also call Skype consumer users.
 - **Web conferencing**. Skype for Business Online can host conferences, which you can schedule or initiate as needed. Conferences can include instant messaging (IM), audio, video, and application sharing, slide presentations, and other forms of data collaboration.
 - **Audio conferencing**. Users can join Skype for Business Server–based audio conferences by using any desktop or mobile device. When connecting to an audio conference by using a web browser, users can provide a telephone number for audio conferencing service calls.
 - **Enhanced presentations**. Users can enhance their online presentations by using Skype for Business Online screen sharing, application sharing, and virtual whiteboard features.
