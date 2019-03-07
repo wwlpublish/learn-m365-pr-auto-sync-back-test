@@ -12,4 +12,4 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 4
 content: |
-  [!include[](includes/1-collaborate-on-files.md)]
+  [!include[](includes/1-introduction.md)]
