@@ -1,4 +1,4 @@
-Enterprise Mobility and Security is a suite of products included in your Microsoft 365 Enterprise subscription.
+Enterprise Mobility + Security is a suite of products included in your Microsoft 365 Enterprise subscription.
 
 **Azure AD Premium** is the central identity store used for all the applications in EMS and Microsoft 365. Azure AD Premium is available with three different levels of capabilities: Basic, P1, or P2. P1 and P2 include features that are important for unified endpoint management. Some of the additional features included with the P1 and P2 plans are:
 
