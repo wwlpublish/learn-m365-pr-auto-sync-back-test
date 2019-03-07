@@ -1,4 +1,4 @@
-You’ve already learned that you get Office 365, Windows 10 Enterprise and Enterprise Mobility and Security in your Microsoft 365 subscription. Let’s dive into the details of what that means.
+You’ve already learned that you get Office 365, Windows 10 Enterprise and Enterprise Mobility + Security in your Microsoft 365 subscription. Let’s dive into the details of what that means.
 
 ## Learning objectives: 
 
