@@ -6,7 +6,6 @@ Here are some features of Exchange Online:
 - **Calendars**. Each user has a calendar that they can use to keep track of upcoming events and use to make sure their coworkers don't have conflicts when scheduling meetings. If needed, users can delegate access to their calendars to other users, like administrative assistants and teammates. 
 - **View and edit Office attachments online**. When users receive Office attachments, they can view and edit them online in Outlook on the web - even without a locally installed version of Office.
 - **Shared mailboxes and resources**. You can use shared mailboxes for groups of users that need to share information in a central mailbox. You can also set up resources and equipment for meeting rooms and bookings. 
-- **Public folders**. Exchange online supports public folders for collaboration.
 - **Message policy and compliance**. Exchange Online offers several message policy and compliance features, including retention policies, message encryption, eDiscovery, data loss prevention, and journaling. 
 - **Antispam and anti-malware**. All Exchange Online subscriptions include Exchange Online Protection, which provides configurable antispam and anti-malware scanning.
 - **Configurable mail flow**. To support specialized mail flow (hybrid, partner, or third-party service scenarios), you can create inbound and outbound connectors in Office 365. For example, you can create connectors that use additional security settings for mail flow with a business partner. 
