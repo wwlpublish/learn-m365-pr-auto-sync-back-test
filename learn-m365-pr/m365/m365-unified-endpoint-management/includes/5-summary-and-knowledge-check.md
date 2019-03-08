@@ -1,1 +1,1 @@
-In this module you learned how to identify challenges involved with managing the modern workplace. You learned how co-management extends your device management capabilities while at the same time simplifying your management overhead.
+In this module you learned how to identify challenges involved with managing devices in the modern workplace. You learned how co-management extends your device management capabilities, while at the same time simplifying your management overhead.

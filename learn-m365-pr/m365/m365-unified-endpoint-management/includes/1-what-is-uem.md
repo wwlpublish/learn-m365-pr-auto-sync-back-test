@@ -1,7 +1,3 @@
-Digital Transformation gives end users the flexibility to work from anywhere, on any device. But IT is still responsible for the security of all organizational data, wherever it lives. The modern workplace demands a new approach to managing and securing devices, and more alignment across productivity tools. 
+Today's technology is changing the way all of us work. Digital transformations are allowing employees the flexibility to work from anywhere, on any device. But IT departments are still responsible for the security of your organization's data - no matter where it lives. Our modern workplaces demand a new approach to managing and securing devices, alongside seamless interactions between the productivity tools you rely on.
 
 **Unified endpoint management** is an industry term that describes a platform that includes device and app management. Microsoft Intune and System Center Configuration Manager (Configuration Manager), which are part of Enterprise Mobility + Security (EMS) in your Microsoft 365 subscription, complete Microsoft’s unified endpoint management solution. 
- 
- 
- 
- 
