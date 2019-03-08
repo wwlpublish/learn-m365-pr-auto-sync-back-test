@@ -22,6 +22,6 @@ Microsoft 365 Education is available for educational organizations. Academic lic
 
 ## Microsoft 365 for firstline workers
 
-Microsoft 365 F1 connects your firstline workers, such as customer service representatives, support and repair technicians,and service professionals, through purpose-built tools and resources that allow them to do their best work. These people are commonly the first point of contact for customers, and they need the right productivity and collaboration tools to do their jobs.
+Microsoft 365 F1 connects your firstline workers, such as customer service representatives, support and repair technicians, and service professionals, through purpose-built tools and resources that allow them to do their best work. These people are commonly the first point of contact for customers, and they need the right productivity and collaboration tools to do their jobs.
 
 Microsoft 365 F1 has many of the same features and services as Microsoft 365 Enterprise but has been modified to better fit the needs of firstline workers. For example, firstline workers don't generally use virtual machines, so Microsoft 365 F1 includes Windows 10 E3, without virtualization rights.
