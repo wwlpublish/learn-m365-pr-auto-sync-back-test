@@ -47,7 +47,7 @@ If you have network bandwidth concerns or want more administrative control, you 
 
 If you already use an enterprise software deployment tool to deploy and update software, you can use it to manage updates to Office 365 ProPlus. Configuration Manager, for example, has built-in capabilities that simplify the administrative effort to download and distribute updates for Office 365 ProPlus.
 
-Not all users in your organization need to get updates from the same location. For example, administrative staff at the corporate headquarters would get updates from Configuration Manager, But, sales associates that travel frequently and are rarely in the office would get their updates directly from the Office CDN on the internet.
+Not all users in your organization need to get updates from the same location. For example, administrative staff at the corporate headquarters would get updates from Configuration Manager. But, sales associates that travel frequently and are rarely in the office would get their updates directly from the Office CDN on the internet.
 
 ## Use a pilot group to test updates for Office 365 ProPlus
 
