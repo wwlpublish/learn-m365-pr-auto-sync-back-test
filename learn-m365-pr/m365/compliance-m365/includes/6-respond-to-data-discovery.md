@@ -8,9 +8,9 @@ Watch this video to learn more about how Advanced eDiscovery can help you hold, 
 
 Manage your data with Advanced eDiscovery (2:29): 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWrp95]
-[!VIDEO https://www.youtube.com/embed/VaPYL3DHP6I]
+
 
 To see take a deeper look at these capabilities: 
 Advanced eDiscovery video (Mechanics): 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RWtYby]
-[!VIDEO https://www.youtube.com/embed/-25S-Vz7u1Q]
+
