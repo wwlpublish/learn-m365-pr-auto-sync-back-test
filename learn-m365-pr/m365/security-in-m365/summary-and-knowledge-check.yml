@@ -33,7 +33,7 @@ quiz:
       - content: "Security management"
         isCorrect: false
         explanation: "False - this is a key pillar to securing your organization, users, devices, and data."
-    - content: "Conditional access, secure authentication, and identity protection are pars of which security pilar?"
+    - content: "Conditional access, secure authentication, and identity protection are parts of which security pilar?"
       choices:
       - content: "Identity and access management"
         isCorrect: true
