@@ -54,7 +54,7 @@ quiz:
         explanation: "True - Microosft Information Protection protects your data at each stage."
       - content: "False"
         isCorrect: false
-        explanation: "True - Microosft Information Protection protects your data at each stage.
+        explanation: "True - Microosft Information Protection protects your data at each stage."
     - content: "True or false: Privileged Access Management grants global admin rights to individuals in your organization."
           choices:
           - content: "True"
