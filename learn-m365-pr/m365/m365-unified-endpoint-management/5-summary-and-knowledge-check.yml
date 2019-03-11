@@ -16,31 +16,57 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Microsoft’s approach to unified endpoint management includes the combination of Configuration Manager and Intune working together to manage devices and apps."
+    - content: "Which of the following is NOT part of Enterprise Mobility + Security?"
+      choices:
+      - content: "Azure AD Premium"
+        isCorrect: false
+        explanation: "No, this is included in EMS."
+      - content: "Azure Information Protection"
+        isCorrect: false
+        explanation: "No, this is included in EMS."
+      - content: "Cloud App Security"
+        isCorrect: false
+        explanation: "No, this is included in EMS."
+      - content: "Configuration Manager"
+        isCorrect: false
+        explanation: "No, this is included in EMS."
+      - content: "Microsoft Intune"
+        isCorrect: false
+        explanation: "No, this is included in EMS."
+      - content: "Unified Endpoint Management"
+        isCorrect: true
+        explanation: "EMS helps you provide unified endpoint management, but there isn't a product or service called 'Unified Endpoint Management'."
+    - content: "True or false: All EMS products are offered in all Microsoft 365 subscriptions."
+      choices:
+      - content: "True"
+        isCorrect: false
+        explanation: "No, your specific EMS products vary depending on your Microsoft 365 subscription."
+      - content: "False"
+        isCorrect: true
+        explanation: "Correct - your specific EMS products vary depending on your Microsoft 365 subscription."
+    - content: "True or false: Configuration Manager is for managing on-premises infrastructure, but it has a 'co-management' function that works with Intune to manage cloud-based functions."
       choices:
       - content: "True"
         isCorrect: true
-        explanation: "Configuration Manager and Intune together provide a full slate of tools to manage mobile devices."
+        explanation: "Configuration Manager and Intune working together is called 'co-management.'"
       - content: "False"
         isCorrect: false
-        explanation: "Configuration Manager and Intune together provide a full slate of tools to manage mobile devices."
-    - content: "For devices cloud connected in a co-managed state, can you enforce security policies, wipe devices remotely, and deploy apps from the Intune portal?"
+        explanation: "Configuration Manager and Intune working together is called 'co-management.'"
+    - content: "Which technology is the foundation of this co-management, allowing Configuration Manager and Intune to work together?"
       choices:
-      - content: "Yes"
-        isCorrect: true
-        explanation: "Intune enables you to manage cloud-connected devices."
-      - content: "No"
+      - content: "Azure Multi-Factor Authentication (MFA)"
         isCorrect: false
-        explanation: "Intune enables you to manage cloud-connected devices."
-    - content: "Dual-management is when a Windows 10 device is managed by both Configuration Manager and Intune. This results in conflicting configurations being applied to the device."
-      choices:
-      - content: "True"
+        explanation: "Azure AD Premium enables co-management."
+      - content: "Azure Information Protection"
         isCorrect: false
-        explanation: "This is actually co-management and is supported for Windows 10 devices."
-      - content: "False"
+        explanation: "Azure AD Premium enables co-management."
+      - content: "Azure AD Premium"
         isCorrect: true
-        explanation: "This is actually co-management and is supported for Windows 10 devices."        
-    - content: "Microsoft Intune provides the ability to manage devices and protect company data centrally across all of the following operating systems - Windows 10, iOS, Android, and macOS."
+        explanation: "Azure AD Premium enables co-management."
+      - content: "Azure Advanced Threat Protection (ATP)"
+        isCorrect: false
+        explanation: "Azure AD Premium enables co-management."
+    - content: "True or false: Microsoft Intune enables you to manage centrally across all of these operating systems: Windows 10, iOS, Android, and macOS."
       choices:
       - content: "True"
         isCorrect: true

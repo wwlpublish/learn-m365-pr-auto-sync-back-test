@@ -16,6 +16,23 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
+    - content: "Which of the following is NOT a Microsoft 365 subscription option?"
+      choices:
+      - content: "Microsoft 365 Enterprise"
+        isCorrect: false
+        explanation: "No, this is a real subscription."
+      - content: "Microsoft 365 Business"
+        isCorrect: false
+        explanation: "No, this is a real subscription."
+      - content: "Microsoft 365 Education"
+        isCorrect: false
+        explanation: "No, this is a real subscription."
+      - content: "Microsoft 365 F1"
+        isCorrect: false
+        explanation: "No, this is a real subscription."
+      - content: "Microsoft 365 Home"
+        isCorrect: true
+        explanation: "Correct, there is no Home subscription for Microsoft 365."
     - content: "Microsoft 365 enables teamwork and collaboration through intuitive tools that allow you to work together in real time."
       choices:
       - content: "True"
@@ -24,28 +41,17 @@ quiz:
       - content: "False"
         isCorrect: false
         explanation: "Teamwork and collaboration are key elements of Microsoft 365."
-    - content: "Microsoft 365 delivers holistic security across users, devices, apps, and data."
+    - content: "Microsoft 365 helps organizations with all of the following, except:"
       choices:
-      - content: "True"
+      - content: "Reduce costs"
+        isCorrect: false
+        explanation: "Microsoft 365 helps reduce cost by increasing efficiency across your organization. "
+      - content: "Simplify administration"
+        isCorrect: false
+        explanation: "Microsoft 365 simplifies administration across your organization by consolidating tasks into a single administration portal."
+      - content: "Enhance security"
+        isCorrect: false
+        explanation: "Microsoft 365 provides better and more security technologies to help safeguard your organization, users, devices, and data."
+      - content: "Manage BI"
         isCorrect: true
-        explanation: "Microsoft 365 helps you protect all of your organization, from users to data."
-      - content: "False"
-        isCorrect: false
-        explanation: "Microsoft 365 helps you protect all of your organization, from users to data."
-    - content: "Microsoft 365 comes in which of these versions?"
-      choices:
-      - content: "Microsoft 365 Enterprise"
-        isCorrect: false
-        explanation: "This is just one of the available Microsoft 365 versions."
-      - content: "Microsoft 365 Business"
-        isCorrect: false
-        explanation: "This is just one of the available Microsoft 365 versions."
-      - content: "Microsoft 365 Education"
-        isCorrect: false
-        explanation: "This is just one of the available Microsoft 365 versions."
-      - content: "Microsoft 365 Firstline"
-        isCorrect: false
-        explanation: "This is just one of the available Microsoft 365 versions."
-      - content: "All of the above"
-        isCorrect: true
-        explanation: "These are all available Microsoft 365 versions."
+        explanation: "Microsoft 365 does include many tools that provide analytical data but its not intended as a BI solution.."

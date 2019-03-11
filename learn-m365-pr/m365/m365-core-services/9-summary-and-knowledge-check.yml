@@ -16,15 +16,21 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Intune integrates with Azure AD and device operating-system features for device management."
+    - content: "In general, which statement is true about Microsoft 365 services when compared to their on-premises versions?"
       choices:
-      - content: "True"
-        isCorrect: true
-        explanation: "Intune is a component of EMS. "
-      - content: "False"
+      - content: "They are less expensive overall."
         isCorrect: false
-        explanation: "Intune is a component of EMS. "
-    - content: "SharePoint Online includes enhancements to the features of Microsoft SharePoint Server."
+        explanation: "While Microsoft 365 helps reduce costs by improving efficiencies, lower cost isn't the main difference between the services and on-premises products."
+      - content: "They require lower initial investment."
+        isCorrect: false
+        explanation: "While Microsoft 365 helps reduce costs by improving efficiencies, lower initial investment isn't the main difference between the services and on-premises products."
+      - content: "Microsoft 365 services get new features before they're implemented in on-premises products."
+        isCorrect: false
+        explanation: "While this may be true for some of the services in Microsoft 365, it's not true overall."
+      - content: "The Microsoft 365 services require fewer resources to manage."
+        isCorrect: true
+        explanation: "Microsoft 365 simplifies management by providing a unified administration portal.."
+    - content: "True or false: SharePoint Online includes enhancements to the features of Microsoft SharePoint Server."
       choices:
       - content: "True"
         isCorrect: true
@@ -32,19 +38,17 @@ quiz:
       - content: "False"
         isCorrect: false
         explanation: "SharePoint Online includes enhancements to the features of  Microsoft SharePoint Server."
-    - content: "Users must be connected to the internet at all times to use Office 365 ProPlus because it’s web based."
+    - content: "Which of the following statements about Office 365 Pro Plus is NOT true?"
       choices:
-      - content: "True"
-        isCorrect: false
-        explanation: "As long as users connect to the service once every 30 days they can access the services offline."
-      - content: "False"
+      - content: "Office 365 ProPlus is a web-based version of Office."
         isCorrect: true
-        explanation: "As long as users connect to the service once every 30 days they can access the services offline."
-    - content: "Anti-malware protection is included in SharePoint Server."
-      choices:
-      - content: "True"
+        explanation: "While Office 365 ProPlus includes the features and functions of Office, it's more than just a web-based version."
+      - content: "Users can use Office 365 ProPlus with either the web-based or on-premises versions of SharePoint, Exchange, and Teams."
         isCorrect: false
-        explanation: "Antimalware protection is included in SharePoint Online, not SharePoint Server."
-      - content: "False"
-        isCorrect: true
-        explanation: "Antimalware protection is included in SharePoint Online, not SharePoint Server."
+        explanation: "Your users can use online or on-premises versions of these apps."
+      - content: "Users can install Office 365 ProPlus on multiple devices with a single license."
+        isCorrect: false
+        explanation: "Uesrs aren't limited to one device per license."
+      - content: "Office 365 ProPlus gets new and improved features on a regular bases, while the features included in the on-premises version of Office remain the same."
+        isCorrect: false
+        explanation: "Office 365 ProPlus is updated as often as monthly, while there can be years between updates to Office."

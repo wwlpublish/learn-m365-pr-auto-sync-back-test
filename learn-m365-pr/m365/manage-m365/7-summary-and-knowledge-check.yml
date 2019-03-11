@@ -27,37 +27,38 @@ quiz:
       - content: "in the Microsoft 365 admin center"
         isCorrect: true
         explanation: "Create users and manage licenses in the Microsoft 365 admin portal."
-    - content: "Where in the Microsoft 365 admin center are billing settings configured?"
+    - content: "Which of the following is NOT a support option for Microsoft 365?"
       choices:
-      - content: "Settings"
-        isCorrect: false
-        explanation: "Configure billing settings on the **Billing** tab."
-      - content: "Home"
-        isCorrect: false
-        explanation: "Configure billing settings on the **Billing** tab."
-      - content: "Billing"
+      - content: "Got to https://support.microsoft365.com"
         isCorrect: true
-        explanation: "Configure billing settings on the **Billing** tab."
-    - content: "Before signing any service agreement between your organization and the cloud provider, thoroughly review the SLA."
+        explanation: "You can get help in the Microsoft 365 Tech Community, but not from this website."
+      - content: "FastTrack"
+        isCorrect: false
+        explanation: "This is a supported option to get help with Microsoft 365."
+      - content: "Automated assistance bot"
+        isCorrect: false
+        explanation: "This is a supported option to get help with Microsoft 365."
+      - content: "Premier Support"
+        isCorrect: false
+        explanation: "This is a supported option to get help with Microsoft 365."
+      - content: "Your CSP's Tier 1 support"
+        isCorrect: false
+        explanation: "This is a supported option to get help with Microsoft 365."
+      - content: "Telephone support"
+        isCorrect: false
+        explanation: "This is a supported option to get help with Microsoft 365."
+      - content: "Microsoft support forums"
+        isCorrect: false
+        explanation: "This is a supported option to get help with Microsoft 365."
+    - content: "True or false: Microsoft 365 customers have a service level agreement (SLA) with their cloud service provider (CSP) but not with Microsoft."
       choices:
       - content: "True"
-        isCorrect: true
-        explanation: "Review the SLA so you know what to expect from the cloud provider."
+        isCorrect: false
+        explanation: "Your Microsoft 365 subscription includes an SLA with Microsoft."
       - content: "False"
-        isCorrect: false
-        explanation: "Review the SLA so you know what to expect from the cloud provider."
-    - content: "What does SLA stand for?"
-      choices:
-      - content: "Service legal agreement"
-        isCorrect: false
-        explanation: "It stands for service level agreement."
-      - content: "Service level argument"
-        isCorrect: false
-        explanation: "It stands for service level agreement."
-      - content: "Service level agreement"
         isCorrect: true
-        explanation: "It stands for service level agreement."
-    - content: "A service request is a support process that formalizes a user’s request to Microsoft Support for help. These requests can be made through different channels including telephone support, online chat support, and email."
+        explanation: "Your Microsoft 365 subscription includes an SLA with Microsoft."
+    - content: "True or false: Service requests can be made through different channels, including telephone support, online chat, and email."
       choices:
       - content: "True"
         isCorrect: true

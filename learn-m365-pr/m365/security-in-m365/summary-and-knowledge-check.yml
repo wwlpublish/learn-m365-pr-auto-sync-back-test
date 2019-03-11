@@ -16,36 +16,45 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Conditional access is a solution that evaluates users, devices, apps, location, and risk before access is granted to corporate data."
+    - content: "Which of the following is NOT critical to the security of every computer system?"
+      choices:
+      - content: "Identity and access management"
+        isCorrect: false
+        explanation: "False - this is a key pillar to securing your organization, users, devices, and data."
+      - content: "Threat protection"
+        isCorrect: false
+        explanation: "False - this is a key pillar to securing your organization, users, devices, and data."
+      - content: "Cloud and remote access security"
+        isCorrect: true
+        explanation: "Correct - this isn't a key pillar to securing your organization, users, devices, and data."
+      - content: "Information protection"
+        isCorrect: false
+        explanation: "False - this is a key pillar to securing your organization, users, devices, and data."
+      - content: "Security management"
+        isCorrect: false
+        explanation: "False - this is a key pillar to securing your organization, users, devices, and data."
+    - content: "Conditional access, secure authentication, and identity protection are pars of which security pilar?"
+      choices:
+      - content: "Identity and access management"
+        isCorrect: true
+        explanation: "These are all components of the Identity and access management pillar."
+      - content: "Threat protection"
+        isCorrect: false
+        explanation: "These are all components of the Identity and access management pillar."
+      - content: "Information protection"
+        isCorrect: false
+        explanation: "These are all components of the Identity and access management pillar."
+      - content: "Security management"
+        isCorrect: false
+        explanation: "These are all components of the Identity and access management pillar."
+    - content: "True or false: The Microsoft Information Protection solutions in Microsoft 365 help you protect sensitive data throughout its lifecycle - across devices, apps, cloud services, and on-premises locations."
       choices:
       - content: "True"
         isCorrect: true
-        explanation: "True - Conditional access helps you control who has access to what from where using which device."
+        explanation: "True - Microosft Information Protection protects your data at each stage."
       - content: "False"
         isCorrect: false
-        explanation: "False - Conditional access helps you control who has access to what from where using which device."
-    - content: "What are some of the problems with passwords?"
-      choices:
-      - content: "Complex passwords are hard to remember."
-        isCorrect: false
-        explanation: "This is just one of the problems with passwords."
-      - content: "User often use the same password for different accounts."
-        isCorrect: false
-        explanation: "This is just one of the problems with passwords."
-      - content: "If an attacker finds a compromised password, they can access a wide variety of accounts."
-        isCorrect: false
-        explanation: "This is just one of the problems with passwords."
-      - content: "All of the above"
-        isCorrect: true
-        explanation: "These are all problems with passwords."
-    - content: "Microsoft identity protection solutions include Azure AD Identity protection, Microsoft Cloud app security, Azure Advanced Threat Protection, and Windows 10."
-      choices:
-      - content: "True"
-        isCorrect: true
-        explanation: "True - use all of these solutions to protect user identities."
-      - content: "False"
-        isCorrect: false
-        explanation: "False - these solutions make up Microsoft's identity protection."
+        explanation: "True - Microosft Information Protection protects your data at each stage.
     - content: "True or false: Privileged Access Management grants global admin rights to individuals in your organization."
       choices:
       - content: "True"

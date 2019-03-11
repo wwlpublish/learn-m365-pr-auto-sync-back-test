@@ -50,7 +50,7 @@ quiz:
       - content: "All of the above."
         isCorrect: true
         explanation: "These are all ways that Microsoft 365 makes you more effective."
-    - content: "Microsoft Workplace Analytics tracks employee activities across all their applications, includnig the websites they visit, so you can see how they spend their time at work."
+    - content: "True or false: Microsoft Workplace Analytics tracks employee activities across all their applications, includnig the websites they visit, so you can see how they spend their time at work."
       choices:
       - content: "True"
         isCorrect: false
