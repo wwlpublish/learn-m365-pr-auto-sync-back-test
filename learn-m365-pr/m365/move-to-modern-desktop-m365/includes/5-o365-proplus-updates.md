@@ -10,6 +10,9 @@ For Office 365 ProPlus, Microsoft provides you options (called update channels) 
 
 Feature updates in Semi-Annual Channel have already been released in Monthly Channel in previous months. Semi-Annual Channel is the default update channel for Office 365 ProPlus.
 
+
+![Update channels for Windows 10 and Office 365 ProPlus](../media/windows-office-updates.svg)
+
 As needed, Microsoft also provides each update channel with two additional types of updates:
 
 - **Security updates**, such as updates that help keep Office protected from potential malicious attacks
