@@ -56,10 +56,10 @@ quiz:
         isCorrect: false
         explanation: "True - Microosft Information Protection protects your data at each stage.
     - content: "True or false: Privileged Access Management grants global admin rights to individuals in your organization."
-      choices:
-      - content: "True"
-        isCorrect: false
-        explanation: "False - Privileged access management allows granular access control over privileged admin tasks to help protect your organization from breaches that may use existing privileged admin accounts with standing access to sensitive data or critical configuration settings."
-      - content: "False"
-        isCorrect: true
-        explanation: "Correct - Privileged access management allows granular access control over privileged admin tasks to help protect your organization from breaches that may use existing privileged admin accounts with standing access to sensitive data or critical configuration settings"
+          choices:
+          - content: "True"
+          isCorrect: false
+          explanation: "False - Privileged access management allows granular access control over privileged admin tasks to help protect your organization from breaches that may use existing privileged admin accounts with standing access to sensitive data or critical configuration settings."
+          - content: "False"
+          isCorrect: true
+          explanation: "Correct - Privileged access management allows granular access control over privileged admin tasks to help protect your organization from breaches that may use existing privileged admin accounts with standing access to sensitive data or critical configuration settings"
