@@ -2,11 +2,13 @@ How you deploy Windows 10 and Office 365 ProPlus depends on your business requir
 
 You can choose from a variety of existing and new deployment tools for Windows 10 and Office 365 ProPlus, including Windows Autopilot and the Microsoft Deployment Toolkit for Windows, the Office Deployment Tool for Office, and Intune and Configuration Manager for both Windows and Office. As part of your deployment, you also choose whether to deploy Windows and Office from the cloud or from a local source on your network. 
 
+![Deploy from a local source or from the cloud](../media/deploy-from-local-or-cloud.svg)
+
 ## Deployment options for Windows 10 
 
 Windows 10 includes the following new deployment tools and methods:
 
-- **Windows Autopilot**: Customize the out-of-box experience (OOBE) to deploy apps and settings that are pre-configured for your organization. Include just the apps your users need. Autopilot is the easiest way to deploy a new PC running Windows 10. You can also use it in partnership with Configuration Manager to upgrade Windows 7 or Windows 8.1 to Windows 10. 
+- **Windows Autopilot**: Customize the out-of-box experience (OOBE) to deploy apps and settings that are pre-configured for your organization. Include just the apps your users need. Autopilot is the easiest way to deploy a new PC running Windows 10. You can also use it with Configuration Manager to upgrade Windows 7 or Windows 8.1 to Windows 10. 
 - **In-place upgrade**: Upgrade a device’s operating system without reinstalling. You can migrate apps, user data, and settings from one version of Windows to another (like going from Windows 8.1 to Windows 10). You can also update from one release of Windows 10 to the next (like going from Windows 10, version 1803, to Windows 10, version 1809).
 - **Dynamic provisioning**: Create a provisioning package to quickly configure one or more devices, even those without network connectivity. You create provisioning packages with the Windows Configuration Designer and can install them over a network, from removable media (like a USB drive), or in near field communication (NFC) tags or barcodes. 
 - **Subscription activation**: Use a subscription to switch from one edition of Windows 10 to another. For example, you can switch from Windows 10 Pro to Windows 10 Enterprise. When a licensed user signs into a device (and they have credentials associated with a Windows 10 E3 or E5 license), the OS changes from Windows 10 Pro to Windows 10 Enterprise, and all the appropriate Windows 10 Enterprise features are unlocked. If the subscription expires (or is transferred to another user), the device reverts seamlessly to Windows 10 Pro edition, after a grace period of up to 90 days. 
