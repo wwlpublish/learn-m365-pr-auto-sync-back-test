@@ -41,17 +41,11 @@ quiz:
       - content: "False"
         isCorrect: false
         explanation: "Teamwork and collaboration are key elements of Microsoft 365."
-    - content: "Microsoft 365 helps organizations with all of the following, except:"
+    - content: "True or false: Microsoft 365 delivers holistic security across users, devices, apps, and data."
       choices:
-      - content: "Reduce costs"
-        isCorrect: false
-        explanation: "Microsoft 365 helps reduce cost by increasing efficiency across your organization. "
-      - content: "Simplify administration"
-        isCorrect: false
-        explanation: "Microsoft 365 simplifies administration across your organization by consolidating tasks into a single administration portal."
-      - content: "Enhance security"
-        isCorrect: false
-        explanation: "Microsoft 365 provides better and more security technologies to help safeguard your organization, users, devices, and data."
-      - content: "Manage BI"
+      - content: "True"
         isCorrect: true
-        explanation: "Microsoft 365 does include many tools that provide analytical data but its not intended as a BI solution.."
+        explanation: "Microsoft 365 delivers holistic security across users, devices, apps, and data."
+      - content: "False"
+        isCorrect: false
+        explanation: "Microsoft 365 delivers holistic security across users, devices, apps, and data."
