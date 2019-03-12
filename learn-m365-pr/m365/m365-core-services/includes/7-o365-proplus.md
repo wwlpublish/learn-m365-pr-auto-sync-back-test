@@ -4,7 +4,7 @@ You can install Office 365 ProPlus from a network share or directly from the int
 
 Office 365 ProPlus is updated either monthly or semi-annually with new features, security updates, and other quality updates from Microsoft. You can choose which frequency works best for your organization by using update channels. 
 
-## Compare Office 365 Pro Plus with on-premises Office Professional Plus 2019
+## Compare Office 365 ProPlus with on-premises Office Professional Plus 2019
 
 Office 365 ProPlus is similar to Office Professional Plus 2019 (the version of Office available through volume licensing instead of through a Microsoft 365 plan), but there are significant differences between the two versions of Office:
 - Office 365 ProPlus gets new and improved features on a regular basis, while the features included in Office Professional Plus 2019 remain the same.

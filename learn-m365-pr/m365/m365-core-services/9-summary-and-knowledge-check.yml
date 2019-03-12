@@ -16,20 +16,14 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "In general, which statement is true about Microsoft 365 services when compared to their on-premises versions?"
+    - content: "True or false: Microsoft Intune integrates with Azure AD and device OS features for device management."
       choices:
-      - content: "They are less expensive overall."
-        isCorrect: false
-        explanation: "While Microsoft 365 helps reduce costs by improving efficiencies, lower cost isn't the main difference between the services and on-premises products."
-      - content: "They require lower initial investment."
-        isCorrect: false
-        explanation: "While Microsoft 365 helps reduce costs by improving efficiencies, lower initial investment isn't the main difference between the services and on-premises products."
-      - content: "Microsoft 365 services get new features before they're implemented in on-premises products."
-        isCorrect: false
-        explanation: "While this may be true for some of the services in Microsoft 365, it's not true overall."
-      - content: "The Microsoft 365 services require fewer resources to manage."
+      - content: "True"
         isCorrect: true
-        explanation: "Microsoft 365 simplifies management by providing a unified administration portal.."
+        explanation: "Both Microsoft Intune and Azure AD are part of EMS, which lets them work together to provide device management."
+      - content: "False"
+        isCorrect: false
+        explanation: "Both Microsoft Intune and Azure AD are part of EMS, which lets them work together to provide device management."
     - content: "True or false: SharePoint Online includes enhancements to the features of Microsoft SharePoint Server."
       choices:
       - content: "True"
@@ -38,7 +32,7 @@ quiz:
       - content: "False"
         isCorrect: false
         explanation: "SharePoint Online includes enhancements to the features of  Microsoft SharePoint Server."
-    - content: "Which of the following statements about Office 365 Pro Plus is NOT true?"
+    - content: "Which of the following statements about Office 365 ProPlus is NOT true?"
       choices:
       - content: "Office 365 ProPlus is a web-based version of Office."
         isCorrect: true
