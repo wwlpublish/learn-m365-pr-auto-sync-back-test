@@ -30,7 +30,7 @@ products:
 units:
 - learn-m365.compliance-m365.2-common-compliance
 - learn-m365.compliance-m365.3-assess-your-compliance
-- learn-m365.compliance-m365.4-integrated-protection
+- learn-m365.compliance-m365.4-data-governance
 - learn-m365.compliance-m365.4-enable-encryption
 - learn-m365.compliance-m365.5-enforce-zero-standing
 - learn-m365.compliance-m365.6-respond-to-data-discovery
