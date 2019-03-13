@@ -8,6 +8,31 @@ Microsoft 365 Enterprise provides enterprise-class services to organizations tha
 
 There are two available plans for Microsoft 365 Enterprise, letting you further refine what's included in your implementation - E3 and E5. E5 includes all of the same features as E3 plus the latest advanced threat protection, security, and collaboration tools.
 
+|**Feature**|**E3**|**E5**|
+|:-----|:-----|:-----|
+|Windows 10 Enterprise|+|+|
+|Word, Excel, PowerPoint, OneNote|+|+|
+|Access|+|+|
+|Exchange, Outlook|+|+|
+|Microsoft Teams|+|+|
+|StaffHub, PowerApps, Flow|+|+|
+|Skype for Business|+|+|
+|SharePoint, Yammer|+|+|
+|Advanced Threat Analytics, Windows Defender Antivirus, Device Guard|+|+|
+|Azure Active Directory Plan 1, Windows Hello, Credential Guard, Direct access|+|+|
+|Microsoft Intune|+|+|
+|Windows Autopilot, Fine Tuned User Experience, Windows Analytics Device Health|+|+|
+|Windows Information Protection, Bitlocker & Azure Information Protection P1|+|+|
+|Office 365 Data Loss Preventions|+|+|
+|Delve|+|+|
+|Power BI Pro, MyAnalytics| |+|
+|Audio conferencing, Phone System| |+|
+|Windows Defender Advanced Threat Protection, Office 365 Advanced Threat Protection, Office 365 Threat Intelligence| |+|
+|Azure Active Directory Plan 2| |+|
+|Azure Information Protection P2, Microsoft Cloud App Security, Office 365 Cloud App Security| |+|
+|Advanced eDiscovery, Customer Lockbox, Advanced Data Governance| |+|
+
+
 ## Microsoft 365 Business
  
 Microsoft 365 Business is designed for small- and medium-sized organizations. Like Microsoft 365 Enterprise, Microsoft 365 Business offers the full set of Office 365 productivity tools and includes security and device management features. It doesn’t include some of the more advanced information protection, compliance, or analytics tools available to enterprise subscribers. It’s designed for organizations that need up to 300 licenses; if your organization is larger than that, you’ll need to subscribe to a Microsoft 365 Enterprise plan instead.
