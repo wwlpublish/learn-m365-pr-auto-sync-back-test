@@ -2,7 +2,8 @@ In this module you learned about the the key pillars of security and how Microso
 
 ## Resources
 
-[Microsoft 365 security center](https://security.microsoft.com.)
+[Microsoft 365 security center](https://security.microsoft.com)
+
 [Content Search](https://docs.microsoft.com/Office365/SecurityCompliance/content-search) 
 
 [Sensitive information types](https://docs.microsoft.com/office365/securitycompliance/what-the-sensitive-information-types-look-for) (part of Data Loss Prevention) 
