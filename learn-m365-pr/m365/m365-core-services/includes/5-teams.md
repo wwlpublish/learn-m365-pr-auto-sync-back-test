@@ -1,4 +1,4 @@
->> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1LGec]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1LGec]
 
 Microsoft Teams provides a central hub for collaboration within your organization and allows you to implement a chat-based workspace. Keep your team in sync by sharing documents, insights, and status updates while being able to manage important projects and easily locate people. Teams is also available as a mobile app, which lets you stay up-to-date both in the office and on the go.
 

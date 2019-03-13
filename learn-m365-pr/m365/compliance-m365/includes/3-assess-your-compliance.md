@@ -39,4 +39,4 @@ Compliance Manager provides three key capabilities:
 - **Simplified compliance**. Simplify processes to achieve compliance. It provides built-in collaboration tools that you can use to assign tasks to your teams. You can also generate audi-ready reports with links to the evidence you collected. 
 
 Video: New Compliance manager demo: 
->> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWruAJ]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWruAJ]
