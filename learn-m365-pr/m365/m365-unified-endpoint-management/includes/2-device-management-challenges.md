@@ -10,7 +10,7 @@ Laptops, tablets, or other mobile devices are the primary devices used in enterp
 
 **Lost or stolen devices.** The average cost of replacing a stolen device can exceed the cost of the device. This cost is higher because your organization must configure the new device and determine what data was lost or stolen. In some cases, that data exists only on the mobile device, and is then lost to the organization.
 
-**Compromised devices that connect to the internal network.** A mobile device infected with malware can leak data, and introduce the malware into the organization. Organizations must treat mobile devices as possible malware carriers and take precautions to prevent leaks and attacks.
+**Compromised devices that connect to the internal network.** A mobile device infected with malware can leak data and introduce the malware into the organization. Organizations must treat mobile devices as possible malware carriers and take precautions to prevent leaks and attacks.
 
 **User-owned mobile devices.** Personal devices are a challenge to organizations. IT departments need to find a balance between allowing access to applications and data with users wanting to use their own devices. When considering a mobile device support policy, ask the following questions:
 - Is the device owned by the user or the organization?

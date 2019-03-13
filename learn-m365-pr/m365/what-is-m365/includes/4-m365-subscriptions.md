@@ -1,4 +1,4 @@
-Every organizations has unique requirements, so Microsoft offers a variety of subscriptions and plans to accommodate your organization’s needs. In this unit, we’ll summarize these subscriptions.
+Every organization has unique requirements, so Microsoft offers a variety of subscriptions and plans to accommodate your organization’s needs. In this unit, we’ll summarize these subscriptions.
 
 Microsoft 365 blends organizational tasks with technology solutions to meet the needs of modern organizations and all sorts of busy professionals. Microsoft 365 improves collaboration, provides a modernized system that is continually updated, and increases productivity for your modern workforce, no matter where your employees are or what devices they’re using.
 
