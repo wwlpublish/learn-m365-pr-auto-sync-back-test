@@ -1,5 +1,16 @@
 Enterprise Mobility + Security (EMS) is an intelligent mobility management and security platform that helps protect and secure your organization and empowers your employees to work in new and flexible ways. EMS is a suite of products included in your Microsoft 365 Enterprise subscription. Learn how these products help manage devices in your organization.
 
+EMS is provided as part of Microsoft 365 E3 and E5 plans, as summarized in the table below. 
+
+|Product|E3 plan|	E5 plan|
+|-|-|-|
+|Azure AD Premium|	P1 plan|	P2 plan|
+|Intune|Yes|	Yes|
+|Azure Information Protection|	P1 plan|	P2 plan|
+|Microsoft Advanced Threat Analytics|	Yes|	Yes|
+|Cloud App Security|	No|	Yes|
+|Configuration Manager|	Yes|	Yes|
+
 **Azure AD Premium** is the central identity store used for all the applications in EMS and Microsoft 365. Azure AD Premium is available with three different levels of capabilities: Basic, P1, or P2. P1 and P2 include features that are important for unified endpoint management. Some of the additional features included with the P1 and P2 plans are:
 
 - Self-service password reset
@@ -23,7 +34,7 @@ Use Intune to manage apps and mobile devices by “enrolling” devices. When yo
 |Endpoint protection|	Configures settings for BitLocker and Windows Defender.|
 |Windows Information Protection|	Allows you to configure Windows Information Protection for data loss prevention.|
 
-**System Center Configuration Manager** is an on-premises infrastructure used to manage Windows, macOS PCs, and servers. Configuration Manager has a rich set of capabilities that allow you to highly customize the following areas:
+**System Center Configuration Manager** is an on-premises product used to manage Windows, macOS PCs, and servers. Configuration Manager has a rich set of capabilities that allow you to highly customize the following areas:
 - Application management 
 - OS deployment 
 - Software update management 
@@ -39,7 +50,7 @@ Use Intune to manage apps and mobile devices by “enrolling” devices. When yo
 
 **Cloud App Security** uses data collected from your firewalls and proxy servers to identify cloud application usage. This can help identify unauthorized applications that might be a threat to your data. Additionally, it can identify unusual usage patterns that might indicate a problem. 
 
-**Microsoft Identity Manager 2016** binds Microsoft's identity and access management solutions together by seamlessly bridging multiple on-premises authentication stores like Active Directory, LDAP, Oracle, and other applications with Azure Active Directory. This provides consistent experiences to on-premises business applications and SaaS solutions.
+**Microsoft Identity Manager 2016** binds Microsoft's identity and access management solutions together by seamlessly bridging multiple on-premises authentication stores like Active Directory, LDAP, Oracle, and other applications with Azure Active Directory. This provides consistent identity experiences for both on-premises business applications and SaaS solutions.
 
 **Azure Advanced Threat Protection** (ATP) is a cloud-based solution to identify, detect, and investigate threats, compromises, and malicious actions. ATP helps you: 
 - Detect and investigate advanced attacks on-premises and in the cloud.
@@ -49,13 +60,3 @@ Use Intune to manage apps and mobile devices by “enrolling” devices. When yo
 - View clear attack information on a simple timeline for fast triage.
 - Monitor multiple entry points through integration with Windows Defender Advanced Threat Protection.
 
-EMS is provided as part of Microsoft 365 E3 and E5 plans, as summarized in the table below. 
-
-|Product|E3 plan|	E5 plan|
-|-|-|-|
-|Azure AD Premium|	P1 plan|	P2 plan|
-|Intune|Yes|	Yes|
-|Azure Information Protection|	P1 plan|	P2 plan|
-|Microsoft Advanced Threat Analytics|	Yes|	Yes|
-|Cloud App Security|	No|	Yes|
-|Configuration Manager|	Yes|	Yes|
