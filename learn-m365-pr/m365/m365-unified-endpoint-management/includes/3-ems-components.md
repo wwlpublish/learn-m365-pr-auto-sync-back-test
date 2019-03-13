@@ -3,19 +3,12 @@ Enterprise Mobility + Security (EMS) is an intelligent mobility management and s
 **Azure AD Premium** is the central identity store used for all the applications in EMS and Microsoft 365. Azure AD Premium is available with three different levels of capabilities: Basic, P1, or P2. P1 and P2 include features that are important for unified endpoint management. Some of the additional features included with the P1 and P2 plans are:
 
 - Self-service password reset
-- Write-back from Azure AD to on-premises AD DS
+- Write-back from Azure AD to on-premises Active Directory Domain Services (meaning your cloud and on-premises data is linked)
 - Microsoft Azure Multi-Factor Authentication (MFA) for cloud and on-premises apps
 - Conditional access based on group, location, and device state
 - Conditional access based on sign-in or user risk (P2 plan only)
 
-**Intune** can enforce security policies, wipe devices remotely, and deploy apps. Intune supports devices running the following operating systems:
-
-- Apple iOS 9.0 and later
-- Mac OS X 10.9 and later
-- Android 4.4 and later, including Android Enterprise and Samsung Knox 
-- Windows Phone 8.1, Windows RT 8.1, and Windows 8.1 (sustaining mode)
-- Windows 10 and Windows 10 Mobile
-- Windows 10 IoT Enterprise and Windows 10 IoT Mobile Enterprise
+**Intune** is a cloud-based enterprise mobility management (EMM) service that enables user productivity while keeping your corporate data protected. Intune integrates with Azure Active Directory for identity and access control, and Azure Information Protection for data protection. Intune can enforce security policies, wipe devices remotely, and deploy apps. 
 
 Use Intune to manage apps and mobile devices by “enrolling” devices. When you enroll, you can use profiles to manage different settings and features on devices. The following table shows the most common device profiles for Windows 10.
 
