@@ -31,6 +31,7 @@ The Compliance Manager is a cross-Microsoft solution that helps meet complex com
 - HIPAA
 
 ![Compliance Manager](../media/3-compliance-manager.png)
+*the compliance manager assessments page*
 
 Compliance Manager provides three key capabilities:
 - **Ongoing risk assessment**. View a summary of your compliance posture against the data protection regulatory requirements that are relevant to your organization, in the context of using Microsoft cloud services. The dashboard provides you with your compliance score, which helps you make appropriate compliance decisions.

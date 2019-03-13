@@ -26,6 +26,7 @@ It can be helpful to think about managing compliance in terms of three phases:
 - **Protect**: Integrated protection and governance of sensitive data across devices, apps and cloud services
 - **Respond**: Intelligently respond to data discovery requests by leveraging AI to find the most relevant data
 
-The graphic below visualizes each of these phases and the solutions in Microsoft 365 that can help you: 
+
 
 ![Tools to reduce risk](../media/2-reduce-risk.png)
+*The graphic visualizes each of these phases and the solutions in Microsoft 365 that can help you* 

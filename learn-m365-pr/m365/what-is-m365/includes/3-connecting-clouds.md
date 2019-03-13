@@ -2,6 +2,8 @@ By connecting Office 365, Windows 10 Enterprise, Enterprise Mobility and Securit
 
 ![The value of connecting cloud services](../media/3-connected-clouds.png)
 
+*The primary value add areas of Microsoft 365* 
+
 ## Unlocks creativity 
 Microsoft 365 provides powerful capabilities through AI powered tools to unleash your organization's creativity and fuel innovation. From engaging presentations to animated 3D models and immersive mixed reality experiences, you can now create high-quality content that really stands out. AI-powered tools help you turn an ever-growing mass of data into actionable insights to transform your organization. Stay focused with fewer distractions and easily access the people and information you need without leaving the flow of your work. When inspiration strikes, effortlessly go from thought to content using voice, touch, and pen on any device.
 
