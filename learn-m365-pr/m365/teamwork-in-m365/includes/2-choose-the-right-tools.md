@@ -2,6 +2,8 @@ Which tools are best for your organization's teamwork needs? It generally depend
 
 ![Teamwork loops in Microsoft 365](../media/loops.png)
 
+*one approach to collaboration* 
+
 The inner loop is made up of the people you actively work with on a regular basis. Use **Microsoft Teams** to let the inner loop members stay tightly connected on project updates and related content and files no matter where they are located. 
 
 The outer loop is made up of the people you may not work with regularly on a project or in the team, but who have a vested interest, like a project stakeholder or common goal. Use **Yammer** to openly share information, find expertise, and share ideas across your organization. Groups and conversations are open and viewable to everyone. If you prefer working in email, **Outlook** is an ideal way to start the conversation. 

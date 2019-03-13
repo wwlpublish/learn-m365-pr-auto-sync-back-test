@@ -25,6 +25,7 @@ Conditional access provides granular access control to keep your corporate data 
 Conditional access is a solution that spans Microsoft 365 services including Intune, Office 365, and Windows 10. 
 
 ![Conditional access](../media/3-conditional-access.png)
+*conditional access evaluates each access request on a number of different criteria and then using policies you define, decides if it should be allowed, if stricter controls are needed or if the access attempt should be blocked altogether*
 
 ## Identity protection
 Most security breaches are a result of attackers stealing a user’s identity. Over the years, attackers have become increasingly effective in leveraging third-party breaches and using sophisticated phishing attacks. As soon as an attacker gains access to even low privileged user accounts, it's relatively easy for them to gain access to important company resources. 

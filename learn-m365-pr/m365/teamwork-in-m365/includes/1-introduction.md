@@ -7,6 +7,7 @@ Microsoft 365 give your teams the right tools at the right time for the right ta
 The teamwork products benefit from the same enterprise-level security, compliance, and manageability as the rest of Microsoft 365.
 
 ![Microsoft 365 universal toolkit for Teamwork](../media/universal-toolkit.png)
+*the Microsoft 365 tools that support teamwork*
 
 With the familiar **Outlook** email-based experience you can stay in touch with colleagues, and share calendars, files, and tasks, to make sure important deliverables get attention. 
 

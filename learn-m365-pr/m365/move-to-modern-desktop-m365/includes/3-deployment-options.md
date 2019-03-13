@@ -3,6 +3,7 @@ How you deploy Windows 10 and Office 365 ProPlus depends on your business requir
 You can choose from a variety of existing and new deployment tools for Windows 10 and Office 365 ProPlus, including Windows Autopilot and the Microsoft Deployment Toolkit for Windows, the Office Deployment Tool for Office, and Intune and Configuration Manager for both Windows and Office. As part of your deployment, you also choose whether to deploy Windows and Office from the cloud or from a local source on your network. 
 
 ![Deploy from a local source or from the cloud](../media/deploy-from-local-or-cloud.png)
+*download updates to a local distribution point or get them directly from the cloud* 
 
 ## Deployment options for Windows 10 
 

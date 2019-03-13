@@ -1,7 +1,5 @@
 When companies consider cloud solutions, they usually focus on three areas: 
 
-![3 areas of cloud focus](../media/4-which-cloud-model.png)
-
 - Cost
 - Security/reliability and compliance
 - Functionality 

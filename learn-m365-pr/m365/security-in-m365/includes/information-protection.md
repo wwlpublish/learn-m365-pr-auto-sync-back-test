@@ -2,6 +2,8 @@ In a mobile-first, cloud-first world, important business data lives and travels 
 
 ![Information is everywhere](../media/1-information.png)
 
+*illustration of where your data may travel*
+
 Organizations need to balance productivity and security. How do you create and share information across boundaries, while preventing the unauthorized disclosure, modification, or destruction of that data? What can you do to reduce the risk that employees share sensitive information accidentally or use sensitive information inappropriately?
 
 To balance productivity and security effectively, you need strategy for protecting and managing your sensitive information. You need to know where your sensitive information is located. And you need to be able to control it as it travels within and outside your organization. You also need to have a way to classify, label, and apply appropriate protections to this information.
@@ -17,9 +19,9 @@ The Microsoft Information Protection solutions in Microsoft 365 help you protect
 ## Integrated capabilities protect and manage data throughout its lifecycle
 The unified labeling experience in Microsoft 365 provides organizations with a more integrated and consistent approach to creating, configuring, and automatically applying comprehensive policies to protect and govern data – across devices, apps, cloud services, and on-premises. The information protection capabilities also support your overall data governance strategy. Classifying and labeling data enables you to apply policy-based protections and/or retention actions. Advanced monitoring and analytics provide visibility and insights into your organization’s data. You can understand where important data resides, receive proactive alerts on policy violations, and view recommendations on policy enhancements based on your environment.
 
-The following image shows how these integrated capabilities work together over the course of the data lifecycle to keep information protected and managed.
-
 ![Follow data](../media/1-follow-data.png)
+
+*image shows how these integrated capabilities work together over the course of the data lifecycle to keep information protected and managed*
 
 The following units will explain in greater detail how these capabilities work at each phase of the data lifecycle.
 
@@ -38,6 +40,8 @@ Key considerations:
 In order to protect your organization’s information, you need to be able to discover sensitive information no matter where it is created or lives. That means having sensitive data discovery capabilities across your on-premises file shares or datacenters, on individual devices, as well as across cloud services and SaaS applications. 
 
 ![Sensitive data](../media/2-sensitive-data.png)
+
+*where your sensitive data may reside*
 
 What counts as “sensitive data” for your organization will be determined by things like your industry (e.g., healthcare, financial services), governmental regulations and policies, as well as your organization’s internal policies.
 - You can start by using [**Content Search**](https://docs.microsoft.com/Office365/SecurityCompliance/content-search) to search for in-place items such as email, documents, and instant messaging conversations.
@@ -76,6 +80,13 @@ Sensitive data may initially be created on an individual device, but it's freque
 - To help end-users make more informed decisions, you can enable policy tips that notify users that the document they are working with contains sensitive information, or you can even automatically apply a visual marking to documents, such as a header or footer. 
 - To help prevent sensitive information from staying around longer than necessary and potentially posing a risk, you can automatically retain, expire or delete documents, based on data governance policies defined by your company. 
 
+<<<<<<< HEAD
+![Sensitive information](../media/3-sensitive-info.png)
+
+*some methods to protect your sensitive data*
+
+=======
+>>>>>>> cb433d99400653c93cf6b03540074576ed082352
 ## Monitor and respond to threats
 There are two key activities in the “Monitor” phase of the information protection lifecycle. First, you need to **gain visibility** into all the events impacting your environment. Second, you need to **take action** or remediate, based on the event.
 
@@ -92,6 +103,7 @@ Here’s a closer look at some of the monitoring capabilities in Microsoft 365.
 The Label Analytics dashboard in the Microsoft 365 compliance center aggregates label insights so that you can see how sensitivity and retention labels are being used for both Office 365 and non-Office 365 data.
 
 ![Label analytics screenshow](../media/4-label-screen.png)
+*label analytics dashboard*
 
 Additional reports that help you monitor information protection:
 
