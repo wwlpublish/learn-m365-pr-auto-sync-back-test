@@ -1,4 +1,4 @@
-The new Microsoft 365 compliance center is a new specialized workspace for your compliance, privacy, and risk management professionals. In the new center, you can assess your compliance risks through Compliance Manager, protect and govern your data with sensitivity and retention labels, respond to regulatory requests like Data Subject Requests, and access to more other compliance and privacy solutions. 
+The new Microsoft 365 compliance center is a specialized workspace for your compliance, privacy, and risk management professionals. You can use the compliance center to assess your compliance risks through Compliance Manager, protect and govern your data with sensitivity and retention labels, respond to regulatory requests like Data Subject Requests, and access other compliance and privacy solutions. 
 
 ![Compliance Center](../media/4-compliance-center.png)
 

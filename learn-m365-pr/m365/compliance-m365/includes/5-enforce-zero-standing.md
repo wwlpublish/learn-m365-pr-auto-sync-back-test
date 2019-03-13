@@ -3,7 +3,7 @@ Organizations are twice as likely to get breached through compromised credential
 ## Customer Lockbox for Office 365
 Microsoft runs their organization and datacenters on the principle of Zero Standing Admin Access – that means users do not have permissions by default to perform privileged tasks, or access sensitive data on their own. When required, all access requests go through a privileged access workflow, allowing users just-in-time and just-enough access for the task they need to perform. All such requests require approvals and have significant oversight.
 
-One additional control over access to customer content is offered through Customer Lockbox. Customer Lockbox requires the customer, such as the tenant admin or a custom role like the compliance manager, to approve the request before access is granted to Microsoft engineers. The transparency, control and security rigor provided through this Customer Lockbox workflow is above and beyond what other major SaaS vendors offer today. 
+One additional control over access to customer content is offered through Customer Lockbox. Customer Lockbox requires the customer, such as the tenant admin or a custom role like the compliance manager, to approve the request before access is granted to Microsoft engineers. The transparency, control, and security rigor provided through this Customer Lockbox workflow is above and beyond what other major SaaS vendors offer today. 
 
 ![Access request flow for Customer Lockbox](../media/5-customer-lockbox.png)
 
