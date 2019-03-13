@@ -18,7 +18,6 @@ The Service Trust Portal includes the following compliance tools:
 
 You can access the Service Trust Portal by going to http://aka.ms/STP.
 
-Video: Service Trust Portal video (6.23 minutes) 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtDo4]
 
 

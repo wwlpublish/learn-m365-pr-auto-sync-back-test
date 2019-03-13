@@ -78,7 +78,7 @@ Sensitive data may initially be created on an individual device, but it's freque
 ## Monitor and respond to threats
 There are two key activities in the “Monitor” phase of the information protection lifecycle. First, you need to **gain visibility** into all the events impacting your environment. Second, you need to **take action** or remediate, based on the event.
 
-You can get visibility into relevant activity and events in several ways. You can review reports and alerts on policy violations, sensitive document access & sharing. You can also review cloud app usage and anomalous activity, such as a large download of data from a specific cloud app within a certain period of time. 
+You can get visibility into relevant activity and events in several ways. You can review reports and alerts on policy violations, sensitive document access and sharing. You can also review cloud app usage and anomalous activity, such as a large download of data from a specific cloud app within a certain period of time. 
 
 Just as important as visibility is the ability to take immediate action. For example, if your end-user productivity is being negatively impacted because of restrictive DLP policies, you can tune your policies to find the right balance. Or, if you discover anomalous activity or inappropriate sharing, you can immediately revoke app access or quarantine a file or a user. 
 
@@ -94,10 +94,10 @@ The Label Analytics dashboard aggregates label insights so that you can see how 
 
 Additional reports that help you monitor information protection:
 
-- **Data loss prevention** - Data loss prevention policy matches, false positives and overrides, and links to create or edit policies 
-- **Data governance**- Information about how labels are applied, labels classified as records, label trends, and more
-- **Threat management dashboard** (this is also referred to as the Security dashboard and the Threat Intelligence dashboard)
-- **Mail flow** - Information about sent and received email messages, recent alerts, top senders and recipients, email forwarding reports, and more
-- **GDPR compliance** - Information about GDPR compliance, including links to data subjects, label trends, and active & closed cases
-- **Audit log** - Information about Office 365 activities, users, files or folders, and more
-- **Compliance reports** - FedRAMP reports, governance, risk and compliance reports, ISO information security management reports, and Service Organization Controls audit and assessment reports
+- **Data loss prevention**. Data loss prevention policy matches, false positives and overrides, and links to create or edit policies
+- **Data governance**. Information about how labels are applied, labels classified as records, label trends, and more.
+- **Threat management dashboard**. This is also referred to as the Security dashboard and the Threat Intelligence dashboard
+- **Mail flow**. Information about sent and received email messages, recent alerts, top senders and recipients, email forwarding reports, and more
+- **GDPR compliance**. Information about GDPR compliance, including links to data subjects, label trends, and active and closed cases
+- **Audit log**. Information about Office 365 activities, users, files or folders, and more
+- **Compliance reports**. FedRAMP reports, governance, risk and compliance reports, ISO information security management reports, and Service Organization Controls audit and assessment reports

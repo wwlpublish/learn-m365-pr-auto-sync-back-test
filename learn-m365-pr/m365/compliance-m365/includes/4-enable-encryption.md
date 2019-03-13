@@ -3,5 +3,3 @@ Microsoft uses some of the strongest encryption protocols and follows stringent 
 For additional controls, customers can encrypt their data in transit, and more granularly at content level, with Office 365 Message Encryption and Azure Information Protection, which can provide an added layer protection on top of TLS. 
 
 Lastly for customers with specific compliance obligations that require them to provide and control their own encryption keys, we provide several options here as well with features like Customer Key or Bring Your Own Key, Hold Your Own Key with Azure Information Protection. 
-
-More information: Introduction to Encryption in Office 365_ Level 100 (External)
