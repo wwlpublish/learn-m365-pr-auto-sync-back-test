@@ -8,7 +8,7 @@ In addition to improving security, Windows 10 and Office 365 ProPlus improves ho
 For both Windows 10 and Office 365 ProPlus, feature updates are released more frequently, which means your users will get security and productivity capabilities multiple times a year, instead of once every three years.
 
 ## Shifting to the modern desktop 
-To shift to the modern desktop, you deploy Windows 10 and Office 365 ProPlus and adopt a stay current process that uses Windows and Office servicing to deploy regular security and feature updates. Each of these steps has been improved for IT, making them easier to implement and more efficient to manage. 
+To shift to the modern desktop, you must deploy Windows 10 and Office 365 ProPlus and adopt a stay-current process that uses Windows and Office servicing to deploy regular security and feature updates. Each of these steps has been improved for IT, making them easier to implement and more efficient to manage. 
 
 To help you get ready for your deployment, Microsoft has released new tools and features that you can use to prepare your environment. Windows includes delivery optimization, a feature that can help improve how you deploy and manage updates to Windows and Office across your network. Application compatibility, which is always a concern for organizations that are upgrading to a new operating system or a version of Office, has been greatly improved and includes compatibility testing and the tools for testing and fixing the applications in your own environment. 
 
