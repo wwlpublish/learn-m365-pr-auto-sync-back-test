@@ -1,8 +1,9 @@
-In this module you learned about the the key pillars of security and how Microsoft 365 helps you with your security needs.
+In this module you learned about protecting identities by using secure authentication, conditional access, and software like Azure Active Directory and Windows Hello. You learned how Microsoft 365 helps you protect against threats to your users, devices, and infrastructure, and how to classify and protect information throughout the data lifecycle. Finally, you learned about the many security capabilities available in the Microsoft 365 security center, including Secure Score.
 
 ## Resources
 
-[Microsoft 365 security center](https://security.microsoft.com.)
+[Microsoft 365 security center](https://security.microsoft.com)
+
 [Content Search](https://docs.microsoft.com/Office365/SecurityCompliance/content-search) 
 
 [Sensitive information types](https://docs.microsoft.com/office365/securitycompliance/what-the-sensitive-information-types-look-for) (part of Data Loss Prevention) 
