@@ -1,4 +1,4 @@
-After you deploy Windows 10 and Office 365 ProPlus, Microsoft strongly recommends that you keep them up-to-date as new features and other updates are released.
+After you deploy Windows 10 and Office 365 ProPlus, Microsoft strongly recommends that you keep them up to date as new features and other updates are released.
 
 ## Types of updates for Office 365 ProPlus
 Similar to Windows 10, one of the benefits of Office 365 ProPlus is that Microsoft provides new or updated features for Office apps on a regular basis. For example, adding improved translation capabilities to Word or adding support for 3D animations in PowerPoint.
@@ -15,7 +15,7 @@ Feature updates in Semi-Annual Channel have already been released in Monthly Cha
 
 As needed, Microsoft also provides each update channel with two additional types of updates:
 
-- **Security updates**, such as updates that help keep Office protected from potential malicious attacks
+- **Security updates**, such as updates that help keep Office protected from potential malicious attacks.
 - **Quality updates**, such as updates that provide stability or performance improvements for Office.
 
 Security updates are usually released on the second Tuesday of every month. Quality updates, which are sometimes referred to as *non-security updates*, are also usually released on this day. But, if necessary, both types of updates can be released at other times.
