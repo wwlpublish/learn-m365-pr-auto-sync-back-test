@@ -26,7 +26,7 @@ Use Intune to manage apps and mobile devices by “enrolling” devices. When yo
 |VPN|	Adds a virtual private network (VPN) with your organizational settings so your users' devices get network access quickly and easily.|
 |Education|Configures different options for the Take a Test app on Windows 10 devices in classroom environments.|
 |Certificates|	Allows you to configure trust and certificates used for Wi-Fi, VPN, email profiles, and more.|
-|Edition upgrade|	Upgrade Windows 10 devices to Windows 10 Enterprise, S mode, and more|
+|Edition upgrade|	Upgrades Windows 10 devices to Windows 10 Enterprise, S mode, and more.|
 |Endpoint protection|	Configures settings for BitLocker and Windows Defender.|
 |Windows Information Protection|	Allows you to configure Windows Information Protection for data loss prevention.|
 

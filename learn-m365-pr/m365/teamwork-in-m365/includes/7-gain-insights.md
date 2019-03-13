@@ -2,7 +2,7 @@ Analytics can provide insights into the working habits of individuals and organi
 
 - Focus on what matters to you
 - Create healthy work habits and goals
-- Organize time and tasks more effectively. 
+- Organize time and tasks more effectively
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RWtQu6]
 
