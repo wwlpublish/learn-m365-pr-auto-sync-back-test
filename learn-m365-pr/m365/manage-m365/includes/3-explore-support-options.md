@@ -2,6 +2,8 @@ As a Microsoft 365 subscriber you have a variety of support options. The particu
 - **FastTrack** - Get direct access to Microsoft 365 planning materials and dedicated Microsoft FastTrack project managers and engineers to help you deploy Microsoft 365.
 - **Automated assistance bot** - The Microsoft 365 admin center has an automated assistance bot that’s designed to help you find answers to support questions. Accessed from the **Need help** button, the bot known as "O365 Assistant" offers a chat-based user experience.
    ![Assistance bot](../media/1-assistance-bot.png)
+*assitance bot in Microsoft 365 admin center*
+
 - **Premier Support** - Microsoft Premier Support Services is well suited for large and global enterprises with strategic and critical dependence on Microsoft products, including Microsoft 365 and Microsoft Azure. If you're a Premier Support Services member, you'll be assigned a technical account manager, and additional benefits like advisory services and on-site support are available. Premier support engineers are assigned customer issues and can call in any Microsoft expertise that’s needed to solve the problem. 
 - **Cloud Service Provider Tier 1 support** - If you got your Microsoft 365 subscription through a Microsoft Cloud Solution Provider (CSP) that is certified as a Tier 1 CSP, contact them directly for technical support. Your Tier 1 CSP can provision your Microsoft 365 tenant for you and act as your first point of contact for all service-related issues. Tier 1 providers will escalate any issues they can’t resolve directly to Microsoft to ensure that you get the help you need.
 - **Telephone support** - Some Microsoft 365 components provide phone support. 

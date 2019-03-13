@@ -13,6 +13,7 @@ Feature updates in Semi-Annual Channel have already been released in Monthly Cha
 
 
 ![Update channels for Office 365 ProPlus](../media/office-updates.png)
+*the Office update channels*
 
 As needed, Microsoft also provides each update channel with two additional types of updates:
 

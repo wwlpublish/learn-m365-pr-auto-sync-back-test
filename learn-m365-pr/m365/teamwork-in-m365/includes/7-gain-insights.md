@@ -12,8 +12,10 @@ Analytics can provide insights into the working habits of individuals and organi
 > MyAnalytics doesn't use agents or tracking software, and it doesn't use data from any other activities on your computer, such as applications or websites viewed. 
 
 ![MyAnalytics image](../media/2-myanalytics.png)
+*screenshot of a users weekly time summary*
 
 **Workplace Analytics** lets administrators identify work practices across the entire organization. It helps drive an understanding of how your organization spends its time and how groups work together. 
 
 ![Workplace analytics](../media/3-workplace-analytics.png)
+*workplace analytics for an organization*
 

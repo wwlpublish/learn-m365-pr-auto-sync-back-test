@@ -9,3 +9,5 @@ You can review and modify all billing aspects in the Microsoft 365 admin center,
 
 ![Billing](../media/2-billing.png)
 
+*the billing center in Microsoft 365*
+
