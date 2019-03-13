@@ -2,11 +2,11 @@ In today’s workplace, IT departments typically support a lot of devices that a
 
 Laptops, tablets, or other mobile devices are the primary devices used in enterprise environments today. These devices present a unique set of management challenges, including the following: 
 
-**Mobile devices that connect to unsecured networks.** Mobile devices frequently connect to networks outside your organization. Organizational computers often connect to Wi-Fi access points in public places, like airports and cafés. Using Wi-Fi access points, hackers can capture network traffic and try to insert malware into your browsing sessions. This can impact everyone in your organization.
+**Mobile devices that connect to unsecured networks.** Mobile devices frequently connect to networks outside your organization. Company laptops often connect to Wi-Fi access points in public places, like airports and cafés. Using Wi-Fi access points, hackers can capture network traffic and try to insert malware into your browsing sessions. This can impact everyone in your organization.
 
 **Mobile devices that intermittently connect to organizational networks.** Mobile devices can be difficult to manage using tools such as Group Policy, which assumes devices are always connected to the organizational network.
 
-**Backing up data.** When a device is connected to your organizational network, users are more likely to use documents in central locations, such as file shares and SharePoint sites. These locations are typically backed up. Mobile devices, including laptops, may not regularly connect and use content from central locations. This means the data is likely stored only on the device. If something happens to a device - like getting lost, stolen, or suffering a hardware failure - you might also lose your data, which can be frustrating and disruptive.
+**Backing up data.** When a device is connected to your organizational network, users are more likely to use documents in central locations, such as file shares and SharePoint sites. These locations are typically backed up. Mobile devices, including laptops, may not regularly connect and use content from central locations. Instead, the data is likely stored only on the device. If something happens to that device - like getting lost, stolen, or suffering a hardware failure - you might also lose your data, which can lead to lost productivity and worse, if that data was protected IP.
 
 **Lost or stolen devices.** The average cost of replacing a stolen device can exceed the cost of the device. This cost is higher because your organization must configure the new device and determine what data was lost or stolen. In some cases, that data exists only on the mobile device, and is then lost to the organization.
 
