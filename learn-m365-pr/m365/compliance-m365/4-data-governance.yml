@@ -1,6 +1,6 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.compliance-m365.4-data-governance
-title: Achieve integrated protection and governance of sensitive data across devices, apps and cloud services
+title: Using retention labels and retention policies to implement data governance
 metadata:
   title: Using retention labels and retention policies to implement data governance
   description: Learn how to achieve integrated protection and governance of sensitive data across devices, apps and cloud services
@@ -10,6 +10,6 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
   ROBOTS: NOINDEX
-durationInMinutes: 5
+durationInMinutes: 10
 content: |
   [!include[](includes/4-data-governance.md)]
