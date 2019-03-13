@@ -66,14 +66,15 @@ Because individual users may be most familiar with the data in your organization
 ## Protect information and prevent data loss
 Sensitive data may initially be created on an individual device, but it's frequently shared or stored in other locations, like cloud-based storage, on-premises file shares, or email. There are several complementary protection measures you can take to protect this sensitive information wherever it lives or travels: 
 
+
+![Sensitive information](../media/3-sensitive-info.png)
+
 - Microsoft 365 has data encryption built into the service – for both data at rest and data in transit. 
 - To protect individual files, you can apply rights-based permissions so that only intended recipients can access and view the information.
 - You can apply Data Loss Prevention actions, such as blocking the sharing of a file that is detected to have sensitive information, such as credit card information or social security numbers.
 - You can limit or block access to cloud apps present in your environment, or revoke app access among specific individuals.
 - To help end-users make more informed decisions, you can enable policy tips that notify users that the document they are working with contains sensitive information, or you can even automatically apply a visual marking to documents, such as a header or footer. 
 - To help prevent sensitive information from staying around longer than necessary and potentially posing a risk, you can automatically retain, expire or delete documents, based on data governance policies defined by your company. 
-
-![Sensitive information](../media/3-sensitive-info.png)
 
 ## Monitor and respond to threats
 There are two key activities in the “Monitor” phase of the information protection lifecycle. First, you need to **gain visibility** into all the events impacting your environment. Second, you need to **take action** or remediate, based on the event.
@@ -88,7 +89,7 @@ Here’s a closer look at some of the monitoring capabilities in Microsoft 365.
 
 ### Information protection reports and analytics
 
-The Label Analytics dashboard aggregates label insights so that you can see how sensitivity and retention labels are being used for both Office 365 and non-Office 365 data.
+The Label Analytics dashboard in the Microsoft 365 compliance center aggregates label insights so that you can see how sensitivity and retention labels are being used for both Office 365 and non-Office 365 data.
 
 ![Label analytics screenshow](../media/4-label-screen.png)
 
