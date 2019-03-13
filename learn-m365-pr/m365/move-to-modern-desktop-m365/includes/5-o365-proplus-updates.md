@@ -6,6 +6,7 @@ Similar to Windows 10, one of the benefits of Office 365 ProPlus is that Microso
 For Office 365 ProPlus, Microsoft provides you options (called update channels) that allow you to control how often Office 365 ProPlus receives feature updates. There are two primary update channels for Office 365 ProPlus:
 
 - **Monthly Channel**, which receives feature updates approximately every month.
+- **Semi-Annual Channel (Targeted)**, which receives feature updates in March and September. This is typically used for pilot users and application compatibility testers.
 - **Semi-Annual Channel**, which receives feature updates every six months, in January and July.
 
 Feature updates in Semi-Annual Channel have already been released in Monthly Channel in previous months. Semi-Annual Channel is the default update channel for Office 365 ProPlus.
