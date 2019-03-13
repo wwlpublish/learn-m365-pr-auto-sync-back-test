@@ -11,6 +11,6 @@ With Microsoft 365 you can:
 
 **Microsoft Teams** lets employees form teams around important projects by organizing conversations, files, meetings, and tools into a single hub for teamwork complete with rich audio and video capabilities. Collaboration begins the moment the meeting is scheduled. Attendees can immediately connect on group chat to prepare for the meeting and share relevant documents ahead of time. Learn about meeting participants by hovering over Teams profiles to see organizational and LinkedIn background.
 
-![A meeting in Microsoft Teams](../media/meeting-screenshot.svg)
+![A meeting in Microsoft Teams](../media/meeting.png)
 
 During meetings, video and screen sharing create a focus among the group, while new AI services provide auto-translation, transcription, and recording so participants get more out of the experience. Following the meeting, notes and action items can be automatically transcribed and distributed to the group, and anyone who was unable to attend can easily go back and watch the meeting. 
