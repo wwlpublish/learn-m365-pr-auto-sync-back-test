@@ -3,7 +3,7 @@ After you deploy Windows 10 and Office 365 ProPlus, Microsoft strongly recommend
 ## Types of updates for Office 365 ProPlus
 Similar to Windows 10, one of the benefits of Office 365 ProPlus is that Microsoft provides new or updated features for Office apps on a regular basis. For example, adding improved translation capabilities to Word or adding support for 3D animations in PowerPoint.
 
-For Office 365 ProPlus, Microsoft provides you options (called update channels) that allow you to control how often Office 365 ProPlus receives feature updates. There are two primary update channels for Office 365 ProPlus:
+For Office 365 ProPlus, Microsoft provides you options (called update channels) that allow you to control how often Office 365 ProPlus receives feature updates. Here are the primary update channels for Office 365 ProPlus:
 
 - **Monthly Channel**, which receives feature updates approximately every month.
 - **Semi-Annual Channel (Targeted)**, which receives feature updates in March and September. This is typically used for pilot users and application compatibility testers.

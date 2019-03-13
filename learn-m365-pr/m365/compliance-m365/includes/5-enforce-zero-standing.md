@@ -6,6 +6,7 @@ Microsoft runs their organization and datacenters on the principle of Zero Stand
 One additional control over access to customer content is offered through Customer Lockbox. Customer Lockbox requires the customer, such as the tenant admin or a custom role like the compliance manager, to approve the request before access is granted to Microsoft engineers. The transparency, control, and security rigor provided through this Customer Lockbox workflow is above and beyond what other major SaaS vendors offer today. 
 
 ![Access request flow for Customer Lockbox](../media/5-customer-lockbox.png)
+*customer lockbox workflow*
 
 Together, these controls enable Microsoft engineers and customers, to enforce Zero Standing Access by default for service provider access, which is a significant leap in keeping our datacenters and our customers’ data secure and compliant. 
 
