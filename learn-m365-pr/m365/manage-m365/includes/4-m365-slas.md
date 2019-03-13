@@ -18,7 +18,7 @@ When reviewing the agreement, ask yourself the following questions:
 - What happens if the service is brought down by acts of war or natural disasters, such as earthquakes, floods, storms, tornadoes, or hurricanes?
 - What limits to the CSP’s liability are stated in the SLA?
 
-View the video to learn more. When you're done with the video, close the window and return to this course.
+View the following video to learn more. 
 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FGkW]
