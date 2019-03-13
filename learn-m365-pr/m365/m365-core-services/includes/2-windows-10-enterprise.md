@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-Windows 10 Enterprise is one of the central pillars of your Microsoft 365 subscription. Windows 10 meets the needs of large and midsize organizations, providing IT professionals with intelligent security, simplified updates, felxible management, and enhanced productivity tools.
-=======
 Windows 10 Enterprise is one of the central pillars of your Microsoft 365 subscription. Windows 10 meets the needs of large & midsize organizations, providing IT professionals with intelligent security, simplified updates, flexible management, and enhanced productivity tools.
->>>>>>> c8b73a52346a8ba4ffbf2528907ff617fbce8eb9
 
 Learn what Windows 10 Enterprise has to offer.
 
