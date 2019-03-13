@@ -1,5 +1,3 @@
-In this video, you’ll see how integrated and intelligent data governance in Microsoft 365 can help you manage the lifecycle of your content to meet compliance requirements and manage risk.
-
 Across your organization, you probably have different types of content that require different actions taken on them in order to comply with industry regulations and internal policies. For example, you might have:
   
 - Tax forms that need to be **retained** for a minimum period of time. 
@@ -49,6 +47,6 @@ Making retention labels available to people in your organization so that they ca
   
 Retention labels are independent, reusable building blocks that are included in a label policy and published to different locations. Retention labels can be reused across many policies. The primary purpose of the label policy is to group a set of retention labels and specify the locations where you want those labels to appear.
 
-The following video teaches you more about the unified labelling experience, auto classification of sensitive data types, and the application of retention policies.
+In this video, you’ll see how integrated and intelligent data governance in Microsoft 365 can help you manage the lifecycle of your content to meet compliance requirements and manage risk.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWruAI]
