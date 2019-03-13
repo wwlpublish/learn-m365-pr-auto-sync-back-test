@@ -10,7 +10,7 @@ Windows 10 protects, detects, and automatically responds to the most advanced ma
 
 - **Identity protection** - Windows 10 protects user identities against pass-the-hash and pass-the-ticket attacks, helping you move to a world without passwords. Windows Hello is a biometric authentication tool that strengthens authentication and helps guard against potential spoofing. 
 
-- **Information protection** - Windows 10 makes it easy to protect data - whether it's at rest and in use. Windows Information Protection helps protect sensitive information against leaks. When you combine Windows 10 with Azure Information Protection and Office 365, you get a sophisticated solution that meets the highest requirements for data loss prevention with minimal input. 
+- **Information protection** - Windows 10 makes it easy to protect data - when that data is at rest or in use. Windows Information Protection helps protect sensitive information against leaks. When you combine Windows 10 with Azure Information Protection and Office 365, you get a sophisticated solution that meets the highest requirements for data loss prevention with minimal input. 
 
 ## Flexible management
 Deploy, manage, and update devices anywhere your employees need to work. Windows 10 includes tools to help you customize device set up, use unified endpoint management, and control corporate identities, data, and apps on personal devices without impacting personal data. Windows 10 supports the transition to cloud-based device management with the ability to co-manage devices in Intune and Config Manager, using both Active Directory and Azure Active Directory together. 

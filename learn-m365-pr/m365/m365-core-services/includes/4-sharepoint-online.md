@@ -3,7 +3,7 @@ SharePoint Online is the cloud evolution of Microsoft SharePoint Server. It help
 With SharePoint Online, users can: 
 - Build sites, pages, document libraries, and lists. 
 - Add web parts to customize their pages. 
-- Share important visuals, news, and updates with a team or and more. 
+- Share important visuals, news, and updates with a team. 
 - Search and discover sites, files, people, and news from across their organization. 
 - Manage their business processes with flows, forms, and lists. 
 - Sync and store their files in the cloud so anyone can securely work with them. 

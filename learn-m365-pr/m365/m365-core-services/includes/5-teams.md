@@ -4,9 +4,9 @@ Microsoft Teams provides a central hub for collaboration within your organizatio
 
 With Microsoft Teams, you can: 
 
-- Communicate through chat, meetings, and calls. Host audio, video, and web conferences, and chat with anyone inside or outside your organization.
-- Collaborate together with integrated Office 365 apps. Teams makes teamwork easy by allowing users to coauthor and share files with popular Office 365 apps - from Microsoft Word to Microsoft Power BI.
-- Customize your workplace and achieve more. Using Teams, you can integrate apps from Microsoft and third-party partner services to meet your organization's unique needs.
-- Connect across devices. Teams and Teams devices work better together for intelligent meeting and calling experiences. Find the right devices for your needs and bring your best ideas to life.
+- **Communicate through chat, meetings, and calls**. Host audio, video, and web conferences, and chat with anyone inside or outside your organization.
+- **Collaborate together with integrated Office 365 apps**. Teams makes teamwork easy by allowing users to co-author and share files with popular Office 365 apps - from Microsoft Word to Microsoft Power BI.
+- **Customize your workplace and achieve more**. Using Teams, you can integrate apps from Microsoft and third-party partner services to meet your organization's unique needs.
+- **Connect across devices**. Teams and Teams devices work better together for intelligent meeting and calling experiences. Find the right devices for your needs and bring your best ideas to life.
 
 The Microsoft Teams platform provides similar functionalities to Skype for Business. Microsoft plans to integrate these products and phase out Skype for Business. 

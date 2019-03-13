@@ -19,7 +19,7 @@ Azure Active Directory Identity Protection, a feature of the Azure AD Premium P2
 
 Azure Active Directory uses adaptive machine learning algorithms and heuristics to detect anomalies and suspicious incidents that indicate potentially compromised identities. Using this data, Identity Protection generates reports and alerts so you can evaluate issues and take action.
 
-Azure Active Directory Identity Protection is more than a monitoring and reporting tool - you can configure risk-based policies that automatically respond to issues. These policies, along with other conditional access controls provided by Azure Active Directory and EMS, can either automatically block or start remediation actions like restting passwords and enforcing multifactor authentication.
+Azure Active Directory Identity Protection is more than a monitoring and reporting tool - you can configure risk-based policies that automatically respond to issues. These policies, along with other conditional access controls provided by Azure Active Directory and EMS, can either automatically block or start remediation actions like resetting passwords and enforcing multifactor authentication.
 
 ## Azure Advanced Threat Protection (ATP)
 Azure Advanced Threat Protection (ATP) is a cloud-based security solution that identifies, detects, and helps you investigate advanced threats, compromised identities, and malicious insider actions directed at your organization. Azure ATP enables you to:
@@ -59,7 +59,7 @@ With Intune, you can:
 Intune integrates closely with other EMS components like Azure Active Directory (Azure AD) for identity and access control and Azure Information Protection for data protection. When you use it with Office 365, you can help your users be productive on all their devices, while protecting your information.
 
 ## Office 365 Advanced Threat Protection
-Because email is a primary way malware gets into your organization, Advanced Threat PZrotection helps to identify threats before they land in a user’s mailbox. This feature, included in Microsoft 365 E5 subscriptions, provides protection by:
+Because email is a primary way malware gets into your organization, Advanced Threat Protection helps to identify threats before they land in a user’s mailbox. This feature, included in Microsoft 365 E5 subscriptions, provides protection by:
 - Scanning email attachments for malware. 
 - Scanning URLs in email messages and Microsoft Office documents. 
 - Identifying and blocking malicious files found in online libraries, Microsoft SharePoint, Microsoft OneDrive, and Microsoft Teams.

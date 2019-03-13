@@ -9,7 +9,7 @@ Helping secure your users helps protect against breaches. And one important area
 - Passwords are subject to replay attacks.
 - Users can inadvertently expose their passwords due to phishing attacks. 
 
-This poses a significant security risk as once bad actors get compromised passwords, they canlog into multiple sites. Most breaches are a result of compromised passwords. What if we could remove passwords altogether? Microsoft 365 solutions include password replacement options to help reduce risk.
+This poses a significant security risk as once bad actors get compromised passwords, they can sign into multiple sites. Most breaches are a result of compromised passwords. What if we could remove passwords altogether? Microsoft 365 solutions include password replacement options to help reduce risk.
 
 **Windows Hello**. In Windows 10, Windows Hello for Business replaces passwords with strong two-factor authentication on PCs and mobile devices - a new type of user credential that's tied to a device and uses a biometric or PIN. Windows Hello for Business lets user authenticate to an Active Directory or Azure Active Directory account. 
 
@@ -22,7 +22,7 @@ You can use the Microsoft Authenticator app in multiple ways, including:
 ## Conditional access
 Conditional access provides granular access control to keep your corporate data secure, while giving users an experience that allows them to do their best work from any device, and from any location. Conditional access helps protect sensitive data by evaluating users, devices, apps, location, and risk before access is granted to corporate data. This helps manage access to sensitive data and helps ensure that only approved users and devices can access critical company resources. 
 
-Conditional Access is a solution that spans Microsoft 365 services including Intune, Office 365, and Windows 10. 
+Conditional access is a solution that spans Microsoft 365 services including Intune, Office 365, and Windows 10. 
 
 ![Conditional access](../media/3-conditional-access.png)
 
