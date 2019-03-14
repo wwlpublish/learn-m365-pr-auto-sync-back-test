@@ -6,10 +6,13 @@ These tools can help significantly reduce the costs of eDiscovery. In fact, at M
 
 Watch this video to learn more about how Advanced eDiscovery can help you hold, search, refine, analyze, review and export your relevant content.
 
+
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWrp95]
 
 
+
 Take a deeper look at these Advanced eDiscovery capabilities: 
+
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtYby]
 

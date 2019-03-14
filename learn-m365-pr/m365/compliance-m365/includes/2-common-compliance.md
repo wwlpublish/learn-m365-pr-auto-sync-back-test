@@ -29,4 +29,5 @@ It can be helpful to think about managing compliance in terms of three phases:
 
 
 ![Tools to reduce risk](../media/2-reduce-risk.png)
+
 *The graphic visualizes each of these phases and the solutions in Microsoft 365 that can help you* 
