@@ -27,29 +27,6 @@ quiz:
       - content: "in the Microsoft 365 admin center"
         isCorrect: true
         explanation: "Create users and manage licenses in the Microsoft 365 admin portal."
-    - content: "Which of the following is NOT a support option for Microsoft 365?"
-      choices:
-      - content: "Got to https://support.microsoft365.com"
-        isCorrect: true
-        explanation: "You can get help in the Microsoft 365 Tech Community, but not from this website."
-      - content: "FastTrack"
-        isCorrect: false
-        explanation: "This is a supported option to get help with Microsoft 365."
-      - content: "Automated assistance bot"
-        isCorrect: false
-        explanation: "This is a supported option to get help with Microsoft 365."
-      - content: "Premier Support"
-        isCorrect: false
-        explanation: "This is a supported option to get help with Microsoft 365."
-      - content: "Your CSP's Tier 1 support"
-        isCorrect: false
-        explanation: "This is a supported option to get help with Microsoft 365."
-      - content: "Telephone support"
-        isCorrect: false
-        explanation: "This is a supported option to get help with Microsoft 365."
-      - content: "Microsoft support forums"
-        isCorrect: false
-        explanation: "This is a supported option to get help with Microsoft 365."
     - content: "True or false: Microsoft 365 customers have a service level agreement (SLA) with their cloud service provider (CSP) but not with Microsoft."
       choices:
       - content: "True"
