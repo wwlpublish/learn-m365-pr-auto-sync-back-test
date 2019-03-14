@@ -20,5 +20,10 @@ When reviewing the agreement, ask yourself the following questions:
 
 View the following video to learn more. 
 
+<<<<<<< HEAD
+
+
+=======
 <br>
+>>>>>>> a25a60f238cd4adc593811fb8e8a08a780bb8b7f
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FGkW]
