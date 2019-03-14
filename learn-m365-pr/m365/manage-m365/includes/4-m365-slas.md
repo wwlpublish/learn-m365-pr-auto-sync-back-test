@@ -1,6 +1,6 @@
 As with any cloud-based service offering, Microsoft 365 subscriptions come with a guaranteed amount of uptime in terms of a percentage of service availability over a given period (such as a 99 percent available uptime average over the period of one year). The details of the guarantee vary from one cloud service provider to another and are detailed in a legal agreement between a cloud service provider and the customer, known as a **Service Level Agreement (SLA)**. 
 
-In addition to your CSP’s SLA, Microsoft offers Microsoft 365 subscribers a Microsoft Online Services Agreement that provides financial backing to our commitment to achieve and maintain service levels for each service.
+In addition to your CSP’s SLA, Microsoft offers Microsoft 365 subscribers a Microsoft Online Services Agreement that documents our commitment to achieve and maintain service levels for each service.
 
 ## SLA considerations
 
@@ -20,6 +20,10 @@ When reviewing the agreement, ask yourself the following questions:
 
 View the following video to learn more. 
 
+<<<<<<< HEAD
 
 
+=======
+<br>
+>>>>>>> a25a60f238cd4adc593811fb8e8a08a780bb8b7f
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FGkW]

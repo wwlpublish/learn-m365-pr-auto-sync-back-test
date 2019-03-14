@@ -7,7 +7,7 @@ You can create a new service request in the Microsoft 365 admin center and view 
 *search for solutions to issues and if you are unsuccessful, open a new service request*
 
 ## Viewing existing service requests
-You can view the status of all your existing service requests. Either click **View service requests** under the Support blade, or if you already have the help pane open, select the circular arrow icon in the **Need help** tab to see a list of your service requests.
+You can view the status of all your existing service requests. Either click **View service requests** under the Support blade, or if you already have the pane open, select the circular arrow icon in the **Need help** tab to see a list of your service requests.
 
 ![Existing support requests](../media/4-existing-requests.png)
 *view your existing service requests*
