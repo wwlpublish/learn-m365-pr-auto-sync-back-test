@@ -4,9 +4,7 @@ In addition to your CSP’s SLA, Microsoft offers Microsoft 365 subscribers a Mi
 
 ## SLA considerations
 
-Make sure you thoroughly review any service agreement before you sign it. Although the cloud has much to offer, it’s still like any other network, server, or on-premises service - an unforeseen problem or disaster can cause the service to be unavailable. 
-
-When reviewing the agreement, ask yourself the following questions:
+Make sure you thoroughly review any service agreement before you sign it. Ask yourself the following questions:
 
 - How does the CSP determine whether service levels are being achieved?
 - Who's responsible for measurement, and how can I obtain reports?

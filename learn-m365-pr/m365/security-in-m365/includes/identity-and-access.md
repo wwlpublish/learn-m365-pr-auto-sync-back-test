@@ -1,7 +1,7 @@
 The first security pillar, identity & access management, is one of the most important. 
 
 ## Secure authentication
-Helping secure your users helps protect against breaches. And one important area is the quality of user’s passwords. Passwords are problematic. Users are expected to remember complex passwords for a variety of different accounts, both personal and for work. Issues with passwords include:
+Helping secure your users helps protect against breaches. And one important area is the quality of user passwords. Passwords are problematic. Users are expected to remember complex passwords for a variety of different accounts, both personal and for work. Issues with passwords include:
 
 - Strong passwords can be difficult to remember
 - Users often reuse passwords on multiple different sites
