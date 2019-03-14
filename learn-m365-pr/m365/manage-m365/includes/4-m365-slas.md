@@ -18,5 +18,10 @@ Make sure you thoroughly review any service agreement before you sign it. Ask yo
 
 View the following video to learn more. 
 
+<<<<<<< HEAD
+
+
+=======
 <br>
+>>>>>>> a25a60f238cd4adc593811fb8e8a08a780bb8b7f
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FGkW]
