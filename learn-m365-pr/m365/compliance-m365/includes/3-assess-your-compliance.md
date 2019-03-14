@@ -14,9 +14,11 @@ The Service Trust Portal includes the following compliance tools:
 - **Compliance Manager** – your dashboard to standards, regulations, and assessments.
 - **Trust documents**. Audit reports, data protection info about how Microsoft operates Azure, Dynamics 365, and Office 365, Azure Security and Compliance Blueprint.
 - **Regional Compliance**. Regionally specific compliance information, often in the form of legal opinions that describe Microsoft cloud services in different countries, like Australia, Poland, or the UK.
-- **Privacy**. Info about the capabilities in Microsoft services that you can use to address specific GDPR requirements, as well as GDPR documentation
+- **Privacy**. Information about the capabilities in Microsoft services that you can use to address specific GDPR requirements, as well as GDPR documentation
 
 You can access the Service Trust Portal by going to http://aka.ms/STP.
+
+Here's an overview of the Service Trust Portal.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtDo4]
 
@@ -38,5 +40,5 @@ Compliance Manager provides three key capabilities:
 - **Actionable insights**. Understand the responsibility that you and Microsoft share in meeting compliance standards. For components that Microsoft manages, you can see the control implementation and testing details, test date, and results. For components that you manage, you can see recommendations for appropriate actions and guidance on how to implement them.
 - **Simplified compliance**. Simplify processes to achieve compliance. It provides built-in collaboration tools that you can use to assign tasks to your teams. You can also generate audi-ready reports with links to the evidence you collected. 
 
-Video: New Compliance manager demo: 
+Here's a video demo of Compliance manager: 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWruAJ]

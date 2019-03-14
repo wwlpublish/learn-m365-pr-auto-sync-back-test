@@ -13,12 +13,12 @@ title: Manage your Microsoft 365 subscription
 summary: This module introduces you to some basic concepts and tasks that are involved with managing your Microsoft 365 subscription including subscription billing and licensing users. It also discusses how to get assistance in Microsoft 365.
 abstract: |
   At the end of this module, you should be able to:
-  -	Understand what needs to be done to manage your M365 subscription billing
-  -	Understand what needs to be done to manage user licenses in your Microsoft 365 subscription
-  -	Learn what support options are available with Microsoft 365. 
+  -	Understand M365 subscription billing
+  -	Describe what needs to be done to manage Microsofg 365 user licenses
+  -	Describe the support options that are available with Microsoft 365. 
   -	Discuss guarantees, SLAs, and capping of liability of the Cloud Service Provider. 
-  - See how to create a service request and how to review any active service requests in your subscription. 
-  - See how to monitor your Microsoft 365 service health.
+  - Describe to create a service request and how to review any active service requests in your subscription. 
+  - Explain how you can monitor Microsoft 365 service health.
 prerequisites: None
 #TODO: Update with correct value, i.e. /learn/achievements/what-is-m365.svg
 iconUrl: /learn/achievements/azure-sfa-generalist-path.svg
