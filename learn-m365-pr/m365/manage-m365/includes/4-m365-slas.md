@@ -21,4 +21,5 @@ When reviewing the agreement, ask yourself the following questions:
 View the following video to learn more. 
 
 
+
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FGkW]
