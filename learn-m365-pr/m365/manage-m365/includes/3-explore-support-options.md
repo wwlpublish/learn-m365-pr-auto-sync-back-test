@@ -1,6 +1,14 @@
-As a Microsoft 365 subscriber you have a variety of support options. The particulars depend on your specific subscription, whether it includes a service package, the service or tool in question, and the source of support. In general, you can get help in the following ways:
+As a Microsoft 365 subscriber you have a variety of support options, but the details depend your specific situation:
+
+- Which subscription do you have? Does it include a service package?
+- Which service or tool do you need support for?
+- What kind of support do you need?
+ 
+Here are the different ways and channels to get support for Microsoft 365:
+
 - **FastTrack** - Get direct access to Microsoft 365 planning materials and dedicated Microsoft FastTrack project managers and engineers to help you deploy Microsoft 365.
-- **Automated assistance bot** - The Microsoft 365 admin center has an automated assistance bot that’s designed to help you find answers to support questions. Accessed from the **Need help** button, the bot known as "O365 Assistant" offers a chat-based user experience.
+- **O365 Assistant** - The Microsoft 365 admin center has an automated assistance bot, the O365 Assistant, that’s designed to help you find answers to support questions. Accessed from the **Need help** button, the bot offers a chat-based user experience.
+
    ![Assistance bot](../media/1-assistance-bot.png)
 *assitance bot in Microsoft 365 admin center*
 
