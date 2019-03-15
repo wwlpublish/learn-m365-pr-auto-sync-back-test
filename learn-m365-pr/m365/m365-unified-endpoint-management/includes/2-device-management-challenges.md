@@ -17,4 +17,4 @@ Laptops, tablets, or other mobile devices are the primary devices used in enterp
 - Should you let user-owned devices access sensitive applications and data? Or, only allow access if the owner agrees to have the device managed by IT?
 - What actions can your organizations take to protect data stored on the device if the device is lost, or if the user leaves the company?
 
-Mobile devices are more likely than larger devices (such as laptops) to be lost or stolen. This loss can mean that private and organization-specific data potentially becomes public. Organizations that allow mobile devices access to sensitive data must have policies in place to address these scenarios.
+Mobile devices are more likely than larger devices (such as laptops) to be lost or stolen. This loss can mean that private and organization-specific data becomes public. If your org lets employees use mobile devices to sensitive data, you need to have policies in place to address these scenarios.
