@@ -15,10 +15,4 @@ These different devices present the following management challenges:
 **User-owned mobile devices.** Personal devices are a challenge to organizations. IT departments need to find a balance between allowing access to applications and data with users wanting to use their own devices. When considering a mobile device support policy, ask the following questions:
 - Is the device owned by the user or the organization?
 - Should you let user-owned devices access sensitive applications and data? Or, only allow access if the owner agrees to have the device managed by IT?
-<<<<<<< HEAD
 - What actions can your organization take to protect data stored on the device if the device is lost, or if the user leaves the company?
-=======
-- What actions can your organizations take to protect data stored on the device if the device is lost, or if the user leaves the company?
-
-Mobile devices are more likely than larger devices (like laptops) to be lost or stolen. This loss can mean that private and organization-specific data becomes public. If your org lets employees use mobile devices to access sensitive data, you need to have policies in place to address these scenarios.
->>>>>>> e3844d9ca8ce984344f2ae89fdd2fcbacd0061cb
