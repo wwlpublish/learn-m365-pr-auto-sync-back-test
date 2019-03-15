@@ -1,4 +1,4 @@
-Which tools are best for your organization's teamwork needs? It generally depends on your team members roles in the project and how you intend to communicate and collaborate with them. Team members can typically be categorized as either part of the *inner loop* or *outer loop* of people that you collaborate with:
+Which tools are best for your organization's teamwork needs? It generally depends on your team members' roles in the project and how you intend to communicate and collaborate with them. Team members can typically be categorized as either part of the *inner loop* or *outer loop* of people that you collaborate with:
 
 ![Teamwork loops in Microsoft 365](../media/loops.png)
 

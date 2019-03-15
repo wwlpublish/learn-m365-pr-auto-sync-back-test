@@ -15,8 +15,8 @@ With retention labels, you can:
     - Specific types of sensitive information.
     - Specific keywords that match a query you create.
 
-    The ability to apply retention labels to content automatically is important because:
-     - You don't need to train your users on all of your classifications.
+   Automatically applying retention labels is important because:
+    - You don't need to train your users on all of your classifications.
     - You don't need to rely on users to classify all content correctly.
     - Users no longer need to know about data governance policies - they can instead focus on their work.
 - **Apply a default retention label to a document library** in SharePoint and Office 365 group sites, so that all documents in that library get the default retention label.

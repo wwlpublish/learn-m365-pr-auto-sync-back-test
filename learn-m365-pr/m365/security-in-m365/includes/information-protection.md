@@ -44,11 +44,11 @@ In order to protect your organization’s information, you need to be able to di
 *where your sensitive data may reside*
 
 What counts as “sensitive data” for your organization will be determined by things like your industry (e.g., healthcare, financial services), governmental regulations and policies, as well as your organization’s internal policies.
-- You can start by using [**Content Search**](https://docs.microsoft.com/Office365/SecurityCompliance/content-search) to search for in-place items such as email, documents, and instant messaging conversations.
-- Microsoft has many built-in [**sensitive information types**](https://docs.microsoft.com/office365/securitycompliance/what-the-sensitive-information-types-look-for) (part of Data Loss Prevention) that can be used to detect common sensitive information types, such as financial information, healthcare related information, PII and other information types. 
+- You can start by using **Content Search** to search for in-place items such as email, documents, and instant messaging conversations.
+- Microsoft has many built-in **sensitive information types** (part of Data Loss Prevention) that can be used to detect common sensitive information types, such as financial information, healthcare related information, PII and other information types. 
 - If you need more granular control beyond the built-in sensitive information types, you create your own **custom sensitive information types**, or add your own unique dictionary of terms to detect against. 
-- Beyond detecting sensitive information in documents and emails, you can also use [**Microsoft Cloud App Security**](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) to detect content in cloud storage services, based on policy. You can discover sensitive data across third-party SaaS apps. You can also apply labels and protection to sensitive files with Microsoft Information Protection.
-- The [**Azure Information Protection Scanner**](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner) enables you to discover, classify, and protect files on on-premises servers, network shares, and on-premises SharePoint Server sites.
+- Beyond detecting sensitive information in documents and emails, you can also use **Microsoft Cloud App Security** to detect content in cloud storage services, based on policy. You can discover sensitive data across third-party SaaS apps. You can also apply labels and protection to sensitive files with Microsoft Information Protection.
+- The **Azure Information Protection Scanner** enables you to discover, classify, and protect files on on-premises servers, network shares, and on-premises SharePoint Server sites.
 
 ### Classify content with sensitivity labels
 After you have identified the sensitive data you want to protect, you can apply sensitivity labels to help your organization monitor the transmission and usage of documents that are potentially sensitive.
@@ -72,6 +72,8 @@ Sensitive data may initially be created on an individual device, but it's freque
 
 
 ![Sensitive information](../media/3-sensitive-info.png)
+*some methods to protect your sensitive data*
+
 
 - Microsoft 365 has data encryption built into the service – for both data at rest and data in transit. 
 - To protect individual files, you can apply rights-based permissions so that only intended recipients can access and view the information.
@@ -80,13 +82,7 @@ Sensitive data may initially be created on an individual device, but it's freque
 - To help end-users make more informed decisions, you can enable policy tips that notify users that the document they are working with contains sensitive information, or you can even automatically apply a visual marking to documents, such as a header or footer. 
 - To help prevent sensitive information from staying around longer than necessary and potentially posing a risk, you can automatically retain, expire or delete documents, based on data governance policies defined by your company. 
 
-<<<<<<< HEAD
-![Sensitive information](../media/3-sensitive-info.png)
 
-*some methods to protect your sensitive data*
-
-=======
->>>>>>> cb433d99400653c93cf6b03540074576ed082352
 ## Monitor and respond to threats
 There are two key activities in the “Monitor” phase of the information protection lifecycle. First, you need to **gain visibility** into all the events impacting your environment. Second, you need to **take action** or remediate, based on the event.
 

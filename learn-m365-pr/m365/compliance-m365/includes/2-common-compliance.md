@@ -22,8 +22,8 @@ Organizations must comply with a number of governmental regulations regarding da
 Microsoft 365 supports your organization’s compliance needs with built in tools and capabilities to help you protect information, manage data governance, and respond to regulatory requests. 
 
 It can be helpful to think about managing compliance in terms of three phases: 
-- **Assess**: Simplify assessment of compliance risk and posture with actionable insights
-- **Protect**: Integrated protection and governance of sensitive data across devices, apps and cloud services
+- **Assess**: Assess compliance risk and posture with actionable insights
+- **Protect**: Protect and govern sensitive data across devices, apps and cloud services
 - **Respond**: Intelligently respond to data discovery requests by leveraging AI to find the most relevant data
 
 
