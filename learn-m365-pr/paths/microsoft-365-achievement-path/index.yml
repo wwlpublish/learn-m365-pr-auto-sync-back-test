@@ -13,7 +13,7 @@ metadata:
 title: Microsoft 365 Fundamentals
 #TODO: Update
 summary: Want to understand what Microsoft 365 is and how it can help in your organizations digital transformation? This learning path is the place to start.
-prerequisites: <a href='https://docs.microsoft.com/en-us/learn/modules/principles-cloud-computing/index'>Principles of cloud computing</a>
+prerequisites: <a href='https://docs.microsoft.com/learn/modules/principles-cloud-computing/index'>Principles of cloud computing</a>
 #TODO: Update with correct value, i.e. /learn/achievements/what-is-m365.svg
 iconUrl: /learn/achievements/m365-sfa-learning-path.svg
 levels: 
