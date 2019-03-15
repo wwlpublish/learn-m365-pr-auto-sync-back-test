@@ -1,6 +1,6 @@
-In today’s workplace, IT departments typically support a lot of devices that are configured in different ways. Mobile phones and tablets may use Android and iOS operating systems; PCs might be using Windows 10 and macOS; and users might have their own customized devices. All of these devices must be supported, and they must meet organizational standards for security and device health. In addition, you need to be able to configure all of the various types of devices to support organizational apps and features, like VPNs, email settings, and updates.
+In today’s workplace, IT departments support different devices configured in different ways. Your org might have Android and iOS mobile phones, Windows 10 and macOS PCs, and custom devices your users bring to work. Not only do you have to support all of these devices, you have to be sure they meet organizational standards for security and device health. You also have to be able to configure them to support organizational apps and features, like VPNs, email settings, and updates. 
 
-Laptops, tablets, or other mobile devices are the primary devices used in enterprise environments today. These devices present a unique set of management challenges, including the following: 
+These different devices present the following management challenges: 
 
 **Mobile devices that connect to unsecured networks.** Mobile devices frequently connect to networks outside your organization. Company laptops often connect to Wi-Fi access points in public places, like airports and cafés. Using Wi-Fi access points, hackers can capture network traffic and try to insert malware into your browsing sessions. This can impact everyone in your organization.
 
@@ -17,4 +17,4 @@ Laptops, tablets, or other mobile devices are the primary devices used in enterp
 - Should you let user-owned devices access sensitive applications and data? Or, only allow access if the owner agrees to have the device managed by IT?
 - What actions can your organizations take to protect data stored on the device if the device is lost, or if the user leaves the company?
 
-Mobile devices are more likely than larger devices (such as laptops) to be lost or stolen. This loss can mean that private and organization-specific data becomes public. If your org lets employees use mobile devices to sensitive data, you need to have policies in place to address these scenarios.
+Mobile devices are more likely than larger devices (like laptops) to be lost or stolen. This loss can mean that private and organization-specific data becomes public. If your org lets employees use mobile devices to access sensitive data, you need to have policies in place to address these scenarios.
