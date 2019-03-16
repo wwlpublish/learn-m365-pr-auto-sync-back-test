@@ -4,6 +4,8 @@ With Microsoft Secure Score in the Microsoft 365 security center, you can have i
 
 ![Microsoft Secure Score](../media/SecureScoreWidget-o365.png)
 
+*Your Secure Score reflects the overall security of your organization, at a glance*
+
 Microsoft Secure Score gives you robust visualizations, integration with other Microsoft products, comparison of your score with other companies, filtering by category, and much more. With the tool, you can complete security improvement actions within your organization and track the history of your score. The score can also reflect when third-party solutions have addressed recommended improvement actions. 
 
 ![Microsoft Secure Score center](../media/m365-secure-score-center.png)

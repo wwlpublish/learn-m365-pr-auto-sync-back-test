@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.select-a-cloud-deployment-model.5-migration-m365
 #TODO: Add real titles based on unit.
-title: Migration principles to Microsoft 365 services
+title: Migration vs co-existence - planning your move to Microsoft 365
 metadata:
-  title: Migration principles to Microsoft 365 services
+  title: Migration vs co-existence - planning your move to Microsoft 365
   #TODO: Add the unit description.
   description: Learn about migration considerations for moving to Microsoft 365 services.
   msdate: 02/08/2019

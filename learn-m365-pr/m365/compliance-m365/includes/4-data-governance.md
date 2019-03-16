@@ -27,12 +27,16 @@ You create and manage retention labels on the **Retention** tab on the **Labels*
   
 ![Retention tab on Labels page](../media/retention_tab_on_labels_page.1.png)
 
+*The Retention tab in the Security & Compliance Center*
+
 ## How retention labels work with label policies
 
 Making retention labels available to people in your organization so that they can classify content is a two-step process: first you create the labels, and then you publish them to the locations you choose. When you publish retention labels, a label policy gets created.
   
 ![Diagram of roles and tasks for labels](../media/4082bc7d-c04c-4b9a-8a26-7f12565d3311.png)
-  
+
+*The label policy workflow*
+
 Retention labels are independent, reusable building blocks that are included in a label policy and published to different locations. Retention labels can be reused across many policies. The primary purpose of the label policy is to group a set of retention labels and specify the locations where you want those labels to appear.
 
 In this video, you’ll see how integrated and intelligent data governance in Microsoft 365 can help you manage the lifecycle of your content to meet compliance requirements and manage risk. risk.

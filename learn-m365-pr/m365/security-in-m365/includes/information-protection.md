@@ -72,6 +72,7 @@ Sensitive data may initially be created on an individual device, but it's freque
 
 
 ![Sensitive information](../media/3-sensitive-info.png)
+
 *Methods to protect your sensitive data*
 
 
