@@ -35,7 +35,7 @@ There are two available plans for Microsoft 365 Enterprise, letting you further 
 
 ## Microsoft 365 Business
  
-Microsoft 365 Business is designed for small- and medium-sized organizations. Like Microsoft 365 Enterprise, Microsoft 365 Business offers the full set of Office 365 productivity tools and includes security and device management features. It doesn’t include some of the more advanced information protection, compliance, or analytics tools available to enterprise subscribers. It’s designed for organizations that need up to 300 licenses; if your organization is larger than that, you’ll need to subscribe to a Microsoft 365 Enterprise plan instead.
+Microsoft 365 Business is designed for small- and medium-sized organizations. Like Microsoft 365 Enterprise, Microsoft 365 Business offers the full set of Office 365 productivity tools and includes security and device management features. It doesn’t include some of the more advanced information protection, compliance, or analytics tools available to enterprise subscribers. It’s designed for organizations that need up to 300 licenses; if your organization is larger than that, you’ll have to subscribe to a Microsoft 365 Enterprise plan instead.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA]
 
@@ -47,4 +47,4 @@ Microsoft 365 Education is available for educational organizations. Academic lic
 
 Microsoft 365 F1 connects your firstline workers - such as customer service representatives, support and repair technicians, and service professionals - through purpose-built tools and resources that allow them to do their best work. These people are commonly the first point of contact for customers, and they need the right productivity and collaboration tools to do their jobs.
 
-Microsoft 365 F1 has many of the same features and services as Microsoft 365 Enterprise but has been modified to better fit the needs of firstline workers. For example, firstline workers don't generally use virtual machines, so Microsoft 365 F1 includes Windows 10 E3, without virtualization rights.
+Microsoft 365 F1 has many of the same features and services as Microsoft 365 Enterprise but has been modified to better fit the needs of firstline workers. For example, firstline workers don't generally need to create virtual environments in their day-to-day work, so Microsoft 365 F1 includes Windows 10 E3, without virtualization rights.
