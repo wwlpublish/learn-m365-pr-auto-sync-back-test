@@ -1,25 +1,23 @@
-As the proliferation of data increases, and our reliance on storing and accessing that data from computer systems grows, so has the need for data management. Over the years, governmental and other agencies have become interested in how we use and share data. This is particularly relevant when dealing with personal data, such as financial and health data. 
+As the proliferation of data increases, and our reliance on storing and accessing that data online grows, so has the need for data management. Over the years, governmental and other agencies have become interested in how we use and share data, particularly personal data, like financial and health data. 
 
-To help protect individuals, governments and the agencies they appoint have introduced regulations about data storage and use. These regulations introduce requirements around data handling and retention, such as:
+To help protect individuals, governments have introduced regulations about data storage, handling, and use:
+
 - Granting people the right to access, and possibly correct, data stored about them.
 - Defining a data retention period. 
-- Granting governments and their appointed regulatory bodies the rights to access stored records for investigative purposes. 
-- Defining exactly how stored data can and cannot be used. In other words, defining the purpose for the collated data. 
-- Defining privacy controls so that private data can remain private.
+- Granting governments and regulatory bodies the rights to access records for investigative purposes. 
+- Defining exactly how data can and cannot be used. In other words, defining the purpose for the collated data. 
+- Defining privacy controls so that private data remains private.
 
-Organizations must comply with a number of governmental regulations regarding data privacy and access. This can be extremely complex to implement and manage. Some of these regulations include:
-- **HIPAA**. The Health Insurance Portability and Accountability Act (HIPAA) imposes strict privacy regulations for customers who process electronic protected health information.
-- **Data processing agreements**. A data processing agreement describes how the data processor handles and safeguards customer data. For example, the data processor for Office 365 is Microsoft, and the regulations are covered worldwide. 
-- **FISMA**. United States federal agencies can procure information systems and services only from organizations that meet the Federal Information Security Modernization Act (FISMA) regulations.
-- **ISO/IEC 27001:2013**. This standard from ISO and the International Electrotechnical Commission (IEC) is widely used, and is the best-known standard for an information security management system. Office 365 meets this security benchmark with physical, logical, process, and management controls. Since 2015, even ISO 27018 privacy controls for the most recent Office 365 audit are included. 
-- **EU Model Clauses**. The European Union EU Data Protection Directive is a key instrument for the EU privacy and human rights law. The EU Model Clauses legitimize the transfer of personal data outside the EU, and they comprise the preferred method for the data transfer of personal data outside the EU. 
-- **Safe Harbor Framework**. The US and EU Safe Harbor Framework also addresses the transfer of personal data outside the EU. Office 365 follows the principles and processes stipulated by this framework.
-- **The Family Educational Rights and Privacy Act (FERPA)**. United States educational organizations are required to follow FERPA regulations regarding the use or disclosure of student education records. This also includes student information sent in email or email attachments.
-- **SSAE 16**. Independent organizations can audit Office 365 and provide SSAE 16 SOC 1 Type I and Type II, and SOC 2 Type II reports on how the service implements controls.
-- **The Personal Information Protection and Electronic Documents Act (PIPEDA)**. PIPEDA is a Canadian law pertaining to how private sector organizations collect, use, and disclose personal information in regard to commercial business. 
-- **The Gramm–Leach–Bliley Act (GLBA)**. This act protects customers’ nonpublic personal information, and financial institutions are required to follow these regulations to protect their clients’ information.
+Some of these regulations include:
 
-Microsoft 365 supports your organization’s compliance needs with built in tools and capabilities to help you protect information, manage data governance, and respond to regulatory requests. 
+- **Health Insurance Portability and Accountability Act (HIPAA)** - imposes strict privacy regulations on protected health information.
+- **Federal Information Security Modernization Act (FISMA)** - dictates how United States federal agencies protect information.
+- **General Data Protection Regulation (GDPR)** and **Safe Harbor Framework** - address the protection of data and how and when it can be transferred. 
+- **The Family Educational Rights and Privacy Act (FERPA)** - covers the use or disclosure of student education records, including student information sent in email or email attachments.
+- **The Personal Information Protection and Electronic Documents Act (PIPEDA)** - addresses how private sector organizations collect, use, and disclose personal information in regard to commercial business. 
+- **The Gramm–Leach–Bliley Act (GLBA)** -  protects nonpublic personal information.
+
+Microsoft 365 supports your organization’s compliance needs with built-in tools and capabilities to help you protect information, manage data governance, and respond to regulatory requests. 
 
 It can be helpful to think about managing compliance in terms of three phases: 
 - **Assess**: Assess compliance risk and posture with actionable insights
@@ -30,4 +28,4 @@ It can be helpful to think about managing compliance in terms of three phases:
 
 ![Tools to reduce risk](../media/2-reduce-risk.png)
 
-*The graphic visualizes each of these phases and the solutions in Microsoft 365 that can help you* 
+*The three phases of compliance management and the solutions in Microsoft 365 that can help you* 
