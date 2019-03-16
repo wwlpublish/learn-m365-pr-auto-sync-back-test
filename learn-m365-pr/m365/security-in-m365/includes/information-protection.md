@@ -2,7 +2,7 @@ In a mobile-first, cloud-first world, important business data lives and travels 
 
 ![Information is everywhere](../media/1-information.png)
 
-*illustration of where your data may travel*
+*Your data travels everywhere*
 
 Organizations need to balance productivity and security. How do you create and share information across boundaries, while preventing the unauthorized disclosure, modification, or destruction of that data? What can you do to reduce the risk that employees share sensitive information accidentally or use sensitive information inappropriately?
 
@@ -21,7 +21,7 @@ The unified labeling experience in Microsoft 365 provides organizations with a m
 
 ![Follow data](../media/1-follow-data.png)
 
-*image shows how these integrated capabilities work together over the course of the data lifecycle to keep information protected and managed*
+*Integrated capabilities work together over the course of the data lifecycle to keep information protected and managed*
 
 The following units will explain in greater detail how these capabilities work at each phase of the data lifecycle.
 
@@ -41,7 +41,7 @@ In order to protect your organization’s information, you need to be able to di
 
 ![Sensitive data](../media/2-sensitive-data.png)
 
-*where your sensitive data may reside*
+*Where your sensitive data may reside*
 
 What counts as “sensitive data” for your organization will be determined by things like your industry (e.g., healthcare, financial services), governmental regulations and policies, as well as your organization’s internal policies.
 - You can start by using **Content Search** to search for in-place items such as email, documents, and instant messaging conversations.
@@ -72,7 +72,7 @@ Sensitive data may initially be created on an individual device, but it's freque
 
 
 ![Sensitive information](../media/3-sensitive-info.png)
-*some methods to protect your sensitive data*
+*Methods to protect your sensitive data*
 
 
 - Microsoft 365 has data encryption built into the service – for both data at rest and data in transit. 
@@ -99,7 +99,7 @@ Here’s a closer look at some of the monitoring capabilities in Microsoft 365.
 The Label Analytics dashboard in the Microsoft 365 compliance center aggregates label insights so that you can see how sensitivity and retention labels are being used for both Office 365 and non-Office 365 data.
 
 ![Label analytics screenshow](../media/4-label-screen.png)
-*label analytics dashboard*
+*Label Analytics dashboard*
 
 Additional reports that help you monitor information protection:
 

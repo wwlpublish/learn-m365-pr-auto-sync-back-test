@@ -8,10 +8,10 @@ Microsoft 365 includes two analytic tools that gather data  and use AI to provid
 > MyAnalytics doesn't use agents or tracking software, and it doesn't use data from any other activities on your computer, such as applications or websites viewed. 
 
 ![MyAnalytics image](../media/2-myanalytics.png)
-*screenshot of a users weekly time summary*
+*A user's weekly time summary in MyAnalytics*
 
 While MyAnalytics provides insight at the individual level, **Workplace Analytics** focuses on the organization. Use Workplace Analytics to identify collaboration patterns that impact productivity, workforce effectiveness, and employee engagement. It helps you understand how your organization spends its time and how groups work together. When you understand how your org works, you can look for efficiencies and best practices.
 
 ![Workplace analytics](../media/3-workplace-analytics.png)
-*workplace analytics for an organization*
+*Workplace analytics for an organization*
 

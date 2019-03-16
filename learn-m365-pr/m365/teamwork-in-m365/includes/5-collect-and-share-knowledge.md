@@ -3,6 +3,7 @@ Microsoft 365 helps to connect people, content, conversations, and activity, and
 **Yammer** is designed to help you encourage open dialogue, idea generation, and connections across your company. With Yammer you can modernize organization-wide communication, with two-way executive forums or live company-wide meetings, giving everyone a voice. Create communities of interest, executive forums and even facilitate live town hall meetings to improve transparency. Yammer even grants external access to partners and customers where necessary. 
 
 ![Yammer](../media/yammer.png)
+*A screenshot of Yammer*
 
 **Microsoft Stream** enables everyone in the organization to securely create, discover, and share videos, and it integrates into the teamwork apps employees use most, including Teams, OneNote, SharePoint, and Yammer.
 

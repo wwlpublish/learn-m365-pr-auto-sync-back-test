@@ -14,7 +14,7 @@ Microsoft provides a holistic approach to security, helping you to protect ident
 
 ![Key security pillars](../media/3-key-pillars.png)
 
-*the pillars of security*
+*The pillars of security*
 
 
 Next, let's look at the first pillar, identity and access management, and, specifically, how you secure users.

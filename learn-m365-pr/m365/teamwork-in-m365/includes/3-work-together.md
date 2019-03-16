@@ -3,7 +3,7 @@ Users work in many ways, sometimes along departmental lines and other times with
 When users are working together on a document in real time, it’s called co-authoring. Microsoft 365 provides co-authoring capabilities across all the core Office apps. You can co-author on an Office document when it is stored in OneDrive for Business or SharePoint. Microsoft Teams brings author presence information into the co-authoring experience and adds a chat-based workspace for the people who are actively working in the doc. 
 
 ![Co-authoring in Word](../media/word-co-authoring-3.png)
-*an example of co-authoring in Word* 
+*An example of co-authoring in Word* 
 
 **OneDrive for Business** and **SharePoint** in Microsoft 365 provide shared storage, document version controls, and permission settings to enable multiple users to seamlessly edit the same document.
 

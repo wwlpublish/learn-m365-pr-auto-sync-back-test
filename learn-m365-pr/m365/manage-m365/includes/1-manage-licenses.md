@@ -3,7 +3,7 @@ When you buy a Microsoft 365 subscription, you specify the number of licenses th
 The **Microsoft 365 admin center** is where you create user accounts and assign licenses to them. As your organizational needs change, you can buy more licenses to accommodate new people. You can also remove a license from one user and reassign it to a different person. (For example, if someone leaves your organization, you can reassign their license to another employee.) This helps you maintain the correct number of licenses your organization needs without paying for unneeded additional licenses (known as "over-licensing") or running out of licenses. 
 
 ![Microsoft 365 admin portal](../media/1-admin-portal.png)
-*acquire licenses in the Microsoft 365 admin center*
+*Acquire licenses in the Microsoft 365 admin center*
 
 
 You can also deal with expired licenses in the admin center. If you don't renew a license or are past due paying for the latest billing cycle, the user with the expired license won't be able to use all of their Microsoft 365 products. You either need to renew the license or assign them a different, active license. 
@@ -12,4 +12,4 @@ You can also turn access to functions like Exchange Online or Microsoft Teams on
 
 ![Microsoft 365 licenses](../media/1-licenses.png)
 
-*enable or disable individual functions for a license* 
+*Enable or disable individual functions for a license* 
