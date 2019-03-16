@@ -2,7 +2,7 @@
 uid: learn-m365.microsoft-365-achievement-path
 metadata:
   title: Microsoft 365 Fundamentals
-  description: Want to understand what Microsoft 365 is and how it can help in your organization's digital transformation? This learning path is the place to start.
+  description: Microsoft 365 is an intelligent solution that include Office 365, Windows 10, and Enterprise Mobility + Security, and empowers everyone to be creative and work together, securely. Learn how it supports your org's digital transformation.
   brand: m365
   ms.date: 02/08/2019
   author: lizap
@@ -12,7 +12,7 @@ metadata:
   ROBOTS: NOINDEX
 title: Microsoft 365 Fundamentals
 #TODO: Update
-summary: Want to understand what Microsoft 365 is and how it can help in your organizations digital transformation? This learning path is the place to start.
+summary: Microsoft 365 is an intelligent solution that include Office 365, Windows 10, and Enterprise Mobility + Security, and empowers everyone to be creative and work together, securely. Learn how it supports your org's digital transformation.
 prerequisites: <a href='https://docs.microsoft.com/learn/modules/principles-cloud-computing/index'>Principles of cloud computing</a>
 #TODO: Update with correct value, i.e. /learn/achievements/what-is-m365.svg
 iconUrl: /learn/achievements/m365-sfa-learning-path.svg
