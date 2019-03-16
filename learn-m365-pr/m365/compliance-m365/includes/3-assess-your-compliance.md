@@ -40,5 +40,5 @@ Compliance Manager provides three key capabilities:
 - **Actionable insights**. Understand the responsibility that you and Microsoft share in meeting compliance standards. For components that Microsoft manages, you can see the control implementation and testing details, test date, and results. For components that you manage, you can see recommendations for appropriate actions and guidance on how to implement them.
 - **Simplified compliance**. Simplify processes to achieve compliance. It provides built-in collaboration tools that you can use to assign tasks to your teams. You can also generate audi-ready reports with links to the evidence you collected. 
 
-Here's a video demo of Compliance manager: 
+Here's a video demo of Compliance Manager: 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWruAJ]

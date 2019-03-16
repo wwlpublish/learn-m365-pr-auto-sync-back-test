@@ -8,11 +8,3 @@ Watch this video to learn more about how Advanced eDiscovery can help you hold, 
 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWrp95]
-
-
-
-Take a deeper look at these Advanced eDiscovery capabilities: 
-
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtYby]
-
