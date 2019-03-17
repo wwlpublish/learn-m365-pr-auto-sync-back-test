@@ -1,6 +1,4 @@
-Windows 10 Enterprise is one of the central pillars of your Microsoft 365 subscription. Windows 10 meets the needs of large & midsize organizations, providing IT professionals with intelligent security, simplified updates, flexible management, and enhanced productivity tools.
-
-Learn what Windows 10 Enterprise has to offer.
+Windows 10 Enterprise is one of the central pillars of your Microsoft 365 subscription. Windows 10 meets the needs of large and midsize organizations, providing intelligent security, simplified updates, flexible management, and enhanced productivity tools.
 
 ## Intelligent security
 Windows 10 protects, detects, and automatically responds to the most advanced malware and hacking threats, while protecting user identities, devices, and your organization's information. Windows 10 investigates threats as they evolve and automates remediation to make response times faster, thanks to the Intelligent Security Graph (which uses security intelligence, machine learning, and behavioral analytics). These security solutions are built-in and provide you with full security lifecycle management for endpoint protection (EPP) and detection and response (EDR). It also integrates with Microsoft 365 systems, which covers even the most complex multi-platform environments. 

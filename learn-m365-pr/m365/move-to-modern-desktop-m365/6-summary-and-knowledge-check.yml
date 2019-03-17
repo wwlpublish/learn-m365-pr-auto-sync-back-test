@@ -44,7 +44,7 @@ quiz:
       - content: "All of the above"
         isCorrect: true
         explanation: "These are all supported deployment methods."
-    - content: "What should be included in the group that test updates for Windows 10 and Office 365 ProPlus?"
+    - content: "What should be included in the group that tests updates for Windows 10 and Office 365 ProPlus?"
       choices:
       - content: "Mission-critical devices"
         isCorrect: False

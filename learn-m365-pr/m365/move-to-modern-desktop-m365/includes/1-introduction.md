@@ -1,4 +1,4 @@
-The modern desktop is powered by Windows 10 and Office 365 ProPlus, is always up to date, and brings insights and security powered by the cloud. Shifting to a modern desktop improves productivity and security for users and streamlines work for IT professionals. This shift is well underway in thousands of organizations around the world. 
+"Modern desktop" describes a Windows 10 device that runs Office 365 ProPlus apps and is managed by Enterprise Management + Security. The modern desktop is always up to date and uses insights and security powered by the cloud. Shifting to a modern desktop improves productivity and security for users and streamlines work for IT professionals. This shift is well underway in thousands of organizations around the world. 
 
 ## Benefits of the modern desktop 
 Right now, security concerns are the top reasons organizations switch to a modern desktop. Putting the right technology in the hands of users can help protect against some of the most common security threats, like compromised credentials. Windows 10 provides security features like Windows Hello, which enables companies to eliminate passwords. It also provides support for FIDO2 security keys, which enable organizations to better secure their data and devices. Office 365 ProPlus helps round out the security offerings for Microsoft 365, with its built-in features that integrate with Windows 10 to help you protect sensitive data, stay in control in the cloud, and meet your compliance needs. 
@@ -8,7 +8,7 @@ In addition to improving security, Windows 10 and Office 365 ProPlus improves ho
 For both Windows 10 and Office 365 ProPlus, feature updates are released more frequently, which means your users will get security and productivity capabilities multiple times a year, instead of once every three years.
 
 ## Shifting to the modern desktop 
-To shift to the modern desktop, you must deploy Windows 10 and Office 365 ProPlus and adopt a stay-current process that uses Windows and Office servicing to deploy regular security and feature updates. Each of these steps has been improved for IT, making them easier to implement and more efficient to manage. 
+To shift to the modern desktop, you must deploy Windows 10 and Office 365 ProPlus and adopt a stay-current process that uses Windows and Office servicing to deploy regular security and feature updates.  
 
 To help you get ready for your deployment, Microsoft has released new tools and features that you can use to prepare your environment. Windows includes delivery optimization, a feature that can help improve how you deploy and manage updates to Windows and Office across your network. Application compatibility, which is always a concern for organizations that are upgrading to a new operating system or a version of Office, has been greatly improved and includes compatibility testing and the tools for testing and fixing the applications in your own environment. 
 
