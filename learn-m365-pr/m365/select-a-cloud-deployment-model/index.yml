@@ -2,7 +2,7 @@
 uid: learn-m365.select-a-cloud-deployment-model
 metadata:
   title: Select a cloud deployment model - Learn
-  description: In this lesson, we’ll discuss how companies can work purely in the cloud (“cloud-only”) or connect existing on-premises systems to the cloud to extend the value of their legacy infrastructure (“hybrid”). You’ll see how these two different service models require different approaches to migration, and then you’ll review a few scenarios that demonstrate when to choose one type of migration over the other. Finally, we’ll review some considerations for how an organization approaches migrating systems with older versions of Office, Windows, and Office Server to Microsoft 365.
+  description: Learn how companies can work purely in the cloud (“cloud-only”) or connect existing on-premises systems to the cloud to extend the value of their legacy infrastructure (“hybrid”). You’ll see how these two different service models require different approaches to migration, and then you’ll review a few scenarios that demonstrate when to choose one type of migration over the other. Finally, we’ll review some considerations for how an organization approaches migrating systems with older versions of Office, Windows, and Office Server to Microsoft 365.
   ms.date: 02/08/2019
   author: lizap
   ms.author: elizapo
@@ -10,7 +10,7 @@ metadata:
   ms.prod: learning-m365
   ROBOTS: NOINDEX
 title: Select a cloud deployment model
-summary: In this lesson, we’ll discuss how companies can work purely in the cloud (“cloud-only”) or connect existing on-premises systems to the cloud to extend the value of their legacy infrastructure (“hybrid”). You’ll see how these two different service models require different approaches to migration, and then you’ll review a few scenarios that demonstrate when to choose one type of migration over the other. Finally, we’ll review some considerations for how an organization approaches migrating systems with older versions of Office, Windows, and Office Server to Microsoft 365. 
+summary: Learn how companies can work purely in the cloud (“cloud-only”) or connect existing on-premises systems to the cloud to extend the value of their legacy infrastructure (“hybrid”). You’ll see how these two different service models require different approaches to migration, and then you’ll review a few scenarios that demonstrate when to choose one type of migration over the other. Finally, we’ll review some considerations for how an organization approaches migrating systems with older versions of Office, Windows, and Office Server to Microsoft 365. 
 abstract: |
   At the end of this module, you should be able to:
    - List the considerations to keep in mind when selecting a cloud service. 
