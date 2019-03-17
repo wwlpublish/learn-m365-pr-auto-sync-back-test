@@ -1,4 +1,4 @@
-The first security pillar, identity & access management, is one of the most important. 
+The first security pillar, identity & access management, is one of the most important. Microsoft 365 helps you identify who is accessing your resources and control exactly what they can access. 
 
 ## Secure authentication
 Helping secure your users helps protect against breaches. And one important area is the quality of user passwords. Passwords are problematic. Users are expected to remember complex passwords for a variety of different accounts, both personal and for work. Issues with passwords include:
@@ -13,16 +13,16 @@ This poses a significant security risk as once bad actors get compromised passwo
 
 **Windows Hello**. In Windows 10, Windows Hello for Business replaces passwords with strong two-factor authentication on PCs and mobile devices - a new type of user credential that's tied to a device and uses a biometric or PIN. Windows Hello for Business lets user authenticate to an Active Directory or Azure Active Directory account. 
 
-**Microsoft Authenticator**. Passwords can be forgotten, stolen, or compromised. The Microsoft Authenticator app helps you sign into your accounts if you use two-factor verification. Two-factor verification helps you to access your accounts more securely, especially while viewing sensitive information. Two-factor verification is an additional security step that helps protect your account by making it harder for other people to break in.
+**Microsoft Authenticator**. The Microsoft Authenticator app helps you keep your accounts more secure, especially while viewing sensitive information. 
 
 You can use the Microsoft Authenticator app in multiple ways, including:
-- **Two-factor verification**. The standard verification method, where one of the factors is your password. After you sign-in using your username and password, you can either approve a notification or enter a provided verification code.
-- **Phone sign-in**. A version of two-factor verification that lets you sign-in without requiring a password, using your username and your mobile device with your fingerprint, face, or PIN.
+- **Two-factor verification**. The standard verification method, where one of the factors is your password. After you sign in to a device, app, or site using your username and password, you can use Microsoft Authenticator to approve a notification or enter a provided verification code.
+- **Phone sign-in**. A version of two-factor verification that lets you sign in without requiring a password, using your username and your mobile device with your fingerprint, face, or PIN.
 
 ## Conditional access
-Conditional access provides granular access control to keep your corporate data secure, while giving users an experience that allows them to do their best work from any device, and from any location. Conditional access helps protect sensitive data by evaluating users, devices, apps, location, and risk before access is granted to corporate data. This helps manage access to sensitive data and helps ensure that only approved users and devices can access critical company resources. 
+Conditional access provides granular access to keep your corporate data secure, while letting users do their best work from any device and from any location. Conditional access helps protect sensitive data by evaluating users, devices, apps, location, and risk before granting access to corporate data. This helps ensure that only approved users and devices can access critical company resources. 
 
-Conditional access is a solution that spans Microsoft 365 services including Intune, Office 365, and Windows 10. 
+Conditional access spans Microsoft 365 services including Intune, Office 365, and Windows 10. 
 
 ![Conditional access](../media/3-conditional-access.png)
 *Conditional access evaluates each access request on a number of different criteria and then using policies you define, decides if it should be allowed, if stricter controls are needed or if the access attempt should be blocked altogether*
