@@ -3,7 +3,7 @@ Billing in Microsoft 365 is also managed from the Microsoft 365 admin center. Th
 You can review and modify all billing aspects in the Microsoft 365 admin center, including:
 - Current number of purchased licenses and how many of those licenses that you've allocated to users for each service.
 - Any current charges due on an account.
-- Payment method (credit card or, in some countries or regions, bank accounts, or prepaid — where you have a product key to activate licenses), and payment frequency (monthly or annual).
+- Payment method and frequency (monthly or annual).
 - Additional services or features you might opt to add to the subscription.
 - Billing notifications, where you can provide a list of email accounts of who should receive automated billing notifications and renewal reminders for the Microsoft 365 subscription.
 
