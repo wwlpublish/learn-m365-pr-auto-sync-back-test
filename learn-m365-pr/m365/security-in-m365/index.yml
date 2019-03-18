@@ -1,33 +1,30 @@
 ## YamlMime:Module
 uid: learn-m365.security-m365
 metadata:
-  title: Security in Microsoft 365 - Learn
+  title: Security in Microsoft 365
   description: Learn about the different Microsoft solutions for managing security in your organization. Microsoft 365 provides a holistic approach to security, helping you to protect identities, data, applications, and devices across on-premises, cloud, and mobile. 
-  ms.date: 02/08/2019
+  ms.date: 03/18/2019
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-  ROBOTS: NOINDEX
 title: Security in Microsoft 365
 summary: Learn about the different Microsoft solutions for managing security in your organization. Microsoft 365 provides a holistic approach to security, helping you to protect identities, data, applications, and devices across on-premises, cloud, and mobile.
 abstract: |
-  At the end of this module, you should be able to:
-  - Understand the key pillars of security.
-  - Discover how Microsoft 365 helps protect identity and access.
-  - Discover how Microsoft 365 helps you protect against threats.
-  - Discover how Microsoft 365 helps you protect information.
+  In this module, you will learn:
+  - The key pillars of security.
+  - How Microsoft 365 helps protect identity and access.
+  - How Microsoft 365 helps you protect against threats.
+  - How Microsoft 365 helps you protect information.
 prerequisites: None
-#TODO: Update with correct value, i.e. /learn/achievements/what-is-m365.svg
-iconUrl: /learn/achievements/protect-enterprise-with-m365.svg
+iconUrl: /learn/achievements/security-in-m365.svg
+ratingEnabled: true
 levels:
 - beginner
 roles:
 - administrator
 products:
-#TODO: Update with correct value.
 - m365
-- azure
 units:
 - learn-m365.security-m365.key-security-pillars
 - learn-m365.security-m365.identity-and-access
