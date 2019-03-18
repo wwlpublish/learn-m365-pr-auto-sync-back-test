@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.what-is-m365.5-summary-and-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Review what you've learned and discover how to continue your cloud journey.
+  ms.date: 03/18/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 2
+content: |
+  [!include[](includes/5-summary-and-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Which of the following is NOT a Microsoft 365 subscription option?"
+      choices:
+      - content: "Microsoft 365 Enterprise"
+        isCorrect: false
+        explanation: "No, this is a real subscription."
+      - content: "Microsoft 365 Business"
+        isCorrect: false
+        explanation: "No, this is a real subscription."
+      - content: "Microsoft 365 Education"
+        isCorrect: false
+        explanation: "No, this is a real subscription."
+      - content: "Microsoft 365 F1"
+        isCorrect: false
+        explanation: "No, this is a real subscription."
+      - content: "Microsoft 365 Home"
+        isCorrect: true
+        explanation: "Correct, there is no Home subscription for Microsoft 365."
+    - content: "Microsoft 365 enables teamwork and collaboration through intuitive tools that allow you to work together in real time."
+      choices:
+      - content: "True"
+        isCorrect: true
+        explanation: "True - teamwork and collaboration are key elements of Microsoft 365."
+      - content: "False"
+        isCorrect: false
+        explanation: "Teamwork and collaboration are key elements of Microsoft 365."
+    - content: "True or false: Microsoft 365 delivers holistic security across users, devices, apps, and data."
+      choices:
+      - content: "True"
+        isCorrect: true
+        explanation: "Microsoft 365 delivers holistic security across users, devices, apps, and data."
+      - content: "False"
+        isCorrect: false
+        explanation: "Microsoft 365 delivers holistic security across users, devices, apps, and data."

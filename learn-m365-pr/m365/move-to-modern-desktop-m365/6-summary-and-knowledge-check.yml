@@ -1,0 +1,71 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.move-to-modern-desktop-m365.6-summary-and-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Review what you've learned about the modern desktop with Microsoft 365.
+  ms.date: 03/18/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 5
+content: |
+  [!include[](includes/6-summary-and-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Which of the following provides personal assistance from Microsoft to help your organization with Windows 10 and Office 365 ProPlus application compatibility issues?"
+      choices:
+      - content: "Windows Analytics Upgrade Readiness"
+        isCorrect: false
+        explanation: "Use Desktop App Assure to get personal assistance from Microsoft."
+      - content: "Readiness Toolkit for Office add-ins and VBA"
+        isCorrect: false
+        explanation: "Use Desktop App Assure to get personal assistance from Microsoft."
+      - content: "Desktop App Assure"
+        isCorrect: true
+        explanation: "Use Desktop App Assure to get personal assistance from Microsoft."
+      - content: "All of the above"
+        isCorrect: false
+        explanation: "Use Desktop App Assure to get personal assistance from Microsoft."
+    - content: "Windows 10 and Office 365 ProPlus can be updated in which of the following ways?"
+      choices:
+      - content: "Directly from the cloud"
+        isCorrect: False
+        explanation: "These are all supported deployment methods."
+      - content: "From an on-premises location"
+        isCorrect: false
+        explanation: "These are all supported deployment methods."
+      - content: "By using System Center Configuration Manager"
+        isCorrect: false
+        explanation: "These are all supported deployment methods."
+      - content: "All of the above"
+        isCorrect: true
+        explanation: "These are all supported deployment methods."
+    - content: "What should be included in the group that tests updates for Windows 10 and Office 365 ProPlus?"
+      choices:
+      - content: "Mission-critical devices"
+        isCorrect: False
+        explanation: "The best practice for mission-critical devices is to wait until after you test the update."
+      - content: "All users and devices in the IT department"
+        isCorrect: false
+        explanation: "Test the update in a small group of devices before rolling it out to a large group like the entire IT department."
+      - content: "A mix of users and devices from across your organization"
+        isCorrect: true
+        explanation: "Use a mix of users and devices to test as many scenarios as possible."
+      - content: "Only users that have specialized line-of-business apps"
+        isCorrect: false
+        explanation: "These kinds of users generally use the LTSC and won't be good SAC test candidates."
+    - content: "Which one of the following Windows 10 update channels doesn’t support Office 365 ProPlus?"
+      choices:
+      - content: "Windows Insider"
+        isCorrect: false
+        explanation: "The only channel that doesn't support Office 365 ProPlus is the Long-term Servicing Channel (LTSC)."
+      - content: "Semi-Annual Channel"
+        isCorrect: false
+        explanation: "The only channel that doesn't support Office 365 ProPlus is the Long-term Servicing Channel (LTSC)."
+      - content: "Long-term Servicing Channel"
+        isCorrect: true
+        explanation: "The only channel that doesn't support Office 365 ProPlus is the Long-term Servicing Channel (LTSC)."

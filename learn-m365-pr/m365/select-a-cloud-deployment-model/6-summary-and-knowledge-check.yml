@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.select-a-cloud-deployment-model.6-summary-and-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Review what you've learned and discover how to continue your journey.
+  ms.date: 03/18/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 2
+content: |
+  [!include[](includes/6-summary-and-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "If you're operating a small non-profit organization, which deployment model probably makes the most sense?"
+      choices:
+      - content: "Cloud"
+        isCorrect: true
+        explanation: "A cloud deployment might be the most cost effective, given your small size."
+      - content: "Hybrid"
+        isCorrect: false
+        explanation: "A cloud deployment might be the most cost effective, given your small size."
+      - content: "It doesn't matter"
+        isCorrect: false
+        explanation: "Incorrect - there are differences between the two models that affect cost and efficiency."
+    - content: "If you're starting a new business, which model probably makes the most sense?"
+      choices:
+      - content: "Cloud"
+        isCorrect: true
+        explanation: "A cloud deployment might be the most cost effective, given you're just starting up and don't have existing on-premises infrastructure."
+      - content: "Hybrid"
+        isCorrect: false
+        explanation: "You don't have existing infrastructure, so there's no reason to choose a hybrid deployment."
+      - content: "It doesn't matter"
+        isCorrect: false
+        explanation: "Incorrect - there are differences between the two models that affect cost and efficiency."
+    - content: "If you're an established business with a data center, and you acquire a new business, which model makes the most sense?"
+      choices:
+      - content: "Cloud"
+        isCorrect: false
+        explanation: "You'll be joining two disparate systems together - a hybrid deployment methods might work best."
+      - content: "Hybrid"
+        isCorrect: true
+        explanation: "You'll be joining two disparate systems together - a hybrid deployment methods might work best."
+      - content: "It doesn't matter"
+        isCorrect: false
+        explanation: "Incorrect - you'll be joining two systems together - different systems have different needs."

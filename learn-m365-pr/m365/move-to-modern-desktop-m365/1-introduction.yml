@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.move-to-modern-desktop-m365.1-introduction
+title: What is the modern desktop?
+metadata:
+  title: What is the modern desktop?
+  description: Learn how WIndows 10 and Office 365 ProPlus together create a modern desktop.
+  msdate: 03/18/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 2
+content: |
+  [!include[](includes/1-introduction.md)]
