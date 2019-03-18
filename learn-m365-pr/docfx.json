@@ -3,6 +3,19 @@
     "content": [
       {
         "files": [
+          "achievements.yml"
+        ],
+        "dest": "achievements/main/"
+      },
+      {
+        "src": "m365",
+        "files": [
+          "**.yml"
+        ],
+        "dest": "modules"
+      },
+      {
+        "files": [
           "**/*.md",
           "**/*.yml"
         ],
@@ -14,15 +27,19 @@
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
-          "ThirdPartyNotices"
+          "ThirdPartyNotices",
+          "learn-m365-pr/**"
         ]
       }
     ],
     "resource": [
       {
         "files": [
+          "**/*.gif",
           "**/*.png",
-          "**/*.jpg"
+          "**/*.svg",
+          "**/*.jpg",
+          "**/*.jpeg"
         ],
         "exclude": [
           "**/obj/**",

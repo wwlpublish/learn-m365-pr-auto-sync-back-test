@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.select-a-cloud-deployment-model.2-the-cloud-only-model
+title: The cloud-only model
+metadata:
+  title: The cloud-only model
+  description: “Cloud-only” describes a situation where the service models you want to use (SaaS, PaaS, or IaaS) run strictly in the cloud; there’s no connection to existing on-premises-based systems.
+  msdate: 03/18/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 1
+content: |
+  [!include[](includes/2-the-cloud-only-model.md)]

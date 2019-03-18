@@ -1,0 +1,34 @@
+### YamlMime:LearningPath
+uid: learn-m365.microsoft-365-fundamentals
+metadata:
+  title: Microsoft 365 Fundamentals
+  description: Microsoft 365 is an intelligent solution that includes Office 365, Windows 10, and Enterprise Mobility + Security, and empowers everyone to be creative and work together, securely. Learn how it supports your org's digital transformation.
+  ms.date: 03/18/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+title: Microsoft 365 Fundamentals
+summary: Microsoft 365 is an intelligent solution that includes Office 365, Windows 10, and Enterprise Mobility + Security, and empowers everyone to be creative and work together, securely. Learn how it supports your org's digital transformation.
+prerequisites: | 
+ - Basic understanding of cloud computing. If you are unfamiliar with this, we recommend you take [Cloud Concepts - Principles of cloud computing](https://docs.microsoft.com/learn/modules/principles-cloud-computing/index)
+iconUrl: /learn/achievements/m365-fundamentals.svg
+levels: 
+- beginner
+roles:
+- business-user
+products: 
+- m365
+modules:
+- learn-m365.what-is-m365
+- learn-m365.intro-m365-core-services
+- learn-m365.intro-teamwork-in-m365
+- learn-m365.move-to-modern-desktop-m365
+- learn-m365.intro-to-m365-unified-endpoint-management
+- learn-m365.security-m365
+- learn-m365.meet-compliance-with-m365
+- learn-m365.manage-m365-subscription
+- learn-m365.select-a-cloud-deployment-model-for-m365
+trophy: 
+  uid: learn-m365.microsoft-365-fundamentals.trophy
