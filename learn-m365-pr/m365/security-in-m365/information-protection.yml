@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.security-m365.information-protection
+title: Information protection solutions in Microsoft 365
+metadata:
+  title: Information protection solutions in Microsoft 365
+  description: Learn about information protection in Microsoft 365.
+  msdate: 03/18/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 5
+content: |
+  [!include[](includes/information-protection.md)]

@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.unified-endpoint-management.3-ems-components
+title: Using the Enterprise Mobility + Security solution to manage all your devices
+metadata:
+  title: Understand the Enterprise Mobility + Security components
+  description: Learn about Enterprise Mobility + Security.
+  msdate: 03/18/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 5
+content: |
+  [!include[](includes/3-ems-components.md)]

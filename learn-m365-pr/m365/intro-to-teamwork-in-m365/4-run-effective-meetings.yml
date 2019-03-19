@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teamwork-in-m365.4-run-effective-meetings
+title: Use teamwork tools to run meetings and projects more effectively
+metadata:
+  title: Use teamwork tools to run meetings and projects more effectively
+  description: Learn how Microsoft 365 helps you be more effective in meetings and projects.
+  msdate: 03/18/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 4
+content: |
+  [!include[](includes/4-run-effective-meetings.md)]

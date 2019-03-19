@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-core-services.8-intune
+title: Microsoft Intune - managing all of your users' devices
+metadata:
+  title: Microsoft Intune - managing all of your users' devices
+  description: Learn about Microsoft Intune
+  msdate: 03/18/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 2
+content: |
+  [!include[](includes/8-intune.md)]

@@ -1,0 +1,65 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.security-m365.summary-and-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Review what you've learned about security in Microsoft 365.
+  ms.date: 03/18/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+  [!include[](includes/summary-and-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Which of the following is NOT critical to the security of every computer system?"
+      choices:
+      - content: "Identity and access management"
+        isCorrect: false
+        explanation: "False - this is a key pillar to securing your organization, users, devices, and data."
+      - content: "Threat protection"
+        isCorrect: false
+        explanation: "False - this is a key pillar to securing your organization, users, devices, and data."
+      - content: "Cloud and remote access security"
+        isCorrect: true
+        explanation: "Correct - this isn't a key pillar to securing your organization, users, devices, and data."
+      - content: "Information protection"
+        isCorrect: false
+        explanation: "False - this is a key pillar to securing your organization, users, devices, and data."
+      - content: "Security management"
+        isCorrect: false
+        explanation: "False - this is a key pillar to securing your organization, users, devices, and data."
+    - content: "Conditional access, secure authentication, and identity protection are parts of which security pilar?"
+      choices:
+      - content: "Identity and access management"
+        isCorrect: true
+        explanation: "These are all components of the Identity and access management pillar."
+      - content: "Threat protection"
+        isCorrect: false
+        explanation: "These are all components of the Identity and access management pillar."
+      - content: "Information protection"
+        isCorrect: false
+        explanation: "These are all components of the Identity and access management pillar."
+      - content: "Security management"
+        isCorrect: false
+        explanation: "These are all components of the Identity and access management pillar."
+    - content: "True or false: The Microsoft Information Protection solutions in Microsoft 365 help you protect sensitive data throughout its lifecycle - across devices, apps, cloud services, and on-premises locations."
+      choices:
+      - content: "True"
+        isCorrect: true
+        explanation: "True - Microosft Information Protection protects your data at each stage."
+      - content: "False"
+        isCorrect: false
+        explanation: "True - Microsoft Information Protection protects your data at each stage."
+    - content: "True or false: Privileged Access Management grants global admin rights to individuals in your organization."
+      choices:
+      - content: "True"
+        isCorrect: false
+        explanation: "False - Privileged access management allows granular access control over privileged admin tasks to help protect your organization from breaches that may use existing privileged admin accounts with standing access to sensitive data or critical configuration settings."
+      - content: "False"
+        isCorrect: true
+        explanation: "Correct - Privileged access management allows granular access control over privileged admin tasks to help protect your organization from breaches that may use existing privileged admin accounts with standing access to sensitive data or critical configuration settings"

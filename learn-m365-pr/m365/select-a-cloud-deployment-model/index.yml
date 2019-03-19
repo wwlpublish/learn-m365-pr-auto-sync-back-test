@@ -1,39 +1,36 @@
 ### YamlMime:Module
-uid: learn-m365.select-a-cloud-deployment-model
+uid: learn-m365.select-a-cloud-deployment-model-for-m365
 metadata:
-  title: Select a cloud deployment model - Learn
-  description: This module introduces you to different cloud deployment models.
-  ms.date: 02/08/2019
+  title: Select a cloud deployment model
+  description: Learn how companies can work purely in the cloud (“cloud-only”) or connect existing on-premises systems to the cloud to extend the value of their legacy infrastructure (“hybrid”). You’ll see how these two different service models require different approaches to migration, and then you’ll review a few scenarios that demonstrate when to choose one type of migration over the other. Finally, we’ll review some considerations for how an organization approaches migrating systems with older versions of Office, Windows, and Office Server to Microsoft 365.
+  ms.date: 03/18/2019
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-  ROBOTS: NOINDEX
 title: Select a cloud deployment model
-summary: This module introduces you to different cloud deployment models. 
+summary: Learn how companies can work purely in the cloud (“cloud-only”) or connect existing on-premises systems to the cloud to extend the value of their legacy infrastructure (“hybrid”). You’ll see how these two different service models require different approaches to migration, and then you’ll review a few scenarios that demonstrate when to choose one type of migration over the other. Finally, we’ll review some considerations for how an organization approaches migrating systems with older versions of Office, Windows, and Office Server to Microsoft 365. 
 abstract: |
-  In this module, you will:
-   - List the considerations to keep in mind when selecting a cloud service. 
-   - Understand terminology associated with adopting a cloud service.
-   - Describe cloud-only and hybrid migration models and how to choose between them.
-   - Recommend when an organization might want to move systems with older operating systems and Microsoft Office directly to Microsoft 365 instead of upgrading legacy software.   
+  In this module, you will learn:
+   - The considerations to keep in mind when selecting a cloud service. 
+   - Terminology associated with adopting a cloud service.
+   - The difference between cloud-only and hybrid migration models and how to choose between them.
+   - When an organization might want to move systems with older operating systems and Microsoft Office directly to Microsoft 365 instead of upgrading legacy software.   
 prerequisites: None
-#TODO: Update with correct value, i.e. /learn/achievements/select-a-cloud-service.svg
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/select-a-cloud-deployment-model.svg
+ratingEnabled: true
 levels:
 - beginner
 roles:
 - administrator
 products:
-#TODO: Update with correct value.
 - m365
-- azure
 units:
-- learn-m365.select-a-cloud-deployment-model.1-introduction
+#- learn-m365.select-a-cloud-deployment-model.1-introduction
 - learn-m365.select-a-cloud-deployment-model.2-the-cloud-only-model
 - learn-m365.select-a-cloud-deployment-model.3-the-hybrid-model
 - learn-m365.select-a-cloud-deployment-model.4-which-model-to-choose
 - learn-m365.select-a-cloud-deployment-model.5-migration-m365
 - learn-m365.select-a-cloud-deployment-model.6-summary-and-knowledge-check
 badge: 
-  uid: learn-m365.select-a-cloud-deployment-model.badge
+  uid: learn-m365.select-a-cloud-deployment-model-for-m365.badge

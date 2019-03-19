@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.manage-m365.1-manage-licenses
+title: Manage licenses in Microsoft 365
+metadata:
+  title: Manage licenses in Microsoft 365
+  description:  Understand which features and services in Microsoft 365 support collaboration and which one support communication.
+  msdate: 03/18/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 2
+content: |
+  [!include[](includes/1-manage-licenses.md)]

@@ -1,0 +1,24 @@
+Exchange Online is a messaging and collaboration platform for your email, calendar, contact info, and tasks. You can access all of this with Microsoft Outlook, Outlook Web Access, or Outlook Mobile. Exchange Online works from most mobile devices - including Android, iOS, and Windows 10 devices. 
+
+Here are some features of Exchange Online:
+
+- **Mailboxes and online archives**. Individual users have their own mailboxes. Some plans also include an online archive for additional storage.
+- **Calendars**. Each user has a calendar that they can use to keep track of upcoming events and to make sure their coworkers don't have conflicts when scheduling meetings. If needed, users can delegate access to their calendars to other users, like administrative assistants and teammates. 
+- **View and edit Office attachments online**. When users receive Office attachments, they can view and edit them online in Outlook on the web - even without a locally installed version of Office.
+- **Shared mailboxes and resources**. You can use shared mailboxes for groups of users that need to share information in a central mailbox. You can also set up resources and equipment for meeting rooms and bookings. 
+- **Message policy and compliance**. Exchange Online offers several message policy and compliance features, including retention policies, message encryption, eDiscovery, data loss prevention, and journaling. 
+- **Antispam and anti-malware**. All Exchange Online subscriptions include Exchange Online Protection, which provides configurable antispam and anti-malware scanning.
+- **Configurable mail flow**. To support specialized mail flow (hybrid, partner, or third-party service scenarios), you can create inbound and outbound connectors in Office 365. For example, you can create connectors that use additional security settings for mail flow with a business partner. 
+- **Mobile and multiplatform access**. Users can access mailboxes and calendars from Outlook on either Windows or Mac clients by using Messaging Application Programming Interface (MAPI) over HTTPS or Microsoft Graph. Exchange Web Services is still supported, but if you’re updating or creating an app, use Microsoft Graph instead. Outlook on the web supports accessing mailboxes and calendars from almost any platform. Mobile devices can access mailboxes and calendars by using Exchange ActiveSync. 
+- **Hybrid deployment**. You can integrate Exchange Online with an on-premises Exchange Server organization by implementing a hybrid deployment. In a hybrid deployment, Exchange Online and the on-premises Exchange organization can share a single namespace for messaging. A hybrid deployment also supports calendar sharing and mailbox moves between Exchange Online and an on-premises Exchange server.
+
+## Compare Exchange Online to Exchange Server
+
+To determine whether Exchange Online is right for your organization, it's helpful to understand the differences between Exchange Online and an on-premises Exchange Server. Some of these differences are:
+
+- **Unlimited storage**. Many on-premises deployments of Exchange Server place relatively low limits on mailbox sizes, such as one or two gigabytes (GB). Exchange Online supports larger mailboxes of 50 GB or larger depending on your plan.
+- **High availability**. For an on-premises Exchange Server, you need to purchase and configure hardware to store multiple mailbox copies and configure load balancing to achieve high availability. For true high availability, you also need an alternate datacenter. Exchange Online is automatically highly available with your data replicated to multiple datacenters.
+- **Backups**. With Exchange Server, you need to manage your own backups. Exchange Online doesn't have any built-in methods for configuring backups - it replicates data across multiple servers and datacenters, and you configure retention through single-item recovery and litigation hold.
+- **Automatic integration with other Office 365 features**. Exchange Online offers additional features such as Office 365 groups, which integrate multiple Office 365 features together. You can also view and edit Office email attachments.
+- **New features**. Exchange Online has many features that don't exist in an on-premises Exchange server. Some of these features may be integrated into on-premises Exchange server in the future, but they'll always appear first in Exchange Online.
+- **No access to Exchange Online databases or servers**. Unlike an on-premises Exchange server where you administer and manage Exchange servers and databases, Microsoft manages these items in Exchange Online for you.

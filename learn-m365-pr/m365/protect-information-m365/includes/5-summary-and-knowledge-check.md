@@ -1,1 +1,0 @@
-Summary of information protection.
