@@ -1,6 +1,6 @@
 Intune is a cloud service that helps you manage computers, laptops, tablets, and other mobile devices. This includes iOS, Android, and Mac OS X devices. It uses Azure Active Directory (Azure AD) as a directory store for identity, and it can integrate with local management infrastructures such as Microsoft System Center Configuration Manager (SCCM). Intune is especially useful for devices that are beyond the management scope of Group Policy, such as mobile phones, devices that are not Active Directory Domain Services (AD DS) domain members, or Windows 10 devices that are joined to Azure AD. 
 
-![Intune console](../media/intune.png)
+![Intune console](../media/hi-res-Intune.png)
 
 By using Intune, you can:
 - Let your organization's employees use their personal devices to access organizational data (commonly known as "Bring Your Own Device (BYOD)").
