@@ -29,7 +29,7 @@ Microsoft Exchange Online Protection (EOP) is a cloud-based email filtering serv
 Microsoft Intune, a mobile device management component of Enterprise Mobility + Security (EMS), integrates closely with other EMS components like Azure Active Directory (Azure AD) for identity and access control and Azure Information Protection for data protection. When you use it with Office 365, you can help your users be productive on all their devices, while protecting your information.
 
 ## Office 365 Advanced Threat Protection
-Because email is a primary way malware gets into your organization, Advanced Threat Protection helps to identify threats before they land in a user’s mailbox. This feature, included in Microsoft 365 E5 subscriptions, provides protection by scanning email and URLs, identifying and clobkcing malicious files, and detecting when someone tries to impersonate one of your users to access your organization's data.
+Because email is a primary way malware gets into your organization, Advanced Threat Protection helps to identify threats before they land in a user’s mailbox. This feature, included in Microsoft 365 E5 subscriptions, provides protection by scanning email and URLs, identifying malicious files, and detecting when someone tries to impersonate one of your users to access your organization's data.
 
 ## Office 365 Threat Intelligence
 Office 365 Threat Intelligence is a collection of insights and information available in the Office 365 Security & Compliance Center. Office 365 Threat Intelligence monitors signals and gathers data from multiple sources, such as user activity, authentication, email, compromised PCs, and security incidents. You can use this information to understand and respond to threats against users and intellectual property.
