@@ -12,7 +12,7 @@ metadata:
 title: Microsoft 365 - Get modern with Windows 10 and Office 365 ProPlus
 summary: Learn how to move to a modern, secure workplace with Windows 10 and Office 365 ProPlus
 prerequisites: | 
- - Basic understanding of cloud computing. If you are unfamiliar with this, we recommend you take [Cloud Concepts - Principles of cloud computing](https://docs.microsoft.com/learn/modules/principles-cloud-computing/index)
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
 iconUrl: /learn/achievements/m365-fundamentals.svg
 levels: 
 - beginner
