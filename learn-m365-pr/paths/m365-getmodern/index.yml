@@ -26,8 +26,8 @@ modules:
 - learn-m365.directory-network-readiness
 - learn-m365.office-lob-apps
 - learn-m365.user-files-settings
-- learn-m365.modern-windows-office-servicing
 - learn-m365.get-modern-security-compliance
 - learn-m365.modern-os-deployment
+- learn-m365.modern-windows-office-servicing
 trophy: 
   uid: learn-m365.microsoft-365-get-modern.trophy
