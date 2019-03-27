@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.modern-device-app.3-device-app-readiness-process
+title: Device and app readiness process
+metadata:
+  title: Device and app readiness process
+  description: Learn about ...
+  msdate: 03/18/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 5
+content: |
+  [!include[](includes/3-device-app-readiness-process.md)]

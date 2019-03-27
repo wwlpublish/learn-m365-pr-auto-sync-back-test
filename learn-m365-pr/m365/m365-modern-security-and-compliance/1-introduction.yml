@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.get-modern-security-compliance.1-introduction
+title: Overcoming potential security-related deployment blockers
+metadata:
+  title: Overcoming potential security-related deployment blockers
+  description:  Learn about ...
+  msdate: 03/18/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 1
+content: |
+  [!include[](includes/1-introduction.md)]

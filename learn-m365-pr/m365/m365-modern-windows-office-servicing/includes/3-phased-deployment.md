@@ -1,0 +1,20 @@
+For any release, Microsoft recommends at least three deployment phases for IT: validation, piloting, and broad production deployment. Once the organization is leveraging Windows 10 and Office 365 ProPlus, monthly servicing provides critical security and quality updates to stay current while semi-annual servicing will provide new features.
+
+## Monthly Updates
+The servicing model is designed to give IT admins flexibility to choose to limit the roll-out of new features to twice per year, and if needed can even skip a semi-annual update and continue receiving quality and security updates. However it is important to keep in mind the cumulative nature of monthly updates means each will increase in size per month.
+
+Using a technology called "Express Updates" in Windows and **Binary Delta Compression** in Office, the download size can be reduced significantly. In both approaches, the update engines compare what’s on the PC and finds only the differentials needed to update what’s there. Windows Update for Business and Windows Server Update Services have supported express updates for a long time, but Microsoft has now extended that support to System Center Configuration Manager so that it can also use Express Updates. Binary Delta Compression in Office is only used when updating from the most recent version of Office 365 ProPlus-- so to use this approach clients need to be updating from the previous build and can’t skip updates. Windows and Office update channels can be managed via System Center Configuration Manager using the standard approval and targeting process. Additionally, IT admins can use policy settings in Office and Windows to enforce update channels used, as well as related settings.
+
+## Semi-Annual Updates
+In order to manage larger and semi-annual updates IT admins can leverage tooling such as policy settings with Windows Update for Business, software update management via System Center Configuration Manager, Windows Server Update Services (WSUS), or update policies set by Microsoft Intune. For organizations concerned about network bandwidth, Microsoft recommends options to reduce network traffic such as Delivery Optimization and other peer to peer caching technologies.
+
+As announced in September 2018, support timeline for semi-annual channel updates will use the following model:
+- All currently supported feature updates of Windows 10 Enterprise and Education, starting with version 1607, will be supported for 30 months from their original release date.
+- All future feature updates, starting with 1809, with a targeting September will be supported for 30 months from their release date.
+- Future feature updates targeting March and starting with 1903 will continue to be supported for 18 months from their release date.
+- Office 365 ProPlus semi-annual updates continue to be supported for 18 months
+
+## Upgrade Task Sequence
+Installing the larger feature updates via standard software update management routines is a supported option, but many organizations will opt to use an Upgrade Task Sequence with System Center Configuration Manager or the Microsoft Deployment Toolkit. A Task Sequence allows custom checks or tasks before installing the Feature Update and allows to perform custom tasks after the update installation itself has completed. Post-update tasks might include temporarily suspending services if needed during the update, driver installation and replacement, application upgrades or taskbar and Windows 10 Start personalization settings.
+
+For organizations already using task sequences to migrate Windows 7 machines to Windows 10 and are well-versed with those tools, this is a very similar experience. While a single task sequence can be used for the entire upgrade, it is quite common that organizations use two task sequences. One task sequence for making sure the machines are ready for the upgrade, that silently pre-stages all the required setup files on target computers, and one to do the actual upgrade. This approach ensures that your user productivity is less impacted.

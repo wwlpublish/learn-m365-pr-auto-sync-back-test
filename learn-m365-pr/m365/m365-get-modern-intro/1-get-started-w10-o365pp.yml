@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.get-modern-intro.1-get-started-w10-o365pp
+title: Getting started with Windows 10 and Office 365 ProPlus
+metadata:
+  title: Getting started with Windows 10 and Office 365 ProPlus
+  description:  Learn about ...
+  msdate: 03/18/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 1
+content: |
+  [!include[](includes/1-get-started-w10-o365pp.md)]

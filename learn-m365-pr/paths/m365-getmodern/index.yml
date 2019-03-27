@@ -1,0 +1,33 @@
+### YamlMime:LearningPath
+uid: learn-m365.microsoft-365-get-modern
+metadata:
+  title: Microsoft 365 - Get modern with Windows 10 and Office 365 ProPlus
+  description: Learn how to move to a modern, secure workplace with Windows 10 and Office 365 ProPlus
+  ms.date: 03/18/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+title: Microsoft 365 - Get modern with Windows 10 and Office 365 ProPlus
+summary: Learn how to move to a modern, secure workplace with Windows 10 and Office 365 ProPlus
+prerequisites: | 
+ - Basic understanding of cloud computing. If you are unfamiliar with this, we recommend you take [Cloud Concepts - Principles of cloud computing](https://docs.microsoft.com/learn/modules/principles-cloud-computing/index)
+iconUrl: /learn/achievements/m365-fundamentals.svg
+levels: 
+- beginner
+roles:
+- business-user
+products: 
+- m365
+modules:
+- learn-m365.get-modern-intro
+- learn-m365.modern-device-app
+- learn-m365.directory-network-readiness
+- learn-m365.office-lob-apps
+- learn-m365.user-files-settings
+- learn-m365.modern-windows-office-servicing
+- learn-m365.get-modern-security-compliance
+- learn-m365.modern-os-deployment
+trophy: 
+  uid: learn-m365.microsoft-365-fundamentals.trophy

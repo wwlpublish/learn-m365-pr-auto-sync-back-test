@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.office-lob-apps.1-introduction
+title: Introduction to Office and LOB app delivery
+metadata:
+  title: Introduction to Office and LOB app delivery
+  description: Learn how Click-to-Run packaging with Office 365 ProPlus provides new options to configure, deliver, and keep your Office apps up-to-date. Ensure your third-party and Line of Business apps are packaged and ready for automated installation.
+  msdate: 03/18/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 1
+content: |
+  [!include[](includes/1-introduction.md)]

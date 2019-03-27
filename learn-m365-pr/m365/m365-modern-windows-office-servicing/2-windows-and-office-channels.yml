@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.modern-windows-office-servicing.2-windows-and-office-channels
+title: Windows and Office channels
+metadata:
+  title: Windows and Office channels
+  description: Learn about ...
+  msdate: 03/18/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-windows-and-office-channels.md)]
