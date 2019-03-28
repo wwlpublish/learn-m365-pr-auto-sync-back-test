@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn-m365.office-lob-apps
 metadata:
-  title: Introduction and getting started with Get Modern – Windows 10 and Office 365 ProPlus
+  title: Delivering Office apps and line-of-business apps in Microsoft 365
   description: Learn how to collect and inventory of your devices and applications, prioritizing what you need to move forward by testing prioritized apps and devices, then remediating what’s most business critical to get ready for deployment. 
   ms.date: 03/18/2019
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Introduction and getting started with Get Modern – Windows 10 and Office 365 ProPlus
+title: Delivering Office apps and line-of-business apps in Microsoft 365
 summary: Learn how to collect and inventory of your devices and applications, prioritizing what you need to move forward by testing prioritized apps and devices, then remediating what’s most business critical to get ready for deployment. 
 abstract: |
   At the end of this module, you should be able to:
