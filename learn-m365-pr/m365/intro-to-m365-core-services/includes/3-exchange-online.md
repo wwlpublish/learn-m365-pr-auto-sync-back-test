@@ -14,11 +14,13 @@ Here are some features of Exchange Online:
 
 ## Compare Exchange Online to Exchange Server
 
-To determine whether Exchange Online is right for your organization, it's helpful to understand the differences between Exchange Online and an on-premises Exchange Server. Some of these differences are:
+To determine whether Exchange Online is right for your organization, it's helpful to understand the differences between Exchange Online and an on-premises Exchange Server. Some of these key differences are described in the following table:
 
-- **Unlimited storage**. Many on-premises deployments of Exchange Server place relatively low limits on mailbox sizes, such as one or two gigabytes (GB). Exchange Online supports larger mailboxes of 50 GB or larger depending on your plan.
-- **High availability**. For an on-premises Exchange Server, you need to purchase and configure hardware to store multiple mailbox copies and configure load balancing to achieve high availability. For true high availability, you also need an alternate datacenter. Exchange Online is automatically highly available with your data replicated to multiple datacenters.
-- **Backups**. With Exchange Server, you need to manage your own backups. Exchange Online doesn't have any built-in methods for configuring backups - it replicates data across multiple servers and datacenters, and you configure retention through single-item recovery and litigation hold.
-- **Automatic integration with other Office 365 features**. Exchange Online offers additional features such as Office 365 groups, which integrate multiple Office 365 features together. You can also view and edit Office email attachments.
-- **New features**. Exchange Online has many features that don't exist in an on-premises Exchange server. Some of these features may be integrated into on-premises Exchange server in the future, but they'll always appear first in Exchange Online.
-- **No access to Exchange Online databases or servers**. Unlike an on-premises Exchange server where you administer and manage Exchange servers and databases, Microsoft manages these items in Exchange Online for you.
+||**Exchange Server**|**Exchange Online**|
+|:--------|:-------|:-------|
+|**Storage**|Many on-premises Exchange organizations place relatively low limits on mailbox sizes, such as one or two gigabytes (GB). Bigger mailboxes require more hardware (servers and drives).|Exchange Online supports larger mailboxes of 50 GB or more depending on your plan.|
+|**High availability**|You need to purchase and configure hardware to store multiple mailbox copies and configure load balancing to achieve high availability. For true high availability, you also need an alternate datacenter.|Exchange Online is automatically highly available with your data replicated to multiple datacenters.|
+|**Backups**|You need to manage your own Exchange server backups, but you have complete control over them.|Exchange online replicates data across multiple servers and datacenters, and you configure retention through single-item recovery and litigation hold. There are no built-in methods for configuring backups.|
+|**Automatic integration with other Office 365 features**|n/a|Exchange Online offers additional features such as Office 365 groups, which integrate multiple Office 365 features together. You can also view and edit Office email attachments.|
+|**Access to new features**|Some new features from the cloud might eventually be added to Exchange Server, but they'll always appear first in Exchange Online.|You have access to many features that don't exist in an on-premises Exchange organization.|
+|**Access to mailbox databases and servers**|You have access to the Exchange servers and mailbox databases.|You have no access to the Exchange servers in the Microsoft datacenters. Microsoft manages the servers and mailbox databases in Exchange Online for you.|
