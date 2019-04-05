@@ -41,7 +41,7 @@ Use Intune to manage apps and mobile devices by “enrolling” devices. When yo
 - Software update management 
 - Device compliance
 
-**Azure Information Protection** encrypts documents and enforces policies on how they can be used. Document data is more protected because only authorized users can access the contents. 
+**Azure Information Protection** encrypts documents and enforces policies on how they can be used. Only authorized users can access the contents. 
 
 **Microsoft Advanced Threat Analytics** can: 
 - Detect suspicious activities and malicious attacks.
