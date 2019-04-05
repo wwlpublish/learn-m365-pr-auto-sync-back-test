@@ -3,7 +3,7 @@ uid: learn-m365.get-modern-intro.4-summary-and-knowledge-check
 title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
-  description: Review the basics of unified endpoint management in Microsoft 365.
+  description: Review the major changes from previous Office 365 and Windows 10 versions, and the eight deployment steps
   ms.date: 03/18/2019
   author: lizap
   ms.author: elizapo
@@ -16,14 +16,49 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Here's the first question?"
+    - content: "Windows 10 and Office 365 ProPlus updates with new features and security and bug fixes are delivered twice a year."
       choices:
-      - content: "Answer A"
+      - content: "True"
         isCorrect: false
-        explanation: "No, this is ..."
-      - content: "Answer B"
-        isCorrect: false
-        explanation: "No, this is ..."
-      - content: "Answer C"
+        explanation: "No, Windows 10 and Office 365 ProPlus updates with new features are delivered twice a year but security and reliability updates and bug fixes are delivered monthly."
+      - content: "False"
         isCorrect: true
-        explanation: "Yes, this is ..."
+        explanation: "Yes, this is false because Windows 10 and Office 365 ProPlus updates with new features are delivered twice a year but security and reliability updates and bug fixes are delivered monthly."
+
+    - content: "The new Identity and Access Management service at the core of Windows 10 and Office 365 ProPlus is:"
+      choices:
+      - content: "Azure Information Protection"
+        isCorrect: false
+        explanation: "No, the correct answer is Azure Active Directory"
+      - content: "Azure Active Directory"
+        isCorrect: true
+        explanation: "Yes, the correct answer is Azure Active Directory"
+      - content: "Microsoft Intune"
+        isCorrect: false
+        explanation: "No, the correct answer is Azure Active Directory"
+      - content: "Unified Endpoint Management"
+        isCorrect: false
+        explanation: "No, the correct answer is Azure Active Directory"
+      - content: "Azure Multi-Factor Authentication"
+        isCorrect: false
+        explanation: "No, the correct answer is Azure Active Directory"
+
+    - content: "Which of the following technologies is NOT available for installation of Office 365 or Office 2019?"
+      choices:
+      - content: "Click-to-Run"
+        isCorrect: false
+        explanation: "No, Click-to-Run is available as an installation option"
+      - content: "MSIX"
+        isCorrect: false
+        explanation: "No, MSIX is available as an installation option"
+      - content: "MSI"
+        isCorrect: false
+        explanation: "No, MSI is available as an installation option"
+      - content: "Auto Install"
+        isCorrect: true
+        explanation: "Yes, Auto Install is NOT available as an installation option"
+      - content: "UWP"
+        isCorrect: false
+        explanation: "No, UWP is available as an installation option"
+
+        
