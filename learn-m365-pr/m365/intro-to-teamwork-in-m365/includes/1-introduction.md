@@ -1,10 +1,6 @@
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RWtSX2]
 
-No two teams look exactly alike. The nature of teamwork continues to evolve as teams of various shapes and sizes come together for short-term and long-term projects.
-
-Microsoft 365 give your teams the right tools at the right time for the right task, along with common services to help you work fluidly across applications. 
-
-The teamwork products benefit from the same enterprise-level security, compliance, and manageability as the rest of Microsoft 365.
+Teams accomplish their goals in varying and complex ways. An no two teams have the same needs. Microsoft 365 gives your teams the right tools to enable effective and secure teamwork in any situation. Coupled with common services these tools help you work fluidly across applications with the same enterprise-level security, compliance, and manageability as the rest of Microsoft 365.
 
 ![Microsoft 365 universal toolkit for Teamwork](../media/universal-toolkit.png)
 *The Microsoft 365 tools that support teamwork*

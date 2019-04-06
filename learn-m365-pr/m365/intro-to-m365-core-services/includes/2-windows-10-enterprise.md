@@ -15,8 +15,8 @@ Deploy, manage, and update devices anywhere your employees need to work. Windows
 ## Simplified updates 
 Maximize security and productivity by staying current with Windows 10. The way we update Windows has changed, moving away from major upgrades every few years to feature updates twice per year. Windows 10 provides modern tools and insights needed to support the semi-annual release cadence, with application compatibility you can trust. 99% of applications that run on Windows 7 will run on Windows 10. You can plan OS upgrades with confidence using telemetry-based analytics from Windows Analytics. Windows 10 provides the flexibility and control to manage and distribute updates using your current method or by leveraging Microsoft’s infrastructure. With every release, Windows updates become smaller and easier to distribute so that they're less disruptive to your organization. 
 
-## Work smarter
+## Improve productivity
 Windows 10 helps improve productivity by providing faster, safer ways to get work done, across all your users' devices. Users can find apps, settings, documents, and messages by using enterprise search and Cortana, and use Timeline to see a chronological view of their activities and documents. WIndows 10 also supports collaboration through Office 365 apps, Microsoft Whiteboard, and OneNote.
 
-## Empower workstyles
-With Windows 10 your users can work from the devices and places and ways that work best for them. Windows 10 has hardware options ranging from the Surface Hub to the new always-connected PCs, to support users wherever they need or prefer to work. Users can move from one device to another with Continue on PC in Microsoft Edge or take notes directly on a web page with Microsoft Ink. Windows 10 also comes with a robust set of accessibility features, such as narrator, word prediction, and eye control. 
+## Support Flexible workstyles
+ Windows 10 has hardware options ranging from the Surface Hub to the new always-connected PCs. These options support users wherever they need or prefer to work. Users can move from one device to another with Continue on PC in Microsoft Edge or take notes directly on a web page with Microsoft Ink. Windows 10 also comes with a robust set of accessibility features, such as narrator, word prediction, and eye control. 
