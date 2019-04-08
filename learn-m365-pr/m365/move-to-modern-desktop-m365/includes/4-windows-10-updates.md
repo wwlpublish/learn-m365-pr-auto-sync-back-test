@@ -1,4 +1,4 @@
-In the past, you could expect to update your Windows PCs every two to three years - typically when the next major version of Windows was released. Between those updates, you might have deployed service packs for known issues or security updates. With Windows 10, your update schedule is now dramatically reduced - from years between updates to just months. Windows 10 operates as a service, meaning updates become smaller and more frequent maintenance tasks, instead of large and disruptive systematic projects. 
+In the past, you could expect to update your Windows PCs every two to three years - typically when the next major version of Windows was released. Between those updates, you might have deployed service packs for known issues or security updates. With Windows 10, your update schedule is now dramatically reduced - from years between updates to just months. Windows 10 operates as a service, meaning updates become smaller and more frequent maintenance tasks, instead of large and disruptive projects. 
 
 Let’s discuss the different types of updates and how best to deploy them in your organization, based on your specific needs. 
 
