@@ -12,7 +12,7 @@ That's why Microsoft has developed different services that specialize in protect
 
 *Microsoft Threat Protection covers these five areas*
 
-The following solutions, included in Microsoft 365, help you deal with threats to your users, devices, and data.
+Let's take a closer look at some of the main Threat Protection services included in Microsoft 365.
 
 ## Azure Active Directory Identity Protection 
 Azure Active Directory uses adaptive machine learning algorithms and heuristics to detect anomalies and suspicious incidents that indicate potentially compromised identities. Using this data, Identity Protection generates reports and alerts so you can evaluate issues and take action.
@@ -46,4 +46,8 @@ Office 365 Threat Intelligence is a collection of insights and information avail
 Windows Defender Advanced Threat Protection (ATP) helps you prevent, detect, investigate, and respond to advanced threats. Windows Defender ATP uses technologies built into Windows 10 that connect to Microsoft's cloud services. Endpoint behavior sensors collect data and send it to cloud security analytics, Microsoft optics that use big data and machine learning to turn behavioral data into insights, detections, and recommended responses. ATP also leverages threat intelligence collected from Microsoft hunters, security teams, and partners to identity and understand attacker tools and generate alerts when it detects them in data from the endpoint sensors.
 
 ## Windows 10
-Windows 10 includes built-in security protections to help safeguard against viruses, phishing, and malware. Features like BitLocker and credential guard help protect the integrity of the boot process and user credentials, while Windows Hello uses biometric authentication (fingerprints and facial recogniition) to guard against potential spoofing. Windows Information Protection (WIP) helps protect enterprise apps and data against accidental data leaks on both enterprise-owned and personal devices.
+Windows 10 includes built-in security protections to help safeguard against viruses, phishing, and malware. 
+
+- **BitLocker and credential guard** help protect the integrity of the boot process and user credentials.
+- **Windows Hello** uses biometric authentication (fingerprints and facial recognition) to guard against potential spoofing. 
+- **Windows Information Protection (WIP)** helps protect enterprise apps and data against accidental data leaks on both enterprise-owned and personal devices.
