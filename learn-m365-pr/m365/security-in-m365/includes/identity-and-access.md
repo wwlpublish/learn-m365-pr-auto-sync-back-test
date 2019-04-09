@@ -1,4 +1,5 @@
-The first security pillar, identity & access management, is one of the most important. Microsoft 365 helps you identify who is accessing your resources and control exactly what they can access. 
+The first security pillar, identity & access management, is the bedrock that a secure digital estate is built on. The credentials that you issue to your users identify them to Microsoft 365 and when combined with strong authentication methods, like multi-factor authentication, they can be taken as proof positive that the person using them is who they claim to be. Once their identity is established (called authentication) the user is permitted access (called authorization) to the resources that you have previously granted them permissions to.
+
 
 ## Secure authentication
 Helping secure your users helps protect against breaches. And one important area is the quality of user passwords. Passwords are problematic. Users are expected to remember complex passwords for a variety of different accounts, both personal and for work. Issues with passwords include:
