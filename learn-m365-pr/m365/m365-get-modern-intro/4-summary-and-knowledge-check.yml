@@ -47,18 +47,18 @@ quiz:
       choices:
       - content: "Click-to-Run"
         isCorrect: false
-        explanation: "No, Click-to-Run is available as an installation option"
+        explanation: "No, Auto Install is the technology that is NOT available as an installation option."
       - content: "MSIX"
         isCorrect: false
-        explanation: "No, MSIX is available as an installation option"
+        explanation: "No, Auto Install is the technology that is NOT available as an installation option."
       - content: "MSI"
         isCorrect: false
-        explanation: "No, MSI is available as an installation option"
+        explanation: "No, Auto Install is the technology that is NOT available as an installation option."
       - content: "Auto Install"
         isCorrect: true
-        explanation: "Yes, Auto Install is NOT available as an installation option"
+        explanation: "Correct, Auto Install is the technology that is NOT available as an installation option."
       - content: "UWP"
         isCorrect: false
-        explanation: "No, UWP is available as an installation option"
+        explanation: "No, Auto Install is the technology that is NOT available as an installation option."
 
         

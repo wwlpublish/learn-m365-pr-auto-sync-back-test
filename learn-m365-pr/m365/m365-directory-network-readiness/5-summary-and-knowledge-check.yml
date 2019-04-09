@@ -3,7 +3,7 @@ uid: learn-m365.directory-network-readiness.5-summary-and-knowledge-check
 title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
-  description: Review the basics of ...
+  description: Learn how new tools and deployment options reduce and streamline network traffic.
   ms.date: 03/18/2019
   author: lizap
   ms.author: elizapo
@@ -16,14 +16,50 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Here's the first question?"
+    - content: "Organizations already using Office 365 services will have to re-deploy Azure Active Directory when upgrading to Office 365 ProPlus."
       choices:
-      - content: "Answer A"
+      - content: "True"
+        isCorrect: false
+        explanation: "No, this is not true"
+      - content: "False"
+        isCorrect: true
+        explanation: "No, organizations already using Office 365 services will NOT have to re-deploy Azure AD when upgrading."
+      
+    - content: "Bandwidth requirements for an initial migration of Office 365 ProPlus can exceed:"
+      choices:
+      - content: "20GB"
+        isCorrect: true
+        explanation: "Yes, bandwidths may exceed 20 GB."
+      - content: "20Gb"
         isCorrect: false
         explanation: "No, this is ..."
-      - content: "Answer B"
+      - content: "20MB"
         isCorrect: false
         explanation: "No, this is ..."
-      - content: "Answer C"
+      - content: "1GB"
+        isCorrect: false
+        explanation: "No, this is ..."
+      - content: "3GB"
+        isCorrect: false
+        explanation: "No, this is ..."
+      - content: "6GB"
+        isCorrect: false
+        explanation: "No, this is ..."
+
+    - content: "Which of the following is NOT a tool for managing bandwidth for installation of Office 365?"
+      choices:
+      - content: "Background Intelligent Transfer Service (BITS) "
+        isCorrect: false
+        explanation: "No, this is ..."
+      - content: "Low Extra Delay Background Transport (LEDBAT)"
+        isCorrect: false
+        explanation: "No, this is ..."
+      - content: "UWP  Apps"
         isCorrect: true
         explanation: "Yes, this is ..."
+      - content: "BranchCache"
+        isCorrect: false
+        explanation: "No, this is ..."
+      - content: "Peer Cache"
+        isCorrect: false
+        explanation: "No, this is ..."

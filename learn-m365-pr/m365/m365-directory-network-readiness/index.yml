@@ -2,19 +2,20 @@
 uid: learn-m365.directory-network-readiness
 metadata:
   title: Directory and network readiness in Microsoft 365
-  description: Learn how to collect and inventory of your devices and applications, prioritizing what you need to move forward by testing prioritized apps and devices, then remediating what’s most business critical to get ready for deployment. 
+  description: Learn how new tools and deployment options reduce and streamline network traffic. 
   ms.date: 03/18/2019
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Directory and network readiness in Microsoft 365
-summary: Learn how to collect and inventory of your devices and applications, prioritizing what you need to move forward by testing prioritized apps and devices, then remediating what’s most business critical to get ready for deployment. 
+summary: Learn how new tools and deployment options reduce and streamline network traffic. 
 abstract: |
   At the end of this module, you should be able to:
-  - Do the thing 
-  - Do the thing 
-  - Do the thing 
+  - Describe the directory and network readiness requirements for deploying Office 365 ProPlus 
+  - Explain the role of Azure Active Directory in Microsoft 365 
+  - Explain the steps in planning for bandwidth considerations and requirements
+  - •	Describe the bandwidth impact of Microsoft 365 and list the tools for minimizing the impact
 prerequisites: None
 iconUrl: /learn/achievements/intro-to-m365-unified-endpoint-mgmt.svg
 ratingEnabled: true
