@@ -1,4 +1,4 @@
-Enterprise Mobility + Security (EMS) helps you solve the challenge of mobile devices in a work environment. EMS is an intelligent mobility management and security platform that helps protect and secure your organization and empowers your employees to work in new and flexible ways. EMS is a suite of products included in your Microsoft 365 Enterprise subscription. Learn how these products help manage devices in your organization.
+Microsoft Enterprise Mobility + Security (EMS) helps you solve the challenge of mobile devices in a work environment. EMS is an intelligent mobility management and security platform that helps protect and secure your organization and empowers your employees to work in new and flexible ways. EMS is a suite of products included in your Microsoft 365 Enterprise subscription. Learn how these products help manage devices in your organization.
 
 EMS is provided as part of Microsoft 365 E3 and E5 plans, as summarized in the table below. 
 
