@@ -3,7 +3,7 @@ uid: learn-m365.modern-windows-office-servicing.4-summary-and-knowledge-check
 title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
-  description: Review ...
+  description: Review how to stay current with updates and learn about the new servicing model.
   ms.date: 03/18/2019
   author: lizap
   ms.author: elizapo
@@ -16,14 +16,59 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Here's the first question?"
+    - content: "Which of the following is NOT true of the new Windows and Office update model?"
       choices:
-      - content: "Answer A"
+      - content: "The new update frequency keeps user experience and security protections current."
         isCorrect: false
-        explanation: "No, this is ..."
-      - content: "Answer B"
+        explanation: "No. The new Windows and Office update model does not deploy updates automatically without relying on user intervention."
+      - content: "Cumulative updates reduce the number of updates users need to deploy."
         isCorrect: false
-        explanation: "No, this is ..."
-      - content: "Answer C"
+        explanation: "No. The new Windows and Office update model does not deploy updates automatically without relying on user intervention."
+      - content: "Updates are deployed automatically without relying on user intervention."
         isCorrect: true
-        explanation: "Yes, this is ..."
+        explanation: "Correct. The new Windows and Office update model does not deploy updates automatically without relying on user intervention."
+      - content: "Microsoft gathers diagnostic data and feedback prior to releasing updates broadly which results in fewer bugs."
+        isCorrect: false
+        explanation: "No. The new Windows and Office update model does not deploy updates automatically without relying on user intervention."
+
+    - content: "All three Windows 10 servicing channels require updates to be deployed immediately upon release."
+      choices:
+      - content: "True"
+        isCorrect: false
+        explanation: "Incorrect. Both the Semi-Annual and Long-Term Service Channels allow for updates to be deferred."
+      - content: "False"
+        isCorrect: true
+        explanation: "Correct. Both the Semi-Annual and Long-Term Service Channels allow for updates to be deferred."
+  
+    - content: "Which of the following is the default channel for Office 365 ProPlus updates?"
+      choices:
+      - content: "Office Insider Program"
+        isCorrect: false
+        explanation: "No. The Semi-Annual Channel is the default channel for Office 365 ProPlus updates."
+      - content: "Monthly Channel"
+        isCorrect: false
+        explanation: "No. The Semi-Annual Channel is the default channel for Office 365 ProPlus updates."
+      - content: "Semi-Annual Channel (Targeted)"
+        isCorrect: false
+        explanation: "No. The Semi-Annual Channel is the default channel for Office 365 ProPlus updates."
+      - content: "Semi-Annual Channel"
+        isCorrect: true
+        explanation: "Correct. The Semi-Annual Channel is the default channel for Office 365 ProPlus updates."
+
+    - content: "The Semi-Annual Channel (Targeted) is meant for testing only and the version of Office 365 ProPlus is not supported."
+      choices:
+      - content: "True"
+        isCorrect: false
+        explanation: "Incorrect. All released versions of Office 365 ProPlus are supported."
+      - content: "False"
+        isCorrect: true
+        explanation: "Correct. All released versions of Office 365 ProPlus are supported."
+
+    - content: "Microsoft uses a tool called Express Updates to reduce Windows and Office 365 ProPlus download size significantly by uploading only the differential from the current status."
+      choices:
+      - content: "True"
+        isCorrect: false
+        explanation: "Incorrect. Express Updates is the tool used in Windows and Binary Delta Compression is the tool used in Office."
+      - content: "False"
+        isCorrect: true
+        explanation: "Correct. Express Updates is the tool used in Windows and Binary Delta Compression is the tool used in Office."

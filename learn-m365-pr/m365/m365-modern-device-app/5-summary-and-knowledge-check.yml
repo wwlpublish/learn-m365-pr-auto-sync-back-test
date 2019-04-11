@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.directory-network-readiness.5-summary-and-knowledge-check
+uid: learn-m365.modern-device-app.5-summary-and-knowledge-check
 title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
-  description: Learn to inventory your devices and applications, prioritize them, and remediate what's most business critical.
+  description: Review collecting and inventorying your devices and applications
   ms.date: 03/18/2019
   author: lizap
   ms.author: elizapo
@@ -16,50 +16,45 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Organizations already using Office 365 services will have to re-deploy Azure Active Directory when upgrading to Office 365 ProPlus."
+    - content: "Any COM add-ins and VBA macros your organization used on versions of Office dating back to Office 2010 will continue to work on the latest versions of Office without modification."
+      choices:
+      - content: "Answer A"
+        isCorrect: true
+        explanation: "Yes, this is true. Office COM add-ins and VBA macros are backwards-compatible to Office 2010"
+      - content: "Answer B"
+        isCorrect: false
+        explanation: "No, this statement is true."
+      
+    - content: "Microsoft readiness assessment tools include all these EXCEPT:"
+      choices:
+      - content: "Windows 10 Compatibility scan"
+        isCorrect: false
+        explanation: "No, Windows 10 Compatibility scan is a readiness assessment tool."
+      - content: "Desktop App Assure "
+        isCorrect: true
+        explanation: "Yes, Desktop App Assure is NOT one of the readiness assessment tools."
+      - content: "Readiness Toolkit for Office"
+        isCorrect: false
+        explanation: "No, Readiness Toolkit for Office is one of the readiness assessment tools."
+      - content: "Windows Analytics Upgrade Readiness"
+        isCorrect: false
+        explanation: "No, Windows Analytics Upgrade Readiness is one of the readiness assessment tools."
+
+    - content: "Device and app readiness is comprised of four steps: 1) Take an inventory, 2) Plan your resources, 3) Test updates for compatibility issues, 4) Remediate issues."
       choices:
       - content: "True"
         isCorrect: false
-        explanation: "No, this is not true"
+        explanation: "No, the second step is Prioritize apps and hardware."
       - content: "False"
         isCorrect: true
-        explanation: "Correct, organizations already using Office 365 services will NOT have to re-deploy Azure AD when upgrading."
-      
-    - content: "Bandwidth requirements for an initial migration of Office 365 ProPlus can exceed:"
+        explanation: "This is false because the second step is Prioritize apps and hardware."
+    
+    - content: "Windows Analytics Upgrade Readiness service uses an agent-less process to inventory the computers, applications, and Office add-ins across your desktop estate but not browser compatibility."
       choices:
-      - content: "20GB"
+      - content: "True"
+        isCorrect: false
+        explanation: "No, Windows Analytics Upgrade Readiness service also addresses browser compatibility issues."
+      - content: "False"
         isCorrect: true
-        explanation: "Yes, bandwidth requirements may exceed 20 GB."
-      - content: "20Gb"
-        isCorrect: false
-        explanation: "No, bandwidth requirements may exceed 20 GB, not 20Gb."
-      - content: "20MB"
-        isCorrect: false
-        explanation: "No, bandwidth requirements may exceed 20 GB, not 20MB."
-      - content: "1GB"
-        isCorrect: false
-        explanation: "No, "No, bandwidth requirements may exceed 20 GB, not 1GB."
-      - content: "3GB"
-        isCorrect: false
-        explanation: "No, bandwidth requirements may exceed 20 GB, not 3GB."
-      - content: "6GB"
-        isCorrect: false
-        explanation: "No, bandwidth requirements may exceed 20 GB, not 6GB."
-
-    - content: "Which of the following is NOT a tool for managing bandwidth for installation of Office 365?"
-      choices:
-      - content: "Background Intelligent Transfer Service (BITS) "
-        isCorrect: false
-        explanation: "No, UWP Apps is NOT a tool for managing bandwidth for installation of Office 365."
-      - content: "Low Extra Delay Background Transport (LEDBAT)"
-        isCorrect: false
-        explanation: "No, UWP Apps is NOT a tool for managing bandwidth for installation of Office 365."
-      - content: "UWP Apps"
-        isCorrect: true
-        explanation: "Correct, UWP Apps is NOT a tool for managing bandwidth for installation of Office 365."
-      - content: "BranchCache"
-        isCorrect: false
-        explanation: "No, UWP Apps is NOT a tool for managing bandwidth for installation of Office 365."
-      - content: "Peer Cache"
-        isCorrect: false
-        explanation: "No, UWP Apps is NOT a tool for managing bandwidth for installation of Office 365."
+        explanation: "Windows Analytics Upgrade Readiness service also addresses browser compatibility issues.."
+        
