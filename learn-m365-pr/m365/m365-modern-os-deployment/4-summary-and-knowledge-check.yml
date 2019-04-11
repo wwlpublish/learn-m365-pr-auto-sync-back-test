@@ -52,24 +52,23 @@ quiz:
     - content: "What function does Windows Autopilot NOT allow IT admins to do?
       choices:
       - content: "Automatically join devices to Azure Active Directory"
-        isCorrect:false
-        explanation:"No. Windows Autopilot does NOT allow IT admins to reinstall user files and settings."
-      - content:"Auto-enroll devices into MDM services, such as Microsoft Intune"
-        isCorrect:false
-        explanation:"No. Windows Autopilot does NOT allow IT admins to reinstall user files and settings."
-      - content:"Restrict the administrator account creation"
-        isCorrect:false
-        explanation:"No. Windows Autopilot does NOT allow IT admins to reinstall user files and settings."
-      - content:"Create and auto-assign devices to configuration groups based on a device's profile"
-        isCorrect:false
-        explanation:"No. Windows Autopilot does NOT allow IT admins to reinstall user files and settings."
-      - content:"Reinstall user files and settings"
-        isCorrect:true
-        explanation:"Correct. Windows Autopilot does NOT allow IT admins to reinstall user files and settings."
-      - content:"Customize OOBE content specific to the organization"
-        isCorrect:false
-        explanation:""No. Windows Autopilot does NOT allow IT admins to reinstall user files and settings."
-
+        isCorrect: false
+        explanation: "No. Windows Autopilot does NOT allow IT admins to reinstall user files and settings."
+      - content: "Auto-enroll devices into MDM services, such as Microsoft Intune"
+        isCorrect: false
+        explanation: "No. Windows Autopilot does NOT allow IT admins to reinstall user files and settings."
+      - content: "Restrict the administrator account creation"
+        isCorrect: false
+        explanation: "No. Windows Autopilot does NOT allow IT admins to reinstall user files and settings."
+      - content: "Create and auto-assign devices to configuration groups based on a device's profile"
+        isCorrect: false
+        explanation: "No. Windows Autopilot does NOT allow IT admins to reinstall user files and settings."
+      - content: "Reinstall user files and settings"
+        isCorrect: true
+        explanation: "Correct. Windows Autopilot does NOT allow IT admins to reinstall user files and settings."
+      - content: "Customize OOBE content specific to the organization"
+        isCorrect: false
+        explanation: "No. Windows Autopilot does NOT allow IT admins to reinstall user files and settings."
     - content: "Windows Update for Business allows users to keep Windows 10 devices automatically up-to-date by connecting to the Windows Update service."
       choices:
       - content: "True"
