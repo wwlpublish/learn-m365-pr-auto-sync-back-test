@@ -1,10 +1,18 @@
-Microsoft Threat Protection helps protect users, identities, devices, user data, apps, and your infrastructure.
+Digital estates are growing more complex. They include devices, data, networks, apps and identities, some of which your organization may own, some not. With this growth, the attack surface has expanded to the point where no single service can comprehensively:
+
+- protect an organization from attack
+- rapidly detect malicious activity
+- effectively respond to and remediate threats across the digital estate. 
+
+That's why Microsoft has developed different services that specialize in protecting against various threat vectors such as endpoints, networks, email, and business critical data. These services integrate via the Microsoft Intelligent Security Graph. The Graph uses advanced analytics to link a massive amount of threat intelligence and security data to power real-time threat protection in Microsoft 365.
+
+
 
 ![Microsoft Threat Protection](../media/protection-services.png)
 
 *Microsoft Threat Protection covers these five areas*
 
-The following solutions, included in Microsoft 365, help you deal with threats to your users, devices, and data.
+Let's take a closer look at some of the main Threat Protection services included in Microsoft 365.
 
 ## Azure Active Directory Identity Protection 
 Azure Active Directory uses adaptive machine learning algorithms and heuristics to detect anomalies and suspicious incidents that indicate potentially compromised identities. Using this data, Identity Protection generates reports and alerts so you can evaluate issues and take action.
@@ -38,4 +46,8 @@ Office 365 Threat Intelligence is a collection of insights and information avail
 Windows Defender Advanced Threat Protection (ATP) helps you prevent, detect, investigate, and respond to advanced threats. Windows Defender ATP uses technologies built into Windows 10 that connect to Microsoft's cloud services. Endpoint behavior sensors collect data and send it to cloud security analytics, Microsoft optics that use big data and machine learning to turn behavioral data into insights, detections, and recommended responses. ATP also leverages threat intelligence collected from Microsoft hunters, security teams, and partners to identity and understand attacker tools and generate alerts when it detects them in data from the endpoint sensors.
 
 ## Windows 10
-Windows 10 includes built-in security protections to help safeguard against viruses, phishing, and malware. Features like BitLocker and credential guard help protect the integrity of the boot process and user credentials, while Windows Hello uses biometric authentication (fingerprints and facial recogniition) to guard against potential spoofing. Windows Information Protection (WIP) helps protect enterprise apps and data against accidental data leaks on both enterprise-owned and personal devices.
+Windows 10 includes built-in security protections to help safeguard against viruses, phishing, and malware. 
+
+- **BitLocker and credential guard** help protect the integrity of the boot process and user credentials.
+- **Windows Hello** uses biometric authentication (fingerprints and facial recognition) to guard against potential spoofing. 
+- **Windows Information Protection (WIP)** helps protect enterprise apps and data against accidental data leaks on both enterprise-owned and personal devices.
