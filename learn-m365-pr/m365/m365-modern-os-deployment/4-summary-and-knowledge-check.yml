@@ -30,7 +30,6 @@ quiz:
       - content: "Computer reimage"
         isCorrect: false
         explanation: "No. Reimaging a computer where you don't intend to keep any of the data on the disk is called bare metal deployment."
-
     - content: "In-place upgrades allow you to upgrade from legacy versions of Windows as well as update existing images."
       choices:
       - content: "True"
@@ -39,7 +38,6 @@ quiz:
       - content: "False"
         isCorrect: true
         explanation: "Correct. In-place upgrades cannot be used to update existing images."
-
     - content: "Windows Autopilot can be used for bare metal deployments as well as computer refreshes and replacements."
       choices:
       - content: "True"
@@ -48,7 +46,6 @@ quiz:
       - content: "False"
         isCorrect: true
         explanation: "Correct. Windows Autopilot can only be used on new PCs."
-
     - content: "What function does Windows Autopilot NOT allow IT admins to do?
       choices:
       - content: "Automatically join devices to Azure Active Directory"
