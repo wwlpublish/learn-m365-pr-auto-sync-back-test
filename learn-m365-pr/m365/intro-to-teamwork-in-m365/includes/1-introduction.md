@@ -13,5 +13,5 @@ You can store your content in the cloud with **SharePoint** and **OneDrive for B
 
 **Yammer** is a community conversation tool designed to help encourage open dialogue, idea generation, and connections across the company. Yammer lets you create communities of interest and forums that bring people together, improve transparency, and give everyone a voice. You can even grant external access to partners and customers as needed.
 
-Microsoft 365 is built on an intelligent fabric that keeps it all connected and secured no matter what app or service you are working in as a team. **Microsoft Graph** provides a seamless connection between people and relevant content. **Office 365 Groups** enable a single team identity across apps and services and **centralized policy management** enhances security and compliance. 
+The teamwork tools in Microsoft 365 are built on an intelligent fabric that keeps it all connected and secured no matter what app or service you are working in as a team. **Microsoft Graph** provides a seamless connection between people and relevant content. **Office 365 Groups** enable a single team identity across apps and services and **centralized policy management** enhances security and compliance. 
 
