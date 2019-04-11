@@ -3,7 +3,7 @@ uid: learn-m365.modern-os-deployment.4-summary-and-knowledge-check
 title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
-  description: Review task sequence-based deployment or Windows Autopilot to help automate large scale phased deployments.
+  description: Learn about task sequence-based deployment or Windows Autopilot to help automate large scale phased deployments.
   ms.date: 03/18/2019
   author: lizap
   ms.author: elizapo
