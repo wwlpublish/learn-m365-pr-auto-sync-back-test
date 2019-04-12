@@ -38,7 +38,7 @@ quiz:
       - content: "False"
         isCorrect: false
         explanation: "Incorrect. Both System Center Configuration Manager and the Microsoft Deployment Toolkit (MDT) make use of the User State Migration Tool (USMT) as part of their end-to-end deployment process."
-    - content:"OneDrive Known Folder Move works for transferring both OneDrive and SharePoint user files."
+    - content: "OneDrive Known Folder Move works for transferring both OneDrive and SharePoint user files."
       choices:
       - content: "True"
         isCorrect: true
