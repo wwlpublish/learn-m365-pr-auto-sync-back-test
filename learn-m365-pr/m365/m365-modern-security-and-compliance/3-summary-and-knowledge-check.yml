@@ -30,8 +30,7 @@ quiz:
       - content: "Security policies"
         isCorrect: false
  	      explanation: "No. Identity and access management is not a common security-related problem that interrupts Microsoft 365 deployments."
-
-    - content:"Windows Hello can be configured to rely on the device itself, your PIN, or a unique b iometric identifier such as your face or fingerprint which can be enforced via policy."
+    - content: "Windows Hello can be configured to rely on the device itself, your PIN, or a unique b iometric identifier such as your face or fingerprint which can be enforced via policy."
       choices:
       - content: "True"
         isCorrect: true
@@ -39,12 +38,11 @@ quiz:
       - content: "False"
         isCorrect: false
         explanation: "Incorrect. Windows Hello can be configured to rely on the device itself, your PIN, or a unique biometric identifier such as your face or fingerprint which can be enforced via policy."
-
     - content: "Which of the following is NOT a new security capability of Microsoft 365?"
       choices:
       - content: "Identity and access management"
         isCorrect: false
-        explanation:"No. Security policies are not a new security capability of Microsoft 365."
+        explanation: "No. Security policies are not a new security capability of Microsoft 365."
       - content: "Virtualization-based security"
         isCorrect: false
         explanation: "No. Security policies are not a new security capability of Microsoft 365."
@@ -57,7 +55,6 @@ quiz:
       - content: "Microsoft InTune"
         isCorrect: false
  	      explanation: "No. Security policies are not a new security capability of Microsoft 365."
-
     - content: "Which of the following is NOT a new Cloud services security enhancement of Microsoft 365?"
       choices:
       - content: "Data Loss Prevention"

@@ -46,7 +46,7 @@ quiz:
       - content: "False"
         isCorrect: true
         explanation: "Correct. Windows Autopilot can only be used on new PCs."
-    - content: "What function does Windows Autopilot NOT allow IT admins to do?
+    - content: "What function does Windows Autopilot NOT allow IT admins to do?"
       choices:
       - content: "Automatically join devices to Azure Active Directory"
         isCorrect: false

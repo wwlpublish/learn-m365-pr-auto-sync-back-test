@@ -24,8 +24,6 @@ quiz:
       - content: "False"
         isCorrect: true
         explanation: "Correct. Office 365 ProPlus is available in both 32-bit and 64-bit versions but it does matter which version you install."
-
-
     - content: "Click-to-Run is replacing which previous installation tool:"
       choices:
       - content: "MSIX"
@@ -43,8 +41,6 @@ quiz:
       - content: "Office Deployment Tool"
         isCorrect: false
         explanation: "No, Click-to-Run replaces MSI as the installation tool."
-
-
     - content: "If a user is not appropriately licensed or has their license removed, Office apps will still function but will go into reduced functionality mode."
       choices:
       - content: "True"
@@ -53,12 +49,10 @@ quiz:
       - content: "False"
         isCorrect: false
         explanation: "Incorrect. If a user is not appropriately licensed or has their license removed, Office apps will still function but will go into reduced functionality mode."
-
-
     - content: "Which of the following is NOT true for Office 365 ProPlus?"
       choices:
       - content: "Users need to connect to the internet at least once every 30 days to verify their subscription status."
-        isCorrect:false
+        isCorrect: false
         explanation: "No, Office 365 ProPlus leverages Click-to-Run software updates from the Office Content Delivery Network (CDN), not Windows Server Update Services (WSUS)."
       - content: "Office 365 ProPlus leverages Click-to-Run software updates from the Windows Server Update Services (WSUS)."
         isCorrect: true
@@ -72,8 +66,6 @@ quiz:
       - content: "Office 365 ProPlus uses subscription-based activation that leverages the Office Licensing Service, and allows users to activate on up to five different computers with a single Office 365 license."
         isCorrect: false
         explanation: "No, Office 365 ProPlus leverages Click-to-Run software updates from the Office Content Delivery Network (CDN), not Windows Server Update Services (WSUS)."
-
-
     - content: "You need both the Office Deployment Tool and the Office Customization Tool to install and customize Office 365 ProPlus."
       choices:
       - content: "True"
@@ -82,8 +74,6 @@ quiz:
       - content: "False"
         isCorrect: false
         explanation: "Incorrect. You need both the Office Deployment Tool and the Office Customization Tool to install and customize Office 365 ProPlus."
-
-
     - content: "Using RemoveMSI to remove previous versions of Office removes all settings, preferences, and documents as well."
       choices:
       - content: "True"
@@ -92,8 +82,6 @@ quiz:
       - content: "False"
         isCorrect: true
         explanation: "Correct. User settings, preferences, and documents are retained even if all Office products are uninstalled."
-
-
     - content: "Which of the following tools do NOT work with MSI-based packages for Line of Business app delivery?"
       choices:
       - content: "MSIX"
@@ -108,27 +96,26 @@ quiz:
       - content: "Microsoft InTune"
         isCorrect: false
  	      explanation: "No, MSIX does not work with MSI-based packages for Line of Business app delivery."
-
-    - content:"Which of the following is NOT a method of delivering Line of Business apps?"
+    - content: "Which of the following is NOT a method of delivering Line of Business apps?"
       choices:
-      - content:"MSIX"
+      - content: "MSIX"
         isCorrect: false
-        explanation:"No, Click-to-Run is not a method of delivering Line of Business apps."
-      - content:"Click-to-Run"
-        isCorrect:true
-        explanation:"Correct. Click-to-Run is not a method of delivering Line of Business apps."
-      - content:"PC Imaging"
-        isCorrect:false
-        explanation:"No, Click-to-Run is not a method of delivering Line of Business apps."
-      - content:"Windows 10"
-        isCorrect:false
-        explanation:"No, Click-to-Run is not a method of delivering Line of Business apps."
-      - content:"Microsoft Store"
-        isCorrect:false
-        explanation:"No, Click-to-Run is not a method of delivering Line of Business apps."
-      - content:"Browser-based apps"
-        isCorrect:false
-        explanation:"No, Click-to-Run is not a method of delivering Line of Business apps."
-      - content:"MSI-Based deployments"
-        isCorrect:false
-        explanation:"No, Click-to-Run is not a method of delivering Line of Business apps."
+        explanation: "No, Click-to-Run is not a method of delivering Line of Business apps."
+      - content: "Click-to-Run"
+        isCorrect: true
+        explanation: "Correct. Click-to-Run is not a method of delivering Line of Business apps."
+      - content: "PC Imaging"
+        isCorrect: false
+        explanation: "No, Click-to-Run is not a method of delivering Line of Business apps."
+      - content: "Windows 10"
+        isCorrect: false
+        explanation: "No, Click-to-Run is not a method of delivering Line of Business apps."
+      - content: "Microsoft Store"
+        isCorrect: false
+        explanation: "No, Click-to-Run is not a method of delivering Line of Business apps."
+      - content: "Browser-based apps"
+        isCorrect: false
+        explanation: "No, Click-to-Run is not a method of delivering Line of Business apps."
+      - content: "MSI-Based deployments"
+        isCorrect: false
+        explanation: "No, Click-to-Run is not a method of delivering Line of Business apps."
