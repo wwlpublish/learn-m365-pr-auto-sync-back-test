@@ -31,6 +31,6 @@ units:
 - learn-m365.user-files-settings.2-manual-automated-migrations
 - learn-m365.user-files-settings.3-onedrive-known-folder
 - learn-m365.user-files-settings.4-managing-w10-customizations
-- learn-m365.user-files-settings.5-summary-and-knowledge-check
+#- learn-m365.user-files-settings.5-summary-and-knowledge-check
 badge: 
   uid: learn-m365.user-files-settings.badges
