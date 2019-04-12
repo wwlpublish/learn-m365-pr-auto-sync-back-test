@@ -4,7 +4,7 @@ You can review and modify all billing aspects in the Microsoft 365 admin center,
 - Current number of purchased licenses and how many of those licenses that you've allocated to users for each service.
 - Any current charges due on an account.
 - Payment method and frequency (monthly or annual).
-- Additional services or features you might opt to add to the subscription.
+- Additional services or features you might opt to add to the subscription. For example, depending on which Microsoft 365 subscription you have, you can add on Advanced eDiscovery Storage or the Dynamics 365 Suite.
 - Billing notifications, where you can provide a list of email accounts of who should receive automated billing notifications and renewal reminders for the Microsoft 365 subscription.
 
 ![Billing](../media/2-manage-billing.png)
