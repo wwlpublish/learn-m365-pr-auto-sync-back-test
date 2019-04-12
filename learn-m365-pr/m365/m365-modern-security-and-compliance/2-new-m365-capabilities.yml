@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.get-modern-security-compliance.2-new-m365-capabilities
+title: New security and compliance capabilities in Microsoft 365
+metadata:
+  title: New security and compliance capabilities in Microsoft 365
+  description: Learn about ...
+  msdate: 03/18/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-new-m365-capabilities.md)]

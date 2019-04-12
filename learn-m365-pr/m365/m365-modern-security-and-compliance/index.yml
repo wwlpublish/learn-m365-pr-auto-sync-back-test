@@ -1,0 +1,33 @@
+### YamlMime:Module
+uid: learn-m365.get-modern-security-compliance
+metadata:
+  title: Security and compliance – Windows 10 and Office 365 ProPlus
+  description: Windows 10 and Office 365 ProPlus provide new ways to protect your data, devices, and users while quickly detecting and responding to threats. Also, learn how to deal with common problems associated with disk encryption, anti-malware apps, and policies when moving to Windows 10.
+  ms.date: 03/18/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Security and compliance – Windows 10 and Office 365 ProPlus
+summary: Windows 10 and Office 365 ProPlus provide new ways to protect your data, devices, and users while quickly detecting and responding to threats. Also, learn how to deal with common problems associated with disk encryption, anti-malware apps, and policies when moving to Windows 10.
+abstract: |
+  At the end of this module, you should be able to:
+  - Do the thing 
+  - Do the thing 
+  - Do the thing 
+prerequisites: None
+iconUrl: /learn/achievements/intro-to-m365-unified-endpoint-mgmt.svg
+ratingEnabled: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- m365
+- azure
+units:
+- learn-m365.get-modern-security-compliance.1-introduction
+- learn-m365.get-modern-security-compliance.2-new-m365-capabilities
+- learn-m365.get-modern-security-compliance.3-summary-and-knowledge-check
+badge: 
+  uid: learn-m365.get-modern-security-compliance.badges

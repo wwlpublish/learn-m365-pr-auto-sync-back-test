@@ -1,0 +1,36 @@
+### YamlMime:Module
+uid: learn-m365.office-lob-apps
+metadata:
+  title: Delivering Office apps and line-of-business apps in Microsoft 365
+  description: Learn how to collect and inventory of your devices and applications, prioritizing what you need to move forward by testing prioritized apps and devices, then remediating what’s most business critical to get ready for deployment. 
+  ms.date: 03/18/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Delivering Office apps and line-of-business apps in Microsoft 365
+summary: Learn how to collect and inventory of your devices and applications, prioritizing what you need to move forward by testing prioritized apps and devices, then remediating what’s most business critical to get ready for deployment. 
+abstract: |
+  At the end of this module, you should be able to:
+  - Do the thing 
+  - Do the thing 
+  - Do the thing 
+prerequisites: None
+iconUrl: /learn/achievements/intro-to-m365-unified-endpoint-mgmt.svg
+ratingEnabled: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- m365
+- azure
+units:
+- learn-m365.office-lob-apps.1-introduction
+- learn-m365.office-lob-apps.2-office-click-to-run
+- learn-m365.office-lob-apps.3-office-deployment
+- learn-m365.office-lob-apps.4-lob-app-delivery
+- learn-m365.office-lob-apps.5-ms-store-for-business
+- learn-m365.office-lob-apps.6-summary-and-knowledge-check
+badge: 
+  uid: learn-m365.office-lob-apps.badges
