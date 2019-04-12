@@ -1,1 +1,7 @@
-Moving users’ files and settings to their new or refreshed PCs is a critical process, failure is not an option. You can migrate each PC manually or you choose one of several ways to automate the process. Whichever migration method is chosen there are three main considerations to be addressed – the transfer of users’ files, their settings, and managing Windows 10 Start and taskbar layouts. One of the trickiest and often most manual tasks of a large-scale deployment is the transferring of users’ files and settings. In this module we will cover the options available to you to migrate users to new, refreshed and re-imaged PCs.
+Moving users’ files and settings to their new or refreshed PCs is critical to your users. You can migrate each PC manually or you can choose one of several ways to automate the process. Whichever migration method you choose, there are three main considerations to be addressed:
+
+- Transferring user files 
+- Transferring user settings 
+- Managing Windows 10 Start and taskbar layouts 
+
+In this module, we will cover the options available to you to migrate users to new,refreshed, and re-imaged PCs.
