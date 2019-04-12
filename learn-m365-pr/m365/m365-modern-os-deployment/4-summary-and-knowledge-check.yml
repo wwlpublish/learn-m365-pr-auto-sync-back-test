@@ -3,7 +3,7 @@ uid: learn-m365.modern-os-deployment.4-summary-and-knowledge-check
 title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
-  description: Review the basics of unified endpoint management in Microsoft 365.
+  description: Learn about task sequence-based deployment or Windows Autopilot to help automate large scale phased deployments.
   ms.date: 03/18/2019
   author: lizap
   ms.author: elizapo
@@ -16,14 +16,61 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Here's the first question?"
+    - content: "Reimaging a computer where you don't intend to keep any of the data on the disk is called which deployment type?"
       choices:
-      - content: "Answer A"
-        isCorrect: false
-        explanation: "No, this is ..."
-      - content: "Answer B"
-        isCorrect: false
-        explanation: "No, this is ..."
-      - content: "Answer C"
+      - content: "Bare metal deployment"
         isCorrect: true
-        explanation: "Yes, this is ..."
+        explanation: "Correct. Reimaging a computer where you don't intend to keep any of the data on the disk is called bare metal deployment."
+      - content: "Computer refresh"
+        isCorrect: false
+        explanation: "No. Reimaging a computer where you don't intend to keep any of the data on the disk is called bare metal deployment."
+      - content: "Computer replacement"
+        isCorrect: false
+        explanation: "No. Reimaging a computer where you don't intend to keep any of the data on the disk is called bare metal deployment."
+      - content: "Computer reimage"
+        isCorrect: false
+        explanation: "No. Reimaging a computer where you don't intend to keep any of the data on the disk is called bare metal deployment."
+    - content: "In-place upgrades allow you to upgrade from legacy versions of Windows as well as update existing images."
+      choices:
+      - content: "True"
+        isCorrect: false
+        explanation: "Incorrect. In-place upgrades cannot be used to update existing images."
+      - content: "False"
+        isCorrect: true
+        explanation: "Correct. In-place upgrades cannot be used to update existing images."
+    - content: "Windows Autopilot can be used for bare metal deployments as well as computer refreshes and replacements."
+      choices:
+      - content: "True"
+        isCorrect: false
+        explanation: "Incorrect. Windows Autopilot can only be used on new PCs."
+      - content: "False"
+        isCorrect: true
+        explanation: "Correct. Windows Autopilot can only be used on new PCs."
+    - content: "What function does Windows Autopilot NOT allow IT admins to do?"
+      choices:
+      - content: "Automatically join devices to Azure Active Directory"
+        isCorrect: false
+        explanation: "No. Windows Autopilot does NOT allow IT admins to reinstall user files and settings."
+      - content: "Auto-enroll devices into MDM services, such as Microsoft Intune"
+        isCorrect: false
+        explanation: "No. Windows Autopilot does NOT allow IT admins to reinstall user files and settings."
+      - content: "Restrict the administrator account creation"
+        isCorrect: false
+        explanation: "No. Windows Autopilot does NOT allow IT admins to reinstall user files and settings."
+      - content: "Create and auto-assign devices to configuration groups based on a device's profile"
+        isCorrect: false
+        explanation: "No. Windows Autopilot does NOT allow IT admins to reinstall user files and settings."
+      - content: "Reinstall user files and settings"
+        isCorrect: true
+        explanation: "Correct. Windows Autopilot does NOT allow IT admins to reinstall user files and settings."
+      - content: "Customize OOBE content specific to the organization"
+        isCorrect: false
+        explanation: "No. Windows Autopilot does NOT allow IT admins to reinstall user files and settings."
+    - content: "Windows Update for Business allows users to keep Windows 10 devices automatically up-to-date by connecting to the Windows Update service."
+      choices:
+      - content: "True"
+        isCorrect: true
+        explanation: "Correct. Windows Update for Business allows users to keep Windows 10 devices automatically up-to-date by connecting to the Windows Update service."
+      - content: "False"
+        isCorrect: false
+        explanation: "Incorrect. Windows Update for Business allows users to keep Windows 10 devices automatically up-to-date by connecting to the Windows Update service."
