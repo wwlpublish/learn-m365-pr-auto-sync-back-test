@@ -6,7 +6,7 @@ Once you've chosen the right deployment model for your organization, it's time t
 
 ## Migration considerations
 
-When you're planning your migration, the following considerations can guide your plans.
+When you're planning your migration, the following considerations can help guide your plans.
 
 |What you need to migrate|Strategies/considerations|
 |-|-|

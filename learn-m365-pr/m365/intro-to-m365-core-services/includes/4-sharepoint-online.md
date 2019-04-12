@@ -9,6 +9,8 @@ With SharePoint Online, users can:
 - Sync and store their files in the cloud so anyone can securely work with them. 
 - Catch up on news on-the-go with the SharePoint mobile app. 
 
+![SharePoint Online](../media/publishing-sites-classic-to-modern-experience_image3.png)
+
 ## Compare SharePoint Online with an on-premises SharePoint Server
 SharePoint Online is a Microsoft cloud-based service. Instead of installing and deploying SharePoint Server on-premises, you can subscribe to a Microsoft 365 plan (or to the standalone SharePoint Online service). SharePoint Online receives all the latest features with regular updates, managed by Microsoft. 
 
@@ -18,5 +20,5 @@ Some of the feature differences between SharePoint Online and SharePoint Server 
 - Anti-malware is only available in SharePoint Online. 
 - Claims-based authentication is only available in SharePoint Server. 
 - Data loss prevention policies are available in SharePoint Online as part of Microsoft 365 E3 or Microsoft 365 E5 subscriptions. 
-- Encryption at rest is only available in SharePoint Online.
+- Encryption of data at rest (data on disk) is only available in SharePoint Online.
 - Not all modern web parts are available in SharePoint Server 2019. No modern pages or parts are available on-premise for earlier versions.

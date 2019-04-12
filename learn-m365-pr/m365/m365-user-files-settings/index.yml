@@ -2,7 +2,7 @@
 uid: learn-m365.user-files-settings
 metadata:
   title: Migrating user files and settings in Microsoft 365
-  description: When refreshing or replacing PCs, it is important to give users a like-for-like experience on their new device to minimize productivity downtime. Whether using a manual or automated process, learn about the different options for ensuring users’ files and settings have been captured and migrated. 
+  description: Review the basics of the different options for ensuring users’ files and settings have been captured and migrated.
   ms.date: 03/18/2019
   author: lizap
   ms.author: elizapo
@@ -12,9 +12,10 @@ title: Migrating user files and settings in Microsoft 365
 summary: When refreshing or replacing PCs, it is important to give users a like-for-like experience on their new device to minimize productivity downtime. Whether using a manual or automated process, learn about the different options for ensuring users’ files and settings have been captured and migrated.
 abstract: |
   At the end of this module, you should be able to:
-  - Do the thing 
-  - Do the thing 
-  - Do the thing 
+  - List the key considerations in migrating user files and settings 
+  - Describe the processes for both manual and automatic migrations 
+  - Explain what OneDrive Known Folder Move is and how it works
+  - List the steps involved in customizing users’ Start Menus and Task Bars  
 prerequisites: None
 iconUrl: /learn/achievements/intro-to-m365-unified-endpoint-mgmt.svg
 ratingEnabled: true

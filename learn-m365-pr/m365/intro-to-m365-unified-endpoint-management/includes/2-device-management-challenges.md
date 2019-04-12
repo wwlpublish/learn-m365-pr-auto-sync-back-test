@@ -8,11 +8,11 @@ These different devices present the following management challenges:
 
 **Backing up data.** When a device is connected to your organizational network, users are more likely to use documents in central locations, such as file shares and SharePoint sites. These locations are typically backed up. Mobile devices, including laptops, may not regularly connect and use content from central locations. Instead, the data is likely stored only on the device. If something happens to that device - like getting lost, stolen, or suffering a hardware failure - you might also lose your data, which can lead to lost productivity and worse, if that data was protected IP.
 
-**Lost or stolen devices.** The average cost of replacing a stolen device can exceed the cost of the device. This cost is higher because your organization must configure the new device and determine what data was lost or stolen. In some cases, that data exists only on the mobile device, and is then lost to the organization.
+**Lost or stolen devices**. The average cost of replacing a stolen device can exceed the cost of the device. This cost is higher because your organization must configure the new device and determine what data was lost or stolen. In some cases, that data exists only on the mobile device, and is then lost to the organization.
 
-**Compromised devices that connect to the internal network.** A mobile device infected with malware can leak data and introduce the malware into the organization. Organizations must treat mobile devices as possible malware carriers and take precautions to prevent leaks and attacks.
+**Compromised devices that connect to the internal network**. A mobile device infected with malware can leak data and introduce the malware into the organization. Organizations must treat mobile devices as possible malware carriers and take precautions to prevent leaks and attacks.
 
-**User-owned mobile devices.** Personal devices are a challenge to organizations. IT departments need to find a balance between allowing access to applications and data with users wanting to use their own devices. When considering a mobile device support policy, ask the following questions:
+**User-owned mobile devices**. Personal devices are a challenge to organizations. IT departments need to find a balance between allowing access to applications and data with users wanting to use their own devices. When considering a mobile device support policy, ask the following questions:
 - Is the device owned by the user or the organization?
 - Should you let user-owned devices access sensitive applications and data? Or, only allow access if the owner agrees to have the device managed by IT?
 - What actions can your organization take to protect data stored on the device if the device is lost, or if the user leaves the company?

@@ -3,7 +3,7 @@ uid: learn-m365.get-modern-security-compliance.3-summary-and-knowledge-check
 title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
-  description: Review ...
+  description: Review how to protect your data, devices, and users while quickly detecting and responding to threats.
   ms.date: 03/18/2019
   author: lizap
   ms.author: elizapo
@@ -16,14 +16,68 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Here's the first question?"
+    - content: "Which of the following is NOT a common security-related problem that interrupts Microsoft 365 deployments?"
       choices:
-      - content: "Answer A"
-        isCorrect: false
-        explanation: "No, this is ..."
-      - content: "Answer B"
-        isCorrect: false
-        explanation: "No, this is ..."
-      - content: "Answer C"
+      - content: "Identity and access management"
         isCorrect: true
-        explanation: "Yes, this is ..."
+        explanation: "Correct. Identity and access management is not a common security-related problem that interrupts Microsoft 365 deployments."
+      - content: "Disk encryption"
+        isCorrect: false
+        explanation: "No. Identity and access management is not a common security-related problem that interrupts Microsoft 365 deployments."
+      - content: "Antivirus and antimalware application compatibilitys"
+        isCorrect: false
+        explanation: "No. Identity and access management is not a common security-related problem that interrupts Microsoft 365 deployments."
+      - content: "Security policies"
+        isCorrect: false
+        explanation: "No. Identity and access management is not a common security-related problem that interrupts Microsoft 365 deployments."
+    - content: "Windows Hello can be configured to rely on the device itself, your PIN, or a unique b iometric identifier such as your face or fingerprint which can be enforced via policy."
+      choices:
+      - content: "True"
+        isCorrect: true
+        explanation: "Correct. Windows Hello can be configured to rely on the device itself, your PIN, or a unique biometric identifier such as your face or fingerprint which can be enforced via policy."
+      - content: "False"
+        isCorrect: false
+        explanation: "Incorrect. Windows Hello can be configured to rely on the device itself, your PIN, or a unique biometric identifier such as your face or fingerprint which can be enforced via policy."
+    - content: "Which of the following is NOT a new security capability of Microsoft 365?"
+      choices:
+      - content: "Identity and access management"
+        isCorrect: false
+        explanation: "No. Security policies are not a new security capability of Microsoft 365."
+      - content: "Virtualization-based security"
+        isCorrect: false
+        explanation: "No. Security policies are not a new security capability of Microsoft 365."
+      - content: "Cloud services security enhancements"
+        isCorrect: false
+        explanation: "No. Security policies are not a new security capability of Microsoft 365."
+      - content: "Security policies"
+        isCorrect: true
+        explanation: "Correct. Security policies are not a new security capability of Microsoft 365."
+      - content: "Microsoft InTune"
+        isCorrect: false
+        explanation: "No. Security policies are not a new security capability of Microsoft 365."
+    - content: "Which of the following is NOT a new Cloud services security enhancement of Microsoft 365?"
+      choices:
+      - content: "Data Loss Prevention"
+        isCorrect: false
+        explanation: "No. Azure Active Directory is not a new Cloud services security enhancement of Microsoft 365."
+      - content: "Azure Information Protection"
+        isCorrect: false
+        explanation: "No. Azure Active Directory is not a new Cloud services security enhancement of Microsoft 365."
+      - content: "Safe Links"
+        isCorrect: false
+        explanation: "No. Azure Active Directory is not a new Cloud services security enhancement of Microsoft 365."
+      - content: "Safe Attachments"
+        isCorrect: false
+        explanation: "No. Azure Active Directory is not a new Cloud services security enhancement of Microsoft 365."
+      - content: "Office 365 Message Encryption (OME)"
+        isCorrect: false
+        explanation: "No. Azure Active Directory is not a new Cloud services security enhancement of Microsoft 365."
+      - content: "Azure Active Directory"
+        isCorrect: true
+        explanation: "Correct. Azure Active Directory is not a new Cloud services security enhancement of Microsoft 365."
+      - content: "Windows Defender Application Control"
+        isCorrect: false
+        explanation: "No. Azure Active Directory is not a new Cloud services security enhancement of Microsoft 365."
+      - content: "Exploit Guard"
+        isCorrect: false
+        explanation: "No. Azure Active Directory is not a new Cloud services security enhancement of Microsoft 365."
