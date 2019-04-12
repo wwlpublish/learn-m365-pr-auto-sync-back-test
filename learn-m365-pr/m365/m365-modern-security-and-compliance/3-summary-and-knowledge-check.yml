@@ -51,10 +51,10 @@ quiz:
         explanation: "No. Security policies are not a new security capability of Microsoft 365."
       - content: "Security policies"
         isCorrect: true
- 	      explanation: "Correct. Security policies are not a new security capability of Microsoft 365."
+        explanation: "Correct. Security policies are not a new security capability of Microsoft 365."
       - content: "Microsoft InTune"
         isCorrect: false
- 	      explanation: "No. Security policies are not a new security capability of Microsoft 365."
+        explanation: "No. Security policies are not a new security capability of Microsoft 365."
     - content: "Which of the following is NOT a new Cloud services security enhancement of Microsoft 365?"
       choices:
       - content: "Data Loss Prevention"
