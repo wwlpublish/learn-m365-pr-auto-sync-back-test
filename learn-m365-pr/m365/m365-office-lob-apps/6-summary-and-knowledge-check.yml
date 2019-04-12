@@ -95,7 +95,7 @@ quiz:
         explanation: "No, MSIX does not work with MSI-based packages for Line of Business app delivery."
       - content: "Microsoft InTune"
         isCorrect: false
- 	      explanation: "No, MSIX does not work with MSI-based packages for Line of Business app delivery."
+        explanation: "No, MSIX does not work with MSI-based packages for Line of Business app delivery."
     - content: "Which of the following is NOT a method of delivering Line of Business apps?"
       choices:
       - content: "MSIX"
