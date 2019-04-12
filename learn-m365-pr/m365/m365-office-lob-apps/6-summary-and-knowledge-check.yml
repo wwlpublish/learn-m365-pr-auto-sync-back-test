@@ -59,19 +59,19 @@ quiz:
       choices:
       - content: "Users need to connect to the internet at least once every 30 days to verify their subscription status."
         isCorrect:false
-        explanation:"No, Office 365 ProPlus leverages Click-to-Run software updates from the Office Content Delivery Network (CDN), not Windows Server Update Services (WSUS)."
-      - content:"Office 365 ProPlus leverages Click-to-Run software updates from the Windows Server Update Services (WSUS)."
-        isCorrect:true
-        explanation:"Correct. Office 365 ProPlus leverages Click-to-Run software updates from the Office Content Delivery Network (CDN), not Windows Server Update Services (WSUS)."
-      - content:"By default, Office 365 ProPlus installs as one package and all applications are installed on the users computer, though admins can exclude specific apps from installation. "
-        isCorrect:false
-        explanation:"No, Office 365 ProPlus leverages Click-to-Run software updates from the Office Content Delivery Network (CDN), not Windows Server Update Services (WSUS)."
-      - content:"Office 365 ProPlus supports enabling shared computer activation for computers accessed by multiple users without counting against one of five license activations."
-        isCorrect:false
-        explanation:"No, Office 365 ProPlus leverages Click-to-Run software updates from the Office Content Delivery Network (CDN), not Windows Server Update Services (WSUS)."
-      - content:"Office 365 ProPlus uses subscription-based activation that leverages the Office Licensing Service, and allows users to activate on up to five different computers with a single Office 365 license."
-        isCorrect:false
-        explanation:"No, Office 365 ProPlus leverages Click-to-Run software updates from the Office Content Delivery Network (CDN), not Windows Server Update Services (WSUS)."
+        explanation: "No, Office 365 ProPlus leverages Click-to-Run software updates from the Office Content Delivery Network (CDN), not Windows Server Update Services (WSUS)."
+      - content: "Office 365 ProPlus leverages Click-to-Run software updates from the Windows Server Update Services (WSUS)."
+        isCorrect: true
+        explanation: "Correct. Office 365 ProPlus leverages Click-to-Run software updates from the Office Content Delivery Network (CDN), not Windows Server Update Services (WSUS)."
+      - content: "By default, Office 365 ProPlus installs as one package and all applications are installed on the users computer, though admins can exclude specific apps from installation. "
+        isCorrect: false
+        explanation: "No, Office 365 ProPlus leverages Click-to-Run software updates from the Office Content Delivery Network (CDN), not Windows Server Update Services (WSUS)."
+      - content: "Office 365 ProPlus supports enabling shared computer activation for computers accessed by multiple users without counting against one of five license activations."
+        isCorrect: false
+        explanation: "No, Office 365 ProPlus leverages Click-to-Run software updates from the Office Content Delivery Network (CDN), not Windows Server Update Services (WSUS)."
+      - content: "Office 365 ProPlus uses subscription-based activation that leverages the Office Licensing Service, and allows users to activate on up to five different computers with a single Office 365 license."
+        isCorrect: false
+        explanation: "No, Office 365 ProPlus leverages Click-to-Run software updates from the Office Content Delivery Network (CDN), not Windows Server Update Services (WSUS)."
 
 
     - content: "You need both the Office Deployment Tool and the Office Customization Tool to install and customize Office 365 ProPlus."
