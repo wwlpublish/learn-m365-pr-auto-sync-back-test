@@ -17,7 +17,7 @@ iconUrl: /learn/achievements/m365-fundamentals.svg
 levels: 
 - beginner
 roles:
-- business-user
+- administrator
 products: 
 - m365
 modules:
