@@ -54,7 +54,7 @@ quiz:
       - content: "Security policies"
         isCorrect: true
  	      explanation: "Correct. Security policies are not a new security capability of Microsoft 365."
-      - content: "Microsoft InTune"
+      - content: "Microsoft Intune"
         isCorrect: false
  	      explanation: "No. Security policies are not a new security capability of Microsoft 365."
 
