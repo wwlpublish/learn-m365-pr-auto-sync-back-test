@@ -44,7 +44,7 @@ quiz:
       - content: "With self-service tools to manage your schedule and tasks."
         isCorrect: false
         explanation: "This is just one way that Microsoft 365 makes you more effective."
-      - content: "WIth rich audio and video capabilities."
+      - content: "With rich audio and video capabilities."
         isCorrect: false
         explanation: "These are just two ways that Microsoft 365 makes you more effective."
       - content: "All of the above."
