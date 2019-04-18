@@ -77,12 +77,11 @@ quiz:
     - content: "You need both the Office Deployment Tool and the Office Customization Tool to install and customize Office 365 ProPlus."
       choices:
       - content: "True"
-        isCorrect: true
-        explanation: "Correct. You need both the Office Deployment Tool and the Office Customization Tool to install and customize Office 365 ProPlus."
-      - content: "False"
         isCorrect: false
-        explanation: "Incorrect. You need both the Office Deployment Tool and the Office Customization Tool to install and customize Office 365 ProPlus."
-
+        explanation: "Incorrect. The Office Deployment Tool is required but the Office Customizaton Tool is recommended. You can still build an XML file in Notepad."
+      - content: "False"
+        isCorrect: true
+        explanation: "Correct. The Office Deployment Tool is required but the Office Customizaton Tool is recommended. You can still build an XML file in Notepad."
 
     - content: "Using RemoveMSI to remove previous versions of Office removes all settings, preferences, and documents as well."
       choices:

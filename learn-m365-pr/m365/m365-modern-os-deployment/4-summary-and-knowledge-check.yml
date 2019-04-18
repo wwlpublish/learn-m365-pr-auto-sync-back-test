@@ -30,7 +30,6 @@ quiz:
       - content: "Computer reimage"
         isCorrect: false
         explanation: "No. Reimaging a computer where you don't intend to keep any of the data on the disk is called bare metal deployment."
-
     - content: "In-place upgrades allow you to upgrade from legacy versions of Windows as well as update existing images."
       choices:
       - content: "True"
@@ -38,38 +37,27 @@ quiz:
         explanation: "Incorrect. In-place upgrades cannot be used to update existing images."
       - content: "False"
         isCorrect: true
-        explanation: "Correct. In-place upgrades cannot be used to update existing images."
-
-    - content: "Windows Autopilot can be used for bare metal deployments as well as computer refreshes and replacements."
-      choices:
-      - content: "True"
-        isCorrect: false
-        explanation: "Incorrect. Windows Autopilot can only be used on new PCs."
-      - content: "False"
-        isCorrect: true
-        explanation: "Correct. Windows Autopilot can only be used on new PCs."
-
+        explanation: "Correct. In-place upgrades cannot be used to update existing images.
     - content: "What function does Windows Autopilot NOT allow IT admins to do?
       choices:
       - content: "Automatically join devices to Azure Active Directory"
-        isCorrect:false
-        explanation:"No. Windows Autopilot does NOT allow IT admins to reinstall user files and settings."
-      - content:"Auto-enroll devices into MDM services, such as Microsoft Intune"
-        isCorrect:false
-        explanation:"No. Windows Autopilot does NOT allow IT admins to reinstall user files and settings."
-      - content:"Restrict the administrator account creation"
-        isCorrect:false
-        explanation:"No. Windows Autopilot does NOT allow IT admins to reinstall user files and settings."
-      - content:"Create and auto-assign devices to configuration groups based on a device's profile"
-        isCorrect:false
-        explanation:"No. Windows Autopilot does NOT allow IT admins to reinstall user files and settings."
-      - content:"Reinstall user files and settings"
-        isCorrect:true
-        explanation:"Correct. Windows Autopilot does NOT allow IT admins to reinstall user files and settings."
-      - content:"Customize OOBE content specific to the organization"
-        isCorrect:false
-        explanation:""No. Windows Autopilot does NOT allow IT admins to reinstall user files and settings."
-
+        isCorrect: false
+        explanation: "No. Windows Autopilot does NOT allow IT admins to reinstall user files and settings."
+      - content: "Auto-enroll devices into MDM services, such as Microsoft Intune"
+        isCorrect: false
+        explanation: "No. Windows Autopilot does NOT allow IT admins to reinstall user files and settings."
+      - content: "Restrict the administrator account creation"
+        isCorrect: false
+        explanation: "No. Windows Autopilot does NOT allow IT admins to reinstall user files and settings."
+      - content: "Create and auto-assign devices to configuration groups based on a device's profile"
+        isCorrect: false
+        explanation: "No. Windows Autopilot does NOT allow IT admins to reinstall user files and settings."
+      - content: "Reinstall user files and settings"
+        isCorrect: true
+        explanation: "Correct. Windows Autopilot does NOT allow IT admins to reinstall user files and settings."
+      - content: "Customize OOBE content specific to the organization"
+        isCorrect: false
+        explanation: "No. Windows Autopilot does NOT allow IT admins to reinstall user files and settings."
     - content: "Windows Update for Business allows users to keep Windows 10 devices automatically up-to-date by connecting to the Windows Update service."
       choices:
       - content: "True"
