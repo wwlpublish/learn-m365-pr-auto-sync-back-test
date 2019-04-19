@@ -69,11 +69,11 @@ quiz:
     - content: "You need both the Office Deployment Tool and the Office Customization Tool to install and customize Office 365 ProPlus."
       choices:
       - content: "True"
-        isCorrect: true
-        explanation: "Correct. You need both the Office Deployment Tool and the Office Customization Tool to install and customize Office 365 ProPlus."
-      - content: "False"
         isCorrect: false
-        explanation: "Incorrect. You need both the Office Deployment Tool and the Office Customization Tool to install and customize Office 365 ProPlus."
+        explanation: "Incorrect. The Office Deployment Tool is required but the Office Customizaton Tool is recommended. You can still build an XML file in Notepad."
+      - content: "False"
+        isCorrect: true
+        explanation: "Correct. The Office Deployment Tool is required but the Office Customizaton Tool is recommended. You can still build an XML file in Notepad."
     - content: "Using RemoveMSI to remove previous versions of Office removes all settings, preferences, and documents as well."
       choices:
       - content: "True"
@@ -98,24 +98,24 @@ quiz:
         explanation: "No, MSIX does not work with MSI-based packages for Line of Business app delivery."
     - content: "Which of the following is NOT a method of delivering Line of Business apps?"
       choices:
-      - content: "MSIX"
+      - content:"MSIX"
         isCorrect: false
-        explanation: "No, Click-to-Run is not a method of delivering Line of Business apps."
-      - content: "Click-to-Run"
-        isCorrect: true
-        explanation: "Correct. Click-to-Run is not a method of delivering Line of Business apps."
-      - content: "PC Imaging"
-        isCorrect: false
-        explanation: "No, Click-to-Run is not a method of delivering Line of Business apps."
-      - content: "Windows 10"
-        isCorrect: false
-        explanation: "No, Click-to-Run is not a method of delivering Line of Business apps."
-      - content: "Microsoft Store"
-        isCorrect: false
-        explanation: "No, Click-to-Run is not a method of delivering Line of Business apps."
-      - content: "Browser-based apps"
-        isCorrect: false
-        explanation: "No, Click-to-Run is not a method of delivering Line of Business apps."
-      - content: "MSI-Based deployments"
-        isCorrect: false
-        explanation: "No, Click-to-Run is not a method of delivering Line of Business apps."
+        explanation:"No, Click-to-Run is not a method of delivering Line of Business apps."
+      - content:"Click-to-Run"
+        isCorrect:true
+        explanation:"Correct. Click-to-Run is not a method of delivering Line of Business apps."
+      - content:"PC Imaging"
+        isCorrect:false
+        explanation:"No, Click-to-Run is not a method of delivering Line of Business apps."
+      - content:"Windows 10"
+        isCorrect:false
+        explanation:"No, Click-to-Run is not a method of delivering Line of Business apps."
+      - content:"Microsoft Store"
+        isCorrect:false
+        explanation:"No, Click-to-Run is not a method of delivering Line of Business apps."
+      - content:"Browser-based apps"
+        isCorrect:false
+        explanation:"No, Click-to-Run is not a method of delivering Line of Business apps."
+      - content:"MSI-Based deployments"
+        isCorrect:false
+        explanation:"No, Click-to-Run is not a method of delivering Line of Business apps."

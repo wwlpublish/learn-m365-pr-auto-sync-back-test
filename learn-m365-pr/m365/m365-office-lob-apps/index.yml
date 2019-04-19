@@ -1,15 +1,15 @@
 ### YamlMime:Module
 uid: learn-m365.office-lob-apps
 metadata:
-  title: Delivering Office and line-of-business apps in Microsoft 365
+  title: Delivering Office and line of business apps in Microsoft 365
   description: Learn how Click-to-Run provides new options and keeps your Office apps up-to-date.
   ms.date: 04/28/2019
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Delivering Office apps and line-of-business apps in Microsoft 365
-summary: Learn how to collect and inventory of your devices and applications, prioritizing what you need to move forward by testing prioritized apps and devices, then remediating what’s most business critical to get ready for deployment. 
+title: Delivering Office apps and line of business apps in Microsoft 365
+summary: Learn how to collect and inventory your devices and applications, prioritizing what you need to move forward by testing prioritized apps and devices, then remediating what’s most business critical to get ready for deployment. 
 abstract: |
   At the end of this module, you should be able to:
   - Explain the Office 365 ProPlus installation and configuration process 
