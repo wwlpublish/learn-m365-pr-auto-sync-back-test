@@ -12,7 +12,7 @@ Before you get started migrating to Windows 10 and Office 365 ProPlus, you’ll 
 
 **Step 4: User files and settings migration.** Ensuring users’ files, data, and settings move successfully and are preserved over the migration is critical in any PC replacement or refresh project. You have the option of using  traditional methods like the User State Migration Tool and the Microsoft Deployment Toolkit, or modern options like a OneDrive Known Folder Move.
 
-**Step 5: Security and compliance.** Whether it’s leveraging the built-in capabilities of Windows 10 using virtualization-based security or cloud services like Advanced Threat Protection, securing and protecting endpoints, identity, and data is critical.
+**Step 5: Security and compliance.** Moving to Windows 10 and Office 365 ProPlus allows organizations to take advantage of security features not available in earlier Windows versions. Whether it’s leveraging the built-in capabilities of Windows 10 using virtualization-based security or cloud services like Advanced Threat Protection, securing and protecting endpoints, identity, and data is critical.
 
 **Step 6: OS Deployment and feature updates.** Tools like System Center Configuration Manager can help automate and control OS deployment and subsequent feature updates. Microsoft recommends phased deployments, first targeting and deploying to an “early adopter group” in your organization with a representative set of hardware and apps. You can then use the data from those devices and users to target more PCs to scale your deployment.
 

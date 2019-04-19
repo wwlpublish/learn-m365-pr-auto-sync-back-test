@@ -4,7 +4,7 @@ To align with the new method of delivering feature and quality updates in Window
 ## Windows 10 servicing channels
 Windows 10 offers 3 servicing channels:
 
-- **Windows Insider Program** is available for organizations to test and provide feedback on features shipping in the next update. For many IT pros, early visibility into feature updates can be invaluable for both end-user communications as well as early testing. With Windows 10, feature flighting enables Windows Insiders to gain early access to updates and test them for possible issues before the update is broadly distributed.
+- **Windows Insider Program** is available for organizations to test and provide feedback on features shipping in the next update. For many IT pros, early visibility into feature updates can be invaluable for both end-user communications as well as early testing. With Windows 10, flightening (rolling out features in different stages) enables Windows Insiders to gain early access to updates and test them for possible issues before the update is broadly distributed.
 
 - **Semi-Annual Channel** provides new functionality with feature update releases twice a year. Semi-Annual Channel releases are made available to any PC not configured to defer feature updates. Organizations using Windows Server Update Services (WSUS), System Center Configuration Manager, or Windows Update for Business can defer feature updates to selected devices. 
 
