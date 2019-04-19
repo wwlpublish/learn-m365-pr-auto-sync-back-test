@@ -100,22 +100,22 @@ quiz:
       choices:
       - content:"MSIX"
         isCorrect: false
-        explanation:"No, Click-to-Run is not a method of delivering Line of Business apps."
-      - content:"Click-to-Run"
-        isCorrect:true
-        explanation:"Correct. Click-to-Run is not a method of delivering Line of Business apps."
-      - content:"PC Imaging"
-        isCorrect:false
-        explanation:"No, Click-to-Run is not a method of delivering Line of Business apps."
-      - content:"Windows 10"
-        isCorrect:false
-        explanation:"No, Click-to-Run is not a method of delivering Line of Business apps."
-      - content:"Microsoft Store"
-        isCorrect:false
-        explanation:"No, Click-to-Run is not a method of delivering Line of Business apps."
-      - content:"Browser-based apps"
-        isCorrect:false
-        explanation:"No, Click-to-Run is not a method of delivering Line of Business apps."
-      - content:"MSI-Based deployments"
-        isCorrect:false
-        explanation:"No, Click-to-Run is not a method of delivering Line of Business apps."
+        explanation: "No, Click-to-Run is not a method of delivering Line of Business apps."
+      - content: "Click-to-Run"
+        isCorrect: true
+        explanation: "Correct. Click-to-Run is not a method of delivering Line of Business apps."
+      - content: "PC Imaging"
+        isCorrect: false
+        explanation: "No, Click-to-Run is not a method of delivering Line of Business apps."
+      - content: "Windows 10"
+        isCorrect: false
+        explanation: "No, Click-to-Run is not a method of delivering Line of Business apps."
+      - content: "Microsoft Store"
+        isCorrect: false
+        explanation: "No, Click-to-Run is not a method of delivering Line of Business apps."
+      - content: "Browser-based apps"
+        isCorrect: false
+        explanation: "No, Click-to-Run is not a method of delivering Line of Business apps."
+      - content: "MSI-Based deployments"
+        isCorrect: false
+        explanation: "No, Click-to-Run is not a method of delivering Line of Business apps."
