@@ -53,18 +53,10 @@
     "externalReference": [],
     "globalMetadata": {
       "breadcrumb_path": "/learn/breadcrumb/toc.json",
-      "feedback_system": "GitHub",
-      "feedback_github_repo": "MicrosoftDocs/learn-m365-pr",
-      "clicktale": true,
-      "uhfHeaderId":"MSDocsHeader-Learn"
+      "extendBreadcrumb": true,
+      "feedback_system": "None"
     },
-    "fileMetadata": {
-      "brand": {
-        "m365/**/*.yml": "m365"
-      },
-      "sandbox-disabled": {
-       }
-    },
+    "fileMetadata": {},
     "template": [],
     "dest": "learn-m365-pr",
     "markdownEngineName": "markdig"

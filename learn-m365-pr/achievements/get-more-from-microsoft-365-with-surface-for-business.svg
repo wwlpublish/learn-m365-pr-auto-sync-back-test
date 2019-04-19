@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>M365 SFA Generalist/get-more-from-microsoft-365-with-surface</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="96" height="96" rx="48"></rect>
+        <path d="M54.2574793,26 L67.213679,47.6795018 C67.4969986,48.1535782 67.3423597,48.767569 66.8682833,49.0508887 C66.6566492,49.1773664 66.4057516,49.2212049 66.1637681,49.1739862 L44,44.84913 L54.2574793,26 Z" id="path-3"></path>
+        <filter x="-4.1%" y="-4.2%" width="104.1%" height="115.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <path d="M65.530184,0.00145789475 L65.530184,0.00145789475 C66.2163059,-0.0314898352 66.7992271,0.498012471 66.8321748,1.1841344 C66.8427322,1.40398848 66.7947572,1.62270648 66.6931479,1.81795716 L41.2509505,50.7072425 C40.6267629,51.9066705 39.2773518,52.5403225 37.9557651,52.2545847 L1.05274055,44.2758518 C0.332378391,44.1201036 -0.125331709,43.4098759 0.0304164273,42.6895137 C0.0533895345,42.5832591 0.0892601046,42.4802098 0.137230691,42.3826566 L65.530184,0.00145789475 Z" id="path-5"></path>
+        <filter x="-1.5%" y="-1.9%" width="103.0%" height="107.6%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-7" points="4 40.9876473 24.5552716 5.60919012 60.3648998 4 37.4520566 48.0250246"></polygon>
+        <filter x="-1.8%" y="-2.3%" width="103.5%" height="109.1%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Badges" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="M365-SFA-Generalist-2" transform="translate(-50.000000, -1260.000000)">
+            <g id="M365-SFA-Generalist/get-more-from-microsoft-365-with-surface" transform="translate(50.000000, 1260.000000)">
+                <g id="Mask" transform="translate(2.000000, 2.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="BG" fill="#55A2FF" xlink:href="#path-1"></use>
+                    <g id="Surface" mask="url(#mask-2)" fill-rule="nonzero">
+                        <g transform="translate(12.000000, 21.000000)">
+                            <g id="Path-24" fill="none">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                                <use fill="#242323" xlink:href="#path-3"></use>
+                            </g>
+                            <path d="M53.325556,28 L63.39419,44.4808269 C63.6821168,44.9521193 63.5334695,45.5675882 63.062177,45.855515 C62.841407,45.99039 62.576957,46.0344561 62.3243809,45.9784562 L46,42.3590969 L53.325556,28 Z" id="Path-23" fill="#151615"></path>
+                            <g id="Path-22" fill="none">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                                <use fill="#546670" xlink:href="#path-5"></use>
+                            </g>
+                            <path d="M-2.13162821e-14,42.4415252 L21.9349201,3.97755163 C22.6121696,2.78996086 23.8490438,2.03051045 25.214545,1.96383638 L65.4343915,-6.75015599e-14 L39.9102454,48.6712071 C39.2859177,49.8617185 37.945855,50.4915774 36.6308361,50.2126017 L-2.13162821e-14,42.4415252 Z" id="Path-21" fill="#30404D"></path>
+                            <g id="Path-21" fill="none">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                                <use fill="#E6E6E6" xlink:href="#path-7"></use>
+                            </g>
+                            <path d="M39.1365066,11.8675153 L25.2020412,36.5018093 C23.7287401,39.106411 20.762728,40.4864491 17.8213897,39.9359086 L6,37.7232583 L24.6421914,5.66875073 L40.105613,5.06592582 L60.4276237,4 L58.0609686,8.54870969 L46.470222,8.8930855 L46.4752366,8.9815498 L44.805201,8.97206142 C42.52864,8.95912703 40.4259482,10.0631182 39.1365066,11.8675153 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                        </g>
+                    </g>
+                    <g id="Microsoft-Logo" mask="url(#mask-2)" fill-rule="nonzero">
+                        <g transform="translate(42.609542, 46.297724) rotate(-2.000000) translate(-42.609542, -46.297724) translate(32.609542, 39.297724)" id="Rectangle-path">
+                            <polygon fill="#E86C60" points="7.1093541 0.04116684 12.7146308 0.696278117 9.59354264 6.14125737 4.0283949 5.48614609"></polygon>
+                            <polygon fill="#72C472" points="14.105825 0.946214271 19.7111016 1.60132555 16.5900135 7.0463048 11.0248658 6.39119352"></polygon>
+                            <polygon fill="#43A6DD" points="3.43684154 6.6106453 9.0421182 7.26575658 5.92103008 12.7107358 0.355882346 12.0556246"></polygon>
+                            <polygon fill="#EFD358" points="10.4368415 7.6106453 16.0421182 8.26575658 12.9210301 13.7107358 7.35588235 13.0556246"></polygon>
+                        </g>
+                    </g>
+                </g>
+                <g id="Azure-Border" stroke="#0078D4" stroke-width="4">
+                    <rect x="2" y="2" width="96" height="96" rx="48"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

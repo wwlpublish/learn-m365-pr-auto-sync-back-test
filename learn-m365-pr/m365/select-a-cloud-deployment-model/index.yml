@@ -17,7 +17,7 @@ abstract: |
    - The difference between cloud-only and hybrid migration models and how to choose between them.
    - When an organization might want to move systems with older operating systems and Microsoft Office directly to Microsoft 365 instead of upgrading legacy software.   
 prerequisites: None
-iconUrl: /learn/achievements/select-a-cloud-deployment-model-for-m365.svg
+iconUrl: /learn/achievements/select-a-cloud-deployment-model.svg
 ratingEnabled: true
 levels:
 - beginner
