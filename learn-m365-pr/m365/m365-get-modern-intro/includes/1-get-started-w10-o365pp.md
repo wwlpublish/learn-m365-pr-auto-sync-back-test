@@ -2,5 +2,3 @@ Welcome to Get Modern – Windows 10 and Office 365 ProPlus! This course  will h
 
 In this Getting Started module, we’ll cover what has changed from traditional legacy deployments and why you should upgrade to Windows 10 and Office 365 ProPlus. Then we’ll guide you through the recommended steps for your migration to Windows 10 and Office 365 ProPlus, detailing how to leverage your existing tools and processes while adopting modern management technology and approaches along the way.
 
-![Get modern flywheel](../media/get-modern-flywheel.png)
-
