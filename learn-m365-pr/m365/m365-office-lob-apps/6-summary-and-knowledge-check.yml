@@ -98,7 +98,7 @@ quiz:
         explanation: "No, MSIX does not work with MSI-based packages for Line of Business app delivery."
     - content: "Which of the following is NOT a method of delivering Line of Business apps?"
       choices:
-      - content:"MSIX"
+      - content: "MSIX"
         isCorrect: false
         explanation: "No, Click-to-Run is not a method of delivering Line of Business apps."
       - content: "Click-to-Run"
