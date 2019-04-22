@@ -2,14 +2,14 @@
 uid: learn-m365.modern-device-app
 metadata:
   title: Device and app readiness in Microsoft 365
-  description: Review collecting and inventorying your devices and applications.
+  description: Get your devices and apps ready for Windows 10 and Office 365 ProPlus by using a four-step process: inventory, prioritize, test, and remediate. Learn about the tools provided by Microsoft to help you get ready, from the Readiness Toolkit for Office to the Desktop App Assurance program.
   ms.date: 04/28/2019
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Device and app readiness in Microsoft 365
-summary: Learn how to collect and inventory your devices and applications, prioritize what you need to move forward by testing prioritized apps and devices,and remediate what’s most business critical to get ready for deployment. 
+summary: Get your devices and apps ready for Windows 10 and Office 365 ProPlus by using a four-step process: inventory, prioritize, test, and remediate. Learn about the tools provided by Microsoft to help you get ready, from the Readiness Toolkit for Office to the Desktop App Assurance program. 
 abstract: |
   At the end of this module, you should be able to:
   - Explain the process and importance of determining device and application readiness 
