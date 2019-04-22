@@ -1,7 +1,7 @@
 ## Microsoft Store for Business
 Microsoft Store for Business provides a flexible way to discover, acquire, manage, and distribute free and paid apps to Windows 10 devices at scale. IT admins can publish selected Microsoft Store apps, along with custom organizational apps, to your own private store while assigning and re-using licenses as needed. End users are directed to this private store and can only find and install approved apps.
 
-Store apps can be natively built as UWP apps or you can use the Desktop Bridge to repackage your existing apps for the Store and add modern experiences for Windows 10. Aside from the code that to light up Windows 10 experiences, your app remains unchanged and continues to run in full-trust user mode.
+Store apps can be natively built as Universal Windows Platform (UWP) apps or you can use the Desktop Bridge to repackage your existing apps for the Store and add modern experiences for Windows 10. Aside from the code that to light up Windows 10 experiences, your app remains unchanged and continues to run in full-trust user mode.
 
 
 ## MSIX 
