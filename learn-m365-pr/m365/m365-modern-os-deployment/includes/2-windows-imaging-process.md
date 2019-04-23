@@ -8,7 +8,7 @@ During the build and capture process, tools like System Center Configuration Man
 The captured image will have the Windows image–or WIM–format like standard Windows installation media. With a custom WIM file, IT admins can use another task sequence as part of the OS deployment in System Center Configuration Manager or Microsoft Deployment Toolkit to perform deployment-related tasks, to apply the image, and run tasks before and after the Windows image is applied.
 
 ## Traditional deployment types
-With a custom image ready, the installation or migration type will fall one of into the following categories:
+With a custom image ready, the installation or migration type will fall into one of the following categories:
 
 - **Bare metal deployment.** This is the scenario used to deploy an image to a clean disk, or to reimage a computer where you don’t intend to keep any of the data on the disk.
 - **Computer refresh.** This is similar to bare metal, with the key difference that user state remains on the disk or will be restored after the install is complete.

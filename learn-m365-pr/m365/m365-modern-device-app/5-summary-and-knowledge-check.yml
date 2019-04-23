@@ -18,10 +18,10 @@ quiz:
     questions:
     - content: "Any COM add-ins and VBA macros your organization used on versions of Office dating back to Office 2010 will continue to work on the latest versions of Office without modification."
       choices:
-      - content: "Answer A"
+      - content: "True"
         isCorrect: true
         explanation: "Yes, this is true. Office COM add-ins and VBA macros are backwards-compatible to Office 2010"
-      - content: "Answer B"
+      - content: "False"
         isCorrect: false
         explanation: "No, this statement is true."
       

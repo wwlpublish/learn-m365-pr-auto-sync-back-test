@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.get-modern-security-compliance.1-introduction
-title: Overcoming potential security-related deployment blockers
+title: Introduction to security and compliance
 metadata:
-  title: Overcoming potential security-related deployment blockers
-  description:  Learn about ...
-  msdate: 04/28/2019
+  title: Introduction to security and compliance
+  description:  Learn about security and compliance in Windows 10 and Office 365 ProPlus
+  msdate: 04/23/2019
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial

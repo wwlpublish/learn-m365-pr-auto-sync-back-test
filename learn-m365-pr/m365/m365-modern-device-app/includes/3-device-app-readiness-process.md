@@ -6,11 +6,11 @@ Device and app readiness is comprised of four steps:
 4. Remediate issues
 
 ### 1. Take an inventory
-There are two inventory tools available in Microsoft 365 - Windows Analytics Upgrade Readiness for Windows upgrades, and a readiness toolkit to identify compatibility issues for moving to Office 365 ProPlus.
+There are two inventory tools available in Microsoft 365: an upgrade readiness service and a readiness toolkit to identify compatibility issues for moving to Office 365 ProPlus.
 
-The Windows Analytics Upgrade Readiness service uses an agent-less process to inventory the computers, applications, and Office add-ins across your desktop estate. It also provides reports on highly visited Internet sites, apps, and Intranet locations to help you with compatibility testing later. 
+The **Windows Analytics Upgrade Readiness** service uses an agent-less process to inventory the computers, applications, and Office add-ins across your desktop estate. It also provides reports on highly visited internet sites, apps, and intranet locations to help you with compatibility testing later. 
 
-The Readiness Toolkit for Office add-ins and VBA provides VBA macro compatibility and add-in readiness information to help your organization assess its readiness to move to Office 365 ProPlus. The Readiness Toolkit also provides inventory data on the most commonly used add-ins and macros in your organization.
+The **Readiness Toolkit for Office add-ins and VBA** provides VBA macro compatibility and add-in readiness information to help your organization assess its readiness to move to Office 365 ProPlus. The Readiness Toolkit also provides inventory data on the most commonly used add-ins and macros in your organization.
 
 ### 2. Prioritize apps and hardware
 With inventory taken, you can use Upgrade Readiness to identify and prioritize the most common apps and hardware used in your organization, as well as what to focus on to unblock as many PCs as possible for deployment.  By prioritizing the most impactful remediation items in your organization you can build a deployment plan that allows devices to begin migrating to Windows 10 or Office 365 ProPlus while those needing additional support can be addressed. The inventory also provides guidance to help you assess the updates necessary to resolve issues during the next step: testing.
