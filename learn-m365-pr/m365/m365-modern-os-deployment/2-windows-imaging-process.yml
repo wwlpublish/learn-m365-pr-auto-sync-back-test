@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.modern-os-deployment.2-windows-imaging-process
+title: Windows imaging process
+metadata:
+  title: Windows imaging process
+  description: Why update?
+  msdate: 04/28/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-windows-imaging-process.md)]

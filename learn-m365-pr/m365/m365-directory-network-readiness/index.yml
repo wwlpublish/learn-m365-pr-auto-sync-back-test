@@ -1,0 +1,36 @@
+### YamlMime:Module
+uid: learn-m365.directory-network-readiness
+metadata:
+  title: Directory and network readiness in Microsoft 365
+  description: Learn how new tools and deployment options reduce and streamline network traffic. 
+  ms.date: 04/28/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Directory and network readiness in Microsoft 365
+summary: Learn how new tools and deployment options reduce and streamline network traffic. 
+abstract: |
+  At the end of this module, you should be able to:
+  - Describe the directory and network readiness requirements for deploying Office 365 ProPlus 
+  - Explain the role of Azure Active Directory in Microsoft 365 
+  - Explain the steps in planning for bandwidth considerations and requirements
+  - Describe the bandwidth impact of Microsoft 365 and list the tools for minimizing the impact
+prerequisites: None
+iconUrl: /learn/achievements/intro-to-m365-unified-endpoint-mgmt.svg
+ratingEnabled: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- m365
+- azure
+units:
+- learn-m365.directory-network-readiness.1-introduction
+- learn-m365.directory-network-readiness.2-adding-azure-ad
+- learn-m365.directory-network-readiness.3-network-readiness
+- learn-m365.directory-network-readiness.4-managing-bandwidth
+- learn-m365.directory-network-readiness.5-summary-and-knowledge-check
+badge: 
+  uid: learn-m365.directory-network-readiness.badges

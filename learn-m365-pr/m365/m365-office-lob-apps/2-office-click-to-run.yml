@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.office-lob-apps.2-office-click-to-run
+title: Office Click-to-Run
+metadata:
+  title: Office Click-to-Run
+  description: Learn about ...
+  msdate: 04/28/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-office-click-to-run.md)]

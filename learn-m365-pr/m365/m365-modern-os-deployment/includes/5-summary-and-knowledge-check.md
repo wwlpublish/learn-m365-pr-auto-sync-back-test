@@ -1,0 +1,1 @@
+In this module you learned about task sequence automation and the option of Windows Autopilot to help automate large scale phased deployments. You also learned how upgrading task sequences can help organizations stay current with major semi-annual updates.

@@ -1,0 +1,57 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.modern-usercomm-training.5-summary-and-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Review how to inform your end users about new experiences, features, and functionalities within Windows 10 and Office 365 ProPlus.
+  ms.date: 04/18/2019
+  author: aleha
+  ms.author: aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 5
+content: |
+  [!include[](includes/5-summary-and-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Which of the following is NOT one of the reasons for end user communication and training?"
+      choices:
+      - content: "Educate end users and prepare them to fully use the full set of new solutions they’ll have access to."
+        isCorrect: false
+        explanation: "Incorrect. Educating end users and preparing them is a good reason for end user communications and training."
+      - content: "Explain new features and capabilities that will be available to end users."
+        isCorrect: false
+        explanation: "Incorrect. Explaining new features and capabilities is a good reason for end user communications and training."
+      - content: "Provide them tips and guidance to facilitate the transition."
+        isCorrect: false
+        explanation: "Incorrect. Providing end users tips and guidance is a good reason for end user communications and training."
+      - content: "Give them advance notice that their workflow and productivity will be disrupted."
+        isCorrect: true
+        explanation: "Correct. Giving end users advance notice that their workflow and productivity will be disrupted is not a good reason for end user communications and training."
+
+    - content: "Which of the following is NOT one of the three phases of the deployment process?"
+      choices:
+      - content: "Pilot"
+        isCorrect: false
+        explanation: "Incorrect. Pilot, broad production deployment, and the IT team and early adopters are all phases of the deployment process."
+      - content: "Initial deployment"
+        isCorrect: true
+        explanation: "Correct. Pilot, broad production deployment, and the IT team and early adopters are all phases of the deployment process. Initial deployment is not considered one of the phases."
+      - content: "Broad production deployment"
+        isCorrect: false
+        explanation: "Incorrect. Pilot, broad production deployment, and the IT team and early adopters are all phases of the deployment process."
+      - content: "IT team and early adopters"
+        isCorrect: false
+        explanation: "Incorrect. Pilot, broad production deployment, and the IT team and early adopters are all phases of the deployment process."
+  
+    - content: "The phased deployment process is recommended for large organizations but is not necessary for smaller deployments."
+      choices:
+      - content: "True"
+        isCorrect: false
+        explanation: "Incorrect. The phased deployment process is recommended for organizations of all sizes."
+      - content: "False"
+        isCorrect: true
+        explanation: "Correct. The phased deployment process is recommended for organizations of all sizes."
+

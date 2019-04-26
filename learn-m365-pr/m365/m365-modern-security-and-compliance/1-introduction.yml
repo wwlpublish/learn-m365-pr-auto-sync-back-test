@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.get-modern-security-compliance.1-introduction
+title: Introduction to security and compliance
+metadata:
+  title: Introduction to security and compliance
+  description:  Learn about security and compliance in Windows 10 and Office 365 ProPlus
+  msdate: 04/23/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 1
+content: |
+  [!include[](includes/1-introduction.md)]
