@@ -1,3 +1,5 @@
+![video](../media/video.png)
+
 ## What’s changed and why upgrade?
 ### What's changed?
 Here are some of the core changes to Windows 10 and Office 365 ProPlus:
