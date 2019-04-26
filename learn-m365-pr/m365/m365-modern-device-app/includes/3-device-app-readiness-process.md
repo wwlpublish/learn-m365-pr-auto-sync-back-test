@@ -1,5 +1,6 @@
 ## Device and app readiness process
-Device and app readiness is comprised of four steps: 
+Device and app readiness is comprised of four steps:
+ 
 1. Take an inventory 
 2. Prioritize apps and hardware
 3. Test updates for compatibility issues

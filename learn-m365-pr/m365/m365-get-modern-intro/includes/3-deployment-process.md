@@ -1,8 +1,10 @@
 ### Understanding the Windows 10 and Office 365 ProPlus deployment process
 
-Before you get started migrating to Windows 10 and Office 365 ProPlus, you’ll want to create a high-level plan and get the necessary organization sponsors on board. The deployment process throughout this learning path outlines critical steps to help you identify core team members and resources.
+To help you through the deployment process, we’ve developed the Desktop Deployment Wheel. The wheel guides you through the recommended steps for your shift to Windows 10 and Office 365 ProPlus, detailing how to leverage your existing tools and processes while adopting modern management technology and approaches along the way.
 
 ![the deployment wheel](../media/intro_deploymentwheel.png)
+
+Before you get started, you’ll want to create a high-level plan and get the necessary sponsors on board. The Desktop Deployment Wheel outlines critical steps to help you to identify core team members and resources to manage in the following deployment areas.
 
 **Step 1: Device and app readiness.** For a successful deployment you must first take an inventory of your devices and apps and verify compatibility, leveraging the Microsoft tools available.
 
