@@ -8,7 +8,7 @@ Before you get started, you’ll want to create a high-level plan and get the ne
 
 |  |  |
 |-----------|--------|
-| ![Step 1 icon](../media/step-1-icon-intro.png) | **Step 1: Device and app readiness.** For a successful deployment you must first take an inventory of your devices and apps and verify compatibility, leveraging the Microsoft tools available.  |
+| ![Step 1 icon](../media/step1-icon-intro.png) | **Step 1: Device and app readiness.** For a successful deployment you must first take an inventory of your devices and apps and verify compatibility, leveraging the Microsoft tools available.  |
 | ![Step 2 icon](../media/step-2-icon-intro.png) |**Step 2: Directory and network readiness.** You’ll need to implement Azure Active Directory for identity and access management while also preparing your network for the movement of system images, application packages, user files, and updates across it. |
 | ![Step 3 icon](../media/step-3-icon-intro.png) |**Step 3: Office and line of business app delivery.** Office 365 ProPlus and Office 2019 clients use Click-to-Run installation technology, and you may also  want to make a range of UWP or MSIX-based line of business apps available.  Plan for Office and app delivery whether your apps deploy using Click-to-Run, MSIX, conventional MSI, or are UWP apps deployed from a Microsoft Store. |
 | ![Step 4 icon](../media/step-4-icon-intro.png) |**Step 4: User files and settings migration.** Ensuring users’ files, data, and settings move successfully and are preserved over the migration is critical in any PC replacement or refresh project. You have the option of using  traditional methods like the User State Migration Tool and the Microsoft Deployment Toolkit, or modern options like a OneDrive Known Folder Move. |
