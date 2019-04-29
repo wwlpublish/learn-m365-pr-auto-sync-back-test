@@ -29,6 +29,6 @@ In addition to leveraging delivery optimization, the three items below can help 
 
 - **OneDrive Files on Demand and Known Folder Move.** OneDrive is a great way to synchronize and protect user files from PCs and other devices in the cloud. With Known Folder Move, you can enforce file sync from a user’s desktop, documents, and pictures folders to OneDrive making those files available when signing into a new device a or reimaged PC. Remember though, due to the sheer size and number of files kept in desktop, documents, and pictures locations, you’ll want to have a plan for the rollout of policies enabling and enforcing OneDrive on your PCs. One option is to use Group Policy Network controls to throttle bandwidth used by the OneDrive sync service.
 
-**Note**
-If you haven’t already rolled out OneDrive, the shift from Windows 7 to Windows 10 is a perfect opportunity to enable OneDrive as it integrates seamlessly with Office 365 ProPlus. Consider starting this roll-out while working through your app and device readiness. This will give file sync a head start before you start moving Windows images and deploying apps over your network.
+>[!NOTE]
+>If you haven’t already rolled out OneDrive, the shift from Windows 7 to Windows 10 is a perfect opportunity to enable OneDrive as it integrates seamlessly with Office 365 ProPlus. Consider starting this roll-out while working through your app and device readiness. This will give file sync a head start before you start moving Windows images and deploying apps over your network.
 
