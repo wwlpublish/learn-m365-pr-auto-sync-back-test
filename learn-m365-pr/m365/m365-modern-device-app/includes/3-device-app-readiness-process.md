@@ -33,11 +33,11 @@ In some instances, particularly non-critical, sparsely deployed applications, an
 
 Upgrade Readiness assesses browser-based compatibility issues too, identifying websites and web apps that still use ActiveX controls, browser helper objects, VBScript, or other legacy technology not supported by the Microsoft Edge browser. Your users will need to use Internet Explorer 11 for these sites, and you can add them to the Enterprise Mode site list, using the Enterprise Mode Site List Manager.
 
-[test](../media/test.png)
+![test](../media/test.png)
 
 ### 4. Remediate issues
 The final phase of device and app readiness is to *remediate*.
 
-[remediate](../media/remediate.png)
+![remediate](../media/remediate.png)
 
  Here you’ll want to collect the required software or driver packages and use them to supersede or update older versions as part of the deployment process. As you work through the list remediating issues, you’ll see that more and more PCs become “Ready for Deployment.”  This means that both the drivers and apps on the PCs are noted as compatible with the version of Windows 10 you are targeting for deployment.
