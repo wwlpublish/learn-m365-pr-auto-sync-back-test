@@ -30,36 +30,33 @@ quiz:
       - content: "20GB"
         isCorrect: true
         explanation: "Yes, bandwidths may exceed 20 GB."
-      - content: "20Gb"
-        isCorrect: false
-        explanation: "No, this is ..."
       - content: "20MB"
         isCorrect: false
-        explanation: "No, this is ..."
+        explanation: "No, this is false. Bandwidths may exceed 20 GB."
       - content: "1GB"
         isCorrect: false
-        explanation: "No, this is ..."
+        explanation: "No, this is false. Bandwidths may exceed 20 GB."
       - content: "3GB"
         isCorrect: false
-        explanation: "No, this is ..."
+        explanation: "No, this is false. Bandwidths may exceed 20 GB."
       - content: "6GB"
         isCorrect: false
-        explanation: "No, this is ..."
+        explanation: "No, this is false. Bandwidths may exceed 20 GB."
 
     - content: "Which of the following is NOT a tool for managing bandwidth for installation of Office 365?"
       choices:
       - content: "Background Intelligent Transfer Service (BITS) "
         isCorrect: false
-        explanation: "No, this is ..."
+        explanation: "No, this is false. UWP Apps is NOT a tool for managing this bandwidth."
       - content: "Low Extra Delay Background Transport (LEDBAT)"
         isCorrect: false
-        explanation: "No, this is ..."
+        explanation: "No, this is false. UWP Apps is NOT a tool for managing this bandwidth."
       - content: "UWP  Apps"
         isCorrect: true
-        explanation: "Yes, this is ..."
+        explanation: "Yes, this is true."
       - content: "BranchCache"
         isCorrect: false
-        explanation: "No, this is ..."
+        explanation: "No, this is false. UWP Apps is NOT a tool for managing this bandwidth."
       - content: "Peer Cache"
         isCorrect: false
-        explanation: "No, this is ..."
+        explanation: "No, this is false. UWP Apps is NOT a tool for managing this bandwidth."
