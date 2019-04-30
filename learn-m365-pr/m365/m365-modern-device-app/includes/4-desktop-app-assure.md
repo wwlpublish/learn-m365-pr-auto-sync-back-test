@@ -1,4 +1,4 @@
-## Desktop App Assure
+
 Another tool to help with Windows 10 and Office 365 ProPlus app compatibility is the Desktop App Assure program through the FastTrack Center, available when purchasing any of the Windows 10 or Microsoft 365 eligible services. In the event of a valid application issue during Windows 10 or Office 365 ProPlus deployment, a FastTrack specialist will work with you at no additional cost to provide guidance to help remediate the application incompatibility.
 
 The Desktop App Assure program does not help with app inventory and testing. This should be done as part of your device and app readiness. Organizations are responsible for creating an app inventory and validating those apps on Windows 10 and Office 365 ProPlus. FastTrack also does not provide assistance in researching third-party ISV apps for compatibility or support statements.  However, FastTrack will provide Desktop App Assure assistance and support for compatibility blockers targeting a supported version of Windows 10 and Office 365 ProPlus. 
