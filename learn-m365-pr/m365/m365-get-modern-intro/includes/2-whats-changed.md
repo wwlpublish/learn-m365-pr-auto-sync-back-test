@@ -1,4 +1,4 @@
-![video](../media/video.png)
+![video](../media/video-50.png)
 
 ### What's changed?
 
@@ -14,7 +14,7 @@ Here are some of the core changes to Windows 10 and Office 365 ProPlus:
 
 **Click-to-Run deployments.** When provisioning Office desktop apps, Office 365 ProPlus is the preferred option  for giving you access to the newest innovations in Office as they are developed. Office 365 ProPlus uses a new installation called Click-to-Run which is different from the MSI-based packages of the past. Click-to-Run is faster, lighter, and supports updates in the background to keep your users up and running. It is still a local copy of Office and you can continue to use your existing deployment tools, like System Center Configuration Manager, to provision and configure the apps.
 
-![step7](../media/step7.png)
+![step7](../media/step7-50.png)
 
 **Semi-annual updates.** Once you have moved to Windows 10 and Office 365 ProPlus, updates are delivered semi-annually with new features. With Microsoft able to deliver diagnostic data from the cloud to help, you can quickly and confidently roll out these updates to hundreds or thousands of devices to meet your organization’s update compliance timelines.
 
