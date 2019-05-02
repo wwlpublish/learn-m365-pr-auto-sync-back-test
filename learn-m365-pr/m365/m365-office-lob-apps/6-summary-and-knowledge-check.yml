@@ -70,10 +70,10 @@ quiz:
       choices:
       - content: "True"
         isCorrect: false
-        explanation: "Incorrect. The Office Deployment Tool is required but the Office Customizaton Tool is recommended. You can still build an XML file in Notepad."
+        explanation: "Incorrect. The Office Deployment Tool is required but the Office Customization Tool is recommended."
       - content: "False"
         isCorrect: true
-        explanation: "Correct. The Office Deployment Tool is required but the Office Customizaton Tool is recommended. You can still build an XML file in Notepad."
+        explanation: "Correct. The Office Deployment Tool is required but the Office Customization Tool is recommended."
     - content: "Using RemoveMSI to remove previous versions of Office removes all settings, preferences, and documents as well."
       choices:
       - content: "True"
@@ -82,40 +82,40 @@ quiz:
       - content: "False"
         isCorrect: true
         explanation: "Correct. User settings, preferences, and documents are retained even if all Office products are uninstalled."
-    - content: "Which of the following tools do NOT work with MSI-based packages for Line of Business app delivery?"
+    - content: "Which of the following tools do NOT work with MSI-based packages for line-of-business app delivery?"
       choices:
       - content: "MSIX"
         isCorrect: true
-        explanation: "Correct. MSIX does not work with MSI-based packages for Line of Business app delivery."
+        explanation: "Correct. MSIX does not work with MSI-based packages for line-of-business app delivery."
       - content: "System Center Configuration Manager"
         isCorrect: false
-        explanation: "No, MSIX does not work with MSI-based packages for Line of Business app delivery."
+        explanation: "No, MSIX does not work with MSI-based packages for line-of-business app delivery."
       - content: "Windows 10"
         isCorrect: false
-        explanation: "No, MSIX does not work with MSI-based packages for Line of Business app delivery."
+        explanation: "No, MSIX does not work with MSI-based packages for line-of-business app delivery."
       - content: "Microsoft InTune"
         isCorrect: false
-        explanation: "No, MSIX does not work with MSI-based packages for Line of Business app delivery."
-    - content: "Which of the following is NOT a method of delivering Line of Business apps?"
+        explanation: "No, MSIX does not work with MSI-based packages for line-of-business app delivery."
+    - content: "Which of the following is NOT a method of delivering line-of-business apps?"
       choices:
       - content: "MSIX"
         isCorrect: false
-        explanation: "No, Click-to-Run is not a method of delivering Line of Business apps."
+        explanation: "No, Click-to-Run is not a method of delivering line-of-business apps."
       - content: "Click-to-Run"
         isCorrect: true
-        explanation: "Correct. Click-to-Run is not a method of delivering Line of Business apps."
+        explanation: "Correct. Click-to-Run is not a method of delivering line-of-business apps."
       - content: "PC Imaging"
         isCorrect: false
-        explanation: "No, Click-to-Run is not a method of delivering Line of Business apps."
+        explanation: "No, Click-to-Run is not a method of delivering line-of-business apps."
       - content: "Windows 10"
         isCorrect: false
-        explanation: "No, Click-to-Run is not a method of delivering Line of Business apps."
+        explanation: "No, Click-to-Run is not a method of delivering line-of-business apps."
       - content: "Microsoft Store"
         isCorrect: false
-        explanation: "No, Click-to-Run is not a method of delivering Line of Business apps."
+        explanation: "No, Click-to-Run is not a method of delivering line-of-business apps."
       - content: "Browser-based apps"
         isCorrect: false
-        explanation: "No, Click-to-Run is not a method of delivering Line of Business apps."
+        explanation: "No, Click-to-Run is not a method of delivering line-of-business apps."
       - content: "MSI-Based deployments"
         isCorrect: false
-        explanation: "No, Click-to-Run is not a method of delivering Line of Business apps."
+        explanation: "No, Click-to-Run is not a method of delivering line-of-business apps."
