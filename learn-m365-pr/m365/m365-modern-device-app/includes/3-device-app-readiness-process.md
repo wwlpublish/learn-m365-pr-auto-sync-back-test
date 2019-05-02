@@ -12,11 +12,7 @@ We just learned about the two inventory tools available in Microsoft 365: an upg
 
 The Windows Analytics Upgrade Readiness service uses an agent-less process to inventory the computers, applications, and Office add-ins across your desktop estate.
 
-![inventory1-25](../media/inventory1-25.png)
-
 ![inventory1-50](../media/inventory1-50.png)
-
-![inventory1-75](../media/inventory1-75.png)
 
 It also provides reports on highly visited internet sites, apps, and intranet locations to help you with compatibility testing later. 
 
