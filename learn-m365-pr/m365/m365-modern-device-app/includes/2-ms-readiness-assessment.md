@@ -1,5 +1,5 @@
 
-![step-1-video](../media/video.png)
+![step-1-video](../media/video-50.png)
 
 ### Checking readiness with Windows 10 compatibility scan
 
