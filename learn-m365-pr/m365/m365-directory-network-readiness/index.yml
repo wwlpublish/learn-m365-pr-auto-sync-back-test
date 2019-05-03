@@ -9,7 +9,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Directory and network readiness in Microsoft 365
-summary: Learn how new tools and deployment options reduce and streamline network traffic. 
+summary: Cloud connected services in Office 365 ProPlus and new deployment options like Windows Autopilot require Azure Active Directory. Your network and connectivity are also important areas to plan when moving Windows images, apps, drivers, and related files to your PCs. In this module, you’ll learn how new tools and deployment options reduce and streamline network traffic.
 abstract: |
   At the end of this module, you should be able to:
   - Describe the directory and network readiness requirements for deploying Office 365 ProPlus 

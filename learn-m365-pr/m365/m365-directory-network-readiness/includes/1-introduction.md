@@ -1,3 +1,6 @@
+![step-2-wheel](../media/step2-wheel-icon.png)
+
+![step-2-icon](../media/step2-icon.png)
 
 Directory and network readiness is fundamental to ensuring a smooth OS and desktop deployment. The network needs to be able to support the transfer of very large files, possibly to hundreds or even thousands of PCs at a time. As with any automated deployment, it’s important to ensure that users can reach file shares,  that files and settings are available, and that the network is not overloaded.
 
