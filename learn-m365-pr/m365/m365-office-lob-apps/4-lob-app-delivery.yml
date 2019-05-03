@@ -1,12 +1,12 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.office-lob-apps.4-lob-app-delivery
-title: Line of business app delivery
+title: Line-of-business app delivery
 metadata:
-  title: Line of business app delivery
+  title: Line-of-business app delivery
   description: Learn about ...
-  msdate: 04/28/2019
-  author: lizap
-  ms.author: elizapo
+  msdate: 05/02/2019
+  author: aleha
+  ms.author: aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
   ROBOTS: NOINDEX
