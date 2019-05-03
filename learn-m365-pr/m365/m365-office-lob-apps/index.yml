@@ -1,21 +1,21 @@
 ### YamlMime:Module
 uid: learn-m365.office-lob-apps
 metadata:
-  title: Delivering Office and line of business apps in Microsoft 365
-  description: Learn how Click-to-Run provides new options and keeps your Office apps up-to-date.
-  ms.date: 04/28/2019
-  author: lizap
-  ms.author: elizapo
+  title: Delivering Office and line-of-business apps in Microsoft 365
+  description: Learn how Click-to-Run packaging with Office 365 ProPlus provides new options to configure, deliver, and keep your Office apps up-to-date.
+  ms.date: 05/02/2019
+  author: aleha
+  ms.author: aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Delivering Office apps and line of business apps in Microsoft 365
-summary: Learn how to collect and inventory your devices and applications, prioritizing what you need to move forward by testing prioritized apps and devices, then remediating what’s most business critical to get ready for deployment. 
+title: Delivering Office and line-of-business apps in Microsoft 365
+summary: Learn how Click-to-Run packaging with Office 365 ProPlus provides new options to configure, deliver, and keep your Office apps up-to-date. Ensure your third-party and line-of-business apps are packaged and ready for automated installation. 
 abstract: |
   At the end of this module, you should be able to:
   - Explain the Office 365 ProPlus installation and configuration process 
   - Explain what Click-to-Run is and how it works with Office 365 ProPlus 
   - Describe the tools available for initial installation as well as upgrading from a legacy version of Office
-  - Explain Line of Business app delivery and how it differs from Office installation
+  - Explain line-of-business app delivery and how it differs from Office installation
   - Describe Microsoft Store and MSIX options for app delivery 
 prerequisites: None
 iconUrl: /learn/achievements/intro-to-m365-unified-endpoint-mgmt.svg

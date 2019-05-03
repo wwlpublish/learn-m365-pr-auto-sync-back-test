@@ -1,13 +1,15 @@
 ## Microsoft Store for Business
-Microsoft Store for Business provides a flexible way to discover, acquire, manage, and distribute free and paid apps to Windows 10 devices at scale. IT admins can publish selected Microsoft Store apps, along with custom organizational apps, to your own private store while assigning and re-using licenses as needed. End users are directed to this private store and can only find and install approved apps.
 
-Store apps can be natively built as Universal Windows Platform (UWP) apps or you can use the Desktop Bridge to repackage your existing apps for the Store and add modern experiences for Windows 10. Aside from the code that to light up Windows 10 experiences, your app remains unchanged and continues to run in full-trust user mode.
+Microsoft Store for Business provides a flexible way to discover, acquire, manage, and distribute free and paid apps to Windows 10 devices at scale. You as an IT admin can publish selected Microsoft Store apps, along with custom organizational apps, to your own private store while assigning and re-using licenses as needed. End users are directed to this private store and can only find and install approved apps.
+
+Store apps can be natively built as Universal Windows Platform (UWP) apps or you can use the Desktop Bridge to repackage your existing apps for the store and add modern experiences for Windows 10. All your apps remain unchanged and continue to run in full-trust user mode.
 
 
-## MSIX 
-A new option for application packaging is MSIX which uses the containerization technology available in Windows, bringing together the best aspects of Click-to-Run, UWP, and MSI packaging. With tools to migrate existing installers like EXE, MSI, APPV and APPX directly to it, MSIX provides a unified path for the many installation technologies in use today. MSIX support is included in current versions of Windows: any device running Windows 10 RS5 or newer includes everything you need to install and run MSIX packaged apps. Windows 10 dynamically integrates MSIX containers it receives, while keeping the applications separate from the operating system.
+## MSIX
+ 
+A new option for application packaging is MSIX which uses the containerization technology available in Windows, bringing together the best aspects of Click-to-Run, UWP, and MSI packaging. With tools to migrate existing installers like EXE, MSI, APPV and APPX directly to it, MSIX provides a unified path for the many installation technologies in use today. MSIX support is included in current versions of Windows; any device running Windows 10 RS5 or newer includes everything you need to install and run MSIX packaged apps. Windows 10 dynamically integrates MSIX containers it receives, while keeping the applications separate from the operating system.
 
-Containerization means clean uninstall and removal of packages, unlike many  MSI and EXE-based packages today. It also means only needing Standard User credentials to install applications – you do not have to have Administrator credentials to install MSIX containers.
+Containerization means clean uninstall and removal of packages, unlike many  MSI and EXE-based packages. It also means only needing standard user credentials to install applications – you do not have to have administrator credentials to install MSIX containers.
  
 MSIX containers are also more efficient to update. When an update is published, use of block-level differentials means only net new binaries are applied, reducing the update payload, for faster deployments consuming less network bandwidth.
 
