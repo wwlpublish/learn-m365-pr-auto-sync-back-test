@@ -2,15 +2,9 @@
 
 When it comes to preparing your network for a deployment, you need to take into consideration any and all components that have an impact on bandwidth. The most important considerations are:
 
-- Ports and protocols
-- Increased network demand
 - PC imaging and app installations
 - Software updates
 - User personalization
-
-**Ports and protocols.** In preparation for your deployment, you need to make sure that the right ports and protocols are open. Microsoft has created a web service to publish the Office 365 endpoints-this helps you identify which network traffic is related to Office 365 ProPlus. You can learn more about the ports, protocols, and endpoints at [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) in the Office 365 ProPlus technical library.
-
-**Increased network demand.** PC imaging, app installations, software updates, and user personalization in particular can increase bandwidth in excess of 20 GB per PC for the initial migration, and often 1 GB or more per month per PC to stay up-to-date. 
 
 **PC imaging and app installations.** For Windows images with no customization you should plan typically for 3GB per PC, while for customized images with apps you may need to allow 6GB or more. You may also need to consider driver packages; these can be a few hundred megabytes per PC, sometimes up to 1GB.
 
