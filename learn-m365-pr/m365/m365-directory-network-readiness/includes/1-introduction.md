@@ -1,4 +1,4 @@
-![step-2-wheel](../media/step-2-wheel-icon.png)
+![step-2-wheel](../media/step-2-wheel.png)
 
 ![step-2-icon](../media/step-2-icon.png)
 
