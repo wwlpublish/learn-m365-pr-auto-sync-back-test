@@ -1,9 +1,9 @@
-## Overcoming potential security-related deployment blockers
+
 Before detailing the new capabilities available in Windows 10 and Office 365 ProPlus and connecting those experiences to the cloud, we’ll start by covering a few trends that can often interrupt the deployment progress.
 
 **Disk encryption.** One of the initial challenges during desktop deployment is hard disk encryption. Many hard disk encryption solutions cannot easily be upgraded from a previous version to a newer version of Windows.
 
-Some disk encryption solutions allow you to perform the upgrades when using the ‘/reflectdrivers’ option with Windows Setup on certain platform versions, but others may require you to unencrypt the drive prior to deployment and then re-encrypt after Windows 10 is installed. Some solutions do not allow you to move from Master Boot Record (MBR), using legacy BIOS, to GUID Partition Table (GPT), required for UEFI. This is important because the 64-bit version of Windows 10 with UEFI is required for the new virtualization-based security capabilities in Windows 10.
+Some disk encryption solutions allow you to perform the upgrades when using the ‘/reflectdrivers’ option with Windows Setup on certain platform versions, but others may require you to unencrypt the drive prior to deployment and then re-encrypt after Windows 10 is installed. Some solutions do not allow you to move from a Master Boot Record (MBR), using legacy BIOS, to a GUID Partition Table (GPT), required for UEFI. This is important because the 64-bit version of Windows 10 with UEFI is required for the new virtualization-based security capabilities in Windows 10.
 
 One option for resolving these issues is using BitLocker in Windows 10, which is included in Windows 10 Pro and higher editions. BitLocker allows you to suspend protection for OS upgrades and feature updates as part of the process.
 

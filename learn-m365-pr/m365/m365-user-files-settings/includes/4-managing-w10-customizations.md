@@ -1,4 +1,4 @@
-### Start Menu and Task Bar customization
+## Start Menu and Task Bar customization
 
 OneDrive is designed to sync and protect files and folders, but it does not sync application or Windows settings. To do this in the past, you may have used the copy profile method to configure standard layouts for users’ start menus and taskbar settings. In Windows 10 Pro, Enterprise, and Education, you can use Group Policy, MDM, PowerShell, or provisioning packages to deploy customized start and taskbar layouts. No reimaging is required and the layout can be updated simply by overwriting the .xml file that contains the layout.
 
@@ -9,6 +9,6 @@ To create a new layout:
 4. Use Policy or the **Import-StartLayout cmdlet** to reference this file.
 
 
-### Removing unwanted in-box apps
+## Removing unwanted in-box apps
 
 Windows 10 includes many useful built-in apps as part of the standard installation, but your organization may want to remove some of these from your managed PCs. Some organizations may even configure the installation to prevent those apps from returning, for example XBOX or Zune Music. You can retrieve a list of these apps using the **PowerShell Get-AppxPackage** commands, and remove those you do not want using the **Remove-AppxPackage** command. You can also mount the Windows Image (.img) file offline before deployment, and extract packages you do not want using the Deployment Image Servicing and Management (DISM) command line tool with the **Remove-AppxProvisionedPackage** command.
