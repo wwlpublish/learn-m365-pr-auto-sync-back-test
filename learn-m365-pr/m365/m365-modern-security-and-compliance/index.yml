@@ -3,13 +3,13 @@ uid: learn-m365.get-modern-security-compliance
 metadata:
   title: Security and compliance – Windows 10 and Office 365 ProPlus
   description: Learn how to protect your data, devices, and users while quickly detecting and responding to threats.
-  ms.date: 04/28/2019
-  author: lizap
-  ms.author: elizapo
+  ms.date: 05/06/2019
+  author: aleha
+  ms.author: aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Security and compliance – Windows 10 and Office 365 ProPlus
-summary: Windows 10 and Office 365 ProPlus provide new ways to protect your data, devices, and users while quickly detecting and responding to threats. Learn how to deal with common problems associated with disk encryption, anti-malware apps, and policies when moving to Windows 10.
+summary: Windows 10 and Office 365 ProPlus provide new ways to protect your data, devices, and users while quickly detecting and responding to threats. Learn about anti-malware app compatibility, policies when moving to Windows 10, and how to deal with common problems associated with disk encryption.
 abstract: |
   At the end of this module, you should be able to:
   - Explain the most common security-related problems and their solutions that interrupt Microsoft 365 deployments 
