@@ -1,12 +1,12 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.modern-os-deployment.1-introduction
-title: Overview of OS deployment
+title: Introduction to OS deployment
 metadata:
-  title: Overview of OS deployment
+  title: Introduction to OS deployment
   description: Introduction to OS deployment
-  msdate: 04/28/2019
-  author: lizap
-  ms.author: elizapo
+  msdate: 05/07/2019
+  author: aleha
+  ms.author: aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
   ROBOTS: NOINDEX

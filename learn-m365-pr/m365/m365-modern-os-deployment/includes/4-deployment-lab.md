@@ -4,8 +4,6 @@ This downloadable hands-on lab focuses on Windows 10 deployment and Office 365 d
 
 These labs are designed to help you plan, test, and validate your deployment and management of desktops running Windows 10 Enterprise and Office 365 ProPlus. The labs cover the steps and tools outlined in the Desktop Deployment wheel, spanning System Center Configuration Manager, Windows Analytics, Office Customization Tool, OneDrive, Windows Autopilot and more.
 
-[Download the Windows and Office Deployment Lab](https://labondemand.com/LabProfile/46323)
-
 ### A complete lab environment
 
 The lab provides you with an automatically provisioned virtual lab environment, including domain-joined desktop clients, domain controller, Internet gateway, and a fully configured ConfigMgr instance. The lab contains evaluation versions of the following products:
@@ -37,7 +35,7 @@ Detailed lab guides take you through multiple deployment and management scenario
 - ConfigMgr and Microsoft Intune Co-Management
 - Remote Access (VPN)
 
-**Office and line of business app delivery**
+**Office and line-of-business app delivery**
 
 - Office 365 ProPlus deployment using System Center Configuration Manager
 - Office 365 ProPlus deployment using Microsoft Intune
@@ -83,8 +81,7 @@ Detailed lab guides take you through multiple deployment and management scenario
 - Office 365 ProPlus update management in Configuration Manager
 - Mobile Device Management applied to Windows 10 using Microsoft Intune
 
-
 [Download the Windows and Office Deployment Lab](https://labondemand.com/LabProfile/46323)
 
-Use a broad bandwidth to download this content to enhance your downloading experience and allow 30-45 minutes for automatic provisioning. The lab environment requires a minimum of 16 GB of available memory and 150 GB of free disk space. For optimal performance, 32 GB of available memory is recommended.
+Use a broad bandwidth to download this content and allow 30-45 minutes for automatic provisioning. The lab environment requires a minimum of 16 GB of available memory (32 GB is recommended for optimal performance) and 150 GB of free disk space. 
 
