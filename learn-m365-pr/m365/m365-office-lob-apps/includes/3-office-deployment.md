@@ -2,7 +2,13 @@
 
 Office applications are delivered and managed via the Office Deployment Tool which is the Office setup engine needed to download, configure, and customize your Office apps. Through this Microsoft-recommended tool, you can set the applications and languages to be installed, the method for updating the applications, application preferences, and installation experience settings.
 
-If you use System Center Configuration Manager, you can still use it for broad deployment of Office 365 ProPlus. System Center Configuration Manager has native support for the updated Office Customization Tool, package customization for Click-to-Run at install time, and native support for software update management after installation. For organizations using Microsoft Intune, admins can also assign Office 365 ProPlus applications to Windows 10 devices. Intune supports both 32-bit and 64-bit versions of Office 365 ProPlus, as well as the ability to leverage the RemoveMSI element, which removes legacy Office installations from a computer.
+![step-3-icon](../media/step-3-office-and-lob-app-delivery-media-7-50.png)
+
+If you use System Center Configuration Manager, you can still use it for broad deployment of Office 365 ProPlus. System Center Configuration Manager has native support for the updated Office Customization Tool, package customization for Click-to-Run at install time, and native support for software update management after installation. 
+
+![step-3-icon](../media/step-3-office-and-lob-app-delivery-media-6-50.png)
+
+For organizations using Microsoft Intune, admins can also assign Office 365 ProPlus applications to Windows 10 devices. Intune supports both 32-bit and 64-bit versions of Office 365 ProPlus, as well as the ability to leverage the RemoveMSI element, which removes legacy Office installations from a computer.
 
 ## Upgrading from legacy Office to Office 365 ProPlus
 

@@ -1,4 +1,4 @@
-![video](../media/video-50.png)
+[![Getting started intro video](../media/video-50.png)](https://www.microsoft.com/en-us/videoplayer/embed/RE2ShIe)
 
 ### What's changed?
 

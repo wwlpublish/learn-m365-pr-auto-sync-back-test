@@ -1,5 +1,5 @@
 
-![step-1-video](../media/video-50.png)
+[![device and application readiness video](../media/video-50.png)(https://www.microsoft.com/en-us/videoplayer/embed/RE2SmUt)
 
 ### Checking readiness with Windows 10 compatibility scan
 
