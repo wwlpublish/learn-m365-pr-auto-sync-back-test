@@ -1,3 +1,7 @@
+![step-7-wheel](../media/step-7-wheel.png)
+
+![step-7-icon](../media/step-7-icon.png)
+
 ## Introduction to update types
 Both Windows 10 and Office 365 ProPlus introduce new servicing options, support models, and update timelines. These changes simplify the process for staying current on the latest features. Along with these updates, new configuration options provide you with convenient servicing plans. In this module, we’ll cover the update model changes and Microsoft’s recommendations for managing both Windows and Office servicing.
 
