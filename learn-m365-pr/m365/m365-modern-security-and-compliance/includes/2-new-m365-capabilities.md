@@ -37,3 +37,5 @@ Along with the Microsoft Intelligent Security Graph, you have faster access to b
 
 ## Microsoft Intune
 [Microsoft Intune](https://docs.microsoft.com/intune/introduction-intune) serves as a cloud-based management service for mobile scenarios, including iOS, Android, and Windows devices, and it can now be configured by co-management to complement and extend controls for specific workloads managed by System Center Configuration Manager. Devices accessing protected resources can be required to enroll in device management, even non-managed, non-domain joined or non-Azure AD joined devices. You can also take advantage of granular configuration and compliance policy enforcement at the operating system and application level. Application policies and settings can be configured centrally and enforced for Office 365 ProPlus and Store apps in Windows 10 using Microsoft Intune.
+
+![step-5-1](../media/step-5-1.png)
