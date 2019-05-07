@@ -1,4 +1,4 @@
->[!VIDEO https://www.microsoft.com/videoplayer/embed/RE2SxiJ]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2SxiJ]
 
 ## Overview of the imaging process
 
