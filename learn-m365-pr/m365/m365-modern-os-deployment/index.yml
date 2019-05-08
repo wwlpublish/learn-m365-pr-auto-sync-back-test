@@ -3,9 +3,9 @@ uid: learn-m365.modern-os-deployment
 metadata:
   title: OS deployment and feature updates
   description: Learn about task sequence automation and the option of Windows Autopilot to help automate large scale phased deployments.
-  ms.date: 04/28/2019
-  author: lizap
-  ms.author: elizapo
+  ms.date: 05/07/2019
+  author: aleha
+  ms.author: aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: OS deployment and feature updates
