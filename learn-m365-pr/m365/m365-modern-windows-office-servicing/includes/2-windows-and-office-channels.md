@@ -1,7 +1,11 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2SpvU]
+
 ## Introduction to channels
+
 To align with the new method of delivering feature and quality updates in Windows 10, Microsoft introduced the concept of servicing channels to allow customers to designate how frequently their individual devices are updated. For example, an organization may have test devices that the IT department can update with new features as soon as possible as well as specialized devices that require a longer feature update cycle to ensure continuity. 
 
 ## Windows 10 servicing channels
+
 Windows 10 offers 3 servicing channels:
 
 - **Windows Insider Program** is available for organizations to test and provide feedback on features shipping in the next update. For many IT pros, early visibility into feature updates can be invaluable for both end-user communications as well as early testing. With Windows 10, flightening (rolling out features in different stages) enables Windows Insiders to gain early access to updates and test them for possible issues before the update is broadly distributed.
@@ -11,6 +15,7 @@ Windows 10 offers 3 servicing channels:
 - **Long Term Servicing Channel (LTSC)** provides feature updates every 2–3 years and is designed only for specialized devices or systems needing a longer servicing option. LTSC is available only in the Windows 10 Enterprise LTSB edition and does not include applications not supported on Windows 10 Enterprise LTSB edition, including Office 365 ProPlus.
 
 ## Office 365 ProPlus Servicing Channels
+
 Office 365 offers four servicing channels:
 
 - **Office Insider Program** allows for organizations to test and provide feedback on the newest Office features and functionalities still in development.

@@ -9,7 +9,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: OS deployment and feature updates
-summary: Learn about task sequence automation and the option of Windows Autopilot to help automate large scale phased deployments.
+summary: Learn how to take advantage of familiar options, such as task sequence-based deployment, or modern options such as Windows Autopilot to help automate large scale, phased deployment for bare metal installs, PC refresh, and PC replacement. Additionally, understand how upgrading task sequences can help organizations stay current with major semi-annual updates.
 abstract: |
   At the end of this module, you should be able to:
   - Explain the Windows imaging process

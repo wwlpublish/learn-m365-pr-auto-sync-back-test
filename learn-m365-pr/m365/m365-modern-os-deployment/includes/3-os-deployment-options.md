@@ -15,6 +15,8 @@ There are some situations where you cannot execute an in-place upgrade. In these
 
 You can have more control over the upgrade process by using tools like System Center Configuration Manager or the Microsoft Deployment Toolkit to completely automate the upgrade process through simple task sequences. A new option, System Center Configuration Manager task sequence with Windows 10, allows you to complete an in-place upgrade using the upgrade task sequence. Previous versions of Windows do not require a task sequence for in-place upgrades, but we do recommend it when deploying Windows 10 at enterprise scale. And while an in-place upgrade does not allow you to apply a custom image with applications, you can update the default install.wim by, for example, installing the latest Windows updates in your task sequence prior to performing the upgrade.
 
+![step-1-icon](../media/step-6-1.png)
+
 The in-place upgrade scenario can be used to migrate to Windows 10 from legacy versions of Windows, as well as to upgrade from previous versions of Windows 10. After Windows Setup completes the upgrade, the task sequence can continue to run and upgrade applications like Office, replace drivers, and apply personalization settings. Likewise, the upgrade task sequence can be used to perform pre-installation tasks or checks prior to carrying out the upgrade.
 
 ## Windows Autopilot

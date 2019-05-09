@@ -1,8 +1,8 @@
-[![office and LOB app delivery video](../media/step-3-video-50.png)](https://www.microsoft.com/en-us/videoplayer/embed/RE2SmUv)
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2SmUv]
 
 Office 365 ProPlus and Office 2019 are both installed using Click-to-Run which replaces MSI-based packaging in previous legacy Office deployments. It brings with it a number of advantages, including faster installations, faster and more efficient updating, and cleaner uninstallation. Programs delivered via Click-to-Run execute in a virtual application environment on your computer and co-exist with other applications without conflict. They also utilize about half the disk space of an MSI-based package.
 
-### About Office 365 ProPlus
+## About Office 365 ProPlus
 
 Office 365 ProPlus is a full version of Office available through Office 365 that includes the Office apps you’re familiar with. It allows connections to Office 365 services such as SharePoint Online, Exchange Online, and Teams. Office 365 ProPlus is similar to other versions of Office in that:
 

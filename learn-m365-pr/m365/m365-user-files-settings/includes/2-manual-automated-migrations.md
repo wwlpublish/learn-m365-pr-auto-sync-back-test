@@ -1,11 +1,10 @@
-[![Migrating user files and settings video](../media/step-4-video-50.png)](https://www.microsoft.com/en-us/videoplayer/embed/RE2SpvT)
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2SpvT]
 
 ## Migrate user data manually
 
 When it comes to deciding what to transfer and what to discard, some users may want to keep everything, and others may want to take the opportunity to clean up their drives. IT departments may choose to handle user file migration manually, such as having support teams visit users or setting up support centers for users to bring their PCs to the support team. Either way users can be involved in deciding what to transfer and what to discard.
 
 Whether the manual approach is an option in your organization will depend on the scale of the migration. It is important to remember the natural limitations of the time and logistics involved in working directly with users, understanding their needs, and copying files across to their new or updated PCs. Some organizations take a standardized approach for all users in order to make the migration as efficient as possible while meeting business requirements. If you are opting for a manual migration, you may need to assess whether you’ll be able to complete the task by January 2020 when support for Windows 7 ends. 
-
 
 ## Migrate user data automatically with the User State Migration Tool
 

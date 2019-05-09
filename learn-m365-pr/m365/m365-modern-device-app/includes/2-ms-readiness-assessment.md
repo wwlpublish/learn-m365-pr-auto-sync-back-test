@@ -1,5 +1,4 @@
-
-[![device and application readiness video](../media/video-50.png)](https://www.microsoft.com/en-us/videoplayer/embed/RE2SmUt)
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2SmUt]
 
 ## Checking readiness with Windows 10 compatibility scan
 
@@ -15,7 +14,6 @@ Setup.EXE /Auto Upgrade /Quiet /NoReboot /Compat ScanOnly
 Windows Analytics Upgrade Readiness is our recommended tool for assessing your organization’s readiness. It guides you through any necessary preparation tasks, making use of application and driver compatibility information gathered through the upgrade of hundreds of millions of consumer PCs. This information gives you a detailed assessment, identifies compatibility issues that might block your upgrade, and is supported with links to suggested fixes known to Microsoft.
 
 To set up Window Analytics Upgrade Readiness you’ll first need to set up an Azure subscription, including an Azure Log Analytics workspace. Once Windows Analytics Upgrade Readiness is running, you can then enroll any Internet-connected Windows 7 SP1 or newer device via Group Policy settings to start collecting diagnostic data. There are no agents to deploy, and Windows Analytics Upgrade Readiness’s visual workflow guides you from pilot to production deployment. If you wish, you can export data from Windows Analytics Upgrade Readiness to software deployment tools such as System Center Configuration Manager to target PCs directly and build device collections as they become ready for deployment.
-
 
 ## Using the Readiness Toolkit for Office
 

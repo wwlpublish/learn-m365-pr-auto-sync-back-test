@@ -1,4 +1,4 @@
-[![directory and network readiness video](../media/step-2-video-50.png)](https://www.microsoft.com/en-us/videoplayer/embed/RE2SuIb)
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2SuIb]
 
 Azure Active Directory (Azure AD) is Microsoft’s cloud-based identity and access management service which enables end users to access internal and external resources. Azure AD controls access to your apps and app resources by requiring multi-factor authentication to access important internal assets and by protecting user identities and credentials. Once you have Azure AD in place your users can sign in to and activate their Office 365 ProPlus apps, and you can use Microsoft Intune or Windows Autopilot for automated deployment of apps and policy.
 
