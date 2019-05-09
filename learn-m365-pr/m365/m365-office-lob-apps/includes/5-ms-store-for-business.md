@@ -4,7 +4,6 @@ Microsoft Store for Business provides a flexible way to discover, acquire, manag
 
 Store apps can be natively built as Universal Windows Platform (UWP) apps or you can use the Desktop Bridge to repackage your existing apps for the store and add modern experiences for Windows 10. All your apps remain unchanged and continue to run in full-trust user mode.
 
-
 ## MSIX
  
 A new option for application packaging is MSIX which uses the containerization technology available in Windows, bringing together the best aspects of Click-to-Run, UWP, and MSI packaging. With tools to migrate existing installers like EXE, MSI, APPV and APPX directly to it, MSIX provides a unified path for the many installation technologies in use today. MSIX support is included in current versions of Windows; any device running Windows 10 RS5 or newer includes everything you need to install and run MSIX packaged apps. Windows 10 dynamically integrates MSIX containers it receives, while keeping the applications separate from the operating system.

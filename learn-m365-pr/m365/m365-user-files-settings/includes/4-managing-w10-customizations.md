@@ -8,7 +8,6 @@ To create a new layout:
 3. Place this file on a network share or cache it locally as part of your deployment sequence. It needs to be reachable as a read-only file once the user signs in. 
 4. Use Policy or the **Import-StartLayout cmdlet** to reference this file.
 
-
 ## Removing unwanted in-box apps
 
 Windows 10 includes many useful built-in apps as part of the standard installation, but your organization may want to remove some of these from your managed PCs. Some organizations may even configure the installation to prevent those apps from returning, for example XBOX or Zune Music. You can retrieve a list of these apps using the **PowerShell Get-AppxPackage** commands, and remove those you do not want using the **Remove-AppxPackage** command. You can also mount the Windows Image (.img) file offline before deployment, and extract packages you do not want using the Deployment Image Servicing and Management (DISM) command line tool with the **Remove-AppxProvisionedPackage** command.

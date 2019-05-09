@@ -1,3 +1,6 @@
+> [!NOTE]
+> These labs are tentatively planned to be revised and broken out into specific modules as needed. They are included here for reference.
+
 ## Windows and Office Deployment Lab
 
 This downloadable hands-on lab focuses on Windows 10 deployment and Office 365 deployment along with the related configuration and management considerations post-deployment. This training is highly recommended for organizations preparing for Windows 7 end of life, but also applies if you’re currently using Windows 10 and Office 365 Plus or Office 2019. Included are guides for Windows 10, Office 365 ProPlus, Enterprise Mobility + Security and related products and services.

@@ -20,13 +20,16 @@ With a custom image ready, the installation or migration type will fall into one
 
 All three of these deployment types use a task sequence to run, and a custom image can be applied each time.
 
-
 ## Phased deployment
 
 During deployment planning, you’ll target computers for bare metal, refresh, and replacement, as well as upgrade paths. The recommended approach is to use phased deployment on collections of similar machines. This way, IT admins can validate compatibility, delivery and automation, user acceptance, network bandwidth consumption, and other factors before increasing the scale of the deployment.
+
+![step-6-2-icon](../media/step-6-2.png)
 
 Regardless of the deployment type selected, automation provides predictability and repeatability. Microsoft offers two solutions to automate OS deployment using automated task sequences:
 
 - **System Center Configuration Manager,** which in addition to software distribution and software update management, provides built-in operating system deployment capabilities. When integrated with Microsoft Intune, you can add the capacity for device management.  It is widely used by organizations of all sizes and supports all  Windows deployment types.
 
 - **Microsoft Deployment Toolkit (MDT)** is the other popular and free option which is typically used by small- and medium-sized organizations for OS deployment. This requires very little infrastructure and MDT integrates with Windows Deployment Services (WDS) for network boots. It supports all deployment types as well as installation of applications, drivers, and settings. Additionally, MDT can be integrated with Configuration Manager.
+
+![step-6-3-icon](../media/step-6-3.png)

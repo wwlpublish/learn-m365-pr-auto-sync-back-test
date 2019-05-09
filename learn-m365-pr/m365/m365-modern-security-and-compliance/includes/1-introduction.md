@@ -2,7 +2,7 @@
 
 ![step-5-icon](../media/step-5-icon.png)
 
-Before detailing the new capabilities available in Windows 10 and Office 365 ProPlus and connecting those experiences to the cloud, we’ll start by covering a few trends that can often interrupt the deployment progress.
+Before detailing the new capabilities available in Windows 10 and Office 365 ProPlus and connecting those experiences to the cloud, we’ll cover a few security issues that can often interrupt the deployment progress.
 
 **Disk encryption.** One of the initial challenges during desktop deployment is hard disk encryption. Many hard disk encryption solutions cannot easily be upgraded from a previous version to a newer version of Windows.
 

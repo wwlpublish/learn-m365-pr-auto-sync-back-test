@@ -1,5 +1,4 @@
-
-[![security and compliance considerations video](../media/step-5-video-50.png)](https://www.microsoft.com/en-us/videoplayer/embed/RE2SuIa)
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2SuIa]
 
 Let's look at new capabilities you can take advantage of when moving to Windows 10, Office 365 ProPlus, and cloud-based options from Enterprise Mobility + Security and beyond.
 

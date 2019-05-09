@@ -1,6 +1,6 @@
-[![Getting started intro video](../media/video-50.png)](https://www.microsoft.com/en-us/videoplayer/embed/RE2ShIe)
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2ShIeL]
 
-### What's changed?
+## What's changed?
 
 Here are some of the core changes to Windows 10 and Office 365 ProPlus:
 
@@ -18,6 +18,6 @@ Here are some of the core changes to Windows 10 and Office 365 ProPlus:
 
 **Semi-annual updates.** Once you have moved to Windows 10 and Office 365 ProPlus, updates are delivered semi-annually with new features. With Microsoft able to deliver diagnostic data from the cloud to help, you can quickly and confidently roll out these updates to hundreds or thousands of devices to meet your organization’s update compliance timelines.
 
-### Why upgrade?
+## Why upgrade?
 
 if you haven’t shifted your desktop environment in a while, you’re probably using Windows 7 and Office 2010 or Office 2013. In addition to all the advantages of the core changes above, the deployment process itself has improved with new tooling and insights, making past challenges such as application compatibility less of an issue today.

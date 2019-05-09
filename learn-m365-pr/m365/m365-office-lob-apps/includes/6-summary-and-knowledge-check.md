@@ -1,1 +1,1 @@
-In this module you learned about Click-to-Run packaging with Office 365 ProPlus and how it provides new options to configure, deliver, and keep your Office apps up-to-date.
+In this module you learned about delivery options for installing applications, and about Click-to-Run packaging with Office 365 ProPlus and how it provides new options to configure, deliver, and keep your Office apps up-to-date.
