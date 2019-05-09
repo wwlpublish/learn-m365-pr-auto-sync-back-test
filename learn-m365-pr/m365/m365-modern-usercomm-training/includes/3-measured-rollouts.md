@@ -1,7 +1,7 @@
 ## Phased deployments
 In addition to providing proactive end user communications, you might also consider using deployment rings to control the rate of release within your organization. Phased deployment using deployment rings is the concept of starting with small groups and then broadening the deployment scale in a measured way over time. As your organization begins preparing a communication and training plan, these rings should be formed and accounted for in the plan. This way you can reduce potential risk and validate your approach as you open the deployment valve or pause activities as needed, if for example, you see more helpdesk calls than expected. Deployment rings are best created in cooperation with business units and their managers. With careful planning and buy-in from stakeholders, it will be easier to get users on-board and comfortable with any changes coming their way.
 
-![step-8-2-icon](../media/step-8-2-icon.png)
+![step-8-2-icon](../media/step-8-2-50.png)
 
 **Phase 1: The IT team and early adopters.** We recommend beginning deployment with the IT team and enthusiastic early adopters who volunteer for early access. With these “insiders,” you can test communications, impacts of the change, and the effectiveness of your training. During this phase, IT runs small pilots to develop troubleshooting and automation techniques to use during broader deployment phases.
 
@@ -11,7 +11,7 @@ It’s important to have engaged members in the initial pilot phase to ensure th
 
 For this phase, it is especially important to continue to communicate changes and help users take advantage of new capabilities. Users can often de-prioritize or ignore email or other communications coming from IT – so it helps to meet with management to get their help in communicating the changes and drive adoption. End user input is also needed on timeframes to avoid so IT can minimize user disruption. For example, the finance team may be particularly sensitive at the end of fiscal quarters or product development teams during a product launch. 
 
-![step-8-3-icon](../media/step-8-3-icon.png)
+![step-8-3-icon](../media/step-8-3-50.png)
 
 **Phase 3: Broad production deployment.** By the time broad deployment begins, the processes, communications, training, and self-service tools should be refined and in place. Deploy at a rate that is manageable to the IT department, helpdesk, end users, and network capacity. You can always go back to prior deployment steps to further optimize the network by using peer-to-peer cache, LEDBAT, and other techniques to facilitate faster transfer of deployment-related data.
 

@@ -4,7 +4,7 @@
 
 If you’re deploying Office 365 ProPlus for the first time, this is a great opportunity to communicate the benefits of upgrading and the positive impact it will have for users. For example, you might tell them how Office allows saving files to OneDrive or SharePoint which means easier file sharing for users, reducing file branching and allowing for real-time co-authoring. To help users immediately begin taking advantage of the new features, you can provide guidance and training on new in-app capabilities, such as attaching OneDrive linked files in Outlook or using the new Morph slide transitions and Designer features in PowerPoint. For Windows 10, some examples could be helping users to become familiar with new capabilities like Windows Hello biometric login, personalization of the Start menu, and Timeline to easily return to what they were working on.
  
-![step-8-1-icon](../media/step-8-1-icon.png)
+![step-8-1-icon](../media/step-8-1-50.png)
 
 You can also introduce end users to some of the more visible security and compliance controls. Enterprise Mobility + Security, which comprises Azure AD and Microsoft Intune, integrates additional capabilities with Windows 10 and Office 365. For example, if Multi-factor Authentication is enabled, users will need training on how to properly set it up and what the login experience will look like. Azure Information Protection makes it easy for users to classify and label documents, but users will need guidance from the organization on how to properly use the classifications setup.
 
