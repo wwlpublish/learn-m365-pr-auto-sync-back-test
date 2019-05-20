@@ -1,0 +1,294 @@
+{
+  "redirections": [
+    {
+      "source_path": "learn-m365-pr/modules/compliance-with-microsoft-365/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/compliance-with-microsoft-365/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compliance-with-microsoft-365/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/compliance-with-microsoft-365/1-introduction",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compliance-with-microsoft-365/2-compliance-with-microsoft-365.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/compliance-with-microsoft-365/2-compliance-with-microsoft-365",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compliance-with-microsoft-365/3-customer-success-story.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/compliance-with-microsoft-365/3-customer-success-story",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compliance-with-microsoft-365/4-meet-your-compliance-obligations.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/compliance-with-microsoft-365/4-meet-your-compliance-obligations",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compliance-with-microsoft-365/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/compliance-with-microsoft-365/5-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/compliance-with-microsoft-365/6-summary-and-resources.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/compliance-with-microsoft-365/6-summary-and-resources",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/deploy-and-manage-windows-10-and-office-365-proplus/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/deploy-and-manage-windows-10-and-office-365-proplus/index",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/deploy-and-manage-windows-10-and-office-365-proplus/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/deploy-and-manage-windows-10-and-office-365-proplus/1-introduction",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/deploy-and-manage-windows-10-and-office-365-proplus/2-windows-10-and-office-365-proplus.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/deploy-and-manage-windows-10-and-office-365-proplus/2-windows-10-and-office-365-proplus",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/deploy-and-manage-windows-10-and-office-365-proplus/3-customer-success-story.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/deploy-and-manage-windows-10-and-office-365-proplus/3-customer-success-story",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/deploy-and-manage-windows-10-and-office-365-proplus/4-how-modern-is-your-it-organization.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/deploy-and-manage-windows-10-and-office-365-proplus/4-how-modern-is-your-it-organization",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/deploy-and-manage-windows-10-and-office-365-proplus/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/deploy-and-manage-windows-10-and-office-365-proplus/5-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/deploy-and-manage-windows-10-and-office-365-proplus/6-summary-and-resources.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/deploy-and-manage-windows-10-and-office-365-proplus/6-summary-and-resources",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/facilitate-teamwork-with-microsoft-365/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/facilitate-teamwork-with-microsoft-365/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/facilitate-teamwork-with-microsoft-365/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/facilitate-teamwork-with-microsoft-365/1-introduction",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/facilitate-teamwork-with-microsoft-365/2-microsoft-teams-and-office-365.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/facilitate-teamwork-with-microsoft-365/2-microsoft-teams-and-office-365",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/facilitate-teamwork-with-microsoft-365/3-customer-success-story.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/facilitate-teamwork-with-microsoft-365/3-customer-success-story",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/facilitate-teamwork-with-microsoft-365/4-how-well-do-your-teams-work.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/facilitate-teamwork-with-microsoft-365/4-how-well-do-your-teams-work",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/facilitate-teamwork-with-microsoft-365/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/facilitate-teamwork-with-microsoft-365/5-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/facilitate-teamwork-with-microsoft-365/6-summary-and-resources.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/facilitate-teamwork-with-microsoft-365/6-summary-and-resources",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/get-more-from-microsoft-365-with-surface-for-business/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/get-more-from-microsoft-365-with-surface-for-business/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/get-more-from-microsoft-365-with-surface-for-business/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/get-more-from-microsoft-365-with-surface-for-business/1-introduction",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/get-more-from-microsoft-365-with-surface-for-business/2-surface-for-business-devices.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/get-more-from-microsoft-365-with-surface-for-business/2-surface-for-business-devices",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/get-more-from-microsoft-365-with-surface-for-business/3-customer-success-story.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/get-more-from-microsoft-365-with-surface-for-business/3-customer-success-story",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/get-more-from-microsoft-365-with-surface-for-business/4-assess-your-device-needs.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/get-more-from-microsoft-365-with-surface-for-business/4-assess-your-device-needs",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/get-more-from-microsoft-365-with-surface-for-business/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/get-more-from-microsoft-365-with-surface-for-business/5-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/get-more-from-microsoft-365-with-surface-for-business/6-summary-and-resources.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/get-more-from-microsoft-365-with-surface-for-business/6-summary-and-resources",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/get-started-with-microsoft-365-using-fasttrack/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/get-started-with-microsoft-365-using-fasttrack/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/get-started-with-microsoft-365-using-fasttrack/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/get-started-with-microsoft-365-using-fasttrack/1-introduction",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/get-started-with-microsoft-365-using-fasttrack/2-microsoft-helps-you-get-up-and-running-with-fasttrack.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/get-started-with-microsoft-365-using-fasttrack/2-microsoft-helps-you-get-up-and-running-with-fasttrack",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/get-started-with-microsoft-365-using-fasttrack/3-customer-success-story.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/get-started-with-microsoft-365-using-fasttrack/3-customer-success-story",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/get-started-with-microsoft-365-using-fasttrack/4-be-strategic-and-thoughtful-about-your-deployment.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/get-started-with-microsoft-365-using-fasttrack/4-be-strategic-and-thoughtful-about-your-deployment",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/get-started-with-microsoft-365-using-fasttrack/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/get-started-with-microsoft-365-using-fasttrack/5-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/get-started-with-microsoft-365-using-fasttrack/6-summary-and-resources.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/get-started-with-microsoft-365-using-fasttrack/6-summary-and-resources",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/introducing-microsoft-365-and-surface-for-business/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introducing-microsoft-365-and-surface-for-business/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/introducing-microsoft-365-and-surface-for-business/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introducing-microsoft-365-and-surface-for-business/1-introduction",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/introducing-microsoft-365-and-surface-for-business/2-microsoft-365.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introducing-microsoft-365-and-surface-for-business/2-microsoft-365",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/introducing-microsoft-365-and-surface-for-business/3-surface-for-business-devices.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introducing-microsoft-365-and-surface-for-business/3-surface-for-business-devices",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/introducing-microsoft-365-and-surface-for-business/4-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introducing-microsoft-365-and-surface-for-business/4-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/introducing-microsoft-365-and-surface-for-business/5-summary-and-resources.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/introducing-microsoft-365-and-surface-for-business/5-summary-and-resources",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/modern-communications-in-microsoft-teams/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/modern-communications-in-microsoft-teams/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/modern-communications-in-microsoft-teams/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/modern-communications-in-microsoft-teams/1-introduction",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/modern-communications-in-microsoft-teams/2-microsoft-teams-meetings,-voice,-and-devices.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/modern-communications-in-microsoft-teams/2-microsoft-teams-meetings,-voice,-and-devices",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/modern-communications-in-microsoft-teams/3-customer-success-story.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/modern-communications-in-microsoft-teams/3-customer-success-story",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/modern-communications-in-microsoft-teams/4-assess-your-communications-experiences.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/modern-communications-in-microsoft-teams/4-assess-your-communications-experiences",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/modern-communications-in-microsoft-teams/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/modern-communications-in-microsoft-teams/5-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/modern-communications-in-microsoft-teams/6-summary-and-resources.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/modern-communications-in-microsoft-teams/6-summary-and-resources",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/security-with-microsoft-365/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/security-with-microsoft-365/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/security-with-microsoft-365/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/security-with-microsoft-365/1-introduction",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/security-with-microsoft-365/2-security-with-microsoft-365.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/security-with-microsoft-365/2-security-with-microsoft-365",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/security-with-microsoft-365/3-customer-success-story.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/security-with-microsoft-365/3-customer-success-story",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/security-with-microsoft-365/4-assess-your-security-needs.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/security-with-microsoft-365/4-assess-your-security-needs",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/security-with-microsoft-365/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/security-with-microsoft-365/5-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/security-with-microsoft-365/6-summary-and-resources.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/security-with-microsoft-365/6-summary-and-resources",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/welcome-to-microsoft-365/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/welcome-to-microsoft-365/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/welcome-to-microsoft-365/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/welcome-to-microsoft-365/1-introduction",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/modules/welcome-to-microsoft-365/2-executive-welcome.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/welcome-to-microsoft-365/2-executive-welcome",
+      "redirect_document_id": true
+    }
+  ]
+}
