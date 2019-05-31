@@ -1,21 +1,19 @@
 ### YamlMime:Module
 uid: learn-m365.modern-device-app
 metadata:
-  title: Device and app readiness in Microsoft 365
-  description: Get your devices and apps ready for Windows 10 and Office 365 ProPlus with a four-step process - take an inventory, prioritize apps and hardware, test updates for compatibility, and remediate issues. Learn about the tools provided by Microsoft to help you get ready, from the Readiness Toolkit for Office to the Desktop App Assurance program.
+  title: Analyze your device and app readiness
+  description: Learn about the four-step process for analyzing device and application readiness and the tools provided by Microsoft to help you get ready, from the Windows Analytics Upgrade Readiness tool to the Readiness Toolkit for Office.
   ms.date: 04/28/2019
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Device and app readiness in Microsoft 365
-summary: "Get your devices and apps ready for Windows 10 and Office 365 ProPlus with a four-step process - take an inventory, prioritize apps and hardware, test updates for compatibility, and remediate issues. Learn about the tools provided by Microsoft to help you get ready, from the Readiness Toolkit for Office to the Desktop App Assurance program."
+title: Analyze your device and app readiness
+summary: "Learn about the four-step process for analyzing device and application readiness and the tools provided by Microsoft to help you get ready, from the Windows Analytics Upgrade Readiness tool to the Readiness Toolkit for Office."
 abstract: |
   At the end of this module, you should be able to:
-  - Explain the importance of determining device and application readiness 
-  - List the Microsoft readiness assessment tools and explain how to use them 
-  - Explain the device and application readiness process
-  - Describe Desktop App Assure and explain what it does 
+  - Explain the four-step process for analyzing device and application readiness 
+  - List the Microsoft readiness assessment tools and explain how to use them
 prerequisites: None
 iconUrl: /learn/achievements/intro-to-m365-unified-endpoint-mgmt.svg
 ratingEnabled: true
@@ -28,9 +26,10 @@ products:
 - azure
 units:
 - learn-m365.modern-device-app.1-introduction
-- learn-m365.modern-device-app.2-ms-readiness-assessment
+- learn-m365.modern-device-app.2-readiness-assessment-tools
 - learn-m365.modern-device-app.3-device-app-readiness-process
-- learn-m365.modern-device-app.4-desktop-app-assure
-- learn-m365.modern-device-app.5-summary-and-knowledge-check
+- learn-m365.modern-device-app.4-inventory-demo
+- learn-m365.modern-device-app.5-mitigate-app-compatibility
+- learn-m365.modern-device-app.6-summary-and-knowledge-check
 badge: 
   uid: learn-m365.modern-device-app.badges

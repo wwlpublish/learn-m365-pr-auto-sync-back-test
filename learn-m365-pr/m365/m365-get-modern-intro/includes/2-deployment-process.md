@@ -1,6 +1,6 @@
 ![getting-started-icon](../media/getting-started-icon.png “Step 1 icon”)
 
-To help you through the deployment process, we’ve developed the **Desktop Deployment Wheel**. The wheel guides you through the recommended steps for your shift to Windows 10 and Office 365 ProPlus.
+To help you through the deployment process, we’ve developed the **desktop deployment wheel**. The wheel guides you through the recommended steps for your shift to Windows 10 and Office 365 ProPlus.
 
 ![desktop deployment wheel](../media/intro_deploymentwheel.png “desktop deployment wheel”)
 
