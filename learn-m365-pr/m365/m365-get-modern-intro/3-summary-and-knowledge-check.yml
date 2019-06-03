@@ -23,19 +23,16 @@ quiz:
         explanation: "Yes, the first step is to analyze your device and app readiness. You'll take an inventory and verify app compatibility."
       - content: "False"
         isCorrect: false
-        explanation: "No, this the first step in the deployment process."
+        explanation: "No, this is the first step in the deployment process."
 
     - content: "In the second step, analyzing your directory and network readiness, you'll be preparing your bandwidth capacity for which items? Select all that are correct."
       choices:
-      - content: "System images"
+      - content: "System images, application packages, and user files"
         isCorrect: true
-        explanation: "Yes, this item needs bandwidth."
-      - content: "Application packages"
-        isCorrect: true
-        explanation: "Yes, this item needs bandwidth."
-      - content: "User files"
-        isCorrect: true
-        explanation: "Yes, this item needs bandwidth."
+        explanation: "Yes, these items all need bandwidth."
+      - content: "thumbnail images and user settings"
+        isCorrect: false
+        explanation: "No, these items don't use significant bandwidth."
       - content: "social media profiles"
         isCorrect: false
         explanation: "No, you don't need to analyze bandwidth for this."
