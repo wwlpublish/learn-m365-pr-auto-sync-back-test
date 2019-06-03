@@ -3,14 +3,14 @@ uid: learn-m365.modern-device-app.6-summary-and-knowledge-check
 title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
-  description: Review app compatibility issues
+  description: Review the four-step process and readiness assessment tools
   ms.date: 04/28/2019
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
   ROBOTS: NOINDEX
-durationInMinutes: 3
+durationInMinutes: 6
 content: |
   [!include[](includes/6-summary-and-knowledge-check.md)]
 quiz:
@@ -25,36 +25,26 @@ quiz:
         isCorrect: false
         explanation: "No, this statement is true."
       
-    - content: "Microsoft readiness assessment tools include all these EXCEPT:"
+    - content: "In the first step of the readiness process, which two choices are Microsoft inventory tools?"
       choices:
-      - content: "Windows 10 Compatibility scan"
+      - content: "Windows 10 compatibility scan"
         isCorrect: false
-        explanation: "No, Windows 10 Compatibility scan is a readiness assessment tool."
+        explanation: "No, Windows 10 compatibility scan is used for step three, app compatibility."
       - content: "Desktop App Assure "
-        isCorrect: true
-        explanation: "Yes, Desktop App Assure is NOT one of the readiness assessment tools."
+        isCorrect: false
+        explanation: "No, Desktop App Assure is available for step three, app compatibility."
       - content: "Readiness Toolkit for Office"
-        isCorrect: false
-        explanation: "No, Readiness Toolkit for Office is one of the readiness assessment tools."
+        isCorrect: true
+        explanation: "Yes, Readiness Toolkit for Office is one of the readiness inventory tools."
       - content: "Windows Analytics Upgrade Readiness"
-        isCorrect: false
-        explanation: "No, Windows Analytics Upgrade Readiness is one of the readiness assessment tools."
+        isCorrect: true
+        explanation: "Yes, Windows Analytics Upgrade Readiness is one of the readiness inventory tools."
 
     - content: "Device and app readiness is comprised of four steps: 1) Take an inventory, 2) Plan your resources, 3) Test updates for compatibility issues, 4) Remediate issues."
       choices:
       - content: "True"
         isCorrect: false
-        explanation: "No, the second step is Prioritize apps and hardware."
+        explanation: "No, the second step is *prioritize apps and hardware.*"
       - content: "False"
         isCorrect: true
-        explanation: "This is false because the second step is Prioritize apps and hardware."
-    
-    - content: "Windows Analytics Upgrade Readiness service uses an agent-less process to inventory the computers, applications, and Office add-ins across your desktop estate but not browser compatibility."
-      choices:
-      - content: "True"
-        isCorrect: false
-        explanation: "No, Windows Analytics Upgrade Readiness service also addresses browser compatibility issues."
-      - content: "False"
-        isCorrect: true
-        explanation: "Windows Analytics Upgrade Readiness service also addresses browser compatibility issues.."
-        
+        explanation: "This is false because the second step is *prioritize apps and hardware.*"

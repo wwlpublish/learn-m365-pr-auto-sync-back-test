@@ -12,8 +12,8 @@ title: Analyze your device and app readiness
 summary: "Learn about the four-step process for analyzing device and application readiness and the tools provided by Microsoft to help you get ready, from the Windows Analytics Upgrade Readiness tool to the Readiness Toolkit for Office."
 abstract: |
   At the end of this module, you should be able to:
-  - Explain the four-step process for analyzing device and application readiness 
   - List the Microsoft readiness assessment tools and explain how to use them
+  - Explain the four-step process for analyzing device and application readiness 
 prerequisites: None
 iconUrl: /learn/achievements/intro-to-m365-unified-endpoint-mgmt.svg
 ratingEnabled: true
