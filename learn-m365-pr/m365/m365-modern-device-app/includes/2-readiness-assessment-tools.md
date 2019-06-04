@@ -1,6 +1,6 @@
-![step-1-wheel](../media/step1-wheel-icon.png “Step 1 highlighted in deployment wheel”)
+![“Step 1 highlighted in deployment wheel”](../media/step1-wheel-icon.png)
 
-![step-1-icon](../media/step1-icon.png “Step 1 icon”)
+![step-1-icon](../media/step1-icon.png)
 
 Microsoft provides several readiness assessment tools that will streamline your tasks in assessing your device and app readiness.
 
@@ -8,7 +8,7 @@ Microsoft provides several readiness assessment tools that will streamline your 
 
 **Windows Analytics Upgrade Readiness** is a powerful inventory tool that uses an agent-less process to inventory the computers, applications, and Office add-ins across your desktop estate. It’s our recommended tool for assessing your organization’s readiness.
 
-![inventory1-50](../media/inventory1-50.png “Windows Analytics Upgrade Readiness screen 1”)
+![inventory1-50](../media/inventory1-50.png)
 
 Once Upgrade Readiness is running, you can then enroll any Internet-connected Windows 7 SP1 or newer device via Group Policy settings to start collecting diagnostic data. The tool’s visual workflow guides you from pilot to production deployment. If you wish, you can export data to software deployment tools such as System Center Configuration Manager to target PCs directly and build device collections as they become ready for deployment.
 
