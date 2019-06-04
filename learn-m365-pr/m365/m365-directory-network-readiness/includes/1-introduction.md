@@ -1,7 +1,6 @@
-![step-2-wheel](../media/step-2-wheel.png)
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2SuIb]
 
-![step-2-icon](../media/step-2-icon.png)
+Directory and network readiness is a fundamental step in your OS and desktop deployment. Your network needs to be able to support the transfer of very large files to hundreds or even thousands of PCs at a time. As with any automated deployment, it’s important to ensure that users can reach file shares, that files and settings are available, and that the network is not overloaded.
 
-Directory and network readiness is fundamental to ensuring a smooth OS and desktop deployment. The network needs to be able to support the transfer of very large files, possibly to hundreds or even thousands of PCs at a time. As with any automated deployment, it’s important to ensure that users can reach file shares,  that files and settings are available, and that the network is not overloaded.
+As part of your shift to Windows 10 and Office 365 ProPlus you’ll need to set up cloud-based identity with **Azure Active Directory** (Azure AD). This is key not only to activating Office 365 ProPlus, it also allows you to use modern provisioning solutions like Windows Autopilot. In this module, we’ll explore the tools and options for preparing your directory services and network for deployment to Windows 10 and Office 365 ProPlus.
 
-With the shift to Windows 10 and Office 365 ProPlus you’ll need to make sure that cloud-based identity is set up with Azure Active Directory. This is key not only to activating Office 365 ProPlus, it also allows you to take advantage of modern provisioning solutions like Windows Autopilot. In this module, we’ll explore the tools and options for preparing your directory services and network for deployment to Windows 10 and Office 365 ProPlus.
