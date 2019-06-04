@@ -2,9 +2,9 @@
 uid: learn-m365.modern-device-app.4-inventory-demo
 title: Demo - Create an inventory
 metadata:
-  title: Demo-Create an inventory
+  title: Demo - Create an inventory
   description: Demo on how to create an inventory
-  msdate: 04/28/2019
+  ms.date: 04/28/2019
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
