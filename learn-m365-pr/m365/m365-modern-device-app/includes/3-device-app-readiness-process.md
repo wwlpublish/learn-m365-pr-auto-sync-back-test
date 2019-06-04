@@ -20,17 +20,17 @@ The upgrade readiness tool workflow reports application and driver inventory, sh
 
 With inventory taken, you can use Upgrade Readiness to prioritize the most common apps and hardware used in your organization, as well as what to focus on to unblock as many PCs as possible for deployment.  By prioritizing the most impactful remediation items in your organization, you can build a deployment plan that allows devices to begin migrating to Windows 10 or Office 365 ProPlus while those needing additional support can be addressed. The inventory also provides guidance to help you assess the updates necessary to resolve issues during the next step: testing.
 
-![prioritize step](../media/prioritize-50.png “Windows Analytics Upgrade Readiness screen 2”)
+![Windows Analytics Upgrade Readiness screen 2](../media/prioritize-50.png)
 
 ## 3. Test updates for compatibility
 
 You'll find that most of the applications, drivers, and add-ins inventoried will work as-is. Both Upgrade Readiness and the Readiness Toolkit help assess items in your org that might have compatibility issues. They also provide you with known information about compatibility, including where to find version updates to resolve them. You'll want to test these updates before you roll them out.
 
-As a supplement to the upgrade readiness tools, you can download information about supporting apps in Windows and optimized strategies for testing your apps in the [Windows 10 Compatibility Cookbook](https://download.microsoft.com/download/3/D/3/3D36E358-A7E4-4DA3-9FC4-6E85C850A6C6/Windows 10 Compatibility Cookbook.docx).
+As a supplement to the upgrade readiness tools, you can download information about supporting apps in Windows and optimized strategies for testing your apps in the [Windows 10 Compatibility Cookbook](https://download.microsoft.com/download/3/D/3/3D36E358-A7E4-4DA3-9FC4-6E85C850A6C6/Windows%2010%20Compatibility%20Cookbook.docx).
 
 In some instances, particularly non-critical, sparsely deployed applications and older devices, you might consider retiring or replacing apps and devices, rather than devoting time and resources to solving their complex issues.
 
-![test step](../media/test-50.png “Windows Analytics Upgrade Readiness screen 3”)
+![Windows Analytics Upgrade Readiness screen 3](../media/test-50.png)
 
 ## 4. Remediate issues
 
