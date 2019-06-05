@@ -2,7 +2,7 @@
 
 To help you through the deployment process, we’ve developed the **desktop deployment wheel**. The wheel guides you through the recommended steps for your shift to Windows 10 and Office 365 ProPlus.
 
-![desktop deployment wheel](../media/intro_deploymentwheel.png “desktop deployment wheel”)
+![desktop deployment wheel](../media/intro_deploymentwheel.png)
 
 Before you get started, you’ll want to create a high-level plan and get the necessary sponsors on board. The desktop deployment wheel outlines critical steps to help you to identify core team members and resources to manage in the following deployment areas.
 
