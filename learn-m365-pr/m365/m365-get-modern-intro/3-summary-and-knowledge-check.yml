@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.get-modern-intro.3-summary-and-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Review the eight deployment steps
+  ms.date: 04/28/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 5
+content: |
+  [!include[](includes/3-summary-and-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "The first step in the deployment process is to analyze the devices and apps within your organization."
+      choices:
+      - content: "True"
+        isCorrect: true
+        explanation: "Yes, the first step is to analyze your device and app readiness. You'll take an inventory and verify app compatibility."
+      - content: "False"
+        isCorrect: false
+        explanation: "No, this is the first step in the deployment process."
+
+    - content: "In the second step, analyzing your directory and network readiness, you'll be preparing your bandwidth capacity for which items? Select all that are correct."
+      choices:
+      - content: "System images, application packages, and user files"
+        isCorrect: true
+        explanation: "Yes, these items all need bandwidth."
+      - content: "thumbnail images and user settings"
+        isCorrect: false
+        explanation: "No, these items don't use significant bandwidth."
+      - content: "social media profiles"
+        isCorrect: false
+        explanation: "No, you don't need to analyze bandwidth for this."
+
+    - content: "Office 365 ProPlus and Office 2019 clients use which installation technology?"
+      choices:
+      - content: "Click-to-Run"
+        isCorrect: true
+        explanation: "Yes, Office 365 ProPlus and Office 2019 clients use Click-to-Run installation technology."
+      - content: "MSIX"
+        isCorrect: false
+        explanation: "No, other apps use this installation method, but not Office 365 ProPlus."
+      - content: "UWP"
+        isCorrect: false
+        explanation: "No, other apps use this installation method, but not Office 365 ProPlus."
+        

@@ -2,18 +2,18 @@
 uid: learn-m365.get-modern-intro
 metadata:
   title: Introduction and getting started 
-  description: Discover the benefits of Windows 10 and Office 365 ProPlus, the major changes and considerations versus previous deployments, and best practices for ensuring a smooth transition to Windows 10 and Office 365 ProPlus. 
-  ms.date: 04/28/2019
-  author: lizap
-  ms.author: elizapo
+  description: Discover best practices for ensuring a smooth transition to Windows 10 and Office 365 ProPlus by using the eight-step deployment process.
+  ms.date: 05/31/2019
+  author: aleha
+  ms.author: aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Introduction and getting started 
-summary: Discover the benefits of Windows 10 and Office 365 ProPlus, the major changes and considerations versus previous deployments, and best practices for ensuring a smooth transition to Windows 10 and Office 365 ProPlus.
+summary: Discover best practices for ensuring a smooth transition to Windows 10 and Office 365 ProPlus by using the eight-step deployment process.
 abstract: |
   At the end of this module, you should be able to:
-  - Describe the major changes from previous Office 365 and Windows 10 versions 
-  - Explain the 8-step deployment process 
+  - Explain the eight-step deployment process
+  - Understand the main concepts for each step
 prerequisites: None
 iconUrl: /learn/achievements/intro-to-m365-unified-endpoint-mgmt.svg
 ratingEnabled: true
@@ -26,8 +26,7 @@ products:
 - azure
 units:
 - learn-m365.get-modern-intro.1-get-started-w10-o365pp
-- learn-m365.get-modern-intro.2-whats-changed
-- learn-m365.get-modern-intro.3-deployment-process
-- learn-m365.get-modern-intro.4-summary-and-knowledge-check
+- learn-m365.get-modern-intro.2-deployment-process
+- learn-m365.get-modern-intro.3-summary-and-knowledge-check
 badge: 
   uid: learn-m365.get-modern-intro.badges

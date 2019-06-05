@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.get-modern-intro.3-deployment-process
+uid: learn-m365.get-modern-intro.2-deployment-process
 title: The deployment process
 metadata:
   title: The deployment process
@@ -12,4 +12,4 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 5
 content: |
-  [!include[](includes/3-deployment-process.md)]
+  [!include[](includes/2-deployment-process.md)]
