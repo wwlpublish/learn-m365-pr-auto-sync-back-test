@@ -21,7 +21,7 @@ quiz:
       - content: "Analyze your device and app readiness."
         isCorrect: true
         explanation: "Yes, the first step is to analyze your device and app readiness. You'll take an inventory and verify app compatibility."
-      - content: "False"
+      - content: "Implement user communications and training."
         isCorrect: false
         explanation: "No, The first step in the deployment process is to analyze your device and app readiness."
 
@@ -30,10 +30,10 @@ quiz:
       - content: "System images, application packages, and user files"
         isCorrect: true
         explanation: "Yes, these items all need bandwidth."
-      - content: "thumbnail images and user settings"
+      - content: "Thumbnail images and user settings"
         isCorrect: false
         explanation: "No, these items don't use significant bandwidth."
-      - content: "social media profiles"
+      - content: "Social media profiles"
         isCorrect: false
         explanation: "No, you don't need to analyze bandwidth for this."
 
