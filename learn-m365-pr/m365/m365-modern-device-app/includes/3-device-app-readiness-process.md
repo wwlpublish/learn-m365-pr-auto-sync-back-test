@@ -20,7 +20,7 @@ The upgrade readiness tool workflow reports application and driver inventory, sh
 
 With inventory taken, you can use Upgrade Readiness to prioritize the most common apps and hardware used in your organization, as well as what to focus on to unblock as many PCs as possible for deployment.  By prioritizing the most impactful remediation items in your organization, you can build a deployment plan that allows devices to begin migrating to Windows 10 or Office 365 ProPlus while those needing additional support can be addressed. The inventory also provides guidance to help you assess the updates necessary to resolve issues during the next step: testing.
 
-![Windows Analytics Upgrade Readiness screen 2](../media/prioritize-50.png)
+![Windows Analytics Upgrade Readiness prioritize screen](../media/prioritize-50.png)
 
 ## 3. Test updates for compatibility
 
@@ -30,10 +30,10 @@ As a supplement to the upgrade readiness tools, you can download information abo
 
 In some instances, particularly non-critical, sparsely deployed applications and older devices, you might consider retiring or replacing apps and devices, rather than devoting time and resources to solving their complex issues.
 
-![Windows Analytics Upgrade Readiness screen 3](../media/test-50.png)
+![Windows Analytics Upgrade Readiness test screen](../media/test-50.png)
 
 ## 4. Remediate issues
 
 The final phase of device and app readiness is to *remediate*. Here you’ll want to collect the required software or driver packages and use them to supersede or update older versions as part of the deployment process. As you work through the list remediating issues, you’ll see that more and more PCs become *Ready for Deployment.*  This means that both the drivers and apps on the PCs are noted as compatible with the version of Windows 10 you are targeting.
 
-![remediate step](../media/remediate-50.png “Windows Analytics Upgrade Readiness screen 4”)
+![Windows Analytics Upgrade Readiness remediate screen](../media/remediate-50.png)

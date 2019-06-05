@@ -16,16 +16,16 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "The first step in the deployment process is to analyze the devices and apps within your organization."
+    - content: "According to the deployment wheel, what is the first step in the deployment process?"
       choices:
-      - content: "True"
+      - content: "Analyze your device and app readiness."
         isCorrect: true
         explanation: "Yes, the first step is to analyze your device and app readiness. You'll take an inventory and verify app compatibility."
       - content: "False"
         isCorrect: false
-        explanation: "No, this is the first step in the deployment process."
+        explanation: "No, The first step in the deployment process is to analyze your device and app readiness."
 
-    - content: "In the second step, analyzing your directory and network readiness, you'll be preparing your bandwidth capacity for which items? Select all that are correct."
+    - content: "In the second step, analyzing your directory and network readiness, you'll be preparing your bandwidth capacity for which items?"
       choices:
       - content: "System images, application packages, and user files"
         isCorrect: true

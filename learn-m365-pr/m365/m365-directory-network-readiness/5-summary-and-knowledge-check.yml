@@ -3,7 +3,7 @@ uid: learn-m365.directory-network-readiness.5-summary-and-knowledge-check
 title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
-  description: Learn how new tools and deployment options reduce and streamline network traffic.
+  description: Learn about the tools and options for preparing your directory services and network for deployment .
   ms.date: 04/28/2019
   author: lizap
   ms.author: elizapo
@@ -16,14 +16,14 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Organizations already using Office 365 services will have to re-deploy Azure Active Directory when upgrading to Office 365 ProPlus."
+    - content: "If your organization already uses Office 365 services like Exchange Online or SharePoint Online, you’re already using Azure AD."
       choices:
       - content: "True"
-        isCorrect: false
-        explanation: "No, this is not true"
-      - content: "False"
         isCorrect: true
-        explanation: "No, organizations already using Office 365 services will NOT have to re-deploy Azure AD when upgrading."
+        explanation: "Yes, this statement is true. You're already using Azure AD for these Office 365 services."
+      - content: "False"
+        isCorrect: false
+        explanation: "No, this statement is true. You're already using Azure AD for these Office 365 services."
       
     - content: "Bandwidth requirements for an initial migration of Office 365 ProPlus can exceed:"
       choices:
@@ -43,20 +43,14 @@ quiz:
         isCorrect: false
         explanation: "No, this is false. Bandwidths may exceed 20 GB."
 
-    - content: "Which of the following is NOT a tool for managing bandwidth for installation of Office 365?"
+    - content: "What's one of the primary functions of Azure Active Directory?"
       choices:
-      - content: "Background Intelligent Transfer Service (BITS) "
-        isCorrect: false
-        explanation: "No, this is false. UWP Apps is NOT a tool for managing this bandwidth."
-      - content: "Low Extra Delay Background Transport (LEDBAT)"
-        isCorrect: false
-        explanation: "No, this is false. UWP Apps is NOT a tool for managing this bandwidth."
-      - content: "UWP  Apps"
+      - content: "Azure AD controls access to your apps and app resources by requiring multi-factor access authentication."
         isCorrect: true
-        explanation: "Yes, this is true."
-      - content: "BranchCache"
+        explanation: "Yes, this is a primary function of Azure AD."
+      - content: "Azure AD is a readiness assessment tool."
         isCorrect: false
-        explanation: "No, this is false. UWP Apps is NOT a tool for managing this bandwidth."
-      - content: "Peer Cache"
+        explanation: "No, this is false. Readiness assessment is not a primary function of Azure AD."
+      - content: "Azure AD controls user settings across devices."
         isCorrect: false
-        explanation: "No, this is false. UWP Apps is NOT a tool for managing this bandwidth."
+        explanation: "No, controlling user settings across devices is not a primary function of Azure AD."

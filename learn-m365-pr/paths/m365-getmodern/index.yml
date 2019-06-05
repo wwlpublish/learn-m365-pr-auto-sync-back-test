@@ -1,16 +1,16 @@
 ### YamlMime:LearningPath
 uid: learn-m365.microsoft-365-get-modern
 metadata:
-  title: Microsoft 365 - Get modern with Windows 10 and Office 365 ProPlus
-  description: Learn how to move to a modern, secure workplace with Windows 10 and Office 365 ProPlus
+  title: Microsoft 365 - Modernize your enterprise deployment with Windows 10 and Office 365 ProPlus
+  description: In this Modernize your enterprise deployment learning path, we’ll guide you through the recommended steps to upgrade your organization to Windows 10 and Office 365 ProPlus, detailing how to leverage your existing tools and processes while adopting modern management technology and approaches along the way.
   ms.date: 03/18/2019
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
   ROBOTS: NOINDEX
-title: Microsoft 365 - Get modern with Windows 10 and Office 365 ProPlus
-summary: Learn how to move to a modern, secure workplace with Windows 10 and Office 365 ProPlus
+title: Microsoft 365 - Modernize your enterprise deployment with Windows 10 and Office 365 ProPlus
+summary: In this Modernize your enterprise deployment learning path, we’ll guide you through the recommended steps to upgrade your organization to Windows 10 and Office 365 ProPlus, detailing how to leverage your existing tools and processes while adopting modern management technology and approaches along the way.
 prerequisites: | 
  - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
 iconUrl: /learn/achievements/m365-fundamentals.svg

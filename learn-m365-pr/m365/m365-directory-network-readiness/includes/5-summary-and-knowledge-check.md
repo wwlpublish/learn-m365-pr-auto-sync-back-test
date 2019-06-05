@@ -1,2 +1,1 @@
-
-In this module you learned about cloud-connected services in Office 365 ProPlus, and deployment options like Windows Autopilot using Azure Active Directory. You learned how these new tools and deployment options reduce and streamline network traffic.
+In this module you learned about components that have an impact on bandwidth, and the tools and options for preparing your directory services and network for deployment to Windows 10 and Office 365 ProPlus.

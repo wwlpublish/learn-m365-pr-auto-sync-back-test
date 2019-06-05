@@ -3,7 +3,7 @@ uid: learn-m365.modern-device-app.6-summary-and-knowledge-check
 title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
-  description: Review the four-step process and readiness assessment tools
+  description: Review the four-step deployment process and readiness assessment tools
   ms.date: 04/28/2019
   author: lizap
   ms.author: elizapo
@@ -16,14 +16,14 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Any COM add-ins and VBA macros your organization used on versions of Office dating back to Office 2010 will continue to work on the latest versions of Office without modification."
+    - content: "The Readiness Toolkit Report Creator can scan for what in Office versions as far back as Office 2003?"
       choices:
-      - content: "True"
+      - content: "VBA macros"
         isCorrect: true
-        explanation: "Yes, this is true. Office COM add-ins and VBA macros are backwards-compatible to Office 2010"
-      - content: "False"
+        explanation: "Yes, this is true. The Readiness Toolkit Report Creator can scan for VBA macros as far back as Office 2003."
+      - content: "web add-ins"
         isCorrect: false
-        explanation: "No, this statement is true."
+        explanation: "No, The Readiness Toolkit Report Creator doesn't scan for web add-ins."
       
     - content: "In the first step of the readiness process, which tools are used for an inventory?"
       choices:
