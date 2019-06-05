@@ -25,20 +25,17 @@ quiz:
         isCorrect: false
         explanation: "No, this statement is true."
       
-    - content: "In the first step of the readiness process, which two choices are Microsoft inventory tools?"
+    - content: "In the first step of the readiness process, which tools are used for an inventory?"
       choices:
       - content: "Windows 10 compatibility scan"
         isCorrect: false
         explanation: "No, Windows 10 compatibility scan is used for step three, app compatibility."
-      - content: "Desktop App Assure "
+      - content: "Desktop App Assure"
         isCorrect: false
         explanation: "No, Desktop App Assure is available for step three, app compatibility."
-      - content: "Readiness Toolkit for Office"
+      - content: "Readiness Toolkit for Office and Windows Analytics Upgrade Readiness"
         isCorrect: true
-        explanation: "Yes, Readiness Toolkit for Office is one of the readiness inventory tools."
-      - content: "Windows Analytics Upgrade Readiness"
-        isCorrect: true
-        explanation: "Yes, Windows Analytics Upgrade Readiness is one of the readiness inventory tools."
+        explanation: "Yes, Readiness Toolkit for Office and Windows Analytics Upgrade Readiness are both readiness inventory tools."
 
     - content: "Device and app readiness is comprised of four steps: 1) Take an inventory, 2) Plan your resources, 3) Test updates for compatibility issues, 4) Remediate issues."
       choices:
