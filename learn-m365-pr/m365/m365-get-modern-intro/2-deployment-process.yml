@@ -1,12 +1,12 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.get-modern-intro.2-deployment-process
-title: The deployment process
+title: Understanding the deployment process
 metadata:
-  title: The deployment process
-  description: Understanding the Windows 10 and Office 365 ProPlus Deployment Process
-  msdate: 04/28/2019
-  author: lizap
-  ms.author: elizapo
+  title: Understanding the deployment process
+  description: Understanding the Windows 10 and Office 365 ProPlus deployment process
+  ms.date: 06/07/2019
+  author: AlexandraHrt
+  ms.author: lizap
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
   ROBOTS: NOINDEX
