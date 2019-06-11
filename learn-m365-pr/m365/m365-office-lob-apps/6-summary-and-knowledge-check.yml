@@ -1,0 +1,121 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.office-lob-apps.6-summary-and-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Review how Click-to-Run packaging provides new options to keep your Office apps up-to-date.
+  ms.date: 04/28/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+  [!include[](includes/6-summary-and-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Office 365 ProPlus is available in both 32-bit and 64-bit versions and it does not matter which version you install."
+      choices:
+      - content: "True"
+        isCorrect: false
+        explanation: "No. Office 365 ProPlus is available in both 32-bit and 64-bit versions but it does matter which version you install."
+      - content: "False"
+        isCorrect: true
+        explanation: "Correct. Office 365 ProPlus is available in both 32-bit and 64-bit versions but it does matter which version you install."
+    - content: "Click-to-Run is replacing which previous installation tool:"
+      choices:
+      - content: "MSIX"
+        isCorrect: false
+        explanation: "No, Click-to-Run replaces MSI as the installation tool."
+      - content: "System Center Configuration Manager"
+        isCorrect: false
+        explanation: "No, Click-to-Run replaces MSI as the installation tool."
+      - content: "MSI"
+        isCorrect: true
+        explanation: "Correct. Click-to-Run replaces MSI as the installation tool."
+      - content: "Microsoft InTune"
+        isCorrect: false
+        explanation: "No, Click-to-Run replaces MSI as the installation tool."
+      - content: "Office Deployment Tool"
+        isCorrect: false
+        explanation: "No, Click-to-Run replaces MSI as the installation tool."
+    - content: "If a user is not appropriately licensed or has their license removed, Office apps will still function but will go into reduced functionality mode."
+      choices:
+      - content: "True"
+        isCorrect: true
+        explanation: "Correct. If a user is not appropriately licensed or has their license removed, Office apps will still function but will go into reduced functionality mode."
+      - content: "False"
+        isCorrect: false
+        explanation: "Incorrect. If a user is not appropriately licensed or has their license removed, Office apps will still function but will go into reduced functionality mode."
+    - content: "Which of the following is NOT true for Office 365 ProPlus?"
+      choices:
+      - content: "Users need to connect to the internet at least once every 30 days to verify their subscription status."
+        isCorrect: false
+        explanation: "No, Office 365 ProPlus leverages Click-to-Run software updates from the Office Content Delivery Network (CDN), not Windows Server Update Services (WSUS)."
+      - content: "Office 365 ProPlus leverages Click-to-Run software updates from the Windows Server Update Services (WSUS)."
+        isCorrect: true
+        explanation: "Correct. Office 365 ProPlus leverages Click-to-Run software updates from the Office Content Delivery Network (CDN), not Windows Server Update Services (WSUS)."
+      - content: "By default, Office 365 ProPlus installs as one package and all applications are installed on the users computer, though admins can exclude specific apps from installation. "
+        isCorrect: false
+        explanation: "No, Office 365 ProPlus leverages Click-to-Run software updates from the Office Content Delivery Network (CDN), not Windows Server Update Services (WSUS)."
+      - content: "Office 365 ProPlus supports enabling shared computer activation for computers accessed by multiple users without counting against one of five license activations."
+        isCorrect: false
+        explanation: "No, Office 365 ProPlus leverages Click-to-Run software updates from the Office Content Delivery Network (CDN), not Windows Server Update Services (WSUS)."
+      - content: "Office 365 ProPlus uses subscription-based activation that leverages the Office Licensing Service, and allows users to activate on up to five different computers with a single Office 365 license."
+        isCorrect: false
+        explanation: "No, Office 365 ProPlus leverages Click-to-Run software updates from the Office Content Delivery Network (CDN), not Windows Server Update Services (WSUS)."
+    - content: "You need both the Office Deployment Tool and the Office Customization Tool to install and customize Office 365 ProPlus."
+      choices:
+      - content: "True"
+        isCorrect: false
+        explanation: "Incorrect. The Office Deployment Tool is required but the Office Customization Tool is recommended."
+      - content: "False"
+        isCorrect: true
+        explanation: "Correct. The Office Deployment Tool is required but the Office Customization Tool is recommended."
+    - content: "Using RemoveMSI to remove previous versions of Office removes all settings, preferences, and documents as well."
+      choices:
+      - content: "True"
+        isCorrect: false
+        explanation: "No. User settings, preferences, and documents are retained even if all Office products are uninstalled."
+      - content: "False"
+        isCorrect: true
+        explanation: "Correct. User settings, preferences, and documents are retained even if all Office products are uninstalled."
+    - content: "Which of the following tools do NOT work with MSI-based packages for line-of-business app delivery?"
+      choices:
+      - content: "MSIX"
+        isCorrect: true
+        explanation: "Correct. MSIX does not work with MSI-based packages for line-of-business app delivery."
+      - content: "System Center Configuration Manager"
+        isCorrect: false
+        explanation: "No, MSIX does not work with MSI-based packages for line-of-business app delivery."
+      - content: "Windows 10"
+        isCorrect: false
+        explanation: "No, MSIX does not work with MSI-based packages for line-of-business app delivery."
+      - content: "Microsoft InTune"
+        isCorrect: false
+        explanation: "No, MSIX does not work with MSI-based packages for line-of-business app delivery."
+    - content: "Which of the following is NOT a method of delivering line-of-business apps?"
+      choices:
+      - content: "MSIX"
+        isCorrect: false
+        explanation: "No, Click-to-Run is not a method of delivering line-of-business apps."
+      - content: "Click-to-Run"
+        isCorrect: true
+        explanation: "Correct. Click-to-Run is not a method of delivering line-of-business apps."
+      - content: "PC Imaging"
+        isCorrect: false
+        explanation: "No, Click-to-Run is not a method of delivering line-of-business apps."
+      - content: "Windows 10"
+        isCorrect: false
+        explanation: "No, Click-to-Run is not a method of delivering line-of-business apps."
+      - content: "Microsoft Store"
+        isCorrect: false
+        explanation: "No, Click-to-Run is not a method of delivering line-of-business apps."
+      - content: "Browser-based apps"
+        isCorrect: false
+        explanation: "No, Click-to-Run is not a method of delivering line-of-business apps."
+      - content: "MSI-Based deployments"
+        isCorrect: false
+        explanation: "No, Click-to-Run is not a method of delivering line-of-business apps."

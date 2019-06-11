@@ -1,0 +1,47 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.modern-device-app.6-summary-and-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Review the four-step deployment process and readiness assessment tools
+  ms.date: 04/28/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 6
+content: |
+  [!include[](includes/6-summary-and-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "The Readiness Toolkit Report Creator can scan for what in Office versions as far back as Office 2003?"
+      choices:
+      - content: "VBA macros"
+        isCorrect: true
+        explanation: "Yes, this is true. The Readiness Toolkit Report Creator can scan for VBA macros as far back as Office 2003."
+      - content: "web add-ins"
+        isCorrect: false
+        explanation: "No, The Readiness Toolkit Report Creator doesn't scan for web add-ins."
+      
+    - content: "In the first step of the readiness process, which tools are used for an inventory?"
+      choices:
+      - content: "Windows 10 compatibility scan"
+        isCorrect: false
+        explanation: "No, Windows 10 compatibility scan is used for step three, app compatibility."
+      - content: "Desktop App Assure"
+        isCorrect: false
+        explanation: "No, Desktop App Assure is available for step three, app compatibility."
+      - content: "Readiness Toolkit for Office and Windows Analytics Upgrade Readiness"
+        isCorrect: true
+        explanation: "Yes, Readiness Toolkit for Office and Windows Analytics Upgrade Readiness are both readiness inventory tools."
+
+    - content: "Device and app readiness is comprised of four steps: 1) Take an inventory, 2) Plan your resources, 3) Test updates for compatibility issues, 4) Remediate issues."
+      choices:
+      - content: "True"
+        isCorrect: false
+        explanation: "No, the second step is *prioritize apps and hardware.*"
+      - content: "False"
+        isCorrect: true
+        explanation: "This is false because the second step is *prioritize apps and hardware.*"

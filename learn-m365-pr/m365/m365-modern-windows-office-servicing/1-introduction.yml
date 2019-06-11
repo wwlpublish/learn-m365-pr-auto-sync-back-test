@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.modern-windows-office-servicing.1-introduction
+title: Introduction to update types
+metadata:
+  title: Introduction to update types
+  description:  Learn about ...
+  msdate: 04/28/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 1
+content: |
+  [!include[](includes/1-introduction.md)]

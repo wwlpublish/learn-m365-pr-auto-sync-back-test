@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.modern-device-app.2-readiness-assessment-tools
+title: Using Microsoft readiness assessment tools
+metadata:
+  title: Using Microsoft readiness assessment tools
+  description: about readiness assessment tools
+  msdate: 04/28/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-readiness-assessment-tools.md)]

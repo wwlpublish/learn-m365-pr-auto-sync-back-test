@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.office-lob-apps.5-ms-store-for-business
+title: Microsoft Store for Business and MSIX
+metadata:
+  title: Microsoft Store for Business and MSIX
+  description: Learn about ...
+  msdate: 04/28/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 5
+content: |
+  [!include[](includes/5-ms-store-for-business.md)]

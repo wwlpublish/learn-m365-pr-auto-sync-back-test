@@ -1,0 +1,34 @@
+### YamlMime:LearningPath
+uid: learn-m365.microsoft-365-get-modern
+metadata:
+  title: Microsoft 365 - Modernize your enterprise deployment with Windows 10 and Office 365 ProPlus
+  description: Microsoft 365 helps you create a secure, always-up-to-date environment by using Windows 10 devices that run Office 365 ProPlus apps and are managed by Microsoft Enterprise Mobility + Security. Learn the recommended steps to upgrade your organization to Windows 10 and Office 365 ProPlus, including how to leverage your existing tools and processes while adopting modern management technology and approaches along the way.
+  ms.date: 06/06/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+title: Microsoft 365 - Modernize your enterprise deployment with Windows 10 and Office 365 ProPlus
+summary: Microsoft 365 helps you create a secure, always-up-to-date environment by using Windows 10 devices that run Office 365 ProPlus apps and are managed by Microsoft Enterprise Mobility + Security. Learn the recommended steps to upgrade your organization to Windows 10 and Office 365 ProPlus, including how to leverage your existing tools and processes while adopting modern management technology and approaches along the way.
+prerequisites: | 
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+iconUrl: /learn/achievements/m365-fundamentals.svg
+levels: 
+- intermediate
+roles:
+- administrator
+products: 
+- m365
+modules:
+- learn-m365.get-modern-intro
+- learn-m365.modern-device-app
+- learn-m365.directory-network-readiness
+- learn-m365.office-lob-apps
+- learn-m365.user-files-settings
+- learn-m365.get-modern-security-compliance
+- learn-m365.modern-os-deployment
+- learn-m365.modern-windows-office-servicing
+- learn-m365.modern-usercomm-training
+trophy: 
+  uid: learn-m365.microsoft-365-get-modern.trophy
