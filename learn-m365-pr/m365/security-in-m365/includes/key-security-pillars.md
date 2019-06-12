@@ -1,3 +1,6 @@
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2YppU]
+
 The sophistication and capabilities of cyberattacks are evolving at a rapid pace. Cyberattacks are now a weapon of choice for both large-scale organized crime and nation states. Coupled with these emerging threats, the proliferation of devices in our connected world increases the surface area of attacks. Cyberattacks can be devastating—and the people with the security skills to meet the challenge are in short supply. 
 
 
