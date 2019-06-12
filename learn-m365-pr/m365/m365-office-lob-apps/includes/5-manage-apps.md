@@ -1,6 +1,6 @@
 ## Remove unwanted in-box apps
 
-Windows 10 includes quite a few built-in apps as part of the standard installation, but your company may want to remove some from your managed PCs. Some organizations may even configure the installation to prevent those apps from returning, for example XBOX or Zone Music. 
+Windows 10 includes quite a few built-in apps as part of the standard installation, but your company may want to remove some from your managed PCs. Some organizations may even configure the installation to prevent those apps from returning, for example XBOX or Zune Music. 
 
 You can use PowerShell commands to accomplish these tasks:
 
