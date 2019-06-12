@@ -30,7 +30,7 @@ quiz:
       - content: "Security policies"
         isCorrect: false
         explanation: "No. Identity and access management is not a common security-related problem that interrupts Microsoft 365 deployments."
-    - content: "Windows Hello can be configured to rely on the device itself, your PIN, or a unique b iometric identifier such as your face or fingerprint which can be enforced via policy."
+    - content: "True or false - you can configure Windows Hello to rely on the device itself, your PIN, or a unique biometric identifier like your face or fingerprint."
       choices:
       - content: "True"
         isCorrect: true
