@@ -8,5 +8,5 @@ You can use PowerShell commands to accomplish these tasks:
 - You can remove those apps you don't want with the [Remove-AppxPackage command](/powershell/module/appx/remove-appxpackage?view=win10-ps).
 - You can also mount the Windows Image (.img) file offline before deployment, and extract packages you don't want with the Deployment Image Servicing and Management (DISM) command-line tool with the [Remove-AppxProvisionedPackage command](/powershell/module/appx/remove-appxpackage?view=win10-ps).
 
->!Note
->For general Windows PowerShell information, check out the [Windows 10 PowerShell command reference](/powershell/windows/get-started).
+> [!NOTE]
+> For general Windows PowerShell information, check out the [Windows 10 PowerShell command reference](/powershell/windows/get-started).
