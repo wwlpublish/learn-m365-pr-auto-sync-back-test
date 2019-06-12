@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.office-lob-apps.4-lob-app-delivery
-title: Line-of-business app delivery
+uid: learn-m365.office-lob-apps.4-microsoft-store
+title: Deploy apps with Microsoft Store for Business
 metadata:
-  title: Line-of-business app delivery
-  description: Learn about ...
-  msdate: 05/02/2019
+  title: Deploy apps with Microsoft Store for Business
+  description: Learn how to package and deploy apps with Microsoft Store for Business
+  msdate: 06/12/2019
   author: aleha
   ms.author: aleha
   ms.topic: interactive-tutorial
@@ -12,4 +12,4 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 5
 content: |
-  [!include[](includes/4-lob-app-delivery.md)]
+  [!include[](includes/4-microsoft-store.md)]

@@ -1,15 +1,15 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.office-lob-apps.2-office-click-to-run
-title: Office Click-to-Run
+uid: learn-m365.office-lob-apps.2-install-or-upgrade-O365pp
+title: Install or upgrade Office 365 ProPlus
 metadata:
-  title: Office Click-to-Run
-  description: Learn about ...
-  msdate: 04/28/2019
+  title: Install or upgrade Office 365 ProPlus
+  description: Learn about options for installing or upgrading Office 365 ProPlus
+  ms.date: 06/12/2019
   author: lizap
-  ms.author: elizapo
+  ms.author: aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
   ROBOTS: NOINDEX
-durationInMinutes: 3
+durationInMinutes: 5
 content: |
-  [!include[](includes/2-office-click-to-run.md)]
+  [!include[](includes/2-install-or-upgrade-O365pp.md)]
