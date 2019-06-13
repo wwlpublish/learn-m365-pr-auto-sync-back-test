@@ -4,7 +4,7 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Review how to protect your data, devices, and users while quickly detecting and responding to threats.
-  ms.date: 05/06/2019
+  ms.date: 06/12/2019
   author: aleha
   ms.author: aleha
   ms.topic: interactive-tutorial
@@ -30,7 +30,7 @@ quiz:
       - content: "Security policies"
         isCorrect: false
         explanation: "No. Identity and access management is not a common security-related problem that interrupts Microsoft 365 deployments."
-    - content: "Windows Hello can be configured to rely on the device itself, your PIN, or a unique b iometric identifier such as your face or fingerprint which can be enforced via policy."
+    - content: "True or false - you can configure Windows Hello to rely on the device itself, your PIN, or a unique biometric identifier like your face or fingerprint."
       choices:
       - content: "True"
         isCorrect: true

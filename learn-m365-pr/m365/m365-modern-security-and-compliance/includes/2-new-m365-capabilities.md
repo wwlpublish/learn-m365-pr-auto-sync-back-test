@@ -1,20 +1,20 @@
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2SuIa]
 
-Let's look at new capabilities you can take advantage of when moving to Windows 10, Office 365 ProPlus, and cloud-based options from Enterprise Mobility + Security and beyond.
+Let's look at new capabilities you can take advantage of with Windows 10, Office 365 ProPlus, and cloud-based options from Enterprise Mobility + Security and beyond.
 
 ## Identity and access management
 
-Azure Active Directory is the identity control plane for apps, devices, and cloud services while functioning as the modern solution for connecting to Office 365 and other cloud services. Conditional access allows IT admins to define different authentication requirements based on where an end user is logging in from and which device they’re using as well as responses to anomalous behaviors.
+Azure Active Directory (Azure AD) is the identity control plane for apps, devices, and cloud services while connecting to Office 365 and other cloud services. Conditional access lets you define different authentication requirements based on where your user is logging in from and which device they’re using, as well as responses to anomalous behaviors.
 
-At the device level, biometrics can provide unique identifiers for simpler and more secure access to devices and apps, as organizations move toward the goal of eliminating passwords. Windows Hello offers device-based, multi-factor authentication relying on the device itself, your PIN, or a unique biometric identifier such as your face or fingerprint which can be enforced via policy.
+At the device level, you can use biometrics as unique identifiers for simpler and more secure access to devices and apps, moving toward the goal of eliminating passwords. Windows Hello offers device-based, multi-factor authentication that relies on the device itself, your PIN, or a unique biometric identifier like a face or fingerprint that can be enforced via policy.
 
 ## Virtualization-based security
 
-Beyond identity, it is important to consider continuous protection against both known and unknown threats. Windows 10 uses virtualization-based security at the core, with Secure Boot to ensure boot and code integrity. You can also help stop credential theft with Credential Guard by maintaining user secrets in isolation from Windows. Application Guard can isolate and mitigate browser-based threats by running the browser in an isolated container. All of these technologies use virtualization-based security in Windows 10 and are foundational changes that cannot be replicated on a Windows 7 system. Note that these also require UEFI, 64-bit Windows, and virtualization extension support with SLAT – at the hardware level.
+Beyond identity, it’s important to consider continuous protection against both known and unknown threats. Windows 10 uses virtualization-based security at the core, with Secure Boot to ensure boot and code integrity. You can also help protect against credential theft with **Credential Guard** by maintaining user secrets in isolation from Windows. **Application Guard** can isolate and mitigate browser-based threats by running the browser in an isolated container. All these technologies use virtualization-based security in Windows 10 and are foundational changes that cannot be replicated on a Windows 7 system. Note that these also require UEFI, 64-bit Windows, and virtualization extension support with SLAT – at the hardware level.
 
 ## Security enhancements from cloud services
 
-Cloud services provide another layer of optional protection to improve Windows and Office security. These provide IT admins a new level of often real-time control that can instantly detect, resist, and respond to new attacks and attack types – especially compared to traditional software updating and AV signature files – where response and update deployment times are inherently slower.
+Cloud services provide another layer of optional protection to improve Windows and Office security. These provide a new level of near real-time control that can instantly detect, resist, and respond to new attacks and attack types – especially compared to traditional software updating and AV signature files – where response and update deployment times are inherently slower.
 
 Along with the Microsoft Intelligent Security Graph, you have faster access to both information and protections from emerging threats. Here are a few examples of security enhancements you can take advantage of:
 
@@ -35,6 +35,6 @@ Along with the Microsoft Intelligent Security Graph, you have faster access to b
 - **Exploit Guard** helps reduce the attack surface for running applications by preventing malware from getting into Windows and blocking untrusted processes from accessing protected folders.
 
 ## Microsoft Intune
-[Microsoft Intune](https://docs.microsoft.com/intune/introduction-intune) serves as a cloud-based management service for mobile scenarios, including iOS, Android, and Windows devices, and it can now be configured by co-management to complement and extend controls for specific workloads managed by System Center Configuration Manager. Devices accessing protected resources can be required to enroll in device management, even non-managed, non-domain joined or non-Azure AD joined devices. You can also take advantage of granular configuration and compliance policy enforcement at the operating system and application level. Application policies and settings can be configured centrally and enforced for Office 365 ProPlus and Store apps in Windows 10 using Microsoft Intune.
+[Microsoft Intune](https://docs.microsoft.com/intune/introduction-intune) serves as a cloud-based management service for mobile scenarios, including iOS, Android, and Windows devices. You can configure Intune for co-management to complement and extend controls for specific workloads managed by System Center Configuration Manager. You can require devices that access protected resources to enroll in device management, even non-managed, non-domain-joined, or non-Azure AD-joined devices. You can also take advantage of granular configuration and compliance policy enforcement at the operating system and application level. Finally, you can configure application policies and settings centrally and enforced them for Office 365 ProPlus and store apps in Windows 10 using Microsoft Intune.
 
 ![step-5-1](../media/step-5-1.png)
