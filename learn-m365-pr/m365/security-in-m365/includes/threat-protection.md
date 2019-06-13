@@ -1,3 +1,6 @@
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2ZahU]
+
 Digital estates are growing more complex. They include devices, data, networks, apps and identities, some of which your organization may own, some not. With this growth, the attack surface has expanded to the point where no single service can comprehensively:
 
 - protect an organization from attack

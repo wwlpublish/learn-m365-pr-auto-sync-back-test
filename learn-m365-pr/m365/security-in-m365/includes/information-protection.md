@@ -1,3 +1,6 @@
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2YzPa]
+
 In a mobile-first, cloud-first world, important business data lives and travels everywhere. 
 
 ![Information is everywhere](../media/1-information.png)
