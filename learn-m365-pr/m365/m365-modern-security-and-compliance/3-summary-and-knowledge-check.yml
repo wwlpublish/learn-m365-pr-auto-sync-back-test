@@ -55,29 +55,3 @@ quiz:
       - content: "Microsoft Intune"
         isCorrect: false
         explanation: "No. Security policies are not a new security capability of Microsoft 365."
-    - content: "Which of the following is NOT a new Cloud services security enhancement of Microsoft 365?"
-      choices:
-      - content: "Data Loss Prevention"
-        isCorrect: false
-        explanation: "No. Azure Active Directory is not a new Cloud services security enhancement of Microsoft 365."
-      - content: "Azure Information Protection"
-        isCorrect: false
-        explanation: "No. Azure Active Directory is not a new Cloud services security enhancement of Microsoft 365."
-      - content: "Safe Links"
-        isCorrect: false
-        explanation: "No. Azure Active Directory is not a new Cloud services security enhancement of Microsoft 365."
-      - content: "Safe Attachments"
-        isCorrect: false
-        explanation: "No. Azure Active Directory is not a new Cloud services security enhancement of Microsoft 365."
-      - content: "Office 365 Message Encryption (OME)"
-        isCorrect: false
-        explanation: "No. Azure Active Directory is not a new Cloud services security enhancement of Microsoft 365."
-      - content: "Azure Active Directory"
-        isCorrect: true
-        explanation: "Correct. Azure Active Directory is not a new Cloud services security enhancement of Microsoft 365."
-      - content: "Windows Defender Application Control"
-        isCorrect: false
-        explanation: "No. Azure Active Directory is not a new Cloud services security enhancement of Microsoft 365."
-      - content: "Exploit Guard"
-        isCorrect: false
-        explanation: "No. Azure Active Directory is not a new Cloud services security enhancement of Microsoft 365."
