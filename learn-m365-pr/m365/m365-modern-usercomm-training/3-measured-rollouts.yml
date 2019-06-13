@@ -1,15 +1,15 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.modern-usercomm-training.3-measured-rollouts
-title: Proactive preparation and measured rollouts
+title: Plan a proactive measured rollouts
 metadata:
-  title: Proactive preparation and measured rollouts
-  description: Learn about informing your end users about new experiences, features, and functionalities within Windows 10 and Office 365 ProPlus.
-  msdate: 04/18/2019
+  title: Plan a proactive measured rollout
+  description: Learn how to leveage a phased deployment to develop and refine your user training.
+  ms.date: 06/13/2019
   author: aleha
   ms.author: aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
   ROBOTS: NOINDEX
-durationInMinutes: 5
+durationInMinutes: 3
 content: |
   [!include[](includes/3-measured-rollouts.md)]

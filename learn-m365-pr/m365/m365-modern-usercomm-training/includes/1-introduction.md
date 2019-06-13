@@ -1,7 +1,3 @@
-![step-8-wheel](../media/step-8-wheel.png)
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2SmUw]
 
-![step-8-icon](../media/step-8-icon.png)
-
-## The importance of user communication and training
-
-Informing and preparing end users for a modern workplace experience is critical to driving adoption of Office 365 and Windows 10. The key to success is introducing updates without burdening end users. Some users may fear disruptions to productivity or changes in their workflow, while others may just be resistant to change. By creating a robust communication and training process, you can educate end users and prepare them to fully use the full set of new solutions they’ll have access to.
+Preparing your users for a modern workplace experience is a critical step for Office 365 and Windows 10 adoption. The key to success is to introduce changes without burdening your users. Some users resist updates because they fear disruptions to productivity or changes in their workflow, while others are just resistant to change. By creating a robust communication and training process, you can educate your users and prepare them to use the full set of solutions they’ll get post-update.
