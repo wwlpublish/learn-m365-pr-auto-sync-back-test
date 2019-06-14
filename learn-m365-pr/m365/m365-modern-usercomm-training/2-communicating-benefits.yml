@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.modern-usercomm-training.2-communicating-benefits
-title: Communicating the benefits of Microsoft 365
+title: Communicate the new features and benefits of Microsoft 365
 metadata:
-  title: Communicating the benefits of Microsoft 365
-  description: Learn about informing your end users about new experiences, features, and functionalities within Windows 10 and Office 365 ProPlus.
-  msdate: 04/18/2019
+  title: Communicate the new features and benefits of Microsoft 365
+  description: Learn how to inform your end users about new experiences, features, and functionalities in Windows 10 and Office 365 ProPlus.
+  ms.date: 04/18/2019
   author: aleha
   ms.author: aleha
   ms.topic: interactive-tutorial

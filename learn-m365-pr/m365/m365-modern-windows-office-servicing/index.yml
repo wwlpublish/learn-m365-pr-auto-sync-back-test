@@ -28,8 +28,8 @@ products:
 - azure
 units:
 - learn-m365.modern-windows-office-servicing.1-introduction
-- learn-m365.modern-windows-office-servicing.2-windows-and-office-channels
-- learn-m365.modern-windows-office-servicing.3-phased-deployment
+- learn-m365.modern-windows-office-servicing.2-overview-servicing-models
+- learn-m365.modern-windows-office-servicing.3-servicing-best-practices
 - learn-m365.modern-windows-office-servicing.4-summary-and-knowledge-check
 badge: 
   uid: learn-m365.modern-windows-office-servicing.badges
