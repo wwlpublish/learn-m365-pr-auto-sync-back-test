@@ -1,12 +1,12 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.user-files-settings.2-manual-automated-migrations
-title: Manual and automated migrations
+title: Understand manual versus automated migration tools
 metadata:
-  title: Manual and automated migrations
+  title: Understand manual versus automated migration tools 
   description: Learn about ...
-  msdate: 04/28/2019
+  ms.date: 06/14/2019
   author: lizap
-  ms.author: elizapo
+  ms.author: aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
   ROBOTS: NOINDEX
