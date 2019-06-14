@@ -1,6 +1,6 @@
 MOVED TO TEAMWORK Microsoft 365 includes analytics tools to help people become more productive. Included in Microsoft 365 E5 subscriptions, MyAnalytics lets you see how you spend your time at work.
 
->[!video https://www.microsoft.com/videoplayer/embed/de3e918f-e43c-463d-af68-dbe2275ad3d3?csid=ux-cms-en-us-msoffice&iframe=true&uuid=de3e918f-e43c-463d-af68-dbe2275ad3d3&PlaybackMode=inline&Quality=HQ&AutoPlayVideo=true]
+>[!video https://www.microsoft.com/videoplayer/embed/de3e918f-e43c-463d-af68-dbe2275ad3d3?iframe=true&uuid=de3e918f-e43c-463d-af68-dbe2275ad3d3&PlaybackMode=inline&Quality=HQ&AutoPlayVideo=true]
 
 
 MyAnalytics helps you:
