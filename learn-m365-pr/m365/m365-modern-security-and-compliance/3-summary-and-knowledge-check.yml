@@ -16,20 +16,17 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Which of the following is NOT a common security-related problem that interrupts Microsoft 365 deployments?"
+    - content: "Which of the following is a common security-related problem that interrupts Microsoft 365 deployments?"
       choices:
-      - content: "Identity and access management"
+      - content: "Antivirus app incompatibility"
         isCorrect: true
-        explanation: "Correct. Identity and access management is not a common security-related problem that interrupts Microsoft 365 deployments."
-      - content: "Disk encryption"
+        explanation: "Correct. Antivirus app incompatibility is a common security-related problem that interrupts Microsoft 365 deployments."
+      - content: "ISO compliance"
         isCorrect: false
-        explanation: "No. Identity and access management is not a common security-related problem that interrupts Microsoft 365 deployments."
-      - content: "Antivirus and antimalware application compatibilitys"
+        explanation: "Incorrect. While important, ISO compliance doesn't usually interrupt Microsoft 365 deployments."
+      - content: "Identity and access management"
         isCorrect: false
-        explanation: "No. Identity and access management is not a common security-related problem that interrupts Microsoft 365 deployments."
-      - content: "Security policies"
-        isCorrect: false
-        explanation: "No. Identity and access management is not a common security-related problem that interrupts Microsoft 365 deployments."
+        explanation: "Incorrect. Identity and access management is not a common security-related problem that interrupts Microsoft 365 deployments."
     - content: "True or false - you can configure Windows Hello to rely on the device itself, your PIN, or a unique biometric identifier like your face or fingerprint."
       choices:
       - content: "True"
@@ -38,20 +35,14 @@ quiz:
       - content: "False"
         isCorrect: false
         explanation: "Incorrect. Windows Hello can be configured to rely on the device itself, your PIN, or a unique biometric identifier such as your face or fingerprint which can be enforced via policy."
-    - content: "Which of the following is NOT a new security capability of Microsoft 365?"
+    - content: "Which of the following is a new security capability of Microsoft 365?"
       choices:
-      - content: "Identity and access management"
-        isCorrect: false
-        explanation: "No. Security policies are not a new security capability of Microsoft 365."
       - content: "Virtualization-based security"
-        isCorrect: false
-        explanation: "No. Security policies are not a new security capability of Microsoft 365."
-      - content: "Cloud services security enhancements"
-        isCorrect: false
-        explanation: "No. Security policies are not a new security capability of Microsoft 365."
-      - content: "Security policies"
         isCorrect: true
-        explanation: "Correct. Security policies are not a new security capability of Microsoft 365."
+        explanation: "Correct. Virtualization-based security is one of the new features of Microsoft 365."
+      - content: "Disk encryption"
+        isCorrect: false
+        explanation: "Incorrect. While important, disk encryption is not a new security capability of Microsoft 365."
       - content: "Microsoft Intune"
         isCorrect: false
-        explanation: "No. Security policies are not a new security capability of Microsoft 365."
+        explanation: "No. Microsoft Intune is not a security capability of Microsoft 365."

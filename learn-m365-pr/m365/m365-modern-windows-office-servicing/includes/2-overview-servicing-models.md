@@ -6,8 +6,8 @@ Windows servicing updates fall into two main categories: **feature updates** and
 
 Both Windows 10 and Office 365 deliver:
 
--	A semi-annual feature update that delivers new features twice per year.
--	A monthly quality and security update. 
+- A semi-annual feature update that delivers new features twice per year.
+- A monthly quality and security update. 
 
 Additionally, for Office 365 applications, Microsoft offers a fully-supported **monthly channel** option where updates, available every month, contain both new features and quality updates.
 
