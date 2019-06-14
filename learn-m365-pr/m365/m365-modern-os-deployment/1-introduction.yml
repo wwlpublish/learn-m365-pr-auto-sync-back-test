@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.modern-os-deployment.1-introduction
-title: Introduction to OS deployment
+uid: learn-m365.modern-os-deployment.introduction
+title: Upgrade or migrate - how to choose which is right for you
 metadata:
-  title: Introduction to OS deployment
-  description: Introduction to OS deployment
-  msdate: 05/07/2019
+  title: Upgrade or migrate - how to choose which is right for you
+  description: Learn about the different deployment options based on upgrade and migration scenarios.
+  ms.date: 06/14/2019
   author: aleha
   ms.author: aleha
   ms.topic: interactive-tutorial
