@@ -6,11 +6,11 @@ metadata:
   description: Review the basics of the different options for ensuring users’ files and settings have been captured and migrated.
   ms.date: 04/28/2019
   author: lizap
-  ms.author: elizapo
+  ms.author: aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
   ROBOTS: NOINDEX
-durationInMinutes: 3
+durationInMinutes: 5
 content: |
   [!include[](includes/5-summary-and-knowledge-check.md)]
 quiz:
@@ -20,16 +20,16 @@ quiz:
       choices:
       - content: "Transferring user files"
         isCorrect: false
-        explanation: "No. Transferring browser history is NOT a consideration when choosing a migration method."
+        explanation: "No. Transferring user files is NOT a consideration when choosing a migration method."
       - content: "Transferring browser history"
         isCorrect: true
         explanation: "Correct. Transferring browser history is NOT a consideration when choosing a migration method."
       - content: "Transferring user settings"
         isCorrect: false
-        explanation: "No. Transferring browser history is NOT a consideration when choosing a migration method."
-      - content: "Managing Windows 10 Start and taskbar layouts "
+        explanation: "No. Transferring user settings is NOT a consideration when choosing a migration method."
+      - content: "Managing Windows 10 start and taskbar layouts "
         isCorrect: false
-        explanation: "No. Transferring browser history is NOT a consideration when choosing a migration method."
+        explanation: "No. Managing Windows 10 start and taskbar layouts is NOT a consideration when choosing a migration method."
     - content: "Both System Center Configuration Manager and the Microsoft Deployment Toolkit (MDT) make use of the User State Migration Tool (USMT) as part of their end-to-end deployment process."
       choices:
       - content: "True"
