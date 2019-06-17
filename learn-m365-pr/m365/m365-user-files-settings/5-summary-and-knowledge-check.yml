@@ -16,20 +16,17 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Which of the following is NOT a consideration when choosing a migration method?" 
+    - content: "Which of the following is a consideration when deciding how to migrate user files and settings?" 
       choices:
-      - content: "Transferring user files"
+      - content: "What type of network do you have?"
         isCorrect: false
-        explanation: "No. Transferring user files is NOT a consideration when choosing a migration method."
-      - content: "Transferring browser history"
+        explanation: "Incorrect. The type of network you have is not a consideration when deciding how to migrate user files and settings."
+      - content: "How big is your organization?"
         isCorrect: true
-        explanation: "Correct. Transferring browser history is NOT a consideration when choosing a migration method."
-      - content: "Transferring user settings"
+        explanation: "Correct. The size of your organization is a consideration when deciding how to migrate user files and settings."
+      - content: "What Windows 10 version are you moving to?"
         isCorrect: false
-        explanation: "No. Transferring user settings is NOT a consideration when choosing a migration method."
-      - content: "Managing Windows 10 start and taskbar layouts "
-        isCorrect: false
-        explanation: "No. Managing Windows 10 start and taskbar layouts is NOT a consideration when choosing a migration method."
+        explanation: "Incorrect. The Windows 10 version you're moving to is not a consideration when deciding how to migrate user files and settings."
     - content: "Both System Center Configuration Manager and the Microsoft Deployment Toolkit (MDT) make use of the User State Migration Tool (USMT) as part of their end-to-end deployment process."
       choices:
       - content: "True"
