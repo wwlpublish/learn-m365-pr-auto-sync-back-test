@@ -18,4 +18,3 @@ MyAnalytics accesses data from your use of Office 365 to help you determine how 
 - **Outlook add-in**. The Outlook add-in presents you with interactive insight cards that report on aspects of your recent work experience. <ASHLEY NOTE: MIGHT BE HELPFUL TO PROVIDE AN EXAMPLE HERE>
 - **Email digests**. You receive a weekly digest email that gives you highlights about your previous week, like how much time you've spent in meetings. 
 - **MyAnalytics nudges**. MyAnalytics nudges are notifications that appear in Microsoft Outlook that can help boost your productivity by displaying useful suggestions and tips around emails, meetings, and to-do tasks.
-
