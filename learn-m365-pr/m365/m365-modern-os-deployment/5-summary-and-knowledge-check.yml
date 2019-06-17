@@ -3,8 +3,8 @@ uid: learn-m365.modern-os-deployment.5-summary-and-knowledge-check
 title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
-  description: Learn about task sequence-based deployment or Windows Autopilot to help automate large scale phased deployments.
-  ms.date: 05/07/2019
+  description: Review what you learned about deploying, upgrading, and migrating to Windows 10.
+  ms.date: 06/14/2019
   author: aleha
   ms.author: aleha
   ms.topic: interactive-tutorial
@@ -58,11 +58,3 @@ quiz:
       - content: "Customize OOBE content specific to the organization"
         isCorrect: false
         explanation: "No. Windows Autopilot does NOT allow IT admins to reinstall user files and settings."
-    - content: "Windows Update for Business allows users to keep Windows 10 devices automatically up-to-date by connecting to the Windows Update service."
-      choices:
-      - content: "True"
-        isCorrect: true
-        explanation: "Correct. Windows Update for Business allows users to keep Windows 10 devices automatically up-to-date by connecting to the Windows Update service."
-      - content: "False"
-        isCorrect: false
-        explanation: "Incorrect. Windows Update for Business allows users to keep Windows 10 devices automatically up-to-date by connecting to the Windows Update service."

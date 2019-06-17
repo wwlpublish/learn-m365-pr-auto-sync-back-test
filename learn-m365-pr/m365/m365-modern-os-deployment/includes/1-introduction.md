@@ -1,7 +1,15 @@
-![step-6-wheel](../media/step-6-wheel.png)
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2SxiJ]
 
-![step-6-icon](../media/step-6-icon.png)
+To successfully deploy Windows 10 in your organization, you need to understand the different deployment methods, especially now that there are new scenarios to consider. Choosing among these scenarios, and understanding the capabilities and limitations of each, is a key task.
 
-Ultimately, the best measure of success with an OS deployment is meeting user expectations and avoiding disruptions in their work. By focusing on a phased deployment approach, IT admins can start testing and deploying to pilot users without disrupting the broad end user base. As testing completes and the bulk remediation items have been addressed, deployment can be broadened while still having continuous validation through the phased deployment.
+## Should you upgrade or migrate?
 
-In this module we’ll be focusing on putting the pieces together to automate Windows 10 installations as much as possible.
+You can migrate files and application settings to new hardware running Windows 10 or keep them on the computer you’re upgrading.
+
+You should upgrade if:
+-	You have existing computers running Windows 7, Windows 8, or Windows 8.1, x64. Because existing applications are preserved, the upgrade process uses the standard Windows installation media image (Install.wim) instead of a custom image.
+
+You should migrate if:
+-	You are changing from Windows 7, Windows 8, or Windows 8.1 x86 to Windows 10 x64. The upgrade process can’t change from a 32-bit operating system to a 64-bit operating system, because of possible complications with installed applications and drivers.
+
+In this module we review different deployment scenarios, methods, and tools.
