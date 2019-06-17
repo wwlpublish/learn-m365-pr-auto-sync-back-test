@@ -26,10 +26,10 @@ products:
 - m365
 - azure
 units:
-- learn-m365.modern-os-deployment.introduction
+- learn-m365.modern-os-deployment.1-introduction
 - learn-m365.modern-os-deployment.deployment-tools
 - learn-m365.modern-os-deployment.upgrade-windows-10
 - learn-m365.modern-os-deployment.migrate-windows-10
-- learn-m365.modern-os-deployment.summary-and-knowledge-check
+- learn-m365.modern-os-deployment.5-summary-and-knowledge-check
 badge: 
   uid: learn-m365.modern-os-deployment.badges
