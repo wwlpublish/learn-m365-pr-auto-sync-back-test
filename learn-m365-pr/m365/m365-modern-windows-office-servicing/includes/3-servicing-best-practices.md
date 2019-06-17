@@ -7,7 +7,7 @@ For any release, we recommend at least three deployment phases for IT: validatio
 
 ## Expand your validation of security updates
 
-Before security updates are rolled out for broad deployment, builds are released through the **Insider Programs** for Office and Windows. The Insider Program provides access to early update releases that you can validate on your own system before you deploying them to your whole organization. Microsoft also uses the Insider Programs to gather diagnostic data and feedback prior to releasing updates broadly. This helps minimize update incompatibilities. The Insider Programs are open to everyone.
+Before security updates are rolled out for broad deployment, builds are released through the **Insider Programs** for Office and Windows. The Insider Program provides access to early update releases that you can validate on your own system before deploying them to your whole organization. Microsoft also uses the Insider Programs to gather diagnostic data and feedback prior to releasing updates broadly. This helps minimize update incompatibilities. The Insider Programs are open to everyone.
 
 ## Simplify feature updates with Windows Update for Business
 

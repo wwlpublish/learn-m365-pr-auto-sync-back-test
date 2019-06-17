@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn-m365.modern-device-app
 metadata:
-  title: Analyze your device and app readiness
+  title: Analyze your device and app readiness for Windows 10
   description: Learn about the four-step process for analyzing device and application readiness and the tools provided by Microsoft to help you get ready, from the Windows Analytics Upgrade Readiness tool to the Readiness Toolkit for Office.
-  ms.date: 04/28/2019
-  author: lizap
-  ms.author: elizapo
+  ms.date: 06/17/2019
+  author: AlexandraHrt
+  ms.author: aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Analyze your device and app readiness
+title: Analyze your device and app readiness for Windows 10
 summary: "Learn about the four-step process for analyzing device and application readiness and the tools provided by Microsoft to help you get ready, from the Windows Analytics Upgrade Readiness tool to the Readiness Toolkit for Office."
 abstract: |
   At the end of this module, you should be able to:
@@ -18,12 +18,11 @@ prerequisites: None
 iconUrl: /learn/achievements/get-modern-device-and-app-readiness.svg
 ratingEnabled: true
 levels:
-- beginner
+- intermediate
 roles:
 - administrator
 products:
 - m365
-- azure
 units:
 - learn-m365.modern-device-app.1-introduction
 - learn-m365.modern-device-app.2-readiness-assessment-tools

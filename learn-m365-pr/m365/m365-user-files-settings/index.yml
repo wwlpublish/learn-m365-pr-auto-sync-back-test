@@ -3,8 +3,8 @@ uid: learn-m365.user-files-settings
 metadata:
   title: Migrate user files and settings in Microsoft 365
   description: Review the different options for ensuring users’ files and settings have been captured and migrated.
-  ms.date: 06/14/2019
-  author: lizap
+  ms.date: 06/17/2019
+  author: AlexandraHrt
   ms.author: aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
@@ -20,12 +20,11 @@ prerequisites: None
 iconUrl: /learn/achievements/get-modern-user-files-and-settings-migration.svg
 ratingEnabled: true
 levels:
-- beginner
+- intermediate
 roles:
 - administrator
 products:
 - m365
-- azure
 units:
 - learn-m365.user-files-settings.1-introduction
 - learn-m365.user-files-settings.2-manual-automated-migrations
