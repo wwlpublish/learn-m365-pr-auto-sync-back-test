@@ -38,23 +38,14 @@ quiz:
       - content: "False"
         isCorrect: true
         explanation: "Correct. In-place upgrades cannot be used to update existing images."
-    - content: "What function does Windows Autopilot NOT allow IT admins to do?"
+    - content: "What is one of the primary functions of Windows Autopilot?"
       choices:
-      - content: "Automatically join devices to Azure Active Directory"
-        isCorrect: false
-        explanation: "No. Windows Autopilot does NOT allow IT admins to reinstall user files and settings."
-      - content: "Auto-enroll devices into MDM services, such as Microsoft Intune"
-        isCorrect: false
-        explanation: "No. Windows Autopilot does NOT allow IT admins to reinstall user files and settings."
-      - content: "Restrict the administrator account creation"
-        isCorrect: false
-        explanation: "No. Windows Autopilot does NOT allow IT admins to reinstall user files and settings."
-      - content: "Create and auto-assign devices to configuration groups based on a device's profile"
-        isCorrect: false
-        explanation: "No. Windows Autopilot does NOT allow IT admins to reinstall user files and settings."
-      - content: "Reinstall user files and settings"
+      - content: "Customize and deploy a new system with apps and settings already configured."
         isCorrect: true
-        explanation: "Correct. Windows Autopilot does NOT allow IT admins to reinstall user files and settings."
-      - content: "Customize OOBE content specific to the organization"
+        explanation: "Yes, customizing and deploying a new system with apps and settings already configured is one of the primary functions of Windows Autopilot."
+      - content: "Reinstall user files and settings."
         isCorrect: false
-        explanation: "No. Windows Autopilot does NOT allow IT admins to reinstall user files and settings."
+        explanation: "No. Reinstalling user files and settings is not a function of Windows Autopilot."
+      - content: "Restrict the administrator account creation."
+        isCorrect: false
+        explanation: "No. This is not a function of Windows Autopilot."

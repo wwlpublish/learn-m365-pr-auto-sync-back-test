@@ -3,8 +3,8 @@ uid: learn-m365.get-modern-security-compliance
 metadata:
   title: Update your security and compliance configuration – Windows 10 and Office 365 ProPlus
   description: Learn about changes to Windows 10 and Office 365 ProPlus that help you protect your data, devices, and users while quickly detecting and responding to threats.
-  ms.date: 6/12/2019
-  author: aleha
+  ms.date: 6/17/2019
+  author: AlexandraHrt
   ms.author: aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
@@ -17,12 +17,11 @@ abstract: |
 prerequisites: None
 iconUrl: /learn/achievements/get-modern-security-and-compliance.svg
 levels:
-- beginner
+- intermediate
 roles:
 - administrator
 products:
 - m365
-- azure
 units:
 - learn-m365.get-modern-security-compliance.1-introduction
 - learn-m365.get-modern-security-compliance.2-new-m365-capabilities
