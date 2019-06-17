@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn-m365.directory-network-readiness
 metadata:
-  title: Analyze your directory and network readiness
+  title: Analyze your directory and network readiness for Microsoft 365
   description: Learn how new tools and deployment options reduce and streamline network traffic. 
-  ms.date: 04/28/2019
-  author: lizap
-  ms.author: elizapo
+  ms.date: 06/17/2019
+  author: AlexandraHrt
+  ms.author: aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Analyze your directory and network readiness
+title: Analyze your directory and network readiness for Microsoft 365
 summary: When it comes to preparing your network for a deployment, you need to take into consideration any and all components that have an impact on bandwidth. In this module, we’ll explore the tools and options for preparing your directory services and network for deployment to Windows 10 and Office 365 ProPlus.
 abstract: |
   At the end of this module, you should be able to:
@@ -18,12 +18,11 @@ prerequisites: None
 iconUrl: /learn/achievements/get-modern-directory-and-network-readiness.svg
 ratingEnabled: true
 levels:
-- beginner
+- intermediate
 roles:
 - administrator
 products:
 - m365
-- azure
 units:
 - learn-m365.directory-network-readiness.1-introduction
 - learn-m365.directory-network-readiness.2-adding-azure-ad
