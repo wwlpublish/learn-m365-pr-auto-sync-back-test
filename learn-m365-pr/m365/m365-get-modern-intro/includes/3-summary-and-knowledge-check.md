@@ -1,3 +1,3 @@
 
-In this module you learned about best practices for ensuring a smooth transition to Windows 10 and Office 365 ProPlus by using the eight-step deployment process.
+In this module, you learned about the eight-step deployment process, a set of best practices that help ensure a smooth transition to Windows 10 and Office 365 ProPlus.
 
