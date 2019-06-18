@@ -1,0 +1,31 @@
+### YamlMime:Module
+uid: learn-m365.get-modern-intro
+metadata:
+  title: Get started with Microsoft 365 
+  description: Discover best practices for ensuring a smooth transition to Windows 10 and Office 365 ProPlus by using the eight-step deployment process.
+  ms.date: 06/17/2019
+  author: AlexandraHrt
+  ms.author: aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Get started with Microsoft 365 
+summary: Discover best practices for ensuring a smooth transition to Windows 10 and Office 365 ProPlus by using the eight-step deployment process.
+abstract: |
+  At the end of this module, you should be able to:
+  - Explain the eight-step deployment process
+  - Understand the main concepts for each step
+prerequisites: None
+iconUrl: /learn/achievements/get-modern-overview.svg
+ratingEnabled: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+units:
+- learn-m365.get-modern-intro.1-get-started-w10-o365pp
+- learn-m365.get-modern-intro.2-deployment-process
+- learn-m365.get-modern-intro.3-summary-and-knowledge-check
+badge: 
+  uid: learn-m365.get-modern-intro.badges

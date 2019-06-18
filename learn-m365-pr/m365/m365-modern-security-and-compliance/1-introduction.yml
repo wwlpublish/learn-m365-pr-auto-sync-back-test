@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.get-modern-security-compliance.1-introduction
+title: Identify security issues that can derail your move to Windows 10 and Office 365 ProPlus
+metadata:
+  title: Identify security issues that can derail your move to Windows 10 and Office 365 ProPlus
+  description: Security issues can interrupt your move or upgrade - learn how to plan for and avoid these issues.
+  ms.date: 06/12/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 1
+content: |
+  [!include[](includes/1-introduction.md)]

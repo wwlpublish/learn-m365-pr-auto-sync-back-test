@@ -1,0 +1,48 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.get-modern-security-compliance.3-summary-and-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Review how to protect your data, devices, and users while quickly detecting and responding to threats.
+  ms.date: 06/12/2019
+  author: aleha
+  ms.author: aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-summary-and-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Which of the following is a common security-related problem that interrupts Microsoft 365 deployments?"
+      choices:
+      - content: "Antivirus app incompatibility"
+        isCorrect: true
+        explanation: "Correct. Antivirus app incompatibility is a common security-related problem that interrupts Microsoft 365 deployments."
+      - content: "ISO compliance"
+        isCorrect: false
+        explanation: "Incorrect. While important, ISO compliance doesn't usually interrupt Microsoft 365 deployments."
+      - content: "Identity and access management"
+        isCorrect: false
+        explanation: "Incorrect. Identity and access management is not a common security-related problem that interrupts Microsoft 365 deployments."
+    - content: "You can configure Windows Hello to rely on the device itself, your PIN, or a unique biometric identifier like your face or fingerprint."
+      choices:
+      - content: "True"
+        isCorrect: true
+        explanation: "Correct. Windows Hello can be configured to rely on the device itself, your PIN, or a unique biometric identifier such as your face or fingerprint which can be enforced via policy."
+      - content: "False"
+        isCorrect: false
+        explanation: "Incorrect. Windows Hello can be configured to rely on the device itself, your PIN, or a unique biometric identifier such as your face or fingerprint which can be enforced via policy."
+    - content: "Which of the following is a new security capability of Microsoft 365?"
+      choices:
+      - content: "Virtualization-based security"
+        isCorrect: true
+        explanation: "Correct. Virtualization-based security is one of the new features of Microsoft 365."
+      - content: "Disk encryption"
+        isCorrect: false
+        explanation: "Incorrect. While important, disk encryption is not a new security capability of Microsoft 365."
+      - content: "Microsoft Intune"
+        isCorrect: false
+        explanation: "No. Microsoft Intune is not a security capability of Microsoft 365."

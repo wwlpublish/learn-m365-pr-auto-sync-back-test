@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.modern-windows-office-servicing.1-introduction
+title: Review the Windows and Office 365 servicing models
+metadata:
+  title: Review the Windows and Office 365 servicing models
+  description:  Learn about ...
+  ms.date: 06/12/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 8
+content: |
+  [!include[](includes/1-introduction.md)]

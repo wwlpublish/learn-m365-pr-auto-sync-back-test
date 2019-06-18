@@ -1,0 +1,69 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.office-lob-apps.6-summary-and-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Review how Click-to-Run packaging provides new options to keep your Office apps up-to-date.
+  ms.date: 04/28/2019
+  author: lizap
+  ms.author: aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+  [!include[](includes/6-summary-and-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Office 365 ProPlus is available in both 32-bit and 64-bit versions and it does not matter which version you install."
+      choices:
+      - content: "True"
+        isCorrect: false
+        explanation: "No. Office 365 ProPlus is available in both 32-bit and 64-bit versions but the 64-bit version is recommended as long as you don’t have 32-bit dependencies."
+      - content: "False"
+        isCorrect: true
+        explanation: "Correct. Office 365 ProPlus is available in both 32-bit and 64-bit versions but the 64-bit version is recommended as long as you don’t have 32-bit dependencies."
+    - content: "Click-to-Run is replacing which previous installation tool:"
+      choices:
+      - content: "MSIX"
+        isCorrect: false
+        explanation: "No, Click-to-Run replaces MSI as the installation tool."
+      - content: "System Center Configuration Manager"
+        isCorrect: false
+        explanation: "No, Click-to-Run replaces MSI as the installation tool."
+      - content: "MSI"
+        isCorrect: true
+        explanation: "Correct. Click-to-Run replaces MSI as the installation tool."
+      - content: "Microsoft InTune"
+        isCorrect: false
+        explanation: "No, Click-to-Run replaces MSI as the installation tool."
+      - content: "Office Deployment Tool"
+        isCorrect: false
+        explanation: "No, Click-to-Run replaces MSI as the installation tool."
+    - content: "Which of the following tools do NOT work with MSI-based packages for business app delivery?"
+      choices:
+      - content: "MSIX"
+        isCorrect: true
+        explanation: "Correct. MSIX does not work with MSI-based packages for business app delivery."
+      - content: "System Center Configuration Manager"
+        isCorrect: false
+        explanation: "No, SCCM does not work with MSI-based packages for business app delivery."
+      - content: "Windows 10"
+        isCorrect: false
+        explanation: "No, Windows 10 does not work with MSI-based packages for business app delivery."
+      - content: "Microsoft InTune"
+        isCorrect: false
+        explanation: "No, Microsoft Intune does not work with MSI-based packages for business app delivery."
+    - content: "Which of the following is a method of delivering business apps?"
+      choices:
+      - content: "MSI-based app packages"
+        isCorrect: true
+        explanation: "Yes, MSI-based app packages are a method of delivering business apps."
+      - content: "Click-to-Run"
+        isCorrect: false
+        explanation: "No, Click-to-Run is not usually a method of delivering business apps."
+      - content: "Microsoft Intune"
+        isCorrect: false
+        explanation: "No, Microsoft Intune is not usually a method of delivering business apps."
+      

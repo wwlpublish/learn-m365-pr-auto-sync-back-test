@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.modern-usercomm-training.3-measured-rollouts
+title: Plan a proactive measured rollout
+metadata:
+  title: Plan a proactive measured rollout
+  description: Learn how to leveage a phased deployment to develop and refine your user training.
+  ms.date: 06/13/2019
+  author: aleha
+  ms.author: aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-measured-rollouts.md)]

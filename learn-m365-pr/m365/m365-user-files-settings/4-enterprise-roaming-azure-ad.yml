@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.user-files-settings.4-enterprise-roaming-azure-ad
+title: Use enterprise state roaming with Azure AD
+metadata:
+  title: Use enterprise state roaming with Azure AD
+  description: Learn about enterprise state roaming with Azure AD
+  ms.date: 06/14/2019
+  author: lizap
+  ms.author: aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 5
+content: |
+  [!include[](includes/4-enterprise-roaming-azure-ad.md)]

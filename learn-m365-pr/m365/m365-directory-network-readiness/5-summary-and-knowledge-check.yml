@@ -1,0 +1,56 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.directory-network-readiness.5-summary-and-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Learn about the tools and options for preparing your directory services and network for deployment .
+  ms.date: 04/28/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+  [!include[](includes/5-summary-and-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "If your organization already uses Office 365 services like Exchange Online or SharePoint Online, you’re already using Azure AD."
+      choices:
+      - content: "True"
+        isCorrect: true
+        explanation: "Yes, this statement is true. You're already using Azure AD for these Office 365 services."
+      - content: "False"
+        isCorrect: false
+        explanation: "No, this statement is true. You're already using Azure AD for these Office 365 services."
+      
+    - content: "Bandwidth requirements for an initial migration of Office 365 ProPlus can exceed:"
+      choices:
+      - content: "20GB"
+        isCorrect: true
+        explanation: "Yes, bandwidths may exceed 20 GB."
+      - content: "20MB"
+        isCorrect: false
+        explanation: "No, this is false. Bandwidths may exceed 20 GB."
+      - content: "1GB"
+        isCorrect: false
+        explanation: "No, this is false. Bandwidths may exceed 20 GB."
+      - content: "3GB"
+        isCorrect: false
+        explanation: "No, this is false. Bandwidths may exceed 20 GB."
+      - content: "6GB"
+        isCorrect: false
+        explanation: "No, this is false. Bandwidths may exceed 20 GB."
+
+    - content: "What's one of the primary functions of Azure Active Directory?"
+      choices:
+      - content: "Azure AD controls access to your apps and app resources by requiring multi-factor access authentication."
+        isCorrect: true
+        explanation: "Yes, this is a primary function of Azure AD."
+      - content: "Azure AD is a readiness assessment tool."
+        isCorrect: false
+        explanation: "No, this is false. Readiness assessment is not a primary function of Azure AD."
+      - content: "Azure AD controls user settings across devices."
+        isCorrect: false
+        explanation: "No, controlling user settings across devices is not a primary function of Azure AD."

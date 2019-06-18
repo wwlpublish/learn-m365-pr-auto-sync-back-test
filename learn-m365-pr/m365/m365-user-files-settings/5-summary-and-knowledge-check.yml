@@ -1,0 +1,45 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.user-files-settings.5-summary-and-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Review the basics of the different options for ensuring users’ files and settings have been captured and migrated.
+  ms.date: 04/28/2019
+  author: lizap
+  ms.author: aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 5
+content: |
+  [!include[](includes/5-summary-and-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Which of the following is a consideration when deciding how to migrate user files and settings?" 
+      choices:
+      - content: "What type of network do you have?"
+        isCorrect: false
+        explanation: "Incorrect. The type of network you have is not a consideration when deciding how to migrate user files and settings."
+      - content: "How big is your organization?"
+        isCorrect: true
+        explanation: "Correct. The size of your organization is a consideration when deciding how to migrate user files and settings."
+      - content: "What Windows 10 version are you moving to?"
+        isCorrect: false
+        explanation: "Incorrect. The Windows 10 version you're moving to is not a consideration when deciding how to migrate user files and settings."
+    - content: "Both System Center Configuration Manager and the Microsoft Deployment Toolkit (MDT) make use of the User State Migration Tool (USMT) as part of their end-to-end deployment process."
+      choices:
+      - content: "True"
+        isCorrect: true
+        explanation: "Correct. Both System Center Configuration Manager and the Microsoft Deployment Toolkit (MDT) make use of the User State Migration Tool (USMT) as part of their end-to-end deployment process."
+      - content: "False"
+        isCorrect: false
+        explanation: "Incorrect. Both System Center Configuration Manager and the Microsoft Deployment Toolkit (MDT) make use of the User State Migration Tool (USMT) as part of their end-to-end deployment process."
+    - content: "OneDrive Known Folder Move works for transferring both OneDrive and SharePoint user files."
+      choices:
+      - content: "True"
+        isCorrect: true
+        explanation: "Correct. OneDrive Known Folder Move works for transferring both OneDrive and SharePoint user files."
+      - content: "False"
+        isCorrect: false
+        explanation: "Incorrect. OneDrive Known Folder Move works for transferring both OneDrive and SharePoint user files."
