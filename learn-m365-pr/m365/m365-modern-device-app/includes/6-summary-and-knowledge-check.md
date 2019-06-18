@@ -1,2 +1,2 @@
 
-In this module you learned about the four-step process for analyzing device and application readiness and the tools provided by Microsoft to help you get ready, from the Windows Analytics Upgrade Readiness tool to the Readiness Toolkit for Office.
+In this module, you learned about the four-step process to analyze device and application readiness and the Microsoft tools to help you get ready for your move to Windows 10 and Office 365 ProPlus.

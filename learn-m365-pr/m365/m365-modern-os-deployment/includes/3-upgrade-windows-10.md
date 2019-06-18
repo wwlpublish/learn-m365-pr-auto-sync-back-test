@@ -6,15 +6,15 @@ When you upgrade to a new version of Windows, be aware of the following:
 
 **Application compatibility.** Most of your applications, drivers, and add-ins will work as-is. Both Upgrade Readiness and the Readiness Toolkit help assess items in your org that might have compatibility issues. They also provide you with known information about compatibility, including where to find version updates to resolve them. Test these updates before you roll them out.
 
-**Multilingual Windows image upgrades.** When you need to upgrade multilingual Windows devices, be aware that the User State Migration tool (USMT) doesn’t support cross-language upgrades. To work around this for devices with multiple language packs, upgrade or migrate only the system default user interface language. For example, if English is the default but you have a Spanish language pack installed, you can upgrade only to English. 
+**Multilingual Windows image upgrades.** The User State Migration tool (USMT) doesn’t support cross-language upgrades. If you need to upgrade multilingual Windows devices, upgrade or migrate only the system default user interface language. For example, if English is the default but you have a Spanish language pack installed, you can upgrade only to English. 
 
 **Errorhandler.cmd.** If you want to use Errorhandler.cmd during your upgrade, copy the file into the %WINDIR%\Setup\Scripts directory on the old installation. This ensures that if there are errors during the down-level phase of Windows Setup, the commands in Errorhandler.cmd still run.
 
-**Data drive ACL migration.** During the configuration pass of Windows Setup, the root access control list (ACL) on drives formatted for NTFS without an installed OS are changed to the default Windows XP ACL format. This change enables authenticated users to modify access on folders and files. Because this may affect performance, you can [change the relevant registry value](/windows/deployment/upgrade/windows-upgrade-and-migration-considerations) to disable this feature if needed.
+**Data drive ACL migration.** During the configuration pass of Windows Setup, the root access control list (ACL) on drives formatted for NTFS without an installed OS are changed to the default Windows XP ACL format. This change enables authenticated users to modify access on folders and files. Because this change may affect performance, you can [change the relevant registry value](/windows/deployment/upgrade/windows-upgrade-and-migration-considerations) to disable this feature if needed.
 
 ## In-place upgrades
 
-For existing PCs running Windows 7, Windows 8, or Windows 8.1 x64, the recommended path uses the Windows installation program (setup.exe) to perform an in-place upgrade, automatically preserving all data, settings, applications, and drivers. In-place upgrades run several small pre-installation checks looking for known compatibility issues and preserve the user state and applications while only removing what isn’t compatible with the version of Windows 10 being installed. 
+For existing Windows 7, Windows 8, or Windows 8.1 x64 PCs, the recommended path uses the Windows installation program (setup.exe) to perform an in-place upgrade, automatically preserving all data, settings, applications, and drivers. In-place upgrades run several small pre-installation checks to look for known compatibility issues. It also preserves the user state and applications while removing what isn’t compatible with the version of Windows 10 you're installing. 
 
 The in-place upgrade process supports manually or automatically rolling back to the previous OS if you encounter issues either during or after deployment. 
 
