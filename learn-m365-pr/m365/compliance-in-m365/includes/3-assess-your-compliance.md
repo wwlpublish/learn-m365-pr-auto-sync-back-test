@@ -35,7 +35,7 @@ The Compliance Manager is a cross-Microsoft solution that helps meet complex com
 Compliance Manager provides three key capabilities:
 - **Ongoing risk assessment**. View a summary of your compliance posture against the data protection regulatory requirements that are relevant to your organization, in the context of using Microsoft cloud services. The dashboard provides you with your compliance score, which helps you make appropriate compliance decisions.
 - **Actionable insights**. Understand the responsibility that you and Microsoft share in meeting compliance standards. For components that Microsoft manages, you can see the control implementation and testing details, test date, and results. For components that you manage, you can see recommendations for appropriate actions and guidance on how to implement them.
-- **Simplified compliance**. Simplify processes to achieve compliance. It provides built-in collaboration tools that you can use to assign tasks to your teams. You can also generate audi-ready reports with links to the evidence you collected. 
+- **Simplified compliance**. Simplify processes to achieve compliance. It provides built-in collaboration tools that you can use to assign tasks to your teams. You can also generate audit-ready reports with links to the evidence you collected. 
 
 ![Compliance Manager](../media/3-compliance-manager.png)
 *The Compliance Manager Assessments page*
