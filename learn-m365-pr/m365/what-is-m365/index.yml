@@ -18,7 +18,6 @@ abstract: |
 prerequisites: |
  - Basic understanding of cloud computing. If you are unfamiliar with this, we recommend you take [Cloud Concepts - Principles of cloud computing](https://docs.microsoft.com/learn/modules/principles-cloud-computing/index)
 iconUrl: /learn/achievements/what-is-m365.svg
-ratingEnabled: true
 levels:
 - beginner
 roles:
