@@ -13,7 +13,7 @@ Together, these controls enable you and Microsoft engineers to enforce zero stan
 ## Privileged access management in Office 365
 Taking all the learnings from how Microsoft manages its own datacenter, Office 365 has built a similar privileged access management system to help you manage privileged admin access to your users, typically the tenant admins. This system requires your users to request just-in-time and just-enough access to perform the tasks at hand. 
 
-With privileged access management in Office 365, access requests must be approved by an authorized set of approvers. You can configure whehter access requests are automatically or manually approved. Either way, all the activity is logged and auditable, so that both requests and approvals can be reviewed and documentation provided for internal reviews and auditor requests.
+With privileged access management in Office 365, access requests must be approved by an authorized set of approvers. You can configure whether access requests are automatically or manually approved. Either way, all the activity is logged and auditable, so that both requests and approvals can be reviewed and documentation provided for internal reviews and auditor requests.
 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWrzxn]
