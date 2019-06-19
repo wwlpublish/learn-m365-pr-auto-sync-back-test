@@ -1,0 +1,37 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.modern-windows-office-servicing.4-summary-and-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Review how to stay current with updates and learn about the new servicing model.
+  ms.date: 06/13/2019
+  author: lizap
+  ms.author: aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+  [!include[](includes/4-summary-and-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Which of the following is true of the new Windows and Office update model?"
+      choices:
+      - content: "A new features update is delivered twice per year."
+        isCorrect: true
+        explanation: "Correct. A new features update is delivered twice per year."
+      - content: "A quality and security update is delivered twice per year."
+        isCorrect: false
+        explanation: "Incorrect. Quality and security updates are delivered monthly."
+      - content: "The cumulative nature of monthly updates means the update decreases in size each month."
+        isCorrect: false
+        explanation: "Incorrect. The cumulative nature of monthly updates means the update increases in size each month."
+    - content: "Microsoft offers a tool called Express Updates to reduce Windows download size significantly."
+      choices:
+      - content: "True"
+        isCorrect: true
+        explanation: "Correct. Express Updates is a tool that reduces download size."
+      - content: "False"
+        isCorrect: false
+        explanation: "Incorrect. Express Updates is a tool that reduces download size."
