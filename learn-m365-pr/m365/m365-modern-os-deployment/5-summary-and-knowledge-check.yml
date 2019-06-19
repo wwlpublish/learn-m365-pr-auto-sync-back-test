@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.modern-os-deployment.5-summary-and-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Review what you learned about deploying, upgrading, and migrating to Windows 10.
+  ms.date: 06/14/2019
+  author: aleha
+  ms.author: aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+  [!include[](includes/5-summary-and-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Reimaging a computer where you don't intend to keep any of the data on the disk is called which deployment type?"
+      choices:
+      - content: "Bare metal deployment"
+        isCorrect: true
+        explanation: "Correct. Reimaging a computer where you don't intend to keep any of the data on the disk is called bare metal deployment."
+      - content: "Computer refresh"
+        isCorrect: false
+        explanation: "No. Reimaging a computer where you don't intend to keep any of the data on the disk is called bare metal deployment."
+      - content: "Computer replacement"
+        isCorrect: false
+        explanation: "No. Reimaging a computer where you don't intend to keep any of the data on the disk is called bare metal deployment."
+      - content: "Computer reimage"
+        isCorrect: false
+        explanation: "No. Reimaging a computer where you don't intend to keep any of the data on the disk is called bare metal deployment."
+    - content: "In-place upgrades allow you to upgrade from legacy versions of Windows as well as update existing images."
+      choices:
+      - content: "True"
+        isCorrect: false
+        explanation: "Incorrect. In-place upgrades cannot be used to update existing images."
+      - content: "False"
+        isCorrect: true
+        explanation: "Correct. In-place upgrades cannot be used to update existing images."
+    - content: "What is one of the primary functions of Windows Autopilot?"
+      choices:
+      - content: "Customize and deploy a new system with apps and settings already configured."
+        isCorrect: true
+        explanation: "Yes, customizing and deploying a new system with apps and settings already configured is one of the primary functions of Windows Autopilot."
+      - content: "Reinstall user files and settings."
+        isCorrect: false
+        explanation: "No. Reinstalling user files and settings is not a function of Windows Autopilot."
+      - content: "Restrict the administrator account creation."
+        isCorrect: false
+        explanation: "No. This is not a function of Windows Autopilot."

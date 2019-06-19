@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.modern-os-deployment.1-introduction
+title: Upgrade or migrate - how to choose which is right for you
+metadata:
+  title: Upgrade or migrate - how to choose which is right for you
+  description: Learn about the different deployment options based on upgrade and migration scenarios.
+  ms.date: 06/14/2019
+  author: aleha
+  ms.author: aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 8
+content: |
+  [!include[](includes/1-introduction.md)]

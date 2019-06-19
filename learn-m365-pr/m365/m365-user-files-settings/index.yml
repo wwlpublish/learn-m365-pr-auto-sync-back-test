@@ -1,0 +1,35 @@
+### YamlMime:Module
+uid: learn-m365.user-files-settings
+metadata:
+  title: Migrate user files and settings in Microsoft 365
+  description: Review the different options for ensuring users’ files and settings have been captured and migrated.
+  ms.date: 06/17/2019
+  author: AlexandraHrt
+  ms.author: aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Migrate user files and settings in Microsoft 365
+summary: When refreshing or replacing PCs, it is important to give users a like-for-like experience on their new device to minimize productivity downtime. Whether using a manual or automated process, learn about the different options for ensuring users’ files and settings have been captured and migrated.
+abstract: |
+  At the end of this module, you should be able to:
+  - List the key considerations in migrating user files and settings 
+  - Describe the processes for both manual and automatic migrations 
+  - Explain what OneDrive Known Folder Move is and how it works
+  - List the steps involved in customizing users’ start menus and task bars  
+prerequisites: None
+iconUrl: /learn/achievements/get-modern-user-files-and-settings-migration.svg
+ratingEnabled: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+units:
+- learn-m365.user-files-settings.1-introduction
+- learn-m365.user-files-settings.2-manual-automated-migrations
+- learn-m365.user-files-settings.3-customize-layouts
+- learn-m365.user-files-settings.4-enterprise-roaming-azure-ad
+- learn-m365.user-files-settings.5-summary-and-knowledge-check
+badge: 
+  uid: learn-m365.user-files-settings.badges
