@@ -42,6 +42,14 @@ Microsoft Intune, a mobile device management component of Enterprise Mobility + 
 ## Office 365 Advanced Threat Protection
 Because email is a primary way malware gets into your organization, Advanced Threat Protection helps to identify threats before they land in a user’s mailbox. This feature, included in Microsoft 365 E5 subscriptions, provides protection by scanning email and URLs, identifying malicious files, and detecting when someone tries to impersonate one of your users to access your organization's data.
 
+>### Try it ###
+>Learn how to make ATP polciies with this interactive guide:
+>
+> <a href="https://mslearn.cloudguides.com/guides/Create%20Office%20365%20ATP%20policies">![Create Office 365 ATP Policies](../media/lab-atp.png)</a>  
+>
+>Be sure to click the full-screen option in the video player, to make it easier to see all of the great Microsoft Teams features. When you're done, use the **Back** arrow in your browser to come back to this page. 
+
+
 ## Office 365 Threat Intelligence
 Office 365 Threat Intelligence is a collection of insights and information available in the Office 365 Security & Compliance Center. Office 365 Threat Intelligence monitors signals and gathers data from multiple sources, such as user activity, authentication, email, compromised PCs, and security incidents. You can use this information to understand and respond to threats against users and intellectual property.
 
