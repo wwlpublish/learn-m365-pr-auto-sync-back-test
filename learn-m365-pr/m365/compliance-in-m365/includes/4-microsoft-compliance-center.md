@@ -10,7 +10,7 @@ The new experience helps you reduce compliance risks and protect your digital es
 
 Once the Microsoft 365 compliance center is enabled for your tenant, you will be to access it at: https://compliance.microsoft.com.
 
-### Try it ###
+> ### Try it
 >Learn how to assess risk using the Microsoft 365 compliance center in this interactive guide:
 >
 > <a href="https://mslearn.cloudguides.com/guides/Assess%20risk%20with%20Compliance%20Manager">![Assess risk with the Microsoft 365 compliance center](../media/lab-compliance.png)</a>  

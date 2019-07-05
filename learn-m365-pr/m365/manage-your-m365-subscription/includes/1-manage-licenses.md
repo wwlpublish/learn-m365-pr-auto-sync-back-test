@@ -5,7 +5,7 @@ The **Microsoft 365 admin center** is where you create user accounts and assign 
 ![Microsoft 365 admin portal](../media/1-admin-portal.png)
 *Acquire licenses in the Microsoft 365 admin center*
 
-### Try it ###
+> ### Try it
 >Explore the Microsoft 365 admin center with this interactive guide:
 >
 > <a href="https://mslearn.cloudguides.com/guides/Get%20to%20know%20the%20Microsoft%20365%20admin%20center">![Tour the Microsoft 365 admin portal](../media/lab-admincenter.png)</a>  
@@ -20,7 +20,7 @@ You can also turn access to functions like Exchange Online or Microsoft Teams on
 
 *Enable or disable individual functions for a license* 
 
-### Try it ###
+> ### Try it
 >Learn how to manage your Microsoft 365 licenses with this interactive guide:
 >
 > <a href="https://mslearn.cloudguides.com/guides/Manage%20licenses%20in%20Microsoft%20365">![Manage Microsoft 365 licenses](../media/lab-licenses.png)</a>  

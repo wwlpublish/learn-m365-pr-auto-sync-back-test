@@ -16,7 +16,7 @@ With Microsoft 365 you can:
 
 During meetings, video and screen sharing create a focus among the group, while new AI services provide auto-translation, transcription, and recording so participants get more out of the experience. Following the meeting, notes and action items can be automatically transcribed and distributed to the group, and anyone who was unable to attend can easily go back and watch the meeting. 
 
->### Try it ###
+>### Try it
 >Explore Microsoft Teams with this interactive guide:
 >
 > <a href="https://mslearn.cloudguides.com/guides/Get%20to%20know%20Microsoft%20Teams">![Get to know Microsoft Teams](../media/lab-teams.png)</a>  

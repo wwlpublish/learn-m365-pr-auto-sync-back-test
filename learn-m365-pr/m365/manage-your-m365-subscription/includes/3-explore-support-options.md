@@ -26,7 +26,7 @@ Here are the different ways and channels to get support for Microsoft 365:
 
    (Note that these links open a new browser window.)
 
-   ### Try it ###
+   ### Try it
 >Discover your support options with this interactive guide:
 >
 > <a href="https://mslearn.cloudguides.com/guides/Discover%20support%20options%20in%20Microsoft%20365">![Discover your support options in Microsoft 365](../media/lab-support.png)</a>  
