@@ -29,7 +29,7 @@ Here are the different ways and channels to get support for Microsoft 365:
    ### Try it
 >Discover your support options with this interactive guide:
 >
-> <a href="https://mslearn.cloudguides.com/guides/Discover%20support%20options%20in%20Microsoft%20365">![Discover your support options in Microsoft 365](../media/lab-support-images.png)</a>  
+> <a href="https://mslearn.cloudguides.com/guides/Discover%20support%20options%20in%20Microsoft%20365">![Discover your support options in Microsoft 365](../media/lab-support-image.png)</a>  
 >
 >Be sure to click the full-screen option in the video player, to make it easier to see all of the great Microsoft Teams features. When you're done, use the **Back** arrow in your browser to come back to this page. 
 
