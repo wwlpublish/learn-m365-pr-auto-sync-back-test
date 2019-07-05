@@ -22,3 +22,12 @@ The support timeline for updates depends on the specific product you’re using.
 Quality and security updates are delivered using a cumulative model – each subsequent update incorporates all preceding updates in it. Delivering quality and security updates as a cumulative update package corrects many past issues, from inconsistent and lengthy sets of test matrices for support to hours or days of deployment time. The monthly servicing model is designed to give you flexibility to limit the roll-out of new features to twice per year, and if needed to even skip a feature update, while still receiving quality and security updates. It’s important, though, to keep in mind that the cumulative nature of monthly updates means the update increases in size each month.
 
 With the cumulative model, your PCs are always one update away from being current, so there are fewer monthly updates you have to deploy. Each update builds on updates from previous months and contains all the fixes that are needed to get current. Cumulative updates are especially helpful when a PC has been turned off for several months.
+
+### Try it
+
+>Explore Windows 10 servicing options with this interactive guide:
+>
+> <a href="https://mslabs.cloudguides.com/guides/Discover%20servicing%20options%20for%20Windows%2010%20-%20Interactive%20Guide">![Discover servicing options for Windows 10](../media/lab-servicing-options.png)</a>  
+>
+>Be sure to click the full-screen option in the video player, to make it easier to see all of the great Microsoft features. When you're done, use the **Back** arrow in your browser to come back to this page. 
+
