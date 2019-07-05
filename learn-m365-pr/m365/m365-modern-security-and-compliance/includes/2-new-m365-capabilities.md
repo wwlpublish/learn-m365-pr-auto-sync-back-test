@@ -1,4 +1,7 @@
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2SuIa]
+
+![step-5-wheel](../media/step-5-wheel.png)
+
+![step-5-icon](../media/step-5-icon.png)
 
 Let's look at new capabilities you can take advantage of with Windows 10, Office 365 ProPlus, and cloud-based options from Enterprise Mobility + Security and beyond.
 
