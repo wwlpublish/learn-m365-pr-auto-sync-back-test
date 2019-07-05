@@ -1,6 +1,4 @@
-![step-5-wheel](../media/step-5-wheel.png)
-
-![step-5-icon](../media/step-5-icon.png)
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3idqx]
 
 Before detailing the new capabilities available in Windows 10 and Office 365 ProPlus and connecting those experiences to the cloud, we’ll cover a few security issues that can often interrupt the deployment progress.
 

@@ -1,5 +1,4 @@
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2SmUt]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3iiE9]
 
 In the past, a major hurdle to upgrading users’ desktops was application and hardware compatibility. The good news is that most applications written in the last 10 years run on Windows 10, and any COM add-ins and VBA macros your organization used on previous versions of Office (back to Office 2010) continue to work on the latest versions of Office without modification.
 
