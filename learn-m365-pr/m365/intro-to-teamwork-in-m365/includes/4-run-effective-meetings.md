@@ -19,6 +19,6 @@ During meetings, video and screen sharing create a focus among the group, while 
 >### Try it
 >Explore Microsoft Teams with this interactive guide:
 >
-> <a href="https://mslearn.cloudguides.com/guides/Get%20to%20know%20Microsoft%20Teams">![Get to know Microsoft Teams](../media/lab-teams.png)</a>  
+> <a href="https://mslearn.cloudguides.com/guides/Get%20to%20know%20Microsoft%20Teams">![Get to know Microsoft Teams](../media/lab-teams-image.png)</a>  
 >
 >Be sure to click the full-screen option in the video player, to make it easier to see all of the great Microsoft Teams features. When you're done, use the **Back** arrow in your browser to come back to this page. 

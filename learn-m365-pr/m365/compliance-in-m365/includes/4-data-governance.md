@@ -25,7 +25,7 @@ With retention labels, you can:
 >### Try it
 >Explore retention policies with this interactive guide:
 >
-> <a href="https://mslearn.cloudguides.com/guides/Create%20retention%20policies%20in%20Microsoft%20365">![Create retention policies in Microsoft 365](../media/lab-retention.png)</a>  
+> <a href="https://mslearn.cloudguides.com/guides/Create%20retention%20policies%20in%20Microsoft%20365">![Create retention policies in Microsoft 365](../media/lab-retention-image.png)</a>  
 >
 >Be sure to click the full-screen option in the video player, to make it easier to see all of the great Microsoft Teams features. When you're done, use the **Back** arrow in your browser to come back to this page. 
 

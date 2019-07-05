@@ -42,7 +42,7 @@ Because email is a primary way malware gets into your organization, Advanced Thr
 >### Try it
 >Learn how to make ATP policiies with this interactive guide:
 >
-> <a href="https://mslearn.cloudguides.com/guides/Create%20Office%20365%20ATP%20policies">![Create Office 365 ATP Policies](../media/lab-atp.png)</a>  
+> <a href="https://mslearn.cloudguides.com/guides/Create%20Office%20365%20ATP%20policies">![Create Office 365 ATP Policies](../media/lab-atp-images.png)</a>  
 >
 >Be sure to click the full-screen option in the video player, to make it easier to see all of the great Microsoft Teams features. When you're done, use the **Back** arrow in your browser to come back to this page. 
 

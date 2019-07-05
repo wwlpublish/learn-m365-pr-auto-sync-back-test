@@ -8,7 +8,7 @@ The **Microsoft 365 admin center** is where you create user accounts and assign 
 > ### Try it
 >Explore the Microsoft 365 admin center with this interactive guide:
 >
-> <a href="https://mslearn.cloudguides.com/guides/Get%20to%20know%20the%20Microsoft%20365%20admin%20center">![Tour the Microsoft 365 admin portal](../media/lab-admincenter.png)</a>  
+> <a href="https://mslearn.cloudguides.com/guides/Get%20to%20know%20the%20Microsoft%20365%20admin%20center">![Tour the Microsoft 365 admin portal](../media/lab-admin-image.png)</a>  
 >
 >Be sure to click the full-screen option in the video player, to make it easier to see all of the great Microsoft Teams features. When you're done, use the **Back** arrow in your browser to come back to this page. 
 
@@ -23,5 +23,5 @@ You can also turn access to functions like Exchange Online or Microsoft Teams on
 > ### Try it
 >Learn how to manage your Microsoft 365 licenses with this interactive guide:
 >
-> <a href="https://mslearn.cloudguides.com/guides/Manage%20licenses%20in%20Microsoft%20365">![Manage Microsoft 365 licenses](../media/lab-licenses.png)</a>  
+> <a href="https://mslearn.cloudguides.com/guides/Manage%20licenses%20in%20Microsoft%20365">![Manage Microsoft 365 licenses](../media/lab-licenses-image.png)</a>  
 >
