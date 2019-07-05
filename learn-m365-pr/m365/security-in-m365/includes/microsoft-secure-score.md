@@ -2,7 +2,7 @@ Managing your security posture to protect against a continually evolving threat 
 
 With Microsoft Secure Score in the Microsoft 365 security center, you can have increased visibility and control over your organization’s security posture. From a centralized dashboard you can monitor and improve the security for your Microsoft 365 identities, data, apps, devices, and infrastructure. 
 
-![Microsoft Secure Score](../media/SecureScoreWidget-o365.png)
+![Microsoft Secure Score](../media/securescorewidget-o365.png)
 
 *Your Secure Score reflects the overall security of your organization, at a glance*
 
