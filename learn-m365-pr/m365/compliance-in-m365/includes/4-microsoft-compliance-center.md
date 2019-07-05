@@ -9,3 +9,10 @@ The new experience helps you reduce compliance risks and protect your digital es
 - Microsoft Cloud App Security (MCAS) insights are also available in the Microsoft 365 compliance center to help you identify compliance risks across applications, discover shadow IT, and monitor employees’ non-compliant behaviors.
 
 Once the Microsoft 365 compliance center is enabled for your tenant, you will be to access it at: https://compliance.microsoft.com.
+
+> ### Try it
+>Learn how to assess risk using the Microsoft 365 compliance center in this interactive guide:
+>
+> <a href="https://mslearn.cloudguides.com/guides/Assess%20risk%20with%20Compliance%20Manager">![Assess risk with the Microsoft 365 compliance center](../media/lab-compliance-image.png)</a>  
+>
+>Be sure to click the full-screen option in the video player, to make it easier to see all of the great Microsoft Teams features. When you're done, use the **Back** arrow in your browser to come back to this page. 
