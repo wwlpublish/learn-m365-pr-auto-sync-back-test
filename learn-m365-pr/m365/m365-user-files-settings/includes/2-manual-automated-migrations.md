@@ -19,13 +19,30 @@ During the migration process, you need to have sufficient server storage capacit
 
 If you’re performing a PC refresh and not reformatting the primary Windows partition, you also have the option of using a hard-link migration store with USMT. This process preserves the user state on the PC while the old operating system and apps are removed and refreshed. With the restore process coming from the same local partition, this option offers significant improvements in performance and reduces network traffic.
 
-## Migrate user data with OneDrive Known Folder Move
+### Try it
 
-If your organization is using OneDrive or is adding OneDrive as part of a deployment, there’s a new option available for migration. Using the cloud to synchronize user files, the **OneDrive Known Folder Move** feature provides a level of flexibility not possible with local network-based file migration options. If it’s enabled before migration, it provides secure access on new or refreshed PCs, and it eliminates the need to create temporary migration stores on your own servers. It also has the potential to be completely transparent to the user.
+>Explore the User State Migration Tool with this interactive guide:
+>
+> <a href="https://mslabs.cloudguides.com/guides/Migrate%20user%20state%20data%20-%20Interactive%20Guide">![Migrate user state data](../media/lab-user-state.png)</a>  
+>
+>Be sure to click the full-screen option in the video player, to make it easier to see all of the great Microsoft features. When you're done, use the **Back** arrow in your browser to come back to this page. 
 
-Within OneDrive and SharePoint, users can select the folders and locations they want to move to their updated systems, but that puts the burden on the end user. With Known Folder Move, you as an admin target the documents, desktop, and pictures folders within a user profile and protect it all on OneDrive using Group Policy settings.
+## Migrate user data with OneDrive known folder move
+
+If your organization is using OneDrive or is adding OneDrive as part of a deployment, there’s a new option available for migration. Using the cloud to synchronize user files, the **OneDrive known folder move** feature provides a level of flexibility not possible with local network-based file migration options. If it’s enabled before migration, it provides secure access on new or refreshed PCs, and it eliminates the need to create temporary migration stores on your own servers. It also has the potential to be completely transparent to the user.
+
+Within OneDrive and SharePoint, users can select the folders and locations they want to move to their updated systems, but that puts the burden on the end user. With a known folder move, you as an admin target the documents, desktop, and pictures folders within a user profile and protect it all on OneDrive using Group Policy settings.
  
 Users don’t need to change their workflow – everything looks the same before, during, and after synchronization with OneDrive. Through Group Policy you can choose whether to notify users that their documents, pictures, and desktop are protected in OneDrive, as the process happens in the background. As soon as a user signs into their OneDrive account, these files are restored to their new PC. Using OneDrive also means users can access their files securely at any time from their phones and other devices.
 
 Authentication for OneDrive is powered by Azure Active Directory, so for extra security and to limit network activity, you can enable multi-factor authentication and set policies to control the upload and download bandwidth OneDrive uses. 
-`
+
+### Try it
+
+>Learn about OneDrive known folder move with this interactive guide:
+>
+> <a href="https://mslabs.cloudguides.com/guides/Migrate%20Windows%20known%20folders%20to%20OneDrive%20-%20Interactive%20Guide">![Migrate Windows known folders to OneDrive](../media/lab-known-folders.png)</a>  
+>
+>Be sure to click the full-screen option in the video player, to make it easier to see all of the great Microsoft features. When you're done, use the **Back** arrow in your browser to come back to this page. 
+
+

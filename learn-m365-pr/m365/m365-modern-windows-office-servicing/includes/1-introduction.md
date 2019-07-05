@@ -1,5 +1,4 @@
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2SpvU]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3i5Er]
 
 Both Windows 10 and Office 365 ProPlus introduce new servicing options, support models, and update timelines. These changes simplify the process of staying current on the latest features. Along with these updates, new configuration options provide you with convenient servicing plans. 
 

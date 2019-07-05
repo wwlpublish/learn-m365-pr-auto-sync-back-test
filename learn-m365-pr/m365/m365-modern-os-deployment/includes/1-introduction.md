@@ -1,4 +1,4 @@
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2SxiJ]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3i8et]
 
 To successfully deploy Windows 10 in your organization, you need to understand the different deployment methods, especially now that there are new scenarios to consider. Choosing among these scenarios, and understanding the capabilities and limitations of each, is a key task.
 
