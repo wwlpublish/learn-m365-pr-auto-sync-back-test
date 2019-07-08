@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.office-lob-apps.5-manage-apps
+title: Manage or customize your apps
+metadata:
+  title: Manage or customize your apps
+  description: Learn how to remove unwanted apps
+  ms.date: 06/12/2019
+  author: lizap
+  ms.author: aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 5
+content: |
+  [!include[](includes/5-manage-apps.md)]

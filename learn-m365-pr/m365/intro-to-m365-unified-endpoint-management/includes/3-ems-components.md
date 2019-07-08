@@ -1,4 +1,4 @@
-Enterprise Mobility + Security (EMS) helps you solve the challenge of mobile devices in a work environment. EMS is an intelligent mobility management and security platform that helps protect and secure your organization and empowers your employees to work in new and flexible ways. EMS is a suite of products included in your Microsoft 365 Enterprise subscription. Learn how these products help manage devices in your organization.
+Microsoft Enterprise Mobility + Security (EMS) helps you solve the challenge of mobile devices in a work environment. EMS is an intelligent mobility management and security platform that helps protect and secure your organization and empowers your employees to work in new and flexible ways. EMS is a suite of products included in your Microsoft 365 Enterprise subscription. Learn how these products help manage devices in your organization.
 
 EMS is provided as part of Microsoft 365 E3 and E5 plans, as summarized in the table below. 
 
@@ -11,7 +11,7 @@ EMS is provided as part of Microsoft 365 E3 and E5 plans, as summarized in the t
 |Cloud App Security|	No|	Yes|
 |Configuration Manager|	Yes|	Yes|
 
-**Azure AD Premium** is the central identity store used for all the applications in EMS and Microsoft 365. Azure AD Premium is available with three different levels of capabilities: Basic, P1, or P2. P1 and P2 include features that are important for unified endpoint management. Some of the additional features included with the P1 and P2 plans are:
+**Azure AD Premium** is the central identity store used for all the applications in EMS and Microsoft 365. The P1 and P2 versions of Azure AD Premium include features that are important for unified endpoint management. Some of the additional features included with the P1 and P2 plans are:
 
 - Self-service password reset
 - Write-back from Azure AD to on-premises Active Directory Domain Services (meaning your cloud and on-premises data is linked)
@@ -41,7 +41,7 @@ Use Intune to manage apps and mobile devices by “enrolling” devices. When yo
 - Software update management 
 - Device compliance
 
-**Azure Information Protection** encrypts documents and enforces policies on how they can be used. Document data is more protected because only authorized users can access the contents. 
+**Azure Information Protection** encrypts documents and enforces policies on how they can be used. Only authorized users can access the contents. 
 
 **Microsoft Advanced Threat Analytics** can: 
 - Detect suspicious activities and malicious attacks.

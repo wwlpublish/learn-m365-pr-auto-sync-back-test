@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.user-files-settings.3-customize-layouts
+title: Customize start and taskbar layouts
+metadata:
+  title: Customize start and taskbar layouts
+  description: Learn about how you can customize start and taskbar layouts
+  ms.date: 06/14/2019
+  author: lizap
+  ms.author: aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 5
+content: |
+  [!include[](includes/3-customize-layouts.md)]

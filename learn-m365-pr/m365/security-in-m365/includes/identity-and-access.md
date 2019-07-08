@@ -1,4 +1,8 @@
-The first security pillar, identity & access management, is one of the most important. Microsoft 365 helps you identify who is accessing your resources and control exactly what they can access. 
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Ys0Y]
+
+The first security pillar, identity & access management, is the bedrock that a secure digital estate is built on. The credentials that you issue to your users identify them to Microsoft 365 and when combined with strong authentication methods, like multi-factor authentication, they can be taken as proof positive that the person using them is who they claim to be. Once their identity is established (called authentication) the user is permitted access (called authorization) to the resources that you have previously granted them permissions to.
+
 
 ## Secure authentication
 Helping secure your users helps protect against breaches. And one important area is the quality of user passwords. Passwords are problematic. Users are expected to remember complex passwords for a variety of different accounts, both personal and for work. Issues with passwords include:
@@ -9,7 +13,7 @@ Helping secure your users helps protect against breaches. And one important area
 - Passwords are subject to replay attacks.
 - Users can inadvertently expose their passwords due to phishing attacks. 
 
-This poses a significant security risk as once bad actors get compromised passwords, they can sign into multiple sites. Most breaches are a result of compromised passwords. What if we could remove passwords altogether? Microsoft 365 solutions include password replacement options to help reduce risk.
+This poses a significant security risk as once bad actors get compromised passwords, they can sign into multiple sites. Most breaches are a result of compromised passwords. What if we could remove passwords altogether? Microsoft 365 security solutions include password replacement options to help reduce risk.
 
 **Windows Hello**. In Windows 10, Windows Hello for Business replaces passwords with strong two-factor authentication on PCs and mobile devices - a new type of user credential that's tied to a device and uses a biometric or PIN. Windows Hello for Business lets user authenticate to an Active Directory or Azure Active Directory account. 
 

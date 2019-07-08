@@ -1,0 +1,2 @@
+{:allowed-branchname-matches ["master" "release-.*" "sandbox-.*" "NEW*"]
+ :allowed-filename-matches ["learn-m365-pr"]}

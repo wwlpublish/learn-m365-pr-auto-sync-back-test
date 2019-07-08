@@ -1,0 +1,45 @@
+﻿### YamlMime:ModuleUnit
+uid: learn-wwl.modern-communications-in-microsoft-teams.5-knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: Knowledge check
+  ms.date: 3/31/2019
+  author: dahans-msft2
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS:   NOINDEX 
+durationInMinutes: 2
+content: |
+  [!include[](includes/5-knowledge-check.md)] 
+quiz:
+  questions:
+  - content: "Which of the following best describes the communications needs of the modern workforce?"
+    choices:
+    - content: "The modern workforce prefers in-person meetings over digital or phone-based communications."
+      isCorrect: false
+      explanation: "Incorrect. That is not an accurate description of the needs of the modern workforce."
+    - content: "The modern workforce is team-focused, and requires tools to facilitate communication with teammates, no matter where they are located."
+      isCorrect: true
+      explanation: "That’s Correct! The modern workforce has evolved to be more focused on team contributions than those of an individual. As technology creates remote and global teams, all employees must be able to connect with each other."
+    - content: "The modern workforce is increasingly diverse, so employees are compelled to learn at least two more languages to be successful."
+      isCorrect: false
+      explanation: "Incorrect. While the workforce is becoming more diverse, this is not an accurate description of the needs of the modern workforce."
+    - content: "The modern workforce is individualistic, with siloes built up that negate the need for digital communication."
+      isCorrect: false
+      explanation: "Incorrect. That is not an accurate description of the needs of the modern workforce."
+  - content: "What single product offers a complete meeting solution supporting sharing, video and audio conferencing from anywhere, for all types of meetings?"
+    choices:
+    - content: "Phone System with Calling Plans."
+      isCorrect: false
+      explanation: "Incorrect. Phone System with Calling Plans can extend the Teams meeting experience but is not a meeting solution in and of itself."
+    - content: "Yammer."
+      isCorrect: false
+      explanation: "Incorrect. Yammer is a useful tool for sharing information across an organization, but it is not a meeting solution."
+    - content: "Outlook."
+      isCorrect: false
+      explanation: "Incorrect. Outlook is an outstanding communications tool, but it does not offer meeting capabilities."
+    - content: "Microsoft Teams."
+      isCorrect: true
+      explanation: "Correct. Microsoft Teams offers a complete meeting solution supporting sharing, video and audio conferencing, letting you meet from anywhere. You can use Teams for all types of meetings, spontaneous or scheduled, formal or informal, with internal and external users."

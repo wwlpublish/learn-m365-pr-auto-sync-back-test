@@ -15,6 +15,13 @@
         "dest": "modules"
       },
       {
+        "src": "wwl-mba",
+        "files": [
+          "**.yml"
+        ],
+        "dest": "modules"
+      },
+      {
         "files": [
           "**/*.md",
           "**/*.yml"

@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.office-lob-apps.4-microsoft-store
+title: Deploy apps with Microsoft Store for Business
+metadata:
+  title: Deploy apps with Microsoft Store for Business
+  description: Learn how to package and deploy apps with Microsoft Store for Business
+  ms.date: 06/12/2019
+  author: aleha
+  ms.author: aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 5
+content: |
+  [!include[](includes/4-microsoft-store.md)]
