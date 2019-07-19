@@ -10,7 +10,7 @@ If your organization already uses Office 365 services like Exchange Online or Sh
 
 >Learn about establishing hybrid identity with this interactive guide:
 >
-> <a href="https://mslearn.cloudguides.com/en-us/guides/Establish%20hybrid%20identity
+> <a href="https://mslearn.cloudguides.com/guides/Establish%20hybrid%20identity
 ">![Establish hybrid identity](../media/lab-hybrid-identity.png)</a>  
 >
 >Be sure to click the full-screen option in the video player, to make it easier to see all of the great Microsoft features. When you're done, use the **Back** arrow in your browser to come back to this page. 
