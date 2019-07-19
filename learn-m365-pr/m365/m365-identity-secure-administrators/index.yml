@@ -1,0 +1,34 @@
+### YamlMime:Module
+uid: learn-m365-identity.m365-identity-secure-administrators
+metadata:
+  title: Protect those most targeted – use Microsoft 365 to secure administrators 
+  description: xxx
+  ms.date: 07/12/2019
+  author: AlexandraHrt
+  ms.author: aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Protect those most targeted – use Microsoft 365 to secure administrators 
+summary: xxx
+abstract: |
+  In this module, you will learn:
+   - xxx 
+   - xxx
+   - xxx  
+prerequisites: None
+iconUrl: http://via.placeholder.com/120x120
+ratingEnabled: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- m365
+units:
+- learn-m365-identity.m365-identity-secure-administrators.introduction
+- learn-m365-identity.m365-identity-secure-administrators.enforce-secure-devices
+- learn-m365-identity.m365-identity-secure-administrators.establish-isolated-identity
+- learn-m365-identity.m365-identity-secure-administrators.configure-nonpersistent
+- learn-m365-identity.m365-identity-secure-administrators.summary-knowledge-check
+badge: 
+  uid: learn-m365-identity.m365-identity-secure-administrators.badge
