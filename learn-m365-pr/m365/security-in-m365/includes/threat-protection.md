@@ -40,7 +40,7 @@ Microsoft Intune, a mobile device management component of Enterprise Mobility + 
 Because email is a primary way malware gets into your organization, Advanced Threat Protection helps to identify threats before they land in a user’s mailbox. This feature, included in Microsoft 365 E5 subscriptions, provides protection by scanning email and URLs, identifying malicious files, and detecting when someone tries to impersonate one of your users to access your organization's data.
 
 >### Try it
->Learn how to make ATP policiies with this interactive guide:
+>Learn how to make ATP policies with this interactive guide:
 >
 > <a href="https://mslearn.cloudguides.com/guides/Create%20Office%20365%20ATP%20policies">![Create Office 365 ATP Policies](../media/lab-atp-image.png)</a>  
 >
