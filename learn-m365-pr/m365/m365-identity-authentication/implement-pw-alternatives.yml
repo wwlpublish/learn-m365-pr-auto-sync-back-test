@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-identity.m365-identity-authentication.implement-pw-alternatives
+title: Explore and implement password alternatives
+metadata:
+  title: Explore and implement password alternatives
+  description:  Learn about exploring and implementing password alternatives in Microsoft 365
+  ms.date: 07/12/2019
+  author: AlexandraHrt
+  ms.author: aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+  [!include[](includes/implement-pw-alternatives.md)]
