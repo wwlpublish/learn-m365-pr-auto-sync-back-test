@@ -2,11 +2,11 @@ As the proliferation of data increases, and our reliance on storing and accessin
 
 To help protect individuals, governments have introduced regulations about data storage, handling, and use:
 
-- Granting people the right to access, and possibly correct, data stored about them.
-- Defining a data retention period. 
-- Granting governments and regulatory bodies the rights to access records for investigative purposes. 
-- Defining exactly how data can and cannot be used. In other words, defining the purpose for the collated data. 
-- Defining privacy controls so that private data remains private.
+- Granting people the right to access, and possibly correct, data stored about them
+- Defining a data retention period
+- Granting governments and regulatory bodies the rights to access records for investigative purposes 
+- Defining exactly how data can and cannot be used. In other words, defining the purpose for the collated data 
+- Defining privacy controls so that private data remains private
 
 Some of these regulations include:
 
@@ -21,7 +21,7 @@ Microsoft 365 supports your organization’s compliance needs with built-in tool
 
 It can be helpful to think about managing compliance in terms of three phases: 
 - **Assess**. Assess compliance risk and posture with actionable insights
-- **Protect**. Protect and govern sensitive data across devices, apps and cloud services
+- **Protect**. Protect and govern sensitive data across devices, apps, and cloud services
 - **Respond**. Intelligently respond to data discovery requests by leveraging AI to find the most relevant data
 
 
