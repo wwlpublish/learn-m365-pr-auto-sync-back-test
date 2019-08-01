@@ -21,7 +21,7 @@ Microsoft 365 supports your organization’s compliance needs with built-in tool
 
 It can be helpful to think about managing compliance in terms of three phases: 
 - **Assess**. Assess compliance risk and posture with actionable insights
-- **Protect**. Protect and govern sensitive data across devices, apps and cloud services
+- **Protect**. Protect and govern sensitive data across devices, apps, and cloud services
 - **Respond**. Intelligently respond to data discovery requests by leveraging AI to find the most relevant data
 
 

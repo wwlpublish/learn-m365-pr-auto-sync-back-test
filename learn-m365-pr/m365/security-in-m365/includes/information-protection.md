@@ -44,11 +44,11 @@ In order to protect your organization’s information, you need to be able to di
 
 ![Sensitive data](../media/2-sensitive-data.png)
 
-*Where your sensitive data may reside*
+*Where your sensitive data may be*
 
-What counts as “sensitive data” for your organization will be determined by things like your industry (e.g., healthcare, financial services), governmental regulations and policies, as well as your organization’s internal policies.
+What counts as “sensitive data” for your organization is  determined by things like your industry (such as healthcare, financial services), governmental regulations and policies, as well as your organization’s internal policies.
 - You can start by using **Content Search** to search for in-place items such as email, documents, and instant messaging conversations.
-- Microsoft has many built-in **sensitive information types** (part of Data Loss Prevention) that can be used to detect common sensitive information types, such as financial information, healthcare related information, PII and other information types. 
+- Microsoft has many built-in **sensitive information types** (part of Data Loss Prevention) that can be used to detect common sensitive information types, such as financial information, healthcare-related information, PII, and other information types. 
 - If you need more granular control beyond the built-in sensitive information types, you create your own **custom sensitive information types**, or add your own unique dictionary of terms to detect against. 
 - Beyond detecting sensitive information in documents and emails, you can also use **Microsoft Cloud App Security** to detect content in cloud storage services, based on policy. You can discover sensitive data across third-party SaaS apps. You can also apply labels and protection to sensitive files with Microsoft Information Protection.
 - The **Azure Information Protection Scanner** enables you to discover, classify, and protect files on on-premises servers, network shares, and on-premises SharePoint Server sites.
@@ -61,7 +61,7 @@ You can use sensitivity labels to:
 - **Protect content in Office apps across different platforms and devices**. Sensitivity labels work in Office apps on Windows, Mac, iOS, and Android. 
 - **Prevent sensitive content from leaving your organization on devices running Windows, by using endpoint protection in Microsoft Intune**. After a sensitivity label has been applied to content that resides on a Windows device, endpoint protection can prevent that content from being copied to a third-party app, such as Twitter or Gmail, or being copied to removable storage, such as a USB drive.
 - **Extend sensitivity labels to third-party apps and services**. With the Microsoft Information Protection SDK, third-party apps on Windows, Mac, and Linux can read sensitivity labels and apply protection settings. Support for apps on iOS and Android is coming soon.
-- **Classify content without using any protection settings**. You can also simply assign a classification to content (like a sticker) that persists and roams with the content as it's used and shared. You can use this classification to generate usage reports and see activity data for your sensitive content. Based on this information, you can always choose to apply protection settings later.
+- **Classify content without using any protection settings**. You can also assign a classification to content (like a sticker) that persists and roams with the content as it's used and shared. You can use this classification to generate usage reports and see activity data for your sensitive content. Based on this information, you can always choose to apply protection settings later.
 
 You have flexibility in how you choose to apply sensitivity labels. You can configure a policy to automatically apply a sensitivity label to a document based on the detection of sensitive information. For example, policy could be defined to automatically mark a document as “confidential” if it contains social security numbers. 
 
@@ -71,7 +71,7 @@ Because individual users may be most familiar with the data in your organization
 
 
 ## Protect information and prevent data loss
-Sensitive data may initially be created on an individual device, but it's frequently shared or stored in other locations, like cloud-based storage, on-premises file shares, or email. There are several complementary protection measures you can take to protect this sensitive information wherever it lives or travels: 
+Sensitive data may initially be created on an individual device, but it's frequently shared or stored in other locations, like cloud-based storage, on-premises file shares, or email. There are complementary protection measures you can take to protect this sensitive information wherever it lives or travels: 
 
 
 ![Sensitive information](../media/3-sensitive-info.png)
