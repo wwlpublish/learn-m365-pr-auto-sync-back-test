@@ -4,7 +4,7 @@ Digital estates are growing more complex. They include devices, data, networks, 
 
 - protect an organization from attack
 - rapidly detect malicious activity
-- effectively respond to and remediate threats across the digital estate. 
+- effectively respond to and remediate threats across the digital estate
 
 That's why Microsoft has developed different services that specialize in protecting against various threat vectors such as endpoints, networks, email, and business critical data. These services integrate via the Microsoft Intelligent Security Graph. The Graph uses advanced analytics to link a massive amount of threat intelligence and security data to real-time threat protection in Microsoft 365.
 

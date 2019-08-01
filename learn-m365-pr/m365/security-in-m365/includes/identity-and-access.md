@@ -15,7 +15,7 @@ Helping secure your users helps protect against breaches. And one important area
 
 This poses a significant security risk as once bad actors get compromised passwords, they can sign into multiple sites. Most breaches are a result of compromised passwords. What if we could remove passwords altogether? Microsoft 365 security solutions include password replacement options to help reduce risk.
 
-**Windows Hello**. In Windows 10, Windows Hello for Business replaces passwords with strong two-factor authentication on PCs and mobile devices - a new type of user credential that's tied to a device and uses a biometric or PIN. Windows Hello for Business lets user authenticate to an Active Directory or Azure Active Directory account. 
+**Windows Hello**. In Windows 10, Windows Hello for Business replaces passwords with strong two-factor authentication on PCs and mobile devices - a new type of user credential that's tied to a device and uses a biometric or PIN. Windows Hello for Business lets users authenticate to an Active Directory or Azure Active Directory account. 
 
 **Microsoft Authenticator**. The Microsoft Authenticator app helps you keep your accounts more secure, especially while viewing sensitive information. 
 
@@ -32,7 +32,7 @@ Conditional access spans Microsoft 365 services including Intune, Office 365, an
 *Conditional access evaluates each access request on a number of different criteria and then using policies you define, decides if it should be allowed, if stricter controls are needed or if the access attempt should be blocked altogether*
 
 ## Identity protection
-Most security breaches are a result of attackers stealing a user’s identity. Over the years, attackers have become increasingly effective in leveraging third-party breaches and using sophisticated phishing attacks. As soon as an attacker gains access to even low privileged user accounts, it's relatively easy for them to gain access to important company resources. 
+Most security breaches are a result of attackers stealing a user’s identity. Over the years, attackers have become increasingly effective in using third-party breaches and using sophisticated phishing attacks. As soon as an attacker gains access to even low privileged user accounts, it's relatively easy for them to gain access to important company resources. 
 
 To help protect your user’s identities, you need to: 
 - Protect all identities regardless of their privilege level
