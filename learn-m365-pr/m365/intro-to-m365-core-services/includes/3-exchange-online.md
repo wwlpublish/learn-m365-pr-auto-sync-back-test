@@ -14,7 +14,7 @@ Here are some features of Exchange Online:
 
 ## Compare Exchange Online to Exchange Server
 
-Before you can decide whether Exchange Online is right for your organization, you need to understand the differences between Exchange Online and an on-premises Exchange Server. Some of key these differences are described in the following table:
+Before you can decide whether Exchange Online is right for your organization, you need to understand the differences between Exchange Online and an on-premises Exchange Server. Some of the key differences are described in the following table:
 
 ||Exchange Server|Exchange Online|
 |:--------|:---------|:----------|
