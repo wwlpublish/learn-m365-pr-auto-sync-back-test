@@ -16,36 +16,36 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Reimaging a computer where you don't intend to keep any of the data on the disk is called which deployment type?"
+    - content: "What is it called when you reformat a device's hard drive and install a new OS image, without keeping any data, settings, or apps?"
       choices:
       - content: "Bare metal deployment"
         isCorrect: true
-        explanation: "Correct. Reimaging a computer where you don't intend to keep any of the data on the disk is called bare metal deployment."
+        explanation: "Correct. If you don't need to keep any of the data on a device or any of what might have been installed by the OEM, use a bare metal deployment to update a device."
       - content: "Computer refresh"
         isCorrect: false
-        explanation: "No. Reimaging a computer where you don't intend to keep any of the data on the disk is called bare metal deployment."
+        explanation: "No. This is called *bare metal deployment*."
       - content: "Computer replacement"
         isCorrect: false
-        explanation: "No. Reimaging a computer where you don't intend to keep any of the data on the disk is called bare metal deployment."
+        explanation: "No. This is called *bare metal deployment*."
       - content: "Computer reimage"
         isCorrect: false
-        explanation: "No. Reimaging a computer where you don't intend to keep any of the data on the disk is called bare metal deployment."
+        explanation: "No. This is called *bare metal deployment*."
     - content: "In-place upgrades allow you to upgrade from legacy versions of Windows as well as update existing images."
       choices:
       - content: "True"
         isCorrect: false
-        explanation: "Incorrect. In-place upgrades cannot be used to update existing images."
+        explanation: "Incorrect. You can't use an in-place upgrade to update existing images. You can update images by using offline image servicing for supported package types, but you can't use it to move between major OS versions."
       - content: "False"
         isCorrect: true
-        explanation: "Correct. In-place upgrades cannot be used to update existing images."
+        explanation: "Correct. You can't use an in-place upgrade to update existing images. You can update images by using offline image servicing for supported package types, but you can't use it to move between major OS versions."
     - content: "What is one of the primary functions of Windows Autopilot?"
       choices:
-      - content: "Customize and deploy a new system with apps and settings already configured."
+      - content: "Customize and deploy a new system with apps and settings to a business-ready state without needing IT to customize or reimage the device."
         isCorrect: true
-        explanation: "Yes, customizing and deploying a new system with apps and settings already configured is one of the primary functions of Windows Autopilot."
-      - content: "Reinstall user files and settings."
+        explanation: "Yes, this is one of the primary of Windows Autopilot. With this solution in place, a device manufacturer or seller can send devices directly to users - Windows Autopilot deploys the apps and settings."
+      - content: "Migrating user files and settings."
         isCorrect: false
-        explanation: "No. Reinstalling user files and settings is not a function of Windows Autopilot."
-      - content: "Restrict the administrator account creation."
+        explanation: "No. Migrating user files and settings isn't a function of Windows Autopilot. You can use OneDrive Known Folder Move with Windows Autopilot and Microsoft Intune to make documents, desktop, and pictures folders available to users."
+      - content: "Install missing Windows 10 feature updates."
         isCorrect: false
-        explanation: "No. This is not a function of Windows Autopilot."
+        explanation: "No. This isn't a function of Windows Autopilot."

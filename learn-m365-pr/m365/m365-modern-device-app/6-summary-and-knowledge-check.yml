@@ -18,12 +18,12 @@ quiz:
     questions:
     - content: "The Readiness Toolkit Report Creator can scan for what in Office versions as far back as Office 2003?"
       choices:
-      - content: "VBA macros"
+      - content: "VBA macros and COM add-ins"
         isCorrect: true
-        explanation: "Yes, this is true. The Readiness Toolkit Report Creator can scan for VBA macros as far back as Office 2003."
-      - content: "web add-ins"
+        explanation: "Yes, this is true. The Readiness Toolkit Report Creator can scan for VBA macros and COM add-ins as far back as Office 2003."
+      - content: "Web-based Office add-ins"
         isCorrect: false
-        explanation: "No, The Readiness Toolkit Report Creator doesn't scan for web add-ins."
+        explanation: "No, The Readiness Toolkit Report Creator doesn't scan for web-based Office add-ins."
       
     - content: "In the first step of the readiness process, which tools are used for an inventory?"
       choices:
@@ -33,15 +33,15 @@ quiz:
       - content: "Desktop App Assure"
         isCorrect: false
         explanation: "No, Desktop App Assure is available for step 3, app compatibility."
-      - content: "Readiness Toolkit for Office and Windows Analytics Upgrade Readiness"
+      - content: "Readiness Toolkit for Office, Desktop Analytics, or System Center Configuration Manager software and hardware inventory"
         isCorrect: true
-        explanation: "Yes, Windows Analytics Upgrade Readiness and the Readiness Toolkit for Office are both readiness inventory tools."
+        explanation: "Yes, Desktop Analytics, the Readiness Toolkit for Office, and System Center Configuration Manager provide inventory capabilities for apps, add-ins, and devices."
 
     - content: "There are four steps for device and app readiness: 1) Take an inventory, 2) Plan your resources, 3) Test updates for compatibility issues, 4) Remediate issues."
       choices:
       - content: "True"
         isCorrect: false
-        explanation: "No, the second step is *prioritize apps and hardware.*"
+        explanation: "No, the second step is *prioritize apps and hardware.* Prioritization is a key part of testing and remediation - it helps reduce (or even eliminates) the time you spend on lower priority apps and devices."
       - content: "False"
         isCorrect: true
         explanation: "Correct, the second step is *prioritize apps and hardware.*"

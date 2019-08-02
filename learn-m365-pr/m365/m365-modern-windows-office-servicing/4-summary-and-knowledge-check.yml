@@ -16,22 +16,22 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Which of the following is true of the new Windows and Office update model?"
+    - content: "Which of the following is true of the new Windows and Office 365 ProPlus update model?"
       choices:
-      - content: "A new features update is delivered twice per year."
+      - content: "A new Features Update is delivered twice per year."
         isCorrect: true
-        explanation: "Correct. A new features update is delivered twice per year."
+        explanation: "Correct. Features Updates are delivered twice per year for both Windows and Office 365 ProPlus when you use the Semi-Annual Channel."
       - content: "A quality and security update is delivered twice per year."
         isCorrect: false
-        explanation: "Incorrect. Quality and security updates are delivered monthly."
+        explanation: "Incorrect. Quality and security updates are delivered monthly or as needed."
       - content: "The cumulative nature of monthly updates means the update decreases in size each month."
         isCorrect: false
         explanation: "Incorrect. The cumulative nature of monthly updates means the update increases in size each month."
-    - content: "Microsoft offers a tool called Express Updates to reduce Windows download size significantly."
+    - content: "Microsoft offers an option, Express Updates, to reduce Windows download size significantly."
       choices:
       - content: "True"
         isCorrect: true
-        explanation: "Correct. Express Updates is a tool that reduces download size."
+        explanation: "Correct. Express Updates reduces download size."
       - content: "False"
         isCorrect: false
-        explanation: "Incorrect. Express Updates is a tool that reduces download size."
+        explanation: "Incorrect. Express Updates reduces download size."
