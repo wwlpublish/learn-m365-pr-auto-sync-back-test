@@ -16,7 +16,7 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Which of the following security-related problems commonly interrupt Microsoft 365 deployments?"
+    - content: "Which of the following security-related problems often interrupts Microsoft 365 deployments?"
       choices:
       - content: "Antivirus app incompatibility"
         isCorrect: true
