@@ -29,19 +29,13 @@ quiz:
       - content: "MSIX"
         isCorrect: false
         explanation: "No, Click-to-Run replaces MSI as the installation package type."
-      - content: "System Center Configuration Manager"
-        isCorrect: false
-        explanation: "No, Click-to-Run replaces MSI as the installation package type."
       - content: "MSI"
         isCorrect: true
         explanation: "Correct. Click-to-Run replaces MSI as the installation package type."
-      - content: "Microsoft Intune"
-        isCorrect: false
-        explanation: "No, Click-to-Run replaces MSI as the installation package type."
       - content: "Office Deployment Tool"
         isCorrect: false
         explanation: "No, Click-to-Run replaces MSI as the installation package type."
-    - content: "Which of the following tools do NOT work with MSI-based packages to deliver business apps?"
+    - content: "Which of the following tools does NOT work with MSI-based packages to deliver business apps?"
       choices:
       - content: "Office deployment tool"
         isCorrect: true

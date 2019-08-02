@@ -27,7 +27,7 @@ quiz:
       - content: "The cumulative nature of monthly updates means the update decreases in size each month."
         isCorrect: false
         explanation: "Incorrect. The cumulative nature of monthly updates means the update increases in size each month."
-    - content: "Microsoft offers an option, Express Updates, to reduce Windows download size significantly."
+    - content: "Microsoft offers an option, Express Updates, to significantly reduce Windows download size."
       choices:
       - content: "True"
         isCorrect: true
