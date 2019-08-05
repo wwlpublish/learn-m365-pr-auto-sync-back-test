@@ -31,6 +31,6 @@ units:
 - learn-m365.m365-teams-collab-apps-bots-connectors.configure-manage-apps
 - learn-m365.m365-teams-collab-apps-bots-connectors.configure-manage-bots
 - learn-m365.m365-teams-collab-apps-bots-connectors.add-connectors
-- learn-m365.m365-teams-collab-prepare-deployment.summary-knowledge-check
+- learn-m365.m365-teams-collab-apps-bots-connectors.summary-knowledge-check
 badge: 
   uid: learn-m365.m365-teams-collab-apps-bots-connectors.badges

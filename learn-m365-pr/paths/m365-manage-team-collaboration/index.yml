@@ -21,7 +21,7 @@ roles:
 products: 
 - m365
 modules:
-- learn-m365.m365-manage-team-collaboration.m365-teams-collab-apps-bots-connectors
+- learn-m365.m365-teams-collab-apps-bots-connectors
 
 trophy: 
   uid: learn-m365.m365-manage-team-collaboration.trophy
