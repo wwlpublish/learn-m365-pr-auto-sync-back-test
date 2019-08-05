@@ -15,7 +15,7 @@ Now that you have completed this module, you should be able to:
 
 [Add bots for personal chats, group chats, and channels in Microsoft Teams](https://docs.microsoft.com/microsoftteams/add-bots)
 
-[Apps permissions and considerations](https://docs.microsoft.com/en-us/microsoftteams/app-permissions)
+[Apps permissions and considerations](https://docs.microsoft.com/microsoftteams/app-permissions)
 
 [Use Office 365 and custom connectors in Microsoft Teams](https://docs.microsoft.com/microsoftteams/office-365-custom-connectors)
 
