@@ -1,6 +1,6 @@
-Microsoft Teams apps provide out-of-the-box tools for your organization to get more out of Teams. These apps combine the functionality of tabs, messaging extensions, connectors, and bots provided by Microsoft, built by a third-party, or by developers in your organization.
+Microsoft Teams apps provide out-of-the-box tools for your organization to get more out of Teams. These apps combine the functionality of tabs, messaging extensions, connectors, and bots provided by Microsoft, built by a third party, or by developers in your organization.
 
-Apps are a way to aggregate one or more capabilities into an app package that can be installed, upgraded, and uninstalled. The capabilities include:
+Apps are a way to aggregate one or more capabilities into a package that can be installed, upgraded, and uninstalled. The capabilities include:
 
 - Bots
 - Messaging extensions
