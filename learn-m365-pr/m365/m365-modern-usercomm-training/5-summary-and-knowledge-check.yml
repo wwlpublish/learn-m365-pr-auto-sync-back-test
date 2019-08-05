@@ -16,37 +16,37 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Which of the following is NOT one of the reasons for end user communication and training?"
+    - content: "Which of the following is NOT a reason for end-user communication and training?"
       choices:
-      - content: "Educate end users and prepare them to fully use the full set of new solutions they’ll have access to."
+      - content: "Educate end users and prepare them to use the new solutions they’ll have access to."
         isCorrect: false
-        explanation: "Incorrect. Educating end users and preparing them is a good reason for end user communications and training."
+        explanation: "Incorrect. This is one of the goals of end-user communications and training."
       - content: "Explain new features and capabilities that will be available to end users."
         isCorrect: false
-        explanation: "Incorrect. Explaining new features and capabilities is a good reason for end user communications and training."
-      - content: "Provide them tips and guidance to facilitate the transition."
+        explanation: "Incorrect. This is one of the goals for end-user communications and training."
+      - content: "Provide them tips and guidance to make the transition easier."
         isCorrect: false
-        explanation: "Incorrect. Providing end users tips and guidance is a good reason for end user communications and training."
-      - content: "Give them advance notice that their workflow and productivity will be disrupted."
+        explanation: "Incorrect. This is one of the goals for end-user communications and training."
+      - content: "Assess compatibility of applications and devices with the new versions of Windows and Office"
         isCorrect: true
-        explanation: "Correct. Giving end users advance notice that their workflow and productivity will be disrupted is not a good reason for end user communications and training."
+        explanation: "Correct. Compatibility should be assessed earlier in the deployment process, not during end-user communications and training."
 
     - content: "Which of the following is NOT one of the three phases of the deployment process?"
       choices:
       - content: "Pilot"
         isCorrect: false
-        explanation: "Incorrect. Pilot, broad production deployment, and the IT team and early adopters are all phases of the deployment process."
-      - content: "Initial deployment"
+        explanation: "Incorrect. *Pilot*, *broad production deployment*, and *IT team and early adopters* are all phases of the deployment process."
+      - content: "Canary"
         isCorrect: true
-        explanation: "Correct. Pilot, broad production deployment, and the IT team and early adopters are all phases of the deployment process. Initial deployment is not considered one of the phases."
+        explanation: "Correct. *Pilot*, *broad production deployment*, and *IT team and early adopters* are all phases of the deployment process. *Canary* isn't one of the phases."
       - content: "Broad production deployment"
         isCorrect: false
-        explanation: "Incorrect. Pilot, broad production deployment, and the IT team and early adopters are all phases of the deployment process."
+        explanation: "Incorrect. *Pilot*, *broad production deployment*, and *IT team and early adopters* are all phases of the deployment process."
       - content: "IT team and early adopters"
         isCorrect: false
-        explanation: "Incorrect. Pilot, broad production deployment, and the IT team and early adopters are all phases of the deployment process."
+        explanation: "Incorrect. *Pilot*, *broad production deployment*, and *IT team and early adopters* are all phases of the deployment process."
   
-    - content: "The phased deployment process is recommended for large organizations but is not necessary for smaller deployments."
+    - content: "The phased deployment process is recommended for large organizations but isn't necessary for smaller deployments."
       choices:
       - content: "True"
         isCorrect: false
