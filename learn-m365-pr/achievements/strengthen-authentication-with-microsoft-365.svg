@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Protect identity and access with Microsoft 365/strengthen-authentication-with-microsoft-365</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="96" height="96" rx="48"></rect>
+        <filter x="-7.8%" y="-6.8%" width="115.7%" height="113.6%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.102921196 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-25.0%" y="-11.4%" width="150.0%" height="122.9%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0964956975 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Badges" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Protect-identity-and-access-with-Microsoft-365" transform="translate(-50.000000, -860.000000)">
+            <g id="Protect-identity-and-access-with-Microsoft-365/strengthen-authentication-with-microsoft-365" transform="translate(50.000000, 860.000000)">
+                <g id="Mask" transform="translate(2.000000, 2.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="BG" fill="#55A2FF" xlink:href="#path-1"></use>
+                    <g id="Shield" filter="url(#filter-3)" mask="url(#mask-2)">
+                        <g transform="translate(22.000000, 20.000000)">
+                            <path d="M25.2,1.8375 C20.3074667,7.35735 11.69,9.1875 1.86666667,9.1875 L1.86666667,23.8875 C1.86666667,39.0432 8.6912,48.79665 25.2,56.9625 C41.7078667,48.79665 48.5333333,39.0432 48.5333333,23.8875 L48.5333333,9.1875 C38.7109333,9.1875 30.0925333,7.35735 25.2,1.8375" id="Fill-22" fill="#7CB65A"></path>
+                            <path d="M25.2,39.50625 C24.9980895,39.5436545 25.2,42.4931062 25.2,43.8372375 L25.2,56.9625 C41.7078667,48.79665 48.5333333,39.0432 48.5333333,23.8875 L48.5333333,9.1875 C38.7109333,9.1875 30.0925333,7.35735 25.2,1.8375 L25.2,39.50625 Z" id="Fill-23" fill="#629E3F"></path>
+                            <path d="M3.73333333,10.9781438 L3.73333333,23.8700438 C3.73333333,38.1079125 9.968,47.1520875 25.2,54.8980688 C40.432,47.1520875 46.6666667,38.1079125 46.6666667,23.8700438 L46.6666667,10.9781438 C36.8545333,10.7411062 29.7957333,8.59123125 25.2,4.4375625 C20.6042667,8.59123125 13.5454667,10.7411062 3.73333333,10.9781438 Z M25.2,58.8 C24.9125333,58.8 24.626,58.7347687 24.3618667,58.6043063 C7.28653333,50.1536438 0,39.7653375 0,23.8700437 L0,9.16269375 C0,8.147475 0.835333333,7.324275 1.86666667,7.324275 C12.6130667,7.324275 19.7848,5.1247875 23.7934667,0.59994375 C24.5028,-0.2002875 25.8972,-0.2002875 26.6065333,0.59994375 C30.6152,5.1247875 37.7869333,7.324275 48.5333333,7.324275 C49.5637333,7.324275 50.4,8.147475 50.4,9.16269375 L50.4,23.8700437 C50.4,39.7653375 43.1134667,50.1536438 26.0381333,58.6043063 C25.774,58.7347687 25.4874667,58.8 25.2,58.8 L25.2,58.8 Z" id="Fill-24" fill="#629E3F"></path>
+                        </g>
+                    </g>
+                    <g id="Lightning" filter="url(#filter-4)" mask="url(#mask-2)">
+                        <g transform="translate(39.000000, 33.000000)">
+                            <polygon id="Fill-409" fill="#FFFFFF" points="16 0.911764706 3.73333333 0.911764706 0 19.1067611 5.9261077 19.1067611 5.9261077 34.9117647 15.4666667 14.1698643 10.6666667 14.1698643"></polygon>
+                            <polygon id="Fill-409-Copy" fill="#E6E6E6" points="16 0.911764706 11.4001001 0.911764706 5 16.3377836 9.68683458 16.3377836 5.88257141 34.9117647 15.4643618 14.1698643 10.6436176 14.1698643"></polygon>
+                        </g>
+                    </g>
+                </g>
+                <g id="Azure-Border" stroke="#0078D4" stroke-width="4">
+                    <rect x="2" y="2" width="96" height="96" rx="48"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
