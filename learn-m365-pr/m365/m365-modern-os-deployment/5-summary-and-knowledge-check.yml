@@ -27,9 +27,6 @@ quiz:
       - content: "Computer replacement"
         isCorrect: false
         explanation: "No. This is called *bare metal deployment*."
-      - content: "Computer reimage"
-        isCorrect: false
-        explanation: "No. This is called *bare metal deployment*."
     - content: "In-place upgrades allow you to upgrade from legacy versions of Windows as well as update existing images."
       choices:
       - content: "True"
