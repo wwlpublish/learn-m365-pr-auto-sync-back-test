@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-identity.m365-identity-cultural-shift.encourage-behavior-change
+title: Encourage behavior change to support identity protection
+metadata:
+  title: Encourage behavior change to support identity protection
+  description:  Learn about encouraging behavior change to support identity protection in Microsoft 365
+  ms.date: 07/12/2019
+  author: AlexandraHrt
+  ms.author: aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+  [!include[](includes/encourage-behavior-change.md)]
