@@ -16,8 +16,8 @@ There are several ways you can interact with apps and services in Teams:
 - **Chat with a bot**. Bots provide answers, updates, and assistance in a channel. You can chat with them one-on-one or in a channel. They can help with task management, scheduling, and more.
 - **Share content on a tab**. Tabs help you share content and functionality from your favorite services in a channel. They can connect you to Microsoft services (like Excel or SharePoint), other services (like Asana, YouTube, and Zendesk), or to a website of your choice.
 
-> [!NOTE]
-> Tabs in channels can be seen by everyone on the team. Tabs in chats can only be seen by the people in that chat.
+   > [!NOTE]
+   > Tabs in channels can be seen by everyone on the team. Tabs in chats can only be seen by the people in that chat.
 
 - **Get updates from a connector**. Connectors send updates and information directly to a channel. Get automatic updates from your favorite services like Trello, JIRA, Twitter, RSS feeds, GitHub, and more.
 - **Add rich content to your messages**. These apps find content from different services and send it straight to a message. You can share things like weather reports, daily news, images, and videos with anyone you're talking to. Messages sometimes include buttons for interacting with the app. For example, a daily weather report could include an option to download the forecast for the entire week.
