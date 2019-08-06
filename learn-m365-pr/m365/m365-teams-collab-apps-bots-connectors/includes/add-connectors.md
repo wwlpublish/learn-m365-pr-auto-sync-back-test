@@ -1,4 +1,4 @@
-**Office 365 Connectors** are a great way to push the rich content of other services into Microsoft Teams. Any user can connect a team to services like Twitter, RSS feeds, Trello, Wunderlist, GitHub, Azure DevOps services, or Bing News and receive updates of the team's activity in that service.
+**Office 365 Connectors** are a great way to push the rich content of other services into Microsoft Teams. Any user can connect a team to services like Twitter, RSS feeds, Trello, Wunderlist, GitHub, Azure DevOps Services, or Bing News and receive updates of the team's activity in that service.
 
 ## What are connectors?
 
