@@ -51,7 +51,7 @@ quiz:
       choices:
       - content: "True"
         isCorrect: true
-        explanation: "True - Microosft Information Protection protects your data at each stage."
+        explanation: "True - Microsoft Information Protection protects your data at each stage."
       - content: "False"
         isCorrect: false
         explanation: "True - Microsoft Information Protection protects your data at each stage."

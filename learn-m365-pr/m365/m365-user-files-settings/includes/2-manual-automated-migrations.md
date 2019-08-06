@@ -23,7 +23,7 @@ If you’re performing a PC refresh and not reformatting the primary Windows par
 
 >Explore the User State Migration Tool with this interactive guide:
 >
-> <a href="https://mslabs.cloudguides.com/guides/Migrate%20user%20state%20data%20-%20Interactive%20Guide">![Migrate user state data](../media/lab-user-state.png)</a>  
+> <a href="https://mslearn.cloudguides.com/guides/Migrate%20user%20state%20data">![Migrate user state data](../media/lab-user-state.png)</a>  
 >
 >Be sure to click the full-screen option in the video player, to make it easier to see all of the great Microsoft features. When you're done, use the **Back** arrow in your browser to come back to this page. 
 
@@ -41,7 +41,7 @@ Authentication for OneDrive is powered by Azure Active Directory, so for extra s
 
 >Learn about OneDrive known folder move with this interactive guide:
 >
-> <a href="https://mslabs.cloudguides.com/guides/Migrate%20Windows%20known%20folders%20to%20OneDrive%20-%20Interactive%20Guide">![Migrate Windows known folders to OneDrive](../media/lab-known-folders.png)</a>  
+> <a href="https://mslearn.cloudguides.com/guides/Migrate%20Windows%20known%20folders%20to%20OneDrive">![Migrate Windows known folders to OneDrive](../media/lab-known-folders.png)</a>  
 >
 >Be sure to click the full-screen option in the video player, to make it easier to see all of the great Microsoft features. When you're done, use the **Back** arrow in your browser to come back to this page. 
 

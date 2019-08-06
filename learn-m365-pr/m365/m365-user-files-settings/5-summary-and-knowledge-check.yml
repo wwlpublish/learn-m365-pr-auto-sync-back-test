@@ -16,30 +16,30 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Which of the following is a consideration when deciding how to migrate user files and settings?" 
+    - content: "Which of the following considerations impact how you migrate user files and settings?" 
       choices:
-      - content: "What type of network do you have?"
+      - content: "Does the device have attached storage?"
         isCorrect: false
-        explanation: "Incorrect. The type of network you have is not a consideration when deciding how to migrate user files and settings."
-      - content: "How big is your organization?"
+        explanation: "Incorrect. Attached storage isn't typically a consideration when you plan how to migrate user files and settings."
+      - content: "How large is your organization?"
         isCorrect: true
-        explanation: "Correct. The size of your organization is a consideration when deciding how to migrate user files and settings."
+        explanation: "Correct. The size of your organization impacts how you migrate user files and settings."
       - content: "What Windows 10 version are you moving to?"
         isCorrect: false
-        explanation: "Incorrect. The Windows 10 version you're moving to is not a consideration when deciding how to migrate user files and settings."
-    - content: "Both System Center Configuration Manager and the Microsoft Deployment Toolkit (MDT) make use of the User State Migration Tool (USMT) as part of their end-to-end deployment process."
+        explanation: "Incorrect. The Windows 10 version you're moving to isn't typically a consideration when you plan how to migrate user files and settings."
+    - content: "Both System Center Configuration Manager and the Microsoft Deployment Toolkit (MDT) use the User State Migration Tool (USMT) as part of their deployment process."
       choices:
       - content: "True"
         isCorrect: true
-        explanation: "Correct. Both System Center Configuration Manager and the Microsoft Deployment Toolkit (MDT) make use of the User State Migration Tool (USMT) as part of their end-to-end deployment process."
+        explanation: "Correct. Both System Center Configuration Manager and the Microsoft Deployment Toolkit (MDT) use the User State Migration Tool (USMT) as part of their deployment process."
       - content: "False"
         isCorrect: false
-        explanation: "Incorrect. Both System Center Configuration Manager and the Microsoft Deployment Toolkit (MDT) make use of the User State Migration Tool (USMT) as part of their end-to-end deployment process."
-    - content: "OneDrive Known Folder Move works for transferring both OneDrive and SharePoint user files."
+        explanation: "Incorrect. Both System Center Configuration Manager and the Microsoft Deployment Toolkit (MDT) use the User State Migration Tool (USMT) as part of their deployment process."
+    - content: "OneDrive Known Folder Move transfers user files stored in a user's documents, desktop, and pictures folders."
       choices:
       - content: "True"
         isCorrect: true
-        explanation: "Correct. OneDrive Known Folder Move works for transferring both OneDrive and SharePoint user files."
+        explanation: "Correct. Use OneDrive Known Folder Move to transfer user files."
       - content: "False"
         isCorrect: false
-        explanation: "Incorrect. OneDrive Known Folder Move works for transferring both OneDrive and SharePoint user files."
+        explanation: "Incorrect. Use OneDrive Known Folder Move to transfer user files."

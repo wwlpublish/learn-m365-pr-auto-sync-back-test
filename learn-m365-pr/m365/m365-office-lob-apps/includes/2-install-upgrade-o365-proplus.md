@@ -31,7 +31,7 @@ If your organization uses Microsoft Intune, you can assign Office 365 ProPlus ap
 
 >Explore options for deploying Office 365 ProPlus with this interactive guide:
 >
-> <a href="https://mslabs.cloudguides.com/guides/Deploy%20Office%20365%20ProPlus%20in%20your%20organization%20-%20Interactive%20Guide">![Deploy Office 365 ProPlus in your organization](../media/lab-deploy-office.png)</a>  
+> <a href="https://mslearn.cloudguides.com/guides/Deploy%20Office%20365%20ProPlus%20in%20your%20organization">![Deploy Office 365 ProPlus in your organization](../media/lab-deploy-office.png)</a>  
 >
 >Be sure to click the full-screen option in the video player, to make it easier to see all of the great Microsoft features. When you're done, use the **Back** arrow in your browser to come back to this page. 
 

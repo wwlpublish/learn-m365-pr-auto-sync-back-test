@@ -43,6 +43,6 @@ quiz:
       - content: "Users can install Office 365 ProPlus on multiple devices with a single license."
         isCorrect: false
         explanation: "Users aren't limited to one device per license."
-      - content: "Office 365 ProPlus gets new and improved features on a regular bases, while the features included in the on-premises version of Office remain the same."
+      - content: "Office 365 ProPlus gets new and improved features on a regular basis, while the features included in the on-premises version of Office remain the same."
         isCorrect: false
         explanation: "Office 365 ProPlus is updated as often as monthly, while there can be years between updates to Office."
