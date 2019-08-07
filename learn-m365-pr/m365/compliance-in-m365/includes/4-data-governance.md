@@ -22,6 +22,13 @@ With retention labels, you can:
 - **Apply a default retention label to a document library** in SharePoint and Office 365 group sites, so that all documents in that library get the default retention label.
 - **Implement records management across Office 365**, including both email and documents. You can use a retention label to classify content as a record. When this happens, the label can't be changed or removed, and the content can't be edited or deleted.
 
+>### Try it
+>Explore retention policies with this interactive guide:
+>
+> <a href="https://mslearn.cloudguides.com/guides/Create%20retention%20policies%20in%20Microsoft%20365">![Create retention policies in Microsoft 365](../media/lab-retention-image.png)</a>  
+>
+>Be sure to click the full-screen option in the video player, to make it easier to see all of the great Microsoft Teams features. When you're done, use the **Back** arrow in your browser to come back to this page. 
+
 In this video, you’ll see how integrated and intelligent data governance in Microsoft 365 can help you manage the lifecycle of your content to meet compliance requirements and manage risk.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWruAI]

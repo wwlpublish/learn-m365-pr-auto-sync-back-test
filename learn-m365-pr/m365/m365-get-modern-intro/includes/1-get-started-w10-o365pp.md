@@ -1,5 +1,4 @@
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2ShIe]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3i8eG]
 
 Windows 10 + Office 365 ProPlus managed by Microsoft’s EMS provide an always-up-to-date environment with insights and security powered by the cloud. Getting there, modernizing your systems and software, takes some planning. From identifying the tools that work best for your specific environment to understanding how your business apps will work in a modern environment to sharing your migration plans with your employees, there are a lot of moving parts. The **desktop deployment wheel** helps guide you through the recommended steps to upgrade, detailing how to leverage your existing tools and processes while adopting modern management technology and approaches along the way.
 

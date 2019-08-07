@@ -18,3 +18,12 @@ Windows Update for Business is a free service that helps you keep Windows 10 dev
 You can significantly reduce download size by using a technology like **Express Updates** in Windows. In this approach, the update engines compare the PC’s current status and find only the delta needed to update it. Windows Update for Business and Windows Server Update Services have supported express updates for a long time, and System Center Configuration Manager has been updated so that it can also use express updates. 
 
 ![Express Updates screen](../media/step-7-1.png)
+
+### Try it
+
+>Explore how to optimize Windows 10 updates with this interactive guide:
+>
+> <a href="https://mslearn.cloudguides.com/guides/Optimize%20delivery%20of%20Windows%2010%20updates
+">![Optimize delivery of Windows 10 updates](../media/lab-optimize-updates.png)</a>  
+>
+>Be sure to click the full-screen option in the video player, to make it easier to see all of the great Microsoft features. When you're done, use the **Back** arrow in your browser to come back to this page. 

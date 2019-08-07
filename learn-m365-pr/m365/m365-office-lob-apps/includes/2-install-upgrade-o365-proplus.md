@@ -27,4 +27,11 @@ If your organization uses Microsoft Intune, you can assign Office 365 ProPlus ap
 > [!NOTE]
 > If you are upgrading to Office 365 ProPlus from a previous Office version, we recommend you uninstall versions of Office that use Windows Installer (MSI) as the installation technology. To help with this, you can use the Office Deployment Tool and specify the [RemoveMSI element]( /deployoffice/upgrade-from-msi-version) in your configuration.xml file.
 
+### Try it
+
+>Explore options for deploying Office 365 ProPlus with this interactive guide:
+>
+> <a href="https://mslearn.cloudguides.com/guides/Deploy%20Office%20365%20ProPlus%20in%20your%20organization">![Deploy Office 365 ProPlus in your organization](../media/lab-deploy-office.png)</a>  
+>
+>Be sure to click the full-screen option in the video player, to make it easier to see all of the great Microsoft features. When you're done, use the **Back** arrow in your browser to come back to this page. 
 

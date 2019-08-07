@@ -5,6 +5,13 @@ The **Microsoft 365 admin center** is where you create user accounts and assign 
 ![Microsoft 365 admin portal](../media/1-admin-portal.png)
 *Acquire licenses in the Microsoft 365 admin center*
 
+> ### Try it
+>Explore the Microsoft 365 admin center with this interactive guide:
+>
+> <a href="https://mslearn.cloudguides.com/guides/Get%20to%20know%20the%20Microsoft%20365%20admin%20center">![Tour the Microsoft 365 admin portal](../media/lab-admin-image.png)</a>  
+>
+>Be sure to click the full-screen option in the video player, to make it easier to see all of the great Microsoft Teams features. When you're done, use the **Back** arrow in your browser to come back to this page. 
+
 You can manage expired licenses in the admin center. If you don't renew a license or are past due paying for the latest billing cycle, the user with the expired license won't be able to use all of their Microsoft 365 products. You either need to renew the license or assign them a different, active license. 
 
 You can also turn access to functions like Exchange Online or Microsoft Teams on or off within a single license for each user. There are many services and tools within a single license that you can turn on or off to fine-tune each user’s account settings. Note, however, that deactivating any or all features for a user doesn't affect license consumption; these individual controls within the user’s product license are separate from allocating (or removing) a license for a user.
@@ -12,3 +19,9 @@ You can also turn access to functions like Exchange Online or Microsoft Teams on
 ![Microsoft 365 licenses](../media/1-licenses.png)
 
 *Enable or disable individual functions for a license* 
+
+> ### Try it
+>Learn how to manage your Microsoft 365 licenses with this interactive guide:
+>
+> <a href="https://mslearn.cloudguides.com/guides/Manage%20licenses%20in%20Microsoft%20365">![Manage Microsoft 365 licenses](../media/lab-licenses-image.png)</a>  
+>
