@@ -1,11 +1,11 @@
 (Introductory sentence)
  
 ## Options to synchronize Azure Active Directory with Active Directory Domain Services 
-Now that you have Azure Active Directory running, it’s a best practice to configure a consistent sign-on experience with the same usernames, passwords or multi-factor authentication controls as used in your Active Directory Domain Services environment. In doing so, your users can access their resources in WVD and other Microsoft cloud services using the same credentials. Synchronization options provided by Microsoft include: 
+Now that you have Azure Active Directory running, it’s a best practice to configure a consistent sign-on experience with the same usernames, passwords, or multi-factor authentication controls as used in your Active Directory Domain Services environment. In doing so, your users can access their resources in WVD and other Microsoft cloud services using the same credentials. Synchronization options provided by Microsoft include: 
 
 - **Password Hash Sync** – where usernames and hashes of passwords are synchronized to Azure Active Directory 
-- **Pass-through Authentication** – where your on-premises directory service can perform simple authentication for Microsoft cloud services, requiring very little on-prem configuration made to your domain controllers, and 
-- **Active Directory Federation Services** – where more complex partner federation, RSA tokens and Smartcard authentication can be used. Using this option you’ll need to provision additional on-premises servers and ensure they are highly available. 
+- **Pass-through Authentication** – where your on-premises directory service can perform simple authentication for Microsoft cloud services, requiring little on-prem configuration made to your domain controllers, and 
+- **Active Directory Federation Services** – where more complex partner federation, RSA tokens, and Smartcard authentication can be used. Using this option you’ll need to provision additional on-premises servers and ensure they are highly available. 
  
 ## Architecture and connection options for Active Directory Domain Services 
 In Windows Virtual Desktop, your remote desktop sessions will use Active Directory Domain Services (ADDS) like your current virtual and physical desktop environment on premises for session logins at the virtual machine layer. To connect with or provision ADDS for WVD, you can use the following options:  

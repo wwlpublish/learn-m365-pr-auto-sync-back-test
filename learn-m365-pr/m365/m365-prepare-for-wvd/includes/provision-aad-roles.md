@@ -7,7 +7,7 @@ Once your network and directory connections are established, you can provision t
 In Microsoft Azure you will configure: 
 - One or more Resource Groups as a foundation for grouping services in Azure 
 - A storage account for storing virtual disk files used with FSLogix profiles and when synchronizing or provisioning file share services for WVD session hosts in Azure.  
-- Administrator, user, and system accounts required to manage WVD related services.  
+- Administrator, user, and system accounts required to manage WVD-related services.  
 
 In large organizations, it is a best practice to assign administrator roles to different people and establish multiple people per role, but if you’re just starting out or run a small IT department, these can be the same person if needed.  
 

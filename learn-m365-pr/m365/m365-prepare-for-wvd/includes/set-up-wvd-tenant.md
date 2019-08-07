@@ -1,4 +1,4 @@
-Now with all of the prerequisite steps complete, you can create a Windows Virtual Desktop tenant. The tenant is used to group your host pools and will be used to identify your resources in subsequent provisioning and customization steps. 
+With all of the prerequisite steps complete, you can create a Windows Virtual Desktop tenant. The tenant is used to group your host pools and will be used to identify your resources in subsequent provisioning and customization steps. 
 
 ## Provisioning a WVD Tenant Creator account 
 An Azure AD global admin account is used to provision the Windows Virtual Desktop tenant.  
@@ -26,12 +26,12 @@ Now, with the module loaded, you’ll run the following PowerShell cmdlet:
 Add-RdsAccount – DeploymentURL https://rdbroker.wvd.microsoft.com 
 ```
 
-Then sign in with the TenantCreator account credentials we just configured. Next run: 
+Then sign in with the TenantCreator account credentials we configured. Next run: 
 
 ```powershell
 New-RdsTenant -Name <TenantName> -AadTenantID <DirectoryID> -AzureSubscriptionID <SubscriptionID> 
 ```
 
-Here you’ll need to give it a name for /<TenantName/> – such as your domain prefix. You’ll use your AAD directory ID we copied to the clipboard before in place of /<DirectoryID/>, and then you’ll need to find and copy the Azure Subscription ID from the Azure Portal. This is found in **All Services /> Subscriptions**. Replace /<SubscriptionID/> with that value and run the PowerShell cmdlet it to create your own tenant.  
+Here you’ll need to give it a name for /<TenantName/> – such as your domain prefix. You’ll use your AAD directory ID we copied to the clipboard before in place of /<DirectoryID/>, and then you’ll need to find and copy the Azure Subscription ID from the Azure portal. This is found in **All Services /> Subscriptions**. Replace /<SubscriptionID/> with that value and run the PowerShell cmdlet it to create your own tenant.  
 
-At this point your Windows Virtual Desktop tenant is created and you are ready to start building out your virtual machines in WVD host pools. 
+At this point, your Windows Virtual Desktop tenant is created and you are ready to start building out your virtual machines in WVD host pools. 
