@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.wvd-intro.wvd-configuration
+title: Understand how Windows Virtual Desktop is configured
+metadata:
+  title: Understand how Windows Virtual Desktop is configured
+  description: Learn about Windows Virtaul Desktop.
+  ms.date: 08/06/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 5
+content: |
+  [!include[](includes/wvd-configuration.md)]
