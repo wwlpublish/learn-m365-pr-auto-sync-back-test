@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.optimize-wvd.provision-fslogix
+title: Provisioning FSLogix profiles to separate user profiles from virtual machines
+metadata:
+  title: Provisioning FSLogix profiles to separate user profiles from virtual machines
+  description: Learn how to provision FSLogix profiles to separate user profiles from virtual machines.
+  ms.date: 08/06/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 5
+content: |
+  [!include[](includes/provision-fslogix.md)]
