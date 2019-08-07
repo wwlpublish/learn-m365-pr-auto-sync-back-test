@@ -16,7 +16,7 @@ abstract: |
    - How to enforce secure devices
    - How to establish isolated identity
 prerequisites: None
-iconUrl: /learn/achievements/security-in-m365.svg
+iconUrl: /learn/achievements/use-microsoft-365-to-secure-administrator-access.svg
 ratingEnabled: true
 levels:
 - intermediate
