@@ -9,12 +9,12 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Manage apps, bots, and connectors
-summary: In this module, you learned how apps, bots, and connectors increase the power of Microsoft Teams and how to manage apps, bots, and connectors as you plan your organization’s Teams rollout.  
+summary: In this module, you'll learn how apps, bots, and connectors increase the power of Microsoft Teams and how to manage apps, bots, and connectors as you plan your organization’s Teams rollout.  
 abstract: |
   At the end of this module, you should be able to:
   - Describe what Microsoft Teams apps, bots, and connectors are and what they do
   - Explain how to manage apps through app policies
-  - Manage bots for private chats and channels
+  - Configure and manage bots for private chats and channels
   - Describe ways you can interact with apps and services in Teams
 prerequisites: None
 iconUrl: http://via.placeholder.com/120x120
