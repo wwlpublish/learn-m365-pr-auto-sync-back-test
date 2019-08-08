@@ -1,4 +1,4 @@
-**Microsoft Teams** is central to the logical architecture of productivity services in Microsoft 365, including data governance, security, and compliance capabilities. Teams is built on Office 365 groups, Microsoft Graph, and the same enterprise-level security, compliance, and manageability as the rest of Office 365.
+**Microsoft Teams** is central to productivity services in Microsoft 365, including data governance, security, and compliance capabilities. Team is built on Office 365 groups, Microsoft Graph, and the same enterprise-level security, compliance, and manageability as the rest of Office 365.
  
 ## How does Teams interact with underlying technologies?
 
@@ -15,23 +15,23 @@ When you create a team from an existing Office 365 group, that group’s members
 
 ## How does Teams manage identities?
  
-Teams supports all identity models that are available with Office 365. Teams leverages identities stored in Azure Active Directory (Azure AD), which combines core directory services, application access management, and identity protection into a single solution.
+Teams supports all identity models that are available with Office 365. It leverages identities stored in Azure Active Directory (Azure AD), which combines core directory services, application access management, and identity protection into a single solution.
 
-Teams uses three identity models:
+Team uses three identity models:
 
-- With the Cloud Identity model, a user is created and managed in Office 365 and stored in Azure AD, and the password is verified by Azure AD. 
-- With Synchronized Identity, the user identity is managed in an on-premises server, and the accounts and password hashes are synchronized to the cloud. 
-- The Federated Identity model requires a synchronized identity where the user password is verified by the on-premises identity provider (such as Active Directory Federation Services (ADFS)). 
+- With the Cloud Identity model, a user is created and managed in Office 365 and stored in Azure AD. The password is verified by Azure AD.
+- With Synchronized Identity, the user identity is managed in an on-premises server, and the accounts and password hashes are synchronized to the cloud.
+- The Federated Identity model requires a synchronized identity where the user password is verified by the on-premises identity provider (such as Active Directory Federation Services (ADFS)).
 
 ## Where does Teams store data?
  
-Data in Teams resides in the geographic region associated with your Office 365 tenant. Currently, Teams supports the Australia, Canada, France, India, Japan, United Kingdom, Americas, APAC, and EMEA regions.
+Data resides in the geographic region associated with your Office 365 tenant. Currently, Teams supports the Australia, Canada, France, India, Japan, United Kingdom, Americas, APAC, and EMEA regions.
 
-Key data types are stored in various locations when the data is not in active use.
+Key data types are stored in various locations when the data isn't in active use.
 
 ## What are Teams service dependencies?
 
-For the full Teams experience, every user should be enabled for Exchange Online, SharePoint Online, OneDrive for Business, and Office 365 Group creation. Admins should consider whether they’ll be able to deploy the Teams features that their organization requires with its current Exchange and SharePoint deployments.
+To take full advantage of Teams capabilities, every user should be enabled for Exchange Online, SharePoint Online, OneDrive for Business, and Office 365 Group creation. Admins should consider whether they’ll be able to deploy the features that their organization requires with their current Exchange and SharePoint deployments.
 
 ![Teams service dependencies](../media/service-dependencies.png)
 

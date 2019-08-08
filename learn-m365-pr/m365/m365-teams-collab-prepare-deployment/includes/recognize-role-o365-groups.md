@@ -1,4 +1,4 @@
-When you create a team in Microsoft Teams, on the back end you’re creating an Office 365 Group and the associated SharePoint document library and OneNote notebook, along with ties into other Office 365 cloud applications.
+When you create a team in Microsoft Teams, you’re creating an Office 365 Group and the associated SharePoint document library and OneNote notebook. You're also creating ties into other Office 365 cloud applications.
  
 If the person creating the team is an owner of an existing Office 365 public or private group, they can add Teams functionality to the group if it has fewer than 5,000 people and has never been added to Teams. This creates one default General channel in which chat messages, documents, OneNote, and other objects reside.
  
