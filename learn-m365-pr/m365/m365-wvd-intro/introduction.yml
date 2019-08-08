@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.wvd-intro.introduction
+title: Introduction to Windows Virtual Desktop
+metadata:
+  title: Introduction to Windows Virtual Desktop
+  description: Learn about Windows Virtual Desktop.
+  ms.date: 08/06/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 4
+content: |
+  [!include[](includes/introduction.md)]
