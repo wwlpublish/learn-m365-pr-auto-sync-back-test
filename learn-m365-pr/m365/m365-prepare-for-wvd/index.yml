@@ -3,7 +3,7 @@ uid: learn-m365.prepare-for-wvd
 metadata:
   title: Prepare for Windows Virtual Desktop in Microsoft Azure
   description: Learn the steps to prepare for Windows Virtual Desktop, including the prerequisites and tools provided by Microsoft to help you get ready to provision your first WVD host pool. 
-  ms.date: 06/17/2019
+  ms.date: 08/06/2019
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial

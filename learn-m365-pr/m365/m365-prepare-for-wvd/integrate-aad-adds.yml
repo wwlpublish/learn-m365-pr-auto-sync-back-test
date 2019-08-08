@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.prepare-for-wvd.integrate-aad-adds
-title: Introduction to Windows Virtual Desktop
+title: Integrate Azure AD with Active Directory Domain Services
 metadata:
-  title: Preparing for Windows Virtual Desktop
-  description: Review the preparation needed for Windows Virtaul Desktop.
+  title: Integrate Azure AD with Active Directory Domain Services
+  description: Learn about your options to integrate Azure AD and Active Directory Domain Services.
   ms.date: 08/06/2019
   author: lizap
   ms.author: elizapo
