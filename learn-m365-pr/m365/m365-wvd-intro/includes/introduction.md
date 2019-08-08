@@ -1,4 +1,4 @@
-Video: https://www.youtube.com/watch?v=NQFtI3JLtaU 
+(Add first video here)
 
 Microsoft’s **Windows Virtual Desktop (WVD)** solution on Microsoft Azure is a fully managed desktop virtualization solution. WVD works across devices – including Windows, Mac, iOS and Android – with full-featured apps that you can use to access remote desktops and remote apps; additionally most modern browsers can also be used to access WVD hosted experiences. 
 
