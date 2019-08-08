@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.m365-teams-collab-prepare-deployment.review-networking requirements
+uid: learn-m365.m365-teams-collab-prepare-deployment.review-networking-requirements
 title: Review Teams networking requirements  
 metadata:
   title: Review Teams networking requirements 
@@ -12,4 +12,4 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 4
 content: |
-  [!include[](includes/review-networking requirements.md)]
+  [!include[](includes/review-networking-requirements.md)]
