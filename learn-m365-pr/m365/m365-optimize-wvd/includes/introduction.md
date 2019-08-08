@@ -1,0 +1,5 @@
+Video: https://www.youtube.com/watch?v=I8gcl8Zvcps
+ 
+In this module, we’ll explain how to optimize your Windows Virtual Desktop host pool. Beyond the advantages from not having to manage basic infrastructure components associated with Remote Desktop Services, WVD includes innovative options to componentize compute environments enabling the separation of the operating system layer from the user profile layer. Additionally, both Microsoft 365 and Microsoft Azure services round out the solution with additional file management options at the user and file share level.   
+
+This module will cover post-deployment steps to optimize WVD, including customization of a basic WVD environment with FSLogix profiles, enabling and configuring OneDrive for Business and OneDrive Files on Demand, synchronizing on premises or hosted file shares with Azure using Azure File Sync and your options to scale host pools on demand using depth scaling to reduce costs or breadth scaling to optimize per user performance. 
