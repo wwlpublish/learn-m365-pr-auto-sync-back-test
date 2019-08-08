@@ -4,7 +4,7 @@ If the person creating the team is an owner of an existing Office 365 public or 
  
 You can add or remove group members just as you would any other group-based security object in Active Directory. Group features and capabilities for your users depend on where you drive group membership from. For example, if you remove a member of a team, they are removed from the Office 365 group as well. Removal from the group immediately removes the team and channels from the Teams client. If you remove a person from a group using the Microsoft 365 admin center, they will no longer have access to the other collaborative aspects such as SharePoint Online document library, Yammer groups, or shared OneNote. However, they will still have access to the team’s chat functionality for approximately two hours.
 
-![Interconnections of Teams and Office 365 groups](o365-groups-new-group.png)
+![Interconnections of Teams and Office 365 groups](../media/o365-groups-new-group.png)
 
 ## What group types are in Teams?
 
