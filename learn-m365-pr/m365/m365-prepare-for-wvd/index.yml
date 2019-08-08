@@ -1,0 +1,36 @@
+### YamlMime:Module
+uid: learn-m365.prepare-for-wvd
+metadata:
+  title: Prepare for Windows Virtual Desktop in Microsoft Azure
+  description: Learn the steps to prepare for Windows Virtual Desktop, including the prerequisites and tools provided by Microsoft to help you get ready to provision your first WVD host pool. 
+  ms.date: 08/06/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Prepare for Windows Virtual Desktop in Microsoft Azure
+summary: Learn the steps to prepare for Windows Virtual Desktop, including the prerequisites and tools provided by Microsoft to help you get ready to provision your first WVD host pool. 
+abstract: |
+  At the end of this module, you should be able to:
+  - Provision an Azure tenant and set up Azure Active Directory (AAD) 
+  - Integrate with AAD with Active Directory Domain Services 
+  - Provision the required administrator roles in AAD 
+  - Set up the Windows Virtual Desktop tenant 
+prerequisites: None
+iconUrl: /learn/achievements/get-modern-os-deployment-and-feature-updates.svg
+ratingEnabled: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+units:
+- learn-m365.prepare-for-wvd.introduction
+- learn-m365.prepare-for-wvd.wvd-provision-azure
+- learn-m365.prepare-for-wvd.integrate-aad-adds
+- learn-m365.prepare-for-wvd.provision-aad-roles
+- learn-m365.prepare-for-wvd.set-up-wvd-tenant
+- learn-m365.prepare-for-wvd.summary-and-knowledge-check
+badge: 
+  uid: learn-m365.prepare-for-wvd.badges
