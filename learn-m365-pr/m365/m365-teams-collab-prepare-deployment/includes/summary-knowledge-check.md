@@ -13,11 +13,11 @@ Now that you have completed this module, you should be able to:
 
 ## Resources
 
-![Overview of teams and channels in Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-channels-overview)
+[Overview of teams and channels in Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-channels-overview)
 
-![Manage teams in the Microsoft Teams admin center](https://docs.microsoft.com/microsoftteams/manage-teams-in-modern-portal)
+[Manage teams in the Microsoft Teams admin center](https://docs.microsoft.com/microsoftteams/manage-teams-in-modern-portal)
 
-![Office 365 Groups and Microsoft Teams](https://docs.microsoft.com/microsoftteams/office-365-groups)
+[Office 365 Groups and Microsoft Teams](https://docs.microsoft.com/microsoftteams/office-365-groups)
 
 [Plan for governance in Teams](https://docs.microsoft.com/MicrosoftTeams/plan-teams-governance)
 
