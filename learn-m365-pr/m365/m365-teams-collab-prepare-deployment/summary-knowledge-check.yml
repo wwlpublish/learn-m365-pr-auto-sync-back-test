@@ -1,0 +1,54 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-teams-collab-prepare-deployment.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Review the Microsoft Teams user experience and learn about requirements and important considerations for deploying Teams as part of a Microsoft 365 installation. 
+  ms.date: 08/05/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Members of your organization want to establish a dedicated collaborative space where they can work together on a specific project. What should their Microsoft Teams admin create?"
+      choices:
+      - content: "A new team"
+        isCorrect: false
+        explanation: "A team can be organization-wide and can serve many purposes. You can create a channel within a team for specific purposes, such as a project."
+      - content: "A new channel"
+        isCorrect: true
+        explanation: "A team can contain any number of channels dedicated to specific purposes, such as a project."
+      - content: "A new chat group"
+        isCorrect: false
+        explanation: "You can create a channel within a team for specific purposes, such as a project. Chat and all other Teams features are supported."
+
+    - content: "What are the three primary user roles within a Microsoft Office 365 group?"
+      choices:
+      - content: "Owner, member, guest"
+        isCorrect: true
+        explanation: "In an Office 365 group, owners and members belong to the organization, while guests are participants from outside the organization who’ve been granted access."
+      - content: "Admin, member, guest"
+        isCorrect: false
+        explanation: "Each Office 365 group has members and at least one owner and can include approved guests from outside the organization. Admin is not a formally established role."
+      - content: "Owner, member, group facilitator"
+        isCorrect: false
+        explanation: "Each Office 365 group has members and at least one owner and can include approved guests from outside the organization. Facilitator is not a formally established role."
+      
+    - content: "Which management tool can Admins use to access data across Microsoft 365?"
+      choices:
+      - content: "Microsoft PowerShell"
+        isCorrect: false
+        explanation: "Admins can use the PowerShell command-line tool to manage settings, configuration, and policy in Teams but can't access data across Microsoft 365."
+      - content: "Microsoft Teams admin center"
+        isCorrect: false
+        explanation: "Admins can use the Microsoft Teams Admin center to edit group and team-specific settings but not to access data across Microsoft 365."
+      - content: "Microsoft Graph API"
+        isCorrect: true
+        explanation: "Graph API provides a unified programmability model that lets you access data in Office 365, Windows 10, and Enterprise Mobility + Security."
+      
