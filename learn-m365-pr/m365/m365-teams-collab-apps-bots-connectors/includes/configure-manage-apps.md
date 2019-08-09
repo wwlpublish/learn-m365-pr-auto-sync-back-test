@@ -2,8 +2,8 @@ In **Teams apps** in the Microsoft Teams admin center, you can set up app polici
 
 Policies can be used to customize Teams by: 
 
-- Pinning apps to the app bar that are most important to your users, such as: 
-  - Driving awareness and adoption of core apps by pinning a custom recruiting and talent management app for users on your HR team.
+- Pinning apps to the app bar that are most important to your users. Some examples are:
+  - Pinning a custom recruiting and talent management app for users on your HR team to help drive their awareness and adoption.
   - Selectively pinning core Teams features, such as Chat, Teams, and Calling. Doing so helps ensure users are aware of specific activities within Teams.
 - Showcasing apps that users in your organization need, including those built by third parties or by internal developers.
 - Managing how built-in features appear.
@@ -24,5 +24,5 @@ You can edit the settings in the global policy to include the apps that you want
 
 ## Customize tabs
 
-Owners and team members can add custom tabs to a channel, private chat, or group chat to help integrate their cloud services. When you create a channel, the conversations and files tabs are created by default. In a private chat, the conversations, files, organization, and activity tabs are created by default. You can design and add custom tabs to these default ones to help users access and manage the data they need or use the most.  
+Owners and team members can add custom tabs to a channel, private chat, or group chat to help integrate their cloud services. When you create a channel, the conversations and files tabs are created by default. In a private chat, the conversations, files, organization, and activity tabs are created by default. You can design and add custom tabs to these default tabs to help users access and manage the data they need or use the most.  
 
