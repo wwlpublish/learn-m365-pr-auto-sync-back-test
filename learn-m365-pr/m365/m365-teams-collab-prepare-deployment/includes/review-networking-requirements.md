@@ -33,7 +33,16 @@ Network Planner allows you to:
 - Create representations of your organization using sites and Microsoft-recommended personas (office workers, remote workers, and Teams room system).
 - Generate reports and calculate bandwidth requirements for Teams usage.
 
-To use Network Planner, you must be a Global Administrator, Teams Service Administrator, or Teams Communications Administrator.
+To use Network Planner, you must be a global administrator, Teams service administrator, or Teams communications administrator.
+
+## Use Microsoft Skype for Business Network Assessment Tool
+
+After you’ve completed your planning and network preparation—including upgrading bandwidth and opening ports in the firewall—you should test your network’s performance. The results of this testing will give you a clearer picture of any network optimization or remediation required for the success of your Teams implementation.
+
+Use the Network Assessment Tool to test whether your network is ready for Teams. The tool offers dual functionality. It can test whether all the correct ports have been opened, and it can test for network impairments.
+
+> [!NOTE]
+> To find out more about network assessment tools, check out [Prepare your network for upgrading to Teams](https://docs.microsoft.com/microsoftteams/upgrade-prepare-environment-prepare-network).
 
 ## Utilize your bandwidth
 

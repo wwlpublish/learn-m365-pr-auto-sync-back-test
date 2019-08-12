@@ -28,9 +28,8 @@ Teams saves your whole chat history, all the way back to the first message you s
  
 ## How are membership, roles, and settings implemented?
 
-When Teams is activated for your entire organization, team owners can invite any coworker to join their team. Depending on your organization’s settings, you can also add guests outside of your organization to your teams. Team owners can also create a team based on an existing Office 365 Group.
+Teams uses two main roles: a team owner who creates the team, and team members the owner invites to join their team. These roles are roughly equivalent to administrators and users. By default, a user who creates a new team is granted the owner status. Team owners can make any team member a co-owner at any time. Having multiple team owners enables you to share the responsibilities of managing settings and membership, including invitations to join the team.
 
-Teams uses two main roles: a team owner who creates the team, and team members the owner invites to join their team. By default, a user who creates a new team is granted the owner status. Team owners can make any team member a co-owner at any time. Having multiple team owners enables you to share the responsibilities of managing settings and membership, including invitations to join the team.
+When Teams is activated for your entire organization, team owners can invite any coworker to join their team. Depending on your organization’s settings, you can also add guests outside your organization to your teams. Team owners can also create a team based on an existing Office 365 Group.
 
 Team owners can manage team-wide settings directly in the Teams app, including the ability to set team-wide permissions for creating channels and adding tabs and connectors.
-

@@ -16,23 +16,7 @@ Broadly speaking, the lifecycle of a Teams team encompasses both configuration (
 
 The Teams lifecycle is configured by the team owner. Note that lifecycle configuration differs from Teams configuration because the latter is concerned with global settings and user-specific configurations that rarely change once they’ve been defined.
 
-Proactive admin activities include initiating creation of teams (including owners, members, channels and so on), and sunsetting of teams as required by the business. Reactive admin activities include changing team settings on behalf of the owner and adding team owners for *orphaned* teams.
-
-## Team access types
-
-Teams users fall under two access types: private and public.
-
-- **Private teams** can only be joined by approved team members, as is typical for project teams in a large organization.
-- **Public teams** can be joined by anyone in the organization without requesting approval. This is useful for collaboration on topics of general interest to people in different departments working on different projects. This is a good default setting for smaller organizations.
-
-## Team user types
-
-Team user types define how much control a team member has:
-
-- Team creator has permissions to create a group or team in the directory. The admin can limit this user type to a subset of admins or users.  
-- Team owner manages team membership and settings. A team can have as many as 10 owners.
-- Team member is an organization member who participates in a team.
-- Guest is a user who’s external to your organization.  
+Proactive administrative activities include initiating creation of teams (including owners, members, channels and so on), and sunsetting of teams as required by the business. Reactive administrative activities include changing team settings on behalf of the owner and adding team owners for *orphaned* teams.
 
 ## Teams lifecycle stages
 

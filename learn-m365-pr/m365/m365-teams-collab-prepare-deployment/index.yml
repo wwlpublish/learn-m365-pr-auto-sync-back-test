@@ -13,8 +13,8 @@ summary: In this module, you'll review the Microsoft Teams user experience and l
 abstract: |
   At the end of this module, you should be able to:
   - Describe Teams capabilities and user experience.
-  - Understand Teams management tools.
   - Explain Teams core technologies.
+  - Understand Teams management tools.
   - Explain the relationship between Office 365 groups and Teams.
   - Explain Teams licensing.
   - Plan for Teams governance.  
@@ -33,8 +33,8 @@ products:
 units:
 - learn-m365.m365-teams-collab-prepare-deployment.introduction
 - learn-m365.m365-teams-collab-prepare-deployment.explore-user-experience
-- learn-m365.m365-teams-collab-prepare-deployment.management-tools
 - learn-m365.m365-teams-collab-prepare-deployment.survey-architecture
+- learn-m365.m365-teams-collab-prepare-deployment.management-tools
 - learn-m365.m365-teams-collab-prepare-deployment.recognize-role-o365-groups
 - learn-m365.m365-teams-collab-prepare-deployment.manage-licensing
 - learn-m365.m365-teams-collab-prepare-deployment.plan-governance
