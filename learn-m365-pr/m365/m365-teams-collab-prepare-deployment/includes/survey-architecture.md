@@ -25,13 +25,13 @@ Team uses three identity models:
 
 ## Where does Teams store data?
  
-Data resides in the geographic region associated with your Office 365 tenant. Currently, Teams supports the Australia, Canada, France, India, Japan, United Kingdom, Americas, APAC, and EMEA regions.
+Data resides in the geographic region associated with your Office 365 tenant. Currently, Teams supports the Australia, Canada, France, India, Japan, United Kingdom, Americas, South Korea, South Africa, APAC, and EMEA regions.
 
 Key data types are stored in various locations when the data isn't in active use.
 
 ## What are Teams service dependencies?
 
-To take full advantage of Teams capabilities, every user should be enabled for Exchange Online, SharePoint Online, OneDrive for Business, and Office 365 Group creation. Admins should consider whether they’ll be able to deploy the features that their organization requires with their current Exchange and SharePoint deployments.
+To take full advantage of Teams capabilities, every user should be enabled for Exchange Online, SharePoint Online, OneDrive for Business, and Office 365 Group creation. Administrators should consider whether they’ll be able to deploy the features that their organization requires with their current Exchange and SharePoint deployments.
 
 ![Teams service dependencies](../media/service-dependencies.png)
 
