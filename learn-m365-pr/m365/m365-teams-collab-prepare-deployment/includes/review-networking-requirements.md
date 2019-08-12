@@ -42,7 +42,7 @@ After you’ve completed your planning and network preparation—including upgra
 Use the Network Assessment Tool to test whether your network is ready for Teams. The tool offers dual functionality. It can test whether all the correct ports have been opened, and it can test for network impairments.
 
 > [!NOTE]
-> Find out more about network assessment tools from the link on the [Resources page](summary-knowledge-check.md), *Prepare your network for upgrading to Teams*.
+> To find out more about network assessment tools, check out [Prepare your network for upgrading to Teams](https://docs.microsoft.com/microsoftteams/upgrade-prepare-environment-prepare-network).
 
 ## Utilize your bandwidth
 
