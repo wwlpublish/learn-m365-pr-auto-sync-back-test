@@ -1,4 +1,4 @@
-Planning for lifecycle management is essential if your organization is to get the most benefit out of Microsoft Teams. Like most projects, creation and management of teams passes through beginning, middle, and end stages. However, Microsoft Teams has such a variety of uses that it may not always be obvious which stage a project is in. Having a plan for lifecycle management will help you track your organization’s projects as they go through these stages. 
+Planning for lifecycle management is essential if your organization is to get the most benefit out of Microsoft Teams. Like most projects, creation and management of teams passes through beginning, middle, and end stages. However, Teams has such a variety of uses that it may not always be obvious which stage a project is in. Having a plan for lifecycle management will help you track your organization’s projects as they go through these stages.
 
 ## Teams lifecycle
 

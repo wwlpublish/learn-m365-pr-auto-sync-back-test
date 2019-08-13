@@ -4,15 +4,15 @@ Microsoft Teams lets you quickly pull together a team with people inside and out
 
 A team is a group of people gathered to get something big done in your organization. Sometimes it’s your whole organization.
 
-Owners can create private teams open to only invited users, or public teams open to anyone within the organization (up to 5,000 members). Teams can be scaled to suit a range of scenarios, from a single short-term project to the entire internal structure of your organization. When considering how to implement Teams in your organization, admins can provide guidance on how to structure their teams, but ultimately users have control of how they self-organize.
+Owners can create private teams open to only invited users, or public teams open to anyone within the organization (up to 5,000 members). Teams can be scaled to suit a range of scenarios, from a single short-term project to the entire internal structure of your organization. When considering how to implement Teams in your organization, administrators can provide guidance on how to structure their teams, but ultimately users have control of how they self-organize.
 
-Creating a new team, or joining an existing team, is as simple as clicking Teams in the left column of the app and then choosing the option you want. Once you've created a new team, you invite people (members) to join it. You can add individual users, groups, and even entire contact groups. You can then designate one or more of these members to be team owners with administrative privileges.
+Creating a new team, or joining an existing team, is as simple as clicking **Teams** in the left column of the app and then choosing the option you want. Once you've created a new team, you invite people (members) to join it. You can add individual users, groups, and even entire contact groups. You can then designate one or more of these members to be team owners with administrative privileges.
 
 ## What are channels?
 
 Teams are made up of channels, which are the conversations you have with your teammates. Each channel is dedicated to a specific topic, department, or project. Channels are where the work actually gets done—where text, audio, and video conversations open to the whole team happen, where files are shared, and where apps are added.
 
-Files shared on the Files tab of a channel are stored in a corresponding SharePoint directory. Conversations and files shared across team channels are only visible to team members. You can increase the value of channels to your team by customizing them with apps that include tabs, connectors, and bots; for example, you can add tabs to a channel (or private or group chat) to help integrate cloud services or help team members access and manage the data they need the most.
+Files shared on the **Files** tab of a channel are stored in a corresponding SharePoint directory. Conversations and files shared across team channels are only visible to team members. You can increase the value of channels to your team by customizing them with apps that include tabs, connectors, and bots; for example, you can add tabs to a channel (or private or group chat) to help integrate cloud services or help team members access and manage the data they need the most.
 
 ![Example of a team created to align with organizational structure](../media/user-exp-channels.png)
 

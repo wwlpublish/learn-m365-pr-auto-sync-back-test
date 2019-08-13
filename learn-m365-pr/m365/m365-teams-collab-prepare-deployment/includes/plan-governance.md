@@ -1,4 +1,4 @@
-Microsoft Teams offers a rich set of tools to implement your organization’s governance requirements. Admins can control messaging, meetings, calling, live-event features, and more using messaging policies. Teams is backed up by the advanced security and compliance capabilities of Office 365 and supports auditing and reporting, compliance content search, e-discovery, legal hold, and retention policies. Different policies can be applied to all users by default or per user as you need.
+Microsoft Teams offers a rich set of tools to implement your organization’s governance requirements. Administrators can control messaging, meetings, calling, live-event features, and more using messaging policies. Teams is backed up by the advanced security and compliance capabilities of Office 365 and supports auditing and reporting, compliance content search, e-discovery, legal hold, and retention policies. Different policies can be applied to all users by default or per user as you need.
 
 ![Governance plan](../media/governance.png)
 
