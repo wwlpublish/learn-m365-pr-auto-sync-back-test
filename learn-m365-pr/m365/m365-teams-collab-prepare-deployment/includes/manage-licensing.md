@@ -12,7 +12,7 @@ Microsoft Teams licensing is designed to provide maximum flexibility. After usin
 - For audio conferencing, your organization will need to buy and assign an audio-conferencing license to each user who will set up dial-in meetings. 
 - For calling plans, each user will need a phone system plus a domestic or domestic and international calling plan.
 
-Use messaging policies, managed from the Teams Admin Center, to control what chat and channel messaging features are available to users in Teams. You can use the default policy or create one or more custom messaging policies for people in your organization.
+Use messaging policies, managed from the Teams admin center, to control what chat and channel messaging features are available to users in Teams. You can use the default policy or create one or more custom messaging policies for people in your organization.
 
 All supported subscription plans are eligible for access to the Teams web clients, desktop clients, and mobile apps.
 

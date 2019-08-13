@@ -1,5 +1,7 @@
 To prepare to deploy Microsoft Teams, you should review your network requirements. Make sure that you have the required bandwidth, access to all required IP addresses, the correct ports opened, and that you’re meeting the performance requirements for real-time media.
 
+![Networking requirements service management](../media/networking-service-management.png)
+
 Teams combines three types of network traffic:
 
 - Data traffic between the Office 365 online environment and the Teams client (signaling, presence, chat, file upload and download, OneNote synchronization)

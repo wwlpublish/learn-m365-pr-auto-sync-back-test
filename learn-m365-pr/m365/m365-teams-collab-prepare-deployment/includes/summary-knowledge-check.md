@@ -21,7 +21,7 @@ Now that you have completed this module, you should be able to:
 
 [Office 365 Security & Compliance Center](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)
 
-[Office 365 Groups and Microsoft Teams](https://docs.microsoft.com/microsoftteams/office-365-groups)
+[Office 365 groups and Microsoft Teams](https://docs.microsoft.com/microsoftteams/office-365-groups)
 
 [Plan for governance in Teams](https://docs.microsoft.com/MicrosoftTeams/plan-teams-governance)
 
