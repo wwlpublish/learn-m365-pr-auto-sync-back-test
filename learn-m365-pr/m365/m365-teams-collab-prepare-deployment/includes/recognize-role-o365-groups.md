@@ -12,14 +12,14 @@ You can designate a group as either public or private. A public group can be see
 
 Neither public nor private groups can be accessed by people outside of the organization, unless specifically invited as guests.
 
-## What roles are in Office 365 groups?
+## What roles are in Office 365 Groups?
 
-There are three roles in Office 365 groups:
+There are three roles in Office 365 Groups:
 
 - **Owners** can perform administrative tasks such as adding or removing group members from the group, moderating shared conversations, and changing group settings. Teams administrators in Office 365 have access to system-wide settings in the Microsoft Teams admin center.
 - **Members** are regular users who collaborate within a group. Members have access to all shared features but can’t change group settings. Group members automatically become members of the associated SharePoint site.
 - **Guests** are participants from outside your organization who’ve been granted access to the group by an administrator.
 
-You can add or remove team members and perform other team-management tasks within the Teams client itself, or outside Teams by using the Office 365 admin center, Microsoft Azure Active Directory (AD), or the Microsoft Exchange Online PowerShell module.
+You can add or remove team members and perform other team-management tasks within the Teams client itself, or outside Teams by using the Microsoft 365 admin center, Microsoft Azure Active Directory (AD), or the Microsoft Exchange Online PowerShell module.
 
-![Manage Teams admin view](../media/o365-groups-manage-admin.png)
+![Manage Teams administrator view](../media/o365-groups-manage-admin.png)

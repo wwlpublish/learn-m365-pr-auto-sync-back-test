@@ -14,7 +14,7 @@ Command-line and automation tools include:
 
 ## Use Microsoft Teams admin center
 
-Teams management tools can be accessed in the Microsoft Teams admin center under **Teams > Manage teams**. Each team is backed by an Office 365 group, and this node provides a view of groups that have been enabled for Microsoft Teams in your organization. Administrators can edit group and team-specific settings here. 
+Teams management tools can be accessed in the Microsoft Teams admin center under **Teams > Manage teams**. Each team is backed by an Office 365 Group, and this node provides a view of groups that have been enabled for Microsoft Teams in your organization. Administrators can edit group and team-specific settings here. 
 
 ![Microsoft Teams admin center](../media/management-teams-admin-center.png)
 
@@ -53,4 +53,4 @@ Microsoft Graph is the gateway to data and intelligence in Microsoft 365. Graph 
 
 ![Microsoft Graph API](../media/graph-api.png)
 
-In Graph, Teams is represented by a group resource, since Teams and Office 365 groups both work together to facilitate group collaboration. Most of the same group-based features apply to Microsoft Teams and Office 365 groups, the main difference being the way members communicate with each other. Team members communicate by persistent chat in the context of a specific team. Office 365 group members communicate by group conversations, which are email conversations that occur in the context of a group in Outlook. Microsoft Graph is a very powerful tool for managing actual teams.
+In Graph, Teams is represented by a group resource, since Teams and Office 365 Groups both work together to facilitate group collaboration. Most of the same group-based features apply to Microsoft Teams and Office 365 Groups, the main difference being the way members communicate with each other. Team members communicate by persistent chat in the context of a specific team. Office 365 Group members communicate by group conversations, which are email conversations that occur in the context of a group in Outlook. Microsoft Graph is a very powerful tool for managing actual teams.

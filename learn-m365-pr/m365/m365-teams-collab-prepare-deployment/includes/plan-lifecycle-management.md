@@ -38,7 +38,7 @@ In the middle stage, collaboration takes place according to an established workf
 - Identifying any teams that have reached the end of their useful life.
 Identifying unhealthy teams that still serve a purpose but need revitalizing.
 
-The end stage occurs when a team has concluded its useful lifecycle, normally for a finite project. In this stage, you formally acknowledge the closing of the team and delete teams you no longer need; note that this is a “soft delete” that IT can reverse for up to 21 days (30 days for Office 365 groups). Deleting teams doesn’t affect any chats or content that were retained in accordance with compliance policies. Important decision points related to the end stage include: 
+The end stage occurs when a team has concluded its useful lifecycle, normally for a finite project. In this stage, you formally acknowledge the closing of the team and delete teams you no longer need; note that this is a “soft delete” that IT can reverse for up to 21 days (30 days for Office 365 Groups). Deleting teams doesn’t affect any chats or content that were retained in accordance with compliance policies. Important decision points related to the end stage include: 
 
 - Defining what the end of a team’s life looks like.
 - Deciding whether to keep a team’s stored content available, and for how long.

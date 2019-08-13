@@ -4,12 +4,12 @@
 
 Teams app capabilities depend on underlying communication and collaboration technologies. When you create a team, here’s what gets created:
  
-- A new Office 365 group
+- A new Office 365 Group
 - A SharePoint Online site and document library to store team files
 - An Exchange Online shared mailbox and calendar
 - A OneNote notebook
 
-When you create a team from an existing Office 365 group, that group’s membership, site, mailbox, and notebook are surfaced in Teams. To customize and extend Teams, you can add other Office 365 apps such as Planner and Power BI through apps, bots, and connectors using custom tabs.
+When you create a team from an existing Office 365 Group, that group’s membership, site, mailbox, and notebook are surfaced in Teams. To customize and extend Teams, you can add other Office 365 apps such as Planner and Power BI through apps, bots, and connectors using custom tabs.
 
 ![Teams logical architecture](../media/logical-architecture.png)
 
@@ -31,7 +31,7 @@ Key data types are stored in various locations when the data isn't in active use
 
 ## What are Teams service dependencies?
 
-To take full advantage of Teams capabilities, every user should be enabled for Exchange Online, SharePoint Online, OneDrive for Business, and Office 365 group creation. Administrators should consider whether they’ll be able to deploy the features that their organization requires with their current Exchange and SharePoint deployments.
+To take full advantage of Teams capabilities, every user should be enabled for Exchange Online, SharePoint Online, OneDrive for Business, and Office 365 Group creation. Administrators should consider whether they’ll be able to deploy the features that their organization requires with their current Exchange and SharePoint deployments.
 
 ![Teams service dependencies](../media/service-dependencies.png)
 
