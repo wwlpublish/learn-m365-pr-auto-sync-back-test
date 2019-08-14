@@ -2,7 +2,7 @@
   "redirections": [
     {
       "source_path": "learn-m365-pr/compliance-with-microsoft-365/index.md",
-      "redirect_url": "https://docs.microsoft.com/learn/modules/compliance-with-microsoft-365/",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/compliance-with-microsoft-365",
       "redirect_document_id": true
     },
     {

@@ -1,4 +1,4 @@
-Let’s look at some of the tools Microsoft 365 provides to assess and manage your compliance risk,and security posture..
+Let’s look at some of the tools Microsoft 365 provides to assess and manage your compliance risk, and security posture.
 
 ## Service Trust Portal
 The Service Trust Portal (STP) provides a variety of content, tools, and other resources about Microsoft security, privacy, and compliance practices. It also includes independent third-party audit reports of Microsoft's online services, and information about how our online services can help your organization maintain and track compliance with standards, laws, and regulations such as:
