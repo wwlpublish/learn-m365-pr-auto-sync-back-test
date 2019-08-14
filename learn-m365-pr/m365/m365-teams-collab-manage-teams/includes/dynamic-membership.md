@@ -10,3 +10,4 @@ With dynamic membership, users are automatically added to or removed from the co
 Using this feature, a given team’s members update automatically based on a specific set of criteria as opposed to manually managing membership. Doing this requires Azure AD Premium P1 licenses. Team membership can be assigned by a tenant administrator to any user's Azure AD properties provided the user has a tenant and an administrative account.
 
 You can create a dynamic group by using the Azure AD admin center. To do this, you must have an account that is in the global administrator, Intune administrator, or user administrator role in the tenant.
+
