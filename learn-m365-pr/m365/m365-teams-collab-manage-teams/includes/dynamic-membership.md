@@ -5,7 +5,7 @@ Microsoft Teams supports teams associated with Office 365 Groups by using dynami
 
 ## What is dynamic membership?
 
-With dynamic membership, users are automatically added to or removed from the correct teams as user attributes change or users join and leave the tenant. You can set up teams for certain cohorts of users in your organization. For example, a hospital can create distinct teams for nurses, doctors, and surgeons to broadcast communications; this can be especially important if the hospital relies on temporary employees.
+With dynamic membership, users are automatically added to or removed from the correct teams as attributes change or they join and leave the tenant. You can set up teams for certain cohorts of users in your organization. For example, a hospital is able to create distinct teams for nurses, doctors, and surgeons to broadcast communications. This is especially important if the hospital relies on temporary employees.
 
 Using this feature, a given team’s members update automatically based on a specific set of criteria as opposed to manually managing membership. Doing this requires Azure AD Premium P1 licenses. Team membership can be assigned by a tenant administrator to any user's Azure AD properties provided the user has a tenant and an administrative account.
 
