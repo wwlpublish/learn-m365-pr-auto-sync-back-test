@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-teams-collab-manage-teams.guest-access
+title: Manage guest access
+metadata:
+  title: Manage guest access
+  description: Learn how to create teams and manage their members by determining roles, access, and messaging policies for both internal and external users. 
+  ms.date: 08/05/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 4
+content: |
+  [!include[](includes/guest-access.md)]

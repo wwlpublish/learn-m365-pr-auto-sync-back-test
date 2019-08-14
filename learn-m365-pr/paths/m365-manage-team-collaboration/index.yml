@@ -1,0 +1,29 @@
+### YamlMime:LearningPath
+uid: learn-m365.m365-manage-team-collaboration
+metadata:
+  title: Manage team collaboration with Microsoft Teams
+  description: Manage team collaboration with Microsoft Teams introduces you to the features and capabilities of Microsoft Teams, the central hub for team collaboration in Microsoft 365.  
+  ms.date: 08/05/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+title: Manage team collaboration with Microsoft Teams
+summary: "**Manage team collaboration with Microsoft Teams** introduces you to the features and capabilities of Microsoft Teams, the central hub for team collaboration in Microsoft 365. You’ll learn how you can use Teams to facilitate teamwork and communication within your organization, both on and off premises, on a wide range of devices—from desktops to tablets to phones—while taking advantage of all the rich functionality of Office 365 applications. You’ll gain an understanding of how Teams provides a comprehensive and flexible environment for collaboration across applications and devices." 
+prerequisites: | 
+ - None
+iconUrl: http://via.placeholder.com/120x120
+levels: 
+- beginner
+roles:
+- administrator
+products: 
+- m365
+modules:
+- learn-m365.m365-teams-collab-prepare-deployment
+- learn-m365.m365-teams-collab-manage-teams
+- learn-m365.m365-teams-collab-apps-bots-connectors
+
+trophy: 
+  uid: learn-m365.m365-manage-team-collaboration.trophy
