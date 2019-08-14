@@ -3,7 +3,7 @@ uid: learn-m365.get-modern-security-compliance.3-summary-and-knowledge-check
 title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
-  description: Review how to protect your data, devices, and users while quickly detecting and responding to threats.
+  description: Review how to protect your data, devices, and users in Windows 10 and Office 365 ProPlus.
   ms.date: 06/12/2019
   author: aleha
   ms.author: aleha
@@ -16,33 +16,33 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Which of the following is a common security-related problem that interrupts Microsoft 365 deployments?"
+    - content: "Which of the following security-related problems often interrupts Microsoft 365 deployments?"
       choices:
       - content: "Antivirus app incompatibility"
         isCorrect: true
-        explanation: "Correct. Antivirus app incompatibility is a common security-related problem that interrupts Microsoft 365 deployments."
-      - content: "ISO compliance"
+        explanation: "Correct. Antivirus app incompatibility can interrupt deployment or stop in-place upgrades."
+      - content: "Outdated Group Policy controls"
         isCorrect: false
-        explanation: "Incorrect. While important, ISO compliance doesn't usually interrupt Microsoft 365 deployments."
+        explanation: "Incorrect. While important, outdated Group Policy controls don't usually interrupt your deployments, but they might not apply to the version of Windows or Office that you're migrating to."
       - content: "Identity and access management"
         isCorrect: false
-        explanation: "Incorrect. Identity and access management is not a common security-related problem that interrupts Microsoft 365 deployments."
-    - content: "You can configure Windows Hello to rely on the device itself, your PIN, or a unique biometric identifier like your face or fingerprint."
+        explanation: "Incorrect. Identity and access management doesn't usually interrupt deployments, but it's a good idea to review new capabilities, like Azure AD Join or Windows Hello for Business, to augment how you manage identity and access."
+    - content: "You can configure Windows Hello to use the device itself, a PIN, or a unique biometric identifier like a face or fingerprint."
       choices:
       - content: "True"
         isCorrect: true
-        explanation: "Correct. You can configure Windows Hello to rely on the device itself, your PIN, or a unique biometric identifier such as your face or fingerprint, which can be enforced via policy."
+        explanation: "Correct. You can configure Windows Hello to use the device itself, a PIN, or a unique biometric identifier like a face or fingerprint, which you can enforce using policy."
       - content: "False"
         isCorrect: false
-        explanation: "Incorrect. You can configure Windows Hello to rely on the device itself, your PIN, or a unique biometric identifier such as your face or fingerprint, which can be enforced via policy."
-    - content: "Which of the following is a new security capability of Microsoft 365?"
+        explanation: "Incorrect. You can configure Windows Hello to use the device itself, a PIN, or a unique biometric identifier like a face or fingerprint, which you can enforce using policy."
+    - content: "Which of the following is a new security capability in Windows 10?"
       choices:
       - content: "Virtualization-based security"
         isCorrect: true
-        explanation: "Correct. Virtualization-based security is one of the new features of Microsoft 365."
+        explanation: "Correct. Windows 10 now includes built-in virtualization-based security."
       - content: "Disk encryption"
         isCorrect: false
-        explanation: "Incorrect. While important, disk encryption is not a new security capability of Microsoft 365."
+        explanation: "Incorrect. While important and included in Windows 10, disk encryption was introduced in Windows Vista with BitLocker."
       - content: "Microsoft Intune"
         isCorrect: false
-        explanation: "No. Microsoft Intune is not a security capability of Microsoft 365."
+        explanation: "No. Microsoft Intune is a separate product, not a security feature in Windows 10."

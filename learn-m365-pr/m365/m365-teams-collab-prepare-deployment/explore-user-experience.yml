@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-teams-collab-prepare-deployment.explore-user-experience
+title: Explore the Teams user experience 
+metadata:
+  title: Explore the Teams user experience
+  description: Learn about the Microsoft Teams user experience, requirements, and important considerations for deploying Teams as part of a Microsoft 365 installation. 
+  ms.date: 07/29/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 4
+content: |
+  [!include[](includes/explore-user-experience.md)]

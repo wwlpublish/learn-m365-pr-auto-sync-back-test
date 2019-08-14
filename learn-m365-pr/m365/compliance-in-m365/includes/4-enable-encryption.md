@@ -1,4 +1,4 @@
-Microsoft 365 uses some of the strongest encryption protocols avilable - data is encrypted by default, at rest and in transit. 
+Microsoft 365 uses some of the strongest encryption protocols available - data is encrypted by default, at rest and in transit. 
 
 - For **data at rest**, data is encrypted at the physical disk with BitLocker and in applications with service encryption. 
 - **Data in transit** is encrypted with TLS (Transport Layer Security) as it moves across the network. 
