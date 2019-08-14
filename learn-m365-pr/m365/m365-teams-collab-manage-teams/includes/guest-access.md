@@ -21,10 +21,6 @@ You can manage Teams guest access features and capabilities through four differe
 
 These different authorization levels give you flexibility in how you set up guest access for your organization. For example, if you don’t want to allow guest users in Teams but want to allow it overall in your organization, just turn off guest access in Teams.
 
-The following diagram shows how guest access authorization dependency is granted and integrated between Azure AD, Microsoft Teams, and Office 365.
-
-![Guest access authorization dependencies](../media/ad-teams-o365-auth-dependencies.png)
-
 ## Manage guest access in the Teams admin center
 
 Administrators can add guests at the tenant level, set and manage guest user policies and permissions, and pull reports on guest user activity by using the Teams admin center. Guest user content and activities are under the same compliance and auditing protection as the rest of Office 365.
@@ -44,11 +40,11 @@ Azure AD includes the following settings to configure external users:
 - Members can invite (Yes/No).
 - Guests can invite (Yes/No).
 
-## Manage guest access in the Office 365 Admin center
+## Manage guest access in the Microsoft 365 admin center
 
 Administrators can control whether to allow guest access to Office 365 Groups for their whole organization or for individual Office 365 groups. They can also control who can allow guests to be added to groups.
 
-You can use the Office 365 Admin center to perform the following management tasks:
+You can use the Microsoft 365 admin center to perform the following management tasks:
 
 - View guest users.
 - Add existing guests to an Office 365 Group.
@@ -58,4 +54,4 @@ You can use the Office 365 Admin center to perform the following management task
 - Log and monitor guest access users.
 - Remove guest access.
 
-![Office 365 Admin center guest access](../media/o365-admin-center-guest-access.png)
+![Microsoft 365 admin center guest access](../media/o365-admin-center-guest-access.png)

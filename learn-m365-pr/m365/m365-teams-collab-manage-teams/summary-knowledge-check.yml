@@ -33,7 +33,7 @@ quiz:
       - content: Dynamic groups can contain both users and devices.
         isCorrect: false 
         explanation: Dynamic groups cannot contain devices. 
-      - content: Dynamic groups are created by using the Office 365 Admin center.
+      - content: Dynamic groups are created by using the Microsoft 365 admin center.
         isCorrect: false 
         explanation: Dynamic groups are created by using the Azure AD admin center. 
       - content: Users are automatically added to or removed from teams as user attributes change.
@@ -60,7 +60,7 @@ quiz:
       - content: Users can add or remove themselves from teams according to their needs. 
         isCorrect: false 
         explanation: In Microsoft Teams, users are added or removed only if they meet the conditions for a group. 
-      - content: Administrators create a dynamic group by using the Office 365 admin center.
+      - content: Administrators create a dynamic group by using the Microsoft 365 admin center.
         isCorrect: false 
         explanation: In Microsoft Teams, administrators create a dynamic group by using the Azure AD admin center.
 

@@ -13,8 +13,8 @@ You can manage messaging policies in the Teams admin center by signing in with a
 1. Assign your policy to users.
 1. Save the new policy.
 
-NOTE
-You can't delete a policy if users are assigned to it. You must first assign a different policy to all affected users before deleting the original policy.
+> [!NOTE]
+> You can't delete a policy if users are assigned to it. You must first assign a different policy to all affected users before deleting the original policy.
 
 ## Messaging policy settings
 
