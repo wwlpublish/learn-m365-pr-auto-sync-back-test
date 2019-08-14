@@ -1,0 +1,1 @@
+In this module, you’ll learn about creating an organization-wide team, designating team roles, and how to manage membership, access, and messaging policies for your Team members.

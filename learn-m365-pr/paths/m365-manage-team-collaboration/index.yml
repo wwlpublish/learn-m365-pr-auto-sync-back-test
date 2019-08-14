@@ -22,6 +22,7 @@ products:
 - m365
 modules:
 - learn-m365.m365-teams-collab-prepare-deployment
+- learn-m365.m365-teams-collab-manage-teams
 - learn-m365.m365-teams-collab-apps-bots-connectors
 
 trophy: 
