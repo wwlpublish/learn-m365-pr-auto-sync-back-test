@@ -33,13 +33,8 @@ products:
 units:
 - learn-m365.m365-teams-collab-prepare-deployment.introduction
 - learn-m365.m365-teams-collab-prepare-deployment.explore-user-experience
-<<<<<<< HEAD
 - learn-m365.m365-teams-collab-prepare-deployment.survey-architecture
 - learn-m365.m365-teams-collab-prepare-deployment.management-tools
-=======
-- learn-m365.m365-teams-collab-prepare-deployment.management-tools
-- learn-m365.m365-teams-collab-prepare-deployment.survey-architecture
->>>>>>> 4d22aee82b983af70813e8fcdce3e4400772f86a
 - learn-m365.m365-teams-collab-prepare-deployment.recognize-role-o365-groups
 - learn-m365.m365-teams-collab-prepare-deployment.manage-licensing
 - learn-m365.m365-teams-collab-prepare-deployment.plan-governance
