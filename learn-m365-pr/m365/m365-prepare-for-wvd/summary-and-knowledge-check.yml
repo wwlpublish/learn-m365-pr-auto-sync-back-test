@@ -24,7 +24,7 @@ quiz:
      - content: "False"
        isCorrect: false
        explanation: "Incorrect. While you can set up Remote Desktop Services on-premises or using other clouds, Windows Virtual Desktop with Windows 10 Enterprise multi-session as the operating system requires Microsoft Azure and corresponding services."
-   - content: "Synchronizing an Active Directory Domain Services (ADDS) environment with Azure Active Directory is recommended to establish consistent user logins and is also used to match devices to users with Group Policy. Which option is NOT a method to synchronize Azure AD with ADDS?" 
+   - content: "Synchronizing an Active Directory Domain Services (AD DS) environment with Azure Active Directory (Azure AD) helps establish consistent user logins. It's also used to match devices to users with Group Policy. Which option is NOT a method to synchronize Azure AD with AD DS?" 
      choices:
      - content: "Password Hash Sync"
        isCorrect: false 
@@ -38,25 +38,25 @@ quiz:
      - content: "Active Directory Federation Services"
        isCorrect: False
        explanation: "No, Active Directory Federation Services is a valid method. This option allows you to use more complex partner federation, RSA token and SmartCard authentication. However, with this option you’ll need to provision additional on-premises servers and ensure they are highly available."
-   - content: "Several administrator roles are recommended when provisioning and managing Windows Virtual Desktop. Which role is NOT something you need to provision?" 
+   - content: "When you provision and manage Windows Virtual Desktop, you need several administrator roles. Which of the following roles do you NOT need?" 
      choices:
      - content: "Azure subscription admin" 
        isCorrect: false
-       explanation: "No, an Azure subscription admin is required. The global admin can also serve this role, to grant access to Azure portal and resources." 
+       explanation: "No, you need an Azure subscription admin to grant access to the Azure portal and resources. You can also use the global admin in this role." 
      - content: "Azure Fabric admin" 
        isCorrect: true
        explanation: "Correct. The Azure Fabric admins work for Microsoft to manage Azure services that you don’t need to manage when using Windows Virtual Desktop."
      - content: "Azure Active Directory admin" 
        isCorrect: false
-       explanation: "No, Azure Active Directory admin is required, this is also called a “user admin” in the portal and they will provision users and manage user and admin access." 
+       explanation: "No, you need the Azure Active Directory admin to provision users and manage user and admin access. This is also called a 'user admin' in the portal." 
      - content: "Windows Virtual Desktop tenant admin"
        isCorrect: false  
-       explanation: "No, Windows Virtual Desktop tenant admin is required, also known as “tenant creator” – to provision and maintain WVD-specific settings." 
+       explanation: "No, you need a Windows Virtual Desktop tenant admin, also known as 'tenant creator,' to provision and maintain solution-specific settings." 
    - content: "The PowerShell module used to manage Windows Virtual Desktop is called “Microsoft.WVDinfra.WVDPowershell”." 
      choices:
      - content: "True"
        isCorrect: false 
-       explanation: "Incorrect, the PowerShell module is called “Microsoft.Rdinfra.RdPowershell."
+       explanation: "Incorrect, the PowerShell module is called 'Microsoft.Rdinfra.RdPowershell.'"
      - content: "False"
        isCorrect: true 
-       explanation: "Correct. The PowerShell module is called “Microsoft.Rdinfra.RdPowershell.” You have the eagle eyes and attention to detail of a born scripter."
+       explanation: "Correct. The PowerShell module is called 'Microsoft.Rdinfra.RdPowershell.' You have the eagle eyes and attention to detail of a born scripter."
