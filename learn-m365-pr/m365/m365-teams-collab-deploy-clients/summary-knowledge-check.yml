@@ -1,0 +1,53 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-teams-collab-deploy-clients.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description:  
+  ms.date: 08/05/2019
+  author: Alexandra.Hrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Which Microsoft Teams client offers the fullest experience?"
+      choices:  
+      - content: "Mobile client" 
+        isCorrect: false  
+        explanation: "The Teams desktop client offers the fullest experience."
+      - content: "Desktop client" 
+        isCorrect: true  
+        explanation: "The Teams desktop client offers the most features."      
+      - content: "Web client"  
+        isCorrect: false
+        explanation: "The Teams desktop client offers the most features."  
+
+    - content: "How does the Microsoft Teams desktop client handle updates?"
+      choices:  
+      - content: "Updates can be handled automatically or manually."  
+        isCorrect: true  
+        explanation: "Microsoft Teams updates occur automatically with the desktop client and can also be performed manually by users."
+      - content: "All updates are handled automatically."  
+        isCorrect: false
+        explanation: "Microsoft Teams updates occur automatically with the desktop client and can also be performed manually by users."  
+      - content: "All updates are handled by an organization’s administrator."
+        isCorrect: false  
+        explanation: "Microsoft Teams updates occur automatically with the desktop client and can also be performed manually by users."  
+
+    - content: "Administrators have the option to perform a bulk deployment of which Teams client?"  
+      choices:  
+      - content: "Microsoft Teams mobile client"
+        isCorrect: false  
+        explanation: "Administrators cannot do a bulk deployment of the mobile client."
+      - content: "Microsoft Teams desktop client"  
+        isCorrect: true
+        explanation: "Administrators can do a bulk deployment of the desktop client via MSI or Office 365 Pro Plus."       
+      - content: "Microsoft Teams web client"  
+        isCorrect: false  
+        explanation: "Administrators cannot do a bulk deployment of the web client." 

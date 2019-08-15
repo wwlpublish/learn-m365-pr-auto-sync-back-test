@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-teams-collab-deploy-clients.mobile-clients
+title: Plan to deploy Teams mobile clients
+metadata:
+  title: Plan to deploy Teams mobile clients
+  description:  
+  ms.date: 08/14/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 4
+content: |
+  [!include[](includes/mobile-clients.md)]

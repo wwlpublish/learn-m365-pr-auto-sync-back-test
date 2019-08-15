@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.learn-m365.m365-teams-collab-deploy-clients.desktop-clients
+title: Plan to deploy Teams desktop clients
+metadata:
+  title: Plan to deploy Teams desktop clients
+  description:  
+  ms.date: 08/14/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 4
+content: |
+  [!include[](includes/desktop-clients.md)]
