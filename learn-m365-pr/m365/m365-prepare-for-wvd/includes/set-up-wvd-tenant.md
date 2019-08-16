@@ -38,6 +38,6 @@ Next run the following cmdlet to create your tenant:
 New-RdsTenant -Name <TenantName> -AadTenantID <DirectoryID> -AzureSubscriptionID <SubscriptionID> 
 ```
 
-Here you’ll need to give it a name for \<TenantName\>, like your domain prefix. You’ll use the Azure AD directory ID you copied to the clipboard beforefor \<DirectoryID\>. Then you’ll find and copy the Azure Subscription ID from the Azure portal for \<SubscriptionID\>. (Look in **All Services > Subscriptions**. Replace \<SubscriptionID\> with that value, and then run the PowerShell cmdlet it to create your own tenant.  
+Here you’ll need to give it a name for \<TenantName\>, like your domain prefix. You’ll use the Azure AD directory ID you copied to the clipboard beforefor \<DirectoryID\>. Then you’ll find and copy the Azure Subscription ID from the Azure portal for \<SubscriptionID\>. (Look in **All Services > Subscriptions**. Replace \<SubscriptionID\> with that value.)   
 
-At this point, your Windows Virtual Desktop tenant is created, and you are ready to start building out your virtual machines in WVD host pools. 
+At this point, your Windows Virtual Desktop tenant is created, and you're ready to start building out your VMs in Windows Virtual Desktop host pools. 
