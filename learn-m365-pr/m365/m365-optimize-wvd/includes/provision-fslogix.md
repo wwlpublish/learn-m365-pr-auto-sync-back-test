@@ -63,6 +63,7 @@ Compared to classic roaming user profiles in Windows, separating the user profil
       > To create the FSLogix profile, the VM can't already have a user profile established for the user. 
 
 7. Now, go to [https://aka.ms/wvdweb](https://aka.ms/wvdweb) and sign in to a VM you've not yet signed into. The initial sign-in will take a little longer than usual. This is a one-time delay while the process creates the virtual disk file in the background. This is the file that will be used each time you sign in.  
-- Go back to your **Storage Account** in Azure and navigate to the **File Share**. You’ll see the virtual disk that was just created. 
+
+   Go back to your **Storage Account** in Azure, and navigate to the **File Share**. You’ll see a new virtual disk. 
 
 The next time the user signs in, the VM will connect to their virtual disk. For the user, it will feel like any apps that use %localappdata% are using a locally stored profile.
