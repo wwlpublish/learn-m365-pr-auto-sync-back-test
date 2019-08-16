@@ -1,6 +1,6 @@
 The Microsoft Teams desktop client provides a full-featured experience and can be installed either individually by users or rolled out by IT in a mass deployment. . Advantages of the Teams desktop client include auto-start, which ensures that you’ll stay signed in and won’t miss any important notifications, as well as more features and a superior management experience.
 
-![Teams desktop client](../media/desktop-client.png)
+![Teams desktop client](../media/teams-desktop-client.png)
 
 ## Installation options
 
