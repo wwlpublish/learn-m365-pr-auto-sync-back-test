@@ -2,14 +2,14 @@
 uid: learn-m365.optimize-wvd
 metadata:
   title: Optimize Windows Virtual Desktop in Microsoft Azure
-  description: Learn the steps to optimize Windows Virtual Desktop, including how to customize a basic WVD environment to take advantage of new storage, file management, and automated scaling options.  
+  description: Learn the steps to optimize Windows Virtual Desktop, including how to take advantage of new storage, file management, and automated scaling options.  
   ms.date: 08/16/2019
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Optimize Windows Virtual Desktop in Microsoft Azure
-summary: Learn the steps to optimize Windows Virtual Desktop, including how to customize a basic WVD environment to take advantage of new storage, file management, and automated scaling options.  
+summary: Learn the steps to optimize Windows Virtual Desktop, including how to customize a basic environment to take advantage of new storage, file management, and automated scaling options.  
 abstract: |
   At the end of this module, you should be able to:
   - Set up FSLogix profiles to separate user profiles from virtual machines 
