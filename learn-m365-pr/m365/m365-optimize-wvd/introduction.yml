@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.optimize-wvd.introduction
-title: Introduction to optimizing Windows Virtual Desktop
+title: Optimize Windows Virtual Desktop to take advantage of FSLogix, Microsoft 365, and Azure services
 metadata:
-  title: Introduction to optimizing Windows Virtual Desktop
-  description: Review the steps needed to optimize Windows Virtaul Desktop.
-  ms.date: 08/06/2019
+  title: Optimize Windows Virtual Desktop to take advantage of FSLogix, Microsoft 365, and Azure services
+  description: Learn how to customize Windows Virtual Desktop and use FSLogix, Microsoft 365, and Azure services.
+  ms.date: 08/16/2019
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
