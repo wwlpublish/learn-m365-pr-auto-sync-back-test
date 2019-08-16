@@ -44,7 +44,7 @@ There's a Resource Manager template in the Azure marketplace that helps you buil
 
 ## Step 4: Windows Virtual Desktop tenant information
 
-Configure authentication to the tenant you created in [Set up the Windows Virtual Desktop tenant](set-up-wvd-tenant.md). 
+Configure authentication to the tenant you created in [Set up the Windows Virtual Desktop tenant](https://docs.microsoft.com/learn/modules/m365-prepare-for-wvd/set-up-wvd-tenant). 
 
 1. Leave the default **Windows Virtual Desktop tenant group name** name –  Default Tenant Group, and then enter the name of the tenant you created for the **Windows Virtual Desktop tenant name**.
 2. Enter either a **User Principal Name (UPN)** or **service principal** account. If you're using an automated scenario, we recommend using service principals. If you’re using multi-factor authentication, you’ll need to use a service principal account.  
