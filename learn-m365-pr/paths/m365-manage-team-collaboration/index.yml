@@ -21,10 +21,7 @@ roles:
 products: 
 - m365
 modules:
-- learn-m365.m365-teams-collab-prepare-deployment
 - learn-m365.m365-teams-collab-deploy-clients
-- learn-m365.m365-teams-collab-manage-teams
-- learn-m365.m365-teams-collab-apps-bots-connectors
 
 trophy: 
   uid: learn-m365.m365-manage-team-collaboration.trophy
