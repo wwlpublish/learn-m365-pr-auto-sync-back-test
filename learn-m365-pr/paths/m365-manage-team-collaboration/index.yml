@@ -21,6 +21,7 @@ roles:
 products: 
 - m365
 modules:
+- learn-m365.m365-teams-collab-prepare-deployment
 - learn-m365.m365-teams-collab-deploy-clients
 - learn-m365.m365-teams-collab-manage-meetings
 
