@@ -1,0 +1,54 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-teams-collab-manage-meetings.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Learn how to plan and manage Microsoft Teams meetings and conferences. Discover how audio conferencing and live events work in Teams. 
+  ms.date: 08/19/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Microsoft Teams offers which two types of meetings?"
+      choices:
+      - content: "Private and Group"
+        isCorrect: false
+        explanation: "Group meetings are not a Teams meeting type."
+      - content: "Channel and Group"
+        isCorrect: false
+        explanation: "Group meetings are not a Teams meeting type."
+      - content: "Private and Channel"
+        isCorrect: true
+        explanation: "Microsoft Teams offers Private and Channel meetings."
+
+    - content: "What is the maximum number of users who can attend a Microsoft Teams audio conference?"
+      choices:
+      - content: "250"
+        isCorrect: true
+        explanation: "The maximum number of users who can attend an audio conference is 250."
+      - content: "1,000"
+        isCorrect: false
+        explanation: "The maximum number of users who can attend an audio conference is 250. Microsoft Teams live events can accommodate thousands of users."
+      - content: "Unlimited"
+        isCorrect: false
+        explanation: "The maximum number of users who can attend an audio conference is 250."
+      
+    - content: "The two tools available to monitor call quality are:"
+      choices:
+      - content: "Call Quality Dashboard (CQD) and Quality of Service (QoS)"
+        isCorrect: false
+        explanation: "Quality of Service (QoS) is not used to monitor call quality."
+      - content: "Call Quality Dashboard (CQD) and Call Analytics"
+        isCorrect: true
+        explanation: "Call Quality Dashboard (CQD) and Call Analytics are the two tools available for monitoring call quality."
+      - content: "Quality of Service (QoS) and Call Analytics"
+        isCorrect: false
+        explanation: "Quality of Service (QoS) is not used to monitor call quality."
+      

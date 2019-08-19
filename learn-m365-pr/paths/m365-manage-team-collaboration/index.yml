@@ -22,6 +22,7 @@ products:
 - m365
 modules:
 - learn-m365.m365-teams-collab-deploy-clients
+- learn-m365.m365-teams-collab-manage-meetings
 
 trophy: 
   uid: learn-m365.m365-manage-team-collaboration.trophy
