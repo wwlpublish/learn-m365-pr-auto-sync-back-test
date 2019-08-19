@@ -3,7 +3,7 @@ uid: learn-m365.deploy-wvd.provision-host-pool
 title: Provision a Windows Virtual Desktop host pool 
 metadata:
   title: Provision a Windows Virtual Desktop host pool
-  description: Review the preparation needed for Windows Virtaul Desktop.
+  description: Review the preparation needed for Windows Virtual Desktop.
   ms.date: 08/16/2019
   author: lizap
   ms.author: elizapo
