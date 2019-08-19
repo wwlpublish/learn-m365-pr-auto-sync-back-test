@@ -3,8 +3,8 @@ uid: learn-m365.deploy-wvd.summary-and-knowledge-check
 title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
-  description: Review what you learned about Windows Virtual Desktop.
-  ms.date: 08/06/2019
+  description: Review what you learned about how to deploy Windows Virtual Desktop.
+  ms.date: 08/16/2019
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
@@ -16,18 +16,18 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "When creating a Windows Virtual Desktop host pool, which of the following is NOT an option for defining the desktop type?"
+    - content: "When you create a Windows Virtual Desktop host pool, you have to specify which type of desktop you want to use. Which of the following is NOT one of the desktop types?"
       choices:
       - content: "Local desktop"
         isCorrect: true
         explanation: "Correct, Windows Virtual Desktop delivers remote desktop and remote app experiences. It is the opposite of a local desktop."
       - content: "Personal desktop"
         isCorrect: false
-        explanation: "Incorrect. A personal desktop is an option in WVD. This is where each user has their own personal virtual machine. This is useful if the VM needs to be dedicated to one user and that user is a local admin."        
+        explanation: "Incorrect. A personal desktop is one of the available desktop types. This is where each user has their own personal virtual machine. This is useful if the VM needs to be dedicated to one user and that user is a local admin."        
       - content: "Pooled desktop"
         isCorrect: false
-        explanation: "Incorrect. A pooled desktop is an option in WVD. Pooled desktops allow multiple user accounts to log into the same virtual machine. Pooled desktops in general are more efficient and less expensive in multi-user environments."
-    - content: "The Windows 10 Enterprise multi-session client operating system image is exclusive to Windows Virtual Desktop. On-premises deployments would require using a Windows Server operating system for multiple concurrent user logins."
+        explanation: "Incorrect. A pooled desktop is one of the available desktop types. Pooled desktops allow multiple user accounts to log into the same virtual machine. Pooled desktops in general are more efficient and less expensive in multi-user environments."
+    - content: "The Windows 10 Enterprise multi-session client operating system image is exclusive to Windows Virtual Desktop. On-premises deployments have to use Windows Server for multiple concurrent users."
       choices:
       - content: "True"
         isCorrect: true
@@ -35,11 +35,11 @@ quiz:
       - content: "False"
         isCorrect: false
         explanation: "Incorrect. Windows 10 Enterprise multi-session can only be used with Windows Virtual Desktop in Microsoft Azure."
-    - content: "Users can be assigned both remote apps and a remote desktop from the same host pool in the same app group using Windows Virtual Desktop."
+    - content: "You can assign users both apps and a remote desktop from the same host pool in the same app group using Windows Virtual Desktop."
       choices:
       - content: "True"
         isCorrect: false
-        explanation: "Incorrect. A host pool can have one app group assigned per user. App groups can either be one or several remote apps or one remote desktop."
+        explanation: "Incorrect. A host pool can have one app group assigned per user. App groups can have one or more apps or one remote desktop."
       - content: "False"
         isCorrect: true
-        explanation: "Correct. A host pool can have one app group assigned per user. App groups can either be one or several remote apps or one remote desktop."
+        explanation: "Correct. A host pool can have one app group assigned per user. App groups can have one or more apps or one remote desktop."

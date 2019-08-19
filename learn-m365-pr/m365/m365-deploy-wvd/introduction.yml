@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.deploy-wvd.introduction
-title: Introduction to deploying Windows Virtual Desktop
+title: Review the deployment steps for Windows Virtual Desktop
 metadata:
-  title: Introduction to deploying Windows Virtual Desktop
-  description: Review the steps needed to deploy Windows Virtaul Desktop.
-  ms.date: 08/06/2019
+  title: Review the deployment steps for Windows Virtual Desktop
+  description: Review the steps needed to deploy Windows Virtual Desktop.
+  ms.date: 08/16/2019
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial

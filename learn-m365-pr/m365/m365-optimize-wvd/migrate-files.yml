@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.optimize-wvd.migrate-files
-title: Migrating files from local file shares into Azure storage using Azure File Sync 
+title: Migrate files from local file shares into Azure storage using Azure File Sync 
 metadata:
-  title: Migrating files from local file shares into Azure storage using Azure File Sync
+  title: Migrate files from local file shares into Azure storage using Azure File Sync
   description: Learn how to migrate files in Windows Virtual Desktop.
-  ms.date: 08/06/2019
+  ms.date: 08/16/2019
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial

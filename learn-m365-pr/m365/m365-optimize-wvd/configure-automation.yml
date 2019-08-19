@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.optimize-wvd.configure-automation
-title: Configuring depth and breadth scaling automation for WVD host pools 
+title: Automate depth and breadth scaling for Windows Virtual Desktop host pools 
 metadata:
-  title: Configuring depth and breadth scaling automation for WVD host pools
-  description: Learn how to configure depth and breadth scaling automation for WVD host pools.
-  ms.date: 08/06/2019
+  title: Automate depth and breadth scaling for Windows Virtual Desktop host pools
+  description: Learn how to configure automatic depth and breadth scaling for Windows Virtual Desktop host pools.
+  ms.date: 08/16/2019
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial

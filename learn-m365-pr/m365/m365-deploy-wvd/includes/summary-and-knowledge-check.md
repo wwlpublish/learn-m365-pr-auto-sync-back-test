@@ -1,1 +1,1 @@
-In this module you learned how to deploy Windows Virtual Desktop in your environment.
+In this module, you learned how to deploy Windows Virtual Desktop in your environment. We reviewed the options to provision a Windows Virtual Desktop host pool and how to use app groups to share apps with your users. 

@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.prepare-for-wvd.provision-aad-roles
-title: Provision an Azure tenant and set up Azure Active Directory 
+title: Provision the required administrator roles in Azure AD 
 metadata:
-  title: Provision an Azure tenant and set up Azure Active Directory 
-  description: Learn how to provision an Azure tenant and set up Azure Active Directory to support Windows Virtual Desktop. 
-  ms.date: 08/06/2019
+  title: Provision the required administrator roles in Azure AD 
+  description: Learn about the different Azure AD administrator roles needed in Windows Virtual Desktop. 
+  ms.date: 08/16/2019
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
