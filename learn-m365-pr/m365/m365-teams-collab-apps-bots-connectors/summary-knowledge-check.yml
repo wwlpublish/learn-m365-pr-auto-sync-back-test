@@ -1,0 +1,54 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-teams-collab-apps-bots-connectors.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Discover how apps, bots, and connectors increase the power of Microsoft Teams. Learn how to manage apps, bots, and connectors as you plan your organization’s Teams rollout.  
+  ms.date: 08/16/2019
+  author: AlexandraHrt
+  ms.author: aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Which statement is true about Microsoft Teams apps?"
+      choices:
+      - content: "Microsoft Teams apps are Microsoft applications such as Office and OneNote."
+        isCorrect: false
+        explanation: "Microsoft Teams apps provide out-of-the-box tools for your organization to get more out of Teams. But they are not specific to Teams."
+      - content: "Microsoft Teams apps are special apps created specifically for Teams."
+        isCorrect: false
+        explanation: "Microsoft Teams apps provide out-of-the-box tools for your organization to get more out of Teams. But they are not specific to Teams."
+      - content: "Microsoft Teams apps provide out-of-the-box tools for your organization to get more out of Teams."
+        isCorrect: true
+        explanation: "Microsoft Teams apps provide out-of-the-box tools for your organization to get more out of Teams."
+
+    - content: "Who can build apps, bots, and connectors?"
+      choices:
+      - content: "Apps, bots, and connectors can be built by Microsoft, a third party, or your own developers."
+        isCorrect: true
+        explanation: "Apps, bots, and connectors can be built by Microsoft, a third party, or your own developers."
+      - content: "Apps, bots, and connectors must be built by Microsoft."
+        isCorrect: false
+        explanation: "Apps, bots, and connectors can be built by Microsoft, a third party, or your own developers."
+      - content: "Apps, bots, and connectors must be built by a third party."
+        isCorrect: false
+        explanation: "Apps, bots, and connectors can be built by Microsoft, a third party, or your own developers."
+      
+    - content: "An app package includes:"
+      choices:
+      - content: "Microsoft apps"
+        isCorrect: false
+        explanation: "An app package includes bots, messaging extensions, tabs, and connectors."
+      - content: "Bots, messaging extensions, tabs, and connectors."
+        isCorrect: true
+        explanation: "An app package includes bots, messaging extensions, tabs, and connectors."
+      - content: "Windows 10 and Office 365 ProPlus"
+        isCorrect: false
+        explanation: "An app package includes bots, messaging extensions, tabs, and connectors."
+      
