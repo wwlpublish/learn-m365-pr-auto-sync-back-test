@@ -20,7 +20,7 @@ abstract: |
   - Manage messaging policies.
 
 prerequisites: None
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/manage-microsoft-teams.svg
 ratingEnabled: true
 levels:
 - beginner
