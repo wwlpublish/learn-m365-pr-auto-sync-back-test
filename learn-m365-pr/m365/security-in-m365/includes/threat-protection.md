@@ -28,7 +28,11 @@ Through security reports and user profile analytics, Azure ATP helps reduce your
 Azure Security Center provides unified security management and advanced threat protection across hybrid cloud workloads. Get a unified view of security across your on-premises and cloud workloads, automatically discover and onboard new Azure resources, and apply security policies to ensure compliance with security standards. You can collect, search, and analyze security data from a variety of sources, including firewalls and partner solutions.
 
 ## Microsoft Cloud App Security
-Microsoft Cloud App Security gives you visibility into your cloud apps and services, provides analytics to identify and combat cyberthreats, and enables you to control how your data travels. The cloud app security framework includes:
+Microsoft Cloud App Security gives you visibility into your cloud apps and services, provides analytics to identify and combat cyberthreats, and enables you to control how your data travels. The cloud app security framework helps you:
+- Discover and control the use of Shadow IT
+- Protect your sensitive information anywhere in the cloud
+- Protect against cyberthreats and anomalies
+- Assess the compliance of your cloud apps 
 
 ## Microsoft Exchange Online Protection (EOP)
 Microsoft Exchange Online Protection (EOP) is a cloud-based email filtering service that helps protect against spam and malware and includes features to safeguard against messaging-policy violations. EOP can simplify the management of your messaging environment and alleviate many of the burdens that come with maintaining on-premises hardware and software.

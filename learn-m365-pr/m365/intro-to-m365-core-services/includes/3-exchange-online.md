@@ -1,4 +1,4 @@
-Exchange Online is a messaging and collaboration platform for your email, calendar, contact info, and tasks. You can access all of this with Microsoft Outlook, Outlook on the web, or Outlook Mobile. Exchange Online works from most mobile devices - including Android, iOS, and Windows 10 devices. 
+Exchange Online is a messaging and collaboration platform for your email, calendar, contact info, and tasks. You can access all of this with Microsoft Outlook, Outlook on the web, or Outlook Mobile. You can access Exchange Online on most devices, including Android, iOS, and Windows 10 devices. 
 
 Here are some features of Exchange Online:
 
