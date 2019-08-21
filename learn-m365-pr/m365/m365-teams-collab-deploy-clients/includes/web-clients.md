@@ -12,4 +12,4 @@ The Teams web app is updated weekly.
 
 When you're done with a link, use the **Back arrow** in your browser to come back to this page.
 
-- [Teams supported browsers](https://docs.microsoft.com/en-us/microsoftteams/limits-specifications-teams#browsers)
+- [Teams supported browsers](https://docs.microsoft.com/microsoftteams/limits-specifications-teams#browsers)
