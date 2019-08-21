@@ -16,7 +16,7 @@ abstract: |
   - Explain how to deploy and turn on Teams clients.
 
 prerequisites: None
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/deploy-ms-teams-clients.svg
 ratingEnabled: true
 levels:
 - beginner
