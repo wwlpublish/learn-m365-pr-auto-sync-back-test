@@ -10,7 +10,7 @@ The **Microsoft 365 admin center** is where you create user accounts and assign 
 >
 > <a href="https://mslearn.cloudguides.com/guides/Get%20to%20know%20the%20Microsoft%20365%20admin%20center">![Tour the Microsoft 365 admin portal](../media/lab-admin-image.png)</a>  
 >
->Be sure to click the full-screen option in the video player, to make it easier to see all of the great Microsoft Teams features. When you're done, use the **Back** arrow in your browser to come back to this page. 
+>Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
 
 You can manage expired licenses in the admin center. If you don't renew a license or are past due paying for the latest billing cycle, the user with the expired license won't be able to use all of their Microsoft 365 products. You either need to renew the license or assign them a different, active license. 
 
