@@ -8,5 +8,7 @@ You can create a bot that integrates into your business applications, using the 
 
 ## Learn more:
 
+When you're done with a link, use the **Back arrow** in your browser to come back to this page.
+
 - [Add bots for personal chats, group chats, and channels in Microsoft Teams](https://docs.microsoft.com/microsoftteams/add-bots)
 - [Creating and testing a bot for Microsoft Teams](https://go.microsoft.com/fwlink/?linkid=854371)
