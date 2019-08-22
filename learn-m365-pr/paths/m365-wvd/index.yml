@@ -2,7 +2,7 @@
 uid: learn-m365.windows-virtual-desktop
 metadata:
   title: Deliver remote desktops and apps from Azure with Windows Virtual Desktop
-  description: Windows Virtual Desktop on Microsoft Azure is a fully managed desktop virtualization solution. Windows Virtual Desktop works across devices – including Windows, Mac, iOS and Android – with full-featured apps that you can use to access remote desktops and remote apps.
+  description: Windows Virtual Desktop on Microsoft Azure is a desktop and app virtualization service that runs on the cloud. Windows Virtual Desktop works across devices – including Windows, Mac, iOS and Android – with full-featured apps that you can use to access remote desktops and apps.
   ms.date: 08/18/2019
   author: lizap
   ms.author: elizapo
@@ -10,7 +10,7 @@ metadata:
   ms.prod: learning-m365
   ROBOTS: NOINDEX
 title: Deliver remote desktops and apps from Azure with Windows Virtual Desktop
-summary: Windows Virtual Desktop on Microsoft Azure is a fully managed desktop virtualization solution. Windows Virtual Desktop works across devices – including Windows, Mac, iOS and Android – with full-featured apps that you can use to access remote desktops and remote apps.
+summary: Windows Virtual Desktop on Microsoft Azure is a desktop and app virtualization service that runs on the cloud. Windows Virtual Desktop works across devices – including Windows, Mac, iOS and Android – with full-featured apps that you can use to access remote desktops and apps.
 prerequisites: | 
  - None
 iconUrl: /learn/achievements/m365-fundamentals.svg

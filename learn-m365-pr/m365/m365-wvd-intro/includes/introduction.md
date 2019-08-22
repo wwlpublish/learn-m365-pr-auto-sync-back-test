@@ -1,6 +1,6 @@
-(Add first video here)
+Windows Virtual Desktop on Microsoft Azure is a desktop and app virtualization service that runs on the cloud. Windows Virtual Desktop works across devices – including Windows, Mac, iOS, and Android – with apps that you can use to access remote desktops and apps. You can also use most modern browsers to access Windows Virtual Desktop-hosted experiences. 
 
-Microsoft’s **Windows Virtual Desktop** on Microsoft Azure is a fully managed desktop virtualization solution. Windows Virtual Desktop works across devices – including Windows, Mac, iOS, and Android – with full-featured apps that you can use to access remote desktops and apps. You can also use most modern browsers to access Windows Virtual Desktop-hosted experiences. 
+<iframe src="https://www.youtube.com/embed/NQFtI3JLtaU" width="640" height="320" allowFullScreen="true" frameBorder="0"></iframe>
 
 Compared to traditional Remote Desktop Services (RDS) or virtual desktop infrastructure (VDI) environments, Windows Virtual Desktop is easier to deploy and manage. You no longer need to provision and manage component services and servers like the gateway, connection broker, diagnostics, load balancing, and licensing. Windows Virtual Desktop lets you use Windows 10 Enterprise multi-session, the only Windows client-based operating system that enables multiple concurrent users on a single virtual machine (VM). Windows Virtual Desktop also provides a more consistent experience with broader application support compared to Windows Server-based operating systems. 
 
