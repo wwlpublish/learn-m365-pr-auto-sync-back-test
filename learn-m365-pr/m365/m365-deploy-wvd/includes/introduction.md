@@ -1,6 +1,6 @@
 In this module, we’ll walk through how to deploy your first Windows Virtual Desktop host pool and virtual machines.  
 
-> [!VIDEO !https://www.youtube.com/embed/Xhu7CltjS8w]
+> [!VIDEO https://www.youtube.com/embed/Xhu7CltjS8w]
 
 As we go through the Azure Resource Manager template used to provision Windows Virtual Desktop host pools, we’ll review your options for:  
 - Creating pooled or personal virtual machines 
