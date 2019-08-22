@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="118px" viewBox="0 0 100 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Deliver remote desktops and apps from Azure with Windows Virtual Desktop/deliver-remote-desktops-and-apps-from-azure-with-windows-virtual-desktop</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M42.7425,1.49663266 C44.3745,0.498877554 46.1865,0 48,0 C49.8135,0 51.627,0.498877554 53.256,1.49663266 L90.591,24.3316189 C93.933,26.3773408 96,30.2031485 96,34.3529027 L96,79.6470973 C96,83.7952317 93.933,87.6242789 90.591,89.6683811 L53.256,112.504987 C51.627,113.501122 49.8135,114 48,114 C46.1865,114 44.3745,113.501122 42.7425,112.504987 L5.409,89.6683811 C2.0655,87.6242789 0,83.7952317 0,79.6470973 L0,34.3529027 C0,30.2031485 2.0655,26.3773408 5.409,24.3316189 L42.7425,1.49663266 Z" id="path-1"></path>
+        <filter x="-6.5%" y="-7.5%" width="112.9%" height="115.1%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0964956975 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M0,10 C0,15.51375 4.4859375,20 10,20 C15.5140625,20 20,15.51375 20,10 C20,4.4859375 15.5140625,0 10,0 C4.4859375,0 0,4.4859375 0,10 Z" id="path-4"></path>
+        <filter x="-5.0%" y="-5.0%" width="110.0%" height="120.0%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Badges" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Deliver-remote-desktops-and-apps-from-Azure-with-Windows-Virtual-Desktop" transform="translate(-50.000000, -50.000000)">
+            <g id="Deliver-remote-desktops-and-apps-from-Azure-with-Windows-Virtual-Desktop/deliver-remote-desktops-and-apps-from-azure-with-windows-virtual-desktop" transform="translate(50.000000, 50.000000)">
+                <g id="Mask" transform="translate(2.000000, 2.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Trophy-1" fill="#55A2FF" xlink:href="#path-1"></use>
+                    <g id="Monitor" filter="url(#filter-3)" mask="url(#mask-2)">
+                        <g transform="translate(16.000000, 33.000000)">
+                            <path d="M0.510638298,34 L0.510638298,39.4 C0.510638298,41.38 2.2262633,43 4.3231383,43 L57.6981383,43 C59.7950133,43 61.5106383,41.38 61.5106383,39.4 L61.5106383,34 L0.510638298,34" id="Fill-1285" fill="#E1E4E1"></path>
+                            <path d="M4.3231383,0 C2.2262633,0 0.510638298,1.7 0.510638298,3.77777778 L0.510638298,34 L61.5106383,34 L61.5106383,3.77777778 C61.5106383,1.7 59.7950133,0 57.6981383,0 L4.3231383,0 Z M57.6981383,1.88888889 C58.7494352,1.88888889 59.6043883,2.73605556 59.6043883,3.77777778 L59.6043883,32.1111111 L2.4168883,32.1111111 L2.4168883,3.77777778 C2.4168883,2.73605556 3.27184142,1.88888889 4.3231383,1.88888889 L57.6981383,1.88888889 L57.6981383,1.88888889 Z" id="Fill-1287" fill="#182A37"></path>
+                            <path d="M2.40513198,3.78730455 C2.40513198,2.7187733 3.25728198,1.84980455 4.30513198,1.84980455 L57.770765,1.84980455 C58.818615,1.84980455 59.670765,2.7187733 59.670765,3.78730455 L59.670765,33 L2.40513198,33 L2.40513198,3.9375" id="Fill-1288" fill="#30404D"></path>
+                            <path d="M3.90547484,2 L30,2 L20.6841335,33 L2,33 L2,3.9375 C2,2.86896875 2.85460546,2 3.90547484,2" id="Fill-1289" fill="#384B58"></path>
+                            <polyline id="Fill-1291" fill="#E1E4E1" points="39.5106383 52 24.5106383 52 26.3856383 43 37.6356383 43 39.5106383 52"></polyline>
+                            <path d="M37.5722513,43 L26.3749888,43 L25.9436977,45 L29.8187034,45 C30.8896622,45 31.7570904,45.895 31.7570904,47 L31.7570904,52 L39.5106383,52 L37.5722513,43 Z" id="Fill-1292" fill="#CDD6D8"></path>
+                            <path d="M44.5106383,52 C44.5106383,52.55 44.0418883,53 43.4689716,53 L20.552305,53 C19.9793883,53 19.5106383,52.55 19.5106383,52 C19.5106383,51.45 19.9793883,51 20.552305,51 L43.4689716,51 C44.0418883,51 44.5106383,51.45 44.5106383,52" id="Fill-1293" fill="#E1E4E1"></path>
+                            <path d="M20.552305,53 L43.4689716,53 C44.0418883,53 44.5106383,52.55 44.5106383,52 L19.5106383,52 C19.5106383,52.55 19.9793883,53 20.552305,53" id="Fill-1294" fill="#CDD6D8"></path>
+                        </g>
+                    </g>
+                    <g id="Azure-logo" mask="url(#mask-2)">
+                        <g transform="translate(65.000000, 64.000000)" id="Azure-Cirlce">
+                            <g>
+                                <path d="M-1.5,10 C-1.5,3.65751038 3.65751038,-1.5 10,-1.5 C16.3424896,-1.5 21.5,3.65751038 21.5,10 C21.5,16.3422777 16.342389,21.5 10,21.5 C3.65761099,21.5 -1.5,16.3422777 -1.5,10 Z" id="Path" stroke="#55A2FF" stroke-width="3"></path>
+                                <g id="Path">
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                                    <use fill="#F7CB64" fill-rule="evenodd" xlink:href="#path-4"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Azure-black" mask="url(#mask-2)" fill="#FFFFFF">
+                        <g transform="translate(34.333333, 41.000000)" id="Path">
+                            <polygon points="6.66666667 18.998156 25.6666667 19 15.4336776 2 12.3170312 10.2077232 18.3021466 17.032433"></polygon>
+                            <polygon points="14.6666667 0 7.12408483 6.13669797 0.666666667 16.9826864 6.49123801 16.9826864 6.49123801 17"></polygon>
+                        </g>
+                    </g>
+                    <g id="Group-2" mask="url(#mask-2)" stroke="#FFFFFF">
+                        <g transform="translate(68.000000, 67.000000)">
+                            <circle id="Oval" cx="7" cy="7" r="7"></circle>
+                            <polyline id="Path-229" points="4 11 7 8.5 4 6"></polyline>
+                            <polyline id="Path-229-Copy" transform="translate(8.500000, 5.500000) rotate(-180.000000) translate(-8.500000, -5.500000) " points="7 8 10 5.5 7 3"></polyline>
+                        </g>
+                    </g>
+                </g>
+                <g id="Azure-Hex-Border" stroke="#0078D4" stroke-width="4">
+                    <path d="M45.5618501,3.25844398 L45.5621963,3.25823359 L6.67338401,26.8942953 C3.79673288,28.6432593 2,31.9508238 2,35.5582677 L2,82.4417323 C2,86.0486597 3.79764663,89.3586805 6.67318764,91.1055853 L45.560618,114.742485 C46.9289662,115.572418 48.4546283,116 50,116 C51.5458817,116 53.0723633,115.572188 54.4362178,114.743457 L93.3268764,91.1055464 C96.2016145,89.3583456 98,86.0476286 98,82.4417323 L98,35.5582677 C98,31.9518547 96.202529,28.6435953 93.3268966,26.8944659 L54.4351916,3.25759524 C53.0721095,2.42798656 51.5462432,2 50,2 C48.4542664,2 46.9292165,2.42775755 45.5618501,3.25844398 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

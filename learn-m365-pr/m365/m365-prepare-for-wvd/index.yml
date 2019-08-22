@@ -17,7 +17,7 @@ abstract: |
   - Provision the required administrator roles in Azure AD 
   - Set up the Windows Virtual Desktop tenant 
 prerequisites: None
-iconUrl: /learn/achievements/get-modern-os-deployment-and-feature-updates.svg
+iconUrl: /learn/achievements/prepare-for-windows-virtual-desktop.svg
 ratingEnabled: true
 levels:
 - intermediate

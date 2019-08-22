@@ -15,7 +15,7 @@ abstract: |
   - Know your options and how to provision a Windows Virtual Desktop host pool 
   - Make RemoteApps available to users with app groups  
 prerequisites: None
-iconUrl: /learn/achievements/get-modern-os-deployment-and-feature-updates.svg
+iconUrl: /learn/achievements/deploy-windows-virtual-desktop.svg
 ratingEnabled: true
 levels:
 - intermediate

@@ -17,7 +17,7 @@ abstract: |
   - Migrate files from local file shares into Azure storage using Azure File Sync 
   - Configure depth and breadth scaling automation for Windows Virtual Desktop host pools   
 prerequisites: None
-iconUrl: /learn/achievements/get-modern-os-deployment-and-feature-updates.svg
+iconUrl: /learn/achievements/optimize-windows-virtual-desktop.svg
 ratingEnabled: true
 levels:
 - intermediate
