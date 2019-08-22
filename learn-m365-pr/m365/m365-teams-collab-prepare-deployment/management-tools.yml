@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.m365-teams-collab-prepare-deployment.management-tools
-title: Understand management tools
+title: Understand Teams management tools
 metadata:
-  title: Understand management tools
+  title: Understand Teams management tools
   description: Learn about the Microsoft Teams user experience, requirements, and important considerations for deploying Teams as part of a Microsoft 365 installation. 
-  ms.date: 08/05/2019
+  ms.date: 08/22/2019
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
