@@ -12,6 +12,6 @@ It’s also easy to develop custom connectors that can integrate with your busin
 
 ## Learn more:
 
-When you're done with a link, use the **Back arrow** in your browser to come back to this page.
+When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
 - [Use Office 365 and custom connectors in Microsoft Teams](https://docs.microsoft.com/microsoftteams/office-365-custom-connectors)
