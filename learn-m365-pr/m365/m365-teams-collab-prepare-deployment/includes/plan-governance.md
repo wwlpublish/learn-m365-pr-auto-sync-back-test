@@ -4,7 +4,7 @@ Microsoft Teams offers a rich set of tools to implement your organization’s go
 
 ## Group and team creation, naming, classification, and guest access
 
-YYour organization might require that you implement strict controls on how teams are named and classified, whether guests can be added as team members, and who can create teams. Consider the following decision points and steps when planning governance.
+Your organization might require that you implement strict controls on how teams are named and classified, whether guests can be added as team members, and who can create teams. Consider the following decision points and steps when planning governance.
 
 ### Decision points
  
