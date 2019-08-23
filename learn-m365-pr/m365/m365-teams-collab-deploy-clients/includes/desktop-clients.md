@@ -23,7 +23,7 @@ Teams desktop client updates are released every two weeks after rigorous interna
 
 ## Learn more:
 
-When you're done with a link, use the **Back arrow** in your browser to come back to this page.
+When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
 - [Hardware requirements for the Teams desktop app](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app)
 - [Get clients for Microsoft Teams: Mac](https://docs.microsoft.com/microsoftteams/get-clients#mac)

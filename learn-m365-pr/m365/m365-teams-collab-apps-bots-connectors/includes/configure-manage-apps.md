@@ -29,7 +29,7 @@ In addition to the built-in tabs, you can design and develop your own tabs to in
 
 ## Learn more:
 
-When you're done with a link, use the **Back arrow** in your browser to come back to this page.
+When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
 - [Admin settings for apps in Microsoft Teams](https://docs.microsoft.com/microsoftteams/admin-settings)
 - [Use built-in and custom tabs in Microsoft Teams](https://docs.microsoft.com/microsoftteams/built-in-custom-tabs)

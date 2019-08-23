@@ -1,4 +1,4 @@
-Microsoft Teams offers a rich set of tools to implement your organization’s governance requirements. Administrators can control messaging, meetings, calling, live-event features, and more using messaging policies. Teams is backed up by the advanced security and compliance capabilities of Office 365 and supports auditing and reporting, compliance content search, e-discovery, legal hold, and retention policies. Different policies can be applied to all users by default or per user as you need.
+Microsoft Teams offers a rich set of tools to implement your organization’s governance requirements. Administrators can control messaging, meeting, calling, live-event features, and more for their organization using messaging policies. Teams is backed up by the advanced security and compliance capabilities of Office 365 and supports auditing and reporting, compliance content search, e-discovery, Legal Hold, and retention policies. Different policies can be applied to all users by default or per user as required by your organization.
 
 ![Governance plan](../media/governance.png)
 
@@ -21,7 +21,7 @@ Your organization might require that you implement strict controls on how teams 
 
 ## Group and team expiration, retention, and archiving
 
-Your organization might have additional requirements for setting policies for expiration, retention, and archiving teams and Teams data (channel messages and channel files). You can easily configure group expiration policies to automatically manage the lifecycle of the group, and retention policies to preserve or delete information as needed. You can also archive teams to preserve a point-in-time view of a team that’s no longer active.
+Your organization might have additional requirements for setting policies for expiration, retention, and archiving teams and Teams data (channel messages and channel files). You can easily configure group expiration policies to automatically manage the lifecycle of the group, and retention policies to preserve or delete information as needed. You can also archive teams to preserve a point-in-time view of a team that’s no longer active. 
 
 ### Decision points
 
@@ -50,3 +50,8 @@ Teams also gives organizations the ability to control what features your users c
 - Plan to implement your specific requirements as part of your Teams rollout.
 - Communicate and publish your policies to inform Teams users of the behavior they can expect.
 
+## Learn more:
+
+When you're done with a link, use the **Back** arrow in your browser to come back to this page.
+
+- [Plan for governance in Teams](https://docs.microsoft.com/MicrosoftTeams/plan-teams-governance)
