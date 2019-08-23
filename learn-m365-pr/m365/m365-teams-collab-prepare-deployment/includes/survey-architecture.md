@@ -48,4 +48,4 @@ For the full Teams experience, every user should be enabled for Exchange Online,
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Microsoft Teams IT architecture and telephony solutions](https://docs.microsoft.com/en-us/microsoftteams/teams-architecture-solutions-posters)
+- [Microsoft Teams IT architecture and telephony solutions](https://docs.microsoft.com/microsoftteams/teams-architecture-solutions-posters)

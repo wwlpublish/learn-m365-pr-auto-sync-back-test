@@ -54,4 +54,4 @@ Teams also gives organizations the ability to control what features your users c
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Plan for governance in Teams](https://docs.microsoft.com/en-us/MicrosoftTeams/plan-teams-governance)
+- [Plan for governance in Teams](https://docs.microsoft.com/MicrosoftTeams/plan-teams-governance)

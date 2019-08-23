@@ -28,4 +28,4 @@ Teams saves your whole chat history, all the way back to the first message you s
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Welcome to Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/teams-overview)
+- [Welcome to Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-overview)

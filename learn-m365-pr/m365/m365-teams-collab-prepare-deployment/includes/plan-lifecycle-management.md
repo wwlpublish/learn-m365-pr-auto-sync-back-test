@@ -55,4 +55,4 @@ This diagram visualizes a team lifecycle using PowerShell and Graph API automati
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Plan for lifecycle management in Teams](https://docs.microsoft.com/en-us/microsoftteams/plan-teams-lifecycle)
+- [Plan for lifecycle management in Teams](https://docs.microsoft.com/microsoftteams/plan-teams-lifecycle)
