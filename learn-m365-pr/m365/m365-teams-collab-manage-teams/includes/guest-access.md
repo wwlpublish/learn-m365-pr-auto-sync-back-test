@@ -31,7 +31,7 @@ You can use the Teams admin center to add guests at the tenant level, set, and m
 
 Team owners can invite new guests and add existing directory guest users to their teams. Team owners can also set channel-related capabilities for guests, including allowing guests to create, update, and delete channels.
 
-![Teams admin center guest access](../media/teams-admin-center-guest-access)
+![Teams admin center guest access](../media/teams-admin-center-guest-access.png)
 
 ### Microsoft 365 admin center
 
