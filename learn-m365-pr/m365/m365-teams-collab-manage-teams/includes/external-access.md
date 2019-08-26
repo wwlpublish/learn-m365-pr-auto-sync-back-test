@@ -20,4 +20,4 @@ You can easily set up external access for your organization by using the Teams A
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Manage external access in Microsoft Teams](https://docs.microsoft.com/en-us/MicrosoftTeams/manage-external-access)
+- [Manage external access in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/manage-external-access)

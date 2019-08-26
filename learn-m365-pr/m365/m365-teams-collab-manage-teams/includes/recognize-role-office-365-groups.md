@@ -2,7 +2,7 @@ When you create a team in Microsoft Teams, on the back end, you’re creating an
 
 If the creator of a team is an owner of an existing Office 365 Public or Private Group, they can add Teams functionality to the group if it has fewer than 5,000 people and has never been added to Teams. This creates one default General channel in which chat messages, documents, OneNote, and other objects reside.
 
-![Interconnections of Teams and Office 365 Groups](../media/o365-groups-new-group.png)
+![Interconnections of Teams and Office 365 Groups](../media/office-365-groups-new-group.png)
 
 Members of Office 365 Groups fall into three roles:
 
@@ -12,7 +12,7 @@ Members of Office 365 Groups fall into three roles:
 
 You can add or remove team members and perform other team-management tasks within the Teams client itself, or outside Teams by using the Microsoft 365 admin center, Microsoft Azure Active Directory (AD), or the Microsoft Exchange Online PowerShell.
 
-![Manage Teams administrator view](../media/o365-groups-manage-admin.png)
+![Manage Teams administrator view](../media/office-365-groups-manage-admin.png)
 
 ## Learn more:
 

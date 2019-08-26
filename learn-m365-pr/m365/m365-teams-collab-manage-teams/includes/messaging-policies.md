@@ -27,4 +27,4 @@ You can change the global messaging policy or create a new custom policy. For ex
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Manage messaging policies in Teams](https://docs.microsoft.com/en-us/MicrosoftTeams/messaging-policies-in-teams)
+- [Manage messaging policies in Teams](https://docs.microsoft.com/MicrosoftTeams/messaging-policies-in-teams)

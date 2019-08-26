@@ -41,5 +41,5 @@ Administrators can use the Microsoft 365 admin center to control guest access to
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [What the guest experience is like](https://docs.microsoft.com/en-us/MicrosoftTeams/guest-experience)
+- [What the guest experience is like](https://docs.microsoft.com/MicrosoftTeams/guest-experience)
 - [Authorize guest access in Microsoft Teams, including SharePoint Online and OneDrive for Business](https://docs.microsoft.com/MicrosoftTeams/teams-dependencies)

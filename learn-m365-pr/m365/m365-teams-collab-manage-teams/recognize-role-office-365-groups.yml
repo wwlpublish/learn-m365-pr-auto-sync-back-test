@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.m365-teams-collab-manage-teams.recognize-role-o365-groups
+uid: learn-m365.m365-teams-collab-manage-teams.recognize-role-office-365-groups
 title: Recognize the role of Office 365 Groups
 metadata:
   title: Recognize the role of Office 365 Groups
@@ -12,4 +12,4 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 4
 content: |
-  [!include[](includes/recognize-role-o365-groups.md)]
+  [!include[](includes/recognize-role-office-365-groups.md)]

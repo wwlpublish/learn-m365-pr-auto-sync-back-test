@@ -15,4 +15,4 @@ You can create a dynamic group by using the Azure AD admin center. To do this, y
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Overview of dynamic membership for teams](https://docs.microsoft.com/en-us/MicrosoftTeams/dynamic-memberships)
+- [Overview of dynamic membership for teams](https://docs.microsoft.com/MicrosoftTeams/dynamic-memberships)
