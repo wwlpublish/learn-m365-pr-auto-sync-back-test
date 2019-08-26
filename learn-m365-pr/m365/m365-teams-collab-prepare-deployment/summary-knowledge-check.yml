@@ -28,17 +28,17 @@ quiz:
         isCorrect: false
         explanation: "Chat is just one of many Teams features that can be used within a project-specific channel."
 
-    - content: "What are the three primary user roles within a Microsoft Office 365 group?"
+    - content: "What are the three primary user roles within a Microsoft Office 365 Group?"
       choices:
       - content: "Owner, member, guest"
         isCorrect: true
-        explanation: "In an Office 365 group, owners and members belong to the organization, while guests are participants from outside the organization who’ve been granted access."
+        explanation: "In an Office 365 Group, owners and members belong to the organization, while guests are participants from outside the organization who’ve been granted access."
       - content: "Administrator, member, guest"
         isCorrect: false
-        explanation: "Each Office 365 group has members and at least one owner and can include approved guests from outside the organization. Administrator is not a formally established role."
+        explanation: "Each Office 365 Group has members and at least one owner and can include approved guests from outside the organization. Administrator is not a formally established role."
       - content: "Owner, member, group facilitator"
         isCorrect: false
-        explanation: "Each Office 365 group has members and at least one owner and can include approved guests from outside the organization. Facilitator is not a formally established role."
+        explanation: "Each Office 365 Group has members and at least one owner and can include approved guests from outside the organization. Facilitator is not a formally established role."
       
     - content: "Which management tool can administrators use to access data across Microsoft 365?"
       choices:

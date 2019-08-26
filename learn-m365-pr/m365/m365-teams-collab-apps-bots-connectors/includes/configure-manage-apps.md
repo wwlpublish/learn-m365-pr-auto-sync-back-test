@@ -27,6 +27,8 @@ Tabs allow team members to access services and content in a dedicated space with
 
 In addition to the built-in tabs, you can design and develop your own tabs to integrate into Teams or share with the rest of the community. You can control access to your custom tabs by configuring the appropriate Office 365 Groups.
 
+The Microsoft Developer Network provides sample tabs developed by Microsoft that you can download, and detailed instructions for designing and building your own tabs.
+
 ## Learn more:
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.

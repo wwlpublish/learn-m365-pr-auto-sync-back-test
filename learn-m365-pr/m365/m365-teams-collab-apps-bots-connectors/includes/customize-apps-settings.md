@@ -4,9 +4,11 @@ Teams provides a great out-of-the-box collaboration experience for your organiza
 - **Apps permissions**. Apps are consented to by users and managed by the admin or IT pro through policies. However, for the most part, an app's permissions and risk profile are defined in the app itself.
 - **App templates**. These production-ready apps for Microsoft Teams are community driven, open-source, and available on GitHub. Each contains detailed instructions for deploying and installing it.
 
+![Customize app permission policies](../media/customize-app-settings.png)
+
 Activity reports let you see how people in your organization are using Teams. If some aren't using Teams yet, they might not know how to get started or understand how they can use Teams to be more productive and collaborative.
 
-**Learn more:**
+## Learn more:
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 

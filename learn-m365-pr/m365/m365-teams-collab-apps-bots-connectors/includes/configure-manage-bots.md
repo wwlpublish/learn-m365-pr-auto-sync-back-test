@@ -6,6 +6,10 @@ Bots developed by the community can be used within Teams. The bot's functionalit
 
 You can create a bot that integrates into your business applications, using the **Microsoft Bot Framework.** You should require your users to sign in before using the bot, which makes sure only employees can access it, even if its application ID becomes known.
 
+Here's an example of some options when you create or configure a bot:
+
+![Options to set up a bot](../media/bot-options.png)
+
 ## Learn more:
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.

@@ -1,40 +1,30 @@
-Messaging policies are used to control which chat and channel messaging features are available to users in Microsoft Teams. You can use the default policy that is created automatically, or create one or more custom messaging policies for people in your organization. After you create a policy, you can assign it to a user or group of users.
+Messaging policies are used to control which chat and channel messaging features are available to users in Microsoft Teams. You can use the default policy that is created automatically or create one or more custom messaging policies for people in your organization. After you create a policy, you can assign it to a user or group of users.
+
+By default, an org-wide policy named **Global** is created. All users in your organization are automatically assigned this messaging policy. You can either make changes to the policy or create one or more custom policies and assign users to them.
+
+When you create a custom policy, you can make certain features available or prevent others from being available. You can then assign the policy to one or more users.
 
 ## Change or create a messaging policy for one or many users
 
-You can manage messaging policies in the Teams admin center by signing in with administrator credentials and choosing **Messaging policies** in the left navigation pane.
+You can easily manage messaging policies in the Teams admin center by signing in with administrator credentials.  For example, you could create a new custom policy named **Retain sent messages** and turn off the following settings:
 
-- To edit the existing default messaging policy for your organization, you would select the default policy called **Global,** and then make your changes.
-- To create a new custom messaging policy, you would:
+- Owners can delete sent messages.
+- Users can delete sent messages.
+- Users can edit sent messages.
 
-1. Select **New policy.**
-1. Give the new policy a name.
-1. Turn on or off relevant settings.
-1. Assign your policy to users.
-1. Save the new policy.
+You could then assign the policy to the users.
 
 > [!NOTE]
 > You can't delete a policy if users are assigned to it. You must first assign a different policy to all affected users before deleting the original policy.
 
 ## Messaging policy settings
 
-The following settings can be turned on or off, or configured, for the global messaging policy or a new custom policy.
-
-- If owners can delete sent messages.
-- If users can delete sent messages.
-- If users can edit sent messages.
-- How read receipts are controlled, by the user or on/off for everyone.
-- If chat can be used.
-- If giphys are used in conversations.
-- How giphy content rating can be configured.
-- If memes are used in conversations.
-- If stickers are used in conversations.
-- If URL previews are allowed.
-- If users can translate messages.
-- If immersive reader is allowed for viewing messages.
-- If users can send priority notifications.
-- Whether voice message creation is allowed.
-- On mobile devices, whether favorite channels are displayed above recent chats.
-- If a user is allowed to remove users from a group chat.
+You can change the global messaging policy or create a new custom policy. For example, you can change settings to edit and delete sent messages or allow users to remove other users from a group chat.
 
 ![Messaging policy settings](../media/messaging-policy-settings.png)
+
+## Learn more:
+
+When you're done with a link, use the **Back** arrow in your browser to come back to this page.
+
+- [Manage messaging policies in Teams](https://docs.microsoft.com/en-us/MicrosoftTeams/messaging-policies-in-teams)
