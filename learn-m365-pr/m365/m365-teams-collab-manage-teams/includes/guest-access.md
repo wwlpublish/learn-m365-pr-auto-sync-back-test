@@ -1,57 +1,45 @@
-You can grant guest access to teams and channels within your Microsoft Teams organization in order to collaborate with people outside your organization. Anyone with an Azure Active Directory (Azure AD) account or a consumer email account such as Outlook or Gmail can participate as a guest in Teams with full access to team chats, meetings, and files.
+Guest access allows teams in your organization to collaborate with people outside your organization by granting them access to existing teams and channels on one or more of your tenants.
 
-Note that guest access differs from external access. Guest access applies to an individual, while external access applies to an entire domain. Administrators can choose either approaches or both, depending on their organizational needs, but we recommend enabling guest access for a fuller, collaborative Teams experience.
+A guest is someone who isn't an employee, student, or member of your organization; for example, partners, vendors, suppliers, or consultants. Anyone who isn't part of your organization can be added as a guest in Teams. This means that anyone with a business account (that is, an Azure AD account) or a consumer email account (with Outlook.com, Gmail.com, or others) can participate as a guest in Teams, with full access to teams and channel experiences.  All guests in Teams are covered by the same compliance and auditing protection as the rest of Office 365 and can be managed securely within Azure AD.
 
-Guest access, once granted by a team owner, allows a guest to access resources, such as channel discussions and files, for a specific team, and chat with other users in the team they have been invited to. With external access (federated chat), the external chat participants have no access to the inviting organization’s teams or team resources. They can only participate in one-on-one federated chat. Tenant administrators can choose between the two communication options depending on which level of collaboration is desirable with the external party.
+Guest access is a tenant-level setting in Teams that is turned off by default. When guest access is turned on, everyone in your organization can add guest users to an Office 365 Group. The guests will have access to all Office 365 Group features. Guest access is included with many Office 365 subscriptions with no additional licensing requirement. Guest access is subject to Azure AD and Office 365 service limits.
 
-Guest access is a tenant-level setting in Teams that is turned off by default. When guest access is turned on, everyone in your organization can add guest users to an Office 365 Group. The guests will have access to all Office 365 Group features. Guest access is included with many Office 365 subscriptions with no additional licensing requirement. Be aware that guest access is subject to Azure AD and Office 365 service limits.
+Guest access differs from external access:
 
-## Who is a guest?
+- **Guest access** applies to an individual.
+- **External access** applies to an entire domain.
 
-A guest is someone who isn't an employee, student, or member of your organization; for example, partners, vendors, suppliers, or consultants. Anyone with a business account (Azure AD) or consumer email account (Outlook, Gmail, or others) can participate as a guest in Teams, with full access to teams and channel experiences.  All guests in Teams are covered by the same compliance and auditing protection as the rest of Office 365 and can be managed securely within Azure AD.
+External access is discussed in the unit **Manage external access** in this module.
 
-## Guest authorization levels
+## Manage guest access
 
-You can manage Teams guest access features and capabilities through four different levels of authorization. All the authorization levels apply to your Office 365 tenant. Each authorization level controls the guest experience as follows:
+You can manage Teams guest access features and capabilities through four different levels of authorization:  Azure Active Directory (Azure AD), Microsoft Teams, Office 365 Groups, and SharePoint Online and OneDrive for Business. All the authorization levels apply to your Office 365 tenant.
 
-- **Azure Active Directory.** Guest access in Microsoft Teams relies on the Azure AD business-to-business (B2B) platform. This authorization level controls the guest experience at the directory, tenant, and application level.
-- **Microsoft Teams.** Controls the guest experience in Microsoft Teams only.
-- **Office 365 Groups.** Controls the guest experience in Office 365 Groups and Microsoft Teams.
-- **SharePoint Online and OneDrive for Business.** Controls the guest experience in SharePoint Online, OneDrive for Business, Office 365 Groups, and Microsoft Teams.
+Administrators can manage guest access by using the Microsoft Teams admin center, Azure AD, or the Microsoft 365 admin center.
 
-These different authorization levels give you flexibility in how you set up guest access for your organization. For example, if you don’t want to allow guest users in Teams but want to allow it overall in your organization, just turn off guest access in Teams.
+The different authorization levels provided by these tools give you flexibility in how you set up guest access for your organization. For example, if you don’t want to allow guest users in Teams but want to allow it overall in your organization, just turn off guest access in Teams.
 
-## Manage guest access in the Teams admin center
+### Azure AD
 
-Administrators can add guests at the tenant level, set and manage guest user policies and permissions, and pull reports on guest user activity by using the Teams admin center. Guest user content and activities are under the same compliance and auditing protection as the rest of Office 365.
+Administrators can also use Azure AD to determine whether external collaborators can be invited into your tenant as guests, and in what ways.
 
-Team owners can invite new guests and add existing directory guest users to their teams. Team owners can identify guest users via **Teams > Manage teams**, and set channel-related capabilities for guests via **Org-wide settings > Guest access**, including allowing guests to create, update, and delete channels, as shown in the following illustration.
+In Azure AD, the settings for invitations apply at the tenant level and control the guest experience at the directory, tenant, and application levels. Administrators can configure settings to limit guest user permissions and grant members and guests the ability to invite additional guests.
+
+### Microsoft Teams admin center
+
+You can use the Teams admin center to add guests at the tenant level, set, and manage guest user policies and permissions, and pull reports on guest user activity. Guest user content and activities are under the same compliance and auditing protection as the rest of Office 365.
+
+Team owners can invite new guests and add existing directory guest users to their teams. Team owners can also set channel-related capabilities for guests, including allowing guests to create, update, and delete channels.
 
 ![Teams admin center guest access](../media/teams-admin-center-guest-access.png)
 
-## Manage guest access in Azure AD
+### Microsoft 365 admin center
 
-Administrators can use Azure AD to determine whether external collaborators can be invited into your tenant as guests, and in what ways. The settings for invitations apply at the tenant level and control the guest experience at the directory, tenant, and application levels.
+Administrators can use the Microsoft 365 admin center to control guest access to Office 365 Groups for their whole organization or for individual Office 365 Groups. They can also control who can allow guests to be added to groups. Among other management tasks, administrators can use the Microsoft 365 admin center to manage, log, monitor, and remove guest users.
 
-Azure AD includes the following settings to configure external users:
+## Learn more:
 
-- Guest user permissions are limited (Yes/No).
-- Administrators and users in the guest inviter role can invite (Yes/No).
-- Members can invite (Yes/No).
-- Guests can invite (Yes/No).
+When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-## Manage guest access in the Microsoft 365 admin center
-
-Administrators can control whether to allow guest access to Office 365 Groups for their whole organization or for individual Office 365 groups. They can also control who can allow guests to be added to groups.
-
-You can use the Microsoft 365 admin center to perform the following management tasks:
-
-- View guest users.
-- Add existing guests to an Office 365 Group.
-- Turn on or off guest access to group files and OneNote.
-- Turn on or off the Sharing option.
-- Manage who can add guest users.
-- Log and monitor guest access users.
-- Remove guest access.
-
-![Microsoft 365 admin center guest access](../media/o365-admin-center-guest-access.png)
+- [What the guest experience is like](https://docs.microsoft.com/MicrosoftTeams/guest-experience)
+- [Authorize guest access in Microsoft Teams, including SharePoint Online and OneDrive for Business](https://docs.microsoft.com/MicrosoftTeams/teams-dependencies)

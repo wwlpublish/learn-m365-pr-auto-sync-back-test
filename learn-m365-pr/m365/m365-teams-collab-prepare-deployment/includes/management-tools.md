@@ -40,7 +40,7 @@ The Office 365 Security & Compliance Center is designed to help you manage compl
 
 ## PowerShell
 
-PowerShell is a shell and scripting language that helps system administrators and power users rapidly automate management tasks from a command line. Administrators can use PowerShell to manage settings, configuration, and policy in Teams. However, with PowerShell you have a limited ability to manage actual teams.
+PowerShell is a shell and scripting language that helps system administrators and power users rapidly automate management tasks from a command line. Administrators can use PowerShell to manage settings, configuration, and policy in Teams.
 
 The PowerShell controls for managing Teams are found in two different PowerShell modules: the Microsoft Teams PowerShell module, and the Skype for Business PowerShell module. The Teams PowerShell module contains all the cmdlets you need to create and manage teams. The Skype for Business PowerShell module contains the cmdlets to manage policies, configurations, and other Teams tools.
 
