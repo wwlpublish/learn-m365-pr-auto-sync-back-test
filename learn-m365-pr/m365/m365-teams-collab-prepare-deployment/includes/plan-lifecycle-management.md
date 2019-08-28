@@ -16,7 +16,7 @@ Broadly speaking, the lifecycle of a Teams team encompasses both configurationâ€
 
 The Teams lifecycle is configured by the team owner. Lifecycle configuration differs from Teams configuration because the latter is concerned with global settings and user-specific configurations that rarely change once theyâ€™ve been defined.
 
-Proactive administrator activities include initiating creation of teams (including owners, members, channels and so on), and sunsetting of teams as required by the business. Reactive administrator activities include changing team settings on behalf of the owner and adding team owners for *orphaned* teams. 
+Proactive administrator activities include initiating creation of teams (including owners, members, channels and so on), and sunsetting of teams as required by the business. Reactive administrator activities include changing team settings on behalf of the owner and adding team owners for orphaned teams.
 
 ## Teams lifecycle stages
 

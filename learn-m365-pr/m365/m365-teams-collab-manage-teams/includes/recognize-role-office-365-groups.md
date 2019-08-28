@@ -10,7 +10,7 @@ Members of Office 365 Groups fall into three roles:
 - **Members** are regular users who collaborate within a group.
 - **Guests** are participants from outside your organization who’ve been granted access to the group by an administrator.
 
-You can add or remove team members and perform other team-management tasks within the Teams client itself, or outside Teams by using the Microsoft 365 admin center, Microsoft Azure Active Directory (AD), or the Microsoft Exchange Online PowerShell.
+You can add or remove team members and perform other team-management tasks within the Teams client itself, or outside Teams by using the Microsoft 365 admin center, Microsoft Azure Active Directory (Azure AD), or the Microsoft Exchange Online PowerShell.
 
 ![Manage Teams administrator view](../media/office-365-groups-manage-admin.png)
 

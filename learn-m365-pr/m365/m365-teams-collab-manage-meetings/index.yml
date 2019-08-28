@@ -3,7 +3,7 @@ uid: learn-m365.m365-teams-collab-manage-meetings
 metadata:
   title: Manage meetings, conferences, and events with Teams 
   description: Learn how to plan and manage Microsoft Teams meetings and conferences. Discover how audio conferencing and live events work in Teams.
-  ms.date: 08/16/2019
+  ms.date: 08/26/2019
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
@@ -12,12 +12,12 @@ title: Manage meetings, conferences, and events with Teams
 summary: Learn how to plan and manage Microsoft Teams meetings and conferences. Discover how audio conferencing and live events work in Teams.  
 abstract: |
   At the end of this module, you should be able to:
-  - Plan for meeting and conferencing deployment
-  - Manage meeting policies and settings
-  - Manage meeting recordings
-  - Plan for audio conferencing
-  - Plan for live events
-  - Monitor call quality
+  - Plan for meeting and conferencing deployment.
+  - Manage meeting policies and settings.
+  - Manage meeting recordings.
+  - Plan for audio conferencing.
+  - Plan for live events.
+  - Monitor call quality.
 
 prerequisites: None
 iconUrl: /learn/achievements/manage-meetings-conferences-and-events-in-ms-teams.svg
