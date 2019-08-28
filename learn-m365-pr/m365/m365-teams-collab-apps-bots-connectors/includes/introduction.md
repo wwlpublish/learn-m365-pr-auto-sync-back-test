@@ -2,10 +2,10 @@ Microsoft Teams apps provide out-of-the-box tools for your organization to get m
 
 Apps are a way to aggregate one or more capabilities into an *app package* that can be installed, upgraded, and uninstalled. The capabilities include:
 
-- Bots.
-- Messaging extensions.
-- Tabs.
-- Connectors.
+- Bots
+- Messaging extensions
+- Tabs
+- Connectors
 
 Apps let you find content from your favorite services and share it right in Teams. They help you do things such as pin services at the top of a channel, chat with bots, or share and assign tasks. We recommend that you include our featured apps—such as Planner—in your initial Teams rollout. Add other apps, bots, and connectors as you drive Teams adoption.
 

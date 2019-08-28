@@ -27,7 +27,7 @@ In Azure AD, the settings for invitations apply at the tenant level and control 
 
 ### Microsoft Teams admin center
 
-You can use the Teams admin center to add guests at the tenant level, set, and manage guest user policies and permissions, and pull reports on guest user activity. Guest user content and activities are under the same compliance and auditing protection as the rest of Office 365.
+You can use the Teams admin center to add guests at the tenant level, set and manage guest user policies and permissions, and pull reports on guest user activity. Guest user content and activities are under the same compliance and auditing protection as the rest of Office 365.
 
 Team owners can invite new guests and add existing directory guest users to their teams. Team owners can also set channel-related capabilities for guests, including allowing guests to create, update, and delete channels.
 

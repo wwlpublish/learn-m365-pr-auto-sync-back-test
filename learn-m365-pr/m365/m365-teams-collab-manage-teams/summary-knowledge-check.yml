@@ -28,18 +28,6 @@ quiz:
         isCorrect: false 
         explanation: Moderators perform a function within Microsoft Teams but are not a defined user type. 
 
-    - content: Which of the following describes dynamic membership? 
-      choices: 
-      - content: Dynamic groups can contain both users and devices.
-        isCorrect: false 
-        explanation: Dynamic groups cannot contain devices. 
-      - content: Dynamic groups are created by using the Microsoft 365 admin center.
-        isCorrect: false 
-        explanation: Dynamic groups are created by using the Azure AD admin center. 
-      - content: Users are automatically added to or removed from teams as user attributes change.
-        isCorrect: true 
-        explanation: Users are automatically added to or removed from the correct teams as user attributes change or as users join and leave the tenant. 
- 
     - content: How many users can belong to an organization-wide Microsoft Teams team? 
       choices: 
       - content: 5,000 

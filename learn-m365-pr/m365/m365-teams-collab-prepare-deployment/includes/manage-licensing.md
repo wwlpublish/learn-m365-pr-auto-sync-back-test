@@ -19,7 +19,7 @@ All supported subscription plans are eligible for access to the Teams web client
 
 Teams user-level licenses are managed directly through the Microsoft 365 admin center user-management interface. An administrator can assign licenses to new users when new user accounts are created, or to existing users. The administrator must have Office 365 Global Administrator or User Management Administrator privileges to manage Microsoft Teams licenses.
 
-When a license SKU is assigned to a user, a Microsoft Teams license is automatically assigned, and the user is enabled for Microsoft Teams. Administrators can have a granular control over all the Office 365 services and licenses, and the Microsoft Teams license for a specific user or a group of users can be enabled or disabled. 
+When a license SKU is assigned to a user, a Microsoft Teams license is automatically assigned, and the user is enabled for Microsoft Teams. Administrators can have granular control over all the Office 365 services and licenses, and the Microsoft Teams license for a specific user or a group of users can be enabled or disabled.
 
 ## Learn more:
 

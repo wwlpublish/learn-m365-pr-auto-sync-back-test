@@ -4,7 +4,7 @@ Users can be either owners or members of a team.
 
 A team owner is the person who creates the team:
 
-- A team owner is the person who creates the team. Team owners can make any member of their team a co-owner when they invite them to the team or at any point after they’ve joined the team. Having multiple team owners lets you share the responsibilities of managing settings and membership, including invitations.
+- Team owners can make any member of their team a co-owner when they invite them to the team or at any point after they’ve joined the team. Having multiple team owners lets you share the responsibilities of managing settings and membership, including invitations.
 - Team members are the people who the owners invite to join their team.
 
 The table shows the differences in permissions between an owner and a member. (Certain restrictions apply in some cases.)
@@ -33,7 +33,7 @@ Moderator capabilities are assigned at the channel level. Team owners have moder
 
 ## Assigning user and administrative roles
 
-If a user in your Microsoft Teams organization needs permission to manage Azure Active Directory (AD) resources, you need to assign the user an appropriate role in Azure AD, based on the actions the user needs permission to perform.  You assign Azure AD roles to a user, including administrative roles, by signing into the Azure portal using a Global Administrator account for the directory.
+If a user in your Microsoft Teams organization needs permission to manage Azure Active Directory (Azure AD) resources, you need to assign the user an appropriate role in Azure AD, based on the actions the user needs permission to perform.  You assign Azure AD roles to a user, including administrative roles, by signing into the Azure portal using a Global Administrator account for the directory.
 
 ## Learn more:
 
