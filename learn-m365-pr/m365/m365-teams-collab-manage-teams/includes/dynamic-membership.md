@@ -11,7 +11,7 @@ Since a team’s members update automatically based on specific criteria instead
 
 You can create a dynamic group by using the Azure AD admin center. To do this, you must have an account that is in the Global Administrator, Intune Administrator, or User Administrator role in the tenant.
 
-## Learn more:
+## Learn more
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 

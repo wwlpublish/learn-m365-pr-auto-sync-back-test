@@ -24,7 +24,7 @@ You start one-on-one and group chats the same way: by selecting **New chat** at 
 
 Teams saves your whole chat history, all the way back to the first message you sent—this is known as *persistent* chat. If someone leaves your organization, that person’s chat responses will remain in your chat history.
  
-## Learn more:
+## Learn more
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 

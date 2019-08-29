@@ -34,7 +34,6 @@ When you select an existing policy on the **Meeting policies** page or select **
 ### General settings
 
 - Allow Meet now in channels
-- Allow private Meet now (coming soon)
 - Allow the Outlook add-in
 - Allow channel meeting scheduling
 - Allow scheduling private meetings
@@ -45,7 +44,6 @@ When you select an existing policy on the **Meeting policies** page or select **
 - Allow cloud recording
 - Allow IP video
 - Media bit rate (KBs)
-- Enable live captions (coming soon)
 
 ### Content sharing
 
@@ -55,7 +53,6 @@ When you select an existing policy on the **Meeting policies** page or select **
 - Allow PowerPoint sharing
 - Allow whiteboard
 - Allow shared notes
-- Allow chat in meetings (coming soon)
 
 ### Participants and guests
 
@@ -64,7 +61,7 @@ When you select an existing policy on the **Meeting policies** page or select **
 - Allow dial-in users to bypass the lobby
 - Allow organizers to override lobby settings
 
-## Learn more:
+## Learn more
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 

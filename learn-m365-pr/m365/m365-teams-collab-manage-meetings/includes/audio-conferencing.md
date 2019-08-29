@@ -22,11 +22,11 @@ Before you can set up Audio Conferencing for Teams, consider the following quest
 
 - Is Audio Conferencing available for my country/region?
   
-  To see if your area is covered, see [Learn more](#learn-more) below.
+  To see if your area is covered, see the link below under **Learn more.**
 
 - Do my users have the proper licensing for Teams Audio Conferencing?
 
-  Audio Conferencing licenses are available as part of an Office 365 E5 subscription or as an add-on service for an Office 365 Business Premium, E1 or E3 subscription.
+  Audio Conferencing licenses are available as part of an Office 365 E5 subscription or as an add-on service for an Office 365 Business Premium, E1, or E3 subscription.
 
 - Do I need to purchase Communications Credits for the users who are assigned Audio Conferencing licenses?
 
@@ -53,11 +53,9 @@ In addition to the core deployment decisions, it’s important to also consider 
 |---|---|
 | Outbound calling restriction policies |As an administrator, you can use outbound call controls to restrict the type of Audio Conferencing and end-user PSTN calls that are made by users in your organization. |
 | Dial plans | A dial plan, as part of Phone System in Office 365, is a set of normalization rules that translate dialed phone numbers into an alternate format (typically E.164 format) for call authorization and call routing. |
-| Monitor and troubleshoot meeting and call quality | Teams gives you two ways to monitor and troubleshoot call quality problems: |
-|  | **Call Analytics** shows detailed information about the devices, networks, and connectivity related to the specific calls and meetings for each user, and is designed to help administrators and Help desk agents troubleshoot call-quality problems with specific calls. |
-|  | **Call Quality Dashboard** helps administrators and network engineers optimize a network by shifting focus from specific users and instead looks at aggregate information for an entire Teams organization. |
+| Monitor and troubleshoot meeting and call quality | Teams gives you two ways to monitor and troubleshoot call quality problems:  **Call Analytics** and **Call Quality Dashboard.** Both tools are described in the unit **Monitor call quality.**|
 
-## Learn more:
+## Learn more
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 

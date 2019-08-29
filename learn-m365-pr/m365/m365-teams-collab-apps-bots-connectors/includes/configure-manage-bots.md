@@ -10,7 +10,7 @@ Here's an example of some options when you create or configure a bot:
 
 ![Options to set up a bot](../media/bot-options.png)
 
-## Learn more:
+## Learn more
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 

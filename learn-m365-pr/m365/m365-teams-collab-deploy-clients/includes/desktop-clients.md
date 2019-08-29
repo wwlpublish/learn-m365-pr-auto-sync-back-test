@@ -21,7 +21,7 @@ The desktop client updates itself automatically, but users can also manually dow
 
 Teams desktop client updates are released every two weeks after rigorous internal testing and validation. If a critical update is required, Teams will bypass this schedule and release the update as soon as it’s available.
 
-## Learn more:
+## Learn more
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 

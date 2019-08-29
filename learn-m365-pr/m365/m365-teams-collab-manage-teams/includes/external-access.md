@@ -16,7 +16,7 @@ You can easily set up external access for your organization by using the Teams A
 - **Scenario 2.** You can add a domain or domains to the **Allow** list. It's important to know that if you do this it will **Block** all other domains.
 - **Scenario 3.** You can add a domain or domains to the **Block** list. Be aware that if you do this it will **Allow** all other domains.
 
-## Learn more:
+## Learn more
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 

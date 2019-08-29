@@ -44,7 +44,7 @@ Use activity reports to see how users in your organization are using Teams so yo
 - Low usage means that users aren’t using the product. Reasons can range from the perception that meetings are falling short of user requirements, to a lack of awareness or training, to quality problems.
 - Low quality means that there are issues with connectivity between users and Office 365. Low quality can lead to bad user experience and lower usage.
 
-## Learn more:
+## Learn more
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 

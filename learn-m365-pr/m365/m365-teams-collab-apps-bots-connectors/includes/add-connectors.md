@@ -12,7 +12,7 @@ Office 365 connectors can be used with both Microsoft Teams and Office 365 Group
 
 It’s also easy to develop custom connectors that can integrate with your business applications.
 
-## Learn more:
+## Learn more
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 

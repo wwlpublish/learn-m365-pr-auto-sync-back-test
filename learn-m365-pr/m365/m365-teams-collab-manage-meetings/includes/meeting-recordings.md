@@ -12,7 +12,7 @@ For a Teams user’s meetings to be recorded, Microsoft Stream must be enabled. 
 
 Meeting recordings are considered tenant-owned content. If the owner of the recording leaves the company, the administrator can access and delete the recording, update any recording metadata, or change permissions for the recording video.
 
-## Learn more:
+## Learn more
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 

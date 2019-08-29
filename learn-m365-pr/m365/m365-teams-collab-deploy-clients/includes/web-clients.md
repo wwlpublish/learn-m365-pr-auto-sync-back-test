@@ -8,7 +8,7 @@ The web client performs browser version detection upon connecting to Teams. If a
 
 The Teams web app is updated weekly.
 
-## Learn more:
+## Learn more
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 

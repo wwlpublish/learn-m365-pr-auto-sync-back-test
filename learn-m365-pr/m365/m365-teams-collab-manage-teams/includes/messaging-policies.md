@@ -23,7 +23,7 @@ You can change the global messaging policy or create a new custom policy. For ex
 
 ![Messaging policy settings](../media/messaging-policy-settings.png)
 
-## Learn more:
+## Learn more
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 

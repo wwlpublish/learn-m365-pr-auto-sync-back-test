@@ -50,7 +50,7 @@ Teams also gives organizations the ability to control what features your users c
 - Plan to implement your specific requirements as part of your Teams rollout.
 - Communicate and publish your policies to inform Teams users of the behavior they can expect.
 
-## Learn more:
+## Learn more
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 

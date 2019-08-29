@@ -37,7 +37,7 @@ Team owners can invite new guests and add existing directory guest users to thei
 
 Administrators can use the Microsoft 365 admin center to control guest access to Office 365 Groups for their whole organization or for individual Office 365 Groups. They can also control who can allow guests to be added to groups. Among other management tasks, administrators can use the Microsoft 365 admin center to manage, log, monitor, and remove guest users.
 
-## Learn more:
+## Learn more
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
