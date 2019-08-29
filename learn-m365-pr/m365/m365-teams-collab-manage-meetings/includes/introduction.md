@@ -20,8 +20,8 @@ For instances where meetings involve non-team members, users can schedule a priv
 
 Teams meetings are accessible from multiple clients, including desktop and mobile clients and Microsoft Teams rooms. In addition, by using audio conferencing, participants can attend meetings from regular phones.
 
-## Learn more:
+## Learn more
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Meeting clients](https://docs.microsoft.com/en-us/MicrosoftTeams/tutorial-meetings-in-teams?tutorial-step=3)
+- [Meeting clients](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams?tutorial-step=3)

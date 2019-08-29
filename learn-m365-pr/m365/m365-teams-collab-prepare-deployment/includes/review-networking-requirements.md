@@ -49,7 +49,7 @@ Microsoft Teams gives you the best audio, video, and content-sharing experience 
 
 With variable codecs, media can be negotiated in limited-bandwidth environments with minimal impact. But where bandwidth is not a concern, your users’ experiences can be optimized for quality, including up to 1080p video resolution, up to 30fps for video and 15fps for content, and high-fidelity audio.
 
-## Learn more:
+## Learn more
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 

@@ -54,7 +54,7 @@ Microsoft Graph is the gateway to data and intelligence in Microsoft 365. Graph 
 
 In Graph, Teams is represented by a group resource, since Teams and Office 365 Groups both work together to facilitate group collaboration. Most of the same group-based features apply to Microsoft Teams and Office 365 groups, the main difference being the way members communicate with each other. Team members communicate by persistent chat in the context of a specific team. Office 365 Group members communicate by group conversations, which are email conversations that occur in the context of a group in Outlook. Microsoft Graph is a very powerful tool for managing actual teams.
 
-## Learn more:
+## Learn more
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 

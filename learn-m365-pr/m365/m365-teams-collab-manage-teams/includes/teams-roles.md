@@ -35,7 +35,7 @@ Moderator capabilities are assigned at the channel level. Team owners have moder
 
 If a user in your Microsoft Teams organization needs permission to manage Azure Active Directory (Azure AD) resources, you need to assign the user an appropriate role in Azure AD, based on the actions the user needs permission to perform.  You assign Azure AD roles to a user, including administrative roles, by signing into the Azure portal using a Global Administrator account for the directory.
 
-## Learn more:
+## Learn more
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 

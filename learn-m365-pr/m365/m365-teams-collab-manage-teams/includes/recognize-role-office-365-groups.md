@@ -14,7 +14,7 @@ You can add or remove team members and perform other team-management tasks withi
 
 ![Manage Teams administrator view](../media/office-365-groups-manage-admin.png)
 
-## Learn more:
+## Learn more
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 

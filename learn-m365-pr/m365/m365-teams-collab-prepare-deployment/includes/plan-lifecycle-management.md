@@ -51,7 +51,7 @@ This diagram visualizes a team lifecycle using PowerShell and Graph API automati
 
 ![Lifecycle stages using PowerShell and Graph API automation tools](../media/lifecycle-automation-tools.png)
 
-## Learn more:
+## Learn more
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 

@@ -29,7 +29,7 @@ In addition to the built-in tabs, you can design and develop your own tabs to in
 
 The Microsoft Developer Network provides sample tabs developed by Microsoft that you can download, and detailed instructions for designing and building your own tabs.
 
-## Learn more:
+## Learn more
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 

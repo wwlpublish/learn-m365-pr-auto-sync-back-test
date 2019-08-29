@@ -9,7 +9,7 @@ You use meeting settings to:
 
 ![Meeting settings](../media/meeting-settings.png)
 
-## Learn more:
+## Learn more
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 

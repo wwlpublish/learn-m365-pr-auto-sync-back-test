@@ -28,7 +28,7 @@ To get the most benefit out of your org-wide team, team owners should follow the
 - Set up channel moderation so that moderators can control who can start a new post in a channel, add and remove moderators, control whether team members can reply to existing channel messages, and control whether bots and connectors can submit channel messages.
 - Remove accounts that might not belong. Make sure that you use Teams to remove users from your org-wide team. If you remove a user some other way, such as the Microsoft 365 admin center or from a group in Outlook, the user might be inadvertently added back to the org-wide team.
 
-## Learn more:
+## Learn more
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 

@@ -44,7 +44,7 @@ For the full Teams experience, every user should be enabled for Exchange Online,
 > [!IMPORTANT]
 > SharePoint Online is a prerequisite for using OneDrive for Business. Without SharePoint Online and/or OneDrive for Business, you can’t store and share files in channels, perform private file sharing, or access the team SharePoint site.
 
-## Learn more:
+## Learn more
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
