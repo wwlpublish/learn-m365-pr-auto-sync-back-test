@@ -3,7 +3,7 @@ uid: learn-m365.optimize-wvd
 metadata:
   title: Optimize Windows Virtual Desktop in Microsoft Azure
   description: Learn the steps to optimize Windows Virtual Desktop, including how to take advantage of new storage, file management, and automated scaling options.  
-  ms.date: 08/16/2019
+  ms.date: 09/03/2019
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial

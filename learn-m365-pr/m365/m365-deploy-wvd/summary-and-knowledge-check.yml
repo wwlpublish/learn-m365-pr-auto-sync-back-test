@@ -16,7 +16,7 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "When you create a Windows Virtual Desktop host pool, you have to specify which type of desktop you want to use. Which of the following is NOT one of the desktop types?"
+    - content: "When you create a Windows Virtual Desktop host pool, you must specify which type of desktop you want to use. Which of the following is NOT one of the desktop types?"
       choices:
       - content: "Local desktop"
         isCorrect: true
@@ -27,7 +27,7 @@ quiz:
       - content: "Pooled desktop"
         isCorrect: false
         explanation: "Incorrect. A pooled desktop is one of the available desktop types. Pooled desktops allow multiple user accounts to log into the same virtual machine. Pooled desktops in general are more efficient and less expensive in multi-user environments."
-    - content: "The Windows 10 Enterprise multi-session client operating system image is exclusive to Windows Virtual Desktop. On-premises deployments have to use Windows Server for multiple concurrent users."
+    - content: "The Windows 10 Enterprise multi-session client operating system image is exclusive to Windows Virtual Desktop. On-premises deployments must use Windows Server for multiple concurrent users."
       choices:
       - content: "True"
         isCorrect: true

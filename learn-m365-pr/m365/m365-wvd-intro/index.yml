@@ -3,7 +3,7 @@ uid: learn-m365.wvd-intro
 metadata:
   title: Introduction to Windows Virtual Desktop in Microsoft Azure
   description: Learn how to use Windows Virtual Desktop to deliver remote desktop and remote app experiences in Microsoft Azure.
-  ms.date: 08/14/2019
+  ms.date: 09/03/2019
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
@@ -13,7 +13,9 @@ summary: Learn about Windows Virtual Desktop.
 abstract: |
   At the end of this module, you should be able to:
   - Describe Windows Virtual Desktop and how it works 
-prerequisites: None
+prerequisites: 
+- Basic understanding of client management concepts and technologies, including Active Directory
+- Familiarity with Windows virtualization technologies, including Remote Desktop Services
 iconUrl: /learn/achievements/get-modern-os-deployment-and-feature-updates.svg
 ratingEnabled: true
 levels:

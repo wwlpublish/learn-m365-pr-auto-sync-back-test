@@ -13,3 +13,39 @@ metadata:
 durationInMinutes: 3
 content: |
   [!include[](includes/summary-and-knowledge-check.md)]
+quiz:
+   title: Check your knowledge
+   questions:
+   - content: "Windows Virtual Desktop uses port 3389 to connect to remote sessions."
+     choices:
+     - content: "True"
+       isCorrect: false
+       explanation: "Incorrect. Port 3389 is used by the Remote Desktop Protocol, not Windows Virtual Desktop, to connect to session hosts."
+     - content: "False"
+       isCorrect: true
+       explanation: "Correct. Port 3389 is used by the Remote Desktop Protocol, not Windows Virtual Desktop, to connect to session hosts."   
+   - content: "Which of the following scaling options is not available with Windows Virtual Desktop?"
+     choices:
+     - content: "Breadth"
+       isCorrect: false
+       explanation: "Incorrect. Windows Virtual Desktop uses breadth scaling to allocate users sequentially across the host pool for your workload."
+     - content: "Depth"
+       isCorrect: false
+       explanation: "Incorrect. Windows Virtual Desktop uses depth scaling to fully allocate users on one VM before moving to the next for your workload."
+     - content: "Hyper"
+       isCorrect: true
+       explanation: "Correct. Windows Virtual Desktop offers breadth mode and depth mode scaling options."
+   - content: "Which server role do you need to configure when you set up a Windows Virtual Desktop infrastructure?"
+     choices:
+     - content: "RDSH"
+       isCorrect: false
+       explanation: "Incorrect. Windows Virtual Desktop "
+     - content: "Licensing server"
+       isCorrect: false
+       explanation: "Incorrect. Windows Virtual Desktop"
+     - content: "Gateway"
+       isCorrect: false
+       explanation: "Incorrect. Windows Virtual Desktop"
+     - content: "None of the above"
+       isCorrect: true
+       explanation: "Correct. Windows Virtual Desktop"

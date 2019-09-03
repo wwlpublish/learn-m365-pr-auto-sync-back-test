@@ -2,14 +2,14 @@
 uid: learn-m365.prepare-for-wvd
 metadata:
   title: Prepare for Windows Virtual Desktop in Microsoft Azure
-  description: Learn how to prepare for Windows Virtual Desktop - a cloud-based virtualization solution running on Microsoft Azure. Windows Virtual Desktop is an elastically scalable service to deliver remote desktop and remote app experiences - without having to manage the underlying host infrastructure. Review the prerequisites and tools provided by Microsoft to help you get ready to provision your first Windows Virtual Desktop host pool.
-  ms.date: 08/16/2019
+  description: Learn how to prepare for Windows Virtual Desktop - a cloud-based virtualization solution running on Microsoft Azure. Windows Virtual Desktop is an elastically scalable service to deliver remote desktop and remote app experiences - without having to manage the underlying server infrastructure. Review the prerequisites and tools provided by Microsoft get ready to provision your first Windows Virtual Desktop host pool.
+  ms.date: 09/03/2019
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Prepare for Windows Virtual Desktop in Microsoft Azure
-summary: Learn how to prepare for Windows Virtual Desktop - a cloud-based virtualization solution running on Microsoft Azure. Windows Virtual Desktop is an elastically scalable service to deliver remote desktop and remote app experiences - without having to manage the underlying host infrastructure. Review the prerequisites and tools provided by Microsoft to help you get ready to provision your first Windows Virtual Desktop host pool.
+summary: Learn how to prepare for Windows Virtual Desktop - a cloud-based virtualization solution running on Microsoft Azure. Windows Virtual Desktop is an elastically scalable service to deliver remote desktop and remote app experiences - without having to manage the underlying server infrastructure. Review the prerequisites and tools provided by Microsoft to get ready to provision your first Windows Virtual Desktop host pool.
 abstract: |
   At the end of this module, you should be able to:
   - Provision an Azure tenant and set up Azure Active Directory (Azure AD) 
