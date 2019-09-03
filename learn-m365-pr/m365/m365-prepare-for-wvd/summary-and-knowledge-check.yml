@@ -52,7 +52,7 @@ quiz:
      - content: "Windows Virtual Desktop tenant admin"
        isCorrect: false  
        explanation: "No, you need a Windows Virtual Desktop tenant admin, also known as 'tenant creator,' to provision and maintain solution-specific settings." 
-   - content: "The PowerShell module used to manage Windows Virtual Desktop is called "Microsoft.WVDinfra.WVDPowershell"." 
+   - content: "The PowerShell module used to manage Windows Virtual Desktop is called 'Microsoft.WVDinfra.WVDPowershell'." 
      choices:
      - content: "True"
        isCorrect: false 

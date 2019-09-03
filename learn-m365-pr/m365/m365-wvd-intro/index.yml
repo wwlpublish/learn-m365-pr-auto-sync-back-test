@@ -13,9 +13,7 @@ summary: Learn about Windows Virtual Desktop.
 abstract: |
   At the end of this module, you should be able to:
   - Describe Windows Virtual Desktop and how it works 
-prerequisites: 
-- Basic understanding of client management concepts and technologies, including Active Directory
-- Familiarity with Windows virtualization technologies, including Remote Desktop Services
+prerequisites: None
 iconUrl: /learn/achievements/get-modern-os-deployment-and-feature-updates.svg
 ratingEnabled: true
 levels:
