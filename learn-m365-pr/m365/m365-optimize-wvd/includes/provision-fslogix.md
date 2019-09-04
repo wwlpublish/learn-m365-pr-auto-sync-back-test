@@ -33,4 +33,6 @@ Compared to classic roaming user profiles in Windows, separating the user profil
 
    Go back to your **Storage Account** in Azure, and navigate to the **File Share**. You’ll see the new virtual disk. 
 
+   >![Windows Virtual Desktop - new virtual disk in Azure](../media/wvd-files.png)
+
 The next time the user signs in, the VM will connect to their virtual disk. For the user, it will feel like any apps that use %localappdata% are using a locally stored profile.
