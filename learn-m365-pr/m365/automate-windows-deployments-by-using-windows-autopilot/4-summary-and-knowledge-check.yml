@@ -17,7 +17,7 @@ quiz:
   questions:
   - content: "Which of the following describes what Windows Autopilot can be used to do?"
     choices:
-    - content: "Reset, repurpose and recover devices."
+    - content: "Reset, repurpose, and recover devices."
       isCorrect: true
       explanation: "Correct!"
     - content: "Secure, reset, and recover devices."
@@ -33,14 +33,14 @@ quiz:
     choices:
     - content: "Resetting devices by removing personal files, apps and settings."
       isCorrect: false
-      explanation: "Incorect."
+      explanation: "Incorrect."
     - content: "Deploying shared devices such as kiosks with little or no user interaction."
       isCorrect: true
       explanation: "Correct!"
     - content: "For devices that don't require Microsoft Intune."
       isCorrect: false
       explanation: "Incorrect."
-    - content: "For end user device deployment where networks are not accessible."
+    - content: "For end-user device deployment where networks are not accessible."
       isCorrect: false
       explanation: "Incorrect."
   - content: "White glove deployments using Windows Autopilot are for which of the following scenarios?"
@@ -53,21 +53,21 @@ quiz:
       explanation: "Incorrect."
     - content: "Devices that must be cleaned after being received by the deploying IT group."
       isCorrect: false
-      explanation: "Incorrect.  This is not relevant for Windows Autopilot."
+      explanation: "Incorrect.  This scenario is not relevant for Windows Autopilot."
     - content: "Devices that will be fully set up by the Original Equipment Manufacturer (OEM)."
       isCorrect: true
       explanation: "Correct!"
-  - content: "Before deploying a device using Windows Autopilot which of the following must be done?"
+  - content: "Before deploying a device using Windows Autopilot, which of the following must be done?"
     choices:
     - content: "The device must be registered with the Windows Autopilot deployment service."
       isCorrect: true
       explanation: "Correct!"
     - content: "The device must be reset to factory specifications."
       isCorrect: false
-      explanation: "Incorret.  This is not necessary."
+      explanation: "Incorrect.  This step is not necessary."
     - content: "A valid active directory user must login to the device."
       isCorrect: false
-      explanation: "Incorret.  This is not necessary."
+      explanation: "Incorrect.  This step is not necessary."
     - content: "The device's hardware ID must be captured by the manufacturer."
       isCorrect: false
-      explanation: "Incorret.  This is not necessary."
+      explanation: "Incorrect.  This step is not necessary."
