@@ -1,0 +1,73 @@
+﻿### YamlMime:ModuleUnit
+uid: learn-m365-pr.introduction-to-modern-management-in-microsoft-365.3-summary-and-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Summarize module objectives and check knowledge
+  ms.date: 9/4/2019
+  author: dahans-msft2
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS:   NOINDEX 
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-summary-and-knowledge-check.md)] 
+quiz:
+  questions:
+  - content: "Modern management is similar to which of the following management concepts?"
+    choices:
+    - content: "How devices are physically delivered through the modern supply chain."
+      isCorrect: false
+      explanation: "Incorrect, this is not connected to Modern management."
+    - content: "How user accounts are managed with Azure Active Directory (AAD)."
+      isCorrect: false
+      explanation: "Incorrect, this is about managing users through a directory."
+    - content: "How mobile devices are managed by Enterprise Mobility Management (EMM)."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "How security is managed by Enterprise Mobility + Security (EMS)."
+      isCorrect: false
+      explanation: "Incorrect, this has to do with mobile device management and security."
+  - content: "Which of the following lists the key pillars of modern management?"
+    choices:
+    - content: "Easy to deploy, Intelligent security, rapid incident response"
+      isCorrect: false
+      explanation: "Incorrect.  Rapid response is not a key pillar."
+    - content: "Easy to deploy, proactive insights, closely managed"
+      isCorrect: false
+      explanation: "Incorrect.  Closely managed is not a key pillar."
+    - content: "Always up-to-date, Intelligent security, proactive insights"
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Always up-to-date, Intelligent security, rapid incident response"
+      isCorrect: false
+      explanation: "Incorrect.  Rapid response is not a key pillar."
+  - content: "Which of the following enables you to create self-contained provisioning packages?"
+    choices:
+    - content: "Windows Configuration Designer"
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Group Policy"
+      isCorrect: false
+      explanation: "Incorrect."
+    - content: "Microsoft Intune"
+      isCorrect: false
+      explanation: "Incorrect."
+    - content: "Microsoft Autopilot"
+      isCorrect: false
+      explanation: "Incorrect."
+  - content: "Which of the following enables you to avoid reimaging with cloud-based device management services?"
+    choices:
+    - content: "Microsoft Intune"
+      isCorrect: false
+      explanation: "Incorrect."
+    - content: "Windows Configuration Designer"
+      isCorrect: false
+      explanation: "Incorrect."
+    - content: "Microsoft Autopilot"
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "System Center Configuration Manager"
+      isCorrect: false
+      explanation: "Incorrect."

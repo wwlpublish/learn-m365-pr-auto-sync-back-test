@@ -1,0 +1,15 @@
+﻿### YamlMime:ModuleUnit
+uid: learn-m365-pr.introduction-to-modern-management-in-microsoft-365.2-benefits-of-modern-management
+title: Benefits of Modern Management
+metadata:
+  title: Benefits of Modern Management
+  description: Learn how modern management can benefit your organization
+  ms.date: 9/4/2019
+  author: dahans-msft2
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS:   NOINDEX 
+durationInMinutes: 12
+content: |
+  [!include[](includes/2-benefits-of-modern-management.md)] 
