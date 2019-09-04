@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-identity.m365-promote-security-mindset.increase-user-security-awareness
+title: Increase user security awareness
+metadata:
+  title: Increase user security awareness
+  description:  Learn how to increase user security awareness.
+  ms.date: 07/12/2019
+  author: Joel
+  ms.author: jolev
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+  [!include[](includes/increase-user-security-awareness.md)]
