@@ -37,7 +37,7 @@ quiz:
        explanation: "Correct, Windows Hello for Business is not a synchronization solution Azure Active Directory, in fact its value is largely based on PIN and biometric logins using asymmetrical public-private key pairs (PKI) rather than a shared secret, such as a password."   
      - content: "Active Directory Federation Services"
        isCorrect: False
-       explanation: "No, Active Directory Federation Services is a valid method. This option allows you to use more complex partner federation, RSA token and SmartCard authentication. However, with this option you’ll need to provision additional on-premises servers and ensure they are highly available."
+       explanation: "No, Active Directory Federation Services is a valid method. This option allows you to use more complex partner federation, RSA token, and SmartCard authentication. However, with this option you’ll need to provision additional on-premises servers and ensure they are highly available."
    - content: "When you provision and manage Windows Virtual Desktop, you need several administrator roles. Which of the following roles do you NOT need?" 
      choices:
      - content: "Azure subscription admin" 
