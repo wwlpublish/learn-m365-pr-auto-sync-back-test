@@ -33,30 +33,30 @@ quiz:
     choices:
     - content: "Management interface"
       isCorrect: false
-      explanation: "Incorrect, this is different."
+      explanation: "Incorrect, this attribute is different."
     - content: "Capabilities"
       isCorrect: false
-      explanation: "Incorrect, this is different."
+      explanation: "Incorrect, this attribute is different."
     - content: "Cost"
       isCorrect: false
-      explanation: "Incorrect, this is different."
+      explanation: "Incorrect, this attribute is different."
     - content: "Devices managed"
       isCorrect: true
       explanation: "Correct!"
-  - content: "Which of the following is not a valid method for enrolling Windows 10 devices into Microsoft Intune?"
+  - content: "Which of the following options is NOT a valid method for enrolling Windows 10 devices into Microsoft Intune?"
     choices:
     - content: "Add a non-AD joined account"
       isCorrect: true
       explanation: "Correct!"
     - content: "System Center Configuration Manager co-management"
       isCorrect: false
-      explanation: "Incorrect.  This is a valid method."
+      explanation: "Incorrect.  This option is a valid method."
     - content: "Enroll in MDM only"
       isCorrect: false
-      explanation: "Incorrect.  This is a valid method."
+      explanation: "Incorrect.  This option is a valid method."
     - content: "Azure AD join (autopilot self-deploying mode)"
       isCorrect: false
-      explanation: "Incorrect.  This is a valid method."
+      explanation: "Incorrect.  This option is a valid method."
     - content: "Azure AD join (bulk enrollment)"
       isCorrect: false
-      explanation: "Incorrect.  This is a valid method."
+      explanation: "Incorrect.  This option is a valid method."
