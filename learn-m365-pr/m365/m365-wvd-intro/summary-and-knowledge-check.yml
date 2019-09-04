@@ -39,13 +39,13 @@ quiz:
      choices:
      - content: "RDSH"
        isCorrect: false
-       explanation: "Incorrect. Windows Virtual Desktop "
+       explanation: "Incorrect. With Windows Virtual Desktop, the required server infrastructure is managed by Microsoft in Microsoft Azure. You don't need to configure any server roles."
      - content: "Licensing server"
        isCorrect: false
-       explanation: "Incorrect. Windows Virtual Desktop"
+       explanation: "Incorrect. With Windows Virtual Desktop, the required server infrastructure is managed by Microsoft in Microsoft Azure. You don't need to configure any server roles."
      - content: "Gateway"
        isCorrect: false
-       explanation: "Incorrect. Windows Virtual Desktop"
+       explanation: "Incorrect. With Windows Virtual Desktop, the required server infrastructure is managed by Microsoft in Microsoft Azure. You don't need to configure any server roles."
      - content: "None of the above"
        isCorrect: true
-       explanation: "Correct. Windows Virtual Desktop"
+       explanation: "Correct. With Windows Virtual Desktop, the required server infrastructure is managed by Microsoft in Microsoft Azure. You don't need to configure any server roles."
