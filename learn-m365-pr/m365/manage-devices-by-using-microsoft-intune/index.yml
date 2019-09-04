@@ -1,0 +1,30 @@
+﻿### YamlMime:Module
+uid: learn-m365-pr.manage-devices-by-using-microsoft-intune
+metadata:
+  title: Manage devices by using Microsoft Intune
+  description: This module will introduce you to the modern device management options for Windows 10 from Microsoft 365, including co-management, Mobile Device Management (MDM) for Office 365, and Microsoft Intune.
+  ms.date: 9/3/2019
+  author: dahans-msft2
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage devices by using Microsoft Intune
+summary: This module will introduce you to the modern device management options for Windows 10 from Microsoft 365, including co-management, Mobile Device Management (MDM) for Office 365, and Microsoft Intune.
+abstract: |
+  In this module, you will:
+  - Describe the available options for device management in Microsoft 365
+  - Explain how Intune can be used to manage devices, policies, and applications
+prerequisites: None
+iconUrl: /learn/achievements/manage-devices-by-using-microsoft-intune.svg
+levels:
+- beginner
+roles:
+- administrator
+products:
+- m365
+units:
+- learn-m365-pr.manage-devices-by-using-microsoft-intune.1-modern-management-options
+- learn-m365-pr.manage-devices-by-using-microsoft-intune.2-managing-windows-devices-with-intune
+- learn-m365-pr.manage-devices-by-using-microsoft-intune.3-summary-and-knowledge-check
+badge: 
+  uid: learn-m365-pr.manage-devices-by-using-microsoft-intune.badge

@@ -1,0 +1,15 @@
+﻿### YamlMime:ModuleUnit
+uid: learn-m365-pr.manage-devices-by-using-microsoft-intune.2-managing-windows-devices-with-intune
+title: Managing Windows devices with Intune
+metadata:
+  title: Managing Windows devices with Intune
+  description: Learn how to manage Windows 10 devices with Microsoft Intune
+  ms.date: 9/3/2019
+  author: dahans-msft2
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS:   NOINDEX 
+durationInMinutes: 10
+content: |
+  [!include[](includes/2-managing-windows-devices-with-intune.md)] 
