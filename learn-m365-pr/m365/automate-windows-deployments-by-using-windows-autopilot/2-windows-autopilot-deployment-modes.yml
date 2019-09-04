@@ -3,7 +3,7 @@ uid: learn-m365-pr.automate-windows-deployments-by-using-windows-autopilot.2-win
 title: Windows Autopilot Deployment Modes
 metadata:
   title: Windows Autopilot Deployment Modes
-  description: Unit description
+  description: Learn about the available deployment modes in Windows Autopilot
   ms.date: 9/4/2019
   author: dahans-msft2
   ms.author: dahans
