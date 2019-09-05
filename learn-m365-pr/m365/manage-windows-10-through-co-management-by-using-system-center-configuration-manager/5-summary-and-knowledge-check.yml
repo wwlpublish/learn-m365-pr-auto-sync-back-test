@@ -1,0 +1,102 @@
+﻿### YamlMime:ModuleUnit
+uid: learn-m365-pr.manage-windows-10-through-co-management-by-using-system-center-configuration-manager.5-summary-and-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Summary and knowledge check
+  ms.date: 9/4/2019
+  author: dahans-msft2
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS:   NOINDEX 
+durationInMinutes: 3
+content: |
+  [!include[](includes/5-summary-and-knowledge-check.md)] 
+quiz:
+  questions:
+  - content: "Insert the question text in this cell."
+    choices:
+    - content: "Insert the correct answer text in this cell."
+      isCorrect: true
+      explanation: "Insert the correct answer feedback in this cell."
+    - content: "Insert the fourth incorrect answer text in this cell."
+      isCorrect: false
+      explanation: "Insert the fourth incorrect answer feedback in this cell."
+    - content: "Insert the third incorrect answer text in this cell."
+      isCorrect: false
+      explanation: "Insert the third incorrect answer feedback in this cell."
+    - content: "Insert the second incorrect answer text in this cell."
+      isCorrect: false
+      explanation: "Insert the second incorrect answer feedback in this cell."
+    - content: "Insert the first incorrect answer text in this cell."
+      isCorrect: false
+      explanation: "Insert the first incorrect answer feedback in this cell."
+  - content: "Insert the question text in this cell."
+    choices:
+    - content: "Insert the third incorrect answer text in this cell."
+      isCorrect: false
+      explanation: "Insert the third incorrect answer feedback in this cell."
+    - content: "Insert the first incorrect answer text in this cell."
+      isCorrect: false
+      explanation: "Insert the first incorrect answer feedback in this cell."
+    - content: "Insert the fourth incorrect answer text in this cell."
+      isCorrect: false
+      explanation: "Insert the fourth incorrect answer feedback in this cell."
+    - content: "Insert the correct answer text in this cell."
+      isCorrect: true
+      explanation: "Insert the correct answer feedback in this cell."
+    - content: "Insert the second incorrect answer text in this cell."
+      isCorrect: false
+      explanation: "Insert the second incorrect answer feedback in this cell."
+  - content: "Insert the question text in this cell."
+    choices:
+    - content: "Insert the second incorrect answer text in this cell."
+      isCorrect: false
+      explanation: "Insert the second incorrect answer feedback in this cell."
+    - content: "Insert the fourth incorrect answer text in this cell."
+      isCorrect: false
+      explanation: "Insert the fourth incorrect answer feedback in this cell."
+    - content: "Insert the correct answer text in this cell."
+      isCorrect: true
+      explanation: "Insert the correct answer feedback in this cell."
+    - content: "Insert the first incorrect answer text in this cell."
+      isCorrect: false
+      explanation: "Insert the first incorrect answer feedback in this cell."
+    - content: "Insert the third incorrect answer text in this cell."
+      isCorrect: false
+      explanation: "Insert the third incorrect answer feedback in this cell."
+  - content: "Insert the question text in this cell."
+    choices:
+    - content: "Insert the first incorrect answer text in this cell."
+      isCorrect: false
+      explanation: "Insert the first incorrect answer feedback in this cell."
+    - content: "Insert the correct answer text in this cell."
+      isCorrect: true
+      explanation: "Insert the correct answer feedback in this cell."
+    - content: "Insert the fourth incorrect answer text in this cell."
+      isCorrect: false
+      explanation: "Insert the fourth incorrect answer feedback in this cell."
+    - content: "Insert the second incorrect answer text in this cell."
+      isCorrect: false
+      explanation: "Insert the second incorrect answer feedback in this cell."
+    - content: "Insert the third incorrect answer text in this cell."
+      isCorrect: false
+      explanation: "Insert the third incorrect answer feedback in this cell."
+  - content: "Insert the question text in this cell."
+    choices:
+    - content: "Insert the correct answer text in this cell."
+      isCorrect: true
+      explanation: "Insert the correct answer feedback in this cell."
+    - content: "Insert the fourth incorrect answer text in this cell."
+      isCorrect: false
+      explanation: "Insert the fourth incorrect answer feedback in this cell."
+    - content: "Insert the second incorrect answer text in this cell."
+      isCorrect: false
+      explanation: "Insert the second incorrect answer feedback in this cell."
+    - content: "Insert the third incorrect answer text in this cell."
+      isCorrect: false
+      explanation: "Insert the third incorrect answer feedback in this cell."
+    - content: "Insert the first incorrect answer text in this cell."
+      isCorrect: false
+      explanation: "Insert the first incorrect answer feedback in this cell."

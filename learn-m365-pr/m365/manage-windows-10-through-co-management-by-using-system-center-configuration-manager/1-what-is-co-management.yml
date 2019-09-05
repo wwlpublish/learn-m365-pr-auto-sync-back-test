@@ -1,0 +1,15 @@
+﻿### YamlMime:ModuleUnit
+uid: learn-m365-pr.manage-windows-10-through-co-management-by-using-system-center-configuration-manager.1-what-is-co-management
+title: What is co-management?
+metadata:
+  title: What is co-management?
+  description: Learn the benefits and value of co-management.
+  ms.date: 9/4/2019
+  author: dahans-msft2
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS:   NOINDEX 
+durationInMinutes: 3
+content: |
+  [!include[](includes/1-what-is-co-management.md)] 
