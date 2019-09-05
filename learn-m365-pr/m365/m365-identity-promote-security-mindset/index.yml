@@ -26,9 +26,9 @@ products:
 - m365
 units:
 - learn-m365-identity.m365-promote-security-mindset.introduction
-- learn-m365-identity.m365-promote-security-mindset.encourage-behavior-change
-- learn-m365-identity.m365-promote-security-mindset.build-security-best-practices
-- learn-m365-identity.m365-promote-security-mindset.incorporate-identity-into-dev
+- learn-m365-identity.m365-promote-security-mindset.increase-user-security-awareness
+- learn-m365-identity.m365-promote-security-mindset.build-IT-awareness
+- learn-m365-identity.m365-promote-security-mindset.help-developers-become-security-allies
 - learn-m365-identity.m365-promote-security-mindset.summary-knowledge-check
 badge: 
   uid: learn-m365-identity.m365-promote-security-mindset.badge

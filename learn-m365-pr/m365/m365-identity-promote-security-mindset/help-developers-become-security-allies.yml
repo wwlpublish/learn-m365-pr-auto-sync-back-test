@@ -1,12 +1,12 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365-identity.m365-promote-security-mindset.developers-security-allies
+uid: learn-m365-identity.m365-promote-security-mindset.help-developers-become-security-allies
 title: Incorporate identity into your development approach
 metadata:
   title: Incorporate identity into your development approach
   description:  Learn about incorporating identity into your development approach in Microsoft 365
   ms.date: 07/12/2019
-  author: AlexandraHrt
-  ms.author: aleha
+  author: Joel
+  ms.author: jolev
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
   ROBOTS: NOINDEX
