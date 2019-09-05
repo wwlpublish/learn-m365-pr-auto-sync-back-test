@@ -4,7 +4,7 @@
 | :--- | :--- |
 | ![Icon indicating play video](../media/video_icon.png)| Watch this video to learn more about the various scenarios that are supported by Windows Autopilot.|
 
->[!VIDEO https://www.youtube.com/watch?v=7t7xaV8sm50]
+>[!VIDEO https://www.youtube.com/embed/7t7xaV8sm50]
 
 ## Windows Autopilot in User-driven mode
 
