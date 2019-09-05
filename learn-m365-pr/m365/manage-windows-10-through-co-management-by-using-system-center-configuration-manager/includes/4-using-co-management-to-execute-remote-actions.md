@@ -9,6 +9,7 @@
 ## Available remote actions
 
 Use these remote actions from Intune once you enable co-management in Configuration Manager.
+
 |||
 | :--- | :--- |
 | **Remove devices**| **Retire**: This action removes managed apps and data (where applicable), settings, and e-mail profiles that were assigned to that device. The device is then removed from Intune management. This process happens the next time the device checks in and receives the remote retire action. The Retire function leaves the user's personal data on the device.<br /><br />**Wipe**: This action restores a device to its factory default settings. If you choose the option to Retain enrollment state and user account, then the user data is kept. Otherwise the drive is securely erased.<br /><br />**Delete**: If you want to remove devices from the Intune on Azure portal, delete them from the specific device pane. The next time the device checks in, it removes any organizational data stored on it.|
