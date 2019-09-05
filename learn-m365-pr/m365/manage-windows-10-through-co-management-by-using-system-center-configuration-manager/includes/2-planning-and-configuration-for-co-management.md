@@ -1,4 +1,6 @@
-﻿Before switching over to co-management, you need to figure out what workloads you want to switch over. You don't have to switch all workloads at once. You can do them individually when you're ready. Configuration Manager will continue to manage all other workloads, including those workloads that you don't switch to Intune, and all other features of Configuration Manager that co-management doesn't support. Co-management supports the following workloads:
+Before switching over to co-management, you need to figure out what workloads you want to switch over. You don't have to switch all workloads at once. You can do them individually when you're ready. Configuration Manager will continue to manage all other workloads, including those workloads that you don't switch to Intune, and all other features of Configuration Manager that co-management doesn't support.
+
+Co-management supports the following workloads:
 
 | **Policy**| **Description**|
 | :--- | :--- |
@@ -39,8 +41,6 @@ To set up co-management of your Windows 10 devices that are already enrolled in 
 6. Enable co-management in Configuration Manager
 
 ## Bootstrap with modern provisioning
-
-With co-management, you can keep your well-established processes for using Configuration Manager to manage PCs in your organization. At the same time, you're investing in the cloud through use of Intune for security and modern provisioning.
 
 To set up co-management of Windows 10 devices in an environment where you use both Azure Active Directory (AD) and an on-premises AD but don't have a hybrid Azure Active Directory (AD), you'll need to complete these high-level steps:
 
