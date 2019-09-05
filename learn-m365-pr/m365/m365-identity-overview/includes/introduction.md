@@ -38,7 +38,7 @@ Microsoft first addressed identity and access management with Windows NT Domains
 
 Threats such as sophisticated credential theft, social engineering, and password database compromises, have increased risk to your users’ identities. 
 
-![Evolution of identity and access management](../media/step1-icon1.png)
+![Evolution of identity and access management](../media/icon1.png)
 
 Microsoft 365 takes a comprehensive approach:  
 
@@ -52,7 +52,7 @@ Hardware credential isolation, such as trusted platform module (TPM) and securit
 
 Cybersecurity attacks have become more sophisticated. Passwords alone are no longer failproof protection against unauthorized access. Hackers use phishing attacks to steal users’ credentials, then bypass network controls and expand access throughout the organization’s network.  Single factor authentication, such as passwords, isn’t enough to deter modern attacks. 
 
-![Password Risk Data](../media/step1-icon2.png)
+![Password Risk Data](../media/icon2.png)
 
 The risks to your data are clear: 
 
@@ -66,7 +66,7 @@ Users tend to value productivity over security; 80% of employees admit using non
 
 The new threat landscape requires a shift from securing perimeters to protecting identities.
 
-![New Threat Landscape](../media/step1-icon3.png)  
+![New Threat Landscape](../media/icon3.png)  
 
 •	Users need constant access using different technologies across multiple mobile devices, cloud apps, and services. 
  
@@ -85,19 +85,19 @@ Christina, a division VP at Contoso, travels frequently to visit the five office
 
 Identity is the new central defense and point of control that secures your organization’s data across multiple applications, locations, and devices while delivering a comprehensive identity and access management strategy.   
 
-![Identity](../media/step1-icon4.png)
+![Identity](../media/icon4.png)
 
 The corporate network remains the initial defense system, but now there’s an additional layer of protection, a personal set of armor, tied directly to your users’ personal data and behaviors.   
 
-![Identity as protection](../media/step1-icon5.png)
+![Identity as protection](../media/icon5.png)
 
 Using identity as the new control plane ensures that each time users attempt to access data from the network, their personal and device data are reviewed and authenticated.  
 
-![Business Scenario 1](../media/step1-icon6.png)
+![Business Scenario 1](../media/icon6.png)
 
 Suppose Christina attempts to access corporate resources via her registered device.  Azure AD monitors her typical user data and validates her device based on your policy configuration to determine that this access would have a low business impact (LBI) to the network.  
 
-![Business Scenario 2](../media/step1-icon7.png)
+![Business Scenario 2](../media/icon7.png)
 
 Suppose Christina attempts to access the network on a device through an anonymous IP address that is outside of her expected location. Based on your policy configuration, Microsoft 365 can detect an elevated medium business impact (MBI) and require Christina to independently confirm and authenticate her identity through an alternate method, such as multi-factor authentication.   
 
