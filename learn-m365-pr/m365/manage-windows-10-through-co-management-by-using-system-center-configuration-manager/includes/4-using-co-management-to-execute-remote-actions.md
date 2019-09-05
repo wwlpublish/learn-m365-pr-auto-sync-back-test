@@ -28,5 +28,5 @@ If you choose not to retain user data, the device restores to its out-of-box sta
 If you have predetermined standards regarding what apps should be on the device, then this action eliminates the ones that don't meet your criteria.|
 | **Remote control**| Devices managed by Intune can be administered remotely using [TeamViewer](https://www.teamviewer.com/). TeamViewer is a third-party program that you acquire separately.|
 
-Other than remote control via TeamViewer, to start using these remote device actions in Intune, no additional setup is required after you [enable co-management](https://docs.microsoft.com/en-us/sccm/comanage/how-to-enable).
+Other than remote control via TeamViewer, to start using these remote device actions in Intune, no additional setup is required after you [enable co-management](https://docs.microsoft.com/sccm/comanage/how-to-enable).
 
