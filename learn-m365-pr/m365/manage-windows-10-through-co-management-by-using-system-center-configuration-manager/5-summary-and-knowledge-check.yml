@@ -59,15 +59,15 @@ quiz:
       explanation: "Correct!"
   - content: "Which of the following actions is an available remote action from Intune once co-management is enabled in System Center Configuration Manager?"
     choices:
-    - content: "Remote device flush"
+    - content: "Remote device flushes"
       isCorrect: false
       explanation: "Incorrect."
-    - content: "Remote device wipe"
+    - content: "Remote device wipes"
       isCorrect: true
       explanation: "Correct!"
     - content: "Remote device selective activate"
       isCorrect: false
       explanation: "Incorrect."
-    - content: "Remote device reboot"
+    - content: "Remote device reboots"
       isCorrect: false
       explanation: "Incorrect."
