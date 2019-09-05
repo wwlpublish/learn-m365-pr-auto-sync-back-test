@@ -18,7 +18,7 @@ Windows Autopilot is designed to simplify all parts of the lifecycle of Windows 
 | :--- | :--- |
 | ![Icon indicating play video](../media/video_icon.png)|Watch this video to learn more about how Windows Autopilot can help your organization deploy new devices that are ready to use right out of the box.
 
->[!VIDEO https://www.youtube.com/watch?v=4K4hC5NchbE]
+>[!VIDEO https://www.youtube.com/embed/4K4hC5NchbE]
 
 Windows Autopilot enables you to:
 
