@@ -1,0 +1,34 @@
+### YamlMime:Module
+uid: learn-m365-identity.m365-identity-provisioning
+metadata:
+  title: Simplify access and identity provisioning with Microsoft 365 
+  description: Learn how to use Microsoft 365's authentication tools for access and identity provisioning.
+  ms.date: 07/28/2019
+  author: AlexandraHrt
+  ms.author: aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Simplify access and identity provisioning with Microsoft 365 
+summary: Learn how to use Microsoft 365's authentication tools for access and identity provisioning.
+abstract: |
+  In this module, you will learn:
+   - The importance of identity governance 
+   - How to safegaurd the right kinds of access
+prerequisites: None
+iconUrl: /learn/achievements/simplify-access-and-identity-provisioning-with-microsoft-365.svg
+ratingEnabled: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+units:
+- learn-m365-identity.m365-identity-provisioning.introduction
+- learn-m365-identity.m365-identity-provisioning.choose-deploy-sso
+- learn-m365-identity.m365-identity-provisioning.importance-identity-governance
+- learn-m365-identity.m365-identity-provisioning.establish-identity-governance
+- learn-m365-identity.m365-identity-provisioning.right-access-safeguard
+- learn-m365-identity.m365-identity-provisioning.summary-knowledge-check
+badge: 
+  uid: learn-m365-identity.m365-identity-provisioning.badge
