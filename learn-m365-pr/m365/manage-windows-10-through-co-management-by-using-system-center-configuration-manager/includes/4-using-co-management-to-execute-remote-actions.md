@@ -17,7 +17,7 @@ Use these remote actions from Intune once you enable co-management in Configurat
 | **Sync**| The Sync device action forces the selected device to immediately check in with Intune. When a device checks in, it immediately receives any pending actions or policies that you've assigned to it.<br /><br />This feature can help you immediately validate and troubleshoot policies you've assigned, without waiting for the next scheduled check-in.|
 | **Restart**| The **Restart** device action causes the device you choose to restart. This action is useful when there's a pending reboot, but the user isn't available to do it.|
 | **Fresh Start**| The Fresh Start device action removes any apps installed on a device running Windows 10, version 1703 or later. Fresh Start helps remove pre-installed (OEM) apps that are typically installed with a new device.<br /><br />If you choose not to retain user data, the device restores to its out-of-box state. It unenrolls from Azure AD and MDM.<br /><br />If you have predetermined standards regarding what apps should be on the device, then this action eliminates the ones that don't meet your criteria.|
-| **Remote control**| Devices managed by Intune can be administered remotely using [TeamViewer](https://www.teamviewer.com/). TeamViewer is a third-party program that you acquire separately.|
+| **Remote control**| Devices managed by Intune can be administered remotely using SCCM or [TeamViewer](https://www.teamviewer.com/). TeamViewer is a third-party program that you acquire separately.|
 
 Other than remote control via TeamViewer, to start using these remote device actions in Intune, no additional setup is required after you [enable co-management](https://docs.microsoft.com/sccm/comanage/how-to-enable).
 
