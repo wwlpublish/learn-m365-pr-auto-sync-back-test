@@ -1,1 +1,1 @@
-Introduction to the metrics used to measure the success of your service adoptoin program.
+Introduction to the metrics used to measure the success of your service adoption program.
