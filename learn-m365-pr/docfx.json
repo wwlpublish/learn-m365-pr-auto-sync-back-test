@@ -1,0 +1,71 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "achievements.yml"
+        ],
+        "dest": "achievements/main/"
+      },
+      {
+        "src": "m365",
+        "files": [
+          "**.yml"
+        ],
+        "dest": "modules"
+      },
+      {
+        "src": "wwl-mba",
+        "files": [
+          "**.yml"
+        ],
+        "dest": "modules"
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices",
+          "learn-m365-pr/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/*.gif",
+          "**/*.png",
+          "**/*.svg",
+          "**/*.jpg",
+          "**/*.jpeg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**"
+        ]
+      }
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {
+      "breadcrumb_path": "/learn/breadcrumb/toc.json",
+      "extendBreadcrumb": true,
+      "feedback_system": "None"
+    },
+    "fileMetadata": {},
+    "template": [],
+    "dest": "learn-m365-pr",
+    "markdownEngineName": "markdig"
+  }
+}
