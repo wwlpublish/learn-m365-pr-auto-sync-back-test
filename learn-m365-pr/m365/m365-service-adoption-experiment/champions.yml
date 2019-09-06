@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.service-adoption-experiment.champions
+title: Create a champions program as part of the service adoption program
+metadata:
+  title: Create a champions program as part of the service adoption program
+  description: Learn how to create and implement a champions program.
+  ms.date: 09/06/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 2
+content: |
+  [!include[](includes/champions.md)]

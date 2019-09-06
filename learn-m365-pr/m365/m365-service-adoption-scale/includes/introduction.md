@@ -1,0 +1,1 @@
+Introduction to the Scale phase of the service adoption framework.

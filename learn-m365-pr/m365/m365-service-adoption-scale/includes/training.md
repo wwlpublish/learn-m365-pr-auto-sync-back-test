@@ -1,0 +1,1 @@
+Learn how to create awareness, training, and engagement models as part of the Scale phase in the service adoption framework.

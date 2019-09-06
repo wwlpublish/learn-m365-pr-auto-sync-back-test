@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.service-adoption-start.organizational-readiness
+title: Assess your organization's readiness
+metadata:
+  title: Assess your organization's readiness
+  description: Learn how to tell how ready your organization is to move to a new service.
+  ms.date: 09/06/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+  [!include[](includes/organizational-readiness.md)]
