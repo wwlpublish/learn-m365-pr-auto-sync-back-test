@@ -1,4 +1,4 @@
-# Introduction
+## Introduction
 
 You can take steps to encourage users to adopt a security mindset. Here are some strategies:
 

@@ -3,9 +3,9 @@ uid: learn-m365-identity.m365-cultural-shift
 metadata:
   title: Use Microsoft 365 to promote a security mindset  
   description: Learn how to promote an enterprise-wide security mindset with Microsoft 365.
-  ms.date: 07/28/2019
-  author: Joel
-  ms.author: jolev
+  ms.date: 09/06/2019
+  author: puffinanda
+  ms.author: v-jolev
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Use Microsoft 365 to promote a security mindset  
@@ -27,7 +27,7 @@ products:
 units:
 - learn-m365-identity.m365-cultural-shift.introduction
 - learn-m365-identity.m365-cultural-shift.increase-user-security-awareness
-- learn-m365-identity.m365-cultural-shift.build-IT-awareness
+- learn-m365-identity.m365-cultural-shift.build-it-awareness
 - learn-m365-identity.m365-cultural-shift.help-developers-become-security-allies
 - learn-m365-identity.m365-cultural-shift.summary-knowledge-check
 badge: 

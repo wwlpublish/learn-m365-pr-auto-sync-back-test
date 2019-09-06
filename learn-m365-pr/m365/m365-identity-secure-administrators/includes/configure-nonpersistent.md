@@ -1,14 +1,14 @@
-# Configure nonpersistent access
+## Configure nonpersistent access
 
-## Business use case
+### Business use case
 
 You use Azure AD Privilege Identity Management (PIM) to provide Christine with an elevated role to access sensitive data or configuration settings. Christine can request the privileged role as needed. Each time she requests access, she must obtain approval from another assigned administrator or prove her identity by using multi-factor authentication. You configure PIM so that her privileged access role expires after a fixed time. If attackers steal her credentials, PIM blocks their access attempts.
 
-## Manage, control, and monitor role-based access
+### Manage, control, and monitor role-based access
 
 PIM helps reduce the risk of excessive, unnecessary, or misused access to sensitive data while allowing users to retain privileged access to the information that they need to perform their roles.
 
-![Azure AD Privileged Identity Management lets you provide role-based, time-limited administrator privileges to access sensitive data or configuration settings.](../media/PIM-just-in-time-access.png)
+![Azure AD Privileged Identity Management lets you provide role-based, time-limited administrator privileges to access sensitive data or configuration settings.](../media/pim-just-in-time-access.png)
 *With Azure AD Privileged Identity Management you can configure role-based, time-limited administrator privileges*
 
 With PIM, you can perform the following actions:
@@ -19,7 +19,7 @@ With PIM, you can perform the following actions:
 - Receive notifications when privileged roles are activated.
 - Conduct access reviews to confirm which users still require privileged roles.
 
-## Manage task-based access in Office 365
+### Manage task-based access in Office 365
 
 Privileged access management enables you to control who performs administrative tasks in Office 365. It helps protect against breaches of accounts that have continuing access to sensitive data or crucial configuration settings. It also helps defend against the vulnerabilities of persistent administrative access, allowing your organization to operate without users having standing privileges.
 
@@ -29,3 +29,8 @@ Privileged access management enables you to control who performs administrative 
 For example, suppose an administrator wants privileges to create a journal rule in Exchange Online. The journal rule would record and retain certain sent and received emails to fulfill the organization’s compliance requirements.
 
 When you enforce privileged access management, this administrator must request just-in-time access to complete the journal rule within a specified time. Once you grant access, the activity is logged in the Office 365 Security and Compliance Center to prevent any unapproved activity from going undetected.
+
+### Learn more
+
+- [What is Azure AD Privileged Identity Management?](https://docs.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-configure)
+- [Privileged access management in Office 365](https://docs.microsoft.com/en-us/office365/securitycompliance/privileged-access-management-overview)

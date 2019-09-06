@@ -4,9 +4,9 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Review what you've learned about enhancing security for administrator accounts.
-  ms.date: 07/12/2019
-  author: Joel
-  ms.author: jolev
+  ms.date: 09/06/2019
+  author: puffinanda
+  ms.author: v-jolev
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
   ROBOTS: NOINDEX
@@ -18,13 +18,13 @@ quiz:
     questions:
     - content: "Why do administrator accounts require enhanced security?"
       choices:
-      - content: "a.	Because administrators travel frequently, they are more likely to use unsecured devices to access their organization’s resources remotely."
+      - content: "Because administrators travel frequently, they are more likely to use unsecured devices to access their organization’s resources remotely."
         isCorrect: false
         explanation: "Administrators are not more likely than other staff to use unsecured devices."
       - content: "Administrators typically have supervisory access to the personal files of their direct reports."
         isCorrect: false
         explanation: "Administrators usually do not have access to personal files of their direct reports."
-      - content: "c.	Administrators frequently have privileged access to sensitive data and therefore are often targets of cyberattacks."
+      - content: "Administrators frequently have privileged access to sensitive data and therefore are often targets of cyberattacks."
         isCorrect: true
         explanation: "Hackers target administrator accounts to gain access to an organization’s sensitive data and systems."
     - content: "How could you ensure that administrators use secure mobile devices to access the organization’s network?"

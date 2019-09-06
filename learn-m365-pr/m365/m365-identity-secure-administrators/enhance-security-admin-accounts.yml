@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-identity.m365-identity-secure-administrators.establish-isolated-identity
+title: Enhance security of administrator accounts
+metadata:
+  title: Enhance security of administrator accounts
+  description: Learn ways to enhance security of administrator accounts
+  ms.date: 09/06/2019
+  author: puffinanda
+  ms.author: v-jolev
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 4
+content: |
+  [!include[](includes/enhance-security-admin-accounts.md)]

@@ -1,10 +1,10 @@
-# Increase user security awareness
+## Increase user security awareness
 
-## Business use case
+### Business use case
 
 When Christina creates a new password, Azure AD password protection automatically prevents her from picking commonly used weak or compromised passwords. You can add words to the banned password list. This helps Christina comply with the organization’s best practices when she resets her password.
 
-## Elevate users' awareness
+### Elevate users' awareness
 
 With Azure AD, you can make it easier for users to adhere to organization security policies while elevating their awareness of identity security best practices. You can use several methods to accomplish this goal:
 
@@ -15,7 +15,7 @@ With Azure AD, you can make it easier for users to adhere to organization securi
 ![Screenshot of banned password list in Azure AD password protection.](../media/authentication-methods-password-protection.png)
 *Screenshot of banned password list in Azure AD password protection*
 
-## Resources
+### Learn more
 
 - [How it works: Azure AD self-service password reset](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-howitworks)
 - [Eliminate bad passwords in your organization](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad)
