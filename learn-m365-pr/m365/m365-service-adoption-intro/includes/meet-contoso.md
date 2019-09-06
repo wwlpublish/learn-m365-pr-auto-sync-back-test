@@ -1,0 +1,1 @@
+Introduction/description of the Contoso organization that will be used during the training.
