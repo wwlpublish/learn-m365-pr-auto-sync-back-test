@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.understand-office-add-ins-fundamentals.3-understand-dialogs
+metadata:
+  title: 3-understand-dialogs
+  description: ...
+  ms.date: ...
+  author: elizabethsamuel-msft
+  ms.author: elizs
+  ms.topic: interactive-tutorial
+  ms.prod: ...
+  ROBOTS: NOINDEX
+title: 3-understand-dialogs
+durationInMinutes: 1
+content: |
+  [!include[](includes/3-understand-dialogs.md)]

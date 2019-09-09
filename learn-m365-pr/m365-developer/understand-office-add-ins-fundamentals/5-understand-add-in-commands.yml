@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: >-
+  learn-m365-pr.understand-office-add-ins-fundamentals.5-understand-add-in-commands
+metadata:
+  title: 5-understand-add-in-commands
+  description: ...
+  ms.date: ...
+  author: elizabethsamuel-msft
+  ms.author: elizs
+  ms.topic: interactive-tutorial
+  ms.prod: ...
+  ROBOTS: NOINDEX
+title: 5-understand-add-in-commands
+durationInMinutes: 1
+content: |
+  [!include[](includes/5-understand-add-in-commands.md)]
