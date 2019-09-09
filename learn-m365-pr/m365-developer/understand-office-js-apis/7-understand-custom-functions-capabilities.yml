@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: >-
+  learn-m365-pr.understand-office-js-apis.7-understand-custom-functions-capabilities
+metadata:
+  title: 7-understand-custom-functions-capabilities
+  description: ...
+  ms.date: ...
+  author: elizabethsamuel-msft
+  ms.author: elizs
+  ms.topic: interactive-tutorial
+  ms.prod: ...
+  ROBOTS: NOINDEX
+title: 7-understand-custom-functions-capabilities
+durationInMinutes: 1
+content: |
+  [!include[](includes/7-understand-custom-functions-capabilities.md)]
