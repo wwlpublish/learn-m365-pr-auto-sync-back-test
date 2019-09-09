@@ -1,0 +1,27 @@
+### YamlMime:Module
+uid: learn-m365-pr.understand-testing-debugging-and-deployment-options
+metadata:
+  title: understand-testing-debugging-and-deployment-options
+  description: ...
+  ms.date: ...
+  author: elizabethsamuel-msft
+  ms.author: elizs
+  ms.topic: ...
+  ms.prod: ...
+title: understand-testing-debugging-and-deployment-options
+summary: ...
+abstract: ...
+prerequisites: ...
+iconUrl: https://docs.microsoft.com/media/learn/module.svg
+levels: [beginner]
+roles: [developer]
+products: [office-add-ins]
+units:
+- >-
+    learn-m365-pr.understand-testing-debugging-and-deployment-options.1-introduction
+- >-
+    learn-m365-pr.understand-testing-debugging-and-deployment-options.2-choose-deployment-options-based-on-requirements
+- >-
+    learn-m365-pr.understand-testing-debugging-and-deployment-options.3-understand-office-add-ins-testing-and-debugging-concepts
+badge:
+  uid: learn-m365-pr.understand-testing-debugging-and-deployment-options.badge

@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: >-
+  learn-m365-pr.understand-testing-debugging-and-deployment-options.2-choose-deployment-options-based-on-requirements
+metadata:
+  title: 2-choose-deployment-options-based-on-requirements
+  description: ...
+  ms.date: ...
+  author: elizabethsamuel-msft
+  ms.author: elizs
+  ms.topic: interactive-tutorial
+  ms.prod: ...
+  ROBOTS: NOINDEX
+title: 2-choose-deployment-options-based-on-requirements
+durationInMinutes: 1
+content: |
+  [!include[](includes/2-choose-deployment-options-based-on-requirements.md)]

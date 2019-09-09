@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: >-
+  learn-m365-pr.understand-testing-debugging-and-deployment-options.3-understand-office-add-ins-testing-and-debugging-concepts
+metadata:
+  title: 3-understand-office-add-ins-testing-and-debugging-concepts
+  description: ...
+  ms.date: ...
+  author: elizabethsamuel-msft
+  ms.author: elizs
+  ms.topic: interactive-tutorial
+  ms.prod: ...
+  ROBOTS: NOINDEX
+title: 3-understand-office-add-ins-testing-and-debugging-concepts
+durationInMinutes: 1
+content: >-
+  [!include[](includes/3-understand-office-add-ins-testing-and-debugging-concepts.md)]
