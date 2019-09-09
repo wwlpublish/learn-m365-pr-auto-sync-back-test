@@ -15,9 +15,7 @@ abstract: |
   - Describe the methods for applying updates to Windows 10 devices.
   - Describe how to use various methods to deploy updates to Windows 10 devices.
   - Explain the scenarios for using Windows Update for Business.
-prerequisites: 
-- Basic understanding of Windows Update.  If you are not familiar with this, we recommend you take Move to a modern desktop with Microsoft 365.
-- 
+prerequisites: - Basic understanding of Windows Update.  If you are not familiar with this, we recommend you take Move to a modern desktop with Microsoft 365.
 iconUrl: /learn/achievements/keep-your-apps-and-devices-up-to-date-with-modern-servicing.svg
 levels:
 - beginner
