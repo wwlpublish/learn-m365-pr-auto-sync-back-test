@@ -1,0 +1,28 @@
+### YamlMime:LearningPath
+uid: learn-m365.m365-teams-sharepoint
+metadata:
+  title: Manage shared content with Microsoft SharePoint
+  description: Manage shared content with Microsoft SharePoint introduces you to the features and capabilities of Microsoft SharePoint, and how it works with Microsoft 365. You'll learn how you can use SharePoint file and folder sharing to optimize collaboration, how to share files externally, and how to manage SharePoint sites in the SharePoint admin center. You'll also learn about the different types of SharePoint sites, including hub sites, as well as information protection, reporting, and monitoring.
+  ms.date: 09/10/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+title: Manage shared content with Microsoft SharePoint
+summary: Manage shared content with Microsoft SharePoint introduces you to the features and capabilities of Microsoft SharePoint, and how it works with Microsoft 365. You'll learn how you can use SharePoint file and folder sharing to optimize collaboration, how to share files externally, and how to manage SharePoint sites in the SharePoint admin center. You'll also learn about the different types of SharePoint sites, including hub sites, as well as information protection, reporting, and monitoring.
+
+prerequisites: | 
+ - None
+iconUrl: http://via.placeholder.com/120x120
+levels: 
+- beginner
+roles:
+- administrator
+products: 
+- m365
+modules:
+- learn-m365.m365-teams-sharepoint-plan-sharepoint
+
+trophy: 
+  uid: learn-m365.m365-teams-sharepoint.trophy
