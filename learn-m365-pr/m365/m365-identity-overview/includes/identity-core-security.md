@@ -1,6 +1,6 @@
 # A modern identity and access management strategy 
 
-Christina is a division VP at Contoso and travels frequently to visit the five offices that she manages across the US, UK, Canada, and parts of China. She handles highly sensitive information via connecting to corporate assets from unknown wireless networks. Classic security protocols assumed a castle under siege approach from hackers. However, Christina is out in the field and needs the same protection as though she were working in her corporate office.  Her company needs security that understands her typical behavior as a user and detects when her user or device risk is elevated. If Christina’s user credentials or device are compromised, how can IT automatically enforce additional layers of authentication to keep the organization safe? 
+Christina is a division VP at Contoso and travels frequently to visit the five offices that she manages across the US, UK, Canada, and parts of China. She handles highly sensitive information via connecting to corporate assets from unknown wireless networks. Classic security protocols assumed a castle under siege approach from hackers. However, Christina is out in the field and needs the same protection as though she were working in the corporate office.  The company needs security that understands this user's typical behavior as a user and detects it changes and risk is elevated. If Christina’s user credentials or device are compromised, how can IT automatically enforce additional layers of authentication to keep the organization safe? 
 
 ## Identity is the new perimeter 
 
@@ -20,7 +20,7 @@ Suppose Christina attempts to access corporate resources via her registered devi
 
 ![Business Scenario 2](../media/icon7.png)
 
-Suppose Christina attempts to access the network on a device through an anonymous IP address that is outside of her expected location. Based on your policy configuration, Microsoft 365 can detect an elevated medium business impact (MBI) and require Christina to independently confirm and authenticate her identity through an alternate method, such as multi-factor authentication.   
+Suppose Christina attempts to access the network on a device through an anonymous IP address that is outside of an expected location. Based on your policy configuration, Microsoft 365 can detect an elevated medium business impact (MBI) and require Christina to independently confirm and authenticate identity through an alternate method, such as multi-factor authentication.   
 
 If the device itself is compromised, as shown above, Microsoft 365 will judge it not healthy enough to access the network.  
 
