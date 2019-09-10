@@ -3,17 +3,39 @@ uid: learn-m365-identity.m365-identity-provisioning
 metadata:
   title: Simplify access and identity provisioning with Microsoft 365 
   description: Learn how to use Microsoft 365's authentication tools for access and identity provisioning.
-  ms.date: 07/28/2019
-  author: AlexandraHrt
-  ms.author: aleha
+  ms.date: 09/09/2019
+  author: jason@mightynarwhal.com
+  ms.author: v-jasoan
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Simplify access and identity provisioning with Microsoft 365 
 summary: Learn how to use Microsoft 365's authentication tools for access and identity provisioning.
 abstract: |
-  In this module, you will learn:
-   - The importance of identity governance 
-   - How to safegaurd the right kinds of access
+# Module 2:  Simplify access and identity provisioning with Microsoft 365 
+
+Identity provisioning with Azure Active Directory (Azure AD), a Microsoft 365 component, simplifies secure user access to your data.  Azure AD Conditional Access and other capabilities help to ensure that the right users have the right access at the right time. 
+
+In this module, you will: 
+
+* Describe the identity management capabilities of Microsoft 365 
+
+* Plan for Azure AD identity governance  
+
+* Describe the identity governance lifecycle 
+
+* Plan an identity infrastructure 
+
+* Plan for single sign-on 
+
+* Explain role-based access 
+
+* User provisioning of SaaS apps 
+
+* Management of User Groups 
+
+* Describe Conditional Access 
+
+* Describe how to secure B2B collaboration 
 prerequisites: None
 iconUrl: /learn/achievements/simplify-access-and-identity-provisioning-with-microsoft-365.svg
 ratingEnabled: true

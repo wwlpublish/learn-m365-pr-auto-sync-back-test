@@ -1,6 +1,6 @@
 # A modern identity and access management strategy 
 
-Christina, a division VP at Contoso, travels frequently to visit the five offices that she manages across the US, UK, Canada, and parts of China. She handles highly sensitive information via connecting to corporate assets from unknown wireless networks. Classic security protocols assumed a castle under siege approach from hackers. However, Christina is out in the field and needs the same protection as though she were working in her corporate office.  Her company needs security that understands her typical behavior as a user and detects when her user or device risk is elevated. If Christina’s user credentials or device are compromised, how can IT automatically enforce additional layers of authentication to keep the organization safe? 
+Christina is a division VP at Contoso and travels frequently to visit the five offices that she manages across the US, UK, Canada, and parts of China. She handles highly sensitive information via connecting to corporate assets from unknown wireless networks. Classic security protocols assumed a castle under siege approach from hackers. However, Christina is out in the field and needs the same protection as though she were working in her corporate office.  Her company needs security that understands her typical behavior as a user and detects when her user or device risk is elevated. If Christina’s user credentials or device are compromised, how can IT automatically enforce additional layers of authentication to keep the organization safe? 
 
 ## Identity is the new perimeter 
 
@@ -28,4 +28,4 @@ Microsoft 365 responds to the detected access risk:
 
 •	Microsoft Defender can detect and remediate health threats (such as malware) on the device.  
 
-•	Microsoft Intune can send remediation instructions to help the Christina help herself remove the problem. 
+•	Microsoft Intune can send remediation instructions to Christina guide her towards removing the problem. 

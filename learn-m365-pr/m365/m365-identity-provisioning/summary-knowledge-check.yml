@@ -5,8 +5,8 @@ metadata:
   title: Summary and knowledge check
   description: Review what you've learned about access and identity provisioning in Microsoft 365.
   ms.date: 07/12/2019
-  author: AlexandraHrt
-  ms.author: aleha
+  author: jason@mightynarwhal.com
+  ms.author: v-jasoan
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
   ROBOTS: NOINDEX
@@ -16,36 +16,39 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Question 1 . . . ?"
+    - content: "All of these are identity management capabilities of Microsoft 365 except:"
       choices:
-      - content: "Choice 1"
+      - content: "Conditional access"
         isCorrect: false
-        explanation: "Explanation . . ."
-      - content: "Choice 2"
+        explanation: "Azure AD Conditional Access enables you to verify identity, device, app, data, and risk signals before allowing access."
+      - content: "Privileged identity management"
         isCorrect: false
-        explanation: "Explanation . . ."
-      - content: "Choice 3"
+        explanation: "Privileged identity management lets you require administration accounts to request access privileges for a limited duration."
+      - content: "Automated investigation and response3"
         isCorrect: true
-        explanation: "Explanation . . ."
-    - content: "Question 2 . . . ?"
+        explanation: "Automated investigation and response is not an identity management feature; it’s a tool that automates investigation and remediation of well-known attack threats."
+	- content: "Role-based access"
+        isCorrect: false
+        explanation: "Role-based access helps you manage who has access to Azure resources, what they can do with those resources, and what areas they have access to."
+    - content: "When you plan for identity governance in Azure AD, you should: "
       choices:
-      - content: "Choice 1"
-        isCorrect: false
-        explanation: "Explanation . . ."
-      - content: "Choice 2"
+      - content: "Determine which users and groups should have access to which resources at which time."
         isCorrect: true
-        explanation: "Explanation . ."
-      - content: "Choice 3"
-        isCorrect: false
-        explanation: "Explanation . ."
-    - content: "Question 3 . .  ?"
-      choices:
-      - content: "Choice 1"
+        explanation: "When planning for identity governance, you should determine how soon a user has access to the resources they need and how their access changes over time."
+      - content: "Prioritize the right set of alerts for investigation."
         isCorrect: true
-        explanation: "Explanation . . ."
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "Explanation . . ."
+        explanation: "You assess the risk level of cloud apps when you want to classify and protect the exposure of sensitive information."
       - content: "Choice 3"
         isCorrect: false
-        explanation: "Explanation . . ."
+        explanation: "You assess the risk level of cloud apps when you want to classify and protect the exposure of sensitive information."
+    - content: "Before you deploy a Microsoft 365 identity infrastructure, you should first: "
+      choices:
+      - content: "Assign access policies to users."
+        isCorrect: false
+        explanation: "Before you assign access policies to user, you should first categorize users so you can control who has access to resources in your organization."
+      - content: "Classify data security."
+        isCorrect: false
+        explanation: "When you plan an identity infrastructure, you should first categorize users before you provision resources with appropriate permissions."
+      - content: "Categorize your users. "
+        isCorrect: true
+        explanation: "You should first categorize users so you can secure access with controls that ensure strong assurances of identity and access from safe devices."
