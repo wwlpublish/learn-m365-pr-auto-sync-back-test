@@ -1,0 +1,15 @@
+﻿### YamlMime:ModuleUnit
+uid: learn-wwl.manage-applications-by-using-microsoft-intune.4-administering-applications
+title: Administering applications
+metadata:
+  title: Administering applications
+  description: Learn about the steps involved to deploy apps using Microsoft Intune.
+  ms.date: 9/10/2019
+  author: bneeb@microsoft.com
+  ms.author: bneeb
+  ms.topic: interactive-tutorial
+  ms.prod: choose an item.
+  ROBOTS:   NOINDEX 
+durationInMinutes: 4
+content: |
+  [!include[](includes/4-administering-applications.md)] 

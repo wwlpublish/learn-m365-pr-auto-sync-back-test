@@ -1,0 +1,15 @@
+﻿### YamlMime:ModuleUnit
+uid: learn-wwl.manage-applications-by-using-microsoft-intune.6-managing-apps-on-non-enrolled-devices
+title: Managing apps on non-enrolled devices
+metadata:
+  title: Managing apps on non-enrolled devices
+  description: Learn about how to manage non-enrolled devices with Microsoft Intune.
+  ms.date: 9/10/2019
+  author: bneeb@microsoft.com
+  ms.author: bneeb
+  ms.topic: interactive-tutorial
+  ms.prod: choose an item.
+  ROBOTS:   NOINDEX 
+durationInMinutes: 4
+content: |
+  [!include[](includes/6-managing-apps-on-non-enrolled-devices.md)] 
