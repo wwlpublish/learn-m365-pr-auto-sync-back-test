@@ -32,5 +32,5 @@ When you enforce privileged access management, this administrator must request j
 
 ### Learn more
 
-- [What is Azure AD Privileged Identity Management?](https://docs.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-configure)
-- [Privileged access management in Office 365](https://docs.microsoft.com/en-us/office365/securitycompliance/privileged-access-management-overview)
+- [What is Azure AD Privileged Identity Management?](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure)
+- [Privileged access management in Office 365](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-overview)
