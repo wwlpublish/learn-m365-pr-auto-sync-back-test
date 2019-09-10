@@ -8,7 +8,7 @@
 
 Additionally, you might want to assign and manage apps on devices that are not enrolled with Intune. Intune offers a range of capabilities to help you get the apps you need on the devices you want to run them on.
 
-Any app that has been integrated with the Intune App SDK or wrapped by the Intune App Wrapping Tool can be managed using Intune app protection policies. See the official list of [Intune-managed apps](https://docs.microsoft.com/en-us/intune/apps-supported-intune-apps) available for public use.
+Any app that has been integrated with the Intune App SDK or wrapped by the Intune App Wrapping Tool can be managed using Intune app protection policies. See the official list of [Intune-managed apps](https://docs.microsoft.com/intune/apps-supported-intune-apps) available for public use.
 
 The baseline requirements to use app protection policies on an Intune-manage app include:
 
