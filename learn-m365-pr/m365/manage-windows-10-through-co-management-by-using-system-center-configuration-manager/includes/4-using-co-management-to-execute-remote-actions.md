@@ -2,7 +2,7 @@
 
 |||
 | :--- | :--- |
-| ![Icon indicating play video](../media/video_icon.png)| In the following video, principal program manager Heidi Cheng and senior program manager Danny Guillory discuss and demo remote actions with co-management.|
+| ![Icon indicating play video](../media/video-icon.png)| In the following video, principal program manager Heidi Cheng and senior program manager Danny Guillory discuss and demo remote actions with co-management.|
 
 >[!VIDEO https://www.youtube.com/embed/MVKvN_JirHs]
 
