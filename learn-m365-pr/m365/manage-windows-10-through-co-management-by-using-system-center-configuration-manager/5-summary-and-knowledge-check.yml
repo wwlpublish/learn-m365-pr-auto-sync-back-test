@@ -17,16 +17,16 @@ quiz:
   questions:
   - content: "What is the configuration when you manage devices with Microsoft System Center Configuration Manager and enroll to a third-party MDM service?"
     choices:
-    - content: "co-management"
+    - content: "Co-management"
       isCorrect: false
       explanation: "Incorrect."
-    - content: "coordinated IT"
+    - content: "Coordinated IT"
       isCorrect: false
       explanation: "Incorrect."
-    - content: "comprehensive"
+    - content: "Comprehensive"
       isCorrect: false
       explanation: "Incorrect."
-    - content: "coexistence"
+    - content: "Coexistence"
       isCorrect: true
       explanation: "Correct!"
   - content: "Which of the following statements best describes how Microsoft 365 workloads must be switched over to co-management if you decide to implement it?"
