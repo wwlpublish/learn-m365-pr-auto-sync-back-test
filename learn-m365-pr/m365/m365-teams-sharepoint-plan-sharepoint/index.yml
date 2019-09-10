@@ -1,0 +1,36 @@
+### YamlMime:Module
+uid: learn-m365.m365-teams-sharepoint-plan-sharepoint
+metadata:
+  title: Plan for SharePoint in Microsoft 365
+  description: Discover how SharePoint works with Microsoft 365. Learn how security, access and authentication work in SharePoint as well as the role of the SharePoint administrator.
+  ms.date: 09/10/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Plan for SharePoint in Microsoft 365 
+summary: Discover how SharePoint works with Microsoft 365. Learn how security, access and authentication work in SharePoint as well as the role of the SharePoint administrator.
+abstract: |
+  At the end of this module, you should be able to:
+  - Explain what SharePoint is and how it fits into Microsoft 365 collaboration
+  - Describe the SharePoint architecture
+  - Describe the role of the SharePoint administrator
+  - Describe how to plan your collaboration environment
+
+prerequisites: None
+iconUrl: http://via.placeholder.com/120x120
+ratingEnabled: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- m365
+units:
+- learn-m365.m365-teams-sharepoint-plan-sharepoint.introduction
+- learn-m365.m365-teams-sharepoint-plan-sharepoint.administer-sharepoint
+- learn-m365.m365-teams-sharepoint-plan-sharepoint.collaboration-environment
+- learn-m365.m365-teams-sharepoint-plan-sharepoint.summary-knowledge-check
+
+badge: 
+  uid: learn-m365.m365-teams-sharepoint-plan-sharepoint.badges
