@@ -30,6 +30,6 @@ units:
 - learn-wwl.deploy-windows-update-in-microsoft-365.3-deploying-windows-update-with-windows-server-update-services
 - learn-wwl.deploy-windows-update-in-microsoft-365.4-using-group-policy-to-configure-windows-update
 - learn-wwl.deploy-windows-update-in-microsoft-365.5-understanding-windows-update-for-business
-- learn-wwl.deploy-windows-update-in-microsoft-365.6-summary-knowledge-check
+- learn-wwl.deploy-windows-update-in-microsoft-365.6-summary-and-knowledge-check
 badge: 
   uid: learn-wwl.keep-your-apps-and-devices-up-to-date-with-modern-servicing.badge

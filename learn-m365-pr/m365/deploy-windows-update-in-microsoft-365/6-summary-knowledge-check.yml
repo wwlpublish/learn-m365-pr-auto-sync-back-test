@@ -12,7 +12,7 @@ metadata:
   ROBOTS:   NOINDEX 
 durationInMinutes: 6
 content: |
-  [!include[](includes/6-summary-and-knowledge-check.md)] 
+  [!include[](includes/6-summary-knowledge-check.md)] 
 quiz:
   questions:
   - content: "Group Policy Objects (GPO) can be configured to deploy windows update settings to a group of windows 10 computers.  After creating a GPO which service can be used to apply those GPO settings to the defined group of Windows 10 computers?"
