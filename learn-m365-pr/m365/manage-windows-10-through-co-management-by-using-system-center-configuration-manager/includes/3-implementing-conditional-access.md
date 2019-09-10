@@ -12,7 +12,7 @@ Conditional Access also provides you with a centralized place to see the health 
 
 |||
 | :--- | :--- |
-| ![Icon indicating play video](../media/video_icon.png)| Watch this video to learn more about the security benefits of conditional access and why you should implement conditional access policies in your organization.|
+| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about the security benefits of conditional access and why you should implement conditional access policies in your organization.|
 
 >[!VIDEO https://www.youtube.com/embed/5NLBNtEhGB8]
 
