@@ -1,5 +1,5 @@
 ﻿### YamlMime:ModuleUnit
-uid: learn-m365-pr.introduction-to-modern-management-in-microsoft-365.2-benefits-of-modern-management
+uid: learn-m365-pr.introduction-to-modern-management-in-microsoft-365.2-benefits-modern-management
 title: Benefits of Modern Management
 metadata:
   title: Benefits of Modern Management
@@ -12,4 +12,4 @@ metadata:
   ROBOTS:   NOINDEX 
 durationInMinutes: 12
 content: |
-  [!include[](includes/2-benefits-of-modern-management.md)] 
+  [!include[](includes/2-benefits-modern-management.md)] 
