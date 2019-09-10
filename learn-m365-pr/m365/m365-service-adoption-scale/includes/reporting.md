@@ -1,0 +1,1 @@
+Learn how to create usage reports as part of the Scale phase in the service adoption framework.

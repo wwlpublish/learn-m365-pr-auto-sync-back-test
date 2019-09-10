@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.service-adoption-intro.service-adoption-framework
+title: Get started with the service adoption framework
+metadata:
+  title: Get started with the service adoption framework
+  description: Learn how the service adoption framework can help when you need to roll out a new service.
+  ms.date: 09/06/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+  [!include[](includes/service-adoption-framework.md)]

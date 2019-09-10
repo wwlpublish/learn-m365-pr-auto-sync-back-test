@@ -1,0 +1,1 @@
+Discussion of the knowledge areas needed as part of the service adoption framework.

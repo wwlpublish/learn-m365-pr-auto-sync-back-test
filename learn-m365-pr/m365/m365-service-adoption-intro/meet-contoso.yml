@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.service-adoption-intro.meet-contoso
+title: Meet Contoso - your company for training
+metadata:
+  title: Meet Contoso - your company for training
+  description: Learn about Contoso, the company we'll use to demonstrate the phases for rolling out a new cloud service.
+  ms.date: 09/06/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 2
+content: |
+  [!include[](includes/meet-contoso.md)]
