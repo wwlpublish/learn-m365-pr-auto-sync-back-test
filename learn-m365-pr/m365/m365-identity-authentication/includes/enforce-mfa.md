@@ -1,6 +1,6 @@
 # Require MFA via management and monitoring
 
-Christina travels from her home office in Seattle to her company’s Tokyo office for the first time. Identity Protection could have triggered a risk detection requiring her to MFA. She would need to use MFA to register the new device. If her IT department can’t validate her and suspect something is wrong, they can force all of her devices to reset their MFAs. 
+Christina travels from the home office in Seattle to the Tokyo office for the first time. Identity Protection could have triggered a risk detection requiring  MFA. Christina needs to use MFA to register the new device. If the IT department can’t validate the device and suspect something is wrong, they can force all of all devices registered under Christina to reset their MFAs. 
 
 ## Require  MFA
 Microsoft 365 uses MFA to help provide an extra layer of security and is managed from the admin center. Office 365 offers the following subset of MFA authentication capabilities:
@@ -9,7 +9,7 @@ Microsoft 365 uses MFA to help provide an extra layer of security and is managed
 
 Here are some recommended methods to enforce MFA:
 •	Require users to authenticate their smart phone, laptop, or other device with MFA before they register it with Intune to access your network.
-•	Monitor the health of your user accounts with Azure AD, and when needed, require users to reset their password, re-register for MFA, or revoke existing MFA sessions from their user object.   Also if you trust the device or the device can do MFA (Windows Hello for Business) then don’t require separate MFA.
+•	Monitor the health of your user accounts with Azure AD, and when needed, require users to reset their password, re-register for MFA, or revoke existing MFA sessions from their user object.
 
 ## Learn More
 •	(Conditional Access policy)[https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview]

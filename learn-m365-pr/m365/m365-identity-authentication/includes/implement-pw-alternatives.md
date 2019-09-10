@@ -21,7 +21,7 @@ That means you can keep identities safe no matter where you are physically. FIDO
  
 ![Password Risk Data](../media/icon21.png)
 
-In the above example, Christina would leverage Windows Hello directly on her laptop to sign in to her system. She’d enter her PIN or look directly into the camera to verify her identity.  Windows Hello verifies her identity and generates the required security keys to grant her the right access to the right materials.
+In the above example, Christina would leverage Windows Hello directly on her laptop to sign in to the corporate network. She’d enter her PIN or look directly into the camera to verify identity.  Windows Hello verifies her identity and generates the required security keys to grant the right access to the right materials.
 
 ## Learn More
 •	(Windows Hello for Business Overview)[https://docs.microsoft.com/en-us/windows/security/identity-protection/hello-for-business/hello-overview]
