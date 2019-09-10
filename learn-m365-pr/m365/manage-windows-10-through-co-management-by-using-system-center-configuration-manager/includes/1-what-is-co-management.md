@@ -21,7 +21,7 @@ When a Windows 10 device has the Configuration Manager client and is enrolled to
 
 |||
 | :--- | :--- |
-| ![Icon indicating play video](../media/video_icon.png)| Watch this video to learn more about how you can quickly drive new management value. Co-management is built to create features and tools you can use right now.|
+| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about how you can quickly drive new management value. Co-management is built to create features and tools you can use right now.|
 
 >[!VIDEO https://www.youtube.com/embed/ynpmB7LBiRc]
 
