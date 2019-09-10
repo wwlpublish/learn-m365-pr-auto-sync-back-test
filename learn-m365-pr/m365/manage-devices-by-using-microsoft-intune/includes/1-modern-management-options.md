@@ -46,13 +46,13 @@ Mobile Device Management (MDM) for Office 365 offers a subset of Intune services
 
 If your organization has an Office 365 tenant, you can use either Intune or Mobile Device Management for Office 365 to manage individual devices. In fact, you can use both within the same tenant and target specific users and devices with the solution that you feel is best. While MDM for Office 365 provides basic MDM capabilities, Intune provides the most comprehensive device management solution from Microsoft.  The primary differences are:
 
-- **Cost**. Mobile Device Management for Office 365 is included with most Office 365 subscriptions. Intune is either a separate, paid subscription or part of an EMS subscription. EMS is included with an Enterprise E5 subscription, so you might already have Intune.
+- **Cost:** Mobile Device Management for Office 365 is included with most Office 365 subscriptions. Intune is either a separate, paid subscription or part of an EMS subscription. EMS is included with an Enterprise E5 subscription, so you might already have Intune.
 
-- **Management interface**. Mobile Device Management for Office 365 uses the Office 365 Security & Compliance Center. Intune uses its own portal or **System Center Configuration Manager (SCCM)**.
+- **Management interface:** Mobile Device Management for Office 365 uses the Office 365 Security & Compliance Center. Intune uses its own portal or **System Center Configuration Manager (SCCM)**.
 
-- **Devices**. Intune manages the same devices as Mobile Device Management for Office 365 along with Mac OS X devices and all Windows PCs.
+- **Devices:** Intune manages the same devices as Mobile Device Management for Office 365 along with Mac OS X devices and all Windows PCs.
 
-- **Capabilities**. Intune has all the capabilities of Mobile Device Management for Office 365, and it can also:
+- **Capabilities:** Intune has all the capabilities of Mobile Device Management for Office 365, and it can also:
 
   - Help users access corporate resources with certificates, wireless networks, VPNs, and email profiles.
 
