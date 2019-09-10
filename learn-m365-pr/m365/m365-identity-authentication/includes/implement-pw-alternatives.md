@@ -19,7 +19,7 @@ That means you can keep identities safe no matter where you are physically. FIDO
 •	Password-free access to as many apps and devices as possible.  
 •	Strong two-factor authentication on Windows 10 devices with Windows Hello. 
  
-![Password Risk Data](../media/icon21.png)
+![Password Risk Data](../media/icon21.jpg)
 
 In the above example, Christina would leverage Windows Hello directly on her laptop to sign in to the corporate network. She’d enter her PIN or look directly into the camera to verify identity.  Windows Hello verifies her identity and generates the required security keys to grant the right access to the right materials.
 
