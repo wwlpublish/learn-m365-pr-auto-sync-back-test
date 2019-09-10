@@ -1,4 +1,4 @@
-﻿Until recently, managing an organization’s technological infrastructure and PCs was done using dissimilar tools and methods that meant IT professionals had to do lots of hands-on, manual, and time-consuming tasks. New kinds of device form factors, new approaches in Windows 10 management, advancements in cloud technology, and **bring your own device (BYOD)** trends have made the move toward modern management more compelling for many organizations - not only for mobile devices, but also for PCs.
+Until recently, managing an organization’s technological infrastructure and PCs was done using dissimilar tools and methods that meant IT professionals had to do lots of hands-on, manual, and time-consuming tasks. New kinds of device form factors, new approaches in Windows 10 management, advancements in cloud technology, and **bring your own device (BYOD)** trends have made the move toward modern management more compelling for many organizations - not only for mobile devices, but also for PCs.
 
 Modern management is a novel approach of managing Windows 10 similar to how mobile devices are managed by **Enterprise Mobility Management (EMM)** solutions. This approach allows you to simplify deployment and management, improve security, provide better end user experiences, and lower costs for your Windows devices. With modern management, you can now manage Windows 10 devices of all kinds, from desktop PCs to HoloLens and Surface Hubs, company-owned or employee-owned, as well as mobile devices using one management platform.
 
@@ -6,7 +6,7 @@ Video: Modern Windows 10 Management with Enterprise Mobility + Security
 
 |||
 | :--- | :--- |
-| ![Icon indicating play video](../media/video_icon.png)| Watch this video to learn why you should consider implementing a modern management approach for Windows devices in your organization.|
+| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn why you should consider implementing a modern management approach for Windows devices in your organization.|
 
 >[!VIDEO https://www.youtube.com/watch?v=3gAtjMOJ-uw]
 
