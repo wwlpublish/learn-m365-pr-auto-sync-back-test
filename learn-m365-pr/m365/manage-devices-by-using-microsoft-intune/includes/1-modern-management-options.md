@@ -36,7 +36,7 @@ Intune integrates closely with Azure AD for identity and access control, and Azu
 
 In the following diagram, you can see how Intune interacts with other components in both your on-premises and cloud infrastructure:
 
-![Diagram of Intune components](../media/md101-3_2_1_3.png)
+![Diagram of Intune components](../media/md101-3-2-1-3.png)
 
 ## MDM for Office 365
 
