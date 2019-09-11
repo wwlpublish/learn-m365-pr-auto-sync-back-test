@@ -27,7 +27,7 @@ quiz:
       - content: "Automated investigation and response3"
         isCorrect: true
         explanation: "Automated investigation and response is not an identity management feature; it’s a tool that automates investigation and remediation of well-known attack threats."
-	- content: "Role-based access"
+      - content: "Role-based access"
         isCorrect: false
         explanation: "Role-based access helps you manage who has access to Azure resources, what they can do with those resources, and what areas they have access to."
     - content: "When you plan for identity governance in Azure AD, you should: "
