@@ -2,7 +2,7 @@
 
 ## Business use case 
 
-Christina has a desktop at the office, but while traveling for work, Christina signs into her Surface laptop, iPhone, Surface, Office 365 apps, Salesforce, and a handful of custom on-premises apps and databases. She also uses Spotify, WhatsApp, and Netflix when she is on the road. She knows it’s not safe to use the same password, but she can’t keep track of a dozen highly secure credentials, so she often reuses the same password. How would you enable Christina to sign in once with one account to access domain-joined devices, company resources, SaaS and web applications?  
+Christina has a desktop at the office. While traveling, Christina signs into a Surface laptop, iPhone, Surface, Office 365 apps, Salesforce, and a handful of custom on-premises apps and databases. While on the road, she uses Spotify, WhatsApp, and Netflix. Many employees use the same password, even though they know it's not safe. How would you enable Christina to sign in once with one account to access domain-joined devices, company resources, SaaS and web applications?  
 
 ### What is single sign-on 
 
