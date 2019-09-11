@@ -19,7 +19,7 @@ quiz:
     - content: "How do you require multi-factor authentication (MFA) for your end users?"
       choices:
       - content: "Use Azure AD Privileged Identity Management to assign which roles require MFA."
-        isCorrect: fale
+        isCorrect: false
         explanation: "You use Privileged Identity Management to manage who has access to which organization resources."
       - content: "Use a Conditional Access policy to require users to perform MFA when certain criteria are met."
         isCorrect: true
