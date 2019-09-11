@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn-m365.optimize-data-usage
+metadata:
+  title: Optimize Data Usage when Using Microsoft Graph with Query Parameters
+  description: Learn how to control the amount of data returned by Microsoft Graph to optimize queries using query parameters.
+  ms.date: 10/01/2019
+  author: v-johnco
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: ms-graph
+title: Optimize Data Usage when Using Microsoft Graph with Query Parameters
+summary: Microsoft Graph provides a unified programmability model that you can use to build apps for organizations and consumers that interact with the data of millions of users. The Microsoft Graph REST APIs implements many of the OData protocol’s query parameters. In this module, you will learn how to manipulate queries using query parameters.
+abstract: |
+  At the end of this module, you should be able to:
+  - Demonstrate how to manipulate REST queries with query parameters
+  - Create queries that expand complex entities
+  - Demonstrate how to search for content with Microsoft Graph
+  - Optimize Microsoft Graph queries with batching
+prerequisites: |
+  - Basic knowledge of REST services and APIs
+  - Ability to develop with ASP.NET Core at the intermediate level
+  - Experience using Visual Studio Code at the beginner level
+  - Access to an Office 365 tenant
+iconUrl: https://docs.microsoft.com/media/learn/module.svg
+levels:
+- beginner
+- intermediate
+roles:
+- developer
+products:
+- ms-graph
+units:
+- learn-m365.optimize-data-usage.1-introduction
+- learn-m365.optimize-data-usage.2-microsoft-graph-query-parameters
+- learn-m365.optimize-data-usage.3-exercise-retrieve-and-control-information-returned-from-microsoft-graph
+- learn-m365.optimize-data-usage.4-expand-related-entities-&-search-content-in-microsoft-graph
+- learn-m365.optimize-data-usage.5-exercise-expand-related-entities-&-search-content-in-microsoft-graph
+- learn-m365.optimize-data-usage.6-reduce-traffic-with-batched-requests
+- learn-m365.optimize-data-usage.7-exercise-reduce-traffic-with-batched-requests
+- learn-m365.optimize-data-usage.8-summary
+badge:
+  uid: learn-m365.optimize-data-usage.badge

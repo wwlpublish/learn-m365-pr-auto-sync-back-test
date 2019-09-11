@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: >-
+  learn-m365.optimize-data-usage.3-exercise-retrieve-and-control-information-returned-from-microsoft-graph
+metadata:
+  title: Retrieve and control information returned from Microsoft Graph
+  description: In this exercise, you will create a new Azure AD web application registration using the Azure Active Directory admin center, a .NET Core console application and query the Microsoft Graph.
+  ms.date: 10/01/2019
+  author: v-johnco
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: ms-graph
+  ROBOTS: NOINDEX
+title: Retrieve and control information returned from Microsoft Graph
+durationInMinutes: 15
+content: >-
+  [!include[](includes/3-exercise-retrieve-and-control-information-returned-from-microsoft-graph.md)]
