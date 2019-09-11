@@ -1,0 +1,212 @@
+In this exercise, you'll use the Azure AD application and .NET console application you previously created and modify them to demonstrate using the delta query feature of Microsoft Graph. An application can leverage the delta query feature to avoid costly requests to poll for changes in Microsoft Graph that can trigger requests to be throttled.
+
+## Add an Additional Permission the Azure AD Application
+
+In this exercise, you will update the application to get a list of all the users in the tenant. To perform this task, the Azure AD application needs additional permissions.
+
+Open a browser and navigate to the [Azure Active Directory admin center (https://aad.portal.azure.com)](https://aad.portal.azure.com). Login using a **Work or School Account**.
+
+Select **Azure Active Directory** in the left-hand navigation.
+
+  ![Screenshot of the App registrations](../media/aad-portal-home.png)
+
+Select **Manage > App registrations** in the left-hand navigation.
+
+On the **App registrations** page, select the **Graph Console App**, or the name of the application you created in this module in a previous exercise.
+
+Select **API Permissions** in the left-hand navigation panel.
+
+![Screenshot of the API Permissions navigation item](../media/aad-portal-newapp-permissions-01.png)
+
+Select the **Add a permission** button.
+
+![Screenshot of the Add permission button](../media/aad-portal-newapp-permissions-02.png)
+
+In the **Request API permissions** panel that appears, select **Microsoft Graph** from the **Microsoft APIs** tab.
+
+![Screenshot of Microsoft Graph in the Request API permissions panel](../media/aad-portal-newapp-permissions-03.png)
+
+When prompted for the type of permission, select **Delegated permissions** and search for the permission **Users.Read.All**, select it and then select the **Add permission** button at the bottom of the panel.
+
+At the bottom of the **API Permissions** panel, select the button **Grant admin consent for [tenant]**, followed by the **Yes** button to grant all users in your organization this permission.
+
+## Update the Console Application to Use Delta Query
+
+Now you will update the application to retrieve and then display all users in the tenant with Microsoft Graph. After displaying the list of users, the application will sleep for ten seconds and repeat the same query, but instead only display the users who have been added or updated.
+
+First, add the following two members to the class, immediately before the `Main` method:
+
+```cs
+private static object _deltaLink = null;
+private static IUserDeltaCollectionPage _previousPage = null;
+```
+
+### Add a Method to Display Users
+
+Within the **Program.cs** file, add the following method to write all users to the console:
+
+```cs
+private static void OutputUsers(IUserDeltaCollectionPage users)
+{
+  foreach (var user in users)
+  {
+    Console.WriteLine($"User: {user.Id}, {user.GivenName} {user.Surname}");
+  }
+}
+```
+
+## Add a Method to Retrieve Users
+
+Next, add a method to retrieve users with Microsoft Graph. This method will use the delta link feature in Microsoft Graph.
+
+If this is the first time the request is made, indicated by the `_previousPage == null`, you will request all users but also request a delta link using the `Delta()` method. The code will return the current page of users.
+
+Otherwise, if there are more pages of users, it will initiate a request for the next page using the delta link string that you will obtain later.
+
+Add the following method to the `Program` class:
+
+```cs
+private static IUserDeltaCollectionPage GetUsers(GraphServiceClient graphClient, object deltaLink)
+{
+  IUserDeltaCollectionPage page;
+
+  var options = new List<QueryOption>
+  {
+    new QueryOption("$select","id,GivenName,Surname")
+  };
+
+  // IF this is the first request (previous=null), then request all users
+  //    and include Delta() to request a delta link to be included in the
+  //    last page of data
+  if (_previousPage == null)
+  {
+    page = graphClient.Users.Delta().Request(options).GetAsync().Result;
+  }
+  // ELSE, not the first page so get the next page of users
+  else
+  {
+    _previousPage.InitializeNextPageRequest(graphClient, deltaLink.ToString());
+    page = _previousPage.NextPageRequest.GetAsync().Result;
+  }
+
+  _previousPage = page;
+  return page;
+}
+```
+
+## Add a Method to Check for New and Changed Users
+
+The next method will be used to check for new and changed users. The first time it runs, it will get all users and display them page by page until it reaches the last page of the response from Microsoft Graph.
+
+Add the following method to the `Main` class:
+
+```cs
+private static void CheckForUpdates(IConfigurationRoot config, string userName, SecureString userPassword)
+{
+  var graphClient = GetAuthenticatedGraphClient(config, userName, userPassword);
+
+  // get a page of users
+  var users = GetUsers(graphClient, _deltaLink);
+
+  OutputUsers(users);
+
+  // go through all of the pages so that we can get the delta link on the last page.
+  while (users.NextPageRequest != null)
+  {
+    users = users.NextPageRequest.GetAsync().Result;
+    OutputUsers(users);
+  }
+}
+```
+
+The last thing this method needs to do is retrieve the delta link from the last page of results. This delta link, a string, will be used in future requests that will signal to Microsoft Graph to only return users who have been added or changed since the previous request.
+
+Add the following code to the end of the `CheckForUpdates` method:
+
+```cs
+object deltaLink;
+
+if (users.AdditionalData.TryGetValue("@odata.deltaLink", out deltaLink))
+{
+  _deltaLink = deltaLink;
+}
+```
+
+## Update the Application to Use the New `CheckForUpdates` Method
+
+Locate the following code in the `Main` method:
+
+```cs
+var userName = ReadUsername();
+var userPassword = ReadPassword();
+```
+
+Remove all the existing code in this method after these two lines.
+
+Next, add the following code to after the previous two lines above. This will use the `CheckForUpdates` method to get a list of all users. It will then go into an infinite loop, sleeping for ten seconds, and issue the same request again:
+
+```cs
+Console.WriteLine("All users in tenant:");
+CheckForUpdates(config, userName, userPassword);
+Console.WriteLine();
+while (true)
+{
+  Console.WriteLine("... sleeping for 10s - press CTRL+C to terminate");
+  System.Threading.Thread.Sleep(10 * 1000);
+  Console.WriteLine("> Checking for new/updated users since last query...");
+  CheckForUpdates(config, userName, userPassword);
+}
+```
+
+The first request will result in the application obtaining the delta link that will be used in future requests to include only the new and changed users. Each time users are requested, the delta link will be refreshed.
+
+
+### Build and Test the Application
+
+Run the following command in a command prompt to compile the console application:
+
+```shell
+dotnet build
+```
+
+Run the following command to run the console application:
+
+```shell
+dotnet run
+```
+
+After entering the username and password for the current user, the application will write all the users in the tenant to the console:
+
+![Screenshot of the console displaying all users](../media/app-run-07-01.png)
+
+If you let the app run for a few moments without doing anything, notice it will keep requesting users, but not display anyone as no users have been created in your tenant:
+
+![Screenshot of the console displaying no new users](../media/app-run-07-02.png)
+
+Now, add a new user to your tenant.
+
+Open a browser and navigate to the [Azure Active Directory admin center (https://aad.portal.azure.com)](https://aad.portal.azure.com). Login using a **Work or School Account**.
+
+Select **Azure Active Directory** in the left-hand navigation.
+
+![Screenshot of the App registrations](../media/aad-portal-home.png)
+
+Copy of the Azure AD instance domain listed on the instance portal, highlighted above the name of the instance in the figure above.
+
+Select **Manage > Users** in the left-hand navigation.
+
+On the **Users - All Users** page, select **New User**.
+
+Create a new user by entering the values in the **Identity** section of the **New User** page and select **Create** at the bottom of the form.
+
+![Screenshot creating a new user](../media/app-run-07-03.png)
+
+Watch the running application in the console. The next time it runs, it will display the new user that you just created:
+
+![Screenshot of the console app displaying the new user](../media/app-run-07-04.png)
+
+Press <kbd>CTRL</kbd>+<kbd>C</kbd> to terminate the application.
+
+## Summary
+
+In this exercise, you used the Azure AD application and .NET console application you previously created and modified them to demonstrate using the delta query feature of Microsoft Graph. An application can leverage the delta query feature to avoid costly requests to poll for changes in Microsoft Graph that can trigger requests to be throttled.
