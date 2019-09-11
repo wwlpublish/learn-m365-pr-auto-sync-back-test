@@ -3,7 +3,7 @@ uid: learn-m365.directory-network-readiness.5-summary-and-knowledge-check
 title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
-  description: Learn about the tools and options for preparing your directory services and network for deployment .
+  description: Learn about the tools and options for preparing your directory services and network for deployment.
   ms.date: 04/28/2019
   author: lizap
   ms.author: elizapo
@@ -16,41 +16,35 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "If your organization already uses Office 365 services like Exchange Online or SharePoint Online, you’re already using Azure AD."
+    - content: "If your organization uses Office 365 services like Exchange Online or SharePoint Online, you’re already using Azure AD."
       choices:
       - content: "True"
         isCorrect: true
-        explanation: "Yes, this statement is true. You're already using Azure AD for these Office 365 services."
+        explanation: "Yes, Office 365 services use Azure AD for identity and access management."
       - content: "False"
         isCorrect: false
-        explanation: "No, this statement is true. You're already using Azure AD for these Office 365 services."
+        explanation: "This answer is incorrect. Office 365 services use Azure AD for identity and access management."
       
-    - content: "Bandwidth requirements for an initial migration of Office 365 ProPlus can exceed:"
+    - content: "How much bandwidth does the initial migration of a user's profile in Window consume?"
       choices:
-      - content: "20GB"
+      - content: "More than 20 GB"
         isCorrect: true
-        explanation: "Yes, bandwidths may exceed 20 GB."
-      - content: "20MB"
+        explanation: "Yes, bandwidth consumption often exceeds 20 GB when you migrate user state from an old PC or older version of Windows to a new one. When you're planning how much bandwidth you need, consider storage, the time it takes to transfer files off and back onto a PC, matching user state to the correct devices, and the steps needed to safely delete temporary files after migration."
+      - content: "1 TB"
         isCorrect: false
-        explanation: "No, this is false. Bandwidths may exceed 20 GB."
-      - content: "1GB"
+        explanation: "No, this is false. While some users might have 1 TB of user state data, in those cases you should assess the types and ages of their files before you migrate that much data. You might want to block unwanted file types or skip files that haven't been accessed in a set time period (like your document archival requirements)."
+      - content: "300 GB"
         isCorrect: false
-        explanation: "No, this is false. Bandwidths may exceed 20 GB."
-      - content: "3GB"
-        isCorrect: false
-        explanation: "No, this is false. Bandwidths may exceed 20 GB."
-      - content: "6GB"
-        isCorrect: false
-        explanation: "No, this is false. Bandwidths may exceed 20 GB."
+        explanation: "No, this is false. While some users might have 300 GB of user state data, in those cases you should assess the types and ages of their files before you migrate that much data. You might want to block unwanted file types or skip files that haven't been accessed in a set time period (like your document archival requirements)."
 
     - content: "What's one of the primary functions of Azure Active Directory?"
       choices:
-      - content: "Azure AD controls access to your apps and app resources by requiring multi-factor access authentication."
+      - content: "Controlling access to apps, data, and resources in Office 365 and other Microsoft cloud services"
         isCorrect: true
-        explanation: "Yes, this is a primary function of Azure AD."
-      - content: "Azure AD is a readiness assessment tool."
+        explanation: "Yes, this one of Azure AD's primary functions. Azure AD manages user accounts, authentication, and authorization."
+      - content: "Assessing readiness"
         isCorrect: false
-        explanation: "No, this is false. Readiness assessment is not a primary function of Azure AD."
-      - content: "Azure AD controls user settings across devices."
+        explanation: "No, this is false. Azure AD isn't a readiness assessment tool."
+      - content: "Controlling user settings across devices."
         isCorrect: false
-        explanation: "No, controlling user settings across devices is not a primary function of Azure AD."
+        explanation: "No, controlling user settings across devices isn't one of Azure AD's primary functions. Some capabilities, like roaming the most recently used files in Office 365 ProPlus or enterprise state roaming in Windows, do use Azure AD, but Azure AD's primary function is controlling access to your apps."
