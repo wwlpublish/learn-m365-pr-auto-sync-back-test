@@ -1,1 +1,1 @@
-# Understand the purpose of Office-Add-ins manifest
+Understand the purpose of Office Add-ins manifest

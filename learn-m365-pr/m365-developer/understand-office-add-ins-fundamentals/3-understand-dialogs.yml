@@ -1,15 +1,15 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365-pr.understand-office-add-ins-fundamentals.3-understand-dialogs
 metadata:
-  title: 3-understand-dialogs
-  description: ...
-  ms.date: ...
-  author: elizabethsamuel-msft
+  title: Understand dialogs
+  description: In this unit, you will learn about using dialogs in Office Add-ins.
+  ms.date: 10/01/2019
+  author: ElizabethSamuel-MSFT
   ms.author: elizs
   ms.topic: interactive-tutorial
-  ms.prod: ...
+  ms.prod: learning-m365
   ROBOTS: NOINDEX
-title: 3-understand-dialogs
+title: Understand dialogs
 durationInMinutes: 1
 content: |
   [!include[](includes/3-understand-dialogs.md)]

@@ -1,1 +1,1 @@
-# Understand dialogs
+Understand dialogs
