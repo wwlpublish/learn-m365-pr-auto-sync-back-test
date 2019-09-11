@@ -29,7 +29,7 @@ In the above example, Christina would leverage Windows Hello directly on her lap
 # Microsoft Authenticator 
 The Microsoft Authenticator app is another passwordless solution. It uses technology similar to Windows Hello and is packaged into a simple app on an Android or iOS mobile device. It enables smartphone or tablet users to verify their identity and authenticate to their Azure AD account. Users confirm their identity through PIN, fingerprint scan, or facial or iris recognition. 
 
-![Password Risk Data](../media/icon222.png)
+![Password Risk Data](../media/icon22.png)
  
 This works great for people who travel like Christina. She can switch between multiple devices and be authenticated from her phone through a PIN or biometric data.  
 Before users can perform passwordless sign in with Microsoft Authenticator, you should ensure that:
