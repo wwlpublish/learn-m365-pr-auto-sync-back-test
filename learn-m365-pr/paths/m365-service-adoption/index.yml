@@ -2,17 +2,15 @@
 uid: learn-m365.service-adoption
 metadata:
   title: Use the Microsoft service adoption framework to drive adoption in your enterprise
-  description: In this introductory course you'll learn the six critical elements to drive adoption of your Microsoft cloud services to deliver value to your company. This course is applicable to any size company and uses Office 365 and Microsoft Teams as the example service to create real world scenarios. <br> 
-This is a course for professionals who are accountable for or learning how to drive the adoption of Microsoft services in their organization. We'll help you learn the essential skills required to craft and execute a service adoption plan. In this course we will use the implementation of Microsoft Teams as our example service. Our framework is designed to be used with any service you may be implementing, but some sections will be specific to Microsoft Teams. All required information is contained in this course. 
+  description: In this introductory course, you'll learn the six critical elements to drive adoption of your Microsoft cloud services to deliver value to your company. This course is applicable to any size company and uses Office 365 and Microsoft Teams as the example service to create real world scenarios.  
   ms.date: 09/11/2019
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-  ROBOTS: NOINDEX
 title: Use the Microsoft service adoption framework to drive adoption in your enterprise
-summary: Learn how to leverage the service adoption framework to deploy and drive adoption of a service in your enterprise.
-prerequisites: You are not required to have a prior education in organizational change management to participate in this course, however there are additional readings that can be helpful in not only the successful completion of this experience but in overall development of your service adoption skills.
+summary: In this introductory course, you'll learn the six critical elements to drive adoption of your Microsoft cloud services to deliver value to your company. This course is applicable to any size company and uses Office 365 and Microsoft Teams as the example service to create real world scenarios. 
+prerequisites: None
 iconUrl: /learn/achievements/m365-fundamentals.svg
 levels: 
 - beginner
