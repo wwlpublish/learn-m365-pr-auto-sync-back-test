@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn-m365-pr.understand-office-javascript-apis
 metadata:
-  title: understand-office-javascript-apis
+  title: Understand Office Javascript APIs
   description: In this module, you will learn about the Office JavaScript APIs.
   ms.date: 10/01/2019
   author: ElizabethSamuel-MSFT
   ms.author: elizs
-  ms.topic: ...
+  ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: understand-office-javascript-apis
+title: Understand Office Javascript APIs
 summary: ...
 abstract: ...
 prerequisites: ...
