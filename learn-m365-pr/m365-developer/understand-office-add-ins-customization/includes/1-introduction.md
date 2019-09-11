@@ -1,1 +1,1 @@
-# Understand customization of Office Add-ins
+Understand how to customize Office Add-ins

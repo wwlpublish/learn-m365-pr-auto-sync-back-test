@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: >-
+  learn-m365-pr.understand-office-add-ins-customization.3-understand-office-ui-fabric-office-add-ins
+metadata:
+  title: Understand Office UI Fabric in Office Add-ins
+  description: In this unit, you will learn about using Office UI Fabric to customize your Office Add-in.
+  ms.date: 10/01/2019
+  author: ElizabethSamuel-MSFT
+  ms.author: elizs
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+title: Understand Office UI Fabric in Office Add-ins
+durationInMinutes: 1
+content: |
+  [!include[](includes/3-understand-office-ui-fabric-office-add-ins.md)]
