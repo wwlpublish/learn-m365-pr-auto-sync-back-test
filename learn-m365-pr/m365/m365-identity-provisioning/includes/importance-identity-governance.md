@@ -16,4 +16,4 @@ You can use Conditional Access to validate a user’s current role against your 
 
 ## Learn More 
 
-* [Azure AD access reviews](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview)
+- [Azure AD access reviews](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview)

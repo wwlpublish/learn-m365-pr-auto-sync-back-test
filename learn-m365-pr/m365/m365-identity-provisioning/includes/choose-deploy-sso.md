@@ -12,19 +12,19 @@ Single sign-on (SSO) is an authentication process for a single-entry access to a
 
 Before you deploy SSO in your organization, you should:  
 
-* Determine how end-users will access their SSO-enabled applications, provision SaaS cloud apps, and craft your communications to match your selection. 
+- Determine how end-users will access their SSO-enabled applications, provision SaaS cloud apps, and craft your communications to match your selection. 
 
-* Determine whether cloud authentication or federated authentication is the best method for your organization. The authentication method is a critical component of an organization’s presence in the cloud because it controls access to all cloud data and resources.  
+- Determine whether cloud authentication or federated authentication is the best method for your organization. The authentication method is a critical component of an organization’s presence in the cloud because it controls access to all cloud data and resources.  
 
 Plan your SSO configuration. For example, you can: 
 
-* Support applications that require multiple sign-in fields 
+- Support applications that require multiple sign-in fields 
 
-* Customize the labels of username and password fields 
+- Customize the labels of username and password fields 
 
-* Allow a business group member to assign specified usernames and passwords to users. 
+- Allow a business group member to assign specified usernames and passwords to users. 
 
-* Plan role-based access 
+- Plan role-based access 
 
 ## What is role-based access 
 
@@ -42,4 +42,4 @@ In the following example, the Marketing group has been assigned the Contributor 
 
 ## Learn more 
 
-[Understand role definitions for Azure resources](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-definitions)
+[Understand role definitions for Azure resources](https://docs.microsoft.com/azure/role-based-access-control/role-definitions)

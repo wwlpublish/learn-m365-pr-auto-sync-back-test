@@ -12,16 +12,16 @@ The risks to your data are clear:
  
 Users tend to value productivity over security; 80% of employees admit using non-approved SaaS apps for work, which may introduce vulnerabilities into your network. 
 
-#@ Identity challenges for today’s organizations  
+## Identity challenges for today’s organizations  
 
 The new threat landscape requires a shift from securing perimeters to protecting identities.
 
 ![New Threat Landscape](../media/icon3.png)  
 
-•	Users need constant access using different technologies across multiple mobile devices, cloud apps, and services. 
+- Users need constant access using different technologies across multiple mobile devices, cloud apps, and services. 
  
-•	Users suffer from an increase in identity attacks because of a lack of visibility and control over their technology. 
+- Users suffer from an increase in identity attacks because of a lack of visibility and control over their technology. 
  
-•	Organizations must comply with evolving data privacy regulations and must constantly monitor their security practices to remain compliant. 
+- Organizations must comply with evolving data privacy regulations and must constantly monitor their security practices to remain compliant. 
  
-•	Users want to stay productive using a simple authentication experience. 
+- Users want to stay productive using a simple authentication experience. 

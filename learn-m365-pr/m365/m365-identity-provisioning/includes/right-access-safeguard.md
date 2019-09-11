@@ -37,14 +37,14 @@ Azure AD B2B collaboration allows you to securely share your company's applicati
 
 Your guest users and external partners manage their own identities through Azure AD, social email accounts, or any identity provider. This benefits your organization because: 
 
-* Partners use their own identities and credentials; Azure AD is not required. 
+- Partners use their own identities and credentials; Azure AD is not required. 
 
-* You don't need to manage external accounts or passwords. 
+- You don't need to manage external accounts or passwords. 
 
-* You don't need to sync accounts or manage account lifecycles. 
+- You don't need to sync accounts or manage account lifecycles. 
 
 ## Learn more 
 
-[Adding or managing guest users](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations) 
+- [Adding or managing guest users](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations) 
 
  
