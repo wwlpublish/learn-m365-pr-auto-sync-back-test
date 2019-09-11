@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn-m365.m365-teams-sharepoint-plan-site-architecture
+metadata:
+  title: Plan your Microsoft SharePoint site architecture
+  description: Discover how to plan your SharePoint sites to optimize sharing and collaborating. Learn about the different types of sites and how to set them up.
+  ms.date: 09/11/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Plan your Microsoft SharePoint site architecture
+summary: Discover how to plan your SharePoint sites to optimize sharing and collaborating. Learn about the different types of sites and how to set them up.  
+abstract: |
+  At the end of this module, you should be able to:
+  - Describe SharePoint team sites.
+  - Describe SharePoint communication sites.
+  - Explain how SharePoint hub sites work with team and communications sites and how to set them up.
+
+prerequisites: None
+iconUrl: http://via.placeholder.com/120x120
+ratingEnabled: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- m365
+units:
+- learn-m365.m365-teams-sharepoint-plan-site-architecture.introduction
+- learn-m365.m365-teams-sharepoint-plan-site-architecture.team-sites
+- learn-m365.m365-teams-sharepoint-plan-site-architecture.communication-sites
+- learn-m365.m365-teams-sharepoint-plan-site-architecture.site-creation-options
+- learn-m365.m365-teams-sharepoint-plan-site-architecture.hub-sites
+- learn-m365.m365-teams-sharepoint-plan-site-architecture.hub-sites-organize-content
+- learn-m365.m365-teams-sharepoint-plan-site-architecture.summary-knowledge-check
+
+badge: 
+  uid: learn-m365.m365-teams-sharepoint-plan-site-architecture.badges
