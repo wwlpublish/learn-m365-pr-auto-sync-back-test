@@ -19,7 +19,7 @@ products: [office-add-ins]
 units:
 - learn-m365-pr.understand-office-javascript-apis.1-introduction
 - learn-m365-pr.understand-office-javascript-apis.2-understand-office-add-ins-programming-model
-- learn-m365-pr.understand-office-javascript-apis.3-understand-office-add-in-developer-tools
+- learn-m365-pr.understand-office-javascript-apis.3-understand-office-add-ins-developer-tools
 - learn-m365-pr.understand-office-javascript-apis.4-understand-excel-javascript-api-capabilities
 - learn-m365-pr.understand-office-javascript-apis.5-understand-outlook-javascript-api-capabilities
 - learn-m365-pr.understand-office-javascript-apis.6-understand-word-javascript-api-capabilities
