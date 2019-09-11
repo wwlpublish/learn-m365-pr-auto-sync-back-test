@@ -4,7 +4,7 @@ You can use Advanced eDiscovery to review and redact content prior to export to 
 
 These tools can help significantly reduce the costs of eDiscovery. In fact, at Microsoft, while average data per custodian has grown 20x, the cost per custodian of eDiscovery has been reduced 85% with the use of the built-in capabilities. 
 
-Watch this video to learn more about how Advanced eDiscovery can help you hold, search, refine, analyze, review and export your relevant content.
+Watch this video to learn more about how Advanced eDiscovery can help you hold, search, refine, analyze, review, and export your relevant content.
 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWrp95]

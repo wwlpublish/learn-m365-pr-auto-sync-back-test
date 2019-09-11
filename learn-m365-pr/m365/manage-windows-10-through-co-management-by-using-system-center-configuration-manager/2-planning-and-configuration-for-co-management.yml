@@ -1,0 +1,15 @@
+﻿### YamlMime:ModuleUnit
+uid: learn-m365-pr.manage-windows-10-through-co-management-by-using-system-center-configuration-manager.2-planning-and-configuration-for-co-management
+title: Planning and configuration for co-management
+metadata:
+  title: Planning and configuration for co-management
+  description: Describe the available workloads supported by co-management and how to plan your deployment
+  ms.date: 9/4/2019
+  author: dahans-msft2
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS:   NOINDEX 
+durationInMinutes: 5
+content: |
+  [!include[](includes/2-planning-and-configuration-for-co-management.md)] 
