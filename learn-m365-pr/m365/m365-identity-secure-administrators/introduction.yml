@@ -1,15 +1,15 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365-identity.m365-identity-secure-administrators.introduction
-title: Introduction to enhanced security for administrators
+title: Introduction to protect those most targeted
 metadata:
-  title: Introduction to enhanced security for administrators
-  description:  Learn about enhanced security for administrators in Microsoft 365
-  ms.date: 07/12/2019
-  author: AlexandraHrt
-  ms.author: aleha
+  title: Introduction to protect those most targeted
+  description:  Learn how to protect administrator accounts in Microsoft 365
+  ms.date: 09/06/2019
+  author: puffinanda
+  ms.author: v-jolev
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
   ROBOTS: NOINDEX
-durationInMinutes: 3
+durationInMinutes: 1
 content: |
   [!include[](includes/introduction.md)]
