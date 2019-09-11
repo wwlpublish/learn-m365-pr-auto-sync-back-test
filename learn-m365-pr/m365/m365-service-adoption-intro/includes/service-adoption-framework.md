@@ -1,4 +1,4 @@
->![Framework overview](../media/framework-overview.png)
+>![Framework overview](../media/service-adoption-framework.png)
 
 This training uses the enhanced adoption framework for teamwork and the modern workplace designed by the Microsoft Teams engineering team in partnership with adoption and marketing partners at Microsoft. This framework represents what we've learned from working with customers, listening to partners, and observing our service adoption programs worldwide. Key enhancements to this framework are:
 
