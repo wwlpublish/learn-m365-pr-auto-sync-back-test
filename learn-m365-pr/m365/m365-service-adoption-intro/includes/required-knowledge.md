@@ -1,10 +1,12 @@
 >![Key skills and knowledge areas to drive adoption](../media/knowledge-areas.png)
 
-Service adoption refers to the ability of an organization to drive healthy usage of the business and technical capabilities that are delivered to employees. Healthy usage refers to the ability for employees to use these capabilities to deliver business outcomes in their organization. Essential to this goal is the focus on the employee experience and their digital literacy with the relevant tools and processes that are delivered in combination by business and IT leaders. 
+*Service adoption* refers to the ability of an organization to drive healthy usage of the business and technical capabilities of a service. *Healthy usage* refers to employees using the service to deliver business outcomes in their organization. Your employees' experience and digital literacy with tools and processes are essential to healthy usage. 
 
-Throughout this course you will find the partnership of IT and business highlighted. Organizational change management normally focuses on the experience of both the organization and the employee. In service adoption the technical capabilities that are being delivered and their reliability, ease of use and applicability to employees are an integral part of the process. In successful service adoption both technical and user needs are addressed and integrated into the overall project plan.  
+This training highlights the partnership of IT and business. Organizational change management normally focuses on the experience of both the organization and the employee. In service adoption the technical capabilities and their reliability, ease of use, and applicability to employees are an integral part of the process. In successful service adoption both technical and user needs are addressed and integrated into the overall project plan.  
 
-As a Service Adoption Specialist you are at the center of driving human and technical changes that will deliver business outcomes! This exciting role has evolved as the demands of business and technology have increased in pace and complexity. There are six knowledge areas we have defined that are required to drive adoption. They are:
+As a service adoption specialist you're at the center of driving human and technical changes to deliver business outcomes. This role has evolved as businesses and technology have increased in pace and complexity. 
+
+There are six knowledge areas we have defined that are required to drive adoption. They are:
 - Organizational development
 - Business acumen
 - Technical competence
@@ -12,38 +14,42 @@ As a Service Adoption Specialist you are at the center of driving human and tech
 - Portfolio management
 - Leadership capability
 
-The successful execution of each of these areas increases in complexity depending on the size and regional distribution of your organization. 
+Mastering each of these areas increases in complexity depending on the size and regional distribution of your organization. 
 
 >[NOTE]
-> Before proceeding make sure you've read the Assumptions section of the course introduction. We'll be using these assumptions as we discuss practical application of the knowledge areas above. 
+> Before proceeding make sure you've read the Assumptions section of the course introduction. We'll be using these assumptions as we discuss practical application of the knowledge areas above. (Liza note - need this?)
+
 
 ## Knowledge area - Organizational development
 
 >![Organizational development](../media/org-dev.png)
-As a Service Adoption professional, you are at the nexus of driving organizational and behavioral change for your company. At its heart this change is about people. Centering your project, priorities and enthusiasm around this principle will allow you to sustain the energy required to participate in leading this change. 
 
-Organizational change is defined as the process an organization must go through to change its strategies, processes, culture or technologies. It happens at different paces within a company. Members of the executive suite, given their experience, may adapt to change more readily especially if they are spurred to it by competitive pressure. Alternatively, in many organizations, it is the remote employee who often must solve issues for themselves that quickly adapts to change. 
+As a service adoption professional, you're at the nexus of driving organizational and behavioral change for your company. At its heart this change is about people. Centering your project, priorities, and enthusiasm around people can help sustain the energy required to lead this change. 
 
-Further, what is readily understood common knowledge in the executive suite is often not common to the experience of day to day employees. This does not mean that individual employees do not care about broad company strategy or initiatives. In fact, they normally care very much. However, sweeping high level statements often miss connecting the dots to what is important to the individual employees. This is the job of middle managers who are often ill equipped or under too much pressure to deliver results to focus on the nuances of communication. It is important to know the baseline knowledge of the employees you are attempting to serve. Assessing this knowledge is fundamental step to crafting a successful adoption plan and will be discussed further in following modules.
+*Organizational change* is the process an organization must go through to change its strategies, processes, culture, or technologies. Change happens at different paces in a company. Members of the executive suite, given their experience, may adapt to change more readily, especially if they are spurred by competitive pressure. On the other hand, in many organizations, the remote employees, accustomed to solving issues for themselves, most quickly adapt to change. 
 
->![The gap between strategy and experience](../media/org-dev-2.png)
+What's common knowledge in the executive suite isn't always common to the majority of employees in their day-to-day work. This doesn't mean that individual employees don't care about company strategy or initiatives. In fact, they generally care very much. But sweeping high-level statements from execs often miss what's important to individual employees. Then middle managers, who are often ill-equipped or under too much pressure to deliver results, have to bring out the nuances of communication. It's important to know the baseline knowledge of the employees you are attempting to serve. Assessing their knowledge is a fundamental step to crafting a successful adoption plan and will be discussed further in following modules.
 
-As in any relationship listening is the most important skill you will develop as you carry out your duties in this role. There is no replacement for empathy in driving a superior employee experience. Without listening systems, employee surveys and conversations over lunch and at the water cooler you will not have the relevant information to carry out your duties. In your new role you must:
+>![The gap between strategy and experience](../media/org-dev-1.png)
 
-- Bridge the gap between company strategy and the day to day employee experience
+As in any relationship listening is the most important skill you'll develop in this role. There's no replacement for empathy when your goal is a superior employee experience. Without listening systems, employee surveys, and conversations over lunch and at the water cooler, you won't have the relevant information to carry out your duties. In your new role you must:
+
+- Bridge the gap between company strategy and day-to-day employee experience
 - Be open to feedback of what is and more importantly is not working for employees
 - Balance change with business outcomes
-- Be a productive advocate for the employee experience
-- Find and keep your sense of humor as you deal with these daily challenges
+- Advocate for the employee experience
+- Find and keep your sense of humor
 
 ## Knowledge area - Business acumen
 >![Business acumen knowledge area](../media/business-acumen.png)
 
-Many Service Adoption Specialists come from the marketing or communication sides of an organization. This is often because they have successfully driven change in other areas in the past and are now tasked with a larger initiative. This initiative may not be directly related to technology. Instead they may be tasked with product or service improvements and as a result require better technology to deliver on this goal. Those who come from IT backgrounds also have detailed knowledge of the state of the organization and its ability to respond to market changes and customer demands. Whatever your background in this role you must have a deep understanding of the strategic, competitive, cultural and financial needs of your business.
+Many service adoption specialists come from the marketing or communication sides of an organization. This is often because ?they've had success driving change in other areas in the past and are now tasked with a larger initiative. This initiative might not be directly related to technology. Instead they're tasked with product or service improvements and as a result need better technology to deliver on this goal. Those who come from IT backgrounds also have detailed knowledge of the state of the organization and its ability to respond to market changes and customer demands. Whatever your background you need a deep understanding of the strategic, competitive, cultural, and financial needs of your business.
 
-Understanding the imperatives of the company you are a part of is essential to your success. This is the "connective tissue" between the technology change and the behavioral motivation that will be necessary to deliver change. Almost every organization has goals in the areas shown above. Altering the strategy and culture of a company can spur product and service improvements. Controlling costs is a requirement for every commercial enterprise as is the desire to increase revenue. While these outcomes may not apply to certain not-for-profit or governmental organizations, they have correlating initiatives using different language. 
+It's essential to understand the imperatives of your company. This is the "connective tissue" between the technology change and the behavioral motivation needed to deliver change. Every organization has goals. Altering the strategy and culture of a company can spur product and service improvements. Every commerical enterprise has to control costs while also increasing revenue. (While these outcomes might not apply to certain not-for-profit or governmental organizations, these organziations have their own initiatives.) 
 
-Developing business acumen is not a singular activity. It will continue over the course of your career. You will develop skills that will be able to address issues with greater complexity. You will develop these skills by observing business processes, speaking with employees in various roles and at different levels of seniority and researching your own industry competitors to understand their approach to business transformation. Don't forget that the best teacher is a perceived failure. Often these "failures" can spur the greatest transformations when reviewed as a learning opportunity.  The five areas of business acumen are:
+Developing business acumen is not a one-time activity. It continues over the course of your career. You'll develop skills to address issues with greater complexity. You'll develop these skills by observing business processes, speaking with employees in various roles and at different levels of seniority, and researching your own industry competitors to understand their approach to business transformation. Don't forget that the best teacher is a perceived failure. Often "failures" can spur the greatest transformations when viewed as a learning opportunity.  
+
+The five areas of business acumen are:
 
 1. Influencing company strategy and culture
 2. Product improvement methods
@@ -51,36 +57,36 @@ Developing business acumen is not a singular activity. It will continue over the
 4. Controlling costs
 5. Increasing revenue
 
-If you are not familiar with the top initiatives of your organization: STOP! Step away from this course and go find out what is most important to your company from three key perspectives in the following order:
+If you are not familiar with the top initiatives of your organization: STOP! Step away from this training and go find out what is most important to your company. Consider three key perspectives in the following order:
 
 1. Your customers
 2. Your employees
 3. Your executives
 
-Successful organizations put the customer's needs at the top of the priority list. This should then be balanced with the needs of the employees to deliver on those customer needs. Executives have a vision and specific needs as well that must be woven into the prior two objectives. 
+Successful organizations put the customer's needs at the top of the priority list. This should then be balanced with the needs of the employees to deliver on those customer needs. Finally your executives have a vision and specific needs you must weave into the customer and employees' objectives. 
 
-Your ability to execute an adoption program must be steeped in the language, challenges, objectives and outcomes of your business. There is no substitute for homework in this knowledge area and it must be directly applicable to the organization, business unit or employee role you are attempting to help. 
+Your ability to execute an adoption program must be steeped in the language, challenges, objectives, and outcomes of your business. There's no substitute for homework in this knowledge area. Your knowledge must be directly applicable to the organization, business unit, or employee role you are attempting to help. 
 
 >### Activity 
 >Find a person in your organization who led a 
-project that was not viewed as "successful". After validating with them their perspective ask them for their learnings. Make it clear you are there to learn, not judge their experience. Often you will find these people keen to share their learnings with an interested party. When this is complete ask yourself these questions:
+project that was not viewed as "successful." After validating with them their perspective, ask them what they learned. Make it clear you are there to learn, not to judge their experience. Often you'll find people keen to share their learnings with an interested party. After your conversation, ask yourself these questions:
 >- How can this lesson help others?
 >- What would I do differently?
 >- Could better technology or communication have changed the outcome?
->- Could better technology or communication have changed the perception of the outcome?
+>- Could better technology or communication have changed *the perception* of the outcome?
 
 ## Knowledge area - Technical competence
 
 >![Technical competence](../media/technical-competence.png)
 
-Technical competence refers to the ability to have the depth of knowledge required to apply specific technology to a business problem to achieve a desired outcome. Without understanding what you can do, how you can do it and the cost of changes you will not be able to judiciously apply technology in your organization. It is critical in your role that you not be enamored with new features simply because they exist, but instead be enthusiastic about how you can remove difficulties from your employees through the elegant implementation of technology. 
+Technical competence is the depth of knowledge required to apply specific technology to a business problem to achieve a desired outcome. Without understanding what you can do, how you can do it, and how much it costs, you can't judiciously use technology in your organization. It's critical that you not focus on new features simply because they exist, but instead focus on how you can make your employees' lives easier with the right technology. 
 
-This again requires study however those not coming to the discipline of service adoption from an IT background should not be daunted by this knowledge pillar. You do not require a computer science degree to achieve the appropriate level of knowledge. What is relevant in this area is hands on knowledge that is applicable to the business scenario you are trying to improve and the partnership of a willing IT professional who can support you in understanding another important element: the cost of change. 
+This requires study. If you don't have an IT background don't be daunted by this knowledge pillar. You don't need a computer science degree to achieve the appropriate level of knowledge. What's relevant in this area is hands-on knowledge applicable to the business scenario you are trying to improve. You can also use the partnership of a willing IT professional to help with another important element: the cost of change. 
 
-Technology changes can be expensive far beyond the cost of the hardware or software that you are selecting. Employee training, technical training, configuration and deployment time, updating customer and executive expectations and ensuring service health and reliability are all components of the cost of change. It is critical that you ensure your own knowledge of the selected technology and whenever possible bring the voice the employee to the table when making these selections. You must also balance initial vs long term change costs. Building the digital literacy of your employee base using out of the box tools will reduce change costs in the future. Incorporating process changes as you teach the new tools will minimize the disruption of small but frequent incremental changes. 
+Technology changes can be expensive far beyond the cost of the hardware or software. Employee training, technical training, configuration and deployment time, updating customer and executive expectations, and ensuring service health and reliability are all components of the cost of change. Take the time needed to understand the new technology and, whenever possible, bring the voice the employee to the table. You also need to balance initial vs long term change costs. For example, building the digital literacy of your employee base using out of the box tools will reduce change costs in the future. Incorporating process changes as you teach the new tools will minimize the disruption of small but frequent incremental changes. 
 
 >### Optional activity 
->Purchase for yourself a subscription to Office 365. This will give you access to all the administrative tools and workloads that you may use in your work environment. This monthly cost is a small investment in your career and allows you to learn in a safe environment. Alternatively, ask your IT department if they have a "test" or "development" tenant where you can be a user with administrative rights so that you can learn on your own. For many of us there is no alternative to hand-on learning. You can also take advantage of other online Microsoft learning experiences that have lab's attached so you can build out your own solutions. 
+>Buy yourself a subscription to Office 365. This will give you access to all the administrative tools and workloads that you may use in your work environment. This monthly cost is a small investment in your career and allows you to learn in a safe environment. Alternatively, ask your IT department if they have a "test" or "development" tenant where you can be a user with administrative rights so that you can learn on your own. For many of us there is no alternative to hand-on learning. You can also take advantage of other online Microsoft learning experiences that have lab's attached so you can build out your own solutions. 
 
 ## Knowledge area - Marketing and communications
 >![Marketing and communications](../media/market-comms.png)
@@ -94,7 +100,7 @@ Communications in the context of service adoption does NOT mean sending an email
 Superior communication can overcome the most difficult of technical and organizational challenges. Visual elements are required to fully leverage a human's ability to learn and retain information quickly! A professionally designed poster is worth a thousand emails!
 
 ## Knowledge area - Portfolio management
->![Portfolio management](../media/portfolio-management.png)
+>![Portfolio management](../media/portfolio-mgmt.png)
 
 Portfolio management in service adoption is the ability to design and manage and individual improvement project or a portfolio of improvements into a cohesive employee experience roadmap for your organization. It requires all the skills listed in previous sections of this knowledge area list. A roadmap that delivers improvements to the employee experience must balance the needs of customers, measurable business outcomes, technical capabilities and culture to deliver change in the right sized bites for your organization. 
 
