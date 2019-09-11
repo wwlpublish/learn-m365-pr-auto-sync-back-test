@@ -14,7 +14,7 @@ Here are some recommended methods to enforce MFA:
 ## Learn More
 •	(Conditional Access policy)[https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview]
 •	(Require multi-factor authentication at device enrollment)[https://docs.microsoft.com/en-us/intune/multi-factor-authentication]
-•	(Configure Conditional Access policy to require MFA)[https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-mfa-getstarted#plan-conditional-access-policies]
+•	(Configure Conditional Access policy to require MFA)[https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted#plan-conditional-access-policies]
 •	(Manage user settings)[https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-mfa-userdevicesettings]
 
 # Planning a cloud-based Azure MFA deployment
@@ -29,4 +29,4 @@ o	all users assigned to a specific role
 •	Is the device outside of expected network location or geo-located IP address?
 
 ## Learn More
-•	 (Conditional Access policy)[https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview]
+•	 (Conditional Access policy)[https://docs.microsoft.com/azure/active-directory/conditional-access/overview]

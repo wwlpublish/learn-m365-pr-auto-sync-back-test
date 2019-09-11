@@ -24,7 +24,7 @@ That means you can keep identities safe no matter where you are physically. FIDO
 In the above example, Christina would leverage Windows Hello directly on her laptop to sign in to the corporate network. She’d enter her PIN or look directly into the camera to verify identity.  Windows Hello verifies her identity and generates the required security keys to grant the right access to the right materials.
 
 ## Learn More
-•	(Windows Hello for Business Overview)[https://docs.microsoft.com/en-us/windows/security/identity-protection/hello-for-business/hello-overview]
+•	(Windows Hello for Business Overview)[https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-overview]
 
 # Microsoft Authenticator 
 The Microsoft Authenticator app is another passwordless solution. It uses technology similar to Windows Hello and is packaged into a simple app on an Android or iOS mobile device. It enables smartphone or tablet users to verify their identity and authenticate to their Azure AD account. Users confirm their identity through PIN, fingerprint scan, or facial or iris recognition. 
@@ -38,4 +38,4 @@ Before users can perform passwordless sign in with Microsoft Authenticator, you 
 
 Learn More
 •	(Microsoft Authenticator App Overview)[https://docs.microsoft.com/en-us/azure/active-directory/user-help/user-help-auth-app-overview]
-•	(Passwordless sign-in with Microsoft Authenticator)[https://docs.microsoft.com/en-us/azure/security/fundamentals/ad-passwordless#passwordless-sign-in-with-microsoft-authenticator]
+•	(Passwordless sign-in with Microsoft Authenticator)[https://docs.microsoft.com/azure/security/fundamentals/ad-passwordless#passwordless-sign-in-with-microsoft-authenticator]

@@ -42,4 +42,4 @@ In the following example, the Marketing group has been assigned the Contributor 
 
 # Learn more 
 
-[Understand role definitions for Azure resources]()
+[Understand role definitions for Azure resources](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-definitions)
