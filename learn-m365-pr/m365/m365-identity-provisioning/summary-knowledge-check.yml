@@ -30,7 +30,7 @@ quiz:
     - content: "When you plan for identity governance in Azure AD, you should: "
       choices:
       - content: "Determine which users and groups should have access to which resources at which time."
-        isCorrect: true
+        isCorrect: false
         explanation: "When planning for identity governance, you should determine how soon a user has access to the resources they need and how their access changes over time."
       - content: "Prioritize the right set of alerts for investigation."
         isCorrect: true
