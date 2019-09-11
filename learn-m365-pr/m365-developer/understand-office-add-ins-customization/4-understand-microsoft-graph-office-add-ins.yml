@@ -1,6 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: >-
-  learn-m365-pr.understand-office-add-ins-customization.4-understand-microsoft-graph-office-add-ins
+uid: learn-m365-pr.understand-office-add-ins-customization.4-understand-microsoft-graph-office-add-ins
 metadata:
   title: Understand when and how to use Microsoft Graph in Office Add-ins
   description: In this unit, you will learn about using Microsoft Graph in your Office Add-in.
