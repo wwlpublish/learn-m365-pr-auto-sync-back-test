@@ -19,7 +19,7 @@ quiz:
     - content: "How do you require multi-factor authentication (MFA) for your end users?"
       choices:
       - content: "Use Azure AD Privileged Identity Management to assign which roles require MFA."
-        isCorrect: true
+        isCorrect: fale
         explanation: "You use Privileged Identity Management to manage who has access to which organization resources."
       - content: "Use a Conditional Access policy to require users to perform MFA when certain criteria are met."
         isCorrect: true
@@ -30,9 +30,9 @@ quiz:
     - content: "How would you prepare to implement passwordless authentication for your mobile device users?"
       choices:
       - content: "Enable multi-factor authentication (MFA), use Microsoft Intune to ensure that users can enroll their mobile devices, and require users to install the Microsoft Authenticator app."
-        isCorrect: true
-        explanation: "Enable single sign-on, turn on Conditional Access, use Microsoft Intune to enable users to enroll their devices, and require users to install the Microsoft Authenticator app."
         isCorrect: false
+        explanation: "Enable single sign-on, turn on Conditional Access, use Microsoft Intune to enable users to enroll their devices, and require users to install the Microsoft Authenticator app."
+        isCorrect: true
         explanation: "You must enable MFA to implement passwordless authentication."
       - content: "Enable MFA, turn on Conditional Access, and require users to install the Microsoft Authenticator app."
         isCorrect: false
