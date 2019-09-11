@@ -1,0 +1,29 @@
+### YamlMime:Module
+uid: learn-m365-pr.understand-office-javascript-apis
+metadata:
+  title: understand-office-javascript-apis
+  description: In this module, you will learn about the Office JavaScript APIs.
+  ms.date: 10/01/2019
+  author: ElizabethSamuel-MSFT
+  ms.author: elizs
+  ms.topic: ...
+  ms.prod: learning-m365
+title: understand-office-javascript-apis
+summary: ...
+abstract: ...
+prerequisites: ...
+iconUrl: https://docs.microsoft.com/media/learn/module.svg
+levels: [beginner]
+roles: [developer]
+products: [office-add-ins]
+units:
+- learn-m365-pr.understand-office-javascript-apis.1-introduction
+- learn-m365-pr.understand-office-javascript-apis.2-understand-office-add-ins-programming-model
+- learn-m365-pr.understand-office-javascript-apis.3-understand-office-add-in-developer-tools
+- learn-m365-pr.understand-office-javascript-apis.4-understand-excel-javascript-api-capabilities
+- learn-m365-pr.understand-office-javascript-apis.5-understand-outlook-javascript-api-capabilities
+- learn-m365-pr.understand-office-javascript-apis.6-understand-word-javascript-api-capabilities
+- learn-m365-pr.understand-office-javascript-apis.7-understand-custom-functions-capabilities
+- learn-m365-pr.understand-office-javascript-apis.8-summary
+badge:
+  uid: learn-m365-pr.understand-office-javascript-apis.badge
