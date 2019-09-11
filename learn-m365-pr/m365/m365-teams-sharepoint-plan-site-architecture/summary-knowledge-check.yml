@@ -1,0 +1,55 @@
+
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-teams-sharepoint-plan-site-architecture.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Discover how SharePoint works with Microsoft 365. Learn how security, access and authentication work in SharePoint as well as the role of the SharePoint administrator. 
+  ms.date: 09/11/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "What is the purpose of communication sites?"
+      choices:
+      - content: "Communication sites are a content repository for collaboration by a group of people."
+        isCorrect: false
+        explanation: "Communication sites allow people to create and share recurring updates. They are good for weekly and monthly reports or status updates, product launches, and events. Team sites are a content repository for collaboration by a group of people."
+      - content: "Communication sites allow people to create and share recurring updates to a broad audience."
+        isCorrect: true
+        explanation: "Communication sites allow people to create and share recurring updates. They are good for weekly and monthly reports or status updates, product launches, and events."
+      - content: "Communication sites provide a connection point and central portal for a group of related sites."
+        isCorrect: false
+        explanation: "Communication sites allow people to create and share recurring updates. They are good for weekly and monthly reports or status updates, product launches, and events. Hub sites provide a connection point and central portal for a group of related sites."
+
+    - content: "What are the three main building blocks to help you create your intranet?"
+      choices:
+      - content: "Team sites, hub sites, and communication sites"
+        isCorrect: true
+        explanation: "The three main types of sites available for building an intranet are team sites, hub sites, and communication sites."
+      - content: "Team sites, hub sites, and publishing sites"
+        isCorrect: false
+        explanation: "The three main types of sites available for building an intranet are team sites, hub sites, and communication sites."
+      - content: "Team sites, subsites, and Power BI sites"
+        isCorrect: false
+        explanation: "The three main types of sites available for building an intranet are team sites, hub sites, and communication sites."
+      
+    - content: "Which is the recommended approach to creating and maintaining team sites?"
+      choices:
+      - content: "A self-service model where IT manages sites through reporting and automation."
+        isCorrect: true
+        explanation: "A self-service approach where IT manages sites through reporting and automation is recommended. It provides the best ease of use for users and easier administration for IT."
+      - content: " An IT-driven approach where site requests go through an approval workflow."
+        isCorrect: false
+        explanation: "A self-service approach where IT manages sites through reporting and automation is recommended. It provides the best ease of use for users and easier administration for IT."
+      - content: "An approach where site collection administrators manage a hierarchy of subsites."
+        isCorrect: false
+        explanation: "A self-service approach where IT manages sites through reporting and automation is recommended. It provides the the best ease of use for users and easier administration for IT."
+      
