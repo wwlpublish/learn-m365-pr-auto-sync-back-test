@@ -10,4 +10,4 @@ The Microsoft 365 security center provides the following:
 ![Microsoft 365 Security Center](../media/2-m365-security-center.png)
  *The Microsoft 365 security center*
 
-Once the Microsoft 365 security center is enabled for our tenant, you can access the security center at https://security.microsoft.com.
+Once the Microsoft 365 security center is enabled for your tenant, you can access the security center at https://security.microsoft.com.
