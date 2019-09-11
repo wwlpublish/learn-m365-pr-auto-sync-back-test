@@ -1,5 +1,3 @@
-## Explore and implement password alternatives
-
 It would be easier for Christina, and safer for her company, if she didn’t have to remember a password at all. Her company recently implemented passwordless authentication. To access her devices, she can use either her facial recognition or biometrics on her mobile phone or Windows 10 laptop for authentication.
 
 ## What is passwordless authentication

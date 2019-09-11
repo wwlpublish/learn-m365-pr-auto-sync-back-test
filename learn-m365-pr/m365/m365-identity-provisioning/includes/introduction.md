@@ -1,5 +1,3 @@
-## Introduction to identity management 
-
 Identity management is the process of authenticating identities. This might services, applications, users, or groups. Microsoft identity and access management solutions use Azure AD to protect access to applications and resources across the organization’s datacenter and into the cloud. 
 
 By using the security capabilities of Azure AD, you can: 

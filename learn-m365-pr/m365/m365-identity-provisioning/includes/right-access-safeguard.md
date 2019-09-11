@@ -1,5 +1,3 @@
-## Implement Conditional Access 
-
 Azure Conditional Access helps you balance security with user productivity. It automates access control decisions based on security conditions that exist at the time of an access request.  
 
 After the first-factor authentication completes, Conditional Access enforces the policies that you have configured. Conditional Access is not a first-line defense for scenarios like denial-of-service (DoS) attacks, but can use signals from these events, such as the sign-in risk level and location of the request, to determine whether to block access. 
@@ -18,9 +16,9 @@ A Conditional Access policy is a definition of an access scenario using the foll
 
 When this happens defines the reason for triggering your policy. This reason is characterized by a group of conditions that have been satisfied. In Conditional Access, the two assignment conditions play a special role: 
 
-* Users: The users performing an access attempt (Who). 
+- Users: The users performing an access attempt (Who). 
 
-* Cloud apps: The targets of an access attempt (What). 
+-* Cloud apps: The targets of an access attempt (What). 
 
 These two conditions are mandatory in a Conditional Access policy. You can also include additional conditions that describe how the access attempt is performed. Common examples are using mobile devices or locations that are outside your corporate network.  
 
