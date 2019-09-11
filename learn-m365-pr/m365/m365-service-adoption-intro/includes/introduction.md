@@ -1,4 +1,4 @@
-Welcome to Microsoft Service Adoption Specialist course! This course is for professionals who are accountable for or learning how to drive the adoption of Microsoft services in their organization. We'll help you learn the essential skills required to craft and execute a service adoption plan. This course is appropriate for business leaders, IT professionals, change managers, or others interested in maximizing their value from technology in their business. 
+Welcome to Microsoft Service Adoption Specialist training! This training is for professionals who are accountable for or learning how to drive the adoption of Microsoft services in their organization. We'll help you learn the essential skills required to craft and execute a service adoption plan. This course is appropriate for business leaders, IT professionals, change managers, or others interested in maximizing their value from technology in their business. 
 
 This course uses the implementation of Microsoft Teams as our example service. The service adoption framework is designed to apply to any service you need to implement. However there's some information, for example, the technical acumen section, that's specific to Microsoft Teams. All the information you need to complete this course are contained in this course. If you'd like to go deeper in the technical implementation of Microsoft Teams, check out Manage team collaboration with Microsoft Teams. 
 
@@ -21,16 +21,15 @@ Service adoption specialists (SAS) come from many backgrounds. You may have a va
 - Learn the basic tenants of successful service adoption
 - Supplement your existing technical or organizational change knowledge
 - Validate your knowledge with an industry recognized certification 
-- Audit this course to understand if this topic is of interest to you (Liza note - need this?) 
+- Audit this course to understand if this topic is of interest to you  
 - Expand your career options with service adoption skills
-- Find a community of people that are both knowledgeable and interested in this topic (Liza note - this doesn't really work here)
+- Find a community of people that are both knowledgeable and interested in this topic 
 
 ## Pre-course survey
-Help us expand our knowledge of the people seeking skills about service adoption by completing an optional pre-course survey. These questions don't count toward this course. They are informational only - the only people who see your answers are the authors who created this content.
+Help us expand our knowledge of the people seeking skills about service adoption by completing an optional pre-course survey. These questions don't count toward this training. They are informational only - the only people who see your answers are the authors who created this content.
 
 ## Read before proceeding - our assumptions
 
-(Liza note - do you want this here or in the servie adoption framework, Contoso discussion?)
 We use certain examples and data points during this training. This helps standardize the knowledge check questions and provides you a successful learning experience. These are our assumptions:
 
 1.	Your project is to implement Microsoft Teams. Implementing Microsoft Teams, as a project, has the required complexity to demonstrate the service adoption framework. Moving to Microsoft Teams is also top of mind for many organizations, making the training a relevant asset for your own career growth.
@@ -49,7 +48,6 @@ This training is designed as a standalone experience. There are additional readi
 
 **Required:**
 Contoso company description in the introduction segment entitled "Read this Before Proceeding"
-(Liza note - do we want to keep this description outside of the training?)
 
 **Recommended:**
 - Microsoft Teams Adoption Hub Guidance articles - https://aka.ms/TeamsAdoption
@@ -61,6 +59,5 @@ Contoso company description in the introduction segment entitled "Read this Befo
 - Good Governance with David Johnson, Microsoft IT Showcase 
 - Coffee in the Cloud YouTube channel with long & short form videos for Champions and IT Pro's
 - Case Study: User adoption at Best Buy - "Best Buy Ninjas" (Video presentation from SharePoint Conference, 1:13 duration)
-(Liza note - need corrected links here)
 
 Join the community of [Office 365 Champions and Adoption Specialists](https://aka.ms/O365Champions) to share your experience and learn from others who are driving adoption of cloud services.
