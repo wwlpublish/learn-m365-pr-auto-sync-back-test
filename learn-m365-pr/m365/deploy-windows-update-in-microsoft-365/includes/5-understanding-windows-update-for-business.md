@@ -24,7 +24,7 @@ In this scenario, the following objectives apply:
 
 - Third party drivers are on WSUS.
 
-![Diagram showing use of WSUS to defer Windows updates with other update content hosted on WSUS.](../media/wufbusn_scenario1.png)
+![Diagram showing use of WSUS to defer Windows updates with other update content hosted on WSUS.](../media/windows-update-scenario1.png)
 
 ## Scenario #2. Exclude drivers from Windows Quality Updates using Windows Update for Business
 
@@ -36,7 +36,7 @@ In this scenario, the following objectives apply:
 
 - Windows Update drivers are available on WSUS.
 
-![Diagram showing use of WSUS to exclude drivers from Windows Quality Updates using Windows Update for Business.](../media/wufbusn_scenario2.png)
+![Diagram showing use of WSUS to exclude drivers from Windows Quality Updates using Windows Update for Business.](../media/windows-update-scenario2.png)
 
 ## Device configured to receive Microsoft updates
 
@@ -50,7 +50,7 @@ In this scenario, the following objectives apply:
 
 - Microsoft Update, third-party, and locally published update content is available on the WSUS server.
 
-![Scenario showing using of WSUS to configure devices to receive Microsoft updates.](../media/wufbusn_scenario3.png)
+![Scenario showing using of WSUS to configure devices to receive Microsoft updates.](../media/windows-update-scenario3.png)
 
 These are the three primary scenarios for using Windows Update for Business.
 
