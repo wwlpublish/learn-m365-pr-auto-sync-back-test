@@ -1,4 +1,4 @@
-# Require MFA via management and monitoring
+## Require MFA via management and monitoring
 
 Christina travels from the home office in Seattle to the Tokyo office for the first time. Identity Protection could have triggered a risk detection requiring  MFA. Christina needs to use MFA to register the new device. If the IT department can’t validate the device and suspect something is wrong, they can force all of all devices registered under Christina to reset their MFAs. 
 
@@ -17,7 +17,7 @@ Here are some recommended methods to enforce MFA:
 •	(Configure Conditional Access policy to require MFA)[https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted#plan-conditional-access-policies]
 •	(Manage user settings)[https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-mfa-userdevicesettings]
 
-# Planning a cloud-based Azure MFA deployment
+## Planning a cloud-based Azure MFA deployment
 
 A Conditional Access policy can require MFA when criteria such as these are met:
 •	Is it a specific grouping of users, such as: 

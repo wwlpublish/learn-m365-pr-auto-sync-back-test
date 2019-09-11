@@ -1,4 +1,4 @@
-# Implement Conditional Access 
+## Implement Conditional Access 
 
 Azure Conditional Access helps you balance security with user productivity. It automates access control decisions based on security conditions that exist at the time of an access request.  
 

@@ -1,4 +1,4 @@
-# Plan your Azure AD identity governance 
+## Plan your Azure AD identity governance 
 
 To create your identity infrastructure, you'll designate a primary identity provider. This service stores user accounts and attributes, groups and memberships, and supports their ongoing administration. 
 

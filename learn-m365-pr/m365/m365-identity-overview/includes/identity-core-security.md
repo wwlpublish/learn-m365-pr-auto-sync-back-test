@@ -1,4 +1,4 @@
-# A modern identity and access management strategy 
+@# A modern identity and access management strategy 
 
 Christina is a division VP at Contoso and travels frequently to visit the five offices that she manages across the US, UK, Canada, and parts of China. She handles highly sensitive information via connecting to corporate assets from unknown wireless networks. Classic security protocols assumed a castle under siege approach from hackers. However, Christina is out in the field and needs the same protection as though she were working in the corporate office.  The company needs security that understands this user's typical behavior as a user and detects it changes and risk is elevated. If Christina’s user credentials or device are compromised, how can IT automatically enforce additional layers of authentication to keep the organization safe? 
 

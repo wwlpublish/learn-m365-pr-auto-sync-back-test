@@ -1,4 +1,4 @@
-# Today’s threat landscape 
+@# Today’s threat landscape 
 
 Cybersecurity attacks have become more sophisticated. Passwords alone are no longer failproof protection against unauthorized access. Hackers use phishing attacks to steal users’ credentials, then bypass network controls and expand access throughout the organization’s network.  Single factor authentication, such as passwords, isn’t enough to deter modern attacks. 
 
@@ -12,7 +12,7 @@ The risks to your data are clear:
  
 Users tend to value productivity over security; 80% of employees admit using non-approved SaaS apps for work, which may introduce vulnerabilities into your network. 
 
-# Identity challenges for today’s organizations  
+#@ Identity challenges for today’s organizations  
 
 The new threat landscape requires a shift from securing perimeters to protecting identities.
 

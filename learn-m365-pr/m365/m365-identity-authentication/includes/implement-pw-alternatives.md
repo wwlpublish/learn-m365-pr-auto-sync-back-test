@@ -1,4 +1,4 @@
-# Explore and implement password alternatives
+## Explore and implement password alternatives
 
 It would be easier for Christina, and safer for her company, if she didn’t have to remember a password at all. Her company recently implemented passwordless authentication. To access her devices, she can use either her facial recognition or biometrics on her mobile phone or Windows 10 laptop for authentication.
 
@@ -26,7 +26,7 @@ In the above example, Christina would leverage Windows Hello directly on her lap
 ## Learn More
 •	(Windows Hello for Business Overview)[https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-overview]
 
-# Microsoft Authenticator 
+## Microsoft Authenticator 
 The Microsoft Authenticator app is another passwordless solution. It uses technology similar to Windows Hello and is packaged into a simple app on an Android or iOS mobile device. It enables smartphone or tablet users to verify their identity and authenticate to their Azure AD account. Users confirm their identity through PIN, fingerprint scan, or facial or iris recognition. 
 
 ![Password Risk Data](../media/icon22.png)
