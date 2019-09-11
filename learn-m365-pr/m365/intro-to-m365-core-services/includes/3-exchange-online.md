@@ -1,4 +1,4 @@
-Exchange Online is a messaging and collaboration platform for your email, calendar, contact info, and tasks. You can access all of this with Microsoft Outlook, Outlook on the web, or Outlook Mobile. Exchange Online works from most mobile devices - including Android, iOS, and Windows 10 devices. 
+Exchange Online is a messaging and collaboration platform for your email, calendar, contact info, and tasks. You can access all of this with Microsoft Outlook, Outlook on the web, or Outlook Mobile. You can access Exchange Online on most devices, including Android, iOS, and Windows 10 devices. 
 
 Here are some features of Exchange Online:
 
@@ -14,7 +14,7 @@ Here are some features of Exchange Online:
 
 ## Compare Exchange Online to Exchange Server
 
-Before you can decide whether Exchange Online is right for your organization, you need to understand the differences between Exchange Online and an on-premises Exchange Server. Some of key these differences are described in the following table:
+Before you can decide whether Exchange Online is right for your organization, you need to understand the differences between Exchange Online and an on-premises Exchange Server. Some of the key differences are described in the following table:
 
 ||Exchange Server|Exchange Online|
 |:--------|:---------|:----------|

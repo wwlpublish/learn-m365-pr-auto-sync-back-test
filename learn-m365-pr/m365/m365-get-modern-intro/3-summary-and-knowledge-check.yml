@@ -16,7 +16,7 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "According to the deployment wheel, what is the first step in the deployment process?"
+    - content: "According to the deployment wheel, once you have your team in place, what is the first step in the deployment process?"
       choices:
       - content: "Analyze your device and app readiness."
         isCorrect: true
@@ -25,9 +25,9 @@ quiz:
         isCorrect: false
         explanation: "No, The first step in the deployment process is to analyze your device and app readiness."
 
-    - content: "In the second step, analyzing your directory and network readiness, you'll be preparing your bandwidth capacity for which items?"
+    - content: "In the second step, analyzing your directory and network readiness, you prepare your network to move which items?"
       choices:
-      - content: "System images, application packages, and user files"
+      - content: "System images, application packages, drivers, and user file migrations"
         isCorrect: true
         explanation: "Yes, these items all need bandwidth."
       - content: "Thumbnail images and user settings"
@@ -35,7 +35,7 @@ quiz:
         explanation: "No, these items don't use significant bandwidth."
       - content: "Social media profiles"
         isCorrect: false
-        explanation: "No, you don't need to analyze bandwidth for this."
+        explanation: "No, you don't need to analyze bandwidth for social media profiles."
 
     - content: "Office 365 ProPlus and Office 2019 clients use which installation technology?"
       choices:

@@ -1,0 +1,15 @@
+﻿### YamlMime:ModuleUnit
+uid: learn-m365-pr.automate-windows-deployments-by-using-windows-autopilot.2-windows-autopilot-deployment-modes
+title: Windows Autopilot deployment modes
+metadata:
+  title: Windows Autopilot deployment modes
+  description: Learn about the available deployment modes in Windows Autopilot
+  ms.date: 9/4/2019
+  author: dahans-msft2
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS:   NOINDEX 
+durationInMinutes: 10
+content: |
+  [!include[](includes/2-windows-autopilot-deployment-modes.md)] 

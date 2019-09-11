@@ -16,7 +16,7 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Which of the following is NOT critical to the security of every computer system?"
+    - content: "Which of the following is NOT one of the key pillars for security of every computer system?"
       choices:
       - content: "Identity and access management"
         isCorrect: false
@@ -51,15 +51,7 @@ quiz:
       choices:
       - content: "True"
         isCorrect: true
-        explanation: "True - Microosft Information Protection protects your data at each stage."
+        explanation: "True - Microsoft Information Protection protects your data at each stage."
       - content: "False"
         isCorrect: false
         explanation: "True - Microsoft Information Protection protects your data at each stage."
-    - content: "True or false: Privileged Access Management grants global admin rights to individuals in your organization."
-      choices:
-      - content: "True"
-        isCorrect: false
-        explanation: "False - Privileged access management allows granular access control over privileged admin tasks to help protect your organization from breaches that may use existing privileged admin accounts with standing access to sensitive data or critical configuration settings."
-      - content: "False"
-        isCorrect: true
-        explanation: "Correct - Privileged access management allows granular access control over privileged admin tasks to help protect your organization from breaches that may use existing privileged admin accounts with standing access to sensitive data or critical configuration settings"

@@ -1,4 +1,4 @@
-The two most crtical parts of planning an enterprise deployment of Windows 10 and Office 365 ProPlus are (1) assessing your environment and network, and (2) making sure your existing hardware and applications will work with the new software. 
+The two most critical parts of planning an enterprise deployment of Windows 10 and Office 365 ProPlus are (1) assessing your environment and network, and (2) making sure your existing hardware and applications will work with the new software. 
 
 ## Assess hardware and application compatibility
 Almost all the applications written in the last 10 years will run on Windows 10, and almost all add-ins and Visual Basic for Applications (VBA) macros that are based on previous versions of Office will continue to work on the latest versions of Office. However, depending on the size and age of your organization, verifying application and hardware compatibility will still be an essential first step in deploying the modern desktop. 
