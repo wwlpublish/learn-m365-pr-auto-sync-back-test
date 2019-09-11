@@ -10,6 +10,6 @@ metadata:
   ms.prod: ms-graph
   ROBOTS: NOINDEX
 title: Exercise - Understand throttling in Microsoft Graph
-durationInMinutes: 1
+durationInMinutes: 20
 content: |
   [!include[](includes/3-exercise-understand-throttling-in-microsoft-graph.md)]

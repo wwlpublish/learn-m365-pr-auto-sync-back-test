@@ -10,6 +10,6 @@ metadata:
   ms.prod: ms-graph
   ROBOTS: NOINDEX
 title: Exercise - Eliminate polling Microsoft Graph with delta query
-durationInMinutes: 1
+durationInMinutes: 15
 content: |
   [!include[](includes/7-exercise-eliminate-polling-microsoft-graph-with-delta-query.md)]

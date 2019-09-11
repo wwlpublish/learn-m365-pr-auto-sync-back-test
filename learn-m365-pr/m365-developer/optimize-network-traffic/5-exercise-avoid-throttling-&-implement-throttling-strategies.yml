@@ -10,6 +10,6 @@ metadata:
   ms.prod: ms-graph
   ROBOTS: NOINDEX
 title: Exercise - Avoid throttling & implement throttling strategies
-durationInMinutes: 1
+durationInMinutes: 17
 content: |
   [!include[](includes/5-exercise-avoid-throttling-&-implement-throttling-strategies.md)]
