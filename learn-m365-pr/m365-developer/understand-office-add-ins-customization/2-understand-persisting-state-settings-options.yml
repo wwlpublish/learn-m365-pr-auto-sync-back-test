@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.understand-office-add-ins-customization.2-understand-persisting-state-settings-options
+metadata:
+  title: Understand the options of persisting state and settings
+  description: In this unit, you will learn about customizing an Office Add-in by persisting state and using settings.
+  ms.date: 10/01/2019
+  author: ElizabethSamuel-MSFT
+  ms.author: elizs
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+title: Understand the options of persisting state and settings
+durationInMinutes: 1
+content: |
+  [!include[](includes/2-understand-persisting-state-settings-options.md)]
