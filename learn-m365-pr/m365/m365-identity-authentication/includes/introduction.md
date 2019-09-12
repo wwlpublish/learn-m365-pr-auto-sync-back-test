@@ -1,5 +1,3 @@
-## Multi-factor Authentication 
-
 About 81% of all successful attacks result from weak or compromised credentials. MFA helps safeguard access to data and applications. 
 MFA requires two or more of the following authentication methods:
 

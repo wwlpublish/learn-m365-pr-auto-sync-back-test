@@ -1,5 +1,3 @@
-## The evolution of identity security  
-
 In the past, IT secured the perimeter around the physical corporate network, like guards protecting the walls of a castle.  With today’s mobile devices, cloud computing, and Internet of Things (IoT), identity and access management must secure on-premises and cloud identities and manage access to sensitive information inside and outside the corporate network. 
 
 Microsoft first addressed identity and access management with Windows NT Domains to consolidate on-premises accounts. Later it developed Active Directory, smartcard authentication, and support for third party multi-factor authentication (MFA).  

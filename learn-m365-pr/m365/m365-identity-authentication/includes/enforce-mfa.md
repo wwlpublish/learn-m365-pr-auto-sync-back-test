@@ -1,5 +1,3 @@
-## Require MFA via management and monitoring
-
 Christina travels from the home office in Seattle to the Tokyo office for the first time. Identity Protection could have triggered a risk detection requiring  MFA. Christina needs to use MFA to register the new device. If the IT department can’t validate the device and suspect something is wrong, they can force all of all devices registered under Christina to reset their MFAs. 
 
 ## Require  MFA

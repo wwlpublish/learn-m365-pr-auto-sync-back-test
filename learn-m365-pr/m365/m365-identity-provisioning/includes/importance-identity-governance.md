@@ -1,5 +1,3 @@
-## The Importance of an identity governance process 
-
 Lifecycle management is the foundation for identity governance. Effective governance at scale requires modernizing the identity lifecycle management infrastructure for applications. 
 
  ![Identity Lifecycle](../media/icon8.png)
