@@ -22,7 +22,7 @@ Watch and use introduction videos like "What is Microsoft Teams?" to ensure peop
 
 ## Key role - the executive sponsor
 
->![Executive sponsor](../media/key-sponsor.png)
+>![Executive sponsor](../media/exec-sponsors.png)
 
 What we know is that most employees aren't willing to use new technology rolled out by their organization. Having an executive sponsor can help. In transformation projects where the CEO was either fairly or very visible, the project was either very successful or extremely successful. A well-defined set of financial and operational targets lead to an "extremely successful" transformation*. (* Various third-party and Microsoft-based research)
 
