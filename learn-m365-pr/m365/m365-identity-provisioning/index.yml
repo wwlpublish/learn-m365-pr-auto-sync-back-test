@@ -8,20 +8,16 @@ metadata:
   ms.author: v-jasoan
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Overview of identity and access management in Microsoft 365
-summary: Learn how identity and access management work in Microsoft 365.
+title: Simplify access and identity provisioning with Microsoft 365
+summary: Learn how to use Microsoft 365's authentication tools for access and identity provisioning.
 abstract: |
   In this module, you will learn:
-   - Describe the identity management capabilities of Microsoft 365
-   - Plan for Azure AD identity governance
-   - Describe the identity governance lifecycle
-   - Plan an identity infrastructure 
-   - Plan for single sign-on 
-   - Explain role-based access 
-   - User provisioning of SaaS apps 
-   - Management of User Groups 
-   - Describe Conditional Access 
-   - Describe how to secure B2B collaboration 
+   - The identity management capabilities of Microsoft 365
+   - About the identity governance lifecycle and how to plan for Azure AD identity governance
+   - How to create an identity infrastructure and how to plan for single sign-on 
+   - About role-based access, conditional access, and how to manage user groups 
+   - How to provision users in SaaS apps 
+   - How to secure B2B collaboration 
 prerequisites: None
 iconUrl: /learn/achievements/simplify-access-and-identity-provisioning-with-microsoft-365.svg
 ratingEnabled: true
@@ -30,6 +26,7 @@ levels:
 roles:
 - administrator
 products:
+- azure
 - m365
 units:
 - learn-m365-identity.m365-identity-provisioning.introduction

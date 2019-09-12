@@ -27,7 +27,7 @@ The combination of conditions with your access controls represents a Conditional
   ![Identity Lifecycle](../media/icon14.png)
 
 
-What is Azure AD B2B 
+## What is Azure AD B2B? 
 
 Azure AD B2B collaboration allows you to securely share your company's applications and services with guest users and external partners from any organization, while maintaining control over your own resources. Through a simple invitation and redemption process, guest users can start collaborating on the resources you allowed them to access. 
  

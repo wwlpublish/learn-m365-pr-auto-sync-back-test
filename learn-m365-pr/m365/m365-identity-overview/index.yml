@@ -21,6 +21,7 @@ levels:
 roles:
 - administrator
 products:
+- azure
 - m365
 units:
 - learn-m365-identity.m365-identity-overview.introduction

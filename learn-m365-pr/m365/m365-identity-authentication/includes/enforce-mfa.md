@@ -9,11 +9,6 @@ Here are some recommended methods to enforce MFA:
 - Require users to authenticate their smart phone, laptop, or other device with MFA before they register it with Intune to access your network.
 - Monitor the health of your user accounts with Azure AD, and when needed, require users to reset their password, re-register for MFA, or revoke existing MFA sessions from their user object.
 
-## Learn More
-- (Conditional Access policy)[https://docs.microsoft.com/azure/active-directory/conditional-access/overview]
-- (Require multi-factor authentication at device enrollment)[https://docs.microsoft.com/intune/multi-factor-authentication]
-- (Configure Conditional Access policy to require MFA)[https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted#plan-conditional-access-policies]
-- (Manage user settings)[https://docs.microsoft.comazure/active-directory/authentication/howto-mfa-userdevicesettings]
 
 ## Planning a cloud-based Azure MFA deployment
 
@@ -27,4 +22,7 @@ A Conditional Access policy can require MFA when criteria such as these are met:
 - Is the device outside of expected network location or geo-located IP address?
 
 ## Learn More
-- (Conditional Access policy)[https://docs.microsoft.com/azure/active-directory/conditional-access/overview]
+- [Conditional Access policy](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)
+- [Require multi-factor authentication at device enrollment](https://docs.microsoft.com/intune/multi-factor-authentication)
+- [Configure Conditional Access policy to require MFA](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted#plan-conditional-access-policies)
+- [Manage user settings](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-userdevicesettings)
