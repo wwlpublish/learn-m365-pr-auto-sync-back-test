@@ -1,0 +1,15 @@
+﻿### YamlMime:ModuleUnit
+uid: learn-wwl.deploy-windows-update-in-microsoft-365.4-using-group-policy-to-configure-windows-update
+title: Using Group Policy to Configure Windows Update
+metadata:
+  title: Using Group Policy to Configure Windows Update
+  description: Display how to configure Group Policy to manage Windows Update.
+  ms.date: 9/5/2019
+  author: bneeb@microsoft.com
+  ms.author: bneeb
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS:   NOINDEX 
+durationInMinutes: 4
+content: |
+  [!include[](includes/4-using-group-policy-to-configure-windows-update.md)] 
