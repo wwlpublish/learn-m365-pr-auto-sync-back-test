@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.understand-office-add-ins-fundamentals.1-introduction
+metadata:
+  title: Understand fundamental components and types of Office Add-ins
+  description: In this module, you will learn about fundamental components and types of Office Add-ins.
+  ms.date: 10/01/2019
+  author: ElizabethSamuel-MSFT
+  ms.author: elizs
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+title: Understand fundamental components and types of Office Add-ins
+durationInMinutes: 1
+content: |
+  [!include[](includes/1-introduction.md)]
