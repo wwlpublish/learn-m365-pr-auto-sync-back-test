@@ -9,7 +9,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: ms-graph
 title: Optimize Network Traffic with Microsoft Graph
-summary: Microsoft Graph provides a unified programmability model that you can use to build apps for organizations and consumers that interact with the data of millions of users. In this module, students will learn how Microsoft has implemented throttling to the Microsoft Graph to limit the overuse of Microsoft Graph resources. Students will learn how to avoid requests from being throttled, as well as how to properly handle scenarios when the Microsoft Graph throttles high user traffic in a graceful way.
+summary: Microsoft Graph provides a unified programmability model that you can use to build apps for organizations and consumers that interact with the data of millions of users. In this module, students will learn how Microsoft has implemented throttling to Microsoft Graph to limit the overuse of Microsoft Graph resources. Students will learn how to avoid requests from being throttled, as well as how to properly handle scenarios when Microsoft Graph throttles high user traffic in a graceful way.
 abstract: |
   At the end of this module, you should be able to:
   - Explain how Microsoft Graph maintains resource health

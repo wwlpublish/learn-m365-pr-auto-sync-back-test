@@ -1,6 +1,6 @@
 In this exercise, you'll use the Azure AD application and .NET console application you previously created and modify them to demonstrate using the delta query feature of Microsoft Graph. An application can leverage the delta query feature to avoid costly requests to poll for changes in Microsoft Graph that can trigger requests to be throttled.
 
-## Add an Additional Permission the Azure AD Application
+## Add an additional permission the Azure AD application
 
 In this exercise, you will update the application to get a list of all the users in the tenant. To perform this task, the Azure AD application needs additional permissions.
 
@@ -30,7 +30,7 @@ When prompted for the type of permission, select **Delegated permissions** and s
 
 At the bottom of the **API Permissions** panel, select the button **Grant admin consent for [tenant]**, followed by the **Yes** button to grant all users in your organization this permission.
 
-## Update the Console Application to Use Delta Query
+## Update the console application to use delta query
 
 Now you will update the application to retrieve and then display all users in the tenant with Microsoft Graph. After displaying the list of users, the application will sleep for ten seconds and repeat the same query, but instead only display the users who have been added or updated.
 
@@ -55,7 +55,7 @@ private static void OutputUsers(IUserDeltaCollectionPage users)
 }
 ```
 
-## Add a Method to Retrieve Users
+## Add a method to retrieve users
 
 Next, add a method to retrieve users with Microsoft Graph. This method will use the delta link feature in Microsoft Graph.
 
@@ -94,7 +94,7 @@ private static IUserDeltaCollectionPage GetUsers(GraphServiceClient graphClient,
 }
 ```
 
-## Add a Method to Check for New and Changed Users
+## Add a method to check for new and changed users
 
 The next method will be used to check for new and changed users. The first time it runs, it will get all users and display them page by page until it reaches the last page of the response from Microsoft Graph.
 
@@ -132,7 +132,7 @@ if (users.AdditionalData.TryGetValue("@odata.deltaLink", out deltaLink))
 }
 ```
 
-## Update the Application to Use the New `CheckForUpdates` Method
+## Update the application to use the new `CheckForUpdates` method
 
 Locate the following code in the `Main` method:
 
@@ -160,8 +160,7 @@ while (true)
 
 The first request will result in the application obtaining the delta link that will be used in future requests to include only the new and changed users. Each time users are requested, the delta link will be refreshed.
 
-
-### Build and Test the Application
+### Build and test the application
 
 Run the following command in a command prompt to compile the console application:
 

@@ -7,11 +7,11 @@ The second strategy you will employ uses Microsoft Graph .NET SDK that takes int
 > [!IMPORTANT]
 > This exercise assumes you have created the Azure AD application and .NET console application from the previous unit in this module. You'll edit the existing Azure AD application and .NET console application created in that exercise in this exercise.
 
-## Implement Microsoft Graph REST API Throttling Retry Strategy
+## Implement Microsoft Graph REST API throttling retry strategy
 
 In a previous exercise, you created a .NET console application that triggered a throttling response from Microsoft Graph by submitting many requests to the same mailbox at the same time. Let's modify the application to implement a strategy to determine if a request is throttled. In the case the request is throttled, the application should wait for the time specified by Microsoft Graph before retrying the request.
 
-### Add Helper Class to Deserialize the Message Object Returned in a REST Request
+### Add helper class to deserialize the message object returned in a REST request
 
 It is easier to work with strongly typed objects instead of untyped JSON responses from a REST request. Create a helper class to simplify working with the messages objects returned from the REST request.
 
@@ -51,7 +51,7 @@ namespace graphconsoleapp
 
 This class is used by the JSON deserializer to translate a JSON response into a `Messages` object.
 
-### Add Method to Implement Delayed Retry Strategy when Requests are Throttled
+### Add method to implement delayed retry strategy when requests are throttled
 
 The application is going to be modified to first get a list of messages in the current user's mailbox, then issue a separate request for the details of each message. In most scenarios, a separate request will trigger Microsoft Graph to throttle the requests.
 
@@ -172,7 +172,7 @@ private static Message GetMessageDetail(HttpClient client, string messageId, int
 }
 ```
 
-### Update Application to Use Retry Strategy
+### Update application to use retry strategy
 
 The next step is to update the `Main` method to use the new method so the application will use an intelligent throttling strategy.
 
@@ -236,7 +236,7 @@ Console.WriteLine();
 Console.WriteLine("Elapsed time: {0} seconds", stopwatch.Elapsed.Seconds);
 ```
 
-### Build and Test the Application
+### Build and test the application
 
 Run the following command in a command prompt to compile the console application:
 
@@ -264,13 +264,13 @@ In this case, the **messages** endpoint returned a `Retry-After` value of one (1
 
 The important point is that the application completed successfully, retrieving all 100 messages, even when some requests were rejected due to being throttled by Microsoft Graph.
 
-## Implement Microsoft Graph SDK for Throttling Retry Strategy
+## Implement Microsoft Graph SDK for throttling retry strategy
 
 In the last section exercise, you modified the application to implement a strategy to determine if a request is throttled. In the case the request was throttled, as indicated by the response to the REST endpoint request, you implemented a retry strategy using the `HttpClient`.
 
 Let's change the application to use the Microsoft Graph SDK client, which has all the logic built in for implementing the retry strategy when a request is throttled.
 
-### Update the GetAuthenticatedHttpClient Method
+### Update the `GetAuthenticatedHttpClient` method
 
 The application will use the Microsoft Graph SDK to submit requests, not the **HttpClient**, so you need to update it.
 
@@ -285,7 +285,7 @@ Locate the method `GetAuthenticatedHttpClient` and make the following changes to
     return graphClient;
     ```
 
-### Update the Application to use the `GraphServiceClient`
+### Update the application to use the `GraphServiceClient`
 
 The next step is to update the application to use the Graph SDK that includes an intelligent throttling strategy.
 
@@ -331,7 +331,7 @@ The collection returned by SDK is in a different format than what the REST API r
 foreach (var graphMessage in clientResponse.CurrentPage)
 ```
 
-### Update the `GetMessageDetail` Method to return
+### Update the `GetMessageDetail` method to return
 
 The last step is to modify the `GetMessageDetail` method that retrieved the message details for each message. Recall from previous section in this unit, you had to write the code to detect when requests were throttled. In the case they were throttled, you added code to retry the request after a specified delay. Fortunately, the Microsoft Graph SDK has this logic included in it.
 
@@ -350,7 +350,7 @@ Next, remove all code within this method and replace it with this single line:
 return client.Me.Messages[messageId].Request().GetAsync().Result;
 ```
 
-### Build and Test the Application
+### Build and test the application
 
 Run the following command in a command prompt to compile the console application:
 
