@@ -38,6 +38,7 @@ There's a Resource Manager template in the Azure marketplace that helps you buil
    - A **gallery** image, one of the pre-configured images from Microsoft. There are several images available for Windows Virtual Desktop. For example:
       - Windows 10 Enterprise multi-session with Office 365 ProPlus
       - Windows 10 Enterprise multi-session
+      - Windows 10 Enterprise
       - Windows Server 2016 
    
    Choose **Windows 10 Enterprise multi-session with Office 365 ProPlus**. 
