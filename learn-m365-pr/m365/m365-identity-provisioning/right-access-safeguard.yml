@@ -4,11 +4,11 @@ title: Set up the right access to safeguard identities and data
 metadata:
   title: Set up the right access to safeguard identities and data
   description:  Learn about setting up the right access to safeguard identities and data in Microsoft 365
-  ms.date: 07/12/2019
-  author: jason@mightynarwhal.com
+  ms.date: 09/12/2019
+  author: TheJasonAndrew 
   ms.author: v-jasoan
   ms.prod: learning-m365
   ROBOTS: NOINDEX
-durationInMinutes: 3
+durationInMinutes: 5
 content: |
   [!include[](includes/right-access-safeguard.md)]

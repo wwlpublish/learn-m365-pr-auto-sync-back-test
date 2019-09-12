@@ -4,11 +4,11 @@ To create your identity infrastructure, you'll designate a primary identity prov
 
 With Microsoft 365, your primary identity provider is either: 
 
-Active Directory Domain Services (AD DS), an intranet identity provider hosted on computers running Windows Server. This is typically used by organizations that have an existing on-premises identity provider. 
+- Active Directory Domain Services (AD DS), an intranet identity provider hosted on computers running Windows Server. This is typically used by organizations that have an existing on-premises identity provider. 
 
  ![Identity Lifecycle](../media/icon11.png)
 
-Azure Active Directory (Azure AD), a cloud-based Identity as a Service (IDaaS) that provides a broad range of capabilities for managing and protecting your environment. This is typically used by organizations that have no existing on-premises infrastructure. Azure AD is also used by Enterprise customers with on-premises infrastructure. You use Azure AD Connect to manage this hybrid identity environment. 
+- Azure Active Directory (Azure AD), a cloud-based Identity as a Service (IDaaS) that provides a broad range of capabilities for managing and protecting your environment. This is typically used by organizations that have no existing on-premises infrastructure. Azure AD is also used by Enterprise customers with on-premises infrastructure. You use Azure AD Connect to manage this hybrid identity environment. 
 
 Use the following steps to plan your identity governance infrastructure in a cloud or hybrid environment. 
 

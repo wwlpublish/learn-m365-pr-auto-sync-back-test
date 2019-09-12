@@ -4,7 +4,7 @@ metadata:
   title: Overview of identity and access management in Microsoft 365
   description: Learn how identity and access management work in Microsoft 365.
   ms.date: 09/09/2019
-  author: jason@mightynarwhal.com
+  author: TheJasonAndrew 
   ms.author: v-jasoan
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
@@ -21,6 +21,7 @@ levels:
 roles:
 - administrator
 products:
+- azure
 - m365
 units:
 - learn-m365-identity.m365-identity-overview.introduction
