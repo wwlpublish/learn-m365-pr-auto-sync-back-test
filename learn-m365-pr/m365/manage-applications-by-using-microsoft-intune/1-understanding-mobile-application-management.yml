@@ -1,0 +1,15 @@
+﻿### YamlMime:ModuleUnit
+uid: learn-wwl.manage-applications-by-using-microsoft-intune.1-understanding-mobile-application-management
+title: Understanding Mobile Application Management
+metadata:
+  title: Understanding Mobile Application Management
+  description: Learn about basic concepts of Mobile Application Management.
+  ms.date: 9/10/2019
+  author: bneeb@microsoft.com
+  ms.author: bneeb
+  ms.topic: interactive-tutorial
+  ms.prod: choose an item.
+  ROBOTS:   NOINDEX 
+durationInMinutes: 5
+content: |
+  [!include[](includes/1-understanding-mobile-application-management.md)] 
