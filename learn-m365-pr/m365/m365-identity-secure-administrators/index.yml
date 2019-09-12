@@ -1,20 +1,21 @@
 ### YamlMime:Module
 uid: learn-m365-identity.m365-identity-secure-administrators
 metadata:
-  title: Protect those most targeted – use Microsoft 365 to secure administrators 
+  title: Protect those most targeted
   description: Learn how to protect the most important credentials in your enterprise ecosystem - administrator credentials.
-  ms.date: 07/28/2019
-  author: AlexandraHrt
-  ms.author: aleha
+  ms.date: 09/06/2019
+  author: puffinanda
+  ms.author: v-jolev
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Protect those most targeted – use Microsoft 365 to secure administrators 
+title: Protect those most targeted
 summary: Learn how to protect the most important credentials in your enterprise ecosystem - administrator credentials.
 abstract: |
   In this module, you will learn:
-   - How to configure nonpersistent authentication 
-   - How to enforce secure devices
-   - How to establish isolated identity
+   - Why administrator accounts require enhanced security
+   - How to implement just-in-time access 
+   - How to enforce using secure devices
+   - How to isolate privileged access
 prerequisites: None
 iconUrl: /learn/achievements/use-microsoft-365-to-secure-administrator-access.svg
 ratingEnabled: true
@@ -27,7 +28,8 @@ products:
 units:
 - learn-m365-identity.m365-identity-secure-administrators.introduction
 - learn-m365-identity.m365-identity-secure-administrators.enforce-secure-devices
-- learn-m365-identity.m365-identity-secure-administrators.establish-isolated-identity
+- learn-m365-identity.m365-identity-secure-administrators.enhance-security-admin-accounts
+- learn-m365-identity.m365-identity-secure-administrators.isolate-privileged-accounts
 - learn-m365-identity.m365-identity-secure-administrators.configure-nonpersistent
 - learn-m365-identity.m365-identity-secure-administrators.summary-knowledge-check
 badge: 
