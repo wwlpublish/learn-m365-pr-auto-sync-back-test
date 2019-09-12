@@ -4,7 +4,7 @@ In this exercise, you'll use the Graph Explorer to create and issue a single req
 
 The tool Graph Explorer enables developers to create and test queries using the Microsoft Graph REST API. Previously in this module, you used the Graph Explorer as an anonymous user and executed queries using the sample data collection.
 
-In this example, you'll sign in to the Microsoft Graph with a real user.
+In this example, you'll sign in to Microsoft Graph with a real user.
 
 Open a browser and navigate to https://developer.microsoft.com/graph/graph-explorer
 
@@ -109,4 +109,4 @@ The second request was also successful and the name of the folder returned match
 
 ## Summary
 
-In this exercise, you used the Microsoft Graph to demonstrate how you can combine multiple requests using a single request. This capability of submitting batch requests using the `$batch` query parameter enables you to optimize your applications to minimize the number of requests to the Microsoft Graph.
+In this exercise, you used Microsoft Graph to demonstrate how you can combine multiple requests using a single request. This capability of submitting batch requests using the `$batch` query parameter enables you to optimize your applications to minimize the number of requests to Microsoft Graph.

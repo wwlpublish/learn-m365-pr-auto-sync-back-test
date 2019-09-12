@@ -1,4 +1,4 @@
-In this exercise, you will create a new Azure AD web application registration using the Azure Active Directory admin center, a .NET Core console application and query the Microsoft Graph.
+In this exercise, you will create a new Azure AD web application registration using the Azure Active Directory admin center, a .NET Core console application and query Microsoft Graph.
 
 ## Create an Azure AD application
 
@@ -204,7 +204,7 @@ using Microsoft.Extensions.Configuration;
 using Helpers;
 ```
 
-Add the following static member to the `Program` class in the **Program.cs** file. This member will be used to instantiate the client used to call the Microsoft Graph:
+Add the following static member to the `Program` class in the **Program.cs** file. This member will be used to instantiate the client used to call Microsoft Graph:
 
 ```cs
 private static GraphServiceClient _graphClient;
@@ -240,7 +240,7 @@ private static IConfigurationRoot LoadAppSettings()
 }
 ```
 
-Add the following method `CreateAuthorizationProvider` to the `Program` class. This method will create an instance of the clients used to call the Microsoft Graph.
+Add the following method `CreateAuthorizationProvider` to the `Program` class. This method will create an instance of the clients used to call Microsoft Graph.
 
 ```cs
 private static IAuthenticationProvider CreateAuthorizationProvider(IConfigurationRoot config)

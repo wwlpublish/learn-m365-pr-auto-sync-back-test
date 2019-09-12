@@ -77,7 +77,7 @@ Notice how the name of each group is written to the console, and the names of th
 
 ![Screenshot of the console application with the $expand query parameters](../media/app-run-06.png)
 
-This example focuses on using the Microsoft Graph .NET SDK to create queries. In the previous screenshot, notice the query endpoint submitted to the Microsoft Graph after the results are written to the console.
+This example focuses on using the Microsoft Graph .NET SDK to create queries. In the previous screenshot, notice the query endpoint submitted to Microsoft Graph after the results are written to the console.
 
 ## Use the Graph Explorer to search for content
 
