@@ -8,7 +8,7 @@ Access Lifecycle
 
 Organizations need a streamlined process to manage access beyond what was initially provisioned for a user identity. You need to develop and enforce access policy and controls on an ongoing basis. 
 
-!Access Lifecycle](../media/icon9.png) 
+ ![Access Lifecycle](../media/icon9.png) 
 
 You can use Conditional Access to validate a user’s current role against your organization’s access policy.  You can regularly review users’ access rights by using Azure AD access reviews. 
 
