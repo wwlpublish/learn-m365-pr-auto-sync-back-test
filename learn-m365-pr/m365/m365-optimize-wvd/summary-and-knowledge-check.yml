@@ -39,10 +39,10 @@ quiz:
      choices:
      - content: "To increase virtual disk storage when users get close to reaching the limits in a VM."
        isCorrect: false
-       explanation: "Incorrect. Automated scaling is used to provision and deprovision VMs in order to save costs based on user demands or usage patterns. Vertically scaling VM size is possible but not the primary reason for autoscaling."
+       explanation: "Incorrect. Automated scaling is used to provision and deprovision VMs to save costs based on user demands or usage patterns. Vertically scaling VM size is possible but not the primary reason for autoscaling."
      - content: "To increase service uptime and availability"
        isCorrect: false
-       explanation: "Incorrect. VM availability sets are used to help ensure service uptime and availability. Automated scaling is used to provision and deprovision VMs in order to save costs based on user demands or usage patterns."
+       explanation: "Incorrect. VM availability sets are used to help ensure service uptime and availability. Automated scaling is used to provision and deprovision VMs to save costs based on user demands or usage patterns."
      - content: "To save costs by matching the number of running VMs to user demand"
        isCorrect: true
        explanation: "Correct. Automated scaling is used to provision and deprovision virtual machines in order to save costs based on user demands or usage patterns. The automation can be based on a schedule to match common business hours or actual resource utilization."

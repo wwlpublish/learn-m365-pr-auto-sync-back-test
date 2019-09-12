@@ -1,8 +1,8 @@
-In Windows Virtual Desktop, you can leverage Office and OneDrive policy settings to direct files to Office 365 storage locations. This lets you take advantage of the 1 TB and greater storage available in OneDrive, plus collaboration capabilities like improved sharing, seamless secure access across devices, improved discovery of recently used files, and real-time coauthoring with coworkers and partners.
+In Windows Virtual Desktop, you can leverage Office and OneDrive Group Policy settings to direct files to Office 365 storage locations. This lets you take advantage of the 1 TB and greater storage available in OneDrive, plus collaboration capabilities like improved sharing, seamless secure access across devices, improved discovery of recently used files, and real-time coauthoring with coworkers and partners.
 
 You can use Active Directory Group Policy with Office 365 ProPlus and Office 2019 Volume Licensing editions. You can download administrative template files (.ADMX) from the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=49030).  
 
-After you provision accounts for OneDrive, you can use policies to configure Office default save locations and to implement OneDrive Known Folder Move.
+After you provision accounts for OneDrive, you can use policies to configure Office default save locations and implement OneDrive Known Folder Move.
 
 ## Office Group Policy settings 
 Configure Office default file locations in the Group Policy Editor (gpedit.msc), typically in **User Configuration\Administrative Templates\(Your Office App)\App Options\File Locations**. (The exact location for this setting varies slightly per app.) These settings are frequently used for Excel, Word, and PowerPoint in Remote Desktop Services environments.

@@ -1,1 +1,1 @@
-In this module you learned how to prepare your environment for Windows Virtual Desktop.
+In this module, you learned how to prepare your environment for Windows Virtual Desktop.

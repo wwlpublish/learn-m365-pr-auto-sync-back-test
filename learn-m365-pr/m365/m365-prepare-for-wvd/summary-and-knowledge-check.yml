@@ -4,7 +4,7 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Review what you learned about Windows Virtual Desktop.
-  ms.date: 08/16/2019
+  ms.date: 09/03/2019
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
@@ -24,7 +24,7 @@ quiz:
      - content: "False"
        isCorrect: false
        explanation: "Incorrect. While you can set up Remote Desktop Services on-premises or using other clouds, Windows Virtual Desktop with Windows 10 Enterprise multi-session as the operating system requires Microsoft Azure and corresponding services."
-   - content: "Synchronizing an Active Directory Domain Services (AD DS) environment with Azure Active Directory (Azure AD) helps establish consistent user logins. It's also used to match devices to users with Group Policy. Which option is NOT a method to synchronize Azure AD with AD DS?" 
+   - content: "Synchronizing an Active Directory Domain Services (AD DS) environment with Azure Active Directory (Azure AD) helps establish consistent user logins. It's also used to match devices to users with Group Policy. Which option is NOT a method to synchronize Active Directory with AD DS?" 
      choices:
      - content: "Password Hash Sync"
        isCorrect: false 
@@ -37,7 +37,7 @@ quiz:
        explanation: "Correct, Windows Hello for Business is not a synchronization solution Azure Active Directory, in fact its value is largely based on PIN and biometric logins using asymmetrical public-private key pairs (PKI) rather than a shared secret, such as a password."   
      - content: "Active Directory Federation Services"
        isCorrect: False
-       explanation: "No, Active Directory Federation Services is a valid method. This option allows you to use more complex partner federation, RSA token and SmartCard authentication. However, with this option you’ll need to provision additional on-premises servers and ensure they are highly available."
+       explanation: "No, Active Directory Federation Services is a valid method. This option allows you to use more complex partner federation, RSA token, and SmartCard authentication. However, with this option you’ll need to provision additional on-premises servers and ensure they are highly available."
    - content: "When you provision and manage Windows Virtual Desktop, you need several administrator roles. Which of the following roles do you NOT need?" 
      choices:
      - content: "Azure subscription admin" 
@@ -52,7 +52,7 @@ quiz:
      - content: "Windows Virtual Desktop tenant admin"
        isCorrect: false  
        explanation: "No, you need a Windows Virtual Desktop tenant admin, also known as 'tenant creator,' to provision and maintain solution-specific settings." 
-   - content: "The PowerShell module used to manage Windows Virtual Desktop is called “Microsoft.WVDinfra.WVDPowershell”." 
+   - content: "The PowerShell module used to manage Windows Virtual Desktop is called 'Microsoft.WVDinfra.WVDPowershell'." 
      choices:
      - content: "True"
        isCorrect: false 
