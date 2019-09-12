@@ -14,7 +14,7 @@ There's a Resource Manager template in the Azure marketplace that helps you buil
 1. Give the host pool a name – like "My first host pool." 
    >![Windows Virtual Desktop host pool](../media/wvd-hostpool.png)
 2. Now, you have your first choice – do you want a **personal** or **pooled** desktop?
-   - A **personal desktop** is where each user has their own personal VM. This is useful if each user needs a dedicated  VM. For example, when a user needs local administrators permissons on the VM. Users can install apps and save configuration changes to their VMs.
+   - A **personal desktop** is where each user has their own personal VM. This is useful if each user needs a dedicated  VM. For example, when a user needs local administrators permissions on the VM. Users can install apps and save configuration changes to their VMs.
    - A **pooled desktop** allows multiple users to sign in to the same VM at the same time. Pooled desktops are more efficient and less expensive from a cost per user perspective. Because several users share the same VM, users can't be local admins. You’ll need another process to install applications and configure the VM. 
 3. Select **pooled** to maximize resource utilization. Later you’ll select a corresponding Windows 10 Enterprise multi-session image for the host pool. 
 4. Next, define the **Default desktop users**. This is a comma-separated list of user email accounts from your Azure Active Directory. You can add a single email address, also known as a *User Principal Name* (UPN), or several UPNs with commas between them.  

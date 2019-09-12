@@ -9,7 +9,7 @@ In large organizations, it's a good idea to assign administrator roles to differ
 
 ## Administrator roles required for Windows Virtual Desktop 
 Windows Virtual Desktop uses the following roles: 
-- **Azure subscription admin** – grants access to the Azure portal and resources. You can use a global admin for this role.
+- **Global administrator** – grants access to the Azure portal and resources.
 - **Azure Active Directory admin** – provisions users and manages user and admin access. 
 - **Windows Virtual Desktop Tenant Creator** – provisions and maintains Windows Virtual Desktop-specific configurations. This is a custom role that we’ll provision manually in this module. 
 - **Virtual machine admin** – provisions VMs once the Windows Virtual Desktop tenant is running. 
