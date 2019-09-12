@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-teams-sharepoint-file-collaboration.sharing-files-folders
+title: Sharing files and folders
+metadata:
+  title: Sharing files and folders
+  description: Discover how sharing files and folders works in SharePoint. Learn how to share files externally.
+  ms.date: 09/12/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+  [!include[](includes/sharing-files-folders.md)]
