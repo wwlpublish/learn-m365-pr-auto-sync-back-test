@@ -1,1 +1,1 @@
-Summary of this module.
+In this module, you learned about the first phase of the service adoption framework - Start. You learned about the key roles in any change project. You reviewed the change curve and the different stages we all go through when faced with a change. Finally, you learned about the organizational resources you can use, like stakeholders and champions, to ensure a successful rollout.
