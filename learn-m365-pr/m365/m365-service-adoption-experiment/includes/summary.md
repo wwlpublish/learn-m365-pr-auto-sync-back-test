@@ -1,1 +1,1 @@
-Summary of this module.
+In Phase 2 - Experiment, you learned how to conduct a small experiment to identify metrics and governance. What you learn during your experiment informs your broad adoption program. You also learned how to create a champions program to elp influence users in your organization to embrace your efforts.
