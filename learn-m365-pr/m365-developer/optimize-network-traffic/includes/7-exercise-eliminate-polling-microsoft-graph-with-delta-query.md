@@ -4,7 +4,7 @@ In this exercise, you'll use the Azure AD application and .NET console applicati
 
 In this exercise, you will update the application to get a list of all the users in the tenant. To perform this task, the Azure AD application needs additional permissions.
 
-Open a browser and navigate to the [Azure Active Directory admin center (https://aad.portal.azure.com)](https://aad.portal.azure.com). Login using a **Work or School Account**.
+Open a browser and navigate to the [Azure Active Directory admin center (https://aad.portal.azure.com)](https://aad.portal.azure.com). Sign in using a **Work or School Account**.
 
 Select **Azure Active Directory** in the left-hand navigation.
 
@@ -26,7 +26,7 @@ In the **Request API permissions** panel that appears, select **Microsoft Graph*
 
 ![Screenshot of Microsoft Graph in the Request API permissions panel](../media/aad-portal-newapp-permissions-03.png)
 
-When prompted for the type of permission, select **Delegated permissions** and search for the permission **Users.Read.All**, select it and then select the **Add permission** button at the bottom of the panel.
+When prompted for the type of permission, select **Delegated permissions** and search for the permission **User.Read.All**, select it and then select the **Add permission** button at the bottom of the panel.
 
 At the bottom of the **API Permissions** panel, select the button **Grant admin consent for [tenant]**, followed by the **Yes** button to grant all users in your organization this permission.
 
@@ -98,7 +98,7 @@ private static IUserDeltaCollectionPage GetUsers(GraphServiceClient graphClient,
 
 The next method will be used to check for new and changed users. The first time it runs, it will get all users and display them page by page until it reaches the last page of the response from Microsoft Graph.
 
-Add the following method to the `Main` class:
+Add the following method to the `Program` class:
 
 ```cs
 private static void CheckForUpdates(IConfigurationRoot config, string userName, SecureString userPassword)
@@ -184,7 +184,7 @@ If you let the app run for a few moments without doing anything, notice it will 
 
 Now, add a new user to your tenant.
 
-Open a browser and navigate to the [Azure Active Directory admin center (https://aad.portal.azure.com)](https://aad.portal.azure.com). Login using a **Work or School Account**.
+Open a browser and navigate to the [Azure Active Directory admin center (https://aad.portal.azure.com)](https://aad.portal.azure.com). Sign in using a **Work or School Account**.
 
 Select **Azure Active Directory** in the left-hand navigation.
 

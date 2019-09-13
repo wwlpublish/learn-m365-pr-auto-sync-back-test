@@ -60,7 +60,8 @@ To address this, your code should inspect each response for situations when the 
 Within the **Program.cs** file, add a new method `GetMessageDetail()` and the following code to it:
 
 ```cs
-private static Message GetMessageDetail(HttpClient client, string messageId, int defaultDelay = 2) {
+private static Message GetMessageDetail(HttpClient client, string messageId, int defaultDelay = 2)
+{
   Message messageDetail = null;
 
   string endpoint = "https://graph.microsoft.com/v1.0/me/messages/" + messageId;
@@ -80,7 +81,15 @@ var httpResponseTask = clientResponse.Content.ReadAsStringAsync();
 httpResponseTask.Wait();
 ```
 
-In the case of a successful response, return the deserialized response back to the caller to display the messages. Add the following code before the `// add code here` comment:
+In the case of a successful response, return the deserialized response back to the caller to display the messages.
+
+Add the following lines to the top of the **Program.cs** file to update the `using` statements:
+
+```cs
+using Newtonsoft.Json;
+```
+
+Add the following code before the `// add code here` comment:
 
 ```cs
 Console.WriteLine("...Response status code: {0}  ", clientResponse.StatusCode);
@@ -130,7 +139,8 @@ This code will do the following:
 The resulting method should look like the following:
 
 ```cs
-private static Message GetMessageDetail(HttpClient client, string messageId, int defaultDelay = 2) {
+private static Message GetMessageDetail(HttpClient client, string messageId, int defaultDelay = 2)
+{
   Message messageDetail = null;
 
   string endpoint = "https://graph.microsoft.com/v1.0/me/messages/" + messageId;
@@ -176,19 +186,13 @@ private static Message GetMessageDetail(HttpClient client, string messageId, int
 
 The next step is to update the `Main` method to use the new method so the application will use an intelligent throttling strategy.
 
-Add the following lines to the top of the **Program.cs** file to update the `using` statements:
-
-```cs
-using Newtonsoft.Json;
-```
-
 Locate the following line that obtains an instance of an authenticated **HttpClient** object in the `Main` method. Delete all code in the `Main` method after this line:
 
 ```cs
 var client = GetAuthenticatedHTTPClient(config, userName, userPassword);
 ```
 
-Add the following code after obtaining the **HttpCLient** object. This code will request the top 100 messages from the current user's mailbox and deserialize the response into a typed object you previously created:
+Add the following code after obtaining the **HttpClient** object. This code will request the top 100 messages from the current user's mailbox and deserialize the response into a typed object you previously created:
 
 ```cs
 var stopwatch = new System.Diagnostics.Stopwatch();
@@ -205,7 +209,8 @@ Add the following code to create individual requests for each message. These tas
 
 ```cs
 var tasks = new List<Task>();
-foreach(var graphMessage in graphMessages.Items) {
+foreach(var graphMessage in graphMessages.Items)
+{
   tasks.Add(Task.Run(() => {
 
     Console.WriteLine("...retrieving message: {0}", graphMessage.Id);
@@ -223,9 +228,11 @@ Next, add the following code to execute all tasks in parallel and wait for them 
 ```cs
 // do all work in parallel & wait for it to complete
 var allWork = Task.WhenAll(tasks);
-try {
+try
+{
   allWork.Wait();
-} catch {}
+}
+ catch {}
 ```
 
 With all work complete write the results to the console:

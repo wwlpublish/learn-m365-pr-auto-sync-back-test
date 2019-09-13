@@ -2,13 +2,11 @@ In this exercise, you will create a new Azure AD web application registration us
 
 ## Create an Azure AD application
 
-Open a browser and navigate to the [Azure Active Directory admin center (https://aad.portal.azure.com)](https://aad.portal.azure.com). Sign in using a **Work or School Account**.
+Open a browser and navigate to the [Azure Active Directory admin center (https://aad.portal.azure.com)](https://aad.portal.azure.com). Sign in using a **Work or School Account** that has global administrator rights to the tenancy.
 
 Select **Azure Active Directory** in the left-hand navigation.
 
   ![Screenshot of the App registrations](../media/aad-portal-home.png)
-
-Copy the Azure AD instance domain listed on the instance portal (highlighted above the name of the instance in the previous image).
 
 Select **Manage > App registrations** in the left-hand navigation.
 
@@ -25,7 +23,7 @@ On the **Register an application** page, set the values as follows:
 
     Select **Register**.
 
-On the **GraphNotificationTutorial** page, copy the value of the **Application (client) ID** and **Directory (tenant) ID**; you will need these in the application.
+On the **Graph Console App** page, copy the value of the **Application (client) ID** and **Directory (tenant) ID**; you will need these in the application.
 
   ![Screenshot of the application ID of the new app registration](../media/aad-portal-newapp-details.png)
 
@@ -35,7 +33,7 @@ In the section **Redirect URIs**, locate the **Suggested Redirect URIs for publi
 
 ![Screenshot of the Redirect URIs section](../media/aad-portal-newapp-02.png)
 
-Scroll down to the **Default claim type** section and set the toggle to **Yes**.
+Scroll down to the **Default client type** section and set the toggle to **Yes**.
 
 ![Screenshot of the Default client type section](../media/aad-portal-newapp-03.png)
 
@@ -64,6 +62,9 @@ When prompted for the type of permission, select **Delegated permissions**.
 Enter **Mail.R** in the **Select permissions** search box and select the **Mail.Read** permission, followed by the **Add permission** button at the bottom of the panel.
 
 At the bottom of the **API Permissions** panel, select the button **Grant admin consent for [tenant]**, followed by the **Yes** button to grant all users in your organization this permission.
+
+> [!NOTE]
+> The option to **Grant admin consent** here in the Azure AD admin center is pre-consenting the permissions to the users in the tenant to simplify the exercise. This approach allows the console application to use the [resource owner password credential rant](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth-ropc), so the user isn't prompted to grant consent to the application that simplifies the process of obtaining an OAuth access token. You could elect to implement alternative options such as the [device code flow](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth2-device-code) to utilize dynamic consent as another option.
 
 ## Create .NET Core console application
 
@@ -99,8 +100,7 @@ Create a new file named **appsettings.json** in the root of the project and add 
 ```json
 {
   "tenantId": "YOUR_TENANT_ID_HERE",
-  "applicationId": "YOUR_APP_ID_HERE",
-  "domain": "YOUR_DOMAIN_HERE"
+  "applicationId": "YOUR_APP_ID_HERE"
 }
 ```
 
@@ -108,7 +108,6 @@ Update properties with the following values:
 
 - `YOUR_TENANT_ID_HERE`: Azure AD directory ID
 - `YOUR_APP_ID_HERE`: Azure AD client ID
-- `YOUR_DOMAIN_HERE`: the domain for your Azure AD instance (*for example, contoso.onmicrosoft.com*)
 
 #### Create helper classes
 
@@ -217,8 +216,7 @@ private static IConfigurationRoot LoadAppSettings()
                       .Build();
 
     if (string.IsNullOrEmpty(config["applicationId"]) ||
-        string.IsNullOrEmpty(config["tenantId"]) ||
-        string.IsNullOrEmpty(config["domain"]))
+        string.IsNullOrEmpty(config["tenantId"]))
     {
       return null;
     }
@@ -256,9 +254,9 @@ Add the following method `GetAuthenticatedHTTPClient` to the `Program` class. Th
 ```cs
 private static HttpClient GetAuthenticatedHTTPClient(IConfigurationRoot config, string userName, SecureString userPassword)
 {
-    var authenticationProvider = CreateAuthorizationProvider(config, userName, userPassword);
-    var httpClient = new HttpClient(new AuthHandler(authenticationProvider, new HttpClientHandler()));
-    return httpClient;
+  var authenticationProvider = CreateAuthorizationProvider(config, userName, userPassword);
+  var httpClient = new HttpClient(new AuthHandler(authenticationProvider, new HttpClientHandler()));
+  return httpClient;
 }
 ```
 
@@ -327,7 +325,7 @@ var tasks = new List<Task>();
 var failResponseCode = HttpStatusCode.OK;
 HttpResponseHeaders failedHeaders = null;
 
-for (int i = 1; i < totalRequests; i++)
+for (int i = 0; i < totalRequests; i++)
 {
   tasks.Add(Task.Run(() =>
   {
@@ -374,6 +372,9 @@ Run the following command to run the console application:
 ```shell
 dotnet run
 ```
+
+> [!TIP]
+> The console app may take a one or two minutes to complete the process of authenticating and obtaining an access token from Azure AD and issuing the requests to Microsoft Graph.
 
 After entering the username and password of a user, you will see the results written to the console:
 
