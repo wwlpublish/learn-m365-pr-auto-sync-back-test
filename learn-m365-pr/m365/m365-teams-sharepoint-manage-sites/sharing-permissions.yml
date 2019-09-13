@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-teams-sharepoint-manage-sites.sharing-permissions
+title: Understand sharing and permissions in SharePoint
+metadata:
+  title: Understand sharing and permissions in SharePoint
+  description: Discover how to manage SharePoint sites in the SharePoint admin center. Learn how to manage sharing and permissions, site usage, reporting and monitoring, and information protection. 
+  ms.date: 09/13/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+  [!include[](includes/sharing-permissions.md)]
