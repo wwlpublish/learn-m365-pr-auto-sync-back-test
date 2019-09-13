@@ -1,0 +1,39 @@
+### YamlMime:Module
+uid: learn-m365.m365-teams-sharepoint-manage-sites
+metadata:
+  title: Manage your Microsoft SharePoint sites
+  description: Discover how to manage SharePoint sites in the SharePoint admin center. Learn how to manage sharing and permissions, site usage, reporting and monitoring, and information protection. 
+  ms.date: 09/13/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage your Microsoft SharePoint sites
+summary: Discover how to manage SharePoint sites in the SharePoint admin center. Learn how to manage sharing and permissions, site usage, reporting and monitoring, and information protection.   
+abstract: |
+  At the end of this module, you should be able to:
+  - Explain how to use the SharePoint admin center to manage SharePoint sites.
+  - Describe how to manage SharePoint sharing and permissions.
+  - Explain how to employ usage guidelines to manage SharePoint sites.
+  - Describe how reporting and monitoring work in SharePoint.
+  - Describe how administrators and Microsoft combine to keep data safe in SharePoint.
+
+prerequisites: None
+iconUrl: http://via.placeholder.com/120x120
+ratingEnabled: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- m365
+units:
+- learn-m365.m365-teams-sharepoint-manage-sites.introduction
+- learn-m365.m365-teams-sharepoint-manage-sites.sharepoint-admin-center
+- learn-m365.m365-teams-sharepoint-manage-sites.sharing-permissions
+- learn-m365.m365-teams-sharepoint-manage-sites.reporting-monitoring
+- learn-m365.m365-teams-sharepoint-manage-sites.summary-knowledge-check
+
+badge: 
+  uid: learn-m365.m365-teams-sharepoint-manage-sites.badges
+  
