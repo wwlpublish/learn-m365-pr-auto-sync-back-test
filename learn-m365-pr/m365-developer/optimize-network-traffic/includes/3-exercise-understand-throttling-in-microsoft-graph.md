@@ -156,30 +156,59 @@ namespace Helpers
 {
   public class MsalAuthenticationProvider : IAuthenticationProvider
   {
+    private static MsalAuthenticationProvider _singleton;
     private IPublicClientApplication _clientApplication;
     private string[] _scopes;
     private string _username;
     private SecureString _password;
+    private string _userId;
 
-    public MsalAuthenticationProvider(IPublicClientApplication clientApplication, string[] scopes, string username, SecureString password)
+    private MsalAuthenticationProvider(IPublicClientApplication clientApplication, string[] scopes, string username, SecureString password)
     {
       _clientApplication = clientApplication;
       _scopes = scopes;
       _username = username;
       _password = password;
+      _userId = null;
+    }
+
+    public static MsalAuthenticationProvider GetInstance(IPublicClientApplication clientApplication, string[] scopes, string username, SecureString password)
+    {
+      if (_singleton == null)
+      {
+        _singleton = new MsalAuthenticationProvider(clientApplication, scopes, username, password);
+      }
+
+      return _singleton;
     }
 
     public async Task AuthenticateRequestAsync(HttpRequestMessage request)
     {
-      var token = await GetTokenAsync();
-      request.Headers.Authorization = new AuthenticationHeaderValue("bearer", token);
+      var accessToken = await GetTokenAsync();
+
+      request.Headers.Authorization = new AuthenticationHeaderValue("bearer", accessToken);
     }
 
     public async Task<string> GetTokenAsync()
     {
-      AuthenticationResult authResult = null;
-      authResult = await _clientApplication.AcquireTokenByUsernamePassword(_scopes, _username, _password).ExecuteAsync();
-      return authResult.AccessToken;
+      if (!string.IsNullOrEmpty(_userId))
+      {
+        try
+        {
+          var account = await _clientApplication.GetAccountAsync(_userId);
+
+          if (account != null)
+          {
+            var silentResult = await _clientApplication.AcquireTokenSilent(_scopes, account).ExecuteAsync();
+            return silentResult.AccessToken;
+          }
+        }
+        catch (MsalUiRequiredException){ }
+      }
+
+      var result = await _clientApplication.AcquireTokenByUsernamePassword(_scopes, _username, _password).ExecuteAsync();
+      _userId = result.Account.HomeAccountId.Identifier;
+      return result.AccessToken;
     }
   }
 }
@@ -245,7 +274,7 @@ private static IAuthenticationProvider CreateAuthorizationProvider(IConfiguratio
   var cca = PublicClientApplicationBuilder.Create(clientId)
                                           .WithAuthority(authority)
                                           .Build();
-  return new MsalAuthenticationProvider(cca, scopes.ToArray(), userName, userPassword);
+  return MsalAuthenticationProvider.GetInstance(cca, scopes.ToArray(), userName, userPassword);
 }
 ```
 
