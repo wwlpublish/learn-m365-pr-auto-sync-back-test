@@ -8,11 +8,19 @@ Normally, you can query either the properties of a resource or one of its relati
 
 ## Expanding related entities in queries to limit requests
 
-The $expand operator, can be used to expand a collection of items, saving you from issuing additional requests.
+The `$expand` operator, can be used to expand a collection of items, saving you from issuing additional requests.
+
+```http
+https://graph.microsoft.com/v1.0/me/drive/root/$expand=children
+```
 
 In this example, you've requested Microsoft Graph to automatically include the children collection from the drive/root endpoint. The response will include all the default properties for the collection of files and folders within the root folder of the user’s OneDrive.
 
 You can further optimize this query by including a `$select` query operator to only include the specific properties from the children collection.
+
+```http
+https://graph.microsoft.com/v1.0/me/drive/root?$expand=children($select=id,name)
+```
 
 Consider the scenario where you want to get the members of 10 groups. Without using the `$expand` operation, you can retrieve the members with one query for the first 10 groups, then as you enumerate through the results, you would create 10 more requests, one for each group, to get each group's members. The query results in 11 round trips of Microsoft Graph requests. However with the `$expand` operator, these 11 requests can be cut down to a single request.
 
@@ -25,6 +33,10 @@ https://graph.microsoft.com/v1.0/groups?$expand=members
 Another optimization option supported by Microsoft Graph is use of the `$filter` query parameter. Filtering enables developers to limit the size of the response by filtering on specific content. Filtering isn't to be confused with search.
 
 The syntax of the `$filter` query parameter follows the format of passing in an equality function with two parameters. The first parameter is the field to filter while the second parameter is the value to filter on.
+
+```http
+https://graph.microsoft.com/v1.0/users?$filter=eq(displaName,’Bowen’)
+```
 
 Most logical operators are supported, such as:
 
@@ -40,14 +52,31 @@ Most logical operators are supported, such as:
 
 The operator `startswith()` is supported by most endpoints in Microsoft Graph, but not all. Refer to the documentation for Microsoft Graph for full details.
 
+```http
+https://graph.microsoft.com/v1.0/users?$filter=startswith(displayName,’J’)
+```
+
 ## Find entities with search
 
 Developers can also use the `$search` query parameter to search for content against the people & message endpoints.
+
+```http
+https://graph.microsoft.com/v1.0/users?$search=“wilke”
+https://graph.microsoft.com/v1.0/users?$search=“body:exciting”
+```
 
 Search is limited to returning 250 results.
 
 Search can't be combined with the `$filter` or `$orderby` operators.
 
-When searching against the messages endpoint, if no property is specified, it defaults to searching the `from`, `subject` and `body` field.
+When searching against the messages endpoint, if no property is specified, it defaults to searching the **from**, **subject**, and **body** property. You can search on specific fields as well, such as the **cc** property:
+
+```http
+https://graph.microsoft.com/v1.0/users?$search=“cc:wilke”
+```
 
 Like the `$filter` query parameter, the `$search` query parameter can be combined with the `$select` query parameter to limit the data returned.
+
+```http
+https://graph.microsoft.com/v1.0/users?$search=“cc:wilke”&$select=subject,toRecipients
+```

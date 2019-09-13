@@ -29,7 +29,7 @@ In the **Request API permissions** panel that appears, select **Microsoft Graph*
 
 When prompted for the type of permission, select **Application permissions**.
 
-Enter **Groups.R** in the **Select permissions** search box and select the **Groups.Read.All** permission, followed by the **Add permission** button at the bottom of the panel.
+Enter **Group.R** in the **Select permissions** search box and select the **Group.Read.All** permission, followed by the **Add permission** button at the bottom of the panel.
 
 At the bottom of the **API Permissions** panel, select the button **Grant admin consent for [tenant]**, followed by the **Yes** button to grant all users in your organization this permission.
 
@@ -101,7 +101,7 @@ Notice you can scroll through many results in the **Response Preview** window af
 
 Now enter the following query that will search for a user with the name *"wilke"* and select the **Run Query** button. This time the query will only return a single user: **https://graph.microsoft.com/v1.0/me/people?search="wilke"**.
 
-The `$search` query parameter also supports wildcards. Execute the following query to see many more people were found in the same data collection: **https://graph.microsoft.com/v1.0/me/people?search="wil*"**.
+The `$search` query parameter also supports wildcards. Execute the following query to see many more people were found in the same data collection: **https://graph.microsoft.com/v1.0/me/people?search="wil\*"**.
 
 ## Summary
 

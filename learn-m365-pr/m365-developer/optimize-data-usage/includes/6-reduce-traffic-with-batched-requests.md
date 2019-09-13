@@ -10,9 +10,9 @@ Another scenario may involve multiple write operations such as:
 - creating a shared OneNote notebook for the event
 - sending meeting invites out to the participants
 
-Applications can get chatty quickly that can also introduce potential throttling issues.
+Applications can get chatty quickly, and that can also introduce potential throttling issues.
 
-One way to avoid any issues and to introduce an optimization is to group multiple requests into a single request to Microsoft Graph. This batching, instructs Microsoft Graph to execute multiple requests and return the grouped results for each request in a single response.
+One way to avoid any issues and to introduce an optimization is to group multiple requests into a single request to Microsoft Graph. This batching, instructs Microsoft Graph to execute multiple requests and return the grouped results for each request in a single response. Batching does not reduce the number of requests, but it does reduce the number of HTTP round trips your application requests to Microsoft Graph.
 
 ## Microsoft Graph endpoints support batched requests
 

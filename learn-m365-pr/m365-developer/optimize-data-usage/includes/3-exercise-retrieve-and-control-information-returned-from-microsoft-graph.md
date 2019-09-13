@@ -1,14 +1,12 @@
-In this exercise, you will create a new Azure AD web application registration using the Azure Active Directory admin center, a .NET Core console application and query Microsoft Graph.
+In this exercise, you will create a new Azure AD web application registration using the Azure Active Directory admin center, a .NET Core console application, and query Microsoft Graph.
 
 ## Create an Azure AD application
 
-Open a browser and navigate to the [Azure Active Directory admin center (https://aad.portal.azure.com)](https://aad.portal.azure.com). Sign in using a **Work or School Account**.
+Open a browser and navigate to the [Azure Active Directory admin center (https://aad.portal.azure.com)](https://aad.portal.azure.com). Sign in using a **Work or School Account** that has global administrator rights to the tenancy.
 
 Select **Azure Active Directory** in the left-hand navigation.
 
   ![Screenshot of the App registrations](../media/aad-portal-home.png)
-
-Copy of the Azure AD instance domain listed on the instance portal, highlighted above the name of the instance in the previous figure.
 
 Select **Manage > App registrations** in the left-hand navigation.
 
@@ -20,7 +18,7 @@ On the **Register an application** page, set the values as follows:
 
 - **Name**: Graph Console App
 - **Supported account types**: Accounts in this organizational directory only (Contoso only - Single tenant)
-- **Redirect URI**: Web = http://localhost
+- **Redirect URI**: Web = https://localhost
 
     ![Screenshot of the Register an application page](../media/aad-portal-newapp-01.png)
 
@@ -107,8 +105,7 @@ Create a new file named **appsettings.json** in the root of the project and add 
   "tenantId": "YOUR_TENANT_ID_HERE",
   "applicationId": "YOUR_APP_ID_HERE",
   "applicationSecret": "YOUR_APP_SECRET_HERE",
-  "redirectUri": "YOUR_REDIRECT_URI_HERE",
-  "domain": "YOUR_DOMAIN_HERE"
+  "redirectUri": "YOUR_REDIRECT_URI_HERE"
 }
 ```
 
@@ -118,7 +115,6 @@ Update properties with the following values:
 - `YOUR_APP_ID_HERE`: Azure AD client ID
 - `YOUR_APP_SECRET_HERE`: Azure AD client secret
 - `YOUR_REDIRECT_URI_HERE`: redirect URI you entered when creating the Azure AD app (*for example, https://localhost*)
-- `YOUR_DOMAIN_HERE`: domain for your Azure AD instance (*for example, contoso.onmicrosoft.com*)
 
 #### Create helper classes
 
@@ -225,8 +221,7 @@ private static IConfigurationRoot LoadAppSettings()
     if (string.IsNullOrEmpty(config["applicationId"]) ||
         string.IsNullOrEmpty(config["applicationSecret"]) ||
         string.IsNullOrEmpty(config["redirectUri"]) ||
-        string.IsNullOrEmpty(config["tenantId"]) ||
-        string.IsNullOrEmpty(config["domain"]))
+        string.IsNullOrEmpty(config["tenantId"]))
     {
       return null;
     }
@@ -284,12 +279,12 @@ if (config == null)
 }
 ```
 
-Add the following code to the end of the `Main` method, just after the code added in the last step. This code will obtain an authenticated instance of the `GraphServicesClient` and submit a request for the first user. It makes the request to the Microsoft Graph Users endpoint and uses the query parameter `$top` to select the first result:
+Add the following code to the end of the `Main` method, just after the code added in the last step. This code will obtain an authenticated instance of the `GraphServicesClient` and submit a request for the first user.
 
 ```cs
 var client = GetAuthenticatedGraphClient(config);
 
-// add query options here
+var options = new List<QueryOption>{};
 
 var graphRequest = client.Users.Request(options);
 
@@ -317,7 +312,7 @@ Run the following command to run the console application:
 dotnet run
 ```
 
-Depending how many users are in your organization, you'll see a list of users displayed. The query retrieved all information about the users:
+When the application runs, you'll see a list of users displayed. The query retrieved all information about the users:
 
 ![Screenshot of the console application with no query parameters](../media/app-run-01.png)
 
@@ -328,7 +323,7 @@ Depending how many users are in your organization, you'll see a list of users di
 
 The current console application isn't efficient because it retrieves all information about all users in your organization but only displays three properties. The `$select` query parameter can limit the amount of data that is returned by Microsoft Graph, optimizing the query.
 
-Replace the comment `// add query options here` in the `Main` method with the following to limit the query to just two properties:
+Replace the `var options = new List<QueryOption>{};` code in the `Main` method with the following to limit the query to just two properties:
 
 ```cs
 var options = new List<QueryOption>

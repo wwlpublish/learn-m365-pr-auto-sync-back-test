@@ -32,14 +32,15 @@ Add the following JSON to the **Request Body** input box. This JSON code will is
 
 ```json
 {
-  "requests": [
+  "requests":
+  [
     {
       "url": "/me?$select=displayName,jobTitle,userPrincipalName",
       "method": "GET",
       "id": "1"
     },
     {
-      "url": "/me/messages?$filter=importance eq 'high'&$select=from,subject,ceivedDateTime,bodyPreview",
+      "url": "/me/messages?$filter=importance eq 'high'&$select=from,subject,receivedDateTime,bodyPreview",
       "method": "GET",
       "id": "2"
     },
@@ -72,7 +73,8 @@ Enter the following JSON to the **Request Body** input box. This request will is
 
 ```json
 {
-  "requests": [
+  "requests": 
+  [
     {
       "url": "/me/drive/root/children",
       "method": "POST",
