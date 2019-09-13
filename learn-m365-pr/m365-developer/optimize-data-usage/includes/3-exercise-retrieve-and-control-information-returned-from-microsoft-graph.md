@@ -284,9 +284,7 @@ Add the following code to the end of the `Main` method, just after the code adde
 ```cs
 var client = GetAuthenticatedGraphClient(config);
 
-var options = new List<QueryOption>{};
-
-var graphRequest = client.Users.Request(options);
+var graphRequest = client.Users.Request();
 
 var results = graphRequest.GetAsync().Result;
 foreach(var user in results)
@@ -323,16 +321,15 @@ When the application runs, you'll see a list of users displayed. The query retri
 
 The current console application isn't efficient because it retrieves all information about all users in your organization but only displays three properties. The `$select` query parameter can limit the amount of data that is returned by Microsoft Graph, optimizing the query.
 
-Replace the `var options = new List<QueryOption>{};` code in the `Main` method with the following to limit the query to just two properties:
+Update the line that starts with `var results = client.Users` in the `Main` method with the following to limit the query to just two properties:
 
 ```cs
-var options = new List<QueryOption>
-{
-  new QueryOption("$select","DisplayName,Mail")
-};
+var results = client.Users
+                    .Request()
+                    .Select(u => new { u.DisplayName, u.Mail })
+                    .GetAsync()
+                    .Result;
 ```
-
-Add the `options` object as the single parameter to the `Request()` method in the line of code that executes the query.
 
 Rebuild and rerun the console application by executing the following commands in the command line:
 
@@ -345,10 +342,15 @@ Now you see the `Id` property isn't populated with data as it wasn't included in
 
 ![Screenshot of the console application with the $select query parameters](../media/app-run-02.png)
 
-Let us further limit the results to just the first 15 results. Add the following query parameter to the previously created collection of `QueryOption` objects:
+Let us further limit the results to just the first 15 results. Update the line that starts with `var results = client.Users` in the `Main` method with the following:
 
 ```cs
-new QueryOption("$top","15")
+var results = client.Users
+                    .Request()
+                    .Select(u => new { u.DisplayName, u.Mail })
+                    .Top(15)
+                    .GetAsync()
+                    .Result;
 ```
 
 Rebuild and rerun the console application by executing the following commands in the command line:
@@ -362,10 +364,16 @@ dotnet run
 
 Notice only 15 items are now returned by the query.
 
-Sort the results in reverse alphabetic order. Add the following query parameters to the collection of `QueryOption` objects:
+Sort the results in reverse alphabetic order. Update the line that starts with `var results = client.Users` in the `Main` method with the following:
 
 ```cs
-new QueryOption("$orderby","displayName desc")
+var results = client.Users
+                    .Request()
+                    .Select(u => new { u.DisplayName, u.Mail })
+                    .Top(15)
+                    .OrderBy("DisplayName desc")
+                    .GetAsync()
+                    .Result;
 ```
 
 Rebuild and rerun the console application by executing the following commands in the command line:
@@ -377,10 +385,18 @@ dotnet run
 
 ![Screenshot of the console application with the $orderby query parameters](../media/app-run-04.png)
 
-Further refine the results by selecting Users who's surname starts with A, B, or C. You'll need to remove the `$orderby` query parameter added previously as the Users endpoint doesn't support combining the `$filter` and `$orderby` parameters:
+Further refine the results by selecting Users who's surname starts with A, B, or C. You'll need to remove the `$orderby` query parameter added previously as the Users endpoint doesn't support combining the `$filter` and `$orderby` parameters. Update the line that starts with `var results = client.Users` in the `Main` method with the following:
 
 ```cs
 new QueryOption("$filter","startsWith(surname,'A') or startsWith(surname,'B') or startsWith(surname,'C')")
+var results = client.Users
+                    .Request()
+                    .Select(u => new { u.DisplayName, u.Mail })
+                    .Top(15)
+                    // .OrderBy("DisplayName desc)
+                    .Filter("startsWith(surname,'A') or startsWith(surname,'B') or startsWith(surname,'C')")
+                    .GetAsync()
+                    .Result;
 ```
 
 Rebuild and rerun the console application by executing the following commands in the command line:

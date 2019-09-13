@@ -50,7 +50,7 @@ The code that immediately follows this line creates a collection of `QueryOption
 Next, update the query that previously retrieved users to request groups. Notice the addition of the `.Expand()` method that instructs Microsoft Graph to include the members collection for each group:
 
 ```cs
-var graphRequest = client.Groups.Request(options).Expand("members");
+var graphRequest = client.Groups.Request().Top(5).Expand("members");
 ```
 
 Update the `foreach` loop to output the group details, and for each group write the members:
