@@ -323,13 +323,12 @@ var graphMessages = JsonConvert.DeserializeObject<Messages>(httpResponseTask.Res
 Replace those lines with the following code to request the same information using the microsoft Graph SDK:
 
 ```cs
-var options = new List<QueryOption>
-{
-  new QueryOption("$select","id"),
-  new QueryOption("$top","100")
-};
-
-var clientResponse = client.Me.Messages.Request(options).GetAsync().Result;
+var clientResponse = client.Me.Messages
+                              .Request()
+                              .Select(m => new { m.Id })
+                              .Top(100)
+                              .GetAsync()
+                              .Result;
 ```
 
 The collection returned by SDK is in a different format than what the REST API returned. Locate the `foreach` loop that enumerates through all returned messages to request each message's details. Change the collection to the following code:
