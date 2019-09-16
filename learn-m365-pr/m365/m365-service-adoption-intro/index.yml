@@ -23,8 +23,11 @@ products:
 - m365
 units:
 - learn-m365.service-adoption-intro.introduction
+- learn-m365.service-adoption-intro.knowledge-check-1
 - learn-m365.service-adoption-intro.service-adoption-framework
+- learn-m365.service-adoption-intro.knowledge-check-2
 - learn-m365.service-adoption-intro.required-knowledge
+- learn-m365.service-adoption-intro.knowledge-check-3
 - learn-m365.service-adoption-intro.summary
 badge: 
   uid: learn-m365.service-adoption-intro.badges

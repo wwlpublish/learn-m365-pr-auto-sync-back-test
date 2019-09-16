@@ -1,0 +1,45 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.service-adoption-intro.knowledge-check-1
+title: Knowledge check 1
+metadata:
+  title: Knowledge check 1
+  description: Review what you've learned about the service adoption framework.
+  ms.date: 09/16/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Service adoption refers to the ability to do which of the following?"
+      choices:
+      - content: "Deploy new technology"
+        isCorrect: false
+        explanation: "Reason."
+      - content: "Deliver training programs"
+        isCorrect: false
+        explanation: "Reason."
+      - content: "Have executives fund projects"
+        isCorrect: false
+        explanation: "Reason."
+      - content: "Drive healthy usage by employees of business and technical capabilities."
+        isCorrect: true
+        explanation: "Reason."
+    - content: "Service adoption is defined as which of the following?"
+      choices:
+      - content: "The ability to deploy new technology quickly."
+        isCorrect: true
+        explanation: "Reason."
+      - content: "The ability of an organization to drive healthy usage of business and technical capabilities."
+        isCorrect: false
+        explanation: "Reason."
+      - content: "A company's end user training programs."
+        isCorrect: false
+        explanation: "Reasons."
+      - content: "The measures of how many people are using approved software."
+        isCorrect: false
+        explanation: "Reason."

@@ -1,0 +1,45 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.service-adoption-intro.knowledge-check-3
+title: Knowledge check 3
+metadata:
+  title: Knowledge check 3
+  description: Review what you've learned about the service adoption framework.
+  ms.date: 09/16/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "The enhanced service adoption framework emphasizes what process?"
+      choices:
+      - content: "Light business process mapping"
+        isCorrect: false
+        explanation: "Reason."
+      - content: "Workforce talent reviews"
+        isCorrect: false
+        explanation: "Reason."
+      - content: "Frequent feedback loops"
+        isCorrect: false
+        explanation: "Reason."
+      - content: "Identified success measures."
+        isCorrect: true
+        explanation: "Reason."
+      - content: "Streamlined incident management."
+        isCorrect: true
+        explanation: "Reason."
+    - content: "Breaking the service adoption framework down into three phases achieves which outcome?"
+      choices:
+      - content: "Makes it easier to understand for IT and change managers."
+        isCorrect: true
+        explanation: "Reason."
+      - content: "Allows for different business units or regions to adopt services at different rates."
+        isCorrect: false
+        explanation: "Reason."
+      - content: "Provides a structure for teaching the framework to others."
+        isCorrect: false
+        explanation: "Reasons."

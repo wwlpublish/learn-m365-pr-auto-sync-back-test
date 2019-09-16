@@ -1,0 +1,180 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.service-adoption-intro.knowledge-check-2
+title: Knowledge check 2
+metadata:
+  title: Knowledge check 2
+  description: Review what you've learned about the knowledge you need as part of the service adoption framework.
+  ms.date: 09/16/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "For a successful project, a Service Adoption Specialist must keep in balance which of the following?"
+      choices:
+      - content: "Healthy usage of technology"
+        isCorrect: false
+        explanation: "Reason."
+      - content: "Relevant business process improvements"
+        isCorrect: false
+        explanation: "Reason."
+      - content: "Feedback from employees"
+        isCorrect: false
+        explanation: "Reason."
+      - content: "All of the above."
+        isCorrect: true
+        explanation: "Reason."
+    - content: "Healthy service usage refers to the ability to achieve which of the following?"
+      choices:
+      - content: "Employees ability to use business and technical capabilities to deliver business outcomes."
+        isCorrect: true
+        explanation: "Reason."
+      - content: "Employees correctly using technology based on your training."
+        isCorrect: false
+        explanation: "Reason."
+      - content: "Employees having secure technology available."
+        isCorrect: false
+        explanation: "Reasons."
+      - content: "Employees not sharing data in consumer."
+        isCorrect: false
+        explanation: "Reason."
+    - content: "The process that an organization has to go through to change its strategies, processes, culture, or technology is referred to as what?"
+      choices:
+      - content: "Business management."
+        isCorrect: true
+        explanation: "Reason."
+      - content: "Organizational strategy."
+        isCorrect: false
+        explanation: "Reason."
+      - content: "Process improvement."
+        isCorrect: false
+        explanation: "Reasons."
+      - content: "Organizational change."
+        isCorrect: false
+        explanation: "Reason."        
+    - content: "To manage organizational development a Service Adoption Specialist must do in part which of these things?"
+      choices:
+      - content: "Bridge the gap between company strategy and the day-to-day employee experience."
+        isCorrect: true
+        explanation: "Reason."
+      - content: "Be responsible for the budge of the improvement project."
+        isCorrect: false
+        explanation: "Reason."
+      - content: "Balance change with business outcomes."
+        isCorrect: false
+        explanation: "Reasons."
+      - content: "Be a productive advocate for the employee experience."
+        isCorrect: false
+        explanation: "Reason."        
+      - content: "Remind executives about their responsibilities to employee productivity."
+        isCorrect: false
+        explanation: "Reason."        
+    - content: "What is one stated positive outcome of improving the culture of a company?"
+      choices:
+      - content: "Less layoffs."
+        isCorrect: true
+        explanation: "Reason."
+      - content: "Product and service improvement."
+        isCorrect: false
+        explanation: "Reason."
+      - content: "Better financial performance."
+        isCorrect: false
+        explanation: "Reasons."
+      - content: "Less executive turnover."
+        isCorrect: false
+        explanation: "Reason."        
+    - content: "As state in this course a successful commercial organization places whose needs at the top of the priority list?"
+      choices:
+      - content: "Industry thought leaders."
+        isCorrect: true
+        explanation: "Reason."
+      - content: "Executives."
+        isCorrect: false
+        explanation: "Reason."
+      - content: "Employees."
+        isCorrect: false
+        explanation: "Reasons."
+      - content: "Customers."
+        isCorrect: false
+        explanation: "Reason."        
+    - content: "Select the stated areas of business acument for Service Adoption Specialists."
+      choices:
+      - content: "Company strategy and culture."
+        isCorrect: true
+        explanation: "Reason."
+      - content: "Hiring best practices."
+        isCorrect: false
+        explanation: "Reason."
+      - content: "Controlling costs."
+        isCorrect: false
+        explanation: "Reasons."
+      - content: "Product improvement methods."
+        isCorrect: false
+        explanation: "Reason."        
+      - content: "Improving service."
+        isCorrect: false
+        explanation: "Reason."        
+      - content: "Sales excellence."
+        isCorrect: false
+        explanation: "Reason."        
+    - content: "The ability to have the depth of knowledge to apply specific technology to achieve a desired business outcome is referred to as what?"
+      choices:
+      - content: "Technical acumen."
+        isCorrect: true
+        explanation: "Reason."
+      - content: "Technical competence."
+        isCorrect: false
+        explanation: "Reason."
+      - content: "IT management."
+        isCorrect: false
+        explanation: "Reasons."
+      - content: "Technology capabilities."
+        isCorrect: false
+        explanation: "Reason."        
+    - content: "To be a successful Service Adoption Specialist it is required that you have a college degree in:"
+      choices:
+      - content: "Computer science."
+        isCorrect: true
+        explanation: "Reason."
+      - content: "Organizational psychology."
+        isCorrect: false
+        explanation: "Reason."
+      - content: "Business administration."
+        isCorrect: false
+        explanation: "Reasons."
+      - content: "None of the above."
+        isCorrect: false
+        explanation: "Reason."        
+    - content: "What of the following best defines a tactic of omni-directional marketing?"
+      choices:
+      - content: "Multiple methods must be simultaneously used to communicate to employees at regular intervals."
+        isCorrect: true
+        explanation: "Reason."
+      - content: "Communications must cross regions or offices."
+        isCorrect: false
+        explanation: "Reason."
+      - content: "Email announcement should come from multiple leaders simultaneously."
+        isCorrect: false
+        explanation: "Reasons."
+      - content: "Templates can be given to employees to use how they see fit for their groups."
+        isCorrect: false
+        explanation: "Reason."        
+    - content: "Which individual item is NOT a part of the marketing communications are for Service Adoption Specialists?"
+      choices:
+      - content: "Key messages for employee campaigns."
+        isCorrect: true
+        explanation: "Reason."
+      - content: "Resolving help desk issues."
+        isCorrect: false
+        explanation: "Reason."
+      - content: "Editing or creating digital posters."
+        isCorrect: false
+        explanation: "Reasons."
+      - content: "Setting office hour schedules."
+        isCorrect: false
+        explanation: "Reason."        
