@@ -1,0 +1,5 @@
+When you move from Remote Desktop Services to Windows Virtual Desktop, you no longer have to manage basic infrastructure components like RDSH servers and gateways. Windows Virtual Desktop includes new ways to componentize compute environments, enabling you to separate the operating system layer from the user profile layer. You can then take advantage of Microsoft 365 and Microsoft Azure services for file management options at the user and file share level.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3Jmri]
+
+This module covers post-deployment steps to optimize Windows Virtual Desktop: using dynamic FSLogix profiles, enabling and configuring OneDrive for Business and OneDrive Files on Demand, and synchronizing on-premises or hosted file shares with Azure using Azure File Sync. We’ll also look at how you can reduce cost and optimize user performance by scaling host pools on demand using depth and breadth scaling.
