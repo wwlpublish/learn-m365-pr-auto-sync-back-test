@@ -1,0 +1,30 @@
+### YamlMime:LearningPath
+uid: learn-m365.windows-virtual-desktop
+metadata:
+  title: Deliver remote desktops and apps from Azure with Windows Virtual Desktop
+  description: Windows Virtual Desktop on Microsoft Azure is a desktop and app virtualization service that runs on the cloud. Windows Virtual Desktop works across devices – including Windows, Mac, iOS, and Android – with full-featured apps that you can use to access remote desktops and apps.
+  ms.date: 09/12/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Deliver remote desktops and apps from Azure with Windows Virtual Desktop
+summary: Windows Virtual Desktop on Microsoft Azure is a desktop and app virtualization service that runs on the cloud. Windows Virtual Desktop works across devices – including Windows, Mac, iOS, and Android – with full-featured apps that you can use to access remote desktops and apps.
+prerequisites: | 
+ - Familiarity with server and client management concepts and tools
+ - Familiarity with Windows virtualization technologies, like Remote Desktop Services
+iconUrl: /learn/achievements/deliver-remote-desktops-and-apps-from-azure-with-windows-virtual-desktop.svg
+levels: 
+- intermediate
+roles:
+- administrator
+products: 
+- azure
+- m365
+modules:
+- learn-m365.wvd-intro
+- learn-m365.prepare-for-wvd
+- learn-m365.deploy-wvd
+- learn-m365.optimize-wvd
+trophy: 
+  uid: learn-m365.windows-virtual-desktop.trophy
