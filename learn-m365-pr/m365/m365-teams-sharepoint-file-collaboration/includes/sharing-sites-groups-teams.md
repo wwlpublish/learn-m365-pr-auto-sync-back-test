@@ -23,7 +23,7 @@ In both public and private groups and teams, users can share individual files an
 
 By default, members of a SharePoint team site can invite others to become members of the site without the need for site owner approval. While we recommend that you manage team site membership through the associated Office 365 Group, there may be times when you want to invite others to a team site by itself to view or edit files there.
 
-- *Example:*  You have a group of users collaborating on a project and a group of stakeholders who you want to be able to read the project files but not update them. Add the collaboration group as members of the Office 365 Group and give the stakeholders view-only access to the team site.
+*Example:*  You have a group of users collaborating on a project and a group of stakeholders who you want to be able to read the project files but not update them. Add the collaboration group as members of the Office 365 Group and give the stakeholders view-only access to the team site.
 
 SharePoint includes an option called **site access requests** which can be used to require new users to be approved by a site owner before they can access the site. There is also an option to disallow site access requests altogether. When this latter option is used, only site owners can invite new users to a team site.
 

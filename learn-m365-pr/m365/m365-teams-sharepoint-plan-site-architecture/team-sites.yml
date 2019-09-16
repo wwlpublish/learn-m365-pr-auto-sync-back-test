@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.m365-teams-sharepoint-plan-site-architecture.team-sites
-title: Plan your SharePoint team sites
+title: Plan your team sites
 metadata:
-  title: Plan your SharePoint team sites
+  title: Plan your team sites
   description: Discover how SharePoint works with Microsoft 365. Learn how security, access and authentication work in SharePoint as well as the role of the SharePoint administrator. 
   ms.date: 08/29/2019
   author: AlexandraHrt

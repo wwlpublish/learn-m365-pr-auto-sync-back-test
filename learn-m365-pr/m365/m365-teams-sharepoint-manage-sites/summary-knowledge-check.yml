@@ -42,7 +42,7 @@ quiz:
       
     - content: "What kind of site permissions can the SharePoint administrator manage in the admin center?"
       choices:
-      - content: "Office 365 Group owner, and primary administrator"
+      - content: "Office 365 Group owner and primary administrator"
         isCorrect: true
         explanation: "Administrators can manage the Office 365 Group owner for team sites and the primary administrator for other sites in the SharePoint admin center."
       - content: "Site members and visitors"
