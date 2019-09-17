@@ -9,7 +9,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Manage team collaboration with Microsoft Teams
-summary: "**Manage team collaboration with Microsoft Teams** introduces you to the features and capabilities of Microsoft Teams, the central hub for team collaboration in Microsoft 365. You’ll learn how you can use Teams to facilitate teamwork and communication within your organization, both on and off premises, on a wide range of devices—from desktops to tablets to phones—while taking advantage of all the rich functionality of Office 365 applications. You’ll gain an understanding of how Teams provides a comprehensive and flexible environment for collaboration across applications and devices." 
+summary: "Manage team collaboration with Microsoft Teams introduces you to the features and capabilities of Microsoft Teams, the central hub for team collaboration in Microsoft 365. You’ll learn how you can use Teams to facilitate teamwork and communication within your organization, both on and off premises, on a wide range of devices—from desktops to tablets to phones—while taking advantage of all the rich functionality of Office 365 applications. You’ll gain an understanding of how Teams provides a comprehensive and flexible environment for collaboration across applications and devices." 
 prerequisites: | 
  - None
 iconUrl: /learn/achievements/manage-team-collaboration-with-microsoft-teams.svg
@@ -25,6 +25,5 @@ modules:
 - learn-m365.m365-teams-collab-manage-teams
 - learn-m365.m365-teams-collab-apps-bots-connectors
 - learn-m365.m365-teams-collab-manage-meetings
-
 trophy: 
   uid: learn-m365.m365-manage-team-collaboration.trophy
