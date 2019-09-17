@@ -4,7 +4,7 @@ metadata:
   title: Optimize Data Usage when Using Microsoft Graph with Query Parameters
   description: Learn how to control the amount of data returned by Microsoft Graph to optimize queries using query parameters.
   ms.date: 10/01/2019
-  author: v-johnco
+  author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
   ms.prod: ms-graph
@@ -33,8 +33,8 @@ units:
 - learn-m365.optimize-data-usage.1-introduction
 - learn-m365.optimize-data-usage.2-microsoft-graph-query-parameters
 - learn-m365.optimize-data-usage.3-exercise-retrieve-and-control-information-returned-from-microsoft-graph
-- learn-m365.optimize-data-usage.4-expand-related-entities-&-search-content-in-microsoft-graph
-- learn-m365.optimize-data-usage.5-exercise-expand-related-entities-&-search-content-in-microsoft-graph
+- learn-m365.optimize-data-usage.4-expand-related-entities-search-content-microsoft-graph
+- learn-m365.optimize-data-usage.5-exercise-expand-related-entities-search-content-microsoft-graph
 - learn-m365.optimize-data-usage.6-reduce-traffic-with-batched-requests
 - learn-m365.optimize-data-usage.7-exercise-reduce-traffic-with-batched-requests
 - learn-m365.optimize-data-usage.8-summary

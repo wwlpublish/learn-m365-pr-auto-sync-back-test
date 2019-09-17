@@ -1,6 +1,6 @@
 ### YamlMime:ModuleUnit
 uid: >-
-  learn-m365.optimize-data-usage.4-expand-related-entities-&-search-content-in-microsoft-graph
+  learn-m365.optimize-data-usage.4-expand-related-entities-search-content-microsoft-graph
 metadata:
   title: Expand related entities & search content in Microsoft Graph
   description: In this unit, we'll explore how you can use two query parameters to search and include related data in Microsoft Graph requests.
@@ -13,4 +13,4 @@ metadata:
 title: Expand related entities & search content in Microsoft Graph
 durationInMinutes: 1
 content: >-
-  [!include[](includes/4-expand-related-entities-&-search-content-in-microsoft-graph.md)]
+  [!include[](includes/4-expand-related-entities-search-content-microsoft-graph.md)]
