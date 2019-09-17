@@ -18,10 +18,8 @@ abstract: |
   - Manage external access. 
   - Manage dynamic membership. 
   - Manage messaging policies.
-
 prerequisites: None
 iconUrl: /learn/achievements/manage-microsoft-teams.svg
-ratingEnabled: true
 levels:
 - beginner
 roles:
@@ -39,4 +37,4 @@ units:
 - learn-m365.m365-teams-collab-manage-teams.messaging-policies
 - learn-m365.m365-teams-collab-manage-teams.summary-knowledge-check
 badge: 
-  uid: learn-m365.m365-teams-collab-manage-teams.badges
+  uid: learn-m365.m365-teams-collab-manage-teams.badge
