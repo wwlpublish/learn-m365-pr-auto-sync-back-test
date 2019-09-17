@@ -30,7 +30,7 @@ quiz:
         isCorrect: true
         explanation: "Reason."
       - content: "Streamlined incident management."
-        isCorrect: true
+        isCorrect: false
         explanation: "Reason."
     - content: "Breaking the service adoption framework down into three phases achieves which outcome?"
       choices:
