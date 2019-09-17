@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-teams-collab-manage-meetings.live-events
+title: Plan for live events
+metadata:
+  title: Plan for live events
+  description: Learn how to plan and manage Microsoft Teams meetings and conferences. Discover how audio conferencing and live events work in Teams.
+  ms.date: 08/16/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 5
+content: |
+  [!include[](includes/live-events.md)]

@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-teams-collab-manage-meetings.audio-conferencing
+title: Use Audio Conferencing
+metadata:
+  title: Use Audio Conferencing
+  description: Learn about the Microsoft Teams user experience, requirements, and important considerations for deploying Teams as part of a Microsoft 365 installation. 
+  ms.date: 08/28/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 5
+content: |
+  [!include[](includes/audio-conferencing.md)]
