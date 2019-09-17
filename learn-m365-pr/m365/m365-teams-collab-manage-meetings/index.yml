@@ -18,10 +18,8 @@ abstract: |
   - Plan for audio conferencing.
   - Plan for live events.
   - Monitor call quality.
-
 prerequisites: None
 iconUrl: /learn/achievements/manage-meetings-conferences-and-events-in-ms-teams.svg
-ratingEnabled: true
 levels:
 - beginner
 roles:
@@ -39,4 +37,4 @@ units:
 - learn-m365.m365-teams-collab-manage-meetings.monitor-call-quality
 - learn-m365.m365-teams-collab-manage-meetings.summary-knowledge-check
 badge: 
-  uid: learn-m365.m365-teams-collab-manage-meetings.badges
+  uid: learn-m365.m365-teams-collab-manage-meetings.badge
