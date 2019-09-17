@@ -17,7 +17,7 @@ There are six knowledge areas required to drive adoption. They are:
 Mastering each of these areas increases in complexity depending on the size and regional distribution of your organization. 
 
 > [!NOTE]
-> Before proceeding make sure you've read the Assumptions section of the course introduction. We'll be using these assumptions as we discuss practical application of the knowledge areas above.
+> Before proceeding make sure you've read the Assumptions section in the module that introduces the Service Adoption Specialist role. We'll be using these assumptions as we discuss practical application of the knowledge areas above.
 
 ## Knowledge area - Organizational development
 
@@ -122,6 +122,6 @@ Finally, the last knowledge area - leadership. Leadership is the ability to insp
 
 When you do this work well, you're delivering beneficial, material change based on data and analysis to a group of individuals who will impact your customers, your market share, and the future of your company. You're delivering change for a cause, not for the sake of change. This is a fundamental difference between you and others. You may have been a service champion previously, directly helping employees get the most from technology. You're likely motivated to help others. That commitment to improving employees' experience will give you strength exactly when you need your "X" factor to kick in. 
 
-The "X" factor isn't an ephemeral thing that only some people are born with. No, not at all. You can develop leadership skills. You can develop your ability to negotiate, resolve conflicts, clarify objectives, understand financial elemtns, and find your voice. Whether you are auditing this course or intend to embrace this professional discipline we believe that helping you to develop these talents is beneficial to us all. 
+The "X" factor isn't an ephemeral thing that only some people are born with. No, not at all. You can develop leadership skills. You can develop your ability to negotiate, resolve conflicts, clarify objectives, understand financial elemtns, and find your voice. 
 
 It's important here to talk about the "introvert leader." This person has a quiet demeanor. They're not the first or last to speak in a meeting, but when they do talk, it's worth listening. This kind of leader normally likes to review information ahead of time so they can reflect on the information before reacting. There's a great deal of room in the service adoption field for this type of leader. So, if this describes you, don't feel as though you immediately have to talk more. To the contrary, listening is a critical skill - you may be further ahead in developing that talent than those who are more extroverted and talkative by nature. As in technology, but especially in this area, diversity of style is welcome. Everyone can have impact in the service adoption community.

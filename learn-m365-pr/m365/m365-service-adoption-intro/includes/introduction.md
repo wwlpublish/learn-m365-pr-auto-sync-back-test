@@ -21,33 +21,25 @@ Service adoption specialists (SAS) come from many backgrounds. You may have a va
 - Learn the basic tenants of successful service adoption
 - Supplement your existing technical or organizational change knowledge
 - Validate your knowledge with an industry recognized certification 
-- Audit this course to understand if this topic is of interest to you  
 - Expand your career options with service adoption skills
-- Find a community of people that are both knowledgeable and interested in this topic 
-
-## Pre-course survey
-Help us expand our knowledge of the people seeking skills about service adoption by completing an optional pre-course survey. These questions don't count toward this training. They are informational only - the only people who see your answers are the authors who created this content.
 
 ## Read before proceeding - our assumptions
 
 We use certain examples and data points during this training. This helps standardize the knowledge check questions and provides you a successful learning experience. These are our assumptions:
 
-1.	Your project is to implement Microsoft Teams. Implementing Microsoft Teams, as a project, has the required complexity to demonstrate the service adoption framework. Moving to Microsoft Teams is also top of mind for many organizations, making the training a relevant asset for your own career growth.
-2.	Your organization has five regional offices:
+- Your project is to implement Microsoft Teams. Implementing Microsoft Teams, as a project, has the required complexity to demonstrate the service adoption framework. Moving to Microsoft Teams is also top of mind for many organizations, making the training a relevant asset for your own career growth.
+- Your organization has five regional offices:
    - 3 in the United States: Los Angeles, Chicago, and New York
    - 1 in London, England 
-   -  1 in Mexico City, Mexico
-3.	Your company, called "Contoso," has 3,500 employees, is privately held, and has been in business for over 15 years.
-4.	You support sales staff, who are regionally located, work from home (instead of on your corporate campus) and at customer sites. 
-5.	Contoso produces a product and delivers services that support that product. Recently your company has been under competitive pressure from new start-ups that threaten your hold on your market share. 
-6.	Your company uses Microsoft technology but has many other types of software and services from a variety of vendors. This includes consumer applications like What's App or simple SMS texting, commonly referred to as "shadow IT." This is especially common with your remote sales staff.
-7.	You don't have a large IT or training staff. Budgets in the IT department have been under financial pressure. Everyone is asked to "do more with less."
+   - 1 in Mexico City, Mexico
+- Your company, called "Contoso," has 3,500 employees, is privately held, and has been in business for over 15 years.
+- You support sales staff, who are regionally located, work from home (instead of on your corporate campus) and at customer sites. 
+- Contoso produces a product and delivers services that support that product. Recently your company has been under competitive pressure from new start-ups that threaten your hold on your market share. 
+- Your company uses Microsoft technology but has many other types of software and services from a variety of vendors. This includes consumer applications like What's App or simple SMS texting, commonly referred to as "shadow IT." This is especially common with your remote sales staff.
+- You don't have a large IT or training staff. Budgets in the IT department have been under financial pressure. Everyone is asked to "do more with less."
 
 ## Reference material
 This training is designed as a standalone experience. There are additional readings that can help not only with this experience but in the overall development of your service adoption skills. 
-
-**Required:**
-Contoso company description in the introduction segment entitled "Read this Before Proceeding"
 
 **Recommended:**
 - Microsoft Teams Adoption Hub Guidance articles - https://aka.ms/TeamsAdoption
