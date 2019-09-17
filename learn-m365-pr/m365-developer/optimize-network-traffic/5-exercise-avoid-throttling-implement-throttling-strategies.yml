@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.optimize-network-traffic.5-exercise-avoid-throttling-&-implement-throttling-strategies
+uid: learn-m365.optimize-network-traffic.5-exercise-avoid-throttling-implement-throttling-strategies
 metadata:
   title: Exercise - Avoid throttling & implement throttling strategies
   description: In this exercise, you'll use the Azure AD application and .NET console application you previously created and modify them to demonstrate two strategies to account for throttling in your application. One strategy used the **HttpClient** object but required you to implement the detect, delay and retry logic yourself when requests were throttled. The other strategy used by the Microsoft Graph SDK's included support for handling this same scenario.
@@ -12,4 +12,4 @@ metadata:
 title: Exercise - Avoid throttling & implement throttling strategies
 durationInMinutes: 17
 content: |
-  [!include[](includes/5-exercise-avoid-throttling-&-implement-throttling-strategies.md)]
+  [!include[](includes/5-exercise-avoid-throttling-implement-throttling-strategies.md)]

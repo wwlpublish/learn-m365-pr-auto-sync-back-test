@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.optimize-network-traffic.3-exercise-understand-throttling-in-microsoft-graph
+uid: learn-m365.optimize-network-traffic.3-exercise-understand-throttling-microsoft-graph
 metadata:
   title: Exercise - Understand throttling in Microsoft Graph
   description: In this exercise, you will create a new Azure AD web application registration using the Azure Active Directory admin center, a .NET Core console application, and query Microsoft Graph. You will issue many requests in parallel to trigger your requests to be throttled. This application will allow you to see the response you will receive.
@@ -12,4 +12,4 @@ metadata:
 title: Exercise - Understand throttling in Microsoft Graph
 durationInMinutes: 20
 content: |
-  [!include[](includes/3-exercise-understand-throttling-in-microsoft-graph.md)]
+  [!include[](includes/3-exercise-understand-throttling-microsoft-graph.md)]

@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.optimize-network-traffic.4-avoid-throttling-&-implement-throttling-strategies
+uid: learn-m365.optimize-network-traffic.4-avoid-throttling-implement-throttling-strategies
 metadata:
   title: Avoid throttling & implement throttling strategies
   description: In this unit, you will learn how to can implement different strategies in your applicationst to avoid from being throttled by Microsoft Graph.
@@ -12,4 +12,4 @@ metadata:
 title: Avoid throttling & implement throttling strategies
 durationInMinutes: 5
 content: |
-  [!include[](includes/4-avoid-throttling-&-implement-throttling-strategies.md)]
+  [!include[](includes/4-avoid-throttling-implement-throttling-strategies.md)]
