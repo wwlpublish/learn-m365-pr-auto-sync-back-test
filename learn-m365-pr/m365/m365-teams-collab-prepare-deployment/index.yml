@@ -19,10 +19,8 @@ abstract: |
   - Plan for Teams governance.  
   - Plan for lifecycle management.
   - Describe the Teams networking requirements.
-
 prerequisites: None
 iconUrl: /learn/achievements/prepare-for-a-microsoft-teams-deployment.svg
-ratingEnabled: true
 levels:
 - beginner
 roles:
@@ -40,4 +38,4 @@ units:
 - learn-m365.m365-teams-collab-prepare-deployment.review-networking-requirements
 - learn-m365.m365-teams-collab-prepare-deployment.summary-knowledge-check
 badge: 
-  uid: learn-m365.m365-teams-collab-prepare-deployment.badges
+  uid: learn-m365.m365-teams-collab-prepare-deployment.badge
