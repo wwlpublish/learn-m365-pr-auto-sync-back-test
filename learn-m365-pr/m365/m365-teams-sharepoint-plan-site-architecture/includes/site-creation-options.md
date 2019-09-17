@@ -2,14 +2,14 @@ Architecturally, team sites have no relationship to each other. Each has its own
 
 There are two primary options for creating team sites:
 
-- IT-Managed
-- Self-Service
+- IT created
+- Self-service
 
-## IT-Created sites
+## IT created sites
 
-In an IT-created site creation model, you create a site request process through your help desk and requests are evaluated by a SharePoint administrator. The SharePoint administrator then creates the approved sites by using the SharePoint admin center, and then gives the appropriate users access to the site. This process allows for IT oversight and governance but can be very time consuming, particularly in a large organization. Since many governance features can be automated and monitored by using the governance services in Microsoft 365, we recommend the self-service site creation model.
+In an IT site creation model, you create a site request process through your help desk and requests are evaluated by a SharePoint administrator. The SharePoint administrator then creates the approved sites by using the SharePoint admin center, and then gives the appropriate users access to the site. This process allows for IT oversight and governance but can be very time consuming, particularly in a large organization. Since many governance features can be automated and monitored by using the governance services in Microsoft 365, we recommend the self-service site creation model.
 
-## Self-Service sites
+## Self-service sites
 
 In a self-service site creation model, users can create sites, Office 365 Groups, and teams whenever they need to. The user who creates the site becomes a site owner (and an owner in the associated Office 365 Group or team). The owner can then invite others to the site and manage site membership over time.
 
