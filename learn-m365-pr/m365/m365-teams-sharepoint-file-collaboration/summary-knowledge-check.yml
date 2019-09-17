@@ -42,13 +42,13 @@ quiz:
       
     - content: "What do you need to configure if you want new site members to be approved by the site owner?"
       choices:
-      - content: "Configure site access requests for that site."
-        isCorrect: true
-        explanation: "SharePoint site access requests are used to require new users to be approved by a site owner before they can access the site."
       - content: "Configure site sharing settings to prevent guest users from being invited."
         isCorrect: false
         explanation: "SharePoint site access requests are used to require new users to be approved by a site owner before they can access the site."
       - content: "Configure the Office 365 Group to be private instead of public."
         isCorrect: false
+        explanation: "SharePoint site access requests are used to require new users to be approved by a site owner before they can access the site."
+      - content: "Configure site access requests for that site."
+        isCorrect: true
         explanation: "SharePoint site access requests are used to require new users to be approved by a site owner before they can access the site."
       

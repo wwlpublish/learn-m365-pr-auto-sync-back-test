@@ -1,4 +1,4 @@
-When users share files and folders (but not the site), a shareable link is created which has permissions to the item. The person you're sharing with doesn't get direct permission to the file—the link they use has permission to the file.
+When users share files and folders (but not the site), a sharable link is created which has permissions to the item. The person you're sharing with doesn't get direct permission to the file—the link they use has permission to the file.
 
 There are three primary link types:
 
