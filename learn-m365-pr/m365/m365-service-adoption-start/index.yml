@@ -29,5 +29,6 @@ units:
 - learn-m365.service-adoption-start.cloud-advantage
 - learn-m365.service-adoption-start.organizational-readiness
 - learn-m365.service-adoption-start.summary
+- learn-m365.service-adoption-start.knowledge-check
 badge: 
   uid: learn-m365.service-adoption-start.badges
