@@ -1,0 +1,1 @@
+Microsoft Graph has built-in throttling to protect its resources from being overloaded and unable to respond to requests. When building applications that use Microsoft Graph, you want to ensure the application can react to throttling events. In addition, you should consider implementing strategies to avoid throttling altogether.
