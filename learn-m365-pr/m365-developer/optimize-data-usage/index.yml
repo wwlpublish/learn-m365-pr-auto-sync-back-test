@@ -32,7 +32,7 @@ products:
 units:
 - learn-m365.optimize-data-usage.1-introduction
 - learn-m365.optimize-data-usage.2-microsoft-graph-query-parameters
-- learn-m365.optimize-data-usage.3-exercise-retrieve-and-control-information-returned-from-microsoft-graph
+- learn-m365.optimize-data-usage.3-exercise-retrieve-control-information-returned-from-microsoft-graph
 - learn-m365.optimize-data-usage.4-expand-related-entities-search-content-microsoft-graph
 - learn-m365.optimize-data-usage.5-exercise-expand-related-entities-search-content-microsoft-graph
 - learn-m365.optimize-data-usage.6-reduce-traffic-with-batched-requests

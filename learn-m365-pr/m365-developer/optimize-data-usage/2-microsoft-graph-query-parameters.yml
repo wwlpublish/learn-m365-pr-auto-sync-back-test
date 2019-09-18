@@ -1,11 +1,10 @@
 ### YamlMime:ModuleUnit
-uid: >-
-  learn-m365.optimize-data-usage.2-microsoft-graph-query-parameters
+uid: learn-m365.optimize-data-usage.2-microsoft-graph-query-parameters
 metadata:
   title: Microsoft Graph of Query Parameters
   description: In this unit, let's look at the endpoint characteristics of Microsoft Graph and how you can use query parameters to manipulate requests.
   ms.date: 10/01/2019
-  author: v-johnco
+  author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
   ms.prod: ms-graph
