@@ -15,7 +15,6 @@ content: >-
   [!include[](includes/3-exercise-retrieve-control-information-returned-from-microsoft-graph.md)]
 quiz:
   title: Limiting the size of the response
-  description: Demonstrate you understand how to limit the size of the response of a Microsoft Graph request
   questions:
   - content: "Which query parameter is used to limit the results returned to a specified number?"
     choices:

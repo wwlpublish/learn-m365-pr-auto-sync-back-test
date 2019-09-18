@@ -15,7 +15,6 @@ content: |
   [!include[](includes/7-exercise-reduce-traffic-with-batched-requests.md)]
 quiz:
   title: Reduce HTTP round trips with batche requests
-  description: Demonstrate you understand how to limit the number of HTTP round trips by leveraging Microsoft Graph request batches.
   questions:
   - content: "Which of the following statements is true about the batch request support in Microsoft Graph?"
     choices:

@@ -15,7 +15,6 @@ content: >-
   [!include[](includes/5-exercise-expand-related-entities-search-content-microsoft-graph.md)]
 quiz:
   title: Finding and including additional data in responses
-  description: Demonstrate you understand search for content and reduce Microsoft Graph requests by including related entities.
   questions:
   - content: "Which of the following query parameters is used to include related content?"
     choices:
