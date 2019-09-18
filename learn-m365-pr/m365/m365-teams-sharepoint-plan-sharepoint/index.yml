@@ -2,14 +2,14 @@
 uid: learn-m365.m365-teams-sharepoint-plan-sharepoint
 metadata:
   title: Plan for SharePoint in Microsoft 365
-  description: Discover how SharePoint works with Microsoft 365. Learn how security, access and authentication work in SharePoint as well as the role of the SharePoint administrator.
-  ms.date: 09/10/2019
+  description: Discover how SharePoint works with Microsoft 365. Learn the role and key tasks of the SharePoint administrator and the tools available to secure your environment.
+  ms.date: 09/18/2019
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Plan for SharePoint in Microsoft 365 
-summary: Discover how SharePoint works with Microsoft 365. Learn how security, access and authentication work in SharePoint as well as the role of the SharePoint administrator.
+summary: Discover how SharePoint works with Microsoft 365. Learn the role and key tasks of the SharePoint administrator and the tools available to secure your environment.
 abstract: |
   At the end of this module, you should be able to:
   - Explain what SharePoint is and how it fits into Microsoft 365 collaboration
