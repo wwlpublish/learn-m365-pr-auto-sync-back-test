@@ -13,3 +13,32 @@ title: Expand related entities & search content in Microsoft Graph
 durationInMinutes: 10
 content: >-
   [!include[](includes/5-exercise-expand-related-entities-search-content-microsoft-graph.md)]
+quiz:
+  title: Finding and including additional data in responses
+  description: Demonstrate you understand search for content and reduce Microsoft Graph requests by including related entities.
+  questions:
+  - content: "Which of the following query parameters is used to include related content?"
+    choices:
+    - content: "?$include"
+      isCorrect: false
+      explanation: "$include is not a valid query parameter."
+    - content: "?$join"
+      isCorrect: false
+      explanation: "$join is not a valid query parameter."
+    - content: "?$expand"
+      isCorrect: true
+      explanation: "Correct, the $expand query parameter will include related entities for the specified collection property."
+  - content: "Which of the following query parameter combinations would search for all users that have the string 'wilk' in their name?"
+    choices:
+    - content: "?$find(\"wilk*\")"
+      isCorrect: false
+      explanation: "$find is not a valid query parameter."
+    - content: "?$find=\"wilk*\""
+      isCorrect: false
+      explanation: "$find is not a valid query parameter."
+    - content: "?$search(\"wilk*\")"
+      isCorrect: false
+      explanation: "While the $search query parameter is the correct way to search, it is not a function that expects parameters as used here."
+    - content: "?$search=\"wilk*\""
+      isCorrect: true
+      explanation: "Correct! Proceed to the next unit in the module."
