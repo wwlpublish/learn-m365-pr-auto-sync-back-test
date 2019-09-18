@@ -23,8 +23,8 @@ quiz:
       explanation: "Each resource accessible via Microsoft Graph implement their own logic to determine if requests should be throttled. There is no single request quota Microsoft Graph monitors."
     - content: "Microsoft Graph is in an unhealthy state and the requester should try their request again later."
       isCorrect: false
-      explanation: "A throttling response is indicated by an HTTP status code 429 and can be handled by an application by retrying the request after a period of time. The HTTP status code 503 indicates Microsoft Graph service is in an unhealthy state and there is nothing the requestor can do to avoid the response as it is not indicitive "
-    - content: "Microsoft Graph has determined the number of requests submitted by an app is excessive and could impact the service's overall health. Throttling is how Microsoft Graph tells the requester to reduce the number of requests to an acceptable level over a perioud of time."
+      explanation: "A throttling response is indicated by an HTTP status code 429 and can be handled by an application by retrying the request after a period of time. The HTTP status code 503 indicates Microsoft Graph service is in an unhealthy state and there is nothing the requestor can do to avoid the response as it is not indicative "
+    - content: "Microsoft Graph has determined the number of requests submitted by an app is excessive and could impact the service's overall health. Throttling is how Microsoft Graph tells the requester to reduce the number of requests to an acceptable level over a period of time."
       isCorrect: true
       explanation: "Correct!"
   - content: "Which of the following statements about the HTTP header Retry-After is not true?"
@@ -35,15 +35,15 @@ quiz:
     - content: "The Retry-After HTTP header instructs the requester to not resubmit the request before the specified number of seconds has elapsed."
       isCorrect: false
       explanation: "This statement is true. The Retry-After value is the number of seconds the requester should delay resubmitting the request to Microsoft Graph."
-    - content: "The Retry-After header my or may not be incldued in every throttling response from Microsoft Graph."
+    - content: "The Retry-After header my or may not be included in every throttling response from Microsoft Graph."
       isCorrect: false
-      explanation: "This statement is true. Not all resources supported by Microsoft Graph include the Retry-After HTTP header in a response when the request is throttled. In these cases the application should have a default delay it uses before re-submitting the request."
+      explanation: "This statement is true. Not all resources supported by Microsoft Graph include the Retry-After HTTP header in a response when the request is throttled. In these cases, the application should have a default delay it uses before resubmitting the request."
   - content: "What will happen if an application resubmits a request prior to the specified Reply-After HTTP header value?"
     choices:
     - content: "Microsoft Graph will continue to throttle the request and provide a new Request-After header value."
       isCorrect: true
       explanation: "Correct! Proceed to the next unit in the module."
-    - content: "Microsoft Graph will disable the requesting application and an administrator will need to manually re-activate it."
+    - content: "Microsoft Graph will disable the requesting application and an administrator will need to manually reactivate it."
       isCorrect: false
       explanation: "This is not correct, applications will not be disabled by Microsoft Graph."
     - content: "Microsoft Graph will process the request and respond with the results because the Retry-After HTTP header value is only a suggestion."

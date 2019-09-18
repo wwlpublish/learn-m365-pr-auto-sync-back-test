@@ -21,26 +21,26 @@ quiz:
     - content: "Applications that use the Microsoft Graph SDK are not subjected to throttling, only applications that use the Microsoft Graph API."
       isCorrect: false
       explanation: "This statement is not correct. Microsoft Graph does not make a distinction between requests submitted to the Microsoft Graph API or via the Microsoft Graph SDK."
-    - content: "The Microsoft Graph SDK internally handles the delay and resubmission of a request when it receives a throtting response."
+    - content: "The Microsoft Graph SDK internally handles the delay and resubmission of a request when it receives a throttling response."
       isCorrect: true
       explanation: "Correct!"
     - content: "The Microsoft Graph SDK does not do anything to address throttled responses. Applications that use the Microsoft Graph SDK must handle throttled responses the same way when using the Microsoft Graph API."
       isCorrect: false
-      explanation: "This statement is not correct. The Microsoft Graph SDK internally handles the delay and resubmission of a request when it receives a throtting response."
+      explanation: "This statement is not correct. The Microsoft Graph SDK internally handles the delay and resubmission of a request when it receives a throttling response."
   - content: "Applications can avoid from being throttled in various ways except for which of the following?"
     choices:
-    - content: "An application can miniize the number of complex requests over a short period of time to Microsoft Graph."
+    - content: "An application can minimize the number of complex requests over a short period of time to Microsoft Graph."
       isCorrect: false
       explanation: "This statement is true. The number of requests is not the only factor when determining the resource cost to Microsoft Graph that influences throttling."
     - content: "An application can minimize the number of requests to Microsoft Graph using batching, delta query and change notifications."
       isCorrect: false
-      explanation: "This statment is true. All of these are valid ways to reduce the number of requests submitted to Microsoft Graph"
+      explanation: "This statement is true. All of these are valid ways to reduce the number of requests submitted to Microsoft Graph"
     - content: "An application author can purchase an enterprise agreement from Microsoft Graph to avoid being throttled."
       isCorrect: true
       explanation: "This is not a valid option available to applications."
   - content: "Applications can request only new and updated resources from Microsoft Graph which of the following ways?"
     choices:
-    - content: "Submit an intial request and include the delta function. Use the returned `deltaLink` property when submitting the next request to Microsoft Graph to receive only the entities that have been created or changed since the initial request."
+    - content: "Submit an initial request and include the delta function. Use the returned `deltaLink` property when submitting the next request to Microsoft Graph to receive only the entities that have been created or changed since the initial request."
       isCorrect: true
       explanation: "Correct! Proceed to the next unit in the module."
     - content: "When submitting a request to Microsoft Graph, include the desired date and time to the delta function to receive all entities that have been added or changed since that time."
