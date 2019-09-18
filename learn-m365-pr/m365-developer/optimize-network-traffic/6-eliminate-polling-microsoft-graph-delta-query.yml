@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.optimize-network-traffic.6-eliminate-polling-microsoft-graph-with-delta-query
+uid: learn-m365.optimize-network-traffic.6-eliminate-polling-microsoft-graph-delta-query
 metadata:
   title: Eliminate polling Microsoft Graph with delta query
   description: In this unit, learn how delta query can be used to help avoid Microsoft Graph requests from being throttled.
   ms.date: 10/01/2019
-  author: v-johnco
+  author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
   ms.prod: ms-graph
@@ -12,4 +12,4 @@ metadata:
 title: Eliminate polling Microsoft Graph with delta query
 durationInMinutes: 5
 content: |
-  [!include[](includes/6-eliminate-polling-microsoft-graph-with-delta-query.md)]
+  [!include[](includes/6-eliminate-polling-microsoft-graph-delta-query.md)]

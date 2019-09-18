@@ -35,8 +35,8 @@ units:
 - learn-m365.optimize-network-traffic.3-exercise-understand-throttling-microsoft-graph
 - learn-m365.optimize-network-traffic.4-avoid-throttling-implement-throttling-strategies
 - learn-m365.optimize-network-traffic.5-exercise-avoid-throttling-implement-throttling-strategies
-- learn-m365.optimize-network-traffic.6-eliminate-polling-microsoft-graph-with-delta-query
-- learn-m365.optimize-network-traffic.7-exercise-eliminate-polling-microsoft-graph-with-delta-query
+- learn-m365.optimize-network-traffic.6-eliminate-polling-microsoft-graph-delta-query
+- learn-m365.optimize-network-traffic.7-exercise-eliminate-polling-microsoft-graph-delta-query
 - learn-m365.optimize-network-traffic.8-summary
 badge:
   uid: learn-m365.optimize-network-traffic.badge
