@@ -13,3 +13,135 @@ metadata:
 durationInMinutes: 5
 content: |
   [!include[](includes/summary.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Simplified business scenario mapping enables you to do what?"
+      choices:
+      - content: "Understand existing people and process problems"
+        isCorrect: false
+        explanation: "Reason."
+      - content: "Prove your instincts about collaboration are right"
+        isCorrect: true
+        explanation: "Reason."
+      - content: "Define a successful process journey for an employee"
+        isCorrect: false
+        explanation: "Reason."
+      - content: "Document where people need to be trained"
+        isCorrect: false
+        explanation: "Reason."
+    - content: "True or false: The outcome of scenario mapping is to create a library of business scenarios by stakeholder area that can be prioritized by impact and difficulty."
+      choices:
+      - content: "True"
+        isCorrect: false
+        explanation: "Reason."
+      - content: "False"
+        isCorrect: true
+        explanation: "Reason."
+    - content: "Experience fragmentation occurs when which of the following occur?"
+      choices:
+      - content: "Everyone is doing their own thing with technology across the company."
+        isCorrect: false
+        explanation: "Reason."
+      - content: "Only a part of a process or group of people has been moved to the new experience."
+        isCorrect: true
+        explanation: "Reason."
+      - content: "Some people use desktops and some use mobile devices to work."
+        isCorrect: false
+        explanation: "Reason."
+      - content: "Device damage causes you to not be able to see the document you are working on."
+        isCorrect: false
+        explanation: "Reason."
+    - content: "True or false: Sending an email is an engaging way to communicate with employees."
+      choices:
+      - content: "True"
+        isCorrect: false
+        explanation: "Reason."
+      - content: "False"
+        isCorrect: true
+        explanation: "Reason."
+    - content: "True or false: It's not important to keep records of who attends your in-person training courses as long as people do attend them."
+      choices:
+      - content: "True"
+        isCorrect: false
+        explanation: "Reason."
+      - content: "False"
+        isCorrect: true
+        explanation: "Reason."
+    - content: "Who do you need to work with to see Office 365 usage information for your tenant?"
+      choices:
+      - content: "No one. This is available to everyone."
+        isCorrect: false
+        explanation: "Reason."
+      - content: "The Microsoft Partner you are working with."
+        isCorrect: true
+        explanation: "Reason."
+      - content: "Your IT partner. They need to deploy and grant you access to the Power BI Content Pack."
+        isCorrect: false
+        explanation: "Reason."
+      - content: "You have to get this from Microsoft directly."
+        isCorrect: false
+        explanation: "Reason."
+    - content: "The Office 365 Content pack provides you with which of the following?"
+      choices:
+      - content: "Usage and adoption data by region and workload."
+        isCorrect: false
+        explanation: "Reason."
+      - content: "Access to individual employees specific daily behavior."
+        isCorrect: true
+        explanation: "Reason."
+      - content: "Service cost information for Office 365."
+        isCorrect: false
+        explanation: "Reason."
+      - content: "None of the above."
+        isCorrect: false
+        explanation: "Reason."
+    - content: "True or false: The Office 365 Adoption Content pack is a paid service that you add on to your Office 365 account."
+      choices:
+      - content: "True"
+        isCorrect: false
+        explanation: "Reason."
+      - content: "False"
+        isCorrect: true
+        explanation: "Reason."
+    - content: "True or false: Usage data allows you to adjust your awareness and training campaigns to help people understand the capabilities that they have available to them."
+      choices:
+      - content: "True"
+        isCorrect: false
+        explanation: "Reason."
+      - content: "False"
+        isCorrect: true
+        explanation: "Reason."
+    - content: "Primarily a service health review is designed to do which of the following?"
+      choices:
+      - content: "Provide a meeting where business can lodge complaints about IT services."
+        isCorrect: false
+        explanation: "Reason."
+      - content: "Review service incidents and issues."
+        isCorrect: true
+        explanation: "Reason."
+      - content: "Is only for technical personnel."
+        isCorrect: false
+        explanation: "Reason."
+      - content: "Bring IT, adoption, and business leaders together to discuss the health and usage of services."
+        isCorrect: false
+        explanation: "Reason."
+    - content: "True or false: A 'service' is a collection of technical capabilities that deliver a specific business outcome."
+      choices:
+      - content: "True"
+        isCorrect: false
+        explanation: "Reason."
+      - content: "False"
+        isCorrect: true
+        explanation: "Reason."
+    - content: "The best practice is to hold service reviews how often?"
+      choices:
+      - content: "Bi-weekly"
+        isCorrect: false
+        explanation: "Reason."
+      - content: "Monthly"
+        isCorrect: true
+        explanation: "Reason."
+      - content: "Bi-monthly"
+        isCorrect: false
+        explanation: "Reason."
