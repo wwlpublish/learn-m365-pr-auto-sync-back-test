@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365-office.m365-upgrading-office.intro-upgrading-office
+uid: learn-m365-office.m365-upgrading-office.intro-updating-office
 title: Introduction to Upgrading Office on Windows
 metadata:
   title: Introduction to Upgrading Office on Windows
@@ -12,4 +12,4 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 3
 content: |
-  [!include[](includes/intro-upgrading-office.md)]
+  [!include[](includes/intro-updating-office.md)]
