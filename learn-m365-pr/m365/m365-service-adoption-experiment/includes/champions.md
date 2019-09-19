@@ -2,7 +2,7 @@
 
 >![Champions program](../media/champions.png)
 
-Champions are an invaluable resource to drive change and ensure you have meaningful feedback from your employees.  They are an extension of your improvement team, provide peer-to-peer learning, feedback and enthusiasm to your change project.  
+Champions are an invaluable resource to drive change and ensure you have meaningful feedback from your employees.  They are an extension of your improvement team, provide peer-to-peer learning, feedback, and enthusiasm to your change project.  
 
 Use the following checklist to create a champions program:
 
@@ -17,6 +17,6 @@ Use the following checklist to create a champions program:
 9. Encourage internal champions to sign up for the public [Office 365 Modern Workplace Teamwork Champion program](https://aka.ms/O365Champions) to continue to build their skills.
 
 ### Activity 
-As a potential service adoption specialist you have an opportunity to learn from others and contribute to a large community of professionals who are also doing this work. First, register and join the online forum for [Driving Adoption at the Microsoft Technical Community](https://aka.ms/DriveAdoption). Then, join the [Office 365 Teamwork Champions program](https://aka.ms/O365Champions), which provides free continuing education through monthly calls and online resources. Ensure the leaders of your internal champion program are also signed up for these resources. You can reuse many of the monthly topics and information as a part of your own champion monthly meetings.
+As a potential service adoption specialist you have an opportunity to learn from others and contribute to a large community of professionals who are also doing this work. First, register, and join the online forum for [Driving Adoption at the Microsoft Technical Community](https://aka.ms/DriveAdoption). Then, join the [Office 365 Teamwork Champions program](https://aka.ms/O365Champions), which provides free continuing education through monthly calls and online resources. Ensure the leaders of your internal champion program are also signed up for these resources. You can reuse many of the monthly topics and information as a part of your own champion monthly meetings.
 
 Session: Scenarios based guidance to overcome user adoption hurdles for Office 365 and SharePoint - THR2136 - https://youtu.be/oMsAEdhx3y0
