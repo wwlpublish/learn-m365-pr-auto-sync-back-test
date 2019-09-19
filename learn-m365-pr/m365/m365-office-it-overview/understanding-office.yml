@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-identity.m365-identity-overview.identity-importance
+title: Understanding Office upgrades in Windows
+metadata:
+  title: Understanding Office upgrades in Windows
+  description: Understand why the new Office Upgrades are important. 
+  ms.date: 09/09/2019
+  author: jason@mightynarwhal.com
+  ms.author: v-jasoan
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 2
+content: |
+  [!include[](includes/understanding-office.md)]
