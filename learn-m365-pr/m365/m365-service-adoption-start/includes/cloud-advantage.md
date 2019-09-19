@@ -11,7 +11,7 @@ First and foremost we can reduce their interaction with IT. Properly governed Mi
 
 Other benefits like anytime/anywhere access can often sound to an employee like, "I have to work anytime and anywhere." Instead show the benefit of answering an important chat while in-between customers or while picking up your children from school (though not while driving!). The ability to meet the demands of today's pace of business is essential but so is making sure you attend to family responsibilities. Supporting a secure, mobile workforce with elegant software can address these needs. 
 
-Part of your core message can be to acknowledge that your employees are fundamentally trying to do a great job. They want to collaborate more seamlessly and deliver a great experience to your customers. **It is the job of IT, change and business leaders to design systems that will melt into the background of this primary goal.** But first, we must weave appreciation for our employees into the change dialog. 
+Part of your core message can be to acknowledge that your employees are fundamentally trying to do a great job. They want to collaborate more seamlessly and deliver a great experience to your customers. **It is the job of IT, change, and business leaders to design systems that will melt into the background of this primary goal.** But first, we must weave appreciation for our employees into the change dialog. 
 
 > ### Activity 
 > Consider creating an employee spotlight for people who use the new experience to improve the experience of your customers and fellow employees. Have your executive sponsor participate in acknowledging these employees. This has a positive impact on your culture and the engagement of your employees. 
@@ -30,7 +30,7 @@ Your stakeholders and executives are employees too. They may have unique needs, 
 ## Employee benefits of moving to the cloud
 >![Employee benefits](../media/employee-benefits.png)
 
-Every employee wants to know, "What's in it for me?" when you start discussing changing the way they work. Too often we make the mistake to start talking about product features and organizational benefits instead of empathizing with their day to day struggle to collaborate, communicate and get work done. This can easily be changed by shifting the center of gravity of the change program to be the employee experience. 
+Every employee wants to know, "What's in it for me?" when you start discussing changing the way they work. Too often we make the mistake to start talking about product features and organizational benefits instead of empathizing with their day to day struggle to collaborate, communicate, and get work done. This can easily be changed by shifting the center of gravity of the change program to be the employee experience. 
 
 The graphic above shows four different personas with common issues. A *persona* is a profile of a type of employee or role in your organization. It normally includes their title or role, years of service, years in role, core pain points, commonly used tools, metadata like region and year of experience, whether they work from home or not and the like. Persona mapping can be extremely detailed however for the purposes of our course, and your project, we recommend keeping it simple. 
 
@@ -49,11 +49,11 @@ This simple mapping shows a user, their role, a common problem and how to addres
 > Download our example personas and workstyle PowerPoint decks to get started with more detailed persona mapping.
 
 ## Interview: The importance of User Adoption Planning 
-Improving the collaboration and communications experience for your employees normally takes more than one product or experience. At Contoso, we want to improve project management, product and service delivery and internal communication. We often refer to these scenarios as the "Better Together" scenarios. Some examples of "better together" pairings are:
+Improving the collaboration and communications experience for your employees normally takes more than one product or experience. At Contoso, we want to improve project management, product and service delivery, and internal communication. We often refer to these scenarios as the "Better Together" scenarios. Some examples of "better together" pairings are:
 
 - Microsoft Teams and SharePoint - Broad news and communications functionality with modern sites; document lists and libraries with custom metadata and workflows.
 - Microsoft Teams and Planner - Modern project management for everyone
-- Microsoft Teams and PowerBI - Integrated data visualization tools to empower data driven decisions
+- Microsoft Teams and Power BI - Integrated data visualization tools to empower data driven decisions
 - Microsoft Teams and Yammer - Collaboration for community managers
 - Microsoft Teams with Forms and Flow - Data gathering and activation with cross product, out of the box workflows
 

@@ -18,7 +18,7 @@ You're ready to begin your strategy and project plan. You need to quickly delive
 
 Read [Microsoft Teams Phase One](https://aka.ms/O365Champions) for more information on roles and pre-requisites for this phase of your planning. 
 
-Watch and use introduction videos like "What is Microsoft Teams?" to ensure people begin to understand what this new experience can do. Note that this video doesn't focus on a long list of features but on the outcomes for employees. 
+Watch and use introduction videos like "What is Microsoft Teams?" to ensure people begin to understand what this new experience can do. Note that this video doesn't focuses on a long list of features but on the outcomes for employees. 
 
 ## Key role - the executive sponsor
 
@@ -73,9 +73,9 @@ Through FastTrack, community forums, and your other business relationships you c
 
 >![The change curve](../media/change-curve.png)
 
-In any change program it's important to understand the basic change curve that applies to all people. Whether personal or professional this structure applies. This training is focused on professional examples, but think about how change has happened in your own life and how you've responded to it. This helps you have empathy and compassion for those who are more resistant to change than may make you comfortable.
+In any change program, it's important to understand the basic change curve that applies to all people. Whether personal or professional this structure applies. This training is focused on professional examples, but think about how change has happened in your own life and how you've responded to it. This helps you have empathy and compassion for those who are more resistant to change than may make you comfortable.
 
-**Denial** - Many people consciously or sub-consciously deny that change needs to occur. They're comfortable doing things the way they always have. Consider that in your awareness campaigns and executive communications - you must inform people how this change will benefit them and the company. It's often effective to tailor messages to the audience you are talking to. Don't shy away from discussing the most basic of motivations with your employees in positive terms. 
+**Denial** - Many people consciously or subconsciously deny that change needs to occur. They're comfortable doing things the way they always have. Consider that in your awareness campaigns and executive communications - you must inform people how this change will benefit them and the company. It's often effective to tailor messages to the audience you are talking to. Don't shy away from discussing the most basic of motivations with your employees in positive terms. 
 
 **Resistance** - People will hear your message the first time but often continue to actively or passively resist change. Use outreach strategies to engage with resistance - for example, set up breakfast or lunch meetings with food, reward early adopters with recognition, or show how useful meaningful change can be with early adopter case studies. Encourage direct feedback at these events to mine for conflict and program challenges. Start the conversation by pointing out difficulties you had with making the change while facilitating the conversation toward positive suggestions and away from a complaint session. 
 
