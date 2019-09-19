@@ -1,19 +1,18 @@
 ### YamlMime:LearningPath
 uid: learn.wwl.project-specialist-technical-achievement
 metadata:
-  title: Project Specialist Technical Achievement(temp name)
-  description: Learn the modern data warehousing tools and techniques supported by Azure Databricks.
-  ms.date: 08/22/2019
+  title: Prepare to Complete the Project Specialist Technical Achievement
+  description: Prepare to Complete the Project Specialist Technical Achievement
+  ms.date: 09/27/2019
   author: wwlpublish
   ms.author: Cecilia.PerezBenitoa
   ms.topic: interactive-tutorial
   ms.prod: learning-wwl
-title: Project Specialist Technical Achievement(temp name)
+title: Prepare to Complete the Project Specialist Technical Achievement
 prerequisites: |
   A general understanding of Microsoft 365.
 summary: |
-  This learning path brings together introductory level information on Teams, Power Platforms, and Security &amp; Compliance.  A basic understanding of these three solution areas provide  leaners with building blocks for providing secure, integrated work management solutions.
-  A new learning path will be created, from existing MS Learn content.  This learning path will be part of TSI for Project Specialist and represents the technical content within their overall TSI requirements, hence the proposed trophy name of Project Specialist Technical Achievement.  We don't yet have the proposed name of the actual LP as it will appear on Learn (will be forthcoming).
+  This learning path brings together introductory level information on Teams, Power Platforms, and Security & Compliance. An understanding of these three solution areas provides learners with foundational knowledge on adjacent technologies that can come into play when positioning secure, integrated work management solutions.
 iconUrl: http://via.placeholder.com/120x120
 levels:
 - beginner
