@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3Fq2a]
+
 **Success measures are defined a minimum of twice in your service adoption plan.** First, you select limited success measures for your initial experiments. After you recieve and analyze data from those experiments and make any appropriate course corrections, select the success measures for your broad scale adoption. It's a best practice to revisit your overall program success measures on a quarterly basis to ensure they're in alignment with your current goals. 
 
 Success should always include measures that include the health of the service. People may be happy with the intent of change, but if they can't get to the experience, they'll ultimately have negative sentiment. **Quality, reliability, performance, and the speed with which issues are resolved must be included in your overall success measures.** To get this data, you may need to work with your IT administrator to get access to data from within your Office 365 tenant. 
