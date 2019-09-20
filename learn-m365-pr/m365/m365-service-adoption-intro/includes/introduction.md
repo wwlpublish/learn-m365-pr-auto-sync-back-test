@@ -1,5 +1,7 @@
 Welcome to Microsoft Service Adoption Specialist training! This training is for professionals who are accountable for or learning how to drive the adoption of Microsoft services in their organization. We'll help you learn the essential skills required to craft and execute a service adoption plan. This course is appropriate for business leaders, IT professionals, change managers, or others interested in maximizing their value from technology in their business. 
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3HdXO]
+
 This course uses the implementation of Microsoft Teams as our example service. The service adoption framework is designed to apply to any service you need to implement. However there's some information, for example, the technical acumen section, that's specific to Microsoft Teams. All the information you need to complete this course are contained in this course. If you'd like to go deeper in the technical implementation of Microsoft Teams, check out Manage team collaboration with Microsoft Teams. 
 
 You'll learn about the following areas:
