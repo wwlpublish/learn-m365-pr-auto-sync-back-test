@@ -35,8 +35,9 @@ Identify and empower your executive sponsor to be a consistently visible part of
 If you don't have a senior executive who is willing to participate, you can drive a portion of change in a grassroots manner. Go directly to a key division or process owner and partner with them on your experimental transformation process. Meaningful business results from this experiment might be what you need to get your C-suite onboard.
 
 ## Workstreams and team structures
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3Fq2b]
 
-### Activity 
+> ### Activity 
 Map out your team structures and workstream assignments for your own organization. Take this opportunity to identify talent in your organization or any gaps that need to be filled. It's important to identify missing talent areas early in your planning process so you can get the correct kind of help. Download our Workstream Assignment handout to aid you in this process. 
 
 You can get free service adoption and deployment planning and execution assistance from Microsoft as a part of your Microsoft 365 subscription in a variety of formats through the FastTrack program. Your company may already be working with a technology partner who can also provide this assistance. 
