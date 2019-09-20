@@ -1,6 +1,4 @@
-Video: https://youtu.be/HzaS0w3gpcw
-
-Microsoft's Office 365 services collect data about the usage patterns of your users. This data is only available to people who are designated global or workload administrators or who have been granted report reader rights in the experience. Discuss the use of these reports in your service adoption work with your IT partners. As shown in the video above you can see important information such as:
+Microsoft's Office 365 services collect data about the usage patterns of your users. This data is only available to people who are designated global or workload administrators or who have been granted report reader rights in the experience. Discuss the use of these reports in your service adoption work with your IT partners. You can see important information such as:
 
 - Licenses (enabled) vs active users
 - Usage by workload
@@ -9,8 +7,8 @@ Microsoft's Office 365 services collect data about the usage patterns of your us
 
 **Usage data allows you to adjust your awareness and training campaigns to help people understand the capabilities that they have available to them.** This is helpful when combined with the "what's in it for me" or WIIFM approach to messaging that helps employees understand how using Office 365 services will empower them to be more productive and agile in their work styles. 
 
-### Activity  
-Work with your IT partners to ensure the content pack is installed and that you have access to the reporting. 
+> ### Activity  
+> Work with your IT partners to ensure the content pack is installed and that you have access to the reporting. 
 
 ### Activity for Contoso  
 In reviewing the reports, you can see that all of your users are licensed (enabled) for OneDrive but usage is low. If a similar trend exists for SharePoint, then you know people are EMAILING THAT SPREADSHEET! Ugh! It's time to pop into action and run a quick campaign highlighting the coauthoring and collaboration benefits for people by role or region. 
