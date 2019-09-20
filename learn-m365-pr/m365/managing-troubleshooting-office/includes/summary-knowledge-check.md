@@ -1,0 +1,1 @@
+In this module, you learned about update management options and how they work in Office 365 ProPlus and Office 2019 editions. You also learned how to use "second install" to add apps, languages, or configurations to existing Office installations. Finally, you learned how to troubleshoot and manage common issues with software updates, activation, and installations.
