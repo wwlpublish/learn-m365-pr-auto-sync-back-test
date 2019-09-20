@@ -25,7 +25,7 @@ roles:
 products:
 - m365
 units:
-- learn-m365-office.m365-managing-troubleshooting-office.intro-managing-troubleshooting-office
+- learn-m365-office.m365-managing-troubleshooting-office.intro-managing-troubleshooting
 - learn-m365-office.m365-managing-troubleshooting-office.understand-update-management-options
 - learn-m365-office.m365-managing-troubleshooting-office.add-apps-language-configuration
 - learn-m365-office.m365-managing-troubleshooting-office.troubleshoot-manage-common-issues
