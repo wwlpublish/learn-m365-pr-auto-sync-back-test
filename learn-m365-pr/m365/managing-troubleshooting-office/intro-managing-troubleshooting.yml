@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365-office.m365-managing-troubleshooting-office.intro-managing-troubleshooting-office
+uid: learn-m365-office.m365-managing-troubleshooting-office.intro-managing-troubleshooting
 title: Introduction to managing and troubleshooting Office on Windows
 metadata:
   title: Introduction to managing and troubleshooting Office on Windows
@@ -12,4 +12,4 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 1
 content: |
-  [!include[](includes/intro-managing-troubleshooting-office.md)]
+  [!include[](includes/intro-managing-troubleshooting.md)]

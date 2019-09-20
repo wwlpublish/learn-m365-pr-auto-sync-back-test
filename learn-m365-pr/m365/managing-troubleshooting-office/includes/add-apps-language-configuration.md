@@ -1,4 +1,4 @@
-![checkmark icon](../media/checkmark.png)
+![checkmark icon](../media/checkmark-icon.png)
 
 There are some deployment scenarios where you install Office again where you already have an existing installation of the same version of Office. This is what we call a second install. You can use a second install to add to an existing Office installation or change what’s there. Use a second install to:
 
