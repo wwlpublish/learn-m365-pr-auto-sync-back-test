@@ -10,7 +10,7 @@
       {
         "src": "m365",
         "files": [
-          "**.yml"
+          "**.yml",
           "**/*.md"
         ],
         "exclude": [
@@ -21,7 +21,7 @@
       {
         "src": "wwl-mba",
         "files": [
-          "**.yml"
+          "**.yml",
           "**/*.md"
         ],
         "exclude": [
@@ -32,7 +32,7 @@
       {
         "src": "m365-developer",
         "files": [
-          "**.yml"
+          "**.yml",
           "**/*.md"
         ],
         "exclude": [
@@ -73,7 +73,7 @@
           "**/obj/**",
           "**/includes/**",
           "_themes/**",
-          "_themes.pdf/**"
+          "_themes.pdf/**",
           "**/design/**",
           "**/resources/**"
         ]
