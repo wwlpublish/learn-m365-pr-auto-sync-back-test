@@ -7,14 +7,13 @@ metadata:
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
-  ms.prod: ms-graph
-  ROBOTS: NOINDEX
+  ms.prod: learning-graph
 title: Exercise - Understand throttling in Microsoft Graph
 durationInMinutes: 20
 content: |
   [!include[](includes/3-exercise-understand-throttling-microsoft-graph.md)]
 quiz:
-  title: Test your Microsoft Graph throttling knowledge
+  title: Check your Microsoft Graph throttling knowledge
   questions:
   - content: "What does it mean when a request is throttled by Microsoft Graph?"
     choices:
