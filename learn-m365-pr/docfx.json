@@ -11,6 +11,10 @@
         "src": "m365",
         "files": [
           "**.yml"
+          "**/*.md"
+        ],
+        "exclude": [
+          "**/includes/**"
         ],
         "dest": "modules"
       },
@@ -18,6 +22,21 @@
         "src": "wwl-mba",
         "files": [
           "**.yml"
+          "**/*.md"
+        ],
+        "exclude": [
+          "**/includes/**"
+        ],
+        "dest": "modules"
+      },
+      {
+        "src": "m365-developer",
+        "files": [
+          "**.yml"
+          "**/*.md"
+        ],
+        "exclude": [
+          "**/includes/**"
         ],
         "dest": "modules"
       },
@@ -35,7 +54,9 @@
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices",
-          "learn-m365-pr/**"
+          "learn-m365-pr/**",
+          "**/design/**",
+          "**/resources/**"
         ]
       }
     ],
@@ -53,6 +74,8 @@
           "**/includes/**",
           "_themes/**",
           "_themes.pdf/**"
+          "**/design/**",
+          "**/resources/**"
         ]
       }
     ],
@@ -61,7 +84,9 @@
     "globalMetadata": {
       "breadcrumb_path": "/learn/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "None"
+      "clicktale": true,
+      "feedback_system": "None",
+      "uhfHeaderId": "MSDocsHeader-Learn"
     },
     "fileMetadata": {},
     "template": [],
