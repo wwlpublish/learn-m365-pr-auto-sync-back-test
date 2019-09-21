@@ -1,17 +1,17 @@
 ### YamlMime:Module
 uid: learn-m365.optimize-network-traffic
 metadata:
-  title: Optimize Network Traffic with Microsoft Graph
+  title: Optimize network traffic with Microsoft Graph
   description: Learn how Microsoft Graph uses throttling to maintain service health and how address this feature when creating applications.
   ms.date: 10/01/2019
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
   ms.prod: ms-graph
-title: Optimize Network Traffic with Microsoft Graph
+title: Optimize network traffic with Microsoft Graph
 summary: Microsoft Graph provides a unified programmability model that you can use to build apps for organizations and consumers that interact with the data of millions of users. In this module, students will learn how Microsoft has implemented throttling to Microsoft Graph to limit the overuse of Microsoft Graph resources. Students will learn how to avoid requests from being throttled, as well as how to properly handle scenarios when Microsoft Graph throttles high user traffic in a graceful way.
 abstract: |
-  At the end of this module, you should be able to:
+  By the end of this module, you will be able to:
   - Explain how Microsoft Graph maintains resource health
   - Identify when Microsoft Graph throttles requests
   - Decide the appropriate pattern to address throttled requests
@@ -21,7 +21,7 @@ prerequisites: |
   - Ability to develop with ASP.NET Core at the intermediate level
   - Experience using Visual Studio Code at the beginner level
   - Access to an Office 365 tenant
-iconUrl: https://docs.microsoft.com/media/learn/module.svg
+iconUrl: /learn/achievements/optimize-network-traffic.svg
 levels:
   - beginner
   - intermediate
