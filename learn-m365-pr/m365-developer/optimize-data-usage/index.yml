@@ -11,7 +11,7 @@ metadata:
 title: Optimize data usage when using Microsoft Graph with query parameters
 summary: Microsoft Graph provides a unified programmability model that you can use to build apps for organizations and consumers that interact with the data of millions of users. The Microsoft Graph REST APIs implements many of the OData protocol’s query parameters. In this module, you will learn how to manipulate queries using query parameters.
 abstract: |
-  By end of this module, you will be able to:
+  By the end of this module, you will be able to:
   - Demonstrate how to manipulate REST queries with query parameters
   - Create queries that expand complex entities
   - Demonstrate how to search for content with Microsoft Graph
