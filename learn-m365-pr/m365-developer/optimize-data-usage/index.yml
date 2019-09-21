@@ -1,17 +1,17 @@
 ### YamlMime:Module
 uid: learn-m365.optimize-data-usage
 metadata:
-  title: Optimize Data Usage when Using Microsoft Graph with Query Parameters
+  title: Optimize data usage when using Microsoft Graph with Query Parameters
   description: Learn how to control the amount of data returned by Microsoft Graph to optimize queries using query parameters.
   ms.date: 10/01/2019
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
-  ms.prod: ms-graph
-title: Optimize Data Usage when Using Microsoft Graph with Query Parameters
+  ms.prod: learning-graph
+title: Optimize data usage when using Microsoft Graph with Query Parameters
 summary: Microsoft Graph provides a unified programmability model that you can use to build apps for organizations and consumers that interact with the data of millions of users. The Microsoft Graph REST APIs implements many of the OData protocol’s query parameters. In this module, you will learn how to manipulate queries using query parameters.
 abstract: |
-  At the end of this module, you should be able to:
+  At the end of this module, you will be able to:
   - Demonstrate how to manipulate REST queries with query parameters
   - Create queries that expand complex entities
   - Demonstrate how to search for content with Microsoft Graph
@@ -21,7 +21,7 @@ prerequisites: |
   - Ability to develop with ASP.NET Core at the intermediate level
   - Experience using Visual Studio Code at the beginner level
   - Access to an Office 365 tenant
-iconUrl: https://docs.microsoft.com/media/learn/module.svg
+iconUrl: /learn/achievements/optimize-data-usage.svg
 levels:
 - beginner
 - intermediate
