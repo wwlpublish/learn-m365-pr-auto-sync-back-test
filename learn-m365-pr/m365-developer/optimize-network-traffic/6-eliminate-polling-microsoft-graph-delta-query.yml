@@ -7,8 +7,7 @@ metadata:
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
-  ms.prod: ms-graph
-  ROBOTS: NOINDEX
+  ms.prod: learning-graph
 title: Eliminate polling Microsoft Graph with delta query
 durationInMinutes: 5
 content: |
