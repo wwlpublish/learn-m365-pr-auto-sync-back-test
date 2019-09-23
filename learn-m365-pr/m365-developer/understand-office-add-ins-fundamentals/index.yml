@@ -8,14 +8,23 @@ metadata:
   ms.author: elizs
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: understand-office-add-ins-fundamentals
-summary: ...
-abstract: ...
-prerequisites: ...
+title: Understand Office Add-ins fundamentals
+summary: The Office Add-ins platform enables you to extend the functionality of Office applications to suit your needs. In this module, you will explore various ways you can use add-ins to extend and interact with Office applications. You will also learn about using the manifest to configure your add-in.
+abstract: |
+  By the end of this module, you should know about:
+  - Task panes and content add-ins
+  - Dialogs
+  - Custom functions
+  - Add-in commands
+  - Manifest
+prerequisites: None
 iconUrl: https://docs.microsoft.com/media/learn/module.svg
-levels: [beginner]
-roles: [developer]
-products: [office-add-ins]
+levels:
+  - beginner
+roles:
+  - developer
+products:
+  - office-add-ins
 units:
 - learn-m365-pr.understand-office-add-ins-fundamentals.1-introduction
 - learn-m365-pr.understand-office-add-ins-fundamentals.2-understand-task-panes-content-add-ins

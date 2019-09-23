@@ -1,1 +1,1 @@
-Understand the purpose of Office Add-ins manifest
+TODO: Manifest - XML configuration file -> A section per general area of the manifest?
