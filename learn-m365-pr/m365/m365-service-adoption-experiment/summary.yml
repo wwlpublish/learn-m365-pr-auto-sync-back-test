@@ -59,7 +59,7 @@ quiz:
         isCorrect: true
         explanation: "Reason."
       - content: "Project speed."
-        isCorrect: true
+        isCorrect: false
         explanation: "Reason."
     - content: "You can apply naming conventions to Microsoft Teams  and the underlying Office 365 Groups?"
       choices:
@@ -70,7 +70,7 @@ quiz:
         isCorrect: false
         explanation: "Reason."
       - content: "No, Office 365 doesn't do this"
-        isCorrect: false
+        isCorrect: true
         explanation: "Reason."
     - content: "Success measures should be defined as which of the following?"
       choices:
@@ -142,7 +142,7 @@ quiz:
     - content: "True or false: Approving guest access is a governance decision."
       choices:
       - content: "True"
-        isCorrect: false
+        isCorrect: true
         explanation: "Reason."
       - content: "False"
         isCorrect: false
@@ -181,5 +181,5 @@ quiz:
         isCorrect: false
         explanation: "Reason."
       - content: "False"
-        isCorrect: false
+        isCorrect: true
         explanation: "Reason."
