@@ -39,26 +39,9 @@ quiz:
         isCorrect: false
         explanation: "Reason."
       - content: "Quarterly"
-        isCorrect: false
+        isCorrect: true
         explanation: "Reason."
       - content: "Never. Success measures don't change when done correctly."
-        isCorrect: true
-        explanation: "Reason."
-    - content: "Select an example success measure that should be included in your project."
-      choices:
-      - content: "Service quality"
-        isCorrect: false
-        explanation: "Reason."
-      - content: "Employee sentiment"
-        isCorrect: false
-        explanation: "Reason."
-      - content: "Project budget performance"
-        isCorrect: false
-        explanation: "Reason."
-      - content: "Service reliability."
-        isCorrect: true
-        explanation: "Reason."
-      - content: "Project speed."
         isCorrect: false
         explanation: "Reason."
     - content: "You can apply naming conventions to Microsoft Teams  and the underlying Office 365 Groups?"
@@ -67,10 +50,10 @@ quiz:
         isCorrect: false
         explanation: "Reason."
       - content: "Yes, but only if you have the appropriate license"
-        isCorrect: false
+        isCorrect: true
         explanation: "Reason."
       - content: "No, Office 365 doesn't do this"
-        isCorrect: true
+        isCorrect: false
         explanation: "Reason."
     - content: "Success measures should be defined as which of the following?"
       choices:
@@ -83,7 +66,7 @@ quiz:
       - content: "To share with stakeholders so they understand the impact of change"
         isCorrect: false
         explanation: "Reason."
-      - content: "Never. All of the above."
+      - content: "All of the above."
         isCorrect: true
         explanation: "Reason."
     - content: "The main source for innovation in a company is which of the following?"
@@ -100,27 +83,10 @@ quiz:
       - content: "Engaged, productive employees"
         isCorrect: true
         explanation: "Reason."
-    - content: "One governance decision is to review and approve apps available in Microsoft Teams. You need these apps because?"
-      choices:
-      - content: "They will improve the collaboration experience"
-        isCorrect: false
-        explanation: "Reason."
-      - content: "End users use Microsoft first party apps and others in their day-to-day work. Approving them will create continuity in experience."
-        isCorrect: false
-        explanation: "Reason."
-      - content: "You should just turn it all on"
-        isCorrect: false
-        explanation: "Reason."
-      - content: "Better Together scenarios depend on these apps being available"
-        isCorrect: true
-        explanation: "Reason."
-      - content: "Users should always have multiple apps to choose from"
-        isCorrect: false
-        explanation: "Reason."
     - content: "The role of an Office 365 Teamwork Champion primarily delivers which of the following?"
       choices:
       - content: "Peer-to-peer learning and feedback"
-        isCorrect: false
+        isCorrect: true
         explanation: "Reason."
       - content: "Local help desk support services"
         isCorrect: false
@@ -129,15 +95,15 @@ quiz:
         isCorrect: false
         explanation: "Reason."
       - content: "Stakeholder management support"
-        isCorrect: true
+        isCorrect: false
         explanation: "Reason."
     - content: "True or false: Champions give up their normal role activities while they are rolling out your project."
       choices:
-      - content: "False"
-        isCorrect: true
-        explanation: "Reason."
       - content: "True"
         isCorrect: false
+        explanation: "Reason."
+      - content: "False"
+        isCorrect: true
         explanation: "Reason."
     - content: "True or false: Approving guest access is a governance decision."
       choices:
@@ -153,18 +119,18 @@ quiz:
         isCorrect: false
         explanation: "Reason."
       - content: "Yes, to everyone online via the free Office 365 Teamwork Champion program"
-        isCorrect: false
+        isCorrect: true
         explanation: "Reason."
       - content: "Yes, but only through the FastTrack program"
         isCorrect: false
         explanation: "Reason."
       - content: "No, you have to pay for these services"
-        isCorrect: true
-        explanation: "Reason."
+        isCorrect: false
+        explanation: "Reason. New question goes here"
     - content: "Which of the following is one of our four strategic pillars of content governance?"
       choices:
       - content: "Protect corporate assets"
-        isCorrect: false
+        isCorrect: true
         explanation: "Reason."
       - content: "Enable self-service reporting"
         isCorrect: false
@@ -173,13 +139,13 @@ quiz:
         isCorrect: false
         explanation: "Reason."
       - content: "Audit employees"
-        isCorrect: true
+        isCorrect: false
         explanation: "Reason."
     - content: "True or false: It's a best practice to make governance decisions for experimentation before making broad decisions for your company-wide rollout."
       choices:
       - content: "True"
-        isCorrect: false
+        isCorrect: true
         explanation: "Reason."
       - content: "False"
-        isCorrect: true
+        isCorrect: false
         explanation: "Reason."
