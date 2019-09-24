@@ -13,6 +13,16 @@ Task pane add-ins allow user interaction through a UI panel displayed within an 
 
 In newer versions of Word, Excel, and PowerPoint, you can also configure the task pane to be displayed automatically when a user opens a document. The user will need to have your add-in installed first to activate this behavior.
 
+### Key configuration
+
+To configure an add-in to be a task pane add-in, the key setting in the manifest is the following for all Office applications except Outlook.
+
+- `OfficeApp` type is "TaskPaneApp"
+
+For Outlook, the key settings are:
+
+- `OfficeApp` type is "MailApp"
+
 ## Content add-ins
 
 Content add-ins allow the user to insert or embed an object into their Excel spreadsheet or PowerPoint presentation. That object can be a web-based data visualization, media, or other external content.
@@ -20,3 +30,9 @@ Content add-ins allow the user to insert or embed an object into their Excel spr
 ![Content add-in in the middle of the Office application window](../media/about-addins-contentaddin.png)
 
 *Content add-in*
+
+### Key configuration
+
+To configure an add-in to be a content add-in, the key setting in the manifest is:
+
+- `OfficeApp` type is "ContentApp"
