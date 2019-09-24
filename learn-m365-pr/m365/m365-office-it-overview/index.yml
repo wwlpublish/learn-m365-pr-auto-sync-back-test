@@ -23,7 +23,7 @@ roles:
 products:
 - m365
 units:
-- learn-m365-pr/m365/m365-office-it-overview.introduction
-- learn-m365-pr/m365/m365-office-it-overview.understanding-office
+- learn-m365-pr-m365-m365-office-it-overview.introduction
+- learn-m365-pr-m365-m365-office-it-overview.understanding-office
 badge: 
   uid: learn-m365-identity.m365-office-Windows-it-overview.365-office-it-overview.badge
