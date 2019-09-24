@@ -16,26 +16,6 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Contoso, Inc. has limited IT and training staff to support the company roll out of Microsoft Teams. You and your IT Service Manager have implementation and technical questions. What are some ways you can find out relevant information and get assistance?"
-      choices:
-      - content: "Review documentation at SuccessWithTeams.com."
-        isCorrect: true
-        explanation: "Reason."
-      - content: "Conduct an internet search for information about service adoption."
-        isCorrect: false
-        explanation: "Reason."
-      - content: "Visit the Driving Adoption forum on the Microsoft Technical Community."
-        isCorrect: false
-        explanation: "Reason."
-      - content: "Seek out the help of a Microsoft certified partner."
-        isCorrect: false
-        explanation: "Reason."
-      - content: "Sign into the FastTrack Center to get free assistance from Microsoft."
-        isCorrect: false
-        explanation: "Reason."
-      - content: "Visit the Teams locations near you."
-        isCorrect: false
-        explanation: "Reason."
     - content: "When you are assigned to manage the Champion program, you are primarily responsible for which of the following?"
       choices:
       - content: "Being the chief cheerleader for the new technology."
@@ -89,13 +69,13 @@ quiz:
         isCorrect: false
         explanation: "Reason."
       - content: "Anger"
-        isCorrect: true
+        isCorrect: false
         explanation: "Reason."
       - content: "Bargaining"
         isCorrect: false
         explanation: "Reason."
       - content: "Resistance"
-        isCorrect: false
+        isCorrect: true
         explanation: "Reason."
     - content: "When crafting the key messages in your service adoption plan, you should write them down from the perspective of the __________."
       choices:
@@ -103,10 +83,10 @@ quiz:
         isCorrect: false
         explanation: "Reason."
       - content: "Process owners"
-        isCorrect: true
+        isCorrect: false
         explanation: "Reason."
       - content: "End-user employees"
-        isCorrect: false
+        isCorrect: true
         explanation: "Reason."
     - content: "True or false: Technology service should melt into the background behind the end-user business objective?"
       choices:
@@ -130,13 +110,13 @@ quiz:
         isCorrect: false
         explanation: "Reason."
       - content: "Identify early adopters"
-        isCorrect: true
+        isCorrect: false
         explanation: "Reason."
       - content: "Identify how much change fatigue is in your company"
         isCorrect: false
         explanation: "Reason."
       - content: "All of the above"
-        isCorrect: false
+        isCorrect: true
         explanation: "Reason."
     - content: "Stakeholders are defined as which of the following?"
       choices:
