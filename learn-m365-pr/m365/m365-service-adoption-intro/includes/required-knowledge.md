@@ -66,12 +66,8 @@ Successful organizations put the customer's needs at the top of the priority lis
 
 Your ability to execute an adoption program must be steeped in the language, challenges, objectives, and outcomes of your business. There's no substitute for homework in this knowledge area. Your knowledge must be directly applicable to the organization, business unit, or employee role you are attempting to help. 
 
-> ### Activity 
-> Find a person in your organization who led a project that was not viewed as "successful." After validating with them their perspective, ask them what they learned. Make it clear you are there to learn, not to judge their experience. Often you'll find people keen to share their learnings with an interested party. After your conversation, ask yourself these questions:
-> - How can this lesson help others?
-> - What would I do differently?
-> - Could better technology or communication have changed the outcome?
-> - Could better technology or communication have changed *the perception* of the outcome?
+|![Activity icon](../media/activity.png) Activity| 
+|Find a person in your organization who led a project that was not viewed as "successful." After validating with them their perspective, ask them what they learned. Make it clear you are there to learn, not to judge their experience. Often you'll find people keen to share their learnings with an interested party. After your conversation, ask yourself these questions: <br>- How can this lesson help others? <br>- What would I do differently?<br>- Could better technology or communication have changed the outcome?<br>- Could better technology or communication have changed *the perception* of the outcome?|
 
 ## Knowledge area - Technical competence
 
