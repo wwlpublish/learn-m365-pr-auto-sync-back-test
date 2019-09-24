@@ -14,11 +14,9 @@ You're ready to begin your strategy and project plan. You need to quickly delive
 > [!NOTE]
 > With the advent of Microsoft Teams, IT professionals who formerly ran only collaboration or communications/telephony services now need to work together to deliver an integrated experience. In small organizations this may be one individual. In larger organization, it's often two or more people.
 
-### Activity 
-
-Read [Microsoft Teams Phase One](https://aka.ms/O365Champions) for more information on roles and pre-requisites for this phase of your planning. 
-
-Watch and use introduction videos like "What is Microsoft Teams?" to ensure people begin to understand what this new experience can do. Note that this video doesn't focuses on a long list of features but on the outcomes for employees. 
+|![Activity icon](../media/activity.png) Activity| 
+|-|
+|Read [Microsoft Teams Phase One](https://aka.ms/O365Champions) for more information on roles and pre-requisites for this phase of your planning.<br><br>Watch and use introduction videos like "What is Microsoft Teams?" to ensure people begin to understand what this new experience can do. Note that this video doesn't focuses on a long list of features but on the outcomes for employees.| 
 
 ## Key role - the executive sponsor
 
@@ -37,8 +35,9 @@ If you don't have a senior executive who is willing to participate, you can driv
 ## Workstreams and team structures
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3Fq2b]
 
-> ### Activity 
-Map out your team structures and workstream assignments for your own organization. Take this opportunity to identify talent in your organization or any gaps that need to be filled. It's important to identify missing talent areas early in your planning process so you can get the correct kind of help. Download our Workstream Assignment handout to aid you in this process. 
+|![Activity icon](../media/activity.png) Activity|
+|-| 
+|Map out your team structures and workstream assignments for your own organization. Take this opportunity to identify talent in your organization or any gaps that need to be filled. It's important to identify missing talent areas early in your planning process so you can get the correct kind of help. Download our Workstream Assignment handout to aid you in this process. |
 
 You can get free service adoption and deployment planning and execution assistance from Microsoft as a part of your Microsoft 365 subscription in a variety of formats through the FastTrack program. Your company may already be working with a technology partner who can also provide this assistance. 
 
