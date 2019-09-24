@@ -13,10 +13,10 @@ In the slide above this reads as follows:
 ## Prioritize business scenarios
 >![Prioritize business scenarios](../media/prioritize-scenarios.png)
 
-> |Activity|
+> |![Activity logo](../media/activity.png) Activity|
 > |-|  
 > |Download the scenario-mapping template and write out some simple scenarios using your simplified persona information.|
 
-> |Example activity for Contoso|  
+> |![Activity logo](../media/activity.png) Example activity for Contoso|  
 > |-|
 > |Your sales leadership has been very vocal about needing to collaborate on proposals more quickly and escalate customer issues back to regional corporate offices with greater speed. They also want to understand the status of existing customer issues. You have used the provided templates to gain insights from your stakeholders and employees, validated the technical capabilities you can use to solve the issue and designed the solution in partnership with your IT team. You've determined that you can easily help people collaborate on documents and then move to integrating the customer issue ticketing system with Microsoft Teams, Forms and a simple chatbot. This prioritization allows employees to get familiar with the system doing document collaboration before using it for customer issues. |
