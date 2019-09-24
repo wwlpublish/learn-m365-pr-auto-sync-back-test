@@ -2,19 +2,20 @@
 uid: learn-m365.m365-security-info-overview
 metadata:
   title: Information protection overview 
-  description: 
+  description: Description goes here
   ms.date: 09/24/2019
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Information protection overview  
-summary:  
+summary: Summary goes here
 abstract: |
   At the end of this module, you should be able to:
-  - 
+  - Learning Objective 1
 
-prerequisites: None
+prerequisites: | 
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
 iconUrl: http://via.placeholder.com/120x120
 ratingEnabled: true
 levels:
