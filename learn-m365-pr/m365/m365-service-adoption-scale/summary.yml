@@ -13,3 +13,163 @@ metadata:
 durationInMinutes: 5
 content: |
   [!include[](includes/summary.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Simplified business scenario mapping enables you to do what?"
+      choices:
+      - content: "Understand existing people and process problems"
+        isCorrect: false
+        explanation: "No, business scenario mapping helps you define a successful process journey."
+      - content: "Prove your instincts about collaboration are right"
+        isCorrect: false
+        explanation: "No, business scenario mapping helps you define a successful process journey."
+      - content: "Define a successful process journey for an employee"
+        isCorrect: true
+        explanation: "Yes, this is one of the benefits of scenario business mapping."
+      - content: "Document where people need to be trained"
+        isCorrect: false
+        explanation: "No, business scenario mapping helps you define a successful process journey."
+    - content: "True or false: The outcome of scenario mapping is to create a library of business scenarios by stakeholder area that can be prioritized by impact and difficulty."
+      choices:
+      - content: "True"
+        isCorrect: true
+        explanation: "True, scenario mapping is a tool that helps you prioritize your work by impact and difficulty."
+      - content: "False"
+        isCorrect: false
+        explanation: "No, scenario mapping is a tool that helps you prioritize your work by impact and difficulty."
+    - content: "What is experience fragmentation?"
+      choices:
+      - content: "Everyone is doing their own thing with technology across the company."
+        isCorrect: false
+        explanation: "No, you get 'experience fragmentation' when there are multiple experiences for a single process or group."
+      - content: "Only a part of a process or group of people has been moved to the new experience."
+        isCorrect: true
+        explanation: "Yes, you get 'experience fragmentation' when there are multiple experiences for a single process or group."
+      - content: "Some people use desktops and some use mobile devices to work."
+        isCorrect: false
+        explanation: "No, you get 'experience fragmentation' when there are multiple experiences for a single process or group."
+      - content: "Device damage causes you to not be able to see the document you are working on."
+        isCorrect: false
+        explanation: "No, you get 'experience fragmentation' when there are multiple experiences for a single process or group."
+    - content: "Which of the following is most true about having a sense of humor?"
+      choices:
+      - content: "Essential for Service Adoption Specialists."
+        isCorrect: false
+        explanation: "No, this is just one of the advantages of having a healthy sense of humor."
+      - content: "Can be subtly used to break tension in a project meeting."
+        isCorrect: false
+        explanation: "No, this is just one of the advantages of having a healthy sense of humor."
+      - content: "Can bond team members together and improve company culture."
+        isCorrect: false
+        explanation: "No, this is just one of the advantages of having a healthy sense of humor."
+      - content: "All of the above."
+        isCorrect: true
+        explanation: "Yes, these are all true about a healthy sense of humor."
+    - content: "True or false: Sending an email is an engaging way to communicate with employees."
+      choices:
+      - content: "True"
+        isCorrect: false
+        explanation: "False, although there are always reasons to use email to communicate with employees, it's not generally the most engaging method available."
+      - content: "False"
+        isCorrect: true
+        explanation: "True, although there are always reasons to use email to communicate with employees, it's not generally the most engaging method available."
+    - content: "Business engagement is designed to do which of the following?"
+      choices:
+      - content: "Provide a person that business users can talk to about their support issues."
+        isCorrect: false
+        explanation: "No, business engagement is designed to drive continuous improvement and healthy usage."
+      - content: "Ensure your business process mapping is correct."
+        isCorrect: false
+        explanation: "No, business engagement is designed to drive continuous improvement and healthy usage."
+      - content: "Drive continuous improvement and healthy usage of the services."
+        isCorrect: true
+        explanation: "Yes, this is correct."
+      - content: "All of the above."
+        isCorrect: false
+        explanation: "No, business engagement is designed to drive continuous improvement and healthy usage."
+    - content: "True or false: It's not important to keep records of who attends your in-person training courses as long as people do attend them."
+      choices:
+      - content: "True"
+        isCorrect: false
+        explanation: "This is incorrect - it is important to track who has completed the training."
+      - content: "False"
+        isCorrect: true
+        explanation: "Correct - it is important to track who has completed the training."
+    - content: "Who do you need to work with to see Office 365 usage information for your tenant?"
+      choices:
+      - content: "No one. This is available to everyone."
+        isCorrect: false
+        explanation: "No, you need to work with your IT Partner to deploy services and get access."
+      - content: "The Microsoft Partner you are working with."
+        isCorrect: false
+        explanation: "No, you need to work with your IT Partner to deploy services and get access."
+      - content: "Your IT partner. They need to deploy and grant you access to the Power BI Content Pack."
+        isCorrect: true
+        explanation: "Yes, this is correct."
+      - content: "You have to get this from Microsoft directly."
+        isCorrect: false
+        explanation: "No, you need to work with your IT Partner to deploy services and get access."
+    - content: "The Office 365 Content pack provides you with which of the following?"
+      choices:
+      - content: "Usage and adoption data by region and workload."
+        isCorrect: true
+        explanation: "Correct, the content pack provides usage and adoption data."
+      - content: "Access to individual employee-specific daily behavior."
+        isCorrect: false
+        explanation: "No, the content pack provides usage and adoption data."
+      - content: "Service cost information for Office 365."
+        isCorrect: false
+        explanation: "No, the content pack provides usage and adoption data."
+      - content: "None of the above."
+        isCorrect: false
+        explanation: "No, the content pack provides usage and adoption data."
+    - content: "True or false: The Office 365 Adoption Content pack is a paid service that you add on to your Office 365 account."
+      choices:
+      - content: "True"
+        isCorrect: false
+        explanation: "No, the Office 365 Adoption Content pack is available free of charge."
+      - content: "False"
+        isCorrect: true
+        explanation: "Correct, the Office 365 Adoption Content pack is available free of charge."
+    - content: "True or false: Usage data helps you adjust your awareness and training campaigns to help people understand the capabilities that they have available to them."
+      choices:
+      - content: "True"
+        isCorrect: true
+        explanation: "Correct, you can use this data to fine-tune your campaigns."
+      - content: "False"
+        isCorrect: false
+        explanation: "Incorrect, you can use this data to fine-tune your campaigns."
+    - content: "Primarily a service health review is designed to do which of the following?"
+      choices:
+      - content: "Provide a meeting where business can lodge complaints about IT services."
+        isCorrect: false
+        explanation: "No, the primary goal is to bring IT, adoption, and business leaders together to discuss the health of a service."
+      - content: "Review service incidents and issues."
+        isCorrect: false
+        explanation: "No, the primary goal is to bring IT, adoption, and business leaders together to discuss the health of a service."
+      - content: "Is only for technical personnel."
+        isCorrect: false
+        explanation: "No, the primary goal is to bring IT, adoption, and business leaders together to discuss the health of a service."
+      - content: "Bring IT, adoption, and business leaders together to discuss the health and usage of services."
+        isCorrect: true
+        explanation: "Yes, the primary goal is to bring IT, adoption, and business leaders together to discuss the health of a service."
+    - content: "True or false: A 'service' is a collection of technical capabilities that deliver a specific business outcome."
+      choices:
+      - content: "True"
+        isCorrect: true
+        explanation: "Yes, this is the definition of a service."
+      - content: "False"
+        isCorrect: false
+        explanation: "Incorrect, this is the definition of 'service'."
+    - content: "How often, as a best practice, should you hold service reviews?"
+      choices:
+      - content: "Bi-weekly"
+        isCorrect: false
+        explanation: "No, the best practice is to hold monthly service reviews."
+      - content: "Monthly"
+        isCorrect: true
+        explanation: "Yes, the best practice is to hold monthly service reviews."
+      - content: "Bi-monthly"
+        isCorrect: false
+        explanation: "No, the best practice is to hold monthly service reviews."
