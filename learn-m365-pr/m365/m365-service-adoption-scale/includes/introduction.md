@@ -15,5 +15,6 @@ In many cases, you'll just be expanding the work you did for Start and Experimen
 
 As each segment of your organization onboards to the new experience, you will want to ensure their awareness of local champions and training opportunities.  
 
-### Example Activity for Contoso  
-Review details about service enablement strategies for Microsoft Teams and discuss them with your IT partners and key stakeholders.  
+|### Example Activity for Contoso|
+|-|  
+|Review details about service enablement strategies for Microsoft Teams and discuss them with your IT partners and key stakeholders.|  
