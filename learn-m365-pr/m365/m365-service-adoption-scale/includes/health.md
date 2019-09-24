@@ -8,4 +8,4 @@ A standard agenda for a service health review would include the following items:
 - Continuous Improvement Roadmap
 - Issues and Asks for discussion
 
-Both the service adoption leader and the IT professional (sometimes the same person) should collaborate on the service health review. In very large organizations service health reviews are conducted monthly, while smaller organizations may opt for a six week or bi-monthly schedule. The risk with longer intervals between the review cycle is that misalignments between parties can remain undisclosed and unresolved. No matter the size of your organization, the best practice is to hold reviews monthly. 
+Both the service adoption leader and the IT professional (sometimes the same person) should collaborate on the service health review. In very large organizations service health reviews are conducted monthly, while smaller organizations may opt for a six-week or bi-monthly schedule. The risk with longer intervals between the review cycle is that misalignments between parties can remain undisclosed and unresolved. No matter the size of your organization, the best practice is to hold reviews monthly. 
