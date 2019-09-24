@@ -1,4 +1,4 @@
-Office Add-ins enable you to create custom functions which are your own defined JavaScript or TypeScript functions that can be accessed like native or built-in Excel functions.
+Office Add-ins enable you to create custom JavaScript or TypeScript functions that can be accessed like native or built-in Excel functions.
 
 ![Custom function being activated in Excel](../media/sphere-volume.gif)
 
@@ -11,4 +11,13 @@ Like other types of Office Add-ins, a custom function add-in has two main compon
 - Manifest (XML) for configuration
 - Webpage (HTML, JavaScript) for functionality
 
-In the manifest, the key settings are that the `Host` is "Workbook" and the `ExtensionPoint` is "CustomFunctions". The .html file is primarily to load the custom functions runtime as there is no UI to render *per se*. You define the custom function itself in the .js or .ts file.
+### Manifest
+
+To configure an add-in to be a custom function, the key settings in the manifest are:
+
+- `Host` is "Workbook"
+- `ExtensionPoint` is "CustomFunctions"
+
+### Webpage
+
+The .html file is primarily to load the custom functions runtime as there's no add-in UI to render. You define the custom function code in the .js or .ts file.
