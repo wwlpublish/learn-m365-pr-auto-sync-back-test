@@ -1,4 +1,4 @@
-Office Add-ins enable you to create custom JavaScript or TypeScript functions that can be accessed like native or built-in Excel functions.
+Office Add-ins enable you to create custom JavaScript or TypeScript functions that can be accessed like built-in Excel functions.
 
 ![Custom function being activated in Excel](../media/sphere-volume.gif)
 
