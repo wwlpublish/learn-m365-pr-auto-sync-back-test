@@ -12,6 +12,9 @@ Co-management supports the following workloads:
 | **Office Click-to-Run apps**| This workload manages Office 365 apps on co-managed devices.<ul><li>After moving the workload, the app shows up in the Company Portal on the device</li><li>Office updates may take around 24 hours to show up on client unless the devices are restarted</li><li>There's a new global condition, Are Office 365 applications managed by Intune on the device. This condition is added by default as a requirement to new Office 365 applications. When you transition this workload, co-managed clients don't meet the requirement on the application. Then they don't install Office 365 deployed via Configuration Manager.</li></ul> |
 | **Client apps**| Use Intune to manage client apps and PowerShell scripts on co-managed Windows 10 devices. After you transition this workload, any available apps deployed from Intune are available in the Company Portal. Apps that you deploy from Configuration Manager are available in Software Center.|
 
+> [!NOTE]
+> The supported workloads are updated after each new release of System Center Configuration Manager, check the official documentations on [Co-management workloads](https://docs.microsoft.com/sccm/comanage/workloads) for updates.
+
 ### Diagram for app workloads
 
 ![Diagram for app workloads](../media/co-management-apps.png)
@@ -31,25 +34,9 @@ There are two main paths to reach to co-management:
 
 With co-management, you can keep your well-established processes for using Configuration Manager to manage PCs in your organization. At the same time, you're investing in the cloud through use of Intune for security and modern provisioning.
 
-To set up co-management of your Windows 10 devices that are already enrolled in Configuration Manager, you'll need to complete these high-level steps:
-
-1. Review prerequisites for Azure and your on-premises environment
-2. Set up hybrid Azure AD
-3. Configure Configuration Manager client agents to register with Azure AD
-4. Configure Intune to auto-enroll devices
-5. Assign Intune licenses to users
-6. Enable co-management in Configuration Manager
+To set up co-management of your Windows 10 devices that are already enrolled in Configuration Manager, complete the steps outlined in [Tutorial: Enable co-management for existing Configuration Manager clients](https://docs.microsoft.com/sccm/comanage/tutorial-co-manage-clients).
 
 ## Bootstrap with modern provisioning
 
-To set up co-management of Windows 10 devices in an environment where you use both Azure Active Directory (AD) and an on-premises AD but don't have a hybrid Azure Active Directory (AD), you'll need to complete these high-level steps:
-
-1. Review prerequisites for Azure and your on-premises environment
-2. Request a public SSL certificate for the cloud management gateway (CMG)
-3. Enable Azure services in Configuration Manager
-4. Deploy and configure a cloud management gateway
-5. Configure the management point and clients to use the CMG
-6. Enable co-management in Configuration Manager
-7. Configure Intune to install the Configuration Manager client
-8. Assign license for cloud services
+To set up co-management of Windows 10 devices in an environment where you use both Azure Active Directory (AD) and an on-premises AD but don't have a hybrid Azure Active Directory (AD), complete the steps outlined in [Tutorial: Enable co-management for new internet-based devices](https://docs.microsoft.com/sccm/comanage/tutorial-co-manage-new-devices).
 
