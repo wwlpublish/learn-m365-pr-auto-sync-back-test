@@ -1,75 +1,32 @@
 The Office Add-ins platform provides add-in commands so users can activate an add-in that opens a task pane or runs code behind the scenes (UI-less command). You can configure your add-in so the Office application renders a custom ribbon or menu command button&mdash;or even a group of buttons&mdash;depending on the tasks your add-in is making available to users.
 
+## Excel, Word, PowerPoint, and OneNote
+
+You can set up an add-in that a user can run by pressing a button in the:
+
+- Office ribbon or command overflow menu&mdash;"PrimaryCommandSurface" extension point.
+- Context menu&mdash;"ContextMenu" extension point.
+
+An add-in command can also open a submenu with additional commands.
+
 ![Add-in commands in Excel](../media/add-in-commands.png)
 
 *Add-in commands in Excel on Windows*
 
-## Excel, Word, PowerPoint, and OneNote
-
-You can configure a custom ribbon or menu command for your add-in by including the following key areas in the manifest.
-
-```xml
-<OfficeApp
-  ...
-  xsi:type="TaskPaneApp">
-   ...
-  <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
-  ...
-    <Hosts>
-      <Host xsi:type="Workbook">
-        <DesktopFormFactor>
-          <!-- FunctionFile needed for UI-less command -->
-          <FunctionFile resid="residDesktopFuncUrl" />
-            <ExtensionPoint xsi:type="PrimaryCommandSurface">
-              <CustomTab id="Contoso Tab">
-              <!-- If you want to use a default tab that comes with Office, remove the above CustomTab element, and then uncomment the following OfficeTab element -->
-              <!-- <OfficeTab id="TabData"> -->
-                ...
-                <Group id="Group1Id12">
-                  ...
-                  <Control xsi:type="Button" id="Button1Id1">
-                    <!-- information about the control -->
-                    ...
-                    <Action xsi:type="ShowTaskpane">
-                      ...
-                    </Action>
-                    <Action xsi:type="ExecuteFunction">
-                      <FunctionName>getData</FunctionName>
-                    </Action>
-                  </Control>
-                  <!-- other controls, as needed -->
-                </Group>
-              </CustomTab>
-            </ExtensionPoint>
-            <ExtensionPoint xsi:type="ContextMenu">
-              <OfficeMenu id="ContextMenuCell">
-                <Control xsi:type="Menu" id="ContextMenu2">
-                  <!-- information about the control -->
-                </Control>
-                <!-- other controls, as needed -->
-              </OfficeMenu>
-            </ExtensionPoint>
-          </DesktopFormFactor>
-      </Host>
-      <!-- Other hosts that support add-in commands: "Document", "Presentation", "Notebook" -->
-    </Hosts>
-  ...
-  </VersionOverrides>
-...
-</OfficeApp>
-```
-
 ## Outlook
 
-You can configure a custom ribbon or menu command for your add-in by including the following key settings in the manifest.
+You can set up an add-in that a user can run by pressing a button in the Office ribbon or command overflow menu. You can configure your add-in to be available when the user is:
 
-```xml
-<OfficeApp
-  ...
-  xsi:type="MailApp">
-   ...
-</OfficeApp>
-```
+- Reading a message in the reading pane or in a pop-out window&mdash;"MessageReadCommandSurface" extension point.
+- Composing a message&mdash;"MessageComposeCommandSurface" extension point.
+- Creating or viewing an appointment or meeting as the organizer&mdash;"AppointmentOrganizerCommandSurface" extension point.
+- Viewing a meeting as an attendee&mdash;"AppointmentAttendeeCommandSurface" extension point.
+
+An add-in command can also open a submenu with additional commands.
+
+![Add-in commands in Outlook](../media/commands-normal-collapsed.png)
+
+*Add-in commands in Outlook on Windows*
 
 ## Where can you use add-in commands?
 
