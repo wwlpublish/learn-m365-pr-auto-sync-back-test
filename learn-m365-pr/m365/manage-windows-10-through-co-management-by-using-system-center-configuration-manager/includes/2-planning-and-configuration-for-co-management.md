@@ -13,7 +13,7 @@ Co-management supports the following workloads:
 | **Client apps**| Use Intune to manage client apps and PowerShell scripts on co-managed Windows 10 devices. After you transition this workload, any available apps deployed from Intune are available in the Company Portal. Apps that you deploy from Configuration Manager are available in Software Center.|
 
 > [!NOTE]
-> The supported workloads are updated after each new release of System Center Configuration Manager, check the official documentations on [Co-management workloads](https://docs.microsoft.com/en-us/sccm/comanage/workloads) for updates.
+> The supported workloads are updated after each new release of System Center Configuration Manager, check the official documentations on [Co-management workloads](https://docs.microsoft.com/sccm/comanage/workloads) for updates.
 
 ### Diagram for app workloads
 
@@ -34,9 +34,9 @@ There are two main paths to reach to co-management:
 
 With co-management, you can keep your well-established processes for using Configuration Manager to manage PCs in your organization. At the same time, you're investing in the cloud through use of Intune for security and modern provisioning.
 
-To set up co-management of your Windows 10 devices that are already enrolled in Configuration Manager, complete the steps outlined in [Tutorial: Enable co-management for existing Configuration Manager clients](https://docs.microsoft.com/en-us/sccm/comanage/tutorial-co-manage-clients).
+To set up co-management of your Windows 10 devices that are already enrolled in Configuration Manager, complete the steps outlined in [Tutorial: Enable co-management for existing Configuration Manager clients](https://docs.microsoft.com/sccm/comanage/tutorial-co-manage-clients).
 
 ## Bootstrap with modern provisioning
 
-To set up co-management of Windows 10 devices in an environment where you use both Azure Active Directory (AD) and an on-premises AD but don't have a hybrid Azure Active Directory (AD), complete the steps outlined in [Tutorial: Enable co-management for new internet-based devices](https://docs.microsoft.com/en-us/sccm/comanage/tutorial-co-manage-new-devices).
+To set up co-management of Windows 10 devices in an environment where you use both Azure Active Directory (AD) and an on-premises AD but don't have a hybrid Azure Active Directory (AD), complete the steps outlined in [Tutorial: Enable co-management for new internet-based devices](https://docs.microsoft.com/sccm/comanage/tutorial-co-manage-new-devices).
 
