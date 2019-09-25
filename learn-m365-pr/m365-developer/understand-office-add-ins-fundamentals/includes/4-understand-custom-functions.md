@@ -13,7 +13,7 @@ Like other types of Office Add-ins, a custom function add-in has two main compon
 
 ### Manifest
 
-To configure an add-in to be a custom function, the key settings in the manifest are:
+To configure an add-in as a custom function, the key settings in the manifest are:
 
 - `Host` is "Workbook"
 - `ExtensionPoint` is "CustomFunctions"
