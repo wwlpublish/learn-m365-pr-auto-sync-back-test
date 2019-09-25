@@ -3,7 +3,7 @@ uid: learn-m365.service-adoption-start
 metadata:
   title: Service Adoption framework - Phase 1, Start
   description: In the first phase of the service adoption framework, Start, you gather organizational objectives and build out your strategy and deployment plan.
-  ms.date: 09/06/2019
+  ms.date: 09/18/2019
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
@@ -25,10 +25,9 @@ roles:
 products:
 - m365
 units:
-- learn-m365.service-adoption-start.introduction
 - learn-m365.service-adoption-start.key-roles
 - learn-m365.service-adoption-start.cloud-advantage
 - learn-m365.service-adoption-start.organizational-readiness
 - learn-m365.service-adoption-start.summary
 badge: 
-  uid: learn-m365.service-adoption-start.badges
+  uid: learn-m365.service-adoption-start.badge
