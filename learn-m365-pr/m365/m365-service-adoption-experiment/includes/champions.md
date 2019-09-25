@@ -1,5 +1,3 @@
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3HdXO]
-
 >![Champions program](../media/champions.png)
 
 Champions are an invaluable resource to drive change and ensure you have meaningful feedback from your employees.  They are an extension of your improvement team, provide peer-to-peer learning, feedback, and enthusiasm to your change project.  
