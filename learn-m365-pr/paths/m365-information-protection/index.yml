@@ -4,7 +4,7 @@ metadata:
   title: Microsoft 365 security information protection
   description: Protecting and securing your organization's information is more challenging than ever. The Microsoft 365 Security Information Protection learning path discusses how to protect your sensitive information from accidental oversharing or misuse, how to discover and classify data, how to protect it with sensitivity labels, and how to both monitor and analyze your sensitive information to protect against its loss.
 
-  ms.date: 09/24/2019
+  ms.date: 09/25/2019
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
@@ -23,6 +23,7 @@ products:
 - m365
 modules:
 - learn-m365.m365-security-info-overview
+- learn-m365.m365-security-classify-data
 
 trophy: 
   uid: learn-m365.m365-information-protection.trophy
