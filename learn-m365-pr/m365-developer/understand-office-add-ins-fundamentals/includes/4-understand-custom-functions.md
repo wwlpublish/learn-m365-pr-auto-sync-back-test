@@ -13,7 +13,7 @@ Like other types of Office Add-ins, a custom function add-in has two main compon
 
 ### Manifest
 
-To configure an add-in as a custom function, the key settings in the manifest are:
+To configure an add-in as a custom function, the key areas in the manifest are:
 
 ```xml
 <OfficeApp
@@ -51,6 +51,6 @@ You define the custom function code in a .js or .ts file. The .html file is prim
 
 Custom functions are available in Excel on the following platforms.
 
-- Windows (version 1904 or later, connected to an Office 365 subscription)
-- Mac (version 16.24 or later, connected to an Office 365 subscription)
+- Windows (connected to an Office 365 subscription)
+- Mac (connected to an Office 365 subscription)
 - web browser

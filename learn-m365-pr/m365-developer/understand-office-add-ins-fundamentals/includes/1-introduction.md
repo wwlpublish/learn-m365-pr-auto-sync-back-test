@@ -29,9 +29,9 @@ Office Add-ins run in various Office applications on certain clients. Add-ins al
 
 |Office application|Supported clients|Available add-in types|
 |---|---|---|
-|Excel|Windows, Mac, iPad, web browser|task pane, content, custom functions|
+|Excel|Windows, Mac, iPad, web browser|task pane, content, custom functions (excluding iPad)|
 |OneNote|web browser|task pane|
-|Outlook|Windows, Mac, iOS, Android, web browser|task pane, contextual, UI-less functions|
+|Outlook|Windows, Mac, iOS, Android, web browser|task pane, contextual, UI-less functions, module (Windows only)|
 |PowerPoint|Windows, Mac, iPad, web browser|task pane, content|
 |Project|Windows|task pane|
 |Word|Windows, Mac, iPad, web browser|task pane|
