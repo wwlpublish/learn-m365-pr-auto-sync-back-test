@@ -4,7 +4,7 @@ The Office Add-ins platform enables you to extend the functionality of Office ap
 
 An Office Add-in can enrich the user's experience within an Office application. Add-ins allow you to provide:
 
-- Additional functionality in Office: You can incorporate external data, expose non-Microsoft functionality, and more. 
+- Additional functionality in Office: You can incorporate external data, expose non-Microsoft functionality, and more.
 - Embedded rich, interactive objects: Through your add-in, users can embed maps, charts, and interactive visualizations into their Excel spreadsheets and PowerPoint presentations.
 
 Each add-in has two main components:
@@ -12,7 +12,7 @@ Each add-in has two main components:
 - Manifest (XML) for configuration
 - Webpage (HTML, JavaScript) for functionality
 
-Like any other web application, the add-in should be hosted on a web server (your own or through a service like Microsoft Azure). After a user installs the add-in, the Office application reads the manifest to hook up any custom buttons in the UI. When the add-in is activated, the web code is loaded and runs in a sandboxed browser context.
+Like any other web application, the add-in should be hosted on a web server (your own or through a service like Microsoft Azure). After a user installs the add-in, the Office application reads the manifest to hook up any custom buttons in the UI. When the add-in is activated, the web code is loaded and runs sandboxed in the browser-based runtime.
 
 ## Why Office Add-ins?
 
