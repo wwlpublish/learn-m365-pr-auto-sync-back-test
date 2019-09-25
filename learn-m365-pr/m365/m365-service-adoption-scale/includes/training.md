@@ -2,7 +2,7 @@
 
 Marketing and communications capabilities will enable your employees to be aware of the new services you are delivering and know how to get assistance with using them to their best benefit. Using the methods of omni-directional marketing you will land these core messages in places your employees already are. This includes email announcements, intranet articles, staff meetings, executive events, and other communications methods. 
 
-Your awareness campaign should design key messages by audience. It is important to discuss the change from the perspective of the employee not the IT or change management professional. You will use your simplified pain point research to craft these messages. Using the Microsoft Teams Customer Success Kit, or kits for other services, you can accelerate this messaging by editing the provided templates for use in your company and with your branding. 
+Your awareness campaign should design key messages by audience. It is important to discuss the change from the perspective of the employee not the IT or change management professional. You will use your simplified pain point research to craft these messages. Using the [Microsoft Teams Customer Success Kit](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip), or kits for other services, you can accelerate this messaging by editing the provided templates for use in your company and with your branding. 
 
 The four elements of an awareness and engagement plan are:
 
