@@ -24,6 +24,7 @@ products:
 modules:
 - learn-m365.m365-security-info-overview
 - learn-m365.m365-security-classify-data
+- learn-m365.m365-security-sensitivity-labels
 
 trophy: 
   uid: learn-m365.m365-information-protection.trophy
