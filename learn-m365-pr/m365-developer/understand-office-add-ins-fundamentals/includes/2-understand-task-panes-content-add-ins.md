@@ -15,11 +15,11 @@ In newer versions of Word, Excel, and PowerPoint, you can also configure the tas
 
 ### Key configuration
 
-To configure an add-in to be a task pane add-in, the key setting in the manifest is the following for all Office applications except Outlook.
+To configure an add-in as a task pane add-in, the key setting in the manifest is the following for all Office applications except Outlook.
 
 - `OfficeApp` type is "TaskPaneApp"
 
-For Outlook, the key settings are:
+For Outlook, the key setting is:
 
 - `OfficeApp` type is "MailApp"
 
@@ -33,6 +33,6 @@ Content add-ins allow the user to insert or embed an object into their Excel spr
 
 ### Key configuration
 
-To configure an add-in to be a content add-in, the key setting in the manifest is:
+To configure an add-in as a content add-in, the key setting in the manifest is:
 
 - `OfficeApp` type is "ContentApp"
