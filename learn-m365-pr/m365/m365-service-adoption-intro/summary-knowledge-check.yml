@@ -51,13 +51,13 @@ quiz:
         explanation: "Yes, this is the definition of 'healthy service usage.'"
       - content: "Employees correctly using technology based on your training."
         isCorrect: false
-        explanation: "No, 'healthy service usage' is an employee's abilitiy to use a service to deliver a business outcome."
+        explanation: "No, 'healthy service usage' is an employee's ability to use a service to deliver a business outcome."
       - content: "Employees having secure technology available."
         isCorrect: false
-        explanation: "No, 'healthy service usage' is an employee's abilitiy to use a service to deliver a business outcome."
+        explanation: "No, 'healthy service usage' is an employee's ability to use a service to deliver a business outcome."
       - content: "Employees not sharing data in consumer."
         isCorrect: false
-        explanation: "No, 'healthy service usage' is an employee's abilitiy to use a service to deliver a business outcome."
+        explanation: "No, 'healthy service usage' is an employee's ability to use a service to deliver a business outcome."
     - content: "Service adoption is defined as which of the following?"
       choices:
       - content: "The ability to deploy new technology quickly."
