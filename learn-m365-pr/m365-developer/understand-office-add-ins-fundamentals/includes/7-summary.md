@@ -10,6 +10,7 @@ In this module, you learned about the fundamental concepts and aspects of Office
 ## Resources
 
 - [Office Add-ins documentation](/office/dev/add-ins)
+- [Office Add-ins availability](/office/dev/add-ins/overview/office-add-in-availability)
 - [Design elements](/office/dev/add-ins/design/interface-elements)
 - [Dialog API](/office/dev/add-ins/develop/dialog-api-in-office-add-ins)
 - [Custom functions](/office/dev/add-ins/excel/custom-functions-overview)

@@ -17,11 +17,23 @@ In newer versions of Word, Excel, and PowerPoint, you can also configure the tas
 
 To configure an add-in as a task pane add-in, the key setting in the manifest is the following for all Office applications except Outlook.
 
-- `OfficeApp` type is "TaskPaneApp"
+```xml
+<OfficeApp
+  ...
+  xsi:type="TaskPaneApp">
+   ...
+</OfficeApp>
+```
 
 For Outlook, the key setting is:
 
-- `OfficeApp` type is "MailApp"
+```xml
+<OfficeApp
+  ...
+  xsi:type="MailApp">
+   ...
+</OfficeApp>
+```
 
 ## Content add-ins
 
@@ -35,4 +47,10 @@ Content add-ins allow the user to insert or embed an object into their Excel spr
 
 To configure an add-in as a content add-in, the key setting in the manifest is:
 
-- `OfficeApp` type is "ContentApp"
+```xml
+<OfficeApp
+  ...
+  xsi:type="ContentApp">
+   ...
+</OfficeApp>
+```

@@ -15,12 +15,37 @@ Like other types of Office Add-ins, a custom function add-in has two main compon
 
 To configure an add-in as a custom function, the key settings in the manifest are:
 
-- `Host` is "Workbook"
-- `ExtensionPoint` is "CustomFunctions"
+```xml
+<OfficeApp
+  ...
+  xsi:type="TaskPaneApp">
+   ...
+  <Hosts>
+    <Host Name="Workbook"/>
+  </Hosts>
+   ...
+  <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
+    <Hosts>
+      <Host xsi:type="Workbook">
+        <AllFormFactors>
+          <ExtensionPoint xsi:type="CustomFunctions">
+            ...
+          </ExtensionPoint>
+        </AllFormFactors>
+      </Host>
+    </Hosts>
+   ...
+  </VersionOverrides>
+</OfficeApp>
+```
 
 ### Webpage
 
-The .html file is primarily to load the custom functions runtime as there's no add-in UI to render. You define the custom function code in the .js or .ts file.
+You define the custom function code in a .js or .ts file. The .html file is primarily to load the custom functions runtime as there's no add-in UI to render.
+
+```html
+<script src="https://appsforoffice.microsoft.com/lib/1/hosted/custom-functions-runtime.js" type="text/javascript"></script>
+```
 
 ## Where can you use custom functions?
 
