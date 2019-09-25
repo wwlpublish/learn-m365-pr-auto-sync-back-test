@@ -1,4 +1,4 @@
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3Fq2a]
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3HdXO]
 
 >![Champions program](../media/champions.png)
 
@@ -16,7 +16,6 @@ Use the following checklist to create a champions program:
 8. Create a contest (like a scavenger hunt or giveaway) between departments to encourage people to interact with Microsoft Teams.
 9. Encourage internal champions to sign up for the public [Office 365 Modern Workplace Teamwork Champion program](https://aka.ms/O365Champions) to continue to build their skills.
 
-### Activity 
-As a potential service adoption specialist you have an opportunity to learn from others and contribute to a large community of professionals who are also doing this work. First, register, and join the online forum for [Driving Adoption at the Microsoft Technical Community](https://aka.ms/DriveAdoption). Then, join the [Office 365 Teamwork Champions program](https://aka.ms/O365Champions), which provides free continuing education through monthly calls and online resources. Ensure the leaders of your internal champion program are also signed up for these resources. You can reuse many of the monthly topics and information as a part of your own champion monthly meetings.
-
-Session: Scenarios based guidance to overcome user adoption hurdles for Office 365 and SharePoint - THR2136 - https://youtu.be/oMsAEdhx3y0
+|![Activity icon](../media/activity.png) Activity|
+|-| 
+|As a potential service adoption specialist you have an opportunity to learn from others and contribute to a large community of professionals who are also doing this work. First, register, and join the online forum for [Driving Adoption at the Microsoft Technical Community](https://aka.ms/DriveAdoption). Then, join the [Office 365 Teamwork Champions program](https://aka.ms/O365Champions), which provides free continuing education through monthly calls and online resources. Ensure the leaders of your internal champion program are also signed up for these resources. You can reuse many of the monthly topics and information as a part of your own champion monthly meetings.|
