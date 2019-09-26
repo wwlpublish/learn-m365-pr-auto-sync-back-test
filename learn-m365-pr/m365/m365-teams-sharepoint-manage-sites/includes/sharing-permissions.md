@@ -49,5 +49,5 @@ When you're done with a link, use the **Back** arrow in your browser to come bac
 
 - [Control access from unmanaged devices](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices)
 - [Control access to SharePoint and OneDrive data based on network location](https://docs.microsoft.com/sharepoint/control-access-based-on-network-location)
-- [SharePoint authentication](https://docs.microsoft.com/sharepoint/authentication)
 - [Sign out inactive users](https://docs.microsoft.com/sharepoint/sign-out-inactive-users)
+- [Sharing and permissions in the SharePoint modern experience](https://docs.microsoft.com/sharepoint/modern-experience-sharing-permissions)
