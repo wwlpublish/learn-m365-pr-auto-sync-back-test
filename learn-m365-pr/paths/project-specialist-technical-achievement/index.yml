@@ -1,0 +1,38 @@
+### YamlMime:LearningPath
+uid: learn.wwl.project-specialist-technical-achievement
+metadata:
+  title: Prepare to Complete the Project Specialist Technical Achievement
+  description: Prepare to Complete the Project Specialist Technical Achievement
+  ms.date: 09/27/2019
+  author: wwlpublish
+  ms.author: Cecilia.PerezBenitoa
+  ms.topic: interactive-tutorial
+  ms.prod: learning-wwl
+title: Prepare to Complete the Project Specialist Technical Achievement
+prerequisites: |
+  A general understanding of Microsoft 365.
+summary: |
+  This learning path, which provides introductory level information on Teams, Power Platform, Security, and Compliance, will provide learners with knowledge on adjacent technologies that can come into play when positioning secure, integrated work management solutions.
+iconUrl: /learn/achievements/project-specialist-technical-achievement.svg
+levels:
+- beginner
+roles:
+- business-user
+products:
+- flow
+- m365
+- power-platform
+- powerapps
+modules:
+- learn-m365.intro-teamwork-in-m365
+- learn-wwl.facilitate-teamwork-with-microsoft-365
+- learn-wwl.modern-communications-in-microsoft-teams
+- learn-bizapps.get-data-power-bi
+- learn-bizapps.flow-get-started
+- learn-bizapps.powerapps-get-started
+- learn-m365.security-m365
+- learn-m365.meet-compliance-with-m365
+- learn-wwl.compliance-with-microsoft-365
+- learn-wwl.microsoft-runs-on-trust
+trophy:
+  uid: learn.wwl.project-specialist-technical-achievement.trophy
