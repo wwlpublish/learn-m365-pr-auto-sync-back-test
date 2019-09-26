@@ -1,5 +1,35 @@
 Custom functions have several unique capabilities and restrictions because they run in a separate runtime from the task pane and other types of Office Add-ins.
 
+## Custom function capabilities
+
+You can create custom JavaScript or TypeScript functions that can be accessed like built-in Excel functions such as `SUM()`. Your functions can be as simple or as complex as you need them to be.
+
+### Custom function JavaScript example
+
+The following code defines the custom function `add` that accepts two numbers then returns their sum.
+
+```js
+/**
+ * Adds two numbers.
+ * @customfunction 
+ * @param first First number.
+ * @param second Second number.
+ * @returns The sum of the two numbers.
+ */
+
+function add(first, second){
+  return first + second;
+}
+```
+
+#### Code comment tags breakdown
+
+The tags in the code comments are used to generate a JSON metadata file that describes the custom function to Excel. Several of the available tags are discussed next.
+
+- `@customfunction`: Is declared first and indicates it's a custom function. Required.
+- `@param`: Describes the parameter. Include for each parameter defined by the function.
+- `@returns`: Describes what the function outputs.
+
 ## Custom function runtime restrictions
 
 The custom function runtime only runs JavaScript or TypeScript. There's no document object model (DOM) or local storage, as you would find in a browser-based JavaScript runtime environment so you can only run the function code. You can't access the Office.js API to interact with the document (like you can from a task pane). You can't load any libraries that use the DOM (such as jQuery). If you want to store data, you need to use the storage API described later.
