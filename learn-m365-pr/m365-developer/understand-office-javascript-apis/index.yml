@@ -2,7 +2,7 @@
 uid: learn-m365-pr.understand-office-javascript-apis
 metadata:
   title: Understand Office Javascript APIs
-  description: In this module, you will learn about the Office JavaScript APIs.
+  description: In this module, you'll learn about the Office JavaScript APIs.
   ms.date: 10/01/2019
   author: ElizabethSamuel-MSFT
   ms.author: elizs
@@ -11,11 +11,14 @@ metadata:
 title: Understand Office Javascript APIs
 summary: ...
 abstract: ...
-prerequisites: ...
+prerequisites: None
 iconUrl: https://docs.microsoft.com/media/learn/module.svg
-levels: [beginner]
-roles: [developer]
-products: [office-add-ins]
+levels:
+  - beginner
+roles:
+  - developer
+products:
+  - office-add-ins
 units:
 - learn-m365-pr.understand-office-javascript-apis.1-introduction
 - learn-m365-pr.understand-office-javascript-apis.2-understand-office-add-ins-programming-model
