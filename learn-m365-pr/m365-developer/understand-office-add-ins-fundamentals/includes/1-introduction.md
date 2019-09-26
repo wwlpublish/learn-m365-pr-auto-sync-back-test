@@ -12,7 +12,7 @@ Each add-in has two main components:
 - Manifest (XML) for configuration
 - Webpage (HTML, JavaScript) for functionality
 
-Like any other web application, the add-in should be hosted on a web server (your own or through a service like Microsoft Azure). After a user installs the add-in, the Office application reads the manifest to hook up any custom buttons in the UI. When the add-in is activated, the web code is loaded and runs sandboxed in the browser-based runtime.
+Like any other web application, the add-in should be hosted on a web server (your own or through a service like Microsoft Azure). After a user installs the add-in, the Office application reads the manifest to hook up any custom buttons in the UI. When the add-in is activated, the web code is loaded and runs in a sandboxed context.
 
 ## Why Office Add-ins?
 
