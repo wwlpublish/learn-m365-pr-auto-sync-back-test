@@ -48,7 +48,7 @@ To configure an add-in as a custom function, the key areas in the manifest are:
 The webpage HTML loads the custom functions runtime, which then runs your custom functions written in JavaScript or TypeScript. The custom functions runtime doesn't have a UI, so there's nothing for the webpage to display.
 
 ```html
-<script src="https://appsforoffice.microsoft.com/lib/1/hosted/custom-functions-runtime.js" type="text/javascript"></script>
+<script src="https://appsforoffice.microsoft.com/lib/1.1/hosted/custom-functions-runtime.js" type="text/javascript"></script>
 ```
 
 Typically custom functions are combined with a task pane in the same add-in. So often you should include a second webpage in your project that loads the task pane to handle user interaction in Excel.
