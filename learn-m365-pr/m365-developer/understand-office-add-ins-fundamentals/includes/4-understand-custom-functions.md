@@ -6,10 +6,14 @@ Office Add-ins enable you to create custom JavaScript or TypeScript functions th
 
 ## Components of a custom function
 
-Like task panes and other types of Office Add-ins, a custom function add-in has two main components:
+Like task panes and other types of Office Add-ins, a custom function add-in has the following components.
 
 - Manifest (XML) for configuration
 - Webpage (HTML, JavaScript) for functionality
+
+In addition, you need:
+
+- Metadata description file (JSON)
 
 ### Manifest
 
@@ -48,6 +52,21 @@ The webpage HTML loads the custom functions runtime, which then runs your custom
 ```
 
 Typically custom functions are combined with a task pane in the same add-in. So often you should include a second webpage in your project that loads the task pane to handle user interaction in Excel.
+
+### Metadata description file
+
+The metadata JSON file describes the custom function to Excel and is generated from the tags in your custom function's documentation comment block. For example, in the following sample function, the `@customfunction` tag will be included in the metadata file so that Excel recognizes it as a custom function.
+
+```js
+/**
+ * Returns the volume of a sphere.
+ * @customfunction
+ * @param {number} radius
+ */
+function sphereVolume(radius) {
+  return Math.pow(radius, 3) * 4 * Math.PI / 3;
+}
+```
 
 ## Where can you use custom functions?
 
