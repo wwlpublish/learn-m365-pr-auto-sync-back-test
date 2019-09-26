@@ -20,4 +20,4 @@ In the manifest, you declare key information about the add-in, including:
 |Reads the manifest|Why?|
 |---|---|
 |AppSource|Displays add-in info to potential customers and validates add-in runs on expected platforms.|
-|Office application|Displays any add-in UI and custom buttons or menus.|
+|Office application|Displays any add-in UI and hooks up custom buttons or menus.|
