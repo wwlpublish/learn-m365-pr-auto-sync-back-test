@@ -55,7 +55,7 @@ Typically custom functions are combined with a task pane in the same add-in. So 
 
 ### Metadata description file
 
-The metadata JSON file describes the custom function to Excel and is generated from the tags in your custom function's documentation comment block. For example, in the following sample function, the `@customfunction` tag will be included in the metadata file so that Excel recognizes it as a custom function.
+The metadata JSON file describes the custom function to Excel and is generated from the tags in your custom function's documentation comment block. For example, in the following sample function, the `@customfunction` tag will add the custom function to the metadata file. It will include the description and @param information so that Excel can present it to the user as a custom function.
 
 ```js
 /**
