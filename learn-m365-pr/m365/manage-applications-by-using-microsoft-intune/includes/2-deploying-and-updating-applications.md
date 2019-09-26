@@ -1,4 +1,4 @@
-﻿As an IT administrator, you can use Microsoft Intune to manage the client apps that your company's workforce uses. This functionality is in addition to managing devices and protecting data. One of an administrator’s priorities is to ensure that end users have access to the apps they need to do their work. This goal can be a challenge because:
+As an IT administrator, you can use Microsoft Intune to manage the client apps that your company's workforce uses. This functionality is in addition to managing devices and protecting data. One of an administrator’s priorities is to ensure that end users have access to the apps they need to do their work. This goal can be a challenge because:
 
 - There are a wide range of device platforms and app types.
 
@@ -12,11 +12,11 @@ Any app that has been integrated with the Intune App SDK or wrapped by the Intun
 
 The baseline requirements to use app protection policies on an Intune-manage app include:
 
-- The end user must have an Azure Active Directory (AAD) account.
+- The end user must have an Azure Active Directory (Azure AD) account.
 
 - The end user must have a license for Microsoft Intune assigned to their Azure Active Directory account.
 
 - The end user must belong to a security group that is targeted by an app protection policy. The same app protection policy must target the specific app being used. App protection policies can be created and deployed in the Intune console in the Azure portal. Security groups can currently be created in the Microsoft 365 admin center.
 
-- The end user must sign into the app using their AAD account.
+- The end user must sign into the app using their Azure AD account.
 

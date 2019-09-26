@@ -4,12 +4,12 @@ title: Deploying and updating applications
 metadata:
   title: Deploying and updating applications
   description: Learn about the requirements for application protection policies.
-  ms.date: 9/10/2019
-  author: bneeb@microsoft.com
-  ms.author: bneeb
+  ms.date: 09/10/2019
+  author: Bneeb@microsoft.com
+  ms.author: Bneeb
   ms.topic: interactive-tutorial
-  ms.prod: choose an item.
-  ROBOTS:   NOINDEX 
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX 
 durationInMinutes: 3
 content: |
   [!include[](includes/2-deploying-and-updating-applications.md)] 

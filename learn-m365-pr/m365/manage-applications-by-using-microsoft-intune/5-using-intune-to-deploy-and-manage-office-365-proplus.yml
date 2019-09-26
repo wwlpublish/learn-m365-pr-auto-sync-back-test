@@ -4,12 +4,12 @@ title: Using Intune to deploy and manage Office 365 ProPlus
 metadata:
   title: Using Intune to deploy and manage Office 365 ProPlus
   description: Learn about the process to deploy and manage Office 365 ProPlus with Microsoft Intune.
-  ms.date: 9/10/2019
-  author: bneeb@microsoft.com
-  ms.author: bneeb
+  ms.date: 09/10/2019
+  author: Bneeb@microsoft.com
+  ms.author: Bneeb
   ms.topic: interactive-tutorial
-  ms.prod: choose an item.
-  ROBOTS:   NOINDEX 
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX 
 durationInMinutes: 5
 content: |
   [!include[](includes/5-using-intune-to-deploy-and-manage-office-365-proplus.md)] 

@@ -4,12 +4,12 @@ title: Understanding the Microsoft Intune application lifecycle
 metadata:
   title: Understanding the Microsoft Intune application lifecycle
   description: Learn about the phases of the application lifecycle for Microsoft Intune.
-  ms.date: 9/10/2019
-  author: bneeb@microsoft.com
-  ms.author: bneeb
+  ms.date: 09/10/2019
+  author: Bneeb@microsoft.com
+  ms.author: Bneeb
   ms.topic: interactive-tutorial
-  ms.prod: choose an item.
-  ROBOTS:   NOINDEX 
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX 
 durationInMinutes: 4
 content: |
   [!include[](includes/3-understanding-the-microsoft-intune-application-lifecycle.md)] 

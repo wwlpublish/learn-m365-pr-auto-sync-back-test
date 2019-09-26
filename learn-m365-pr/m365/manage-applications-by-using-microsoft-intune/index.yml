@@ -3,11 +3,11 @@ uid: learn-wwl.manage-applications-by-using-microsoft-intune
 metadata:
   title: Manage applications by using Microsoft Intune
   description: In this module, we will learn about considerations for implementing Mobile Application Management (MAM) and manage MAM policies in Intune.
-  ms.date: 9/10/2019
-  author: bneeb@microsoft.com
-  ms.author: bneeb
+  ms.date: 09/10/2019
+  author: Bneeb@microsoft.com
+  ms.author: Bneeb
   ms.topic: interactive-tutorial
-  ms.prod: choose an item.
+  ms.prod: learning-m365
 title: Manage applications by using Microsoft Intune
 summary: Managing applications on devices in your organization is key to a secure and productive application ecosystem.  Microsoft Intune is a cloud-based service that helps enable your workforce to be productive anywhere and, on any device; while keeping your corporate data protected.  In this module, we will learn about considerations for implementing Mobile Application Management (MAM) and manage MAM policies in Intune.
 abstract: |

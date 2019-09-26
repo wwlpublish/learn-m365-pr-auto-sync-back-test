@@ -4,12 +4,12 @@ title: Managing apps on non-enrolled devices
 metadata:
   title: Managing apps on non-enrolled devices
   description: Learn about how to manage non-enrolled devices with Microsoft Intune.
-  ms.date: 9/10/2019
-  author: bneeb@microsoft.com
-  ms.author: bneeb
+  ms.date: 09/10/2019
+  author: Bneeb@microsoft.com
+  ms.author: Bneeb
   ms.topic: interactive-tutorial
-  ms.prod: choose an item.
-  ROBOTS:   NOINDEX 
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX 
 durationInMinutes: 4
 content: |
   [!include[](includes/6-managing-apps-on-non-enrolled-devices.md)] 
