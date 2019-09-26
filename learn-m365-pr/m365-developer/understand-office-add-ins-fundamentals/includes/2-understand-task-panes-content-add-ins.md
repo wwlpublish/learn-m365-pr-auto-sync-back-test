@@ -11,7 +11,7 @@ Task pane add-ins allow user interaction through a UI panel displayed within an 
 
 *Task pane add-in*
 
-In newer versions of Word, Excel, and PowerPoint, you can also configure the task pane to be displayed automatically when a user opens a document. The user will need to have your add-in installed first to activate this behavior.
+In newer versions of Word, Excel, and PowerPoint, you can also configure the task pane to be displayed automatically when a user opens a file. The user will need to have your add-in installed first to activate this behavior.
 
 ### Key configuration
 
