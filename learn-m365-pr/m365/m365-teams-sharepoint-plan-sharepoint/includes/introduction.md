@@ -24,7 +24,7 @@ Communication sites are designed to broadcast information to other teams or to a
 - Showcase:  Use photos or images to showcase a product, team, or event
 - Blank:  Create your own design
 
-Any of the templates can be customized by adding SharePoint web parts—dynamic page elements that display text, images, files, video, and a variety of other content types. See the module **Collaborate with files and folders in SharePoint** for more information about communication sites.
+Any of the templates can be customized by adding SharePoint web parts—dynamic page elements that display text, images, files, video, and a variety of other content types. See the module **Understand your SharePoint site options** for more information about communication sites.
 
 ### Hub sites
 
@@ -34,7 +34,7 @@ SharePoint hub sites are used to organize families of team sites and communicati
 - Apply common navigation, branding, and site structure across associated sites.
 - Search across all associated sites.
 
-See the module **Plan your SharePoint site architecture** for more information about hub sites.
+See the module **Understand your SharePoint site options** for more information about hub sites.
 
 ## Information protection
 
@@ -44,4 +44,4 @@ Microsoft 365 services such as Data Loss Protection, Cloud App Security, and Adv
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [File collaboration in SharePoint with Microsoft 365](https://docs.microsoft.com/sharepoint/deploy-file-collaboration)
+- [Introduction to SharePoint Online](https://docs.microsoft.com/sharepoint/introduction)

@@ -4,7 +4,7 @@ With Office and SharePoint, multiple people can work together on a Word document
 
 Coauthoring is easy to use from the end user's point of view. When a user wants to work on a document in Word, PowerPoint, OneNote, or Visio apps or on the web, they merely open it from SharePoint and start working. If another user already has the document open, both users can edit the document at the same time.
 
-When users are editing a file in Office, they might see a notification that others are working in the file too. Users edit as they normally would, and if others are also editing the document, Office alerts them to their presence, and shows them where in the file they’re working.
+When users are editing a file in Office, they might see a notification that others are working in the file too. Users edit as they normally would, and if others are also editing the document, Office alerts them to their presence, and shows them where in the file they are working.
 
 ![Co-authoring notification](../media/co-authoring-notification.png)
 

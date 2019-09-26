@@ -17,11 +17,12 @@ abstract: |
   - Describe the role of the SharePoint administrator
   - Describe how to plan your collaboration environment
 
-prerequisites: None
+prerequisites: | 
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
 iconUrl: http://via.placeholder.com/120x120
 ratingEnabled: true
 levels:
-- beginner
+- intermediate
 roles:
 - administrator
 products:

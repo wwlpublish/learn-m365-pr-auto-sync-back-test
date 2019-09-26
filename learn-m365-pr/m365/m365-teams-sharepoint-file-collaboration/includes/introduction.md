@@ -1,4 +1,4 @@
-With Microsoft 365 services, you can create a secure and productive file collaboration environment for your users. SharePoint powers much of this, but the capabilities of file collaboration in Microsoft 365 extend to Office 365 Groups, Microsoft Teams, and a variety of governance and security options as well.
+With Microsoft 365 services, you can create a secure and productive file collaboration environment for your users. While SharePoint contains the actual files, the capabilities of file collaboration in Microsoft 365 extend to Office 365 Groups, Microsoft Teams, and a variety of governance and security options as well.
 
 Administrators have many options and decisions to consider when setting up a collaboration environment, including:
 

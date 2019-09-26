@@ -18,6 +18,7 @@ Some of the key tasks SharePoint administrators can do include:
 
 - Turning external sharing on or off for SharePoint and individual sites.
 - Adding and removing site administrators.
+- Registering hub sites.
 - Viewing reports to monitor file and user activity (admin center only).
 
 ## Learn more
