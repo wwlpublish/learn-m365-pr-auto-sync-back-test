@@ -1,4 +1,4 @@
-!Video 1](../media/icon1.png)
+![Video 1](../media/icon1.png)
 
 Microsoft Office applications are available for Windows, MacOS, mobile platforms, and the web. In this learning path we’ll focus on Office desktop apps for Windows and what you can do to prepare, upgrade and manage the Office suite on your systems. After completing this learning path, you should know the tools and best practices to move from an older version of Office to a current release, as well as what you can do to stay current as updates are released.
 
