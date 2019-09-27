@@ -15,9 +15,9 @@ To understand the Word APIs, you must see how the main components of a document 
 
 ## Key features
 
-### Key feature 1
+### Document assembly
 
-### Key feature 2
+### Templates and placeholders
 
 ### Search
 
