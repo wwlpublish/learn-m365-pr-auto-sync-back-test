@@ -4,8 +4,8 @@ metadata:
   title: Deploy Windows Update in Microsoft 365
   description: In this module, you will learn about the methods for deploying Windows updates to Windows 10 devices. We will discuss use of Windows Server Update Services, Group Policy, and Windows Update for Business.
   ms.date: 09/05/2019
-  author: Bneeb@microsoft.com
-  ms.author: Bneeb
+  author: bneeb
+  ms.author: bneeb
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Deploy Windows Update in Microsoft 365
@@ -25,11 +25,11 @@ roles:
 products:
 - m365
 units:
-- learn-wwl.deploy-windows-update-in-microsoft-365.1-methods-for-applying-updates-to-windows-10
-- learn-wwl.deploy-windows-update-in-microsoft-365.2-configuring-windows-update-for-windows-10-devices
-- learn-wwl.deploy-windows-update-in-microsoft-365.3-deploying-windows-update-with-windows-server-update-services
-- learn-wwl.deploy-windows-update-in-microsoft-365.4-using-group-policy-to-configure-windows-update
-- learn-wwl.deploy-windows-update-in-microsoft-365.5-understanding-windows-update-for-business
+- learn-wwl.deploy-windows-update-in-microsoft-365.1-methods-applying-updates-windows-10
+- learn-wwl.deploy-windows-update-in-microsoft-365.2-configuring-windows-update-windows-10-devices
+- learn-wwl.deploy-windows-update-in-microsoft-365.3-deploying-windows-update-windows-server-update-services
+- learn-wwl.deploy-windows-update-in-microsoft-365.4-using-group-policy-configure-windows-update
+- learn-wwl.deploy-windows-update-in-microsoft-365.5-understanding-windows-update-business
 - learn-wwl.deploy-windows-update-in-microsoft-365.6-summary-and-knowledge-check
 badge: 
   uid: learn-wwl.deploy-windows-update-in-microsoft-365.badge

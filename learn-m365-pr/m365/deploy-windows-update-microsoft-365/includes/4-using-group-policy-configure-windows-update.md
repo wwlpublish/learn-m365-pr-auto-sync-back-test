@@ -2,15 +2,15 @@ To configure each individual computer with specific Windows Update settings woul
 
 Three nodes in Group Policy contain Windows Update settings that are relevant for Windows 10 devices. The first of these nodes is the Windows Update node. Open the Group Policy Management Editor on a domain controller, and then navigate to **Computer Configuration/Administrative Templates/Windows Components/Windows Update**.
 
-![screen shot of Group Policy editor.](../media/desktop2-grouppolicy.png)
+![screenshot of Group Policy editor.](../media/desktop2-grouppolicy.png)
 
 In addition to the Windows Update node, you also can configure update settings in **Computer Configuration/Administrative Templates/Windows Components/Data Collection and Preview Builds** as shown in the image below.
 
-![screen shot of Data Collection and Preview Builds node in Group Policy editor.](../media/desktop2-datacollectionupdate.png)
+![screenshot of Data Collection and Preview Builds node in Group Policy editor.](../media/desktop2-datacollectionupdate.png)
 
 The final node in Group Policy that contains Windows Updates settings is the Delivery Optimization node. The **Computer Configuration/Administrative Templates/Windows Components/Delivery Optimization** node contains the following settings.
 
-![Screen shot of Delivery Optimization node of Group Policy.](../media/desktop2-deliveryoptimization.png)
+![Screenshot of Delivery Optimization node of Group Policy.](../media/desktop2-deliveryoptimization.png)
 
 These are the three nodes for adjusting Windows Update with Group Policy.
 
