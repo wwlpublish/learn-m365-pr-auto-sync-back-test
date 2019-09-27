@@ -1,0 +1,25 @@
+### YamlMime:LearningPath
+uid: learn-m365.m365-office-it
+metadata:
+  title: Microsoft Office Upgrades for IT
+  description: Learn how to upgrade Office for your IT department.
+  ms.date: 09/28/2019
+  author: TheJasonAndrew
+  ms.author: v-jasoan
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+title: Microsoft Office Upgrades for IT
+summary: Learn how to upgrade Office for your IT department. 
+ - Basic understanding of cloud computing. If you are unfamiliar with this, we recommend you take [Cloud Concepts - Principles of cloud computing](https://docs.microsoft.com/learn/modules/principles-cloud-computing/index)
+iconUrl: http://via.placeholder.com/120x120
+levels: 
+- beginner
+roles:
+- administrator
+products: 
+- m365
+modules:
+- learn-m365.m365-office-it-overview
+trophy: 
+  uid: learn-m365.m365-office-it.trophy
