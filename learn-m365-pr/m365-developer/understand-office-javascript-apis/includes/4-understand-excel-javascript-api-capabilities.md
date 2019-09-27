@@ -96,4 +96,4 @@ var productBarChart = sheet.charts.add(Excel.ChartType.columnStacked, sheet.getR
 
 ## Get started developing Excel add-ins
 
-Use the yo office generator to start developing an Excel add-in. If you want to explore the APIs more, we recommend Script Lab for Excel. There, you'll see numerous samples and be able to experiment with Excel workbooks without creating an entire add-in.
+Use the yeoman generator to start developing an Excel add-in. If you want to explore the APIs more, we recommend Script Lab for Excel. There, you'll see numerous samples and be able to experiment with Excel workbooks without creating an entire add-in.
