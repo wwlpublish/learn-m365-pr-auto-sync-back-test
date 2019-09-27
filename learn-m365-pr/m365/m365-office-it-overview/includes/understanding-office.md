@@ -3,9 +3,7 @@
 This material follows the steps to Prepare > Upgrade > Manage your Microsoft Office environment running on the Windows platform.
 
  
-![Prepare]
-
-(../media/icon2.png) 
+![Prepare](../media/icon2.png) 
 
 In the first step, Prepare, we’ll walk through the requirements to prepare for your Office application upgrades in Windows:
 -	Prerequisites, considerations, and update channel options
