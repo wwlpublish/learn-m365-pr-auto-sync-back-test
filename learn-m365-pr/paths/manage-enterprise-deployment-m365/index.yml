@@ -1,0 +1,31 @@
+### YamlMime:LearningPath
+uid: learn-m365.manage-enterprise-deployment-m365
+metadata:
+  title: Manage your enterprise deployment with Microsoft 365
+  description: Manage your enterprise deployment with modern tools from Microsoft 365. Empower your users and IT to benefit from the easy deployment and productivity enhancements from Windows 10, while still maintaining your standards for security and manageability. 
+  ms.date: 09/26/2019
+  author: dahans-msft2
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage your enterprise deployment with Microsoft 365
+summary: Manage your enterprise deployment with modern tools from Microsoft 365. Empower your users and IT to benefit from the easy deployment and productivity enhancements from Windows 10, while still maintaining your standards for security and manageability.
+prerequisites: | 
+ - Recommended to take [Microsoft 365 - Modernize your enterprise deployment with Windows 10 and Office 365 ProPlus](https://docs.microsoft.com/en-us/learn/paths/m365-getmodern/)
+iconUrl: /learn/achievements/manage-enterprise-deployment-m365.svg
+levels: 
+- beginner
+roles:
+- administrator
+products: 
+- m365
+modules:
+- learn-m365-pr.introduction-to-modern-management-in-microsoft-365
+- learn-m365-pr.automate-windows-deployments-by-using-windows-autopilot
+- learn-m365-pr.manage-devices-by-using-microsoft-intune
+- learn-m365-pr.manage-windows-10-through-co-management-by-using-system-center-configuration-manager
+- learn-wwl.manage-applications-by-using-microsoft-intune
+- learn-wwl.deploy-windows-update-in-microsoft-365
+
+trophy: 
+  uid: learn-m365.manage-enterprise-deployment-m365.trophy
