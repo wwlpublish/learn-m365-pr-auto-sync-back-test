@@ -113,7 +113,7 @@ quiz:
       - content: "False"
         isCorrect: false
         explanation: "Incorrect, guest access is one example of governance decision."
-    - content: "Microsoft provides a program for champions and service adoption specialists to get free, continuing education. Which of the following best clarifies that statement?"
+    - content: "Microsoft provides a program for champions and Service Adoption Specialists to get free, continuing education. Which of the following best clarifies that statement?"
       choices:
       - content: "Yes, but only in North America"
         isCorrect: false

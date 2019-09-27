@@ -18,7 +18,7 @@ You'll learn about the following areas:
 Before, during, and after you complete this course, we invite you to join a community of new and seasoned service adoption and business leaders driving change at the [Microsoft Teamwork Champion program](https://aka.ms/O365Champions).
 
 ## What are your goals for this course?
-Service adoption specialists (SAS) come from many backgrounds. You may have a variety of goals in completing this course. We'd like to suggest the following goals, based on our knowledge of the industry and the outcomes that are required for success. Feel free to add or remove goals depending on your career stage, job title and accountabilities, and interests. 
+Service Adoption Specialists (SAS) come from many backgrounds. You may have a variety of goals in completing this course. We'd like to suggest the following goals, based on our knowledge of the industry and the outcomes that are required for success. Feel free to add or remove goals depending on your career stage, job title and accountabilities, and interests. 
 
 - Learn the basic tenants of successful service adoption
 - Supplement your existing technical or organizational change knowledge

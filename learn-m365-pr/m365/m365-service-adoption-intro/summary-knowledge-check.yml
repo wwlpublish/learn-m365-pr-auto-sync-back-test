@@ -3,7 +3,7 @@ uid: learn-m365.service-adoption-intro.summary-knowledge-check
 title: Summary
 metadata:
   title: Summary and knowledge check
-  description: Review what you learned about the service adoption framework and specialist role, and then check your knowledge.
+  description: Review what you learned about the service adoption framework and Specialist role, and then check your knowledge.
   ms.date: 09/06/2019
   author: lizap
   ms.author: elizapo
@@ -128,7 +128,7 @@ quiz:
       - content: "Technology capabilities."
         isCorrect: false
         explanation: "No, this is technical competence."        
-    - content: "To be a successful Service Adoption Specialist, it is required that you have a college degree in:"
+    - content: "To be a successful Service Adoption Specialist, you should have a college degree in what area?"
       choices:
       - content: "Computer science."
         isCorrect: false
@@ -170,7 +170,7 @@ quiz:
       - content: "Setting office hour schedules."
         isCorrect: false
         explanation: "No, this is part of your marketing communications."        
-    - content: "Breaking down the Service Adoption Framework into three phases achieves which outcome?"
+    - content: "Breaking down the service adoption Framework into three phases achieves which outcome?"
       choices:
       - content: "Makes it easier to understand for IT and change managers."
         isCorrect: false

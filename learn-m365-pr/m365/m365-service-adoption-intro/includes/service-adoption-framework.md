@@ -8,7 +8,7 @@ This training uses the enhanced adoption framework for teamwork and the modern w
 >![Phases of the adoption framework](../media/phases.png)
 
 ## Meet Contoso
-In this training you're the service adoption specialist for Contoso, Inc. You'll create a service adoption plan to improve the product development and customer service. 
+In this training you're the Service Adoption Specialist for Contoso, Inc. You'll create a service adoption plan to improve the product development and customer service. 
 
 - The improvements are focused on Microsoft Teams and associated Office 365 products.
 - Contoso, Inc. has 5 regional offices - 3 in the United States (Los Angeles, Chicago and New York), 1 in London, England and 1 in Mexico City, Mexico.

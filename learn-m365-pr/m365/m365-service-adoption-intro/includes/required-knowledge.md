@@ -4,7 +4,7 @@
 
 This training highlights the partnership between IT and business. We usually focus on both the organization and the employee when tackling an organizational change. In service adoption the employee's experience - their technical capabilities and reliability, ease of use, and how the service applies to their daily life - is an integral part of the process. In a successful service adoption, both the technical and user needs are addressed and integrated into the overall project plan.  
 
-As a service adoption specialist you're at the center of driving human and technical changes to deliver business outcomes. This role has evolved as businesses and technology have increased in pace and complexity. 
+As a Service Adoption Specialist you're at the center of driving human and technical changes to deliver business outcomes. This role has evolved as businesses and technology have increased in pace and complexity. 
 
 There are six knowledge areas required to drive adoption. They are:
 - Organizational development
@@ -17,7 +17,7 @@ There are six knowledge areas required to drive adoption. They are:
 Mastering each of these areas increases in complexity depending on the size and regional distribution of your organization. 
 
 > [!NOTE]
-> Before proceeding make sure you've read the Assumptions section in the module that introduces the Service Adoption Specialist role. We'll be using these assumptions as we discuss practical application of the knowledge areas above.
+> Before proceeding make sure you've read the **Read before proceeding** section in the the previous unit. We'll be using these assumptions as we discuss practical application of the knowledge areas above.
 
 ## Knowledge area - Organizational development
 
@@ -42,7 +42,7 @@ As in any relationship listening is the most important skill, you'll develop in 
 ## Knowledge area - Business acumen
 >![Business acumen knowledge area](../media/business-acumen.png)
 
-Many service adoption specialists come from the marketing or communication sides of an organization. This is often because they've had success driving change in other areas in the past and are now tasked with a larger initiative. This initiative might not be directly related to technology. Instead they're tasked with product or service improvements and as a result need better technology to deliver on this goal. Those who come from IT backgrounds also have detailed knowledge of the state of the organization and its ability to respond to market changes and customer demands. Whatever your background you need a deep understanding of the strategic, competitive, cultural, and financial needs of your business.
+Many Service Adoption Specialists come from the marketing or communication sides of an organization. This is often because they've had success driving change in other areas in the past and are now tasked with a larger initiative. This initiative might not be directly related to technology. Instead they're tasked with product or service improvements and as a result need better technology to deliver on this goal. Those who come from IT backgrounds also have detailed knowledge of the state of the organization and its ability to respond to market changes and customer demands. Whatever your background you need a deep understanding of the strategic, competitive, cultural, and financial needs of your business.
 
 It's essential to understand the imperatives of your company. This is the "connective tissue" between the technology change and the behavioral motivation needed to deliver change. Every organization has goals. Altering the strategy and culture of a company can spur product and service improvements. Every commercial enterprise has to control costs while also increasing revenue. (While these outcomes might not apply to certain not-for-profit or governmental organizations, these organizations have their own initiatives.) 
 
@@ -104,7 +104,7 @@ Superior communication can overcome the most difficult of technical and organiza
 
 Portfolio management is the ability to design and manage and individual improvement project or a portfolio of improvements into a cohesive employee experience roadmap for your organization. It requires all the skills listed above. A roadmap that delivers improvements to the employee experience must balance the needs of customers, measurable business outcomes, technical capabilities, and culture to deliver change in the right-sized bites for your organization. 
 
-This roadmap is crafted in partnership between service adoption specialists and their IT counterparts. Creating the roadmap in collaboration with stakeholders, executives, success owners, and key talent is critical. You need each of these groups to give input and approval to the vision and the speed at which it will become a reality. 
+This roadmap is crafted in partnership between Service Adoption Specialists and their IT counterparts. Creating the roadmap in collaboration with stakeholders, executives, success owners, and key talent is critical. You need each of these groups to give input and approval to the vision and the speed at which it will become a reality. 
 
 You may have been a project or portfolio manager in the past, so risk and issue management is familiar. In this context, your success is not solely measured by delivering an in-scope or on-budget project. You'll also be measured by the employees whose experience you are changing. Either officially or unofficially their experience of the change and your communication around the change play a significant role in your success. 
 
