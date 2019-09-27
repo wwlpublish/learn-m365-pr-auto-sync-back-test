@@ -5,7 +5,7 @@ You're ready to begin your strategy and project plan. You need to quickly delive
 |Role|Description|
 |-|-|
 |Executive sponsor| Do you have a senior executive in your company that is spearheading the overall business outcomes, including the implementation of Microsoft Teams?| 
-|Success owner|Who is accountable for the overall success of your implementation? Often a business leader (like the head of product development) in partnership with an IT service owner (like the service manager who owns collaboration and communication services).*|
+|Success owner|Who is accountable for the overall success of your implementation? Often a business leader (like the head of product development) in partnership with an IT service owner (like the service manager who owns collaboration and communication services).|
 |Project manager|You or another person who has day-to-day responsibility for managing the overall project, including managing risks, issues, and stakeholders.|
 |Champions|Do you have an existing network of champions who provide departmental and 1:1 support for employees during transitions? Do you have a community manager that can provide a consistent presence to these people and handle their training and support?|
 |Communications and marketing|Who can help you craft key messages about this change that will resonate with employees? What graphic design assistance do you have?| 
@@ -16,13 +16,13 @@ You're ready to begin your strategy and project plan. You need to quickly delive
 
 |![Activity icon](../media/activity.png) Activity| 
 |-|
-|Read [Microsoft Teams Phase One](https://aka.ms/O365Champions) for more information on roles and pre-requisites for this phase of your planning.<br><br>Watch and use introduction videos like "What is Microsoft Teams?" to ensure people begin to understand what this new experience can do. Note that this video doesn't focuses on a long list of features but on the outcomes for employees.| 
+|Read [Microsoft Teams Phase One](https://docs.microsoft.com/microsoftteams/teams-adoption-phase1) for more information on roles and pre-requisites for this phase of your planning.<br><br>Watch and use introduction videos like [What is Microsoft Teams?](https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d) to ensure people begin to understand what this new experience can do. Note that this video doesn't focus on a long list of features but on the outcomes for employees.| 
 
 ## Key role - the executive sponsor
 
 >![Executive sponsor](../media/exec-sponsors.png)
 
-What we know is that most employees aren't willing to use new technology rolled out by their organization. Having an executive sponsor can help. In transformation projects where the CEO was either fairly or very visible, the project was either very successful or extremely successful. A well-defined set of financial and operational targets lead to an "extremely successful" transformation*. (* Various third-party and Microsoft-based research)
+What we know is that most employees aren't willing to use new technology rolled out by their organization. Having an executive sponsor can help. In transformation projects where the CEO was either fairly or very visible, the project was either very successful or extremely successful. A well-defined set of financial and operational targets lead to an "extremely successful" transformation (as shown in various third-party and Microsoft-based research).
 
 Identify and empower your executive sponsor to be a consistently visible part of your change program. This supports sustained use of the new tools and overall transformation. Consistent communications are key. Here are ways your executive sponsors can communicate their support for the project:
 
@@ -60,7 +60,7 @@ The following workstreams and capability areas require a leader. One person can 
 ### Example Activity for Contoso 
 Map out the capabilities you will need to successfully deliver a Microsoft Teams implementation. You're already working with your IT service manager who is reviewing SuccessWithTeams.com content to manage the technical readiness. You meet and discuss timelines and outcomes and jointly review the workstreams shown above. You both determine that neither of you have the bandwidth to handle the Champion and Early adopter programs or to ensure quality and support readiness. You should undertake one or all of the following actions:
 
-- You have an eligible license agreement with over 150 seats. Reach out to the [Microsoft FastTrack team](https://www.microsoft.com/fasttrack). Your IT administrator can also request help through the **Get Help** widget in the Office 365 Admin Center. FastTrack engineers and program managers will reach out to help answer your technical questions and create a success plan for Microsoft Teams. 
+- You have an [eligible license agreement](https://docs.microsoft.com/microsoftteams/office-365-licensing) with over 150 seats. Reach out to the [Microsoft FastTrack team](https://www.microsoft.com/fasttrack). Your IT administrator can also request help through the **Get Help** widget in the Office 365 admin center. FastTrack engineers and program managers will reach out to help answer your technical questions and create a success plan for Microsoft Teams. 
 - To learn from other people who are also driving adoption of Microsoft Teams visit the [Driving Adoption](https://aka.ms/DriveAdoption) forum on the Microsoft Technical Community.
 - If you have a technology partner that's already helping you in your company, speak with them about their Microsoft Teams experience to determine if they are qualified to assist you. 
 

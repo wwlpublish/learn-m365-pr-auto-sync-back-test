@@ -4,7 +4,7 @@
 
 This training highlights the partnership between IT and business. We usually focus on both the organization and the employee when tackling an organizational change. In service adoption the employee's experience - their technical capabilities and reliability, ease of use, and how the service applies to their daily life - is an integral part of the process. In a successful service adoption, both the technical and user needs are addressed and integrated into the overall project plan.  
 
-As a service adoption specialist you're at the center of driving human and technical changes to deliver business outcomes. This role has evolved as businesses and technology have increased in pace and complexity. 
+As a Service Adoption Specialist you're at the center of driving human and technical changes to deliver business outcomes. This role has evolved as businesses and technology have increased in pace and complexity. 
 
 There are six knowledge areas required to drive adoption. They are:
 - Organizational development
@@ -17,7 +17,7 @@ There are six knowledge areas required to drive adoption. They are:
 Mastering each of these areas increases in complexity depending on the size and regional distribution of your organization. 
 
 > [!NOTE]
-> Before proceeding make sure you've read the Assumptions section in the module that introduces the Service Adoption Specialist role. We'll be using these assumptions as we discuss practical application of the knowledge areas above.
+> Before proceeding make sure you've read the **Read before proceeding** section in the the previous unit. We'll be using these assumptions as we discuss practical application of the knowledge areas above.
 
 ## Knowledge area - Organizational development
 
@@ -42,7 +42,7 @@ As in any relationship listening is the most important skill, you'll develop in 
 ## Knowledge area - Business acumen
 >![Business acumen knowledge area](../media/business-acumen.png)
 
-Many service adoption specialists come from the marketing or communication sides of an organization. This is often because they've had success driving change in other areas in the past and are now tasked with a larger initiative. This initiative might not be directly related to technology. Instead they're tasked with product or service improvements and as a result need better technology to deliver on this goal. Those who come from IT backgrounds also have detailed knowledge of the state of the organization and its ability to respond to market changes and customer demands. Whatever your background you need a deep understanding of the strategic, competitive, cultural, and financial needs of your business.
+Many Service Adoption Specialists come from the marketing or communication sides of an organization. This is often because they've had success driving change in other areas in the past and are now tasked with a larger initiative. This initiative might not be directly related to technology. Instead they're tasked with product or service improvements and as a result need better technology to deliver on this goal. Those who come from IT backgrounds also have detailed knowledge of the state of the organization and its ability to respond to market changes and customer demands. Whatever your background you need a deep understanding of the strategic, competitive, cultural, and financial needs of your business.
 
 It's essential to understand the imperatives of your company. This is the "connective tissue" between the technology change and the behavioral motivation needed to deliver change. Every organization has goals. Altering the strategy and culture of a company can spur product and service improvements. Every commercial enterprise has to control costs while also increasing revenue. (While these outcomes might not apply to certain not-for-profit or governmental organizations, these organizations have their own initiatives.) 
 
@@ -93,7 +93,7 @@ The marketing and communications area involves:
 - Finding useful ways to enable self-service learning 
 - Measuring the effectiveness of these methods 
 
-Remember, communicating is not outbound only! You must set up feedback systems to get information back from employees. You'll use this data in the service health segments of your plan. Feedback systems include enterprise social networks like Yammer, periodic employee surveys, regular office hours, and other online forums for discussions. 
+Remember, communicating is not outbound only! You need to set up feedback systems to get information back from employees. You'll use this data in the service health segments of your plan. Feedback systems include enterprise social networks like Yammer, periodic employee surveys, regular office hours, and other online forums for discussions. 
 
 Communication in the context of service adoption does NOT mean sending an email to your employees and making sure they know the help desk extension number! If that's the extent of your communications plan, your change plan will encounter severe difficulties. Omni-directional marketing means simultaneously using multiple communication methods to communicate the why, what, where and when of change on a regular basis. Some of those communication methods include email, posters, events, internal social networks, digital news, and all-hands meetings. 
 
@@ -104,7 +104,7 @@ Superior communication can overcome the most difficult of technical and organiza
 
 Portfolio management is the ability to design and manage and individual improvement project or a portfolio of improvements into a cohesive employee experience roadmap for your organization. It requires all the skills listed above. A roadmap that delivers improvements to the employee experience must balance the needs of customers, measurable business outcomes, technical capabilities, and culture to deliver change in the right-sized bites for your organization. 
 
-This roadmap is crafted in partnership between service adoption specialists and their IT counterparts. Creating the roadmap in collaboration with stakeholders, executives, success owners, and key talent is critical. You need each of these groups to give input and approval to the vision and the speed at which it will become a reality. 
+This roadmap is crafted in partnership between Service Adoption Specialists and their IT counterparts. Creating the roadmap in collaboration with stakeholders, executives, success owners, and key talent is critical. You need each of these groups to give input and approval to the vision and the speed at which it will become a reality. 
 
 You may have been a project or portfolio manager in the past, so risk and issue management is familiar. In this context, your success is not solely measured by delivering an in-scope or on-budget project. You'll also be measured by the employees whose experience you are changing. Either officially or unofficially their experience of the change and your communication around the change play a significant role in your success. 
 
@@ -120,4 +120,4 @@ When you do this work well, you're delivering beneficial, material change based 
 
 The "X" factor isn't an ephemeral thing that only some people are born with. No, not at all. You can develop leadership skills. You can develop your ability to negotiate, resolve conflicts, clarify objectives, understand financial elemtns, and find your voice. 
 
-It's important here to talk about the "introvert leader." This person has a quiet demeanor. They're not the first or last to speak in a meeting, but when they do talk, it's worth listening. This kind of leader normally likes to review information ahead of time so they can reflect on the information before reacting. There's a great deal of room in the service adoption field for this type of leader. So, if this describes you, don't feel as though you immediately have to talk more. To the contrary, listening is a critical skill - you may be further ahead in developing that talent than those who are more extroverted and talkative by nature. As in technology, but especially in this area, diversity of style is welcome. Everyone can have impact in the service adoption community.
+It's important here to talk about the "introvert leader." This person has a quiet demeanor. They're not the first or last to speak in a meeting, but when they do speak, it's worth listening. This kind of leader normally likes to review information ahead of time so they can reflect on the information before reacting. There's a great deal of room in the service adoption field for this type of leader. So, if this describes you, don't feel as though you immediately have to talk more. To the contrary, listening is a critical skill - you may be further ahead in developing that talent than those who are more extroverted and talkative by nature. As in technology, but especially in this area, diversity of style is welcome. Everyone can have impact in the service adoption community.

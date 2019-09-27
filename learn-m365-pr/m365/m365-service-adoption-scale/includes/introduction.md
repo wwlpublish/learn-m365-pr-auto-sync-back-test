@@ -17,4 +17,4 @@ As each segment of your organization onboards to the new experience, you will wa
 
 |![Activity logo](../media/activity.png) Example activity for Contoso|
 |-|  
-|Review details about service enablement strategies for Microsoft Teams and discuss them with your IT partners and key stakeholders.|  
+|Review details about [service enablement strategies](https://docs.microsoft.com/microsoftteams/teams-adoption-define-outcomes#select-a-service-enablement-strategy) for Microsoft Teams and discuss them with your IT partners and key stakeholders.|  
