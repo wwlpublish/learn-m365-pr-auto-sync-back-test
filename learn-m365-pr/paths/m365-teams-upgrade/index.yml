@@ -1,0 +1,27 @@
+### YamlMime:LearningPath
+uid: learn-m365.m365-teams-upgrade
+metadata:
+  title: Upgrade to Microsoft Teams
+  description: Microsoft Teams extends the capabilities of Skype for Business, bringing together chat, meetings, calling, collaboration, app integration, and file storage into a single interface. Upgrading from Skype for Business to Teams represents a transformation in how users communicate and collaborate.
+  ms.date: 09/27/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+title: Upgrade to Microsoft Teams
+summary: Microsoft Teams extends the capabilities of Skype for Business, bringing together chat, meetings, calling, collaboration, app integration, and file storage into a single interface. Upgrading from Skype for Business to Teams represents a transformation in how users communicate and collaborate.
+prerequisites: | 
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+iconUrl: http://via.placeholder.com/120x120
+levels: 
+- intermediate
+roles:
+- administrator
+products: 
+- m365
+modules:
+- learn-m365.m365-teams-upgrade-getting-started
+
+trophy: 
+  uid: learn-m365.m365-teams-upgrade.trophy
