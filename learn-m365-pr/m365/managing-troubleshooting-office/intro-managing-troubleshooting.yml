@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-office.m365-managing-troubleshooting-office.intro-managing-troubleshooting
+title: Introduction to managing and troubleshooting Office on Windows
+metadata:
+  title: Introduction to managing and troubleshooting Office on Windows
+  description: Learn about managing and troubleshooting Office on Windows
+  ms.date: 09/19/2019
+  author: puffinanda
+  ms.author: v-jolev
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 1
+content: |
+  [!include[](includes/intro-managing-troubleshooting.md)]
