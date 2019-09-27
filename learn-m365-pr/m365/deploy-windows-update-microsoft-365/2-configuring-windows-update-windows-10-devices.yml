@@ -1,0 +1,15 @@
+﻿### YamlMime:ModuleUnit
+uid: learn-wwl.deploy-windows-update-in-microsoft-365.2-configuring-windows-update-windows-10-devices
+title: Configuring Windows Update for Windows 10 devices
+metadata:
+  title: Configuring Windows Update for Windows 10 devices
+  description: Describe how updates are deployed and how to configure individual Windows 10 devices.
+  ms.date: 09/05/2019
+  author: bneeb
+  ms.author: bneeb
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX 
+durationInMinutes: 4
+content: |
+  [!include[](includes/2-configuring-windows-update-windows-10-devices.md)] 
