@@ -20,16 +20,16 @@ quiz:
       choices:
       - content: "Keep your failures to a small number of people"
         isCorrect: false
-        explanation: "No, one of the chief objectives is to get hands-on experience with the product."
+        explanation: "No, one of the chief objectives is to get experience with the product."
       - content: "Minimize risk with your stakeholders"
         isCorrect: false
-        explanation: "No, one of the chief objectives is to get hands-on experience with the product."
+        explanation: "No, one of the chief objectives is to get experience with the product."
       - content: "Let you document issues"
         isCorrect: false
-        explanation: "No, one of the chief objectives is to get hands-on experience with the product."
-      - content: "Give you hands-on experience with the product"
+        explanation: "No, one of the chief objectives is to get experience with the product."
+      - content: "Give you experience with the product"
         isCorrect: true
-        explanation: "Yes, one of the chief objectives is to get hands-on experience with the product."
+        explanation: "Yes, one of the chief objectives is to get experience with the product."
     - content: "It's a best practice to revisit your overall program success measures on what schedule?"
       choices:
       - content: "Bi-weekly"
@@ -131,13 +131,13 @@ quiz:
       choices:
       - content: "Office hours"
         isCorrect: false
-        explanation: "Yes, but this is only one way champions can deliver services."
+        explanation: "Yes, but this is only one of the ways that champions can deliver services."
       - content: "1:1 coaching"
         isCorrect: false
-        explanation: "Yes, but this is only one way champions can deliver services."
+        explanation: "Yes, but this is only one of the ways that champions can deliver services."
       - content: "Group training"
         isCorrect: false
-        explanation: "Yes, but this is only one way champions can deliver services."
+        explanation: "Yes, but this is only one of the ways that champions can deliver services."
       - content: "All of the above"
         isCorrect: true
         explanation: "Yes, Yes, these are all ways champions can deliver services."
