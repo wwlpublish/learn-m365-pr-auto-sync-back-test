@@ -5,7 +5,7 @@ You're ready to begin your strategy and project plan. You need to quickly delive
 |Role|Description|
 |-|-|
 |Executive sponsor| Do you have a senior executive in your company that is spearheading the overall business outcomes, including the implementation of Microsoft Teams?| 
-|Success owner|Who is accountable for the overall success of your implementation? Often a business leader (like the head of product development) in partnership with an IT service owner (like the service manager who owns collaboration and communication services).*|
+|Success owner|Who is accountable for the overall success of your implementation? Often a business leader (like the head of product development) in partnership with an IT service owner (like the service manager who owns collaboration and communication services).|
 |Project manager|You or another person who has day-to-day responsibility for managing the overall project, including managing risks, issues, and stakeholders.|
 |Champions|Do you have an existing network of champions who provide departmental and 1:1 support for employees during transitions? Do you have a community manager that can provide a consistent presence to these people and handle their training and support?|
 |Communications and marketing|Who can help you craft key messages about this change that will resonate with employees? What graphic design assistance do you have?| 
@@ -22,7 +22,7 @@ You're ready to begin your strategy and project plan. You need to quickly delive
 
 >![Executive sponsor](../media/exec-sponsors.png)
 
-What we know is that most employees aren't willing to use new technology rolled out by their organization. Having an executive sponsor can help. In transformation projects where the CEO was either fairly or very visible, the project was either very successful or extremely successful. A well-defined set of financial and operational targets lead to an "extremely successful" transformation*. (* Various third-party and Microsoft-based research)
+What we know is that most employees aren't willing to use new technology rolled out by their organization. Having an executive sponsor can help. In transformation projects where the CEO was either fairly or very visible, the project was either very successful or extremely successful. A well-defined set of financial and operational targets lead to an "extremely successful" transformation (as shown in various third-party and Microsoft-based research).
 
 Identify and empower your executive sponsor to be a consistently visible part of your change program. This supports sustained use of the new tools and overall transformation. Consistent communications are key. Here are ways your executive sponsors can communicate their support for the project:
 
