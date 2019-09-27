@@ -64,7 +64,7 @@ Custom functions have their own dialog API since they can't access the Office.js
 
 ## Creating a custom functions project
 
-You create a custom functions project by running the yo office generator. Then choose the option for a custom functions project. By default, the project will also have a task pane.
+You create a custom functions project by running the Yeoman Generator tool. Then choose the option for a custom functions project. By default, the project will also have a task pane.
 
 If you're using Visual Studio Code, you can debug custom functions in Excel on Windows.
 

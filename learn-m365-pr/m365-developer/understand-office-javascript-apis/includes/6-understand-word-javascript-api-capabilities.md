@@ -62,4 +62,4 @@ Word.run(function (context) {
 
 ## Get started developing Word add-ins
 
-Use the yeoman generator to start developing a Word add-in. If you want to explore the APIs more, we recommend Script Lab for Word. There, you'll see numerous samples and be able to experiment with Word documents without creating an entire add-in.
+Use the Yeoman Generator tool to start developing a Word add-in. If you want to explore the APIs more, we recommend Script Lab for Word. There, you'll see numerous samples and be able to experiment with Word documents without creating an entire add-in.
