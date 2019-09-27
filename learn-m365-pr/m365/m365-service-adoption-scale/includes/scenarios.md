@@ -15,7 +15,7 @@ In the slide above this reads as follows:
 
 > |![Activity logo](../media/activity.png) Activity|
 > |-|  
-> |Download the scenario-mapping template and write out some simple scenarios using your simplified persona information.|
+> |Download the [scenario-mapping template](https://docs.microsoft.com/microsoftteams/teams-adoption-define-usage-scenarios) and write out some simple scenarios using your simplified persona information.|
 
 > |![Activity logo](../media/activity.png) Example activity for Contoso|  
 > |-|
