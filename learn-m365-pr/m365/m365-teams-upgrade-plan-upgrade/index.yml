@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn-m365.m365-teams-upgrade-plan-upgrade
 metadata:
-  title: Upgrade to Microsoft Teams
+  title: Plan your Teams upgrade
   description: Discover how to prepare your organization to upgrade from Skype for Business to Microsoft Teams. Learn how to assess your environment, prepare your environment and organization, and how to conduct a user pilot.
   ms.date: 09/27/2019
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Upgrade to Microsoft Teams 
+title: Plan your Teams upgrade 
 summary: Discover how to prepare your organization to upgrade from Skype for Business to Microsoft Teams. Learn how to assess your environment, prepare your environment and organization, and how to conduct a user pilot.
 abstract: |
   Upon completion of this module, you should be able to:
