@@ -12,7 +12,7 @@ metadata:
 title: Manage your enterprise deployment with Microsoft 365
 summary: Manage your enterprise deployment with modern tools from Microsoft 365 to empower your users and IT to benefit from the easy deployment and productivity enhancements from Windows 10, while still maintaining your standards for security and manageability.
 prerequisites: | 
- - [Microsoft 365 - Modernize your enterprise deployment with Windows 10 and Office 365 ProPlus](https://docs.microsoft.com/en-us/learn/paths/m365-getmodern/)
+ - Recommended to take [Microsoft 365 - Modernize your enterprise deployment with Windows 10 and Office 365 ProPlus](https://docs.microsoft.com/en-us/learn/paths/m365-getmodern/)
 iconUrl: /learn/achievements/manage-enterprise-deployment-m365.svg
 levels: 
 - beginner
