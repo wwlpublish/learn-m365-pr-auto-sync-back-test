@@ -16,16 +16,14 @@ Here are some recommended methods to enforce MFA:
 
 A Conditional Access policy can require MFA when criteria such as these are met:
 
-- Is it a specific grouping of users, such as:
-  - all users
-  - a specific user
-  - all users assigned to a specific role
-- Is a specific cloud application being accessed?
-- Is a device compliant and healthy?
-- Is the device outside of expected network location or geo-located IP address?
+- All users, a specific user, member of a group, or assigned role
+- Specific cloud application being accessed
+- State of device
+- Network location or geo-located IP address
+- Device health
+- Client applications
 
 ## Learn More
-
 - [Conditional Access policy](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)
 - [Require multi-factor authentication at device enrollment](https://docs.microsoft.com/intune/multi-factor-authentication)
 - [Configure Conditional Access policy to require MFA](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted#plan-conditional-access-policies)

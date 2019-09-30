@@ -4,9 +4,9 @@ Digital estates are growing more complex. They include devices, data, networks, 
 
 - protect an organization from attack
 - rapidly detect malicious activity
-- effectively respond to and remediate threats across the digital estate. 
+- effectively respond to and remediate threats across the digital estate
 
-That's why Microsoft has developed different services that specialize in protecting against various threat vectors such as endpoints, networks, email, and business critical data. These services integrate via the Microsoft Intelligent Security Graph. The Graph uses advanced analytics to link a massive amount of threat intelligence and security data to power real-time threat protection in Microsoft 365.
+That's why Microsoft has developed different services that specialize in protecting against various threat vectors such as endpoints, networks, email, and business critical data. These services integrate via the Microsoft Intelligent Security Graph. The Graph uses advanced analytics to link a massive amount of threat intelligence and security data to real-time threat protection in Microsoft 365.
 
 ![Microsoft Threat Protection](../media/protection-services.png)
 
@@ -28,7 +28,11 @@ Through security reports and user profile analytics, Azure ATP helps reduce your
 Azure Security Center provides unified security management and advanced threat protection across hybrid cloud workloads. Get a unified view of security across your on-premises and cloud workloads, automatically discover and onboard new Azure resources, and apply security policies to ensure compliance with security standards. You can collect, search, and analyze security data from a variety of sources, including firewalls and partner solutions.
 
 ## Microsoft Cloud App Security
-Microsoft Cloud App Security gives you visibility into your cloud apps and services, provides analytics to identify and combat cyberthreats, and enables you to control how your data travels. The cloud app security framework includes:
+Microsoft Cloud App Security gives you visibility into your cloud apps and services, provides analytics to identify and combat cyberthreats, and enables you to control how your data travels. The cloud app security framework helps you:
+- Discover and control the use of Shadow IT
+- Protect your sensitive information anywhere in the cloud
+- Protect against cyberthreats and anomalies
+- Assess the compliance of your cloud apps 
 
 ## Microsoft Exchange Online Protection (EOP)
 Microsoft Exchange Online Protection (EOP) is a cloud-based email filtering service that helps protect against spam and malware and includes features to safeguard against messaging-policy violations. EOP can simplify the management of your messaging environment and alleviate many of the burdens that come with maintaining on-premises hardware and software.
@@ -51,7 +55,7 @@ Because email is a primary way malware gets into your organization, Advanced Thr
 Office 365 Threat Intelligence is a collection of insights and information available in the Office 365 Security & Compliance Center. Office 365 Threat Intelligence monitors signals and gathers data from multiple sources, such as user activity, authentication, email, compromised PCs, and security incidents. You can use this information to understand and respond to threats against users and intellectual property.
 
 ## Windows Defender Advanced Threat Protection (ATP)
-Windows Defender Advanced Threat Protection (ATP) helps you prevent, detect, investigate, and respond to advanced threats. Windows Defender ATP uses technologies built into Windows 10 that connect to Microsoft's cloud services. Endpoint behavior sensors collect data and send it to cloud security analytics, Microsoft optics that use big data and machine learning to turn behavioral data into insights, detections, and recommended responses. ATP also leverages threat intelligence collected from Microsoft hunters, security teams, and partners to identity and understands attacker tools and generate alerts when it detects them in data from the endpoint sensors.
+Windows Defender Advanced Threat Protection (ATP) helps you prevent, detect, investigate, and respond to advanced threats. Windows Defender ATP uses technologies built into Windows 10 that connect to Microsoft's cloud services. Endpoint behavior sensors collect data and send it to cloud security analytics, Microsoft optics that use big data and machine learning to turn behavioral data into insights, detections, and recommended responses. ATP also uses threat intelligence collected from Microsoft hunters, security teams, and partners to identify attacker tools and generate alerts when it detects them in data from the endpoint sensors.
 
 ## Windows 10
 Windows 10 includes built-in security protections to help safeguard against viruses, phishing, and malware. 

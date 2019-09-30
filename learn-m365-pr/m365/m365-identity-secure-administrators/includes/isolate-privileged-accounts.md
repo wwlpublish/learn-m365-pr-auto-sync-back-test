@@ -2,7 +2,7 @@ You can further protect administrator accounts that access sensitive data by cre
 
 For example, you assign Christina a dedicated account ChristinaAdmin@contoso.com to perform her administrative tasks. This account is separate from Christina's non-administrative account, Christina@contoso.com, which she uses for non-administrative tasks and communications with partners and clients. In this way, her administrator account credentials are not exposed externally.
 
-## Use Privileged Account Management to identify privileged roles
+## Use Privileged Identity Management to identify privileged roles
 
 You can also use Azure AD Privileged Identity Management (PIM) to identify accounts that are in privileged roles. View the users in PIM who have these roles:
 - Global administrator

@@ -9,7 +9,7 @@ Before you deploy SSO in your organization, you should:
 
 - Determine how end-users will access their SSO-enabled applications, provision SaaS cloud apps, and craft your communications to match your selection.
 
-- Determine whether cloud authentication or federated authentication is the best method for your organization. The authentication method is a critical component of an organization’s presence in the cloud because it controls access to all cloud data and resources.  
+- Determine whether authentication should take place in the cloud or on-premises. The authentication method is a critical component of an organization’s presence in the cloud because it controls access to all cloud data and resources.  
 
 Plan your SSO configuration. For example, you can:
 

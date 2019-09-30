@@ -1,4 +1,4 @@
-Azure Conditional Access helps you balance security with user productivity. It automates access control decisions based on security conditions that exist at the time of an access request.
+Azure AD Conditional Access helps you balance security with user productivity. It automates access control decisions based on security conditions that exist at the time of an access request.
 
 After the first-factor authentication completes, Conditional Access enforces the policies that you have configured. Conditional Access is not a first-line defense for scenarios like denial-of-service (DoS) attacks, but can use signals from these events, such as the sign-in risk level and location of the request, to determine whether to block access.
 
@@ -27,7 +27,7 @@ The combination of conditions with your access controls represents a Conditional
   ![Identity Lifecycle](../media/icon14.png)
 
 
-## What is Azure AD B2B? 
+## What is Azure AD B2B Collaboration? 
 
 Azure AD B2B collaboration allows you to securely share your company's applications and services with guest users and external partners from any organization, while maintaining control over your own resources. Through a simple invitation and redemption process, guest users can start collaborating on the resources you allowed them to access.
  

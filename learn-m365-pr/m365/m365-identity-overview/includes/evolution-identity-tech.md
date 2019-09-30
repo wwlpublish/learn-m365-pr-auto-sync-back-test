@@ -8,6 +8,6 @@ Threats such as sophisticated credential theft, social engineering, and password
 
 Microsoft 365 takes a comprehensive approach:  
 
-- Azure Active Directory (Azure AD) for unified identity management to manage single sign-on at scale.  
+- Azure Active Directory (Azure AD) for unified identity management to manage and secure single sign-on at scale.  
 - Passwordless authentication, such as integrated phone authentication (Microsoft Authenticator) and biometrics (Windows Hello), for user convenience and productivity.
 - Hardware credential isolation, such as trusted platform module (TPM) and security keys for simple and secure authentication on shared devices.

@@ -31,7 +31,8 @@ quiz:
       choices:
       - content: "Enable multi-factor authentication (MFA), use Microsoft Intune to ensure that users can enroll their mobile devices, and require users to install the Microsoft Authenticator app."
         isCorrect: true
-        explanation: "Enable single sign-on, turn on Conditional Access, use Microsoft Intune to enable users to enroll their devices, and require users to install the Microsoft Authenticator app."
+        explanation: "You must enable MFA, ensure that users’ mobile devices are trusted, and require users to install the Microsoft Authenticator app."
+      - content: "Enable single sign-on, turn on Conditional Access, use Microsoft Intune to enable users to enroll their devices, and require users to install the Microsoft Authenticator app."
         isCorrect: false
         explanation: "You must enable MFA to implement passwordless authentication."
       - content: "Enable MFA, turn on Conditional Access, and require users to install the Microsoft Authenticator app."

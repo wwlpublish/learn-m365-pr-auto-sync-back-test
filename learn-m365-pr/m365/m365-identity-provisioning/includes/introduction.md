@@ -6,6 +6,6 @@ By using the security capabilities of Azure AD, you can:
 
 * Provide single sign-on (SSO) access to your applications, including thousands of pre-integrated SaaS apps.
 
-* Enable application access security by enforcing rules-based Multi-Factor Authentication for both on-premises and cloud applications.
-
 * Provision secure remote access to on-premises web applications through Azure AD Application Proxy.
+
+* Enable application access security by enforcing rules-based Multi-factor Authentication for both on-premises and cloud applications.
