@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-security-monitor-sensitive-data.recommend-policy-updates
+title: Recommend policy updates based on your environment
+metadata:
+  title: Recommend policy updates based on your environment
+  description: Description goes here 
+  ms.date: 09/30/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+  [!include[](includes/recommend-policy-updates.md)]
