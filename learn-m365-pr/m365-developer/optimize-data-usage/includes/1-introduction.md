@@ -6,15 +6,20 @@ This module will also cover other query parameters that can be used for combinin
 
 ## Prerequisites  
 
-  - Basic knowledge of REST services and APIs
-  - Ability to develop with ASP.NET Core at the intermediate level
-  - Experience using Visual Studio Code at the beginner level
-  - Access to an Office 365 tenant
+- Basic knowledge of REST services and APIs
+- Ability to develop with ASP.NET Core at the intermediate level
+- Experience using Visual Studio Code at the beginner level
+- Access to an Office 365 tenant
   
-## Learning Objectives  
+## Learning Objectives
+
 By the end of this module, you will be able to:  
 
-  - Demonstrate how to manipulate REST queries with query parameters
-  - Create queries that expand complex entities
-  - Demonstrate how to search for content with Microsoft Graph
-  - Optimize Microsoft Graph queries with batching
+- Demonstrate how to manipulate REST queries with query parameters
+- Create queries that expand complex entities
+- Demonstrate how to search for content with Microsoft Graph
+- Optimize Microsoft Graph queries with batching
+
+## Additional Resources
+
+Refer to the following repository for additional resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [MicrosoftGraph/msgraph-training-optimize-data-usage](https://github.com/microsoftgraph/msgraph-training-optimize-data-usage).
