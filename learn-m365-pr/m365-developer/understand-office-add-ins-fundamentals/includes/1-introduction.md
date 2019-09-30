@@ -25,9 +25,9 @@ Key benefits of Office Add-ins include:
 
 ## Where are Office Add-ins supported?
 
-Office Add-ins run in various Office applications on certain clients. Add-ins also have defined types or extension points that determine how the add-in interacts with the Office application. The following table lists supported applications, clients, and add-in types. You'll learn about most of these add-in types as you progress through the remaining units in this module.
+Office Add-ins run in various Office applications on certain platforms. Add-ins also have defined types or extension points that determine how the add-in interacts with the Office application. The following table lists Office applications, platforms, and add-in types supported in the latest Office builds. You'll learn about most of these add-in types as you progress through the remaining units in this module.
 
-|Office application|Supported clients|Available add-in types|
+|Office application|Supported platforms|Available add-in types|
 |---|---|---|
 |Excel|Windows, Mac, iPad, web browser|task pane, content, custom functions (excluding iPad)|
 |OneNote|web browser|task pane|
