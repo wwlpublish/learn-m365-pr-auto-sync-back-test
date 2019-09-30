@@ -20,13 +20,13 @@ After signing in, select the **modify permissions** and verify the user has enou
 
 ## Submit three (3) GET requests in a single batch
 
-All batch requests are submitted as HTTP POST's to a specific endpoint: https://graph.microsoft.com/v1.0.0/$batch. The `$batch` query parameter is what tells Microsoft Graph to unpack the requests submitted in the body.
+All batch requests are submitted as HTTP POSTs to a specific endpoint: https://graph.microsoft.com/v1.0/$batch. The `$batch` query parameter is what tells Microsoft Graph to unpack the requests submitted in the body.
 
 Set the request to an HTTP **POST** and the endpoint of the request to **https://graph.microsoft.com/v1.0/$batch**.
 
 Add the following JSON to the **Request Body** input box. This JSON code will issue three requests:
 
-- Request the current user's `displayName`, `jobTitle` and `userPrincipalName` properties
+- Request the current user's `displayName`, `jobTitle`, and `userPrincipalName` properties
 - Request the current user's email messages that are marked with high importance
 - Request all the current user's calendar events
 
