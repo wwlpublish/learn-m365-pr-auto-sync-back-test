@@ -23,7 +23,7 @@ prerequisites: |
   - Access to an Office 365 tenant
 iconUrl: /learn/achievements/optimize-network-traffic.svg
 levels:
-  - beginner
+  - intermediate
 roles:
   - developer
 products:
