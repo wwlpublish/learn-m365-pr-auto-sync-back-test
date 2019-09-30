@@ -6,7 +6,7 @@ Developers can create all sorts of applications that will communicate with Micro
 
 ### Microsoft Graph REST API
 
-At its core, Microsoft Graph is a REST API which means that developers can use any platform, any framework, and any programming language they're most comfortable with. The only requirement is that they issue common HTTP requests and process HTTP responses. All recent platforms, frameworks and languages have these capabilities.
+At its core, Microsoft Graph is a REST API that means that developers can use any platform, any framework, and any programming language they're most comfortable with. The only requirement is that they issue common HTTP requests and process HTTP responses. All recent platforms, frameworks, and languages have these capabilities.
 
 ### Microsoft Graph Native SDKs
 
@@ -26,9 +26,9 @@ What’s nice about Microsoft Graph supporting both styles of authentication, is
 
 Microsoft Graph’s REST API confirms to the OData v4 protocol. One aspect of this is that the REST API supports many query parameters. These query parameters enable developers to specify & control the amount of data returned in the responses.
 
-Each endpoint exposed by Microsoft Graph has varying support for different query parameters. For example, the `$count` query parameter is supported by the /contacts endpoint, but it isn’t supported for directory objects like users and groups.
+Each endpoint exposed by Microsoft Graph has varying support for different query parameters. For example, the `$count` query parameter is supported by the **/contacts** endpoint, but it isn’t supported for directory objects like users and groups.
 
-Query parameters are added to the query string portion of a URL and have a `$` prefix. Each parameter has a different syntax for usage. For example, the `$count` query parameter, when set to TRUE, will tell Microsoft Graph to only report the number of items in the collection instead of returning all the data in the collection. This `$count` parameter dramatically reduces the amount of data returned by the service, reducing the work on Microsoft Graph and bandwidth consumed by your application.
+Query parameters are added to the query string portion of a URL and have a `$` prefix. Each parameter has a different syntax for usage. For example, the `$count` query parameter, when set to `TRUE`, will tell Microsoft Graph to only report the number of items in the collection instead of returning all the data in the collection. This `$count` parameter dramatically reduces the amount of data returned by the service, reducing the work on Microsoft Graph and bandwidth consumed by your application.
 
 ## Control the amount of information returned in queries
 
