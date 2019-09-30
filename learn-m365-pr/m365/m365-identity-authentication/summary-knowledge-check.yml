@@ -10,7 +10,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
   ROBOTS: NOINDEX
-durationInMinutes: 3
+durationInMinutes: 2
 content: |
   [!include[](includes/summary-knowledge-check.md)]
 quiz:
@@ -30,9 +30,10 @@ quiz:
     - content: "How would you prepare to implement passwordless authentication for your mobile device users?"
       choices:
       - content: "Enable multi-factor authentication (MFA), use Microsoft Intune to ensure that users can enroll their mobile devices, and require users to install the Microsoft Authenticator app."
-        isCorrect: false
-        explanation: "Enable single sign-on, turn on Conditional Access, use Microsoft Intune to enable users to enroll their devices, and require users to install the Microsoft Authenticator app."
         isCorrect: true
+        explanation: "You must enable MFA, ensure that users’ mobile devices are trusted, and require users to install the Microsoft Authenticator app."
+      - content: "Enable single sign-on, turn on Conditional Access, use Microsoft Intune to enable users to enroll their devices, and require users to install the Microsoft Authenticator app."
+        isCorrect: false
         explanation: "You must enable MFA to implement passwordless authentication."
       - content: "Enable MFA, turn on Conditional Access, and require users to install the Microsoft Authenticator app."
         isCorrect: false

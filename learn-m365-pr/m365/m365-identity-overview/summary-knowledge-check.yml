@@ -18,15 +18,15 @@ quiz:
     questions:
     - content: "Question: Why do today’s security analysts sometimes describe identity security as “the new control plane?"
       choices:
-      - content: "In the time of mainframes and local identities, IT was not concerned about identity management, but with the advent of cloud computing it’s become significant"
+      - content: "In the time of mainframes and local identities, IT was not concerned about identity management, but with the advent of cloud computing it’s become significant."
         isCorrect: false
-        explanation: "IT has always been concerned with identity security. Cloud computing and proliferation of mobile devices have made identity and access control critical.  ."
+        explanation: "IT has always been concerned with identity security. Cloud computing and proliferation of mobile devices have made identity and access control critical."
       - content: "Before cloud computing, all user credentials resided on-premises; now they all live in a public cloud."
         isCorrect: false
         explanation: "Not all organizations store user credentials in a public cloud. Regardless of where credentials reside, passwords are not the most reliable protection against network breaches."
       - content: "Unlike the days of single organizational identities, workers today use many devices and cloud apps with multiple identities and passwords."
         isCorrect: true
-        explanation: "As users now access data through multiple devices and identities, the network perimeter is no longer the first line of defense. "
+        explanation: "As users now access data through multiple devices and identities, the network perimeter is no longer the first line of defense."
     - content: "Why is user identity vulnerable to attacks in today’s digital landscape?"
       choices:
       - content: "Sophisticated attackers can exploit software vulnerabilities by inserting malicious code in webpages and thereby gain access to credentials stored on users’ devices."
@@ -38,7 +38,7 @@ quiz:
       - content: "Most organizations now store workforce credentials in the cloud where they are increasingly vulnerable to attack."
         isCorrect: false
         explanation: "Regardless of where credentials are stored, attackers target weak or duplicate passwords that are the most vulnerable to compromise."
-    - content: "Protect internal and external user identity while improving user experience and productivity?"
+    - content: "Which of these describes a modern identity and access management strategy?"
       choices:
       - content: "Protect internal and external user identity while improving user experience and productivity."
         isCorrect: true

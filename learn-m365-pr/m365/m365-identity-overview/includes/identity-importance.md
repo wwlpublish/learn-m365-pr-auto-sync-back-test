@@ -4,11 +4,11 @@ Cybersecurity attacks have become more sophisticated. Passwords alone are no lon
 
 The risks to your data are clear: 
 
-81% of security breaches are caused by identity theft.  Cloud, mobile, and Internet of Things (IoT) assets are frequently outside enterprise firewalls. Identity and access controls are inconsistent across platforms, services, and devices. Once users are outside your network perimeter, they are potentially at risk for attack. 
+- 81% of security breaches are caused by identity theft. Cloud, mobile, and Internet of Things (IoT) assets are frequently outside enterprise firewalls. Identity and access controls are inconsistent across platforms, services, and devices. Once users are outside your network perimeter, they are potentially at risk for attack. [source: Verizon 2017 Data Breach Investigations Report]
 
-73% of users use the same password for multiple accounts because they must remember credentials for multiple apps and devices. If a user’s identity is breached for one account, it’s only a matter of time before hackers move laterally throughout your network.  If one of your users is hacked on a non-corporate account, it might lead to a vulnerability in their work identity. 
- 
-Users tend to value productivity over security; 80% of employees admit using non-approved SaaS apps for work, which may introduce vulnerabilities into your network. 
+- 73% of users use the same password for multiple accounts because they must remember credentials for multiple apps and devices. If a user’s identity is breached for one account, it’s only a matter of time before hackers move laterally throughout your network. If one of your users is hacked on a non-corporate account, it might lead to a vulnerability in their work identity. [source: Telesign 2016 consumer account security report]
+
+- Users tend to value productivity over security; 80% of employees admit using non-approved SaaS apps for work, which may introduce vulnerabilities into your network. [source: Stratecast, December 2013]
 
 ## Identity challenges for today’s organizations  
 
@@ -16,10 +16,10 @@ The new threat landscape requires a shift from securing perimeters to protecting
 
 ![New Threat Landscape](../media/icon3.png)  
 
-- Users need constant access using different technologies across multiple mobile devices, cloud apps, and services. 
- 
-- Users suffer from an increase in identity attacks because of a lack of visibility and control over their technology. 
- 
-- Organizations must comply with evolving data privacy regulations and must constantly monitor their security practices to remain compliant. 
- 
-- Users want to stay productive using a simple authentication experience. 
+- Users need constant access using different technologies across multiple mobile devices, cloud apps, and services.
+
+- Users suffer from an increase in identity attacks because of a lack of visibility and control over their technology.
+
+- Organizations must comply with evolving data privacy regulations and must constantly monitor their security practices to remain compliant.
+
+- Users want to stay productive using a simple authentication experience.

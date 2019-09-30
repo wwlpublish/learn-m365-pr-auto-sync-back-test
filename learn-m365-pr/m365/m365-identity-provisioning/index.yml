@@ -2,14 +2,14 @@
 uid: learn-m365-identity.m365-identity-provisioning
 metadata:
   title: Simplify access and identity provisioning with Microsoft 365
-  description: Learn how to use Microsoft 365's authentication tools for access and identity provisioning.
+  description: Learn how to use Microsoft 365 authentication tools for access and identity provisioning.
   ms.date: 09/09/2019
   author: TheJasonAndrew 
   ms.author: v-jasoan
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Simplify access and identity provisioning with Microsoft 365
-summary: Learn how to use Microsoft 365's authentication tools for access and identity provisioning.
+summary: Learn how to use Microsoft 365 authentication tools for access and identity provisioning.
 abstract: |
   In this module, you will learn:
    - The identity management capabilities of Microsoft 365
