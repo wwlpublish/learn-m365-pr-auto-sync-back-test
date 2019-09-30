@@ -1,8 +1,10 @@
 Office Add-ins enable you to create custom JavaScript or TypeScript functions that can be accessed like built-in Excel functions such as `SUM()`.
 
+The following image shows a custom function called `SPHEREVOLUME` being activated in Excel.
+
 ![Custom function being activated in Excel](../media/sphere-volume.gif)
 
-*Custom function*
+*Custom function being activated in Excel*
 
 The following code sample shows the JavaScript code for the `SPHEREVOLUME()` function shown previously.
 
@@ -25,7 +27,7 @@ Custom functions are available in Excel on the following platforms.
 - Mac (connected to an Office 365 subscription)
 - Web browser
 
-## Key configuration
+## Define the custom function add-in type
 
 To configure an add-in to contain custom functions, the key settings in the manifest are as follows for Excel add-ins.
 
