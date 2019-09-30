@@ -9,14 +9,14 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Understand Office Add-ins fundamentals
-summary: The Office Add-ins platform enables you to extend the functionality of Office applications to suit your needs. In this module, you'll explore various ways you can use add-ins to extend and interact with Office applications. You'll also learn about using the manifest to configure your add-in.
+summary: The Office Add-ins platform enables you to extend the functionality of Office applications. In this module, you'll explore various ways you can use add-ins to extend and interact with Office applications. You'll also learn about configuring your add-in using the add-in's manifest file.
 abstract: |
   By the end of this module, you should know about:
-  - Task panes and content add-ins
+  - Task pane and content add-ins
   - Dialogs
   - Custom functions
   - Add-in commands
-  - Manifest
+  - The add-in manifest file
 prerequisites: None
 iconUrl: https://docs.microsoft.com/media/learn/module.svg
 levels:

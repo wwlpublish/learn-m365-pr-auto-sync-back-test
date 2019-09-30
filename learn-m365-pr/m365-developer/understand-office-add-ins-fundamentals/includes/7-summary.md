@@ -1,11 +1,11 @@
-In this module, you learned about the fundamental concepts and aspects of Office Add-ins.
+In this module, you learned fundamental concepts about Office Add-ins.
 
 - Office Add-ins extend the functionality of Office applications.
-- Task pane and content add-ins are ways to integrate with an Office application.
+- Task pane and content add-ins are two of the ways to integrate with an Office application.
 - Dialogs enable authentication scenarios and provide additional space for displaying content.
-- Custom functions are your own defined JavaScript or TypeScript functions that you can access like native Excel functions.
-- Add-in commands are the custom ribbon or menu buttons for an add-in.
-- The purpose of the manifest is for you to configure how the add-in integrates with Office.
+- Custom functions are your own defined JavaScript or TypeScript functions that users can access like built-in functions in Excel.
+- Add-in commands are UI elements that extend the Office UI, such as buttons on the ribbon or items in a context menu.
+- An add-in's manifest file specifies metadata about the add-in and describes how the add-in integrates with Office.
 
 ## Resources
 
