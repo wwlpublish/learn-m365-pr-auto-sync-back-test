@@ -1,1 +1,1 @@
-Understand testing, debugging, and deployment options
+Introduction to testing, debugging, and deployment options for Office Add-ins
