@@ -1,0 +1,33 @@
+### YamlMime:Module
+uid: learn-m365.m365-security-data-loss
+metadata:
+  title: Prevent data loss
+  description: Description goes here
+  ms.date: 09/30/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Prevent data loss  
+summary: Summary goes here
+abstract: |
+  At the end of this module, you should be able to:
+  - Learning Objectives 1
+
+prerequisites: | 
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+iconUrl: http://via.placeholder.com/120x120
+ratingEnabled: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+units:
+- learn-m365.m365-security-data-loss.introduction
+- learn-m365.m365-security-data-loss.data-loss-prevention
+- learn-m365.m365-security-data-loss.protect-email
+- learn-m365.m365-security-data-loss.summary-knowledge-check
+badge: 
+  uid: learn-m365.m365-security-data-loss.badges
