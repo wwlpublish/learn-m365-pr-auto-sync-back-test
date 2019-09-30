@@ -10,7 +10,7 @@ metadata:
   ms.prod: learning-m365
 title: Understand testing, debugging, and deployment options
 summary: Learn about testing, debugging, and deployment options for Office Add-ins.
-abstract: In this module, you will about the options available for you to test, debug, and deploy Office Add-ins.
+abstract: In this module, you'll learn about the options available for you to test, debug, and deploy Office Add-ins.
 prerequisites: None
 iconUrl: https://docs.microsoft.com/media/learn/module.svg
 levels: 

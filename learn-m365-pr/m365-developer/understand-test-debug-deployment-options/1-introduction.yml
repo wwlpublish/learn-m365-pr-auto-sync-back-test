@@ -2,7 +2,7 @@
 uid: learn-m365-pr.understand-test-debug-deployment-options.1-introduction
 metadata:
   title: Understand testing, debugging, and deployment options
-  description: In this module, you will learn about the options for you to test, debug, and deploy your Office Add-in.
+  description: In this module, you'll learn about the options for you to test, debug, and deploy your Office Add-in.
   ms.date: 10/01/2019
   author: ElizabethSamuel-MSFT
   ms.author: elizs
