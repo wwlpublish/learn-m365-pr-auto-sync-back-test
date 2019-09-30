@@ -26,6 +26,7 @@ modules:
 - learn-m365.m365-security-classify-data
 - learn-m365.m365-security-sensitivity-labels
 - learn-m365.m365-security-data-loss
+- learn-m365.m365-security-monitor-sensitive-data
 
 trophy: 
   uid: learn-m365.m365-information-protection.trophy
