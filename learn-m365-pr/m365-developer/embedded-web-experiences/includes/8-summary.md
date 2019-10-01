@@ -1,0 +1,1 @@
+In this module, you learned about the two types of custom tabs Microsoft Teams enables developers to build for users. You also learned how to add integrated configuration and removal pages to your custom channel apps. Finally, you learned how to incorporate authentication into a custom tab to retrieve and display data from a secured service.
