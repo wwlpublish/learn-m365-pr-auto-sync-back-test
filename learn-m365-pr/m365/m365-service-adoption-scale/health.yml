@@ -4,12 +4,12 @@ title: Service health and continuous improvement in the service adoption framewo
 metadata:
   title: Service health and continuous improvement in the service adoption framework
   description: Learn about service health and the importance of continuous improvement in the service adoption framework.
-  ms.date: 09/06/2019
+  ms.date: 10/01/2019
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
   ROBOTS: NOINDEX
-durationInMinutes: 3
+durationInMinutes: 5
 content: |
   [!include[](includes/health.md)]
