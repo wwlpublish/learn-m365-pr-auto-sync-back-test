@@ -11,31 +11,43 @@ metadata:
   ROBOTS: NOINDEX
 title: Check your knowledge
 durationInMinutes: 1
-content: ""
+content: ''
 quiz:
   title: Fundamental concepts about Office Add-ins
   questions:
-  - content: "Were you able to log in to the Azure CLI 2.0?"
+  - content: "Office Add-ins provide three (3) types of `OfficeApp`. What are they?"
     choices:
-    - content: "Yes"
-      isCorrect: true
-      explanation: "Great! Proceed to the next step in the tutorial."
-    - content: "No"
+    - content: "Content, Mail, TaskPane"
       isCorrect: false
-      explanation: Try to log in to your Azure account at [https://portal.azure.com]. If you can't, try resetting your password, then logging in again.
-  - content: "Were you able to log in to the Azure CLI 2.0?"
+      explanation: "You can create content, mail, and task pane add-ins but these values aren't the correct types to use in the manifest (configuration file)."
+    - content: "ContentApp, MailApp, TaskPaneApp"
+      isCorrect: true
+      explanation: "In the add-in manifest (configuration file), you can set the OfficeApp type to ContentApp, MailApp, or TaskPaneApp."
+    - content: "ContentApplication, MailApplication, TaskPaneApplication"
+      isCorrect: false
+      explanation: "Content, mail, and task pane add-ins include a web application component but these values aren't the correct types to use in the manifest (configuration file)."
+  - content: "The user needs to sign in to access add-in functionality. Which Office Add-in platform feature should the developer display so the user can enter their details?"
     choices:
-    - content: "Yes"
-      isCorrect: true
-      explanation: "Great! Proceed to the next step in the tutorial."
-    - content: "No"
+    - content: "add-in command"
       isCorrect: false
-      explanation: Try to log in to your Azure account at [https://portal.azure.com]. If you can't, try resetting your password, then logging in again.
-  - content: "Were you able to log in to the Azure CLI 2.0?"
+      explanation: "An add-in command, which is a custom ribbon button or context menu item, can be used as a trigger the sign-in process but the user can't enter any information to an add-in command."
+    - content: "custom function"
+      isCorrect: false
+      explanation: "A custom function may need the user to be signed in but isn't a means for them to enter their authentication information."
+    - content: "dialog"
+      isCorrect: true
+      explanation: "Use a dialog window to show the user the sign-in form."
+  - content: "A company decides they should have their own OneNote add-in. Which of the following add-in type/feature combinations is supported?"
     choices:
-    - content: "Yes"
-      isCorrect: true
-      explanation: "Great! Proceed to the next step in the tutorial."
-    - content: "No"
+    - content: "content add-in, add-in commands"
       isCorrect: false
-      explanation: Try to log in to your Azure account at [https://portal.azure.com]. If you can't, try resetting your password, then logging in again.
+      explanation: "OneNote doesn't support content add-ins."
+    - content: "content add-in, custom functions"
+      isCorrect: false
+      explanation: "OneNote doesn't support content add-ins or custom functions."
+    - content: "task pane add-in, add-in commands"
+      isCorrect: true
+      explanation: "OneNote supports task pane add-ins and add-in commands."
+    - content: "task pane add-in, custom functions"
+      isCorrect: false
+      explanation: "OneNote doesn't support custom functions."
