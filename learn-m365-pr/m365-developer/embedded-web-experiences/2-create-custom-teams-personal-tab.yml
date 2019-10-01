@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.embedded-web-experiences.2-create-custom-teams-personal-tab
+metadata:
+  title: Create a custom Microsoft Teams personal tab
+  description: In this unit, you will learn how to create tabs in Microsoft Teams apps.
+  ms.date: 10/01/2019
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+title: Create a custom Microsoft Teams personal tab
+durationInMinutes: 5
+content: >-
+  [!include[](includes/2-create-custom-teams-personal-tab.md)]
