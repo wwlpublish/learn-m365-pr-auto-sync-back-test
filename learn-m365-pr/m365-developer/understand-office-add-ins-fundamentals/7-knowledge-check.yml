@@ -11,7 +11,7 @@ metadata:
   ROBOTS: NOINDEX
 title: Check your knowledge
 durationInMinutes: 1
-content:
+content: ""
 quiz:
   title: Fundamental concepts about Office Add-ins
   questions:
