@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.getting-started-identity.7-exercise-topology-options
+metadata:
+  title: Exercise - Identity topology options
+  description: This exercise will demonstrate to the user how to configure and implement an application that supports B2B.
+  ms.date: 10/25/2019
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: microsoft-identity-platform
+title: Exercise - Identity topology options
+durationInMinutes: 10
+content: |
+  [!include[](includes/7-exercise-topology-options.md)]
+quiz:
+  title: Test your knowledge
+  questions: 
+  - content: "Microsoft Identity supports multiple topology options. Which of the following options does not support using Microsoft Accounts for user sign-in?"
+    choices:
+    - content: "Consumer"
+      isCorrect: false
+      explanation: "The consumer topology supports user sign in using a Microsoft Account."
+    - content: "Azure AD Business to Business (B2B)"
+      isCorrect: true
+      explanation: "Correct, this option expects both organizations in a B2B relationship to have their own identity platform."
+    - content: "Azure AD Business to Consumer (B2C)"
+      isCorrect: false
+      explanation: "Azure AD B2C supports user sign-in with their social or consumer identities, including a Microsoft Account."
+  - content: "How do Azure AD B2B and B2C differ?"
+    choices:
+    - content: "Azure AD B2B refers to users who are already paid customers while B2C refers to leads, or potential customers who haven't yet purchased a product."
+      isCorrect: false
+      explanation: "There's no distinction of a customer state pre or post purchase in Azure AD B2B or B2C."
+    - content: "Azure AD B2B refers to the collaboration of users in two organizations who have entered into formal partnership while B2C is more of a loose partnership between organizations."
+      isCorrect: false
+      explanation: "This isn't correct because a formal or informal partnership has no distinction with respect to Azure AD B2B or B2C"
+    - content: "Azure AD B2B refers to users sharing or collaborating between two organizations, while B2C is more about businesses implementing an application for their customers."
+      isCorrect: true
+      explanation: "Correct! Proceed to the next unit in the module."

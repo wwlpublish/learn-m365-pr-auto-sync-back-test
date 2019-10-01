@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.getting-started-identity.3-exercise-different-token-types
+metadata:
+  title: Exercise - Different types of tokens used in Microsoft Identity
+  description: In this exercise, you'll create an Azure AD application and single page application for a user to sign in and display their information on the page.
+  ms.date: 10/25/2019
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: microsoft-identity-platform
+title: Exercise - Different types of tokens used in Microsoft Identity
+durationInMinutes: 15
+content: |
+  [!include[](includes/3-exercise-different-token-types.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "Which of the following statements about ID tokens is correct?"
+    choices:
+    - content: "ID tokens contain basic identity information about the currently logged in user."
+      isCorrect: true
+      explanation: "Correct, ID tokens are provided upon request when a user signs in. They contain basic identity information about the user, saving the application from having to issue another request for this information."
+    - content: "ID tokens can be submitted in an authentication request to prove the identity of the user."
+      isCorrect: false
+      explanation: "ID tokens aren't created and submitted to prove identity, they're supplied by the identity provider upon a successful sign-in by the user."
+    - content: "ID tokens include both identity information and the permissions a user has been granted to an application."
+      isCorrect: false
+      explanation: "ID tokens only contain basic identity information; they don't contain any application permission information."
+  - content: "Which of the following statements about access tokens is incorrect?"
+    choices:
+    - content: "Access tokens can be created by Azure AD either for a user or for an application."
+      isCorrect: false
+      explanation: "Depending on the permission and the OAuth 2.0 flow implemented, Azure AD can create either access tokens for a user or for an application to use."
+    - content: "Azure AD supports multiple OAuth 2.0 flows that developers can use to obtain an access token."
+      isCorrect: false
+      explanation: "Developers can choose from multiple OAuth 2.0 flows supported by Azure AD depending on the type of application and the one that best fits the user scenario."
+    - content: "Access tokens are submitted by the application to the identity provider to request permissions to a resource on behalf of a user."
+      isCorrect: true
+      explanation: "This answer is incorrect. Access tokens aren't submitted by an application, they're provided by the identity platform."

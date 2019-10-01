@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.getting-started-identity.5-exercise-different-account-types
+metadata:
+  title: Exercise - Account types in Microsoft Identity
+  description: This exercise will demonstrate the different account types that are used within the Microsoft Identity platform.
+  ms.date: 10/25/2019
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: microsoft-identity-platform
+title: Exercise - Account types in Microsoft Identity
+durationInMinutes: 20
+content: |
+  [!include[](includes/5-exercise-different-account-types.md)]
+quiz:
+  title: Test your knowledge
+  questions: 
+  - content: "What is the primary difference between single tenant apps and multi-tenant apps?"
+    choices:
+    - content: "Single tenant apps reserve the name of the app across all Azure AD directories, while the name of multi-tenant apps can be used in multiple Azure AD directories."
+      isCorrect: false
+      explanation: "This isn't correct because the name of the registered application has no impact on if an app is single or multi-tenant."
+    - content: "Single tenant apps can only be used in one tenant while multi-tenant apps can be copied into multiple Azure AD directories."
+      isCorrect: false
+      explanation: "This isn't correct because multi-tenant apps cannot be copied across Azure AD directories."
+    - content: "Single tenant apps allow only users from the app's directory to sign in, while multi-tenant apps support users multiple tenants to sign in and use the app."
+      isCorrect: true
+      explanation: "This is the correct answer."
+  - content: "What is the key difference between an application and a service principal?"
+    choices:
+    - content: "Application objects exist in the directory where the application is created, where service principal objects exist in each Azure AD tenant where the application is used."
+      isCorrect: true
+      explanation: "Correct! Proceed to the next unit in the module."
+    - content: "Application objects are templates that exist in every directory where an application is used. They're used to create service principals that can be customized in each directory."
+      isCorrect: false
+      explanation: "This isn't correct, because an application object only exists in the directory where the application is created."
+    - content: "Service principals exist in the directory where the application is created, where application objects exist in each Azure AD tenant where the application is used."
+      isCorrect: false
+      explanation: "This isn't correct because the application and service principal objects are reversed in this answer."
