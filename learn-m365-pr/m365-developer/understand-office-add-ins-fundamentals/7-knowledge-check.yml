@@ -26,7 +26,7 @@ quiz:
     - content: "A developer publishes their add-in to AppSource to hide it from the general public."
       isCorrect: false
       explanation: "A developer publishes their add-in to AppSource to make it available to the general public."
-  - content: "The user needs to sign in to access add-in functionality within an Office application. Which Office Add-in platform feature should the developer display to facilitate the sign in process?"
+  - content: "The user needs to sign in to access add-in functionality within an Office application. Which Office Add-in platform feature should the developer display to facilitate the sign-in process?"
     choices:
     - content: "add-in command"
       isCorrect: false
