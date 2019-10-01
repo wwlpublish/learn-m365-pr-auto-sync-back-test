@@ -2,7 +2,7 @@ Welcome to Microsoft Service Adoption Specialist training! This training is for 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3HdXO]
 
-This course uses the implementation of Microsoft Teams as our example service. The service adoption framework is designed to apply to any service you need to implement. However there's some information, for example, the technical acumen section, that's specific to Microsoft Teams. All the information you need to complete this course are contained in this course. If you'd like to go deeper in the technical implementation of Microsoft Teams, check out Manage team collaboration with Microsoft Teams. 
+This course uses the implementation of Microsoft Teams as our example service. The service adoption framework is designed to apply to any service you need to implement. However there's some information, for example, the technical acumen section, that's specific to Microsoft Teams. All the information you need to complete this course is contained in this course. If you'd like to go deeper in the technical implementation of Microsoft Teams, check out [Manage team collaboration with Microsoft Teams](https://docs.microsoft.com/learn/paths/m365-manage-team-collaboration/). 
 
 You'll learn about the following areas:
 
@@ -35,7 +35,7 @@ We use certain examples and data points during this training. This helps standar
    - 1 in London, England 
    - 1 in Mexico City, Mexico
 - Your company, called "Contoso," has 3,500 employees, is privately held, and has been in business for over 15 years.
-- You support sales staff, who are regionally located, work from home (instead of on your corporate campus) and at customer sites. 
+- You support the sales staff, who are regionally located, work both from home (instead of on your corporate campus) and at customer sites. 
 - Contoso produces a product and delivers services that support that product. Recently your company has been under competitive pressure from new start-ups that threaten your hold on your market share. 
 - Your company uses Microsoft technology but has many other types of software and services from a variety of vendors. This includes consumer applications like What's App or simple SMS texting, commonly referred to as "shadow IT." This is especially common with your remote sales staff.
 - You don't have a large IT or training staff. Budgets in the IT department have been under financial pressure. Everyone is asked to "do more with less."
@@ -50,7 +50,7 @@ This training is designed as a standalone experience. There are additional readi
 **Optional:**
 - [Agile Service Management](https://www.youtube.com/watch?v=Njt-usUEfrY) overview by Karuana Gatimu (video)
 - Agile Project Management with Kanban by Eric Brechner
-- Good Governance with David Johnson, Microsoft IT Showcase 
+- [Good Governance with David Johnson](https://www.microsoft.com/itshowcase/blog/the-key-to-rolling-out-microsoft-teams-on-home-turf-good-governance/), Microsoft IT Showcase 
 - [Coffee in the Cloud](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg) YouTube channel with long & short form videos for Champions and IT Pros
 - [Case Study: User adoption at Best Buy - "Best Buy Ninjas"](https://channel9.msdn.com/Events/SharePoint-Conference/2014/SPC296) (Video presentation from SharePoint Conference, 1:13 duration)
 
