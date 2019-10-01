@@ -1,0 +1,41 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.understand-office-add-ins-fundamentals.7-knowledge-check
+metadata:
+  title: Check your knowledge
+  description: In this unit, you'll check your knowledge about fundamental Office Add-ins concepts.
+  ms.date: 10/01/2019
+  author: ElizabethSamuel-MSFT
+  ms.author: elizs
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+title: Check your knowledge
+durationInMinutes: 1
+content:
+quiz:
+  title: Fundamental concepts about Office Add-ins
+  questions:
+  - content: "Were you able to log in to the Azure CLI 2.0?"
+    choices:
+    - content: "Yes"
+      isCorrect: true
+      explanation: "Great! Proceed to the next step in the tutorial."
+    - content: "No"
+      isCorrect: false
+      explanation: Try to log in to your Azure account at [https://portal.azure.com]. If you can't, try resetting your password, then logging in again.
+  - content: "Were you able to log in to the Azure CLI 2.0?"
+    choices:
+    - content: "Yes"
+      isCorrect: true
+      explanation: "Great! Proceed to the next step in the tutorial."
+    - content: "No"
+      isCorrect: false
+      explanation: Try to log in to your Azure account at [https://portal.azure.com]. If you can't, try resetting your password, then logging in again.
+  - content: "Were you able to log in to the Azure CLI 2.0?"
+    choices:
+    - content: "Yes"
+      isCorrect: true
+      explanation: "Great! Proceed to the next step in the tutorial."
+    - content: "No"
+      isCorrect: false
+      explanation: Try to log in to your Azure account at [https://portal.azure.com]. If you can't, try resetting your password, then logging in again.

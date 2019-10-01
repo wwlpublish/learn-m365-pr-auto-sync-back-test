@@ -10,6 +10,6 @@ metadata:
   ms.prod: learning-m365
   ROBOTS: NOINDEX
 title: Understand add-in commands
-durationInMinutes: 1
+durationInMinutes: 2
 content: |
   [!include[](includes/5-understand-add-in-commands.md)]

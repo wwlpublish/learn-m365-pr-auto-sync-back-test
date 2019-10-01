@@ -32,6 +32,7 @@ units:
 - learn-m365-pr.understand-office-add-ins-fundamentals.4-understand-custom-functions
 - learn-m365-pr.understand-office-add-ins-fundamentals.5-understand-add-in-commands
 - learn-m365-pr.understand-office-add-ins-fundamentals.6-understand-manifest-purpose
-- learn-m365-pr.understand-office-add-ins-fundamentals.7-summary
+- learn-m365-pr.understand-office-add-ins-fundamentals.7-knowledge-check
+- learn-m365-pr.understand-office-add-ins-fundamentals.8-summary
 badge:
   uid: learn-m365-pr.understand-office-add-ins-fundamentals.badge

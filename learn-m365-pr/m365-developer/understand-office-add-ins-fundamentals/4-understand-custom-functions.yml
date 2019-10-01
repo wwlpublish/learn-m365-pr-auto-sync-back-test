@@ -10,6 +10,6 @@ metadata:
   ms.prod: learning-m365
   ROBOTS: NOINDEX
 title: Understand Office Add-ins custom functions
-durationInMinutes: 1
+durationInMinutes: 2
 content: |
   [!include[](includes/4-understand-custom-functions.md)]
