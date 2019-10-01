@@ -1,15 +1,15 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365-pr.understand-office-add-ins-fundamentals.2-understand-task-panes-content-add-ins
 metadata:
-  title: Understand task panes and content add-ins
-  description: In this unit, you will learn about task panes and content add-ins.
+  title: Understand task pane and content add-ins
+  description: In this unit, you'll learn about task pane and content add-ins.
   ms.date: 10/01/2019
   author: ElizabethSamuel-MSFT
   ms.author: elizs
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
   ROBOTS: NOINDEX
-title: Understand task panes and content add-ins
-durationInMinutes: 1
+title: Understand task pane and content add-ins
+durationInMinutes: 2
 content: |
   [!include[](includes/2-understand-task-panes-content-add-ins.md)]
