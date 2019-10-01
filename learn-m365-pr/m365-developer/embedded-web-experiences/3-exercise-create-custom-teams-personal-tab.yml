@@ -8,6 +8,7 @@ metadata:
   ms.author: v-johnco
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
+  ROBOTS: NOINDEX
 title: Exercise - Create a custom Microsoft Teams personal tab
 durationInMinutes: 15
 content: >-
@@ -31,7 +32,7 @@ quiz:
     - content: "Web pages loaded in a tab must be loaded from an HTTPS secured endpoint"
       isCorrect: false
       explanation: "This is true, the content page loaded in a tab must be served from an HTTPS source."
-    - content: "Web pages loaded in a tab must support loading in an <iframe>."
+    - content: "Web pages loaded in a tab must support loading in an iframe."
       isCorrect: false
       explanation: "This is true, the content page loaded in a tab must allow itself to be loaded within an <iframe>."
     - content: "All content pages loaded in tabs must implement their interface with a web framework, such as React, Angular, or Vue.js"

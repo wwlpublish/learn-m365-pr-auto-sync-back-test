@@ -10,7 +10,7 @@ OAuth 2.0 is an open standard for authentication and authorization used by Azure
 
 One thing to keep in mind when building custom tabs that require the user to be authenticated: don't assume the current user in Teams is the authenticated user. The Microsoft Teams context can provide information about the current user, such as context hints like the current user’s ID, but your tab shouldn't treat it as a proof of identity.
 
-Recall that a custom tab is just an \<iframe\> displaying the contents of a web application. Your web app can use placeholder values added to the URL by Microsoft Teams such as the current user’s profile name (also known as the `userProfileName` or UPN). A malicious user could send someone a URL that loads your web app with someone elses profile in the URL with the goal of obtaining someone elses information.
+Recall that a custom tab is just an \<iframe\> displaying the contents of a web application. Your web app can use placeholder values added to the URL by Microsoft Teams such as the current user’s profile name (also known as the `userProfileName` or UPN). A malicious user could send someone a URL that loads your web app with someone else's profile in the URL with the goal of obtaining someone else's information.
 
 Therefore, you should never treat this information as proof of identity of the current user. Instead, use it as the login hint when prompting the user to sign in.
 

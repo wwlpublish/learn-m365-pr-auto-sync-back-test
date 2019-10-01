@@ -8,6 +8,7 @@ metadata:
   ms.author: v-johnco
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
+  ROBOTS: NOINDEX
 title: Exercise - Implement authentication in a custom tab
 durationInMinutes: 29
 content: >-
@@ -23,7 +24,7 @@ quiz:
     - content: "Microsoft requires users see a window appear to be explicit they're logging into a different site."
       isCorrect: false
       explanation: "There is no such requirement."
-    - content: "Most identity providers don't render their sign-in experience when loaded in an <iframe>."
+    - content: "Most identity providers don't render their sign-in experience when loaded in an iframe."
       isCorrect: true
       explanation: "Correct!"
   - content: "How can developers implement single sign-on (SSO) in Microsoft Teams tabs?"
@@ -31,7 +32,7 @@ quiz:
     - content: "Silent signon in Azure AD can be used to implement a simplified form of SSO."
       isCorrect: true
       explanation: "Correct!"
-    - content: "SSO is not possible in Microsoft Teams tabs because of the <iframe> requirement."
+    - content: "SSO is not possible in Microsoft Teams tabs because of the iframe requirement."
       isCorrect: false
       explanation: "Developers can use silent authentication in Azure AD as a simplified form of SSO."
     - content: "SSO can be enabled with a setting by enterprise customers in the Microsoft Teams Admin Center."
