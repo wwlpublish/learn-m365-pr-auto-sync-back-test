@@ -22,7 +22,7 @@ products:
 - m365
 
 modules:
-- learn-m365.m365-security-threat-protection
+- learn-m365.m365-security-threat-define
 
 trophy: 
   uid: learn-m365.m365-security-threat-protection.trophy
