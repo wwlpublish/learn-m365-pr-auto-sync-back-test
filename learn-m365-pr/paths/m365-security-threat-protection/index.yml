@@ -1,0 +1,28 @@
+### YamlMime:LearningPath
+uid: learn-m365.m365-security-threat-protection
+metadata:
+  title: Defend against threats with Microsoft 365 and Microsoft Threat Protection
+  description: Microsoft Threat Protection in Microsoft 365 addresses today's security challenges by securing your organization's assets and proactively identifying and protecting against persistent threats to your network endpoints.
+  ms.date: 10/02/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+title: Defend against threats with Microsoft 365 and Microsoft Threat Protection
+summary: Microsoft Threat Protection in Microsoft 365 addresses today's security challenges by securing your organization's assets and proactively identifying and protecting against persistent threats to your network endpoints.
+prerequisites: | 
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+iconUrl: http://via.placeholder.com/120x120
+levels: 
+- intermediate
+roles:
+- administrator
+products: 
+- m365
+
+modules:
+- learn-m365.m365-security-threat-protection
+
+trophy: 
+  uid: learn-m365.m365-security-threat-protection.trophy
