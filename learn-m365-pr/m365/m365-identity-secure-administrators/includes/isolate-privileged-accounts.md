@@ -20,6 +20,11 @@ You can also use Azure AD Privileged Identity Management (PIM) to identify accou
 
 *Azure AD Privileged Identity Management dashboard*
 
+|![Try it icon](../media/activity.png) Try it|
+|-| 
+|Explore Privileged Identity Management with this interactive guide:<br><br><a href="https://mslearn.cloudguides.com/en-us/guides/Reduce%20security%20risk%20with%20Privileged%20Identity%20Management">![Reduce security risk](../media/pim-cloudguide.png)</a><br><br>Be sure to click the full-screen option in the video player, to make it easier to see. When you're done, use the **Back** arrow in your browser to come back to this page.|
+
+
 ## Learn more
 
 [Securing privileged access for hybrid and cloud deployments in Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-admin-roles-secure#general-preparation)
