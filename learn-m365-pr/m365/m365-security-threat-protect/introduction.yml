@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-security-threat-protect.introduction
+title: Introduction to security threat protection
+metadata:
+  title: Introduction to security threat protection
+  description: Description goes here 
+  ms.date: 10/02/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+  [!include[](includes/introduction.md)]
