@@ -23,7 +23,7 @@ Plan your SSO configuration. For example, you can:
 
 |![Try it icon](../media/activity.png) Try it|
 |-| 
-|Explore SSO with this interactive guide:<br><br><a href="https://mslearn.cloudguides.com/en-us/guides/Configure%20single%20sign-on%20in%20Azure%20AD">![Single-sign On](../media/sso-cloudguide.png)</a><br><br>Be sure to click the full-screen option in the video player, to make it easier to see all of the great Microsoft Teams features. When you're done, use the **Back** arrow in your browser to come back to this page.|
+|Explore SSO with this interactive guide:<br><br><a href="https://mslearn.cloudguides.com/en-us/guides/Configure%20single%20sign-on%20in%20Azure%20AD">![Single-sign On](../media/sso-cloudguide.png)</a><br><br>Be sure to click the full-screen option in the video player, to make it easier to see. When you're done, use the **Back** arrow in your browser to come back to this page.|
 
 ## What is role-based access
 
