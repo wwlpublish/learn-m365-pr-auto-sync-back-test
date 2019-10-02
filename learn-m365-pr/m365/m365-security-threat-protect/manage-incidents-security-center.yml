@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-security-threat-protect.manage-incidents-security-center
+title: Manage incidents in Microsoft 365 security center
+metadata:
+  title: Manage incidents in Microsoft 365 security center
+  description: Description goes here 
+  ms.date: 10/02/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+  [!include[](includes/manage-incidents-security-center.md)]
