@@ -1,1 +1,1 @@
-Understand Office JavaScript APIs
+Introduction to Office JavaScript APIs
