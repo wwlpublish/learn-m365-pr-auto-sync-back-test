@@ -1,15 +1,15 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365-pr.understand-office-add-ins-customization.1-introduction
 metadata:
-  title: Understand how to customize Office Add-ins
-  description: This unit is an introduction to how you can customize Office Add-ins.
-  ms.date: 10/01/2019
+  title: Introduction to Office Add-ins customization
+  description: In this module, you'll learn how to customize Office Add-ins.
+  ms.date: 10/03/2019
   author: ElizabethSamuel-MSFT
   ms.author: elizs
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
   ROBOTS: NOINDEX
-title: Understand how to customize Office Add-ins
+title: Introduction to Office Add-ins customization
 durationInMinutes: 1
 content: |
   [!include[](includes/1-introduction.md)]
