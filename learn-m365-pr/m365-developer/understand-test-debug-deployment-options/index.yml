@@ -3,7 +3,7 @@ uid: learn-m365-pr.understand-test-debug-deployment-options
 metadata:
   title: Understand testing, debugging, and deployment options
   description: Learn about testing, debugging, and deployment options for Office Add-ins.
-  ms.date: 10/01/2019
+  ms.date: 10/03/2019
   author: ElizabethSamuel-MSFT
   ms.author: elizs
   ms.topic: interactive-tutorial
@@ -23,6 +23,7 @@ units:
 - learn-m365-pr.understand-test-debug-deployment-options.1-introduction
 - learn-m365-pr.understand-test-debug-deployment-options.2-choose-deployment-option
 - learn-m365-pr.understand-test-debug-deployment-options.3-understand-test-debug-office-add-ins
-- learn-m365-pr.understand-test-debug-deployment-options.4-summary
+- learn-m365-pr.understand-test-debug-deployment-options.4-knowledge-check
+- learn-m365-pr.understand-test-debug-deployment-options.5-summary
 badge:
   uid: learn-m365-pr.understand-test-debug-deployment-options.badge

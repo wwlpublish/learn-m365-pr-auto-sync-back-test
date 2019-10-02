@@ -8,8 +8,7 @@ As you develop your Office Add-in and prepare to make it available to your users
 |Target platforms|Windows, Mac|
 |Scope of user base|your organization, general public|
 
-> [!NOTE]
-> In this unit, we are not discussing web application hosting options.
+## Deployment options
 
 You have several options for deploying your add-in. The following table notes each option and when it should be used.
 
