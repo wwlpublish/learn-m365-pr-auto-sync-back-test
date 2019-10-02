@@ -12,39 +12,39 @@ metadata:
 title: Check your knowledge
 durationInMinutes: 1
 content: ''
-quiz: 
-  title: Customize Office Add-ins 
-  questions: 
-  - content: "TODO: Question 1" 
-    choices: 
-    - content: "First answer" 
-      isCorrect: false 
-      explanation: "Some explanation" 
-    - content: "Second answer" 
-      isCorrect: true 
-      explanation: "Some explanation" 
-    - content: "Third answer" 
-      isCorrect: false 
-      explanation: "Some explanation" 
-  - content: "TODO: Question 2" 
-    choices: 
-    - content: "First answer" 
-      isCorrect: false 
-      explanation: "Some explanation" 
-    - content: "Second answer" 
-      isCorrect: true 
-      explanation: "Some explanation" 
-    - content: "Third answer" 
-      isCorrect: false 
-      explanation: "Some explanation" 
-  - content: "TODO: Question 3" 
-    choices: 
-    - content: "First answer" 
-      isCorrect: false 
-      explanation: "Some explanation" 
-    - content: "Second answer" 
-      isCorrect: true 
-      explanation: "Some explanation" 
-    - content: "Third answer" 
-      isCorrect: false 
+quiz:
+  title: Customize Office Add-ins
+  questions:
+  - content: "TODO: Question 1"
+    choices:
+    - content: "First answer"
+      isCorrect: false
+      explanation: "Some explanation"
+    - content: "Second answer"
+      isCorrect: true
+      explanation: "Some explanation"
+    - content: "Third answer"
+      isCorrect: false
+      explanation: "Some explanation"
+  - content: "TODO: Question 2"
+    choices:
+    - content: "First answer"
+      isCorrect: false
+      explanation: "Some explanation"
+    - content: "Second answer"
+      isCorrect: true
+      explanation: "Some explanation"
+    - content: "Third answer"
+      isCorrect: false
+      explanation: "Some explanation"
+  - content: "TODO: Question 3"
+    choices:
+    - content: "First answer"
+      isCorrect: false
+      explanation: "Some explanation"
+    - content: "Second answer"
+      isCorrect: true
+      explanation: "Some explanation"
+    - content: "Third answer"
+      isCorrect: false
       explanation: "Some explanation"
