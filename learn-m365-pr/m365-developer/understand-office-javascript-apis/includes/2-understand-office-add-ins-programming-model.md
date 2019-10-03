@@ -25,6 +25,7 @@ if (Office.context.requirements.isSetSupported(RequirementSetName, MinimumVersio
 
 > [!NOTE]
 > **Office Insider's Program**
+>
 > To get the earliest or monthly changes to any of the Office hosts, you can join the Office Insider's program. This program is for Windows PC only and requires an Office 365 subscription. From any Office application, select **File > Account > Office Insider** to quickly join the program.
 
 ## Using Office JS APIs
