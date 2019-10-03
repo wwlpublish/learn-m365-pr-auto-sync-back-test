@@ -40,11 +40,10 @@ After the user signs in, your add-in gets an access token to use in subsequent A
 
 Consider the following points on authorization.
 
-1. Does the user have access to this information?
-    - The user needs to already be authorized to manage that information or complete the task.
-
-2. Does your add-in have a scope needed to complete those actions?
-    - At best, the add-in can be authorized up to the user's own scope.
+- Does the user have access to this information?
+  - The user needs to already be authorized to manage that information or complete the task.
+- Does your add-in have a scope needed to complete those actions?
+  - At best, the add-in can be authorized up to the user's own scope.
 
 ### Recommended libraries
 
