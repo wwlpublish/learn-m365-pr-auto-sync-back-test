@@ -5,7 +5,7 @@ The Word JavaScript APIs give your add-ins access to Word documents. A Word add-
 To understand the Word APIs, you must see how the main components of a document relate to each other.
 
 - A **Document** contains a **Body** and at least one **Section**.
-- A **Body** can contain the following.
+- A **Body** can contain:
   - **Paragraph** (one or more)
   - **Table** (one or more)
   - **List** (one or more)
@@ -13,11 +13,42 @@ To understand the Word APIs, you must see how the main components of a document 
   - Objects like images and lists
 - A **Section** gives access to its body, headers, and footers.
 
-## Key features
+## Key scenarios
+
+In this section, you'll learn about a couple of key scenarios for Word APIs.
+
+- Document assembly
+- Search
+
+> [!NOTE]
+> You can apply simple formatting to an entire existing document using the Office.js APIs. However, if you wish to apply complex formatting or use rich content objects, you can use Office Open XML (OOXML) to create these effects. Examples of capabilities in OOXML include applying drop shadows to text or pictures, coercing text boxes into shapes, and inserting Excel charts as live charts in Word documents. Because this is a more advanced skill, we will not cover this subject in its entirety but mention it for developers who are familiar with OOXML.
 
 ### Document assembly
 
-### Templates and placeholders
+In addition to using the `Office.onReady()` event handler, add-ins that target Word 2016 or later run by passing a function into the `Word.run()` method. The function passed into the `run()` method must have a context object, which allows you to interact with the Word runtime environment. It's within this context object that you create a proxy object for the Word document and load any properties you wish to use, as well as program actions to run on those properties. As always, a `context.sync()` command then synchronizes the state between the proxy objects and objects in the Word document.
+
+The following example shows code that inserts text after the body text of a Word document. For simplicity, this sample omits the `Office.onReady()` code and focuses on the code within a `Word.run()` code block.
+
+```js
+// Run a batch operation against the Word JavaScript API.
+Word.run(function (context) {
+    // Create a proxy object for the document body.
+    var body = context.document.body;
+
+    // Queue a command to load the text property of the proxy body object.
+    body.load("text");
+
+    // Queue a command to insert text into the end of the Word document body.
+    body.insertText('This is text inserted after loading the body.text property',
+                    Word.InsertLocation.end);
+
+    // Synchronize the document state by executing the queued commands,
+    // and return a promise to indicate task completion.
+    return context.sync().then(function () {
+        console.log("Body contents: " + body.text);
+    });
+})
+```
 
 ### Search
 
