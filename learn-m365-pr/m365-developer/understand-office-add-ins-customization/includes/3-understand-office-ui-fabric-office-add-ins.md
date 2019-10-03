@@ -9,6 +9,8 @@ Office UI Fabric has two (2) main areas:
 
 ### Fabric Core
 
+Fabric Core provides basic design elements that reflect or sync with Office branding.
+
 To start using Fabric Core, reference the CSS in your HTML page, as shown in the following code.
 
 ```html
@@ -22,3 +24,21 @@ You can then use Fabric icons, fonts, and colors. The following example shows ho
 ```
 
 ### Fabric components
+
+Fabric React provides UX components for input, navigation, notification, and other categories. It builds on and includes Fabric Core.
+
+Recommended components you can use in your add-in are as follows:
+
+- Breadcrumb
+- Button
+- Checkbox
+- ChoiceGroup
+- Dropdown
+- Label
+- List
+- Pivot
+- TextField
+- Toggle
+
+> [!TIP]
+> You can use the Yeoman generator for Office Add-ins to create a project that references Fabric React. An available project type is `Office Add-in Task Pane project using React framework`.
