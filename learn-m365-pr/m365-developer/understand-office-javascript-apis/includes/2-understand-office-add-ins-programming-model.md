@@ -14,9 +14,9 @@ You may not always have control over the version of Office your users have insta
   
 Requirement sets can be specific to Office hosts, such as an ExcelApi 1.7 set, or common to multiple hosts, such as the Dialog API. Requirement set support varies by Office host and host version.
 
-It's possible to programmatically check if requirement sets are supported by your add-in's Office host, using `isSetSupported`. If the requirement set is supported, isSetSupported returns `true` and runs the additional code that uses the API members from that requirement set. If the Office host doesn't support the requirement set, isSetSupported returns `false` and the additional code won't run. The following code shows the syntax to use with isSetSupported.
+It's possible to programmatically check if requirement sets are supported by your add-in's Office host, using `isSetSupported`. If the requirement set is supported, `isSetSupported` returns `true` and runs the additional code that uses the API members from that requirement set. If the Office host doesn't support the requirement set, `isSetSupported` returns `false` and the additional code won't run. The following code shows the syntax to use with `isSetSupported`.
 
-```JavaScript
+```js
 if (Office.context.requirements.isSetSupported(RequirementSetName, MinimumVersion))
 {
    // Code that uses API members from RequirementSetName.
@@ -40,7 +40,7 @@ Along with adding this CDN link, all Office Add-ins require an `Office.onReady()
   
 If you're using additional JavaScript frameworks that include their own initialization handler or tests, they should be placed within the response to `Office.onReady()`. For example, JQuery's `$(document).ready()` function would be referenced as follows.
 
-```JavaScript
+```js
 Office.onReady(function() {
      // Office is ready.
      $(document).ready(function () {
@@ -59,7 +59,7 @@ Before you can read the properties of a proxy object, you must load the properti
 
 The example below shows a batch function that defines a local proxy object (`selectedRange`), loads the properties of that object, and then uses JavaScript Promises to call `context.sync()` to synchronize the state between proxy objects and objects in Excel file. `Excel.run` is required for this specific host, to load properties that affect platform behavior when the function runs. Not all hosts contain a run call.
 
-```javascript
+```js
 Excel.run(function (context) {
     var selectedRange = context.workbook.getSelectedRange();
     selectedRange.load('address');
