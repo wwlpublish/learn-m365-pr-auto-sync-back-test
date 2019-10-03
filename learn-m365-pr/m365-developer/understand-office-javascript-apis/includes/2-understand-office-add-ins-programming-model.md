@@ -6,7 +6,7 @@ The Office Add-in programming model relies on two JavaScript object models:
   - dialogs
   - client settings that are common across multiple types of Office applications.
   
-Outlook and custom functions don't use quite the same programming model as described in this unit but will be covered in later units.
+Custom functions don't use quite the same programming model as described in this unit but will be covered in a later unit.
 
 ## Requirement sets
 
