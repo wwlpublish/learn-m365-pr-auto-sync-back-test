@@ -3,7 +3,7 @@ uid: learn-m365.m365-security-threat-protection
 metadata:
   title: Defend against threats with Microsoft 365 and Microsoft threat protection
   description: Microsoft Threat Protection in Microsoft 365 addresses today's security challenges by securing your organization's assets and proactively identifying and protecting against persistent threats to your network endpoints.
-  ms.date: 10/02/2019
+  ms.date: 10/03/2019
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
@@ -24,6 +24,7 @@ products:
 modules:
 - learn-m365.m365-security-threat-define
 - learn-m365.m365-security-threat-protect
+- learn-m365.m365-security-threat-train
 
 trophy: 
   uid: learn-m365.m365-security-threat-protection.trophy
