@@ -1,0 +1,30 @@
+### YamlMime:Module
+uid: learn-m365.service-adoption-intro
+metadata:
+  title: Introduction to the Microsoft service adoption framework
+  description: Overview of the service adoption framework and its application
+  ms.date: 10/01/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Introduction to the Microsoft service adoption framework
+summary: Learn about the Microsoft service adoption framework and the Service Adoption Specialist role.
+abstract: |
+  At the end of this module, you should be able to:
+  - Understand the service adoption framework and the key knowledge areas  
+prerequisites: None
+iconUrl: /learn/achievements/introduction-to-the-microsoft-service-adoption-framework.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+units:
+- learn-m365.service-adoption-intro.introduction
+- learn-m365.service-adoption-intro.service-adoption-framework
+- learn-m365.service-adoption-intro.required-knowledge
+- learn-m365.service-adoption-intro.summary-knowledge-check
+badge: 
+  uid: learn-m365.service-adoption-intro.badges
