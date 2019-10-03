@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.m365-security-threat-define.intelligence-security-graph
-title: Our threat intelligence and Security Graph
+title: Microsoft's response to threat intelligence
 metadata:
-  title: Our threat intelligence and Security Graph
+  title: Microsoft's response to threat intelligence
   description: Description goes here  
-  ms.date: 10/02/2019
+  ms.date: 10/03/2019
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial

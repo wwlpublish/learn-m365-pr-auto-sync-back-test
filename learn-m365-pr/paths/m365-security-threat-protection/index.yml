@@ -8,7 +8,6 @@ metadata:
   ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-  ROBOTS: NOINDEX
 title: Defend against threats with Microsoft 365 and Microsoft threat protection
 summary: Microsoft Threat Protection in Microsoft 365 addresses today's security challenges by securing your organization's assets and proactively identifying and protecting against persistent threats to your network endpoints.
 prerequisites: | 
