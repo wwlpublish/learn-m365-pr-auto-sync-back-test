@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-identity.m365-cultural-shift.build-it-awareness
+title: Build IT awareness
+metadata:
+  title: Build IT awareness
+  description:  Learn about building IT awareness of identity security
+  ms.date: 09/06/2019
+  author: puffinanda
+  ms.author: v-jolev
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 2
+content: |
+  [!include[](includes/build-it-awareness.md)]

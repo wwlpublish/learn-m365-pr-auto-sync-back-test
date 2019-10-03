@@ -1,0 +1,15 @@
+﻿### YamlMime:ModuleUnit
+uid: learn-m365-pr.introduction-to-modern-management-in-microsoft-365.1-introduction
+title: Introduction
+metadata:
+  title: Introduction
+  description: Modern management overview
+  ms.date: 9/4/2019
+  author: dahans-msft2
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS:   NOINDEX 
+durationInMinutes: 5
+content: |
+  [!include[](includes/1-introduction.md)] 
