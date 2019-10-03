@@ -1,0 +1,73 @@
+﻿### YamlMime:ModuleUnit
+uid: learn-wwl.manage-applications-by-using-microsoft-intune.7-summary-and-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Check your knowledge of content from this module.
+  ms.date: 09/10/2019
+  author: Bneeb@microsoft.com
+  ms.author: Bneeb
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX 
+durationInMinutes: 4
+content: |
+  [!include[](includes/7-summary-and-knowledge-check.md)] 
+quiz:
+  questions:
+  - content: "Which of the following Intune MAM configurations allows IT administrators to manage apps on devices not enrolled with Intune MDM?"
+    choices:
+    - content: "MAM without device enrollment"
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "System Center Configuration Manager"
+      isCorrect: false
+      explanation: "Incorrect."
+    - content: "Intune MDM + MAM"
+      isCorrect: false
+      explanation: "Incorrect. This is the opposite."
+    - content: "Enterprise Mobility"
+      isCorrect: false
+      explanation: "Incorrect."
+  - content: "What is the first step in the Intune Application Management lifecycle?"
+    choices:
+    - content: "Define app policies."
+      isCorrect: false
+      explanation: "Incorrect."
+    - content: "Deploy apps to users."
+      isCorrect: false
+      explanation: "Incorrect."
+    - content: "Set app retirement policy"
+      isCorrect: false
+      explanation: "Incorrect."
+    - content: "Add apps to Intune."
+      isCorrect: true
+      explanation: "Correct!"
+  - content: "Which of the following best describes the methods available for protecting data in your Intune deployed apps?"
+    choices:
+    - content: "Conditional Access and App protection policies."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "App protection policies only"
+      isCorrect: false
+      explanation: "Incorrect."
+    - content: "Data loss prevention policies"
+      isCorrect: false
+      explanation: "Incorrect."
+    - content: "Group Policy Objects (GPO)"
+      isCorrect: false
+      explanation: "Incorrect."
+  - content: "Which of the following is an available update channel for Office Pro Plus apps deployed through Intune?"
+    choices:
+    - content: "Daily."
+      isCorrect: false
+      explanation: "Incorrect."
+    - content: "Yearly."
+      isCorrect: false
+      explanation: "Incorrect."
+    - content: "Semi-Annual."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Weekly."
+      isCorrect: false
+      explanation: "Incorrect."
