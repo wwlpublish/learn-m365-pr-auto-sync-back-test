@@ -66,6 +66,12 @@ The following table lists a few example tasks based on a user's selection.
 > [!NOTE]
 > Contextual add-ins are not currently available in Outlook on Android and iOS at this time.
 
+The following image shows a contextual add-in being displayed in Outlook.
+
+![A contextual add-in displayed in Outlook](../media/outlook-detected-entity-card.png)
+
+*A contextual add-in displayed in Outlook*
+
 A contextual add-in's manifest must include an `ExtensionPoint` element with an `xsi:type` attribute set to `DetectedEntity`. Within the `ExtensionPoint` element, the add-in specifies the entities or regular expression that can activate it. If an entity is specified, the entity can be any of the properties in the `Entities` object.
 
 As such, the add-in manifest must contain a rule of type `ItemHasKnownEntity` or `ItemHasRegularExpressionMatch`. The following example shows how to specify that an add-in should activate on messages when it detects a phone number.
@@ -91,6 +97,12 @@ Module add-ins appear in the Outlook navigation bar, right alongside mail, tasks
 
 > [!NOTE]
 > Module add-ins are only supported in Outlook 2016 or later on Windows.
+
+The following image shows an example of a module extension add-in.
+
+![A Module add-in example in Outlook on Windows](../media/outlook-module-extension.png)
+
+*A Module add-in example in Outlook on Windows*
 
 To make a module add-in, include the module extension point in your add-in's manifest file. The following example shows a snippet of a manifest file adjusted to define a module extension.
 
