@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn-m365.m365-security-threat-define
 metadata:
-  title: Introduction to defining threat protection 
+  title: Overview of threat protection 
   description: Description goes here
-  ms.date: 10/02/2019
+  ms.date: 10/03/2019
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Introduction to defining threat protection  
+title: Overview of threat protection  
 summary: Summary goes here 
 abstract: |
   At the end of this module, you should be able to:

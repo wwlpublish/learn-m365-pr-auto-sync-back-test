@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.m365-security-threat-define.introduction
-title: Introduction to defining threat protection
+title: Introduction to threat protection
 metadata:
-  title: Introduction to defining threat protection
+  title: Introduction to threat protection
   description: Description goes here
-  ms.date: 10/02/2019
+  ms.date: 10/03/2019
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
