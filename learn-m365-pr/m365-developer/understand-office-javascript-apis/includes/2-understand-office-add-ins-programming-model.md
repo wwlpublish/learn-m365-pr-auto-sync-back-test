@@ -1,10 +1,10 @@
 The Office Add-in programming model relies on two JavaScript object models:
 
-- Host-specific JavaScript API: Host-specific APIs for Excel and Word provide strongly-typed objects that you can use to access specific elements in the host application. For example, the Excel API contains objects that represent worksheets, ranges, tables, charts, and more.
-- Common API: Introduced with Office 2013, the Common API enables you to access features such as:
+- Host-specific JavaScript API - Host-specific APIs for Excel and Word provide strongly-typed objects that you can use to access specific elements in the host application. For example, the Excel API contains objects that represent worksheets, ranges, tables, charts, and more.
+- Common API - Introduced with Office 2013, the Common API enables you to access features such as:
   - UI
-  - dialogs
-  - client settings that are common across multiple types of Office applications.
+  - Dialogs
+  - Client settings that are common across multiple types of Office applications
   
 Custom functions don't use quite the same programming model as described in this unit but will be covered in a later unit.
 
