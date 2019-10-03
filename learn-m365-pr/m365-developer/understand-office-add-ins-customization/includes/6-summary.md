@@ -1,4 +1,8 @@
-Summary
+In this module, you learned about Office Add-ins customizations, which include:
+
+- Options to persist state and settings
+- Office UI Fabric
+- Microsoft Graph
 
 ## Resources
 
