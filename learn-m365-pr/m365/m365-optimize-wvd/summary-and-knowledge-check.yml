@@ -1,0 +1,48 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.optimize-wvd.summary-and-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Review what you learned about optimizing Windows Virtual Desktop.
+  ms.date: 08/16/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+  [!include[](includes/summary-and-knowledge-check.md)]
+quiz:
+   title: Check your knowledge
+   questions:
+   - content: "Which of these steps is not part of creating an FSLogix profile?"
+     choices:
+     - content: "Create an Azure storage account with a file share"
+       isCorrect: false
+       explanation: "Incorrect. FSLogix profiles store user-assigned virtual disks in the file share in Azure."
+     - content: "Create a new role in Azure AD to read and write in Azure storage"
+       isCorrect: false
+       explanation: "Incorrect. You need a new role in Azure AD to read and write in Azure storage so users can access and modify the virtual disks that contain their user profile."
+     - content: "Install FSLogix software in Windows Virtual Desktop gallery images"
+       isCorrect: true
+       explanation: "Correct. FSLogix software is preinstalled in the Azure gallery images. If you use your *own* image, you'll need to install the FSLogix software yourself."
+   - content: "OneDrive Known Folder Move can back up and synchronize files located in a user’s Documents, Desktop, Downloads, and Pictures folders."
+     choices:
+     - content: "True"
+       isCorrect: false
+       explanation: "Incorrect. OneDrive Known Folder Move can only back up and synchronize files located in a user’s Documents, Desktop, and Pictures folders. The Downloads folder isn't an option."
+     - content: "False"
+       isCorrect: true
+       explanation: "Correct. OneDrive Known Folder Move can only back up and synchronize files located in a user’s Documents, Desktop, and Pictures folders. The Downloads folder isn't an option."
+   - content: "What's one of the primary reasons to use automated scaling in Windows Virtual Desktop?"
+     choices:
+     - content: "To increase virtual disk storage when users get close to reaching the limits in a VM."
+       isCorrect: false
+       explanation: "Incorrect. Automated scaling is used to provision and deprovision VMs to save costs based on user demands or usage patterns. Vertically scaling VM size is possible but not the primary reason for autoscaling."
+     - content: "To increase service uptime and availability"
+       isCorrect: false
+       explanation: "Incorrect. VM availability sets are used to help ensure service uptime and availability. Automated scaling is used to provision and deprovision VMs to save costs based on user demands or usage patterns."
+     - content: "To save costs by matching the number of running VMs to user demand"
+       isCorrect: true
+       explanation: "Correct. Automated scaling is used to provision and deprovision virtual machines in order to save costs based on user demands or usage patterns. The automation can be based on a schedule to match common business hours or actual resource utilization."

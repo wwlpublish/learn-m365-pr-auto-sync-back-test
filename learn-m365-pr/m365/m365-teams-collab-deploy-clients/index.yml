@@ -1,0 +1,33 @@
+### YamlMime:Module
+uid: learn-m365.m365-teams-collab-deploy-clients
+metadata:
+  title: Deploy Microsoft Teams clients
+  description: Learn about the various Microsoft Teams clients, including desktop, web, and mobile clients. Discover how to deploy each type of client and how the update process works.
+  ms.date: 09/03/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Deploy Microsoft Teams clients
+summary: Learn about the various Microsoft Teams clients, including desktop, web, and mobile clients. Discover how to deploy each type of client and how the update process works.  
+abstract: |
+  At the end of this module, you should be able to:
+  - Describe the differences between the different types of Teams clients.
+  - Explain how to deploy and turn on Teams clients.
+prerequisites: None
+iconUrl: /learn/achievements/deploy-ms-teams-clients.svg
+ratingEnabled: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- m365
+units:
+- learn-m365.m365-teams-collab-deploy-clients.introduction
+- learn-m365.m365-teams-collab-deploy-clients.desktop-clients
+- learn-m365.m365-teams-collab-deploy-clients.web-clients
+- learn-m365.m365-teams-collab-deploy-clients.mobile-clients
+- learn-m365.m365-teams-collab-deploy-clients.summary-knowledge-check
+badge: 
+  uid: learn-m365.m365-teams-collab-deploy-clients.badge

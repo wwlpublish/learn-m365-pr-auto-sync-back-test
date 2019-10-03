@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn-m365.optimize-network-traffic
+metadata:
+  title: Optimize network traffic with Microsoft Graph
+  description: Learn how Microsoft Graph uses throttling to maintain service health and how address this feature when creating applications.
+  ms.date: 10/01/2019
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Optimize network traffic with Microsoft Graph
+summary: Microsoft Graph provides a unified programmability model that you can use to build apps for organizations and consumers that interact with the data of millions of users. In this module, students will learn how Microsoft has implemented throttling to Microsoft Graph to limit the overuse of Microsoft Graph resources. Students will learn how to avoid requests from being throttled, as well as how to properly handle scenarios when Microsoft Graph throttles high user traffic in a graceful way.
+abstract: |
+  By the end of this module, you will be able to:
+  - Explain how Microsoft Graph maintains resource health
+  - Identify when Microsoft Graph throttles requests
+  - Decide the appropriate pattern to address throttled requests
+  - Create queries that mitigate throttling scenarios
+prerequisites: |
+  - Basic knowledge of REST services and APIs
+  - Ability to develop with ASP.NET Core at the intermediate level
+  - Experience using Visual Studio Code at the beginner level
+  - Access to an Office 365 tenant
+iconUrl: /learn/achievements/optimize-network-traffic.svg
+levels:
+  - intermediate
+roles:
+  - developer
+products:
+  - ms-graph
+units:
+- learn-m365.optimize-network-traffic.1-introduction
+- learn-m365.optimize-network-traffic.2-understand-throttling-microsoft-graph
+- learn-m365.optimize-network-traffic.3-exercise-understand-throttling-microsoft-graph
+- learn-m365.optimize-network-traffic.4-avoid-throttling-implement-throttling-strategies
+- learn-m365.optimize-network-traffic.5-exercise-avoid-throttling-implement-throttling-strategies
+- learn-m365.optimize-network-traffic.6-eliminate-polling-microsoft-graph-delta-query
+- learn-m365.optimize-network-traffic.7-exercise-eliminate-polling-microsoft-graph-delta-query
+- learn-m365.optimize-network-traffic.8-summary
+badge:
+  uid: learn-m365.optimize-network-traffic.badge

@@ -1,0 +1,15 @@
+﻿### YamlMime:ModuleUnit
+uid: learn-m365-pr.manage-windows-10-through-co-management-by-using-system-center-configuration-manager.4-using-co-management-to-execute-remote-actions
+title: Using co-management to execute remote actions
+metadata:
+  title: Using co-management to execute remote actions
+  description: Learn about how to manage devices remotely
+  ms.date: 9/4/2019
+  author: dahans-msft2
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS:   NOINDEX 
+durationInMinutes: 10
+content: |
+  [!include[](includes/4-using-co-management-to-execute-remote-actions.md)] 

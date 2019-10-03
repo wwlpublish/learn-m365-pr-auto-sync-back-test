@@ -1,0 +1,15 @@
+﻿### YamlMime:ModuleUnit
+uid: learn-m365-pr.manage-devices-by-using-microsoft-intune.1-modern-management-options
+title: Modern management options
+metadata:
+  title: Modern management options
+  description: Learn about modern device management options from Microsoft 365
+  ms.date: 9/3/2019
+  author: dahans-msft2
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS:   NOINDEX 
+durationInMinutes: 15
+content: |
+  [!include[](includes/1-modern-management-options.md)] 

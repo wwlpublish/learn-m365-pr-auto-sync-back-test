@@ -1,0 +1,40 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.embedded-web-experiences.5-exercise-create-custom-teams-channel-tab
+metadata:
+  title: Exercise - Create a custom Microsoft Teams personal tab
+  description: In this exercise, you will learn how to create a channel tab with a configuration page in a Microsoft Teams app.
+  ms.date: 10/01/2019
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+title: Exercise - Create a custom Microsoft Teams personal tab
+durationInMinutes: 22
+content: >-
+  [!include[](includes/5-exercise-create-custom-teams-channel-tab.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "How do personal tabs differ from channel tabs?"
+    choices:
+    - content: "Personal tabs can be installed in 1:1 chats and the app bar while channel tabs can only be installed in channels."
+      isCorrect: false
+      explanation: "Personal tabs can only be installed in the app bar while channel tabs can be installed in channels or group chats."
+    - content: "Personal tabs can be installed in channels but can only be seen by the user who installed it where channel tabs can be seen by everyone in the channel."
+      isCorrect: false
+      explanation: "Personal tabs cannot be installed in a channel; they are installed to the app bar."
+    - content: "Personal tabs should display information relevant only for the individual while channel tabs display information relevant to members in the team."
+      isCorrect: true
+      explanation: "Correct!"
+  - content: "Which type of tab can have both configuration and remove pages?"
+    choices:
+    - content: "Channel tabs"
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Personal tabs"
+      isCorrect: false
+      explanation: "Only channel tabs can have configuration pages."
+    - content: "Channel and personal tabs"
+      isCorrect: false
+      explanation: "Only channel tabs can have configuration pages."
