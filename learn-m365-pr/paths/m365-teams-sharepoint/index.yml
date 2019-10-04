@@ -3,12 +3,11 @@ uid: learn-m365.m365-teams-sharepoint
 metadata:
   title: Collaborate with SharePoint in Microsoft 365
   description: Manage shared content with Microsoft SharePoint introduces you to the features and capabilities of SharePoint, and how it works with Microsoft 365. You will learn about the different types of SharePoint sites, including hub sites, as well as information protection, reporting, and monitoring. You will learn how you can use SharePoint file and folder sharing to optimize collaboration, how to share files externally, and how to manage SharePoint sites in the SharePoint admin center.
-  ms.date: 09/18/2019
+  ms.date: 10/03/2019
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-  ROBOTS: NOINDEX
 title: Collaborate with SharePoint in Microsoft 365
 summary: "**Manage shared content with Microsoft SharePoint** introduces you to the features and capabilities of SharePoint, and how it works with Microsoft 365. You will learn about the different types of SharePoint sites, including hub sites, as well as information protection, reporting, and monitoring. You will learn how you can use SharePoint file and folder sharing to optimize collaboration, how to share files externally, and how to manage SharePoint sites in the SharePoint admin center."
 
