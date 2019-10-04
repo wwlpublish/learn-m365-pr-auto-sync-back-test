@@ -1,0 +1,54 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-teams-sharepoint-plan-sharepoint.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Discover how SharePoint works with Microsoft 365. Learn how security, access and authentication work in SharePoint as well as the role of the SharePoint administrator. 
+  ms.date: 09/10/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Which are the main activities of a SharePoint administrator?"
+      choices:
+      - content: "Managing sites and permissions"
+        isCorrect: true
+        explanation: "Managing sites and permissions are the primary activities of a SharePoint administrator."
+      - content: "Managing guest access in Teams"
+        isCorrect: false
+        explanation: "Managing sites and permissions are the primary activities of a SharePoint administrator."
+      - content: "Managing Office 365 Groups governance features"
+        isCorrect: false
+        explanation: "Managing sites and permissions are the primary activities of a SharePoint administrator."
+
+    - content: "Which type of SharePoint site is integrated with an Office 365 Group by default?"
+      choices:
+      - content: "Communication sites"
+        isCorrect: false
+        explanation: "Team sites are integrated with Office 365 Groups by default. Team site permissions can be managed by adding users to or removing them from the group."
+      - content: "Team sites"
+        isCorrect: true
+        explanation: "Team sites are integrated with Office 365 Groups by default. Team site permissions can be managed by adding users to or removing them from the group."
+      - content: "Hub sites"
+        isCorrect: false
+        explanation: "Team sites are integrated with Office 365 Groups by default. Team site permissions can be managed by adding users to or removing them from the group."
+      
+    - content: "Which of the following statements is true?"
+      choices:
+      - content: "SharePoint team sites require careful management of inheritance and permission levels."
+        isCorrect: false
+        explanation: "Microsoft Teams provides a hub for collaboration by bringing together all the Office 365 group-related services, including a SharePoint team site, an instance of Planner, a mailbox, and a shared calendar. While you can manage permission levels and inheritance in SharePoint, it's not required. We recommend managing team site permissions through the associated Office 365 Group."
+      - content: "Tight integration between communication sites and Teams provides a safe collaboration environment for Microsoft 365 users."
+        isCorrect: false
+        explanation: "Microsoft Teams provides a hub for collaboration by bringing together all the Office 365 group-related services, including a SharePoint team site, an instance of Planner, a mailbox, and a shared calendar."
+      - content: "Microsoft Teams provides a hub for collaboration that includes a SharePoint team site and other Microsoft 365 services all connected through an Office 365 Group."
+        isCorrect: true
+        explanation: "Microsoft Teams provides a hub for collaboration by bringing together all the Office 365 group-related services, including a SharePoint team site, an instance of Planner, a mailbox, and a shared calendar."
+      
