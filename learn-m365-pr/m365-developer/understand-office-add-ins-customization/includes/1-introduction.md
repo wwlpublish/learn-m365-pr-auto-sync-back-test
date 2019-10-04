@@ -10,12 +10,12 @@ You should consider many factors as you design your add-in. The Office design pr
 - Make it enjoyable and keep users in control.
 - Design for all platforms and input methods.
 
-However, you likely have to balance the need for your add-in to include your organization's branding and honor the look of the platform (for example, Mac).
+However, you should balance the goals of including your organization's branding and honoring the look of the platform (for example, Mac).
 
 ## Office Add-ins customizations
 
 Later in this module, you'll learn about:
 
-- Options to persist state and settings
+- Ways to persist state and settings
 - Office UI Fabric
 - Microsoft Graph

@@ -18,11 +18,6 @@ Microsoft Graph REST APIs provide a way for your add-in to access the user's dat
 
 *Microsoft Graph*
 
-A couple of the benefits of using Microsoft Graph include:
-
-- Enable your user to be more productive
-- Enrich your user's Office experience
-
 ## How to authorize to Microsoft Graph
 
 To connect to and use Microsoft Graph, your add-in needs to:
@@ -32,18 +27,11 @@ To connect to and use Microsoft Graph, your add-in needs to:
 
 ### Authentication
 
-The add-in can get an access token from Azure Active Directory (AAD) when the user has signed in. AAD doesn't allow its sign-in page to open in an iframe, which is the case when an Office Add-in task pane is running in a web browser. Use the Office JavaScript Dialog API to display AAD login form. If your add-in includes custom functions that need authorization, use the custom functions Dialog API to display the login form.
+The add-in can get an access token from Azure Active Directory (AAD) when the user has signed in. AAD doesn't allow its sign-in page to open in an iframe, and the add-in task pane is an iframe when the add-in is launched in Office on the Web. So, use the Office JavaScript Dialog API to display the AAD login form. If your add-in includes custom functions that need authorization to Microsoft Graph, use the custom functions Dialog API to display the login form.
 
 ### Authorization
 
-After the user signs in, your add-in gets an access token to use in subsequent API calls to Microsoft Graph.
-
-Consider the following points on authorization.
-
-- Does the user have access to this information?
-  - The user needs to already be authorized to manage that information or complete the task.
-- Does your add-in have a scope needed to complete those actions?
-  - At best, the add-in can be authorized up to the user's own scope.
+After the user signs in, your add-in gets an access token to use in subsequent API calls to Microsoft Graph. The access token can never give the add-in more or greater permissions than the user has. Users typically only have permissions to data about themselves, their own files and email, and objects that have been shared with them. If your add-in gets Microsoft Graph data about multiple users, then it can be used successfully only by users with admin level permissions.
 
 ### Recommended libraries
 
