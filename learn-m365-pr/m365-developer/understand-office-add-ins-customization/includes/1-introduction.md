@@ -10,10 +10,11 @@ You should consider many factors as you design your add-in. The Office design pr
 - Make it enjoyable and keep users in control.
 - Design for all platforms and input methods.
 
-However, you should balance with the following goals.
+When you design the UI, strive to balance:
 
-- Include your organization's branding
-- Honor the look of the target platform (for example, Mac).
+- Office branding
+- Your own organization's branding
+- The look of the target platform (for example, Windows, Mac)
 
 ## Office Add-ins customizations
 
