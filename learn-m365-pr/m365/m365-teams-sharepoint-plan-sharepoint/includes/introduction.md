@@ -8,7 +8,7 @@ In SharePoint, each team site is part of an Office 365 Group by default. An Offi
 
 Microsoft Teams provides a hub for collaboration by bringing together all the Office 365 group-related services, plus a variety of Teams-specific services, in a single user experience with persistent chat. Teams uses the associated Office 365 Group to manage its permissions. Within the Teams experience, users can directly access SharePoint along with the other services without having to switch applications. This provides a centralized collaboration space with a single place to manage permissions.
 
-## Site Types
+## Site types
 
 SharePoint sites consist of three different site types:
 
