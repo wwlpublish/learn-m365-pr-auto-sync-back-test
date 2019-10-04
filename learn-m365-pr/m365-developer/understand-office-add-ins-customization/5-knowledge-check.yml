@@ -30,7 +30,7 @@ quiz:
     choices:
     - content: "Fabric has three (3) main areas."
       isCorrect: false
-      explanation: "Actually, Fabric has two (2) main areas: 1) Core and 2) React."
+      explanation: "Actually, Fabric has two (2) main areas: Core and React."
     - content: "Fabric Core is built on Fabric React."
       isCorrect: false
       explanation: "It's the other way around: Fabric React is built on Fabric Core."
