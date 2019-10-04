@@ -2,11 +2,18 @@ At various points during your add-in's life cycle, you need to verify functional
 
 ## Sideload your add-in
 
-You can locally install (sideload) your add-in for testing and debugging on Windows, Mac, and in a web browser. You can also sideload your Excel or Word add-in on an iPad. Use Yeoman generator for Office Add-ins (or other preferred means) to web host your add-in on your development machine.
+You can locally install (sideload) your add-in for testing and debugging on Windows, Mac, and in a web browser. You can also sideload your Excel or Word add-in on an iPad. Use Node.js, ASP.NET, or another preferred means to web host your add-in on your development machine.
 
 ## Debug your add-in
 
-You can usually debug your add-in in an IDE like Visual Studio Code or in a web browser with the browser's built-in developer tools. However, if you need to debug your add-in on a specific platform (for example, the add-in has different or added functionality on Windows), there are tools that may help you. You can also turn on runtime logging on Windows and Mac.
+You can debug your add-in using the following methods:
+
+- A web browser with the browser's built-in developer tools
+- Visual Studio, provided you prepared your add-in using this IDE
+- Visual Studio Code for custom functions projects only
+- Runtime logging on Windows and Mac
+
+If you need to debug your add-in on a specific platform, there are additional tools that may help you. A few options for Windows and Mac are mentioned next in this section.
 
 ### Windows
 
@@ -15,7 +22,7 @@ On Windows 10, the tool you use depends on if the add-in is running in Microsoft
 - 32-bit Office version: C:\Windows\System32\F12\IEChooser.exe
 - 64-bit Office version: C:\Windows\SysWOW64\F12\IEChooser.exe
 
-An available option to debug task pane add-ins in Office 2016 or later is to attach a debugger. Where the **Attach Debugger** is available through the Personality menu (see the next image), the supported tool is Visual Studio 2015 Update 3 or later but only enables JavaScript debugging.
+An available option to debug task pane add-ins in Office 2016 or later is to attach a debugger. Where the **Attach Debugger** is available through the Personality menu, as shown in the following image, the supported tool is Visual Studio 2015 Update 3 or later. This tool only enables JavaScript debugging.
 
 ![Personality menu displaying **Attach Debugger** item in Excel on Windows](../media/attach-debugger.png)
 
@@ -46,7 +53,7 @@ Test your add-in in Office versions and on platforms where you or your intended 
 
 ### Private use or limited to your organization
 
-If your add-in will be limited to you or your organization, test it in Office versions and on platforms where they'll use it. For example, if you're developing a Word add-in for your organization where your coworkers mostly work in Microsoft Edge and Word 2019 on Windows, test your add-in in that browser and version of Word.
+If your add-in will be limited to you or your organization, test it in Office versions and on platforms where they'll use it. For example, if you're developing a Word add-in for your organization where your coworkers usually work in Microsoft Edge and Word 2019 on Windows, test your add-in in that browser and version of Word.
 
 ### Public use
 

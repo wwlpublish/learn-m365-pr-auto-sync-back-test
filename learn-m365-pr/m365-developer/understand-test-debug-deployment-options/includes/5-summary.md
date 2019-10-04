@@ -4,7 +4,7 @@ In this module, you learned about testing, debugging, and deployment options ava
 
 You can make your add-in available to users in several ways.
 
-- Local installation (sideload)
+- Local installation (sideloading)
 - Centralized Deployment
 - SharePoint catalog
 - AppSource
@@ -21,9 +21,9 @@ Your choice will depend on considerations like:
 
 You can debug your add-in on your development machine if you:
 
-- Host your add-in on a local server
-- Sideload the add-in
-- Use a web browser or other developer tools according to your platform needs
+- Host your add-in on a local server.
+- Sideload the add-in.
+- Use a web browser or other developer tools according to your platform needs.
 
 The testing you should do depends on criteria like who you expect to use your add-in and which platforms and Office applications you plan to support.
 
