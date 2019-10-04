@@ -15,36 +15,36 @@ content: ''
 quiz:
   title: Customize Office Add-ins
   questions:
-  - content: "TODO: Question 1"
+  - content: "An Outlook add-in needs to store data. What's an Office JavaScript object the add-in developer might use?"
     choices:
-    - content: "First answer"
-      isCorrect: false
-      explanation: "Some explanation"
-    - content: "Second answer"
+    - content: "CustomProperties"
       isCorrect: true
-      explanation: "Some explanation"
-    - content: "Third answer"
+      explanation: "CustomProperties can be used to store Outlook item data. RoamingSettings is another object you can use."
+    - content: "CustomXmlParts"
       isCorrect: false
-      explanation: "Some explanation"
-  - content: "TODO: Question 2"
+      explanation: "CustomXmlParts can be used to store data for Excel and Word task pane add-ins."
+    - content: "Settings"
+      isCorrect: false
+      explanation: "The Settings object can be used to store data content and task pane add-ins targeting Excel, PowerPoint, and Word."
+  - content: "Joe has decided to use Office UI Fabric in an add-in. What is an advantage of doing so?"
     choices:
-    - content: "First answer"
+    - content: "Fabric has three (3) main areas."
       isCorrect: false
-      explanation: "Some explanation"
-    - content: "Second answer"
+      explanation: "Actually, Fabric has two (2) main areas: 1) Core and 2) React."
+    - content: "Fabric Core is built on Fabric React."
+      isCorrect: false
+      explanation: "It's the other way around: Fabric React is built on Fabric Core."
+    - content: "Fabric reflects Office branding."
       isCorrect: true
-      explanation: "Some explanation"
-    - content: "Third answer"
-      isCorrect: false
-      explanation: "Some explanation"
-  - content: "TODO: Question 3"
+      explanation: "Your add-in can look like a natural extension of Office when you use Fabric elements and components."
+  - content: "Joe's connecting to Microsoft Graph in an add-in. Where should the add-in display the Azure Active Directory (AAD) sign-in form for a user in Office on the web?"
     choices:
-    - content: "First answer"
+    - content: "Custom function"
       isCorrect: false
-      explanation: "Some explanation"
-    - content: "Second answer"
+      explanation: "A custom function may require the user to sign in but that's not where a user would sign in."
+    - content: "Dialog"
       isCorrect: true
-      explanation: "Some explanation"
-    - content: "Third answer"
+      explanation: "The add-in needs to use the Dialog API to display the AAD login form in a dialog."
+    - content: "Task pane"
       isCorrect: false
-      explanation: "Some explanation"
+      explanation: "AAD doesn't allow their login form to be displayed in the task pane iframe."
