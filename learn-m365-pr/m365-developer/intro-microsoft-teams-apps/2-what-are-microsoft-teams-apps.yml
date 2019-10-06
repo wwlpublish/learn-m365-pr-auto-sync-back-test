@@ -1,0 +1,13 @@
+uid: learn-m365.intro-microsoft-teams-apps
+metadata:
+  title: What are Microsoft Teams apps?
+  description: This unit explains what Microsoft Teams apps are.
+  ms.date: 10/01/2019
+  author: clearab
+  ms.author: anclear
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Introduction
+durationInMinutes: 5
+content: |
+  [!include[](includes/2-what-are-microsoft-teams-apps.md)]
