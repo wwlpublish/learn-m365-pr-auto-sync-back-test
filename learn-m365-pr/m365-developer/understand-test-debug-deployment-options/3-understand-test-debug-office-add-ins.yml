@@ -10,6 +10,6 @@ metadata:
   ms.prod: learning-m365
   ROBOTS: NOINDEX
 title: Understand testing and debugging concepts for Office Add-ins
-durationInMinutes: 1
+durationInMinutes: 3
 content: |
   [!include[](includes/3-understand-test-debug-office-add-ins.md)]
