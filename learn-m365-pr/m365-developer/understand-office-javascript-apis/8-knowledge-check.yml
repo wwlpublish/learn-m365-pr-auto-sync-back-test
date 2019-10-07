@@ -47,7 +47,7 @@ quiz:
       explanation: "Module add-ins are Outlook add-ins that are displayed on the navigation bar with mail, calendar, tasks, and such."
     - content: "Task pane"
       isCorrect: false
-      explanation: "A user may activate a task pane as they continue to use the add-in but that's not the first step."
+      explanation: "A user may activate a task pane as they delve into the add-in's functionality but that's not the first step."
   - content: "What is a good tool for trying out the Word APIs without creating an add-in?"
     choices:
     - content: "Script Lab"
@@ -69,4 +69,4 @@ quiz:
       explanation: "Custom functions don't have access to the DOM so it's not an option."
     - content: "Storage API"
       isCorrect: true
-      explanation: "The Storage API is how a custom function and a task pane shares data like a security token."
+      explanation: "The Storage API is how a custom function and a task pane share data like a security token."
