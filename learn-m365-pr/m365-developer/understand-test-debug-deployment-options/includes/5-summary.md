@@ -31,5 +31,6 @@ The testing you should do depends on criteria like who you expect to use your ad
 
 - [Deploy Office Add-ins](/office/dev/add-ins/publish/publish)
 - [Test and debug Office Add-ins](/office/dev/add-ins/testing/test-debug-office-add-ins)
+- [Browsers used by Office Add-ins](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins)
 - [AppSource validation policies](/office/dev/store/validation-policies)
 - [Office 365 Developer Program](/office/developer-program/office-365-developer-program)

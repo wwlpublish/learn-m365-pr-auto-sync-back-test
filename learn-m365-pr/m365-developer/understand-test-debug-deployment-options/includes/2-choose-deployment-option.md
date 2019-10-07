@@ -2,7 +2,7 @@ As you develop your Office Add-in and prepare to make it available to your users
 
 |Consider...|Examples|
 |---|---|
-|Add-in lifecycle|local developer testing, ready for public use|
+|Add-in lifecycle stage|local developer testing, ready for public use|
 |Add-in interaction or feature support|task pane add-in, content add-in, add-in commands|
 |Target Office applications|Excel, Outlook|
 |Target platforms|Windows, Mac|

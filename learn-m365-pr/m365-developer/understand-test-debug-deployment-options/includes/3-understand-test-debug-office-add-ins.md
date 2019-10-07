@@ -4,6 +4,10 @@ At various points during your add-in's life cycle, you need to verify functional
 
 You can locally install (sideload) your add-in for testing and debugging on Windows, Mac, and in a web browser. You can also sideload your Excel or Word add-in on an iPad. Use Node.js, ASP.NET, or another preferred means to web host your add-in on your development machine.
 
+If you create your project using the Yeoman generator for Office Add-ins, you can run `npm run start` in a command-line prompt to start and sideload your add-in to Excel on Windows or `npm run start:web` to run it in a web browser, though you'll have to manually sideload to Excel in the browser.
+
+If you create your project using Visual Studio (VS), you can run the project in VS debug mode and it will automatically sideload to Excel on Windows.
+
 ## Debug your add-in
 
 You can debug your add-in using the following methods:
@@ -17,7 +21,12 @@ If you need to debug your add-in on a specific platform, there are additional to
 
 ### Windows
 
-On Windows 10, the tool you use depends on if the add-in is running in Microsoft Edge or Internet Explorer. For Microsoft Edge, install and use Microsoft Edge DevTools. For Internet Explorer, run F12 developer tools according to your Office version:
+On Windows 10, the tool you use depends on if the add-in is running in Microsoft Edge or Internet Explorer. Your add-in is running in Internet Explorer 11 unless it meets the following criteria to be running in Microsoft Edge.
+
+- Windows 10 (version 1903 or later)
+- Office 365 subscription (build 16.0.11629 or later)
+
+For Microsoft Edge, install and use Microsoft Edge DevTools. For Internet Explorer, run F12 developer tools according to your Office version:
 
 - 32-bit Office version: C:\Windows\System32\F12\IEChooser.exe
 - 64-bit Office version: C:\Windows\SysWOW64\F12\IEChooser.exe
