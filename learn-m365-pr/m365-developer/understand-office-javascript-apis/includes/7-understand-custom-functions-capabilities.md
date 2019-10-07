@@ -91,7 +91,7 @@ OfficeRuntime.displayWebDialog('https://myDomain/myDialog.html', {height: 30, wi
 
 ## Creating a custom functions project
 
-You can create a custom functions project by using the Yeoman Generator for Office Add-ins. Run `yo office` to start the generator, then choose the **Excel Custom Functions Add-in project** option. Once created, your project will contain a **/src/taskpane/** folder for the task pane source files, and a **/src/functions** folder for the custom function source files.
+You can create a custom functions project by using the Yeoman generator for Office Add-ins. Run `yo office` to start the generator, then choose the **Excel Custom Functions Add-in project** option. Once created, your project will contain a **/src/taskpane/** folder for the task pane source files, and a **/src/functions** folder for the custom function source files.
 
 > [!NOTE]
 > You can't create a custom functions project in Visual Studio.

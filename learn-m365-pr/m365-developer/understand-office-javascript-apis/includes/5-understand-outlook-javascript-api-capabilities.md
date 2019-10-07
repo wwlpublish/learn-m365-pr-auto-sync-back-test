@@ -174,4 +174,9 @@ To make a module add-in, include the module extension point in your add-in's man
 
 ## Get started developing Outlook add-ins
 
-Use the Yeoman Generator tool to start developing an Outlook add-in. You can use a template as your base then add your functionality.
+To start developing a Word add-in, use:
+
+- The Yeoman generator for Office Add-ins
+- Visual Studio
+
+You can use a template as your base then add your functionality.

@@ -96,4 +96,9 @@ var productBarChart = sheet.charts.add(Excel.ChartType.columnStacked, sheet.getR
 
 ## Get started developing Excel add-ins
 
-Use the Yeoman Generator tool to start developing an Excel add-in. If you want to explore the APIs more, the Script Lab add-in is recommended. There, you'll see numerous samples and be able to experiment with Excel workbooks without creating an entire add-in.
+To start developing a Word add-in, use:
+
+- The Yeoman generator for Office Add-ins
+- Visual Studio
+
+If you want to explore the APIs more, the Script Lab add-in is recommended. There, you'll see numerous samples and be able to experiment with Excel workbooks without creating an entire add-in.

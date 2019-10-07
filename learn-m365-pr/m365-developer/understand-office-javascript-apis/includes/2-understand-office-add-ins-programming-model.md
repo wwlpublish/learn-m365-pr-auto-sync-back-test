@@ -55,9 +55,9 @@ The `sync()` API call in Office.js returns a promised proxy object that is resol
 
 Additionally, all host-specific API sets use different runtime environments that require you to use a `RequestContext` object to connect you add-in to proxy objects. For example, Excel and your add-in run in two different processes, so you need a `RequestContext` object to connect your add-in to objects in Excel such as worksheets, ranges, and tables.
 
-Before you can read the properties of a proxy object, you must load the properties to populate the proxy object with data from the Excel workbook, then call `context.sync`. For example, if you create proxy object to reference a selected range in an Excel worksheet, and then want to read the selected range's `address` property, you need to load the `address` property before you can read it. To request properties of a proxy object to be loaded, call the `load()` method on the object and specify the properties to load.
+Before you can read the properties of a proxy object, you must load the properties to populate the proxy object with data from the Office file, then call `context.sync`. For example, if you create a proxy object to reference a selected range in an Excel worksheet, and then want to read the selected range's `address` property, you need to load the `address` property before you can read it. To request properties of a proxy object to be loaded, call the `load()` method on the object and specify the properties to load.
 
-The example below shows a batch function that defines a local proxy object (`selectedRange`), loads the properties of that object, and then uses JavaScript Promises to call `context.sync()` to synchronize the state between proxy objects and objects in Excel file. `Excel.run` is required for this specific host, to load properties that affect platform behavior when the function runs. Not all hosts contain a run call.
+The example below shows a batch function that defines a local proxy object (`selectedRange`), loads the properties of that object, and then uses JavaScript Promises to call `context.sync()` to synchronize the state between proxy objects and objects in the Excel file. `Excel.run` is required for this specific host, to load properties that affect platform behavior when the function runs. Not all hosts contain a run call.
 
 ```js
 Excel.run(function (context) {

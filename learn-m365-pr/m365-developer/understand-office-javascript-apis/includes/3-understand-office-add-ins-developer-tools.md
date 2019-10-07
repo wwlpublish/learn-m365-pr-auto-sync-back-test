@@ -44,9 +44,9 @@ Visual Studio can be used to create Office Add-ins for Excel, Word, PowerPoint, 
 To create an Office Add-in with Visual Studio, create a new C# or Visual Basic project and choose one of the following project types:
 
 - Excel Web Add-in
-- Word Web Add-in
 - Outlook Web Add-in
 - PowerPoint Web Add-in
+- Word Web Add-in
 
 ## Explore the APIs with Script Lab
 

@@ -17,7 +17,7 @@ To understand the Word APIs, you must see how the main components of a document 
 
 In this section, you'll learn about a couple of key scenarios for Word APIs.
 
-- Document assembly
+- Work with document text
 - Search
 
 > [!NOTE]
