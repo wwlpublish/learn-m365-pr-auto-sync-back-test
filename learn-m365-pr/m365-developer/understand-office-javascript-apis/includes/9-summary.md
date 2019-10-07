@@ -1,6 +1,6 @@
 In this module, you learned about Office JavaScript APIs, which includes:
 
-- Office Add-ins programmability model
+- Office Add-ins programming model
 - Developer tools
   - Yeoman generator for Office Add-ins
   - Visual Studio
