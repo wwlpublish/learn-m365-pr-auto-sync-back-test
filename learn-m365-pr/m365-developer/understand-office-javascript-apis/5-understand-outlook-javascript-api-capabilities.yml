@@ -10,6 +10,6 @@ metadata:
   ms.prod: learning-m365
   ROBOTS: NOINDEX
 title: Understand the capabilities of the Outlook JavaScript API
-durationInMinutes: 1
+durationInMinutes: 4
 content: |
   [!include[](includes/5-understand-outlook-javascript-api-capabilities.md)]

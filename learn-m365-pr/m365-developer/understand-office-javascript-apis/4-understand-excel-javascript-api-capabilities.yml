@@ -10,6 +10,6 @@ metadata:
   ms.prod: learning-m365
   ROBOTS: NOINDEX
 title: Understand the capabilities of the Excel JavaScript API
-durationInMinutes: 1
+durationInMinutes: 3
 content: |
   [!include[](includes/4-understand-excel-javascript-api-capabilities.md)]

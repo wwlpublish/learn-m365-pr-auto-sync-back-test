@@ -10,6 +10,6 @@ metadata:
   ms.prod: learning-m365
   ROBOTS: NOINDEX
 title: Understand the Office Add-ins programming model
-durationInMinutes: 1
+durationInMinutes: 3
 content: |
   [!include[](includes/2-understand-office-add-ins-programming-model.md)]

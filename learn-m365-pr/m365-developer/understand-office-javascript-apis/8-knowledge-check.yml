@@ -10,12 +10,12 @@ metadata:
   ms.prod: learning-m365
   ROBOTS: NOINDEX
 title: Check your knowledge
-durationInMinutes: 1
+durationInMinutes: 2
 content: ''
 quiz:
   title: Office Add-ins programming model and Office JavaScript APIs
   questions:
-  - content: "TODO: Question 1"
+  - content: "TODO: Question 1 - programming model"
     choices:
     - content: "First answer"
       isCorrect: false
@@ -26,7 +26,7 @@ quiz:
     - content: "Third answer"
       isCorrect: false
       explanation: "Some explanation"
-  - content: "TODO: Question 2"
+  - content: "TODO: Question 2 - Excel"
     choices:
     - content: "First answer"
       isCorrect: false
@@ -37,7 +37,29 @@ quiz:
     - content: "Third answer"
       isCorrect: false
       explanation: "Some explanation"
-  - content: "TODO: Question 3"
+  - content: "TODO: Question 3 - Outlook"
+    choices:
+    - content: "First answer"
+      isCorrect: false
+      explanation: "Some explanation"
+    - content: "Second answer"
+      isCorrect: true
+      explanation: "Some explanation"
+    - content: "Third answer"
+      isCorrect: false
+      explanation: "Some explanation"
+  - content: "TODO: Question 4 - Word"
+    choices:
+    - content: "First answer"
+      isCorrect: false
+      explanation: "Some explanation"
+    - content: "Second answer"
+      isCorrect: true
+      explanation: "Some explanation"
+    - content: "Third answer"
+      isCorrect: false
+      explanation: "Some explanation"
+  - content: "TODO: Question 5 - custom functions"
     choices:
     - content: "First answer"
       isCorrect: false
