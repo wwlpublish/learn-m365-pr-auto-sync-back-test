@@ -11,7 +11,7 @@ You can create an Office Add-in by using the Yeoman generator for Office Add-ins
 
 ### Yeoman generator for Office Add-ins
 
-The Yeoman generator for Office Add-ins can be used to create a Node.js Office Add-in project managed with Visual Studio code or any other editor. The generator can create Office Add-ins for:
+The Yeoman generator for Office Add-ins can be used to create a Node.js Office Add-in project that can be managed with Visual Studio Code or any other editor. The generator can create Office Add-ins for:
 
 - Excel
 - OneNote
@@ -50,7 +50,7 @@ To create an Office Add-in with Visual Studio, create a new C# or Visual Basic p
 
 ## Explore the APIs with Script Lab
 
-Script Lab's an add-in that can be used to explore Office JavaScript APIs while you're working in an Office program such as Excel or Word. It's available for free via AppSource and is a useful tool to include in your development toolkit as you prototype and verify the functionality you want in your add-in. Through Script Lab, you can access a library of built-in samples to quickly try out APIs or even use a sample as the starting point for your own code.
+Script Lab is an add-in that can be used to explore Office JavaScript APIs while you're working in an Office program such as Excel or Word. It's available for free via AppSource and is a useful tool to include in your development toolkit as you prototype and verify the functionality you want in your add-in. In Script Lab, you can access a library of built-in samples to quickly try out APIs or even use a sample as the starting point for your own code.
 
 The following video shows Script Lab in action.
 

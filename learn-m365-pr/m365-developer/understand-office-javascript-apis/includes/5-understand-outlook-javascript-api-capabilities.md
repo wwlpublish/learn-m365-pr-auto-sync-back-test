@@ -28,7 +28,7 @@ Your Outlook add-in can access information from anywhere on the Internet, whethe
 
 #### Exchange user identity token
 
-Exchange user identity tokens provide a way for your add-in to establish the identity of the user. By verifying the user's identity, you can then perform a one-time authentication into your back-end system, then accept the user identity token as an authorization for future requests. Consider using user identity tokens if your add-in:
+Exchange user identity tokens provide a way for your add-in to establish the identity of the user. By verifying the user's identity, you can do a one-time authentication into your back-end system, then accept the user identity token as an authorization for future requests. Consider using user identity tokens if your add-in:
 
 - Is used primarily by Exchange on-premises users
 - Needs access to a non-Microsoft service that you control
