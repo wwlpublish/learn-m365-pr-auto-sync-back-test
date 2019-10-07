@@ -1,0 +1,39 @@
+### YamlMime:Module
+uid: learn-m365.m365-teams-upgrade-coexistence-interoperability
+metadata:
+  title: Understand coexistence and interoperability
+  description: Discover how coexistence works when upgrading from Skype for Business to Microsoft Teams. Learn what the coexistence modes are, how interoperability works, and how to manage coexistence.
+  ms.date: 09/30/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Understand coexistence and interoperability 
+summary: In this module, you learned how coexistence works when upgrading from Skype for Business to Microsoft Teams, what the coexistence modes are, how interoperability works, and how to manage coexistence.
+abstract: |
+  Upon completion of this module, you should be able to:
+  - Explain what coexistence is between Skype for Business and Microsoft Teams and list the coexistence modes.
+  - Describe how available functionality in Teams client changes based on mode.
+  - Explain how interoperability works between Teams and Skype for Business.
+  - Describe how to manage migration and coexistence.
+
+prerequisites: | 
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+iconUrl: http://via.placeholder.com/120x120
+ratingEnabled: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+units:
+- learn-m365.m365-teams-upgrade-coexistence-interoperability.introduction
+- learn-m365.m365-teams-upgrade-coexistence-interoperability.coexistence-teams-skype-business
+- learn-m365.m365-teams-upgrade-coexistence-interoperability.functionality-changes-mode
+- learn-m365.m365-teams-upgrade-coexistence-interoperability.interoperability
+- learn-m365.m365-teams-upgrade-coexistence-interoperability.migration-coexistence
+- learn-m365.m365-teams-upgrade-coexistence-interoperability.summary-knowledge-check
+
+badge: 
+  uid: learn-m365.m365-teams-upgrade-coexistence-interoperability.badges

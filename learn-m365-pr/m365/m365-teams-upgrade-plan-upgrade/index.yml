@@ -1,0 +1,45 @@
+### YamlMime:Module
+uid: learn-m365.m365-teams-upgrade-plan-upgrade
+metadata:
+  title: Plan your Teams upgrade
+  description: Discover how to prepare your organization to upgrade from Skype for Business to Microsoft Teams. Learn how to assess your environment, prepare your environment and organization, and how to conduct a user pilot.
+  ms.date: 09/27/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Plan your Teams upgrade 
+summary: Discover how to prepare your organization to upgrade from Skype for Business to Microsoft Teams. Learn how to assess your environment, prepare your environment and organization, and how to conduct a user pilot.
+abstract: |
+  Upon completion of this module, you should be able to:
+  - Explain how to assess your current environment.
+  - Describe how to prepare your IT staff for the upgrade.
+  - Verify your environment meets all prerequisites and dependencies for Teams.
+  - Describe how to prepare your network for the upgrade.
+  - Explain how to prepare the service for the upgrade.
+  - Describe how to prepare your users for the upgrade.
+  - Explain how to conduct a user pilot.
+
+prerequisites: | 
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+iconUrl: http://via.placeholder.com/120x120
+ratingEnabled: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+units:
+- learn-m365.m365-teams-upgrade-plan-upgrade.introduction
+- learn-m365.m365-teams-upgrade-plan-upgrade.assess-current-environment
+- learn-m365.m365-teams-upgrade-plan-upgrade.prepare-staff
+- learn-m365.m365-teams-upgrade-plan-upgrade.verify-environment
+- learn-m365.m365-teams-upgrade-plan-upgrade.prepare-network
+- learn-m365.m365-teams-upgrade-plan-upgrade.prepare-service
+- learn-m365.m365-teams-upgrade-plan-upgrade.prepare-users
+- learn-m365.m365-teams-upgrade-plan-upgrade.user-pilot
+- learn-m365.m365-teams-upgrade-plan-upgrade.summary-knowledge-check
+
+badge: 
+  uid: learn-m365.m365-teams-upgrade-plan-upgrade.badges
