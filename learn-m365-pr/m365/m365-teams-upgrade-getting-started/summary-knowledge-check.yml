@@ -28,7 +28,7 @@ quiz:
         isCorrect: false
         explanation: "Skype for Business includes file sharing."
 
-    - content: "Which of the following states about coexistence of Teams and Skype for Business is true?"
+    - content: "Which of the following statements about coexistence of Teams and Skype for Business is true?"
       choices:
       - content: "Teams and Skype for Business will need to coexist until Skype for Business is discontinued."
         isCorrect: false
@@ -40,15 +40,15 @@ quiz:
         isCorrect: true
         explanation: "Teams and Skype for Business will need to coexist during the upgrade process."
       
-    - content: ""
+    content: "Which of the following statements about hybrid connectivity for Skype for Business is true?"
       choices:
-      - content: ""
+      - content: "Both Skype for Business Online and Skype for Business on-premises require hybrid connectivity."
         isCorrect: false
-        explanation: ""
-      - content: ""
+        explanation: "Only Skype for Business on-premises requires hybrid connectivity."
+      - content: "Only Skype for Business on-premises requires hybrid connectivity."
         isCorrect: true
-        explanation: ""
-      - content: ""
+        explanation: "Only Skype for Business on-premises requires hybrid connectivity."
+      - content: "Only Skype for Business Online requires hybrid connectivity."
         isCorrect: false
-        explanation: ""
+        explanation: "Only Skype for Business on-premises requires hybrid connectivity."
       
