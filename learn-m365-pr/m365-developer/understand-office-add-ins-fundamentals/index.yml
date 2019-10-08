@@ -25,6 +25,7 @@ roles:
   - developer
 products:
   - office-add-ins
+  - m365
 units:
 - learn-m365-pr.understand-office-add-ins-fundamentals.1-introduction
 - learn-m365-pr.understand-office-add-ins-fundamentals.2-understand-task-panes-content-add-ins
