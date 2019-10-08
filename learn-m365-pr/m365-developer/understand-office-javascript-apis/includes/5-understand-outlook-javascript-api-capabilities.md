@@ -11,8 +11,8 @@ Using the Outlook APIs, you can manage many properties of an email or appointmen
 
 |Item type|Modes|
 |---|---|
-|Message|Read,<br>Compose|
-|Appointment (or meeting)|Attendee (read),<br>Organizer (compose)|
+|Message|Read<br>Compose|
+|Appointment/meeting|Attendee (read)<br>Organizer (compose)|
 
 ## Key features
 
@@ -24,32 +24,29 @@ In addition to task pane add-ins, you can create contextual and module add-ins. 
 
 ### Authentication
 
-Your Outlook add-in can access information from anywhere on the Internet, whether from the server that hosts the add-in, from your internal network, or from somewhere else in the cloud. If that information is protected, your add-in needs a way to authenticate your user. Outlook add-ins provide a number of different methods to authenticate, depending on your specific scenario.
+Your Outlook add-in can access information from anywhere on the Internet. A few examples include the server that hosts the add-in, your internal network, or elsewhere in the cloud. If that information is protected, your add-in needs a way to authenticate your user. Outlook add-ins provide a number of different methods to authenticate, depending on your specific scenario.
 
 #### Exchange user identity token
 
-Exchange user identity tokens provide a way for your add-in to establish the identity of the user. By verifying the user's identity, you can do a one-time authentication into your back-end system, then accept the user identity token as an authorization for future requests. Consider using user identity tokens if your add-in:
-
-- Is used primarily by Exchange on-premises users
-- Needs access to a non-Microsoft service that you control
-
-Your add-in can call `getUserIdentityTokenAsync` to get Exchange user identity tokens.
+Exchange user identity tokens provide a way for your add-in to establish the identity of the user. By verifying the user's identity, you can do a one-time authentication into your system, then accept the user identity token as an authorization for future requests. Consider using user identity tokens if your add-in is used primarily by Exchange on-premises users or needs access to a non-Microsoft service that you control. Your add-in can call `getUserIdentityTokenAsync` to get Exchange user identity tokens.
 
 #### Access tokens obtained via OAuth2 flows
 
-Add-ins can also access third-party services that support OAuth2 for authorization. Consider using OAuth2 tokens if your add-in:
-
-- Needs access to a third-party service outside of your control
-
-Using this method, your add-in prompts the user to sign in to the service either by using the `displayDialogAsync` method to initialize the OAuth2 flow, or by using the office-js-helpers library to implement the OAuth2 Implicit flow.
+Add-ins can also access third-party services that support OAuth2 for authorization. Consider using OAuth2 tokens if your add-in needs access to a third-party service outside of your control. Using this method, your add-in prompts the user to sign in to the service by using the `displayDialogAsync` method to initialize the OAuth2 flow, for example.
 
 #### Callback tokens
 
-Callback tokens provide access to the user's mailbox from your server back-end, either using Exchange Web Services (EWS), or the Outlook REST API. Consider using callback tokens if your add-in:
+Callback tokens provide your add-in access to the user's mailbox from your server, either using Exchange Web Services (EWS), or the Outlook REST API. Add-ins obtain callback tokens using one of the `getCallbackTokenAsync` methods. The level of access is controlled by the permissions specified in the add-in manifest.
 
-- Needs access to the user's mailbox from your server back-end
+#### Authentication summary
 
-Add-ins obtain callback tokens using one of the `getCallbackTokenAsync` methods. The level of access is controlled by the permissions specified in the add-in manifest.
+The following table summarizes when you should use each type of access token.
+
+|Access token|Use if your add-in...|
+|---|---|
+|Exchange user identity tokens|Is used primarily by Exchange on-premises users.<br>Needs access to a non-Microsoft service that you control.|
+|OAuth2 access tokens|Needs access to a third-party service outside of your control.|
+|Callback tokens|Needs access to the user's mailbox from your server.|
 
 ### Contextual add-ins
 
@@ -174,7 +171,7 @@ To make a module add-in, include the module extension point in your add-in's man
 
 ## Get started developing Outlook add-ins
 
-To start developing a Word add-in, use:
+To start developing an Outlook add-in, use:
 
 - The Yeoman generator for Office Add-ins
 - Visual Studio
