@@ -16,29 +16,29 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: ""
+    - content: "Microsoft Teams differs from Skype for Business in that it includes:"
       choices:
-      - content: ""
+      - content: "Chat "
         isCorrect: false
-        explanation: ""
-      - content: ""
+        explanation: "Skype for Business includes chat."
+      - content: "Collaboration"
         isCorrect: true
-        explanation: ""
-      - content: ""
+        explanation: "Microsoft Teams includes collaboration tools such app integration and file storage."
+      - content: "File sharing"
         isCorrect: false
-        explanation: ""
+        explanation: "Skype for Business includes file sharing."
 
-    - content: ""
+    - content: "Which of the following states about coexistence of Teams and Skype for Business is true?"
       choices:
-      - content: ""
+      - content: "Teams and Skype for Business will need to coexist until Skype for Business is discontinued."
         isCorrect: false
-        explanation: ""
-      - content: ""
+        explanation: "Teams and Skype for Business will need to coexist during the upgrade process only."
+      - content: "Teams and Skype for Business will need to coexist during the upgrade process from Skype for Business on-premises but not Skype for Business Online."
+        isCorrect: false
+        explanation: "Teams and Skype for Business will need to coexist during the upgrade process for both Skype for Business on-premises and Skype for Business Online."
+      - content: "Teams and Skype for Business will need to coexist during the upgrade process."
         isCorrect: true
-        explanation: ""
-      - content: ""
-        isCorrect: false
-        explanation: ""
+        explanation: "Teams and Skype for Business will need to coexist during the upgrade process."
       
     - content: ""
       choices:
