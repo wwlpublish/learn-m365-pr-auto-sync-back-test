@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn-m365.intro-microsoft-teams-apps
 metadata:
-  title: Create Embedded Web Experiences with Tabs for Microsoft Teams
-  description: Learn how to create custom tabs and add them to your Microsoft Teams app.
+  title: Introduction to building apps for Microsoft Teams
+  description: An introduction to creating custom apps for Microsoft Teams built on the Microsoft Teams Platform.
   ms.date: 10/01/2019
   author: clearab
   ms.author: anclear
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Create Embedded Web Experiences with Tabs for Microsoft Teams
+title: Introduction to building apps for Microsoft Teams
 summary: Microsoft Teams is an extensible platform you can build custom apps on. Understand what is possible with a Microsoft Teams custom app, and determine if it is right for you.
 abstract: |
   At the end of this module, you should be able to:
@@ -18,6 +18,7 @@ abstract: |
   - Choose the correct extensibility point(s) based on your scenario
 prerequisites: | 
   - Experience using Microsoft Teams at the beginner level
+  - Basic understanding of web services and APIs
 iconUrl: https://docs.microsoft.com/media/learn/module.svg
 levels: 
 - beginner
@@ -30,12 +31,7 @@ products:
 - office-teams
 units:
 - learn-m365.intro-microsoft-teams-apps.1-introduction
-- learn-m365.intro-microsoft-teams-apps.2-what-are-microsoft-teams-apps
-- learn-m365.intro-microsoft-teams-apps.3-exercise-create-custom-teams-personal-tab
-- learn-m365.intro-microsoft-teams-apps.4-create-custom-teams-channel-tab
-- learn-m365.intro-microsoft-teams-apps.5-exercise-create-custom-teams-channel-tab
-- learn-m365.intro-microsoft-teams-apps.6-implement-tab-authentication
-- learn-m365.intro-microsoft-teams-apps.7-exercise-implement-tab-authentication
-- learn-m365.intro-microsoft-teams-apps.8-summary
+- learn-m365.intro-microsoft-teams-apps.2-how-to-build-and-distribute-your-app
+
 badge:
   uid: learn-m365.intro-microsoft-teams-apps.badge

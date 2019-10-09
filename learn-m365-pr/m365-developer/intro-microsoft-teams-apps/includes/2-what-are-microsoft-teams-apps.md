@@ -67,3 +67,7 @@ A web content page is a webpage you host that can be embedded in a tab or a task
 * Be hosted on an HTTPS.
 * Be able to be embedded in an `<iframe>` by the Teams client.
 * Include the Microsoft Teams JavaScript client SDK, and invoke the SDK's `initialize()` method on page load.
+
+## Summary
+
+A Microsoft Teams app then is a collection of web services, hosted externally to Microsoft Teams, that take advantage of the extensibility points and UI elements made available through the Microsoft Teams Platform.
