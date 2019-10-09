@@ -1,1 +1,10 @@
-content here
+Teams is the primary client for intelligent communications in Office 365, and it will eventually replace Skype for Business Online. To complement persistent chat and messaging capabilities, Teams offers a comprehensive meeting and calling experience, with built-in, fully integrated voice and video. 
+
+If you’re running Skype for Business and are ready to upgrade to Teams, or if you’re running Skype for Business and Teams side by side and are ready to fully move to Teams, we have the tools, tips, and guidance to help make your transition successful. 
+
+## Learn more
+
+When you're done with a link, use the **Back** arrow in your browser to come back to this page.
+
+- [Welcome to Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-overview)
+- [Getting started with your Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here)
