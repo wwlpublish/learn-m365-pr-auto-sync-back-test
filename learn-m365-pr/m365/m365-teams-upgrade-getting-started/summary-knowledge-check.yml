@@ -40,7 +40,7 @@ quiz:
         isCorrect: true
         explanation: "Teams and Skype for Business will need to coexist during the upgrade process."
       
-    content: "Which of the following statements about hybrid connectivity for Skype for Business is true?"
+    - content: "Which of the following statements about hybrid connectivity for Skype for Business is true?"
       choices:
       - content: "Both Skype for Business Online and Skype for Business on-premises require hybrid connectivity."
         isCorrect: false
