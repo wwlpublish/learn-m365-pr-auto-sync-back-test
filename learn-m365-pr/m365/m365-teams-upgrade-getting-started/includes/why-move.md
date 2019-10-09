@@ -11,4 +11,4 @@ Yes, Microsoft offers several options for running Skype for Business Online and 
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Getting started with your Microsoft Teams upgrade](https://docs.microsoft.com/en-us/MicrosoftTeams/upgrade-start-here)
+- [Getting started with your Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here)

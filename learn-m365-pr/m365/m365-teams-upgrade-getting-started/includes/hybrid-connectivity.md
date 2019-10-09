@@ -10,4 +10,4 @@ We’ll cover hybrid connectivity and how to set it up in more detail in the mod
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Plan hybrid connectivity between Skype for Business Server and Office 365](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json) 
+- [Plan hybrid connectivity between Skype for Business Server and Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json) 

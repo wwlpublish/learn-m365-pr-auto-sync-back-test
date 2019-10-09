@@ -14,6 +14,6 @@ We’ll cover coexistence and interoperability in more detail in the module, **U
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Teams client experience and conformance to coexistence modes](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes) 
-- [Understand Microsoft Teams and Skype for Business coexistence and interoperability](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability)
+- [Teams client experience and conformance to coexistence modes](https://docs.microsoft.com/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes) 
+- [Understand Microsoft Teams and Skype for Business coexistence and interoperability](https://docs.microsoft.com/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability)
 
