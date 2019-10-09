@@ -63,7 +63,7 @@ For better security, your add-in runs in a sandboxed JavaScript environment that
 
 Before you can read the properties of a proxy object, you must load the properties to populate the proxy object with data from the Office document. You do this by calling the `load()` method on the proxy object for any properties you need. Then call the `context.sync()` method, which will load all of the requested properties. For example, if you create a proxy range object to work with a user-selected range in an Excel worksheet, and then want to read the selected range's `address` property, you need to load the `address` property before you can read it. To request properties of a proxy object to be loaded, call the `load()` method on the object and specify the properties to load.
 
-The example below shows a batch function that defines a local proxy object (`selectedRange`), loads the properties of that object, and then uses JavaScript Promises to call `context.sync()` to synchronize the state between proxy objects and objects in the Excel file. `Excel.run` is required for this specific host, to load properties that affect platform behavior when the function runs. Not all hosts contain a run call.
+The following example shows a function that defines a local proxy object (`selectedRange`), loads the `address` property of that object, then calls `context.sync()`. When the promise from `context.sync()` is resolved, the code can then read the `address` property. `Excel.run` is required for this specific host, to load properties that affect platform behavior when the function runs. Not all hosts contain a run call.
 
 ```js
 Excel.run(function (context) {
