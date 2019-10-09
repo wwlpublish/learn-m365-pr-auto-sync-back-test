@@ -42,7 +42,7 @@ The following images show three add-in commands (custom buttons) added to the ri
 
 ## Where can you use add-in commands?
 
-Add-in commands are available in Excel, Outlook, OneNote, PowerPoint, and Word as follows.
+Add-in commands are available in Excel, Outlook, OneNote, PowerPoint, and Word as shown in the following table.
 
 |Platform|Major Office version|Subscription or one-time purchase?|Notes|
 |---|---|---|---|

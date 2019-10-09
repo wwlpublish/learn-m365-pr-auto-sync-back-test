@@ -14,7 +14,7 @@ An add-in has two main components as follows.
 
 Like any other web application, the add-in must be hosted on a web server. After a user installs the add-in, the Office application reads the manifest to wire up any custom buttons in the UI and determine the location of the add-in's default page. When the add-in is activated, the web application's code is loaded and runs in a sandboxed context.
 
-## Why Office Add-ins?
+## Why use Office Add-ins?
 
 Key benefits of Office Add-ins include:
 
