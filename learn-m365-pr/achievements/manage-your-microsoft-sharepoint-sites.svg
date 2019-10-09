@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Collaborate with SharePoint in Microsoft 365/manage-your-microsoft-sharepoint-sites</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="96" height="96" rx="48"></rect>
+        <filter x="-5.9%" y="-9.9%" width="111.8%" height="121.4%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0964956975 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <circle id="path-4" cx="14" cy="22.1351351" r="5.67567568"></circle>
+        <filter x="-4.4%" y="-4.4%" width="108.8%" height="108.8%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="-1" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <circle id="path-6" cx="21" cy="15.7027027" r="7"></circle>
+        <filter x="-3.6%" y="-3.6%" width="107.1%" height="107.1%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="-1" dy="0" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <circle id="path-8" cx="13.2432432" cy="8.32432432" r="8.32432432"></circle>
+        <filter x="-3.0%" y="-3.0%" width="106.0%" height="106.0%" filterUnits="objectBoundingBox" id="filter-9">
+            <feOffset dx="-1" dy="1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Badges" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Collaborate-with-SharePoint-in-Microsoft-365" transform="translate(-50.000000, -460.000000)">
+            <g id="Collaborate-with-SharePoint-in-Microsoft-365/manage-your-microsoft-sharepoint-sites" transform="translate(50.000000, 460.000000)">
+                <g id="Mask" transform="translate(2.000000, 2.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="BG" fill="#55A2FF" xlink:href="#path-1"></use>
+                    <g id="Laptop" filter="url(#filter-3)" mask="url(#mask-2)">
+                        <g transform="translate(14.000000, 28.000000)">
+                            <path d="M0,34 L0,36.125 C0,38.4625 1.9125,40.375 4.25,40.375 L63.75,40.375 C66.0875,40.375 68,38.4625 68,36.125 L68,34 L0,34" id="Fill-1415" fill="#E1E4E1"></path>
+                            <path d="M10.625,0 C8.2875,0 6.375,1.9125 6.375,4.25 L6.375,34 L61.625,34 L61.625,4.25 C61.625,1.9125 59.7125,0 57.375,0 L10.625,0 Z M57.375,2.125 C58.545875,2.125 59.5,3.0780625 59.5,4.25 L59.5,31.875 L8.5,31.875 L8.5,4.25 C8.5,3.0780625 9.4530625,2.125 10.625,2.125 L57.375,2.125 L57.375,2.125 Z" id="Fill-1416" fill="#182A37"></path>
+                            <path d="M8.5,4.25 C8.5,3.0780625 9.4530625,2.125 10.625,2.125 L57.375,2.125 C58.545875,2.125 59.5,3.0780625 59.5,4.25 L59.5,31.875 L8.5,31.875 L8.5,4.25" id="Fill-1417" fill="#30404D"></path>
+                            <path d="M10.625,2.125 L33.3508125,2.125 L22.9616875,31.875 L8.5,31.875 L8.5,4.25 C8.5,3.0780625 9.4530625,2.125 10.625,2.125" id="Fill-1418" fill="#384B58"></path>
+                            <path d="M10.625,0 L34,0 L33.3508125,2.125 L10.625,2.125 C9.4530625,2.125 8.5,3.0780625 8.5,4.25 L8.5,31.875 L22.9616875,31.875 L22.3125,34 L6.375,34 L6.375,4.25 C6.375,1.9125 8.2875,0 10.625,0" id="Fill-1419" fill="#30404D"></path>
+                            <path d="M31.875,38.25 L0.5939375,38.25 C1.332375,39.51225 2.6891875,40.375 4.25,40.375 L63.75,40.375 C66.0875,40.375 68,38.4625 68,36.125 L68,34 L34,34 L34,36.125 C34,37.2990625 33.0490625,38.25 31.875,38.25" id="Fill-1420" fill="#CDD6D8"></path>
+                            <path d="M29.75,36.125 L38.25,36.125 C39.423,36.125 40.375,35.173 40.375,34 L27.625,34 C27.625,35.173 28.5759375,36.125 29.75,36.125" id="Fill-1421" fill="#AAB0B1"></path>
+                        </g>
+                    </g>
+                    <g id="sharepoint-logo" mask="url(#mask-2)">
+                        <g transform="translate(34.000000, 31.000000)">
+                            <g id="Oval" fill="none">
+                                <use fill="#37C5CF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                                <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                            </g>
+                            <g id="Oval" fill="none">
+                                <use fill="#1A9BA1" fill-rule="evenodd" xlink:href="#path-6"></use>
+                                <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                            </g>
+                            <g id="Oval" fill="none">
+                                <use fill="#036C70" fill-rule="evenodd" xlink:href="#path-8"></use>
+                                <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-8"></use>
+                            </g>
+                            <rect id="Rectangle" fill="#03787D" fill-rule="evenodd" x="0" y="7" width="14" height="14" rx="2"></rect>
+                            <path d="M4.00900021,17.8838287 L4.00900021,15.962376 C4.35726525,16.2545983 4.73554747,16.4737619 5.14385821,16.619873 C5.55216895,16.7659842 5.96447656,16.8390387 6.38079339,16.8390387 C6.62497923,16.8390387 6.83813825,16.8170223 7.02027687,16.7729888 C7.20241548,16.7289553 7.35452897,16.6679098 7.47662189,16.5898503 C7.5987148,16.5117909 7.68978274,16.4197223 7.74982844,16.3136415 C7.80987414,16.2075608 7.83989654,16.0924749 7.83989654,15.9683805 C7.83989654,15.8002525 7.7918607,15.6501405 7.69578758,15.51804 C7.59971447,15.3859395 7.46861666,15.2638484 7.30249023,15.1517631 C7.13636381,15.0396778 6.93921672,14.9315972 6.71104307,14.8275179 C6.48286943,14.7234387 6.23668576,14.6173596 5.97248469,14.5092773 C5.29997288,14.2290641 4.79859883,13.8868088 4.4683475,13.4825011 C4.13809616,13.0781934 3.97297297,12.589829 3.97297297,12.0173934 C3.97297297,11.5690522 4.06304017,11.1837647 4.24317726,10.8615195 C4.42331435,10.5392742 4.66849727,10.2740764 4.97873337,10.065918 C5.28896947,9.85775955 5.64823751,9.70464532 6.05654825,9.60657068 C6.46485899,9.50849604 6.89718152,9.45945946 7.35352882,9.45945946 C7.80187003,9.45945946 8.19916643,9.48647962 8.54542995,9.54052075 C8.89169347,9.59456187 9.21093164,9.67762384 9.50315403,9.78970914 L9.50315403,11.5850665 C9.35904436,11.4849903 9.20192714,11.3969246 9.03179767,11.3208668 C8.86166819,11.2448089 8.68653753,11.1817618 8.50640044,11.1317238 C8.32626335,11.0816857 8.14712971,11.0446581 7.96899414,11.0206398 C7.79085857,10.9966215 7.6217324,10.9846125 7.46161054,10.9846125 C7.24144298,10.9846125 7.04129366,11.0056282 6.86115657,11.0476602 C6.68101948,11.0896922 6.52890599,11.1487362 6.40481155,11.2247941 C6.28071711,11.300852 6.18464543,11.39192 6.11659364,11.4980007 C6.04854185,11.6040814 6.01451647,11.7231703 6.01451647,11.8552708 C6.01451647,11.9993805 6.05254484,12.1284768 6.12860272,12.2425636 C6.20466061,12.3566504 6.31274124,12.4647311 6.45284787,12.5668088 C6.59295449,12.6688864 6.76308142,12.7689611 6.96323374,12.8670357 C7.16338607,12.9651104 7.3895548,13.0661858 7.64174673,13.170265 C7.98600872,13.3143747 8.29523943,13.4674889 8.56944811,13.6296123 C8.84365679,13.7917357 9.07883225,13.9748723 9.27498152,14.1790277 C9.4711308,14.383183 9.62124279,14.616357 9.725322,14.8785565 C9.82940121,15.1407561 9.88144003,15.4459838 9.88144003,15.7942488 C9.88144003,16.2746144 9.79037209,16.6779153 9.60823348,17.0041636 C9.42609486,17.3304119 9.17891045,17.594609 8.86667283,17.7967628 C8.5544352,17.9989167 8.19116418,18.1440249 7.77684887,18.232092 C7.36253356,18.320159 6.92520729,18.3641918 6.46485695,18.3641918 C5.99249746,18.3641918 5.54316224,18.324162 5.11683779,18.244101 C4.69051334,18.1640401 4.32123784,18.0439505 4.00900021,17.8838287 Z" id="S" fill="#FFFFFF" fill-rule="nonzero"></path>
+                        </g>
+                    </g>
+                </g>
+                <g id="Azure-Border" stroke="#0078D4" stroke-width="4">
+                    <rect x="2" y="2" width="96" height="96" rx="48"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
