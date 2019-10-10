@@ -1,6 +1,6 @@
 The Automatic Updates feature in Windows Update downloads and installs important updates, including feature upgrades, servicing upgrades, security updates, and critical performance updates. Windows 10 devices receive all updates automatically from Windows Update. The time that it takes to install updates depends on the configuration options that you select. Most updates occur seamlessly, with the following exceptions:
 
-- If an update requires a restart to complete installation, you can schedule the restart for a specific time.
+- If an update requires a restart to complete installation, you can schedule the restart for a specific time.
 
 - When a software update is applied to an application that is in use, Windows 10 can save the application’s data, then close, update, and restart the application. Windows 10 might prompt the user to accept Microsoft Software License Terms when the application restarts.
 
@@ -18,11 +18,11 @@ In Windows 10, devices download updates directly from Windows Update by default.
 
 ## Windows Update settings in Windows 10
 
-To configure Windows Update settings on a local computer, open Settings. Click **Update & Security**, and then click **Windows Update**. On the Windows Update tab, you can use the Update status and Update settings sections to configure and control Windows Update.
+To configure Windows Update settings on a local computer, open Settings. Click **Update &amp; Security**, and then click **Windows Update**. On the Windows Update tab, you can use the Update status and Update settings sections to configure and control Windows Update.
 
 |||
 | :--- | :--- |
 | ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about how to manage updates on a Windows 10 device.|
 
->[!VIDEO https://www.youtube.com/watch?v=ZsPRcG16cok]
+>[!VIDEO https://www.youtube.com/embed/ZsPRcG16cok]
 
