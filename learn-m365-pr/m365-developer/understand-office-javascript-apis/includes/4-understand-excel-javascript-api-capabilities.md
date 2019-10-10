@@ -74,7 +74,7 @@ The Excel JavaScript APIs let your add-in create and manipulate the data tools w
 
 You can create a table using a data-filled range. The APIs layer the table controls (such as filters) and formatting on top of the range.
 
-The following sample creates a table using the ranges from the previous sample.
+The following code sample creates a table using the ranges from the previous sample.
 
 ```js
 var productTable = sheet.tables.add("B2:E5", true);
