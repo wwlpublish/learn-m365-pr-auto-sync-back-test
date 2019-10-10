@@ -14,7 +14,7 @@ By the end of this module, you will be able to:
 - Basic knowledge of REST services and APIs
 - Ability to develop with ASP.NET Core at the intermediate level
 - Experience using Visual Studio Code at the beginner level
-- Access to an Office 365 tenant
+- Access to a [Microsoft 365 tenant](https://developer.microsoft.com/en-us/office/dev-program?ocid=MSlearn)
 
 ## Additional Resources
 
