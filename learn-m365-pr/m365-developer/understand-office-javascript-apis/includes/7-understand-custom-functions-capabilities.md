@@ -6,7 +6,7 @@ You can create custom JavaScript or TypeScript functions that can be accessed li
 
 ### Custom function JavaScript example
 
-The following code defines the custom function `add` that accepts two numbers then returns their sum.
+The following code sample defines the custom function `add` that accepts two numbers then returns their sum.
 
 ```js
 /**
@@ -34,7 +34,7 @@ The JSDoc tags in the code comments are used to generate a JSON metadata file th
 
 ## Custom function runtime restrictions
 
-The custom function runtime only runs JavaScript. There's no document object model (DOM) or local storage, as you would find in a browser-based JavaScript runtime environment. This means you can't load any libraries that use the DOM, such as jQuery. Also, you can't access the Office.js API to interact with the document (like you can from a task pane). Instead, the custom functions runtime is optimized for tasks such as performing rapid calculations and generally doesn't need to use some of the Office.js APIs such as formatting tools in Excel.
+The custom function runtime only runs JavaScript. There's no document object model (DOM) or local storage, as you would find in a browser-based JavaScript runtime environment. This means you can't load any libraries that use the DOM, such as jQuery. Also, you can't access the Office.js API to interact with the document like you can from a task pane. Instead, the custom functions runtime is optimized for tasks such as performing rapid calculations and generally doesn't need to use some of the Office.js APIs such as formatting tools in Excel.
 
 Custom functions have a webpage that loads the custom functions runtime. Since the custom functions runtime doesn't have a UI, there's nothing for the webpage to display. You'll find the following script tag in the webpage that loads the library for the custom functions runtime.
 
@@ -44,7 +44,7 @@ Custom functions have a webpage that loads the custom functions runtime. Since t
 
 Typically custom functions are combined with a task pane in the same add-in. If you create your add-in project using the Yeoman Generator for Office Add-ins, the project will have a webpage for the custom functions, and a web page with UI for the task pane.
 
-## Use storage API to communicate with the task pane
+## Using storage API to communicate with the task pane
 
 Custom function code and task pane code (which uses Office.js) can't call or communicate directly with each other. But you can use a storage API that allows them to share data. A common scenario for using the storage API is when the add-in needs to share a security token for accessing a secure network resource. The user might first call a custom function that requires them to be signed in. After authentication, it receives the security token. Then it shares the security token using the storage API so that later, when the user opens the task pane, the task pane doesn't need to sign them in again.
 

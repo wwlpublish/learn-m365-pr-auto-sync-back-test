@@ -2,7 +2,7 @@ The Outlook JavaScript APIs give your add-ins access to the user's mailbox, mess
 
 ## Object model
 
-To understand the Outlook APIs, you must see how the main components of a mailbox relate to each other.
+To understand the Outlook APIs, first see how the main components of a mailbox relate to each other.
 
 - The **Mailbox** object enables you to handle authentication, manage a selected item, and view user profile details.
 - The **Item** object represents the selected message or appointment that the user is reading or composing.
@@ -28,7 +28,7 @@ Your Outlook add-in can access information from anywhere on the Internet. A few 
 
 #### Exchange user identity token
 
-Exchange user identity tokens provide a way for your add-in to establish the identity of the user. By verifying the user's identity, you can do a one-time authentication into your system, then accept the user identity token as an authorization for future requests. Consider using user identity tokens if your add-in is used primarily by Exchange on-premises users or needs access to a non-Microsoft service that you control. Your add-in can call `getUserIdentityTokenAsync` to get Exchange user identity tokens.
+Exchange user identity tokens provide a way for your add-in to establish the identity of the user. By verifying the user's identity, you can authenticate a user into your system once, then accept the user identity token as an authorization for future requests. Consider using user identity tokens if your add-in is used primarily by Exchange on-premises users or needs access to a non-Microsoft service that you control. Your add-in can call `getUserIdentityTokenAsync` to get Exchange user identity tokens.
 
 #### Access tokens obtained via OAuth2 flows
 
@@ -50,7 +50,7 @@ The following table summarizes when you should use each type of access token.
 
 ### Contextual add-ins
 
-Contextual add-ins are Outlook add-ins that activate based on text in a message or appointment. You may have seen the default contextual add-ins in Outlook, such as Bing Maps or Suggested Meetings. By using contextual add-ins, a user can initiate tasks related to a message without leaving the message itself, which results in an easier and richer user experience.
+Contextual add-ins are Outlook add-ins that activate based on text in a message or appointment. You may have seen the default contextual add-ins in Outlook, such as Bing Maps or Suggested Meetings. Using contextual add-ins, a user can initiate tasks related to a message without leaving the message itself, which results in an easier and richer user experience.
 
 The following table lists a few example tasks based on a user's selection.
 
@@ -63,7 +63,7 @@ The following table lists a few example tasks based on a user's selection.
 > [!NOTE]
 > Contextual add-ins are not currently available in Outlook on Android and iOS at this time.
 
-The following image shows a contextual add-in being displayed in Outlook.
+The following image shows a contextual add-in displayed in Outlook.
 
 ![A contextual add-in displayed in Outlook](../media/outlook-detected-entity-card.png)
 
@@ -169,9 +169,9 @@ To make a module add-in, include the module extension point in your add-in's man
 </VersionOverrides>
 ```
 
-## Get started developing Outlook add-ins
+## Getting started developing Outlook add-ins
 
-To start developing an Outlook add-in, use:
+To develop an Outlook add-in, use:
 
 - The Yeoman generator for Office Add-ins
 - Visual Studio

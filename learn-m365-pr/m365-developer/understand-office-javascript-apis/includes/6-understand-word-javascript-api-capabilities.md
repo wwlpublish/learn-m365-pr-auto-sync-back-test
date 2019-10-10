@@ -23,7 +23,7 @@ In this section, you'll learn about a couple of key scenarios for Word APIs.
 > [!NOTE]
 > You can apply simple formatting to an entire existing document using the Office.js APIs. However, if you wish to apply complex formatting or use rich content objects, you can use Office Open XML (OOXML) to create these effects. Examples of capabilities in OOXML include applying drop shadows to text or pictures, coercing text boxes into shapes, and inserting Excel charts as live charts in Word documents. Because this is a more advanced skill, we will not cover this subject in its entirety but mention it for developers who are familiar with OOXML.
 
-### Work with document text
+### Working with document text
 
 Word add-ins use the `Office.onReady()` event handler to start. If the add-in targets Word 2016 or later, it calls the `Word.run()` method to run Word JavaScript APIs. The add-in must pass a function to `Word.run()` that expects a context object to be passed as the parameter. The context object allows the add-in to interact with the Word document. You can use the context object to create any needed proxy objects for the Word document and load the proxies with any properties you wish to use. You can also program actions to run using those properties. As always, a `context.sync()` command then synchronizes the state between the proxy objects and objects in the Word document.
 
@@ -54,7 +54,7 @@ Word.run(function (context) {
 
 You can use the APIs to search the document for text that meets your criteria. You can also scope your search to certain types of content, for example, paragraphs or tables.
 
-The following sample searches for the text "video you" and ignores punctuation. If the text is found, the matches are bolded, highlighted in yellow, and the font color set to purple.
+The following code sample searches for the text "video you" and ignores punctuation. If the text is found, the matches are bolded, highlighted in yellow, and the font color set to purple.
 
 ```js
 // Run a batch operation against the Word object model.
@@ -91,11 +91,11 @@ Word.run(function (context) {
 });
 ```
 
-## Get started developing Word add-ins
+## Getting started developing Word add-ins
 
-To start developing a Word add-in, use:
+To develop a Word add-in, use:
 
 - The Yeoman generator for Office Add-ins
 - Visual Studio
 
-If you want to explore the APIs more, the Script Lab add-in is recommended. There, you'll see numerous samples and be able to experiment with Word documents without creating an entire add-in.
+If you want to explore the APIs more, the Script Lab add-in is recommended. There, you'll see many TypeScript and JavaScript snippets and be able to experiment with Word documents without creating an entire add-in.

@@ -64,7 +64,7 @@ quiz:
     - content: "Dialog API"
       isCorrect: false
       explanation: "The Dialog API is a great way to display a sign-in form to the user."
-    - content: "Document object model (DOM)"
+    - content: "Document Object Model (DOM)"
       isCorrect: false
       explanation: "Custom functions don't have access to the DOM so it's not an option."
     - content: "Storage API"

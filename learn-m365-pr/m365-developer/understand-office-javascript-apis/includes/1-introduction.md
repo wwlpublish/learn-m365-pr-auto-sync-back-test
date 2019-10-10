@@ -3,7 +3,7 @@ In your add-in, you can access many built-in properties and features of an Offic
 In this module, you'll learn about Office JavaScript APIs, including:
 
 - Office Add-ins programming model
-- Developer tools
+- Developer tools:
   - Yeoman generator for Office Add-ins
   - Visual Studio
   - Script Lab

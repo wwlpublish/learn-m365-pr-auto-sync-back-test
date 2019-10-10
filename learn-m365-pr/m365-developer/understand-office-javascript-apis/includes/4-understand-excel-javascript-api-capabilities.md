@@ -19,7 +19,7 @@ Ranges have three core properties: `values`, `formulas`, and `format`. They get 
 
 ### Range sample
 
-The following sample shows how to create sales records. It uses `Range` objects to set the values, formulas, and formats.
+The following code sample shows how to create sales records. It uses `Range` objects to set the values, formulas, and formats.
 
 ```js
 // A function to create sales records.
@@ -84,9 +84,9 @@ var productTable = sheet.tables.add("B2:E5", true);
 
 ### Creating a chart
 
-You can create a chart to visualize the data in a range. The Excel APIs offer dozens of chart varieties, each of which can be customized to suit your needs.
+You can create a chart to visualize the data in a range. The Excel APIs offer dozens of chart varieties that can be customized to suit your needs.
 
-The following sample creates a simple column chart for three items.
+The following example creates a simple column chart for three items.
 
 ```js
 var productBarChart = sheet.charts.add(Excel.ChartType.columnStacked, sheet.getRange("B3:C5"));
@@ -94,11 +94,11 @@ var productBarChart = sheet.charts.add(Excel.ChartType.columnStacked, sheet.getR
 
 ![A column chart showing quantities of three items from the previous sales record.](../media/chart-sample.png)
 
-## Get started developing Excel add-ins
+## Getting started developing Excel add-ins
 
-To start developing a Word add-in, use:
+To develop an Excel add-in, use:
 
 - The Yeoman generator for Office Add-ins
 - Visual Studio
 
-If you want to explore the APIs more, the Script Lab add-in is recommended. There, you'll see numerous samples and be able to experiment with Excel workbooks without creating an entire add-in.
+If you want to explore the APIs more, the Script Lab add-in is recommended. There, you'll see many TypeScript and JavaScript snippets and be able to experiment with Excel workbooks without creating an entire add-in.
