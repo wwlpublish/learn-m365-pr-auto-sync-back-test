@@ -31,7 +31,9 @@ products:
 - office-teams
 units:
 - learn-m365.intro-microsoft-teams-apps.1-introduction
-- learn-m365.intro-microsoft-teams-apps.2-how-to-build-and-distribute-your-app
-
+- learn-m365.intro-microsoft-teams-apps.2-what-are-teams-apps
+- learn-m365.intro-microsoft-teams-apps.3-your-teams-app-lifecycle
+- learn-m365.intro-microsoft-teams-apps.4-when-to-build-teams-apps
+- learn-m365.intro-microsoft-teams-apps.5-summary
 badge:
   uid: learn-m365.intro-microsoft-teams-apps.badge
