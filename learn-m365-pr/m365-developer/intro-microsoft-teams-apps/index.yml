@@ -17,7 +17,7 @@ abstract: |
   - List the extensibility points available in Microsoft Teams
   - Choose the correct extensibility point(s) based on your scenario
 prerequisites: | 
-  - Experience using Microsoft Teams at the beginner level
+  - Experience using Microsoft Teams
   - Basic understanding of web services and APIs
 iconUrl: https://docs.microsoft.com/media/learn/module.svg
 levels: 
@@ -34,6 +34,7 @@ units:
 - learn-m365.intro-microsoft-teams-apps.2-what-are-teams-apps
 - learn-m365.intro-microsoft-teams-apps.3-your-teams-app-lifecycle
 - learn-m365.intro-microsoft-teams-apps.4-when-to-build-teams-apps
-- learn-m365.intro-microsoft-teams-apps.5-summary
+- learn-m365.intro-microsoft-teams-apps.5-knowledge-check
+- learn-m365.intro-microsoft-teams-apps.6-summary
 badge:
   uid: learn-m365.intro-microsoft-teams-apps.badge

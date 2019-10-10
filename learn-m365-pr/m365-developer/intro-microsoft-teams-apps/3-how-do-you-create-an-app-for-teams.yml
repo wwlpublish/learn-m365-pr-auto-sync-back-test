@@ -1,13 +1,13 @@
 uid: learn-m365.intro-microsoft-teams-apps
 metadata:
-  title: How do custom Microsoft Teams apps work?
-  description: This unit explains what Microsoft Teams apps are.
+  title: How do you create an app for Microsoft Teams?
+  description: In this unit you'll learn the basics of creating an app for Microsoft Teams.
   ms.date: 10/01/2019
   author: clearab
   ms.author: anclear
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Introduction
+title: How do you create an app for Microsoft Teams?
 durationInMinutes: 10
 content: |
-  [!include[](includes/2-how-do-teams-apps-work.md)]
+  [!include[](includes/3-how-do-you-create-an-app-for-teams.md)]
