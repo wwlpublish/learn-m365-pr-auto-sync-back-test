@@ -6,9 +6,7 @@ Video: Modern Windows 10 Management with Enterprise Mobility + Security
 
 |||
 | :--- | :--- |
-| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn why you should consider implementing a modern management approach for Windows devices in your organization.|
-
->[!VIDEO https://www.youtube.com/embed/3gAtjMOJ-uw]
+| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn why you should consider implementing a modern management approach for Windows devices in your organization:<br />[Modern Windows 10 Management with Enterprise Mobility + Security](https://www.youtube.com/watch?v=3gAtjMOJ-uw)|
 
 ## Pillars of Modern Management
 |||

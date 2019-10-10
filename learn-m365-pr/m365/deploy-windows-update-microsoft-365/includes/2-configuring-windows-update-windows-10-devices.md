@@ -2,7 +2,7 @@ The Automatic Updates feature in Windows Update downloads and installs important
 
 - If an update requires a restart to complete installation, you can schedule the restart for a specific time.
 
-- When a software update is applied to an application that is in use, Windows 10 can save the application’s data, then close, update, and restart the application. Windows 10 might prompt the user to accept Microsoft Software License Terms when the application restarts.
+- When a software update is applied to an application that is in use, Windows 10 can save the application’s data, then close, update, and restart the application. Windows 10 might prompt the user to accept Microsoft Software License Terms when the application restarts.
 
 - When you configure Windows Update, consider the following:
 
@@ -22,7 +22,5 @@ To configure Windows Update settings on a local computer, open Settings. Click *
 
 |||
 | :--- | :--- |
-| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about how to manage updates on a Windows 10 device.|
-
->[!VIDEO https://www.youtube.com/embed/ZsPRcG16cok]
+| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about how to manage updates on a Windows 10 device:<br />[How to Manage Updates in Windows 10](https://www.youtube.com/watch?v=ZsPRcG16cok)|
 
