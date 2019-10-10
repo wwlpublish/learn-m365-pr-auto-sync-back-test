@@ -23,6 +23,7 @@ roles:
   - developer
 products:
   - office-add-ins
+  - m365
 units:
 - learn-m365-pr.understand-office-add-ins-customization.1-introduction
 - learn-m365-pr.understand-office-add-ins-customization.2-understand-persisting-state-settings-options
