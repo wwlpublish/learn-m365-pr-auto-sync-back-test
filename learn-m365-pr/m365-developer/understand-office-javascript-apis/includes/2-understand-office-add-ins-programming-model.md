@@ -30,7 +30,7 @@ if (Office.context.requirements.isSetSupported(RequirementSetName, MinimumVersio
 
 ## Using Office JavaScript APIs
 
-To use these APIs, reference at least one of the two JavaScript object models on the Office.js content delivery network (CDN), typically by adding one of the following code statements to your page's `<head>` tag.
+To use these APIs, reference them on the Office.js content delivery network (CDN), typically by adding one of the following code statements to your page's `<head>` tag.
 
 ```HTML
 // Reference the production APIs on the CDN
