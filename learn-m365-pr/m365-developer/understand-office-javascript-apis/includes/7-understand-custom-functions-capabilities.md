@@ -30,7 +30,8 @@ The JSDoc tags in the code comments are used to generate a JSON metadata file th
 - `@param`: Describes the parameter. Include for each parameter defined by the function.
 - `@returns`: Describes what the function outputs.
 
-**Note**: The comment description "Adds two numbers." is also added to the JSON Metadata file for Excel to display when the user is viewing your custom function.
+> [!NOTE]
+> The comment description "Adds two numbers." is also added to the JSON Metadata file for Excel to display when the user is viewing your custom function.
 
 ## Custom function runtime restrictions
 

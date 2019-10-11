@@ -28,13 +28,13 @@ quiz:
       explanation: "To read the properties, call the `load` method on the proxy object with the properties to load."
   - content: "A developer wants to use an add-in to visualize data in Excel. What would be a good object to use?"
     choices:
-    - content: "chart"
+    - content: "Chart"
       isCorrect: true
       explanation: "You have several chart options available to visualize selected data."
-    - content: "range"
+    - content: "Range"
       isCorrect: false
       explanation: "You can select a range as the source of data to be visualized."
-    - content: "value"
+    - content: "Value"
       isCorrect: false
       explanation: "The content or data in a cell is its value."
   - content: "An Outlook add-in is configured to appear in the Outlook navigation bar, that is, alongside mail and calendar. What kind of add-in is it?"
