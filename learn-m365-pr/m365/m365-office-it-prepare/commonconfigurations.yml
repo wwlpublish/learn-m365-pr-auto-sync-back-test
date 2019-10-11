@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-office-it-prepare.commonconfigurations
+title: Review the network, language, policies, and common configurations
+metadata:
+  title: Review the network, language, policies, and common configurations
+  description: Review configuration information for network, language, policies, and other common elements required to upgrade and update Office at scale. 
+  ms.date: 10/02/2019
+  author: lizap 
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 2
+content: |
+  [!include[](includes/commonconfigurations.md)]
