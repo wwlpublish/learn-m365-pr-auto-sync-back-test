@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.securitycenter.2-summary-and-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Review what you learned about deploying, upgrading, and migrating to Windows 10.
+  ms.date: 06/14/2019
+  author: aleha
+  ms.author: aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-summary-and-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Question: Found in the Microsoft 365 security center, what tool is designed to help optimize your organization’s overall security health by providing insights and guidance? "
+      choices:
+      - content: "Microsoft 365 Security Assessment"
+        isCorrect: false
+        explanation: "A M365 security assessment helps identify and uncover possible solution gaps but is not an automated tool. "
+      - content: "Microsoft Secure Score"
+        isCorrect: true
+        explanation: "Malicious attachments are a common way to attack an organization’s end user base. DDoS is a denial of service attack that targets an organization’s infrastructure and is not considered phishing."
+      - content: "Microsoft Risk Assessment"
+        isCorrect: false
+        explanation: "A Microsoft risk assessment would help uncover possible vulnerabilities or compliance gaps but is not a technology solution offered by Microsoft."
+    - content: "Which of the following security monitoring services are not available in the Microsoft 365 security center?"
+      choices:
+      - content: "Azure Active Directory"
+        isCorrect: false
+        explanation: "Azure AD features alerts in the M365 security center."
+      - content: "Microsoft Cloud App Security (MCAS)"
+        isCorrect: false
+        explanation: "MCAS features alerts in the M365 security center."
+      - content: "Office Defender Advanced Threat Protection"
+        isCorrect: true
+        explanation: "Correct. Office Defender ATP is not an available solution, Office 365 ATP and Windows Defender ATP are featured in the M365 security center."
+    content: "What is one example of the intelligent and personalized recommendations the Microsoft 365 security center provides?"
+      choices:
+      - content: "Shared global administrator accounts"
+        isCorrect: false
+        explanation: "Sharing global administrator account credentials is not recommended!"
+      - content: "Workplace Analytics"
+        isCorrect: false
+        explanation: "Workplace Analytics helps you understand how your organization invests its time by giving insight into how groups collaborate across the organization."
+      - content: "Add trusted senders and domains"
+        isCorrect: true
+        explanation: "The M365 security center uses role-based access control so different security or administrator roles will see different home page cards that will be more impactful to their duties."

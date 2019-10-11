@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.securitycenter.1-introduction
+title: Securing Windows 10 Introduction
+metadata:
+  title: Microsoft Security Center
+  description: Learn how the security management tools from Microsoft help you protect your organization’s users, devices, and data.
+  ms.date: 10/11/2019
+  author: TheJasonAndrew
+  ms.author: v-jasoan
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 8
+content: |
+  [!include[](includes/1-introduction.md)]
