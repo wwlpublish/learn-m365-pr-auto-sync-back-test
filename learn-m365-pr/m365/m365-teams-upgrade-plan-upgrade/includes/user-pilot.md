@@ -56,4 +56,4 @@ If your results indicate that your pilot didn’t achieve the outcomes you wante
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Conduct a user pilot](https://docs.microsoft.com/en-us/MicrosoftTeams/pilot-essentials)
+- [Conduct a user pilot](https://docs.microsoft.com/MicrosoftTeams/pilot-essentials)
