@@ -38,7 +38,7 @@ quiz:
       - content: "Office Defender Advanced Threat Protection"
         isCorrect: true
         explanation: "Correct. Office Defender ATP is not an available solution, Office 365 ATP and Windows Defender ATP are featured in the M365 security center."
-    content: "What is one example of the intelligent and personalized recommendations the Microsoft 365 security center provides?"
+    - content: "What is one example of the intelligent and personalized recommendations the Microsoft 365 security center provides?"
       choices:
       - content: "Shared global administrator accounts"
         isCorrect: false
