@@ -2,7 +2,7 @@ At various points during your add-in's life cycle, you need to verify functional
 
 ## Sideload your add-in
 
-You can locally install (sideload) your add-in for testing and debugging on Windows, Mac, and in a web browser. You can also sideload your Excel or Word add-in on an iPad. Use Node.js, ASP.NET, or another preferred means to web host your add-in on your development machine.
+You can locally install (sideload) your add-in for testing and debugging on Windows, Mac, and in a web browser. You can also sideload your Excel or Word add-in on an iPad. Use Node.js, Internet Information Services (IIS), or another preferred means to web host your add-in on your development machine.
 
 If you create your project using the Yeoman generator for Office Add-ins, you can run `npm run start` in a command-line prompt to start and sideload your add-in to Excel on Windows or `npm run start:web` to run it in a web browser, though you'll have to manually sideload to Excel in the browser.
 

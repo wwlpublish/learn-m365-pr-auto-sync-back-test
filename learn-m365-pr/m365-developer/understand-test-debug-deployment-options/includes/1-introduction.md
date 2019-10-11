@@ -2,7 +2,7 @@ During your add-in development, you need to verify functionality and fix issues.
 
 ## Host your add-in on a web server
 
-As you develop and test your add-in, it can be hosted locally on your machine. If you use Yeoman generator for Office Add-ins, your add-in will be hosted using Node.js. With Visual Studio, your add-in will be hosted using ASP.NET. To make your add-in accessible to other users, you need to host it on a web server, either your own or through a service like Azure.
+As you develop and test your add-in, it can be hosted locally on your machine. If you use Yeoman generator for Office Add-ins, your add-in will be hosted using Node.js. With Visual Studio, your add-in will be hosted using Internet Information Services (IIS). To make your add-in accessible to other users, you need to host it on a web server, either your own or through a service like Azure.
 
 ## Test and debug your add-in
 
