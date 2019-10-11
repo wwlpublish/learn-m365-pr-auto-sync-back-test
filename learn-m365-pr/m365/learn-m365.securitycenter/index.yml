@@ -10,9 +10,10 @@ metadata:
   ms.prod: learning-m365
 title: Mail Protection with Office 365
 summary: Learn how Office 365 Advanced Threat Protection (ATP) helps safeguard your organization against unknown malware, viruses, and harmful email links and attachments
-abstract: In this module, you’ll learn how to
-- Understand the protection available using Office 365 ATP policies
-- Define mail protection using Office 365 ATP policies
+abstract: 
+  In this module, you will:
+   - Understand the protection available using Office 365 ATP policies\
+   - Define mail protection using Office 365 ATP policies
 
 
 prerequisites: None
