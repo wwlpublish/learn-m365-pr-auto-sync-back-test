@@ -55,5 +55,5 @@ quiz:
         isCorrect: true
         explanation: "Correct. The Readiness Toolkit for Office add-ins and VBA will discover files containing VBA macros and help assess prioritization and compatibility. This toolkit can be used with Configuration Manager or standalone."
       - content: "Desktop Analytics"
-        isCorrect: true
+        isCorrect: false
         explanation: "Incorrect. Desktop Analytics does not discover or assess compatibility of VBA macros."
