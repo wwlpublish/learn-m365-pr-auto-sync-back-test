@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365-pr.understand-office-javascript-apis.8-summary
+uid: learn-m365-pr.understand-office-javascript-apis.9-summary
 metadata:
   title: Summary
   description: In this module, you learned about the capabilities of Office JavaScript APIs.
-  ms.date: 10/01/2019
+  ms.date: 10/04/2019
   author: ElizabethSamuel-MSFT
   ms.author: elizs
   ms.topic: interactive-tutorial
@@ -12,4 +12,4 @@ metadata:
 title: Summary
 durationInMinutes: 1
 content: |
-  [!include[](includes/8-summary.md)]
+  [!include[](includes/9-summary.md)]

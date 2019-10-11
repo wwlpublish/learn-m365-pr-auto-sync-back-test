@@ -2,20 +2,31 @@
 uid: learn-m365-pr.understand-office-javascript-apis
 metadata:
   title: Understand Office Javascript APIs
-  description: In this module, you will learn about the Office JavaScript APIs.
-  ms.date: 10/01/2019
+  description: In this module, you'll explore the Office Add-ins programming model, developer tools, and the capabilities of the Office JavaScript APIs for Excel, Outlook, and Word.
+  ms.date: 10/04/2019
   author: ElizabethSamuel-MSFT
   ms.author: elizs
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Understand Office Javascript APIs
-summary: ...
-abstract: ...
-prerequisites: ...
+summary: In this module, you'll learn about the Office Add-ins programming model, developer tools, and the capabilities of the Office JavaScript APIs for Excel, Outlook, and Word.
+abstract: |
+  By the end of this module, you should know about:
+  - Office Add-ins programming model
+  - Recommended tools for developing Office Add-ins
+  - Capabilities of the Office JavaScript APIs for the following Office applications:
+    - Excel
+    - Outlook
+    - Word
+prerequisites: None
 iconUrl: https://docs.microsoft.com/media/learn/module.svg
-levels: [beginner]
-roles: [developer]
-products: [office-add-ins]
+levels:
+  - beginner
+roles:
+  - developer
+products:
+  - office-add-ins
+  - m365
 units:
 - learn-m365-pr.understand-office-javascript-apis.1-introduction
 - learn-m365-pr.understand-office-javascript-apis.2-understand-office-add-ins-programming-model
@@ -24,6 +35,7 @@ units:
 - learn-m365-pr.understand-office-javascript-apis.5-understand-outlook-javascript-api-capabilities
 - learn-m365-pr.understand-office-javascript-apis.6-understand-word-javascript-api-capabilities
 - learn-m365-pr.understand-office-javascript-apis.7-understand-custom-functions-capabilities
-- learn-m365-pr.understand-office-javascript-apis.8-summary
+- learn-m365-pr.understand-office-javascript-apis.8-knowledge-check
+- learn-m365-pr.understand-office-javascript-apis.9-summary
 badge:
   uid: learn-m365-pr.understand-office-javascript-apis.badge
