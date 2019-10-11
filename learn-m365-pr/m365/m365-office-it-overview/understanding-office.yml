@@ -1,12 +1,12 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365-office.m365-office-it-overview.understanding-office
-title: Understanding Office upgrades in Windows
+title: Review the Office upgrade workflow
 metadata:
-  title: Understanding Office upgrades in Windows
-  description: Understand why the new Office Upgrades are important. 
-  ms.date: 09/09/2019
-  author: jason@mightynarwhal.com 
-  ms.author: v-jasoan
+  title: Review the Office upgrade workflow
+  description: Review the three step workflow for deploying and managing Office updates. 
+  ms.date: 10/11/2019
+  author: lizap 
+  ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
   ROBOTS: NOINDEX
