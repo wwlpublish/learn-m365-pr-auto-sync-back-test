@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-teams-upgrade-hybrid.connectivity
+title: Configure hybrid connectivity 
+metadata:
+  title: Configure hybrid connectivity 
+  description: Learn the key concepts for configuring hybrid connectivity.
+  ms.date: 10/11/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 5
+content: |
+  [!include[](includes/connectivity.md)]
