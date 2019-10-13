@@ -42,7 +42,7 @@ They can contain:
 
 ### Messages
 
-Messages are the heart of collaboration in Teams. With a messaging extension action command, your app can allow users to invoke your app's API from a message, sending the contents of the message to your app for processing or action. Your app can respond by presenting a form (a task todule) to the user to collect more information, sending a reply to the original message, or sending a message directly to the user.
+Messages are the heart of collaboration in Teams. With a messaging extension action command, your app can allow users to invoke your app's API from a message, sending the contents of the message to your app for processing or action. Your app can respond by presenting a form (a task module) to the user to collect more information, sending a reply to the original message, or sending a message directly to the user.
 
 ### Writing messages
 
