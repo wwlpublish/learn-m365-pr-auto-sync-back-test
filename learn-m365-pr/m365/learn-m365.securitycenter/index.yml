@@ -1,8 +1,8 @@
 ### YamlMime:Module
 uid: learn-m365.securitycenter
 metadata:
-  title: Mail Protection with Office 365
-  description: Learn how enact Mail Protection with Office 365
+  title: Introduction to security center with Office 365
+  description: Learn about security center with Officer 365
   ms.date: 10/14/2019
   author: TheJasonAndrew
   ms.author: v-jasoan
@@ -25,6 +25,6 @@ products:
 - m365
 units:
 - learn-m365.securitycenter.1-introduction
-- learn-m365.securitycenter.2-summary-and-knowledge-check
+- learn-m365.securitycenter.2-summary-knowledge-check
 badge: 
   uid: learn-m365.securitycenter.badges

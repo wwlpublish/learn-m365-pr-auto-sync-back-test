@@ -1,6 +1,6 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.securitycenter.2-summary-and-knowledge-check
-title: Summary and Knowledge check
+uid: learn-m365.securitycenter.2-summary-knowledge-check
+title: Summary and knowledge check
 metadata:
   title: Summary and Knowledge check
   description: Review what you learned about deploying, upgrading, and migrating to Windows 10.
@@ -12,7 +12,7 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 3
 content: |
-  [!include[](includes/2-summary-and-knowledge-check.md)]
+  [!include[](includes/2-summary-knowledge-check.md)]
 quiz:
     title: Check your Knowledge
     questions:

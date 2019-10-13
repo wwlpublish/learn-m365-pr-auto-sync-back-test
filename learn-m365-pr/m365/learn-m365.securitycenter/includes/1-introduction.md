@@ -2,7 +2,7 @@ Microsoft 365 security center is the new home for monitoring and managing securi
 
 The Home page features many of the common cards that security teams need to protect their assets. The composition of cards and data is dependent on the user role. Because the Microsoft 365 security center uses role-based access control, different roles will see cards that are more meaningful to their day to day jobs.
 
-![Microsoft Security Center](../media/mod1_1.png)
+![Microsoft Security Center](../media/mod1-1.png)
  
 The Microsoft 365 security center includes:
 - *Home* – Get an at-a-glance view of the overall security health of your organization.
