@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-security-threat-protect.remediate-issues
+title: Automatically remediate security issues 
+metadata:
+  title: Automatically remediate security issues 
+  description: Description goes here 
+  ms.date: 10/02/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+  [!include[](includes/remediate-issues.md)]

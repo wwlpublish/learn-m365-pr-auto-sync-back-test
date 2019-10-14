@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-security-threat-define.common-persistent
+title: Common threats and advanced persistent threats
+metadata:
+  title: Common threats and advanced persistent threats
+  description: Description goes here 
+  ms.date: 10/02/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+  [!include[](includes/common-persistent.md)]
