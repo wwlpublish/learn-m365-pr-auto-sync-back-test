@@ -1,6 +1,1 @@
-In this module, you learned 
-
-Now that you have completed this module, you should be able to:
-  
-- Explain how to use threat and vulnerability management to identify and address weaknesses. 
-- Explain how to use Attack Simulator to educate users against phishing attacks.
+As the threat landscape continues to evolve, it’s critical that organizations have a solid cybersecurity framework in place to proactively and reactively respond to attacks. By focusing on the core security principles, organizations can block the most common attack techniques and respond before they can penetrate the organization. Once you have detection and response mechanisms in place to protect against known attacks, you can invest in identifying and preventing potential and future attacks.
