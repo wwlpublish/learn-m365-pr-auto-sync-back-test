@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn-m365-pr.understand-test-debug-deployment-options
 metadata:
-  title: Understand testing, debugging, and deployment options
+  title: Understand testing, debugging, and deployment options for Office Add-ins
   description: Learn about testing, debugging, and deployment options for Office Add-ins.
-  ms.date: 10/03/2019
+  ms.date: 10/11/2019
   author: ElizabethSamuel-MSFT
   ms.author: elizs
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Understand testing, debugging, and deployment options
+title: Understand testing, debugging, and deployment options for Office Add-ins
 summary: In this module, you'll explore testing, debugging, and deployment options for Office Add-ins.
 abstract: |
   By the end of this module, you should know:
