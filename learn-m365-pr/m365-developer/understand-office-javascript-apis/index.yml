@@ -3,7 +3,7 @@ uid: learn-m365-pr.understand-office-javascript-apis
 metadata:
   title: Understand Office Javascript APIs
   description: In this module, you'll explore the Office Add-ins programming model, developer tools, and the capabilities of the Office JavaScript APIs for Excel, Outlook, and Word.
-  ms.date: 10/04/2019
+  ms.date: 10/14/2019
   author: ElizabethSamuel-MSFT
   ms.author: elizs
   ms.topic: interactive-tutorial
@@ -19,7 +19,7 @@ abstract: |
     - Outlook
     - Word
 prerequisites: None
-iconUrl: https://docs.microsoft.com/media/learn/module.svg
+iconUrl: /learn/achievements/understand-office-javascript-apis.svg
 levels:
   - beginner
 roles:

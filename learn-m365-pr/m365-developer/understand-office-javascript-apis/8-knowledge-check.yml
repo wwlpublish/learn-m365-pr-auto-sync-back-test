@@ -20,9 +20,9 @@ quiz:
     - content: "Requirement sets can only be specific to Office hosts."
       isCorrect: false
       explanation: "Requirement sets can be specific to an Office host (for example, ExcelApi 1.7) or common to multiple hosts (for example, DialogApi 1.1)."
-    - content: "`https://appsforoffice.microsoft.com/lib/beta/hosted/Office.js` is the link to the production APIs on the Office JavaScript CDN."
+    - content: "`https://appsforoffice.microsoft.com/lib/beta/hosted/office.js` is the link to the production APIs on the Office JavaScript CDN."
       isCorrect: false
-      explanation: "It's the link to the beta APIs. `https://appsforoffice.microsoft.com/lib/1/hosted/Office.js` is the link to the production APIs."
+      explanation: "It's the link to the beta APIs. `https://appsforoffice.microsoft.com/lib/1/hosted/office.js` is the link to the production APIs."
     - content: "The properties of a proxy object must first be loaded with data from the Office file."
       isCorrect: true
       explanation: "To read the properties, call the `load` method on the proxy object with the properties to load."
