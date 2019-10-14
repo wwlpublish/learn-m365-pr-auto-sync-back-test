@@ -24,6 +24,7 @@ modules:
 - learn-m365.m365-teams-upgrade-getting-started
 - learn-m365.m365-teams-upgrade-plan-upgrade
 - learn-m365.m365-teams-upgrade-coexistence-interoperability
+- learn-m365.m365-teams-upgrade-skype-business
 - learn-m365.m365-teams-upgrade-hybrid
 trophy: 
   uid: learn-m365.m365-teams-upgrade.trophy
