@@ -1,15 +1,15 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.m365-security-threat-protect.introduction
-title: Introduction to security threat protection
+title: Introduction to Microsoft Defender Advanced Threat Protection
 metadata:
-  title: Introduction to security threat protection
-  description: Description goes here 
-  ms.date: 10/02/2019
+  title: Introduction to Microsoft Defender Advanced Threat Protection
+  description: Learn about Microsoft Defender Advanced Threat Protection.
+  ms.date: 10/14/2019
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
   ROBOTS: NOINDEX
-durationInMinutes: 3
+durationInMinutes: 10
 content: |
   [!include[](includes/introduction.md)]
