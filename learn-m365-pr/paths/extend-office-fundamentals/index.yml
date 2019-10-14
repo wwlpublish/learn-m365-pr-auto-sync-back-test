@@ -1,0 +1,35 @@
+### YamlMime:LearningPath
+uid: learn-m365-pr.extend-office-fundamentals
+title: Extend Office fundamentals
+summary: |
+  Learn about the fundamentals of extending Office using Add-ins.
+
+  In this learning path, you'll understand:
+  - Office Add-ins fundamentals
+  - Office JavaScript APIs
+  - Ways to customize Office Add-ins
+  - Options for deploying, testing, and debugging Office Add-ins
+metadata:
+  title: Extend Office fundamentals
+  description: Learn about the fundamentals of extending Office using Add-ins.
+  ms.date: 10/11/2019
+  author: ElizabethSamuel-MSFT
+  ms.author: elizs
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+prerequisites: None
+iconUrl: /learn/achievements/extend-office-fundamentals.svg
+levels: 
+- beginner
+roles: 
+- developer
+products: 
+- office-add-ins
+- m365
+modules:
+- learn-m365-pr.understand-office-add-ins-fundamentals
+- learn-m365-pr.understand-office-javascript-apis
+- learn-m365-pr.understand-office-add-ins-customization
+- learn-m365-pr.understand-test-debug-deployment-options
+trophy:
+  uid: learn-m365-pr.extend-office-fundamentals.trophy

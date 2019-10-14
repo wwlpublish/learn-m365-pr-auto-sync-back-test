@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.service-adoption-experiment.governance
+title: Governance and decision making in the service adoption framework
+metadata:
+  title: Governance and decision making in the service adoption framework
+  description: Learn about governance and decision making in the service adoption framework.
+  ms.date: 09/06/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 10
+content: |
+  [!include[](includes/governance.md)]
