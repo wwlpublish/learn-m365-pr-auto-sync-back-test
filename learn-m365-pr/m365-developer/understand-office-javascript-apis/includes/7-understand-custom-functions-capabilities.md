@@ -43,7 +43,7 @@ Custom functions have a webpage that loads the custom functions runtime. Since t
 <script src="https://appsforoffice.microsoft.com/lib/1.1/hosted/custom-functions-runtime.js" type="text/javascript"></script>
 ```
 
-Typically custom functions are combined with a task pane in the same add-in. If you create your add-in project using the Yeoman Generator for Office Add-ins, the project will have a webpage for the custom functions, and a web page with UI for the task pane.
+Typically custom functions are combined with a task pane in the same add-in. If you create your add-in project using the Yeoman generator for Office Add-ins, the project will have a webpage for the custom functions, and a web page with UI for the task pane.
 
 ## Using storage API to communicate with the task pane
 
