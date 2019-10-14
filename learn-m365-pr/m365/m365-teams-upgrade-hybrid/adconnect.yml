@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-teams-upgrade-hybrid.adconnect
+title: Configure Azure AD Connect for hybrid environments
+metadata:
+  title: Configure Azure AD Connect for hybrid environments
+  description: Learn how to set up Azure AD Connect.
+  ms.date: 10/11/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 8
+content: |
+  [!include[](includes/adconnect.md)]

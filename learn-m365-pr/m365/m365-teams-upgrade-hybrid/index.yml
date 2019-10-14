@@ -1,0 +1,44 @@
+### YamlMime:Module
+uid: learn-m365.m365-teams-upgrade-hybrid
+metadata:
+  title: Understand hybrid connectivity
+  description: Learn how to facilitate moving an on-premises Skype environment to the cloud by setting up hybrid connectivity. Discover how to configure connectivity, move users between on-premises and cloud, and disable hybrid connectivity once you’ve completed the migration.
+  ms.date: 10/11/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Understand hybrid connectivity
+summary: Learn how to facilitate moving an on-premises Skype environment to the cloud by setting up hybrid connectivity. Discover how to configure connectivity, move users between on-premises and cloud, and disable hybrid connectivity once you’ve completed the migration.
+abstract: |
+  Upon completion of this module, you should be able to:
+  - Explain hybrid connectivity requirements between Skype for Business Server and Office 365. 
+  - Describe how to configure hybrid connectivity.
+  - Describe how to Configure Azure Active Directory Connect for hybrid environments.
+  - Explain how to configure Skype for Business hybrid.    
+  - Describe how to move users between on-premises and the cloud.
+  - Explain how to disable hybrid to complete migration to the cloud.
+  - Describe cloud consolidation for Teams and Skype for Business
+prerequisites: | 
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+iconUrl: http://via.placeholder.com/120x120
+ratingEnabled: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+units:
+- learn-m365.m365-teams-upgrade-hybrid.introduction
+- learn-m365.m365-teams-upgrade-hybrid.requirements
+- learn-m365.m365-teams-upgrade-hybrid.connectivity
+- learn-m365.m365-teams-upgrade-hybrid.adconnect
+- learn-m365.m365-teams-upgrade-hybrid.configure-sfb
+- learn-m365.m365-teams-upgrade-hybrid.move-users
+- learn-m365.m365-teams-upgrade-hybrid.disable-hybrid
+- learn-m365.m365-teams-upgrade-hybrid.cloud-consolidation
+- learn-m365.m365-teams-upgrade-hybrid.summary-knowledge-check
+
+badge: 
+  uid: learn-m365.m365-teams-upgrade-hybrid.badges
