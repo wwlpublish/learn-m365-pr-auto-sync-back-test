@@ -3,7 +3,7 @@ Users today face multiple threats, including:
 - Credential theft (Mimikatz, password spray, or breach harvesting)
 - Malware (viruses, ransomware, and others)
 - Phishing (gaining access to a user’s computer and credentials) 
-- Infrastructure attacks (attacks on improperly-secured virtual machines and resources in Azure).
+- Infrastructure attacks (attacks on improperly secured virtual machines and resources in Azure).
 
 ![Threat landscape](../media/threat-landscape.png)
 
@@ -11,8 +11,8 @@ Targeted attacks usually follow a similar timeline.
 
 ![Threat timeline](../media/threat-timeline.png)
 
-- **Research** the target (using social media, open source intelligence sources, data from previous attacks) and **prepare** for the attack.
+- **Research** the target (using social media, open-source intelligence sources, data from previous attacks) and **prepare** for the attack.
 - **Attack** using an **elevation of privilege attack** (usually using **credential theft**, but also abuse of administrative and management tools and configuration weaknesses).
 - **Exfiltrate data** for illicit purposes, which can go undetected for 200+ days.
 
-This timeline is based on Microsoft’s incident response team’s experience and what’s reported by others in industry. Precise numbers are difficult to determine because evidence of the initial "Patient 0" host is frequently lost after such a long time. Because most attacks are discovered by external parties, variance in discovery times usually depends on the specific industry involved, ie, retail attacks are discovered quickly as credit cards flood the market whereas the loss of IP such technical designs takes longer to become apparent.
+This timeline is based on Microsoft’s incident response team’s experience and what’s reported by others in industry. Precise numbers are difficult to determine because evidence of the initial "Patient 0" host is frequently lost after such a long time. Because most attacks are discovered by external parties, variance in discovery times usually depends on the specific industry involved - for example, retail attacks are discovered quickly as credit cards flood the market whereas the loss of IP such technical designs takes longer to become apparent.
