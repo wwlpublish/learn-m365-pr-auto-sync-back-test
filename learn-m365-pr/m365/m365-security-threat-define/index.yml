@@ -25,7 +25,6 @@ roles:
 products:
 - m365
 units:
-- learn-m365.m365-security-threat-define.introduction
 - learn-m365.m365-security-threat-define.what-constitutes-threat
 - learn-m365.m365-security-threat-define.landscape-evolving
 - learn-m365.m365-security-threat-define.summary-knowledge-check
