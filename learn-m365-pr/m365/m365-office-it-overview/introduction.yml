@@ -1,15 +1,15 @@
 ### YamlMime:ModuleUnit 
 uid: learn-m365-office.m365-office-it-overview.introduction
-title: Introduction to Office in Windows for IT 
+title: Understand the basics of Office servicing 
 metadata:
-  title: Introduction to Office in Windows for IT 
-  description:  Learn the basic concepts of Office in Windows for IT
-  ms.date: 09/19/2019
-  author: jason@mightynarwhal.com
-  ms.author: v-jasoan
+  title: Understand the basics of Office servicing 
+  description: Review the basic concepts and tools used to deploy and manage updates for Microsoft Office.
+  ms.date: 10/11/2019
+  author: lizap
+  ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
   ROBOTS: NOINDEX
-durationInMinutes: 3
+durationInMinutes: 5
 content: |
   [!include[](includes/introduction.md)]
