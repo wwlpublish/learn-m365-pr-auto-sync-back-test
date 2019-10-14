@@ -4,7 +4,7 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Description goes here 
-  ms.date: 10/02/2019
+  ms.date: 10/14/2019
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
@@ -27,7 +27,7 @@ quiz:
       - content: "As the attacker, you have to be right every time, everywhere, forever. As the defender, I just have to be right once."
         isCorrect: false
         explanation: "This is the opposite of the Defender’s Dilemma. Attackers can repeatedly attack organizations while defenders are constantly trying to identify and prevent attempted breaches."
-      - content: "•	As the defender, you have to be right every time, everywhere, forever. As the attacker, I just have to be right once."
+      - content: "As the defender, you have to be right every time, everywhere, forever. As the attacker, I just have to be right once."
         isCorrect: true
         explanation: "Correct. The Defender’s Dilemma focuses on with low cost of attack these attempts can repeatedly be carried out to breach your environment. By creating a high attacker cost, in partnership with thwarting attacks, failed breaches now become detrimental to attackers."
     - content: "Office 365 Advanced Threat Protection allows defenders to run simulated attacks. Which of the below is not a simulated attack offered by Office 365 ATP?"
