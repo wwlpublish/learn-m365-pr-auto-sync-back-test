@@ -1,25 +1,20 @@
 ### YamlMime:Module
 uid: learn-m365.m365-security-threat-protect
 metadata:
-  title: Protect against threats with Microsoft 365
-  description: Description goes here
-  ms.date: 10/02/2019
+  title: Protect against threats with Microsoft Defender Advanced Threat Protection
+  description: Learn how new threat protection tools from Microsoft protect your organization’s users, devices, and data from attempted attacks.
+  ms.date: 10/14/2019
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Protect against threats with Microsoft 365  
-summary: Summary goes here
+title: Protect against threats with Microsoft Defender Advanced Threat Protection  
+summary: Learn how new threat protection tools from Microsoft protect your organization’s users, devices, and data from attempted attacks.
 abstract: |
-  At the end of this module, you should be able to:
-  - Explain how Microsoft 365 protects user identities.
-  - Describe how Microsoft 365 protects endpoints automatically.
-  - Describe how Office 365 ATP protects user data.
-  - Describe the Cloud App Security framework.
-  - Explain how to manage incidents by using the Microsoft 365 Security Center.
-  - Describe how Microsoft Threat Protection detects and remediates threats automatically.
-  - Describe how to hunt for threats by using Microsoft Threat Protection.
-
+  In this module, you will learn how to:
+  - Explain how to protect against threats using Microsoft Defender Advanced Threat Protection
+  - Explain how to configure Office 365 Advanced Threat Protection
+  - Describe the Cloud App Security framework and how Microsoft Cloud App Security natively integrates with Microsoft solutions
 prerequisites: | 
  - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
 iconUrl: http://via.placeholder.com/120x120
@@ -32,13 +27,9 @@ products:
 - m365
 units:
 - learn-m365.m365-security-threat-protect.introduction
-- learn-m365.m365-security-threat-protect.manage-incidents-security-center
-- learn-m365.m365-security-threat-protect.remediate-issues
-- learn-m365.m365-security-threat-protect.hunt-threats-network
-- learn-m365.m365-security-threat-protect.protect-identity
-- learn-m365.m365-security-threat-protect.protect-endpoints
-- learn-m365.m365-security-threat-protect.cloud-apps-protection
-- learn-m365.m365-security-threat-protect.protect-user-data
+- learn-m365.m365-security-threat-protect.office-365-atp
+- learn-m365.m365-security-threat-protect.cloud-apps-security
+- learn-m365.m365-security-threat-protect.m365-security-center
 - learn-m365.m365-security-threat-protect.summary-knowledge-check
 badge: 
   uid: learn-m365.m365-security-threat-protect.badges
