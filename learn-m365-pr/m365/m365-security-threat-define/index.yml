@@ -1,25 +1,22 @@
 ### YamlMime:Module
 uid: learn-m365.m365-security-threat-define
 metadata:
-  title: Overview of threat protection 
-  description: Description goes here
-  ms.date: 10/03/2019
-  author: AlexandraHrt
-  ms.author: v-aleha
+  title: Introduction to threat protection with Microsoft 365 
+  description: Learn about how attackers most commonly breach organizations--and the Microsoft tools that protect your organization in an ever shifting landscape.
+  ms.date: 10/14/2019
+  author: lizap
+  ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Overview of threat protection  
-summary: Summary goes here 
+title: Introduction to threat protection with Microsoft 365
+summary: Learn about how attackers most commonly breach organizations--and the Microsoft tools that protect your organization in an ever shifting landscape. 
 abstract: |
-  At the end of this module, you should be able to:
-  - Describe common security threats.
-  - Describe protections against advanced persistent threats.
-  - Explain how the changing digital landscape affects threat protection.
-  - Describe Microsoft Threat Intelligence.
-
+  In this module, you will learn how to:
+  - Identify and define security threats
+  - Explain how the threat landscape is evolving and attackers are adapting
+  - Articulate the Microsoft Graph and the security API
 prerequisites: | 
- - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/introduction-to-threat-protection.svg
 ratingEnabled: true
 levels:
 - intermediate
@@ -30,9 +27,7 @@ products:
 units:
 - learn-m365.m365-security-threat-define.introduction
 - learn-m365.m365-security-threat-define.what-constitutes-threat
-- learn-m365.m365-security-threat-define.common-persistent
 - learn-m365.m365-security-threat-define.landscape-evolving
-- learn-m365.m365-security-threat-define.intelligence-security-graph
 - learn-m365.m365-security-threat-define.summary-knowledge-check
 badge: 
   uid: learn-m365.m365-security-threat-define.badges
