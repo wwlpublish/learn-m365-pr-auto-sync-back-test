@@ -17,7 +17,7 @@ abstract: |
   - Develop simulated attacks to train your security administrators and operations teams.
 
 prerequisites: | 
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/train-the-defenders.svg
 ratingEnabled: true
 levels:
 - intermediate

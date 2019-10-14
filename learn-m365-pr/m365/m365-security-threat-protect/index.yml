@@ -16,8 +16,7 @@ abstract: |
   - Explain how to configure Office 365 Advanced Threat Protection
   - Describe the Cloud App Security framework and how Microsoft Cloud App Security natively integrates with Microsoft solutions
 prerequisites: | 
- - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/protect-against-threats.svg
 ratingEnabled: true
 levels:
 - intermediate
