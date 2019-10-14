@@ -78,8 +78,9 @@ If the results of bandwidth planning, port testing, or network requirements test
 •	For blocked ports, change firewall rules and retest the ports.
 •	For network impairments, always perform a root-cause analysis.
 
-**Note**
-Many networks evolve over time due to upgrades, expansion, or other business requirements. Ensure that you have operational processes in place to maintain these areas as part of your service management planning.
+> [!NOTE]
+> Note
+> Many networks evolve over time due to upgrades, expansion, or other business requirements. Ensure that you have operational processes in place to maintain these areas as part of your service management planning.
 
 ## Key takeaways  
 

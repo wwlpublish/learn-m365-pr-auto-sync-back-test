@@ -25,4 +25,4 @@ The questionnaire can be found [here](https://docs.microsoft.com/en-us/Microsoft
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Evaluate your environment before upgrading to Teams](https://docs.microsoft.com/en-us/MicrosoftTeams/upgrade-plan-journey-evaluate-environment) 
+- [Evaluate your environment before upgrading to Teams](https://docs.microsoft.com/MicrosoftTeams/upgrade-plan-journey-evaluate-environment) 
