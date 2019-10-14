@@ -2,15 +2,15 @@ By preparing your organization for collaboration and cloud voice services with T
 
 The following checklists walk you through the steps for deploying Microsoft Teams in your organization:
 
-•	[Prepare Office 365 for Teams](https://docs.microsoft.com/microsoftteams/office-365-groups)
+- [Prepare Office 365 for Teams](https://docs.microsoft.com/microsoftteams/office-365-groups)
 
-•	[Configure Teams core capabilities](https://docs.microsoft.com/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) 
+- [Configure Teams core capabilities](https://docs.microsoft.com/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) 
 
-•	[Configure networking](https://docs.microsoft.com/microsoftteams/upgrade-prepare-environment-prepare-network) 
+- [Configure networking](https://docs.microsoft.com/microsoftteams/upgrade-prepare-environment-prepare-network) 
 
-•	[Configure cloud voice workloads in Teams](https://docs.microsoft.com/MicrosoftTeams/cloud-voice-landing-page)
+- [Configure cloud voice workloads in Teams](https://docs.microsoft.com/MicrosoftTeams/cloud-voice-landing-page)
 
-•	[Configure Direct Routing in Teams](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page) 
+- [Configure Direct Routing in Teams](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page) 
 
 
  The tasks and activities in these checklists are the core “to-do” items that apply to every deployment of collaboration and voice capabilities with Teams. You can customize the checklists to include the activities and tasks that are specific to your own Teams journey.
@@ -21,8 +21,7 @@ Although we recommend that you follow the checklists in order, the exact sequenc
 
 When you’re onboarding users on a per-site basis, we highly recommended that you use the Site Enablement Playbook for Voice (Playbook) as a supplementary guide to these checklists.
  
-**Note**
-
+> [!NOTE]
 Most of the configuration settings are common between Teams and Skype for Business Online. You use the Microsoft Teams admin center to configure those settings.
 
 
