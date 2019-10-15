@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Deploying new technologies can affect your users’ productivity and your network. But just like you’d paint a small patch of color on a wall before painting the whole room, it’s a good idea to test a broad rollout on a smaller scale by conducting a pilot to validate technical and user readiness, identify and mitigate issues, and help ensure a successful organization-wide implementation.
 
 To achieve the most realistic results, a Teams pilot should involve actual users, mimic how they communicate and collaborate, and verify both technical and user experiences. Whether your organization is considering running Skype for Business and Teams side by side, upgrading to Teams in the future, or deploying new functionality such a calling or conferencing, a pilot can help identify the right path forward for your organization. 
@@ -13,6 +14,7 @@ Start small and add to your pilot as appropriate—whether by adding workloads o
 When it comes to participant selection, remember that Teams is collaboration and communications technology, so be sure to select pilot participants based not on roles or personas but on their project and cross-team work. A great place to start is asking your stakeholders and department managers for real projects that you can validate in Teams. Examples include using Teams:
 
 - With your sales organization to ensure that field reps can easily access the resources they need and share insights with other field members. 
+<<<<<<< HEAD
 - To coordinate a product launch event with the marketing, training, public relations, and event planning teams. 
 
 Whichever scenarios you select, the pilot should extend to key people in IT, training, and your helpdesk, so you can thoroughly validate the solution while fully optimizing project management resources.
@@ -20,7 +22,6 @@ Whichever scenarios you select, the pilot should extend to key people in IT, tra
 When selecting your Teams pilot group participants, be sure to include top users of Skype for Business. Check with those users to understand how they use Skype for Business today; then build out a test plan to verify that Teams can meet their current needs.
 
 ## 3. Design your test plan and feedback survey
-
 A successful pilot will give your participants clearly defined tasks to complete and a way for them to share their feedback. Combine tasks together to offer real-world scenarios, demonstrating relevancy to users’ daily activities.
 
 Your organization might choose to pilot all functionality at once or use a gradual approach. Ensure that you have an open feedback channel to track progress and measure outcomes. Defined your survey in advance as an easy way to capture and assess pilot results.
@@ -33,7 +34,7 @@ It’s crucial that you educate pilot participants on what’s happening, when, 
 
 Conducting your pilot includes communicating with your users, monitoring your network and usage to ensure your network performance and call quality remain healthy, gathering feedback from participants, and reviewing helpdesk tickets for questions related to Teams.
 
-## Suggested timeline
+### Suggested timeline
 
 For a 30-day pilot, we suggest:
 

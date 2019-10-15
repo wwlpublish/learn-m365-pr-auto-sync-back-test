@@ -15,6 +15,7 @@ Understanding how users work and how they come together can help users visualize
 
 - **Project-centric teamwork** centers on a specific project or initiative (for example, planning a product launch event). From scope planning to budget management to marketing efforts, project-centric teamwork helps align project workstreams, keeping everyone informed.
 - **People-centric teamwork** revolves around people with similar responsibilities or attributes who might work on the same team (for example, the sales team, road warriors) or across teams (for example, peer champions). From chatting with a colleague to get an answer to a question to participating in a team meeting, people-centric activities include information sharing and rapport building.
+
 To get the most out of Teams, build a teamwork strategy that includes both scenarios, helping users understand how Teams can work for them.
 
 ## Prepare a user readiness plan

@@ -16,39 +16,39 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: ""
+    - content: "The default mode when upgrading from Skype for Business to Teams is to: "
       choices:
-      - content: ""
+      - content: "Assign users one of several coexistence modes to ensure that these capabilities don’t overlap for that user."
         isCorrect: false
-        explanation: ""
-      - content: ""
+        explanation: "The default mode when upgrading from Skype for Business to Teams is to run Teams alongside Skype for Business with the capabilities overlap."
+      - content: "Run Teams alongside Skype for Business with the capabilities overlap."
         isCorrect: true
-        explanation: ""
-      - content: ""
+        explanation: "The default mode when upgrading from Skype for Business to Teams is to run Teams alongside Skype for Business with the capabilities overlap."
+      - content: "Upgrade users directly to TeamsOnly"
         isCorrect: false
-        explanation: ""
+        explanation: "The default mode when upgrading from Skype for Business to Teams is to run Teams alongside Skype for Business with the capabilities overlap."
 
-    - content: ""
+    - content: "Which of the following statements about interoperability is true?"
       choices:
-      - content: ""
+      - content: "Interoperability allows Teams and Skype for Business to run simultaneously by eliminating overlapping functionality."
         isCorrect: false
-        explanation: ""
-      - content: ""
+        explanation: "Interoperability allows Teams and Skype for Business to run simultaneously with overlapping functionality."
+      - content: "Interoperability allows Teams and Skype for Business to work together when one user or set of users has one application and other users have the other."
+        isCorrect: false
+        explanation: "Interoperability allows Teams and Skype for Business to run simultaneously with overlapping functionality."
+      - content: "Interoperability allows Teams and Skype for Business to run simultaneously with overlapping functionality."
         isCorrect: true
-        explanation: ""
-      - content: ""
-        isCorrect: false
-        explanation: ""
+        explanation: "Interoperability allows Teams and Skype for Business to run simultaneously with overlapping functionality."
       
-    - content: ""
+    - content: "Which of the following statements about TeamsUpgradePolicy is true? "
       choices:
-      - content: ""
+      - content: "TeamsUpgradePolicy is the setting where you change coexistence mode."
         isCorrect: false
-        explanation: ""
-      - content: ""
+        explanation: "TeamsUpgradePolicy is the setting where you both change coexistence mode and whether to notify Skype for Business users of the change."
+      - content: "TeamsUpgradePolicy is the setting where you change coexistence mode and whether to notify Skype for Business users of the change."
         isCorrect: true
-        explanation: ""
-      - content: ""
+        explanation: "TeamsUpgradePolicy is the setting where you change coexistence mode and whether to notify Skype for Business users of the change."
+      - content: "TeamsUpgradePolicy is the setting where you notify Skype for Business users of the change."
         isCorrect: false
-        explanation: ""
+        explanation: "TeamsUpgradePolicy is the setting where you both change coexistence mode and whether to notify Skype for Business users of the change."
       

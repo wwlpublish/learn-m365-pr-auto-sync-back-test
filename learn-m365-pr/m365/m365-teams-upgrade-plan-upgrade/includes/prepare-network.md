@@ -5,6 +5,7 @@ Teams uses audio and video technology (codecs) that can adapt to—and therefore
 ## Why should you prepare your network?
 
 Network performance can affect the performance of Teams and thereby user happiness and satisfaction. Three major risk areas can affect how users perceive network quality:
+
 - Insufficient bandwidth available
 - Firewall and proxy blockers
 - Network impairments such as jitter and packet loss
@@ -78,6 +79,7 @@ The Skype for Business Network Assessment Tool will tell you whether your networ
 ## Network remediation
 
 If the results of bandwidth planning, port testing, or network requirements testing show that your current network needs remediation before you deploy Teams, you can accomplish this in several ways:
+
 - For insufficient bandwidth, upgrade connections so that traffic to Office 365 can flow unhindered.
 - For blocked ports, change firewall rules and retest the ports.
 - For network impairments, always perform a root-cause analysis.
