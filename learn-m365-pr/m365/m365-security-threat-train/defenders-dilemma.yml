@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-security-threat-train.defenders-dilemma
+title: Understand the defender's dilemma
+metadata:
+  title: Understand the defender's dilemma
+  description: Review the challenges facing defenders as they protect business resources. 
+  ms.date: 10/14/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 5
+content: |
+  [!include[](includes/defenders-dilemma.md)]
