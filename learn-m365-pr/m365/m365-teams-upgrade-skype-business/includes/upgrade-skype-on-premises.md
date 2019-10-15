@@ -64,7 +64,7 @@ To move users between on premises and the cloud, you must use an account with su
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
 - [Upgrade from Skype for Business on-premises to Teams](https://docs.microsoft.com/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem)
-- [Move users between on-premises and the cloud]
+- [Move users between on-premises and the cloud](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
 - [Plan hybrid connectivity between Skype for Business Server and Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
 - [Configure hybrid connectivity](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)
 - [Setting your coexistence and upgrade settings](https://aka.ms/SkypeToTeams-SetCoexistence)
