@@ -9,46 +9,46 @@ metadata:
   ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-  ROBOTS: NOINDEX
 durationInMinutes: 5
 content: |
   [!include[](includes/summary-knowledge-check.md)]
 quiz:
     title: Check your knowledge
     questions:
-    - content: ""
+    - content: "Which of the following statements is true?"
       choices:
-      - content: ""
+      - content: "You can move users to Teams all at once only if you're upgrading from Skype for Business Online and not from Skype for Business on-premises."
         isCorrect: false
-        explanation: ""
-      - content: ""
+        explanation: "You can move users to Teams all at once if you're upgrading from either Skype for Business Online or Skype for Business on-premises."
+      - content: "You can move users to Teams all at once if you're upgrading from either Skype for Business Online or Skype for Business on-premises."
         isCorrect: true
-        explanation: ""
-      - content: ""
+        explanation: "True. You can move users all at once if you're upgrading from either Skype for Business ONline or Skype for Business on-premises."
+      - content: "You can move users to Teams in stages if you're upgrading from either Skype for Business Online or Skype for Business on-premises."
         isCorrect: false
-        explanation: ""
+        explanation: "You can move users to Teams in stages if you are upgrading from either Skype for Business Online or Skype for Business on-premises."
 
-    - content: ""
+    - content: "Choose the recommended path for Skype for Business Online customers."
       choices:
-      - content: ""
+      - content: "Start with the Skype for Business Only mode, and then move to TeamsOnly."
         isCorrect: false
-        explanation: ""
-      - content: ""
+        explanation: "The recommended path is to start with the default Islands mode, and then move to TeamsOnly."
+      - content: "Start with the default Islands mode, and then move to TeamsOnly."
         isCorrect: true
-        explanation: ""
-      - content: ""
+        explanation: "Yes, this is the recommended path for Skype for Business Online customers when upgrading to Microsoft Teams."
+      - content: "Start with the Meetings First mode, and then move to TeamsOnly."
         isCorrect: false
-        explanation: ""
+        explanation: "The recommended path is to start with the default Islands mode, and then move to TeamsOnly."
+      - content: "Start with the default Islands mode, and then move to TeamsOnly."
       
-    - content: ""
+    - content: "Which of the following statements accurately describes the Azure AD Connect requirements?"
       choices:
-      - content: ""
+      - content: "The organization must have Azure AD Connect properly configured and be syncing all relevant attributes in order to upgrade users to Skype for Business Online."
         isCorrect: false
-        explanation: ""
-      - content: ""
+        explanation: "The organization must have Azure AD Connect properly configured and be syncing all relevant attributes in order to upgrade users to Skype for Business on-premises only."
+      - content: "The organization must have Azure AD Connect properly configured and be syncing all relevant attributes in order to upgrade users to Skype for Business on-premises only."
+        isCorrect: false
+        explanation: "The organization must have Azure AD Connect properly configured and be syncing all relevant attributes in order to upgrade users to Skype for Business on-premises or Skype for Business Online."
+      - content: "The organization must have Azure AD Connect properly configured and be syncing all relevant attributes in order to upgrade users to Skype for Business on-premises."
         isCorrect: true
-        explanation: ""
-      - content: ""
-        isCorrect: false
-        explanation: ""
+        explanation: "The organization must have Azure AD Connect properly configured and be syncing all relevant attributes in order to upgrade users to Skype for Business on-premises only."
       

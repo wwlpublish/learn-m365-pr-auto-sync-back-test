@@ -1,1 +1,1 @@
-content here
+The guidance for administrators who have deployed Skype for Business Online and want to upgrade users from Skype for Business to Teams is different than the guidance for upgrading from Skype for Business on-premises. We cover both upgrades in this module. 
