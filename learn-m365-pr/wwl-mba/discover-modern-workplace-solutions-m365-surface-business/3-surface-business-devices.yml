@@ -1,0 +1,17 @@
+### YamlMime:ModuleUnit
+uid: learn-wwl.discover-modern-workplace-solutions-m365-surface-business.3-surface-for-business-devices
+title: Surface for Business Devices
+metadata:
+  title: Surface for Business devices
+  description: Surface for Business devices
+  ms.date: 10/15/2019
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+azureSandbox: false
+
+durationInMinutes: 2
+content: |
+  [!include[](includes/3-surface-business-devices.md)]
