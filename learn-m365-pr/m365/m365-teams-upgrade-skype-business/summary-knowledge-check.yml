@@ -26,7 +26,6 @@ quiz:
       - content: "You can move users to Teams in stages if you're upgrading from either Skype for Business Online or Skype for Business on-premises."
         isCorrect: false
         explanation: "You can move users to Teams in stages if you are upgrading from either Skype for Business Online or Skype for Business on-premises."
-
     - content: "Choose the recommended path for Skype for Business Online customers."
       choices:
       - content: "Start with the Skype for Business Only mode, and then move to TeamsOnly."
@@ -37,9 +36,7 @@ quiz:
         explanation: "Yes, this is the recommended path for Skype for Business Online customers when upgrading to Microsoft Teams."
       - content: "Start with the Meetings First mode, and then move to TeamsOnly."
         isCorrect: false
-        explanation: "The recommended path is to start with the default Islands mode, and then move to TeamsOnly."
-      - content: "Start with the default Islands mode, and then move to TeamsOnly."
-      
+        explanation: "The recommended path is to start with the default Islands mode, and then move to TeamsOnly." 
     - content: "Which of the following statements accurately describes the Azure AD Connect requirements?"
       choices:
       - content: "The organization must have Azure AD Connect properly configured and be syncing all relevant attributes in order to upgrade users to Skype for Business Online."
