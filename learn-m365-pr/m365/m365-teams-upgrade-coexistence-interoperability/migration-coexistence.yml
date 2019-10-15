@@ -3,13 +3,12 @@ uid: learn-m365.m365-teams-upgrade-coexistence-interoperability.migration-coexis
 title: Manage migration and coexistence
 metadata:
   title: Manage migration and coexistence
-  description: Discover how coexistence works when upgrading from Skype for Business to Microsoft Teams. Learn what the coexistence modes are, how interoperability works, and how to manage coexistence.
+  description: Learn how to manage interoperability and migration during the transition from Skype for Business to Teams.
   ms.date: 09/30/2019
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-  ROBOTS: NOINDEX
 durationInMinutes: 3
 content: |
   [!include[](includes/migration-coexistence.md)]

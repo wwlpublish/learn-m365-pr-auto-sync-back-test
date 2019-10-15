@@ -16,39 +16,40 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: ""
+    - content: "Which of the following statements is true?"
       choices:
-      - content: ""
+      - content: "You can move users to Teams all at once only if you are upgrading from Skype for Business Online and not Skype for Business on-premises."
         isCorrect: false
-        explanation: ""
-      - content: ""
+        explanation: "You can move users to Teams all at once if you are upgrading from either Skype for Business Online or Skype for Business on-premises."
+      - content: "You can move users to Teams all at once if you are upgrading from either Skype for Business Online or Skype for Business on-premises."
         isCorrect: true
-        explanation: ""
-      - content: ""
+        explanation: "You can move users to Teams all at once if you are upgrading from either Skype for Business Online or Skype for Business on-premises."
+      - content: "You can move users to Teams in stages only if you are upgrading from Skype for Business Online and not Skype for Business on-premises."
         isCorrect: false
-        explanation: ""
+        explanation: "You can move users to Teams all at once if you are upgrading from either Skype for Business Online or Skype for Business on-premises."
 
-    - content: ""
+    - content: "The recommended path for Skype for Business Online customers is to start with the Skype for Business Only mode and then move to TeamsOnly.
+"
       choices:
-      - content: ""
-        isCorrect: false
-        explanation: ""
-      - content: ""
+      - content: "Start with the default Islands mode and then move to TeamsOnly."
         isCorrect: true
-        explanation: ""
-      - content: ""
+        explanation: "The recommended path for Skype for Business Online customers is to start with the default Islands mode and then move to TeamsOnly."
+      - content: "The recommended path for Skype for Business Online customers is to start with the default Islands mode and then move to TeamsOnly."
         isCorrect: false
-        explanation: ""
+        explanation: "The recommended path for Skype for Business Online customers is to start with the default Islands mode and then move to TeamsOnly."
+      - content: "The recommended path for Skype for Business Online customers is to start with the default Islands mode and then move to TeamsOnly."
+        isCorrect: false
+        explanation: "The recommended path for Skype for Business Online customers is to start with the default Islands mode and then move to TeamsOnly."
       
-    - content: ""
+    - content: "Which of the following statements is true?"
       choices:
-      - content: ""
+      - content: "The organization must have Azure AD Connect properly configured and be syncing all relevant attributes in order to upgrade users to Skype for Business Online."
         isCorrect: false
-        explanation: ""
-      - content: ""
+        explanation: "The organization must have Azure AD Connect properly configured and be syncing all relevant attributes in order to upgrade users to Skype for Business on-premises only."
+      - content: "The organization must have Azure AD Connect properly configured and be syncing all relevant attributes in order to upgrade users to Skype for Business on-premises."
         isCorrect: true
-        explanation: ""
-      - content: ""
+        explanation: "The organization must have Azure AD Connect properly configured and be syncing all relevant attributes in order to upgrade users to Skype for Business on-premises only."
+      - content: "The organization must have Azure AD Connect properly configured and be syncing all relevant attributes in order to upgrade users to Skype for Business on-premises or Skype for Business Online."
         isCorrect: false
-        explanation: ""
+        explanation: "The organization must have Azure AD Connect properly configured and be syncing all relevant attributes in order to upgrade users to Skype for Business on-premises only."
       
