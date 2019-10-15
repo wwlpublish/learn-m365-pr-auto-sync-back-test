@@ -55,7 +55,9 @@ To move users between on premises and the cloud, you must use an account with su
 - In the on-premises environment, the user performing the move must have the CSServerAdminstrator role in Skype for Business Server.
 - In Office 365, the user performing the move must either be a Global Administrator or it must have both Skype for Business Administrator and User Administrator roles.
 
-### Resources
+## Learn more
+
+When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 - [Upgrade from Skype for Business on-premises to Teams](https://docs.microsoft.com/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem)
 - [Move users between on-premises and the cloud](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud)
 - [Plan hybrid connectivity between Skype for Business Server and Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
