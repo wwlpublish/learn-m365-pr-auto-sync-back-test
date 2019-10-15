@@ -3,7 +3,7 @@ uid: learn-m365-pr.understand-office-add-ins-customization
 metadata:
   title: Understand how to customize Office Add-ins
   description: Learn how you can customize Office Add-ins by persisting state, and using Office UI Fabric and Microsoft Graph.
-  ms.date: 10/03/2019
+  ms.date: 10/14/2019
   author: ElizabethSamuel-MSFT
   ms.author: elizs
   ms.topic: interactive-tutorial
@@ -16,7 +16,7 @@ abstract: |
   - Office UI Fabric
   - Microsoft Graph
 prerequisites: None
-iconUrl: https://docs.microsoft.com/media/learn/module.svg
+iconUrl: /learn/achievements/understand-office-add-ins-customization.svg
 levels:
   - beginner
 roles:

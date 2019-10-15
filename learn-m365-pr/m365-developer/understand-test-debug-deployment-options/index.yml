@@ -3,7 +3,7 @@ uid: learn-m365-pr.understand-test-debug-deployment-options
 metadata:
   title: Understand testing, debugging, and deployment options for Office Add-ins
   description: Learn about testing, debugging, and deployment options for Office Add-ins.
-  ms.date: 10/11/2019
+  ms.date: 10/14/2019
   author: ElizabethSamuel-MSFT
   ms.author: elizs
   ms.topic: interactive-tutorial
@@ -16,7 +16,7 @@ abstract: |
   - How to use Visual Studio, Visual Studio Code, or the browser developer tools to debug your add-in.
   - The different options available for deployment.
 prerequisites: None
-iconUrl: https://docs.microsoft.com/media/learn/module.svg
+iconUrl: /learn/achievements/understand-test-debug-deployment-options.svg
 levels: 
  - beginner
 roles: 
