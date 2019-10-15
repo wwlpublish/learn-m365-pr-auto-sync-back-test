@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Deploying new technologies can affect your users’ productivity and your network. But just like you’d paint a small patch of color on a wall before painting the whole room, it’s a good idea to test a broad rollout on a smaller scale by conducting a pilot to validate technical and user readiness, identify and mitigate issues, and help ensure a successful organization-wide implementation.
 
 To achieve the most realistic results, a Teams pilot should involve actual users, mimic how they communicate and collaborate, and verify both technical and user experiences. Whether your organization is considering running Skype for Business and Teams side by side, upgrading to Teams in the future, or deploying new functionality such a calling or conferencing, a pilot can help identify the right path forward for your organization. 
@@ -14,7 +13,6 @@ Start small and add to your pilot as appropriate—whether by adding workloads o
 When it comes to participant selection, remember that Teams is collaboration and communications technology, so be sure to select pilot participants based not on roles or personas but on their project and cross-team work. A great place to start is asking your stakeholders and department managers for real projects that you can validate in Teams. Examples include using Teams:
 
 - With your sales organization to ensure that field reps can easily access the resources they need and share insights with other field members. 
-<<<<<<< HEAD
 - To coordinate a product launch event with the marketing, training, public relations, and event planning teams. 
 
 Whichever scenarios you select, the pilot should extend to key people in IT, training, and your helpdesk, so you can thoroughly validate the solution while fully optimizing project management resources.
