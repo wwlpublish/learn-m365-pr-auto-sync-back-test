@@ -9,9 +9,7 @@ metadata:
   ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-  ROBOTS: NOINDEX
 azureSandbox: false
-
 durationInMinutes: 15
 content: |
   [!include[](includes/7-intelligent-compliance-risk-management.md)]
