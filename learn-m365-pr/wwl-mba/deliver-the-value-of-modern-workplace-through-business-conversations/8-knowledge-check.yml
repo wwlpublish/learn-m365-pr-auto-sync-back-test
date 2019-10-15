@@ -1,0 +1,62 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.customer-conversations.8-knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: Knowledge check
+  ms.date: 10/15/2019
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+azureSandbox: false
+
+durationInMinutes: 5
+quiz:
+  title: ""
+  questions:
+  - content: "Which of the following summarizes Microsoft's approach to Information Protection and Governance?"
+    choices:
+    - content: "Know your data, protect your data, and govern your data."
+      isCorrect: true
+      explanation: "That is correct, Microsoft's approach to information protection and governance is summarized into know your data, protect your data, and govern your data."
+    - content: "Discover your data, know your data, and govern your data."
+      isCorrect: false
+      explanation: "Discover your data is not part of the approach.  Microsoft's approach focuses on knowing your data, protecting your data, and governing you data."
+    - content: "Discover your data, know your data, and delete your data."
+      isCorrect: false
+      explanation: "Discover your data and delete your data are not correct.  Microsoft's approach focuses on knowing your data, protecting your data, and governing you data."
+  - content: "The four solution areas of intelligent compliance and risk management are:  Information Protection & Governance, Internal Risk Management, Discover &amp; Respond, and __________."
+    choices:
+    - content: "Governance Strategy."
+      isCorrect: false
+      explanation: "Although governing your data data is part of information protection, it is not one of the four solution areas of Intelligent compliance and risk management. Intelligent compliance and risk management consists of: Information Protection &amp; Governance, Internal Risk Management, Discover &amp; Respond, and Compliance Management."
+    - content: "Records Management."
+      isCorrect: false
+      explanation: "Records Management is not one of the four solutions areas.  Intelligent compliance and risk management consists of: Information Protection &amp; Governance, Internal Risk Management, Discover &amp; Respond, and Compliance Management."
+    - content: "Compliance Management."
+      isCorrect: true
+      explanation: "Microsoft's Intelligent compliance and risk management consists of four solution areas: Information Protection &amp; Governance, Internal Risk Management, Discover &amp; Respond, and Compliance Management"
+  - content: "Meetings made simple summarizes how Microsoft Teams can create more effective meetings in which three ways:"
+    choices:
+    - content: "Meet Anywhere, Meet with Intelligence, and Meet with Confidence."
+      isCorrect: true
+      explanation: "Correct!  Microsoft Teams allows users to meet from anywhere on any device, meet with the intelligent AI of Microsoft 365, and meet with the confidence that their meeting experience will go smoothly."
+    - content: "Shadow IT, Burdens IT, Blocks the organizations."
+      isCorrect: false
+      explanation: "Incorrect.  Burdens on users and IT don't lead to more effective meetings."
+    - content: "Consistent Experiences, Contextual Collaboration, Worldwide Infrastructure."
+      isCorrect: false
+      explanation: "Incorrect.  Consistent experiences, contextual collaboration, and the worldwide infrastructure of Microsoft Teams do enhance meetings, but aren't what make them more effective."
+  - content: "Which core scenario transforms business processes with modern tools that bring line of business systems together and accelerates the flow of information?"
+    choices:
+    - content: "Connected Experiences."
+      isCorrect: false
+      explanation: "Incorrect.  Connected experiences help drive productivity and creativity within groups, but doesn't necessarily transform business processes or accelerate the flow of information."
+    - content: "Integrated Workflows."
+      isCorrect: true
+      explanation: "Correct!  Integrated workflows in Microsoft 365 help business transform processes with modern tools that help accelerate the flow of information."
+    - content: "Digital Transformation."
+      isCorrect: false
+      explanation: "Incorrect.  Digital transformation is not one of the three core scenarios of Microsoft 365."

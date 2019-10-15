@@ -1,0 +1,17 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.customer-conversations.2-microsoft-365-world-productivity-cloud
+title: Microsoft 365 - The world's productivity cloud
+metadata:
+  title: Microsoft 365 - the world's productivity cloud
+  description: Microsoft 365 - the world's productivity cloud
+  ms.date: 10/15/2019
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+azureSandbox: false
+
+durationInMinutes: 7
+content: |
+  [!include[](includes/2-microsoft-365-worlds-productivity-cloud.md)]

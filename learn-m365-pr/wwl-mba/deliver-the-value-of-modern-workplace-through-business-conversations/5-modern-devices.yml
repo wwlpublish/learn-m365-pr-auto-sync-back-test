@@ -1,0 +1,17 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.customer-conversations.5-modern-devices
+title: Modern devices
+metadata:
+  title: Modern devices
+  description: Modern devices
+  ms.date: 10/15/2019
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+azureSandbox: false
+
+durationInMinutes: 9
+content: |
+  [!include[](includes/5-modern-devices.md)]

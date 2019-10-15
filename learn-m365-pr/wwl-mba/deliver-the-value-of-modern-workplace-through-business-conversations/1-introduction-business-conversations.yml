@@ -1,0 +1,17 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.customer-conversations.1-introduction-to-business-conversations
+title: Introduction to business conversations
+metadata:
+  title: Introduction to business conversations
+  description: Introduction to business conversations
+  ms.date: 10/15/2019
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+azureSandbox: false
+
+durationInMinutes: 1
+content: |
+  [!include[](includes/1-introduction-business-conversations.md)]
