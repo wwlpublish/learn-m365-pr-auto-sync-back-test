@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.customer-conversations.3-employee-engagement
+title: Employee engagement
+metadata:
+  title: Employee engagement
+  description: Employee engagement
+  ms.date: 10/15/2019
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/3-employee-engagement.md)]
