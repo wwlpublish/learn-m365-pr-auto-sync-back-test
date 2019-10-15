@@ -3,13 +3,12 @@ uid: learn-m365.m365-teams-upgrade-coexistence-interoperability.introduction
 title: Introduction to coexistence and interoperability
 metadata:
   title: Introduction to coexistence and interoperability
-  description: Discover how coexistence works when upgrading from Skype for Business to Microsoft Teams. Learn what the coexistence modes are, how interoperability works, and how to manage coexistence.
+  description: Learn about coexistence and interoperatiblity between Microsoft Teams and Skype for Business.
   ms.date: 09/30/2019
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-  ROBOTS: NOINDEX
 durationInMinutes: 2
 content: |
   [!include[](includes/introduction.md)]

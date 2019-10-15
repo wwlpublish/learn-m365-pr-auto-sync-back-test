@@ -3,13 +3,12 @@ uid: learn-m365.m365-teams-upgrade-coexistence-interoperability.summary-knowledg
 title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
-  description: Discover how coexistence works when upgrading from Skype for Business to Microsoft Teams. Learn what the coexistence modes are, how interoperability works, and how to manage coexistence.
+  description: Review what you've learned about coexistence when upgrading from Skype for Business to Microsoft Teams.
   ms.date: 09/30/2019
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-  ROBOTS: NOINDEX
 durationInMinutes: 5
 content: |
   [!include[](includes/summary-knowledge-check.md)]

@@ -21,9 +21,7 @@ Federation from Teams to another user using Skype for Business requires the Team
 TeamsUpgradePolicy governs routing for incoming federated chats and calls. Federated routing behavior is the same as for same-tenant scenarios, except in Islands mode. When recipients are in Islands mode:
 
 - Chats and calls initiated from Teams land in SfB if the recipient is in a federated tenant.
-
 - Chats and calls initiated from Teams land in Teams if the recipient is in the same tenant.
-
 - Chats and calls initiated from SfB always land in Skype for Business.
 
 
@@ -33,7 +31,7 @@ When a user is in any of the Skype for Business modes (SfBOnly, SfBWithTeamsColl
 
 ## Setting your coexistence and upgrade settings
 
-When you upgrade your Skype for Business users to use Teams, you have several options to help you make it a seamless process for your users. You can change coexistence and upgrade settings for all the users in your organization at once or you can change settings for a single or set of users in your organization. Note that older versions of Skype for Business clients may not honor these settings. 
+When you upgrade your Skype for Business users to use Teams, you have several options to help you make it a seamless process for your users. You can change coexistence and upgrade settings for all the users in your organization at once or you can change settings for a single or set of users in your organization. Older versions of Skype for Business clients may not honor these settings. 
 
 You change coexistence and upgrade settings in the Teams admin center or by using PowerShell. 
 
