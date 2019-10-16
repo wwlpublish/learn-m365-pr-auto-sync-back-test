@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3YduP]
+
 **Microsoft Office** applications are available for Windows, MacOS, mobile platforms, and the web. In this learning path we’ll focus on Office desktop apps for Windows and what you can do to **prepare**, **upgrade**, and **manage** the Office suite on your systems. After completing this learning path, you should know the tools and best practices to move from an older version of Office to a current release, as well as what you can do to stay current as updates are released.
 
 Current releases of Microsoft Office are **designed to be compatible** with existing files and Office add-ins – also known as COM add-ins – running in Microsoft Office 2010 and newer. In fact, more than 99% of COM add-ins will continue to work after you upgrade. We’ll show you the tools to discover both COM add-ins and VBA Macros in files and to assess their compatibility with help from Microsoft’s compatibility data in the cloud.

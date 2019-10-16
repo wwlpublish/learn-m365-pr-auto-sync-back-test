@@ -1,5 +1,5 @@
-[Video 3](../media/icon2.png)
- 
+>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE3YvJ1]
+
 Current versions of Microsoft Office are designed to be natively compatible with existing files and Office COM add-ins. In this unit, we’ll show you the tools to discover Office COM add-ins and VBA Macros in files and assess their compatibility. More than 99% of your existing add-ins and macros will continue to work if you’re coming from Office 2010 or newer and installing a matching architecture of Office. 
 
 ## Assess compatibility with readiness tools

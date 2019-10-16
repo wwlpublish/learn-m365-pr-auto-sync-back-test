@@ -1,6 +1,6 @@
-[Video 2](../media/icon1.png)
+The first step to rolling out Office upgrades and updates at scale is preparation. 
 
-The first step to rolling out Office upgrades and updates at scale is preparation. This video highlights: 
+This video highlights: 
 
 - Office activation and packaging options 
 - Office servicing for software update management 
@@ -10,3 +10,5 @@ The first step to rolling out Office upgrades and updates at scale is preparatio
 - Tools for configuring policies and preferences 
 - Visio and Project considerations  
 - Office installation architecture considerations
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3YnXi]
