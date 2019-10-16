@@ -1,0 +1,40 @@
+### YamlMime:Module
+uid: learn.wwl.deliver-the-value-of-modern-workplace-through-business-conversations
+metadata:
+  title: Deliver the value of modern workplace through business conversations
+  description: |
+    In this module, we will go through a series of customer conversations for moving to a cloud
+    -based modern workplace with Microsoft 365 and Surface for Business.
+  ms.date: 10/15/2019
+  author: dahans
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: Deliver the value of modern workplace through business conversations
+summary: In this module, we will go through a series of customer conversations for moving to a cloud-based modern workplace with Microsoft 365 and Surface for Business.
+abstract: |
+  In this module, you will learn to:
+  - Identify the challenges that matter to business decision makers as they move to a cloud-based modern workplace.
+  - position Microsoft 365 and Surface for Business with the business decision makers in your organization.
+ratingEnabled: false
+prerequisites: |
+  none
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- business-user
+products:
+- m365
+units:
+- learn.wwl.customer-conversations.1-introduction-to-business-conversations
+- learn.wwl.customer-conversations.2-microsoft-365-world-productivity-cloud
+- learn.wwl.customer-conversations.3-employee-engagement
+- learn.wwl.customer-conversations.4-meetings-made-simple
+- learn.wwl.customer-conversations.5-modern-devices
+- learn.wwl.customer-conversations.6-simplify-security-and-compliance
+- learn.wwl.customer-conversations.7-intelligent-compliance-and-risk-management
+- learn.wwl.customer-conversations.8-knowledge-check
+- learn.wwl.customer-conversations.9-summary-and-resources
+badge:
+  uid: learn.wwl.deliver-the-value-of-modern-workplace-through-business-conversations.badge
