@@ -1,0 +1,36 @@
+### YamlMime:Module
+uid: learn-wwl.discover-modern-workplace-solutions-m365-surface-business
+metadata:
+  title: Discover modern workplace solutions with Microsoft 365 and Surface for Business
+  description: |
+    A modern workplace provides the collaborative, intelligent, and secure experiences required by today’s fast
+    -paced organizations concerned with recruiting the best talent and staying ahead of security threats, Microsoft can help you solve your business challenges.
+  ms.date: 10/15/2019
+  author: dahans
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Discover modern workplace solutions with Microsoft 365 and Surface for Business
+summary: A modern workplace provides the collaborative, intelligent, and secure experiences required by today’s fast-paced organizations concerned with recruiting the best talent and staying ahead of security threats, Microsoft can help you solve your business challenges.
+abstract: |
+  In this module, you will:
+  - Describe the unique needs of today’s workforce.
+  - Explain the benefits of enabling Microsoft 365 and Surface for Business solutions for the modern workplace.
+ratingEnabled: false
+prerequisites: ""
+iconUrl: /learn/achievements/discover-modern-workplace-solutions-m365-surface-business.svg
+levels:
+- beginner
+roles:
+- business-user
+products:
+- m365
+units:
+- learn-wwl.discover-modern-workplace-solutions-m365-surface-business.1-introduction
+- learn-wwl.discover-modern-workplace-solutions-m365-surface-business.2-microsoft-365
+- learn-wwl.discover-modern-workplace-solutions-m365-surface-business.3-surface-for-business-devices
+- learn-wwl.discover-modern-workplace-solutions-m365-surface-business.4-customer-success-story
+- learn-wwl.discover-modern-workplace-solutions-m365-surface-business.5-knowledge-check
+- learn-wwl.discover-modern-workplace-solutions-m365-surface-business.6-summary-and-resources
+badge:
+  uid: learn-wwl.discover-modern-workplace-solutions-m365-surface-business.badge
