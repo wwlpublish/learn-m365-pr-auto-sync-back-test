@@ -2,19 +2,20 @@
 uid: learn-wwl.get-more-from-microsoft-365-with-surface-for-business
 metadata:
   title: Discover how your organization can achieve more with Surface for Business and Microsoft 365
-  description: Organizations strive to maximize productivity, teamwork and creativity, and attract and retain top talent.  Offering modern devices to employees can make a significant difference.  Surface for Business devices are designed to enable organizations to make the most of their Microsoft 365 investment.  The synergy created across the Microsoft 365 software and Surface for Business devices brings out the best in the modern workplace.
-  ms.date: 3/31/2019
-  author: dahans-msft2
+  description: To boost productivity, teamwork, and creativity, your workforce needs software that saves time; but the devices they work on are equally as important. Surface for Business devices are designed to work best with Microsoft 365.
+  ms.date: 10/18/2019
+  author: dahans
   ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Discover how your organization can achieve more with Surface for Business and Microsoft 365
-summary: Organizations strive to maximize productivity, teamwork and creativity, and attract and retain top talent.  Offering modern devices to employees can make a significant difference.  Surface for Business devices are designed to enable organizations to make the most of their Microsoft 365 investment.  The synergy created across the Microsoft 365 software and Surface for Business devices brings out the best in the modern workplace.
+summary: To boost productivity, teamwork, and creativity, your workforce needs software that saves time; but the devices they work on are equally as important. Surface for Business devices are designed to work best with Microsoft 365.
 abstract: |
   In this module, you will:
   - Explain how hardware and software working together, like Microsoft 365 on Surface, can help organizations achieve more.
   - Identify how Surface for Business devices enhance employee experiences.
-prerequisites: None
+ratingEnabled: false
+prerequisites: ""
 iconUrl: /learn/achievements/get-more-from-microsoft-365-with-surface-for-business.svg
 levels:
 - beginner
@@ -29,5 +30,5 @@ units:
 - learn-wwl.get-more-from-microsoft-365-with-surface-for-business.4-assess-your-device-needs
 - learn-wwl.get-more-from-microsoft-365-with-surface-for-business.5-knowledge-check
 - learn-wwl.get-more-from-microsoft-365-with-surface-for-business.6-summary-and-resources
-badge: 
+badge:
   uid: learn-wwl.get-more-from-microsoft-365-with-surface-for-business.badge

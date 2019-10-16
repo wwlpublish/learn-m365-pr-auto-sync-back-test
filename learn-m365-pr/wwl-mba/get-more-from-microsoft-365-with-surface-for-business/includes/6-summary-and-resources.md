@@ -1,4 +1,3 @@
-
 With the capabilities of Microsoft Surface for Business, you can transform your workplace with tools that enable your employees to create, share, and collaborate. The Surface for Business portfolio of devices is designed in partnership with Microsoft 365 to bring out the best employee experiences.
 
 Now that you have reviewed this module, you should be able to:
@@ -10,16 +9,9 @@ Now that you have reviewed this module, you should be able to:
 
 Here are the three key takeaways:
 
-:::row:::
-![Icon of key](../media/Key_Takeaway_3questions.png)
-:::column span="1":::
-
-1. The Surface for Business portfolio leverages the most advanced and integrated hardware and software in Microsoft 365, supporting users across a range of needs and experiences.
-2. Surface for Business with Microsoft 365 helps teams work more productively and collaboratively, particularly by using Office 365 solutions.
-3. Surface for Business with Microsoft 365 delivers the productive, versatile, flexible user experience that today’s employees expect, as well as the reliable, secure, easy-to-manage platform that IT needs to keep organizations safe.
-
-:::column-end:::
-:::row-end:::
+|||
+| :-- | :-- |
+| ![Icon of key](../media/key-takeaway-3questions.png) | <ol><li>The Surface for Business portfolio leverages the most advanced and integrated hardware and software in Microsoft 365, supporting users across a range of needs and experiences.</li><li>Surface for Business with Microsoft 365 helps teams work more productively and collaboratively, particularly by using Office 365 solutions.</li><li>Surface for Business with Microsoft 365 delivers the productive, versatile, flexible user experience that today's employees expect, as well as the reliable, secure, easy-to-manage platform that IT needs to keep organizations safe.</li></ol>|
 
 ## Resources
 
@@ -32,4 +24,4 @@ Use these resources to discover more.
 - Checkout this report from Forrester on [Maximizing your ROI from Microsoft 365 Enterprise with Microsoft Surface](https://info.microsoft.com/ww-landing-Forrester-TEI-Surface-M365-Spotlight-Report-Whitepaper.html?wt.mc_id=AID722278_QSG_257471&ocid=AID722278_QSG_257471).
 - Learn how to [enable richer teamwork experiences with Microsoft 365 powered Surface devices](https://www.youtube.com/watch?v=JEwQaSNuJBw).
 - Enroll in [the Microsoft 365 Enterprise with Surface ROI Webinar](https://info.microsoft.com/ww-ondemand-ForresterWebinar-9am.html)
-- Read and reference [Surface Pro success stories](https://customers.microsoft.com/search?sq=%22Surface%20Pro%22&ff=&p=6&so=story_publish_date%20desc).
+- Read and reference [Surface Pro success stories](https://customers.microsoft.com/).

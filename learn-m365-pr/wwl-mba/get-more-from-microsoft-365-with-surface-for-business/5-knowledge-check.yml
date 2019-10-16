@@ -4,56 +4,46 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: Knowledge check
-  ms.date: 3/31/2019
-  author: dahans-msft2
+  ms.date: 10/18/2019
+  author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-  ROBOTS:   NOINDEX 
+azureSandbox: false
 durationInMinutes: 2
-content: |
-  [!include[](includes/5-knowledge-check.md)] 
 quiz:
+  title: ""
   questions:
-  - content: "How do Surface for Business devices drive employee engagement and retention?"
+  - content: "How do Surface for Business devices drive employee engagement and retention?  "
     choices:
     - content: "Surface for Business devices decrease the cost of hardware to an organization, and that is what drives retention."
       isCorrect: false
-      explanation: "Incorrect. Though Surface may decrease hardware costs, this is not a driver of retention."
+      explanation: "Incorrect. Though Surface may decrease hardware costs, this reason is not a driver of retention."
     - content: "With Surface Hub devices in an office, employees feel compelled to work only in the office, which drives retention."
       isCorrect: false
       explanation: "Incorrect. Surface for Business devices allow employees to work anywhere, anytime."
-    - content: "Surface for Business devices offer only typing to use them, so employees must use their own touchscreen devices."
-      isCorrect: false
-      explanation: "Incorrect. Surface for Business devices allow versatile work modes such as touch, ink, pen and Dial."
     - content: "Paired with Microsoft 365, Surface for Business devices can improve employee productivity, creativity, and mobility."
       isCorrect: true
       explanation: "Correct. Paired with Microsoft 365, Surface for Business can help you attract and retain talent."
-  - content: "How do Surface for Business devices that run Microsoft 365 benefit IT organizations?"
+  - content: "How do Surface for Business devices that run Microsoft 365 benefit IT organizations?  "
     choices:
     - content: "Surface for Business Devices run Windows 10 easily but do not run Office 365."
       isCorrect: false
-      explanation: "Incorrect. Microsoft 365, which includes both Windows 10 and Office 365, is easy to manage and use on Surface devices."
-    - content: "Surface devices that run Microsoft 365 are easy to deploy and manage with Intune, while protected by the security of Windows 10."
+      explanation: "Incorrect. Microsoft 365, which includes both Windows 10 Pro and Office 365, is easy to manage and use on Surface devices."
+    - content: "Surface devices that run Microsoft 365 are easy to deploy and manage with Intune, while protected by the security of Windows 10 Pro."
       isCorrect: true
       explanation: "Correct. Surface for Business devices that run on Microsoft 365 are integrated for simplicity and backed by intelligent security."
-    - content: "Because Surface for Business devices are physically locked to an employees’ desk, IT can manage local devices more easily."
+    - content: "Because Surface for Business devices are physically locked to an employees' desk, IT can manage local devices more easily."
       isCorrect: false
       explanation: "Incorrect. Surface for Business devices are highly mobile, allowing employees to work anywhere, anytime."
-    - content: "Surface for Business devices allow you to easily schedule meetings, start calls, answer questions, and set alarms and reminders."
-      isCorrect: false
-      explanation: "Incorrect. While Surface for Business is integrated with Cortana, this is not a core benefit to IT."
-  - content: "What are the most important benefits of running Microsoft 365 software on the Surface for Business hardware it was built for, for an organization?"
+  - content: "What are the most important benefits of running Microsoft 365 software on the Surface for Business hardware it was built for, for an organization?  "
     choices:
     - content: "With Surface, some employees can work wherever they want to, and some others can utilize the optimized battery life and portability."
       isCorrect: false
       explanation: "Incorrect. Surface devices allow greater mobility for any user."
-    - content: "Surface for Business devices can only be updated with Microsoft 365 software every other year, so IT doesn’t have to deal with updates so often."
+    - content: "Surface for Business devices can only be updated with Microsoft 365 software every other year, so IT doesn't have to deal with updates so often."
       isCorrect: false
       explanation: "Incorrect. IT can easily deploy and manage updates and hardware features with Autopilot, Intune, Surface Enterprise Management Mode, and the Surface Diagnostics Tool."
     - content: "Running Microsoft 365 on Surface devices provides a powerful user experience, offers advanced security, and empowers employees to do more."
       isCorrect: true
       explanation: "Correct. Managing an integrated solution is easier for IT and provides a better user experience for employees."
-    - content: "Running Microsoft 365 on Surface devices forces employees to create workarounds and download consumer-grade software."
-      isCorrect: false
-      explanation: "Incorrect. Microsoft 365 running on Surface devices creates the best employee experience, so they don’t have to create workarounds."
