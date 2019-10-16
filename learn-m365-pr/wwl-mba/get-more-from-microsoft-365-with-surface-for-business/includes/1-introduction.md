@@ -1,4 +1,3 @@
-_1016_
 At work, employees need technology that improves productivity, teamwork, and creativity, so that they can connect with the people and resources they need, wherever they go. Because 50 percent of the workforce will be mobile by 2020, it is critical to provide devices that enable employees to connect easily, no matter their location. Meanwhile, IT departments want to ensure their devices are efficiently deployed, managed, and secured. Organizations need to address the technology expectations of today's workforce to attract and retain the best talent, meeting the needs of both IT and users to ensure security and productivity.
 
 **Surface for Business devices** are designed for organizations to make the most of their Microsoft 365 investment, creating synergy by running software on hardware it's integrated with, to bring out the best in the modern workplace.
