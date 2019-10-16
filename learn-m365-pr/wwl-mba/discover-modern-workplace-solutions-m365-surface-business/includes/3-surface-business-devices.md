@@ -6,7 +6,7 @@ Which is why we have our Surface for Business family of devices. The best possib
 
 Our collection of hardware devices includes personal computers, interactive whiteboards, headphones, tablets, and more. According to a commissioned Total Economic Impact&trade; study from Forrester Consulting, three out of four people agree that Microsoft 365-powered Surface devices help improve employee satisfaction and retention. The remarkable synergy between the hardware of Surface for Business and the software of Microsoft 365 can save mobile workers more time when compared with other devices.
 
-![Surface for Business portfolio of devices.](../media/surfaceforbusinessportfoliofamilyv3.png)
+![Surface for Business portfolio of devices.](../media/surface-for-business-portfolio-family-v3.png)
 
 Microsoft 365 software and Surface for Business devices together provide the optimal experience for any employee, from IT, to marketing and sales, to finance, engineering, **firstline workers**, and more. Firstline workers are employees who engage directly with customers, products, or operations and are often a customer's first and only contact with a company, the "human" face of its brand. Firstline workers include nurses, retail workers, customer service agents, flight attendants, and others.
 
