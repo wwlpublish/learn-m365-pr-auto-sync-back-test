@@ -16,7 +16,7 @@ abstract: |
    - How to add apps, languages, or configurations to existing Office installations using a method called “second install.”
    - How to troubleshoot and manage common issues with software updates, activation, and potentially corrupted or misconfigured installations.
 prerequisites: None
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/manage-office-in-windows-for-it.svg
 ratingEnabled: true
 levels:
 - intermediate
