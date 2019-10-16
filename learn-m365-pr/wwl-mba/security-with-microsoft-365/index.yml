@@ -2,19 +2,22 @@
 uid: learn-wwl.security-with-microsoft-365
 metadata:
   title: Secure your organization with built-in, intelligent security from Microsoft 365
-  description: As organizations increasingly adopt cloud solutions, migrate data, and add users, they take on new risks with a heightened need to protect that data. Cybersecurity threats are everywhere, and there is an opportunity to leverage the power of the cloud to better secure your modern workplace without sacrificing productivity. Microsoft 365 helps organizations address that challenge with built-in, intelligent security through an integrated solution.
-  ms.date: 3/31/2019
-  author: dahans-msft2
+  description: |
+    As organizations increasingly adopt cloud solutions, migrate data, and add users, they take on new risks with a heightened need to protect that data. Cybersecurity threats are everywhere, and there is an opportunity to leverage the power of the cloud to better secure your modern workplace without sacrificing productivity. Microsoft 365 helps organizations address that challenge with built
+    -in, intelligent security through an integrated solution.
+  ms.date: 10/18/2019
+  author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Secure your organization with built-in, intelligent security from Microsoft 365
-summary: As organizations increasingly adopt cloud solutions, migrate data, and add users, they take on new risks with a heightened need to protect that data. Cybersecurity threats are everywhere, and there is an opportunity to leverage the power of the cloud to better secure your modern workplace without sacrificing productivity. Microsoft 365 helps organizations address that challenge with built-in, intelligent security through an integrated solution.
+summary: Cybersecurity threats are everywhere. There is an opportunity to leverage the power of the cloud to better secure your modern workplace without sacrificing productivity. Microsoft 365 helps organizations address that challenge with built-in, intelligent security.
 abstract: |
   In this module, you will:
   - Describe how Microsoft 365 security offerings work together to keep your data safe.
   - Articulate the benefits of integrated security in Microsoft 365.
-prerequisites: None
+ratingEnabled: false
+prerequisites: ""
 iconUrl: /learn/achievements/security-with-microsoft-365.svg
 levels:
 - beginner
@@ -29,5 +32,5 @@ units:
 - learn-wwl.security-with-microsoft-365.4-assess-your-security-needs
 - learn-wwl.security-with-microsoft-365.5-knowledge-check
 - learn-wwl.security-with-microsoft-365.6-summary-and-resources
-badge: 
+badge:
   uid: learn-wwl.security-with-microsoft-365.badge

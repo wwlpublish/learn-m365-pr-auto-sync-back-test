@@ -4,56 +4,46 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: Knowledge check
-  ms.date: 3/31/2019
-  author: dahans-msft2
+  ms.date: 10/18/2019
+  author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-  ROBOTS:   NOINDEX 
+azureSandbox: false
 durationInMinutes: 2
-content: |
-  [!include[](includes/5-knowledge-check.md)] 
 quiz:
+  title: ""
   questions:
-  - content: "What does the Intelligent Security Graph do to keep your data safe?"
+  - content: "What does the Intelligent Security Graph do to keep your data safe?  "
     choices:
-    - content: "It helps you detect and classify sensitive information, set policies, and apply the appropriate protection automatically. Because it’s integrated into Microsoft 365, all your Office apps have this functionality."
+    - content: "It helps you detect and classify sensitive information, set policies, and apply the appropriate protection automatically. Because it's integrated into Microsoft 365, all your Office apps have this functionality."
       isCorrect: false
       explanation: "Incorrect. While Microsoft Information Protection helps you do this, the Intelligent Security Graph can help with something else."
     - content: "It helps you go password-less to protect against weak and compromised credentials using secure authentication with Windows Hello, Microsoft Authenticator, and FIDO2 Security Keys."
       isCorrect: false
       explanation: "Incorrect. This is what Microsoft Identity and Access management provides, not the intelligent security graph."
-    - content: "It helps you access as many as 6.5 trillion apps from many devices across many networks. It analyzes the apps but cannot provide recommended actions for remediation."
-      isCorrect: false
-      explanation: "Incorrect. This is not what the Intelligent Security Graph does."
     - content: "It analyzes 6.5 trillion signals per day from a huge variety of sources and uses advanced analytics to assess and action a large amount of threat intelligence and security data."
       isCorrect: true
-      explanation: "That’s correct. The Intelligent Security Graph analyzes security signals and creates correlated threat insights that are shared across the platform. Insights are used for the machine learning and AI security models, continuously making the Intelligent Security Graph better and smarter."
-  - content: "What is a benefit for an IT worker using Microsoft 365 to protect against, detect, and respond to attacks?"
+      explanation: "That's correct. The Intelligent Security Graph analyzes security signals and creates correlated threat insights that are shared across the platform. Insights are used for the machine learning and AI security models, continuously making the Intelligent Security Graph better and smarter."
+  - content: "What is a benefit for an IT worker using Microsoft 365 to protect against, detect, and respond to attacks?  "
     choices:
-    - content: "They would spend time looking at alerts from multiple security vendors and create spreadsheets to decipher the information. Microsoft 365 would provide a partial view into their digital estate."
-      isCorrect: false
-      explanation: "Incorrect. Microsoft solutions do the heavy lifting to help IT understand the threats that impact them."
-    - content: "They would gain visibility into security across their organization’s entire digital estate through streamlined and consolidated views in Microsoft 365, powered by the Microsoft Intelligent Security Graph."
+    - content: "They would gain visibility into security across their organization's entire digital estate through streamlined and consolidated views in Microsoft 365, powered by the Microsoft Intelligent Security Graph."
       isCorrect: true
-      explanation: "That’s correct. Microsoft can help IT make sense of a large volume of threats and provide actionable information."
+      explanation: "That's correct. Microsoft can help IT make sense of a large volume of threats and provide actionable information."
     - content: "They would look through email threats one by one, searching for malware, phishing emails, or malicious links. They would then use the Microsoft Intelligent Security Graph to map potential threats."
       isCorrect: false
       explanation: "Incorrect. Microsoft Threat Protection uses AI to quickly identify, mitigate, and resolve email threats."
-    - content: "They would need to use additional “bolt-on” security solutions to respond to potential security threats, as Microsoft 365 only includes Identity & Access Management."
+    - content: "They would need to use additional \"bolt-on\" security solutions to respond to potential security threats, as Microsoft 365 only includes Identity & Access Management."
       isCorrect: false
-      explanation: "Incorrect. Security is built into and throughout Microsoft 365, minimizing the need for additional “bolted-on” security solutions."
-  - content: "Why is it important to have an integrated security solution like Microsoft 365?"
+      explanation: "Incorrect. Security is built into and throughout Microsoft 365, minimizing the need for additional \"bolted-on\" security solutions."
+  - content: "Why is it important to have an integrated security solution like Microsoft 365?  "
     choices:
-    - content: "Disparate solutions may not integrate or interact well, creating potential vulnerabilities in an organization’s security."
+    - content: "Disparate solutions may not integrate or interact well, creating potential vulnerabilities in an organization's security."
       isCorrect: true
-      explanation: "Correct. Multiple security solutions can leave holes in security, which is why it’s important to have an integrated security solution."
+      explanation: "Correct. Multiple security solutions can leave holes in security, which is why it's important to have an integrated security solution."
     - content: "An integrated solution helps you draw a perimeter around your organization to protect against vulnerabilities."
       isCorrect: false
       explanation: "Incorrect. Since bring-your-own-device and 3rd party systems are more common, you can no longer draw perimeters around your organization."
-    - content: "IT groups need to be provided with thousands of alerts per day and requires them to originate from many different security solutions."
-      isCorrect: false
-      explanation: "Incorrect. If security solutions are not integrated, they overwhelm organizations with too much data and too many alerts to be useful."
     - content: "Integrated, on-premises approaches to security are holistic, simple, and perfect for organizational security."
       isCorrect: false
       explanation: "Incorrect. As data grows exponentially, on-premises struggle to scale."

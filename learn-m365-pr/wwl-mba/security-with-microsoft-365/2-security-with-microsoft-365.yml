@@ -1,1 +1,15 @@
-### YamlMime:ModuleUnituid: learn-wwl.security-with-microsoft-365.2-security-with-microsoft-365title: Security with Microsoft 365metadata:  title: Security with Microsoft 365  description: Security with Microsoft 365  ms.date: 3/31/2019  author: dahans-msft2  ms.author: dahans  ms.topic: interactive-tutorial  ms.prod: learning-m365  ROBOTS:   NOINDEX durationInMinutes: 10content: |  [!include[](includes/2-security-with-microsoft-365.md)] 
+### YamlMime:ModuleUnit
+uid: learn-wwl.security-with-microsoft-365.2-security-with-microsoft-365
+title: Security with Microsoft 365
+metadata:
+  title: Security with Microsoft 365
+  description: Security with Microsoft 365
+  ms.date: 10/18/2019
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 10
+content: |
+  [!include[](includes/2-security-with-microsoft-365.md)]

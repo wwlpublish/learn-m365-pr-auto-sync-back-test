@@ -1,12 +1,25 @@
 
-In response to complex threats, increasing amounts of data, and growing security noise, Microsoft 365 simplifies security. Intelligent security is built into and throughout Microsoft 365, securing users, devices, apps, and data across an organization’s entire digital estate. Organizations can protect, detect, and respond to threats using identity and access management, threat protection, information protection, and security management capabilities.
+In response to complex threats, increasing amounts of data, and growing security noise, Microsoft 365 simplifies security. Intelligent security is built into and throughout Microsoft 365, securing users, devices, apps, and data across an organization's entire digital estate. Organizations can protect, detect, and respond to threats using identity and access management, threat protection, information protection, and security management capabilities.
 
-| | |
-| ------------ | -------------|
-|![Icon indicating play video](../media/video_icon.png) | Watch this video to discover how Microsoft 365 intelligently guards your data.|
+|||
+| :-- | :-- |
+|![Icon indicating play video](../media/videoicon.png) | Watch this video to discover how Microsoft 365 intelligently guards your data.|
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2OLij]
 
-You just saw how the intelligent security tools in Microsoft 365 work together to secure an organization’s data, workforce, customers, and brand by helping them protect, detect, and respond to threats.
 
-Next, let’s see Microsoft 365 security in action.
+Microsoft 365 security also incorporates the outcomes of our work with partners, industry alliances, and government agencies to better secure customer environments.
+
+With the Microsoft Intelligent Security Association, we team up with top security partners to help defend against increasingly sophisticated, fast-moving threats. Through this collaboration, customers gain the ability to detect and respond to threats faster through shared intelligence.
+
+We work with industry alliances, including the Fast IDentity Online (FIDO) Alliance, to standardize on security solutions so we can work better together.  FIDO members work together to ensure that we can provide security on-premises and in web properties for secure mobile user credentials and secure authentication.
+
+We work with government and enterprises to create a safer world.  As an example, Microsoft participates in the Cybersecurity Tech Accord, along with more than 100 global companies, to defend customers everywhere from malicious attacks by cybercriminal enterprises and nation-states.
+
+![circle that shows icons for three components of  Microsoft security.  The three components are Operations, Technology, and Partnerships.](../media/simplify-security-v2.png)
+
+The Microsoft Intelligent Security Association, FIDO, and the Cybersecurity Tech Accord are just a few examples of our partnerships.  These partnerships, the intelligent security tools and technology in Microsoft 365, and our security operations all come together to secure an organization and help it protect, detect, and respond to threats.
+
+Next, let's see Microsoft 365 security in action.
+
+
