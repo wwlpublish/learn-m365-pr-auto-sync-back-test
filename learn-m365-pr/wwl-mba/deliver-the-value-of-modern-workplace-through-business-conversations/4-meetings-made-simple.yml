@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.customer-conversations.4-meetings-made-simple
+title: Meetings made simple
+metadata:
+  title: Meetings made simple
+  description: Meetings made simple
+  ms.date: 10/15/2019
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/4-meetings-made-simple.md)]
