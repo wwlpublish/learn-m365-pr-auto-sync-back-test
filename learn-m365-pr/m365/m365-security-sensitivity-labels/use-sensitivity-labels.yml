@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-security-sensitivity-labels.use-sensitivity-labels
+title: Define the sensitive data you want to identify and classify
+metadata:
+  title: Define the sensitive data you want to identify and classify
+  description: Learn how to define sensitive data that you want to classify. 
+  ms.date: 09/23/2019
+  author: puffinanda
+  ms.author: v-jolev
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 1
+content: |
+  [!include[](includes/use-sensitivity-labels.md)]

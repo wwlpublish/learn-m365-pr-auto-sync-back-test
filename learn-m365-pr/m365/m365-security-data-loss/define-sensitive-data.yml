@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-security-data-loss.define-sensitive-data
+title: Define the sensitive data you want to protect
+metadata:
+  title: Define the sensitive data you want to protect
+  description: Learn how to define sensitive data
+  ms.date: 09/30/2019
+  author: puffinanda
+  ms.author: v-jolev
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 2
+content: |
+  [!include[](includes/define-sensitive-data.md)]

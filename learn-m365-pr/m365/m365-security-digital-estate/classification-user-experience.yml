@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-security-digital-estate.classification-user-experience
+title: Learn the four ways to classify data
+metadata:
+  title: Learn the four ways to classify data
+  description: Learn about the four data classification options. 
+  ms.date: 09/25/2019
+  author: puffinanda 
+  ms.author: v-jolev
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 2
+content: |
+  [!include[](includes/classification-user-experience.md)]

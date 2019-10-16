@@ -1,0 +1,36 @@
+### YamlMime:Module
+uid: learn-m365.m365-security-sensitivity-labels
+metadata:
+  title: Protect your data with sensitivity labels
+  description: Learn how to use information protection sensitivity labels to classify and protect your organizational data.
+  ms.date: 09/23/2019
+  author: puffinanda
+  ms.author: v-jolev
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Protect your data with sensitivity labels  
+summary: Learn how to use information protection sensitivity labels to classify and protect your organizational data.
+abstract: |
+  At the end of this module, you should be able to:
+  - Explain sensitivity labels and their capabilities
+  - Create custom sensitivity labels
+  - Apply protection levels based on sensitivity labels
+
+prerequisites: | 
+ - Basic understanding of Microsoft 365. If you are unfamiliar with Microsoft 365, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+iconUrl: http://via.placeholder.com/120x120
+ratingEnabled: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+units:
+- learn-m365.m365-security-sensitivity-labels.introduction
+- learn-m365.m365-security-sensitivity-labels.use-sensitivity-labels
+- learn-m365.m365-security-sensitivity-labels.define-sensitivity-labels
+- learn-m365.m365-security-sensitivity-labels.protection-settings
+- learn-m365.m365-security-sensitivity-labels.summary-knowledge-check
+badge: 
+  uid: learn-m365.m365-security-sensitivity-labels.badges
