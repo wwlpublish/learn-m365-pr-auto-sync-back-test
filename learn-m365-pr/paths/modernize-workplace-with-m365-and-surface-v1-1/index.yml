@@ -1,0 +1,35 @@
+### YamlMime:LearningPath
+uid: learn-wwl.modernize-workplace-with-m365-and-surface-v1-1
+metadata:
+  title: Modernize your workplace with Microsoft 365 and Surface for Business v1.1
+  description: Learn the modern data warehousing tools and techniques supported by Azure Databricks.
+  brand: ''
+  ms.date: 10/18/2019
+  author: dahans
+  ms.author: rknapp
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Modernize your workplace with Microsoft 365 and Surface for Business v1.1
+prerequisites: |
+  none
+summary: |
+  This learning path introduces you to what a modern workplace means for users and IT, and how Microsoft 365 can help you create it.
+iconUrl: /learn/achievements/m365-sfa-learning-path.svg
+levels:
+- beginner
+roles:
+- business-user
+products:
+- m365
+modules:
+- learn-wwl.discover-modern-workplace-solutions-m365-surface-business
+- learn-wwl.facilitate-teamwork-with-microsoft-365
+- learn-wwl.modern-communications-in-microsoft-teams
+- learn-wwl.get-more-from-microsoft-365-with-surface-for-business
+- learn-wwl.deploy-and-manage-windows-10-and-office-365-proplus
+- learn-wwl.security-with-microsoft-365
+- learn-wwl.compliance-with-microsoft-365
+- learn.wwl.deliver-the-value-of-modern-workplace-through-business-conversations
+- learn-wwl.get-started-with-microsoft-365-using-fasttrack
+trophy:
+  uid: learn-wwl.modernize-workplace-with-m365-and-surface-v1-1.trophy
