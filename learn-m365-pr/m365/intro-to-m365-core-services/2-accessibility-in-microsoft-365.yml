@@ -1,0 +1,14 @@
+﻿### YamlMime:ModuleUnit
+uid: learn-m365.intro-m365-core-services.2-accessibility-in-microsoft-365
+title: Accessibility in Microsoft 365
+metadata:
+  title: Accessibility in Microsoft 365
+  description: Microsoft 365 is designed to empower every person and every organization on the planet to achieve more. Learn about the accessibility features in Windows 10 and Office 365 that help people of all abilitites. 
+  ms.date: 10/16/2019
+  author: bneeb
+  ms.author: bneeb
+  ms.topic: interactive-tutorial
+  ms.prod: choose an item.
+durationInMinutes: 6
+content: |
+  [!include[](includes/2-accessibility-in-microsoft-365.md)] 
