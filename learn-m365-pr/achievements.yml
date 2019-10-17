@@ -5,3 +5,10 @@ achievements:
   title: Build a serverless web app
   summary: Badge for the 'Build a serverless web app' module.
   iconUrl: /learn/achievements/build-a-serverless-web-app.svg
+- uid: learn-wwl.modernize-workplace-with-m365-and-surface.trophy
+  type: trophy
+  title: Modernize your workplace with Microsoft 365 and Surface for Business
+  summary: Trophy for the 'Modernize your workplace with Microsoft 365 and Surface for Business' learning path.
+  iconUrl: /learn/achievements/m365-sfa-learning-path.svg
+
+  
