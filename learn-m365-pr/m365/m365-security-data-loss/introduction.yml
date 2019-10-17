@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-security-data-loss.introduction
+title: Introduction to Microsoft 365 data loss prevention
+metadata:
+  title: Introduction to Microsoft 365 data loss prevention
+  description: Overview of Microsoft 365 data loss prevention capabilities.
+  ms.date: 09/30/2019
+  author: puffinanda
+  ms.author: v-jolev
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 1
+content: |
+  [!include[](includes/introduction.md)]

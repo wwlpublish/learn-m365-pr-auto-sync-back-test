@@ -1,0 +1,36 @@
+### YamlMime:Module
+uid: learn-m365.m365-security-monitor-sensitive-data
+metadata:
+  title: Monitor and analyze sensitive data
+  description: Learn how to use information protection analytics and reporting to maximize data governance and protection.
+  ms.date: 09/30/2019
+  author: puffinanda
+  ms.author: v-jolev
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Monitor and analyze sensitive data  
+summary: Learn how to use information protection analytics and reporting to maximize data governance and protection. 
+abstract: |
+  At the end of this module, you should be able to:
+  - Monitor data classifications and sensitivity labels
+  - Use Microsoft analytics and reporting tools 
+  - Use the Microsoft 365 Security Center for organizational security
+  - Navigate the Microsoft 365 Compliance Center for compliance with standards and regulations
+
+
+prerequisites: | 
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+iconUrl: http://via.placeholder.com/120x120
+ratingEnabled: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+units:
+- learn-m365.m365-security-monitor-sensitive-data.introduction
+- learn-m365.m365-security-monitor-sensitive-data.monitor-sensitive-data
+- learn-m365.m365-security-monitor-sensitive-data.summary-knowledge-check
+badge: 
+  uid: learn-m365.m365-security-monitor-sensitive-data.badges

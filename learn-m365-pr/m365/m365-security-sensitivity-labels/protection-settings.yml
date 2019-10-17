@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-security-sensitivity-labels.protection-settings
+title: Determine your protection settings based on labels
+metadata:
+  title: Determine your protection settings based on labels
+  description: Learn how to monitor data protection settings based on labels. 
+  ms.date: 09/23/2019
+  author: puffinanda
+  ms.author: v-jolev
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+  [!include[](includes/protection-settings.md)]
