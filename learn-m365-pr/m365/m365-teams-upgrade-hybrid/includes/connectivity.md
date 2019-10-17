@@ -13,5 +13,5 @@ The following tasks are required to configure Skype for Business hybrid connecti
 
 In addition, if you have Exchange on-premises, then you may want to configure OAuth between your Exchange on-premises and Skype for Business Online environments.
 
-## Resources
+## Learn more
 [Configure hybrid connectivity between Skype for Business Server and Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)

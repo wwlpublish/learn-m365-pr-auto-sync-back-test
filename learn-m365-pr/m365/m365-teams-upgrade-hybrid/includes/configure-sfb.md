@@ -10,5 +10,5 @@ To configure Skype for Business hybrid, you need to:
 
    In addition to the change you made in your on-premises deployment, make the corresponding change in your Office 365 tenant to enable shared SIP address space with your on-premises deployment.
 
-## Resources
+## Learn more
 [Configure Skype for Business hybrid](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online)
