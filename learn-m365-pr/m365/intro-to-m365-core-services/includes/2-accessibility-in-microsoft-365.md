@@ -4,7 +4,7 @@ At Microsoft, our mission is to empower every person and every organization on t
 
 |||
 | :--- | :--- |
-| ![Icon indicating play video](../media/video_icon.png)| Watch this video to learn more about Microsoft's approach to accessibility.|
+| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about Microsoft's approach to accessibility.|
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE3WSd3]
 
