@@ -4,15 +4,15 @@ Let’s look at the journey of a file and discuss how Microsoft technologies can
 
 **File is created**
 
-- Regardless of where the file is created, the Azure Information Protection (AIP) client can enforce information protection based on the labels attached to the data.
+- Regardless of where the file is created, Sensitivity labeling in Office apps can enforce information protection based on the labels attached to the data.
 
 **User edits the file**
 
-- If users open and edit the file in Office, Windows Information Protection helps protect the data according to the labels applied.
+- Based on the content being created or modified in the file, the label can be updated based on the sensitivity of the content, ensuring the right protection is applied to the file.
 
 **User shares the file with another user in the organization**
 
-- If users share the data through Office 365, Data Loss Prevention (DLP) policies ensure that users handle the labeled data appropriately and according to policy.
+- As an additional layer of protection, Data Loss Prevention policies in Office 365 helps prevent the accidental or inadvertent sharing of sensitive documents and emails.
 
 **User opens the file on their phone**
 
