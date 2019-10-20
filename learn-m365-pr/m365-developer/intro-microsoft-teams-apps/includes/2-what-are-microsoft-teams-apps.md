@@ -42,7 +42,7 @@ They can contain:
 
 ### Messages
 
-Messages are the heart of collaboration in Teams. With a messaging extension action command, your app can allow users to invoke your app's API from a message, sending the contents of the message to your app for processing or action. Your app can respond by presenting a form (a task module) to the user to collect more information, sending a reply to the original message, or sending a message directly to the user.
+Messages are the heart of collaboration in Teams. With a **messaging extension action command**, your app can allow users to invoke your app's API from a message, sending the contents of the message to your app for processing or action. Your app can respond by presenting a form (a task module) to the user to collect more information, sending a reply to the original message, or sending a message directly to the user.
 
 ### Writing messages
 
@@ -58,7 +58,7 @@ There are three ways your app can help users create better messages:
 
 ## User Interface (UI) elements
 
-In addition to extensibility points, the Microsoft Teams Platform provides multiple flexible UI elements apps can take advantage of. These elements allow you to create rich experiences that feel native to the Teams client.
+In addition to extensibility points, the Microsoft Teams Platform provides flexible UI elements for apps to take advantage of. These elements allow you to create rich experiences that feel native to the Teams client.
 
 ### Cards & card actions
 

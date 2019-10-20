@@ -2,7 +2,9 @@ Creating and distributing an app built on the Microsoft Teams Platform involves 
 
 ## Design your app
 
-The most important step in creating a successful app for Microsoft Teams is choosing the right combination extensibility points and UI elements to take advantage of. You should spend a good deal of time understanding the problem you're trying to solve with your app and mapping that solution across the various ways users can interact with your app in the Microsoft Teams client. Don't underestimate the importance of scope! A conversational bot that works very well in a one-to-one chat may not work at all as part of a group chat or channel conversation. Here's a recap of what's available for you, and some scenarios they are best suited for. You can accomplish many tasks in more than one way; choosing the right tool for the job will make for a much better user experience.
+The most important step in creating a successful app for Microsoft Teams is choosing the right combination extensibility points and UI elements to take advantage of. You should spend a good deal of time understanding the problem you're trying to solve with your app and mapping your solution across the various ways users can interact with your app in the Microsoft Teams client. Don't underestimate the importance of context and scope! A conversational bot that works very well in a one-to-one chat may not work at all as part of a group chat or channel conversation.
+
+Here's a recap of what's available for you, and some scenarios they are best suited for. You can accomplish many tasks in more than one way; choosing the right tool for the job will make for a much better user experience.
 
 * **Messaging Extensions - search commands** are very useful for allowing your users to search an external system and then share the results of that search within Teams. With cards and card actions you can richly format the results of that search, and allow users to perform actions on the result without leaving the Microsoft Teams client.
 
@@ -22,7 +24,7 @@ The best apps will typically take advantage of more than one extension point. Fo
 
 ## Prepare your development environment
 
-At a minimum, you'll need access to an Office 365 organization with custom app uploading enabled. If you don't have one, you can obtain a development organization by signing up for the [Office 365 developer program](https://developer.microsoft.com/en-us/office/dev-program). You'll also need a way to deploy and host your web services. For local development you can use a tunneling service like [ngrok](https://ngrok.com), but for production you'll want to deploy your services, probably to a cloud service provider like Azure. You can use on-premises infrastructure to host your web services, but they must be publicly accessible (not behind a firewall).
+At a minimum, you'll need access to an Office 365 organization with custom app uploading enabled. If you don't have one, you can obtain a development organization by signing up for the [Office 365 developer program](https://developer.microsoft.com/office/dev-program). You'll also need a way to deploy and host your web services. For local development you can use a tunneling service like [ngrok](https://ngrok.com), but for production you'll want to deploy your services, probably to a cloud service provider like Azure. You can use on-premises infrastructure to host your web services, but they must be publicly accessible (not behind a firewall).
 
 ## Build your web services
 
@@ -31,7 +33,7 @@ Once you've decided how users are going to interact with your app, its time to b
 * Bot Framework SDK for messaging extensions and conversational bots
 * Teams JavaScript client SDK for tabs and other content pages
 * A Yeoman generator for building apps in Node.js
-* A set of open-source React controls for your tabs, Stardust UI
+* A set of open-source controls for your web content pages, Fluent UI
 * Ready-for-production App Templates
 
 For the complete list of tools and samples available to help you get started, see [the complete documentation](https://docs.microsoft.com/microsoftteams/platform/).
@@ -40,7 +42,7 @@ Remember, you'll need to host your web services in a way that makes them publicl
 
 ## Create your app package
 
-Web services up and running, you'll need to create an app package that can be distributed and installed in Microsoft Teams. Remember, the app package contains two icons and a JSON manifest file describing the metadata for your app, the extension points your app is using, and pointers to the services powering those extension points.
+Web services up and running, you'll need to create an app package that can be distributed and installed in Microsoft Teams. The app package contains two icons and a JSON manifest file describing the metadata for your app, the extension points your app is using, and pointers to the services powering those extension points.
 
 When creating your app package you can choose to create it manually, or use App Studio which is an app inside Teams that helps you make Teams apps (we know, very meta). App Studio will guide you through creating your app manifest, and can help you register your bot with the Bot Framework. It also contains a card designer to help you visually create cards and card actions, and send examples to yourself in Teams.
 
