@@ -36,4 +36,5 @@ units:
 - learn-m365.intro.microsoft.teams.apps.4-when-to-use-teams-apps
 - learn-m365.intro.microsoft.teams.apps.5-knowledge-check
 - learn-m365.intro.microsoft.teams.apps.6-summary
-
+badge:
+  uid: learn-m365.intro-microsoft-teams-apps.badge
