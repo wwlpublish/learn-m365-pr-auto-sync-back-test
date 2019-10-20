@@ -30,11 +30,10 @@ products:
 - m365
 - office-teams
 units:
-- learn-m365.intro-microsoft-teams-apps.1-introduction
-- learn-m365.intro-microsoft-teams-apps.2-what-are-teams-apps
-- learn-m365.intro-microsoft-teams-apps.3-your-teams-app-lifecycle
-- learn-m365.intro-microsoft-teams-apps.4-when-to-build-teams-apps
-- learn-m365.intro-microsoft-teams-apps.5-knowledge-check
-- learn-m365.intro-microsoft-teams-apps.6-summary
-badge:
-  uid: learn-m365.intro-microsoft-teams-apps.badge
+- learn-m365.intro.microsoft.teams.apps.1-introduction
+- learn-m365.intro.microsoft.teams.apps.2-what-are-microsoft-teams-apps
+- learn-m365.intro.microsoft.teams.apps.3-how-create-an-app-for-teams
+- learn-m365.intro.microsoft.teams.apps.4-when-to-use-teams-apps
+- learn-m365.intro.microsoft.teams.apps.5-knowledge-check
+- learn-m365.intro.microsoft.teams.apps.6-summary
+
