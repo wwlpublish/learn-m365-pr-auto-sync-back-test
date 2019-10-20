@@ -10,6 +10,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+
 durationInMinutes: 2
 content: |
   [!include[](includes/6-summary-resources.md)]
