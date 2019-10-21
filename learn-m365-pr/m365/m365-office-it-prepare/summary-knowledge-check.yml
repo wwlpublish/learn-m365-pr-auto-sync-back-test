@@ -4,7 +4,7 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Review what you've learned about preparing to roll out Office upgrades at scale.
-  ms.date: 03/18/2019
+  ms.date: 10/21/2019
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
@@ -21,7 +21,7 @@ quiz:
       - content: "True"
         isCorrect: false
         explanation: "Incorrect. The packaging method isn't related to activation. When Click-to-Run went mainstream in Office 2013, all consumer editions used Click-to-Run packaging and also used perpetual activation. The distinction for subscription-based or perpetual activation is made based on whether the Office edition is part of Office 365 or not."
-      - content: "Monthly channel"
+      - content: "False"
         isCorrect: true
         explanation: "Correct. The packaging method isn't related to activation. When Click-to-Run went mainstream in Office 2013, all consumer editions used Click-to-Run packaging and also used perpetual activation. The distinction for subscription-based or perpetual activation is made based on whether the Office edition is part of Office 365 or not."
     - content: "Which of the following most closely resembles the Office 'Insider' servicing channel for Office 365 ProPlus?"
