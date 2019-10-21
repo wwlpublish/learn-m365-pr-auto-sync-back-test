@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msgraph-access-user-data.1-introduction
+metadata:
+  title: Introduction
+  description: This unit introduces you to the module and explains what you will learn.
+  ms.date: 11/18/2019
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Introduction
+durationInMinutes: 1
+content: |
+  [!include[](includes/1-introduction.md)]

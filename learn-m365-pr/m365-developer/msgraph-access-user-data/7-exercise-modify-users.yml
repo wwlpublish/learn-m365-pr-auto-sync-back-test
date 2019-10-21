@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msgraph-access-user-data.7-exercise-modify-users
+metadata:
+  title: Exercise - Modifying users
+  description: In this exercise, you'll modify an existing Azure AD application registration using the Azure Active Directory admin center, a .NET Core console application, and use Microsoft Graph to create, update, and delete users in your organization.
+  ms.date: 11/18/2019
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Exercise - Modifying users
+durationInMinutes: 15
+content: |
+  [!include[](includes/7-exercise-modify-users.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "When creating a new user with Microsoft Graph, which of the following properties are required?"
+    choices:
+    - content: "accountEnabled, mailNickname, displayName, and passwordProfile, userPrincipalName"
+      isCorrect: true
+      explanation: "Correct, all these properties are required all user resources."
+    - content: "accountEnabled, mailNickname, givenName, surname, and passwordProfile"
+      isCorrect: false
+      explanation: "The givenName and surname properties aren't required."
+    - content: "givenName, surname, passwordProfile, userPrincipalName"
+      isCorrect: false
+      explanation: "The givenName and surname properties aren't required."
+  - content: "How do you specify which user to update or delete with Microsoft Graph?"
+    choices:
+    - content: "Specify the userPrincipalName in the JSON string included in the body of the request and submit it to the /users endpoint."
+      isCorrect: false
+      explanation: "Incorrect; the user to delete or update should be defined in the endpoint of the request."
+    - content: "Specify the user ID in the JSON string included in the body of the request and submit it to the /users endpoint."
+      isCorrect: false
+      explanation: "Incorrect; the user to delete or update should be defined in the endpoint of the request."
+    - content: "Specify the user in the target endpoint, using the user's ID or userPrincipalName."
+      isCorrect: true
+      explanation: "Correct!"
