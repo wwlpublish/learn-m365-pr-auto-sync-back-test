@@ -4,12 +4,13 @@ title: Assess your device needs
 metadata:
   title: Assess your device needs
   description: Assess your device needs
-  ms.date: 03/31/2019
+  ms.date: 10/18/2019
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+
 durationInMinutes: 1
 content: |
   [!include[](includes/4-assess-your-device-needs.md)]
