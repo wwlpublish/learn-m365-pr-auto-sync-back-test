@@ -7,11 +7,11 @@ Now that you have reviewed this module, you should be able to:
 
 ## Key takeaways
 
-Here are the three key takeaways:
+Here are the two key takeaways:
 
 |||
 | :-- | :-- |
-| ![Icon of key](../media/key-takeaway-2questions.png)| <ol><li>Workforce expectations are rapidly changing as industry changes and potential disruptions occur. Microsoft modern workplace solutions help you effectively respond to these changes and reduce the cost of operations.</li><li>With Microsoft 365 and Surface for Business working side by side, you can create a dynamic, modern workplace that meets the needs of your organization, the employees, and your customers.</li><li>The four core pillars of Microsoft 365 are: unlock creativity, built for teamwork, intelligent security, and integrated for simplicity.</li></ol> |
+| ![Icon of key](../media/key-takeaway-2questions.png)| <ol><li>Workforce expectations are rapidly changing as industry changes and potential disruptions occur. Microsoft modern workplace solutions help you effectively respond to these changes and reduce the cost of operations.</li><li>With Microsoft 365 and Surface for Business working side by side, you can create a dynamic, modern workplace that meets the needs of your organization, the employees, and your customers.</li></ol> |
 
 ## Resources
 

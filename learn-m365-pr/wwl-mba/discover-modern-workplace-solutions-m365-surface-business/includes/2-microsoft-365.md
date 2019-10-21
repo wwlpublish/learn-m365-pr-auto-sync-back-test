@@ -9,3 +9,4 @@ Organizations face unique challenges in this ever-evolving digital world, one wh
 As you saw in the video, Microsoft 365 provides solutions to the modern challenges that organizations face today, solutions that offer the best experience for users: simplicity, flexibility, mobility; and for IT: manageability, security, compliance.
 
 For the most powerful experience, you can run Microsoft 365 software on the **Surface for Business** hardware. Let's learn more about that in the next unit.
+

@@ -1,3 +1,6 @@
+
+## Empowering a diverse workforce through Microsoft 365 Accessibility
+
 ![TD Bank logo](../media/tdbank.png)
 
 When technology reflects the diversity of everyone who uses it, there are no limits to what people can achieve.  With more than a billion people worldwide with disabilities, accessibility is a human imperative that presents a real opportunity and responsibility to create inclusive technology for everyone.  Yet, only 1 in 10 people with a disability have access to the products and assistive technology they need.
@@ -27,4 +30,5 @@ Our accessibility efforts focus on the following areas to meet several accessibi
 | ![Icon for mobility](../media/mobility.png)| **Mobility**<br />Our suite of products helps people who have arthritis, quadriplegia, spinal cord injuries, and other mobility issues to navigate the digital world in non-traditional ways.|
 | ![Icon for mental health](../media/mental-health.png)| **Mental Health**<br />We're developing assistive technologies for people who have issues such as bipolar disorder, anxiety, PTSD, depression, or ADHD. Our products can help with distraction, reading, and concentration.|
 
-Now that you've seen how even those individuals with challenges can do their best work with Microsoft 365, let's move onto the knowledge check.
+Now that you've seen how everyone can do their best work with Microsoft 365, let's move onto the knowledge check.
+
