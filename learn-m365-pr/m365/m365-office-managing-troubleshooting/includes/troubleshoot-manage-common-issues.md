@@ -33,8 +33,8 @@ In some cases, you’ll need to use OLicenseCleanup.vbs to remove user-based act
 
 Certain Office issues may be a result of recently applied Windows updates or other apps installed on the device. Some common cases include:
 
-- Default File Associations lost or assigned to another app. For example.PDF moving from Word to the Edge Browser or Adobe Acrobat Reader
-- Pinned taskbar icons for Office apps getting unpinned after an update
+- Default File Associations lost or assigned to another app. For example, the default viewer for PDFs changing from Word to Microsoft Edge or Adobe Acrobat Reader.
+- Pinned taskbar icons for Office apps getting unpinned after an update.
 
 To fix these kinds of issues, and before uninstalling and reinstalling Office to a known working version, you can try to fix the problem manually. This is where **Quick Repair** and **Online Repair** can help. You’ll access these options in **Windows Settings > Apps and Features > your Office install > Modify**.
 
