@@ -2,7 +2,7 @@ At work, employees need technology that improves productivity, teamwork, and cre
 
 **Surface for Business devices** are designed for organizations to make the most of their Microsoft 365 investment, creating synergy by running software on hardware it's integrated with, to bring out the best in the modern workplace.
 
-In this module, you will learn to:
+In this module, you will learn to: 
 
 - Explain how hardware and software working together, for example Microsoft 365 on Surface, can help achieve more.
 - Identify how Surface for Business devices enhance employee experiences.

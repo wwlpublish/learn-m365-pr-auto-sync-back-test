@@ -1,3 +1,7 @@
+
+## Reducing complexity with Surface for Business devices
+
+
 ![Vaudoise Assurances](../media/vaudoise.png)
 
 Switzerland-based Vaudoise Assurance competes for both business and top employees in the Swiss insurance market. In a competitive and conservative industry, Vaudoise recognized that digital transformation is the best way to compete in a fast-changing world. The leaders at Vaudoise realized that innovative new technology is a great way to honor relationships with employees, so they equipped them with light, go-anywhere Microsoft Surface Pro devices, Surface Hubs in the office, and Microsoft 365 tools.
