@@ -8,15 +8,15 @@ metadata:
   ms.author: v-jolev
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Upgrading Office on Windows  
-summary: Learn the tools and options to manage Office desktop apps at scale, including software update management options, ways to layer additional configurations on existing Office installs, and how to troubleshoot common issues.
+title: Managing and troubleshooting common issues with Office on Windows
+summary: Learn how to manage and troubleshoot common issues with Office on Windows.
 abstract: |
   In this module, you will learn:
    - How to define update management options and how they work across Office 365 ProPlus and Office 2019 editions. 
    - How to add apps, languages, or configurations to existing Office installations using a method called “second install.”
    - How to troubleshoot and manage common issues with software updates, activation, and potentially corrupted or misconfigured installations.
 prerequisites: None
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/manage-office-in-windows-for-it.svg
 ratingEnabled: true
 levels:
 - intermediate

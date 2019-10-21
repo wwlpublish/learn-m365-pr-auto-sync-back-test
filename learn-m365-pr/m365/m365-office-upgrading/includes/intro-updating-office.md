@@ -1,4 +1,4 @@
-![Thumbnail for deploying office with SCCM video](../media/deploying-office-sccm-thumbnail.png)
+>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE3YvJ5]
 
 This introduction to deploying Office upgrades at scale covers the considerations and steps to perform Office deployments on Windows. This video highlights:
 

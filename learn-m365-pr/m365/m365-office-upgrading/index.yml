@@ -16,7 +16,7 @@ abstract: |
    - How to use the Office Customization Tool to create and configure an Office application package.
    - How to monitor Office upgrades and updates using System Center Configuration Manager.
 prerequisites: None
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/upgrade-office-in-windows-for-it.svg
 ratingEnabled: true
 levels:
 - intermediate
