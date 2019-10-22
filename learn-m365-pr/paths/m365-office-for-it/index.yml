@@ -20,6 +20,7 @@ roles:
 - administrator
 products: 
 - m365
+- office
 modules:
 - learn-m365-office.m365-office-it-overview
 - learn-m365.m365-office-it-prepare
