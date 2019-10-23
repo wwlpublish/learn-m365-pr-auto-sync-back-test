@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn-m365.getting-started-identity
+metadata:
+  title: Getting Started with Microsoft Identity
+  description: Learn the basics of Microsoft identity including the different types of tokens, account types, and supported topologies.
+  ms.date: 10/25/2019
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Getting Started with Microsoft Identity
+summary: Microsoft identity platform is an evolution of the Azure Active Directory (Azure AD) developer platform. It allows developers to build applications that sign in users, and access resources in both external applications such as Microsoft Office 365, the Azure portal, and thousands of other SaaS applications as well as internal resources, such as apps on your corporate network and intranet, along with any cloud apps developed by your own organization. In this module, you will learn the basics of Microsoft identity including the different types of tokens, account types, and supported topologies.
+abstract: |
+  At the end of this module, you should be able to:
+  - Explain the different types of tokens used in Microsoft Identity solutions
+  - Compare and contrast the different account types
+  - Compare and contrast the supported Microsoft Identity Topologies
+prerequisites: | 
+  - Basic knowledge of OAuth authentication flows and terminologies
+  - Ability to develop with ASP.NET Core at the intermediate level
+  - Ability to develop with JavaScript or TypeScript at the intermediate level
+  - Experience using Visual Studio Code at the beginner level
+  - Access to an Office 365 tenant
+iconUrl: /learn/achievements/getting-started-identity.svg
+levels: 
+- intermediate
+roles: 
+- developer
+products: 
+- m365
+- azure-active-directory
+units:
+- learn-m365.getting-started-identity.1-introduction
+- learn-m365.getting-started-identity.2-different-token-types
+- learn-m365.getting-started-identity.3-exercise-different-token-types
+- learn-m365.getting-started-identity.4-different-account-types
+- learn-m365.getting-started-identity.5-exercise-different-account-types
+- learn-m365.getting-started-identity.6-topology-options
+- learn-m365.getting-started-identity.7-exercise-topology-options
+- learn-m365.getting-started-identity.8-summary
+badge:
+  uid: learn-m365.getting-started-identity.badge
