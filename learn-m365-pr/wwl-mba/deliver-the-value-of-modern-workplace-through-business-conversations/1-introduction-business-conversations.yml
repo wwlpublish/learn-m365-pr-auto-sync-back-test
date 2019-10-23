@@ -10,6 +10,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+
 durationInMinutes: 1
 content: |
   [!include[](includes/1-introduction-business-conversations.md)]

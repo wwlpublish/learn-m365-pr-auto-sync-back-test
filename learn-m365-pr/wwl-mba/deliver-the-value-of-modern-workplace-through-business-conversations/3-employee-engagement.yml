@@ -10,6 +10,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+
 durationInMinutes: 8
 content: |
   [!include[](includes/3-employee-engagement.md)]
