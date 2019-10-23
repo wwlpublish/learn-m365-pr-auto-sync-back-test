@@ -1,4 +1,4 @@
-﻿
+
 The exponential growth of data and the increased number and complexity of regulatory requirements is increasing the cost of compliance.  So, when we talk with customers about compliance, we are fundamentally talking about managing the cost of compliance.  Microsoft can help manage the cost of compliance by bringing more intelligence into risk 
 assessment and management.
 
@@ -31,3 +31,4 @@ In the last video, we focused the conversation around the challenges of **inform
 In the previous video, we talked about capabilities such as **communications supervision** and **privileged access management** to manage internal risk. We also described how **data investigations & remediation** and **advanced e-discovery** help organizations respond to regulatory requests with confidence using built-in search and discovery tools.  Our comprehensive set of intelligent compliance and risk management solutions gives customers the flexibility to implement the necessary controls to meet both internal and external security and compliance requirements.
 
 Now that we’ve explored how to have the business conversations to position the value of a cloud based modern workplace with Microsoft 365 and Surface for Business, let’s move onto the knowledge check.
+

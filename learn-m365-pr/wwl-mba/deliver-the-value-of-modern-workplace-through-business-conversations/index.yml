@@ -10,6 +10,7 @@ metadata:
   ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
+  ms.learn-contact: ''
 title: Deliver the value of modern workplace through business conversations
 summary: In this module, we will go through a series of customer conversations for moving to a cloud-based modern workplace with Microsoft 365 and Surface for Business.
 abstract: |
@@ -19,7 +20,7 @@ abstract: |
 ratingEnabled: false
 prerequisites: |
   none
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/deliver-value-modern-workplace-through-business-conversations.svg
 levels:
 - beginner
 roles:
