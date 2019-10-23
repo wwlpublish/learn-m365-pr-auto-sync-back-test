@@ -4,7 +4,7 @@ In the meantime, while it takes less than 48 hours for attackers to take complet
 
 ![The evolving security threat](../media/threat-evolving.png)
 
-But by leveraging advanced security analytics, machine learning, and their own intuition, security experts are fighting back. To dynamically identify new threats, Microsoft technologies such as Windows Defender Antivirus work with large sets of interconnected data in the Microsoft Intelligent Security Graph and powerful artificial intelligence (AI) systems driven by advanced machine learning models. 
+But by leveraging advanced security analytics, machine learning, and their own intuition, security experts are fighting back. To dynamically identify new threats, Microsoft technologies such as Windows Defender Antivirus work with large sets of interconnected data in the Microsoft Intelligent Security Graph and powerful artificial intelligence (AI) systems driven by advanced machine learning models. Our advanced threat protection solutions are designed to flag breach activity to spot advanced attacks that rely on legitimate system tools 
 
 The Microsoft Graph Security API is a unified API that provides a standard interface and uniform schema to integrate security alerts and threat intelligence from multiple sources, enriches alerts and data with contextual information, and automates security operations.
 

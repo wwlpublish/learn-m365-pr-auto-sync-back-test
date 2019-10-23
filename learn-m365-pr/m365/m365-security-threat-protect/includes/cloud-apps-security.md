@@ -1,7 +1,7 @@
 Moving applications to the cloud increases flexibility for employees and IT alike but it also introduces new security challenges. IT must find the right balance of supporting access while maintaining control.
 
 Microsoft Cloud App Security is a Cloud Access Security Broker that supports various deployment modes including log collection, API connectors, and reverse proxy. It provides rich visibility, control over data travel, and sophisticated analytics to identify and combat cyberthreats across all your Microsoft and third-party cloud services.
-
+ 
 Microsoft Cloud App Security natively integrates with leading Microsoft solutions and is designed with security professionals in mind. It provides simple deployment, centralized management, and innovative automation capabilities.
 
 ## The Cloud App Security framework
