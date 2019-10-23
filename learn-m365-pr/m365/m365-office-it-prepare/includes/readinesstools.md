@@ -7,6 +7,6 @@ You can use the Readiness Toolkit for Office on its own or with System Center Co
 
 You can access this information in the Office Dashboard in Configuration Manager and drill into lists of the add-ins it found. Use this information to prioritize testing the most commonly used and installed Office COM add-ins – especially where there isn’t known compatibility information, such as with in-house developed COM add-ins.
 
-Configuration Manager’s expanded inventory capability doesn’t discover files with VBA macros, but it can discover which computers have recently run macros. In most environments this is a small number of specialized devices and roles. You can use this inventory to create device collections scoped to those devices. Then you can use the Readiness Toolkit for Office to discover and assess the compatibility of macros on those devices.
+Configuration Manager’s expanded inventory capability doesn’t discover files with VBA macros, but it can discover which computers have recently run macros. In most environments, this is a small number of specialized devices and roles. You can use this inventory to create device collections scoped to those devices. Then you can use the Readiness Toolkit for Office to discover and assess the compatibility of macros on those devices.
 
 In smaller environments, you can also use the Readiness Toolkit for Office on its own to check a handful of PCs or to validate its findings on a small number of devices before deploying it to a large collection of devices. 

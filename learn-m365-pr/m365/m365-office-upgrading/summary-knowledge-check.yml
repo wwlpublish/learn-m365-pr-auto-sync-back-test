@@ -30,7 +30,7 @@ quiz:
       - content: "Customize"
         isCorrect: false
         explanation: "Incorrect. The valid commands for the setup.exe are only Download, Configure, Customizer, Packager, and Help."
-    - content: "You access the Office Customization Tool in Office 2019 by downloading Office installation files, and then running “setup.exe /admin” to launch the tool."
+    - content: "You access the Office Customization Tool in Office 2019 by downloading Office installation files and running “setup.exe /admin” to launch the tool."
       choices:
       - content: "True"
         isCorrect: false
