@@ -38,7 +38,7 @@ quiz:
       - content: "Semi-annual channel (targeted)"
         isCorrect: false
         explanation: "No. Semi-annual channel (targeted) is a pre-release channel for semi-annual channel to test and validate prior to release."
-    - content: "True or false: 3.	It is recommended to use automatic updates from the monthly channel for general purpose devices with Office 365 ProPlus installed."
+    - content: "True or false: 3.	Microsoft recommends using automatic updates from the monthly channel for general purpose devices with Office 365 ProPlus installed."
       choices:
       - content: "True"
         isCorrect: true

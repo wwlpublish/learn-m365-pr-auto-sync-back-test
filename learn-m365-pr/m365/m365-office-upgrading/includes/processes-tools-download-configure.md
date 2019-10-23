@@ -12,11 +12,11 @@ The setup.exe in the Office Deployment Tool allows you to:
 
     `setup.exe /download [Path]\download.xml`
 
-- **Configure** and install Office on Windows devices using settings specified in the configuration XML, such as products, update channel and languages. Here’s the syntax:
+- **Configure** and install Office on Windows devices using settings specified in the configuration XML, such as products, update channel, and languages. Here’s the syntax:
 
     `setup.exe /configure [Path]\configuration.xml`
 
-- **Customize** an existing Office installation on a Windows device. This mode applies only the application settings you specify in the configuration XML, without changing any other deployment settings. Here’s the syntax:
+- **Customize** an existing Office installation on a Windows device. This mode applies only the application settings you specify in the configuration XML without changing any other deployment settings. Here’s the syntax:
 
     `setup.exe /customize [Path]\settings.xml`
 
@@ -24,8 +24,8 @@ The configuration XML lets you configure dozens of settings when downloading and
 
 ## Office Customization Tool
 
-You can use the **Office Customization Tool** to create and modify configuration XML files using a web-based interface found at [Office 365 Client Configuration Service](https://config.office.com). Use the Office Customization Tool with the setup.exe from the Office Deployment Tool to deploy Office packages to a small number of systems. You can also use it instead of Configuration Manager, if your organization doesn’t use System Center Configuration Manager.
+You can use the **Office Customization Tool** to create and modify configuration XML files using a web-based interface found at [Office 365 Client Configuration Service](https://config.office.com). Use the Office Customization Tool with the setup.exe from the Office Deployment Tool to deploy Office packages to a small number of systems. You can also use it instead of Configuration Manager if your organization doesn’t use System Center Configuration Manager.
 
-System Center Configuration Manager 1806 and newer releases include an integrated experience with the Office Customization Tool that uses the same web experience as part of the **Office 365 Installer** application package creation process.
+Since release 1806, System Center Configuration Manager includes an integrated experience with the Office Customization tool that uses the same web experience as part of the **Office 365 Installer** application package creation process.
 
 As part of the Office 365 Installer in System Center Configuration Manager, the wizard downloads the up-to-date setup.exe as needed from the Office Deployment Tool, creates the configuration XML file, and downloads Office installation files to your defined package folder location.
