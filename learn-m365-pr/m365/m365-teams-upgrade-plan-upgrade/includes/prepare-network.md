@@ -14,9 +14,9 @@ Bandwidth planning will help you determine whether your deployment might be affe
 
 ## Bandwidth planning
 
-Microsoft Teams gives you the best audio, video, and content sharing experience regardless of your network conditions. With variable codecs, media can be negotiated in limited bandwidth environments with minimal impact. But where bandwidth is not a concern, experiences can be optimized for quality, including up to 1080p video resolution, up to 30 fps for video and 15 fps for content, and high-fidelity audio.
+Microsoft Teams gives you the best audio, video, and content sharing experience regardless of your network conditions. With variable codecs, media can be negotiated in limited bandwidth environments with minimal impact. But where bandwidth is not a concern, experiences can be optimized for quality, including up to 1080-pixel video resolution, up to 30 frames per second (fps) for video and 15 fps for content, as well as high-fidelity audio.
 
-Teams is always conservative on bandwidth utilization and can deliver HD video quality in under 1.2 Mbps. Actual bandwidth consumption in each audio/video call or meeting will vary based on several factors, such as video layout, video resolution, and video frames per second. When more bandwidth is available, quality and usage will increase to deliver the best experience.
+Teams is always conservative on bandwidth utilization and can deliver HD video quality in under 1.2 Mbps. Actual bandwidth consumption in each audio/video call or meeting will vary based on several factors, such as video layout, video resolution, and video fps. When more bandwidth is available, quality and usage will increase to deliver the best experience.
 
 ### Local internet egress
 
@@ -26,11 +26,11 @@ Back-hauling traffic across the WAN increases latency and has a negative impact 
 
 Optimizing the network path to Microsoft’s global network will improve performance and ultimately provide the best experience for users. To get an optimal experience using real-time media within Microsoft Teams, you must meet the networking requirements for Office 365.
 
-Client to Microsoft Edge and Customer Edge to Microsoft Edge are the two defining network segments. Use the Network Assessment Tool to test both network segments. This tool can be deployed on both the client PC directly and on a PC connected to the Customer Network Edge. 
+Client to Microsoft Edge and Customer Edge to Microsoft Edge are the two defining network segments. Use the Network Assessment Tool to test both network segments. This tool can be deployed on both the client PC directly and on a PC connected to the Customer Network Edge.
 
 ### VPN
 
-VPNs provide a valuable service to many organizations. Unfortunately, they’re typically not designed or configured to support real-time media. We recommend you provide an alternate path that bypasses the VPN for Teams traffic. This is commonly known as split-tunnel VPN. Split tunneling means that traffic for Office 365 won’t traverse the VPN but will go directly to Office 365. This change will have a positive impact on quality, but also provides the secondary benefit of reducing load from the VPN devices and the organization’s network.
+VPNs are typically not designed or configured to support real-time media. We recommend you provide an alternate path that bypasses the VPN for Teams traffic. This is commonly known as split-tunnel VPN. Split tunneling means that traffic for Office 365 won’t traverse the VPN but will go directly to Office 365. This change will have a positive impact on quality, but also provides the secondary benefit of reducing load from the VPN devices and the organization’s network.
 
 To implement a split-tunnel, consult with your VPN vendor for the configuration details.
 
@@ -64,13 +64,14 @@ Ensure that all the client computers running the Teams client can resolve extern
 ### NAT pool size
 
 When multiple users and devices access Office 365 by using Network Address Translation (NAT) or Port Address Translation (PAT), you need to ensure that the devices hidden behind each publicly routable IP address don’t exceed the supported number.
+
 To mitigate this risk, ensure adequate public IP addresses are assigned to the NAT pools to prevent port exhaustion. Port exhaustion will cause internal end users and devices to face issues when connecting to the Office 365 services. 
 
 ### Intrusion detection and prevention guidance
 
 If your environment has an intrusion detection system and/or intrusion prevention system deployed for an extra layer of security for outbound connections, ensure that any traffic that has Office 365 URLs as its destination is whitelisted.
 
-## Test the network    
+## Test the network
 
 After you’ve completed your planning and network preparation—including upgrading bandwidth and opening ports in the firewall—you should test your network’s performance. The test results will paint a clearer picture of any network optimization or remediation required for the success of your Teams implementation.
 
@@ -90,11 +91,11 @@ If the results of bandwidth planning, port testing, or network requirements test
 ## Key takeaways  
 
 These are the main takeaways from this guidance. You must:
+
 - Open TCP ports 80 and 443 outgoing from clients that will use Teams.
 - Open UDP ports 3478 through 3481 outgoing from clients that will use Teams.
 - Ensure that you have sufficient bandwidth for deploying Teams.
 - Run the Network Assessment Tool and ensure that you meet the requirements described in Media Quality and Network Connectivity Performance from both the edge segment and the client segment.
-
 
 ## Learn more
 

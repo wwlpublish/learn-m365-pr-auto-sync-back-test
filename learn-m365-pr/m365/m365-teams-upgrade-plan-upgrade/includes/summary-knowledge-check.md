@@ -1,4 +1,4 @@
-In this module, you learned how to prepare your organization to upgrade from Skype for Business to Microsoft Teams, how to assess your environment, prepare your environment and organization, and how to conduct a user pilot.
+In this module, you learned how to prepare your organization to upgrade from Skype for Business to Microsoft Teams, assess your environment, prepare your environment and organization, and conduct a user pilot.
 
 Now that you have completed this module, you should be able to:
   

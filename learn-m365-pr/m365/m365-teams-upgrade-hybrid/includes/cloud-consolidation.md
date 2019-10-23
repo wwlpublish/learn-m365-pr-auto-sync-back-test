@@ -3,6 +3,7 @@ Many large enterprises have more than one on-premises AD forest, and in some cas
 Historically, the guidance has been for customers in this situation to consolidate deployments on-premises first and then move to the cloud. While this is still an option, below is a solution based on new functionality that enables organizations with multiple Skype for Business deployments to migrate one deployment at a time into a single Office 365 tenant, without doing on-premises consolidation. Even with this new functionality, Skype for Business Online and Microsoft Teams do not support multiple Skype for Business/Lync forests in hybrid mode with a single Office 365 tenant.
 
 ## Overview of cloud consolidation
+
 Consolidation of all users from on-premises into the cloud in a single Office 365 tenant can be achieved for any organization with multiple Skype for Business deployments, provided that the following key requirements are met:
 
 - There must be at most one Office 365 tenant involved. Consolidation in scenarios with more than one Office 365 tenant is not supported.

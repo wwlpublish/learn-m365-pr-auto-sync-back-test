@@ -20,13 +20,13 @@ quiz:
       choices:
       - content: "Chat "
         isCorrect: false
-        explanation: "Skype for Business includes chat."
+        explanation: "Skype for Business includes chat. Microsoft Teams includes collaboration tools such app integration and file storage."
       - content: "Collaboration"
         isCorrect: true
         explanation: "Microsoft Teams includes collaboration tools such app integration and file storage."
       - content: "File sharing"
         isCorrect: false
-        explanation: "Skype for Business includes file sharing."
+        explanation: "Skype for Business includes file sharing. Microsoft Teams includes collaboration tools such app integration and file storage."
 
     - content: "Which of the following statements about coexistence of Teams and Skype for Business is true?"
       choices:

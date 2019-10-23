@@ -1,6 +1,6 @@
-Deploying new technologies can affect your users’ productivity and your network. But just like you’d paint a small patch of color on a wall before painting the whole room, it’s a good idea to test a broad rollout on a smaller scale by conducting a pilot to validate technical and user readiness, identify and mitigate issues, and help ensure a successful organization-wide implementation.
+Deploying new technologies can affect your users’ productivity and your network. Just like you’d paint a small patch of color on a wall before painting the whole room, you should test a broad rollout on a smaller scale. Conduct a pilot to validate technical and user readiness, identify and mitigate issues, and help ensure a successful organization-wide implementation.
 
-To achieve the most realistic results, a Teams pilot should involve actual users, mimic how they communicate and collaborate, and verify both technical and user experiences. Whether your organization is considering running Skype for Business and Teams side by side, upgrading to Teams in the future, or deploying new functionality such a calling or conferencing, a pilot can help identify the right path forward for your organization. 
+To achieve the most realistic results, a Teams pilot should involve actual users, mimic how they communicate and collaborate, and verify both technical and user experiences. Whether your organization is considering running Skype for Business and Teams side by side, upgrading to Teams in the future, or deploying new functionality such as calling or conferencing, a pilot can help identify the right path forward for your organization.
 
 ## 1. Outline pilot logistics
 
@@ -20,9 +20,10 @@ Whichever scenarios you select, the pilot should extend to key people in IT, tra
 When selecting your Teams pilot group participants, be sure to include top users of Skype for Business. Check with those users to understand how they use Skype for Business today; then build out a test plan to verify that Teams can meet their current needs.
 
 ## 3. Design your test plan and feedback survey
+
 A successful pilot will give your participants clearly defined tasks to complete and a way for them to share their feedback. Combine tasks together to offer real-world scenarios, demonstrating relevancy to users’ daily activities.
 
-Your organization might choose to pilot all functionality at once or use a gradual approach. Ensure that you have an open feedback channel to track progress and measure outcomes. Defined your survey in advance as an easy way to capture and assess pilot results.
+Your organization might choose to pilot all functionality at once or use a gradual approach. Ensure that you have an open feedback channel to track progress and measure outcomes. Define your survey in advance as an easy way to capture and assess pilot results.
 
 ## 4. Create your communications plan
 
@@ -48,9 +49,7 @@ For a 30-day pilot, we suggest:
 
 After your pilot is complete, it’s time to gather all feedback surveys, final network stats, and support tickets for analysis against your goals and determine whether you’ll implement your go-forward plan. You might find that your organization is ready for a broad deployment. Or you may want to extend your pilot to more users or revisit the pilot at a later date after any concerns have been mitigated. Remember that your pilot is a great way to predict technical and user outcomes in a controlled environment; be thoughtful about jumping ahead too quickly.
 
-If your results indicate that your pilot goals have been met, you should be ready to proceed with the next phase of your rollout.
-
-If your results indicate that your pilot didn’t achieve the outcomes you wanted, take time to make the appropriate adjustments to your plan and revisit your pilot.
+If the results meet your pilot goals, proceed with the next phase of your rollout. If your results indicate that your pilot didn’t achieve the outcomes you wanted, take time to make the appropriate adjustments to your plan and revisit your pilot.
 
 ## Learn more
 

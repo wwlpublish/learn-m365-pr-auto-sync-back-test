@@ -15,6 +15,7 @@ Depending on the coexistence modes assigned to users (as previously described), 
 
 - Skype for Business users can chat one-on-one with Teams users, and vice versa. An interoperability chat needs to go through an interoperability gateway that’s part of Teams cloud services (and therefore only exists online). Interoperability chats are plain text: rich text and emoticons aren’t supported. Users in Teams and in Skype for Business are notified that the conversation is an interoperability conversation.
 - Skype for Business users can make one-on-one voice and video calls to Teams users, and vice versa.
+
    > [!IMPORTANT]
    > Interoperability experiences with an on-premises deployment of Skype for Business require that the on-premises environment is in hybrid mode with Office 365 Skype for Business.
 
@@ -39,7 +40,7 @@ Because of the difference in protocols and technology, it is not possible to sup
 - File transfer for two-party chats, or file attachment in group chats, from Teams to Skype for Business—and vice versa—aren’t supported.
 - There is no interoperability with Skype for Business Persistent Chat.
 
-For all these limitations (except for Persistent Chat), one possible workaround is for one user to start a meeting and invite the other user to join it.
+For all these limitations (except for Persistent Chat), one possible workaround is for one user to start a meeting and invite the other users to join it.
 
 This workaround is the basis for interoperability escalation. In particular, screen sharing and escalation to multiparty are not achievable natively but they are supported via interoperability escalation.
 
@@ -55,21 +56,21 @@ Once the parties have joined the meeting, they can conduct any activity supporte
 
 ## Interoperability escalation from Skype for Business
 
-Interoperability and interoperability escalation from Skype for Business was updated in the July 2019 build of monthly C2R. Previously, Skype for Business did not have advance awareness that the remote party was using Teams. It only surmised that from the signaling received after a session was established.
+Interoperability and interoperability escalation from Skype for Business were updated in the July 2019 build of monthly C2R. Previously, Skype for Business did not have advance awareness that the remote party was using Teams. It only surmised that from the signaling received after a session was established.
 
 When the signaling indicated that the response came from (or through) the interoperability gateway, it would display the yellow business bar (banner) indicating the other party was not using Skype for Business. With the evolution of our service, this resulted in false positives where Skype for Business users would see the business bar when they were connected to the Cloud Voicemail Service or other cloud voice services, rather than to an actual TeamsOnly user.
 
-To prevent these false positives, the presence service is now informing the Skype for Business client when the other party is a TeamsOnly actual user. This allows Skype for Business to be aware that it needs to create an interoperability conversation ahead of it having been created, and the conversation window to be specific to interop.
+To prevent these false positives, the presence service is now informing the Skype for Business client when the other party is a TeamsOnly actual user. This allows Skype for Business to be aware that it needs to create an interoperability conversation ahead of it having been created, and the conversation window is specific to interoperability.
 
 ![Skype for Business creates an interoperability conversation](../media/interop-create-conversation.png)
  
-If the Skype for Business user wants to share their desktop for example, they are informed that we will start a meeting and guided through the steps.
+If the Skype for Business user wanted to share their desktop, they would be informed that a meeting will start and guided through the steps.
  
 ![A Skype for Business users starts a meeting](../media/start-meeting-with-teams-user.png)
 
-Meanwhile, the Teams user receives an incoming chat message with the link to the meeting and are guided to join.
+Meanwhile, the Teams user receives an incoming chat message with the link to the meeting and is guided to join.
 
-This escalation to a Skype for Business meeting is available for both in-tenant interoperability and cross-tenant federated calls and chats. It is on by default and there is no setting the admin has to provision.
+This escalation to a Skype for Business meeting is available for both in-tenant interoperability and cross-tenant federated calls and chats. It is on by default and there is no setting the administrator has to provision.
 
 ## Interoperability escalation from Teams
 
@@ -85,6 +86,6 @@ If the users were in a call, the menu also warns them that their current call be
  
 Upon acceptance, they are put in the Teams meeting; they must start sharing from the sharing tray in the meeting.
 
-Meanwhile, the Skype for Business user receives an incoming chat message with the link to the meeting and are guided to join.
+Meanwhile, the Skype for Business user receives an incoming chat message with the link to the meeting and is guided to join.
 
-This escalation to a Teams meeting is available for both in-tenant interoperability and cross-tenant federated calls and chats. It is on by default and there is no setting the admin has to provision. However, it is turned off for the user if the admin sets `-AllowPrivateMeetNow` in `CsTeamsMeetingPolicy to $false`.
+This escalation to a Teams meeting is available for both in-tenant interoperability and cross-tenant federated calls and chats. It is on by default and there is no setting the administrator has to provision. However, it is turned off for the user if the administrator sets `-AllowPrivateMeetNow` in `CsTeamsMeetingPolicy to $false.
