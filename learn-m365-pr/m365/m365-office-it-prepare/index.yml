@@ -13,7 +13,7 @@ summary: Learn the steps to prepare for Office upgrades in Windows at scale, inc
 abstract: |
   In this module, you will learn about:
    - The prerequisites, considerations, and update channel options for Office
-   - Office Office-related network optimization, language, policy, and common configurations
+   - Office-related network optimization, language, policy, and common configurations
    - Readiness tools to discover and assess the compatibility of Office COM add-ins and VBA Macros 
 prerequisites: None
 iconUrl: /learn/achievements/prepare-for-office.svg

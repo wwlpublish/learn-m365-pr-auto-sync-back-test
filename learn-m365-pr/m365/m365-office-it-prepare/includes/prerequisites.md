@@ -27,7 +27,7 @@ Your next step is to determine how Office is used on different PCs and to invent
 Typically, Office usage falls into two categories:
 
 **General purpose**
--	Minimal customizations, COM add-ins, or VBA macros in use
+-	Minimal customizations, COM add-ins, or VBA macros in use.
 -	Typically represents the majority of users. General purpose devices should use monthly channel updates whenever possible delivered directly from the Internet by the Office 365 Content Delivery Network (CDN).
 
 **Business essential**
@@ -36,4 +36,4 @@ Typically, Office usage falls into two categories:
 
 -	Business essential devices should use semi-annual channel updates to keep features more consistent over time.
 
-To take an inventory of COM add-ins and the devices where they’re installed, you can use Configuration Manager (1902 and newer) to discover Office add-ins using hardware inventory and configuring it to report Office client information. Another option is to use the Readiness Toolkit for Office to inventory COM add-ins. You can define systems with minimal customizations and COM add-ins as general purpose, and then set policies to update those systems automatically. 
+You can use Configuration Manager (1902 and newer) to take an inventory of COM add-ins and the devices where they're installed. Configuration Manager discovers Office add-ins using a hardware inventory and reports Office client information. Another option is to use the Readiness Toolkit for Office to inventory COM add-ins. You can define systems with minimal customizations and COM add-ins as general purpose, and then set policies to update those systems automatically. 
