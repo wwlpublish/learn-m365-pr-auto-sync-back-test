@@ -1,12 +1,14 @@
-If your organization is starting to use Teams alongside Skype for Business —or you're starting to upgrade to Teams—you should understand how the two applications coexist, and when and how they operate together.
+If your organization uses Skype for Business today and you are starting to use Teams alongside Skype for Business—or you are starting to upgrade to Teams—it’s important to understand how the two applications coexist, when and how they interoperate, and how to manage users’ migration all the way to their eventual upgrade from Skype for Business to Teams.
 
-Coexistence modes provide a predictable user experience as you move from Skype for Business to Teams. Depending on how you choose to deploy them, the chat, calling, and meeting capabilities in Teams may overlap with capabilities delivered by Skype for Business.
+The purpose of the Skype for Business coexistence modes is to provide a predictable experience for end users as organizations transition from Skype for Business to Teams. Depending on how you choose to deploy Teams, the chat, calling, and meeting capabilities in Teams may overlap with the same capabilities delivered by Skype for Business for a given user.
 
-For an organization moving to Teams, the TeamsOnly mode is the final destination for each user. Until this time, you can use any coexistence mode, ensuring predictable communication between TeamsOnly and non-TeamsOnly users. When your users are in a coexistence mode, all incoming chats and calls are routed to the Skype for Business client and disabled in the Teams client. This avoids some user confusion.
+For an organization moving to Teams, the TeamsOnly mode is the final destination for each user, though not all users need to be assigned TeamsOnly (or any other mode) at the same time. Prior to users reaching TeamsOnly mode, organizations can use any of the Skype for Business coexistence modes to ensure predictable communication between users who are TeamsOnly and those who aren’t yet.
 
-Meeting scheduling in Teams is disabled when users are in certain coexistence modes. Scheduling is enabled in other modes. Because your user's presence indicator implies reachability through chat and calling, it doesn't display when chat and calling are disabled.
+When a user is in any of the Skype for Business modes (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings), all incoming chats and calls are routed to the user’s Skype for Business client. To avoid end user confusion and ensure proper routing, calling and chat functionality in the Teams client is disabled when a user is in any of the Skype for Business modes. Similarly, meeting scheduling in Teams is explicitly disabled when users are in the SfBOnly or SfBWithTeamsCollab modes, and explicitly enabled when a user is in the SfBWithTeamsCollabAndMeetings mode.
 
-You can learn more about coexistence and interoperability in the module, **Understanding coexistence and interoperability.**
+Because presence is an indication of reachability through chat and calling, when chat and calling are disabled, self-presence in Teams (that is, the display of one’s own presence in the Teams client in the user’s picture) is also hidden.
+
+You can learn more about coexistence and interoperability in the module, **Understand coexistence and interoperability.**
 
 ## Learn more
 
