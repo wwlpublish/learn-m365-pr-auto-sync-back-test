@@ -1,0 +1,48 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-office.m365-managing-troubleshooting-office.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Review what you've learned about managing and troubleshooting Office on Windows.
+  ms.date: 09/19/2019
+  author: puffinanda
+  ms.author: v-jolev
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Which of the following is an accurate description for how software updates work with Click-to-Run packages of Microsoft Office?"
+      choices:
+      - content: "Updates are published monthly as MSP files and available via Windows Server Update Services, Configuration Manager, or the Microsoft Download Center. These MSP files can then be delivered as updates using existing tools."
+        isCorrect: false
+        explanation: "Incorrect. Updates with Office Click-to-Run use full installation packages and not MSP files."
+      - content: "The update process calculates the delta between what is already installed and what is offered in the update, then loads only the required files to bring Office up-to-date."
+        isCorrect: true
+        explanation: "Correct. The update process will look at the list of components in the targeted package, see what is already installed and still current, determine components that are out of date and bring out-of-date replacement components plus net new components in from the update package."
+      - content: "The Microsoft Store will continually scan for Office updates and update Office as it would update other pre-installed Windows 10 UWP apps, like Candy Crush."
+        isCorrect: false
+        explanation: "Incorrect. The Office Click-to-Run update process does not use Windows Update, Microsoft Update or the Microsoft Store to deliver software updates."
+    - content: "When you install Office again using the same build number and architecture on a device with an existing install of Office, it will fail."
+      choices:
+      - content: "True"
+        isCorrect: false
+        explanation: "Incorrect. You can install Office again using different configuration settings on a system with Office already installed. This “second install” approach can be used to modify the existing install, for example by adding additional language support."
+      - content: "False"
+        isCorrect: true
+        explanation: "Correct. You can install Office again using different configuration settings on a system with Office already installed. This “second install” approach can be used to modify the existing install, for example by adding additional language support."
+    - content: "Which of the following options is NOT a valid repair type or approach used to troubleshoot an Office 365 ProPlus or Office 2019 installation?"
+      choices:
+      - content: "Quick Repair"
+        isCorrect: false
+        explanation: "Incorrect. Quick repair is an option and can be run in standard user context – without local admin privilege – and without Internet connectivity from locally stored source to perform simple tasks, like taking back default file associations."
+      - content: "Online Repair"
+        isCorrect: false
+        explanation: "Incorrect. Online repair is a valid option and reinstalls the affected version of Office according to previously configured installation parameters and properties."
+      - content: "Microsoft Office Configuration Analyzer Tool (OffCAT)"
+        isCorrect: true
+        explanation: "Correct. OffCAT was replaced with the Microsoft Support and Recovery Assistant (SaRA) and has not been available since June 2018. The SaRA does include Office installation troubleshooting."
