@@ -1,0 +1,50 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.understand-office-add-ins-customization.5-knowledge-check
+metadata:
+  title: Check your knowledge
+  description: In this unit, you'll check your knowledge about Office Add-ins customization.
+  ms.date: 10/03/2019
+  author: ElizabethSamuel-MSFT
+  ms.author: elizs
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+title: Check your knowledge
+durationInMinutes: 1
+content: ''
+quiz:
+  title: Customize Office Add-ins
+  questions:
+  - content: "An Outlook add-in needs to store data. What's an Office JavaScript object the add-in developer might use?"
+    choices:
+    - content: "CustomProperties"
+      isCorrect: true
+      explanation: "CustomProperties can be used to store Outlook item data. RoamingSettings is another object you can use."
+    - content: "CustomXmlParts"
+      isCorrect: false
+      explanation: "CustomXmlParts can be used to store data for Excel and Word task pane add-ins."
+    - content: "Settings"
+      isCorrect: false
+      explanation: "The Settings object can be used to store data content and task pane add-ins targeting Excel, PowerPoint, and Word."
+  - content: "Joe has decided to use Office UI Fabric in an add-in. What is an advantage of doing so?"
+    choices:
+    - content: "Fabric has three (3) main areas."
+      isCorrect: false
+      explanation: "Actually, Fabric has two (2) main areas: Core and React."
+    - content: "Fabric Core is built on Fabric React."
+      isCorrect: false
+      explanation: "It's the other way around: Fabric React is built on Fabric Core."
+    - content: "Fabric reflects Office branding."
+      isCorrect: true
+      explanation: "Your add-in can look like a natural extension of Office when you use Fabric elements and components."
+  - content: "Joe's connecting to Microsoft Graph in an add-in. Where should the add-in display the Azure Active Directory (AAD) sign-in form for a user in Office on the web?"
+    choices:
+    - content: "Custom function"
+      isCorrect: false
+      explanation: "A custom function may require the user to sign in but that's not where a user would sign in."
+    - content: "Dialog"
+      isCorrect: true
+      explanation: "The add-in needs to use the Dialog API to display the AAD login form in a dialog."
+    - content: "Task pane"
+      isCorrect: false
+      explanation: "AAD doesn't allow their login form to be displayed in the task pane iframe."
