@@ -1,9 +1,4 @@
-Users today face multiple threats, including:
-
-- Credential theft (Mimikatz, password spray, or breach harvesting)
-- Malware (viruses, ransomware, and others)
-- Phishing (gaining access to a user’s computer and credentials) 
-- Infrastructure attacks (attacks on improperly secured virtual machines and resources in Azure).
+Users today face different types of threats, including commodity-driven threats and advanced human operated attacks. Commodity threats include automated ransomware operations and large-scale phishing campaigns. Advanced human-operated attacks are more complex and typically begin with exploits, brute-force (password guessing) attacks, or tailored phishing emails. While many advanced attacks also use malware to initially infect target computers, they often use undetectable custom components and system tools. They harvest network credentials and remain persistent to collect data over extended periods. 
 
 ![Threat landscape](../media/threat-landscape.png)
 
