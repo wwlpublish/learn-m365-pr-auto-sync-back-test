@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.intro.microsoft.teams.apps.4-when-to-use-teams-apps
+metadata:
+  title: When should you choose to build a custom Microsoft Teams app?
+  description: This unit explains what Microsoft Teams apps are.
+  ms.date: 10/01/2019
+  author: clearab
+  ms.author: anclear
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: When should you choose to build a custom Microsoft Teams app?
+durationInMinutes: 5
+content: |
+  [!include[](includes/4-when-to-use-teams-apps.md)]

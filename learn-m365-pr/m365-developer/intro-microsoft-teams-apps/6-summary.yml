@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.intro.microsoft.teams.apps.6-summary
+metadata:
+  title: Summary
+  description: This unit summarizes the module content.
+  ms.date: 10/01/2019
+  author: clearab
+  ms.author: anclear
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Summary
+durationInMinutes: 2
+content: |
+  [!include[](includes/6-summary.md)]

@@ -1,0 +1,40 @@
+### YamlMime:Module
+uid: learn-m365.intro-microsoft-teams-apps
+metadata:
+  title: Introduction to building apps for Microsoft Teams
+  description: An introduction to creating custom apps for Microsoft Teams built on the Microsoft Teams Platform.
+  ms.date: 10/01/2019
+  author: clearab
+  ms.author: anclear
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Introduction to building apps for Microsoft Teams
+summary: Microsoft Teams is an extensible platform you can build custom apps on. Understand what is possible with a Microsoft Teams custom app, and determine if it is right for you.
+abstract: |
+  At the end of this module, you should be able to:
+  - Describe the components of a Mircosoft Teams app
+  - List the options for distributing a Microsoft Teams app
+  - List the extensibility points available in Microsoft Teams
+  - Choose the correct extensibility point(s) based on your scenario
+prerequisites: | 
+  - Experience using Microsoft Teams
+  - Basic understanding of web services and APIs
+iconUrl: https://docs.microsoft.com/media/learn/module.svg
+levels: 
+- beginner
+- intermediate
+roles: 
+- developer
+- devops-engineer
+products: 
+- m365
+- office-teams
+units:
+- learn-m365.intro.microsoft.teams.apps.1-introduction
+- learn-m365.intro.microsoft.teams.apps.2-what-are-microsoft-teams-apps
+- learn-m365.intro.microsoft.teams.apps.3-how-create-an-app-for-teams
+- learn-m365.intro.microsoft.teams.apps.4-when-to-use-teams-apps
+- learn-m365.intro.microsoft.teams.apps.5-knowledge-check
+- learn-m365.intro.microsoft.teams.apps.6-summary
+badge:
+  uid: learn-m365.intro-microsoft-teams-apps.badge
