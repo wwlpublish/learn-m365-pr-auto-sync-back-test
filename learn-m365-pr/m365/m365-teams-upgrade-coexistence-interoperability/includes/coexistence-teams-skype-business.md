@@ -49,7 +49,7 @@ This coexistence mode is especially useful for organizations with Skype for Busi
 > [!TIP]
 > To help identify the recommended upgrade mode based on the capabilities you want to enable in Teams while Skype for Business is still in use, use the Skype to Teams Upgrade Wizard.
 
-You can learn more about coexistence modes in the module [Upgrade from Skype for Business hybrid or on-premises to Teams](https://docs.microsoft.com/learn/modules/m365-teams-upgrade-hybrid).
+You can learn more about coexistence modes in the module **Upgrade to Teams from Skype for Business.**
 
 ## Learn more
 

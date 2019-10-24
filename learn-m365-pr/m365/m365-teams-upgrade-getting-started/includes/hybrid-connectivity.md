@@ -4,7 +4,7 @@ Teams users who also use on-premises Skype for Business (side by side) cannot in
 
 Setting up hybrid connectivity and moving all users to the cloud is also required before you decommission your on-premises Skype for Business deployment. With hybrid connectivity set up, you can choose to move your users to the cloud based on your schedule and business need. With Direct Routing, you can leverage your on-premises voice infrastructure while you move to the cloud and after your migration is complete.
 
-You can learn more about hybrid connectivity and how to set it up in the modules, **Upgrade to Teams from Skype for Business** and **Understanding hybrid connectivity.**
+You can learn more about hybrid connectivity and how to set it up in the modules, **Upgrade to Teams from Skype for Business** and **Understand hybrid connectivity.**
 
 ## Learn more
 
