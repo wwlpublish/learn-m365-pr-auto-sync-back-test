@@ -23,7 +23,6 @@ prerequisites: |
   - Access to a Microsoft 365 tenant
 iconUrl: /learn/achievements/optimize-data-usage.svg
 levels:
-  - beginner
   - intermediate
 roles:
   - developer
