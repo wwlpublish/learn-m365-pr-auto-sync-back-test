@@ -21,7 +21,6 @@ prerequisites: |
   - Experience using Visual Studio Code at the beginner level
 iconUrl: /learn/achievements/embedded-web-experiences.svg
 levels:
-  - beginner
   - intermediate
 roles:
   - developer

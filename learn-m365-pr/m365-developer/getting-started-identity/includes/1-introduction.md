@@ -8,7 +8,7 @@ In this module, you'll learn the basics of Microsoft identity including the diff
 - Ability to develop with ASP.NET Core at the intermediate level
 - Ability to develop with JavaScript or TypeScript at the intermediate level
 - Experience using Visual Studio Code at the beginner level
-- Access to an Office 365 tenant
+- Access to a [Microsoft 365 tenant](https://developer.microsoft.com/office/dev-program?ocid=MSlearn)
 
 ## Learning objectives
 
