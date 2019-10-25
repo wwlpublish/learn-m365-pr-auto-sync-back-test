@@ -51,7 +51,7 @@ Select **Save** when finished setting these values.
 
 Open your command prompt, navigate to a directory where you want to save your work, create a new folder, and change directory into that folder.
 
-Execute the following command to create a new Node.js application:
+Execute the following command to create a new ASP.NET Core MVC web application:
 
 ```shell
 dotnet new mvc --auth SingleOrg
