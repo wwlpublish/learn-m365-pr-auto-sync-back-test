@@ -23,4 +23,4 @@ The chart at the top of this screenshot shows a timeline of detections that were
 
 ## Learn more
 
-[Attack surface reduction rules](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction#attack-surface-reduction-rules)
+[Attack surface reduction rules](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction#attack-surface-reduction-rules)
