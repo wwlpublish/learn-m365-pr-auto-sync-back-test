@@ -1,0 +1,62 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-security-management-secure-score.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Review what you learned about security center reporting and Microsoft Secure Score.
+  ms.date: 10/14/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "What are the four categories of reporting found in the Microsoft 365 security center?"
+      choices:
+      - content: "Identities, data, end points, apps"
+        isCorrect: false
+        explanation: "While end points may be a similar term, it is not one of the four categories of reporting."
+      - content: "Identities, compliance, devices, apps"
+        isCorrect: false
+        explanation: "Compliance is not one of the four categories of reporting."
+      - content: "Azure AD, data, devices, apps"
+        isCorrect: false
+        explanation: "Azure AD is not one of the four categories of reporting."
+      - content: "Identities, data, devices, apps"
+        isCorrect: true
+        explanation: "Correct. The four categories found in the Microsoft 365 security center are around identities, data, devices, and apps."
+    - content: "As a security administrator you are tasked with identifying how many DLP matches happened in your third-party cloud services. What reporting insights category would you leverage to find the information?"
+      choices:
+      - content: "Microsoft Cloud App Security"
+        isCorrect: false
+        explanation: "While the protection comes from MCAS, this is not the correct report to identify the matches."
+      - content: "End points"
+        isCorrect: false
+        explanation: "This is not one of the four categories of reporting."
+      - content: "Data"
+        isCorrect: true
+        explanation: "Correct. Within the data reporting category, you'll be able to identify the DLP matches, as well as other DLP and data insights reporting."
+      - content: "Apps"
+        isCorrect: false
+        explanation: "Apps would provide insights into what kind of apps are being used, cloud app activity locations, and cloud app permissions but will not identify the DLP matches needed."
+      
+    - content: "Microsoft Secure Score provides intelligent recommendations surfaced from each of the below except:"
+      choices:
+      - content: "Azure Active Directory"
+        isCorrect: false
+        explanation: "Microsoft Secure Score includes recommendations from Azure AD."
+      - content: "Office Security Center"
+        isCorrect: true
+        explanation: "Correct. Office Security Center does not exist, the Microsoft 365 security center is the centralized location for security administrators and security operations teams."
+      - content: "Microsoft Defender ATP"
+        isCorrect: false
+        explanation: "Microsoft Secure Score includes recommendations from Microsoft Defender ATP."
+      - content: "Azure Security Center"
+        isCorrect: false
+        explanation: "Microsoft Secure Score includes recommendations from Azure Security Center."
+      

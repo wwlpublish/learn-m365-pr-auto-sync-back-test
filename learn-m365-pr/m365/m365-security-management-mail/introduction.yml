@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-security-management-mail.introduction
+title: Introduction to mail protection policies
+metadata:
+  title: Introduction to mail protection policies
+  description: Learn about the mail protection policies available in Office 365 ATP and how they can help you protect your mail. 
+  ms.date: 10/14/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 2
+content: |
+  [!include[](includes/introduction.md)]

@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-security-management-center.introduction
+title: Introduction to Microsoft 365 security center
+metadata:
+  title: Introduction to Microsoft 365 security center
+  description: Get an overview of the Microsoft 365 security center, a set of tools to monitor and manage security.
+  ms.date: 10/14/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 1
+content: |
+  [!include[](includes/introduction.md)]
