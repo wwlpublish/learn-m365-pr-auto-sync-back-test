@@ -1,4 +1,4 @@
-﻿The business conversations you just learned about will help you provide insights to business decision makes about the opportunities and challenges they are facing today.  Through these conversations, you can help broaden the views and perspectives of decision makers in your organization to reframe these challenges into an opportunity and realize the full value of Microsoft 365 and Surface for Business devices.
+The business conversations you just learned about will help you provide insights to business decision makes about the opportunities and challenges they are facing today.  Through these conversations, you can help broaden the views and perspectives of decision makers in your organization to reframe these challenges into an opportunity and realize the full value of Microsoft 365 and Surface for Business devices.
 
 Now that you have reviewed this module, you should be able to:
 
