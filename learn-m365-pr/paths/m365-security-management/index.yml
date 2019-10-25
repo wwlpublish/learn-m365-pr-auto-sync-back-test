@@ -20,6 +20,7 @@ roles:
 - administrator
 products: 
 - m365
+- office-365
 modules:
 - learn-m365.m365-security-management-center
 - learn-m365.m365-security-management-secure-score
