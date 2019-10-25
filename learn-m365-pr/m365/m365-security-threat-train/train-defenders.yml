@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-security-threat-train.train-defenders
+title: Train your defenders with Office 365 ATP
+metadata:
+  title: Train your defenders with Office 365 ATP
+  description: Learn how Office 365 ATP can help train your defenders with threat simulations.
+  ms.date: 10/14/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+  [!include[](includes/train-defenders.md)]

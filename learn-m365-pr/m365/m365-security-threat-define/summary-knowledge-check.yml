@@ -1,0 +1,61 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-security-threat-define.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Review what you've learned about new and evolving threats to your security.
+  ms.date: 10/14/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "What Microsoft solution blends threat signal with powerful machine learning capabilities to serve as the foundation for all of Microsoft’s security solutions?"
+      choices:
+      - content: "Microsoft Threat API"
+        isCorrect: false
+        explanation: "Microsoft Threat API may be used as an abbreviation for the Microsoft Defender Advanced Threat Protection API used to help automate workflows based on Microsoft Defender ATP capabilities."
+      - content: "Microsoft Intelligent Security API"
+        isCorrect: false
+        explanation: "Microsoft Intelligent Security API is not a valid Microsoft API."
+      - content: "Microsoft 365 Security Center"
+        isCorrect: false
+        explanation: "The Microsoft 365 Security Center is leveraged by security administrators and operations teams for a central administration and management portal."
+      - content: "Microsoft Intelligent Security Graph"
+        isCorrect: true
+        explanation: "Correct. The Intelligent Security Graph obtains threat signals from Microsoft’s services, expansive user base, and global footprint enabling security administrators to mitigate today’s modern attacks."
+    - content: "Attackers often attempt to breach organizations through exploiting non-secure IT resources, such as a domain controller, which is commonly known as what?"
+      choices:
+      - content: "Credential theft"
+        isCorrect: false
+        explanation: "Credential theft attacks include password spray, breach harvesting, and key logging. Stolen credentials can be used to access an environment but are a targeted attack on credentials and not IT infrastructure."
+      - content: "Phishing"
+        isCorrect: false
+        explanation: "Phishing is an activity used by attackers to obtain or gain access to a user’s information commonly through social engineering. Compromised credentials can cause a breach but attackers target end users in this instance."
+      - content: "Malware"
+        isCorrect: false
+        explanation: "Common malware attacks include implementing viruses to organizational resources or ransomware to take down critical IT components. While malware can target infrastructure, it’s not limited to it and often can be used to target end users."      
+      - content: "Infrastructure attacks"
+        isCorrect: true
+        explanation: "Correct. Common infrastructure attacks include accessing improperly secured resources such as servers or virtual machines to gain access to the organization’s environment."
+    - content: "What is the median amount of time it takes for an organization to discover a security breach has occurred?"
+      choices:
+      - content: "Less than 48 hours"
+        isCorrect: false
+        explanation: "Less than 48 hours is the time it takes for an attacker to take control of the network."
+      - content: "30 days"
+        isCorrect: false
+        explanation: "While some organizations may discover a breach sooner than others, research has shown the median time for organizations is greater than 30 days."
+      - content: "99 days"
+        isCorrect: true
+        explanation: "Correct. Research conducted by Microsoft and other industry experts has concluded the median time for an organization to identify a security breach is 99 days."
+      - content: "365 days"
+        isCorrect: false
+        explanation: "While some organizations may discover a breach later than others, research has shown the median time for organizations is less than 365 days."
+      
