@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-wwl.discover-modern-workplace-solutions-m365-surface-business.5-knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: Knowledge check
+  ms.date: 10/15/2019
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+
+durationInMinutes: 1
+quiz:
+  title: ""
+  questions:
+  - content: "Which of the following best describes the technology needs of users and IT in today's modern workforce?"
+    choices:
+    - content: "Users want to maximize the number of apps used daily. IT wants to reduce the vulnerability of device endpoints."
+      isCorrect: false
+      explanation: "Incorrect. Users and IT both have expectations for work technology, but Microsoft 365 can give both what they want."
+    - content: "Users want more options for workplace devices. IT wants a secure but fragmented experience."
+      isCorrect: false
+      explanation: "Incorrect. Users and IT have different expectations for work technology, but Microsoft 365 can give both what they want."
+    - content: "Users want an immersive, unified, and simple experience. IT wants a secure, manageable, and integrated experience."
+      isCorrect: true
+      explanation: "That's correct. Microsoft 365 provides the technology experience that both users and IT desire."
+  - content: "Microsoft 365 is a complete, intelligent software suite that includes which of the following products?"
+    choices:
+    - content: "Office 365, Windows 7, and Enterprise Mobility and Security (EMS)"
+      isCorrect: false
+      explanation: "Incorrect. Microsoft 365 does not include Windows 7."
+    - content: "Office 365, Windows 10, and Enterprise Mobility and Security (EMS)"
+      isCorrect: true
+      explanation: "That's correct. Microsoft 365 includes Office 365, Windows 10, and Enterprise Mobility and Security (EMS)."
+    - content: "Office 365, Windows 10, and Surface for Business devices"
+      isCorrect: false
+      explanation: "Incorrect. Microsoft 365 does not include Surface for Business devices."

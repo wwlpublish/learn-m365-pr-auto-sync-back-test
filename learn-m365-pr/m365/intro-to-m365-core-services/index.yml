@@ -3,7 +3,7 @@ uid: learn-m365.intro-m365-core-services
 metadata:
   title: Introduction to Microsoft 365 core services and features
   description: Your Microsoft 365 subscription includes Office 365, Windows 10 Enterprise, and Enterprise Mobility + Security. You may already be using on-premises versions of many of these servers (like Exchange Server). Let’s take a closer look at the cloud services and see how they differ from the on-prem versions you're already familiar with. 
-  ms.date: 03/18/2019
+  ms.date: 10/17/2019
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
@@ -29,6 +29,7 @@ units:
 - learn-m365.m365-core-services.8-intune
 - learn-m365.m365-core-services.2-windows-10-enterprise
 - learn-m365.m365-core-services.7-o365-proplus
+- learn-m365.intro-m365-core-services.2-accessibility-in-microsoft-365
 - learn-m365.m365-core-services.9-summary-and-knowledge-check
 badge: 
   uid: learn-m365.intro-m365-core-services.badge
