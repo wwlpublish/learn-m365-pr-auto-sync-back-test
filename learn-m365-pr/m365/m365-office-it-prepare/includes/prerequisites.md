@@ -33,7 +33,6 @@ Typically, Office usage falls into two categories:
 **Business essential**
 
 -	More COM add-ins installed – often for Excel power users. If issues occur in response to an update, users may lose essential functionality.
-
 -	Business essential devices should use semi-annual channel updates to keep features more consistent over time.
 
 You can use Configuration Manager (1902 and newer) to take an inventory of COM add-ins and the devices where they're installed. Configuration Manager discovers Office add-ins using a hardware inventory and reports Office client information. Another option is to use the Readiness Toolkit for Office to inventory COM add-ins. You can define systems with minimal customizations and COM add-ins as general purpose, and then set policies to update those systems automatically. 
