@@ -21,15 +21,15 @@ Advanced hunting uses a powerful search and query tool to hunt for possible thre
 - **Query examples** - A welcome page provides examples to get you started.
 
 ## Threat and Vulnerability Management
-Effectively identifying, assessing, and remediating endpoint weaknesses is critical to running a healthy security program and reducing organizational risk. Threat and Vulnerability Management reduces organizational exposure, hardens endpoint surface area, and increases organizational resilience by using sensors to help organizations discover vulnerabilities and misconfigurations in real-time without the need of agents or periodic scans. Then it uses the threat landscape, detections in your organization, sensitive information on vulnerable devices, and business context to prioritize vulnerabilities.
+Effectively identifying, assessing, and remediating endpoint weaknesses is critical to running a healthy security program and reducing organizational risk. Threat and Vulnerability Management reduces organizational exposure, hardens endpoint surface area, and increases organizational resilience by using sensors to help organizations discover vulnerabilities and misconfigurations in real time without the need of agents or periodic scans. Then it uses the threat landscape, detections in your organization, sensitive information on vulnerable devices, and business context to prioritize vulnerabilities.
 
 ### Next-generation capabilities
-Threat and Vulnerability Management is the first solution in the industry to bridge the gap between security and IT administration during the remediation process. It does so by creating a security task or ticket through integration with Microsoft Intune and Microsoft System Center Configuration Manager (SCCM).
+Windows 10 includes next-generation protection services that protect your devices by using the cloud and machine learning together. 
 
-Threat and Vulnerability Management also provides the following solutions to frequent gaps between security operations, security administration, and IT administration workflows and communication:
-- Real-time endpoint detection and response (EDR) insights correlated with endpoint vulnerabilities
-- Linked machine vulnerability and security configuration assessment data in the context of exposure discovery
-- Built-in remediation processes through Microsoft Intune and Microsoft System Center Configuration Manager
+The next-generation protection services include:
+- Always-on scanning, or "real-time protection", to identify malware based on known suspicious and malicious activities
+- Cloud-based delivery for near-instant detection and to block new and emerging threats, identified using the Microsoft Intelligent Security Graph and powerful AI
+- Dedicated protection updates (also known as Security Intelligence updates) powered by machine-learning, big-data analysis, and in-depth threat resistance research
 
 ### Endpoint protection
 Microsoft Defender ATP endpoint detection and response capabilities provide advanced attack detections that are near real-time and actionable. Security analysts can prioritize alerts effectively, gain visibility into the full scope of a breach, and take response actions to remediate threats.
