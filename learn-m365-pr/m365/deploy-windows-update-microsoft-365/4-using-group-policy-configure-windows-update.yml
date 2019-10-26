@@ -9,7 +9,6 @@ metadata:
   ms.author: bneeb
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-  ROBOTS: NOINDEX 
 durationInMinutes: 4
 content: |
   [!include[](includes/4-using-group-policy-configure-windows-update.md)] 
