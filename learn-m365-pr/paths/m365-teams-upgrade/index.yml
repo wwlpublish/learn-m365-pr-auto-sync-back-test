@@ -13,13 +13,15 @@ title: Upgrade to Microsoft Teams
 summary: "**Upgrade to Microsoft Teams** explains how to upgrade from Skype for Business Online and Skype for Business on-premises to Microsoft Teams. You’ll learn how to plan your upgrade, how Skype for Business and Teams coexist and interoperate during the upgrade, and how to plan and configure a hybrid environment to move all users to the cloud when upgrading from Skype for Business on-premises."
 prerequisites: | 
  - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/upgrade-to-microsoft-teams.svg
 levels: 
 - intermediate
 roles:
 - administrator
 products: 
 - m365
+- office-365
+- office-teams
 modules:
 - learn-m365.m365-teams-upgrade-getting-started
 - learn-m365.m365-teams-upgrade-plan-upgrade
