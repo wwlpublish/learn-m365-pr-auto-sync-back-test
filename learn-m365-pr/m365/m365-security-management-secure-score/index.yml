@@ -1,0 +1,34 @@
+### YamlMime:Module
+uid: learn-m365.m365-security-management-secure-score
+metadata:
+  title: Using reporting in the Microsoft 365 security center
+  description: Learn how to take advantage of the reporting and insights available through the Microsoft 365 security center to drive organizational security health.
+  ms.date: 10/01/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Using reporting in the Microsoft 365 security center  
+summary: Learn how to take advantage of the reporting and insights available through the Microsoft 365 security center to drive organizational security health.
+abstract: |
+  In this module, you will learn how to:
+  - Understand the reporting available in the Microsoft 365 security center
+  - Define the detection sources used for reporting and monitoring
+  - Explain how Microsoft Secure Score recommendations are calculated
+
+prerequisites: | 
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+iconUrl: /learn/achievements/generic-badge.svg
+ratingEnabled: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+units:
+- learn-m365.m365-security-management-secure-score.introduction
+- learn-m365.m365-security-management-secure-score.how-secure-score-works
+- learn-m365.m365-security-management-secure-score.summary-knowledge-check
+badge: 
+  uid: learn-m365.m365-security-management-secure-score.badges
