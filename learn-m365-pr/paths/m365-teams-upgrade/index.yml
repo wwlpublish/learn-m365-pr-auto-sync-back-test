@@ -20,6 +20,8 @@ roles:
 - administrator
 products: 
 - m365
+- office-365
+- office-teams
 modules:
 - learn-m365.m365-teams-upgrade-getting-started
 - learn-m365.m365-teams-upgrade-plan-upgrade
