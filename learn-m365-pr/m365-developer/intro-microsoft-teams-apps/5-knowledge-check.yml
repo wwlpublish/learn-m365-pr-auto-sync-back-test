@@ -1,0 +1,49 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.intro.microsoft.teams.apps.5-knowledge-check
+metadata:
+  title: Knowledge check
+  description: Check your knowledge.
+  ms.date: 10/01/2019
+  author: clearab
+  ms.author: anclear
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Knowledge check
+durationInMinutes: 10
+content: |
+quiz:
+  title: Check your knowledge
+  questions:
+  - content: "Suppose you have a system that contains sales contacts, and your sales team regularly needs to search for contacts, share them with the team, and have a conversation about them. What Microsoft Teams extensibility point would be most suited to facilitate this process?"
+    choices:
+    - content: "A conversational bot in a channel."
+      isCorrect: false
+      explanation: "The conversation with the bot would not be relevant to the entire channel, only the result of the conversation."
+    - content: "A messaging extension with a search command."
+      isCorrect: true
+      explanation: "This is a good scenario for a messaging extension with a search command."      
+    - content: "A personal app with a tab."
+      isCorrect: false
+      explanation: "A personal app would not provide a good way to share the results of the search, or have a conversation around them."
+  - content: "Which of the following is NOT part of your Microsoft Teams app package?"
+    choices:
+    - content: "Your app icons."
+      isCorrect: false
+      explanation: "This is part of your app package."
+    - content: "HTML formatted app description."
+      isCorrect: true
+      explanation: "Metadata for your app is included in your app manifest, in JSON format."
+    - content: "Your app manifest file."
+      isCorrect: false
+      explanation: "This is part of your app package. It contains the metadata for your app, the extensibility points your app uses, and pointers to your web services."
+  - content: "If your app is for a particular company, which distribution model should you choose?"
+    choices:
+    - content: "Publish your app to the public app store."
+      isCorrect: false
+      explanation: "You should only submit your app for publication to the public app store if you believe it is relevant for all Teams users everywhere."
+    - content: "Distribute your app package for users to install directly."
+      isCorrect: false
+      explanation: "Although technically possible, this would be a very inefficient method of distribution for an entire organization."      
+    - content: "Publish to the organizational app catalog."
+      isCorrect: true
+      explanation: "Apps in an organization app catalog can be installed by any user in that company with the correct permissions."
