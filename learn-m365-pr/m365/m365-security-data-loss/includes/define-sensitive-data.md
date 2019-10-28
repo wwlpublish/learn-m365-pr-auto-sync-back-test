@@ -38,6 +38,6 @@ The following use case illustrates the lifecycle of a document.
 
 Where could you use Data Loss Prevention (DLP) in this scenario?
 
-- Use Azure Information Protection to configure an Exchange transport rule that applies RMS protection to email messages containing bank account information or Social Security numbers. 
-- Configure a Cloud App Security DLP rule that detects confidential Office documents that are shared on OneDrive for Business or SharePoint Online and remove any external sharing classification.
+- Use Office 365 DLP policies to block the sending of emails that contains bank account information or Social Security numbers, or optionally apply encryption automatically to the messages.
+- Use Microsoft Cloud App Security to block the upload, download or sharing of sensitive information that resides in a cloud repository
 - Consider applying RMS on the SharePoint library hosting the documents.

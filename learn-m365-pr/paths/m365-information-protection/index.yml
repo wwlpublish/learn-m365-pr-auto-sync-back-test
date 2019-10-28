@@ -19,6 +19,7 @@ roles:
 - administrator
 products: 
 - m365
+- office-365
 modules:
 - learn-m365.m365-security-info-overview
 - learn-m365.m365-security-digital-estate

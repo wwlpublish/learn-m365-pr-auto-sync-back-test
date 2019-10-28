@@ -6,7 +6,7 @@ There are four key areas for preventing data loss and managing the data lifecycl
 
 **Detect/Discover.** Identify the data you want to protect. To detect sensitive data, you can use a content scan, such as Azure Information Protection Scanner, and define data through data classification.
 
-**Protection.** Consider other protection solutions besides Azure Information Protection (AIP) and Azure DLP. These could include Azure Rights Management (RMS), Office 365 DLP, Cloud App Security, and other third-party solutions. 
+**Protection.** Consider the range of DLP enforcement actions you can apply to documents and emails containing sensitive information, such as block sending, block sharing, warning end-users or auditing activity. 
 
 **Visibility.** Protect sensitive data while keeping its visibility for appropriate uses such as:
 
