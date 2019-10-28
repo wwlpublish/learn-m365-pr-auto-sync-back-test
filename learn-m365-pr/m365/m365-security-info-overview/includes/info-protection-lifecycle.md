@@ -8,11 +8,11 @@ Let’s look at the journey of a file and discuss how Microsoft technologies can
 
 **User edits the file**
 
-- Based on the content being created or modified in the file, the label can be updated based on the sensitivity of the content, ensuring the right protection is applied to the file.
+- The label is updated based on the user's changes and the content's sensitivity. This ensure the file has the right protection.
 
 **User shares the file with another user in the organization**
 
-- As an additional layer of protection, Data Loss Prevention policies in Office 365 helps prevent the accidental or inadvertent sharing of sensitive documents and emails.
+- As an additional layer of protection, Data Loss Prevention (DLP) policies in Office 365 help prevent the accidental or inadvertent sharing of sensitive documents and emails.
 
 **User opens the file on their phone**
 

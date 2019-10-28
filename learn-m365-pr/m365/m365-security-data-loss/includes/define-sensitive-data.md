@@ -1,4 +1,4 @@
-You should create use cases, scenarios, and end-user personas about all the different types of data in your organization. Interview other departments to understand what data they consider important and how they currently protect it.
+You should create use cases, scenarios, and end-user personas for all the different types of data in your organization. Interview other departments to understand what data they consider important and how they currently protect it.
 
 When creating use cases, consider providing examples for each of these questions.
 

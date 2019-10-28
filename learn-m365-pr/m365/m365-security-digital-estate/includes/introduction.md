@@ -1,4 +1,4 @@
-Most modern organizations have some form of digital estate. A digital estate is a collection of tangible owned assets such as virtual machines, servers, applications, data, and so on. Essentially, a digital estate includes IT assets that power business processes and operations.
+Most modern organizations have some form of digital estate. A digital estate is a collection of tangible owned assets such as virtual machines, servers, applications, data, and so on. Essentially, a digital estate includes the IT assets that power business processes and operations.
 
 In many organizations, IT no longer has control of all aspects of its digital estate. Any number of vulnerabilities can pose a risk to the overall estate because IT can no longer draw perimeters around the organization. 
 

@@ -12,7 +12,7 @@ title: Protect enterprise information with Microsoft 365
 summary: Protecting and securing your organization's information is more challenging than ever. The Microsoft 365 Security Information Protection learning path discusses how to protect your sensitive information from accidental oversharing or misuse, how to discover and classify data, how to protect it with sensitivity labels, and how to both monitor and analyze your sensitive information to protect against its loss.
 prerequisites: | 
  - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
-iconUrl: /learn/achievements/protect-your-enterprise-information-with-microsoft-365.svg
+iconUrl: /learn/achievements/protect-enterprise-information-microsoft-365.svg
 levels: 
 - intermediate
 roles:
