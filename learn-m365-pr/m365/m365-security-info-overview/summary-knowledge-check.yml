@@ -9,27 +9,23 @@ metadata:
   ms.author: v-jolev
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-  ROBOTS: NOINDEX
 durationInMinutes: 2
 content: |
   [!include[](includes/summary-knowledge-check.md)]
 quiz:
     title: Check your knowledge
     questions:
-    - content: "The Azure Information Protection (AIP) client can enforce information protection:"
+    - content: "Sensitivity labeling in Office apps can enforce information protection:"
       choices:
-      - content: "Only if the file was originally created in SharePoint Online"
+      - content: "Only if the file was originally created in SharePoint Online."
         isCorrect: false
-        explanation: "AIP can enforce information protection regardless of where the file was created, including SharePoint Online"
-      - content: "If the file was created through Azure Information Protection Document Classifier"
-        isCorrect: false
-        explanation: "Azure Information Protection Document Classifier does not exist"
-      - content: "If the file was created anywhere"
+        explanation: "Sensitivity labels are enforced in all Office apps."
+      - content: "If the file was created in an Office app."
         isCorrect: true
-        explanation: "Correct. AIP can enforce information protection regardless of where the file was created based on the labels attached to the data."
-      - content: "If the file was tagged by Azure Information Protection Scanner"
+        explanation: "Correct. Sensitivity labels are enforced in all Office apps."
+      - content: "If the file was created anywhere"
         isCorrect: false
-        explanation: "AIP Scanner identifies documents that may require application of sensitivity labels or classification."
+        explanation: "Sensitivity labels aren't universally enforced in non-Office apps."
 
     - content: "Which of the following Microsoft solutions enforces data protection when the file is opened on a mobile device?"
       choices:

@@ -4,12 +4,11 @@ title: Introduction to the digital estate
 metadata:
   title: Introduction to the digital estate
   description: Overview of the data protection challenges posed by the modern digital estate. 
-  ms.date: 09/25/2019
+  ms.date: 10/28/2019
   author: puffinanda
   ms.author: v-jolev
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-  ROBOTS: NOINDEX
 durationInMinutes: 1
 content: |
   [!include[](includes/introduction.md)]

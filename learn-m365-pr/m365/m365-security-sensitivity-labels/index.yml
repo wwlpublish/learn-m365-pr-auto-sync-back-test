@@ -18,7 +18,7 @@ abstract: |
 
 prerequisites: | 
  - Basic understanding of Microsoft 365. If you are unfamiliar with Microsoft 365, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/generic-badge.svg
 ratingEnabled: true
 levels:
 - intermediate
@@ -26,6 +26,7 @@ roles:
 - administrator
 products:
 - m365
+- office-365
 units:
 - learn-m365.m365-security-sensitivity-labels.introduction
 - learn-m365.m365-security-sensitivity-labels.use-sensitivity-labels

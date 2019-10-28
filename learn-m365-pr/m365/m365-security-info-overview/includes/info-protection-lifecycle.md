@@ -8,11 +8,11 @@ Let’s look at the journey of a file and discuss how Microsoft technologies can
 
 **User edits the file**
 
-- If users open and edit the file in Office, Windows Information Protection helps protect the data according to the labels applied.
+- The label is updated based on the user's changes and the content's sensitivity. This ensure the file has the right protection.
 
 **User shares the file with another user in the organization**
 
-- If users share the data through Office 365, Data Loss Prevention (DLP) policies ensure that users handle the labeled data appropriately and according to policy.
+- As an additional layer of protection, Data Loss Prevention (DLP) policies in Office 365 help prevent the accidental or inadvertent sharing of sensitive documents and emails.
 
 **User opens the file on their phone**
 
