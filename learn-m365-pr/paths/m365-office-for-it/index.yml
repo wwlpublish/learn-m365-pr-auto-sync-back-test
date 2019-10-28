@@ -1,11 +1,11 @@
 ### YamlMime:LearningPath
-uid: learn-m365-office
+uid: learn-m365-office.m365-office-for-it
 metadata:
   title: Upgrade Microsoft Office for IT at scale
   description: Learn how to move from a previous version of Microsoft Office to a newer version in your enterprise environment. Use System Center Configuration Manager to roll out the upgrade at scale, saving you time and effort upgrading individual systems.
-  ms.date: 10/16/2019
-  author: lizap
-  ms.author: elizapo
+  ms.date: 10/28/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Upgrade Microsoft Office for IT at scale
@@ -20,6 +20,8 @@ roles:
 - administrator
 products: 
 - m365
+- office
+- office-365
 modules:
 - learn-m365-office.m365-office-it-overview
 - learn-m365.m365-office-it-prepare
