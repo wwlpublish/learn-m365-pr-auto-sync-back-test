@@ -8,7 +8,7 @@ Apps built on the Microsoft Teams Platform consist of three primary pieces.
 
 * **The Microsoft Teams client** provides the extensions points and UI elements your app will use to engage your users.
 
-* **Your Teams App Package** is the package that is installed in Microsoft Teams. It contains a small icon, a large icon, and a manifest JSON file. The manifest file contains the metadata for your app (like the name of the app, the developers name etc.), which extensibility points your app uses (like tabs and messaging extensions), and pointers to your web services that power your app (like the Id for you bot, or your tab's URL).
+* **Your Teams App Package** is the package that is installed in Microsoft Teams. It contains a small icon, a large icon, and a manifest JSON file. The manifest file contains the metadata for your app (like the name of the app, the developers name etc.), which extensibility points your app uses (like tabs and messaging extensions), and pointers to your web services that power your app (like the ID for you bot, or your tab's URL).
 
 * **Your web services** hosted by you providing the APIs and logic that power your app.
 
@@ -56,7 +56,7 @@ There are three ways your app can help users create better messages:
 
 * **Messaging Extension - action commands** present your user with a modal form (a task module), submit the results of the form to your app, then either insert a message into the conversation directly, or create part of a message the user can edit before sending to the conversation.
 
-## User Interface (UI) elements
+## User interface (UI) elements
 
 In addition to extensibility points, the Microsoft Teams Platform provides flexible UI elements for apps to take advantage of. These elements allow you to create rich experiences that feel native to the Teams client.
 

@@ -12,7 +12,7 @@ title: Introduction to building apps for Microsoft Teams
 summary: Microsoft Teams is an extensible platform you can build custom apps on. Understand what is possible with a Microsoft Teams custom app, and determine if it is right for you.
 abstract: |
   At the end of this module, you should be able to:
-  - Describe the components of a Mircosoft Teams app
+  - Describe the components of a Microsoft Teams app
   - List the options for distributing a Microsoft Teams app
   - List the extensibility points available in Microsoft Teams
   - Choose the correct extensibility point(s) based on your scenario
