@@ -8,3 +8,4 @@ When you're done with a link, use the **Back** arrow in your browser to come bac
 
 - [Welcome to Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-overview)
 - [Getting started with your Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here)
+- [Teams upgrade planning workshops](https://docs.microsoft.com/MicrosoftTeams/upgrade-workshops-landing-page)
