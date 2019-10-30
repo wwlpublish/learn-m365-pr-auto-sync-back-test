@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-security-management-secure-score.how-secure-score-works
+title: Understand how Microsoft Secure Score works
+metadata:
+  title: Understand how Microsoft Secure Score works
+  description: Description goes here 
+  ms.date: 10/14/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 2
+content: |
+  [!include[](includes/how-secure-score-works.md)]

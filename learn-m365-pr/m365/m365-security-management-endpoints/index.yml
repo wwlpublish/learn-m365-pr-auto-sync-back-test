@@ -1,0 +1,34 @@
+### YamlMime:Module
+uid: learn-m365.m365-security-management-endpoints
+metadata:
+  title: Secure Windows 10 endpoints
+  description: Learn how to mitigate end-point threats by using Windows 10 security features.
+  ms.date: 10/14/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Secure Windows 10 endpoints  
+summary: Learn how to mitigate end-point threats by using Windows 10 security features.
+abstract: |
+  In this module, you'll learn how to:
+  - Describe the Windows 10 endpoint security features available
+  - Define attack surface reduction for Windows 10 endpoints
+  - Explain how Windows Defender Antivirus stops suspicious behaviors
+prerequisites: | 
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+iconUrl: /learn/achievements/generic-badge.svg
+ratingEnabled: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+units:
+- learn-m365.m365-security-management-endpoints.introduction
+- learn-m365.m365-security-management-endpoints.attack-surface-reduction
+- learn-m365.m365-security-management-endpoints.next-gen-protection
+- learn-m365.m365-security-management-endpoints.summary-knowledge-check
+badge: 
+  uid: learn-m365.m365-security-management-endpoints.badges
