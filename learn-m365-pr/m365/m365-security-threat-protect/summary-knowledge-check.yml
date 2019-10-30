@@ -1,0 +1,62 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-security-threat-protect.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Review what you've learned about the threat protection capabilities included in Microsoft 365.
+  ms.date: 10/14/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Which of the following best describes the Microsoft Defender ATP agent?"
+      choices:
+      - content: "The sensors are embedded into Windows 10 so the agent does not need to be deployed."
+        isCorrect: true
+        explanation: "Correct! Microsoft ATP behavioral sensors are embedded in Windows 10."
+      - content: "The agent should be deployed to any Windows 10 device not managed by Microsoft Intune."
+        isCorrect: false
+        explanation: "The agent does not need to be deployed to Windows 10 devices regardless of whether they’re Intune managed or not."
+      - content: "The agent should be deployed to all Windows 10 devices."
+        isCorrect: false
+        explanation: "The agent does not need to be deployed to Windows 10 devices."
+      - content: "The sensors are embedded into Windows 10 so only the enablement agent needs to be deployed to Windows 10 devices."
+        isCorrect: false
+        explanation: "The Microsoft ATP behavioral sensors are embedded into Windows 10, there is no enablement agent."
+
+    - content: "Which of the following best describes the benefits of Cloud App Security?"
+      choices:
+      - content: "It provides visibility and control over data travel along with sophisticated analytics to help you identify and combat cyberthreats across all your Microsoft and third-party cloud services."
+        isCorrect: true
+        explanation: "Correct! Cloud App Security allows organizations to benefit from cloud apps and services while providing IT the ability to maintain control and protect data."
+      - content: "It is a cloud-based email filtering service that helps protect your organization against unknown malware and viruses by providing robust zero-day protection."
+        isCorrect: false
+        explanation: "These are the services available as part of Office 365 ATP."
+      - content: "It provides built-in remediation processes through Microsoft Intune and Microsoft System Center Configuration Manager."
+        isCorrect: false
+        explanation: "This is an explanation of next-generation capabilities of Microsoft Defender ATP."
+      - content: "It allows you to easily view the security health of your organization, act to configure devices, users, and apps, and get alerts for suspicious activity."
+        isCorrect: false
+        explanation: "These are the services available through the Microsoft 365 security center."
+      
+    - content: "Which of the following is not a component of the Cloud App Security framework?"
+      choices:
+      - content: "Discovery and control the use of Shadow IT"
+        isCorrect: false
+        explanation: "Discovery and control of the use of Shadow IT is a component of the Cloud App Security framework."
+      - content: "Protection of sensitive information anywhere in the cloud"
+        isCorrect: false
+        explanation: "Protection of organization’s sensitive information anywhere in the cloud is a component of the Cloud App Security framework."
+      - content: "Protection against cyberthreats and anomalies"
+        isCorrect: false
+        explanation: "Protection against cyberthreats and anomalies is a component of the Cloud App Security framework."
+      - content: "Enforced malware scans on devices"
+        isCorrect: true
+        explanation: "Correct! Malware scanning on devices is not a component of the Cloud App Security framework."
+      
