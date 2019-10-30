@@ -1,4 +1,4 @@
-This exercise will demonstrate the different account types that are used within the Microsoft Identity platform.
+This exercise will demonstrate the different account types that are used within the Microsoft identity platform.
 
 > [!NOTE]
 > This exercise demonstrates signing into a web application using two different accounts. These two accounts will come from two organizations, one of them being the organization where the Azure AD application is registered. Therefore, in order to complete the exercise, you'll need access to two user accounts in different Azure AD directories.
