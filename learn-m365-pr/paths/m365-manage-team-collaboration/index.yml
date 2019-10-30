@@ -18,6 +18,7 @@ roles:
 - administrator
 products: 
 - m365
+- office-teams
 modules:
 - learn-m365.m365-teams-collab-prepare-deployment
 - learn-m365.m365-teams-collab-deploy-clients

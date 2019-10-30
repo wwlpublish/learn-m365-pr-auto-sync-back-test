@@ -1,0 +1,59 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-office-it-prepare.summary-and-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Review what you've learned about preparing to roll out Office upgrades at scale.
+  ms.date: 10/21/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 1
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "True or false: Click-to-Run packages of Office use subscription-based activation, while MSI packages use device-based perpetual activation."
+      choices:
+      - content: "True"
+        isCorrect: false
+        explanation: "Incorrect. The packaging method isn't related to activation. When Click-to-Run went mainstream in Office 2013, all consumer editions used Click-to-Run packaging and also used perpetual activation. The distinction for subscription-based or perpetual activation is made based on whether the Office edition is part of Office 365 or not."
+      - content: "False"
+        isCorrect: true
+        explanation: "Correct. The packaging method isn't related to activation. When Click-to-Run went mainstream in Office 2013, all consumer editions used Click-to-Run packaging and also used perpetual activation. The distinction for subscription-based or perpetual activation is made based on whether the Office edition is part of Office 365 or not."
+    - content: "Which of the following most closely resembles the Office 'Insider' servicing channel for Office 365 ProPlus?"
+      choices:
+      - content: "Monthly channel"
+        isCorrect: false
+        explanation: "Monthly channel is a fully supported release of Office and can contain new features along with security and bug fixes."
+      - content: "Monthly channel (targeted)"
+        isCorrect: true
+        explanation: "Correct. Monthly channel (targeted) is the channel with the most frequent releases that contains new features, but is not officially supported for production use. This channel was previously referred to as ‘Insider Slow.’"
+      - content: "Semi-annual channel"
+        isCorrect: false
+        explanation: "No. Semi-annual channel is a fully supported release of Office and can contain new features along with security and bug fixes. As the name implies, these updates are released twice per year. Each semi-annual channel release is supported 18 months with regular updates containing security and bug fixes."
+      - content: "Semi-annual channel (targeted)"
+        isCorrect: false
+        explanation: "No. Semi-annual channel (targeted) is a pre-release channel for semi-annual channel to test and validate prior to release."
+    - content: "True or false: Microsoft recommends using automatic updates from the monthly channel for general purpose devices with Office 365 ProPlus installed."
+      choices:
+      - content: "True"
+        isCorrect: true
+        explanation: "Correct. General purpose devices with limited customization or Office COM add-ins installed are the best candidates for automatic updating using the monthly channel and the Office 365 CDN. This will ensure devices receive the latest features and security updates. It is recommended to pair automatic updates with Delivery Optimization in Windows 10 to reduce consumed Internet bandwidth for updates."
+      - content: "False"
+        isCorrect: false
+        explanation: "Incorrect. General purpose devices with limited customization or Office COM add-ins installed are the best candidates for automatic updating using the monthly channel and the Office 365 CDN. This will ensure devices receive the latest features and security updates. It is recommended to pair automatic updates with Delivery Optimization in Windows 10 to reduce consumed Internet bandwidth for updates."
+    - content: "Which of the following tools should you use to discover and assess the compatibility of VBA macros in Office?"
+      choices:
+      - content: "System Center Configuration Manager hardware inventory"
+        isCorrect: false
+        explanation: "Incorrect. Configuration Manager hardware inventory can be configured to collect an inventory of COM add-ins and devices that have recently run VBA macros, but not files containing VBA macros themselves."
+      - content: "Readiness Toolkit for Office add-ins and VBA"
+        isCorrect: true
+        explanation: "Correct. The Readiness Toolkit for Office add-ins and VBA will discover files containing VBA macros and help assess prioritization and compatibility. This toolkit can be used with Configuration Manager or standalone."
+      - content: "Desktop Analytics"
+        isCorrect: false
+        explanation: "Incorrect. Desktop Analytics does not discover or assess compatibility of VBA macros."
