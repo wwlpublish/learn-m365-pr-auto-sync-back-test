@@ -16,6 +16,7 @@ abstract: |
   - Explain how the threat landscape is evolving and attackers are adapting
   - Articulate the Microsoft Graph and the security API
 prerequisites: | 
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
 iconUrl: /learn/achievements/introduction-to-threat-protection.svg
 ratingEnabled: true
 levels:

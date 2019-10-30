@@ -3,13 +3,12 @@ uid: learn-m365.m365-security-threat-train.summary-knowledge-check
 title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
-  description: Description goes here 
+  description: Review what you've learned about the Microsoft security principles.
   ms.date: 10/14/2019
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-  ROBOTS: NOINDEX
 durationInMinutes: 5
 content: |
   [!include[](includes/summary-knowledge-check.md)]

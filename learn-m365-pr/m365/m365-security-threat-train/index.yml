@@ -17,6 +17,7 @@ abstract: |
   - Develop simulated attacks to train your security administrators and operations teams.
 
 prerequisites: | 
+ - Basic understanding of Microsoft 365. If you're unfamiliar with this, you can take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
 iconUrl: /learn/achievements/train-the-defenders.svg
 ratingEnabled: true
 levels:
