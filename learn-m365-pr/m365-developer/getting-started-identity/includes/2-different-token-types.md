@@ -1,6 +1,6 @@
-This unit will first provide an overview of Microsoft Identity. It will then cover the different types of tokens that are used within the Microsoft Identity platform.
+This unit will first provide an overview of Microsoft identity. It will then cover the different types of tokens that are used within the Microsoft identity platform.
 
-## Overview of Microsoft Identity
+## Overview of Microsoft identity
 
 In today's world, physically protected networks aren't as common as they once were. Even your on-premises networks aren’t as secure as you think they are. The configuration of today's networks are driven by the needs of users and business that has changed over time.
 
@@ -36,17 +36,17 @@ A problem you need to address is how will all these users access their resources
 
 How do you make sure that your application follows the right policies? Each enterprise will have a different point of view on what the policy should be
 
-This is where identity platform is here to help. The goal of Microsoft Identity is to make it easy for you, to address the largest number of users, and the most valuable amount of information in a secure way that satisfies the policies of those enterprises.
+This is where identity platform is here to help. The goal of Microsoft identity is to make it easy for you, to address the largest number of users, and the most valuable amount of information in a secure way that satisfies the policies of those enterprises.
 
-Let's look at how Microsoft Identity approaches users, resources, and policies.
+Let's look at how Microsoft identity approaches users, resources, and policies.
 
 ### Users: Azure AD, B2B & B2C
 
-Microsoft Identity includes three solutions for addressing the largest number of users.
+Microsoft identity includes three solutions for addressing the largest number of users.
 
 All customers of Office 365 and Microsoft Azure use Azure Active Directory (Azure AD). This covers over 20 million organizations with more than 1.2 billion identities.
 
-Microsoft Identity offers two additional solutions for partners and customers.
+Microsoft identity offers two additional solutions for partners and customers.
 
 Azure AD business to business (B2B) enables an organization in Azure AD to securely share files and resources with another organization in Azure AD.
 
@@ -56,21 +56,21 @@ Azure AD Business to Customer (B2C) enables an organization to provide customer-
 
 ![Screenshot of Microsoft Graph as the gateway to your data](../media/02-slide-04.png)
 
-Microsoft Graph is the gateway to all your data in the Microsoft Cloud. From Office 365, Enterprise Mobility + Security to Windows 10, Microsoft Graph enables developers to build applications that provide users access to their data. Developers and users can access their data with Microsoft Graph by authenticating and authorizing users with Microsoft Identity.
+Microsoft Graph is the gateway to all your data in the Microsoft Cloud. From Office 365, Enterprise Mobility + Security to Windows 10, Microsoft Graph enables developers to build applications that provide users access to their data. Developers and users can access their data with Microsoft Graph by authenticating and authorizing users with Microsoft identity.
 
 ### Policies
 
-The third element of Microsoft Identity is policies. Policies have become complicated with users accessing resources from different networks and devices. The threat matrix depending on how a user is accessing a resource is complex. Various combinations of different users using different devices pose different risks to the organization.
+The third element of Microsoft identity is policies. Policies have become complicated with users accessing resources from different networks and devices. The threat matrix depending on how a user is accessing a resource is complex. Various combinations of different users using different devices pose different risks to the organization.
 
-Microsoft Identity is built to support this complex and dynamic threat matrix. One policy can be applied when a user is on a trusted corporate network using their company issued laptop, while another policy can apply to the same user when they access the same resource from home on their personal tablet.
+Microsoft identity is built to support this complex and dynamic threat matrix. One policy can be applied when a user is on a trusted corporate network using their company issued laptop, while another policy can apply to the same user when they access the same resource from home on their personal tablet.
 
-By relaying on Microsoft Identity to handle these complex policies, you don't have to implement the complex logic in your custom applications.
+By relaying on Microsoft identity to handle these complex policies, you don't have to implement the complex logic in your custom applications.
 
-So far, we've looked at what Microsoft Identity is from a high level. As a developer, when you build an application, you will ultimately request tokens from Microsoft Identity to identify a user and authorize them to use an application with specific permissions. Let's look at the different tokens you will use.
+So far, we've looked at what Microsoft identity is from a high level. As a developer, when you build an application, you will ultimately request tokens from Microsoft identity to identify a user and authorize them to use an application with specific permissions. Let's look at the different tokens you will use.
 
 ## OpenID Connect and ID token
 
-The first type of token is an ID token that is made available via Microsoft Identity's support of the OpenID Connect protocol.
+The first type of token is an ID token that is made available via Microsoft identity's support of the OpenID Connect protocol.
 
 ### What is OpenID Connect
 
@@ -87,7 +87,7 @@ ID tokens for a Microsoft identity are JSON web tokens (JWT). These ID tokens co
 
 ### How do you obtain an ID token
 
-It is important for developers, whenever possible, to use a well-maintained Open ID Connect library. While Microsoft Identity is built on open standards like OAuth2 and Open ID Connect, fully implementing these protocols is time consuming and complicated. It is also required that any implementation of these standards be kept up-to-date with the latest recommendations to ensure the implementation is as secure as possible. ​
+It is important for developers, whenever possible, to use a well-maintained Open ID Connect library. While Microsoft identity is built on open standards like OAuth2 and Open ID Connect, fully implementing these protocols is time consuming and complicated. It is also required that any implementation of these standards be kept up-to-date with the latest recommendations to ensure the implementation is as secure as possible. ​
 
 When your web app needs to authenticate the user, it can direct the user to the Microsoft identity platform /authorize endpoint using an Open ID Connect library. ​
 
@@ -97,7 +97,7 @@ After the user authenticates and grants consent, the Microsoft identity platform
 
 ## Access tokens
 
-Many web apps need to not only sign the user in, but also to access a web service on behalf of the user by using OAuth. Applications request access tokens from Microsoft Identity to use when calling a web service. ​
+Many web apps need to not only sign the user in, but also to access a web service on behalf of the user by using OAuth. Applications request access tokens from Microsoft identity to use when calling a web service. ​
 
 *Access tokens* enable clients to securely call APIs protected by Azure AD. Applications should never inspect or validate an access token. Access tokens must only be passed to the API.
 
@@ -121,4 +121,4 @@ These app-only tokens indicate that this call is coming from an application and 
 
 ## Summary
 
-After an overview of Microsoft Identity, in this unit you learned about the different types of tokens that are used within the Microsoft Identity platform.
+After an overview of Microsoft identity, in this unit you learned about the different types of tokens that are used within the Microsoft identity platform.

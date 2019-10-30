@@ -1,14 +1,14 @@
-This unit will cover the different topology options available to developers that are supported by the Microsoft Identity platform. These topologies include consumers, enterprises, Business to Business and Business to Customer.
+This unit will cover the different topology options available to developers that are supported by the Microsoft identity platform. These topologies include consumers, enterprises, Business to Business and Business to Customer.
 
 ## Consumer
 
 Consumers refer to Microsoft Accounts that are created by users for personal use. The Microsoft Account is the combination of an email address and a password that a user uses to sign in to all consumer-oriented Microsoft products and cloud services such as Outlook, OneDrive, MSN, or Xbox LIVE.​
 
-The Microsoft Identity platform enables developers to create applications that allow users to sign-in using either a Microsoft Account (Personal Account) or a Work or School Account (an Azure AD identity).​
+The Microsoft identity platform enables developers to create applications that allow users to sign-in using either a Microsoft Account (Personal Account) or a Work or School Account (an Azure AD identity).​
 
 While there are many similarities between Microsoft Accounts and Azure AD accounts, Microsoft Accounts are primarily for personal or consumer services. Some small business will also use consumer accounts and consumer services like email and OneDrive. Some similarities between the topologies include account and password management, support multi-factor authentication, and password less authentication. Unlike Microsoft Accounts, Azure AD accounts have additional security-related features that are available in enterprise scenarios.​
 
-As an app developer, you can use Microsoft Account as a standards-based approach for adding single sign-on (SSO) to your app, allowing it to work with a user's pre-existing credentials. Microsoft Identity also provides APIs that can help you build personalized app experiences using the users personal Office 365 resources.​
+As an app developer, you can use Microsoft Account as a standards-based approach for adding single sign-on (SSO) to your app, allowing it to work with a user's pre-existing credentials. Microsoft identity also provides APIs that can help you build personalized app experiences using the users personal Office 365 resources.​
 
 ## Enterprises
 

@@ -23,7 +23,7 @@ quiz:
     - content: "Azure AD Business to Business (B2B)"
       isCorrect: true
       explanation: "Correct, this option expects both organizations in a B2B relationship to have their own identity platform."
-    - content: "Azure AD Business to Consumer (B2C)"
+    - content: "Azure AD Business to Customer (B2C)"
       isCorrect: false
       explanation: "Azure AD B2C supports user sign-in with their social or consumer identities, including a Microsoft Account."
   - content: "How do Azure AD B2B and B2C differ?"
