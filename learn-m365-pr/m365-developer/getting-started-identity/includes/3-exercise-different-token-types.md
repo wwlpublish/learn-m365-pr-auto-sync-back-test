@@ -49,7 +49,7 @@ Create a new folder **web** in the current folder and add a new file **index.htm
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Getting Started with Microsoft Identity</title>
+  <title>Getting Started with Microsoft identity</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.5.5/bluebird.min.js"></script>
   <script src="https://alcdn.msftauth.net/lib/1.1.3/js/msal.min.js"></script>
 </head>
@@ -150,7 +150,7 @@ function updateUserInterface() {
 }
 ```
 
-Next, add the following functions to **index.html** immediately before the `// TODO: add FUNCTIONS before this line` comment. These functions request an access token from Microsoft Identity and submit a request to Microsoft Graph for the current user's information. The function `acquireTokenPopupAndGetUser()` uses the popup approach that works for all modern browsers while the `acquireTokenRedirectAndGetUserFromMSGraph()` function uses the redirect approach that is suitable for Internet Explorer:
+Next, add the following functions to **index.html** immediately before the `// TODO: add FUNCTIONS before this line` comment. These functions request an access token from Microsoft identity and submit a request to Microsoft Graph for the current user's information. The function `acquireTokenPopupAndGetUser()` uses the popup approach that works for all modern browsers while the `acquireTokenRedirectAndGetUserFromMSGraph()` function uses the redirect approach that is suitable for Internet Explorer:
 
 ```js
 function acquireTokenPopupAndGetUser() {

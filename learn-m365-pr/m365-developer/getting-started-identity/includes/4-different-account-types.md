@@ -1,6 +1,6 @@
-This unit will cover the different account types that are used within the Microsoft Identity platform. You'll also learn about the differences and relationships between applications and service principals.
+This unit will cover the different account types that are used within the Microsoft identity platform. You'll also learn about the differences and relationships between applications and service principals.
 
-Developers that leverage the Microsoft Identity platform within custom apps begin with registering an application in Azure AD. It doesn’t matter if the app runs on a mobile device, in the cloud, or what cloud provider it runs. The app can even be a PowerShell script. The Azure AD application is the control point for how you access the identity and the information it protects.
+Developers that leverage the Microsoft identity platform within custom apps begin with registering an application in Azure AD. It doesn’t matter if the app runs on a mobile device, in the cloud, or what cloud provider it runs. The app can even be a PowerShell script. The Azure AD application is the control point for how you access the identity and the information it protects.
 
 You as the developer have a number of choices to make and the choices you make are driven by the requirements for your application. Developers have to decide:
 
@@ -9,9 +9,9 @@ You as the developer have a number of choices to make and the choices you make a
 - what resources are required by the app, and when are they needed
 - when should the app ask the user for permissions to a resource
 
-The first decision is: are you going to trust the Microsoft Identity platform? Once you have made the decision to trust the Microsoft Identity platform, the next step is to register an application with Azure AD. A key part of creating an Azure AD application is what are the permissions the app requires.
+The first decision is: are you going to trust the Microsoft identity platform? Once you have made the decision to trust the Microsoft identity platform, the next step is to register an application with Azure AD. A key part of creating an Azure AD application is what are the permissions the app requires.
 
-Another key decision you'll make when registering the app is what type of accounts will it support? The Microsoft Identity platform supports the following types of accounts:
+Another key decision you'll make when registering the app is what type of accounts will it support? The Microsoft identity platform supports the following types of accounts:
 
 - single organization
 - multiple organizations
@@ -74,4 +74,4 @@ Multi-tenant web applications or APIs also has a service principal created in ea
 
 ## Summary
 
-In this unit, you learned about the different account types that are used within the Microsoft Identity platform. You also learned about the differences and relationships between applications and service principals.
+In this unit, you learned about the different account types that are used within the Microsoft identity platform. You also learned about the differences and relationships between applications and service principals.
