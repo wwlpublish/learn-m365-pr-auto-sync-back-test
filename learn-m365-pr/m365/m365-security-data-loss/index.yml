@@ -1,0 +1,37 @@
+### YamlMime:Module
+uid: learn-m365.m365-security-data-loss
+metadata:
+  title: Prevent data loss
+  description: Learn how information protection helps organizations protect data to prevent data loss or theft.
+  ms.date: 10/28/2019
+  author: puffinanda
+  ms.author: v-jolev
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Prevent data loss  
+summary: Learn how information protection helps organizations protect data to prevent data loss or theft.
+abstract: |
+  At the end of this module, you should be able to:
+  - Explain the importance of data loss prevention technologies
+  - Identify the methods of data loss prevention
+  - Assess and define data sensitivity
+  - Apply Microsoft data loss prevention technologies
+
+prerequisites: | 
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+iconUrl: /learn/achievements/generic-badge.svg
+ratingEnabled: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-365
+units:
+- learn-m365.m365-security-data-loss.introduction
+- learn-m365.m365-security-data-loss.define-sensitive-data
+- learn-m365.m365-security-data-loss.data-loss-prevention
+- learn-m365.m365-security-data-loss.summary-knowledge-check
+badge: 
+  uid: learn-m365.m365-security-data-loss.badges

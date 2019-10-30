@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-security-digital-estate.growing-digital-estate
+title: Identify the boundaries in your digital estate
+metadata:
+  title: Identify the boundaries in your digital estate
+  description: Learn how the boundaries of protected data have changed. 
+  ms.date: 09/25/2019
+  author: puffinanda
+  ms.author: v-jolev
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/growing-digital-estate.md)]

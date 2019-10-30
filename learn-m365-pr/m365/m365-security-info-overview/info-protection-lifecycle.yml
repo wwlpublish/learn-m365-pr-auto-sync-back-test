@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-security-info-overview.info-protection-lifecycle
+title: The day in a life of a file – information protection lifecycle
+metadata:
+  title: The day in a life of a file – information protection lifecycle
+  description: Learn how Microsoft information protection technologies protect data from creation to cloud storage.
+  ms.date: 09/23/2019
+  author: puffinanda
+  ms.author: v-jolev
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 2
+content: |
+  [!include[](includes/info-protection-lifecycle.md)]
