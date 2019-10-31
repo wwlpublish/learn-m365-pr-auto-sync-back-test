@@ -3,66 +3,18 @@ uid: learn-m365.m365-security-monitor-sensitive-data.summary-knowledge-check
 title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
-<<<<<<< HEAD
-  description: Description goes here 
-  ms.date: 09/30/2019
-  author: AlexandraHrt
-  ms.author: v-aleha
-  ms.topic: interactive-tutorial
-  ms.prod: learning-m365
-  ROBOTS: NOINDEX
-durationInMinutes: 5
-=======
   description: Check your understanding of the concepts presented in this module.
   ms.date: 09/30/2019
   author: puffinanda
   ms.author: v-jolev
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 2
->>>>>>> bd38edaeadcfbb309dcdae3ff801b7402328a5bc
+durationInMinutes: 5
 content: |
   [!include[](includes/summary-knowledge-check.md)]
 quiz:
     title: Check your knowledge
     questions:
-<<<<<<< HEAD
-    - content: ""
-      choices:
-      - content: ""
-        isCorrect: false
-        explanation: ""
-      - content: ""
-        isCorrect: false
-        explanation: ""
-      - content: ""
-        isCorrect: true
-        explanation: ""
-
-    - content: ""
-      choices:
-      - content: ""
-        isCorrect: false
-        explanation: ""
-      - content: ""
-        isCorrect: false
-        explanation: ""
-      - content: ""
-        isCorrect: true
-        explanation: ""
-      
-    - content: ""
-      choices:
-      - content: ""
-        isCorrect: false
-        explanation: ""
-      - content: ""
-        isCorrect: false
-        explanation: ""
-      - content: ""
-        isCorrect: true
-        explanation: ""
-=======
     - content: "You can access all of the following from the Microsoft 365 security center EXCEPT:"
       choices:
       - content: "Microsoft Secure Score"
@@ -107,5 +59,4 @@ quiz:
       - content: "Microsoft Trust Center"
         isCorrect: false
         explanation: "Microsoft Trust Center displays information relating to security, privacy, transparency, compliance, and other related items."
->>>>>>> bd38edaeadcfbb309dcdae3ff801b7402328a5bc
       

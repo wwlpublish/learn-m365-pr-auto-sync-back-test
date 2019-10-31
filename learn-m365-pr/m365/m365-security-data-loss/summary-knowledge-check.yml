@@ -9,7 +9,7 @@ metadata:
   ms.author: v-jolev
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 2
+durationInMinutes: 5
 content: |
   [!include[](includes/summary-knowledge-check.md)]
 quiz:
@@ -30,7 +30,7 @@ quiz:
         isCorrect: false
         explanation: "Data immunization helps control data leakage by immediate classification, but it cannot prevent compromised data from being stored on the dark web."
 
-    - content: "One of the first steps to prevent data lass involves identifying data that needs protection. What Microsoft tool helps administrators detect and classify documents automatically?"
+    - content: "One of the first steps to prevent data loss involves identifying data that needs protection. What Microsoft tool helps administrators detect and classify documents automatically?"
       choices:
       - content: "Office 365 Data Loss Prevention"
         isCorrect: false

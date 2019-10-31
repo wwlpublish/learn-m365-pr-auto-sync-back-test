@@ -1,21 +1,8 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.m365-security-monitor-sensitive-data.introduction
-<<<<<<< HEAD
-title: Introduction to monitoring sensitive data
+title: Introduction to sensitive data and how to manage it
 metadata:
-  title: Introduction to monitoring sensitive data
-  description: Description goes here 
-  ms.date: 09/30/2019
-  author: AlexandraHrt
-  ms.author: v-aleha
-  ms.topic: interactive-tutorial
-  ms.prod: learning-m365
-  ROBOTS: NOINDEX
-durationInMinutes: 3
-=======
-title: Introduction to sensitive data and how you manage it
-metadata:
-  title: Introduction to sensitive data and how you manage it
+  title: Introduction to sensitive data and how to manage it
   description: Overview of Microsoft 365 tools that help you monitor sensitive data.  
   ms.date: 09/30/2019
   author: puffinanda
@@ -23,6 +10,5 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 1
->>>>>>> bd38edaeadcfbb309dcdae3ff801b7402328a5bc
 content: |
   [!include[](includes/introduction.md)]
