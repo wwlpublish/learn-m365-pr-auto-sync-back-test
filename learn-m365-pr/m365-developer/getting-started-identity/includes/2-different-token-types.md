@@ -64,7 +64,7 @@ The third element of Microsoft identity is policies. Policies have become compli
 
 Microsoft identity is built to support this complex and dynamic threat matrix. One policy can be applied when a user is on a trusted corporate network using their company issued laptop, while another policy can apply to the same user when they access the same resource from home on their personal tablet.
 
-By relaying on Microsoft identity to handle these complex policies, you don't have to implement the complex logic in your custom applications.
+By relying on Microsoft identity to handle these complex policies, you don't have to implement the complex logic in your custom applications.
 
 So far, we've looked at what Microsoft identity is from a high level. As a developer, when you build an application, you will ultimately request tokens from Microsoft identity to identify a user and authorize them to use an application with specific permissions. Let's look at the different tokens you will use.
 
@@ -107,11 +107,11 @@ Access tokens are created based for the audience of the token, meaning the API t
 
 To acquire an access token, use your Open ID Connect/OAuth2 library. For example with MSAL, you always use this pattern. ​
 
-First you acquire the access token silently. If MSAL has a token cached, or can silently refresh a toke, it will do so.  ​
+First you acquire the access token silently. If MSAL has a token cached, or can silently refresh a token, it will do so.  ​
 
 By including permission scopes in the request, the Microsoft identity platform endpoint ensures that the user has consented to the permissions indicated in the scope query parameter. ​
 
-If MSAL cannot acquire the token silently, it will through a UI Required exception. If this happens, the developer should request the access token interactively. This could happen if consent for the permission has not been granted, the user has not yet authenticated, or perhaps the users is using an unmanaged device to access sensitive data from a location where the user has never been before and an MFA is required. ​
+If MSAL cannot acquire the token silently, it will throw a UI Required exception. If this happens, the developer should request the access token interactively. This could happen if consent for the permission has not been granted, the user has not yet authenticated, or perhaps the users is using an unmanaged device to access sensitive data from a location where the user has never been before and an MFA is required. ​
 
 ### Difference between user and application access tokens
 
