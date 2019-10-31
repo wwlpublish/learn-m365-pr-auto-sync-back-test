@@ -3,7 +3,7 @@ uid: learn-m365.m365-security-management-mail
 metadata:
   title: Protect mail with Office 365 Advanced Threat Protection
   description: Learn how Office 365 Advanced Threat Protection (ATP) helps safeguard your organization against unknown malware, viruses, and harmful email links and attachments.
-  ms.date: 10/01/2019
+  ms.date: 10/31/2019
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
@@ -25,6 +25,7 @@ roles:
 - administrator
 products:
 - m365
+- office-365
 units:
 - learn-m365.m365-security-management-mail.introduction
 - learn-m365.m365-security-management-mail.atp-policy-examples
