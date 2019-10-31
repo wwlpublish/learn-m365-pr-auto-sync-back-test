@@ -1,0 +1,15 @@
+﻿### YamlMime:ModuleUnit
+uid: learn-wwl.manage-applications-by-using-microsoft-intune.3-understanding-the-microsoft-intune-application-lifecycle
+title: Understanding the Microsoft Intune application lifecycle
+metadata:
+  title: Understanding the Microsoft Intune application lifecycle
+  description: Learn about the phases of the application lifecycle for Microsoft Intune.
+  ms.date: 09/10/2019
+  author: bneeb
+  ms.author: Bneeb
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX 
+durationInMinutes: 4
+content: |
+  [!include[](includes/3-understanding-the-microsoft-intune-application-lifecycle.md)] 

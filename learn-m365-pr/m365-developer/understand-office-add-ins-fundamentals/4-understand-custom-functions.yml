@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.understand-office-add-ins-fundamentals.4-understand-custom-functions
+metadata:
+  title: Understand Office Add-ins custom functions
+  description: In this unit, you'll learn about custom functions.
+  ms.date: 10/01/2019
+  author: ElizabethSamuel-MSFT
+  ms.author: elizs
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+title: Understand Office Add-ins custom functions
+durationInMinutes: 2
+content: |
+  [!include[](includes/4-understand-custom-functions.md)]

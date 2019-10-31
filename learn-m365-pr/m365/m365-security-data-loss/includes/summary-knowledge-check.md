@@ -1,6 +1,1 @@
-In this module, you learned 
-
-Now that you have completed this module, you should be able to:
-  
-- 
-- 
+With Data Loss Prevention (DLP) policies in place, organizations can readily identify, monitor, and automatically protect sensitive information. You can work with key IT and business stakeholders to develop a DLP framework that helps all departments meet business requirements without burdening end users.

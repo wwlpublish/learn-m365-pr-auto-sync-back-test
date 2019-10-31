@@ -3,13 +3,12 @@ uid: learn-m365.m365-security-sensitivity-labels.define-sensitivity-labels
 title: Define your sensitivity labels
 metadata:
   title: Define your sensitivity labels
-  description: Description goes here 
+  description: Learn how to define sensitivity labels.
   ms.date: 09/23/2019
-  author: AlexandraHrt
-  ms.author: v-aleha
+  author: puffinanda
+  ms.author: v-jolev
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-  ROBOTS: NOINDEX
-durationInMinutes: 3
+durationInMinutes: 1
 content: |
   [!include[](includes/define-sensitivity-labels.md)]

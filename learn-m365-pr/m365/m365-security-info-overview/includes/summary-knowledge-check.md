@@ -1,6 +1,1 @@
-In this module, you learned 
-
-Now that you have completed this module, you should be able to:
-  
-- 
-- 
+It’s critical to protect sensitive files and data as they travel between multiple devices and locations. Microsoft information protection solutions help ensure that wherever the data or file roam, it remains encrypted from end to end with IT governance and oversight.

@@ -1,0 +1,39 @@
+### YamlMime:Module
+uid: learn-m365.m365-teams-sharepoint-file-collaboration
+metadata:
+  title: Collaborate with files and folders in SharePoint
+  description: Discover how sharing files and folders works in SharePoint. Learn how to share files externally. 
+  ms.date: 09/12/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Collaborate with files and folders in SharePoint
+summary: Discover how sharing files and folders works in SharePoint. Learn how to share files externally.   
+abstract: |
+  At the end of this module, you should be able to:
+  - Explain how file collaboration works in SharePoint.
+  - Describe how to share folders and files.
+  - Explain how external sharing works.
+
+prerequisites: | 
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+iconUrl: /learn/achievements/collaborate-with-files-and-folders-in-microsoft-sharepoint.svg
+ratingEnabled: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+units:
+- learn-m365.m365-teams-sharepoint-file-collaboration.introduction
+- learn-m365.m365-teams-sharepoint-file-collaboration.sharing-sites-groups-teams
+- learn-m365.m365-teams-sharepoint-file-collaboration.sharing-files-folders
+- learn-m365.m365-teams-sharepoint-file-collaboration.sharing-guests
+- learn-m365.m365-teams-sharepoint-file-collaboration.how-sharing-works
+- learn-m365.m365-teams-sharepoint-file-collaboration.co-author-office-apps
+- learn-m365.m365-teams-sharepoint-file-collaboration.summary-knowledge-check
+
+badge: 
+  uid: learn-m365.m365-teams-sharepoint-file-collaboration.badges

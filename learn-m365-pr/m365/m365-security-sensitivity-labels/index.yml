@@ -2,21 +2,23 @@
 uid: learn-m365.m365-security-sensitivity-labels
 metadata:
   title: Protect your data with sensitivity labels
-  description: Description goes here
+  description: Learn how to use information protection sensitivity labels to classify and protect your organizational data.
   ms.date: 09/23/2019
-  author: AlexandraHrt
-  ms.author: v-aleha
+  author: puffinanda
+  ms.author: v-jolev
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Protect your data with sensitivity labels  
-summary: Summary goes here
+summary: Learn how to use information protection sensitivity labels to classify and protect your organizational data.
 abstract: |
   At the end of this module, you should be able to:
-  - Learning Objectives 1
+  - Explain sensitivity labels and their capabilities
+  - Create custom sensitivity labels
+  - Apply protection levels based on sensitivity labels
 
 prerequisites: | 
- - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
-iconUrl: http://via.placeholder.com/120x120
+ - Basic understanding of Microsoft 365. If you are unfamiliar with Microsoft 365, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+iconUrl: /learn/achievements/generic-badge.svg
 ratingEnabled: true
 levels:
 - intermediate
@@ -24,12 +26,12 @@ roles:
 - administrator
 products:
 - m365
+- office-365
 units:
 - learn-m365.m365-security-sensitivity-labels.introduction
-- learn-m365.m365-security-sensitivity-labels.define-sensitive-data
+- learn-m365.m365-security-sensitivity-labels.use-sensitivity-labels
 - learn-m365.m365-security-sensitivity-labels.define-sensitivity-labels
-- learn-m365.m365-security-sensitivity-labels.unified-policy-management
-- learn-m365.m365-security-sensitivity-labels.protect-files
+- learn-m365.m365-security-sensitivity-labels.protection-settings
 - learn-m365.m365-security-sensitivity-labels.summary-knowledge-check
 badge: 
   uid: learn-m365.m365-security-sensitivity-labels.badges

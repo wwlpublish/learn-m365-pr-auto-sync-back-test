@@ -1,0 +1,40 @@
+### YamlMime:Module
+uid: learn-m365.embedded-web-experiences
+metadata:
+  title: Create Embedded Web Experiences with Tabs for Microsoft Teams
+  description: Learn how to create custom tabs and add them to your Microsoft Teams app.
+  ms.date: 10/01/2019
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Create Embedded Web Experiences with Tabs for Microsoft Teams
+summary: Tabs are Teams-aware microsoft-teamsweb pages embedded in Microsoft Teams. They can be added as part of a channel or a group chat inside a team or as a personal app for an individual user. As part of your app you can add custom tabs to embed your own web content in Teams. There are two types of tabs available in Teams - channel/group and personal. In this module, you will learn how to create tabs and add them to your Microsoft Teams app.
+abstract: |
+  At the end of this module, you should be able to:
+  - Evaluate the differences between personal and channel/group tabs
+  - Create a channel/group tab with a configuration experience
+  - Create a tab that leverages authentication to call a protected REST API
+prerequisites: |
+  - Experience using Microsoft Teams at the beginner level
+  - Ability to program with JavaScript and Node.js
+  - Experience using Visual Studio Code at the beginner level
+iconUrl: /learn/achievements/embedded-web-experiences.svg
+levels:
+  - intermediate
+roles:
+  - developer
+products:
+  - m365
+  - office-teams
+units:
+  - learn-m365.embedded-web-experiences.1-introduction
+  - learn-m365.embedded-web-experiences.2-create-custom-teams-personal-tab
+  - learn-m365.embedded-web-experiences.3-exercise-create-custom-teams-personal-tab
+  - learn-m365.embedded-web-experiences.4-create-custom-teams-channel-tab
+  - learn-m365.embedded-web-experiences.5-exercise-create-custom-teams-channel-tab
+  - learn-m365.embedded-web-experiences.6-implement-tab-authentication
+  - learn-m365.embedded-web-experiences.7-exercise-implement-tab-authentication
+  - learn-m365.embedded-web-experiences.8-summary
+badge:
+  uid: learn-m365.embedded-web-experiences.badge

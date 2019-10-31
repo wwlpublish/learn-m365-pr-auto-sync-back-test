@@ -3,52 +3,57 @@ uid: learn-m365.m365-security-info-overview.summary-knowledge-check
 title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
-  description: Description goes here  
+  description: Check your understanding of the concepts presented in this module. 
   ms.date: 09/23/2019
-  author: AlexandraHrt
-  ms.author: v-aleha
+  author: puffinanda
+  ms.author: v-jolev
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-  ROBOTS: NOINDEX
-durationInMinutes: 5
+durationInMinutes: 2
 content: |
   [!include[](includes/summary-knowledge-check.md)]
 quiz:
     title: Check your knowledge
     questions:
-    - content: ""
+    - content: "Sensitivity labeling in Office apps can enforce information protection:"
       choices:
-      - content: ""
+      - content: "Only if the file was originally created in SharePoint Online."
         isCorrect: false
-        explanation: ""
-      - content: ""
-        isCorrect: false
-        explanation: ""
-      - content: ""
+        explanation: "Sensitivity labels are enforced in all Office apps."
+      - content: "If the file was created in an Office app."
         isCorrect: true
-        explanation: ""
+        explanation: "Correct. Sensitivity labels are enforced in all Office apps."
+      - content: "If the file was created anywhere"
+        isCorrect: false
+        explanation: "Sensitivity labels aren't universally enforced in non-Office apps."
 
-    - content: ""
+    - content: "Which of the following Microsoft solutions enforces data protection when the file is opened on a mobile device?"
       choices:
-      - content: ""
+      - content: "Conditional Access"
         isCorrect: false
-        explanation: ""
-      - content: ""
-        isCorrect: false
-        explanation: ""
-      - content: ""
+        explanation: "You use Conditional Access for identity and access management."
+      - content: "Microsoft Intune"
         isCorrect: true
-        explanation: ""
+        explanation: "Correct. If a user opens the sensitive data on a mobile device, Microsoft Intune enforces protection of the data."
+      - content: "Privileged Identity Management"
+        isCorrect: false
+        explanation: "Privileged Identity Management (PIM) is an identity management and access solution for controlling elevated user access."
+      - content: "Windows Mobile Information Protection"
+        isCorrect: false
+        explanation: "Windows Mobile Information Protection does not exist within the information protection stack."
       
-    - content: ""
+    - content: "Microsoft Information Protection allows for document sharing and protection to third-party cloud services by using which of the following?"
       choices:
-      - content: ""
-        isCorrect: false
-        explanation: ""
-      - content: ""
-        isCorrect: false
-        explanation: ""
-      - content: ""
+      - content: "Microsoft Cloud App Security"
         isCorrect: true
-        explanation: ""
+        explanation: "Correct. Microsoft Cloud App Security (MCAS) applies policies based on the data’s labels in third-party cloud applications."
+      - content: "Azure Third-Party Information Protection"
+        isCorrect: false
+        explanation: "Azure Third-Party Information Protection does not exist within the Microsoft information protection stack; MCAS is used instead."
+      - content: "Privileged Identity Management"
+        isCorrect: false
+        explanation: "PIM is an identity and access management solution for controlling elevated user access."
+      - content: "Office 365 Safe Attachments"
+        isCorrect: false
+        explanation: "Office 365 Safe Attachments helps protect your end users from opening an email attachment containing malicious content."
       

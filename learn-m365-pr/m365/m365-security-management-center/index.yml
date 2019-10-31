@@ -1,0 +1,33 @@
+### YamlMime:Module
+uid: learn-m365.m365-security-management-center
+metadata:
+  title: Overview of security management in Microsoft 365 security center 
+  description: Learn how the security management tools from Microsoft help you protect your organization’s users, devices, and data. 
+  ms.date: 10/25/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Overview of security management in Microsoft 365 security center  
+summary: Learn how the security management tools from Microsoft help you protect your organization’s users, devices, and data.
+abstract: |
+  In this module, you will learn how to:
+  - Describe what operations and capabilities are available in the Microsoft 365 Security Center
+  - Explain what technologies are connected by the Microsoft 365 Security Center
+prerequisites: | 
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+iconUrl: /learn/achievements/generic-badge.svg
+ratingEnabled: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+units:
+- learn-m365.m365-security-management-center.introduction
+- learn-m365.m365-security-management-center.m365-security-center
+- learn-m365.m365-security-management-center.summary-knowledge-check
+
+badge: 
+  uid: learn-m365.m365-security-management-center.badges

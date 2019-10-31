@@ -1,0 +1,72 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.understand-office-javascript-apis.8-knowledge-check
+metadata:
+  title: Check your knowledge
+  description: In this unit, you'll check your knowledge about the Office Add-ins programming model and Office JavaScript APIs.
+  ms.date: 10/04/2019
+  author: ElizabethSamuel-MSFT
+  ms.author: elizs
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+title: Check your knowledge
+durationInMinutes: 2
+content: ''
+quiz:
+  title: Office Add-ins programming model and Office JavaScript APIs
+  questions:
+  - content: "Which of the following statements is true about Office JavaScript APIs?"
+    choices:
+    - content: "Requirement sets can only be specific to Office hosts."
+      isCorrect: false
+      explanation: "Requirement sets can be specific to an Office host (for example, ExcelApi 1.7) or common to multiple hosts (for example, DialogApi 1.1)."
+    - content: "`https://appsforoffice.microsoft.com/lib/beta/hosted/office.js` is the link to the production APIs on the Office JavaScript CDN."
+      isCorrect: false
+      explanation: "It's the link to the beta APIs. `https://appsforoffice.microsoft.com/lib/1/hosted/office.js` is the link to the production APIs."
+    - content: "The properties of a proxy object must first be loaded with data from the Office file."
+      isCorrect: true
+      explanation: "To read the properties, call the `load` method on the proxy object with the properties to load."
+  - content: "A developer wants to use an add-in to visualize data in Excel. What would be a good object to use?"
+    choices:
+    - content: "Chart"
+      isCorrect: true
+      explanation: "You have several chart options available to visualize selected data."
+    - content: "Range"
+      isCorrect: false
+      explanation: "You can select a range as the source of data to be visualized."
+    - content: "Value"
+      isCorrect: false
+      explanation: "The content or data in a cell is its value."
+  - content: "An Outlook add-in is configured to appear in the Outlook navigation bar, that is, alongside mail and calendar. What kind of add-in is it?"
+    choices:
+    - content: "Content"
+      isCorrect: false
+      explanation: "Content add-ins aren't available for Outlook."
+    - content: "Module"
+      isCorrect: true
+      explanation: "Module add-ins are Outlook add-ins that are displayed on the navigation bar with mail, calendar, tasks, and such."
+    - content: "Task pane"
+      isCorrect: false
+      explanation: "A user may activate a task pane as they delve into the add-in's functionality but that's not the first step."
+  - content: "What is a good tool for trying out the Word APIs without creating an add-in?"
+    choices:
+    - content: "Script Lab"
+      isCorrect: true
+      explanation: "The Script Lab add-in is a good way for you to explore Word, Excel, and PowerPoint APIs."
+    - content: "Visual Studio"
+      isCorrect: false
+      explanation: "You can use a Visual Studio template to create an add-in."
+    - content: "Yeoman generator"
+      isCorrect: false
+      explanation: "You can use a Yeoman generator for Office Add-ins template to create an add-in."
+  - content: "A developer is setting up an add-in with a custom function and a task pane. How should data be shared between them?"
+    choices:
+    - content: "Dialog API"
+      isCorrect: false
+      explanation: "The Dialog API is a great way to display a sign-in form to the user."
+    - content: "Document Object Model (DOM)"
+      isCorrect: false
+      explanation: "Custom functions don't have access to the DOM so it's not an option."
+    - content: "Storage API"
+      isCorrect: true
+      explanation: "The Storage API is how a custom function and a task pane share data like a security token."

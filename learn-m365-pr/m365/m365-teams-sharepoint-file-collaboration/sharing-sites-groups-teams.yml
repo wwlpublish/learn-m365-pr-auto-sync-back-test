@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-teams-sharepoint-file-collaboration.sharing-sites-groups-teams
+title: Sharing sites, groups, and teams
+metadata:
+  title: Sharing sites, groups, and teams
+  description: Discover how sharing files and folders works in SharePoint. Learn how to share files externally.
+  ms.date: 09/12/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 2
+content: |
+  [!include[](includes/sharing-sites-groups-teams.md)]

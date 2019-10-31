@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.understand-office-javascript-apis.3-understand-office-add-ins-developer-tools
+metadata:
+  title: Understand Office Add-ins developer tools
+  description: In this unit, you'll learn about Office Add-ins developer tools.
+  ms.date: 10/04/2019
+  author: ElizabethSamuel-MSFT
+  ms.author: elizs
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+title: Understand Office Add-ins developer tools
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-understand-office-add-ins-developer-tools.md)]

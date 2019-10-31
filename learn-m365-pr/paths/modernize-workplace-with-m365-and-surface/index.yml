@@ -1,34 +1,34 @@
 ### YamlMime:LearningPath
-uid: learn-wwl.modernize-workplace-with-m365-and-surface
+uid: learn-wwl.modernize-workplace-with-m365-and-surface-v1-1
 metadata:
   title: Modernize your workplace with Microsoft 365 and Surface for Business
-  description: Are you interested in learning about the modern workplace in an easy to understand way? Would you like to know how Microsoft can help you create a modern workplace?  This learning path introduces you to what a modern workplace means for users and IT, and how Microsoft 365 can help you create it.
-  ms.date: 04/03/2019
-  author: Randall-Knapp
+  description: Are you interested in learning about the modern workplace in an easy to understand way? Would you like to know how Microsoft can help you create a modern workplace?  This learning path introduces you to what a modern workplace means for users and IT, and how Microsoft 365 can help you create it.
+  ms.date: 10/18/2019
+  author: dahans
   ms.author: rknapp
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-  ROBOTS: NOINDEX
-title: Modernize your workplace with Microsoft 365 and Surface for Business 
+title: Modernize your workplace with Microsoft 365 and Surface for Business
+prerequisites: |
+  none
 summary: |
-  Are you interested in learning about the modern workplace in an easy to understand way? Would you like to know how Microsoft can help you create a modern workplace?  This learning path introduces you to what a modern workplace means for users and IT, and how Microsoft 365 can help you create it.
-prerequisites: None
+  This learning path introduces you to what a modern workplace means for users and IT, and how Microsoft 365 can help you create it.
 iconUrl: /learn/achievements/m365-sfa-learning-path.svg
-levels: 
+levels:
 - beginner
-roles: 
+roles:
 - business-user
-products: 
+products:
 - m365
 modules:
-- learn-wwl.welcome-to-microsoft-365
-- learn-wwl.introducing-microsoft-365-and-surface-for-business
+- learn-wwl.discover-modern-workplace-solutions-m365-surface-business
 - learn-wwl.facilitate-teamwork-with-microsoft-365
 - learn-wwl.modern-communications-in-microsoft-teams
 - learn-wwl.get-more-from-microsoft-365-with-surface-for-business
 - learn-wwl.deploy-and-manage-windows-10-and-office-365-proplus
 - learn-wwl.security-with-microsoft-365
 - learn-wwl.compliance-with-microsoft-365
+- learn.wwl.deliver-the-value-of-modern-workplace-through-business-conversations
 - learn-wwl.get-started-with-microsoft-365-using-fasttrack
-trophy: 
-  uid: learn-wwl.modernize-workplace-with-m365-and-surface.trophy
+trophy:
+  uid: learn-wwl.modernize-workplace-with-m365-and-surface-v1-1.trophy

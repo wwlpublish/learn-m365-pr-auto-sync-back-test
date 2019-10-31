@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-identity.m365-identity-secure-administrators.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Review what you've learned about enhancing security for administrator accounts.
+  ms.date: 09/06/2019
+  author: puffinanda
+  ms.author: v-jolev
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 2
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Why do administrator accounts require enhanced security?"
+      choices:
+      - content: "Because administrators travel frequently, they are more likely to use unsecured devices to access their organization’s resources remotely."
+        isCorrect: false
+        explanation: "Administrators are not more likely than other staff to use unsecured devices."
+      - content: "Administrators typically have supervisory access to the personal files of their direct reports."
+        isCorrect: false
+        explanation: "Administrators usually do not have access to personal files of their direct reports."
+      - content: "Administrators frequently have privileged access to sensitive data and therefore are often targets of cyberattacks."
+        isCorrect: true
+        explanation: "Hackers target administrator accounts to gain access to an organization’s sensitive data and systems."
+    - content: "How could you ensure that administrators use secure mobile devices to access the organization’s network?"
+      choices:
+      - content: "Create a Conditional Access policy that only grants access to managed and compliant devices."
+        isCorrect: true
+        explanation: "Conditional Access uses a combination of user, location, device, app, and other risk conditions to ensure only the right users have access to apps and data."
+      - content: "Use Azure Information Protection to control how data is accessed from employee devices."
+        isCorrect: false
+        explanation: "You use Azure Information Protection to classify and protect documents and emails, not to secure mobile devices."
+      - content: "Enable single sign-on for mobile devices."
+        isCorrect: false
+        explanation: "Single sign-on would not by itself guarantee that a device is trusted and compliant."
+    - content: "Which of these methods would best lower the exposure risk of privileged administrator accounts?"
+      choices:
+      - content: "Require all critical administrator accounts to use single sign-on."
+        isCorrect: false
+        explanation: "Requiring single-on would not reduce the risk posed by phishing attacks."
+      - content: "Use Azure AD Privileged Identity Management to set time-limited access of privileged roles."
+        isCorrect: true
+        explanation: "You can use Azure AD Privileged Identity Management to set as-needed access to administrator accounts that access sensitive data."
+      - content: "For administrator roles, set a Conditional Access policy that restricts access to sensitive data from noncompliant devices."
+        isCorrect: false
+        explanation: "A better method would be to reduce persistent access to sensitive data."

@@ -1,0 +1,54 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-teams-sharepoint-manage-sites.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Discover how to manage SharePoint sites in the SharePoint admin center. Learn how to manage sharing and permissions, site usage, reporting and monitoring, and information protection. 
+  ms.date: 09/13/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "To enable users to share files with guests, you must:"
+      choices:
+      - content: "Enable guest sharing for Office 365 Groups and SharePoint."
+        isCorrect: false
+        explanation: "To enable users to share files with guests, you must enable guest sharing in SharePoint at both the organization and site level for the site where the shared content is located."
+      - content: "Enable guest sharing in SharePoint at both the organization and site level."
+        isCorrect: true
+        explanation: "To enable users to share files with guests, you must enable guest sharing in SharePoint at both the organization and site level for the site where the shared content is located."
+      - content: "Enable access requests for the SharePoint site where the content resides."
+        isCorrect: false
+        explanation: "To enable users to share files with guests, you must enable guest sharing in SharePoint at both the organization and site level for the site where the shared content is located."
+
+    - content: "Which security tools are available from the SharePoint admin center?"
+      choices:
+      - content: "Controls for unmanaged devices and inactive users"
+        isCorrect: true
+        explanation: "The SharePoint admin center includes controls for unmanaged devices and inactive users, along with network location blocking."
+      - content: "Controls for sensitivity labels and sensitive content watermarking"
+        isCorrect: false
+        explanation: "The SharePoint admin center includes controls for unmanaged devices and inactive users, along with network location blocking."
+      - content: "Controls for quarantining malicious files uploaded to SharePoint sites"
+        isCorrect: false
+        explanation: "The SharePoint admin center includes controls for unmanaged devices and inactive users, along with network location blocking."
+      
+    - content: "What kind of site permissions can the SharePoint administrator manage in the admin center?"
+      choices:
+      - content: "Office 365 Group owner and primary administrator"
+        isCorrect: true
+        explanation: "Administrators can manage the Office 365 Group owner for team sites and the primary administrator for other sites in the SharePoint admin center."
+      - content: "Site members and visitors"
+        isCorrect: false
+        explanation: "Administrators can manage the Office 365 Group owner for team sites and the primary administrator for other sites in the SharePoint admin center."
+      - content: "Site permission levels, including Full Control, Edit, and Contribute"
+        isCorrect: false
+        explanation: "Administrators can manage the Office 365 Group owner for team sites and the primary administrator for other sites in the SharePoint admin center."
+      

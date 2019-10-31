@@ -1,0 +1,34 @@
+### YamlMime:Module
+uid: learn-m365-office.m365-upgrading-office
+metadata:
+  title: Upgrading Office on Windows  
+  description: Learn how to perform Office upgrades in Windows at scale, including the tools to help you create, configure, and deploy Office packages.
+  ms.date: 09/18/2019
+  author: puffinanda
+  ms.author: v-jolev
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Upgrading Office on Windows  
+summary: Learn how to perform Office upgrades in Windows at scale, including the tools to help you create, configure, and deploy Office packages.
+abstract: |
+  In this module, you will learn:
+   - How to define the processes and know how to use the tools to download and configure an Office installation. 
+   - How to use the Office Customization Tool to create and configure an Office application package.
+   - How to monitor Office upgrades and updates using System Center Configuration Manager.
+prerequisites: None
+iconUrl: /learn/achievements/upgrade-office-in-windows-for-it.svg
+ratingEnabled: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+units:
+- learn-m365-office.m365-upgrading-office.intro-updating-office
+- learn-m365-office.m365-upgrading-office.processes-tools-download-configure
+- learn-m365-office.m365-upgrading-office.create-application-package
+- learn-m365-office.m365-upgrading-office.monitoring-office-updates-upgrades
+- learn-m365-office.m365-upgrading-office.summary-knowledge-check
+badge: 
+  uid: learn-m365-office.m365-upgrading-office.badge

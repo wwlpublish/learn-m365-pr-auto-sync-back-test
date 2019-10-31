@@ -1,0 +1,1 @@
+In this module you learned how to deploy Windows Virtual Desktop in your environment.

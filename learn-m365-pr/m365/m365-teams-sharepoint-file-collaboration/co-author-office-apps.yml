@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-teams-sharepoint-file-collaboration.co-author-office-apps
+title: Coauthor in Microsoft 365 Office apps
+metadata:
+  title: Coauthor in Office apps
+  description: Discover how sharing files and folders works in SharePoint. Learn how to share files externally.
+  ms.date: 09/12/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+  [!include[](includes/co-author-office-apps.md)]

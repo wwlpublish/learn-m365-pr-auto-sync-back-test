@@ -3,13 +3,12 @@ uid: learn-m365.m365-security-info-overview.introduction
 title: Introduction to information protection
 metadata:
   title: Introduction to information protection
-  description: Description goes here 
+  description: Overview of information protection.
   ms.date: 09/23/2019
-  author: AlexandraHrt
-  ms.author: v-aleha
+  author: puffinanda
+  ms.author: v-jolev
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-  ROBOTS: NOINDEX
-durationInMinutes: 3
+durationInMinutes: 1
 content: |
   [!include[](includes/introduction.md)]

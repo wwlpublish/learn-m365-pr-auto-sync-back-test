@@ -1,0 +1,35 @@
+### YamlMime:Module
+uid: learn-m365-pr.understand-office-add-ins-customization
+metadata:
+  title: Understand how to customize Office Add-ins
+  description: Learn how you can customize Office Add-ins by persisting state, and using Office UI Fabric and Microsoft Graph.
+  ms.date: 10/14/2019
+  author: ElizabethSamuel-MSFT
+  ms.author: elizs
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Understand how to customize Office Add-ins
+summary: The Office Add-ins platform enables you to customize your add-in. In this module, you'll explore how to customize your add-in by persisting state, and using Office UI Fabric and Microsoft Graph.
+abstract: |
+  By the end of this module, you should know how to customize Office Add-ins using:
+  - Persisted state
+  - Office UI Fabric
+  - Microsoft Graph
+prerequisites: None
+iconUrl: /learn/achievements/understand-office-add-ins-customization.svg
+levels:
+  - beginner
+roles:
+  - developer
+products:
+  - office-add-ins
+  - m365
+units:
+- learn-m365-pr.understand-office-add-ins-customization.1-introduction
+- learn-m365-pr.understand-office-add-ins-customization.2-understand-persisting-state-settings-options
+- learn-m365-pr.understand-office-add-ins-customization.3-understand-office-ui-fabric-office-add-ins
+- learn-m365-pr.understand-office-add-ins-customization.4-understand-microsoft-graph-office-add-ins
+- learn-m365-pr.understand-office-add-ins-customization.5-knowledge-check
+- learn-m365-pr.understand-office-add-ins-customization.6-summary
+badge:
+  uid: learn-m365-pr.understand-office-add-ins-customization.badge

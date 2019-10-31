@@ -1,6 +1,1 @@
-In this module, you learned 
-
-Now that you have completed this module, you should be able to:
-  
-- 
-- 
+You must monitor and assess your protected data and remediate issues when appropriate. Microsoft 365 offers multiple tools to assess the state of your sensitive data and make educated information protection decisions based on those insights.
