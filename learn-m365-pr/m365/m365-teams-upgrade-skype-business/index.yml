@@ -25,6 +25,7 @@ roles:
 - administrator
 products:
 - m365
+- office-teams
 units:
 - learn-m365.m365-teams-upgrade-skype-business.introduction
 - learn-m365.m365-teams-upgrade-skype-business.upgrade-skype-online
