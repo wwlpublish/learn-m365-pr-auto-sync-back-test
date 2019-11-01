@@ -3,10 +3,10 @@ uid: learn-m365.m365-security-data-loss.introduction
 title: Introduction to Microsoft 365 data loss prevention
 metadata:
   title: Introduction to Microsoft 365 data loss prevention
-  description: Overview of Microsoft 365 data loss prevention capabilities.
-  ms.date: 09/30/2019
-  author: puffinanda
-  ms.author: v-jolev
+  description: Learn how information protection helps organizations protect data to prevent data loss or theft.
+  ms.date: 10/31/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 1

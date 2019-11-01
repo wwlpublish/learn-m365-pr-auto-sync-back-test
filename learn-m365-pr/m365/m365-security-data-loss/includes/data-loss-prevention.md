@@ -21,6 +21,8 @@ There are four key areas for preventing data loss and managing the data lifecycl
 
 Most of your organization’s data might not be RMS-protected but still require some level of DLP short of RMS encryption. AIP classification at document creation can be the start of the data protection process. An end user who applies AIP classification at document creation can assist identifying and protecting sensitive data that isn't easily detected through content inspection or other means.
 
-## Learn more 
+## Learn more
 
-[Overview of data loss prevention](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)
+When you're done with a link, use the **Back** arrow in your browser to come back to this page.
+
+- [Overview of data loss prevention](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)
