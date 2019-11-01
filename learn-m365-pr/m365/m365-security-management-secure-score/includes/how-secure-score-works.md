@@ -26,6 +26,6 @@ When you select an improvement action, a pane on the right gives you even more i
 - **Compliance Controls** – Which set of compliance instructions this action is listed under 
 - **Notes** – Custom note taking field to help you track the status
 
-Here’s an example for Require MFA for Azure AD privileged roles: 
+Here’s an example of Require MFA for Azure AD privileged roles: 
 
 ![Require MFA for Azure AD privileged roles - sample action](../media/require-mfa.png)

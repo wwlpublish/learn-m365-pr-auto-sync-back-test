@@ -22,7 +22,7 @@ quiz:
         explanation: "A Microsoft 365 security assessment helps identify and uncover possible solution gaps but is not an automated tool."
       - content: "Microsoft Secure Score"
         isCorrect: true
-        explanation: "Correct. Microsoft Secure Score helps security admins increase their security health by providing intelligent recommendations and insights to optimize the security environment."
+        explanation: "Correct. Microsoft Secure Score helps security administrators increase their security health by providing intelligent recommendations and insights to optimize the security environment."
       - content: "Microsoft Risk Assessment"
         isCorrect: false
         explanation: "A Microsoft risk assessment would help uncover possible vulnerabilities or compliance gaps but is not a technology solution offered by Microsoft."
@@ -40,10 +40,10 @@ quiz:
         explanation: "MCAS features alerts in the Microsoft 365 security center."
       - content: "Office Defender Advanced Threat Protection"
         isCorrect: true
-        explanation: "Correct. Office Defender ATP is not an available solution, Office 365 ATP and Windows Defender ATP are featured in the M365 security center."
+        explanation: "Correct. Office Defender ATP is not an available solution. Office 365 ATP and Windows Defender ATP are featured in the Microsoft 365 security center."
       - content: "Intune device compliance"
         isCorrect: false
-        explanation: "Device compliance features reporting and alerts in the M365 security center."
+        explanation: "Device compliance features reporting and alerts in the Microsoft 365 security center."
       
     - content: "What is one example of the intelligent and personalized recommendations the Microsoft 365 security center provides?"
       choices:
@@ -58,5 +58,5 @@ quiz:
         explanation: "MyAnalytics gives employees insight into how they spend their time and who they spend it with."
       - content: "Role-based access control"
         isCorrect: true
-        explanation: "Correct. The M365 security center uses role-based access control so different security or administrator roles will see different home page cards that will be more impactful to their duties."
+        explanation: "Correct. The Microsoft 365 security center uses role-based access control so different security or administrator roles will see different home page cards that will be more impactful to their duties."
       

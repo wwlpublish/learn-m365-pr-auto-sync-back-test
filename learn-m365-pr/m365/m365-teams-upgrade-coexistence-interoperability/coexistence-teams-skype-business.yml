@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-teams-upgrade-coexistence-interoperability.coexistence-teams-skype-business
+title: Coexistence of Teams and Skype for Business
+metadata:
+  title: Coexistence of Teams and Skype for Business
+  description: Learn about coexistence modes and how to choose the right mode for your environment.
+  ms.date: 09/30/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 10
+content: |
+  [!include[](includes/coexistence-teams-skype-business.md)]

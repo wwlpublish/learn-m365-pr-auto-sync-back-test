@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-teams-upgrade-coexistence-interoperability.introduction
+title: Introduction to coexistence and interoperability
+metadata:
+  title: Introduction to coexistence and interoperability
+  description: Learn about coexistence and interoperatiblity between Microsoft Teams and Skype for Business.
+  ms.date: 09/30/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 2
+content: |
+  [!include[](includes/introduction.md)]

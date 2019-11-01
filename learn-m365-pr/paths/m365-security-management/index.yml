@@ -3,7 +3,7 @@ uid: learn-m365.m365-security-management
 metadata:
   title: Manage security with Microsoft 365
   description: We live in an always connected, technology-driven world. Efficient security management is the foundation to managing your assets – in the cloud, on-premises, or across a hybrid environment. You need to proactively manage and secure your organization’s identities, devices, end points (both apps and data), and IT infrastructure. Microsoft 365 helps you secure your infrastructure with a focus on visibility, control, and guidance, and helps you consolidate from a plethora of specialized functions and tools, leveraging the shared intelligence, to keep your security teams focused on the most critical insights for their workloads. 
-  ms.date: 10/25/2019
+  ms.date: 10/31/2019
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
@@ -20,6 +20,7 @@ roles:
 products: 
 - m365
 - office-365
+- windows
 modules:
 - learn-m365.m365-security-management-center
 - learn-m365.m365-security-management-secure-score
