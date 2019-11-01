@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-teams-upgrade-hybrid.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Review what you learned about how to upgrade from Skype for Business on-premises to Microsoft Teams. 
+  ms.date: 10/11/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Before being moved online, what licenses do users need to be assigned?"
+      choices:
+      - content: "The existing Skype for Business license is sufficient for both on-premises and online."
+        isCorrect: false
+        explanation: "Depending on their needs, users must be assigned a Skype for Business Online license and/or Teams and Office 365 licenses."
+      - content: "A Skype for Business Online license and possibly a Teams and Office 365 license."
+        isCorrect: true
+        explanation: "Depending on their needs, users must be assigned a Skype for Business Online license and/or Teams and Office 365 licenses."
+      - content: "A Skype for Business Online license"
+        isCorrect: false
+        explanation: "Depending on their needs, users must be assigned a Skype for Business Online license and/or Teams and Office 365 licenses."
+    - content: "Which types of multi-forest hybrid scenarios does Microsoft support?"
+      choices:
+      - content: "Resource forest topology"
+        isCorrect: false
+        explanation: "Microsoft supports both resource forest topology and multiple deployments of Skype for Business Server in multiple forests."
+      - content: "Multiple deployments of Skype for Business Server in multiple forests and resource forest topology"
+        isCorrect: true
+        explanation: "Microsoft supports both resource forest topology and multiple deployments of Skype for Business Server in multiple forests."
+      - content: "Multiple deployments of Skype for Business Server in multiple forests"
+        isCorrect: false
+        explanation: "Microsoft supports both resource forest topology and multiple deployments of Skype for Business Server in multiple forests." 
+    - content: "Homing some users on-premises in Skype for Business Server and others in Teams or Skype for Business Online relies on what functionality?"
+      choices:
+      - content: "Shared SIP address space"
+        isCorrect: true
+        explanation: "Homing some users on-premises in Skype for Business Server and others in Teams or Skype for Business Online relies on shared SIP address space functionality."
+      - content: "Hybrid connectivity"
+        isCorrect: false
+        explanation: "Homing some users on-premises in Skype for Business Server and others in Teams or Skype for Business Online relies on shared SIP address space functionality."
+      - content: "Multi-forest support"
+        isCorrect: false
+        explanation: "Homing some users on-premises in Skype for Business Server and others in Teams or Skype for Business Online relies on shared SIP address space functionality."
+      

@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-teams-upgrade-plan-upgrade.prepare-service
+title: Prepare your service for upgrading to Teams
+metadata:
+  title: Prepare your service for upgrading to Teams
+  description: Review the tasks and activities required to deploy Microsoft Teams. This unit includes links to checklists that help you navigate the 'to-do' tasks for your Teams upgrade.
+  ms.date: 09/27/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/prepare-service.md)]

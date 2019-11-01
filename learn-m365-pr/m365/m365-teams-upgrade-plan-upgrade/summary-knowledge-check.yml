@@ -1,0 +1,53 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-teams-upgrade-plan-upgrade.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Review what you've learned about planning to upgrade to Microsoft Teams.
+  ms.date: 10/22/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Environmental discovery allows you to evaluate all aspects of your:"
+      choices:
+      - content: "IT infrastructure, networking, and operations"
+        isCorrect: true
+        explanation: "Environmental discovery allows you to evaluate all aspects of your IT infrastructure, networking, and operations to ensure your organization is ready to implement Teams."
+      - content: "IT staffing"
+        isCorrect: false
+        explanation: "Environmental discovery allows you to evaluate all aspects of your IT infrastructure, networking, and operations to ensure your organization is ready to implement Teams."
+      - content: "Collaboration and cloud voice services"
+        isCorrect: false
+        explanation: "Environmental discovery allows you to evaluate all aspects of your IT infrastructure, networking, and operations to ensure your organization is ready to implement Teams."
+
+    - content: "Preparing your network to upgrade to Teams includes ensuring that:"
+      choices:
+      - content: "You’ve configured direct routing for Teams."
+        isCorrect: false
+        explanation: "Direct routing isn’t a network preparation but a Teams-specific preparation for upgrading to Teams."
+      - content: "TCP ports 3478 through 3481 and outgoing UDP ports 80 and 443 are open from clients that will use Teams."
+        isCorrect: false
+        explanation: "Preparing your network to upgrade to Teams includes ensuring that TCP ports 80 and 443 and that outgoing UDP ports 3478 through 3481 are open from clients that will use Teams."
+      - content: "TCP ports 80 and 443 and outgoing UDP ports 3478 through 3481 are open from clients that will use Teams."
+        isCorrect: true
+        explanation: "Preparing your network to upgrade to Teams includes ensuring that TCP ports 80 and 443 and outgoing UDP ports 3478 through 3481 are open from clients that will use Teams."
+      
+    - content: "Preparing your users to upgrade to Teams includes:"
+      choices:
+      - content: "Determining whether they want to upgrade to Teams or prefer to remain with Skype for Business. "
+        isCorrect: false
+        explanation: "Preparing your users to upgrade to Teams includes assessing organizational change readiness, preparing a user readiness plan, and conducting a user pilot."
+      - content: "Assessing organizational change readiness, preparing a user readiness plan, and conducting a user pilot."
+        isCorrect: true
+        explanation: "Preparing your users to upgrade to Teams includes assessing organizational change readiness, preparing a user readiness plan, and conducting a user pilot."
+      - content: "Opening TCP ports 80 and 443 and outgoing UDP ports 3478 and 3481 from clients that will use Teams."
+        isCorrect: false
+        explanation: "Opening TCP and UDP ports is part of the network preparation for upgrading to Teams, but is not part of user preparation."
+      

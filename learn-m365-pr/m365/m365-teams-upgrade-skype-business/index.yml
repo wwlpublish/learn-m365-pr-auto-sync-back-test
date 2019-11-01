@@ -1,0 +1,36 @@
+### YamlMime:Module
+uid: learn-m365.m365-teams-upgrade-skype-business
+metadata:
+  title: Upgrade to Teams from Skype for Business 
+  description: Discover the upgrade process from Skype for Business to Microsoft Teams. Learn how to upgrade to Teams from both Skype for Business Online and Skype for Business on-premises.
+  ms.date: 10/14/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Upgrade to Teams from Skype for Business  
+summary: Learn about the upgrade process from Skype for Business to Microsoft Teams and how to upgrade to Teams from both Skype for Business Online and Skype for Business on-premises.
+abstract: |
+  Upon completion of this module, you should be able to:
+  - Describe the steps for upgrading from Skype for Business Online to Teams.
+  - Describe the steps for upgrading from Skype for Business on-premises to Teams.
+
+prerequisites: | 
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+iconUrl: /learn/achievements/generic-badge.svg
+ratingEnabled: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-teams
+units:
+- learn-m365.m365-teams-upgrade-skype-business.introduction
+- learn-m365.m365-teams-upgrade-skype-business.upgrade-skype-online
+- learn-m365.m365-teams-upgrade-skype-business.upgrade-skype-on-premises
+- learn-m365.m365-teams-upgrade-skype-business.summary-knowledge-check
+
+badge: 
+  uid: learn-m365.m365-teams-upgrade-skype-business.badges
