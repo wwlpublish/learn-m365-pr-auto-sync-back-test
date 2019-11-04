@@ -23,9 +23,9 @@ quiz:
       - content: "Microsoft Intelligent Security API"
         isCorrect: false
         explanation: "Microsoft Intelligent Security API is not a valid Microsoft API."
-      - content: "Microsoft 365 Security Center"
+      - content: "Microsoft 365 security center"
         isCorrect: false
-        explanation: "The Microsoft 365 Security Center is leveraged by security administrators and operations teams for a central administration and management portal."
+        explanation: "The Microsoft 365 security center is leveraged by security administrators and operations teams for a central administration and management portal."
       - content: "Microsoft Intelligent Security Graph"
         isCorrect: true
         explanation: "Correct. The Intelligent Security Graph obtains threat signals from Microsoft’s services, expansive user base, and global footprint enabling security administrators to mitigate today’s modern attacks."
