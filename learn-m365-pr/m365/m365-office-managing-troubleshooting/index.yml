@@ -1,15 +1,15 @@
 ### YamlMime:Module
 uid: learn-m365-office.m365-managing-troubleshooting-office
 metadata:
-  title: Managing and troubleshooting common issues with Office on Windows  
-  description: Learn how to manage and troubleshoot common issues with Office on Windows.
+  title: Manage and troubleshoot common issues with Office in Windows  
+  description: Learn how to manage and troubleshoot common issues with Office in Windows.
   ms.date: 09/19/2019
   author: puffinanda
   ms.author: v-jolev
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Managing and troubleshooting common issues with Office on Windows
-summary: Learn how to manage and troubleshoot common issues with Office on Windows.
+title: Manage and troubleshoot common issues with Office in Windows
+summary: Learn how to manage and troubleshoot common issues with Office in Windows.
 abstract: |
   In this module, you will learn:
    - How to define update management options and how they work across Office 365 ProPlus and Office 2019 editions. 
@@ -24,6 +24,8 @@ roles:
 - administrator
 products:
 - m365
+- office-365
+- windows
 units:
 - learn-m365-office.m365-managing-troubleshooting-office.intro-managing-troubleshooting
 - learn-m365-office.m365-managing-troubleshooting-office.understand-update-management-options
