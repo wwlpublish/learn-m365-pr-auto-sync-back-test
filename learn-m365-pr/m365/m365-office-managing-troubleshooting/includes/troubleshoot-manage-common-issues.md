@@ -9,12 +9,12 @@ Due to the similarity and shared processes between the initial installation and 
     - officecdn.microsoft.com
     - Configuration Manager
     - other custom-defined location
-- Check the %ProgramFiles%\Microsoft Office\Updates\Download and ..\Apply folders for update packages.
-- Check the registry for the last trigger source to make sure its set properly. It’s usually **SCHEDULEDTASK** in HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\ClickToRun\Scenario\UPDATE
-- Check HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\ClickToRun\Configuration for **VersionToReport** to make sure the version is correct.
-- Try deleting the **Updates** folder in %ProgramFiles%\Microsoft Office\ to see if triggering another update will start to hydrate update files.
+- Check the **%ProgramFiles%\Microsoft Office\Updates\Download** and **..\Apply** folders for update packages.
+- Check the registry for the last trigger source to make sure it's set properly. It’s usually **SCHEDULEDTASK** in `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\ClickToRun\Scenario\UPDATE`
+- Check `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\ClickToRun\Configuration` for **VersionToReport** to make sure the version is correct.
+- Try deleting the **Updates** folder in **%ProgramFiles%\Microsoft Office** to see if triggering another update will start to hydrate update files.
 
-Remember that updates from CDN sources may be throttled – especially when it’s close to an update release day. Files may trickle in slower than expected to %ProgramFiles% locations.
+Remember that updates from CDN sources may be throttled – especially when it’s close to an update release day. Files may trickle in more slowly than expected to **%ProgramFiles%** locations.
 
 ## Troubleshooting activation
 
@@ -27,7 +27,7 @@ In some cases, activation services will not set Office licensing and Office will
 
     ```cscript “C:\Program files\Microsoft Office\office16\ospp.vbs” /dstatus```
 
-In some cases, you’ll need to use OLicenseCleanup.vbs to remove user-based activation and attempt to sign in again.
+In some cases, you’ll need to use **OLicenseCleanup.vbs** to remove user-based activation and attempt to sign in again.
 
 ## Installation repair
 

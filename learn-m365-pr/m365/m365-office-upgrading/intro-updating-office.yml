@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365-office.m365-upgrading-office.intro-updating-office
-title: Introduction to Upgrading Office on Windows
+title: Introduction to upgrading Office in Windows
 metadata:
-  title: Introduction to Upgrading Office on Windows
-  description:  Learn about considerations and steps to perform Office deployments on Windows
+  title: Introduction to upgrading Office in Windows
+  description:  Learn about considerations and steps to perform Office deployments in Windows
   ms.date: 09/18/2019
   author: puffinanda
   ms.author: v-jolev

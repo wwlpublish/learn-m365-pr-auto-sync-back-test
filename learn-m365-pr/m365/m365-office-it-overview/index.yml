@@ -23,6 +23,7 @@ roles:
 - administrator
 products:
 - m365
+- office-365
 units:
 - learn-m365-office.m365-office-it-overview.introduction
 - learn-m365-office.m365-office-it-overview.understanding-office
