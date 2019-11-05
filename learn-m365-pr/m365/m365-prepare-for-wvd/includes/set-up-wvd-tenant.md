@@ -27,7 +27,7 @@ Install-module Microsoft.Rdinfra.RdPowershell
 After you install and load the module, run the following PowerShell cmdlet to sign in to Windows Virtual Desktop: 
 
 ```powershell
-Add-RdsAccount – DeploymentURL https://rdbroker.wvd.microsoft.com 
+Add-RdsAccount –DeploymentURL "https://rdbroker.wvd.microsoft.com" 
 ```
 
 Sign in with the credentials for a user with the Tenant Creator role. 

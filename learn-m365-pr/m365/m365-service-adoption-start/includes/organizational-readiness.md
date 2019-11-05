@@ -3,6 +3,7 @@ After you’ve secured your project team, the next step on your upgrade journey 
 **By assessing your organization’s readiness, you can determine how receptive (or not) your users are likely to be to changing the way they work and adopting new technology.** Understanding how users react to change empowers your organization to proactively address concerns, adjust your rollout plan to get optimal buy-in, and identify users who can help you facilitate the change with their peers.
 
 ![Activity icon](../media/activity.png) **Activity**
+
 Use the following conversation starters to conduct an organizational readiness assessment and document the culture of your organization when it comes to change. This information can help inform how much awareness and training you might need to implement for your project. Don’t worry about exact numbers. This exercise represents a general understanding of your organizational culture. If you're not sure where to start, evaluate a past rollout; this can help you anticipate how users might react to change and help you proactively address the reactions you expect.
 - What percentage of users fall into each bucket?
 
@@ -39,7 +40,8 @@ We recommend meeting directly with your stakeholders on a regular basis. Your go
 - What is the process for drafting, distributing, and sharing information?
 
 This initial interview provides a baseline for further interaction. Listen for pain points and perceptions so that you can craft successful communications and manage their expectations of what change can deliver and what impact that change will have on their day to day operations. 
- 
+
+
 |![Activity icon](../media/activity.png) Activity|
 |-| 
 |Decide your rhythm and method for communicating with your stakeholders in alignment with your company culture. Target your communications to the various levels of engagement and interest across your organization. <br><br>Option: To create an ongoing knowledge base of information about your project, consider using news pages in your SharePoint communication site. Your news page library (site pages in the SharePoint site associated with your planning team) can be made public so they can be shared with all interested parties.|
