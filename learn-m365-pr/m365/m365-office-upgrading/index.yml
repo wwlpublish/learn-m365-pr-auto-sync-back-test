@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn-m365-office.m365-upgrading-office
 metadata:
-  title: Upgrading Office on Windows  
+  title: Upgrading Office in Windows  
   description: Learn how to perform Office upgrades in Windows at scale, including the tools to help you create, configure, and deploy Office packages.
   ms.date: 09/18/2019
   author: puffinanda
   ms.author: v-jolev
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Upgrading Office on Windows  
+title: Upgrading Office in Windows  
 summary: Learn how to perform Office upgrades in Windows at scale, including the tools to help you create, configure, and deploy Office packages.
 abstract: |
   In this module, you will learn:
@@ -24,6 +24,8 @@ roles:
 - administrator
 products:
 - m365
+- office-365
+- windows
 units:
 - learn-m365-office.m365-upgrading-office.intro-updating-office
 - learn-m365-office.m365-upgrading-office.processes-tools-download-configure
