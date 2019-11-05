@@ -27,7 +27,7 @@ Plan your SSO configuration. For example, you can:
 
 ## What is role-based access
 
-Role-based access control (RBAC) is an authorization system that helps you manage who has access to which Azure resources, what they can do with those resources, and what areas they have access to. RBAC allows you to segregate duties within your organizations and grant only the amount of access to users that they need to perform their jobs. You control access to your resources using RBAC by creating role assignments that define a security principle (identity), role definition (a series of permissions), and scope (who, what, where).
+Role-based access control (RBAC) is an authorization system that helps you manage who has access to which Azure resources, what they can do with those resources, and what areas they have access to. RBAC allows you to segregate duties within your organizations and grant only the amount of access to users that they need to perform their jobs. You control access to your resources using RBAC by creating role assignments that define a security principal (identity), role definition (a series of permissions), and scope (who, what, where).
 
 ## Role definition and scope
 
