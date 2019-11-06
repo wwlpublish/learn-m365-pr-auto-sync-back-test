@@ -24,3 +24,10 @@ Before you can decide whether Exchange Online is right for your organization, yo
 |**Automatic integration with other Office 365 features**|n/a|Exchange Online offers additional features such as Office 365 groups, which integrate multiple Office 365 features together. You can also view and edit Office email attachments.|
 |**Access to new features**|Some new features from the cloud might eventually be added to Exchange Server, but they'll always appear first in Exchange Online. |You have access to many features that don't exist in an on-premises Exchange organization.| 
 |**Access to mailbox databases and servers**|You have access to the Exchange servers and mailbox databases.|You have no access to the Exchange servers in the Microsoft datacenters. Microsoft manages the servers and mailbox databases in Exchange Online for you.|
+
+## Learn more
+
+When you're done with a link, use the **Back** arrow in your browser to come back to this page.
+
+- [Overview of Microsoft Graph](https://docs.microsoft.com/graph/overview)
+- [Understand Teams management tools-Microsoft Graph API](https://docs.microsoft.com/learn/modules/m365-teams-collab-prepare-deployment/management-tools)
