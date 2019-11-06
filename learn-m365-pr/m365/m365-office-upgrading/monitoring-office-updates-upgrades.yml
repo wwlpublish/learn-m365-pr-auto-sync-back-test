@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365-office.m365-upgrading-office.monitoring-office-updates-upgrades
-title: Monitoring Office upgrades and updates using System Center Configuration Manager
+title: Monitor Office upgrades and updates using System Center Configuration Manager
 metadata:
-  title: Monitoring Office upgrades and updates using System Center Configuration Manager
+  title: Monitor Office upgrades and updates using System Center Configuration Manager
   description:  Learn how to monitor Office upgrades and updates by using System Center Configuration Manager.
   ms.date: 09/18/2019
   author: puffinanda
