@@ -25,7 +25,7 @@ There are two available plans for Microsoft 365 Enterprise, letting you further 
 |Windows Information Protection, Bitlocker & Azure Information Protection P1|+|+|
 |Office 365 Data Loss Preventions|+|+|
 |Delve|+|+|
-|Power BI Pro, MyAnalytics| |+|
+|Power BI Pro, MyAnalytics| +|+|
 |Audio conferencing, Phone System| |+|
 |Windows Defender Advanced Threat Protection, Office 365 Advanced Threat Protection, Office 365 Threat Intelligence| |+|
 |Azure Active Directory Plan 2| |+|
