@@ -44,7 +44,7 @@ Because organizations have different requirements and concerns when it comes to 
 For example, you can configure Office 365 ProPlus to get updates from one of the following locations:
 - The Office Content Delivery Network (CDN) on the internet
 - A shared folder on your local network
-- An enterprise software deployment tool, such as System Center Configuration Manager
+- An enterprise software deployment tool, such as Configuration Manager
 
 If network connectivity or other considerations based on your organization’s requirements aren’t an issue, Microsoft recommends updating Office 365 ProPlus from the Office CDN, because it requires the least amount of administrative effort. 
 
