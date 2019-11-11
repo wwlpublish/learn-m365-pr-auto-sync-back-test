@@ -10,7 +10,7 @@ Microsoft provides several readiness assessment tools that will streamline your 
 
 ![Upgrade readiness tool](../media/inventory1-50.png)
 
-Once Upgrade Readiness is running, you can then enroll any Internet-connected Windows 7 SP1 or newer device via Group Policy settings to start collecting diagnostic data. The tool’s visual workflow guides you from pilot to production deployment. If you wish, you can export data to software deployment tools such as System Center Configuration Manager to target PCs directly and build device collections as they become ready for deployment.
+Once Upgrade Readiness is running, you can then enroll any Internet-connected Windows 7 SP1 or newer device via Group Policy settings to start collecting diagnostic data. The tool’s visual workflow guides you from pilot to production deployment. If you wish, you can export data to software deployment tools such as Configuration Manager to target PCs directly and build device collections as they become ready for deployment.
 
 > [!NOTE]
 > To set up Window Analytics Upgrade Readiness you’ll first need to set up an Azure Active Directory subscription, including an Azure Log Analytics workspace. 

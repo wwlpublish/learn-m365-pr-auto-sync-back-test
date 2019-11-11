@@ -10,7 +10,7 @@ Whether the manual approach is an option in your organization depends on the sca
 
 ## Migrate user data with the User State Migration Tool
 
-For large-scale deployments, you can automate much of the process using task sequence-based automation tools like System Center Configuration Manager or the Microsoft Deployment Toolkit (MDT). Both these solutions use the **User State Migration Tool (USMT)** as part of the end-to-end deployment process. USMT, part of the Windows Assessment and Deployment Kit (Windows ADK), captures user accounts, user files, operating system settings, and application settings, and then migrates them to a new Windows installation. It also gives you control of exactly what gets migrated – you can exclude unwanted file types, like audio and video files, or executables.
+For large-scale deployments, you can automate much of the process using task sequence-based automation tools like Microsoft Endpoint Configuration Manager or the Microsoft Deployment Toolkit (MDT). Both these solutions use the **User State Migration Tool (USMT)** as part of the end-to-end deployment process. USMT, part of the Windows Assessment and Deployment Kit (Windows ADK), captures user accounts, user files, operating system settings, and application settings, and then migrates them to a new Windows installation. It also gives you control of exactly what gets migrated – you can exclude unwanted file types, like audio and video files, or executables.
 
 During the migration process, you need to have sufficient server storage capacity available to act as a temporary migration store, which is where USMT offers two important features: 
 

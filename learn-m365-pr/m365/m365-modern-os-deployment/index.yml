@@ -24,6 +24,7 @@ roles:
 - administrator
 products:
 - m365
+- windows
 units:
 - learn-m365.modern-os-deployment.1-introduction
 - learn-m365.modern-os-deployment.deployment-tools
