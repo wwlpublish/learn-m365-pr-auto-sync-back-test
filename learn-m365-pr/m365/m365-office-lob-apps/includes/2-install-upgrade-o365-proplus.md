@@ -14,9 +14,9 @@ Office applications are delivered and managed via the **Office Deployment Tool**
 
 ![Office Customization Tool](../media/step-3-office-and-lob-app-delivery-media-7-50.png)
 
-## Deploy Office with the System Center Configuration Manager
+## Deploy Office with the Microsoft Endpoint Configuration Manager
 
-If you use System Center Configuration Manager (SCCM), you can use it for broad deployment of Office 365 ProPlus. SCCM has native support for the updated Office Customization Tool, package customization for Click-to-Run at install time, and native support for software update management after installation. 
+If you use Configuration Manager, you can use it for broad deployment of Office 365 ProPlus. Configuration Manager has native support for the updated Office Customization Tool, package customization for Click-to-Run at install time, and native support for software update management after installation. 
 
 ![SCCM Deployment Settings](../media/step-3-office-and-lob-app-delivery-media-6-50.png)
 
