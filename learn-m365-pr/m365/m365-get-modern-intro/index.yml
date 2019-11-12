@@ -23,6 +23,8 @@ roles:
 - administrator
 products:
 - m365
+- office-365
+- windows
 units:
 - learn-m365.get-modern-intro.1-get-started-w10-o365pp
 - learn-m365.get-modern-intro.2-deployment-process

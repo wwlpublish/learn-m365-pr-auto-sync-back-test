@@ -13,7 +13,7 @@ Additionally, for Office 365 applications, Microsoft offers a fully-supported **
 
 ## Semi-annual feature updates
 
-In order to manage larger and semi-annual updates, you can use policy settings with Windows Update for Business, software update management via System Center Configuration Manager, Windows Server Update Services (WSUS), or policies set by Microsoft Intune. If network bandwidth is a concern, consider one of the options to reduce network traffic - delivery optimization, Express Updates, and other peer-to-peer caching technologies.
+In order to manage larger and semi-annual updates, you can use policy settings with Windows Update for Business, software update management via Microsoft Endpoint Configuration Manager, Windows Server Update Services (WSUS), or policies set by Microsoft Intune. If network bandwidth is a concern, consider one of the options to reduce network traffic - delivery optimization, Express Updates, and other peer-to-peer caching technologies.
 
 The support timeline for updates depends on the specific product you’re using. You can review the timelines at https://support.microsoft.com/en-us/lifecycle/selectindex - search for the product you’re using, like "Windows 10, version 1903" (a semi-annual channel release) to see the exact support duration.
 
