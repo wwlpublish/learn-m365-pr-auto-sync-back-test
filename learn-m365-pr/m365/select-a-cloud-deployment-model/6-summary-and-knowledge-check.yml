@@ -16,36 +16,45 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "If you're operating a small non-profit organization, which deployment model probably makes the most sense?"
+    - content: "Which of the following is NOT one the factors you should consider when it comes to deciding which cloud model to choose?"
       choices:
-      - content: "Cloud"
+      - content: "Recent investment in hardware"
+        isCorrect: false
+        explanation: "This is a factor you should consider when deciding which cloud model to choose."
+      - content: "Outdated hardware and systems"
+        isCorrect: false
+        explanation: "This is a factor you should consider when deciding which cloud model to choose."
+      - content: "Number of users"
         isCorrect: true
-        explanation: "A cloud deployment might be the most cost effective, given your small size."
-      - content: "Hybrid"
+        explanation: "This is not a factor you should consider when deciding which cloud model to choose."
+      - content: "Limited in-house IT resources"
         isCorrect: false
-        explanation: "A cloud deployment might be the most cost effective, given your small size."
-      - content: "It doesn't matter"
+        explanation: "This is a factor you should consider when deciding which cloud model to choose."
+      - content: "Available capital"
         isCorrect: false
-        explanation: "Incorrect - there are differences between the two models that affect cost and efficiency."
-    - content: "If you're starting a new business, which model probably makes the most sense?"
+        explanation: "This is a factor you should consider when deciding which cloud model to choose."
+    - content: "For which of one the following organizations does a hybrid deployment probably make the most sense?"
       choices:
-      - content: "Cloud"
+      - content: "An established business with a data center that is acquiring a new business"
         isCorrect: true
-        explanation: "A cloud deployment might be the most cost effective, given you're just starting up and don't have existing on-premises infrastructure."
-      - content: "Hybrid"
+        explanation: "A hybrid deployment probably makes sense for an established business with a data center that is acquiring a new business."
+      - content: "A small non-profit organization"
         isCorrect: false
-        explanation: "You don't have existing infrastructure, so there's no reason to choose a hybrid deployment."
-      - content: "It doesn't matter"
+        explanation: "A cloud deployment probably makes more sense than a hybrid deployment for a small non-profit organization."
+      - content: "A new business"
         isCorrect: false
-        explanation: "Incorrect - there are differences between the two models that affect cost and efficiency."
-    - content: "If you're an established business with a data center, and you acquire a new business, which model makes the most sense?"
+        explanation: "A hybrid deployment may or may not make sense for a new business."
+    - content: "Which of one the following statements about migration vs coexistence is true?"
       choices:
-      - content: "Cloud"
+      - content: "Coexistence is for cloud-only deployments and migration is for hybrid deployments."
         isCorrect: false
-        explanation: "You'll be joining two disparate systems together - a hybrid deployment methods might work best."
-      - content: "Hybrid"
+        explanation: "Migration is for cloud-only deployments and coexistence is for hybrid deployments."
+      - content: "Migration is for cloud-only deployments and coexistence is for hybrid deployments."
         isCorrect: true
-        explanation: "You'll be joining two disparate systems together - a hybrid deployment methods might work best."
-      - content: "It doesn't matter"
+        explanation: "Migration is for cloud-only deployments and coexistence is for hybrid deployments."
+      - content: "Migration and coexistence both work for cloud-only deployments.
         isCorrect: false
-        explanation: "Incorrect - you'll be joining two systems together - different systems have different needs."
+        explanation: "Migration is for cloud-only deployments and coexistence is for hybrid deployments."
+      - content: "4.	Migration and coexistence both work for hybrid deployments."
+        isCorrect: false
+        explanation: "Migration is for cloud-only deployments and coexistence is for hybrid deployments."
