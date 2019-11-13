@@ -15,4 +15,3 @@ Here's an example of some options when you create or configure a bot:
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
 - [Add bots for personal chats, group chats, and channels in Microsoft Teams](https://docs.microsoft.com/microsoftteams/add-bots)
-- [Create a bot](https://go.microsoft.com/fwlink/?linkid=854371)

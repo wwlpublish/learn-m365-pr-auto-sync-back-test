@@ -4,7 +4,7 @@ Let’s look at the journey of a file and discuss how Microsoft technologies can
 
 **File is created**
 
-- Regardless of where the file is created, Sensitivity labeling in Office apps can enforce information protection based on the labels attached to the data.
+- Regardless of where the file is created, sensitivity labeling in Office apps can enforce information protection based on the labels attached to the data.
 
 **User edits the file**
 

@@ -15,7 +15,7 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Which of the following is NOT part of Enterprise Mobility + Security?"
+    - content: "Which of the following is NOT a component of Enterprise Mobility + Security?"
       choices:
       - content: "Azure AD Premium"
         isCorrect: false
@@ -35,22 +35,34 @@ quiz:
       - content: "Unified Endpoint Management"
         isCorrect: true
         explanation: "EMS helps you provide unified endpoint management, but there isn't a product or service called 'Unified Endpoint Management'."
-    - content: "True or false: All EMS products are offered in all Microsoft 365 subscriptions."
+    - content: "Which of one the following EMS products is offered with the E5 subscription plan but not the E3 subscription plan?"
       choices:
-      - content: "True"
+      - content: "Intune"
         isCorrect: false
-        explanation: "No, your specific EMS products vary depending on your Microsoft 365 subscription."
-      - content: "False"
+        explanation: "No, Intune is included in both E3 and E5."
+      - content: "Configuration Manager"
+        isCorrect: false
+        explanation: "No, Configuration Manager is included in both E3 and E5."
+      - content: "Cloud App Security"
         isCorrect: true
-        explanation: "Correct - your specific EMS products vary depending on your Microsoft 365 subscription."
-    - content: "True or false: Configuration Manager is for managing on-premises infrastructure, but it has a 'co-management' function that works with Intune to manage cloud-based functions."
+        explanation: "Correct, Cloud App Security is offered with the E5 subscription plan but not the E3 subscription plan."
+      - content: "Microsoft Advanced Threat Analytics"
+        isCorrect: false
+        explanation: "No, Microsoft Advanced Threat Analytics is included in both E3 and E5."
+    - content: "Which of one the following statements about co-management is correct?"
       choices:
-      - content: "True"
-        isCorrect: true
-        explanation: "Configuration Manager and Intune working together is called 'co-management.'"
-      - content: "False"
+      - content: "Configuration Manager manages both on-premises infrastructure and cloud-based functions."
         isCorrect: false
-        explanation: "Configuration Manager and Intune working together is called 'co-management.'"
+        explanation: "Incorrect. Configuration Manager does not manage both on-premises infrastructure and cloud-based functions."
+      - content: "Intune manages both on-premises infrastructure and cloud-based functions."
+        isCorrect: false
+        explanation: "Incorrect. Intune does not manage both on-premises infrastructure and cloud-based functions."
+      - content: "Configuration Manager manages cloud-based functions and Intune manages on-premises infrastructure."
+        isCorrect: false
+        explanation: "Incorrect. Configuration Manager manages on-premises infrastructure and Intune manages cloud-based functions."
+      - content: "Configuration Manager manages on-premises infrastructure and Intune manages cloud-based functions."
+        isCorrect: true
+        explanation: "Correct. Configuration Manager manages on-premises infrastructure and Intune manages cloud-based functions."
     - content: "Which technology is the foundation of this co-management, allowing Configuration Manager and Intune to work together?"
       choices:
       - content: "Azure Multi-Factor Authentication (MFA)"
@@ -65,11 +77,3 @@ quiz:
       - content: "Azure Advanced Threat Protection (ATP)"
         isCorrect: false
         explanation: "Azure AD Premium enables co-management."
-    - content: "True or false: Microsoft Intune enables you to manage centrally across all of these operating systems: Windows 10, iOS, Android, and macOS."
-      choices:
-      - content: "True"
-        isCorrect: true
-        explanation: "Microsoft Intune manages all of these operating systems."
-      - content: "False"
-        isCorrect: false
-        explanation: "Microsoft Intune manages all of these operating systems."
