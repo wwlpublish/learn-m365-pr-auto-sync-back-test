@@ -36,10 +36,13 @@ quiz:
     - content: "Conditional access, secure authentication, and identity protection are parts of which security pillar?"
       choices:
       - content: "Identity and access management"
-        isCorrect: true
+        isCorrect: false
         explanation: "These are all components of the Identity and access management pillar."
       - content: "Threat protection"
         isCorrect: false
+        explanation: "These are all components of the Identity and access management pillar."
+      - content: "Cloud and remote access security"
+        isCorrect: true
         explanation: "These are all components of the Identity and access management pillar."
       - content: "Information protection"
         isCorrect: false
@@ -47,11 +50,20 @@ quiz:
       - content: "Security management"
         isCorrect: false
         explanation: "These are all components of the Identity and access management pillar."
-    - content: "True or false: The Microsoft Information Protection solutions in Microsoft 365 help you protect sensitive data throughout its lifecycle - across devices, apps, cloud services, and on-premises locations."
+    - content: "Which of the following is NOT one of the four key activities in information protection strategy?"
       choices:
-      - content: "True"
-        isCorrect: true
-        explanation: "True - Microsoft Information Protection protects your data at each stage."
-      - content: "False"
+      - content: "Discover"
         isCorrect: false
-        explanation: "True - Microsoft Information Protection protects your data at each stage."
+        explanation: "Discover is one of the four key activities in information protection strategy."
+      - content: "Classify"
+        isCorrect: false
+        explanation: "Classify is one of the four key activities in information protection strategy."
+      - content: "Protect"
+        isCorrect: false
+        explanation: "Protect is one of the four key activities in information protection strategy."
+      - content: "Monitor"
+        isCorrect: false
+        explanation: "Monitor is one of the four key activities in information protection strategy."
+      - content: "Report"
+        isCorrect: true
+        explanation: "Report is not one of the four key activities in information protection strategy."

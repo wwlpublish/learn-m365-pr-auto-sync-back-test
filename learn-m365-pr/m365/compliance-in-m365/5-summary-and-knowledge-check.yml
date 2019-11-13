@@ -54,11 +54,17 @@ quiz:
       - content: "Where's My Key"
         isCorrect: true
         explanation: "Correct - this is NOT part of Microsoft 365."
-    - content: "True or false: Customer Lockbox requires the customer (the tenant admin or a custom role like compliance manager) to approve a request before access is granted to engineers."
+    - content: Which of one the following is NOT one the tools Microsoft provides to help protect customer data? "
       choices:
-      - content: "True"
-        isCorrect: true
-        explanation: "True - this is one of the ways to ensure compliance."
-      - content: "False"
+      - content: "Zero standing admin access"
         isCorrect: false
-        explanation: "Incorrect - this is one of the ways to ensure compliance."
+        explanation: "Zero standing admin access is one the tools Microsoft provides to help protect customer data."
+      - content: "Customer Lockbox"
+        isCorrect: false
+        explanation: "Customer Lockbox is one the tools Microsoft provides to help protect customer data."
+      - content: "Compliance Manager"
+        isCorrect: true
+        explanation: "Compliance Manager is not one the tools Microsoft provides to help protect customer data."
+      - content: "Privileged access management in Office 365"
+        isCorrect: false
+        explanation: "Privileged access management in Office 365 is one the tools Microsoft provides to help protect customer data."
