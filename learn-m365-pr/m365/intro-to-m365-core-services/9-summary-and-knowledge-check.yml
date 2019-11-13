@@ -15,7 +15,7 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-      - content: "Which of the following is NOT one of the cloud services available in Microsoft 365?"
+    - content: "Which of the following is NOT one of the cloud services available in Microsoft 365?"
       choices:
       - content: "Exchange"
         isCorrect: false

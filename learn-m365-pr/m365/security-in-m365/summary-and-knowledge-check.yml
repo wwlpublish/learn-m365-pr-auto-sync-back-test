@@ -41,7 +41,7 @@ quiz:
       - content: "Threat protection"
         isCorrect: false
         explanation: "These are all components of the Identity and access management pillar."
-        - content: "Cloud and remote access security"
+      - content: "Cloud and remote access security"
         isCorrect: true
         explanation: "These are all components of the Identity and access management pillar."
       - content: "Information protection"

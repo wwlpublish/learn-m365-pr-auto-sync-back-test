@@ -37,7 +37,7 @@ quiz:
         explanation: "EMS helps you provide unified endpoint management, but there isn't a product or service called 'Unified Endpoint Management'."
     - content: "Which of one the following EMS products is offered with the E5 subscription plan but not the E3 subscription plan?"
       choices:
-      content: "Intune"
+      - content: "Intune"
         isCorrect: false
         explanation: "No, Intune is included in both E3 and E5."
       - content: "Configuration Manager"

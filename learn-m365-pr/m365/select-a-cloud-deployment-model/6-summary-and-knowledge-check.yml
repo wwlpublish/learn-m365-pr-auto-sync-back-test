@@ -52,7 +52,7 @@ quiz:
       - content: "Migration is for cloud-only deployments and coexistence is for hybrid deployments."
         isCorrect: true
         explanation: "Migration is for cloud-only deployments and coexistence is for hybrid deployments."
-      - content: "Migration and coexistence both work for cloud-only deployments.
+      - content: "Migration and coexistence both work for cloud-only deployments."
         isCorrect: false
         explanation: "Migration is for cloud-only deployments and coexistence is for hybrid deployments."
       - content: "4.	Migration and coexistence both work for hybrid deployments."
