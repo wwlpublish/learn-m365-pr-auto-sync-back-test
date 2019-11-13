@@ -26,6 +26,8 @@ roles:
 - administrator
 products:
 - m365
+- m365-security-center
+- m365-security-score
 units:
 - learn-m365.m365-security-management-secure-score.introduction
 - learn-m365.m365-security-management-secure-score.how-secure-score-works

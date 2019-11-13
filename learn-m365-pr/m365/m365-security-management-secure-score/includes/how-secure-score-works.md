@@ -23,7 +23,7 @@ When you select an improvement action, a pane on the right gives you even more i
 - **Complexity** – Tells you how complex and costly the implementation would be
 - **Steps to complete the action**
 - **How it will affect your users**
-- **Compliance Controls** – Which set of compliance instructions this action is listed under 
+- **Compliance Controls** – Which set of compliance instructions this action is listed under
 - **Notes** – Custom note taking field to help you track the status
 
 Here’s an example of Require MFA for Azure AD privileged roles: 

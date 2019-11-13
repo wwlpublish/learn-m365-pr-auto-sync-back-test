@@ -2,7 +2,7 @@ Email is one of the most pervasive and powerful forms of communication and colla
 
 - **Spam**
    - Malicious or unsolicited mail sent to a mailbox without the option to unsubscribe
-   - Often used as a catch-all of any undesired or questionable mail
+   - Often used as a catch-all for any undesired or questionable mail
 - **Bulk**
    - An email sent to a large list of recipients for promotional purposes. Typically, the sender has a reputation with us.
    - Good: Recipient intentionally signed up to receive emails for newsletters or promotions. Reputable ones provide the option to unsubscribe.
@@ -23,7 +23,8 @@ Office 365 Advanced Threat Protection (ATP) is an email filtering service that p
 
 ATP anti-phishing applies a set of machine learning models together with impersonation detection algorithms to incoming messages to provide protection for commodity and spear phishing attacks. ATP anti-phishing protects your organization according to policies that are set by your Office 365 global or security administrators.
 
-Other Office 365 ATP features include: 
+Other Office 365 ATP features include:
+
 - **Safe Attachments** - Protect against unknown malware and viruses by opening attachments in cordoned-off virtual environments to detect malicious behavior.
 - **Safe Links** - Provide real-time, time-of-click protection against malicious URLs by wrapping external links in special URLs that check the destination URL for threats before opening them.
 - **Click Trace** - Provides rich reporting and URL trace capabilities by keeping a record of every user who has clicked on a Safe Link-wrapped URL for additional protection.
