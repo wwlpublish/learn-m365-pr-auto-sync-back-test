@@ -24,6 +24,7 @@ roles:
 - administrator
 products:
 - m365
+- m365-security-center
 units:
 - learn-m365.m365-security-management-center.introduction
 - learn-m365.m365-security-management-center.m365-security-center
