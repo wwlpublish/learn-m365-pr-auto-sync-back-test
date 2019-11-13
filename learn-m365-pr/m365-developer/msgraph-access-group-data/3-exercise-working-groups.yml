@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msgraph-access-group-data.3-exercise-working-groups
+metadata:
+  title: Exercise - Working with users in the organization
+  description: In this exercise, you'll create an Azure AD application registration using the Azure Active Directory admin center, a .NET Core console application, and query Microsoft Graph for details on Office 365 groups.
+  ms.date: 11/18/2019
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Exercise - Working with users in the organization
+durationInMinutes: 15
+content: |
+  [!include[](includes/3-exercise-working-groups.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "Which of the following groups can you create and manage using Microsoft Graph?"
+    choices:
+    - content: "Office 365 groups and security groups"
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Office 365 groups and mail-enabled security groups"
+      isCorrect: false
+      explanation: "While you can create Office 365 groups, you can't manage mail-enabled security groups with Microsoft Graph"
+    - content: "Distribution groups and security groups"
+      isCorrect: false
+      explanation: "You can't create or manage distribution groups with Microsoft Graph"
+  - content: "Which of the following statements isn't true as it relates to Microsoft Graph, groups and permissions?"
+    choices:
+    - content: "Both administrators and users can consent to group-related operations."
+      isCorrect: false
+      explanation: "Users can't consent to any group-related operations."
+    - content: "Both administrators and users can consent to group-related operations, but only administrators can consent to writeable operations."
+      isCorrect: false
+      explanation: "Users can't consent to any group-related operations."
+    - content: "All group-related operations in Microsoft graph require administrator consent."
+      isCorrect: true
+      explanation: "Correct! Continue your learning with the next unit!"
