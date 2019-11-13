@@ -36,7 +36,7 @@ quiz:
         explanation: "Office 365 ATP allows a password-spray simulated attack in which a hacker leverages multiple sets of credentials stolen through phishing attempts to try to breach your organization."
       - content: "Safe attachment phishing"
         isCorrect: true
-        explanation: "Correct. While Office 365 ATP does proactively monitor and protect your organization from malicious attachments and URLs, safe attachment phishing is not an offered O365 ATP simulation."
+        explanation: "Correct. While Office 365 ATP does proactively monitor and protect your organization from malicious attachments and URLs, safe attachment phishing is not an offered Office 365 ATP simulation."
       - content: "Brute-force password attack"
         isCorrect: false
         explanation: "Office 365 ATP allows a simulated brute-force password attack in which an attacker would use all possible combinations to figure out the password to an organizational resource."
