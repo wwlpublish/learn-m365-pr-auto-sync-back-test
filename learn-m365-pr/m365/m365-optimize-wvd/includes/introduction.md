@@ -4,4 +4,4 @@ When you move from Remote Desktop Services to Windows Virtual Desktop, you no lo
 
 This module covers post-deployment steps to optimize Windows Virtual Desktop: using dynamic FSLogix profiles, enabling and configuring OneDrive for Business and OneDrive Files on Demand, and synchronizing on-premises or hosted file shares with Azure using Azure File Sync. We’ll also look at how you can reduce cost and optimize user performance by scaling host pools on demand using depth and breadth scaling.
 
-You can download the scrips discussed in this video at [aka.ms/MechWVDScriptSamples](https://aka.ms/MechWVDScriptSamples).
+You can download the scritps discussed in this video at [aka.ms/MechWVDScriptSamples](https://aka.ms/MechWVDScriptSamples).
