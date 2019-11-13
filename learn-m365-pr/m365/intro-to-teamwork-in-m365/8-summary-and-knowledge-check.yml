@@ -60,6 +60,6 @@ quiz:
       - content: "After hours"
         isCorrect: false
         explanation: "After hours is one the metrics that MyAnalytics tracks."
-    - content: "Focus hours"
+      - content: "Focus hours"
         isCorrect: false
         explanation: "Focus hours is one the metrics that MyAnalytics tracks."

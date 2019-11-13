@@ -30,16 +30,16 @@ quiz:
       - content: "Manage licenses"
         isCorrect: false
         explanation: "You can manage licenses in the Microsoft 365 admin center."
-   - content: "True or false: Microsoft 365 customers have a service level agreement (SLA) with their cloud service provider (CSP) but not with Microsoft."
-     choices:
+    - content: "True or false: Microsoft 365 customers have a service level agreement (SLA) with their cloud service provider (CSP) but not with Microsoft."
+      choices:
       - content: "True"
         isCorrect: false
         explanation: "Your Microsoft 365 subscription includes an SLA with Microsoft."
       - content: "False"
         isCorrect: true
         explanation: "Your Microsoft 365 subscription includes an SLA with Microsoft."
-   - content: "Which of the following is NOT one of the ways a service request can be made?"
-     choices:
+    - content: "Which of the following is NOT one of the ways a service request can be made?"
+      choices:
       - content: "In person at a Microsoft store"
         isCorrect: true
         explanation: "You cannot make a service request at a Microsoft store."

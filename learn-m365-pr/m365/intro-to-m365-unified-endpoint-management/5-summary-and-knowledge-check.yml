@@ -49,7 +49,6 @@ quiz:
       - content: "Microsoft Advanced Threat Analytics"
         isCorrect: false
         explanation: "No, Microsoft Advanced Threat Analytics is included in both E3 and E5."
-      - content: "Microsoft Intune"
     - content: "Which of one the following statements about co-management is correct?"
       choices:
       - content: "Configuration Manager manages both on-premises infrastructure and cloud-based functions."
