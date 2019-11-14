@@ -17,15 +17,15 @@ quiz:
     questions:
     - content: "What is it called when you reformat a device's hard drive and install a new OS image, without keeping any data, settings, or apps?"
       choices:
-      - content: "Bare metal deployment"
-        isCorrect: true
-        explanation: "Correct. If you don't need to keep any of the data on a device or any of what might have been installed by the OEM, use a bare metal deployment to update a device."
       - content: "Computer refresh"
         isCorrect: false
         explanation: "No. This is called *bare metal deployment*."
       - content: "Computer replacement"
         isCorrect: false
         explanation: "No. This is called *bare metal deployment*."
+      - content: "Bare metal deployment"
+        isCorrect: true
+        explanation: "Correct. If you don't need to keep any of the data on a device or any of what might have been installed by the OEM, use a bare metal deployment to update a device."
     - content: "In-place upgrades allow you to upgrade from legacy versions of Windows as well as update existing images."
       choices:
       - content: "True"
