@@ -1,1 +1,1 @@
-In this module, you learned how to use the tools to download and configure an Office 365 installation. You also learned how to create and configure an Office application package. Finally, you learned how to monitor Office upgrades and updates by using System Center Configuration Manager.
+In this module, you learned how to use the tools to download and configure an Office 365 installation. You also learned how to create and configure an Office application package. Finally, you learned how to monitor Office upgrades and updates by using Configuration Manager.

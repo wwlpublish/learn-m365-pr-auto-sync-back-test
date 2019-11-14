@@ -15,7 +15,7 @@ content: |
 quiz:
    title: Check your knowledge
    questions:
-   - content: "True or false - The Office Deployment Tool provides a user interface and allows you to edit a JSON configuration file to define Office installation settings."
+   - content: "The Office Deployment Tool provides a user interface and allows you to edit a JSON configuration file to define Office installation settings."
      choices:
      - content: "True"
        isCorrect: false
@@ -28,7 +28,7 @@ quiz:
      - content: "Windows Installer package (MSI)"
        isCorrect: false
        explanation: "Both editions use Click-to-Run packaging."
-     - content: "Click-to-Run package"
+     - content: "Click-to-Run packaging"
        isCorrect: true
        explanation: "Both editions use Click-to-Run packaging."   
      - content: "Universal Windows Platform (UWP) as an .appx package"
@@ -37,11 +37,11 @@ quiz:
      - content: "None of the above"
        isCorrect: false
        explanation: "Both editions use Click-to-Run packaging."   
-   - content: "True or false - Office VBA Macro-enabled files are disabled in Office 365 ProPlus versions of Office because they are browser-based apps."
+   - content: "Office VBA Macro-enabled files are disabled in Office 365 ProPlus versions of Office because they are browser-based apps."
      choices:
      - content: "True"
        isCorrect: false
        explanation: "Incorrect. Office 365 ProPlus is a local and full install of Office and has VBA Macro compatibility traits similar to any supported local install of Office."
      - content: "False"
        isCorrect: true
-       explanation: "Correct. Office 365 ProPlus is a local and full install of Office and has VBA Macro compatibility traits similar to any supported local install of Office."   
+       explanation: "Correct. Office 365 ProPlus is a local and full install of Office and has VBA Macro compatibility traits similar to any supported local install of Office." 
