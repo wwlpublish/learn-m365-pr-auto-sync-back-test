@@ -44,7 +44,7 @@ quiz:
       - content: "Only users that have specialized line-of-business apps"
         isCorrect: false
         explanation: "These kinds of users generally use the LTSC and won't be good test candidates."
-    - content: "Which one of the following **Windows 10** update channels doesn’t support Office 365 ProPlus?"
+    - content: "Which one of the following Windows 10 update channels doesn’t support Office 365 ProPlus?"
       choices:
       - content: "Windows Insider"
         isCorrect: false
