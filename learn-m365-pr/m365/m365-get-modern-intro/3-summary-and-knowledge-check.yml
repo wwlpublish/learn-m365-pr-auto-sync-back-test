@@ -23,28 +23,39 @@ quiz:
       - content: "Implement user communications and training."
         isCorrect: false
         explanation: "No, The first step in the deployment process is to analyze your device and app readiness."
+      - content: "Evaluate directory and network readiness."
+        isCorrect: false
+        explanation: "No, The first step in the deployment process is to analyze your device and app readiness."
+      - content: "Assess security and compliance."
+        isCorrect: false
+        explanation: "No, The first step in the deployment process is to analyze your device and app readiness."
 
-    - content: "In the second step, analyzing your directory and network readiness, you prepare your network to move which items?"
+    - content: "In analyzing your directory and network readiness, you prepare your network to move which items?"
       choices:
-      - content: "System images, application packages, drivers, and user file migrations"
+      - content: "The OS"
+        isCorrect: false
+        explanation: "No. In analyzing your directory and network readiness, you do not prepare your network to move the OS."
+      - content: "System images, application packages, drivers, and user files"
         isCorrect: true
-        explanation: "Yes, these items all need bandwidth."
+        explanation: "Yes. In analyzing your directory and network readiness, you prepare your network to move system images, application packages, drivers, and user files."
       - content: "Thumbnail images and user settings"
         isCorrect: false
-        explanation: "No, these items don't use significant bandwidth."
+        explanation: "No. In analyzing your directory and network readiness, you do not prepare your network to move thumbnail images and user settings."
       - content: "Social media profiles"
         isCorrect: false
-        explanation: "No, you don't need to analyze bandwidth for social media profiles."
+        explanation: "No. In analyzing your directory and network readiness, you do not prepare your network to move social media profiles."
 
-    - content: "Office 365 ProPlus and Office 2019 clients use which installation technology?"
+    - content: "The desktop deployment wheel that guides you through how many recommended steps for your shift to Windows 10 and Office 365 ProPlus?"
       choices:
-      - content: "Click-to-Run"
+      - content: "7"
+        isCorrect: false
+        explanation: "No. That is not the number of recommended steps the desktop deployment wheel guides you through for your shift to Windows 10 and Office 365 ProPlus."
+      - content: "8"
         isCorrect: true
-        explanation: "Yes, Office 365 ProPlus and Office 2019 clients use Click-to-Run installation technology."
-      - content: "MSIX"
+        explanation: "Yes. The desktop deployment wheel guides you through 8 recommended steps for your shift to Windows 10 and Office 365 ProPlus."
+      - content: "9"
         isCorrect: false
-        explanation: "No, other apps use this installation method, but not Office 365 ProPlus."
-      - content: "UWP"
+        explanation: "No. That is not the number of recommended steps the desktop deployment wheel guides you through for your shift to Windows 10 and Office 365 ProPlus."
+      - content: "10"
         isCorrect: false
-        explanation: "No, other apps use this installation method, but not Office 365 ProPlus."
-        
+        explanation: "No. That is not the number of recommended steps the desktop deployment wheel guides you through for your shift to Windows 10 and Office 365 ProPlus."
