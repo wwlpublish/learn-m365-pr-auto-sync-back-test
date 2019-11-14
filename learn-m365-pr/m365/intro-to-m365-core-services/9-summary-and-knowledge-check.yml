@@ -23,7 +23,7 @@ quiz:
       - content: "SharePoint"
         isCorrect: false
         explanation: "SharePoint is one of the cloud services available in Microsoft 365."
-      - content: "Skype for Business."
+      - content: "Skype for Business"
         isCorrect: true
         explanation: "Skype for Business is not one of the cloud services available in Microsoft 365."
       - content: "Microsoft Intune"

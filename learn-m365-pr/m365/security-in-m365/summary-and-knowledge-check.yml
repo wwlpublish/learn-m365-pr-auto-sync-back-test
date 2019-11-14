@@ -36,13 +36,13 @@ quiz:
     - content: "Conditional access, secure authentication, and identity protection are parts of which security pillar?"
       choices:
       - content: "Identity and access management"
-        isCorrect: false
+        isCorrect: true
         explanation: "These are all components of the Identity and access management pillar."
       - content: "Threat protection"
         isCorrect: false
         explanation: "These are all components of the Identity and access management pillar."
       - content: "Cloud and remote access security"
-        isCorrect: true
+        isCorrect: false
         explanation: "These are all components of the Identity and access management pillar."
       - content: "Information protection"
         isCorrect: false
