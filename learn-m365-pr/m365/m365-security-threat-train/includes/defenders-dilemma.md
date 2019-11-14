@@ -10,7 +10,7 @@ At the same time, attackers have at their disposal numerous effective techniques
 
 The first advantage of the cloud is that it allows you to transfer day to day responsibility for many layers of the stack to the cloud provider. Constant connectivity and resource tracking improvements of cloud technologies let you do more with less resources.
 
-The cloud also makes Threat Detection more effective since the cloud stores and processes massive numbers of events and other threat signals - administrators can use context and machine learning to separate the signal from the noise. 
+The cloud also makes threat detection more effective since the cloud stores and processes massive numbers of events and other threat signals - administrators can use context and machine learning to separate the signal from the noise. 
 
 In addition, the cloud provides a community effect – if 100 customers are protected by cloud threat detection, an investigation of an attack on one benefits the other 99 with little or no effort on their part. 
 

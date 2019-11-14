@@ -3,7 +3,7 @@ uid: learn-m365.m365-security-threat-protect
 metadata:
   title: Protect against threats with Microsoft Defender Advanced Threat Protection
   description: Learn how new threat protection tools from Microsoft protect your organization’s users, devices, and data from attempted attacks.
-  ms.date: 10/14/2019
+  ms.date: 11/13/2019
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
@@ -26,6 +26,7 @@ roles:
 products:
 - m365
 - office-365
+- m365-security-center
 - windows
 units:
 - learn-m365.m365-security-threat-protect.introduction

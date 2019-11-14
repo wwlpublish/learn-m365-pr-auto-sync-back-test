@@ -2,7 +2,7 @@ Microsoft 365 includes two analytic tools that gather data  and use AI to provid
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RWtQu6]
 
-**MyAnalytics** lets you see how you spend your time at work and then suggests ways to work smarter – from cutting unproductive meeting time to getting better work/life balance. MyAnalytics does this by looking at data about emails, meetings, and Teams calls and chats, as well as how you use Office 365. MyAnalytics is included in the Microsoft 365 E5 subscriptions. 
+**MyAnalytics** lets you see how you spend your time at work and then suggests ways to work smarter – from cutting unproductive meeting time to getting better work/life balance. MyAnalytics does this by looking at data about emails, meetings, and Teams calls and chats, as well as how you use Office 365. 
 
 >[!NOTE]
 > MyAnalytics doesn't use agents or tracking software, and it doesn't use data from any other activities on your computer, such as applications or websites viewed. 
