@@ -1,6 +1,6 @@
 ![Checkmark icon](../media/checkmark-icon.png)
 
-All Click-to-Run packages of Office share the same post-deployment servicing approaches. In the planning module, we explained the Office servicing channels used for software update management:
+All Click-to-Run packages of Office share the same post-deployment servicing approaches. In the module **Prepare to upgrade and update Office at scale in Windows**, we explained the Office servicing channels used for software update management:
 
 - Monthly channel
 - Semi-annual channel
@@ -29,4 +29,4 @@ Office update checks and processes use scheduled tasks. A few processes, such as
 
 Office update detection runs, by default, 15, 45, and 75 minutes after the user signs in, daily at 3:00am, and when the device is idle (when there is no user interaction for 15 or more minutes).
 
-If you’re using System Center Configuration Manager, the update engine works in a similar way, but it’s governed by Configuration Manager client policies. You can manually discover and approve updates to your Click-to-Run-packaged Office apps using the standard update approval process.  
+If you’re using Microsoft Endpoint Configuration Manager, the update engine works in a similar way, but it’s governed by Configuration Manager client policies. You can manually discover and approve updates to your Click-to-Run-packaged Office apps using the standard update approval process.  
