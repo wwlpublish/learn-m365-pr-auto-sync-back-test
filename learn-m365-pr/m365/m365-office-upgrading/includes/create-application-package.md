@@ -1,6 +1,6 @@
 ![download icon](../media/download-icon.png)
 
-In this unit, we’ll build an Office 365 ProPlus package using the Office 365 Installer application packaging process in System Center Configuration Manager. This process is similar to the standalone web tool found at [Office 365 Client Configuration Service](https://config.office.com).
+In this unit, we’ll build an Office 365 ProPlus package using the Office 365 Installer application packaging process in Configuration Manager. This process is similar to the standalone web tool found in the Office 365 Client Configuration Service.
 
 You can use the standard application package creation process in Configuration Manager, but you’ll have to create the configuration XML files manually, as well as download an updated version of the Office Deployment Tool and the Office installation files. Because of this and to avoid making mistakes along the way, we recommend you use the Office 365 Installer process, following these steps.
 
@@ -12,7 +12,7 @@ To get started in Configuration Manager, access the Office 365 Installer through
 
 ![Screenshot of the Office Customization Tool](../media/office-customization-tool.png)
 
-4. Walking through the Office Customization Tool experience in Configuration Manager, do the following:
+4. In the Office Customization Tool in Configuration Manager:
 
     1. In **Architecture**, choose the Office architecture.
     2. In **Products**, select the Office suites and apps you want to deploy.
@@ -30,3 +30,9 @@ To get started in Configuration Manager, access the Office 365 Installer through
 ![Screenshot of the Client Installation Wizard](../media/client-installation-wizard.png)
 
 If you haven’t already chosen to deploy in the earlier step, you’re ready to deploy as you normally would using other application packages.
+
+## Learn more
+
+When you're done with a link, use the **Back** arrow in your browser to come back to this page.
+
+- [Office 365 Client Configuration Service and Client Management](https://config.office.com)
