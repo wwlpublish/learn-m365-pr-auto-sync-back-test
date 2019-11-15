@@ -25,6 +25,7 @@ roles:
 - administrator
 products:
 - m365
+- m365-threat-protection
 units:
 - learn-m365.m365-security-threat-define.what-constitutes-threat
 - learn-m365.m365-security-threat-define.landscape-evolving
