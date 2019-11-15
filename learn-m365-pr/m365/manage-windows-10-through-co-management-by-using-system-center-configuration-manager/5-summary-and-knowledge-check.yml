@@ -14,60 +14,61 @@ durationInMinutes: 3
 content: |
   [!include[](includes/5-summary-and-knowledge-check.md)] 
 quiz:
-  questions:
-  - content: "What is the configuration when you manage devices with Microsoft System Center Configuration Manager and enroll to a third-party MDM service?"
-    choices:
-    - content: "Co-management"
-      isCorrect: false
-      explanation: "Incorrect."
-    - content: "Coordinated IT"
-      isCorrect: false
-      explanation: "Incorrect."
-    - content: "Comprehensive"
-      isCorrect: false
-      explanation: "Incorrect."
-    - content: "Coexistence"
-      isCorrect: true
-      explanation: "Correct!"
-  - content: "Which of the following statements best describes how Microsoft 365 workloads must be switched over to co-management if you decide to implement it?"
-    choices:
-    - content: "All Intune workloads must be switched over first."
-      isCorrect: false
-      explanation: "Incorrect."
-    - content: "All workloads must be switched over at once."
-      isCorrect: false
-      explanation: "Incorrect."
-    - content: "Workloads can be switched over on your schedule."
-      isCorrect: true
-      explanation: "Correct!"
-    - content: "All unsupported Configuration Manager workloads must be switched over."
-      isCorrect: false
-      explanation: "Incorrect."
-  - content: "Which path to co-management is described by having new Windows 10 devices that join Azure AD and auto-enroll to Intune but you install Configuration Manager to reach co-management?"
-    choices:
-    - content: "Bootstrap existing clients"
-      isCorrect: false
-      explanation: "Incorrect."
-    - content: "Auto-enroll through Intune"
-      isCorrect: false
-      explanation: "Incorrect."
-    - content: "Auto-enroll existing clients"
-      isCorrect: false
-      explanation: "Incorrect."
-    - content: "Bootstrap with modern provisioning"
-      isCorrect: true
-      explanation: "Correct!"
-  - content: "Which of the following actions is an available remote action from Intune once co-management is enabled in System Center Configuration Manager?"
-    choices:
-    - content: "Remote device flushes"
-      isCorrect: false
-      explanation: "Incorrect."
-    - content: "Remote device wipes"
-      isCorrect: true
-      explanation: "Correct!"
-    - content: "Remote device selective activate"
-      isCorrect: false
-      explanation: "Incorrect."
-    - content: "Remote device reboots"
-      isCorrect: false
-      explanation: "Incorrect."
+    title: Check your knowledge
+    questions:
+    - content: "What is the configuration when you manage devices with Microsoft System Center Configuration Manager and enroll to a third-party MDM service?"
+      choices:
+      - content: "Co-management"
+        isCorrect: false
+        explanation: "Incorrect."
+      - content: "Coordinated IT"
+        isCorrect: false
+        explanation: "Incorrect."
+      - content: "Comprehensive"
+        isCorrect: false
+        explanation: "Incorrect."
+      - content: "Coexistence"
+        isCorrect: true
+        explanation: "Correct!"
+    - content: "Which of the following statements best describes how Microsoft 365 workloads must be switched over to co-management if you decide to implement it?"
+      choices:
+      - content: "All Intune workloads must be switched over first."
+        isCorrect: false
+        explanation: "Incorrect."
+      - content: "All workloads must be switched over at once."
+        isCorrect: false
+        explanation: "Incorrect."
+      - content: "Workloads can be switched over on your schedule."
+        isCorrect: true
+        explanation: "Correct!"
+      - content: "All unsupported Configuration Manager workloads must be switched over."
+        isCorrect: false
+        explanation: "Incorrect."
+    - content: "Which path to co-management is described by having new Windows 10 devices that join Azure AD and auto-enroll to Intune but you install Configuration Manager to reach co-management?"
+      choices:
+      - content: "Bootstrap existing clients"
+        isCorrect: false
+        explanation: "Incorrect."
+      - content: "Auto-enroll through Intune"
+        isCorrect: false
+        explanation: "Incorrect."
+      - content: "Auto-enroll existing clients"
+        isCorrect: false
+        explanation: "Incorrect."
+      - content: "Bootstrap with modern provisioning"
+        isCorrect: true
+        explanation: "Correct!"
+    - content: "Which of the following actions is an available remote action from Intune once co-management is enabled in System Center Configuration Manager?"
+      choices:
+      - content: "Remote device flushes"
+        isCorrect: false
+        explanation: "Incorrect."
+      - content: "Remote device wipes"
+        isCorrect: true
+        explanation: "Correct!"
+      - content: "Remote device selective activate"
+        isCorrect: false
+        explanation: "Incorrect."
+      - content: "Remote device reboots"
+        isCorrect: false
+        explanation: "Incorrect."
