@@ -15,7 +15,9 @@ abstract: |
    - The prerequisites, considerations, and update channel options for Office
    - Office-related network optimization, language, policy, and common configurations
    - Readiness tools to discover and assess the compatibility of Office COM add-ins and VBA Macros 
-prerequisites: None
+prerequisites: | 
+ - Familiarity with Microsoft Office, especially servicing
+ - Familiarity with Configuration Manager
 iconUrl: /learn/achievements/prepare-for-office.svg
 ratingEnabled: true
 levels:
