@@ -4,7 +4,7 @@ In this unit, we’ll explain relevant network considerations, language configur
 
 You can update general purpose devices using automatic updates over the Internet. You can configure Office software updates to use Delivery Optimization in Windows 10. This will minimize Internet and VPN traffic while ensuring your Office installation is kept up-to-date. Delivery Optimization uses peer-to-peer delivery to minimize internet bandwidth usage. You can load updates to a small number of devices on a shared network. Then other connected devices use their network peers to discover and load the updates from them. This prevents every device from individually downloading updates from the internet, saving significant bandwidth.
 
-If your organization uses Microsoft Endpoint Configuration Manager infrastructure, you can configure peer cache to reduce internal network or VPN traffic to remote distribution points. With peer cache in Configuration Manager, you identify well-connected client PCs on a local network to cache deployment source. In this case Office uses Configuration Manager as the software update mechanism. Update traffic is directed to the nearest peer cache device on the network in order to save bandwidth. 
+If your organization uses Configuration Manager infrastructure, you can configure peer cache to reduce internal network or VPN traffic to remote distribution points. With peer cache in Configuration Manager, you identify well-connected client PCs on a local network to cache deployment source. In this case Office uses Configuration Manager as the software update mechanism. Update traffic is directed to the nearest peer cache device on the network in order to save bandwidth. 
 
 ## Language configurations
 
