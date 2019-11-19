@@ -39,7 +39,7 @@ quiz:
       - content: "OwnDrive for Business"
         isCorrect: false
         explanation: "OneDrive for Business is one of the services that should be enabled."
-        - content: "OneNote Online"
+      - content: "OneNote Online"
         isCorrect: true
         explanation: "OneNote Online is not one of the services that should be enabled."
       - content: "Office 365 Group"
