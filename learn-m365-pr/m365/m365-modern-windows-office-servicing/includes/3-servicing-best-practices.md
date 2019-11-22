@@ -19,11 +19,13 @@ You can significantly reduce download size by using a technology like **Express 
 
 ![Express Updates screen](../media/step-7-1.png)
 
-### Try it
+### Explore
 
 >Explore how to optimize Windows 10 updates with this interactive guide:
 >
-> <a href="https://mslearn.cloudguides.com/guides/Optimize%20delivery%20of%20Windows%2010%20updates
+> <a href="https://go.microsoft.com/fwlink/?linkid=2112018
 ">![Optimize delivery of Windows 10 updates](../media/lab-optimize-updates.png)</a>  
 >
->Be sure to click the full-screen option in the video player, to make it easier to see all of the great Microsoft features. When you're done, use the **Back** arrow in your browser to come back to this page. 
+>Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
+
+**Want to try?** View an [interactive version](https://mslearn.cloudguides.com/guides/Optimize%20delivery%20of%20Windows%2010%20updates) of this video (available in English).
