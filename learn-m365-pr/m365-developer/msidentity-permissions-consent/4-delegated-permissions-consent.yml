@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msidentity-permissions-consent.4-delegated-permissions-consent
+metadata:
+  title: Delegated Permissions and Consent
+  description: In this unit, you’ll learn how to request delegated permissions and enable users to grant them to applications with either static or dynamic consent.
+  ms.date: 12/16/2019
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Delegated Permissions and Consent
+durationInMinutes: 5
+content: |
+  [!include[](includes/4-delegated-permissions-consent.md)]

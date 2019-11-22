@@ -1,0 +1,3 @@
+In this module, you learned the different types of permissions supported in Azure AD applications. You also learned about the different consent framework models and how they are used to obtain permissions from users for use in custom apps.
+
+The Microsoft Identity platform implements the OAuth 2.0 authorization protocol. This protocol is a method that a third-party app can access web-hosted resources on behalf of a user. The web-hosted resources can define a set of permissions that can be used to implement functionality in smaller chucks. Developers can leverage one of two types of permissions supported by the Microsoft Identity platform depending on the app scenario.
