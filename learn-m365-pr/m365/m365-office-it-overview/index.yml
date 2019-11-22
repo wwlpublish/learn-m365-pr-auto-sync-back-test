@@ -14,7 +14,9 @@ abstract: |
   In this module, you will learn:
    - The basics of upgrading and servicing Microsoft Office
    - The prepare > optimize > manage workflow for Office upgrades
-prerequisites: None
+prerequisites: | 
+ - Familiarity with Microsoft Office, especially servicing
+ - Familiarity with Configuration Manager
 iconUrl: /learn/achievements/deploy-and-manage-windows-10-and-office-365-proplus.svg
 ratingEnabled: true
 levels:

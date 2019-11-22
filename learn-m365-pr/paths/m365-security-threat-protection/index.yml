@@ -20,6 +20,7 @@ roles:
 products: 
 - m365
 - office-365
+- m365-threat-protection
 modules:
 - learn-m365.m365-security-threat-define
 - learn-m365.m365-security-threat-protect

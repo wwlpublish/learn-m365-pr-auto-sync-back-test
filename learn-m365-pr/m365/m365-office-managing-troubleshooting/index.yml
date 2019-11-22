@@ -15,7 +15,9 @@ abstract: |
    - How to define update management options and how they work across Office 365 ProPlus and Office 2019 editions. 
    - How to add apps, languages, or configurations to existing Office installations using a method called “second install.”
    - How to troubleshoot and manage common issues with software updates, activation, and potentially corrupted or misconfigured installations.
-prerequisites: None
+prerequisites: | 
+ - Familiarity with Microsoft Office, especially servicing
+ - Familiarity with Configuration Manager
 iconUrl: /learn/achievements/manage-office-in-windows-for-it.svg
 ratingEnabled: true
 levels:
