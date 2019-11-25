@@ -9,6 +9,7 @@ In this module, you will learn how to create both types of tabs for use within M
 - Experience using Microsoft Teams at the beginner level
 - Ability to program with JavaScript and Node.js
 - Experience using Visual Studio Code at the beginner level
+- Access to a [Microsoft 365 tenant](https://developer.microsoft.com/office/dev-program?ocid=MSlearn)
 
 ## Learning objectives
 

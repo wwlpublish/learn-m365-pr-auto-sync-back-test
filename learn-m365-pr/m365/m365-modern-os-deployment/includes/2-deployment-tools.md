@@ -4,7 +4,7 @@
 
 There are three primary deployment scenarios, each with specific tools or methodologies:
 
-- **Modern.** (Recommended) These methods are supported with existing tools (like Microsoft Deployment Toolkit (MDT) or System Center Configuration Manager (SCCM):
+- **Modern.** (Recommended) These methods are supported with existing tools (like Microsoft Deployment Toolkit (MDT) or Microsoft Endpoint Configuration Manager:
   - Windows Autopilot. Customize and deploy a new system with apps and settings already configured.
   - In-place upgrade. Use Windows Setup to update your OS and migrate apps and settings.
  

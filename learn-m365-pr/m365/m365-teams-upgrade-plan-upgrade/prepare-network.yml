@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-teams-upgrade-plan-upgrade.prepare-network
+title: Prepare your network for upgrading to Teams
+metadata:
+  title: Prepare your network for upgrading to Teams
+  description: Learn about the network considerations for upgrading to Microsoft Teams, including bandwidth requirements, and how to test and remediate your network.
+  ms.date: 09/27/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 10
+content: |
+  [!include[](includes/prepare-network.md)]

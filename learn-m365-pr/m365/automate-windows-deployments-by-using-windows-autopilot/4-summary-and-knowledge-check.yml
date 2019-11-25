@@ -9,65 +9,65 @@ metadata:
   ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-  ROBOTS:   NOINDEX 
 durationInMinutes: 5
 content: |
   [!include[](includes/4-summary-and-knowledge-check.md)] 
 quiz:
-  questions:
-  - content: "Which of the following describes what Windows Autopilot can be used to do?"
-    choices:
-    - content: "Reset, repurpose, and recover devices."
-      isCorrect: true
-      explanation: "Correct!"
-    - content: "Secure, reset, and recover devices."
-      isCorrect: false
-      explanation: "Incorrect."
-    - content: "Reset, recover, and lock devices."
-      isCorrect: false
-      explanation: "Incorrect."
-    - content: "Deploy, repurpose, and connect devices."
-      isCorrect: false
-      explanation: "Incorrect."
-  - content: "Windows Autopilot self-deploy mode is for which of the following purposes?"
-    choices:
-    - content: "Resetting devices by removing personal files, apps and settings."
-      isCorrect: false
-      explanation: "Incorrect."
-    - content: "Deploying shared devices such as kiosks with little or no user interaction."
-      isCorrect: true
-      explanation: "Correct!"
-    - content: "For devices that don't require Microsoft Intune."
-      isCorrect: false
-      explanation: "Incorrect."
-    - content: "For end-user device deployment where networks are not accessible."
-      isCorrect: false
-      explanation: "Incorrect."
-  - content: "White glove deployments using Windows Autopilot are for which of the following scenarios?"
-    choices:
-    - content: "Devices requiring special handling by the IT department before the end-user takes ownership."
-      isCorrect: false
-      explanation: "Incorrect."
-    - content: "A Windows Autopilot deployment where a white glove is involved."
-      isCorrect: false
-      explanation: "Incorrect."
-    - content: "Devices that must be cleaned after being received by the deploying IT group."
-      isCorrect: false
-      explanation: "Incorrect.  This scenario is not relevant for Windows Autopilot."
-    - content: "Devices that will be fully set up by the Original Equipment Manufacturer (OEM)."
-      isCorrect: true
-      explanation: "Correct!"
-  - content: "Before deploying a device using Windows Autopilot, which of the following must be done?"
-    choices:
-    - content: "The device must be registered with the Windows Autopilot deployment service."
-      isCorrect: true
-      explanation: "Correct!"
-    - content: "The device must be reset to factory specifications."
-      isCorrect: false
-      explanation: "Incorrect.  This step is not necessary."
-    - content: "A valid active directory user must login to the device."
-      isCorrect: false
-      explanation: "Incorrect.  This step is not necessary."
-    - content: "The device's hardware ID must be captured by the manufacturer."
-      isCorrect: false
-      explanation: "Incorrect.  This step is not necessary."
+    title: Check your knowledge
+    questions:
+    - content: "Which of the following describes what Windows Autopilot can be used to do?"
+      choices:
+      - content: "Reset, repurpose, and recover devices."
+        isCorrect: true
+        explanation: "Correct!"
+      - content: "Secure, reset, and recover devices."
+        isCorrect: false
+        explanation: "Incorrect."
+      - content: "Reset, recover, and lock devices."
+        isCorrect: false
+        explanation: "Incorrect."
+      - content: "Deploy, repurpose, and connect devices."
+        isCorrect: false
+        explanation: "Incorrect."
+    - content: "Windows Autopilot self-deploy mode is for which of the following purposes?"
+      choices:
+      - content: "Resetting devices by removing personal files, apps and settings."
+        isCorrect: false
+        explanation: "Incorrect."
+      - content: "Deploying shared devices such as kiosks with little or no user interaction."
+        isCorrect: true
+        explanation: "Correct!"
+      - content: "For devices that don't require Microsoft Intune."
+        isCorrect: false
+        explanation: "Incorrect."
+      - content: "For end-user device deployment where networks are not accessible."
+        isCorrect: false
+        explanation: "Incorrect."
+    - content: "White glove deployments using Windows Autopilot are for which of the following scenarios?"
+      choices:
+      - content: "Devices that will be fully set up by the IT department by the Original Equipment Manufacturer (OEM) before the end-user takes ownership. "
+        isCorrect: true
+        explanation: "Correct."
+      - content: "A Windows Autopilot deployment where a white glove is involved."
+        isCorrect: false
+        explanation: "Incorrect."
+      - content: "Devices that must be cleaned after being received by the deploying IT group."
+        isCorrect: false
+        explanation: "Incorrect.  This scenario is not relevant for Windows Autopilot."
+      - content: "Customized, one-off deployments requiring special handling."
+        isCorrect: false
+        explanation: "Incorrect."
+    - content: "Before deploying a device using Windows Autopilot, which of the following must be done?"
+      choices:
+      - content: "The device must be registered with the Windows Autopilot deployment service."
+        isCorrect: true
+        explanation: "Correct!"
+      - content: "The device must be reset to factory specifications."
+        isCorrect: false
+        explanation: "Incorrect.  This step is not necessary."
+      - content: "A valid active directory user must login to the device."
+        isCorrect: false
+        explanation: "Incorrect.  This step is not necessary."
+      - content: "The device's hardware ID must be captured by the manufacturer."
+        isCorrect: false
+        explanation: "Incorrect.  This step is not necessary."

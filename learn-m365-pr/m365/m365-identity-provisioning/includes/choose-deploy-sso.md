@@ -21,13 +21,15 @@ Plan your SSO configuration. For example, you can:
 
 - Plan role-based access
 
-|![Try it icon](../media/activity.png) Try it|
+###Explore
 |-| 
-|Explore SSO with this interactive guide:<br><br><a href="https://mslearn.cloudguides.com/en-us/guides/Configure%20single%20sign-on%20in%20Azure%20AD">![Single-sign On](../media/sso-cloudguide.png)</a><br><br>Be sure to click the full-screen option in the video player, to make it easier to see. When you're done, use the **Back** arrow in your browser to come back to this page.|
+|Explore SSO with this interactive guide:<br><br><a href="https://go.microsoft.com/fwlink/?linkid=2112014">![Single-sign On](../media/sso-cloudguide.png)</a><br><br>Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page.|
+
+**Want to try?** View an [interactive version](https://mslearn.cloudguides.com/en-us/guides/Configure%20single%20sign-on%20in%20Azure%20AD) of this video (available in English).
 
 ## What is role-based access
 
-Role-based access control (RBAC) is an authorization system that helps you manage who has access to which Azure resources, what they can do with those resources, and what areas they have access to. RBAC allows you to segregate duties within your organizations and grant only the amount of access to users that they need to perform their jobs. You control access to your resources using RBAC by creating role assignments that define a security principle (identity), role definition (a series of permissions), and scope (who, what, where).
+Role-based access control (RBAC) is an authorization system that helps you manage who has access to which Azure resources, what they can do with those resources, and what areas they have access to. RBAC allows you to segregate duties within your organizations and grant only the amount of access to users that they need to perform their jobs. You control access to your resources using RBAC by creating role assignments that define a security principal (identity), role definition (a series of permissions), and scope (who, what, where).
 
 ## Role definition and scope
 

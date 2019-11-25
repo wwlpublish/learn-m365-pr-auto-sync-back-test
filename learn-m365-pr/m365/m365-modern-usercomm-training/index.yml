@@ -23,6 +23,8 @@ roles:
 - administrator
 products:
 - m365
+- windows
+- office-365
 units:
 - learn-m365.modern-usercomm-training.1-introduction
 - learn-m365.modern-usercomm-training.2-communicating-benefits

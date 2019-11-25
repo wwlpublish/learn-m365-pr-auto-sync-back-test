@@ -22,7 +22,7 @@ In-place upgrades are typically faster than traditional deployments because appl
 
 ## In-place upgrades using task sequence automation
 
-You can have more control over the upgrade process by using tools like System Center Configuration Manager to completely automate the upgrade process through task sequences. When task sequences run, they run the actions of each step at the command-line level in the Local System context. This means the task sequence is fully automated with no user intervention.
+You can have more control over the upgrade process by using tools like Configuration Manager to completely automate the upgrade process through task sequences. When task sequences run, they run the actions of each step at the command-line level in the Local System context. This means the task sequence is fully automated with no user intervention.
 
 Previous versions of Windows didn’t require a task sequence for in-place upgrades, but we do recommend it when deploying Windows 10 at enterprise scale. And while an in-place upgrade doesn’t let you apply a custom image with applications, you can update the default install.wim by, for example, installing the latest Windows updates in your task sequence prior to performing the upgrade.
 

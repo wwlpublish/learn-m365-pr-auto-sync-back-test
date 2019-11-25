@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-office.m365-upgrading-office.monitoring-office-updates-upgrades
+title: Monitor Office upgrades and updates using Configuration Manager
+metadata:
+  title: Monitor Office upgrades and updates using Configuration Manager
+  description:  Learn how to monitor Office upgrades and updates by using Configuration Manager.
+  ms.date: 11/14/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/monitoring-office-updates-upgrades.md)]

@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-teams-upgrade-getting-started.why-move
+title: Why move to Teams?
+metadata:
+  title: Why move to Teams?
+  description: Discover the upgrade process from Skype for Business to Microsoft Teams. Learn how Skype for Business and Microsoft Teams coexist during the upgrade process and what hybrid connectivity is.
+  ms.date: 09/27/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 3
+content: |
+  [!include[](includes/why-move.md)]

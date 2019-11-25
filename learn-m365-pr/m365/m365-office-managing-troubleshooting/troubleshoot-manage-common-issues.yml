@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-office.m365-managing-troubleshooting-office.troubleshoot-manage-common-issues
+title: Troubleshoot and manage common issues with software updates, activation, and misconfigured installations
+metadata:
+  title: Troubleshoot and manage common issues with software updates, activation, and misconfigured installations
+  description: Learn how to troubleshoot and manage common issues with software updates, activation, and misconfigured installations.
+  ms.date: 09/19/2019
+  author: puffinanda
+  ms.author: v-jolev
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/troubleshoot-manage-common-issues.md)]

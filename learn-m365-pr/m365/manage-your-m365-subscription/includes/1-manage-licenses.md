@@ -5,12 +5,15 @@ The **Microsoft 365 admin center** is where you create user accounts and assign 
 ![Microsoft 365 admin portal](../media/1-admin-portal.png)
 *Acquire licenses in the Microsoft 365 admin center*
 
-> ### Try it
->Explore the Microsoft 365 admin center with this interactive guide:
->
-> <a href="https://mslearn.cloudguides.com/guides/Get%20to%20know%20the%20Microsoft%20365%20admin%20center">![Tour the Microsoft 365 admin portal](../media/lab-admin-image.png)</a>  
->
->Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
+### Explore
+
+Explore the Microsoft 365 admin center
+
+<a href="https://go.microsoft.com/fwlink/?linkid=2111815">![Tour the Microsoft 365 admin center](../media/lab-admin-image.png)</a>  
+
+Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
+
+**Want to try?** View an [interactive version](https://mslearn.cloudguides.com/guides/Get%20to%20know%20the%20Microsoft%20365%20admin%20center) of this video (available in English).
 
 You can manage expired licenses in the admin center. If you don't renew a license or are past due paying for the latest billing cycle, the user with the expired license won't be able to use all of their Microsoft 365 products. You either need to renew the license or assign them a different, active license. 
 
@@ -20,8 +23,12 @@ You can also turn access to functions like Exchange Online or Microsoft Teams on
 
 *Enable or disable individual functions for a license* 
 
-> ### Try it
->Learn how to manage your Microsoft 365 licenses with this interactive guide:
->
-> <a href="https://mslearn.cloudguides.com/guides/Manage%20licenses%20in%20Microsoft%20365">![Manage Microsoft 365 licenses](../media/lab-licenses-image.png)</a>  
->
+### Explore
+
+Explore how to manage your Microsoft 365 licenses
+
+<a href="https://go.microsoft.com/fwlink/?linkid=2111812">![Manage licenses in Microsoft 365](../media/lab-licenses-image.png)</a>  
+
+Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
+
+**Want to try?** View an [interactive version](https://mslearn.cloudguides.com/guides/Manage%20licenses%20in%20Microsoft%20365) of this video (available in English).

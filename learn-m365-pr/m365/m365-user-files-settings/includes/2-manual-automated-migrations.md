@@ -10,7 +10,7 @@ Whether the manual approach is an option in your organization depends on the sca
 
 ## Migrate user data with the User State Migration Tool
 
-For large-scale deployments, you can automate much of the process using task sequence-based automation tools like System Center Configuration Manager or the Microsoft Deployment Toolkit (MDT). Both these solutions use the **User State Migration Tool (USMT)** as part of the end-to-end deployment process. USMT, part of the Windows Assessment and Deployment Kit (Windows ADK), captures user accounts, user files, operating system settings, and application settings, and then migrates them to a new Windows installation. It also gives you control of exactly what gets migrated – you can exclude unwanted file types, like audio and video files, or executables.
+For large-scale deployments, you can automate much of the process using task sequence-based automation tools like Microsoft Endpoint Configuration Manager or the Microsoft Deployment Toolkit (MDT). Both these solutions use the **User State Migration Tool (USMT)** as part of the end-to-end deployment process. USMT, part of the Windows Assessment and Deployment Kit (Windows ADK), captures user accounts, user files, operating system settings, and application settings, and then migrates them to a new Windows installation. It also gives you control of exactly what gets migrated – you can exclude unwanted file types, like audio and video files, or executables.
 
 During the migration process, you need to have sufficient server storage capacity available to act as a temporary migration store, which is where USMT offers two important features: 
 
@@ -19,13 +19,15 @@ During the migration process, you need to have sufficient server storage capacit
 
 If you’re performing a PC refresh and not reformatting the primary Windows partition, you also have the option of using a hard-link migration store with USMT. This process preserves the user state on the PC while the old operating system and apps are removed and refreshed. With the restore process coming from the same local partition, this option offers significant improvements in performance and reduces network traffic.
 
-### Try it
+### Explore
 
 >Explore the User State Migration Tool with this interactive guide:
 >
-> <a href="https://mslearn.cloudguides.com/guides/Migrate%20user%20state%20data">![Migrate user state data](../media/lab-user-state.png)</a>  
+> <a href="https://go.microsoft.com/fwlink/?linkid=2111820">![Migrate user state data](../media/lab-user-state.png)</a>  
 >
 >Be sure to click the full-screen option in the video player, to make it easier to see all of the great Microsoft features. When you're done, use the **Back** arrow in your browser to come back to this page. 
+
+**Want to try?** View an [interactive version](https://mslearn.cloudguides.com/guides/Migrate%20user%20state%20data) of this video (available in English).
 
 ## Migrate user data with OneDrive known folder move
 
@@ -37,12 +39,13 @@ Users don’t need to change their workflow – everything looks the same before
 
 Authentication for OneDrive is powered by Azure Active Directory, so for extra security and to limit network activity, you can enable multi-factor authentication and set policies to control the upload and download bandwidth OneDrive uses. 
 
-### Try it
+### Explore
 
 >Learn about OneDrive known folder move with this interactive guide:
 >
-> <a href="https://mslearn.cloudguides.com/guides/Migrate%20Windows%20known%20folders%20to%20OneDrive">![Migrate Windows known folders to OneDrive](../media/lab-known-folders.png)</a>  
+> <a href="https://go.microsoft.com/fwlink/?linkid=2111818">![Migrate Windows known folders to OneDrive](../media/lab-known-folders.png)</a>  
 >
->Be sure to click the full-screen option in the video player, to make it easier to see all of the great Microsoft features. When you're done, use the **Back** arrow in your browser to come back to this page. 
+>Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
 
+**Want to try?** View an [interactive version](https://mslearn.cloudguides.com/guides/Migrate%20Windows%20known%20folders%20to%20OneDrive) of this video (available in English).
 

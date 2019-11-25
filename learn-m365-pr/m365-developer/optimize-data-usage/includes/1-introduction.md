@@ -9,7 +9,7 @@ This module will also cover other query parameters that can be used for combinin
 - Basic knowledge of REST services and APIs
 - Ability to develop with ASP.NET Core at the intermediate level
 - Experience using Visual Studio Code at the beginner level
-- Access to an Office 365 tenant
+- Access to a [Microsoft 365 tenant](https://developer.microsoft.com/office/dev-program?ocid=MSlearn)
   
 ## Learning Objectives
 

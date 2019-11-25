@@ -13,7 +13,7 @@ Additionally, for Office 365 applications, Microsoft offers a fully-supported **
 
 ## Semi-annual feature updates
 
-In order to manage larger and semi-annual updates, you can use policy settings with Windows Update for Business, software update management via System Center Configuration Manager, Windows Server Update Services (WSUS), or policies set by Microsoft Intune. If network bandwidth is a concern, consider one of the options to reduce network traffic - delivery optimization, Express Updates, and other peer-to-peer caching technologies.
+In order to manage larger and semi-annual updates, you can use policy settings with Windows Update for Business, software update management via Microsoft Endpoint Configuration Manager, Windows Server Update Services (WSUS), or policies set by Microsoft Intune. If network bandwidth is a concern, consider one of the options to reduce network traffic - delivery optimization, Express Updates, and other peer-to-peer caching technologies.
 
 The support timeline for updates depends on the specific product you’re using. You can review the timelines at https://support.microsoft.com/en-us/lifecycle/selectindex - search for the product you’re using, like "Windows 10, version 1903" (a semi-annual channel release) to see the exact support duration.
 
@@ -23,11 +23,12 @@ Quality and security updates are delivered using a cumulative model – each sub
 
 With the cumulative model, your PCs are always one update away from being current, so there are fewer monthly updates you have to deploy. Each update builds on updates from previous months and contains all the fixes that are needed to get current. Cumulative updates are especially helpful when a PC has been turned off for several months.
 
-### Try it
+### Explore
 
 >Explore Windows 10 servicing options with this interactive guide:
 >
-> <a href="https://mslearn.cloudguides.com/guides/Discover%20servicing%20options%20for%20Windows%2010">![Discover servicing options for Windows 10](../media/lab-servicing-options.png)</a>  
+> <a href="https://go.microsoft.com/fwlink/?linkid=2112019">![Discover servicing options for Windows 10](../media/lab-servicing-options.png)</a>  
 >
->Be sure to click the full-screen option in the video player, to make it easier to see all of the great Microsoft features. When you're done, use the **Back** arrow in your browser to come back to this page. 
+>Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
 
+**Want to try?** View an [interactive version](https://mslearn.cloudguides.com/guides/Discover%20servicing%20options%20for%20Windows%2010) of this video (available in English).

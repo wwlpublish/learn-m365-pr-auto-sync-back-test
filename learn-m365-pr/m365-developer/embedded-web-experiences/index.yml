@@ -15,26 +15,26 @@ abstract: |
   - Evaluate the differences between personal and channel/group tabs
   - Create a channel/group tab with a configuration experience
   - Create a tab that leverages authentication to call a protected REST API
-prerequisites: | 
+prerequisites: |
   - Experience using Microsoft Teams at the beginner level
   - Ability to program with JavaScript and Node.js
   - Experience using Visual Studio Code at the beginner level
-iconUrl: https://docs.microsoft.com/media/learn/module.svg
-levels: 
-- beginner
-- intermediate
-roles: 
-- developer
-products: 
-- m365
+iconUrl: /learn/achievements/embedded-web-experiences.svg
+levels:
+  - intermediate
+roles:
+  - developer
+products:
+  - m365
+  - office-teams
 units:
-- learn-m365.embedded-web-experiences.1-introduction
-- learn-m365.embedded-web-experiences.2-create-custom-teams-personal-tab
-- learn-m365.embedded-web-experiences.3-exercise-create-custom-teams-personal-tab
-- learn-m365.embedded-web-experiences.4-create-custom-teams-channel-tab
-- learn-m365.embedded-web-experiences.5-exercise-create-custom-teams-channel-tab
-- learn-m365.embedded-web-experiences.6-implement-tab-authentication
-- learn-m365.embedded-web-experiences.7-exercise-implement-tab-authentication
-- learn-m365.embedded-web-experiences.8-summary
+  - learn-m365.embedded-web-experiences.1-introduction
+  - learn-m365.embedded-web-experiences.2-create-custom-teams-personal-tab
+  - learn-m365.embedded-web-experiences.3-exercise-create-custom-teams-personal-tab
+  - learn-m365.embedded-web-experiences.4-create-custom-teams-channel-tab
+  - learn-m365.embedded-web-experiences.5-exercise-create-custom-teams-channel-tab
+  - learn-m365.embedded-web-experiences.6-implement-tab-authentication
+  - learn-m365.embedded-web-experiences.7-exercise-implement-tab-authentication
+  - learn-m365.embedded-web-experiences.8-summary
 badge:
   uid: learn-m365.embedded-web-experiences.badge

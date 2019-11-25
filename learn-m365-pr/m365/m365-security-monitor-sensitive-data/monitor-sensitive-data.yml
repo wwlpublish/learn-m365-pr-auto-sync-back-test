@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-security-monitor-sensitive-data.monitor-sensitive-data
+title: Monitor and analyze sensitive data
+metadata:
+  title: Monitor and analyze sensitive data
+  description: Learn how to monitor and analyze sensitive data.  
+  ms.date: 09/30/2019
+  author: puffinanda
+  ms.author: v-jolev
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 4
+content: |
+  [!include[](includes/monitor-sensitive-data.md)]

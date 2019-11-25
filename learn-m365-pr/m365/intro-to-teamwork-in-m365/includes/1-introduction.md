@@ -15,3 +15,9 @@ You can store your content in the cloud with **SharePoint** and **OneDrive for B
 
 The teamwork tools in Microsoft 365 are built on an intelligent fabric that keeps it all connected and secured no matter what app or service you are working in as a team. **Microsoft Graph** provides a connection between people and relevant content. **Office 365 Groups** enable a single team identity across apps and services and **centralized policy management** enhances security and compliance. 
 
+## Learn more
+
+When you're done with a link, use the **Back** arrow in your browser to come back to this page.
+
+- [Overview of Microsoft Graph](https://docs.microsoft.com/graph/overview)
+- [Understand Teams management tools-Microsoft Graph API](https://docs.microsoft.com/learn/modules/m365-teams-collab-prepare-deployment/management-tools)

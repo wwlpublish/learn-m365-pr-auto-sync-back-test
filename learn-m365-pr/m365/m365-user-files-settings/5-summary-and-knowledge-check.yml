@@ -9,7 +9,6 @@ metadata:
   ms.author: aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-  ROBOTS: NOINDEX
 durationInMinutes: 5
 content: |
   [!include[](includes/5-summary-and-knowledge-check.md)]
@@ -35,11 +34,17 @@ quiz:
       - content: "False"
         isCorrect: false
         explanation: "Incorrect. Both System Center Configuration Manager and the Microsoft Deployment Toolkit (MDT) use the User State Migration Tool (USMT) as part of their deployment process."
-    - content: "OneDrive Known Folder Move transfers user files stored in a user's documents, desktop, and pictures folders."
+    - content: "Which of the following statements is NOT true about OneDrive known folder move?" 
       choices:
-      - content: "True"
+      - content: "OneDrive known folder move allows users to select the folders and locations they want to move to their updated systems."
         isCorrect: true
-        explanation: "Correct. Use OneDrive Known Folder Move to transfer user files."
-      - content: "False"
+        explanation: "Correct. With OneDrive known folder move, admins target the documents, desktop, and pictures folders within a user profile."
+      - content: "OneDrive known folder move uses the cloud to synchronize user files."
         isCorrect: false
-        explanation: "Incorrect. Use OneDrive Known Folder Move to transfer user files."
+        explanation: "Incorrect. With OneDrive known folder move, admins target the documents, desktop, and pictures folders within a user profile."
+      - content: "OneDrive known folder move eliminates the need to create temporary migration stores on your own servers."
+        isCorrect: false
+        explanation: "Incorrect. With OneDrive known folder move, admins target the documents, desktop, and pictures folders within a user profile."
+      - content: "OneDrive known folder move has the potential to be completely transparent to the user."
+        isCorrect: false
+        explanation: "Incorrect. With OneDrive known folder move, admins target the documents, desktop, and pictures folders within a user profile."

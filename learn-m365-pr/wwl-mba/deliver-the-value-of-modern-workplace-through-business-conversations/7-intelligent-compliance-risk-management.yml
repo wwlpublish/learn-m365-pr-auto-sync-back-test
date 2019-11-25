@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.customer-conversations.7-intelligent-compliance-and-risk-management
+title: Intelligent compliance and risk management
+metadata:
+  title: Intelligent compliance and risk management
+  description: Intelligent compliance and risk management
+  ms.date: 10/15/2019
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+
+durationInMinutes: 15
+content: |
+  [!include[](includes/7-intelligent-compliance-risk-management.md)]

@@ -20,23 +20,23 @@ prerequisites: |
   - Basic knowledge of REST services and APIs
   - Ability to develop with ASP.NET Core at the intermediate level
   - Experience using Visual Studio Code at the beginner level
-  - Access to an Office 365 tenant
+  - Access to a Microsoft 365 tenant
 iconUrl: /learn/achievements/optimize-data-usage.svg
 levels:
-- beginner
-- intermediate
+  - intermediate
 roles:
-- developer
+  - developer
 products:
-- ms-graph
+  - ms-graph
+  - m365
 units:
-- learn-m365.optimize-data-usage.1-introduction
-- learn-m365.optimize-data-usage.2-microsoft-graph-query-parameters
-- learn-m365.optimize-data-usage.3-exercise-retrieve-control-information-returned-from-microsoft-graph
-- learn-m365.optimize-data-usage.4-expand-related-entities-search-content-microsoft-graph
-- learn-m365.optimize-data-usage.5-exercise-expand-related-entities-search-content-microsoft-graph
-- learn-m365.optimize-data-usage.6-reduce-traffic-with-batched-requests
-- learn-m365.optimize-data-usage.7-exercise-reduce-traffic-with-batched-requests
-- learn-m365.optimize-data-usage.8-summary
+  - learn-m365.optimize-data-usage.1-introduction
+  - learn-m365.optimize-data-usage.2-microsoft-graph-query-parameters
+  - learn-m365.optimize-data-usage.3-exercise-retrieve-control-information-returned-from-microsoft-graph
+  - learn-m365.optimize-data-usage.4-expand-related-entities-search-content-microsoft-graph
+  - learn-m365.optimize-data-usage.5-exercise-expand-related-entities-search-content-microsoft-graph
+  - learn-m365.optimize-data-usage.6-reduce-traffic-with-batched-requests
+  - learn-m365.optimize-data-usage.7-exercise-reduce-traffic-with-batched-requests
+  - learn-m365.optimize-data-usage.8-summary
 badge:
   uid: learn-m365.optimize-data-usage.badge

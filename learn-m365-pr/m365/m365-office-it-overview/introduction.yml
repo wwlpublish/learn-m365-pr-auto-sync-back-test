@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit 
+uid: learn-m365-office.m365-office-it-overview.introduction
+title: Understand the basics of Office servicing 
+metadata:
+  title: Understand the basics of Office servicing 
+  description: Review the basic concepts and tools used to deploy and manage updates for Microsoft Office.
+  ms.date: 10/11/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 6
+content: |
+  [!include[](includes/introduction.md)]

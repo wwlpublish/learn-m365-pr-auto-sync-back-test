@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-teams-upgrade-getting-started.upgrade-process
+title: The Teams upgrade process
+metadata:
+  title: The Teams upgrade process
+  description: Discover the upgrade process from Skype for Business to Microsoft Teams. Learn how Skype for Business and Microsoft Teams coexist during the upgrade process and what hybrid connectivity is.
+  ms.date: 09/27/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 2
+content: |
+  [!include[](includes/upgrade-process.md)]

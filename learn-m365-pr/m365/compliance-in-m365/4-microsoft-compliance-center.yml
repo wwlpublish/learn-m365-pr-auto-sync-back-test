@@ -1,15 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.compliance-m365.4-microsoft-compliance-center
-title: Microsoft Compliance Center
+title: Microsoft compliance center
 metadata:
-  title: Microsoft Compliance Center
-  description: Learn about Microsoft Compliance Center
-  msdate: 03/18/2019
-  author: lizap
-  ms.author: elizapo
+  title: Microsoft compliance center
+  description: Learn about Microsoft compliance center
+  msdate: 11/22/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-  ROBOTS: NOINDEX
 durationInMinutes: 6
 content: |
   [!include[](includes/4-microsoft-compliance-center.md)]

@@ -20,7 +20,7 @@ prerequisites: |
   - Basic knowledge of REST services and APIs
   - Ability to develop with ASP.NET Core at the intermediate level
   - Experience using Visual Studio Code at the beginner level
-  - Access to an Office 365 tenant
+  - Access to a Microsoft 365 tenant
 iconUrl: /learn/achievements/optimize-network-traffic.svg
 levels:
   - intermediate
@@ -28,14 +28,15 @@ roles:
   - developer
 products:
   - ms-graph
+  - m365
 units:
-- learn-m365.optimize-network-traffic.1-introduction
-- learn-m365.optimize-network-traffic.2-understand-throttling-microsoft-graph
-- learn-m365.optimize-network-traffic.3-exercise-understand-throttling-microsoft-graph
-- learn-m365.optimize-network-traffic.4-avoid-throttling-implement-throttling-strategies
-- learn-m365.optimize-network-traffic.5-exercise-avoid-throttling-implement-throttling-strategies
-- learn-m365.optimize-network-traffic.6-eliminate-polling-microsoft-graph-delta-query
-- learn-m365.optimize-network-traffic.7-exercise-eliminate-polling-microsoft-graph-delta-query
-- learn-m365.optimize-network-traffic.8-summary
+  - learn-m365.optimize-network-traffic.1-introduction
+  - learn-m365.optimize-network-traffic.2-understand-throttling-microsoft-graph
+  - learn-m365.optimize-network-traffic.3-exercise-understand-throttling-microsoft-graph
+  - learn-m365.optimize-network-traffic.4-avoid-throttling-implement-throttling-strategies
+  - learn-m365.optimize-network-traffic.5-exercise-avoid-throttling-implement-throttling-strategies
+  - learn-m365.optimize-network-traffic.6-eliminate-polling-microsoft-graph-delta-query
+  - learn-m365.optimize-network-traffic.7-exercise-eliminate-polling-microsoft-graph-delta-query
+  - learn-m365.optimize-network-traffic.8-summary
 badge:
   uid: learn-m365.optimize-network-traffic.badge

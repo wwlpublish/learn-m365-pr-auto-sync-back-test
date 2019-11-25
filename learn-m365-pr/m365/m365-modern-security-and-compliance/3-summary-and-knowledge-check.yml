@@ -9,7 +9,6 @@ metadata:
   ms.author: aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-  ROBOTS: NOINDEX
 durationInMinutes: 3
 content: |
   [!include[](includes/3-summary-and-knowledge-check.md)]
@@ -37,12 +36,13 @@ quiz:
         explanation: "Incorrect. You can configure Windows Hello to use the device itself, a PIN, or a unique biometric identifier like a face or fingerprint, which you can enforce using policy."
     - content: "Which of the following is a new security capability in Windows 10?"
       choices:
+      - content: "Microsoft Intune"
+        isCorrect: false
+        explanation: "No. Microsoft Intune is a separate product, not a security feature in Windows 10."
       - content: "Virtualization-based security"
         isCorrect: true
         explanation: "Correct. Windows 10 now includes built-in virtualization-based security."
       - content: "Disk encryption"
         isCorrect: false
         explanation: "Incorrect. While important and included in Windows 10, disk encryption was introduced in Windows Vista with BitLocker."
-      - content: "Microsoft Intune"
-        isCorrect: false
-        explanation: "No. Microsoft Intune is a separate product, not a security feature in Windows 10."
+

@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-office.m365-office-it-overview.understanding-office
+title: Review the Office upgrade workflow
+metadata:
+  title: Review the Office upgrade workflow
+  description: Review the three step workflow for deploying and managing Office updates. 
+  ms.date: 10/11/2019
+  author: lizap 
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 2
+content: |
+  [!include[](includes/understanding-office.md)]
