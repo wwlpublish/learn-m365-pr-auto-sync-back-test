@@ -39,7 +39,7 @@ quiz:
         explanation: "Claims-based authentication is available in SharePoint Online and SharePoint Server."
       - content: "Data loss prevention policies are available in SharePoint Online and SharePoint Server."
         isCorrect: false
-        explanation: "Data loss prevention policies are available in SharePoint Online and SharePoint Server."
+        explanation: "Data loss prevention policies are available in SharePoint Online but not SharePoint Server."
       - content: "Encryption of data at rest (data on disk) is only available in SharePoint Server."
         isCorrect: false
         explanation: "Encryption of data at rest (data on disk) is available in SharePoint Online and SharePoint Server."
