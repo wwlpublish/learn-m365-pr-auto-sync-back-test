@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-teams-upgrade-plan-upgrade.prepare-users
+title: Prepare your users for Teams
+metadata:
+  title: Prepare your users for Teams
+  description: Learn how to prepare your users to get the most out of Microsoft Teams, including a discussion of organizational change readiness.
+  ms.date: 09/27/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/prepare-users.md)]

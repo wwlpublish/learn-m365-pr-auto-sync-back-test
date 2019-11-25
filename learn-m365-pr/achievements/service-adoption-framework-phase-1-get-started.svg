@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Drive adoption of Microsoft cloud services to enable business outcomes/service-adoption-framework-phase-1-get-started</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="96" height="96" rx="48"></rect>
+        <path d="M39.4050362,32.7082081 C39.4551293,32.7082081 39.5037345,32.7146557 39.5533316,32.7156476 C40.2397558,29.3162607 43.2428617,26.7565532 46.8446048,26.7565532 C50.0644501,26.7565532 52.7982436,28.8054104 53.8338316,31.6676604 C54.4210615,31.3839648 55.0767355,31.2202943 55.7720872,31.2202943 C58.2375602,31.2202943 60.2358283,33.2185625 60.2358283,35.6840355 C60.2358283,35.7544634 60.2283888,35.8224115 60.2254129,35.8918475 C62.5197759,36.537106 64.2035982,38.6395281 64.2035982,41.1397191 C64.2035982,44.1527444 61.7609399,46.5954028 58.7479146,46.5954028 L39.4050362,46.5954028 C35.5701866,46.5954028 32.4614389,43.4866551 32.4614389,39.6518054 C32.4614389,35.8169558 35.5701866,32.7082081 39.4050362,32.7082081" id="path-3"></path>
+        <filter x="-0.4%" y="-0.6%" width="100.8%" height="102.5%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="0.25" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.249094203 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <path d="M54.0716506,55.2553167 L49.4268751,49.681586 C48.7208692,48.8343789 47.2791308,48.8343789 46.5731249,49.681586 L41.9283494,55.2553167 C41.2715781,56.0439995 41.377479,57.214483 42.1661619,57.8712542 C42.9548448,58.5280255 44.1253282,58.4221246 44.7820995,57.6334417 L46.1420898,56.0021966 L46.1420898,62.0181099 C46.1420898,63.0446053 46.9735046,63.8760201 48,63.8760201 C49.0255664,63.8760201 49.8579102,63.0446053 49.8579102,62.0181099 L49.8579102,56.0021966 L51.2179005,57.6334417 C51.5848378,58.0746954 52.1134132,58.3022894 52.6457045,58.3022894 C53.0646633,58.3022894 53.4864089,58.1610882 53.8338381,57.8712542 C54.622521,57.214483 54.7284219,56.0439995 54.0716506,55.2553167" id="path-5"></path>
+        <filter x="-1.0%" y="-0.8%" width="101.9%" height="103.4%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="0.25" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.249094203 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Badges" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Drive-adoption-of-Microsoft-cloud-services-to-enable-business-outcomes" transform="translate(-50.000000, -460.000000)">
+            <g id="Drive-adoption-of-Microsoft-cloud-services-to-enable-business-outcomes/service-adoption-framework-phase-1-get-started" transform="translate(50.000000, 460.000000)">
+                <g id="Mask" transform="translate(2.000000, 2.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="BG" fill="#55A2FF" xlink:href="#path-1"></use>
+                    <g id="Book" mask="url(#mask-2)">
+                        <g transform="translate(24.203944, 17.329839)">
+                            <path d="M0.832518557,55.6124645 L0.832518557,61.6124645 C0.839673316,62.8067453 1.6709668,63.6146507 2.83251856,63.6124645 L46.8325186,63.6124645 L46.8325186,55.6124645 L0.832518557,55.6124645 Z" id="Shape" fill="#BE9555" fill-rule="nonzero"></path>
+                            <path d="M2.83251856,56.6124645 L2.83251856,60.6124645 C2.86672747,61.717521 3.75260508,62.6147293 4.78807411,62.6124645 L46.8325186,62.6124645 L46.8325186,56.6124645 L2.83251856,56.6124645 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                            <polygon id="Shape" fill="#4F4D52" fill-rule="nonzero" opacity="0.2" points="2.83251856 56.6124645 2.83251856 57.6124645 46.8325186 57.6124645 46.8325186 56.6124645"></polygon>
+                            <polygon id="Shape" fill="#4F4D52" fill-rule="nonzero" opacity="0.2" points="20.8325186 56.6124645 26.8325186 62.6124645 20.8325186 62.6124645"></polygon>
+                            <polygon id="Shape" fill="#EF6F59" fill-rule="nonzero" points="21.8325186 66.6124645 17.8325186 64.6124645 14.8325186 66.6124645 14.8325186 56.6124645 21.8325186 56.6124645"></polygon>
+                            <polygon id="Shape" fill="#F7CB64" fill-rule="nonzero" points="46.8325186 55.6124645 0.832518557 55.6124645 0.832518557 0.612464493 46.8325186 0.612464493"></polygon>
+                            <path d="M23.8325186,51.6124645 C23.8325186,52.7164645 22.9384486,53.6124645 21.8325186,53.6124645 L0.832518557,53.6124645 L0.832518557,55.6124645 L46.8325186,55.6124645 L46.8325186,3.61246449 L25.8325186,3.61246449 C24.7265885,3.61246449 23.8325186,4.50746449 23.8325186,5.61246449 L23.8325186,51.6124645 Z" id="Fill-361" fill-opacity="0.126868207" fill="#000000" fill-rule="evenodd"></path>
+                        </g>
+                    </g>
+                    <g id="Fill-11" mask="url(#mask-2)">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use fill="#4C3B12" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    </g>
+                    <g id="Fill-333" mask="url(#mask-2)">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                        <use fill="#4C3B12" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    </g>
+                </g>
+                <g id="Azure-Border" stroke="#0078D4" stroke-width="4">
+                    <rect x="2" y="2" width="96" height="96" rx="48"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

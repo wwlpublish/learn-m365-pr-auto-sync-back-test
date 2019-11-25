@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn-m365.m365-teams-collab-manage-meetings
+metadata:
+  title: Manage meetings, conferences, and events with Microsoft Teams 
+  description: Learn how to plan and manage Microsoft Teams meetings and conferences. Discover how audio conferencing and live events work in Teams.
+  ms.date: 09/03/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage meetings, conferences, and events with Microsoft Teams 
+summary: Learn how to plan and manage Microsoft Teams meetings and conferences. Discover how audio conferencing and live events work in Teams.  
+abstract: |
+  At the end of this module, you should be able to:
+  - Plan for meeting and conferencing deployment.
+  - Manage meeting policies and settings.
+  - Manage meeting recordings.
+  - Plan for audio conferencing.
+  - Plan for live events.
+  - Monitor call quality.
+prerequisites: None
+iconUrl: /learn/achievements/manage-meetings-conferences-and-events-in-ms-teams.svg
+levels:
+- beginner
+roles:
+- administrator
+products:
+- m365
+- office-365
+- office-teams
+units:
+- learn-m365.m365-teams-collab-manage-meetings.introduction
+- learn-m365.m365-teams-collab-manage-meetings.meeting-conferencing-deployment
+- learn-m365.m365-teams-collab-manage-meetings.meeting-policies
+- learn-m365.m365-teams-collab-manage-meetings.meeting-settings
+- learn-m365.m365-teams-collab-manage-meetings.meeting-recordings
+- learn-m365.m365-teams-collab-manage-meetings.audio-conferencing
+- learn-m365.m365-teams-collab-manage-meetings.live-events
+- learn-m365.m365-teams-collab-manage-meetings.monitor-call-quality
+- learn-m365.m365-teams-collab-manage-meetings.summary-knowledge-check
+badge: 
+  uid: learn-m365.m365-teams-collab-manage-meetings.badge

@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-office-it-prepare.readinesstools
+title: Review the readiness tools available to upgrade and update Office at scale
+metadata:
+  title: Review the readiness tools available to upgrade and update Office at scale
+  description: Review the Microsoft readiness tools that help you discover and assess the compatibility of Office COM add-ins and VBA Macros. 
+  ms.date: 09/09/2019
+  author: lizap 
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 7
+content: |
+  [!include[](includes/readinesstools.md)]

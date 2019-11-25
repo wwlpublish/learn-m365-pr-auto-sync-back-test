@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.prepare-for-wvd.integrate-aad-adds
+title: Integrate Azure AD with Active Directory Domain Services
+metadata:
+  title: Integrate Azure AD with Active Directory Domain Services
+  description: Learn about your options to integrate Azure AD and Active Directory Domain Services.
+  ms.date: 08/16/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/integrate-aad-adds.md)]

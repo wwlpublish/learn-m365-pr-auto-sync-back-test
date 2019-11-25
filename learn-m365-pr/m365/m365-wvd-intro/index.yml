@@ -1,0 +1,30 @@
+### YamlMime:Module
+uid: learn-m365.wvd-intro
+metadata:
+  title: Introduction to Windows Virtual Desktop in Microsoft Azure
+  description: Learn how to use Windows Virtual Desktop to deliver remote desktop and remote app experiences in Microsoft Azure.
+  ms.date: 09/03/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Introduction to Windows Virtual Desktop in Microsoft Azure
+summary: Learn about Windows Virtual Desktop.
+abstract: |
+  At the end of this module, you should be able to:
+  - Describe Windows Virtual Desktop and how it works 
+prerequisites: None
+iconUrl: /learn/achievements/get-modern-os-deployment-and-feature-updates.svg
+ratingEnabled: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+units:
+- learn-m365.wvd-intro.introduction
+- learn-m365.wvd-intro.wvd-configuration
+- learn-m365.wvd-intro.summary-and-knowledge-check
+badge: 
+  uid: learn-m365.wvd-intro.badges

@@ -16,17 +16,20 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Where do you create accounts for users and manage license assignment?"
+    - content: "Which of one the following is NOT one the activities you can manage in the Microsoft 365 admin center?"
       choices:
-      - content: "In the Exchange admin center"
+      - content: "Manage billing"
         isCorrect: false
-        explanation: "Create users and manage licenses in the Microsoft 365 admin portal."
-      - content: "in Azure Active Directory"
+        explanation: "You can manage billing in the Microsoft 365 admin center."
+      - content: "Open a service request"
         isCorrect: false
-        explanation: "Create users and manage licenses in the Microsoft 365 admin portal."
-      - content: "in the Microsoft 365 admin center"
+        explanation: "You can open a service request in the Microsoft 365 admin center."
+      - content: "Manage cloud service provider (CSP) SLA"
         isCorrect: true
-        explanation: "Create users and manage licenses in the Microsoft 365 admin portal."
+        explanation: "You cannot manage your CSP SLA in the Microsoft 365 admin center."
+      - content: "Manage licenses"
+        isCorrect: false
+        explanation: "You can manage licenses in the Microsoft 365 admin center."
     - content: "True or false: Microsoft 365 customers have a service level agreement (SLA) with their cloud service provider (CSP) but not with Microsoft."
       choices:
       - content: "True"
@@ -35,11 +38,17 @@ quiz:
       - content: "False"
         isCorrect: true
         explanation: "Your Microsoft 365 subscription includes an SLA with Microsoft."
-    - content: "True or false: Service requests can be made through different channels, including telephone support, online chat, and email."
+    - content: "Which of the following is NOT one of the ways a service request can be made?"
       choices:
-      - content: "True"
+      - content: "In person at a Microsoft store"
         isCorrect: true
-        explanation: "You can reach Microsoft Support by phone, online chat, and email."
-      - content: "False"
+        explanation: "You cannot make a service request at a Microsoft store."
+      - content: "Telephone"
         isCorrect: false
-        explanation: "You can reach Microsoft Support by phone, online chat, and email."
+        explanation: "You can make a service request by telephone."
+      - content: "Email"
+        isCorrect: false
+        explanation: "You can make a service request by email."
+      - content: "Chat"
+        isCorrect: false
+        explanation: "You can make a service request by chat."

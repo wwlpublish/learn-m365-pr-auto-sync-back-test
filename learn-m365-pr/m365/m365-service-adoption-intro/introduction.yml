@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.service-adoption-intro.introduction
+title: Introduction to the Microsoft service adoption framework and Specialist role
+metadata:
+  title: Introduction to the Microsoft service adoption framework and the Specialist role
+  description: Learn about the Microsoft service adoption framework and Specialist role.
+  ms.date: 10/01/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 9
+content: |
+  [!include[](includes/introduction.md)]

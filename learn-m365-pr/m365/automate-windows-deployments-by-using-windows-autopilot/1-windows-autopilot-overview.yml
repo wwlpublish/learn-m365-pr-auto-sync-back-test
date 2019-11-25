@@ -1,0 +1,14 @@
+﻿### YamlMime:ModuleUnit
+uid: learn-m365-pr.automate-windows-deployments-by-using-windows-autopilot.1-windows-autopilot-overview
+title: Windows Autopilot overview
+metadata:
+  title: Windows Autopilot overview
+  description: Overview of Windows Autopilot
+  ms.date: 9/4/2019
+  author: dahans-msft2
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 10
+content: |
+  [!include[](includes/1-windows-autopilot-overview.md)] 

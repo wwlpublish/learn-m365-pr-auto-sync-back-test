@@ -1,0 +1,53 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-teams-upgrade-getting-started.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Discover the upgrade process from Skype for Business to Microsoft Teams. Learn how Skype for Business and Microsoft Teams coexist during the upgrade process and what hybrid connectivity is.
+  ms.date: 09/27/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Microsoft Teams differs from Skype for Business in that it includes:"
+      choices:
+      - content: "Chat "
+        isCorrect: false
+        explanation: "Skype for Business includes chat. Microsoft Teams includes collaboration tools such as app integration and file storage."
+      - content: "Collaboration"
+        isCorrect: true
+        explanation: "Microsoft Teams includes collaboration tools such as app integration and file storage."
+      - content: "File sharing"
+        isCorrect: false
+        explanation: "Skype for Business includes file sharing. Microsoft Teams includes collaboration tools such as app integration and file storage."
+
+    - content: "Which of the following statements about coexistence of Teams and Skype for Business is true?"
+      choices:
+      - content: "Teams and Skype for Business will need to coexist until Skype for Business is discontinued."
+        isCorrect: false
+        explanation: "Teams and Skype for Business will need to coexist during the upgrade process only."
+      - content: "Teams and Skype for Business will need to coexist during the upgrade process from Skype for Business on-premises but not Skype for Business Online."
+        isCorrect: false
+        explanation: "Teams and Skype for Business will need to coexist during the upgrade process for both Skype for Business on-premises and Skype for Business Online."
+      - content: "Teams and Skype for Business will need to coexist during the upgrade process."
+        isCorrect: true
+        explanation: "Teams and Skype for Business will need to coexist during the upgrade process."
+      
+    - content: "Which of the following statements about hybrid connectivity for Skype for Business is true?"
+      choices:
+      - content: "Both Skype for Business Online and Skype for Business on-premises require hybrid connectivity."
+        isCorrect: false
+        explanation: "Only Skype for Business on-premises requires hybrid connectivity."
+      - content: "Only Skype for Business on-premises requires hybrid connectivity."
+        isCorrect: true
+        explanation: "Only Skype for Business on-premises requires hybrid connectivity."
+      - content: "Only Skype for Business Online requires hybrid connectivity."
+        isCorrect: false
+        explanation: "Only Skype for Business on-premises requires hybrid connectivity."
+      

@@ -11,11 +11,11 @@ Before security updates are rolled out for broad deployment, builds are released
 
 ## Simplify feature updates with Windows Update for Business
 
-Windows Update for Business is a free service that helps you keep Windows 10 devices up to date by directly connecting the devices to the Windows Update service. You can configure Windows Update for Business by using Group Policy or through MDM solutions, like Microsoft Intune. Windows Update for Business lets you create deployment rings to validate new builds. It’s integrated into existing management tools like Windows Server Update Services (WSUS), System Center Configuration Manager (current branch), and Microsoft Intune. Windows Update for Business also supports peer-to-peer delivery to help optimize bandwidth efficiency and reduce network congestion.
+Windows Update for Business is a free service that helps you keep Windows 10 devices up to date by directly connecting the devices to the Windows Update service. You can configure Windows Update for Business by using Group Policy or through MDM solutions, like Microsoft Intune. Windows Update for Business lets you create deployment rings to validate new builds. It’s integrated into existing management tools like Windows Server Update Services (WSUS), Configuration Manager (current branch), and Microsoft Intune. Windows Update for Business also supports peer-to-peer delivery to help optimize bandwidth efficiency and reduce network congestion.
 
 ## Employ Express Updates for bandwidth management
 
-You can significantly reduce download size by using a technology like **Express Updates** in Windows. In this approach, the update engines compare the PC’s current status and find only the delta needed to update it. Windows Update for Business and Windows Server Update Services have supported express updates for a long time, and System Center Configuration Manager has been updated so that it can also use express updates. 
+You can significantly reduce download size by using a technology like **Express Updates** in Windows. In this approach, the update engines compare the PC’s current status and find only the delta needed to update it. Windows Update for Business and Windows Server Update Services have supported express updates for a long time, and Configuration Manager has been updated so that it can also use express updates. 
 
 ![Express Updates screen](../media/step-7-1.png)
 

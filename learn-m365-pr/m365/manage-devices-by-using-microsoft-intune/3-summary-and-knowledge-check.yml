@@ -1,0 +1,62 @@
+﻿### YamlMime:ModuleUnit
+uid: learn-m365-pr.manage-devices-by-using-microsoft-intune.3-summary-and-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Summary and knowledge check
+  ms.date: 9/3/2019
+  author: dahans-msft2
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS:   NOINDEX 
+durationInMinutes: 10
+content: |
+  [!include[](includes/3-summary-and-knowledge-check.md)] 
+quiz:
+  questions:
+  - content: "Which of the following offers a simplified and manageable way to transition from either on-premises Active Directory, or ConfigMgr and Active Directory, to a modern management approach?"
+    choices:
+    - content: "Azure"
+      isCorrect: false
+      explanation: "Incorrect."
+    - content: "Microsoft Intune"
+      isCorrect: false
+      explanation: "Incorrect."
+    - content: "Co-management"
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "MDM for Office 365"
+      isCorrect: false
+      explanation: "Incorrect."
+  - content: "Which of the following attributes are the same between Mobile Device Management for Office 365 and Microsoft Intune?"
+    choices:
+    - content: "Management interface"
+      isCorrect: false
+      explanation: "Incorrect, this attribute is different."
+    - content: "Capabilities"
+      isCorrect: false
+      explanation: "Incorrect, this attribute is different."
+    - content: "Cost"
+      isCorrect: false
+      explanation: "Incorrect, this attribute is different."
+    - content: "Devices managed"
+      isCorrect: true
+      explanation: "Correct!"
+  - content: "Which of the following options is NOT a valid method for enrolling Windows 10 devices into Microsoft Intune?"
+    choices:
+    - content: "Add a non-AD joined account"
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "System Center Configuration Manager co-management"
+      isCorrect: false
+      explanation: "Incorrect.  This option is a valid method."
+    - content: "Enroll in MDM only"
+      isCorrect: false
+      explanation: "Incorrect.  This option is a valid method."
+    - content: "Azure AD join (autopilot self-deploying mode)"
+      isCorrect: false
+      explanation: "Incorrect.  This option is a valid method."
+    - content: "Azure AD join (bulk enrollment)"
+      isCorrect: false
+      explanation: "Incorrect.  This option is a valid method."

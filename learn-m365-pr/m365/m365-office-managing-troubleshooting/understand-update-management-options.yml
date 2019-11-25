@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-office.m365-managing-troubleshooting-office.understand-update-management-options
+title: Understand update management options and how they work across Office 365 ProPlus and Office 2019 editions
+metadata:
+  title: Understand update management options and how they work across Office 365 ProPlus and Office 2019 editions
+  description: Learn about update management options and how they work across Office 365 ProPlus and Office 2019 editions
+  ms.date: 09/19/2019
+  author: puffinanda
+  ms.author: v-jolev
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 8
+content: |
+  [!include[](includes/understand-update-management-options.md)]

@@ -1,0 +1,62 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-security-sensitivity-labels.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Check your understanding of the concepts presented in this module.
+  ms.date: 10/31/2019
+  author: puffinanda
+  ms.author: v-jolev
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "The persistency of data classification and sensitivity labels ends when:"
+      choices:
+      - content: "A user sends an email with a file attachment to an external recipient."
+        isCorrect: false
+        explanation: "The label and classification remain with the file even when it leaves the organization."
+      - content: "A user shares a document with a colleague via a USB drive."
+        isCorrect: false
+        explanation: "The label and classification remain with the file regardless of how it’s shared."
+      - content: "Persistency does not end."
+        isCorrect: true
+        explanation: "Correct. Once applied, a sensitivity label persists in the metadata of that email or document wherever it may roam."
+      - content: "A user moves a file from OneDrive to a third-party storage provider."
+        isCorrect: false
+        explanation: "The label and classification remain with the file even if it’s stored with a third-party storage provider."
+
+    - content: "Which of the following is NOT an option for configuring usage rights within a file or document?"
+      choices:
+      - content: "Co-Author (View, Edit, Copy, Print, Reply, Reply All, Forward)"
+        isCorrect: false
+        explanation: "This is one of the most common usage right options for end users."
+      - content: "Reviewer (View, Edit, Reply, Reply All, Forward)"
+        isCorrect: false
+        explanation: "This is one of the most common usage right options for end users."
+      - content: "Co-Owner (View, Edit, Print, Reply, Reply All, Forward)"
+        isCorrect: true
+        explanation: "Correct. Co-Owners have all usage rights, not just the ones listed."
+      - content: "Custom (Allow Macros, Edit, Reply, Reply All, Forward)"
+        isCorrect: false
+        explanation: "These are custom usage rights that you can combine with the standard usage rights."
+      
+    - content: "Microsoft provides which of the following default sensitivity labels?"
+      choices:
+      - content: "Personal, Public, General, Secret, Highly Confidential"
+        isCorrect: false
+        explanation: "“Secret” would be a custom sensitivity label."
+      - content: "Public, General, Confidential, Highly Confidential"
+        isCorrect: false
+        explanation: "“Personal” is the fifth default sensitivity label targeted for non-business end-user documents."
+      - content: "Personal, Public, Business, Confidential, Highly Confidential"
+        isCorrect: false
+        explanation: "“Business” is a custom sensitivity label."
+      - content: "Personal, Public, General, Confidential, Highly Confidential"
+        isCorrect: true
+        explanation: "Correct. These are the five default sensitivity labels; administrators can create custom ones as well."
+      

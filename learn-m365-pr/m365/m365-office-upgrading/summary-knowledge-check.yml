@@ -1,0 +1,48 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-office.m365-upgrading-office.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Review what you've learned about updating Office in Windows.
+  ms.date: 09/18/2019
+  author: puffinanda
+  ms.author: v-jolev
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Which of the following commands does the setup.exe bootstrapper in the Office Deployment Tool NOT support?"
+      choices:
+      - content: "Install"
+        isCorrect: true
+        explanation: "Correct. The valid commands for the setup.exe are only Download, Configure, Customizer, Packager, and Help. The Configure command is used to install Office."
+      - content: "Configure"
+        isCorrect: false
+        explanation: "Incorrect. The valid commands for the setup.exe are only Download, Configure, Customizer, Packager, and Help."
+      - content: "Download"
+        isCorrect: false
+        explanation: "Incorrect. The valid commands for the setup.exe are only Download, Configure, Customizer, Packager, and Help."
+      - content: "Customize"
+        isCorrect: false
+        explanation: "Incorrect. The valid commands for the setup.exe are only Download, Configure, Customizer, Packager, and Help."
+    - content: "You access the Office Customization Tool in Office 2019 by downloading Office installation files and running “setup.exe /admin” to launch the tool."
+      choices:
+      - content: "True"
+        isCorrect: false
+        explanation: "Incorrect. The Office Customization Tool used with Office 2019 is accessed via the Internet at the [Office 365 Client Configuration Service](https://config.office.com) or by using the Office 365 Installer process in System Center Configuration Manager. The /admin method is used for volume licensing editions of Office 2007, Office 2010, Office 2013, and Office 2016."
+      - content: "False"
+        isCorrect: true
+        explanation: "Correct. You can access the Office Customization Tool used with Office 2019 at the [Office 365 Client Configuration Service](https://config.office.com) or by using the Office 365 Installer process in System Center Configuration Manager. The /admin method is used for volume licensing editions of Office 2007, Office 2010, Office 2013, and Office 2016."
+    - content: "The Office 365 Installer application package creation process in System Center Configuration Manager also works for Office 2019 products that are not part of Office 365."
+      choices:
+      - content: "True"
+        isCorrect: true
+        explanation: "Correct. All editions of Office 2019, Visio 2019, Project 2019 and Office 365 desktop apps use the same process."
+      - content: "False"
+        isCorrect: false
+        explanation: "Incorrect. All editions of Office 2019, Visio 2019, Project 2019 and Office 365 desktop apps use the same process."

@@ -1,0 +1,164 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.service-adoption-experiment.summary
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Review phase 2 of the service adoption framework.
+  ms.date: 10/01/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 10
+content: |
+  [!include[](includes/summary.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "What is one of the chief objectives of the experiment phase?"
+      choices:
+      - content: "Keep your failures to a small number of people"
+        isCorrect: false
+        explanation: "No, one of the chief objectives is to get experience with the product."
+      - content: "Minimize risk with your stakeholders"
+        isCorrect: false
+        explanation: "No, one of the chief objectives is to get experience with the product."
+      - content: "Let you document issues"
+        isCorrect: false
+        explanation: "No, one of the chief objectives is to get experience with the product."
+      - content: "Give you experience with the product"
+        isCorrect: true
+        explanation: "Yes, one of the chief objectives is to get experience with the product."
+    - content: "It's a best practice to revisit your overall program success measures on what schedule?"
+      choices:
+      - content: "Bi-weekly"
+        isCorrect: false
+        explanation: "No, you should revisit the success metrics quarterly."
+      - content: "Anytime the project changes"
+        isCorrect: false
+        explanation: "No, you should revisit the success metrics quarterly."
+      - content: "Quarterly"
+        isCorrect: true
+        explanation: "Yes, you should revisit the success metrics quarterly."
+      - content: "Never. Success measures don't change when done correctly."
+        isCorrect: false
+        explanation: "No, you should revisit the success metrics quarterly."
+    - content: "Can you apply naming conventions to Microsoft Teams and the underlying Office 365 Groups?"
+      choices:
+      - content: "Yes, this is available to all users"
+        isCorrect: false
+        explanation: "No, you need a specific license to use naming conventions."
+      - content: "Yes, but only if you have the appropriate license"
+        isCorrect: true
+        explanation: "Yes, as long as you have the appropriate license you can use naming conventions."
+      - content: "No, Office 365 doesn't do this"
+        isCorrect: false
+        explanation: "No, you need a specific license to use naming conventions."
+    - content: "Success measures should be defined as which of the following?"
+      choices:
+      - content: "Early in a project"
+        isCorrect: false
+        explanation: "No, this is just one aspect of success measures."
+      - content: "In a collaborative fashion with IT and business leaders"
+        isCorrect: false
+        explanation: "No, this is just one aspect of success measures."
+      - content: "To share with stakeholders so they understand the impact of change"
+        isCorrect: false
+        explanation: "No, this is just one aspect of success measures."
+      - content: "All of the above."
+        isCorrect: true
+        explanation: "Yes, these are all aspects of success measures."
+    - content: "The main source for innovation in a company is which of the following?"
+      choices:
+      - content: "The competition"
+        isCorrect: false
+        explanation: "No, your main source should be engaged, productive employees."
+      - content: "The C-suite"
+        isCorrect: false
+        explanation: "No, your main source should be engaged, productive employees."
+      - content: "Industry thought leaders"
+        isCorrect: false
+        explanation: "No, your main source should be engaged, productive employees."
+      - content: "Engaged, productive employees"
+        isCorrect: true
+        explanation: "Yes, your main source should be engaged, productive employees."
+    - content: "The role of an Office 365 Teamwork Champion primarily delivers which of the following?"
+      choices:
+      - content: "Peer-to-peer learning and feedback"
+        isCorrect: true
+        explanation: "Yes, this is one of the roles played by your champions."
+      - content: "Local help desk support services"
+        isCorrect: false
+        explanation: "No, your champions provide peer-to-peer learning and feedback."
+      - content: "Day-to-day service engagement"
+        isCorrect: false
+        explanation: "No, your champions provide peer-to-peer learning and feedback."
+      - content: "Stakeholder management support"
+        isCorrect: false
+        explanation: "No, your champions provide peer-to-peer learning and feedback."
+    - content: "True or false: Champions give up their normal role activities while they are rolling out your project."
+      choices:
+      - content: "True"
+        isCorrect: false
+        explanation: "No, champions maintain their existing role/responsiblities while participating in your project."
+      - content: "False"
+        isCorrect: true
+        explanation: "Correct, champions maintain their existing role/responsiblities while participating in your project."
+    - content: "True or false: Approving guest access is a governance decision."
+      choices:
+      - content: "True"
+        isCorrect: true
+        explanation: "Yes, guest access is one example of governance decision."
+      - content: "False"
+        isCorrect: false
+        explanation: "Incorrect, guest access is one example of governance decision."
+    - content: "Microsoft provides a program for champions and Service Adoption Specialists to get free, continuing education. Which of the following best clarifies that statement?"
+      choices:
+      - content: "Yes, but only in North America"
+        isCorrect: false
+        explanation: "No, the free Office 365 Teamwork Champion program is available to everyone, regardless of their location."
+      - content: "Yes, to everyone online via the free Office 365 Teamwork Champion program"
+        isCorrect: true
+        explanation: "Yes, the free Office 365 Teamwork Champion program is available to everyone online."
+      - content: "Yes, but only through the FastTrack program"
+        isCorrect: false
+        explanation: "No, the free Office 365 Teamwork Champion program is available to everyone."
+      - content: "No, you have to pay for these services"
+        isCorrect: false
+        explanation: "No, the free Office 365 Teamwork Champion program is available to everyone."
+    - content: "Champions are held accountable for delivering specific services to their end-user community. Which of the following is an example of this?"
+      choices:
+      - content: "Office hours"
+        isCorrect: false
+        explanation: "Yes, but this is only one of the ways that champions can deliver services."
+      - content: "1:1 coaching"
+        isCorrect: false
+        explanation: "Yes, but this is only one of the ways that champions can deliver services."
+      - content: "Group training"
+        isCorrect: false
+        explanation: "Yes, but this is only one of the ways that champions can deliver services."
+      - content: "All of the above"
+        isCorrect: true
+        explanation: "Yes, Yes, these are all ways champions can deliver services."
+    - content: "Which of the following is one of our four strategic pillars of content governance?"
+      choices:
+      - content: "Protect corporate assets"
+        isCorrect: true
+        explanation: "Correct, protecting corporate assets is one of the four pillars of content governance."
+      - content: "Enable self-service reporting"
+        isCorrect: false
+        explanation: "No, protecting corporate assets is one of the four pillars of content governance."
+      - content: "Secure against ransomware"
+        isCorrect: false
+        explanation: "No, protecting corporate assets is one of the four pillars of content governance."
+      - content: "Audit employees"
+        isCorrect: false
+        explanation: "No, protecting corporate assets is one of the four pillars of content governance."
+    - content: "True or false: It's a best practice to make governance decisions for experimentation before making broad decisions for your company-wide rollout."
+      choices:
+      - content: "True"
+        isCorrect: true
+        explanation: "Correct - making governance decisions during the Experiment phase lets you test them before you roll them out broadly."
+      - content: "False"
+        isCorrect: false
+        explanation: "Incorrect - making governance decisions during the Experiment phase lets you test them before you roll them out broadly."

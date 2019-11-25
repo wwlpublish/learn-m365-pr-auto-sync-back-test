@@ -1,0 +1,47 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-office.m365-office-it-overview.summary
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Review what you learned about Office upgrades.
+  ms.date: 10/11/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary.md)]
+quiz:
+   title: Check your knowledge
+   questions:
+   - content: "True or false - The Office Deployment Tool provides a user interface and allows you to edit a JSON configuration file to define Office installation settings."
+     choices:
+     - content: "True"
+       isCorrect: false
+       explanation: "Incorrect. The Office Deployment Tool is a setup.exe command-line tool that uses a configuration XML file to manage Office installation settings. You use the Office Customization Tool to author the configuration XML file."
+     - content: "False"
+       isCorrect: true
+       explanation: "Correct. The Office Deployment Tool is a setup.exe command-line tool that uses a configuration XML file to manage Office installation settings. You use the Office Customization Tool to author the configuration XML file."   
+   - content: "Which packaging format is used to download Office 2019 Professional Plus and Standard volume licensing editions?"
+     choices:
+     - content: "Windows Installer package (MSI)"
+       isCorrect: false
+       explanation: "Both editions use Click-to-Run packaging."
+     - content: "Click-to-Run package"
+       isCorrect: true
+       explanation: "Both editions use Click-to-Run packaging."   
+     - content: "Universal Windows Platform (UWP) as an .appx package"
+       isCorrect: false
+       explanation: "Both editions use Click-to-Run packaging."   
+     - content: "None of the above"
+       isCorrect: false
+       explanation: "Both editions use Click-to-Run packaging."   
+   - content: "True or false - Office VBA Macro-enabled files are disabled in Office 365 ProPlus versions of Office because they are browser-based apps."
+     choices:
+     - content: "True"
+       isCorrect: false
+       explanation: "Incorrect. Office 365 ProPlus is a local and full install of Office and has VBA Macro compatibility traits similar to any supported local install of Office."
+     - content: "False"
+       isCorrect: true
+       explanation: "Correct. Office 365 ProPlus is a local and full install of Office and has VBA Macro compatibility traits similar to any supported local install of Office."   

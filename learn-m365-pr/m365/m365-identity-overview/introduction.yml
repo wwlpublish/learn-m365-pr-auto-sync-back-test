@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-identity.m365-identity-overview.introduction
+title: Introduction to identity and access management
+metadata:
+  title: Introduction to identity and access management
+  description:  Learn the basic concepts of identity and access management in Microsoft 365
+  ms.date: 09/09/2019
+  author: TheJasonAndrew 
+  ms.author: v-jasoan
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/introduction.md)]

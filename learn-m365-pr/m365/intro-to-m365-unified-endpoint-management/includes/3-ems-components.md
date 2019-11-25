@@ -34,7 +34,7 @@ Use Intune to manage apps and mobile devices by “enrolling” devices. When yo
 |Endpoint protection|	Configures settings for BitLocker and Windows Defender.|
 |Windows Information Protection|	Allows you to configure Windows Information Protection for data loss prevention.|
 
-**System Center Configuration Manager** is an on-premises product used to manage Windows, macOS PCs, and servers. Configuration Manager has a rich set of capabilities that allow you to highly customize the following areas:
+**Microsoft Endpoint Configuration Manager** is an on-premises product used to manage Windows, macOS PCs, and servers. Configuration Manager has a rich set of capabilities that allow you to customize the following areas:
 
 - Application management 
 - OS deployment 

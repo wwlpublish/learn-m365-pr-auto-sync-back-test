@@ -1,0 +1,33 @@
+### YamlMime:Module
+uid: learn-m365.service-adoption-start
+metadata:
+  title: Service adoption framework - Phase 1, Start
+  description: In the first phase of the service adoption framework, Start, you gather organizational objectives and build out your strategy and deployment plan.
+  ms.date: 09/18/2019
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Service adoption framework - Phase 1, Start
+summary: In the first phase of the service adoption framework, Start, you gather organizational objectives and build out your strategy and deployment plan.
+abstract: |
+  At the end of this module, you should be able to:
+  - Start drafting your strategy and project plan
+  - Assess your internal resources
+  - Understand the key roles, including the importance of your executive sponsor
+  - Know how to make the case for change  
+prerequisites: None
+iconUrl: /learn/achievements/service-adoption-framework-phase-1-get-started.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+units:
+- learn-m365.service-adoption-start.key-roles
+- learn-m365.service-adoption-start.cloud-advantage
+- learn-m365.service-adoption-start.organizational-readiness
+- learn-m365.service-adoption-start.summary
+badge: 
+  uid: learn-m365.service-adoption-start.badge

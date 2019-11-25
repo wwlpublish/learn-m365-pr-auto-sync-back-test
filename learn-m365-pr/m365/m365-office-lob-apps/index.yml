@@ -25,6 +25,7 @@ roles:
 - administrator
 products:
 - m365
+- office-365
 units:
 - learn-m365.office-lob-apps.1-introduction
 - learn-m365.office-lob-apps.2-install-upgrade-o365-proplus

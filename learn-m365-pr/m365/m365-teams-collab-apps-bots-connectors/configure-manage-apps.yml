@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-teams-collab-apps-bots-connectors.configure-manage-apps
+title: Configure and manage apps 
+metadata:
+  title: Configure and manage apps
+  description: Discover how apps, bots, and connectors increase the power of Microsoft Teams. Learn how to manage apps, bots, and connectors as you plan your organization’s Teams rollout.  
+  ms.date: 08/19/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+durationInMinutes: 4
+content: |
+  [!include[](includes/configure-manage-apps.md)]

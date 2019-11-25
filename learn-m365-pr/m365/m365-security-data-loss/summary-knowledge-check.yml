@@ -1,0 +1,62 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-security-data-loss.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Learn how information protection helps organizations protect data to prevent data loss or theft. 
+  ms.date: 10/31/2019
+  author: puffinanda
+  ms.author: v-jolev
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Data immunization helps apply security controls to documents based on their classification at the moment of creation. Which of the following is a primary benefit of data immunization?"
+      choices:
+      - content: "Automated reporting and analytics"
+        isCorrect: false
+        explanation: "Although you can get automated reporting and analytics when data is classified, it is not a primary benefit of immunization."
+      - content: "Minimize the exposure time of the data"
+        isCorrect: true
+        explanation: "Correct. By using data immunization, you limit the amount of exposure time that the data is unclassified or unprotected."
+      - content: "Automated data scan and crawl"
+        isCorrect: false
+        explanation: "You can use Azure Information Protection Scanner to identify unlabeled or inappropriately labeled documents, but it is not a direct benefit of data immunization."
+      - content: "Data cannot be stored on the dark web"
+        isCorrect: false
+        explanation: "Data immunization helps control data leakage by immediate classification, but it cannot prevent compromised data from being stored on the dark web."
+
+    - content: "One of the first steps to prevent data loss involves identifying data that needs protection. What Microsoft tool helps administrators detect and classify documents automatically?"
+      choices:
+      - content: "Office 365 Data Loss Prevention"
+        isCorrect: false
+        explanation: "Office 365 Data Loss Prevention helps keep data protected and secured but will not scan through file storage to detect and classify documents."
+      - content: "Microsoft Cloud App Security (MCAS)"
+        isCorrect: false
+        explanation: "MCAS is a cloud broker solution to help extend your security to third-party apps and services"
+      - content: "SharePoint File Scanner"
+        isCorrect: false
+        explanation: "SharePoint File Scanner is not a solution available within SharePoint or Microsoft 365."
+      - content: "Azure Information Protection Scanner"
+        isCorrect: true
+        explanation: "Correct. You can use Azure Information Protection Scanner to identify documents in file storage that are missing or inappropriately labeled."
+      
+    - content: "A security administrator needs to ensure any Excel files shared through a financial line-of-business cloud app are controlled and not shared externally. What information protection action should the security administrator take?"
+      choices:
+      - content: "Create an Azure Information Protection rule to classify all documents as confidential."
+        isCorrect: false
+        explanation: "This would over-classify all documents and require end users to de-classify documents that they do not consider confidential."
+      - content: "Use Azure Information Protection Scanner"
+        isCorrect: false
+        explanation: "Azure Information Protection Scanner crawls through storage to identify documents containing possible sensitive information and classify them accordingly."
+      - content: "Configure a Cloud App Security (CAS) DLP rule"
+        isCorrect: true
+        explanation: "Correct. The security administrator could create a CAS DLP rule that detects and reclassifies Excel files that have been shared to OneDrive or SharePoint Online."
+      - content: "Create an Exchange transport rule"
+        isCorrect: false
+        explanation: "An Exchange transport rule with DLP would search for sensitive information contained in email and classify the message accordingly."
+      

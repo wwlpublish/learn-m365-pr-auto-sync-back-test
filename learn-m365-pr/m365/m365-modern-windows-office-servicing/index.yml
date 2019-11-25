@@ -25,6 +25,8 @@ roles:
 - administrator
 products:
 - m365
+- windows
+- office-365
 units:
 - learn-m365.modern-windows-office-servicing.1-introduction
 - learn-m365.modern-windows-office-servicing.2-overview-servicing-models
