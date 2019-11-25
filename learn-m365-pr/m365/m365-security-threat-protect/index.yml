@@ -27,6 +27,7 @@ products:
 - m365
 - office-365
 - m365-security-center
+- windows
 - m365-threat-protection
 units:
 - learn-m365.m365-security-threat-protect.introduction
