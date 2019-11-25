@@ -32,19 +32,19 @@ quiz:
       choices:
       - content: "Exchange Online"
         isCorrect: false
-        explanation: "Exchange Online is one of the services that should be enabled."
+        explanation: "No, you should enable Exchange Online."
       - content: "SharePoint Online"
         isCorrect: false
-        explanation: "SharePoint Online is one of the services that should be enabled."
-      - content: "OwnDrive for Business"
+        explanation: "No, you should enable SharePoint Online."
+      - content: "OneDrive for Business"
         isCorrect: false
-        explanation: "OneDrive for Business is one of the services that should be enabled."
+        explanation: "No, you should enable OneDrive for Business."
       - content: "OneNote Online"
         isCorrect: true
-        explanation: "OneNote Online is not one of the services that should be enabled."
+        explanation: "Correct - you *should not* enable OneNote Online."
       - content: "Office 365 Group"
         isCorrect: false
-        explanation: "Office 365 Group is one of the services that should be enabled."
+        explanation: "No, you should enable Office 365 Group."
       
     - content: "Which management tool can administrators use to access data across Microsoft 365?"
       choices:
