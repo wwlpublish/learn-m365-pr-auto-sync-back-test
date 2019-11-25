@@ -4,12 +4,11 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Review what you've learned about updating Office in Windows.
-  ms.date: 09/18/2019
-  author: puffinanda
-  ms.author: v-jolev
+  ms.date: 11/14/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-  ROBOTS: NOINDEX
 durationInMinutes: 5
 content: |
   [!include[](includes/summary-knowledge-check.md)]
@@ -34,11 +33,11 @@ quiz:
       choices:
       - content: "True"
         isCorrect: false
-        explanation: "Incorrect. The Office Customization Tool used with Office 2019 is accessed via the Internet at the [Office 365 Client Configuration Service](https://config.office.com) or by using the Office 365 Installer process in System Center Configuration Manager. The /admin method is used for volume licensing editions of Office 2007, Office 2010, Office 2013, and Office 2016."
+        explanation: "Incorrect. The Office Customization Tool used with Office 2019 is accessed through the Office 365 Client Configuration Service or by using the Office 365 Installer process in Configuration Manager. The /admin method is used for volume licensing editions of Office 2007, Office 2010, Office 2013, and Office 2016."
       - content: "False"
         isCorrect: true
-        explanation: "Correct. You can access the Office Customization Tool used with Office 2019 at the [Office 365 Client Configuration Service](https://config.office.com) or by using the Office 365 Installer process in System Center Configuration Manager. The /admin method is used for volume licensing editions of Office 2007, Office 2010, Office 2013, and Office 2016."
-    - content: "The Office 365 Installer application package creation process in System Center Configuration Manager also works for Office 2019 products that are not part of Office 365."
+        explanation: "Correct. You can access the Office Customization Tool used with Office 2019 through the Office 365 Client Configuration Service or by using the Office 365 Installer process in Configuration Manager. The /admin method is used for volume licensing editions of Office 2007, Office 2010, Office 2013, and Office 2016."
+    - content: "The Office 365 Installer application package creation process in Configuration Manager also works for Office 2019 products that are not part of Office 365."
       choices:
       - content: "True"
         isCorrect: true

@@ -3,7 +3,7 @@ uid: learn.wwl.project-specialist-technical-achievement
 metadata:
   title: Prepare to complete the Project Specialist Technical Achievement
   description: Prepare to Complete the Project Specialist Technical Achievement
-  ms.date: 09/27/2019
+  ms.date: 11/25/2019
   author: wwlpublish
   ms.author: Cecilia.PerezBenitoa
   ms.topic: interactive-tutorial
@@ -19,7 +19,7 @@ levels:
 roles:
 - business-user
 products:
-- flow
+- power-automate
 - m365
 - power-platform
 - powerapps

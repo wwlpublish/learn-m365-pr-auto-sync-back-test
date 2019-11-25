@@ -14,9 +14,9 @@ You can get additional information about a given call session including detailed
 
 ## Use the Call Quality Dashboard to optimize network bandwidth
 
-While Call Analytics is designed to help administrators and help desk agents troubleshoot call quality problems with specific calls, the CQD is designed to help Teams administrators and network engineers optimize a network. CQD shifts focus from specific users and instead looks at aggregate information for an entire Teams organization.
-
-Individual call experience isn't visible in CQD, but the overall quality of calls made using Microsoft Teams is visible. With CQD, overall patterns may become apparent, allowing network engineers to make informed assessments of call quality. CQD provides reports of call quality metrics that give you insights into overall call quality, server-client streams, client-client streams, and voice quality SLA.
+Call Analytics is designed to help admins and helpdesk agents troubleshoot call quality problems with *specific calls*. Call Quality Dashboard (CQD) is designed to help Teams admins, Skype for Business admins, and network engineers *optimize a network*. CQD shifts focus from specific users and instead looks at aggregate information for an entire Teams or Skype for Business organization. For more information, see [Features of the Call Quality Dashboard for Teams and Skype for Business Online](https://docs.microsoft.com/MicrosoftTeams/turning-on-and-using-call-quality-dashboard#BKMKFeaturesOfTheCQD).
+  
+Suppose a user's poor call quality is due to a network issue that also affects many other users. The individual call experience isn't visible in CQD, but the overall quality of calls made using Microsoft Teams or Skype for Business is captured. With  CQD, overall patterns may become apparent, so network engineers can make informed assessments of call quality. CQD provides reports of call quality metrics that give you insight into overall call quality, server-client streams, client-client streams, and voice quality [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252).
 
 With the help of CQD's Location-Enhanced Reports, aggregate call quality and reliability within the user's building can be assessed to determine if the problem is isolated to a single user or affects a larger segment of users.
 
