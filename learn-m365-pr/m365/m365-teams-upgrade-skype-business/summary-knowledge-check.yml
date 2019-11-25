@@ -39,13 +39,13 @@ quiz:
         explanation: "The recommended path is to start with the default Islands mode, and then move to TeamsOnly." 
     - content: "Which of the following statements accurately describes the Azure AD Connect requirements?"
       choices:
-      - content: "The organization must have Azure AD Connect properly configured and be syncing all relevant attributes in order to upgrade users to Skype for Business Online."
+      - content: "Azure AD Connect is required to synchronize on-premises and online directories. It’s required for on-premises deployments only."
         isCorrect: false
-        explanation: "The organization must have Azure AD Connect properly configured and be syncing all relevant attributes in order to upgrade users to Skype for Business on-premises only."
-      - content: "The organization must have Azure AD Connect properly configured and be syncing all relevant attributes in order to upgrade users to Skype for Business on-premises only."
+        explanation: "Azure AD Connect is required to synchronize on-premises and online directories. It’s required for hybrid environments."
+      - content: "Azure AD Connect is required to synchronize on-premises and online directories. It’s required for online deployments only."
         isCorrect: false
-        explanation: "The organization must have Azure AD Connect properly configured and be syncing all relevant attributes in order to upgrade users to Skype for Business on-premises or Skype for Business Online."
-      - content: "The organization must have Azure AD Connect properly configured and be syncing all relevant attributes in order to upgrade users to Skype for Business on-premises."
+        explanation: "Azure AD Connect is required to synchronize on-premises and online directories. It’s required for hybrid environments."
+      - content: "Azure AD Connect is required to synchronize on-premises and online directories. It’s required for hybrid environments."
         isCorrect: true
-        explanation: "The organization must have Azure AD Connect properly configured and be syncing all relevant attributes in order to upgrade users to Skype for Business on-premises."
+        explanation: "Azure AD Connect is required to synchronize on-premises and online directories. It’s required for hybrid environments."
       
