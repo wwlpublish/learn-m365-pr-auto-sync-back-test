@@ -42,7 +42,7 @@ On the **Register an application** page, set the values as follows:
 
 - **Name**: Teams Calendar Graph Tab
 - **Supported account types**: Accounts in this organizational directory only (Contoso only - Single tenant)
-- **Redirect URI**: Web = https://XXXX.ngrok.io/auth-end.html
+- **Redirect URI**: Web = *https:\//XXXX.ngrok.io/auth-end.html*
 
     > [!NOTE]
     > Each time ngrok starts, it generates a new random subdomain. Azure AD requires the redirect URI is specified in the app registration. Therefore, you'll need to return to this Azure AD app registration to add or change the redirect URI once you start the ngrok utility.
