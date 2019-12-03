@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.manage-m365.1-introduction
-title: Explore the Microsoft 365 admin center
+uid: learn-m365.manage-m365.introduction
+title: Manage your subscription with the Microsoft 365 admin center
 metadata:
-  title: Explore the Microsoft 365 admin center
+  title: Manage your subscription with the Microsoft 365 admin center
   description:  Explore the features of Microsoft 365 admin center.
   ms.date: 12/02/2019
   author: AlexandraHrt
@@ -11,4 +11,4 @@ metadata:
   ms.prod: learning-m365
 durationInMinutes: 6
 content: |
-  [!include[](includes/1-introduction.md)]
+  [!include[](includes/introduction.md)]

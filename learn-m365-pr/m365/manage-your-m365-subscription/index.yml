@@ -27,7 +27,7 @@ roles:
 products:
 - m365
 units:
-- learn-m365.manage-m365.1-introduction
+- learn-m365.manage-m365.introduction
 - learn-m365.manage-m365.1-manage-licenses
 - learn-m365.manage-m365.2-manage-billing
 - learn-m365.manage-m365.3-explore-support-options
