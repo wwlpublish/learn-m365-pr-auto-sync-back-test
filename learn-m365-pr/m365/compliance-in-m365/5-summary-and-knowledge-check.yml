@@ -54,7 +54,7 @@ quiz:
       - content: "Where's My Key"
         isCorrect: true
         explanation: "Correct - this is NOT part of Microsoft 365."
-    - content: Which of one the following is NOT one the tools Microsoft provides to help protect customer data? "
+    - content: Which of the following is NOT one the tools Microsoft provides to help protect customer data? 
       choices:
       - content: "Zero standing admin access"
         isCorrect: false
