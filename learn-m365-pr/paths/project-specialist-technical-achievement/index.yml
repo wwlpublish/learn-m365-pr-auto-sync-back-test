@@ -22,7 +22,7 @@ products:
 - power-automate
 - m365
 - power-platform
-- powerapps
+- power-apps
 modules:
 - learn-m365.intro-teamwork-in-m365
 - learn-wwl.facilitate-teamwork-with-microsoft-365
