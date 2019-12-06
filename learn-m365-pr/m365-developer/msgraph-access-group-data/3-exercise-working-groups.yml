@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.msgraph-access-group-data.3-exercise-working-groups
 metadata:
-  title: Exercise - Working with users in the organization
+  title: Exercise - Working with groups in the organization
   description: In this exercise, you'll create an Azure AD application registration using the Azure Active Directory admin center, a .NET Core console application, and query Microsoft Graph for details on Office 365 groups.
   ms.date: 11/18/2019
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
-title: Exercise - Working with users in the organization
+title: Exercise - Working with groups in the organization
 durationInMinutes: 15
 content: |
   [!include[](includes/3-exercise-working-groups.md)]

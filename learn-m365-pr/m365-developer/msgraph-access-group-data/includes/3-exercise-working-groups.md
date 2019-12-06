@@ -107,38 +107,9 @@ Update properties with the following values:
 - `YOUR_TENANT_ID_HERE`: Azure AD directory ID
 - `YOUR_APP_ID_HERE`: Azure AD client ID
 
-#### Create helper classes
+#### Create helper class
 
 Create a new folder **Helpers** in the project.
-
-Create a new file **AuthHandler.cs** in the **Helpers** folder and add the following code:
-
-```cs
-using System.Net.Http;
-using System.Threading;
-using System.Threading.Tasks;
-using Microsoft.Graph;
-
-namespace Helpers
-{
-  public class AuthHandler : DelegatingHandler
-  {
-    private IAuthenticationProvider _authenticationProvider;
-
-    public AuthHandler(IAuthenticationProvider authenticationProvider, HttpMessageHandler innerHandler)
-    {
-      InnerHandler = innerHandler;
-      _authenticationProvider = authenticationProvider;
-    }
-
-    protected override async Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
-    {
-      await _authenticationProvider.AuthenticateRequestAsync(request);
-      return await base.SendAsync(request, cancellationToken);
-    }
-  }
-}
-```
 
 Create a new file **MsalAuthenticationProvider.cs** in the **Helpers** folder and add the following code:
 
