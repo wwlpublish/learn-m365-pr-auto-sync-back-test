@@ -15,22 +15,10 @@ In order to perform user operations, you'll need one of the following permission
     - User.Read.All
     - User.ReadWrite
     - User.ReadWrite.All
-  - **Group** resource type
-    - Group.Read.All
-    - Group.ReadWrite.All
-  - **Contact** resource type
-    - Contacts.Read
-    - Contacts.ReadWrite
 - Application Permissions (granted by administrators)
   - **User** resource type
     - User.ReadBasic.All
     - User.ReadWrite.All
-  - **Group** resource type
-    - Group.Read.All
-    - Group.ReadWrite.All
-  - **Contact** resource type
-    - Contacts.Read
-    - Contacts.ReadWrite
 
 ### Accessing profile photos
 
