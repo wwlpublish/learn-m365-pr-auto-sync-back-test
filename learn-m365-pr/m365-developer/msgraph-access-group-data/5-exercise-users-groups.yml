@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msgraph-access-group-data.5-exercise-users-groups
+metadata:
+  title: Exercise - Users and their groups
+  description: In this exercise, you'll modify the existing Azure AD application registration using the Azure Active Directory admin center, a .NET Core console application, and use Microsoft Graph to display information about the groups a user is involved with as a member or as an owner.
+  ms.date: 11/18/2019
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Exercise - Users and their groups
+durationInMinutes: 15
+content: |
+  [!include[](includes/5-exercise-users-groups.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "What type of resources are returned from a request to the Microsoft Graph `/groups` endpoint?"
+    choices:
+    - content: "Office 365 groups"
+      isCorrect: false
+      explanation: "Directory objects are returned by the endpoint, which may be Office 365 groups."
+    - content: "Security groups"
+      isCorrect: false
+      explanation: "Directory objects are returned by the endpoint, which may be security groups."
+    - content: "Directory objects and objects based on it, including Office 365 groups and security groups"
+      isCorrect: true
+      explanation: "Correct!"
+  - content: "What is the difference between direct and transient group membership?"
+    choices:
+    - content: "Direct membership means a user has been added to the group while transient membership means a user is a member though dynamic membership or as a member of another security group that has been added to the group."
+      isCorrect: true
+      explanation: "Correct! Continue your learning with the next unit!"
+    - content: "Direct membership means a user has been permanently granted access to the group while transient membership means a user has only temporary membership."
+      isCorrect: false
+      explanation: "Direct and transient membership have nothing to do with how long the user is a member of the group."
+    - content: "Users can have either direct or transient membership to both Office 365 groups and security groups."
+      isCorrect: false
+      explanation: "Office 365 groups can't contain groups, so membership in an Office 365 group is always direct."
