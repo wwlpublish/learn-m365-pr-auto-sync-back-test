@@ -30,6 +30,17 @@
         "dest": "modules"
       },
       {
+        "src": "wwl",
+        "files": [
+          "**.yml",
+          "**/*.md"
+        ],
+        "exclude": [
+          "**/includes/**"
+        ],
+        "dest": "modules"
+      },
+      {
         "src": "m365-developer",
         "files": [
           "**.yml",
@@ -55,6 +66,8 @@
           "LICENSE-CODE",
           "ThirdPartyNotices",
           "learn-m365-pr/**",
+          "wwl/**",
+          "wwl-mba/**",
           "**/design/**",
           "**/resources/**"
         ]
