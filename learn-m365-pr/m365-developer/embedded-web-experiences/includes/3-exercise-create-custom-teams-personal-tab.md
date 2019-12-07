@@ -283,11 +283,11 @@ public render() {
 ```
 
 > [!TIP]
-> At this point you can test your tab without loading it in Microsfot Teams. Execute the command **gulp ngrok-server** from the command line and navigate to **https://`{your-ngrok-subdomain}`.ngrok.io/learnPersonalTab/index.html** in the browser.
+> At this point you can test your tab without loading it in Microsfot Teams. Execute the command **gulp ngrok-serve** from the command line and navigate to **https://`{your-ngrok-subdomain}`.ngrok.io/learnPersonalTab/index.html** in the browser.
 >
 > ![Screenshot of the update tab page in the default theme](../media/03-yo-teams-11.png)
 >
-> Add the querystring value `?theme=dark` to the URL to see the theme change:
+> Add the query string value `?theme=dark` to the URL to see the theme change:
 >
 > ![Screenshot of the update tab page in the dark theme](../media/03-yo-teams-12.png)
 

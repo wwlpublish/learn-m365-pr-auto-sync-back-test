@@ -275,7 +275,7 @@ Add the following code to the top of the `LearnAuthTab` class. This creates a ne
 ```ts
 private msGraphClient: MicrosoftGraphClient.Client;
 
-constructor(props: IMyGraphTabProps, state: IMyGraphTabState) {
+constructor(props: ILearnAuthTabProps, state: ILearnAuthTabState) {
   super(props, state);
 
   state.messages = [];
