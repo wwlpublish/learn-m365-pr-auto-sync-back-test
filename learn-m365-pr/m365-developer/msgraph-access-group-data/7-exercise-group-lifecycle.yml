@@ -1,0 +1,40 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msgraph-access-group-data.7-exercise-group-lifecycle
+metadata:
+  title: Exercise - Manage group lifecycle
+  description: In this exercise, you'll modify the existing Azure AD application registration using the Azure Active Directory admin center, a .NET Core console application, and use Microsoft Graph to manage the lifecycle of Office 365 groups. You'll also learn how to provision a Microsoft Teams team from an existing Office 365 group.
+  ms.date: 11/18/2019
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Exercise - Manage group lifecycle
+durationInMinutes: 15
+content: |
+  [!include[](includes/7-exercise-group-lifecycle.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "When creating a new group with Microsoft Graph, which of the following properties are required?"
+    choices:
+    - content: "displayName, mailEnabled, mailNickname, securityEnabled"
+      isCorrect: true
+      explanation: "Correct, all these properties are required for a new group resource."
+    - content: "displayName, mailEnabled, mailNickname, groupTypes"
+      isCorrect: false
+      explanation: "The groupTypes property isn't required, but the securityEnabled property is."
+    - content: "displayName, owners, members, securityEnabled"
+      isCorrect: false
+      explanation: "The owners and members collections aren't required, but mailEnabled and mailNickname are required."
+  - content: "How do you specify which group to update or delete with Microsoft Graph?"
+    choices:
+    - content: "Specify the group's ID in the JSON string included in the body of the request and submit it to the /groups endpoint."
+      isCorrect: false
+      explanation: "Incorrect; the group to delete should be defined in the endpoint of the request."
+    - content: "Get a reference to the group, update it's properties, and submit it as an HTTP POST to the `/groups` endpoint."
+      isCorrect: false
+      explanation: "Incorrect; the group to delete should be defined in the endpoint of the request."
+    - content: "Specify the group in the target endpoint, using the group's ID."
+      isCorrect: true
+      explanation: "Correct!"
+
