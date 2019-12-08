@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="118px" viewBox="0 0 100 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Microsoft Graphs/microsoft-graphs</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M42.7425,1.49663266 C44.3745,0.498877554 46.1865,0 48,0 C49.8135,0 51.627,0.498877554 53.256,1.49663266 L90.591,24.3316189 C93.933,26.3773408 96,30.2031485 96,34.3529027 L96,79.6470973 C96,83.7952317 93.933,87.6242789 90.591,89.6683811 L53.256,112.504987 C51.627,113.501122 49.8135,114 48,114 C46.1865,114 44.3745,113.501122 42.7425,112.504987 L5.409,89.6683811 C2.0655,87.6242789 0,83.7952317 0,79.6470973 L0,34.3529027 C0,30.2031485 2.0655,26.3773408 5.409,24.3316189 L42.7425,1.49663266 Z" id="path-1"></path>
+        <filter x="-5.6%" y="-6.5%" width="111.3%" height="112.9%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Badges" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Microsoft-Graphs" transform="translate(-50.000000, -50.000000)">
+            <g id="Microsoft-Graphs/microsoft-graphs" transform="translate(50.000000, 50.000000)">
+                <g id="Mask" transform="translate(2.000000, 2.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Trophy-1" fill="#55A2FF" xlink:href="#path-1"></use>
+                    <g id="Group-2" filter="url(#filter-3)" mask="url(#mask-2)">
+                        <g transform="translate(13.000000, 26.000000)">
+                            <polygon id="Path-254" fill="#103F90" points="23.2712296 12.6443614 23.2712296 49.0871264 1 31.8657439"></polygon>
+                            <polygon id="Path-255" fill="#0279D3" points="19.313519 -1.42108547e-14 22.2712296 11.9271399 -8.33111358e-13 31.3247283"></polygon>
+                            <polygon id="Path-256" fill="#0078D3" points="51.9656929 1 20.2712296 -6.57252031e-14 23.943784 11.960428"></polygon>
+                            <polygon id="Path-257" fill="#C5E4FB" points="54.0539007 1.61447011 70.478091 30.3705842 57.4880577 30.3705842"></polygon>
+                            <polygon id="Path-258" fill="#2B7CD2" points="25.0526495 13.063519 53.076823 1.61447011 56.0539007 30.3247283"></polygon>
+                            <polygon id="Path-259" fill="#0358A6" points="24.4490489 14.6443614 53.076823 30.3705842 24.4490489 47.0871264"></polygon>
+                            <polygon id="Path-260" fill="#3D63A5" points="26.6613451 47.4838655 55.0539007 30.7421875 53.2265625 60.3785666"></polygon>
+                            <polygon id="Path-261" fill="#112D56" points="24.4490489 48.5891644 17.313519 61.4436141 52.0387364 61.4436141"></polygon>
+                            <polygon id="Path-262" fill="#163870" points="1 33.7421875 21.2712296 49.3293139 16.0961277 60.3785666"></polygon>
+                            <polygon id="Path-263" fill="#036DC0" points="56.4880577 31.7421875 70.478091 31.7421875 55.0539007 57.5163893"></polygon>
+                            <circle id="Oval" fill="#55A2FF" cx="55" cy="32" r="5"></circle>
+                            <circle id="Oval" fill="#55A2FF" cx="24" cy="12" r="5"></circle>
+                            <circle id="Oval" fill="#55A2FF" cx="24" cy="49" r="5"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="Azure-Hex-Border" stroke="#0078D4" stroke-width="4">
+                    <path d="M45.5618501,3.25844398 L45.5621963,3.25823359 L6.67338401,26.8942953 C3.79673288,28.6432593 2,31.9508238 2,35.5582677 L2,82.4417323 C2,86.0486597 3.79764663,89.3586805 6.67318764,91.1055853 L45.560618,114.742485 C46.9289662,115.572418 48.4546283,116 50,116 C51.5458817,116 53.0723633,115.572188 54.4362178,114.743457 L93.3268764,91.1055464 C96.2016145,89.3583456 98,86.0476286 98,82.4417323 L98,35.5582677 C98,31.9518547 96.202529,28.6435953 93.3268966,26.8944659 L54.4351916,3.25759524 C53.0721095,2.42798656 51.5462432,2 50,2 C48.4542664,2 46.9292165,2.42775755 45.5618501,3.25844398 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
