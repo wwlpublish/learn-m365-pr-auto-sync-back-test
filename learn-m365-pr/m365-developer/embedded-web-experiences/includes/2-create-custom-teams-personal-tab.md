@@ -38,15 +38,15 @@ This module focuses on creating custom tabs for Microsoft Teams.
 
 A Microsoft Teams tab enables developers to display rich interactive web content within the Microsoft Teams clients. There are two approaches to create a custom tab. You can either take an existing web-app experience and adapt it to a custom tab. You can also build a custom tab from scratch.
 
-Microsoft Teams tabs are simply web applications that are hosted by the provider or developer of the application. A tab in Microsoft Teams displays the specified web app within an \<iframe\> in the Microsoft Teams client.
+Microsoft Teams tabs are simply web applications that are hosted by the provider or developer of the application. A tab in Microsoft Teams displays the specified web app within an `<iframe>` in the Microsoft Teams client.
 
 ### Tabs differ from web applications when browsing the same content
 
-While Microsoft Teams tabs are \<\<iframe\>\> that display web pages, there are some differences between interacting with the web app within the Microsoft Teams client compared to just browsing the same content.
+While Microsoft Teams tabs are `<iframe>` that display web pages, there are some differences between interacting with the web app within the Microsoft Teams client compared to just browsing the same content.
 
-Microsoft Teams tabs always display web content in an \<iframe\> where a web page is loaded in any browser. This allows you to create unique experiences with the web app for only Microsoft Teams by limiting where the application is hosted. For instance, you can limit a web page to only be displayed within an \<iframe\> from a specific domain such as teams.microsoft.com.
+Microsoft Teams tabs always display web content in an `<iframe>` where a web page is loaded in any browser. This allows you to create unique experiences with the web app for only Microsoft Teams by limiting where the application is hosted. For instance, you can limit a web page to only be displayed within an `<iframe>` from a specific domain such as teams.microsoft.com.
 
-Authentication is handled differently in a Microsoft Teams tab compared ot a web app, either via a popup or calling Azure AD to fetch tokens. Most websites simply redirect to a login provider that typically breaks for custom tabs that are hosted inside of an \<iframe\>. Tabs break in this experience because the sign in pages typically do not load within an \<iframe\> to prevent click-jacking.
+Authentication is handled differently in a Microsoft Teams tab compared ot a web app, either via a popup or calling Azure AD to fetch tokens. Most websites simply redirect to a login provider that typically breaks for custom tabs that are hosted inside of an `<iframe>`. Tabs break in this experience because the sign in pages typically do not load within an `<iframe>` to prevent click-jacking.
 
 Cross-domain navigation is handled differently in tabs from a web app. The Teams client needs to validate the origin against a static validDomains list in the app manifest when loading or communicating with the tab.
 
@@ -98,7 +98,7 @@ Find a way to facilitate conversation around a tab. This ensures that conversati
 
 Make sure you're granting access to the right people at the right time. Keeping your sign in process simple will avoid creating barriers to contribution and collaboration.
 
-Once you've designed a great Microsoft Teams tab, the next step is to develop it. Tabs are just web apps hosted in an \<iframe\> within the Microsoft Teams client. Developers are free to use any web technologies and frameworks they are most comfortable with to implement the custom tab experience, such as HTML, JavaScript, TypeScript, web frameworks such as React or Angular, and server-side technologies.
+Once you've designed a great Microsoft Teams tab, the next step is to develop it. Tabs are just web apps hosted in an `<iframe>` within the Microsoft Teams client. Developers are free to use any web technologies and frameworks they are most comfortable with to implement the custom tab experience, such as HTML, JavaScript, TypeScript, web frameworks such as React or Angular, and server-side technologies.
 
 The last step is to deploy the custom tab. Unlike other Microsoft Teams extensibility options such as bots and message extensions, developers can upload custom tabs directly to a team. Microsoft Teams apps can also be uploaded your tenant’s app gallery for other users to install in their teams.
 
@@ -202,7 +202,7 @@ The `entityId` is a unique identifier for the entity that the tab displays. This
 
 The `name` is the display name of the tab in the channel interface. This property is required.
 
-The `conentUrl` is the HTTPS URL that points to the entity URL to be displayed in the Microsoft Teams canvas. This property is required.
+The `contentUrl` is the HTTPS URL that points to the entity URL to be displayed in the Microsoft Teams canvas. This property is required.
 
 The `websiteUrl` is the HTTPS URL used if a user opts to view a tab in the browser. This property is not required.
 

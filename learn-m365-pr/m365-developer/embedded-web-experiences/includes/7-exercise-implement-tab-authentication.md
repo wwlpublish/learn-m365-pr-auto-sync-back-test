@@ -143,14 +143,14 @@ Update the `import` statements in this file to replace the component library use
 
 ```ts
 import {
-    PrimaryButton,
-    TeamsThemeContext,
-    Panel,
-    PanelBody,
-    PanelHeader,
-    PanelFooter,
-    Surface,
-    getContext
+  PrimaryButton,
+  TeamsThemeContext,
+  Panel,
+  PanelBody,
+  PanelHeader,
+  PanelFooter,
+  Surface,
+  getContext
 } from "msteams-ui-components-react";
 ```
 
@@ -170,7 +170,7 @@ Locate the following code in the `componentWillMount()` method in the `LearnAuth
 
 ```ts
 this.setState({
-    fontSize: this.pageFontSize()
+  fontSize: this.pageFontSize()
 });
 ```
 
@@ -178,15 +178,15 @@ Locate the following code in the `render()` method in the `LearnAuthTab` class a
 
 ```ts
 const context = getContext({
-    baseFontSize: this.state.fontSize,
-    style: this.state.theme
+  baseFontSize: this.state.fontSize,
+  style: this.state.theme
 });
 const { rem, font } = context;
 const { sizes, weights } = font;
 const styles = {
-    header: { ...sizes.title, ...weights.semibold },
-    section: { ...sizes.base, marginTop: rem(1.4), marginBottom: rem(1.4) },
-    footer: { ...sizes.xsmall }
+  header: { ...sizes.title, ...weights.semibold },
+  section: { ...sizes.base, marginTop: rem(1.4), marginBottom: rem(1.4) },
+  footer: { ...sizes.xsmall }
 };
 ```
 
@@ -194,8 +194,8 @@ Locate the `return ()` statement in the `render()` method in the `LearnAuthTab` 
 
 ```ts
 public render() {
-    return (
-    );
+  return (
+  );
 }
 ```
 
@@ -410,7 +410,7 @@ Create a new file, **./src/app/web/auth-start.html** in the project and add the 
 <!DOCTYPE html>
 <html>
 <body>
-  <script src="https://statics.teams.microsoft.com/sdk/v1.5.2/js/MicrosoftTeams.min.js" crossorigin="anonymous"></script>
+  <script src="https://statics.teams.cdn.office.net/sdk/v1.5.2/js/MicrosoftTeams.min.js" crossorigin="anonymous"></script>
   <script src="https://secure.aadcdn.microsoftonline-p.com/lib/1.0.17/js/adal.min.js" crossorigin="anonymous"></script>
   <script type="text/javascript">
     microsoftTeams.initialize();
@@ -472,7 +472,7 @@ The notification process will trigger Microsoft Teams to close the popup window 
 <!DOCTYPE html>
 <html>
 <body>
-  <script src="https://statics.teams.microsoft.com/sdk/v1.5.2/js/MicrosoftTeams.min.js" crossorigin="anonymous"></script>
+  <script src="https://statics.teams.cdn.office.net/sdk/v1.5.2/js/MicrosoftTeams.min.js" crossorigin="anonymous"></script>
   <script src="https://secure.aadcdn.microsoftonline-p.com/lib/1.0.17/js/adal.min.js" crossorigin="anonymous"></script>
 
   <script type="text/javascript">
