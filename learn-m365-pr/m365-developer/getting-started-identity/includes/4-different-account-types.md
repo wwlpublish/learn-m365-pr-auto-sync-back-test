@@ -21,7 +21,7 @@ Another key decision you'll make when registering the app is what type of accoun
 
 If you're writing a Line of Business (LOB) application, you can sign in users in your own organization. Applications that sign in users only from the app’s home tenant are called single tenant applications.​
 
-​Administrators decide who can register applications in the tenant. These could be every user, only administrators, or users with the Application administrator, Cloud application administrator, or Application developer Azure AD administrative roles.  Only users within your organization can sign in and use the application; no one outside the organization can use this application.​
+​Administrators decide who can register applications in the tenant. These could be every user, only administrators, or users with the Application administrator, Cloud application administrator, or application developer Azure AD administrative roles.  Only users within your organization can sign in and use the application; no one outside the organization can use this application.​
 
 ## Multi-Tenant Apps
 

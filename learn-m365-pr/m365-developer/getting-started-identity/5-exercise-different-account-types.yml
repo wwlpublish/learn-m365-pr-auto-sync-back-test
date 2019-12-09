@@ -1,20 +1,20 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.getting-started-identity.5-exercise-different-account-types
 metadata:
-  title: Exercise - Account types in Microsoft Identity
-  description: This exercise will demonstrate the different account types that are used within the Microsoft Identity platform.
+  title: Exercise - Account types in Microsoft identity
+  description: This exercise will demonstrate the different account types that are used within the Microsoft identity platform.
   ms.date: 10/25/2019
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Exercise - Account types in Microsoft Identity
+title: Exercise - Account types in Microsoft identity
 durationInMinutes: 20
 content: |
   [!include[](includes/5-exercise-different-account-types.md)]
 quiz:
   title: Test your knowledge
-  questions: 
+  questions:
   - content: "What is the primary difference between single tenant apps and multi-tenant apps?"
     choices:
     - content: "Single tenant apps reserve the name of the app across all Azure AD directories, while the name of multi-tenant apps can be used in multiple Azure AD directories."

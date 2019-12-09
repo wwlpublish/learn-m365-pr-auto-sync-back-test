@@ -223,7 +223,7 @@ Open a browser and navigate to the url **https://localhost:5001**. The web appli
 
 Sign in using a Work and School account from your Azure AD directory. Azure AD will redirect you back to the web application. Notice some of the details from the claims included in the ID token.
 
-![Screenshot of the web application with user details](../media/05-test-01.png)
+![Screenshot of the web application with user details](../media/05-test-05.png)
 
 Take special note of the **tenantid** and **upn** claim. These indicate the ID of the Azure AD directory and ID of the user that signed in. Make a note of these values to compare them to other options in a minute.
 
