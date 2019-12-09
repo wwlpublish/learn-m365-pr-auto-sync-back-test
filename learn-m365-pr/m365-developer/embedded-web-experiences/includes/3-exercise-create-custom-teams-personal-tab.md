@@ -136,14 +136,14 @@ Update the `import` statements in this file to replace the component library use
 
 ```ts
 import {
-    PrimaryButton,
-    TeamsThemeContext,
-    Panel,
-    PanelBody,
-    PanelHeader,
-    PanelFooter,
-    Surface,
-    getContext
+  PrimaryButton,
+  TeamsThemeContext,
+  Panel,
+  PanelBody,
+  PanelHeader,
+  PanelFooter,
+  Surface,
+  getContext
 } from "msteams-ui-components-react";
 ```
 
@@ -163,7 +163,7 @@ Locate the following code in the `componentWillMount()` method in the `LearnPers
 
 ```ts
 this.setState({
-    fontSize: this.pageFontSize()
+  fontSize: this.pageFontSize()
 });
 ```
 
@@ -171,15 +171,15 @@ Locate the following code in the `render()` method in the `LearnPersonalTab` cla
 
 ```ts
 const context = getContext({
-    baseFontSize: this.state.fontSize,
-    style: this.state.theme
+  baseFontSize: this.state.fontSize,
+  style: this.state.theme
 });
 const { rem, font } = context;
 const { sizes, weights } = font;
 const styles = {
-    header: { ...sizes.title, ...weights.semibold },
-    section: { ...sizes.base, marginTop: rem(1.4), marginBottom: rem(1.4) },
-    footer: { ...sizes.xsmall }
+  header: { ...sizes.title, ...weights.semibold },
+  section: { ...sizes.base, marginTop: rem(1.4), marginBottom: rem(1.4) },
+  footer: { ...sizes.xsmall }
 };
 ```
 
@@ -187,8 +187,8 @@ Locate the `return ()` statement in the `render()` method in the `LearnPersonalT
 
 ```ts
 public render() {
-    return (
-    );
+  return (
+  );
 }
 ```
 
@@ -259,26 +259,26 @@ Locate the `render()` method and update the return statement to the following co
 
 ```tsx
 public render() {
-    return (
-        <Provider theme={ this.state.teamsTheme }>
-          <Flex column gap="gap.smaller">
-            <Header>This is your tab</Header>
-            <Alert icon="exclamation-triangle" content={ this.state.entityId } dismissible></Alert>
-            <Text content="These are your to-do items:" size="medium"></Text>
-            <List selectable>
-              { this.state.todoItems.map(todoItem => (
-                <List.Item media={<Icon name="window-maximize outline"></Icon> }
-                            content={ todoItem }>
-                </List.Item> ))
-              }
-            </List>
+  return (
+    <Provider theme={ this.state.teamsTheme }>
+      <Flex column gap="gap.smaller">
+        <Header>This is your tab</Header>
+        <Alert icon="exclamation-triangle" content={ this.state.entityId } dismissible></Alert>
+        <Text content="These are your to-do items:" size="medium"></Text>
+        <List selectable>
+          { this.state.todoItems.map(todoItem => (
+            <List.Item media={<Icon name="window-maximize outline"></Icon> }
+                       content={ todoItem }>
+            </List.Item> ))
+          }
+        </List>
 
-            TODO: add new list item form here
+        TODO: add new list item form here
 
-            <Text content="(C) Copyright Contoso" size="smallest"></Text>
-          </Flex>
-        </Provider>
-    );
+        <Text content="(C) Copyright Contoso" size="smallest"></Text>
+      </Flex>
+    </Provider>
+  );
 }
 ```
 

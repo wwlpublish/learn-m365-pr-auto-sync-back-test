@@ -10,11 +10,11 @@ OAuth 2.0 is an open standard for authentication and authorization used by Azure
 
 One thing to keep in mind when building custom tabs that require the user to be authenticated: don't assume the current user in Teams is the authenticated user. The Microsoft Teams context can provide information about the current user, such as context hints like the current user’s ID, but your tab shouldn't treat it as a proof of identity.
 
-Recall that a custom tab is just an \<iframe\> displaying the contents of a web application. Your web app can use placeholder values added to the URL by Microsoft Teams such as the current user’s profile name (also known as the `userProfileName` or UPN). A malicious user could send someone a URL that loads your web app with someone else's profile in the URL with the goal of obtaining someone else's information.
+Recall that a custom tab is just an `<iframe>` displaying the contents of a web application. Your web app can use placeholder values added to the URL by Microsoft Teams such as the current user’s profile name (also known as the `userProfileName` or UPN). A malicious user could send someone a URL that loads your web app with another user's profile in the URL with the goal of obtaining another user's information.
 
 Therefore, you should never treat this information as proof of identity of the current user. Instead, use it as the login hint when prompting the user to sign in.
 
-Many identity providers, including Azure AD, don't allow their login experiences to be hosted in an \<iframe\>. Because all tabs in Microsoft Teams are \<\<iframe\>\>, you will implement a popup window pattern to initiate the authentication process. This popup should only be initiated by a user action; it should not open automatically. Popups that open automatically are likely to trigger the browser’s popup blocker and confuse the user experience. Create a button within the tab’s configuration or content page that initiates the authentication process.
+Many identity providers, including Azure AD, don't allow their login experiences to be hosted in an `<iframe>`. Because all tabs in Microsoft Teams are `<iframe>`, you will implement a popup window pattern to initiate the authentication process. This popup should only be initiated by a user action; it should not open automatically. Popups that open automatically are likely to trigger the browser’s popup blocker and confuse the user experience. Create a button within the tab’s configuration or content page that initiates the authentication process.
 
 ### OAuth 2.0 Implicit Grant Flow & Microsoft Teams tabs
 
@@ -26,7 +26,7 @@ A basic understanding of the OAuth 2.0 implicit grant flow is a prerequisite for
     For example, when authenticating with Azure AD, if the `loginHint` parameter is set to the user's email address, the user may not even have to sign in if they have done so recently. The may not have to sign in because Azure AD will use the user's cached credentials if possible. In this scenario, the popup will flash briefly and then disappear.
 
 1. The tab then calls the `microsoftTeams.authentication.authenticate()` method and registers the `successCallback` and `failureCallback` functions.
-1. Microsoft Teams opens the start page in an \<iframe\> in a pop-up window. The start page generates random state data, saves it for future validation, and redirects to the identity provider's authorize endpoint (such as **https://login.microsoftonline.com/{tenant ID}/oauth2/authorize** for Azure AD)
+1. Microsoft Teams opens the start page in an `<iframe>` in a pop-up window. The start page generates random state data, saves it for future validation, and redirects to the identity provider's authorize endpoint (such as **https://login.microsoftonline.com/{tenant ID}/oauth2/authorize** for Azure AD)
     - Like other application auth flows in Microsoft Teams, the start page must be on a domain that's in its `validDomains` list, and on the same domain as the post-login redirect page.
 
     > [!IMPORTANT]
@@ -53,7 +53,7 @@ If the authentication process succeeded, you can refresh or reload the page to s
 
 ### Authentication popup page requirements
 
-Let’s look at this authentication popup page a bit more. The primary goal of this popup page is to redirect the user to the configured identity provider to sign in. The popup is enabling you to avoid the limitation that many identity providers do not allow their sign-in forms to be loaded within an \<iframe\>.
+Let’s look at this authentication popup page a bit more. The primary goal of this popup page is to redirect the user to the configured identity provider to sign in. The popup is enabling you to avoid the limitation that many identity providers do not allow their sign-in forms to be loaded within an `<iframe>`.
 
 This popup page can be handled in one of two ways. You can implement a server-side sign-in process by redirecting the user to the identity provider’s sign-in page using the HTTP 302 redirect response or you can use a client-side option. To implement the client-side option, use `the window.location.assign()` method to change the url of the current page to the identity provider’s sign-in page.
 
@@ -161,6 +161,6 @@ Silent authentication in Azure Active Directory (Azure AD) is a simplified form 
 
 If you want to keep your code client-side, you can use ADAL.js to attempt to acquire an Azure AD access token silently. This means that the user may never see a popup dialog if they have signed in recently.
 
-The ADAL.js library creates a hidden \<iframe\> for OAuth 2.0 implicit grant flow, but it specifies prompt=none so that Azure AD never shows the login page. If user interaction is required because the user needs to sign in or grant access to the application, Azure AD will immediately return an error that ADAL.js then reports to your app. At this point, your app can show a login button if needed.
+The ADAL.js library creates a hidden `<iframe>` for OAuth 2.0 implicit grant flow, but it specifies prompt=none so that Azure AD never shows the login page. If user interaction is required because the user needs to sign in or grant access to the application, Azure AD will immediately return an error that ADAL.js then reports to your app. At this point, your app can show a login button if needed.
 
 If silent authentication fails, Azure AD returns an error that can be handled via ADAL.js and your application. In this scenario, your custom tab would fall back to an interactive login using the popup window pattern.
