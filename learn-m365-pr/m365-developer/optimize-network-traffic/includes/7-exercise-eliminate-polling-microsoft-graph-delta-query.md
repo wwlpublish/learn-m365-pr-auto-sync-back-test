@@ -28,7 +28,7 @@ In the **Request API permissions** panel that appears, select **Microsoft Graph*
 
 When prompted for the type of permission, select **Delegated permissions** and search for the permission **User.Read.All**, select it and then select the **Add permission** button at the bottom of the panel.
 
-At the bottom of the **API Permissions** panel, select the button **Grant admin consent for [tenant]**, followed by the **Yes** button to grant all users in your organization this permission.
+In the **Configured Permissions** panel, select the button **Grant admin consent for [tenant]**, and then select the **Accept** button in the consent dialog popup to grant all users in your organization this permission.
 
 ## Update the console application to use delta query
 
@@ -188,11 +188,9 @@ Open a browser and navigate to the [Azure Active Directory admin center (https:/
 
 Select **Azure Active Directory** in the left-hand navigation.
 
-![Screenshot of the App registrations](../media/aad-portal-home.png)
-
-Copy of the Azure AD instance domain listed on the instance portal, highlighted above the name of the instance in the figure above.
-
 Select **Manage > Users** in the left-hand navigation.
+
+![Screenshot of the App registrations](../media/aad-portal-users.png)
 
 On the **Users - All Users** page, select **New User**.
 
