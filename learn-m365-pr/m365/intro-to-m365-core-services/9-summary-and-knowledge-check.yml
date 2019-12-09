@@ -29,7 +29,7 @@ quiz:
       - content: "Microsoft Intune"
         isCorrect: false
         explanation: "Microsoft Intune is one of the cloud services available in Microsoft 365."
-    - content: "Which of one the following statements is true about the differences between SharePoint Online and SharePoint Server?"
+    - content: "Which of the following statements is true about the differences between SharePoint Online and SharePoint Server?"
       choices:
       - content: "Anti-malware is only available in SharePoint Online."
         isCorrect: true

@@ -35,7 +35,7 @@ quiz:
       - content: "Unified Endpoint Management"
         isCorrect: true
         explanation: "EMS helps you provide unified endpoint management, but there isn't a product or service called 'Unified Endpoint Management'."
-    - content: "Which of one the following EMS products is offered with the E5 subscription plan but not the E3 subscription plan?"
+    - content: "Which of the following EMS products is offered with the E5 subscription plan but not the E3 subscription plan?"
       choices:
       - content: "Intune"
         isCorrect: false
@@ -49,7 +49,7 @@ quiz:
       - content: "Microsoft Advanced Threat Analytics"
         isCorrect: false
         explanation: "No, Microsoft Advanced Threat Analytics is included in both E3 and E5."
-    - content: "Which of one the following statements about co-management is correct?"
+    - content: "Which of the following statements about co-management is correct?"
       choices:
       - content: "Configuration Manager manages both on-premises infrastructure and cloud-based functions."
         isCorrect: false
