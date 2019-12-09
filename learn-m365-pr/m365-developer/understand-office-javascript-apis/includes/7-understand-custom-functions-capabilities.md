@@ -40,7 +40,7 @@ The custom function runtime only runs JavaScript. There's no document object mod
 Custom functions have a webpage that loads the custom functions runtime. Since the custom functions runtime doesn't have a UI, there's nothing for the webpage to display. You'll find the following script tag in the webpage that loads the library for the custom functions runtime.
 
 ```html
-<script src="https://appsforoffice.microsoft.com/lib/1.1/hosted/custom-functions-runtime.js" type="text/javascript"></script>
+<script src="https://appsforoffice.microsoft.com/lib/1/hosted/custom-functions-runtime.js" type="text/javascript"></script>
 ```
 
 Typically custom functions are combined with a task pane in the same add-in. If you create your add-in project using the Yeoman generator for Office Add-ins, the project will have a webpage for the custom functions, and a web page with UI for the task pane.

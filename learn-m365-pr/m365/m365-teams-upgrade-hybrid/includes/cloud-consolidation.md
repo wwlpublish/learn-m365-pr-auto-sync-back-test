@@ -11,4 +11,4 @@ Consolidation of all users from on-premises into the cloud in a single Office 36
 
 Customers with deployments of Skype for Business in multiple forests must fully migrate all users of a single hybrid Skype for Business forest individually into the Office 365 tenant using Shared SIP Address Space functionality, and then disable hybrid with that on-premises deployment, before moving on to migrate the next on-premises Skype for Business deployment. Prior to being migrated to the cloud, on-premises users remain in a federated state with any users that are not represented in the same user’s on-premises directory.
 
-For more information, including examples, starting points, limitations, implications, and considerations, see [Cloud consolidation for Teams and Skype for Business](https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid).
+For more information, including examples, starting points, limitations, implications, and considerations, see [Cloud consolidation for Teams and Skype for Business](https://docs.microsoft.com/en-us/learn/modules/m365-teams-upgrade-hybrid/cloud-consolidation).
