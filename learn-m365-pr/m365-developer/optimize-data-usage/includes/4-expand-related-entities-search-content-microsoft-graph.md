@@ -11,7 +11,7 @@ Normally, you can query either the properties of a resource or one of its relati
 The `$expand` operator, can be used to expand a collection of items, saving you from issuing additional requests.
 
 ```http
-https://graph.microsoft.com/v1.0/me/drive/root/$expand=children
+https://graph.microsoft.com/v1.0/me/drive/root?$expand=children
 ```
 
 In this example, you've requested Microsoft Graph to automatically include the children collection from the drive/root endpoint. The response will include all the default properties for the collection of files and folders within the root folder of the user’s OneDrive.
@@ -35,7 +35,7 @@ Another optimization option supported by Microsoft Graph is use of the `$filter`
 The syntax of the `$filter` query parameter follows the format of passing in an equality function with two parameters. The first parameter is the field to filter while the second parameter is the value to filter on.
 
 ```http
-https://graph.microsoft.com/v1.0/users?$filter=eq(displaName,’Bowen’)
+https://graph.microsoft.com/v1.0/users?$filter=displayName eq 'Megan Bowen'
 ```
 
 Most logical operators are supported, such as:
@@ -53,7 +53,7 @@ Most logical operators are supported, such as:
 The operator `startswith()` is supported by most endpoints in Microsoft Graph, but not all. Refer to the documentation for Microsoft Graph for full details.
 
 ```http
-https://graph.microsoft.com/v1.0/users?$filter=startswith(displayName,’J’)
+https://graph.microsoft.com/v1.0/users?$filter=startswith(displayName,'J')
 ```
 
 ## Find entities with search
@@ -61,8 +61,8 @@ https://graph.microsoft.com/v1.0/users?$filter=startswith(displayName,’J’)
 Developers can also use the `$search` query parameter to search for content against the people & message endpoints.
 
 ```http
-https://graph.microsoft.com/v1.0/users?$search=“wilke”
-https://graph.microsoft.com/v1.0/users?$search=“body:exciting”
+https://graph.microsoft.com/v1.0/me/contacts?$search="wilke"
+https://graph.microsoft.com/v1.0/me/messages?$search="body:Northwind"
 ```
 
 Search is limited to returning 250 results.
@@ -72,11 +72,11 @@ Search can't be combined with the `$filter` or `$orderby` operators.
 When searching against the messages endpoint, if no property is specified, it defaults to searching the **from**, **subject**, and **body** property. You can search on specific fields as well, such as the **cc** property:
 
 ```http
-https://graph.microsoft.com/v1.0/users?$search=“cc:wilke”
+https://graph.microsoft.com/v1.0/me/messages?$search="cc:wilke"
 ```
 
 Like the `$filter` query parameter, the `$search` query parameter can be combined with the `$select` query parameter to limit the data returned.
 
 ```http
-https://graph.microsoft.com/v1.0/users?$search=“cc:wilke”&$select=subject,toRecipients
+https://graph.microsoft.com/v1.0/me/messages?$search="cc:wilke"&$select=subject,toRecipients
 ```

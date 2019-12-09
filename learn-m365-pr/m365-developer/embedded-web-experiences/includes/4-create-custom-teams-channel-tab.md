@@ -24,7 +24,7 @@ Developers can set the tab’s `contentUrl` and `entityId` from this save method
 
 ![Screenshot of a tab content page](../media/04-02.png)
 
-Similar to a personal tab, the content displayed in a channel tab is displayed in an \<iframe\>. The URL loaded in the \<iframe\> is defined by the `contentUrl` specified in the configuration page. The web app can then use the Microsoft Teams JavaScript SDK to obtain the `entityId` and/or `subEntityId` to determine the content to display. These properties can be used to implement tab-to-tab communication using deep linking.
+Similar to a personal tab, the content displayed in a channel tab is displayed in an `<iframe>`. The URL loaded in the `<iframe>` is defined by the `contentUrl` specified in the configuration page. The web app can then use the Microsoft Teams JavaScript SDK to obtain the `entityId` and/or `subEntityId` to determine the content to display. These properties can be used to implement tab-to-tab communication using deep linking.
 
 ## Channel tab manifest syntax
 
@@ -57,7 +57,7 @@ The `sharePointPreviewImage` and `supportedSharePointHosts` properties are optio
 
 ## Channel tab capabilities: configuration page
 
-The configuration page is a web page that you host. When a user chooses to add or update a channel tab, Microsoft Teams will load the `configurationUrl` specified in the app manifest within an \<iframe\> inside the Add Tab dialog.
+The configuration page is a web page that you host. When a user chooses to add or update a channel tab, Microsoft Teams will load the `configurationUrl` specified in the app manifest within an `<iframe>` inside the Add Tab dialog.
 
 In this page, you present options and gather information from the user about what they want in your tab. For example, you may let the user select existing app resources (such as files or task lists) or create new resources just for this tab.
 
@@ -77,7 +77,7 @@ This image shows the tab context menu. If the channel tab doesn't have the `canU
 
 ## Configuration page - implementation & requirements
 
-Configuration pages, just like personal and channel tabs, are just web pages loaded within an \<iframe\>. The developer is responsible for implementing the user interface. Similar to the content pages for tabs, the web page used as a configuration page must be permitted to load within an \<iframe\>.
+Configuration pages, just like personal and channel tabs, are just web pages loaded within an `<iframe>`. The developer is responsible for implementing the user interface. Similar to the content pages for tabs, the web page used as a configuration page must be permitted to load within an `<iframe>`.
 
 One requirement for configuration pages is they must notify Microsoft Teams when the settings have been configured and saved. This is done by registering a save handler using the `registerOnSaveHandler()` event. Within your handler for this event, use the `microsoftTeams.settings.setSettings()` method to update the tab’s settings and the `saveEvent.notifySuccess()` method to make Microsoft Teams aware the settings were successfully saved.
 

@@ -76,14 +76,14 @@ Update the `import` statements in this file to replace the component library use
 
 ```ts
 import {
-    PrimaryButton,
-    TeamsThemeContext,
-    Panel,
-    PanelBody,
-    PanelHeader,
-    PanelFooter,
-    Surface,
-    getContext
+  PrimaryButton,
+  TeamsThemeContext,
+  Panel,
+  PanelBody,
+  PanelHeader,
+  PanelFooter,
+  Surface,
+  getContext
 } from "msteams-ui-components-react";
 ```
 
@@ -108,8 +108,8 @@ Locate the following code in the `render()` method in the `ConfigMathTabConfig` 
 
 ```ts
 const context = getContext({
-    baseFontSize: this.state.fontSize,
-    style: this.state.theme
+  baseFontSize: this.state.fontSize,
+  style: this.state.theme
 });
 const { rem, font } = context;
 const { sizes, weights } = font;
@@ -297,15 +297,15 @@ Locate the following code in the `render()` method in the `ConfigMathTab` class 
 
 ```ts
 const context = getContext({
-    baseFontSize: this.state.fontSize,
-    style: this.state.theme
+  baseFontSize: this.state.fontSize,
+  style: this.state.theme
 });
 const { rem, font } = context;
 const { sizes, weights } = font;
 const styles = {
-    header: { ...sizes.title, ...weights.semibold },
-    section: { ...sizes.base, marginTop: rem(1.4), marginBottom: rem(1.4) },
-    footer: { ...sizes.xsmall }
+  header: { ...sizes.title, ...weights.semibold },
+  section: { ...sizes.base, marginTop: rem(1.4), marginBottom: rem(1.4) },
+  footer: { ...sizes.xsmall }
 };
 ```
 
@@ -313,8 +313,8 @@ Locate the `return ()` statement in the `render()` method in the `ConfigMathTab`
 
 ```ts
 public render() {
-    return (
-    );
+  return (
+  );
 }
 ```
 
