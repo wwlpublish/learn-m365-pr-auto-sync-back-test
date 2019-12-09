@@ -24,7 +24,7 @@ On the **Register an application** page, set the values as follows:
 
     Select **Register**.
 
-On the **GraphNotificationTutorial** page, copy the value of the **Application (client) ID** and **Directory (tenant) ID**; you will need them later in this exercise.
+On the **Graph Console App** page, copy the value of the **Application (client) ID** and **Directory (tenant) ID**; you will need them later in this exercise.
 
   ![Screenshot of the application ID of the new app registration](../media/aad-portal-newapp-details.png)
 
@@ -35,10 +35,6 @@ Select **New client secret**.
 ![Screenshot of the Add a client secret dialog](../media/aad-portal-newapp-secret.png)
 
 On the **Add a client secret** page, enter a value in **Description**, select one of the options for **Expires** and select **Add**.
-
-![Screenshot of the Add a client secret dialog](../media/aad-portal-newapp-secret-02.png)
-
-Copy the client secret value before you leave this page. You will need it in the next step.
 
   > [!IMPORTANT]
   > This client secret is never shown again, so make sure you copy it now.
@@ -67,7 +63,13 @@ When prompted for the type of permission, select **Application permissions**.
 
 Enter **User.R** in the **Select permissions** search box and select the **User.Read.All** permission, followed by the **Add permission** button at the bottom of the panel.
 
-At the bottom of the **API Permissions** panel, select the button **Grant admin consent for [tenant]**, followed by the **Yes** button to grant all users in your organization this permission.
+In the **Configured Permissions** panel, select the button **Grant admin consent for [tenant]**.
+
+![Screenshot of the Configured permissions panel](../media/aad-portal-newapp-permissions-05.png)
+
+In the consent dialog popup, select the **Accept** button to grant all users in your organization this permission.
+
+![Screenshot of the consent dialog](../media/aad-portal-newapp-permissions-06.png)
 
 ## Create .NET Core console application
 
@@ -94,7 +96,7 @@ Open the application in Visual Studio Code using the following command:
 code .
 ```
 
-If Visual Studio code displays a dialog box asking if you want to add required assets to the project, select **Yes**.
+If Visual Studio Code displays a dialog box asking if you want to add required assets to the project, select **Yes**.
 
 ### Update the console app to support Azure AD authentication
 
@@ -105,7 +107,7 @@ Create a new file named **appsettings.json** in the root of the project and add 
   "tenantId": "YOUR_TENANT_ID_HERE",
   "applicationId": "YOUR_APP_ID_HERE",
   "applicationSecret": "YOUR_APP_SECRET_HERE",
-  "redirectUri": "YOUR_REDIRECT_URI_HERE"
+  "redirectUri": "https://localhost"
 }
 ```
 
@@ -114,7 +116,6 @@ Update properties with the following values:
 - `YOUR_TENANT_ID_HERE`: Azure AD directory ID
 - `YOUR_APP_ID_HERE`: Azure AD client ID
 - `YOUR_APP_SECRET_HERE`: Azure AD client secret
-- `YOUR_REDIRECT_URI_HERE`: redirect URI you entered when creating the Azure AD app (*for example, https://localhost*)
 
 #### Create helper classes
 
@@ -189,10 +190,9 @@ namespace Helpers
 
 ### Incorporate Microsoft Graph into the console app
 
-Open the **Program.cs** file and add the following `using` statements to the top fo the file:
+Open the **Program.cs** file and add the following `using` statements to the top of the file:
 
 ```cs
-using System;
 using System.Collections.Generic;
 using Microsoft.Identity.Client;
 using Microsoft.Graph;
@@ -321,14 +321,12 @@ When the application runs, you'll see a list of users displayed. The query retri
 
 The current console application isn't efficient because it retrieves all information about all users in your organization but only displays three properties. The `$select` query parameter can limit the amount of data that is returned by Microsoft Graph, optimizing the query.
 
-Update the line that starts with `var results = client.Users` in the `Main` method with the following to limit the query to just two properties:
+Update the line that starts with `var graphRequest = client.Users` in the `Main` method with the following to limit the query to just two properties:
 
 ```cs
-var results = client.Users
+var graphRequest = client.Users
                     .Request()
-                    .Select(u => new { u.DisplayName, u.Mail })
-                    .GetAsync()
-                    .Result;
+                    .Select(u => new { u.DisplayName, u.Mail });
 ```
 
 Rebuild and rerun the console application by executing the following commands in the command line:
@@ -342,15 +340,13 @@ Now you see the `Id` property isn't populated with data as it wasn't included in
 
 ![Screenshot of the console application with the $select query parameters](../media/app-run-02.png)
 
-Let us further limit the results to just the first 15 results. Update the line that starts with `var results = client.Users` in the `Main` method with the following:
+Let us further limit the results to just the first 15 results. Update the line that starts with `var graphRequest = client.Users` in the `Main` method with the following:
 
 ```cs
-var results = client.Users
+var graphRequest = client.Users
                     .Request()
                     .Select(u => new { u.DisplayName, u.Mail })
-                    .Top(15)
-                    .GetAsync()
-                    .Result;
+                    .Top(15);
 ```
 
 Rebuild and rerun the console application by executing the following commands in the command line:
@@ -364,16 +360,14 @@ dotnet run
 
 Notice only 15 items are now returned by the query.
 
-Sort the results in reverse alphabetic order. Update the line that starts with `var results = client.Users` in the `Main` method with the following:
+Sort the results in reverse alphabetic order. Update the line that starts with `var graphRequest = client.Users` in the `Main` method with the following:
 
 ```cs
-var results = client.Users
+var graphRequest = client.Users
                     .Request()
                     .Select(u => new { u.DisplayName, u.Mail })
                     .Top(15)
-                    .OrderBy("DisplayName desc")
-                    .GetAsync()
-                    .Result;
+                    .OrderBy("DisplayName desc");
 ```
 
 Rebuild and rerun the console application by executing the following commands in the command line:
@@ -385,18 +379,15 @@ dotnet run
 
 ![Screenshot of the console application with the $orderby query parameters](../media/app-run-04.png)
 
-Further refine the results by selecting Users who's surname starts with A, B, or C. You'll need to remove the `$orderby` query parameter added previously as the Users endpoint doesn't support combining the `$filter` and `$orderby` parameters. Update the line that starts with `var results = client.Users` in the `Main` method with the following:
+Further refine the results by selecting Users who's surname starts with A, B, or C. You'll need to remove the `$orderby` query parameter added previously as the Users endpoint doesn't support combining the `$filter` and `$orderby` parameters. Update the line that starts with `var graphRequest = client.Users` in the `Main` method with the following:
 
 ```cs
-new QueryOption("$filter","startsWith(surname,'A') or startsWith(surname,'B') or startsWith(surname,'C')")
-var results = client.Users
+var graphRequest = client.Users
                     .Request()
                     .Select(u => new { u.DisplayName, u.Mail })
                     .Top(15)
                     // .OrderBy("DisplayName desc)
-                    .Filter("startsWith(surname,'A') or startsWith(surname,'B') or startsWith(surname,'C')")
-                    .GetAsync()
-                    .Result;
+                    .Filter("startsWith(surname,'A') or startsWith(surname,'B') or startsWith(surname,'C')");
 ```
 
 Rebuild and rerun the console application by executing the following commands in the command line:

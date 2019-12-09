@@ -28,7 +28,7 @@ Microsoft Graph’s REST API confirms to the OData v4 protocol. One aspect of th
 
 Each endpoint exposed by Microsoft Graph has varying support for different query parameters. For example, the `$count` query parameter is supported by the **/contacts** endpoint, but it isn’t supported for directory objects like users and groups.
 
-Query parameters are added to the query string portion of a URL and have a `$` prefix. Each parameter has a different syntax for usage. For example, the `$count` query parameter, when set to `TRUE`, will tell Microsoft Graph to only report the number of items in the collection instead of returning all the data in the collection. This `$count` parameter dramatically reduces the amount of data returned by the service, reducing the work on Microsoft Graph and bandwidth consumed by your application.
+Query parameters are added to the query string portion of a URL and have a `$` prefix. Each parameter has a different syntax for usage. For example, the `$count` query parameter, when set to `true`, will tell Microsoft Graph to report the total number of items in the collection regardless of how many items are returned by the request. In certain situations the `$count` parameter can dramatically reduce the amount of data returned by the service, reducing the work on Microsoft Graph and bandwidth consumed by your application.
 
 ## Control the amount of information returned in queries
 
@@ -47,7 +47,7 @@ https://graph.microsoft.com/v1.0/users?$top=50
 The `$skip` parameter enables you to skip the first # of results in the response.
 
 ```http
-https://graph.microsoft.com/v1.0/users?$skip=10
+https://graph.microsoft.com/v1.0/me/contacts?$skip=10
 ```
 
 ### Requesting paged results
