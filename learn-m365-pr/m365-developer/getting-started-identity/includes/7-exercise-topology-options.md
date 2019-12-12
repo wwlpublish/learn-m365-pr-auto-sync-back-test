@@ -28,11 +28,11 @@ On the **Register an application** page, set the values as follows:
 
 Select **Register** to create the application.
 
-On the **Hello ASPNET Core Identity 01** page, copy the values **Application (client) ID** and **Directory (tenant) ID**; you'll need these values later in this exercise.
+On the **Hello ASPNET Core Identity 03** page, copy the values **Application (client) ID** and **Directory (tenant) ID**; you'll need these values later in this exercise.
 
   ![Screenshot of the application ID of the new app registration](../media/07-aad-portal-newapp-details-01.png)
 
-On the **Hello ASPNET Core Identity 01** page, select the **Add a Redirect URI** link under the **Redirect URIs**.
+On the **Hello ASPNET Core Identity 03** page, select the **Add a Redirect URI** link under the **Redirect URIs**.
 
 Locate the section **Redirect URIs** and add the following two URLs:
 

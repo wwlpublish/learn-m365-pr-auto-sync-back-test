@@ -18,7 +18,7 @@ The answer is to use an identity provider as your control plane. By using your i
 
 Access and control are important as well as that they have the level of sophistication available to them.
 
-It might be OK if somebody is working on sensitive financial information when they are on the company network at the office. However, it might not be OK for them to access that information from an internet café on the other side of the world where the organization is unaware of the user's environment.
+It might be OK if somebody is working on sensitive financial information when they are on the company network at the office. However, it might not be OK for them to access that information from an internet cafe on the other side of the world where the organization is unaware of the user's environment.
 
 The idea that your identity provider can help you provides the right control plane for your application.
 
@@ -89,9 +89,9 @@ ID tokens for a Microsoft identity are JSON web tokens (JWT). These ID tokens co
 
 It is important for developers, whenever possible, to use a well-maintained Open ID Connect library. While Microsoft identity is built on open standards like OAuth2 and Open ID Connect, fully implementing these protocols is time consuming and complicated. It is also required that any implementation of these standards be kept up-to-date with the latest recommendations to ensure the implementation is as secure as possible. ​
 
-When your web app needs to authenticate the user, it can direct the user to the Microsoft identity platform /authorize endpoint using an Open ID Connect library. ​
+When your web app needs to authenticate the user, it can direct the user to the Microsoft identity platform `/authorize` endpoint using an Open ID Connect library. ​
 
-At this point, the user is prompted to enter their credentials, enter a Multi-factor, use a FIDO2 compatible device, or perhaps use a password less experience using Microsoft Authenticator or Windows Hello to complete the authentication. All of these options are handled by the platform without any additional code from the developers. The Microsoft identity platform endpoint verifies that the user has consented to the permissions indicated in the scope parameter. If the user hasn't consented to any of those permissions, the Microsoft identity platform endpoint prompts the user to consent to the required permissions. You can read more about permissions, consent, and multi-tenant apps.​
+At this point, the user is prompted to enter their credentials, enter a multi-factor, use a FIDO2 compatible device, or perhaps use a password less experience using Microsoft Authenticator or Windows Hello to complete the authentication. All of these options are handled by the platform without any additional code from the developers. The Microsoft identity platform endpoint verifies that the user has consented to the permissions indicated in the scope parameter. If the user hasn't consented to any of those permissions, the Microsoft identity platform endpoint prompts the user to consent to the required permissions. You can read more about permissions, consent, and multi-tenant apps.​
 
 After the user authenticates and grants consent, the Microsoft identity platform endpoint returns a response to your app at the indicated redirect URI.​
 
@@ -111,7 +111,7 @@ First you acquire the access token silently. If MSAL has a token cached, or can 
 
 By including permission scopes in the request, the Microsoft identity platform endpoint ensures that the user has consented to the permissions indicated in the scope query parameter. ​
 
-If MSAL cannot acquire the token silently, it will throw a UI Required exception. If this happens, the developer should request the access token interactively. This could happen if consent for the permission has not been granted, the user has not yet authenticated, or perhaps the users is using an unmanaged device to access sensitive data from a location where the user has never been before and an MFA is required. ​
+If MSAL cannot acquire the token silently, it will throw a **UI Required** exception. If this happens, the developer should request the access token interactively. This could happen if consent for the permission has not been granted, the user has not yet authenticated, or perhaps the users is using an unmanaged device to access sensitive data from a location where the user has never been before and an MFA is required. ​
 
 ### Difference between user and application access tokens
 

@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.getting-started-identity.2-different-token-types
 metadata:
-  title: Different types of tokens used in Microsoft Identity
-  description: This unit will first provide an overview of Microsfot Identity. It will then cover the different types of tokens that are used within the Microsoft Identity platform.
+  title: Different types of tokens used in Microsoft identity
+  description: This unit will first provide an overview of Microsoft identity. It will then cover the different types of tokens that are used within the Microsoft identity platform.
   ms.date: 10/25/2019
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Different types of tokens used in Microsoft Identity
+title: Different types of tokens used in Microsoft identity
 durationInMinutes: 8
 content: |
   [!include[](includes/2-different-token-types.md)]

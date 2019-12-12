@@ -14,7 +14,7 @@ content: |
   [!include[](includes/7-exercise-topology-options.md)]
 quiz:
   title: Test your knowledge
-  questions: 
+  questions:
   - content: "Microsoft Identity supports multiple topology options. Which of the following options does not support using Microsoft Accounts for user sign-in?"
     choices:
     - content: "Consumer"
