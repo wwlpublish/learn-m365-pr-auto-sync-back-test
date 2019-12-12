@@ -99,6 +99,14 @@ Create a new folder **web** in the current folder and add a new file **index.htm
 
 
     function initPage() {
+      // Browser check variables
+      var ua = window.navigator.userAgent;
+      var msie = ua.indexOf('MSIE ');
+      var msie11 = ua.indexOf('Trident/');
+      var msedge = ua.indexOf('Edge/');
+      var isIE = msie > 0 || msie11 > 0;
+      var isEdge = msedge > 0;
+
       // if you support IE, recommendation: sign in using Redirect APIs vs. popup
       // Browser check variables
       // can change this to default an experience outside browser use

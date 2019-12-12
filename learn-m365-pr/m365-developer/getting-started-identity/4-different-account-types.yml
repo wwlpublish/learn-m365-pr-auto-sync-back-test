@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.getting-started-identity.4-different-account-types
 metadata:
-  title: Account types in Microsoft Identity
-  description: This unit will cover the different account types that are used within the Microsoft Identity platform. You will also learn about the differences and relationships between applications and service principals.
+  title: Account types in Microsoft identity
+  description: This unit will cover the different account types that are used within the Microsoft identity platform. You will also learn about the differences and relationships between applications and service principals.
   ms.date: 10/25/2019
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Account types in Microsoft Identity
+title: Account types in Microsoft identity
 durationInMinutes: 5
 content: |
   [!include[](includes/4-different-account-types.md)]
