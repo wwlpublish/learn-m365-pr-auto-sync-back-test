@@ -15,6 +15,6 @@ In this module, you'll learn how to create and add task modules to your Microsof
 1. Demonstrate how to create a task module that includes an adaptive card
 1. Create a task module for a bot
 
-## Additional Resources
+## Additional resources
 
 Refer to the following repository for additional resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [50 Task Modules](https://github.com/officedev/TrainingContent/tree/master/Identity/50%20Task%20Modules).

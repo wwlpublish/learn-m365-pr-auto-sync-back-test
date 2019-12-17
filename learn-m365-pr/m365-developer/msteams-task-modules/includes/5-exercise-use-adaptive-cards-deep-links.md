@@ -3,7 +3,7 @@ In this exercise, you’ll learn how to use adaptive cards in a custom task modu
 > [!IMPORTANT]
 > This exercise assumes you have created the Microsoft Teams app project with the Yeoman generator that contains a personal tab from the previous exercise in this module. You'll update the project to add a new task module that uses an Adaptive Card.
 
-## Create video selector as an Adaptive Card
+## Create video selector as an adaptive card
 
 In this section, you'll create an Adaptive Card that mirrors the functionality of the video selector task module created in a previous exercise. Adaptive Cards are defined using JSON that can be written by hand or using the Microsoft Teams App Studio app.
 

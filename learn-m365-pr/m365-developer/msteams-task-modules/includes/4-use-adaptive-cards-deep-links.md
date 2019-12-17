@@ -1,6 +1,6 @@
 In this unit, you’ll learn how to use Adaptive Cards in a custom task module in a custom Microsoft Teams app. You’ll also learn how to invoke task modules from anywhere within Microsoft Teams using deep links.
 
-## Overview of Adaptive Cards
+## Overview of adaptive cards
 
 A card is a user-interface (UI) container for short or related pieces of information. Cards can have multiple properties and attachments and can include buttons that can trigger Card actions.
 

@@ -75,7 +75,7 @@ Once this process is complete, you should see both the **Web Chat** and **Micros
 
 ![Screenshot of the enabled bot channels](../media/07-azure-bot-registration-05.png)
 
-### Retrieve the Bot App ID and password
+### Retrieve the bot app id and password
 
 When Azure created the bot, it also registered a new Azure AD app for the bot. You need to generate this new bot app a secret and copy the app's credentials.
 
