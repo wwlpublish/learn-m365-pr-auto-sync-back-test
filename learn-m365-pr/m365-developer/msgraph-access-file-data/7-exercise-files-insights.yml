@@ -1,0 +1,45 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msgraph-access-file-data.7-exercise-files-insights
+metadata:
+  title: Exercise - Work with file relationships and trends in OneDrive
+  description: In this exercise, you’ll learn how to get a list of files trending around a user and how to get recently modified and accessed files by the current user.
+  ms.date: 12/23/2019
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Exercise - Work with file relationships and trends in OneDrive
+durationInMinutes: 15
+content: |
+  [!include[](includes/7-exercise-files-insights.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "The Microsoft Graph insights endpoint includes all except which of the following insights?"
+    choices:
+    - content: "Files the user has accessed or modified."
+      isCorrect: false
+      explanation: "The 'used' endpoint is a valid insight in the Microsoft Graph insights endpoint."
+    - content: "Files the user is likely to be interested in."
+      isCorrect: true
+      explanation: "Correct, the 'interestedIn' endpoint isn't a valid insight in the Microsoft Graph insights endpoint."
+    - content: "Files that have been shared with the user."
+      isCorrect: false
+      explanation: "The 'shared' endpoint is a valid insight in the Microsoft Graph insights endpoint."
+    - content: "Files trending around the user."
+      isCorrect: false
+      explanation: "The 'trending' endpoint is a valid insight in the Microsoft Graph insights endpoint."
+  - content: "The results returned by Microsoft Graph insights endpoint include which of the following properties?"
+    choices:
+    - content: "The `id` of the insight response record."
+      isCorrect: false
+      explanation: "The `id` is returned by all insights endpoints."
+    - content: "A `resourceVisualization` object that contains details on the file returned and used in experiences such as Delve."
+      isCorrect: false
+      explanation: "The `resourceVisualization` is returned by all insights endpoints."
+    - content: "A `resourceRefrence` object that contains properties such as the Id and URL of the file returned."
+      isCorrect: false
+      explanation: "The `resourceRefrence` is returned by all insights endpoints."
+    - content: "All of these properties are returned for all insights endpoints. Some endpoints may also return additional details."
+      isCorrect: true
+      explanation: "Correct!"
