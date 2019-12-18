@@ -1,8 +1,8 @@
-In this exercise, you’ll learn how to create, configure, and use Azure AD applications that use data returned from Microsoft Graph in single page applications by using the OAuth 2.0 implicit grant flow.
+In this exercise, you’ll learn how to create, configure, and use Azure AD applications that use data returned from Microsoft Graph in single-page applications by using the OAuth 2.0 implicit grant flow.
 
-## Create a Single page application
+## Create a single-page application
 
-A single page application (SPA) is typically a dynamic web application that runs entirely client side in the browser, usually in one web page. This usually is just a single HTML page. However, this example will use an Azure AD application to issue an authenticated request to Microsoft Graph using the OAuth 2.0 implicit grant flow.
+A single-page application (SPA) is typically a dynamic web application that runs entirely client side in the browser, usually in one web page. This is usually just a single HTML page. However, this example will use an Azure AD application to issue an authenticated request to Microsoft Graph using the OAuth 2.0 implicit grant flow.
 
 To do this, the SPA must be served up as a routable page with a web server. The first step is to create a small web server and then create the SPA.
 
@@ -148,7 +148,7 @@ In the current folder, add a new file **index.html** told the folder. Add the fo
 ```
 
 > [!NOTE]
-> The remainder of this exercise instructs you to add code to this **index.html** file. Pay close attention where you add the code using the using the two `TODO:` comments for placement.
+> The remainder of this exercise instructs you to add code to this **index.html** file. Pay close attention where you add the code using the two `TODO:` comments for placement.
 
 Add the following function to the **index.html** file immediately before the `// TODO: add FUNCTIONS before this line` comment that will configure the welcome message for the page:
 
@@ -266,7 +266,7 @@ function graphAPICallback(data) {
 }
 ```
 
-Finally, add the following two functions to implement a sign in and sign out capability for the button on the page:
+Finally, add the following two functions to implement a sign in and sign out capability for the button on the page.
 
 Add the following function immediately before the `// TODO: add FUNCTIONS before this line` comment:
 
@@ -290,11 +290,11 @@ function signOut() {
 
 The web page you created will submit a request to Microsoft Graph to retrieve the user's details. All requests to Microsoft Graph must include an access token as proof of the user's identity and that they have the necessary permissions to call Microsoft Graph. To obtain an access token, you must create an Azure AD application.
 
-Open a browser and navigate to the [Azure Active Directory admin center](https://aad.portal.azure.com). Sign in using a **Work or School Account** that has global administrator rights to the tenancy.
+Open a browser and navigate to the [Azure Active Directory admin center](https://aad.portal.azure.com). Sign in using a **Work or School Account** that has global administrator rights to the tenant.
 
 Select **Azure Active Directory** in the left-hand navigation.
 
-Select **Manage > App registrations** in the left-hand navigation.
+Select **App registrations** in the left-hand navigation.
 
   ![Screenshot of the App registrations](../media/aad-portal-home.png)
 
@@ -344,11 +344,11 @@ Next, open a browser and navigate to http://localhost:3007. The page initially c
 
 ![Screenshot of the default web page for an anonymous user](../media/03-test-01.png)
 
-Select the **sign in** button.
+Select the **Sign in** button.
 
 Depending on the browser, you're using, a popup window will load or the page will redirect to the Azure AD sign in prompt.
 
-Sign in using a **Work or School Account** and accept the permissions requested for the application by selecting **Accept**
+Sign in using a **Work or School Account** and accept the permissions requested for the application by selecting **Accept**.
 
 ![Screenshot of Azure AD popup sign-in experience](../media/03-test-02.png)
 
@@ -360,4 +360,4 @@ Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the consol
 
 ## Summary
 
-In this exercise, you learned how to create, configure, and use Azure AD applications that use data returned from Microsoft Graph in single page applications by using the OAuth 2.0 implicit grant flow.
+In this exercise, you learned how to create, configure, and use Azure AD applications that use data returned from Microsoft Graph in single-page applications by using the OAuth 2.0 implicit grant flow.

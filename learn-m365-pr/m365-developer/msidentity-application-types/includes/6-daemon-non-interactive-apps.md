@@ -8,7 +8,7 @@ Your application can acquire a token to call a web API on behalf of itself (not 
 
 This scenario is typically used when an app needs an access token but doesn't want to work under the context of a user+app permissions. Instead, the app needs its own permissions to work independently of a user. These types of permissions are called *application permissions*.
 
-Application permissions are common in service or daemon-related apps. The way this works is the application has its own credentials that are used to authenticate and obtain an access token form a token issuer.
+Application permissions are common in service or daemon-related apps. The way this works is the application has its own credentials that are used to authenticate and obtain an access token from a token issuer.
 
 Here are some examples of use cases for daemon apps:
 
@@ -27,9 +27,9 @@ Applications that acquire a token for their own identities:
 
 Unlike the scenario covered in the previous unit, the app doesn't need to sign-in to obtain an authorization code. During the Azure AD application registration process, you create an SSL certificate public/private key pair.
 
-The public certificate is register with our Azure AD app. Within the service or daemon app, the private certificate is used to encrypt a string that is sent to the access token endpoint.
+The public certificate is registered with our Azure AD app. Within the service or daemon app, the private certificate is used to sign a JWT that is sent to the token endpoint.
 
-Administrators also can use a client secret instead of a certificate.
+Administrators also can use a client secret instead of a certificate, but this is not recommended for production.
 
 ## Azure AD app registration
 
@@ -87,7 +87,7 @@ Once the confidential client is created, use the `AcquireTokenForClient()` metho
 
 ```cs
 List<string> scopes = new List<string>();
-scopes.Add("https://graph.microsoft.com/.default");
+scopes.Add("REPLACE_WITH_APP_ID/.default");
 
 result = await cca.AcquireTokenForClient(_scopes).ExecuteAsync();
 return result.AccessToken;
@@ -95,7 +95,7 @@ return result.AccessToken;
 
 Note the scopes specified when requesting an access token. In other scenarios, the code specified the exact permission (also known as scopes) the application needed.
 
-The scope to request for a client credential flow is the name of the resource followed by `/.default`. This tells Azure AD to use the application level permissions declared statically during the application registration.
+The scope to request for a client credential flow is the app ID followed by `/.default`. This tells Azure AD to use the application level permissions declared statically during the application registration.
 
 ## Calling APIs (MS Graph)
 

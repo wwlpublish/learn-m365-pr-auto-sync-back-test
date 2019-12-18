@@ -4,27 +4,25 @@ In this unit, you’ll learn how to create server-side web apps that allow users
 
 ## Web apps that sign in users & call APIs
 
-Adding authentication enables your web app to access limited profile information, and customize the experience offered to users. Web apps authenticate a user in a web browser. In this scenario, the web application directs the user to sign in to Azure AD. Azure AD returns a sign-in response through the user’s browser, which contains claims about the user in a security token.
+Adding authentication enables your web app to access limited profile information and customize the experience offered to users. Web apps authenticate a user in a web browser. In this scenario, the web application directs the user to sign in to Microsoft identity. Microsoft identity returns a sign-in response through the user’s browser, which contains claims about the user in a identity token.
 
-Signed-in users use the Open ID Connect standard protocol itself simplified by the use of middleware libraries.
-
-As a second phase you can also enable your application to call Web APIs on behalf of the signed-in user.
+As a second phase you can also enable your application to call web APIs on behalf of the signed-in user.
 
 ## OAuth 2.0 authorization code grant flow
 
-The OAuth 2.0 authorization code grant flow is common when websites or custom applications leverage Azure AD as a federated authentication provider. When the application needs you to sign in, or needs an access token to act on your behalf, it redirects you over to Azure AD’s authorization endpoint to authenticate. You sign in using your email & password and in turn Azure AD redirects you upon a successful sign-in back to a specific URL in the app.
+The OAuth 2.0 authorization code grant flow is common when websites or custom applications leverage Azure AD as a federated authentication provider. When the application needs a user to sign in, or needs an access token to act on their behalf, it redirects the user over to Azure AD’s authorization endpoint to authenticate. The user signs in using their email and password and in turn Azure AD redirects the user upon a successful sign-in back to a specific URL in the app.
 
-When Azure AD redirects the user back to the web app, it includes an authorization code. The authorization token is an encoded string that only Azure AD can read. The web app takes this authorization code, which is valid for a short time, and includes it in a request to the Azure AD token endpoint.
+When Azure AD redirects the user back to the web app, it includes an authorization code. The authorization code is an encoded string that only Azure AD can read. The web app takes this authorization code, which is valid for a short time, and includes it in a request to the Azure AD token endpoint.
 
 In addition to the authorization code, the request to the token endpoint includes a `grant_type` parameter that tells the endpoint it's exchanging the authorization code to obtain the access token on your behalf.
 
-A benefit of this grant flow is that the web app never sees your username & password. All authentication happens over on Azure AD and instead, the application just gets the authorization code that’s a result of this sign-in process. This aspect to the auth code grant flow makes it very secure.
+A benefit of this grant flow is that the web app never sees your username and password. All authentication happens over on Azure AD and the application just gets the authorization code that’s a result of the sign-in process. This aspect to the auth code grant flow makes it very secure.
 
 ## Azure AD app registration
 
 In order for a web app to use Microsoft identity to enable users to authenticate and obtain access tokens for use with services such as Microsoft Graph, you must register a new app with Azure AD. This can be done using the Azure AD admin center https://aad.portal.azure.com.
 
-When registering the app in Azure AD, ensure the redirect URI of the app points to the callback URL of the web app. This URL must match the redirect URL provided by the SPA when the authentication process is started. The authorization code will be sent to this endpoint, which means you need to configure any authentication libraries and/or middleware to listen on this endpoint to receive the authorization code.
+When registering the app in Azure AD, ensure the redirect URI of the app points to the callback URL of the web app. This URL must match the redirect URL provided by the app when the authentication process is started. The authorization code will be sent to this endpoint, which means you need to configure any authentication libraries and/or middleware to listen on this endpoint to receive the authorization code.
 
 A sign-out URL should also be specified so the authentication libraries and/or middleware deletes any cached tokens or other data that are only needed for signed in users.
 
@@ -36,9 +34,12 @@ The web app will also need a client secret to sign in with Azure AD to exchange 
 
 There are three things you'll need from the Azure AD app registration:
 
-- **tenant ID**: ID of your Azure AD directory
-- **client ID**: unique auto-generated ID of the app (*this is also referred to as the application ID*)
-- **client secret**: secret you created during app registration
+- **Tenant ID**: ID of your Azure AD directory
+- **Client ID**: unique auto-generated ID of the app (*this is also referred to as the application ID*)
+- **Client secret**: secret you created during app registration
+
+> [!NOTE]
+> While a secret key is used here for purposes of simplicity, Microsoft recommends production apps use certificates with the OAuth 2.0 authorization code grant flow.
 
 ## MSAL .NET & code configuration
 
@@ -59,7 +60,7 @@ Open this file and set the three values you collected from registering the Azure
 }
 ```
 
-Next, the web app startup process needs to be modified to configure the support for signing-in with Azure AD and obtaining an ID token.
+Next, you need to modify the web app startup process to configure the support for signing-in with Azure AD and obtaining an ID token.
 
 In an ASP.NET Core web application, add the following to the `ConfigureServices()` method.
 
@@ -80,10 +81,10 @@ var application = ConfidentialClientApplicationBuilder.Create(appSettings.Client
 
 Then add the following code to the end of the `ConfigureServices()` method. This will complete the Azure AD configuration by doing the following steps:
 
-- set the authority for Azure AD to be the OAuth 2.0 Azure AD endpoint
-- request both an authorization code and ID token when the user signs in
-- associate the user's name property in ASP.NET to the **preferred_username** claim returned in the ID token
-- create a callback when the authorization code is received to add all claims from the ID token to the current signed-in user's claims
+- Set the authority for Azure AD to be the OAuth 2.0 Azure AD endpoint
+- Request both an authorization code and ID token when the user signs in
+- Associate the user's name property in ASP.NET to the **preferred_username** claim returned in the ID token
+- Create a callback when the authorization code is received to add all claims from the ID token to the current signed-in user's claims
 
 ```cs
 services.Configure<OpenIdConnectOptions>(AzureADDefaults.OpenIdScheme, async options => {
@@ -176,22 +177,6 @@ public class UserController : Controller
   }
 }
 ```
-
-## Proof Key for Code Exchange (PKCE)
-
-This unit has addressed using a confidential client with the authorization code grant flow. Confidential clients are those applications that are capable of keeping a client secret hidden from the users of the app, as is the case with a web application.
-
-With distributed consoles, desktop or mobile apps, the client secret must be distributed with the application or the application must request it. In either case, the secret is obtained by a device outside of the control of the application owner. These types of applications are referred to as public clients.
-
-Microsoft identity provides support for the Proof Key for Code Exchange (PKCE) which is a mitigation technique to protect against a specific threat for public clients utilizing the authorization code grant.
-
-PKCE addresses the scenario where public clients that use the authorization code flow are susceptible to an authorization code interception attack. The details of this scenario are outlined in the following RFC by the IETF: [Proof Key for Code Exchange by OAuth Public Clients](https://tools.ietf.org/html/rfc7636)
-
-While there is a long list of pre-conditions, the described attack has been observed in the wild and has to be considered in OAuth 2.0  deployments. While the OAuth 2.0 threat model in the RFC describes mitigation techniques, they're not applicable since they rely on a per-client instance secret or a per-client instance redirect URI.
-
-To mitigate this attack, applications utilize a dynamically created cryptographically random key called "code verifier". A unique code verifier is created for every authorization request, and its transformed value, called "code challenge", is sent to the authorization server to obtain the authorization code. The authorization code obtained is then sent to the token endpoint with the "code verifier", and the server compares it with the previously received request code so that it can perform the proof of possession of the "code verifier" by the client. This works as the mitigation since the attacker would not know this one-time key, since it is sent over TLS and can't be intercepted.
-
-Microsoft identity provides support for the Proof Key for Code Exchange (PKCE) which is a mitigation technique to protect against a specific threat for public clients utilizing the authorization code grant.
 
 ## Summary
 

@@ -48,7 +48,7 @@ Select **Save** when finished setting these values.
 
 ### Create a client secret for the app
 
-In order for the daemon app to run without user involvement, it will sign in to Azure AD with an application ID and either a certificate or secret. In this exercise, you'll use a secret.
+In order for the app to run without user involvement, it will sign in to Azure AD with an application ID and either a certificate or secret. In this exercise, you'll use a secret.
 
 Select **Certificates & secrets** from the left-hand navigation panel.
 
