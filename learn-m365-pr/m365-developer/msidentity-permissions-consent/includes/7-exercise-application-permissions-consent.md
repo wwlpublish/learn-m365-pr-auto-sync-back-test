@@ -2,18 +2,13 @@ Application permissions are the other type of permission supported by the Micros
 
 In this unit, you’ll learn about application permissions, how to define them and how to grant them using a different type of consent flow in your apps.
 
-> [!IMPORTANT]
-> This exercise assumes you have created the single page app (SPA) from the previous unit in this module. You'll edit the SPA created in that exercise in this exercise.
-
-### Create an Azure AD application
-
-The web page you created in the previous exercises currently submits a request to Microsoft Graph to retrieve the user's emails or calendar items. You will modify it to display all users in the organization. To do this, you must create an Azure AD application that has been granted the necessary permission to read all users in the organization. This is an *application permission*, unlike the delegated permissions you have worked with so far in this module. Application permissions require administrator approval.
+## Create an Azure AD application
 
 Open a browser and navigate to the [Azure Active Directory admin center](https://aad.portal.azure.com). Sign in using a **Work or School Account** that has global administrator rights to the tenancy.
 
 Select **Azure Active Directory** in the left-hand navigation.
 
-Then select **Manage > App registrations** in the left-hand navigation.
+Select **Manage > App registrations** in the left-hand navigation.
 
   ![Screenshot of the App registrations](../media/aad-portal-home.png)
 
@@ -23,130 +18,349 @@ On the **App registrations** page, select **New registration**.
 
 On the **Register an application** page, set the values as follows:
 
-- **Name**: Identity Exercise 03
-- **Supported account types**: Accounts in this organizational directory only (Single tenant)
-- **Redirect URI**: Web = http://localhost:3007
+- **Name**: Identity Daemon
+- **Supported account types**: Accounts in this organizational directory only (Contoso only - Single tenant)
 
     ![Screenshot of the Register an application page](../media/07-aad-portal-newapp-01.png)
 
-Select **Register** to create the application.
+    Select **Register**.
 
-On the **Identity Exercise 03** page, copy the values **Application (client) ID** and **Directory (tenant) ID**; you'll need these values later in this exercise.
+On the **Identity Daemon** page, copy the value of the **Application (client) ID** and **Directory (tenant) ID**; you'll need these in the application.
 
-  ![Screenshot of the application ID of the new app registration](../media/07-aad-portal-newapp-details-01.png)
+  ![Screenshot of the application ID of the new app registration](../media/07-aad-portal-newapp-details.png)
 
-On the **Identity Exercise 03** page, select the **1 web, 0 public client** link under the **Redirect URIs**.
+### Configure the Azure AD application's authentication settings
 
-Locate the section **Implicit grant** and select both **Access tokens** and **ID tokens**. This tells Azure AD to return these tokens the authenticated user if requested.
+Select **Manage > Authentication**.
 
-#### Add permissions to the Azure AD app
+In the section **Redirect URIs**, locate the **Suggested Redirect URIs for public clients (mobile, desktop)** section and select the entry that begins with **msal**:
 
-Select **API Permissions** from the left-hand navigation, and then select **Add a permission**.
+![Screenshot of the Redirect URIs section](../media/07-aad-portal-newapp-authentication-01.png)
 
-On the **Request API Permissions** page, select **Microsoft APIs**, **Microsoft Graph**, and then select **Delegated permissions**:
+Scroll down to the **Default client type** section and set the toggle to **Yes**.
 
-In the search box in the **Select permissions** section, enter **user.r**, select the permission **User.Read.All** permission, and then select **Add permissions**.
+![Screenshot of the Default client type section](../media/07-aad-portal-newapp-authentication-02.png)
 
-  ![Screenshot of selecting Microsoft Graph Application permissions](../media/07-aad-portal-newapp-permissions-01.png)
+Select **Save** in the top menu to save your changes.
 
-Notice the **User.Read.All** permission has a warning message that states **Not granted for Contoso**. This indicates that an administrator must grant this permission to the app.
+### Create a client secret for the app
 
-  ![Screenshot of selecting Microsoft Graph Application permissions](../media/07-aad-portal-newapp-permissions-02.png)
+In order for the daemon app to run without user involvement, it will sign in to Azure AD with an application ID and either a certificate or secret. In this exercise, you'll use a secret.
 
-Before granting this permission, let's update the SPA to see what a non-administrative user would see.
+Select **Certificates & secrets** from the left-hand navigation panel.
 
-### Update the SPA with the Azure AD application details
+Select the **New client secret** button:
 
-Locate the following markup in the **index.html** file in the SPA:
+![Screenshot of the Certificates & Secrets page in the Azure AD admin center](../media/07-aad-portal-newapp-secret-01.png)
 
-```html
-<h2>Latest messages</h2>
-<div id="messages"></div>
+When prompted, give the secret a description and select one of the expiration duration options provided and select **Add**. *What you enter and select doesn't matter for the exercise.*
+
+![Screenshot of creating a new client secret](../media/07-aad-portal-newapp-secret-02.png)
+
+The **Certificate & Secrets** page will display the new secret. Its important you copy this value as its only shown this one time; if you leave the page and come back, it will only show as a masked value.
+
+![Screenshot showing the new secret](../media/07-aad-portal-newapp-secret-03.png)
+
+Copy the value of the secret as you'll need it later.
+
+### Grant Azure AD application permissions to Microsoft Graph
+
+After creating the application, you need to grant it the necessary permissions to Microsoft Graph
+
+Select **API Permissions** in the left-hand navigation panel.
+
+From the **Identity Daemon - API Permissions** page, select the **Add a permission** button.
+
+![Screenshot of the API Permissions page](../media/07-aad-portal-newapp-permissions-01.png)
+
+In the **Request API permissions** panel that appears, select **Microsoft Graph** from the **Microsoft APIs** tab.
+
+![Screenshot of Microsoft Graph in the Request API permissions panel](../media/07-aad-portal-newapp-permissions-02.png)
+
+When prompted for the type of permission, select **Application permissions**.
+
+Enter **Mail.R** in the **Select permissions** search box and select the **Mail.Read** permission, followed by the **Add permission** button at the bottom of the panel.
+
+![Screenshot of the Mail.Read permission in the Request API permissions panel](../media/07-aad-portal-newapp-permissions-03.png)
+
+Notice that the permission has **Yes** listed in the column **Admin Consent Required** in the previous screenshot? This means that an administrator must grant this permission.
+
+On the **Identity Daemon - API Permissions** panel, select the button **Grant admin consent for [tenant]**, followed by the **Yes** button to grant all users in your organization this permission.
+
+![Screenshot of granting admin consent to Contoso for all requested permissions](../media/07-aad-portal-newapp-permissions-04.png)
+
+This will launch a popup window that contains the admin consent experience. Sign in with an account that is a global administrator in the tenant and accept the consent request.
+
+## Create a headless application
+
+You'll use a .NET Core console application to run as a service. This app can then be configured to run on a defined schedule with no user involvement.
+
+Open your command prompt, navigate to a directory where you have rights to create your project, and run the following command to create a new .NET Core console application:
+
+```shell
+dotnet new console -o graphdaemon
 ```
 
-Replace this markup with the following:
+After creating the application, run the following commands to ensure your new project runs correctly.
 
-```html
-<h2>Organization Users</h2>
-<div id="users"></div>
+```shell
+cd graphdaemon
+dotnet add package Microsoft.Identity.Client
+dotnet add package Microsoft.Graph
+dotnet add package Microsoft.Extensions.Configuration
+dotnet add package Microsoft.Extensions.Configuration.FileExtensions
+dotnet add package Microsoft.Extensions.Configuration.Json
 ```
 
-Locate the `var graphConfig = {}` code in the **index.html** file. The `scopes` array contains the permissions the app will request in the access token when the user signs-in. You also need to modify the endpoint for the request:
+Open the application in Visual Studio Code using the following command:
 
-  - Replace the **/me** in the `graphMeEndpoint` property with **/users**.
-  - Replace the **calendars.read** permission in the `scopes` array with **users.read.all**.
-
-The `graphConfig` object should now look like the following code:
-
-```js
-var graphConfig = {
-  graphMeEndpoint: "https://graph.microsoft.com/v1.0/users",
-  requestObj: {
-    scopes: ["user.read", "user.read.all"]
-  }
-};
+```shell
+code .
 ```
 
-Now change the Microsoft Graph requests to request users instead of calendar items. Search for all instances of `/events?$top=10&$select=subject` in the SPA and replace them with `/?$select=displayName,mail`. There should be 4 of them. The rest of the request can remain as is because both email messages and calendar events have a *subject* property.
+If Visual Studio code displays a dialog box asking if you want to add required assets to the project, select **Yes**.
 
-The last step is to update the method that renders the results. Locate the method `graphAPICallback()` and update the `forEach` loop within it to display all users by their display name and email address. The `graphAPICallback()` should look like the following after making the change:
+### Update the console app to support Azure AD authentication
 
-```js
-function graphAPICallback(data) {
-  var htmlBody = '';
-  data.value.forEach(user => {
-    htmlBody += `<li>${user.displayName} - &lt;${user.mail}&gt;</li>`;
-  });
-  document.getElementById("users").innerHTML = `<ul>${htmlBody}</ul>`;
+Create a new file named **appsettings.json** in the root of the project and add the following code to it:
+
+```json
+{
+  "tenantId": "YOUR_TENANT_ID_HERE",
+  "applicationId": "YOUR_APP_ID_HERE",
+  "applicationSecret": "YOUR_APP_SECRET_HERE",
+  "targetUserId": "TARGET_USER_ID_HERE"
 }
 ```
 
-### Test the web application
+Update properties with the following values:
 
-To test the web page, first start the local web server. In the command prompt, execute the following command from the root of the project:
+- `YOUR_TENANT_ID_HERE`: Azure AD directory ID
+- `YOUR_APP_ID_HERE`: Azure AD client ID
+- `YOUR_APP_SECRET_HERE`: Azure AD client secret
 
-```shell
-node server.js
+#### Create helper classes
+
+Create a new folder **Helpers** in the project.
+
+Create a new file **AuthHandler.cs** in the **Helpers** folder and add the following code:
+
+```cs
+using System.Net.Http;
+using System.Threading;
+using System.Threading.Tasks;
+using Microsoft.Graph;
+
+namespace Helpers
+{
+  public class AuthHandler : DelegatingHandler
+  {
+    private IAuthenticationProvider _authenticationProvider;
+
+    public AuthHandler(IAuthenticationProvider authenticationProvider, HttpMessageHandler innerHandler)
+    {
+      InnerHandler = innerHandler;
+      _authenticationProvider = authenticationProvider;
+    }
+
+    protected override async Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+    {
+      await _authenticationProvider.AuthenticateRequestAsync(request);
+      return await base.SendAsync(request, cancellationToken);
+    }
+  }
+}
 ```
 
-Next, open a browser and navigate to http://localhost:3007. The page initially contains a default welcome message and sign-in button.
+Create a new file **MsalAuthenticationProvider.cs** in the **Helpers** folder and add the following code:
 
-Select the **Sign In** button.
+```cs
+using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Threading.Tasks;
+using Microsoft.Identity.Client;
+using Microsoft.Graph;
 
-Depending on the browser, you're using, a popup window will load or the page will redirect to the Azure AD sign in prompt.
+namespace Helpers
+{
+  public class MsalAuthenticationProvider : IAuthenticationProvider
+  {
+    private static MsalAuthenticationProvider _singleton;
+    private IConfidentialClientApplication _application;
+    private string[] _scopes;
 
-Sign in using a **Work or School Account** of a user in your organization *that doesn't have the global administrator role assigned to them*. On the next screen, notice how the consent dialog is notifying the user they can't use the app until an administrator has granted the permission:
+    private MsalAuthenticationProvider(IConfidentialClientApplication application, string[] scopes)
+    {
+      _application = application;
+      _scopes = scopes;
+    }
 
-![Screenshot of Azure AD popup consent prompting for admin action](../media/07-test-01.png)
+    public static MsalAuthenticationProvider GetInstance(IConfidentialClientApplication application, string[] scopes)
+    {
+      if (_singleton == null)
+      {
+        _singleton = new MsalAuthenticationProvider(application, scopes);
+      }
 
-Close the dialog and browser.
+      return _singleton;
+    }
 
-### Grant application permission via admin consent
+    public async Task AuthenticateRequestAsync(HttpRequestMessage request)
+    {
+      request.Headers.Authorization = new AuthenticationHeaderValue("bearer", await GetTokenAsync());
+    }
 
-To fix this, you need to login as an administrator and use the admin consent experience to grant the application permission.
+    public async Task<string> GetTokenAsync()
+    {
+      AuthenticationResult result = null;
 
-One way to do this is using the URL method shown in previous exercises. Another way to trigger this experience is from the Azure AD admin center.
+      try {
+        result = await _application.AcquireTokenForClient(_scopes).ExecuteAsync();
+      } catch (MsalServiceException) { }
 
-Open a browser and navigate to the [Azure Active Directory admin center](https://aad.portal.azure.com). Sign in using a **Work or School Account** that has global administrator rights to the tenancy.
+      return result.AccessToken;
+    }
+  }
+}
+```
 
-Select **App Registrations**, select the app **Identity Exercise 03**, and then select **API permissions**.
+### Incorporate Microsoft Graph into the console app
 
-To launch the admin consent experience, select the **Grant admin consent for Contoso** button.
+Open the **Program.cs** file and add the following `using` statements to the top fo the file:
 
-  ![Screenshot of selecting Microsoft Graph Application permissions](../media/07-aad-portal-newapp-permissions-03.png)
+```cs
+using System;
+using System.Collections.Generic;
+using Microsoft.Identity.Client;
+using Microsoft.Graph;
+using Microsoft.Extensions.Configuration;
+using Helpers;
+```
 
-This will launch the admin consent dialog:
+Add the following method `LoadAppSettings` to the `Program` class. The method retrieves the configuration details from the **appsettings.json** file previously created:
 
-  ![Screenshot of the admin consent experience](../media/07-aad-portal-newapp-permissions-04.png)
+```cs
+private static IConfigurationRoot LoadAppSettings()
+{
+  try
+  {
+    var config = new ConfigurationBuilder()
+                      .SetBasePath(System.IO.Directory.GetCurrentDirectory())
+                      .AddJsonFile("appsettings.json", false, true)
+                      .Build();
 
-Notice the permission **Read all users' full profiles**. Select **Accept** to grant this permission to all users in the organization.
+    if (string.IsNullOrEmpty(config["applicationId"]) ||
+        string.IsNullOrEmpty(config["applicationSecret"]) ||
+        string.IsNullOrEmpty(config["tenantId"]) ||
+        string.IsNullOrEmpty(config["targetUserId"]))
+    {
+      return null;
+    }
 
-Sign-out and navigate back to the SPA at http://localhost:3007.
+    return config;
+  }
+  catch (System.IO.FileNotFoundException)
+  {
+    return null;
+  }
+}
+```
 
-Select the **Sign In** button and sign-in with the same non-administrator account you used before. This time, it will not prompt you for permissions and display users within the organization because the admin granted all users that permission:
+Add the following method `CreateAuthorizationProvider` to the `Program` class. The method will create an instance of the clients used to call Microsoft Graph.
 
-  ![Screenshot of the admin consent experience](../media/07-test-02.png)
+```cs
+private static IAuthenticationProvider CreateAuthorizationProvider(IConfigurationRoot config)
+{
+  var tenantId = config["tenantId"];
+  var clientId = config["applicationId"];
+  var clientSecret = config["applicationSecret"];
+  var authority = $"https://login.microsoftonline.com/{config["tenantId"]}/v2.0";
+
+  List<string> scopes = new List<string>();
+  scopes.Add(clientId + "/.default");
+
+  var cca = ConfidentialClientApplicationBuilder.Create(clientId)
+                                          .WithAuthority(authority)
+                                          .WithClientSecret(clientSecret)
+                                          .Build();
+  return MsalAuthenticationProvider.GetInstance(cca, scopes.ToArray());
+}
+```
+
+Add the following method `GetAuthenticatedGraphClient` to the `Program` class. The method creates an instance of the `GraphServiceClient` object.
+
+```cs
+private static GraphServiceClient GetAuthenticatedGraphClient(IConfigurationRoot config)
+{
+  var authenticationProvider = CreateAuthorizationProvider(config);
+  return new GraphServiceClient(authenticationProvider);
+}
+```
+
+Locate the `Main` method in the `Program` class. Add the following code to the end of the `Main` method to load the configuration settings from the **appsettings.json** file:
+
+```cs
+var config = LoadAppSettings();
+if (config == null)
+{
+  Console.WriteLine("Invalid appsettings.json file.");
+  return;
+}
+```
+
+Add the following code to the end of the `Main()` method to obtain an instance of the Microsoft Graph .NET SDK client that you'll use to get a user's email messages:
+
+```cs
+var client = GetAuthenticatedGraphClient(config);
+```
+
+Next, add the following code to the end of the `Main()` method. This will create a request using Microsoft Graph for a specific user's email messages and display them in the console. The ID of the user is pulled from the **appsettings.json** file:
+
+```cs
+var requestUserEmail = client.Users[config["targetUserId"]].Messages.Request();
+var results = requestUserEmail.GetAsync().Result;
+foreach (var message in results)
+{
+  Console.WriteLine("");
+  Console.WriteLine("Subject : " + message.Subject);
+  Console.WriteLine("Received: " + message.ReceivedDateTime.ToString());
+  Console.WriteLine("ID      : " + message.Id);
+}
+
+Console.WriteLine("\nGraph Request:");
+Console.WriteLine(requestUserEmail.GetHttpRequestMessage().RequestUri);
+```
+
+### Build and test the application
+
+Run the following command in a command prompt to compile the console application:
+
+```shell
+dotnet build
+```
+
+### Obtain the ID of a user to use in the test
+
+Using the [Azure AD admin center](https://aad.portal.azure.com/), select **Users**, and then select one of the users from the organization:
+
+![Screenshot of the All Users page in the Azure AD admin center](../media/07-test-01.png)
+
+Locate the **Object ID** property and copy the value.
+
+In the **appsettings.json** file in the console application, replace  `TARGET_USER_ID_HERE` value with the user's Object ID property you copied.
+
+### Run the daemon application
+
+Run the following command to run the console application:
+
+```shell
+dotnet run
+```
+
+After a moment, the app will display a list of all the specified user's emails obtained using the Microsoft Graph .NET SDK.
+
+![Screenshot of the All Users page in the Azure AD admin center](../media/07-test-02.png)
 
 ## Summary
 
-In this unit, you learned about application permissions, how to define them and how to grant them using a different type of consent flow in your apps.
+In this exercise, you learned how to create apps that obtain tokens without user interaction to either act on behalf of a user or perform tasks as the app’s identity.

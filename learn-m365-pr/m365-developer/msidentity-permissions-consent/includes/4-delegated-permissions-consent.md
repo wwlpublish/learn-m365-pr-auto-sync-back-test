@@ -36,7 +36,7 @@ This approach also enables administrators to consent on behalf of all users in t
 
 For developers migrating apps from the Microsoft identity v1.0 endpoint to the v2.0 endpoint, Microsoft introduced the `/.default` scope. This is a built-in scope for every application that refers to the static list of permissions configured on the application registration.
 
-A scope value of **https://graph.microsoft.com/.default** is functionally the same as the v1.0 endpoints **resource=https://graph.microsoft.com**. This scope requests an access token with the scopes on Microsoft Graph that the application has registered for in the Azure portal.
+A scope value of **[app id]/.default** requests an access token with the scopes on the App ID that the application has registered for in the Azure portal.
 
 The `/.default` scope should be used with apps that use the OAuth 2.0 client credentials flow.
 

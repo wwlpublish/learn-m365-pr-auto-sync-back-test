@@ -8,7 +8,7 @@ Some high-privilege permissions in the Microsoft ecosystem can be set to admin-r
 
 - Read all user's full profiles by using **User.Read.All**
 - Write data to an organization's directory by using **Directory.ReadWrite.All**
-- Read all groups in an organization's directory by using **Groups.Read.All**
+- Read all groups in an organization's directory by using **Group.Read.All**
 
 ![Screenshot of selecting Microsoft Graph Application permissions](../media/07-aad-portal-newapp-permissions-01.png)
 
