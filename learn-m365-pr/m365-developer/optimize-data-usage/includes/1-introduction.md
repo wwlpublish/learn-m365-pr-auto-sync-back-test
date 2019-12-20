@@ -11,7 +11,7 @@ This module will also cover other query parameters that can be used for combinin
 - Experience using Visual Studio Code at the beginner level
 - Access to a [Microsoft 365 tenant](https://developer.microsoft.com/office/dev-program?ocid=MSlearn)
   
-## Learning Objectives
+## Learning objectives
 
 By the end of this module, you will be able to:  
 
@@ -20,6 +20,8 @@ By the end of this module, you will be able to:
 - Demonstrate how to search for content with Microsoft Graph
 - Optimize Microsoft Graph queries with batching
 
-## Additional Resources
+## Additional resources
 
 Refer to the following repository for additional resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [MicrosoftGraph/msgraph-training-optimize-data-usage](https://github.com/microsoftgraph/msgraph-training-optimize-data-usage).
+
+This module is also available as a screencast: [Optimize data usage when using Microsoft Graph with query parameters](https://youtu.be/8cIPfpRvCJ8)
