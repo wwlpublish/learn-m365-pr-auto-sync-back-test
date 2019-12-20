@@ -19,3 +19,5 @@ In this module, you'll learn the different types of permissions supported in Azu
 ## Additional resources
 
 Refer to the following repository for additional resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [03 Permissions and Consent Framework](https://github.com/officedev/TrainingContent/tree/master/Identity/03%20Permission%20and%20Consent%20Framework).
+
+This module is also available as a screencast: [Microsoft identity - Permission and consent](https://www.youtube.com/watch?v=80RdKeeDTss)

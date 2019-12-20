@@ -19,3 +19,5 @@ In this module, you’ll learn how you can implement different OAuth 2.0 protoco
 ## Additional resources
 
 Refer to the following repository for additional resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [02 Application Types](https://github.com/officedev/TrainingContent/tree/master/Identity/02%20Application%20Types).
+
+This module is also available as a screencast: [Microsoft identity - Application types](https://www.youtube.com/watch?v=BpAP-4DsU40)
