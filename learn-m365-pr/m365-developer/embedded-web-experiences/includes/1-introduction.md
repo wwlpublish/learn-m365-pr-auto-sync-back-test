@@ -17,6 +17,8 @@ In this module, you will learn how to create both types of tabs for use within M
 1. Create a channel/group tab with a configuration experience
 1. Create a tab that leverages authentication to call a protected REST API
 
-## Additional Resources
+## Additional resources
 
 Refer to the following repository for additional resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [30 Create Embedded Web Experiences with Tabs for Microsoft Teams](https://github.com/officedev/TrainingContent/tree/master/Teams/30%20Create%20Embedded%20Web%20Experiences%20with%20Tabs%20for%20Microsoft%20Teams).
+
+This module is also available as a screencast: [Create Embedded Web Experiences with Tabs for Microsoft Teams](https://youtu.be/AQcdZYkFPCY)
