@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="118px" viewBox="0 0 100 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Microsoft Identity/microsoft-identity</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M42.7425,1.49663266 C44.3745,0.498877554 46.1865,0 48,0 C49.8135,0 51.627,0.498877554 53.256,1.49663266 L90.591,24.3316189 C93.933,26.3773408 96,30.2031485 96,34.3529027 L96,79.6470973 C96,83.7952317 93.933,87.6242789 90.591,89.6683811 L53.256,112.504987 C51.627,113.501122 49.8135,114 48,114 C46.1865,114 44.3745,113.501122 42.7425,112.504987 L5.409,89.6683811 C2.0655,87.6242789 0,83.7952317 0,79.6470973 L0,34.3529027 C0,30.2031485 2.0655,26.3773408 5.409,24.3316189 L42.7425,1.49663266 Z" id="path-1"></path>
+        <filter x="-6.2%" y="-7.4%" width="112.5%" height="114.8%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.101081295 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Badges" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Microsoft-Identity" transform="translate(-50.000000, -50.000000)">
+            <g id="Microsoft-Identity/microsoft-identity" transform="translate(50.000000, 50.000000)">
+                <g id="Mask" transform="translate(2.000000, 2.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Trophy-1" fill="#55A2FF" xlink:href="#path-1"></use>
+                    <g id="Badge" filter="url(#filter-3)" mask="url(#mask-2)">
+                        <g transform="translate(16.000000, 27.000000)">
+                            <path d="M0,52 C0,53.1 0.9,54 2,54 L62,54 C63.1,54 64,53.1 64,52 L64,15 L0,15 L0,52" id="Fill-1164" fill="#E1E4E1"></path>
+                            <path d="M64,11 C64,9.9 63.1,9 62,9 L2,9 C0.9,9 0,9.9 0,11 L0,15 L64,15 L64,11" id="Fill-1165" fill="#55B7D9"></path>
+                            <polygon id="Fill-1166" fill="#FFFFFE" points="6 47.9996367 35 47.9996367 35 33.9136602 35 19.9996367 6 19.9996367"></polygon>
+                            <path d="M38,13 L26,13 C24.895,13 25,12.553 25,12 C25,11.447 24.895,11 26,11 L38,11 C39.104,11 39,11.447 39,12 C39,12.553 39.104,13 38,13" id="Fill-1167" fill="#2D87AC"></path>
+                            <path d="M40,45 C39.141,45 39,44.552 39,44 C39,43.448 39.141,43 40,43 L44,43 C44.859,43 45,43.448 45,44 C45,44.552 44.859,45 44,45 L40,45 Z" id="Fill-1168" fill="#C5CCCD"></path>
+                            <path d="M52,23 L40,23 C39.141,23 39,22.552 39,22 C39,21.448 39.141,21 40,21 L52,21 C52.859,21 53,21.448 53,22 C53,22.552 52.859,23 52,23" id="Fill-1169" fill="#546670"></path>
+                            <path d="M40,39 C39.141,39 39,38.552 39,38 C39,37.448 39.141,37 40,37 L57,37 C57.859,37 58,37.448 58,38 C58,38.552 57.859,39 57,39 L40,39 Z" id="Fill-1170" fill="#C5CCCD"></path>
+                            <path d="M40,35 C39.141,35 39,34.552 39,34 C39,33.448 39.141,33 40,33 L57,33 C57.859,33 58,33.448 58,34 C58,34.552 57.859,35 57,35 L40,35 Z" id="Fill-1171" fill="#C5CCCD"></path>
+                            <path d="M40,31 C39.141,31 39,30.552 39,30 C39,29.448 39.141,29 40,29 L57,29 C57.859,29 58,29.448 58,30 C58,30.552 57.859,31 57,31 L40,31 Z" id="Fill-1172" fill="#C5CCCD"></path>
+                            <path d="M32,6 C30.895,6 30,5.104 30,4 C30,2.895 30.895,2 32,2 C33.104,2 34,2.895 34,4 C34,5.104 33.104,6 32,6 Z M32,0 C29.791,0 28,1.791 28,4 L28,13 L36,13 L36,4 C36,1.791 34.209,0 32,0 L32,0 Z" id="Fill-1173" fill="#30404D"></path>
+                            <path d="M34,4 C34,5.104 33.104,6 32,6 L32,13 L36,13 L36,4 C36,1.791 34.209,0 32,0 L32,2 C33.104,2 34,2.896 34,4" id="Fill-1174" fill="#182A37"></path>
+                        </g>
+                    </g>
+                    <g id="microsoft" mask="url(#mask-2)" fill-rule="nonzero">
+                        <g transform="translate(28.000000, 52.000000)" id="Rectangle-path">
+                            <rect fill="#E86C60" x="0" y="0.5" width="8" height="8"></rect>
+                            <polygon fill="#72C472" points="9 0.5 17 0.5 17 8.5 9 8.5"></polygon>
+                            <polygon fill="#43A6DD" points="0 9.5 8 9.5 8 17.5 0 17.5"></polygon>
+                            <polygon fill="#EFD358" points="9 9.5 17 9.5 17 17.5 9 17.5"></polygon>
+                        </g>
+                    </g>
+                </g>
+                <g id="Azure-Hex-Border" stroke="#0078D4" stroke-width="4">
+                    <path d="M45.5618501,3.25844398 L45.5621963,3.25823359 L6.67338401,26.8942953 C3.79673288,28.6432593 2,31.9508238 2,35.5582677 L2,82.4417323 C2,86.0486597 3.79764663,89.3586805 6.67318764,91.1055853 L45.560618,114.742485 C46.9289662,115.572418 48.4546283,116 50,116 C51.5458817,116 53.0723633,115.572188 54.4362178,114.743457 L93.3268764,91.1055464 C96.2016145,89.3583456 98,86.0476286 98,82.4417323 L98,35.5582677 C98,31.9518547 96.202529,28.6435953 93.3268966,26.8944659 L54.4351916,3.25759524 C53.0721095,2.42798656 51.5462432,2 50,2 C48.4542664,2 46.9292165,2.42775755 45.5618501,3.25844398 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
