@@ -136,7 +136,7 @@ Microsoft Teams offers two ways to obtain context on the current user or from wi
 
 ### Access context: URL placeholder values
 
-Use placeholders in your configuration or content URLs. Microsoft Teams replaces the placeholders with the relevant values when it determines the actual configuration or content URL to navigate to. The available placeholders include all fields on the Microsoft Teams context object available within the JavaScript SDK.
+Use placeholders in your configuration or content URLs. Microsoft Teams replaces the placeholders with the relevant values when it determines the actual configuration or content URL to go to. The available placeholders include all fields on the Microsoft Teams context object available within the JavaScript SDK.
 
 Some of the values available as URL placeholders are set when the tab is configured. Other values are set when a deep link to the tab is generated. Deep links are used to facilitate tab-to-tab communication.
 
