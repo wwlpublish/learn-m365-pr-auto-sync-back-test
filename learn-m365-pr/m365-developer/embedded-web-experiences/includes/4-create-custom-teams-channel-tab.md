@@ -2,7 +2,7 @@ In this unit, you'll learn how to create channel tabs and configuration pages in
 
 ## Compare personal and channel tabs
 
-In the previous section, you learned the fundamentals of Microsoft Teams tabs and how to create a custom personal tab. Your Microsoft Teams app also can include channel tabs, which were formerly known as configurable tabs.
+In the previous section, you learned the fundamentals of Microsoft Teams tabs and how to create a custom personal tab. Your Microsoft Teams app also can include channel tabs, which were formerly known as configurable tabs. 
 
 Personal and channel tabs differ in how they're used and in their capabilities.
 

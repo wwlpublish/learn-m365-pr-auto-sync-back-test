@@ -5,7 +5,7 @@ In this exercise, you'll learn how to create a channel tab with a configuration 
 
 ## Add a channel app to the Microsoft Teams app project
 
-The Yeoman generator for Microsoft Teams can be used to add new components to an existing project. In this section, you'll add a channel tab to the existing project.
+The Yeoman generator for Microsoft Teams can be used to add new components to an existing project. In this section, you'll add a channel tab to the existing project. 
 
 Execute the following command in the console from the root folder of the project:
 

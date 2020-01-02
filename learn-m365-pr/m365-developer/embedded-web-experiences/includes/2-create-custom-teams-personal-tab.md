@@ -6,7 +6,7 @@ Microsoft Teams enables developers to create custom experiences for users. For t
 
 ![Screenshot of a Microsoft Teams app](../media/02-01.png)
 
-A Microsoft Teams app is a package of services that you host. The services can be distributed through the Microsoft Teams product or uploaded by owners. These apps can consist of custom tabs, bots, messaging extensions, or web hooks and connectors.
+A Microsoft Teams app is a package of services that you host. The services can be distributed through the Microsoft Teams product or uploaded by owners. These apps can consist of custom tabs, bots, messaging extensions, or web hooks and connectors. 
 
 ![Screenshot of a custom bot](../media/02-02.png)
 
