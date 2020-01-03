@@ -24,7 +24,7 @@ You'll use Node.js to create custom Microsoft Teams tabs in this module. The exe
 
 ## Create Microsoft Teams app
 
-Open your command prompt, and go to a directory where you want to save your work. Create a new folder named **learn-msteams-tabs**, and change the directory into that folder.
+Open your command prompt, and go to a directory where you want to save your work. Create a new folder named learn-msteams-tabs, and change the directory into that folder.
 
 Run the Yeoman generator for Microsoft Teams by running the following command:
 
@@ -42,7 +42,7 @@ Yeoman starts and asks you a series of questions. Answer the questions with the 
 - **Your (company) name? (max 32 characters)**: Contoso
 - **Which manifest version would you like to use?**: 1.5
 - **Enter your Microsoft Partner Id, if you have one?**: (Leave blank to skip)
-- **What features do you want to add to your project?**: A Tab
+- **What features do you want to add to your project?**: A tab
 - **The URL where you will host this solution?**: https://learnmsteamstabs.azurewebsites.net
 - **Would you like to include Test framework and initial tests?**: No
 - **Would you like to use Azure Applications Insights for telemetry?**: No
