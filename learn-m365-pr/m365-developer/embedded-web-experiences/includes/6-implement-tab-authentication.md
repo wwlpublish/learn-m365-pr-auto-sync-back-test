@@ -18,7 +18,7 @@ Azure AD and many other identity providers don't allow their sign-in experiences
 
 ### OAuth 2.0 implicit grant flow and Microsoft Teams tabs
 
-A basic understanding of the OAuth 2.0 implicit grant flow is a prerequisite for working with authentication in Microsoft Teams tabs. The UML sequence diagram here documents the process.
+A basic understanding of the OAuth 2.0 implicit grant flow is a prerequisite for working with authentication in Microsoft Teams tabs. The UML sequence here documents the process.
 
 1. The user interacts with the content on the tab configuration or content page. Typically, they use a button to initiate the sign-in process.
 1. The tab builds the URL for its authentication start page, optionally by using information from URL placeholders or by calling `microsoftTeams.getContext()`. This Microsoft Teams JavaScript SDK method streamlines the authentication experience for the user.

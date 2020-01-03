@@ -9,7 +9,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Create embedded web experiences with tabs for Microsoft Teams
-summary: Tabs are Microsoft Teams-aware web pages embedded in Microsoft Teams. They can be added as part of a channel or a group chat inside a team or as a personal app for an individual user. As part of your app, you can add custom tabs to embed your own web content in Teams. There are two types of tabs available in Teams - channel/group and personal. In this module, you'll learn how to create tabs and add them to your Microsoft Teams app.
+summary: Tabs are Microsoft Teams-aware web pages embedded in Microsoft Teams. They can be added as part of a channel or a group chat inside a team or as a personal app for an individual user. As part of your app, you can add custom tabs to embed your own web content in Teams. Two types of tabs are available in Teams, channel/group and personal. In this module, you'll learn how to create tabs and add them to your Microsoft Teams app.
 abstract: |
   At the end of this module, you should be able to:
   - Evaluate the differences between personal and channel/group tabs.

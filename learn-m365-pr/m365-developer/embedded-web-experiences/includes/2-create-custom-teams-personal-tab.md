@@ -60,11 +60,11 @@ Teams determines where a tab can be used based on its scope. Scope is set in th
 
 ![Screenshot showing different placement of apps in tab navigation or app bar](../media/02-04.png)
 
-- **Team scope**. Tabs in channels allow teams to interact with your shared experience. These tabs are referred to as channel tabs and were previously known as configurable tabs. When these tabs are added to a team, a user configures the content of your tab experience when the tab is first added to a channel.
+- **Team scope**. Tabs in channels can be used by teams to interact with your shared experience. These tabs are referred to as channel tabs and were previously known as configurable tabs. When these tabs are added to a team, a user configures the content of your tab experience when the tab is first added to a channel.
 
 - **Group chat**. Channel tabs also can be used in group chats. These are conversations between two or more users.
 
-- **Personal scope**. Personal tabs allow users to interact with your experience privately. The content in a personal tab is only relevant to individual users.
+- **Personal scope**. By using personal tabs, users can interact with your experience privately. The content in a personal tab is only relevant to individual users.
 
 ## Develop custom Microsoft Teams tabs
 
