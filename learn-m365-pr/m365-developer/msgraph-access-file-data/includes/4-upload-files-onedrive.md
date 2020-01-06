@@ -83,7 +83,7 @@ Content-Type: application/json
 
 As long as the expiration date has not passed, you can resume the upload session when it's an interrupted or paused upload.
 
-Once you've the upload session, you can then upload bytes to the temporary file in OneDrive. In this example, you're uploading the first 25 bytes for a 128-byte file
+Once you've created the upload session, you can then upload bytes to the temporary file in OneDrive. In this example, you're uploading the first 25 bytes for a 128-byte file
 
 ```http
 HTTP PUT https://sn3302.up.1drv.com/up/fe6987415ace7X4e1eF866337

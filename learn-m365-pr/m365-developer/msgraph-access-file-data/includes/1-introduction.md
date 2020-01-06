@@ -16,3 +16,7 @@ By the end of this module, you'll be able to:
 - Demonstrate to download a file from OneDrive using a unique ID
 - Get a list of files trending around the signed in user
 - Demonstrate how to upload a large file to OneDrive
+
+## Additional resources
+
+Refer to the following repository for additional resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [MicrosoftGraph/msgraph-access-files-data](https://github.com/microsoftgraph/msgraph-access-files-data).
