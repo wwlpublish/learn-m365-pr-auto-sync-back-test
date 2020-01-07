@@ -3,7 +3,7 @@ uid: learn-m365.msgraph-access-file-data.7-exercise-files-insights
 metadata:
   title: Exercise - Work with file relationships and trends in OneDrive
   description: In this exercise, you’ll learn how to get a list of files trending around a user and how to get recently modified and accessed files by the current user.
-  ms.date: 12/23/2019
+  ms.date: 01/07/2020
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
@@ -31,9 +31,9 @@ quiz:
       explanation: "The 'trending' endpoint is a valid insight in the Microsoft Graph insights endpoint."
   - content: "The results returned by Microsoft Graph insights endpoint include which of the following properties?"
     choices:
-    - content: "The `id` of the insight response record."
+    - content: "The `Id` of the insight response record."
       isCorrect: false
-      explanation: "The `id` is returned by all insights endpoints."
+      explanation: "The `Id` is returned by all insights endpoints."
     - content: "A `resourceVisualization` object that contains details on the file returned and used in experiences such as Delve."
       isCorrect: false
       explanation: "The `resourceVisualization` is returned by all insights endpoints."
