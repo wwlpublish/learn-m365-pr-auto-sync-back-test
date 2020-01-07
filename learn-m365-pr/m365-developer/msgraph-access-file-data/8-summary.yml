@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msgraph-access-file-data.8-summary
+metadata:
+  title: Summary
+  description: This unit summarizes what you learned in this module.
+  ms.date: 12/23/2019
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Summary
+durationInMinutes: 1
+content: |
+  [!include[](includes/8-summary.md)]
