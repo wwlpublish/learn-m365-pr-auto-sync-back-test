@@ -362,7 +362,7 @@ var results = request.GetAsync().Result;
 Console.WriteLine(results.Id + ": " + results.Name);
 ```
 
-Update the `fileId` string in the previous code with the Id of a file from the previous section.
+Update the `fileId` string in the previous code with the ID of a file from the previous section.
 
 ### Build and test the application
 

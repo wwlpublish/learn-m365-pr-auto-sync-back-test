@@ -20,7 +20,7 @@ Content-Type: text/plain
 This is a new small file
 ```
 
-To update or replace an existing file, submit an HTTP PUT to the location of the existing file using the file's Id in OneDrive:
+To update or replace an existing file, submit an HTTP PUT to the location of the existing file using the file's ID in OneDrive:
 
 ```http
 HTTP PUT https://graph.microsoft.com/v1.0/me/drive/items/{item-id}/content
