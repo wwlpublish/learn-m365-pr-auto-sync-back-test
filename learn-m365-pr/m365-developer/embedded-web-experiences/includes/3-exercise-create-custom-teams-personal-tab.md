@@ -13,11 +13,11 @@ You'll use Node.js to create custom Microsoft Teams tabs in this module. The exe
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/): v10.\* or higher
-- NPM (installed with Node.js): v6.\* or higher
-- [Gulp](https://gulpjs.com/): v4.\* or higher
-- [Yeoman](https://yeoman.io/): v3.\* or higher
-- [Yeoman generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams): v2.\* or higher
+- [Node.js](https://nodejs.org/): version 10\* or higher
+- NPM installed with Node.js: version 6\* or higher
+- [Gulp](https://gulpjs.com/): version 4\* or higher
+- [Yeoman](https://yeoman.io/): version 3\* or higher
+- [Yeoman generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams): version 2\* or higher
 - [Visual Studio Code](https://code.visualstudio.com)
 
 *You must have the minimum versions of these prerequisites installed on your workstation.
@@ -90,7 +90,7 @@ In the app bar on the left, select the **Mode added apps** button. Then select *
 
 In the file dialog box that appears, select the Microsoft Teams package in your project. This app package is a zip file in the project's ./package folder.
 
-After the package is uploaded, Microsoft Teams displays a summary of the app. Here you can see some "todo" items to address. You'll update the "todo" items later in the exercise.
+After the package is uploaded, Microsoft Teams displays a summary of the app. Here you can see some todo items to address. You'll update the todo items later in the exercise.
 
 ![Screenshot of Microsoft Teams app](../media/03-yo-teams-06.png)
 
@@ -335,7 +335,7 @@ Finally, locate the string `TODO: add new list item form here` in the `render()`
 
 ## Use App Studio to update the Microsoft Teams app manifest
 
-At this point, the app is complete. Recall from our initial test that when the app was added to Microsoft Teams, it had a few "TODO" strings for the description of the app. While you could change these values in the project's ./src/manifest/manifest.json file, you use App Studio to make these changes.
+At this point, the app is complete. Recall from our initial test that when the app was added to Microsoft Teams, it had a few todo strings for the description of the app. While you could change these values in the project's ./src/manifest/manifest.json file, you use App Studio to make these changes.
 
 First, build and run the project by running the command **gulp ngrok-serve** in the command line like you did previously. This step also creates the Microsoft Teams app package.
 

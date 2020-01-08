@@ -62,7 +62,7 @@ Microsoft Teams adds the tab to the channel and displays it for you. You should 
 
 ## Update the configuration tab
 
-On the tab you'll create in this exercise, the user can select a math operation to do on the configuration page. This value is saved with the tab so that users of the tab can do this operation on two values to see the results.
+On the tab you create in this exercise, the user can select a math operation to do on the configuration page. This value is saved with the tab so that users of the tab can do this operation on two values to see the results.
 
 The first step is to modify the configuration page.
 
