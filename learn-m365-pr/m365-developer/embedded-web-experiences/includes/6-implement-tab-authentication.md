@@ -155,7 +155,7 @@ This code uses the ADAL.js library to check if the user successfully signed in b
 
 If a token is received, notify Microsoft Teams of a successful authentication flow and return the access token by calling the `notifySuccess()` method. If a token wasn't received, notify the tab by calling `notifyFailure()` with the specified error.
 
-Calling either of these methods triggers Microsoft Teams to close the pop-up window and execute your previously defined callback functions.
+Calling either of these methods triggers Microsoft Teams to close the pop-up window and run your previously defined callback functions.
 
 ## Silent authentication and SSO
 

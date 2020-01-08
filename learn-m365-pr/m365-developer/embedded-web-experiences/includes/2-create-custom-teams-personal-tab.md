@@ -122,11 +122,11 @@ You have two options to create the project and resources necessary to implement 
 
 ![Screenshot of a console and creating a custom Microsoft Teams app](../media/02-07.png)
 
-To create a Node.js-based project, use the Microsoft Teams Yeoman Generator. After you answer multiple questions related to the project you want to create, the generator creates the scaffolding for your project. This option requires git, Node.js, NPM, and a text editor such as Visual Studio Code.
+To create a Node.js-based project, use the Microsoft Teams Yeoman Generator. After you answer multiple questions related to the project you want to create, the generator creates the scaffolding for your project. This option requires Git, Node.js, NPM, and a text editor such as Visual Studio Code.
 
 ![Screenshot of Visual Studio and creating a custom Microsoft Teams app](../media/02-08.png)
 
-To create a .NET-based project, use tooling provided in Visual Studio 2017 or later. Similar to the Node.js option, after you select the project type and answer multiple questions, Visual Studio generates the scaffolding for your project. This option requires only git and Visual Studio.
+To create a .NET-based project, use tooling provided in Visual Studio 2017 or later. Similar to the Node.js option, after you select the project type and answer multiple questions, Visual Studio generates the scaffolding for your project. This option requires only Git and Visual Studio.
 
 ### Get context within Teams tabs
 
@@ -144,15 +144,15 @@ The URL placeholder values include the properties listed in the following table.
 
 |      Properties       |                                   Description                                    |
 | --------------------- | -------------------------------------------------------------------------------- |
-| `{entityId}`          | The ID you supplied on the tab's config page                                     |
+| `{entityId}`          | The ID you supplied on the tab's configuration page                                     |
 | `{subEntityId}`       | The ID you supplied when you generate a deep link for a specific item within the tab |
 | `{loginHint}`         | Value suitable as a sign-in hint for Azure AD                                        |
 | `{locale}`            | Lowercase lang-locale                                                            |
 | `{theme}`             | `default` / `dark` / `contrast`                                                  |
 | `{userPrincipalName}` | The user identifier of the current user in the current tenant in email format    |
 | `{userObjectId}`      | The Azure AD object ID of the current user in the current tenant                 |
-| `{tid}`               | GUID ID of the current Azure Tenant ID                                           |
-| `{groupId}`           | GUID ID of the current Office 365 Group ID                                       |
+| `{tid}`               | GUID ID of the current Azure tenant ID                                           |
+| `{groupId}`           | GUID ID of the current Office 365 group ID                                       |
 
 ### Access context: Microsoft Teams JavaScript client SDK
 
@@ -169,11 +169,11 @@ The context values include the properties listed in the following table.
 | `chatId`              | The chat ID in the format  `19:[id]@thread.skype`   |
 | `locale`              | Lowercase lang-locale                               |
 | `theme`               | `default` / `dark` / `contrast`                     |
-| `entityId`            | The entity ID you set up on your config page        |
-| `subEntityId`         | The sub entity ID you set up on your config page    |
+| `entityId`            | The entity ID you set up on your configuration page        |
+| `subEntityId`         | The sub entity ID you set up on your configuration page    |
 | `userPrincipalName`   | The user identifier in email format                 |
-| `tid`                 | GUID that identifies the current Tenant ID              |
-| `groupId`             | GUID that identifies the current Office 365 Group ID    |
+| `tid`                 | GUID that identifies the current tenant ID              |
+| `groupId`             | GUID that identifies the current Office 365 group ID    |
 | `tenantSKU`           | SKU of the current tenant (for example: EDU)        |
 
 ### Personal tabs: Manifest

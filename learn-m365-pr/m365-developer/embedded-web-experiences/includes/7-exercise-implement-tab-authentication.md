@@ -13,26 +13,26 @@ You'll use Node.js to create custom Microsoft Teams tabs in this module. The exe
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/) - v10.\* (or higher)
-- NPM (installed with Node.js) - v6.\* (or higher)
-- [Gulp](https://gulpjs.com/) - v4.\* (or higher)
-- [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.\* (or higher)
+- [Node.js](https://nodejs.org/): v10.\* or higher
+- NPM (installed with Node.js): v6.\* or higher
+- [Gulp](https://gulpjs.com/): v4.\* or higher
+- [Yeoman](https://yeoman.io/): v3.\* or higher
+- [Yeoman generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams): v2.\* or higher
 - [Visual Studio Code](https://code.visualstudio.com)
 
-You must have the minimum versions of these prerequisites installed on your workstation.
+*You must have the minimum versions of these prerequisites installed on your workstation.
 
 ## Create an Azure AD application
 
 The tab created in this project submits a request to Microsoft Graph to retrieve email messages. All requests to Microsoft Graph must include an access token as proof of the user's identity and that they have the necessary permissions to call Microsoft Graph. To obtain an access token, you must create an Azure Active Directory (Azure AD) application that has the necessary Microsoft Graph permissions.
 
-Open a browser, and go to the [Azure Active Directory admin center (https://aad.portal.azure.com)](https://aad.portal.azure.com). Sign in by using a Work or School Account that has global administrator rights to the tenancy.
+Open a browser, and go to the [Azure Active Directory admin center (https://aad.portal.azure.com)](https://aad.portal.azure.com). Sign in by using a Work or School account that has global administrator rights to the tenancy.
 
-Select **Azure Active Directory** in the navigation pane on the left.
+Select **Azure Active Directory** in the left pane.
 
   ![Screenshot of App registrations](../media/aad-portal-home.png)
 
-Select **Manage** > **App registrations** in the navigation pane on the left.
+Select **Manage** > **App registrations** in the left pane.
 
 On the **App registrations** page, select **New registration**.
 
@@ -67,7 +67,7 @@ Save the settings by selecting **Save** in the upper-right corner.
 
 After you create the application, you need to grant it the necessary permissions to Microsoft Graph.
 
-Select **API Permissions** in the navigation pane on the left.
+Select **API Permissions** in the left pane.
 
 ![Screenshot of the API permissions navigation item](../media/aad-portal-newapp-permissions-01.png)
 
@@ -83,7 +83,7 @@ When you're prompted for the type of permission, select **Delegated permissions*
 
 Enter *Mail.R* in the **Select permissions** search box, and select the **Mail.Read** permission. Select the **Add permission** button at the bottom of the panel.
 
-At the bottom of the **API Permissions** panel, select the **Grant admin consent for [tenant]** button. Select the **Yes** button to grant all users in your organization this permission.
+At the bottom of the **API Permissions** panel, select the **Grant admin consent for [tenant]** button. Select **Yes** to grant all users in your organization this permission.
 
 ## Create Microsoft Teams app
 
@@ -101,20 +101,20 @@ Yeoman starts and asks you a series of questions. Answer the questions with the 
 
 - **What is your solution name?**: Learn MSTeams Auth Tabs
 - **Where do you want to place the files?**: Use the current folder
-- **Title of your Microsoft Teams App project?**: Learn MSTeams Auth Tabs
-- **Your (company) name? (max 32 characters)**: Contoso
+- **Title of your Microsoft Teams App project**: Learn MSTeams Auth Tabs
+- **Your (company) name (max 32 characters)**: Contoso
 - **Which manifest version would you like to use?**: 1.5
-- **Enter your Microsoft Partner ID, if you have one?**: (Leave blank to skip)
+- **Enter your Microsoft Partner ID, if you have one**: (Leave blank to skip)
 - **What features do you want to add to your project?**: A tab
-- **The URL where you'll host this solution?**: https://larnteamsauthtabs.azurewebsites.net
+- **The URL where you'll host this solution**: https://larnteamsauthtabs.azurewebsites.net
 - **Would you like to include Test framework and initial tests?**: No
 - **Would you like to use Azure Applications Insights for telemetry?**: No
-- **Default Tab name? (max 16 characters)**: LearnAuthTab
+- **Default Tab name (max 16 characters)**: LearnAuthTab
 - **Do you want to create a configurable or static tab?**: Configurable
 
 After you answer the generator's questions, the generator creates the scaffolding for the project. The generator then runs `npm install` that downloads all the dependencies required by the project.
 
-The tab you'll create in this exercise will get the latest emails from the current user's mailbox by using Microsoft Graph. Install the Microsoft Graph JavaScript SDK and associated TypeScript type declarations for Microsoft Graph in the project. Run the following commands to install these packages:
+The tab you'll create in this exercise will get the latest emails from the current user's mailbox by using Microsoft Graph. Install the Microsoft Graph JavaScript SDK and associated TypeScript type declarations for Microsoft Graph in the project. To install these packages, run the following commands:
 
 ```shell
 npm install @microsoft/microsoft-graph-client
@@ -164,7 +164,7 @@ import {
 } from "@stardust-ui/react";
 ```
 
-The default project contains additional user interface style code that used the previous control library. This code is no longer necessary
+The default project contains additional user interface style code that used the previous control library. This code is no longer necessary.
 
 Locate the following code in the `componentWillMount()` method in the `LearnAuthTab` class and delete it:
 
@@ -263,14 +263,14 @@ import * as MicrosoftGraphClient from "@microsoft/microsoft-graph-client";
 import * as MicrosoftGraph from "microsoft-graph";
 ```
 
-Locate the `ILearnAuthTabState` interface, and add the following members to it. These properties are used to store the OAuth access token used to authenticate with and the email messages returned from Microsoft Graph:
+Locate the `ILearnAuthTabState` interface, and add the following members to it. These properties are used to store the OAuth access token used to authenticate with and the email messages returned from Microsoft Graph.
 
 ```ts
 accessToken: string;
 messages: MicrosoftGraph.Message[];
 ```
 
-Add the following code to the top of the `LearnAuthTab` class. This action creates a new class-scoped member of the Microsoft Graph client and initializes the state of the component:
+Add the following code to the top of the `LearnAuthTab` class. This action creates a new class-scoped member of the Microsoft Graph client and initializes the state of the component.
 
 ```ts
 private msGraphClient: MicrosoftGraphClient.Client;
@@ -285,7 +285,7 @@ constructor(props: ILearnAuthTabProps, state: ILearnAuthTabState) {
 }
 ```
 
-Locate the `render()` method, and update the return statement to the following code. The `render()` method displays a button for the user to select to sign in and request their emails from Microsoft Graph. It then displays the email messages in a list:
+Locate the `render()` method, and update the return statement to the following code. The `render()` method displays a button for the user to select to sign in and request their emails from Microsoft Graph. It then displays the email messages in a list.
 
 ```tsx
 public render() {
@@ -312,7 +312,7 @@ public render() {
 }
 ```
 
-Add the `onclick` event handler for the button to the `LearnAuthTab` class:
+Add the `onclick` event handler for the button to the `LearnAuthTab` class.
 
 ```ts
 private handleGetMyMessagesOnClick = async (event): Promise<void> => {
@@ -404,7 +404,7 @@ private async getAccessToken(promptConsent: boolean = false): Promise<string> {
 }
 ```
 
-Create the new file ./src/app/web/auth-start.html in the project, and add the following code to it. This file uses the Microsoft Teams JavaScript SDK and Azure Active Directory Authentication Library JavaScript (ADAL.js) libraries to configure ADAL for the Azure AD application created previously in this exercise. It then redirects the user to the Azure AD sign-in page and instructs the page to redirect the user back to **auth-end.html** on our site:
+Create the new file ./src/app/web/auth-start.html in the project, and add the following code to it. This file uses the Microsoft Teams JavaScript SDK and Azure Active Directory Authentication Library JavaScript (ADAL.js) libraries to configure ADAL for the Azure AD application created previously in this exercise. It then redirects the user to the Azure AD sign-in page and instructs the page to redirect the user back to **auth-end.html** on our site.
 
 ```html
 <!DOCTYPE html>
@@ -533,7 +533,7 @@ Copy the ngrok URL displayed in the console. Go back to Azure AD, and add or upd
 
 In the browser, go to [Microsoft Teams](https://teams.microsoft.com), and sign in with the credentials of a Work and School account.
 
-Using the app bar navigation menu, select the **Mode added apps** button. Then select **Browse all apps** > **Upload for me or my teams**.
+Using the app bar on the left, select the **Mode added apps** button. Then select **Browse all apps** > **Upload for me or my teams**.
 
 In the file dialog box that appears, select the Microsoft Teams package in your project. This app package is a zip file that can be found in the project's ./package folder.
 
@@ -548,7 +548,7 @@ Select the **Get My Messages** button. Microsoft Teams opens the pop-up window t
 > [!NOTE]
 > You might not be prompted to sign in because you're already signed in to Microsoft Teams. Azure AD won't require you to sign in again and redirects you to the specified redirect URI for the Azure AD application.
 
-After you've successfully signed in to Azure AD, Microsoft Teams closes the pop-up window and displays the last 15 emails in your mailbox retrieved from Microsoft Graph:
+After you've successfully signed in to Azure AD, Microsoft Teams closes the pop-up window and displays the last 15 emails in your mailbox retrieved from Microsoft Graph.
 
 ![Screenshot of the Learn Auth tab displaying messages from Microsoft Graph](../media/07-02.png)
 

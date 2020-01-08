@@ -57,9 +57,9 @@ The `sharePointPreviewImage` and `supportedSharePointHosts` properties are optio
 
 ## Channel tab capabilities: Configuration page
 
-The configuration page is a web page that you host. When a user chooses to add or update a channel tab, Microsoft Teams loads the `configurationUrl` property that's specified in the app manifest within an `<iframe>` inside the **Add Tab** dialog box.
+The configuration page is a webpage that you host. When a user chooses to add or update a channel tab, Microsoft Teams loads the `configurationUrl` property that's specified in the app manifest within an `<iframe>` inside the **Add Tab** dialog box.
 
-On this page, you present options and gather information from the user about what they want in your tab. For example, you might let the user select existing app resources, such as files or task lists, or create new resources only for this tab.
+On this page, you present options and gather information from the user about what they want in your tab. For example, the user might want to select existing app resources, such as files or task lists, or create new resources only for this tab.
 
 You might decide that a tab's configuration can or can't be changed after it's added to a team. This setting can be controlled within the app manifest by using the `canUpdateConfiguration` flag. By default, this property is set to true.
 
@@ -77,7 +77,7 @@ This image shows the tab context menu. If the channel tab doesn't have the `canU
 
 ## Configuration page: Implementation and requirements
 
-Configuration pages, just like personal and channel tabs, are web pages loaded within an `<iframe>`. You're responsible for implementing the user interface. Similar to the content pages for tabs, the web page used as a configuration page must be permitted to load within an `<iframe>`.
+Configuration pages, just like personal and channel tabs, are webpages loaded within an `<iframe>`. You're responsible for implementing the user interface. Similar to the content pages for tabs, the webpage used as a configuration page must be permitted to load within an `<iframe>`.
 
 Configuration pages must notify Microsoft Teams when the settings have been configured and saved. This notification is done by registering a save handler by using the `registerOnSaveHandler()` event. Within your handler for this event, use the `microsoftTeams.settings.setSettings()` method to update the tab's settings. Use the `saveEvent.notifySuccess()` method to make Microsoft Teams aware that the settings were successfully saved.
 

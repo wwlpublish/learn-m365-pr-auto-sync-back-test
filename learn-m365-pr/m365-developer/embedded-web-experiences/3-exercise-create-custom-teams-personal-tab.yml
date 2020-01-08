@@ -29,12 +29,12 @@ quiz:
       explanation: "App Studio can preview cards created by developers."
   - content: "Which of the following statements isn't a valid requirement for custom tabs?"
     choices:
-    - content: "Web pages loaded in a tab must be loaded from an HTTPS secured endpoint."
+    - content: "Webpages loaded in a tab must be loaded from an HTTPS secured endpoint."
       isCorrect: false
-      explanation: "This is true, the content page loaded in a tab must be served from an HTTPS source."
-    - content: "Web pages loaded in a tab must support loading in an iframe."
+      explanation: "This is true. The content page loaded in a tab must be served from an HTTPS source."
+    - content: "Webpages loaded in a tab must support loading in an iframe."
       isCorrect: false
-      explanation: "This is true, the content page loaded in a tab must allow itself to be loaded within an <iframe>."
+      explanation: "This is true. The content page loaded in a tab must allow itself to be loaded within an <iframe>."
     - content: "All content pages loaded in tabs must implement their interface with a web framework, such as React, Angular, or Vue.js."
       isCorrect: true
       explanation: "Correct! This isn't a requirement for a content page."

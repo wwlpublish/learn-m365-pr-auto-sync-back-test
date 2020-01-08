@@ -13,11 +13,11 @@ You'll use Node.js to create custom Microsoft Teams tabs in this module. The exe
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/) - v10.\* (or higher)
-- NPM (installed with Node.js) - v6.\* (or higher)
-- [Gulp](https://gulpjs.com/) - v4.\* (or higher)
-- [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.\* (or higher)
+- [Node.js](https://nodejs.org/): v10.\* or higher
+- NPM (installed with Node.js): v6.\* or higher
+- [Gulp](https://gulpjs.com/): v4.\* or higher
+- [Yeoman](https://yeoman.io/): v3.\* or higher
+- [Yeoman generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams): v2.\* or higher
 - [Visual Studio Code](https://code.visualstudio.com)
 
 *You must have the minimum versions of these prerequisites installed on your workstation.
@@ -38,15 +38,15 @@ Yeoman starts and asks you a series of questions. Answer the questions with the 
 
 - **What is your solution name?**: Learn MSTeams Tabs
 - **Where do you want to place the files?**: Use the current folder
-- **Title of your Microsoft Teams App project?**: Learn MSTeams Tabs
-- **Your (company) name? (max 32 characters)**: Contoso
+- **Title of your Microsoft Teams App project**: Learn MSTeams Tabs
+- **Your (company) name (max 32 characters)**: Contoso
 - **Which manifest version would you like to use?**: 1.5
-- **Enter your Microsoft Partner Id, if you have one?**: (Leave blank to skip)
+- **Enter your Microsoft Partner Id, if you have one**: (Leave blank to skip)
 - **What features do you want to add to your project?**: A tab
-- **The URL where you will host this solution?**: https://learnmsteamstabs.azurewebsites.net
+- **The URL where you will host this solution**: https://learnmsteamstabs.azurewebsites.net
 - **Would you like to include Test framework and initial tests?**: No
 - **Would you like to use Azure Applications Insights for telemetry?**: No
-- **Default Tab name? (max 16 characters)**: LearnPersonalTab
+- **Default Tab name (max 16 characters)**: LearnPersonalTab
 - **Do you want to create a configurable or static tab?**: Static
 
 > [!NOTE]
@@ -64,7 +64,7 @@ From the command line, go to the root folder for the project and run the followi
 gulp ngrok-serve
 ```
 
-This gulp task runs many other tasks all displayed within the command-line console. The **ngrok-serve** task builds your project and starts a local web server (http://localhost:3007). It then starts ngrok with a random subdomain that creates a secure URL to your local web server.
+This gulp task runs many other tasks all displayed within the command-line console. The ngrok-serve task builds your project and starts a local web server (http://localhost:3007). It then starts ngrok with a random subdomain that creates a secure URL to your local web server.
 
 > [!NOTE]
 > Microsoft Teams requires all content displayed within a tab to be loaded from an HTTPS request. In development, this can be done by using the tool [ngrok](https://www.ngrok.com) that creates a secure rotatable URL to your local HTTP web server. Ngrok is included as a dependency within the project, so there's nothing to set up or configure.
@@ -84,7 +84,7 @@ Now let's load the tab in Microsoft Teams. In the browser, go to [Microsoft Team
 > [!NOTE]
 > Microsoft Teams is available for use as a web client, a desktop client, and a mobile client. In this module, we use the web client, but any of the clients can be used.
 
-On the app bar navigation menu, select the **Mode added apps** button. Then select **Browse all apps** > **Upload for me or my teams**.
+In the app bar on the left, select the **Mode added apps** button. Then select **Browse all apps** > **Upload for me or my teams**.
 
 ![Screenshot of More added apps dialog box in Microsoft Teams](../media/03-yo-teams-05.png)
 
@@ -341,7 +341,7 @@ First, build and run the project by running the command **gulp ngrok-serve** in 
 
 In the browser, go to [Microsoft Teams](https://teams.microsoft.com) and sign in with the credentials of a Work and School account.
 
-Using the **More added apps** link on the app bar navigation menu, select **App Studio**.
+Using the **More added apps** link in the app bar on the left, select **App Studio**.
 
 ![Screenshot of the More added apps dialog box with App Studio highlighted](../media/03-yo-teams-13.png)
 
@@ -349,7 +349,7 @@ Select the **Manifest editor** tab in App Studio, and then select **Import an ex
 
 ![Screenshot of the Microsoft Teams app in App Studio](../media/03-yo-teams-14.png)
 
-Edit the app by selecting its tile, or use the menu for more options in the upper-right corner and select **Edit**.
+Edit the app by selecting its tile, or use the menu in the upper-right corner for more options and select **Edit**.
 
 On the **App details** page, change the **Long name** of the app to **Learn Microsoft Teams Tabs**.
 
@@ -360,18 +360,18 @@ On the **App details** page, scroll down to the **Descriptions** section and ent
 
 ![Screenshot of app details App Studio](../media/03-yo-teams-15.png)
 
-Update the name of the tab by selecting **Capabilities** > **Tabs** in the App Studio navigation pane on the left.
+Update the name of the tab by selecting **Capabilities** > **Tabs** in the left pane in App Studio.
 
 Locate the only personal tab in the project. Select the menu for more options on the tab, and select **Edit**. Change the name of the tab to **My First Tab**. Add `?theme={theme}` to the end of the **Content URL** property. Select **Save** to save your changes.
 
 The changes made to the app within App Studio aren't saved to your project. If you want to update the project, download the app package from App Studio.
 
-To download the project, select **Finish** > **Test and distribute** in the App Studio navigation pane on the left. Then select **Download**.
+To download the project, select **Finish** > **Test and distribute** in the left pane in App Studio. Then select **Download**.
 
 > [!CAUTION]
 > Be careful if you chose to update the manifest.json file in your project with the one in the package downloaded from App Studio.
 >
-> The manifest file in your project contains placeholder strings that are updated by the build and debugging process that's replaced when you test the project. This simplifies the development and debugging process.
+> The manifest file in your project contains placeholder strings that are updated by the build and debugging process that's replaced when you test the project. using placeholder strings simplifies the development and debugging process.
 >
 > For instance, the placeholder `{{HOSTNAME}}` is replaced with the hosting URL of the app each time the package is re-created.
 >
@@ -379,7 +379,7 @@ To download the project, select **Finish** > **Test and distribute** in the App 
 
 ## Install and test the Microsoft Teams app
 
-In App Studio, select **Finish** > **Test and distribute** in the App Studio navigation pane on the left. Then select **Install**. Notice that the new names and descriptions are shown prior to installing the app.
+In App Studio, select **Finish** > **Test and distribute** in the left pane in App Studio. Then select **Install**. Notice that the new names and descriptions are shown prior to installing the app.
 
 ![Screenshot of installing the updated app](../media/03-yo-teams-16.png)
 

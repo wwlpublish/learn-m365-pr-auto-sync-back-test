@@ -18,7 +18,7 @@ Yeoman starts and asks you a series of questions. Answer the questions with the 
 - **You are running the generator on an already existing project... are you sure you want to continue?**: Yes
 - **Do you want to change the current manifest version (1.5)?**: No
 - **What features do you want to add to your project?**: learnMsTeamsTabs
-- **Default tab name? (max 16 characters)**: ConfigMathTab
+- **Default tab name (max 16 characters)**: ConfigMathTab
 - **Do you want to create a configurable or static tab?**: Configurable
 - **What scopes do you intend to use for your tab?**: In a Team
 - **Do you want this tab to be available in SharePoint Online?**: Yes
@@ -38,7 +38,7 @@ gulp ngrok-serve
 
 Open a browser, and go to [Microsoft Teams](https://teams.microsoft.com). Sign in with the credentials of a Work and School account.
 
-Using the app bar navigation menu, select the **Mode added apps** button. Then select **Browse all apps** > **Upload for me or my teams**.
+In the app bar on the left, select the **Mode added apps** button. Then select **Browse all apps** > **Upload for me or my teams**.
 
 ![Screenshot of More added apps dialog box in Microsoft Teams](../media/03-yo-teams-05.png)
 
@@ -174,7 +174,7 @@ this.setState({
 
 The configuration page displays a drop-down list of four math operators to select from. After an operator is selected, it's saved to the tab's `entityId` property with the string **MathPage** appended to it. This value is used by the tab page to determine what operation to perform in the tab.
 
-Locate the following line in the `componentWillMount()` method: `microsoftTeams.getContext()`. The function passed into this method sets the state of the React component. Replace the `this.setState()` method with the following code. This new code takes the value of the `entityId` property on the tab, removes the **MathPage** string, and leaves only the operator:
+Locate the following line in the `componentWillMount()` method: `microsoftTeams.getContext()`. The function passed into this method sets the state of the React component. Replace the `this.setState()` method with the following code. This new code takes the value of the `entityId` property on the tab, removes the **MathPage** string, and leaves only the operator.
 
 ```ts
 this.setState(Object.assign({}, this.state, {
@@ -184,7 +184,7 @@ this.setState(Object.assign({}, this.state, {
 
 Next, locate the following line in the `componentWillMount()` method: `microsoftTeams.settings.registerOnSaveHandler()`. This method lets you provide the function to execute when the user selects the **Save** button on the configuration page. This code should save any settings you need to save and notify Microsoft Teams that the configuration page saved the settings successfully.
 
-Update this code to save the selected math operation and change the name of the tab:
+Update this code to save the selected math operation and change the name of the tab.
 
 ```ts
 microsoftTeams.settings.registerOnSaveHandler((saveEvent: microsoftTeams.settings.SaveEvent) => {
@@ -237,11 +237,11 @@ public render() {
 
 At this point, the configuration page is complete. If you removed the tab in the last step, repeat the process to upload and add it again.
 
-If you didn't remove the tab, select the menu from the tab and then select **Settings**:
+If you didn't remove the tab, select the menu from the tab and then select **Settings**.
 
 ![Screenshot selecting the tab settings menu](../media/05-channel-tab-05.png)
 
-The configuration page opens with our updated component:
+The configuration page opens with the updated component.
 
 ![Screenshot selecting the tab settings menu](../media/05-channel-tab-04.png)
 
@@ -357,7 +357,7 @@ Within the `componentWillMount()` method, locate the following line:
 microsoftTeams.registerOnThemeChangeHandler(this.updateTheme);
 ```
 
-This code registers an event handler to update the component's theme to match the theme of the current Microsoft Teams client when this page is loaded as a tab. Update this line to call the new handler in the following line to register another handler to update the Stardust library theme:
+This code registers an event handler to update the component's theme to match the theme of the current Microsoft Teams client when this page is loaded as a tab. Update this line to call the new handler in the following line to register another handler to update the Stardust library theme.
 
 ```ts
 microsoftTeams.registerOnThemeChangeHandler(this.updateStardustTheme);
@@ -373,7 +373,7 @@ this.setState({
 
 ### Implement the channel page logic
 
-Locate the following line in the `componentWillMount()` method: `microsoftTeams.getContext()`. The function passed into this method sets the state of the React component. Replace the `this.setState()` method with the following code. This new code takes the value of the `entityId` property on the tab, removes the **MathPage** string, and leaves only the operator:
+Locate the following line in the `componentWillMount()` method: `microsoftTeams.getContext()`. The function passed into this method sets the state of the React component. Replace the `this.setState()` method with the following code. This new code takes the value of the `entityId` property on the tab, removes the **MathPage** string, and leaves only the operator.
 
 ```ts
 this.setState(Object.assign({}, this.state, {
@@ -389,7 +389,7 @@ this.setState({
 });
 ```
 
-Replace this code with the following code. This new code will cause the math operator to add two numbers by default in case this page is loaded outside of a Microsoft Teams client:
+Replace this code with the following code. This new code will cause the math operator to add two numbers by default in case this page is loaded outside of a Microsoft Teams client.
 
 ```ts
 this.setState(Object.assign({}, this.state, {
@@ -397,7 +397,7 @@ this.setState(Object.assign({}, this.state, {
 }));
 ```
 
-Add the following event handlers to the `ConfigMathTab` class. These event handlers will update the state with the values from the controls and perform the calculation of the two numbers by using the operator specified on the configuration page:
+Add the following event handlers to the `ConfigMathTab` class. These event handlers will update the state with the values from the controls and perform the calculation of the two numbers by using the operator specified on the configuration page.
 
 ```ts
 private handleOnChangedOperandA = (event): void => {

@@ -24,7 +24,7 @@ quiz:
     - content: "Personal tabs can be installed in channels but can only be seen by the user who installed it. Channel tabs can be seen by everyone in the channel."
       isCorrect: false
       explanation: "Personal tabs can't be installed in a channel. They're installed to the app bar."
-    - content: "Personal tabs should display information relevant only for the individual. Channel tabs display information relevant to members in the team."
+    - content: "Personal tabs should display information relevant only to the individual. Channel tabs display information relevant to members in the team."
       isCorrect: true
       explanation: "Correct!"
   - content: "Which type of tab can have both configuration and remove pages?"
