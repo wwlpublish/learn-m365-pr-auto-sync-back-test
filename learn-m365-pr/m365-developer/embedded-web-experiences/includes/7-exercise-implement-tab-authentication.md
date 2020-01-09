@@ -13,11 +13,11 @@ You'll use Node.js to create custom Microsoft Teams tabs in this module. The exe
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/): v10.\* or higher
-- NPM installed with Node.js: v6.\* or higher
-- [Gulp](https://gulpjs.com/): v4.\* or higher
-- [Yeoman](https://yeoman.io/): v3.\* or higher
-- [Yeoman generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams): v2.\* or higher
+- [Node.js](https://nodejs.org/): version 10\* or higher
+- NPM installed with Node.js: version 6\* or higher
+- [Gulp](https://gulpjs.com/): version 4\* or higher
+- [Yeoman](https://yeoman.io/): version 3\* or higher
+- [Yeoman generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams): version 2\* or higher
 - [Visual Studio Code](https://code.visualstudio.com)
 
 *You must have the minimum versions of these prerequisites installed on your workstation.
