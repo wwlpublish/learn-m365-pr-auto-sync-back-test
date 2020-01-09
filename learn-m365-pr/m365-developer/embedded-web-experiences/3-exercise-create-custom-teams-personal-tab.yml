@@ -2,7 +2,7 @@
 uid: learn-m365.embedded-web-experiences.3-exercise-create-custom-teams-personal-tab
 metadata:
   title: Exercise - Create a custom Microsoft Teams personal tab
-  description: In this exercise, you'll create a new Microsoft Teams personal tab using the Microsoft Teams Yeoman Generator, Visual Studio Code, and App Studio.
+  description: In this exercise, you'll create a new Microsoft Teams personal tab by using the Microsoft Teams Yeoman generator, Visual Studio Code, and App Studio.
   ms.date: 10/01/2019
   author: andrewconnell
   ms.author: v-johnco
@@ -18,9 +18,9 @@ quiz:
   questions:
   - content: "Which of the following tasks can you not do with App Studio?"
     choices:
-    - content: "Create or edit the manifest for a new or existing Microsoft Teams App."
+    - content: "Create or edit the manifest for a new or existing Microsoft Teams app."
       isCorrect: false
-      explanation: "App Studio enables developers to create or edit Microsoft Team app manifest files."
+      explanation: "Developers can use App Studio to create or edit Microsoft Teams app manifest files."
     - content: "Write the code for a custom tab, bot, connector, or card."
       isCorrect: true
       explanation: "Correct!"
@@ -29,12 +29,12 @@ quiz:
       explanation: "App Studio can preview cards created by developers."
   - content: "Which of the following statements isn't a valid requirement for custom tabs?"
     choices:
-    - content: "Web pages loaded in a tab must be loaded from an HTTPS secured endpoint"
+    - content: "Webpages loaded in a tab must be loaded from an HTTPS secured endpoint."
       isCorrect: false
-      explanation: "This is true, the content page loaded in a tab must be served from an HTTPS source."
-    - content: "Web pages loaded in a tab must support loading in an iframe."
+      explanation: "This is true. The content page loaded in a tab must be served from an HTTPS source."
+    - content: "Webpages loaded in a tab must support loading in an iframe."
       isCorrect: false
-      explanation: "This is true, the content page loaded in a tab must allow itself to be loaded within an <iframe>."
-    - content: "All content pages loaded in tabs must implement their interface with a web framework, such as React, Angular, or Vue.js"
+      explanation: "This is true. The content page loaded in a tab must allow itself to be loaded within an <iframe>."
+    - content: "All content pages loaded in tabs must implement their interface with a web framework, such as React, Angular, or Vue.js."
       isCorrect: true
       explanation: "Correct! This isn't a requirement for a content page."

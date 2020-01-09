@@ -1,77 +1,77 @@
-In this exercise, you'll create a new Microsoft Teams personal tab using the Microsoft Teams Yeoman Generator, Visual Studio Code, and App Studio.
+In this exercise, you'll create a new Microsoft Teams personal tab by using the Microsoft Teams Yeoman generator, Visual Studio Code, and App Studio.
 
 ## Prerequisites
 
-Developing Microsoft Teams apps requires an Office 365 tenant, Microsoft Teams configured for development, and the necessary tools installed on your workstation.
+Developing Microsoft Teams apps requires an Office 365 tenant, Microsoft Teams configured for development, and the necessary tools installed on your workstation. 
 
-For the Office 365 tenant, follow the instructions on [Microsoft Teams: Prepare your Office 365 tenant](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-tenant) for obtaining a developer tenant if you don't currently have an Office 365 account. Make sure you have also enabled Microsoft Teams for your organization.
+For the Office 365 tenant, follow the instructions in [Microsoft Teams: Prepare your Office 365 tenant](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-tenant) to obtain a developer tenant if you don't currently have an Office 365 account. Make sure you've also enabled Microsoft Teams for your organization.
 
-Microsoft Teams must be configured to enable custom apps and allow custom apps to be uploaded to your tenant to build custom apps for Microsoft Teams. Follow the instructions on the same **Prepare your Office 365 tenant** page mentioned above.
+Microsoft Teams must be configured to enable custom apps and allow custom apps to be uploaded to your tenant to build custom apps for Microsoft Teams. Follow the instructions in "Prepare your Office 365 tenant" mentioned previously.
 
 You'll use Node.js to create custom Microsoft Teams tabs in this module. The exercises in this module assume you have the following tools installed on your developer workstation.
 
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/) - v10.\* (or higher)
-- NPM (installed with Node.js) - v6.\* (or higher)
-- [Gulp](https://gulpjs.com/) - v4.\* (or higher)
-- [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.\* (or higher)
+- [Node.js](https://nodejs.org/): version 10\* or higher
+- NPM installed with Node.js: version 6\* or higher
+- [Gulp](https://gulpjs.com/): version 4\* or higher
+- [Yeoman](https://yeoman.io/): version 3\* or higher
+- [Yeoman generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams): version 2\* or higher
 - [Visual Studio Code](https://code.visualstudio.com)
 
-You must have the minimum versions of these prerequisites installed on your workstation.
+*You must have the minimum versions of these prerequisites installed on your workstation.
 
 ## Create Microsoft Teams app
 
-Open your command prompt, navigate to a directory where you want to save your work, create a new folder **learn-msteams-tabs**, and change directory into that folder.
+Open your command prompt, and go to a directory where you want to save your work. Create a new folder named learn-msteams-tabs, and change the directory into that folder.
 
-Run the Yeoman Generator for Microsoft Teams by running the following command:
+Run the Yeoman generator for Microsoft Teams by running the following command:
 
 ```shell
 yo teams
 ```
 
-![Screenshot of the Yeoman Generator for Microsoft Teams](../media/03-yo-teams-01.png)
+![Screenshot of the Yeoman generator for Microsoft Teams](../media/03-yo-teams-01.png)
 
-Yeoman will launch and ask you a series of questions. Answer the questions with the following values:
+Yeoman starts and asks you a series of questions. Answer the questions with the following values:
 
 - **What is your solution name?**: Learn MSTeams Tabs
 - **Where do you want to place the files?**: Use the current folder
-- **Title of your Microsoft Teams App project?**: Learn MSTeams Tabs
-- **Your (company) name? (max 32 characters)**: Contoso
+- **Title of your Microsoft Teams App project**: Learn MSTeams Tabs
+- **Your (company) name (max 32 characters)**: Contoso
 - **Which manifest version would you like to use?**: 1.5
-- **Enter your Microsoft Partner Id, if you have one?**: (Leave blank to skip)
-- **What features do you want to add to your project?**: A Tab
-- **The URL where you will host this solution?**: https://learnmsteamstabs.azurewebsites.net
+- **Enter your Microsoft Partner Id, if you have one**: (Leave blank to skip)
+- **What features do you want to add to your project?**: A tab
+- **The URL where you will host this solution**: https://learnmsteamstabs.azurewebsites.net
 - **Would you like to include Test framework and initial tests?**: No
 - **Would you like to use Azure Applications Insights for telemetry?**: No
-- **Default Tab name? (max 16 characters)**: LearnPersonalTab
+- **Default Tab name (max 16 characters)**: LearnPersonalTab
 - **Do you want to create a configurable or static tab?**: Static
 
 > [!NOTE]
-> Most of the answers to these questions can be changed after creating the project. For example, the URL where the project will be hosted isn't important at the time of creating or testing the project.
+> Most of the answers to these questions can be changed after you create the project. For example, the URL where the project will be hosted isn't important at the time of creating or testing the project.
 
-After answering the generator's questions, the generator will create the scaffolding for the project and then execute `npm install` that downloads all the dependencies required by the project.
+After you answer the generator's questions, the generator creates the scaffolding for the project. The generator then runs `npm install` that downloads all the dependencies required by the project.
 
-## Test the Personal Tab
+## Test the personal tab
 
-Before customizing the tab, let's test the tab to see the initial developer experience for testing.
+Before you customize the tab, let's test the tab to see the initial developer experience for testing.
 
-From the command line, navigate to the root folder for the project and execute the following command:
+From the command line, go to the root folder for the project and run the following command:
 
 ```shell
 gulp ngrok-serve
 ```
 
-This gulp task will run many other tasks all displayed within the command-line console. The **ngrok-serve** task builds your project and starts a local web server (http://localhost:3007). It then starts ngrok with a random subdomain that creates a secure URL to your local webserver.
+This gulp task runs many other tasks all displayed within the command-line console. The ngrok-serve task builds your project and starts a local web server (http://localhost:3007). It then starts ngrok with a random subdomain that creates a secure URL to your local web server.
 
 > [!NOTE]
-> Microsoft Teams requires all content displayed within a tab be loaded from an HTTPS request. In development, can be done using the tool [ngrok](https://www.ngrok.com) that creates a secure rotatable URL to your local HTTP webserver. Ngrok is included as a dependency within the project so there is nothing to setup or configure.
+> Microsoft Teams requires all content displayed within a tab to be loaded from an HTTPS request. In development, this can be done by using the tool [ngrok](https://www.ngrok.com) that creates a secure rotatable URL to your local HTTP web server. Ngrok is included as a dependency within the project, so there's nothing to set up or configure.
 
 ![Screenshot of gulp ngrok-serve](../media/03-yo-teams-02.png)
 
-Open a browser and navigate to the ngrok URL displayed in the console:
+Open a browser, and go to the ngrok URL displayed in the console.
 
 ![Screenshot of the local web app hosting the Teams tab project](../media/03-yo-teams-03.png)
 
@@ -79,58 +79,58 @@ Update the URL in the browser to load the tab created by the scaffolding process
 
 ![Screenshot of the local web app hosting the Teams tab project](../media/03-yo-teams-04.png)
 
-Now let's load the tab in Microsoft Teams. In the browser, navigate to **https://teams.microsoft.com** and sign in with the credentials of a Work and School account.
+Now let's load the tab in Microsoft Teams. In the browser, go to [Microsoft Teams](https://teams.microsoft.com). Sign in with the credentials of a Work and School account.
 
 > [!NOTE]
-> Microsoft Teams is available for use as a web client, desktop client and a mobile client. In this module, we will use the web client but any of the clients can be used.
+> Microsoft Teams is available for use as a web client, a desktop client, and a mobile client. In this module, we use the web client, but any of the clients can be used.
 
-Using the app bar navigation menu, select the **Mode added apps** button. Then select **Browse all apps** followed by **Upload for me or my teams**.
+In the app bar on the left, select the **Mode added apps** button. Then select **Browse all apps** > **Upload for me or my teams**.
 
-![Screenshot of More added apps dialog in Microsoft Teams](../media/03-yo-teams-05.png)
+![Screenshot of More added apps dialog box in Microsoft Teams](../media/03-yo-teams-05.png)
 
-In the file dialog that appears, select the Microsoft Teams package in your project. This app package is a ZIP file that can be found in the project's **./package** folder.
+In the file dialog box that appears, select the Microsoft Teams package in your project. This app package is a zip file in the project's ./package folder.
 
-Once the package is uploaded, Microsoft Teams will display a summary of the app. Here you can see some "todo" items to address. You will update the "todo" items later in the exercise.
+After the package is uploaded, Microsoft Teams displays a summary of the app. Here you can see some todo items to address. You'll update the todo items later in the exercise.
 
 ![Screenshot of Microsoft Teams app](../media/03-yo-teams-06.png)
 
-Select the **Add** button to install the app, adding a new personal tab to your **More added apps** dialog:
+Select the **Add** button to install the app, which adds a new personal tab to your **More added apps** dialog box.
 
-![Screenshot of the installed Microsoft Teams app in the More added apps dialog](../media/03-yo-teams-07.png)
+![Screenshot of the installed Microsoft Teams app in the More added apps dialog box](../media/03-yo-teams-07.png)
 
-Select the app to navigate to the new tab:
+Select the app to go to the new tab.
 
 ![Screenshot of the installed Microsoft Teams app personal tab](../media/03-yo-teams-08.png)
 
-Notice that when the content page is loaded in a tab within the Microsoft teams client, it's displaying the `entityId` of the tab, not the message "This isn't hosted in Microsoft Teams" as you saw when viewing the content page in the browser. The tab can detect if it's loaded within the Microsoft Teams client using the Microsoft Teams JavaScript SDK.
+Notice that when the content page is loaded in a tab within the Microsoft teams client, it displays the `entityId` property of the tab, not the message "This isn't hosted in Microsoft Teams" as you saw when you viewed the content page in the browser. The tab can detect if it's loaded within the Microsoft Teams client by using the Microsoft Teams JavaScript SDK.
 
 The next step is to make some changes to the project.
 
-Uninstall the app by right-clicking the app in the **More added apps** dialog and select **Uninstall**. Then select **Uninstall** in the confirmation dialog that appears:
+Uninstall the app by right-clicking the app in the **More added apps** dialog box and select **Uninstall**. Then select **Uninstall** in the confirmation dialog box that appears.
 
 ![Screenshot uninstalling the Microsoft Teams app](../media/03-yo-teams-09.png)
 
-![Screenshot of the Uninstall dialog for the Microsoft Teams app](../media/03-yo-teams-10.png)
+![Screenshot of the Uninstall dialog box for the Microsoft Teams app](../media/03-yo-teams-10.png)
 
-Next, stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the console to stop the running process.
+Next, stop the local web server by selecting <kbd>Ctrl</kbd>+<kbd>C</kbd> in the console to stop the running process.
 
 ## Update the project to use the Stardust UI library
 
-Microsoft Teams recommends your custom apps use React and the themable React component library [Stardust UI React](https://stardust-ui.github.io/react/). To use Stardust in the Microsoft Teams app, we need to make some changes to the project.
+Microsoft Teams recommends that your custom apps use React and the themable React component library [Stardust UI React](https://stardust-ui.github.io/react/). To use Stardust in the Microsoft Teams app, we need to make some changes to the project.
 
 > [!IMPORTANT]
-> At the time of publication of this module, there are plans to update the Yeoman generator for Microsoft Teams to include Stardust in the default project. However, at the time of publication of this module, the default project uses the older Microsoft Teams control library that Stardust is replacing.
+> At the time of publication of this module, there are plans to update the Yeoman generator for Microsoft Teams to include Stardust in the default project. At the time of publication of this module, the default project uses the older Microsoft Teams control library that Stardust is replacing.
 >
-> Therefore, the steps in this section may or may not be necessary as the Yeoman generator for Microsoft Teams may have been updated. Review each of the instructions in this section and compare the results with your project to determine if they are necessary.
+> The steps in this section might not be necessary because the Yeoman generator for Microsoft Teams might have been updated. Review each of the instructions in this section and compare the results with your project to determine if they're necessary.
 
-The first step is to uninstall the existing control library and install the Stardust library. Execute the following two commands in the command line from the root folder of the project:
+The first step is to uninstall the existing control library and install the Stardust library. Run the following two commands in the command line from the root folder of the project:
 
 ```shell
 npm uninstall msteams-ui-components-react
 npm install @stardust-ui/react
 ```
 
-Locate and open the file that contains the React component used in the project: **./src/app/scripts/learnPersonalTab/LearnPersonalTab.tsx**.
+Locate and open the file that contains the React component used in the project: ./src/app/scripts/learnPersonalTab/LearnPersonalTab.tsx.
 
 Update the `import` statements in this file to replace the component library used. Find the following `import` statement that imports the legacy Microsoft Teams UI Components - React library:
 
@@ -147,7 +147,7 @@ import {
 } from "msteams-ui-components-react";
 ```
 
-Replace the above statement with the following import statement:
+Replace the previous statement with the following import statement:
 
 ```ts
 import { 
@@ -157,9 +157,9 @@ import {
 } from "@stardust-ui/react";
 ```
 
-The default project contains additional user interface style code that used the previous control library. This code is no longer necessary
+The default project contains additional user interface style code that used the previous control library. This code is no longer necessary.
 
-Locate the following code in the `componentWillMount()` method in the `LearnPersonalTab` class and delete it:
+Locate the following code in the `componentWillMount()` method in the `LearnPersonalTab` class and delete it.
 
 ```ts
 this.setState({
@@ -167,7 +167,7 @@ this.setState({
 });
 ```
 
-Locate the following code in the `render()` method in the `LearnPersonalTab` class and delete it:
+Locate the following code in the `render()` method in the `LearnPersonalTab` class and delete it.
 
 ```ts
 const context = getContext({
@@ -194,9 +194,9 @@ public render() {
 
 ## Implement the personal tab's user interface
 
-Now you can implement the user interface for the tab. The simple tab will have a basic interface. It will present a list of items and allow the user to add items to the list.
+Now you can implement the user interface for the tab. The simple tab has a basic interface. It presents a list of items, and users can add items to the list.
 
-First, update the state of the component to contain a list of items and a property for a new item. Locate the `ILearnPersonalTabState` interface in the **LearnPersonalTab.tsx** file and add the following properties to it:
+First, update the state of the component to contain a list of items and a property for a new item. Locate the `ILearnPersonalTabState` interface in the LearnPersonalTab.tsx file, and add the following properties to it:
 
 ```ts
 teamsTheme: ThemePrepared;
@@ -204,7 +204,7 @@ todoItems: string[];
 newTodoValue: string;
 ```
 
-Add the following method to the `LearnPersonalTab` class that will update the component state to the Stardust theme that matches the currently selected Microsoft Teams client theme:
+Add the following method to the `LearnPersonalTab` class that updates the component state to the Stardust theme that matches the currently selected Microsoft Teams client theme:
 
 ```ts
 private updateStardustTheme = (teamsTheme: string = "default"): void => {
@@ -247,7 +247,7 @@ Within the `componentWillMount()` method, locate the following line:
 microsoftTeams.registerOnThemeChangeHandler(this.updateTheme);
 ```
 
-This code registers an event handler to update the component's theme to match the theme of the current Microsoft Teams client when this page is loaded as a tab. Update this line to call the new handler the following line to register another handler to update the Stardust library theme:
+This code registers an event handler to update the component's theme to match the theme of the current Microsoft Teams client when this page is loaded as a tab. Update this line to call the new handler in the following line to register another handler to update the Stardust library theme:
 
 ```ts
 microsoftTeams.registerOnThemeChangeHandler(this.updateStardustTheme);
@@ -255,7 +255,7 @@ microsoftTeams.registerOnThemeChangeHandler(this.updateStardustTheme);
 
 With the theme management and state initialized, we can now implement the user interface.
 
-Locate the `render()` method and update the return statement to the following code. The `render()` method will now display the list of items in our state out with a brief copyright statement:
+Locate the `render()` method, and update the return statement to the following code. The `render()` method now displays the list of items in our state output with a brief copyright statement.
 
 ```tsx
 public render() {
@@ -283,7 +283,7 @@ public render() {
 ```
 
 > [!TIP]
-> At this point you can test your tab without loading it in Microsfot Teams. Execute the command **gulp ngrok-serve** from the command line and navigate to **https://`{your-ngrok-subdomain}`.ngrok.io/learnPersonalTab/index.html** in the browser.
+> At this point, you can test your tab without loading it in Microsoft Teams. Run the command **gulp ngrok-serve** from the command line, and go to https://`{your-ngrok-subdomain}`.ngrok.io/learnPersonalTab/index.html in the browser.
 >
 > ![Screenshot of the update tab page in the default theme](../media/03-yo-teams-11.png)
 >
@@ -291,7 +291,7 @@ public render() {
 >
 > ![Screenshot of the update tab page in the dark theme](../media/03-yo-teams-12.png)
 
-The next step is to add some interactivity to the tab. Add the following methods to the `LearnPersonalTab` class. These methods will handle updating the state when specific events happen on the form you'll add to the component:
+The next step is to add some interactivity to the tab. Add the following methods to the `LearnPersonalTab` class. These methods handle updating the state when specific events happen on the form that you'll add to the component.
 
 ```ts
 private handleOnChanged = (event): void => {
@@ -309,7 +309,7 @@ private handleOnClick = (event: React.MouseEvent<HTMLButtonElement>): void  => {
 }
 ```
 
-Finally, locate the string `TODO: add new list item form here` in the `render()` method and replace it with the following code. This code will display a form enabling the user to add items to the list:
+Finally, locate the string `TODO: add new list item form here` in the `render()` method, and replace it with the following code. This code displays a form that the user can use to add items to the list.
 
 ```tsx
 <Flex gap="gap.medium">
@@ -333,23 +333,23 @@ Finally, locate the string `TODO: add new list item form here` in the `render()`
 </Flex>
 ```
 
-## Use App Studio to update the Microsoft Teams App manifest
+## Use App Studio to update the Microsoft Teams app manifest
 
-At this point, the app is complete. Recall from our initial test, when the app was added to Microsoft Teams, it had a few "TODO" strings for the description of the app. While you could change these values in the project's **./src/manifest/manifest.json** file, you'll use App Studio to make these changes.
+At this point, the app is complete. Recall from our initial test that when the app was added to Microsoft Teams, it had a few todo strings for the description of the app. While you could change these values in the project's ./src/manifest/manifest.json file, you use App Studio to make these changes.
 
-First, build, and run the project by executing the command **gulp ngrok-serve** in the command line just as you did previously. This step will also create the Microsoft Teams app package.
+First, build and run the project by running the command **gulp ngrok-serve** in the command line like you did previously. This step also creates the Microsoft Teams app package.
 
-In the browser, navigate to **https://teams.microsoft.com** and sign in with the credentials of a Work and School account.
+In the browser, go to [Microsoft Teams](https://teams.microsoft.com) and sign in with the credentials of a Work and School account.
 
-Using the **More added apps** link in the app bar navigation, select **App Studio**.
+Using the **More added apps** link in the app bar on the left, select **App Studio**.
 
-![Screenshot of the More added apps dialog with App Studio highlighted](../media/03-yo-teams-13.png)
+![Screenshot of the More added apps dialog box with App Studio highlighted](../media/03-yo-teams-13.png)
 
-Select the **Manifest editor** tab in App studio, then select **Import an existing app**. Locate ZIP file that can be found in the project's **../package** folder and open it.
+Select the **Manifest editor** tab in App Studio, and then select **Import an existing app**. Locate the zip file that can be found in the project's ../package folder and open it.
 
 ![Screenshot of the Microsoft Teams app in App Studio](../media/03-yo-teams-14.png)
 
-Edit the app by selecting it's tile or use the "..." context menu in the top-right corner and select **Edit**.
+Edit the app by selecting its tile, or use the menu in the upper-right corner for more options and select **Edit**.
 
 On the **App details** page, change the **Long name** of the app to **Learn Microsoft Teams Tabs**.
 
@@ -360,33 +360,33 @@ On the **App details** page, scroll down to the **Descriptions** section and ent
 
 ![Screenshot of app details App Studio](../media/03-yo-teams-15.png)
 
-Update the name of the tab by selecting **Capabilities > Tabs** in the left-hand navigation in App Studio.
+Update the name of the tab by selecting **Capabilities** > **Tabs** in the left pane in App Studio.
 
-Locate the only personal tab in the project. Select the **... > Edit** menu option on the tab. Change the name of the tab to **My First Tab**. Add `?theme={theme}` to the end of the **Content URL** property. Select **Save** to save your changes.
+Locate the only personal tab in the project. Select the menu for more options on the tab, and select **Edit**. Change the name of the tab to **My First Tab**. Add `?theme={theme}` to the end of the **Content URL** property. Select **Save** to save your changes.
 
-The changes made to the app within App Studio aren't saved to your project. If you want to update the project, you'll need to download the app package from App Studio.
+The changes made to the app within App Studio aren't saved to your project. If you want to update the project, download the app package from App Studio.
 
-To download the project, select **Finish > Test and distribute** in the App Studio navigation. Then select **Download**.
+To download the project, select **Finish** > **Test and distribute** in the left pane in App Studio. Then select **Download**.
 
 > [!CAUTION]
-> Be careful if you chose to update the **manifest.json** file in your project with the one in the package downloaded from App Studio.
+> Be careful if you chose to update the manifest.json file in your project with the one in the package downloaded from App Studio.
 >
-> The manifest file in your project contains placeholder strings that are updated by the build and debugging process that is replaced when testing the project. This simplifies the development and debugging process.
+> The manifest file in your project contains placeholder strings that are updated by the build and debugging process that's replaced when you test the project. using placeholder strings simplifies the development and debugging process.
 >
-> For instance, the placeholder `{{HOSTNAME}}` is replaced with the hosting URL of the app each time the package is recreated.
+> For instance, the placeholder `{{HOSTNAME}}` is replaced with the hosting URL of the app each time the package is re-created.
 >
-> Therefore, you may not want to completely replace the existing **manifest.json** file with the file generated by App Studio.
+> So you might not want to completely replace the existing manifest.json file with the file generated by App Studio.
 
 ## Install and test the Microsoft Teams app
 
-Within **App Studio**, select **Finish > Test and distribute** in the left-hand navigation. Then select **Install**. Notice the new names and descriptions are shown prior to installing the app:
+In App Studio, select **Finish** > **Test and distribute** in the left pane in App Studio. Then select **Install**. Notice that the new names and descriptions are shown prior to installing the app.
 
 ![Screenshot of installing the updated app](../media/03-yo-teams-16.png)
 
-Select **Add** to install the app. This will add a new personal tab to your **More added apps** dialog. Select the app to see the updated working version.
+Select **Add** to install the app. This action adds a new personal tab to your **More added apps** dialog box. Select the app to see the updated working version.
 
 ![Screenshot of the updated and working tab](../media/03-yo-teams-17.png)
 
 ## Summary
 
-In this exercise, you created a new Microsoft Teams personal tab using the Microsoft Teams Yeoman Generator, Visual Studio Code, and App Studio.
+In this exercise, you created a new Microsoft Teams personal tab by using the Microsoft Teams Yeoman generator, Visual Studio Code, and App Studio.
