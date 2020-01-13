@@ -13,12 +13,10 @@ You can also turn access to functions like Exchange Online or Microsoft Teams on
 
 *Enable or disable individual functions for a license* 
 
-### Explore
+### Explore how to manage your Microsoft 365 licenses
 
-Explore how to manage your Microsoft 365 licenses
+View a [video version](https://www.microsoft.com/videoplayer/embed/RE44izL) of the interactive guide (captions available in more languages).
 
-<a href="https://go.microsoft.com/fwlink/?linkid=2111812">![Manage licenses in Microsoft 365](../media/lab-licenses-image.png)</a>  
+<a href="https://mslearn.cloudguides.com/guides/Manage%20licenses%20in%20Microsoft%20365">![Manage licenses in Microsoft 365](../media/lab-licenses-image.png)</a>  
 
 Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
-
-**Want to try?** View an [interactive version](https://mslearn.cloudguides.com/guides/Manage%20licenses%20in%20Microsoft%20365) of this video (available in English).
