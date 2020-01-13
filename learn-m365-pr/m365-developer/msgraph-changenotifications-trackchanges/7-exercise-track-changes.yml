@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msgraph-changenotifications-trackchanges.7-exercise-track-changes
+metadata:
+  title: Exercise - Microsoft Graph track changes (delta query)
+  description: In this exercise, you'll learn how to use the track changes capability in Microsoft Graph. The track changes capability (delta query), enables applications to get a list of all items that have been added, updated, or deleted since the last time the same query was issued.
+  ms.date: 1/21/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Exercise - Microsoft Graph track changes (delta query)
+durationInMinutes: 15
+content: |
+  [!include[](includes/7-exercise-track-changes.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "Microsoft Graph's track changes (delta query) capability does which of the following things?"
+    choices:
+    - content: "Returns only those entities that have been created, updated, or deleted since the previous time the query was executed."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Returns a list of the properties, with the before and after values, for the entity specified in the query that changed."
+      isCorrect: false
+      explanation: "Track changes returns a list of entities that have changed, not the properties that changed."
+    - content: "Returns a list of the users and apps who have changed the entity specified in the query."
+      isCorrect: false
+      explanation: "Track changes returns a list of entities that have changed, not who or what made the changes."
+  - content: "What types of entities support track changes (delta query) in Microsoft Graph?"
+    choices:
+    - content: "Email messages, groups, users, and events."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Email messages, groups, users, and files in OneDrive."
+      isCorrect: false
+      explanation: "Change notifications are not supported on files."
+    - content: "Email messages, groups, users, and contacts."
+      isCorrect: false
+      explanation: "Change notifications are not supported on contacts."
