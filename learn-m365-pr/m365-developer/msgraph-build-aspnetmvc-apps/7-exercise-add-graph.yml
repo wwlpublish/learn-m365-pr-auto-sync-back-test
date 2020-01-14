@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msgraph-build-aspnetmvc-apps.7-exercise-add-graph
+metadata:
+  title: Exercise - Incorporate Microsoft Graph into ASP.NET MVC web apps
+  description: In this exercise, you'll learn how to customize and configure an ASP.NET MVC web application to request and integrate data obtained from Microsoft Graph.
+  ms.date: 1/17/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Exercise - Incorporate Microsoft Graph into ASP.NET MVC web apps
+durationInMinutes: 15
+content: |
+  [!include[](includes/7-exercise-add-graph.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "Which object in the MSAL SDK best best suited to obtain an access token from Microsoft identity for ASP.NET applications with interactive users?"
+    choices:
+    - content: "The `PublicClientApplication` is preferred object to use for web applications."
+      isCorrect: false
+      explanation: "A `PublicClientApplication` object is designed for applications that are distributed to users, such as mobile apps or desktop apps, not hosted web applications."
+    - content: "The `ConfidentialClientApplication` is the ideal client in this scenario."
+      isCorrect: true
+      explanation: "The `ConfidentialClientApplication` should be used when the Azure AD app's secret can be protected as in the case of an ASP.NET application."
+    - content: "The `WebClientApplication` is preferred object to use for web applications."
+      isCorrect: false
+      explanation: "The `WebClientApplication` is not a valid option in the MSAL library."
+  - content: "What object included in the Microsoft Graph SDK is used to submit requests to Microsoft Graph?"
+    choices:
+    - content: "The `GraphServiceClient` is the object used to submit requests to Microsoft Graph when using the Microsoft Graph .NET SDK."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "The `MicrosoftGraphClient` is the object used to submit requests to Microsoft Graph when using the Microsoft Graph .NET SDK."
+      isCorrect: false
+      explanation: "The object `MicrosoftGraphClient` does not exist in the Microsoft Graph .NET SDK"
+    - content: "The `MSGraphClient` is the object used to submit requests to Microsoft Graph when using the Microsoft Graph .NET SDK."
+      isCorrect: false
+      explanation: "The object `MSGraphClient` does not exist in the Microsoft Graph .NET SDK"

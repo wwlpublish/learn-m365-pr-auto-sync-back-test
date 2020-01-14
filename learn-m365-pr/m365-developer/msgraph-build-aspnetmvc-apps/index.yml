@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn-m365.msgraph-build-aspnetmvc-apps
+metadata:
+  title: Build ASP.NET MVC web applications with the Microsoft Graph .NET SDK
+  description: Learn how to use the Microsoft Graph .NET SDK in an ASP.NET MVC web application.
+  ms.date: 1/17/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Build ASP.NET MVC web applications with the Microsoft Graph .NET SDK
+summary: Microsoft Graph enables developers to consume user information stored in Microsoft 365 in custom applications. Data is retrieved from Microsoft Graph through a REST API or using one of the various native SDKs provided by Microsoft. In this module, you'll learn how to work with the Microsoft Graph .NET SDK to create an ASP.NET MVC web application to access data in Microsoft 365.
+abstract: |
+  At the end of this module, you should be able to:
+  - Demonstrate how to create and configure an ASP.NET MVC application to authenticate users and obtain tokens from Azure AD
+  - Demonstrate how to get display a user's events in their calendar
+  - Demonstrate how to use the Microsoft Graph .NET SDK
+prerequisites: |
+  - Basic knowledge of REST services & APIs
+  - Basic knowledge of Microsoft Graph
+  - Ability to develop with ASP.NET MVC web applications the intermediate level
+  - Experience using Visual Studio 2019 at the beginner level
+  - Access to a Microsoft 365 tenant
+iconUrl: /learn/achievements/msgraph-build-aspnetmvc-apps.svg
+levels:
+- intermediate
+roles:
+- developer
+products:
+- m365
+- ms-graph
+units:
+- learn-m365.msgraph-build-aspnetmvc-apps.1-introduction
+- learn-m365.msgraph-build-aspnetmvc-apps.2-graph-overview-create-app
+- learn-m365.msgraph-build-aspnetmvc-apps.3-exercise-create-app
+- learn-m365.msgraph-build-aspnetmvc-apps.4-add-auth
+- learn-m365.msgraph-build-aspnetmvc-apps.5-exercise-add-auth
+- learn-m365.msgraph-build-aspnetmvc-apps.6-add-graph
+- learn-m365.msgraph-build-aspnetmvc-apps.7-exercise-add-graph
+- learn-m365.msgraph-build-aspnetmvc-apps.8-summary
+badge:
+  uid: learn-m365.msgraph-build-aspnetmvc-apps.badge
