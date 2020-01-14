@@ -18,7 +18,7 @@ The Azure AD v2 endpoint addresses these two shortcomings with the v1 endpoint. 
 
 Another benefit to the v2 endpoint is dynamic consent. Dynamic consent differs from static consent in that when a user signs in, the application requests the permissions it needs at that time. Microsoft identity will determine if the user has previously consent to the requested permissions. If one or more hasn't been consented to, the user is presented with the consent dialog for only those new permissions requests.
 
-The v2 endpoint also supports the OpenID Connect standard of including an **id token** when requested at sign-in. This is an extension to the authentication protocol and once the user successfully signed in, will be returned in the sign-in request to the application. The ID token contains information about the current user, such as their email address and their name. While the v1 endpoint had some support for OpenID Connect, the v2 endpoint better conforms to the OpenID connect specification.
+The v2 endpoint also supports the OpenID Connect standard of including an **ID token** when requested at sign-in. This is an extension to the authentication protocol and once the user successfully signed in, will be returned in the sign-in request to the application. The ID token contains information about the current user, such as their email address and their name. While the v1 endpoint had some support for OpenID Connect, the v2 endpoint better conforms to the OpenID connect specification.
 
 ## Register Azure AD applications with the Azure AD admin center
 
