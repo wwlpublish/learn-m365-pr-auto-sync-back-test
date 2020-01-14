@@ -21,11 +21,13 @@ Plan your SSO configuration. For example, you can:
 
 - Plan role-based access
 
-###Explore
-|-| 
-|Explore SSO with this interactive guide:<br><br><a href="https://go.microsoft.com/fwlink/?linkid=2112014">![Single-sign On](../media/sso-cloudguide.png)</a><br><br>Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page.|
+### Explore how to manage your Microsoft 365 licenses
 
-**Want to try?** View an [interactive version](https://mslearn.cloudguides.com/en-us/guides/Configure%20single%20sign-on%20in%20Azure%20AD) of this video (available in English).
+View a [video version](https://www.microsoft.com/videoplayer/embed/RE44izL) of the interactive guide (captions available in more languages).
+
+<a href="https://mslearn.cloudguides.com/en-us/guides/Configure%20single%20sign-on%20in%20Azure%20AD">![Single-sign On](../media/sso-cloudguide.png)</a>  
+
+Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
 
 ## What is role-based access
 
