@@ -8,7 +8,7 @@ metadata:
   ms.author: v-johnco
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
-title: Introduction
+title: Incorporate Microsoft Graph into ASP.NET MVC web apps
 durationInMinutes: 10
 content: |
   [!include[](includes/6-add-graph.md)]
