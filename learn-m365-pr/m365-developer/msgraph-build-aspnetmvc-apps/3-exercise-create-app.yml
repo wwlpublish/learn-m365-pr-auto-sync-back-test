@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msgraph-build-aspnetmvc-apps.3-exercise-create-app
+metadata:
+  title: Exercise - Create ASP.NET MVC web app and register Azure AD app
+  description: In this exercise, you'll create an ASP.NET MVC web application with Visual Studio and Azure AD application with the Azure Active Directory admin center. Once the application is created, you'll then add the necessary packages and libraries that support user authentication and requesting data from Microsoft Graph.
+  ms.date: 1/17/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Exercise - Create ASP.NET MVC web app and register Azure AD app
+durationInMinutes: 15
+content: |
+  [!include[](includes/3-exercise-create-app.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "Microsoft Graph supports access tokens generated on behalf of users that are signed in using which types of accounts?"
+    choices:
+    - content: "Only Microsoft accounts (consumer logins, LiveID, Outlook.com)."
+      isCorrect: false
+      explanation: "Incorrect... Microsoft Graph supports both Microsoft Accounts and work and school (Azure AD) accounts."
+    - content: "Only Work and School (Azure AD) accounts."
+      isCorrect: false
+      explanation: "Incorrect... Microsoft Graph supports both Microsoft Accounts and work and school (Azure AD) accounts."
+    - content: "Both Microsoft accounts and work and school (Azure AD) accounts."
+      isCorrect: true
+      explanation: "Correct!"
+  - content: "What benefits does Microsoft Graph have over using individual service endpoints?"
+    choices:
+    - content: "Microsoft Graph's single endpoint simplifies apps as developers don't have to submit requests to individual service endpoints."
+      isCorrect: false
+      explanation: "While this is a valid benefit, the other answers are also valid benefits."
+    - content: "Microsoft Graph has a single well-known endpoint while individual service endpoints may differ from user to user, tenant to tenant, or consumer to business services (such as OneDrive)."
+      isCorrect: false
+      explanation: "While this is a valid benefit, the other answers are also valid benefits."
+    - content: "All of these are benefits to using Microsoft Graph over using individual service endpoints."
+      isCorrect: true
+      explanation: "Correct!"
