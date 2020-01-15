@@ -32,3 +32,12 @@ With the cumulative model, your PCs are always one update away from being curren
 >Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
 
 **Want to try?** View an [interactive version](https://mslearn.cloudguides.com/guides/Discover%20servicing%20options%20for%20Windows%2010) of this video (available in English).
+
+
+### Explore Windows 10 servicing options
+
+View a [video version](https://www.microsoft.com/videoplayer/embed/RE44DnU) of the interactive guide (captions available in more languages).
+
+<a href="https://mslearn.cloudguides.com/guides/Discover%20servicing%20options%20for%20Windows%2010">![Discover servicing options for Windows 10](../media/lab-servicing-options.png)</a>  
+
+Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 

@@ -19,15 +19,15 @@ During the migration process, you need to have sufficient server storage capacit
 
 If you’re performing a PC refresh and not reformatting the primary Windows partition, you also have the option of using a hard-link migration store with USMT. This process preserves the user state on the PC while the old operating system and apps are removed and refreshed. With the restore process coming from the same local partition, this option offers significant improvements in performance and reduces network traffic.
 
-### Explore
 
->Explore the User State Migration Tool with this interactive guide:
->
-> <a href="https://go.microsoft.com/fwlink/?linkid=2111820">![Migrate user state data](../media/lab-user-state.png)</a>  
->
->Be sure to click the full-screen option in the video player, to make it easier to see all of the great Microsoft features. When you're done, use the **Back** arrow in your browser to come back to this page. 
+### Explore the User State Migration Tool
 
-**Want to try?** View an [interactive version](https://mslearn.cloudguides.com/guides/Migrate%20user%20state%20data) of this video (available in English).
+View a [video version](https://www.microsoft.com/videoplayer/embed/RE44AMa) of the interactive guide (captions available in more languages).
+
+<a href="https://mslearn.cloudguides.com/guides/Migrate%20user%20state%20data">![Migrate user state data](../media/lab-user-state.png)</a>  
+
+Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
+
 
 ## Migrate user data with OneDrive known folder move
 
@@ -39,13 +39,13 @@ Users don’t need to change their workflow – everything looks the same before
 
 Authentication for OneDrive is powered by Azure Active Directory, so for extra security and to limit network activity, you can enable multi-factor authentication and set policies to control the upload and download bandwidth OneDrive uses. 
 
-### Explore
 
->Learn about OneDrive known folder move with this interactive guide:
->
-> <a href="https://go.microsoft.com/fwlink/?linkid=2111818">![Migrate Windows known folders to OneDrive](../media/lab-known-folders.png)</a>  
->
->Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
+### Explore how to migrate Windows known folders to OneDrive
 
-**Want to try?** View an [interactive version](https://mslearn.cloudguides.com/guides/Migrate%20Windows%20known%20folders%20to%20OneDrive) of this video (available in English).
+View a [video version](https://www.microsoft.com/videoplayer/embed/RE44AMz) of the interactive guide (captions available in more languages).
+
+<a href="https://mslearn.cloudguides.com/guides/Migrate%20Windows%20known%20folders%20to%20OneDrive">![Migrate Windows known folders to OneDrive](../media/lab-known-folders.png)</a>  
+
+Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
+
 
