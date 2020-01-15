@@ -21,11 +21,11 @@ Plan your SSO configuration. For example, you can:
 
 - Plan role-based access
 
-### Explore how configure single sign-on in Azure AD
+### Explore how to configure single sign-on in Azure AD
 
 View a [video version](https://www.microsoft.com/videoplayer/embed/RE44izL) of the interactive guide (captions available in more languages).
 
-<a href="https://mslearn.cloudguides.com/en-us/guides/Configure%20single%20sign-on%20in%20Azure%20AD">![Single-sign On](../media/sso-cloudguide.png)</a>  
+<a href="https://mslearn.cloudguides.com/guides/Configure%20single%20sign-on%20in%20Azure%20AD">![Single-sign On](../media/sso-cloudguide.png)</a>  
 
 Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
 

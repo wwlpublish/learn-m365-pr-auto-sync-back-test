@@ -24,7 +24,7 @@ You can also use Azure AD Privileged Identity Management (PIM) to identify accou
 
 View a [video version](https://www.microsoft.com/videoplayer/embed/RE44vAQ) of the interactive guide (captions available in more languages).
 
-<a href="https://mslearn.cloudguides.com/en-us/guides/Reduce%20security%20risk%20with%20Privileged%20Identity%20Management">![Reduce security risk](../media/pim-cloudguide.png)</a>  
+<a href="https://mslearn.cloudguides.com/guides/Reduce%20security%20risk%20with%20Privileged%20Identity%20Management">![Reduce security risk](../media/pim-cloudguide.png)</a>  
 
 Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
 
