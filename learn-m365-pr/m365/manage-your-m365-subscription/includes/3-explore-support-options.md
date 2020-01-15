@@ -1,4 +1,4 @@
-As a Microsoft 365 subscriber you have a variety of support options, but the details depend your specific situation:
+As a Microsoft 365 subscriber you have a variety of support options, but the details depend on your specific situation:
 
 - Which subscription do you have? Does it include a service package?
 - Which service or tool do you need support for?
@@ -24,12 +24,10 @@ Here are the different ways and channels to get support for Microsoft 365:
 
    [**Office forums**](https://answers.microsoft.com/msoffice/forum?sort=LastReplyDate&dir=Desc&tab=All&status=all&mod=&modAge=&advFil=&postedAfter=&postedBefore=&threadType=All&isFilterExpanded=false&page=1)
 
-### Explore
+### Explore your Microsoft 365 support options
 
-Explore your Microsoft 365 support options
+View a [video version](https://www.microsoft.com/videoplayer/embed/RE44izJ) of the interactive guide (captions available in more languages).
 
-<a href="https://go.microsoft.com/fwlink/?linkid=2112016">![Discover your support options in Microsoft 365](../media/lab-support-image.png)</a>  
+<a href="https://mslearn.cloudguides.com/guides/Discover%20support%20options%20in%20Microsoft%20365">![Discover your support options in Microsoft 365](../media/lab-support-image.png)</a>  
 
 Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
-
-**Want to try?** View an [interactive version](https://mslearn.cloudguides.com/en-us/guides/Discover%20support%20options%20in%20Microsoft%20365) of this video (available in English).
