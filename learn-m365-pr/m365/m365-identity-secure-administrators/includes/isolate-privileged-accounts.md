@@ -20,7 +20,7 @@ You can also use Azure AD Privileged Identity Management (PIM) to identify accou
 
 *Azure AD Privileged Identity Management dashboard*
 
-### Explore how to manage your Microsoft 365 licenses
+### Explore how to reduce security risk with Privileged Identity Management
 
 View a [video version](https://www.microsoft.com/videoplayer/embed/RE44vAQ) of the interactive guide (captions available in more languages).
 

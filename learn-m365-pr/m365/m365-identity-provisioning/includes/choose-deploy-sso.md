@@ -21,7 +21,7 @@ Plan your SSO configuration. For example, you can:
 
 - Plan role-based access
 
-### Explore how to manage your Microsoft 365 licenses
+### Explore how configure single sign-on in Azure AD
 
 View a [video version](https://www.microsoft.com/videoplayer/embed/RE44izL) of the interactive guide (captions available in more languages).
 
