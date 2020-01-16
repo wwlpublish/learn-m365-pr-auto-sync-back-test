@@ -29,20 +29,20 @@ quiz:
       - content: "Microsoft Intune"
         isCorrect: false
         explanation: "Microsoft Intune is one of the cloud services available in Microsoft 365."
-    - content: "Which of one the following statements is true about the differences between SharePoint Online and SharePoint Server?"
+    - content: "Which of the following statements is true about the differences between SharePoint Online and SharePoint Server?"
       choices:
-      - content: "Anti-malware is only available in SharePoint Online."
+      - content: "Sharing with people outside your organization is only possible with SharePoint Server."
+        isCorrect: false
+        explanation: "Sharing with people outside your organization is only possible with SharePoint Online."
+      - content: "SharePoint Online team sites can be used with other services such as Teams."
         isCorrect: true
-        explanation: "Anti-malware is not available in SharePoint Server."
-      - content: "Claims-based authentication is only available in SharePoint Online."
+        explanation: "SharePoint Online team sites can be used with other services such as Teams."
+      - content: "All of the modern pages and web parts are available in SharePoint Server."
         isCorrect: false
-        explanation: "Claims-based authentication is available in SharePoint Online and SharePoint Server."
-      - content: "Data loss prevention policies are available in SharePoint Online and SharePoint Server."
+        explanation: "All of the modern pages and web parts are available in SharePoint Online."
+      - content: "Hub sites are used in SharePoint Server to connect related sites."
         isCorrect: false
-        explanation: "Data loss prevention policies are available in SharePoint Online and SharePoint Server."
-      - content: "Encryption of data at rest (data on disk) is only available in SharePoint Server."
-        isCorrect: false
-        explanation: "Encryption of data at rest (data on disk) is available in SharePoint Online and SharePoint Server."
+        explanation: "Hub sites are used in SharePoint Online to connect related sites."
     - content: "Which of the following statements about Office 365 ProPlus is NOT true?"
       choices:
       - content: "Office 365 ProPlus is a web-based version of Office."

@@ -20,10 +20,13 @@ You can also use Azure AD Privileged Identity Management (PIM) to identify accou
 
 *Azure AD Privileged Identity Management dashboard*
 
-|![Try it icon](../media/activity.png) Try it|
-|-| 
-|Explore Privileged Identity Management with this interactive guide:<br><br><a href="https://mslearn.cloudguides.com/en-us/guides/Reduce%20security%20risk%20with%20Privileged%20Identity%20Management">![Reduce security risk](../media/pim-cloudguide.png)</a><br><br>Be sure to click the full-screen option in the video player, to make it easier to see. When you're done, use the **Back** arrow in your browser to come back to this page.|
+### Explore how to reduce security risk with Privileged Identity Management
 
+View a [video version](https://www.microsoft.com/videoplayer/embed/RE44vAQ) of the interactive guide (captions available in more languages).
+
+<a href="https://mslearn.cloudguides.com/guides/Reduce%20security%20risk%20with%20Privileged%20Identity%20Management">![Reduce security risk](../media/pim-cloudguide.png)</a>  
+
+Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
 
 ## Learn more
 

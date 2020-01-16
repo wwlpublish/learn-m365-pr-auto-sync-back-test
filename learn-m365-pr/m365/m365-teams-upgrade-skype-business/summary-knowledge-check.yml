@@ -23,9 +23,9 @@ quiz:
       - content: "You can move users to Teams all at once if you're upgrading from either Skype for Business Online or Skype for Business on-premises."
         isCorrect: true
         explanation: "True. You can move users all at once if you're upgrading from either Skype for Business Online or Skype for Business on-premises."
-      - content: "You can move users to Teams in stages if you're upgrading from either Skype for Business Online or Skype for Business on-premises."
+      - content: "You can move users to Teams in stages only if you're upgrading from Skype for Business on-premises."
         isCorrect: false
-        explanation: "You can move users to Teams in stages if you're upgrading from Skype for Business on-premises and not Skype for Business Online."
+        explanation: "You can move users to Teams all at once if you're upgrading from either Skype for Business Online or Skype for Business on-premises."
     - content: "Choose the recommended path for Skype for Business Online customers."
       choices:
       - content: "Start with the Skype for Business Only mode, and then move to TeamsOnly."
@@ -39,13 +39,13 @@ quiz:
         explanation: "The recommended path is to start with the default Islands mode, and then move to TeamsOnly." 
     - content: "Which of the following statements accurately describes the Azure AD Connect requirements?"
       choices:
-      - content: "The organization must have Azure AD Connect properly configured and be syncing all relevant attributes in order to upgrade users to Skype for Business Online."
+      - content: "Azure AD Connect is required to synchronize on-premises and online directories. It’s required for *on-premises* deployments only."
         isCorrect: false
-        explanation: "The organization must have Azure AD Connect properly configured and be syncing all relevant attributes in order to upgrade users to Skype for Business on-premises only."
-      - content: "The organization must have Azure AD Connect properly configured and be syncing all relevant attributes in order to upgrade users to Skype for Business on-premises only."
+        explanation: "Azure AD Connect is required to synchronize on-premises and online directories. It’s required for hybrid environments only."
+      - content: "Azure AD Connect is required to synchronize on-premises and online directories. It’s required for *online* deployments only."
         isCorrect: false
-        explanation: "The organization must have Azure AD Connect properly configured and be syncing all relevant attributes in order to upgrade users to Skype for Business on-premises or Skype for Business Online."
-      - content: "The organization must have Azure AD Connect properly configured and be syncing all relevant attributes in order to upgrade users to Skype for Business on-premises."
+        explanation: "Azure AD Connect is required to synchronize on-premises and online directories. It’s required for hybrid environments only."
+      - content: "Azure AD Connect is required to synchronize on-premises and online directories. It’s required for *hybrid* environments only."
         isCorrect: true
-        explanation: "The organization must have Azure AD Connect properly configured and be syncing all relevant attributes in order to upgrade users to Skype for Business on-premises."
+        explanation: "Azure AD Connect is required to synchronize on-premises and online directories. It’s required for hybrid environments only."
       

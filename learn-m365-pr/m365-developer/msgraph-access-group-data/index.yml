@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn-m365.msgraph-access-group-data
+metadata:
+  title: Manage Group Lifecycle with Microsoft Graph
+  description: Learn how to manage the lifecycle of Office 365 groups with Microsoft Graph.
+  ms.date: 11/18/2019
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Manage Group Lifecycle with Microsoft Graph
+summary: Groups are collections of users who share access to resources in Microsoft services or in your apps. Developers can use Microsoft Graph to create and manage different types of groups. In this module, you’ll learn how to manage the lifecycle of groups, the different types of groups and obtain information about the users associated with a group using Microsoft Graph.
+abstract: |
+  At the end of this module, you should be able to:
+  - Demonstrate how to get information about a group
+  - Demonstrate how to get information about a user’s groups
+  - Demonstrate how to manage the lifecycle of a group
+prerequisites: |
+  - Basic knowledge of REST services & APIs
+  - Basic knowledge of Microsoft Graph
+  - Ability to develop with ASP.NET Core at the intermediate level
+  - Experience using Visual Studio Code at the beginner level
+  - Access to a Microsoft 365 tenant
+iconUrl: /learn/achievements/msgraph-access-group-data.svg
+levels:
+- intermediate
+roles:
+- developer
+products:
+- m365
+- ms-graph
+units:
+- learn-m365.msgraph-access-group-data.1-introduction
+- learn-m365.msgraph-access-group-data.2-working-groups
+- learn-m365.msgraph-access-group-data.3-exercise-working-groups
+- learn-m365.msgraph-access-group-data.4-users-groups
+- learn-m365.msgraph-access-group-data.5-exercise-users-groups
+- learn-m365.msgraph-access-group-data.6-group-lifecycle
+- learn-m365.msgraph-access-group-data.7-exercise-group-lifecycle
+- learn-m365.msgraph-access-group-data.8-summary
+badge:
+  uid: learn-m365.msgraph-access-group-data.badge

@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.manage-m365.1-introduction
+title: Introduction to the Microsoft 365 admin center
+metadata:
+  title: Introduction to the Microsoft 365 admin center
+  description:  Explore the features of Microsoft 365 admin center.
+  ms.date: 12/02/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 10
+content: |
+  [!include[](includes/1-introduction.md)]

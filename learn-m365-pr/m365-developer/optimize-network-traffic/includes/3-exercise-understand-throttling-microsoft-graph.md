@@ -61,7 +61,13 @@ When prompted for the type of permission, select **Delegated permissions**.
 
 Enter **Mail.R** in the **Select permissions** search box and select the **Mail.Read** permission, followed by the **Add permission** button at the bottom of the panel.
 
-At the bottom of the **API Permissions** panel, select the button **Grant admin consent for [tenant]**, followed by the **Yes** button to grant all users in your organization this permission.
+In the **Configured Permissions** panel, select the button **Grant admin consent for [tenant]**.
+
+![Screenshot of the Configured permissions panel](../media/aad-portal-newapp-permissions-05.png)
+
+In the consent dialog popup, select the **Accept** button to grant all users in your organization this permission.
+
+![Screenshot of the consent dialog](../media/aad-portal-newapp-permissions-06.png)
 
 > [!NOTE]
 > The option to **Grant admin consent** here in the Azure AD admin center is pre-consenting the permissions to the users in the tenant to simplify the exercise. This approach allows the console application to use the [resource owner password credential grant](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth-ropc), so the user isn't prompted to grant consent to the application that simplifies the process of obtaining an OAuth access token. You could elect to implement alternative options such as the [device code flow](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth2-device-code) to utilize dynamic consent as another option.

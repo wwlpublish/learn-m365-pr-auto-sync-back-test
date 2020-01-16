@@ -1,0 +1,36 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msgraph-access-file-data.5-exercise-upload-files-onedrive
+metadata:
+  title: Exercise - Upload files to OneDrive
+  description: In this exercise, you’ll learn how to upload files to OneDrive using Microsoft Graph, including both small and large files.
+  ms.date: 01/07/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Exercise - Upload files to OneDrive
+durationInMinutes: 15
+content: |
+  [!include[](includes/5-exercise-upload-files-onedrive.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "Simple file uploads differ from large file uploads differ in all except which of the following ways?"
+    choices:
+    - content: "Large file uploads allow you to upload multiple chunks of a file in a resumable session, while simple file uploads involve a single request."
+      isCorrect: false
+      explanation: "Large file uploads differ from simple uploads in that simple file uploads are limited to a single request while large files can span multiple requests."
+    - content: "Developers can upload files of any size using either option, but can get additional progress reporting when using the large file upload option."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Large file uploads are resumable in the case of an interrupted connection while simple file uploads aren't resumable."
+      isCorrect: false
+      explanation: "Resumable uploads are unique to large file uploads; simple file uploads aren't resumable."
+  - content: "Developers can upload files of any size using either the simple upload or large file upload approach."
+    choices:
+    - content: "False - simple file uploads are limited to files smaller than 4 MB."
+      isCorrect: true
+      explanation: "Correct, simple file uploads are limited to files up to 4 MB."
+    - content: "True - file size is not a factor in the two options, rather resumable uploads and progress reporting are additional capabilities for large file uploads."
+      isCorrect: false
+      explanation: "The file size is a differentiating factor between large file uploads and simple uploads."

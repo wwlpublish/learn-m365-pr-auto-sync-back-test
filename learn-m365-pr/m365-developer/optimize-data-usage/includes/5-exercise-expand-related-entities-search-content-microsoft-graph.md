@@ -31,7 +31,7 @@ When prompted for the type of permission, select **Application permissions**.
 
 Enter **Group.R** in the **Select permissions** search box and select the **Group.Read.All** permission, followed by the **Add permission** button at the bottom of the panel.
 
-At the bottom of the **API Permissions** panel, select the button **Grant admin consent for [tenant]**, followed by the **Yes** button to grant all users in your organization this permission.
+In the **Configured Permissions** panel, select the button **Grant admin consent for [tenant]**, and then select the **Accept** button in the consent dialog popup to grant all users in your organization this permission.
 
 ### Update the console app to use the $expand query parameter
 
@@ -39,15 +39,7 @@ You'll modify the code that follows this line to obtain a list of all groups in 
 
 Open the .NET console app in Visual Studio Code and then open the **Program.cs** file.
 
-Locate the line in the `Main()` method that was obtaining an instance of the Graph client:
-
-```cs
-var client = GetAuthenticatedGraphClient(config);
-```
-
-The code that immediately follows this line creates a collection of `QueryOption` objects. Remove all items in this collection except the `$top` parameter. Set the value of the `$top` parameter to **5**.
-
-Next, update the query that previously retrieved users to request groups. Notice the addition of the `.Expand()` method that instructs Microsoft Graph to include the members collection for each group:
+Locate the line that starts with `var graphRequest = client.Users` in the `Main` method. Update this line of code with the following to request groups instead of users. Notice the addition of the `.Expand()` method that instructs Microsoft Graph to include the members collection for each group:
 
 ```cs
 var graphRequest = client.Groups.Request().Top(5).Expand("members");
