@@ -45,6 +45,7 @@ quiz:
       - content: "Office 365 Group"
         isCorrect: false
         explanation: "No, you should enable Office 365 Group."
+
       
     - content: "Which management tool can administrators use to access data across Microsoft 365?"
       choices:
