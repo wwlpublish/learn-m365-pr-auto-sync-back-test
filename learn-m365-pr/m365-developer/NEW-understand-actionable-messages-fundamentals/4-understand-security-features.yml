@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.understand-actionable-messages-fundamentals.4-understand-security-features
+metadata:
+  title: Understand Outlook actionable messages security features
+  description: In this unit, you'll learn about the available security features for Outlook actionable messages.
+  ms.date: 10/01/2019
+  author: jasonjoh
+  ms.author: jasonjoh
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+title: Understand Outlook actionable messages security features
+durationInMinutes: 2
+content: |
+  [!include[](includes/4-understand-security-features.md)]
