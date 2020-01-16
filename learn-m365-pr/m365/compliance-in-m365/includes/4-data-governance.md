@@ -25,7 +25,7 @@ With retention labels, you can:
 
 ### Explore Microsoft 365 retention policies
 
-View a [video version](https://www.microsoft.com/videoplayer/embed/RE44izL) of the interactive guide (captions available in more languages).
+View a [video version](https://www.microsoft.com/videoplayer/embed/RE44izI) of the interactive guide (captions available in more languages).
 
 <a href="https://mslearn.cloudguides.com/guides/Create%20retention%20policies%20in%20Microsoft%20365">![Create retention policies in Microsoft 365](../media/lab-retention-image.png)</a>
 

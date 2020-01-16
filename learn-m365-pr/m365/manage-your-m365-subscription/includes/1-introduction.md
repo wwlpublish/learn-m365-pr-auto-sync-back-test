@@ -8,6 +8,6 @@ You’ll use the Microsoft 365 admin center to perform tasks such as creating us
 
 View a [video version](https://www.microsoft.com/videoplayer/embed/RE44vAc) of the interactive guide (captions available in more languages).
 
-<a href="https://mslearn.cloudguides.com/guides/Get%20to%20know%20the%20Microsoft%20365%20admin%20center5">![Tour the Microsoft 365 admin center](../media/lab-admin-image.png)</a>  
+<a href="https://mslearn.cloudguides.com/guides/Get%20to%20know%20the%20Microsoft%20365%20admin%20center">![Tour the Microsoft 365 admin center](../media/lab-admin-image.png)</a>  
 
 Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
