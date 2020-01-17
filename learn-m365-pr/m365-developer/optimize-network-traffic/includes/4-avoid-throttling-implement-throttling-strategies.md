@@ -14,7 +14,7 @@ The application should also assume that while developers try to avoid throttling
 
 The application should always assume the request will be throttled and developers should do what they can avoid them from hitting the throttling limits.
 
-One way to thing of throttling is like exceptions, or errors in your code. Developers always strive to avoid errors in their code. But they happen… there’s a reason why “try-catch-finally” constructs exist. While you should strive to avoid them, you should also incorporate logic in your code that accounts for when it happens.
+One way to think of throttling is like exceptions, or errors in your code. Developers always strive to avoid errors in their code. But they happen… there’s a reason why “try-catch-finally” constructs exist. While you should strive to avoid them, you should also incorporate logic in your code that accounts for when it happens.
 
 ## Avoid Common Throttling Scenarios
 

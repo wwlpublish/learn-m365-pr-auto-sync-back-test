@@ -2,20 +2,20 @@
 uid: learn-m365.manage-m365-subscription
 metadata:
   title: Manage your Microsoft 365 subscription
-  description: Explore some basic concepts and tasks for managing your Microsoft 365 subscription, including subscription billing and licensing users. It also discusses how to get assistance in Microsoft 365. 
-  ms.date: 03/18/2019
-  author: lizap
-  ms.author: elizapo
+  description: Explore some basic concepts and tasks for managing your Microsoft 365 subscription, including subscription billing, licensing users, and how to get assistance in Microsoft 365. 
+  ms.date: 12/02/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Manage your Microsoft 365 subscription
-summary: Explore some basic concepts and tasks that are involved with managing your Microsoft 365 subscription including subscription billing and licensing users. It also discusses how to get assistance in Microsoft 365.
+summary: Explore some basic concepts and tasks that are involved with managing your Microsoft 365 subscription including subscription billing, licensing users, and how to get assistance in Microsoft 365.
 abstract: |
   In this module, you will learn:
-  -	M365 subscription billing
-  -	What needs to be done to manage Microsoft 365 user licenses
+  -	Microsoft 365 subscription billing.
+  -	What needs to be done to manage Microsoft 365 user licenses.
   -	The support options that are available with Microsoft 365. 
-  -	Guarantees, SLAs, and capping of liability of the Cloud Service Provider. 
+  -	Guarantees, SLAs, and capping of liability of a Cloud Service Provider. 
   - How to create a service request and how to review any active service requests in your subscription. 
   - How you can monitor Microsoft 365 service health.
 prerequisites: None
@@ -27,6 +27,7 @@ roles:
 products:
 - m365
 units:
+- learn-m365.manage-m365.1-introduction
 - learn-m365.manage-m365.1-manage-licenses
 - learn-m365.manage-m365.2-manage-billing
 - learn-m365.manage-m365.3-explore-support-options

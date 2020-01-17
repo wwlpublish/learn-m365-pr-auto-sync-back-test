@@ -28,17 +28,24 @@ quiz:
         isCorrect: false
         explanation: "Chat is just one of many Teams features that can be used within a project-specific channel."
 
-    - content: "What are the three primary user roles within a Microsoft Office 365 Group?"
+    - content: "For the full Teams experience, users should be enabled for every service EXCEPT:"
       choices:
-      - content: "Owner, member, guest"
+      - content: "Exchange Online"
+        isCorrect: false
+        explanation: "No, you should enable Exchange Online."
+      - content: "SharePoint Online"
+        isCorrect: false
+        explanation: "No, you should enable SharePoint Online."
+      - content: "OneDrive for Business"
+        isCorrect: false
+        explanation: "No, you should enable OneDrive for Business."
+      - content: "OneNote Online"
         isCorrect: true
-        explanation: "In an Office 365 Group, owners and members belong to the organization, while guests are participants from outside the organization who’ve been granted access."
-      - content: "Administrator, member, guest"
+        explanation: "Correct - you *should not* enable OneNote Online."
+      - content: "Office 365 Group"
         isCorrect: false
-        explanation: "Each Office 365 Group has members and at least one owner and can include approved guests from outside the organization. Administrator is not a formally established role."
-      - content: "Owner, member, group facilitator"
-        isCorrect: false
-        explanation: "Each Office 365 Group has members and at least one owner and can include approved guests from outside the organization. Facilitator is not a formally established role."
+        explanation: "No, you should enable Office 365 Group."
+
       
     - content: "Which management tool can administrators use to access data across Microsoft 365?"
       choices:

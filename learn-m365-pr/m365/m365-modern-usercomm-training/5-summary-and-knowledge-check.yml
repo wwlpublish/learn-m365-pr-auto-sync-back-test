@@ -35,9 +35,9 @@ quiz:
       - content: "Pilot"
         isCorrect: false
         explanation: "Incorrect. *Pilot*, *broad production deployment*, and *IT team and early adopters* are all phases of the deployment process."
-      - content: "Canary"
+      - content: "Initial"
         isCorrect: true
-        explanation: "Correct. *Pilot*, *broad production deployment*, and *IT team and early adopters* are all phases of the deployment process. *Canary* isn't one of the phases."
+        explanation: "Correct. *Pilot*, *broad production deployment*, and *IT team and early adopters* are all phases of the deployment process. *Initial* isn't one of the phases."
       - content: "Broad production deployment"
         isCorrect: false
         explanation: "Incorrect. *Pilot*, *broad production deployment*, and *IT team and early adopters* are all phases of the deployment process."

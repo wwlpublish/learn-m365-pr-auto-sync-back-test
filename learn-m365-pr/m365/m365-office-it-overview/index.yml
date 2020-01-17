@@ -3,9 +3,9 @@ uid: learn-m365-office.m365-office-it-overview
 metadata:
   title: Introduction to upgrading Office at scale 
   description: Learn the basic steps and considerations when you manage Office upgrades in a large-scale environment.
-  ms.date: 10/11/2019
-  author: lizap
-  ms.author: elizapo
+  ms.date: 11/14/2019
+  author: AlexandraHrt
+  ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Introduction to upgrading Office at scale 
@@ -13,8 +13,10 @@ summary: Learn the basic steps and considerations when you manage Office upgrade
 abstract: |
   In this module, you will learn:
    - The basics of upgrading and servicing Microsoft Office
-   - The Prepare > Optimize > Manage workflow for Office upgrades
-prerequisites: None
+   - The prepare > optimize > manage workflow for Office upgrades
+prerequisites: | 
+ - Familiarity with Microsoft Office, especially servicing
+ - Familiarity with Configuration Manager
 iconUrl: /learn/achievements/deploy-and-manage-windows-10-and-office-365-proplus.svg
 ratingEnabled: true
 levels:

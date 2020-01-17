@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msgraph-build-aspnetmvc-apps.5-exercise-add-auth
+metadata:
+  title: Exercise - Incorporate the Microsoft Authentication Library into ASP.NET MVC web apps
+  description: In this exercise, you'll extend the application from the previous exercise to support authentication with Azure AD. This is required to obtain the necessary OAuth access token to call the Microsoft Graph API. In this step, you'll integrate the OWIN middleware and the Microsoft Authentication Library (MSAL) library into the application.
+  ms.date: 1/17/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Exercise - Incorporate the Microsoft Authentication Library into ASP.NET MVC web apps
+durationInMinutes: 15
+content: |
+  [!include[](includes/5-exercise-add-auth.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "What elements are required to create, configure and/or collect when registering an Azure AD app for use with the OAuth 2.0 authorization code grant flow?"
+    choices:
+    - content: "Tenant ID, application ID, application secret, and the redirect URI"
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Application ID, application secret, and the redirect URI."
+      isCorrect: false
+      explanation: "The tenant ID is also required when setting the authority in the Azure AD configuration."
+    - content: "Tenant ID, application ID, and the application secret."
+      isCorrect: false
+      explanation: "The redirect URI is also required because Azure AD needs to know where to redirect the user after a successful sign-in."
+  - content: "What is the difference between static and dynamic consent?"
+    choices:
+    - content: "Static consent is when the permissions are defined ahead of time in the app registration, while dynamic consent defines the permissions as they are needed by the app."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Dynamic consent is when the permissions can change over time with an app, while static consent permissions never change."
+      isCorrect: false
+      explanation: "Static and dynamic consent don't relate to changing permissions."
+    - content: "Static consent refers to the permissions all users have, while dynamic permissions only apply to some users."
+      isCorrect: false
+      explanation: "Static and dynamic consent don't relate to permissions some users have and others don't have."

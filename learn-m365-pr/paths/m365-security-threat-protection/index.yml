@@ -3,13 +3,13 @@ uid: learn-m365.m365-security-threat-protection
 metadata:
   title: Defend against threats with Microsoft 365 and Microsoft threat protection
   description: As Internet threats grow in both volume and sophistication, security administrators have to respond quickly and intelligently. Threat protection solutions must be comprehensive to ensure organizational security. Microsoft Threat Protection is a fully integrated, end-to-end solution that protects the entire modern workplace by securing identities, endpoints, cloud apps, and infrastructure.
-  ms.date: 10/28/2019
+  ms.date: 11/13/2019
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Defend against threats with Microsoft 365 and Microsoft threat protection
-summary: Microsoft Threat Protection in Microsoft 365 addresses today's security challenges by securing your organization's assets and proactively identifying and protecting against persistent threats to your network endpoints.
+summary: Microsoft threat protection in Microsoft 365 addresses today's security challenges by securing your organization's assets and proactively identifying and protecting against persistent threats to your network endpoints.
 prerequisites: | 
  - Basic understanding of Microsoft 365. If you're unfamiliar with this, you can take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
 iconUrl: /learn/achievements/defend-against-threats-m365-microsoft-threat-protection.svg
@@ -20,6 +20,7 @@ roles:
 products: 
 - m365
 - office-365
+- m365-threat-protection
 modules:
 - learn-m365.m365-security-threat-define
 - learn-m365.m365-security-threat-protect

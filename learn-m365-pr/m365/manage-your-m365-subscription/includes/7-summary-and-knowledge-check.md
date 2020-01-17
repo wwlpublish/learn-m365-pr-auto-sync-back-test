@@ -1,4 +1,4 @@
-In this unit you learned how users are granted access to Microsoft 365 services through licenses, the support options available in Microsoft 365, how SLAs work, and what to look for in your specific SLAs. You also learned how to create, submit and monitor a service request. 
+In this unit you learned how users are granted access to Microsoft 365 services through licenses, the support options available in Microsoft 365, how SLAs work, and what to look for in your specific SLAs. You also learned how to create, submit and monitor a service request.
 
 ## Learn more
 

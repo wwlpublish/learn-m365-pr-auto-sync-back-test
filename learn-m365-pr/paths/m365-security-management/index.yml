@@ -21,6 +21,7 @@ products:
 - m365
 - office-365
 - windows
+- m365-security-center
 modules:
 - learn-m365.m365-security-management-center
 - learn-m365.m365-security-management-secure-score

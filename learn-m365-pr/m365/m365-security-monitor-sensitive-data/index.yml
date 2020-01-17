@@ -28,6 +28,8 @@ roles:
 products:
 - m365
 - office-365
+- m365-security-center
+- m365-information-protection
 units:
 - learn-m365.m365-security-monitor-sensitive-data.introduction
 - learn-m365.m365-security-monitor-sensitive-data.monitor-sensitive-data

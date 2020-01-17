@@ -15,59 +15,51 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "What products comprise the Teamwork toolkit?"
+    - content: "Which of the following is NOT one of the products that comprise the Teamwork toolkit?"
       choices:
-      - content: "Teams"
-        isCorrect: false
-        explanation: "This is just one piece of the toolkit."
+      - content: "Skype for Business"
+        isCorrect: true
+        explanation: "Skype for Business is NOT one of the products that comprise the Teamwork toolkit."
       - content: "SharePoint"
         isCorrect: false
-        explanation: "This is just one piece of the toolkit."
+        explanation: "SharePoint is one of the products that comprise the Teamwork toolkit."
       - content: "Yammer"
         isCorrect: false
-        explanation: "This is just one piece of the toolkit."
+        explanation: "Yammer is one of the products that comprise the Teamwork toolkit."
       - content: "Outlook"
         isCorrect: false
-        explanation: "This is just one piece of the toolkit."
+        explanation: "Outlook is one of the products that comprise the Teamwork toolkit."
       - content: "Office apps"
         isCorrect: false
-        explanation: "This is just one piece of the toolkit."
-      - content: "All of the above"
-        isCorrect: true
-        explanation: "The Teamwork toolkit includes all of these products."
-    - content: "How does Microsoft 365 help you run meetings and projects more effectively?"
+        explanation: "Office apps are one of the products that comprise the Teamwork toolkit."
+    - content: "Which of one the following is NOT one the tools for helping people discover and share knowledge?"
       choices:
-      - content: "With shared workspaces for all your team conversations, files, meetings, and apps."
+      - content: "Microsoft Search"
         isCorrect: false
-        explanation: "This is just one way that Microsoft 365 makes you more effective."
-      - content: "With self-service tools to manage your schedule and tasks."
+        explanation: "Microsoft Search is one the tools for helping people discover and share knowledge."
+      - content: "Microsoft Stream"
         isCorrect: false
-        explanation: "This is just one way that Microsoft 365 makes you more effective."
-      - content: "With rich audio and video capabilities."
-        isCorrect: false
-        explanation: "These are just two ways that Microsoft 365 makes you more effective."
-      - content: "All of the above."
+        explanation: "Microsoft Stream is one the tools for helping people discover and share knowledge."
+      - content: "Outlook"
         isCorrect: true
-        explanation: "These are all ways that Microsoft 365 makes you more effective."
-    - content: "True or false: Microsoft Workplace Analytics tracks employee activities across all their applications, including the websites they visit, so you can see how they spend their time at work."
+        explanation: "Outlook is not one the tools for helping people discover and share knowledge."
+      - content: "Yammer"
+        isCorrect: false
+        explanation: "Yammer is one the tools for helping people discover and share knowledge."
+    - content: "Which of one the following is NOT one the metrics that MyAnalytics tracks:"
       choices:
-      - content: "True"
+      - content: "Email hours"
         isCorrect: false
-        explanation: "MyAnalytics isn't tracking software, and it doesn't use data from any other activities on users' devices."
-      - content: "False"
+        explanation: "Email hours is one the metrics that MyAnalytics tracks."
+      - content: "Meeting hours"
+        isCorrect: false
+        explanation: "Meeting hours is one the metrics that MyAnalytics tracks."
+      - content: "Telecommute hours"
         isCorrect: true
-        explanation: "MyAnalytics isn't tracking software, and it doesn't use data from any other activities on users' devices."
-    - content: "Team members who are part of the 'inner loop' are:"
-      choices:
-      - content: "Special"
+        explanation: "Telecommute hours is NOT one the metrics that MyAnalytics tracks."
+      - content: "After hours"
         isCorrect: false
-        explanation: "All of your team members are special, but in this case, that's not what makes them in the 'inside loop.'"
-      - content: "Employee interest groups"
+        explanation: "After hours is one the metrics that MyAnalytics tracks."
+      - content: "Focus hours"
         isCorrect: false
-        explanation: "Membership in the 'inside loop' is based on how frequently you interact with them, not where you know them from."
-      - content: "Corporate communications"
-        isCorrect: false
-        explanation: "Membership in the 'inside loop' is based on how frequently you interact with them, not where you know them from."
-      - content: "People you work with regularly on core projects"
-        isCorrect: true
-        explanation: "The 'inside loop' is based on how frequently you interact with team members."
+        explanation: "Focus hours is one the metrics that MyAnalytics tracks."

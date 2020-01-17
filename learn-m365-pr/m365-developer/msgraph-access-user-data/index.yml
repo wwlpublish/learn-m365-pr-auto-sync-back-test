@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn-m365.msgraph-access-user-data
+metadata:
+  title: Access User Data from Microsoft Graph
+  description: Learn how to access user data from Microsoft Graph.
+  ms.date: 11/18/2019
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Access User Data from Microsoft Graph
+summary: Users are the core of most operations in Microsoft 365. Microsoft Graph enables developers full control over the lifecycle of users in Microsoft 365 including creating, updating, and deleting users in addition to listing users in the organization. In this module, you’ll learn how to use Microsoft Graph to work with users in Microsoft 365 including the required permissions.
+abstract: |
+  At the end of this module, you should be able to:
+  - Demonstrate how to get a list of users
+  - Demonstrate how to get details, including a profile picture, of a user
+  - Demonstrate how to manage the lifecycle of a user from creation to deletion
+prerequisites: |
+  - Basic knowledge of REST services & APIs
+  - Basic knowledge of Microsoft Graph
+  - Ability to develop with ASP.NET Core at the intermediate level
+  - Experience using Visual Studio Code at the beginner level
+  - Access to a Microsoft 365 tenant
+iconUrl: /learn/achievements/msgraph-access-user-data.svg
+levels:
+- intermediate
+roles:
+- developer
+products:
+- m365
+- ms-graph
+units:
+- learn-m365.msgraph-access-user-data.1-introduction
+- learn-m365.msgraph-access-user-data.2-reading-users
+- learn-m365.msgraph-access-user-data.3-exercise-reading-users
+- learn-m365.msgraph-access-user-data.4-photos-related-users
+- learn-m365.msgraph-access-user-data.5-exercise-photos-related-users
+- learn-m365.msgraph-access-user-data.6-modify-users
+- learn-m365.msgraph-access-user-data.7-exercise-modify-users
+- learn-m365.msgraph-access-user-data.8-summary
+badge:
+  uid: learn-m365.msgraph-access-user-data.badge

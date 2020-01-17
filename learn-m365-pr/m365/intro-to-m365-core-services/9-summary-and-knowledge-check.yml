@@ -15,22 +15,34 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "True or false: Microsoft Intune integrates with Azure AD and device OS features for device management."
+    - content: "Which of the following is NOT one of the cloud services available in Microsoft 365?"
       choices:
-      - content: "True"
-        isCorrect: true
-        explanation: "Both Microsoft Intune and Azure AD are part of EMS, which lets them work together to provide device management."
-      - content: "False"
+      - content: "Exchange"
         isCorrect: false
-        explanation: "Both Microsoft Intune and Azure AD are part of EMS, which lets them work together to provide device management."
-    - content: "True or false: Features are introduced to SharePoint Online first, then rolled into Microsoft SharePoint Server."
+        explanation: "Exchange is one of the cloud services available in Microsoft 365."
+      - content: "SharePoint"
+        isCorrect: false
+        explanation: "SharePoint is one of the cloud services available in Microsoft 365."
+      - content: "Skype for Business"
+        isCorrect: true
+        explanation: "Skype for Business is not one of the cloud services available in Microsoft 365."
+      - content: "Microsoft Intune"
+        isCorrect: false
+        explanation: "Microsoft Intune is one of the cloud services available in Microsoft 365."
+    - content: "Which of the following statements is true about the differences between SharePoint Online and SharePoint Server?"
       choices:
-      - content: "True"
-        isCorrect: true
-        explanation: "This is correct - many features debut in SharePoint Online and then are added to SharePoint Server."
-      - content: "False"
+      - content: "Sharing with people outside your organization is only possible with SharePoint Server."
         isCorrect: false
-        explanation: "This is not correct - many features debut in SharePoint Online and then are added to SharePoint Server."
+        explanation: "Sharing with people outside your organization is only possible with SharePoint Online."
+      - content: "SharePoint Online team sites can be used with other services such as Teams."
+        isCorrect: true
+        explanation: "SharePoint Online team sites can be used with other services such as Teams."
+      - content: "All of the modern pages and web parts are available in SharePoint Server."
+        isCorrect: false
+        explanation: "All of the modern pages and web parts are available in SharePoint Online."
+      - content: "Hub sites are used in SharePoint Server to connect related sites."
+        isCorrect: false
+        explanation: "Hub sites are used in SharePoint Online to connect related sites."
     - content: "Which of the following statements about Office 365 ProPlus is NOT true?"
       choices:
       - content: "Office 365 ProPlus is a web-based version of Office."

@@ -30,20 +30,6 @@ quiz:
       - content: "All of the above"
         isCorrect: false
         explanation: "Use Desktop App Assure to get personal assistance from Microsoft."
-    - content: "Windows 10 and Office 365 ProPlus can be updated in which of the following ways?"
-      choices:
-      - content: "Directly from the cloud"
-        isCorrect: False
-        explanation: "These are all supported deployment methods."
-      - content: "From an on-premises location"
-        isCorrect: false
-        explanation: "These are all supported deployment methods."
-      - content: "By using System Center Configuration Manager"
-        isCorrect: false
-        explanation: "These are all supported deployment methods."
-      - content: "All of the above"
-        isCorrect: true
-        explanation: "These are all supported deployment methods."
     - content: "What should be included in the group that tests updates for Windows 10 and Office 365 ProPlus?"
       choices:
       - content: "Mission-critical devices"
@@ -58,7 +44,7 @@ quiz:
       - content: "Only users that have specialized line-of-business apps"
         isCorrect: false
         explanation: "These kinds of users generally use the LTSC and won't be good test candidates."
-    - content: "Which one of the following **Windows 10** update channels doesn’t support Office 365 ProPlus?"
+    - content: "Which one of the following Windows 10 update channels doesn’t support Office 365 ProPlus?"
       choices:
       - content: "Windows Insider"
         isCorrect: false

@@ -15,4 +15,4 @@ The security administrator at Contoso might use values like the following in ord
 |**Choose actions**|If email is sent by an impersonated user:<br> Choose **Redirect message to another email address**, and then type the email address of the security administrator. For example, securityadmin@contoso.com.<br>If email is sent by an impersonated domain: Choose **Quarantine message**.|
 |**Mailbox intelligence**|By default, mailbox intelligence is selected when you create a new anti-phishing policy. Leave this setting **On** for best results.|
 |**Add trusted senders and domains**|For this example, don't define any overrides.|
-|**Applied to**|Select **The recipient domain is**. Under **Any of these**, select **Choose**. Select **+ Add**. Select the name of the domain, (for example, contoso.com), and then select **Add**. Select **Done**.
+|**Applied to**|Select **The recipient domain is**. Under **Any of these**, select **Choose**. Select **+ Add**. Select the name of the domain (for example, contoso.com), and then select **Add**. Select **Done**.

@@ -7,6 +7,7 @@ This training highlights the partnership between IT and business. We usually foc
 As a Service Adoption Specialist you're at the center of driving human and technical changes to deliver business outcomes. This role has evolved as businesses and technology have increased in pace and complexity. 
 
 There are six knowledge areas required to drive adoption. They are:
+
 - Organizational development
 - Business acumen
 - Technical competence
@@ -40,6 +41,7 @@ As in any relationship listening is the most important skill, you'll develop in 
 - Find and keep your sense of humor
 
 ## Knowledge area - Business acumen
+
 >![Business acumen knowledge area](../media/business-acumen.png)
 
 Many Service Adoption Specialists come from the marketing or communication sides of an organization. This is often because they've had success driving change in other areas in the past and are now tasked with a larger initiative. This initiative might not be directly related to technology. Instead they're tasked with product or service improvements and as a result need better technology to deliver on this goal. Those who come from IT backgrounds also have detailed knowledge of the state of the organization and its ability to respond to market changes and customer demands. Whatever your background you need a deep understanding of the strategic, competitive, cultural, and financial needs of your business.
@@ -79,15 +81,18 @@ This requires study. If you don't have an IT background don't be daunted by this
 
 Technology changes can be expensive far beyond the cost of the hardware or software. Employee training, technical training, configuration and deployment time, updating customer and executive expectations, and ensuring service health and reliability are all components of the cost of change. Take the time needed to understand the new technology and, whenever possible, bring the voice the employee to the table. You also need to balance initial vs long-term change costs. For example, building the digital literacy of your employee base using out of the box tools will reduce change costs in the future. Incorporating process changes as you teach the new tools will minimize the disruption of small but frequent incremental changes. 
 
-> ### Optional activity 
-> Buy yourself a subscription to Office 365. You'ss have access to all the administrative tools and workloads that you might use in your work environment. The monthly subscripotion cost is a small investment in your career and gives you a safe environment to learn in. Alternatively, ask your IT department if they have a "test" or "development" tenant where you can be a user with administrative rights so that you can learn on your own. For many of us there is no alternative to hands-on learning. You can also use other online Microsoft learning experiences that have labs attached so you can build out your own solutions. 
+> ### Optional activity
+
+> Buy yourself a subscription to Office 365. You'll have access to all the administrative tools and workloads that you might use in your work environment. The monthly subscripotion cost is a small investment in your career and gives you a safe environment to learn in. Alternatively, ask your IT department if they have a "test" or "development" tenant where you can be a user with administrative rights so that you can learn on your own. For many of us there is no alternative to hands-on learning. You can also use other online Microsoft learning experiences that have labs attached so you can build out your own solutions. 
 
 ## Knowledge area - Marketing and communications
+
 >![Marketing and communications](../media/market-comms.png)
 
 Since service adoption is a human-centered activity, a critical knowledge area focuses on marketing and communications. If you can't communicate why a change is beneficial, you can't convince employees to participate. Not many IT departments have marketing communication specialists. Often a communication specialist is confused with training specialists. These are two very different skills. In the context of service adoption, you need to be able to communicate why, when, where, and how the change will occur in a creative and appealing way. Your goal is to get participants in the change and increase the pace of adoption throughout the organization. Often employees resist change because no one's explained the change in terms that are meaningful to their experience. You can change that!
 
 The marketing and communications area involves:
+
 - Creating awareness of the change
 - Engaging with employees though omni-directional communications
 - Finding useful ways to enable self-service learning 
@@ -100,9 +105,10 @@ Communication in the context of service adoption does NOT mean sending an email 
 Superior communication can overcome the most difficult of technical and organizational challenges. Use visual elements to fully leverage a human's ability to learn and retain information quickly. A professionally designed poster is worth a thousand emails!
 
 ## Knowledge area - Portfolio management
+
 >![Portfolio management](../media/portfolio-mgmt.png)
 
-Portfolio management is the ability to design and manage and individual improvement project or a portfolio of improvements into a cohesive employee experience roadmap for your organization. It requires all the skills listed above. A roadmap that delivers improvements to the employee experience must balance the needs of customers, measurable business outcomes, technical capabilities, and culture to deliver change in the right-sized bites for your organization. 
+Portfolio management is the ability to design and manage an individual improvement project or a portfolio of improvements into a cohesive employee experience roadmap for your organization. It requires all the skills listed above. A roadmap that delivers improvements to the employee experience must balance the needs of customers, measurable business outcomes, technical capabilities, and culture to deliver change in the right-sized bites for your organization. 
 
 This roadmap is crafted in partnership between Service Adoption Specialists and their IT counterparts. Creating the roadmap in collaboration with stakeholders, executives, success owners, and key talent is critical. You need each of these groups to give input and approval to the vision and the speed at which it will become a reality. 
 
@@ -118,6 +124,6 @@ Finally, the last knowledge area - leadership. Leadership is the ability to insp
 
 When you do this work well, you're delivering beneficial, material change based on data and analysis to a group of individuals who will impact your customers, your market share, and the future of your company. You're delivering change for a cause, not for the sake of change. This is a fundamental difference between you and others. You may have been a service champion previously, directly helping employees get the most from technology. You're likely motivated to help others. That commitment to improving employees' experience will give you strength exactly when you need your "X" factor to kick in. 
 
-The "X" factor isn't an ephemeral thing that only some people are born with. No, not at all. You can develop leadership skills. You can develop your ability to negotiate, resolve conflicts, clarify objectives, understand financial elemtns, and find your voice. 
+The "X" factor isn't an ephemeral thing that only some people are born with. No, not at all. You can develop leadership skills. You can develop your ability to negotiate, resolve conflicts, clarify objectives, understand financial elements, and find your voice. 
 
-It's important here to talk about the "introvert leader." This person has a quiet demeanor. They're not the first or last to speak in a meeting, but when they do speak, it's worth listening. This kind of leader normally likes to review information ahead of time so they can reflect on the information before reacting. There's a great deal of room in the service adoption field for this type of leader. So, if this describes you, don't feel as though you immediately have to talk more. To the contrary, listening is a critical skill - you may be further ahead in developing that talent than those who are more extroverted and talkative by nature. As in technology, but especially in this area, diversity of style is welcome. Everyone can have impact in the service adoption community.
+It's important here to talk about the "introvert leader." This person has a quiet demeanor. They're not the first or last to speak in a meeting, but when they do speak, it's worth listening. This kind of leader normally likes to review information ahead of time so they can reflect on the information before reacting. There's a great deal of room in the service adoption field for this type of leader. So, if this describes you, don't feel as though you immediately have to talk more. To the contrary, listening is a critical skill - you may be further ahead in developing that talent than those who are more extroverted and talkative by nature. As in technology, but especially in this area, diversity of style is welcome. Everyone can have an impact in the service adoption community.
