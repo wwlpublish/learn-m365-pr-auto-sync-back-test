@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.sharepoint-spfx-web-parts.7-exercise-spfx-api
+metadata:
+  title: Exercise - Exploring the SharePoint Framework API
+  description: In this exercise, you'll explore a few different APIs available to you in the SharePoint Framework that are useful in many scenarios.
+  ms.date: 3/9/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Exploring the SharePoint Framework API
+durationInMinutes: 17
+content: |
+  [!include[](includes/7-exercise-spfx-api.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "How does the @microsoft/sp-lodash-subset package differ from the Lodash library?"
+    choices:
+    - content: "The SharePoint package is a rewritten version that fixes incompatibilies in the Lodash library."
+      isCorrect: false
+      explanation: "The SharePoint package is not rewritten, it includes only a subset of the methods availble in the Lodash library."
+    - content: "The SharePoint package includes only a subset of the methods availble in the Lodash library. It also includes additional SharePoint-specific utilities."
+      isCorrect: false
+      explanation: "The SharePoint package doesn't include any special methods; all the methods it includes are from the Lodash library."
+    - content: "The SharePoint package includes only a subset of the methods availble in the Lodash library."
+      isCorrect: true
+      explanation: "Correct!"
+  - content: "Which object on the `context` object enables developers to add error messages to an element on the page?"
+    choices:
+    - content: "`errorRenderer`"
+      isCorrect: false
+      explanation: "The `statusRenderer` object is used to add and remove loading indicators and errors."
+    - content: "`statusRenderer`"
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "`statusErrorRenderer`"
+      isCorrect: false
+      explanation: "The `statusRenderer` object is used to add and remove loading indicators and errors."

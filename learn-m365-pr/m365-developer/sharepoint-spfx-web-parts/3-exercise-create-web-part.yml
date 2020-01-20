@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.sharepoint-spfx-web-parts.3-exercise-create-web-part
+metadata:
+  title: Exercise - Create a SharePoint Framework client-side web part
+  description: In this exercise, you'll create a SharePoint Framework client-side web part.
+  ms.date: 3/9/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Create a SharePoint Framework client-side web part
+durationInMinutes: 14
+content: |
+  [!include[](includes/3-exercise-create-web-part.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "Which folders can be safely deleted from a SharePoint Framework project?"
+    choices:
+    - content: "The dist, build, and temp folders"
+      isCorrect: false
+      explanation: "The dist, lib, and temp folders that can be deleted."
+    - content: "The dist, lib, and temp folders"
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "The deploy, lib, and temp folders"
+      isCorrect: false
+      explanation: "The dist, lib, and temp folders that can be deleted."
+  - content: "Which gulp task creates the file used to deploy a SharePoint Framework project?"
+    choices:
+    - content: "gulp package-solution"
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "gulp create-sppkg"
+      isCorrect: false
+      explanation: "The gulp task package-solution creates the SharePoint package."
+    - content: "gulp package-spsolution"
+      isCorrect: false
+      explanation: "The gulp task package-solution creates the SharePoint package."
