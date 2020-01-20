@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.sharepoint-spfx-webpart-proppane.5-exercise-build-custom-controls
+metadata:
+  title: Exercise - Build custom property pane fields
+  description: In this exercise, you'll extend the property pane by creating your own custom field control.
+  ms.date: 3/9/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Build custom property pane fields
+durationInMinutes: 21
+content: |
+  [!include[](includes/5-exercise-build-custom-controls.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "Which of the following best describes how a developer would use the `PropertyPaneCustomField` object?"
+    choices:
+    - content: "The `PropertyPaneCustomField` is used when a web part developer wants to control the rendering of the property pane control in the web part."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "The `PropertyPaneCustomField` is used as the base class for a reusable custom control that contains its own business logic."
+      isCorrect: false
+      explanation: "The `PropertyPaneCustomField` isn't a base class."
+    - content: "The `PropertyPaneCustomField` is used when you want to map a custom web part property to a field control."
+      isCorrect: false
+      explanation: "All property pane field controls can map to any web part properties, including the custom properties."
+  - content: "How are custom property pane field controls different from the `PropertyPaneCustomField` property pane field control?"
+    choices:
+    - content: "Custom property pane field controls implement the `PropertyPaneCustomField` base class."
+      isCorrect: false
+      explanation: "The `PropertyPaneCustomField` isn't a base class."
+    - content: "The `PropertyPaneCustomField` enables developers to define the rendering of a property pane field control. Custom property pane field controls enable developers to define not just the rendering of the control, but also make it reusable and include code that can pre-populate the control with external data."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Custom property pane field controls enable developers to define the rendering of a property pane field control. The `PropertyPaneCustomField` enables developers to define not just the rendering of the control, but also make it reusable and include code that can pre-populate the control with external data."
+      isCorrect: false
+      explanation: "The opposite is true: the `PropertyPaneCustomField` enables developers to define the rendering of a property pane field control. Custom property pane field controls enable developers to define not just the rendering of the control, but also make it reusable and include code that can pre-populate the control with external data."
