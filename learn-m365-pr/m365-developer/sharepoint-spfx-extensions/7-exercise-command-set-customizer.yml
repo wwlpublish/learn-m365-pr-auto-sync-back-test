@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.sharepoint-spfx-extensions.7-exercise-command-set-customizer
+metadata:
+  title: Exercise - Customize lists with command set extensions
+  description: In this exercise, you'll create a SharePoint Framework (SPFx) command set extension that will display custom buttons in a SharePoint list.
+  ms.date: 3/9/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Customize lists with command set extensions
+durationInMinutes: 16
+content: |
+  [!include[](includes/7-exercise-command-set-customizer.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "Command sets differ from application customizers and field customizers in which of the following way?"
+    choices:
+    - content: "Command set buttons must be defined in the component's manifest, while nothing needs to be defined in the manifest for the other type of extensions."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Command sets are no different from the other types of extensions: you write the code & update the element manifest used to provision them when they're installed."
+      isCorrect: false
+      explanation: "Command sets require you to define the buttons in the component's manifest file."
+    - content: "The **Enable custom buttons** property must be enabled on lists before they'll display the command set."
+      isCorrect: false
+      explanation: "The property **Enable custom buttons** doesn't exist."
+  - content: "where can command set extension buttons be used to extend the SharePoint interface?"
+    choices:
+    - content: "In the context menu and toolbar of a list, and in the actions menu accessible from the gear icon on a site."
+      isCorrect: false
+      explanation: "Command set buttons can only be used in the context menu and toolbar on a list."
+    - content: "In the context menu and toolbar of a list, on the site settings page and in the actions menu accessible from the gear icon on a site."
+      isCorrect: false
+      explanation: "Command set buttons can only be used in the context menu and toolbar on a list."
+    - content: "In the context menu and toolbar of a list."
+      isCorrect: true
+      explanation: "Correct!"

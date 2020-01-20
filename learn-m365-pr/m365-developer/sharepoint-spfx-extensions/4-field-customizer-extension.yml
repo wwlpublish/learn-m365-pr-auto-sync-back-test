@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.sharepoint-spfx-extensions.4-field-customizer-extension
+metadata:
+  title: Field customizer extensions
+  description: "In this unit, you'll learn about another type of SharePoint Framework extension that enables customization of columns in SharePoint lists: field customizers."
+  ms.date: 3/9/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Field customizer extensions
+durationInMinutes: 6
+content: |
+  [!include[](includes/4-field-customizer-extension.md)]
