@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn-m365.sharepoint-spfx-get-started
+metadata:
+  title: Get Started with the SharePoint Framework
+  description: Learn what the SharePoint Framework is and how to get started creating custom solutions.
+  ms.date: 3/9/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Get Started with the SharePoint Framework
+summary: This module will introduce you to the SharePoint Framework and walk you through getting your local & online environment configured for developing with the SharePoint Framework.
+abstract: |
+  By the end of this module, you will be able to:
+  - Configure a developer environment for SharePoint Framework development
+  - Summarize the tools involved in SharePoint Framework development
+  - Demonstrate using the correct tool for the appropriate SharePoint Framework development task
+prerequisites: |
+  - Experience using SharePoint Online at the intermediate level
+  - Ability to program with JavaScript, TypeScript, and Node.js
+  - Experience using Visual Studio Code at the intermediate level
+  - Access to a Microsoft 365 tenant
+iconUrl: /learn/achievements/sharepoint-spfx-spcontent.svg
+levels:
+  - intermediate
+roles:
+  - developer
+products:
+  - m365
+  - office-sp-framework
+units:
+  - learn-m365.sharepoint-spfx-get-started.1-introduction
+  - learn-m365.sharepoint-spfx-get-started.2-sharepoint-framework-overview
+  - learn-m365.sharepoint-spfx-get-started.3-exercise-configure-tenant
+  - learn-m365.sharepoint-spfx-get-started.4-spfx-development-environment
+  - learn-m365.sharepoint-spfx-get-started.5-exercise-setup-development-environment
+  - learn-m365.sharepoint-spfx-get-started.6-interact-spfx-web-parts
+  - learn-m365.sharepoint-spfx-get-started.7-exercise-client-side-webparts
+  - learn-m365.sharepoint-spfx-get-started.8-summary
+badge:
+  uid: learn-m365.sharepoint-spfx-get-started.badge
