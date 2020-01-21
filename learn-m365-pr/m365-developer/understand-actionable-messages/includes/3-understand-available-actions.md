@@ -12,9 +12,9 @@ In this unit, we take a look at the following Outlook-specific actions.
 
 The `Action.Http` action is the core action used to make an Actionable Message interact with your service. This action sends an HTTP POST to your service, and can include user input.
 
-An `Action.Http` action can also be set to automatically execute when the user opens the message. This allows your card to be up-to-date when the user reads it. For example, if an expense report tool sends an approval request to multiple approvers, the card could auto-invoke an action to query the service to see if someone has already approved the report. In that case, it could replace the card asking the recipient to approve with a card informing them who approved it and when.
+An `Action.Http` action can also be set to automatically execute when the user opens the message. The result of the action contains a new card, updated with the latest information. For example, if an expense report tool sends an approval request to multiple approvers, the card could auto-invoke an action to query the service to see if someone has already approved the report. In that case, it could replace the card asking the recipient to approve with a card informing them who approved it and when.
 
-Your service can provide a completely new card in response to this action, referred to as a refresh card. The refresh card will permanently replace the card on that email message. Refresh cards are typically used to report back status of the action. For example, when a recipient responds to a survey Actionable Message, your service could send back a card with a thank you message, confirming their response has been recorded.
+Your service can provide a new card in response to this action, referred to as a refresh card. The refresh card will permanently replace the card on that email message. Refresh cards are typically used to report back status of the action. For example, when a recipient responds to a survey Actionable Message, your service could send back a card thanking the recipient for responding.
 
 ```json
 {
@@ -28,12 +28,12 @@ Your service can provide a completely new card in response to this action, refer
 
 ## Action.InvokeAddInCommand
 
-The `Action.InvokeAddInCommand` action invokes a task pane Outlook add-in. It supports one-click installation of the add-in, so it is not required that the recipient have the add-in already installed.
+The `Action.InvokeAddInCommand` action invokes a task pane Outlook add-in. It supports one-click installation of the add-in, so it isn't required that the recipient have the add-in already installed.
 
 This action can be used to:
 
-- Enable scenarios that require more complex user interactions that aren't well-suited to the Actionable Message schema, but still keep the user in Outlook by invoking an add-in.
-- Help drive adoption of your Outlook add-in by giving recipients the option to one-click install your add-in to respond to a request for action.
+- Enable scenarios that require more complex user interactions that aren't well suited to the Actionable Message schema, but still keep the user in Outlook by invoking an add-in.
+- Help drive adoption of your Outlook add-in by giving recipients the option to install your add-in with a single click, and use the add-in to respond to a request for action.
 
 ```json
 {
@@ -63,7 +63,7 @@ The `Action.DisplayMessageForm` and `Action.DisplayAppointmentForm` actions are 
 
 ## Action.ToggleVisibility
 
-The `Action.ToggleVisibility` action makes it possible to show and/or hide specific elements of a card as a result of a user clicking on a button or other actionable element. This allows your Actionable Message card to be responsive, changing it's UI based on user input.
+The `Action.ToggleVisibility` action makes it possible to show and/or hide specific elements of a card as a result of a user clicking on a button or other actionable element.
 
 ```json
 {
