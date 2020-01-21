@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn-m365.msgraph-changenotifications-trackchanges
+metadata:
+  title: Use Change Notifications and Track Changes with Microsoft Graph
+  description: Learn how to with change notifications (webhooks) & track changes (delta query) in the Microsoft Graph.
+  ms.date: 1/21/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Use Change Notifications and Track Changes with Microsoft Graph
+summary: Microsoft Graph enables developers to consume user information stored in Microsoft 365 in custom applications. Data is retrieved from Microsoft Graph through a REST API or using one of the various native SDKs provided by Microsoft. In this module, you'll learn how to work with change notifications (webhooks) & track changes (delta query) in the Microsoft Graph.
+abstract: |
+  At the end of this module, you should be able to:
+  - Demonstrate how to use the Microsoft Graph .NET SDK
+  - Demonstrate how to subscribe and receive notifications when entities change with Microsoft Graph
+  - Demonstrate how to retrieve a list of all entities that have changed using delta query
+prerequisites: |
+  - Basic knowledge of REST services & APIs
+  - Basic knowledge of Microsoft Graph
+  - Ability to develop with ASP.NET Core at the intermediate level
+  - Experience using Visual Studio Code at the beginner level
+  - Access to a Microsoft 365 tenant
+iconUrl: /learn/achievements/msgraph-changenotifications-trackchanges.svg
+levels:
+- intermediate
+roles:
+- developer
+products:
+- m365
+- ms-graph
+units:
+- learn-m365.msgraph-changenotifications-trackchanges.1-introduction
+- learn-m365.msgraph-changenotifications-trackchanges.2-graph-overview-create-app
+- learn-m365.msgraph-changenotifications-trackchanges.3-exercise-create-app
+- learn-m365.msgraph-changenotifications-trackchanges.4-change-notifications
+- learn-m365.msgraph-changenotifications-trackchanges.5-exercise-change-notifications
+- learn-m365.msgraph-changenotifications-trackchanges.6-track-changes
+- learn-m365.msgraph-changenotifications-trackchanges.7-exercise-track-changes
+- learn-m365.msgraph-changenotifications-trackchanges.8-summary
+badge:
+  uid: learn-m365.msgraph-changenotifications-trackchanges.badge
