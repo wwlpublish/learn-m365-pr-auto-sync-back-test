@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msgraph-changenotifications-trackchanges.2-graph-overview-create-app
+metadata:
+  title: Microsoft Graph overview and .NET core web APIs
+  description: In this unit, you'll learn how Microsoft Graph fits into the larger Microsoft 365 platform. Next, you'll learn how to create a .NET Core web API that will be used to create and receive HTTP POST requests from Microsoft Graph.
+  ms.date: 1/21/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Microsoft Graph overview and .NET core web APIs
+durationInMinutes: 5
+content: |
+  [!include[](includes/2-graph-overview-create-app.md)]

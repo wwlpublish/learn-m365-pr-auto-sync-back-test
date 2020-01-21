@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msgraph-changenotifications-trackchanges.5-exercise-change-notifications
+metadata:
+  title: Exercise - Microsoft Graph change notifications
+  description: In this exercise, you'll extend the existing ASP.NET console application to receive notifications from Microsoft Graph subscriptions. The notifications are sent after a subscription is successfully created, requesting Microsoft Graph to notify an endpoint when specified entities are created, updated, or deleted.
+  ms.date: 1/21/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Exercise - Microsoft Graph change notifications
+durationInMinutes: 15
+content: |
+  [!include[](includes/5-exercise-change-notifications.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "How long are change notification subscriptions valid?"
+    choices:
+    - content: "It depends on the entity the subscription is for and not an indefinite period."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Three days"
+      isCorrect: false
+      explanation: "The duration of a subscription depends on the entity. Usually this is three days, but it can be different for each entity type."
+    - content: "Three hours"
+      isCorrect: false
+      explanation: "The duration of a subscription depends on the entity. Usually this is three days, but it can be different for each entity type."
+  - content: "What is the purpose of the `clientSecret` property when creating a new change notification subscription?"
+    choices:
+    - content: "It must be the client secret associated with the registered Azure AD app used by your custom app."
+      isCorrect: false
+      explanation: "The value is specified when creating a subscription and included in each notification request sent by Microsoft Graph."
+    - content: "Your app can check the value of this property for all notification requests received from Microsoft Graph to ensure it was triggered by your app's subscription."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "It must be the x509 certificate associated with the registered Azure AD app used by your custom app."
+      isCorrect: false
+      explanation: "The value is specified when creating a subscription and included in each notification request sent by Microsoft Graph."

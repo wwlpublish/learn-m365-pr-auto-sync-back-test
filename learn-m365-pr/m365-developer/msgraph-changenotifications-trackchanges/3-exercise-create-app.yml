@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msgraph-changenotifications-trackchanges.3-exercise-create-app
+metadata:
+  title: Exercise - Azure AD apps .NET core web APIs
+  description: In this exercise, you'll create a new Azure AD app registration using the Azure AD admin center and grant administrator consent to the required permission scopes.
+  ms.date: 1/21/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Exercise - Azure AD apps .NET core web APIs
+durationInMinutes: 15
+content: |
+  [!include[](includes/3-exercise-create-app.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "What information is included in the payload of Microsoft Graph change notifications?"
+    choices:
+    - content: "Just that an entity has been created, updated, or deleted."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "The specific property, including the before and after value, of the change to an entity."
+      isCorrect: false
+      explanation: "The change notification only includes a reference to the subject of the change, not the specific of the change that triggered the notification."
+    - content: "Only entities that have changed, not new or deleted entities."
+      isCorrect: false
+      explanation: "Change notifications are triggered when entities are created, updated, or deleted."
+  - content: "What types of entities support change notifications in Microsoft Graph?"
+    choices:
+    - content: "Email messages, events, contacts, users, groups, devices enrolled in Intune, conversations, and OneDrive files."
+      isCorrect: false
+      explanation: "Change notifications are not supported on devices enrolled with Intune."
+    - content: "Email messages, events, contacts, users, groups, conversations, and OneDrive files."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "All entities exposed by Microsoft Graph support change notifications."
+      isCorrect: false
+      explanation: "Not all entities support change notifications in Microsoft Graph"
