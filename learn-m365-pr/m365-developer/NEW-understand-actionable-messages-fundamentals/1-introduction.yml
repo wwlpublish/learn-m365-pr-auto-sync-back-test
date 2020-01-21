@@ -1,7 +1,7 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365-pr.understand-actionable-messages-fundamentals.1-introduction
 metadata:
-  title: Introduction to Outlook actionable messages
+  title: Introduction to Actionable Messages in Outlook
   description: In this module, you'll learn about the fundamental components of actionable messages.
   ms.date: 01/16/2020
   author: jasonjoh
@@ -9,7 +9,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
   ROBOTS: NOINDEX
-title: Introduction to Outlook actionable messages
+title: Introduction to Actionable Messages in Outlook
 durationInMinutes: 2
 content: |
   [!include[](includes/1-introduction.md)]

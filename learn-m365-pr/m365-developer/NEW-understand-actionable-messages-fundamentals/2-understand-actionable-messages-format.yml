@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.understand-actionable-messages-fundamentals.2-understand-actionable-messages-format
+metadata:
+  title: Understand the format of Actionable Messages in Outlook
+  description: In this unit, you'll learn about the markup used to create Actionable Messages in Outlook.
+  ms.date: 01/16/2020
+  author: jasonjoh
+  ms.author: jasonjoh
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+title: Understand the format of Actionable Messages in Outlook
+durationInMinutes: 1
+content: |
+  [!include[](includes/2-understand-actionable-messages-format.md)]

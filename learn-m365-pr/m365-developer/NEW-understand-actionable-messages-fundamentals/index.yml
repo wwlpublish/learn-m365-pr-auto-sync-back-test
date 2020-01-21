@@ -1,23 +1,23 @@
 ### YamlMime:Module
 uid: learn-m365-pr.understand-actionable-messages-fundamentals
 metadata:
-  title: Understand Outlook actionable messages fundamentals
-  description: Learn the fundamentals of actionable messages in Outlook.
+  title: Understand Actionable Messages in Outlook fundamentals
+  description: Learn the fundamentals of Actionable Messages in Outlook.
   ms.date: 01/16/2020
   author: jasonjoh
   ms.author: jasonjoh
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Understand Outlook actionable messages fundamentals
-summary: Actionable messages enable you to extend the functionality of email messages in Outlook to give recipients the ability to take quick actions in an Adaptive Card without leaving Outlook. In this module, you'll explore what's possible with actionable messages. You'll also learn about what's required for an actionable message solution, and how to register your service to send actionable messages to Microsoft 365 users.
+title: Understand Actionable Messages in Outlook fundamentals
+summary: Actionable Messages enable you to extend the functionality of email messages in Outlook to give recipients the ability to take quick actions in an Adaptive Card without leaving Outlook. In this module, you'll explore what's possible with Actionable Messages. You'll also learn about what's required for an Actionable Message solution, and how to register your service to send Actionable Messages to Microsoft 365 users.
 abstract: |
   By the end of this module, you should know about:
-  - Actionable messages
-  - The registration process for sending actionable messages
-  - The types of actions possible in actionable messages
-  - Security features of actionable messages
+  - Actionable Messages
+  - The registration process for sending Actionable Messages
+  - The types of actions possible in Actionable Messages
+  - Security features of Actionable Messages
 prerequisites: None
-iconUrl: /learn/achievements/understand-actionable-messages-fundamentals.svg
+iconUrl: /learn/achievements/understand-actionable-messages.svg
 levels:
   - beginner
 roles:
@@ -28,12 +28,11 @@ products:
   - m365
 units:
 - learn-m365-pr.understand-actionable-messages-fundamentals.1-introduction
-- learn-m365-pr.understand-actionable-messages-fundamentals.2-understand-task-panes-content-add-ins
-- learn-m365-pr.understand-actionable-messages-fundamentals.3-understand-dialogs
-- learn-m365-pr.understand-actionable-messages-fundamentals.4-understand-custom-functions
-- learn-m365-pr.understand-actionable-messages-fundamentals.5-understand-add-in-commands
-- learn-m365-pr.understand-actionable-messages-fundamentals.6-understand-manifest-purpose
-- learn-m365-pr.understand-actionable-messages-fundamentals.7-knowledge-check
-- learn-m365-pr.understand-actionable-messages-fundamentals.8-summary
+- learn-m365-pr.understand-actionable-messages-fundamentals.2-understand-actionable-messages-format
+- learn-m365-pr.understand-actionable-messages-fundamentals.3-understand-available-actions
+- learn-m365-pr.understand-actionable-messages-fundamentals.4-understand-actionable-messages-registration
+- learn-m365-pr.understand-actionable-messages-fundamentals.5-understand-security-requirements
+- learn-m365-pr.understand-actionable-messages-fundamentals.6-knowledge-check
+- learn-m365-pr.understand-actionable-messages-fundamentals.7-summary
 badge:
   uid: learn-m365-pr.understand-actionable-messages-fundamentals.badge
