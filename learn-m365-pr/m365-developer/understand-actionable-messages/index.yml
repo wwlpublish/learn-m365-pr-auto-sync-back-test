@@ -1,5 +1,5 @@
 ### YamlMime:Module
-uid: learn-m365-pr.understand-actionable-messages-fundamentals
+uid: learn-m365-pr.understand-actionable-messages
 metadata:
   title: Understand Actionable Messages in Outlook fundamentals
   description: Learn the fundamentals of Actionable Messages in Outlook.
@@ -27,12 +27,12 @@ products:
   - office-adaptive-cards
   - m365
 units:
-- learn-m365-pr.understand-actionable-messages-fundamentals.1-introduction
-- learn-m365-pr.understand-actionable-messages-fundamentals.2-understand-actionable-messages-format
-- learn-m365-pr.understand-actionable-messages-fundamentals.3-understand-available-actions
-- learn-m365-pr.understand-actionable-messages-fundamentals.4-understand-actionable-messages-registration
-- learn-m365-pr.understand-actionable-messages-fundamentals.5-understand-security-requirements
-- learn-m365-pr.understand-actionable-messages-fundamentals.6-knowledge-check
-- learn-m365-pr.understand-actionable-messages-fundamentals.7-summary
+- learn-m365-pr.understand-actionable-messages.1-introduction
+- learn-m365-pr.understand-actionable-messages.2-understand-actionable-messages-format
+- learn-m365-pr.understand-actionable-messages.3-understand-available-actions
+- learn-m365-pr.understand-actionable-messages.4-understand-actionable-messages-registration
+- learn-m365-pr.understand-actionable-messages.5-understand-security-requirements
+- learn-m365-pr.understand-actionable-messages.6-knowledge-check
+- learn-m365-pr.understand-actionable-messages.7-summary
 badge:
-  uid: learn-m365-pr.understand-actionable-messages-fundamentals.badge
+  uid: learn-m365-pr.understand-actionable-messages.badge
