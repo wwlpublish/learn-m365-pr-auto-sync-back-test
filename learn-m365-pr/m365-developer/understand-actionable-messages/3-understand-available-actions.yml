@@ -10,6 +10,6 @@ metadata:
   ms.prod: learning-m365
   ROBOTS: NOINDEX
 title: Understand action types for Actionable Messages in Outlook
-durationInMinutes: 1
+durationInMinutes: 4
 content: |
   [!include[](includes/3-understand-available-actions.md)]

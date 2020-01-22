@@ -1,4 +1,4 @@
-Actionable Messages in Outlook use Adaptive Card JSON to add the actionable card section to an HTML-formatted email message. In this unit, we take a look at how the Adaptive Card JSON is added into the email message.
+Actionable Messages in Outlook use Adaptive Card JSON to add the actionable card section to an email message. In this unit, we take a look at how the Adaptive Card JSON is added into the email message.
 
 ## Actionable Message card
 
@@ -50,8 +50,8 @@ Let's take a look at a simple example. The following JSON implements a basic car
 This card uses standard Adaptive Card elements, such as `TextBlock`, `Input.Text`, and `Action.OpenUrl`. It also uses Outlook-specific features, including:
 
 - The `originator` property contains the provider ID assigned during registration of your service. Registration is covered in a later module.
-- The `hideOriginalBody` property controls whether the Outlook client displays the HTML body of the email message underneath the card. This gives you the option of using the card to completely replace the body, or to use the card to complement the body. For email clients that do not support Actionable Messages, the HTML body is always displayed.
-- The `Action.Http` action sends the recipient's input to the HTTPS endpoint specified in the `url` property. This endpoint is an web API that you've implemented to receive the information from the actionable message and process it.
+- The `hideOriginalBody` property controls whether the Outlook client displays the HTML body of the email message underneath the card. This gives you the option of using the card to completely replace the body, or to use the card to complement the body. For email clients that do not support Actionable Messages, the HTML body is always displayed. Because of this, you may choose to use the HTML body as an fall-back message for clients that don't support Actionable Messages.
+- The `Action.Http` action sends the recipient's input to the HTTPS endpoint specified in the `url` property. This endpoint is a web API that you've implemented to receive the information from the actionable message and process it.
 
 The above JSON results in a card that looks like this in Outlook on the web.
 

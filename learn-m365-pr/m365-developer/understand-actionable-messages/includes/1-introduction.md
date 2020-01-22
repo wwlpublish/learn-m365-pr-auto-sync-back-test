@@ -1,4 +1,4 @@
-Actionable Messages in Outlook enables you to extend the functionality of an email message to increase engagement and improve productivity.
+Actionable Messages in Outlook enable you to extend the functionality of email messages to increase engagement and improve productivity.
 
 ## What are Actionable Messages in Outlook?
 
@@ -13,7 +13,7 @@ An Actionable Messages in Outlook solution has two main components as follows.
 - An application or service that sends HTML-formatted email with Adaptive Card markup.
 - A web API that is called when the user activates the actions in the Actionable Message.
 
-The mail sender application sends the Actionable Message to recipients. The recipient opens the mail, and activates one of the actions in the Adaptive Card. For example, the user may want to assign a service ticket to herself. When the user activates the action, the Office 365 servers call the web API specified in the Adaptive Card markup and processes the response. Finally, the card is updated in the user's mailbox to indicate the response.
+The mail sender application sends the Actionable Message to recipients. The recipient opens the mail, and activates one of the actions in the Adaptive Card. For example, the user may want to assign a service ticket to herself. When the user activates the action, the Office 365 servers call the web API specified in the Adaptive Card markup and process the response. Finally, the card is updated in the user's mailbox to indicate the response.
 
 ## Why use Actionable Messages in Outlook?
 
