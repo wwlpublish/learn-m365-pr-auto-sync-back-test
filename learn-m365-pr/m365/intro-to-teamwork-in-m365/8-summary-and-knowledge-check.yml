@@ -32,7 +32,7 @@ quiz:
       - content: "Office apps"
         isCorrect: false
         explanation: "Office apps are one of the products that comprise the Teamwork toolkit."
-    - content: "Which one the following is NOT one the tools for helping people discover and share knowledge?"
+    - content: "Which of the following is NOT one the tools for helping people discover and share knowledge?"
       choices:
       - content: "Microsoft Search"
         isCorrect: false
