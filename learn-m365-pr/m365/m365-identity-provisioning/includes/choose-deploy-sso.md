@@ -23,7 +23,7 @@ Plan your SSO configuration. For example, you can:
 
 ### Explore how to configure single sign-on in Azure AD
 
-View a [video version](https://www.microsoft.com/videoplayer/embed/RE44izL) of the interactive guide (captions available in more languages).
+View a [video version](https://www.microsoft.com/videoplayer/embed/RE44DnP) of the interactive guide (captions available in more languages).
 
 <a href="https://mslearn.cloudguides.com/guides/Configure%20single%20sign-on%20in%20Azure%20AD">![Single-sign On](../media/sso-cloudguide.png)</a>  
 
