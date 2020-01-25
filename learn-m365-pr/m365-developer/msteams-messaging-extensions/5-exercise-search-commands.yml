@@ -1,0 +1,42 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msteams-messaging-extensions.5-exercise-search-commands
+metadata:
+  title: Exercise - Create search command messaging extensions
+  description: In this exercise, you’ll learn how to execute a messaging extension search command from an existing message.
+  ms.date: 2/12/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Create search command messaging extensions
+durationInMinutes: 20
+content: |
+  [!include[](includes/5-exercise-search-commands.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "Which of the following results can a search command not display?"
+    choices:
+    - content: "A list of results consisting of a thumbnail, heading, and text."
+      isCorrect: false
+      explanation: "A list of results is a supported display option for a search command messaging extention."
+    - content: "A grid of results displaying images."
+      isCorrect: false
+      explanation: "A grid of image thumbnails is a supported display option for a search command messaging extention."
+    - content: "A grid of results displaying videos."
+      isCorrect: true
+      explanation: "Correct!"
+  - content: "What type of activity message does the Bot Framework send to your web service to invoke a search command?"
+    choices:
+    - content: "composeExtension/queryLink"
+      isCorrect: false
+      explanation: "The `queryLink` message type is sent when an unfurl message handler is invoked."
+    - content: "composeExtension/fetchTask"
+      isCorrect: false
+      explanation: "The `fetchTask` message type is sent when an action command is invoked."
+    - content: "composeExtension/query"
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "composeExtension/submitAction"
+      isCorrect: false
+      explanation: "The `submitAction` message type is sent when action commands are submitted."

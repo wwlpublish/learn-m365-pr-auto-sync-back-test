@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msteams-messaging-extensions.2-action-commands
+metadata:
+  title: Microsoft Teams messaging extensions and action commands
+  description: "In this unit, you’ll learn what messaging extensions are, what scenarios where they can be used and the different types of messaging extensions available to developers. This unit will focus on one type of messaging extension: the action command."
+  ms.date: 2/12/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Microsoft Teams messaging extensions and action commands
+durationInMinutes: 12
+content: |
+  [!include[](includes/2-action-commands.md)]
