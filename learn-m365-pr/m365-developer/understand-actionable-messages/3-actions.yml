@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.understand-actionable-messages.3-actions
+metadata:
+  title: Understand action types for Actionable Messages in Outlook
+  description: In this unit, you'll learn about the types of actions available for Actionable Messages in Outlook.
+  ms.date: 01/16/2020
+  author: jasonjoh
+  ms.author: jasonjoh
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Understand action types for Actionable Messages in Outlook
+durationInMinutes: 4
+content: |
+  [!include[](includes/3-actions.md)]

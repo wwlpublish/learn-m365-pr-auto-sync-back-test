@@ -1,0 +1,49 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.understand-actionable-messages.6-knowledge-check
+metadata:
+  title: Check your knowledge
+  description: In this unit, you'll check your knowledge about fundamental Actionable Messages in Outlook concepts.
+  ms.date: 01/16/2020
+  author: jasonjoh
+  ms.author: jasonjoh
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Check your knowledge
+durationInMinutes: 1
+content: ''
+quiz:
+  title: Fundamental concepts about Actionable Messages in Outlook
+  questions:
+  - content: "Which of the following is NOT a main component of an Actionable Messages in Outlook solution?"
+    choices:
+    - content: "A web API that is called when the user activates actions"
+      isCorrect: false
+      explanation: "A web API is a key component, allowing your service to respond to the actions the recipient takes on the message."
+    - content: "An application installed on the recipient's device"
+      isCorrect: true
+      explanation: "Actionable Messages in Outlook do not require any additional software on the recipients device."
+    - content: "An application or service that sends HTML-formatted email with Adaptive Card markup"
+      isCorrect: false
+      explanation: "Actionable Messages in Outlook are transmitted and delivered over SMTP as HTML-formatted email with Adaptive Card markup."
+  - content: "Which of the following action types can be auto-invoked when the user opens the message, allowing the card to update with fresh data?"
+    choices:
+    - content: "Action.Http"
+      isCorrect: true
+      explanation: "An Action.Http action can be configured to execute when the user opens the message, calling your web API to get an updated message card."
+    - content: "Action.InvokeAddInCommand"
+      isCorrect: false
+      explanation: "The Action.InvokeAddInCommand action opens an Outlook add-in and does not update the message card. It cannot be auto-invoked."
+    - content: "Action.OpenUrl"
+      isCorrect: false
+      explanation: "The Action.OpenUrl action is part of the standard Adaptive Card schema. It opens a browser to a specified URL. It cannot be auto-invoked."
+  - content: "What method does a web API use to ensure that a request is valid?"
+    choices:
+    - content: "Verifying the calling server's IP address with a list of accepted IP addresses"
+      isCorrect: false
+      explanation: "Microsoft does not publish a list of IP addresses that execute Actionable Message actions."
+    - content: "Validating the bearer token"
+      isCorrect: true
+      explanation: "Validating the bearer token ensure that the request originated from Microsoft 365, and allows you to determine the identity of the user that took the action."
+    - content: "Including a secret value in the body of the HTTP POST"
+      isCorrect: false
+      explanation: "Including a secret value in the Adaptive Card JSON that is replayed to your service can reduce the likelihood of processing an invalid request, but not eliminate it."
