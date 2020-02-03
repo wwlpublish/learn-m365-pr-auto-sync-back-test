@@ -12,9 +12,9 @@ In this unit, we take a look at the following Outlook-specific actions.
 
 The `Action.Http` action is the core action used to make an Actionable Message interact with your service. This action sends an HTTP POST to your service, and can include user input.
 
-An `Action.Http` action can also be set to automatically execute when the user opens the message. The result of the action contains a new card, updated with the latest information. For example, if an expense report tool sends an approval request to multiple approvers, the card could auto-invoke an action to query the service to see if someone has already approved the report. In that case, it could replace the card asking the recipient to approve with a card informing them who approved it and when.
-
 Your service can provide a new card in response to this action, referred to as a refresh card. The refresh card will permanently replace the card on that email message. Refresh cards are typically used to report back status of the action. For example, when a recipient responds to a survey Actionable Message, your service could send back a card thanking the recipient for responding.
+
+An `Action.Http` action can also be set to automatically execute when the user opens the message. The result of the action contains a new card, updated with the latest information. For example, if an expense report tool sends an approval request to multiple approvers, the card could auto-invoke an action to query the service to see if someone has already approved the report. In that case, it could replace the card asking the recipient to approve with a card informing them who approved it and when.
 
 ```json
 {
