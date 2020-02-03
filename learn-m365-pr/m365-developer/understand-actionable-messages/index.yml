@@ -28,10 +28,10 @@ products:
   - m365
 units:
 - learn-m365-pr.understand-actionable-messages.1-introduction
-- learn-m365-pr.understand-actionable-messages.2-understand-actionable-messages-format
-- learn-m365-pr.understand-actionable-messages.3-understand-available-actions
-- learn-m365-pr.understand-actionable-messages.4-understand-actionable-messages-registration
-- learn-m365-pr.understand-actionable-messages.5-understand-security-requirements
+- learn-m365-pr.understand-actionable-messages.2-format
+- learn-m365-pr.understand-actionable-messages.3-actions
+- learn-m365-pr.understand-actionable-messages.4-registration
+- learn-m365-pr.understand-actionable-messages.5-security-requirements
 - learn-m365-pr.understand-actionable-messages.6-knowledge-check
 - learn-m365-pr.understand-actionable-messages.7-summary
 badge:
