@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365-pr.understand-actionable-messages.4-understand-actionable-messages-registration
+uid: learn-m365-pr.understand-actionable-messages.4-registration
 metadata:
   title: Understand registration for Actionable Messages in Outlook
   description: In this unit, you'll learn how to register as an actionable message sender.
@@ -11,4 +11,4 @@ metadata:
 title: Understand registration for Actionable Messages in Outlook
 durationInMinutes: 3
 content: |
-  [!include[](includes/4-understand-actionable-messages-registration.md)]
+  [!include[](includes/4-registration.md)]

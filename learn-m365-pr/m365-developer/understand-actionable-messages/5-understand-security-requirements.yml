@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365-pr.understand-actionable-messages.5-understand-security-requirements
+uid: learn-m365-pr.understand-actionable-messages.5-security-requirements
 metadata:
   title: Understand security requirements for Actionable Messages in Outlook
   description: In this unit, you'll learn about security requirements for Actionable Messages in Outlook.
@@ -11,4 +11,4 @@ metadata:
 title: Understand security requirements for Actionable Messages in Outlook
 durationInMinutes: 2
 content: |
-  [!include[](includes/5-understand-security-requirements.md)]
+  [!include[](includes/5-security-requirements.md)]
