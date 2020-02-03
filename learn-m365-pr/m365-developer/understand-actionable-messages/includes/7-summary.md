@@ -12,3 +12,4 @@ In this module, you learned fundamental concepts about Actionable Messages in Ou
 - [Send an actionable message via email in Office 365](/outlook/actionable-messages/send-via-email)
 - [Security requirements](/outlook/actionable-messages/security-requirements)
 - [Designing Outlook Actionable Message cards](/outlook/actionable-messages/adaptive-card)
+- [Adaptive Cards Overview](/adaptive-cards)

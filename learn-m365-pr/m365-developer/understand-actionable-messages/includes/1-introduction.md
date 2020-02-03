@@ -2,7 +2,7 @@ Actionable Messages in Outlook enable you to extend the functionality of email m
 
 ## What are Actionable Messages in Outlook?
 
-An Actionable Message in Outlook replaces or enhances an HTML email body with an adaptive card. This adaptive card can provide the user with succinct information, and allow the user to take action on that information without leaving Outlook. For example, Actionable Messages in Outlook could be used to:
+An Actionable Message in Outlook replaces or enhances an HTML email body with an Adaptive Card. Adaptive Cards are an open card exchange format that enables developers to exchange UI content in a common and consistent way. The Adaptive Card in an Actionable Message can provide the user with succinct information, and allow the user to take action on that information without leaving Outlook. For example, Actionable Messages in Outlook could be used to:
 
 - Send a survey to a group, allowing them to quickly respond in the email message itself, without having to browse to or login to a website.
 - Quickly approve a code check-in or expense report.
