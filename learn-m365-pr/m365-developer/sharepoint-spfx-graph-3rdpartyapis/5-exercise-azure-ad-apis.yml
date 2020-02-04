@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.sharepoint-spfx-graph-3rdpartyapis.5-exercise-azure-ad-apis
+metadata:
+  title: Exercise - Call Azure AD secured REST APIs
+  description: In this exercise, you'll create a new SharePoint Framework project with a single client-side web part that uses React and Microsoft Graph to display users in the currently logged in user's directory. You'll use the Azure AD HTTP client API included in the SharePoint Framework to authenticate and call the Microsoft Graph REST API.
+  ms.date: 3/9/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Call Azure AD secured REST APIs
+durationInMinutes: 15
+content: |
+  [!include[](includes/5-exercise-azure-ad-apis.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "What is the recommended way to submit requests to Azure AD secured HTTP REST APIs?"
+    choices:
+    - content: "Import the jQuery library and use the `jQuery.ajax()` method, obtain an access token from Azure AD, and include it in the `authorization` HTTP request header."
+      isCorrect: false
+      explanation: "Use the `AadHttpClient` object included as part of the SharePoint Framework API."
+    - content: "Use the `AadHttpClient` object from the SharePoint Framework API, returned by calling the `this.context.aadHttpClientFactory.getClient('https://...')` method."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Use the browser's built in support for the Fetch API, obtain an access token from Azure AD, and include it in the `authorization` HTTP request header."
+      isCorrect: false
+      explanation: "Use the `AadHttpClient` object included as part of the SharePoint Framework API. It is automatically configured to include the OAuth2 access token in the authorization header."
+  - content: "You must include an OAuth2 access token in an HTTP request to an Azure AD secured HTTP REST API. How do you obtain this access token?"
+    choices:
+    - content: "Once you've granted your SharePoint Online tenant permissions to the HTTP REST API, call the `this.context.aadHttpClientFactory.getClient('https://...')` method to receive an instance of the `AadHttpClient` object. This object is already configured to include the OAuth2 access token in the authorization HTTP request header. "
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Use the browser's built in support for the Fetch API, obtain an access token from Azure AD, and include it in the `authorization` HTTP request header."
+      isCorrect: false
+      explanation: "While this will work, it requires a lot more code than the `aadHttpClientFactory` and `AadHttpClient` objects included in the SharePoint Framework API."
+    - content: "First obtain an access token from Azure AD, and include it in the `authorization` HTTP request header using the `HttpClient` SharePoint Framework API."
+      isCorrect: false
+      explanation: "While this will work, it requires a lot more code than the `aadHttpClientFactory` and `AadHttpClient` objects included in the SharePoint Framework API."

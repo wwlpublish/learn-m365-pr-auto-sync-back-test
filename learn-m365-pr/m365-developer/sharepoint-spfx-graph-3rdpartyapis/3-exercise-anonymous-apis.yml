@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.sharepoint-spfx-graph-3rdpartyapis.3-exercise-anonymous-apis
+metadata:
+  title: Exercise - Call anonymous third-party REST APIs
+  description: "In this exercise, you'll create a new SharePoint Framework project with a single client-side web part that uses React to display the results from a call to an anonymous third-party API: the NASA Image REST API."
+  ms.date: 3/9/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Call anonymous third-party REST APIs
+durationInMinutes: 12
+content: |
+  [!include[](includes/3-exercise-anonymous-apis.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "What is the recommended way to submit requests to anonymous HTTP REST APIs?"
+    choices:
+    - content: "Import the jQuery library and use the `jQuery.ajax()` method."
+      isCorrect: false
+      explanation: "Use the `HttpClient` object included as part of the SharePoint Framework API."
+    - content: "Use the `HttpClient` object from the SharePoint Framework API, accessible from the component's `context` object."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Use the browser's built in support for the Fetch API."
+      isCorrect: false
+      explanation: "Use the `HttpClient` object included as part of the SharePoint Framework API. Older browsers supported by SharePoint may not implement the Fetch API, such as Internet Explorer 11."
+  - content: "Why should you use the `HttpClient` object included with the SharePoint Framework API instead of the browser's native support for the Fetch API?"
+    choices:
+    - content: "Not all browsers support the Fetch API. The `HttpClient` is a wrapper to the Fetch API. It loads a polyfill that implements the Fetch API when the current browser doesn't implement it."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "The `HttpClient` offers no benefit to the Fetch API; the SharePoint Framework offers two options for calling anonymous APIs."
+      isCorrect: false
+      explanation: "Use the `HttpClient` object included as part of the SharePoint Framework API. Older browsers supported by SharePoint may not implement the Fetch API, such as Internet Explorer 11."
+    - content: "Don't use the `HttpClient` object. Use the Fetch API supported by all browsers."
+      isCorrect: false
+      explanation: "Use the `HttpClient` object included as part of the SharePoint Framework API. Older browsers supported by SharePoint may not implement the Fetch API, such as Internet Explorer 11."
