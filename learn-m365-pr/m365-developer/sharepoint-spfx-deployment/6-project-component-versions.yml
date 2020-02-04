@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.sharepoint-spfx-deployment.6-project-component-versions
+metadata:
+  title: Update SharePoint Framework solutions
+  description: In this unit, you'll learn how versioning works in SharePoint Framework solutions and how to upgrade existing components.
+  ms.date: 3/9/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Update SharePoint Framework solutions
+durationInMinutes: 9
+content: |
+  [!include[](includes/6-project-component-versions.md)]
