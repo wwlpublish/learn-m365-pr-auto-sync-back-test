@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msteams-webhooks-connectors.5-exercise-incoming-webhooks
+metadata:
+  title: Exercise - Create incoming webhooks
+  description: In this exercise, you’ll learn how to register an incoming webhook in a Microsoft Teams channel and post a message to it.
+  ms.date: 2/18/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Create incoming webhooks
+durationInMinutes: 10
+content: |
+  [!include[](includes/5-exercise-incoming-webhooks.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "What options can a developer use when sending a message to an incoming webhook?"
+    choices:
+    - content: "A web service can send a message that contains text, a card, markdown, or HTML to implement basic or rich messages."
+      isCorrect: false
+      explanation: "Messages can't include HTML because the HTML will be escaped and not rendered in Microsoft Teams."
+    - content: "A web service can send a message that contains text, a card, markdown to implement basic or rich messages."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "A web service can send a message that contains text or markdown to implement basic or rich messages. Cards and HTML are not supported."
+      isCorrect: false
+      explanation: "A message can be sent to an incoming message as a card."
+  - content: "How can developers submit a message to an incoming webhook?"
+    choices:
+    - content: "After registering the incoming webhook, submit the message in the body of an HTTP POST to the endpoint provided by Microsoft Teams."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "After registering the incoming webhook, submit the message in the body of an HTTP GET to the endpoint provided by Microsoft Teams."
+      isCorrect: false
+      explanation: "Messages are sent to the endpoint using an HTTP POST, not an HTTP GET."
+    - content: "After registering the incoming webhook, submit the message in the body of an HTTP POST to the endpoint provided by Microsoft Teams and include the HMAC in the HTTP authorization header."
+      isCorrect: false
+      explanation: "The HMAC isn't used with incoming webhooks, only outgoing webhooks."
