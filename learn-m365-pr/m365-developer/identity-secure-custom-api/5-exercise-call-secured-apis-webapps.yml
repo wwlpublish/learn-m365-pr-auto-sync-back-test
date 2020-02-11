@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.identity-secure-custom-api.5-exercise-call-secured-apis-webapps
+metadata:
+  title: Exercise - Call secured APIs from web applications
+  description: In this exercise, you’ll learn how to create server-side web apps that enable users to sign in and grant the app permissions to act on the user’s behalf.
+  ms.date: 03/15/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Call secured APIs from web applications
+durationInMinutes: 25
+content: |
+  [!include[](includes/5-exercise-call-secured-apis-webapps.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "Which of the following best explains the on-behalf-of flow?"
+    choices:
+    - content: "Using its credentials and the currently signed in user's access token, an app obtains a new access token to call a secured service."
+      isCorrect: true
+      explanation: "Correct"
+    - content: "Using the credentials of the currently signed in user and the app's credentials, an app obtains a new access token to call a secured service."
+      isCorrect: false
+      explanation: "The user's credentials aren't used to obtain an access token."
+    - content: "An app uses the currently signed in user's access token to call a secured service."
+      isCorrect: false
+      explanation: "The app must obtain a new access token for the app to act on behalf of the user; it can't utilize the user's access token."
+  - content: "Which setting in an app registration in the Azure AD admin center needs to be set to enable the on-behalf-of flow?"
+    choices:
+    - content: "Select the \"on-behalf-of flow\" checkbox on the app's API Permissions blade in the Azure AD admin center."
+      isCorrect: false
+      explanation: "There's no \"on-behalf-of flow\" checkbox on any page in the app's registration."
+    - content: "None, there's no special setting. The on-behalf-of flow is a pattern you implement in your project."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Set the `onBehalfOfFlowEnabled` property to `true` in the app registration's the manifest."
+      isCorrect: false
+      explanation: "There's no `onBehalfOfFlowEnabled` property in the app manifest."

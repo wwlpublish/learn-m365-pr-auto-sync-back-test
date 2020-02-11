@@ -1,0 +1,40 @@
+### YamlMime:Module
+uid: learn-m365.identity-secure-custom-api
+metadata:
+  title: Secure custom APIs with Microsoft Identity
+  description: Learn how to secure a web API with Microsoft identity and how to call it from another application.
+  ms.date: 03/15/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Secure custom APIs with Microsoft Identity
+summary: Many solutions involve creating web APIs to expose functionality to different clients and consumers. Developers can secure these APIs using Microsoft identity to ensure only approved apps can access the web APIs provided they've been granted the necessary permissions. In this module, you’ll learn how to secure a web API with Microsoft identity and how to call it from another application.
+abstract: |
+  By the end of this module, you'll be able to:
+  - Create a custom web API that is secured with Microsoft identity
+  - Create a custom web app that calls a custom web API secured with Microsoft identity
+  - Create a custom daemon app that calls a custom web API secured with Microsoft identity
+prerequisites: |
+  - Ability to develop with ASP.NET Core at the intermediate level
+  - Experience using Visual Studio Code at the beginner level
+  - Access to a Microsoft 365 tenant
+iconUrl: /learn/achievements/identity-secure-custom-api.svg
+levels:
+  - intermediate
+roles:
+  - developer
+products:
+  - m365
+  - azure-active-directory
+units:
+  - learn-m365.identity-secure-custom-api.1-introduction
+  - learn-m365.identity-secure-custom-api.2-secure-api-microsoft-identity
+  - learn-m365.identity-secure-custom-api.3-exercise-secure-api-microsoft-identity
+  - learn-m365.identity-secure-custom-api.4-call-secured-apis-webapps
+  - learn-m365.identity-secure-custom-api.5-exercise-call-secured-apis-webapps
+  - learn-m365.identity-secure-custom-api.6-call-secured-apis-daemonapps
+  - learn-m365.identity-secure-custom-api.7-exercise-call-secured-apis-daemonapps
+  - learn-m365.identity-secure-custom-api.8-summary
+badge:
+  uid: learn-m365.identity-secure-custom-api.badge
