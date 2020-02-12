@@ -10,5 +10,9 @@ achievements:
   title: Modernize your workplace with Microsoft 365 and Surface for Business
   summary: Trophy for the 'Modernize your workplace with Microsoft 365 and Surface for Business' learning path.
   iconUrl: /learn/achievements/m365-sfa-learning-path.svg
-
-  
+- uid: learn-wwl.introducing-microsoft-365-and-surface-for-business.badge
+  type: badge
+  title: Discover modern workplace solutions with Microsoft 365 and Surface for Business
+  summary: |-
+    Badge for the 'Discover modern workplace solutions with Microsoft 365 and Surface for Business' module.
+  iconUrl: /learn/achievements/introducing-microsoft-365-and-surface-for-business.svg
