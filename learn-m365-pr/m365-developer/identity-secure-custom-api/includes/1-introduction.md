@@ -17,4 +17,4 @@ In this module, you’ll learn how to secure a web API with Microsoft identity a
 
 ## Additional resources
 
-Refer to the following repository for additional resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [04 Securing custom APIs](https://github.com/officedev/TrainingContent/tree/master/Identity/04%20Securing%20custom%20APIs).
+Refer to the following repository for additional resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [04 Secure custom APIs with Microsoft Identity](https://github.com/officedev/TrainingContent/tree/master/Identity/04%20Securing%20custom%20APIs).
