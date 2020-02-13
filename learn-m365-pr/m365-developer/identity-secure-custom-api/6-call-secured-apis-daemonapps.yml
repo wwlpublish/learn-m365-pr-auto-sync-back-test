@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.identity-secure-custom-api.6-exercise-call-secured-apis-daemonapps
+uid: learn-m365.identity-secure-custom-api.6-call-secured-apis-daemonapps
 metadata:
   title: Call secured APIs from daemon apps
   description: In this unit, you'll learn how to add app roles to an Azure AD Application registration and consume a secured API from a daemon application.
@@ -11,4 +11,4 @@ metadata:
 title: Call secured APIs from daemon apps
 durationInMinutes: 5
 content: |
-  [!include[](includes/6-exercise-call-secured-apis-daemonapps.md)]
+  [!include[](includes/6-call-secured-apis-daemonapps.md)]

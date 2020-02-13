@@ -30,7 +30,7 @@ quiz:
     choices:
     - content: "The first time a daemon app runs, it will prompt a user to log in and grant the requested permissions using a code returned by Microsoft identity."
       isCorrect: false
-    - content: "An admin user grants permissions using the admin consent framework, not through a special code."
+      explanation: "An admin user grants permissions using the admin consent framework, not through a special code."
     - content: "Permissions are automatically granted to registered apps in the Azure AD admin center when the permissions are selected."
       isCorrect: false
       explanation: "Permissions aren't automatically granted; they must be granted by an administrator through the admin consent process."
