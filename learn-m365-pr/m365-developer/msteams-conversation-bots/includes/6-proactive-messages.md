@@ -32,7 +32,7 @@ When you use proactive messages to send notifications, you need to make sure you
 
 Your team-added bot can post into a channel to create a new reply chain. The following code demonstrates how to create a new message in the channel when the message **newconversation** is received by the bot:
 
-```ts
+```typescript
 export class ConvoBot extends TeamsActivityHandler {
   constructor() {
     super();

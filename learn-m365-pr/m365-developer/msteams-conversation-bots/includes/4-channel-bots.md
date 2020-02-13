@@ -21,16 +21,13 @@ The `conversationUpdate` event is sent to your bot when it receives information 
 
 Microsoft Teams will notify your bot of many different events that occur within Microsoft Teams. For example, the channel created event is sent to your bot whenever a new channel is created in a team your bot is installed in. You can handle this event within your bot with the following code:
 
-```ts
+```typescript
 export class MyBot extends TeamsActivityHandler {
   constructor() {
     super();
 
     this.onTeamsChannelCreatedEvent(async (channelInfo: ChannelInfo, teamInfo: TeamInfo, turnContext: TurnContext, next: () => Promise<void>): Promise<void> => {
-      const card = CardFactory.heroCard(
-            'Channel Created',
-            `${channelInfo.name} is the Channel created`
-      );
+      const card = CardFactory.adaptiveCard(adaptiveCard);
       const message = MessageFactory.attachment(card);
       await turnContext.sendActivity(message);
       await next();
@@ -55,7 +52,7 @@ Your conversational bot can subscribe to any of the following events related to 
 
 Your bot can also handle instances where a user has reacted to one of your bot's messages. This is done by monitoring the events `reactionsAdded` or `reactionsRemoved`:
 
-```ts
+```typescript
 export class ConvoBot extends TeamsActivityHandler {
   constructor() {
     super();
@@ -101,24 +98,13 @@ However, you shouldn't rely on the text in the message to retrieve any informati
 
 Your bot can update existing messages that the bot created, but it can't another person's messages. The following code demonstrates how to update an existing message. The `replyToId` property on the activity that initiated the turn, use the `updateActivity()` method to update an existing message.
 
-```ts
+```typescript
 export class ConvoBot extends TeamsActivityHandler {
   private async updateCardActivity(context): Promise<void> {
     const data = context.activity.value;
     data.count += 1;
 
-    const card = CardFactory.heroCard(
-      "Adaptive card response",
-      `Updated count: ${data.count}`,
-      [],
-      [
-        {
-          type: ActionTypes.MessageBack,
-          title: 'Update Card',
-          value: data,
-          text: 'UpdateCardAction'
-        }
-      ]);
+    const card = CardFactory.adaptiveCard(adaptiveCard);
 
     await context.updateActivity({
       attachments: [card],
@@ -131,7 +117,7 @@ export class ConvoBot extends TeamsActivityHandler {
 
 Your bot can also delete its own messages as the following code demonstrates:
 
-```ts
+```typescript
 export class ConvoBot extends TeamsActivityHandler {
   private async deleteCardActivity(context): Promise<void> {
     await context.deleteActivity(context.activity.replyToId);

@@ -44,14 +44,14 @@ While there are multiple ways to address this, let's handle it in a simple way: 
 
 Locate and open the bot in the file **./src/app/convoBot/convoBot.ts**. Locate the existing `onMessage()` handler in the class constructor. Add the following `else if` statement to find these new messages sent from a channel conversation:
 
-```ts
+```typescript
 } else if (botMessageText.endsWith("</at> mentionme")) {
   await this.handleMessageMentionMeChannelConversation(context);
 ```
 
 The complete `onMessage()` handler should now look like the following:
 
-```ts
+```typescript
 this.onMessage(async (context: TurnContext, next: () => Promise<void>) => {
   const botMessageText: string = context.activity.text.trim().toLowerCase();
 
@@ -66,7 +66,7 @@ this.onMessage(async (context: TurnContext, next: () => Promise<void>) => {
 
 Finally, add the following method to the `ConvoBot` class to implement the handler for our new scenario:
 
-```ts
+```typescript
 private async handleMessageMentionMeChannelConversation(context: TurnContext): Promise<void> {
   const mention = {
     mentioned: context.activity.from,
@@ -122,7 +122,7 @@ Locate and open the bot in the file **./src/app/convoBot/convoBot.ts**.
 
 Add the `CardFactory` and `ActionTypes` objects to the existing `import {...} from "botbuilder";` statement to import two more objects you'll need:
 
-```ts
+```typescript
 import {
   TeamsActivityHandler,
   TurnContext,
@@ -132,39 +132,53 @@ import {
 } from "botbuilder";
 ```
 
-Locate the existing `onMessage()` handler in the class constructor. Add the following code to the existing `if` statement to add three new capabilities:
+Locate the existing `onMessage()` handler in the class constructor. Add the following `else` statement to the existing `if` statement to respond with an adaptive card if the bot receives an unknown command:
 
-- update an existing message with an Adaptive card
-- delete an existing message
-- when an unknown command is received, respond with an Adaptive card
-
-```ts
-} else if (botMessageText === "updatecardaction") {
-  await this.updateCardActivity(context);
-} else if (botMessageText === "deletecardaction") {
-  await this.deleteCardActivity(context);
+```typescript
 } else {
-  const value = { count: 0 };
-  const card = CardFactory.heroCard(
-    "Adaptive card response",
-    "Demonstrates how to respond with a card, update the card & ultimately delete the response.",
-    [],
-    [
+  const value = { cardAction: "update", count: 0 };
+  const card = CardFactory.adaptiveCard({
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
       {
-        type: ActionTypes.MessageBack,
-        title: "Update card",
-        value: value,
-        text: "UpdateCardAction"
+        "type": "Container",
+        "items": [
+          {
+            "type": "TextBlock",
+            "text": "Adaptive card response",
+            "weight": "bolder",
+            "size": "large"
+          }
+        ]
+      },
+      {
+        "type": "Container",
+        "items": [
+          {
+            "type": "TextBlock",
+            "text": "Demonstrates how to respond with a card, update the card & ultimately delete the response.",
+            "wrap": true
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "Action.Submit",
+        "title": "Update card",
+        "data": value
       }
     ]
-  );
+  });
   await context.sendActivity({ attachments: [card] });
 }
 ```
 
 The `onMessage()` handler should now look like the following:
 
-```ts
+```typescript
 this.onMessage(async (context: TurnContext, next: () => Promise<void>) => {
   const botMessageText: string = context.activity.text.trim().toLowerCase();
 
@@ -172,58 +186,65 @@ this.onMessage(async (context: TurnContext, next: () => Promise<void>) => {
     await this.handleMessageMentionMeOneOnOne(context);
   } else if (botMessageText.endsWith("</at> mentionme")) {
     await this.handleMessageMentionMeChannelConversation(context);
-  } else if (botMessageText === "updatecardaction") {
-    await this.updateCardActivity(context);
-  } else if (botMessageText === "deletecardaction") {
-    await this.deleteCardActivity(context);
   } else {
-    const value = { count: 0 };
-    const card = CardFactory.heroCard(
-      "Adaptive card response",
-      "Demonstrates how to respond with a card, update the card & ultimately delete the response.",
-      [],
-      [
-        {
-          type: ActionTypes.MessageBack,
-          title: "Update card",
-          value: value,
-          text: "UpdateCardAction"
-        }
-      ]
-    );
+    const value = { cardAction: "update", count: 0 };
+    const card = CardFactory.adaptiveCard({..});
     await context.sendActivity({ attachments: [card] });
   }
   await next();
 });
 ```
 
-Notice the `else` statement will send a card to the conversation that contains a `value` object. This object has a `count` property. When a user triggers the action, this object will be sent to the bot.
+Notice the `else` statement will send a card to the conversation that contains a `data` object in the single `actions`. This object has a `count` property & `cardAction` property. When a user triggers the action, this object will be sent to the bot.
 
 Add the following methods to implement the `updateCardActivity()` & the `deleteCardActivity()` handlers:
 
-```ts
+```typescript
 private async updateCardActivity(context): Promise<void> {
-  const data = context.activity.value;
-  data.count += 1;
-
-  const card = CardFactory.heroCard(
-    "Adaptive card response",
-    `Updated count: ${data.count}`,
-    [],
-    [
+  const value = {
+    cardAction: "update",
+    count: context.activity.value.count + 1
+  };
+  const card = CardFactory.adaptiveCard({
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
       {
-        type: ActionTypes.MessageBack,
-        title: 'Update Card',
-        value: data,
-        text: 'UpdateCardAction'
+        "type": "Container",
+        "items": [
+          {
+            "type": "TextBlock",
+            "text": "Adaptive card response",
+            "weight": "bolder",
+            "size": "large"
+          }
+        ]
       },
       {
-        type: ActionTypes.MessageBack,
-        title: 'Delete card',
-        value: null,
-        text: 'DeleteCardAction'
+        "type": "Container",
+        "items": [
+          {
+            "type": "TextBlock",
+            "text": `Updated count: ${ value.count }`,
+            "wrap": true
+          }
+        ]
       }
-    ]);
+    ],
+    "actions": [
+      {
+        "type": "Action.Submit",
+        "title": "Update card",
+        "data": value
+      },
+      {
+        "type": "Action.Submit",
+        "title": "Delete card",
+        "data": { cardAction: "delete"}
+      }
+    ]
+  });
 
   await context.updateActivity({ attachments: [card], id: context.activity.replyToId, type: 'message' });
 }
@@ -233,9 +254,60 @@ private async deleteCardActivity(context): Promise<void> {
 }
 ```
 
-In the code you've added, notice the `updateCardActiity()` retrieves and increments the `count` property it received. It then creates a new card with the same data, but with an additional action to delete the card. Finally, the method uses the `updateActivity()` method to update an existing message.
+In the code you've added, notice the `updateCardActivity()` retrieves and increments the `count` property it received. It then creates a new card with the same data, but with an additional action to delete the card. Finally, the method uses the `updateActivity()` method to update an existing message.
 
 The `deleteCardActivity()` deletes the card using the `deleteActivity()` method.
+
+The last step is to handle messages that are sent from the adaptive card correctly.
+
+Within the `onMessage()` method, add the following code at the very start of the method, before the existing code:
+
+```typescript
+// if a value property exists = adaptive card submit action
+if (context.activity.value) {
+  switch (context.activity.value.cardAction) {
+    case "update":
+      await this.updateCardActivity(context);
+      break;
+    case "delete":
+      await this.deleteCardActivity(context);
+      break;
+  }
+} else {
+```
+
+Close the `else` statement before the last line `await next();`. The final `onMessage()` method should look like the following code:
+
+```typescript
+this.onMessage(async (context: TurnContext, next: () => Promise<void>) => {
+  // if a value property exists = adaptive card submit action
+  if (context.activity.value) {
+    switch (context.activity.value.cardAction) {
+      case "update":
+        await this.updateCardActivity(context);
+        break;
+      case "delete":
+        await this.deleteCardActivity(context);
+        break;
+    }
+  } else {
+    const botMessageText: string = context.activity.text.trim().toLowerCase();
+
+    if (botMessageText === "mentionme") {
+      await this.handleMessageMentionMeOneOnOne(context);
+    } else if (botMessageText.endsWith("</at> mentionme")) {
+      await this.handleMessageMentionMeChannelConversation(context);
+    } else {
+      const value = { cardAction: "update", count: 0 };
+      const card = CardFactory.adaptiveCard({
+        /* card omitted for readability */
+      });
+      await context.sendActivity({ attachments: [card] });
+    }
+  }
+  await next();
+});
+```
 
 ### Test the bot updating existing messages
 
@@ -272,7 +344,7 @@ Locate and open the bot in the file **./src/app/convoBot/convoBot.ts**.
 
 Add the following handler to the existing class constructor method:
 
-```ts
+```typescript
 this.onReactionsAdded(async (context: TurnContext, next: () => Promise<void>) => {
   if (context.activity.reactionsAdded) {
     context.activity.reactionsAdded.forEach(async (reaction) => {

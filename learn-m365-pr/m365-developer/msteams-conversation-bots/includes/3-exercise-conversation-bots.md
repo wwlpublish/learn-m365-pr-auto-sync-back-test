@@ -182,7 +182,7 @@ Create a new file **convoBot.ts** in this new folder **./src/app/convoBot/convoB
 
 Add the following code to the **convoBot.ts** file:
 
-```ts
+```typescript
 import {
   TeamsActivityHandler,
   TurnContext,
@@ -210,7 +210,7 @@ The first version of this bot will respond to the message **MentionMe** in a 1:1
 
 To implement this functionality, add the following method to the `ConvoBot` class:
 
-```ts
+```typescript
 private async handleMessageMentionMeOneOnOne(context: TurnContext): Promise<void> {
   const mention = {
     mentioned: context.activity.from,
@@ -226,7 +226,7 @@ private async handleMessageMentionMeOneOnOne(context: TurnContext): Promise<void
 
 Next, call this method when the bot receives the specific string **MentionMe**. Add the following code to the `onMessage()` handler, replacing the code comment `// insert onMessage() handler code here` to implement this:
 
-```ts
+```typescript
 const botMessageText: string = context.activity.text.trim().toLowerCase();
 
 if (botMessageText === "mentionme") {
@@ -241,7 +241,7 @@ After creating the bot, the next step is to expose it as part of the app's REST 
 
 First, add the bot to the **./src/app/TeamsAppsComponents.ts** file by adding the following code to the end of that file:
 
-```ts
+```typescript
 export * from "./convoBot/convoBot";
 ```
 
@@ -251,7 +251,7 @@ Locate and open the web server file, **./src/app/server.ts**.
 
 Add the following two `import` statements after the existing `import` statements in the file:
 
-```ts
+```typescript
 import { BotFrameworkAdapter } from "botbuilder";
 import { ConvoBot } from "./convoBot/convoBot";
 ```
@@ -259,7 +259,7 @@ import { ConvoBot } from "./convoBot/convoBot";
 > [!TIP]
 > Locate the following lines in the **server.ts** file. These lines load all the components and registers them with the web server's REST API routing.
 >
-> ```ts
+> ```typescript
 > import * as allComponents from "./TeamsAppsComponents";
 > ...
 > express.use(MsTeamsApiRouter(allComponents));
@@ -267,7 +267,7 @@ import { ConvoBot } from "./convoBot/convoBot";
 
 The last step is to configure the bot framework and call the bot when requests are received through the `/api/messages` path. Add the following code to the end of the **./src/app/server.ts** file:
 
-```ts
+```typescript
 // register and load the bot
 const botAdapter = new BotFrameworkAdapter({
   appId: process.env.MICROSOFT_APP_ID,

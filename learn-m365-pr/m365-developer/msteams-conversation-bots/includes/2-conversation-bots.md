@@ -92,7 +92,7 @@ For example, when a messaging extension action command is invoked, the SDK will 
 
 The following code defines a new bot that is watching for messages that contain the string `mentionme`. When it receives this message, it responds with a message that starts with `Hi...` and @mentions the user who sent the original message.
 
-```ts
+```typescript
 export class ConvoBot extends TeamsActivityHandler {
   constructor() {
     super();

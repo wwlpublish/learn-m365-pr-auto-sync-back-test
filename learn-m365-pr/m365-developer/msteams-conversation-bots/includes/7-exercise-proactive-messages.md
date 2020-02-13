@@ -9,61 +9,81 @@ Locate and open the bot in the file **./src/app/convoBot/convoBot.ts**.
 
 Add the following objects to the existing `import {...} from "botbuilder";` statement you'll need:
 
-```ts
+```typescript
 import {
   ChannelInfo, TeamsChannelData, ConversationParameters, teamsGetChannelId
   Activity, BotFrameworkAdapter, ConversationReference, ConversationResourceResponse
 } from "botbuilder";
 ```
 
-Locate the card in the `else` statement in the `onMessage() handler you added in the previous section. Add a second action button to the card that will trigger the creation of a new message:
+Locate the card in the `else` statement in the `onMessage()` handler you added in the previous section. Add a second action button to the card that will trigger the creation of a new message:
 
-```ts
+```typescript
 {
-  type: ActionTypes.MessageBack,
-  title: "Create new thread in this channel",
-  value: value,
-  text: "newconversation"
+  "type": "Action.Submit",
+  "title": "Create new thread in this channel",
+  "data": { cardAction: "newconversation" }
 }
 ```
 
 The card should now look like the following:
 
-```ts
-const card = CardFactory.heroCard(
-  "Adaptive card response",
-  "Demonstrates how to respond with a card, update the card & ultimately delete the response.",
-  [],
-  [
+```typescript
+const card = CardFactory.adaptiveCard({
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
     {
-      type: ActionTypes.MessageBack,
-      title: "Update card",
-      value: value,
-      text: "UpdateCardAction"
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Adaptive card response",
+          "weight": "bolder",
+          "size": "large"
+        }
+      ]
     },
     {
-      type: ActionTypes.MessageBack,
-      title: "Create new thread in this channel",
-      value: value,
-      text: "newconversation"
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Demonstrates how to respond with a card, update the card & ultimately delete the response.",
+          "wrap": true
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Update card",
+      "data": value
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Create new thread in this channel",
+      "data": { cardAction: "newconversation" }
     }
   ]
-);
+});
 ```
 
-Next, add another `else if` block to in the `onMessage()` handler to detect this new action:
+Next, add another `case` statement to the `switch` statement the `onMessage()` handler to detect this new action:
 
-```ts
-} else if (botMessageText === "newconversation") {
+```typescript
+case "newconversation":
   const channelId = teamsGetChannelId(context.activity);
   const message = MessageFactory.text("This will be the first message in a new thread");
   const newConversation = await this.createConversationInChannel(context, channelId, message);
-}
+  break;
 ```
 
 The last step is to add the `createConversationInChannel()` method that will create the new conversation. Add the following method to the `ConvoBot` class:
 
-```ts
+```typescript
 private async createConversationInChannel(context: TurnContext, teamsChannelId: string, message: Partial<Activity>): Promise<[ConversationReference, string]> {
   // create parameters for the new conversation
   const conversationParameters = <ConversationParameters>{
