@@ -289,6 +289,36 @@
       "source_path": "learn-m365-pr/welcome-to-microsoft-365/2-executive-welcome.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/welcome-to-microsoft-365/2-executive-welcome",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/introducing-microsoft-365-and-surface-for-business/index.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/discover-modern-workplace-solutions-m365-surface-business/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/introducing-microsoft-365-and-surface-for-business/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/discover-modern-workplace-solutions-m365-surface-business/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/introducing-microsoft-365-and-surface-for-business/2-microsoft-365.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/discover-modern-workplace-solutions-m365-surface-business/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/introducing-microsoft-365-and-surface-for-business/3-surface-for-business-devices.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/discover-modern-workplace-solutions-m365-surface-business/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/introducing-microsoft-365-and-surface-for-business/4-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/discover-modern-workplace-solutions-m365-surface-business/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/introducing-microsoft-365-and-surface-for-business/5-summary-and-resources.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/discover-modern-workplace-solutions-m365-surface-business/",
+      "redirect_document_id": true
     }
   ]
 }

@@ -17,6 +17,6 @@ In this module, you'll learn how to create and add task modules to your Microsof
 
 ## Additional resources
 
-Refer to the following repository for additional resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [50 Task Modules](https://github.com/officedev/TrainingContent/tree/master/Identity/50%20Task%20Modules).
+Refer to the following repository for additional resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [50 Task Modules](https://github.com/officedev/TrainingContent/tree/master/Teams/50%20Task%20Modules).
 
 This module is also available as a screencast: [Collect Input in Microsoft Teams with Task Modules](https://www.youtube.com/watch?v=VlEH4vtaxp4)
