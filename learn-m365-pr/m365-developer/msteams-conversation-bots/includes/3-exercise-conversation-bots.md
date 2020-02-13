@@ -304,9 +304,52 @@ MICROSOFT_APP_PASSWORD=
 
 ### Register the bot in the Microsoft Teams app
 
-The last step before you can test bot is to add it to the Microsoft Teams app manifest.
+The last step before you can test bot is to add it to the Microsoft Teams app manifest. You can use App Studio to do this.
 
-Locate and open the **./src/manifest/manifest.json**.
+In the browser, navigate to **https://teams.microsoft.com** and sign in with the credentials of a Work and School account.
+
+> [!NOTE]
+> Microsoft Teams is available for use as a web client, desktop client and a mobile client. In this module, we will use the web client but any of the clients can be used.
+
+Using the app bar navigation menu, select the **Mode added apps** button. Then select **App Studio**:
+
+![Screenshot of the More added apps dialog with App Studio](../media/03-app-studio-02.png)
+
+Select the **Manifest editor** tab and then the **Import an existing app** button:
+
+![Screenshot of App studio manifest editor screen](../media/03-app-studio-03.png)
+
+Locate and open the **./src/manifest/manifest.json** from your project. Select the **Conversational Bot** in the **Recently created apps** section of the page.
+
+First, update the **App ID** to match the ID of the bot you registered previously in the Azure AD app ID you obtained when registering the bot. You'll find this on the **(1) Details** > **App details** page:
+
+![Screenshot of the app details in App Studio](../media/03-app-studio-04.png)
+
+From the **(2) Capabilities** > **Bots** page, select **Set up** to add a bot to the manifest.
+
+Because you previously created a bot using the Microsoft Azure's Bot Framework, select **Existing bot** and set the following values and select **Save**:
+
+- **Bot ID**
+  - Connect to a different bot id: `<REPLACE_WITH_MICROSOFT_APP_ID>`
+- **Scope**: Personal, Team
+
+![Screenshot of setting up a bot](../media/03-app-studio-05.png)
+
+Within the **Commands** section, select **Add** to add a new command to the bot.
+
+On the **New command** dialog, enter the following values and select **Save**:
+
+- **Command text**: MentionMe
+- **Help text**: Sends message with @mention of the sender
+- **Scope**: Personal
+
+![Screenshot of the new bot](../media/03-app-studio-06.png)
+
+With the bot added to the Teams app, you need to update the manifest in your project. Fro the **(3) Finish** > **Test and distribute** section, select the **Download** button from the **Download** section.
+
+This will download the app package as a ZIP. Unpack the zip and copy the **manifest.json** file in it to your project, updating the existing **./src/manifest/manifest.json** file.
+
+In the **./src/manifest/manifest.json** file, verify `icons` property's values, and update if necessary, file names to match what's in the project
 
 Locate the property `id`. Change its value to match the GUID of the Azure AD app that was created when creating the bot in the Azure portal.
 
