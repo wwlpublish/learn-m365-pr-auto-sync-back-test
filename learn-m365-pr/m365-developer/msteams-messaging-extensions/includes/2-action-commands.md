@@ -105,7 +105,7 @@ The Bot Framework will send an `Activity` object to your web service of type `co
 
 The following code demonstrates a messaging extension web service, implemented using the Bot Framework SDK, that responds when an action command is invoked. This example implements the task module using an Adaptive card:
 
-```ts
+```typescript
 export class PlanetBot extends TeamsActivityHandler {
   protected handleTeamsMessagingExtensionFetchTask(context: TurnContext, action: MessagingExtensionAction): Promise<MessagingExtensionActionResponse> {
     // load card template
@@ -145,7 +145,7 @@ You have multiple options when receiving this message, including:
 
 The following code demonstrates a messaging extension web service, implemented using the Bot Framework SDK, that responds with a card that is either added as a response to a message, or added to the compose message box:
 
-```ts
+```typescript
 export class PlanetBot extends TeamsActivityHandler {
   protected handleTeamsMessagingExtensionSubmitAction(context: TurnContext, action: MessagingExtensionAction): Promise<MessagingExtensionActionResponse> {
     switch (action.commandId) {

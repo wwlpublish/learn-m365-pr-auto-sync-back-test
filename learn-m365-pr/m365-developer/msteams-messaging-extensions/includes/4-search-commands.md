@@ -53,7 +53,7 @@ If you include the property `initialRun` to `true`, your web service will receiv
 
 When your search action is invoked, the Bot Framework will send an `Activity` object to your web service of type `composeExtension/query` with the command id that you need to respond to with an object containing a `composeExtension` object within five seconds of receiving the request:
 
-```ts
+```typescript
 export class PlanetBot extends TeamsActivityHandler {
   protected handleTeamsMessagingExtensionQuery(context: TurnContext, query: MessagingExtensionQuery): Promise<MessagingExtensionResponse> {
     // get the search query

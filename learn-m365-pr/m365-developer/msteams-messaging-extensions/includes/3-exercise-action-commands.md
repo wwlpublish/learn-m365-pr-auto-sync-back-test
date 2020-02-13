@@ -182,7 +182,7 @@ Create a new file **planetBot.ts** in this new folder **./src/app/planetBot/plan
 
 Add the following code to the **planetBot.ts** file:
 
-```ts
+```typescript
 import {
   TeamsActivityHandler,
   TurnContext,
@@ -208,7 +208,7 @@ After creating the bot, the next step is to expose it as part of the app's REST 
 
 First, add the bot to the **./src/app/TeamsAppsComponents.ts** file by adding the following code to the end of that file:
 
-```ts
+```typescript
 export * from "./planetBot/planetBot";
 ```
 
@@ -218,7 +218,7 @@ Locate and open the web server file, **./src/app/server.ts**.
 
 Add the following two `import` statements after the existing `import` statements in the file:
 
-```ts
+```typescript
 import { BotFrameworkAdapter } from "botbuilder";
 import { PlanetBot } from "./planetBot/planetBot";
 ```
@@ -226,7 +226,7 @@ import { PlanetBot } from "./planetBot/planetBot";
 > [!TIP]
 > Locate the following lines in the **server.ts** file. These lines load all the components and registers them with the web server's REST API routing.
 >
-> ```ts
+> ```typescript
 > import * as allComponents from "./TeamsAppsComponents";
 > ...
 > express.use(MsTeamsApiRouter(allComponents));
@@ -234,7 +234,7 @@ import { PlanetBot } from "./planetBot/planetBot";
 
 The last step is to configure the bot framework and call the bot when requests are received through the `/api/messages` path. Add the following code to the end of the **./src/app/server.ts** file:
 
-```ts
+```typescript
 // register and load the bot
 const botAdapter = new BotFrameworkAdapter({
   appId: process.env.MICROSOFT_APP_ID,
@@ -460,7 +460,7 @@ npm install @types/lodash -D
 
 In the **./src/app/planetBot/planetBot.ts** file, add the following `import` statement to import two functions from Lodash into the bot:
 
-```ts
+```typescript
 import { find, sortBy } from "lodash";
 ```
 
@@ -468,7 +468,7 @@ import { find, sortBy } from "lodash";
 
 Implement the action command messaging extension by implementing a well-known method to the bot. Within the **./src/app/planetBot/planetBot.ts** file, update the `import` statement for the **botbuilder** package to include the objects `CardFactory`, `MessagingExtensionAction`, `MessagingExtensionActionResponse`, & `MessagingExtensionAttachment`:
 
-```ts
+```typescript
 import {
   TeamsActivityHandler,
   TurnContext,
@@ -479,7 +479,7 @@ import {
 
 Next, add the following method to the `PlanetBot` class:
 
-```ts
+```typescript
 protected handleTeamsMessagingExtensionFetchTask(context: TurnContext, action: MessagingExtensionAction): Promise<MessagingExtensionActionResponse> {
   // load planets & sort them by their order from the sun
   const planets: any = require("./planets.json");
@@ -615,7 +615,7 @@ Add a new file **planetDisplayCard.json** to the **./src/app/planetBot** folder 
 
 Next, add a handler to process the message when the messaging extension's Adaptive card is submitted. Add the following method to the `PlanetBot` class in the **./scr/app/planetBot/planetBot.ts**:
 
-```ts
+```typescript
 protected handleTeamsMessagingExtensionSubmitAction(context: TurnContext, action: MessagingExtensionAction): Promise<MessagingExtensionActionResponse> {
   switch (action.commandId) {
     case 'planetExpanderAction':
@@ -644,7 +644,7 @@ The `handleTeamsMessagingExtensionSubmitAction()` method first retrieves the pla
 
 Lastly, add the utility method `getPlanetDetailCard()` to the `PlanetBot` class in the **./scr/app/planetBot/planetBot.ts**:
 
-```ts
+```typescript
 private getPlanetDetailCard(selectedPlanet: any): MessagingExtensionAttachment {
   // load display card
   const adaptiveCardSource: any = require("./planetDisplayCard.json");

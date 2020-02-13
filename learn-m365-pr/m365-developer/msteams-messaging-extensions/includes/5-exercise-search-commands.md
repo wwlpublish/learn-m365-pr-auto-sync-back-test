@@ -40,7 +40,7 @@ Locate and open the bot in the file **./src/app/planetBot/planetBot.ts**.
 
 Update the `import` statement for the **botbuilder** package to include the objects `MessagingExtensionQuery` and `MessagingExtensionResponse`:
 
-```ts
+```typescript
 import {
   TeamsActivityHandler,
   TurnContext,
@@ -52,7 +52,7 @@ import {
 
 Next, add the following method to the `PlanetBot` class:
 
-```ts
+```typescript
 protected handleTeamsMessagingExtensionQuery(context: TurnContext, query: MessagingExtensionQuery): Promise<MessagingExtensionResponse> {
   // get the search query
   let searchQuery = "";
@@ -107,7 +107,7 @@ It will then take the query results, convert them to cards and add them to the `
 
 Lastly, add the following utility method to the `PlanetBot` class to create the card for each search result:
 
-```ts
+```typescript
 private getPlanetResultCard(selectedPlanet: any): MessagingExtensionAttachment {
   return CardFactory.heroCard(selectedPlanet.name, selectedPlanet.summary, [selectedPlanet.imageLink]);
 }

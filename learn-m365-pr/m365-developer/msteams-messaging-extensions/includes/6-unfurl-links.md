@@ -52,7 +52,7 @@ When a valid domain is detected by the Microsoft Teams client, the Bot Framework
 
 Your web service will respond with a similar response as the search command. However, if you return multiple attachments, only the first one in the collection will be used by the Microsoft Teams client
 
-```ts
+```typescript
 export class PlanetBot extends TeamsActivityHandler {
   protected handleTeamsAppBasedLinkQuery(context: TurnContext, query: AppBasedLinkQuery): Promise<MessagingExtensionResponse> {
     // load planets

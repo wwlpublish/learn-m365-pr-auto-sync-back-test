@@ -40,7 +40,7 @@ Locate and open the bot in the file **./src/app/planetBot/planetBot.ts**.
 
 Update the `import` statement for the **botbuilder** package to include the object `AppBasedLinkQuery`:
 
-```ts
+```typescript
 import {
   TeamsActivityHandler,
   TurnContext,
@@ -53,7 +53,7 @@ import {
 
 Next, add the following method to the `PlanetBot` class:
 
-```ts
+```typescript
 protected handleTeamsAppBasedLinkQuery(context: TurnContext, query: AppBasedLinkQuery): Promise<MessagingExtensionResponse> {
   // load planets
   const planets: any = require("./planets.json");
