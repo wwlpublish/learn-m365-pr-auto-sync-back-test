@@ -40,8 +40,8 @@ A conversational bot consists of three things:
 
 Bots for Microsoft Teams are built on the [Microsoft Bot Framework](https://dev.botframework.com/). Microsoft recommends you use either C# or Node.js to take advantage of our [SDKs](https://docs.microsoft.com/microsoftteams/platform/#pivot=sdk-tools). These packages extend the basic Bot Builder SDK classes and methods:
 
-- use specialized card types such as the Office 365 Connector card
-- consume and set Microsoft Teams-specific channel data on activities
+- use specialized card types such as adaptive cards
+- send and receive Microsoft Teams channel-specific data on activities
 - process messaging extension requests
 
 ## How are bots in Microsoft Teams unique?
