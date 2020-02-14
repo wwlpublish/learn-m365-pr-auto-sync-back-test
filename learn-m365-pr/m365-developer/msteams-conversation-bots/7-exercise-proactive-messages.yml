@@ -1,0 +1,28 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msteams-conversation-bots.7-exercise-proactive-messages
+metadata:
+  title: Exercise - Proactive messages from bots
+  description: In this exercise, you’ll update the existing Teams app to send a proactive message from your bot.
+  ms.date: 2/12/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Proactive messages from bots
+durationInMinutes: 5
+content: |
+  [!include[](includes/7-exercise-proactive-messages.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "What do you need to do so a bot can send proactive messages to a channel or group conversation?"
+    choices:
+    - content: "The bot must be registered with the Microsoft Teams app and installed in a team/chat."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Once the bot is registered with the Microsoft Teams app, installed in a team/chat, and be @mentioned at least one time in a message."
+      isCorrect: false
+      explanation: "Installed bots can send proactive messages to channel conversations and group chats. They don't need to be @mentioned."
+    - content: "The bot registration the Microsoft Teams app manifest must have the `canSendProactiveMessages` flag set to `true`."
+      isCorrect: false
+      explanation: "The `canSendProactiveMessages` flag doesn't exist."

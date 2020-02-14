@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn-m365.msteams-conversation-bots
+metadata:
+  title: Create interactive conversational bots for Microsoft Teams
+  description: Learn how to create interactive bots and integrate them in Microsoft Teams apps.
+  ms.date: 2/12/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Create interactive conversational bots for Microsoft Teams
+summary: Conversational bots allow users to interact with your web service through text, interactive cards, and task modules. Conversational bots can be scoped to handling a few simple commands or complex, artificial intelligence powered and natural language processing virtual assistants. They can be one aspect of a larger application, or completely stand alone. In this module, you’ll learn how to create and add bots to custom Microsoft Teams apps.
+abstract: |
+  At the end of this module, you should be able to:
+  - Demonstrate how to create a conversation bot for Microsoft Teams
+  - Demonstrate how to subscribe to and respond to events in a conversation bot in Microsoft Teams
+  - Demonstrate how to incorporate authentication in a conversation bot in Microsoft Teams
+prerequisites: |
+  - Experience using Microsoft Teams at the intermediate level
+  - Ability to program with JavaScript, TypeScript, and Node.js
+  - Experience using Visual Studio Code at the intermediate level
+  - Access to a Microsoft 365 tenant
+  - Access to a Microsoft Azure subscription
+iconUrl: /learn/achievements/msteams-conversation-bots.svg
+levels:
+  - intermediate
+roles:
+  - developer
+products:
+  - m365
+  - office-teams
+units:
+  - learn-m365.msteams-conversation-bots.1-introduction
+  - learn-m365.msteams-conversation-bots.2-conversation-bots
+  - learn-m365.msteams-conversation-bots.3-exercise-conversation-bots
+  - learn-m365.msteams-conversation-bots.4-channel-bots
+  - learn-m365.msteams-conversation-bots.5-exercise-channel-bots
+  - learn-m365.msteams-conversation-bots.6-proactive-messages
+  - learn-m365.msteams-conversation-bots.7-exercise-proactive-messages
+  - learn-m365.msteams-conversation-bots.8-summary
+badge:
+  uid: learn-m365.msteams-conversation-bots.badge
