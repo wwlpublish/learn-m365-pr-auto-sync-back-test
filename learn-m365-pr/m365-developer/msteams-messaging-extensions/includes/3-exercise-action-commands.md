@@ -277,7 +277,7 @@ Locate and open the **./src/manifest/manifest.json**.
 
 Locate the property `id`. Change it's value to match the GUID of the Azure AD app that was created when creating the bot in the Azure portal.
 
-Locate the popery `composeExtensions`. Add a new action command messaging extension to the collection of extensions registered with this Microsoft Teams app by updating the `composeExtensions` property the following JSON. This code will add our action command to the compose box and the action command in a message when it is installed.
+Locate the property `composeExtensions`. Add a new action command messaging extension to the collection of extensions registered with this Microsoft Teams app by updating the `composeExtensions` property the following JSON. This code will add our action command to the compose box and the action command in a message when it is installed.
 
 ```json
 "composeExtensions": [
@@ -312,7 +312,7 @@ In this section, you will code the action command for the messaging extension. Y
 
 ### Add a data set of planet details
 
-A production application would typically retrieve data from an external source such as a REST API or a database. However, for simpicity in this exercise, you'll use an in-memory dataset.
+A production application would typically retrieve data from an external source such as a REST API or a database. However, for simplicity in this exercise, you'll use an in-memory dataset.
 
 Add a new file **planets.json** to the **./src/app/planetBot** folder and add the following JSON to it:
 
