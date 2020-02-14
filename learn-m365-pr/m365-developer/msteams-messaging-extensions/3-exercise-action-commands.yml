@@ -1,0 +1,42 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msteams-messaging-extensions.3-exercise-action-commands
+metadata:
+  title: Exercise - Create action command messaging extensions
+  description: In this exercise, you'll create an action command messaging extension for a custom Microsoft Teams app.
+  ms.date: 2/12/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Create action command messaging extensions
+durationInMinutes: 25
+content: |
+  [!include[](includes/3-exercise-action-commands.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "What is a unique advantage of invoking an action command from a message over the other options (command bar and compose box)?"
+    choices:
+    - content: "The action command response can reply to the message that invoked the command, and the bot can update or delete the response."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "The action command response can update or delete any message, using a bot, that invoked the command."
+      isCorrect: false
+      explanation: "Bots can only update or delete messages they created, not any message."
+    - content: "None... message invoked action commands have all the same capabilities and limitations as the other locations that can invoke them (command bar and compose box)."
+      isCorrect: false
+      explanation: "Unlike the other options, a message invoked action command can update, via the bot, a response to the message because it created the response."
+  - content: "What type of activity message does the Bot Framework send to your web service to invoke an action command?"
+    choices:
+    - content: "composeExtension/queryLink"
+      isCorrect: false
+      explanation: "The `queryLink` message type is sent when an unfurl message handler is invoked."
+    - content: "composeExtension/fetchTask"
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "composeExtension/query"
+      isCorrect: false
+      explanation: "The `query` message type is sent from search command submissions."
+    - content: "composeExtension/submitAction"
+      isCorrect: false
+      explanation: "The `submitAction` message type is sent when action commands are submitted."

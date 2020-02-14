@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn-m365.msteams-messaging-extensions
+metadata:
+  title: Task-oriented interactions in Microsoft Teams with messaging extensions
+  description: Learn how to interact with users in Microsoft Teams with messaging extensions.
+  ms.date: 2/12/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Task-oriented interactions in Microsoft Teams with messaging extensions
+summary: In this module, you’ll learn how to create different types of messaging extensions in a custom Microsoft Teams app.
+abstract: |
+  At the end of this module, you should be able to:
+  - Demonstrate how to create an action-based messaging extension for Microsoft Teams
+  - Demonstrate how to create search-based messaging extension for Microsoft Teams
+  - Demonstrate how to unfurl a URL with messaging extension for Microsoft Teams
+prerequisites: |
+  - Experience using Microsoft Teams at the intermediate level
+  - Ability to program with JavaScript, TypeScript, and Node.js
+  - Experience using Visual Studio Code at the intermediate level
+  - Access to a Microsoft 365 tenant
+  - Access to a Microsoft Azure subscription
+iconUrl: /learn/achievements/msteams-messaging-extensions.svg
+levels:
+  - intermediate
+roles:
+  - developer
+products:
+  - m365
+  - office-teams
+units:
+  - learn-m365.msteams-messaging-extensions.1-introduction
+  - learn-m365.msteams-messaging-extensions.2-action-commands
+  - learn-m365.msteams-messaging-extensions.3-exercise-action-commands
+  - learn-m365.msteams-messaging-extensions.4-search-commands
+  - learn-m365.msteams-messaging-extensions.5-exercise-search-commands
+  - learn-m365.msteams-messaging-extensions.6-unfurl-links
+  - learn-m365.msteams-messaging-extensions.7-exercise-unfurl-links
+  - learn-m365.msteams-messaging-extensions.8-summary
+badge:
+  uid: learn-m365.msteams-messaging-extensions.badge
