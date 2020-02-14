@@ -1,0 +1,50 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msteams-conversation-bots.3-exercise-conversation-bots
+metadata:
+  title: Exercise - Creating conversational bots for Microsoft Teams
+  description: In this exercise, you’ll learn how to create and add a new bot to a Microsoft Teams app and interact with it from the Microsoft Teams client.
+  ms.date: 2/12/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Creating conversational bots for Microsoft Teams
+durationInMinutes: 25
+content: |
+  [!include[](includes/3-exercise-conversation-bots.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "Where can a bot interact with a user in the Microsoft Teams client?"
+    choices:
+    - content: "In the Conversations tab within a team channel, a group chat, and in a personal 1:1 chat."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Only in the Conversations tab within a team channel and in a personal 1:1 chat."
+      isCorrect: false
+      explanation: "A bot can interact with a user in a channel, group chat, and personal 1:1 chat."
+    - content: "Only in a personal 1:1 chat."
+      isCorrect: false
+      explanation: "A bot can interact with a user in a channel, group chat, and personal 1:1 chat."
+  - content: "What messages does a bot have access to in Microsoft Teams clients?"
+    choices:
+    - content: "All messages in a personal 1:1 chat between the user and the bot. All messages in a team or group chat where a bot is installed."
+      isCorrect: false
+      explanation: "A bot has access to all messages in a personal 1:1 chat. It also has access to all messages in team channels and group chats where its @mentioned."
+    - content: "All messages in a personal 1:1 chat between the user and the bot. All messages where the bot is @mentioned in a teams channel conversation or a group chat."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "All messages in a personal 1:1 chat between the user and the bot. All messages in a team where a bot is installed. All messages in a group chat when the bot is @mentioned."
+      isCorrect: false
+      explanation: "A bot has access to all messages in a personal 1:1 chat. It also has access to all messages in team channels and group chats where its @mentioned."
+  - content: "How does Microsoft Teams send and receive messages from your web service that implements the conversational bot?"
+    choices:
+    - content: "The bot registration in the Microsoft Teams app manifest includes the URI to the HTTPS endpoint of the web service and include the app ID of the Azure AD app that represents the bot."
+      isCorrect: false
+      explanation: "The web service must be registered with the Microsoft Bot Framework. Microsoft Teams is associated with the bot using the bot's Azure AD app ID."
+    - content: "The bot registration in the Microsoft Teams app manifest includes the URI to the HTTPS endpoint of the web service."
+      isCorrect: false
+      explanation: "The web service must be registered with the Microsoft Bot Framework. Microsoft Teams is associated with the bot using the bot's Azure AD app ID."
+    - content: "Microsoft Teams sends messages through a specific channel with the web services registered as a bot in the Microsoft Bot Framework"
+      isCorrect: true
+      explanation: "Correct!"
