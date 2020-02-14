@@ -325,6 +325,9 @@ Using the free tool [Postman](https://www.postman.com/), create a new request to
 
     ![Screenshot of the Body tab in Postman](../media/07-test-setupApp-10.png)
 
+    > [!IMPORTANT]
+    > Connectors, like incoming webhooks, only support Office 365 Connector Cards for messages sent to Microsoft Teams. Adaptive cards aren't supported when sending messages with cards when using Connectors or incoming webhooks.
+
 Select the **Send** button in Postman. When you go back to the channel, you will see the card displayed as a message in the team:
 
 ![Screenshot of the rendered card in the team](../media/07-test-setupApp-11.png)
