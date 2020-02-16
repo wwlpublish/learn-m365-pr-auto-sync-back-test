@@ -296,7 +296,7 @@ private static getPlanetDetailCard(selectedPlanet: any): builder.Attachment {
 }
 ```
 
-Next, add the following method ot the `TeamsWebhooksOutgoingWebhook` class. The `processAuthenticatedRequest()` method takes the incoming text uses it to find a planet in the **planets.json** file. If it finds one, it calls the `getPlanetDetailCard()` method to get an adaptive card and returns it as an `Activity` that will be sent back to Microsoft Teams. If a planet isn't found, it just echos the text back in a reply to the request:
+Next, add the following method ot the `TeamsWebhooksOutgoingWebhook` class. The `processAuthenticatedRequest()` method takes the incoming text uses it to find a planet in the **planets.json** file. If it finds one, it calls the `getPlanetDetailCard()` method to get an adaptive card and returns it as an `Activity` that will be sent back to Microsoft Teams. If a planet isn't found, it just echoes the text back in a reply to the request:
 
 ```typescript
 private static processAuthenticatedRequest(incomingText: string): Partial<builder.Activity> {
