@@ -59,7 +59,7 @@ Our web service will need one more NPM package to simplify finding data in an ar
 npm install lodash -S
 ```
 
-## Code the outgoing webhoook
+## Code the outgoing webhook
 
 The Yeoman Generator for Microsoft Teams created a stub web service endpoint for our outgoing webhook. Locate and open the file **./src/app/teamsWebhooksOutgoingWebhook/TeamsWebhooksOutgoingWebhook.ts**. It listens for HTTPS requests at the endpoint **/api/webhook**.
 
@@ -71,7 +71,7 @@ Locate the following code:
 message.text = `Echo ${incoming.text}`;
 ```
 
-This code simply echos the string entered in the message back to Microsoft Teams that will be added in a reply to the message that triggered the webhook.
+This code simply echoes the string entered in the message back to Microsoft Teams that will be added in a reply to the message that triggered the webhook.
 
 Let's update this code to add some real functionality. When a user @mentions the bot, if they enter the name of a known planet of our solar system, it will respond with an adaptive card that displays details of the planet.
 
@@ -410,4 +410,4 @@ You've successfully tested your outgoing webhook! Stop the local web server by p
 
 ## Summary
 
-In this exercise, you’ll learn how to create a web service and register it as an outgoing webhook in Microsoft Teams.
+In this exercise, you learned how to create a web service and register it as an outgoing webhook in Microsoft Teams.

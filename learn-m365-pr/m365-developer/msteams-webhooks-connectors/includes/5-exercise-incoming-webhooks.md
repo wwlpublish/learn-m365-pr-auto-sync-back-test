@@ -103,4 +103,4 @@ In the browser, navigate back to the **Conversations** tab in the channel where 
 
 ## Summary
 
-In this exercise, you’ll learn how to register an incoming webhook in a Microsoft Teams channel and post a message to it.
+In this exercise, you learned how to register an incoming webhook in a Microsoft Teams channel and post a message to it.

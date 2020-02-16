@@ -176,33 +176,33 @@ Once you are signed in, the first step is to install the Microsoft Teams app.
 
 Select a team, select the action menu on the team and select **Manage team**:
 
-![Screenshot of the team's action menu](../media/07-test-setupApp-01.png)
+![Screenshot of the team's action menu](../media/07-test-setup-app-01.png)
 
 Select the **Apps** tab and then the **More apps** button:
 
-![Screenshot of the Manage team page](../media/07-test-setupApp-02.png)
+![Screenshot of the Manage team page](../media/07-test-setup-app-02.png)
 
 From the **Browse available apps and services**, select the **Upload a custom app > Upload for [tenant]** at the bottom of the **Apps** panel of categories. Select the Microsoft Teams app package, the **MyFirstTeamsConnector.zip** file in the **./package** folder of your project.
 
 After uploading the app, Microsoft Teams will display it on the list of apps installed under the **Build for [tenant]** category page:
 
-![Screenshot of the installed app](../media/07-test-setupApp-03.png)
+![Screenshot of the installed app](../media/07-test-setup-app-03.png)
 
 Once installed, you can now add the Connector to a team. You can do this from the app by selecting it, then select the **Add to a team** button and enter the team...
 
-![Screenshot of the app details](../media/07-test-setupApp-04.png)
+![Screenshot of the app details](../media/07-test-setup-app-04.png)
 
 ... or you can add it directly to a team. Let's use this first option. Select the **Add to a team** button and select a team to add the Connector to:
 
-![Screenshot of the Add to a team dialog](../media/07-test-setupApp-05.png)
+![Screenshot of the Add to a team dialog](../media/07-test-setup-app-05.png)
 
 On the **Connectors for... channel in ... team** page, select the **Others** category and scroll to the bottom. You will see your connector under the **Sideloaded** section:
 
-![Screenshot listing all Connectors available to a team](../media/07-test-setupApp-06.png)
+![Screenshot listing all Connectors available to a team](../media/07-test-setup-app-06.png)
 
 Select the **Configure** button for the Connector. This will display the configuration page from our project:
 
-![Screenshot of the Connector configuration page](../media/07-test-setupApp-07.png)
+![Screenshot of the Connector configuration page](../media/07-test-setup-app-07.png)
 
 Select a color and then select the **Save** button.
 
@@ -210,15 +210,15 @@ This will trigger the configuration page to call the web service's `/connect` en
 
 With the Connector saved, the next step is to see it post to a channel. Do this by submitting an HTTPS request to the web service's `/ping` endpoint. To do this, you need to know the dynamic URL created by the ngrok utility. You can retrieve this from the command prompt as it was displayed when you started the `gulp ngrok-serve` task:
 
-![Screenshot of the ngrok URL](../media/07-test-setupApp-08.png)
+![Screenshot of the ngrok URL](../media/07-test-setup-app-08.png)
 
 Using the free tool [Postman](https://www.postman.com/), create a new request to the point endpoint:
 
 - set the `Content-Type` header to `application/json` on the **Headers** tab:
 
-    ![Screenshot of the Headers tab in Postman](../media/07-test-setupApp-09.png)
+    ![Screenshot of the Headers tab in Postman](../media/07-test-setup-app-09.png)
 
-- add the following JSON to the **Body** tab and select the **raw** option (*make sure to update the URL of the image in the `sections[0].activityTile` property so the image renders when the message is set to Microsoft Teams):
+- add the following JSON to the **Body** tab and select the **raw** option (*make sure to update the URL of the image in the `sections[0].activityTile` property so the image renders when the message is set to Microsoft Teams*):
 
     ```json
     {
@@ -323,15 +323,15 @@ Using the free tool [Postman](https://www.postman.com/), create a new request to
     }
     ```
 
-    ![Screenshot of the Body tab in Postman](../media/07-test-setupApp-10.png)
+    ![Screenshot of the Body tab in Postman](../media/07-test-setup-app-10.png)
 
     > [!IMPORTANT]
     > Connectors, like incoming webhooks, only support Office 365 Connector Cards for messages sent to Microsoft Teams. Adaptive cards aren't supported when sending messages with cards when using Connectors or incoming webhooks.
 
 Select the **Send** button in Postman. When you go back to the channel, you will see the card displayed as a message in the team:
 
-![Screenshot of the rendered card in the team](../media/07-test-setupApp-11.png)
+![Screenshot of the rendered card in the team](../media/07-test-setup-app-11.png)
 
 ## Summary
 
-In this unit, you’ll learn how to create an Office 365 Connector and add it to Microsoft Teams.
+In this unit, you learned how to create an Office 365 Connector and add it to Microsoft Teams.
