@@ -1,0 +1,33 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msteams-webhooks-connectors.7-exercise-o365-connectors
+metadata:
+  title: Exercise - Create and add Office 365 Connectors to teams
+  description: In this exercise, you’ll learn how to create an Office 365 Connector and add it to Microsoft Teams.
+  ms.date: 2/18/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Create and add Office 365 Connectors to teams
+durationInMinutes: 20
+content: |
+  [!include[](includes/7-exercise-o365-connectors.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "How do Office 365 Connectors differ from incoming webhooks?"
+    choices:
+    - content: "Incoming webhooks make for an easier setup experience because the user doesn't have to manually copy the incoming webhook endpoint to the web service; the configuration page can send it to the web service from the configuration page. However, Office 365 Connectors don't have configuration pages that can do this."
+      isCorrect: false
+      explanation: ""
+    - content: "Office 365 Connectors make for an easier setup experience because the user doesn't have to manually copy the incoming webhook endpoint to the web service; the configuration page can send it to the web service from the configuration page. However, incoming webhooks don't have configuration pages that can do this."
+      isCorrect: true
+      explanation: "Correct!"
+  - content: "What is required to implement an Office 365 Connector for Microsoft Teams?"
+    choices:
+    - content: "A developer must register the Connector with the Connector Developer Dashboard, create the web service or app that implements the Connector and include it in a Microsoft Teams app manifest that is deployed to Microsoft Teams or AppSource."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "A developer must create the web service or app that implements the Connector and include it in a Microsoft Teams app manifest that is deployed to Microsoft Teams or AppSource."
+      isCorrect: false
+      explanation: "The Office 365 Connector must also be registered in the Connector Developer Dashboard."
