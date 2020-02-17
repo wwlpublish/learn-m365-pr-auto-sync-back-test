@@ -1,0 +1,42 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msgraph-access-file-data.3-exercise-access-files-onedrive
+metadata:
+  title: Exercise - Access and download files from OneDrive
+  description: In this exercise, you’ll learn how to get lists and individual files from OneDrive with Microsoft Graph. Microsoft Graph can be used to get a list of files, or download an individual file using its unique ID or with a relative path to the file in a SharePoint site.
+  ms.date: 01/07/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Exercise - Access and download files from OneDrive
+durationInMinutes: 15
+content: |
+  [!include[](includes/3-exercise-access-files-onedrive.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "Developers can access files with Microsoft Graph from which of the following entity types?"
+    choices:
+    - content: "Only files stored in an Office 365 group"
+      isCorrect: false
+      explanation: "Microsoft Graph isn't limited to files in Office 365 groups."
+    - content: "Only an individual user's files in OneDrive for Business."
+      isCorrect: false
+      explanation: "Microsoft Graph isn't limited to files in a user's OneDrive account."
+    - content: "Only files from a SharePoint Online site."
+      isCorrect: false
+      explanation: "Microsoft Graph isn't limited to files in SharePoint sites."
+    - content: "Files from all of these entity types (users, groups, and SharePoint sites) are accessible with Microsoft Graph."
+      isCorrect: true
+      explanation: "Correct!"
+  - content: "What is returned when submitting a request to the Microsoft Graph endpoint `/me/drive/root`?"
+    choices:
+    - content: "Information about currently signed-in user's root OneDrive folder, such as the location of the folder and quota information."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "All the files of the currently signed-in user's root OneDrive folder, but not the subfolders."
+      isCorrect: false
+      explanation: "The `root` endpoint doesn't include any of the contents fo the folder; it only contains information about the folder."
+    - content: "All the files and folders of the currently signed-in user's root OneDrive folder."
+      isCorrect: false
+      explanation: "The `root` endpoint doesn't include any of the contents fo the folder; it only contains information about the folder."

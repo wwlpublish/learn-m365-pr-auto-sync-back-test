@@ -1,0 +1,45 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msteams-messaging-extensions.7-exercise-unfurl-links
+metadata:
+  title: Exercise - Implement link unfurling messaging extensions
+  description: In this exercise, you’ll learn how to add link unfurling to your Microsoft Teams app and how to implement this type of messaging extension.
+  ms.date: 2/12/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Implement link unfurling messaging extensions
+durationInMinutes: 12
+content: |
+  [!include[](includes/7-exercise-unfurl-links.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "In order for a messaging extention to unfurl a URL, the domain needs to be listed in following location(s) of the app manifest:"
+    choices:
+    - content: "Only in the `messageHandlers[#].value.domains` property."
+      isCorrect: false
+      explanation: "In both the `messageHandlers[#].value.domains` or `validDomains` properties."
+    - content: "Only in the `validDomains` property."
+      isCorrect: false
+      explanation: "In both the `messageHandlers[#].value.domains` or `validDomains` properties."
+    - content: "In either the `messageHandlers[#].value.domains` or `validDomains` properties."
+      isCorrect: false
+      explanation: "The domain must be listed in both properties."
+    - content: "In both the `messageHandlers[#].value.domains` or `validDomains` properties."
+      isCorrect: true
+      explanation: "Correct!"
+  - content: "What type of activity message does the Bot Framework send to your web service to unfurl a URL?"
+    choices:
+    - content: "composeExtension/queryLink"
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "composeExtension/fetchTask"
+      isCorrect: false
+      explanation: "The `fetchTask` message type is sent when an action command is invoked."
+    - content: "composeExtension/query"
+      isCorrect: false
+      explanation: "The `query` message type is sent from search command submissions."
+    - content: "composeExtension/submitAction"
+      isCorrect: false
+      explanation: "The `submitAction` message type is sent when action commands are submitted."

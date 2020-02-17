@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.identity-application-types.5-exercise-web-apps-call-apis
+metadata:
+  title: Exercise - Web apps that sign in users & call APIs
+  description: In this unit, you’ll learn how to create server-side web apps that allow users to sign in and grant the app permissions to act on the user’s behalf. One the user has authenticated and granted the app consent to act on their behalf, the web application will use data returned from Microsoft Graph by using the OAuth 2.0 auth code grant flow.
+  ms.date: 12/16/2019
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Web apps that sign in users & call APIs
+durationInMinutes: 15
+content: |
+  [!include[](includes/5-exercise-web-apps-call-apis.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "Which of the following unique characteristics of the authorization code grant flow makes it a preferred option for securing web apps?"
+    choices:
+    - content: "The web app never has access to the user's credentials because the user signs in with Azure AD, not with the app."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "All communication between the web app and Azure AD is secured."
+      isCorrect: false
+      explanation: "All traffic with Azure AD is secured regardless of the OAuth 2.0 flow that's used."
+    - content: "The web app authenticates with Azure AD using a x509 certificate when obtaining an access token."
+      isCorrect: false
+      explanation: "The authorization code grant flow doesn't require the use of a certificate when the web app authenticates with Azure AD."
+  - content: "What elements are required to create, configure and/or collect when registering an Azure AD app for use with the OAuth 2.0 authorization code grant flow?"
+    choices:
+    - content: "Tenant ID, application ID, application secret, and the redirect URI"
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Application ID, application secret, and the redirect URI."
+      isCorrect: false
+      explanation: "The tenant ID is also required when setting the authority in the Azure AD configuration."
+    - content: "Tenant ID, application ID, and the application secret."
+      isCorrect: false
+      explanation: "The redirect URI is also required because Azure AD needs to know where to redirect the user after a successful sign-in."

@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.identity-permissions-consent.7-exercise-application-permissions-consent
+metadata:
+  title: Exercise - Application permissions and consent
+  description: In this unit, you’ll learn about application permissions, how to define them and how to grant them using a different type of consent flow in your apps.
+  ms.date: 12/16/2019
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Application permissions and consent
+durationInMinutes: 15
+content: |
+  [!include[](includes/7-exercise-application-permissions-consent.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "Application permissions differ from delegated permissions in all except which of the following ways?"
+    choices:
+    - content: "Application permissions are for when there's no user interaction while delegated permissions involve interaction of a signed-in user."
+      isCorrect: false
+      explanation: "This is a correct statement."
+    - content: "Application permissions are granted by a user to the application to act on their behalf while delegated permissions are granted by an application to a user."
+      isCorrect: true
+      explanation: "Correct! Delegated permissions are those where a user grants a permission to an application to act on their behalf."
+    - content: "Application permissions are higher-privileged permissions than delegated permissions."
+      isCorrect: false
+      explanation: "This is true as application permissions are used to access organizational wide data."
+  - content: "To grant application permissions, which of the following statements isn't a valid option?"
+    choices:
+    - content: "Send a user to the application consent endpoint with the proper parameters on the query string."
+      isCorrect: true
+      explanation: "Correct! There isn't an application consent endpoint."
+    - content: "Send a user to the admin consent endpoint with the proper parameters on the query string."
+      isCorrect: false
+      explanation: "This is a valid option."
+    - content: "Select the 'Grant admin consent' button within the Azure AD admin center that will display an admin consent."
+      isCorrect: false
+      explanation: "This is a valid option."

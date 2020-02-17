@@ -15,14 +15,14 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "What does the Readiness Toolkit Report Creator scan for in Office versions as far back as Office 2003?"
+    - content: "Any COM add-ins and VBA macros your organization used on previous versions of Office (back to Office 2010) will continue to work on the latest versions of Office without modification."
       choices:
-      - content: "VBA macros and COM add-ins"
+      - content: "True"
         isCorrect: true
-        explanation: "Yes, this is true. The Readiness Toolkit Report Creator can scan for VBA macros and COM add-ins as far back as Office 2003."
-      - content: "Web-based Office add-ins"
+        explanation: "True. Any COM add-ins and VBA macros your organization used on previous versions of Office (back to Office 2010) will continue to work on the latest versions of Office without modification."
+      - content: "False"
         isCorrect: false
-        explanation: "No, the Readiness Toolkit Report Creator doesn't scan for web-based Office add-ins."
+        explanation: "False. Any COM add-ins and VBA macros your organization used on previous versions of Office (back to Office 2010) will continue to work on the latest versions of Office without modification."
       
     - content: "In the first step of the readiness process, which tools are used to create an inventory?"
       choices:

@@ -277,14 +277,14 @@ In the last section exercise, you modified the application to implement a strate
 
 Let's change the application to use the Microsoft Graph SDK client, which has all the logic built in for implementing the retry strategy when a request is throttled.
 
-### Update the `GetAuthenticatedHttpClient` method
+### Update the `GetAuthenticatedHTTPClient` method
 
 The application will use the Microsoft Graph SDK to submit requests, not the **HttpClient**, so you need to update it.
 
-Locate the method `GetAuthenticatedHttpClient` and make the following changes to it:
+Locate the method `GetAuthenticatedHTTPClient` and make the following changes to it:
 
 - set the return type from `HttpClient` to `GraphServiceClient`
-- rename the method from `GetAuthenticatedHttpClient` to `GetAuthenticatedGraphClient`
+- rename the method from `GetAuthenticatedHTTPClient` to `GetAuthenticatedGraphClient`
 - replace the last two lines in the method with the following lines to obtain and return an instance of the `GraphServiceClient`:
 
     ```cs

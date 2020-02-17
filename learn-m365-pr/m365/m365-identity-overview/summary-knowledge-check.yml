@@ -15,7 +15,7 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Question: Why do today’s security analysts sometimes describe identity security as “the new control plane?"
+    - content: "Why do today’s security analysts sometimes describe identity security as *the new control plane*?"
       choices:
       - content: "In the time of mainframes and local identities, IT was not concerned about identity management, but with the advent of cloud computing it’s become significant."
         isCorrect: false
@@ -31,7 +31,7 @@ quiz:
       - content: "Sophisticated attackers can exploit software vulnerabilities by inserting malicious code in webpages and thereby gain access to credentials stored on users’ devices."
         isCorrect: false
         explanation: "Users don’t always store credentials on their devices, but smart hackers use social engineering techniques to trick users into divulging credentials."
-      - content: "Because users access organization data through mobile devices and cloud apps, they must remember numerous passwords, and hackers can exploit this weakness."
+      - content: "Because users access organizational data through mobile devices and cloud apps, they must remember numerous passwords, and hackers can exploit this weakness."
         isCorrect: true
         explanation: "Because users find it difficult to remember numerous personal and work passwords, they tend to use weak or duplicate passwords that are vulnerable to identity theft and brute force attacks."
       - content: "Most organizations now store workforce credentials in the cloud where they are increasingly vulnerable to attack."

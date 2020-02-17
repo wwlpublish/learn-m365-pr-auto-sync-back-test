@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msgraph-access-user-data.2-reading-users
+metadata:
+  title: Working with users in the organization
+  description: In this unit, you’ll learn the basics of working with users with Microsoft Graph. Working with users requires a user and app be granted specific permissions, some that can be granted by a user while others must be granted by an administrator.
+  ms.date: 11/18/2019
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Working with users in the organization
+durationInMinutes: 10
+content: |
+  [!include[](includes/2-reading-users.md)]

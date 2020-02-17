@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msgraph-build-aspnetmvc-apps.4-add-auth
+metadata:
+  title: Microsoft Graph and Microsoft identity
+  description: In this unit, the focus is on the Azure Active Directory (AD). You'll learn how to use the Azure AD admin center to register an application, set up app's credentials, and configure the type of the application. Next, you'll learn how to modify an existing ASP.NET MVC application so it will work with Azure AD.
+  ms.date: 1/17/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Microsoft Graph and Microsoft identity
+durationInMinutes: 5
+content: |
+  [!include[](includes/4-add-auth.md)]

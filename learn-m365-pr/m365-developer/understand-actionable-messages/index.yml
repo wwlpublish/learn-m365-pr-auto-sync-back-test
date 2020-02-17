@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn-m365-pr.understand-actionable-messages
+metadata:
+  title: Understand Actionable Messages in Outlook fundamentals
+  description: Learn the fundamentals of Actionable Messages in Outlook.
+  ms.date: 01/16/2020
+  author: jasonjoh
+  ms.author: jasonjoh
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Understand Actionable Messages in Outlook fundamentals
+summary: Actionable Messages enable you to extend the functionality of email messages in Outlook to give recipients the ability to take quick actions in an Adaptive Card without leaving Outlook. In this module, you'll explore what's possible with Actionable Messages. You'll also learn about what's required for an Actionable Message solution, and how to register your service to send Actionable Messages to Microsoft 365 users.
+abstract: |
+  By the end of this module, you should know about:
+  - Actionable Messages
+  - The registration process for sending Actionable Messages
+  - The types of actions possible in Actionable Messages
+  - Security features of Actionable Messages
+prerequisites: None
+iconUrl: /learn/achievements/understand-actionable-messages.svg
+levels:
+  - beginner
+roles:
+  - developer
+products:
+  - office-outlook
+  - office-adaptive-cards
+  - m365
+units:
+- learn-m365-pr.understand-actionable-messages.1-introduction
+- learn-m365-pr.understand-actionable-messages.2-format
+- learn-m365-pr.understand-actionable-messages.3-actions
+- learn-m365-pr.understand-actionable-messages.4-registration
+- learn-m365-pr.understand-actionable-messages.5-security-requirements
+- learn-m365-pr.understand-actionable-messages.6-knowledge-check
+- learn-m365-pr.understand-actionable-messages.7-summary
+badge:
+  uid: learn-m365-pr.understand-actionable-messages.badge

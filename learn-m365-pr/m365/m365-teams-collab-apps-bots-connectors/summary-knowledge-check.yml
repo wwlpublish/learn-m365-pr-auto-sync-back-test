@@ -20,10 +20,13 @@ quiz:
       choices:
       - content: "Microsoft Teams apps are Microsoft applications such as Office and OneNote."
         isCorrect: false
-        explanation: "Microsoft Teams apps provide out-of-the-box tools for your organization to get more out of Teams. But they are not specific to Teams."
-      - content: "Microsoft Teams apps are special apps created specifically for Teams."
+        explanation: "Office and OneNote are Microsoft applications but not Teams apps."
+      - content: "By default, Microsoft Teams apps are turned off for all users."
         isCorrect: false
-        explanation: "Microsoft Teams apps provide out-of-the-box tools for your organization to get more out of Teams. But they are not specific to Teams."
+        explanation: "By default, Microsoft Teams apps are turned on for all users."
+      - content: "Users cannot change the default settings for individual apps.    "
+        isCorrect: false
+        explanation: "Users can change the default settings for individual apps."
       - content: "Microsoft Teams apps provide out-of-the-box tools for your organization to get more out of Teams."
         isCorrect: true
         explanation: "Microsoft Teams apps provide out-of-the-box tools for your organization to get more out of Teams."

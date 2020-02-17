@@ -15,14 +15,14 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "If your organization uses Office 365 services like Exchange Online or SharePoint Online, you’re already using Azure AD."
+    - content: "If your organization uses Exchange or SharePoint, you’re already using Azure AD."
       choices:
       - content: "True"
-        isCorrect: true
-        explanation: "Yes, Office 365 services use Azure AD for identity and access management."
-      - content: "False"
         isCorrect: false
-        explanation: "This answer is incorrect. Office 365 services use Azure AD for identity and access management."
+        explanation: "If your organization uses Office 365 services like Exchange Online or SharePoint Online, you’re already using Azure AD. If you’re not currently using Azure AD but have on-premises directories, you can use the Azure AD Connect tool to integrate Azure AD with your on-premises directories."
+      - content: "False"
+        isCorrect: true
+        explanation: "If your organization uses Office 365 services like Exchange Online or SharePoint Online, you’re already using Azure AD. If you’re not currently using Azure AD but have on-premises directories, you can use the Azure AD Connect tool to integrate Azure AD with your on-premises directories."
       
     - content: "How much bandwidth does the initial migration of a user's profile in Window consume?"
       choices:
@@ -38,12 +38,12 @@ quiz:
 
     - content: "What's one of the primary functions of Azure Active Directory?"
       choices:
-      - content: "Controlling access to apps, data, and resources in Office 365 and other Microsoft cloud services"
-        isCorrect: true
-        explanation: "Yes, this one of Azure AD's primary functions. Azure AD manages user accounts, authentication, and authorization."
       - content: "Assessing readiness"
         isCorrect: false
         explanation: "No, this is false. Azure AD isn't a readiness assessment tool."
       - content: "Controlling user settings across devices."
         isCorrect: false
         explanation: "No, controlling user settings across devices isn't one of Azure AD's primary functions. Some capabilities, like roaming the most recently used files in Office 365 ProPlus or enterprise state roaming in Windows, do use Azure AD, but Azure AD's primary function is controlling access to your apps."
+      - content: "Controlling access to apps, data, and resources in Office 365 and other Microsoft cloud services"
+        isCorrect: true
+        explanation: "Yes, this one of Azure AD's primary functions. Azure AD manages user accounts, authentication, and authorization."

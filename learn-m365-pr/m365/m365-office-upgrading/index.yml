@@ -12,10 +12,12 @@ title: Upgrading Office in Windows
 summary: Learn how to perform Office upgrades in Windows at scale, including the tools to help you create, configure, and deploy Office packages.
 abstract: |
   In this module, you will learn:
-   - How to define the processes and know how to use the tools to download and configure an Office installation. 
+   - How to define the processes and how to use tools to download and configure an Office installation. 
    - How to use the Office Customization Tool to create and configure an Office application package.
-   - How to monitor Office upgrades and updates using System Center Configuration Manager.
-prerequisites: None
+   - How to monitor Office upgrades and updates using Microsoft Endpoint Configuration Manager.
+prerequisites: | 
+ - Familiarity with Microsoft Office, especially servicing
+ - Familiarity with Configuration Manager
 iconUrl: /learn/achievements/upgrade-office-in-windows-for-it.svg
 ratingEnabled: true
 levels:

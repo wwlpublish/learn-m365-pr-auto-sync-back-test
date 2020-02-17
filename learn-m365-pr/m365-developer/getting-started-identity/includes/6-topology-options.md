@@ -36,7 +36,7 @@ Consoto's Azure AD recognizes the user is a guest from Fabrikam and that Fabrika
 
 Azure AD B2B provides IT administrators and developers multiple ways to grant guest users from another organization access to your corporate content. An administrator can create a new guest user in the Azure AD portal, similar to how you'd add a new user, they can be sent email invitation or added in bulk using PowerShell. Administrators can also delegate group owners and application owners manage their own guest user so they can add guests directly to any application they want to share.
 
-Once a guest user has been added to your directory, you can use Azure AD's Conditional Access policies, such as multi-factor authentication, to further protect your content at the tenant level, application level or for specific gugit lest users.
+Once a guest user has been added to your directory, you can use Azure AD's Conditional Access policies, such as multi-factor authentication, to further protect your content at the tenant level, application level or for specific guest users.
 
 ## Business to Customer (B2C)
 
@@ -48,7 +48,7 @@ Azure AD B2C is a white-label authentication solution. This means you can custom
 
 Customize every page displayed by Azure AD B2C when your users sign up, sign in, and modify their profile information. Customize the HTML, CSS, and JavaScript in your user journeys so that the Azure AD B2C experience looks and feels like it's a native part of your application.
 
-After the user signs in, you can implement progressive polling. Progressive polling allows your customers to quickly complete their first transaction by supplying only the minimum required information  necessary. Over time, you can gradually collect more profile data from the customer each time they sign in. You can store up to 100 custom attributes per user in Azure AD B2C or integrate with external systems to store even more details on your users.
+After the user signs in, you can implement progressive polling. Progressive polling allows your customers to quickly complete their first transaction by supplying only the minimum required information necessary. Over time, you can gradually collect more profile data from the customer each time they sign in. You can store up to 100 custom attributes per user in Azure AD B2C or integrate with external systems to store even more details on your users.
 
 ### Comparing Azure AD B2B and B2C
 

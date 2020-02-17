@@ -23,28 +23,28 @@ quiz:
       - content: "False"
         isCorrect: true
         explanation: "Correct. Office 365 ProPlus *is* available in both 32-bit and 64-bit versions, but we recommend using the 64-bit version unless you have 32-bit dependencies."
-    - content: "Click-to-Run replaced which previous installation package type?"
+    - content: "Office 365 ProPlus and Office 2019 clients use which installation technology?"
       choices:
+      - content: "UWP"
+        isCorrect: false
+        explanation: "No, Office 365 ProPlus and Office 2019 clients use Click-to-Run installation technology."
+      - content: "Click-to-Run"
+        isCorrect: true
+        explanation: "Correct, Office 365 ProPlus and Office 2019 clients use Click-to-Run installation technology."
       - content: "MSIX"
         isCorrect: false
-        explanation: "No, Click-to-Run replaces MSI as the installation package type."
-      - content: "MSI"
-        isCorrect: true
-        explanation: "Correct. Click-to-Run replaces MSI as the installation package type."
-      - content: "Office Deployment Tool"
-        isCorrect: false
-        explanation: "No, Click-to-Run replaces MSI as the installation package type."
+        explanation: "No, Office 365 ProPlus and Office 2019 clients use Click-to-Run installation technology."
     - content: "Which of the following tools does NOT work with MSI-based packages?"
       choices:
-      - content: "Office Deployment Tool"
-        isCorrect: true
-        explanation: "Correct. The Office Deployment Tool doesn't work with MSI-based packages to deliver your business apps. It's used to install Click-to-Run packages of Office."
       - content: "System Center Configuration Manager"
         isCorrect: false
         explanation: "No. Configuration Manager is one of the most common tools used to deliver MSI-based applications."
       - content: "Desktop App Assure"
         isCorrect: false
         explanation: "No. Desktop App Assure is a program that fixes incompatible business apps at no cost to you - it's not a distribution tool."
+      - content: "Office Deployment Tool"
+        isCorrect: true
+        explanation: "Correct. The Office Deployment Tool doesn't work with MSI-based packages to deliver your business apps. It's used to install Click-to-Run packages of Office."
     - content: "Which approach would you use to deliver business apps?"
       choices:
       - content: "Application deployment in Configuration Manager"
