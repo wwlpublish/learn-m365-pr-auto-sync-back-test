@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msteams-webhooks-connectors.4-incoming-webhooks
+metadata:
+  title: Use incoming webhooks as Connectors
+  description: In this unit, you’ll learn how to register an incoming webhook in a Microsoft Teams channel and post a message to it.
+  ms.date: 2/18/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Create incoming webhooks
+durationInMinutes: 5
+content: |
+  [!include[](includes/4-incoming-webhooks.md)]

@@ -15,3 +15,8 @@ achievements:
   title: Discover modern workplace solutions with Microsoft 365 and Surface for Business
   summary: Discover modern workplace solutions with Microsoft 365 and Surface for Business
   iconUrl: /learn/achievements/introducing-microsoft-365-and-surface-for-business.svg
+- uid: learn-wwl.welcome-to-microsoft-365.badge
+  type: badge
+  title: Learn how your organization can move to a modern workplace with Microsoft 365
+  summary: Learn how your organization can move to a modern workplace with Microsoft 365
+  iconUrl: /learn/achievements/welcome-to-microsoft-365.svg

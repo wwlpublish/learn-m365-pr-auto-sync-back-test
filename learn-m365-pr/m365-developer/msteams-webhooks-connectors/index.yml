@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn-m365.msteams-webhooks-connectors
+metadata:
+  title: Connect web services to Microsoft Teams with webhooks and Office 365 Connectors
+  description: Learn how to connect your custom web services to Microsoft Teams using webhooks and Office 365 Connectors
+  ms.date: 2/18/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Connect web services to Microsoft Teams with webhooks and Office 365 Connectors
+summary: "Webhooks and connectors are a simple way to connect your web services to channels and teams inside Microsoft Teams. Outgoing webhooks allow your users to send text messages from a channel to your web services. Connectors allow users to subscribe to receive notifications and messages from your web services. There are two types of connectors available in Microsoft Teams: incoming webhooks and Office 365 connectors. In this module, you’ll learn about webhooks and connectors and how to implement them in Microsoft Teams channels."
+abstract: |
+  By the end of this module, you will be able to:
+  - Demonstrate how to create and use an outgoing webhook for a Microsoft Teams channel
+  - Demonstrate how to create and use an incoming webhook for a Microsoft Teams channel
+  - Demonstrate how to create, register and use an Office 365 Connector for Microsoft Teams
+prerequisites: |
+  - Experience using Microsoft Teams at the intermediate level
+  - Ability to program with JavaScript, TypeScript, and Node.js
+  - Experience using Visual Studio Code at the intermediate level
+  - Access to a Microsoft 365 tenant
+iconUrl: /learn/achievements/msteams-webhooks-connectors.svg
+levels:
+  - intermediate
+roles:
+  - developer
+products:
+  - m365
+  - office-teams
+units:
+  - learn-m365.msteams-webhooks-connectors.1-introduction
+  - learn-m365.msteams-webhooks-connectors.2-outgoing-webhooks
+  - learn-m365.msteams-webhooks-connectors.3-exercise-outgoing-webhooks
+  - learn-m365.msteams-webhooks-connectors.4-incoming-webhooks
+  - learn-m365.msteams-webhooks-connectors.5-exercise-incoming-webhooks
+  - learn-m365.msteams-webhooks-connectors.6-o365-connectors
+  - learn-m365.msteams-webhooks-connectors.7-exercise-o365-connectors
+  - learn-m365.msteams-webhooks-connectors.8-summary
+badge:
+  uid: learn-m365.msteams-webhooks-connectors.badge
