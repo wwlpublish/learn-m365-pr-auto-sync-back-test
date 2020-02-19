@@ -16,7 +16,7 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Members of your organization want to establish a dedicated collaborative space where they can work together on a specific project. What should their Microsoft Teams administrator create?"
+    - content: "Several members of your organization need to come together to work on a specific, short-term project. What should their Microsoft Teams administrator create?"
       choices:
       - content: "A new team"
         isCorrect: false
