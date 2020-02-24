@@ -26,7 +26,7 @@ Or is the primary use case one where you've created a web API, secured using Mic
 
 In this module we're focusing on the last option in the figure above: terminators. A terminator is an application or service that communicates with your custom web API secured using Microsoft identity. There are two types of terminator applications: one that acts on behalf of a user, and one that acts on behalf of itself.
 
-The first option, **on behalf of**, is when a user authenticates and uses an application that will then make a request, *on behalf of the user*, to the secured web API. In this scenario, the app will request an access token using the app's credentials and the user's access token to obtain a new access token. This new access token is used to access the web API.
+The first option, **on behalf of**, is when a user authenticates and uses an application that will then make a request, *on behalf of the user*, to the secured web API.
 
 ![Figure of the on behalf of flow](../media/02-on-behalf-of-flow.png)
 
@@ -49,9 +49,9 @@ The first step is to register the app in Azure AD using the Azure AD admin cente
 
 #### Define scopes
 
-Once the app is registered, you can then define the delegated permissions, also called *scopes*, your API exposes. Scopes can be granted to users or applications depending on the scenario.
+Once the app is registered, you can then define the delegated permissions, also called *scopes*, your API exposes.
 
-You then will write the business logic within your web API to determine what is allowed or prohibited based on the scopes listed in the access token received in the HTTP request.
+You then will write the business logic within your web API to determine what is allowed or prohibited based on the scopes and user identity listed in the access token received in the HTTP request.
 
 Each scope has name & description properties for the user consent and admin consent. User consent is when a user grants an app permission to act on their behalf while admin consent is when a global tenant administrator grants the permission on behalf of all users or an application.
 
@@ -61,9 +61,17 @@ After registering the app in the Azure AD admin center, make a copy of the tenan
 
 ![Screenshot of the application ID of the new app registration](../media/03-aad-portal-newapp-details.png)
 
+### Protecting an API with Azure AD
+
+Microsoft identity only returns blobs of text as the access tokens. Your API should always validate the access tokens and ensure they were provided by Microsoft identity. Access tokens are signed with a private key. You can verify their authenticity with the matching public key.
+
+Microsoft identity provides libraries and middleware, available for most platforms, to simplify this process.
+
+Your custom API should also enforce permissions using the scopes included in the provided access tokens. Delegated permissions should never exceed what the signed-in user is allowed to do.
+
 ### Code a secure web API
 
-The next step is to code the web API project. Once the project is created, you'll have to do a little configuration to associate the project with the registered Azure AD app. 
+The next step is to code the web API project. Once the project is created, you'll have to do a little configuration to associate the project with the registered Azure AD app.
 
 After configuring the web API project with the registered Azure AD app, you can then code the web API.
 

@@ -313,7 +313,7 @@ Now create the view to display the categories.
 
 Add a new folder **Categories** to the **Views** folder. Add a new file, **Index.cshtml**, to the new **Categories** folder and add the following code to it. This view will display all the categories provided by the API:
 
-```html
+```cshtml
 @model IEnumerable<<PROJECT-NAMESPACE>.Models.Category>
 
 @{
@@ -355,7 +355,7 @@ Replace the string `<PROJECT-NAMESPACE>` with the root namespace of the project.
 
 Add a new file, **Create.cshtml**, to the **Views\Categories** folder and add the following code to it. This view view will provide a form for creating a new category:
 
-```html
+```cshtml
 @model <PROJECT-NAMESPACE>.Models.Category
 
 @{

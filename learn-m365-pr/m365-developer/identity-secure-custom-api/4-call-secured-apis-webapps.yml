@@ -2,7 +2,7 @@
 uid: learn-m365.identity-secure-custom-api.4-call-secured-apis-webapps
 metadata:
   title: Call secured APIs from web applications
-  description: In this unit, you’ll learn how to create server-side web apps that enable users to sign in and grant the app permissions to act on the user’s behalf.
+  description: In this unit, you’ll learn how to create server-side web apps that enable users to sign in and grant the app permissions.
   ms.date: 03/15/2020
   author: andrewconnell
   ms.author: v-johnco

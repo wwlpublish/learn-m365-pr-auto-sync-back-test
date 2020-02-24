@@ -10,7 +10,7 @@ Another scenario is for an application to act on its own without user interactio
 
 Apps that run without user interaction are referred to as services or daemon apps. A daemon is an application that runs, typically on a schedule, and doesn't require a user to be involved in the process. An administrator does need to go through a consent process to grant the daemon the necessary permissions to call a web API.
 
-Unlike the apps that have a user involved and implement the on-behalf-of flow, daemon apps implement the *client credentials flow*. The client credentials flow differs from the on-behalf-of flow in that the app doesn't need a user's access token to obtain a new access token to call the Microsoft identity-secured web API. Instead, it uses its own client ID and client secret or certificate to authenticate and obtain an access token from Microsoft identity.
+Unlike the apps that have a user involved and implement the on-behalf-of flow, daemon apps implement the *client credentials flow*.
 
 Some examples of use cases for daemon apps include the following scenarios:
 
@@ -42,7 +42,7 @@ The important part of the app registration is the creation of an app secret. Thi
 
 ### Client credentials grant flow
 
-Daemon apps implement the OAuth 2.0 client credentials grant flow to obtain an access token from Microsoft identity. This flow permits a confidential client to use its own credentials, instead of impersonating a user, to authenticate when calling a web API.
+Daemon apps implement the OAuth 2.0 client credentials grant flow to obtain an access token from Microsoft identity. This flow permits a confidential client to use its own credentials to authenticate the app when calling a web API.
 
 Your application can acquire a token to call a web API on behalf of itself (not on behalf of a user). This scenario is useful for daemon applications.
 
@@ -80,6 +80,8 @@ string[] scopes = new string[] { "api://{{CLIENT_ID}}/.default" };
 
 AuthenticationResult result await app.AcquireTokenForClient(scopes).ExecuteAsync();
 ```
+
+The scope to request for a client credential flow is the app ID followed by `/.default`. This tells Azure AD to use the application level permissions declared statically during the application registration.
 
 The last step is to add code to call the web API:
 
