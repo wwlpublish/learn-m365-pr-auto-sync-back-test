@@ -3,7 +3,7 @@ uid: learn-m365.m365-security-management-endpoints
 metadata:
   title: Secure Windows 10 endpoints
   description: Learn how to mitigate end-point threats by using Windows 10 security features.
-  ms.date: 10/31/2019
+  ms.date: 2/24/20
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
@@ -17,7 +17,7 @@ abstract: |
   - Explain how Windows Defender Antivirus stops suspicious behaviors
 prerequisites: | 
  - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/secure-windows-10-endpoints.svg
 ratingEnabled: true
 levels:
 - intermediate
