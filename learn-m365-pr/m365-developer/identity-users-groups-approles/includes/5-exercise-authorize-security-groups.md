@@ -24,6 +24,19 @@ In the manifest editor, find the node named `groupMembershipClaims`. The default
 "groupMembershipClaims": "SecurityGroup",
 ```
 
+Next, within the manifest editor, find the node `optionalClaims`. The default value is `null`. Set the `optionalClaims` node to the following code:
+
+```json
+"optionalClaims": {
+  "accessToken": [
+    {
+      "name": "groups",
+      "additionalProperties": ["emit_as_roles"]
+    }
+  ]
+}
+```
+
 ![Screenshot of the application registration with the manifest link highlighted](../media/05-aad-portal-appreg-manifest.png)
 
 Save the manifest.
@@ -38,7 +51,6 @@ Within the method `ConfigureServices()`, locate the line that configures the `Op
 services.Configure<OpenIdConnectOptions>(AzureADDefaults.OpenIdScheme, options =>
 {
   options.Authority = options.Authority + "/v2.0/";
-  options.TokenValidationParameters.NameClaimType = "preferred_username";
   options.TokenValidationParameters.RoleClaimType = "groups";
 });
 ```
@@ -72,8 +84,6 @@ On the **All Groups** page, select **New Group**. Create the group with the foll
 > The user must be a member of the group to have it included in the group claim.
 
 Select **Create**.
-
-![Screenshot of the New Group panel](../media/05-new-group.png)
 
 On the **All Groups** page, copy the **Object Id** of the new group. You'll need this value later in the exercise.
 

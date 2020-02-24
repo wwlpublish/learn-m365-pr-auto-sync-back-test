@@ -77,7 +77,6 @@ Add the following code after the `services.AddAzureAD()` line. This code will co
 services.Configure<OpenIdConnectOptions>(AzureADDefaults.OpenIdScheme, options =>
 {
   options.Authority = options.Authority + "/v2.0/";
-  options.TokenValidationParameters.NameClaimType = "preferred_username";
 });
 ```
 

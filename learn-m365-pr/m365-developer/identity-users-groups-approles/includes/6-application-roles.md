@@ -4,7 +4,7 @@ In this unit, you’ll learn how to add app roles to an Azure AD registered app,
 
 ## Utilize app roles in your application
 
-Role-based access control (RBAC) is a popular mechanism to enforce authorization in applications. When using RBAC, an administrator grants permissions to roles, and not to individual users or groups. The administrator can then assign roles to different users and groups to control who have access to what content and functionality.
+Role-based access control (RBAC) is a popular mechanism to enforce authorization in applications. The administrator can then assign roles to different users and groups to control who have access to what content and functionality.
 
 Using RBAC with Application Roles and Role Claims, developers can securely enforce authorization in their apps with little effort on their part.
 
@@ -78,7 +78,6 @@ JwtSecurityTokenHandler.DefaultMapInboundClaims = false;
 services.Configure<OpenIdConnectOptions>(AzureADDefaults.OpenIdScheme, options =>
 {
   options.Authority = options.Authority + "/v2.0/";
-  options.TokenValidationParameters.NameClaimType = "preferred_username";
   options.TokenValidationParameters.RoleClaimType = "roles";
 });
 ```

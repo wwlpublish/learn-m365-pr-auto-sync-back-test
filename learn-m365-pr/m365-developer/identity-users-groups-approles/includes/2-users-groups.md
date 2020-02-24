@@ -6,21 +6,18 @@ In this unit, you’ll learn how Microsoft identity enables developers and admin
 
 Microsoft identity enables developers to build custom applications and secure them in different ways. You can configure your custom apps to support users signing-in using their personal or consumer Microsoft Account or with their Work or School account.
 
+> [!NOTE]
+> Users with consumer Microsoft accounts won't be able to have assigned roles nor will they be members of groups.
+
 An app can then grant users the ability to do specific tasks depending who they are, what groups they belong to or what roles they've been granted within the application.
 
-Users are managed from the Azure AD admin center (https://aad.portal.azure.com) including users within your organization and those added as guests in business-to-business (B2B) or business-to-customer (B2C) scenarios.
+Users are managed from the Azure AD admin center (https://aad.portal.azure.com) including users within your organization and those added as guests in business-to-business (B2B) scenarios.
 
 ![Screenshot of the All Users blade in Azure AD admin center](../media/02-azuread-admin-center-all-users.png)
 
 In addition to users, administrators (*and other people with the appropriate access*), can use the Azure AD admin center to create and manage security groups that contain collections of users, groups, and roles specific to your custom app.
 
-Custom apps that are configured with Microsoft identity to support user's signing-in receive information about the user. This includes profile information such as their name and email address, but also the groups they belong to or app roles they've been assigned to. Your custom app can use this information and in the cases where the app has the necessary permissions, enable the user to edit their details from within the app.
-
-## Managing users in Microsoft identity
-
-Users can be managed from the Azure AD admin center (https://aad.portal.azure.com). Select the **Users** navigation option to open the **All users** blade. The **All users** blade displays users who are members of your organization (*user type: member*) and those who have been added as guests (*user type: guest*).
-
-Guests can be added manually, by an invitation, or added in one of the B2B or B2C scenarios supported by Microsoft identity.
+Custom apps that are configured with Microsoft identity to support user's signing-in receive information about the user. This includes profile information such as their name and email address, but can also the groups they belong to or app roles they've been assigned to. Your custom app can use this information and in the cases where the app has the necessary permissions, enable the user to edit their details from within the app.
 
 ### Add or delete users
 
@@ -42,11 +39,7 @@ When you register an app in Azure AD, you specify what types of accounts it will
 
 Each of the account types supported provides slightly different options. However, each of the options includes all users in the organization where the app is registered. This means any user within the **All users** blade can sign in to your custom app.
 
-Microsoft identity does support restricting an app to a certain set of users or security groups within your tenant. The option to restrict an app to a specific set of users or security groups in a tenant works with the following types of applications:
-
-- applications configured for federated single sign-on with SAML-based authentication
-- application proxy applications that use Azure AD pre-authentication
-- applications built directly on the Azure AD application platform that use OAuth 2.0/OpenID Connect authentication after a user or admin as consented to that application
+Microsoft identity does support restricting an app to a certain set of users or security groups within your tenant.
 
 To restrict an application to a subset of users, first enable the setting on the app by selecting the **Enterprise Applications** from the **All applications** menu item within the Azure AD admin center:
 
@@ -64,11 +57,9 @@ Once the property has been set, you can use the **Users and groups** blade withi
 
 While administrators can control what users have access to an app using the **User assignment required** property, developers would need to account for specific users within the app.
 
-Developers can accomplish the same restriction option using popular authorization patterns like Role-Based Access Control (RBAC) which can simplify the app's code and administration of users within the app.
-
 RBAC helps you manage resources, what areas of an app users have access to and what they can do with those resources.
 
-Developers first create a *role definition* within the app's registration in the Azure AD admin center. Next, the app's code can request from Microsoft identity all app roles the user has been added to. The code within the app can check if the user has access to certain resources based on the roles assigned to the user.
+Developers first create a *role definition* within the app's registration in the Azure AD admin center. The code within the app can check if the user has access to certain resources based on the roles assigned to the user.
 
 This pattern simplifies management as the app developer can define the roles, while administrators can grant users to these roles without requiring updates to the app's code.
 

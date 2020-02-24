@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.identity-users-groups-approles.7-exercise-authorize-app-roles
 metadata:
-  title: Exercise - Utilize app roles in custom web apps
+  title: Exercise - Utilize app roles in custom web apps and APIs
   description: In this exercise, you’ll learn how to add app roles to an Azure AD registered app, grant users and groups to the role and use the app role within a custom app secured with Microsoft identity.
   ms.date: 02/26/2020
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Exercise - Utilize app roles in custom web apps
+title: Exercise - Utilize app roles in custom web apps and APIs
 durationInMinutes: 18
 content: |
   [!include[](includes/7-exercise-authorize-app-roles.md)]

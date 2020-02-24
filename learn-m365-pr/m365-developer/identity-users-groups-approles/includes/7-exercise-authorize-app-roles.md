@@ -98,7 +98,6 @@ Then update the `OpenIdConnectOptions` to use the roles claim:
 services.Configure<OpenIdConnectOptions>(AzureADDefaults.OpenIdScheme, options =>
 {
   options.Authority = options.Authority + "/v2.0/";
-  options.TokenValidationParameters.NameClaimType = "preferred_username";
   options.TokenValidationParameters.RoleClaimType = "roles";
 });
 ```
