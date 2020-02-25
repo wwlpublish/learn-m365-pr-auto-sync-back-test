@@ -1,0 +1,42 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.identity-secure-custom-api.3-exercise-secure-api-microsoft-identity
+metadata:
+  title: Exercise - Create and secure a web API with Microsoft identity
+  description: In this exercise, you’ll learn how to create a .NET Core web API application and secure it with Microsoft identity.
+  ms.date: 2/25/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Create and secure a web API with Microsoft identity
+durationInMinutes: 15
+content: |
+  [!include[](includes/3-exercise-secure-api-microsoft-identity.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "Developers can use Microsoft identity to secure which types of apps?"
+    choices:
+    - content: "Web applications"
+      isCorrect: false
+      explanation: "While true, web applications are just one of the types of apps you can secure with Microsoft identity."
+    - content: "Desktop and mobile applications"
+      isCorrect: false
+      explanation: "While true, desktop, and mobile apps are just two of the many types of apps you can secure with Microsoft identity."
+    - content: "Web APIs"
+      isCorrect: false
+      explanation: "While true, web APIs are just one of the many types of apps you can secure with Microsoft identity."
+    - content: "All of these applications can be secured with Microsoft identity"
+      isCorrect: true
+      explanation: "Correct!"
+  - content: "What types of authentication flows can developers use when securing a web API with Microsoft identity?"
+    choices:
+    - content: "Only the on behalf of flow is supported by Microsoft identity with web APIs."
+      isCorrect: false
+      explanation: "On behalf of is just one of the many supported flows."
+    - content: "Only applications that access the web API as themselves, not as a user."
+      isCorrect: false
+      explanation: "Microsoft identity-secured web APIs also support the on behalf of flow."
+    - content: "Both applications that access the web API without a user and the on behalf of flow are supported."
+      isCorrect: true
+      explanation: "Correct!"
