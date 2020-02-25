@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.identity-users-groups-approles.3-exercise-create-web-app
+metadata:
+  title: Exercise - Create and secure a web app with Microsoft identity
+  description: In this exercise, you’ll learn how Microsoft identity enables developers and administrators to secure and grant access to custom apps.
+  ms.date: 02/26/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Create and secure a web app with Microsoft identity
+durationInMinutes: 14
+content: |
+  [!include[](includes/3-exercise-create-web-app.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "How can you restrict your app to only allow specific users to sign in and use it with Microsoft identity?"
+    choices:
+    - content: "Enable the **User assignment required** setting on the app in the Azure AD admin center and assign specific users to the app."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Disable the **Allow all users to sign in** setting on the app in the Azure AD admin center and assign specific users to the app."
+      isCorrect: false
+      explanation: "There is no property **Allow all users to sign in**; all users can sign in to Azure AD apps unless the **User assignment required** setting is enabled."
+    - content: "Remove the **Everyone** group from the list of users allowed to sign in to the Azure AD app and assign specific users to the app."
+      isCorrect: false
+      explanation: "The **Everyone** group isn't added by default to the list of users allowed to use the app, nor is the **User assignment required** setting enabled by default."
+  - content: "What elements are required to create, configure or collect when registering an Azure AD app for use with an ASP.NET Core web app?"
+    choices:
+    - content: "Tenant ID, application ID, application secret, and the redirect URI"
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Application ID, application secret, and the redirect URI."
+      isCorrect: false
+      explanation: "The tenant ID is also required when setting the authority in the Azure AD configuration."
+    - content: "Tenant ID, application ID, and the application secret."
+      isCorrect: false
+      explanation: "The redirect URI is also required because Azure AD needs to know where to redirect the user after a successful sign-in."

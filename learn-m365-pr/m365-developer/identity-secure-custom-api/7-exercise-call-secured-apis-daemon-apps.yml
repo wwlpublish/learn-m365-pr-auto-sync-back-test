@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.identity-secure-custom-api.7-exercise-call-secured-apis-daemon-apps
+metadata:
+  title: Exercise - Leverage app roles to secure custom APIs
+  description: In this exercise, you'll learn how to add app roles to an Azure AD Application registration and consume a secured API from a daemon application.
+  ms.date: 2/25/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Leverage app roles to secure custom APIs
+durationInMinutes: 19
+content: |
+  [!include[](includes/7-exercise-call-secured-apis-daemon-apps.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "Apps that implement the OAuth 2.0 client credentials grant flow submit which of the following things to authenticate and obtain an access token?"
+    choices:
+    - content: "Client ID and a secret or a certificate."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Client ID and an access token."
+      isCorrect: false
+      explanation: "An access token isn't used."
+    - content: "Client ID, a secret or certificate, and a user-provided access token."
+      isCorrect: false
+      explanation: "There's no user interaction in the client credentials grant flow, so an access token isn't used."
+  - content: "How are permissions granted to daemon apps?"
+    choices:
+    - content: "The first time a daemon app runs, it will prompt a user to log in and grant the requested permissions using a code returned by Microsoft identity."
+      isCorrect: false
+      explanation: "An admin user grants permissions using the admin consent framework, not through a special code."
+    - content: "Permissions are automatically granted to registered apps in the Azure AD admin center when the permissions are selected."
+      isCorrect: false
+      explanation: "Permissions aren't automatically granted; they must be granted by an administrator through the admin consent process."
+    - content: "An admin user grants permissions using the admin consent framework."
+      isCorrect: true
+      explanation: "Correct!"

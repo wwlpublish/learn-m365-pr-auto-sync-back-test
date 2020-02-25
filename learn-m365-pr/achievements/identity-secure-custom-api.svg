@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="101px" height="101px" viewBox="0 0 101 101" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Extending Microsoft Teams/MS-Identity-Providing-an-API</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="94.3396226" height="94.3396226" rx="47.1698113"></rect>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#99D3FF" offset="0%"></stop>
+            <stop stop-color="#0FA6FF" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-4" x="0" y="0" width="100" height="100" rx="50"></rect>
+        <filter x="-0.5%" y="-0.5%" width="102.0%" height="102.0%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="4" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="1" dy="1" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <path d="M50,2.83018868 C76.0511674,2.83018868 97.1698113,23.9488326 97.1698113,50 C97.1698113,76.0511674 76.0511674,97.1698113 50,97.1698113 C23.9488326,97.1698113 2.83018868,76.0511674 2.83018868,50 C2.83018868,23.9488326 23.9488326,2.83018868 50,2.83018868 Z M50,6.60377358 C26.032926,6.60377358 6.60377358,26.032926 6.60377358,50 C6.60377358,73.967074 26.032926,93.3962264 50,93.3962264 C73.967074,93.3962264 93.3962264,73.967074 93.3962264,50 C93.3962264,26.032926 73.967074,6.60377358 50,6.60377358 Z" id="path-6"></path>
+        <filter x="-19.7%" y="-27.9%" width="139.3%" height="155.8%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-9">
+            <stop stop-color="#7B82EA" offset="0%"></stop>
+            <stop stop-color="#4B53BB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Badges" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Extending-Microsoft-Teams-" transform="translate(-160.000000, -890.000000)">
+            <g id="Extending-Microsoft-Teams/MS-Identity-Providing-an-API" transform="translate(160.000000, 890.000000)">
+                <g id="Badge-Plates/Circle">
+                    <g id="BG" transform="translate(2.830189, 2.830189)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g></g>
+                        <g id="Colors/Microsoft-365/BG-Gradient-1" mask="url(#mask-2)" fill="url(#linearGradient-3)">
+                            <rect id="Rectangle" x="0" y="0" width="94.3396226" height="94.3396226"></rect>
+                        </g>
+                    </g>
+                    <g id="Border">
+                        <g id="White-Border">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                            <rect stroke="#F2F1F0" stroke-width="4" stroke-linejoin="square" x="2" y="2" width="96" height="96" rx="48"></rect>
+                        </g>
+                        <mask id="mask-7" fill="white">
+                            <use xlink:href="#path-6"></use>
+                        </mask>
+                        <use id="Boarder" fill="#0078D4" fill-rule="nonzero" xlink:href="#path-6"></use>
+                        <g id="Colors/Microsoft-365/Border" mask="url(#mask-7)" fill="#0076D7">
+                            <g transform="translate(2.830189, 2.830189)" id="Microsoft-365/Border">
+                                <rect x="0" y="0" width="94.3396226" height="94.3396226"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="Group-4" transform="translate(20.000000, 26.000000)">
+                    <g id="Cloud-Blue" filter="url(#filter-8)" fill="url(#linearGradient-9)">
+                        <path d="M56.9613413,20.3322291 C54.8205587,18.2747236 52.1020832,16.9111324 49.1650821,16.4221158 C48.765957,6.97953885 40.7543327,-0.360423634 31.2550192,0.0136886836 C23.7140827,-0.122984623 16.9045746,4.47835002 14.2578874,11.4996325 C6.25709908,12.4686889 0.184888846,19.1295489 0,27.1398614 C0.36142496,36.2208937 8.03623095,43.3043413 17.1725392,42.9899253 L18.6828034,42.9899253 L46.4962714,42.9899253 L47.2335693,42.9899253 C54.6295747,42.8510078 60.6498625,37.0339765 61,29.6884034 C60.9726843,26.2150163 59.5276617,22.9011936 56.9963325,20.5066054" id="Fill-1"></path>
+                    </g>
+                    <g id="noun_api-connections_3089658" transform="translate(17.000000, 12.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                        <path d="M21.5011149,8.97286704 C20.3485291,8.98239462 19.3565519,9.76165138 19.1123732,10.8493649 L9.52213123,10.8493649 C9.44858255,10.2305615 9.24458538,9.63285478 8.92270963,9.09307416 L14.9018962,4.79388347 C15.3431666,5.17023068 15.9095067,5.38141418 16.4982047,5.38913366 C17.6166102,5.39764791 18.6071573,4.69371238 18.9312474,3.6600839 C19.2553376,2.62645543 18.8355029,1.51020406 17.9000236,0.918278635 C16.9645444,0.32635321 15.7370299,0.400242718 14.884927,1.09977059 C14.0328241,1.79929846 13.7598125,2.9572553 14.2143391,3.94401541 L8.26319927,8.22347955 C6.91949568,6.84530312 4.84076148,6.39863412 3.01860367,7.09654457 C1.19644586,7.79445502 0,9.49556114 0,11.3883938 C0,13.2812264 1.19644586,14.9823325 3.01860367,15.6802429 C4.84076148,16.3781534 6.91949568,15.9314844 8.26319927,14.553308 L14.2142138,18.8329008 C13.6212322,20.0143793 14.0469659,21.4374803 15.2010638,22.131647 C16.3551618,22.8258137 17.8656882,22.5673342 18.702462,21.5324918 C19.5392359,20.4976495 19.4325866,19.0199471 18.4552492,18.1071798 C17.4779118,17.1944124 15.9448568,17.1407413 14.9016296,17.9827702 L8.92283489,13.6831832 C9.24473172,13.1433739 9.44868997,12.5456117 9.52213123,11.9267612 L19.1122399,11.9267612 C19.3562362,13.0147014 20.3483538,13.7941843 21.5011309,13.8036554 C22.8816353,13.8022794 24,12.7212743 24,11.3882625 C24,10.0552507 22.8816353,8.97424559 21.5011309,8.97286961 L21.5011149,8.97286704 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

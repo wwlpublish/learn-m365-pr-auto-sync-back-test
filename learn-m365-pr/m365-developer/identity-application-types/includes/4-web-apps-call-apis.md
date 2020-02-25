@@ -88,34 +88,34 @@ Then add the following code to the end of the `ConfigureServices()` method. This
 
 ```cs
 services.Configure<OpenIdConnectOptions>(AzureADDefaults.OpenIdScheme, async options => {
-    // configure authority to use v2 endpoint
-    options.Authority = options.Authority + "/v2.0/";
+  // configure authority to use v2 endpoint
+  options.Authority = options.Authority + "/v2.0/";
 
-    // asking Azure AD for id_token (to establish identity) and authorization code (to get access/refresh tokens for calling services)
-    options.ResponseType = OpenIdConnectResponseType.CodeIdToken;
+  // asking Azure AD for id_token (to establish identity) and authorization code (to get access/refresh tokens for calling services)
+  options.ResponseType = OpenIdConnectResponseType.CodeIdToken;
 
-    // add the permission scopes you want the application to use
-    options.Scope.Add("offline_access");
-    options.Scope.Add("user.read");
+  // add the permission scopes you want the application to use
+  options.Scope.Add("offline_access");
+  options.Scope.Add("user.read");
 
-    // validate the token issuer
-    options.TokenValidationParameters.NameClaimType = "preferred_username";
+  // validate the token issuer
+  options.TokenValidationParameters.NameClaimType = "preferred_username";
 
-    // wire up event to do second part of code authorization flow (exchanging authorization code for token)
-    var handler = options.Events.OnAuthorizationCodeReceived;
-    options.Events.OnAuthorizationCodeReceived = async context => {
-      // handle the auth code returned post signin
-      context.HandleCodeRedemption();
-      if (!context.HttpContext.User.Claims.Any()) {
-        (context.HttpContext.User.Identity as ClaimsIdentity).AddClaims(context.Principal.Claims);
-      }
+  // wire up event to do second part of code authorization flow (exchanging authorization code for token)
+  var handler = options.Events.OnAuthorizationCodeReceived;
+  options.Events.OnAuthorizationCodeReceived = async context => {
+    // handle the auth code returned post signin
+    context.HandleCodeRedemption();
+    if (!context.HttpContext.User.Claims.Any()) {
+      (context.HttpContext.User.Identity as ClaimsIdentity).AddClaims(context.Principal.Claims);
+    }
 
-      // get token
-      var token = await application.AcquireTokenByAuthorizationCode(options.Scope, context.ProtocolMessage.Code).ExecuteAsync();
+    // get token
+    var token = await application.AcquireTokenByAuthorizationCode(options.Scope, context.ProtocolMessage.Code).ExecuteAsync();
 
-      context.HandleCodeRedemption(null, token.IdToken);
-      await handler(context).ConfigureAwait(false);
-    };
+    context.HandleCodeRedemption(null, token.IdToken);
+    await handler(context).ConfigureAwait(false);
+  };
 });
 ```
 
