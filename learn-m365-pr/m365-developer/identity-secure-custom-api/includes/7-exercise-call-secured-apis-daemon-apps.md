@@ -11,15 +11,15 @@ Select **Azure Active Directory** in the left-hand navigation.
 
 Select **App registrations** in the left-hand navigation.
 
-![Screenshot of the App registrations](../media/aad-portal-home.png)
+![Screenshot of the App registrations](../media/azure-ad-portal-home.png)
 
 On the **App registrations** page, locate the application registration that represents the secured web API application from the first exercise in this module. To verify the application, compare the **Application (client) ID** and **Directory (tenant) ID** in the portal to the values set in the web api application.
 
-![Screenshot of the application ID of the new app registration](../media/03-aad-portal-newapp-details.png)
+![Screenshot of the application ID of the new app registration](../media/03-azure-ad-portal-new-app-details.png)
 
 To expose application permissions for the web API, you need to edit the manifest. In the application registration for your application, select **Manifest**.
 
-![Screenshot of the application registration with the manifest link highlighted](../media/07-aad-portal-appreg-manifest.png)
+![Screenshot of the application registration with the manifest link highlighted](../media/07-azure-ad-portal-app-reg-manifest.png)
 
 In the manifest editor, find the name **appRoles**. The default value is an empty array. Replace the **appRoles** node with the following JSON:
 
@@ -54,7 +54,7 @@ Save the manifest by selecting the **Save** button.
 
 On the **App registrations** page, select **New registration**.
 
-![Screenshot of App Registrations page](../media/aad-portal-newapp-00.png)
+![Screenshot of App Registrations page](../media/azure-ad-portal-new-app-00.png)
 
 On the **Register an application** page, set the values as follows:
 
@@ -65,7 +65,7 @@ Select **Register** to create the application.
 
 On the **Product Catalog API** page, copy the values **Application (client) ID** and **Directory (tenant) ID**; you'll need these values later in this exercise.
 
-![Screenshot of the application ID of the new app registration](../media/03-aad-portal-newapp-details.png)
+![Screenshot of the application ID of the new app registration](../media/03-azure-ad-portal-new-app-details.png)
 
 ### Create a client secret for the daemon app
 
@@ -75,13 +75,13 @@ Select **Certificates & secrets** from the left-hand navigation panel.
 
 Select the **New client secret** button:
 
-![Screenshot of the Certificates & Secrets page in the Azure AD admin center](../media/05-aad-portal-newapp-secret-01.png)
+![Screenshot of the Certificates & Secrets page in the Azure AD admin center](../media/05-azure-ad-portal-new-app-secret-01.png)
 
 When prompted, give the secret a description and select one of the expiration duration options provided and select **Add**. *What you enter and select doesn't matter for the exercise.*
 
 The **Certificate & Secrets** page will display the new secret. Its important you copy this value as its only shown this one time; if you leave the page and come back, it will only show as a masked value.
 
-![Screenshot showing the new secret](../media/05-aad-portal-newapp-secret-02.png)
+![Screenshot showing the new secret](../media/05-azure-ad-portal-new-app-secret-02.png)
 
 Copy the value of the secret as you'll need it later.
 
@@ -93,28 +93,28 @@ Select **API permissions** from the left-hand navigation panel.
 
 Select **Add a permission**
 
-![Screenshot of the API permissions page in the Azure AD admin center](../media/07-aad-portal-appreg-apiperm-01.png)
+![Screenshot of the API permissions page in the Azure AD admin center](../media/07-azure-ad-portal-app-reg-api-perm-01.png)
 
 Select the app registration that represents the web API application.
 
-![Screenshot of the API permissions page in the Azure AD admin center](../media/07-aad-portal-appreg-apiperm-02.png)
+![Screenshot of the API permissions page in the Azure AD admin center](../media/07-azure-ad-portal-app-reg-api-perm-02.png)
 
 Select **Application permissions**, select the **access_as_application** role, then select **Add permission**.
 
-![Screenshot of the API permissions page in the Azure AD admin center](../media/07-aad-portal-appreg-apiperm-03.png)
+![Screenshot of the API permissions page in the Azure AD admin center](../media/07-azure-ad-portal-app-reg-api-perm-03.png)
 
 The **API permissions** page will redisplay. Note there are two warning messages about the application:
 
 - Users will have to reconsent to the application even if they've already done so.
 - The application permission is not yet consented by a tenant administrator.
 
-![Screenshot of the API permissions page in the Azure AD admin center](../media/07-aad-portal-appreg-apiperm-04.png)
+![Screenshot of the API permissions page in the Azure AD admin center](../media/07-azure-ad-portal-app-reg-api-perm-04.png)
 
 Since this exercise is creating a daemon application that doesn't have a user interface, admin consent will be granted using the Azure AD admin center.
 
 Select **Grant admin consent for [Tenant Name]**. (In this exercise, the tenant name is "Contoso".) Select **Yes** to complete the consent process.
 
-![Screenshot of the API permissions page in the Azure AD admin center](../media/07-aad-portal-appreg-apiperm-05.png)
+![Screenshot of the API permissions page in the Azure AD admin center](../media/07-azure-ad-portal-app-reg-api-perm-05.png)
 
 ## Create a .NET Core console application
 

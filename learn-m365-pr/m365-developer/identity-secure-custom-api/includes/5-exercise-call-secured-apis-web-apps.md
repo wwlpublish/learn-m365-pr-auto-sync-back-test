@@ -13,32 +13,32 @@ Open a browser and navigate to the [Azure Active Directory admin center](https:/
 
 Select **Azure Active Directory** in the left-hand navigation.
 
-![Screenshot of the App registrations](../media/aad-portal-home.png)
+![Screenshot of the App registrations](../media/azure-ad-portal-home.png)
 
 Select **Manage > App registrations** in the left-hand navigation.
 
 On the **App registrations** page, select **New registration**.
 
-![Screenshot of App Registrations page](../media/aad-portal-newapp-00.png)
+![Screenshot of App Registrations page](../media/azure-ad-portal-new-app-00.png)
 
 On the **Register an application** page, set the values as follows:
 
 - **Name**: Product Catalog WebApp
 - **Supported account types**: Accounts in this organizational directory only (Single tenant)
 
-  ![Screenshot of the Register an application page](../media/05-aad-portal-newapp-01.png)
+  ![Screenshot of the Register an application page](../media/05-azure-ad-portal-new-app-01.png)
 
 Select **Register** to create the application.
 
 On the **Product Catalog WebApp** page, copy the values **Application (client) ID** and **Directory (tenant) ID**; you'll need these values later in this exercise.
 
-![Screenshot of the application ID of the new app registration](../media/05-aad-portal-newapp-details-01.png)
+![Screenshot of the application ID of the new app registration](../media/05-azure-ad-portal-new-app-details-01.png)
 
 On the **Product Catalog WebApp** page, select the **Add a Redirect URI** link under the **Redirect URIs**.
 
 Select **Add a platform**, then select **Web**.
 
-![Screenshot of the add platform panel of the new app registration](../media/05-aad-portal-newapp-details-02.png)
+![Screenshot of the add platform panel of the new app registration](../media/05-azure-ad-portal-new-app-details-02.png)
 
 On the **Configure Web** panel, use the following values to configure the application:
 
@@ -48,7 +48,7 @@ On the **Configure Web** panel, use the following values to configure the applic
 
 Select **Configure** when finished setting these values.
 
-![Screenshot of the application configuration](../media/05-aad-portal-newapp-details-03.png)
+![Screenshot of the application configuration](../media/05-azure-ad-portal-new-app-details-03.png)
 
 ### Create a client secret for the app
 
@@ -58,13 +58,13 @@ Select **Certificates & secrets** from the left-hand navigation panel.
 
 Select the **New client secret** button:
 
-![Screenshot of the Certificates & Secrets page in the Azure AD admin center](../media/05-aad-portal-newapp-secret-01.png)
+![Screenshot of the Certificates & Secrets page in the Azure AD admin center](../media/05-azure-ad-portal-new-app-secret-01.png)
 
 When prompted, give the secret a description and select one of the expiration duration options provided and select **Add**. *What you enter and select doesn't matter for the exercise.*
 
 The **Certificate & Secrets** page will display the new secret. It's important you copy this value as it's only shown this one time; if you leave the page and come back, it will only show as a masked value.
 
-![Screenshot showing the new secret](../media/05-aad-portal-newapp-secret-02.png)
+![Screenshot showing the new secret](../media/05-azure-ad-portal-new-app-secret-02.png)
 
 Copy the value of the secret as you'll need it later.
 
@@ -103,7 +103,7 @@ Create a new property, `ClientSecret`, immediately after the `ClientId`. Set the
 
 The web application must know the URL and scopes required by the web API application created in the previous exercise. The scopes defined for the web API application are found in the **Expose an api** blade of the app registration in the Azure Active Directory portal. (The scopes are specified in the format `api://[client-id]/[scope]`).
 
-In the root folder of the project, create a file named **Constants.cs**. Add the following to the file, specifying the correct value for the web API application client id. The claim ids (which are strings that look like a URI) that are required for token acquisition are added to the Constants class.
+In the root folder of the project, create a file named **Constants.cs**. Add the following to the file, specifying the correct value for the web API application client ID. The claim ids (which are strings that look like a URI) that are required for token acquisition are added to the Constants class.
 
 ```csharp
 using System.Collections.Generic;

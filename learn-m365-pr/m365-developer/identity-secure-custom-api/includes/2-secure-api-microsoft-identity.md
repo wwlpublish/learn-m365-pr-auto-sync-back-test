@@ -45,7 +45,7 @@ Securing a web API with Microsoft identity that can be called by other applicati
 
 The first step is to register the app in Azure AD using the Azure AD admin center located at https://aad.portal.azure.com.
 
-![Screenshot of App Registrations page](../media/aad-portal-newapp-00.png)
+![Screenshot of App Registrations page](../media/azure-ad-portal-new-app-00.png)
 
 #### Define scopes
 
@@ -55,11 +55,11 @@ You then will write the business logic within your web API to determine what is 
 
 Each scope has name & description properties for the user consent and admin consent. User consent is when a user grants an app permission to act on their behalf while admin consent is when a global tenant administrator grants the permission on behalf of all users or an application.
 
-![Screenshot of the application scope of the new app registration](../media/03-aad-portal-newapp-addscope.png)
+![Screenshot of the application scope of the new app registration](../media/03-azure-ad-portal-new-app-add-scope.png)
 
 After registering the app in the Azure AD admin center, make a copy of the tenant ID and the client ID of the app. You'll need these values when you create configure the web API project.
 
-![Screenshot of the application ID of the new app registration](../media/03-aad-portal-newapp-details.png)
+![Screenshot of the application ID of the new app registration](../media/03-azure-ad-portal-new-app-details.png)
 
 ### Protecting an API with Azure AD
 

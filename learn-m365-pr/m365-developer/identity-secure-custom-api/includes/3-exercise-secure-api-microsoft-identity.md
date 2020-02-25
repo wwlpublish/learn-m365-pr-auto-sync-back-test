@@ -8,11 +8,11 @@ Select **Azure Active Directory** in the left-hand navigation.
 
 Select **App registrations** in the left-hand navigation.
 
-![Screenshot of the App registrations](../media/aad-portal-home.png)
+![Screenshot of the App registrations](../media/azure-ad-portal-home.png)
 
 On the **App registrations** page, select **New registration**.
 
-![Screenshot of App Registrations page](../media/aad-portal-newapp-00.png)
+![Screenshot of App Registrations page](../media/azure-ad-portal-new-app-00.png)
 
 On the **Register an application** page, set the values as follows:
 
@@ -23,7 +23,7 @@ Select **Register** to create the application.
 
 On the **Product Catalog API** page, copy the values **Application (client) ID** and **Directory (tenant) ID**; you'll need these values later in this exercise.
 
-![Screenshot of the application ID of the new app registration](../media/03-aad-portal-newapp-details.png)
+![Screenshot of the application ID of the new app registration](../media/03-azure-ad-portal-new-app-details.png)
 
 Select **Expose an API** in the left-hand navigation.
 
@@ -43,7 +43,7 @@ On the **Add a scope** panel, set the values as follows:
 
 Select **Add scope**.
 
-![Screenshot of the application scope of the new app registration](../media/03-aad-portal-newapp-addscope.png)
+![Screenshot of the application scope of the new app registration](../media/03-azure-ad-portal-new-app-add-scope.png)
 
 Repeat the steps to add the following scopes, allowing **Admin and users** consent:
 
