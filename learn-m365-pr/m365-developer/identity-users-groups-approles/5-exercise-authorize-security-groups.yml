@@ -1,0 +1,42 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.identity-users-groups-approles.5-exercise-authorize-security-groups
+metadata:
+  title: Exercise - Utilize security groups in custom web apps and APIs
+  description: In this exercise, you’ll learn what security groups are and how you can use them within your custom apps secured with Microsoft identity.
+  ms.date: 02/26/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Utilize security groups in custom web apps and APIs
+durationInMinutes: 15
+content: |
+  [!include[](includes/5-exercise-authorize-security-groups.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "How can users be added to security groups?"
+    choices:
+    - content: "Users can be manually added to a group using the Azure AD admin center by group owners."
+      isCorrect: false
+      explanation: "All of these options are valid ways to add users to groups."
+    - content: "Users can search and apply to join groups; group owners can review and approve requests to join the group."
+      isCorrect: false
+      explanation: "All of these options are valid ways to add users to groups."
+    - content: "Users can search and join groups automatically if the groups are configured correctly."
+      isCorrect: false
+      explanation: "All of these options are valid ways to add users to groups."
+    - content: "All of these options are valid ways to add users to groups."
+      isCorrect: true
+      explanation: "Correct!"
+  - content: "To support security groups in a custom ASP.NET app that uses MSAL and the OpenID Connect middleware, you must do which of the following things?"
+    choices:
+    - content: "Set the OpenID Connect middleware `RoleClaimType` property to `groups`."
+      isCorrect: false
+      explanation: "The app's configuration property `groupMembershipClaims` must be set to `SecurityGroup`."
+    - content: "Set the `RoleClaimType` on the OpenID Connect middleware to `securityGroups`."
+      isCorrect: false
+      explanation: "The `RoleClaimType` must be set to `groups`."
+    - content: "Set the app's manifest property `groupMembershipClaims` to `SecurityGroup` and the OpenID Connect middleware `RoleClaimType` property to `groups`."
+      isCorrect: true
+      explanation: "Correct!"
