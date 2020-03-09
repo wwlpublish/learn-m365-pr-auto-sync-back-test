@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.sharepoint-spfx-webpart-proppane.6-pnp-controls
+uid: learn-m365.sharepoint-spfx-web-part-property-pane.6-pnp-controls
 metadata:
   title: Leverage the PnP reusable property pane controls
   description: In this unit, you'll learn how you can use third-party controls from the popular PnP SPFx reusable property pane controls project.

@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.sharepoint-spfx-webpart-proppane.2-property-pane-overview
+uid: learn-m365.sharepoint-spfx-web-part-property-pane.2-property-pane-overview
 metadata:
   title: Introducing the client-side web part property pane
   description: In this unit, you'll learn how to use the property pane in your SharePoint Framework client-side web part components.

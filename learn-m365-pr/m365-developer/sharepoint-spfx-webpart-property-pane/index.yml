@@ -1,14 +1,14 @@
 ### YamlMime:Module
-uid: learn-m365.sharepoint-spfx-webpart-proppane
+uid: learn-m365.sharepoint-spfx-web-part-property-pane
 metadata:
-  title: Enable SharePoint Framework Web Part Configuration with Property Panes
+  title: Enable SharePoint Framework web part configuration with property panes
   description: Learn how to enable web part configurations with property panes in the SharePoint Framework.
   ms.date: 3/9/2020
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Enable SharePoint Framework Web Part Configuration with Property Panes
+title: Enable SharePoint Framework web part configuration with property panes
 summary: This module will introduce you to leveraging the property pane for client-side web parts created with the SharePoint Framework.
 abstract: |
   By the end of this module, you will be able to:
@@ -20,7 +20,7 @@ prerequisites: |
   - Ability to program with JavaScript, TypeScript, and Node.js
   - Experience using Visual Studio Code at the intermediate level
   - Access to a Microsoft 365 tenant
-iconUrl: /learn/achievements/sharepoint-spfx-webpart-proppane.svg
+iconUrl: /learn/achievements/sharepoint-spfx-web-part-property-pane.svg
 levels:
   - intermediate
 roles:
@@ -29,13 +29,13 @@ products:
   - m365
   - office-sp-framework
 units:
-  - learn-m365.sharepoint-spfx-webpart-proppane.1-introduction
-  - learn-m365.sharepoint-spfx-webpart-proppane.2-property-pane-overview
-  - learn-m365.sharepoint-spfx-webpart-proppane.3-exercise-web-part-property-pane
-  - learn-m365.sharepoint-spfx-webpart-proppane.4-build-custom-property-pane-controls
-  - learn-m365.sharepoint-spfx-webpart-proppane.5-exercise-build-custom-controls
-  - learn-m365.sharepoint-spfx-webpart-proppane.6-pnp-controls
-  - learn-m365.sharepoint-spfx-webpart-proppane.7-exercise-pnp-controls
-  - learn-m365.sharepoint-spfx-webpart-proppane.8-summary
+  - learn-m365.sharepoint-spfx-web-part-property-pane.1-introduction
+  - learn-m365.sharepoint-spfx-web-part-property-pane.2-property-pane-overview
+  - learn-m365.sharepoint-spfx-web-part-property-pane.3-exercise-web-part-property-pane
+  - learn-m365.sharepoint-spfx-web-part-property-pane.4-build-custom-property-pane-controls
+  - learn-m365.sharepoint-spfx-web-part-property-pane.5-exercise-build-custom-controls
+  - learn-m365.sharepoint-spfx-web-part-property-pane.6-pnp-controls
+  - learn-m365.sharepoint-spfx-web-part-property-pane.7-exercise-pnp-controls
+  - learn-m365.sharepoint-spfx-web-part-property-pane.8-summary
 badge:
-  uid: learn-m365.sharepoint-spfx-webpart-proppane.badge
+  uid: learn-m365.sharepoint-spfx-web-part-property-pane.badge

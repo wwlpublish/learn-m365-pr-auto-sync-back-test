@@ -1,6 +1,6 @@
 In this exercise, you'll manipulate the property pane for a SharePoint Framework client-side web part with controls, groups, and pages.
 
-## Create a new SPFx Solution & Web Part
+## Create a new ShareaPoint Framework solution & web part
 
 Open a command prompt and change to the folder where you want to create the project.
 
@@ -82,7 +82,7 @@ In the command prompt, press <kbd>CTRL+C</kbd> to stop the local web server. Reb
 
 ![Screenshot of HelloPropertyPane with no values](../media/03-edit-property-pane-add-property-02.png)
 
-## Extend the Property Pane
+## Extend the property pane
 
 Now that the web part has two new custom properties, the next step is to extend the property pane to allow users to edit the values.
 
@@ -115,7 +115,7 @@ Notice the property pane now has a slider control to control the number of conti
 
 ![Screenshot of HelloPropertyPane with a new field](../media/03-edit-property-pane-add-property-04.png)
 
-## Add Control Validation
+## Add control validation
 
 In a previous step, the user was given a property where they could enter the name of the continent in which they live. Now add validation logic to ensure they enter a valid continent name.
 

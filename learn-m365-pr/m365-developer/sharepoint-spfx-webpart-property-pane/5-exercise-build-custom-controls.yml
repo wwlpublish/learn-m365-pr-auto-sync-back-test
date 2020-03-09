@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.sharepoint-spfx-webpart-proppane.5-exercise-build-custom-controls
+uid: learn-m365.sharepoint-spfx-web-part-property-pane.5-exercise-build-custom-controls
 metadata:
   title: Exercise - Build custom property pane fields
   description: In this exercise, you'll extend the property pane by creating your own custom field control.
