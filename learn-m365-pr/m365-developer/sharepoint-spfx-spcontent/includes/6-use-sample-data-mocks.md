@@ -10,7 +10,7 @@ While this doesn't make for a good debugging experience, there's a technique you
 
 ## Work with mock data in the SharePoint Framework
 
-Developers can use parts of the SharePoint Framework API to detect the current runtime environment the component is currently executing within. The `Environment` object in the **@microsoft/sp-core-library** package contains a `type` property that returns the current SharePoint environment your component is running in. You can also use the `EnvironmentType` enumeration from the same NPM package to detect the current SharePoint environment:
+Developers can use parts of the SharePoint Framework API to detect the current runtime environment the component is currently executing within. The `Environment` object in the **\@microsoft/sp-core-library** package contains a `type` property that returns the current SharePoint environment your component is running in. You can also use the `EnvironmentType` enumeration from the same NPM package to detect the current SharePoint environment:
 
 ```typescript
 private get _isSharePoint(): boolean {
