@@ -14,7 +14,7 @@ The `AADHttpClient` API extends the `HttpClient` API that is used to call Azure 
 
 None of these related HTTP request APIs require developers to install additional clients or libraries; the default SharePoint Framework project includes everything you'll need in your project to submit requests to REST APIs.
 
-## Call third-party APIs with the `HttpClient`
+## Call third-party APIs with the `HttpClient` API
 
 The `HttpClient` API is available from the SharePoint Framework component's `context` object. You'll primarily use this API to submit HTTP request to anonymous REST APIs, but you aren't limited to anonymous APIs or REST APIs. The client is optimized for REST APIs, but its used to submit HTTP requests to endpoints. You'll have full control to override any parts of the request prior to sending it, including adding or modifying HTTP request header values.
 

@@ -1,5 +1,5 @@
 ### YamlMime:Module
-uid: learn-m365.sharepoint-spfx-graph-3rdpartyapis
+uid: learn-m365.sharepoint-spfx-graph-3rd-party-apis
 metadata:
   title: Leverage Microsoft Graph & third-party APIs
   description: Learn how to call third-party APIs including Microsoft Graph, Azure AD protected APIs, and anonymous APIs.
@@ -20,7 +20,7 @@ prerequisites: |
   - Ability to program with JavaScript, TypeScript, and Node.js
   - Experience using Visual Studio Code at the intermediate level
   - Access to a Microsoft 365 tenant
-iconUrl: /learn/achievements/sharepoint-spfx-graph-3rdpartyapis.svg
+iconUrl: /learn/achievements/sharepoint-spfx-graph-3rd-party-apis.svg
 levels:
   - intermediate
 roles:
@@ -29,13 +29,13 @@ products:
   - m365
   - office-sp-framework
 units:
-  - learn-m365.sharepoint-spfx-graph-3rdpartyapis.1-introduction
-  - learn-m365.sharepoint-spfx-graph-3rdpartyapis.2-anonymous-apis
-  - learn-m365.sharepoint-spfx-graph-3rdpartyapis.3-exercise-anonymous-apis
-  - learn-m365.sharepoint-spfx-graph-3rdpartyapis.4-azure-ad-apis
-  - learn-m365.sharepoint-spfx-graph-3rdpartyapis.5-exercise-azure-ad-apis
-  - learn-m365.sharepoint-spfx-graph-3rdpartyapis.6-microsoft-graph-api
-  - learn-m365.sharepoint-spfx-graph-3rdpartyapis.7-exercise-graph-api
-  - learn-m365.sharepoint-spfx-graph-3rdpartyapis.8-summary
+  - learn-m365.sharepoint-spfx-graph-3rd-party-apis.1-introduction
+  - learn-m365.sharepoint-spfx-graph-3rd-party-apis.2-anonymous-apis
+  - learn-m365.sharepoint-spfx-graph-3rd-party-apis.3-exercise-anonymous-apis
+  - learn-m365.sharepoint-spfx-graph-3rd-party-apis.4-azure-ad-apis
+  - learn-m365.sharepoint-spfx-graph-3rd-party-apis.5-exercise-azure-ad-apis
+  - learn-m365.sharepoint-spfx-graph-3rd-party-apis.6-microsoft-graph-api
+  - learn-m365.sharepoint-spfx-graph-3rd-party-apis.7-exercise-graph-api
+  - learn-m365.sharepoint-spfx-graph-3rd-party-apis.8-summary
 badge:
-  uid: learn-m365.sharepoint-spfx-graph-3rdpartyapis.badge
+  uid: learn-m365.sharepoint-spfx-graph-3rd-party-apis.badge

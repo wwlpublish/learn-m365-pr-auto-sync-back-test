@@ -26,7 +26,7 @@ After provisioning the folders required for the project, the generator will inst
 
 Install the Microsoft Graph TypeScript type declarations by executing the following statement on the command line:
 
-```shell
+```shell99a2bc0b-2d8b-415d-bbac-e590cf4bddbc
 npm install @microsoft/microsoft-graph-types --save-dev
 ```
 
@@ -277,8 +277,6 @@ Select the **Pending approval** for the **Microsoft Graph** permission **User.Re
 ![Screenshot of the SharePoint Online admin portal API Management page](../media/spo-admin-portal-04.png)
 
 Select the **Approve or Reject** button, followed by selecting **Approve**.
-
-![Screenshot of the SharePoint Online permission approval](../media/spo-admin-portal-05.png)
 
 ## Test the web part
 

@@ -237,7 +237,7 @@ Drag the generated SharePoint package from **/sharepoint/solution/sp-fx-aad-http
 
 In the **Do you trust sp-fx-aad-http-client-side-solution?** dialog, select **Deploy**.
 
-![Screenshot of trusting a SharePoint package](../media/aad-addpackage-01.png)
+![Screenshot of trusting a SharePoint package](../media/azure-ad-add-package-01.png)
 
 ## Approve the API permission request
 
@@ -252,8 +252,6 @@ Select the **Pending approval** for the **Microsoft Graph** permission **User.Re
 ![Screenshot of the permission requests pending approval](../media/spo-admin-portal-02.png)
 
 Select the **Approve or Reject** button, followed by selecting **Approve**.
-
-![Screenshot of the Approve or reject access dialog](../media/spo-admin-portal-03.png)
 
 ## Test the web part
 
@@ -272,7 +270,7 @@ In site navigation, select **From your Organization**.
 
 Select **sp-fx-aad-http-client-side-solution** to add your web part.
 
-![Screenshot of the Apps you can add dialog](../media/aad-addpackage-05.png)
+![Screenshot of the Apps you can add dialog](../media/azure-ad-add-package-05.png)
 
 ### Test the web part on a SharePoint Online modern page
 
@@ -288,11 +286,11 @@ In the browser, select the Web part icon button to open the list of available we
 
 Locate the **SPFxAadHttpClient** web part and select it
 
-![Screenshot of adding the web part to the modern SharePoint page](../media/aad-addpackage-06.png)
+![Screenshot of adding the web part to the modern SharePoint page](../media/azure-ad-add-package-06.png)
 
 When the page loads, notice after a brief delay, it will display a list of users:
 
-![Screenshot of the web part running in a modern SharePoint page](../media/aad-addpackage-07.png)
+![Screenshot of the web part running in a modern SharePoint page](../media/azure-ad-add-package-07.png)
 
 ## Summary
 
