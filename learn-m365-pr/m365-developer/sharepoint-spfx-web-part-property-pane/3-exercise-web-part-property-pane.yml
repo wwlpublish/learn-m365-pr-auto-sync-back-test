@@ -1,0 +1,36 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.sharepoint-spfx-web-part-property-pane.3-exercise-web-part-property-pane
+metadata:
+  title: Exercise - Work with the web part property pane
+  description: In this exercise, you'll manipulate the property pane for a SharePoint Framework client-side web part with controls, groups, and pages.
+  ms.date: 3/9/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Work with the web part property pane
+durationInMinutes: 15
+content: |
+  [!include[](includes/3-exercise-web-part-property-pane.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "What's required to automatically update a property mapped to a property pane control when a user updates the value?"
+    choices:
+    - content: "Implement the `autoUpdateWebPartProperties` overridable property on the `BaseClientSideWebPart` class to return `true`."
+      isCorrect: false
+      explanation: "There's no property `autoUpdateWebPartProperties` on the `BaseClientSideWebPart` class."
+    - content: "Implement the `disableReactivePropertyChanges` overridable property on the `BaseClientSideWebPart` class to return `false`."
+      isCorrect: false
+      explanation: "The `disableReactivePropertyChanges` property already returns `false` by default, unless its overridden."
+    - content: "Nothing - the default reactive mode of the property pane automatically updates properties when they're changed in the property pane."
+      isCorrect: true
+      explanation: "Correct!"
+  - content: "Which of the following best explains the difference between the two modes of a property pane: reactive and non-reactive?"
+    choices:
+    - content: "The reactive mode means mapped web part properties are automatically updated when they're changed in a property pane control, while non-reactive means the user must select the **Apply** button to save their changes."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "The property pane must be set to reactive when the React web framework is used in the web part. If a different or no web framework is used by the web part, set the mode to non-reactive."
+      isCorrect: false
+      explanation: "The reactive mode of a property pane has nothing to do with web frameworks."
