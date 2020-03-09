@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.sharepoint-spfx-deployment.3-exercise-deploy-tenant-app-catalog
+metadata:
+  title: Exercise - Deploy SharePoint Framework solutions to tenant App Catalog
+  description: In this exercise, you'll create a SharePoint Framework (SPFx) client-side web part that will be used to try different deployment configurations.
+  ms.date: 3/9/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Deploy SharePoint Framework solutions to tenant App Catalog
+durationInMinutes: 16
+content: |
+  [!include[](includes/3-exercise-deploy-tenant-app-catalog.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "What deployment options does SharePoint offer to use a SharePoint Framework component on a page?"
+    choices:
+    - content: "Deploy the SharePoint Framework package to the App Catalog site before it can be used."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "You can either deploy the SharePoint Framework packages to the App Catalog site or sideload the package in a SharePoint site before it can be used."
+      isCorrect: false
+      explanation: "SharePoint doesn't support sideloading SharePoint Framework packages."
+    - content: "You can either deploy the SharePoint Framework packages to the Office Store or sideload the package in a SharePoint site before it can be used."
+      isCorrect: false
+      explanation: "SharePoint doesn't support sideloading SharePoint Framework packages and you must deploy them to the App Catalog site."
+  - content: "What is the complete lifecycle of a SharePoint Framework package?"
+    choices:
+    - content: "Add, install, use, uninstall, remove/delete"
+      isCorrect: false
+      explanation: "After adding a SharePoint Framework package to the App Catalog, you must deploy it before you can install it."
+    - content: "Add, deploy, install, use, uninstall, remove/delete"
+      isCorrect: false
+      explanation: "Before you can remove a SharePoint Framework package from the App Catalog, you must first retract it."
+    - content: "Add, deploy, install, use, uninstall, retract, remove/delete"
+      isCorrect: true
+      explanation: "Correct!"

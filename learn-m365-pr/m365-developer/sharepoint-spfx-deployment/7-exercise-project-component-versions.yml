@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.sharepoint-spfx-deployment.7-exercise-project-component-versions
+metadata:
+  title: Exercise - Version numbers in SharePoint Framework projects, packages, and components
+  description: In this exercise, you'll learn how to change the various version numbers in SharePoint Framework components, packages, and how this impacts your deployments.
+  ms.date: 3/9/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Version numbers in SharePoint Framework projects, packages, and components
+durationInMinutes: 18
+content: |
+  [!include[](includes/7-exercise-project-component-versions.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "How do you update the JavaScript bundles after deploying a new version of a SharePoint Framework component?"
+    choices:
+    - content: "After uploading a new version of the SharePoint Framework package, you must select the app in each site where it's installed and manually upgrades each installed instance."
+      isCorrect: false
+      explanation: "You don't need to manually upgrade each installed instance. JavaScript files are automatically updated when you upload a new version of the SharePoint package regardless if the version numbers changed from a previous deployment."
+    - content: "When uploading a new version of the SharePoint Framework package, enable the **Upgrade existing installs** toggle on the deployment confirmation dialog."
+      isCorrect: false
+      explanation: "The **Upgrade existing installs** toggle doesn't exist."
+    - content: "JavaScript files are automatically updated when you upload a new version of the SharePoint package regardless if the version numbers changed from a previous deployment."
+      isCorrect: true
+      explanation: "Correct!"
+  - content: "Why would a new client-side web part added to a SharePoint Framework package not appear in the toolbox after uploading and updating a new version of an existing SharePoint Framework package?"
+    choices:
+    - content: "The SharePoint Framework package version wasn't incremented and installed instances weren't upgraded. You must do this to force a feature reactivation to provision the web part definition to the Web Part Gallery."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "You can't add new components to a previously deployed SharePoint Framework package. You must instead upload the package with a new name and ID."
+      isCorrect: false
+      explanation: "You can add components to existing SharePoint Framework packages."
+    - content: "The SharePoint Framework package's installed instances weren't upgraded. You must do this to force a feature reactivation to provision the web part definition to the Web Part Gallery."
+      isCorrect: false
+      explanation: "You must increment the SharePoint Framework package's version must be incremented in order for SharePoint to offer an upgrade option on installed instances."

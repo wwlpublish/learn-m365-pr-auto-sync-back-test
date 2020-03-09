@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn-m365.sharepoint-spfx-spcontent
+metadata:
+  title: Work with SharePoint Content using the SharePoint Framework
+  description: Learn how to work with SharePoint content in SharePoint Framework projects.
+  ms.date: 3/9/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Work with SharePoint Content using the SharePoint Framework
+summary: This module will introduce you to working with SharePoint content in SharePoint Framework projects. You'll learn about the SharePoint REST API, do CRUD operations with SharePoint data, the local workbench and creating mock data in SharePoint Framework.
+abstract: |
+  By the end of this module, you will be able to:
+  - Demonstrate how to read and write list data using the SharePoint REST API
+  - Create a SharePoint Framework project that performs CRUD operations with the SharePoint REST API
+  - Demonstrate when and how to implement mock data in SharePoint Framework projects
+prerequisites: |
+  - Experience using SharePoint Online at the intermediate level
+  - Ability to program with JavaScript, TypeScript, and Node.js
+  - Experience using Visual Studio Code at the intermediate level
+  - Access to a Microsoft 365 tenant
+iconUrl: /learn/achievements/sharepoint-spfx-spcontent.svg
+levels:
+  - intermediate
+roles:
+  - developer
+products:
+  - m365
+  - office-sp-framework
+units:
+  - learn-m365.sharepoint-spfx-spcontent.1-introduction
+  - learn-m365.sharepoint-spfx-spcontent.2-get-data
+  - learn-m365.sharepoint-spfx-spcontent.3-exercise-get-data
+  - learn-m365.sharepoint-spfx-spcontent.4-crud-sharepoint-rest
+  - learn-m365.sharepoint-spfx-spcontent.5-exercise-crud-operations
+  - learn-m365.sharepoint-spfx-spcontent.6-use-sample-data-mocks
+  - learn-m365.sharepoint-spfx-spcontent.7-exercise-using-mocks
+  - learn-m365.sharepoint-spfx-spcontent.8-summary
+badge:
+  uid: learn-m365.sharepoint-spfx-spcontent.badge

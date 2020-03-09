@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.sharepoint-spfx-spcontent.5-exercise-crud-operations
+metadata:
+  title: Exercise - Write operations using the SharePoint Framework APIs and SharePoint REST API
+  description: In this exercise, you'll extend the SharePoint Framework project from the previous exercise to add write capabilities using the SharePoint REST API.
+  ms.date: 3/9/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Write operations using the SharePoint Framework APIs and SharePoint REST API
+durationInMinutes: 13
+content: |
+  [!include[](includes/5-exercise-crud-operations.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "How can developers customize the HTTP request headers submitted to the SharePoint REST API using the SharePoint Framework API?"
+    choices:
+    - content: "The last argument in any of the request methods on the `spHttpClient` object enables developers to add or override the default HTTP request headers."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "The request headers can't be modified when using the SharePoint Framework API; developers must use another API to have full control over the request headers."
+      isCorrect: false
+      explanation: "Developers can modify the headers of the request sent to the SharePoint REST API by overriding the default headers."
+    - content: "Developers must use the special `rawRequest()` method on the `spHttpClient` object to have control over the request headers sent to the SharePoint REST API."
+      isCorrect: false
+      explanation: "Developers can modify the headers of the request sent to the SharePoint REST API by overriding the default headers using the existing methods on the `spHttpClient` object."
+  - content: "Which method(s) on the `spHttpClient` API is used to submit write operations to the SharePoint REST API."
+    choices:
+    - content: "Developers can use the `write()` method to submit write operations to the SharePoint REST API."
+      isCorrect: false
+      explanation: "Developers use the `post()` or `fetch()` methods. The `write()` method doesn't exist."
+    - content: "Developers can use the `create()`, `update()`, or `delete()` methods to submit write operations to the SharePoint REST API."
+      isCorrect: false
+      explanation: "Developers use the `post()` or `fetch()` methods. The `write()` method doesn't exist."
+    - content: "Developers can use either the `post()` or `fetch()` methods to submit write operations to the SharePoint REST API."
+      isCorrect: true
+      explanation: "Correct!"

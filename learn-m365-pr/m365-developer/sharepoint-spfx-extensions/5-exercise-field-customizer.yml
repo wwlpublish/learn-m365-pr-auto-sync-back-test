@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.sharepoint-spfx-extensions.5-exercise-field-customizer
+metadata:
+  title: Exercise - Create a field customizer extension
+  description: In this exercise, you'll create a SharePoint Framework (SPFx) field customizer extension that will display a colored bar in a column with a percentage of the bar filled depending on the value in the field.
+  ms.date: 3/9/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Create a field customizer extension
+durationInMinutes: 14
+content: |
+  [!include[](includes/5-exercise-field-customizer.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "How can you access the value of a field from a field customizer?"
+    choices:
+    - content: "Use the `event.fieldValue` property passed as an argument to the `onRenderCell()` method."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Use the `this.context.currentItem.currentField` property off the `BaseFieldCustomizer` class."
+      isCorrect: false
+      explanation: "The `currentItem` property doesn't exist on the `context` object."
+    - content: "The value of the current cell is passed into the `onRenderCell()` method."
+      isCorrect: false
+      explanation: "The value isn't passed as an argument; its accessible from the `event` property passed into the `onRenderCell()` method."
+  - content: "How is the HTML of a cell modified by a field customizer extension?"
+    choices:
+    - content: "The HTML is returned as a string by the `onRenderCell()` method."
+      isCorrect: false
+      explanation: ""
+    - content: "The HTML is set on the `event.domElement.innerHTML` property from within the `onRenderCell()` method."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "The HTML is set on the `this.domElement.innerHTML` property from within the `onRenderCell()` method."
+      isCorrect: false
+      explanation: "The `domElement` object is accessible from the `event` object, not the `this` object."

@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.sharepoint-spfx-web-part-property-pane.1-introduction
+metadata:
+  title: Introduction
+  description: This unit introduces you to the module and explains what you will learn.
+  ms.date: 3/9/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Introduction
+durationInMinutes: 1
+content: |
+  [!include[](includes/1-introduction.md)]

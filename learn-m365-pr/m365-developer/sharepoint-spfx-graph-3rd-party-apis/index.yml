@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn-m365.sharepoint-spfx-graph-3rd-party-apis
+metadata:
+  title: Leverage Microsoft Graph & third-party APIs
+  description: Learn how to call third-party APIs including Microsoft Graph, Azure AD protected APIs, and anonymous APIs.
+  ms.date: 3/9/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Leverage Microsoft Graph & third-party APIs
+summary: This module introduces you to using external APIs in your SharePoint Framework projects. SharePoint Framework projects can incorporate data from anonymous APIs, those REST APIs secured with Azure AD, and Microsoft Graph.
+abstract: |
+  By the end of this module, you will be able to:
+  - Create a SharePoint Framework project that requests and displays data from anonymous REST APIs
+  - Demonstrate how to call REST APIs secured with Azure AD in SharePoint Framework projects
+  - Demonstrate how to request and displays data from Microsoft Graph
+prerequisites: |
+  - Experience using SharePoint Online at the intermediate level
+  - Ability to program with JavaScript, TypeScript, and Node.js
+  - Experience using Visual Studio Code at the intermediate level
+  - Access to a Microsoft 365 tenant
+iconUrl: /learn/achievements/sharepoint-spfx-graph-3rd-party-apis.svg
+levels:
+  - intermediate
+roles:
+  - developer
+products:
+  - m365
+  - office-sp-framework
+units:
+  - learn-m365.sharepoint-spfx-graph-3rd-party-apis.1-introduction
+  - learn-m365.sharepoint-spfx-graph-3rd-party-apis.2-anonymous-apis
+  - learn-m365.sharepoint-spfx-graph-3rd-party-apis.3-exercise-anonymous-apis
+  - learn-m365.sharepoint-spfx-graph-3rd-party-apis.4-azure-ad-apis
+  - learn-m365.sharepoint-spfx-graph-3rd-party-apis.5-exercise-azure-ad-apis
+  - learn-m365.sharepoint-spfx-graph-3rd-party-apis.6-microsoft-graph-api
+  - learn-m365.sharepoint-spfx-graph-3rd-party-apis.7-exercise-graph-api
+  - learn-m365.sharepoint-spfx-graph-3rd-party-apis.8-summary
+badge:
+  uid: learn-m365.sharepoint-spfx-graph-3rd-party-apis.badge

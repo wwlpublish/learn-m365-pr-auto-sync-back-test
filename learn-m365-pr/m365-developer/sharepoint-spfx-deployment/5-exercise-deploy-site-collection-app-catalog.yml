@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.sharepoint-spfx-deployment.5-exercise-deploy-site-collection-app-catalog
+metadata:
+  title: Exercise - Deploy SharePoint Framework solutions to a site collection App Catalog
+  description: In this exercise, you'll learn how to enable a site collection-scoped App Catalog and deploy an app to it.
+  ms.date: 3/9/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Deploy SharePoint Framework solutions to a site collection App Catalog
+durationInMinutes: 13
+content: |
+  [!include[](includes/5-exercise-deploy-site-collection-app-catalog.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "Which of the following statements about App Catalogs is incorrect?"
+    choices:
+    - content: "Tenant and site collection App Catalogs are supported in all SharePoint environments where SharePoint Framework solutions are supported."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Site Collection App Catalogs are only supported in SharePoint Online."
+      isCorrect: false
+      explanation: "The statement is true; site collection App Catalogs aren't supported in SharePoint Server 2016 or SharePoint Server 2019."
+    - content: "Site collection App Catalogs can only be created by tenant administrators using PowerShell, the Office 365 CLI, or the SharePoint REST API."
+      isCorrect: false
+      explanation: "The statement is true; site collection App Catalogs can't be created using the SharePoint Admin Center website."
+  - content: "How can an administrator create a site collection App Catalog?"
+    choices:
+    - content: "Site collection App Catalogs can be created using the SharePoint Admin Center, PowerShell, Office 365 CLI, or the SharePoint REST API."
+      isCorrect: false
+      explanation: "You can't create a site collection App Catalogs from the SharePoint Admin Center"
+    - content: "Site collection App Catalogs can be created using the SharePoint Admin Center, PowerShell, or the Office 365 CLI."
+      isCorrect: false
+      explanation: "You can't create a site collection App Catalogs from the SharePoint Admin Center"
+    - content: "Site collection App Catalogs can be created using PowerShell, Office 365 CLI, and the SharePoint REST API."
+      isCorrect: true
+      explanation: "Correct"

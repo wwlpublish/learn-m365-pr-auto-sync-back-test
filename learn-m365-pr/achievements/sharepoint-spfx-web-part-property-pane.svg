@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="101px" height="101px" viewBox="0 0 101 101" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Customize and extend SharePoint/Working-with-the-Web-Part-Property-Pane</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="94.3396226" height="94.3396226" rx="47.1698113"></rect>
+        <linearGradient x1="50%" y1="2.35050413%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#036C70" offset="0%"></stop>
+            <stop stop-color="#0E4F51" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="77.8299825%" y1="11.1997378%" x2="-99.6885927%" y2="253.807911%" id="linearGradient-4">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-5" x="0" y="0" width="94.3396226" height="94.3396226"></rect>
+        <rect id="path-6" x="0" y="0" width="100" height="100" rx="50"></rect>
+        <filter x="-0.5%" y="-0.5%" width="102.0%" height="102.0%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="4" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="1" dy="1" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <path d="M50,2.83018868 C76.0511674,2.83018868 97.1698113,23.9488326 97.1698113,50 C97.1698113,76.0511674 76.0511674,97.1698113 50,97.1698113 C23.9488326,97.1698113 2.83018868,76.0511674 2.83018868,50 C2.83018868,23.9488326 23.9488326,2.83018868 50,2.83018868 Z M50,6.60377358 C26.032926,6.60377358 6.60377358,26.032926 6.60377358,50 C6.60377358,73.967074 26.032926,93.3962264 50,93.3962264 C73.967074,93.3962264 93.3962264,73.967074 93.3962264,50 C93.3962264,26.032926 73.967074,6.60377358 50,6.60377358 Z" id="path-8"></path>
+    </defs>
+    <g id="Badges" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Customize-and-extend-SharePoint-2" transform="translate(-160.000000, -510.000000)">
+            <g id="Customize-and-extend-SharePoint/Working-with-the-Web-Part-Property-Pane" transform="translate(160.000000, 510.000000)">
+                <g id="Badge-Plates/Circle">
+                    <g id="BG" transform="translate(2.830189, 2.830189)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g></g>
+                        <g id="Colors/Sharepoint/BG-Solid-1" mask="url(#mask-2)">
+                            <rect id="Rectangle" fill="url(#linearGradient-3)" x="0" y="0" width="94.3396226" height="94.3396226"></rect>
+                            <g id="Rectangle">
+                                <use fill="#036C70" xlink:href="#path-5"></use>
+                                <use fill-opacity="0.4" fill="url(#linearGradient-4)" xlink:href="#path-5"></use>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Border">
+                        <g id="White-Border">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                            <rect stroke="#F2F1F0" stroke-width="4" stroke-linejoin="square" x="2" y="2" width="96" height="96" rx="48"></rect>
+                        </g>
+                        <mask id="mask-9" fill="white">
+                            <use xlink:href="#path-8"></use>
+                        </mask>
+                        <use id="Boarder" fill="#0078D4" fill-rule="nonzero" xlink:href="#path-8"></use>
+                        <g id="Colors/Sharepoint/Border" mask="url(#mask-9)" fill="#036C70">
+                            <g transform="translate(2.830189, 2.830189)" id="Rectangle">
+                                <rect x="0" y="0" width="94.3396226" height="94.3396226"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="Group" transform="translate(18.000000, 23.000000)">
+                    <path d="M4,54 C1.8,54 0,52.2 0,50 L0,4 C0,1.8 1.8,0 4,0 L60,0 C62.2,0 64,1.8 64,4 L64,50 C64,52.2 62.2,54 60,54 L4,54" id="Fill-1465" fill="#30404D"></path>
+                    <path d="M5,51 C3.9,51 3,50.1 3,49 L3,11 C3,9.9 3.9,9 5,9 L59,9 C60.1,9 61,9.9 61,11 L61,49 C61,50.1 60.1,51 59,51 L5,51" id="Fill-1466" fill="#FFFFFF"></path>
+                    <path d="M58,4.5 C58,3.671 58.672,3 59.5,3 C60.329,3 61,3.671 61,4.5 C61,5.328 60.329,6 59.5,6 C58.672,6 58,5.328 58,4.5" id="Fill-1467" fill="#DF5142"></path>
+                    <path d="M52,4.5 C52,3.671 52.672,3 53.5,3 C54.329,3 55,3.671 55,4.5 C55,5.328 54.329,6 53.5,6 C52.672,6 52,5.328 52,4.5" id="Fill-1468" fill="#697D85"></path>
+                    <path d="M46,4.5 C46,3.671 46.672,3 47.5,3 C48.329,3 49,3.671 49,4.5 C49,5.328 48.329,6 47.5,6 C46.672,6 46,5.328 46,4.5" id="Fill-1469" fill="#697D85"></path>
+                    <path d="M38.5,6 L4.5,6 C3.671,6 3,5.328 3,4.5 C3,3.672 3.671,3 4.5,3 L38.5,3 C39.329,3 40,3.672 40,4.5 C40,5.328 39.329,6 38.5,6" id="Fill-1470" fill="#697D85"></path>
+                    <path d="M37,28 C37,28.55 36.25,29 35.3333333,29 L8.66666667,29 C7.75,29 7,28.55 7,28 L7,15 C7,14.45 7.75,14 8.66666667,14 L35.3333333,14 C36.25,14 37,14.45 37,15 L37,28" id="Fill-1471" fill="#038387"></path>
+                    <path d="M41,9 L59,9 C60.1045695,9 61,9.8954305 61,11 L61,14 L61,14 L41,14 L41,9 Z" id="Rectangle" fill="#222930"></path>
+                    <rect id="Rectangle" fill="#D8D8D8" opacity="0.317313058" x="40" y="9" width="1" height="42"></rect>
+                    <rect id="Rectangle" fill="#30404D" x="43" y="17" width="16" height="1" rx="0.5"></rect>
+                    <rect id="Rectangle" fill="#D8D8D8" x="43" y="19" width="16" height="3" rx="1.5"></rect>
+                    <rect id="Rectangle" fill="#30404D" x="43" y="25" width="16" height="1" rx="0.5"></rect>
+                    <rect id="Rectangle" fill="#D8D8D8" x="43" y="27" width="16" height="3" rx="1.5"></rect>
+                    <rect id="Rectangle" fill="#D8D8D8" x="7" y="31" width="30" height="3" rx="1.5"></rect>
+                    <rect id="Rectangle" fill="#D8D8D8" x="7" y="36" width="30" height="3" rx="1.5"></rect>
+                    <rect id="Rectangle" fill="#D8D8D8" x="7" y="41" width="30" height="3" rx="1.5"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
