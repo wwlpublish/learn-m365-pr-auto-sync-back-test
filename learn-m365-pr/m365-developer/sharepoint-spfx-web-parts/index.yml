@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn-m365.sharepoint-spfx-web-parts
+metadata:
+  title: Develop web parts with the SharePoint Framework
+  description: Learn how to create client-side web parts with the SharePoint Framework.
+  ms.date: 3/9/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Develop web parts with the SharePoint Framework
+summary: This module will introduce you to creating client-side web parts using the SharePoint Framework. You'll also see how to leverage both the local and hosted SharePoint Workbench & using different parts of the SharePoint Framework API.
+abstract: |
+  By the end of this module, you will be able to:
+  - Create a client-side web with the SharePoint Framework
+  - Demonstrate how to test a web part using the local workbench
+  - Explain the differences and when to use the local vs. hosted workbench
+prerequisites: |
+  - Experience using SharePoint Online at the intermediate level
+  - Ability to program with JavaScript, TypeScript, and Node.js
+  - Experience using Visual Studio Code at the intermediate level
+  - Access to a Microsoft 365 tenant
+iconUrl: /learn/achievements/sharepoint-spfx-web-parts.svg
+levels:
+  - intermediate
+roles:
+  - developer
+products:
+  - m365
+  - office-sp-framework
+units:
+  - learn-m365.sharepoint-spfx-web-parts.1-introduction
+  - learn-m365.sharepoint-spfx-web-parts.2-explore-project
+  - learn-m365.sharepoint-spfx-web-parts.3-exercise-create-web-part
+  - learn-m365.sharepoint-spfx-web-parts.4-test-web-parts-workbench
+  - learn-m365.sharepoint-spfx-web-parts.5-exercise-test-workbench
+  - learn-m365.sharepoint-spfx-web-parts.6-explore-api
+  - learn-m365.sharepoint-spfx-web-parts.7-exercise-api
+  - learn-m365.sharepoint-spfx-web-parts.8-summary
+badge:
+  uid: learn-m365.sharepoint-spfx-web-parts.badge
