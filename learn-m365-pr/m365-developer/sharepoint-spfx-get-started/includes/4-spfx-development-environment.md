@@ -22,7 +22,7 @@ NPM is used as the package manager and you'll use it to install global tools and
 
 Webpack is used to combine all the JavaScript and CSS files in your project into a single JavaScript bundle. Bundles are the recommended way to deploy client-side applications for performance reasons.
 
-These are tools that are not built and provided by Microsoft, rather they're maintained by the community and are all open-source tools. One benefit of using these tools is that they are cross platform, so the same tools can be used regardless if your development environment is Windows, MacOS, or Linux.
+These are tools that are not built and provided by Microsoft, rather they're maintained by the community and are all open-source tools. One benefit of using these tools is that they are cross platform, so the same tools can be used regardless if your development environment is Windows, macOS, or Linux.
 
 ### Web frameworks
 

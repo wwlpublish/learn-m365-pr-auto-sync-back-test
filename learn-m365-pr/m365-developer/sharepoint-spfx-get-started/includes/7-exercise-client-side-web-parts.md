@@ -8,31 +8,31 @@ Select the **Pages** link in the left-hand Quick Launch navigation menu.
 
 In the **Pages** library, select the **New** button from the toolbar and select **Site Page** to create a new page.
 
-![Screenshot of creating a new modern site page in the Pages library](../media/07-new-sitepage.png)
+![Screenshot of creating a new modern site page in the Pages library](../media/07-new-site-page.png)
 
 Set the name of the page to **Getting Started**.
 
-![Screenshot of the page name](../media/07-add-webpart-01.png)
+![Screenshot of the page name](../media/07-add-web-part-01.png)
 
 Select the web part icon button to open the list of available web parts.
 
-![Screenshot of the web part icon on the page](../media/07-add-webpart-02.png)
+![Screenshot of the web part icon on the page](../media/07-add-web-part-02.png)
 
 Select the web part **Text**.
 
-![Screenshot of the web part toolbox](../media/07-add-webpart-03.png)
+![Screenshot of the web part toolbox](../media/07-add-web-part-03.png)
 
 When the web part is added to the page, add some text and use the rich-text formatting tools provided in the toolbar.
 
-![Screenshot of the web part on the page](../media/07-add-webpart-04.png)
+![Screenshot of the web part on the page](../media/07-add-web-part-04.png)
 
 Select **Save as draft** to see the page as your users will see it.
 
-![Screenshot of saving the page](../media/07-add-webpart-05.png)
+![Screenshot of saving the page](../media/07-add-web-part-05.png)
 
-![Screenshot of the draft page](../media/07-add-webpart-06.png)
+![Screenshot of the draft page](../media/07-add-web-part-06.png)
 
-## Verify your Developer Environment is Properly Configured
+## Verify your developer environment is properly configured
 
 > [!NOTE]
 > The instructions below assume you're using v1.10.0 of the SharePoint Framework Yeoman generator.

@@ -26,7 +26,7 @@ Client-side web parts are build for the modern, JavaScript-driven web just as th
 
 Adding a SPFx client-side web part to a page works in very much the same way as adding server-side web parts. However, there are a few things that make working with client-side web parts a bit easier.
 
-![Screenshot of the edit web part experience](../media/06-add-webparts-to-pages.png)
+![Screenshot of the edit web part experience](../media/06-add-web-parts-to-pages.png)
 
 Unlike classic pages, when a page is in edit mode, any web parts on the page are also in edit mode. Compared to classic pages where the web part has a different edit mode from the page's edit mode.
 

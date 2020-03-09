@@ -6,23 +6,23 @@ Open a browser and navigate to your Office 365 tenant's **SharePoint admin cente
 
 Select **More features** in the left-hand navigation.
 
-![Screenshot of the SharePoint admin center](../media/03-appcatalog-05.png)
+![Screenshot of the SharePoint admin center](../media/03-app-catalog-05.png)
 
 Select the **Open** button under **Apps**.
 
-![Screenshot of the SharePoint admin center](../media/03-appcatalog-05a.png)
+![Screenshot of the SharePoint admin center](../media/03-app-catalog-05a.png)
 
 When the new page opens, select **App Catalog**.
 
-![Screenshot of the SharePoint admin center](../media/03-appcatalog-05b.png)
+![Screenshot of the SharePoint admin center](../media/03-app-catalog-05b.png)
 
 > If you're taken to an app catalog site as shown in the following image, then your tenant already has an app catalog, created by someone previously. In this case, you can skip to the next step to create a developer site collection.
 >
-> ![Screenshot of a provisioned app catalog](../media/03-appcatalog-02.png)
+> ![Screenshot of a provisioned app catalog](../media/03-app-catalog-02.png)
 >
 > Otherwise, if you're presented with a form to create an app catalog (*as shown in the following image*), your tenant does not already have an app catalog. In this case, continue with the following steps to create an app catalog.
 >
-> ![Screenshot of the app catalog creation options](../media/03-appcatalog-03.png)
+> ![Screenshot of the app catalog creation options](../media/03-app-catalog-03.png)
 
 Select **Create a new app catalog site** option & select the **OK** button.
 
@@ -32,7 +32,7 @@ On the **Create App Catalog Site Collection** page, enter the following details,
 - **Web Site Address (suffix)**: appcatalog
 - **Administrator**: *enter your username & select the **check names** icon to resolve your username*
 
-![Screenshot of the App Catalog creation form](../media/03-appcatalog-04.png)
+![Screenshot of the App Catalog creation form](../media/03-app-catalog-04.png)
 
 SharePoint Online will provision the app catalog for the tenant.
 
@@ -44,11 +44,11 @@ Open a browser and navigate to your Office 365 tenant's **SharePoint Admin Cente
 
 On the **SharePoint Admin Center** site, select **Sites > Active sites** from the left-hand navigation and then select **Create**.
 
-![Screenshot of the Active sites list](../media/03-newsitecollection-01.png)
+![Screenshot of the Active sites list](../media/03-new-site-collection-01.png)
 
 On the **Create a site** panel, select the **Other options** button.
 
-![Screenshot of the Create a site panel](../media/03-newsitecollection-02.png)
+![Screenshot of the Create a site panel](../media/03-new-site-collection-02.png)
 
 On the **Other options** panel, keep the default value of **Team site** in the **Choose a template** dropdown and then enter the following values to create a new team site collection and select **Finish**.
 
@@ -57,12 +57,12 @@ On the **Other options** panel, keep the default value of **Team site** in the *
 - **Primary administrator**: *use the people picker to select your account*
 - **Select a language**: English
 
-![Screenshot of the Other options panel](../media/03-newsitecollection-03.png)
+![Screenshot of the Other options panel](../media/03-new-site-collection-03.png)
 
 > [!NOTE]
 > After a minute or two the site collection will be created. On the **SharePoint admin center** site, select the **Sites > Active Sites** item in the left-hand navigation. You'll see a list of all *classic* and *modern* sites including the **Developer site** that you just created.
 >
-> ![Screenshot of the Active sites list](../media/03-newsitecollection-04.png)
+> ![Screenshot of the Active sites list](../media/03-new-site-collection-04.png)
 
 ## Summary
 

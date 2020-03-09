@@ -23,7 +23,7 @@ Present day SharePoint exists in one of two versions:
 
 ## SharePoint Framework extensibility principles
 
-![Screenshot of the SharePoint Framework extensibility principles](../media/02-spfx-extensibility-principles.png)
+![Screenshot of the SharePoint Framework extensibility principles](../media/02-extensibility-principles.png)
 
 Over the past several years, with the evolution of Office 365, development of SharePoint solutions has a new set of challenges: while on one hand IT and Tenant administrators require a new set of tools to control how data get accessed and consumed in their tenancies, developers want to programmatically control the whole lifecycle, experience, and data access capabilities of a Site.
 
@@ -31,7 +31,7 @@ Unfortunately, developers today find themselves constraint around building app p
 
 The client-side development framework will deliver capabilities that will help both first party and third-party developers build powerful, rich applications and provide an enjoyable web experience in Office 365 for end users that are both intuitive and simple to consume.
 
-![Screenshot overview of the SharePoint Framework](../media/02-spfx.png)
+![Screenshot overview of the SharePoint Framework](../media/02-sharepoint-framework.png)
 
 ### SharePoint Framework overview
 

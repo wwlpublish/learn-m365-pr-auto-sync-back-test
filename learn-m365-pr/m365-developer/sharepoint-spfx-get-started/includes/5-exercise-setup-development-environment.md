@@ -1,6 +1,6 @@
 In this exercise, you'll set up your local developer environment with everything you need to start creating SharePoint Framework components.
 
-## Install a Code Editor
+## Install a code editor
 
 You'll need a text editor to edit your code files. There are no requirements for what you need in a text editor.
 
@@ -27,19 +27,19 @@ The LTS version is currently 12.x so you will need to navigate further into the 
 
 Select **Downloads** from the top menu navigation then scroll to the bottom of the page and select **Previous Releases**.
 
-![Screenshot of the Downloads page](../media/05-installnode-02.png)
+![Screenshot of the Downloads page](../media/05-install-node-02.png)
 
 In the Previous Releases page, select Node.js 8.x if you'll be targeting SharePoint Server 2016 or Node.js 10.x if you'll be targeting SharePoint Server 2019 and/or SharePoint Online.
 
-![Screenshot of the Previous Releases page](../media/05-installnode-03.png)
+![Screenshot of the Previous Releases page](../media/05-install-node-03.png)
 
 Download the appropriate installer or binary for the platform you're using.
 
-![Screenshot of the Node.js 10.x page](../media/05-installnode-04.png)
+![Screenshot of the Node.js 10.x page](../media/05-install-node-04.png)
 
 Run the installer, accepting all the default options. This will install Node.js and NPM (*a package manager that Node.js uses, similar to .NET's NuGet*).
 
-## Install Required Tools
+## Install required tools
 
 The SharePoint Framework development experience uses a set of tools built on Node.js that are popular among web developers. These tools are built on Node.js, which means they can be used on any platform and will work the same way. This includes Windows, macOS, and Linux.
 
