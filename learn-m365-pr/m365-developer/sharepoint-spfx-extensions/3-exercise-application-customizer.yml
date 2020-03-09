@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.sharepoint-spfx-extensions.3-exercise-application-customizer
+metadata:
+  title: Exercise - Create an application customizer extension
+  description: In this exercise, you'll create a SharePoint Framework (SPFx) application customizer extension.
+  ms.date: 3/9/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Create an application customizer extension
+durationInMinutes: 14
+content: |
+  [!include[](includes/3-exercise-application-customizer.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "How are public properties on an application customizer set when testing the extension using the local web server?"
+    choices:
+    - content: "They're set on the default property pane when the page is in edit mode."
+      isCorrect: false
+      explanation: "Properties are set on the extension using the query string."
+    - content: "They're set using a HTML-encoded string set in the **serve.json** configuration file."
+      isCorrect: false
+      explanation: "The values are set in a JSON-encoded string."
+    - content: "They're set using a JSON-encoded string set in the **serve.json** configuration file."
+      isCorrect: true
+      explanation: "Correct!"
+  - content: "How are public properties on an application customizer set when the extension is deployed to production?"
+    choices:
+    - content: "They're set on the default property pane when the page is in edit mode."
+      isCorrect: false
+      explanation: "Properties are set when provisioned using element manifest files when the extension is installed."
+    - content: "They're set using a JSON-encoded string set in the **elements.xml** and optionally the **ClientSideInstance.xml** files."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "They're set using a HTML-encoded string set in the **elements.xml** and optionally the **ClientSideInstance.xml** files."
+      isCorrect: false
+      explanation: "The values are set in a JSON-encoded string."

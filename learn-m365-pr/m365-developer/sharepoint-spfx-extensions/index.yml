@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn-m365.sharepoint-spfx-extensions
+metadata:
+  title: Extend the SharePoint user interface with SharePoint Framework extensions
+  description: Learn how to extend the SharePoint user interface with SharePoint Framework extensions.
+  ms.date: 3/9/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Extend the SharePoint user interface with SharePoint Framework extensions
+summary: This module will introduce you to extending the SharePoint user interface with extensions.
+abstract: |
+  By the end of this module, you will be able to:
+  - Demonstrate how to create SPFx application customizer extensions
+  - Demonstrate how to create SPFx field customer extensions
+  - Demonstrate how to create SPFx command set extensions
+prerequisites: |
+  - Experience using SharePoint Online at the intermediate level
+  - Ability to program with JavaScript, TypeScript, and Node.js
+  - Experience using Visual Studio Code at the intermediate level
+  - Access to a Microsoft 365 tenant
+iconUrl: /learn/achievements/sharepoint-spfx-extensions.svg
+levels:
+  - intermediate
+roles:
+  - developer
+products:
+  - m365
+  - office-sp-framework
+units:
+  - learn-m365.sharepoint-spfx-extensions.1-introduction
+  - learn-m365.sharepoint-spfx-extensions.2-extensions-overview-app-customizer
+  - learn-m365.sharepoint-spfx-extensions.3-exercise-application-customizer
+  - learn-m365.sharepoint-spfx-extensions.4-field-customizer-extension
+  - learn-m365.sharepoint-spfx-extensions.5-exercise-field-customizer
+  - learn-m365.sharepoint-spfx-extensions.6-command-set-extension
+  - learn-m365.sharepoint-spfx-extensions.7-exercise-command-set-customizer
+  - learn-m365.sharepoint-spfx-extensions.8-summary
+badge:
+  uid: learn-m365.sharepoint-spfx-extensions.badge
