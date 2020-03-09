@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.sharepoint-spfx-get-started.7-exercise-client-side-web-parts
+metadata:
+  title: Exercise - Interact with SPFx client-side web parts in modern sites
+  description: In this exercise, you'll add and interact with Framework-based client-side web parts in a SharePoint Online modern site collection.
+  ms.date: 3/9/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Interact with SPFx client-side web parts in modern sites
+durationInMinutes: 10
+content: |
+  [!include[](includes/7-exercise-client-side-web-parts.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "What purpose does Yeoman serve in the build toolchain?"
+    choices:
+    - content: "Its used to scaffold new projects after answering a few questions about the project."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Its used to run common build and development tasks, such as compiling the project and creating the deployment package."
+      isCorrect: false
+      explanation: "Gulp is used to run tasks, not Yeoman"
+    - content: "Its the runtime used to run JavaScript-based applications in a cross-platform environment."
+      isCorrect: false
+      explanation: "Node.js is the runtime that runs JavaScript-based applications in a cross-platform environment, not Yeoman."
+  - content: "What purpose does the Yeoman generator serve in the build toolchain?"
+    choices:
+    - content: "Its executed by Yeoman and used to scaffold new projects after answering a few questions about the project."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Its used to run common build and development tasks, such as compiling the project and creating the deployment package."
+      isCorrect: false
+      explanation: "Gulp is used to run tasks, not Yeoman, or the Yeoman generator"
+    - content: "Its the runtime used to run JavaScript-based applications in a cross-platform environment."
+      isCorrect: false
+      explanation: "Node.js is the runtime that runs JavaScript-based applications in a cross-platform environment, not Yeoman, or the Yeoman generator."

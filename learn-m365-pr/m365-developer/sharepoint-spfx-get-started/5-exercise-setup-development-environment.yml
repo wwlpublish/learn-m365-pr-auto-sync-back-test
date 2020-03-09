@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.sharepoint-spfx-get-started.5-exercise-setup-development-environment
+metadata:
+  title: Exercise - Configure your SharePoint Framework development environment
+  description: In this exercise, you set up your local developer environment with everything you need to start creating SharePoint Framework components.
+  ms.date: 3/9/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Configure your SharePoint Framework development environment
+durationInMinutes: 15
+content: |
+  [!include[](includes/5-exercise-setup-development-environment.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "What are the minimum tools you must install in your development environment to build SharePoint Framework components?"
+    choices:
+    - content: "Node.js, Gulp, Yeoman, and the Yeoman generator for the SharePoint Framework."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Microsoft .NET Core, Node.js, Gulp, Yeoman, and the Yeoman generator for the SharePoint Framework."
+      isCorrect: false
+      explanation: "Microsoft .NET Core isn't required."
+    - content: "Node.js, Gulp, and Yeoman"
+      isCorrect: false
+      explanation: "You also need to install the Yeoman generator for the SharePoint Framework."
+  - content: "What purpose does Gulp serve in the build toolchain?"
+    choices:
+    - content: "Its used to scaffold new projects after answering a few questions about the project."
+      isCorrect: false
+      explanation: "Yeoman is used to scaffold new projects, not Gulp."
+    - content: "Its used to run common build and development tasks, such as compiling the project and creating the deployment package."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Its the runtime used to run JavaScript-based applications in a cross-platform environment."
+      isCorrect: false
+      explanation: "Node.js is the runtime that runs JavaScript-based applications in a cross-platform environment, not Gulp."

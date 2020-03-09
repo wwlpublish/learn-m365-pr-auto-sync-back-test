@@ -1,0 +1,42 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.sharepoint-spfx-get-started.3-exercise-configure-tenant
+metadata:
+  title: Exercise - Create and configure your SharePoint Online developer tenant
+  description: In this exercise, you'll configure your SharePoint environment to be ready for SharePoint Framework development.
+  ms.date: 3/9/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Create and configure your SharePoint Online developer tenant
+durationInMinutes: 12
+content: |
+  [!include[](includes/3-exercise-configure-tenant.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "Where can SharePoint Framework client-side web parts be used?"
+    choices:
+    - content: "Modern pages in SharePoint Online and SharePoint Server 2019"
+      isCorrect: false
+      explanation: "While true, they can be used in classic, modern, and publishing pages."
+    - content: "Classic pages in SharePoint Online, SharePoint Server 2019, and SharePoint Server 2016."
+      isCorrect: false
+      explanation: "While true, they can be used in classic, modern, and publishing pages."
+    - content: "Publishing pages in SharePoint Online, SharePoint Server 2019, and SharePoint Server 2016."
+      isCorrect: false
+      explanation: "While true, they can be used in classic, modern, and publishing pages."
+    - content: "All the above"
+      isCorrect: true
+      explanation: "Correct!"
+  - content: "In order to deploy and test SharePoint Framework components, what must you first do in your SharePoint tenant?"
+    choices:
+    - content: "Create an app catalog site from the SharePoint Online admin center (or Central Administration site if on-premises)."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Enable the \"Allow custom SharePoint Framework solutions\" in the site collection where you want to test them."
+      isCorrect: false
+      explanation: "There's no setting \"Allow custom SharePoint Framework solutions\" in a site collection."
+    - content: "Create an app catalog site from the SharePoint Online admin center (or Central Administration site if on-premises) and enable the \"Allow custom SharePoint Framework solutions\" in the site collection where you want to test them."
+      isCorrect: false
+      explanation: "There's no setting \"Allow custom SharePoint Framework solutions\" in a site collection."
