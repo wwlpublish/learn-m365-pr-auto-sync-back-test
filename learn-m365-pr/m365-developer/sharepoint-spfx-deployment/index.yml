@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn-m365.sharepoint-spfx-deployment
+metadata:
+  title: Deploy SharePoint Framework components to production
+  description: Learn how to deploy your SharePoint Framework customizations to production environments.
+  ms.date: 3/9/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Deploy SharePoint Framework Components to Production
+summary: This module will address the topic of deploying your SharePoint Framework customizations to production environments.
+abstract: |
+  By the end of this module, you will be able to:
+  - Demonstrate how to deploy a SharePoint Framework solution to production
+  - Explain the differences between tenant and site App Catalogs
+  - Demonstrate how to update SharePoint Framework project versions
+prerequisites: |
+  - Experience using SharePoint Online at the intermediate level
+  - Ability to program with JavaScript, TypeScript, and Node.js
+  - Experience using Visual Studio Code at the intermediate level
+  - Access to a Microsoft 365 tenant
+iconUrl: /learn/achievements/sharepoint-spfx-deployment.svg
+levels:
+  - intermediate
+roles:
+  - developer
+products:
+  - m365
+  - office-sp-framework
+units:
+  - learn-m365.sharepoint-spfx-deployment.1-introduction
+  - learn-m365.sharepoint-spfx-deployment.2-package-deploy
+  - learn-m365.sharepoint-spfx-deployment.3-exercise-deploy-tenant-app-catalog
+  - learn-m365.sharepoint-spfx-deployment.4-app-catalog-alm-apis
+  - learn-m365.sharepoint-spfx-deployment.5-exercise-deploy-site-collection-app-catalog
+  - learn-m365.sharepoint-spfx-deployment.6-project-component-versions
+  - learn-m365.sharepoint-spfx-deployment.7-exercise-project-component-versions
+  - learn-m365.sharepoint-spfx-deployment.8-summary
+badge:
+  uid: learn-m365.sharepoint-spfx-deployment.badge
