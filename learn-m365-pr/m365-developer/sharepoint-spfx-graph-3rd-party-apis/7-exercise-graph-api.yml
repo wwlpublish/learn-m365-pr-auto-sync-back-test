@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.sharepoint-spfx-graph-3rd-party-apis.7-exercise-graph-api
+metadata:
+  title: Exercise - Call Microsoft Graph from SharePoint Framework components
+  description: In this exercise, you'll create a new SharePoint Framework project with a single client-side web part that uses React and Microsoft Graph to display the currently logged in user's personal details in a familiar office Persona card.
+  ms.date: 3/9/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Call Microsoft Graph from SharePoint Framework components
+durationInMinutes: 17
+content: |
+  [!include[](includes/7-exercise-graph-api.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "What is the recommended way to retrieve data from Microsoft Graph?"
+    choices:
+    - content: "Use the `AadHttpClient` object from the SharePoint Framework API to call the Microsoft Graph endpoint. This object is returned by calling the `this.context.aadHttpClientFactory.getClient('https://...')` method and is configured with the necessary access token included in every HTTP request."
+      isCorrect: false
+      explanation: "While you can use the `AadHttpClient` and `aadHttpClientFactory` objects in the SharePoint Framework API, the `msGraphClientFactory` object simplifies obtaining a configured instance of the Microsoft Graph JavaScript SDK."
+    - content: "Obtain an access token with the `this.context.aadHttpClientFactory.getToken()` method and configure a new instance of the `MSGraphClient` object."
+      isCorrect: false
+      explanation: "While you can obtain an access token and configure an instance of the `MSGraphClient` object, the `msGraphClientFactory` object simplifies obtaining a configured instance of the Microsoft Graph JavaScript SDK."
+    - content: "Use the `msGraphClientFactory` to obtain a reference to the `MSGraphClient` object included as part of the SharePoint Framework API."
+      isCorrect: true
+      explanation: "Correct!"
+  - content: "How do you get the current user's details using the `MSGraphClient` object?"
+    choices:
+    - content: "Call the `MSGraphClient.api('https://graph.microsoft.com/v1.0/me') method that will return the current user's details."
+      isCorrect: false
+      explanation: "The `api()` method should only include the part of the URL after the `https://graph.microsoft.com/v1.0/`, not the entire endpoint."
+    - content: "Call the `MSGraphClient.api('currentUser') method that will return the current user's details."
+      isCorrect: false
+      explanation: "The correct endpoint for the current user is the `me` endpoint, not the `currentUser` endpoint."
+    - content: "Call the `MSGraphClient.api('me') method that will return the current user's details."
+      isCorrect: true
+      explanation: "Correct!"
