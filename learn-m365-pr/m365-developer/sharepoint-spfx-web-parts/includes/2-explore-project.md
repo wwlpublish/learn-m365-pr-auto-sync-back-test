@@ -177,7 +177,7 @@ Client-side web parts, built using the SharePoint Framework, are the cornerstone
 
 They're configurable, reusable, and purpose-built components that page designers and site owners can use to create unique experiences for their users.
 
-![Screenshot of client-side web parts](../media/02-sp-client-side-web-parts.png)
+![Screenshot of client-side web parts](../media/02-client-side-web-parts.png)
 
 Client-side web parts are build using the SharePoint Framework that provides additional capabilities, including access to Microsoft Graph for incorporating personal and organizational information into page experiences.
 

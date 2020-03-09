@@ -82,7 +82,7 @@ export default class HelloWorldWebPart extends BaseClientSideWebPart<IHelloWorld
 
 The SharePoint Framework API offers developers a way to determine the current display mode of a page. You can use this information to display a different experience for your users if the page is in read mode or edit mode.
 
-To do this, use the `displayMode` property on the current component and compare it to one of the options on the enumeration `DisplayMode` available from the **@microsoft/sp-core-library** package:
+To do this, use the `displayMode` property on the current component and compare it to one of the options on the enumeration `DisplayMode` available from the **\@microsoft/sp-core-library** package:
 
 ```typescript
 import { DisplayMode } from '@microsoft/sp-core-library';
@@ -128,7 +128,7 @@ Here's a web part running in the local workbench compared to running in the Shar
 
 In the other version of the web part, it's running in a real SharePoint page. This can be in the SharePoint-hosted workbench or on a web part page. Notice the title of the current site is different from the local workbench and will match the title of the site where the web part is currently running.
 
-## Environment Type
+## Environment type
 
 If your custom component works with data from Microsoft Graph or another external API, you should consider adding logic that detects if the web part is running in the local workbench or in a real SharePoint environment. In the case where its running in the local workbench, you can return mock data instead of calling the external APIs.
 

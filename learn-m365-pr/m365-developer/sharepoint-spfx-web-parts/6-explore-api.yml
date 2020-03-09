@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.sharepoint-spfx-web-parts.6-explore-spfx-api
+uid: learn-m365.sharepoint-spfx-web-parts.6-explore-api
 metadata:
   title: Explore the SharePoint Framework API
   description: In this unit, you'll learn about some of the features included in the SharePoint Framework API.
@@ -11,4 +11,4 @@ metadata:
 title: Explore the SharePoint Framework API
 durationInMinutes: 10
 content: |
-  [!include[](includes/6-explore-spfx-api.md)]
+  [!include[](includes/6-explore-api.md)]
