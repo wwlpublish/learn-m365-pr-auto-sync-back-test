@@ -1,4 +1,4 @@
-In this exercise, you will create a new Azure AD web application registration using the Azure Active Directory admin center, a .NET Core console application, and query Microsoft Graph.
+In this exercise, you'll create a new Azure AD web application registration using the Azure Active Directory admin center, a .NET Core console application, and query Microsoft Graph.
 
 ## Create an Azure AD application
 
@@ -51,8 +51,6 @@ Select **API Permissions** in the left-hand navigation panel.
 
 Select the **Add a permission** button.
 
-![Screenshot of the Add permission button](../media/aad-portal-newapp-permissions-02.png)
-
 In the **Request API permissions** panel that appears, select **Microsoft Graph** from the **Microsoft APIs** tab.
 
 ![Screenshot of Microsoft Graph in the Request API permissions panel](../media/aad-portal-newapp-permissions-03.png)
@@ -63,13 +61,9 @@ When prompted for the type of permission, select **Application permissions**.
 
 Enter **User.R** in the **Select permissions** search box and select the **User.Read.All** permission, followed by the **Add permission** button at the bottom of the panel.
 
-In the **Configured Permissions** panel, select the button **Grant admin consent for [tenant]**.
+In the **Configured permissions** panel, select the button **Grant admin consent for [tenant]**, and then select **Yes** when in the confirmation dialog.
 
 ![Screenshot of the Configured permissions panel](../media/aad-portal-newapp-permissions-05.png)
-
-In the consent dialog popup, select the **Accept** button to grant all users in your organization this permission.
-
-![Screenshot of the consent dialog](../media/aad-portal-newapp-permissions-06.png)
 
 ## Create .NET Core console application
 

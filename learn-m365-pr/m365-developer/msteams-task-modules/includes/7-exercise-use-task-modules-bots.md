@@ -1,9 +1,9 @@
-In this exercise, you’ll learn how to use task modules with bots in Microsoft Teams.
+In this exercise, you'll learn how to use task modules with bots in Microsoft Teams.
 
 The first step will be to create a bot and add it to our existing Microsoft Teams app. You'll then extend the bot to support the existing task modules to display a video and change the selected video.
 
 > [!NOTE]
-> This exercise requires a valid Azure subscription in order to create a bot using Bot Framework. However, if you do not have an Azure subscription, you can use the legacy Bot Framework Registration Portal. Refer to the following docs for more information: [Create a bot for Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform/bots/how-to/create-a-bot-for-teams)
+> This exercise requires a valid Azure subscription in order to create a bot using Bot Framework. However, if you do not have an Azure subscription, you can use the legacy Bot Framework Registration Portal. Refer to the following docs for more information: [Create a bot for Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform/bots/how-to/create-a-bot-for-teams).
 
 > [!IMPORTANT]
 > This exercise assumes you have created the Microsoft Teams app project with the Yeoman generator that contains a personal tab from the previous exercise in this module. You'll update the project to add a new task module that uses an Adaptive Card.
@@ -75,7 +75,7 @@ Once this process is complete, you should see both the **Web Chat** and **Micros
 
 ![Screenshot of the enabled bot channels](../media/07-azure-bot-registration-05.png)
 
-### Retrieve the bot app id and password
+### Retrieve the bot app ID and password
 
 When Azure created the bot, it also registered a new Azure AD app for the bot. You need to generate this new bot app a secret and copy the app's credentials.
 
@@ -153,25 +153,13 @@ The next step is to add the code to implement the bot.
 
 ### Code the bot
 
-> [!IMPORTANT]
-> At the time of publication of this module, there are plans to update the Yeoman generator for Microsoft Teams to use the Bot Framework v4 SDK. However, at the time of publication of this module, the default project uses an older SDK.
->
-> Therefore, the following steps that remove & upgrade the **botbuilder** package may or may not be necessary as the Yeoman generator for Microsoft Teams may have been updated. Review each of the instructions in this section and compare the results with your project to determine if they are necessary.
-
-Remove the older bot SDK and related packages. Then, upgrade the bot builder project, execute the following two commands in the command line from the root folder of the project:
-
-```shell
-npm uninstall botbuilder-dialogs botbuilder-teams botframework-config
-npm install botbuilder@4.6.2
-```
-
 Create a new folder **learningTeamsBot** in the **./src/app** folder.
 
 Create a new file **teamsLearningBot.ts** in this new folder **./src/app/learningTeamsBot/teamsLearningBot.ts**
 
 Add the following code to the **teamsLearningBot.ts** file:
 
-```ts
+```typescript
 import {
   ActionTypes,
   CardFactory, MessageFactory,
@@ -223,14 +211,14 @@ Locate and open the file **./src/app/server.ts**.
 
 Add the following `import` statements to the end of the existing `import` statements:
 
-```ts
+```typescript
 import { BotFrameworkAdapter } from "botbuilder";
 import { TeamsLearningBot } from "./learningTeamsBot/teamsLearningBot";
 ```
 
 Locate the following code at the end of the file:
 
-```ts
+```typescript
 http.createServer(express).listen(port, () => {
   log(`Server running on ${port}`);
 });
@@ -238,7 +226,7 @@ http.createServer(express).listen(port, () => {
 
 This code creates the server and starts listening on a port. You need access to the server to load the bot. Update the above code to separate the creation of the web server and listening on a specific port to the following:
 
-```ts
+```typescript
 const server = http.createServer(express);
 server.listen(port, () => {
   log(`Server running on ${port}`);
@@ -247,7 +235,7 @@ server.listen(port, () => {
 
 Add the following code to the end of the **server.ts** to create a bot framework adapter. This code uses the environment variables defined in the **./.env** file to set the Azure AD app ID and secret of the bot:
 
-```ts
+```typescript
 const botAdapter = new BotFrameworkAdapter({
   appId: process.env.MICROSOFT_APP_ID,
   appPassword: process.env.MICROSOFT_APP_PASSWORD
@@ -256,7 +244,7 @@ const botAdapter = new BotFrameworkAdapter({
 
 Add the following error handler to the end of the **server.ts** file.
 
-```ts
+```typescript
 botAdapter.onTurnError = async (context, error) => {
   console.error(`\n [bot.onTurnError] unhandled error: ${error}`);
   await context.sendTraceActivity("OnTurnError Trace", `${error}`, "https://www.botframework.com/schemas/error", "TurnError");
@@ -266,7 +254,7 @@ botAdapter.onTurnError = async (context, error) => {
 
 Load the bot and register a new endpoint, **/api/messages**. When HTTP POSTS are received on this endpoint, they're routed into the bot adapter:
 
-```ts
+```typescript
 const bot = new TeamsLearningBot();
 express.post("/api/messages", (request, response) => {
   botAdapter.processActivity(request, response, async (context) => {
@@ -320,7 +308,7 @@ Select the app to navigate to the tab:
 
 ![Screenshot of the installed Microsoft Teams app personal tab](../media/07-test-bot-03.png)
 
-Notice there's a new **Conversation** tab. Focus on the message box at the bottom of the user interface. Microsoft Teams is displaying the things this bot can do, including the **MentionMe** action. Let's try that out.
+Notice there's a new **Chat** tab. Focus on the message box at the bottom of the user interface. Microsoft Teams is displaying the things this bot can do, including the **MentionMe** action. Let's try that out.
 
 Enter `MentionMe` following in the message box and press <kbd>enter</kbd>.
 
@@ -338,18 +326,18 @@ In this section, you'll add a task module to the bot. First, let's update the He
 
 In the bot file, **./src/app/learningTeamsBot/teamsLearningBot.ts**, locate the class constructor. Locate Hero card statement in the `switch` statement's `default` path in the `onMessage()` handler:
 
-```ts
+```typescript
 const card = CardFactory.heroCard("Learn Microsoft Teams", undefined, [ ]);
 ```
 
 Update this statement to add a new action to the card. The type of this action is special: `invoke`.
 
-```ts
+```typescript
 const card = CardFactory.heroCard("Learn Microsoft Teams", undefined, [
   {
     type: "invoke",
     title: "Watch 'Overview of Microsoft Teams'",
-    value: { type: "task/fetch", taskModule: "player", videoId: "X8krAMdGvCQ" }
+    value: { type: "task/fetch", taskModule: "player", videoId: "jugBQqE_2sM" }
   }
 ]);
 ```
@@ -362,36 +350,36 @@ The bot framework is looking for messages of type `invoke` with their `value.typ
 
 Add the following code to the `TeamsLearningBot` class:
 
-```ts
+```typescript
 protected handleTeamsTaskModuleFetch(context: TurnContext, request: TaskModuleRequest): Promise<TaskModuleResponse> {
   let response: TaskModuleResponse;
 
   switch (request.data.taskModule) {
     case "player":
-      response = <TaskModuleResponse>{
-        task: {
-          type: "continue",
-          value: <TaskModuleTaskInfo>{
-            title: "YouTube Player",
-            url: `https://${process.env.HOSTNAME}/youTubePlayer1Tab/player.html?vid=${request.data.videoId}`,
-            width: 1000,
-            height: 700
+        response = ({
+          task: {
+            type: "continue",
+            value: {
+              title: "YouTube Player",
+              url: `https://${process.env.HOSTNAME}/youTubePlayer1Tab/player.html?vid=${request.data.videoId}`,
+              width: 1000,
+              height: 700
+            } as TaskModuleTaskInfo
           }
-        }
-      };
-      break;
-    default:
-      response = <TaskModuleResponse>{
-        task: {
-          type: "continue",
-          value: <TaskModuleTaskInfo>{
-            title: "YouTube Player",
-            url: `https://${process.env.HOSTNAME}/youTubePlayer1Tab/player.html?vid=X8krAMdGvCQ&default=1`,
-            width: 1000,
-            height: 700
+        } as TaskModuleResponse);
+        break;
+      default:
+        response = ({
+          task: {
+            type: "continue",
+            value: {
+              title: "YouTube Player",
+              url: `https://${process.env.HOSTNAME}/youTubePlayer1Tab/player.html?vid=X8krAMdGvCQ&default=1`,
+              width: 1000,
+              height: 700
+            } as TaskModuleTaskInfo
           }
-        }
-      };
+        } as TaskModuleResponse);
       break;
   };
 
@@ -408,7 +396,7 @@ After saving the page, let the project rebuild itself and restart the web server
 
 Create a few more buttons to the Hero card that reference different videos by duplicating the existing button. Make sure to create one that has the `value.taskModule` property set to something other than `player` so the handler takes the default path:
 
-```ts
+```typescript
 const card = CardFactory.heroCard("Learn Microsoft Teams", undefined, [
   {
     type: "invoke",
@@ -418,7 +406,7 @@ const card = CardFactory.heroCard("Learn Microsoft Teams", undefined, [
   {
     type: "invoke",
     title: "Watch 'Go-to guide for team owners'",
-    value: { type: "task/fetch", taskModule: "player", videoId: "7XcDSuw6NR4" }
+    value: { type: "task/fetch", taskModule: "player", videoId: "kalV4dG-oFo" }
   },
   {
     type: "invoke",
@@ -438,7 +426,7 @@ In this section, you'll add an action to the Hero card that displays a task modu
 
 In the bot file, **./src/app/learningTeamsBot/teamsLearningBot.ts**, locate the code in the `teamsLearningBot` class constructor that created the Hero card. Add another action to the end, but notice this action specifies a different `value.taskModule` property:
 
-```ts
+```typescript
 {
   type: "invoke",
   title: "Watch Specific Video",
@@ -448,25 +436,25 @@ In the bot file, **./src/app/learningTeamsBot/teamsLearningBot.ts**, locate the 
 
 You'll chain two task modules together. The first will display the Adaptive Card selector. Within the `handleTaskModuleFetch()` method, add the following `case` statement to the existing `switch` statement:
 
-```ts
+```typescript
 case "selector":
-  response = <TaskModuleResponse>{
+  response = ({
     task: {
       type: "continue",
-      value: <TaskModuleTaskInfo>{
+      value: {
         title: "YouTube Video Selector",
         card: this.getSelectorAdaptiveCard(request.data.videoId),
         width: 350,
         height: 250
-      }
+      } as TaskModuleTaskInfo
     }
-  };
+  } as TaskModuleResponse);
   break;
 ```
 
 Add the following method to the `TeamsLearningBot` class. This will create an Adaptive Card with an input control. This is the programmatic way of creating the same adaptive card from a previous exercise.
 
-```ts
+```typescript
 private getSelectorAdaptiveCard(defaultVideoId: string = "") {
   return CardFactory.adaptiveCard({
     type: "AdaptiveCard",
@@ -511,19 +499,19 @@ private getSelectorAdaptiveCard(defaultVideoId: string = "") {
 
 Next, add the handler for the Adaptive Card handler method. Similar to the `task/fetch`, we need to handle a submit, or `task/submit`. Do this by adding the following method to the `TeamsLearningBot` class:
 
-```ts
+```typescript
 protected handleTeamsTaskModuleSubmit(context: TurnContext, request: TaskModuleRequest): Promise<TaskModuleResponse> {
-  const response: TaskModuleResponse = <TaskModuleResponse>{
+  const response: TaskModuleResponse = {
     task: {
       type: "continue",
-      value: <TaskModuleTaskInfo>{
+      value: {
         title: "YouTube Player",
         url: `https://${process.env.HOSTNAME}/youTubePlayer1Tab/player.html?vid=${request.data.youTubeVideoId}`,
         width: 1000,
         height: 700
-      }
+      } as TaskModuleTaskInfo
     }
-  };
+  } as TaskModuleResponse;
   return Promise.resolve(response);
 }
 ```

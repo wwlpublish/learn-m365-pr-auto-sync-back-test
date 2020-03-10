@@ -29,11 +29,15 @@ On the **Graph Console App** page, copy the value of the **Application (client) 
 
 Select **Manage > Authentication**.
 
-In the section **Redirect URIs**, locate the **Suggested Redirect URIs for public clients (mobile, desktop)** section and select the entry that begins with **msal**:
+In the **Platform configurations** section, select the **Add a platform** button. Then in the **Configure platforms** panel, select the **Mobile and desktop applications** button:
 
-![Screenshot of the Redirect URIs section](../media/aad-portal-newapp-02.png)
+![Screenshot of the Platform configurations section](../media/aad-portal-newapp-02.png)
 
-Scroll down to the **Default client type** section and set the toggle to **Yes**.
+In the **Redirect URIs** section of the **Configure Desktop + devices** panel, select the entry that ends with **nativeclient**, and then select the **Configure** button:
+
+![Screenshot of the Configure Desktop + devices panel](../media/aad-portal-newapp-02a.png)
+
+In the **Authentication** panel, scroll down to the **Default client type** section and set the toggle to **Yes**.
 
 ![Screenshot of the Default client type section](../media/aad-portal-newapp-03.png)
 
@@ -49,8 +53,6 @@ Select **API Permissions** in the left-hand navigation panel.
 
 Select the **Add a permission** button.
 
-![Screenshot of the Add permission button](../media/aad-portal-newapp-permissions-02.png)
-
 In the **Request API permissions** panel that appears, select **Microsoft Graph** from the **Microsoft APIs** tab.
 
 ![Screenshot of Microsoft Graph in the Request API permissions panel](../media/aad-portal-newapp-permissions-03.png)
@@ -61,7 +63,7 @@ Enter **Files.R** in the **Select permissions** search box and select the **File
 
 ![Screenshot of the Files.Read permission in the Request API permissions panel](../media/aad-portal-newapp-permissions-03-04.png)
 
-At the bottom of the **API Permissions** panel, select the button **Grant admin consent for [tenant]**, followed by the **Yes** button to grant all users in your organization this permission.
+In the **Configured Permissions** panel, select the button **Grant admin consent for [tenant]**, and then select the **Yes** button in the consent dialog to grant all users in your organization this permission.
 
 > [!NOTE]
 > The option to **Grant admin consent** here in the Azure AD admin center is pre-consenting the permissions to the users in the tenant to simplify the exercise. This approach allows the console application to use the [resource owner password credential grant](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth-ropc), so the user isn't prompted to grant consent to the application that simplifies the process of obtaining an OAuth access token. You could elect to implement alternative options such as the [device code flow](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth2-device-code) to utilize dynamic consent as another option.
@@ -190,7 +192,6 @@ namespace Helpers
 Open the **Program.cs** file and add the following `using` statements to the top fo the file:
 
 ```cs
-using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Security;

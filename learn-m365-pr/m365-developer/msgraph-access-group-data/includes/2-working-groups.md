@@ -1,4 +1,4 @@
-In this unit, you’ll learn what groups are and the basics of working with groups using Microsoft Graph, including required permissions, the differences between security groups and Office 365 groups. Finally, you’ll learn how to work with groups including how to get information about a group and the users who manage and are members of the group.
+In this unit, you'll learn what groups are and the basics of working with groups using Microsoft Graph, including required permissions, and the differences between security groups and Office 365 groups. Finally, you’ll learn how to work with groups including how to get information about a group and the users who manage and are members of the group.
 
 ## Overview
 
@@ -84,7 +84,7 @@ foreach (var group in resultsAllGroups)
 }
 ```
 
-The list groups returned by the `/groups` endpoint include a subset of all the properties available on a group if the query parameter `$select` isn't specified. If you want to control the specific properties returned in the request, include a `$select` query parameter with a comma-delimited list of all the properties you want returned.
+The list of groups returned by the `/groups` endpoint include a subset of all the properties available on a group if the query parameter `$select` isn't specified. If you want to control the specific properties returned in the request, include a `$select` query parameter with a comma-delimited list of all the properties you want returned.
 
 If you want a list of a specific type of group, such as all the Office 365 groups (also known as unified groups), use the `$filter` query parameter on the `grouupTypes` property:
 

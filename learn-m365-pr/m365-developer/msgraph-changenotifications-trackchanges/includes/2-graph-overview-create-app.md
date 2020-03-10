@@ -4,7 +4,7 @@ In this unit, you'll learn how Microsoft Graph fits into the larger Microsoft 36
 
 ![Microsoft 365 Platform](../media/02-m365-platform.png)
 
-The Microsoft 365 developer vision focuses on the user's experience and their data and as a developer you can bring your application into the user experience with over 1.2 billion users of office worldwide. This is a huge opportunity to provide a window into your application and to enable users to connect into their data to intelligence to your application.
+The Microsoft 365 developer vision focuses on the user's experience and their data and as a developer you can bring your application into the user experience with over 1.2 billion users of office worldwide. This is a huge opportunity to provide a window into your application and to enable users to connect into their data and add intelligence to your application.
 
 There are currently over 850 million events created each month and a total of over 400 petabytes of data stored in the service that can add value for your users.
 
@@ -14,7 +14,7 @@ The Microsoft Graph is the gateway to your data in the Microsoft cloud.
 
 ![Microsoft Graph - gateway to your data in the Microsoft cloud](../media/02-msgraph-gateway.png)
 
-The Microsoft cloud is included of multiple services and data types that we can take advantage of from Office 365, and it's all considered part of the Microsoft 365 platform.
+The Microsoft cloud includes multiple services and data types that we can take advantage of from Office 365, and it's all considered part of the Microsoft 365 platform.
 
 Developers can integrate the signed-in user's email, calendar, contacts, and tasks into custom apps. We can work with content in SharePoint sites and lists files in OneDrive, channels and content within Microsoft Teams, and users in Azure Active Directory (Azure AD).
 
@@ -44,17 +44,15 @@ You can get notifications on messages, events, contacts, users, groups, conversa
 
 Let's look at a couple of different example notifications scenarios.
 
-Change notifications allow you to, for example, when an email is received, you can translate it from its native language to another language and make it easier for the consumer to read that email.
+When an email is received, you want to translate it from its native language to another language and make it easier for the consumer to read that email.
 
-In another scenario, consider you need to create a new user account in your application when a new user joins an organization.
+When a new user is added to your organization, you want to automatically create an account for that user in your corporate third-party time tracking system and send them an email alerting them that their new account has been set up.  
 
-All employees in the organization need an account in the corporate third-party time tracking system or third-party CRM system. When a new user is added to our organization, you can automatically create that user in the external service and send them an email alerting them that their new account has been set up.
-
-How would you implement this with change notifications?
+How would you implement these scenarios with change notifications?
 
 ![Screenshot of creating a .NET Core web API project](../media/02-create-app.png)
 
-You first need to create an app that will host we web API to listen for notifications. This will be the component that won't just trigger the request to create the subscription, manage subscription renewals and receive and respond to notifications received from Microsoft Graph.
+You first need to create an app that will host a web API to listen for notifications. This will be the component that will not only trigger the request to create the subscription, but it will also manage subscription renewals and receive and respond to notifications received from Microsoft Graph.
 
 ### Change notification subscriptions
 

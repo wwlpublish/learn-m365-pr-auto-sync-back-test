@@ -3,12 +3,11 @@ uid: learn-m365.embedded-web-experiences.5-exercise-create-custom-teams-channel-
 metadata:
   title: Exercise - Create a custom Microsoft Teams channel or group tab
   description: In this exercise, you'll learn how to create a channel tab with a configuration page in a Microsoft Teams app.
-  ms.date: 10/01/2019
+  ms.date: 3/10/2020
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-  ROBOTS: NOINDEX
 title: Exercise - Create a custom Microsoft Teams channel or group tab
 durationInMinutes: 22
 content: >-

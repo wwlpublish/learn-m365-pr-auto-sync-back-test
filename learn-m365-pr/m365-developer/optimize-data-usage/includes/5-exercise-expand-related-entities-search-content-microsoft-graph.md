@@ -21,8 +21,6 @@ Select **API Permissions** in the left-hand navigation panel.
 
 Select the **Add a permission** button.
 
-![Screenshot of the Add permission button](../media/aad-portal-newapp-permissions-02.png)
-
 In the **Request API permissions** panel that appears, select **Microsoft Graph** from the **Microsoft APIs** tab.
 
 ![Screenshot of Microsoft Graph in the Request API permissions panel](../media/aad-portal-newapp-permissions-03.png)
@@ -31,11 +29,11 @@ When prompted for the type of permission, select **Application permissions**.
 
 Enter **Group.R** in the **Select permissions** search box and select the **Group.Read.All** permission, followed by the **Add permission** button at the bottom of the panel.
 
-In the **Configured Permissions** panel, select the button **Grant admin consent for [tenant]**, and then select the **Accept** button in the consent dialog popup to grant all users in your organization this permission.
+In the **Configured Permissions** panel, select the button **Grant admin consent for [tenant]**, and then select the **Yes** button in the consent dialog to grant all users in your organization this permission.
 
 ### Update the console app to use the $expand query parameter
 
-You'll modify the code that follows this line to obtain a list of all groups in your Office 365 tenancy. In addition, you'll leverage the `$top` query parameter and the `$expand` parameter to expand a nested collection of members of the group. Using this technique, you're optimizing the app so it does not have to request the members for each group as it iterates through the collection.
+In this part of the exercise you'll update the code to obtain a list of all groups in your Office 365 tenancy. In addition, you'll leverage the `$top` query parameter and the `$expand` parameter to expand a nested collection of members of the group. Using this technique, you're optimizing the app so it does not have to request the members for each group as it iterates through the collection.
 
 Open the .NET console app in Visual Studio Code and then open the **Program.cs** file.
 
@@ -73,7 +71,7 @@ This example focuses on using the Microsoft Graph .NET SDK to create queries. In
 
 ## Use the Graph Explorer to search for content
 
-The tool Graph Explorer enables developers to create and test queries using the Microsoft Graph REST API. You'll use the Graph Explorer to create and test a query that uses the `$search` query parameter
+The Graph Explorer enables developers to create and test queries using the Microsoft Graph REST API. You'll use the Graph Explorer to create and test a query that uses the `$search` query parameter
 
 Open a browser and navigate to https://developer.microsoft.com/graph/graph-explorer
 

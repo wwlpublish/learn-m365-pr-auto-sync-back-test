@@ -3,7 +3,7 @@ uid: learn-m365.msgraph-access-user-data.6-modify-users
 metadata:
   title: Modifying users
   description: In this unit, you’ll learn how to create, update, and delete users and the permissions required to do these operations.
-  ms.date: 11/18/2019
+  ms.date: 3/10/2020
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial

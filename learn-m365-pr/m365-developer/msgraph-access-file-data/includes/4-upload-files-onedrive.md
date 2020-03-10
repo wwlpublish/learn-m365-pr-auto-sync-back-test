@@ -7,7 +7,7 @@ Microsoft Graph supports through the REST API and through the multiple SDKs the 
 
 ## Uploading small files up to 4 MB
 
-Microsoft Graph supports uploading files up to 4 MB in size using a simple HTTP PUT request. To upload a file, submit an HTTP PUT to the collection where the new file should be created. The end of the endpoint must include the name of the file to create and end with the `content` endpoint.
+Microsoft Graph supports uploading files up to 4 MB in size using a simple HTTP PUT request. To upload a file, submit an HTTP PUT to the collection where the new file should be created. The request URL must include the name of the file to create and end with the `content` endpoint.
 
 The request must include the HTTP request header `Content-Type` with a value that matches the type of file being uploaded. The contents of the file should be included in body of the request.
 

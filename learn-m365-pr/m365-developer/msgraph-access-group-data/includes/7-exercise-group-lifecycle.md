@@ -32,7 +32,7 @@ scopes.Add("Group.Read.All");
 scopes.Add("Directory.Read.All");
 ```
 
-These permissions need to be updated for the code you added in the last section. Remove the permission **Group.ReadWrite.All**. The result should now look like the following code:
+These permissions need to be updated for the code you added in the last section. Remove the permission **Directory.Read.All** and request the permission **Group.ReadWrite.All**. The result should now look like the following code:
 
 ```cs
 List<string> scopes = new List<string>();
@@ -42,7 +42,7 @@ scopes.Add("Group.ReadWrite.All");
 
 ### Grant additional permissions to the Azure AD application
 
-The next step is to update and grant the new permission **Directory.Read.All** to the Azure AD application.
+The next step is to update and grant the new permission **Group.ReadWrite.All** to the Azure AD application.
 
 Open a browser and navigate to the [Azure Active Directory admin center (https://aad.portal.azure.com)](https://aad.portal.azure.com). Sign in using a **Work or School Account** that has global administrator rights to the tenancy.
 
@@ -56,8 +56,6 @@ Select **API Permissions** in the left-hand navigation panel.
 
 Select the **Add a permission** button.
 
-![Screenshot of the Add permission button](../media/aad-portal-newapp-permissions-02.png)
-
 In the **Request API permissions** panel that appears, select **Microsoft Graph** from the **Microsoft APIs** tab.
 
 ![Screenshot of Microsoft Graph in the Request API permissions panel](../media/aad-portal-newapp-permissions-03.png)
@@ -66,7 +64,7 @@ When prompted for the type of permission, select **Delegated permissions**.
 
 Enter **Group.R** in the **Select permissions** search box and select the **Group.ReadWrite.All** permission. Then select the **Add permission** button at the bottom of the panel to add the permissions to the app.
 
-At the bottom of the **API Permissions** panel, select the button **Grant admin consent for [tenant]**, followed by the **Yes** button to grant all users in your organization this permission.
+In the **Configured Permissions** panel, select the button **Grant admin consent for [tenant]**, and then select the **Yes** button in the consent dialog to grant all users in your organization this permission.
 
 ### Update console app to create an Office 365 group
 
@@ -183,7 +181,7 @@ The next step is to obtain the ID of the group you created in the previous secti
 // get new group ID
 var requestGroup = client.Groups.Request()
                                 .Select("Id")
-                                .Filter("MailNickname eq 'zzmyfirstgroup01'");
+                                .Filter("MailNickname eq 'myfirstgroup01'");
 var resultGroup = requestGroup.GetAsync().Result;
 ```
 
@@ -285,4 +283,4 @@ Confirm this by repeating the process from a previous section to find the group 
 
 ## Summary
 
-In this exercise, you'll modify the existing Azure AD application registration using the Azure Active Directory admin center, a .NET Core console application, and use Microsoft Graph to manage the lifecycle of Office 365 groups. You'll also learn how to provision a Microsoft Teams team from an existing Office 365 group.
+In this exercise, you modifies the existing Azure AD application registration using the Azure Active Directory admin center, a .NET Core console application, and used Microsoft Graph to manage the lifecycle of Office 365 groups. You also learned how to provision a Microsoft Teams team from an existing Office 365 group.

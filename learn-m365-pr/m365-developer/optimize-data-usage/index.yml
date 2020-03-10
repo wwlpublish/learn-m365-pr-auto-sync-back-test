@@ -3,7 +3,7 @@ uid: learn-m365.optimize-data-usage
 metadata:
   title: Optimize data usage when using Microsoft Graph with query parameters
   description: Learn how to control the amount of data returned by Microsoft Graph to optimize queries using query parameters.
-  ms.date: 10/01/2019
+  ms.date: 3/10/2020
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial

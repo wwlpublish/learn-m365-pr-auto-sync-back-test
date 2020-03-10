@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn-m365.sharepoint-spfx-teams-dev
+metadata:
+  title: Build Microsoft Teams customization using the SharePoint Framework
+  description: Learn how to use your SharePoint Framework customizations with in Microsoft Teams.
+  ms.date: 3/10/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Build Microsoft Teams customization using the SharePoint Framework
+summary: This module will introduce you to leveraging your SharePoint Framework customizations in Microsoft Teams.
+abstract: |
+  By the end of this module, you will be able to:
+  - Create a SharePoint Framework web part as a Microsoft Teams tab
+  - Demonstrate how to use conditional logic to determine if the component is running in SharePoint Online or Microsoft Teams
+  - Explain how to update configuration settings for SharePoint Framework web parts implemented as Microsoft Teams tabs
+prerequisites: |
+  - Experience using SharePoint Online at the intermediate level
+  - Ability to program with JavaScript, TypeScript, and Node.js
+  - Experience using Visual Studio Code at the intermediate level
+  - Access to a Microsoft 365 tenant
+iconUrl: /learn/achievements/sharepoint-spfx-teams-dev.svg
+levels:
+  - intermediate
+roles:
+  - developer
+products:
+  - m365
+  - office-sp-framework
+units:
+  - learn-m365.sharepoint-spfx-teams-dev.1-introduction
+  - learn-m365.sharepoint-spfx-teams-dev.2-overview
+  - learn-m365.sharepoint-spfx-teams-dev.3-exercise-deploy
+  - learn-m365.sharepoint-spfx-teams-dev.4-context
+  - learn-m365.sharepoint-spfx-teams-dev.5-exercise-conditional-logic
+  - learn-m365.sharepoint-spfx-teams-dev.6-tab-configuration
+  - learn-m365.sharepoint-spfx-teams-dev.7-exercise-update-configuration-settings
+  - learn-m365.sharepoint-spfx-teams-dev.8-summary
+badge:
+  uid: learn-m365.sharepoint-spfx-teams-dev.badge

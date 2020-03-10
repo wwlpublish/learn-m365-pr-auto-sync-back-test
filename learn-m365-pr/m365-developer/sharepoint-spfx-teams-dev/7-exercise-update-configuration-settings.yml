@@ -1,0 +1,36 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.sharepoint-spfx-teams-dev.7-exercise-update-configuration-settings
+metadata:
+  title: Exercise - Update configuration settings
+  description: In this exercise, you'll update the configuration settings for the SharePoint Framework application and the configuration details of the Microsoft Teams application.
+  ms.date: 3/10/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Update configuration settings
+durationInMinutes: 14
+content: |
+  [!include[](includes/7-exercise-update-configuration-settings.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "How is the Microsoft Teams tab settings configuration experience different from the SharePoitn web part property pane experience?"
+    choices:
+    - content: "There are no differences. When a client-side web part is used as a Microsoft Teams tab, it inherits the Microsoft Teams settings configuration experience that displays a dialog."
+      isCorrect: false
+      explanation: "SharePoint client-side web parts always use the SharePoint property pane for the configuration of their properties. Microsoft Teams tabs open a dialog."
+    - content: "SharePoint client-side web parts always use the SharePoint property pane for the configuration of their properties. Microsoft Teams tabs open a dialog."
+      isCorrect: true
+      explanation: "Correct!"
+  - content: "How can you block users from modifying the settings of a SharePoint client-side web part that is used as a Microsoft Teams tab?"
+    choices:
+    - content: "You can't, only Microsoft Teams tabs created using the Microsoft Teams SDK can be configured disable updating the tab's configuration. SharePoint client-side web part settings can always be updated."
+      isCorrect: false
+      explanation: "SharePoint client-side web parts inherit the same `canUpdateConfiguration` property set on a tab in the Microsoft Teams app manifest."
+    - content: "When the tab is added to a team in Microsoft teams, enable the **Disable configuration updates** setting."
+      isCorrect: false
+      explanation: "There's no **Disable configuration updates** setting when adding a tab to a team."
+    - content: "Set the `canUpdateConfiguration` property in the Microsoft Teams app manifest to `false`."
+      isCorrect: true
+      explanation: "Correct!"

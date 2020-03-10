@@ -3,7 +3,7 @@ uid: learn-m365.msgraph-access-group-data.2-working-groups
 metadata:
   title: Working with groups in the organization
   description: In this unit, you’ll learn what groups are and the basics of working with groups using Microsoft Graph, including required permissions, the differences between security groups and Office 365 groups. Finally, you’ll learn how to work with groups including how to get information about a group and the users who manage and are members of the group.
-  ms.date: 11/18/2019
+  ms.date: 3/10/2020
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
