@@ -31,9 +31,13 @@ On the **Identity Daemon** page, copy the value of the **Application (client) ID
 
 Select **Manage > Authentication**.
 
-In the section **Redirect URIs**, locate the **Suggested Redirect URIs for public clients (mobile, desktop)** section and select the entry that begins with **msal**:
+In the **Platform configurations** section, select the **Add a platform** button. Then in the **Configure platforms** panel, select the **Mobile and desktop applications** button:
 
-![Screenshot of the Redirect URIs section](../media/07-aad-portal-newapp-authentication-01.png)
+![Screenshot of the Platform configurations section](../media/07-aad-portal-newapp-authentication-01.png)
+
+In the **Redirect URIs** section of the **Configure Desktop + devices** panel, select the entry that ends with **nativeclient**, and then select the **Configure** button:
+
+![Screenshot of the Configure Desktop + devices panel](../media/07-aad-portal-newapp-authentication-01a.png)
 
 Scroll down to the **Default client type** section and set the toggle to **Yes**.
 
@@ -86,8 +90,6 @@ Notice that the permission has **Yes** listed in the column **Admin Consent Requ
 On the **Identity Daemon - API Permissions** panel, select the button **Grant admin consent for [tenant]**, followed by the **Yes** button to grant all users in your organization this permission.
 
 ![Screenshot of granting admin consent to Contoso for all requested permissions](../media/07-aad-portal-newapp-permissions-04.png)
-
-This will launch a popup window that contains the admin consent experience. Sign in with an account that is a global administrator in the tenant and accept the consent request.
 
 ## Create a headless application
 
@@ -227,7 +229,6 @@ namespace Helpers
 Open the **Program.cs** file and add the following `using` statements to the top fo the file:
 
 ```cs
-using System;
 using System.Collections.Generic;
 using Microsoft.Identity.Client;
 using Microsoft.Graph;
@@ -275,7 +276,7 @@ private static IAuthenticationProvider CreateAuthorizationProvider(IConfiguratio
   var authority = $"https://login.microsoftonline.com/{config["tenantId"]}/v2.0";
 
   List<string> scopes = new List<string>();
-  scopes.Add(clientId + "/.default");
+  scopes.Add("https://graph.microsoft.com/.default");
 
   var cca = ConfidentialClientApplicationBuilder.Create(clientId)
                                           .WithAuthority(authority)

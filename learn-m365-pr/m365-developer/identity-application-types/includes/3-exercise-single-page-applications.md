@@ -322,6 +322,8 @@ Locate the section **Implicit grant** and select both **Access tokens** and **ID
 
   ![Screenshot of the authentication settings for the Azure AD app](../media/03-aad-portal-newapp-authentication.png)
 
+Select **Save** in the top menu to save your changes.
+
 ## Update the web page with the Azure AD application details
 
 The last step is to configure the web page to use the Azure AD application.
