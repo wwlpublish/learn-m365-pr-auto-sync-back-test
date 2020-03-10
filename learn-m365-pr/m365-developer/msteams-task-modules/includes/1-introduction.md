@@ -1,4 +1,4 @@
-Task modules are modals that you can populate with either an Adaptive Card or an embedded web/content page for use in your custom Microsoft Teams app’s user experience for workflows that require data input. Task modules allow you to gather information in a Teams-aware popup.
+Task modules are modals that you can populate with either an Adaptive Card or an embedded web/content page for use in your custom Microsoft Teams app's user experience for workflows that require data input. Task modules allow you to gather information in a Teams-aware popup.
 
 In this module, you'll learn how to create and add task modules to your Microsoft Teams app.
 
@@ -17,6 +17,6 @@ In this module, you'll learn how to create and add task modules to your Microsof
 
 ## Additional resources
 
-Refer to the following repository for additional resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [50 Task Modules](https://github.com/officedev/TrainingContent/tree/master/Identity/50%20Task%20Modules).
+Refer to the following repository for additional resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [50 Task Modules](https://github.com/OfficeDev/TrainingContent/tree/master/Teams/50%20Task%20Modules).
 
 This module is also available as a screencast: [Collect Input in Microsoft Teams with Task Modules](https://www.youtube.com/watch?v=VlEH4vtaxp4)
