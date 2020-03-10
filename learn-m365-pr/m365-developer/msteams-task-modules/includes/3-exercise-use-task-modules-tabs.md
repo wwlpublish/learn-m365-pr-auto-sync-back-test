@@ -1,4 +1,4 @@
-In this exercise, you’ll learn the basics of task modules in Microsoft Teams and how to collect input from users in a custom Teams tab. After creating a new Microsoft Teams personal tab, you'll add two task modules to it.
+In this exercise, you'll learn the basics of task modules in Microsoft Teams and how to collect input from users in a custom Teams tab. After creating a new Microsoft Teams personal tab, you'll add two task modules to it.
 
 One is a standard HTML page that accepts the ID of a video on YouTube. When the task module is invoked, it will display the video using the YouTube embedded player. This task module will get the video ID from the query string, but it will not need to return any information back to the tab.
 
@@ -25,7 +25,7 @@ You'll use Node.js to create custom Microsoft Teams tabs in this module. The exe
 - NPM (installed with Node.js) - v6.\* (or higher)
 - [Gulp](https://gulpjs.com/) - v4.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.\* (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.12\* (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
@@ -48,8 +48,8 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project?**: YouTube Player
 - **Your (company) name? (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: 1.5
-- **Enter your Microsoft Partner Id, if you have one?**: (Leave blank to skip)
+- **Which manifest version would you like to use?**: v1.5
+- **Enter your Microsoft Partner ID, if you have one?**: (Leave blank to skip)
 - **What features do you want to add to your project?**: A Tab
 - **The URL where you will host this solution?**: https://youtubeplayer.azurewebsites.net
 - **Would you like to include Test framework and initial tests?**: No
@@ -92,9 +92,11 @@ Now let's load the tab in Microsoft Teams. In the browser, navigate to **https:/
 > [!NOTE]
 > Microsoft Teams is available for use as a web client, desktop client and a mobile client. In this module, we will use the web client but any of the clients can be used.
 
-Using the app bar navigation menu, select the **Mode added apps** button. Then select **Browse all apps** followed by **Upload for me or my teams**.
+Using the app bar navigation menu, select the **More added apps** button. Then select **More apps**.
 
 ![Screenshot of More added apps dialog in Microsoft Teams](../media/03-yo-teams-05.png)
+
+On the **Browse available apps and services** page, select **Upload a custom app** > **Upload for me or my teams**.
 
 In the file dialog that appears, select the Microsoft Teams package in your project. This app package is a ZIP file that can be found in the project's **./package** folder.
 
@@ -116,126 +118,63 @@ The next step is to make some changes to the project.
 
 Next, stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the console to stop the running process.
 
-### Update the project to use the Stardust UI library
-
-Microsoft Teams recommends your custom apps use React and the themable React component library [Stardust UI React](https://stardust-ui.github.io/react/). To use Stardust in the Microsoft Teams app, we need to make some changes to the project.
-
-> [!IMPORTANT]
-> At the time of publication of this module, there are plans to update the Yeoman generator for Microsoft Teams to include Stardust in the default project. However, at the time of publication of this module, the default project uses the older Microsoft Teams control library that Stardust is replacing.
->
-> Therefore, the steps in this section may or may not be necessary as the Yeoman generator for Microsoft Teams may have been updated. Review each of the instructions in this section and compare the results with your project to determine if they are necessary.
-
-The first step is to uninstall the existing control library and install the Stardust library. Execute the following two commands in the command line from the root folder of the project:
-
-```shell
-npm uninstall msteams-ui-components-react
-npm install @stardust-ui/react
-```
-
-Locate and open the file that contains the React component used in the project: **./src/app/scripts/youTubePlayer1Tab/YouTubePlayer1Tab.tsx**.
-
-Update the `import` statements in this file to replace the component library used. Find the following `import` statement that imports the legacy Microsoft Teams UI Components - React library:
-
-```ts
-import {
-    PrimaryButton,
-    TeamsThemeContext,
-    Panel,
-    PanelBody,
-    PanelHeader,
-    PanelFooter,
-    Surface,
-    getContext
-} from "msteams-ui-components-react";
-```
-
-Replace the above statement with the following import statement:
-
-```ts
-import {
-  Flex, Provider, themes, ThemePrepared,
-  Header, Button, Input, Text
-} from "@stardust-ui/react";
-```
-
-The default project contains additional user interface style code that used the previous control library. This code is no longer necessary
-
-Locate the following code in the `componentWillMount()` method in the `YouTubePlayer1Tab` class and delete it:
-
-```ts
-this.setState({
-  fontSize: this.pageFontSize()
-});
-```
-
-Locate the following code in the `render()` method in the `YouTubePlayer1Tab` class and delete it:
-
-```ts
-const context = getContext({
-    baseFontSize: this.state.fontSize,
-    style: this.state.theme
-});
-const { rem, font } = context;
-const { sizes, weights } = font;
-const styles = {
-    header: { ...sizes.title, ...weights.semibold },
-    section: { ...sizes.base, marginTop: rem(1.4), marginBottom: rem(1.4) },
-    footer: { ...sizes.xsmall }
-};
-```
-
-Locate the `return ()` statement in the `render()` method in the `YouTubePlayer1Tab` class and delete the contents. This code used the UI library that you replaced with Stardust. At this point, the `render()` method should look like the following code:
-
-```ts
-public render() {
-  return (
-  );
-}
-```
-
 ### Implement the personal tab's user interface
 
 Now you can implement the user interface for the tab. The simple tab will have a basic interface.
 
-First, update the state of the component to contain a list of items and a property for a new item. Locate the `IYouTubePlayer1TabState` interface in the **YouTubePlayer1Tab.tsx** file and add the following properties to it:
+Locate and open the file that contains the React component used in the project: **./src/app/scripts/youTubePlayer1Tab/YouTubePlayer1Tab.tsx**.
 
-```ts
+Update the import statements in this file to add components from the Fluent UI - React library. Find the following import statement at the top of the file that imports components from the Fluent UI - React library:
+
+```typescript
+import { Provider, Flex, Text, Button, Header } from "@fluentui/react";
+```
+
+Replace the previous statement with the following import statement:
+
+```typescript
+import { Provider, Flex, Text, Button, Header, ThemePrepared, themes, Input } from "@fluentui/react";
+```
+
+Update the state of the component to contain a list of items and a property for a new item. Locate the `IYouTubePlayer1TabState` interface in the **YouTubePlayer1Tab.tsx** file and add the following properties to it:
+
+```typescript
 teamsTheme: ThemePrepared;
 todoItems: string[];
 newTodoValue: string;
 ```
 
-Add the following method to the `YouTubePlayer1Tab` class that will update the component state to the Stardust theme that matches the currently selected Microsoft Teams client theme:
+Add the following method to the `LearnPersonalTab` class that updates the component state to the theme that matches the currently selected Microsoft Teams client theme:
 
-```ts
-private updateStardustTheme = (teamsTheme: string = "default"): void => {
-  let stardustTheme: ThemePrepared;
+```typescript
+private updateComponentTheme = (teamsTheme: string = "default"): void => {
+  let theme: ThemePrepared;
 
   switch (teamsTheme) {
     case "default":
-      stardustTheme = themes.teams;
+      theme = themes.teams;
       break;
     case "dark":
-      stardustTheme = themes.teamsDark;
+      theme = themes.teamsDark;
       break;
     case "contrast":
-      stardustTheme = themes.teamsHighContrast;
+      theme = themes.teamsHighContrast;
       break;
     default:
-      stardustTheme = themes.teams;
+      theme = themes.teams;
       break;
   }
   // update the state
   this.setState(Object.assign({}, this.state, {
-    teamsTheme: stardustTheme
+    teamsTheme: theme
   }));
 }
 ```
 
 Initialize the current theme and state of the component. Locate the line `this.updateTheme(this.getQueryVariable("theme"));` and replace it with the following code in the `componentWillMount()` method:
 
-```ts
-this.updateStardustTheme(this.getQueryVariable("theme"));
+```typescript
+this.updateComponentTheme(this.getQueryVariable("theme"));
 this.setState(Object.assign({}, this.state, {
   todoItems: ["Submit time sheet", "Submit expense report"],
   newTodoValue: ""
@@ -244,14 +183,14 @@ this.setState(Object.assign({}, this.state, {
 
 Within the `componentWillMount()` method, locate the following line:
 
-```ts
+```typescript
 microsoftTeams.registerOnThemeChangeHandler(this.updateTheme);
 ```
 
-This code registers an event handler to update the component's theme to match the theme of the current Microsoft Teams client when this page is loaded as a tab. Update this line to call the new handler the following line to register another handler to update the Stardust library theme:
+This code registers an event handler to update the component's theme to match the theme of the current Microsoft Teams client when this page is loaded as a tab. Update this line to call the new handler in the following line to register another handler to update the component theme:
 
-```ts
-microsoftTeams.registerOnThemeChangeHandler(this.updateStardustTheme);
+```typescript
+microsoftTeams.registerOnThemeChangeHandler(this.updateComponentTheme);
 ```
 
 With the theme management and state initialized, we can now implement the user interface.
@@ -277,7 +216,7 @@ public render() {
 
 The next step is to add some interactivity to the tab. Add the following methods to the `YouTubePlayer1Tab` class. These methods will handle updating the state when specific events happen on the form you'll add to the component:
 
-```ts
+```typescript
 private onShowVideo = (event: React.MouseEvent<HTMLButtonElement>): void => {
 }
 
@@ -289,9 +228,9 @@ Finally, initialize the state of the tab by setting it to a default video to dis
 
 Within the `componentWillMount()` method, add the following statement to the top of the method:
 
-```ts
+```typescript
 this.setState(Object.assign({}, this.state, {
-  youTubeVideoId: "X8krAMdGvCQ"
+  youTubeVideoId: "jugBQqE_2sM"
 }));
 ```
 
@@ -391,7 +330,7 @@ private appRoot(): string {
 
 Next, add the following code to the `onShowVideo` method:
 
-```ts
+```typescript
 private onShowVideo = (event: React.MouseEvent<HTMLButtonElement>): void => {
   const taskModuleInfo = {
     title: "YouTube Player",
@@ -471,7 +410,7 @@ Create a new file, **VideoSelectorTaskModule.ts**, in the **./src/app/youTubePla
 
 Add the following code to the file:
 
-```ts
+```typescript
 import { PreventIframe } from "express-msteams-host";
 
 @PreventIframe("/youTubePlayer1Tab/selector.html")
@@ -481,7 +420,7 @@ export class VideoSelectorTaskModule { }
 
 Now register the page by adding the following line to the end of the **./src/app/TeamsAppsComponents.ts** file:
 
-```ts
+```typescript
 export * from "./youTubePlayer1Tab/VideoSelectorTaskModule";
 ```
 
@@ -493,12 +432,9 @@ Create a new file, **VideoSelectorTaskModule.tsx**, in the folder **./src/app/sc
 
 Add the following code to the page. Most of this code mirrors what you would see if you created a new tab.
 
-```ts
+```typescript
 import * as React from "react";
-import {
-  Flex, Provider, themes, ThemePrepared,
-  Button, Input, Text
-} from "@stardust-ui/react";
+import { Provider, Flex, Text, Button, Header, ThemePrepared, themes, Input } from "@fluentui/react";
 import TeamsBaseComponent, { ITeamsBaseComponentProps, ITeamsBaseComponentState } from "msteams-react-base-component";
 import * as microsoftTeams from "@microsoft/teams-js";
 
@@ -512,14 +448,14 @@ export interface IVideoSelectorTaskModuleProps extends ITeamsBaseComponentProps 
 
 export class VideoSelectorTaskModule extends TeamsBaseComponent<IVideoSelectorTaskModuleProps, IVideoSelectorTaskModuleState> {
   public componentWillMount(): void {
-    this.updateStardustTheme(this.getQueryVariable("theme"));
+    this.updateComponentTheme(this.getQueryVariable("theme"));
     this.setState(Object.assign({}, this.state, {
       youTubeVideoId: this.getQueryVariable("vid")
     }));
 
     if (this.inTeams()) {
       microsoftTeams.initialize();
-      microsoftTeams.registerOnThemeChangeHandler(this.updateStardustTheme);
+      microsoftTeams.registerOnThemeChangeHandler(this.updateComponentTheme);
     }
   }
 
@@ -528,26 +464,26 @@ export class VideoSelectorTaskModule extends TeamsBaseComponent<IVideoSelectorTa
     );
   }
 
-  private updateStardustTheme = (teamsTheme: string = "default"): void => {
-    let stardustTheme: ThemePrepared;
+  private updateComponentTheme = (teamsTheme: string = "default"): void => {
+    let theme: ThemePrepared;
 
     switch (teamsTheme) {
       case "default":
-        stardustTheme = themes.teams;
+        theme = themes.teams;
         break;
       case "dark":
-        stardustTheme = themes.teamsDark;
+        theme = themes.teamsDark;
         break;
       case "contrast":
-        stardustTheme = themes.teamsHighContrast;
+        theme = themes.teamsHighContrast;
         break;
       default:
-        stardustTheme = themes.teams;
+        theme = themes.teams;
         break;
     }
     // update the state
     this.setState(Object.assign({}, this.state, {
-      teamsTheme: stardustTheme
+      teamsTheme: theme
     }));
   }
 }
@@ -569,7 +505,7 @@ Implement the user interface of the task module by adding the following code to 
 
 Next, implement the two handlers referenced in the `render()` method. Add these two functions to the `VideoSelectorTaskModule` class:
 
-```ts
+```typescript
 private handleOnChanged = (event): void => {
   this.setState(Object.assign({}, this.state, {
     youTubeVideoId: event.target.value
@@ -585,13 +521,13 @@ The `handleOnChanged()` method updates the state with the value specified in the
 
 Make this React class available to the rest of the application by adding the following line to the **./src/app/scripts/client.ts** file:
 
-```ts
+```typescript
 export * from "./youTubePlayer1Tab/VideoSelectorTaskModule";
 ```
 
 The last step is to wire this task module up to the tab. Within the **./src/app/scripts/youTubePlayer1Tab/YouTubePlayer1Tab.tsx** file, locate the method `onChangeVideo()`. Add the following code to the method:
 
-```ts
+```typescript
 const taskModuleInfo = {
   title: "YouTube Video Selector",
   url: this.appRoot() + `/youTubePlayer1Tab/selector.html?theme={theme}&vid=${this.state.youTubeVideoId}`,
