@@ -6,7 +6,7 @@ Developers can create all sorts of applications that will communicate with Micro
 
 ### Microsoft Graph REST API
 
-At its core, Microsoft Graph is a REST API that means that developers can use any platform, any framework, and any programming language they're most comfortable with. The only requirement is that they issue common HTTP requests and process HTTP responses. All recent platforms, frameworks, and languages have these capabilities.
+At its core, Microsoft Graph is a REST API. That means that developers can use any platform, any framework, and any programming language they're most comfortable with. The only requirement is that they issue common HTTP requests and process HTTP responses. All recent platforms, frameworks, and languages have these capabilities.
 
 ### Microsoft Graph Native SDKs
 
@@ -24,7 +24,7 @@ What’s nice about Microsoft Graph supporting both styles of authentication, is
 
 ## Manipulating Microsoft Graph requests with query parameters
 
-Microsoft Graph’s REST API confirms to the OData v4 protocol. One aspect of this is that the REST API supports many query parameters. These query parameters enable developers to specify & control the amount of data returned in the responses.
+Microsoft Graph’s REST API conforms to the OData v4 protocol. One aspect of this is that the REST API supports many query parameters. These query parameters enable developers to specify and control the amount of data returned in the responses.
 
 Each endpoint exposed by Microsoft Graph has varying support for different query parameters. For example, the `$count` query parameter is supported by the **/contacts** endpoint, but it isn’t supported for directory objects like users and groups.
 
@@ -84,7 +84,7 @@ https://graph.microsoft.com/v1.0/users?$select=id,givenName,surname
 
 ## Manipulating the order and format of data returned
 
-Another powerful uses of query parameters are to control how the data is returned in the response to a request. Some service may or may not return data in ascending order by default.
+Another powerful use of query parameters is to control how the data is returned in the response to a request. Some service may or may not return data in ascending order by default.
 
 The `$orderby` parameter enables developers to let data from Microsoft Graph be pre-sorted. By default data is returned in ascending order, but you can add the `desc` keyword after the property to sort in descending order. It also supports sorting by multiple fields, separating each field with a comma.
 
@@ -98,4 +98,4 @@ Complex fields can also be sorted. Complex types, such as the from field in an e
 https://graph.microsoft.com/v1.0/me/messages?$orderby=from/emailAddress/name
 ```
 
-By default, responses from Microsoft Graph are returned in the JSON format. However, you can request data in two other formats, ATOM & XML, by adding the `$format` parameter.
+By default, responses from Microsoft Graph are returned in the JSON format. However, you can request data in two other formats, ATOM and XML, by adding the `$format` parameter.
