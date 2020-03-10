@@ -49,7 +49,7 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Title of your Microsoft Teams App project?**: YouTube Player
 - **Your (company) name? (max 32 characters)**: Contoso
 - **Which manifest version would you like to use?**: v1.5
-- **Enter your Microsoft Partner Id, if you have one?**: (Leave blank to skip)
+- **Enter your Microsoft Partner ID, if you have one?**: (Leave blank to skip)
 - **What features do you want to add to your project?**: A Tab
 - **The URL where you will host this solution?**: https://youtubeplayer.azurewebsites.net
 - **Would you like to include Test framework and initial tests?**: No
@@ -124,7 +124,7 @@ Now you can implement the user interface for the tab. The simple tab will have a
 
 Locate and open the file that contains the React component used in the project: **./src/app/scripts/youTubePlayer1Tab/YouTubePlayer1Tab.tsx**.
 
-Update the import statements in this file to add components from the Fluent UI - React library. Find the following import statement at the top of the filethat imports components from the Fluent UI - React library:
+Update the import statements in this file to add components from the Fluent UI - React library. Find the following import statement at the top of the file that imports components from the Fluent UI - React library:
 
 ```typescript
 import { Provider, Flex, Text, Button, Header } from "@fluentui/react";
