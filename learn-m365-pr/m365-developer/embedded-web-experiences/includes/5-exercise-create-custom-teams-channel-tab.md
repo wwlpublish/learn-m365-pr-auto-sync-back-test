@@ -17,7 +17,7 @@ Yeoman starts and asks you a series of questions. Answer the questions with the 
 
 - **You are running the generator on an already existing project... are you sure you want to continue?**: Yes
 - **Do you want to change the current manifest version (1.5)?**: No
-- **What features do you want to add to your project?**: learnMsTeamsTabs
+- **What features do you want to add to your project?**: A Tab
 - **Default tab name (max 16 characters)**: ConfigMathTab
 - **Do you want to create a configurable or static tab?**: Configurable
 - **What scopes do you intend to use for your tab?**: In a Team
@@ -38,7 +38,7 @@ gulp ngrok-serve
 
 Open a browser, and go to [Microsoft Teams](https://teams.microsoft.com). Sign in with the credentials of a Work and School account.
 
-In the app bar on the left, select the **Mode added apps** button. Then select **Browse all apps** > **Upload for me or my teams**.
+In the app bar on the left, select the **More added apps** button. Then select **Browse all apps** > **Upload for me or my teams**.
 
 ![Screenshot of More added apps dialog box in Microsoft Teams](../media/03-yo-teams-05.png)
 
@@ -68,103 +68,63 @@ The first step is to modify the configuration page.
 
 Locate and open the file ./src/app/scripts/configMathTab/ConfigMathTabConfig.tsx.
 
-### Update the configuration tab to use the Stardust UI library
+### Update the configuration tab to use the current Theme
 
-Before you create the configuration tab, first update it to use the Stardust UI library.
+Update the `import` statements in this file to include the components used in the configuration tab. Find the following `import` statement that imports the Fluent UI - React library:
 
-Update the `import` statements in this file to replace the component library used. Find the following `import` statement that imports the legacy Microsoft Teams UI Components - React library:
-
-```ts
-import {
-  PrimaryButton,
-  TeamsThemeContext,
-  Panel,
-  PanelBody,
-  PanelHeader,
-  PanelFooter,
-  Surface,
-  getContext
-} from "msteams-ui-components-react";
+```typescript
+import { Provider, Flex, Header, Input} from "@fluentui/react";
 ```
 
 Replace the previous statement with the following import statement:
 
-```ts
-import {
-  Flex, Provider, themes, ThemePrepared,
-  Header,
-  Dropdown, DropdownProps, Text
-} from "@stardust-ui/react";
+```typescript
+import { Provider, Flex, Header, Input, ThemePrepared, themes, DropdownProps, Dropdown } from "@fluentui/react";
 ```
 
 Locate the `IConfigMathTabConfigState` interface, and replace its contents with the following two members:
 
-```ts
+```typescript
 teamsTheme: ThemePrepared;
 mathOperator: string;
 ```
 
-Locate the following code in the `render()` method in the `ConfigMathTabConfig` class and delete it:
+Add the following method to the `ConfigMathTabConfig` class that will update the component state to match the currently selected Microsoft Teams client theme:
 
-```ts
-const context = getContext({
-  baseFontSize: this.state.fontSize,
-  style: this.state.theme
-});
-const { rem, font } = context;
-const { sizes, weights } = font;
-const styles = {
-    header: { ...sizes.title, ...weights.semibold },
-    section: { ...sizes.base, marginTop: rem(1.4), marginBottom: rem(1.4) },
-    footer: { ...sizes.xsmall }
-};
-```
-
-Locate the `return ()` statement in the `render()` method in the `ConfigMathTabConfig` class, and delete the contents. This code used the UI library that you replaced with Stardust. At this point, the `render()` method should look like the following code:
-
-```ts
-public render() {
-    return (
-    );
-}
-```
-
-Add the following method to the `ConfigMathTabConfig` class that will update the component state to the Stardust theme that matches the currently selected Microsoft Teams client theme:
-
-```ts
-private updateStardustTheme = (teamsTheme: string = "default"): void => {
-  let stardustTheme: ThemePrepared;
+```typescript
+private updateComponentTheme = (teamsTheme: string = "default"): void => {
+  let componentTheme: ThemePrepared;
 
   switch (teamsTheme) {
     case "default":
-      stardustTheme = themes.teams;
+      componentTheme = themes.teams;
       break;
     case "dark":
-      stardustTheme = themes.teamsDark;
+      componentTheme = themes.teamsDark;
       break;
     case "contrast":
-      stardustTheme = themes.teamsHighContrast;
+      componentTheme = themes.teamsHighContrast;
       break;
     default:
-      stardustTheme = themes.teams;
+      componentTheme = themes.teams;
       break;
   }
   // update the state
   this.setState(Object.assign({}, this.state, {
-    teamsTheme: stardustTheme
+    teamsTheme: componentTheme
   }));
 }
 ```
 
 Initialize the current theme and state of the component. Locate the line `this.updateTheme(this.getQueryVariable("theme"));` and replace it with the following code in the `componentWillMount()` method:
 
-```ts
-this.updateStardustTheme(this.getQueryVariable("theme"));
+```typescript
+this.updateComponentTheme(this.getQueryVariable("theme"));
 ```
 
 Locate the following code in the `componentWillMount()` method and delete it:
 
-```ts
+```typescript
 this.setState({
   fontSize: this.pageFontSize()
 });
@@ -174,9 +134,9 @@ this.setState({
 
 The configuration page displays a drop-down list of four math operators to select from. After an operator is selected, it's saved to the tab's `entityId` property with the string **MathPage** appended to it. This value is used by the tab page to determine what operation to perform in the tab.
 
-Locate the following line in the `componentWillMount()` method: `microsoftTeams.getContext()`. The function passed into this method sets the state of the React component. Replace the `this.setState()` method with the following code. This new code takes the value of the `entityId` property on the tab, removes the **MathPage** string, and leaves only the operator.
+Locate the line in the `componentWillMount()` method that contains the call to `microsoftTeams.getContext`. The function passed into this method sets the state of the React component. Replace the `this.setState` method with the following code. (Leave the rest of get getContext delegate unchanged.) This new code takes the value of the `entityId` property on the tab, removes the **MathPage** string, and leaves only the operator.
 
-```ts
+```typescript
 this.setState(Object.assign({}, this.state, {
   mathOperator: context.entityId.replace("MathPage", "")
 }));
@@ -186,7 +146,7 @@ Next, locate the following line in the `componentWillMount()` method: `microsoft
 
 Update this code to save the selected math operation and change the name of the tab.
 
-```ts
+```typescript
 microsoftTeams.settings.registerOnSaveHandler((saveEvent: microsoftTeams.settings.SaveEvent) => {
   // Calculate host dynamically to enable local debugging
   const host = "https://" + window.location.host;
@@ -202,7 +162,7 @@ microsoftTeams.settings.registerOnSaveHandler((saveEvent: microsoftTeams.setting
 
 Add the following event handler to the `ConfigMathTabConfig` class, which updates the component state to be the value of the selected operator:
 
-```ts
+```typescript
 private handleOnSelectedChange = (event, props: DropdownProps): void => {
   this.setState(Object.assign({}, this.state, {
     mathOperator: (props.value) ? props.value.toString() : "add"
@@ -226,7 +186,7 @@ public render() {
             "multiply",
             "divide"
           ]}
-          onSelectedChange={this.handleOnSelectedChange}></Dropdown>
+          onChange={this.handleOnSelectedChange}></Dropdown>
       </Flex>
     </Provider>
   );
@@ -255,37 +215,22 @@ Locate and open the file ./src/app/scripts/configMathTab/ConfigMathTab.tsx.
 
 ### Update the channel tab to use the Stardust UI library
 
-Before you create the configuration tab, first update it to use the Stardust UI library.
+Update the `import` statements in this file to include the components used in the configuration tab. Find the following `import` statement that imports the Fluent UI - React library:
 
-Update the `import` statements in this file to replace the component library used. Find the following `import` statement that imports the legacy Microsoft Teams UI Components - React library:
 
-```ts
-import {
-    PrimaryButton,
-    TeamsThemeContext,
-    Panel,
-    PanelBody,
-    PanelHeader,
-    PanelFooter,
-    Surface,
-    getContext
-} from "msteams-ui-components-react";
+```typescript
+import { Provider, Flex, Text, Button, Header } from "@fluentui/react";
 ```
 
 Replace the previous statement with the following import statement:
 
-```ts
-import {
-  Flex, Provider, themes, ThemePrepared,
-  Header,
-  Button, Input, Text
-} from "@stardust-ui/react";
+```typescript
+import { Provider, Flex, Text, Button, Header, ThemePrepared, themes, Input } from "@fluentui/react";
 ```
 
-Locate the `IConfigMathTabState` interface, and replace its contents with the following two members:
+Locate the `IConfigMathTabState` interface, and replace its contents with the following:
 
-```ts
-teamsTheme: ThemePrepared;
+```typescript
 teamsTheme: ThemePrepared;
 mathOperator?: string;
 operandA: number;
@@ -293,79 +238,54 @@ operandB: number;
 result: string;
 ```
 
-Locate the following code in the `render()` method in the `ConfigMathTab` class and delete it:
+Add the following method to the `ConfigMathTab` class that will update the component state to match the currently selected Microsoft Teams client theme:
 
-```ts
-const context = getContext({
-  baseFontSize: this.state.fontSize,
-  style: this.state.theme
-});
-const { rem, font } = context;
-const { sizes, weights } = font;
-const styles = {
-  header: { ...sizes.title, ...weights.semibold },
-  section: { ...sizes.base, marginTop: rem(1.4), marginBottom: rem(1.4) },
-  footer: { ...sizes.xsmall }
-};
-```
-
-Locate the `return ()` statement in the `render()` method in the `ConfigMathTab` class, and delete the contents. This code used the UI library that you replaced with Stardust. At this point, the `render()` method should look like the following code:
-
-```ts
-public render() {
-  return (
-  );
-}
-```
-
-Add the following method to the `ConfigMathTab` class that will update the component state to the Stardust theme that matches the currently selected Microsoft Teams client theme:
-
-```ts
-private updateStardustTheme = (teamsTheme: string = "default"): void => {
-  let stardustTheme: ThemePrepared;
+```typescript
+private updateComponentTheme = (teamsTheme: string = "default"): void => {
+  let componentTheme: ThemePrepared;
 
   switch (teamsTheme) {
     case "default":
-      stardustTheme = themes.teams;
+      componentTheme = themes.teams;
       break;
     case "dark":
-      stardustTheme = themes.teamsDark;
+      componentTheme = themes.teamsDark;
       break;
     case "contrast":
-      stardustTheme = themes.teamsHighContrast;
+      componentTheme = themes.teamsHighContrast;
       break;
     default:
-      stardustTheme = themes.teams;
+      componentTheme = themes.teams;
       break;
   }
   // update the state
   this.setState(Object.assign({}, this.state, {
-    teamsTheme: stardustTheme
+    teamsTheme: componentTheme
   }));
 }
 ```
 
 Initialize the current theme and state of the component. Locate the line `this.updateTheme(this.getQueryVariable("theme"));` and replace it with the following code in the `componentWillMount()` method:
 
-```ts
-this.updateStardustTheme(this.getQueryVariable("theme"));
+```typescript
+this.updateComponentTheme(this.getQueryVariable("theme"));
 ```
 
 Within the `componentWillMount()` method, locate the following line:
 
-```ts
+```typescript
 microsoftTeams.registerOnThemeChangeHandler(this.updateTheme);
 ```
 
-This code registers an event handler to update the component's theme to match the theme of the current Microsoft Teams client when this page is loaded as a tab. Update this line to call the new handler in the following line to register another handler to update the Stardust library theme.
+This code registers an event handler to update the component's theme to match the theme of the current Microsoft Teams client when this page is loaded as a tab. Update this line to call the new handler in the following line to register another handler to update the component theme.
 
-```ts
-microsoftTeams.registerOnThemeChangeHandler(this.updateStardustTheme);
+```typescript
+microsoftTeams.registerOnThemeChangeHandler(this.updateComponentTheme);
 ```
 
 Locate the following code in the `componentWillMount()` method and delete it:
 
-```ts
+```typescript
 this.setState({
   fontSize: this.pageFontSize()
 });
@@ -375,7 +295,7 @@ this.setState({
 
 Locate the following line in the `componentWillMount()` method: `microsoftTeams.getContext()`. The function passed into this method sets the state of the React component. Replace the `this.setState()` method with the following code. This new code takes the value of the `entityId` property on the tab, removes the **MathPage** string, and leaves only the operator.
 
-```ts
+```typescript
 this.setState(Object.assign({}, this.state, {
   mathOperator: context.entityId.replace("MathPage", "")
 }));
@@ -383,7 +303,7 @@ this.setState(Object.assign({}, this.state, {
 
 Locate the following code in the `componetWillMount()` method:
 
-```ts
+```typescript
 this.setState({
   entityId: "This is not hosted in Microsoft Teams"
 });
@@ -391,7 +311,7 @@ this.setState({
 
 Replace this code with the following code. This new code will cause the math operator to add two numbers by default in case this page is loaded outside of a Microsoft Teams client.
 
-```ts
+```typescript
 this.setState(Object.assign({}, this.state, {
   mathOperator: "add"
 }));
@@ -399,7 +319,7 @@ this.setState(Object.assign({}, this.state, {
 
 Add the following event handlers to the `ConfigMathTab` class. These event handlers will update the state with the values from the controls and perform the calculation of the two numbers by using the operator specified on the configuration page.
 
-```ts
+```typescript
 private handleOnChangedOperandA = (event): void => {
   this.setState(Object.assign({}, this.state, { operandA: event.target.value }));
 }
@@ -441,7 +361,7 @@ private handleOperandChange = (): void => {
 
 Locate the `render()` method in the `ConfigMathTab` class. Replace the existing method implementation with the following code. This new code adds two input boxes and a button to the page. When the button is selected, it performs the math operation selected on the configuration page to the two values and displays the results.
 
-```ts
+```typescript
 public render() {
   return (
     <Provider theme={this.state.teamsTheme}>

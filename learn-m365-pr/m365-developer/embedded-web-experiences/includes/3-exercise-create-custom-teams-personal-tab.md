@@ -17,7 +17,7 @@ You'll use Node.js to create custom Microsoft Teams tabs in this module. The exe
 - NPM installed with Node.js: version 6\* or higher
 - [Gulp](https://gulpjs.com/): version 4\* or higher
 - [Yeoman](https://yeoman.io/): version 3\* or higher
-- [Yeoman generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams): version 2\* or higher
+- [Yeoman generator for Microsoft Teams](https://github.com/pnp/generator-teams): version 2.12\* or higher
 - [Visual Studio Code](https://code.visualstudio.com)
 
 *You must have the minimum versions of these prerequisites installed on your workstation.
@@ -40,7 +40,7 @@ Yeoman starts and asks you a series of questions. Answer the questions with the 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project**: Learn MSTeams Tabs
 - **Your (company) name (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: 1.5
+- **Which manifest version would you like to use?**: v1.5
 - **Enter your Microsoft Partner Id, if you have one**: (Leave blank to skip)
 - **What features do you want to add to your project?**: A tab
 - **The URL where you will host this solution**: https://learnmsteamstabs.azurewebsites.net
@@ -84,13 +84,17 @@ Now let's load the tab in Microsoft Teams. In the browser, go to [Microsoft Team
 > [!NOTE]
 > Microsoft Teams is available for use as a web client, a desktop client, and a mobile client. In this module, we use the web client, but any of the clients can be used.
 
-In the app bar on the left, select the **Mode added apps** button. Then select **Browse all apps** > **Upload for me or my teams**.
+In the app bar on the left, select the **More added apps** button. Then select **More apps**.
 
 ![Screenshot of More added apps dialog box in Microsoft Teams](../media/03-yo-teams-05.png)
 
+On the **Browse available apps and services** page, select **Upload a custom app** > **Upload for me or my teams**.
+
+![Screenshot of available apps and services page in Microsoft Teams](../media/03-yo-teams-05a.png)
+
 In the file dialog box that appears, select the Microsoft Teams package in your project. This app package is a zip file in the project's ./package folder.
 
-After the package is uploaded, Microsoft Teams displays a summary of the app. Here you can see some todo items to address. You'll update the todo items later in the exercise.
+After the package is uploaded, select it to display a summary of the app. Here you can see some todo items to address. You'll update the todo items later in the exercise.
 
 ![Screenshot of Microsoft Teams app](../media/03-yo-teams-06.png)
 
@@ -114,127 +118,63 @@ Uninstall the app by right-clicking the app in the **More added apps** dialog bo
 
 Next, stop the local web server by selecting <kbd>Ctrl</kbd>+<kbd>C</kbd> in the console to stop the running process.
 
-## Update the project to use the Stardust UI library
-
-Microsoft Teams recommends that your custom apps use React and the themable React component library [Stardust UI React](https://stardust-ui.github.io/react/). To use Stardust in the Microsoft Teams app, we need to make some changes to the project.
-
-> [!IMPORTANT]
-> At the time of publication of this module, there are plans to update the Yeoman generator for Microsoft Teams to include Stardust in the default project. At the time of publication of this module, the default project uses the older Microsoft Teams control library that Stardust is replacing.
->
-> The steps in this section might not be necessary because the Yeoman generator for Microsoft Teams might have been updated. Review each of the instructions in this section and compare the results with your project to determine if they're necessary.
-
-The first step is to uninstall the existing control library and install the Stardust library. Run the following two commands in the command line from the root folder of the project:
-
-```shell
-npm uninstall msteams-ui-components-react
-npm install @stardust-ui/react
-```
-
-Locate and open the file that contains the React component used in the project: ./src/app/scripts/learnPersonalTab/LearnPersonalTab.tsx.
-
-Update the `import` statements in this file to replace the component library used. Find the following `import` statement that imports the legacy Microsoft Teams UI Components - React library:
-
-```ts
-import {
-  PrimaryButton,
-  TeamsThemeContext,
-  Panel,
-  PanelBody,
-  PanelHeader,
-  PanelFooter,
-  Surface,
-  getContext
-} from "msteams-ui-components-react";
-```
-
-Replace the previous statement with the following import statement:
-
-```ts
-import { 
-  Flex, Provider, themes, ThemePrepared,
-  Alert, Header,
-  Button, Icon, Input, Label, List, Text
-} from "@stardust-ui/react";
-```
-
-The default project contains additional user interface style code that used the previous control library. This code is no longer necessary.
-
-Locate the following code in the `componentWillMount()` method in the `LearnPersonalTab` class and delete it.
-
-```ts
-this.setState({
-  fontSize: this.pageFontSize()
-});
-```
-
-Locate the following code in the `render()` method in the `LearnPersonalTab` class and delete it.
-
-```ts
-const context = getContext({
-  baseFontSize: this.state.fontSize,
-  style: this.state.theme
-});
-const { rem, font } = context;
-const { sizes, weights } = font;
-const styles = {
-  header: { ...sizes.title, ...weights.semibold },
-  section: { ...sizes.base, marginTop: rem(1.4), marginBottom: rem(1.4) },
-  footer: { ...sizes.xsmall }
-};
-```
-
-Locate the `return ()` statement in the `render()` method in the `LearnPersonalTab` class and delete the contents. This code used the UI library that you replaced with Stardust. At this point, the `render()` method should look like the following code:
-
-```ts
-public render() {
-  return (
-  );
-}
-```
-
 ## Implement the personal tab's user interface
 
 Now you can implement the user interface for the tab. The simple tab has a basic interface. It presents a list of items, and users can add items to the list.
 
-First, update the state of the component to contain a list of items and a property for a new item. Locate the `ILearnPersonalTabState` interface in the LearnPersonalTab.tsx file, and add the following properties to it:
+Locate and open the file that contains the React component used in the project: ./src/app/scripts/learnPersonalTab/LearnPersonalTab.tsx.
 
-```ts
+Update the import statements in this file to add components from the Fluent UI - React library. Find the following import statement at the top of the filethat imports components from the Fluent UI - React library:
+
+```typescript
+import { Provider, Flex, Text, Button, Header } from "@fluentui/react";
+```
+
+Replace the previous statement with the following import statement:
+
+```typescript
+import { Provider, Flex, Text, Button, Header, ThemePrepared, themes, Alert, List, Icon, Label, Input } from "@fluentui/react";
+```
+
+Next, update the state of the component to contain a list of items and a property for a new item. Locate the `ILearnPersonalTabState` interface in the LearnPersonalTab.tsx file, and add the following properties to it:
+
+```typescript
 teamsTheme: ThemePrepared;
 todoItems: string[];
 newTodoValue: string;
 ```
 
-Add the following method to the `LearnPersonalTab` class that updates the component state to the Stardust theme that matches the currently selected Microsoft Teams client theme:
+Add the following method to the `LearnPersonalTab` class that updates the component state to the theme that matches the currently selected Microsoft Teams client theme:
 
-```ts
-private updateStardustTheme = (teamsTheme: string = "default"): void => {
-  let stardustTheme: ThemePrepared;
+```typescript
+private updateComponentTheme = (teamsTheme: string = "default"): void => {
+  let theme: ThemePrepared;
 
   switch (teamsTheme) {
     case "default":
-      stardustTheme = themes.teams;
+      theme = themes.teams;
       break;
     case "dark":
-      stardustTheme = themes.teamsDark;
+      theme = themes.teamsDark;
       break;
     case "contrast":
-      stardustTheme = themes.teamsHighContrast;
+      theme = themes.teamsHighContrast;
       break;
     default:
-      stardustTheme = themes.teams;
+      theme = themes.teams;
       break;
   }
   // update the state
   this.setState(Object.assign({}, this.state, {
-    teamsTheme: stardustTheme
+    teamsTheme: theme
   }));
 }
 ```
 
 Initialize the current theme and state of the component. Locate the line `this.updateTheme(this.getQueryVariable("theme"));` and replace it with the following code in the `componentWillMount()` method:
 
-```ts
-this.updateStardustTheme(this.getQueryVariable("theme"));
+```typescript
+this.updateComponentTheme(this.getQueryVariable("theme"));
 this.setState(Object.assign({}, this.state, {
   todoItems: ["Submit time sheet", "Submit expense report"],
   newTodoValue: ""
@@ -243,14 +183,14 @@ this.setState(Object.assign({}, this.state, {
 
 Within the `componentWillMount()` method, locate the following line:
 
-```ts
+```typescript
 microsoftTeams.registerOnThemeChangeHandler(this.updateTheme);
 ```
 
-This code registers an event handler to update the component's theme to match the theme of the current Microsoft Teams client when this page is loaded as a tab. Update this line to call the new handler in the following line to register another handler to update the Stardust library theme:
+This code registers an event handler to update the component's theme to match the theme of the current Microsoft Teams client when this page is loaded as a tab. Update this line to call the new handler in the following line to register another handler to update the component theme:
 
-```ts
-microsoftTeams.registerOnThemeChangeHandler(this.updateStardustTheme);
+```typescript
+microsoftTeams.registerOnThemeChangeHandler(this.updateComponentTheme);
 ```
 
 With the theme management and state initialized, we can now implement the user interface.
@@ -293,7 +233,7 @@ public render() {
 
 The next step is to add some interactivity to the tab. Add the following methods to the `LearnPersonalTab` class. These methods handle updating the state when specific events happen on the form that you'll add to the component.
 
-```ts
+```typescript
 private handleOnChanged = (event): void => {
   this.setState(Object.assign({}, this.state, { newTodoValue: event.target.value }));
 }
@@ -351,12 +291,12 @@ Select the **Manifest editor** tab in App Studio, and then select **Import an ex
 
 Edit the app by selecting its tile, or use the menu in the upper-right corner for more options and select **Edit**.
 
-On the **App details** page, change the **Long name** of the app to **Learn Microsoft Teams Tabs**.
+On the **App details** page, change the **Full name** of the app to **Learn Microsoft Teams Tabs**.
 
 On the **App details** page, scroll down to the **Descriptions** section and enter the following values:
 
 - **Short description**: My first custom Teams app
-- **Long description**: *enter a long description*
+- **Full description**: *enter a long description*
 
 ![Screenshot of app details App Studio](../media/03-yo-teams-15.png)
 

@@ -17,7 +17,7 @@ You'll use Node.js to create custom Microsoft Teams tabs in this module. The exe
 - NPM installed with Node.js: version 6\* or higher
 - [Gulp](https://gulpjs.com/): version 4\* or higher
 - [Yeoman](https://yeoman.io/): version 3\* or higher
-- [Yeoman generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams): version 2\* or higher
+- [Yeoman generator for Microsoft Teams](https://github.com/pnp/generator-teams): version 2.12\* or higher
 - [Visual Studio Code](https://code.visualstudio.com)
 
 *You must have the minimum versions of these prerequisites installed on your workstation.
@@ -61,7 +61,7 @@ Locate the section **Implicit grant**, and select both **Access tokens** and **I
 
 ![Screenshot selecting ID and access tokens to be returned under the implicit flow](../media/aad-portal-newapp-implicit.png)
 
-Save the settings by selecting **Save** in the upper-right corner.
+Save the settings by selecting **Save** in the toolbar at the top of the page.
 
 ### Grant Azure AD application permissions to Microsoft Graph
 
@@ -111,6 +111,9 @@ Yeoman starts and asks you a series of questions. Answer the questions with the 
 - **Would you like to use Azure Applications Insights for telemetry?**: No
 - **Default Tab name (max 16 characters)**: LearnAuthTab
 - **Do you want to create a configurable or static tab?**: Configurable
+- **What scopes do you intend to use for your tab?**: In a Team
+- **Do you want this tab to be available in SharePoint Online?**: Yes
+- **How do you want your tab to be available in SharePoint?**: As a full-page application, as a web part
 
 After you answer the generator's questions, the generator creates the scaffolding for the project. The generator then runs `npm install` that downloads all the dependencies required by the project.
 
@@ -121,133 +124,71 @@ npm install @microsoft/microsoft-graph-client
 npm install @types/microsoft-graph --save-dev
 ```
 
-## Update the project to use the Stardust UI library
-
-Microsoft Teams recommends that your custom apps use React and the themable React component library [Stardust UI React](https://stardust-ui.github.io/react/). To use Stardust in the Microsoft Teams app, we need to make some changes to the project.
-
-> [!IMPORTANT]
-> At the time of publication of this module, there are plans to update the Yeoman generator for Microsoft Teams to include Stardust in the default project. At the time of publication of this module, the default project uses the older Microsoft Teams control library that Stardust is replacing.
->
-> The steps in this section might not be necessary because the Yeoman generator for Microsoft Teams might have been updated. Review each of the instructions in this section and compare the results with your project to determine if they're necessary.
-
-The first step is to uninstall the existing control library and install the Stardust library. Run the following two commands in the command line from the root folder of the project:
-
-```shell
-npm uninstall msteams-ui-components-react
-npm install @stardust-ui/react
-```
+## Update the tab to use the current Theme
 
 Locate and open the file that contains the React component used in the project: ./src/app/scripts/learnAuthTab/LearnAuthTab.tsx.
 
-Update the `import` statements in this file to replace the component library used. Find the following `import` statement that imports the legacy Microsoft Teams UI Components - React library:
+Update the `import` statements in this file to include the components used in the configuration tab. Find the following `import` statement that imports the Fluent UI - React library:
 
-```ts
-import {
-  PrimaryButton,
-  TeamsThemeContext,
-  Panel,
-  PanelBody,
-  PanelHeader,
-  PanelFooter,
-  Surface,
-  getContext
-} from "msteams-ui-components-react";
+```typescript
+import { Provider, Flex, Text, Button, Header } from "@fluentui/react";
 ```
 
 Replace the previous statement with the following import statement:
 
-```ts
-import {
-  Flex, Provider, themes, ThemePrepared,
-  Header,
-  Button, Icon, List
-} from "@stardust-ui/react";
-```
-
-The default project contains additional user interface style code that used the previous control library. This code is no longer necessary.
-
-Locate the following code in the `componentWillMount()` method in the `LearnAuthTab` class and delete it:
-
-```ts
-this.setState({
-  fontSize: this.pageFontSize()
-});
-```
-
-Locate the following code in the `render()` method in the `LearnAuthTab` class and delete it:
-
-```ts
-const context = getContext({
-  baseFontSize: this.state.fontSize,
-  style: this.state.theme
-});
-const { rem, font } = context;
-const { sizes, weights } = font;
-const styles = {
-  header: { ...sizes.title, ...weights.semibold },
-  section: { ...sizes.base, marginTop: rem(1.4), marginBottom: rem(1.4) },
-  footer: { ...sizes.xsmall }
-};
-```
-
-Locate the `return ()` statement in the `render()` method in the `LearnAuthTab` class and delete the contents. This code used the UI library that you replaced with Stardust. At this point, the `render()` method should look like the following code:
-
-```ts
-public render() {
-  return (
-  );
-}
+```typescript
+import { Provider, Flex, Text, Button, Header } from "@fluentui/react";
 ```
 
 Update the state of the component to contain a property for the current Stardust theme. Locate the `ILearnAuthTabState` interface in the LearnAuthTab.tsx file, and add the following member to it:
 
-```ts
+```typescript
 teamsTheme: ThemePrepared;
 ```
 
 Add the following method to the `LearnAuthTab` class that updates the component state to the Stardust theme that matches the currently selected Microsoft Teams client theme:
 
-```ts
-private updateStardustTheme = (teamsTheme: string = "default"): void => {
-  let stardustTheme: ThemePrepared;
+```typescript
+private updateComponentTheme = (teamsTheme: string = "default"): void => {
+  let componentTheme: ThemePrepared;
 
   switch (teamsTheme) {
     case "default":
-      stardustTheme = themes.teams;
+      componentTheme = themes.teams;
       break;
     case "dark":
-      stardustTheme = themes.teamsDark;
+      componentTheme = themes.teamsDark;
       break;
     case "contrast":
-      stardustTheme = themes.teamsHighContrast;
+      componentTheme = themes.teamsHighContrast;
       break;
     default:
-      stardustTheme = themes.teams;
+      componentTheme = themes.teams;
       break;
   }
   // update the state
   this.setState(Object.assign({}, this.state, {
-    teamsTheme: stardustTheme
+    teamsTheme: componentTheme
   }));
 }
 ```
 
 Initialize the current theme and state of the component. Locate the line `this.updateTheme(this.getQueryVariable("theme"));` and replace it with the following code in the `componentWillMount()` method:
 
-```ts
-this.updateStardustTheme(this.getQueryVariable("theme"));
+```typescript
+this.updateComponentTheme(this.getQueryVariable("theme"));
 ```
 
 Within the `componentWillMount()` method, locate the following line:
 
-```ts
+```typescript
 microsoftTeams.registerOnThemeChangeHandler(this.updateTheme);
 ```
 
-This code registers an event handler to update the component's theme to match the theme of the current Microsoft Teams client when this page is loaded as a tab. Update this line to call the new handler in the following line to register another handler to update the Stardust library theme:
+This code registers an event handler to update the component's theme to match the theme of the current Microsoft Teams client when this page is loaded as a tab. Update this line to call the new handler in the following line to register another handler to update the component theme:
 
-```ts
-microsoftTeams.registerOnThemeChangeHandler(this.updateStardustTheme);
+```typescript
+microsoftTeams.registerOnThemeChangeHandler(this.updateComponentTheme);
 ```
 
 With the theme management and state initialized, we can now implement the user interface.
@@ -258,21 +199,21 @@ Now you can implement the user interface for the tab. The simple tab has a basic
 
 Add the following `import` statements after the existing `import` statements in the LearnAuthTab.tsx file. These statements include the Microsoft Graph JavaScript SDK and associated TypeScript type declarations into the file:
 
-```ts
+```typescript
 import * as MicrosoftGraphClient from "@microsoft/microsoft-graph-client";
 import * as MicrosoftGraph from "microsoft-graph";
 ```
 
 Locate the `ILearnAuthTabState` interface, and add the following members to it. These properties are used to store the OAuth access token used to authenticate with and the email messages returned from Microsoft Graph.
 
-```ts
+```typescript
 accessToken: string;
 messages: MicrosoftGraph.Message[];
 ```
 
 Add the following code to the top of the `LearnAuthTab` class. This action creates a new class-scoped member of the Microsoft Graph client and initializes the state of the component.
 
-```ts
+```typescript
 private msGraphClient: MicrosoftGraphClient.Client;
 
 constructor(props: ILearnAuthTabProps, state: ILearnAuthTabState) {
@@ -314,7 +255,7 @@ public render() {
 
 Add the `onclick` event handler for the button to the `LearnAuthTab` class.
 
-```ts
+```typescript
 private handleGetMyMessagesOnClick = async (event): Promise<void> => {
   await this.getMessages();
 }
@@ -326,7 +267,7 @@ At this point, the tab is ready to add the logic necessary to request the email 
 
 Start by adding the following code to the end of `componentWillMount()` to initialize the Microsoft Graph client:
 
-```ts
+```typescript
 // init the graph client
 this.msGraphClient = MicrosoftGraphClient.Client.init({
   authProvider: async (done) => {
@@ -343,7 +284,7 @@ this.msGraphClient = MicrosoftGraphClient.Client.init({
 
 Next, add the following method to the `LearnAuthTab` class:
 
-```ts
+```typescript
 private async getMessages(promptConsent: boolean = false): Promise<void> {
   if (promptConsent || this.state.accessToken === "") {
     await this.signin(promptConsent);
@@ -372,7 +313,7 @@ The `getMessages()` method first checks if the component has an access token. If
 
 Add the following code to implement the `signin()` method:
 
-```ts
+```typescript
 private async signin(promptConsent: boolean = false): Promise<void> {
   const token = await this.getAccessToken(promptConsent);
 
@@ -386,7 +327,7 @@ private async signin(promptConsent: boolean = false): Promise<void> {
 
 This method calls the `getAccessToken()` method that uses the Microsoft Teams JavaScript SDK to initiate the authentication process. It opens a pop-up window that loads the **auth-start.html** page to start the authentication process with Azure AD. Ultimately, the authentication process ends in the pop-up window and results in either a successful or failed authentication process. In either case, the associated callback handlers are registered in the `authenticate()` method in the following code:
 
-```ts
+```typescript
 private async getAccessToken(promptConsent: boolean = false): Promise<string> {
   return new Promise<string>((resolve, reject) => {
     microsoftTeams.authentication.authenticate({
@@ -533,11 +474,13 @@ Copy the ngrok URL displayed in the console. Go back to Azure AD, and add or upd
 
 In the browser, go to [Microsoft Teams](https://teams.microsoft.com), and sign in with the credentials of a Work and School account.
 
-Using the app bar on the left, select the **Mode added apps** button. Then select **Browse all apps** > **Upload for me or my teams**.
+Using the app bar on the left, select the **More added apps** button. Then select **More apps**.
+
+On the **Browse available apps and services** page, select **Upload a custom app** > **Upload for me or my teams**.
 
 In the file dialog box that appears, select the Microsoft Teams package in your project. This app package is a zip file that can be found in the project's ./package folder.
 
-After the package is uploaded, Microsoft Teams displays a summary of the app. Select the **Add** button to install the app. Select a team to add the channel to, and select **Save** on the configuration page.
+After the package is uploaded, Microsoft Teams displays a summary of the app. Select the **Add to a team** button to install the app. Select a team to add the channel to, and select **Save** on the configuration page.
 
 Select the app to go to the new tab.
 
