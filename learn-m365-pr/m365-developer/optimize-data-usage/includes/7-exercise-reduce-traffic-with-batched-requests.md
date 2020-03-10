@@ -2,7 +2,7 @@ In this exercise, you'll use the Graph Explorer to create and issue a single req
 
 ## Sign in to the Microsoft Graph Explorer
 
-The tool Graph Explorer enables developers to create and test queries using the Microsoft Graph REST API. Previously in this module, you used the Graph Explorer as an anonymous user and executed queries using the sample data collection.
+The Graph Explorer enables developers to create and test queries using the Microsoft Graph REST API. Previously in this module, you used the Graph Explorer as an anonymous user and executed queries using the sample data collection.
 
 In this example, you'll sign in to Microsoft Graph with a real user.
 
@@ -69,7 +69,7 @@ Batch requests can also include both POST and GET requests.
 
 In this example, you'll submit a request that creates a new folder in the current user's OneDrive [for Business] and then requests the newly created folder. If the first request failed, the second request should come back empty as well.
 
-Enter the following JSON to the **Request Body** input box. This request will issue three requests:
+Enter the following JSON to the **Request Body** input box. This request will issue two requests:
 
 ```json
 {

@@ -3,7 +3,7 @@ uid: learn-m365.optimize-data-usage.6-reduce-traffic-with-batched-requests
 metadata:
   title: Reduce traffic with batched requests
   description: In this unit, you'll learn how to optimize applications that have complex or numerous interactions with Microsoft Graph.
-  ms.date: 10/01/2019
+  ms.date: 3/10/2020
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
