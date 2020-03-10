@@ -1,9 +1,9 @@
-The Microsoft identity platform implements the OAuth 2.0 authorization protocol. This protocol is a method that a third-party app can access web-hosted resources on behalf of a user. The web-hosted resources can define a set of permissions that can be used to implement functionality in smaller chucks.
+The Microsoft identity platform implements the OAuth 2.0 authorization protocol. This protocol is a method that a third-party app can use to access web-hosted resources on behalf of a user. The web-hosted resources can define a set of permissions that can be used to implement functionality in smaller chucks.
 
 In this unit, you’ll learn about the different types of permissions supported by the Microsoft identity platform and the consent experience that users and admins must go through to grant permission requests to apps.
 
 > [!NOTE]
-> This exercise utilizes two different accounts in the same organization. One of the accounts, **admin@{org}.onmicrosoft.com**, is used to perform management tasks in the directory such as creating the app & assigned the global administrator role. The other account, **adelev@{org}.onmicrosoft.com**, is used to demonstrate a typical user without administrative rights and is not a member of the global administrator role.
+> This exercise utilizes two different accounts in the same organization. One of the accounts, **admin@{org}.onmicrosoft.com**, is assigned the global administrator role and is used to perform management tasks in the directory such as creating the app. The other account, **adelev@{org}.onmicrosoft.com**, is not a member of the global administrator role and is used to demonstrate a typical user without administrative rights.
 
 ## Create a Node.js web application
 
@@ -50,7 +50,7 @@ console.log('Press CTRL+C to stop the web server...');
 
 ## Create a web page for the user to sign in and display details
 
-Create a new folder **web** in the current folder and add a new file **index.html** told the folder. Add the following code to the **index.html** file:
+Create a new folder **web** in the current folder and add a new file **index.html** to the folder. Add the following code to the **index.html** file:
 
 ```html
 <!DOCTYPE html>
@@ -66,6 +66,8 @@ Create a new folder **web** in the current folder and add a new file **index.htm
     <div>
       <p id="WelcomeMessage">Microsoft Authentication Library For Javascript (MSAL.js) Exercise</p>
       <button id="SignIn" onclick="signIn()">Sign In</button>
+      <h2>Latest messages</h2>
+      <div id="messages"></div>      
     </div>
     <div>
       <pre id="json"></pre>
@@ -234,7 +236,7 @@ function authRedirectCallBack(error, response) {
 }
 ```
 
-Add the following function immediately before the `// TODO: add FUNCTIONS before this line` comment:
+Add the following function immediately before the `// TODO: add CODE before this line` comment:
 
 ```js
 msalApplication.handleRedirectCallback(authRedirectCallBack);
@@ -319,6 +321,8 @@ On the **Identity Exercise 01** page, select the **1 web, 0 public client** link
 
 Locate the section **Implicit grant** and select both **Access tokens** and **ID tokens**. This tells Azure AD to return these tokens the authenticated user if requested.
 
+Select **Save** in the top menu to save your changes.
+
 ### Add permissions to the Azure AD app
 
 Select **API Permissions** from the left-hand navigation, and then select **Add a permission**:
@@ -329,7 +333,7 @@ On the **Request API Permissions** page, select **Microsoft APIs**, **Microsoft 
 
   ![Screenshot of selecting Microsoft Graph Delegated permissions](../media/03-aad-portal-newapp-permissions-02.png)
 
-In the search box in the **Select permissions** section, enter **mail.r**, select the permission **Mail.Read** permission, and then select **Add permissions**.
+In the search box in the **Select permissions** section, enter **Mail.R**, select the permission **Mail.Read** permission, and then select **Add permissions**.
 
   ![Screenshot of selecting Microsoft Graph Delegated permissions](../media/03-aad-portal-newapp-permissions-03.png)
 
@@ -351,7 +355,7 @@ To test the web page, first start the local web server. In the command prompt, e
 node server.js
 ```
 
-Next, open a browser and navigate to http://localhost:3007. The page initially contains a default welcome message and sign in button.
+Next, open a browser where you are not signed-in to Office 365 and navigate to http://localhost:3007. The page initially contains a default welcome message and sign in button.
 
 ![Screenshot of the default web page for an anonymous user](../media/03-test-01.png)
 

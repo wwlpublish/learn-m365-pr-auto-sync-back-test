@@ -45,6 +45,8 @@ On the **Identity Exercise 02** page, select the **1 web, 0 public client** link
 
 Locate the section **Implicit grant** and select both **Access tokens** and **ID tokens**. This tells Azure AD to return these tokens the authenticated user if requested.
 
+Select **Save** in the top menu to save your changes.
+
 #### Add permissions to the Azure AD app
 
 Select **API Permissions** from the left-hand navigation, and then select **Add a permission**:
@@ -55,7 +57,7 @@ On the **Request API Permissions** page, select **Microsoft APIs**, **Microsoft 
 
   ![Screenshot of selecting Microsoft Graph Delegated permissions](../media/05-aad-portal-newapp-permissions-02.png)
 
-In the search box in the **Select permissions** section, enter **mail.r**, select the permission **Mail.Read** permission, and then select **Add permissions**.
+In the search box in the **Select permissions** section, enter **Mail.R**, select the permission **Mail.Read** permission, and then select **Add permissions**.
 
   ![Screenshot of selecting Microsoft Graph Delegated permissions](../media/05-aad-portal-newapp-permissions-03.png)
 
@@ -122,7 +124,7 @@ var graphConfig = {
 };
 ```
 
-Now change the Microsoft Graph requests to request calendar items instead of email messages. Search for all instances of `/messages?` in the SPA and replace them with `/events?`. There should be 4 of them. The rest of the request can remain as is because both email messages and calendar events have a *subject* property.
+Now change the Microsoft Graph requests to request calendar items instead of email messages. Search for all instances of `/messages?` in the SPA and replace them with `/events?`. There should be 3 of them. The rest of the request can remain as is because both email messages and calendar events have a *subject* property.
 
 ### Test the web application
 
