@@ -3,12 +3,11 @@ uid: learn-m365.embedded-web-experiences.3-exercise-create-custom-teams-personal
 metadata:
   title: Exercise - Create a custom Microsoft Teams personal tab
   description: In this exercise, you'll create a new Microsoft Teams personal tab by using the Microsoft Teams Yeoman generator, Visual Studio Code, and App Studio.
-  ms.date: 10/01/2019
+  ms.date: 3/10/2020
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-  ROBOTS: NOINDEX
 title: Exercise - Create a custom Microsoft Teams personal tab
 durationInMinutes: 15
 content: >-
@@ -32,9 +31,9 @@ quiz:
     - content: "Webpages loaded in a tab must be loaded from an HTTPS secured endpoint."
       isCorrect: false
       explanation: "This is true. The content page loaded in a tab must be served from an HTTPS source."
-    - content: "Webpages loaded in a tab must support loading in an iframe."
+    - content: "Webpages loaded in a tab must support loading in an Iframe."
       isCorrect: false
-      explanation: "This is true. The content page loaded in a tab must allow itself to be loaded within an <iframe>."
+      explanation: "This is true. The content page loaded in a tab must allow itself to be loaded within an Iframe."
     - content: "All content pages loaded in tabs must implement their interface with a web framework, such as React, Angular, or Vue.js."
       isCorrect: true
       explanation: "Correct! This isn't a requirement for a content page."
