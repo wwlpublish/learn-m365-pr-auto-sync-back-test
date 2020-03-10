@@ -12,7 +12,7 @@ After creating the Azure AD app, the code in your web app must obtain an access 
 
 ### Create subscription
 
-Next, create a change notification subscription by submitting an HTTP POST request to the subscriptions endpoint: **https://graph.microsoft.com/v1.0/subscriptions**. The payload of this request will contain the specifics of the subscription (*covered later in this*).
+Next, create a change notification subscription by submitting an HTTP POST request to the subscriptions endpoint: **https://graph.microsoft.com/v1.0/subscriptions**. The payload of this request will contain the specifics of the subscription (*covered later in this unit*).
 
 ### Listen and respond to change notification subscription requests
 
