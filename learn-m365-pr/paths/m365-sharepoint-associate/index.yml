@@ -1,0 +1,32 @@
+### YamlMime:LearningPath
+uid: learn-m365.sharepoint-associate
+metadata:
+  title: Extend Microsoft SharePoint – Associate
+  description: Microsoft SharePoint is a customizable platform that developers can extend with custom components. The SharePoint Framework is the recommended development model to extend the modern SharePoint experience. In this learning path, you'll learn how to customize and extend SharePoint using the SharePoint Framework using web parts and extensions.
+  ms.date: 3/10/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Extend Microsoft SharePoint – Associate
+summary: Microsoft SharePoint is a customizable platform that developers can extend with custom components. The SharePoint Framework is the recommended development model to extend the modern SharePoint experience. In this learning path, you'll learn how to customize and extend SharePoint using the SharePoint Framework using web parts and extensions.
+prerequisites: None
+iconUrl: /learn/achievements/sharepoint-associate.svg
+levels:
+- intermediate
+roles:
+- developer
+products:
+- m365
+- office-365
+modules:
+- learn-m365.sharepoint-spfx-get-started
+- learn-m365.sharepoint-spfx-web-parts
+- learn-m365.sharepoint-spfx-web-part-property-pane
+- learn-m365.sharepoint-spfx-spcontent
+- learn-m365.sharepoint-spfx-extensions
+- learn-m365.sharepoint-spfx-graph-3rd-party-apis
+- learn-m365.sharepoint-spfx-deployment
+- learn-m365.sharepoint-spfx-teams-dev
+trophy:
+  uid: learn-m365.sharepoint-associate.trophy
