@@ -40,8 +40,8 @@ Update-Package bootstrap
 Install-Package Microsoft.Owin.Host.SystemWeb
 Install-Package Microsoft.Owin.Security.OpenIdConnect
 Install-Package Microsoft.Owin.Security.Cookies
-Install-Package Microsoft.Identity.Client -Version 4.7.1
-Install-Package Microsoft.Graph -Version 1.20.0
+Install-Package Microsoft.Identity.Client -Version 4.9.0
+Install-Package Microsoft.Graph -Version 1.21.0
 ```
 
 ## Design the app
@@ -272,7 +272,9 @@ Select **Register**. On the **ASP.NET Graph Tutorial** page, copy the value of t
 
 ![A screenshot of the application ID of the new app registration](../media/03-aad-application-id.png)
 
-Select **Authentication** under **Manage**. Locate the **Implicit grant** section and enable **ID tokens**. Select **Save**.
+Select **Authentication** under **Manage**. Locate the **Implicit grant** section and enable **ID tokens**.
+
+Select **Save** in the top menu to save your changes.
 
 ![A screenshot of the Implicit grant section](../media/03-aad-implicit-grant.png)
 
