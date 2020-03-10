@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.sharepoint-spfx-teams-dev.3-exercise-deploy
+metadata:
+  title: Exercise - Deploy SharePoint Framework solutions to Microsoft Teams
+  description: In this exercise, you'll create a SharePoint Framework web part solution that will work in both SharePoint Online and as a tab in Microsoft Teams.
+  ms.date: 3/10/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Deploy SharePoint Framework solutions to Microsoft Teams
+durationInMinutes: 13
+content: |
+  [!include[](includes/3-exercise-deploy.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "How do you configure a SharePoint Framework client-side web part to act as a tab in Microsoft Teams?"
+    choices:
+    - content: "Add `MSTeamsTab` to the `supportedHosts` property array in the web part's **manifest.json** file."
+      isCorrect: false
+      explanation: "The value `MSTeamsTab` isn't valid. You should use the value `TeamsTab`."
+    - content: "Set the `isTeamsTab` property to `true` in the web part's **manifest.json** file."
+      isCorrect: false
+      explanation: "The `isTeamsTab` isn't a valid property."
+    - content: "Add `TeamsTab` to the `supportedHosts` property array in the web part's **manifest.json** file."
+      isCorrect: true
+      explanation: "Correct!"
+  - content: "Where do you deploy the SharePoint Framework package to for a client-side web part to be used as a Microsoft Teams tab?"
+    choices:
+    - content: "Deploy the package to both the SharePoint Online tenant's App Catalog and the Microsoft Teams tenant's App Catalog sites."
+      isCorrect: false
+      explanation: "The App Catalog only exists in SharPoint, not in Microsoft Teams."
+    - content: "Deploy the package the SharePoint Online tenant's App Catalog site."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "After deploying the SharePoint Framework package to the SharePoint Online App Catalog, upload the package to the Microsoft Teams using the **Upload a custom app** menu item within a team."
+      isCorrect: false
+      explanation: "The SharePoint Framework package doesn't need to be uploaded to Microsoft Teams as a custom app."
