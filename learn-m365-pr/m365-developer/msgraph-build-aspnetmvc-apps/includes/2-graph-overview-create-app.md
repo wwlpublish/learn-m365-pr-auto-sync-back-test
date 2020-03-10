@@ -40,9 +40,9 @@ Microsoft Graph simplifies token acquisition because with all of these different
 
 Microsoft Graph proxies the different services together so we don't need to obtain individual tokens for each service. Microsoft Graph, through one endpoint, will proxy calls to each service's endpoint.
 
-This also is going to eliminate it or graph is also going to eliminate the need for traditional discovery service. Prior to Microsoft Graph, developers had to use a discovery service to ask the different endpoints with Microsoft 365 for the user-specific endpoints for each service, such as OneDrive or Outlook.
+This eliminates the need for traditional discovery service. Prior to Microsoft Graph, developers had to use a discovery service to ask the different endpoints with Microsoft 365 for the user-specific endpoints for each service, such as OneDrive or Outlook.
 
-One thing to keep in mind is that because it is a proxy, you may see new functionality and features show up in these downstream, endpoints before they appear in Microsoft Graph. This is because Microsoft Graph is a proxy and it can't expose functionality that doesn't exist downstream in one of the services that is proxying.
+One thing to keep in mind is that because it is a proxy, you may see new functionality and features show up in these downstream endpoints before they appear in Microsoft Graph. This is because Microsoft Graph is a proxy and it can't expose functionality that doesn't exist downstream in one of the services that is proxying.
 
 ### Authentication and the consent framework
 
