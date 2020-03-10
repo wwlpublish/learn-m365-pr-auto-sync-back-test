@@ -19,7 +19,7 @@ On the **App registrations** page, select the **Graph Console App**.
 
 Select **API Permissions** in the left-hand navigation panel.
 
-![Screenshot of the API Permissions navigation item](../media/aad-portal-newapp-permissions-01.png)
+![Screenshot of the API Permissions navigation item](../media/aad-portal-newapp-permissions-01a.png)
 
 Select the **Add a permission** button.
 
@@ -35,7 +35,7 @@ Enter **Sites.R** in the **Select permissions** search box and select the **Site
 
 ![Screenshot of the Files.ReadWrite permission in the Request API permissions panel](../media/aad-portal-newapp-permissions-07-04.png)
 
-At the bottom of the **API Permissions** panel, select the button **Grant admin consent for [tenant]**, followed by the **Yes** button to grant all users in your organization this permission.
+In the **Configured Permissions** panel, select the button **Grant admin consent for [tenant]**, and then select the **Yes** button in the consent dialog to grant all users in your organization this permission.
 
 ## Update .NET Core console application
 
