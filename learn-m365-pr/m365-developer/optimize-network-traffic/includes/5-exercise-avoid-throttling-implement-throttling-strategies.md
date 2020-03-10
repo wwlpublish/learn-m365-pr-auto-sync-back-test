@@ -13,7 +13,7 @@ In a previous exercise, you created a .NET console application that triggered a 
 
 ### Add helper class to deserialize the message object returned in a REST request
 
-It is easier to work with strongly typed objects instead of untyped JSON responses from a REST request. Create a helper class to simplify working with the messages objects returned from the REST request.
+It's easier to work with strongly typed objects instead of untyped JSON responses from a REST request. Create a helper class to simplify working with the messages objects returned from the REST request.
 
 Create a new file, **Messages.cs** in the root of the project, and add the following code to it:
 
@@ -134,7 +134,7 @@ This code will do the following:
 > [!TIP]
 > In cases where the response does not include a `Retry-After` header, it is recommended to consider implementing an exponential back-off default delay. In this code, the application will initially pause for two seconds before retrying the request. Future requests will double the delay if Microsoft Graph continues to throttle the request.
 >
-> Real-world applications should have an upper limit on how long they will delay so to avoid an unreasonable delay so users are not left with an unresponsive experience.
+> Real-world applications should have an upper limit on how long they will delay so to avoid a situation where users are left with an unresponsive experience.
 
 The resulting method should look like the following:
 
@@ -378,4 +378,4 @@ The application will do the same thing as the **HttpClient** version of the appl
 
 ### Summary
 
-In this exercise, you'll use the Azure AD application and .NET console application you previously created and modify them to demonstrate two strategies to account for throttling in your application. One strategy used the **HttpClient** object but required you to implement the detect, delay, and retry logic yourself when requests were throttled. The other strategy used the Microsoft Graph SDK's included support for handling this same scenario.
+In this exercise, you modified the Azure AD application and .NET console application you previously created to demonstrate two strategies to account for throttling in your application. One strategy used the **HttpClient** object but required you to implement the detect, delay, and retry logic yourself when requests were throttled. The other strategy used the Microsoft Graph SDK's included support for handling this same scenario.

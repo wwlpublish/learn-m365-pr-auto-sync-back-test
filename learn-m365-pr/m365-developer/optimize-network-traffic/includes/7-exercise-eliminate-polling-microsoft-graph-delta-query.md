@@ -20,19 +20,17 @@ Select **API Permissions** in the left-hand navigation panel.
 
 Select the **Add a permission** button.
 
-![Screenshot of the Add permission button](../media/aad-portal-newapp-permissions-02.png)
-
 In the **Request API permissions** panel that appears, select **Microsoft Graph** from the **Microsoft APIs** tab.
 
 ![Screenshot of Microsoft Graph in the Request API permissions panel](../media/aad-portal-newapp-permissions-03.png)
 
 When prompted for the type of permission, select **Delegated permissions** and search for the permission **User.Read.All**, select it and then select the **Add permission** button at the bottom of the panel.
 
-In the **Configured Permissions** panel, select the button **Grant admin consent for [tenant]**, and then select the **Accept** button in the consent dialog popup to grant all users in your organization this permission.
+In the **Configured Permissions** panel, select the button **Grant admin consent for [tenant]**, and then select the **Yes** button in the consent dialog to grant all users in your organization this permission.
 
 ## Update the console application to use delta query
 
-Now you will update the application to retrieve and then display all users in the tenant with Microsoft Graph. After displaying the list of users, the application will sleep for ten seconds and repeat the same query, but instead only display the users who have been added or updated.
+Now you'll update the application to retrieve and then display all users in the tenant with Microsoft Graph. After displaying the list of users, the application will sleep for ten seconds and repeat the same query, but instead only display the users who have been added or updated.
 
 First, add the following two members to the class, immediately before the `Main` method:
 
