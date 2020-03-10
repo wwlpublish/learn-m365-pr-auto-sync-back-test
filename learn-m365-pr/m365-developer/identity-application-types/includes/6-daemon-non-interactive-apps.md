@@ -87,7 +87,7 @@ Once the confidential client is created, use the `AcquireTokenForClient()` metho
 
 ```cs
 List<string> scopes = new List<string>();
-scopes.Add("REPLACE_WITH_APP_ID/.default");
+scopes.Add("https://graph.microsoft.com/.default");
 
 result = await cca.AcquireTokenForClient(_scopes).ExecuteAsync();
 return result.AccessToken;
@@ -95,7 +95,7 @@ return result.AccessToken;
 
 Note the scopes specified when requesting an access token. In other scenarios, the code specified the exact permission (also known as scopes) the application needed.
 
-The scope to request for a client credential flow is the app ID followed by `/.default`. This tells Azure AD to use the application level permissions declared statically during the application registration.
+The scope to request for a client credential flow is the resource you are accessing followed by `/.default`. When the resource is Microsoft Graph the scope would be `https://graph.microsoft.com/.default`. This tells Azure AD to use the application level permissions declared statically during the application registration.
 
 ## Calling APIs (MS Graph)
 
