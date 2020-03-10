@@ -20,7 +20,7 @@ Access and control are important as well as that they have the level of sophisti
 
 It might be OK if somebody is working on sensitive financial information when they are on the company network at the office. However, it might not be OK for them to access that information from an internet cafe on the other side of the world where the organization is unaware of the user's environment.
 
-The idea that your identity provider can help you provides the right control plane for your application.
+The idea is that your identity provider can help you provide the right control plane for your application.
 
 ### Identity: where users, resources and policies intersect
 
@@ -28,7 +28,7 @@ The identity provider is where the users, resources, and policies intersect with
 
 ![Screenshot identity as the intersection of users, resources, and policies](../media/02-slide-03.png)
 
-To a developer, you want your application to be accessible to the highest number of users who should have access to it. Independent software vendors (ISVs) are especially interested in the greatest reach in order to grow their businesses.
+As a developer, you want your application to be accessible to the highest number of users who should have access to it. Independent software vendors (ISVs) are especially interested in the greatest reach in order to grow their businesses.
 
 You also need access to those resources the users need access to including mail, information about me. Access to these resources is important in building valuable solutions for your customers.
 
@@ -36,7 +36,7 @@ A problem you need to address is how will all these users access their resources
 
 How do you make sure that your application follows the right policies? Each enterprise will have a different point of view on what the policy should be
 
-This is where identity platform is here to help. The goal of Microsoft identity is to make it easy for you, to address the largest number of users, and the most valuable amount of information in a secure way that satisfies the policies of those enterprises.
+This is where identity platform can help. The goal of Microsoft identity is to make it easy for you to address the largest number of users and the most valuable amount of information in a secure way that satisfies the policies of those enterprises.
 
 Let's look at how Microsoft identity approaches users, resources, and policies.
 
@@ -74,7 +74,7 @@ The first type of token is an ID token that is made available via Microsoft iden
 
 ### What is OpenID Connect
 
-OpenID Connect extends the OAuth 2.0 authorization protocol to use as an authentication protocol, OpenID Connect enables you to implement single sign-on using OAuth in your applications. It introduces the concept of an ID token.
+OpenID Connect extends the OAuth 2.0 authorization protocol to use as an authentication protocol, so that you can implement single sign-on using OAuth in your applications. It also introduces the concept of an ID token.
 
 An ID token is a security token that allows the client to verify the identity of the user. The ID token also gets basic profile information about the user. Because OpenID Connect extends OAuth 2.0, apps can securely acquire access tokens, which can be used to access resources that are secured by an authorization server.
 
@@ -91,7 +91,7 @@ It is important for developers, whenever possible, to use a well-maintained Open
 
 When your web app needs to authenticate the user, it can direct the user to the Microsoft identity platform `/authorize` endpoint using an Open ID Connect library. ​
 
-At this point, the user is prompted to enter their credentials, enter a multi-factor, use a FIDO2 compatible device, or perhaps use a password less experience using Microsoft Authenticator or Windows Hello to complete the authentication. All of these options are handled by the platform without any additional code from the developers. The Microsoft identity platform endpoint verifies that the user has consented to the permissions indicated in the scope parameter. If the user hasn't consented to any of those permissions, the Microsoft identity platform endpoint prompts the user to consent to the required permissions. You can read more about permissions, consent, and multi-tenant apps.​
+At this point, the user is prompted to enter their credentials, enter a multi-factor, use a FIDO2 compatible device, or perhaps use a passwordless experience using Microsoft Authenticator or Windows Hello to complete the authentication. All of these options are handled by the platform without any additional code from the developers. The Microsoft identity platform endpoint verifies that the user has consented to the permissions indicated in the scope parameter. If the user hasn't consented to any of those permissions, the Microsoft identity platform endpoint prompts the user to consent to the required permissions. You can read more about permissions, consent, and multi-tenant apps.​
 
 After the user authenticates and grants consent, the Microsoft identity platform endpoint returns a response to your app at the indicated redirect URI.​
 

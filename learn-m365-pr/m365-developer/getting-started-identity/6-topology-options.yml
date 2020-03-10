@@ -3,7 +3,7 @@ uid: learn-m365.getting-started-identity.6-topology-options
 metadata:
   title: Identity topology options
   description: This unit will cover the different topology options available to developers that are supported by the Microsoft identity platform.
-  ms.date: 10/25/2019
+  ms.date: 3/10/2020
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial

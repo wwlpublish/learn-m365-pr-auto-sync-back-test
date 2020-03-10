@@ -3,7 +3,7 @@ uid: learn-m365.getting-started-identity.4-different-account-types
 metadata:
   title: Account types in Microsoft identity
   description: This unit will cover the different account types that are used within the Microsoft identity platform. You will also learn about the differences and relationships between applications and service principals.
-  ms.date: 10/25/2019
+  ms.date: 3/10/2020
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
