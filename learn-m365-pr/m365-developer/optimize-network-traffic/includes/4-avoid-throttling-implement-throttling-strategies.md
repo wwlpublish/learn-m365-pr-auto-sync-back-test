@@ -22,9 +22,9 @@ Let’s look at the first approach to addressing throttling strategies: avoiding
 
 ### Avoid requests from being throttled
 
-The best approach is to try to avoid any scenario where your application’s requests to Microsoft Graph will be throttled. To avoid throttling scenarios, you need to understand what causes requests to be throttled (*covered in more detail in the previous section*).
+The best approach is to try to avoid any scenario where your application’s requests to Microsoft Graph will be throttled. To avoid throttling scenarios, you need to understand what causes requests to be throttled. This was covered in more detail in the previous section.
 
-Requests are throttled when they put too much of a demand on the target service. Not all requests are equal such as a write operation is more expensive than a read operation. However, a complex read operation that includes numerous child collections using the `$expand` query parameter or complex `$filter` query parameters may be much more expensive than a write operation.
+Fundamentally, requests are throttled when they put too much of a demand on the target service. This happens when a high volume of requests are received over a short amount of time. However, there is no set number on how many requests can be submitted over this time. The reason is because not all requests are equal. A write operation is generally more expensive than a read operation. However, a complex read operation that includes numerous child collections using the `$expand` query parameter or complex `$filter` query parameters may be much more expensive than a write operation.
 
 ### Strategies for avoiding requests from being throttled
 

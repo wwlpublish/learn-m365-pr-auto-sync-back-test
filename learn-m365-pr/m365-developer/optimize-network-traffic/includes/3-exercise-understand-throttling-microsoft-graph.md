@@ -1,4 +1,4 @@
-In this exercise, you will create a new Azure AD web application registration using the Azure Active Directory admin center, a .NET Core console application and query Microsoft Graph. You will issue many requests in parallel to trigger your requests to be throttled. This application will allow you to see the response you will receive.
+In this exercise, you'll create a new Azure AD web application registration using the Azure Active Directory admin center, a .NET Core console application and query Microsoft Graph. You will issue many requests in parallel to trigger your requests to be throttled. This application will allow you to see the response you will receive.
 
 ## Create an Azure AD application
 
@@ -29,11 +29,15 @@ On the **Graph Console App** page, copy the value of the **Application (client) 
 
 Select **Manage > Authentication**.
 
-In the section **Redirect URIs**, locate the **Suggested Redirect URIs for public clients (mobile, desktop)** section and select the entry that begins with **msal**:
+In the **Platform configurations** section, select the **Add a platform** button. Then in the **Configure platforms** panel, select the **Mobile and desktop applications** button:
 
-![Screenshot of the Redirect URIs section](../media/aad-portal-newapp-02.png)
+![Screenshot of the Platform configurations section](../media/aad-portal-newapp-02.png)
 
-Scroll down to the **Default client type** section and set the toggle to **Yes**.
+In the **Redirect URIs** section of the **Configure Desktop + devices** panel, select the entry that ends with **nativeclient**, and then select the **Configure** button:
+
+![Screenshot of the Configure Desktop + devices panel](../media/aad-portal-newapp-02a.png)
+
+In the **Authentication** page, scroll down to the **Default client type** section and set the toggle to **Yes**.
 
 ![Screenshot of the Default client type section](../media/aad-portal-newapp-03.png)
 
@@ -49,8 +53,6 @@ Select **API Permissions** in the left-hand navigation panel.
 
 Select the **Add a permission** button.
 
-![Screenshot of the Add permission button](../media/aad-portal-newapp-permissions-02.png)
-
 In the **Request API permissions** panel that appears, select **Microsoft Graph** from the **Microsoft APIs** tab.
 
 ![Screenshot of Microsoft Graph in the Request API permissions panel](../media/aad-portal-newapp-permissions-03.png)
@@ -61,13 +63,9 @@ When prompted for the type of permission, select **Delegated permissions**.
 
 Enter **Mail.R** in the **Select permissions** search box and select the **Mail.Read** permission, followed by the **Add permission** button at the bottom of the panel.
 
-In the **Configured Permissions** panel, select the button **Grant admin consent for [tenant]**.
+In the **Configured Permissions** panel, select the button **Grant admin consent for [tenant]**, and then select **Yes** in the confirmation dialog.
 
 ![Screenshot of the Configured permissions panel](../media/aad-portal-newapp-permissions-05.png)
-
-In the consent dialog popup, select the **Accept** button to grant all users in your organization this permission.
-
-![Screenshot of the consent dialog](../media/aad-portal-newapp-permissions-06.png)
 
 > [!NOTE]
 > The option to **Grant admin consent** here in the Azure AD admin center is pre-consenting the permissions to the users in the tenant to simplify the exercise. This approach allows the console application to use the [resource owner password credential grant](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth-ropc), so the user isn't prompted to grant consent to the application that simplifies the process of obtaining an OAuth access token. You could elect to implement alternative options such as the [device code flow](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth2-device-code) to utilize dynamic consent as another option.
