@@ -43,7 +43,7 @@ console.log('Press CTRL+C to stop the web server...');
 
 ## Create a web page for the user to sign in and display details
 
-Create a new folder **web** in the current folder and add a new file **index.html** told the folder. Add the following code to the **index.html** file:
+Create a new folder **web** in the current folder and add a new file **index.html** to the folder. Add the following code to the **index.html** file:
 
 ```html
 <!DOCTYPE html>
@@ -298,6 +298,8 @@ On the **Hello World Identity** page, copy the values **Application (client) ID*
 On the **Hello World Identity** page, select the **1 web, 0 public client** link under the **Redirect URIs**.
 
 Locate the section **Implicit grant** and select both **Access tokens** and **ID tokens**. This tells Azure AD to return these tokens the authenticated user if requested.
+
+Select **Save** in the top menu to save your changes.
 
 ## Update the web page with the Azure AD application details
 

@@ -34,20 +34,19 @@ On the **Hello ASPNET Core Identity 01** page, copy the values **Application (cl
 
   ![Screenshot of the application ID of the new app registration](../media/05-aad-portal-newapp-details-01.png)
 
-On the **Hello ASPNET Core Identity 01** page, select the **Add a Redirect URI** link under the **Redirect URIs**.
+Select **Manage > Authentication** in the left-hand navigation.
 
-Locate the section **Redirect URIs** and add the following two URLs:
+On the **Authentication** page, select **Add a platform**. When the **Configure platforms** panel appears, select **Web**.
 
-- **https://localhost:3007**
-- **https://localhost:3007/signin-oidc**
+![Screenshot of the Configure platforms panel](../media/05-aad-portal-newapp-details-02.png)
 
-Locate the section **Advanced settings** and add the following **Logout URL**: **https://localhost:3007/signout-oidc**
+In the **Configure Web** panel, add **https://localhost:3007** under **Redirect URIs**, add **https://localhost:3007/signout-oidc** under **Logout URL**, select both **Access tokens** and **ID tokens** under **Implicit grant**, and select **Configure**.
 
-Locate the section **Implicit grant** and select both **Access tokens** and **ID tokens**. This tells Azure AD to return these tokens the authenticated user if requested.
+![Screenshot of the Configure Web panel](../media/05-aad-portal-newapp-details-03.png)
 
-Select **Save** when finished setting these values.
+When the **Authentication** page refreshes, select **Add URI**, add **https://localhost:3007/signin-oidc**, and select **Save** near the top of the page to save the changes. 
 
-![Screenshot of the application configuration](../media/05-aad-portal-newapp-details-02.png)
+![Screenshot of the Authentication page](../media/05-aad-portal-newapp-details-04.png)
 
 ### Create a single organization ASP.NET core web application
 
