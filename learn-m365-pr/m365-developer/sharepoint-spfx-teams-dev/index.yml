@@ -30,10 +30,10 @@ products:
   - office-sp-framework
 units:
   - learn-m365.sharepoint-spfx-teams-dev.1-introduction
-  - learn-m365.sharepoint-spfx-teams-dev.2-overview-sharepoint-teams
-  - learn-m365.sharepoint-spfx-teams-dev.3-exercise-deploy-spfx-teams
-  - learn-m365.sharepoint-spfx-teams-dev.4-sharepoint-teams-context
-  - learn-m365.sharepoint-spfx-teams-dev.5-exercise-teams-conditional-logic
+  - learn-m365.sharepoint-spfx-teams-dev.2-overview
+  - learn-m365.sharepoint-spfx-teams-dev.3-exercise-deploy
+  - learn-m365.sharepoint-spfx-teams-dev.4-context
+  - learn-m365.sharepoint-spfx-teams-dev.5-exercise-conditional-logic
   - learn-m365.sharepoint-spfx-teams-dev.6-tab-configuration
   - learn-m365.sharepoint-spfx-teams-dev.7-exercise-update-configuration-settings
   - learn-m365.sharepoint-spfx-teams-dev.8-summary

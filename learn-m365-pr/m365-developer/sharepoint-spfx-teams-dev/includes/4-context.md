@@ -1,6 +1,6 @@
 In this unit, you'll learn how to conditionally display information depending if the SharePoint Framework client-side web part is running in a SharePoint or Microsoft Teams environment.
 
-## SharePoint Framework and Microsoft Teams Context
+## SharePoint Framework and Microsoft Teams context
 
 All SharePoint components, including client-side web parts, have access to the current context. The context, available from the `this.context` object, gives your components access to details about the page the component is running on.
 

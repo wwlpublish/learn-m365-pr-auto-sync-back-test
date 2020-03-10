@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.sharepoint-spfx-teams-dev.3-exercise-deploy-spfx-teams
+uid: learn-m365.sharepoint-spfx-teams-dev.3-exercise-deploy
 metadata:
   title: Exercise - Deploy SharePoint Framework solutions to Microsoft Teams
   description: In this exercise, you'll create a SharePoint Framework web part solution that will work in both SharePoint Online and as a tab in Microsoft Teams.
@@ -11,7 +11,7 @@ metadata:
 title: Exercise - Deploy SharePoint Framework solutions to Microsoft Teams
 durationInMinutes: 13
 content: |
-  [!include[](includes/3-exercise-deploy-spfx-teams.md)]
+  [!include[](includes/3-exercise-deploy.md)]
 quiz:
   title: Test your knowledge
   questions:

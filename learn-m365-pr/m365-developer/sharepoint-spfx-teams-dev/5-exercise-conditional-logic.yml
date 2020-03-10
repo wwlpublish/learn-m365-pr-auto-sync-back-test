@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.sharepoint-spfx-teams-dev.5-exercise-teams-conditional-logic
+uid: learn-m365.sharepoint-spfx-teams-dev.5-exercise-conditional-logic
 metadata:
   title: Exercise - Add conditional logic for SharePoint or Microsoft Teams
   description: In this exercise, you'll update the SharePoint Framework web part from the previous exercise to display different information depending on whether its running within a SharePoint or Microsoft Teams context.
@@ -11,7 +11,7 @@ metadata:
 title: Exercise - Add conditional logic for SharePoint or Microsoft Teams
 durationInMinutes: 12
 content: |
-  [!include[](includes/5-exercise-teams-conditional-logic.md)]
+  [!include[](includes/5-exercise-conditional-logic.md)]
 quiz:
   title: Test your knowledge
   questions:

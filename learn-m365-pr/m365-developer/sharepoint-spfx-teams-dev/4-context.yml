@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.sharepoint-spfx-teams-dev.4-sharepoint-teams-context
+uid: learn-m365.sharepoint-spfx-teams-dev.4-context
 metadata:
   title: Create web parts for SharePoint Online and Microsoft Teams
   description: In this unit, you'll learn how to conditionally display information depending if the SharePoint Framework client-side web part is running in a SharePoint or Microsoft Teams environment.
@@ -11,4 +11,4 @@ metadata:
 title: Create web parts for SharePoint Online and Microsoft Teams
 durationInMinutes: 1
 content: |
-  [!include[](includes/4-sharepoint-teams-context.md)]
+  [!include[](includes/4-context.md)]
