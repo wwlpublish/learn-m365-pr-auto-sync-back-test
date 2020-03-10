@@ -1,4 +1,4 @@
-The Microsoft identity platform implements the OAuth 2.0 authorization protocol. This protocol is a method that a third-party app can access web-hosted resources on behalf of a user. The web-hosted resources can define a set of permissions that can be used to implement functionality in smaller chucks.
+The Microsoft identity platform implements the OAuth 2.0 authorization protocol. This protocol is a method that a third-party app can use to access web-hosted resources on behalf of a user. The web-hosted resources can define a set of permissions that can be used to implement functionality in smaller chunks.
 
 In this unit, you’ll learn about the different types of permissions supported by the Microsoft identity platform and the consent experience that users and admins must go through to grant permission requests to apps.
 
@@ -6,7 +6,7 @@ In this unit, you’ll learn about the different types of permissions supported 
 
 Microsoft identity platform supports two types of permissions: delegated permissions and application permissions.
 
-- Delegated permissions are used by apps that have a signed-in user present. These permissions are provided to the application by the user so the app can do actions on behalf of the user. This doesn't give permissions to the app, instead the user is simply allowing the app to act on behalf of the user with the user's permissions.
+- Delegated permissions are used by apps that have a signed-in user present. These permissions are provided to the application by the user so the app can perform actions on their behalf. This doesn't give permissions to the app, instead the user is simply allowing the app to act on their behalf using their permissions.
 - Application permissions, are used by apps that run without a signed-in user present.
 
 The other units in this module will explore both delegated and application permissions in depth.
@@ -41,7 +41,7 @@ GET https://login.microsoftonline.com/common/oauth2/v2.0/authorize?
 
 The scope parameter is a space-separated list of delegated permissions that the app is requesting. Each permission is indicated by appending the permission value to the resource's identifier (the Application ID URI). For example, this sample request is requesting permission to read the user's calendar and send mail as the user.
 
-After the signs in, the Microsoft identity platform endpoint checks for a matching record of user consent. If the user hasn't consented to any of the requested permissions in the past, nor has an administrator consented to these permissions on behalf of the entire organization, the Microsoft identity platform endpoint prompts the user to grant the requested permissions.
+After the user signs in, the Microsoft identity platform endpoint checks for a matching record of user consent. If the user hasn't consented to any of the requested permissions in the past, nor has an administrator consented to these permissions on behalf of the entire organization, the Microsoft identity platform endpoint prompts the user to grant the requested permissions.
 
 ![Screenshot on the user sign-in and consent experience](../media/03-test-02.png)
 
