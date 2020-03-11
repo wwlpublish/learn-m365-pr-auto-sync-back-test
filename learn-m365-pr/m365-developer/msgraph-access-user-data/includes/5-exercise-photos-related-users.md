@@ -1,4 +1,4 @@
-In this exercise, you'll update the existing Azure AD application registration using the Azure Active Directory admin center and a .NET Core console application to query Microsoft Graph for user profile photos and get the user’s manager’s profile.
+In this exercise, you'll update the existing Azure AD application registration using the Azure Active Directory admin center and a .NET Core console application to query Microsoft Graph for user profile photos and get the user's manager's profile.
 
 > [!IMPORTANT]
 > This exercise assumes you have created the Azure AD application and .NET console application from the previous unit in this module. You'll edit the existing Azure AD application and .NET console application created in that exercise in this exercise.
@@ -100,13 +100,13 @@ Open a browser and navigate to the [Azure Active Directory admin center (https:/
 
 Select **Azure Active Directory** in the left-hand navigation.
 
-  ![Screenshot of the App registrations](../media/aad-portal-home-appreg-01.png)
+  ![Screenshot of the App registrations](../media/azure-ad-portal-home-appreg-01.png)
 
 Select **Manage > Users** in the left-hand navigation.
 
 Select a user within the organization and on their profile page, copy the user's **Object ID** property:
 
-![Screenshot of a user's profile in the Azure AD portal](../media/aad-portal-userprofile-05-01.png)
+![Screenshot of a user's profile in the Azure AD portal](../media/azure-ad-portal-user-profile-05-01.png)
 
 In the **Job info** section, verify the **Manager** property is set.
 
@@ -151,4 +151,4 @@ After entering the username and password of a user, the specified user and their
 
 ## Summary
 
-In this exercise, you updated the existing Azure AD application registration using the Azure Active Directory admin center and a .NET Core console application to query Microsoft Graph for user profile photos and get the user’s manager’s profile.
+In this exercise, you updated the existing Azure AD application registration using the Azure Active Directory admin center and a .NET Core console application to query Microsoft Graph for user profile photos and get the user's manager's profile.
