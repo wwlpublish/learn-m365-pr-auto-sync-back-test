@@ -26,11 +26,11 @@ When registering the app in Azure AD, ensure the redirect URI of the app points 
 
 A sign-out URL should also be specified so the authentication libraries and/or middleware deletes any cached tokens or other data that are only needed for signed in users.
 
-![Screenshot of the application configuration](../media/05-aad-portal-newapp-details-05.png)
+![Screenshot of the application configuration](../media/05-azure-ad-portal-new-app-details-05.png)
 
 The web app will also need a client secret to sign in with Azure AD to exchange the authorization code for an access token.
 
-![Screenshot of the Certificates & Secrets page in the Azure AD admin center](../media/05-aad-portal-newapp-secret-01.png)
+![Screenshot of the Certificates & Secrets page in the Azure AD admin center](../media/05-azure-ad-portal-new-app-secret-01.png)
 
 There are three things you'll need from the Azure AD app registration:
 

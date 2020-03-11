@@ -45,11 +45,11 @@ One unique aspect to apps that use the client credentials grant flow is that the
 
 Daemon application can only request application permissions to APIs (not delegated permissions). Application permissions are defined on the API Permission page for the application registration.
 
-![Screenshot of the Mail.Read permission in the Request API permissions panel](../media/07-aad-portal-newapp-permissions-03.png)
+![Screenshot of the Mail.Read permission in the Request API permissions panel](../media/07-azure-ad-portal-new-app-permissions-03.png)
 
 Daemon applications require have a tenant admin pre-consent to the application calling the web API. This consent is provided in the same API Permission page.
 
-![Screenshot of granting admin consent to Contoso for all requested permissions](../media/07-aad-portal-newapp-permissions-04.png)
+![Screenshot of granting admin consent to Contoso for all requested permissions](../media/07-azure-ad-portal-new-app-permissions-04.png)
 
 ## MSAL .NET & code configuration
 
