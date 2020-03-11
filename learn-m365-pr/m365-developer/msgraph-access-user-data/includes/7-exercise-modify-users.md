@@ -48,7 +48,7 @@ private static async Task<Microsoft.Graph.User> CreateUserAsync(GraphServiceClie
 
 Update the `{{REPLACE_YOUR_ORG_DOMAIN}}` string with the domain of your organization. You can find this if you sign in to the Azure AD admin portal (https://aad.portal.azure.com):
 
-![Screenshot of the Azure AD admin portal home](../media/aad-portal-home-00.png)
+![Screenshot of the Azure AD admin portal home](../media/azure-ad-portal-home-00.png)
 
 The `CreateUserAsync()` method creates a user asynchronously and returns a **Task** object back to the caller. Add the following `using` statement to the top of the **Program.cs** file:
 
@@ -70,7 +70,7 @@ Open a browser and navigate to the [Azure Active Directory admin center (https:/
 
 Select **Azure Active Directory** in the left-hand navigation.
 
-  ![Screenshot of the App registrations](../media/aad-portal-home-appreg-01.png)
+  ![Screenshot of the App registrations](../media/azure-ad-portal-home-appreg-01.png)
 
 Select **Manage > App registrations** in the left-hand navigation.
 
@@ -78,19 +78,19 @@ On the **App registrations** page, select the **Graph Console App**.
 
 Select **API Permissions** in the left-hand navigation panel.
 
-![Screenshot of the API Permissions navigation item](../media/aad-portal-newapp-permissions-01.png)
+![Screenshot of the API Permissions navigation item](../media/azure-ad-portal-new-app-permissions-01.png)
 
 Select the **Add a permission** button.
 
 In the **Request API permissions** panel that appears, select **Microsoft Graph** from the **Microsoft APIs** tab.
 
-![Screenshot of Microsoft Graph in the Request API permissions panel](../media/aad-portal-newapp-permissions-03.png)
+![Screenshot of Microsoft Graph in the Request API permissions panel](../media/azure-ad-portal-new-app-permissions-03.png)
 
 When prompted for the type of permission, select **Delegated permissions**.
 
 Enter **User.R** in the **Select permissions** search box and select the **User.ReadWrite.All** permission, followed by the **Add permission** button at the bottom of the panel.
 
-![Screenshot of the User.ReadWrite.All permission in the Request API permissions panel](../media/aad-portal-newapp-permissions-07-04.png)
+![Screenshot of the User.ReadWrite.All permission in the Request API permissions panel](../media/azure-ad-portal-new-app-permissions-07-04.png)
 
 In the **Configured Permissions** panel, select the button **Grant admin consent for [tenant]**, and then select the **Yes** button in the consent dialog to grant all users in your organization this permission.
 

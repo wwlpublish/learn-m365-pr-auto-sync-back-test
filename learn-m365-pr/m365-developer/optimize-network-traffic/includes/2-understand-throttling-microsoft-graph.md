@@ -63,13 +63,13 @@ Some services have hard-coded **Retry-After** values while other services have d
 
 ## Explain common throttling scenarios
 
-Now that we have covered what throttling is, why requests can be throttled, and what it means, let’s look at some common scenarios that can cause requests to be throttled.
+Now that we've covered what throttling is, why requests can be throttled, and what it means, let’s look at some common scenarios that can cause requests to be throttled.
 
-Determining if a request will be throttled is not an exact science. You will not find reliable metrics that can be applied or assumed across all applications, endpoints, and request types. Rather, consider what goes into determining when requests should be throttled.
+Determining if a request will be throttled isn't an exact science. You won't find reliable metrics that can be applied or assumed across all applications, endpoints, and request types. Rather, consider what goes into determining when requests should be throttled.
 
-As a general rule, you can think of it like this: how expensive request is on a particular endpoint is the determining factor.
+As a general rule, you can think of it like this: how expensive a request is on a particular endpoint is the determining factor.
 
-What is used to determine how expensive a request is? That’s the part that depends on different situations: which endpoint is the request targeting, is the request a read operation or is it writing (creating, updating, or deleting) data, and how complex is the request.
+What's used to determine how expensive a request is? That's the part that depends on different situations: which endpoint is the request targeting, is the request a read operation or is it writing (creating, updating, or deleting) data, and how complex is the request.
 
 ### Example throttling scenarios
 

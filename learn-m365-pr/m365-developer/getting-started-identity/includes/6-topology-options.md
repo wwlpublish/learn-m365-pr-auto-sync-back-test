@@ -6,7 +6,7 @@ Consumers refer to Microsoft Accounts that are created by users for personal use
 
 The Microsoft identity platform enables developers to create applications that allow users to sign-in using either a Microsoft Account (Personal Account) or a Work or School Account (an Azure AD identity).​
 
-While there are many similarities between Microsoft Accounts and Azure AD accounts, Microsoft Accounts are primarily for personal or consumer services. Some small business will also use consumer accounts and consumer services like email and OneDrive. Some similarities between the topologies include account and password management, support multi-factor authentication, and password less authentication. Unlike Microsoft Accounts, Azure AD accounts have additional security-related features that are available in enterprise scenarios.​
+While there are many similarities between Microsoft Accounts and Azure AD accounts, Microsoft Accounts are primarily for personal or consumer services. Some small business will also use consumer accounts and consumer services like email and OneDrive. Some similarities between the topologies include account and password management, support multi-factor authentication, and passwordless authentication. Unlike Microsoft Accounts, Azure AD accounts have additional security-related features that are available in enterprise scenarios.​
 
 As an app developer, you can use Microsoft Account as a standards-based approach for adding single sign-on (SSO) to your app, allowing it to work with a user's pre-existing credentials. Microsoft identity also provides APIs that can help you build personalized app experiences using the users personal Office 365 resources.​
 

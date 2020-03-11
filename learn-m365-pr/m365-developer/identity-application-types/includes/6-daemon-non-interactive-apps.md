@@ -45,11 +45,11 @@ One unique aspect to apps that use the client credentials grant flow is that the
 
 Daemon application can only request application permissions to APIs (not delegated permissions). Application permissions are defined on the API Permission page for the application registration.
 
-![Screenshot of the Mail.Read permission in the Request API permissions panel](../media/07-aad-portal-newapp-permissions-03.png)
+![Screenshot of the Mail.Read permission in the Request API permissions panel](../media/07-azure-ad-portal-new-app-permissions-03.png)
 
 Daemon applications require have a tenant admin pre-consent to the application calling the web API. This consent is provided in the same API Permission page.
 
-![Screenshot of granting admin consent to Contoso for all requested permissions](../media/07-aad-portal-newapp-permissions-04.png)
+![Screenshot of granting admin consent to Contoso for all requested permissions](../media/07-azure-ad-portal-new-app-permissions-04.png)
 
 ## MSAL .NET & code configuration
 
@@ -87,7 +87,7 @@ Once the confidential client is created, use the `AcquireTokenForClient()` metho
 
 ```cs
 List<string> scopes = new List<string>();
-scopes.Add("REPLACE_WITH_APP_ID/.default");
+scopes.Add("https://graph.microsoft.com/.default");
 
 result = await cca.AcquireTokenForClient(_scopes).ExecuteAsync();
 return result.AccessToken;
@@ -95,7 +95,7 @@ return result.AccessToken;
 
 Note the scopes specified when requesting an access token. In other scenarios, the code specified the exact permission (also known as scopes) the application needed.
 
-The scope to request for a client credential flow is the app ID followed by `/.default`. This tells Azure AD to use the application level permissions declared statically during the application registration.
+The scope to request for a client credential flow is the resource you are accessing followed by `/.default`. When the resource is Microsoft Graph the scope would be `https://graph.microsoft.com/.default`. This tells Azure AD to use the application level permissions declared statically during the application registration.
 
 ## Calling APIs (MS Graph)
 

@@ -3,7 +3,7 @@ uid: learn-m365.getting-started-identity
 metadata:
   title: Getting Started with Microsoft Identity
   description: Learn the basics of Microsoft identity including the different types of tokens, account types, and supported topologies.
-  ms.date: 10/25/2019
+  ms.date: 3/10/2020
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
@@ -15,18 +15,18 @@ abstract: |
   - Explain the different types of tokens used in Microsoft Identity solutions
   - Compare and contrast the different account types
   - Compare and contrast the supported Microsoft Identity Topologies
-prerequisites: | 
+prerequisites: |
   - Basic knowledge of OAuth authentication flows and terminologies
   - Ability to develop with ASP.NET Core at the intermediate level
   - Ability to develop with JavaScript or TypeScript at the intermediate level
   - Experience using Visual Studio Code at the beginner level
   - Access to an Office 365 tenant
 iconUrl: /learn/achievements/getting-started-identity.svg
-levels: 
+levels:
 - intermediate
-roles: 
+roles:
 - developer
-products: 
+products:
 - m365
 - azure-active-directory
 units:

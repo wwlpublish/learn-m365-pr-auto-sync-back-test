@@ -48,17 +48,17 @@ Open a browser and navigate to the [Azure Active Directory admin center (https:/
 
 Select **Azure Active Directory** in the left-hand navigation. Locate the Azure AD app by selecting **Manage > App Registrations** and selecting the app **Graph Console App**:
 
-![Screenshot ](../media/aad-portal-permissions-05-01.png)
+![Screenshot ](../media/azure-ad-portal-permissions-05-01.png)
 
 Select **API Permissions** in the left-hand navigation panel.
 
-![Screenshot of the API Permissions navigation item](../media/aad-portal-newapp-permissions-01.png)
+![Screenshot of the API Permissions navigation item](../media/azure-ad-portal-new-app-permissions-01.png)
 
 Select the **Add a permission** button.
 
 In the **Request API permissions** panel that appears, select **Microsoft Graph** from the **Microsoft APIs** tab.
 
-![Screenshot of Microsoft Graph in the Request API permissions panel](../media/aad-portal-newapp-permissions-03.png)
+![Screenshot of Microsoft Graph in the Request API permissions panel](../media/azure-ad-portal-new-app-permissions-03.png)
 
 When prompted for the type of permission, select **Delegated permissions**.
 
@@ -83,7 +83,7 @@ using System.Threading.Tasks;
 
 When creating a new group, the developer can specify the owners and members of the group using the `AdditionalData` property on the group object. First, locate the IDs of a few users you want to assign as owners and members to the group. To do this, within the Azure AD admin center, select **Manage > Users**. Select a desired user from the list and copy their **Object ID** property:
 
-![Screenshot of a user's properties in the Azure AD admin center](../media/aad-portal-users-01.png)
+![Screenshot of a user's properties in the Azure AD admin center](../media/azure-ad-portal-users-01.png)
 
 Repeat this process a few more times to get the IDs of a few users.
 

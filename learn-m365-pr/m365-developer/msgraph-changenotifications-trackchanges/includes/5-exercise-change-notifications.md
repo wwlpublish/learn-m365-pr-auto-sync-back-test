@@ -141,8 +141,8 @@ Open the **appsettings.json** file and replace the content with the following JS
 Replace the following variables with the values you copied earlier:
 
 - `<NGROK URL>`: set to the https ngrok url you copied earlier
-- `<TENANT ID>`: set to your Office 365 tenant id you copied earlier
-- `<APP ID>` & `<APP SECRET>`: set to the application id and secret you copied earlier when you registered the app in the Azure AD admin center
+- `<TENANT ID>`: set to your Office 365 tenant ID you copied earlier
+- `<APP ID>` & `<APP SECRET>`: set to the application ID and secret you copied earlier when you registered the app in the Azure AD admin center
 
 ### Add notification controller
 
@@ -292,7 +292,7 @@ Once you see the following in the **Debug Console** window...
 
 ![Screenshot of the VS Code Debug Console](../media/05-vscode-debugapp-03.png)
 
-Open a browser and navigate to **http://localhost:5000/api/notifications** to subscribe to change notifications. If successful you'll see output that includes a subscription id like the one below:
+Open a browser and navigate to **http://localhost:5000/api/notifications** to subscribe to change notifications. If successful you'll see output that includes a subscription ID like the one below:
 
 ![Screenshot of a successful subscription](../media/05-vscode-debugapp-04.png)
 

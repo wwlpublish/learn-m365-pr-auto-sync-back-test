@@ -4,7 +4,7 @@ In this unit, you’ll learn how to create, configure, and use Azure AD applicat
 
 ## Single-page applications (SPA)
 
-Many modern web applications are built as client-side SPAs written using JavaScript or a SPA framework such as Angular, Vue, and React. These applications run in a web browser and have different authentication characteristics than traditional server-side web applications. The Microsoft identity platform enables SPAs to sign in users and get tokens to access backend services or web APIs using the OAuth 2.0 implicit flow. The implicit flow allows the application to get ID tokens to represent the authenticated user and also access tokens needed to call protected APIs.
+Many modern web applications are built as client-side SPAs written using JavaScript or a SPA framework such as Angular, Vue, or React. These applications run in a web browser and have different authentication characteristics than traditional server-side web applications. The Microsoft identity platform enables SPAs to sign in users and get tokens to access backend services or web APIs using the OAuth 2.0 implicit flow. The implicit flow allows the application to get ID tokens to represent the authenticated user and also access tokens needed to call protected APIs.
 
 SPAs and other JavaScript apps that run primarily in a browser have unique challenges when it comes to authentication:
 
@@ -26,7 +26,7 @@ First, ensure the redirect URI of the app points to the URL of the SPA. This URL
 
 Next, ensure the implicit flow is enabled by selecting the **ID token** option on the app's authentication settings. If the app is also going to request an access token to use in authenticating requests to other Microsoft identity-protected endpoints, you must also select the **Access tokens** option.
 
-![Screenshot of the authentication settings for the Azure AD app](../media/03-aad-portal-newapp-authentication.png)
+![Screenshot of the authentication settings for the Azure AD app](../media/03-azure-ad-portal-new-app-authentication.png)
 
 ## MSAL JS & code configuration
 
