@@ -296,11 +296,11 @@ Select **Azure Active Directory** in the left-hand navigation.
 
 Select **App registrations** in the left-hand navigation.
 
-  ![Screenshot of the App registrations](../media/aad-portal-home.png)
+  ![Screenshot of the App registrations](../media/azure-ad-portal-home.png)
 
 On the **App registrations** page, select **New registration**.
 
-  ![Screenshot of App Registrations page](../media/aad-portal-newapp-00.png)
+  ![Screenshot of App Registrations page](../media/azure-ad-portal-new-app-00.png)
 
 On the **Register an application** page, set the values as follows:
 
@@ -308,19 +308,19 @@ On the **Register an application** page, set the values as follows:
 - **Supported account types**: Accounts in this organizational directory only (Single tenant)
 - **Redirect URI**: Web = http://localhost:3007
 
-  ![Screenshot of the Register an application page](../media/03-aad-portal-newapp-01.png)
+  ![Screenshot of the Register an application page](../media/03-azure-ad-portal-new-app-01.png)
 
 Select **Register** to create the application.
 
 On the **Identity SPA** page, copy the values **Application (client) ID** and **Directory (tenant) ID**; you'll need these values later in this exercise.
 
-  ![Screenshot of the application ID of the new app registration](../media/03-aad-portal-newapp-details.png)
+  ![Screenshot of the application ID of the new app registration](../media/03-azure-ad-portal-new-app-details.png)
 
 On the **Identity SPA** page, select the **1 web, 0 public client** link under the **Redirect URIs**.
 
 Locate the section **Implicit grant** and select both **Access tokens** and **ID tokens**. This tells Azure AD to return these tokens the authenticated user if requested.
 
-  ![Screenshot of the authentication settings for the Azure AD app](../media/03-aad-portal-newapp-authentication.png)
+  ![Screenshot of the authentication settings for the Azure AD app](../media/03-azure-ad-portal-new-app-authentication.png)
 
 Select **Save** in the top menu to save your changes.
 

@@ -8,24 +8,24 @@ Select **Azure Active Directory** in the left-hand navigation.
 
 Select **Manage > App registrations** in the left-hand navigation.
 
-  ![Screenshot of the App registrations](../media/aad-portal-home.png)
+  ![Screenshot of the App registrations](../media/azure-ad-portal-home.png)
 
 On the **App registrations** page, select **New registration**.
 
-  ![Screenshot of App Registrations page](../media/aad-portal-newapp-00.png)
+  ![Screenshot of App Registrations page](../media/azure-ad-portal-new-app-00.png)
 
 On the **Register an application** page, set the values as follows:
 
 - **Name**: Identity Daemon
 - **Supported account types**: Accounts in this organizational directory only (Contoso only - Single tenant)
 
-    ![Screenshot of the Register an application page](../media/07-aad-portal-newapp-01.png)
+    ![Screenshot of the Register an application page](../media/07-azure-ad-portal-new-app-01.png)
 
     Select **Register**.
 
 On the **Identity Daemon** page, copy the value of the **Application (client) ID** and **Directory (tenant) ID**; you'll need these in the application.
 
-  ![Screenshot of the application ID of the new app registration](../media/07-aad-portal-newapp-details.png)
+  ![Screenshot of the application ID of the new app registration](../media/07-azure-ad-portal-new-app-details.png)
 
 ### Configure the Azure AD application's authentication settings
 
@@ -33,15 +33,15 @@ Select **Manage > Authentication**.
 
 In the **Platform configurations** section, select the **Add a platform** button. Then in the **Configure platforms** panel, select the **Mobile and desktop applications** button:
 
-![Screenshot of the Platform configurations section](../media/07-aad-portal-newapp-authentication-01.png)
+![Screenshot of the Platform configurations section](../media/07-azure-ad-portal-new-app-authentication-01.png)
 
 In the **Redirect URIs** section of the **Configure Desktop + devices** panel, select the entry that ends with **nativeclient**, and then select the **Configure** button:
 
-![Screenshot of the Configure Desktop + devices panel](../media/07-aad-portal-newapp-authentication-01a.png)
+![Screenshot of the Configure Desktop + devices panel](../media/07-azure-ad-portal-new-app-authentication-01a.png)
 
 Scroll down to the **Default client type** section and set the toggle to **Yes**.
 
-![Screenshot of the Default client type section](../media/07-aad-portal-newapp-authentication-02.png)
+![Screenshot of the Default client type section](../media/07-azure-ad-portal-new-app-authentication-02.png)
 
 Select **Save** in the top menu to save your changes.
 
@@ -53,15 +53,15 @@ Select **Certificates & secrets** from the left-hand navigation panel.
 
 Select the **New client secret** button:
 
-![Screenshot of the Certificates & Secrets page in the Azure AD admin center](../media/07-aad-portal-newapp-secret-01.png)
+![Screenshot of the Certificates & Secrets page in the Azure AD admin center](../media/07-azure-ad-portal-new-app-secret-01.png)
 
 When prompted, give the secret a description and select one of the expiration duration options provided and select **Add**. *What you enter and select doesn't matter for the exercise.*
 
-![Screenshot of creating a new client secret](../media/07-aad-portal-newapp-secret-02.png)
+![Screenshot of creating a new client secret](../media/07-azure-ad-portal-new-app-secret-02.png)
 
 The **Certificate & Secrets** page will display the new secret. Its important you copy this value as its only shown this one time; if you leave the page and come back, it will only show as a masked value.
 
-![Screenshot showing the new secret](../media/07-aad-portal-newapp-secret-03.png)
+![Screenshot showing the new secret](../media/07-azure-ad-portal-new-app-secret-03.png)
 
 Copy the value of the secret as you'll need it later.
 
@@ -73,23 +73,23 @@ Select **API Permissions** in the left-hand navigation panel.
 
 From the **Identity Daemon - API Permissions** page, select the **Add a permission** button.
 
-![Screenshot of the API Permissions page](../media/07-aad-portal-newapp-permissions-01.png)
+![Screenshot of the API Permissions page](../media/07-azure-ad-portal-new-app-permissions-01.png)
 
 In the **Request API permissions** panel that appears, select **Microsoft Graph** from the **Microsoft APIs** tab.
 
-![Screenshot of Microsoft Graph in the Request API permissions panel](../media/07-aad-portal-newapp-permissions-02.png)
+![Screenshot of Microsoft Graph in the Request API permissions panel](../media/07-azure-ad-portal-new-app-permissions-02.png)
 
 When prompted for the type of permission, select **Application permissions**.
 
 Enter **Mail.R** in the **Select permissions** search box and select the **Mail.Read** permission, followed by the **Add permission** button at the bottom of the panel.
 
-![Screenshot of the Mail.Read permission in the Request API permissions panel](../media/07-aad-portal-newapp-permissions-03.png)
+![Screenshot of the Mail.Read permission in the Request API permissions panel](../media/07-azure-ad-portal-new-app-permissions-03.png)
 
 Notice that the permission has **Yes** listed in the column **Admin Consent Required** in the previous screenshot? This means that an administrator must grant this permission.
 
 On the **Identity Daemon - API Permissions** panel, select the button **Grant admin consent for [tenant]**, followed by the **Yes** button to grant all users in your organization this permission.
 
-![Screenshot of granting admin consent to Contoso for all requested permissions](../media/07-aad-portal-newapp-permissions-04.png)
+![Screenshot of granting admin consent to Contoso for all requested permissions](../media/07-azure-ad-portal-new-app-permissions-04.png)
 
 ## Create a headless application
 

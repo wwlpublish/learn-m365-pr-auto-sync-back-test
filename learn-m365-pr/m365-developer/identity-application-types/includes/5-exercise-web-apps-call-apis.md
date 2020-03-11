@@ -10,40 +10,40 @@ Open a browser and navigate to the [Azure Active Directory admin center](https:/
 
 Select **Azure Active Directory** in the left-hand navigation.
 
-  ![Screenshot of the App registrations](../media/aad-portal-home.png)
+  ![Screenshot of the App registrations](../media/azure-ad-portal-home.png)
 
 Select **Manage > App registrations** in the left-hand navigation.
 
 On the **App registrations** page, select **New registration**.
 
-  ![Screenshot of App Registrations page](../media/aad-portal-newapp-00.png)
+  ![Screenshot of App Registrations page](../media/azure-ad-portal-new-app-00.png)
 
 On the **Register an application** page, set the values as follows:
 
 - **Name**: Identity WebApp
 - **Supported account types**: Accounts in this organizational directory only (Single tenant)
 
-    ![Screenshot of the Register an application page](../media/05-aad-portal-newapp-01.png)
+    ![Screenshot of the Register an application page](../media/05-azure-ad-portal-new-app-01.png)
 
 Select **Register** to create the application.
 
 On the **Identity WebApp** page, copy the values **Application (client) ID** and **Directory (tenant) ID**; you'll need these values later in this exercise.
 
-  ![Screenshot of the application ID of the new app registration](../media/05-aad-portal-newapp-details-01.png)
+  ![Screenshot of the application ID of the new app registration](../media/05-azure-ad-portal-new-app-details-01.png)
 
 Select **Manage > Authentication** in the left-hand navigation.
 
 On the **Authentication** page, select **Add a platform**. When the **Configure platforms** panel appears, select **Web**.
 
-![Screenshot of the Configure platforms panel](../media/05-aad-portal-newapp-details-02.png)
+![Screenshot of the Configure platforms panel](../media/05-azure-ad-portal-new-app-details-02.png)
 
 In the **Configure Web** panel, add **https://localhost:3007** under **Redirect URIs**, add **https://localhost:3007/signout-oidc** under **Logout URL**, select both **Access tokens** and **ID tokens** under **Implicit grant**, and select **Configure**.
 
-![Screenshot of the Configure Web panel](../media/05-aad-portal-newapp-details-03.png)
+![Screenshot of the Configure Web panel](../media/05-azure-ad-portal-new-app-details-03.png)
 
 When the **Authentication** page refreshes, select **Add URI**, add **https://localhost:3007/signin-oidc**, and select **Save** in the top menu to save your changes. 
 
-![Screenshot of the Authentication page](../media/05-aad-portal-newapp-details-04.png)
+![Screenshot of the Authentication page](../media/05-azure-ad-portal-new-app-details-04.png)
 
 ### Create a client secret for the app
 
@@ -53,15 +53,15 @@ Select **Certificates & secrets** from the left-hand navigation panel.
 
 Select the **New client secret** button:
 
-![Screenshot of the Certificates & Secrets page in the Azure AD admin center](../media/05-aad-portal-newapp-secret-01.png)
+![Screenshot of the Certificates & Secrets page in the Azure AD admin center](../media/05-azure-ad-portal-new-app-secret-01.png)
 
 When prompted, give the secret a description and select one of the expiration duration options provided and select **Add**. *What you enter and select doesn't matter for the exercise.*
 
-![Screenshot of creating a new client secret](../media/05-aad-portal-newapp-secret-02.png)
+![Screenshot of creating a new client secret](../media/05-azure-ad-portal-new-app-secret-02.png)
 
 The **Certificate & Secrets** page will display the new secret. Its important you copy this value as its only shown this one time; if you leave the page and come back, it will only show as a masked value.
 
-![Screenshot showing the new secret](../media/05-aad-portal-newapp-secret-03.png)
+![Screenshot showing the new secret](../media/05-azure-ad-portal-new-app-secret-03.png)
 
 ## Create a single organization ASP.NET web application
 
