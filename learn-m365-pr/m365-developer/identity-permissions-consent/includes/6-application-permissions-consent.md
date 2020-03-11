@@ -10,7 +10,7 @@ Some high-privilege permissions in the Microsoft ecosystem can be set to admin-r
 - Write data to an organization's directory by using **Directory.ReadWrite.All**
 - Read all groups in an organization's directory by using **Group.Read.All**
 
-![Screenshot of selecting Microsoft Graph Application permissions](../media/07-aad-portal-newapp-permissions-01.png)
+![Screenshot of selecting Microsoft Graph Application permissions](../media/07-azure-ad-portal-new-app-permissions-01.png)
 
 Although a consumer user might grant an application access to this kind of data, organizational users are restricted from granting access to the same set of sensitive company data. If your application requests access to one of these permissions from an organizational user, the user receives an error message that says they're not authorized to consent to your app's permissions.
 
@@ -38,11 +38,11 @@ GET https://login.microsoftonline.com/{tenant}/v2.0/adminconsent?
 
 This endpoint is also available by selecting the **Grant admin consent for ...** button from the Azure AD admin center:
 
-![Screenshot of selecting Microsoft Graph Application permissions](../media/07-aad-portal-newapp-permissions-03.png)
+![Screenshot of selecting Microsoft Graph Application permissions](../media/07-azure-ad-portal-new-app-permissions-03.png)
 
 If you follow these steps, your app can request permissions for all users in a tenant, including admin-restricted scopes. This is a high privilege operation and should only be done if necessary for your scenario.
 
-![Screenshot of the admin consent experience](../media/07-aad-portal-newapp-permissions-04.png)
+![Screenshot of the admin consent experience](../media/07-azure-ad-portal-new-app-permissions-04.png)
 
 ### Recommended: Sign the user into your app
 

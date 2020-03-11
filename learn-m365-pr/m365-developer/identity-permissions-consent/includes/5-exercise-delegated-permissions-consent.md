@@ -21,11 +21,11 @@ Select **Azure Active Directory** in the left-hand navigation.
 
 Then select **Manage > App registrations** in the left-hand navigation.
 
-  ![Screenshot of the App registrations](../media/aad-portal-home.png)
+  ![Screenshot of the App registrations](../media/azure-ad-portal-home.png)
 
 On the **App registrations** page, select **New registration**.
 
-  ![Screenshot of App Registrations page](../media/aad-portal-newapp-00.png)
+  ![Screenshot of App Registrations page](../media/azure-ad-portal-new-app-00.png)
 
 On the **Register an application** page, set the values as follows:
 
@@ -33,13 +33,13 @@ On the **Register an application** page, set the values as follows:
 - **Supported account types**: Accounts in this organizational directory only (Single tenant)
 - **Redirect URI**: Web = http://localhost:3007
 
-    ![Screenshot of the Register an application page](../media/05-aad-portal-newapp-01.png)
+    ![Screenshot of the Register an application page](../media/05-azure-ad-portal-new-app-01.png)
 
 Select **Register** to create the application.
 
 On the **Identity Exercise 02** page, copy the values **Application (client) ID** and **Directory (tenant) ID**; you'll need these values later in this exercise.
 
-  ![Screenshot of the application ID of the new app registration](../media/05-aad-portal-newapp-details-01.png)
+  ![Screenshot of the application ID of the new app registration](../media/05-azure-ad-portal-new-app-details-01.png)
 
 On the **Identity Exercise 02** page, select the **1 web, 0 public client** link under the **Redirect URIs**.
 
@@ -51,15 +51,15 @@ Select **Save** in the top menu to save your changes.
 
 Select **API Permissions** from the left-hand navigation, and then select **Add a permission**:
 
-  ![Screenshot of the Configured Permissions page in Azure AD](../media/05-aad-portal-newapp-permissions-01.png)
+  ![Screenshot of the Configured Permissions page in Azure AD](../media/05-azure-ad-portal-new-app-permissions-01.png)
 
 On the **Request API Permissions** page, select **Microsoft APIs**, **Microsoft Graph**, and then select **Delegated permissions**:
 
-  ![Screenshot of selecting Microsoft Graph Delegated permissions](../media/05-aad-portal-newapp-permissions-02.png)
+  ![Screenshot of selecting Microsoft Graph Delegated permissions](../media/05-azure-ad-portal-new-app-permissions-02.png)
 
 In the search box in the **Select permissions** section, enter **Mail.R**, select the permission **Mail.Read** permission, and then select **Add permissions**.
 
-  ![Screenshot of selecting Microsoft Graph Delegated permissions](../media/05-aad-portal-newapp-permissions-03.png)
+  ![Screenshot of selecting Microsoft Graph Delegated permissions](../media/05-azure-ad-portal-new-app-permissions-03.png)
 
 ### Update the SPA with the Azure AD application details
 
