@@ -1,4 +1,4 @@
-Microsoft Graph enables more features than just reading and writing files. In this exercise, you’ll learn how to get a list of files trending around a user and how to get recently modified and accessed files by the current user.
+Microsoft Graph enables more features than just reading and writing files. In this exercise, you'll learn how to get a list of files trending around a user and how to get recently modified and accessed files by the current user.
 
 > [!IMPORTANT]
 > This exercise assumes you have created the Azure AD application and .NET console application from the previous unit in this module. You'll edit the existing Azure AD application and .NET console application created in that exercise in this exercise.
@@ -11,7 +11,7 @@ Open a browser and navigate to the [Azure Active Directory admin center (https:/
 
 Select **Azure Active Directory** in the left-hand navigation.
 
-  ![Screenshot of the App registrations](../media/aad-portal-home-appreg-01.png)
+  ![Screenshot of the App registrations](../media/azure-ad-portal-home-appreg-01.png)
 
 Select **Manage > App registrations** in the left-hand navigation.
 
@@ -19,21 +19,21 @@ On the **App registrations** page, select the **Graph Console App**.
 
 Select **API Permissions** in the left-hand navigation panel.
 
-![Screenshot of the API Permissions navigation item](../media/aad-portal-newapp-permissions-01a.png)
+![Screenshot of the API Permissions navigation item](../media/azure-ad-portal-new-app-permissions-01a.png)
 
 Select the **Add a permission** button.
 
-![Screenshot of the Add permission button](../media/aad-portal-newapp-permissions-05-02.png)
+![Screenshot of the Add permission button](../media/azure-ad-portal-new-app-permissions-05-02.png)
 
 In the **Request API permissions** panel that appears, select **Microsoft Graph** from the **Microsoft APIs** tab.
 
-![Screenshot of Microsoft Graph in the Request API permissions panel](../media/aad-portal-newapp-permissions-03.png)
+![Screenshot of Microsoft Graph in the Request API permissions panel](../media/azure-ad-portal-new-app-permissions-03.png)
 
 When prompted for the type of permission, select **Delegated permissions**.
 
 Enter **Sites.R** in the **Select permissions** search box and select the **Sites.Read.All** permission, followed by the **Add permission** button at the bottom of the panel.
 
-![Screenshot of the Files.ReadWrite permission in the Request API permissions panel](../media/aad-portal-newapp-permissions-07-04.png)
+![Screenshot of the Files.ReadWrite permission in the Request API permissions panel](../media/azure-ad-portal-new-app-permissions-07-04.png)
 
 In the **Configured Permissions** panel, select the button **Grant admin consent for [tenant]**, and then select the **Yes** button in the consent dialog to grant all users in your organization this permission.
 

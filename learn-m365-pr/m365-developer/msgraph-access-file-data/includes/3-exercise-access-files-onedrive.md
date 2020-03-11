@@ -1,4 +1,4 @@
-In this exercise, you’ll create a .NET Core console app that will access and download files from a user's OneDrive account using Microsoft Graph.
+In this exercise, you'll create a .NET Core console app that will access and download files from a user's OneDrive account using Microsoft Graph.
 
 ## Create an Azure AD application
 
@@ -8,38 +8,38 @@ Select **Azure Active Directory** in the left-hand navigation.
 
 Select **Manage > App registrations** in the left-hand navigation.
 
-  ![Screenshot of the App registrations](../media/aad-portal-home-appreg-01.png)
+  ![Screenshot of the App registrations](../media/azure-ad-portal-home-appreg-01.png)
 
 On the **App registrations** page, select **New registration**.
 
-  ![Screenshot of App Registrations page](../media/aad-portal-newapp-00.png)
+  ![Screenshot of App Registrations page](../media/azure-ad-portal-new-app-00.png)
 
 On the **Register an application** page, set the values as follows:
 
 - **Name**: Graph Console App
 - **Supported account types**: Accounts in this organizational directory only (Contoso only - Single tenant)
 
-    ![Screenshot of the Register an application page](../media/aad-portal-newapp-01.png)
+    ![Screenshot of the Register an application page](../media/azure-ad-portal-new-app-01.png)
 
     Select **Register**.
 
 On the **Graph Console App** page, copy the value of the **Application (client) ID** and **Directory (tenant) ID**; you'll need these in the application.
 
-  ![Screenshot of the application ID of the new app registration](../media/aad-portal-newapp-details.png)
+  ![Screenshot of the application ID of the new app registration](../media/azure-ad-portal-new-app-details.png)
 
 Select **Manage > Authentication**.
 
 In the **Platform configurations** section, select the **Add a platform** button. Then in the **Configure platforms** panel, select the **Mobile and desktop applications** button:
 
-![Screenshot of the Platform configurations section](../media/aad-portal-newapp-02.png)
+![Screenshot of the Platform configurations section](../media/azure-ad-portal-new-app-02.png)
 
 In the **Redirect URIs** section of the **Configure Desktop + devices** panel, select the entry that ends with **nativeclient**, and then select the **Configure** button:
 
-![Screenshot of the Configure Desktop + devices panel](../media/aad-portal-newapp-02a.png)
+![Screenshot of the Configure Desktop + devices panel](../media/azure-ad-portal-new-app-02a.png)
 
 In the **Authentication** panel, scroll down to the **Default client type** section and set the toggle to **Yes**.
 
-![Screenshot of the Default client type section](../media/aad-portal-newapp-03.png)
+![Screenshot of the Default client type section](../media/azure-ad-portal-new-app-03.png)
 
 Select **Save** in the top menu to save your changes.
 
@@ -49,19 +49,19 @@ After creating the application, you need to grant it the necessary permissions t
 
 Select **API Permissions** in the left-hand navigation panel.
 
-![Screenshot of the API Permissions navigation item](../media/aad-portal-newapp-permissions-01.png)
+![Screenshot of the API Permissions navigation item](../media/azure-ad-portal-new-app-permissions-01.png)
 
 Select the **Add a permission** button.
 
 In the **Request API permissions** panel that appears, select **Microsoft Graph** from the **Microsoft APIs** tab.
 
-![Screenshot of Microsoft Graph in the Request API permissions panel](../media/aad-portal-newapp-permissions-03.png)
+![Screenshot of Microsoft Graph in the Request API permissions panel](../media/azure-ad-portal-new-app-permissions-03.png)
 
 When prompted for the type of permission, select **Delegated permissions**.
 
 Enter **Files.R** in the **Select permissions** search box and select the **Files.Read** permission, followed by the **Add permission** button at the bottom of the panel.
 
-![Screenshot of the Files.Read permission in the Request API permissions panel](../media/aad-portal-newapp-permissions-03-04.png)
+![Screenshot of the Files.Read permission in the Request API permissions panel](../media/azure-ad-portal-new-app-permissions-03-04.png)
 
 In the **Configured Permissions** panel, select the button **Grant admin consent for [tenant]**, and then select the **Yes** button in the consent dialog to grant all users in your organization this permission.
 
