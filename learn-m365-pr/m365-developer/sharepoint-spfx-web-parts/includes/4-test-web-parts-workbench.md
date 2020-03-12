@@ -2,7 +2,7 @@ In this unit, you'll learn how to test custom web parts using both local and Off
 
 ## Local vs. SharePoint-hosted workbench
 
-Microsoft provides developers two options to test SharePoint Framework projects. The *workbench* is a special SharePoint page that contains a single canvas that developers can add their web parts to. There are two different workbench options: local & hosted.
+Microsoft provides developers two options to test SharePoint Framework projects. The *workbench* is a special SharePoint page that contains a single canvas that developers can add their web parts to. There are two different workbench options: local and hosted.
 
 ### Local workbench
 
@@ -36,7 +36,7 @@ gulp serve --nobrowser
 
 ### Mapping files makes debugging easier
 
-SharePoint Framework projects are authored with TypeScript and the build process transpiles the TypeScript into JavaScript. It then bundles the built files into a single file. As a result of this transpiling & bundling process, it can be hard to debug the JavaScript that's generated in the build process and map it back to the TypeScript you wrote.
+SharePoint Framework projects are authored with TypeScript and the build process transpiles the TypeScript into JavaScript. It then bundles the built files into a single file. As a result of this transpiling and bundling process, it can be hard to debug the JavaScript that's generated in the build process and map it back to the TypeScript you wrote.
 
 Source code-mapping files make it possible to debug the original TypeScript code from the running JavaScript code. Mapping files map each line in the generated JavaScript code back to the TypeScript code it was generated from. When you set a breakpoint in JavaScript, a tool such browser development tools or editors like Visual Studio Code, will show you the TypeScript when your breakpoint is hit, even though it's the JavaScript that's running.
 

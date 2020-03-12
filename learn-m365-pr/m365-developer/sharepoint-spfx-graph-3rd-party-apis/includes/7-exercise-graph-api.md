@@ -161,7 +161,7 @@ public render(): React.ReactElement<IGraphPersonaProps> {
 }
 ```
 
-The code in the Persona card references two utility methods to control rendering of the secondary & tertiary text. Add the following to methods to the `GraphPersona` class that will be used to render the text:
+The code in the Persona card references two utility methods to control rendering of the secondary and tertiary text. Add the following to methods to the `GraphPersona` class that will be used to render the text:
 
 ```typescript
 private _renderMail = () => {

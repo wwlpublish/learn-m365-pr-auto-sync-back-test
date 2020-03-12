@@ -116,7 +116,7 @@ protected getPropertyPaneConfiguration(): IPropertyPaneConfiguration {
 
 ## Handle property field control changes
 
-The next step to customizing the property pane is to define how you want to handle changes to the properties in the property pane. The property pane has two different modes: **reactive** & **non-reactive**.
+The next step to customizing the property pane is to define how you want to handle changes to the properties in the property pane. The property pane has two different modes: **reactive** and **non-reactive**.
 
 The default mode is reactive. In this mode, as you change the value of the property pane control, those changes are immediately applied live to the corresponding properties that they're attached to.
 
