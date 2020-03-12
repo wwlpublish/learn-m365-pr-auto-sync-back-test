@@ -1,4 +1,4 @@
-In this exercise, you'll work with the two different versions of the SharePoint Workbench: the local & hosted workbench, as well as the different modes of the built-in gulp serve task.
+In this exercise, you'll work with the two different versions of the SharePoint Workbench: the local and hosted workbench, as well as the different modes of the built-in gulp serve task.
 
 Open **Visual Studio Code** and then open the SharePoint Framework web part project you created in the previous exercise.
 
@@ -86,4 +86,4 @@ Close the hosted workbench and stop the local web server by pressing <kbd>CTRL</
 
 ## Summary
 
-In this exercise, you worked with the two different versions of the SharePoint Workbench: the local & hosted workbench, and the different modes of the built-in gulp serve task.
+In this exercise, you worked with the two different versions of the SharePoint Workbench: the local and hosted workbench, and the different modes of the built-in gulp serve task.

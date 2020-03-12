@@ -2,7 +2,7 @@ In this unit, you'll learn about the different components in a SharePoint Framew
 
 ## SharePoint Framework project structure
 
-The Yeoman generator for the SharePoint Framework creates the scaffolding (*folders & files*) for a new SharePoint Framework project. After building the project the first time, you'll see even more folders and files present. Just like a .NET Framework project, some of the generated files are temporary and shouldn't be kept in source control.
+The Yeoman generator for the SharePoint Framework creates the scaffolding (*folders and files*) for a new SharePoint Framework project. After building the project the first time, you'll see even more folders and files present. Just like a .NET Framework project, some of the generated files are temporary and shouldn't be kept in source control.
 
 Let's look at the folders in a newly created and built SharePoint Framework project:
 
@@ -10,7 +10,7 @@ Let's look at the folders in a newly created and built SharePoint Framework proj
 
 - **.vscode**: This folder contains Visual Studio Code specific files.
 - **config**: This folder contains configuration files used by the project's various build tasks. You'll edit these files as necessary depending on the types of components you're creating and for specific situations, such as the site to test extensions or adding references to external libraries.
-- **dist**: This folder, created automatically when you bundle the project, contains the JavaScript bundle & manifest created by the build process that will be used in deployment.
+- **dist**: This folder, created automatically when you bundle the project, contains the JavaScript bundle and manifest created by the build process that will be used in deployment.
 - **lib**: This folder, created automatically when you build the project, contains the temporary files generated from the compilation and transpilation of TypeScript to JavaScript and SCSS to CSS files.
 - **node_modules**: This folder is created automatically when installing package dependencies using the `npm install` command.
 - **src**: This folder contains all the source code for your project.
@@ -154,11 +154,11 @@ The SharePoint Framework development and build toolchain includes many tasks dev
 - **clean**: This task deletes the **dist**, **lib**, and **temp** folders created from building and bundling the project.
 - **build**: This task will transpile all TypeScript to JavaScript and all SASS to CSS files. These temporary files are built to the **lib** folder.
 - **bundle**: This ask will run the **build** task and then create JavaScript bundle(s) with Webpack using the files from the build task.
-- **dev-deploy** & **deploy-azure-storage**: These tasks upload the production manifest and JavaScript bundles to the Azure Storage blob specified in the **./config/deploy-azure-storage.json** configuration file when you've elected to use the Azure CDN to host and serve your files.
+- **dev-deploy** and **deploy-azure-storage**: These tasks upload the production manifest and JavaScript bundles to the Azure Storage blob specified in the **./config/deploy-azure-storage.json** configuration file when you've elected to use the Azure CDN to host and serve your files.
 - **package-solution**: This task will create a **\*.sppkg** SharePoint package file using the output from the **bundle** task.
 - **serve**: The serve task will start the local web server that hosts the local workbench.
 - **test**: This task will run the **build** task and then run all unit tests defined in the project.
-- **trust-dev-cert** & **untrust-dev-cert**: These two tasks are used to trust and untrust the self-signed development SSL certificate on your local development environment. The local web server started up by the **serve** task uses this self-signed certificate. The SSL certificate must be added to your development environment's trust root authority for the browser to accept the request.
+- **trust-dev-cert** and **untrust-dev-cert**: These two tasks are used to trust and untrust the self-signed development SSL certificate on your local development environment. The local web server started up by the **serve** task uses this self-signed certificate. The SSL certificate must be added to your development environment's trust root authority for the browser to accept the request.
 
 ## Solution packaging
 
@@ -169,7 +169,7 @@ For projects created and built using the SharePoint Framework v1.4.1 or higher, 
 > [!TIP]
 > In SharePoint Online,  the **ClientSideAssets** folder is automatically configured to be included as enabled by the Office 365 CDN if your tenant has been enabled of the Office 365 CDN.
 
-However, if the property is set to `false`, or you're using the SharePoint Framework before v1.4.1, or you don't want to use the **ClientSideAssets** folder, you must deploy the JavaScript bundle and manifest files to a publicly accessible location. Microsoft recommends using Azure blob storage and an Azure CDN and provides the **dev-deploy** & **deploy-azure-storage** gulp tasks to help with the deployment.
+However, if the property is set to `false`, or you're using the SharePoint Framework before v1.4.1, or you don't want to use the **ClientSideAssets** folder, you must deploy the JavaScript bundle and manifest files to a publicly accessible location. Microsoft recommends using Azure blob storage and an Azure CDN and provides the **dev-deploy** and **deploy-azure-storage** gulp tasks to help with the deployment.
 
 ## SharePoint client-side web parts
 

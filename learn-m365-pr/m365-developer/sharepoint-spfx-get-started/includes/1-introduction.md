@@ -1,4 +1,4 @@
-This module will introduce you to the SharePoint Framework and walk you through getting your local & online environment configured for developing with the SharePoint Framework.
+This module will introduce you to the SharePoint Framework and walk you through getting your local and online environment configured for developing with the SharePoint Framework.
 
 ## Prerequisites
 

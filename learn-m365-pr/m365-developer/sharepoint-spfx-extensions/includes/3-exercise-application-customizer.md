@@ -158,7 +158,7 @@ import { escape } from '@microsoft/sp-lodash-subset';
 
 Locate and open the **./src/extensions/helloAppCustomizer/HelloAppCustomizerApplicationCustomizer.ts** file.
 
-Locate the existing `import` statement for the `@microsoft/sp-application-base` library. Update the list of imports to add the following references: `PlaceholderContent` & `PlaceholderName`.
+Locate the existing `import` statement for the `@microsoft/sp-application-base` library. Update the list of imports to add the following references: `PlaceholderContent` and `PlaceholderName`.
 
 In the `HelloAppCustomizerApplicationCustomizer` class, add the following two private members:
 

@@ -24,13 +24,13 @@ When the new page opens, select **App Catalog**.
 >
 > ![Screenshot of the app catalog creation options](../media/03-app-catalog-03.png)
 
-Select **Create a new app catalog site** option & select the **OK** button.
+Select **Create a new app catalog site** option and select the **OK** button.
 
 On the **Create App Catalog Site Collection** page, enter the following details, and select **OK**.
 
 - **Title**: app catalog
 - **Web Site Address (suffix)**: appcatalog
-- **Administrator**: *enter your username & select the **check names** icon to resolve your username*
+- **Administrator**: *enter your username and select the **check names** icon to resolve your username*
 
 ![Screenshot of the App Catalog creation form](../media/03-app-catalog-04.png)
 

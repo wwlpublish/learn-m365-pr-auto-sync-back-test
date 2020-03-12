@@ -2,15 +2,15 @@ In this unit, you'll learn what you need to install on your development environm
 
 ## Open-source tooling
 
-Microsoft has adopted the open-source tooling for the foundation of SharePoint Framework development. Three categories to explore when it comes to open-source tooling & libraries related to the SharePoint Framework are as follows:
+Microsoft has adopted the open-source tooling for the foundation of SharePoint Framework development. Three categories to explore when it comes to open-source tooling and libraries related to the SharePoint Framework are as follows:
 
-- build process & tooling
+- build process and tooling
 - web frameworks
 - code editors
 
 ![Screenshot of the open-source tooling for the SharePoint Framework](../media/04-open-source-tooling.png)
 
-### Build process & tooling
+### Build process and tooling
 
 Let's look at the build process and tooling first. Yeoman is used to replace the new project experience that traditional server-side SharePoint developers are familiar with in Visual Studio.
 
@@ -44,7 +44,7 @@ In the previous image, the top row is the server-side tool comparison, starting 
 
 The bottom row represents the SharePoint Framework tools. Notice the lines drawn between the tools so you can see how the two compare.
 
-## Exploring the SharePoint Framework core development & build tools
+## Exploring the SharePoint Framework core development and build tools
 
 Let's look at each of the tools used in the SharePoint Framework development and build toolchain.
 
@@ -77,7 +77,7 @@ Microsoft provides a generator to scaffold SharePoint Framework projects, both n
 
 ### Gulp
 
-Gulp is the task runner we use to do different tasks in our development and build process. Gulp executes tasks that are written in JavaScript. You'll use gulp to do things like building your project and transpiling the SAAS files to CSS and TypeScript to JavaScript. You'll use other tasks to combine the resulting files into bundles & package the resulting files into a SharePoint package file used for deployment.
+Gulp is the task runner we use to do different tasks in our development and build process. Gulp executes tasks that are written in JavaScript. You'll use gulp to do things like building your project and transpiling the SAAS files to CSS and TypeScript to JavaScript. You'll use other tasks to combine the resulting files into bundles and package the resulting files into a SharePoint package file used for deployment.
 
 When compared to the server-side toolchain, Gulp serves the same role as MSBuild.
 
