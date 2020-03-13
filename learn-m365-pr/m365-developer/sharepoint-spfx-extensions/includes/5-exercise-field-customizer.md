@@ -57,7 +57,7 @@ Locate the method `onRenderCell()` and update the contents to match the followin
 ```typescript
 event.domElement.classList.add(styles.cell);
 
-// determine color & text to use
+// determine color and text to use
 const fieldValue = parseInt(event.fieldValue);
 let filledColor: string = '';
 

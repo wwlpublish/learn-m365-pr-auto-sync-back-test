@@ -1,6 +1,6 @@
 In this exercise, you'll manipulate the property pane for a SharePoint Framework client-side web part with controls, groups, and pages.
 
-## Create a new ShareaPoint Framework solution & web part
+## Create a new ShareaPoint Framework solution and web part
 
 Open a command prompt and change to the folder where you want to create the project.
 

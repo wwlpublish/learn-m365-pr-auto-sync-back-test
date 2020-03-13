@@ -63,7 +63,7 @@ Test the web part to see what we get. Start the local web server using the provi
 gulp serve
 ```
 
-When the browser loads the local workbench, add the web part to the page. Notice the values of the page mode & environment type:
+When the browser loads the local workbench, add the web part to the page. Notice the values of the page mode and environment type:
 
 ![Screenshot of the SharePoint local workbench](../media/07-web-part-01.png)
 
@@ -71,7 +71,7 @@ Now, open a new browser tab and navigate to one of your SharePoint Online sites 
 
 Add the web part to the page.
 
-Notice the values of the page mode & environment type:
+Notice the values of the page mode and environment type:
 
 ![Screenshot of the SharePoint hosted workbench](../media/07-web-part-02.png)
 

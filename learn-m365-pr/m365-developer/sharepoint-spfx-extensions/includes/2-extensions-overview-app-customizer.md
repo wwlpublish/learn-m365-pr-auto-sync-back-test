@@ -41,7 +41,7 @@ Command sets enable you to add buttons to list and library toolbars or to the co
 
 ## Project structure
 
-The Yeoman generator for the SharePoint Framework creates the scaffolding (*folders & files*) for a new SharePoint Framework project. After building the project the first time, you'll see even more folders and files present. Just like a .NET Framework project, some of the generated files are temporary and shouldn't be kept in source control.
+The Yeoman generator for the SharePoint Framework creates the scaffolding (*folders and files*) for a new SharePoint Framework project. After building the project the first time, you'll see even more folders and files present. Just like a .NET Framework project, some of the generated files are temporary and shouldn't be kept in source control.
 
 Let's look at the folders in a newly created and built SharePoint Framework project:
 
@@ -49,7 +49,7 @@ Let's look at the folders in a newly created and built SharePoint Framework proj
 
 - **.vscode**: This folder contains Visual Studio Code specific files.
 - **config**: This folder contains configuration files used by the project's various build tasks. You'll edit these files as necessary depending on the types of components you're creating and for specific situations, such as the site to test extensions or adding references to external libraries.
-- **dist**: This folder, created automatically when you bundle the project, contains the JavaScript bundle & manifest created by the build process that will be used in deployment.
+- **dist**: This folder, created automatically when you bundle the project, contains the JavaScript bundle and manifest created by the build process that will be used in deployment.
 - **lib**: This folder, created automatically when you build the project, contains the temporary files generated from the compilation and transpilation of TypeScript to JavaScript and SCSS to CSS files.
 - **node_modules**: This folder is created automatically when installing package dependencies using the `npm install` command.
 - **src**: This folder contains all the source code for your project.
@@ -128,7 +128,7 @@ To uninstall an extension from tenant wide deployment, delete the extension's en
 
 |        Column        |  Type   |                                                        Description                                                         |
 | -------------------: | :-----: | -------------------------------------------------------------------------------------------------------------------------- |
-|                Title | string  | Title of the entry. Can be descriptive entry for the registration. Doesn’t have to match anything, just for your reference |
+|                Title | string  | Title of the entry. Can be descriptive entry for the registration. Doesn't have to match anything, just for your reference |
 |         Component ID |  GUID   | Manifest ID of the component. Has to be in GUID format and component must exists in the App Catalog.                       |
 | Component Properties | string  | Optional component properties.                                                                                             |
 |         Web Template | string  | Can be used to target extension only to specific web templates.                                                            |
