@@ -126,7 +126,7 @@ npm install @types/microsoft-graph --save-dev
 
 ## Update the tab to use the current Theme
 
-Locate and open the file that contains the React component used in the project: ./src/app/scripts/learnAuthTab/LearnAuthTab.tsx.
+Locate and open the file that contains the React component used in the project: **./src/app/scripts/learnAuthTab/LearnAuthTab.tsx**.
 
 Update the `import` statements in this file to include the components used in the configuration tab. Find the following `import` statement that imports the Fluent UI - React library:
 
@@ -137,7 +137,17 @@ import { Provider, Flex, Text, Button, Header } from "@fluentui/react";
 Replace the previous statement with the following import statement:
 
 ```typescript
-import { Provider, Flex, Text, Button, Header } from "@fluentui/react";
+import {
+  Provider,
+  Flex,
+  Text,
+  Button,
+  Header,
+  ThemePrepared,
+  themes,
+  List,
+  Icon
+} from "@fluentui/react";
 ```
 
 Update the state of the component to contain a property for the current Stardust theme. Locate the `ILearnAuthTabState` interface in the LearnAuthTab.tsx file, and add the following member to it:
@@ -437,7 +447,7 @@ The notification process triggers Microsoft Teams to close the pop-up window and
 
       // Only call notifySuccess or notifyFailure if this page is in the authentication pop-up
       if (window.opener) {
-        // if able to retrieve current user... 
+        // if able to retrieve current user...
         if (authContext.getCachedUser()) {
           // get access token for Microsoft Graph
           authContext.acquireToken("https://graph.microsoft.com", function (error, token) {
