@@ -2,7 +2,7 @@ This unit will first provide an overview of Microsoft identity. It will then cov
 
 ## Overview of Microsoft identity
 
-In today's world, physically protected networks aren't as common as they once were. Even your on-premises networks aren’t as secure as you think they are. The configuration of today's networks are driven by the needs of users and business that has changed over time.
+In today's world, physically protected networks aren't as common as they once were. Even your on-premises networks aren't as secure as you think they are. The configuration of today's networks are driven by the needs of users and business that has changed over time.
 
 ![Screenshot of digital transformation](../media/02-slide-01.png)
 
@@ -40,7 +40,7 @@ This is where identity platform can help. The goal of Microsoft identity is to m
 
 Let's look at how Microsoft identity approaches users, resources, and policies.
 
-### Users: Azure AD, B2B & B2C
+### Users: Azure AD, B2B and B2C
 
 Microsoft identity includes three solutions for addressing the largest number of users.
 
