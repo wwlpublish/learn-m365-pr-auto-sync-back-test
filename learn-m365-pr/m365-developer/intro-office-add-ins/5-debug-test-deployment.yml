@@ -1,0 +1,50 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.intro-office-add-ins.5-debug-test-deployment
+metadata:
+  title: Understand testing, debugging, and deployment options for Office Add-ins
+  description: In this unit, you'll explore testing, debugging, and deployment options for Office Add-ins. By the end of this unit, you should know how to sideload your add-in to test it, how to use Visual Studio, Visual Studio Code, or the browser developer tools to debug your add-in, and the different options available for deployment.
+  ms.date: 03/24/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Introduction
+durationInMinutes: 1
+content: |
+  [!include[](includes/5-debug-test-deployment.md)]
+quiz:
+  title: Testing, debugging, and deployment options for Office Add-ins
+  questions:
+  - content: "A developer is about to test and debug their new add-in. What's the best deployment option?"
+    choices:
+    - content: "AppSource"
+      isCorrect: false
+      explanation: "AppSource is where your add-in will be available to the public."
+    - content: "Exchange server"
+      isCorrect: false
+      explanation: "This option applies to Outlook add-ins only and to distribute to users in your organization."
+    - content: "Sideloading"
+      isCorrect: true
+      explanation: "You would sideload your add-in (that is, install it locally) so you can test and debug it on your machine."
+  - content: "To debug a custom function, a developer should use which tool?"
+    choices:
+    - content: "Visual Studio"
+      isCorrect: false
+      explanation: "You can use Visual Studio to debug many other types of add-ins but not custom functions."
+    - content: "Visual Studio Code"
+      isCorrect: true
+      explanation: "You can debug custom functions in Visual Studio Code."
+    - content: "Yeoman generator for Office Add-ins"
+      isCorrect: false
+      explanation: "You can use the Yeoman generator to create a custom function project."
+  - content: "A developer would like to publish their add-in on AppSource. What are the three (3) key areas they should validate?"
+    choices:
+    - content: "Browsers, Office applications, Operating systems"
+      isCorrect: true
+      explanation: "You should verify that your add-in works in the expected browsers, Office hosts, and operating system to ease the AppSource validation process."
+    - content: "Browsers, Office applications, Organizations"
+      isCorrect: false
+      explanation: "You won't be able to verify your add-in in external organizations. Users who install your add-in and give you feedback may belong to various organizations."
+    - content: "Monitor resolutions, Office applications, Operating systems"
+      isCorrect: false
+      explanation: "While it's important to verify how your add-in is displayed in expected monitor resolutions, it's not a key validation requirement as discussed in this module."

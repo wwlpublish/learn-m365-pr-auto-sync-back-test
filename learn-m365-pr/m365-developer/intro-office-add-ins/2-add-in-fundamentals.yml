@@ -1,0 +1,50 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.intro-office-add-ins.2-add-in-fundamentals
+metadata:
+  title: Understand Office Add-ins fundamentals
+  description: The Office Add-ins platform enables you to extend the functionality of Office applications. In this unit, you'll explore various ways you can use add-ins to extend and interact with Office applications. You'll also learn about configuring your add-in using the add-in's manifest file.
+  ms.date: 03/24/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Understand Office Add-ins fundamentals
+durationInMinutes: 14
+content: |
+  [!include[](includes/2-add-in-fundamentals.md)]
+quiz:
+  title: Fundamental concepts about Office Add-ins
+  questions:
+  - content: "Which of the following statements is true about Office Add-ins?"
+    choices:
+    - content: "Add-ins can run only in Office on Windows, Mac, and iPad/iOS."
+      isCorrect: false
+      explanation: "Add-ins can also run in Office in a web browser and in Outlook on Android."
+    - content: "Office 365 administrators can use centralized deployment to deploy add-ins across their organization."
+      isCorrect: true
+      explanation: "Office 365 administrators can use centralized deployment through their organization's O365 admin center."
+    - content: "A developer publishes their add-in to AppSource to hide it from the general public."
+      isCorrect: false
+      explanation: "A developer publishes their add-in to AppSource to make it available to the general public."
+  - content: "The user needs to sign in to access add-in functionality within an Office application. Which Office Add-in platform feature should the developer display to facilitate the sign-in process?"
+    choices:
+    - content: "add-in command"
+      isCorrect: false
+      explanation: "An add-in command, which is a custom ribbon button or context menu item, can be used as a trigger the sign-in process but the user can't enter any information to an add-in command."
+    - content: "custom function"
+      isCorrect: false
+      explanation: "A custom function may need the user to be signed in but isn't a means for them to enter their authentication information."
+    - content: "dialog"
+      isCorrect: true
+      explanation: "Use a dialog window to show the user the sign-in form."
+  - content: "What file defines the settings and capabilities of an Office Add-in?"
+    choices:
+    - content: "dialog file"
+      isCorrect: false
+      explanation: "You may have a file that configures an add-in's dialog but it won't define the add-in's settings and capabilities."
+    - content: "manifest file"
+      isCorrect: true
+      explanation: "The manifest file is where you configure your Office Add-in."
+    - content: "web.config file"
+      isCorrect: false
+      explanation: "The web.config file is where you configure an ASP.NET web application."
