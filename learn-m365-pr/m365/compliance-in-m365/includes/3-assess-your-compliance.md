@@ -18,7 +18,7 @@ The Service Trust Portal includes the following compliance tools:
 - **Regional Compliance**. Regionally specific compliance information, often in the form of legal opinions that describe Microsoft cloud services in different countries, like Australia, Poland, or the UK.
 - **Privacy**. Information about the capabilities in Microsoft services that you can use to address specific GDPR requirements, as well as GDPR documentation.
 
-You can access the Service Trust Portal by going to https://aka.ms/STP.
+You can access the Service Trust Portal by going to https://servicetrust.microsoft.com/.
 
 Here's an overview of the Service Trust Portal.
 
