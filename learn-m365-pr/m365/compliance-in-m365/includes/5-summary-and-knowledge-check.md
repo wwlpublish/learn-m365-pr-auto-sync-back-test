@@ -4,5 +4,5 @@ In this module, you've learned how Microsoft 365 helps you meet your compliance 
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- Access the Secure Trust Portal: https://aka.ms/STP.
-- [Whitepaper: Zero Standing Access](https://aka.ms/zerostandingaccess)
+- [Access the Secure Trust Portal](https://servicetrust.microsoft.com/)
+- [Whitepaper: Zero Standing Access](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2ClzC)
