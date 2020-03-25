@@ -12,6 +12,6 @@ You'll also learn how you can customize your add-in by persisting state, use Off
 
 ## Learning objectives
 
-1. Explain how Office Add-ins extend and customize Office applications
-1. Describe the development tooling, APIs, and deployment of Office Add-ins
-1. Understand how to incorporate data with Microsoft Graph and extend Office applications with Add-ins using the Office UI Fabric
+- Explain how Office Add-ins extend and customize Office applications
+- Describe the development tooling, APIs, and deployment of Office Add-ins
+- Understand how to incorporate data with Microsoft Graph and extend Office applications with Add-ins using the Office UI Fabric

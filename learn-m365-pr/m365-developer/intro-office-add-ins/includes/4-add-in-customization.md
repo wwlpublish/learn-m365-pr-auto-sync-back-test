@@ -33,8 +33,8 @@ As you build your add-in, you have many UI design factors to consider. The Offic
 
 Office UI Fabric has two (2) main areas:
 
-1. Fabric Core - Provides basic elements like font, icons, and color
-1. Fabric React components - Includes Fabric Core elements and adds input, navigation, and notification components, among others
+- Fabric Core - Provides basic elements like font, icons, and color
+- Fabric React components - Includes Fabric Core elements and adds input, navigation, and notification components, among others
 
 #### Fabric Core
 
