@@ -20,7 +20,6 @@ products:
 - m365
 - office-teams
 modules:
-- learn-m365.intro-microsoft-teams-apps
 - learn-m365.msteams-messaging-extensions
 - learn-m365.embedded-web-experiences
 - learn-m365.msteams-conversation-bots
