@@ -29,9 +29,9 @@ products:
   - office-add-ins
 units:
 - learn-m365.intro-office-add-ins.1-introduction
-- learn-m365.intro-office-add-ins.2-add-in-fundamentals
+- learn-m365.intro-office-add-ins.2-fundamentals
 - learn-m365.intro-office-add-ins.3-apis
-- learn-m365.intro-office-add-ins.4-add-in-customization
+- learn-m365.intro-office-add-ins.4-customization
 - learn-m365.intro-office-add-ins.5-debug-test-deployment
 - learn-m365.intro-office-add-ins.6-summary
 badge:

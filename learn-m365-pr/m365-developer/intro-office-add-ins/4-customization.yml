@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.intro-office-add-ins.4-add-in-customization
+uid: learn-m365.intro-office-add-ins.4-customization
 metadata:
   title: Understand how to customize Office Add-ins
   description: The Office Add-ins platform enables you to customize your add-in. In this unit, you'll explore how to customize your add-in by persisting state, and using Office UI Fabric and Microsoft Graph. By the end of this unit, you should know how to customize Office Add-ins using persisted state, Office UI Fabric, and Microsoft Graph.
@@ -11,7 +11,7 @@ metadata:
 title: Understand how to customize Office Add-ins
 durationInMinutes: 7
 content: |
-  [!include[](includes/4-add-in-customization.md)]
+  [!include[](includes/4-customization.md)]
 quiz:
   title: Customize Office Add-ins
   questions:
