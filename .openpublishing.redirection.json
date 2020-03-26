@@ -319,6 +319,171 @@
       "source_path": "learn-m365-pr/wwl-mba/introducing-microsoft-365-and-surface-for-business/5-summary-and-resources.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/discover-modern-workplace-solutions-m365-surface-business/",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/paths/extend-office-fundamentals/index.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/paths/m365-extend-fundamental/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365-developer/understand-office-add-ins-fundamentals/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365-developer/understand-office-add-ins-fundamentals/1-introduction.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/2-fundamentals",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365-developer/understand-office-add-ins-fundamentals/2-understand-task-panes-content-add-ins.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/2-fundamentals",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365-developer/understand-office-add-ins-fundamentals/3-understand-dialogs.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/2-fundamentals",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365-developer/understand-office-add-ins-fundamentals/4-understand-custom-functions.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/2-fundamentals",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365-developer/understand-office-add-ins-fundamentals/5-understand-add-in-commands.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/2-fundamentals",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365-developer/understand-office-add-ins-fundamentals/6-understand-manifest-purpose.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/2-fundamentals",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365-developer/understand-office-add-ins-fundamentals/7-knowledge-check.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/2-fundamentals",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365-developer/understand-office-add-ins-fundamentals/8-summary.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/2-fundamentals",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365-developer/understand-office-javascript-apis/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365-developer/understand-office-javascript-apis/1-introduction.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/3-apis.yml",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365-developer/understand-office-javascript-apis/2-understand-office-add-ins-programming-model.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/3-apis.yml",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365-developer/understand-office-javascript-apis/3-understand-office-add-ins-developer-tools.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/3-apis.yml",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365-developer/understand-office-javascript-apis/4-understand-excel-javascript-api-capabilities.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/3-apis.yml",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365-developer/understand-office-javascript-apis/5-understand-outlook-javascript-api-capabilities.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/3-apis.yml",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365-developer/understand-office-javascript-apis/6-understand-word-javascript-api-capabilities.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/3-apis.yml",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365-developer/understand-office-javascript-apis/7-understand-custom-functions-capabilities.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/3-apis.yml",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365-developer/understand-office-javascript-apis/8-knowledge-check.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/3-apis.yml",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365-developer/understand-office-javascript-apis/9-summary.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/3-apis.yml",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365-developer/understand-office-add-ins-customization/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365-developer/understand-office-add-ins-customization/1-introduction.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/4-customization",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365-developer/understand-office-add-ins-customization/2-understand-persisting-state-settings-options.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/4-customization",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365-developer/understand-office-add-ins-customization/3-understand-office-ui-fabric-office-add-ins.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/4-customization",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365-developer/understand-office-add-ins-customization/4-understand-microsoft-graph-office-add-ins.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/4-customization",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365-developer/understand-office-add-ins-customization/5-knowledge-check.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/4-customization",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365-developer/understand-office-add-ins-customization/6-summary.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/4-customization",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365-developer/understand-test-debug-deployment-options/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365-developer/understand-test-debug-deployment-options/1-introduction.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/5-debug-test-deployment",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365-developer/understand-test-debug-deployment-options/2-choose-deployment-option.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/5-debug-test-deployment",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365-developer/understand-test-debug-deployment-options/3-understand-test-debug-office-add-ins.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/5-debug-test-deployment",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365-developer/understand-test-debug-deployment-options/4-knowledge-check.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/5-debug-test-deployment",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365-developer/understand-test-debug-deployment-options/5-summary.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/5-debug-test-deployment",
+      "redirect_document_id": true
     }
   ]
 }
