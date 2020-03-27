@@ -1,8 +1,8 @@
-In this unit, you'll explore testing, debugging, and deployment options for Office Add-ins. By the end of this unit, you should know how to sideload your add-in to test it, how to use Visual Studio, Visual Studio Code, or the browser developer tools to debug your add-in, and the different options available for deployment.
+In this unit, you'll explore testing, debugging, and deployment options for Office add-ins. By the end of this unit, you should know how to sideload your add-in to test it, how to use Visual Studio, Visual Studio Code, or the browser developer tools to debug your add-in, and the different options available for deployment.
 
-## Choose the best deployment option for your Office Add-in
+## Choose the best deployment option for your Office add-in
 
-As you develop your Office Add-in and prepare to make it available to your users, you need to decide which deployment option is best. The following table lists factors you should consider.
+As you develop your Office add-in and prepare to make it available to your users, you need to decide which deployment option is best. The following table lists factors you should consider.
 
 |              Consider...              |                     Examples                      |
 | ------------------------------------- | ------------------------------------------------- |
@@ -25,7 +25,7 @@ You have several options for deploying your add-in. The following table notes ea
 | Exchange server        | Distribute add-in to users via Exchange.                            | Outlook add-in ready for use in an organization whose environment doesn't use Azure Active Directory identity service                                                          |
 | Network share          | Make add-in available to network users via a shared folder.         | Add-in development and users are on Windows                                                                                                                                    |
 
-## Understand testing and debugging concepts for Office Add-ins
+## Understand testing and debugging concepts for Office add-ins
 
 At various points during your add-in's life cycle, you need to verify functionality and fix bugs. You have several options for how you go about testing and debugging your add-in.
 
@@ -33,7 +33,7 @@ At various points during your add-in's life cycle, you need to verify functional
 
 You can locally install (sideload) your add-in for testing and debugging on Windows, Mac, and in a web browser. You can also sideload your Excel or Word add-in on an iPad. Use Node.js, Internet Information Services (IIS), or another preferred means to web host your add-in on your development machine.
 
-If you create your project using the Yeoman generator for Office Add-ins, you can run `npm run start` in a command-line prompt to start and sideload your add-in to Excel on Windows or `npm run start:web` to run it in a web browser, though you'll have to manually sideload to Excel in the browser.
+If you create your project using the Yeoman generator for Office add-ins, you can run `npm run start` in a command-line prompt to start and sideload your add-in to Excel on Windows or `npm run start:web` to run it in a web browser, though you'll have to manually sideload to Excel in the browser.
 
 If you create your project using Visual Studio (VS), you can run the project in VS debug mode and it will automatically sideload to Excel on Windows.
 
@@ -81,7 +81,7 @@ For your sideloaded task pane and content add-ins, you can use the Safari Web In
 
 You can validate your add-in's manifest using any of these options:
 
-- Yeoman generator for Office Add-ins
+- Yeoman generator for Office add-ins
 - office-addin-manifest `validate` command
 - libxml
 
@@ -105,4 +105,4 @@ AppSource validation policy 4.12 discusses the expected client and platform supp
 
 ## Summary
 
-In this unit, you explored testing, debugging, and deployment options for Office Add-ins. You should now know how to sideload your add-in to test it, how to use Visual Studio, Visual Studio Code, or the browser developer tools to debug your add-in, and the different options available for deployment.
+In this unit, you explored testing, debugging, and deployment options for Office add-ins. You should now know how to sideload your add-in to test it, how to use Visual Studio, Visual Studio Code, or the browser developer tools to debug your add-in, and the different options available for deployment.

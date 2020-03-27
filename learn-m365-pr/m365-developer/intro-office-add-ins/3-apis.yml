@@ -2,7 +2,7 @@
 uid: learn-m365.intro-office-add-ins.3-apis
 metadata:
   title: Understand Office JavaScript APIs
-  description: In this unit, you'll explore the Office Add-ins programming model, developer tools, and the capabilities of the Office JavaScript APIs for Excel, Outlook, and Word.
+  description: In this unit, you'll explore the Office add-ins programming model, developer tools, and the capabilities of the Office JavaScript APIs for Excel, Outlook, and Word.
   ms.date: 03/24/2020
   author: andrewconnell
   ms.author: v-johnco
@@ -13,7 +13,7 @@ durationInMinutes: 21
 content: |
   [!include[](includes/3-apis.md)]
 quiz:
-  title: Office Add-ins programming model and Office JavaScript APIs
+  title: Office add-ins programming model and Office JavaScript APIs
   questions:
   - content: "Which of the following statements is true about Office JavaScript APIs?"
     choices:
@@ -58,7 +58,7 @@ quiz:
       explanation: "You can use a Visual Studio template to create an add-in."
     - content: "Yeoman generator"
       isCorrect: false
-      explanation: "You can use a Yeoman generator for Office Add-ins template to create an add-in."
+      explanation: "You can use a Yeoman generator for Office add-ins template to create an add-in."
   - content: "A developer is setting up an add-in with a custom function and a task pane. How should data be shared between them?"
     choices:
     - content: "Dialog API"
