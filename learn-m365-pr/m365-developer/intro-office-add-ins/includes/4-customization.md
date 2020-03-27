@@ -1,8 +1,8 @@
-The Office Add-ins platform enables you to customize your add-in. In this module, you'll explore how to customize your add-in by persisting state, and using Office UI Fabric and Microsoft Graph. By the end of this module, you should know how to customize Office Add-ins using persisted state, Office UI Fabric, and Microsoft Graph.
+The Office add-ins platform enables you to customize your add-in. In this module, you'll explore how to customize your add-in by persisting state, and using Office UI Fabric and Microsoft Graph. By the end of this module, you should know how to customize Office add-ins using persisted state, Office UI Fabric, and Microsoft Graph.
 
 ## Understand the options for persisting state and settings
 
-The Office Add-ins platform provides several ways for your add-in to persist state and settings. Your options depend on the Office applications you plan to support and on the type of add-in you plan to develop.
+The Office add-ins platform provides several ways for your add-in to persist state and settings. Your options depend on the Office applications you plan to support and on the type of add-in you plan to develop.
 
 ### Options to persist state and settings
 
@@ -22,7 +22,7 @@ You can also use HTML5 web storage and other techniques available through the ad
 > [!IMPORTANT]
 > Don't store passwords and sensitive personally identifiable information (PII) on the user's device.
 
-## Understand Office UI Fabric in Office Add-ins
+## Understand Office UI Fabric in Office add-ins
 
 As you build your add-in, you have many UI design factors to consider. The Office UI Fabric provides elements that adhere to Office branding so your add-in looks like a natural extension of Office.
 
@@ -70,9 +70,9 @@ Recommended components you can use in your add-in are as follows:
 - Toggle
 
 > [!TIP]
-> You can use the Yeoman generator for Office Add-ins to create a project that references Fabric React. An available project type is **Office Add-in Task Pane project using React framework**.
+> You can use the Yeoman generator for Office add-ins to create a project that references Fabric React. An available project type is **Office add-in Task Pane project using React framework**.
 
-## Understand when and how to use Microsoft Graph in Office Add-ins
+## Understand when and how to use Microsoft Graph in Office add-ins
 
 Your add-in can connect to Microsoft Graph and access the user's data so they can accomplish more useful and productive scenarios. Example tasks are:
 
@@ -119,4 +119,4 @@ Depending on your development choices, you can use one of the following librarie
 
 ## Summary
 
-The Office Add-ins platform enables you to customize your add-in. In this module, you explored how to customize your add-in by persisting state, and using Office UI Fabric and Microsoft Graph. By the end of this module, you should know how to customize Office Add-ins using persisted state, Office UI Fabric, and Microsoft Graph.
+The Office add-ins platform enables you to customize your add-in. In this module, you explored how to customize your add-in by persisting state, and using Office UI Fabric and Microsoft Graph. By the end of this module, you should know how to customize Office add-ins using persisted state, Office UI Fabric, and Microsoft Graph.

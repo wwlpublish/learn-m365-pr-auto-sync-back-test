@@ -1,8 +1,8 @@
-The Office Add-ins platform enables you to extend the functionality of Office applications. In this unit, you'll explore various ways you can use add-ins to extend and interact with Office applications. You'll also learn about configuring your add-in using the add-in's manifest file.
+The Office add-ins platform enables you to extend the functionality of Office applications. In this unit, you'll explore various ways you can use add-ins to extend and interact with Office applications. You'll also learn about configuring your add-in using the add-in's manifest file.
 
 ## Understand task pane and content add-ins
 
-Office Add-ins provide several options for how your solution can interact with an Office application. In this unit, we discuss two of those options:
+Office add-ins provide several options for how your solution can interact with an Office application. In this unit, we discuss two of those options:
 
 - Task pane
 - Content
@@ -61,9 +61,9 @@ As described previously, an add-in's manifest file defines the settings and capa
 </OfficeApp>
 ```
 
-## Understand Office Add-ins dialogs
+## Understand Office add-ins dialogs
 
-The Office Add-ins platform enables you to display a dialog for your users to:
+The Office add-ins platform enables you to display a dialog for your users to:
 
 - Sign into an integrated service (for example, authenticate with Microsoft Account, Google, or Facebook).
 - Confirm the user's action.
@@ -75,9 +75,9 @@ The dialog window isn't modal, meaning that your user can continue to interact w
 
 *Dialog displayed in an Office application*
 
-## Understand Office Add-ins custom functions
+## Understand Office add-ins custom functions
 
-Office Add-ins enable you to create custom JavaScript or TypeScript functions that can be accessed like built-in Excel functions such as `SUM()`.
+Office add-ins enable you to create custom JavaScript or TypeScript functions that can be accessed like built-in Excel functions such as `SUM()`.
 
 The following image shows a custom function called `SPHEREVOLUME` being entered in Excel.
 
@@ -197,7 +197,7 @@ Add-in commands are available in Excel, Outlook, OneNote, PowerPoint, and Word a
 
 ## Understand the purpose of the add-in manifest
 
-An Office Add-in's XML manifest file defines the settings and capabilities of the add-in. You can configure it to control how your add-in is rendered and behaves in the targeted Office applications.
+An Office add-in's XML manifest file defines the settings and capabilities of the add-in. You can configure it to control how your add-in is rendered and behaves in the targeted Office applications.
 
 ### What the manifest defines
 
@@ -221,4 +221,4 @@ An add-in manifest is used in the following ways:
 
 ## Summary
 
-The Office Add-ins platform enables you to extend the functionality of Office applications. In this unit, you explored various ways you can use add-ins to extend and interact with Office applications. You also learned about configuring your add-in using the add-in's manifest file.
+The Office add-ins platform enables you to extend the functionality of Office applications. In this unit, you explored various ways you can use add-ins to extend and interact with Office applications. You also learned about configuring your add-in using the add-in's manifest file.

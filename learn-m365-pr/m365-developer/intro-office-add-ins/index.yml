@@ -1,20 +1,20 @@
 ### YamlMime:Module
 uid: learn-m365.intro-office-add-ins
 metadata:
-  title: Introduction to Office client customization with Add-ins
-  description: Learn how to customize and extend Office applications including Word, Excel, and Outlook with Office Add-ins
+  title: Introduction to Office client customization with add-ins
+  description: Learn how to customize and extend Office applications including Word, Excel, and Outlook with Office add-ins
   ms.date: 03/24/2020
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Introduction to Office client customization with Add-ins
-summary: The Office Add-ins platform enables you to extend the functionality of Office applications including Excel, Outlook, and Excel. In this module, you'll explore various ways you can use add-ins to extend and interact with Office applications. The units in this module explain the Add-in programming model, developer tools, how to debug, deployment options, and the capabilities available to developers who want to customize. You'll also learn how you can customize your add-in by persisting state, use Office UI Fabric to create productive experiences and incorporate data with Microsoft Graph.
+title: Introduction to Office client customization with add-ins
+summary: The Office add-ins platform enables you to extend the functionality of Office applications including Excel, Outlook, and Excel. In this module, you'll explore various ways you can use add-ins to extend and interact with Office applications. The units in this module explain the add-in programming model, developer tools, how to debug, deployment options, and the capabilities available to developers who want to customize. You'll also learn how you can customize your add-in by persisting state, use Office UI Fabric to create productive experiences and incorporate data with Microsoft Graph.
 abstract: |
   At the end of this module, you should be able to:
-  - Explain how Office Add-ins extend and customize Office applications
-  - Describe the development tooling, APIs, and deployment of Office Add-ins
-  - Understand how to incorporate data with Microsoft Graph and extend Office applications with Add-ins using the Office UI Fabric
+  - Explain how Office add-ins extend and customize Office applications
+  - Describe the development tooling, APIs, and deployment of Office add-ins
+  - Understand how to incorporate data with Microsoft Graph and extend Office applications with add-ins using the Office UI Fabric
 prerequisites: |
   - Experience using Office clients
   - Experience developing web applications
