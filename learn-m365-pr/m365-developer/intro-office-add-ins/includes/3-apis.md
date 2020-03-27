@@ -1,8 +1,8 @@
-In this unit, you'll explore the Office Add-ins programming model, developer tools, and the capabilities of the Office JavaScript APIs for Excel, Outlook, and Word.
+In this unit, you'll explore the Office add-ins programming model, developer tools, and the capabilities of the Office JavaScript APIs for Excel, Outlook, and Word.
 
-## Understand the Office Add-ins programming model
+## Understand the Office add-ins programming model
 
-The Office Add-in programming model relies on two JavaScript object models:
+The Office add-in programming model relies on two JavaScript object models:
 
 - Host-specific JavaScript API - Host-specific APIs for Excel and Word provide strongly-typed objects that you can use to access specific elements in the host application. For example, the Excel API contains objects that represent worksheets, ranges, tables, charts, and more.
 - Common API - Introduced with Office 2013, the Common API enables you to access features such as:
@@ -14,7 +14,7 @@ Custom functions use a slightly different programming model and will be covered 
 
 ### Office JavaScript API requirement sets
 
-You may not always have control over the version of Office your users have installed. Depending on the version of Office and platform it runs on, there are different APIs and features supported for your add-in. For example, Office 2016 supports more capabilities than Office 2013. To handle this situation, we provide requirement sets to help you determine whether an Office host supports the capabilities you need in your Office Add-in.
+You may not always have control over the version of Office your users have installed. Depending on the version of Office and platform it runs on, there are different APIs and features supported for your add-in. For example, Office 2016 supports more capabilities than Office 2013. To handle this situation, we provide requirement sets to help you determine whether an Office host supports the capabilities you need in your Office add-in.
 
 Requirement sets can be specific to Office hosts, such as an ExcelApi 1.7 set, or common to multiple hosts, such as the Dialog API. Requirement set support varies by Office host and host version.
 
@@ -45,7 +45,7 @@ To use these APIs, reference them on the Office.js content delivery network (CDN
 <script src="https://appsforoffice.microsoft.com/lib/beta/hosted/office.js" type="text/javascript"></script>
 ```
 
-Along with adding your preferred CDN link, all Office Add-ins require an `Office.onReady()` call. You put your add-in code in this method, and it gets called once the Office.js library has initialized. Inside the `onReady()` method, you can determine which host your add-in is running in by checking the `Office.HostType` enum value (for example, `Excel` or `Word`). You can check which platform your add-in is running on with an `Office.PlatformType` enum value (for example, `PC` or `Mac`).
+Along with adding your preferred CDN link, all Office add-ins require an `Office.onReady()` call. You put your add-in code in this method, and it gets called once the Office.js library has initialized. Inside the `onReady()` method, you can determine which host your add-in is running in by checking the `Office.HostType` enum value (for example, `Excel` or `Word`). You can check which platform your add-in is running on with an `Office.PlatformType` enum value (for example, `PC` or `Mac`).
 
 If you're using additional JavaScript frameworks that include their own initialization handler or tests, they should be placed within the response to `Office.onReady()`. For example, you would reference JQuery's `$(document).ready()` function as shown in the following code example.
 
@@ -62,7 +62,7 @@ Office.onReady(function() {
 
 When you work with a document, requested read or write actions are batched up using a proxy object. Your API calls don't actually read or update the underlying document until you call the `sync()` method.
 
-For better security, your add-in runs in a sandboxed JavaScript environment that can't directly access the document, or other add-ins. The Office Add-ins platform provides a `RequestContext` object that in turn provides proxy objects to represent the document (such as worksheets, ranges, and tables). The `RequestContext` is typically passed to your code as a parameter named `context`. You can use the `context` object to get any proxy objects you need to work with the document.
+For better security, your add-in runs in a sandboxed JavaScript environment that can't directly access the document, or other add-ins. The Office add-ins platform provides a `RequestContext` object that in turn provides proxy objects to represent the document (such as worksheets, ranges, and tables). The `RequestContext` is typically passed to your code as a parameter named `context`. You can use the `context` object to get any proxy objects you need to work with the document.
 
 Before you can read the properties of a proxy object, you must load the properties to populate the proxy object with data from the Office document. You do this by calling the `load()` method on the proxy object for any properties you need. Then call the `context.sync()` method, which will load all of the requested properties. For example, if you create a proxy range object to work with a user-selected range in an Excel worksheet, and then want to read the selected range's `address` property, you need to load the `address` property before you can read it. To request properties of a proxy object to be loaded, call the `load()` method on the object and specify the properties to load.
 
@@ -84,22 +84,22 @@ Excel.run(function (context) {
 });
 ```
 
-## Understand Office Add-ins developer tools
+## Understand Office add-ins developer tools
 
-You can use Office Add-ins developer tools to create an Office Add-in, explore Office JavaScript APIs, and validate an Office Add-in manifest file. In this unit, you'll learn about the following tools:
+You can use Office add-ins developer tools to create an Office add-in, explore Office JavaScript APIs, and validate an Office add-in manifest file. In this unit, you'll learn about the following tools:
 
-- Yeoman generator for Office Add-ins
+- Yeoman generator for Office add-ins
 - Visual Studio
 - Script Lab
 - Manifest validator
 
-### Creating an Office Add-in
+### Creating an Office add-in
 
-You can create an Office Add-in by using the Yeoman generator for Office Add-ins or Visual Studio.
+You can create an Office add-in by using the Yeoman generator for Office add-ins or Visual Studio.
 
-#### Yeoman generator for Office Add-ins
+#### Yeoman generator for Office add-ins
 
-The Yeoman generator for Office Add-ins can be used to create a Node.js Office Add-in project that can be managed with Visual Studio Code or any other editor. The generator can create Office Add-ins for:
+The Yeoman generator for Office add-ins can be used to create a Node.js Office add-in project that can be managed with Visual Studio Code or any other editor. The generator can create Office add-ins for:
 
 - Excel
 - OneNote
@@ -111,9 +111,9 @@ The Yeoman generator for Office Add-ins can be used to create a Node.js Office A
 
 You can choose to create the project using HTML, CSS, and JavaScript, or using Angular or React. TypeScript is also an option.
 
-To create an Office Add-in project with the Yeoman generator, complete the following steps.
+To create an Office add-in project with the Yeoman generator, complete the following steps.
 
-1. To globally install Yeoman and the Yeoman generator for Office Add-ins using npm, the Node package manager, run the following command.
+1. To globally install Yeoman and the Yeoman generator for Office add-ins using npm, the Node package manager, run the following command.
 
     ```bash
     npm install -g yo generator-office
@@ -127,14 +127,14 @@ To create an Office Add-in project with the Yeoman generator, complete the follo
 
 #### Visual Studio
 
-Visual Studio can be used to create Office Add-ins for Excel, Word, PowerPoint, or Outlook. An Office Add-in project gets created as part of a Visual Studio solution, which means you can use Visual Studio features like selecting **Start** or choosing <kbd>F5</kbd> to automatically run your add-in locally on IIS. Office Add-in projects that you create with Visual Studio use HTML, CSS, and JavaScript.
+Visual Studio can be used to create Office add-ins for Excel, Word, PowerPoint, or Outlook. An Office add-in project gets created as part of a Visual Studio solution, which means you can use Visual Studio features like selecting **Start** or choosing <kbd>F5</kbd> to automatically run your add-in locally on IIS. Office add-in projects that you create with Visual Studio use HTML, CSS, and JavaScript.
 
-To create an Office Add-in with Visual Studio, create a new C# or Visual Basic project and choose one of the following project types:
+To create an Office add-in with Visual Studio, create a new C# or Visual Basic project and choose one of the following project types:
 
-- Excel Web Add-in
-- Outlook Web Add-in
-- PowerPoint Web Add-in
-- Word Web Add-in
+- Excel Web add-in
+- Outlook Web add-in
+- PowerPoint Web add-in
+- Word Web add-in
 
 ### Explore the APIs using Script Lab
 
@@ -144,9 +144,9 @@ The following video shows Script Lab in action.
 
 [![Preview video showing Script Lab running in Excel, Word, and PowerPoint.](../media/03-screenshot-wide-youtube.png 'Script Lab preview video')](https://aka.ms/scriptlabvideo)
 
-### Validating an Office Add-in's manifest file
+### Validating an Office add-in's manifest file
 
-The Office Add-ins manifest validator examines your add-in's manifest file to determine if it's correct and complete. If you created your add-in project using the Yeoman generator for Office Add-ins (version 1.1.17 or later), you can validate the manifest by running the following command in the root directory of the project.
+The Office add-ins manifest validator examines your add-in's manifest file to determine if it's correct and complete. If you created your add-in project using the Yeoman generator for Office add-ins (version 1.1.17 or later), you can validate the manifest by running the following command in the root directory of the project.
 
 ```bash
 npm run validate
@@ -166,20 +166,20 @@ If you didn't use the Yeoman generator to create your add-in project, you can va
 
 ## Understand the capabilities of the Excel JavaScript API
 
-You can use Office Add-ins developer tools to create an Office Add-in, explore Office JavaScript APIs, and validate an Office Add-in manifest file. In this unit, you'll learn about the following tools:
+You can use Office add-ins developer tools to create an Office add-in, explore Office JavaScript APIs, and validate an Office add-in manifest file. In this unit, you'll learn about the following tools:
 
-- Yeoman generator for Office Add-ins
+- Yeoman generator for Office add-ins
 - Visual Studio
 - Script Lab
 - Manifest validator
 
-### Creating an Office Add-in
+### Creating an Office add-in
 
-You can create an Office Add-in by using the Yeoman generator for Office Add-ins or Visual Studio.
+You can create an Office add-in by using the Yeoman generator for Office add-ins or Visual Studio.
 
-#### Yeoman generator for Office Add-ins
+#### Yeoman generator for Office add-ins
 
-The Yeoman generator for Office Add-ins can be used to create a Node.js Office Add-in project that can be managed with Visual Studio Code or any other editor. The generator can create Office Add-ins for:
+The Yeoman generator for Office add-ins can be used to create a Node.js Office add-in project that can be managed with Visual Studio Code or any other editor. The generator can create Office add-ins for:
 
 - Excel
 - OneNote
@@ -191,9 +191,9 @@ The Yeoman generator for Office Add-ins can be used to create a Node.js Office A
 
 You can choose to create the project using HTML, CSS, and JavaScript, or using Angular or React. TypeScript is also an option.
 
-To create an Office Add-in project with the Yeoman generator, complete the following steps.
+To create an Office add-in project with the Yeoman generator, complete the following steps.
 
-1. To globally install Yeoman and the Yeoman generator for Office Add-ins using npm, the Node package manager, run the following command.
+1. To globally install Yeoman and the Yeoman generator for Office add-ins using npm, the Node package manager, run the following command.
 
     ```bash
     npm install -g yo generator-office
@@ -207,14 +207,14 @@ To create an Office Add-in project with the Yeoman generator, complete the follo
 
 #### Visual Studio
 
-Visual Studio can be used to create Office Add-ins for Excel, Word, PowerPoint, or Outlook. An Office Add-in project gets created as part of a Visual Studio solution, which means you can use Visual Studio features like selecting **Start** or choosing <kbd>F5</kbd> to automatically run your add-in locally on IIS. Office Add-in projects that you create with Visual Studio use HTML, CSS, and JavaScript.
+Visual Studio can be used to create Office add-ins for Excel, Word, PowerPoint, or Outlook. An Office add-in project gets created as part of a Visual Studio solution, which means you can use Visual Studio features like selecting **Start** or choosing <kbd>F5</kbd> to automatically run your add-in locally on IIS. Office add-in projects that you create with Visual Studio use HTML, CSS, and JavaScript.
 
-To create an Office Add-in with Visual Studio, create a new C# or Visual Basic project and choose one of the following project types:
+To create an Office add-in with Visual Studio, create a new C# or Visual Basic project and choose one of the following project types:
 
-- Excel Web Add-in
-- Outlook Web Add-in
-- PowerPoint Web Add-in
-- Word Web Add-in
+- Excel Web add-in
+- Outlook Web add-in
+- PowerPoint Web add-in
+- Word Web add-in
 
 ### Explore the APIs using Script Lab
 
@@ -224,9 +224,9 @@ The following video shows Script Lab in action.
 
 [![Preview video showing Script Lab running in Excel, Word, and PowerPoint.](../media/03-screenshot-wide-youtube.png 'Script Lab preview video')](https://aka.ms/scriptlabvideo)
 
-### Validating an Office Add-in's manifest file
+### Validating an Office add-in's manifest file
 
-The Office Add-ins manifest validator examines your add-in's manifest file to determine if it's correct and complete. If you created your add-in project using the Yeoman generator for Office Add-ins (version 1.1.17 or later), you can validate the manifest by running the following command in the root directory of the project.
+The Office add-ins manifest validator examines your add-in's manifest file to determine if it's correct and complete. If you created your add-in project using the Yeoman generator for Office add-ins (version 1.1.17 or later), you can validate the manifest by running the following command in the root directory of the project.
 
 ```bash
 npm run validate
@@ -421,7 +421,7 @@ To make a module add-in, include the module extension point in your add-in's man
 
 To develop an Outlook add-in, use:
 
-- The Yeoman generator for Office Add-ins
+- The Yeoman generator for Office add-ins
 - Visual Studio
 
 You can use a template as your base then add your functionality.
@@ -524,7 +524,7 @@ Word.run(function (context) {
 
 To develop a Word add-in, use:
 
-- The Yeoman generator for Office Add-ins
+- The Yeoman generator for Office add-ins
 - Visual Studio
 
 If you want to explore the APIs more, the Script Lab add-in is recommended. There, you'll see many TypeScript and JavaScript snippets and be able to experiment with Word documents without creating an entire add-in.
@@ -576,7 +576,7 @@ Custom functions have a webpage that loads the custom functions runtime. Since t
 <script src="https://appsforoffice.microsoft.com/lib/1/hosted/custom-functions-runtime.js" type="text/javascript"></script>
 ```
 
-Typically custom functions are combined with a task pane in the same add-in. If you create your add-in project using the Yeoman generator for Office Add-ins, the project will have a webpage for the custom functions, and a web page with UI for the task pane.
+Typically custom functions are combined with a task pane in the same add-in. If you create your add-in project using the Yeoman generator for Office add-ins, the project will have a webpage for the custom functions, and a web page with UI for the task pane.
 
 ### Using storage API to communicate with the task pane
 
@@ -625,11 +625,11 @@ OfficeRuntime.displayWebDialog('https://myDomain/myDialog.html', {height: 30, wi
 
 ### Creating a custom functions project
 
-You can create a custom functions project by using the Yeoman generator for Office Add-ins. Run `yo office` to start the generator, then choose the **Excel Custom Functions Add-in project** option. Once created, your project will contain a **/src/taskpane/** folder for the task pane source files, and a **/src/functions** folder for the custom function source files.
+You can create a custom functions project by using the Yeoman generator for Office add-ins. Run `yo office` to start the generator, then choose the **Excel Custom Functions add-in project** option. Once created, your project will contain a **/src/taskpane/** folder for the task pane source files, and a **/src/functions** folder for the custom function source files.
 
 > [!NOTE]
 > You can't create a custom functions project in Visual Studio.
 
 ## Summary
 
-In this unit, you explored the Office Add-ins programming model, developer tools, and the capabilities of the Office JavaScript APIs for Excel, Outlook, and Word.
+In this unit, you explored the Office add-ins programming model, developer tools, and the capabilities of the Office JavaScript APIs for Excel, Outlook, and Word.
