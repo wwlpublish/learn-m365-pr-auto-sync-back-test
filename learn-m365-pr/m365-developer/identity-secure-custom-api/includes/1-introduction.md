@@ -1,6 +1,6 @@
 Many solutions involve creating web APIs to expose functionality to different clients and consumers. Developers can secure these APIs using Microsoft identity to ensure only approved apps can access the web APIs provided they've been granted the necessary permissions.
 
-In this module, you’ll learn how to secure a web API with Microsoft identity and how to call it from another application.
+In this module, you'll learn how to secure a web API with Microsoft identity and how to call it from another application.
 
 ## Prerequisites
 
@@ -18,3 +18,5 @@ In this module, you’ll learn how to secure a web API with Microsoft identity a
 ## Additional resources
 
 Refer to the following repository for additional resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [04 Secure custom APIs with Microsoft Identity](https://github.com/officedev/TrainingContent/tree/master/Identity/04%20Securing%20custom%20APIs).
+
+This module is also available as the screencast [Secure custom APIs with Microsoft Identity](https://www.youtube.com/watch?v=gXb6t3gjnOA).

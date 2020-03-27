@@ -1,6 +1,6 @@
 Role-based access control (RBAC) is a popular mechanism to enforce authorization in applications. The administrator assigns roles to different users and groups to control who can access to what content and functionality. Using RBAC with Application Roles and Role Claims, developers can securely enforce authorization in their apps with little effort on their part. Another approach is to use Azure AD Groups and Group Claims.
 
-In this module, you’ll learn how to use both Azure AD Groups and Application Roles to provide fine grained access control to an application.
+In this module, you'll learn how to use both Azure AD Groups and Application Roles to provide fine grained access control to an application.
 
 ## Prerequisites
 
@@ -18,3 +18,5 @@ In this module, you’ll learn how to use both Azure AD Groups and Application R
 ## Additional resources
 
 Refer to the following repository for additional resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [05 - Work with users, groups, and roles in custom apps](https://github.com/officedev/TrainingContent/tree/master/Identity/05%20Users%20Groups%20Roles).
+
+This module is also available as the screencast [Work with users, groups, and roles in custom apps](https://www.youtube.com/watch?v=YPyjneHE9HM).
