@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.office-add-ins-word.7-exercise-content-controls
+metadata:
+  title: Exercise - Create content controls and replace content
+  description: In this exercise, you'll learn how to create rich text content controls in the document, and then how to insert and replace content in the controls.
+  ms.date: 03/xx31/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Create content controls and replace content
+durationInMinutes: 12
+content: |
+  [!include[](includes/7-exercise-content-controls.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "How can a Word add-in get a reference to a content control in the current document?"
+    choices:
+    - content: "Call the `ContentControlCollection.getByTag('tag')` method to get a control by it's tag."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Call the `ContentControlCollection.getById('ID')` method to get a control by it's unique ID."
+      isCorrect: false
+      explanation: "The `getById()` method doesn't exist on the `ContentControlCollection` object."
+    - content: "Call the `context.document.getSelection().getContentControl('tag')` method to get a control by it's tag."
+      isCorrect: false
+      explanation: "The `getContentControl()` method doesn't exist on the selection object."
+  - content: "Which of the following options is used to update the contents of a content control?"
+    choices:
+    - content: "Use the `setValue()` method on the control after obtaining a reference to an existing content control."
+      isCorrect: false
+      explanation: "The `setValue()` method doesn't exist on the content control object."
+    - content: "Use the `insertText` method on the control after obtaining a reference to an existing content control."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Use the `value` property on the control after obtaining a reference to an existing content control."
+      isCorrect: false
+      explanation: "The `value` property doesn't exist on the content control object."
