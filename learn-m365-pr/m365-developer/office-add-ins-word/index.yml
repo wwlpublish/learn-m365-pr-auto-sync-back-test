@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn-m365.office-add-ins-word
+metadata:
+  title: Build Office add-ins for Word
+  description: This module walks through development of Office add-ins for Microsoft Word.
+  ms.date: 03/xx31/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Build Office add-ins for Word
+summary: Microsoft Office clients enable developers to create add-ins that extend Microsoft Word with custom functionality. Through a JavaScript API, developers can manipulate the content in a Word document from an app running in the task pane. In this module, you'll learn how to build a Word add-in that inserts (and replaces) text ranges, paragraphs, images, HTML, tables, and content controls. You'll also learn how to format text and how to insert (and replace) content in content controls.
+abstract: |
+  By the end of this module, you will be able to:
+  - Create a Word add-in that uses the Word JavaScript API to manipulate a document
+  - Demonstrate how to add and edit content in a Word document
+  - Explain how to deploy and host a custom add-in for Microsoft Word
+prerequisites: |
+  - Experience using Microsoft Word
+  - Experience developing web applications
+  - Experience developing web applications with JavaScript and TypeScript
+  - Experience using Visual Studio Code at the intermediate level
+iconUrl: /learn/achievements/office-add-ins-word.svg
+levels:
+  - intermediate
+roles:
+  - developer
+products:
+  - m365
+  - office-add-ins
+units:
+  - learn-m365.office-add-ins-word.1-introduction
+  - learn-m365.office-add-ins-word.2-text-styles-selections
+  - learn-m365.office-add-ins-word.3-exercise-text-formatting
+  - learn-m365.office-add-ins-word.4-html-images-tables
+  - learn-m365.office-add-ins-word.5-exercise-images-tables
+  - learn-m365.office-add-ins-word.6-content-controls
+  - learn-m365.office-add-ins-word.7-exercise-content-controls
+  - learn-m365.office-add-ins-word.8-summary
+badge:
+  uid: learn-m365.office-add-ins-word.badge

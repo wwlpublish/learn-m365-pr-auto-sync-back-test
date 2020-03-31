@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.office-add-ins-word.5-exercise-images-tables
+metadata:
+  title: Exercise - Insert and replace images, HTML, and tables
+  description: In this exercise, you'll update the add-in you created in a previous exercise to add images, HTML, and tables to a Word document.
+  ms.date: 03/xx31/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Insert and replace images, HTML, and tables
+durationInMinutes: 21
+content: |
+  [!include[](includes/5-exercise-images-tables.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "Which of the following options will return the selected range of text in the current document?"
+    choices:
+    - content: "After obtaining a reference to the document with the `context.document` property, call the `getRange(RangeType.SelectedText)` method."
+      isCorrect: false
+      explanation: "The `getRange()` method doesn't exist. Use the `getSelectedText()` method to get the currently selected text."
+    - content: "After obtaining a reference to the document with the `context.document` property, call the `getSelectedRange()` method on the document."
+      isCorrect: false
+      explanation: "The `getSelectedRange()` method doesn't exist. Use the `getSelectedText()` method to get the currently selected text."
+    - content: "After obtaining a reference to the document with the `context.document` property, call the `getSelectedText()` method on the document."
+      isCorrect: true
+      explanation: "Correct!"
+  - content: "Which of the following options will insert a new image from a base 64 string at the end of a Word document?"
+    choices:
+    - content: "After obtaining a reference to the document with the `context.document` property, call the `context.document.body.insertInlinePictureFromBase64(base64Image, \"End\");` method."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "After obtaining a reference to the document with the `context.document` property, call the `context.document.body.insertInlinePictureFromString(base64Image, \"End\");` method."
+      isCorrect: false
+      explanation: "The `insertInlinePictureFromString()` method doesn't exist. Use the `insertInlinePictureFromBase64()` method to add the image."
+    - content: "After obtaining a reference to the document with the `context.document` property, call the `context.document.body.insertPicture(base64Image, \"End\");` method."
+      isCorrect: false
+      explanation: "The `insertPicture()` method doesn't exist. Use the `insertInlinePictureFromBase64()` method to add the image."
