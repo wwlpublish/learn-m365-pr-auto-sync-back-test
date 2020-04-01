@@ -1,0 +1,35 @@
+### YamlMime:Module
+uid: learn-m365.m365-messaging-configure-transport-architecture
+metadata:
+  title: Deliver mail to mailboxes outside Microsoft 365 by using connectors
+  description: Use connectors in Exchange Online to route email to on-premises email systems and to secure email to partner organizations 
+  ms.date: 03/24/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Deliver mail to mailboxes outside Microsoft 365 by using connectors
+summary: Use connectors in Exchange Online to route email to on-premises email systems and to secure email to partner organizations 
+abstract: |
+  At the end of this module, you should be able to:
+  - Explain how connectors route email.
+  - Describe how to create and configure connectors. 
+  - Describe how to use connectors to secure email transfer to partner organizations.
+prerequisites: None
+iconUrl: http://via.placeholder.com/120x120
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-365
+- office-exchange-server
+units:
+- learn-m365.m365-messaging-configure-transport-architecture.introduction
+- learn-m365.m365-messaging-configure-transport-architecture.plan-connectors
+- learn-m365.m365-messaging-configure-transport-architecture.configure-connectors
+- learn-m365.m365-messaging-configure-transport-architecture.email-partner-orgs
+- learn-m365.m365-messaging-configure-transport-architecture.summary-knowledge-check
+badge: 
+  uid: learn-m365.m365-messaging-configure-transport-architecture.badge
