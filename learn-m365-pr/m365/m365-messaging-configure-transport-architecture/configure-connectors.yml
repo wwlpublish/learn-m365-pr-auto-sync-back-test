@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-messaging-configure-transport-architecture.configure-connectors
+title: Create and configure connectors to route email
+metadata:
+  title: Create and configure connectors to route email
+  description: Use connectors in Exchange Online to route email to on-premises email systems and to secure email to partner organizations. 
+  ms.date: 03/24/2029
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 3
+content: |
+  [!include[](includes/configure-connectors.md)]
