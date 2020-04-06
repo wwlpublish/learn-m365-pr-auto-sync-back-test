@@ -31,8 +31,8 @@ products:
 - office-exchange-server
 units:
 - learn-m365.m365-messaging-manage-org-settings.introduction
-- learn-m365.m365-messaging-manage-org-settings.manage-gal
-- learn-m365.m365-messaging-manage-org-settings.manage-oab
+- learn-m365.m365-messaging-manage-org-settings.manage-global-address-list
+- learn-m365.m365-messaging-manage-org-settings.manage-offline-address-book
 - learn-m365.m365-messaging-manage-org-settings.manage-address-policies
 - learn-m365.m365-messaging-manage-org-settings.manage-email-policies
 - learn-m365.m365-messaging-manage-org-settings.configure-org-sharing
