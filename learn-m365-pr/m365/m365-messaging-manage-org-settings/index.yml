@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn-m365.m365-messaging-manage-org-settings
+metadata:
+  title: Plan and manage organizational settings with Exchange Online
+  description: Plan and manage organizational settings such as global address lists, offline address books, address policies, organizational sharing, and add-ins in Exchange Online. 
+  ms.date: 04/03/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Plan and manage organizational settings with Exchange Online
+summary: Plan and manage organizational settings such as global address lists, offline address books, address policies, organizational sharing, and add-ins in Exchange Online.  
+abstract: |
+  At the end of this module, you should be able to:
+  - Manage global address lists. 
+  - Manage the offline address book. 
+  - Manage address book policies. 
+  - Manage email address policies. 
+  - Configure organizational sharing. 
+  - Manage add-ins. 
+prerequisites:|
+- Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+iconUrl: http://via.placeholder.com/120x120
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-365
+- office-exchange-server
+units:
+- learn-m365.m365-messaging-manage-org-settings.introduction
+- learn-m365.m365-messaging-manage-org-settings.manage-gal
+- learn-m365.m365-messaging-manage-org-settings.manage-oab
+- learn-m365.m365-messaging-manage-org-settings.manage-address-policies
+- learn-m365.m365-messaging-manage-org-settings.manage-email-policies
+- learn-m365.m365-messaging-manage-org-settings.configure-org-sharing
+- learn-m365.m365-messaging-manage-org-settings.manage-add-ins
+- learn-m365.m365-messaging-manage-org-settings.summary-knowledge-check
+badge: 
+  uid: learn-m365.m365-messaging-manage-org-settings.badge
