@@ -18,9 +18,8 @@ abstract: |
   - Manage email address policies. 
   - Configure organizational sharing. 
   - Manage add-ins. 
-
-prerequisites:|
-- Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+prerequisites: |
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
 iconUrl: http://via.placeholder.com/120x120
 levels:
 - intermediate
