@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn-m365.m365-messaging-manage-client-access
+metadata:
+  title: Plan and manage client access with Exchange Online
+  description: Learn how to configure clients to access associated Exchange Online mailboxes, how to troubleshoot connectivity issues, and how to connect your clients.
+  ms.date: 04/01/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Plan and manage client access with Exchange Online
+summary: Learn how to configure clients to access associated Exchange Online mailboxes, how to troubleshoot connectivity issues, and how to connect your clients. 
+abstract: |
+  At the end of this module, you should be able to:
+  - Explain how namespaces work. 
+  - Explain how to configure OWA. 
+  - Explain how to configure virtual directories. 
+  - Explain how to configure Autodiscover. 
+  - Describe how to troubleshoot connectivity problems. 
+  - Describe certificate-based authentication.
+prerequisites:|
+- Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+iconUrl: http://via.placeholder.com/120x120
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-365
+- office-exchange-server
+units:
+- learn-m365.m365-messaging-manage-client-access.introduction
+- learn-m365.m365-messaging-manage-client-access.plan-namespaces
+- learn-m365.m365-messaging-manage-client-access.configure-virtual-directories
+- learn-m365.m365-messaging-manage-client-access.outlook-web-access-policies
+- learn-m365.m365-messaging-manage-client-access.configure-autodiscover
+- learn-m365.m365-messaging-manage-client-access.troubleshoot-connectivity
+- learn-m365.m365-messaging-manage-client-access.certificates-lifecycle
+- learn-m365.m365-messaging-manage-client-access.summary-knowledge-check
+badge: 
+  uid: learn-m365.m365-messaging-manage-client-access.badge
