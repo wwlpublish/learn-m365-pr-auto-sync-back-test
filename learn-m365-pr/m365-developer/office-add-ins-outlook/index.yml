@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn-m365.office-add-ins-outlook
+metadata:
+  title: Build Office add-ins for Outlook
+  description: This module walks through development of Office add-ins for Microsoft Outlook.
+  ms.date: 04/07/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Build Office add-ins for Outlook
+summary: Microsoft Office clients enable developers to create add-ins that extend Microsoft Outlook with custom functionality. Through a JavaScript API, developers can access and edit the contents in an email or calendar event in Outlook from an app running in the client. In this module, you'll learn how to build an Outlook add-in that will render buttons in the compose message window, implement a button that invokes a function, and implement a task pane that inserts content into the body of a message.
+abstract: |
+  By the end of this module, you will be able to:
+  - Create an Outlook add-in that uses the Outlook JavaScript API to manipulate a document
+  - Demonstrate how to access and edit content in an email
+  - Explain how to deploy and host a custom add-in for Microsoft Outlook
+prerequisites: |
+  - Experience using Microsoft Outlook
+  - Experience developing web applications
+  - Experience developing web applications with JavaScript and TypeScript
+  - Experience using Visual Studio Code at the intermediate level
+iconUrl: /learn/achievements/office-add-ins-outlook.svg
+levels:
+  - intermediate
+roles:
+  - developer
+products:
+  - m365
+  - office-add-ins
+units:
+  - learn-m365.office-add-ins-outlook.1-introduction
+  - learn-m365.office-add-ins-outlook.2-mail-basics
+  - learn-m365.office-add-ins-outlook.3-exercise-mail-basics
+  - learn-m365.office-add-ins-outlook.4-commands-dialogs
+  - learn-m365.office-add-ins-outlook.5-exercise-commands-dialogs
+  - learn-m365.office-add-ins-outlook.6-task-panes
+  - learn-m365.office-add-ins-outlook.7-exercise-task-pane
+  - learn-m365.office-add-ins-outlook.8-summary
+badge:
+  uid: learn-m365.office-add-ins-outlook.badge
