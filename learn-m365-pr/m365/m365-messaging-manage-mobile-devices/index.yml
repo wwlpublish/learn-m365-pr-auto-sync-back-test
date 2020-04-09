@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn-m365.m365-messaging-manage-mobile-devices
+metadata:
+  title: Manage and configure your mobile devices
+  description: Plan and manage your mobile devices, including mobile authentication, device access, ActiveSync, and Outlook mobile. 
+  ms.date: 04/09/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage and configure your mobile devices
+summary: Plan and manage your mobile devices, including mobile authentication, device access, ActiveSync, and Outlook mobile.  
+abstract: |
+  At the end of this module, you should be able to:
+  - Explain mobile devices.
+  - Describe how mobile authentication works.
+  - Describe how to configure Outlook mobile.
+  - Explain mobile device access.
+  - Explain ActiveSync.
+
+prerequisites: |
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+iconUrl: http://via.placeholder.com/120x120
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-365
+- office-exchange-server
+units:
+- learn-m365.m365-messaging-manage-mobile-devices.introduction
+- learn-m365.m365-messaging-manage-mobile-devices.mobile-device-mailbox-policies
+- learn-m365.m365-messaging-manage-mobile-devices.mobile-authentication-methods
+- learn-m365.m365-messaging-manage-mobile-devices.configure-outlook-mobile
+- learn-m365.m365-messaging-manage-mobile-devices.mobile-device-access
+- learn-m365.m365-messaging-manage-mobile-devices.configure-activesync
+- learn-m365.m365-messaging-manage-mobile-devices.summary-knowledge-check
+badge: 
+  uid: learn-m365.m365-messaging-manage-mobile-devices.badge
