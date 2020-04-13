@@ -13,15 +13,15 @@ If your organization has devices and users with multiple languages, you can conf
 > [!TIP] 
 > A common mistake made in multi-lingual environments is to build a single package that contains most or all of the languages used in the organization. If you add too many languages, the Office package can quickly exceed several gigabytes.
 
-One advantage of installing from the internet-based Office 365 CDN instead of using Configuration Manager is that you can use the **match OS** property. With the **match OS** property, you can  download language-specific files dynamically as Office is installed.
+One advantage of installing from the internet-based CDN instead of using Configuration Manager is that you can use the **match OS** property. With the **match OS** property, you can  download language-specific files dynamically as Office is installed.
 
 ## Policies and preferences
 
-Office 365 ProPlus and volume licensing editions of Office 2019 support Active Directory Group Policy management. New versions continue to use the Office 2016 ADMX templates. Additionally, you can configure install-time policy preferences with the same versions of Office by using the new Office Customization Tool or as part of the Office 365 Installer process in Configuration Manager. These are policy preferences and not enforced policies - in many cases your users can change or modify the configurations post-installation.
+Office 365 ProPlus and volume licensing editions of Office 2019 support Active Directory Group Policy management. New versions continue to use the Office 2016 ADMX templates. Additionally, you can configure install-time policy preferences with the same versions of Office by using the new Office Customization Tool or as part of the Installer process in Configuration Manager. These are policy preferences and not enforced policies - in many cases your users can change or modify the configurations post-installation.
 
-Office 365 ProPlus has a new policy enforcement option - the Office Cloud Policy Service. When a user signs into their Office 365 account, if Office 365 ProPlus is installed on their device, the service enforces the policies you've configured. These policies work regardless of how Office 365 ProPlus was installed and whether or not the user’s PC is domain-joined or managed using other systems. 
+Office 365 ProPlus has a new policy enforcement option - the Office Cloud Policy Service. When a user signs into their account, if Office 365 ProPlus is installed on their device, the service enforces the policies you've configured. These policies work regardless of how Office 365 ProPlus was installed and whether or not the user’s PC is domain-joined or managed using other systems. 
 
-To configure policies with the Office Cloud Policy Service, you add users to an Office 365 group, then assign that group to configured policies. You can also get to the Office Cloud Policy Service experience from the Office Customization Tool link below under **Learn more.** To use this capability, you need to authenticate with an administrator account to set policies and assign them to groups. 
+To configure policies with the Office Cloud Policy Service, you add users to a group, then assign that group to configured policies. You can also get to the Office Cloud Policy Service experience from the Office Customization Tool link below under **Learn more.** To use this capability, you need to authenticate with an administrator account to set policies and assign them to groups. 
 
 > [!NOTE]
 > The policies set in the Office Cloud Policy Service are currently limited to **User Configuration** policies and don’t include **Computer Configuration** policies.

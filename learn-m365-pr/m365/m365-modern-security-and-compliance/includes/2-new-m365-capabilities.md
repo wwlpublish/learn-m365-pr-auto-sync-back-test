@@ -7,7 +7,7 @@ Let's look at new capabilities you can take advantage of with Windows 10, Office
 
 ## Identity and access management
 
-Azure Active Directory (Azure AD) is the identity control plane for apps, devices, and cloud services while connecting to Office 365 and other cloud services. Conditional access lets you define different authentication requirements based on where your user is logging in from and which device they’re using, as well as responses to anomalous behaviors.
+Azure Active Directory (Azure AD) is the identity control plane for apps, devices, and cloud services while connecting to cloud services. Conditional access lets you define different authentication requirements based on where your user is logging in from and which device they’re using, as well as responses to anomalous behaviors.
 
 At the device level, you can use biometrics as unique identifiers for simpler and more secure access to devices and apps, moving toward the goal of eliminating passwords. Windows Hello offers device-based, multi-factor authentication that relies on the device itself, your PIN, or a unique biometric identifier like a face or fingerprint that can be enforced via policy.
 
@@ -29,7 +29,7 @@ Along with the Microsoft Intelligent Security Graph, you have faster access to b
 
 - **Safe Attachments** in Outlook and as part of Exchange Online goes beyond email filtering to inspect attachments. If a high-risk attachment is identified, Safe Attachments will inform the user of known malicious attachments and remove them from email.
 
-- **Office 365 Message Encryption (OME)** safeguards sent email and attachments, ensuring only intended recipients can view email content. OME works seamlessly with Google, Yahoo, and Microsoft consumer account authentication,and one-time passcodes allow users of other email services to securely receive email as well.
+- **Message Encryption (OME)** safeguards sent email and attachments, ensuring only intended recipients can view email content. OME works seamlessly with Google, Yahoo, and Microsoft consumer account authentication,and one-time passcodes allow users of other email services to securely receive email as well.
 
 - **Windows Defender Application Control** in Windows 10 operates from an approved allow and deny list of applications that Microsoft has checked for safety. It is managed by endpoint protection policies using Microsoft Intune.
 
