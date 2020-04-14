@@ -2,22 +2,23 @@
 uid: learn-m365.microsoft-365-fundamentals
 metadata:
   title: Microsoft 365 Fundamentals
-  description: Microsoft 365 is an intelligent solution that includes Office 365, Windows 10, and Enterprise Mobility + Security, and empowers everyone to be creative and work together, securely. Learn how it supports your org's digital transformation.
-  ms.date: 03/18/2019
-  author: lizap
-  ms.author: elizapo
+  description: Microsoft 365 is a productivity cloud that delivers innovative and intelligent experiences, rich organizational insights and a trusted platform to help people and organizations get more done. Learn how it can support your organization’s digital transformation.
+  ms.date: 04/17/2020
+  author: wwlpublish
+  ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Microsoft 365 Fundamentals
-summary: Microsoft 365 is an intelligent solution that includes Office 365, Windows 10, and Enterprise Mobility + Security, and empowers everyone to be creative and work together, securely. Learn how it supports your org's digital transformation.
-prerequisites: | 
- - Basic understanding of cloud computing. If you are unfamiliar with this, we recommend you take [Cloud Concepts - Principles of cloud computing](https://docs.microsoft.com/learn/modules/principles-cloud-computing/index)
+prerequisites: |-
+   - Basic understanding of cloud computing. If you are unfamiliar with this, we recommend you take [Cloud Concepts - Principles of cloud computing](https://docs.microsoft.com/learn/modules/principles-cloud-computing/index)
+summary: |
+  Microsoft 365 is a productivity cloud that delivers innovative and intelligent experiences, rich organizational insights and a trusted platform to help people and organizations get more done. Learn how it can support your organization’s digital transformation.
 iconUrl: /learn/achievements/m365-fundamentals.svg
-levels: 
+levels:
 - beginner
 roles:
 - administrator
-products: 
+products:
 - m365
 modules:
 - learn-m365.what-is-m365
@@ -29,5 +30,5 @@ modules:
 - learn-m365.meet-compliance-with-m365
 - learn-m365.manage-m365-subscription
 - learn-m365.select-a-cloud-deployment-model-for-m365
-trophy: 
+trophy:
   uid: learn-m365.microsoft-365-fundamentals.trophy
