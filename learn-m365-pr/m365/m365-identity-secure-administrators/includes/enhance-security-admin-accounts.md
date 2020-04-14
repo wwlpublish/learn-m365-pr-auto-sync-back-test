@@ -11,7 +11,7 @@ Consider this example. As a Contoso executive, Christina, has administrator priv
 Microsoft 365 enables you to manage, control, and monitor access to privileged accounts. Its security architecture provides an integrated and layered approach to access management. The following are best practices.
 
 - **Protect at the role level.** Use Azure AD Privileged Identity Management to apply protection at the role level while allowing administrators to perform multiple tasks.
-- **Protect at the task level.** Use privileged access management to control access to Office 365 data at the task level.
+- **Protect at the task level.** Use privileged access management to control access to data at the task level.
 - **Secure devices.** Set Conditional Access policy to require that devices that administrators use are compliant and patched with the most recent software and antivirus definitions.
 - **Isolate identities.** Create dedicated accounts for users with administrative privileges that are separate from those users’ information worker identities.
 

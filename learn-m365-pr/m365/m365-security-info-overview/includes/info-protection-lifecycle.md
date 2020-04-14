@@ -12,7 +12,7 @@ Let’s look at the journey of a file and discuss how Microsoft technologies can
 
 **User shares the file with another user in the organization**
 
-- As an additional layer of protection, Data Loss Prevention (DLP) policies in Office 365 help prevent the accidental or inadvertent sharing of sensitive documents and emails.
+- As an additional layer of protection, Data Loss Prevention (DLP) policies help prevent the accidental or inadvertent sharing of sensitive documents and emails.
 
 **User opens the file on their phone**
 
