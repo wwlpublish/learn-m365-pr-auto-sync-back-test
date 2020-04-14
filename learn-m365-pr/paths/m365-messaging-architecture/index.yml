@@ -1,0 +1,33 @@
+### YamlMime:LearningPath
+uid: learn-m365.m365-messaging-architecture
+metadata:
+  title: Manage Microsoft 365 messaging organizational settings and architecture 
+  description: The Manage Microsoft 365 messaging organizational settings and architecture learning path explains how to deploy, configure, manage, and monitor your Exchange Online messaging infrastructure in on-premises, hybrid, and cloud enterprise environments.
+  ms.date: 04/14/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage Microsoft 365 Messaging organizational settings and architecture 
+summary: "The **Manage Microsoft 365 messaging organizational settings and architecture** learning path explains how to deploy, configure, manage, and monitor your Exchange Online messaging infrastructure in on-premises, hybrid, and cloud enterprise environments."
+prerequisites: |
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+iconUrl: http://via.placeholder.com/120x120
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-365
+- office-exchange-server
+modules:
+- learn-m365.m365-messaging-manage-org-settings
+- learn-m365.m365-messaging-manage-client-access
+- learn-m365.m365-messaging-manage-recipient-resources
+- learn-m365.m365-messaging-manage-mobile-devices
+- learn-m365.m365-messaging-configure-transport-architecture
+- learn-m365.m365-messaging-manage-mail-flow
+- learn-m365.m365-messaging-troubleshoot-mail-flow
+trophy: 
+  uid: learn-m365.m365-messaging-architecture.trophy
