@@ -4,7 +4,7 @@ Call Analytics and CQD run in parallel and can be used independently or together
 
 ## What is Call Analytics?
 
-Call Analytics is available in the Microsoft Teams admin center.  Call Analytics shows detailed information about the devices, networks, and connectivity related to the specific calls and meetings for each user. Why did a user have a poor call this afternoon? Using Call Analytics, an Office 365 administrator or trained help desk agent can investigate the device, network, connectivity, and other factors related to the call to troubleshoot call quality and connection problems.
+Call Analytics is available in the Microsoft Teams admin center.  Call Analytics shows detailed information about the devices, networks, and connectivity related to the specific calls and meetings for each user. Why did a user have a poor call this afternoon? Using Call Analytics, an administrator or trained help desk agent can investigate the device, network, connectivity, and other factors related to the call to troubleshoot call quality and connection problems.
 
 ![Call Analytics dashboard](../media/call-analytics-dashboard.png)
 

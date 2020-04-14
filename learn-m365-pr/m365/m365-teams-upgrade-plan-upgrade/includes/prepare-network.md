@@ -30,7 +30,7 @@ Client to Microsoft Edge and Customer Edge to Microsoft Edge are the two definin
 
 ### VPN
 
-VPNs are typically not designed or configured to support real-time media. We recommend you provide an alternate path that bypasses the VPN for Teams traffic. This is commonly known as split-tunnel VPN. Split tunneling means that traffic for Office 365 won’t traverse the VPN but will go directly to Office 365. This change will have a positive impact on quality, but also provides the secondary benefit of reducing load from the VPN devices and the organization’s network.
+VPNs are typically not designed or configured to support real-time media. We recommend you provide an alternate path that bypasses the VPN for Teams traffic. This is commonly known as split-tunnel VPN. Split tunneling means that traffic won’t traverse the VPN but will go directly to Teams. This change will have a positive impact on quality, but also provides the secondary benefit of reducing load from the VPN devices and the organization’s network.
 
 To implement a split-tunnel, consult with your VPN vendor for the configuration details.
 
@@ -81,7 +81,7 @@ The Skype for Business Network Assessment Tool will tell you whether your networ
 
 If the results of bandwidth planning, port testing, or network requirements testing show that your current network needs remediation before you deploy Teams, you can accomplish this in several ways:
 
-- For insufficient bandwidth, upgrade connections so that traffic to Office 365 can flow unhindered.
+- For insufficient bandwidth, upgrade connections so that traffic can flow unhindered.
 - For blocked ports, change firewall rules and retest the ports.
 - For network impairments, always perform a root-cause analysis.
 
