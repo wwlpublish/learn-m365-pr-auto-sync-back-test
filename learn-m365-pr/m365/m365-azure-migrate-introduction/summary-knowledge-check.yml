@@ -1,0 +1,53 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-azure-migrate-introduction.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Discover how Azure Migrate helps you realize the benefits of moving your on-premises VMware or Hyper-V server workloads to Azure infrastructure as a service (IaaS). Learn the process for migrating your workload agent-less, all within the hub.  
+  ms.date: 04/010/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Question here"
+      choices:
+      - content: "Choice 1"
+        isCorrect: false
+        explanation: "explanation"
+      - content: "Choice 2"
+        isCorrect: false
+        explanation: "explanation"
+      - content: "Choice 3"
+        isCorrect: true
+        explanation: "explanation"
+
+    - content: "Question here"
+      choices:
+      - content: "Choice 1"
+        isCorrect: false
+        explanation: "explanation"
+      - content: "Choice 2"
+        isCorrect: false
+        explanation: "explanation"
+      - content: "Choice 3"
+        isCorrect: true
+        explanation: "explanation"
+      
+    - content: "Question here"
+      choices:
+      - content: "Choice 1"
+        isCorrect: false
+        explanation: "explanation"
+      - content: "Choice 2"
+        isCorrect: false
+        explanation: "explanation"
+      - content: "Choice 3"
+        isCorrect: true
+        explanation: "explanation"
+      
