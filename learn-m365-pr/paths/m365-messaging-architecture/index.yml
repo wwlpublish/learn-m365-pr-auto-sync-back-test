@@ -1,4 +1,4 @@
-### YamlMime:Module
+### YamlMime:LearningPath
 uid: learn-m365.m365-messaging-architecture
 metadata:
   title: Manage Microsoft 365 messaging organizational settings and architecture 
@@ -29,6 +29,5 @@ modules:
 - learn-m365.m365-messaging-configure-transport-architecture
 - learn-m365.m365-messaging-manage-mail-flow
 - learn-m365.m365-messaging-troubleshoot-mail-flow
-
 trophy: 
   uid: learn-m365.m365-messaging-architecture.trophy
