@@ -26,7 +26,7 @@ A basic understanding of the OAuth 2.0 implicit grant flow is a prerequisite for
     For example, when authenticating with Azure AD, if the `loginHint` parameter is set to the user's email address, the user might not have to sign in if they've done so recently. They might not have to sign in because Azure AD uses the user's cached credentials if possible. In this scenario, the pop-up window flashes briefly and then disappears.
 
 1. The tab then calls the `microsoftTeams.authentication.authenticate()` method and registers the `successCallback` and `failureCallback` functions.
-1. Microsoft Teams opens the start page in an `<iframe>` in a pop-up window. The start page generates random state data and saves it for future validation. The start page then redirects to the identity provider's authorize endpoint, such as https://login.microsoftonline.com/{tenant ID}/oauth2/authorize for Azure AD:
+1. Microsoft Teams opens the start page in an `<iframe>` in a pop-up window. The start page generates random state data and saves it for future validation. The start page then redirects to the identity provider's authorize endpoint, such as `https://login.microsoftonline.com/{tenant` ID}/oauth2/authorize for Azure AD:
     - Like other application auth flows in Microsoft Teams, the start page must be on a domain that's in its `validDomains` list, and on the same domain as the post-sign-in redirect page.
 
     > [!IMPORTANT]

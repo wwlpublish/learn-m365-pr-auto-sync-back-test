@@ -1,4 +1,4 @@
-Each SharePoint team site is part of an Office 365 Group, which is a single permissions group associated with a variety of Office 365 services. Those services include a SharePoint site, an instance of Planner, a mailbox, and a shared calendar. When you add owners or members to the Office 365 Group, they are given access to the SharePoint site along with the other connected services.
+Each SharePoint team site is part of an Office 365 Group, which is a single permissions group associated with a variety of services. Those services include a SharePoint site, an instance of Planner, a mailbox, and a shared calendar. When you add owners or members to the Office 365 Group, they are given access to the SharePoint site along with the other connected services.
 
 While you can manage SharePoint site permissions separately by using SharePoint groups, we recommend managing permissions for SharePoint by adding people to or removing them from the associated Office 365 Group. This provides easier administration as well as giving users access to related services with which they can collaborate.
 

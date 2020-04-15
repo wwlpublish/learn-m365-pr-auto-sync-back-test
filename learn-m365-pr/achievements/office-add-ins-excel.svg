@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="101px" height="101px" viewBox="0 0 101 101" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Extend Office clients with Office Add-ins (Associate path)/Office-Add-ins-Building-Office-Add-ins-for-Excel</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="94.3396226" height="94.3396226" rx="47.1698113"></rect>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#99D3FF" offset="0%"></stop>
+            <stop stop-color="#0FA6FF" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-4" x="0" y="0" width="100" height="100" rx="50"></rect>
+        <filter x="-0.5%" y="-0.5%" width="102.0%" height="102.0%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="4" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="1" dy="1" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <path d="M50,2.83018868 C76.0511674,2.83018868 97.1698113,23.9488326 97.1698113,50 C97.1698113,76.0511674 76.0511674,97.1698113 50,97.1698113 C23.9488326,97.1698113 2.83018868,76.0511674 2.83018868,50 C2.83018868,23.9488326 23.9488326,2.83018868 50,2.83018868 Z M50,6.60377358 C26.032926,6.60377358 6.60377358,26.032926 6.60377358,50 C6.60377358,73.967074 26.032926,93.3962264 50,93.3962264 C73.967074,93.3962264 93.3962264,73.967074 93.3962264,50 C93.3962264,26.032926 73.967074,6.60377358 50,6.60377358 Z" id="path-6"></path>
+        <filter x="-28.6%" y="-24.0%" width="157.1%" height="148.0%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-9">
+            <stop stop-color="#D2EBFF" offset="0%"></stop>
+            <stop stop-color="#F0FFFD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="97.5691716%" x2="50%" y2="-5.30956676%" id="linearGradient-10">
+            <stop stop-color="#0078D4" offset="0%"></stop>
+            <stop stop-color="#1380DA" offset="16%"></stop>
+            <stop stop-color="#3C91E5" offset="53%"></stop>
+            <stop stop-color="#559CEC" offset="82%"></stop>
+            <stop stop-color="#5EA0EF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-11">
+            <stop stop-color="#B3DC93" offset="0%"></stop>
+            <stop stop-color="#7CB65A" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="2.04550253%" x2="50%" y2="100%" id="linearGradient-12">
+            <stop stop-color="#FFE02A" offset="0%"></stop>
+            <stop stop-color="#FFB518" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="99.6885557%" id="linearGradient-13">
+            <stop stop-color="#F15925" offset="0%"></stop>
+            <stop stop-color="#D83F26" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-28.6%" y="-24.0%" width="157.1%" height="148.0%" filterUnits="objectBoundingBox" id="filter-14">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50.0140555%" y1="2.51545844e-15%" x2="50.0140555%" y2="100.054352%" id="linearGradient-15">
+            <stop stop-color="#B77AF4" offset="0%"></stop>
+            <stop stop-color="#8C4FE4" offset="62%"></stop>
+            <stop stop-color="#773ADC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Badges" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Extend-Office-clients-with-Office-Add-ins-(Associate-path)" transform="translate(-160.000000, -510.000000)">
+            <g id="Extend-Office-clients-with-Office-Add-ins-(Associate-path)/Office-Add-ins-Building-Office-Add-ins-for-Excel" transform="translate(160.000000, 510.000000)">
+                <g id="Badge-Plates/Circle">
+                    <g id="BG" transform="translate(2.830189, 2.830189)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g></g>
+                        <g id="Colors/Microsoft-365/BG-Gradient-1" mask="url(#mask-2)" fill="url(#linearGradient-3)">
+                            <rect id="Rectangle" x="0" y="0" width="94.3396226" height="94.3396226"></rect>
+                        </g>
+                    </g>
+                    <g id="Border">
+                        <g id="White-Border">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                            <rect stroke="#F2F1F0" stroke-width="4" stroke-linejoin="square" x="2" y="2" width="96" height="96" rx="48"></rect>
+                        </g>
+                        <mask id="mask-7" fill="white">
+                            <use xlink:href="#path-6"></use>
+                        </mask>
+                        <use id="Boarder" fill="#0078D4" fill-rule="nonzero" xlink:href="#path-6"></use>
+                        <g id="Colors/Microsoft-365/Border" mask="url(#mask-7)" fill="#0076D7">
+                            <g transform="translate(2.830189, 2.830189)" id="Microsoft-365/Border">
+                                <rect x="0" y="0" width="94.3396226" height="94.3396226"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="Document-w/-Data" filter="url(#filter-8)" transform="translate(28.000000, 23.000000)" fill-rule="nonzero">
+                    <g id="Icon-azurestack-6">
+                        <g id="Group">
+                            <path d="M23.796594,0.0466315558 L2.00557079,0.0466315558 C1.05148673,0.0466315558 0.27804878,0.816648732 0.27804878,1.76651306 L0.27804878,48.2334869 C0.27804878,49.1833513 1.05148673,49.9533684 2.00557079,49.9533684 L39.5261365,49.9533684 C40.4802206,49.9533684 41.2536585,49.1833513 41.2536585,48.2334869 L41.2536585,17.4868334 C41.2536585,16.5369691 40.4802206,15.7669519 39.5261365,15.7669519 L27.0697936,15.7669519 C26.1324479,15.7669519 25.372579,15.0104438 25.372579,14.0772438 L25.372579,1.76651306 C25.3910133,0.866902228 24.6980943,0.110715657 23.796594,0.0466315558 Z" id="Path" fill="url(#linearGradient-9)"></path>
+                            <path d="M41.4878049,16.8367347 L24.5853659,0 L24.5853659,13.6419084 C24.5853659,15.4063622 26.0131922,16.8367347 27.7745053,16.8367347 L41.4878049,16.8367347 Z" id="Path" fill="#92C4FC"></path>
+                        </g>
+                    </g>
+                    <g id="Computer" transform="translate(7.000000, 11.000000)">
+                        <rect id="Rectangle" fill="#92C4FC" x="0" y="5.46341463" width="11.71875" height="2.34146341" rx="1.17073171"></rect>
+                        <rect id="Rectangle" fill="#92C4FC" x="0" y="0" width="11.71875" height="2.34146341" rx="1.17073171"></rect>
+                        <rect id="Rectangle" fill="#92C4FC" x="0" y="10.9268293" width="7.03125" height="2.34146341" rx="1.17073171"></rect>
+                        <rect id="Rectangle" fill="url(#linearGradient-10)" x="0.78125" y="24.9756098" width="5.46875" height="7.02439024"></rect>
+                        <rect id="Rectangle" fill="url(#linearGradient-11)" x="10.15625" y="18.7317073" width="5.46875" height="13.2682927"></rect>
+                        <rect id="Rectangle" fill="url(#linearGradient-12)" x="19.53125" y="10.9268293" width="5.46875" height="21.0731707"></rect>
+                    </g>
+                </g>
+                <g id="Group-3" transform="translate(56.000000, 57.000000)">
+                    <g id="Group-4" fill="url(#linearGradient-13)">
+                        <circle id="Oval" cx="10.5" cy="10.5" r="10.5"></circle>
+                    </g>
+                    <image id="SimpleHero_sideimage_400x225_office365" x="6" y="5" width="8" height="11" xlink:href="data:image/png;base64,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"></image>
+                </g>
+                <g id="Document-w/-Data" filter="url(#filter-14)" transform="translate(28.000000, 23.000000)">
+                    <g id="Icon-azurestack-6">
+                        <g id="Group">
+                            <path d="M23.796594,0.0466315558 L2.00557079,0.0466315558 C1.05148673,0.0466315558 0.27804878,0.816648732 0.27804878,1.76651306 L0.27804878,48.2334869 C0.27804878,49.1833513 1.05148673,49.9533684 2.00557079,49.9533684 L39.5261365,49.9533684 C40.4802206,49.9533684 41.2536585,49.1833513 41.2536585,48.2334869 L41.2536585,17.4868334 C41.2536585,16.5369691 40.4802206,15.7669519 39.5261365,15.7669519 L27.0697936,15.7669519 C26.1324479,15.7669519 25.372579,15.0104438 25.372579,14.0772438 L25.372579,1.76651306 C25.3910133,0.866902228 24.6980943,0.110715657 23.796594,0.0466315558 Z" id="Path" fill="url(#linearGradient-9)" fill-rule="nonzero"></path>
+                            <g id="excel-workbook" transform="translate(4.000000, 7.000000)" fill="url(#linearGradient-15)">
+                                <rect id="Rectangle" x="0" y="0" width="10" height="5"></rect>
+                                <rect id="Rectangle" x="12" y="0" width="10" height="5"></rect>
+                                <rect id="Rectangle" x="0" y="7" width="10" height="5"></rect>
+                                <rect id="Rectangle" x="12" y="7" width="10" height="5"></rect>
+                                <rect id="Rectangle" x="24" y="7" width="10" height="5"></rect>
+                                <rect id="Rectangle" x="0" y="14" width="10" height="5"></rect>
+                                <rect id="Rectangle" x="12" y="14" width="10" height="5"></rect>
+                                <rect id="Rectangle" x="24" y="14" width="10" height="5"></rect>
+                                <rect id="Rectangle" x="0" y="21" width="10" height="5"></rect>
+                                <rect id="Rectangle" x="12" y="21" width="10" height="5"></rect>
+                                <rect id="Rectangle" x="24" y="21" width="10" height="5"></rect>
+                                <rect id="Rectangle" x="0" y="28" width="10" height="5"></rect>
+                                <rect id="Rectangle" x="12" y="28" width="10" height="5"></rect>
+                                <rect id="Rectangle" x="24" y="28" width="10" height="5"></rect>
+                                <rect id="Rectangle" x="0" y="35" width="10" height="5"></rect>
+                                <rect id="Rectangle" x="12" y="35" width="10" height="5"></rect>
+                                <rect id="Rectangle" x="24" y="35" width="10" height="5"></rect>
+                            </g>
+                            <path d="M41.4878049,16.8367347 L24.5853659,0 L24.5853659,13.6419084 C24.5853659,15.4063622 26.0131922,16.8367347 27.7745053,16.8367347 L41.4878049,16.8367347 Z" id="Path" fill="#92C4FC" fill-rule="nonzero"></path>
+                        </g>
+                    </g>
+                </g>
+                <g id="excel" transform="translate(55.000000, 56.000000)">
+                    <g id="Oval">
+                        <g id="path-3-link" fill="#000000" fill-rule="nonzero">
+                            <circle id="path-3" cx="11.5" cy="11.5" r="11.5"></circle>
+                        </g>
+                        <g id="path-3-link" fill="#FFFFFF">
+                            <circle id="path-3" cx="11.5" cy="11.5" r="11.5"></circle>
+                        </g>
+                    </g>
+                    <g id="excel-icon" transform="translate(2.300000, 4.600000)" fill-rule="nonzero">
+                        <g id="Group-3" transform="translate(3.285933, 0.000000)">
+                            <rect id="Rectangle" fill="#195C37" x="0.364933333" y="0" width="11.6824667" height="14.6034667" rx="1"></rect>
+                            <polygon id="Rectangle" fill="#107B42" points="6.20616667 7.30173333 12.0474 7.30173333 12.0474 10.9526 6.20616667 10.9526"></polygon>
+                            <polygon id="Rectangle" fill="#22A366" points="6.20616667 3.65086667 12.0474 3.65086667 12.0474 7.30173333 6.20616667 7.30173333"></polygon>
+                            <polygon id="Rectangle" fill="#117740" points="0 3.65086667 6.20616667 3.65086667 6.20616667 7.30173333 0 7.30173333"></polygon>
+                            <path d="M6.20616667,0 L11.2815,0 C11.7049183,0 12.0481667,0.343248358 12.0481667,0.766666667 L12.0481667,3.65086667 L6.20616667,3.65086667 L6.20616667,0 L6.20616667,0 Z" id="Rectangle" fill="#34C481"></path>
+                            <path d="M1.36187358e-15,0 L5.4395,0 C5.86291831,0 6.20616667,0.343248358 6.20616667,0.766666667 L6.20616667,3.65086667 L1.36187358e-15,3.65086667 L1.36187358e-15,0 Z" id="Rectangle" fill="#21A465" transform="translate(3.103083, 1.825433) scale(-1, 1) translate(-3.103083, -1.825433) "></path>
+                        </g>
+                        <g id="Group" transform="translate(0.000000, 3.650867)">
+                            <rect id="Rectangle" fill="#137F47" x="0" y="0" width="8.0316" height="7.66666667" rx="1"></rect>
+                            <polygon id="Combined-Shape" fill="#FFFFFF" points="3.0107 1.82543333 3.91383333 3.49906667 4.81773333 1.82543333 5.78066667 1.82543333 4.44896667 4.00276667 5.842 6.20693333 4.75716667 6.20693333 3.85403333 4.41676667 2.94093333 6.20616667 1.82466667 6.20616667 3.2913 4.03113333 1.9665 1.82543333 3.00916667 1.82543333"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -2,7 +2,7 @@ Conversational bots allow users to interact with your web service through text, 
 
 These bots can be scoped to handling simple commands. Developers can also create complex, artificial intelligence powered and natural language processing virtual assistants.
 
-In this module, you’ll learn how to create and add bots to custom Microsoft Teams apps.
+In this module, you'll learn how to create and add bots to custom Microsoft Teams apps.
 
 ## Prerequisites
 
@@ -20,4 +20,6 @@ In this module, you’ll learn how to create and add bots to custom Microsoft Te
 
 ## Additional resources
 
-Refer to the following repository for additional resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [20 Task-oriented interactions in Microsoft Teams with messaging extensions](https://github.com/officedev/TrainingContent/tree/master/Teams/20%20Messaging%20Extensions).
+Refer to the following repository for additional resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [40 Create interactive conversational bots for Microsoft Teams](https://github.com/OfficeDev/TrainingContent/tree/master/Teams/40%20Conversational%20Bots).
+
+This module is also available as the screencast [Create interactive conversational bots for Microsoft Teams](https://www.youtube.com/watch?v=zSIysk0yL0Q).

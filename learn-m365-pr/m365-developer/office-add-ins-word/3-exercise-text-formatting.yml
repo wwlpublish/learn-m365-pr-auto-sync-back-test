@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.office-add-ins-word.3-exercise-text-formatting
+metadata:
+  title: Exercise - Insert and format a range of text
+  description: In this exercise, you'll build a Word add-in that inserts text ranges and paragraphs and format this text.
+  ms.date: 03/31/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Insert and format a range of text
+durationInMinutes: 17
+content: |
+  [!include[](includes/3-exercise-text-formatting.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "How do you obtain an instance of the current Word context from the Word JavaScript API?"
+    choices:
+    - content: "Call the `Word.run((context) => {..})` method that will return the current Word context."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "You can obtain a reference to the Word context using the `this.context.current` API."
+      isCorrect: false
+      explanation: "`this.context` isn't valid in the Word JavaScript API."
+    - content: "Use the `Word.getContext()` API to obtain an instance of the current Word context."
+      isCorrect: false
+      explanation: "The `Word` object doesn't contain a `getContext()` method in the Word JavaScript API."
+  - content: "How can an add-in detect the version of the Word JavaScript API supported in the current component?"
+    choices:
+    - content: "Microsoft Word is always using the latest Word JavaScript API version available, so there's no need to check."
+      isCorrect: false
+      explanation: "Desktop installable versions of Word don't automatically use the latest version of the Word JavaScript API."
+    - content: "Use the `Office.context.requirements.isSetSupported('WordApi','#.#')` method."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Use the `Office.context.getCurrentVersion('WordApi')` method."
+      isCorrect: false
+      explanation: "The `getCurrentVersion()` method doesn't exist. Use the `Office.context.requirements.isSetSupported('WordApi','#.#')` method to determine the current version."

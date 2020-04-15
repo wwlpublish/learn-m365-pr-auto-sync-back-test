@@ -9,13 +9,13 @@ Teams app capabilities depend on underlying communication and collaboration tech
 - An Exchange Online shared mailbox and calendar
 - A OneNote notebook
 
-When you create a team from an existing Office 365 Group, that group’s membership, site, mailbox, and notebook are surfaced in Teams. To customize and extend Teams, you can add other Office 365 apps such as Planner and Power BI through apps, bots, and connectors using custom tabs.  
+When you create a team from an existing Office 365 Group, that group’s membership, site, mailbox, and notebook are surfaced in Teams. To customize and extend Teams, you can add other apps such as Planner and Power BI through apps, bots, and connectors using custom tabs.  
 
 ![Teams logical architecture](../media/logical-architecture.png)
 
 ## Teams integration with Office 365 Groups
 
-When you create a team in Microsoft Teams, on the back end, you’re creating an Office 365 Group and the associated SharePoint document library and OneNote notebook, along with ties into other Office 365 cloud applications. You can add or remove group members just as you would any other group-based security object in Active Directory.
+When you create a team in Microsoft Teams, on the back end, you’re creating an Office 365 Group and the associated SharePoint document library and OneNote notebook, along with ties into other cloud applications. You can add or remove group members just as you would any other group-based security object in Active Directory.
 
 Learn more about Teams integration with Office 365 Groups in the module **Manage Teams.**
 
@@ -31,7 +31,7 @@ Teams uses three identity models:
 
 ## Where does Teams store data?
  
-Data in Teams resides in the geographic region associated with your Office 365 tenant. Currently, Teams supports the Australia, Canada, France, India, Japan, South Africa, South Korea, United Kingdom, Americas, APAC, and EMEA regions.
+Data in Teams resides in the geographic region associated with your tenant. Currently, Teams supports the Australia, Canada, France, India, Japan, South Africa, South Korea, United Kingdom, Americas, APAC, and EMEA regions.
 
 Key data types are stored in various locations when the data is not in active use.
 
