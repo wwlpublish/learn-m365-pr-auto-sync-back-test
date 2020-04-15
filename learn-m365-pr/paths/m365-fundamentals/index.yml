@@ -2,7 +2,7 @@
 uid: learn-m365.microsoft-365-fundamentals
 metadata:
   title: Microsoft 365 Fundamentals
-  description: Microsoft 365 is a productivity cloud that delivers innovative and intelligent experiences, rich organizational insights and a trusted platform to help people and organizations get more done. Learn how it supports your organization’s digital transformation.
+  description: Microsoft 365 is a productivity cloud that delivers innovative and intelligent experiences, rich organizational insights, and a trusted platform to help people and organizations get more done. Learn how it supports your organization’s digital transformation.
   ms.date: 04/17/2020
   author: wwlpublish
   ms.author: dahans
@@ -12,7 +12,7 @@ title: Microsoft 365 Fundamentals
 prerequisites: |-
    - Basic understanding of cloud computing. If you are unfamiliar with this, we recommend you take [Cloud Concepts - Principles of cloud computing](https://docs.microsoft.com/learn/modules/principles-cloud-computing/index)
 summary: |
-  Microsoft 365 is a productivity cloud that delivers innovative and intelligent experiences, rich organizational insights and a trusted platform to help people and organizations get more done. Learn how it supports your organization’s digital transformation.
+  Microsoft 365 is a productivity cloud that delivers innovative and intelligent experiences, rich organizational insights, and a trusted platform to help people and organizations get more done. Learn how it supports your organization’s digital transformation.
 iconUrl: /learn/achievements/m365-fundamentals.svg
 levels:
 - beginner
