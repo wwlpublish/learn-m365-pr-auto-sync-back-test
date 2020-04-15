@@ -16,17 +16,17 @@ abstract: |
   - List the options for distributing a Microsoft Teams app
   - List the extensibility points available in Microsoft Teams
   - Choose the correct extensibility point(s) based on your scenario
-prerequisites: | 
+prerequisites: |
   - Experience using Microsoft Teams
   - Basic understanding of web services and APIs
-iconUrl: https://docs.microsoft.com/media/learn/module.svg
-levels: 
+iconUrl: /learn/achievements/intro-microsoft-teams-apps.svg
+levels:
 - beginner
 - intermediate
-roles: 
+roles:
 - developer
 - devops-engineer
-products: 
+products:
 - m365
 - office-teams
 units:

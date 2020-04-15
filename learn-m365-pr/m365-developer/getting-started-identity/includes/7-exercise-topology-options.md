@@ -109,7 +109,7 @@ Add the following code to the end of the file:
 
 ## Build and test the web app
 
-Run the following commands in a command prompt to compile & run the application:
+Run the following commands in a command prompt to compile and run the application:
 
 ```shell
 dotnet build

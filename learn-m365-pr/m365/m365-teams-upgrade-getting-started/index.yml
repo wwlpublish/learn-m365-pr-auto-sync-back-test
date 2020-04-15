@@ -3,7 +3,7 @@ uid: learn-m365.m365-teams-upgrade-getting-started
 metadata:
   title: Getting started with your Teams upgrade
   description: Discover the upgrade process from Skype for Business to Microsoft Teams. Learn how Skype for Business and Microsoft Teams coexist during the upgrade process and what hybrid connectivity is.
-  ms.date: 09/27/2019
+  ms.date: 1/17/20
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
@@ -19,7 +19,7 @@ abstract: |
 
 prerequisites: | 
  - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/m365-teams-upgrade-getting-started.svg
 ratingEnabled: true
 levels:
 - intermediate

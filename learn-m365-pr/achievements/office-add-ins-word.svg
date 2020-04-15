@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="101px" height="101px" viewBox="0 0 101 101" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Extend Office clients with Office Add-ins (Associate path)/Office-Add-ins-Building-Office-Add-ins-for-Word</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="94.3396226" height="94.3396226" rx="47.1698113"></rect>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#99D3FF" offset="0%"></stop>
+            <stop stop-color="#0FA6FF" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-4" x="0" y="0" width="100" height="100" rx="50"></rect>
+        <filter x="-0.5%" y="-0.5%" width="102.0%" height="102.0%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="4" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="1" dy="1" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <path d="M50,2.83018868 C76.0511674,2.83018868 97.1698113,23.9488326 97.1698113,50 C97.1698113,76.0511674 76.0511674,97.1698113 50,97.1698113 C23.9488326,97.1698113 2.83018868,76.0511674 2.83018868,50 C2.83018868,23.9488326 23.9488326,2.83018868 50,2.83018868 Z M50,6.60377358 C26.032926,6.60377358 6.60377358,26.032926 6.60377358,50 C6.60377358,73.967074 26.032926,93.3962264 50,93.3962264 C73.967074,93.3962264 93.3962264,73.967074 93.3962264,50 C93.3962264,26.032926 73.967074,6.60377358 50,6.60377358 Z" id="path-6"></path>
+        <filter x="-27.9%" y="-24.0%" width="155.8%" height="148.0%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-9">
+            <stop stop-color="#D2EBFF" offset="0%"></stop>
+            <stop stop-color="#F0FFFD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="99.6885557%" id="linearGradient-10">
+            <stop stop-color="#F15925" offset="0%"></stop>
+            <stop stop-color="#D83F26" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Badges" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Extend-Office-clients-with-Office-Add-ins-(Associate-path)" transform="translate(-160.000000, -700.000000)">
+            <g id="Extend-Office-clients-with-Office-Add-ins-(Associate-path)/Office-Add-ins-Building-Office-Add-ins-for-Word" transform="translate(160.000000, 700.000000)">
+                <g id="Badge-Plates/Circle">
+                    <g id="BG" transform="translate(2.830189, 2.830189)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g></g>
+                        <g id="Colors/Microsoft-365/BG-Gradient-1" mask="url(#mask-2)" fill="url(#linearGradient-3)">
+                            <rect id="Rectangle" x="0" y="0" width="94.3396226" height="94.3396226"></rect>
+                        </g>
+                    </g>
+                    <g id="Border">
+                        <g id="White-Border">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                            <rect stroke="#F2F1F0" stroke-width="4" stroke-linejoin="square" x="2" y="2" width="96" height="96" rx="48"></rect>
+                        </g>
+                        <mask id="mask-7" fill="white">
+                            <use xlink:href="#path-6"></use>
+                        </mask>
+                        <use id="Boarder" fill="#0078D4" fill-rule="nonzero" xlink:href="#path-6"></use>
+                        <g id="Colors/Microsoft-365/Border" mask="url(#mask-7)" fill="#0076D7">
+                            <g transform="translate(2.830189, 2.830189)" id="Microsoft-365/Border">
+                                <rect x="0" y="0" width="94.3396226" height="94.3396226"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="Document" filter="url(#filter-8)" transform="translate(28.000000, 23.000000)">
+                    <g id="Group">
+                        <path d="M24.3631796,0.0466315558 L2.05332247,0.0466315558 C1.07652213,0.0466315558 0.28466899,0.816648732 0.28466899,1.76651306 L0.28466899,48.2334869 C0.28466899,49.1833513 1.07652213,49.9533684 2.05332247,49.9533684 L40.467235,49.9533684 C41.4440354,49.9533684 42.2358885,49.1833513 42.2358885,48.2334869 L42.2358885,17.4868334 C42.2358885,16.5369691 41.4440354,15.7669519 40.467235,15.7669519 L27.7143125,15.7669519 C26.754649,15.7669519 25.976688,15.0104438 25.976688,14.0772438 L25.976688,1.76651306 C25.9955613,0.866902228 25.2861441,0.110715657 24.3631796,0.0466315558 Z" id="Path" fill="url(#linearGradient-9)" fill-rule="nonzero"></path>
+                        <ellipse id="Oval" fill="#83B9F9" cx="9.17682927" cy="25.7653061" rx="1.83536585" ry="1.78571429"></ellipse>
+                        <ellipse id="Oval" fill="#83B9F9" cx="9.17682927" cy="32.3979592" rx="1.83536585" ry="1.78571429"></ellipse>
+                        <ellipse id="Oval" fill="#83B9F9" cx="9.17682927" cy="39.5408163" rx="1.83536585" ry="1.78571429"></ellipse>
+                        <path d="M42.4756098,16.8367347 L25.1707317,0 L25.1707317,13.6419084 C25.1707317,15.4063622 26.6325539,16.8367347 28.435803,16.8367347 L42.4756098,16.8367347 Z" id="Path" fill="#92C4FC" fill-rule="nonzero"></path>
+                    </g>
+                    <path d="M33.5111701,24 L15.3729306,24 C14.7168342,24 14.1849629,24.5465106 14.1849629,25.2206655 C14.1849629,25.8948204 14.7168342,26.441331 15.3729306,26.441331 L33.6270694,26.441331 C34.2831658,26.441331 34.8150371,25.8948204 34.8150371,25.2206655 C34.8150371,24.5465106 34.2831658,24 33.6270694,24 L33.5111701,24 Z M33.5111701,31.2644483 L15.3729306,31.2644483 C14.9096748,31.1894206 14.4468173,31.4014539 14.1914931,31.8056604 C13.936169,32.2098669 13.936169,32.7305884 14.1914931,33.1347949 C14.4468173,33.5390014 14.9096748,33.7510347 15.3729306,33.676007 L33.6270694,33.676007 C34.0903252,33.7510347 34.5531827,33.5390014 34.8085069,33.1347949 C35.063831,32.7305884 35.063831,32.2098669 34.8085069,31.8056604 C34.5531827,31.4014539 34.0903252,31.1894206 33.6270694,31.2644483 L33.5111701,31.2644483 Z M33.5111701,38.558669 L15.3729306,38.558669 C14.7168342,38.558669 14.1849629,39.1051796 14.1849629,39.7793345 C14.1849629,40.4534894 14.7168342,41 15.3729306,41 L33.6270694,41 C34.2831658,41 34.8150371,40.4534894 34.8150371,39.7793345 C34.8150371,39.1051796 34.2831658,38.558669 33.6270694,38.558669 L33.5111701,38.558669 Z" id="Shape" fill="#83B9F9" fill-rule="nonzero"></path>
+                </g>
+                <g id="Group-3" transform="translate(56.000000, 57.000000)">
+                    <g id="Group-4" fill="url(#linearGradient-10)">
+                        <circle id="Oval" cx="11" cy="11" r="11"></circle>
+                    </g>
+                    <g id="Word_64x64" transform="translate(4.000000, 5.000000)" fill-rule="nonzero">
+                        <path d="M13.4168125,0 L4.0831875,0 C3.76110194,0 3.5,0.261101937 3.5,0.5831875 L3.5,3.0625 L8.75,4.59375 L14,3.0625 L14,0.5831875 C14,0.261101937 13.7388981,0 13.4168125,0 Z" id="Path" fill="#41A5EE"></path>
+                        <polygon id="Path" fill="#2B7CD3" points="14 3.0625 3.5 3.0625 3.5 6.125 8.75 7.65625 14 6.125"></polygon>
+                        <polygon id="Path" fill="#185ABD" points="14 6.125 3.5 6.125 3.5 9.1875 8.75 10.71875 14 9.1875"></polygon>
+                        <path d="M14,9.1875 L3.5,9.1875 L3.5,11.6668125 C3.5,11.9888981 3.76110194,12.25 4.0831875,12.25 L13.4168125,12.25 C13.7388981,12.25 14,11.9888981 14,11.6668125 L14,9.1875 Z" id="Path" fill="#103F91"></path>
+                        <path d="M7.2918125,2.1875 L3.5,2.1875 L3.5,10.5 L7.2918125,10.5 C7.61349917,10.499039 7.87403902,10.2384992 7.875,9.9168125 L7.875,2.7706875 C7.87403902,2.44900083 7.61349917,2.18846098 7.2918125,2.1875 L7.2918125,2.1875 Z" id="Path" fill="#000000" opacity="0.1"></path>
+                        <path d="M6.8543125,2.625 L3.5,2.625 L3.5,10.9375 L6.8543125,10.9375 C7.17599917,10.936539 7.43653902,10.6759992 7.4375,10.3543125 L7.4375,3.2081875 C7.43653902,2.88650083 7.17599917,2.62596098 6.8543125,2.625 Z" id="Path" fill="#000000" opacity="0.2"></path>
+                        <path d="M6.8543125,2.625 L3.5,2.625 L3.5,10.0625 L6.8543125,10.0625 C7.17599917,10.061539 7.43653902,9.80099917 7.4375,9.4793125 L7.4375,3.2081875 C7.43653902,2.88650083 7.17599917,2.62596098 6.8543125,2.625 Z" id="Path" fill="#000000" opacity="0.2"></path>
+                        <path d="M6.4168125,2.625 L3.5,2.625 L3.5,10.0625 L6.4168125,10.0625 C6.73849917,10.061539 6.99903902,9.80099917 7,9.4793125 L7,3.2081875 C6.99903902,2.88650083 6.73849917,2.62596098 6.4168125,2.625 Z" id="Path" fill="#000000" opacity="0.2"></path>
+                        <rect id="Rectangle" fill="#185ABD" x="0" y="2.625" width="7" height="7" rx="1.333"></rect>
+                        <polygon id="Path" fill="#FFFFFF" points="5.228125 8.3125 4.440625 8.3125 3.521875 5.29375 2.559375 8.3125 1.771875 8.3125 0.896875 3.9375 1.684375 3.9375 2.296875 7 3.215625 4.025 3.871875 4.025 4.746875 7 5.359375 3.9375 6.103125 3.9375"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
