@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-azure-migrate-set-up.introduction
+title: Introduction to setting up Azure Migrate for server migration
+metadata:
+  title: Introduction to setting up Azure Migrate for server migration
+  description: Learn how to check your prerequisite configurations in Azure and in your VMware vSphere environment and then perform the initial steps in Azure Migrate to choose your assessment and migration tools. 
+  ms.date: 04/16/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/introduction.md)]
