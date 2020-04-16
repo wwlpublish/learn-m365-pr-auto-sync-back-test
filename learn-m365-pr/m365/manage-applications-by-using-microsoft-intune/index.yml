@@ -13,7 +13,7 @@ summary: Managing applications on devices in your organization is key to a secur
 abstract: |
   In this module, you will:
   - Describe Mobile Application Management with Microsoft Intune.
-  - Describe the available options for deploying Office 365 ProPlus to Windows 10 devices.
+  - Describe the available options for deploying Microsoft 365 Apps to Windows 10 devices.
   - Explain how Intune can be used to manage other applications.
 prerequisites: Basic understanding of Microsoft 365 unified endpoint management.  If you are not familiar with this, we recommend you take Introduction to Microsoft 365 unified endpoint management.
 iconUrl: /learn/achievements/manage-applications-by-using-microsoft-intune.svg

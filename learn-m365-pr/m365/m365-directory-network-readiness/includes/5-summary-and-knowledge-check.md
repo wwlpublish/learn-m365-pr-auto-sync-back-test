@@ -1,1 +1,1 @@
-In this module you learned about components that have an impact on bandwidth, and the tools and options for preparing your directory services and network for deployment to Windows 10 and Office 365 ProPlus.
+In this module you learned about components that have an impact on bandwidth, and the tools and options for preparing your directory services and network for deployment to Windows 10 and Microsoft 365 Apps.

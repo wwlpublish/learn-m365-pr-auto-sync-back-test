@@ -1,15 +1,15 @@
 ### YamlMime:Module
 uid: learn-m365.get-modern-security-compliance
 metadata:
-  title: Update your security and compliance configuration – Windows 10 and Office 365 ProPlus
-  description: Learn about changes to Windows 10 and Office 365 ProPlus that help you protect your data, devices, and users while quickly detecting and responding to threats.
+  title: Update your security and compliance configuration – Windows 10 and Microsoft 365 Apps
+  description: Learn about changes to Windows 10 and Microsoft 365 Apps that help you protect your data, devices, and users while quickly detecting and responding to threats.
   ms.date: 6/17/2019
   author: AlexandraHrt
   ms.author: aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Update your security and compliance configuration – Windows 10 and Office 365 ProPlus
-summary: Learn about changes to Windows 10 and Office 365 ProPlus that help you protect your data, devices, and users while quickly detecting and responding to threats. Learn about anti-malware app compatibility, policies when moving to Windows 10, and how to deal with common problems associated with disk encryption.
+title: Update your security and compliance configuration – Windows 10 and Microsoft 365 Apps
+summary: Learn about changes to Windows 10 and Microsoft 365 Apps that help you protect your data, devices, and users while quickly detecting and responding to threats. Learn about anti-malware app compatibility, policies when moving to Windows 10, and how to deal with common problems associated with disk encryption.
 abstract: |
   At the end of this module, you should be able to:
   - Explain the most common security-related problems that interrupt Microsoft 365 deployments and how to solve them 

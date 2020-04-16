@@ -43,7 +43,7 @@ quiz:
         explanation: "No, this is false. Azure AD isn't a readiness assessment tool."
       - content: "Controlling user settings across devices."
         isCorrect: false
-        explanation: "No, controlling user settings across devices isn't one of Azure AD's primary functions. Some capabilities, like roaming the most recently used files in Office 365 ProPlus or enterprise state roaming in Windows, do use Azure AD, but Azure AD's primary function is controlling access to your apps."
+        explanation: "No, controlling user settings across devices isn't one of Azure AD's primary functions. Some capabilities, like roaming the most recently used files in Microsoft 365 Apps or enterprise state roaming in Windows, do use Azure AD, but Azure AD's primary function is controlling access to your apps."
       - content: "Controlling access to apps, data, and resources in Office 365 and other Microsoft cloud services"
         isCorrect: true
         explanation: "Yes, this one of Azure AD's primary functions. Azure AD manages user accounts, authentication, and authorization."
