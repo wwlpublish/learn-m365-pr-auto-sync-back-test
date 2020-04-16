@@ -3,7 +3,7 @@
 ![step-8-icon](../media/step-8-icon.png)
 
 
-If you’re deploying Office 365 ProPlus for the first time, you can communicate the positive impacts the new features will have for users. For example, you might tell them how they’ll be able to more easily share files with OneDrive or SharePoint, reducing file branching and allowing for real-time co-authoring. You can provide guidance and training on new in-app capabilities, like attaching OneDrive linked files in Outlook or using the new Morph slide transitions and Designer features in PowerPoint. For Windows 10, you can show your users new capabilities like Windows Hello biometric login, personalization of the start menu, and Timeline to easily return to what they were working on.
+If you’re deploying Microsoft 365 Apps for the first time, you can communicate the positive impacts the new features will have for users. For example, you might tell them how they’ll be able to more easily share files with OneDrive or SharePoint, reducing file branching and allowing for real-time co-authoring. You can provide guidance and training on new in-app capabilities, like attaching OneDrive linked files in Outlook or using the new Morph slide transitions and Designer features in PowerPoint. For Windows 10, you can show your users new capabilities like Windows Hello biometric login, personalization of the start menu, and Timeline to easily return to what they were working on.
  
 ![example of communication and collaboration apps](../media/step-8-1-50.png)
 

@@ -1,20 +1,20 @@
 ### YamlMime:Module
 uid: learn-m365.modern-windows-office-servicing
 metadata:
-  title: Learn about Windows and Office 365 ProPlus servicing in Microsoft 365
+  title: Learn about Windows and Microsoft 365 Apps servicing in Microsoft 365
   description: Review how to stay current with updates and learn about the new servicing model.
   ms.date: 06/17/2019
   author: AlexandraHrt
   ms.author: aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Learn about Windows and Office 365 ProPlus servicing in Microsoft 365
-summary: Both Windows 10 and Office 365 ProPlus continually add new capabilities to keep bringing user experiences and security forward with the latest innovations. Learn how to stay current with semi-annual and monthly updates, how the new servicing model works, and what tools and options are available.
+title: Learn about Windows and Microsoft 365 Apps servicing in Microsoft 365
+summary: Both Windows 10 and Microsoft 365 Apps continually add new capabilities to keep bringing user experiences and security forward with the latest innovations. Learn how to stay current with semi-annual and monthly updates, how the new servicing model works, and what tools and options are available.
 abstract: |
   At the end of this module, you should be able to:
   - Explain the update types and the differences between them
   - Explain what servicing channels are and list the channels available  
-  - Describe the details of both the Windows 10 and Office 365 ProPlus servicing channels
+  - Describe the details of both the Windows 10 and Microsoft 365 Apps servicing channels
   - Explain phased update deployments and how they work  
 prerequisites: None
 iconUrl: /learn/achievements/get-modern-windows-and-office-servicing.svg

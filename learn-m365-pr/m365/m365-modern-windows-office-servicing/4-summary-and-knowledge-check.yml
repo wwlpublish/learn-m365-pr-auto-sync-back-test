@@ -15,14 +15,14 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Which of the following is true of the new Windows and Office 365 ProPlus update model?"
+    - content: "Which of the following is true of the new Windows and Microsoft 365 Apps update model?"
       choices:
       - content: "A quality and security update is delivered twice per year."
         isCorrect: false
         explanation: "Incorrect. Quality and security updates are delivered monthly or as needed."
       - content: "A new Features Update is delivered twice per year."
         isCorrect: true
-        explanation: "Correct. Features Updates are delivered twice per year for both Windows and Office 365 ProPlus when you use the Semi-Annual Channel."
+        explanation: "Correct. Features Updates are delivered twice per year for both Windows and Microsoft 365 Apps when you use the Semi-Annual Channel."
       - content: "The cumulative nature of monthly updates means the update decreases in size each month."
         isCorrect: false
         explanation: "Incorrect. The cumulative nature of monthly updates means the update increases in size each month."

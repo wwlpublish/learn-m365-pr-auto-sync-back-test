@@ -17,9 +17,9 @@ One advantage of installing from the internet-based CDN instead of using Configu
 
 ## Policies and preferences
 
-Office 365 ProPlus and volume licensing editions of Office 2019 support Active Directory Group Policy management. New versions continue to use the Office 2016 ADMX templates. Additionally, you can configure install-time policy preferences with the same versions of Office by using the new Office Customization Tool or as part of the Installer process in Configuration Manager. These are policy preferences and not enforced policies - in many cases your users can change or modify the configurations post-installation.
+Microsoft 365 Apps and volume licensing editions of Office 2019 support Active Directory Group Policy management. New versions continue to use the Office 2016 ADMX templates. Additionally, you can configure install-time policy preferences with the same versions of Office by using the new Office Customization Tool or as part of the Installer process in Configuration Manager. These are policy preferences and not enforced policies - in many cases your users can change or modify the configurations post-installation.
 
-Office 365 ProPlus has a new policy enforcement option - the Office Cloud Policy Service. When a user signs into their account, if Office 365 ProPlus is installed on their device, the service enforces the policies you've configured. These policies work regardless of how Office 365 ProPlus was installed and whether or not the user’s PC is domain-joined or managed using other systems. 
+Microsoft 365 Apps has a new policy enforcement option - the Office Cloud Policy Service. When a user signs into their account, if Microsoft 365 Apps is installed on their device, the service enforces the policies you've configured. These policies work regardless of how Microsoft 365 Apps was installed and whether or not the user’s PC is domain-joined or managed using other systems. 
 
 To configure policies with the Office Cloud Policy Service, you add users to a group, then assign that group to configured policies. You can also get to the Office Cloud Policy Service experience from the Office Customization Tool link below under **Learn more.** To use this capability, you need to authenticate with an administrator account to set policies and assign them to groups. 
 
@@ -30,8 +30,8 @@ To configure policies with the Office Cloud Policy Service, you add users to a g
 
 If any of your users have Visio or Project installed, there are a few additional things to be aware of:
 
-- Volume licensing versions of Visio or Project can coexist on the same computer with subscription activation versions of Office 365 ProPlus.
-- Visio 2019 and Project 2019, as well as Visio Online and Project Online applications, are packaged using Click-to-Run. Because of codependencies and shared components in Office, they must be at an equivalent version level. For example, if you have Visio 2019, and you want to also use Office, you need Office 2019 or Office 365 ProPlus.
+- Volume licensing versions of Visio or Project can coexist on the same computer with subscription activation versions of Microsoft 365 Apps.
+- Visio 2019 and Project 2019, as well as Visio Online and Project Online applications, are packaged using Click-to-Run. Because of codependencies and shared components in Office, they must be at an equivalent version level. For example, if you have Visio 2019, and you want to also use Office, you need Office 2019 or Microsoft 365 Apps.
 - Click-to-Run packaged versions of Visio or Project must use the same update channel as other Click-to-Run Office features on the PC.
 
 ## Office installation architecture

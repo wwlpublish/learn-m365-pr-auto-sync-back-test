@@ -23,7 +23,7 @@ quiz:
       - content: "False"
         isCorrect: true
         explanation: "Correct. The packaging method isn't related to activation. When Click-to-Run went mainstream in Office 2013, all consumer editions used Click-to-Run packaging and also used perpetual activation. The distinction for subscription-based or perpetual activation is made based on whether the Office edition is part of Office 365 or not."
-    - content: "Which of the following most closely resembles the Office *Insider* servicing channel for Office 365 ProPlus?"
+    - content: "Which of the following most closely resembles the Office *Insider* servicing channel for Microsoft 365 Apps?"
       choices:
       - content: "Monthly channel"
         isCorrect: false
@@ -37,7 +37,7 @@ quiz:
       - content: "Semi-annual channel (targeted)"
         isCorrect: false
         explanation: "No. Semi-annual channel (targeted) is a pre-release channel for semi-annual channel to test and validate prior to release."
-    - content: "Microsoft recommends using automatic updates from the monthly channel for general purpose devices with Office 365 ProPlus installed."
+    - content: "Microsoft recommends using automatic updates from the monthly channel for general purpose devices with Microsoft 365 Apps installed."
       choices:
       - content: "True"
         isCorrect: true

@@ -1,6 +1,6 @@
 ![download icon](../media/download-icon.png)
 
-In this unit, we’ll build an Office 365 ProPlus package using the Office 365 Installer application packaging process in Configuration Manager. This process is similar to the standalone web tool found in the Office 365 Client Configuration Service.
+In this unit, we’ll build an Microsoft 365 Apps package using the Office 365 Installer application packaging process in Configuration Manager. This process is similar to the standalone web tool found in the Office 365 Client Configuration Service.
 
 You can use the standard application package creation process in Configuration Manager, but you’ll have to create the configuration XML files manually, as well as download an updated version of the Office Deployment Tool and the Office installation files. Because of this and to avoid making mistakes along the way, we recommend you use the Office 365 Installer process, following these steps.
 
