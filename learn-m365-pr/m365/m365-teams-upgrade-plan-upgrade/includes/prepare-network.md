@@ -24,7 +24,7 @@ Many networks were designed to use a hub and spoke topology. In this topology, i
 
 Back-hauling traffic across the WAN increases latency and has a negative impact on quality and the user experience. Because Microsoft Teams runs on Microsoft’s large global network, there’s often a network peering location close to the user. A user will most likely get better performance by egressing out of a local internet point close to their location and on to our voice-optimized network as soon as possible. For some workloads, DNS requests are used to send traffic to the nearest front-end server. In such cases, it’s important that when using a local egress point, it’s paired with local DNS resolution.
 
-Optimizing the network path to Microsoft’s global network will improve performance and ultimately provide the best experience for users. To get an optimal experience using real-time media within Microsoft Teams, you must meet the networking requirements for Office 365.
+Optimizing the network path to Microsoft’s global network will improve performance and ultimately provide the best experience for users. To get an optimal experience using real-time media within Microsoft Teams, you must meet the networking requirements for Microsoft 365.
 
 Client to Microsoft Edge and Customer Edge to Microsoft Edge are the two defining network segments. Use the Network Assessment Tool to test both network segments. This tool can be deployed on both the client PC directly and on a PC connected to the Customer Network Edge.
 
@@ -51,7 +51,7 @@ Each wireless vendor has its own recommendations for deploying its wireless solu
 
 Microsoft Teams connects to Microsoft Online Services. For Teams to function correctly, you must open TCP ports 80 and 443 from the clients to the internet, and UDP ports 3478 through 3481 from the clients to the internet. The TCP ports are used to connect to web-based content such as SharePoint Online, Exchange Online, and the Teams Chat services. Plug-ins and connectors also connect over these TCP ports. The four UDP ports are used for media such as audio and video, to ensure they flow correctly.
 
-If your organization requires that you specify the exact IP address ranges and domains to which these ports should be opened, you can restrict the target IP ranges and domains for these ports. For a list of exact ports, protocols, and IP ranges, see Office 365 URLs and IP address ranges. It’s also a good practice to test whether all ports are opened by running the Skype for Business Network Assessment Tool on a regular basis. 
+If your organization requires that you specify the exact IP address ranges and domains to which these ports should be opened, you can restrict the target IP ranges and domains for these ports. For a list of exact ports, protocols, and IP ranges, see Microsoft 365 URLs and IP address ranges. It’s also a good practice to test whether all ports are opened by running the Skype for Business Network Assessment Tool on a regular basis. 
 
 We also recommend that you bypass any proxy servers for all Teams services. Although using a proxy might work, media will be forced to use TCP instead of UDP, which will result in a reduction in quality. 
 
@@ -59,17 +59,17 @@ We also recommend that you bypass any proxy servers for all Teams services. Alth
 
 ### External name resolution
 
-Ensure that all the client computers running the Teams client can resolve external DNS queries to discover the services provided by Office 365.
+Ensure that all the client computers running the Teams client can resolve external DNS queries to discover the services provided by Microsoft 365.
 
 ### NAT pool size
 
-When multiple users and devices access Office 365 by using Network Address Translation (NAT) or Port Address Translation (PAT), you need to ensure that the devices hidden behind each publicly routable IP address don’t exceed the supported number.
+When multiple users and devices access Microsoft 365 by using Network Address Translation (NAT) or Port Address Translation (PAT), you need to ensure that the devices hidden behind each publicly routable IP address don’t exceed the supported number.
 
-To mitigate this risk, ensure adequate public IP addresses are assigned to the NAT pools to prevent port exhaustion. Port exhaustion will cause internal end users and devices to face issues when connecting to the Office 365 services. 
+To mitigate this risk, ensure adequate public IP addresses are assigned to the NAT pools to prevent port exhaustion. Port exhaustion will cause internal end users and devices to face issues when connecting to the Microsoft 365 services. 
 
 ### Intrusion detection and prevention guidance
 
-If your environment has an intrusion detection system and/or intrusion prevention system deployed for an extra layer of security for outbound connections, ensure that any traffic that has Office 365 URLs as its destination is whitelisted.
+If your environment has an intrusion detection system and/or intrusion prevention system deployed for an extra layer of security for outbound connections, ensure that any traffic that has Microsoft 365 URLs as its destination is whitelisted.
 
 ## Test the network
 

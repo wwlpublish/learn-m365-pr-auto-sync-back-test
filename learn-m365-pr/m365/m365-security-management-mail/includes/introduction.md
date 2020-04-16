@@ -21,9 +21,9 @@ Office 365 Advanced Threat Protection (ATP) is an email filtering service that p
 - **Threat investigation and response capabilities** - Use leading-edge tools to investigate, understand, simulate, and prevent threats.
 - **Automated investigation and response capabilities** - Save time and effort investigating and mitigating threats.
 
-ATP anti-phishing applies a set of machine learning models together with impersonation detection algorithms to incoming messages to provide protection for commodity and spear phishing attacks. ATP anti-phishing protects your organization according to policies that are set by your Office 365 global or security administrators.
+ATP anti-phishing applies a set of machine learning models together with impersonation detection algorithms to incoming messages to provide protection for commodity and spear phishing attacks. ATP anti-phishing protects your organization according to policies that are set by your global or security administrators.
 
-Other Office 365 ATP features include:
+Other ATP features include:
 
 - **Safe Attachments** - Protect against unknown malware and viruses by opening attachments in cordoned-off virtual environments to detect malicious behavior.
 - **Safe Links** - Provide real-time, time-of-click protection against malicious URLs by wrapping external links in special URLs that check the destination URL for threats before opening them.

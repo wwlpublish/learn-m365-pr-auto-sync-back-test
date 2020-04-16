@@ -27,10 +27,10 @@ quiz:
       - content: "Co-management"
         isCorrect: true
         explanation: "Correct!"
-      - content: "MDM for Office 365"
+      - content: "MDM for Microsoft 365"
         isCorrect: false
         explanation: "Incorrect."
-    - content: "Which of the following attributes are the same between Mobile Device Management for Office 365 and Microsoft Intune?"
+    - content: "Which of the following attributes are the same between Mobile Device Management for Microsoft 365 and Microsoft Intune?"
       choices:
       - content: "Management interface"
         isCorrect: false

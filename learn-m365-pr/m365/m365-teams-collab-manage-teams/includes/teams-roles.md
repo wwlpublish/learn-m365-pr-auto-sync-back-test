@@ -11,7 +11,7 @@ The table shows the differences in permissions between an owner and a member. (C
 
 ![Owner-member permission differences](../media/owner-member-permissions.png)
 
-If a team is created from an existing Office 365 Group, permissions are inherited from that group.
+If a team is created from an existing group, permissions are inherited from that group.
 
 > [!NOTE]
 > All users with Exchange Online mailboxes can create teams.
@@ -20,7 +20,7 @@ If a team is created from an existing Office 365 Group, permissions are inherite
 
 Teams administrator roles determine what capabilities each administrative role holder has. Four administrative roles are available in Teams:
  
-- **Teams Service Administrator.** Manages the Teams service; creates and manages Office 365 Groups.
+- **Teams Service Administrator.** Manages the Teams service; creates and manages Microsoft 365 Groups.
 - **Teams Communications Administrator.** Manages calling and meetings features within the Microsoft Teams service.
 - **Teams Communications Specialist.** Troubleshoots communications issues within Teams by using basic tools.
 - **Teams Communications Support Engineer.** Troubleshoots communications issues within Teams by using advanced tools.

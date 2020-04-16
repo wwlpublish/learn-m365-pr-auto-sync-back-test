@@ -1,4 +1,4 @@
-As a SharePoint or global administrator in Office 365, you can control access to SharePoint content by selecting options in the SharePoint admin center.
+As a SharePoint or global administrator in Microsoft 365, you can control access to SharePoint content by selecting options in the SharePoint admin center.
 
 ## Control guest access
 
@@ -41,7 +41,7 @@ You can also control access to SharePoint resources based on defined network loc
 
 ## Sign out inactive users
 
-Idle session sign-out lets you specify a time at which users are warned and subsequently signed out of Office 365 after a period of browser inactivity in SharePoint and OneDrive. Idle session sign-out applies to the entire organization and can't be set for specific sites or users.
+Idle session sign-out lets you specify a time at which users are warned and subsequently signed out of Microsoft 365 after a period of browser inactivity in SharePoint and OneDrive. Idle session sign-out applies to the entire organization and can't be set for specific sites or users.
 
 ## Learn more
 

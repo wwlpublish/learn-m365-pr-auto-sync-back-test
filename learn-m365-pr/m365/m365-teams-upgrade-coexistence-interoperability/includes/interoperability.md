@@ -17,7 +17,7 @@ Depending on the coexistence modes assigned to users (as previously described), 
 - Skype for Business users can make one-on-one voice and video calls to Teams users, and vice versa.
 
    > [!IMPORTANT]
-   > Interoperability experiences with an on-premises deployment of Skype for Business require that the on-premises environment is in hybrid mode with Office 365 Skype for Business.
+   > Interoperability experiences with an on-premises deployment of Skype for Business require that the on-premises environment is in hybrid mode with Microsoft 365 Skype for Business.
 
 These interoperability experiences are available to and between users who have one of the following coexistence modes assigned: 
 

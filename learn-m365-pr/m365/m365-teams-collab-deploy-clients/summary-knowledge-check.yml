@@ -47,7 +47,7 @@ quiz:
         explanation: "Administrators cannot do a bulk deployment of the mobile client."
       - content: "Microsoft Teams desktop client"  
         isCorrect: true
-        explanation: "Administrators can do a bulk deployment of the desktop client via MSI or Office 365 Pro Plus."       
+        explanation: "Administrators can do a bulk deployment of the desktop client via MSI or Microsoft 365 Apps."       
       - content: "Microsoft Teams web client"  
         isCorrect: false  
         explanation: "Administrators cannot do a bulk deployment of the web client." 
