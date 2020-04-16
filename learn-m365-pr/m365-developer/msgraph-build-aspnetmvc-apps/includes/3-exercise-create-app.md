@@ -110,7 +110,7 @@ Open the **./Views/Shared/_Layout.cshtml** file, and replace its entire contents
                         </li>
                     }
                 </ul>
-                <ul class="navbar-nav justify-content-end">
+                <ul class="navbar-nav justify-content-end" style="align-items:center;">
                     <li class="nav-item">
                         <a class="nav-link" href="https://developer.microsoft.com/graph/docs/concepts/overview" target="_blank">
                             <i class="fas fa-external-link-alt mr-1"></i>Docs
@@ -194,7 +194,7 @@ Open the **Views/Home/index.cshtml** file and replace its contents with the foll
 
 <div class="jumbotron">
     <h1>ASP.NET Graph Tutorial</h1>
-    <p class="lead">This sample app shows how to use the Microsoft Graph API to access Outlook and OneDrive data from ASP.NET</p>
+    <p class="lead">This sample app shows how to use the Microsoft Graph API to access a user's data from ASP.NET</p>
     @if (Request.IsAuthenticated)
     {
         <h4>Welcome @ViewBag.User.DisplayName!</h4>
