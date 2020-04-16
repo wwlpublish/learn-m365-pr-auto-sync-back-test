@@ -39,7 +39,7 @@ quiz:
         isCorrect: true
         explanation: "explanation"
       
- - content: "Question here"
+    - content: "Question here"
       choices:
       - content: "Choice 1"
         isCorrect: false
