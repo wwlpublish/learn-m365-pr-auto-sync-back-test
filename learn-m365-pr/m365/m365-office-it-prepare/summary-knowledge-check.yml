@@ -19,10 +19,10 @@ quiz:
       choices:
       - content: "True"
         isCorrect: false
-        explanation: "Incorrect. The packaging method isn't related to activation. When Click-to-Run went mainstream in Office 2013, all consumer editions used Click-to-Run packaging and also used perpetual activation. The distinction for subscription-based or perpetual activation is made based on whether the Office edition is part of Office 365 or not."
+        explanation: "Incorrect. The packaging method isn't related to activation. When Click-to-Run went mainstream in Office 2013, all consumer editions used Click-to-Run packaging and also used perpetual activation. The distinction for subscription-based or perpetual activation is made based on whether the Office edition is part of Microsoft 365 or not."
       - content: "False"
         isCorrect: true
-        explanation: "Correct. The packaging method isn't related to activation. When Click-to-Run went mainstream in Office 2013, all consumer editions used Click-to-Run packaging and also used perpetual activation. The distinction for subscription-based or perpetual activation is made based on whether the Office edition is part of Office 365 or not."
+        explanation: "Correct. The packaging method isn't related to activation. When Click-to-Run went mainstream in Office 2013, all consumer editions used Click-to-Run packaging and also used perpetual activation. The distinction for subscription-based or perpetual activation is made based on whether the Office edition is part of Microsoft 365 or not."
     - content: "Which of the following most closely resembles the Office *Insider* servicing channel for Microsoft 365 Apps?"
       choices:
       - content: "Monthly channel"
@@ -41,10 +41,10 @@ quiz:
       choices:
       - content: "True"
         isCorrect: true
-        explanation: "Correct. General purpose devices with limited customization or Office COM add-ins installed are the best candidates for automatic updating using the monthly channel and the Office 365 CDN. This will ensure devices receive the latest features and security updates. It is recommended to pair automatic updates with Delivery Optimization in Windows 10 to reduce consumed internet bandwidth for updates."
+        explanation: "Correct. General purpose devices with limited customization or Office COM add-ins installed are the best candidates for automatic updating using the monthly channel and the CDN. This will ensure devices receive the latest features and security updates. It is recommended to pair automatic updates with Delivery Optimization in Windows 10 to reduce consumed internet bandwidth for updates."
       - content: "False"
         isCorrect: false
-        explanation: "Incorrect. General purpose devices with limited customization or Office COM add-ins installed are the best candidates for automatic updating using the monthly channel and the Office 365 CDN. This will ensure devices receive the latest features and security updates. It is recommended to pair automatic updates with Delivery Optimization in Windows 10 to reduce consumed internet bandwidth for updates."
+        explanation: "Incorrect. General purpose devices with limited customization or Office COM add-ins installed are the best candidates for automatic updating using the monthly channel and the CDN. This will ensure devices receive the latest features and security updates. It is recommended to pair automatic updates with Delivery Optimization in Windows 10 to reduce consumed internet bandwidth for updates."
     - content: "Which of the following tools should you use to discover and assess the compatibility of VBA macros in Office?"
       choices:
       - content: "Configuration Manager hardware inventory"

@@ -4,7 +4,7 @@ SharePoint administrators who also have the Service administrator role can see i
 
 ![SharePoint manage admin roles screen](../media/manage-admin-roles.png)
 
-Users assigned the SharePoint administrator role have access to the SharePoint admin center and can create and manage sites, manage guest sharing, and other content controls. SharePoint administrators can also manage Office 365 Groups, including creating, deleting, and restoring groups, and changing group owners. Global administrators and SharePoint administrators don't have automatic access to all sites, but they can give themselves access to any sites if needed.
+Users assigned the SharePoint administrator role have access to the SharePoint admin center and can create and manage sites, manage guest sharing, and other content controls. SharePoint administrators can also manage Microsoft 365 Groups, including creating, deleting, and restoring groups, and changing group owners. Global administrators and SharePoint administrators don't have automatic access to all sites, but they can give themselves access to any sites if needed.
 
 ## Key tasks of the SharePoint administrator
 

@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.optimize-wvd.configure-onedrive
-title: Configure OneDrive in Office 365 in Windows Virtual Desktop host pools 
+title: Configure OneDrive in Windows Virtual Desktop host pools 
 metadata:
-  title: Configure OneDrive in Office 365 in Windows Virtual Desktop host pools
+  title: Configure OneDrive in Windows Virtual Desktop host pools
   description: Learn how to use OneDrive with Windows Virtual Desktop.
   ms.date: 08/16/2019
   author: lizap

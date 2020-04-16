@@ -25,7 +25,7 @@ You can edit the settings in the global policy to include the apps that you want
 
 Tabs allow team members to access services and content in a dedicated space within a channel or in a chat. This lets the team work directly with, and have conversations about, tools and data, all within the context of the channel or chat. Owners and team members can add tabs to a channel, private chat, and group chat to help integrate their cloud services. Tabs can be added to help users easily access and manage the data they need or interact with the most.
 
-In addition to the built-in tabs, you can design and develop your own tabs to integrate into Teams or share with the rest of the community. You can control access to your custom tabs by configuring the appropriate Office 365 Groups.
+In addition to the built-in tabs, you can design and develop your own tabs to integrate into Teams or share with the rest of the community. You can control access to your custom tabs by configuring the appropriate Microsoft 365 Groups.
 
 The Microsoft Developer Network provides sample tabs developed by Microsoft that you can download, and detailed instructions for designing and building your own tabs.
 

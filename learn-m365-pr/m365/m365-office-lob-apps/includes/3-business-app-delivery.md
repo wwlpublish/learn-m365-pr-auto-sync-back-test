@@ -12,7 +12,7 @@ Another popular method of app delivery is **PC imaging** - applications are eith
 
 ![Task Sequence Editor](../media/step-3-office-and-lob-app-delivery-media-4.png)
 
-If you want to include Microsoft 365 Apps in your image, remember that Office employs a user-based activation and can’t be pre-activated by the system admin. Use the Office Deployment Tool to pre-install Office on the device you're imaging and skip the user login. Once the image is deployed, end users can sign in using their Office 365 credentials and activate Microsoft 365 Apps.
+If you want to include Microsoft 365 Apps in your image, remember that Office employs a user-based activation and can’t be pre-activated by the system admin. Use the Office Deployment Tool to pre-install Office on the device you're imaging and skip the user login. Once the image is deployed, end users can sign in using their Microsoft 365 credentials and activate Microsoft 365 Apps.
 
 ## Sideloading business apps
 

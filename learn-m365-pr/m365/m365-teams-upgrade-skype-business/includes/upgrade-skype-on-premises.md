@@ -1,4 +1,4 @@
-To upgrade to Teams from Skype for Business or Microsoft Lync on-premises, you'll need to set up hybrid connectivity with your Office 365 tenant, and then determine coexistence requirements if you are moving your users to Teams in phases.
+To upgrade to Teams from Skype for Business or Microsoft Lync on-premises, you'll need to set up hybrid connectivity with your Microsoft 365 tenant, and then determine coexistence requirements if you are moving your users to Teams in phases.
 
 ## Step 1: Configure hybrid connectivity
 
@@ -38,8 +38,8 @@ Prerequisites to move a user to the cloud (whether to Skype for Business Only or
 - The organization must have Azure AD Connect properly configured and be syncing all relevant attributes for the user.
 - Skype for Business hybrid must be configured.
 - The user must be assigned a license for Skype for Business Online (Plan 2), and if they will be using Teams, they must also have a Teams license. In addition: 
-   - If the user is enabled for dial-in conferencing in on-premises, by default the user must also have an Audio Conferencing license assigned in Office 365 before you run move the user online. Once migrated to the cloud, the user will be provisioned for audio conferencing in the cloud. If for some reason you want to move a user to the cloud, but not use audio conferencing functionality, you can override this check by specifying the "BypassAudioConferencingCheck" parameter in **Move-CsUser**.
-   - If the user is enabled for Enterprise Voice in on-premises, by default the user must have a Phone System license assigned in Office 365 before you move the user online. Once Migrated to the cloud, the user will be provisioned for Phone System in the cloud. If for some reason you want to move a user to the cloud but not use Phone System functionality, you can override this check by specifying the "BypassEnterpriseVoiceCheckparameter" in **Move-CsUser**.
+   - If the user is enabled for dial-in conferencing in on-premises, by default the user must also have an Audio Conferencing license assigned in Microsoft 365 before you run move the user online. Once migrated to the cloud, the user will be provisioned for audio conferencing in the cloud. If for some reason you want to move a user to the cloud, but not use audio conferencing functionality, you can override this check by specifying the "BypassAudioConferencingCheck" parameter in **Move-CsUser**.
+   - If the user is enabled for Enterprise Voice in on-premises, by default the user must have a Phone System license assigned in Microsoft 365 before you move the user online. Once Migrated to the cloud, the user will be provisioned for Phone System in the cloud. If for some reason you want to move a user to the cloud but not use Phone System functionality, you can override this check by specifying the "BypassEnterpriseVoiceCheckparameter" in **Move-CsUser**.
 
 ### Moving users
 
@@ -58,10 +58,10 @@ To move users between on-premises and the cloud (whether to Teams or to Skype fo
 
 ### Required administrative credentials
 
-To move users between on-premises and the cloud, you must use an account with sufficient privileges in both the on-premises Skype for Business Server environment as well as in the Office 365 tenant. You can either use one account that has all the necessary privileges, or you can use two accounts, in which case you would access the on-premises tools using on-premises credentials, and then in those tools you would supply additional credentials for an Office 365 administrative account.
+To move users between on-premises and the cloud, you must use an account with sufficient privileges in both the on-premises Skype for Business Server environment as well as in the Microsoft 365 tenant. You can either use one account that has all the necessary privileges, or you can use two accounts, in which case you would access the on-premises tools using on-premises credentials, and then in those tools you would supply additional credentials for a Microsoft 365 administrative account.
 
 - In the on-premises environment, the user performing the move must have the **CSServerAdminstrator** role in Skype for Business Server.
-- In Office 365, the user performing the move must either be a Global Administrator or they must have both Skype for Business Administrator and User Administrator roles.
+- In Microsoft 365, the user performing the move must either be a Global Administrator or they must have both Skype for Business Administrator and User Administrator roles.
 
 ## Learn more
 
@@ -69,7 +69,7 @@ When you're done with a link, use the **Back** arrow in your browser to come bac
 
 - [Upgrade from Skype for Business on-premises to Teams](https://docs.microsoft.com/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem)
 - [Move users between on-premises and the cloud](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud)
-- [Plan hybrid connectivity between Skype for Business Server and Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
+- [Plan hybrid connectivity between Skype for Business Server and Microsoft 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
 - [Configure hybrid connectivity](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)
 - [Setting your coexistence and upgrade settings](https://aka.ms/SkypeToTeams-SetCoexistence)
 - [TeamsUpgradePolicy: managing migration and coexistence](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype#teamsupgradepolicy-managing-migration-and-co-existence)

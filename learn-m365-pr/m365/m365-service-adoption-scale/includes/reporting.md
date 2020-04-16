@@ -1,11 +1,11 @@
-Microsoft's Office 365 services collect data about the usage patterns of your users. This data is only available to people who are designated global or workload administrators or who have been granted report reader rights in the experience. Discuss the use of these reports in your service adoption work with your IT partners. You can see important information such as:
+Microsoft 365 services collect data about the usage patterns of your users. This data is only available to people who are designated global or workload administrators or who have been granted report reader rights in the experience. Discuss the use of these reports in your service adoption work with your IT partners. You can see important information such as:
 
 - Licenses (enabled) vs active users
 - Usage by workload
 - First-time user statistics
 - Adoption by region
 
-**Usage data allows you to adjust your awareness and training campaigns to help people understand the capabilities that they have available to them.** This is helpful when combined with the "what's in it for me" or WIIFM approach to messaging that helps employees understand how using Office 365 services will empower them to be more productive and agile in their work styles. 
+**Usage data allows you to adjust your awareness and training campaigns to help people understand the capabilities that they have available to them.** This is helpful when combined with the "what's in it for me" or WIIFM approach to messaging that helps employees understand how using Microsoft 365 services will empower them to be more productive and agile in their work styles. 
 
 > |![Activity logo](../media/activity.png) Activity|
 > |-|  

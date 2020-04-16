@@ -83,7 +83,7 @@ Technology changes can be expensive far beyond the cost of the hardware or softw
 
 > ### Optional activity
 
-> Buy yourself a subscription to Office 365. You'll have access to all the administrative tools and workloads that you might use in your work environment. The monthly subscripotion cost is a small investment in your career and gives you a safe environment to learn in. Alternatively, ask your IT department if they have a "test" or "development" tenant where you can be a user with administrative rights so that you can learn on your own. For many of us there is no alternative to hands-on learning. You can also use other online Microsoft learning experiences that have labs attached so you can build out your own solutions. 
+> Buy yourself a subscription to Microsoft 365. You'll have access to all the administrative tools and workloads that you might use in your work environment. The monthly subscripotion cost is a small investment in your career and gives you a safe environment to learn in. Alternatively, ask your IT department if they have a "test" or "development" tenant where you can be a user with administrative rights so that you can learn on your own. For many of us there is no alternative to hands-on learning. You can also use other online Microsoft learning experiences that have labs attached so you can build out your own solutions. 
 
 ## Knowledge area - Marketing and communications
 

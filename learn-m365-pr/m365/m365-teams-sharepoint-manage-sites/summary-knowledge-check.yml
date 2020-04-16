@@ -18,7 +18,7 @@ quiz:
     questions:
     - content: "To enable users to share files with guests, you must:"
       choices:
-      - content: "Enable guest sharing for Office 365 Groups and SharePoint."
+      - content: "Enable guest sharing for Microsoft 365 Groups and SharePoint."
         isCorrect: false
         explanation: "To enable users to share files with guests, you must enable guest sharing in SharePoint at both the organization and site level for the site where the shared content is located."
       - content: "Enable guest sharing in SharePoint at both the organization and site level."
@@ -42,13 +42,13 @@ quiz:
       
     - content: "What kind of site permissions can the SharePoint administrator manage in the admin center?"
       choices:
-      - content: "Office 365 Group owner and primary administrator"
+      - content: "Microsoft 365 Group owner and primary administrator"
         isCorrect: true
-        explanation: "Administrators can manage the Office 365 Group owner for team sites and the primary administrator for other sites in the SharePoint admin center."
+        explanation: "Administrators can manage the Microsoft 365 Group owner for team sites and the primary administrator for other sites in the SharePoint admin center."
       - content: "Site members and visitors"
         isCorrect: false
-        explanation: "Administrators can manage the Office 365 Group owner for team sites and the primary administrator for other sites in the SharePoint admin center."
+        explanation: "Administrators can manage the Microsoft 365 Group owner for team sites and the primary administrator for other sites in the SharePoint admin center."
       - content: "Site permission levels, including Full Control, Edit, and Contribute"
         isCorrect: false
-        explanation: "Administrators can manage the Office 365 Group owner for team sites and the primary administrator for other sites in the SharePoint admin center."
+        explanation: "Administrators can manage the Microsoft 365 Group owner for team sites and the primary administrator for other sites in the SharePoint admin center."
       

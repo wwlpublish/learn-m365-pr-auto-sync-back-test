@@ -28,19 +28,19 @@ quiz:
         explanation: "Spam mail may be malicious in intent but isn't always an attack. Malicious hyperlinks are a common way to attack an organization's end-user base."
       - content: "Malicious attachments and hyperlinks"
         isCorrect: true
-        explanation: "Correct. Malicious attachments and hyperlinks are two of the most common phishing attacks. Office 365 ATP protects against both with Safe Links and Safe Attachments."
+        explanation: "Correct. Malicious attachments and hyperlinks are two of the most common phishing attacks. ATP protects against both with Safe Links and Safe Attachments."
     - content: "The Contoso organization has Office 365 Enterprise E5 for all users. The security administrator has defined specific anti-phishing policies for the finance department but hasn't applied those policies elsewhere. Which of the following is true?"
       choices:
-      - content: "Office 365 ATP anti-phishing protection is in place for all of Contoso"
+      - content: "ATP anti-phishing protection is in place for all of Contoso"
         isCorrect: false
         explanation: "Although the feature is available, at least one ATP policy must be defined for the ATP machine learning models to work."
-      - content: "Office 365 ATP advanced anti-phishing protection is in place for finance, while all other Contoso users receive baseline anti-phishing protection."
+      - content: "ATP advanced anti-phishing protection is in place for finance, while all other Contoso users receive baseline anti-phishing protection."
         isCorrect: false
-        explanation: "There is no baseline and advanced layer of Office 365 ATP anti-phishing protection."
-      - content: "Office 365 ATP anti-phishing protection is in place for finance and all newly created Office 365 users, but not for the rest of Contoso."
+        explanation: "There is no baseline and advanced layer of ATP anti-phishing protection."
+      - content: "ATP anti-phishing protection is in place for finance and all newly created users, but not for the rest of Contoso."
         isCorrect: false
         explanation: "Although the feature is available, at least one ATP policy must be defined for the ATP machine learning models to work. New users would only receive the policy if placed in the finance department."
-      - content: "Office 365 ATP anti-phishing protection is in place for only the finance department."
+      - content: "ATP anti-phishing protection is in place for only the finance department."
         isCorrect: true
         explanation: "Correct. Since the ATP anti-phishing policies were only applied to the finance department, the rest of Contoso won't receive that protection until the policies are applied to the organization."
       
