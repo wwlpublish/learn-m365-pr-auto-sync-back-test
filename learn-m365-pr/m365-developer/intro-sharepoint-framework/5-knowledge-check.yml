@@ -1,0 +1,58 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.intro-sharepoint-framework.5-knowledge-check
+metadata:
+  title: Knowledge check
+  description: Check your knowledge.
+  ms.date: 04/17/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Knowledge check
+durationInMinutes: 10
+content: |
+quiz:
+  title: Check your knowledge
+  questions:
+  - content: "The SharePoint Framework is available in which of the following SharePoint environments?"
+    choices:
+    - content: "SharePoint Server 2016"
+      isCorrect: false
+      explanation: "The SharePoint Framework is also supported in SharePoint Online and SharePoint Server 2019."
+    - content: "SharePoint Server 2019"
+      isCorrect: false
+      explanation: "The SharePoint Framework is also supported in SharePoint Online and SharePoint Server 2016."
+    - content: "SharePoint Online"
+      isCorrect: false
+      explanation: "The SharePoint Framework is also supported in SharePoint Server 2016 and SharePoint Server 2019."
+    - content: "All of these environments"
+      isCorrect: true
+      explanation: "Correct!"
+  - content: "Which of the following statements isn't correct about the SharePoint Framework?"
+    choices:
+    - content: "SharePoint Framework packages can be deployed to the tenant or site collection scoped app catalog to control where apps can be installed and used."
+      isCorrect: false
+      explanation: "This option is correct."
+    - content: "Because SharePoint Framework components are entirely client-side components, it's impossible to limit the permissions granted to any particular component."
+      isCorrect: true
+      explanation: "If a web part is deployed as an isolated web part, it will render in an Iframe from unique domain, enabling SharePoint to scope permissions to just that application."
+    - content: "Users can add multiple web parts to pages, or they can be configured by the developer to be the only component on a page using the site part app page capability."
+      isCorrect: false
+      explanation: "This option is correct."
+  - content: "SharePoint Framework includes APIs that can be used to call all of the following resources, except which one?"
+    choices:
+    - content: "Anonymous/unsecured HTTP REST endpoints"
+      isCorrect: false
+      explanation: "This option is a supported endpoint that developers can call from the included SharePoint Framework API."
+    - content: "Microsoft Graph"
+      isCorrect: false
+      explanation: "This option is a supported endpoint that developers can call from the included SharePoint Framework API."
+    - content: "Microsoft hosted endpoints secured with Azure AD"
+      isCorrect: false
+      explanation: "This option is a supported endpoint that developers can call from the included SharePoint Framework API."
+    - content: "Any endpoint secured with Azure AD"
+      isCorrect: false
+      explanation: "This option is a supported endpoint that developers can call from the included SharePoint Framework API."
+    - content: "All of these are supported endpoints that developers can call from the included SharePoint Framework API."
+      isCorrect: true
+      explanation: "Correct!"
