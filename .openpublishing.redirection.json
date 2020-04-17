@@ -1,6 +1,16 @@
 {
   "redirections": [
     {
+      "source_path": "learn-m365-pr/m365/m365-get-modern-intro/1-get-started-w10-o365pp.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/m365-get-modern-intro/1-get-started",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-office-lob-apps/2-install-upgrade-0365-proplus.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/m365-office-lob-apps/2-install-upgrade-m365-apps",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "learn-m365-pr/compliance-with-microsoft-365/index.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/compliance-with-microsoft-365",
       "redirect_document_id": true
