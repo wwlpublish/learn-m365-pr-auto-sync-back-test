@@ -1,9 +1,5 @@
 In this unit, you'll learn what developers will need and how to create custom SharePoint Framework solutions. Once you've created the custom solution, you'll then learn how to deploy your components into different environments and various hosting options for your components.
 
-> - [ ] SPFx solution structure - sppkg file, solution-package.json etc.
-> - [ ] Basics on development flow - workbench, online workbench etc., app catalog, deployment options
-> - [ ] Tenant wide deployment, app pages, domain isolated
-
 ## Tooling for SPFx development
 
 Microsoft has adopted the open-source tooling for the foundation of SharePoint Framework development. Three categories to explore when it comes to open-source tooling and libraries related to the SharePoint Framework are as follows:
