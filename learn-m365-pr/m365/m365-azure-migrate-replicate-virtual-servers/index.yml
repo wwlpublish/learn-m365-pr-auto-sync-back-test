@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn-m365.m365-azure-migrate-replicate-virtual-servers
+metadata:
+  title: Replicate and migrate virtual machine servers with Azure Migrate
+  description:Learn the process for replicating, testing, and finally migrating your virtual machines into production. 
+  ms.date: 04/20/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Replicate and migrate virtual machine servers with Azure Migrate
+summary: Learn the process for replicating, testing, and finally migrating your virtual machines into production.
+  Upon completion of this module, you should be able to: 
+  - Explain how to replicate a virtual machine. 
+  - Describe how to test migrated virtual machines. 
+  - Explain how to migrate virtual machines into production.  
+prerequisites: | 
+ - Basic understanding of Microsoft Azure. If you are unfamiliar with this, we recommend you take [Microsoft Azure Fundamentals](https://docs.microsoft.com/learn/paths/azure-fundamentals/)
+iconUrl: http://via.placeholder.com/120x120
+ratingEnabled: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- azure
+- azure-virtual-machines
+- azure-migrate
+units:
+- learn-m365.m365-azure-migrate-replicate-virtual-servers.introduction
+- learn-m365.m365-azure-migrate-replicate-virtual-servers.replicate-virtual-machines
+- learn-m365.m365-azure-migrate-replicate-virtual-servers.test-migrated-virtual-machines
+- learn-m365.m365-azure-migrate-replicate-virtual-servers.migrate-virtual-machines
+- learn-m365.m365-azure-migrate-replicate-virtual-servers.summary-knowledge-check
+
+badge: 
+  uid: learn-m365.m365-azure-migrate-replicate-virtual-servers.badges
