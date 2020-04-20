@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.intro-sharepoint-framework.3-create-deploy
+metadata:
+  title: Create and deploy SharePoint Framework solutions
+  description: In this unit, you’ll learn what developers will need and how to create custom SharePoint Framework solutions. Once you’ve created the custom solution, you’ll then learn how to deploy your components into different environments and various hosting options for your components.
+  ms.date: 04/17/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Create and deploy SharePoint Framework solutions
+durationInMinutes: 17
+content: |
+  [!include[](includes/3-create-deploy.md)]
