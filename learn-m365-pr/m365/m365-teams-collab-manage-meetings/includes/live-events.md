@@ -19,13 +19,13 @@ If the live event was created from within a Yammer group, the live event attende
 To schedule a live event, users must have:
 
 - An Exchange Online mailbox.
-- An Office 365 Enterprise E1, E3, or E5 license or an Office 365 A3 or A5 license.
+- An Office 365 Enterprise E1, E3, or E5 license or a Microsoft 365 A3 or A5 license.
 - A Microsoft Teams license.
 - A Microsoft Stream license.
 
 ![New live event screen](../media/new-live-event.png)
 
-An Office 365 license is required to participate in a live event as an authenticated user, but this requirement depends on the production method used:
+A license is required to participate in a live event as an authenticated user, but this requirement depends on the production method used:
 
 - For events produced in Teams, the user must be assigned a Teams license.
 - For events produced with an external app or device, the user must be assigned a Stream license.

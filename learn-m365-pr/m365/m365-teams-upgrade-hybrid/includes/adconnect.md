@@ -1,9 +1,9 @@
-Organizations that have Skype for Business Server (or Lync Server) on-premises and who are planning to use either Teams or Skype for Business Online must configure Azure AD Connect to synchronize their on-premises directory with Office 365. In particular, organizations with Skype for Business on-premises must ensure that the proper msRTCSIP attributes are synchronized into Azure AD. 
+Organizations that have Skype for Business Server (or Lync Server) on-premises and who are planning to use either Teams or Skype for Business Online must configure Azure AD Connect to synchronize their on-premises directory with Microsoft 365. In particular, organizations with Skype for Business on-premises must ensure that the proper msRTCSIP attributes are synchronized into Azure AD. 
 
 >[!NOTE]
 > Existing Teams users who also have Skype for Business on-premises will need to have their Skype for Business on-premises account moved to the cloud in order to get full functionality-- such as the ability to interoperate with Skype for Business users, and to communicate with users in federated organizations. Even if the user will only be using Teams, this online Skype for Business account is required by the infrastructure to deliver the additional functionality. For this migration to take place, you must ensure that Azure AD Connect is properly configured so that you can enable hybrid.  
 
-Azure AD Connect keeps your on-premises Active Directory continuously synchronized with Office 365. Your on-premises directory remains the authoritative source of identity, and changes from your on-premises environment are synchronized into Azure AD. Even if you are not moving all users from on-premises to the cloud, all users that use Teams, Skype for Business on-premises, or Skype for Business Online must be synchronized from on-premises into Azure AD to ensure communication between on-premises and online users. Users in your organization will be represented in both your on-premises and online directories.
+Azure AD Connect keeps your on-premises Active Directory continuously synchronized with Microsoft 365. Your on-premises directory remains the authoritative source of identity, and changes from your on-premises environment are synchronized into Azure AD. Even if you are not moving all users from on-premises to the cloud, all users that use Teams, Skype for Business on-premises, or Skype for Business Online must be synchronized from on-premises into Azure AD to ensure communication between on-premises and online users. Users in your organization will be represented in both your on-premises and online directories.
 
 ## Configuring Azure AD when you have Skype for Business Server
 
@@ -11,7 +11,7 @@ Whether you have one on-premises Active Directory forest or multiple forests, Az
 
 - A single forest, which contains authoritative user identities and hosts Skype for Business Server.
 - Multiple forests, only one of which hosts Skype for Business Server, as well as one or more other forests that contain authoritative user identities (the account forests).
-- Multiple deployments of Skype for Business Server in multiple forests. Provided certain requirements are met, organizations can consolidate these multiple deployments into a single Office 365 tenant.
+- Multiple deployments of Skype for Business Server in multiple forests. Provided certain requirements are met, organizations can consolidate these multiple deployments into a single Microsoft 365 tenant.
 
 ### Single forest
 
@@ -29,7 +29,7 @@ To achieve proper object and attribute synchronization into Azure AD in a multi-
 
 ### Multiple Skype for Business Server deployments in multiple forests
 
-In this scenario, there are multiple forests, each containing Skype for Business Server, and a single Office 365 tenant. Each forest containing Skype for Business Server can be synchronized into Azure AD for that tenant using Azure AD Connect. At most, only one forest can be configured for Skype for Business hybrid at a given time. Before enabling hybrid in a forest, all SIP domains from all other forests must be disabled using the **disable-csonlineSipDomain** PowerShell cmdlet. 
+In this scenario, there are multiple forests, each containing Skype for Business Server, and a single Microsoft 365 tenant. Each forest containing Skype for Business Server can be synchronized into Azure AD for that tenant using Azure AD Connect. At most, only one forest can be configured for Skype for Business hybrid at a given time. Before enabling hybrid in a forest, all SIP domains from all other forests must be disabled using the **disable-csonlineSipDomain** PowerShell cmdlet. 
 
 ## General requirements
 

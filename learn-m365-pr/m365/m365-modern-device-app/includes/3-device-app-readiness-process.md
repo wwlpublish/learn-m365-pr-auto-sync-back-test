@@ -18,7 +18,7 @@ The upgrade readiness tool workflow reports application and driver inventory, sh
 
 ## 2. Prioritize apps and hardware
 
-With inventory taken, you can use Upgrade Readiness to prioritize the most common apps and hardware used in your organization, as well as what to focus on to unblock as many PCs as possible for deployment.  By prioritizing the most impactful remediation items in your organization, you can build a deployment plan that allows devices to begin migrating to Windows 10 or Office 365 ProPlus while those needing additional support can be addressed. The inventory also provides guidance to help you assess the updates necessary to resolve issues during the next step: testing.
+With inventory taken, you can use Upgrade Readiness to prioritize the most common apps and hardware used in your organization, as well as what to focus on to unblock as many PCs as possible for deployment.  By prioritizing the most impactful remediation items in your organization, you can build a deployment plan that allows devices to begin migrating to Windows 10 or Microsoft 365 Apps while those needing additional support can be addressed. The inventory also provides guidance to help you assess the updates necessary to resolve issues during the next step: testing.
 
 ![Windows Analytics Upgrade Readiness prioritize screen](../media/prioritize-50.png)
 

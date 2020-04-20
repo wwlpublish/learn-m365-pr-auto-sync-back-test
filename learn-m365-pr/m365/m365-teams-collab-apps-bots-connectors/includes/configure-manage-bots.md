@@ -1,4 +1,4 @@
-Bots are automated programs that respond to queries or give updates and notifications, for example, a welcome message to a new team member. Bots enable users to interact with cloud services like task management, scheduling, and polling in a Teams chat. Teams supports bots in private chats, group chats, and channels within a team. Administrators can control whether the use of bots is allowed in an Office 365 tenant.
+Bots are automated programs that respond to queries or give updates and notifications, for example, a welcome message to a new team member. Bots enable users to interact with cloud services like task management, scheduling, and polling in a Teams chat. Teams supports bots in private chats, group chats, and channels within a team. Administrators can control whether the use of bots is allowed in a Microsoft 365 tenant.
 
 ## Create custom bots for Microsoft Teams
 

@@ -35,7 +35,7 @@ quiz:
       - content: "False"
         isCorrect: true
         explanation: "Correct. You can install Office again using different configuration settings on a system with Office already installed. This “second install” approach can be used to modify the existing install, for example by adding additional language support."
-    - content: "Which of the following options is NOT a valid repair type or approach used to troubleshoot an Office 365 ProPlus or Office 2019 installation?"
+    - content: "Which of the following options is NOT a valid repair type or approach used to troubleshoot a Microsoft 365 Apps or Office 2019 installation?"
       choices:
       - content: "Quick Repair"
         isCorrect: false

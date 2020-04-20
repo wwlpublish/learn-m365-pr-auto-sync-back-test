@@ -1,20 +1,20 @@
 ### YamlMime:Module
 uid: learn-m365.office-lob-apps
 metadata:
-  title: Deliver Office 365 ProPlus and business apps
-  description: Learn how Click-to-Run packaging with Office 365 ProPlus provides new options to configure, deliver, and keep your Office apps up-to-date.
+  title: Deliver Microsoft 365 Apps and business apps
+  description: Learn how Click-to-Run packaging with Microsoft 365 Apps provides new options to configure, deliver, and keep your Office apps up-to-date.
   ms.date: 06/17/2019
   author: AlexandraHrt
   ms.author: aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Deliver Office 365 ProPlus and business apps
-summary: Learn how Click-to-Run packaging with Office 365 ProPlus provides new options to configure, deliver, and keep your Office apps up-to-date. Ensure your third-party and business apps are packaged and ready for automated installation. 
+title: Deliver Microsoft 365 Apps and business apps
+summary: Learn how Click-to-Run packaging with Microsoft 365 Apps provides new options to configure, deliver, and keep your Office apps up-to-date. Ensure your third-party and business apps are packaged and ready for automated installation. 
 abstract: |
   At the end of this module, you should be able to:
-  - Explain different methods of deploying Office 365 ProPlus 
-  - Explain what Click-to-Run is and how it works with Office 365 ProPlus 
-  - Explain business app delivery and how it differs from Office 365 ProPlus installation
+  - Explain different methods of deploying Microsoft 365 Apps 
+  - Explain what Click-to-Run is and how it works with apps 
+  - Explain business app delivery and how it differs from Microsoft 365 Apps installation
   - Describe Microsoft Store and MSIX options for app delivery
 prerequisites: None
 iconUrl: /learn/achievements/get-modern-office-and-lob-app-delivery.svg

@@ -2,7 +2,7 @@ Teams provides a great out-of-the-box meeting and conferencing experience, and m
 
 ## Meetings and conferencing prerequisites
 
-To get the best Teams experience, you must have deployed Exchange Online and SharePoint Online and have a verified domain for Office 365 such as *your-organization.com.*
+To get the best Teams experience, you must have deployed Exchange Online and SharePoint Online and have a verified domain for Microsoft 365 such as *your-organization.com.*
 
 You’ll also need to make sure that the following common ports are open to the internet from your user’s locations:
 
@@ -42,7 +42,7 @@ You may want to consider the following additional deployment decisions, based on
 Use activity reports to see how users in your organization are using Teams so you can prioritize training and communication efforts. You should carefully monitor both the usage and quality of meetings:
 
 - Low usage means that users aren’t using the product. Reasons can range from the perception that meetings are falling short of user requirements, to a lack of awareness or training, to quality problems.
-- Low quality means that there are issues with connectivity between users and Office 365. Low quality can lead to bad user experience and lower usage.
+- Low quality means that there are issues with connectivity between users and Microsoft 365. Low quality can lead to bad user experience and lower usage.
 
 ## Learn more
 
