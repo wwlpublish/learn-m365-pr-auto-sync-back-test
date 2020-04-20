@@ -3,7 +3,7 @@ uid: learn-m365.m365-extend-fundamental
 metadata:
   title: Extend Microsoft 365 – Fundamental
   description: Microsoft 365 is an extensible platform enabling developers o create custom apps and extend Office applications. Learn about the options available to developers to extend and customize Office applications, SharePoint, and Microsoft Teams.
-  ms.date: 03/25/2020
+  ms.date: 04/17/2020
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
@@ -24,6 +24,7 @@ products:
 modules:
 - learn-m365-pr.understand-actionable-messages
 - learn-m365.intro-microsoft-teams-apps
+- learn-m365.intro-sharepoint-framework
 - learn-m365.intro-office-add-ins
 trophy:
   uid: learn-m365.m365-extend-fundamental.trophy

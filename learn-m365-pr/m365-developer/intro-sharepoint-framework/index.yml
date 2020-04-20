@@ -1,0 +1,39 @@
+### YamlMime:Module
+uid: learn-m365.intro-sharepoint-framework
+metadata:
+  title: Introduction to customizing and extending SharePoint
+  description: SharePoint is an extensible platform you can customize and extend with the SharePoint Framework and multiple APIs available to developers. In this module, developers learn what customizations and extensibility points are available to them with the SharePoint Framework, and determine if it's right for you.
+  ms.date: 04/17/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Introduction to customizing and extending SharePoint
+summary: SharePoint is an extensible platform you can customize and extend with the SharePoint Framework and multiple APIs available to developers. In this module, developers learn what customizations and extensibility points are available to them with the SharePoint Framework, and determine if it's right for you.
+abstract: |
+  By the end of this module, you will be able to:
+  - Describe the different types of components available in the SharePoint Framework
+  - List the customization options enabled by the SharePoint Framework
+  - Describe the development environment, tooling, and custom app lifecycle of SharePoint Framework projects
+  - Choose the correct extensibility point(s) based on your scenario
+prerequisites: |
+  - Experience using SharePoint Online at the beginner level
+  - Ability to program with JavaScript or TypeScriptat the beginner level
+  - Access to a Microsoft 365 tenant
+iconUrl: /learn/achievements/intro-sharepoint-framework.svg
+levels:
+  - beginner
+roles:
+  - developer
+products:
+  - m365
+  - office-sp-framework
+units:
+  - learn-m365.intro-sharepoint-framework.1-introduction
+  - learn-m365.intro-sharepoint-framework.2-overview-options
+  - learn-m365.intro-sharepoint-framework.3-create-deploy
+  - learn-m365.intro-sharepoint-framework.4-ui-components-apis-surface-areas
+  - learn-m365.intro-sharepoint-framework.5-knowledge-check
+  - learn-m365.intro-sharepoint-framework.6-summary
+badge:
+  uid: learn-m365.intro-sharepoint-framework.badge
