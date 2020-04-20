@@ -10,6 +10,7 @@ metadata:
   ms.prod: learning-m365
 title: Replicate and migrate virtual machine servers with Azure Migrate
 summary: Learn the process for replicating, testing, and finally migrating your virtual machines into production.
+abstract: |
   Upon completion of this module, you should be able to: 
   - Explain how to replicate a virtual machine. 
   - Describe how to test migrated virtual machines. 
