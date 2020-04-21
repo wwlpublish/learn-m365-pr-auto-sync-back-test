@@ -15,14 +15,14 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Which of the following is true of the new Windows and Office 365 ProPlus update model?"
+    - content: "Which of the following is true of the new Windows and Microsoft 365 Apps update model?"
       choices:
       - content: "A quality and security update is delivered twice per year."
         isCorrect: false
         explanation: "Incorrect. Quality and security updates are delivered monthly or as needed."
       - content: "A new Features Update is delivered twice per year."
         isCorrect: true
-        explanation: "Correct. Features Updates are delivered twice per year for both Windows and Office 365 ProPlus when you use the Semi-Annual Channel."
+        explanation: "Correct. Features Updates are delivered twice per year for both Windows and Microsoft 365 Apps when you use the Semi-Annual Channel."
       - content: "The cumulative nature of monthly updates means the update decreases in size each month."
         isCorrect: false
         explanation: "Incorrect. The cumulative nature of monthly updates means the update increases in size each month."
@@ -34,11 +34,11 @@ quiz:
       - content: "False"
         isCorrect: false
         explanation: "Incorrect. Express Updates reduces download size."
-    - content: "For Office 365 applications, Microsoft offers a fully-supported quarterly channel option where updates, available on the first day of every quarter (January, April, July, and October), contain both new features and quality updates."
+    - content: "For Office applications, Microsoft offers a fully-supported quarterly channel option where updates, available on the first day of every quarter (January, April, July, and October), contain both new features and quality updates."
       choices:
       - content: "True"
         isCorrect: false
-        explanation: "Incorrect. Office 365 applications, Microsoft offers a fully-supported monthly channel option where updates, available every month, contain both new features and quality updates."
+        explanation: "Incorrect. Office applications, Microsoft offers a fully-supported monthly channel option where updates, available every month, contain both new features and quality updates."
       - content: "False"
         isCorrect: true
-        explanation: "Correct. Office 365 applications, Microsoft offers a fully-supported monthly channel option where updates, available every month, contain both new features and quality updates."
+        explanation: "Correct. Office applications, Microsoft offers a fully-supported monthly channel option where updates, available every month, contain both new features and quality updates."

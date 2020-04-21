@@ -33,15 +33,15 @@ quiz:
       choices:
       - content: "True"
         isCorrect: false
-        explanation: "Incorrect. The Office Customization Tool used with Office 2019 is accessed through the Office 365 Client Configuration Service or by using the Office 365 Installer process in Configuration Manager. The /admin method is used for volume licensing editions of Office 2007, Office 2010, Office 2013, and Office 2016."
+        explanation: "Incorrect. The Office Customization Tool used with Office 2019 is accessed through the Client Configuration Service or by using the Office Installer process in Configuration Manager. The /admin method is used for volume licensing editions of Office 2007, Office 2010, Office 2013, and Office 2016."
       - content: "False"
         isCorrect: true
-        explanation: "Correct. You can access the Office Customization Tool used with Office 2019 through the Office 365 Client Configuration Service or by using the Office 365 Installer process in Configuration Manager. The /admin method is used for volume licensing editions of Office 2007, Office 2010, Office 2013, and Office 2016."
-    - content: "The Office 365 Installer application package creation process in Configuration Manager also works for Office 2019 products that are not part of Office 365."
+        explanation: "Correct. You can access the Office Customization Tool used with Office 2019 through the Client Configuration Service or by using the Office Installer process in Configuration Manager. The /admin method is used for volume licensing editions of Office 2007, Office 2010, Office 2013, and Office 2016."
+    - content: "The Office Installer application package creation process in Configuration Manager also works for Office 2019 products that are not part of Microsoft 365."
       choices:
       - content: "True"
         isCorrect: true
-        explanation: "Correct. All editions of Office 2019, Visio 2019, Project 2019 and Office 365 desktop apps use the same process."
+        explanation: "Correct. All editions of Office 2019, Visio 2019, Project 2019 and Microsoft 365 desktop apps use the same process."
       - content: "False"
         isCorrect: false
-        explanation: "Incorrect. All editions of Office 2019, Visio 2019, Project 2019 and Office 365 desktop apps use the same process."
+        explanation: "Incorrect. All editions of Office 2019, Visio 2019, Project 2019 and Microsoft 365 desktop apps use the same process."

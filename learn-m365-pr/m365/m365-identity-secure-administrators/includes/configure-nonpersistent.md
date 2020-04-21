@@ -15,18 +15,18 @@ For example, you can use PIM to elevate Christina's privileges so she can access
 ![Azure AD Privileged Identity Management lets you provide role-based, time-limited administrator privileges to access sensitive data or configuration settings.](../media/pim-just-in-time-access.png)
 *With Azure AD Privileged Identity Management you can configure role-based, time-limited administrator privileges*
 
-### Manage task-based access in Office 365
+### Manage task-based access
 
-With privileged access management (PAM), you can control who performs administrative tasks in Office 365. PAM helps protect against breaches of accounts that have continuing access to sensitive data or crucial configuration settings. It also helps defend against the vulnerabilities of persistent administrative access, allowing your organization to operate without users having standing privileges.
+With privileged access management (PAM), you can control who performs administrative tasks. PAM helps protect against breaches of accounts that have continuing access to sensitive data or crucial configuration settings. It also helps defend against the vulnerabilities of persistent administrative access, allowing your organization to operate without users having standing privileges.
 
 ![Privileged access management lets you grant administrators time-limited privileged access to complete a high risk task.](../media/privileged-access-management.png)
 *With privileged access management you can grant administrators time-limited privileges to complete a high risk task*
 
 For example, suppose Christina wants privileges to create a journal rule in Exchange Online. The journal rule would record and retain certain sent and received emails to fulfill the organization’s compliance requirements.
 
-When you enforce privileged access management, Christina must request just-in-time access to complete the journal rule within a specified time. Once you grant access, the activity is logged in the Office 365 Security and Compliance Center to prevent any unapproved activity from going undetected.
+When you enforce privileged access management, Christina must request just-in-time access to complete the journal rule within a specified time. Once you grant access, the activity is logged in the Microsoft 365 security center to prevent any unapproved activity from going undetected.
 
 ### Learn more
 
 - [What is Azure AD Privileged Identity Management?](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure)
-- [Privileged access management in Office 365](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-overview)
+- [Privileged access management](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-overview)

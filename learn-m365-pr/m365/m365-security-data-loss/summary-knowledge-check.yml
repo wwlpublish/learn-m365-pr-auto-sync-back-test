@@ -32,9 +32,9 @@ quiz:
 
     - content: "One of the first steps to prevent data loss involves identifying data that needs protection. What Microsoft tool helps administrators detect and classify documents automatically?"
       choices:
-      - content: "Office 365 Data Loss Prevention"
+      - content: "Data Loss Prevention"
         isCorrect: false
-        explanation: "Office 365 Data Loss Prevention helps keep data protected and secured but will not scan through file storage to detect and classify documents."
+        explanation: "Data Loss Prevention helps keep data protected and secured but will not scan through file storage to detect and classify documents."
       - content: "Microsoft Cloud App Security (MCAS)"
         isCorrect: false
         explanation: "MCAS is a cloud broker solution to help extend your security to third-party apps and services"

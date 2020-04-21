@@ -2,7 +2,7 @@ By preparing your organization for collaboration and cloud voice services with T
 
 The following checklists walk you through the steps for deploying Microsoft Teams in your organization:
 
-- [Prepare Office 365 for Teams](https://docs.microsoft.com/microsoftteams/office-365-groups)
+- [Prepare Microsoft 365 for Teams](https://docs.microsoft.com/microsoftteams/office-365-groups)
 - [Configure Teams core capabilities](https://docs.microsoft.com/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) 
 - [Configure networking](https://docs.microsoft.com/microsoftteams/upgrade-prepare-environment-prepare-network) 
 - [Configure cloud voice workloads in Teams](https://docs.microsoft.com/MicrosoftTeams/cloud-voice-landing-page)

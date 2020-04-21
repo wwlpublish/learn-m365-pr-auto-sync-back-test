@@ -1,7 +1,7 @@
 Single sign-on (SSO) is an authentication process for a single-entry access to access domain-joined devices, company resources, software as a service (SaaS) applications, and web applications. Administrators can centralize user account management, and automatically add or remove user access to applications based on group membership.
 
 ## Business Case
-Christina has a desktop at the office. While traveling, Christina signs into a Surface laptop, iPhone, Surface, Office 365 apps, Salesforce, and a handful of custom on-premises apps and databases. While on the road, Christina uses Spotify, WhatsApp, and Netflix. Many employees use the same password, even though they know it's not safe. How would you enable Christina to sign in once with one account to access domain-joined devices, company resources, and SaaS and web applications?  
+Christina has a desktop at the office. While traveling, Christina signs into a Surface laptop, iPhone, Surface, Office apps, Salesforce, and a handful of custom on-premises apps and databases. While on the road, Christina uses Spotify, WhatsApp, and Netflix. Many employees use the same password, even though they know it's not safe. How would you enable Christina to sign in once with one account to access domain-joined devices, company resources, and SaaS and web applications?  
 
 ## Plan an SSO deployment
 

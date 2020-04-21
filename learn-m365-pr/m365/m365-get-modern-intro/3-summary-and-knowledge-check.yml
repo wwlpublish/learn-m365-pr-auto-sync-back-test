@@ -45,17 +45,17 @@ quiz:
         isCorrect: false
         explanation: "No. In analyzing your directory and network readiness, you do not prepare your network to move social media profiles."
 
-    - content: "The desktop deployment wheel that guides you through how many recommended steps for your shift to Windows 10 and Office 365 ProPlus?"
+    - content: "The desktop deployment wheel that guides you through how many recommended steps for your shift to Windows 10 and Microsoft 365 Apps?"
       choices:
       - content: "7"
         isCorrect: false
-        explanation: "No. That is not the number of recommended steps the desktop deployment wheel guides you through for your shift to Windows 10 and Office 365 ProPlus."
+        explanation: "No. That is not the number of recommended steps the desktop deployment wheel guides you through for your shift to Windows 10 and Microsoft 365 Apps."
       - content: "8"
         isCorrect: true
-        explanation: "Yes. The desktop deployment wheel guides you through 8 recommended steps for your shift to Windows 10 and Office 365 ProPlus."
+        explanation: "Yes. The desktop deployment wheel guides you through 8 recommended steps for your shift to Windows 10 and Microsoft 365 Apps."
       - content: "9"
         isCorrect: false
-        explanation: "No. That is not the number of recommended steps the desktop deployment wheel guides you through for your shift to Windows 10 and Office 365 ProPlus."
+        explanation: "No. That is not the number of recommended steps the desktop deployment wheel guides you through for your shift to Windows 10 and Microsoft 365 Apps."
       - content: "10"
         isCorrect: false
-        explanation: "No. That is not the number of recommended steps the desktop deployment wheel guides you through for your shift to Windows 10 and Office 365 ProPlus."
+        explanation: "No. That is not the number of recommended steps the desktop deployment wheel guides you through for your shift to Windows 10 and Microsoft 365 Apps."

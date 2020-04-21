@@ -2,7 +2,7 @@ In this module, you learned to facilitate moving an on-premises Skype environmen
 
 Now that you have completed this module, you should be able to:
   
-- Explain hybrid connectivity requirements between Skype for Business Server and Office 365.
+- Explain hybrid connectivity requirements between Skype for Business Server and Microsoft 365.
 - Describe how to configure hybrid connectivity.
 - Describe how to configure Azure AD Connect for hybrid environments.
 - Explain how to configure Skype for Business hybrid.

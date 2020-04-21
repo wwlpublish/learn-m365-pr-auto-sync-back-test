@@ -1,12 +1,12 @@
 SharePoint is a Microsoft 365 service that enables sharing and collaboration across your organization. With Microsoft 365, you can create a secure and productive collaboration environment for your users. SharePoint powers much of this, but collaboration in Microsoft 365 reaches far beyond the traditional SharePoint site. Microsoft Teams, OneDrive, and a variety of governance and security options all play a role in creating a rich environment where users can collaborate easily, and your organization's sensitive content remains secure.
 
-## SharePoint and Office 365 Groups
+## SharePoint and Microsoft 365 Groups
 
-In SharePoint, each team site is part of an Office 365 Group by default. An Office 365 Group is a single permissions group that is associated with a variety of Office 365 services, including a SharePoint site, an instance of Planner, a mailbox, and a shared calendar. When you add owners or members to the Office 365 Group, they are given access to the SharePoint site along with the other connected services.
+In SharePoint, each team site is part of a Microsoft 365 Group by default. a Microsoft 365 Group is a single permissions group that is associated with a variety of Microsoft 365 services, including a SharePoint site, an instance of Planner, a mailbox, and a shared calendar. When you add owners or members to the Microsoft 365 Group, they are given access to the SharePoint site along with the other connected services.
 
 ## SharePoint and Microsoft Teams
 
-Microsoft Teams provides a hub for collaboration by bringing together all the Office 365 group-related services, plus a variety of Teams-specific services, in a single user experience with persistent chat. Teams uses the associated Office 365 Group to manage its permissions. Within the Teams experience, users can directly access SharePoint along with the other services without having to switch applications. This provides a centralized collaboration space with a single place to manage permissions.
+Microsoft Teams provides a hub for collaboration by bringing together all the Microsoft 365 group-related services, plus a variety of Teams-specific services, in a single user experience with persistent chat. Teams uses the associated Microsoft 365 Group to manage its permissions. Within the Teams experience, users can directly access SharePoint along with the other services without having to switch applications. This provides a centralized collaboration space with a single place to manage permissions.
 
 ## Site types
 

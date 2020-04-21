@@ -45,7 +45,7 @@ quiz:
       - content: "Configure site sharing settings to prevent guest users from being invited."
         isCorrect: false
         explanation: "SharePoint site access requests are used to require new users to be approved by a site owner before they can access the site."
-      - content: "Configure the Office 365 Group to be private instead of public."
+      - content: "Configure the Microsoft 365 Group to be private instead of public."
         isCorrect: false
         explanation: "SharePoint site access requests are used to require new users to be approved by a site owner before they can access the site."
       - content: "Configure site access requests for that site."
