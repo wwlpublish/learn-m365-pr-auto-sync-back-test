@@ -7,7 +7,7 @@ Before requesting or performing a merge in upstream:
        https://review.docs.microsoft.com/help/contribute/contribute-how-to-write-pull-request-quality-criteria?branch=master
 - [ ] Verify your PR has a useful title that reflects what it is for.
 
-When your changes are ready to merge, please comment with `#sign-off`. An acrolinx score of 85+ is required for this repo.
+When your changes are ready to merge, please comment with `#sign-off`.
 
 ## Need help?
 - See the [Learn Contributor Guide](https://review.docs.microsoft.com/en-us/learn-docs/docs/?branch=master) for end-to-end help with writing and publishing on Learn.
