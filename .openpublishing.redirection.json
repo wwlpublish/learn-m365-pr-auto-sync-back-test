@@ -559,6 +559,16 @@
       "source_path": "learn-m365-pr/wwl/intro-to-teamwork-in-m365/5-collect-and-share-knowledge.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-teamwork-in-m365/5-collect-share-knowledge",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/intro-to-teamwork-in-m365/2-choose-the-right-tools.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-teamwork-in-m365/2-choose-right-tools",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/intro-to-teamwork-in-m365/8-summary-and-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-teamwork-in-m365/8-summary-knowledge-check",
+      "redirect_document_id": true
     }
   ]
 }
