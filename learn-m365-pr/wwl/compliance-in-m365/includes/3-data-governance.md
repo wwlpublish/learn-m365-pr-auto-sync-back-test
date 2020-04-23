@@ -11,7 +11,7 @@ In all of these cases, retention labels can help you take the right actions on t
 
 With retention labels, you can:
 
-- **Enable people in your organization to apply a retention label manually** to content in Outlook on the web, Outlook 2010 and later, OneDrive, SharePoint, and Office 365 groups. Users often know best what type of content they're working with, so they can classify it and have the appropriate policy applied.
+- **Enable people in your organization to apply a retention label manually** to content in Outlook on the web, Outlook 2010 and later, OneDrive, SharePoint, and Microsoft 365 groups. Users often know best what type of content they're working with, so they can classify it and have the appropriate policy applied.
 - **Apply retention labels to content automatically** if it matches specific conditions, such as when the content contains:
     - Specific types of sensitive information.
     - Specific keywords that match a query you create.
@@ -20,8 +20,8 @@ With retention labels, you can:
     - You don't need to train your users on all of your classifications.
     - You don't need to rely on users to classify all content correctly.
     - Users no longer need to know about data governance policies - they can instead focus on their work.
-- **Apply a default retention label to a document library** in SharePoint and Office 365 group sites, so that all documents in that library get the default retention label.
-- **Implement records management across Office 365**, including both email and documents. You can use a retention label to classify content as a record. When this happens, the label can't be changed or removed, and the content can't be edited or deleted.
+- **Apply a default retention label to a document library** in SharePoint and Microsoft 365 group sites, so that all documents in that library get the default retention label.
+- **Implement records management across Microsoft 365**, including both email and documents. You can use a retention label to classify content as a record. When this happens, the label can't be changed or removed, and the content can't be edited or deleted.
 
 ### Explore Microsoft 365 retention policies
 
