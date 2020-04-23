@@ -3,7 +3,7 @@
 
 In a mobile-first, cloud-first world, important business data lives and travels everywhere. 
 
-![Information is everywhere](../media/1-information.png)
+![Information is everywhere](../media/1-information-v2.png)
 
 *Your data travels everywhere*
 
@@ -22,7 +22,7 @@ The Microsoft Information Protection solutions in Microsoft 365 help you protect
 ## Integrated capabilities protect and manage data throughout its lifecycle
 The unified labeling experience in Microsoft 365 provides organizations with a more integrated and consistent approach to creating, configuring, and automatically applying comprehensive policies to protect and govern data – across devices, apps, cloud services, and on-premises. The information protection capabilities also support your overall data governance strategy. Classifying and labeling data enables you to apply policy-based protections and/or retention actions. Advanced monitoring and analytics provide visibility and insights into your organization’s data. You can understand where important data resides, receive alerts on policy violations, and view recommendations on policy enhancements based on your environment.
 
-![Follow data](../media/1-follow-data.png)
+![Follow data](../media/1-follow-data-v2.png)
 
 *Integrated capabilities work together over the course of the data lifecycle to keep information protected and managed*
 
@@ -42,7 +42,7 @@ Key considerations:
 ### Discover sensitive information
 In order to protect your organization’s information, you need to be able to discover sensitive information no matter where it is created or lives. That means having sensitive data discovery capabilities across your on-premises file shares or datacenters, on individual devices, as well as across cloud services and SaaS applications. 
 
-![Sensitive data](../media/2-sensitive-data.png)
+![Sensitive data](../media/2-sensitive-data-v2.png)
 
 *Where your sensitive data may be*
 
@@ -74,7 +74,7 @@ Because individual users may be most familiar with the data in your organization
 Sensitive data may initially be created on an individual device, but it's frequently shared or stored in other locations, like cloud-based storage, on-premises file shares, or email. There are complementary protection measures you can take to protect this sensitive information wherever it lives or travels: 
 
 
-![Sensitive information](../media/3-sensitive-info.png)
+![Sensitive information](../media/3-sensitive-info-v2.png)
 
 *Methods to protect your sensitive data*
 
@@ -100,17 +100,17 @@ Here’s a closer look at some of the monitoring capabilities in Microsoft 365.
 
 ### Information protection reports and analytics
 
-The Label Analytics dashboard in the Microsoft 365 compliance center aggregates label insights so that you can see how sensitivity and retention labels are being used for both Office 365 and non-Office 365 data.
+The Label Analytics dashboard in the Microsoft 365 compliance center aggregates label insights so that you can see how sensitivity and retention labels are being used for both Microsoft 365 and non-Microsoft 365 data.
 
 ![Label analytics screenshot](../media/4-label-screen.png)
 *Label Analytics dashboard*
 
-Additional reports that help you monitor information protection:
+Additional capabilities that help you monitor information protection:
 
 - **Data loss prevention**. Data loss prevention policy matches, false positives and overrides, and links to create or edit policies
 - **Data governance**. Information about how labels are applied, labels classified as records, label trends, and more
 - **Threat management dashboard**. Also referred to as the Security dashboard and the Threat Intelligence dashboard
 - **Mail flow**. Information about sent and received email messages, recent alerts, top senders and recipients, email forwarding reports, and more
-- **GDPR compliance**. Information about GDPR compliance, including links to data subjects, label trends, and active and closed cases
-- **Audit log**. Information about Office 365 activities, users, files or folders, and more
+- **Data privacy**. Tools and guidance to facilitate ease in discovering, governing, protecting, and monitoring the personal data in your organization.
+- **Audit log**. Information about Microsoft 365 activities, users, files or folders, and more
 - **Compliance reports**. FedRAMP reports, governance, risk and compliance reports, ISO information security management reports, and Service Organization Controls audit and assessment reports

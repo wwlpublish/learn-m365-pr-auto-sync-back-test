@@ -3,13 +3,13 @@ uid: learn-m365.security-m365.microsoft-secure-score
 title: Microsoft Secure Score
 metadata:
   title: Microsoft Secure Score
-  description: Learn about Microsoft Secure Score in Microsoft 365
-  msdate: 03/18/2019
-  author: lizap
-  ms.author: elizapo
+  description: "Learn about Microsoft Secure Score in Microsoft 365"
+  ms.date: 04/24/2020
+  author: wwlpublish
+  ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-  ROBOTS: NOINDEX
+azureSandbox: false
 durationInMinutes: 2
 content: |
-  [!include[](includes/microsoft-secure-score.md)]
+  [!include[](includes/6-microsoft-secure-score.md)]
