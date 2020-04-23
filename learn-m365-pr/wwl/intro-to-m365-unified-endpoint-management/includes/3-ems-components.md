@@ -1,23 +1,5 @@
-Microsoft Enterprise Mobility + Security (EMS) helps you solve the challenge of mobile devices in a work environment. EMS is an intelligent mobility management and security platform that helps protect and secure your organization and empowers your employees to work in new and flexible ways. EMS is a suite of products included in your Microsoft 365 Enterprise subscription. Learn how these products help manage devices in your organization.
+Microsoft Endpoint Manager (MEM) helps you solve the challenge of device management in today’s mobile and remote work environment. MEM is a secure and intelligent management solution that improves productivity and collaboration with the familiar experiences users expect and gives IT the flexibility to support diverse scenarios for both bring your own device (BYOD) and corporate owned devices. Learn how integrated solutions in MEM help manage devices in your organization.
 
-EMS is provided as part of Microsoft 365 E3 and E5 plans, as summarized in the table below. 
-
-|Product|E3 plan|	E5 plan|
-|-|-|-|
-|Azure AD Premium|	P1 plan|	P2 plan|
-|Intune|Yes|	Yes|
-|Azure Information Protection|	P1 plan|	P2 plan|
-|Microsoft Advanced Threat Analytics|	Yes|	Yes|
-|Cloud App Security|	No|	Yes|
-|Configuration Manager|	Yes|	Yes|
-
-**Azure AD Premium** is the central identity store used for all the applications in EMS and Microsoft 365. The P1 and P2 versions of Azure AD Premium include features that are important for unified endpoint management. Some of the additional features included with the P1 and P2 plans are:
-
-- Self-service password reset
-- Write-back from Azure AD to on-premises Active Directory Domain Services (meaning your cloud and on-premises data is linked)
-- Microsoft Azure Multi-Factor Authentication (MFA) for cloud and on-premises apps
-- Conditional access based on group, location, and device state
-- Conditional access based on sign-in or user risk (P2 plan only)
 
 **Intune** is a cloud-based enterprise mobility management (EMM) service that enables user productivity while keeping your corporate data protected. Intune integrates with Azure Active Directory for identity and access control, and Azure Information Protection for data protection. Intune can enforce security policies, wipe devices remotely, and deploy apps. 
 
@@ -41,23 +23,38 @@ Use Intune to manage apps and mobile devices by “enrolling” devices. When yo
 - Software update management 
 - Device compliance
 
-**Azure Information Protection** encrypts documents and enforces policies on how they can be used. Only authorized users can access the contents. 
+**Windows Autopilot** simplifies the way devices get deployed, reset, and repurposed, with an experience that is zero touch for IT and that users will love.  Windows Autopilot provides setup and pre-configuration services for new devices so they're ready to use right out of the box, including: 
 
-**Microsoft Advanced Threat Analytics** can: 
-- Detect suspicious activities and malicious attacks.
-- Adapt to the changing nature of cyber-security threats.
-- Provide focus and clarity around what is important with a simple attack timeline.
-- Reduce false positives.
+- User driven mode which makes it easy for end users to set up new devices, without any IT involvement.
+- Self-deploying mode, which deploys Windows 10 to a kiosk, digital sign, or shared device, with little to no interaction.
+- Support for existing devices to easily deploy the latest version of Windows 10 to existing devices with apps installed and profiles synched so users can resume work right away.
+- White glove to empower partners or IT staff to pre-provision Windows 10 devices to be fully configured and business ready for organizations and users.
+- Enrollment status page to ensure devices are fully configured, compliant, and secure before users can access the desktop.
 
-**Cloud App Security** uses data collected from your firewalls and proxy servers to identify cloud application usage. This can help identify unauthorized applications that might be a threat to your data. Additionally, it can identify unusual usage patterns that might indicate a problem. 
+**Desktop Analytics** simplifies the end-to-end deployment and upgrade process by providing comprehensive inventory, application compatibility assessment, pilot recommendations, and actionable insights. 
 
-**Microsoft Identity Manager 2016** binds Microsoft's identity and access management solutions together by seamlessly bridging multiple on-premises authentication stores like Active Directory, LDAP, Oracle, and other applications with Azure Active Directory. This provides consistent identity experiences for both on-premises business applications and SaaS solutions.
+- Pilot recommendations - Desktop Analytics makes it easy to get pilots right by recommending a list of minimal devices to pilot based on analysis of hardware and apps.
+- Compatibility analysis - Desktop Analytics not only identifies a comprehensive list of desktop apps and drivers for evaluation, it also does a risk level assessment, and provides possible remediation.
+- Data insights - Get insights and context by comparing your organization’s data with aggregated data from other Microsoft cloud-connected devices.
+- Simplified deployment planning - Easily plan deployments with step-by-step guidance from Desktop Analytics.
 
-**Azure Advanced Threat Protection** (ATP) is a cloud-based solution to identify, detect, and investigate threats, compromises, and malicious actions. ATP helps you: 
-- Detect and investigate advanced attacks on-premises and in the cloud.
-- Identify suspicious user and device activity with both known-technique detection and behavioral analytics.
-- Analyze threat intelligence from the cloud and on-premises.
-- Protect user identities and credentials stored in Active Directory.
-- View clear attack information on a simple timeline for fast triage.
-- Monitor multiple entry points through integration with Windows Defender Advanced Threat Protection.
 
+**Microsoft Defender Advanced Threat Protection** (ATP) delivers preventative protection, post-breach detection, automated investigation, and response.  ATP helps you by providing: 
+
+- Threat and Vulnerability Management to quickly discover, prioritize, and remediate vulnerabilities and misconfigurations.
+- Attack surface reduction capabilities that ensure configuration settings are properly set and exploit mitigation techniques are applied.
+- Next generation protection to further reinforce the security perimeter of your network and catch all types of emerging threats.
+- Endpoint detection and response to detect, investigate, and respond to advanced threats.
+- Automated investigation and remediation capabilities that help reduce the volume of alerts in minutes, at scale.
+- Configuration score to help you dynamically assess the security state of your enterprise network, identify unprotected systems, and take recommended actions to improve the overall security of your organization.
+- Microsoft Threat Experts, Microsoft Defender ATP's new managed threat hunting service provides proactive hunting, prioritization, and additional context and insights that further empower Security operation centers (SOCs) to identify and respond to threats quickly and accurately.
+- Centralized configuration and administration APIs to Integrate Microsoft Defender Advanced Threat Protection into your existing workflows.
+- Integration with Microsoft solutions.
+
+**Azure AD Premium** is the central identity store used for all the applications in EMS and Microsoft 365. The P1 and P2 versions of Azure AD Premium include features that are important for unified endpoint management. Some of the additional features included with the P1 and P2 plans are:
+
+- Self-service password reset
+- Write-back from Azure AD to on-premises Active Directory Domain Services (meaning your cloud and on-premises data is linked)
+- Microsoft Azure Multi-Factor Authentication (MFA) for cloud and on-premises apps
+- Conditional access based on group, location, and device state
+- Conditional access based on sign-in or user risk (P2 plan only)
