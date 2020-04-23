@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.intro-to-m365-unified-endpoint-management.learn-m365.unified-endpoint-management.1-what-is-uem
+title: What is unified endpoint management?
+metadata:
+  title: What is unified endpoint management?
+  description: "Learn about common device management tools and issues in Microsoft 365."
+  ms.date: 04/24/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 1
+content: |
+  [!include[](includes/1-introduction.md)]
