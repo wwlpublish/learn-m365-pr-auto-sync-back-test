@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.intro-m365-core-services.learn-m365.m365-core-services.7-o365-proplus
+title: Microsoft 365 Apps - productivity in the cloud
+metadata:
+  title: Microsoft 365 Apps - productivity in the cloud
+  description: "Learn about Microsoft 365 Apps"
+  ms.date: 04/24/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/6-m365-apps.md)]

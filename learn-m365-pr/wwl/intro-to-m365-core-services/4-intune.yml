@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.intro-m365-core-services.learn-m365.m365-core-services.8-intune
+title: Microsoft Endpoint Manager - managing all of your users' devices
+metadata:
+  title: Microsoft Endpoint Manager - managing all of your users' devices
+  description: "Learn about Microsoft Endpoint Manager"
+  ms.date: 04/24/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/4-intune.md)]

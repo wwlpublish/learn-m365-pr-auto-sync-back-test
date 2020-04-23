@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.intro-m365-core-services.learn-m365.m365-core-services.5-teams
+title: Microsoft Teams - keeping your team in sync
+metadata:
+  title: Microsoft Teams - keeping your team in sync
+  description: "Learn about Microsoft Teams"
+  ms.date: 04/24/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-teams.md)]

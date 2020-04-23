@@ -1,4 +1,4 @@
-﻿There are no limits to what people can achieve when technology reflects the diversity of everyone.  Our products and services are designed for people of all abilities.
+There are no limits to what people can achieve when technology reflects the diversity of everyone.  Our products and services are designed for people of all abilities.
 
 At Microsoft, our mission is to empower every person and every organization on the planet to achieve more. With more than 1 billion people in the world with disabilities, there is no limit to what people can achieve when technology reflects the diversity of all those who use it.
 
@@ -8,7 +8,7 @@ At Microsoft, our mission is to empower every person and every organization on t
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE3WSd3]
 
-Our accessibility efforts focus on the following accessibility standards (EN 301 549, U.S. Section 508, WCAG 2.0, ISO/IEC 40500). Here is a list of some of the key accessibility features available on Windows 10 and Office 365.
+Our accessibility efforts focus on the following accessibility standards (EN 301 549, U.S. Section 508, WCAG 2.0, ISO/IEC 40500). Here is a list of some of the key accessibility features available on Windows 10 and Microsoft 365.
 
 ## Vision
 
@@ -16,7 +16,7 @@ Need a larger screen? A brighter screen? A narrator to read text? Find out about
 
 - **Color filters:** Boost contrast or get rid of color entirely—whether you have color blindness, light sensitivity, or a visual preference, with color filters you can customize your screen's color palette.
 
-- **Tell Me:** Quickly access commands in several Office 365 applications without navigating the command ribbon. You can use Tell Me to assist with formatting, discover the difficult-to-find capabilities and even get scoped help in Office 365 using everyday language.
+- **Tell Me:** Quickly access commands in several Microsoft 365 Apps without navigating the command ribbon. You can use Tell Me to assist with formatting, discover the difficult-to-find capabilities and even get scoped help in Microsoft 365 Apps using everyday language.
 
 - **Microsoft Soundscape:** Use innovative audio-based technology to enable people with blindness or low vision to build a richer awareness of their surroundings, thus becoming more confident navigating new environments.
 
@@ -52,9 +52,9 @@ Our applications for people living with learning disabilities can help increase 
 
 Our suite of products helps people living with arthritis, quadriplegia, spinal cord injuries, and other mobility issues to navigate the digital world in non-traditional ways.
 
-- **Dictate in Office 365:** Convert your speech to text with Dictate in Office 365 applications such as Word, PowerPoint, and Outlook for PCs. You can also get the Dictate add-in for Word, Outlook, and PowerPoint for PCs, which supports dictation in 20+ languages and real-time translation to 60+ languages.
+- **Dictate in Microsoft 365 Apps:** Convert your speech to text with Dictate in Microsoft 365 Apps such as Word, PowerPoint, and Outlook for PCs. You can also get the Dictate add-in for Word, Outlook, and PowerPoint for PCs, which supports dictation in 20+ languages and real-time translation to 60+ languages.
 
-- **Keyboard shortcuts:** Office 365 is designed to work seamlessly with keyboards. Shortcuts are documented per application to help you get started. Additionally, Tell Me lets you quickly access commands in several Office 365 applications by typing what you want to do using everyday language.
+- **Keyboard shortcuts:** Microsoft 365 Apps is designed to work seamlessly with keyboards. Shortcuts are documented per application to help you get started. Additionally, Tell Me lets you quickly access commands in several Microsoft 365 Apps by typing what you want to do using everyday language.
 
 - **Eye control:** If physical disabilities make it difficult to use a keyboard, Windows 10 offers built-in support for eye control—an effective way to use your PC with just your eyes, (eye tracking hardware sold separately).
 
@@ -67,4 +67,3 @@ Learn more about assistive technologies for people living with issues such as bi
 - **Focus assist:**  Block alerts and notifications, so you can get things done without distractions. Don't worry, if there are some people you don't want to ignore, you can add them to a special list. And when you finish focusing, you'll get a summary of what you missed.
 
 - **To-dos:**  OneNote and Outlook work together to help you stay organized. As you take notes and plan projects in OneNote, you can manage deadlines and remember the things on your to-do list by creating Outlook tasks. Then you can view and track those tasks in Outlook and even get reminders.
-
