@@ -514,6 +514,46 @@
       "source_path": "learn-m365-pr/wwl/what-is-m365/5-summary-and-knowledge-check.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/what-is-m365",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/intro-to-m365-core-services/2-accessibility-in-microsoft-365.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-m365-core-services/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/intro-to-m365-core-services/4-sharepoint-online.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-m365-core-services/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/intro-to-m365-core-services/2-windows-10-enterprise.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-m365-core-services/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/intro-to-m365-core-services/3-exchange-online.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-m365-core-services/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/intro-to-m365-core-services/5-teams.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-m365-core-services/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/intro-to-m365-core-services/7-o365-proplus.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-m365-core-services/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/intro-to-m365-core-services/8-intune.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-m365-core-services/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/intro-to-m365-core-services/9-summary-and-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-m365-core-services/",
+      "redirect_document_id": true
     }
   ]
 }
