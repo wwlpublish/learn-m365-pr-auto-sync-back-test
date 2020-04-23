@@ -579,6 +579,41 @@
       "source_path": "learn-m365-pr/wwl/intro-to-m365-unified-endpoint-management/5-summary-and-knowledge-check.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-m365-unified-endpoint-management/5-summary-knowledge-check",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/security-in-m365/identity-and-access.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/security-in-m365/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/security-in-m365/information-protection.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/security-in-m365/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/security-in-m365/key-security-pillars.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/security-in-m365/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/security-in-m365/m365-security-center.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/security-in-m365/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/security-in-m365/microsoft-secure-score.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/security-in-m365/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/security-in-m365/summary-and-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/security-in-m365/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/security-in-m365/threat-protection.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/security-in-m365/",
+      "redirect_document_id": true
     }
   ]
 }
