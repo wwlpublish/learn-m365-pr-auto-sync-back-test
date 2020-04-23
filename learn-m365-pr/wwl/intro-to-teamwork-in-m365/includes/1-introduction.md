@@ -1,3 +1,15 @@
+In this module, you'll learn about the Microsoft 365 tools that facilitate teamwork for all workers, no matter where they're located or how they connect to your organization’s resources.
+
+## Learning objectives
+In this module, you will:
+- Define the teamwork scenarios that are enabled in Microsoft 365.
+- Name the products in Microsoft 365 that are part of the teamwork toolkit.
+- Understand how Microsoft 365 can help you run meetings and projects more effectively.
+- Explain how Microsoft 365 analytics tools can improve efficiency.
+
+## Pre-requisites
+- None
+
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RWtSX2]
 
 Teams accomplish their goals in varying and complex ways. And no two teams have the same needs. Microsoft 365 gives your teams the right tools to enable effective and secure teamwork in any situation. Coupled with common services these tools help you work fluidly across applications with the same enterprise-level security, compliance, and manageability as the rest of Microsoft 365.
@@ -13,7 +25,7 @@ You can store your content in the cloud with **SharePoint** and **OneDrive for B
 
 **Yammer** is a community conversation tool designed to help encourage open dialogue, idea generation, and connections across the company. Yammer lets you create communities of interest and forums that bring people together, improve transparency, and give everyone a voice. You can even grant external access to partners and customers as needed.
 
-The teamwork tools in Microsoft 365 are built on an intelligent fabric that keeps it all connected and secured no matter what app or service you are working in as a team. **Microsoft Graph** provides a connection between people and relevant content. **Office 365 Groups** enable a single team identity across apps and services and **centralized policy management** enhances security and compliance. 
+The teamwork tools in Microsoft 365 are built on an intelligent fabric that keeps it all connected and secured no matter what app or service you are working in as a team. **Microsoft Graph** provides a connection between people and relevant content. **Microsoft 365 Groups** enable a single team identity across apps and services and **centralized policy management** enhances security and compliance. 
 
 ## Learn more
 
