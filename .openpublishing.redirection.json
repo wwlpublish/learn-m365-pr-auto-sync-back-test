@@ -569,6 +569,16 @@
       "source_path": "learn-m365-pr/wwl/intro-to-teamwork-in-m365/8-summary-and-knowledge-check.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-teamwork-in-m365/8-summary-knowledge-check",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/intro-to-m365-unified-endpoint-management/1-what-is-uem.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-m365-unified-endpoint-management/1-introduction",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/intro-to-m365-unified-endpoint-management/5-summary-and-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-m365-unified-endpoint-management/5-summary-knowledge-check",
+      "redirect_document_id": true
     }
   ]
 }

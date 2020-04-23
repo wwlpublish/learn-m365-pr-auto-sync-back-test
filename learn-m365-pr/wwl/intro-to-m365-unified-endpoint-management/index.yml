@@ -26,10 +26,10 @@ roles:
 products:
 - m365
 units:
-- learn-m365.intro-to-m365-unified-endpoint-management.learn-m365.unified-endpoint-management.1-what-is-uem
-- learn-m365.intro-to-m365-unified-endpoint-management.learn-m365.unified-endpoint-management.2-device-management-challenges
-- learn-m365.intro-to-m365-unified-endpoint-management.learn-m365.unified-endpoint-management.3-ems-components
-- learn-m365.intro-to-m365-unified-endpoint-management.learn-m365.unified-endpoint-management.4-cloud-connected-device-management
-- learn-m365.intro-to-m365-unified-endpoint-management.learn-m365.unified-endpoint-management.5-summary-and-knowledge-check
+- learn-m365.unified-endpoint-management.1-what-is-uem
+- learn-m365.unified-endpoint-management.2-device-management-challenges
+- learn-m365.unified-endpoint-management.3-ems-components
+- learn-m365.unified-endpoint-management.4-cloud-connected-device-management
+- learn-m365.unified-endpoint-management.5-summary-and-knowledge-check
 badge:
   uid: learn-m365.intro-to-m365-unified-endpoint-management.badge
