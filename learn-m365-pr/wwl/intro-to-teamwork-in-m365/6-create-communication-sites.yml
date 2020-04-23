@@ -3,12 +3,13 @@ uid: learn-m365.teamwork-in-m365.6-create-communication-sites
 title: Create communication sites
 metadata:
   title: Create communication sites
-  description: Learn how to use Microsoft 365 to create places for your users to communicate and engage.
-  msdate: 03/18/2019
-  author: lizap
-  ms.author: elizapo
+  description: "Learn how to use Microsoft 365 to create places for your users to communicate and engage."
+  ms.date: 04/24/2020
+  author: wwlpublish
+  ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
+azureSandbox: false
 durationInMinutes: 4
 content: |
   [!include[](includes/6-create-communication-sites.md)]

@@ -2,21 +2,25 @@
 uid: learn-m365.intro-teamwork-in-m365
 metadata:
   title: Introduction to teamwork in Microsoft 365
-  description: Working in teams is an essential part of today’s modern workplace. An increasing number of workers are remote, mobile, or work from different time zones and  geographic locations. In this module, you'll learn about the Microsoft 365 tools that facilitate teamwork for all workers, no matter where they're located or how they connect to your organization’s resources. These tools include apps designed for co-authoring and file sharing, security and compliance controls, and access controls via Azure Active Directory. 
-  ms.date: 03/18/2019
-  author: lizap
-  ms.author: elizapo
+  description: "In this module, you'll
+learn about the Microsoft 365 tools that facilitate teamwork for all workers,
+no matter where they're located or how they connect to your organization’s
+resources."
+  ms.date: 04/24/2020
+  author: wwlpublish
+  ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Introduction to teamwork in Microsoft 365
-summary: Working in teams is an essential part of today’s modern workplace. An increasing number of workers are remote, mobile, or work from different time zones and  geographic locations. In this module, you'll learn about the Microsoft 365 tools that facilitate teamwork for all workers, no matter where they're located or how they connect to your organization’s resources. These tools include apps designed for co-authoring and file sharing, security and compliance controls, and access controls via Azure Active Directory.
+summary: In this module, you'll learn about the Microsoft 365 tools that facilitate teamwork for all workers, no matter where they're located or how they connect to your organization’s resources.
 abstract: |
   In this module, you will:
-  - Define the teamwork scenarios that are enabled in Microsoft 365
-  -	Name the products in Microsoft 365 that are part of the teamwork toolkit
-  -	Understand how Microsoft 365 can help you run meetings and projects more effectively
-  -	Explain how Microsoft 365 analytics tools can improve efficiency 
-prerequisites: None
+    - Define the teamwork scenarios that are enabled in Microsoft 365
+    - Name the products in Microsoft 365 that are part of the teamwork toolkit
+    - Understand how Microsoft 365 can help you run meetings and projects more effectively
+    - Explain how Microsoft 365 analytics tools can improve efficiency
+prerequisites: |
+  None
 iconUrl: /learn/achievements/intro-to-teamwork-in-m365.svg
 levels:
 - beginner
@@ -33,5 +37,5 @@ units:
 - learn-m365.teamwork-in-m365.6-create-communication-sites
 - learn-m365.teamwork-in-m365.7-gain-insights
 - learn-m365.teamwork-in-m365.8-summary-and-knowledge-check
-badge: 
+badge:
   uid: learn-m365.intro-teamwork-in-m365.badge

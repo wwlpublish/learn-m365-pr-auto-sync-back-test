@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teamwork-in-m365.8-summary-and-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: "Review what you've learned about teamwork options in Microsoft 365."
+  ms.date: 04/24/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/8-summary-knowledge-check.md)]
+quiz:
+  title: "Knowledge check"
+  questions:
+  - content: "Which collection of productivity tools contribute to improved personal productivity?"
+    choices:
+    - content: "Microsoft Teams, Yammer, Outlook, SharePoint"
+      isCorrect: true
+      explanation: "Correct. All these tools together help foster teamwork and improve personal productivity."
+    - content: "Word, Excel, Delve, Yammer"
+      isCorrect: false
+      explanation: "Incorrect. While some of these are productivity tools, they don't all contribute to better personal productivity."
+    - content: "Workplace Analytics, Microsoft Endpoint Manager, Security Center"
+      isCorrect: false
+      explanation: "Yammer is one of the products that comprise the Teamwork toolkit."
+  - content: "Co-authoring allows multiple authors to collaborate on the same document in real-time through Word, Excel, and what other application?"
+    choices:
+    - content: "Visio"
+      isCorrect: false
+      explanation: "Incorrect. Visio does not support co-authoring."
+    - content: "PowerPoint"
+      isCorrect: true
+      explanation: "Correct. PowerPoint supports co-authoring."
+    - content: "Outlook"
+      isCorrect: false
+      explanation: "Incorrect. Outlook does not support co-authoring."
+  - content: "Which of the following metrics tracked by MyAnalytics helps employees achieve a better work/life balance?"
+    choices:
+    - content: "Meeting hours"
+      isCorrect: false
+      explanation: "Incorrect. Tracking meeting hours helps employees reduce unnecessary meetings to get more focus time."
+    - content: "After hours"
+      isCorrect: true
+      explanation: "Correct. Tracking time spent on work during off hours helps employees manage their work/life balance more effectively."
+    - content: "Focus hours"
+      isCorrect: false
+      explanation: "Incorrect. Tracking focus hours helps employees see how they spend their time."

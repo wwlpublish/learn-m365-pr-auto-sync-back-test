@@ -3,12 +3,13 @@ uid: learn-m365.teamwork-in-m365.2-choose-the-right-tools
 title: Choose the right teamwork tools for your team
 metadata:
   title: Choose the right teamwork tools for your team
-  description: Learn which tools work best for your specific needs.
-  msdate: 03/18/2019
-  author: lizap
-  ms.author: elizapo
+  description: "Learn which tools work best for your specific needs."
+  ms.date: 04/24/2020
+  author: wwlpublish
+  ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
+azureSandbox: false
 durationInMinutes: 4
 content: |
-  [!include[](includes/2-choose-the-right-tools.md)]
+  [!include[](includes/2-choose-right-tools.md)]
