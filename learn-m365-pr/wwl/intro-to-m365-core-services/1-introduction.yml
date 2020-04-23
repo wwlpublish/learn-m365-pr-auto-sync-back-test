@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-core-services.3-exchange-online
+title: Exchange Online - the messaging and collaboration platform
+metadata:
+  title: Exchange Online - the messaging and collaboration platform
+  description: "Learn about Exchange Online"
+  ms.date: 04/24/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/1-introduction.md)]
