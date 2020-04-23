@@ -1,7 +1,7 @@
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Ys0Y]
 
-The first security pillar, identity & access management, is the bedrock that a secure digital estate is built on. The credentials that you issue to your users identify them to Microsoft 365 and when combined with strong authentication methods, like multi-factor authentication, they can be taken as proof positive that the person using them is who they claim to be. Once their identity is established (called authentication), the user is permitted access (called authorization) to the resources that you have previously granted them permissions to.
+Identity & access management is the bedrock upon which a secure digital estate is built. The credentials that you issue to your users identify them to Microsoft 365 and when combined with strong authentication methods, like multi-factor authentication, they can be taken as proof positive that the person using them is who they claim to be. Once their identity is established (called authentication), the user is permitted access (called authorization) to the resources that you have previously granted them permissions to.
 
 
 ## Secure authentication
@@ -26,7 +26,7 @@ You can use the Microsoft Authenticator app in multiple ways, including:
 ## Conditional access
 Conditional access provides granular access to keep your corporate data secure, while letting users do their best work from any device and from any location. Conditional access helps protect sensitive data by evaluating users, devices, apps, location, and risk before granting access to corporate data. This helps ensure that only approved users and devices can access critical company resources. 
 
-Conditional access spans Microsoft 365 services including Intune, Office 365, and Windows 10. 
+Conditional access spans Microsoft 365 services including Intune, Microsoft 365, and Windows 10. 
 
 ![Conditional access](../media/3-conditional-access.png)
 *Conditional access evaluates each access request on a number of different criteria and then using policies you define, decides if it should be allowed, if stricter controls are needed or if the access attempt should be blocked altogether*

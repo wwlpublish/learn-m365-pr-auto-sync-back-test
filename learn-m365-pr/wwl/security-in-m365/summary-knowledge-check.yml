@@ -1,0 +1,40 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.security-m365.summary-and-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: "Review what you've learned about security in Microsoft 365."
+  ms.date: 04/24/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/7-summary-knowledge-check.md)]
+quiz:
+  title: "Knowledge check"
+  questions:
+  - content: "Conditional access, secure authentication, and identity protection fall under which security category?"
+    choices:
+    - content: "Identity and access management"
+      isCorrect: true
+      explanation: "Correct. Conditional access, secure authentication, and identity protection are all part of identity and access management."
+    - content: "Threat protection"
+      isCorrect: false
+      explanation: "Incorrect. Conditional access, secure authentication, and identity protection are all part of identity and access management, not threat protection."
+    - content: "Security management"
+      isCorrect: false
+      explanation: "Incorrect. Conditional access, secure authentication, and identity protection are all part of identity and access management, not security management."
+  - content: "It can be helpful to think about your information protection strategy in terms of which four key activities?"
+    choices:
+    - content: "Discover, classify, protect, and monitor"
+      isCorrect: true
+      explanation: "Correct. These should all be part of your information protection strategy."
+    - content: "Discover, classify, reveal, and expose"
+      isCorrect: false
+      explanation: "Incorrect. Reveal and expose are not part of an information protection strategy."
+    - content: "Discover, report, classify, and expose"
+      isCorrect: false
+      explanation: "Incorrect. Report and expose are not part of an information protection strategy."

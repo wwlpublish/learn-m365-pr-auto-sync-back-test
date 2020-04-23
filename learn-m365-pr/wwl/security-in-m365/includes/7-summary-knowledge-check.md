@@ -12,5 +12,5 @@ When you're done with a link, use the **Back** arrow in your browser to come bac
 - [View the reports for data loss prevention](https://docs.microsoft.com/office365/securitycompliance/view-the-dlp-reports)
 - [View the data governance reports](https://docs.microsoft.com/office365/securitycompliance/view-the-data-governance-reports) 
 - [Security dashboard overview](https://docs.microsoft.com/office365/securitycompliance/security-dashboard) 
-- [Office 365 Information Protection for GDPR](https://docs.microsoft.com/office365/enterprise/office-365-information-protection-for-gdpr)
+- [Microsoft 365 Enterprise GDPR Compliance site](https://docs.microsoft.com/microsoft-365/compliance/gdpr?view=o365-worldwide)
 - [Search the audit log in the Office 365 Security & Compliance Center](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance)

@@ -6,7 +6,7 @@ Digital estates are growing more complex. They include devices, data, networks, 
 - rapidly detect malicious activity
 - effectively respond to and remediate threats across the digital estate
 
-That's why Microsoft has developed different services that specialize in protecting against various threat vectors such as endpoints, networks, email, and business critical data. These services integrate via the Microsoft Intelligent Security Graph. The Graph uses advanced analytics to link a massive amount of threat intelligence and security data to real-time threat protection in Microsoft 365.
+That's why Microsoft has developed different services that specialize in protecting against various threat vectors such as endpoints, networks, email, and business critical data. These services integrate via the Microsoft Graph. The Microsoft Graph uses advanced analytics to link a massive amount of threat intelligence and security data to real-time threat protection in Microsoft 365.
 
 ![Microsoft Threat Protection](../media/protection-services.png)
 
@@ -44,7 +44,7 @@ Microsoft Exchange Online Protection (EOP) is a cloud-based email filtering serv
 
 ## Microsoft Intune
 
-Microsoft Intune, a mobile device management component of Enterprise Mobility + Security (EMS), integrates closely with other EMS components like Azure Active Directory (Azure AD) for identity and access control and Azure Information Protection for data protection. When you use it with Office 365, you can help your users be productive on all their devices, while protecting your information.
+Microsoft Intune, a component of Microsoft Endpoint Management (MEM) integrates closely with other endpoint management components, including Azure Active Directory (Azure AD) for identity and access control and Azure Information Protection for data protection. When you use it with Microsoft 365, you can help your users be productive on all their devices, while protecting your information.
 
 ## Office 365 Advanced Threat Protection
 
@@ -62,7 +62,7 @@ Be sure to click the full-screen option in the video player, to make it easier t
 
 ## Office 365 Threat Intelligence
 
-Office 365 Threat Intelligence is a collection of insights and information available in the Office 365 Security & Compliance Center. Office 365 Threat Intelligence monitors signals and gathers data from multiple sources, such as user activity, authentication, email, compromised PCs, and security incidents. You can use this information to understand and respond to threats against users and intellectual property.
+Office 365 Threat Intelligence is a collection of insights and information available in the Microsoft 365 security center. Office 365 Threat Intelligence monitors signals and gathers data from multiple sources, such as user activity, authentication, email, compromised PCs, and security incidents. You can use this information to understand and respond to threats against users and intellectual property.
 
 ## Windows Defender Advanced Threat Protection (ATP)
 

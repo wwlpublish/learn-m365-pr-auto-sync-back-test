@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.security-m365.introduction
+title: Introduction to security in Microsoft 365
+metadata:
+  title: Introduction to security in Microsoft 365
+  description: "Learn about the key security pillars in Microsoft 365"
+  ms.date: 04/24/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/1-introduction.md)]
