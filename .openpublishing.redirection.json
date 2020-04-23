@@ -494,6 +494,26 @@
       "source_path": "learn-m365-pr/m365-developer/understand-test-debug-deployment-options/5-summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/5-debug-test-deployment",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/what-is-m365/2-whats-in-m365.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/what-is-m365",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/what-is-m365/3-connecting-clouds.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/what-is-m365",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/what-is-m365/4-m365-subscriptions.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/what-is-m365",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/what-is-m365/5-summary-and-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/what-is-m365",
+      "redirect_document_id": true
     }
   ]
 }
