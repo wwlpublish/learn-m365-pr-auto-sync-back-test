@@ -3,12 +3,13 @@ uid: learn-m365.compliance-m365.4-data-governance
 title: Using retention labels and retention policies to implement data governance
 metadata:
   title: Using retention labels and retention policies to implement data governance
-  description: Learn how to achieve integrated protection and governance of sensitive data across devices, apps and cloud services
-  msdate: 03/18/2019
-  author: lizap
-  ms.author: elizapo
+  description: "Learn how to achieve integrated protection and governance of sensitive data across devices, apps and cloud services"
+  ms.date: 04/24/2020
+  author: wwlpublish
+  ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
+azureSandbox: false
 durationInMinutes: 13
 content: |
-  [!include[](includes/4-data-governance.md)]
+  [!include[](includes/3-data-governance.md)]

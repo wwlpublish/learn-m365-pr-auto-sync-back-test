@@ -3,12 +3,13 @@ uid: learn-m365.compliance-m365.3-assess-your-compliance
 title: Simplify assessment of compliance risk and posture with actionable insights
 metadata:
   title: Simplify assessment of compliance risk and posture with actionable insights
-  description: Learn how to use the Service Trust Portal and Compliance Manager tools to assess risk.
-  msdate: 03/18/2019
-  author: lizap
-  ms.author: elizapo
+  description: "Learn how to use the Service Trust Portal and Compliance Manager tools to assess risk."
+  ms.date: 04/24/2020
+  author: wwlpublish
+  ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
+azureSandbox: false
 durationInMinutes: 12
 content: |
-  [!include[](includes/3-assess-your-compliance.md)]
+  [!include[](includes/2-assess-your-compliance.md)]

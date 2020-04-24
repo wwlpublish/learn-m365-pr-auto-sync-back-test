@@ -7,16 +7,16 @@ The Service Trust Portal (STP) provides a variety of content, tools, and other r
 - International Organization for Standardization (ISO).
 - Service Organization Controls (SOC).
 - National Institute of Standards and Technology (NIST)
-- Federal Risk and Authorization Management Program (FedRAMP)
-- General Data Protection Regulation (GDPR) 
-- Office 365 Auditing
+- Federal Risk and Authorization Management Program (FedRAMP) 
+- Auditing
+- Data privacy
 
 The Service Trust Portal includes the following compliance tools:
 
 - **Compliance Manager**. Your dashboard to standards, regulations, and assessments.
-- **Trust documents**. Audit reports, data protection info about how Microsoft operates Azure, Dynamics 365, and Office 365, Azure Security and Compliance Blueprint.
+- **Trust documents**. Audit reports, data protection info about how Microsoft operates Azure, Dynamics 365, and Microsoft 365, Azure Security and Compliance Blueprint.
 - **Regional Compliance**. Regionally specific compliance information, often in the form of legal opinions that describe Microsoft cloud services in different countries, like Australia, Poland, or the UK.
-- **Privacy**. Information about the capabilities in Microsoft services that you can use to address specific GDPR requirements, as well as GDPR documentation.
+- **Data privacy**. Information about the capabilities in Microsoft services that you can use to address privacy requirements, as well as documentation.
 
 You can access the Service Trust Portal by going to https://servicetrust.microsoft.com/.
 
@@ -27,11 +27,11 @@ Here's an overview of the Service Trust Portal.
 ## Compliance Manager
 
 The Compliance Manager is a cross-Microsoft solution that helps meet complex compliance obligations, including: 
-- GDPR
 - ISO 27001
 - ISO 27018
 - NIST 800-53
 - HIPAA
+- Data privacy
 
 Compliance Manager provides three key capabilities:
 
