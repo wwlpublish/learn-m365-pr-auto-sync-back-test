@@ -622,22 +622,22 @@
     },
     {
       "source_path": "learn-m365-pr/wwl/compliance-in-m365/3-assess-your-compliance.md",
-      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/compliance-in-m365/2-assess-your-compliance",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/compliance-in-m365/",
       "redirect_document_id": true
     },
     {
       "source_path": "learn-m365-pr/wwl/compliance-in-m365/4-data-governance.md",
-      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/compliance-in-m365/3-data-governance",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/compliance-in-m365/",
       "redirect_document_id": true
     },
     {
       "source_path": "learn-m365-pr/wwl/compliance-in-m365/4-microsoft-compliance-center.md",
-      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/compliance-in-m365/7-microsoft-compliance-center",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/compliance-in-m365/",
       "redirect_document_id": true
     },
     {
       "source_path": "learn-m365-pr/wwl/compliance-in-m365/5-summary-and-knowledge-check.md",
-      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/compliance-in-m365/8-summary-knowledge-check",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/compliance-in-m365/",
       "redirect_document_id": true
     }
   ]
