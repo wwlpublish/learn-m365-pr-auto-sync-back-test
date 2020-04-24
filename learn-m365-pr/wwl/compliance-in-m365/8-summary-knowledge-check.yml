@@ -1,0 +1,40 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.compliance-m365.5-summary-and-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: "Review what you've learned about protecting information in Microsoft 365."
+  ms.date: 04/24/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 1
+content: |
+  [!include[](includes/8-summary-knowledge-check.md)]
+quiz:
+  title: "Knowledge check"
+  questions:
+  - content: "What are three phases of managing compliance?"
+    choices:
+    - content: "Assess, protect, and respond"
+      isCorrect: true
+      explanation: "Correct. These are three phases of managing compliance"
+    - content: "Assess, monitor, and classify"
+      isCorrect: false
+      explanation: "Incorrect. Assess, protect, and respond are the three phases of managing compliance"
+    - content: "Discover, classify, and explore"
+      isCorrect: false
+      explanation: "Incorrect. Assess, protect, and respond are the three phases of managing compliance"
+  - content: "Which of the following compliance tools are included in the Service Trust Portal?"
+    choices:
+    - content: "Compliance Manager, Trust documents, Regional Compliance, and Privacy"
+      isCorrect: true
+      explanation: "Correct. These are all part of the Service Trust Portal."
+    - content: "Accessibility assurance controls, Conditional Trust, and Compliance Manager"
+      isCorrect: false
+      explanation: "Incorrect. accessibility assurance control and conditional trust are not part of the Service Trust Portal."
+    - content: "Responsibility Manager, Accessibility assurance controls, and Conditional Trust"
+      isCorrect: false
+      explanation: "Incorrect. None of these are part of the Service Trust Portal."

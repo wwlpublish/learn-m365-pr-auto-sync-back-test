@@ -1,14 +1,15 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.compliance-m365.6-respond-to-data-discovery
-title: Respond to data discovery requests 
+title: Respond to data discovery requests
 metadata:
-  title: Respond to data discovery requests 
-  description: Learn about how to respond to data discovery requests by leveraging AI to find the most relevant data.
-  msdate: 03/18/2019
-  author: lizap
-  ms.author: elizapo
+  title: Respond to data discovery requests
+  description: "Learn about how to respond to data discovery requests by leveraging AI to find the most relevant data."
+  ms.date: 04/24/2020
+  author: wwlpublish
+  ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
+azureSandbox: false
 durationInMinutes: 3
 content: |
   [!include[](includes/6-respond-to-data-discovery.md)]

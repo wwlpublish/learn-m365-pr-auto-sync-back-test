@@ -2,20 +2,21 @@
 uid: learn-m365.meet-compliance-with-m365
 metadata:
   title: Introduction to compliance tools in Microsoft 365
-  description: Learn how Microsoft 365 helps you meet your compliance needs. Microsoft 365 complies with global, industry, and regional standards and regulations and is designed to help you to meet the regulatory requirements for your business. You will learn what integrated compliance solutions are available within Microsoft 365 and how they can help your organization leverage intelligence to reduce your compliance risk. 
-  ms.date: 03/18/2019
-  author: lizap
-  ms.author: elizapo
+  description: "Learn how Microsoft 365 helps you meet your compliance needs. Microsoft 365 complies with global, industry, and regional standards and regulations and is designed to help you to meet the regulatory requirements for your business."
+  ms.date: 04/24/2020
+  author: wwlpublish
+  ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Introduction to compliance tools in Microsoft 365
-summary: Learn how Microsoft 365 helps you meet your compliance needs. Microsoft 365 complies with global, industry, and regional standards and regulations and is designed to help you to meet the regulatory requirements for your business. You will learn what integrated compliance solutions are available within Microsoft 365 and how they can help your organization leverage intelligence to reduce your compliance risk. 
+summary: Learn how Microsoft 365 helps you meet your compliance needs. Microsoft 365 complies with global, industry, and regional standards and regulations and is designed to help you to meet the regulatory requirements for your business.
 abstract: |
   In this module, you will:
-  -	Learn the three pillars of compliance.
-  -	Learn the benefits of the Compliance Manager tool.
-  - Learn about the Microsoft Compliance Center.
-prerequisites: None
+    - Learn the three pillars of compliance.
+    - Learn the benefits of the Compliance Manager tool.
+    - Learn about the Microsoft Compliance Center.
+prerequisites: |
+  None
 iconUrl: /learn/achievements/meet-compliance-with-m365.svg
 levels:
 - beginner
@@ -32,5 +33,5 @@ units:
 - learn-m365.compliance-m365.6-respond-to-data-discovery
 - learn-m365.compliance-m365.4-microsoft-compliance-center
 - learn-m365.compliance-m365.5-summary-and-knowledge-check
-badge: 
+badge:
   uid: learn-m365.meet-compliance-with-m365.badge

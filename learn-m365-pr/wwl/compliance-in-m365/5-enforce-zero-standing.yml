@@ -3,12 +3,13 @@ uid: learn-m365.compliance-m365.5-enforce-zero-standing
 title: Enforce Zero Standing Access with Customer Lockbox and privileged access management in Office 365
 metadata:
   title: Enforce Zero Standing Access with Customer Lockbox and privileged access management in Office 365
-  description: Learn about Customer Lockbox and privileged access management.
-  msdate: 03/18/2019
-  author: lizap
-  ms.author: elizapo
+  description: "Learn about Customer Lockbox and privileged access management."
+  ms.date: 04/24/2020
+  author: wwlpublish
+  ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
+azureSandbox: false
 durationInMinutes: 5
 content: |
   [!include[](includes/5-enforce-zero-standing.md)]
