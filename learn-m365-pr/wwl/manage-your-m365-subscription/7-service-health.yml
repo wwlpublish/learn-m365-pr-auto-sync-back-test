@@ -3,12 +3,13 @@ uid: learn-m365.manage-m365.5-service-health
 title: Monitor Microsoft 365 service health
 metadata:
   title: Monitor Microsoft 365 service health
-  description: Learn about how to monitor service health for Microsoft 365.
-  msdate: 03/18/2019
-  author: lizap
-  ms.author: elizapo
+  description: "Learn about how service requests work in Microsoft 365."
+  ms.date: 04/24/2020
+  author: wwlpublish
+  ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
+azureSandbox: false
 durationInMinutes: 3
 content: |
-  [!include[](includes/5-service-health.md)]
+  [!include[](includes/7-service-health.md)]
