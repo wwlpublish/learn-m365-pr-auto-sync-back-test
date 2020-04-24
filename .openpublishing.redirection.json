@@ -669,6 +669,31 @@
       "source_path": "learn-m365-pr/wwl/manage-your-m365-subscription/7-summary-and-knowledge-check.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/manage-your-m365-subscription/",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/select-a-cloud-deployment-model/2-the-cloud-only-model.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/select-a-cloud-deployment-model/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/select-a-cloud-deployment-model/3-the-hybrid-model.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/select-a-cloud-deployment-model/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/select-a-cloud-deployment-model/4-which-model-to-choose.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/select-a-cloud-deployment-model/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/select-a-cloud-deployment-model/5-migration-m365.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/select-a-cloud-deployment-model/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/select-a-cloud-deployment-model/6-summary-and-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/select-a-cloud-deployment-model/",
+      "redirect_document_id": true
     }
   ]
 }

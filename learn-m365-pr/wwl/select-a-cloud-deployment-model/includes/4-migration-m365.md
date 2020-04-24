@@ -10,7 +10,7 @@ When you're planning your migration, the following considerations can help guide
 
 |What you need to migrate|Strategies/considerations|
 |-|-|
-|Office 2013 or older to Office 365 ProPlus|Reasons to upgrade to Microsoft 365 licenses: <br><br>- After April 2023, accessing Office 365 services (like Exchange Online, SharePoint) won't be supported if you're using Office 2013.<br><br>- Office 2010 is only supported until 2020 and Office 2007 isn’t supported at all.| 
+|Office 2013 or older to Microsoft 365 Apps|Reasons to upgrade to Microsoft 365 licenses: <br><br>- After April 2023, accessing Office 365 services (like Exchange Online, SharePoint) won't be supported if you're using Office 2013.<br><br>- Office 2010 is only supported until 2020 and Office 2007 isn’t supported at all.| 
 |Office Server versions to equivalent Office 365 services|	Reasons to upgrade to Office 365 services:<br><br>- Office Server 2013 and Office Server 2016 products (like Exchange Server and SharePoint Server) don’t take advantage of the cloud-based services and enhancements.<br><br>- Some Office Server 2010 products have a specified end-of-support date.<br><br>- Office Server 2007 products are no longer supported. To help with migration from this version, hire a Microsoft partner. You can then roll out the new functionality and work processes to your users and decommission the on-premises servers running Office 2007 server products when you no longer need them.|
 |Windows 7 and Windows 8.1 on your devices to Windows 10 Enterprise|	Perform an in-place upgrade to Windows 10 Enterprise.|
 
