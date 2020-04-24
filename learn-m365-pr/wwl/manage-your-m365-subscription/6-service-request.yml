@@ -1,14 +1,15 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.manage-m365.6-service-request
+uid: learn-m365.manage-m365-subscription.learn-m365.manage-m365.6-service-request
 title: Work with service requests in Microsoft 365
 metadata:
   title: Work with service requests in Microsoft 365
-  description: Learn about how service requests work in Microsoft 365.
-  msdate: 03/18/2019
-  author: lizap
-  ms.author: elizapo
+  description: "Learn about how to monitor service health for Microsoft 365."
+  ms.date: 04/24/2020
+  author: wwlpublish
+  ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
+azureSandbox: false
 durationInMinutes: 2
 content: |
   [!include[](includes/6-service-request.md)]
