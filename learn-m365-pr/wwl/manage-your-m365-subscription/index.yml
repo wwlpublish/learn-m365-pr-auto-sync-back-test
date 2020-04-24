@@ -28,13 +28,13 @@ roles:
 products:
 - m365
 units:
-- learn-m365.manage-m365-subscription.learn-m365.manage-m365.1-introduction
-- learn-m365.manage-m365-subscription.learn-m365.manage-m365.1-manage-licenses
-- learn-m365.manage-m365-subscription.learn-m365.manage-m365.2-manage-billing
-- learn-m365.manage-m365-subscription.learn-m365.manage-m365.3-explore-support-options
-- learn-m365.manage-m365-subscription.learn-m365.manage-m365.4-m365-slas
-- learn-m365.manage-m365-subscription.learn-m365.manage-m365.6-service-request
-- learn-m365.manage-m365-subscription.learn-m365.manage-m365.5-service-health
-- learn-m365.manage-m365-subscription.learn-m365.manage-m365.7-summary-and-knowledge-check
+- learn-m365.manage-m365.1-introduction
+- learn-m365.manage-m365.1-manage-licenses
+- learn-m365.manage-m365.2-manage-billing
+- learn-m365.manage-m365.3-explore-support-options
+- learn-m365.manage-m365.4-m365-slas
+- learn-m365.manage-m365.6-service-request
+- learn-m365.manage-m365.5-service-health
+- learn-m365.manage-m365.7-summary-and-knowledge-check
 badge:
   uid: learn-m365.manage-m365-subscription.badge
