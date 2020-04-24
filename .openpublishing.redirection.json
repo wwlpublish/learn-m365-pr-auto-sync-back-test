@@ -666,11 +666,6 @@
       "redirect_document_id": true
     },
     {
-      "source_path": "learn-m365-pr/wwl/manage-your-m365-subscription/6-service-request.md",
-      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/manage-your-m365-subscription/",
-      "redirect_document_id": true
-    },
-    {
       "source_path": "learn-m365-pr/wwl/manage-your-m365-subscription/7-summary-and-knowledge-check.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/manage-your-m365-subscription/",
       "redirect_document_id": true
