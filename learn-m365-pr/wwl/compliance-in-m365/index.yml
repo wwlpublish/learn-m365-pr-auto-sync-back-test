@@ -25,13 +25,13 @@ roles:
 products:
 - m365
 units:
-- learn-m365.meet-compliance-with-m365.learn-m365.compliance-m365.2-common-compliance
-- learn-m365.meet-compliance-with-m365.learn-m365.compliance-m365.3-assess-your-compliance
-- learn-m365.meet-compliance-with-m365.learn-m365.compliance-m365.4-data-governance
-- learn-m365.meet-compliance-with-m365.learn-m365.compliance-m365.4-enable-encryption
-- learn-m365.meet-compliance-with-m365.learn-m365.compliance-m365.5-enforce-zero-standing
-- learn-m365.meet-compliance-with-m365.learn-m365.compliance-m365.6-respond-to-data-discovery
-- learn-m365.meet-compliance-with-m365.learn-m365.compliance-m365.4-microsoft-compliance-center
-- learn-m365.meet-compliance-with-m365.learn-m365.compliance-m365.5-summary-and-knowledge-check
+- learn-m365.compliance-m365.2-common-compliance
+- learn-m365.compliance-m365.3-assess-your-compliance
+- learn-m365.compliance-m365.4-data-governance
+- learn-m365.compliance-m365.4-enable-encryption
+- learn-m365.compliance-m365.5-enforce-zero-standing
+- learn-m365.compliance-m365.6-respond-to-data-discovery
+- learn-m365.compliance-m365.4-microsoft-compliance-center
+- learn-m365.compliance-m365.5-summary-and-knowledge-check
 badge:
   uid: learn-m365.meet-compliance-with-m365.badge
