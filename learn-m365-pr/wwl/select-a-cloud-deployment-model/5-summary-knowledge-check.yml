@@ -16,7 +16,7 @@ content: |
 quiz:
   title: "Knowledge check"
   questions:
-  - content: "For which of one the following organizations does a hybrid deployment make the most sense?"
+  - content: "Which of the following organizations does a hybrid deployment make the most sense for?"
     choices:
     - content: "An established business with a data center that is acquiring a new business"
       isCorrect: true
@@ -27,7 +27,7 @@ quiz:
     - content: "A new business"
       isCorrect: false
       explanation: "Incorrect. A hybrid deployment may or may not make sense for a new business."
-  - content: "Which of one the following statements about migration vs coexistence is true?"
+  - content: "Which of the following statements about migration vs coexistence is true?"
     choices:
     - content: "Coexistence is for cloud-only deployments and migration is for hybrid deployments."
       isCorrect: false
