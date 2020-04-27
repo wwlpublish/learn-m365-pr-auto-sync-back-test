@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn-m365.m365-messaging-hybrid-migration
+metadata:
+  title: Plan and implement a hybrid environment
+  description: Learn how to plan and implement hybrid messaging environments, the role of an Edge server, and the use of the Exchange Hybrid Agent. 
+  ms.date: 04/23/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Plan and implement a hybrid environment
+summary: Learn how to plan and implement hybrid messaging environments, the role of an Edge server, and the use of the Exchange Hybrid Agent.  
+abstract: |
+  At the end of this module, you should be able to:
+  - Explain hybrid environments.
+  - Explain free/busy access.
+  - Explain the decision between Classic and Modern hybrid.
+  - Describe the Edge server role.
+  - Explain how to use the Hybrid Configuration Wizard and the Exchange Hybrid Agent
+prerequisites: |
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+iconUrl: http://via.placeholder.com/120x120
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-365
+- office-exchange-server
+units:
+- learn-m365.m365-messaging-hybrid-migration.introduction
+- learn-m365.m365-messaging-hybrid-migration.configure-hybrid-access
+- learn-m365.m365-messaging-hybrid-migration.decide-classic-modern
+- learn-m365.m365-messaging-hybrid-migration.manage-edge-server-role
+- learn-m365.m365-messaging-hybrid-migration.organization-configuration-transfer
+- learn-m365.m365-messaging-hybrid-migration.hybrid-configuration-wizard
+- learn-m365.m365-messaging-hybrid-migration.deploy-hybrid-agent
+- learn-m365.m365-messaging-hybrid-migration.summary-knowledge-check
+badge: 
+  uid: learn-m365.m365-messaging-hybrid-migration.badge
