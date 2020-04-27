@@ -1,4 +1,4 @@
-Microsoft Teams supports teams associated with Office 365 Groups by using dynamic membership. Dynamic membership enables the membership of a team to be defined by one or more rules that check for certain user attributes in Azure Active Directory (Azure AD). When an attribute changes for a user or device, all dynamic group rules in the organization are processed for membership changes. Users are added or removed if they meet the conditions for a group.
+Microsoft Teams supports teams associated with Microsoft 365 Groups by using dynamic membership. Dynamic membership enables the membership of a team to be defined by one or more rules that check for certain user attributes in Azure Active Directory (Azure AD). When an attribute changes for a user or device, all dynamic group rules in the organization are processed for membership changes. Users are added or removed if they meet the conditions for a group.
 
 > [!NOTE]
 > Dynamic groups for users cannot contain devices.

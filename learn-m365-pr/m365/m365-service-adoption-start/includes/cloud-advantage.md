@@ -4,7 +4,7 @@ Many employees are still emailing spreadsheets, storing them on their local driv
 
 A common mistake in user adoption programs is to tout the benefits of moving to the cloud from the perspective of the organization or its IT department. These are not motivating factors for most employees. Employees are paid to drive results in a particular discipline and so we must share with them how changes like the implementation of Microsoft Teams or other collaboration and communication solutions will benefit them. 
 
-First and foremost we can reduce their interaction with IT. Properly governed Microsoft Teams and other Office 365 workloads can support a self-service mode. This allows employees to create project teams on-demand and when they need them. This reduction of friction with IT and IT services is a capability that will allow you to deliver a more secure environment for your company data by reducing your employee’s reliance on consumer and shadow software. 
+First and foremost we can reduce their interaction with IT. Properly governed Microsoft Teams and other Microsoft 365 workloads can support a self-service mode. This allows employees to create project teams on-demand and when they need them. This reduction of friction with IT and IT services is a capability that will allow you to deliver a more secure environment for your company data by reducing your employee’s reliance on consumer and shadow software. 
 
 |![Activity icon](../media/activity.png) Activity|
 |-| 
@@ -37,7 +37,7 @@ Every employee wants to know, "What's in it for me?" when you start discussing c
 
 The graphic above shows four different personas with common issues. A *persona* is a profile of a type of employee or role in your organization. It normally includes their title or role, years of service, years in role, core pain points, commonly used tools, metadata like region and year of experience, whether they work from home or not and the like. Persona mapping can be extremely detailed however for the purposes of our course, and your project, we recommend keeping it simple. 
 
-This simple mapping shows a user, their role, a common problem and how to address it with Office 365. The outcome of this work is to clearly identify what is in it for the employee if they join you on the change journey. 
+This simple mapping shows a user, their role, a common problem and how to address it with Microsoft 365. The outcome of this work is to clearly identify what is in it for the employee if they join you on the change journey. 
 
 |![Activity icon](../media/activity.png) Activity| 
 |-|

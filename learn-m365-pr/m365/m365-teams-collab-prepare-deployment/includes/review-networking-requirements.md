@@ -2,21 +2,21 @@ To prepare to deploy Teams, you should review your network requirements. Make su
 
 Teams combines three types of network traffic:
 
-- Data traffic between the Office 365 online environment and the Teams client (signaling, presence, chat, file upload and download, OneNote synchronization)
+- Data traffic between the Microsoft 365 online environment and the Teams client (signaling, presence, chat, file upload and download, OneNote synchronization)
 - Peer-to-peer real-time communications traffic (audio, video, desktop sharing)
 - Conferencing real-time communications traffic (audio, video, desktop sharing)
 
-This impacts the network on two levels: Traffic flows between the Teams clients directly in peer-to-peer situations, and between the Office 365 environment and the Teams clients for meetings. To make sure that traffic flow is optimal, you should allow data to flow between the internal network segments (such as between sites over the wide area network (WAN)) as well as between the network sites and Office 365. Not opening the correct ports or actively blocking specific ports will lead to a degraded experience.
+This impacts the network on two levels: Traffic flows between the Teams clients directly in peer-to-peer situations, and between the Microsoft 365 environment and the Teams clients for meetings. To make sure that traffic flow is optimal, you should allow data to flow between the internal network segments (such as between sites over the wide area network (WAN)) as well as between the network sites and Microsoft 365. Not opening the correct ports or actively blocking specific ports will lead to a degraded experience.
 
-To get an optimal experience with real-time media within Teams, your network must meet the networking requirements for Office 365.
+To get an optimal experience with real-time media within Teams, your network must meet the networking requirements for Microsoft 365.
 
 ## Consider your network capabilities
 
 When planning a Teams deployment, consider these network-related questions before getting started:
 
-- Connectivity to the Office 365 network 
+- Connectivity to the Microsoft 365 network 
   - Are all required IPs and ports reachable?
-  - How is traffic routed to the Office 365 network?
+  - How is traffic routed to the Microsoft 365 network?
 - Quality of the network: What are the latency, jitter, and packet-loss rates of the network?
 - Available bandwidth: Is there sufficient bandwidth for your users and the underlying technologies?
 

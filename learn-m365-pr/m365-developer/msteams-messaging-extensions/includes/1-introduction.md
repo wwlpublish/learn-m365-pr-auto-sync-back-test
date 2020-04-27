@@ -1,6 +1,6 @@
 Users can interact with your Microsoft Teams apps though buttons and forms in the Microsoft Teams client. Messaging extensions enable users to execute search queries or trigger actions in external systems. The results of these actions are sent from your custom web service to the Microsoft Teams client as embedded web pages or richly formatted cards.
 
-In this module, you’ll learn how to create different types of messaging extensions in a custom Microsoft Teams app.
+In this module, you'll learn how to create different types of messaging extensions in a custom Microsoft Teams app.
 
 ## Prerequisites
 
@@ -19,3 +19,5 @@ In this module, you’ll learn how to create different types of messaging extens
 ## Additional resources
 
 Refer to the following repository for additional resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [20 Task-oriented interactions in Microsoft Teams with messaging extensions](https://github.com/officedev/TrainingContent/tree/master/Teams/20%20Messaging%20Extensions).
+
+This module is also available as the screencast [Task-oriented interactions in Microsoft Teams with messaging extensions](https://www.youtube.com/watch?v=aHoRK8cr6Og).

@@ -1,0 +1,40 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.unified-endpoint-management.5-summary-and-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: "Review the basics of unified endpoint management in Microsoft 365."
+  ms.date: 04/24/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/5-summary-knowledge-check.md)]
+quiz:
+  title: "Knowledge check"
+  questions:
+  - content: "Which of the following statements is correct?"
+    choices:
+    - content: "Configuration Manager manages both on-premises infrastructure and cloud-based functions."
+      isCorrect: false
+      explanation: "Incorrect. Configuration Manager does not manage both on-premises infrastructure and cloud-based functions."
+    - content: "Intune manages both on-premises infrastructure and cloud-based functions."
+      isCorrect: false
+      explanation: "Incorrect. Intune does not manage both on-premises infrastructure and cloud-based functions."
+    - content: "Configuration Manager manages on-premises infrastructure and Intune manages cloud-based functions."
+      isCorrect: true
+      explanation: "Correct. Configuration Manager manages on-premises infrastructure and Intune manages cloud-based functions."
+  - content: "Which technology links users, devices, and applications across both cloud and on-premises environments, enabling Configuration Manager and Intune to work together?"
+    choices:
+    - content: "Azure Multi-Factor Authentication (MFA)"
+      isCorrect: false
+      explanation: "Azure AD Premium enables co-management."
+    - content: "Azure AD Premium"
+      isCorrect: true
+      explanation: "Azure AD Premium enables co-management."
+    - content: "Azure Advanced Threat Protection (ATP)"
+      isCorrect: false
+      explanation: "Azure AD Premium enables co-management."

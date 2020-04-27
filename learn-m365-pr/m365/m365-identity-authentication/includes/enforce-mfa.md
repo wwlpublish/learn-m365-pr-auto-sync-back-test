@@ -2,7 +2,7 @@ Christina travels from the home office in Seattle to the Tokyo office for the fi
 
 ## Require MFA
 
-Microsoft 365 uses MFA to help provide an extra layer of security and is managed from the admin center. Office 365 offers the following subset of MFA authentication capabilities:
+Microsoft 365 uses MFA to help provide an extra layer of security and is managed from the admin center. Microsoft 365 Apps offers the following subset of MFA authentication capabilities:
 
 - Use mobile apps (online and one-time password) as a second authentication factor
 - Use a phone call as a second authentication factor

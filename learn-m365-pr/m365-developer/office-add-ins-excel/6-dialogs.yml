@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.office-add-ins-excel.6-dialogs
+metadata:
+  title: Work with dialogs
+  description: In this unit, you'll learn how to incorporate dialogs in Excel workbooks. You'll learn how to open dialogs and how to submit and retrieve inputs and outputs for the dialog.
+  ms.date: 04/07/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Work with dialogs
+durationInMinutes: 9
+content: |
+  [!include[](includes/6-dialogs.md)]

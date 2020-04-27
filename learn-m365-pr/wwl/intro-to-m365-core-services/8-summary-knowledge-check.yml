@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-core-services.9-summary-and-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: "Review what you've learned about MyAnalytics and Workplace Analytics."
+  ms.date: 04/24/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 1
+content: |
+  [!include[](includes/8-summary-knowledge-check.md)]
+quiz:
+  title: "Knowledge check"
+  questions:
+  - content: "Which of the following cloud services available in Microsoft 365 provides rich messaging and collaboration features?"
+    choices:
+    - content: "Exchange"
+      isCorrect: false
+      explanation: "Exchange is one of the cloud services available in Microsoft 365."
+    - content: "SharePoint"
+      isCorrect: false
+      explanation: "SharePoint is one of the cloud services available in Microsoft 365."
+    - content: "Microsoft Teams"
+      isCorrect: true
+      explanation: "Correct. Microsoft Teams provides a hub for teams to communicate and collaborate in Microsoft 365."
+  - content: "Which of the following statements is true about the differences between SharePoint Online and SharePoint Server?"
+    choices:
+    - content: "Sharing with people outside your organization is only possible with SharePoint Server."
+      isCorrect: false
+      explanation: "Sharing with people outside your organization is only possible with SharePoint Online."
+    - content: "SharePoint Online team sites can be used with other services such as Teams."
+      isCorrect: true
+      explanation: "SharePoint Online team sites can be used with other services such as Teams."
+    - content: "All of the modern pages and web parts are available in SharePoint Server."
+      isCorrect: false
+      explanation: "All of the modern pages and web parts are available in SharePoint Online."
+  - content: "Microsoft designs products for people of all abilities and focuses on six specific areas (Vision, Hearing, Neurodiversity, Learning, Mobility, and Mental Health).  Which of the following features supports those with **Hearing** disabilities?"
+    choices:
+    - content: "Focus assist."
+      isCorrect: false
+      explanation: "Incorrect. Focus assist block alerts and notifications, so you can get things done without distractions."
+    - content: "Mono audio."
+      isCorrect: true
+      explanation: "Correct. Mono audio helps those with partial hearing loss or deafness in one ear by playing the same sounds in the left and right speakers."
+    - content: "Microsoft Soundscape"
+      isCorrect: false
+      explanation: "Incorrect. Soundscape uses innovative audio-based technology to enable people with blindness or low vision to build a richer awareness of their surroundings."

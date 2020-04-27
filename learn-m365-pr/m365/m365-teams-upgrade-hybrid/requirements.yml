@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.m365-teams-upgrade-hybrid.requirements
-title: Plan hybrid connectivity requirements between Skype for Business Server and Office 365
+title: Plan hybrid connectivity requirements between Skype for Business Server and Microsoft 365
 metadata:
-  title: Plan hybrid connectivity requirements between Skype for Business Server and Office 365
+  title: Plan hybrid connectivity requirements between Skype for Business Server and Microsoft 365
   description: Learn about the hybrid connectivity requirements.
   ms.date: 10/23/2019
   author: AlexandraHrt

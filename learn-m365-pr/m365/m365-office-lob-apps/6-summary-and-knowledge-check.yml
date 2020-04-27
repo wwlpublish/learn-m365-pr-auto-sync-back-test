@@ -15,25 +15,25 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Office 365 ProPlus is available in both 32-bit and 64-bit versions - it doesn't matter which version you install."
+    - content: "Microsoft 365 Apps is available in both 32-bit and 64-bit versions - it doesn't matter which version you install."
       choices:
       - content: "True"
         isCorrect: false
-        explanation: "No. Office 365 ProPlus *is* available in both 32-bit and 64-bit versions, but we recommend using the 64-bit version unless you have 32-bit dependencies."
+        explanation: "No. Microsoft 365 Apps *is* available in both 32-bit and 64-bit versions, but we recommend using the 64-bit version unless you have 32-bit dependencies."
       - content: "False"
         isCorrect: true
-        explanation: "Correct. Office 365 ProPlus *is* available in both 32-bit and 64-bit versions, but we recommend using the 64-bit version unless you have 32-bit dependencies."
-    - content: "Office 365 ProPlus and Office 2019 clients use which installation technology?"
+        explanation: "Correct. Microsoft 365 Apps *is* available in both 32-bit and 64-bit versions, but we recommend using the 64-bit version unless you have 32-bit dependencies."
+    - content: "Microsoft 365 Apps and Office 2019 clients use which installation technology?"
       choices:
       - content: "UWP"
         isCorrect: false
-        explanation: "No, Office 365 ProPlus and Office 2019 clients use Click-to-Run installation technology."
+        explanation: "No, Microsoft 365 Apps and Office 2019 clients use Click-to-Run installation technology."
       - content: "Click-to-Run"
         isCorrect: true
-        explanation: "Correct, Office 365 ProPlus and Office 2019 clients use Click-to-Run installation technology."
+        explanation: "Correct, Microsoft 365 Apps and Office 2019 clients use Click-to-Run installation technology."
       - content: "MSIX"
         isCorrect: false
-        explanation: "No, Office 365 ProPlus and Office 2019 clients use Click-to-Run installation technology."
+        explanation: "No, Microsoft 365 Apps and Office 2019 clients use Click-to-Run installation technology."
     - content: "Which of the following tools does NOT work with MSI-based packages?"
       choices:
       - content: "System Center Configuration Manager"

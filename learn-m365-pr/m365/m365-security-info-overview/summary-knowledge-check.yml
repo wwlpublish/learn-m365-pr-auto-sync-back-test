@@ -53,7 +53,7 @@ quiz:
       - content: "Privileged Identity Management"
         isCorrect: false
         explanation: "PIM is an identity and access management solution for controlling elevated user access."
-      - content: "Office 365 Safe Attachments"
+      - content: "Safe Attachments"
         isCorrect: false
-        explanation: "Office 365 Safe Attachments helps protect your end users from opening an email attachment containing malicious content."
+        explanation: "Safe Attachments helps protect your end users from opening an email attachment containing malicious content."
       

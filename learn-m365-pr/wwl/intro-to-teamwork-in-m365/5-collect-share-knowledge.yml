@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teamwork-in-m365.5-collect-and-share-knowledge
+title: Collect and share knowledge
+metadata:
+  title: Collect and share knowledge
+  description: "Learn how to build communities to share knowledge."
+  ms.date: 04/24/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/5-collect-share-knowledge.md)]

@@ -1,0 +1,40 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.manage-m365.7-summary-and-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: "Review what you've learned about managing subscriptions and billing in Microsoft 365."
+  ms.date: 04/24/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/8-summary-knowledge-check.md)]
+quiz:
+  title: "Knowledge check"
+  questions:
+  - content: "Which of one the following statements is TRUE, regarding the Microsoft 365 admin center?"
+    choices:
+    - content: "The Microsoft 365 admin center can be used to create user accounts, manage users’ rights and access to resources, manage licenses and subscription billing, monitor service health, and create service requests."
+      isCorrect: true
+      explanation: "Correct, you can do all of these things in the Microsoft 365 admin center."
+    - content: "A service request cannot be created via the Microsoft 365 admin center."
+      isCorrect: false
+      explanation: "You can open a service request in the Microsoft 365 admin center."
+    - content: "You can manage a 3rd party cloud service provider’s (CSP) SLA on the Microsoft 365 admin center."
+      isCorrect: false
+      explanation: "You cannot manage your CSP SLA in the Microsoft 365 admin center."
+  - content: "Which of the following statements is TRUE, regarding the ways in which a service request can be made?"
+    choices:
+    - content: "A service request can be made by email, telephone support, and online chat support."
+      isCorrect: true
+      explanation: "correct, you can create requests through telephone support, online chat support, and email."
+    - content: "A service request can be made in person at a Microsoft store as well as via email, chat, and telephone."
+      isCorrect: false
+      explanation: "You cannot make a service request at a Microsoft store."
+    - content: "Posting a question on a Microsoft 365 support forum is one of the ways to generate a formal service request."
+      isCorrect: false
+      explanation: "You cannot make a service request by posting a question on a support forum."
