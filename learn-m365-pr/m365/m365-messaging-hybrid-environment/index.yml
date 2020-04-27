@@ -33,8 +33,8 @@ units:
 - learn-m365.m365-messaging-hybrid-migration.configure-hybrid-access
 - learn-m365.m365-messaging-hybrid-migration.decide-classic-modern
 - learn-m365.m365-messaging-hybrid-migration.manage-edge-server-role
-- learn-m365.m365-messaging-hybrid-migration.org-configuration-transfer
-- learn-m365.m365-messaging-hybrid-migration.hybrid-config-wizard
+- learn-m365.m365-messaging-hybrid-migration.organization-configuration-transfer
+- learn-m365.m365-messaging-hybrid-migration.hybrid-configuration-wizard
 - learn-m365.m365-messaging-hybrid-migration.deploy-hybrid-agent
 - learn-m365.m365-messaging-hybrid-migration.summary-knowledge-check
 badge: 
