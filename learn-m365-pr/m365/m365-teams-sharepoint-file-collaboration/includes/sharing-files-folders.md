@@ -12,11 +12,11 @@ An **Anyone** link is a transferrable, revocable secret key. It's transferrable 
 
 ## People in your organization links
 
-**People in your organization** links work only for people inside your Office 365 organization. (They do not work for guests in the directory, only members).
+**People in your organization** links work only for people inside your organization. (They do not work for guests in the directory, only members).
 
 ![People in your organization link diagram](../media/people-org-link.png)
 
-Like an *Anyone* link, a **People in my organization** link is a transferrable, revocable secret key. Unlike an **Anyone** link, these links only work for people inside your Office 365 organization. When somebody opens a **People in my organization** link, they need to be authenticated as a member in your directory. If they're not currently signed in, they'll be prompted to do so.
+Like an *Anyone* link, a **People in my organization** link is a transferrable, revocable secret key. Unlike an **Anyone** link, these links only work for people inside your organization. When somebody opens a **People in my organization** link, they need to be authenticated as a member in your directory. If they're not currently signed in, they'll be prompted to do so.
 
 **People in your organization** links work for anyone in your organization, so users can share files and folders with people who aren't part of a team or members of a site. The link gives them access to the specific file or folder and it can be passed around inside the organization. This allows for easy collaboration with stakeholders from groups that may have separate teams or sites—such as design, marketing, and support groups.
 

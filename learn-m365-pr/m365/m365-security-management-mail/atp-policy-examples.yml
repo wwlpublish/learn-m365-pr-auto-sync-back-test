@@ -3,7 +3,7 @@ uid: learn-m365.m365-security-management-mail.atp-policy-examples
 title: Example - anti-phishing policy to protect a user and a domain
 metadata:
   title: Example - anti-phishing policy to protect a user and a domain
-  description: Review a case study where a security administrator uses Office 365 ATP policies to protect their users and domain.
+  description: Review a case study where a security administrator uses ATP policies to protect their users and domain.
   ms.date: 10/14/2019
   author: AlexandraHrt
   ms.author: v-aleha

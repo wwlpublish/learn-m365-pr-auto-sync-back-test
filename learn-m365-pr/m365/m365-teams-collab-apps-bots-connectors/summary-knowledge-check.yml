@@ -51,7 +51,7 @@ quiz:
       - content: "Bots, messaging extensions, tabs, and connectors."
         isCorrect: true
         explanation: "An app package includes bots, messaging extensions, tabs, and connectors."
-      - content: "Windows 10 and Office 365 ProPlus"
+      - content: "Windows 10 and Microsoft 365 Apps"
         isCorrect: false
         explanation: "An app package includes bots, messaging extensions, tabs, and connectors."
       

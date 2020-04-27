@@ -12,7 +12,7 @@ title: Manage and troubleshoot common issues with Office in Windows
 summary: Learn how to manage and troubleshoot common issues with Office in Windows.
 abstract: |
   In this module, you will learn:
-   - How to define update management options and how they work across Office 365 ProPlus and Office 2019 editions. 
+   - How to define update management options and how they work across Microsoft 365 Apps and Office 2019. 
    - How to add apps, languages, or configurations to existing Office installations using a method called “second install.”
    - How to troubleshoot and manage common issues with software updates, activation, and potentially corrupted or misconfigured installations.
 prerequisites: | 

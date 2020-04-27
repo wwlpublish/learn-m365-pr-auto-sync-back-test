@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="101px" height="101px" viewBox="0 0 101 101" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>NA/Introduction-to-customizing-and-extending-Microsoft-SharePoint</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="94.3396226" height="94.3396226" rx="47.1698113"></rect>
+        <filter x="-2.9%" y="-2.9%" width="106.4%" height="106.4%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="2.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0.5" dy="0.5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0.5" dy="0.5" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.821822822   0 0 0 0 0.831640661   0 0 0 0 0.835737288  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="2.35050413%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#036C70" offset="0%"></stop>
+            <stop stop-color="#0E4F51" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="77.8299825%" y1="11.1997378%" x2="-99.6885927%" y2="253.807911%" id="linearGradient-5">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-6" x="0" y="0" width="94.3396226" height="94.3396226"></rect>
+        <path d="M47.1698113,0 C73.2209788,0 94.3396226,21.1186439 94.3396226,47.1698113 C94.3396226,73.2209788 73.2209788,94.3396226 47.1698113,94.3396226 C21.1186439,94.3396226 0,73.2209788 0,47.1698113 C0,21.1186439 21.1186439,0 47.1698113,0 Z M47.1698113,3.77358491 C23.2027373,3.77358491 3.77358491,23.2027373 3.77358491,47.1698113 C3.77358491,71.1368854 23.2027373,90.5660377 47.1698113,90.5660377 C71.1368854,90.5660377 90.5660377,71.1368854 90.5660377,47.1698113 C90.5660377,23.2027373 71.1368854,3.77358491 47.1698113,3.77358491 Z" id="path-7"></path>
+        <linearGradient x1="50%" y1="-51.7884113%" x2="26.3472761%" y2="-69.393302%" id="linearGradient-9">
+            <stop stop-color="#036C70" offset="0%"></stop>
+            <stop stop-color="#5A9B9D" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="-52.329119%" x2="26.3472761%" y2="-70.0275282%" id="linearGradient-10">
+            <stop stop-color="#036C70" offset="0%"></stop>
+            <stop stop-color="#5A9B9D" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-34.9%" y="-34.9%" width="169.7%" height="169.7%" filterUnits="objectBoundingBox" id="filter-11">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Badges" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="N/A-7" transform="translate(-160.000000, -320.000000)">
+            <g id="NA/Introduction-to-customizing-and-extending-Microsoft-SharePoint" transform="translate(160.000000, 320.000000)">
+                <g id="Badge-Plates/Circle">
+                    <g id="BG" transform="translate(2.830189, 2.830189)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                            <rect stroke="#F2F1F0" stroke-width="2.5" x="-1.25" y="-1.25" width="96.8396226" height="96.8396226" rx="48.4198113"></rect>
+                        </g>
+                        <g id="Colors/Sharepoint/BG-Solid-1" mask="url(#mask-2)">
+                            <rect id="Rectangle" fill="url(#linearGradient-4)" x="0" y="0" width="94.3396226" height="94.3396226"></rect>
+                            <g id="Rectangle">
+                                <use fill="#036C70" xlink:href="#path-6"></use>
+                                <use fill-opacity="0.4" fill="url(#linearGradient-5)" xlink:href="#path-6"></use>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Border" transform="translate(2.830189, 2.830189)">
+                        <mask id="mask-8" fill="white">
+                            <use xlink:href="#path-7"></use>
+                        </mask>
+                        <use id="Boarder" fill="#0078D4" fill-rule="nonzero" xlink:href="#path-7"></use>
+                        <g id="Colors/Sharepoint/Border" mask="url(#mask-8)" fill="#036C70">
+                            <rect id="Rectangle" x="0" y="0" width="94.3396226" height="94.3396226"></rect>
+                        </g>
+                    </g>
+                </g>
+                <g id="Group-2" transform="translate(18.000000, 18.000000)">
+                    <polygon id="Path-38" fill="url(#linearGradient-9)" points="32.3494763 0 22.1764706 9.94117647 42.8235294 9.94117647"></polygon>
+                    <polygon id="Path-38" fill="url(#linearGradient-9)" transform="translate(32.500000, 59.264706) rotate(-180.000000) translate(-32.500000, -59.264706) " points="32.3494763 54.2941176 22.1764706 64.2352941 42.8235294 64.2352941"></polygon>
+                    <polygon id="Path-38" fill="url(#linearGradient-10)" transform="translate(58.500000, 32.117647) rotate(-270.000000) translate(-58.500000, -32.117647) " points="58.3383264 26.7647059 47.4117647 37.4705882 69.5882353 37.4705882"></polygon>
+                    <polygon id="Path-38" fill="url(#linearGradient-10)" transform="translate(5.735294, 32.117647) rotate(-90.000000) translate(-5.735294, -32.117647) " points="5.57362049 26.7647059 -5.35294118 37.4705882 16.8235294 37.4705882"></polygon>
+                    <g id="Sharepoint_32x" filter="url(#filter-11)" transform="translate(16.823529, 15.294118)">
+                        <circle id="Oval" fill="#036C70" fill-rule="nonzero" cx="15.4136029" cy="9.76194853" r="9.76194853"></circle>
+                        <circle id="Oval" fill="#1A9BA1" fill-rule="nonzero" cx="24.5281801" cy="18.3730147" r="8.35417279"></circle>
+                        <circle id="Oval" fill="#37C6D0" fill-rule="nonzero" cx="16.4411765" cy="26.203125" r="6.67922794"></circle>
+                        <path d="M17.1296507,7.19301471 L5.99075368,7.19301471 C5.76744873,8.03112713 5.65347037,8.89459956 5.65165441,9.76194853 C5.65165441,15.1533238 10.0222276,19.5238971 15.4136029,19.5238971 C15.694256,19.539513 15.9755602,19.539513 16.2562132,19.5238971 L16.2562132,19.5238971 C12.6398065,19.6240819 9.76056109,22.5853311 9.76194853,26.203125 C9.76194853,26.3778125 9.76194853,26.5422243 9.76194853,26.7169504 L17.1090993,26.7169504 C17.4742918,26.7196473 17.8256125,26.5771933 18.0857697,26.3208902 C18.345927,26.0645872 18.4936084,25.7154316 18.4963235,25.350239 L18.4963235,8.5596875 C18.4907288,7.80722456 17.8821137,7.19860946 17.1296507,7.19301471 Z" id="Path" fill="#000000" fill-rule="nonzero" opacity="0.1"></path>
+                        <path d="M16.1020772,8.22058824 L5.82634191,8.22058824 C5.72639549,8.72878538 5.66797349,9.24427362 5.65165441,9.76194853 C5.65165441,15.1533238 10.0222276,19.5238971 15.4136029,19.5238971 C15.694256,19.539513 15.9755602,19.539513 16.2562132,19.5238971 L16.2562132,19.5238971 C12.6398065,19.6240819 9.76056109,22.5853311 9.76194853,26.203125 C9.76183739,26.721857 9.82043955,27.2389349 9.93663603,27.7444853 L16.1020772,27.7444853 C16.8545401,27.7388905 17.4631552,27.1302754 17.46875,26.3778125 L17.46875,9.58726103 C17.4631552,8.83479809 16.8545401,8.22618299 16.1020772,8.22058824 Z" id="Path" fill="#000000" fill-rule="nonzero" opacity="0.2"></path>
+                        <path d="M16.1020772,8.22058824 L5.82634191,8.22058824 C5.72639549,8.72878538 5.66797349,9.24427362 5.65165441,9.76194853 C5.65165441,15.1533238 10.0222276,19.5238971 15.4136029,19.5238971 C15.694256,19.539513 15.9755602,19.539513 16.2562132,19.5238971 L16.2562132,19.5238971 C12.8343209,19.6139048 10.0343542,22.2763137 9.77222426,25.6893382 L16.0918015,25.6893382 C16.8482742,25.6893382 17.4631047,25.0791171 17.46875,24.3226654 L17.46875,9.58726103 C17.4631552,8.83479809 16.8545401,8.22618299 16.1020772,8.22058824 Z" id="Path" fill="#000000" fill-rule="nonzero" opacity="0.2"></path>
+                        <path d="M15.0745037,8.22058824 L5.82634191,8.22058824 C5.72639549,8.72878538 5.66797349,9.24427362 5.65165441,9.76194853 C5.65165441,15.1533238 10.0222276,19.5238971 15.4136029,19.5238971 C15.694256,19.539513 15.9755602,19.539513 16.2562132,19.5238971 L16.2562132,19.5238971 C12.8343209,19.6139048 10.0343542,22.2763137 9.77222426,25.6893382 L15.0642279,25.6893382 C15.8207007,25.6893382 16.4355312,25.0791171 16.4411765,24.3226654 L16.4411765,9.58726103 C16.4355817,8.83479809 15.8269666,8.22618299 15.0745037,8.22058824 Z" id="Path" fill="#000000" fill-rule="nonzero" opacity="0.2"></path>
+                        <rect id="Back_Plate" fill="#038387" fill-rule="nonzero" x="0" y="8.22058824" width="16.4411765" height="16.4411765" rx="1.33"></rect>
+                        <path d="M6.16544118,16.3384191 C5.80871468,16.0994432 5.51022197,15.7833921 5.29200368,15.4136029 C5.0785253,15.0235489 4.97216177,14.583913 4.98373162,14.1394118 C4.96244857,13.5403585 5.16378604,12.9546495 5.54889706,12.4952941 C5.94916569,12.0166263 6.47625785,11.6604829 7.06970588,11.4677206 C7.73360407,11.253547 8.42727053,11.1460287 9.12485294,11.1491728 C10.0476341,11.1187293 10.9687706,11.2473408 11.8479228,11.529375 L11.8479228,13.4612132 C11.4684854,13.2245377 11.0514856,13.0542628 10.6148346,12.9577022 C10.1669625,12.8535143 9.70791136,12.8051931 9.24816176,12.8138419 C8.7372333,12.7951742 8.22942317,12.900968 7.76845588,13.122114 C7.42141223,13.287146 7.19545477,13.6320285 7.18273897,14.0161029 C7.18007543,14.2492055 7.26856974,14.4741286 7.42935662,14.6429228 C7.6208259,14.8431294 7.84716056,15.0067868 8.09727941,15.1258824 C8.37472426,15.2697426 8.79602941,15.4547059 9.35091912,15.6807721 L9.53588235,15.7527022 C10.0847881,15.9671621 10.6142277,16.2284439 11.1183456,16.5336581 C11.5035677,16.7698738 11.8274975,17.0938036 12.0637132,17.4790257 C12.2795229,17.9224697 12.3718164,18.415885 12.3308824,18.9073529 C12.3529385,19.5234678 12.1644769,20.1287196 11.7965441,20.6234007 C11.4242009,21.0748472 10.9275785,21.4071198 10.3682169,21.5790441 C9.70346808,21.7874482 9.00963426,21.8880541 8.31306985,21.8770404 C7.69661331,21.8798001 7.08111303,21.8282219 6.47371324,21.7229044 C5.95815839,21.6395997 5.45446875,21.4947027 4.97345588,21.2913235 L4.97345588,19.2361765 C5.43212676,19.560563 5.9430479,19.8038588 6.48398897,19.9554779 C7.04581017,20.1352145 7.6308205,20.2321393 8.22058824,20.2431985 C8.74382987,20.2781919 9.26656823,20.1679546 9.73112132,19.9246507 C10.0535396,19.7385505 10.2500896,19.3926225 10.2449081,19.020386 C10.24787,18.7580617 10.1440042,18.5058162 9.9571875,18.321636 C9.72967325,18.0970808 9.46557951,17.9129102 9.17623162,17.7770221 C8.83713235,17.6126103 8.34389706,17.3865441 7.69652574,17.119375 C7.16134032,16.9108948 6.6484122,16.649267 6.16544118,16.3384191 L6.16544118,16.3384191 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+                        <rect id="Rectangle" x="0" y="0" width="32.8823529" height="32.8823529"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

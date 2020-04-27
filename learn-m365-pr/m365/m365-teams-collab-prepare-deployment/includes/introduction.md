@@ -1,4 +1,4 @@
-Microsoft Teams is your hub for teamwork in Microsoft 365. Teams is a chat-based workspace that brings together chat, meetings, calling, and Office 365, all-in-one. And it’s built on the trust of Microsoft security and compliance that’s crucial for today’s businesses.  
+Microsoft Teams is your hub for teamwork in Microsoft 365. Teams is a chat-based workspace that brings together chat, meetings, calling, and Microsoft 365, all-in-one. And it’s built on the trust of Microsoft security and compliance that’s crucial for today’s businesses.  
 
 ![Teams is a teamwork hub](../media/intro.png)
 
@@ -10,14 +10,14 @@ Teams meets the communication needs of a diverse workforce by providing a comple
 
 ## Collaborate
 
-When it comes to collaboration, the deep integration of Teams with Office 365 enables today’s multigenerational workforce to use the Office apps they are familiar with—Word, Excel, PowerPoint, OneNote, SharePoint, Planner, even Power BI—right within the context of Teams. Teams brings all the Office 365 services together so that you can easily share and co-author files.
+When it comes to collaboration, the deep integration of Teams with Microsoft 365 enables today’s multigenerational workforce to use the Office apps they are familiar with—Word, Excel, PowerPoint, OneNote, SharePoint, Planner, even Power BI—right within the context of Teams. Teams brings all the services together so that you can easily share and co-author files.
 
 ![Collaboration apps](../media/intro-collaborate.png)
 
 ## Customize
  
-With Teams, you no longer need to jump between Office 365 apps and services. Because Teams is the hub for all the services and tools your teams use on a day-to-day basis, you can customize Teams with tabs, connectors, and bots to include the apps and services you need, including common third-party apps. Teams is an extensible platform that enables you to build apps and integrate with business processes. 
+With Teams, you no longer need to jump between Microsoft 365 apps and services. Because Teams is the hub for all the services and tools your teams use on a day-to-day basis, you can customize Teams with tabs, connectors, and bots to include the apps and services you need, including common third-party apps. Teams is an extensible platform that enables you to build apps and integrate with business processes. 
 
 ## Work with confidence
 
-Microsoft Teams comes with the enterprise-grade security, compliance, and manageability that you expect from Office 365.  
+Microsoft Teams comes with the enterprise-grade security, compliance, and manageability that you expect from Microsoft 365.  

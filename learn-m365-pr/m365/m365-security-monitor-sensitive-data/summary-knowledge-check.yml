@@ -19,10 +19,10 @@ quiz:
       choices:
       - content: "Microsoft Secure Score"
         isCorrect: false
-        explanation: "In the Microsoft 365 Security Center, you can view your organization’s security health in the Secure Score report."
-      - content: "DLP Policy matches from Office 365 DLP Policies"
+        explanation: "In the Microsoft 365 security center, you can view your organization’s security health in the Secure Score report."
+      - content: "DLP Policy matches from DLP Policies"
         isCorrect: false
-        explanation: "Microsoft 365 Security Center provides reporting of DLP policy matches from existing Office 365 DLP policies."
+        explanation: "Microsoft 365 Security Center provides reporting of DLP policy matches from existing DLP policies."
       - content: "Azure Information Protection (AIP) analytics"
         isCorrect: true
         explanation: "AIP analytics offers central reporting to help track label adoption."
@@ -40,7 +40,7 @@ quiz:
         explanation: "Microsoft Secure Score helps generate visibility, controls, and guidance that administrators need to drive maximum security posture improvements."
       - content: "Data loss prevention false positives report"
         isCorrect: false
-        explanation: "Although the Microsoft 365 security center provides reporting on DLP false positives and overrides of the Office 365 DLP Polices, these do not address unclassified documents."
+        explanation: "Although the Microsoft 365 security center provides reporting on DLP false positives and overrides of the DLP Polices, these do not address unclassified documents."
       - content: "Microsoft 365 compliance center"
         isCorrect: false
         explanation: "Microsoft 365 compliance center is a specialized workspace for managing compliance, privacy, and risk management."

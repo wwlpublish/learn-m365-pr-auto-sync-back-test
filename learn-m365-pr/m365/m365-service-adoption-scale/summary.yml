@@ -96,7 +96,7 @@ quiz:
       - content: "False"
         isCorrect: true
         explanation: "Correct - it is important to track who has completed the training."
-    - content: "Who do you need to work with to see Office 365 usage information for your tenant?"
+    - content: "Who do you need to work with to see Microsoft 365 usage information for your tenant?"
       choices:
       - content: "No one. This is available to everyone."
         isCorrect: false
@@ -110,7 +110,7 @@ quiz:
       - content: "You have to get this from Microsoft directly."
         isCorrect: false
         explanation: "No, you need to work with your IT Partner to deploy services and get access."
-    - content: "The Office 365 Content pack provides you with which of the following?"
+    - content: "The Microsoft 365 Content pack provides you with which of the following?"
       choices:
       - content: "Usage and adoption data by region and workload."
         isCorrect: true
@@ -118,20 +118,20 @@ quiz:
       - content: "Access to individual employee-specific daily behavior."
         isCorrect: false
         explanation: "No, the content pack provides usage and adoption data."
-      - content: "Service cost information for Office 365."
+      - content: "Service cost information for Microsoft 365."
         isCorrect: false
         explanation: "No, the content pack provides usage and adoption data."
       - content: "None of the above."
         isCorrect: false
         explanation: "No, the content pack provides usage and adoption data."
-    - content: "True or false: The Office 365 Adoption Content pack is a paid service that you add on to your Office 365 account."
+    - content: "True or false: The Adoption Content pack is a paid service that you add on to your Microsoft 365 account."
       choices:
       - content: "True"
         isCorrect: false
-        explanation: "No, the Office 365 Adoption Content pack is available free of charge."
+        explanation: "No, the Adoption Content pack is available free of charge."
       - content: "False"
         isCorrect: true
-        explanation: "Correct, the Office 365 Adoption Content pack is available free of charge."
+        explanation: "Correct, the Adoption Content pack is available free of charge."
     - content: "True or false: Usage data helps you adjust your awareness and training campaigns to help people understand the capabilities that they have available to them."
       choices:
       - content: "True"

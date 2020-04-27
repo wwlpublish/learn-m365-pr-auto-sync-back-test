@@ -1,6 +1,6 @@
 >![Pillars of container and content governance](../media/governance.png)
 
-There are four strategic pillars to content and container governance in Office 365 that directly affect the experience in Microsoft Teams, SharePoint, and other services that rely on Office 365 Groups for membership management. They are your desire to:
+There are four strategic pillars to content and container governance in Microsoft 365 that directly affect the experience in Microsoft Teams, SharePoint, and other services that rely on Microsoft 365 groups for membership management. They are your desire to:
 - Fundamentally empower employees
 - Identify valuable content
 - Protect your corporate assets
@@ -26,7 +26,7 @@ The best use case for Teams includes integrating other apps into the experience.
 The Teams meeting experience supports video chatting and brings your employees together to be more effective. Consult with your technical team to make sure that your environment is ready to include simple VoIP meetings. Enabling audio conferencing or voice services would normally be excluded from this phase of your experimentation; however, that depends on your core project team, your technical readiness, and the state of other voice/meeting services in your organization. We recommend including video chats and VoIP meetings in your experimentation to gain more value from your Teams implementation.
 
 **Decision 6: Data security**
-In preparation for your broad deployment, you may opt to use security labels to classify the types of teams in your environment. For the purposes of this experiment, we recommend that you follow the guidance in [Plan for Governance in Teams](https://docs.microsoft.com/MicrosoftTeams/plan-teams-governance) and ensure that there's a basic retention policy set on Teams data in your Office 365 organization. You may need to coordinate this work with your technical team because Office 365 administrator rights are required to complete this work.
+In preparation for your broad deployment, you may opt to use security labels to classify the types of teams in your environment. For the purposes of this experiment, we recommend that you follow the guidance in [Plan for Governance in Teams](https://docs.microsoft.com/MicrosoftTeams/plan-teams-governance) and ensure that there's a basic retention policy set on Teams data in your organization. You may need to coordinate this work with your technical team because administrator rights are required to complete this work.
 
 **Decision 7: Length of your experiment**
 A successful Teams implementation proceeds at a healthy pace to ensure appropriate momentum, focus, and learnings. We recommend that you run the Experiment phase of your project for 60 days to ensure that your early adopters complete enough business cycles. Extending experimentation for too long increases the risk that your change program will fail. The correct duration varies for every organization.

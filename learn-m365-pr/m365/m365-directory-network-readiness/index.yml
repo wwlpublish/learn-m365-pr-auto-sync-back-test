@@ -9,10 +9,10 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Analyze your directory and network readiness for Microsoft 365
-summary: When it comes to preparing your network for a deployment, you need to take into consideration any and all components that have an impact on bandwidth. In this module, we’ll explore the tools and options for preparing your directory services and network for deployment to Windows 10 and Office 365 ProPlus.
+summary: When it comes to preparing your network for a deployment, you need to take into consideration any and all components that have an impact on bandwidth. In this module, we’ll explore the tools and options for preparing your directory services and network for deployment to Windows 10 and Microsoft 365 Apps.
 abstract: |
   At the end of this module, you should be able to:
-  - Describe the directory and network bandwidth requirements for deploying Office 365 ProPlus 
+  - Describe the directory and network bandwidth requirements for deploying Microsoft 365 Apps 
   - Explain the role of Azure Active Directory in Microsoft 365
 prerequisites: None
 iconUrl: /learn/achievements/get-modern-directory-and-network-readiness.svg

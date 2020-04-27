@@ -13,7 +13,7 @@ summary: Learn the steps to optimize Windows Virtual Desktop, including how to c
 abstract: |
   At the end of this module, you should be able to:
   - Set up FSLogix profiles to separate user profiles from virtual machines 
-  - Configure OneDrive in Office 365 with policies in Windows Virtual Desktop host pools 
+  - Configure OneDrive with policies in Windows Virtual Desktop host pools 
   - Migrate files from local file shares into Azure storage using Azure File Sync 
   - Configure depth and breadth scaling automation for Windows Virtual Desktop host pools   
 prerequisites: None

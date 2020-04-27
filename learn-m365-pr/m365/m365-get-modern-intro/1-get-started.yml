@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.get-modern-intro.1-get-started-w10-o365pp
+title: Get started with Windows 10 and Microsoft 365 Apps
+metadata:
+  title: Get started with Windows 10 and Microsoft 365 Apps
+  description:  Learn about ...
+  ms.date: 04/28/2019
+  author: AlexandraHrt
+  ms.author: aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/1-get-started-w10-o365pp.md)]

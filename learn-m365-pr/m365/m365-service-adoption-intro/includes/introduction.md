@@ -54,4 +54,4 @@ This training is designed as a standalone experience. There are additional readi
 - [Coffee in the Cloud](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg) YouTube channel with long & short form videos for Champions and IT Pros
 - [Case Study: User adoption at Best Buy - "Best Buy Ninjas"](https://channel9.msdn.com/Events/SharePoint-Conference/2014/SPC296) (Video presentation from SharePoint Conference, 1:13 duration)
 
-Join the community of [Office 365 Champions and Adoption Specialists](https://aka.ms/O365Champions) to share your experience and learn from others who are driving adoption of cloud services.
+Join the community of [Champions and Adoption Specialists](https://aka.ms/O365Champions) to share your experience and learn from others who are driving adoption of cloud services.

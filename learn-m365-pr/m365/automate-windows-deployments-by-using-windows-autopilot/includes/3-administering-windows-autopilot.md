@@ -66,5 +66,5 @@ Autopilot supports multiple ways of delivering applications to users and devices
 
 - **Windows (Win32) Apps** - Typical Win32 apps that are deployed through Intune and packaged using the Win32 Content Prep Tool.
 
-- **Office 365 Suite Apps** - All of the apps that are included in the O365 suite including Word, Excel, PowerPoint, OneDrive, Access, Outlook, Publisher, Skype for Business, Teams, Project, and Visio.
+- **Microsoft 365 Apps** - All of the apps that are included in the Office suite including Word, Excel, PowerPoint, OneDrive, Access, Outlook, Publisher, Skype for Business, Teams, Project, and Visio.
 

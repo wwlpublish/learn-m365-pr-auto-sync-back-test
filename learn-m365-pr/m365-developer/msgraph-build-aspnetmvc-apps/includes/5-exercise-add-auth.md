@@ -237,7 +237,7 @@ namespace graph_tutorial.Helpers
 {
     public static class GraphHelper
     {
-        public static async Task<User> GetUserDetailsAsync(string accessToken)
+        public static async Task<CachedUser> GetUserDetailsAsync(string accessToken)
         {
             var graphClient = new GraphServiceClient(
                 new DelegateAuthenticationProvider(
@@ -247,7 +247,21 @@ namespace graph_tutorial.Helpers
                             new AuthenticationHeaderValue("Bearer", accessToken);
                     }));
 
-            return await graphClient.Me.Request().GetAsync();
+            var user = await graphClient.Me.Request()
+                .Select(u => new {
+                    u.DisplayName,
+                    u.Mail,
+                    u.UserPrincipalName
+                })
+                .GetAsync();
+
+            return new CachedUser
+            {
+                Avatar = string.Empty,
+                DisplayName = user.DisplayName,
+                Email = string.IsNullOrEmpty(user.Mail) ?
+                    user.UserPrincipalName : user.Mail
+            };
         }
     }
 }
@@ -273,11 +287,8 @@ try
 
     var userDetails = await GraphHelper.GetUserDetailsAsync(result.AccessToken);
 
-    string email = string.IsNullOrEmpty(userDetails.Mail) ?
-        userDetails.UserPrincipalName : userDetails.Mail;
-
     message = "User info retrieved.";
-    debug = $"User: {userDetails.DisplayName}, Email: {email}";
+    debug = $"User: {userDetails.DisplayName}, Email: {userDetails.Email}";
 }
 ```
 
@@ -443,6 +454,8 @@ Replace the existing `OnAuthorizationCodeReceivedAsync` function with the follow
 ```cs
 private async Task OnAuthorizationCodeReceivedAsync(AuthorizationCodeReceivedNotification notification)
 {
+    notification.HandleCodeRedemption();
+
     var idClient = ConfidentialClientApplicationBuilder.Create(appId)
         .WithRedirectUri(redirectUri)
         .WithClientSecret(appSecret)
@@ -460,15 +473,8 @@ private async Task OnAuthorizationCodeReceivedAsync(AuthorizationCodeReceivedNot
 
         var userDetails = await GraphHelper.GetUserDetailsAsync(result.AccessToken);
 
-        var cachedUser = new CachedUser()
-        {
-            DisplayName = userDetails.DisplayName,
-            Email = string.IsNullOrEmpty(userDetails.Mail) ?
-            userDetails.UserPrincipalName : userDetails.Mail,
-            Avatar = string.Empty
-        };
-
-        tokenStore.SaveUserDetails(cachedUser);
+        tokenStore.SaveUserDetails(userDetails);
+        notification.HandleCodeRedemption(null, result.IdToken);
     }
     catch (MsalException ex)
     {

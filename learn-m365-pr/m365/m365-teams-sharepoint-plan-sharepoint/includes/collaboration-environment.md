@@ -14,7 +14,7 @@ By using a combination of Microsoft 365 services alongside SharePoint—dependin
 
 ## Enable self-service
 
-While you can choose an IT-focused model where users must request sites and provide a business justification, we recommend allowing users to create Microsoft Teams, Office 365 Groups, and SharePoint sites as needed. You can use Data Loss Prevention and Cloud App Security to help protect your content while using expiration and renewal policies to make sure unused sites don't accumulate.
+While you can choose an IT-focused model where users must request sites and provide a business justification, we recommend allowing users to create Microsoft Teams, Microsoft 365 Groups, and SharePoint sites as needed. You can use Data Loss Prevention and Cloud App Security to help protect your content while using expiration and renewal policies to make sure unused sites don't accumulate.
 
 By choosing options that favor user self-service, you can minimize the impact on your IT staff while creating an easier experience for your users.
 

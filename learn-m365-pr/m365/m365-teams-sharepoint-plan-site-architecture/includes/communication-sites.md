@@ -14,7 +14,7 @@ Each news article and page can have its own set of comments. You can use the Yam
 
 ## Site pages
 
-When you create a page on a communication site, you can embed documents and video, and dynamically pull in real-time data from across Office 365, including documents from SharePoint, Power BI reports, Microsoft Stream videos, and Yammer discussions.
+When you create a page on a communication site, you can embed documents and video, and dynamically pull in real-time data from across Microsoft 365, including documents from SharePoint, Power BI reports, Microsoft Stream videos, and Yammer discussions.
 
 ## Site access
 

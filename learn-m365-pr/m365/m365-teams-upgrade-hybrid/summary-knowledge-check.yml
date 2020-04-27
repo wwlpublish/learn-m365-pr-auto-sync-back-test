@@ -19,13 +19,13 @@ quiz:
       choices:
       - content: "The existing Skype for Business license is sufficient for both on-premises and online."
         isCorrect: false
-        explanation: "Depending on their needs, users must be assigned a Skype for Business Online license and/or Teams and Office 365 licenses."
-      - content: "A Skype for Business Online license and possibly a Teams and Office 365 license."
+        explanation: "Depending on their needs, users must be assigned a Skype for Business Online license and/or Teams and Microsoft 365 licenses."
+      - content: "A Skype for Business Online license and possibly a Teams and Microsoft 365 license."
         isCorrect: true
-        explanation: "Depending on their needs, users must be assigned a Skype for Business Online license and/or Teams and Office 365 licenses."
+        explanation: "Depending on their needs, users must be assigned a Skype for Business Online license and/or Teams and Microsoft 365 licenses."
       - content: "A Skype for Business Online license"
         isCorrect: false
-        explanation: "Depending on their needs, users must be assigned a Skype for Business Online license and/or Teams and Office 365 licenses."
+        explanation: "Depending on their needs, users must be assigned a Skype for Business Online license and/or Teams and Microsoft 365 licenses."
     - content: "Which types of multi-forest hybrid scenarios does Microsoft support?"
       choices:
       - content: "Resource forest topology"
