@@ -1,0 +1,66 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-azure-migrate-introduction.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Discover how Azure Migrate helps you realize the benefits of moving your on-premises VMware or Hyper-V server workloads to Azure infrastructure as a service (IaaS). Learn the process for migrating your workload agent-less, all within the hub.  
+  ms.date: 04/23/2020
+  author: ericweisberg
+  ms.author: v-erwe
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Which one of the following is NOT an option for migrating VMware to Azure?"
+      choices:
+      - content: "Azure VMware Solution"
+        isCorrect: false
+        explanation: "Azure VMware Solution is an option for migrating VMware to Azure."
+      - content: "Azure Site Recovery"
+        isCorrect: true
+        explanation: "Azure Site Recovery is a disaster recovery service, and is not an option for migrating VMware to Azure."
+      - content: "Azure Migrate"
+        isCorrect: false
+        explanation: "Azure Migrate is an option for migrating VMware to Azure."
+
+    - content: "True or False: Azure Migrate supports only Microsoft tools for assessment and migration."
+      choices:
+      - content: "True"
+        isCorrect: false
+        explanation: "Azure Migrate also integrates with partner tools for assessment and migration."
+      - content: "False"
+        isCorrect: true
+        explanation: "Azure Migrate also integrates with partner tools for assessment and migration."
+      
+    - content: "The Azure Hybrid Benefit allows organizations to apply their Windows Server licenses to virtual machine infrastructure in Azure, and can save you up to:"
+      choices:
+      - content: "15%"
+        isCorrect: false
+        explanation: "By using the Azure Hybrid Benefit for Windows Server, you can use your existing Windows Server licenses in Azure and lower your virtual machine infrastructure costs by up to 49%."
+      - content: "37%"
+        isCorrect: false
+        explanation: "By using the Azure Hybrid Benefit for Windows Server, you can use your existing Windows Server licenses in Azure and lower your virtual machine infrastructure costs by up to 49%."
+      - content: "49%"
+        isCorrect: true
+        explanation: "By using the Azure Hybrid Benefit for Windows Server, you can use your existing Windows Server licenses in Azure and lower your virtual machine infrastructure costs by up to 49%."
+      - content: "71%"
+        isCorrect: false
+        explanation: "By using the Azure Hybrid Benefit for Windows Server, you can use your existing Windows Server licenses in Azure and lower your virtual machine infrastructure costs by up to 49%."
+
+    - content: "The Azure Migrate process has seven steps. What is the first step?"
+      choices:
+      - content: "Review the assessment from Azure Migrate along with dependencies, while scoping the target migration."
+        isCorrect: false
+        explanation: "Setting up prerequisites and ensuring both environments have the right permissions is the needed first step."
+      - content: "Set up prerequisites and ensure both environments have the right permissions needed."
+        isCorrect: true
+        explanation: "Setting up prerequisites and ensuring both environments have the right permissions is the needed first step."
+      - content: "Replicate virtual machines from VMware into Azure storage."
+        isCorrect: false
+        explanation: "Setting up prerequisites and ensuring both environments have the right permissions is the needed first step."
+
+      
