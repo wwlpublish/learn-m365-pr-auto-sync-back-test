@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.office-add-ins-word.2-text-styles-selections
+metadata:
+  title: Work with text, formatting, selections, and ranges in Word documents
+  description: The Word JavaScript API facilitates programmatic control over text, formatting, selections, and ranges in Word documents. In this unit, you'll learn how to work with text, paragraphs, apply styles and formatting to text, and how to work with selections and ranges of text from a custom Word add-in.
+  ms.date: 03/31/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Work with text, formatting, selections, and ranges in Word documents
+durationInMinutes: 14
+content: |
+  [!include[](includes/2-text-styles-selections.md)]

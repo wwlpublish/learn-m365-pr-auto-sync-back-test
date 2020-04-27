@@ -1,0 +1,48 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.office-add-ins-outlook.3-exercise-mail-basics
+metadata:
+  title: Exercise - Mail add-in basics
+  description: In this exercise, you'll learn how to create your first Outlook add-in project and load it in the Outlook client.
+  ms.date: 04/07/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Mail add-in basics
+durationInMinutes: 7
+content: |
+  [!include[](includes/3-exercise-mail-basics.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "What are the following types of mail add-ins supported in Outlook?"
+    choices:
+    - content: "Add-in commands and actions"
+      isCorrect: false
+      explanation: "While a valid add-in type, all of the other types are also valid."
+    - content: "Module extension add-ins"
+      isCorrect: false
+      explanation: "While a valid add-in type, all of the other types are also valid."
+    - content: "Contextual add-ins"
+      isCorrect: false
+      explanation: "While a valid add-in type, all of the other types are also valid."
+    - content: "Message compose add-ins"
+      isCorrect: false
+      explanation: "While a valid add-in type, all of the other types are also valid."
+    - content: "On send add-ins"
+      isCorrect: false
+      explanation: "While a valid add-in type, all of the other types are also valid."
+    - content: "All the above"
+      isCorrect: true
+      explanation: "Correct!"
+  - content: "The two primary options for creating new add-in projects are which of the following?"
+    choices:
+    - content: "Visual Studio and Office Yeoman Generator"
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Visual Studio and an Office CLI Project Creator"
+      isCorrect: false
+      explanation: "The Office CLI Project Creator doesn't exist."
+    - content: "Visual Studio and a downloadable starter project for Node.js based projects"
+      isCorrect: false
+      explanation: "While there may be many starter projects available, it isn't one of the project creation options provided by Microsoft."

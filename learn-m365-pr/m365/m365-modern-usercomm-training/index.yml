@@ -1,15 +1,15 @@
 ### YamlMime:Module
 uid: learn-m365.modern-usercomm-training
 metadata:
-  title: Train users on the new Windows and Office 365 ProPlus features
-  description: Learn how to inform your end users about new experiences, features, and functionalities within Windows 10 and Office 365 ProPlus.
+  title: Train users on the new Windows and Microsoft 365 Apps features
+  description: Learn how to inform your end users about new experiences, features, and functionalities within Windows 10 and Microsoft 365 Apps.
   ms.date: 06/17/2019
   author: AlexandraHrt
   ms.author: aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Train users on the new Windows and Office 365 ProPlus features
-summary: To ensure your workforce remains productive and secure, they need to be informed about new experiences, features, and functionalities within Windows 10 and Office 365 ProPlus.
+title: Train users on the new Windows and Microsoft 365 Apps features
+summary: To ensure your workforce remains productive and secure, they need to be informed about new experiences, features, and functionalities within Windows 10 and Microsoft 365 Apps.
 abstract: |
   At the end of this module, you should be able to:
   - Explain the importance of preparing end users for the transition to Microsoft 365

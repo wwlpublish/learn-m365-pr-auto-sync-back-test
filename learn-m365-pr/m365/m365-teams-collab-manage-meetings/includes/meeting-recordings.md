@@ -2,7 +2,7 @@ In Microsoft Teams, users can record their Teams meetings and group calls to cap
 
 For a Teams user’s meetings to be recorded, Microsoft Stream must be enabled. In addition, there are several licensing, permissions, and other setting prerequisites that are required for both the meeting organizer and the person who is initiating the recording:
 
-- User has an appropriate Office 365 license.
+- User has an appropriate license.
 - User needs to be licensed for Microsoft Stream.
 - User has Microsoft Stream upload video permissions.
 - User has consented to the company guidelines, if set up by the administrator.

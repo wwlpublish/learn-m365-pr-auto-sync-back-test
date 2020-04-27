@@ -3,11 +3,11 @@
 
 ![step-5-icon](../media/step-5-icon.png)
 
-Let's look at new capabilities you can take advantage of with Windows 10, Office 365 ProPlus, and cloud-based options from Enterprise Mobility + Security and beyond.
+Let's look at new capabilities you can take advantage of with Windows 10, Microsoft 365 Apps, and cloud-based options from Enterprise Mobility + Security and beyond.
 
 ## Identity and access management
 
-Azure Active Directory (Azure AD) is the identity control plane for apps, devices, and cloud services while connecting to Office 365 and other cloud services. Conditional access lets you define different authentication requirements based on where your user is logging in from and which device they’re using, as well as responses to anomalous behaviors.
+Azure Active Directory (Azure AD) is the identity control plane for apps, devices, and cloud services while connecting to cloud services. Conditional access lets you define different authentication requirements based on where your user is logging in from and which device they’re using, as well as responses to anomalous behaviors.
 
 At the device level, you can use biometrics as unique identifiers for simpler and more secure access to devices and apps, moving toward the goal of eliminating passwords. Windows Hello offers device-based, multi-factor authentication that relies on the device itself, your PIN, or a unique biometric identifier like a face or fingerprint that can be enforced via policy.
 
@@ -21,7 +21,7 @@ Cloud services provide another layer of optional protection to improve Windows a
 
 Along with the Microsoft Intelligent Security Graph, you have faster access to both information and protections from emerging threats. Here are a few examples of security enhancements you can take advantage of:
 
-- **Data Loss Prevention,** built into Office 365 ProPlus, helps inform users of security policies when high risk content like credit card or identification numbers are detected. Policies can inform or block sending and sharing after notifying users.
+- **Data Loss Prevention,** built into Microsoft 365 Apps, helps inform users of security policies when high risk content like credit card or identification numbers are detected. Policies can inform or block sending and sharing after notifying users.
 
 - **Azure Information Protection** is a complementary service that can be used with Office, allowing users to easily classify and label their Office files. It can trigger automatic action on labeled files, such as encryption or locking down sharing.
 
@@ -29,7 +29,7 @@ Along with the Microsoft Intelligent Security Graph, you have faster access to b
 
 - **Safe Attachments** in Outlook and as part of Exchange Online goes beyond email filtering to inspect attachments. If a high-risk attachment is identified, Safe Attachments will inform the user of known malicious attachments and remove them from email.
 
-- **Office 365 Message Encryption (OME)** safeguards sent email and attachments, ensuring only intended recipients can view email content. OME works seamlessly with Google, Yahoo, and Microsoft consumer account authentication,and one-time passcodes allow users of other email services to securely receive email as well.
+- **Message Encryption (OME)** safeguards sent email and attachments, ensuring only intended recipients can view email content. OME works seamlessly with Google, Yahoo, and Microsoft consumer account authentication,and one-time passcodes allow users of other email services to securely receive email as well.
 
 - **Windows Defender Application Control** in Windows 10 operates from an approved allow and deny list of applications that Microsoft has checked for safety. It is managed by endpoint protection policies using Microsoft Intune.
 
@@ -39,6 +39,6 @@ Along with the Microsoft Intelligent Security Graph, you have faster access to b
 
 ## Microsoft Intune
 
-[Microsoft Intune](https://docs.microsoft.com/intune/introduction-intune) serves as a cloud-based management service for mobile scenarios, including iOS, Android, and Windows devices. You can configure Intune for co-management to complement and extend controls for specific workloads managed by Microsoft Endpoint Configuration Manager. You can require devices that access protected resources to enroll in device management, even non-managed, non-domain-joined, or non-Azure AD-joined devices. You can also take advantage of granular configuration and compliance policy enforcement at the operating system and application level. Finally, you can configure application policies and settings centrally and enforced them for Office 365 ProPlus and store apps in Windows 10 using Microsoft Intune.
+[Microsoft Intune](https://docs.microsoft.com/intune/introduction-intune) serves as a cloud-based management service for mobile scenarios, including iOS, Android, and Windows devices. You can configure Intune for co-management to complement and extend controls for specific workloads managed by Microsoft Endpoint Configuration Manager. You can require devices that access protected resources to enroll in device management, even non-managed, non-domain-joined, or non-Azure AD-joined devices. You can also take advantage of granular configuration and compliance policy enforcement at the operating system and application level. Finally, you can configure application policies and settings centrally and enforce them for Microsoft 365 Apps and store apps in Windows 10 using Microsoft Intune.
 
 ![step-5-1](../media/step-5-1.png)

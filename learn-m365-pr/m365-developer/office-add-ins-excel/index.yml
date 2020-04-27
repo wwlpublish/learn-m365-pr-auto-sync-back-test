@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn-m365.office-add-ins-excel
+metadata:
+  title: Build Office add-ins for Excel
+  description: This module walks through development of Office add-ins for Microsoft Excel.
+  ms.date: 04/07/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Build Office add-ins for Excel
+summary: Microsoft Office clients enable developers to create add-ins that extend Microsoft Excel with custom functionality. Through a JavaScript API, developers can manipulate the content in an Excel workbook from an app running in the task pane. In this module, you'll learn how to build an Excel add-in that inserts (and replaces) text ranges, tables, charts, and dialogs.
+abstract: |
+  By the end of this module, you will be able to:
+  - Create a Excel add-in that uses the Excel JavaScript API to manipulate a workbook
+  - Demonstrate how to add and edit content in a Excel document
+  - Explain how to deploy and host a custom add-in for Microsoft Excel
+prerequisites: |
+  - Experience using Microsoft Excel
+  - Experience developing web applications
+  - Experience developing web applications with JavaScript and TypeScript
+  - Experience using Visual Studio Code at the intermediate level
+iconUrl: /learn/achievements/office-add-ins-excel.svg
+levels:
+  - intermediate
+roles:
+  - developer
+products:
+  - m365
+  - office-add-ins
+units:
+  - learn-m365.office-add-ins-excel.1-introduction
+  - learn-m365.office-add-ins-excel.2-tables-headers-charts
+  - learn-m365.office-add-ins-excel.3-exercise-tables-charts
+  - learn-m365.office-add-ins-excel.4-worksheets-commands
+  - learn-m365.office-add-ins-excel.5-exercise-worksheets-commands
+  - learn-m365.office-add-ins-excel.6-dialogs
+  - learn-m365.office-add-ins-excel.7-exercise-dialogs
+  - learn-m365.office-add-ins-excel.8-summary
+badge:
+  uid: learn-m365.office-add-ins-excel.badge

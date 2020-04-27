@@ -23,7 +23,8 @@ Add the following code to the `GraphHelper` class.
 private static string appId = ConfigurationManager.AppSettings["ida:AppId"];
 private static string appSecret = ConfigurationManager.AppSettings["ida:AppSecret"];
 private static string redirectUri = ConfigurationManager.AppSettings["ida:RedirectUri"];
-private static string graphScopes = ConfigurationManager.AppSettings["ida:AppScopes"];
+private static string List<string> graphScopes =
+    new List<string>(ConfigurationManager.AppSettings["ida:AppScopes"].Split(' '));
 
 public static async Task<IEnumerable<Event>> GetEventsAsync()
 {
@@ -55,8 +56,7 @@ private static GraphServiceClient GetAuthenticatedClient()
 
                 // By calling this here, the token can be refreshed
                 // if it's expired right before the Graph call is made
-                var scopes = graphScopes.Split(' ');
-                var result = await idClient.AcquireTokenSilent(scopes, accounts.FirstOrDefault())
+                var result = await idClient.AcquireTokenSilent(graphScopes, accounts.FirstOrDefault())
                     .ExecuteAsync();
 
                 requestMessage.Headers.Authorization =

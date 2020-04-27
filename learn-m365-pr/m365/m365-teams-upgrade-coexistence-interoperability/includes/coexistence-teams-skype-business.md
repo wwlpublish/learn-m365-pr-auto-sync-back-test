@@ -4,7 +4,7 @@ Review the following coexistence modes to help determine which path is right for
 
 ## Islands mode  
 
-By default, users can run Teams alongside Skype for Business as two separate solutions that deliver similar and overlapping capabilities such as presence, chat, calling, and meetings. Teams users also can take advantage of new collaboration capabilities such as teams and channels, access to files in Office 365, and applications.
+By default, users can run Teams alongside Skype for Business as two separate solutions that deliver similar and overlapping capabilities such as presence, chat, calling, and meetings. Teams users also can take advantage of new collaboration capabilities such as teams and channels, access to files in Microsoft 365, and applications.
 
 In this coexistence mode, called Islands mode, each of the client applications operates as a separate island. Skype for Business talks to Skype for Business, and Teams talks to Teams. Users are expected to run both clients at all times and can communicate natively in the client from which the communication was initiated. As such, there’s no need for interoperability in Islands mode.
 
@@ -31,7 +31,7 @@ As soon as your organization is ready for some or all users to use Teams as thei
 
 ## Skype for Business with Teams Collaboration mode
 
-Use this mode to introduce Teams in your environment while you continue to take advantage of your existing investment in Skype for Business. In this mode, you leave Skype for Business unchanged for chat, calling, and meeting capabilities, and you add Teams collaboration capabilities—teams and channels, access to files in Office 365, and applications. Teams communications capabilities—private chat, calling, and scheduling meetings—are off by default in this mode.
+Use this mode to introduce Teams in your environment while you continue to take advantage of your existing investment in Skype for Business. In this mode, you leave Skype for Business unchanged for chat, calling, and meeting capabilities, and you add Teams collaboration capabilities—teams and channels, access to files in Microsoft 365, and applications. Teams communications capabilities—private chat, calling, and scheduling meetings—are off by default in this mode.
 
 Organizations with a starting point of Skype for Business Server on premises or hybrid should consider this mode as an alternative to Islands mode if they want to give users interoperability and predictability for their communications, as well as having a predictable timeline for their upgrade to Teams (as opposed to relying on adoption saturation in Islands mode).
 

@@ -26,7 +26,7 @@ Before you can set up Audio Conferencing for Teams, consider the following quest
 
 - Do my users have the proper licensing for Teams Audio Conferencing?
 
-  Audio Conferencing licenses are available as part of an Office 365 E5 subscription or as an add-on service for an Office 365 Business Premium, E1, or E3 subscription.
+  Audio Conferencing licenses are available as part of an Office 365 E5 subscription or as an add-on service for a Microsoft 365 Business Standard, Office 365 E1, or Office 365 E3 subscription.
 
 - Do I need to purchase Communications Credits for the users who are assigned Audio Conferencing licenses?
 
@@ -52,7 +52,7 @@ In addition to the core deployment decisions, it’s important to also consider 
 | Setting | Considerations |
 |---|---|
 | Outbound calling restriction policies |As an administrator, you can use outbound call controls to restrict the type of Audio Conferencing and end-user PSTN calls that are made by users in your organization. |
-| Dial plans | A dial plan, as part of Phone System in Office 365, is a set of normalization rules that translate dialed phone numbers into an alternate format (typically E.164 format) for call authorization and call routing. |
+| Dial plans | A dial plan, as part of Phone System in Microsoft 365, is a set of normalization rules that translate dialed phone numbers into an alternate format (typically E.164 format) for call authorization and call routing. |
 | Monitor and troubleshoot meeting and call quality | Teams gives you two ways to monitor and troubleshoot call quality problems:  **Call Analytics** and **Call Quality Dashboard.** Both tools are described in the unit **Monitor call quality.**|
 
 ## Learn more

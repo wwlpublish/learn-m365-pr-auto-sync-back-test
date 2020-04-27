@@ -8,7 +8,7 @@ At the foundation, Click-to-Run packages use XML files to configure install-time
 
 The setup.exe in the Office Deployment Tool allows you to:
 
-- **Download** Office installation files for Office 365 and Office 2019 desktop apps for Windows. The configuration XML details what tool to use to download the files and where to save those files. Here’s the syntax:
+- **Download** Office installation files for Microsoft 365 and Office 2019 desktop apps for Windows. The configuration XML details what tool to use to download the files and where to save those files. Here’s the syntax:
 
     `setup.exe /download [Path]\download.xml`
 

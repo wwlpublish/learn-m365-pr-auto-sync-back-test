@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.move-to-modern-desktop-m365.4-windows-10-updates
+title: How updates work for Windows 10
+metadata:
+  title: How updates work for Windows 10
+  description: "Learn about Windows as a service, the modern desktop update method for Windows 10."
+  ms.date: 04/24/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/4-windows-10-updates.md)]

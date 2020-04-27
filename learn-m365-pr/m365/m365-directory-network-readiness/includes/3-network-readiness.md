@@ -8,7 +8,7 @@ When it comes to preparing your network for a deployment, you need to take into 
 
 Other components can also impact your network bandwidth, including the initial installation of Office apps and any language support for deployments (of Office or Windows) that use multiple languages.  
 
-**Software updates.** Windows 10 and Office 365 ProPlus use a new servicing model delivering monthly and semi-annual updates. The new servicing model includes feature updates for Windows twice a year, Office semi-annual channel updates, and monthly Windows and Office quality updates.
+**Software updates.** Windows 10 and Microsoft 365 Apps use a new servicing model delivering monthly and semi-annual updates. The new servicing model includes feature updates for Windows twice a year, Office semi-annual channel updates, and monthly Windows and Office quality updates.
 
 Feature updates are typically 2 – 4GB in size, while Office semi-annual channel updates are 300 – 400 MB per update. Monthly quality updates can range from a few hundred megabytes to over a gigabyte because monthly updates are cumulative - these increase in size over the servicing lifetime for each Windows 10 version. Microsoft offers tools to help reduce the amount of data that must pass over the network to implement updates.
 

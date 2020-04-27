@@ -5,7 +5,7 @@ All Click-to-Run packages of Office share the same post-deployment servicing app
 - Monthly channel
 - Semi-annual channel
 
-The monthly channel with Office 365 editions includes new features, bug fixes, and most importantly, security fixes. The semi-annual channel releases continue to receive regular security and bug fixes between semi-annual releases.
+The monthly channel with Microsoft 365 editions includes new features, bug fixes, and most importantly, security fixes. The semi-annual channel releases continue to receive regular security and bug fixes between semi-annual releases.
 
 Office 2019 editions resemble the semi-annual channel monthly servicing for security and bug fixes, but Office 2019 editions don’t get new features in any monthly fixes.
 

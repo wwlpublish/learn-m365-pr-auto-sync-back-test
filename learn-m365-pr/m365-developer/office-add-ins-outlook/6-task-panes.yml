@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.office-add-ins-outlook.6-task-panes
+metadata:
+  title: Task panes and persisting settings
+  description: In this unit, you'll learn how you can use task panes in Outlook add-ins and how to store user settings for use across devices.
+  ms.date: 04/07/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Task panes and persisting settings
+durationInMinutes: 7
+content: |
+  [!include[](includes/6-task-panes.md)]
+

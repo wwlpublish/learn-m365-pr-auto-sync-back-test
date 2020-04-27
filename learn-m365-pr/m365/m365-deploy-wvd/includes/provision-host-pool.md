@@ -36,7 +36,6 @@ There's a Resource Manager template in the Azure marketplace that helps you buil
    - One of your own images stored in Azure blob storage. Enter the **imageURI**, which is the fully qualified path to the image and the VHD filename.  
    - A **managed image** that you’ve customized and defined as managed. Enter the image name and the resource group. 
    - A **gallery** image, one of the pre-configured images from Microsoft. There are several images available for Windows Virtual Desktop. For example:
-      - Windows 10 Enterprise multi-session with Office 365 ProPlus
       - Windows 10 Enterprise multi-session
       - Windows 10 Enterprise
       - Windows Server 2016 

@@ -47,9 +47,9 @@ These two resources expose data in the following ways:
 
 ### Accessing a user's OneDrive
 
-Access the currently signed in user's OneDrive using the https://graph.microsoft.com/v1.0/me/drive endpoint. This endpoint will return details about the user's OneDrive including the date it was created, last modified, quota information and what type of OneDrive it is: OneDrive for Business (`business`) or OneDrive Consumer (`personal`).
+Access the currently signed in user's OneDrive using the `https://graph.microsoft.com/v1.0/me/drive` endpoint. This endpoint will return details about the user's OneDrive including the date it was created, last modified, quota information and what type of OneDrive it is: OneDrive for Business (`business`) or OneDrive Consumer (`personal`).
 
-To view the contents of the user's OneDrive, use the https://graph.microsoft.com/v1.0/me/drive/root endpoint. This endpoint will return the root folder of the OneDrive account and include a `folder` property that contains the number of folders and files at the root of the OneDrive account. To view the contents of the folder, use the `/children` endpoint. You can also access a specific folder.
+To view the contents of the user's OneDrive, use the `https://graph.microsoft.com/v1.0/me/drive/root` endpoint. This endpoint will return the root folder of the OneDrive account and include a `folder` property that contains the number of folders and files at the root of the OneDrive account. To view the contents of the folder, use the `/children` endpoint. You can also access a specific folder.
 
 Developers can use one of the many Microsoft Graph SDKs to access a user's OneDrive account.
 

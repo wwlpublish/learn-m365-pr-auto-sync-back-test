@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.move-to-modern-desktop-m365.1-introduction
+title: Introduction
+metadata:
+  title: Introduction
+  description: "Learn how WIndows 10 and Office 365 ProPlus together create a modern desktop."
+  ms.date: 04/24/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/1-introduction.md)]

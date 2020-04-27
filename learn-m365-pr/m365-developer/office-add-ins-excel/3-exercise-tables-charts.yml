@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.office-add-ins-excel.3-exercise-tables-charts
+metadata:
+  title: Exercise - Work with tables and charts in Excel Add-ins
+  description: In this exercise, you'll learn how to work with tables and charts using the Office.js Excel JavaScript API. After creating a table, you'll learn how you can apply sorting and filtering actions on the data within the table. You'll also learn how to create and edit charts in the workbook using from your custom Excel add-in.
+  ms.date: 04/07/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Work with tables and charts in Excel Add-ins
+durationInMinutes: 17
+content: |
+  [!include[](includes/3-exercise-tables-charts.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "How do you obtain an instance of the current Excel context from the Excel JavaScript API?"
+    choices:
+    - content: "Call the `Excel.run((context) => {..})` method that will return the current Excel context."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "You can obtain a reference to the Excel context using the `this.context.current` API."
+      isCorrect: false
+      explanation: "`this.context` isn't valid in the Excel JavaScript API."
+    - content: "Use the `Excel.getContext()` API to obtain an instance of the current Excel context."
+      isCorrect: false
+      explanation: "The `Excel` object doesn't contain a `getContext()` method in the Excel JavaScript API."
+  - content: "How can an add-in detect the version of the Excel JavaScript API supported in the current component?"
+    choices:
+    - content: "Microsoft Excel is always using the latest Excel JavaScript API version available, so there's no need to check."
+      isCorrect: false
+      explanation: "Desktop installable versions of Excel don't automatically use the latest version of the Excel JavaScript API."
+    - content: "Use the `Office.context.requirements.isSetSupported('ExcelApi','#.#')` method."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Use the `Office.context.getCurrentVersion('ExcelApi')` method."
+      isCorrect: false
+      explanation: "The `getCurrentVersion()` method doesn't exist. Use the `Office.context.requirements.isSetSupported('ExcelApi','#.#')` method to determine the current version."

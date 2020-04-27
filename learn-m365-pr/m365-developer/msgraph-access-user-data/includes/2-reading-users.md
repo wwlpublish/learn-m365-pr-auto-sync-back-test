@@ -54,7 +54,7 @@ Let's explore the Microsoft Graph user resource endpoint.
 
 There are two ways you can access users through Microsoft Graph.
 
-Access the signed-in user through the "me" alias at https://graph.microsoft.com/v1.0/me. This alias maps to the same endpoint as `/users/{signed-in user's id}`.
+Access the signed-in user through the "me" alias at `https://graph.microsoft.com/v1.0/me`. This alias maps to the same endpoint as `/users/{signed-in user's id}`.
 
 To access a specific user, use either their ID or their `userPrincipalName`. For example:
 

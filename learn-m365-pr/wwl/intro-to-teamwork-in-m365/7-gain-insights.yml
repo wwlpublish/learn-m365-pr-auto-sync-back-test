@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teamwork-in-m365.7-gain-insights
+title: Gain insights into working habits
+metadata:
+  title: Gain insights into working habits
+  description: "Learn how to use analytics solutions in Microsoft 365 to manage your time."
+  ms.date: 04/24/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/7-gain-insights.md)]

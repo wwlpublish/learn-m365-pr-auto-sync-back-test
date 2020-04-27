@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="107px" height="107px" viewBox="0 0 107 107" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Upgrade to Microsoft Teams/Understand-hybrid-connectivity</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="100" height="100" rx="50"></rect>
+        <filter x="-10.2%" y="-8.2%" width="120.3%" height="116.4%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-4" x="-3" y="-3" width="106" height="106" rx="53"></rect>
+        <filter x="-0.5%" y="-0.5%" width="101.9%" height="101.9%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="4" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="1" dy="1" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Badges" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Upgrade-to-Microsoft-Teams" transform="translate(-47.000000, -1057.000000)">
+            <g id="Upgrade-to-Microsoft-Teams/Understand-hybrid-connectivity" transform="translate(50.000000, 1060.000000)">
+                <g id="Mask" transform="translate(2.000000, 2.000000)">
+                    <g id="Circle-" transform="translate(-2.000000, -0.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="BG"></g>
+                        <g id="Color/DE" mask="url(#mask-2)" fill="#DEDEDE" fill-rule="evenodd">
+                            <rect id="Rectangle" x="0" y="0" width="100" height="100"></rect>
+                        </g>
+                    </g>
+                    <g id="Group-2" filter="url(#filter-3)" transform="translate(18.000000, 19.000000)">
+                        <circle id="Oval" fill="#4B53BC" cx="29" cy="13" r="6"></circle>
+                        <circle id="Oval" fill="#4B53BC" cx="29" cy="48" r="6"></circle>
+                        <path d="M29.8000428,37.8911307 C32.2689773,37.8911307 34.5869384,38.6562327 36.5096639,40.108584 C37.1745171,40.60963 38.1376187,40.5080653 38.6659795,39.88176 C39.1942667,39.262232 39.0900482,38.3515733 38.4287922,37.8539333 C35.992242,36.0122667 32.9266821,35 29.8001256,35 C22.1921164,35 16,40.8331 16,48 C16,55.1669 22.1921164,61 29.8001256,61 C32.9266821,61 35.992242,59.9877333 38.4287922,58.1494467 C39.0900482,57.6484093 39.1942667,56.7411133 38.6659795,56.1181533 C38.1376923,55.4986253 37.1709659,55.3970607 36.5096639,55.894718 C34.5870304,57.343698 32.2689773,58.1121713 29.8000428,58.1121713 C23.884665,58.1121713 19.0690651,53.5756913 19.0690651,47.9999047 C19.0690651,42.424118 23.884757,37.8911047 29.8000428,37.8911047" id="Fill-2" stroke="#4B53BC" stroke-width="2" fill="#4B53BC"></path>
+                        <path d="M32.8000428,2.89113067 C35.2689773,2.89113067 37.5869384,3.65623267 39.5096639,5.108584 C40.1745171,5.60963 41.1376187,5.50806533 41.6659795,4.88176 C42.1942667,4.262232 42.0900482,3.35157333 41.4287922,2.85393333 C38.992242,1.01226667 35.9266821,0 32.8001256,0 C25.1921164,0 19,5.8331 19,13 C19,20.1669 25.1921164,26 32.8001256,26 C35.9266821,26 38.992242,24.9877333 41.4287922,23.1494467 C42.0900482,22.6484093 42.1942667,21.7411133 41.6659795,21.1181533 C41.1376923,20.4986253 40.1709659,20.3970607 39.5096639,20.894718 C37.5870304,22.343698 35.2689773,23.1121713 32.8000428,23.1121713 C26.884665,23.1121713 22.0690651,18.5756913 22.0690651,12.9999047 C22.0690651,7.424118 26.884757,2.89110467 32.8000428,2.89110467" id="Fill-2" stroke="#4B53BC" stroke-width="2" fill="#4B53BC" transform="translate(30.501312, 13.000000) scale(-1, -1) translate(-30.501312, -13.000000) "></path>
+                        <path d="M42.0792832,12.737793 L49.7436523,12.737793 C54.7142151,12.737793 58.7436523,16.7672302 58.7436523,21.737793 L58.7436523,39.737793 C58.7436523,44.7083557 54.7142151,48.737793 49.7436523,48.737793 L39,48.737793 L39,48.737793" id="Path-287" stroke="#4B53BC" stroke-width="4" stroke-linecap="round"></path>
+                        <path d="M2.05180493,12.737793 L9.66436919,12.737793 C14.6349319,12.737793 18.6643692,16.7672302 18.6643692,21.737793 L18.6643692,39.737793 C18.6643692,44.7083557 14.6349319,48.737793 9.66436919,48.737793 L0.920716844,48.737793 L0.920716844,48.737793" id="Path-287" stroke="#4B53BC" stroke-width="4" stroke-linecap="round" transform="translate(9.332185, 30.737793) scale(-1, 1) translate(-9.332185, -30.737793) "></path>
+                    </g>
+                </g>
+                <g id="Teams-Border">
+                    <g id="Azure-Border">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                        <rect stroke="#F2F1F0" stroke-width="4" stroke-linejoin="square" x="-1" y="-1" width="102" height="102" rx="51"></rect>
+                    </g>
+                    <rect id="Azure-Border" stroke="#4B53BC" stroke-width="4" x="2" y="2" width="96" height="96" rx="48"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
