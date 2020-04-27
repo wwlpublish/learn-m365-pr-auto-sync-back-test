@@ -1,4 +1,6 @@
 Considering moving your on-premises VMware or Hyper-V server workloads to Azure infrastructure as a service (IaaS)? Azure Migrate guides you in discovering and assessing your Windows and Linux VMs, exposes app dependencies, makes virtual machine sizing recommendations, and migrates your workloads at scale. Unlike previous versions of Azure Migrate or Azure Site Recovery, the process now allows for discovery, assessment, and migration to happen agent-less all within the hub. 
+>
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4sQOB]
 
 > [!NOTE]
 > **Azure Hybrid Benefit and Extended Security Updates**
