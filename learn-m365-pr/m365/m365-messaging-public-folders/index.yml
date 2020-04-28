@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn-m365.m365-messaging-public-folders
+metadata:
+  title: Manage public folders
+  description: Learn how you can continue to use public folders while your company implements a hybrid environment with Microsoft 365. In a hybrid environment, you need to make choices about where these folders should reside.  
+  ms.date: 04/23/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage public folders
+summary: Learn how you can continue to use public folders while your company implements a hybrid environment with Microsoft 365. In a hybrid environment, you need to make choices about where these folders should reside.   
+abstract: |
+  At the end of this module, you should be able to:
+  - Explain public folders.
+  - Explain mail-enabled public folders.
+  - Describe managing hold and discovery for public folders.
+  - Describe public folder migration to Microsoft 365.
+prerequisites: |
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+iconUrl: http://via.placeholder.com/120x120
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-365
+- office-exchange-server
+units:
+- learn-m365.m365-messaging-public-folders.introduction
+- learn-m365.m365-messaging-public-folders.move-content-between-mailboxes
+- learn-m365.m365-messaging-public-folders.create-additional-mailboxes
+- learn-m365.m365-messaging-public-folders.implement-top-level-hierarchy
+- learn-m365.m365-messaging-public-folders.implement-mail-enabled
+- learn-m365.m365-messaging-public-folders.plan-configure
+- learn-m365.m365-messaging-public-folders.manage-hold-discovery
+- learn-m365.m365-messaging-public-folders.plan-migration
+- learn-m365.m365-messaging-public-folders.summary-knowledge-check
+badge: 
+  uid: learn-m365.m365-messaging-public-folders.badge
