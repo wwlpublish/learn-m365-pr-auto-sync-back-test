@@ -1,0 +1,39 @@
+### YamlMime:Module
+uid: learn-m365.m365-messaging-migration
+metadata:
+  title: Plan and implement a mailbox migration
+  description: Learn about messaging migration methods and endpoints, and how to migrate from non-Microsoft systems. 
+  ms.date: 04/23/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Plan and implement a mailbox migration
+summary: Learn about messaging migration methods and endpoints, and how to migrate from non-Microsoft systems.  
+abstract: |
+  At the end of this module, you should be able to:
+  - Explain migration methods.
+  - Explain migration endpoints.
+  - Describe batching.
+  - Describe migration from non-Microsoft systems.
+prerequisites: |
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+iconUrl: http://via.placeholder.com/120x120
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-365
+- office-exchange-server
+units:
+- learn-m365.m365-messaging-migration.introduction
+- learn-m365.m365-messaging-migration.migration-methods
+- learn-m365.m365-messaging-migration.migration-endpoints
+- learn-m365.m365-messaging-migration.mailbox-migration-request-batches
+- learn-m365.m365-messaging-migration.non-microsoft-messaging-systems
+- learn-m365.m365-messaging-migration.troubleshoot-mailbox-migration
+- learn-m365.m365-messaging-migration.summary-knowledge-check
+badge: 
+  uid: learn-m365.m365-messaging-migration.badge
