@@ -4,9 +4,9 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Learn how to check your prerequisite configurations in Azure and in your VMware vSphere environment and then perform the initial steps in Azure Migrate to choose your assessment and migration tools. 
-  ms.date: 04/16/2020
-  author: AlexandraHrt
-  ms.author: v-aleha
+  ms.date: 04/28/2020
+  author: ericweisberg
+  ms.author: v-erwe
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 5
@@ -15,39 +15,33 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Question here"
+    - content: "Azure Migrate can be used to discover, assess, and migrate servers with each of the operating system platforms, EXCEPT. "
       choices:
-      - content: "Choice 1"
+      - content: "Windows"
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
+        explanation: "Windows server is supported for assessment, dependency mapping, replication, and migration."
+      - content: "Linux"
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+        explanation: "Linux server is supported for assessment, dependency mapping, replication, and migration."
+      - content: "Unix"
         isCorrect: true
-        explanation: "explanation"
+        explanation: "Only Windows and Linux servers are supported for assessment, dependency mapping, replication, and migration."
 
-    - content: "Question here"
+    - content: "True or False: You should pilot the Azure Migrate process with a single app and small set of virtual machines for your first end-to-end migration."
       choices:
-      - content: "Choice 1"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+      - content: "True"
         isCorrect: true
-        explanation: "explanation"
+        explanation: "You should pilot the Azure Migrate process with a single app and small set of virtual machines for your first end-to-end migration."
+      - content: "False"
+        isCorrect: false
+        explanation: "You should pilot the Azure Migrate process with a single app and small set of virtual machines for your first end-to-end migration."
       
-    - content: "Question here"
+    - content: "True or False: You can configure multiple tools for assessment and migration within a single migration project."
       choices:
-      - content: "Choice 1"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+      - content: "True"
         isCorrect: true
-        explanation: "explanation"
+        explanation: "You can configure multiple tools for assessment and migration within a single migration project."
+      - content: "False"
+        isCorrect: false
+        explanation: "You can configure multiple tools for assessment and migration within a single migration project."
       
