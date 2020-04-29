@@ -1,0 +1,29 @@
+### YamlMime:LearningPath
+uid: learn-m365.m365-messaging-hybrid-migration
+metadata:
+  title: Plan a Microsoft 365 messaging hybrid configuration and migration   
+  description: The Plan a Microsoft 365 messaging hybrid configuration and migration learning path helps you understand hybrid messaging environments, tools and migration types, and the use and management of public folders.
+  ms.date: 04/28/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Plan a Microsoft 365 messaging hybrid configuration and migration 
+summary: "The **Plan a Microsoft 365 messaging hybrid configuration and migration** learning path helps you understand hybrid messaging environments, tools and migration types, and the use and management of public folders."
+prerequisites: | 
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+iconUrl: http://via.placeholder.com/120x120
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-365
+- office-exchange-server
+modules:
+- learn-m365.m365-messaging-hybrid-environment
+- learn-m365.m365-messaging-migration
+- learn-m365.m365-messaging-public-folders
+trophy: 
+  uid: learn-m365.m365-messaging-hybrid-migration.trophy

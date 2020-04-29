@@ -1,5 +1,5 @@
 ### YamlMime:Module
-uid: learn-m365.m365-messaging-hybrid-migration
+uid: learn-m365.m365-messaging-hybrid-environment
 metadata:
   title: Plan and implement a hybrid environment
   description: Learn how to plan and implement hybrid messaging environments, the role of an Edge server, and the use of the Exchange Hybrid Agent. 
@@ -29,13 +29,13 @@ products:
 - office-365
 - office-exchange-server
 units:
-- learn-m365.m365-messaging-hybrid-migration.introduction
-- learn-m365.m365-messaging-hybrid-migration.configure-hybrid-access
-- learn-m365.m365-messaging-hybrid-migration.decide-classic-modern
-- learn-m365.m365-messaging-hybrid-migration.manage-edge-server-role
-- learn-m365.m365-messaging-hybrid-migration.organization-configuration-transfer
-- learn-m365.m365-messaging-hybrid-migration.hybrid-configuration-wizard
-- learn-m365.m365-messaging-hybrid-migration.deploy-hybrid-agent
-- learn-m365.m365-messaging-hybrid-migration.summary-knowledge-check
+- learn-m365.m365-messaging-hybrid-environment.introduction
+- learn-m365.m365-messaging-hybrid-environment.configure-hybrid-access
+- learn-m365.m365-messaging-hybrid-environment.decide-classic-modern
+- learn-m365.m365-messaging-hybrid-environment.manage-edge-server-role
+- learn-m365.m365-messaging-hybrid-environment.organization-configuration-transfer
+- learn-m365.m365-messaging-hybrid-environment.hybrid-configuration-wizard
+- learn-m365.m365-messaging-hybrid-environment.deploy-hybrid-agent
+- learn-m365.m365-messaging-hybrid-environment.summary-knowledge-check
 badge: 
-  uid: learn-m365.m365-messaging-hybrid-migration.badge
+  uid: learn-m365.m365-messaging-hybrid-environment.badge
