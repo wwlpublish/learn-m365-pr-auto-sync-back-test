@@ -30,7 +30,7 @@ Complete the following steps to proceed with the replication process.
 
    ![Screenshot 5](../media/screenshot-5.png)   
    
-   > [!NOTE] > For the OS Disk, typically SCSI Controller 0, ID 0 is the standard, but you can select different controllers and IDs as necessary.
+   > [!NOTE]  For the OS Disk, typically SCSI Controller 0, ID 0 is the standard, but you can select different controllers and IDs as necessary.
 
    Here you can also define availability sets already configured in the targeted resource group. Availability sets run two or more copies of virtual machines on separate virtual machine hosts in Azure to ensure 99.95% uptime.
 

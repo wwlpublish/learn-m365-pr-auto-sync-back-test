@@ -13,4 +13,4 @@ You can check the migration status as it validates the prerequisites, prepares f
 
 Once your resources are in Azure, you can take advantage of Cloud services such as Azure Security Center to secure your migrated workloads, securely back up your VMs and data with Azure Backup, and leverage Azure Monitor to collect, analyze, and act on telemetry data from your Azure and on-premises environments. 
 
-Of course, if you need more help you can contact the Azure Migration Program to get direct assistance from Microsoft and certified partners at www.azure.com/amp 
+Of course, if you need more help you can contact the [Azure Migration Program](https://azure.microsoft.com/en-us/migration/migration-program/) to get direct assistance from Microsoft and certified partners.
