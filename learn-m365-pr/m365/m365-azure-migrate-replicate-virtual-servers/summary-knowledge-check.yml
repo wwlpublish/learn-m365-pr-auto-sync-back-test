@@ -4,9 +4,9 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Learn the process for replicating, testing, and finally migrating your virtual machines into production. 
-  ms.date: 04/20/2020
-  author: AlexandraHrt
-  ms.author: v-aleha
+  ms.date: 04/30/2020
+  author: ericweisberg
+  ms.author: v-erwe
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 5
@@ -15,39 +15,42 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Question here"
+    - content: "You can replicate up to how many virtual machines per batch using the Azure Migrate: Server Migration tool?"
       choices:
-      - content: "Choice 1"
+      - content: "10"
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+        explanation: "You can replicate up to 100 virtual machines per batch using the Azure Migrate: Server Migration tool. To do more, we recommend you perform replication in multiple batches."
+      - content: "100"
         isCorrect: true
-        explanation: "explanation"
+        explanation: "You can replicate up to 100 virtual machines per batch using the Azure Migrate: Server Migration tool. To do more, we recommend you perform replication in multiple batches."
+      - content: "1000"
+        isCorrect: false
+        explanation: "You can replicate up to 100 virtual machines per batch using the Azure Migrate: Server Migration tool. To do more, we recommend you perform replication in multiple batches."
 
-    - content: "Question here"
+    - content: "The Azure Migrate: Server Migration tool performs which of the following steps EXCEPT? "
       choices:
-      - content: "Choice 1"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+      - content: "Virtual machine discovery"
         isCorrect: true
-        explanation: "explanation"
+        explanation: "The Azure Migrate: Server Migration tool performs virtual machine replication into Azure Storage, virtual machine testing, and virtual machine migration into production, but not virtual machine discovery."
+      - content: "Virtual machine replication into Azure Storage"
+        isCorrect: false
+        explanation: "The Azure Migrate: Server Migration tool performs virtual machine replication into Azure Storage, virtual machine testing, and virtual machine migration into production, but not virtual machine discovery."
+      - content: "Virtual machine testing"
+        isCorrect: false
+        explanation: "The Azure Migrate: Server Migration tool performs virtual machine replication into Azure Storage, virtual machine testing, and virtual machine migration into production, but not virtual machine discovery."
+      - content: "Virtual machine migration into production"
+        isCorrect: false
+        explanation: "The Azure Migrate: Server Migration tool performs virtual machine replication into Azure Storage, virtual machine testing, and virtual machine migration into production, but not virtual machine discovery."
       
-    - content: "Question here"
+    - content: "Which type of Virtual Network is recommended when testing your migration? "
       choices:
-      - content: "Choice 1"
+      - content: "An IPv4 network"
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+        explanation: "A non-production Virtual Network built for testing is recommended when testing your migration."
+      - content: "A non-production Virtual Network built for testing."
         isCorrect: true
-        explanation: "explanation"
+        explanation: "A non-production Virtual Network built for testing is recommended when testing your migration."
+      - content: "Azure ExpressRoute"
+        isCorrect: false
+        explanation: "A non-production Virtual Network built for testing is recommended when testing your migration."
       

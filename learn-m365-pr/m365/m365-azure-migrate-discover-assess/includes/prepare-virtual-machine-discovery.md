@@ -16,13 +16,13 @@ The Azure Migrate appliance is a complete, pre-configured Open Virtual Appliance
 
    Click **File> Deploy OVF> Template> Browse** to the OVA file that was just downloaded, and go through the normal virtual machine provisioning process, ensuring that it is on a network that can connect to your targeted virtual machines.
 
-   ![Screenshot 3](../media/screenshot-3.png)
+   ![Screenshot 7](../media/screenshot-7.png)
 
 2. Log into the Azure Migrate appliance running in the ESX environment. This is a Windows image, where you setup and conduct discovery of your on-premises environment. 
 
    Keep in mind that this is a **read-only inspection** of your VMs and corresponding metadata including performance history. There are no agents installed on your VM. When you first launch the Azure Migrate Appliance tool, you’ll be asked to go through three steps.
 
-   ![Screenshot 4](../media/screenshot-4.png)
+   ![Screenshot 8](../media/screenshot-8.png)
 
 - Step 1: Set up prerequisites
 
@@ -39,7 +39,7 @@ The Azure Migrate appliance is a complete, pre-configured Open Virtual Appliance
  
     Enter administrator credentials for the vCenter, including IP address, username, and password, and then validate the connection.
 
-   ![Screenshot 5](../media/screenshot-5.png)
+   ![Screenshot 9](../media/screenshot-9.png)
 
 - Step 4: Discover apps and dependencies 
 
