@@ -10,9 +10,9 @@ To start:
 1. Select your appliance name. If you have multiple appliances spread across host environments or network segments, you can multi-select the appliances and their corresponding data uploaded to Azure.
 1. Search for the servers to add to your group. 
 1. Select the servers you want to assess and later migrate.
-
->![Screenshot 7](../media/screenshot-7.png)
-
-8.	When finished, click **Create Assessment**.
+   
+   ![Screenshot 7](../media/screenshot-7.png)
+   
+1.	When finished, click **Create Assessment**.
 
 After validation, you will automatically be taken back to Azure Migrate where you can see that an additional Group and Assessment have been added to your assessment tile. 
