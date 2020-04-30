@@ -4,9 +4,9 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Explore the Azure Migrate tools for discovering and assessing your virtual machine servers. Learn how to install and configure a virtual machine appliance in your virtualization host infrastructure. 
-  ms.date: 04/17/2020
-  author: AlexandraHrt
-  ms.author: v-aleha
+  ms.date: 04/29/2020
+  author: ericweisberg
+  ms.author: v-erwe
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 5
@@ -15,39 +15,47 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Question here"
+    - content: "Azure Migrate can create app dependency views for your apps and servers. It works by discovering which of the following?"
       choices:
-      - content: "Choice 1"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+      - content: "TCP/IP traffic between virtual machines and their corresponding IP addresses."
         isCorrect: true
-        explanation: "explanation"
+        explanation: "Azure Migrate can create app dependency views for your apps and servers. It works by discovering TCP/IP traffic between virtual machines and their corresponding IP addresses."
+      - content: "Virtual machine metadata with enumerated list of server dependencies"
+        isCorrect: false
+        explanation: "Azure Migrate can create app dependency views for your apps and servers. It works by discovering TCP/IP traffic between virtual machines and their corresponding IP addresses."
+      - content: "Virtual machine registry keys and Windows Management Instrumentation (WMI) settings that confirm installed programs and connected services"
+        isCorrect: false
+        explanation: "Azure Migrate can create app dependency views for your apps and servers. It works by discovering TCP/IP traffic between virtual machines and their corresponding IP addresses."
 
-    - content: "Question here"
+    - content: "You’ll need to let the process run for how long to see complete performance metrics, but a basic assessment usually takes just a couple of minutes?"
       choices:
-      - content: "Choice 1"
+      - content: "60 seconds"
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
+        explanation: "You’ll need to let the process run for up to 24 hours to see complete performance metrics, but a basic assessment usually takes just a couple of minutes. "
+      - content: "60 minutes"
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+        explanation: "You’ll need to let the process run for up to 24 hours to see complete performance metrics, but a basic assessment usually takes just a couple of minutes. "
+      - content: "24 hours"
         isCorrect: true
-        explanation: "explanation"
-      
-    - content: "Question here"
+        explanation: "You’ll need to let the process run for up to 24 hours to see complete performance metrics, but a basic assessment usually takes just a couple of minutes. "
+      - content: "60 hours"
+        isCorrect: false
+        explanation: "You’ll need to let the process run for up to 24 hours to see complete performance metrics, but a basic assessment usually takes just a couple of minutes. "
+     
+    - content: "True or False: Providing VMware vSphere administrator credentials as part of the Azure Migrate Appliance configuration is a required step and allows you to see virtual machine dependencies."
       choices:
-      - content: "Choice 1"
+      - content: "True"
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+        explanation: "While you can opt-out, this step is recommended."
+      - content: "False"
         isCorrect: true
-        explanation: "explanation"
+        explanation: "While you can opt-out, this step is recommended."
       
+    - content: "True or False: An Azure Migrate assessment can be viewed either in Azure Migrate or exported as an Excel Spreadsheet."
+      choices:
+      - content: "True"
+        isCorrect: true
+        explanation: "You can view assessment results both online or in an Excel spreadsheet. This enables you to share results with your operations and finance teams."
+      - content: "False"
+        isCorrect: false
+        explanation: "You can view assessment results both online or in an Excel spreadsheet. This enables you to share results with your operations and finance teams."
