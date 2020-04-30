@@ -9,15 +9,13 @@ Here, you can see options for assessing and migrating servers, databases, web ap
 1. Give your **Migrate Project** a name.
 1. Choose your **Geography**. 
 1. Click **Next**.
->![Screenshot 4](../media/screen-shot-4.png)
-8. Under the **Select Migration Tool** tab, you’ll see a list of Microsoft partner   tools. There are several partner options that are especially useful if you have partners helping with your migration or have used one of these tools in the past.
-
->![Screenshot 5](../media/screen-shot-5.png)
-9. Select a migration tool. In this case, select **Azure Migrate: Server Migration**.
+   ![Screenshot 4](../media/screen-shot-4.png)
+1. Under the **Select Migration Tool** tab, you’ll see a list of Microsoft partner   tools. There are several partner options that are especially useful if you have partners helping with your migration or have used one of these tools in the past.
+   ![Screenshot 5](../media/screen-shot-5.png)
+1. Select a migration tool. In this case, select **Azure Migrate: Server Migration**.
 1. Click **Next** where you will see a summary of your selections to review.
 1. Click on **Add Tools** which adds the selected tools to your Azure Migrate project.
-
->![Screenshot 6](../media/screen-shot-6.png)
+   ![Screenshot 6](../media/screen-shot-6.png)
 
 You can select multiple tools in the assessment and migration phases within Azure Migrate. Each tool is set up one at a time. After the first tool is set up, you can add more tools later.
 Now your Azure Migrate project is set up and ready to receive assessment and discovery information from your virtual machine environment in VMware or Windows Server Hyper-V. In the next module, we will configure and run the discovery and assessment processes against a VMware vSphere environment. 
