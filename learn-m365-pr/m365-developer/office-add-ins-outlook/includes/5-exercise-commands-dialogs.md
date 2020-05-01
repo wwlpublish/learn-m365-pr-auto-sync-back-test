@@ -16,13 +16,7 @@ Open the **manifest.xml** file and locate the `ExtensionPoint` element with type
 
 ### Add the MessageComposeCommandSurface extension point
 
-Locate the line in the manifest that reads `</DesktopFormFactor>`. Immediately before this line, insert the following XML markup. Note the following about this markup:
-
-- The `ExtensionPoint` with `xsi:type="MessageComposeCommandSurface"` indicates that you're defining buttons to add to the compose message window.
-- By using an `OfficeTab` element with `id="TabDefault"`, you're indicating you want to add the buttons to the default tab on the ribbon.
-- The `Group` element defines the grouping for the new buttons, with a label set by the `groupLabel` resource.
-- The first `Control` element contains an `Action` element with `xsi:type="ShowTaskPane"`, so this button opens a task pane.
-- The second `Control` element contains an `Action` element with `xsi:type="ExecuteFunction"`, so this button invokes a JavaScript function contained in the function file.
+Locate the line in the manifest that reads `</DesktopFormFactor>`. Immediately before this line, insert the following XML markup:
 
 ```xml
 <!-- Message Compose -->
@@ -64,6 +58,14 @@ Locate the line in the manifest that reads `</DesktopFormFactor>`. Immediately b
   </OfficeTab>
 </ExtensionPoint>
 ```
+
+> [!NOTE]
+>
+> - The `ExtensionPoint` with `xsi:type="MessageComposeCommandSurface"` indicates that you're defining buttons to add to the compose message window.
+> - By using an `OfficeTab` element with `id="TabDefault"`, you're indicating you want to add the buttons to the default tab on the ribbon.
+> - The `Group` element defines the grouping for the new buttons, with a label set by the `groupLabel` resource.
+> - The first `Control` element contains an `Action` element with `xsi:type="ShowTaskPane"`, so this button opens a task pane.
+> - The second `Control` element contains an `Action` element with `xsi:type="ExecuteFunction"`, so this button invokes a JavaScript function contained in the function file.
 
 ### Update resources in the manifest
 
@@ -413,13 +415,13 @@ Finally, open the file **webpack.config.js** file in the root directory of the p
 1. If the web server is running, close the node command window.
 1. Run the following command to rebuild the project.
 
-    ```command&nbsp;line
+    ```bash
     npm run build
     ```
 
 1. Run the following command to start the web server.
 
-    ```command&nbsp;line
+    ```bash
     npm run dev-server
     ```
 
@@ -661,11 +663,7 @@ function setConfig(config, callback) {
 
 ### Create new functions to process gists
 
-Next, open the **./src/helpers/gist-api.js** file and add the following functions. Note the following points:
-
-- If the gist contains HTML, the add-in will insert the HTML as-is into the body of the message.
-- If the gist contains Markdown, the add-in will use the [Showdown](https://github.com/showdownjs/showdown) library to convert the Markdown to HTML, and will then insert the resulting HTML into the body of the message.
-- If the gist contains anything other than HTML or Markdown, the add-in will insert it into the body of the message as a code snippet.
+Next, open the **./src/helpers/gist-api.js** file and add the following functions:
 
 ```javascript
 function getGist(gistId, callback) {
@@ -714,6 +712,12 @@ function buildBodyContent(gist, callback) {
   callback(null, 'No suitable file found in the gist');
 }
 ```
+
+> [!NOTE]
+>
+> - If the gist contains HTML, the add-in will insert the HTML as-is into the body of the message.
+> - If the gist contains Markdown, the add-in will use the [Showdown](https://github.com/showdownjs/showdown) library to convert the Markdown to HTML, and will then insert the resulting HTML into the body of the message.
+> - If the gist contains anything other than HTML or Markdown, the add-in will insert it into the body of the message as a code snippet.
 
 ### Test the button
 
