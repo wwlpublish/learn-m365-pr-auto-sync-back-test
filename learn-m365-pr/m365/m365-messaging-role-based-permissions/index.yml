@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn-m365.m365-messaging-secure-environment
 metadata:
-  title: Manage role-based-permissions
+  title: Manage role-based-permissions in Microsoft 365 Messaging
   description: Learn about messaging role groups, admin roles, and role-based access control, as well as gain a better understanding of how you can use eDiscovery.  
   ms.date: 05/01/2020
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Manage role-based-permissions
+title: Manage role-based-permissions in Microsoft 365 Messaging
 summary: Learn about messaging role groups, admin roles, and role-based access control, as well as gain a better understanding of how you can use eDiscovery.  
 abstract: |
   At the end of this module, you should be able to:

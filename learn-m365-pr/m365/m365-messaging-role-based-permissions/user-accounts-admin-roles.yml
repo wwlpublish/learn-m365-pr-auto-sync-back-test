@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.m365-messaging-secure-environment.user-accounts-admin-roles
-title: Assign user accounts to admin roles 
+title: Assign user accounts to administrative roles 
 metadata:
-  title: Assign user accounts to admin roles  
+  title: Assign user accounts to administrative roles  
   description: Learn about messaging role groups, admin roles, and role-based access control, as well as gain a better understanding of how you can use eDiscovery. 
   ms.date: 05/01/2020
   author: AlexandraHrt
