@@ -20,7 +20,7 @@ Complete the following steps to proceed with the replication process.
    You can replicate up to 100 VMs simultaneously. To replicate more than 100, we recommend creating multiple batches.
 
 
-1. In **Target settings**, choose the **subscription, region,** and **resource group** where your VMs will reside after migration.
+1. In **Target settings**, choose the **subscription**, **region,** and **resource group** where your VMs will reside after migration.
 
    ![Screenshot 4](../media/screenshot-4.png)
 

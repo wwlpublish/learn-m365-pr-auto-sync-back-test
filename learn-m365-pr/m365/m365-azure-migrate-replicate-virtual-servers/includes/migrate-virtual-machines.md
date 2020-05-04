@@ -1,4 +1,4 @@
-Once you’re ready for the production migration, return to the **Replicating Server**s view and click on the ellipses again. 
+Once you’re ready for the production migration, return to the **Replicating Servers** view and click on the ellipses again. 
 You’ll pick up where you left off from the previous step. 
 
 1. Choose **Clean up Test Migration**. This operation deletes your test virtual machine and prepares the replicated virtual machine for production migration.
