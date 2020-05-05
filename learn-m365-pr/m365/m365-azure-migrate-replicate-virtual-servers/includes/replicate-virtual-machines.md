@@ -37,7 +37,7 @@ Complete the following steps to proceed with the replication process.
 
 8.	In **Disks**, you can choose which disks to replicate from the VMs. 
 
-   ![Screenshot 6](../media/screenshot-6.png)
+    ![Screenshot 6](../media/screenshot-6.png)
 
 9.	Finally, in **Review + Start replication**, click **Replicate** to begin replication. Times for replication will vary based on number and size of virtual machines along with connection speeds between your data center and Azure. 
  
