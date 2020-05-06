@@ -76,7 +76,7 @@ When a table is long enough that a user must scroll to see some rows, the header
 
         To use your add-in, open a new document in Excel on the web and then sideload your add-in by following the instructions in [Sideload Office Add-ins in Office on the web](https://docs.microsoft.com/office/dev/add-ins/testing/sideload-office-add-ins-for-testing#sideload-an-office-add-in-in-office-on-the-web).
 
-1. If the add-in task pane isn't already open in Excel, go to the **Home** tab and choose the **Show Task pane** button in the ribbon to open it.
+1. If the add-in task pane isn't already open, on the **Home** tab, choose **Show Task pane**.
 1. If the table you added previously in this tutorial is present in the worksheet, delete it.
 1. In the task pane, choose the **Create Table** button.
 1. In the task pane, choose the **Freeze Header** button.
