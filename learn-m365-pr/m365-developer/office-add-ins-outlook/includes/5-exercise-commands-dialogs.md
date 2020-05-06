@@ -413,7 +413,7 @@ Finally, open the file **webpack.config.js** file in the root directory of the p
     ```
 
 1. If the web server is running, close the node command window.
-1. Run the following command to rebuild the project.
+1. To rebuild the project, run the following command.
 
     ```bash
     npm run build
