@@ -153,7 +153,7 @@ In this section, you'll programmatically test that your add-in supports the user
 
     ![Screenshot of the Word application with the Show Task pane button highlighted](../media/03-word-quickstart-addin-2b.png)
 
-1. In the task pane, choose the **Insert Paragraph** button.
+1. In the task pane, choose **Insert Paragraph**.
 1. Make a change in the paragraph.
 1. Choose the **Insert Paragraph** button again. The new paragraph appears above the previous one because the `insertParagraph` method is inserting at the start of the document's body.
 
