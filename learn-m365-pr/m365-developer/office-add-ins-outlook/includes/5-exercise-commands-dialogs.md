@@ -69,7 +69,7 @@ Locate the line in the manifest that reads `</DesktopFormFactor>`. Immediately b
 
 ### Update resources in the manifest
 
-The previous code references labels, tooltips, and URLs that you need to define before the manifest will be valid. You'll specify this information in the `Resources` section of the manifest.
+The previous code references labels, tooltips, and URLs that you must define before the manifest is valid. Specify this information in the `Resources` section of the manifest.
 
 1. Locate the `Resources` element in the manifest file and delete the entire element (including its closing tag).
 1. In that same location, add the following markup to replace the `Resources` element you removed:
@@ -413,13 +413,13 @@ Finally, open the file **webpack.config.js** file in the root directory of the p
     ```
 
 1. If the web server is running, close the node command window.
-1. Run the following command to rebuild the project.
+1. To rebuild the project, run the following command.
 
     ```bash
     npm run build
     ```
 
-1. Run the following command to start the web server.
+1. To start the web server, run the following command:
 
     ```bash
     npm run dev-server
@@ -663,7 +663,7 @@ function setConfig(config, callback) {
 
 ### Create new functions to process gists
 
-Next, open the **./src/helpers/gist-api.js** file and add the following functions:
+Open **./src/helpers/gist-api.js** and add the following functions:
 
 ```javascript
 function getGist(gistId, callback) {
@@ -715,13 +715,13 @@ function buildBodyContent(gist, callback) {
 
 > [!NOTE]
 >
-> - If the gist contains HTML, the add-in will insert the HTML as-is into the body of the message.
-> - If the gist contains Markdown, the add-in will use the [Showdown](https://github.com/showdownjs/showdown) library to convert the Markdown to HTML, and will then insert the resulting HTML into the body of the message.
-> - If the gist contains anything other than HTML or Markdown, the add-in will insert it into the body of the message as a code snippet.
+> - If the gist contains HTML, the add-in inserts the HTML as-is into the body of the message.
+> - If the gist contains Markdown, the add-in uses the [Showdown](https://github.com/showdownjs/showdown) library to convert the Markdown to HTML, and inserts the resulting HTML into the body of the message.
+> - If the gist contains anything other than HTML or Markdown, the add-in inserts it into the body of the message as a code snippet.
 
 ### Test the button
 
-Save all of your changes and run `npm run dev-server` from the command prompt, if the server isn't already running. Then complete the following steps to test the **Insert default gist** button.
+If the server isn't already running, save all of your changes and run `npm run dev-server` from the command prompt. Then, to test the **Insert default gist** button, complete the following steps:
 
 1. Open Outlook and compose a new message.
 1. In the compose message window, select the **Insert default gist** button. You should be prompted to configure the add-in.

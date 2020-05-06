@@ -88,7 +88,7 @@ The add-in that you'll create in this tutorial will read [gists](https://gist.gi
     After you complete the wizard, the generator will create the project and install supporting Node components.
 
     > [!TIP]
-    > You can ignore any warnings or errors when installing dependencies and the **Congratulations! Your add-in has been created! Your next steps:** guidance the Yeoman generator displays. The remainder of this unit include all the steps you'll need to follow.
+    > When installing dependencies, ignore any warnings or errors and the **Congratulations! Your add-in has been created! Your next steps:** displayed by the Yeoman generator . The remainder of this unit include all the steps you'll need to follow.
 
 1. Navigate to the root directory of the project.
 
@@ -143,7 +143,7 @@ Before going any further, let's test the basic add-in that the generator created
 
 1. Follow the instructions in [Sideload Outlook add-ins for testing](https://docs.microsoft.com/office/dev/add-ins/outlook/sideload-outlook-add-ins-for-testing) to sideload the **manifest.xml** file that's located in the root directory of the project.
 
-1. In Outlook, open an existing message and select the **Show Taskpane** button. If everything's been set up correctly, the task pane will open and render the add-in's welcome page.
+1. In Outlook, open an existing message, and select the **Show Taskpane** button. If set up correctly, the task pane will open and render the add-in's welcome page.
 
 ![A screenshot of the button and task pane added by the sample](../media/03-button-and-pane.png)
 
