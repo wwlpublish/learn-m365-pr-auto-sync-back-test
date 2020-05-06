@@ -1,6 +1,6 @@
 You’ll need to let the process run for up to 24 hours to see complete performance metrics, but a basic assessment usually takes just a couple of minutes. 
 
->![Screenshot 6](../media/screenshot-6.png)
+>![Assessment](../media/assessment.png)
 
 To start:
 1. Click **Assess**. That brings you to the **Assess Servers** function.
@@ -11,7 +11,7 @@ To start:
 1. Search for the servers to add to your group. 
 1. Select the servers you want to assess and later migrate.
    
-   ![Screenshot 7](../media/screenshot-7.png)
+   ![Deploy Image 1](../media/deploy-image-1.png)
    
 1.	When finished, click **Create Assessment**.
 
