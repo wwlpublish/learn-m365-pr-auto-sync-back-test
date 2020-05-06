@@ -419,7 +419,7 @@ Finally, open the file **webpack.config.js** file in the root directory of the p
     npm run build
     ```
 
-1. Run the following command to start the web server.
+1. To start the web server, run the following command:
 
     ```bash
     npm run dev-server
