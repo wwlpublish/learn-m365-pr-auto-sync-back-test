@@ -78,7 +78,7 @@ In this section, you'll programmatically test that your add-in supports the user
 
     > [!NOTE]
     >
-    > - The first part of this code determines whether the user's version of Word supports a version of Word.js that includes all the APIs that are used in all stages of this tutorial. In a production add-in, use the body of the conditional block to hide or disable the UI that would call unsupported APIs. This will enable the user to still use the parts of the add-in that are supported by their version of Word.
+    > - The first part of this code determines whether the user's version of Word supports a version of Word.js that includes all the APIs used in this tutorial. In a production add-in, use the body of the conditional block to hide or disable the UI that calls unsupported APIs. This will enable the user to use the parts of the add-in that are supported by their version of Word.
     > - The second part of this code adds an event handler for the `insert-paragraph` button.
 
 1. Add the following function to the end of the file:
