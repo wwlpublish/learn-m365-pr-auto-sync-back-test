@@ -9,10 +9,10 @@ You'll use Node.js to create the custom Word add-in in this module. The exercise
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/) - (*the latest [LTS](https://nodejs.org/about/releases) version (or higher)*)
-- NPM (installed with Node.js) - v6.\* (or higher)
-- [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Office](https://github.com/OfficeDev/generator-office) - v1.6.1\* (or higher)
+- [Node.js](https://nodejs.org/) - (*the latest [LTS](https://nodejs.org/about/releases) version*)
+- NPM (installed with Node.js) - v6.x (or higher)
+- [Yeoman](https://yeoman.io/) - v3.x (or higher)
+- [Yeoman Generator for Microsoft Office](https://github.com/OfficeDev/generator-office) - v1.6.x (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
@@ -30,21 +30,21 @@ yo office
 
 When prompted, provide the following information to create your add-in project:
 
-- **Choose a project type:** `Office Add-in Task Pane project`
-- **Choose a script type:** `Javascript`
-- **What do you want to name your add-in?** `My Office Add-in`
-- **Which Office client application would you like to support?** `Word`
+- **Choose a project type:** Office Add-in Task Pane project
+- **Choose a script type:** JavaScript
+- **What do you want to name your add-in?** My Office Add-in
+- **Which Office client application would you like to support?** Word
 
 ![A screenshot of the prompts and answers for the Yeoman generator](../media/03-yo-office-word.png)
 
 After you complete the wizard, the generator creates the project and installs supporting Node components.
 
 > [!TIP]
-> You can ignore the *next steps* guidance that the Yeoman generator provides after the add-in project's been created. The step-by-step instructions within this article provide all of the guidance you'll need to complete this tutorial.
+> When installing dependencies, you can ignore any warnings or errors the Yeoman generator displays. The remainder of this unit include all the steps you'll need to follow.
 
 ## Insert a range of text
 
-In this step of the tutorial, you'll programmatically test that your add-in supports the user's current version of Word, and then insert a paragraph into the document.
+In this section, you'll programmatically test that your add-in supports the user's current version of Word, and then insert a paragraph into the document.
 
 ### Code the add-in
 
@@ -64,10 +64,7 @@ In this step of the tutorial, you'll programmatically test that your add-in supp
     - Locate and delete the line `document.getElementById("run").onclick = run;`.
     - Locate and delete the entire `run()` function.
 
-1. Within the `Office.onReady` method call, locate the line `if (info.host === Office.HostType.Word) {` and add the following code immediately after that line. Note:
-
-    - The first part of this code determines whether the user's version of Word supports a version of Word.js that includes all the APIs that are used in all stages of this tutorial. In a production add-in, use the body of the conditional block to hide or disable the UI that would call unsupported APIs. This will enable the user to still use the parts of the add-in that are supported by their version of Word.
-    - The second part of this code adds an event handler for the `insert-paragraph` button.
+1. Within the `Office.onReady` method call, locate the line `if (info.host === Office.HostType.Word) {` and add the following code immediately after that line:
 
     ```javascript
     // Determine if the user's version of Office supports all the Office.js APIs that are used in the tutorial.
@@ -79,11 +76,12 @@ In this step of the tutorial, you'll programmatically test that your add-in supp
     document.getElementById("insert-paragraph").onclick = insertParagraph;
     ```
 
-1. Add the following function to the end of the file. Note:
+    > [!NOTE]
+    >
+    > - The first part of this code determines whether the user's version of Word supports a version of Word.js that includes all the APIs used in this tutorial. In a production add-in, use the body of the conditional block to hide or disable the UI that calls unsupported APIs. This will enable the user to use the parts of the add-in that are supported by their version of Word.
+    > - The second part of this code adds an event handler for the `insert-paragraph` button.
 
-   - Your Word.js business logic will be added to the function that is passed to `Word.run`. This logic doesn't execute immediately. Instead, its added to a queue of pending commands.
-   - The `context.sync` method sends all queued commands to Word for execution.
-   - The `Word.run` is followed by a `catch` block. This is a best practice that you should always follow.
+1. Add the following function to the end of the file:
 
     ```javascript
     function insertParagraph() {
@@ -102,10 +100,13 @@ In this step of the tutorial, you'll programmatically test that your add-in supp
     }
     ```
 
-1. Within the `insertParagraph()` function, replace `TODO1` with the following code. Note:
+    > [!NOTE]
+    >
+    > - Your Word.js business logic will be added to the function that is passed to `Word.run`. This logic doesn't execute immediately. Instead, its added to a queue of pending commands.
+    > - The `context.sync` method sends all queued commands to Word for execution.
+    > - The `Word.run` is followed by a `catch` block. This is a best practice that you should always follow.
 
-   - The first parameter to the `insertParagraph` method is the text for the new paragraph.
-   - The second parameter is the location within the body where the paragraph will be inserted. Other options for insert paragraph, when the parent object is the body, are "End" and "Replace".
+1. Within the `insertParagraph()` function, replace `TODO1` with the following code:
 
     ```javascript
     var docBody = context.document.body;
@@ -113,11 +114,16 @@ In this step of the tutorial, you'll programmatically test that your add-in supp
                             "Start");
     ```
 
-1. Verify that you've saved all of the changes you've made to the project.
+    > [!NOTE]
+    >
+    > - The first parameter to the `insertParagraph` method is the text for the new paragraph.
+    > - The second parameter is the location within the body where the paragraph will be inserted. Other options for insert paragraph, when the parent object is the body, are "End" and "Replace".
+
+1. Save all changes to the **taskpane.html** and **taskpane.js** files.
 
 ### Test the add-in
 
-1. Complete the following steps to start the local web server and sideload your add-in.
+1. Complete the following steps to start the local web server and sideload your add-in:
 
     > [!NOTE]
     > Office Add-ins should use HTTPS, not HTTP, even when you are developing. If you are prompted to install a certificate after you run one of the following commands, accept the prompt to install the certificate that the Yeoman generator provides.
@@ -143,11 +149,11 @@ In this step of the tutorial, you'll programmatically test that your add-in supp
 
         To use your add-in, open a new document in Word on the web and then sideload your add-in by following the instructions in [Sideload Office Add-ins in Office on the web](https://docs.microsoft.com/office/dev/add-ins/testing/sideload-office-add-ins-for-testing#sideload-an-office-add-in-in-office-on-the-web).
 
-1. In Word, choose the **Home** tab, and then choose the **Show Taskpane** button in the ribbon to open the add-in task pane.
+1. In Word, choose the **Home** tab, and then choose the **Show Task pane** button in the ribbon to open the add-in task pane.
 
-    ![Screenshot of the Word application with the Show Taskpane button highlighted](../media/03-word-quickstart-addin-2b.png)
+    ![Screenshot of the Word application with the Show Task pane button highlighted](../media/03-word-quickstart-addin-2b.png)
 
-1. In the task pane, choose the **Insert Paragraph** button.
+1. In the task pane, choose **Insert Paragraph**.
 1. Make a change in the paragraph.
 1. Choose the **Insert Paragraph** button again. The new paragraph appears above the previous one because the `insertParagraph` method is inserting at the start of the document's body.
 
@@ -155,7 +161,7 @@ In this step of the tutorial, you'll programmatically test that your add-in supp
 
 ## Format text
 
-In this step of the tutorial, you'll apply a built-in style to text, apply a custom style to text, and change the font of text.
+In this section, you'll apply a built-in style to text, apply a custom style to text, and change the font of text.
 
 ### Apply a built-in style to text
 
@@ -167,7 +173,13 @@ In this step of the tutorial, you'll apply a built-in style to text, apply a cus
     ```
 
 1. Open the file **./src/taskpane/taskpane.js**.
-1. Within the `Office.onReady` method call, locate the line that assigns a click handler to the `insert-paragraph` button, and add the following code after that line:
+1. Within the `Office.onReady` method call, locate the following line in the `Office.onRead()` method:
+
+    ```javascript
+    document.getElementById("insert-paragraph").onclick = insertParagraph;
+    ```
+
+    Add the following code immediately after it:
 
     ```javascript
     document.getElementById("apply-style").onclick = applyStyle;
@@ -209,7 +221,13 @@ In this step of the tutorial, you'll apply a built-in style to text, apply a cus
     ```
 
 1. Open the file **./src/taskpane/taskpane.js**.
-1. Within the `Office.onReady` method call, locate the line that assigns a click handler to the `apply-style` button, and add the following code after that line:
+1. Within the `Office.onReady` method call, locate the following line in the `Office.onRead()` method:
+
+    ```javascript
+    document.getElementById("apply-style").onclick = applyStyle;
+    ```
+
+    Add the following code immediately after it:
 
     ```javascript
     document.getElementById("apply-custom-style").onclick = applyCustomStyle;
@@ -253,7 +271,13 @@ In this step of the tutorial, you'll apply a built-in style to text, apply a cus
     ```
 
 1. Open the file **./src/taskpane/taskpane.js**.
-1. Within the `Office.onReady` method call, locate the line that assigns a click handler to the `apply-custom-style` button, and add the following code after that line:
+1. Within the `Office.onReady` method call, locate the following line in the `Office.onRead()` method:
+
+    ```javascript
+    document.getElementById("apply-custom-style").onclick = applyCustomStyle;
+    ```
+
+    Add the following code immediately after it:
 
     ```javascript
     document.getElementById("change-font").onclick = changeFont;
@@ -309,7 +333,7 @@ In this step of the tutorial, you'll apply a built-in style to text, apply a cus
 
         To use your add-in, open a new document in Word on the web and then sideload your add-in by following the instructions in [Sideload Office Add-ins in Office on the web](https://docs.microsoft.com/office/dev/add-ins/testing/sideload-office-add-ins-for-testing#sideload-an-office-add-in-in-office-on-the-web).
 
-1. If the add-in task pane isn't already open in Word, go to the **Home** tab and choose the **Show Taskpane** button in the ribbon to open it.
+1. If the add-in task pane isn't already open in Word, go to the **Home** tab and choose **Show Task pane**.
 1. Be sure there are at least three paragraphs in the document. You can choose the **Insert Paragraph** button three times. *Check carefully that there's no blank paragraph at the end of the document. If there is, delete it.*
 1. In Word, create a [custom style](https://support.office.com/article/Customize-or-create-new-styles-d38d6e47-f6fc-48eb-a607-1eb120dec563) named **MyCustomStyle**. It can have any formatting that you want.
 1. Choose the **Apply Style** button. The first paragraph will be styled with the built-in style **Intense Reference**.

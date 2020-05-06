@@ -16,13 +16,7 @@ Open the **manifest.xml** file and locate the `ExtensionPoint` element with type
 
 ### Add the MessageComposeCommandSurface extension point
 
-Locate the line in the manifest that reads `</DesktopFormFactor>`. Immediately before this line, insert the following XML markup. Note the following about this markup:
-
-- The `ExtensionPoint` with `xsi:type="MessageComposeCommandSurface"` indicates that you're defining buttons to add to the compose message window.
-- By using an `OfficeTab` element with `id="TabDefault"`, you're indicating you want to add the buttons to the default tab on the ribbon.
-- The `Group` element defines the grouping for the new buttons, with a label set by the `groupLabel` resource.
-- The first `Control` element contains an `Action` element with `xsi:type="ShowTaskPane"`, so this button opens a task pane.
-- The second `Control` element contains an `Action` element with `xsi:type="ExecuteFunction"`, so this button invokes a JavaScript function contained in the function file.
+Locate the line in the manifest that reads `</DesktopFormFactor>`. Immediately before this line, insert the following XML markup:
 
 ```xml
 <!-- Message Compose -->
@@ -46,10 +40,10 @@ Locate the line in the manifest that reads `</DesktopFormFactor>`. Immediately b
         </Action>
       </Control>
       <Control xsi:type="Button" id="msgComposeInsertDefaultGist">
-        <Label resid="FunctionButton.Label"/>
+        <Label resid="ActionButton.Label"/>
         <Supertip>
-          <Title resid="FunctionButton.Title"/>
-          <Description resid="FunctionButton.Tooltip"/>
+          <Title resid="ActionButton.Title"/>
+          <Description resid="ActionButton.Tooltip"/>
         </Supertip>
         <Icon>
           <bt:Image size="16" resid="Icon.16x16"/>
@@ -65,9 +59,17 @@ Locate the line in the manifest that reads `</DesktopFormFactor>`. Immediately b
 </ExtensionPoint>
 ```
 
+> [!NOTE]
+>
+> - The `ExtensionPoint` with `xsi:type="MessageComposeCommandSurface"` indicates that you're defining buttons to add to the compose message window.
+> - By using an `OfficeTab` element with `id="TabDefault"`, you're indicating you want to add the buttons to the default tab on the ribbon.
+> - The `Group` element defines the grouping for the new buttons, with a label set by the `groupLabel` resource.
+> - The first `Control` element contains an `Action` element with `xsi:type="ShowTaskPane"`, so this button opens a task pane.
+> - The second `Control` element contains an `Action` element with `xsi:type="ExecuteFunction"`, so this button invokes a JavaScript function contained in the function file.
+
 ### Update resources in the manifest
 
-The previous code references labels, tooltips, and URLs that you need to define before the manifest will be valid. You'll specify this information in the `Resources` section of the manifest.
+The previous code references labels, tooltips, and URLs that you must define before the manifest is valid. Specify this information in the `Resources` section of the manifest.
 
 1. Locate the `Resources` element in the manifest file and delete the entire element (including its closing tag).
 1. In that same location, add the following markup to replace the `Resources` element you removed:
@@ -87,12 +89,12 @@ The previous code references labels, tooltips, and URLs that you need to define 
         <bt:String id="GroupLabel" DefaultValue="Git the gist"/>
         <bt:String id="TaskpaneButton.Label" DefaultValue="Insert gist"/>
         <bt:String id="TaskpaneButton.Title" DefaultValue="Insert gist"/>
-        <bt:String id="FunctionButton.Label" DefaultValue="Insert default gist"/>
-        <bt:String id="FunctionButton.Title" DefaultValue="Insert default gist"/>
+        <bt:String id="ActionButton.Label" DefaultValue="Insert default gist"/>
+        <bt:String id="ActionButton.Title" DefaultValue="Insert default gist"/>
       </bt:ShortStrings>
       <bt:LongStrings>
         <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Displays a list of your gists and allows you to insert their contents into the current message."/>
-        <bt:String id="FunctionButton.Tooltip" DefaultValue="Inserts the content of the gist you mark as default into the current message."/>
+        <bt:String id="ActionButton.Tooltip" DefaultValue="Inserts the content of the gist you mark as default into the current message."/>
       </bt:LongStrings>
     </Resources>
     ```
@@ -411,15 +413,15 @@ Finally, open the file **webpack.config.js** file in the root directory of the p
     ```
 
 1. If the web server is running, close the node command window.
-1. Run the following command to rebuild the project.
+1. To rebuild the project, run the following command.
 
-    ```command&nbsp;line
+    ```bash
     npm run build
     ```
 
-1. Run the following command to start the web server.
+1. To start the web server, run the following command:
 
-    ```command&nbsp;line
+    ```bash
     npm run dev-server
     ```
 
@@ -532,7 +534,7 @@ Open the file **./src/commands/commands.html** and replace the entire contents w
 </head>
 
 <body>
-  <!-- NOTE: The body is empty on purpose. Since functions in commands.js are invoked via a button, there is no UI to render. -->
+  <!-- NOTE: The body is empty by design. Since functions in commands.js are invoked using a button, there is no UI to render. -->
 </body>
 
 </html>
@@ -661,11 +663,7 @@ function setConfig(config, callback) {
 
 ### Create new functions to process gists
 
-Next, open the **./src/helpers/gist-api.js** file and add the following functions. Note the following points:
-
-- If the gist contains HTML, the add-in will insert the HTML as-is into the body of the message.
-- If the gist contains Markdown, the add-in will use the [Showdown](https://github.com/showdownjs/showdown) library to convert the Markdown to HTML, and will then insert the resulting HTML into the body of the message.
-- If the gist contains anything other than HTML or Markdown, the add-in will insert it into the body of the message as a code snippet.
+Open **./src/helpers/gist-api.js** and add the following functions:
 
 ```javascript
 function getGist(gistId, callback) {
@@ -715,9 +713,15 @@ function buildBodyContent(gist, callback) {
 }
 ```
 
+> [!NOTE]
+>
+> - If the gist contains HTML, the add-in inserts the HTML as-is into the body of the message.
+> - If the gist contains Markdown, the add-in uses the [Showdown](https://github.com/showdownjs/showdown) library to convert the Markdown to HTML, and inserts the resulting HTML into the body of the message.
+> - If the gist contains anything other than HTML or Markdown, the add-in inserts it into the body of the message as a code snippet.
+
 ### Test the button
 
-Save all of your changes and run `npm run dev-server` from the command prompt, if the server isn't already running. Then complete the following steps to test the **Insert default gist** button.
+If the server isn't already running, save all of your changes and run `npm run dev-server` from the command prompt. Then, to test the **Insert default gist** button, complete the following steps:
 
 1. Open Outlook and compose a new message.
 1. In the compose message window, select the **Insert default gist** button. You should be prompted to configure the add-in.

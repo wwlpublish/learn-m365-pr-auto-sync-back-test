@@ -34,8 +34,7 @@ In this exercise, you'll open a dialog in your add-in, pass a message from the d
     ```
 
 1. In the **./src/dialogs** folder, create new file named **popup.js**.
-1. Add the following code to **popup.js**. Note the following about this code:
-   - *Every page that calls APIs in the Office.js library must first ensure that the library is fully initialized.* The best way to do that is to call the `Office.onReady()` method. If your add-in has its own initialization tasks, the code should go in a `then()` method that is chained to the call of `Office.onReady()`. The call of `Office.onReady()` must run before any calls to Office.js; so the assignment is in a script file that is loaded by the page, as it is in this case.
+1. Add the following code to **popup.js**:
 
     ```javascript
     (function () {
@@ -50,6 +49,10 @@ In this exercise, you'll open a dialog in your add-in, pass a message from the d
       // TODO2: Create the OK button handler
     }());
     ```
+
+    > [!NOTE]
+    >
+    > - *Every page that calls APIs in the Office.js library must first ensure that the library is fully initialized.* The best way to do that is to call the `Office.onReady()` method. If your add-in has its own initialization tasks, the code should go in a `then()` method that is chained to the call of `Office.onReady()`. The call of `Office.onReady()` must run before any calls to Office.js; so the assignment is in a script file that is loaded by the page, as it is in this case.
 
 1. Replace `TODO1` with the following code. You'll create the `sendStringToParentPage` function in the next step.
 
@@ -129,10 +132,10 @@ Open the file **webpack.config.js** in the root directory of the project and com
     ],
     ```
 
-1. If the local web server is running, stop it by closing the node command window.
+1. If the local web server is running, stop it by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the console window.
 1. Run the following command to rebuild the project.
 
-    ```command&nbsp;line
+    ```bash
     npm run build
     ```
 
@@ -152,7 +155,13 @@ Open the file **webpack.config.js** in the root directory of the project and com
     ```
 
 1. Open the file **./src/taskpane/taskpane.js**.
-1. Within the `Office.onReady` method call, locate the line that assigns a click handler to the `freeze-header` button, and add the following code after that line. You'll create the `openDialog` method in a later step.
+1. Within the `Office.onReady` method call, locate the following line in the `Office.onRead()` method:
+
+    ```javascript
+    document.getElementById("freeze-header").onclick = freezeHeader;
+    ```
+
+    Add the following code immediately after it:
 
     ```javascript
     document.getElementById("open-dialog").onclick = openDialog;
@@ -172,10 +181,7 @@ Open the file **webpack.config.js** in the root directory of the project and com
     }
     ```
 
-1. Replace `TODO1` with the following code. Note:
-   - The `displayDialogAsync` method opens a dialog in the center of the screen.
-   - The first parameter is the URL of the page to open.
-   - The second parameter passes options. `height` and `width` are percentages of the size of the Office application's window.
+1. Replace `TODO1` with the following code:
 
     ```javascript
     Office.context.ui.displayDialogAsync(
@@ -186,19 +192,28 @@ Open the file **webpack.config.js** in the root directory of the project and com
     );
     ```
 
+    > [!NOTE]
+    >
+    > - The `displayDialogAsync` method opens a dialog in the center of the screen.
+    > - The first parameter is the URL of the page to open.
+    > - The second parameter passes options. `height` and `width` are percentages of the size of the Office application's window.
+
 ### Process the message from the dialog and close the dialog
 
-1. Within the `openDialog` function in the file **./src/taskpane/taskpane.js**, replace `TODO2` with the following code. Note:
-   - The callback is executed immediately after the dialog successfully opens and before the user has taken any action in the dialog.
-   - The `result.value` is the object that acts as a kind of middleman between the execution contexts of the parent and dialog pages.
-   - The `processMessage` function will be created in a later step. This handler will process any values that are sent from the dialog page with calls of the `messageParent` function.
+1. Within the `openDialog` function in the file **./src/taskpane/taskpane.js**, replace `TODO2` with the following code:
 
     ```javascript
     function (result) {
-        dialog = result.value;
-        dialog.addEventHandler(Microsoft.Office.WebExtension.EventType.DialogMessageReceived, processMessage);
+      dialog = result.value;
+      dialog.addEventHandler(Microsoft.Office.WebExtension.EventType.DialogMessageReceived, processMessage);
     }
     ```
+
+    > [!NOTE]
+    >
+    > - The callback is executed immediately after the dialog successfully opens and before the user has taken any action in the dialog.
+    > - The `result.value` is the object that acts as a middleman between the execution contexts of the parent and dialog pages.
+    > - The `processMessage` function will be created in a later step. This handler will process any values that are sent from the dialog page with calls of the `messageParent` function.
 
 1. Add the following function after the `openDialog` function.
 
@@ -227,13 +242,14 @@ Open the file **webpack.config.js** in the root directory of the project and com
         ```
 
         To use your add-in, open a new document in Excel on the web and then sideload your add-in by following the instructions in [Sideload Office Add-ins in Office on the web](https://docs.microsoft.com/office/dev/add-ins/testing/sideload-office-add-ins-for-testing#sideload-an-office-add-in-in-office-on-the-web).
-1. If the add-in task pane isn't already open in Excel, go to the **Home** tab and choose the **Show Taskpane** button in the ribbon to open it.
-1. Choose the **Open Dialog** button in the task pane.
-1. While the dialog is open, drag it and resize it. You can interact with the worksheet and press other buttons on the task pane, but you cannot launch a second dialog from the same task pane page.
-1. In the dialog, enter a name and choose the **OK** button. The name appears on the task pane and the dialog closes.
-1. Optionally, comment out the line `dialog.close();` in the `processMessage` function. Then repeat the steps of this section. The dialog stays open and you can change the name. You can close it manually by pressing the **X** button in the upper right corner.
 
-    ![Excel tutorial - Dialog](../media/07-excel-tutorial-dialog-open-2.png)
+1. To open the add-in task pane, on the **Home** tab, choose **Show Task pane**.
+1. Choose **Open Dialog** .
+1. While the dialog is open, drag it and resize it. You can interact with the worksheet and press other buttons on the task pane, but you cannot launch a second dialog from the same task pane page.
+1. In the dialog, enter a name, and choose **OK**. The name appears on the task pane and the dialog closes.
+1. Optionally, in the `processMessage` function, add **//** in front of the line `dialog.close();` . Then repeat the steps of this section. The dialog stays open and you can change the name. You can close it manually by pressing the **X** button in the upper right corner.
+
+![Excel tutorial - Dialog](../media/07-excel-tutorial-dialog-open-2.png)
 
 ## Summary
 
