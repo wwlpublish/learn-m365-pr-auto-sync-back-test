@@ -120,7 +120,7 @@ In this exercise, you'll learn how to create rich text content controls in the d
 ### Test the add-in
 
 1. Repeat the steps from the previous exercise to sideload the add-in.
-1. If the add-in task pane isn't already open in Word, go to the **Home** tab and choose the **Show Task pane** button in the ribbon to open it.
+1. If the add-in task pane isn't already open, from the **Home** tab, choose **Show Task pane**.
 1. In the task pane, choose the **Insert Paragraph** button to ensure that there's a paragraph with "Office 365" at the top of the document.
 1. In the document, select the text "Office 365" and then choose the **Create Content Control** button. The phrase is wrapped in tags labeled "Service Name".
 1. Choose the **Rename Service** button and note that the text of the content control changes to "Fabrikam Online Productivity Suite".
