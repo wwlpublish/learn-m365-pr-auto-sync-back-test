@@ -9,10 +9,10 @@ You'll use Node.js to create the custom Outlook add-in in this module. The exerc
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/) - (*the latest [LTS](https://nodejs.org/about/releases) version (or higher)*)
-- NPM (installed with Node.js) - v6.\* (or higher)
-- [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Office](https://github.com/OfficeDev/generator-office) - v1.6.1\* (or higher)
+- [Node.js](https://nodejs.org/) - (*the latest [LTS](https://nodejs.org/about/releases) version*)
+- NPM (installed with Node.js) - v6.x (or higher)
+- [Yeoman](https://yeoman.io/) - v3.x (or higher)
+- [Yeoman Generator for Microsoft Office](https://github.com/OfficeDev/generator-office) - v1.6.x (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
@@ -73,22 +73,22 @@ The add-in that you'll create in this tutorial will read [gists](https://gist.gi
     ```bash
     yo office
     ```
-    
+
     > [!NOTE]
     > When you run the `yo office` command, you may receive prompts about the data collection policies of Yeoman and the Office Add-in CLI tools. Use the information that's provided to respond to the prompts as you see fit.
-    
+
     When prompted, provide the following information to create your add-in project:
-    - **Choose a project type** - `Office Add-in Task Pane project`
-    - **Choose a script type** - `Javascript`
-    - **What do you want to name your add-in?** - `Git the gist`
-    - **Which Office client application would you like to support?** - `Outlook`
+    - **Choose a project type** - Office Add-in Task Pane project
+    - **Choose a script type** - JavaScript
+    - **What do you want to name your add-in?** - Git the gist
+    - **Which Office client application would you like to support?** - Outlook
 
     ![A screenshot of the prompts and answers for the Yeoman generator](../media/03-yeoman-prompts-2.png)
-    
+
     After you complete the wizard, the generator will create the project and install supporting Node components.
 
     > [!TIP]
-    > You can ignore the *next steps* guidance that the Yeoman generator provides after the add-in project's been created. The step-by-step instructions within this article provide all of the guidance you'll need to complete this tutorial.
+    > When installing dependencies, ignore any warnings or errors and the **Congratulations! Your add-in has been created! Your next steps:** displayed by the Yeoman generator . The remainder of this unit include all the steps you'll need to follow.
 
 1. Navigate to the root directory of the project.
 
@@ -143,9 +143,9 @@ Before going any further, let's test the basic add-in that the generator created
 
 1. Follow the instructions in [Sideload Outlook add-ins for testing](https://docs.microsoft.com/office/dev/add-ins/outlook/sideload-outlook-add-ins-for-testing) to sideload the **manifest.xml** file that's located in the root directory of the project.
 
-1. In Outlook, open an existing message and select the **Show Taskpane** button. If everything's been set up correctly, the task pane will open and render the add-in's welcome page.
+1. In Outlook, open an existing message, and select the **Show Taskpane** button. If set up correctly, the task pane will open and render the add-in's welcome page.
 
-    ![A screenshot of the button and task pane added by the sample](../media/03-button-and-pane.png)
+![A screenshot of the button and task pane added by the sample](../media/03-button-and-pane.png)
 
 ## Summary
 
