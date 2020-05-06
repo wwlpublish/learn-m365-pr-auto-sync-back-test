@@ -78,7 +78,7 @@ When a table is long enough that a user must scroll to see some rows, the header
 
 1. If the add-in task pane isn't already open, on the **Home** tab, choose **Show Task pane**.
 1. If the table you added previously in this tutorial is present in the worksheet, delete it.
-1. In the task pane, choose the **Create Table** button.
+1. In the task pane, choose **Create Table**.
 1. In the task pane, choose the **Freeze Header** button.
 1. Scroll down the worksheet far enough to see that the table header remains visible at the top even when the higher rows scroll out of sight.
 
