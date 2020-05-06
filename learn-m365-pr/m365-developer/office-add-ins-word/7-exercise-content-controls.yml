@@ -3,7 +3,7 @@ uid: learn-m365.office-add-ins-word.7-exercise-content-controls
 metadata:
   title: Exercise - Create content controls and replace content
   description: In this exercise, you'll learn how to create rich text content controls in the document, and then how to insert and replace content in the controls.
-  ms.date: 03/31/2020
+  ms.date: 05/01/2020
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
