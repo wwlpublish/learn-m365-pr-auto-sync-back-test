@@ -715,7 +715,7 @@ function buildBodyContent(gist, callback) {
 
 > [!NOTE]
 >
-> - If the gist contains HTML, the add-in will insert the HTML as-is into the body of the message.
+> - If the gist contains HTML, the add-in inserts the HTML as-is into the body of the message.
 > - If the gist contains Markdown, the add-in will use the [Showdown](https://github.com/showdownjs/showdown) library to convert the Markdown to HTML, and will then insert the resulting HTML into the body of the message.
 > - If the gist contains anything other than HTML or Markdown, the add-in will insert it into the body of the message as a code snippet.
 
