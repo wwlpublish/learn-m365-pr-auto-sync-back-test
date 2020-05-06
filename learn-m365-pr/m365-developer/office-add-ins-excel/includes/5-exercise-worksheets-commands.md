@@ -14,7 +14,7 @@ When a table is long enough that a user must scroll to see some rows, the header
     ```
 
 1. Open the file **./src/taskpane/taskpane.js**.
-1. Within the `Office.onReady` method call, locate the following line in the `Office.onRead()` method:
+1. Within the `Office.onReady` method call,in the `Office.onRead()` method, locate the following line:
 
     ```javascript
     document.getElementById("create-chart").onclick = createChart;
