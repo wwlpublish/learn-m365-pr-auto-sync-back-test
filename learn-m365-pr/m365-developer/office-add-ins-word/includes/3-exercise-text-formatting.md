@@ -40,7 +40,7 @@ When prompted, provide the following information to create your add-in project:
 After you complete the wizard, the generator creates the project and installs supporting Node components.
 
 > [!TIP]
-> You can ignore any warnings or errors when installing dependencies and the **Congratulations! Your add-in has been created! Your next steps:** guidance the Yeoman generator displays. The remainder of this unit include all the steps you'll need to follow.
+> When installing dependencies, you can ignore any warnings or errors the Yeoman generator displays. The remainder of this unit include all the steps you'll need to follow.
 
 ## Insert a range of text
 
