@@ -663,7 +663,7 @@ function setConfig(config, callback) {
 
 ### Create new functions to process gists
 
-Next, open the **./src/helpers/gist-api.js** file and add the following functions:
+Open **./src/helpers/gist-api.js** and add the following functions:
 
 ```javascript
 function getGist(gistId, callback) {
