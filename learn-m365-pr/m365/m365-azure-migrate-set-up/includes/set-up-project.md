@@ -25,6 +25,6 @@ You can select multiple tools in the assessment and migration phases within Azur
 Now your Azure Migrate project is set up and ready to receive assessment and discovery information from your virtual machine environment in VMware or Windows Server Hyper-V. In the next module, we will configure and run the discovery and assessment processes against a VMware vSphere environment. 
 
 ## Learn more
- - [How to run VMware in Azure - Demo Tutorial]
+ - [How to run VMware in Azure - Demo Tutorial](https://www.microsoft.com/videoplayer/embed/RE4sOiW)
  - [Prerequisites setup guidance](https://docs.microsoft.com/azure/migrate/tutorial-prepare-vmware#prepare-azure)
 
