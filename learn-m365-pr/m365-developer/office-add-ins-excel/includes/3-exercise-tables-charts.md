@@ -138,10 +138,10 @@ In this section, you'll programmatically test that your add-in supports the user
     ]);
     ```
 
-> [!NOTE]
->
-> - The cell values of a range are set with an array of arrays.
-> - New rows are created in a table by calling the `add` method of the table's row collection. You can add multiple rows in a single call of `add` by including multiple cell value arrays in the parent array that is passed as the second parameter.
+    > [!NOTE]
+    >
+    > - The cell values of a range are set with an array of arrays.
+    > - New rows are created in a table by calling the `add` method of the table's row collection. You can add multiple rows in a single call of `add` by including multiple cell value arrays in the parent array that is passed as the second parameter.
 
 1. Within the `createTable()` function, replace `TODO3` with the following code:
 
