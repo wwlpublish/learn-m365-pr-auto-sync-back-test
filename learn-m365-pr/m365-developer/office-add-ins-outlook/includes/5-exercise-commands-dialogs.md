@@ -40,10 +40,10 @@ Locate the line in the manifest that reads `</DesktopFormFactor>`. Immediately b
         </Action>
       </Control>
       <Control xsi:type="Button" id="msgComposeInsertDefaultGist">
-        <Label resid="FunctionButton.Label"/>
+        <Label resid="ActionButton.Label"/>
         <Supertip>
-          <Title resid="FunctionButton.Title"/>
-          <Description resid="FunctionButton.Tooltip"/>
+          <Title resid="ActionButton.Title"/>
+          <Description resid="ActionButton.Tooltip"/>
         </Supertip>
         <Icon>
           <bt:Image size="16" resid="Icon.16x16"/>
@@ -89,12 +89,12 @@ The previous code references labels, tooltips, and URLs that you need to define 
         <bt:String id="GroupLabel" DefaultValue="Git the gist"/>
         <bt:String id="TaskpaneButton.Label" DefaultValue="Insert gist"/>
         <bt:String id="TaskpaneButton.Title" DefaultValue="Insert gist"/>
-        <bt:String id="FunctionButton.Label" DefaultValue="Insert default gist"/>
-        <bt:String id="FunctionButton.Title" DefaultValue="Insert default gist"/>
+        <bt:String id="ActionButton.Label" DefaultValue="Insert default gist"/>
+        <bt:String id="ActionButton.Title" DefaultValue="Insert default gist"/>
       </bt:ShortStrings>
       <bt:LongStrings>
         <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Displays a list of your gists and allows you to insert their contents into the current message."/>
-        <bt:String id="FunctionButton.Tooltip" DefaultValue="Inserts the content of the gist you mark as default into the current message."/>
+        <bt:String id="ActionButton.Tooltip" DefaultValue="Inserts the content of the gist you mark as default into the current message."/>
       </bt:LongStrings>
     </Resources>
     ```
@@ -534,7 +534,7 @@ Open the file **./src/commands/commands.html** and replace the entire contents w
 </head>
 
 <body>
-  <!-- NOTE: The body is empty on purpose. Since functions in commands.js are invoked via a button, there is no UI to render. -->
+  <!-- NOTE: The body is empty by design. Since functions in commands.js are invoked using a button, there is no UI to render. -->
 </body>
 
 </html>
