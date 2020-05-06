@@ -19,7 +19,7 @@ abstract: |
 
 prerequisites: |
  - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/manage-recipient-resources.svg
 levels:
 - intermediate
 roles:
