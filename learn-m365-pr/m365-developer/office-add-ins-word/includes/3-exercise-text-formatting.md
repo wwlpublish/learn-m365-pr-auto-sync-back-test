@@ -333,7 +333,7 @@ In this section, you'll apply a built-in style to text, apply a custom style to 
 
         To use your add-in, open a new document in Word on the web and then sideload your add-in by following the instructions in [Sideload Office Add-ins in Office on the web](https://docs.microsoft.com/office/dev/add-ins/testing/sideload-office-add-ins-for-testing#sideload-an-office-add-in-in-office-on-the-web).
 
-1. If the add-in task pane isn't already open in Word, go to the **Home** tab and choose the **Show Task pane** button in the ribbon to open it.
+1. If the add-in task pane isn't already open in Word, go to the **Home** tab and choose **Show Task pane**.
 1. Be sure there are at least three paragraphs in the document. You can choose the **Insert Paragraph** button three times. *Check carefully that there's no blank paragraph at the end of the document. If there is, delete it.*
 1. In Word, create a [custom style](https://support.office.com/article/Customize-or-create-new-styles-d38d6e47-f6fc-48eb-a607-1eb120dec563) named **MyCustomStyle**. It can have any formatting that you want.
 1. Choose the **Apply Style** button. The first paragraph will be styled with the built-in style **Intense Reference**.
