@@ -721,7 +721,7 @@ function buildBodyContent(gist, callback) {
 
 ### Test the button
 
-Save all of your changes and run `npm run dev-server` from the command prompt, if the server isn't already running. Then complete the following steps to test the **Insert default gist** button.
+If the server isn't already running, save all of your changes and run `npm run dev-server` from the command prompt. Then, to test the **Insert default gist** button, complete the following steps:
 
 1. Open Outlook and compose a new message.
 1. In the compose message window, select the **Insert default gist** button. You should be prompted to configure the add-in.
