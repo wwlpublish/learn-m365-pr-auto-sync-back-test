@@ -69,7 +69,7 @@ Locate the line in the manifest that reads `</DesktopFormFactor>`. Immediately b
 
 ### Update resources in the manifest
 
-The previous code references labels, tooltips, and URLs that you need to define before the manifest will be valid. You'll specify this information in the `Resources` section of the manifest.
+The previous code references labels, tooltips, and URLs that you must define before the manifest is valid. Specify this information in the `Resources` section of the manifest.
 
 1. Locate the `Resources` element in the manifest file and delete the entire element (including its closing tag).
 1. In that same location, add the following markup to replace the `Resources` element you removed:
