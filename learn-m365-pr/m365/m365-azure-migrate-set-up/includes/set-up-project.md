@@ -11,7 +11,7 @@ Here, you can see options for assessing and migrating servers, databases, web ap
 1. Click **Next**.
 
    ![Migrate project](../media/migrate-project.png)
-1. Under the **Select assessment tool** tab, you’ll see a list of Microsoft and Microsoft partner tools. The Microsoft first-party tools are included in your Azure subscription. There are several partner options that are especially useful if you have partners helping with your migration or have used one of these tools in the past.
+1. Under the **Select assessment tool** tab, you’ll see a list of Microsoft and Microsoft partner tools. The Microsoft first-party tools are included in your Azure subscription. There are several partner options that are especially useful if you have partners helping with your migration or have used one of these tools in the past. Select a migration tool. In this case, select **Azure Migrate: Server Assessment**.
 
    ![Choose assessment tool](../media/choose-assessment.png)
 1. Under the **Select Migration Tool** tab, you’ll see a list of Microsoft and Microsoft partner tools just like in the assessment tool step. There are several partner options that are especially useful if you have partners helping with your migration or have used one of these tools in the past.
@@ -25,6 +25,6 @@ You can select multiple tools in the assessment and migration phases within Azur
 Now your Azure Migrate project is set up and ready to receive assessment and discovery information from your virtual machine environment in VMware or Windows Server Hyper-V. In the next module, we will configure and run the discovery and assessment processes against a VMware vSphere environment. 
 
 ## Learn more
- - [How to run VMware in Azure - Demo Tutorial](Link needed)
+ - [How to run VMware in Azure - Demo Tutorial]
  - [Prerequisites setup guidance](https://docs.microsoft.com/azure/migrate/tutorial-prepare-vmware#prepare-azure)
 
