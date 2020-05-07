@@ -25,24 +25,17 @@ The Azure Migrate appliance is a complete, pre-configured Open Virtual Appliance
    ![Set up discovery for Azure Migrate](../media/set-up-discovery.png)
 
 - Step 1: Set up prerequisites
-
     Once you accept the terms and conditions, the Azure Migrate Appliance automatically checks to ensure that:
-    - •	You are connected to the Internet.
-    - •	Your time is synched with the internet time server. 
-    - •	A current version of VMware vSphere Virtual Disk Development Kit is installed. If not, you can download and install automatically. 
-
+    - You are connected to the Internet.
+    - Your time is synched with the internet time server. 
+    - A current version of VMware vSphere Virtual Disk Development Kit is installed. If not, you can download and install automatically. 
 - Step 2: Register with Azure Migrate
-
     We covered this topic in the previous module with prerequisites. Registering with Azure Migrate we can view information that is logged up from the appliance into Azure. 
-
 - Step 3: Specify vCenter Server
- 
     Enter administrator credentials for the vCenter, including IP address, username, and password, and then validate the connection.
-
+   
    ![Add credentials](../media/add-credentials.png)
-
 - Step 4: Discover apps and dependencies 
-
     This step is optional but recommended. Here you provide virtual machine administrator credentials for discovery of applications and for dependency analysis to ensure your migrations are successful. The credentials are saved on the appliance and encrypted. 
 
     The discovery process is conducted remotely and without any agents or scripts.
