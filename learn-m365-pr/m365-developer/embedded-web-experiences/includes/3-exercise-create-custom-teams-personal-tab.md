@@ -2,7 +2,7 @@ In this exercise, you'll create a new Microsoft Teams personal tab by using the 
 
 ## Prerequisites
 
-Developing Microsoft Teams apps requires an Office 365 tenant, Microsoft Teams configured for development, and the necessary tools installed on your workstation. 
+Developing Microsoft Teams apps requires an Office 365 tenant, Microsoft Teams configured for development, and the necessary tools installed on your workstation.
 
 For the Office 365 tenant, follow the instructions in [Microsoft Teams: Prepare your Office 365 tenant](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-tenant) to obtain a developer tenant if you don't currently have an Office 365 account. Make sure you've also enabled Microsoft Teams for your organization.
 
@@ -13,18 +13,18 @@ You'll use Node.js to create custom Microsoft Teams tabs in this module. The exe
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/): version 10\* or higher
-- NPM installed with Node.js: version 6\* or higher
-- [Gulp](https://gulpjs.com/): version 4\* or higher
-- [Yeoman](https://yeoman.io/): version 3\* or higher
-- [Yeoman generator for Microsoft Teams](https://github.com/pnp/generator-teams): version 2.12\* or higher
+- [Node.js](https://nodejs.org/) - v10.\* (or higher)
+- NPM (installed with Node.js) - v6.\* (or higher)
+- [Gulp](https://gulpjs.com/) - v4.\* (or higher)
+- [Yeoman](https://yeoman.io/) - v3.\* (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.13.0 (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 
 *You must have the minimum versions of these prerequisites installed on your workstation.
 
 ## Create Microsoft Teams app
 
-Open your command prompt, and go to a directory where you want to save your work. Create a new folder named learn-msteams-tabs, and change the directory into that folder.
+Open your command prompt, and go to a directory where you want to save your work. Create a new folder named **learn-msteams-tabs**, and change the directory into that folder.
 
 Run the Yeoman generator for Microsoft Teams by running the following command:
 
@@ -43,11 +43,12 @@ Yeoman starts and asks you a series of questions. Answer the questions with the 
 - **Which manifest version would you like to use?**: v1.5
 - **Enter your Microsoft Partner ID, if you have one**: (Leave blank to skip)
 - **What features do you want to add to your project?**: A tab
-- **The URL where you will host this solution**: https://learnmsteamstabs.azurewebsites.net
+- **The URL where you will host this solution?**: (Accept the default option)
 - **Would you like to include Test framework and initial tests?**: No
 - **Would you like to use Azure Applications Insights for telemetry?**: No
 - **Default Tab name (max 16 characters)**: LearnPersonalTab
 - **Do you want to create a configurable or static tab?**: Static
+- **Do you require Azure AD Single-Sign-On support for the tab?** No
 
 > [!NOTE]
 > Most of the answers to these questions can be changed after you create the project. For example, the URL where the project will be hosted isn't important at the time of creating or testing the project.
@@ -122,7 +123,7 @@ Next, stop the local web server by selecting <kbd>Ctrl</kbd>+<kbd>C</kbd> in the
 
 Now you can implement the user interface for the tab. The simple tab has a basic interface. It presents a list of items, and users can add items to the list.
 
-Locate and open the file that contains the React component used in the project: ./src/app/scripts/learnPersonalTab/LearnPersonalTab.tsx.
+Locate and open the file that contains the React component used in the project: **./src/app/scripts/learnPersonalTab/LearnPersonalTab.tsx**.
 
 Update the import statements in this file to add components from the Fluent UI - React library. Find the following import statement at the top of the file that imports components from the Fluent UI - React library:
 
@@ -133,10 +134,23 @@ import { Provider, Flex, Text, Button, Header } from "@fluentui/react";
 Replace the previous statement with the following import statement:
 
 ```typescript
-import { Provider, Flex, Text, Button, Header, ThemePrepared, themes, Alert, List, Icon, Label, Input } from "@fluentui/react";
+import {
+  Provider,
+  Flex,
+  Text,
+  Button,
+  Header,
+  ThemePrepared,
+  themes,
+  Alert,
+  List,
+  Icon,
+  Label,
+  Input
+} from "@fluentui/react";
 ```
 
-Next, update the state of the component to contain a list of items and a property for a new item. Locate the `ILearnPersonalTabState` interface in the LearnPersonalTab.tsx file, and add the following properties to it:
+Next, update the state of the component to contain a list of items and a property for a new item. Locate the `ILearnPersonalTabState` interface in the **LearnPersonalTab.tsx** file, and add the following properties to it:
 
 ```typescript
 teamsTheme: ThemePrepared;
@@ -223,7 +237,7 @@ public render() {
 ```
 
 > [!TIP]
-> At this point, you can test your tab without loading it in Microsoft Teams. Run the command **gulp ngrok-serve** from the command line, and go to https://`{your-ngrok-subdomain}`.ngrok.io/learnPersonalTab/index.html in the browser.
+> At this point, you can test your tab without loading it in Microsoft Teams. Run the command **gulp ngrok-serve** from the command line, and go to **https://`{your-ngrok-subdomain}`.ngrok.io/learnPersonalTab/index.html** in the browser.
 >
 > ![Screenshot of the update tab page in the default theme](../media/03-yo-teams-11.png)
 >
@@ -275,7 +289,7 @@ Finally, locate the string `TODO: add new list item form here` in the `render()`
 
 ## Use App Studio to update the Microsoft Teams app manifest
 
-At this point, the app is complete. Recall from our initial test that when the app was added to Microsoft Teams, it had a few todo strings for the description of the app. While you could change these values in the project's ./src/manifest/manifest.json file, you use App Studio to make these changes.
+At this point, the app is complete. Recall from our initial test that when the app was added to Microsoft Teams, it had a few todo strings for the description of the app. While you could change these values in the project's **./src/manifest/manifest.json** file, you use App Studio to make these changes.
 
 First, build and run the project by running the command **gulp ngrok-serve** in the command line like you did previously. This step also creates the Microsoft Teams app package.
 
@@ -285,7 +299,7 @@ Using the **More added apps** link in the app bar on the left, select **App Stud
 
 ![Screenshot of the More added apps dialog box with App Studio highlighted](../media/03-yo-teams-13.png)
 
-Select the **Manifest editor** tab in App Studio, and then select **Import an existing app**. Locate the zip file that can be found in the project's ../package folder and open it.
+Select the **Manifest editor** tab in App Studio, and then select **Import an existing app**. Locate the zip file that can be found in the project's **./package** folder and open it.
 
 ![Screenshot of the Microsoft Teams app in App Studio](../media/03-yo-teams-14.png)
 
@@ -309,13 +323,13 @@ The changes made to the app within App Studio aren't saved to your project. If y
 To download the project, select **Finish** > **Test and distribute** in the left pane in App Studio. Then select **Download**.
 
 > [!CAUTION]
-> Be careful if you chose to update the manifest.json file in your project with the one in the package downloaded from App Studio.
+> Be careful if you chose to update the **manifest.json** file in your project with the one in the package downloaded from App Studio.
 >
-> The manifest file in your project contains placeholder strings that are updated by the build and debugging process that's replaced when you test the project. using placeholder strings simplifies the development and debugging process.
+> The manifest file in your project contains placeholder strings that are updated by the build and debugging process that's replaced when you test the project. Using placeholder strings simplifies the development and debugging process.
 >
-> For instance, the placeholder `{{HOSTNAME}}` is replaced with the hosting URL of the app each time the package is re-created.
+> For example, the placeholder `{{HOSTNAME}}` is replaced with the hosting URL of the app each time the package is re-created.
 >
-> So you might not want to completely replace the existing manifest.json file with the file generated by App Studio.
+> So you might not want to completely replace the existing **manifest.json** file with the file generated by App Studio.
 
 ## Install and test the Microsoft Teams app
 
