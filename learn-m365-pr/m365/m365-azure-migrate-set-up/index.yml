@@ -16,7 +16,7 @@ abstract: |
   - Select the appropriate Azure Migrate tools for assessment and migration.  
 prerequisites: | 
  - Basic understanding of Microsoft Azure. If you are unfamiliar with this, we recommend you take [Microsoft Azure Fundamentals](https://docs.microsoft.com/learn/paths/azure-fundamentals/)
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/set-up-azure-migrate-server-migration.svg
 ratingEnabled: true
 levels:
 - intermediate
