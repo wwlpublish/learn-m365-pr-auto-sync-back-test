@@ -5,7 +5,7 @@ In this exercise, you’ll learn how to execute a messaging extension search com
 
 ## Add a new search messaging extension to the Teams app
 
-In a previous exercise, you created an action messaging extension that enabled a user to add the details of a planet to a message. 
+In a previous exercise, you created an action messaging extension that enabled a user to add the details of a planet to a message.
 
 In this section, you'll add a search messaging extension to find a specific planet.
 
@@ -139,7 +139,6 @@ After updating the app, go back to the 1:1 chat where you tested the messaging e
 Enter the string **outer** in the search box and wait a few seconds. Microsoft Teams will execute the search and return the results:
 
 ![Screenshot of a search messaging extension](../media/05-test-02.png)
-
 
 ## Summary
 

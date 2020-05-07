@@ -20,7 +20,7 @@ You'll use Node.js to create a custom Microsoft Teams app in this module. The ex
 - NPM (installed with Node.js) - v6.\* (or higher)
 - [Gulp](https://gulpjs.com/) - v4.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.\* (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.13.0 (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
@@ -148,7 +148,7 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Which manifest version would you like to use?**: 1.5
 - **Enter your Microsoft Partner Id, if you have one?**: (Leave blank to skip)
 - **What features do you want to add to your project?**: *(uncheck the default option **A Tab** using the <kbd>space</kbd> key and press <kbd>enter</kbd>)*
-- **The URL where you will host this solution?**: https://conversationalbot.azurewebsites.net
+- **The URL where you will host this solution?**: (Accept the default option)
 - **Would you like to include Test framework and initial tests?**: No
 - **Would you like to use Azure Applications Insights for telemetry?**: No
 
@@ -156,21 +156,6 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 > Most of the answers to these questions can be changed after creating the project. For example, the URL where the project will be hosted isn't important at the time of creating or testing the project.
 
 After answering the generator's questions, the generator will create the scaffolding for the project and then execute `npm install` that downloads all the dependencies required by the project.
-
-> [!NOTE]
-> At the time of publication of this module, the project created by the Yeoman generator for Microsoft Teams includes outdated dependencies to Bot Framework related packages. In the next few steps, you will update the project's dependencies to use the currently recommended packages.
-
-Remove the older bot SDK related packages by executing the following command in the command line from the root folder of the project:
-
-```shell
-npm uninstall botbuilder-dialogs botbuilder-teams botframework-config
-```
-
-Next, upgrade the existing **botbuilder** package and **\@microsoft/teams-js** packages to the recommended versions:
-
-```shell
-npm install botbuilder@4.7.1 @microsoft/teams-js@1.6.0 -SE
-```
 
 ### Add a bot to the project
 
@@ -224,7 +209,7 @@ import { PlanetBot } from "./planetBot/planetBot";
 ```
 
 > [!TIP]
-> Locate the following lines in the **server.ts** file. These lines load all the components and registers them with the web server's REST API routing.
+> Locate the following lines in the **server.ts** file. These lines load all the components and registers them with the web server's REST API routing. Because you added the planet bot as an export to the **TeamsAppsComponents.ts** file, it will be added to the web server's API routing by the following code.
 >
 > ```typescript
 > import * as allComponents from "./TeamsAppsComponents";
@@ -308,7 +293,7 @@ At this point, your project is configured to host a messaging extension and your
 
 ## Code the messaging extension
 
-In this section, you will code the action command for the messaging extension. Your action command, when triggered, will present the user with a modal dialog where they can select a planet from our solar system. The modal dialog is implemented using an Adaptive card. After submitting the dialog, the action command will use another adaptive card to add details about the selected planet.
+In this section, you will code the action command for the messaging extension. Your action command, when triggered, will present the user with a modal dialog where they can select a planet from our solar system. The modal dialog is implemented using an Adaptive Card. After submitting the dialog, the action command will use another adaptive card to add details about the selected planet.
 
 ### Add a data set of planet details
 
@@ -409,9 +394,9 @@ Add a new file **planets.json** to the **./src/app/planetBot** folder and add th
 ]
 ```
 
-### Add an Adaptive card to display the modal dialog
+### Add an Adaptive Card to display the modal dialog
 
-Add a new file **planetSelectorCard.json** to the **./src/app/planetBot** folder and add the following JSON to it. This file contains the Adaptive card used to display the modal dialog:
+Add a new file **planetSelectorCard.json** to the **./src/app/planetBot** folder and add the following JSON to it. This file contains the Adaptive Card used to display the modal dialog:
 
 ```json
 {
@@ -513,13 +498,13 @@ protected handleTeamsMessagingExtensionFetchTask(context: TurnContext, action: M
 }
 ```
 
-This method will first load the planets and sort them by their order from the sun. It then loads the Adaptive card for the modal and updates the `planetSelector` dropdown box with the sorted planets. Finally, it returns an object of type `MessagingExtensionActionResponse` that defines the task module, implemented using an Adaptive card, to the Bot Framework. The Bot Framework will communicate with Microsoft Teams to display the card.
+This method will first load the planets and sort them by their order from the sun. It then loads the Adaptive Card for the modal and updates the `planetSelector` dropdown box with the sorted planets. Finally, it returns an object of type `MessagingExtensionActionResponse` that defines the task module, implemented using an Adaptive Card, to the Bot Framework. The Bot Framework will communicate with Microsoft Teams to display the card.
 
 At this point, the first part of the action command is complete that will prompt the user to select a planet with the messaging extension is triggered. The second part of the messaging extension is to use the selected planet to reply to the message that triggered the extension with the planet's details or, if the extension was triggered from the compose box, it will add the planet's details to a new message.
 
-### Add an Adaptive card to display the modal dialog
+### Add an Adaptive Card to display the modal dialog
 
-Add a new file **planetDisplayCard.json** to the **./src/app/planetBot** folder and add the following JSON to it. This file contains the Adaptive card used to generate the details of the planet:
+Add a new file **planetDisplayCard.json** to the **./src/app/planetBot** folder and add the following JSON to it. This file contains the Adaptive Card used to generate the details of the planet:
 
 ```json
 {
@@ -613,7 +598,7 @@ Add a new file **planetDisplayCard.json** to the **./src/app/planetBot** folder 
 
 ### Add the action command submit handler to the bot
 
-Next, add a handler to process the message when the messaging extension's Adaptive card is submitted. Add the following method to the `PlanetBot` class in the **./scr/app/planetBot/planetBot.ts**:
+Next, add a handler to process the message when the messaging extension's Adaptive Card is submitted. Add the following method to the `PlanetBot` class in the **./scr/app/planetBot/planetBot.ts**:
 
 ```typescript
 protected handleTeamsMessagingExtensionSubmitAction(context: TurnContext, action: MessagingExtensionAction): Promise<MessagingExtensionActionResponse> {
@@ -640,7 +625,7 @@ protected handleTeamsMessagingExtensionSubmitAction(context: TurnContext, action
 }
 ```
 
-The `handleTeamsMessagingExtensionSubmitAction()` method first retrieves the planet selected in the selector Adaptive card from the in-memory planets data set. It then uses a utility function to load and update the display Adaptive card with the planet's details. Finally, it returns a `MessagingExtensionActionResponse` object that sets the Adaptive card on the `composeExtension` property. Microsoft Teams will use this to display the details of the planet selected.
+The `handleTeamsMessagingExtensionSubmitAction()` method first retrieves the planet selected in the selector Adaptive Card from the in-memory planets data set. It then uses a utility function to load and update the display Adaptive Card with the planet's details. Finally, it returns a `MessagingExtensionActionResponse` object that sets the Adaptive Card on the `composeExtension` property. Microsoft Teams will use this to display the details of the planet selected.
 
 Lastly, add the utility method `getPlanetDetailCard()` to the `PlanetBot` class in the **./scr/app/planetBot/planetBot.ts**:
 
@@ -726,7 +711,7 @@ Now, in the compose box in the chat, select either the **Planet Messaging** icon
 
 ![Screenshot of the installed Microsoft Teams messaging extension](../media/03-test-05.png)
 
-When the messaging extension's task module is displayed, select a planet and then select the **Insert selected planet** button. The messaging extension's submit action handler is called which will add the updated Adaptive card to the compose box:
+When the messaging extension's task module is displayed, select a planet and then select the **Insert selected planet** button. The messaging extension's submit action handler is called which will add the updated Adaptive Card to the compose box:
 
 ![Screenshot of messaging extension in the compose message box](../media/03-test-06.png)
 
