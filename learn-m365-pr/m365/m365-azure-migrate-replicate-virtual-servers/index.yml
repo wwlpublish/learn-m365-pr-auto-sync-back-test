@@ -17,7 +17,7 @@ abstract: |
   - Explain how to migrate virtual machines into production.  
 prerequisites: | 
  - Basic understanding of Microsoft Azure. If you are unfamiliar with this, we recommend you take [Microsoft Azure Fundamentals](https://docs.microsoft.com/learn/paths/azure-fundamentals/)
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/replicate-migrate-virtual-machine-servers.svg
 ratingEnabled: true
 levels:
 - intermediate
