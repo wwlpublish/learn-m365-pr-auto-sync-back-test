@@ -3,11 +3,11 @@ You’ll pick up where you left off from the previous step.
 
 1. Choose **Clean up Test Migration**. This operation deletes your test virtual machine and prepares the replicated virtual machine for production migration.
 
-   ![Screenshot 10](../media/screenshot-10.png)
+   ![Clean up test migration](../media/clean-up-test-migration.png)
 
 1. When the clean-up is finished, from the **Replicating machines** view, select **Migrate**. That process will prompt you to shut down the virtual machine to avoid any data loss and then perform a final replication. We recommend doing this during off peak business hours as the virtual machine will be down for a few minutes.
 
-   ![Screenshot 11](../media/screenshot-11.png)
+   ![Migrate](../media/migrate.png)
 
 You can check the migration status as it validates the prerequisites, prepares for migration, creates the Azure VM, and then starts the Azure VM.
 
