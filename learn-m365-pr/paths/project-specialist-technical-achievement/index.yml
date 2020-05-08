@@ -25,7 +25,6 @@ products:
 - power-platform
 modules:
 - learn-m365.intro-teamwork-in-m365
-- learn-wwl.microsoft-runs-on-trust
 - learn-wwl.facilitate-teamwork-with-microsoft-365
 - learn-wwl.modern-communications-in-microsoft-teams
 - learn-bizapps.get-data-power-bi
@@ -34,5 +33,6 @@ modules:
 - learn-m365.security-m365
 - learn-m365.meet-compliance-with-m365
 - learn-wwl.compliance-with-microsoft-365
+- learn-wwl.microsoft-runs-on-trust
 trophy:
   uid: learn.wwl.project-specialist-technical-achievement.trophy
