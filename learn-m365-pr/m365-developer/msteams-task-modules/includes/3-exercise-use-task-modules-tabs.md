@@ -25,7 +25,7 @@ You'll use Node.js to create custom Microsoft Teams tabs in this module. The exe
 - NPM (installed with Node.js) - v6.\* (or higher)
 - [Gulp](https://gulpjs.com/) - v4.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.12\* (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.13.0 (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
@@ -51,11 +51,12 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Which manifest version would you like to use?**: v1.5
 - **Enter your Microsoft Partner ID, if you have one?**: (Leave blank to skip)
 - **What features do you want to add to your project?**: A Tab
-- **The URL where you will host this solution?**: https://youtubeplayer.azurewebsites.net
+- **The URL where you will host this solution?**: (Accept the default option)
 - **Would you like to include Test framework and initial tests?**: No
 - **Would you like to use Azure Applications Insights for telemetry?**: No
 - **Default Tab name? (max 16 characters)**: YouTube Player 1
 - **Do you want to create a configurable or static tab?**: Static
+- **Do you require Azure AD Single-Sign-On support for the tab?** No
 
 > [!NOTE]
 > Most of the answers to these questions can be changed after creating the project. For example, the URL where the project will be hosted isn't important at the time of creating or testing the project.
@@ -76,6 +77,9 @@ This gulp task will run many other tasks all displayed within the command-line c
 
 > [!NOTE]
 > Microsoft Teams requires all content displayed within a tab be loaded from an HTTPS request. In development, can be done using the tool [ngrok](https://www.ngrok.com) that creates a secure rotatable URL to your local HTTP webserver. Ngrok is included as a dependency within the project so there is nothing to setup or configure.
+
+> [!IMPORTANT]
+> Each time ngrok is started, it will generate a new dynamic subdomain for the URL. If you have to restart ngrok, you will need to repackage and and update the app in Microsoft Teams to make the installed app aware of the new URL. The optional licensed version of ngrok allows you to define and reuse the same subdomain.
 
 ![Screenshot of gulp ngrok-serve](../media/03-yo-teams-02.png)
 
@@ -133,18 +137,26 @@ import { Provider, Flex, Text, Button, Header } from "@fluentui/react";
 Replace the previous statement with the following import statement:
 
 ```typescript
-import { Provider, Flex, Text, Button, Header, ThemePrepared, themes, Input } from "@fluentui/react";
+import {
+  Provider,
+  Flex,
+  Text,
+  Button,
+  Header,
+  ThemePrepared,
+  themes,
+  Input
+} from "@fluentui/react";
 ```
 
 Update the state of the component to contain a list of items and a property for a new item. Locate the `IYouTubePlayer1TabState` interface in the **YouTubePlayer1Tab.tsx** file and add the following properties to it:
 
 ```typescript
 teamsTheme: ThemePrepared;
-todoItems: string[];
-newTodoValue: string;
+youTubeVideoId?: string;
 ```
 
-Add the following method to the `LearnPersonalTab` class that updates the component state to the theme that matches the currently selected Microsoft Teams client theme:
+Add the following method to the `YouTubePlayer1Tab` class that updates the component state to the theme that matches the currently selected Microsoft Teams client theme:
 
 ```typescript
 private updateComponentTheme = (teamsTheme: string = "default"): void => {
@@ -176,8 +188,7 @@ Initialize the current theme and state of the component. Locate the line `this.u
 ```typescript
 this.updateComponentTheme(this.getQueryVariable("theme"));
 this.setState(Object.assign({}, this.state, {
-  todoItems: ["Submit time sheet", "Submit expense report"],
-  newTodoValue: ""
+  youTubeVideoId: "jugBQqE_2sM"
 }));
 ```
 
@@ -230,7 +241,7 @@ Within the `componentWillMount()` method, add the following statement to the top
 
 ```typescript
 this.setState(Object.assign({}, this.state, {
-  youTubeVideoId: "jugBQqE_2sM"
+  youTubeVideoId: "VlEH4vtaxp4"
 }));
 ```
 
@@ -238,13 +249,17 @@ this.setState(Object.assign({}, this.state, {
 
 At this point, our Microsoft Teams app, implemented as a custom person tab is set up and working. Verify this by starting ngrok again and refreshing the Microsoft Teams interface.
 
+Increment the `version` property in the app's **./manifest/manifest.json** file so you can update the previously deployed Teams app.
+
 From the command line, navigate to the root folder for the project and execute the following command:
 
 ```shell
 gulp ngrok-serve
 ```
 
-Refresh the Microsoft Teams interface and notice the new UI you've implemented for the tab:
+Upgrade the previously deployed Teams app with the updated app package.
+
+In the browser, navigate back to the tab and notice the new UI you've implemented for the tab:
 
 ![Screenshot of the updated YouTube Player tab](../media/03-yo-teams-09.png)
 
@@ -318,7 +333,7 @@ Locate and open the **./src/app/scripts/YouTubePlayer1Tab.tsx** file.
 
 First, add the following utility method to the `YouTubePlayer1Tab` class:
 
-```js
+```typescript
 private appRoot(): string {
   if (typeof window === "undefined") {
     return "https://{{HOSTNAME}}";
@@ -328,7 +343,7 @@ private appRoot(): string {
 }
 ```
 
-Next, add the following code to the `onShowVideo` method:
+Next, add the following code to the `onShowVideo()` method:
 
 ```typescript
 private onShowVideo = (event: React.MouseEvent<HTMLButtonElement>): void => {
@@ -346,13 +361,17 @@ This code will create a new `taskInfo` object with the details of the task modul
 
 ### Test the video player task module
 
+Increment the `version` property in the app's **./manifest/manifest.json** file so you can update the previously deployed Teams app.
+
 From the command line, navigate to the root folder for the project and execute the following command:
 
 ```shell
 gulp ngrok-serve
 ```
 
-Refresh the Microsoft Teams interface. Select the **Show video** button. Microsoft Teams will load the video player task module with the specified video loaded in the embedded player:
+Upgrade the previously deployed Teams app with the updated app package.
+
+In the browser, navigate back to the tab in the Microsoft Teams interface. Select the **Show video** button. Microsoft Teams will load the video player task module with the specified video loaded in the embedded player:
 
 ![Screenshot of the YouTube Player task module](../media/03-yo-teams-10.png)
 
@@ -548,13 +567,19 @@ This code will first create the `taskInfo` object that defines the task module. 
 
 ### Test the video selector task module
 
+Increment the `version` property in the app's **./manifest/manifest.json** file so you can update the previously deployed Teams app.
+
 From the command line, navigate to the root folder for the project and execute the following command:
 
 ```shell
 gulp ngrok-serve
 ```
 
-Refresh the Microsoft Teams interface. Select the **update video** button. Microsoft Teams will load the video selector task module with the ID of the currently selected video in the text control.
+Upgrade the previously deployed Teams app with the updated app package.
+
+In the browser, navigate back to the tab in the Microsoft Teams interface.
+
+Select the **Change Video ID** button. Microsoft Teams will load the video selector task module with the ID of the currently selected video in the text control.
 
 ![Screenshot of the YouTube Selector task module](../media/03-yo-teams-11.png)
 
