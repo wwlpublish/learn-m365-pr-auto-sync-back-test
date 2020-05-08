@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-messaging-manage-recipient-resources.manage-groups
+title: Manage your groups
+metadata:
+  title: Manage your groups
+  description: Learn how to manage different mailbox types, configure mailbox policies and permissions, and understand licensing options. 
+  ms.date: 04/07/20
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 3
+content: |
+  [!include[](includes/manage-groups.md)]
