@@ -1,14 +1,14 @@
 ### YamlMime:LearningPath
 uid: learn.wwl.project-specialist-technical-achievement
 metadata:
-  title: Prepare to complete the Project Specialist Technical Achievement
+  title: Prepare to Complete the Project Specialist Technical Achievement
   description: Prepare to Complete the Project Specialist Technical Achievement
-  ms.date: 11/25/2019
+  ms.date: 05/07/2020
   author: wwlpublish
-  ms.author: Cecilia.PerezBenitoa
+  ms.author: ceperezb
   ms.topic: interactive-tutorial
   ms.prod: learning-wwl
-title: Prepare to complete the Project Specialist Technical Achievement
+title: Prepare to Complete the Project Specialist Technical Achievement
 prerequisites: |
   A general understanding of Microsoft 365.
 summary: |
@@ -19,12 +19,13 @@ levels:
 roles:
 - business-user
 products:
-- power-automate
 - m365
+- power-apps
+- power-automate
 - power-platform
-- powerapps
 modules:
 - learn-m365.intro-teamwork-in-m365
+- learn-wwl.microsoft-runs-on-trust
 - learn-wwl.facilitate-teamwork-with-microsoft-365
 - learn-wwl.modern-communications-in-microsoft-teams
 - learn-bizapps.get-data-power-bi
@@ -33,6 +34,5 @@ modules:
 - learn-m365.security-m365
 - learn-m365.meet-compliance-with-m365
 - learn-wwl.compliance-with-microsoft-365
-- learn-wwl.microsoft-runs-on-trust
 trophy:
   uid: learn.wwl.project-specialist-technical-achievement.trophy
