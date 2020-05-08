@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.move-to-modern-desktop-m365.3-deployment-options
-title: Deployment options for Windows 10 and Office 365 ProPlus
+title: Deployment options for Windows 10 and Microsoft 365 Apps
 metadata:
-  title: Deployment options for Windows 10 and Office 365 ProPlus
-  description: "Learn about the different options and tools available to help you deploy Windows 10 and Office 365 ProPlus."
+  title: Deployment options for Windows 10 and Microsoft 365 Apps
+  description: "Learn about the different options and tools available to help you deploy Windows 10 and Microsoft 365 Apps."
   ms.date: 04/24/2020
   author: wwlpublish
   ms.author: dahans
