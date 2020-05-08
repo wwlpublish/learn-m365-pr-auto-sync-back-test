@@ -17,14 +17,14 @@ You'll use Node.js to create custom Microsoft Teams tabs in this module. The exe
 - NPM (installed with Node.js) - v6.\* (or higher)
 - [Gulp](https://gulpjs.com/) - v4.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.\* (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.13.0 (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
 
 ## Create Microsoft Teams app
 
-Open your command prompt, navigate to a directory where you want to save your work, create a new folder **learn-msteams-taskmodules**, and change directory into that folder.
+Open your command prompt, navigate to a directory where you want to save your work, create a new folder **learn-msteams**, and change directory into that folder.
 
 Run the Yeoman Generator for Microsoft Teams by running the following command:
 
@@ -43,7 +43,7 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Which manifest version would you like to use?**: 1.5
 - **Enter your Microsoft Partner Id, if you have one?**: (Leave blank to skip)
 - **What features do you want to add to your project?**: An Outgoing Webhook
-- **The URL where you will host this solution?**: https://teamswebhooks.azurewebsites.net
+- **The URL where you will host this solution?**: (Accept the default option)
 - **Would you like to include Test framework and initial tests?**: No
 - **Would you like to use Azure Applications Insights for telemetry?**: No
 - **Name of your outgoing webhook?**: Teams Webhooks Outgoing Webhook
@@ -335,7 +335,7 @@ private static scrubMessage(incomingText: string): string {
 
 Finally, update the `requestHandler()` method:
 
-- Locate the following code and change the `message` declaration from a `const` to `let` as you will change change this value.
+- Locate the following code and change the `message` declaration from a `const` to `let` as you will change this value.
 
     ```typescript
     const message: Partial<builder.Activity> = {
@@ -361,16 +361,27 @@ Finally, update the `requestHandler()` method:
 From the command line, navigate to the root folder for the project and execute the following command:
 
 ```shell
-gulp ngrok-serve
+gulp serve
 ```
 
-In the console, locate the dynamic URL created by ngrok:
+Next, open a new console window and execute the following command:
 
-![Screenshot of the console with ngrok URL](../media/03-test-01.png)
+```shell
+ngrok http 3007
+```
+
+This command will create dynamic HTTP and HTTPS URLs with unique subdomains that will redirect to your local web server. Make a note of the dynamic HTTPS URL because you'll need it later.
+
+![Screenshot of the console with ngrok URL](../media/03-ngrok-01.png)
+
+> [!IMPORTANT]
+> Be careful to not stop and restart ngrok. Each time you start ngrok, it will create a new unique URL. This will require you to reconfigure your webhooks each time you restart it.
+>
+> However, you can restart the web server you started with **gulp serve** without impacting ngrok.
 
 Now let's add the outgoing webhook to a team in Microsoft Teams. In the browser, navigate to **https://teams.microsoft.com** and sign in with the credentials of a Work and School account.
 
-Once you are signed in, select a channel in a team you want to add the webhook to. From the channel's page, select the **+** in the top navigation:
+Once you're signed in, select a channel in a team you want to add the webhook to. From the channel's page, select the **+** in the top navigation:
 
 ![Screencast of the channel home page](../media/03-test-02.png)
 
@@ -382,7 +393,7 @@ This will take you to the **Manage Channel** page. Select the **Create an outgoi
 
 ![Screenshot of the Manage channel page](../media/03-test-04.png)
 
-In the **Create an outgoing webhook** dialog, enter the following values and select **Create**:
+In the **Create an outgoing webhook** dialog, enter the following values, and select **Create**:
 
 - **Name**: Planet Details
 - **Callback URL**: https://{{REPLACE_NGROK_SUBDOMAIN}}.ngrok.io/api/webhook
@@ -396,7 +407,16 @@ After creating the outgoing webhook, Microsoft Teams will display a security tok
 
 ![Screenshot of the security token](../media/03-test-05.png)
 
-Copy this value and and set the `SECURITY_TOKEN` property in the **./.env** file in the project.
+Copy this value and set the `SECURITY_TOKEN` property in the **./.env** file in the project.
+
+Stop the project's local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> and restart it by executing the following command:
+
+```shell
+gulp serve
+```
+
+> [!CAUTION]
+> Be careful to only stop the web server. Don't stop the ngrok process. If you do, you'll need to update the outgoing webhook registration with a new URL after restarting ngrok.
 
 Now you can test the webhook. Go to a channel's **Conversation** tab within the team and enter the message **@Planet Details Venus**. Notice that as you're typing the message, Microsoft Teams detects the name of the webhook:
 
