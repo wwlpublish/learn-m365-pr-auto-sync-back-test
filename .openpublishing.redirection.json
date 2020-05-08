@@ -694,6 +694,16 @@
       "source_path": "learn-m365-pr/wwl/select-a-cloud-deployment-model/6-summary-and-knowledge-check.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/select-a-cloud-deployment-model/",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/move-to-modern-desktop-m365/2-plan-for-deployment.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/move-to-modern-desktop-m365/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/move-to-modern-desktop-m365/6-summary-and-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/move-to-modern-desktop-m365/",
+      "redirect_document_id": true
     }
   ]
 }
