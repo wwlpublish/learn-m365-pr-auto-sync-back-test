@@ -29,13 +29,13 @@ roles:
 products:
 - m365
 units:
-- learn-m365.intro-teamwork-in-m365.learn-m365.teamwork-in-m365.1-introduction
-- learn-m365.intro-teamwork-in-m365.learn-m365.teamwork-in-m365.2-choose-the-right-tools
-- learn-m365.intro-teamwork-in-m365.learn-m365.teamwork-in-m365.3-work-together
-- learn-m365.intro-teamwork-in-m365.learn-m365.teamwork-in-m365.4-run-effective-meetings
-- learn-m365.intro-teamwork-in-m365.learn-m365.teamwork-in-m365.5-collect-and-share-knowledge
-- learn-m365.intro-teamwork-in-m365.learn-m365.teamwork-in-m365.6-create-communication-sites
-- learn-m365.intro-teamwork-in-m365.learn-m365.teamwork-in-m365.7-gain-insights
-- learn-m365.intro-teamwork-in-m365.learn-m365.teamwork-in-m365.8-summary-and-knowledge-check
+- learn-m365.teamwork-in-m365.1-introduction
+- learn-m365.teamwork-in-m365.2-choose-the-right-tools
+- learn-m365.teamwork-in-m365.3-work-together
+- learn-m365.teamwork-in-m365.4-run-effective-meetings
+- learn-m365.teamwork-in-m365.5-collect-and-share-knowledge
+- learn-m365.teamwork-in-m365.6-create-communication-sites
+- learn-m365.teamwork-in-m365.7-gain-insights
+- learn-m365.teamwork-in-m365.8-summary-and-knowledge-check
 badge:
   uid: learn-m365.intro-teamwork-in-m365.badge
