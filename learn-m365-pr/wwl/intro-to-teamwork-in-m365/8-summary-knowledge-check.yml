@@ -20,7 +20,7 @@ quiz:
     choices:
     - content: "Microsoft Teams, Yammer, Outlook, SharePoint"
       isCorrect: true
-      explanation: "Correct. All these tools together help foster teamwork and improve personal productivity."
+      explanation: "Correct. All these tools together help improve personal productivity."
     - content: "Word, Excel, Delve, Yammer"
       isCorrect: false
       explanation: "Incorrect. While some of these are productivity tools, they don't all contribute to better personal productivity."
