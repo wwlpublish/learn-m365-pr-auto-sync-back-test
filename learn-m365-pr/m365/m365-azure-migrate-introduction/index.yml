@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn-m365.m365-azure-migrate-introduction
+metadata:
+  title: Introduction to Azure Migrate for server migration 
+  description: Discover how Azure Migrate helps you realize the benefits of moving your on-premises VMware or Hyper-V server workloads to Azure infrastructure as a service (IaaS). Learn the process for migrating your workload agent-less, all within the hub. 
+  ms.date: 04/23/2020
+  author: ericweisberg
+  ms.author: v-erwe
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Introduction to Azure Migrate for server migration 
+summary: Discover how Azure Migrate helps you realize the benefits of moving your on-premises VMware or Hyper-V server workloads to Azure infrastructure as a service (IaaS). Learn the process for migrating your workload agent-less, all within the hub. 
+abstract: |
+  Upon completion of this module, you should be able to: 
+  - Explain the migration options for migrating to Azure infrastructure as a service. 
+  - List the steps of the migration process. 
+  
+prerequisites: | 
+ - Basic understanding of Microsoft Azure. If you are unfamiliar with this, we recommend you take [Microsoft Azure Fundamentals](https://docs.microsoft.com/en-us/learn/paths/azure-fundamentals/)
+iconUrl: /learn/achievements/introduction-azure-migrate-server-migration.svg
+ratingEnabled: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- azure
+- azure-virtual-machines
+- azure-migrate
+units:
+- learn-m365.m365-azure-migrate-introduction.introduction
+- learn-m365.m365-azure-migrate-introduction.migration-options
+- learn-m365.m365-azure-migrate-introduction.migration-process-overview
+- learn-m365.m365-azure-migrate-introduction.summary-knowledge-check
+
+badge: 
+  uid: learn-m365.m365-azure-migrate-introduction.badges

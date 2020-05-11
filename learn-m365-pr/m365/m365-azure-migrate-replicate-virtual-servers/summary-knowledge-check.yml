@@ -1,0 +1,56 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-azure-migrate-replicate-virtual-servers.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Learn the process for replicating, testing, and finally migrating your virtual machines into production. 
+  ms.date: 04/30/2020
+  author: ericweisberg
+  ms.author: v-erwe
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "You can replicate up to how many virtual machines per batch using the Azure Migrate: Server Migration tool?"
+      choices:
+      - content: "10"
+        isCorrect: false
+        explanation: "You can replicate up to 100 virtual machines per batch using the Azure Migrate: Server Migration tool. To do more, we recommend you perform replication in multiple batches."
+      - content: "100"
+        isCorrect: true
+        explanation: "You can replicate up to 100 virtual machines per batch using the Azure Migrate: Server Migration tool. To do more, we recommend you perform replication in multiple batches."
+      - content: "1000"
+        isCorrect: false
+        explanation: "You can replicate up to 100 virtual machines per batch using the Azure Migrate: Server Migration tool. To do more, we recommend you perform replication in multiple batches."
+
+    - content: "The Azure Migrate: Server Migration tool performs which of the following steps EXCEPT? "
+      choices:
+      - content: "Virtual machine discovery"
+        isCorrect: true
+        explanation: "The Azure Migrate: Server Migration tool performs virtual machine replication into Azure Storage, virtual machine testing, and virtual machine migration into production, but not virtual machine discovery."
+      - content: "Virtual machine replication into Azure Storage"
+        isCorrect: false
+        explanation: "The Azure Migrate: Server Migration tool performs virtual machine replication into Azure Storage, virtual machine testing, and virtual machine migration into production, but not virtual machine discovery."
+      - content: "Virtual machine testing"
+        isCorrect: false
+        explanation: "The Azure Migrate: Server Migration tool performs virtual machine replication into Azure Storage, virtual machine testing, and virtual machine migration into production, but not virtual machine discovery."
+      - content: "Virtual machine migration into production"
+        isCorrect: false
+        explanation: "The Azure Migrate: Server Migration tool performs virtual machine replication into Azure Storage, virtual machine testing, and virtual machine migration into production, but not virtual machine discovery."
+      
+    - content: "Which type of Virtual Network is recommended when testing your migration? "
+      choices:
+      - content: "An IPv4 network"
+        isCorrect: false
+        explanation: "A non-production Virtual Network built for testing is recommended when testing your migration."
+      - content: "A non-production Virtual Network built for testing."
+        isCorrect: true
+        explanation: "A non-production Virtual Network built for testing is recommended when testing your migration."
+      - content: "Azure ExpressRoute"
+        isCorrect: false
+        explanation: "A non-production Virtual Network built for testing is recommended when testing your migration."
+      
