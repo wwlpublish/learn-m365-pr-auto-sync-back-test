@@ -12,4 +12,4 @@ metadata:
 azureSandbox: false
 durationInMinutes: 3
 content: |
-  [!include[](includes/2-plan-for-deployment.md)]
+  [!include[](includes/2-plan-deployment.md)]
