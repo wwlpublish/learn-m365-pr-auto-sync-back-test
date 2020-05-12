@@ -2,7 +2,7 @@
 uid: learn-m365.adaptive-cards-create-engaging-messages.2-overview-create-cards
 metadata:
   title: Overview of Adaptive Cards
-  description: Developers can use Adaptive Cards to create engaging messages that are rendered into a native UI that adapts to the hosted app experience. Adaptive Cards are authored in JSON can be used for Outlook Actionable Messages, Microsoft Teams conversations, and many other host applications. In this unit, you’ll learn about Adaptive Cards, where they can be used and how to create Adaptive Cards with the online designer.
+  description: Developers can use Adaptive Cards to create engaging messages that are rendered into a native UI that adapts to the hosted app experience. In this unit, you’ll learn about Adaptive Cards, where they can be used and how to create Adaptive Cards with the online designer.
   ms.date: 05/12/2020
   author: andrewconnell
   ms.author: v-johnco

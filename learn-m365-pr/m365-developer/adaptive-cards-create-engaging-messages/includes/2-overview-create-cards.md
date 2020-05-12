@@ -10,7 +10,7 @@ Adaptive Cards are platform-agnostic snippets of UI, authored in JSON, that apps
 
 The cards are created using an open card exchange format enabling developers to exchange UI content in a common and consistent way. Adaptive Cards can be rendered natively in a host application such as Outlook, Microsoft Teams, Microsoft Windows, and even custom applications.
 
-## Goals of Adaptive cards
+## Goals of Adaptive Cards
 
 The goals for Adaptive Cards are:
 
@@ -35,7 +35,7 @@ Adaptive Cards are great for card authors:
 - **Input controls**: Your card can include input controls for gathering information from the user that is viewing the card.
 - **Better tooling**: An open card ecosystem means better tooling that is shared by everyone.
 
-### For Experience Owners
+### For experience owners
 
 If you are an app developer who wants to tap into an ecosystem of third-party content, you will love Adaptive Cards because:
 

@@ -14,19 +14,14 @@ The designer contains multiple panels that serve different purposes, as shown in
 1. **Rendered Card**: Preview rendering of the card as it would appear in the currently selected host app.
 1. **Card Payload Editor**: The browser-friendly JSON editor contains the source of the Adaptive Card that's rendered in the **Rendered Card** pane.
 1. **Card Structure**: The card is represented in this panel as a hierarchical structure. Notice that as you select elements in this panel, the corresponding control is highlighted in the **Rendered Card** pane.
-1. **Data Structure**: The data structure contained in the **Sample Data Editor** panel is displayed in this panel.
 1. **Element Properties**: The properties, including those that aren't specified in the source of the Adaptive Card, are displayed in this panel for the control currently selected in the **Card Structure** panel.
 1. **Sample Data Editor**: This panel contains the JSON used when using the templating capability of Adaptive Cards.
-
-Simplify the designer by selecting the panel minimize button for the **Data Structure** and **Sample Data Editor** panels. These panels will be pinned to the right and bottom borders of the designer:
-
-![Screenshot of the Adaptive Card Designer](../media/03-adaptive-card-designer-02.png)
 
 ### Load and modify an existing Adaptive Card sample
 
 The designer has sample cards you can open and customize to get comfortable with both Adaptive Cards and the designer.
 
-Select the **Open Sample** button in the top navigation. Select one of the available samples.
+Select the **New card** button in the top navigation. Select one of the available samples.
 
 ![Screenshot selecting a sample card](../media/03-designer-select-sample-01.png)
 
@@ -72,9 +67,6 @@ Preview the card rendering in different host apps. By default, the **Bot Framewo
 #### Activity Card rendered in Windows Notifications
 
 ![Screenshot of the Activity Card sample rendered in Windows](../media/03-activity-update-card-windows.png)
-
-> [!NOTE]
-> Adaptive Cards for Windows Notification is planned for a future version of Windows.
 
 ## Create a new Adaptive Card
 
@@ -194,7 +186,7 @@ The layout of the card is implemented as JSON, except the values of data driven 
 
 For example, to set the value of a TextBox control of a planet with the property `planetName` from a data file, set the `text` property on the TextBox to `${planetName}`.
 
-## Update the planet example for Adaptive Card Templating
+## Update the planet example for Adaptive Card templating
 
 Replace the existing card layout in the **Card Payload Editor** panel with the following JSON:
 
