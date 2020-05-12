@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.adaptive-cards-create-engaging-messages.7-exercise-microsoft-teams
+metadata:
+  title: Exercise - Create custom Microsoft Teams task modules with Adaptive Cards
+  description: In this exercise, you'll use Adaptive Cards to implement custom task modules in Microsoft Teams.
+  ms.date: 05/12/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Create custom Microsoft Teams task modules with Adaptive Cards
+durationInMinutes: 19
+content: |
+  [!include[](includes/7-exercise-microsoft-teams.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "Which of the following statements is correct about using Adaptive Cards in Microsoft Teams task modules?"
+    choices:
+    - content: "To use an Adaptive Card in a task module, set the task module info object to the Adaptive Card JSON when calling the `startTask()` method."
+      isCorrect: false
+      explanation: "The Adaptive Card should be specified on the `card` property on the task module info object. The info object also contains properties for the task module's title and size."
+    - content: "To use an Adaptive Card in a task module, set the `card` property to the Adaptive Card JSON on the task module info object when calling the `startTask()` method."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Adaptive Cards can only be used to display information in task modules; they can't be used to collect and submit information from the user."
+      isCorrect: false
+      explanation: "Adaptive Cards can submit data back to the registered handler in a task module. When the user submits an action from an Adaptive Card, all input values are added as properties to a single returned object."
+  - content: "How does a tab get the value(s) from an Adaptive Card's submit action?"
+    choices:
+    - content: "All properties are returned in the `result` object of the callback defined in the `startTask()` method."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Adaptive cards include an additional property, `cardSubmission`, on the `result` object passed to the callback defined in the `startTask()` method."
+      isCorrect: false
+      explanation: "This isn't correct; a special property isn't created on the `result` for Adaptive Cards."
+    - content: "Adaptive Cards submit responses to the endpoint specified on the `card` property on the `TaskModuleTaskInfo` object."
+      isCorrect: false
+      explanation: "This isn't correct; Adaptive Cards include the values of all input controls in the `result` object of the configured callback."
