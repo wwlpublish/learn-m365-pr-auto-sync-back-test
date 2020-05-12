@@ -20,7 +20,7 @@ Azure Migrate is the other option and the focus of this module. Azure Migrate is
 
 ## Learn more
 
- - [How to run VMware in Azure - Demo Tutorial](https://www.microsoft.com/videoplayer/embed/RE4sOiW)
-- [Real life migrations to Azure and how they did it](https://www.microsoft.com/videoplayer/embed/RE4sOiN)
+ - [How to run VMware in Azure - Demo Tutorial](https://www.microsoft.com/videoplayer/embed/RE4sOiW?azure-portal=true)
+- [Real life migrations to Azure and how they did it](https://www.microsoft.com/videoplayer/embed/RE4sOiN?azure-portal=true)
 (Includes a demonstration of vMotion from an on-premises VMware environment using HCX into an Azure VMware instance)
 

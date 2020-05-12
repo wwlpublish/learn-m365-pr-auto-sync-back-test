@@ -23,5 +23,5 @@ You can export the assessment in a detailed Microsoft Excel spreadsheet. Using t
 After you are satisfied with your recommendations and the path forward, you can move on to the next step: replicating your virtual machines into Azure Storage, testing, and then production migration.
 
 ## Learn more
- - [How to run VMware in Azure - Demo Tutorial](https://www.microsoft.com/videoplayer/embed/RE4sOiW)
- - [Prerequisites setup guidance](https://docs.microsoft.com/azure/migrate/tutorial-prepare-vmware#prepare-azure)
+ - [How to run VMware in Azure - Demo Tutorial](https://www.microsoft.com/videoplayer/embed/RE4sOiW?azure-portal=true)
+ - [Prerequisites setup guidance](https://docs.microsoft.com/azure/migrate/tutorial-prepare-vmware#prepare-azure?azure-portal=true)
