@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.adaptive-cards-create-engaging-messages.3-exercise-online-designer
+metadata:
+  title: Exercise - Create and test Adaptive Cards with the online designer
+  description: In this exercise, you’ll learn how to create and test Adaptive Cards with the online designer.
+  ms.date: 05/12/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Create and test Adaptive Cards with the online designer
+durationInMinutes: 17
+content: |
+  [!include[](includes/3-exercise-online-designer.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "Which of the following options is a limitation of the Adaptive card online designer?"
+    choices:
+    - content: "Users can create new card or load existing sample cards to explore different options."
+      isCorrect: false
+      explanation: "Creating new cards and loading sample cards are both supported by the online designer."
+    - content: "Developers can export the JSON source of Adaptive Cards they're developing."
+      isCorrect: false
+      explanation: "Exporting the JSON of an Adaptive Card is supported by the online designer."
+    - content: "Developers can save Adaptive Cards they're designing, but not the templated data, provided they're signed in with their Microsoft Account."
+      isCorrect: true
+      explanation: "Correct! The online designer doesn't support saving cards."
+  - content: "Which of the following options can the Adaptive Card online designer not do?"
+    choices:
+    - content: "Preview Adaptive Cards in Microsoft Teams in all available themes."
+      isCorrect: true
+      explanation: "Correct! The designer only renders previews for Microsoft Teams in the light and dark theme, not the high contrast theme."
+    - content: "Preview Adaptive Cards in Outlook as Actionable Messages"
+      isCorrect: false
+      explanation: "The designer can render Adaptive Card previews for Outlook Actionable Messages."
+    - content: "Preview Adaptive Cards for the Windows Timeline from both Windows and macOS."
+      isCorrect: false
+      explanation: "The designer can render Adaptive Card previews for the Windows Timeline, regardless of the operating system of the developer using the online designer."

@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.adaptive-cards-create-engaging-messages.5-exercise-outlook-actionable-messages
+metadata:
+  title: Exercise - Create Actionable Messages for Outlook with Adaptive Cards
+  description: In this exercise, you'll use Adaptive Cards to implement an engaging user experience with Outlook Actionable Messages.
+  ms.date: 05/12/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Create Actionable Messages for Outlook with Adaptive Cards
+durationInMinutes: 31
+content: |
+  [!include[](includes/5-exercise-outlook-actionable-messages.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "How can you replace an existing Adaptive Card in an email from a remote service after a user submits the rendered Adaptive Card in Outlook?"
+    choices:
+    - content: "Respond to the HTTP POST with the new Adaptive Card in the response body."
+      isCorrect: false
+      explanation: "Include the HTTP header `CARD-UPDATE-IN-BODY` in the response to Outlook."
+    - content: "Respond to the HTTP POST with the new Adaptive Card in the response body and an HTTP response header of `CARD-UPDATE-IN-BODY` set to `true`."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Respond to the HTTP POST with the new Adaptive Card in the response body and select the **Can update card in body** property in the service registration in the Actionable Email Developer Dashboard."
+      isCorrect: false
+      explanation: "There's no property in the Actionable Email Developer Dashboard, and you must also include the HTTP header `CARD-UPDATE-IN-BODY` in the response to Outlook."
+  - content: "What verification steps can your API do when it receives a submission from an Adaptive Card in Outlook?"
+    choices:
+    - content: "Validate the token in the authorization HTTP header was digitally signed by Microsoft, verify the sender of the original email the user responded to was sent by a trusted email address, and verify the responder is from a trusted domain."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Validate the token in the authorization HTTP header was digitally signed by Microsoft and verify the sender of the original email the user responded to was sent by a trusted email address."
+      isCorrect: false
+      explanation: "You can also verify the person who submitted the response is from a trusted domain."
+    - content: "Validate the token in the authorization HTTP header was digitally signed by Microsoft and verify the responder is from a trusted domain."
+      isCorrect: false
+      explanation: "You can also verify the sender of the original email to was sent from a trusted email address."
