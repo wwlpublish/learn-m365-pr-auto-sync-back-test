@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.adaptive-cards-create-engaging-messages.4-cards-outlook-actionable-messages
+metadata:
+  title: Use Adaptive Cards in Outlook Actionable Messages
+  description: Adaptive Cards are used to create Actionable Messages in Outlook to extend the functionality of email. They enable users to take quick actions without leaving Outlook. In this unit, you’ll learn what’s possible and required with Outlook Actionable Messages.
+  ms.date: 05/12/2020
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Use Adaptive Cards in Outlook Actionable Messages
+durationInMinutes: 13
+content: |
+  [!include[](includes/4-cards-outlook-actionable-messages.md)]
