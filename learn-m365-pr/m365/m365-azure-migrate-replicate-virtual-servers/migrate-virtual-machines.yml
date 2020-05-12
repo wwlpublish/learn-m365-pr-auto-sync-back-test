@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-azure-migrate-replicate-virtual-servers.migrate-virtual-machines
+title: Migrate the virtual machines into production
+metadata:
+  title: Migrate the virtual machines into production
+  description: Learn the process for replicating, testing, and finally migrating your virtual machines into production. 
+  ms.date: 04/20/2020
+  author: ericweisberg
+  ms.author: v-erwe
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/migrate-virtual-machines.md)]
