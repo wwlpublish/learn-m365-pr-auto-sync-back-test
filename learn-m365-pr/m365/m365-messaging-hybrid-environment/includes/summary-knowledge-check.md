@@ -1,4 +1,4 @@
-In this module, you learned how to plan and implement hybrid messaging environments, the role of an Edge server, and the use of the Exchange Hybrid Agent.
+In this module, you learned about the choices for a hybrid environment while keeping your infrastructure secure. You also saw how to run the Hybrid Configuration wizard to ensure that the migration is as straightforward as possible.
 
 Now that you have completed this module, you should be able to:
 
@@ -6,4 +6,5 @@ Now that you have completed this module, you should be able to:
 - Explain free/busy access.
 - Explain the decision between Classic and Modern hybrid.
 - Describe the Edge server role.
-- Explain how to use the Hybrid Configuration Wizard and the Exchange Hybrid Agent.
+- Configure organization configuration transfer.
+- Configure hybrid topology.

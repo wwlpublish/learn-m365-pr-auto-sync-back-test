@@ -3,12 +3,12 @@ uid: learn-m365.m365-messaging-hybrid-environment.introduction
 title: Introduction to planning and implementing a hybrid environment
 metadata:
   title: Introduction to planning and implementing a hybrid environment
-  description: Learn how to plan and implement hybrid messaging environments, the role of an Edge server, and the use of the Exchange Hybrid Agent. 
-  ms.date: 04/23/2020
+  description: Your organization has migrated many workloads to Microsoft Azure, and you now intend to migrate to a hybrid Exchange environment. You need to consider the choices for a hybrid environment while keeping your infrastructure secure. You’ll plan the migration process to ensure that it’s as straightforward as possible. 
+  ms.date: 05/12/2020
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 3
+durationInMinutes: 4
 content: |
   [!include[](includes/introduction.md)]

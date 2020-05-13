@@ -3,8 +3,8 @@ uid: learn-m365.m365-messaging-migration.summary-knowledge-check
 title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
-  description: Learn about messaging migration methods and endpoints, and how to migrate from non-Microsoft systems.
-  ms.date: 04/23/2020
+  description: Plan a migration from Exchange Server on-premises and other email systems to Microsoft 365 in the cloud.
+  ms.date: 05/13/2020
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
@@ -15,39 +15,51 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Question here"
+    - content: "You have an on-premises Exchange Server 2013 mail system with 3,000 mailboxes. What type of migration should you use to move to Microsoft 365?"
       choices:
-      - content: "Choice 1"
+      - content: "Cutover migration"
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
+        explanation: "Cutover migrations do not support more than 2,000 mailboxes and are only recommended if you have fewer than 150 mailboxes."
+      - content: "Express hybrid migration"
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+        explanation: "•	You should only consider express hybrid migrations when you have fewer than 500 mailboxes."
+      - content: "Full hybrid migration"
         isCorrect: true
-        explanation: "explanation"
+        explanation: "•	For Exchange Server 2010 or later, with thousands of mailboxes to move, a full hybrid migration is recommended."
 
-    - content: "Question here"
+    - content: "You want to perform a cutover migration from a small on-premises Exchange Server 2007 system to Exchange Online. Which kind of migration endpoint should you create?"
       choices:
-      - content: "Choice 1"
+      - content: "Exchange Remote"
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+        explanation: "Use Exchange Remote endpoints for migrations from Exchange Server in a hybrid environment. You cannot create a hybrid environment with Exchange Server 2007."
+      - content: "Outlook Anywhere"
         isCorrect: true
-        explanation: "explanation"
+        explanation: "Use Outlook Anywhere endpoints for cutover migrations where there’s no hybrid environment configured."
+      - content: "IMAP"
+        isCorrect: false
+        explanation: "Use IMAP endpoints for migrating from non-Microsoft IMAP servers, or for Exchange Server 2000 or earlier."
       
-    - content: "Question here"
+    - content: "You are about to execute a full hybrid migration from Exchange Server 2013 to Exchange Online. Which component does Exchange Online use to list mailboxes and access their content?"
       choices:
-      - content: "Choice 1"
+      - content: "The migration endpoint"
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+        explanation: "The migration endpoint specifies the location of the on-premises Exchange server, but not the mailboxes."
+      - content: "The MRS Proxy service"
         isCorrect: true
-        explanation: "explanation"
+        explanation: "In a hybrid migration, Exchange Online queries the MRS Proxy service to find out where each mailbox is located and access its content."
+      - content: "The comma-separated file that you supply"
+        isCorrect: false
+        explanation: "You do not need to supply a comma-separated file when you execute a full hybrid migration."
       
+    - content: "You are performing a migration of mailboxes from an on-premises IMAP server to Exchange Online. Although you’ve entered the address of the IMAP server correctly in the migration wizard, Exchange Online fails to connect to the IMAP server. Which of the following actions might fix the problem?"
+      choices:
+      - content: "Add a column to the comma-separated file."
+        isCorrect: false
+        explanation: "The comma-separated file lists the mailboxes to migrate and maps them to mailboxes in Exchange Online; the file does not specify how to connect to the on-premises server."
+      - content: "Use an Outlook Anywhere migration endpoint instead of an IMAP migration endpoint."
+        isCorrect: false
+        explanation: "An IMAP migration endpoint is the right type to use; changing endpoint type will not solve the connection problem."
+      - content: "Reconfigure the on-premises firewall."
+        isCorrect: true
+        explanation: "To make an IMAP connection to the on-premises IMAP server, Exchange Online usually uses port 143 or 993; by default, these ports are usually closed on most internet-facing firewalls."
+        

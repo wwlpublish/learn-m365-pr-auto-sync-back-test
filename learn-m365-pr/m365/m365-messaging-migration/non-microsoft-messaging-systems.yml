@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.m365-messaging-migration.non-microsoft-messaging-systems
-title: Migrate from non-Microsoft messaging systems 
+title: Migrate from other messaging systems 
 metadata:
-  title: Migrate from non-Microsoft messaging systems  
-  description: Learn about messaging migration methods and endpoints, and how to migrate from non-Microsoft systems. 
-  ms.date: 04/23/2020
+  title: Migrate from other messaging systems  
+  description: Plan a migration from Exchange Server on-premises and other email systems to Microsoft 365 in the cloud. 
+  ms.date: 05/13/2020
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 3
+durationInMinutes: 4
 content: |
   [!include[](includes/non-microsoft-messaging-systems.md)]
