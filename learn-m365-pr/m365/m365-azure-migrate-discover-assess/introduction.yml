@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.m365-azure-migrate-discover-assess.introduction
-title: Introduction to discovering and assessing Azure Migrate for server migration
+title: Discover and Assess your on-premises servers with Azure Migrate
 metadata:
-  title: Introduction to discovering and assessing Azure Migrate for server migration
+  title: Discover and Assess your on-premises servers with Azure Migrate
   description: Explore the Azure Migrate tools for discovering and assessing your virtual machine servers. Learn how to install and configure a virtual machine appliance in your virtualization host infrastructure. 
   ms.date: 04/29/2020
   author: ericweisberg
