@@ -1,0 +1,53 @@
+### YamlMime:ModuleUnit
+uid: uid: learn-m365.m365-compliance-insider-manage-customer-lockbox.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Customer Lockbox supports requests to access data in Exchange Online, SharePoint Online, and OneDrive when Microsoft engineers need to access customer content to determine root cause and fix an issue. Customer Lockbox requires the engineer to request access from the customer as a final step in the approval workflow. This gives organizations the option to approve or deny these requests and provide direct-access control to the customer.
+  author: ericweisberg
+  ms.author: v-erwe
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+ 
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Question here"
+      choices:
+      - content: "Choice 1"
+        isCorrect: false
+        explanation: "explanation"
+      - content: "Choice 2"
+        isCorrect: false
+        explanation: "explanation"
+      - content: "Choice 3"
+        isCorrect: true
+        explanation: "explanation"
+
+    - content: "Question here"
+      choices:
+      - content: "Choice 1"
+        isCorrect: false
+        explanation: "explanation"
+      - content: "Choice 2"
+        isCorrect: false
+        explanation: "explanation"
+      - content: "Choice 3"
+        isCorrect: true
+        explanation: "explanation"
+      
+    - content: "Question here"
+      choices:
+      - content: "Choice 1"
+        isCorrect: false
+        explanation: "explanation"
+      - content: "Choice 2"
+        isCorrect: false
+        explanation: "explanation"
+      - content: "Choice 3"
+        isCorrect: true
+        explanation: "explanation"
+      
