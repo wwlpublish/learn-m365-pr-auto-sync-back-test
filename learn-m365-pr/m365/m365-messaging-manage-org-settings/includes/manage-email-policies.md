@@ -77,4 +77,4 @@ Remove-EmailAddressPolicy -Identity <EmailAddressPolicyIdentity>
 - [Email address format window in the EAC](https://docs.microsoft.com/exchange/email-addresses-and-address-books/email-address-policies/eap-procedures?view=exchserver-2019#email-address-format-window-in-the-eac?azure-portal=true)
 - [Recipient filters in the EAC](https://docs.microsoft.com/exchange/email-addresses-and-address-books/email-address-policies/eap-procedures?view=exchserver-2019#recipient-filters-in-the-eac?azure-portal=true)
 - [Address types](https://docs.microsoft.com/Exchange/email-addresses-and-address-books/email-address-policies/email-address-policies?view=exchserver-2016#address-types?azure-portal=true)
-- [PowerShell command reference library](https://docs.microsoft.com/en-us/powershell/windows/get-started?view=win10-ps?azure-portal=true)
+- [PowerShell command reference library](https://docs.microsoft.com/powershell/windows/get-started?view=win10-ps?azure-portal=true)

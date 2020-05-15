@@ -76,7 +76,7 @@ quiz:
         explanation: "No, the only thing you can change is the email address template."
 
       - content: "You are about to create a new organizational relationship to a new company. Before you can run the New-OrganizationalRelationship cmdlet, you first need to find out which domains the new company has setup for cloud-based authentication. Which of the following describe how you will accomplish this?"
-       choices:
+      choices:
       - content: "Run the Get-OrganizationalRelationship cmdlet."
         isCorrect: false
         explanation: "No, you use the Get-FederationInfomation cmdlet."
@@ -91,7 +91,7 @@ quiz:
         explanation: "Yes, this is how you find the domains configured for cloud-based authentication."
 
       - content: "Which statement describes when Outlook add-ins might apepar in the Office ribbon?"
-       choices:
+      choices:
       - content: "A new add-in appears when the user closes and restarts Outlook."
         isCorrect: false
         explanation: "No, it can take up to 24 hours for the add-in to show up, even if the user restarts the app."
