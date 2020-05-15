@@ -1,4 +1,4 @@
-In this module, you learned to plan and manage organizational settings such as global address lists, offline address books, address policies, organizational sharing, and add-ins in Exchange Online.
+You learned how to manage Global Address Lists, Offline Address Books, address book policies, email address policies. You also learned how to configure organizational sharing and how to manage add-ins. 
 
 Now that you've completed this module, you should be able to:
 
