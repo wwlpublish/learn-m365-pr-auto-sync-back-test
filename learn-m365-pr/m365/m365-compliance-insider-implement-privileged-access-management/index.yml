@@ -1,5 +1,5 @@
 ### YamlMime:Module
-uid: learn-m365.m365-implement-privileged-access-management
+uid: learn-m365.m365-compliance-insider-implement-privileged-access-management
 metadata:
   title: Implement privileged access management
   description: Privileged access management allows granular access control over privileged admin tasks in Office 365. Privileged access management requires users to request just-in-time access to complete elevated and privileged tasks through a highly scoped and time-bound approval workflow. This configuration gives users just-enough-access to perform the task at hand without risking exposure of sensitive data or critical configuration settings. 
@@ -30,10 +30,10 @@ products:
 - m365
 - office-365
 units:
-- learn-m365.m365-implement-privileged-access-management.introduction
-- learn-m365.m365-implement-privileged-access-management.case-study
-- learn-m365.m365-implement-privileged-access-management.enable
-- learn-m365.m365-implement-privileged-access-management.summary-knowledge-check
+- learn-m365.m365-compliance-insider-implement-privileged-access-management.introduction
+- learn-m365.m365-compliance-insider-implement-privileged-access-management.case-study
+- learn-m365.m365-compliance-insider-implement-privileged-access-management.enable
+- learn-m365.m365-compliance-insider-implement-privileged-access-management.summary-knowledge-check
 
 badge: 
-  uid: learn-m365.m365-implement-privileged-access-management.badges
+  uid: learn-m365.m365-compliance-insider-implement-privileged-access-management.badges
