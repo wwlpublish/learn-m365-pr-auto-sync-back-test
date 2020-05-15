@@ -18,7 +18,7 @@ quiz:
     - content: "Which of the following describes the two recipient filters available?"
       choices:
       - content: "Precanned recipient filters and global recipients filters"
-        isCorrect: fals
+        isCorrect: false
         explanation: "No, the two filters are precanned recipient and *custom* recipient filters."
       - content: "Contact recipient filters and custom recipient filters"
         isCorrect: false
