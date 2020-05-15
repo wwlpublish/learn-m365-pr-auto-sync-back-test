@@ -53,4 +53,4 @@ Remove-OfflineAddressBook -Identity "My OAB"
 - [Manage the offline address book](https://docs.microsoft.com/Exchange/address-books/offline-address-books/offline-address-books?azure-portal=true)
 - [Address lists](https://docs.microsoft.com/Exchange/address-books/address-lists/address-lists?azure-portal=true)
 - [Modify role groups](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups?azure-portal=true)
-- [PowerShell command reference library](https://docs.microsoft.com/en-us/powershell/windows/get-started?view=win10-ps?azure-portal=true)
+- [PowerShell command reference library](https://docs.microsoft.com/powershell/windows/get-started?view=win10-ps?azure-portal=true)
