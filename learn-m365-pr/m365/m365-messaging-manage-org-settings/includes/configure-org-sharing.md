@@ -24,7 +24,7 @@ You can create an organization relationship by using either the Exchange admin c
 >[!NOTE]
 >Cross-tenant configurations don't support personal contacts for free/busy lookup. Contacts must be included in the global address list for free/busy lookup to work.
 
-## reate an organization relationship by using the Exchange Online PowerShell cmdlets
+## Create an organization relationship by using the Exchange Online PowerShell cmdlets
 
 This example creates an organization relationship with Contoso, Ltd, with the following conditions:
 - An organization relationship is set up with contoso.com, northamerica.contoso.com, and europe.contoso.com.

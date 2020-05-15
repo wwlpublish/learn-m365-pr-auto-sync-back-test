@@ -21,6 +21,7 @@ Depending on the size of the target audience, you may want to add or remove roll
 
    >[!NOTE]
    >Learn about the other states that apply to an add-in. See **Add-in states** in the **Learn more** section below.
+   
 6.	Select **Deploy**.
 7.	A green tick appears when the add-in has been deployed. You can follow the on-page instructions to test that the add-in has deployed successfully.
    >[!NOTE]
