@@ -12,4 +12,4 @@ metadata:
 
 durationInMinutes: 5
 content: |
-  [!include[](includes/intro-policies.md)]
+  [!include[](includes/introduction-policies.md)]
