@@ -1,0 +1,43 @@
+### YamlMime:Module
+uid: learn-m365.m365-compliance-insider-prepare-communications-compliance
+metadata:
+  title: Prepare communications compliance in Microsoft 365
+  description: Communications Compliance in Microsoft 365 is a solution that helps organizations address code-of-conduct policy violations in company communications, while also assisting organizations in regulated industries meet specific supervisory compliance requirements. Communication Compliance leverages machine learning to intelligently detect violations across different communication channels such as Microsoft Teams, Exchange Online, or Bloomberg instant messages.
+  ms.date: 05/15/2020
+  author: ericweisberg
+  ms.author: v-erwe
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Prepare communications compliance in Microsoft 365
+summary: Communications Compliance in Microsoft 365 is a solution that helps organizations address code-of-conduct policy violations in company communications, while also assisting organizations in regulated industries meet specific supervisory compliance requirements. Communication Compliance leverages machine learning to intelligently detect violations across different communication channels such as Microsoft Teams, Exchange Online, or Bloomberg instant messages.
+abstract: |
+  Upon completion of this module, you should be able to: 
+  - Explain how insider risk management in Microsoft 365 can help prevent, detect, and contain internal risks in an organization. 
+  - Describe the types of built-in, pre-defined policy templates. 
+  - List the prerequisites that need to be met before creating insider risk policies.
+  - Explain the types of actions you can take on an insider risk management case.
+  
+prerequisites: | 
+  - Cloud computing concepts. If you are unfamiliar with this topic, we recommend you take [Cloud Concepts - Principles of cloud computing](https://docs.microsoft.com/learn/modules/principles-cloud-computing/)
+  - Microsoft 365 product and services. If you are unfamiliar this with topic, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+
+iconUrl: http://via.placeholder.com/120x120
+ratingEnabled: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-365
+units:
+- learn-m365.m365-compliance-insider-prepare-communications-compliance.introduction
+- learn-m365.m365-compliance-insider-prepare-communications-compliance.identify-resolve
+- learn-m365.m365-compliance-insider-prepare-communications-compliance.intro-policies
+- learn-m365.m365-compliance-insider-prepare-communications-compliance.knowledge-check
+- learn-m365.m365-compliance-insider-prepare-communications-compliance.case-study
+- learn-m365.m365-compliance-insider-prepare-communications-compliance.investigate-remediate
+- learn-m365.m365-compliance-insider-prepare-communications-compliance.summary-knowledge-check
+
+badge: 
+  uid: learn-m365.m365-compliance-insider-prepare-communications-compliance.badges
