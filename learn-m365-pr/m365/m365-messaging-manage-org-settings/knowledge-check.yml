@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.m365-messaging-manage-org-settings.summary-knowledge-check
-title: Summary and knowledge check
+uid: learn-m365.m365-messaging-manage-org-settings.knowledge-check
+title: Check your knowledge
 metadata:
-  title: Summary and knowledge check
-  description: Plan and manage organizational settings such as global address lists, offline address books, address policies, organizational sharing, and add-ins in Exchange Online.
+  title: Check your knowledge
+  description: Check what you've learned about organizational settings in Exchange Online.
   ms.date: 04/03/2020
   author: AlexandraHrt
   ms.author: v-aleha
@@ -11,7 +11,6 @@ metadata:
   ms.prod: learning-m365
 durationInMinutes: 5
 content: |
-  [!include[](includes/summary-knowledge-check.md)]
 quiz:
     title: Check your knowledge
     questions:
@@ -90,14 +89,14 @@ quiz:
         isCorrect: true
         explanation: "Yes, this is how you find the domains configured for cloud-based authentication."
 
-      - content: "Which statement describes when Outlook add-ins might apepar in the Office ribbon?"
+      - content: "Which statement describes when Outlook add-ins might appear in the Office ribbon?"
       choices:
       - content: "A new add-in appears when the user closes and restarts Outlook."
         isCorrect: false
         explanation: "No, it can take up to 24 hours for the add-in to show up, even if the user restarts the app."
       - content: "It can take up to 24 hours."
         isCorrect: true
-        explanation: "Yes, it cna take up to 24 hours for the add-in to appear."
+        explanation: "Yes, it can take up to 24 hours for the add-in to appear."
       - content: "It can take up to an hour."
         isCorrect: false
         explanation: "No, it can take up to 24 hours for the add-in to show up, even if the user restarts the app."

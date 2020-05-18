@@ -34,20 +34,20 @@ If you want to selectively include the recipient in some address lists but not o
 To open the EAC, see Exchange admin center in Exchange Online.
 You can't use the EAC to hide Microsoft 365 groups from address lists.
 1.	In the EAC, go to one of the following locations based on the recipient type:
-   - **Recipients > Mailboxes**: User mailboxes.
-   - **Recipients > Groups**: Distribution groups, mail-enabled security groups, and dynamic distribution groups.
-   - **Recipients > Resources**: Room and equipment mailboxes.
-   - **Recipients > Contacts**: Mail users and mail contacts.
-   - **Recipients > Shared**: Shared mailboxes.
-   - **Public folders > Public folders**: Mail-enabled public folders.
+    - **Recipients > Mailboxes**: User mailboxes.
+    - **Recipients > Groups**: Distribution groups, mail-enabled security groups, and dynamic distribution groups.
+    - **Recipients > Resources**: Room and equipment mailboxes.
+    - **Recipients > Contacts**: Mail users and mail contacts.
+    - **Recipients > Shared**: Shared mailboxes.
+    - **Public folders > Public folders**: Mail-enabled public folders.
 2.	Select the recipient that you want to hide from address lists, and then click **Edit**.
 3.	The recipient properties window opens. What you do next depends on the recipient type:
-   - **Mailboxes, Contacts, and Shared**: On the **General** tab, select **Hide from address list**.
-   - **Groups**: On the **General** tab, select **Hide this group from address lists**.
-   - **Resources**: On the **General** tab, click **More options**, and then select **Hide from address lists**.
-   - **Public folders**: On the **General mail properties** tab, select **Hide from Exchange address list**.
+    - **Mailboxes, Contacts, and Shared**: On the **General** tab, select **Hide from address list**.
+    - **Groups**: On the **General** tab, select **Hide this group from address lists**.
+    - **Resources**: On the **General** tab, click **More options**, and then select **Hide from address lists**.
+    - **Public folders**: On the **General mail properties** tab, select **Hide from Exchange address list**.
 
-When you're finished, click **Save**.
+    When you're finished, click **Save**.
 
 ## Remove a global address list in Exchange Online
 You can use the procedures in this topic to remove any custom GALs that you've created. 

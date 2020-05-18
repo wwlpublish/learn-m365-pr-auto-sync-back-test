@@ -37,6 +37,7 @@ units:
 - learn-m365.m365-messaging-manage-org-settings.manage-email-policies
 - learn-m365.m365-messaging-manage-org-settings.configure-org-sharing
 - learn-m365.m365-messaging-manage-org-settings.manage-add-ins
-- learn-m365.m365-messaging-manage-org-settings.summary-knowledge-check
+- learn-m365.m365-messaging-manage-org-settings.knowledge-check
+- learn-m365.m365-messaging-manage-org-settings.summary
 badge: 
   uid: learn-m365.m365-messaging-manage-org-settings.badge

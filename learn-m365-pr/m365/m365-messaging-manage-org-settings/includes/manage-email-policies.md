@@ -5,14 +5,14 @@ After you create an email address policy, you need to apply the policy to recipi
 
 1.	In the EAC, go to **Mail flow > Email address policies**, and then click **Add**.
 2.	Configure the following email address policy settings:
-   - **Policy name**: Enter a unique, descriptive name for the policy.
-   - **Email address format**: Click **Add** to configure an email address template. After you add the first template to define the primary SMTP email address, you can add additional templates for proxy email addresses (SMTP or otherwise). Click **Edit** to modify an existing template.
+    - **Policy name**: Enter a unique, descriptive name for the policy.
+    - **Email address format**: Click **Add** to configure an email address template. After you add the first template to define the primary SMTP email address, you can add additional templates for proxy email addresses (SMTP or otherwise). Click **Edit** to modify an existing template.
 
-   You can also click **Remove** to delete existing templates.
->[!NOTE]
-> - The first SMTP email address template that you create here defines the primary (**Reply-To:**) SMTP email address. This template has the **Type** value **SMTP**, while other SMTP templates for proxy addresses have the **Type** value **smtp**.
-> - You can't delete the email address template that defines the primary SMTP email address in the policy. Instead, you can add or modify another template, configure it to as the primary email address, and then delete the original template.
-> - **Run this policy in this sequence with other policies**: The value that you can select here depends on how many other email address policies you've manually created. For example, for the first email address policy that you create, the only available value is 1. If you create another policy, you can select 1 or 2. Remember, the first email address policy that identifies a recipient configures the recipient's email addresses. All other policies are ignored, even if the first policy is unapplied and can't configure the recipient's email addresses.
+    You can also click **Remove** to delete existing templates.
+    >[!NOTE]
+    > - The first SMTP email address template that you create here defines the primary (**Reply-To:**) SMTP email address. This template has the **Type** value **SMTP**, while other SMTP templates for proxy addresses have the **Type** value **smtp**.
+    > - You can't delete the email address template that defines the primary SMTP email address in the policy. Instead, you can add or modify another template, configure it to as the primary email address, and then delete the original template.
+    > - **Run this policy in this sequence with other policies**: The value that you can select here depends on how many other email address policies you've manually created. For example, for the first email address policy that you create, the only available value is 1. If you create another policy, you can select 1 or 2. Remember, the first email address policy that identifies a recipient configures the recipient's email addresses. All other policies are ignored, even if the first policy is unapplied and can't configure the recipient's email addresses.
 
 
 When you're finished, click **Save**. You'll receive a warning message that tells you to click **Apply** to apply the policy to recipients. 
@@ -33,17 +33,17 @@ The same settings are available as when you created the policy, although the set
 
 1.	In the EAC, go to **Mail flow > Email address policies**, select the policy from the list, and then click **Edit**.
 2.	Configure the settings on the following tabs:
-   - **General**
-   - **Policy name**: A unique, descriptive name for the policy.
-   - **Run this policy in this sequence with other policies**: Remember, the first email address policy that identifies a recipient configures the recipient's email addresses. All other policies are ignored, even if the first policy is unapplied and can't configure the recipient's email addresses.
-   - **Email address format**
+    - **General**
+    - **Policy name**: A unique, descriptive name for the policy.
+    - **Run this policy in this sequence with other policies**: Remember, the first email address policy that identifies a recipient configures the recipient's email addresses. All other policies are ignored, even if the first policy is unapplied and can't configure the recipient's email addresses.
+    - **Email address format**
 
-   You can also click **Remove** to delete existing email address templates.
+    You can also click **Remove** to delete existing email address templates.
 
-   >[!NOTE]
-   >- The **Type** value **SMTP** indicates the primary SMTP email address, and the value smtp (not bold and lowercase) indicates a proxy address.
-   >- You can't delete the email address template that defines the primary SMTP email address in the policy. Instead, you can add or modify another template, configure it to define the primary email address, and then delete the original template.
-   >- Even if you configured a custom recipient filter in the Exchange Management Shell, you can still select **Preview recipients the policy applies to** here.
+     >[!NOTE]
+     >- The **Type** value **SMTP** indicates the primary SMTP email address, and the value smtp (not bold and lowercase) indicates a proxy address.
+     >- You can't delete the email address template that defines the primary SMTP email address in the policy. Instead, you can add or modify another template, configure it to define the primary email address, and then delete the original template.
+     >- Even if you configured a custom recipient filter in the Exchange Management Shell, you can still select **Preview recipients the policy applies to** here.
 3.	When you're finished, click **Save**. You'll receive a warning message that tells you to click **Apply** in the details pane to apply the policy to recipients. 
 
 ### Apply email address policies to recipients by using the EAC
