@@ -29,7 +29,6 @@ quiz:
       - content: "Precanned recipient filters and custom recipient filters"
         isCorrect: true
         explanation: "Yes, these are the two filters available."
-
     - content: "You want to use the offline address book named 'USEmployees' as the default address book. Which PowerShell cmdlet should you use?"
       choices:
       - content: "Set-OfflineAddressBook"
@@ -44,7 +43,6 @@ quiz:
       - content: "New-DefaultOAB"
         isCorrect: false
         explanation: "No, the Set-OfflineAddressBook cmdlet lets you specify which address book to use as the default."
-      
     - content: "Which of the following describes how a change to an address book policy takes effect for the user?"
       choices:
       - content: "Use the Set-AddressBookPolicy cmdlet to force an update."
@@ -59,8 +57,7 @@ quiz:
       - content: "Turn on AddressBookPolicy routing in the Exchange Admin Center."
         isCorrect: false
         explanation: "No, the user has to connect again for the policy change to take effect."
-
-      - content: "Which of the following can you change in the default email address policy?"
+    - content: "Which of the following can you change in the default email address policy?"
       choices:
       - content: "The name of the policy"
         isCorrect: false
@@ -74,8 +71,7 @@ quiz:
       - content: "Recipient filter settings."
         isCorrect: false
         explanation: "No, the only thing you can change is the email address template."
-
-      - content: "You are about to create a new organizational relationship to a new company. Before you can run the New-OrganizationalRelationship cmdlet, you first need to find out which domains the new company has setup for cloud-based authentication. Which of the following describe how you will accomplish this?"
+    - content: "You are about to create a new organizational relationship to a new company. Before you can run the New-OrganizationalRelationship cmdlet, you first need to find out which domains the new company has setup for cloud-based authentication. Which of the following describe how you will accomplish this?"
       choices:
       - content: "Run the Get-OrganizationalRelationship cmdlet."
         isCorrect: false
@@ -89,8 +85,7 @@ quiz:
       - content: "Run the Get-FederationInformation cmdlet."
         isCorrect: true
         explanation: "Yes, this is how you find the domains configured for cloud-based authentication."
-
-      - content: "Which statement describes when Outlook add-ins might appear in the Office ribbon?"
+    - content: "Which statement describes when Outlook add-ins might appear in the Office ribbon?"
       choices:
       - content: "A new add-in appears when the user closes and restarts Outlook."
         isCorrect: false
@@ -104,4 +99,3 @@ quiz:
       - content: "New add-ins won't appear until the next time the group policies are updated."
         isCorrect: false
         explanation: "No, it can take up to 24 hours for the add-in to show up, even if the user restarts the app."
-        
