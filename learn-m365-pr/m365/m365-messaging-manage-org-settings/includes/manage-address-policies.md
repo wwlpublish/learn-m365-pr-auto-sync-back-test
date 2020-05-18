@@ -38,7 +38,7 @@ To view the members of an address list, run the following command:
 $<VariableName> = Get-AddressList -Identity <AddressListIdentity>; Get-Recipient -ResultSize unlimited -RecipientPreviewFilter $<VariableName>.RecipientFilter | select Name,PrimarySmtpAddress,HiddenFromAddressListsEnabled
 ```
 
-Technically, this sytax returns all recipients (including hidden recipients) that match the recipient filters for the address list. The recipients that are actually *visible* in the address list have the HiddenFromAddressListsEnabled property value False.
+Technically, this syntax returns all recipients (including hidden recipients) that match the recipient filters for the address list. The recipients that are actually *visible* in the address list have the HiddenFromAddressListsEnabled property value False.
 
 ### Update address lists
 

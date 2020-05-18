@@ -48,7 +48,7 @@ The same settings are available as when you created the policy, although the set
 
 ### Apply email address policies to recipients by using the EAC
 1.	In the EAC, go to **Mail flow > Email address policies**.
-2.	Select the email address policy that you want to apply (one of the polciies with the status *Unapplied*).
+2.	Select the email address policy that you want to apply (one of the policies with the status *Unapplied*).
 3.	Click **Apply**.
 4.	Click **Yes** on the warning message to apply the policy
 
