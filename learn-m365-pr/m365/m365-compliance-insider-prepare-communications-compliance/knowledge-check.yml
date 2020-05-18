@@ -1,6 +1,6 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.m365-compliance-insider-prepare-communications-compliance.knowledge-check
-title:Knowledge check
+title: Knowledge check
 metadata:
   title: Knowledge check
   description: Communications Compliance in Microsoft 365 is a solution that helps organizations address code-of-conduct policy violations in company communications, while also assisting organizations in regulated industries meet specific supervisory compliance requirements. Communication Compliance leverages machine learning to intelligently detect violations across different communication channels such as Microsoft Teams, Exchange Online, or Bloomberg instant messages.
