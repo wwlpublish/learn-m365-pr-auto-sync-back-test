@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.m365-compliance-insider-plan-information-barriers.plan-information-barriers
+uid: learn-m365.m365-compliance-insider-plan-information-barriers.information-barriers
 title: Plan information barriers
 metadata:
   title: Plan information barriers
@@ -12,4 +12,4 @@ metadata:
 
 durationInMinutes: 5
 content: |
-  [!include[](includes/plan-information-barriers.md)]
+  [!include[](includes/information-barriers.md)]
