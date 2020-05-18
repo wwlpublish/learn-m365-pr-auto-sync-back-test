@@ -3,7 +3,7 @@ uid: learn-m365.m365-messaging-manage-org-settings.summary-knowledge-check
 title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
-  description: Plan and manage organizational settings such as global address lists, offline address books, address policies, organizational sharing, and add-ins in Exchange Online.
+  description: Review and validate what you've learned about organizational settings in Exchange Online.
   ms.date: 04/03/2020
   author: AlexandraHrt
   ms.author: v-aleha
@@ -15,39 +15,93 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Question here"
+    - content: "Which of the following describes the two recipient filters available?"
       choices:
-      - content: "Choice 1"
+      - content: "Precanned recipient filters and global recipients filters"
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
+        explanation: "No, the two filters are precanned recipient and *custom* recipient filters."
+      - content: "Contact recipient filters and custom recipient filters"
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+        explanation: "No, the two filters are *precanned* recipient and custom recipient filters."
+      - content: "All users recipient filters and contact recipient filters"
+        isCorrect: false
+        explanation: "No, the two filters are precanned recipient and custom recipient filters."
+      - content: "Precanned recipient filters and custom recipient filters"
         isCorrect: true
-        explanation: "explanation"
+        explanation: "Yes, these are the two filters available."
 
-    - content: "Question here"
+    - content: "You want to use the offline address book named 'USEmployees' as the default address book. Which PowerShell cmdlet should you use?"
       choices:
-      - content: "Choice 1"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+      - content: "Set-OfflineAddressBook"
         isCorrect: true
-        explanation: "explanation"
+        explanation: "Yes, the Set-OfflineAddressBook cmdlet lets you specify which address book to use as the default."
+      - content: "New-OfflineAddressBook"
+        isCorrect: false
+        explanation: "No, the Set-OfflineAddressBook cmdlet lets you specify which address book to use as the default."
+      - content: "Set-DefaultOAB"
+        isCorrect: false
+        explanation: "No, the Set-OfflineAddressBook cmdlet lets you specify which address book to use as the default."
+      - content: "New-DefaultOAB"
+        isCorrect: false
+        explanation: "No, the Set-OfflineAddressBook cmdlet lets you specify which address book to use as the default."
       
-    - content: "Question here"
+    - content: "Which of the following describes how a change to an address book policy takes effect for the user?"
       choices:
-      - content: "Choice 1"
+      - content: "Use the Set-AddressBookPolicy cmdlet to force an update."
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+        explanation: "No, the user has to connect again for the policy change to take effect."
+      - content: "The change in the address policy takes effect the next time the user connects to their mailbox."
         isCorrect: true
-        explanation: "explanation"
-      
+        explanation: "This is correct. Users won't see any changes until they reconnect."
+      - content: "Use the Set-Address cmdlet for an update."
+        isCorrect: false
+        explanation: "No, the user has to connect again for the policy change to take effect."
+      - content: "Turn on AddressBookPolicy routing in the Exchange Admin Center."
+        isCorrect: false
+        explanation: "No, the user has to connect again for the policy change to take effect."
+
+      - content: "Which of the following can you change in the default email address policy?"
+      choices:
+      - content: "The name of the policy"
+        isCorrect: false
+        explanation: "No, the only thing you can change is the email address template."
+      - content: "The priority of the policy."
+        isCorrect: false
+        explanation: "No, the only thing you can change is the email address template."
+      - content: "Email address templates"
+        isCorrect: true
+        explanation: "Yes, this is the only thing you can change."
+      - content: "Recipient filter settings."
+        isCorrect: false
+        explanation: "No, the only thing you can change is the email address template."
+
+      - content: "You are about to create a new organizational relationship to a new company. Before you can run the New-OrganizationalRelationship cmdlet, you first need to find out which domains the new company has setup for cloud-based authentication. Which of the following describe how you will accomplish this?"
+      choices:
+      - content: "Run the Get-OrganizationalRelationship cmdlet."
+        isCorrect: false
+        explanation: "No, you use the Get-FederationInfomation cmdlet."
+      - content: "On the new company server, from the Microsoft 365 admin center dashboard, go to **Admin > Exchange**, and then look at the **Security** tab."
+        isCorrect: false
+        explanation: "No, you use the Get-FederationInfomation cmdlet"
+      - content: "Run the Get-FederationSecruity cmdlet."
+        isCorrect: false
+        explanation: "No, you use the Get-FederationInfomation cmdlet."
+      - content: "Run the Get-FederationInformation cmdlet."
+        isCorrect: true
+        explanation: "Yes, this is how you find the domains configured for cloud-based authentication."
+
+      - content: "Which statement describes when Outlook add-ins might appear in the Office ribbon?"
+      choices:
+      - content: "A new add-in appears when the user closes and restarts Outlook."
+        isCorrect: false
+        explanation: "No, it can take up to 24 hours for the add-in to show up, even if the user restarts the app."
+      - content: "It can take up to 24 hours."
+        isCorrect: true
+        explanation: "Yes, it can take up to 24 hours for the add-in to appear."
+      - content: "It can take up to an hour."
+        isCorrect: false
+        explanation: "No, it can take up to 24 hours for the add-in to show up, even if the user restarts the app."
+      - content: "New add-ins won't appear until the next time the group policies are updated."
+        isCorrect: false
+        explanation: "No, it can take up to 24 hours for the add-in to show up, even if the user restarts the app."
+        
