@@ -3,7 +3,7 @@ uid: learn-m365.msteams-webhooks-connectors.7-exercise-o365-connectors
 metadata:
   title: Exercise - Create and add Office 365 Connectors to teams
   description: In this exercise, you’ll learn how to create an Office 365 Connector and add it to Microsoft Teams.
-  ms.date: 2/18/2020
+  ms.date: 05/08/2020
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial

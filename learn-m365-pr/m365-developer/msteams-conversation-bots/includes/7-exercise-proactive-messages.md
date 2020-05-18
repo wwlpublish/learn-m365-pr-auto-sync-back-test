@@ -5,18 +5,27 @@ In this exercise, you’ll update the existing Teams app to send a proactive mes
 
 ## Initiate a proactive message from the bot
 
-Locate and open the bot in the file **./src/app/convoBot/convoBot.ts**.
+Locate and open the bot in the file **./src/app/conversationalBot/ConversationalBot.ts**.
 
 Add the following objects to the existing `import {...} from "botbuilder";` statement you'll need:
 
 ```typescript
 import {
-  ChannelInfo, TeamsChannelData, ConversationParameters, teamsGetChannelId
-  Activity, BotFrameworkAdapter, ConversationReference, ConversationResourceResponse
+  ChannelInfo,
+  TeamsChannelData,
+  ConversationParameters,
+  teamsGetChannelId,
+  Activity,
+  BotFrameworkAdapter,
+  ConversationReference,
+  ConversationResourceResponse,
+  // existing imports omitted for clarity
 } from "botbuilder";
 ```
 
-Locate the card in the `else` statement in the `onMessage()` handler you added in the previous section. Add a second action button to the card that will trigger the creation of a new message:
+Locate the card in the `else` statement in the `onMessage()` handler you added in the previous section.
+
+Add a second action button to the card that will trigger the creation of a new message:
 
 ```typescript
 {
@@ -71,41 +80,29 @@ const card = CardFactory.adaptiveCard({
 });
 ```
 
-Next, add another `case` statement to the `switch` statement the `onMessage()` handler to detect this new action:
+Next, add another `case` statement to the `switch (context.activity.value.cardAction)` statement the `onMessage()` handler to detect this new action:
 
 ```typescript
 case "newconversation":
-  const channelId = teamsGetChannelId(context.activity);
   const message = MessageFactory.text("This will be the first message in a new thread");
-  const newConversation = await this.createConversationInChannel(context, channelId, message);
+  await this.createConversation(context, message);
   break;
 ```
 
-The last step is to add the `createConversationInChannel()` method that will create the new conversation. Add the following method to the `ConvoBot` class:
+The last step is to add the `createConversation()` method that will create the new conversation. Add the following method to the `ConversationalBot` class:
 
 ```typescript
-private async createConversationInChannel(context: TurnContext, teamsChannelId: string, message: Partial<Activity>): Promise<[ConversationReference, string]> {
-  // create parameters for the new conversation
-  const conversationParameters = <ConversationParameters>{
-    isGroup: true,
-    channelData: <TeamsChannelData>{
-      channel: <ChannelInfo>{
-        id: teamsChannelId
-      }
-    },
-    activity: message
-  };
-
+private async createConversation(context: TurnContext, message: Partial<Activity>): Promise<void> {
   // get a reference to the bot adapter & create a connection to the Teams API
   const adapter = <BotFrameworkAdapter>context.adapter;
-  const connectorClient = adapter.createConnectorClient(context.activity.serviceUrl);
 
   // create a new conversation and get a reference to it
-  const conversationResourceResponse: ConversationResourceResponse = await connectorClient.conversations.createConversation(conversationParameters);
   const conversationReference = <ConversationReference>TurnContext.getConversationReference(context.activity);
-  conversationReference.conversation.id = conversationResourceResponse.id;
 
-  return [conversationReference, conversationResourceResponse.activityId];
+  // send message
+  await adapter.continueConversation(conversationReference, async turnContext => {
+    await turnContext.sendActivity(message);
+  });
 }
 ```
 

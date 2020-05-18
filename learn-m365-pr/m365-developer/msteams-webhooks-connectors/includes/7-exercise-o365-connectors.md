@@ -45,7 +45,7 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Which manifest version would you like to use?**: 1.5
 - **Enter your Microsoft Partner Id, if you have one?**: (Leave blank to skip)
 - **What features do you want to add to your project?**: A Connector
-- **The URL where you will host this solution?**: https://myfirstteamsconnector.azurewebsites.net
+- **The URL where you will host this solution?**: (Accept the default option)
 - **Would you like to include Test framework and initial tests?**: No
 - **Would you like to use Azure Applications Insights for telemetry?**: No
 - **What type of Connector would you like to include?**: A new Connector hosted in this solution

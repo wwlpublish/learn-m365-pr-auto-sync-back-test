@@ -17,21 +17,6 @@ First, update app's manifest to add channel support. Locate and open the **./src
 
 You must increment the version of the app to upgrade an existing installed version. Locate the property `version` and increment the version to something greater than the default value `0.0.1`.
 
-Next, locate the `bots.scopes` property. Add an addition value `teams` to the array so it looks like the following code:
-
-```json
-"bots": [
-  {
-    ...
-    "scopes": [
-      "personal",
-      "team"
-    ],
-    ...
-  }
-]
-```
-
 ### Update the bot code
 
 The next step is to update the bot's code.
@@ -40,31 +25,40 @@ In the previous exercise, our code was looking for the specific message `Mention
 
 However, in a channel conversation, a user must @mention the bot to trigger it. This results in a message containing a reference to the bot, not just the message submitted.
 
-While there are multiple ways to address this, let's handle it in a simple way: look for `MentionMe` at the end of the message.
+While there are multiple ways to address this, let's check the type of conversation the message is from and handle it correctly.
 
-Locate and open the bot in the file **./src/app/convoBot/convoBot.ts**. Locate the existing `onMessage()` handler in the class constructor. Add the following `else if` statement to find these new messages sent from a channel conversation:
+Locate and open the bot in the file **./src/app/conversationalBot/ConversationalBot.ts**. Locate the existing `onMessage()` handler in the class constructor and find the `if` statement that checks for the `mentionme` string. Replace the contents of the `if` statement to check the type of conversation the message was sent from to call the corresponding handler:
 
 ```typescript
-} else if (botMessageText.endsWith("</at> mentionme")) {
+if (context.activity.conversation.conversationType == "personal") {
+  await this.handleMessageMentionMeOneOnOne(context);
+} else {
   await this.handleMessageMentionMeChannelConversation(context);
+}
 ```
 
-The complete `onMessage()` handler should now look like the following:
+The complete `if` statement in the `onMessage()` handler should now look like the following:
 
 ```typescript
-this.onMessage(async (context: TurnContext, next: () => Promise<void>) => {
-  const botMessageText: string = context.activity.text.trim().toLowerCase();
-
-  if (botMessageText === "mentionme") {
+if (text.startsWith("mentionme")) {
+  if (context.activity.conversation.conversationType == "personal") {
     await this.handleMessageMentionMeOneOnOne(context);
-  } else if (botMessageText.endsWith("</at> mentionme")) {
+  } else {
     await this.handleMessageMentionMeChannelConversation(context);
   }
-  await next();
-});
+  return;
+} else if (text.startsWith("hello")) {
+  await context.sendActivity("Oh, hello to you as well!");
+  return;
+} else if (text.startsWith("help")) {
+  const dc = await this.dialogs.createContext(context);
+  await dc.beginDialog("help");
+} else {
+  await context.sendActivity(`I\'m terribly sorry, but my master hasn\'t trained me to do anything yet...`);
+}
 ```
 
-Finally, add the following method to the `ConvoBot` class to implement the handler for our new scenario:
+Finally, add the following method to the `ConversationalBot` class to implement the handler for our new scenario:
 
 ```typescript
 private async handleMessageMentionMeChannelConversation(context: TurnContext): Promise<void> {
@@ -76,7 +70,7 @@ private async handleMessageMentionMeChannelConversation(context: TurnContext): P
 
   const replyActivity = MessageFactory.text(`Hi ${mention.text}!`);
   replyActivity.entities = [mention];
-  const followupActivity = MessageFactory.text(`*We are in a channel conversation group chat in the !*`);
+  const followupActivity = MessageFactory.text(`*We are in a channel conversation*`);
   await context.sendActivities([replyActivity, followupActivity]);
 }
 ```
@@ -118,80 +112,72 @@ After installing the bot, when you @mention it and include the message `mentionm
 
 In this section, you'll update the bot to respond to unknown messages using an Adaptive card. The card's single action will trigger the bot to update the existing message with a new Adaptive card. The updated message will include an additional action that will trigger the bot to delete the message.
 
-Locate and open the bot in the file **./src/app/convoBot/convoBot.ts**. 
+Locate and open the bot in the file **./src/app/conversationalBot/ConversationalBot.ts**.
 
-Add the `CardFactory` and `ActionTypes` objects to the existing `import {...} from "botbuilder";` statement to import two more objects you'll need:
+Locate the existing `onMessage()` handler in the class constructor. Replace the `else` statement's contents with the following code to the existing `if` statement to respond with an adaptive card if the bot receives an unknown command:
 
 ```typescript
-import {
-  TeamsActivityHandler,
-  TurnContext,
-  MessageFactory,
-  MemoryStorage,
-  ActionTypes, CardFactory
-} from "botbuilder";
+const value = { cardAction: "update", count: 0 };
+const card = CardFactory.adaptiveCard({
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Adaptive card response",
+          "weight": "bolder",
+          "size": "large"
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Demonstrates how to respond with a card, update the card & ultimately delete the response.",
+          "wrap": true
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Update card",
+      "data": value
+    }
+  ]
+});
+await context.sendActivity({ attachments: [card] });
+return;
 ```
 
-Locate the existing `onMessage()` handler in the class constructor. Add the following `else` statement to the existing `if` statement to respond with an adaptive card if the bot receives an unknown command:
+The `onMessage()` handler's `if` statement should now look similar to the following:
 
 ```typescript
+if (text.startsWith("mentionme")) {
+  if (context.activity.conversation.conversationType == "personal") {
+    await this.handleMessageMentionMeOneOnOne(context);
+  } else {
+    await this.handleMessageMentionMeChannelConversation(context);
+  }
+  return;
+} else if (text.startsWith("hello")) {
+  await context.sendActivity("Oh, hello to you as well!");
+  return;
+} else if (text.startsWith("help")) {
+  const dc = await this.dialogs.createContext(context);
+  await dc.beginDialog("help");
 } else {
   const value = { cardAction: "update", count: 0 };
-  const card = CardFactory.adaptiveCard({
-    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-    "type": "AdaptiveCard",
-    "version": "1.0",
-    "body": [
-      {
-        "type": "Container",
-        "items": [
-          {
-            "type": "TextBlock",
-            "text": "Adaptive card response",
-            "weight": "bolder",
-            "size": "large"
-          }
-        ]
-      },
-      {
-        "type": "Container",
-        "items": [
-          {
-            "type": "TextBlock",
-            "text": "Demonstrates how to respond with a card, update the card & ultimately delete the response.",
-            "wrap": true
-          }
-        ]
-      }
-    ],
-    "actions": [
-      {
-        "type": "Action.Submit",
-        "title": "Update card",
-        "data": value
-      }
-    ]
-  });
+  const card = CardFactory.adaptiveCard({..});
   await context.sendActivity({ attachments: [card] });
-}
-```
-
-The `onMessage()` handler should now look like the following:
-
-```typescript
-this.onMessage(async (context: TurnContext, next: () => Promise<void>) => {
-  const botMessageText: string = context.activity.text.trim().toLowerCase();
-
-  if (botMessageText === "mentionme") {
-    await this.handleMessageMentionMeOneOnOne(context);
-  } else if (botMessageText.endsWith("</at> mentionme")) {
-    await this.handleMessageMentionMeChannelConversation(context);
-  } else {
-    const value = { cardAction: "update", count: 0 };
-    const card = CardFactory.adaptiveCard({..});
-    await context.sendActivity({ attachments: [card] });
-  }
-  await next();
+  return;
 });
 ```
 
@@ -260,28 +246,41 @@ The `deleteCardActivity()` deletes the card using the `deleteActivity()` method.
 
 The last step is to handle messages that are sent from the adaptive card correctly.
 
-Within the `onMessage()` method, add the following code at the very start of the method, before the existing code:
+1. Within the `onMessage()` method, locate the following line of code:
 
-```typescript
-// if a value property exists = adaptive card submit action
-if (context.activity.value) {
-  switch (context.activity.value.cardAction) {
-    case "update":
-      await this.updateCardActivity(context);
+    ```typescript
+    case ActivityTypes.Message:
+    ```
+
+1. You're going to add a conditional check to determine if the message is an action from our card or a message from the user. First, wrap the entire contents of this `case` statement in the `else` part of a new `if-else` block:
+
+    ```typescript
+    case ActivityTypes.Message:
+      // if a value property exists = adaptive card submit action
+      if () {
+        // TODO - insert card action logic
+      } else {
+        // existing code goes here
+      }
       break;
-    case "delete":
-      await this.deleteCardActivity(context);
+    ```
+
+1. Next, update the `if` statement to check if the message contains a `value` property:
+
+    ```typescript
+    case ActivityTypes.Message:
+      // if a value property exists = adaptive card submit action
+      if (context.activity.value) {
+        // TODO - insert card action logic
+      } else {
+        // existing code goes here
+      }
       break;
-  }
-} else {
-```
+    ```
 
-Close the `else` statement before the last line `await next();`. The final `onMessage()` method should look like the following code:
+1. Finally, add the following `switch` statement to the `if` block, replacing the `// TODO - insert card action logic` comment, to determine if the action requested should update or delete the card:
 
-```typescript
-this.onMessage(async (context: TurnContext, next: () => Promise<void>) => {
-  // if a value property exists = adaptive card submit action
-  if (context.activity.value) {
+    ```typescript
     switch (context.activity.value.cardAction) {
       case "update":
         await this.updateCardActivity(context);
@@ -290,22 +289,56 @@ this.onMessage(async (context: TurnContext, next: () => Promise<void>) => {
         await this.deleteCardActivity(context);
         break;
     }
-  } else {
-    const botMessageText: string = context.activity.text.trim().toLowerCase();
+    ```
 
-    if (botMessageText === "mentionme") {
-      await this.handleMessageMentionMeOneOnOne(context);
-    } else if (botMessageText.endsWith("</at> mentionme")) {
-      await this.handleMessageMentionMeChannelConversation(context);
-    } else {
-      const value = { cardAction: "update", count: 0 };
-      const card = CardFactory.adaptiveCard({
-        /* card omitted for readability */
-      });
-      await context.sendActivity({ attachments: [card] });
-    }
+The final `onMessage()` method should look like the following code:
+
+```typescript
+this.onMessage(async (context: TurnContext): Promise<void> => {
+  switch (context.activity.type) {
+    case ActivityTypes.Message:
+      // if a value property exists = adaptive card submit action
+      if (context.activity.value) {
+        switch (context.activity.value.cardAction) {
+          case "update":
+            await this.updateCardActivity(context);
+            break;
+          case "delete":
+            await this.deleteCardActivity(context);
+            break;
+        }
+      } else {
+        let text = TurnContext.removeRecipientMention(context.activity);
+        text = text.toLowerCase();
+        if (text.startsWith("mentionme")) {
+          if (context.activity.conversation.conversationType == "personal") {
+            await this.handleMessageMentionMeOneOnOne(context);
+          } else {
+            await this.handleMessageMentionMeChannelConversation(context);
+          }
+          return;
+        } else if (text.startsWith("hello")) {
+          await context.sendActivity("Oh, hello to you as well!");
+          return;
+        } else if (text.startsWith("help")) {
+          const dc = await this.dialogs.createContext(context);
+          await dc.beginDialog("help");
+        } else {
+          const value = { cardAction: "update", count: 0 };
+          const card = CardFactory.adaptiveCard({
+            // code omitted for brevity
+          });
+          await context.sendActivity({ attachments: [card] });
+          return;
+        }
+        break;
+      }
+
+    default:
+      break;
   }
-  await next();
+  // Save state changes
+  return this.conversationState.saveChanges(context);
 });
 ```
 
@@ -340,21 +373,18 @@ Finally, select the **Delete card** button. After a few seconds, the card will b
 
 In this section, you'll update the bot to respond when someone likes a message from the bot.
 
-Locate and open the bot in the file **./src/app/convoBot/convoBot.ts**.
+Locate and open the bot in the file **./src/app/conversationalBot/ConversationalBot.ts**.
 
-Add the following handler to the existing class constructor method:
+Locate the existing `this.onMessageReaction()` handler in the class constructor method and replace its contents with the following code:
 
 ```typescript
-this.onReactionsAdded(async (context: TurnContext, next: () => Promise<void>) => {
-  if (context.activity.reactionsAdded) {
-    context.activity.reactionsAdded.forEach(async (reaction) => {
-      if (reaction.type === "like") {
-        await context.sendActivity("Thank you!");
-      }
-    });
-  }
-  await next();
-});
+if (context.activity.reactionsAdded) {
+  context.activity.reactionsAdded.forEach(async (reaction) => {
+    if (reaction.type === "like") {
+      await context.sendActivity("Thank you!");
+    }
+  });
+}
 ```
 
 This code will execute when a user adds a reaction to a message from the bot. If the reaction is a *like*, the bot will reply with a *"Thank you!"* message

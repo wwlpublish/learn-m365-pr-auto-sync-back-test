@@ -20,7 +20,7 @@ You'll use Node.js to create a custom Microsoft Teams app in this module. The ex
 - NPM (installed with Node.js) - v6.\* (or higher)
 - [Gulp](https://gulpjs.com/) - v4.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.\* (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.13.0 (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
@@ -46,7 +46,7 @@ Enter **resource group** in the **Search the marketplace** input box, and select
 
 On the **Resource Group** page, select the **Create** button to create a new resource group.
 
-Select a valid subscription, enter a name for the resource group, and select the wanted region. *None of these choices will impact the bot registration and are up to you.*
+Select a valid subscription, enter a name for the resource group, and select the wanted region. _None of these choices will impact the bot registration and are up to you._
 
 ![Screenshot of creating a resource group](../media/03-azure-portal-03.png)
 
@@ -62,19 +62,19 @@ Enter **bot** in the **Search the marketplace** input box, and select **Bot Chan
 
 In the **Bot Channels Registration** blade, enter the following values and then select **Create**:
 
-- **Bot handle**: *Enter a globally unique name for the bot*
-- **Subscription**: *Select the subscription you selected previously when creating the resource group*
-- **Resource group**: *Select the resource group you created previously*
-- **Location**: *Select your preferred Azure region*
-- **Pricing tier**: *Select a preferred pricing tier; the F0 tier is free*
+- **Bot handle**: _Enter a globally unique name for the bot_
+- **Subscription**: _Select the subscription you selected previously when creating the resource group_
+- **Resource group**: _Select the resource group you created previously_
+- **Location**: _Select your preferred Azure region_
+- **Pricing tier**: _Select a preferred pricing tier; the F0 tier is free_
 - **Messaging endpoint**: https://REPLACE_THIS.ngrok.io/api/messages
 
-    > The bot registration needs to know the endpoint of the web service where the bot is implemented. This will change each time you start the ngrok utility used in previous exercises.
+  > The bot registration needs to know the endpoint of the web service where the bot is implemented. This will change each time you start the ngrok utility used in previous exercises.
 
 - **Application Insights**: Off
 - **Microsoft App ID and password**: Auto create App ID and password
 
-Azure will start to provision the new resource. This will take a moment or two. Once it is finished, navigate to the bot resource in the resource group.
+Azure will start to provision the new resource. This will take a moment or two. Once it's finished, navigate to the bot resource in the resource group.
 
 ![Screenshot of searching for the bot registration resource](../media/03-azure-bot-registration-03.png)
 
@@ -94,7 +94,7 @@ Once this process is complete, you should see both the **Web Chat** and **Micros
 
 ### Retrieve the bot app ID and password
 
-When Azure created the bot, it also registered a new Azure AD app for the bot. You need to generate this new bot app a secret and copy the app's credentials.
+When Azure created the bot, it also registered a new Azure AD app for the bot. Generate this new bot app a secret and copy the app's credentials.
 
 Select **Settings** from the left-hand navigation. Scroll down to the **Microsoft App ID** section.
 
@@ -114,7 +114,7 @@ Select the **New client secret** button:
 
 ![Screenshot of the Certificates & Secrets page in the Azure AD admin center](../media/03-azure-bot-registration-07.png)
 
-When prompted, give the secret a description and select one of the expiration duration options provided and select **Add**. *What you enter and select doesn't matter for the exercise.*
+When prompted, give the secret a description and select one of the expiration duration options provided and select **Add**. _What you enter and select doesn't matter for the exercise._
 
 The **Certificate & Secrets** page will display the new secret. It's important you copy this value as it's only shown this one time; if you leave the page and come back, it will only show as a masked value.
 
@@ -127,7 +127,7 @@ Copy the value of the secret as you'll need it later.
 In this section, you'll create a new Node.js project.
 
 > [!NOTE]
-> At the time of publication of this module, there are plans to update the Yeoman generator for Microsoft Teams to scaffold new bot projects using the  the Bot Framework v4 SDK. However, at the time of publication of this module, the default project uses an older version of the Bot Framework SDK.
+> At the time of publication of this module, there are plans to update the Yeoman generator for Microsoft Teams to scaffold new bot projects using the the Bot Framework v4 SDK. However, at the time of publication of this module, the default project uses an older version of the Bot Framework SDK.
 >
 > Therefore, the steps in this section may change over time because the Yeoman generator may simplify the creation of bots. This exercise will guide you through creating a bot and configuring the project manually to use the Bot Framework v4 SDK because this is the current recommended approach.
 
@@ -147,68 +147,26 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Your (company) name? (max 32 characters)**: Contoso
 - **Which manifest version would you like to use?**: 1.5
 - **Enter your Microsoft Partner Id, if you have one?**: (Leave blank to skip)
-- **What features do you want to add to your project?**: *(uncheck the default option **A Tab** using the <kbd>space</kbd> key and press <kbd>enter</kbd>)*
-- **The URL where you'll host this solution?**: https://conversationalbot.azurewebsites.net
+- **What features do you want to add to your project?**: A Bot
+- **The URL where you will host this solution?**: (Accept the default option)
 - **Would you like to include Test framework and initial tests?**: No
 - **Would you like to use Azure Applications Insights for telemetry?**: No
+- **What type of Bot would you like to use?** A new Bot Framework bot
+- **What is the name of your bot?** Conversational Bot
+- **I need the Microsoft App ID for the Bot. It's found in the Bot Framework portal (https://dev.botframework.com).** (Enter the application ID of the bot you created in the previous step)
+- **Do you want to add a static tab to your bot?** No
+- **Do you want to support file upload to the bot?** No
 
 > [!NOTE]
 > Most of the answers to these questions can be changed after creating the project. For example, the URL where the project will be hosted isn't important at the time of creating or testing the project.
 
 After answering the generator's questions, the generator will create the scaffolding for the project and then execute `npm install` that downloads all the dependencies required by the project.
 
-> [!NOTE]
-> At the time of publication of this module, the project created by the Yeoman generator for Microsoft Teams includes outdated dependencies to Bot Framework related packages. In the next few steps, you'll update the project's dependencies to use the currently recommended packages.
-
-Remove the older bot SDK-related packages by executing the following command in the command line from the root folder of the project:
-
-```shell
-npm uninstall botbuilder-dialogs botbuilder-teams botframework-config
-```
-
-Next, upgrade the existing **botbuilder** package and **\@microsoft/teams-js** packages to the recommended versions:
-
-```shell
-npm install botbuilder@4.7.1 @microsoft/teams-js@1.6.0 -SE
-```
-
-### Add a bot to the project
-
-In this section, you'll manually add a bot to the project.
-
-Create a new folder **convoBot** in the **./src/app** folder.
-
-Create a new file **convoBot.ts** in this new folder **./src/app/convoBot/convoBot.ts**.
-
-Add the following code to the **convoBot.ts** file:
-
-```typescript
-import {
-  TeamsActivityHandler,
-  TurnContext,
-  MessageFactory
-} from "botbuilder";
-
-import * as Util from "util";
-const TextEncoder = Util.TextEncoder;
-
-import * as debug from "debug";
-const log = debug("msteams");
-
-export class ConvoBot extends TeamsActivityHandler {
-  constructor() {
-    super();
-
-    this.onMessage(async (context: TurnContext, next: () => Promise<void>) => {
-      // insert onMessage() handler code here
-    });
-  }
-}
-```
+### Update the default bot
 
 The first version of this bot will respond to the message **MentionMe** in a 1:1 chat conversation. The response will mention the user who initiated the conversation.
 
-To implement this functionality, add the following method to the `ConvoBot` class:
+To implement this functionality, locate and open the **./src/app/conversationalBot/ConversationalBot.ts** file and add the following method to the `ConversationalBot` class:
 
 ```typescript
 private async handleMessageMentionMeOneOnOne(context: TurnContext): Promise<void> {
@@ -224,83 +182,56 @@ private async handleMessageMentionMeOneOnOne(context: TurnContext): Promise<void
 }
 ```
 
-Next, call this method when the bot receives the specific string **MentionMe**. Add the following code to the `onMessage()` handler, replacing the code comment `// insert onMessage() handler code here` to implement this:
+The method handler you added contains a reference to two objects you haven't imported into the bot file.
+
+Add the following code after the existing `import` statements at the top of the file to import the `TextEncoder` object:
 
 ```typescript
-const botMessageText: string = context.activity.text.trim().toLowerCase();
+import * as Util from "util";
+const TextEncoder = Util.TextEncoder;
+```
 
-if (botMessageText === "mentionme") {
+Add a reference to the `MessageFactory` object, by adding it to the existing list of object references in the **botbuilder** package `import` at the top of the file:
+
+```typescript
+import {
+  StatePropertyAccessor,
+  CardFactory,
+  TurnContext,
+  MemoryStorage,
+  ConversationState,
+  ActivityTypes,
+  TeamsActivityHandler,
+  MessageFactory,
+} from 'botbuilder';
+```
+
+Next, call this method when the bot receives the specific string **MentionMe** by doing the following:
+
+1. Locate the handler `onMessage()` within the `constructor()`.
+1. Locate and replace the line `if (text.startsWith("hello")) {` in the `onMessage()` handler with the following code:
+
+```typescript
+if (text.startsWith("mentionme"))
   await this.handleMessageMentionMeOneOnOne(context);
-}
-await next();
+  return;
+} else if (text.startsWith("hello")) {
 ```
 
-### Expose the bot as part of the Node.js app's REST API
+### Update the project's environment variables
 
-After creating the bot, the next step is to expose it as part of the app's REST API.
+The project contains a file used during development to set environment variables to store secure values, such as the Azure AD application's ID and secret that the bot is associated with.
 
-First, add the bot to the **./src/app/TeamsAppsComponents.ts** file by adding the following code to the end of that file:
+You need to set these two values for the bot to work:
 
-```typescript
-export * from "./convoBot/convoBot";
-```
+1. Locate and open the file **./.env**.
+1. Locate the following section in the file, and set the values of the two properties that you obtained when registering the bot:
 
-This file is used in the core web server file. This file needs to be updated to expose the bot to the app's API and to configure a bot adapter for the app.
-
-Locate and open the web server file, **./src/app/server.ts**.
-
-Add the following two `import` statements after the existing `import` statements in the file:
-
-```typescript
-import { BotFrameworkAdapter } from "botbuilder";
-import { ConvoBot } from "./convoBot/convoBot";
-```
-
-> [!TIP]
-> Locate the following lines in the **server.ts** file. These lines load all the components and registers them with the web server's REST API routing.
->
-> ```typescript
-> import * as allComponents from "./TeamsAppsComponents";
-> ...
-> express.use(MsTeamsApiRouter(allComponents));
-> ```
-
-The last step is to configure the bot framework and call the bot when requests are received through the `/api/messages` path. Add the following code to the end of the **./src/app/server.ts** file:
-
-```typescript
-// register and load the bot
-const botAdapter = new BotFrameworkAdapter({
-  appId: process.env.MICROSOFT_APP_ID,
-  appPassword: process.env.MICROSOFT_APP_PASSWORD
-});
-
-// configure what happens when there is an unhandled error by the bot
-botAdapter.onTurnError = async (context, error) => {
-  console.error(`\n [bot.onTurnError] unhandled error: ${error}`);
-  await context.sendTraceActivity("OnTurnError Trace", `${error}`, "https://www.botframework.com/schemas/error", "TurnError");
-  await context.sendActivity("bot error");
-};
-
-// run the bot when messages are received on the specified path
-const bot = new ConvoBot();
-express.post("/api/messages", (request, response) => {
-  botAdapter.processActivity(request, response, async (context) => {
-    await bot.run(context);
-  });
-});
-```
-
-In the code above, the first section initializes the Bot Framework adapter with the Azure AD app credentials created when you registered the bot in the Azure portal. These two properties, the Azure AD app's ID and secret, are pulled from an environment variable. This project contains a file, **./.env** that is used to set environment variables when it runs. You need to set these two values for the bot to work:
-
-Locate and open the file **./.env**.
-
-Locate the following section in the file, and set the values of the two properties that you obtained when registering the bot:
-
-```txt
-# App Id and App Password ofr the Bot Framework bot
-MICROSOFT_APP_ID=
-MICROSOFT_APP_PASSWORD=
-```
+   ```txt
+   # App Id and App Password fir the Bot Framework bot
+   MICROSOFT_APP_ID=
+   MICROSOFT_APP_PASSWORD=
+   ```
 
 ### Register the bot in the Microsoft Teams app
 
@@ -330,7 +261,7 @@ From the **(2) Capabilities** > **Bots** page, select **Set up** to add a bot to
 Because you previously created a bot using the Microsoft Azure's Bot Framework, select **Existing bot** and set the following values and select **Save**:
 
 - **Bot ID**
-  - Connect to a different bot id: `<REPLACE_WITH_MICROSOFT_APP_ID>`
+  - Connect to a different bot ID: `<REPLACE_WITH_MICROSOFT_APP_ID>`
 - **Scope**: Personal, Team
 
 ![Screenshot of setting up a bot](../media/03-app-studio-05.png)
@@ -353,19 +284,23 @@ In the **./src/manifest/manifest.json** file, verify `icons` property's values, 
 
 Locate the property `id`. Change its value to match the GUID of the Azure AD app that was created when creating the bot in the Azure portal.
 
-Locate the property `bots`. Add a new bot to the collection of bots registered with this Microsoft Teams app by adding the following JSON to the array. This code will add our bot to the personal scope of the user when its installed. It includes a single help message that will show the command it supports, **MentionMe**.
+Locate the property `bots`. Verify it contains the following JSON that includes the new command added in App Studio:
 
 ```json
 "bots": [
   {
-    "botId": "<REPLACE_WITH_MICROSOFT_APP_ID>",
-    "scopes": ["personal"],
+    "botId": "{{MICROSOFT_APP_ID}}",
     "supportsFiles": false,
     "isNotificationOnly": false,
+    "scopes": [ "team", "personal" ],
     "commandLists": [
       {
-        "scopes": ["personal"],
+        "scopes": [ "team", "personal" ],
         "commands": [
+          {
+            "title": "Help",
+            "description": "Shows help information"
+          },
           {
             "title": "MentionMe",
             "description": "Sends message with @mention of the sender"
@@ -378,7 +313,7 @@ Locate the property `bots`. Add a new bot to the collection of bots registered w
 ```
 
 > [!IMPORTANT]
-> Ensure you replace the `botId` property's value with the Azure AD app ID you obtained when registering the bot.
+> Notice the `botId` property value. This will be replaced with the value listed in the **./.env** file when you build the project.
 
 At this point, your bot is ready to test!
 
@@ -425,7 +360,7 @@ Using the app bar navigation menu, select the **Mode added apps** button. Then s
 
 In the file dialog that appears, select the Microsoft Teams package in your project. This app package is a ZIP file that can be found in the project's **./package** folder.
 
-Once the package is uploaded, Microsoft Teams will display a summary of the app. Here you can see some "todo" items to address. *None of these "todo" items are important to this exercise, so you'll leave them as is.*
+Once the package is uploaded, Microsoft Teams will display a summary of the app. Here you can see some "todo" items to address. _None of these "todo" items are important to this exercise, so you'll leave them as is._
 
 ![Screenshot of Microsoft Teams app](../media/03-test-03.png)
 
