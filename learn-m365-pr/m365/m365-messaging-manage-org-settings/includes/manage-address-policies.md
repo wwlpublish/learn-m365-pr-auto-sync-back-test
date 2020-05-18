@@ -38,7 +38,7 @@ To view the members of an address list, run the following command:
 $<VariableName> = Get-AddressList -Identity <AddressListIdentity>; Get-Recipient -ResultSize unlimited -RecipientPreviewFilter $<VariableName>.RecipientFilter | select Name,PrimarySmtpAddress,HiddenFromAddressListsEnabled
 ```
 
-Technically, this returns all recipients (including hidden recipients) that match the recipient filters for the address list. The recipients that are actually *visible* in the address list have the HiddenFromAddressListsEnabled property value False.
+Technically, this sytax returns all recipients (including hidden recipients) that match the recipient filters for the address list. The recipients that are actually *visible* in the address list have the HiddenFromAddressListsEnabled property value False.
 
 ### Update address lists
 
@@ -49,40 +49,40 @@ For example, suppose the address list named Oregon and Washington Users uses the
 To update the address list, do the following:
 
 1.	Use the query from the address list to find all users that should be in the address list. For example:
-```PowerShell
-$Before = Get-User -Filter "((RecipientType -eq 'UserMailbox') -and ((StateOrProvince -eq 'Oregon') -or (StateOrProvince -eq 'Washington')))" -ResultSize Unlimited
-```
+
+    ```PowerShell
+    $Before = Get-User -Filter "((RecipientType -eq 'UserMailbox') -and ((StateOrProvince -eq 'Oregon') -or (StateOrProvince -eq 'Washington')))" -ResultSize Unlimited
+    ```
+
 2.	Change the required property to a temporary value. For example, change the *StateOrProvince* values from Oregon to OR, and Washington to WA:
-```PowerShell
-$Before | where {$_.StateOrProvince -eq 'Oregon'} | foreach {Set-User $_.Identity -StateOrProvince OR}
-```
-```PowerShell
-$Before | where {$_.StateOrProvince -eq 'Washington'} | foreach {Set-User $_.Identity -StateOrProvince WA}
-```
+
+    ```PowerShell
+    $Before | where {$_.StateOrProvince -eq 'Oregon'} | foreach {Set-User $_.Identity -StateOrProvince OR}
+    $Before | where {$_.StateOrProvince -eq 'Washington'} | foreach {Set-User $_.Identity -StateOrProvince WA}
+    ```
 
 3.	Find those same users again by using the temporary property values. For example:
-```PowerShell
-$After = Get-User -Filter "((RecipientType -eq 'UserMailbox') -and ((StateOrProvince -eq 'OR') -or (StateOrProvince -eq 'WA')))" -ResultSize Unlimited
-```
+     ```PowerShell
+     $After = Get-User -Filter "((RecipientType -eq 'UserMailbox') -and ((StateOrProvince -eq 'OR') -or (StateOrProvince -eq 'WA')))" -ResultSize Unlimited
+     ```
 4.	Change the temporary value back to the required value. For example, change the StateOrProvince values from OR to Oregon, and WA to Washington:
-```PowerShell
-$After | where {$_.StateOrProvince -eq 'OR'} | foreach {Set-User $_.Identity -StateOrProvince Oregon}
-```
-```PowerShell
-$After | where {$_.StateOrProvince -eq 'WA'} | foreach {Set-User $_.Identity -StateOrProvince Washington}
-```
+     ```PowerShell
+     $After | where {$_.StateOrProvince -eq 'OR'} | foreach {Set-User $_.Identity -StateOrProvince Oregon}
+     $After | where {$_.StateOrProvince -eq 'WA'} | foreach {Set-User $_.Identity -StateOrProvince Washington}
+     ```
 
 >[!NOTE]
 > The *title*, *department*, and *address* properties require the **Get-User** and **Set-User** cmdlets. *CustomAttribute1* through *CustomAttribute15* properties require the **Get-Mailbox** and **Set-Mailbox** cmdlets. 
 > If a only small number of users don't appear in the address list, you can modify the required property value for each user. For example:
 > 1.	Set a temporary property value for the user:
->```PowerShell
->Set-User -Identity <UserIdentity> -StateOrProvince WA
->```
+     > ```PowerShell
+     > Set-User -Identity <UserIdentity> -StateOrProvince WA
+     > ```
 > 2.	Change the temporary value back to the required value:
->```PowerShell
->Set-User -Identity <Identity> -StateOrProvince Washington
->```
+
+   > ```PowerShell
+    > Set-User -Identity <Identity> -StateOrProvince Washington
+    > ```
 
 ### Modify address lists
 
@@ -108,20 +108,20 @@ Hiding a recipient from address lists doesn't stop them from receiving email mes
 You can use the EAC to hide recipients from address lists.
 
 1.	In the EAC, go to one of the following locations based on the recipient type:
-   - Recipients > Mailboxes: User mailboxes.
-   - Recipients > Groups: Distribution groups, mail-enabled security groups, and dynamic distribution groups.
-   - Recipients > Resources: Room and equipment mailboxes.
-   - Recipients > Contacts: Mail users and mail contacts.
-   - Recipients > Shared: Shared mailboxes.
-   - Public folders > Public folders: Mail-enabled public folders.
+      - Recipients > Mailboxes: User mailboxes.
+      - Recipients > Groups: Distribution groups, mail-enabled security groups, and dynamic distribution groups.
+      - Recipients > Resources: Room and equipment mailboxes.
+      - Recipients > Contacts: Mail users and mail contacts.
+      - Recipients > Shared: Shared mailboxes.
+      - Public folders > Public folders: Mail-enabled public folders.
 2.	Select the recipient that you want to hide from address lists, and then click **Edit**.
 3.	What you do next depends on the recipient type:
-   - Mailboxes, Contacts, and Shared: Select **Hide from address list**.
-   - Groups: Select **Hide this group from address lists**.
-   - Resources: Click **More options**, and then select **Hide from address lists**.
-   - Public folders: Select **Hide from Exchange address list**.
+      - Mailboxes, Contacts, and Shared: Select **Hide from address list**.
+      - Groups: Select **Hide this group from address lists**.
+      - Resources: Click **More options**, and then select **Hide from address lists**.
+      - Public folders: Select **Hide from Exchange address list**.
 
-When you're finished, click Save.
+When you're finished, click **Save**.
 
 ## Configure global address list properties in Exchange Online
 

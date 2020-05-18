@@ -5,8 +5,8 @@ An offline address book (OAB) is a downloadable address list collection that Out
 
 2.	On the **Offline address book** page, select the following options:
 
-   - **Download changes since last Send/Receive**: This is the default. If you want to download the full OAB, clear this selection.
-   - **Choose address book**: Choose the offline address book that you want to use. You'll only see address books that you have access to (for example, the global address list).
+    - **Download changes since last Send/Receive**: This is the default. If you want to download the full OAB, clear this selection.
+    - **Choose address book**: Choose the offline address book that you want to use. You'll only see address books that you have access to (for example, the global address list).
 
 3.	Click **OK**. 
 

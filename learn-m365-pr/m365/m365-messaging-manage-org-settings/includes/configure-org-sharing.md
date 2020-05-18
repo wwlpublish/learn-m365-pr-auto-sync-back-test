@@ -1,4 +1,4 @@
-You can share calendar informaiton with an external business partner by setting up an organization relationship. As a Microsoft 365 admin, you can set up an organization relationship with another Microsoft 365 organization or with an Exchange on-premises organization.
+You can share calendar information with an external business partner by setting up an organization relationship. As a Microsoft 365 admin, you can set up an organization relationship with another Microsoft 365 organization or with an Exchange on-premises organization.
 
 You can create an organization relationship by using either the Exchange admin center or PowerShell cmdlets.
 
@@ -7,19 +7,21 @@ You can create an organization relationship by using either the Exchange admin c
 1.	On the Microsoft 365 admin center dashboard, go to **Admin > Exchange**.
 2.	Go to **organization > sharing**, and then click **New +**.
 3.	Type a friendly name for the organization relationship in **Relationship name**.
-5.	Type the domain for the external Microsoft 365 or Exchange on-premises organization you want to let see your calendars in **Domains to share with**. If you need to enter more than one domain, use a comma to separate the domain names. For example, contoso.com, service.contoso.com.
-6.	Select **Enable calendar free/busy information sharing** to turn on calendar sharing with the domains you listed. Set the sharing level for calendar free/busy information, and set which users can share calendar free/busy information.
+4.	Type the domain for the external Microsoft 365 or Exchange on-premises organization you want to let see your calendars in **Domains to share with**. If you need to enter more than one domain, use a comma to separate the domain names. For example, contoso.com, service.contoso.com.
+5.	Select **Enable calendar free/busy information sharing** to turn on calendar sharing with the domains you listed. Set the sharing level for calendar free/busy information, and set which users can share calendar free/busy information.
 
-   To set the free/busy access level, select one of the following:
+     To set the free/busy access level, select one of the following options:
       - **Calendar free/busy information with time only**
       - **Calendar free/busy with time, subject, and location**
 
-   To set which users will share calendar free/busy information, select one of the following:
+     To set which users will share calendar free/busy information, select one of the following options:
       - **Everyone in your organization**
       - **A specified security group**
 
-   Click **browse** to pick the security group from a list, then click **ok**.
+    Click **browse** to pick the security group from a list, then click **ok**.
+
 7.	Click **save** to create the organization relationship.
+
 
 >[!NOTE]
 >Cross-tenant configurations don't support personal contacts for free/busy lookup. Contacts must be included in the global address list for free/busy lookup to work.
@@ -58,34 +60,34 @@ You can change the settings of an organization relationship, such as changing th
 
 ### Add a domain to an organization relationship
 
-1.	From the Microsoft 365 admin center go to **Admin > Exchange**.
+1.	In the Microsoft 365 admin center, go to **Admin > Exchange**.
 2.	Go to **organization > sharing**.
 3.	In list view, under **Organization Sharing**, select the organization relationship Contoso, and then click **Edit**.
 4.	In **organization relationship > general**, don't change the **Name** for the organization relationship.
-5.	Enter the doman *service.contoso.com* in **Domains to share with**, then click **Add +**.
+5.	Enter the domain *service.contoso.com* in **Domains to share with**, then click **Add +**.
 6.	Click **save** to update the organization relationship.
 
 ### Disable free/busy sharing for the organization relationship
 
-1.	From the Microsoft 365 admin center go to **Admin > Exchange**.
+1.	In the Microsoft 365 admin center, go to **Admin > Exchange**.
 2.	Go to **organization > sharing**.
 3.	In list view, under **Organization Sharing**, select the organization relationship Contoso, and then click **Edit**.
-4.	In **organization relationship** click **sharing**.
+4.	Click **sharing** in **organization relationship**.
 5.	Clear the **Enable calendar free/busy information sharing** option to disable free/busy sharing. The free/busy access level and security group buttons will also be disabled.
 6.	Click **save** to update the organization relationship.
 
 ### Change the free/busy access level for the organization relationship
-1.	From the Microsoft 365 admin center go to **Admin > Exchange**.
+1.	In the Microsoft 365 admin center, go to **Admin > Exchange**.
 2.	Go to **organization > sharing**.
 3.	In list view, under **Organization Sharing**, select the organization relationship Contoso, and then click **Edit**.
-4.	In **organization relationship** click **sharing**.
+4.	Click **sharing** in **organization relationship**.
 5.	Select **Calendar free/busy information with time only**.
 6.	Click **save** to update the organization relationship.
 
 ## Remove an organization relationship in Exchange Online
 You can remove an organization relationship to disable calendar sharing with the other organization.
 
-1.	From the Microsoft 365 admin center go to **Admin > Exchange**.
+1.	In the Microsoft 365 admin center, go to **Admin > Exchange**.
 2.	Go to **organization > sharing**.
 3.	Under **Organization Sharing**, select an organization relationship, and then click **Delete**.
 4.	In the warning that appears, click **yes**.

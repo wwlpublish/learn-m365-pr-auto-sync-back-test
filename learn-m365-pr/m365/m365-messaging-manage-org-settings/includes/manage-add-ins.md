@@ -7,7 +7,7 @@ Consider rolling out add-ins in a phased approach to help ensure your add-in dep
 2.	Extend to a larger set of individuals within the business who will be using the add-in. Again, evaluate results and, if all went well, go to the next step of a full deployment.
 3.	Deploy to target audience of users.
 
-Depending on the size of the target audience, you may want to add or remove roll-out steps.
+Depending on the size of the target audience, you may want to add or remove steps.
 
 ## Deploy an Office add-in using the admin center
 
@@ -15,18 +15,18 @@ Depending on the size of the target audience, you may want to add or remove roll
 2.	Select **Deploy Add-in** at the top of the page. On the overview page, select **Next**.
 3.	Select an option and follow the instructions.
 4.	If you're adding an add-in from the Office Store, make your add-in selection. Notice that you can sort available add-ins by **Suggested for you**, **Rating**, or **Name**. You can only add free add-ins from the Office Store. Paid add-ins aren't currently supported. After you've selected your add-in, review and accept any additional terms and conditions.
-   >[!NOTE]
+    >[!NOTE]
       >When you use the Office Store option, updates and enhancements to the add-in are automatically made available to users without your intervention.
 5.	On the next page, select **Everyone**, **Specific users/groups**, or **Just me** to specify who the add-in is deployed to. You can search for users or groups.
 
-   >[!NOTE]
-   >Learn about the other states that apply to an add-in. See **Add-in states** in the **Learn more** section below.
+    >[!NOTE]
+    >Learn about the other states that apply to an add-in. See **Add-in states** in the **Learn more** section below.
    
 6.	Select **Deploy**.
 7.	A green tick appears when the add-in has been deployed. You can follow the on-page instructions to test that the add-in has deployed successfully.
-   >[!NOTE]
-   > You might need to restart Office to see the add-in icon appear on the ribbon of app. Outlook add-ins can take up to 24 hours to appear on the ribbon.
-8.	When the add-ins are all deployed, select **Next**. If you've deployed to just yourself, you can select **Change who has access to add-in** in order to deploy to more users.
+    >[!NOTE]
+    > You might need to restart Office to see the add-in icon appear on the ribbon of app. Outlook add-ins can take up to 24 hours to appear on the ribbon.
+8.	When the add-ins are all deployed, select **Next**. If you've deployed to just yourself, select **Change who has access to add-in** to deploy to more users.
 
 If you've deployed the add-in to members of your organization other than yourself, follow the instructions to announce the deployment of the add-in to those members.
 
@@ -80,9 +80,6 @@ Now that you've deployed an add-in, your users can start using it in their Offic
 
 ### View your add-ins
 If the add-in supports add-in commands, those commands appear on the Office ribbon. In the following example, the command **Search Citation** appears for the Citations add-in.
- 
-(insert art)
-Office ribbon with Search Citations
 
 If the add-in doesn't support add-in commands or if you want to view all deployed add-ins, you can view in **My Add-ins**.
 
@@ -91,11 +88,8 @@ If the add-in doesn't support add-in commands or if you want to view all deploye
 2.	Go to the **Admin Managed** tab in the Office Add-ins window.
 3.	Double-click the add-in you deployed earlier (in this example, Citations).
 
-   (insert art Alt-text Admin Managed tab of the Office Add-ins page)
-
 **In Outlook**
 1.	Select **Get Add-ins** on the **Home** ribbon. 
-   (insert art - Alt text Store button in Outlook)
 2.	Select **Admin-managed** in the left nav.
 
 
