@@ -1,0 +1,54 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-compliance-insider-plan-information-barriers.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Information barriers enable administrators to define policies to allow or prevent communications between groups of users in Microsoft Teams chats and channels. When information barrier policies are in place, people who should not communicate with other specific users won't be able to find, select, chat, or call those users. With information barriers, checks are in place to prevent unauthorized communication. 
+  ms.date: 05/15/2020
+  author: ericweisberg
+  ms.author: v-erwe
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+ 
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Question here"
+      choices:
+      - content: "Choice 1"
+        isCorrect: false
+        explanation: "explanation"
+      - content: "Choice 2"
+        isCorrect: false
+        explanation: "explanation"
+      - content: "Choice 3"
+        isCorrect: true
+        explanation: "explanation"
+
+    - content: "Question here"
+      choices:
+      - content: "Choice 1"
+        isCorrect: false
+        explanation: "explanation"
+      - content: "Choice 2"
+        isCorrect: false
+        explanation: "explanation"
+      - content: "Choice 3"
+        isCorrect: true
+        explanation: "explanation"
+      
+    - content: "Question here"
+      choices:
+      - content: "Choice 1"
+        isCorrect: false
+        explanation: "explanation"
+      - content: "Choice 2"
+        isCorrect: false
+        explanation: "explanation"
+      - content: "Choice 3"
+        isCorrect: true
+        explanation: "explanation"
+      
