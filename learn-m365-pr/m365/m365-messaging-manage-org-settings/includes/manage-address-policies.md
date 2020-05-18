@@ -75,10 +75,12 @@ To update the address list, do the following:
 > The *title*, *department*, and *address* properties require the **Get-User** and **Set-User** cmdlets. *CustomAttribute1* through *CustomAttribute15* properties require the **Get-Mailbox** and **Set-Mailbox** cmdlets. 
 > If a only small number of users don't appear in the address list, you can modify the required property value for each user. For example:
 > 1.	Set a temporary property value for the user:
+
          > ```PowerShell
          > Set-User -Identity <UserIdentity> -StateOrProvince WA
          > ```
 > 2.	Change the temporary value back to the required value:
+
          > ```PowerShell
          > Set-User -Identity <Identity> -StateOrProvince Washington
          > ```
