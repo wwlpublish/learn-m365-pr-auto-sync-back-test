@@ -16,7 +16,7 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "A healthcare employee left work with an unencrypted work laptop which was then stolen. Patient data was on the laptop. This is an example of which type of internal risk?  "
+    - content: "A healthcare employee left work with an unencrypted work laptop that was then stolen. Patient data was on the laptop. This is an example of which type of internal risk?  "
       choices:
       - content: "Regulatory compliance violation "
         isCorrect: true
@@ -26,7 +26,7 @@ quiz:
         explanation: "Sabotage includes acts with the intention to harm specific individuals, organizations, or organization’s data systems or daily business operations."
       - content: "Data leak"
         isCorrect: false
-        explanation: "While this is a potential data leak situation, this is a regulatory compliance violation due to actions or non-actions taken before the leak occurs."
+        explanation: "While sabotage is a potential data leak situation, this is a regulatory compliance violation due to actions or non-actions taken before the leak occurs."
 
     - content: "Which one of the following applies to Microsoft Insider Risk Management policies and templates?"
       choices:
