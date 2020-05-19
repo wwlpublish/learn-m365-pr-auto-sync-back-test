@@ -1,1 +1,1 @@
-content here
+As a Microsoft Exchange administrator for your organization, you need to migrate to a hybrid Exchange environment. Because the migration impacts your public folders, you need to assess how your current folders are used and plan how to migrate them to Microsoft 365.

@@ -7,7 +7,6 @@ When you migrate mailboxes from Exchange on-premises to Exchange Online in a hyb
 You can use this Exchange PowerShell command to set up the MRS Proxy endpoint in Exchange server. In this example, the service is located on a server named OnPremExchServer:
 
 ```PowerShell
-PowerShell
 Set-WebServicesVirtualDirectory 
    -Identity "OnPremExchServer\EWS (Default Web Site)"
    -MRSProxyEnabled $true
@@ -50,7 +49,6 @@ Migration operations can take a long time, depending on the size of the mailboxe
 You can also use PowerShell to diagnose the status of a migration and its mailboxes. For example, this command displays the status of a batch named **SalesDeptMigration**:
 
 ```powershell
-powershell
 $Get-MigrationBatch -Identity SalesDeptMigration
 ```
 ## Learn more

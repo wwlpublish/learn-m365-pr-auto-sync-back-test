@@ -50,7 +50,6 @@ If you prefer to use a command-line interface, or you want to include the migrat
 To create and start a migration batch, use this command:
 
 ```powershell
-powershell
 New-MigrationBatch -Name IMAPImport 
    -SourceEndpoint IMAPonpremises 
    -CSVData ([System.IO.File]::ReadAllBytes("C:\mailboxes.csv")) 
@@ -59,7 +58,6 @@ New-MigrationBatch -Name IMAPImport
 While the batch is running, you can check its progress by using this command:
 
 ``` PowerShell
-powershell
 Get-MigrationBatch -Identity IMAPImport | Format-List Status
 ```
 
