@@ -55,4 +55,4 @@ To adjust the sensitivity of the offensive language classifier for policies usin
 - **Medium:** The mid-level sensitivity level with a balanced range for detection offensive language and sentiment. The probability of false positives for offensive language matching is average.
 - **High:** The highest sensitivity level with a narrow range for detection offensive language and sentiment. The probability of false positives for offensive language matching is low.
 
-![Intelligent decision setting](../media/intelligent-decision-setting.png)
+![Intelligent decisions setting](../media/intelligent-decisions-setting.png)

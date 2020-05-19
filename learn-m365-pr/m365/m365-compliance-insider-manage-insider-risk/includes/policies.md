@@ -25,11 +25,11 @@ Once the requirements have been met, you can set up your HR connector. Briefly, 
 1. 	Creating an HR connector in the Microsoft 365 compliance center.
 1. 	Running a script that will upload the HR data in the CSV file to the Microsoft cloud.
 
-For more details, see the [Set up a connector to import HR data](https://docs.microsoft.com/en-us/microsoft-365/compliance/import-hr-data?view=o365-worldwide?azure-portal=true) topic.
+For more details, see the [Set up a connector to import HR data](https://docs.microsoft.com/microsoft-365/compliance/import-hr-data?view=o365-worldwide?azure-portal=true) topic.
 ### Data leaks template
 Insider risk management supports using DLP policies to help identify the intentional or accidental exposure of sensitive information to unwanted parties. When configuring an insider risk management policy with the Data leaks template, you have to assign a specific DLP policy.  This policy helps drive the alert indicators for sensitive information and is an important part of configuring full risk management coverage in your organization.
 > [!NOTE]
-> To reduce noise, alerts will only fire when a high volume DLP policy qualifying event is triggered. For example, an alert will fire if the policy detects 10 or more credit card numbers in an email or document, but not less. See the [Create, test, and tune a DLP policy](https://docs.microsoft.com/en-us/microsoft-365/compliance/create-test-tune-dlp-policy?view=o365-worldwide?azure-portal=true) topic to learn how to configure DLP policies for your organization. 
+> To reduce noise, alerts will only fire when a high volume DLP policy qualifying event is triggered. For example, an alert will fire if the policy detects 10 or more credit card numbers in an email or document, but not less. See the [Create, test, and tune a DLP policy](https://docs.microsoft.com/microsoft-365/compliance/create-test-tune-dlp-policy?view=o365-worldwide?azure-portal=true) topic to learn how to configure DLP policies for your organization. 
 
 ## Creating a new insider risk policy 
 Insider risk management policies include assigned users and define which types of risk indicators are configured for alerts. Before activities can trigger alerts, a policy must be configured. 
@@ -40,7 +40,7 @@ To create a new insider risk management policy, you use the policy wizard in the
 - **Alert indicators**--*Note: **Indicators** need to be enabled under **Policy Settings** before they can be selected when creating a policy*
 - **Duration** (time frame) for monitoring
 
-For more information, see [Create an insider risk policy](https://docs.microsoft.com/en-us/microsoft-365/compliance/insider-risk-management-configure?view=o365-worldwide#step-5-required-create-an-insider-risk-management-policy?azure-portal=true).
+For more information, see [Create an insider risk policy](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-configure?view=o365-worldwide#step-5-required-create-an-insider-risk-management-policy?azure-portal=true).
 
 
 ## Learn more
