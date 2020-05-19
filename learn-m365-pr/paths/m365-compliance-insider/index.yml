@@ -26,6 +26,6 @@ modules:
 - learn-m365.m365-compliance-insider-prepare-communications-compliance
 - learn-m365.m365-compliance-insider-plan-information-barriers
 - learn-m365.m365-compliance-insider-implement-privileged-access-management
-- learn-m365.m365.compliance-insider-manage-customer-lockbox
+- learn-m365.m365-compliance-insider-manage-customer-lockbox
 trophy: 
   uid: learn-m365.m365-compliance-insider.trophy
