@@ -59,5 +59,5 @@ The steps you need to take to complete a batch migration of public folders are d
 
 - [Exchange 2013/2016/2019 Public Folders Migration Scripts download](https://www.microsoft.com/download/details.aspx?id=54855&azure-portal=true)
 - [Use batch migration to migrate legacy public folders to Office 365 and Exchange Online](https://docs.microsoft.com/exchange/collaboration-exo/public-folders/batch-migration-of-legacy-public-folders?azure-portal=true)
-- [Use batch migration to migrate Exchange Server public folders to Exchange Onlin](https://docs.microsoft.com/Exchange/collaboration/public-folders/migrate-to-exchange-online?azure-portal=true)
+- [Use batch migration to migrate Exchange Server public folders to Exchange Online](https://docs.microsoft.com/Exchange/collaboration/public-folders/migrate-to-exchange-online?azure-portal=true)
 - [New-PublicFolder PowerShell cmdlet](https://docs.microsoft.com/powershell/module/exchange/sharing-and-collaboration/new-publicfolder?view=exchange-ps&azure-portal=true)

@@ -10,11 +10,11 @@ Now that you’ve created public folder mailboxes for the organization, you can 
 3. In the opened public folder window, enter the name for your public folder.
 4. For this example, name it **General**. Select **Save**.
 
-The new public folder appears highlighted in the Exchange admin center.
+   The new public folder appears highlighted in the Exchange admin center.
 
-![Create a new public folder](../media/create-new-public-folder.png)
+   ![Create a new public folder](../media/create-new-public-folder.png)
 
-In the information pane on the right, note that Mail settings is disabled.
+   In the information pane on the right, note that Mail settings is disabled.
 
 5. Select the **Enable** link underneath.
 6. In the Warning dialog, select **Yes**.
