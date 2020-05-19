@@ -42,7 +42,6 @@ You can use the tools in the Exchange admin center to create a migration endpoin
 Alternatively, you can use the Exchange Online PowerShell to create migration endpoints. In this example, the **Get-Credential cmdlet** is used to gather the administrative username and password. These credentials are used to create an Outlook Anywhere endpoint suitable for a cutover or staged migration:
 
 ```powershell
-powershell
 $Credentials = Get-Credential 
 New-MigrationEndpoint -ExchangeOutlookAnywhere 
    -Name EndpointForCutover 
@@ -56,7 +55,6 @@ New-MigrationEndpoint -ExchangeOutlookAnywhere
 It’s good practice to test a migration endpoint before you initiate a migration batch. The test checks to see if the remote server is available and communicative. You can perform such a test by using the **Test-MigrationServerAvailability** cmdlet in the Exchange Online PowerShell. In this example, the command tests an endpoint named endpoint.contoso.com: 
 
 ```powershell
-powershell
 Test-MigrationServerAvailability -Endpoint endpoint.contoso.com
 ```
 

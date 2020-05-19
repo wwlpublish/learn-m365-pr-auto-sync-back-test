@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.m365-messaging-public-folders.implement-top-level-hierarchy
-title: Implement public folder Top Level Hierarchy 
+uid: learn-m365.m365-messaging-public-folders.implement-folder-hierarchies
+title: Implement public folder mailbox hierarchies
 metadata:
-  title: Implement public folder Top Level Hierarchy
+  title: Implement public folder mailbox hierarchies
   description: Learn how you can continue to use public folders while your company implements a hybrid environment with Microsoft 365. In a hybrid environment, you need to make choices about where these folders should reside.  
-  ms.date: 04/23/2020
+  ms.date: 05/18/2020
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 3
 content: |
-  [!include[](includes/implement-top-level-hierarchy.md)]
+  [!include[](includes/implement-folder-hierarchies..md)]
