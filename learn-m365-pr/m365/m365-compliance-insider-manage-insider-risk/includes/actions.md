@@ -99,9 +99,9 @@ The **Notices templates dashboard** displays a list of configured notice templat
 
 ![Notice templates](../media/notice-templates.png)
 
-If you'd like to create more than a simple text-based email message for notifications, you can create a more detailed message by [using the HTML in the message body field](https://docs.microsoft.com/en-us/microsoft-365/compliance/insider-risk-management-notices?view=o365-worldwide#html-for-notices?azure-mortal=true) of a notice template.
+If you'd like to create more than a simple text-based email message for notifications, you can create a more detailed message by [using the HTML in the message body field](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-notices?view=o365-worldwide#html-for-notices?azure-mortal=true) of a notice template.
 
-Click [here](https://docs.microsoft.com/en-us/microsoft-365/compliance/insider-risk-management-notices?view=o365-worldwide?azure-portal=true) to learn more about creating, updating, and deleting notice templates.
+Click [here](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-notices?view=o365-worldwide?azure-portal=true) to learn more about creating, updating, and deleting notice templates.
 
 ### Explore how to manage insider risk
 
@@ -112,6 +112,6 @@ View a [video version](https://www.microsoft.com/videoplayer/embed/placeholder) 
 Be sure to click the full-screen option in the video player.
 
 ## Learn more
-- [Insider risk management content explorer](https://docs.microsoft.com/en-us/microsoft-365/compliance/insider-risk-management-content-explorer?view=o365-worldwide?azure-portal=true)
-- [Overview of the Advanced eDiscovery solution in Microsoft 365](https://docs.microsoft.com/en-us/microsoft-365/compliance/insider-risk-management-content-explorer?view=o365-worldwide?azure-portal=true)
+- [Insider risk management content explorer](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-content-explorer?view=o365-worldwide?azure-portal=true)
+- [Overview of the Advanced eDiscovery solution in Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-content-explorer?view=o365-worldwide?azure-portal=true)
 

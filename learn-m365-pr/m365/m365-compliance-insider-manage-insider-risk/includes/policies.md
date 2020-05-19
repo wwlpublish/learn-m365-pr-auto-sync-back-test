@@ -44,12 +44,12 @@ For more information, see [Create an insider risk policy](https://docs.microsoft
 
 
 ## Learn more
-- [Compare Microsoft 365 Enterprise Plans](https://www.microsoft.com/en-us/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1?azure-portal=true)
-- [Enable permissions for insider risk management](https://docs.microsoft.com/en-us/microsoft-365/compliance/insider-risk-management-configure?view=o365-worldwide#step-1-required-enable-permissions-for-insider-risk-management?azure-portal=true)
-- [Turn Office 365 audit log search on or off](https://docs.microsoft.com/en-us/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide?azure-portal=true)
-- [Set up a connector to import HR data](https://docs.microsoft.com/en-us/microsoft-365/compliance/import-hr-data?view=o365-worldwide?azure-portal=true)
-- [Create, test, and tune a DLP policy](https://docs.microsoft.com/en-us/microsoft-365/compliance/create-test-tune-dlp-policy?view=o365-worldwide?azure-portal=true)
-- [Create an insider risk management policy](https://docs.microsoft.com/en-us/microsoft-365/compliance/insider-risk-management-configure?view=o365-worldwide#step-5-required-create-an-insider-risk-management-policy?azure-portal=true)
+- [Compare Microsoft 365 Enterprise Plans](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1?azure-portal=true)
+- [Enable permissions for insider risk management](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-configure?view=o365-worldwide#step-1-required-enable-permissions-for-insider-risk-management?azure-portal=true)
+- [Turn Office 365 audit log search on or off](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide?azure-portal=true)
+- [Set up a connector to import HR data](https://docs.microsoft.com/microsoft-365/compliance/import-hr-data?view=o365-worldwide?azure-portal=true)
+- [Create, test, and tune a DLP policy](https://docs.microsoft.com/microsoft-365/compliance/create-test-tune-dlp-policy?view=o365-worldwide?azure-portal=true)
+- [Create an insider risk management policy](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-configure?view=o365-worldwide#step-5-required-create-an-insider-risk-management-policy?azure-portal=true)
 
 
 
