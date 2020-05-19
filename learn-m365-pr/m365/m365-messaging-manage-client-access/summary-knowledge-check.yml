@@ -15,39 +15,70 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Question here"
+    - content: "If you want a user to connect to a specific datacenter, which namespace model should you use?"
       choices:
-      - content: "Choice 1"
+      - content: "Unbound"
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+        explanation: "No, an unbound namespace model doesn't specify the database."
+      - content: "Bound"
         isCorrect: true
-        explanation: "explanation"
+        explanation: "Yes, a bound namespace model lets you specify which databases your users connect to."
+      - content: "Hybrid"
+        isCorrect: false
+        explanation: "No, there is no hybrid namespace model."
 
-    - content: "Question here"
+    - content: "How many mailbox policies can each Outlook on the web mailbox have?"
       choices:
-      - content: "Choice 1"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+      - content: "1"
         isCorrect: true
-        explanation: "explanation"
-      
-    - content: "Question here"
+        explanation: "Yes, Outlook on the web mailboxes can have only one mailbox policy."
+      - content: "2"
+        isCorrect: false
+        explanation: "No, Outlook on the web mailboxes can only have one mailbox policy."
+      - content: "Unlimited"
+        isCorrect: false
+        explanation: "No, Outlook on the web mailboxes can only have one mailbox policy."    
+    - content: "Which PowerShell cmdlet returns a list of all Outlook on the web virtual directories on all Exchange servers in the organization?"
       choices:
-      - content: "Choice 1"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+      - content: "Get-OWAVirtualDirectory"
         isCorrect: true
-        explanation: "explanation"
-      
+        explanation: "Yes, the Get-OWEVirtualDirectory cmdlet returns a list of all the virtual directories."
+      - content: "Get-Content"
+        isCorrect: false
+        explanation: "No, the Get-OWEVirtualDirectory cmdlet returns a list of all the virtual directories."
+      - content: "Get-OwaMailboxPolicy"
+        isCorrect: false
+        explanation: "No, the Get-OWEVirtualDirectory cmdlet returns a list of all the virtual directories."
+    - content: "How do Outlook users receive their profile settings with Autodiscover?"
+      choices:
+      - content: "Through PowerShell scripts"
+        isCorrect: false
+        explanation: "No, Outlook users get their Autodiscover profile settings when they sign in for the first time."
+      - content: "Through a login script"
+        isCorrect: false
+        explanation: "No, Outlook users get their Autodiscover profile settings when they sign in for the first time."
+      - content: "Automatically when they sign in"
+        isCorrect: true
+        explanation: "Yes, Outlook users get their Autodiscover profile settings when they sign in for the first time."
+    - content: "Where do you run the Microsoft Exchange Remote Connectivity Analyzer?"
+      choices:
+      - content: "From the Microsoft Exchange Remote Connectivity Analyzer website."
+        isCorrect: true
+        explanation: "Yes. You can run tests to check for Microsoft Exchange ActiveSync, Exchange Web Services, Microsoft Outlook, and Internet email connectivity from the ExRCA website."
+      - content: "From the Outlook client"
+        isCorrect: false
+        explanation: "No, you run the ExRCA analyzer on the Microsoft Exchange Remote Connectivity website."
+      - content: "From the Exchange Online service"
+        isCorrect: false
+        explanation: "No, you run the ExRCA analyzer on the Microsoft Exchange Remote Connectivity website."
+    - content: "How are users authenticated with Exchange Online?"
+      choices:
+      - content: "Using a client certificate"
+        isCorrect: true
+        explanation: "Yes, users are authenticated using a client certificate."
+      - content: "Using a client certificate combined with a username and password"
+        isCorrect: false
+        explanation: "No, with certificate-based authentication, users just need a client certificate."
+      - content: "Using a username and password"
+        isCorrect: false
+        explanation: "No, with certificate-based authentication, users just need a client certificate."
