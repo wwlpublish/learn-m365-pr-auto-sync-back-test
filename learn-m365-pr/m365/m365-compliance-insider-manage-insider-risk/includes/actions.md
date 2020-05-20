@@ -101,13 +101,13 @@ The **Notices templates dashboard** displays a list of configured notice templat
 
 If you'd like to create more than a simple text-based email message for notifications, you can create a more detailed message by [using the HTML in the message body field](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-notices?view=o365-worldwide#html-for-notices?azure-mortal=true) of a notice template.
 
-Click [here](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-notices?view=o365-worldwide?azure-portal=true) to learn more about creating, updating, and deleting notice templates.
+[Learn more about creating, updating, and deleting notice templates.](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-notices?view=o365-worldwide?azure-portal=true)
 
 ### Explore how to manage insider risk
 
 View a [video version](https://www.microsoft.com/videoplayer/embed/placeholder) of the interactive guide (captions available in more languages).
 
-<a href="https://mslearn.cloudguides.com/en-us/guides/Minimize%20internal%20risks%20with%20insider%20risk%20management%20in%20Microsoft%20365">![Minimize internal risks]
+<a href="https://mslearn.cloudguides.com/en-us/guides/Minimize%20internal%20risks%20with%20insider%20risk%20management%20in%20Microsoft%20365">[Minimize internal risks]
 
 Be sure to click the full-screen option in the video player.
 
