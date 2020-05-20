@@ -107,7 +107,7 @@ Click [here](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-ma
 
 View a [video version](https://www.microsoft.com/videoplayer/embed/placeholder) of the interactive guide (captions available in more languages).
 
-<a href="https://mslearn.cloudguides.com/en-us/guides/Minimize%20internal%20risks%20with%20insider%20risk%20management%20in%20Microsoft%20365">![Minimize internal risks](../media/placeholder.png)</a>  
+<a href="https://mslearn.cloudguides.com/en-us/guides/Minimize%20internal%20risks%20with%20insider%20risk%20management%20in%20Microsoft%20365">![Minimize internal risks]
 
 Be sure to click the full-screen option in the video player.
 
