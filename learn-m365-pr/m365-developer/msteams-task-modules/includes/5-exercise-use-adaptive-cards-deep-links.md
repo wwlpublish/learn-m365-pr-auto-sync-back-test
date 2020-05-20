@@ -145,13 +145,17 @@ const taskModuleInfo = {
 
 ### Test the Adaptive Card task module
 
+Increment the `version` property in the app's **./manifest/manifest.json** file so you can update the previously deployed Teams app.
+
 From the command line, navigate to the root folder for the project and execute the following command:
 
 ```shell
 gulp ngrok-serve
 ```
 
-Refresh the Microsoft Teams interface and select the new button **Change Video ID (AdaptiveCard)**. Microsoft Teams will open a task module with the rendered Adaptive Card:
+Upgrade the previously deployed Teams app with the updated app package.
+
+In the browser, navigate back to the tab in the Microsoft Teams interface and select the new button **Change Video ID (AdaptiveCard)**. Microsoft Teams will open a task module with the rendered Adaptive Card:
 
 ![Screenshot of the Adaptive Card rendered in a task module](../media/05-test-01.png)
 
@@ -167,18 +171,18 @@ The format for a deep link is as follows:
 https://teams.microsoft.com/l/task/<APP_ID>?url=<TaskInfo.url>&height=<TaskInfo.height>&width=<TaskInfo.width>&title=<TaskInfo.title>
 ```
 
-Consider if you wanted to open a task module from a conversation that would display the following video on an **[Overview of teams and channels](https://www.youtube.com/watch?v=OjEgeHNKyt4)**.
+Consider if you wanted to open a task module from a conversation that would display the following video on an **[Overview of teams and channels](https://www.youtube.com/watch?v=VlEH4vtaxp4)**.
 
 As you learned in a previous exercise, the URL to display the video in the player task module would be the following:
 
 ```http
-https://{{REPLACE_WITH_YOUR_NGROK_URL}}/youTubePlayer1Tab/player.html?vid=OjEgeHNKyt4
+https://{{REPLACE_WITH_YOUR_NGROK_URL}}/youTubePlayer1Tab/player.html?vid=VlEH4vtaxp4
 ```
 
 The deep link for to launch the video player task module would be the following (*assuming your custom Microsoft Teams app's ID is 3386faf0-109f-11ea-9799-77a28170bd5d*):
 
 ```http
-https://teams.microsoft.com/l/task/3386faf0-109f-11ea-9799-77a28170bd5d?url=https://{{REPLACE_WITH_YOUR_NGROK_URL}}/youTubePlayer1Tab/player.html?vid=OjEgeHNKyt4&height=700&width=1000&title=YouTube%20Player:%20Overview%20of%20teams%20and%20channels
+https://teams.microsoft.com/l/task/3386faf0-109f-11ea-9799-77a28170bd5d?url=https://{{REPLACE_WITH_YOUR_NGROK_URL}}/youTubePlayer1Tab/player.html?vid=VlEH4vtaxp4&height=700&width=1000&title=YouTube%20Player:%20Overview%20of%20teams%20and%20channels
 ```
 
 In Microsoft teams, go to a channel, select the **Conversations** tab, and select the **Format** button in the message dialog:
