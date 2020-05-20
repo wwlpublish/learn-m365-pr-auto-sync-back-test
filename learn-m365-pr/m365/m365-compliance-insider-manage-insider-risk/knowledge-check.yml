@@ -16,39 +16,27 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Question here"
+    - content: "A healthcare employee left work with an unencrypted work laptop that was then stolen. Patient data was on the laptop. This is an example of which type of internal risk?  "
       choices:
-      - content: "Choice 1"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+      - content: "Regulatory compliance violation "
         isCorrect: true
-        explanation: "explanation"
+        explanation: "Businesses that handle personal, medical, sensitive, or classified data of individuals or government organizations are required by law to follow strict compliance regulations."
+      - content: "Sabotage"
+        isCorrect: false
+        explanation: "Sabotage includes acts with the intention to harm specific individuals, organizations, or organization’s data systems or daily business operations."
+      - content: "Data leak"
+        isCorrect: false
+        explanation: "While sabotage is a potential data leak situation, this is a regulatory compliance violation due to actions or non-actions taken before the leak occurs."
 
-    - content: "Question here"
+    - content: "Which one of the following applies to Microsoft Insider Risk Management policies and templates?"
       choices:
-      - content: "Choice 1"
+      - content: "Insider risk settings apply to the specific insider risk management policies associated with each different template."
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
+        explanation: "Insider risk settings apply to all insider risk management policies regardless of the template chosen when creating a policy."
+      - content: "Microsoft Insider Risk Management policies and templates are for malicious intent violations."
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+        explanation: "What an organization decides to take action on is up to the organization. Templates and policies are for the detection of any suspicious activity."
+      - content: "Each policy must have a template assigned in the policy creation wizard before the policy is created."
         isCorrect: true
-        explanation: "explanation"
-      
-    - content: "Question here"
-      choices:
-      - content: "Choice 1"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
-        isCorrect: true
-        explanation: "explanation"
+        explanation: "Insider risk management templates are pre-defined policy conditions that define the types of risk indicators monitored by a policy. Each policy must have a template assigned before creation."
       
