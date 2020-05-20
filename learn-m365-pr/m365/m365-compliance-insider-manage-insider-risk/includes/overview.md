@@ -18,7 +18,7 @@ privacy versus organization risk with privacy-by-design architecture. Finally, e
 >  -	Microsoft 365 E5 Compliance 
 >  -	Microsoft 365 E5 Insider Risk Management 
 > 
-> Please review [Microsoft 365 licensing guidance for security & compliance](https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Foffice365%2Fservicedescriptions%2Fmicrosoft-365-service-descriptions%2Fmicrosoft-365-tenantlevel-services-licensing-guidance%2Fmicrosoft-365-security-compliance-licensing-guidance&data=02%7C01%7Cjoe%40oliveandgoose.com%7C63633f43dacf43df818108d7ee1b15dc%7C777c4aaf50604252b56fef164c86f4e7%7C1%7C0%7C637239672433381239&sdata=IcLwzXQkvzm3H2ztjPMCWZswaPJ9aguMx6DjEg3W7KU%3D&reserved=0?azure-portal=true) to identify required licenses for your organization.
+> Please review [Microsoft 365 licensing guidance for security & compliance](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance?azure-portal=true) to identify required licenses for your organization.
 > 
 
 ## Risk Pain Points in the Modern Workplace
@@ -68,7 +68,6 @@ Identifying and resolving internal risk activities and compliance issues with in
 ## Learn more
 - [Crowd Research Partners, Insider Threat Report](https://crowdresearchpartners.com/portfolio/insider-threat-report/?azure-portal=true)
 - [Carnegie Mellon CERT study: The “Big Picture” of Insider IT Sabotage Across U.S. Critical Infrastructures](https://resources.sei.cmu.edu/asset_files/TechnicalReport/2008_005_001_14981.pdf?axure-portal=true)
-- [Insider Risk Management from Microsoft 365] (video) [Need link]
 - [Carnegie Mellon University: Insider Threats in Healthcare](https://insights.sei.cmu.edu/insider-threat/2019/02/insider-threats-in-healthcare-part-7-of-9-insider-threats-across-industry-sectors.html?azure-portal=true)
 
 

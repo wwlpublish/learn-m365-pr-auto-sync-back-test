@@ -56,15 +56,15 @@ The **Search** control can be used to search alert names for specific text while
 ### User activity
 The **User activity** tab is one of the most powerful tools for internal risk analysis and investigation for cases in the insider risk management solution. This tab is structured to enable quick review of a case, including a historical timeline of all alerts, alerts details, the current risk score for the user in the case, and controls to take effective action to contain the risks in the case.
  ![User activity](../media/user-activity.png)
-1. **Date and window time filters:** By default, the last six months of alerts confirmed in the case are displayed in the User activity chart. You can filter the chart view with either the slider controls at both ends of the chart window, or by defining specific start and end dates in the chart filter control.
-1. **Risk alert activity and details:** Risk activities are displayed as colored bubbles in the User activity chart. Bubbles are created for different categories of risk and the bubble size is proportional to the number of risk activities for the category. Selecting a bubble displays the following details for each risk activity:
-   - **Date** of the risk activity.
-   - **Risk activity category**. For example, Email(s) with attachments sent outside the organization or File(s) downloaded from SharePoint Online.
-   - **Risk score** for the alert. This score is the numerical score for the alert risk severity level.
-   - Number of events associated with the alert. Links to each file or email associated with the risk activity is also available.
-1. **Risk activity legend:** Across the bottom of the user activity chart, a color-coded legend helps you quickly determine risk category for each alert.
-1. **Risk activity chronology:** The full chronology of all risk alerts associated with the case are listed, including all the details available in the corresponding alert bubble.
-1. **Case actions:** Options for resolving the case are on the case action toolbar. You can resolve a case, send an email notice to the employee, or escalate the case for a data or employee investigation.
+- **Date and window time filters:** By default, the last six months of alerts confirmed in the case are displayed in the User activity chart. You can filter the chart view with either the slider controls at both ends of the chart window, or by defining specific start and end dates in the chart filter control.
+- **Risk alert activity and details:** Risk activities are displayed as colored bubbles in the User activity chart. Bubbles are created for different categories of risk and the bubble size is proportional to the number of risk activities for the category. Selecting a bubble displays the following details for each risk activity:
+    - **Date** of the risk activity.
+    - **Risk activity category**. For example, Email(s) with attachments sent outside the organization or File(s) downloaded from SharePoint Online.
+    - **Risk score** for the alert. This score is the numerical score for the alert risk severity level.
+    - Number of events associated with the alert. Links to each file or email associated with the risk activity is also available.
+- **Risk activity legend:** Across the bottom of the user activity chart, a color-coded legend helps you quickly determine risk category for each alert.
+- **Risk activity chronology:** The full chronology of all risk alerts associated with the case are listed, including all the details available in the corresponding alert bubble.
+- **Case actions:** Options for resolving the case are on the case action toolbar. You can resolve a case, send an email notice to the employee, or escalate the case for a data or employee investigation.
 ### Content explorer
 The **Content explorer** tab allows risk analysts and investigators to review copies of all individual files and email messages associated with risk alerts. For example, if an alert is created when an employee downloads hundreds of files from SharePoint Online to a USB device and the activity triggers a policy alert, all the downloaded files for the alert are captured and copied to the insider risk management case from original storage sources.
 

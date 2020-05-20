@@ -19,13 +19,13 @@ The following requirements must be met before you can set up an HR connector:
 - A global administrator will need to consent to allow the Office 365 Import service to access data in your organization.
 - The user who creates the HR connector will need to be assigned the Mailbox Import Export role in Exchange Online. 
 - You have to have a system in place for retrieving and exporting the data from your organization's HR system and add it to a CSV file.
-Once the requirements have been met, you can set up your HR connector. Briefly, the steps for creating the connector involve the following:
-1.  Creating an app in Azure Active Directory.
-1.  Generating the CSV file from your organization’s HR system.
-1. 	Creating an HR connector in the Microsoft 365 compliance center.
-1. 	Running a script that will upload the HR data in the CSV file to the Microsoft cloud.
+  Once the requirements have been met, you can set up your HR connector. Briefly, the steps for creating the connector involve the following:
+  1.  Creating an app in Azure Active Directory.
+  1.  Generating the CSV file from your organization’s HR system.
+  1. 	Creating an HR connector in the Microsoft 365 compliance center.
+  1. 	Running a script that will upload the HR data in the CSV file to the Microsoft cloud.
 
-For more details, see the [Set up a connector to import HR data](https://docs.microsoft.com/microsoft-365/compliance/import-hr-data?view=o365-worldwide?azure-portal=true) topic.
+  For more details, see the [Set up a connector to import HR data](https://docs.microsoft.com/microsoft-365/compliance/import-hr-data?view=o365-worldwide?azure-portal=true) topic.
 ### Data leaks template
 Insider risk management supports using DLP policies to help identify the intentional or accidental exposure of sensitive information to unwanted parties. When configuring an insider risk management policy with the Data leaks template, you have to assign a specific DLP policy.  This policy helps drive the alert indicators for sensitive information and is an important part of configuring full risk management coverage in your organization.
 
@@ -37,8 +37,8 @@ Insider risk management policies include assigned users and define which types o
 
 To create a new insider risk management policy, you use the policy wizard in the **Insider risk management** solution in the Microsoft 365 compliance center. Briefly, you create a new policy by stepping through the policy wizard and policy settings to configure the following items:
 - **Policy template**
-- **Users or groups** the policy will apply to--*optionally, assign higher risk scores to detected activity based on where the related content is located, what sensitive info is included, and what sensitivity labels are applied*
-- **Alert indicators**--*Note: **Indicators** need to be enabled under **Policy Settings** before they can be selected when creating a policy*
+- **Users or groups** the policy will apply to (optionally, assign higher risk scores to detected activity based on where the related content is located, what sensitive info is included, and what sensitivity labels are applied)
+- **Alert indicators** (**Indicators** need to be enabled under **Policy Settings** before they can be selected when creating a policy)
 - **Duration** (time frame) for monitoring
 
 For more information, see [Create an insider risk policy](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-configure?view=o365-worldwide#step-5-required-create-an-insider-risk-management-policy?azure-portal=true).
