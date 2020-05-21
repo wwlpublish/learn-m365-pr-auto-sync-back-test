@@ -30,15 +30,10 @@ products:
 - office-exchange-server
 units:
 - learn-m365.m365-messaging-manage-recipient-resources.introduction
-- learn-m365.m365-messaging-manage-recipient-resources.archive-mailboxes
-- learn-m365.m365-messaging-manage-recipient-resources.resource-mailboxes
-- learn-m365.m365-messaging-manage-recipient-resources.manage-groups
-- learn-m365.m365-messaging-manage-recipient-resources.manage-mailboxes
-- learn-m365.m365-messaging-manage-recipient-resources.mailbox-permissions
-- learn-m365.m365-messaging-manage-recipient-resources.mailbox-policies
-- learn-m365.m365-messaging-manage-recipient-resources.shared-mailboxes
-- learn-m365.m365-messaging-manage-recipient-resources.license-options
 - learn-m365.m365-messaging-manage-recipient-resources.manage-mail-users
+- learn-m365.m365-messaging-manage-recipient-resources.manage-mailboxes
+- learn-m365.m365-messaging-manage-recipient-resources.manage-groups
+- learn-m365.m365-messaging-manage-recipient-resources.mailbox-policies
 - learn-m365.m365-messaging-manage-recipient-resources.summary-knowledge-check
 badge: 
   uid: learn-m365.m365-messaging-manage-recipient-resources.badge
