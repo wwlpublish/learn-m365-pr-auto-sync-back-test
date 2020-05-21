@@ -16,7 +16,7 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Microsoft has had built in intelligence to detect profanities for a while. Which of the following represents a new enhancement in this area?"
+    - content: "Microsoft has had built-in intelligence to detect profanities for a while. Which of the following represents a new enhancement in this area?"
       choices:
       - content: "Identify threats for the individual to potentially harm themselves"
         isCorrect: true

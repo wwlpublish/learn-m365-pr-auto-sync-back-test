@@ -42,3 +42,6 @@ New interactive dashboards for alerts, policy matches, actions, and trends help 
 - **Auditing support**: A full log of policy and review activities can be easily exported from the Microsoft 365 compliance center to help support audit review requests.
 
 ![Communication compliance](../media/communication-compliance.png)
+
+## Learn more
+- [Supported communication types](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-feature-reference?view=o365-worldwide#supported-communication-types?azure-portal=true)

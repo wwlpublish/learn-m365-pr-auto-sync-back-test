@@ -6,11 +6,11 @@ You create communication compliance policies for Microsoft 365 organizations in 
 ### Policy templates
 Policy templates contain pre-defined policy settings that you can use to quickly create policies to address common compliance scenarios. Each of these templates has differences in conditions and scope, and all the templates use the same types of scanning signals. You can choose from the following policy templates in the Microsoft 365 compliance center: 
 - **Offensive language and anti-harassment**: Use this template to quickly create a policy that uses the threat, profanity, and harassment language classifiers to automatically detect content that may be considered abusive or offensive. 
-- --Sensitive information**: Use this template to create a policy to scan communications containing defined sensitive information types or keywords to help make sure that important data isn't shared with people that shouldn't have access. 
+- **Sensitive information**: Use this template to create a policy to scan communications containing defined sensitive information types or keywords to help make sure that important data isn't shared with people that shouldn't have access. 
 - **Regulatory compliance**: Use this template to create a policy to scan communications for references to standard financial terms associated with regulatory standards. 
 -
 ### Policy settings
--There are several policy settings you can customize, including the following:
+There are several policy settings you can customize, including the following:
 - **Users.** You can select **All users** or specific users in a communication compliance policy. Selecting **All users** applies the policy to all users and all groups that any user is included in as a member. Defining specific users applies the policy to the defined users and any groups the defined users are included in as a member.
 - **Direction.** Direction settings in a policy can be chosen individually or together:
    - **Inbound.** You can choose **Inbound** to review communications sent *to* the people you chose to supervise.
@@ -23,7 +23,8 @@ Policy templates contain pre-defined policy settings that you can use to quickly
    - **Harassment.** Scans for offensive conduct targeting people regarding race, color, religion, national origin.
    - **Profanity.** Scans for profane expressions that embarrass most people. 
    - **Threat.** Scans for threats to commit violence or physical harm to a person or property.
-- For information about classifiers in Microsoft 365, see [Classifiers](https://docs.microsoft.com/microsoft-365/compliance/classifier-getting-started-with?view=o365-worldwide?azure-portal=true).
+   
+   For information about classifiers in Microsoft 365, see [Classifiers](https://docs.microsoft.com/microsoft-365/compliance/classifier-getting-started-with?view=o365-worldwide?azure-portal=true).
 
 - **Conditional settings**. The conditions you choose for the policy apply to communications from both email and third-party sources in your organization (like from Facebook or DropBox). This [table](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-feature-reference?view=o365-worldwide#conditional-settings?azure-portal=true) explains more about each condition that is available and when to use it.
 
@@ -60,3 +61,25 @@ Supervision policies in Microsoft 365 will be fully replaced by the communicatio
 - Messages saved in supervision policy matches cannot be moved or shared into communication compliance.
 - It is recommended that you create new policies in communication compliance that have the same *conditions* as existing supervision policies to use the new investigation and remediation improvements. 
 - When transitioning to communication compliance in Microsoft 365, you should plan to export reporting data from supervision in Office 365 if you have internal compliance retention policy requirements.
+
+## Learn more
+- [Crowd Research Partners, Insider Threat Report](https://crowdresearchpartners.com/portfolio/insider-threat-report/?azure-portal=true)
+- [Carnegie Mellon CERT study: The “Big Picture” of Insider IT Sabotage Across U.S. Critical Infrastructures](https://resources.sei.cmu.edu/asset_files/TechnicalReport/2008_005_001_14981.pdf?axure-portal=true)
+- [Carnegie Mellon University: Insider Threats in Healthcare](https://insights.sei.cmu.edu/insider-threat/2019/02/insider-threats-in-healthcare-part-7-of-9-insider-threats-across-industry-sectors.html?azure-portal=true)
+
+Overview of data loss prevention 
+What the sensitive information types look for 
+Create a keyword dictionary 
+Getting started with trainable classifiers (preview) 
+Conditional settings 
+Distribution groups 
+Supported file types for mail flow rule 
+Yammer admin help (landing page) 
+Overview of Native Mode 
+Set up a connector to archive Instant Bloomberg data 
+Set up a connector to archive Facebook data 
+Set up a connector to archive LinkedIn data 
+Set up a connector to archive Twitter data 
+Archive third-party data 
+
+
