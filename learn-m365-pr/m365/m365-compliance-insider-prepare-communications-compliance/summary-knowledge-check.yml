@@ -16,39 +16,52 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Question here"
+    - content: "One of the first steps in investigating a possible violation is understanding the intent of the communication. Which of the following flexible remediation workflows will provide insight into the context of the communication during investigation?"
       choices:
-      - content: "Choice 1"
+      - content: "Keyword highlighting"
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+        explanation: "Terms matching policy conditions are highlighted in the message text view to help reviewers quickly locate and remediate policy alerts."
+      - content: "Conversation threading"
         isCorrect: true
-        explanation: "explanation"
+        explanation: "Messages are now visually grouped by original message and all associated reply messages, giving you better context during investigation and remediation actions."
+      - content: "Exact and near duplicated detection"
+        isCorrect: false
+        explanation: "This view allows you to quickly remediate similar messages one-by-one or as a group, reducing the message investigation burden for reviewers. "
 
-    - content: "Question here"
+    - content: "In the Remediate phase, which option allows for inputting multiple reviewers within the organization to help resolve the incident?"
       choices:
-      - content: "Choice 1"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+      - content: "Escalate to another reviewer"
         isCorrect: true
-        explanation: "explanation"
+        explanation: "Sometimes, the initial reviewer of an issue needs input from other reviewers to help resolve the incident. You can easily escalate message issues to reviewers in other areas of your organization as part of the resolution process. "
+      - content: "Tag a message"
+        isCorrect: false
+        explanation: "As part of the resolution of an issue, you can tag the detected message as compliant, non-compliant, or as questionable as it relates to the policies and standards for your organization."
+      - content: "Notify the user"
+        isCorrect: false
+        explanation: "You can use the notify feature to provide a warning notice to the user and to resolve the issue."
       
-    - content: "Question here"
+    - content: "With communication compliance policies, you can choose to scan messages in one or more platforms.  Which of the following supported communication types includes LinkedIn?"
       choices:
-      - content: "Choice 1"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+      - content: "Third-party sources"
         isCorrect: true
-        explanation: "explanation"
+        explanation: "Even though LinkedIn is owned by Microsoft, it is considered a third-party source when scanning.  Connectors support LinkedIn and other third-party sources."
+      - content: "Microsoft Teams"
+        isCorrect: false
+        explanation: "Chat communications and associated attachments in both public and private Microsoft Teams channels and individual chats can be scanned without connectors."
+      - content: "Skype for Business online"
+        isCorrect: false
+        explanation: "Chat communications and associated attachments in Skype for Business Online can be supervised without connectors."
+      
+    
+    - content: "There are several communication remediation actions available to organizations. Which of the following remediation actions cannot be re-opened?   "
+      choices:
+      - content: "Escalate"
+        isCorrect: false
+        explanation: "Using the Escalate control, you can choose who else in your organization should review the message.  The selected reviewer can use a link in the email notification to go directly to items escalated to them for review. "
+      - content: "Tag as"
+        isCorrect: false
+        explanation: "Tag the message as compliant, non-compliant, or as questionable as it relates to the policies and standards for your organization. Adding tags and tagging comments can help you micro-filter policy alerts for escalations or as part of other internal review processes. "
+      - content: "False positive"
+        isCorrect: true
+        explanation: "You can always resolve a message as a false positive at any point during the message review workflow. The message cannot be reopened, and all false positive messages are displayed in the Resolved tab. "
       

@@ -16,39 +16,27 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Question here"
+    - content: "Microsoft has had built in intelligence to detect profanities for a while. Which of the following represents a new enhancement in this area?"
       choices:
-      - content: "Choice 1"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+      - content: "Identify threats for the individual to potentially harm themselves"
         isCorrect: true
-        explanation: "explanation"
+        explanation: "Microsoft has expanded the offensive language classifiers to identify threats to others or even for the individual to harm themselves or even targeted harassment. "
+      - content: "Identify insider trading"
+        isCorrect: false
+        explanation: "Regulatory compliance such as US FINRA requires organizations to monitor issues like insider trading."
+      - content: "Identify possible legal exposure "
+        isCorrect: false
+        explanation: "Risk management compliance helps identify and manage potential legal exposure and can help minimize risks before they can damage corporate operations."
 
-    - content: "Question here"
+    - content: "The workflow for identifying and resolving compliance issues with communication compliance in Microsoft 365 can be broken down into four phases. In which phase do you review user activity history?"
       choices:
-      - content: "Choice 1"
+      - content: "Remediate"
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
+        explanation: "This phase is to remediate communication compliance issues you have investigated. "
+      - content: "Configure "
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+        explanation: "In this phase, you identify your compliance requirements and configure applicable communication compliance policies. "
+      - content: "Investigate"
         isCorrect: true
-        explanation: "explanation"
-      
-    - content: "Question here"
-      choices:
-      - content: "Choice 1"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
-        isCorrect: true
-        explanation: "explanation"
+        explanation: "In this step, you look deeper into the issues detected as matching your communication compliance policies.   "
       
