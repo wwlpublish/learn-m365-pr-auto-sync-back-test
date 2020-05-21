@@ -5,7 +5,7 @@ In this exercise, you’ll learn how to add link unfurling to your Microsoft Tea
 
 ## Add a new search messaging extension to the Teams app
 
-In a previous exercise, you created an action messaging extension that enabled a user to add the details of a planet to a message. 
+In a previous exercise, you created an action messaging extension that enabled a user to add the details of a planet to a message.
 
 In this section, you'll add a search messaging extension to find a specific planet.
 
