@@ -19,7 +19,7 @@ By default, global administrators do not have access to communication compliance
 
 1. To finalize the permissions, the IT administrators select **Create role group** to finish. It will take about 30 minutes for the roles to be effective in Contoso's Microsoft 365 service.
 
- ![Review your settings](../media/review-your-settings.png)
+   ![Review your settings](../media/review-your-settings.png)
  
 ## Step 2 - Accessing communication compliance in Microsoft 365
 After configuring the permissions for communication compliance, Contoso IT administrators and compliance specialists defined in the new role group can access the communication compliance solution in Microsoft 365. 
