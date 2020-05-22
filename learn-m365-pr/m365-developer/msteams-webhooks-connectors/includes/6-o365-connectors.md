@@ -45,7 +45,7 @@ Developers implementing the configuration experience should do the following:
 
 ### Editing configured Connectors
 
-Your code should handle for users edit an existing Connector configuration. To do this, call `microsoftTeams.settings.setSettings()` during the initial configuration.
+Your code should handle users returning to edit an existing connector configuration. To do this, call `microsoftTeams.settings.setSettings()` during the initial configuration.
 
 The call to `setSettings()` is usually made as part of your `registerOnSaveHandler()` implementation.
 
