@@ -39,7 +39,7 @@ If the people involved are included in an information barrier policy to prevent 
 ## Concepts of information barrier policies
 With information barriers, you define policies that are designed to prevent certain segments of users from communicating with each other or allow specific segments to communicate only with certain other segments. 
 
-For example, Enrico belongs to the Banking segment and Pradeep belongs to the Financial advisor segment. Enrico and Pradeep can't communicate with each other because the organization's Information Barrier policy blocks communication and collaboration between these two segments. However, Enrico and Pradeep can communicate with Lee in HR.
+For example, Sergio belongs to the Banking segment and Pradeep belongs to the Financial advisor segment. Sergio and Pradeep can't communicate with each other because the organization's Information Barrier policy blocks communication and collaboration between these two segments. However, Sergio and Pradeep can communicate with Lee in HR.
 
 ![Concepts of information barrier policies](../media/concepts-information-barrier-policies.png)
  
@@ -52,7 +52,7 @@ When you define policies for information barriers, you will work with user accou
 - *Policy application* is done after all information barrier policies are defined, and you are ready to apply them in your organization.
 
 ## Learn more
-[Debt Research Regulatory Notice 15-31](http://www.finra.org/sites/default/files/Regulatory-Notice-15-31_0.pdf?azure-portal=true)
-[Address book policies in Exchange Online](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies?azure-portal=true)
-[Attributes for information barrier policies](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-attributes?view=o365-worldwide?azure-portal=true)
+ - [Debt Research Regulatory Notice 15-31](http://www.finra.org/sites/default/files/Regulatory-Notice-15-31_0.pdf?azure-portal=true)
+ - [Address book policies in Exchange Online](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies?azure-portal=true)
+ - [Attributes for information barrier policies](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-attributes?view=o365-worldwide?azure-portal=true)
 
