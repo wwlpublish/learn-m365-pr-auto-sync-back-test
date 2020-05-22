@@ -1,6 +1,6 @@
 Now that you know the teams responsible for incident response, we will explore each phase of the incident response process.
 
-![VIDEO <https://www.microsoft.com/videoplayer/embed/RE4wqV5>]
+![VIDEO https://www.microsoft.com/videoplayer/embed/RE4wqV5]
 
 Preparation enables rapid response when an incident occurs and may even prevent incidents in the first place. Microsoft 365 dedicates significant resources to preparing for security incidents.
 

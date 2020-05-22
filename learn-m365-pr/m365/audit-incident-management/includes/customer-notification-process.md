@@ -12,7 +12,7 @@ Customer notification for security incidents occurs via appropriate channels bas
 
 - Notification in the [Message Center of the M365 Admin center](https://docs.microsoft.com/microsoft-365/admin/manage/message-center?view=o365-worldwide&azure-portal=true)
 - Email to the customer’s tenant administrator
-- Email to the customer’s designated [Global Privacy Contact](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-properties-area?azure-portal=true) (if the tenant Admin has defined this in the Azure Active Directory Admin center)
+- Email to the customer’s designated [Global Privacy Contact](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-properties-area?azure-portal=true) (if the tenant Admin has defined it in the Azure Active Directory Admin center)
 - Direct outreach by phone call to the customer’s tenant administrator by a specially trained Support team member
 
 Microsoft’s customer notification commitments are detailed in two sections of the [Microsoft Online Services Data Protection Addendum](https://www.microsoft.com/licensing/product-licensing/products?azure-portal=true):
@@ -23,7 +23,7 @@ Microsoft’s customer notification commitments are detailed in two sections of 
 
 *Microsoft shall make reasonable efforts to assist Customer in fulfilling Customer’s obligation under GDPR Article 33 or other applicable law or regulation to notify the relevant supervisory authority and data subjects about such Security Incident.*
 
-*Microsoft’s notification of or response to a Security Incident under this section is not an acknowledgement by Microsoft of any fault or liability with respect to the Security Incident.*
+*Microsoft’s notification of or response to a Security Incident under this section is not an acknowledgment by Microsoft of any fault or liability with respect to the Security Incident.*
 
 *Customer must notify Microsoft promptly about any possible misuse of its accounts or authentication credentials or any security incident related to an Online Service.*
 
@@ -44,7 +44,7 @@ To ensure notifications are received promptly by the correct customer contacts, 
 
 - If necessary, Global Admins can configure additional roles with access to Message Center content to avoid granting unnecessary administrative rights to non-administrators who require access to incident notifications.
 
-Customers share responsibility with Microsoft for reporting security incidents. In the context of Microsoft Commercial services (as opposed to Consumer services), Microsoft is the Data Processor, while the customer is the Data Controller. In the event of a security incident where Microsoft serves as the Data Processor, Microsoft will notify affected customers, who are then responsible for notifying their Data Protection Authorities, regulatory bodies, and affected users as required by any relevant regulations or laws. In addition, if a customer becomes aware of a security incident involving its own user accounts or any Microsoft Online Service, the customer must notify Microsoft promptly as described in the [Microsoft Online Services Data Protection Addendum](https://www.microsoft.com/licensing/product-licensing/products?azure-portal=true).
+Customers share responsibility with Microsoft for reporting security incidents. In the context of Microsoft Commercial services (as opposed to Consumer services), Microsoft is the Data Processor, while the customer is the Data Controller. If a security incident where Microsoft serves as the Data Processor, Microsoft will notify affected customers, who are then responsible for notifying their Data Protection Authorities, regulatory bodies, and affected users as required by any relevant regulations or laws. In addition, if a customer becomes aware of a security incident involving its own user accounts or any Microsoft Online Service, the customer must notify Microsoft promptly as described in the [Microsoft Online Services Data Protection Addendum](https://www.microsoft.com/licensing/product-licensing/products?azure-portal=true).
 
 ## Learn more ##
 
