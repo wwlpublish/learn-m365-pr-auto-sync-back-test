@@ -36,7 +36,7 @@ The configuration page flow works like this:
 
 Developers implementing the configuration experience should do the following:
 
-- **Include the Microsoft Teams JavaScript SDK**: Your code will use the SDK to get the current user/channel/team context and (*if necessary*) start authentication flows. Initialize the SDK by calling 1.
+- **Include the Microsoft Teams JavaScript SDK**: Your code will use the SDK to get the current user/channel/team context and (*if necessary*) start authentication flows. Initialize the SDK by calling `microsoftTeams.initialize()`.
 - **Call `microsoftTeams.settings.setValidityState(true)` when you want to enable the Save button**: You should do this as a response to valid user input, such as a selection or field update.
 - **Register a `microsoftTeams.settings.registerOnSaveHandler()` event handler, called when the user clicks Save**
 - **Call `microsoftTeams.settings.setSettings()` to save the connector settings**: You'll save the information that your configuration experience collects from the user. Microsoft Teams keeps a copy of the settings so if the user wants to edit the Connector's configuration in the future, it can prefill the form.
