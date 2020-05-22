@@ -4,7 +4,7 @@ At Microsoft, we use a Defense-in-Depth approach to secure our services by apply
 
 In this module, we will focus on how Microsoft 365 investigates, manages, and responds to security threats to protect customers in the Microsoft 365 cloud environment.
 
-[! VIDEO <https://www.microsoft.com/videoplayer/embed/RE4wI1J>]
+>[!VIDEO <https://www.microsoft.com/videoplayer/embed/RE4wI1J>]
 
 ## What is a security incident? ##
 
@@ -34,7 +34,7 @@ Within Microsoft 365, responsibilities for security incident response are shared
 
 Our incident response strategy, which is based on the NIST 800-61 response management phases, proceeds through four phases of interconnected activity: preparation; detection and analysis; containment, eradication, and recovery; and post-incident activity.
 
-![A visual diagram of NIST phases](../media/NIST-phases.png)
+   ![A visual diagram of NIST phases](../media/nist-phases.png)
 
 Each phase of the response management process is important for effective incident response.
 

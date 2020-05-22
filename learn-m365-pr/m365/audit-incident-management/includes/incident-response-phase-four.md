@@ -1,4 +1,4 @@
-[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4wEtN]
+>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4wEtN]
 
 ## Post-mortem ##
 

@@ -1,6 +1,6 @@
 Now that you know the teams responsible for incident response, we will explore each phase of the incident response process.
 
-![VIDEO https://www.microsoft.com/videoplayer/embed/RE4wqV5]
+>![VIDEO https://www.microsoft.com/videoplayer/embed/RE4wqV5]
 
 Preparation enables rapid response when an incident occurs and may even prevent incidents in the first place. Microsoft 365 dedicates significant resources to preparing for security incidents.
 
@@ -33,7 +33,7 @@ Microsoft 365 regularly tests, reviews, and updates its incident response plan t
 
 In the context of internal penetration testing, the Microsoft 365 Security Response team is known as the “Blue Team.” The Blue Team uses the incident response process to detect and respond to Red Team attacks as if they were genuine security incidents. Customer data is never the target of penetration testing, but these exercises help to ensure Microsoft 365 is prepared to detect, prevent, and respond to new kinds of security threats.
 
-![Two boxes with definition of Red Team and Blue Team. Red Team: Cyber-security experts who constantly attempt to breach our own production services without detection to simulate attackers by advanced adversaries. Blue Team: Cyber defenders who use sophisticated security tools and techniques to detect and defeat the Red Team's efforts.](../media/red-blue-teams-definitions.png)
+   ![Two boxes with definition of Red Team and Blue Team. Red Team: Cyber-security experts who constantly attempt to breach our own production services without detection to simulate attackers by advanced adversaries. Blue Team: Cyber defenders who use sophisticated security tools and techniques to detect and defeat the Red Team's efforts.](../media/red-blue-teams-definitions.png)
 
 In addition to ongoing internal penetration testing, Microsoft 365 conducts a variety of other incident response exercises, including ‘capture the flag’ events, one-off tabletop exercises, and other impromptu or organized events. These exercises supplement ongoing internal penetration testing to ensure all teams are adequately prepared to fulfill their responsibilities in the event of a real security incident.
 

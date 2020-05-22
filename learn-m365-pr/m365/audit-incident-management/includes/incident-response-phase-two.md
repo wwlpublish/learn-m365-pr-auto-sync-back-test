@@ -1,4 +1,4 @@
-[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4wEtM]
+>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4wEtM]
 
 Microsoft 365 focuses on key threat scenarios and complementary detection and analysis activities to enable security response as early in the attack life cycle as possible. Detection tools are configured to provide enough information for effective and efficient response actions when a potential incident is detected.
 

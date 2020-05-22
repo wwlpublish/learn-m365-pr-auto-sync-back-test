@@ -1,4 +1,4 @@
-[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4wzgz]
+>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4wzgz]
 
 Based on the analysis coordinated by the Microsoft 365 Security Response team, an appropriate containment, and recovery plan is developed to minimize the impact of the security incident and remove the threat from the environment. Relevant Service Teams implements the plan with support from the Microsoft 365 Security Response team to ensure the threat is successfully eliminated and the impacted services undergo a complete recovery.
 
