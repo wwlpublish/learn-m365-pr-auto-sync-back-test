@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.audit-incident-management.incident-response-phase-one
+title: Understand M365 incident response phase 1 - preparation
+metadata:
+  title: Understand M365 incident response phase 1 - preparation
+  description: Learn how Microsoft 365 investigates, manages, and responds to security concerns to protect customers and the Microsoft 365 cloud environment.
+  ms.date: 05/22/2020
+  author: NamrahK
+  ms.author: v-nakhu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 3
+content: |
+  [!include[](includes/incident-response-phase-one.md)]
