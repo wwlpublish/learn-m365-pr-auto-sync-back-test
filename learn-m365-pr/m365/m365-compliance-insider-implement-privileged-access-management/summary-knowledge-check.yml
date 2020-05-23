@@ -16,39 +16,36 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Question here"
+    - content: "Privileged access management provides just-in-time access at different scopes. What does just-in-time access protect against?"
       choices:
-      - content: "Choice 1"
+      - content: "Reduces the attack surface of standing privileged accounts  "
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+        explanation: "Zero standing access is what reduces the attack surface of standing privileged accounts."  
+      - content: "Reduces the risk of privileged access abuse "
         isCorrect: true
-        explanation: "explanation"
+        explanation: "The use of the just-in-time access model ensures that service teams only ever have the necessary access required to support the operation of Office 365, and are restricted by elevation level, resource access, and time. "
+      - content: "Reduces access to customer content in Exchange Online, SharePoint Online, and OneDrive for Business. "
+        isCorrect: false
+        explanation: "Customer Lockbox supports requests to access content in Exchange Online, SharePoint Online, and OneDrive for Business. Customer Lockbox puts customer content access control directly in the hands of the customer."
 
-    - content: "Question here"
+    - content: "Before you can get started with privileged access management you need to do which of the following? "
       choices:
-      - content: "Choice 1"
+      - content: "Create an approver’s group "
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
+        explanation: "Before you start using privilege access, determine who needs approval authority for incoming requests for access to elevated and privileged tasks. Any user who is part of the Approvers' group is able to approve access requests.  "
+      - content: "Enable privileged access "
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+        explanation: "Privileged access must be explicitly enabled in Office 365 with the default approver group, including a set of system accounts that you want excluded from the privileged access management access control. "
+      - content: "Create an access policy "
         isCorrect: true
-        explanation: "explanation"
+        explanation: "Creating an approval policy allows you to define the specific approval requirements scoped at individual tasks. The approval type options are **Auto** or **Manual**."
       
-    - content: "Question here"
+    - content: "True or false: If you select to choose manual approval for high risk tasks like setting a journal rule, you cannot choose a different approval group beyond the default approval group. "
       choices:
-      - content: "Choice 1"
+      - content: "True"
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+        explanation: "Explanation: You can choose a different approval group if you want to."
+      - content: "False"
         isCorrect: true
-        explanation: "explanation"
+        explanation: "You can keep the default group identified and you can choose a different approval group if you want to."
       
