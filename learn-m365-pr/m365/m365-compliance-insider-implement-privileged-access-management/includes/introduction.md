@@ -47,7 +47,7 @@ For an approved request, the task is processed by the Exchange Management runspa
  
 The approval workflow can also be illustrated as follows: 
 
-   ![Access workflow](../media/access-workflow.png)   
+   ![Approval workflow](../media/approval-workflow.png)   
  
 ## Learn more
 Introducing privileged access management in Office 365 (video) 
