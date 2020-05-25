@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.wvd-intro.introduction
-title: Introduction to Windows Virtual Desktop
+uid: learn-m365.wvd-intro.how-wvd-works
+title: What is Windows Virtual Desktop?
 metadata:
-  title: Introduction to Windows Virtual Desktop
+  title: What is Windows Virtual Desktop?
   description: Learn about Windows Virtual Desktop, a cloud-based desktop virtualization solution that works across devices – including Windows, Mac, iOS, and Android – with full-featured apps to access remote desktops and apps.
   ms.date: 08/16/2019
   author: lizap
@@ -12,4 +12,4 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 10
 content: |
-  [!include[](includes/introduction.md)]
+  [!include[](includes/3-how-windows-virtual-desktop-works.md)]
