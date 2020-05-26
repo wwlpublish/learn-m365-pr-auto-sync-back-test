@@ -1,10 +1,8 @@
-In this exercise, you’ll learn how to create, configure, and use Azure AD applications that use data returned from Microsoft Graph in single-page applications by using the OAuth 2.0 implicit grant flow.
+In this exercise, you’ll learn how to create and configure a single-page application that will use an Azure AD application to issue an authenticated request to Microsoft Graph using the OAuth 2.0 implicit grant flow.
 
 ## Create a single-page application
 
-A single-page application (SPA) is typically a dynamic web application that runs entirely client side in the browser, usually in one web page. This is usually just a single HTML page. However, this example will use an Azure AD application to issue an authenticated request to Microsoft Graph using the OAuth 2.0 implicit grant flow.
-
-To do this, the SPA must be served up as a routable page with a web server. The first step is to create a small web server and then create the SPA.
+A single-page application (SPA) is typically a dynamic web application that runs entirely client side in the browser, usually in a single web page. To do this, the SPA must be served up as a routable page with a web server. The first step is to create a small web server and then create the SPA.
 
 ### Create a Node.js web application
 
@@ -240,7 +238,7 @@ Configure MSAL to use this function by adding the following line immediately bef
 msalApplication.handleRedirectCallback(authRedirectCallBack);
 ```
 
-Once the user is authenticated, the code can submit a request to Microsoft Graph for the current user's information. The two `acquireToken*()` functions pass the access token acquired from Azure AD to the function:
+Once the user is authenticated, the code can submit a request to Microsoft Graph for the current user's information. The two `acquireToken*()` functions pass the access token acquired from Azure AD to the function.
 
 Add the following function immediately before the `// TODO: add FUNCTIONS before this line` comment:
 
@@ -362,4 +360,4 @@ Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the consol
 
 ## Summary
 
-In this exercise, you learned how to create, configure, and use Azure AD applications that use data returned from Microsoft Graph in single-page applications by using the OAuth 2.0 implicit grant flow.
+In this exercise, you learned how to create and configure a single-page application that will use an Azure AD application to issue an authenticated request to Microsoft Graph using the OAuth 2.0 implicit grant flow.
