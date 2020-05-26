@@ -14,7 +14,7 @@ Windows Virtual Desktop provides centralized security management  for user's des
 
 With Windows Virtual Desktop, the data and apps are separated from the local hardware and runs them instead on remote server. So the risk of confidential data being left on a personal device is reduced.
 
-You don't have to worry as much about the device that's connecting to your virtual desktops. The user's device just needs a secure network connection.
+In addition to separating the remote session’s data from the user’s device, Windows Virtual Desktop also improves security by using a more secure connection type to session host VMs, as opposed to the Remote Desktop Protocol over port 3389.
 
 ## Simplify management
 
