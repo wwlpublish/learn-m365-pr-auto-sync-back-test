@@ -22,6 +22,9 @@ Azure AD...
 
 ## Licensing and Azure Reservations cost savings
 
+Windows Virtual Desktop is available to you at no additional cost if you have an eligible M365
+license. Just pay for the Azure resources required.
+
 - Licensing:
   - Bring your eligible Windows or Microsoft 365 license to get Windows 10 Enterprise and Windows 7 Enterprise desktops and apps at no additional cost.
   - If you're an eligible Microsoft Remote Desktop Services (RDS) Client Access License (CAL) customer, Windows Server Remote Desktop Services desktops and apps are available at no additional cost.
@@ -29,7 +32,7 @@ Azure AD...
 
 ## Requirements
 
-Windows Virtual Desktop supports the following operating system images
+Windows Virtual Desktop supports the following operating system  (on the virtual desktops)...
 
 ### Infrastructure
 

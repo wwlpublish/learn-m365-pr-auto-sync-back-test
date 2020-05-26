@@ -28,9 +28,8 @@ products:
 units:
 - learn-m365.wvd-intro.introduction
 - learn-m365.wvd-intro.what-is-wvd
-- learn-m365.wvd-intro.how-wvd-works
-- learn-m365.wvd-intro.when-to-use-wvd
 - learn-m365.wvd-intro.wvd-configuration
+- learn-m365.wvd-intro.when-to-use-wvd
 - learn-m365.wvd-intro.knowledge-check
 - learn-m365.wvd-intro.summary-and-knowledge-check
 badge: 
