@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.wvd-intro.when-to-use-wvd
-title: What is Windows Virtual Desktop?
+title: When to use Windows Virtual Desktop
 metadata:
-  title: What is Windows Virtual Desktop?
-  description: Learn about Windows Virtual Desktop, a cloud-based desktop virtualization solution that works across devices – including Windows, Mac, iOS, and Android – with full-featured apps to access remote desktops and apps.
-  ms.date: 08/16/2019
+  title: When to use Windows Virtual Desktop
+  description: Learn when to use Windows Virtual Desktop in your organization.
+  ms.date:  05/26/2020
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
