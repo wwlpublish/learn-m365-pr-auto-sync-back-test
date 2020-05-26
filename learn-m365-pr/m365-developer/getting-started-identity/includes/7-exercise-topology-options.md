@@ -1,9 +1,9 @@
-This exercise will demonstrate to the user how to configure and implement an application that supports B2B.
+This exercise will demonstrate how to configure and implement an application that supports B2B.
 
 > [!NOTE]
 > This exercise demonstrates signing into a web application using three different accounts. These three accounts will come from two organizations, one of them being the organization where the Azure AD application is registered. Therefore, in order to complete the exercise, you'll need access to two user accounts in different Azure AD directories.
 
-In this application, you'll create an Azure AD application and ASP.NET Core web application that allows users from the current organization to sign in and display their information. You'll then invite a user from another organization as a guest into to access the same resources in your organization
+In this application, you'll create an an Azure AD application and ASP.NET Core web application that allow users from the current organization to sign in and display their information. You'll then invite a user from another organization as a guest to access the same resources in your organization
 
 ## Create a single-tenant Azure AD application
 
@@ -138,7 +138,7 @@ Within a browser, navigate to the [Azure Active Directory admin center (https://
 
 In the left-hand navigation, select **Users**.
 
-Examine the external user settings for available to administrators by selecting **User Settings** and then **Manage external collaboration settings**.
+Examine the external user settings available to administrators by selecting **User Settings** and then **Manage external collaboration settings**.
 
 ![Screenshot of the user settings page](../media/07-user-settings-01.png)
 
@@ -156,11 +156,11 @@ On the **New user** page, select **Invite user**, enter the email address of a u
 
 Now let's try to sign in with the user. In the browser, navigate to **https://localhost:5001**.
 
-This time, after successfully logging in, the user's Azure AD directory will prompt the user to grant the application's Azure AD directory permissions to sign in as the user and obtain basic information about the user.
+This time, after successfully logging in, the user's Azure AD directory will prompt the them to grant the application's Azure AD directory permissions. That is to sign in as the user and obtain basic information about them.
 
 ![Screenshot of a guest user consent to another Azure AD directory](../media/07-add-guest-03.png)
 
-Take note of what is happening at this point. The original Azure AD directory is not signing in the user, rather the user has been redirected to sign in with their Azure AD directory. Once they sign in, their Azure AD directory will provide a token to our directory that is used to verify the user is authenticated and authorized the application to obtain their basic profile information. It then created a new access token that can be used by our ASP.NET Core web application.
+Take note of what is happening at this point. The application's Azure AD directory is not signing in the user, rather the user has been redirected to sign in with their Azure AD directory. Once they sign in, their Azure AD directory will provide a token to the application's directory. That token is used to verify the user is authenticated and that they have authorized the application to obtain their basic profile information. The application's Azure AD then created a new access token that can be used by our ASP.NET Core web application.
 
 After selecting **Accept**, the user is taken to our ASP.NET application. Notice the difference in some of the claims.
 
@@ -173,4 +173,4 @@ Stop the web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the command prom
 
 ## Summary
 
-In this exercise, you created an ASP.NET Core web application and Azure AD application that allows guest users from partner Azure AD directories to sign in and access the application. You then invited a guest user to the directory and signed into the application with this user.
+In this exercise, you created an ASP.NET Core web application and an Azure AD application that allows guest users from partner Azure AD directories to sign in and access the application. You then invited a guest user to the directory and signed into the application with this user.
