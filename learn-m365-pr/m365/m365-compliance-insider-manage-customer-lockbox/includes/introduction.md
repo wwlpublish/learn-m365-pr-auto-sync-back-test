@@ -1,4 +1,4 @@
-## Customer Lockbox Overview
+## Customer Lockbox overview
 Customer Lockbox ensures that Microsoft cannot access an organization’s data in the cloud to perform a service operation without your explicit approval. 
 
 Microsoft engineers often help troubleshoot and fix technical issues reported by customers. Issues are sometimes fixed through extensive telemetry and debugging tools Microsoft has in place for its services. However, some issues require a Microsoft engineer to access customer content to determine the root cause and fix the issue. Customer Lockbox requires the Microsoft engineer to request access from the customer and provides organizations the option to approve or deny these requests and provide direct-access control to the customer.
@@ -47,7 +47,7 @@ The following diagram illustrates the Customer Lockbox workflow after a customer
     Currently, the maximum period for the access permissions granted to the Microsoft engineer is 4 hours. The Microsoft engineer can also request a shorter period. 
 
 ## Learn more
-[Microsoft 365 Trust Center](https://www.microsoft.com/trust-center/privacy?azure-portal=true)
-Customer Lockbox in Microsoft 365, an overview
-[Admin roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide?azure-portal=true)
-[Customer Lockbox frequently asked questions](https://docs.microsoft.com/microsoft-365/compliance/customer-lockbox-requests?view=o365-worldwide#frequently-asked-questions?azure-portal=true)
+ - [Microsoft 365 Trust Center](https://www.microsoft.com/trust-center/privacy?azure-portal=true)
+ - Customer Lockbox in Microsoft 365, an overview
+ - [Admin roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide?azure-portal=true)
+ - [Customer Lockbox frequently asked questions](https://docs.microsoft.com/microsoft-365/compliance/customer-lockbox-requests?view=o365-worldwide#frequently-asked-questions?azure-portal=true)

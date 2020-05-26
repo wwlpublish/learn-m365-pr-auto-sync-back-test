@@ -17,7 +17,7 @@ quiz:
     questions:
     - content: "When a Customer Lockbox request is approved by the organization, what is the maximum period for access permissions granted to the Microsoft engineer?"
       choices:
-      - content: "4hours"
+      - content: "4 hours"
         isCorrect: true
         explanation: "Currently, the maximum period for the access permissions granted to the Microsoft engineer is 4 hours. The Microsoft engineer can also request a shorter period."
       - content: "8 hours"

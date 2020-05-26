@@ -28,6 +28,7 @@ Actions related to accepting or denying a Customer Lockbox request and actions p
 
 ### Audit record for a Customer Lockbox access request
 When a person in your organization approves or denies a Customer Lockbox request, an audit record is logged in the Office 365 audit log. This record contains the following information.
+
 | Audit record property  | Description  |
 |---|---|
 |  Date	 |  The date and time when the Customer Lockbox request was approved or denied. |
@@ -47,13 +48,6 @@ The actions performed by a Microsoft engineer after a Customer Lockbox request i
 |  Activity |  Name of the activity performed by the Microsoft engineer. |
 |  Item |  \<empty\> |
 
-Audit record property	Description
-Date	Date time when the action was performed. Note that the time that this action was performed will be within 4 hours of when the Customer Lockbox request was approved.
-IP address	
-User	
-Activity	
-Item	
-
 ## Searching the audit log
 Before you can search the audit log, you must first turn on audit logging. To turn it on, go to the [Security & Compliance Center](https://protection.office.com?azure-portal=true), then click **Search > Audit log search > Turn on auditing.** If you do not see the link for **Turn on auditing**, then auditing has already been turned on for your organization. After you turn it on, a message is displayed that says the audit log is being prepared and that you can run a search in a couple of hours after the preparation is complete. You only have to do this once. For more information, see [Turn audit log search on or off](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide?azure-portal=true).
 
@@ -63,15 +57,15 @@ You also have to be assigned the View-Only Audit Logs or Audit Logs role in Exch
 > You must assign the permissions in Exchange admin center and not on the Permissions page in the Security & Compliance Center. This is because the underlying cmdlet used to search the audit log is an Exchange Online cmdlet.
 
 Once auditing has been turned on, an administrator with the appropriate permissions can perform the following steps:
-- 1.	Run an audit log search.
-- 2.	View the search results.
-- 3.	Filter the search results.
-- 4.	Export the search results to a file. 
+1.	Run an audit log search.
+2.	View the search results.
+3.	Filter the search results.
+4.	Export the search results to a file. 
 
 For more information about the process and the types of activities you can search for, see [Search the audit log in the Security & Compliance Center](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide?azure-portal=true).
 
 ## Learn more
-[Turn audit log search on or off](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide?azure-portal=true)
-[Search the audit log in the Security & Compliance Center](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide?azure-portal=true)
+- [Turn audit log search on or off](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide?azure-portal=true)
+- [Search the audit log in the Security & Compliance Center](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide?azure-portal=true)
 
 
