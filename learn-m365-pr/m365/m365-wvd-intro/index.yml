@@ -15,8 +15,8 @@ abstract: |
   - Describe Windows Virtual Desktop and how it works
   - Decide whether Windows Virtual Desktop is a good choice for your organization
 prerequisites: |
-  - Basic knowledge of virtualization supporting technologies like virtual machines, desktop virtualization, and FSLogix
-  - Familiarity with Windows Server technologies like Remote Desktop Services (RDS)
+  - Familiarity with server and client management concepts and tools
+  - Familiarity with Windows virtualization technologies, like Remote Desktop Services
 iconUrl: /learn/achievements/get-modern-os-deployment-and-feature-updates.svg
 ratingEnabled: true
 levels:

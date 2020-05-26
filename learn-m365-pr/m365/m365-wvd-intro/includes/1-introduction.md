@@ -15,5 +15,5 @@ At the end of this module, you should be able to:
 
 ## Prerequisites
 
-- Basic knowledge of virtualization supporting technologies like virtual machines, desktop virtualization, and FSLogix
-- Familiarity with Windows Server technologies like Remote Desktop Services (RDS)
+- Familiarity with server and client management concepts and tools
+- Familiarity with Windows virtualization technologies, like Remote Desktop Services
