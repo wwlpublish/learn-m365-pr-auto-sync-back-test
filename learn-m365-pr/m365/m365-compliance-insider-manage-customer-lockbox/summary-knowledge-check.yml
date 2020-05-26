@@ -15,39 +15,39 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Question here"
+    - content: "When a Customer Lockbox request is approved by the organization, what is the maximum period for access permissions granted to the Microsoft engineer?"
       choices:
-      - content: "Choice 1"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+      - content: "4hours"
         isCorrect: true
-        explanation: "explanation"
+        explanation: "Currently, the maximum period for the access permissions granted to the Microsoft engineer is 4 hours. The Microsoft engineer can also request a shorter period."
+      - content: "8 hours"
+        isCorrect: false
+        explanation: "Currently, the maximum period for the access permissions granted to the Microsoft engineer is 4 hours. The Microsoft engineer can also request a shorter period."
+      - content: "24 hours"
+        isCorrect: false
+        explanation: "Currently, the maximum period for the access permissions granted to the Microsoft engineer is 4 hours. The Microsoft engineer can also request a shorter period."
 
-    - content: "Question here"
+    - content: "How long does the designated approver at the customer organization have to respond to a customer lockbox request after it is issued?  "
       choices:
-      - content: "Choice 1"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+      - content: "12 hours"
         isCorrect: true
-        explanation: "explanation"
+        explanation: "Customer Lockbox requests have a default duration of 12 hours. If the customer designated approver does not respond to a request within 12 hours, the request expires."
+      - content: "24 hours"
+        isCorrect: false
+        explanation: "Customer Lockbox requests have a default duration of 12 hours. If the customer designated approver does not respond to a request within 12 hours, the request expires."
+      - content: "48 hours"
+        isCorrect: false
+        explanation: "Customer Lockbox requests have a default duration of 12 hours. If the customer designated approver does not respond to a request within 12 hours, the request expires."
       
-    - content: "Question here"
+    - content: "If you approve access via the Customer Lockbox system, the Microsoft engineer has the following access:"
       choices:
-      - content: "Choice 1"
+      - content: "Standing access"
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
+        explanation: "If you approve the request, Microsoft engineers have limited just-in-time access to your content through monitored and constrained management interfaces. "
+      - content: "Limited standing group access  "
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+        explanation: "Access can be granted for unique access IDs only."
+      - content: "Just-in-time  "
         isCorrect: true
-        explanation: "explanation"
+        explanation: "In the rare instance when a Microsoft engineer needs access to your data, you grant access only to data required to resolve the issue and for a limited amount of time which is considered just-in-time access."
       
