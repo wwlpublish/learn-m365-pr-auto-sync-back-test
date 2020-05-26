@@ -2,11 +2,11 @@ This unit will cover the different topology options available to developers that
 
 ## Consumer
 
-Consumers refer to Microsoft Accounts that are created by users for personal use. The Microsoft Account is the combination of an email address and a password that a user uses to sign in to all consumer-oriented Microsoft products and cloud services such as Outlook, OneDrive, MSN, or Xbox LIVE.​
+Consumers refer to Microsoft Accounts that are created for personal use. The Microsoft Account is the combination of an email address and a password that a user uses to sign in to all consumer-oriented Microsoft products and cloud services such as Outlook, OneDrive, MSN, or Xbox LIVE.​
 
 The Microsoft identity platform enables developers to create applications that allow users to sign-in using either a Microsoft Account (Personal Account) or a Work or School Account (an Azure AD identity).​
 
-While there are many similarities between Microsoft Accounts and Azure AD accounts, Microsoft Accounts are primarily for personal or consumer services. Some small business will also use consumer accounts and consumer services like email and OneDrive. Some similarities between the topologies include account and password management, support multi-factor authentication, and passwordless authentication. Unlike Microsoft Accounts, Azure AD accounts have additional security-related features that are available in enterprise scenarios.​
+While there are many similarities between Microsoft Accounts and Azure AD accounts, Microsoft Accounts are primarily for personal or consumer services. Some small business will also use consumer accounts and consumer services like email and OneDrive. Some similarities between the topologies include account and password management, support for multi-factor authentication, and passwordless authentication. Unlike Microsoft Accounts, Azure AD accounts have additional security-related features that are available in enterprise scenarios.​
 
 As an app developer, you can use Microsoft Account as a standards-based approach for adding single sign-on (SSO) to your app, allowing it to work with a user's pre-existing credentials. Microsoft identity also provides APIs that can help you build personalized app experiences using the users personal Office 365 resources.​
 
@@ -22,7 +22,7 @@ As an app developer, you can use Azure AD as a standards-based approach for addi
 
 ## Business to Business (B2B)
 
-Azure Active Directory (Azure AD) business-to-business (B2B) collaboration lets you securely share your company's applications and services with guest users from any other organization, while maintaining control over your own corporate data. Work safely and securely with external partners, large, or small, even if they don't have Azure AD or an IT department. A simple invitation and redemption process lets partners use their own credentials to access your company's resources. Developers can use Azure AD business-to-business APIs to customize the invitation process or write applications like self-service sign-up portals.
+Azure Active Directory (Azure AD) business-to-business (B2B) collaboration lets you securely share your company's applications and services with guest users from any other organization, while maintaining control over your own corporate data. Work safely and securely with external partners, large or small, even if they don't have Azure AD or an IT department. A simple invitation and redemption process lets partners use their own credentials to access your company's resources. Developers can use Azure AD business-to-business APIs to customize the invitation process or write applications like self-service sign-up portals.
 
 With Azure AD B2B, the partner uses their own identity management solution, so there is no external administrative overhead for your organization. The partner uses their own identities and credentials; Azure AD isn't required. In addition, you don't need to manage external accounts or passwords, nor do you need to sync accounts or manage the lifecycle of accounts.
 
