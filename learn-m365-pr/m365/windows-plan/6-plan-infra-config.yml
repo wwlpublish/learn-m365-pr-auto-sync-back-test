@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.waas-plan-plan-infra-config
+title: Plan for infrastructure and configuration
+metadata:
+  title: Plan for infrastructure and configuration
+  description: Plan for your infrastructure and configuration
+  ms.date: 05/20/2020
+  author: IanKensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-windows
+durationInMinutes: 4
+content: |
+  [!include[](includes/6-plan-infra-config.md)]
+quiz:
+  title: Check your knowledge
+  questions:
+  - content: Where can you find Microsoft’s recommended security baselines?
+    choices:
+    - content: Microsoft’s Standard Toolkit.
+      isCorrect: False
+      explanation: Use Microsoft’s Security Compliance Toolkit.
+    - content: Windows Security Toolkit.
+      isCorrect: False
+      explanation: Use Microsoft’s Security Compliance Toolkit.
+    - content: Microsoft’s Security Compliance Toolkit.
+      isCorrect: True
+      explanation: It will also provide the tools to help manage your security baselines.
+
+

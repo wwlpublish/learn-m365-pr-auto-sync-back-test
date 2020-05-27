@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.waas-plan-plan-applications
+title: Plan for applications
+metadata:
+  title: Plan for applications
+  description: Plan for your applications
+  ms.date: 05/20/2020
+  author: IanKensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-windows
+durationInMinutes: 2
+content: |
+  [!include[](includes/5-plan-applications.md)]
+quiz:
+  title: Check your knowledge
+  questions:
+  - content: Which roles should be involved when assigning an Application Owner?
+    choices:
+    - content: Operations, Security.
+      isCorrect: False
+      explanation: Security and Operations aren't needed to assign an application owner. End-user Computing and Process Manager should be involved to assign an application owner.
+    - content: End-User Computing, Process Manager.
+      isCorrect: True
+      explanation: End-user Computing, Process Manager, and Application Developers should work together to assign an application owner.
+    - content: Executive Stakeholder, Operations
+      isCorrect: False
+      explanation: Operations or Exec Stakeholders aren't needed to assign an application owner. End-user Computing and a Process Manager should be involved to assign an application owner.
+
+
