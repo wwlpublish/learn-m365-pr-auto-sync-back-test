@@ -15,10 +15,9 @@ abstract: |
   - Describe how to manage different mailbox types.
   - Explain the different group types.
   - Explain how to configure mailbox policies and permissions.
-  - Describe the different licensing options.
 
 prerequisites: |
- - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+ - None
 iconUrl: /learn/achievements/manage-recipient-resources.svg
 levels:
 - intermediate

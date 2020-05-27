@@ -5,4 +5,3 @@ When you finish this module, you should be able to:
 - Describe how to manage different mailbox types 
 - Explain the different group types 
 - Explain how to configure mailbox policies and permissions 
-- Describe the license options 

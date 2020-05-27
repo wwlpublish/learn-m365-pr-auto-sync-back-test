@@ -1,4 +1,4 @@
-Mail users are similar to mail contacts. Both have external email addresses and both contain information about people outside your Exchange or Exchange Online organization that can be displayed in the shared address book and other address lists. However, unlike a mail contact, a mail user has credentials in your Exchange or Office 365 organization and can access resources. 
+Mail users are similar to mail contacts. Both have external email addresses and both contain information about people outside your Exchange or Exchange Online organization that can be displayed in the shared address book and other address lists. However, unlike a mail contact, a mail user has credentials in your Exchange or Microsoft 365 organization and can access resources. 
 
 To complete any of the actions or procedures mentioned in this unit, you'll need to ensure the account you're using has the Recipient Management permission.  
 
@@ -32,7 +32,7 @@ The EAC provides a graphical interface for the management of mail-enabled user a
 3. Specify what type of email address you're going to create. You can use SMTP or specify a custom address type, for example, X.500, GroupWise, or LotusNotes. 
 4. Enter the mail user's external email address in **External email address**. 
 5. Specify whether you're enabling mail for an existing user or a new user.  
-6. If you selected **New User** in Step 5, Use the details about the user to complete the information on the **New mail user** page. Otherwise skip to Step 7.  
+6. If you selected **New User** in Step 5, use the details about the user to complete the information on the **New mail user** page. Otherwise skip to Step 7.  
 7. Select **Save** to create a mail user or to save the changes to an existing user.  
 
 
