@@ -13,7 +13,7 @@ durationInMinutes: 3
 quiz:
    title: Check your knowledge
    questions:
-   - content: "A Microsoft Azure subscription is required to set up Windows Virtual Desktop."
+   - content: "A Microsoft Azure subscription is required to set up Windows Virtual Desktop. (Not specifically discussed. Also can't have T/F."
      choices:
      - content: "True"
        isCorrect: true
@@ -35,25 +35,14 @@ quiz:
      - content: "Active Directory Federation Services"
        isCorrect: False
        explanation: "No, Active Directory Federation Services is a valid method. This option allows you to use more complex partner federation, RSA token, and SmartCard authentication. However, with this option you’ll need to provision additional on-premises servers and ensure they are highly available."
-   - content: "When you provision and manage Windows Virtual Desktop, you need several administrator roles. Which of the following roles do you NOT need?" 
+   - content: "Which Azure administrator role do you need to enroll Windows Virtual Desktop? (This isn't a real role: Azure subscription administrator. Subscription Owner? Also this isn't covered in the admin perms section) " 
      choices:
-     - content: "Azure subscription admin" 
-       isCorrect: false
-       explanation: "No, you need an Azure subscription admin to grant access to the Azure portal and resources. You can also use the global admin in this role." 
-     - content: "Azure Fabric admin" 
+     - content: "Azure subscription administrator" 
        isCorrect: true
-       explanation: "Correct. The Azure Fabric admins work for Microsoft to manage Azure services that you don’t need to manage when using Windows Virtual Desktop."
+       explanation: "No, you need an Azure subscription admin to grant access to the Azure portal and resources. You can also use the global admin in this role." 
      - content: "Azure Active Directory admin" 
        isCorrect: false
        explanation: "No, you need the Azure Active Directory admin to provision users and manage user and admin access. This is also called a 'user admin' in the portal." 
-     - content: "Windows Virtual Desktop tenant admin"
+     - content: "Windows Virtual Desktop Tenant Creator"
        isCorrect: false  
-       explanation: "No, you need a Windows Virtual Desktop tenant admin, also known as 'tenant creator,' to provision and maintain solution-specific settings." 
-   - content: "The PowerShell module used to manage Windows Virtual Desktop is called 'Microsoft.WVDinfra.WVDPowershell'." 
-     choices:
-     - content: "True"
-       isCorrect: false 
-       explanation: "Incorrect, the PowerShell module is called 'Microsoft.Rdinfra.RdPowershell.'"
-     - content: "False"
-       isCorrect: true 
-       explanation: "Correct. The PowerShell module is called 'Microsoft.Rdinfra.RdPowershell.' You have the eagle eyes and attention to detail of a born scripter."
+       explanation: "You need a Windows Virtual Desktop Tenant Creator to provision and maintain solution-specific settings." 

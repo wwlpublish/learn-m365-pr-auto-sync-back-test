@@ -10,11 +10,7 @@ That said, there are still a few prerequisites you should be aware of – especi
 
 At the end of this module, you should be able to:
 
-- Provision your Azure tenant
-- Set up Azure Active Directory (Azure AD)
-- Set up an Azure Virtual Network
-- Integrate with Active Directory Domain Services
-- Provision required administrator roles in Azure AD
+- Describe the steps involved and resources you need to prepare for Windows Virtual Desktop deployment.
 
 ## Prerequisites
 
