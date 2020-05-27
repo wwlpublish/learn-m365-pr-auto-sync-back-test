@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.waas-plan-roles-responsibilities
+title: Business plan
+metadata:
+  title: Business plan
+  description: Business plan
+  ms.date: 05/20/2020
+  author: IanKensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-windows
+durationInMinutes: 1
+content: |
+  [!include[](includes/4-roles-responsibilities.md)]
+quiz:
+  title: Check your knowledge
+  questions:
+  - content: Which role is typically responsible for assigning user acceptance testers to critical applications?
+    choices:
+    - content: Operations
+      isCorrect: False
+      explanation: Operations provide post-deployment support procedures like user communication and plans for rollbacks.
+    - content: Application Developer
+      isCorrect: False
+      explanation: Application Developers create the app, and implement issue remediation for the applications.
+    - content: Application Owner
+      isCorrect: True
+      explanation: The Application Owner defines the test plan and assigns testers.
+
+

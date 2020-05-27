@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.waas-plan-modernization
+title: Modernization
+metadata:
+  title: Modernization
+  description: Modernization
+  ms.date: 05/20/2020
+  author: IanKensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-windows
+durationInMinutes: 2
+content: |
+  [!include[](includes/7-modernization.md)]
+quiz:
+  title: Check your knowledge
+  questions:
+  - content: What update tool allows you to put the responsibility of applying feature updates on Microsoft while giving the administrator the ability to defer installation?
+    choices:
+    - content: Implement Configuration Manager
+      isCorrect: False
+      explanation: Configuration Manager by itself doesn’t have this capability. You’ll need to integrate it with Windows Update for Business.
+    - content: Implement Windows Update for Business
+      isCorrect: True
+      explanation: It will help you automatically deploy Windows updates across the environment. Windows Update for Business can be used with Microsoft Intune and Configuration Manager.
+    - content: Implement Windows Standard Toolkit.
+      isCorrect: False
+      explanation: Use Microsoft’s Windows Update for Business.
+
+

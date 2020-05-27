@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.waas-plan-overview
+title: Overview
+metadata:
+  title: Overview
+  description: Overview
+  ms.date: 05/20/2020
+  author: IanKensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-windows
+durationInMinutes: 5
+content: |
+  [!include[](includes/2-overview.md)]
+quiz:
+  title: Check your knowledge
+  questions:
+  - content: What are the phases of the servicing framework?
+    choices:
+    - content: Plan, Compatibility, Pilot Deployment, Broad Deployment
+      isCorrect: False
+      explanation: Compatibility is a workstream.
+    - content: Plan, Prepare, Pilot Deployment, Broad Deployment
+      isCorrect: True
+      explanation: Phases in the servicing framework help you to approach deploying updates.
+    - content: Plan, Prepare, Pilot Deployment, Modernize
+      isCorrect: False
+      explanation: Modernize is a workstream.
+
+
