@@ -1,5 +1,5 @@
 ### YamlMime:Module
-uid: learn-m365.waas-plan
+uid: learn-m365.windows-plan
 metadata:
   title: Plan to stay current with Windows 10 and Microsoft 365 Apps
   description: Understand how to plan for your organization to stay current with Windows 10 and Microsoft 365 Apps
@@ -24,13 +24,13 @@ roles:
 products:
 - windows
 units:
-- learn-m365.waas-plan.1-introduction
-- learn-m365.waas-plan.2-overview
-- learn-m365.waas-plan.3-technology-primer
-- learn-m365.waas-plan.4-roles-responsibilities
-- learn-m365.waas-plan.5-plan-applications
-- learn-m365.waas-plan.6-plan-infra-config
-- learn-m365.waas-plan.7-modernization
-- learn-m365.waas-plan.8-summary
+- learn-m365.windows-plan.1-introduction
+- learn-m365.windows-plan.2-overview
+- learn-m365.windows-plan.3-technology-primer
+- learn-m365.windows-plan.4-roles-responsibilities
+- learn-m365.windows-plan.5-plan-applications
+- learn-m365.windows-plan.6-plan-infra-config
+- learn-m365.windows-plan.7-modernization
+- learn-m365.windows-plan.8-summary
 badge:
-  uid: learn-m365.waas-plan.badge
+  uid: learn-m365.windows-plan.badge
