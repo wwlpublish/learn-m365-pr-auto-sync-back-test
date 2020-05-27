@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-messaging-manage-client-access.configure-autodiscover
+title: Configure Autodiscover
+metadata:
+  title: Configure Autodiscover
+  description: Learn how to configure clients to access associated Exchange Online mailboxes, how to troubleshoot connectivity issues, and how to connect your clients. 
+  ms.date: 03/23/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 3
+content: |
+  [!include[](includes/configure-autodiscover.md)]
