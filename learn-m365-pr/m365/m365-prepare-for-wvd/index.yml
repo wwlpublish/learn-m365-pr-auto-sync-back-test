@@ -12,10 +12,11 @@ title: Prepare for Windows Virtual Desktop in Microsoft Azure
 summary: Learn how to prepare for Windows Virtual Desktop - a cloud-based virtualization solution running on Microsoft Azure. Windows Virtual Desktop is an elastically scalable service to deliver remote desktop and remote app experiences - without having to manage the underlying server infrastructure. Review the prerequisites and tools provided by Microsoft to get ready to provision your first Windows Virtual Desktop host pool.
 abstract: |
   At the end of this module, you should be able to:
-  - Provision an Azure tenant and set up Azure Active Directory (Azure AD) 
-  - Integrate Azure AD with Active Directory Domain Services (AD DS)
-  - Provision the required administrator roles in Azure AD 
-  - Set up the Windows Virtual Desktop tenant 
+  - Provision your Azure tenant
+  - Set up Azure Active Directory (Azure AD)
+  - Set up an Azure Virtual Network
+  - Integrate with Active Directory Domain Services
+  - Provision required administrator roles in Azure AD
 prerequisites: None
 iconUrl: /learn/achievements/prepare-for-windows-virtual-desktop.svg
 ratingEnabled: true
@@ -31,6 +32,7 @@ units:
 - learn-m365.prepare-for-wvd.integrate-aad-adds
 - learn-m365.prepare-for-wvd.provision-aad-roles
 - learn-m365.prepare-for-wvd.set-up-wvd-tenant
+- learn-m365.prepare-for-wvd.knowledge-check
 - learn-m365.prepare-for-wvd.summary-and-knowledge-check
 badge: 
   uid: learn-m365.prepare-for-wvd.badge

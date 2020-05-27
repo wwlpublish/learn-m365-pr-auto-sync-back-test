@@ -1,15 +1,38 @@
-With all prerequisite steps complete, you're ready to create a Windows Virtual Desktop tenant. The tenant is used to group your host pools and to identify your resources in later provisioning and customization steps. 
+With all prerequisite steps complete, you're ready to create a Windows Virtual Desktop workspace. The workspace is used to group your host pools and to identify your resources in later provisioning and customization steps.
 
-## Provision a Windows Virtual Desktop Tenant Creator account 
-You'll use an Azure AD global admin account to provision the Windows Virtual Desktop tenant.  
+<!-- Move unit to next module-->
+## Register the DesktopVirtualization provider
 
-1. First, find your Azure AD Directory ID, also known as the *AAD tenant GUID*, from your Azure Microsoft tenant. (In Azure AD check under **Properties**.) Copy it to your clipboard or save it in a text file to use later.  
+1. [Sign in](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true) to the Azure portal.
+1. Use the search box to find **Subscriptions**.
+1. Select the subscription you want to use with Windows Desktop Virtualization.
+1. Under **Settings**, select **Resource provider**.
+1. In the filter box, search for and then select **Microsoft.DesktopVirtualization**.
+1. Select **Register**.
 
-2. Next, go to https://rdweb.wvd.microsoft.com and grant the Windows Virtual Desktop tenant read access to your Azure AD information. You’ll grant access once for the Server App used to administer Windows Virtual Desktop and a second time for the Client App for users to sign in to services.  
-   >![Windows Virtual Desktop consent](../media/wvd-consent.png)
-3. In the Azure portal, navigate to Azure AD.  Add a new "Windows Virtual Desktop" app in **All Applications**. Configure a user with the role of **Tenant Creator** to serve as the Windows Virtual Desktop administrator.  
-   >![Windows Virtual Desktop Tenant Creator users](../media/wvd-tenantcreator.png)
-## Create the Windows Virtual Desktop tenant 
+   :::image type="content" source="../media/5-register-provider.png" alt-text="Screenshot of resource provider listed and register button highlighted.":::
+
+   It may take a minute for the status to change to **Registered**.
+<!--
+All steps are different now. It's on docs. https://docs.microsoft.com/en-us/azure/virtual-desktop/create-host-pools-azure-marketplace 
+
+"Also, make sure you've registered the Microsoft.DesktopVirtualization resource provider. "
+
+https://techcommunity.microsoft.com/t5/windows-it-pro-blog/getting-started-windows-virtual-desktop-arm-based-azure-portal/ba-p/1374466
+-->
+
+
+## Create the Windows Virtual Desktop workspace
+
+<!--
+This is done in the UI now. Need to mention PS module and cmds. 
+Az.DesktopVirtualization
+-->
+
+## Host pool steps
+
+## Create via PowerShell 
+
 We'll use PowerShell cmdlets to create the Windows Virtual Desktop tenant. First, import and install the Windows Virtual Desktop PowerShell module, Microsoft.Rdinfra.RdPowershell. In an elevated PowerShell console or PowerShell ISE, running as administrator, run the following cmdlet to import the module:
 
 ```powershell
