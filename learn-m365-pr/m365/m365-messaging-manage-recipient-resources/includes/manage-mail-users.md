@@ -14,11 +14,11 @@ Suppose you want to create a new mail-enabled account for Jeffery Brown with the
    >[!NOTE]
    > If you don't set a *DisplayName*, the value from the *Name* parameter is used instead. 
 - Email alias: **jefferyb**. 
-- External email address: **jbrown@tailspintoys.com**. 
+- External email address: **jbrown\@tailspintoys.com**. 
 - First name: **Jeffery**
 - Initials: **JB**
 - Last name: **Brown**. 
-- User name: **jefferyb@fabrikam.com**. 
+- User name: **jefferyb\@fabrikam.com**. 
 - Assigned password: **Pa$$w0rd1**. 
 
 We'll look at both ways to create the account.  
