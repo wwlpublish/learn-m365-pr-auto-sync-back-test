@@ -14,7 +14,7 @@ Whenever there is a security incident, Microsoft 365 strives to respond quickly 
 
 *If Microsoft becomes aware of a breach of security leading to the accidental or unlawful destruction, loss, alteration, unauthorized disclosure of, or access to Customer Data or Personal Data while processed by Microsoft (each a “Security Incident”), Microsoft will promptly and without undue delay (1) notify Customer of the Security Incident; (2) investigate the Security Incident and provide Customer with detailed information about the Security Incident; (3) take reasonable steps to mitigate the effects and to minimize any damage resulting from the Security Incident.*
 
-## Federated Incident Response at Microsoft ##
+## Federated incident response at Microsoft ##
 
 To effectively respond to security incidents, Microsoft employs a federated security incident response model. All major Online Service Teams, such as Exchange Online, SharePoint Online, Microsoft Teams, and Azure Active Directory, have dedicated security teams with specialized engineering skills. At the same time, each team adheres to a shared incident management process, shared definitions, and shared training to provide consistency across all Online Services.
 
@@ -28,13 +28,13 @@ The Microsoft 365 Security Response team provides Service Teams with centralized
 - C&AI Security – for technical assistance in investigations within the hosting environment
 - Microsoft 365 Customer Experience team – for supporting tenant escalations from Customer Service and Support Group and other sources
 
-## Incident Response in Microsoft 365 ##
+## Incident response in Microsoft 365 ##
 
 Within Microsoft 365, responsibilities for security incident response are shared between the Microsoft 365 Security Response team and each Microsoft 365 Service Team. The Microsoft 365 Security Response team coordinates with Service Teams to implement our enterprise-wide incident response strategy while leveraging Service Team expertise.
 
 Our incident response strategy, which is based on the NIST 800-61 response management phases, proceeds through four phases of interconnected activity: preparation; detection and analysis; containment, eradication, and recovery; and post-incident activity.
 
-   ![A visual diagram of NIST phases](../media/nist-phases.png)
+   ![A visual diagram of NIST phases](../media/visual-representation-phases.png)
 
 Each phase of the response management process is important for effective incident response.
 

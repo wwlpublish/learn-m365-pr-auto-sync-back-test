@@ -2,9 +2,9 @@ The following diagram illustrates customer notification process after a confirme
 
    ![A visual flow incident response to customer notification 1) Event Start 2) Event Detected 3) OCE Engaged 4) Security Response Team Engaged 5) Security Incident Confirmed 6) Customer Impact Determined 7) Affected Customers Determined 8) Affected Customers Notified](../media/visual-flow-incident-response.png)
 
-## Microsoft Responsibility ##
+## Microsoft responsibility ##
 
-If at any point in the investigation of a security or privacy incident the Microsoft 365 Security Response team discovers that customer data has been the subject of accidental or unlawful destruction, loss, or alteration, unauthorized disclosure, or unauthorized access, then the event is declared a security incident and the customer incident notification process is initiated. Microsoft identifies and notifies any affected tenants within 72 hours in accordance with the guidelines of many regulatory frameworks, including GDPR.
+If at any point in the investigation of a security or privacy incident the Microsoft 365 Security Response team discovers that customer data has been the subject of accidental or unlawful destruction, loss, or alteration, unauthorized disclosure, or unauthorized access, then the event is declared a security incident and the customer incident notification process is initiated. Microsoft identifies and notifies any affected tenants within 72 hours in accordance with the guidelines of many regulatory frameworks.
 
 The notification timeline commitment begins when the official security incident declaration occurs. Upon declaring a security incident, the notification process occurs as expeditiously as possible, without undue delay.
 
@@ -17,7 +17,7 @@ Customer notification for security incidents occurs via appropriate channels bas
 
 Microsoft’s customer notification commitments are detailed in two sections of the [Microsoft Online Services Data Protection Addendum](https://www.microsoft.com/licensing/product-licensing/products?azure-portal=true):
 
-### Security Incident Notification ###
+### Security incident notification ###
 
 *Notification(s) of Security Incidents will be delivered to one or more of Customer’s administrators by any means Microsoft selects, including via email. It is Customer’s sole responsibility to ensure Customer’s administrators maintain accurate contact information on each applicable Online Services portal. Customer is solely responsible for complying with its obligations under incident notification laws applicable to Customer and fulfilling any third-party notification obligations related to any Security Incident.*
 
@@ -27,13 +27,13 @@ Microsoft’s customer notification commitments are detailed in two sections of 
 
 *Customer must notify Microsoft promptly about any possible misuse of its accounts or authentication credentials or any security incident related to an Online Service.*
 
-### Appendix A – Security Measures ###
+### Appendix A – security measures ###
 
-#### Incident Response Process ####
+#### Incident response process ####
 
 *For each security breach that is a Security Incident, notification by Microsoft (as described in the “Security Incident Notification” section above) will be made without undue delay and, in any event, within 72 hours.*
 
-## Customer Responsibility ##
+## Customer responsibility ##
 
 To ensure notifications are received promptly by the correct customer contacts, the customer must maintain accurate contact information in their tenant profiles.
 

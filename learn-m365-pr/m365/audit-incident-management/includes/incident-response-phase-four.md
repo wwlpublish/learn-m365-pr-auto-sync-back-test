@@ -10,6 +10,6 @@ After the incident has been resolved, select security incidents, especially thos
 - Recording any findings as ticketed work items or bugs to be addressed by product teams as part of our normal Security Development Life cycle and assigning these items to appropriate owning teams for follow-up.
 - Discussing the results of the completed post-mortem in monthly security incident review meetings conducted by senior management.
 
-## Continuous Improvement ##
+## Continuous improvement ##
 
 Lessons learned from the security incident are implemented with coordination from the Microsoft 365 Security Response team to help prevent future incidents and improve detection and response capabilities. Continuous improvement is paramount for effective and efficient incident response. Post-incident activities ensure that lessons learned from the security incident are successfully implemented across the enterprise to defend Microsoft and its customers against evolving threats.

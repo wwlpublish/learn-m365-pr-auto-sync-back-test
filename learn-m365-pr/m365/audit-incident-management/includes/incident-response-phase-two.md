@@ -2,13 +2,13 @@
 
 Microsoft 365 focuses on key threat scenarios and complementary detection and analysis activities to enable security response as early in the attack life cycle as possible. Detection tools are configured to provide enough information for effective and efficient response actions when a potential incident is detected.
 
-# Detection Tools and Strategies ##
+## Detection tools and strategies ##
 
 Microsoft 365 uses centralized audit logging and analysis to detect anomalous or suspicious activity. Log files from Microsoft 365 servers and infrastructure devices are collected and stored in a central, consolidated database. Centralized log analysis allows the Microsoft 365 Security Response team to comprehensively monitor the environment and correlate log entries from different services.
 
 Other detection tools in Microsoft 365 include network-based and host-based intrusion detection systems, centrally managed anti-virus and anti-malware suites, and manual detection methods, such as observations from engineers and end users. Microsoft 365 employs a team of highly experienced, proficient, and skilled people with competencies in all components of the cloud stack. The expertise of our engineers complements and supports our automated detection mechanisms.
 
-## Escalation and Investigation ##
+## Escalation and investigation ##
 
 When a potential incident is detected, is it escalated with a preliminary severity rating to the Microsoft 365 Security Response team, which serves as the key orchestrator of the security incident response process. The Microsoft 365 Security Response team is responsible for analyzing the detection indicators to determine whether a security incident has occurred and to adjust its severity level if needed. If at any point the team discovers that customer data has been disclosed, modified, or destroyed, the team initiates the customer security notification process. More details on the customer notification process can be found in Unit 6.
 
