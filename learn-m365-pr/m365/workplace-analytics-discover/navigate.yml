@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.workplace-analytics-discover.navigate-workplace-analytics
+uid: learn-m365.workplace-analytics-discover.navigate
 title: Navigate Workplace Analytics
 metadata:
   title: Navigate Workplace Analytics
@@ -11,4 +11,4 @@ metadata:
   ms.prod: learning-m365
 durationInMinutes: 18
 content: |
-  [!include[](includes/navigate-workplace-analytics.md)]
+  [!include[](includes/navigate.md)]
