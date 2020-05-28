@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.m365-messaging-manage-mobile-devices.mobile-device-mailbox-policies
-title: Configure your mobile device mailbox policies
+title: Enable mobile users to access Exchange Online
 metadata:
-  title: Configure your mobile device mailbox policies
+  title: Enable mobile users to access Exchange Online
   description: Plan and manage your mobile devices, including mobile authentication, device access, ActiveSync, and Outlook mobile. 
   ms.date: 04/09/2020
   author: AlexandraHrt
