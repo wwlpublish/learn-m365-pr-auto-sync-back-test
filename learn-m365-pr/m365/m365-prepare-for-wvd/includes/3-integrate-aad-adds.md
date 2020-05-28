@@ -6,7 +6,7 @@ There are several synchronization options available:
 - **Pass-through Authentication** – your on-premises directory service can perform simple authentication for Microsoft cloud services, requiring little on-premises configuration on your domain controllers
 - **Active Directory Federation Services** – more complex partner federation, RSA tokens, and Smartcard authentication. If you use this option, you’ll need to provision additional on-premises servers and ensure they are highly available.
  
-You can use [Azure AD Connect](https://www.microsoft.com/download/details.aspx?id=47594) to set up synchronization.
+You can use Azure AD Connect to set up synchronization.
 
 ## Configure Active Directory Domain Services for Windows Virtual Desktop
 
@@ -18,9 +18,4 @@ In Windows Virtual Desktop, your remote sessions use AD DS the same way that you
 - Provision Azure Active Directory Domain Services (Azure AD DS). This is AD DS as a service. You don't have to maintain any domain controller VMs. You connect Azure AD DS to the same virtual network as your Windows Virtual Desktop environment. You can use Azure AD DS with or without a local AD. If you connect it to your on-premises domain, it behaves like your current domain controllers, without the management overhead. 
 - Connect your network to Azure and establish a VPN between your datacenter and Azure. When making the connection, ensure that the domain controllers you operate are securely available to Windows Virtual Desktop VMs running in Azure. You can use a VPN connection or use Azure ExpressRoute for connectivity.  
 
-## Create an Azure virtual network
 
-<!--
-This is suppose to go before integrate but doesn't make a lot of sense in unit before and not enough content for it's own unit.
--->
-As part of the host pool provisioning process, which is of Windows Virtual Desktop deployment, you'll need to enter virtual network, domain information, and domain-join credentials to complete the process.

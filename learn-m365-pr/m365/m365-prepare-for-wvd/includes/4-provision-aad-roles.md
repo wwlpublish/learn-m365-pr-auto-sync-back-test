@@ -6,6 +6,7 @@ Configure the following resources in Microsoft Azure:
 
 <!--Add steps for all these or not. Seems like we have to if we're covering other steps for WVD -->
 - One or more resource groups as a foundation to group services in Azure.
+- A Virtual network is needed for the host pool provisioning process, which is part of the Windows Virtual Desktop deployment. You'll need to enter virtual network, domain information, and domain-join credentials to complete the provisioning process.
 - A storage account in Azure to store virtual disk files used with FSLogix profiles and to synchronize or provision file share services for Windows Virtual Desktop session hosts. You can also use [Azure NetApp Files](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-introduction) and [Storage Spaces Direct](https://docs.microsoft.com/windows-server/storage/storage-spaces/storage-spaces-direct-overview).  
 - Administrator, user, and system accounts required to manage services.  
 
