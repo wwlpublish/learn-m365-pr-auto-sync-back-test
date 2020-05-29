@@ -1,12 +1,12 @@
 Now that you know the teams responsible for incident response, we will explore each phase of the incident response process.
 
->[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4wqV5]
+>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4wqV5] 
 
 Preparation enables rapid response when an incident occurs and may even prevent incidents in the first place. Microsoft 365 dedicates significant resources to preparing for security incidents.
 
 ## Training ##
 
-Each employee working in Microsoft 365 is provided with training appropriate to their role regarding security incident response. Initial training occurs when a new employee begins working at Microsoft, and annual refresher training takes place every year thereafter. The training is designed to provide the employee with an understanding of Microsoft’s fundamental approach to security. Upon completion of the training, all employees can:
+Each employee working in Microsoft 365 is provided with training appropriate to their role regarding security incident response. Initial training occurs when a new employee begins working at Microsoft, and annual refresher training takes place every year thereafter. The training is designed to provide the employee with an understanding of Microsoft’s fundamental approach to security. Upon completion of the training, all employees can: 
 
 - Define a security incident.
 - Explain their role and responsibility to report security incidents.
