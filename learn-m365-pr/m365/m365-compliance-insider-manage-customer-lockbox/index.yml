@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn-m365.m365-compliance-insider-manage-customer-lockbox
+metadata:
+  title: Manage customer lockbox
+  description: Customer Lockbox supports requests to access data in Exchange Online, SharePoint Online, and OneDrive when Microsoft engineers need to access customer content to determine root cause and fix an issue. Customer Lockbox requires the engineer to request access from the customer as a final step in the approval workflow. This gives organizations the option to approve or deny these requests and provide direct-access control to the customer.
+  ms.date: 05/15/2020
+  author: ericweisberg
+  ms.author: v-erwe
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage customer lockbox
+summary: Customer Lockbox supports requests to access data in Exchange Online, SharePoint Online, and OneDrive when Microsoft engineers need to access customer content to determine root cause and fix an issue. Customer Lockbox requires the engineer to request access from the customer as a final step in the approval workflow. This gives organizations the option to approve or deny these requests and provide direct-access control to the customer.
+abstract: |
+  Upon completion of this module, you should be able to: 
+  -	Describe the Customer Lockbox workflow.
+  -	Explain how to approve or deny a Customer Lockbox request.
+  -	Explain how you can audit actions performed by Microsoft engineers when access requests are approved.
+
+  prerequisites: | 
+  - Cloud computing concepts. If you are unfamiliar with this topic, we recommend you take [Cloud Concepts - Principles of cloud computing](https://docs.microsoft.com/learn/modules/principles-cloud-computing/)
+  - Microsoft 365 product and services. If you are unfamiliar this with topic, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+
+iconUrl: http://via.placeholder.com/120x120
+ratingEnabled: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-365
+units:
+- learn-m365.m365-compliance-insider-manage-customer-lockbox.introduction
+- learn-m365.m365-compliance-insider-manage-customer-lockbox.manage
+- learn-m365.m365-compliance-insider-manage-customer-lockbox.summary-knowledge-check
+
+badge: 
+  uid: learn-m365.m365-compliance-insider-manage-customer-lockbox.badges
