@@ -48,6 +48,6 @@ The following diagram illustrates the Customer Lockbox workflow after a customer
 
 ## Learn more
  - [Microsoft 365 Trust Center](https://www.microsoft.com/trust-center/privacy?azure-portal=true)
- - Customer Lockbox in Microsoft 365, an overview
+ - [Customer Lockbox in Microsoft 365, an overview](https://www.microsoft.com/videoplayer/embed/8fecf10b-1f03-4849-8b67-76d3d2a43f26?azure-portal=true)
  - [Admin roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide?azure-portal=true)
  - [Customer Lockbox frequently asked questions](https://docs.microsoft.com/microsoft-365/compliance/customer-lockbox-requests?view=o365-worldwide#frequently-asked-questions?azure-portal=true)

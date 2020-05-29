@@ -68,6 +68,7 @@ Identifying and resolving internal risk activities and compliance issues with in
 ## Learn more
 - [Crowd Research Partners, Insider Threat Report](https://crowdresearchpartners.com/portfolio/insider-threat-report/?azure-portal=true)
 - [Carnegie Mellon CERT study: The “Big Picture” of Insider IT Sabotage Across U.S. Critical Infrastructures](https://resources.sei.cmu.edu/asset_files/TechnicalReport/2008_005_001_14981.pdf?axure-portal=true)
+- [Insider Risk Management from Microsoft 365](https://www.microsoft.com/videoplayer/embed/RE4xnQE?azure-portal=true)
 - [Carnegie Mellon University: Insider Threats in Healthcare](https://insights.sei.cmu.edu/insider-threat/2019/02/insider-threats-in-healthcare-part-7-of-9-insider-threats-across-industry-sectors.html?azure-portal=true)
 
 

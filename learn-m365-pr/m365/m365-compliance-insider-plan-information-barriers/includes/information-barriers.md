@@ -61,18 +61,10 @@ Currently, information barrier policies must be defined and managed by using a c
 For more information, see [Part 3: Apply information barrier policies](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-policies?view=o365-worldwide#part-3-apply-information-barrier-policies?azure-portal=true). 
 
 
-Resources
-The following resources that were referenced in this module include: 
+## Learn more
 
-Permissions in the Office 365 Security & Compliance Center 
-Use Microsoft Teams scoped directory search 
-Turn Office 365 audit log search on or off 
-Remove an address book policy 
-Connect to Office 365 Security & Compliance Center PowerShell 
-Install Azure PowerShell 
-Prerequisites 
-Part 1: Segment users 
-Part 2: Define information barrier policies 
-Part 3: Apply information barrier policies 
-Troubleshooting information barriers 
-Edit (or remove) information barrier policies 
+ - [Permissions in the Office 365 Security & Compliance Center](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center?view=o365-worldwide?azure-portal=true)
+ - [Prerequisites](https://docs.microsoft.com/en-us/microsoft-365/compliance/information-barriers-policies?view=o365-worldwide#prerequisites?azure-portal=true)
+ - [Troubleshooting information barriers](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-troubleshooting?view=o365-worldwide?azure-portal=true)
+ - [Edit (or remove) information barrier policies](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-edit-segments-policies?view=o365-worldwide?azure-portal=true)
+
