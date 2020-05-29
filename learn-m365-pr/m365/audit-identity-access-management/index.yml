@@ -29,12 +29,12 @@ roles:
 products:
 - m365
 units:
-- learn-m365.learn-m365.audit-identity-access-management.introduction
-- learn-m365.learn-m365.audit-identity-access-management.recognize-managed-account-types
-- learn-m365.learn-m365.audit-identity-access-management.tools-technologies-used
-- learn-m365.learn-m365.audit-identity-access-management.prerequisites-team-account-creation
-- learn-m365.learn-m365.audit-identity-access-management.privileged-access
-- learn-m365.learn-m365.audit-identity-access-management.customer-lockbox
-- learn-m365.learn-m365.audit-identity-access-management.summary-knowledge-check
+- learn-m365.audit-identity-access-management.introduction
+- learn-m365.audit-identity-access-management.recognize-managed-account-types
+- learn-m365.audit-identity-access-management.tools-technologies-used
+- learn-m365.audit-identity-access-management.prerequisites-team-account-creation
+- learn-m365.audit-identity-access-management.privileged-access
+- learn-m365.audit-identity-access-management.customer-lockbox
+- learn-m365.audit-identity-access-management.summary-knowledge-check
 badge: 
   uid: learn-m365.audit-identity-access-management.badges
