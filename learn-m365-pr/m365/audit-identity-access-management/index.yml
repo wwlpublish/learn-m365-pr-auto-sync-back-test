@@ -1,0 +1,40 @@
+### YamlMime:Module
+uid: learn-m365.audit-identity-access-management
+metadata:
+  title: Understand Microsoft 365 identity and access management 
+  description: Learn how Microsoft 365 implements the principle of Zero Standing Access (ZSA) to protect production environments and customer data using Just-In-Time (JIT) and Just-Enough-Access (JEA). 
+  ms.date: 05/29/2020
+  author: NamrahK
+  ms.author: v-nakhu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Understand Microsoft 365 identity and access management 
+summary: Learn how Microsoft 365 implements the principle of Zero Standing Access (ZSA) to protect production environments and customer data using Just-In-Time (JIT) and Just-Enough-Access (JEA). 
+abstract: |
+ Upon completion of this module, you should be able to:
+ - List two different types of accounts managed by Microsoft.
+ - Name the tools and technologies used to control access within Microsoft 365 environments.
+ - Explain mandatory prerequisites for granting service team accounts. 
+ - Describe Microsoft 365 Service Teams’ privileged access management process.
+ - Explain the process for using Microsoft 365 Customer Lockbox.
+
+prerequisites: None
+iconUrl: http://via.placeholder.com/120x120 
+ratingEnabled: false
+levels:
+- beginner
+roles:
+- technology-manager
+- solution-architect
+products:
+- m365
+units:
+- learn-m365.audit-identity-access-management.introduction
+- learn-m365.audit-identity-access-management.recognize-managed-account-types
+- learn-m365.audit-identity-access-management.tools-technologies-used
+- learn-m365.audit-identity-access-management.prerequisites-team-account-creation
+- learn-m365.audit-identity-access-management.privileged-access
+- learn-m365.audit-identity-access-management.customer-lockbox
+- learn-m365.audit-identity-access-management.summary-knowledge-check
+badge: 
+  uid: learn-m365.audit-identity-access-management.badges
