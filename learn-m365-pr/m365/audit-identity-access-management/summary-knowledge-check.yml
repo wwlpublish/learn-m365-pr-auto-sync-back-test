@@ -1,0 +1,67 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.audit-identity-access-management.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Learn how Microsoft 365 implements the principle of Zero Standing Access (ZSA) to protect production environments and customer data using Just-In-Time (JIT) and Just-Enough-Access (JEA).
+  ms.date: 05/29/2020
+  author: NamrahK
+  ms.author: v-nakhu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "When privileged access is approved through Lockbox, the Service Team engineer is granted the following access:"
+      choices:
+      - content: "Just-In-Time"
+        isCorrect: true
+        explanation: "Correct. When a Service Team engineer requires privileged access, Lockbox can be used to request limited, time-bound access to specific resources."
+      - content: "Standing access"
+        isCorrect: false
+        explanation: "Lockbox is only used to grant Just-In-Time access with Just-Enough-Access for the required task. No Microsoft personnel have standing privileged access to Microsoft 365 systems, and Lockbox cannot be used to grant standing access. "
+      - content: "Limited group access"
+        isCorrect: false
+        explanation: "Only individual service team accounts can request JIT access through Lockbox. Group access is not possible, and shared accounts are prohibited at Microsoft."
+      
+    - content: "When a Customer Lockbox request is approved by the organization, what is the maximum allowed period for access permissions granted to the Service Team engineer?"
+      choices:
+      - content: "4 hours"
+        isCorrect: true
+        explanation: "Correct. Currently, the maximum allowed period for the access permissions granted to the Service Team engineer is 4 hours. The engineer can also request a shorter period."
+      - content: "8 hours"
+        isCorrect: false
+        explanation: "Currently, the maximum allowed period for the access permissions granted to the Service Team engineer is 4 hours. The engineer can also request a shorter period."
+      - content: "24 hours"
+        isCorrect: false
+        explanation: "Currently, the maximum allowed period for the access permissions granted to the Service Team engineer is 4 hours. The engineer can also request a shorter period."
+      
+    - content: "What kinds of accounts do Microsoft personnel use to manage Microsoft 365 Services?"
+      choices:
+      - content: "Service accounts"
+        isCorrect: false
+        explanation: "Service accounts not accessible to Microsoft personnel."
+      - content: "Service team accounts"
+        isCorrect: true
+        explanation: "Correct. Service team accounts are used by individual Microsoft personnel charged with developing, maintaining, and repairing core Microsoft 365 services."
+      - content: "Customer accounts"
+        isCorrect: false
+        explanation: "Customer accounts are provisioned by the customer for users in the customer’s organization."
+
+    - content: "What access control technology is NOT used for service team account access control?"
+      choices:
+      - content: "Individual access permissions"
+        isCorrect: true
+        explanation: "Correct. Role-Based Access Control (RBAC) is used for access permissions."
+      - content: "Multi-factor authentication"
+        isCorrect: false
+        explanation: "Multi-factor authentication is required for all service team accounts."
+      - content: "Secure Access Workstations"
+        isCorrect: false
+        explanation: "Engineers are required to use Secure Access Workstations."
+      - content: "Lockbox"
+        isCorrect: false
+        explanation: "Lockbox is used to enable Just-In-Time access."
