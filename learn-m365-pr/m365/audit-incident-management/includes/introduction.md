@@ -4,7 +4,7 @@ At Microsoft, we use a Defense-in-Depth approach to secure our services by apply
 
 In this module, we will focus on how Microsoft 365 investigates, manages, and responds to security threats to protect customers in the Microsoft 365 cloud environment.
 
->[!VIDEO <https://www.microsoft.com/videoplayer/embed/RE4wI1J>]
+>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4wI1J]
 
 ## What is a security incident? ##
 
