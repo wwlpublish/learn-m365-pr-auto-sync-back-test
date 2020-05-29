@@ -2,7 +2,7 @@ Woodgrove has missed out on taking advantage of new capabilities in the past, an
 
 ## Inputs
 
-You’ll need to look at what new features and improvements are available, and assess your current situation to understand what you might need to do to modernize your environment.
+You’ll need to look at what new features and improvements are available, and assess your current situation to understand what you might need to do to modernize your environment. 
 
 ### Investigate new features and improvements
 
@@ -16,9 +16,9 @@ The information you’ve collected from testing and tracking new features and ca
 
 ## Assess your state
 
-Assess the state of your environment to understand where you want to go. You can do this by defining high level goals for your environment, along with which phase those goals are applicable to - for example:
+Assess the state of your environment to understand where you want to go. You can do this by defining high-level goals for your environment, along with which phase those goals are applicable to - for example:
 
-Assess the state of your environment to understand where you want to go. You can do this by defining high level goals for your environment, along with which phase those goals are applicable to - for example:
+Assess the state of your environment to understand where you want to go. You can do this by defining high-level goals for your environment, along with which phase those goals are applicable to - for example:
 
 |Phase  |Goal  |Type  |
 |---------|---------|---------|
@@ -45,7 +45,7 @@ Create a proposal for changes your organization needs to carry out to modernize 
 
 ## Outputs
 
-Create and update the following artefacts that will help you capture the details about your modernization approach for the next phase:
+Create and update the following artifacts that will help you capture the details about your modernization approach for the next phase:
 
 |Item  |Format  |Description  |
 |---------|---------|---------|
