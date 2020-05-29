@@ -63,6 +63,5 @@ You will now be able to create the following updates artefacts that you can use 
 |---------|---------|---------|
 |Deployment Readiness Go/No Go Criteria     |Word document|Detail the deployment readiness and supportability|
 |Infrastructure and configuration remediation list     |Word document|- Detail infrastructure management tools required <br/>- Detail Security and Configuration baseline changes needed.
-|
 |Operations update plan     |Word document|Outline approach to updating operation processes|
 
