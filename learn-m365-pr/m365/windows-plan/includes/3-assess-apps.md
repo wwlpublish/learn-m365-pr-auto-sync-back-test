@@ -4,9 +4,7 @@ Woodgrove has a lot of applications and device types in its environment. Some of
 
 Woodgrove needs to decide how it wants to categorize application importance for updates. Classifying and prioritizing your applications helps you understand how to best apply updates across your environment, and also how to resolve issues that might arise during the update process.  To do that, you’ll need to assign application importance based on the following categories:
 
-:::image type="complex" source="../media/3-app-classification.png" alt-text="App classification":::
-
-:::image-end:::
+:::image type="content" source="../media/3-app-classification.png" alt-text="App classification":::
 
 Once you have classified your applications, you should agree what each level of importance means to the organization in terms of priority and severity, to ensure that issues can be triaged with the right level of urgency. The next step is to assign one of the following priority levels to each application:
 

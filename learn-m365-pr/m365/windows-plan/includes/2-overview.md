@@ -61,9 +61,7 @@ Compatibility and deployment are core workstreams required for Woodgrove to succ
 
 Each workstream goes through the four phases, starting at the plan phase, right through to the Broad deployment phase. The table below show how the phases are mapped to each workstream, along with the tasks that Woodgrove can carry out in each workstream:
 
-:::image type="complex" source="../media/2-service-framework.png" alt-text="Service framework":::
-
-:::image-end:::
+:::image type="content" source="../media/2-service-framework.png" alt-text="Service framework":::
 
 ## How to accelerate the "stay current" process
 

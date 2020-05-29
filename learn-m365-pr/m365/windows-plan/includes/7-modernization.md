@@ -32,13 +32,12 @@ From your goals, you can have a better understanding of what should be the aim f
 
 Use the learnings from the investigations and assessment of your state to help you understand how you can invest in new tooling and capabilities. Ask what your organization will need to modernize its tools and capabilities from stakeholders in the process. For instance, critical application testing can be time consuming, so application developers could suggest automated testing to address this. You can outline your goal, along with what investments are needed to achieve that goal, for example:
 
-:::image type="complex" source="../media/7-investments.png" alt-text="Investments":::
-
-:::image-end:::
+:::image type="content" source="../media/7-investments.png" alt-text="Investments":::
 
 ### Tasks
 
-Identify the tasks you’ll have to carry out to modernize your organization’s environment. You can do this by: 
+Identify the tasks you’ll have to carry out to modernize your organization’s environment. You can do this by:
+
 - **Determining infrastructure changes**. For example, the End-User Computing group identifies that it will have to increase the capacity of the hardware that is running your infrastructure in order to accommodate the new capabilities.
 - **Determine configuration changes**. The security group might decide that it will have to review security policy changes to ensure you still meet security baselines when moving encryption keys to a cloud-based service.
 
