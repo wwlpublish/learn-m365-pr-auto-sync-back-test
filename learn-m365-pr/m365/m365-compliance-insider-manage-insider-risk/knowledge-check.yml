@@ -20,7 +20,7 @@ quiz:
       choices:
       - content: "Regulatory compliance violation "
         isCorrect: true
-        explanation: "If your business handles the personal, medical, sensitive, or classified data of individuals or government organizations, the law requires you to follow strict compliance regulations.""
+        explanation: "If your business handles the personal, medical, sensitive, or classified data of individuals or government organizations, the law requires you to follow strict compliance regulations."
       - content: "Sabotage "
         isCorrect: false
         explanation: "Sabotage includes acting with the intention to harm specific individuals, the organization, or the organization’s data systems or daily business operations. "
