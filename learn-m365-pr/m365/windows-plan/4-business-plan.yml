@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.windows-plan.4-roles-responsibilities
-title: Business plan
+uid: learn-m365.windows-plan.4-business-plan
+title: Business planning
 metadata:
-  title: Business plan
-  description: Business plan
+  title: Business planning
+  description: Business planning
   ms.date: 05/20/2020
   author: IanKensey
   ms.author: v-iakens
@@ -11,7 +11,7 @@ metadata:
   ms.prod: learning-windows
 durationInMinutes: 1
 content: |
-  [!include[](includes/4-roles-responsibilities.md)]
+  [!include[](includes/4-business-plan.md)]
 quiz:
   title: Check your knowledge
   questions:
