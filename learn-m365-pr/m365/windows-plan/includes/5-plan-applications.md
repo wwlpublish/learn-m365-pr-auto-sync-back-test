@@ -5,9 +5,7 @@ Woodgrove has many different applications that it uses for different functions a
 You’ll need to produce an application portfolio for Woodgrove. The portfolio lists the applications in your environment.  You’ll also need to classify the applications listed in the portfolio accordingly, as either critical, important, or not important. 
 For Woodgrove, you would do this as shown below:
 
-:::image type="complex" source="../media/5-applications-classified.png" alt-text="Applications classified":::
-
-:::image-end:::
+:::image type="content" source="../media/5-applications-classified.png" alt-text="Applications classified":::
 
 ## Decisions
 
@@ -17,9 +15,7 @@ Once you’ve classified the applications, you’ll need to make a couple of dec
 
 You’ll define how your organization should deal with issues that might arise for the applications you’ve classified. Your organization needs to ask how severe and impact it would be for Woodgrove if an app were to have issues during the deployment process? To do this, you’ll work with Operations and agree on how application failure should be handled based on whether an app has been classified as critical, important, or not important. For example, your organization could agree on the following:
 
-:::image type="complex" source="../media/5-severity-agreed.png" alt-text="Severity agreed":::
-
-:::image-end:::
+:::image type="content" source="../media/5-severity-agreed.png" alt-text="Severity agreed":::
 
 - **Severity 1**: Deployments must be stopped until issue has been resolved.
 - **Severity 2**: Deployment is halted for any devices or users that are affected by the issue until it’s resolved. But deployment can continue for unaffected users and devices.
