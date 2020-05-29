@@ -4,11 +4,11 @@ title: Review how to deploy Windows Virtual Desktop
 metadata:
   title: Review how to deploy Windows Virtual Desktop
   description: Review the steps needed to deploy Windows Virtual Desktop.
-  ms.date: 09/03/2019
+  ms.date: 05/29/2020
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 10
 content: |
-  [!include[](includes/introduction.md)]
+  [!include[](includes/1-introduction.md)]

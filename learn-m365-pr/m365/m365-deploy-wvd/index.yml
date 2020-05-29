@@ -3,7 +3,7 @@ uid: learn-m365.deploy-wvd
 metadata:
   title: Deploy Windows Virtual Desktop in Microsoft Azure
   description: Learn how to deploy Windows Virtual Desktop, including the wizard-based process to provision a Windows Virtual Desktop host pool and how to customize remote desktops and RemoteApps for your users.  
-  ms.date: 09/03/2019
+  ms.date: 05/29/2020
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial

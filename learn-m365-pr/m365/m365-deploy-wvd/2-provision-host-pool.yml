@@ -4,11 +4,11 @@ title: Provision a Windows Virtual Desktop host pool
 metadata:
   title: Provision a Windows Virtual Desktop host pool
   description: Review the preparation needed for Windows Virtual Desktop.
-  ms.date: 08/16/2019
+  ms.date: 05/29/2020
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 5
 content: |
-  [!include[](includes/provision-host-pool.md)]
+  [!include[](includes/2-provision-host-pool.md)]
