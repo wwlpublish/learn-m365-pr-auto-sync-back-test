@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.windows-plan.3-technology-primer
-title: Technology primer
+uid: learn-m365.windows-plan.3-assess-apps
+title: Assess apps
 metadata:
-  title: Technology primer
-  description: Technology primer
+  title: Assess apps
+  description: Assess your apps
   ms.date: 05/20/2020
   author: IanKensey
   ms.author: v-iakens
@@ -11,7 +11,7 @@ metadata:
   ms.prod: learning-windows
 durationInMinutes: 2
 content: |
-  [!include[](includes/3-technology-primer.md)]
+  [!include[](includes/3-assess-apps.md)]
 quiz:
   title: Check your knowledge
   questions:
