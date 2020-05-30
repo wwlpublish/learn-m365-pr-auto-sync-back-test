@@ -31,12 +31,13 @@ roles:
 products:
 - m365
 units:
-- learn-m365.audit-security-development-operation.
-- learn-m365.audit-security-development-operation.
-- learn-m365.audit-security-development-operation.
-- learn-m365.audit-security-development-operation.
-- learn-m365.audit-security-development-operation.
-- learn-m365.audit-security-development-operation.
-- learn-m365.audit-security-development-operation.
+- learn-m365.audit-security-development-operation.introduction
+- learn-m365.audit-security-development-operation.security-training-requirements
+- learn-m365.audit-security-development-operation.security-privacy-design
+- learn-m365.audit-security-development-operation.security-tool-automation
+- learn-m365.audit-security-development-operation.application-penetration-testing
+- learn-m365.audit-security-development-operation.support-secure-deployment
+- learn-m365.audit-security-development-operation.open-source-security
+- learn-m365.audit-security-development-operation.summary-knowledge-check
 badge: 
   uid: learn-m365.audit-security-development-operation.badges

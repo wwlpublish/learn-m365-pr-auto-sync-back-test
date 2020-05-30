@@ -15,7 +15,7 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "What is the correct order for the 5 core development phases of Microsoft’s SDL?"
+    - content: "What is the correct order for the five core development phases of Microsoft’s SDL?"
       choices:
       - content: "Design > Requirements > Implementation > Verification > Release"
         isCorrect: false
@@ -58,7 +58,7 @@ quiz:
         explanation: "Correct. Fuzz testing tools simulate malformed inputs to validate how code handles unexpected or untrusted inputs during execution."
       - content: "Component Governance"
         isCorrect: false
-        explanation: "Component Governance is used to detect and track open source components."
+        explanation: "Component Governance is used to detect and track open-source components."
 
     - content: "Which of the following does Microsoft use to test the detection and response capabilities of its services?"
       choices:
@@ -67,7 +67,7 @@ quiz:
         explanation: "Correct. The Red Team performs attack simulations to test the detection and response capabilities of Microsoft 365 services."
       - content: "Component Governance"
         isCorrect: false
-        explanation: "Component Governance is used to detect and track open source components."
+        explanation: "Component Governance is used to detect and track open-source components."
       - content: "Security awareness training"
         isCorrect: false
         explanation: "Security awareness training prepares employees to recognize and report security incidents, but it does not test detection or response capabilities."
@@ -90,7 +90,7 @@ quiz:
         isCorrect: true
         explanation: "Correct. All of the steps listed above must be completed before code changes can be approved for release."
 
-    - content: "How does Microsoft detect open source components in its products and services?"
+    - content: "How does Microsoft detect open-source components in its products and services?"
       choices:
       - content: "Static code analysis tools"
         isCorrect: false
@@ -103,4 +103,4 @@ quiz:
         explanation: "Fuzz testing tools simulate malformed inputs to validate how code handles unexpected or untrusted inputs during execution."
       - content: "Component Governance"
         isCorrect: true
-        explanation: "Correct. Component Governance is used to detect and track open source components."
+        explanation: "Correct. Component Governance is used to detect and track open-source components."
