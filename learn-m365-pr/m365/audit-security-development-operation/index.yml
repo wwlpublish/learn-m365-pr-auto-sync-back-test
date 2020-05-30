@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn-m365.audit-security-development-operation
+metadata:
+  title: Understand Microsoft 365 security development and operation 
+  description: Learn how Microsoft 365 follows Microsoft’s Security Development Lifecycle (SDL) to build security and privacy into our products and services.
+  ms.date: 05/29/2020
+  author: NamrahK
+  ms.author: v-nakhu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Understand Microsoft 365 security development and operation 
+summary: Learn how Microsoft 365 follows Microsoft’s Security Development Lifecycle (SDL) to build security and privacy into our products and services.
+abstract: |
+ Upon completion of this module, you should be able to:
+ - List the phases of Microsoft’s SDL process.
+ - Describe the training requirements for all members of Microsoft development teams.
+ - Explain how Microsoft development teams practice security and privacy by design.
+ - List the automated tools Microsoft uses to find and remediate software vulnerabilities.
+ - Explain how Microsoft enforces and tests operational security requirements using ongoing penetration testing.
+ - Describe security and privacy review requirements for code approval and release.
+ - Explain how Microsoft uses Component Governance (CG) to manage open source software.
+
+prerequisites: None
+iconUrl: http://via.placeholder.com/120x120 
+ratingEnabled: false
+levels:
+- beginner
+roles:
+- technology-manager
+- solution-architect
+products:
+- m365
+units:
+- learn-m365.audit-security-development-operation.
+- learn-m365.audit-security-development-operation.
+- learn-m365.audit-security-development-operation.
+- learn-m365.audit-security-development-operation.
+- learn-m365.audit-security-development-operation.
+- learn-m365.audit-security-development-operation.
+- learn-m365.audit-security-development-operation.
+badge: 
+  uid: learn-m365.audit-security-development-operation.badges
