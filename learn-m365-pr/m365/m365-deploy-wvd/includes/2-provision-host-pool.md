@@ -1,68 +1,98 @@
 Now that your Windows Virtual Desktop tenant is available and you've set up the other prerequisites, you're ready to build your first host pool. You can use your host pool to provision full desktops and remote apps for users.   
 
-There's a Resource Manager template in the Azure marketplace that helps you build out Windows Virtual Desktop environments in repeatable way. The template includes the basic steps that you need to go through. Start by finding the template:
+## Register the DesktopVirtualization provider
 
-1. Sign in to the [Azure portal](https://portal.azure.com). 
-2. In the upper-left corner, select **Create a Resource.**
-3. In **Search the Marketplace**, search for "Windows Virtual Desktop." 
-4. In the search results, select **Windows Virtual Desktop – Provision a host pool**. 
-   >![Windows Virtual Desktop - Resource Manager template](../media/wvd-template.png)
-5. Select **Create** to open the configuration wizard. 
+1. [Sign in](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true) to the Azure portal.
+1. Use the search box to find **Subscriptions**.
+1. Select the subscription you want to use with Windows Desktop Virtualization.
+1. Under **Settings**, select **Resource provider**.
+1. In the filter box, search for and then select **Microsoft.DesktopVirtualization**.
+1. Select **Register**.
 
-## Step 1: The Basics 
+   :::image type="content" source="../media/2-register-provider.png" alt-text="Screenshot of resource provider listed and register button highlighted.":::
 
-1. Give the host pool a name – like "My first host pool." 
-   >![Windows Virtual Desktop host pool](../media/wvd-hostpool.png)
-2. Now, you have your first choice – do you want a **personal** or **pooled** desktop?
-   - A **personal desktop** is where each user has their own personal VM. This is useful if each user needs a dedicated  VM. For example, when a user needs local administrators permissions on the VM. Users can install apps and save configuration changes to their VMs.
-   - A **pooled desktop** allows multiple users to sign in to the same VM at the same time. Pooled desktops are more efficient and less expensive from a cost per user perspective. Because several users share the same VM, users can't be local admins. You’ll need another process to install applications and configure the VM. 
-3. Select **pooled** to maximize resource utilization. Later you’ll select a corresponding Windows 10 Enterprise multi-session image for the host pool. 
-4. Next, define the **Default desktop users**. This is a comma-separated list of user email accounts from your Azure Active Directory. You can add a single email address, also known as a *User Principal Name* (UPN), or several UPNs with commas between them.  
-5. Select the same **Azure subscription** you used when you set up the prerequisites. 
-6. For **Resource Group**, create a new resource group. Give it a name without spaces or special characters. 
-7. In the **Location** field, select the region you want to use.
+   It may take a minute for the status to change to **Registered**.
 
-## Step 2: Configure the virtual machines
 
-1. Your first choice is the **Usage Profile**. As you make changes, watch the **Virtual Machine Count** value change, indicating how many VMs you need for **Light**, **Medium**, and **Heavy** usage. These are recommended settings that you can override based on what you need.
-   >![Windows Virtual Desktop - virtual machines](../media/wvd-vms.png)
-2. Specify the number of **total users** (the default is 100). As you change the number, you’ll see the recommended VM count change. For example, if you choose **25** users with a **Medium** usage profile, you’ll see the VM count go to 1. 
-3. If you want to change the recommended VM size, select **change size**. Select your VM size. If you want to save costs or are using free Azure credits with a trial, choose a less powerful VM.  
-4. Provide a **Virtual Machine name prefix**, for example "WVD", and then select **OK**. 
 
-## Step 3: Virtual machine settings 
+## Create a host pool by using the Azure portal
 
-1. Select the Windows image you want to use. The **image source** can be: 
-   - One of your own images stored in Azure blob storage. Enter the **imageURI**, which is the fully qualified path to the image and the VHD filename.  
-   - A **managed image** that you’ve customized and defined as managed. Enter the image name and the resource group. 
-   - A **gallery** image, one of the pre-configured images from Microsoft. There are several images available for Windows Virtual Desktop. For example:
-      - Windows 10 Enterprise multi-session
-      - Windows 10 Enterprise
-      - Windows Server 2016 
-   
-   Choose **Windows 10 Enterprise multi-session with Office 365 ProPlus**. 
-   >![Windows Virtual Desktop - operating system image](../media/wvd-image.png)
-2. Select the disk type. For the best results, use the default, **Premium SSD**. 
-3. Enter the credentials used for automated domain join with AD DS. These are usually the credentials you use to sign in to your on-premises domain. You can use a different domain or organizational unit. 
-4. For the **virtual network**, select a VNET where VMs can communicate with the domain and directory services. Select the subnet you want to use.
 
-## Step 4: Windows Virtual Desktop tenant information
+### Step 1: Basics
 
-Configure authentication to the tenant you created in [Set up the Windows Virtual Desktop tenant](https://docs.microsoft.com/learn/modules/m365-prepare-for-wvd/set-up-wvd-tenant). 
+1. [Sign in](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true) to the Azure portal.
+1. Use the search box to find **Windows Virtual Desktop**.
+1. Select **Create a host pool**.
+1. Enter the appropriate information into the **Basics** tab.
 
-1. Leave the default **Windows Virtual Desktop tenant group name** name, "Default Tenant Group," and enter the name of the tenant you created for the **Windows Virtual Desktop tenant name**.
-   >![Windows Virtual Desktop - tenant information](../media/wvd-tenantinfo.png)
-2. Enter either a **User Principal Name (UPN)** or **service principal** account. If you're using an automated scenario, we recommend using service principals. If you’re using multi-factor authentication, you’ll need to use a service principal account.  
-3. To keep things simple for your first host pool, use a UPN from your Azure AD. If you’re using Azure AD DS, use an AD DS administrator account. 
-4. Enter the password for the account. Enter it again to  confirm the password. 
-5. Select **OK**. 
+   :::image type="content" source="../media/2-create-host-pool.png" alt-text="Screenshot of the Windows Virtual Desktop create host pool basic tab.":::
 
-## Step 5: Summary
 
-Review the configuration information on the confirmation page. If everything looks right, select **OK**. 
+   |Field  |Description  |
+   |---------|---------|
+   |Subscription     |  Subscription where you want Windows Virtual Desktop to run.       |
+   |Resource group     | Resource group that contains the other Azure resources needed to support Windows Virtual Desktop.      |
+   |Host pool name     |  Enter a unique name for your host pool.       |
+   |Location    | Azure region where Metadata will be stored        |
+   |Host pool type     |  Pooled  or personal. If you select personal, you select the assignment type: automatic or direct. |
+   |Max session limit    | Enter the maximum number of users you want load-balanced to a single session host.|
+   |Load balancing algorithm    | Choose either breadth-first or depth-first, based on your usage pattern. |
+1. Select **Next: Virtual Machines**.
 
-## Step 6: Buy
-Select **Create** to start the provisioning process. In most cases, creating the tenant takes a few minutes. When finished, you’ll have a full desktop environment. Azure will notify you when it's done provisioning the environment. 
+### Step 2: Virtual Machines
+
+1. Select **Yes** to add virtual machines. 
+1. Use the information in the following table to fill out the virtual machine tab.
+
+   :::image type="content" source="../media/2-create-host-pool-vm.png" alt-text="Screenshot of the Windows Virtual Desktop create host pool virtual machine tab.":::
+
+
+    Field  |Description  |
+   |---------|---------|
+   |Add virtual machines     | if you've already created virtual machines and want to use them with the new host pool, select No. If you want to create new virtual machines and register them to the new host pool, select Yes.        |
+   |Resource group    |  Choose the resource group where you want to create the virtual machines. This can be a different resource group than the one you used for the host pool.       |
+   |Virtual machine location     | Region where you want to create the virtual machines. The location can be same or different from the region you selected for the host pool.        |
+   |Virtual machine size     | Choose the size of the virtual machine you want to create. You can either keep the default size as-is or select Change Size to pick a size more suitable for your workload.        |
+   |Number of VMs     |  Provide the number of VMs you want to create for your host pool. The setup process can create up to 400 VMs while setting up your host pool, and each VM setup process creates four objects in your resource group. The creation process doesn't check your subscription quota. So make sure the number of VMs you enter is within the Azure VM and API limits for your resource group and subscription. You can add more VMs after you finish creating your host pool.      |
+   |Name prefix     |  Name the virtual machines the setup process creates. The process adds numerical suffixes to each VM starting with 0.       |
+   |Image type     |  Choose the image type Azure uses to create the virtual machine. You can choose either Gallery or Storage blob.  Gallery allows you to pick a recommended image like Windows 10 Enterprise multi-session + Office 365. Storage blob allows you to use your own image built through Hyper-V or on an Azure VM.  |
+   |Image     |  For Gallery, select one of the recommended images from the drop-down menu. If you don't see the image you want, select Browse all images and disks. Browse lets you select another image in your gallery or an image provided by Microsoft and other publishers.        |
+   |Image URI    |   For Storage blob, add the URL to the generalized VHD from your Azure Storage account. |
+   |OS disk type     | Choose what kind of OS disks you want your VMs to use: Standard SSD, Premium SSD, or Standard HDD.        |
+   |Use managed disks     | For Storage blob image type, we recommend you choose yes for most VM configurations. You'd choose no where you want to use unmanaged disks for classic scenarios or to manage VHDs in your storage account.  |
+   |Storage account     | For Storage blob image type, select the Azure storage account that contains your image.       |
+   |Virtual network     |  Select virtual network you've created that can connect to the domain controller. You'll need to join the virtual machines inside the virtual network to the domain.       |
+   |Public IP     | Select whether or not you want a public IP for the virtual machines. We recommend you select No, because a private IP is more secure.        |
+   |Network security group    | Select what kind of security group you want: Basic, Advanced, or None. If you choose Advanced, select an existing network security group that you've already configured.        |
+   |Public inbound ports     | If you select Basic, select yes or no to specify whether you want inbound ports open.        |
+   |inbound ports to allows     | For public inbound ports, choose from the list of standard ports like HTTP (80), HTTPS (443), SSH (22), RDP (3389).      |
+   |Specific domain or unit     | Select yes to have the virtual machines joined to a specific domain and organizational unit. If you choose Yes, specify the full Active Directory domain name to join like contoso.com. You can also add a specific organizational unit for the virtual machines to be in.        |
+   |AD domain join UPN     | Enter the credentials for the Active Directory Domain administrator for the virtual network you selected.  This account will be used to join the VMs to your domain.      |
+   |Password    | Enter the password for the Active Directory Domain administrator's account.   |
+   |Confirm password    | Confirm the password for the Active Directory Domain administrator's account.      |
+1. Select **Next: Workspace**.
+
+### Step 3: Workspace
+
+1. For **Register desktop app group**, select **Yes**.
+1. For **To this workspace**, select **Create new**.
+1. Enter a name for the workspace.
+
+   :::image type="content" source="../media/2-create-workspace.png" alt-text="Screenshot of workspace tab that shows how to create new workspace.":::
+1. Select **Next: Tags**.
+
+### Step 4: Tags (Optional)
+
+We recommend that you use tags to logically organize your Azure resources, resource groups, and subscriptions into a taxonomy. You might use tags to organize by workload, environment, ownership, or other important criteria. Tags aren't unique to Windows Virtual Desktop and aren't crucial to our scenario, so you can skip this step.
+
+
+
+## Create the workspace by using Azure PowerShell
+
+<!--
+This is done in the UI now. Need to mention PS module and cmds. 
+Az.DesktopVirtualization
+-->
 
 ## Validate the basic Windows Virtual Desktop environment 
 The last step is to sign in to Windows Virtual Desktop from your browser to validate the deployment. 
