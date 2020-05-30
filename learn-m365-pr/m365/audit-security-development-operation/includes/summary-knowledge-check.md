@@ -8,4 +8,4 @@ Now that you have completed this module, you should be able to:
 - List the automated tools Microsoft uses to find and remediate software vulnerabilities.
 - Explain how Microsoft enforces and tests operational security requirements using ongoing penetration testing.
 - Describe security and privacy review requirements for code approval and release.
-- Explain how Microsoft uses Component Governance (CG) to manage open source software.
+- Explain how Microsoft uses Component Governance (CG) to manage open-source software.
