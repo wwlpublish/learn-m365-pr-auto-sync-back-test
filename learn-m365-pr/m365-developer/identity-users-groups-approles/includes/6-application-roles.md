@@ -4,11 +4,11 @@ In this unit, you’ll learn how to add app roles to an Azure AD registered app,
 
 ## Utilize app roles in your application
 
-Role-based access control (RBAC) is a popular mechanism to enforce authorization in applications. The administrator can then assign roles to different users and groups to control who have access to what content and functionality.
+Role-based access control (RBAC) is a popular mechanism to enforce authorization in applications. The administrator can assign roles to different users and groups to control who has access to what content and functionality.
 
 Using RBAC with Application Roles and Role Claims, developers can securely enforce authorization in their apps with little effort on their part.
 
-These application roles are defined in the Azure AD admin center in the application's registration manifest. When a user signs into the application, Azure AD emits a roles claim for each role that the user has been granted individually to the user and from their group membership. Assignment of users and groups to roles can be done through the portal's UI, or programmatically using Microsoft Graph.
+These application roles are defined in the Azure AD admin center in the application's registration manifest. When a user signs into the application, Azure AD emits a roles claim for each role that the user has been granted individually and from their group membership. Assignment of users and groups to roles can be done through the portal's UI, or programmatically using Microsoft Graph.
 
 ## Declare roles for an application
 
@@ -58,7 +58,7 @@ From the **Enterprise application** blade in the Azure AD admin center, select t
 
 Select **Add User**. On the **Add Assignment** blade, select the users or groups you want to add to the app role. Then select the app role or app roles to add the user or groups:
 
-![Screenshot adding a user to an app role](../media/06-app-roles-add-roles-users.png)
+![Screenshot adding a user to an app role](../media/07-app-roles-add-roles-users.png)
 
 ## Utilize app roles in custom web apps
 

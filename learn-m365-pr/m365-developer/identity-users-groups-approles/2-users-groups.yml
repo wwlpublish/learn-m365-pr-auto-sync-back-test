@@ -3,7 +3,7 @@ uid: learn-m365.identity-users-groups-approles.2-users-groups
 metadata:
   title: Role-based access control in Microsoft identity
   description: In this unit, you’ll learn how Microsoft identity enables developers and administrators to secure and grant access to custom apps.
-  ms.date: 02/26/2020
+  ms.date: 05/31/2020
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
