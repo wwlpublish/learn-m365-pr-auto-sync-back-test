@@ -1,13 +1,10 @@
-Role-based access control (RBAC) is a popular mechanism to enforce authorization in applications. The administrator then assigns roles to different users and groups to control who have access to what content and functionality.
+Role-based access control (RBAC) is a popular mechanism to enforce authorization in applications. The administrator assigns roles to different users and groups to control who can access to what content and functionality. 
 
 In this unit, you’ll learn how Microsoft identity enables developers and administrators to secure and grant access to custom apps.
 
 ## Overview
 
 Microsoft identity enables developers to build custom applications and secure them in different ways. You can configure your custom apps to support users signing-in using their personal or consumer Microsoft Account or with their Work or School account.
-
-> [!NOTE]
-> Users with consumer Microsoft accounts won't be able to have assigned roles nor will they be members of groups.
 
 An app can then grant users the ability to do specific tasks depending who they are, what groups they belong to or what roles they've been granted within the application.
 
@@ -17,7 +14,7 @@ Users are managed from the Azure AD admin center (https://aad.portal.azure.com) 
 
 In addition to users, administrators (*and other people with the appropriate access*), can use the Azure AD admin center to create and manage security groups that contain collections of users, groups, and roles specific to your custom app.
 
-Custom apps that are configured with Microsoft identity to support user's signing-in receive information about the user. This includes profile information such as their name and email address, but can also the groups they belong to or app roles they've been assigned to. Your custom app can use this information and in the cases where the app has the necessary permissions, enable the user to edit their details from within the app.
+Custom apps that are configured with Microsoft identity to support user's signing-in receive information about the user. This includes profile information such as their name and email address, but can also include the groups they belong to or app roles they've been assigned to. Your custom app can use this information and, in the cases where the app has the necessary permissions, enable the user to edit their details from within the app.
 
 ### Add or delete users
 
@@ -37,11 +34,11 @@ When you register an app in Azure AD, you specify what types of accounts it will
 
 ![Screenshot of app registration types](../media/02-app-registration-account-types.png)
 
-Each of the account types supported provides slightly different options. However, each of the options includes all users in the organization where the app is registered. This means any user within the **All users** blade can sign in to your custom app.
+Each of the account types supported provides slightly different options. However, each of the options includes all users in the organization where the app is registered. This means any user within the **All users** blade can sign into your custom app.
 
-Microsoft identity does support restricting an app to a certain set of users or security groups within your tenant.
+Microsoft identity supports restricting an app to a certain set of users or security groups within your tenant.
 
-To restrict an application to a subset of users, first enable the setting on the app by selecting the **Enterprise Applications** from the **All applications** menu item within the Azure AD admin center:
+To restrict an application to a subset of users, first enable the setting on the app by selecting **Enterprise Applications** from the **All applications** menu item within the Azure AD admin center:
 
 ![Screenshot of the enterprise applications list](../media/02-enterprise-applications.png)
 
@@ -55,7 +52,7 @@ Once the property has been set, you can use the **Users and groups** blade withi
 
 ### Role-based access control (RBAC)
 
-While administrators can control what users have access to an app using the **User assignment required** property, developers would need to account for specific users within the app.
+While administrators can control which users have access to an app using the **User assignment required** property, developers would need to account for specific users within the app.
 
 RBAC helps you manage resources, what areas of an app users have access to and what they can do with those resources.
 
@@ -148,4 +145,4 @@ Finally, update the user experience of the web application to display all the cl
 
 ## Summary
 
-In this unit, you’ll learn how Microsoft identity enables developers and administrators to secure and grant access to custom apps.
+In this unit, you learned how Microsoft identity enables developers and administrators to secure and grant access to custom apps.

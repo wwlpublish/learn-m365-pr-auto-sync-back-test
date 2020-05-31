@@ -1,5 +1,8 @@
 In this exercise, you’ll learn how to create and configure an application registration to include group claims in a token and authorize access to a controller using those claims.
 
+> [!IMPORTANT]
+> This exercise assumes you have completed the first exercise in this module. 
+
 ## Update the application registration
 
 The ID token returned by default from Microsoft identity contains only basic information about the current user. The application registration can be updated to include additional information. Configure the application registration to include group membership claims by editing the application manifest.
@@ -43,7 +46,7 @@ Save the manifest.
 
 ### Configure web application middleware
 
-In Visual Studio Code, locate and open the **./Startup.cs** file in the ASP.NET Core project.
+In Visual Studio Code, locate and open the **./Startup.cs** file in the ASP.NET Core project created in the first exercise.
 
 Within the method `ConfigureServices()`, locate the line that configures the `OpenIdConnectOptions`. Update the expression to match the following code:
 
@@ -77,8 +80,8 @@ On the **All Groups** page, select **New Group**. Create the group with the foll
 - **Group Name**: Product Viewers
 - **Group Description**: Allows user to view products.
 - **Membership type**: Assigned
-- **Owners**: Select the logged-in user account as a group owner
-- **Members**: Select the logged-in user account as a group owner. Optionally select other users as group members
+- **Owners**: Select one user account as the group owner.
+- **Members**: Select the same user account you selected as the group owener. You may optionally add additional accounts. 
 
 > [!NOTE]
 > The user must be a member of the group to have it included in the group claim.
@@ -91,28 +94,25 @@ On the **All Groups** page, copy the **Object Id** of the new group. You'll need
 
 The next step is to add data models and sample data to the web app.
 
-By convention, .NET Core WebAPI projects store model classes in a folder named Models. Create a new folder named **Models** in the project directory.
-
 In the **Models** folder, create a new file named **Category.cs** and add the follow C# code to it:
 
 ```csharp
-namespace <PROJECT-NAMESPACE>.Models
+namespace UserGroupRole.Models
 {
   public class Category
   {
     public int Id { get; set; }
     public string Name { get; set; }
   }
+}
 ```
-
-Replace the string `<PROJECT-NAMESPACE>` with the root namespace of the project. This can be found in the **Startup.cs** file.
 
 In the **Models** folder, create a new file named **Product.cs** and add the following C# code to it:
 
 ```csharp
-namespace <PROJECT-NAMESPACE>.Models
+namespace UserGroupRole.Models
 {
-  public class Category
+  public class Product
   {
     public int Id { get; set; }
     public string Name { get; set; }
@@ -120,8 +120,6 @@ namespace <PROJECT-NAMESPACE>.Models
   }
 }
 ```
-
-Replace the string `<PROJECT-NAMESPACE>` with the root namespace of the project. This can be found in the **Startup.cs** file.
 
 This exercise will store sample data in-memory while the app is running. The data will randomly generated when the app is started using a NuGet package.
 
@@ -136,9 +134,9 @@ Return to **Visual Studio Code** and create a new file named **SampleData.cs** i
 ```csharp
 using System.Collections.Generic;
 using Bogus;
-using <PROJECT-NAMESPACE>.Models;
+using UserGroupRole.Models;
 
-namespace <PROJECT-NAMESPACE>
+namespace UserGroupRole
 {
   public class SampleData
   {
@@ -170,8 +168,6 @@ namespace <PROJECT-NAMESPACE>
 }
 ```
 
-Replace the string `<PROJECT-NAMESPACE>` with the root namespace of the project. This can be found in the **Startup.cs** file.
-
 The sample data will be stored as a singleton in the dependency injection container built into ASP.NET core. Open the **Startup.cs** file in the root folder of the project. Locate the statement that calls the `AddControllersWithViews()` method. Before that statement, add the following:
 
 ```csharp
@@ -188,9 +184,9 @@ Add a new file **ProductsController.cs** to the **Controllers** folder. Add the 
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace <PROJECT-NAMESPACE>.Controllers
+namespace UserGroupRole.Controllers
 {
-  [Authorize(Roles(<VIEWER-GROUP-OBJECTID>))]
+  [Authorize(Roles=("<VIEWER-GROUP-OBJECTID>"))]
   public class ProductsController : Controller
   {
     SampleData data;
@@ -208,8 +204,6 @@ namespace <PROJECT-NAMESPACE>.Controllers
 }
 ```
 
-Replace the string `<PROJECT-NAMESPACE>` with the root namespace of the project. This can be found in the **Startup.cs** file.
-
 Replace the string `<VIEWER-GROUP-OBJECTID>` with the value copied from the All Groups page.
 
 Now create the view to display the categories.
@@ -217,7 +211,7 @@ Now create the view to display the categories.
 Add a new folder **Products** to the **Views** folder. Add a new file, **Index.cshtml**, to the new **Products** folder and add the following code to it. This will display all the products provided by the API:
 
 ```html
-@model IEnumerable<<PROJECT-NAMESPACE>.Models.Product>
+@model IEnumerable<UserGroupRole.Models.Product>
 
 @{
   ViewData["Title"] = "Products";
@@ -257,11 +251,9 @@ Add a new folder **Products** to the **Views** folder. Add a new file, **Index.c
 </table>
 ```
 
-Replace the string `<PROJECT-NAMESPACE>` with the root namespace of the project. This can be found in the **Startup.cs** file.
-
 The ASP.NET identity system allows for an imperative test of membership via the `User.IsInRole()` method. Use this method to update the site navigation, showing a link to the Products controller only if the user is allowed to access it.
 
-Open the file **Views\Shared\_Layout.cshtml**. In the `<header>` element is an unordered list (`<ul>`) of links that compose the navigation. The navigation has link to Home and Privacy. After the Privacy link, add the following code:
+Open the file **Views\Shared\\_Layout.cshtml**. In the `<header>` element is an unordered list (`<ul>`) of links that compose the navigation. The navigation has link to Home and Privacy. After the Privacy link, add the following code:
 
 ```cshtml
 @if (User.IsInRole("<VIEWER-GROUP-OBJECTID>"))
@@ -285,9 +277,9 @@ dotnet run
 
 Open a browser and navigate to the url **https://localhost:5001**. The web application will redirect you to the Azure AD sign-in page.
 
-Sign in using a Work and School account from your Azure AD directory. The first login will prompt for consent to the scopes required by the web API. After consent, Azure AD will redirect you back to the web application.
+Sign in using a Work and School account from your Azure AD directory. The login will prompt for consent to the scopes required by the web API if the account you are using has not previously consented. After login and consent, Azure AD will redirect you back to the web application.
 
-> Note: You must login after adding the user to the group. Any logins that occurred before the update will result in a token that does not reflect the membership. Close the browser or select **Sign out** to sign out of the session.
+> Note: You must login after adding users as members of the security group. Any logins that occurred before the users were added will result in tokens that does not reflect the membership. Close the browser or select **Sign out** to sign out of the session.
 
 On the home page, the assigned groups are included in the list of claims. If the user is a member of the correct group, the navigation will include a link to the Products controller.
 

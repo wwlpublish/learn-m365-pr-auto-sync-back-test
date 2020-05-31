@@ -18,7 +18,7 @@ By default, the ID and Access tokens provided by Microsoft identity only contain
 
 To add them to the ID token, set the `groupMembershipClaims` property to `SecurityGroup` or `All` in the manifest of the registered Azure AD app from the Azure AD admin center.
 
-The code you will write in ASP.NET Core will add the groups to the role claim instead of the group claim, so there is one more thin you need to change. Locate the `optionalClaims` property as update it to set `accessToken` to include additional properties that will return the groups as roles:
+The code you will write in ASP.NET Core will add the groups to the role claim instead of the group claim, so there is one more thing you need to change. Locate the `optionalClaims` property as update it to set `accessToken` to include additional properties that will return the groups as roles:
 
 ```json
 {
