@@ -103,13 +103,13 @@ If you'd like to create more than a simple text-based email message for notifica
 
 [Learn more about creating, updating, and deleting notice templates.](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-notices?view=o365-worldwide?azure-portal=true)
 
-### Explore how to manage insider risk
+### Explore how to minimize internal risks
 
 View a [video version](https://www.microsoft.com/videoplayer/embed/placeholder) of the interactive guide (captions available in more languages).
 
-<a href="https://mslearn.cloudguides.com/en-us/guides/Minimize%20internal%20risks%20with%20insider%20risk%20management%20in%20Microsoft%20365">[Minimize internal risks]
+<a href="https://mslearn.cloudguides.com/guides/Implement%20privileged%20access%20management%20in%20Office%20365?azure-portal=true">![Minimize internal risks with insider risk management in Microsoft 365](../media/minimize-internal-risks-with-insider-risk-management-in-microsoft-365.png)</a>  
 
-Be sure to click the full-screen option in the video player.
+Be sure to click the full-screen option in the video player. 
 
 ## Learn more
 - [Insider risk management content explorer](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-content-explorer?view=o365-worldwide?azure-portal=true)
