@@ -3,9 +3,9 @@ Your technical director wants to ensure that the company’s devices are secure 
 
 ## Why your organization needs to stay current
 
-There are important reasons why your organization needs to stay current.  For example:
+Keeping your organization current with updates and new features helps protect against threats, improves performance, and ensures you’re using the best available features.
 
-### Security
+### Protect against threats
 
 If your organization doesn’t stay current with the latest updates, your organization could be more vulnerable to threats like:  
 - **Ransomware**: Where an attacker encrypts your organization’s folders and files, and attempts to extort your organization for access to the files and folders.
@@ -30,30 +30,24 @@ Make sure to stay current so you don’t miss out on important features and impr
 
 ## How can your organization stay current?
 
-You can use the Windows servicing process to help Woodgrove to stay current. The process consists of four phases that span across four workstreams:
+You can use the Windows servicing process to help Woodgrove to stay current. There are four phases that span across four workstreams.
 
-### Plan
+### Phases
 
-During this phase, you will define readiness criteria to pass through each of the Prepare and Deploy phases, and determine what needs to be updated by performing an assessment of your environment. You’ll prioritize applications, define go/no-go criteria and put together a list of infrastructure tools, agents, or settings that should be updated during the next phase. At this point, you can also learn from previous Windows deployments to further reduce the effort, time and cost for subsequent Windows 10 feature updates.
+- **Plan**. During this phase, you will define readiness criteria to pass through each of the Prepare and Deploy phases, and determine what needs to be updated by performing an assessment of your environment. You’ll prioritize applications, define go or no-go criteria, and put together a list of infrastructure tools, agents, or settings that should be updated during the next phase. At this point, you can also learn from previous Windows deployments to further reduce the effort, time, and cost for subsequent Windows 10 feature updates.
 
-### Prepare
+- **Prepare**. In this phase, you’ll assign appropriate test approaches to your important and critical applications, and test applications that must work during Pilot deployment. You also update infrastructure and configuration defined earlier in the plan phase. Based on compatibility data and critical app testing, you put together a list of devices that you’ll use for a Pilot deployment.
 
-In this phase, you’ll assign appropriate test approaches to your important and critical applications, and test applications that must work during Pilot deployment. You also update infrastructure and configuration defined earlier in the plan phase. Based on compatibility data and critical app testing, you put together a list of devices that you’ll use for a Pilot deployment.
+- **Pilot deployment**. Your organization deploys the update on targeted devices to find any problems ahead of a wider deployment. At the end of this phase, you ensure that you’ve tested infrastructure, settings, and applications as defined in the plan phase, and certify that the update can be pushed to Broad deployment across the organization’s environment. If the update includes new capabilities, you ensure that they are all tested during this phase.
 
-### Pilot deployment
-
-Your organization deploys the update on targeted devices to find any problems ahead of a wider deployment. At the end of this phase, you ensure that you’ve tested infrastructure, settings, and applications as defined in the plan phase, and certify that the update can be pushed to Broad deployment across the organization’s environment. If the update includes new capabilities, you ensure that they are all tested during this phase.
-
-### Broad deployment
-
-The update is pushed to the broader environment so that all devices are up to date. You capture any learnings from this phase so that you can use them in the plan phase for the next update cycle. This will help you improve the update process in the next cycle.
+- **Broad deployment**. The update is pushed to the broader environment so that all devices are up to date. You capture any learnings from this phase so that you can use them in the plan phase for the next update cycle. This will help you improve the update process in the next cycle.
 
 ### Workstreams
 
 The phases in the process help you deal with the following workstreams for your updates:
 
 - **Compatibility**: In this workstream, Woodgrove assesses its devices and applications. Woodgrove determines how to prioritize application and device testing based on a set of criteria. For example, Woodgrove would make sure to test critical applications classified as critical either before or during the Pilot deployment phase.
-- **Deployment**: Here, Woodgrove sets out its readiness criteria and what resources and tasks are needed to update its infrastructure and configuration to support the Windows 10 feature update across its corporate environment.
+- **Deployment**: Here, Woodgrove sets out its readiness criteria, and what resources, and tasks are needed to update its infrastructure and configuration to support the Windows 10 feature update across its corporate environment.
 - **Capability**: Woodgrove uses this workstream to determine what capabilities and benefits it can gain from deploying an update, and notifies users about how to use them to improve productivity.
 - **Modernization**: Woodgrove uses this workstream to understand how it can minimize the cost, time, and effort involved to improve the servicing process for future Windows 10 updates.
 
@@ -61,7 +55,38 @@ Compatibility and deployment are core workstreams required for Woodgrove to succ
 
 Each workstream goes through the four phases, starting at the plan phase, right through to the Broad deployment phase. The table below show how the phases are mapped to each workstream, along with the tasks that Woodgrove can carry out in each workstream:
 
-:::image type="content" source="../media/2-service-framework.png" alt-text="Service framework":::
+**Plan phase**
+
+Tasks for the Plan phase: 
+
+|*Compatibility*|*Deployment*|*Capability*|*Modernize*  |
+|---------|---------|---------|---------|
+|- Define deployment readiness criteria.<br/>- Determine app readiness.|-Define deployment readiness criteria.<br/>- Determine infrastructure requirements.|- Define innovation areas.<br/>- Determine capabilities and requirements.|- Define innovation areas.<br/>- Determine improvements.|
+</div>
+
+**Prepare phase**
+
+Tasks for the Prepare phase: 
+
+|*Compatibility*|*Deployment*|*Capability*|*Modernize*  |
+|---------|---------|---------|---------|
+|- Test critical and failed apps. <br/>- Remediate failed apps.|- Update tooling, settings, and operations. <br/> - Updated pilot deployment list.|-Update tooling, settings, and operations. |- Modernize apps, processes, infrastructure.|
+
+**Pilot deployment**</span>
+
+Tasks for the Pilot deployment phase: 
+
+|*Compatibility*|*Deployment*|*Capability*|*Modernize*  |
+|---------|---------|---------|---------|
+|- Deploy app updates. <br/>- Test critical and important apps. <br/> - Support app testing|- Deploy feature update.<br/>- Test deployment and settings. <br/> - Support deployment and configuration test.|- Deploy capability.<br/> - Test capability.<br/>- Support capability test.|- Deploy improvement.<br/> - Test improvement.<br/> - Support improvement test.|
+
+**Broad deployment**
+
+Tasks for the Broad deployment phase:
+
+|*Compatibility*|*Deployment*|*Capability*|*Modernize*  |
+|---------|---------|---------|---------|
+|- Deploy app updates.<br/> - Review compatibility success.|- Deploy feature update.<br/>- Review deployment success.|- Deploy capability.<br/>- Review capability success|- Implement improvement. <br/> - Test Improvement.|
 
 ## How to accelerate the "stay current" process
 
@@ -69,9 +94,9 @@ There are different tools you can use to accelerate the stay current process for
 
 ### Windows Update for Business
 
-You can use the cloud-based Windows Update for Business service to reduce administrative and compatibility effort to deploy updates and reduce bandwidth constraints for remote workers. Windows Update for Business helps simplify the process for your organization during the deploy phase and eliminates much of the work that otherwise would need to be done to stay current. 
+You can use the cloud-based Windows Update for Business service to reduce administrative and compatibility effort to deploy updates, and reduce bandwidth constraints for remote workers. Windows Update for Business helps simplify the process for your organization during the deploy phase and eliminates much of the work that otherwise would need to be done to stay current.
 
-Windows Update for Business makes it possible for you to keep your Windows 10 devices always up to date with the latest version of Windows. At the same time, you remain in control of when and how your devices are updated. For example, you can defer or pause updates for a device for a certain period of time. You can configure different policies for feature updates, quality updates, driver updates, or updates for specific Microsoft products like Office. You can use Windows Update for Business to test specific updates on a smaller segment of your environment, before pushing them out to the wider environment. You can integrate Windows Update for Business with Configuration Manager or Microsoft Intune.
+Windows Update for Business makes it possible for you to keep your Windows 10 devices always up to date with the latest version of Windows. At the same time, you remain in control of when and how your devices are updated. For example, you can defer or pause updates for a device for a certain period of time. You can configure different policies for feature updates, quality updates, driver updates, or updates for specific Microsoft products like Microsoft 365 apps. You can use Windows Update for Business to test specific updates on a smaller segment of your environment, before pushing them out to the wider environment. You can integrate Windows Update for Business with Configuration Manager or Microsoft Intune.
 
 ### Desktop Analytics
 

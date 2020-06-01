@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.windows-plan.1-introduction
+uid: learn-m365.windows-plan.introduction
 title: Introduction
 metadata:
   title: Introduction
@@ -8,9 +8,9 @@ metadata:
   author: IanKensey
   ms.author: v-iakens
   ms.topic: interactive-tutorial
-  ms.prod: learning-windows
+  ms.prod: learning-m365
 durationInMinutes: 1
 content: |
-  [!include[](includes/1-introduction.md)]
+  [!include[](includes/introduction.md)]
 
 

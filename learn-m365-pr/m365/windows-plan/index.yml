@@ -7,7 +7,7 @@ metadata:
   author: IanKensey
   ms.author: v-iakens
   ms.topic: interactive-tutorial
-  ms.prod: learning-windows
+  ms.prod: learning-m365
 title: Plan to stay current with Windows 10 and Microsoft 365 Apps.
 summary: Understand how to plan for your organization to stay current with Windows 10 and Microsoft 365 Apps
 abstract: | 
@@ -23,14 +23,15 @@ roles:
 - administrator
 products:
 - windows
+- m365
 units:
-- learn-m365.windows-plan.1-introduction
-- learn-m365.windows-plan.2-overview
-- learn-m365.windows-plan.3-assess-apps
-- learn-m365.windows-plan.4-business-plan
-- learn-m365.windows-plan.5-plan-applications
-- learn-m365.windows-plan.6-plan-infra-config
-- learn-m365.windows-plan.7-modernization
-- learn-m365.windows-plan.8-summary
+- learn-m365.windows-plan.introduction
+- learn-m365.windows-plan.review-benefits-stay-current
+- learn-m365.windows-plan.assess-applications
+- learn-m365.windows-plan.identify-roles-responsibilities
+- learn-m365.windows-plan.plan-application-functionality-compatibility
+- learn-m365.windows-plan.plan-infrastructure
+- learn-m365.windows-plan.modernize-production-environment
+- learn-m365.windows-plan.summary
 badge:
   uid: learn-m365.windows-plan.badge
