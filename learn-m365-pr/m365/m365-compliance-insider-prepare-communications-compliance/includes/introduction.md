@@ -45,3 +45,4 @@ New interactive dashboards for alerts, policy matches, actions, and trends help 
 
 ## Learn more
 - [Supported communication types](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-feature-reference?view=o365-worldwide#supported-communication-types?azure-portal=true)
+- [Detect Workplace Harassment & Respond - Communication Compliance in Microsoft 365](https://www.microsoft.com/videoplayer/embed/RE4xlaF?azure-portal=true)
