@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.audit-incident-management.incident-response-phase-two
-title: Understand M365 incident response phase 2 - detection and analysis
+title: Understand Microsoft 365 incident response phase 2 - detection and analysis
 metadata:
-  title: Understand M365 incident response phase 2 - detection and analysis
+  title: Understand Microsoft 365 incident response phase 2 - detection and analysis
   description: Learn how Microsoft 365 investigates, manages, and responds to security concerns to protect customers and the Microsoft 365 cloud environment.
   ms.date: 05/22/2020
   author: NamrahK

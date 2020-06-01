@@ -21,7 +21,7 @@ abstract: |
  - Explain how Microsoft uses Component Governance (CG) to manage open source software.
 
 prerequisites: None
-iconUrl: http://via.placeholder.com/120x120 
+iconUrl: http://via.placeholder.com/120x120
 ratingEnabled: false
 levels:
 - beginner

@@ -12,7 +12,7 @@ JIT in Microsoft 365 is enabled by Lockbox. Lockbox is a tool that enforces the 
 
 The JIT workflow leverages Lockbox to initiate JIT requests, facilitate review by Lockbox approvers, grant or deny access based on approver decisions, and audit JIT requests. The following diagram illustrates the Lockbox workflow when an engineer requests JIT access.
 
-![Microsoft engineers lockbox workflow diagram, explanation to follow](../media/microsoft-lockbox-workflow.png)
+![Microsoft engineers lockbox workflow diagram, explanation to follow](../media/lockbox-workflow-microsoft.png)
 
 1. A Service Team engineer with a business need for privileged access to production resources requests access through Lockbox. The request specifies the privileged role, resources, and time required to complete the task. It also includes a business justification for why the task is necessary. Engineers can only request elevation into privileged roles allowed by their security groups memberships.
 
