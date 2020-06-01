@@ -12,19 +12,5 @@ metadata:
 durationInMinutes: 6
 content: |
   [!include[](includes/modernize-production-environment.md)]
-quiz:
-  title: Check your knowledge
-  questions:
-  - content: What update tool allows you to let Microsoft apply updates for you, while giving the administrator the ability to defer installation?
-    choices:
-    - content: Implement Configuration Manager
-      isCorrect: False
-      explanation: Configuration Manager by itself doesn’t have this capability. You’ll need to integrate it with Windows Update for Business.
-    - content: Implement Windows Update for Business
-      isCorrect: True
-      explanation: It will help you automatically deploy Windows updates across the environment. Windows Update for Business can be used with Microsoft Intune and Configuration Manager.
-    - content: Implement Windows Standard Toolkit.
-      isCorrect: False
-      explanation: Use Microsoft’s Windows Update for Business.
 
 
