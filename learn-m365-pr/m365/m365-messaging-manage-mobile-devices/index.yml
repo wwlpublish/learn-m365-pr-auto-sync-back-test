@@ -31,10 +31,9 @@ products:
 - office-exchange-server
 units:
 - learn-m365.m365-messaging-manage-mobile-devices.introduction
-- learn-m365.m365-messaging-manage-mobile-devices.mobile-device-mailbox-policies
+- learn-m365.m365-messaging-manage-mobile-devices.enable-mobile-device-access
 - learn-m365.m365-messaging-manage-mobile-devices.mobile-authentication-methods
 - learn-m365.m365-messaging-manage-mobile-devices.configure-outlook-mobile
-- learn-m365.m365-messaging-manage-mobile-devices.mobile-device-access
 - learn-m365.m365-messaging-manage-mobile-devices.configure-activesync
 - learn-m365.m365-messaging-manage-mobile-devices.summary-knowledge-check
 badge: 
