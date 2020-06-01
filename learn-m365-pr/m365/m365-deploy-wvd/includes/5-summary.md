@@ -3,4 +3,7 @@ In this module, you learned how to deploy Windows Virtual Desktop in your enviro
 
 ## Learn more
 
+- [Set up the PowerShell module for Windows Virtual Desktop](https://docs.microsoft.com/en-us/azure/virtual-desktop/powershell-module)
 - [Resource naming and tagging decision guide](https://docs.microsoft.com/azure/cloud-adoption-framework/decision-guides/resource-tagging/?toc=/azure/azure-resource-manager/management/toc.json)
+- [Virtual machine sizing guidelines](https://docs.microsoft.com/windows-server/remote/remote-desktop-services/virtual-machine-recs?context=/azure/virtual-desktop/context/context)
+- [Use Azure Firewall to protect Window Virtual Desktop deployments](https://docs.microsoft.com/azure/firewall/protect-windows-virtual-desktop)

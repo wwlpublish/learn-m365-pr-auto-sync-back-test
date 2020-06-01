@@ -27,6 +27,7 @@ units:
 - learn-m365.deploy-wvd.introduction
 - learn-m365.deploy-wvd.provision-host-pool
 - learn-m365.deploy-wvd.configure-remote-apps
+- learn-m365.deploy-wvd.knowledge-check
 - learn-m365.deploy-wvd.summary-and-knowledge-check
 badge: 
   uid: learn-m365.deploy-wvd.badge
