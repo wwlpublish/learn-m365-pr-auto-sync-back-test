@@ -6,17 +6,17 @@ Previous deployments can help you understand what types of activities you’ll n
 
 ### Infrastructure updates
 
-**Assess the infrastructure used to deploy and manage Windows 10** – Confirm the support of the new Windows 10 feature update with your infrastructure management tooling, and determine the effort needed to update the infrastructure.
+Assess the infrastructure used to deploy and manage Windows 10. Confirm the support of the new Windows 10 feature update with your infrastructure management tooling, and determine the effort needed to update the infrastructure.
 
 - Microsoft Endpoint Configuration Manager Current Branch – the latest release of Configuration Manager provides support for all serviced versions of Windows 10, and support for the next Windows 10 feature update. The Configuration Manager update is serviced for 18 months after release
 - For those customers that use cloud-based infrastructure management tooling such as Microsoft Intune, supportability challenges will be reduced as no on-premises or client-side products need to be updated. 
 - For non-Microsoft on premises infrastructure tooling, confirm supportability and next steps with product support. 
 
-It is recommended to use data from previous deployments to get an idea of how long infrastructure changes take, previous challenges encountered when upgrading infrastructure, and the resources that need to be consulted or informed about the update.
+It is recommended to use data from previous deployments to get an idea of how long infrastructure changes take, previous challenges encountered when upgrading infrastructure, and the resources that need to be consulted, or informed about the update.
 
 ### Configuration updates
 
-Before you can apply the Windows 10 feature update to your environment, you’ll need to assess and update required configuration to ensure security and capabilities are configured appropriately to support production devices. Organizations typically perform the following tasks:
+Before you can apply the Windows 10 feature update to your environment, you’ll need to assess and update required configuration to ensure security and capabilities are configured appropriately, to support production devices. Organizations typically perform the following tasks:
 
 **Plan for Security baseline updates**
 
@@ -61,7 +61,7 @@ You will now be able to create the following updates artefacts that you can use 
 
 |Item  |Example format  |Description  |
 |---------|---------|---------|
-|Deployment Readiness Go/No Go Criteria     |Word document|Detail the deployment readiness and supportability|
-|Infrastructure and configuration remediation list     |Word document|- Detail infrastructure management tools required <br/>- Detail Security and Configuration baseline changes needed.
+|Deployment readiness go or no-go criteria     |Word document|Detail the deployment readiness and supportability|
+|Infrastructure and configuration remediation list     |Word document|- Detail infrastructure management tools required <br/>- Detail security and configuration baseline changes needed.
 |Operations update plan     |Word document|Outline approach to updating operation processes|
 

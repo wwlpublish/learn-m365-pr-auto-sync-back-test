@@ -1,0 +1,88 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.windows-plan.summary
+title: Summary
+metadata:
+  title: Summary
+  description: Summary
+  ms.date: 05/20/2020
+  author: IanKensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 6
+content: |
+  [!include[](includes/summary.md)]
+quiz:
+  title: Check your knowledge
+  questions:
+  - content: How would you classify applications that cause the business to stop functioning if they fail?
+    choices:
+    - content: Important
+      isCorrect: False
+      explanation: These applications are critical to the organization’s core business activities and processes, so they must be classified as vital.
+    - content: Critical
+      isCorrect: True
+      explanation: These applications are vital to the organization, so they should be classified as critical.
+    - content: Not important
+      isCorrect: False
+      explanation: These applications are vital to the organization, so they shouldn’t be classified as not important.
+  - content: Which role is typically responsible for assigning user acceptance testers to critical applications?
+    choices:
+    - content: Operations
+      isCorrect: False
+      explanation: Operations provide post-deployment support procedures like user communication and plans for rollbacks.
+    - content: Application Developer
+      isCorrect: False
+      explanation: Application Developers create the app, and implement issue remediation for the applications.
+    - content: Application Owner
+      isCorrect: True
+      explanation: The Application Owner defines the test plan and assigns testers.
+  - content: What update tool allows you to let Microsoft apply updates for you, while giving the administrator the ability to defer installation?
+    choices:
+    - content: Implement Configuration Manager
+      isCorrect: False
+      explanation: Configuration Manager by itself doesn’t have this capability. You’ll need to integrate it with Windows Update for Business.
+    - content: Implement Windows Update for Business
+      isCorrect: True
+      explanation: It will help you automatically deploy Windows updates across the environment. Windows Update for Business can be used with Microsoft Intune and Configuration Manager.
+    - content: Implement Windows Standard Toolkit.
+      isCorrect: False
+      explanation: Use Microsoft’s Windows Update for Business.
+  - content: What are the phases of the servicing framework?
+    choices:
+    - content: Plan, Compatibility, Pilot Deployment, Broad Deployment
+      isCorrect: False
+      explanation: Compatibility is a workstream.
+    - content: Plan, Prepare, Pilot Deployment, Broad Deployment
+      isCorrect: True
+      explanation: Phases in the servicing framework help you to approach deploying updates.
+    - content: Plan, Prepare, Pilot Deployment, Modernize
+      isCorrect: False
+      explanation: Modernize is a workstream.
+  - content: Which roles should be involved when assigning an Application Owner?
+    choices:
+    - content: Operations, Security.
+      isCorrect: False
+      explanation: Security and Operations aren't needed to assign an application owner. End-user Computing and Process Manager should be involved to assign an application owner.
+    - content: End-User Computing, Process Manager.
+      isCorrect: True
+      explanation: End-user Computing, Process Manager, and Application Developers should work together to assign an application owner.
+    - content: Executive Stakeholder, Operations
+      isCorrect: False
+      explanation: Operations or Exec Stakeholders aren't needed to assign an application owner. End-user Computing and a Process Manager should be involved to assign an application owner.
+  - content: Where can you find Microsoft’s recommended security baselines?
+    choices:
+    - content: Microsoft’s Standard Toolkit.
+      isCorrect: False
+      explanation: Use Microsoft’s Security Compliance Toolkit.
+    - content: Windows Security Toolkit.
+      isCorrect: False
+      explanation: Use Microsoft’s Security Compliance Toolkit.
+    - content: Microsoft’s Security Compliance Toolkit.
+      isCorrect: True
+      explanation: It will also provide the tools to help manage your security baselines.
+
+
+
+
+
