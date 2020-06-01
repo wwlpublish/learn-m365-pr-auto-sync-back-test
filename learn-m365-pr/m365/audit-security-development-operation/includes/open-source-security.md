@@ -15,6 +15,6 @@ Microsoft engineering teams maintain responsibility for the security of all open
 
 Microsoft engineering teams use CG to detect open-source components in Microsoft 365 software builds. Automated CG tools scan all builds at Microsoft for open-source components and any associated security vulnerabilities or legal obligations. Discovered components are registered and submitted to the appropriate teams for business and security reviews. These reviews are designed to evaluate any legal obligations or security vulnerabilities associated with open-source components and resolve them before approving components for deployment.
 
-## Learn More ##
+## Learn more ##
 
 - [Open Source Security](https://www.microsoft.com/securityengineering/opensource/?activetab=security+analysis%3aprimaryr3&azure-portal=true)

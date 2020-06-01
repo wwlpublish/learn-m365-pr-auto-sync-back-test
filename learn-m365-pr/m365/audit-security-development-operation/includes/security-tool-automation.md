@@ -36,6 +36,6 @@ Microsoft’s SDL requires fuzz testing to validate all inputs from untrusted so
 
 At Microsoft, our operations teams are integrated with development teams using the DevOps model. As part of DevOps, we continue to validate the secure operation of our code after a build is a released to production environments. Operations teams use secure deployment checklists, baseline configuration scanning, vulnerability scanning, and host-based intrusion detection systems to validate that software is configured and operated according to security best practices. Configuration flaws detected by the operations teams are flagged for remediation, while any bugs discovered by the operations team are assigned to the appropriate development team to be fixed at the code level. By integrating operational security into our SDL requirements, we help to ensure the ongoing security of our products and services even after release.
 
-## Learn More ##
+## Learn more ##
 
 - [What are Microsoft SDL practices?](https://www.microsoft.com/securityengineering/sdl/practices?azure-portal=true)
