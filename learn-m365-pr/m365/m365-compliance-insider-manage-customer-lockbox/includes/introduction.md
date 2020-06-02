@@ -14,9 +14,9 @@ Customer Lockbox supports requests to access content in Exchange Online, SharePo
 If you would like to learn more about customer content in Microsoft 365, see the [Microsoft Trust Center](https://www.microsoft.com/trust-center/privacy?azure-portal=true).
 
 Watch the video below to learn how Customer Lockbox in Microsoft 365 brings your organization into the approval workflow for requests to access your content.  
-
-[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4xqtC]
-
+>
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4xqtC]
+>
 > [!NOTE]
 > This feature is a capability included with:
 >  -	Microsoft 365 E5 
