@@ -13,11 +13,11 @@ You'll use Node.js to create custom Microsoft Teams tabs in this module. The exe
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/): version 10\* or higher
-- NPM installed with Node.js: version 6\* or higher
-- [Gulp](https://gulpjs.com/): version 4\* or higher
-- [Yeoman](https://yeoman.io/): version 3\* or higher
-- [Yeoman generator for Microsoft Teams](https://github.com/pnp/generator-teams): version 2.12\* or higher
+- [Node.js](https://nodejs.org/) - v10.\* (or higher)
+- NPM (installed with Node.js) - v6.\* (or higher)
+- [Gulp](https://gulpjs.com/) - v4.\* (or higher)
+- [Yeoman](https://yeoman.io/) - v3.\* (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.13.0 (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 
 *You must have the minimum versions of these prerequisites installed on your workstation.
@@ -87,7 +87,7 @@ At the bottom of the **API Permissions** panel, select the **Grant admin consent
 
 ## Create Microsoft Teams app
 
-Open your command prompt, and go to a directory where you want to save your work. Create a new folder named auth-tab, and change the directory into that folder.
+Open your command prompt, and go to a directory where you want to save your work. Create a new folder named **auth-tab**, and change the directory into that folder.
 
 Run the Yeoman generator for Microsoft Teams by running the following command:
 
@@ -106,12 +106,13 @@ Yeoman starts and asks you a series of questions. Answer the questions with the 
 - **Which manifest version would you like to use?**: 1.5
 - **Enter your Microsoft Partner ID, if you have one**: (Leave blank to skip)
 - **What features do you want to add to your project?**: A tab
-- **The URL where you'll host this solution**: https://larnteamsauthtabs.azurewebsites.net
+- **The URL where you will host this solution?**: (Accept the default option)
 - **Would you like to include Test framework and initial tests?**: No
 - **Would you like to use Azure Applications Insights for telemetry?**: No
 - **Default Tab name (max 16 characters)**: LearnAuthTab
 - **Do you want to create a configurable or static tab?**: Configurable
 - **What scopes do you intend to use for your tab?**: In a Team
+- **Do you require Azure AD Single-Sign-On support for the tab?** No
 - **Do you want this tab to be available in SharePoint Online?**: Yes
 - **How do you want your tab to be available in SharePoint?**: As a full-page application, as a web part
 
@@ -355,7 +356,7 @@ private async getAccessToken(promptConsent: boolean = false): Promise<string> {
 }
 ```
 
-Create the new file ./src/app/web/auth-start.html in the project, and add the following code to it. This file uses the Microsoft Teams JavaScript SDK and Azure Active Directory Authentication Library JavaScript (ADAL.js) libraries to configure ADAL for the Azure AD application created previously in this exercise. It then redirects the user to the Azure AD sign-in page and instructs the page to redirect the user back to **auth-end.html** on our site.
+Create the new file **./src/app/web/auth-start.html** in the project, and add the following code to it. This file uses the Microsoft Teams JavaScript SDK and Azure Active Directory Authentication Library JavaScript (ADAL.js) libraries to configure ADAL for the Azure AD application created previously in this exercise. It then redirects the user to the Azure AD sign-in page and instructs the page to redirect the user back to **auth-end.html** on our site.
 
 ```html
 <!DOCTYPE html>
@@ -415,7 +416,7 @@ Create the new file ./src/app/web/auth-start.html in the project, and add the fo
 </html>
 ```
 
-Create the new file ./src/app/web/auth-end.html in the project, and add the following code to it. Like the auth-start.html file, this file uses the Microsoft Teams JavaScript SDK and ADAL.js libraries to configure ADAL for the Azure AD application created previously in this exercise. It parses the results received from Azure AD. If the user successfully authenticated, this page requests an access token for Microsoft Graph from Azure AD and then notifies Microsoft Teams that the authentication process succeeded or failed.
+Create the new file **./src/app/web/auth-end.html** in the project, and add the following code to it. Like the auth-start.html file, this file uses the Microsoft Teams JavaScript SDK and ADAL.js libraries to configure ADAL for the Azure AD application created previously in this exercise. It parses the results received from Azure AD. If the user successfully authenticated, this page requests an access token for Microsoft Graph from Azure AD and then notifies Microsoft Teams that the authentication process succeeded or failed.
 
 The notification process triggers Microsoft Teams to close the pop-up window and run the registered callback handlers in our tab:
 
@@ -480,7 +481,7 @@ From the command line, go to the root folder for the project and run the followi
 gulp ngrok-serve
 ```
 
-Copy the ngrok URL displayed in the console. Go back to Azure AD, and add or update the redirect URI of the Azure AD application previously created in this lab. Otherwise, Azure AD won't redirect you back to the **auth-end.html** page. The URL should be in the form of https://{ngrok-subdomain}.ngrok.io/auth-end.html.
+Copy the ngrok URL displayed in the console. Go back to Azure AD, and add or update the redirect URI of the Azure AD application previously created in this lab. Otherwise, Azure AD won't redirect you back to the **auth-end.html** page. The URL should be in the form of **https://{ngrok-subdomain}.ngrok.io/auth-end.html**.
 
 In the browser, go to [Microsoft Teams](https://teams.microsoft.com), and sign in with the credentials of a Work and School account.
 

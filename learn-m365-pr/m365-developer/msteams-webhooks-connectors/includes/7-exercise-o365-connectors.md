@@ -28,7 +28,7 @@ You'll need the ID of your new Connector later in the exercise. This ID, a GUID,
 
 ## Create Microsoft Teams app
 
-Open your command prompt, navigate to a directory where you want to save your work, create a new folder **learn-msteams-taskmodules**, and change directory into that folder.
+Open your command prompt, navigate to a directory where you want to save your work, create a new folder **learn-msteams-connectors**, and change directory into that folder.
 
 Run the Yeoman Generator for Microsoft Teams by running the following command:
 

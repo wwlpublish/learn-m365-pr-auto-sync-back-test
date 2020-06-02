@@ -5,7 +5,7 @@ In this exercise, you'll learn how to create a channel tab with a configuration 
 
 ## Add a channel app to the Microsoft Teams app project
 
-The Yeoman generator for Microsoft Teams can be used to add new components to an existing project. In this section, you'll add a channel tab to the existing project. 
+The Yeoman generator for Microsoft Teams can be used to add new components to an existing project. In this section, you'll add a channel tab to the existing project.
 
 Execute the following command in the console from the root folder of the project:
 
@@ -21,6 +21,7 @@ Yeoman starts and asks you a series of questions. Answer the questions with the 
 - **Default tab name (max 16 characters)**: ConfigMathTab
 - **Do you want to create a configurable or static tab?**: Configurable
 - **What scopes do you intend to use for your tab?**: In a Team
+- **Do you require Azure AD Single-Sign-On support for the tab?** No
 - **Do you want this tab to be available in SharePoint Online?**: Yes
 - **How do you want your tab to be available in SharePoint?**: As a full-page application, as a web part
 
@@ -42,17 +43,17 @@ In the app bar on the left, select the **More added apps** button. Then select *
 
 ![Screenshot of More added apps dialog box in Microsoft Teams](../media/03-yo-teams-05.png)
 
-In the file dialog box that appears, select the Microsoft Teams package in your project. This app package is a zip file in the project's ./package folder.
+In the file dialog box that appears, select the Microsoft Teams package in your project. This app package is a zip file in the project's **./package** folder.
 
-After the package is uploaded, Microsoft Teams displays a summary of the app. Select the arrow next to the **Add** button, and select **Add to a team** to install the app.
+After the package is uploaded, Microsoft Teams displays a summary of the app. Select the arrow next to the **Add** button, and select **Add to a team** to install the app:
 
 ![Screenshot adding a channel tab](../media/05-channel-tab-01.png)
 
-In the **Select a channel to start using** dialog box, select an existing team. Then select **Set up a tab**.
+In the **Select a channel to start using** dialog box, select an existing team. Then select **Set up a tab**:
 
 ![Screenshot selecting a team to add the channel tab to](../media/05-channel-tab-02.png)
 
-Before the tab is added to the team, Microsoft Teams displays the tab's configuration page.
+Before the tab is added to the team, Microsoft Teams displays the tab's configuration page:
 
 ![Screenshot of the tab configuration page](../media/05-channel-tab-03.png)
 
@@ -66,21 +67,32 @@ On the tab you create in this exercise, the user can select a math operation to 
 
 The first step is to modify the configuration page.
 
-Locate and open the file ./src/app/scripts/configMathTab/ConfigMathTabConfig.tsx.
+Locate and open the file **./src/app/scripts/configMathTab/ConfigMathTabConfig.tsx**.
 
 ### Update the configuration tab to use the current Theme
 
-Update the `import` statements in this file to include the components used in the configuration tab. Find the following `import` statement that imports the Fluent UI - React library:
+Update the `import` statements in this file to include the components used in the configuration tab.
 
-```typescript
-import { Provider, Flex, Header, Input} from "@fluentui/react";
-```
+1. Find the following `import` statement that imports the Fluent UI - React library:
 
-Replace the previous statement with the following import statement:
+    ```typescript
+    import { Provider, Flex, Header, Input} from "@fluentui/react";
+    ```
 
-```typescript
-import { Provider, Flex, Header, Input, ThemePrepared, themes, DropdownProps, Dropdown } from "@fluentui/react";
-```
+1. Replace the previous statement with the following import statement:
+
+    ```typescript
+    import {
+      Provider,
+      Flex,
+      Header,
+      Input,
+      ThemePrepared,
+      themes,
+      DropdownProps,
+      Dropdown
+    } from "@fluentui/react";
+    ```
 
 Locate the `IConfigMathTabConfigState` interface, and replace its contents with the following two members:
 
@@ -116,20 +128,14 @@ private updateComponentTheme = (teamsTheme: string = "default"): void => {
 }
 ```
 
-Initialize the current theme and state of the component. Locate the line `this.updateTheme(this.getQueryVariable("theme"));` and replace it with the following code in the `componentWillMount()` method:
+Initialize the current theme and state of the component.
+
+Locate the line `this.updateTheme(this.getQueryVariable("theme"));` and replace it with the following code in the `componentWillMount()` method:
 
 ```typescript
 this.updateComponentTheme(this.getQueryVariable("theme"));
 ```
-
-Locate the following code in the `componentWillMount()` method and delete it:
-
-```typescript
-this.setState({
-  fontSize: this.pageFontSize()
-});
-```
-
+    
 ### Implement the configuration page logic
 
 The configuration page displays a drop-down list of four math operators to select from. After an operator is selected, it's saved to the tab's `entityId` property with the string **MathPage** appended to it. This value is used by the tab page to determine what operation to perform in the tab.
@@ -211,12 +217,11 @@ Select one of the math operators, and save your changes by selecting **Save**. T
 
 The last step is to implement the channel tab.
 
-Locate and open the file ./src/app/scripts/configMathTab/ConfigMathTab.tsx.
+Locate and open the file **./src/app/scripts/configMathTab/ConfigMathTab.tsx**.
 
 ### Update the channel tab to use the Stardust UI library
 
 Update the `import` statements in this file to include the components used in the configuration tab. Find the following `import` statement that imports the Fluent UI - React library:
-
 
 ```typescript
 import { Provider, Flex, Text, Button, Header } from "@fluentui/react";
@@ -225,7 +230,16 @@ import { Provider, Flex, Text, Button, Header } from "@fluentui/react";
 Replace the previous statement with the following import statement:
 
 ```typescript
-import { Provider, Flex, Text, Button, Header, ThemePrepared, themes, Input } from "@fluentui/react";
+import {
+  Provider,
+  Flex,
+  Text,
+  Button,
+  Header,
+  ThemePrepared,
+  themes,
+  Input
+} from "@fluentui/react";
 ```
 
 Locate the `IConfigMathTabState` interface, and replace its contents with the following:
@@ -281,14 +295,6 @@ This code registers an event handler to update the component's theme to match th
 
 ```typescript
 microsoftTeams.registerOnThemeChangeHandler(this.updateComponentTheme);
-```
-
-Locate the following code in the `componentWillMount()` method and delete it:
-
-```typescript
-this.setState({
-  fontSize: this.pageFontSize()
-});
 ```
 
 ### Implement the channel page logic
