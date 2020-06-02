@@ -22,9 +22,11 @@ Windows Virtual Desktop uses the following roles:
 
 When using Azure AD DS, make sure that your virtual machine admin is also in the Azure AD DS admin group. This enables that account to domain join more machines compared than a standard user account.  
 
-<!--What perms do you need to set up WVD (enroll or provision)? Answer to KC question said subscription administrator which isn't a role. Subscription owner? -->
+<!--What perms do you need to set up WVD (enroll or provision)? Answer to KC question said subscription administrator which isn't a role. Video says global admin. -->
 <!--Add screenshot that shows assignment-->
 
 ## Assign licenses to Windows Virtual Desktop users
 
 The final step in managing your user accounts and access is to make sure your initial Windows Virtual Desktop users are licensed. You can assign licenses to users in the **Users** area of the Microsoft 365 admin portal, or you can script it using the Azure Active Directory PowerShell module. <!--Add screenshot for M365? -->
+
+<!--Do we want to add back in the register provider step to align with video?-->
