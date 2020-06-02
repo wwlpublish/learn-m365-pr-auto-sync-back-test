@@ -8,9 +8,11 @@ The financial impact of insider threats is substantial, as companies suffer mark
 
 Traditional approaches to identifying insider risks such as user behavior analytics, monitoring user activity, and data loss prevention can suffer from limitations such as complex deployment scenarios, limited insights, and a lack of workload integration beyond SecOps. 
 
-The insider risk management solution in Microsoft 365 leverages the Microsoft Graph, security services and connectors to human resources (HR) systems like SAP, to obtain real-time native signals such as file activity, communications sentiment, abnormal user behaviors, and resignation date. A set of configurable policy templates tailored specifically for risks – such as digital IP theft, confidentiality breach, and HR violations – use machine learning and intelligence to correlate these signals to identify hidden patterns and risks that traditional or manual methods might miss. These built-in policy templates allow you to identify and mitigate risky activities while balancing employee 
+The insider risk management solution in Microsoft 365 leverages the Microsoft Graph, security services and connectors to human resources (HR) systems like SAP, to obtain real-time native signals such as file activity, communications sentiment, abnormal user behaviors, and resignation date. A set of configurable policy templates tailored specifically for risks – such as digital IP theft, confidentiality breach, and HR violations – use machine learning and intelligence to correlate these signals to identify hidden patterns and risks that traditional or manual methods might miss. These built-in policy templates allow you to identify and mitigate risky activities while balancing employee privacy versus organization risk with privacy-by-design architecture. Finally, end-to-end integrated workflows ensure that the right people across security, HR, legal, and compliance are involved to quickly investigate and take action once a risk has been identified. 
 
-privacy versus organization risk with privacy-by-design architecture. Finally, end-to-end integrated workflows ensure that the right people across security, HR, legal, and compliance are involved to quickly investigate and take action once a risk has been identified. 
+Watch the video below to learn how insider risk management can help your organization prevent, detect, and contain risks while prioritizing your organization values, culture, and employee experience:
+
+[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4xnQE]
 
 > [!NOTE]
 > This feature is a capability included with:
@@ -68,7 +70,6 @@ Identifying and resolving internal risk activities and compliance issues with in
 ## Learn more
 - [Crowd Research Partners, Insider Threat Report](https://crowdresearchpartners.com/portfolio/insider-threat-report/?azure-portal=true)
 - [Carnegie Mellon CERT study: The “Big Picture” of Insider IT Sabotage Across U.S. Critical Infrastructures](https://resources.sei.cmu.edu/asset_files/TechnicalReport/2008_005_001_14981.pdf?axure-portal=true)
-- [Insider Risk Management from Microsoft 365](https://www.microsoft.com/videoplayer/embed/RE4xnQE?azure-portal=true)
 - [Carnegie Mellon University: Insider Threats in Healthcare](https://insights.sei.cmu.edu/insider-threat/2019/02/insider-threats-in-healthcare-part-7-of-9-insider-threats-across-industry-sectors.html?azure-portal=true)
 
 
