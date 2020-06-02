@@ -1,8 +1,8 @@
 ### YamlMime:Module
 uid: learn-m365.m365-messaging-manage-mobile-devices
 metadata:
-  title: Manage and configure your mobile devices
-  description: Plan and manage your mobile devices, including mobile authentication, device access, ActiveSync, and Outlook mobile. 
+  title: Manage mobile devices in Microsoft 365 and Exchange Online
+  description: Learn how to manage your mobile devices, including mobile authentication, device access, and ActiveSync. 
   ms.date: 04/09/2020
   author: AlexandraHrt
   ms.author: v-aleha

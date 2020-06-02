@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.m365-messaging-manage-mobile-devices.configure-activesync
-title: Configure and manage ActiveSync
+title: Support more mobile devices by using Exchange ActiveSync
 metadata:
-  title: Configure and manage ActiveSync
-  description: Plan and manage your mobile devices, including mobile authentication, device access, ActiveSync, and Outlook mobile. 
+  title: Support more mobile devices by using Exchange ActiveSync
+  description: Learn how to use Exchange ActiveSync to expand access for non-iOS and non-Android mobile devices. 
   ms.date: 04/09/2020
   author: AlexandraHrt
   ms.author: v-aleha

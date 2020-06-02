@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.m365-messaging-manage-mobile-devices.configure-outlook-mobile
-title: Configure and manage Outlook mobile
+title: Manage access to Exchange Online from Outlook for iOS and Android
 metadata:
-  title: Configure and manage Outlook mobile
-  description: Plan and manage your mobile devices, including mobile authentication, device access, ActiveSync, and Outlook mobile. 
+  title: Manage access to Exchange Online from Outlook for iOS and Android
+  description: Learn how to set up and manage access from mobile devices to Exchange Online. 
   ms.date: 04/09/2020
   author: AlexandraHrt
   ms.author: v-aleha
