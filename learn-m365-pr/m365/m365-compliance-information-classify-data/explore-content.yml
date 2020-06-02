@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-compliance-information-governance.explore-content
+title: Explore labeled and sensitive content
+metadata:
+  title: Explore labeled and sensitive content
+  description: Learn about the information available to help you understand your data landscape and know your data.
+  ms.date: 06/05/2020
+  author: ericweisberg
+  ms.author: v-erwe
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+
+durationInMinutes: 5
+content: |
+  [!include[](includes/explore-content.md)]
