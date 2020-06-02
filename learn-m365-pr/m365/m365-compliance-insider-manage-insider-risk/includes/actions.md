@@ -10,7 +10,7 @@ To learn more about Advanced eDiscovery cases, see [Overview of Advanced eDsicov
 ## Case dashboard
 The insider risk management **Cases dashboard** allows you to view and take action on cases. The **Cases dashboard** displays information from the previous 30 days for the following widgets: 
 - **Active cases:** The total number of active cases under investigation.
-- **Cases over past 30 days:** The total number of cases created, sorted by **Active** and **Closed** status.
+- **Cases over the past 30 days:** The total number of cases created, sorted by **Active** and **Closed** status.
 - **Statistics:** Average time of active cases, listed in hours, days, or months.
 
 The case queue lists all active and closed cases for your organization, in addition to the current state of the following case attributes:
@@ -61,7 +61,7 @@ The **User activity** tab is one of the most powerful tools for internal risk an
     - **Date** of the risk activity.
     - **Risk activity category**. For example, Email(s) with attachments sent outside the organization or File(s) downloaded from SharePoint Online.
     - **Risk score** for the alert. This score is the numerical score for the alert risk severity level.
-    - Number of events associated with the alert. Links to each file or email associated with the risk activity is also available.
+    - **Number of events associated with the alert**. Links to each file or email associated with the risk activity is also available.
 - **Risk activity legend:** Across the bottom of the user activity chart, a color-coded legend helps you quickly determine risk category for each alert.
 - **Risk activity chronology:** The full chronology of all risk alerts associated with the case are listed, including all the details available in the corresponding alert bubble.
 - **Case actions:** Options for resolving the case are on the case action toolbar. You can resolve a case, send an email notice to the employee, or escalate the case for a data or employee investigation.
@@ -77,7 +77,7 @@ The **Case notes** tab enables risk analysts and investigators to comment, feedb
 The **Contributors** tab in the case is where risk analysts and investigators can add other reviewers to the case. By default, all users assigned the **Insider Risk Management Analysts** and **Insider Risk Management Investigators** roles are listed as contributors for each active and closed case.
 All insider risk management cases must be managed with appropriate access controls in place to maintain confidentiality and integrity of the investigation. To help maintain access control of cases, users are assigned one of two types of access to cases:
 - **Permanent access**. Permanent access is automatically granted to users with the **Insider Risk Management Analysts** and **Insider Risk Management Investigators** roles when the case is created from an alert. Permanent access grants full control of the case for the lifetime of the case and grants the ability to add other case contributors.
-- **Temporary access**. Temporary access is only granted to users by contributors that have permanent access for the case. Typically, this access level is granted to user that needs to add notes to a case. Contributors with temporary access have all case management control except:
+- **Temporary access**. Temporary access is only granted to users by contributors that have permanent access for the case. Typically, this access level is granted to users that needs to add notes to a case. Contributors with temporary access have all case management control except:
    - Permission to confirm or dismiss alerts
    - Permission to edit the contributors for cases
    - Permission to view files and messages in the Content Explorer
@@ -89,7 +89,7 @@ It's important to remember that sending a notice to an employee *does not* resol
 ### Escalate for investigation
 Cases may need to be escalated in situations where additional legal review is needed for the employee's risk activity. This escalation opens a new Advanced eDiscovery case in your Microsoft 365 organization. Advanced eDiscovery provides an end-to-end workflow to preserve, collect, review, analyze, and export content that's responsive to your organization's internal and external legal investigations. It also lets your legal team manage the entire legal hold notification workflow to communicate with custodians involved in a case. Assigning a reviewer as a custodian in an Advanced eDiscovery case created from an insider risk management case helps your legal team take appropriate action and manage content preservation. After the insider risk management case has been escalated to a new employee investigation case, you can review the new case in the **eDiscovery> Advanced** area in the Microsoft 365 compliance center. 
 ### Resolve the case
-After risk analysts and investigators have completed their review and investigation, a case can be resolved to take action on all the alerts currently included in the case. Resolving a case adds a resolution classification, changes the case status to **Closed**, and automatically adds the resolution action automatically added to the case notes queue on the **Case notes** dashboard. Cases are resolved as either:
+After risk analysts and investigators have completed their review and investigation, a case can be resolved to take action on all the alerts currently included in the case. Resolving a case adds a resolution classification, changes the case status to **Closed**, and automatically adds the resolution action added to the case notes queue on the **Case notes** dashboard. Cases are resolved as either:
 - **Benign:** The classification for cases where policy match alerts are evaluated as low risk, non-serious, or false positive.
 - **Confirmed policy violation:** The classification for cases where policy match alerts are evaluated as risky, serious, or the result of malicious intent.
 ## Insider risk management notice templates 
@@ -110,8 +110,4 @@ View a [video version](https://www.microsoft.com/videoplayer/embed/placeholder) 
 <a href="https://mslearn.cloudguides.com/en-us/guides/Minimize%20internal%20risks%20with%20insider%20risk%20management%20in%20Microsoft%20365?azure-portal=true">![Minimize internal risks with insider risk management in Microsoft 365](../media/minimize-internal-risks-with-insider-risk-management-in-microsoft-365.png)</a>  
 
 Be sure to click the full-screen option in the video player. 
-
-## Learn more
-- [Insider risk management content explorer](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-content-explorer?view=o365-worldwide?azure-portal=true)
-- [Overview of the Advanced eDiscovery solution in Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-content-explorer?view=o365-worldwide?azure-portal=true)
 

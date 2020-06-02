@@ -46,5 +46,3 @@ No matter where you start to review alerts or the filtering you configure, the n
 
 1. **Determine if message details should be archived outside of communication compliance**: Message details can be exported or downloaded if you need to archive the messages in a separate storage solution. Selecting the **Download** control automatically adds selected messages to a .ZIP file that can be saved to storage outside of Microsoft 365.
 
-## Learn more
-- [Filters](hhttps://docs.microsoft.com/microsoft-365/compliance/communication-compliance-feature-reference?view=o365-worldwide#filters?azure-portal=true)

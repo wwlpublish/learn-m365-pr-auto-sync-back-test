@@ -50,9 +50,3 @@ When you define policies for information barriers, you will work with user accou
    - *Block* policies prevent one segment from communicating with another segment.
    - *Allow* policies allow one segment to communicate with only certain other segments.
 - *Policy application* is done after all information barrier policies are defined, and you are ready to apply them in your organization.
-
-## Learn more
- - [Debt Research Regulatory Notice 15-31](http://www.finra.org/sites/default/files/Regulatory-Notice-15-31_0.pdf?azure-portal=true)
- - [Address book policies in Exchange Online](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies?azure-portal=true)
- - [Attributes for information barrier policies](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-attributes?view=o365-worldwide?azure-portal=true)
-
