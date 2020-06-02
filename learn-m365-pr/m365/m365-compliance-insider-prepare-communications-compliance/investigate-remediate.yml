@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.m365-compliance-insider-prepare-communications-compliance.investigate-remediate
-title: Investigate and remediate communication compliance alertss
+title: Investigate and remediate communication compliance alerts
 metadata:
   title: Investigate and remediate communication compliance alerts
-  description: Communications Compliance in Microsoft 365 is a solution that helps organizations address code-of-conduct policy violations in company communications, while also assisting organizations in regulated industries meet specific supervisory compliance requirements. Communication Compliance leverages machine learning to intelligently detect violations across different communication channels such as Microsoft Teams, Exchange Online, or Bloomberg instant messages.
+  description: Communication compliance in Microsoft 365 is a solution that helps organizations address code-of-conduct policy violations in company communications, while also assisting organizations in regulated industries meet specific supervisory compliance requirements. Communication Compliance leverages machine learning to intelligently detect violations across different communication channels such as Microsoft Teams, Exchange Online, or Bloomberg instant messages.
   ms.date: 05/15/2020
   author: ericweisberg
   ms.author: v-erwe
