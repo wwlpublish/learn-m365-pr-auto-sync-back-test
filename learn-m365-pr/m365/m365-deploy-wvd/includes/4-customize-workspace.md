@@ -11,12 +11,20 @@
 
 ## Change the name of your virtual desktops
 
-1. [Sign in](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true) to the Azure portal.
-1. Use the search box to find **Windows Virtual Desktop**.
-1. Select **Application groups**.
+1. In **Windows Virtual Desktop**, select **Application groups**.
 1. Select the application group you want to customize.
 1. Under **Settings**, select **Properties**.
 1. Update the **Friendly name**.
+
+## Configure RDP properties 
+
+1. In **Windows Virtual Desktop**, select **Host pools**.
+1. Select the host pool you want to configure.
+1. Under **Settings**, select **Properties**.
+1. Select **RDP Settings**.
+1. When you're done, select **Save**.
+
+<!--What do we recommend they update here? Why do they commonly come here -->
 
 
 ## Install the Windows Virtual Desktop Client for Windows
