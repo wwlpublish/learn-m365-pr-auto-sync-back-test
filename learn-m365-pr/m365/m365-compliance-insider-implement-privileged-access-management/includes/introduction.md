@@ -2,9 +2,9 @@ Privileged access management allows granular access control over privileged admi
 Privileged access management is based on the principle of Zero Standing Access, which requires users to request just-in-time access to complete elevated and privileged tasks and access requests must be approved by an authorized set of approvers. This configuration gives users just-enough-access to perform the task at hand, without risking exposure of sensitive data or critical configuration settings. Enabling privileged access management in Office 365 allows your organization to operate with zero standing privileges and provide a layer of defense against standing administrative access vulnerabilities in Exchange Online. 
 
 Watch the video below for a quick overview of privileged access management in Office 365. 
-
-[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4xqtC]
-
+>
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4xqtC]
+>
 > [!NOTE]
 > This feature is a capability included with:
 >  -	Microsoft 365 E5 
