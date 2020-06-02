@@ -8,7 +8,7 @@ Policy templates contain pre-defined policy settings that you can use to quickly
 - **Offensive language and anti-harassment**: Use this template to quickly create a policy that uses the threat, profanity, and harassment language classifiers to automatically detect content that may be considered abusive or offensive. 
 - **Sensitive information**: Use this template to create a policy to scan communications containing defined sensitive information types or keywords to help make sure that important data isn't shared with people that shouldn't have access. 
 - **Regulatory compliance**: Use this template to create a policy to scan communications for references to standard financial terms associated with regulatory standards. 
--
+
 ### Policy settings
 There are several policy settings you can customize, including the following:
 - **Users.** You can select **All users** or specific users in a communication compliance policy. Selecting **All users** applies the policy to all users and all groups that any user is included in as a member. Defining specific users applies the policy to the defined users and any groups the defined users are included in as a member.
