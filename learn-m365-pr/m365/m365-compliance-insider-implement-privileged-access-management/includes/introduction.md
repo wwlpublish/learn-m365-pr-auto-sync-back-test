@@ -3,6 +3,8 @@ Privileged access management is based on the principle of Zero Standing Access, 
 
 Watch the video below for a quick overview of privileged access management in Office 365. 
 
+[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4xqtC]
+
 > [!NOTE]
 > This feature is a capability included with:
 >  -	Microsoft 365 E5 
@@ -50,5 +52,4 @@ The approval workflow can also be illustrated as follows:
    ![Approval workflow](../media/approval-workflow.png)   
  
 ## Learn more
-- [Introducing privileged access management in Office 365](https://www.microsoft.com/videoplayer/embed/RE4xqtC?azure-portal=true) 
 - [What is Azure AD Privileged Identity Management?](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure?azure-portal-true)

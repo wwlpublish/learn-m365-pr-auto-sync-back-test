@@ -15,6 +15,8 @@ If you would like to learn more about customer content in Microsoft 365, see the
 
 Watch the video below to learn how Customer Lockbox in Microsoft 365 brings your organization into the approval workflow for requests to access your content.  
 
+[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4xqtC]
+
 > [!NOTE]
 > This feature is a capability included with:
 >  -	Microsoft 365 E5 
@@ -48,6 +50,5 @@ The following diagram illustrates the Customer Lockbox workflow after a customer
 
 ## Learn more
  - [Microsoft 365 Trust Center](https://www.microsoft.com/trust-center/privacy?azure-portal=true)
- - [Customer Lockbox in Microsoft 365, an overview](https://www.microsoft.com/videoplayer/embed/8fecf10b-1f03-4849-8b67-76d3d2a43f26?azure-portal=true)
  - [Admin roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide?azure-portal=true)
  - [Customer Lockbox frequently asked questions](https://docs.microsoft.com/microsoft-365/compliance/customer-lockbox-requests?view=o365-worldwide#frequently-asked-questions?azure-portal=true)
