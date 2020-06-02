@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-compliance-info-protection.using-sensitive-information-types
+title: Classify data using sensitive information types
+metadata:
+  title:  Classify data using sensitive information types
+  description: Learn about the information available to help you understand your data landscape and know your data.
+  author: ericweisberg
+  ms.author: v-erwe
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+
+durationInMinutes: 5
+content: |
+  [!include[](includes/using-sensitive-information-types.md)]
