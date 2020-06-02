@@ -13,7 +13,9 @@ The insider risk management solution in Microsoft 365 leverages the Microsoft Gr
 Watch the video below to learn how insider risk management can help your organization prevent, detect, and contain risks while prioritizing your organization values, culture, and employee experience:
 > 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4xnQE]
+
 >
+
 > [!NOTE]
 > This feature is a capability included with:
 >  -	Microsoft 365 E5 
