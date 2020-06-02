@@ -15,11 +15,7 @@ When you create a team from an existing Office 365 Group, that group’s members
 
 ## Teams integration with Microsoft 365 Groups
 
-<<<<<<< HEAD
 When you create a team in Microsoft Teams, on the back end, you’re creating a Microsoft 365 Group and the associated SharePoint document library and OneNote notebook, along with ties into other cloud applications. You can add or remove group members just as you would any other group-based security object in Active Directory.
-=======
-When you create a team in Microsoft Teams, on the back end, you’re creating an Office 365 Group and the associated SharePoint document library and OneNote notebook, along with ties into other cloud applications. You can add or remove group members just as you would any other group-based security object in Active Directory.
->>>>>>> 22528f1867c64cb4cc503589e489525544dba98f
 
 Learn more about Teams integration with Microsoft 365 Groups in the module **Manage Teams.**
 

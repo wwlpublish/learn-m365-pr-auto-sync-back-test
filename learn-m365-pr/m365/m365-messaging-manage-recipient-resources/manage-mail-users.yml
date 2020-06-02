@@ -2,8 +2,8 @@
 uid: learn-m365.m365-messaging-manage-recipient-resources.manage-mail-users
 title: Manage mail users
 metadata:
-  title: Manage mail users
-  description: Learn how to manage different mailbox types, configure mailbox policies and permissions, and understand licensing options. 
+  title: Manage your mail users
+  description: Learn how to create and manage mail users in Exchange Online. 
   ms.date: 04/07/2020
   author: AlexandraHrt
   ms.author: v-aleha

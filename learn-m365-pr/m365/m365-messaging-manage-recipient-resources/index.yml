@@ -15,10 +15,9 @@ abstract: |
   - Describe how to manage different mailbox types.
   - Explain the different group types.
   - Explain how to configure mailbox policies and permissions.
-  - Describe the different licensing options.
 
 prerequisites: |
- - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+ - None
 iconUrl: /learn/achievements/manage-recipient-resources.svg
 levels:
 - intermediate
@@ -30,15 +29,10 @@ products:
 - office-exchange-server
 units:
 - learn-m365.m365-messaging-manage-recipient-resources.introduction
-- learn-m365.m365-messaging-manage-recipient-resources.archive-mailboxes
-- learn-m365.m365-messaging-manage-recipient-resources.resource-mailboxes
-- learn-m365.m365-messaging-manage-recipient-resources.manage-groups
-- learn-m365.m365-messaging-manage-recipient-resources.manage-mailboxes
-- learn-m365.m365-messaging-manage-recipient-resources.mailbox-permissions
-- learn-m365.m365-messaging-manage-recipient-resources.mailbox-policies
-- learn-m365.m365-messaging-manage-recipient-resources.shared-mailboxes
-- learn-m365.m365-messaging-manage-recipient-resources.license-options
 - learn-m365.m365-messaging-manage-recipient-resources.manage-mail-users
+- learn-m365.m365-messaging-manage-recipient-resources.manage-mailboxes
+- learn-m365.m365-messaging-manage-recipient-resources.manage-groups
+- learn-m365.m365-messaging-manage-recipient-resources.mailbox-policies
 - learn-m365.m365-messaging-manage-recipient-resources.summary-knowledge-check
 badge: 
   uid: learn-m365.m365-messaging-manage-recipient-resources.badge
