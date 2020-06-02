@@ -8,7 +8,9 @@ Communication compliance monitors outbound and inbound communication across Exch
 Watch the video below to learn more about Communication Compliance in Microsoft 365.  
 >
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4xlaF]
+
 >
+
 > [!NOTE]
 > This feature is a capability included with:
 >  -	Microsoft 365 E5 

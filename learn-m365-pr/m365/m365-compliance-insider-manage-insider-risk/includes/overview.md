@@ -11,9 +11,9 @@ Traditional approaches to identifying insider risks such as user behavior analyt
 The insider risk management solution in Microsoft 365 leverages the Microsoft Graph, security services and connectors to human resources (HR) systems like SAP, to obtain real-time native signals such as file activity, communications sentiment, abnormal user behaviors, and resignation date. A set of configurable policy templates tailored specifically for risks – such as digital IP theft, confidentiality breach, and HR violations – use machine learning and intelligence to correlate these signals to identify hidden patterns and risks that traditional or manual methods might miss. These built-in policy templates allow you to identify and mitigate risky activities while balancing employee privacy versus organization risk with privacy-by-design architecture. Finally, end-to-end integrated workflows ensure that the right people across security, HR, legal, and compliance are involved to quickly investigate and take action once a risk has been identified. 
 
 Watch the video below to learn how insider risk management can help your organization prevent, detect, and contain risks while prioritizing your organization values, culture, and employee experience:
-
-[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4xnQE]
-
+> 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4xnQE]
+>
 > [!NOTE]
 > This feature is a capability included with:
 >  -	Microsoft 365 E5 
