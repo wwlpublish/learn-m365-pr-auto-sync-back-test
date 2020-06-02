@@ -30,6 +30,6 @@ A small number of clients (like EAS, POP3, and IMAP4 clients, which don’t supp
 
 ## Learn more 
 
-[Account setup with modern authentication in Exchange Online](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/outlook-for-ios-and-android/setup-with-modern-authenticationhttps://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/exchange-activesync/exchange-activesync?azure-portal=true) 
+[Account setup with modern authentication in Exchange Online](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/outlook-for-ios-and-android/setup-with-modern-authentication?azure-portal=true) 
 
  

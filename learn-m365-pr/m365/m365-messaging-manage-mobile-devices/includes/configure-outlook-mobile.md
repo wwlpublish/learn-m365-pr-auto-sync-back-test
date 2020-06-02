@@ -54,4 +54,4 @@ Once the policy has been created, its settings are pushed to the devices the nex
 
 ## Learn more 
 
-[Managing Outlook for iOS and Android in Exchange Online](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/outlook-for-ios-and-android/manage-outlook-for-ios-and-androidhttps://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/exchange-activesync/exchange-activesync?azure-portal=true) 
+[Managing Outlook for iOS and Android in Exchange Online](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/outlook-for-ios-and-android/manage-outlook-for-ios-and-android?azure-portal=true) 

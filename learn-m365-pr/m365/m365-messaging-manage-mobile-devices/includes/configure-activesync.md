@@ -77,7 +77,7 @@ Set-CASMailbox exchangeadmin@contoso.com -ActiveSyncMailboxPolicy "AdminPolicy"
 
 ## Learn more 
 
-- [Exchange ActiveSync in Exchange Online](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/exchange-activesync/exchange-activesynchttps://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/exchange-activesync/exchange-activesync?azure-portal=true) 
-- [Connect to Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershellhttps://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/exchange-activesync/exchange-activesync?azure-portal=true) 
-- [Set-MobileDeviceMailboxPolicy](https://docs.microsoft.com/powershell/module/exchange/devices/set-mobiledevicemailboxpolicyhttps://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/exchange-activesync/exchange-activesync?azure-portal=true) 
-- [Set-CASMailbox](https://docs.microsoft.com/powershell/module/exchange/client-access/set-casmailboxhttps://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/exchange-activesync/exchange-activesync?azure-portal=true) 
+- [Exchange ActiveSync in Exchange Online](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/exchange-activesync/exchange-activesync?azure-portal=true) 
+- [Connect to Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?azure-portal=true) 
+- [Set-MobileDeviceMailboxPolicy](https://docs.microsoft.com/powershell/module/exchange/devices/set-mobiledevicemailboxpolicy?azure-portal=true) 
+- [Set-CASMailbox](https://docs.microsoft.com/powershell/module/exchange/client-access/set-casmailbox?azure-portal=true) 
