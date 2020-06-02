@@ -1,5 +1,5 @@
 ### YamlMime:Module
-uid: learn-m365.m365-compliance-insider-prepare-communications-compliance
+uid: learn-m365.m365-compliance-insider-prepare-communication-compliance
 metadata:
   title: Prepare communication compliance in Microsoft 365
   description: Communication compliance in Microsoft 365 is a solution that helps organizations address code-of-conduct policy violations in company communications, while also assisting organizations in regulated industries meet specific supervisory compliance requirements. Communication Compliance leverages machine learning to intelligently detect violations across different communication channels such as Microsoft Teams, Exchange Online, or Bloomberg instant messages.
@@ -8,7 +8,7 @@ metadata:
   ms.author: v-erwe
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Prepare communications compliance in Microsoft 365
+title: Prepare communication compliance in Microsoft 365
 summary: Communication compliance in Microsoft 365 is a solution that helps organizations address code-of-conduct policy violations in company communications, while also assisting organizations in regulated industries meet specific supervisory compliance requirements. Communication Compliance leverages machine learning to intelligently detect violations across different communication channels such as Microsoft Teams, Exchange Online, or Bloomberg instant messages.
 abstract: |
   Upon completion of this module, you should be able to: 
@@ -32,13 +32,13 @@ products:
 - m365
 - office-365
 units:
-- learn-m365.m365-compliance-insider-prepare-communications-compliance.introduction
-- learn-m365.m365-compliance-insider-prepare-communications-compliance.identify-resolve
-- learn-m365.m365-compliance-insider-prepare-communications-compliance.introduction-policies
-- learn-m365.m365-compliance-insider-prepare-communications-compliance.knowledge-check
-- learn-m365.m365-compliance-insider-prepare-communications-compliance.case-study
-- learn-m365.m365-compliance-insider-prepare-communications-compliance.investigate-remediate
-- learn-m365.m365-compliance-insider-prepare-communications-compliance.summary-knowledge-check
+- learn-m365.m365-compliance-insider-prepare-communication-compliance.introduction
+- learn-m365.m365-compliance-insider-prepare-communication-compliance.identify-resolve
+- learn-m365.m365-compliance-insider-prepare-communication-compliance.introduction-policies
+- learn-m365.m365-compliance-insider-prepare-communication-compliance.knowledge-check
+- learn-m365.m365-compliance-insider-prepare-communication-compliance.case-study
+- learn-m365.m365-compliance-insider-prepare-communication-compliance.investigate-remediate
+- learn-m365.m365-compliance-insider-prepare-communication-compliance.summary-knowledge-check
 
 badge: 
-  uid: learn-m365.m365-compliance-insider-prepare-communications-compliance.badges
+  uid: learn-m365.m365-compliance-insider-prepare-communication-compliance.badges

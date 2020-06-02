@@ -23,7 +23,7 @@ products:
 - office-365
 modules:
 - learn-m365.m365-compliance-insider-manage-insider-risk
-- learn-m365.m365-compliance-insider-prepare-communications-compliance
+- learn-m365.m365-compliance-insider-prepare-communication-compliance
 - learn-m365.m365-compliance-insider-plan-information-barriers
 - learn-m365.m365-compliance-insider-implement-privileged-access-management
 - learn-m365.m365-compliance-insider-manage-customer-lockbox
