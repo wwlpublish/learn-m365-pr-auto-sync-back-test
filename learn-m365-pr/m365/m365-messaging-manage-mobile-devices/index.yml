@@ -2,24 +2,24 @@
 uid: learn-m365.m365-messaging-manage-mobile-devices
 metadata:
   title: Manage mobile devices in Microsoft 365 and Exchange Online
-  description: Learn how to manage your mobile devices, including mobile authentication, device access, and ActiveSync. 
+  description: Learn how to manage mobile devices in Exchange Online, including mobile authentication, device access, and ActiveSync. 
   ms.date: 04/09/2020
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Manage and configure your mobile devices
-summary: Plan and manage your mobile devices, including mobile authentication, device access, ActiveSync, and Outlook mobile.  
+title: Manage mobile devices in Microsoft 365 and Exchange Online
+summary: Enable and manage mobile users to access Exchange Online in Microsoft 365. Support users of Outlook Mobile on iOS and Android, IMAP and POP clients, and Exchange ActiveSync clients.   
 abstract: |
   At the end of this module, you should be able to:
-  - Explain mobile devices.
+  - Explain mobile devices to access Exchange Online.
   - Describe how mobile authentication works.
-  - Describe how to configure Outlook mobile.
-  - Explain mobile device access.
-  - Explain ActiveSync.
-
+  - Manage access to Exchange Online from Outlook for iOS and Android users.
+  - Support more mobile devices by using Exchange ActiveSync.
+ 
 prerequisites: |
- - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+ - Basic understanding of Microsoft 365. 
+ - Familiarity with Exchange Online, authentication methods
 iconUrl: /learn/achievements/manage-mobile-devices.svg
 levels:
 - intermediate

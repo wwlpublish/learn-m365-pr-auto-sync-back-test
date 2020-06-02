@@ -19,9 +19,7 @@ For devices running an iOS or Android operating system, you can install Outlook 
 
 If your users have devices that don't support Outlook, you can still connect it to Exchange Online by using one of these protocols: 
 
-Designed to support access to your mailbox even when your connection has high latency or low bandwidth.
-
-- **Exchange Active Sync (EAS)** - A Microsoft protocol designed to support mailbox access with high-latency or low-bandwidth connections. Users can synchronize emails, contacts, and calendars. A range of advanced features are included, like setting up automatic responses or follow-up flags. 
+- **Exchange ActiveSync (EAS)** - A Microsoft protocol designed to support mailbox access with high-latency or low-bandwidth connections. Users can synchronize emails, contacts, and calendars. A range of advanced features are included, like setting up automatic responses or follow-up flags. 
 - **IMAP4** - Governed by international standards, this protocol sets a standard way to connect to, and download emails from, a mailbox with multiple folders. Users can't access their calendar or contact information, and there aren't any advanced features like the other protocols or operating systems. 
 - **POP3** This standardized protocol enables a client to download emails from a mailbox with a single folder. Users can't access subfolders, calendars, contacts, or advanced features.
 
@@ -61,7 +59,7 @@ With MDM for Microsoft 365 you can, for example:
 
 ### Mobile device mailbox policies 
 
-Mobile device mailbox policies (formerly known as Exchange Active Sync policies) are used to manage mobile devices that use EAS to access mailboxes in Exchange. Here are a few  examples of the tasks you can do with these policies: 
+Mobile device mailbox policies (formerly known as Exchange ActiveSync policies) are used to manage mobile devices that use EAS to access mailboxes in Exchange. Here are a few  examples of the tasks you can do with these policies: 
 
 - Require a password complexity level and minimum length. 
 - Enable or disable device features such as Bluetooth and wi-fi. 
@@ -72,6 +70,6 @@ Mobile device mailbox policies (formerly known as Exchange Active Sync policies)
 > Although you should use Enterprise Mobility + Security  or MDM to manage Outlook for iOS and Android clients, mobile device mailbox policy settings also apply to Outlook clients. For example, you can use them to impose a minimum password length or require encryption. 
 
 ## Learn more 
-- [Clients and mobile in Exchange Online](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/clients-and-mobile-in-exchange-online) 
-- [Outlook for iOS and Android in Exchange Online](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/outlook-for-ios-and-android/outlook-for-ios-and-android) 
-- [Exchange ActiveSync in Exchange Online](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/exchange-activesync/exchange-activesync) 
+- [Clients and mobile in Exchange Online](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/clients-and-mobile-in-exchange-online?azure-portal=true) 
+- [Outlook for iOS and Android in Exchange Online](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/outlook-for-ios-and-android/outlook-for-ios-and-android?azure-portal=true) 
+- [Exchange ActiveSync in Exchange Online](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/exchange-activesync/exchange-activesync?azure-portal=true) 

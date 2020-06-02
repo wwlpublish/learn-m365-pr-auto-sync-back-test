@@ -5,4 +5,4 @@ Now that you have completed this module, you should be able to:
 - Enable mobile users to access Exchange Online 
 - Describe how mobile authentication works 
 - Manage access to Exchange Online from Outlook for iOS and Android 
-- Support more mobile devices by using Exchange Active Sync List 
+- Support more mobile devices by using Exchange ActiveSync

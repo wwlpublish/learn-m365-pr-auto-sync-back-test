@@ -1,11 +1,11 @@
-If you support legacy clients that use Exchange Active Sync (EAS) to connect to Exchange Online, you should use mobile device mailbox policies to control their access. Let’s examine those policies and how they differ from the policies that you’ve already seen. 
+If you support legacy clients that use Exchange ActiveSync (EAS) to connect to Exchange Online, you should use mobile device mailbox policies to control their access. Let’s examine those policies and how they differ from the policies that you’ve already seen. 
 
 ## What are mobile device mailbox policies? 
 
-Some users may prefer to use their device’s built-in mail app to access their email, or you may have legacy devices that don’t support Outlook for iOS and Android. If you want to enable these clients to synchronize calendar and contact information, as well as emails, you might have to use Exchange Active Sync (EAS). In this case, you can take control of EAS clients by using mobile device mailbox policies. 
+Some users may prefer to use their device’s built-in mail app to access their email, or you may have legacy devices that don’t support Outlook for iOS and Android. If you want to enable these clients to synchronize calendar and contact information, as well as emails, you might have to use Exchange ActiveSync (EAS). In this case, you can take control of EAS clients by using mobile device mailbox policies. 
 
 >[!NOTE] 
-> Mobile device mailbox policies were formally known as Exchange Active Sync policies and were specifically designed to manage EAS clients. These are separate objects from security policies in Mobile Device Management (MDM). 
+> Mobile device mailbox policies were formally known as Exchange ActiveSync policies and were specifically designed to manage EAS clients. These are separate objects from security policies in Mobile Device Management (MDM). 
 
 ## Find out about mobile device mailbox policies 
 
@@ -77,7 +77,7 @@ Set-CASMailbox exchangeadmin@contoso.com -ActiveSyncMailboxPolicy "AdminPolicy"
 
 ## Learn more 
 
-- [Exchange ActiveSync in Exchange Online](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/exchange-activesync/exchange-activesync) 
-- [Connect to Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) 
-- [Set-MobileDeviceMailboxPolicy](https://docs.microsoft.com/powershell/module/exchange/devices/set-mobiledevicemailboxpolicy) 
-- [Set-CASMailbox](https://docs.microsoft.com/powershell/module/exchange/client-access/set-casmailbox) 
+- [Exchange ActiveSync in Exchange Online](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/exchange-activesync/exchange-activesynchttps://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/exchange-activesync/exchange-activesync?azure-portal=true) 
+- [Connect to Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershellhttps://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/exchange-activesync/exchange-activesync?azure-portal=true) 
+- [Set-MobileDeviceMailboxPolicy](https://docs.microsoft.com/powershell/module/exchange/devices/set-mobiledevicemailboxpolicyhttps://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/exchange-activesync/exchange-activesync?azure-portal=true) 
+- [Set-CASMailbox](https://docs.microsoft.com/powershell/module/exchange/client-access/set-casmailboxhttps://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/exchange-activesync/exchange-activesync?azure-portal=true) 
