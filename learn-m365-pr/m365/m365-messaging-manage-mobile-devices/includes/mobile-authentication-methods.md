@@ -6,10 +6,10 @@ When Outlook for iOS or Android connects to Exchange Online, it uses modern auth
 
 In Microsoft 365, user accounts are stored in Azure Active Directory (Azure AD). When Outlook connects to Exchange Online and requests access to a mailbox, Exchange authenticates the user in Azure AD by using one of two methods: 
 
-- **Multi-factor authentication** - The user has to pass two or more tests, such as: 
+- **Multifactor authentication** - The user has to pass two or more tests, such as: 
    - Entering the correct username and password. 
-   - Providing a one-time authentication code that has been sent to their mobile phone in an SMS text or voice call. 
-   - Providing the correct time-limited logon code from the Microsoft Authenticator app on their mobile device. This method can also use other authenticator apps. 
+   - Providing a one-time authentication code that has been sent to their mobile phone as a text message or voice call. 
+   - Providing the correct time-limited code from the Microsoft Authenticator app on their mobile device. This method can also use other authenticator apps. 
 - **Client certificate authentication** - The user is authenticated when they supply a certificate that correctly identifies them, and has been signed by a certificate authority that is trusted by Microsoft 365. 
 
 Once the user is authenticated, Azure AD uses the OAuth protocol to authorize that user to access Exchange. In this protocol, Azure AD issues a digital access token to the client app. When Outlook makes a request to Exchange, it includes this token, which Exchange uses to ensure the user should have access to the mailbox or resource requested.   
