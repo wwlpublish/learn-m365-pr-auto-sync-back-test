@@ -49,6 +49,4 @@ The following diagram illustrates the Customer Lockbox workflow after a customer
     Currently, the maximum period for the access permissions granted to the Microsoft engineer is 4 hours. The Microsoft engineer can also request a shorter period. 
 
 ## Learn more
- - [Microsoft 365 Trust Center](https://www.microsoft.com/trust-center/privacy?azure-portal=true)
- - [Admin roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide?azure-portal=true)
  - [Customer Lockbox frequently asked questions](https://docs.microsoft.com/microsoft-365/compliance/customer-lockbox-requests?view=o365-worldwide#frequently-asked-questions?azure-portal=true)

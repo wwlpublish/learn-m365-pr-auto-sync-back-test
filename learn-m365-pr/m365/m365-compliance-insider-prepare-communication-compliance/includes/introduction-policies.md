@@ -63,11 +63,6 @@ Supervision policies in Microsoft 365 will be fully replaced by the communicatio
 - When transitioning to communication compliance in Microsoft 365, you should plan to export reporting data from supervision in Office 365 if you have internal compliance retention policy requirements.
 
 ## Learn more
-- [What the sensitive information types look for](https://docs.microsoft.com/microsoft-365/compliance/what-the-sensitive-information-types-look-for?view=o365-worldwide?axure-portal=true)
-- [Set up a connector to archive Instant Bloomberg data](https://docs.microsoft.com/microsoft-365/compliance/archive-instant-bloomberg-data?view=o365-worldwide?axure-portal=true)
-- [Set up a connector to archive Facebook data](https://docs.microsoft.com/microsoft-365/compliance/archive-facebook-data-with-sample-connector?view=o365-worldwide?axure-portal=true)
-- [Set up a connector to archive LinkedIn data](https://docs.microsoft.com/microsoft-365/compliance/archive-linkedin-data?view=o365-worldwide?axure-portal=true)
-- [Set up a connector to archive Twitter data](https://docs.microsoft.com/microsoft-365/compliance/archive-twitter-data-with-sample-connector?view=o365-worldwide?axure-portal=true)
 - [Archive third-party data](https://docs.microsoft.com/microsoft-365/compliance/archiving-third-party-data?view=o365-worldwide?axure-portal=true)
 
 

@@ -2,15 +2,15 @@
 Before you can begin creating insider risk policies, there are several requirements that need to be met. 
 
 ### Turn on audit logging
-Insider risk management uses audit logs for user insights and activities configured in policies. The audit logs are a summary of all activities associated with an insider risk management policy or anytime a policy is modified. For step-by-step instructions to turn on auditing, see Turn Office 365 audit log search on or off. After you turn on auditing, a message is displayed that says the audit log is being prepared and that you can run a search in a couple of hours after the preparation is complete. 
+Insider risk management uses audit logs for user insights and activities configured in policies. The audit logs are a summary of all activities associated with an insider risk management policy or anytime a policy is modified. For step-by-step instructions to turn on auditing, see [Turn Office 365 audit log search on or off](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide?azure-portal=true). After you turn on auditing, a message is displayed that says the audit log is being prepared and that you can run a search in a couple of hours after the preparation is complete. 
 ### Assign permissions
 A global administrator will need to assign you and other compliance officers to the **Insider Risk Management** or **Insider Risk Management Admin** role group by using the **Permissions** module in the Microsoft 365 compliance center. Once you have been assigned to one of these roles, you have the ability to assign additional users to specific role groups to manage different sets of insider risk management features. 
 
 Depending on the structure of your compliance management team, you have options to assign users to specific role groups to manage different sets of insider risk management features. You have the ability to choose from the following role group options when configuring insider risk management:
 - **Insider Risk Management.** Use this role group to manage insider risk management for your organization in a single group. By adding all user accounts for designated administrators, analysts, and investigators, you can configure insider risk management permissions in a single group. This role group contains all the insider risk management permission roles. This is the easiest way to quickly get started with insider risk management and is a good fit for organizations that do not need separate permissions defined for separate groups of users.
 - **Insider Risk Management Admin.** Use this role group to initially configure insider risk management and later to segregate insider risk administrators into a defined group. Users in this role group can create, read, update, and delete insider risk management policies, global settings, and role group assignments.
-- **Insider Risk Management Analysts.** Use this group to assign permissions to users that will act as insider risk case analysts. Users in this role group can access to all insider risk management alerts, cases, and notices templates. They cannot access the insider risk Content Explorer.
-- **Insider Risk Management Investigators.** Use this group to assign permissions to users that will act as insider risk data investigators. Users in this role group can access to all insider risk management alerts, cases, notices templates, and the Content Explorer for all cases.
+- **Insider Risk Management Analysts.** Use this group to assign permissions to users that will act as insider risk case analysts. Users in this role group can access all insider risk management alerts, cases, and notices templates. They cannot access the insider risk Content Explorer.
+- **Insider Risk Management Investigators.** Use this group to assign permissions to users that will act as insider risk data investigators. Users in this role group can access all insider risk management alerts, cases, notices templates, and the Content Explorer for all cases.
 ## Potential dependencies
 Two of the insider risk management templates have dependencies that must be configured for policy indicators to generate relevant activity alerts. This step might be optional depending on the policy you plan to configure for your organization.
 ### Departing employee data theft template
@@ -19,7 +19,9 @@ The following requirements must be met before you can set up an HR connector:
 - A global administrator will need to consent to allow the Office 365 Import service to access data in your organization.
 - The user who creates the HR connector will need to be assigned the Mailbox Import Export role in Exchange Online. 
 - You have to have a system in place for retrieving and exporting the data from your organization's HR system and add it to a CSV file.
-  Once the requirements have been met, you can set up your HR connector. Briefly, the steps for creating the connector involve the following:
+  Once the requirements have been met, you can set up your HR connector. 
+  
+  Briefly, the steps for creating the connector involve the following:
   1.  Creating an app in Azure Active Directory.
   1.  Generating the CSV file from your organization’s HR system.
   1. 	Creating an HR connector in the Microsoft 365 compliance center.
@@ -47,11 +49,7 @@ For more information, see [Create an insider risk policy](https://docs.microsoft
 ## Learn more
 - [Compare Microsoft 365 Enterprise Plans](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1?azure-portal=true)
 - [Enable permissions for insider risk management](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-configure?view=o365-worldwide#step-1-required-enable-permissions-for-insider-risk-management?azure-portal=true)
-- [Turn Office 365 audit log search on or off](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide?azure-portal=true)
-- [Set up a connector to import HR data](https://docs.microsoft.com/microsoft-365/compliance/import-hr-data?view=o365-worldwide?azure-portal=true)
 - [Create, test, and tune a DLP policy](https://docs.microsoft.com/microsoft-365/compliance/create-test-tune-dlp-policy?view=o365-worldwide?azure-portal=true)
-- [Create an insider risk management policy](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-configure?view=o365-worldwide#step-5-required-create-an-insider-risk-management-policy?azure-portal=true)
-
 
 
 
