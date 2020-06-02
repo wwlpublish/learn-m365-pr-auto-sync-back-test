@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.m365-compliance-information-governance.protect-your-data
+uid: learn-m365.m365-compliance-info-protection.review-sensitive-data
 title: Protect your data
 metadata:
   title: Protect your data
@@ -12,4 +12,4 @@ metadata:
 
 durationInMinutes: 5
 content: |
-  [!include[](includes/protect-your-data.md)]
+  [!include[](includes/review-sensitive-data.md)]
