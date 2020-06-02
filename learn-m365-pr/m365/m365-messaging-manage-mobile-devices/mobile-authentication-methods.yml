@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.m365-messaging-manage-mobile-devices.mobile-authentication-methods
-title: Configure mobile authentication methods
+title: Authenticate mobile users securely in Exchange Online
 metadata:
-  title: Configure mobile authentication methods
-  description: Plan and manage your mobile devices, including mobile authentication, device access, ActiveSync, and Outlook mobile. 
+  title: Authenticate mobile users securely in Exchange Online
+  description: Learn how about your authentication options for mobile devices in Exchange Online. 
   ms.date: 04/09/2020
   author: AlexandraHrt
   ms.author: v-aleha
