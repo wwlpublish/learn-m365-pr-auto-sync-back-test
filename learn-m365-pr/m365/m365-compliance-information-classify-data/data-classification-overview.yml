@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.m365-compliance-info-protection.data-classification-overview
+uid: learn-m365.m365-compliance-information-classify-data.data-classification-overview
 title: Data classification overview
 metadata:
-  title: Govern your data
+  title: Data classification overview
   description: Learn about the information available to help you understand your data landscape and know your data.
   ms.date: 06/05/2020
   author: ericweisberg
