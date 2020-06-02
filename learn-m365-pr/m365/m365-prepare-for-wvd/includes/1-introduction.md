@@ -1,4 +1,4 @@
-Before you can deploy your first Windows Virtual Desktop virtual machines (VMs), there are some prerequisite steps to take care of in the Microsoft Azure portal. You also need to connect to your existing directory service. We’ll go through the exact steps and PowerShell cmdlets you need to get your environment ready for Windows Virtual Desktop. 
+Before you can deploy your first Windows Virtual Desktop virtual machines (VMs), there are some prerequisite steps to take care of in the Azure portal. You also need to connect to your existing directory service. We’ll discuss the steps you'll need to do to get your environment ready for Windows Virtual Desktop. 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3Jhf9]
 
