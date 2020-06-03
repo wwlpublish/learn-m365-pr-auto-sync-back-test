@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.prepare-for-wvd.introduction
-title: Prepare your environment for Windows Virtual Desktop
+title: Introduction
 metadata:
-  title: Prepare your environment for Windows Virtual Desktop
+  title: Introduction
   description: Review the preparation needed for Windows Virtual Desktop.
-  ms.date: 08/14/2019
+  ms.date: 06/02/2020
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 10
 content: |
-  [!include[](includes/introduction.md)]
+  [!include[](includes/1-introduction.md)]
