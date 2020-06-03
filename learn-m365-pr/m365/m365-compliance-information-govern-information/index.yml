@@ -33,10 +33,10 @@ products:
 - office-365
 units:
 - learn-m365.m365-compliance-information-govern-information.information-governance-overview
-- learn-m365.m365-compliance-information-govern-information.configure-rentention-policies
-- learn-m365.m365-compliance-information-govern-information.configure-rentention-labels
-- learn-m365.m365-compliance-information-govern-information.configure-manual-rentention-policies
-- learn-m365.m365-compliance-information-govern-information.configure-auto-apply-rentention-policies
+- learn-m365.m365-compliance-information-govern-information.configure-retention-policies
+- learn-m365.m365-compliance-information-govern-information.configure-retention-labels
+- learn-m365.m365-compliance-information-govern-information.configure-manual-retention-policies
+- learn-m365.m365-compliance-information-govern-information.configure-auto-apply-retention-policies
 - learn-m365.m365-compliance-information-govern-information.configure-import-data
 - learn-m365.m365-compliance-information-govern-information.manage-monitor-remediate
 - learn-m365.m365-compliance-information-govern-information.summary-knowledge-check
