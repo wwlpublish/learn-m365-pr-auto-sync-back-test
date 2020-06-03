@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-compliance-information-transition-to-microsoft-information-protection.transition-from-azure
+title: Transition from Azure Information Protection to Microsoft Information Protection
+metadata:
+  title: Transition from Azure Information Protection to Microsoft Information Protection
+  description: Learn the key considerations for transitioning your organization from using Azure Information Protection to Microsoft Information Protection. 
+  ms.date: 06/05/2020
+  author: ericweisberg
+  ms.author: v-erwe
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+
+durationInMinutes: 5
+content: |
+  [!include[](includes/transition-from-azure.md)]
