@@ -16,9 +16,9 @@ Whenever there is a security incident, Microsoft 365 strives to respond quickly 
 
 ## Federated incident response at Microsoft ##
 
-To effectively respond to security incidents, Microsoft employs a federated security incident response model. All major Online Service Teams, such as Exchange Online, SharePoint Online, Microsoft Teams, and Azure Active Directory, have dedicated security teams with specialized engineering skills. At the same time, each team adheres to a shared incident management process, shared definitions, and shared training to provide consistency across all Online Services.
+To effectively respond to security incidents, Microsoft employs a federated security incident response model. All major Online service teams, such as Exchange Online, SharePoint Online, Microsoft Teams, and Azure Active Directory, have dedicated security teams with specialized engineering skills. At the same time, each team adheres to a shared incident management process, shared definitions, and shared training to provide consistency across all Online Services.
 
-The Microsoft 365 Security Response team provides Service Teams with centralized security expertise and incident response guidance as part of our federated security response model. Depending on the nature of the incident, the Microsoft 365 Security Response team and Service Teams may engage security partners and subject matter experts from other organizations within Microsoft for investigative assistance, such as:
+The Microsoft 365 Security Response team provides service teams with centralized security expertise and incident response guidance as part of our federated security response model. Depending on the nature of the incident, the Microsoft 365 Security Response team and service teams may engage security partners and subject matter experts from other organizations within Microsoft for investigative assistance, such as:
 
 - Microsoft Threat Intelligence Center – for investigative support and threat intelligence support
 - Microsoft Core Engineering Digital Security & Risk Engineering – for investigative assistance with incidents involving Microsoft corporate assets and networks
@@ -30,7 +30,7 @@ The Microsoft 365 Security Response team provides Service Teams with centralized
 
 ## Incident response in Microsoft 365 ##
 
-Within Microsoft 365, responsibilities for security incident response are shared between the Microsoft 365 Security Response team and each Microsoft 365 Service Team. The Microsoft 365 Security Response team coordinates with Service Teams to implement our enterprise-wide incident response strategy while leveraging Service Team expertise.
+Within Microsoft 365, responsibilities for security incident response are shared between the Microsoft 365 Security Response team and each Microsoft 365 service team. The Microsoft 365 Security Response team coordinates with service teams to implement our enterprise-wide incident response strategy while leveraging service team expertise.
 
 Our incident response strategy, which is based on the NIST 800-61 response management phases, proceeds through four phases of interconnected activity: preparation; detection and analysis; containment, eradication, and recovery; and post-incident activity.
 

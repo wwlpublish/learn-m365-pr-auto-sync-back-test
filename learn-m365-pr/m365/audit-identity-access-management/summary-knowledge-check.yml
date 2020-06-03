@@ -15,11 +15,11 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "When privileged access is approved through Lockbox, the Service Team engineer is granted the following access:"
+    - content: "When privileged access is approved through Lockbox, the service team engineer is granted the following access:"
       choices:
       - content: "Just-In-Time"
         isCorrect: true
-        explanation: "Correct. When a Service Team engineer requires privileged access, Lockbox can be used to request limited, time-bound access to specific resources."
+        explanation: "Correct. When a service team engineer requires privileged access, Lockbox can be used to request limited, time-bound access to specific resources."
       - content: "Standing access"
         isCorrect: false
         explanation: "Lockbox is only used to grant Just-In-Time access with Just-Enough-Access for the required task. No Microsoft personnel have standing privileged access to Microsoft 365 systems, and Lockbox cannot be used to grant standing access. "
@@ -27,17 +27,17 @@ quiz:
         isCorrect: false
         explanation: "Only individual service team accounts can request JIT access through Lockbox. Group access is not possible, and shared accounts are prohibited at Microsoft."
       
-    - content: "When a Customer Lockbox request is approved by the organization, what is the maximum allowed period for access permissions granted to the Service Team engineer?"
+    - content: "When a Customer Lockbox request is approved by the organization, what is the maximum allowed period for access permissions granted to the service team engineer?"
       choices:
       - content: "4 hours"
         isCorrect: true
-        explanation: "Correct. Currently, the maximum allowed period for the access permissions granted to the Service Team engineer is 4 hours. The engineer can also request a shorter period."
+        explanation: "Correct. Currently, the maximum allowed period for the access permissions granted to the service team engineer is 4 hours. The engineer can also request a shorter period."
       - content: "8 hours"
         isCorrect: false
-        explanation: "Currently, the maximum allowed period for the access permissions granted to the Service Team engineer is 4 hours. The engineer can also request a shorter period."
+        explanation: "Currently, the maximum allowed period for the access permissions granted to the service team engineer is 4 hours. The engineer can also request a shorter period."
       - content: "24 hours"
         isCorrect: false
-        explanation: "Currently, the maximum allowed period for the access permissions granted to the Service Team engineer is 4 hours. The engineer can also request a shorter period."
+        explanation: "Currently, the maximum allowed period for the access permissions granted to the service team engineer is 4 hours. The engineer can also request a shorter period."
       
     - content: "What kinds of accounts do Microsoft personnel use to manage Microsoft 365 Services?"
       choices:
