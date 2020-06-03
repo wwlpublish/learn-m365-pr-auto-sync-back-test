@@ -20,6 +20,7 @@ To create Azure resources:
 - [Quickstart: Create a virtual network using the Azure portal](https://docs.microsoft.com/azure/virtual-network/quick-create-portal)
 - [Manage Azure Resource Manager resource groups by using the Azure portal](https://docs.microsoft.com/azure/azure-resource-manager/management/manage-resource-groups-portal)
 - [Create an Azure Storage account](https://docs.microsoft.com/azure/storage/common/storage-account-create?tabs=azure-portal)
+- [Use Azure Firewall to protect Window Virtual Desktop deployments](https://docs.microsoft.com/azure/firewall/protect-windows-virtual-desktop)
 
 To manage identities in Azure:
 
