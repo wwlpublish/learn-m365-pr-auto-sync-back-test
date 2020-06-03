@@ -27,6 +27,7 @@ units:
 - learn-m365.prepare-for-wvd.wvd-provision-azure
 - learn-m365.prepare-for-wvd.integrate-aad-adds
 - learn-m365.prepare-for-wvd.provision-aad-roles
+- learn-m365.prepare-for-wvd.register-provider
 - learn-m365.prepare-for-wvd.knowledge-check
 - learn-m365.prepare-for-wvd.summary-and-knowledge-check
 badge: 

@@ -6,16 +6,11 @@ We’ll use Azure AD in several of the steps to prepare for Windows Virtual Desk
 
 ## Get Azure Active Directory tenant
 
-To get started with Windows Virtual Desktop, you need access to a Azure AD tenant environment with billing configured.
+To get started with Windows Virtual Desktop, you need access to a Azure AD tenant environment with an account that has Azure subscription.
 
-- **Microsoft 365** - If you’re using any Microsoft 365 services, you already have a tenant you can use. Just sign in to the Azure portal using the credentials for your tenant. You can add the additional compute, storage, and networking services that you’ll need for Windows Virtual Desktop. Be aware that these Azure services are billed separately from Microsoft 365.<!--This info seems to conflict with the info in paragraph below. Are we saying not included in the costs below but can add...-->
+- **Microsoft 365** - If you’re using any Microsoft 365 services, you already have a tenant you can use. Just sign in to the Azure portal using the credentials for your tenant. You can add the additional compute, storage, and networking services that you’ll need for Windows Virtual Desktop. Be aware that you'll need to create an Azure subscription as these Azure services are billed separately from Microsoft 365.
 
-- **New tenant** - If you don't have a tenant you can use to set up Windows Virtual Desktop, sign up for one at https://azure.microsoft.com.
+- **New tenant** - If you don't have a tenant or subscription that you can use to set up Windows Virtual Desktop, sign up for one at https://azure.microsoft.com.
 
 - **Trial environment** - For a smaller Windows Virtual Desktop test environment, you may be able to use a trial environment to save costs. Many of the services required to get Windows Virtual Desktop running aren't included with Microsoft 365 like storage accounts, and virtual machines. Create a [free Azure account](https://azure.microsoft.com/free/?azure-portal=true).
-
-<!--
-Also if you use Windows Server Active Directory, you'll need to sync to Azure Active Directory (Azure AD) by configuring either Azure AD Connect or Azure Active Directory Domain Services (AD DS).  How does trial play into using AD DS - I think this goes into intro mod on prereqs-->
-
-
 

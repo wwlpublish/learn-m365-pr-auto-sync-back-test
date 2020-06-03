@@ -8,12 +8,17 @@ In this module, you learned how to prepare your environment for Windows Virtual 
   - Storage account
 - Assign administrator roles
 - Assign licenses to Windows Virtual Desktop users
+- Register the DesktopVirtualization provider with your subscription
 
 Go to the next module in the Windows Virtual Desktop learning path to learn how to deploy Windows Virtual Desktop.
 
 ## Learn more
 
-Learn more about the tasks covered in this module. 
+Learn more about the tasks covered in this module.
+
+To get an Azure subscription:
+
+- [Sign up for an Azure subscription with your Office 365 account](https://docs.microsoft.com/azure/cost-management-billing/manage/office-365-account-for-azure-subscription)
 
 To create Azure resources:
 
