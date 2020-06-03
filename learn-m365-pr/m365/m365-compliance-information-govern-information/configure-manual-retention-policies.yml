@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-compliance-information-govern-information.configure-manual-retention-policies
+title: Configure manual retention label policies
+metadata:
+  title: Configure manual retention label policies
+  description: Learn how to manage your content lifecycle using solutions to import, store, and classify business-critical data so you can keep what you need and delete what you don't. 
+  ms.date: 06/05/2020
+  author: ericweisberg
+  ms.author: v-erwe
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+
+durationInMinutes: 5
+content: |
+  [!include[](includes/configure-manual-retention-policies.md)]
