@@ -18,6 +18,7 @@ Learn more about the tasks covered in this module.
 
 To get an Azure subscription:
 
+- [Create an Azure account](https://azure.microsoft.com/free/)
 - [Sign up for an Azure subscription with your Office 365 account](https://docs.microsoft.com/azure/cost-management-billing/manage/office-365-account-for-azure-subscription)
 
 To create Azure resources:
