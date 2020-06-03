@@ -34,7 +34,7 @@ products:
 units:
 - learn-m365.m365-compliance-information-manage-records.records-management-overview
 - learn-m365.m365-compliance-information-manage-records.import-file-plan
-- learn-m365.m365-compliance-information-manage-records.configure-retention-records
+- learn-m365.m365-compliance-information-manage-records.configure-retention-labels
 - learn-m365.m365-compliance-information-manage-records.configure-event-driven-retention
 - learn-m365.m365-compliance-information-manage-records.manage-monitor-remediate
 - learn-m365.m365-compliance-information-manage-records.summary-knowledge-check
