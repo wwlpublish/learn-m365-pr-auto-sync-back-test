@@ -1,0 +1,54 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-compliance-info-protection-prevent-data-loss.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Learn how to detect sensitive content as it's used and shared throughout your organization, in the cloud and on devices, and help prevent accidental data loss. 
+  ms.date: 06/15/2020
+  author: ericweisberg
+  ms.author: v-erwe
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+ 
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Question here"
+      choices:
+      - content: "Choice 1"
+        isCorrect: false
+        explanation: "explanation"
+      - content: "Choice 2"
+        isCorrect: false
+        explanation: "explanation"
+      - content: "Choice 3"
+        isCorrect: true
+        explanation: "explanation"
+
+    - content: "Question here"
+      choices:
+      - content: "Choice 1"
+        isCorrect: false
+        explanation: "explanation"
+      - content: "Choice 2"
+        isCorrect: false
+        explanation: "explanation"
+      - content: "Choice 3"
+        isCorrect: true
+        explanation: "explanation"
+      
+    - content: "Question here"
+      choices:
+      - content: "Choice 1"
+        isCorrect: false
+        explanation: "explanation"
+      - content: "Choice 2"
+        isCorrect: false
+        explanation: "explanation"
+      - content: "Choice 3"
+        isCorrect: true
+        explanation: "explanation"
+      

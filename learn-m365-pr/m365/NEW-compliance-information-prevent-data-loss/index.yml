@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn-m365.m365-compliance-info-protection-prevent-data-loss
+metadata:
+  title: Protect information in Microsoft 365
+  description: Learn how to discover, classify, and protect sensitive and business-critical content throughout its lifecycle across your organization. 
+  ms.date: 06/05/2020
+  author: ericweisberg
+  ms.author: v-erwe
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Protect information in Microsoft 365
+summary: Learn how Microsoft 365 information protection and governance solutions help you protect and govern your data, throughout its lifecycle – wherever it lives, or wherever it travels. 
+abstract: |
+  Upon completion of this module, you should be able to: 
+  -     Discuss the information protection solution and its benefits.
+  -     List the customer scenarios the information protection solution addresses.
+  -     Describe the information protection configuration process.
+  -     Explain what users will experience when the solution is implemented.
+  -     Articulate deployment and adoption best practices.
+
+  prerequisites: | 
+   - Cloud computing concepts. If you are unfamiliar with this topic, we recommend you take [Cloud Concepts - Principles of cloud computing](https://docs.microsoft.com/learn/modules/principles-cloud-computing/)
+   - Microsoft 365 product and services. If you are unfamiliar this with topic, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+
+iconUrl: http://via.placeholder.com/120x120
+ratingEnabled: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-365
+units:
+- learn-m365.m365-compliance-info-protection-prevent-data-loss.data-loss-prevention-overview
+- learn-m365.m365-compliance-info-protection-prevent-data-loss.configure-data-loss-prevention-policy
+- learn-m365.m365-compliance-info-protection-prevent-data-loss.manage-monitor-remediate
+- learn-m365.m365-compliance-info-protection-prevent-data-loss.summary-knowledge-check
+
+badge: 
+  uid: learn-m365.m365-compliance-information-governance.badges
