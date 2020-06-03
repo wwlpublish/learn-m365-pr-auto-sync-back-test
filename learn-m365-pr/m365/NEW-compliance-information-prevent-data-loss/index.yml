@@ -1,15 +1,15 @@
 ### YamlMime:Module
 uid: learn-m365.m365-compliance-info-protection-prevent-data-loss
 metadata:
-  title: Protect information in Microsoft 365
+  title: Prevent data loss in Microsoft 365
   description: Learn how to discover, classify, and protect sensitive and business-critical content throughout its lifecycle across your organization. 
   ms.date: 06/05/2020
   author: ericweisberg
   ms.author: v-erwe
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Protect information in Microsoft 365
-summary: Learn how Microsoft 365 information protection and governance solutions help you protect and govern your data, throughout its lifecycle – wherever it lives, or wherever it travels. 
+title: Prevent data loss in Microsoft 365
+summary: Learn how to discover, classify, and protect sensitive and business-critical content throughout its lifecycle across your organization. 
 abstract: |
   Upon completion of this module, you should be able to: 
   -     Discuss the information protection solution and its benefits.
@@ -38,4 +38,4 @@ units:
 - learn-m365.m365-compliance-info-protection-prevent-data-loss.summary-knowledge-check
 
 badge: 
-  uid: learn-m365.m365-compliance-information-governance.badges
+  uid: learn-m365.m365-compliance-info-protection-prevent-data-loss.badges
