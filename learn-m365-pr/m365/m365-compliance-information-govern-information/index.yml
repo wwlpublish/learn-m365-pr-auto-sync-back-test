@@ -1,0 +1,45 @@
+### YamlMime:Module
+uid: learn-m365.m365-compliance-information-govern-information
+metadata:
+  title: Prevent data loss in Microsoft 365
+  description:  Learn how to manage your content lifecycle using solutions to import, store, and classify business-critical data so you can keep what you need and delete what you don't. 
+  ms.date: 06/05/2020
+  author: ericweisberg
+  ms.author: v-erwe
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Prevent data loss in Microsoft 365
+summary:  Learn how to manage your content lifecycle using solutions to import, store, and classify business-critical data so you can keep what you need and delete what you don't. 
+abstract: |
+  Upon completion of this module, you should be able to: 
+  -     Discuss the information governance solution and its benefits.
+  -     List the customer scenarios the information governance solution addresses. 
+  -     Describe the information governance configuration process. 
+  -     Explain what users will experience when the solution is implemented.
+  -     Articulate deployment and adoption best practices. 
+
+  prerequisites: | 
+   - Cloud computing concepts. If you are unfamiliar with this topic, we recommend you take [Cloud Concepts - Principles of cloud computing](https://docs.microsoft.com/learn/modules/principles-cloud-computing/)
+   - Microsoft 365 product and services. If you are unfamiliar this with topic, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+
+iconUrl: http://via.placeholder.com/120x120
+ratingEnabled: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-365
+units:
+- learn-m365.m365-compliance-information-govern-information.information-governance-overview
+- learn-m365.m365-compliance-information-govern-information.configure-rentention-policies
+- learn-m365.m365-compliance-information-govern-information.configure-rentention-labels
+- learn-m365.m365-compliance-information-govern-information.configure-manual-rentention-policies
+- learn-m365.m365-compliance-information-govern-information.configure-auto-apply-rentention-label-policies
+- learn-m365.m365-compliance-information-govern-information.configure-import-data
+- learn-m365.m365-compliance-information-govern-information.manage-monitor-remediate
+- learn-m365.m365-compliance-information-govern-information.summary-knowledge-check
+
+badge: 
+  uid: learn-m365.m365-compliance-information-govern-information.badges
