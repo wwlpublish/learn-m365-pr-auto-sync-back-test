@@ -19,7 +19,7 @@ quiz:
       choices:
       - content: "Containment, eradication, and recovery"
         isCorrect: true
-        explanation: "During this phase, the attacker and all affected services and tenants are identified, and the Microsoft 365 Security Response team coordinates with affected Service Teams to limit damage, remove the threat, and mitigate any related vulnerabilities."
+        explanation: "During this phase, the attacker and all affected services and tenants are identified, and the Microsoft 365 Security Response team coordinates with affected service teams to limit damage, remove the threat, and mitigate any related vulnerabilities."
       - content: "Detection and analysis"
         isCorrect: false
         explanation: "The detection and analysis phase focuses on detecting potential incidents and performing an initial analysis to determine the incident’s scope."
@@ -39,7 +39,7 @@ quiz:
         isCorrect: false
         explanation: "Microsoft’s Security Incident Notification obligation is clearly described in the Microsoft Online Services Data Protection Addendum."
      
-    - content: "Depending on the nature of the incident, the Microsoft 365 Security Response team and Service Teams may engage security partners and subject matter experts from other organizations within Microsoft for investigative assistance. Which team do they work with for support on externally reported vulnerabilities?"
+    - content: "Depending on the nature of the incident, the Microsoft 365 Security Response team and service teams may engage security partners and subject matter experts from other organizations within Microsoft for investigative assistance. Which team do they work with for support on externally reported vulnerabilities?"
       choices:
       - content: "Microsoft Core Engineering Digital Security & Risk Engineering"
         isCorrect: false

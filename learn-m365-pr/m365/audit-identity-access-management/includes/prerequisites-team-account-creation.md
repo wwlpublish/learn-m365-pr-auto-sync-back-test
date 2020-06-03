@@ -1,8 +1,8 @@
-Now that you understand various tools and technologies Microsoft 365 uses to enforce access control, let’s discuss how service team accounts are created. The environment for Microsoft 365 Services is segregated from the Microsoft Corporate environment. This means Microsoft Corporate environment user accounts do not provide any access to the Microsoft 365 Services environment. Service team accounts are only created for personnel whose job responsibilities require access to the production environment to manage Microsoft 365 Services. In addition, service team accounts cannot be created without first meeting the eligibility requirements outlined in this unit.
+Now that you understand various tools and technologies Microsoft 365 uses to enforce access control, let’s discuss how service team accounts are created. The environment for Microsoft 365 Services is segregated from the Microsoft Corporate environment. This means Microsoft Corporate environment user accounts do not provide any access to the Microsoft 365 Services environment. service team accounts are only created for personnel whose job responsibilities require access to the production environment to manage Microsoft 365 Services. In addition, service team accounts cannot be created without first meeting the eligibility requirements outlined in this unit.
 
-When an engineer is assigned to a Service Team to support production services, they request eligibility for a service team account through the Identity Management Tool (IDM). The request for eligibility triggers a series of personnel checks to ensure the engineer has passed all screening requirements, completed necessary training, and received appropriate management approval prior to account creation. Only after meeting all eligibility requirements can a service team account be created for the requested environment.
+When an engineer is assigned to a service team to support production services, they request eligibility for a service team account through the Identity Management Tool (IDM). The request for eligibility triggers a series of personnel checks to ensure the engineer has passed all screening requirements, completed necessary training, and received appropriate management approval prior to account creation. Only after meeting all eligibility requirements can a service team account be created for the requested environment.
 
-![A workflow diagram, starting with Microsoft Service Engineer joining the Service Team. They must go through personnel screening and role-based training in order to be eligible to request for Service Team Account. After authorized manager's approval, the account is created.](../media/process-account-creation.png)
+![A workflow diagram, starting with Microsoft Service Engineer joining the service team. They must go through personnel screening and role-based training in order to be eligible to request for service team Account. After authorized manager's approval, the account is created.](../media/process-account-creation.png)
 
 ## Personnel screening ##
 
@@ -24,7 +24,7 @@ IDM enforces personnel screening requirements and denies service team account el
 
 ## Training ##
 
-Each engineer working on Microsoft 365 Service Teams is provided with training appropriate to their role. Initial training occurs when a new employee begins working at Microsoft, and annual refresher training takes place every year thereafter. The training is designed to provide the employee with an understanding of Microsoft’s fundamental approach to security.
+Each engineer working on Microsoft 365 service teams is provided with training appropriate to their role. Initial training occurs when a new employee begins working at Microsoft, and annual refresher training takes place every year thereafter. The training is designed to provide the employee with an understanding of Microsoft’s fundamental approach to security.
 
 Training requirements are enforced by IDM. Failure to complete required training prevents eligibility for new service team accounts and automatically disables existing service team accounts.
 
