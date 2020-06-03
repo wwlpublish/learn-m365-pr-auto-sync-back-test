@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.m365-compliance-info-protection-protect-information.auto-labeling-policies
+uid: learn-m365.m365-compliance-info-protection-protect-information.configure-auto-labeling-policies
 title: Configure auto-labeling policies
 metadata:
   title: Configure auto-labeling policies
@@ -12,4 +12,4 @@ metadata:
 
 durationInMinutes: 5
 content: |
-  [!include[](includes/auto-labeling-policies.md)]
+  [!include[](includes/configure-auto-labeling-policies.md)]

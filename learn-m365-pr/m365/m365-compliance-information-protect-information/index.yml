@@ -33,7 +33,9 @@ products:
 - office-365
 units:
 - learn-m365.m365-compliance-info-protection-protect-information.data-loss-prevention-overview
-- learn-m365.m365-compliance-info-protection-protect-information.configure-data-loss-prevention-policies
+- learn-m365.m365-compliance-info-protection-protect-information.configure-sensitivity-labels
+- learn-m365.m365-compliance-info-protection-protect-information.configure-sensitivity-label-policies
+- learn-m365.m365-compliance-info-protection-protect-information.configure-auto-labeling-policies
 - learn-m365.m365-compliance-info-protection-protect-information.manage-monitor-remediate
 - learn-m365.m365-compliance-info-protection-protect-information.summary-knowledge-check
 
