@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.m365-compliance-information-govern-information.configure-auto-apply-retention-label-policies
+uid: learn-m365.m365-compliance-information-govern-information.configure-auto-apply-retention-policies
 title: Configure auto-apply retention label policies
 metadata:
   title: Configure auto-apply retention label policies
@@ -12,4 +12,4 @@ metadata:
 
 durationInMinutes: 5
 content: |
-  [!include[](includes/configure-auto-apply-retention-label-policies.md)]
+  [!include[](includes/configure-auto-apply-retention-policies.md)]
