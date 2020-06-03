@@ -1,5 +1,5 @@
 ### YamlMime:Module
-uid: learn-m365.m365-compliance-info-protection-protect-information
+uid: learn-m365.m365-compliance-information-protect-information
 metadata:
   title: Protect information in Microsoft 365
   description:  Learn how to detect sensitive content as it's used and shared throughout your organization, in the cloud and on devices, and help prevent accidental data loss. 
@@ -32,12 +32,12 @@ products:
 - m365
 - office-365
 units:
-- learn-m365.m365-compliance-info-protection-protect-information.information-protection-overview
-- learn-m365.m365-compliance-info-protection-protect-information.configure-sensitivity-labels
-- learn-m365.m365-compliance-info-protection-protect-information.configure-sensitivity-label-policies
-- learn-m365.m365-compliance-info-protection-protect-information.configure-auto-labeling-policies
-- learn-m365.m365-compliance-info-protection-protect-information.manage-monitor-remediate
-- learn-m365.m365-compliance-info-protection-protect-information.summary-knowledge-check
+- learn-m365.m365-compliance-information-protect-information.information-protection-overview
+- learn-m365.m365-compliance-information-protect-information.configure-sensitivity-labels
+- learn-m365.m365-compliance-information-protect-information.configure-sensitivity-label-policies
+- learn-m365.m365-compliance-information-protect-information.configure-auto-labeling-policies
+- learn-m365.m365-compliance-information-protect-information.manage-monitor-remediate
+- learn-m365.m365-compliance-information-protect-information.summary-knowledge-check
 
 badge: 
-  uid: learn-m365.m365-compliance-info-protection-protect-information.badges
+  uid: learn-m365.m365-compliance-information-protect-information.badges
