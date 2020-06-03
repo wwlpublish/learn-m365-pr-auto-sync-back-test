@@ -32,7 +32,7 @@ products:
 - m365
 - office-365
 units:
-- learn-m365.m365-compliance-info-protection-protect-information.data-information-protection-overview
+- learn-m365.m365-compliance-info-protection-protect-information.information-protection-overview
 - learn-m365.m365-compliance-info-protection-protect-information.configure-sensitivity-labels
 - learn-m365.m365-compliance-info-protection-protect-information.configure-sensitivity-label-policies
 - learn-m365.m365-compliance-info-protection-protect-information.configure-auto-labeling-policies
