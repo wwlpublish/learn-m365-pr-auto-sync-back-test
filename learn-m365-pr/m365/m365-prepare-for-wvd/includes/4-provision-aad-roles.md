@@ -2,7 +2,7 @@ After you establish your network and directory connections, you can provision th
 
 ## Create Azure resources
 
-When you go to provision a Windows Virtual Desktop, you can create a new resource group to contain its resources. But you'll need other resources before you can provision Windows Virtual Desktop. You'll need to enter a virtual network, domain information, and domain-join credentials. As part of your prepartion, create the following resources in Azure:
+When you go to provision a Windows Virtual Desktop, you can create a new resource group to contain its resources. But you'll need other resources before you can provision Windows Virtual Desktop. You'll need to enter a virtual network, domain information, and domain-join credentials. As part of your preparation, create the following resources in Azure:
 
 - **Resource group** - One or more resource groups to contain and group Azure resources.
 - **Virtual network** - A Virtual network is needed for the host pool provisioning process, which is part of the Windows Virtual Desktop deployment. The virtual network must be connected to your domain and allow outbound access to the following URLs that support Windows Virtual Desktop:

@@ -1,4 +1,4 @@
-Now that you have Azure Active Directory (Azure AD) set up, you need to intergrate it with your on-premises Active Directory.
+Now that you have Azure Active Directory (Azure AD) set up, you need to integrate it with your on-premises Active Directory.
 
 ## Configure a consistent sign-in experience
 

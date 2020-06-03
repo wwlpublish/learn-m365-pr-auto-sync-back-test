@@ -2,7 +2,7 @@ Before you can deploy your first Windows Virtual Desktop virtual machines (VMs),
 
 The following video gives you an overview of the steps involved. But note that some of the specific steps to prepare for Windows Virtual Desktop are simplified since the video was created. You no longer need to:
 
-- Assign the Windows Virtual Desktop tenant creator role. You use the Global Adminstrator role to provision the Windows Virtual Desktop service and a organizational ID to join the VMs to the domain.
+- Assign the Windows Virtual Desktop tenant creator role. You use the Global Administrator role to provision the Windows Virtual Desktop service and an organizational ID to join the VMs to the domain.
 - Authorize Windows Virtual Desktop for Azure Active Directory access. Instead, you register the Windows Virtual Desktop provider with the subscription.
 
 We'll cover those changes and the key points from the video in the following units.
