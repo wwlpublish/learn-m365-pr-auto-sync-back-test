@@ -18,7 +18,7 @@ Here are few points to consider:
 - More than 80% of corporate data is "dark", meaning it is not classified, protected, or governed.
 - Protecting and governing sensitive data is the biggest concern in complying with regulations.
  
-   ![Discovering and managing data is challenging](../media/discovering-managing-data-is-challenging.png) 
+   ![Discovery and managing data is challenging](../media/discovery-managing-data-is-challenging.png) 
 
 ## Defining an information and protection strategy
 Does your organization have a strategy to detect, manage and protect sensitive information across your digital estate? One of the first questions our customers ask when discussing information protection and governance goes something like this: "How can I implement a strategy for protecting and managing sensitive information?" 
