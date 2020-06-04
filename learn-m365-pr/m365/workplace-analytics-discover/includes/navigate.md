@@ -58,9 +58,9 @@ The six available dashboards are:
 
 The data that populates the Explore dashboards reflects a rolling six-month window. With each weekly refresh, the six months of data populating the dashboards advances by one week.
 
-|   |   |
-|---|---|
-| !(Click on Settings and filters)(../media/settings-filters.png)  |  Within the Explore dashboards, you have the option to filter the data. In the upper right corner of the browser, you can click on **Settings and filters** which will open the **Page settings**. In Page settings, you can adjust the date range of the data, change how measured employees are grouped, add additional filters, and choose the maximum number of groups you’d like to see in the output. |
+Within the Explore dashboards, you have the option to filter the data. In the upper right corner of the browser, you can click on **Settings and filters** which will open the **Page settings**. In Page settings, you can adjust the date range of the data, change how measured employees are grouped, add additional filters, and choose the maximum number of groups you’d like to see in the output.
+
+![Click on Settings and filters](../media/settings-filters.png)
 
 Explore dashboards in Workplace Analytics are powerful tools to gain quick insights for the measured employees in your organization. Use the Explore dashboards for a high-level look at collaboration behavior in your organization, or to identify areas for further analysis.
 
@@ -112,7 +112,7 @@ Once you’ve made these selections, follow the four steps below to further refi
 
 **Step 3. Select organizational data**. You have the option to select which organizational attributes you’d like to include in your output.
 
-!(Step 3 is select organziational data](../media/step-3-organizational-data.png)
+![Step 3 is select organizational data](../media/step-3-organizational-data.png)
 
 **Step 4. Run the query**. You can access your query results by clicking the **Results** link on the Queries page. You have the option of viewing your results or everyone else’s. This page is where you can download the data in a csv format, copy the OData link to load the data into business intelligence applications, and for some queries, open a visualization to analyze within Workplace Analytics.
 

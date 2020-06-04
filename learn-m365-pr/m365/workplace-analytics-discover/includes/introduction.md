@@ -1,6 +1,6 @@
 There are multiple ways to measure business outcomes, but how do you measure the day-to-day actions that got you there? Collaboration is a key component of knowledge worker success, but what does “good” look like? Identifying organizational behaviors and connecting them to employee engagement, efficiency, and success outcomes are key. 
 
-![Collaboration between people](../media/collaboration-people1.png)
+![Collaboration between people](../media/collaboration-people-1.png)
 
 Knowledge workers work through networks, interacting with coworkers, and leaders. But how can we measure this? One way is with Office 365 data. Signals from meetings, email, calls, and messaging activities are captured to form the largest data set ever created on how people spend time at work, providing a rich data source on interactions and how much time employees spend with each other.
 
@@ -31,7 +31,7 @@ You can analyze behaviors such as:
 
 Combining Workplace Analytics output with organizational context and other relevant data (such as employee engagement scores, performance ratings, and other business outcomes), enables you to pinpoint which specific behaviors result in success in these areas.
 
-![More collaboration between people](../media/collaboration-people2.png)
+![More collaboration between people](../media/collaboration-people-2.png)
 
 Workplace Analytics harnesses these insights and enables you to help create whole new levels of engagement and productivity for employees in your organization, providing decision-makers with a powerful tool to identify business, and cultural opportunities to effectively execute change.
 
