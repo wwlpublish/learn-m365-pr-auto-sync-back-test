@@ -23,12 +23,12 @@ quiz:
         explanation: "A sensitive information type is defined by a pattern that can be identified by a regular expression or function. One commonly recognized sensitive information type is a credit card number."
       - content: "Labels"
         isCorrect: false
-        explanation: "Labels can be thought of as a stamp you put on a document that goes everywhere the document goes, across apps, devices, and services. For example, your organization might create a label named "Confidential" to indicate data that should not be widely."
+        explanation: "Labels can be thought of as a stamp you put on a document that goes everywhere the document goes, across apps, devices, and services. For example, your organization might create a label named *Confidential* to indicate data that should not be widely."
       - content: "Policies"
         isCorrect: true
-        explanation: "Policies define what to do with the data to which has been classified. For example, you can create a policy based on the "Confidential" sensitivity label. That label policy can do nothing more than mark a file as confidential, or it can encrypt files, add content marking, and control user access to specific sites based on that sensitivity label. "
+        explanation: "Policies define what to do with the data to which has been classified. For example, you can create a policy based on the *Confidential* sensitivity label. That label policy can do nothing more than mark a file as confidential, or it can encrypt files, add content marking, and control user access to specific sites based on that sensitivity label."
 
-    - content: "Governing your data is all about reducing risk. Which of the following Microsoft solutions for protecting your data is focused on controlling the data explosion, the amount of data being generated and how regulations keep changing? "
+    - content: "Governing your data is all about reducing risk. Which of the following Microsoft solutions for protecting your data is focused on controlling the data explosion, the amount of data being generated and how regulations keep changing?"
       choices:
       - content: "Automation at scale"
         isCorrect: true
