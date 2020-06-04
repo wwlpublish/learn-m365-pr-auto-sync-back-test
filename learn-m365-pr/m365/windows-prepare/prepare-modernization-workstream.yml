@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.windows-prepare.prepare-modernization-workstream
+title: Prepare for the modernization workstream
+metadata:
+  title: Prepare for the modernization workstream
+  description: Learn how to prepare for the modernization workstream.
+  ms.date: 05/20/2020
+  author: IanKensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: m365
+durationInMinutes: 4
+content: |
+  [!include[](includes/prepare-modernization-workstream.md)]
