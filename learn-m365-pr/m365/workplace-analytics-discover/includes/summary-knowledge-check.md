@@ -1,5 +1,14 @@
+Workplace Analytics is a cloud-based solution that uses the power of Office 365 collaboration data to provide rich, actionable awareness into how your organization spends its time, the ways people network, and the effectiveness of team collaboration.
 
-In this module, you've learned what Workplace Analytics is, how it works, and key features that allow you to generate insights and improve collaboration in your organization.
+With Workplace Analytics features, you can:
+
+- Explore research-based behavioral insights into how things get done using the solution areas in the Home page.
+- Analyze insights using the Explore dashboards.
+- Run Flexible queries using existing and custom filtered metrics to extract data for tailored analysis.
+- Select targeted change plans to improve focus, collaboration, well-being, and seller success.
+- Use Settings to validate uploaded data, identify dates for analysis and define which meetings, if any, to exclude.
+
+With Workplace Analytics, privacy is key. The app looks at header level metadata, not content, attachments, or anything considered sensitive in nature.
 
 Now that you have completed this module, you should be able to:  
 
