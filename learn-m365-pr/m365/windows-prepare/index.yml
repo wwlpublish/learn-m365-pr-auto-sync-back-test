@@ -2,14 +2,14 @@
 uid: learn-m365.windows-prepare
 metadata:
   title: Prepare to stay current with Windows 10 and Microsoft 365 Apps
-  description: Understand how to prepare your organization to stay current with Windows 10 and Microsoft 365 Apps
+  description: Understand how to prepare your organization to stay current with Windows 10 and Microsoft 365 Apps.
   ms.date: 05/20/2020
   author: IanKensey
   ms.author: v-iakens
   ms.topic: interactive-tutorial
   ms.prod: m365
-title: Prepare to stay current with Windows 10 and Microsoft 365 Apps.
-summary: Understand how to prepare for your organization to stay current with Windows 10 and Microsoft 365 Apps
+title: Prepare to stay current with Windows 10 and Microsoft 365 Apps
+summary: Understand how to prepare for your organization to stay current with Windows 10 and Microsoft 365 Apps.
 abstract: | 
   In this module, you will use the servicing process to prepare your organization to stay current.
 prerequisites: | 

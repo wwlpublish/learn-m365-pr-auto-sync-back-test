@@ -10,7 +10,7 @@ In the Plan phase, you determined the specific infrastructure and configuration 
 
 ## Assign tasks
 
-As the process manager, you oversee and keep track of the status of capability tasks. You use the *Responsibility, Accountability, Consulting, Informed* (RACI) model to create an example table that your organization can use for reference when assigning tasks to roles:
+As the process manager, you oversee and keep track of the status of capability tasks. You use the *Responsible, Accountable, Consulted, Informed* (RACI) model to create an example table that your organization can use for reference when assigning tasks to roles:
 
 |*Task*  |Process manager  |End-user computing  |Application owner and developers |Operations|Security|
 |---------|---------|---------|---------|---------|---------|
