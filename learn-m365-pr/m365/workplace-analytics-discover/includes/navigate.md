@@ -76,7 +76,7 @@ Explore dashboards in Workplace Analytics are powerful tools to gain quick insig
 
 ### Analyze Queries summary page
 
-Flexible queries offer afilterable and customizable data access to create valuable analysis using row-level data. Use the output from these queries to investigate and answer specific questions about how employees and groups collaborate.
+Flexible queries offer filterable and customizable data access to create valuable analysis using row-level data. Use the output from these queries to investigate and answer specific questions about how employees and groups collaborate.
 
 On the Queries page, under **Start custom query**, you’ll see a list of query options. The four most common are:
 
