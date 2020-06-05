@@ -18,12 +18,10 @@ The information you’ve collected from testing and tracking new features and ca
 
 Assess the state of your environment to understand where you want to go. You can do this by defining high-level goals for your environment, along with which phase those goals are applicable to - for example:
 
-Assess the state of your environment to understand where you want to go. You can do this by defining high-level goals for your environment, along with which phase those goals are applicable to - for example:
-
 |Phase  |Goal  |Type  |
 |---------|---------|---------|
-|Plan<br/>Prepare<br/>Deploy|Reduce infrastructure upgrade effort|- Infrastructure<br/>- Configuration
-|Plan<br/>Prepare<br/>Deploy|Reduce testing effort|- Compatibility<br/>- Infrastructure<br/>- Configuration
+|- Plan<br/>- Prepare<br/>- Deploy|Reduce infrastructure upgrade effort|- Infrastructure<br/>- Configuration
+|- Plan<br/>- Prepare<br/>- Deploy|Reduce testing effort|- Compatibility<br/>- Infrastructure<br/>- Configuration
 |
 
 From your goals, you can have a better understanding of what should be the aim for each component and tool in your environment. For example, Woodgrove might be using Windows Server Update Services (WSUS) today for software update management, but you could decide that you want to move to Windows Update for Business so that updates are delivered by the cloud-based Windows Update service for your organization.
@@ -51,5 +49,5 @@ Create and update the following artifacts that will help you capture the details
 
 |Item  |Format  |Description  |
 |---------|---------|---------|
-|Approved capability and modernization improvements     |Word document|Capture details about the improvements along with the business value added by these improvements.|
-|Infrastructure and configuration remediation list|Spreadsheet|Capture configuration and infrastructure changes that need to be made to implement the approved improvements.|
+|Approved capability and modernization improvements     |Word document|Capture details about the improvements along with the business value added by these improvements|
+|Infrastructure and configuration remediation list|Spreadsheet|Capture configuration and infrastructure changes that need to be made to implement the approved improvements|

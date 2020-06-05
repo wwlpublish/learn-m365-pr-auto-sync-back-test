@@ -22,8 +22,8 @@ Stay current to help keep your organization’s systems responsive, and decrease
 
 Windows gets better and smarter over time. Every feature update release comes with enhancements and capabilities. A single update could include a wide range of improvements and features.  For example, it could include:
 
-- Increased performance and reliability of the operating system and its applications – for example, a recent feature update optimized how instructions are processed by the CPU.
-- Improvements to assistive technologies in Windows to help with accessibility. 
+- Increased performance and reliability of the operating system and its applications – for example, a recent feature update optimized how instructions are processed by the CPU
+- Improvements to assistive technologies in Windows to help with accessibility 
 - Improvements to battery life and power efficiency for PCs with certain processors
 
 Make sure to stay current so you don’t miss out on important features and improvements.
@@ -34,13 +34,15 @@ You can use the Windows servicing process to help Woodgrove to stay current. The
 
 ### Phases
 
-- **Plan**. During this phase, you will define readiness criteria to pass through each of the Prepare and Deploy phases, and determine what needs to be updated by performing an assessment of your environment. You’ll prioritize applications, define go or no-go criteria, and put together a list of infrastructure tools, agents, or settings that should be updated during the next phase. At this point, you can also learn from previous Windows deployments to further reduce the effort, time, and cost for subsequent Windows 10 feature updates.
+- **Plan**: During this phase, you will define readiness criteria to pass through each of the Prepare and Deploy phases, and determine what needs to be updated by performing an assessment of your environment. You’ll prioritize applications, define go or no-go criteria, and put together a list of infrastructure tools, agents, or settings that should be updated during the next phase. At this point, you can also learn from previous Windows deployments to further reduce the effort, time, and cost for subsequent Windows 10 feature updates.
 
-- **Prepare**. In this phase, you’ll assign appropriate test approaches to your important and critical applications, and test applications that must work during Pilot deployment. You also update infrastructure and configuration defined earlier in the plan phase. Based on compatibility data and critical app testing, you put together a list of devices that you’ll use for a Pilot deployment.
+- **Prepare**: In this phase, you’ll assign appropriate test approaches to your important and critical applications, and test applications that must work during Pilot deployment. You also update infrastructure and configuration defined earlier in the plan phase. Based on compatibility data and critical app testing, you put together a list of devices that you’ll use for a pilot deployment.
 
-- **Pilot deployment**. Your organization deploys the update on targeted devices to find any problems ahead of a wider deployment. At the end of this phase, you ensure that you’ve tested infrastructure, settings, and applications as defined in the plan phase, and certify that the update can be pushed to Broad deployment across the organization’s environment. If the update includes new capabilities, you ensure that they are all tested during this phase.
+- **Deploy**: In this phase you deploy the update across your organization. There are two parts to the Deploy phase:
 
-- **Broad deployment**. The update is pushed to the broader environment so that all devices are up to date. You capture any learnings from this phase so that you can use them in the plan phase for the next update cycle. This will help you improve the update process in the next cycle.
+    - **Pilot**: Your organization deploys the update on targeted devices to find any problems ahead of a wider deployment. At the end of this phase, you ensure that you’ve tested infrastructure, settings, and applications as defined in the plan phase, and certify that the update can be pushed to Broad deployment across the organization’s environment. If the update includes new capabilities, you ensure that they are all tested during this phase.
+
+    - **Broad deployment**: The update is pushed to the broader environment so that all devices are up to date. You capture any learnings from this phase so that you can use them in the plan phase for the next update cycle. This will help you improve the update process in the next cycle.
 
 ### Workstreams
 
@@ -53,15 +55,15 @@ The phases in the process help you deal with the following workstreams for your 
 
 Compatibility and deployment are core workstreams required for Woodgrove to successfully roll out the update. Capability and modernization are optional but recommended workstreams that Woodgrove can use to improve its servicing process for updates.
 
-Each workstream goes through the four phases, starting at the plan phase, right through to the Broad deployment phase. The table below show how the phases are mapped to each workstream, along with the tasks that Woodgrove can carry out in each workstream:
+Each workstream goes through the four phases, starting at the plan phase, right through to Broad deployment. The table below show how the phases are mapped to each workstream, along with the tasks that Woodgrove can carry out in each workstream:
 
 **Plan phase**
 
-Tasks for the Plan phase: 
+Tasks for the Plan phase:
 
 |*Compatibility*|*Deployment*|*Capability*|*Modernize*  |
 |---------|---------|---------|---------|
-|- Define deployment readiness criteria.<br/>- Determine app readiness.|-Define deployment readiness criteria.<br/>- Determine infrastructure requirements.|- Define innovation areas.<br/>- Determine capabilities and requirements.|- Define innovation areas.<br/>- Determine improvements.|
+|- Define deployment readiness criteria <br/>- Determine app readiness|-Define deployment readiness criteria <br/>- Determine infrastructure requirements |- Define innovation areas <br/>- Determine capabilities and requirements|- Define innovation areas <br/>- Determine improvements|
 </div>
 
 **Prepare phase**
@@ -70,23 +72,21 @@ Tasks for the Prepare phase:
 
 |*Compatibility*|*Deployment*|*Capability*|*Modernize*  |
 |---------|---------|---------|---------|
-|- Test critical and failed apps. <br/>- Remediate failed apps.|- Update tooling, settings, and operations. <br/> - Updated pilot deployment list.|-Update tooling, settings, and operations. |- Modernize apps, processes, infrastructure.|
+|- Test critical and failed apps <br/>- Remediate failed apps|- Update tooling, settings, and operations <br/> - Updated Pilot deployment list|- Update tooling, settings, and operations |- Modernize apps, processes, infrastructure|
 
-**Pilot deployment**</span>
+**Deploy phase**
 
-Tasks for the Pilot deployment phase: 
-
-|*Compatibility*|*Deployment*|*Capability*|*Modernize*  |
-|---------|---------|---------|---------|
-|- Deploy app updates. <br/>- Test critical and important apps. <br/> - Support app testing|- Deploy feature update.<br/>- Test deployment and settings. <br/> - Support deployment and configuration test.|- Deploy capability.<br/> - Test capability.<br/>- Support capability test.|- Deploy improvement.<br/> - Test improvement.<br/> - Support improvement test.|
-
-**Broad deployment**
-
-Tasks for the Broad deployment phase:
+Tasks for *Pilot deployment*: 
 
 |*Compatibility*|*Deployment*|*Capability*|*Modernize*  |
 |---------|---------|---------|---------|
-|- Deploy app updates.<br/> - Review compatibility success.|- Deploy feature update.<br/>- Review deployment success.|- Deploy capability.<br/>- Review capability success|- Implement improvement. <br/> - Test Improvement.|
+|- Deploy app updates <br/>- Test critical and important apps <br/> - Support app testing|- Deploy feature update<br/>- Test deployment and settings <br/> - Support deployment and configuration test|- Deploy capability<br/> - Test capability<br/>- Support capability test|- Deploy improvements<br/> - Test improvements<br/> - Support improvements test|
+
+Tasks for *Broad deployment*:
+
+|*Compatibility*|*Deployment*|*Capability*|*Modernize*  |
+|---------|---------|---------|---------|
+|- Deploy app updates<br/> - Review compatibility success|- Deploy feature update<br/>- Review deployment success|- Deploy capability.<br/>- Review capability success|- Implement improvements <br/> - Test Improvements|
 
 ## How to accelerate the "stay current" process
 
@@ -94,18 +94,18 @@ There are different tools you can use to accelerate the stay current process for
 
 ### Windows Update for Business
 
-You can use the cloud-based Windows Update for Business service to reduce administrative and compatibility effort to deploy updates, and reduce bandwidth constraints for remote workers. Windows Update for Business helps simplify the process for your organization during the deploy phase and eliminates much of the work that otherwise would need to be done to stay current.
+You can use the cloud-based Windows Update for Business service to reduce administrative and compatibility effort to deploy updates, and reduce bandwidth constraints for remote workers. Windows Update for Business helps simplify the process for your organization during the Deploy phase and eliminates much of the work that otherwise would need to be done to stay current.
 
-Windows Update for Business makes it possible for you to keep your Windows 10 devices always up to date with the latest version of Windows. At the same time, you remain in control of when and how your devices are updated. For example, you can defer or pause updates for a device for a certain period of time. You can configure different policies for feature updates, quality updates, driver updates, or updates for specific Microsoft products like Microsoft 365 apps. You can use Windows Update for Business to test specific updates on a smaller segment of your environment, before pushing them out to the wider environment. You can integrate Windows Update for Business with Configuration Manager or Microsoft Intune.
+Windows Update for Business makes it possible for you to keep your Windows 10 devices always up to date with the latest version of Windows. At the same time, you remain in control of when and how your devices are updated. For example, you can defer or pause updates for a device for a certain period of time. You can configure different policies for feature updates, quality updates, driver updates, or updates for specific Microsoft products like Microsoft 365 Apps. You can use Windows Update for Business to test specific updates on a smaller segment of your environment, before pushing them out to the wider environment. You can integrate Windows Update for Business with Configuration Manager or Microsoft Intune.
 
 ### Desktop Analytics
 
-You can use Desktop Analytics to accelerate the Prepare and Pilot deployment phases. Often, the biggest challenge for organizations wanting to stay current is testing. It can involve complex manual work. It can be time-consuming for the organization to continuously and thoroughly analyze application and device compatibility, and remediate issues across the whole environment.
+You can use Desktop Analytics to accelerate the Prepare phase and Pilot deployment. Often, the biggest challenge for organizations wanting to stay current is testing. It can involve complex manual work. It can be time-consuming for the organization to continuously and thoroughly analyze application and device compatibility, and remediate issues across the whole environment.
 
 Desktop Analytics is a cloud-based service that integrates with Configuration Manager. The service gives you a better insight into your organization’s update readiness. You can use it to:
 
 - Create a record of apps running in the organization
 - Assess how compatible your apps are with the latest Windows 10 feature updates
 - Take advantage of mitigation suggestions for compatibility issues
-- Create pilot groups to test across a certain set of devices 
+- Create pilot groups to test across a certain set of devices
 

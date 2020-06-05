@@ -25,10 +25,10 @@ Much like a risk assessment matrix, defining a severity level helps the organiza
 
 |Severity  |Impact  |Deployment state  |
 |---------|---------|---------|
-|1| Work stoppage  or loss of revenue        |Deployment is stopped.|
-|2|Productivity loss for a business unit|Deployment is stopped for affected devices only. |
-|3|Loss of productivity for individual users|Deployment can continue but workaround guidance is provided for affected users if possible.|
-|4|Minimal impact on users|Deployment continues.|
+|1| Work stoppage  or loss of revenue.        |Deployment is stopped.|
+|2|Productivity loss for a business unit.|Deployment is stopped for affected devices only. |
+|3|Loss of productivity for individual users.|Deployment can continue but workaround guidance is provided for affected users if possible.|
+|4|Minimal impact on users.|Deployment continues.|
 
 ### Servicing channels for Windows and Microsoft 365 Apps
 
@@ -37,7 +37,7 @@ The servicing channels for Windows are defined as follows:
 
 |Servicing Channel  |Description  |
 |---------|---------|
-|Windows Insider Program     |You can use this servicing channel to help you test for potential compatibility problems with your critical applications. This servicing channel also lets you explore and test out new feature updates before they're publicly available. It's recommended to have at least a few devices enrolled in the Windows Insider Program|
+|Windows Insider Program     |You can use this servicing channel to help you test for potential compatibility problems with your critical applications. This servicing channel also lets you explore and test out new feature updates before they're publicly available. It's recommended to have at least a few devices enrolled in the Windows Insider Program.|
 |Semi-Annual Channel (Recommended)|This servicing channel is the default for commercial customers and gets new releases twice a year. For Windows 10 Enterprise and Educations editions, the H1 release (April-May) is serviced by Microsoft for a period of 18 months from initial release date, and the H2 release (Oct-Nov) is serviced for 30 months. For Windows 10 Professional, each release is serviced for 18 months.|
 |Long Term Servicing Channel (LTSC)|The servicing channel is for devices that are used for specialized functions, like payment systems or medical systems. These devices use an LTSC edition of Windows 10 and are updated only to ensure the devices stay functional and secure. Each release for this channel receives five years support, plus an additional five years through extended support. New releases occur approximately every three years. This servicing channel is only available for Windows 10 Enterprise editions.|
 
@@ -47,5 +47,5 @@ For Microsoft 365 Apps, you can use the following servicing channels:
 |---------|---------|
 |Semi-Annual Enterprise Channel     |Released in January and July. This channel is selected by default for commercial customers. Users will have to wait a longer time to consume new feature updates.|
 |Current Channel     |Released in March and September. Use this channel to have users receive feature updates quicker than the Semi-Annual enterprise channel.|
-|Monthly Enterprise Channel|If your environment doesn't have critical line-of-business applications, add-ins, or macros that need to be tested to determine if they work with an updated version of Office, the Monthly Channel is the best way to provide new features to users in the quickest way. Rapid adopters of Windows are encouraged to use this servicing channel.|
+|Monthly Enterprise Channel|If your environment doesn't have critical line-of-business applications, add-ins, or macros that need to be tested to determine if they work with an updated version of Microsoft 365 Apps, the Monthly Channel is the best way to provide new features to users in the quickest way. Rapid adopters of Windows are encouraged to use this servicing channel.|
 
