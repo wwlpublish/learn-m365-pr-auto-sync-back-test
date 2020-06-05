@@ -3,8 +3,8 @@ uid: learn-m365.m365-messaging-configure-transport-architecture.plan-connectors
 title: Plan to route email with connectors
 metadata:
   title: Plan to route email with connectors
-  description: Use connectors in Exchange Online to route email to on-premises email systems and to secure email to partner organizations. 
-  ms.date: 03/24/2020
+  description: Learn the basics of connectors, including when to create a new connector. 
+  ms.date: 06/04/2020
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
