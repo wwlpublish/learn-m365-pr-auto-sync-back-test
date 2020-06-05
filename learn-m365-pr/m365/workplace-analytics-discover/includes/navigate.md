@@ -22,7 +22,7 @@ In addition to the Explore dashboards, Workplace Analytics offers out-of-the-box
 - **Organizational agility**. Assess your organization’s ability to quickly adapt by exploring how employees collaborate (such as too many inefficient meetings, focus time, and how they are connected and share information).
 - **Customer focus**. Explore external connections and time spent in external collaboration.
 
-![Workplace Analytis Home page view](../media/home-page-view.png)
+![Workplace Analytics Home page view](../media/home-page-view.png)
 
 > [!TIP]
 > Click when you see the **+ # more**. Each instance reveals additional insights for each solution area.
@@ -218,4 +218,4 @@ You'll find some additional features in the upper right-hand corner of each scre
 - [Queries overview and ways to query data](https://docs.microsoft.com/workplace-analytics/tutorials/query-basics?azure-portal=true)
 - [Workplace Analytics plans](https://docs.microsoft.com/workplace-analytics/tutorials/solutionsv2-intro?azure-portal=true)
 - [Workplace Analytics data sources](https://docs.microsoft.com/workplace-analytics/use/data-sourcesv2?azure-portal=true)
-- [Meetring exclusions](https://docs.microsoft.com/workplace-analytics/tutorials/meeting-exclusions-intro?azure-portal=true)
+- [Meeting exclusions](https://docs.microsoft.com/workplace-analytics/tutorials/meeting-exclusions-intro?azure-portal=true)
