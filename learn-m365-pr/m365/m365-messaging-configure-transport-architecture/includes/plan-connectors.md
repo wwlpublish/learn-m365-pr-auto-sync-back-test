@@ -13,7 +13,9 @@ In Exchange Online and Exchange Server, a connector is an object that stores a s
 
 You don't need to use connectors if you have an Exchange Online organization in multiple Office 365 regions (Exchange Multi-Geo). The default configuration delivers mail to all destinations without modification. 
 
-If you have some mailboxes in Exchange Online and some mailboxes in Exchange Server on-premises, then you do need a connector. However, if you used the Hybrid Configuration Wizard, then it created the connector for you. *You can check what connectors exist in the Exchange admin center (EAC) under **mail flow**, on the **connectors** tab. 
+If you have some mailboxes in Exchange Online and some mailboxes in Exchange Server on-premises, then you do need a connector. However, if you used the Hybrid Configuration Wizard, then it created the connector for you. 
+
+*You can check what connectors exist in the Exchange admin center (EAC) under **mail flow**, on the **connectors** tab:
 
 >![A screenshot shows the connectors tab in the Exchange admin center](../media/2-connectors-page-eac.png)
 
@@ -29,7 +31,14 @@ Here are some scenarios where you'll need to create your own connectors:
 
 If your on-premises servers are Exchange 2010 or later, and you used the Hybrid Configuration Wizard to integrate them, then the necessary connectors may already exist. Otherwise you'll need to create them. You learn how to create a connector in the next unit. 
 
->![A diagram shows how mail flows from the on-premises environment to the internet](../media/2-connectors-on-premises-servers.png)
+Testing new image option:
+
+:::image type="content" source="../media/2-connectors-on-premises-servers.png" alt-text="A diagram shows how mail flows from the on-premises environment to the internet." border="true":::
+
+Versus the old image option, with a border:
+
+> [!div class=mx-imgBorder]
+> ![A diagram shows how mail flows from the on-premises environment to the internet](../media/2-connectors-on-premises-servers.png)
 
 This diagram shows the role of connectors in a hybrid system. Notice that: 
 
