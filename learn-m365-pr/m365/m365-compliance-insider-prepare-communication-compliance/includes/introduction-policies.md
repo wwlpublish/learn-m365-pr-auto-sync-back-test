@@ -63,7 +63,7 @@ Supervision policies in Microsoft 365 will be fully replaced by the communicatio
 - When transitioning to communication compliance in Microsoft 365, you should plan to export reporting data from supervision in Office 365 if you have internal compliance retention policy requirements.
 
 ## Learn more
-- [Archive third-party data](https://docs.microsoft.com/microsoft-365/compliance/archiving-third-party-data?view=o365-worldwide?axure-portal=true)
+- [Archive third-party data](https://docs.microsoft.com/microsoft-365/compliance/archiving-third-party-data?view=o365-worldwide?azure-portal=true)
 
 
 

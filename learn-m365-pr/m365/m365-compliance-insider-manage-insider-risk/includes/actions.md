@@ -61,7 +61,7 @@ The **User activity** tab is one of the most powerful tools for internal risk an
     - **Date** of the risk activity.
     - **Risk activity category**. For example, Email(s) with attachments sent outside the organization or File(s) downloaded from SharePoint Online.
     - **Risk score** for the alert. This score is the numerical score for the alert risk severity level.
-    - **Number of events associated with the alert**. Links to each file or email associated with the risk activity is also available.
+    - **Number of events** associated with the alert. Links to each file or email associated with the risk activity is also available.
 - **Risk activity legend:** Across the bottom of the user activity chart, a color-coded legend helps you quickly determine risk category for each alert.
 - **Risk activity chronology:** The full chronology of all risk alerts associated with the case are listed, including all the details available in the corresponding alert bubble.
 - **Case actions:** Options for resolving the case are on the case action toolbar. You can resolve a case, send an email notice to the employee, or escalate the case for a data or employee investigation.
@@ -99,7 +99,7 @@ The **Notices templates dashboard** displays a list of configured notice templat
 
 ![Notice templates](../media/notice-templates.png)
 
-If you'd like to create more than a simple text-based email message for notifications, you can create a more detailed message by [using the HTML in the message body field](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-notices?view=o365-worldwide#html-for-notices?azure-mortal=true) of a notice template.
+If you'd like to create more than a simple text-based email message for notifications, you can create a more detailed message by [using the HTML in the message body field](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-notices?view=o365-worldwide#html-for-notices?azure-portal=true) of a notice template.
 
 [Learn more about creating, updating, and deleting notice templates.](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-notices?view=o365-worldwide?azure-portal=true)
 

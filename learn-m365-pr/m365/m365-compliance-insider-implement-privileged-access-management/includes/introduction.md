@@ -52,4 +52,4 @@ The approval workflow can also be illustrated as follows:
    ![Approval workflow](../media/approval-workflow.png)   
  
 ## Learn more
-- [What is Azure AD Privileged Identity Management?](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure/?azure-portal-true)
+- [What is Azure AD Privileged Identity Management?](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure/?azure-portal=true)
