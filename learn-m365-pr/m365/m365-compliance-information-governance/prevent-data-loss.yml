@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.m365-compliance-information-governance.prevent-data-loss
-title: Govern your data 
+title: Prevent data loss
 metadata:
-  title: Govern your data
+  title: Prevent data loss
   description: Learn how Microsoft 365 information protection and governance solutions help you protect and govern your data, throughout its lifecycle – wherever it lives, or wherever it travels. 
   ms.date: 06/15/2020
   author: ericweisberg
