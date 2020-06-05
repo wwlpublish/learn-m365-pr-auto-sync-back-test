@@ -15,17 +15,17 @@ Customer notification for security incidents occurs via appropriate channels bas
 - Email to the customer’s designated [Global Privacy Contact](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-properties-area?azure-portal=true) (if the tenant Admin has defined it in the Azure Active Directory Admin center)
 - Direct outreach by phone call to the customer’s tenant administrator by a specially trained Support team member
 
-Microsoft’s customer notification commitments are detailed in two sections of the [Microsoft Online Services Data Protection Addendum](https://www.microsoft.com/licensing/product-licensing/products?azure-portal=true):
+Microsoft’s customer notification commitments are detailed in two sections of the [Microsoft online services Data Protection Addendum](https://www.microsoft.com/licensing/product-licensing/products?azure-portal=true):
 
 ### Security incident notification ###
 
-*Notification(s) of Security Incidents will be delivered to one or more of Customer’s administrators by any means Microsoft selects, including via email. It is Customer’s sole responsibility to ensure Customer’s administrators maintain accurate contact information on each applicable Online Services portal. Customer is solely responsible for complying with its obligations under incident notification laws applicable to Customer and fulfilling any third-party notification obligations related to any Security Incident.*
+*Notification(s) of Security Incidents will be delivered to one or more of Customer’s administrators by any means Microsoft selects, including via email. It is Customer’s sole responsibility to ensure Customer’s administrators maintain accurate contact information on each applicable online services portal. Customer is solely responsible for complying with its obligations under incident notification laws applicable to Customer and fulfilling any third-party notification obligations related to any Security Incident.*
 
 *Microsoft shall make reasonable efforts to assist Customer in fulfilling Customer’s obligation under GDPR Article 33 or other applicable law or regulation to notify the relevant supervisory authority and data subjects about such Security Incident.*
 
 *Microsoft’s notification of or response to a Security Incident under this section is not an acknowledgment by Microsoft of any fault or liability with respect to the Security Incident.*
 
-*Customer must notify Microsoft promptly about any possible misuse of its accounts or authentication credentials or any security incident related to an Online Service.*
+*Customer must notify Microsoft promptly about any possible misuse of its accounts or authentication credentials or any security incident related to an online service.*
 
 ### Appendix A – security measures ###
 
@@ -44,10 +44,10 @@ To ensure notifications are received promptly by the correct customer contacts, 
 
 - If necessary, Global Admins can configure additional roles with access to Message Center content to avoid granting unnecessary administrative rights to non-administrators who require access to incident notifications.
 
-Customers share responsibility with Microsoft for reporting security incidents. In the context of Microsoft Commercial services (as opposed to Consumer services), Microsoft is the Data Processor, while the customer is the Data Controller. If a security incident where Microsoft serves as the Data Processor, Microsoft will notify affected customers, who are then responsible for notifying their Data Protection Authorities, regulatory bodies, and affected users as required by any relevant regulations or laws. In addition, if a customer becomes aware of a security incident involving its own user accounts or any Microsoft Online Service, the customer must notify Microsoft promptly as described in the [Microsoft Online Services Data Protection Addendum](https://www.microsoft.com/licensing/product-licensing/products?azure-portal=true).
+Customers share responsibility with Microsoft for reporting security incidents. In the context of Microsoft Commercial services (as opposed to Consumer services), Microsoft is the Data Processor, while the customer is the Data Controller. If a security incident where Microsoft serves as the Data Processor, Microsoft will notify affected customers, who are then responsible for notifying their Data Protection Authorities, regulatory bodies, and affected users as required by any relevant regulations or laws. In addition, if a customer becomes aware of a security incident involving its own user accounts or any Microsoft online service, the customer must notify Microsoft promptly as described in the [Microsoft online services Data Protection Addendum](https://www.microsoft.com/licensing/product-licensing/products?azure-portal=true).
 
 ## Learn more ##
 
 - [Security Incident Management in Microsoft 365 White Paper](https://aka.ms/Office365SIM?azure-portal=true)
-- [Microsoft Online Services Data Protection Addendum](https://www.microsoft.com/licensing/product-licensing/products?azure-portal=true)
+- [Microsoft online services Data Protection Addendum](https://www.microsoft.com/licensing/product-licensing/products?azure-portal=true)
 - [Microsoft Secure Score](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score?view=o365-worldwide&azure-portal=true)
