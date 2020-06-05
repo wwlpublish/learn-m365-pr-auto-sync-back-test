@@ -4,7 +4,7 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Learn what Workplace Analytics is, how it works, and key features that allow you to generate insights and improve collaboration in your organization.
-  ms.date: 05/27/2020
+  ms.date: 06/04/2020
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
@@ -15,39 +15,39 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Question here"
+    - content: "What are the required and optional data sources included in Workplace Analytics?"
       choices:
-      - content: "Choice 1"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+      - content: "Office 365 and HR organization data are required; CRM data is optional."
         isCorrect: true
-        explanation: "explanation"
+        explanation: "Correct. Office 365 data and HR organization data are required in Workplace Analytics; CRM data is optional."
+      - content: "Office 365 and CRM data are required; HR organization data is optional."
+        isCorrect: false
+        explanation: "Sorry, that’s incorrect. Office 365 data and HR organization data are required in Workplace Analytics; CRM data is optional."
+      - content: "HR organization and CRM data are required; Office 365 data is optional."
+        isCorrect: false
+        explanation: "Sorry, that’s incorrect. Office 365 data and HR organization data are required in Workplace Analytics; CRM data is optional."
 
-    - content: "Question here"
+    - content: "When conducting exploratory analysis, where would you go to view aggregated dashboards with out-of-the-box insights in Workplace Analytics?"
       choices:
-      - content: "Choice 1"
+      - content: "Home page and View metrics"
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
+        explanation: "Sorry, that’s incorrect. You can view out-of-the-box insights using the Home page, but there is no View metrics option in the menu."
+      - content: "Explore dashboards and Queries"
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+        explanation: "Sorry, that’s incorrect. You can view out-of-the-box insights using the Explore dashboards. The Queries feature is used to access non-identifiable row-level data."
+      - content: "Explore dashboards and Home page"
         isCorrect: true
-        explanation: "explanation"
+        explanation: "Correct. The Home page provides quick insights into three areas of the collaborative experience."
       
-    - content: "Question here"
+    - content: "Which content does Workplace Analytics look at in collaboration data?"
       choices:
-      - content: "Choice 1"
+      - content: "Email attachments"
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+        explanation: "Sorry, that’s incorrect. Header level data is the correct answer. Workplace Analytics does not look at email attachments as they are considered sensitive in nature."
+      - content: "Header level data"
         isCorrect: true
-        explanation: "explanation"
+        explanation: "Correct. Workplace Analytics does not look at content or data that is considered sensitive in nature."
+      - content: "Body of emails"
+        isCorrect: false
+        explanation: "Sorry, that’s incorrect. Header level data is the correct answer. Workplace Analytics does not look at the body of emails as it is considered sensitive in nature."
       
