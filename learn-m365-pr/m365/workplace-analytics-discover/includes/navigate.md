@@ -1,7 +1,7 @@
 The Workplace Analytics app provides you with a streamlined menu of features with four primary ways to analyze and explore your data.
 
 - The **Home** page provides the scope of your Workplace Analytics data along with three areas of research-based behavioral insights into how things get done.
-- The **Analysis** page contains two valuable tools: Explore dashboards and Flexible queries. Dashboards help you analyze out-of-the-box insights while Queries allow you to download row-level data for more in-depth analysis.
+- The **Analyze** page contains two valuable tools: Explore dashboards and Flexible queries. Dashboards help you analyze out-of-the-box insights while Queries allow you to download row-level data for more in-depth analysis.
 - The **Plans** page provides targeted change plans to improve focus, collaboration, well-being, and seller success.
 - The **Settings** page allows you to validate collaboration data, organizational data, optional CRM data, and define which meetings, if any, to exclude in your analysis. 
 
@@ -14,7 +14,7 @@ The Workplace Analytics app provides you with a streamlined menu of features wit
 
 Use the Home page to get a quick look at the date range and **measured employees** you can include in your analysis, as well as quick insights into how work gets done. (**Measured employees** means employees with a Workplace Analytics license.)
 
-**My organization’s data** gives you a high-level look at your organization’s Workplace Analytics data, including the date range of data available and a count of measured employees. 
+**My organization’s data** gives you a high-level look at your organization’s Workplace Analytics data, including the date range and a count of measured employees.
 
 In addition to the Explore dashboards, Workplace Analytics offers out-of-the-box insights in three areas of the collaborative experience:
 
