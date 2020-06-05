@@ -15,7 +15,7 @@ You don't need to use connectors if you have an Exchange Online organization in 
 
 If you have some mailboxes in Exchange Online and some mailboxes in Exchange Server on-premises, then you do need a connector. However, if you used the Hybrid Configuration Wizard, then it created the connector for you. *You can check what connectors exist in the Exchange admin center (EAC) under **mail flow**, on the **connectors** tab. 
 
- 
+>![A screenshot shows the connectors tab in the Exchange admin center](../media/2-connectors-page-eac.png)
 
 Here are some scenarios where you'll need to create your own connectors: 
 
@@ -29,6 +29,7 @@ Here are some scenarios where you'll need to create your own connectors:
 
 If your on-premises servers are Exchange 2010 or later, and you used the Hybrid Configuration Wizard to integrate them, then the necessary connectors may already exist. Otherwise you'll need to create them. You learn how to create a connector in the next unit. 
 
+>![A diagram shows how mail flows from the on-premises environment to the internet](../media/2-connectors-on-premises-servers.png)
 
 This diagram shows the role of connectors in a hybrid system. Notice that: 
 
@@ -42,5 +43,7 @@ This diagram shows the role of connectors in a hybrid system. Notice that:
 If you want to place extra security restrictions on email sent to one of your close business partners, you can do so by creating and configuring a connector.  
 
 Another reason to use a connector for internet mail, is to route all email through a service provider, who can scan and filter nuisance traffic. 
+
+>![A diagram shows the way that mail travels between a local environment and the cloud.](../media/2-connectors-partner-organizations.png)
 
 The diagram shows that, in this configuration, connectors are used to route mail to and from your partner organization. Notice that if you want to require TLS encryption, you must have a suitable TLS certificate issued by a certificate authority that both organizations trust. 
