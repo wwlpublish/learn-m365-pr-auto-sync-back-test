@@ -30,7 +30,7 @@ These are the customer-specific controls.
 
 With Workplace Analytics, the objective is not to examine individual activity, but to recognize group level trends happening in your organization. The app looks at header level metadata—no content, such as body of emails, email attachments, or anything considered sensitive in nature. 
 
-Features in Workplace Analytics default to non-personal informmation, and a minimum aggregate threshold of five employees.
+Features in Workplace Analytics default to non-personal information and a minimum aggregate threshold of five employees.
 
 ## Learn more
 
