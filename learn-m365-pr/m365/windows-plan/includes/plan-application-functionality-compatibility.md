@@ -2,8 +2,8 @@ Woodgrove has many different applications that it uses for different functions a
 
 ## Inputs
 
-You’ll need to produce an application portfolio for Woodgrove. The portfolio lists the applications in your environment.  You’ll also need to classify the applications listed in the portfolio accordingly, as either critical, important, or not important. 
-For Woodgrove, you would do this as shown below:
+You’ll need to produce an application portfolio for Woodgrove. The portfolio lists the applications in your environment.  You’ll also need to classify the applications listed in the portfolio accordingly, as either critical, important, or not important.
+For Woodgrove, you would do it like this:
 
 |Application  |Classification  |
 |---------|---------|
@@ -14,18 +14,18 @@ For Woodgrove, you would do this as shown below:
 
 ## Decisions
 
-Once you’ve classified the applications, you’ll need to make a couple of decisions. You'll define application deployment readiness criteria. You’ll define how your organization should deal with issues that might arise for the applications you’ve classified. Your organization needs to ask how severe and impact it would be for Woodgrove if an app were to have issues during the deployment process? To do this, you’ll work with Operations and agree on how application failure should be handled based on whether an app has been classified as critical, important, or not important. For example, your organization could agree on the following:
+Once you’ve classified the applications, you’ll need to make a couple of decisions. You'll define application deployment readiness criteria. You’ll define how your organization should deal with issues that might arise for the applications you’ve classified. Your organization needs to ask how severe and impact would it be for Woodgrove if an app were to have issues during the deployment process? To do this, you’ll work with operations and agree on how application failure should be handled based on whether an app has been classified as critical, important, or not important. For example, your organization could agree on the following:
 
 |Application classification  |Severity  |Priority  |Examples of impact  |
 |---------|---------|---------|---------|
-|Critical|Severity 1 or 2|Priority 1 or 2|- Loss of revenue. <br/> - Work stoppage.|
-|Important|Severity 3 or 4|Priority 3 or 4|- User experience impacted.<br/> - Loss of productivity.|
-|Not important|Severity 4|Priority 4|- Minimal impact on user's productivity.<br/> - No impact on the business.|
+|Critical|Severity 1 or 2|Priority 1 or 2|- Loss of revenue <br/> - Work stoppage|
+|Important|Severity 3 or 4|Priority 3 or 4|- User experience impacted<br/> - Loss of productivity|
+|Not important|Severity 4|Priority 4|- Minimal impact on user's productivity<br/> - No impact on the business|
 
 - **Severity 1**: Deployments must be stopped until issue has been resolved.
 - **Severity 2**: Deployment is halted for any devices or users that are affected by the issue until it’s resolved. But deployment can continue for unaffected users and devices.
 - **Severity 3**: Deployment can continue for affected devices, provided that there is a workaround guidance for affected users.
-- **Severity 4**: Continue deployment to all devices 
+- **Severity 4**: Continue deployment to all devices.
 
 The agreed severity mapping ensures you won’t have to work out how individual applications should be handled and prioritized once an importance level as been assigned to them.  For example, you would know that the deployment process should stop for some or all users if any issues arise for any critical application. Once the issues have been resolved, the deployment can continue.
 
@@ -45,6 +45,6 @@ You're now in a position to be able to create the following artefacts that you c
 
 |Item  |Example format  |Description  |
 |---------|---------|---------|
-|Compatibility criteria     |Word document|Detail deployment readiness and deployment supportability.|
-|Priority application and owner List     |-Spreadsheet<br/>-Desktop Analytics (recommended)|List and assign owners to:<br/>- Critical applications<br/>- Important applications<br/>- Not important applications 
+|Compatibility criteria     |Word document|Detail deployment readiness and deployment supportability|
+|Priority application and owner List|-Spreadsheet<br/>-Desktop Analytics (recommended)|List and assign owners to:<br/>- Critical applications<br/>- Important applications<br/>- Not important applications 
 |
