@@ -12,14 +12,14 @@ Woodgrove has decided it wants to validate its critical applications for compati
 |Validation Method  |Description  |
 |---------|---------|
 |Regression (full)|Applications go through full quality assurance probing. This should be done by people who are knowledgeable of the application and are able to validate the core functionality.|
-|Smoke testing (ILT)|The application goes through formal validation. A user validates the application following a detailed plan and they should ideally have limited, or no knowledge of the application they’re validating.|
+|Smoke testing|The application goes through formal validation. A user validates the application following a detailed plan and they should ideally have limited, or no knowledge of the application they’re validating.|
 |Automated testing |This puts your applications through software that performs automated tests. The software will let you know whether the tests have been passed or failed. It will also provide detailed reporting for you automatically.|
 |Test in pilot|Many pilot users are selected and they are asked to carry out the same tasks they do on a daily basis to validate the application. Applications normally undergo this type of testing in addition to one of the other validation methods.|
 |Reactive response |Applications are validated in late pilot, and no specific users are selected. These are usually applications with low install bases and aren’t handled by enterprise application distribution.|
 
 Woodgrove decides that it will put its critical applications through regression testing. Critical and important applications will also be pilot tested.
 
-As the process manager, you oversee and keep track of the status of all tasks. You use the RACI model to create an example table that your organization can use for reference when assigning tasks to roles:
+As the process manager, you oversee and keep track of the status of all tasks. You use the *Responsible, Accountable, Consulted, Informed* (RACI) model to create an example table that your organization can use for reference when assigning tasks to roles:
 
 |*Task*  |Process manager  |Application owner  |Application developer  |Independent software vendor|End-user computing|Operations|
 |---------|---------|---------|---------|---------|---------|---------|

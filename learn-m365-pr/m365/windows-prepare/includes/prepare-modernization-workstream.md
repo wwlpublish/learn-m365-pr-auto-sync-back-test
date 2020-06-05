@@ -13,11 +13,11 @@ As the process manager, you explain that Desktop Analytics provides Woodgrove wi
 
 You explain that Woodgrove needs to meet [requirements](https://docs.microsoft.com/configmgr/desktop-analytics/overview#prerequisites) to use Desktop Analytics, including the following:
 
--   An Active Azure subscription, along with an account that has the Global Administrator role.
--   Configuration Manager (version 1902 or later), with the Full Administrator role.
--   Devices can connect to Microsoft’s public cloud services.
--   Access to Windows Diagnostic data (at least Basic level, Enhanced level is recommended).
--   Valid Windows 10 Enterprise licenses (E3, E5, A3, or A5).
+-   An Active Azure subscription, along with an account that has the Global Administrator role
+-   Configuration Manager (version 1902 or later), with the Full Administrator role
+-   Devices can connect to Microsoft’s public cloud services
+-   Access to Windows Diagnostic data (at least Basic level, Enhanced level is recommended)
+-   Valid Windows 10 Enterprise licenses (E3, E5, A3, or A5)
 
 ## Desktop Analytics tasks
 
@@ -28,8 +28,8 @@ The Woodgrove infrastructure team have confirmed that the organization can succe
     - Reviewing and accepting the service agreement.
     - Setting up a Desktop Analytics workspace.
 1.  **Connect Configuration Manager**. Woodgrove can do this by:
-    - Updating Configuration Manager site to version 1902 or higher, installing the version 1902 update rollup, and updating clients using automatic client upgrade.
-    - Connecting to the service. Connect to Desktop Analytics using the Azure Services Wizard in Configuration Manager.
+    - Updating Configuration Manager site to version 1902 or later, installing the version 1902 update rollup, and updating clients using automatic client upgrade.
+    - Connecting to the service. Connect to Desktop Analytics using the Azure Services wizard in Configuration Manager.
 1.  **Enroll devices**: Desktop Analytics doesn’t need agents for device enrollment. Instead, Woodgrove should use Configuration Manager to deploy enrollment settings to the clients it wants to enroll in Desktop Analytics.
 
 Use the [how-to guide](https://docs.microsoft.com/configmgr/desktop-analytics/set-up) for a detailed step-by-step walkthrough on setting up and using Desktop Analytics.

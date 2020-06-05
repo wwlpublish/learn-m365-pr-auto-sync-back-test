@@ -4,9 +4,9 @@ Your manager wants to know how Woodgrove’s infrastructure and configuration ca
 
 Woodgrove will prepare its infrastructure for the update by implementing the changes identified in the Plan phase. To do this, you define what Woodgrove needs to do for the various components and tooling of its infrastructure, for example:
 
-- Implement site server updates for Configuration Manager.
-- Update security tools like security agents or servers.
-- Update management tools like data loss prevention agents.
+- Implement site server updates for Configuration Manager
+- Update security tools like security agents or servers
+- Update management tools like data loss prevention agents
 
 Woodgrove’s infrastructure includes many different components and tools. As the process manager responsible for the Windows 10 feature update, you need to validate that the environment won’t be affected due to changes made to various parts of the infrastructure. Woodgrove will do this by:
 

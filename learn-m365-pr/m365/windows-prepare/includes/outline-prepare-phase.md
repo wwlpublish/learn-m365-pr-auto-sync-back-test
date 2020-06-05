@@ -1,13 +1,13 @@
 
-You’ve successfully guided Woodgrove through the Plan Phase of the servicing process. As the process manager, you’ve decided to put together a high-level overview of the kind of work that will need to be carried out to prepare the environment, so that you can use it to explain to the team what they will do at this stage.
+You’ve successfully guided Woodgrove through the Plan phase of the servicing process. As the process manager, you’ve decided to put together a high-level overview of the kind of work that will need to be carried out to prepare the environment, so that you can use it to explain to the team what they will do at this stage.
 
 ## Dependencies
 
-The Plan Phase helped Woodgrove to create the following outputs:
--   Compatibility criteria defined in the Plan Phase.
--   Application prioritization list.
--   Infrastructure and configuration remediation list.
--   Operations update plan.
+The Plan phase helped Woodgrove to create the following outputs:
+-   Compatibility criteria defined in the Plan phase
+-   Application prioritization list
+-   Infrastructure and configuration remediation list
+-   Operations update plan
 
 These artifacts help you address different parts of Woodgrove’s environment. Woodgrove will take advantage of these artifacts to ensure its environment is prepared for the Windows 10 feature update.
 
