@@ -13,6 +13,7 @@ Woodgrove’s infrastructure includes many different components and tools. As th
 1. **Reviewing all of the infrastructure changes** that Woodgrove identified in the Plan phase:  It’s important to understand the changes that need to be made and to detail how to implement them. This prevents issues later on.
 1.  **Validating changes**: Woodgrove will validate the changes for the infrastructure’s components and tools to help understand how changes could affect its production environment. 
 1.  **Implementing the changes**: Once the changes have been validated, Woodgrove can implement the changes across the wider infrastructure.
+
 As the process manager, you oversee and keep track of the status of the tasks. You use the RACI model to create an example table that your organization can use for reference when assigning tasks to roles:
 
 |*Task*  |Process manager  |End-user computing  |Application developer  |Operations |Security|
@@ -34,8 +35,8 @@ However, Woodgrove's environment has many different settings and policies. It’
 
 ## Outputs
 
-As the process manager, you explain that Woodgrove will have to agree on whether its infrastructure is prepared to handle a Pilot deployment of the update to a few devices. Woodgrove will do this by comparing its infrastructure against the deployment readiness criteria outlined in the Plan phase and agreeing whether it has met all the criteria (pass) or not (fail).  
-Once Woodgrove has implemented all the necessary configuration changes, it will also have to capture the final version of settings and policies so they can be referenced for Pilot deployment against a select few devices. You explain that Woodgrove will create to following artifacts:
+As the process manager, you explain that Woodgrove will have to agree on whether its infrastructure is prepared to handle a pilot deployment of the update to a few devices. Woodgrove will do this by comparing its infrastructure against the deployment readiness criteria outlined in the Plan phase and agreeing whether it has met all the criteria (pass) or not (fail).  
+Once Woodgrove has implemented all the necessary configuration changes, it will also have to capture the final version of settings and policies so they can be referenced for a pilot deployment against a select few devices. You explain that Woodgrove will create the following artifacts:
 
 |Item  |Example format  |Description  |
 |---------|---------|---------|

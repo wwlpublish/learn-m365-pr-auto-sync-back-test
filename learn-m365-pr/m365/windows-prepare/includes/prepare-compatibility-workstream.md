@@ -52,7 +52,7 @@ Woodgrove’s devices run on different hardware models. Woodgrove should identif
 
 You also explain that, because Woodgrove isn’t allowing devices to receive driver updates directly from the internet, Woodgrove will also have to download and package drivers and ensure that all drivers are in working order.
 
-You summarize that Woodgrove should identify and configure the right devices so it can gain the right insights from validation.  And to help it understand how to best perform a smooth Broad deployment to all devices that are part of the wider environment.
+You summarize that Woodgrove should identify and configure the right devices so it can gain the right insights from validation.  And to help it understand how to best perform a smooth broad deployment to all devices that are part of the wider environment.
 
 ## Prepare your applications and devices
 

@@ -19,8 +19,8 @@ You outline the following high-level decisions and tasks to be implemented acros
 
 ||||||
 |---------|---------|---------|---------|---------|
-|***Infrastructure***|Review all of the approved infrastructure changes|Validate all the changes.|Implement all the changes.|Agree that deployment readiness criteria have been met (pass or fail).|
-|***Configuration***|Review new security settings.|Review security baselines for changes.|Implement and validate security settings and baseline changes.|Create a security and settings baseline file|
+|***Infrastructure***|Review all of the approved infrastructure changes.|Validate all the changes.|Implement all the changes.|Agree that deployment readiness criteria have been met (pass or fail).|
+|***Configuration***|Review new security settings.|Review security baselines for changes.|Implement and validate security settings and baseline changes.|Create a security and settings baseline file.|
 
 :::image type="content" source="../media/2-compatibility-arrow.png" border="false"alt-text="Deployment":::
 
@@ -42,7 +42,7 @@ As part of their modernization activity to reduce the effort for Windows 10 feat
 
 ## Responsibilities
 
-There are many tasks that Woodgrove will carry out to prepare its environment for the feature update. As the process manager, you underline that it is important that all stakeholders in the process communicate effectively. Ensuring that they remain informed and understand their responsibilities throughout the process will reduce confusion and help Woodgrove get to the Pilot deployment phase quicker.
+There are many tasks that Woodgrove will carry out to prepare its environment for the feature update. As the process manager, you underline that it is important that all stakeholders in the process communicate effectively. Ensuring that they remain informed and understand their responsibilities throughout the process will reduce confusion and help Woodgrove get to Pilot deployment  quicker.
 
 You explain that your role as the process manager means you will work with all the stakeholders involved to delegate responsibilities across teams. You also highlight that when assigning responsibilities representatives from all stakeholders will be pulled in to ensure that tasks are delegated to the most appropriate roles and that they are also aware of the work that will be carried out throughout the process.
 
