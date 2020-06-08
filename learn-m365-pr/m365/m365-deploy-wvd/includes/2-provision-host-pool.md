@@ -1,22 +1,6 @@
 Now that your Windows Virtual Desktop tenant is available and you've set up the other prerequisites, you're ready to build your first host pool. You can use your host pool to provision full desktops and remote apps for users.   
 
-## Register the DesktopVirtualization provider
-
-1. [Sign in](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true) to the Azure portal.
-1. Use the search box to find **Subscriptions**.
-1. Select the subscription you want to use with Windows Desktop Virtualization.
-1. Under **Settings**, select **Resource provider**.
-1. In the filter box, search for and then select **Microsoft.DesktopVirtualization**.
-1. Select **Register**.
-
-   :::image type="content" source="../media/2-register-provider.png" alt-text="Screenshot of resource provider listed and register button highlighted.":::
-
-   It may take a minute for the status to change to **Registered**.
-
-
-
 ## Create a host pool by using the Azure portal
-
 
 ### Step 1: Basics
 
@@ -86,12 +70,3 @@ Now that your Windows Virtual Desktop tenant is available and you've set up the 
 We recommend that you use tags to logically organize your Azure resources, resource groups, and subscriptions into a taxonomy. You might use tags to organize by workload, environment, ownership, or other important criteria. Tags aren't unique to Windows Virtual Desktop and aren't crucial to our scenario, so you can skip this step.
 
 ## Validate the basic Windows Virtual Desktop environment 
-The last step is to sign in to Windows Virtual Desktop from your browser to validate the deployment. 
-
-1. In an InPrivate or Incognito browser window, go to [https://aka.ms/wvdweb](https://aka.ms/wvdweb). 
-   >![Windows Virtual Desktop - validate the user](../media/wvd-validate.png)
-2. Sign in using the account you specified in **Step 2: Virtual Machines**.
-3. You’ll see the **Windows desktop** option for the image you deployed. 
-4. Open the desktop, and then enter the credentials again to authenticate with AD DS. You'll see a desktop with the image you selected. 
-5. Look at the **Start** menu to see the available apps. You can also click on apps in the **Taskbar**. 
-6. After you confirm that the desktop is configured correctly and has the apps you expect, close the session by closing the browser window.

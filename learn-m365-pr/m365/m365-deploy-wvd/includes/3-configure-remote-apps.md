@@ -15,7 +15,7 @@ Windows Virtual Desktop uses app groups to share RemoteApps with users. When you
    |Resource group     | Create a new resource group or select an existing resource group.    |
    |Host pool     | Host pool to be associated with the application group.     |
    |Application group type     | Select RemoteApp to create an application group to publish applications. A Desktop Application Group was created when you provisioned Windows Virtual Desktop in the previous unit.   |
-   |Application group name | enter a name for your RemoteApp. |
+   |Application group name | Enter a name for your RemoteApp. |
 
    :::image type="content" source="../media/3-create-application-group-basics.png" alt-text="Screenshot of the application groups basics tab.":::
 1. Select **Next: Assignments**.
@@ -55,3 +55,5 @@ Windows Virtual Desktop uses app groups to share RemoteApps with users. When you
 Sign in to [Windows Virtual Desktop](https://aka.ms/wvdweb) using user credentials (not your admin credentials). You should see **Word** and any other apps you added. When you select the app, only the app window opens, hiding the rest of the Windows desktop. 
 
 To assign both full desktops with RemoteApps to a user, provision a second host pool and use the default **Desktop Application Group**.
+
+The last step is to sign in to Windows Virtual Desktop from your browser to validate the deployment.
