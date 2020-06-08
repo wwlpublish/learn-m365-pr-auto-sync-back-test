@@ -30,12 +30,12 @@ roles:
 products:
 - m365
 units:
-- learn-m365.audit-resiliency-continuity.introduction
+- learn-m365.audit-resiliency-continuity.introduction-resiliency-continuity
 - learn-m365.audit-resiliency-continuity.engineering-resilience
 - learn-m365.audit-resiliency-continuity.explore-ebcm-program
 - learn-m365.audit-resiliency-continuity.bcm-assessment-activities
 - learn-m365.audit-resiliency-continuity.bcm-planning-phase
-- learn-m365.audit-resiliency-continuity.capacity-validation
+- learn-m365.audit-resiliency-continuity.capability-validation
 - learn-m365.audit-resiliency-continuity.availability-monitoring-capacity-planning
 - learn-m365.audit-resiliency-continuity.summary-knowledge-check
 badge: 
