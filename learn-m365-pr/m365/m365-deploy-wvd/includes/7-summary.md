@@ -1,4 +1,9 @@
-In this module, you learned how to deploy Windows Virtual Desktop in your environment. We reviewed the options to provision a Windows Virtual Desktop host pool and how to use app groups to share apps with your users. 
+In this module, you learned how to deploy Windows Virtual Desktop in your environment. We reviewed the options to provision a Windows Virtual Desktop host pool and how to use app groups to share apps with your users. Specifically you learned how to:
+
+- Provision Windows Virtual Desktop host pool
+- Make apps available to users with application groups
+- Customize your workspace
+- Intall Windows Virtual Desktop client for Windows
 
 
 ## Learn more

@@ -12,7 +12,6 @@
   - *RemoteApp*, where users access the applications you individually publish to the application group. You may create multiple RemoteApp app groups to accommodate different user scenarios.
   - *Desktop*, where users access the full desktop. By default, the group **Desktop Application Group** is automatically created when you create a host pool.
   
-  You can assigned a user or group to both a desktop application group and a RemoteApp applicaton group in the same host pool. However, users can only launch one type of application group per session. 
 - *Workspace* - A workspace is a logical grouping of application groups in Windows Virtual Desktop. When a user signs in to Windows Virtual Desktop, they see a workspace with either a desktop or applications published to the application groups assigned to them.
 - Load balancing options - 
 
@@ -56,24 +55,25 @@ deploy your VM and connect to an appropriate virtual network subnet, we recommen
 
 Can you select a subnet when provisioning...?
 
-## Domain joining VMs
+## Domain join VMs
 
-To domain join the VMs you create, select yes and specify the full Active Directory domain name to join like contoso.com. If you've set up a test environment with Azure AD DS, use the DNS domain name that's on the properties page for Azure AD DS like adds-contoso.onmicrosoft.com.
+To domain join the VMs you create, you need to specify the full Active Directory domain name to join like contoso.com. If you've set up a test environment with Azure AD DS, use the DNS domain name that's on the properties page for Azure AD DS like adds-contoso.onmicrosoft.com.
 
 You'll need to specify an Administrator account so the provisioning process can join the VMs to the domain. This account needs to be assigned to the Active Directory Domain administrator role.
 
 ## Assign application groups
 
-PS for desktop app group - what's the command for this?
+You can assigned a user or group to both a desktop application group and a RemoteApp applicaton group in the same host pool. However, users can only launch one type of application group per session. 
 
+If a user or group is assigned to multiple remoteapp application groups within the same host pool, they'll see all the applications published with those application groups.
 
-UI for remote app group
+You can assign remoteapp application groups to users or groups in the Azure portal. 
 
-Mention what happens if they're assigned to both.
+To assign a desktop application group, use the following Azure PowerShell command.
 
 ## Set up test environment with Azure AD DS
 
-Include? Or include with prepare module?
+Include? Or include with prepare module? (Needs polish if we include and maybe it's a unit before the next unit or in previous module)
 
 1. Used free trial account/VS subscription & tenant.
 2. Created separate user account and password in Azure AD (hannahj)
