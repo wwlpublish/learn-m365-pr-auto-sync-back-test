@@ -4,7 +4,7 @@ You’ve seen that connectors are needed to route emails from on-premises Exchan
 
 You have a combination of Office 365 mailboxes and on-premises email servers. To enable mail to flow in both directions, you will need to set up connectors. 
 
-:::image type="content" source="../media/3-connector-office-365-email-server.png" alt-text="A workflow diagram shows how connectors enable mail flow to an from online and on-premises mail servers." border="true":::
+:::image type="content" source="../media/3-connector-office-365-email-server.png" alt-text="A workflow diagram shows how connectors enable mail flow to and from online and on-premises mail servers." border="true":::
 
 To ensure the integration is seamless for your users, you'll need two connectors to route email between Microsoft 365 and your on-premises email servers:
 - A connector from Microsoft 365 to your on-premises mail server 
@@ -43,14 +43,14 @@ Before you set up the connector, you need to set up your Microsoft 365 environme
 2. In the Exchange admin center, select **mail flow** and then open the **connectors** tab.
 
    If you have any existing connectors, they will be listed here.  
-   > ![A screenshot shows the Exchange admin center, highlighting the mail flow and connectors](../media/3-mail-flow-connectors-list.png)
+    ![A screenshot shows the Exchange admin center, highlighting the mail flow and connectors](../media/3-mail-flow-connectors-list.png)
    
 3. Select the plus sign (**+**).
 4. Because this connector routes mail from Microsoft 365 to your on-premises email servers: 
 
    - Set **From** to **Office 365**. 
    - Set **To** to your on-premises Exchange mail server. 
-   > ![A screenshot shows setting the taregts for the connectors](../media/3-connector-wizard-office-365-on-premises.png)
+    ![A screenshot shows setting the targets for the connectors](../media/3-connector-wizard-office-365-on-premises.png)
 5. Select **Next**. 
 6. Enter a name and description for the new connector.
 7. Under **What do you want to do after the connector is saved?**, select **Turn it on** and **Retain internal Exchange mail headers**. 
@@ -64,7 +64,7 @@ Before you set up the connector, you need to set up your Microsoft 365 environme
     |Connect only if the recipient's email server certificate matches this criteria |Issued by a trusted certificate authority (CA) |
     |And the subject name or subject alternative name (SAN) matches the domain name|Enter in the on-premises domain |
 
-   > ![A screenshot of the page of the new connector wizard that enforces encryption](../media/3-complete-new-connector.png)
+    ![A screenshot of the page of the new connector wizard that enforces encryption](../media/3-complete-new-connector.png)
 11. Finally, validate the outbound connector. Enter an external email address, select **Validate**. When the validation is successful, select **Save**. 
 
  
@@ -102,7 +102,7 @@ Now, you're ready to make the connection from your on-premises email server to M
 
    - Set **From** to your on-premises Exchange mail server. 
    - Set **To** to **Office 365**. 
-   > ![A screenshot to choose the mail scenarios](../media/3-connector-wizard-on-premises-office-365.png)
+    ![A screenshot to choose the mail scenarios](../media/3-connector-wizard-on-premises-office-365.png)
 5. Select **Next**. 
 6. Enter a name and description for the new connector.
 7. Under **What do you want to do after the connector is saved?**, select **Turn it on** and **Retain internal Exchange mail headers**. 

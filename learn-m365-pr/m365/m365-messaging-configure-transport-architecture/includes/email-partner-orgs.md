@@ -25,15 +25,15 @@ In this example, let's create a connector that will secure emails from your part
 1. In the Exchange admin center, select **mail flow**, and then select **connectors**. 
 2. Click the plus symbol (**+**) to create a new connector.
 3. Set **From** to **Partner organization**, and set **To** to **Office 365**. Click **Next**. 
-   > ![A screenshot of the From and To fields in the new connector wizard](../media/4-partner-org-m365.png)
+    ![A screenshot of the From and To fields in the new connector wizard](../media/4-partner-org-m365.png)
  
 4. On the **How do you want to identify the partner organization?** page, select **Use the sender's domain**.
-   > ![A screenshot of the "How do you want to identify the partner organization" page in the new connector wizard](../media/4-identify-partner-org.png)
+    ![A screenshot of the "How do you want to identify the partner organization" page in the new connector wizard](../media/4-identify-partner-org.png)
 5. Click the **+** to add a new domain. Enter the domain name for your partner, and then click **ok**. 
-   > ![The add domains page of the new connector wizard, with the plus sign highlighted.](../media/4-add-partner-domain.png)
+    ![The add domains page of the new connector wizard, with the plus sign highlighted.](../media/4-add-partner-domain.png)
  
 6. To require encryption, select **Reject email messages if they aren't sent over TLS**.
-   > ![The security restrictions page of the new connector wizard, highlighting the Reject email messages option.](../media/4-apply-security-restrictions.png) 
+    ![The security restrictions page of the new connector wizard, highlighting the Reject email messages option.](../media/4-apply-security-restrictions.png) 
 7. If, instead, you select **And require that the subject name on the certificate that the partner uses to authenticate with Office 365 matches this domain name**, Exchange will check that the connection is from the same DNS domain and that listed in the certificate. This check helps to prevent spoofing.
 
 Now that you have the connector, it's a good idea to contact an administrator at your partner company and ask them to send an email to a valid mailbox in your Exchange Online system. If the email arrives, you can be confident that your new connector works. 
