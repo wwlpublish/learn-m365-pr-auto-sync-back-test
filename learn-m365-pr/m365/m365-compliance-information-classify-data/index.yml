@@ -12,10 +12,10 @@ title: Classify data for protection and governance
 summary:  Learn about the information available to help you understand your data landscape and know your data.
 abstract: |
   Upon completion of this module, you should be able to: 
-  -     List the components of the Data Classification solution.
-  -     Identify the cards available on the Data Classification overview tab.
-  -     Explain the Content explorer and Activity explorer.
-  -     Describe how to use sensitive information types and trainable classifiers.
+  - List the components of the Data Classification solution.
+  - Identify the cards available on the Data Classification overview tab.
+  - Explain the Content explorer and Activity explorer.
+  - Describe how to use sensitive information types and trainable classifiers.
 
   prerequisites: | 
    - Cloud computing concepts. If you are unfamiliar with this topic, we recommend you take [Cloud Concepts - Principles of cloud computing](https://docs.microsoft.com/learn/modules/principles-cloud-computing/)
