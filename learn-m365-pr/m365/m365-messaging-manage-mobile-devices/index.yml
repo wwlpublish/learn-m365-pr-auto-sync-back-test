@@ -18,7 +18,7 @@ abstract: |
   - Support more mobile devices by using Exchange ActiveSync.
  
 prerequisites: |
- - Basic understanding of Microsoft 365. 
+ - Basic understanding of Microsoft 365
  - Familiarity with Exchange Online, authentication methods
 iconUrl: /learn/achievements/manage-mobile-devices.svg
 levels:
