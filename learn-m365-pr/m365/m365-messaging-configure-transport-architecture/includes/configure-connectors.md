@@ -49,7 +49,7 @@ Before you set up the connector, you need to set up your Microsoft 365 environme
 4. Because this connector routes mail from Microsoft 365 to your on-premises email servers: 
 
    - Set **From** to **Office 365**. 
-   - Set **To** to your on-premises Exchange mail server. 
+   - Set **To** to your on-premises Exchange mail server.   
 
     ![A screenshot shows setting the targets for the connectors](../media/3-connector-wizard-office-365-on-premises.png)
 5. Select **Next**. 
@@ -103,7 +103,7 @@ Now, you're ready to make the connection from your on-premises email server to M
 4. Because this connector routes mail from the on-premises email server to Microsoft 365: 
 
    - Set **From** to your on-premises Exchange mail server. 
-   - Set **To** to **Office 365**. 
+   - Set **To** to **Office 365**.   
 
 
     ![A screenshot to choose the mail scenarios](../media/3-connector-wizard-on-premises-office-365.png)
