@@ -2,7 +2,7 @@
 
 Resilience is a critical component of Microsoft service availability, but even resilient services can be impacted by unexpected events. Microsoft’s Enterprise Business Continuity Management (EBCM) Program helps to ensure our online services are prepared to recover quickly from unexpected events using detailed, validated business continuity plans.
 
-## EBCM team structure ##
+## EBCM team structure
 
 The EBCM Program Management Office provides governance, oversight, and support for business continuity management (BCM) across Microsoft. The related Business Continuity Council of Microsoft senior management representatives is chartered to drive business continuity sponsorship, awareness, resource allocation, and program accountability across their respective business units. Together, these teams drive compliance with the Microsoft business continuity management (BCM) framework across the enterprise.
 
@@ -18,25 +18,25 @@ The EBCM program is tightly aligned with Internal Audit and the Microsoft Enterp
 - Microsoft 365 Incident Communication and Coordination – Microsoft 365 team that functions as a central hub for internal and external communication during an incident of Microsoft 365 Services.
 - Customer Service and Support – Team responsible for handling customer-reported issues. Serves as a first point of contact for customers in the event of a disaster.
 
-## BCM framework ##
+## BCM framework
 
 In addition to facilitating cooperation on business continuity, Microsoft’s EBCM program provides a consistent BCM framework that is implemented by business units across the enterprise. This framework addresses the recovery and continuity of critical business functions, services, and data required to maintain an acceptable level of operations during an incident. Use of a common framework ensures the existence of effective, reliable, well-tested plans, systems, and processes which can be counted on to support business continuity and minimize adverse impacts during a disruptive event.
 
-![A graphical representation of how EBCM program work with Microsoft Business Units. EBCM program is responsible for governance, compliance, and guidance. Microsoft Business Units are responsible for following EBCM methodology and policy and collaborate with EBCM program in different aspects.](../media/ebcm-program.png)
+![A graphical representation of how EBCM program work with Microsoft Business Units. EBCM program is responsible for governance, compliance, and guidance. Microsoft Business Units are responsible for following EBCM methodology and policy and collaborate with EBCM program in different aspects.](../media/program.png)
 
 Specific objectives of the BCM framework include:
 
 - Integrating enterprise-level risk analysis to support informed business decisions on risk tolerance, avoidance, and mitigation.
 - Implementing proven methodologies to assist business areas in resuming their business operations quickly, cost-effectively, and with minimal impact on customers.
 
-## BCM lifecycle ##
+## BCM lifecycle
 
 At the core of our BCM methodology is the BCM lifecycle. This process is designed to be adaptable so it can be implemented by a wide variety of business models across Microsoft. The phases of the BCM lifecycle guide each business unit at Microsoft through developing and implementing effective business continuity plans.
 
 The BCM lifecycle is comprised of three high-level phases. It begins with an initial **Assessment**, which involves identifying critical processes and objectives that should be included in the business continuity program. The **Planning** phase focuses on developing and implementing resilience and recovery strategies, as well as documenting them in official business continuity plans. Finally, **Capability Validation** tests business continuity plans and their implementations to verify effectiveness and identify improvements.
 
-![A diagram of the BCM lifecycle - assessment, planning, and capacity validation](../media/bcm-lifecycle.png)
+![A diagram of the BCM lifecycle - assessment, planning, and capacity validation](../media/lifecycle.png)
 
-## Learn more ##
+## Learn more
 
 [Microsoft Enterprise Business Continuity Management Program Description](https://aka.ms/EBCMProgramDesc?azure-portal=true)

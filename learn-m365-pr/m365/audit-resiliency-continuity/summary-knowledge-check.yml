@@ -55,7 +55,7 @@ quiz:
       choices:
       - content: "At least once per calendar year"
         isCorrect: false
-        explanation: "Correct. The Red Team performs attack simulations to test the detection and response capabilities of Microsoft 365 services."
+        explanation: "Capacity models must be reviewed and updated more frequently than this."
       - content: "At least once per quarter"
         isCorrect: true
         explanation: "Correct. Capacity models must be reviewed and updated quarterly. If the model indicates that existing capacity is insufficient to sustain availability during an emergency situation, then service teams propose, submit, and implement changes to increase capacity."

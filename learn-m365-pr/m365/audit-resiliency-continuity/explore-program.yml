@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.audit-resiliency-continuity.bcm-assessment-activities
-title: Understand BCM assessment activities
+uid: learn-m365.audit-resiliency-continuity.explore-program
+title: Explore Microsoft’s Enterprise Business Continuity Management (EBCM) program
 metadata:
-  title: Understand BCM assessment activities
+  title: Explore Microsoft’s Enterprise Business Continuity Management (EBCM) program
   description: Learn how Microsoft 365 builds resilient services to meet customer expectations in the face of faults and challenges to normal operations, maintains optimal service availability, and fulfills business continuity requirements.
   ms.date: 06/05/2020
   author: NamrahK
   ms.author: v-nakhu
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 2
+durationInMinutes: 7
 content: |
-  [!include[](includes/bcm-assessment-activities.md)]
+  [!include[](includes/explore-program.md)]
