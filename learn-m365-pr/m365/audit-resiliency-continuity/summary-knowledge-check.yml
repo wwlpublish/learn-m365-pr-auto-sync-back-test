@@ -1,0 +1,76 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.audit-resiliency-continuity.summary-knowledge-check
+title: Summary and Knowledge Check
+metadata:
+  title: Summary and Knowledge Check
+  description: Learn how Microsoft 365 builds resilient services to meet customer expectations in the face of faults and challenges to normal operations, maintains optimal service availability, and fulfills business continuity requirements.
+  ms.date: 06/05/2020
+  author: NamrahK
+  ms.author: v-nakhu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "What frequency of Capability Validation is required by the Microsoft BCM lifecycle?"
+      choices:
+      - content: "At least once per calendar year"
+        isCorrect: false
+        explanation: "The Business Continuity Plan must be validated within 12 months of the last test."
+      - content: "At least once per quarter"
+        isCorrect: false
+        explanation: "While capacity models must be reviewed quarterly, Capability Validation occurs on a different cadence."
+      - content: "Within 12 months of the last test"
+        isCorrect: true
+        explanation: "Correct. The Business Continuity Plan must be validated within 12 months of the last test."
+      
+    - content: "Which of the following is a phase of the BCM lifecycle?"
+      choices:
+      - content: "Disaster Recovery"
+        isCorrect: false
+        explanation: "While Disaster Recovery planning is a part of business continuity management, Disaster Recovery is not a phase of the BCM lifecycle."
+      - content: "Assessment"
+        isCorrect: true
+        explanation: "Correct. BCM Assessment activities are used to identify critical processes and services, map their dependencies, and perform a Business Impact Assessment (BIA)."
+      - content: "Workforce Disruption"
+        isCorrect: false
+        explanation: "A Workforce Disruption is an example of an event that could impact business continuity, but it is not part of the BCM lifecycle."
+      
+    - content: "Which one of these statements inaccurately describes Microsoft 365’s resiliency and continuity?"
+      choices:
+      - content: "Microsoft 365 Services are deployed with Active/Passive design."
+        isCorrect: true
+        explanation: "Correct. Microsoft 365 Services are deployed with Active/Active design wherever possible, so they remain resilient against component failures."
+      - content: "Exchange Online Database Availability Groups is one example of fault isolation."
+        isCorrect: false
+        explanation: "Exchange Online Database Availability Groups are a prime example of fault isolation. If one availability group fails, other availability groups continue to function, maintaining the availability of the service."
+      - content: "The Planning phase of the BCM lifecycle focuses on developing and implementing resilience and recovery strategies, as well as documenting them in official business continuity plans."
+        isCorrect: false
+        explanation: "The Planning phase of the BCM lifecycle does include all of these activities, which are part of Microsoft 365’s resiliency and continuity."
+
+    - content: "How often are capacity models reviewed and updated at Microsoft?"
+      choices:
+      - content: "At least once per calendar year"
+        isCorrect: false
+        explanation: "Correct. The Red Team performs attack simulations to test the detection and response capabilities of Microsoft 365 services."
+      - content: "At least once per quarter"
+        isCorrect: true
+        explanation: "Correct. Capacity models must be reviewed and updated quarterly. If the model indicates that existing capacity is insufficient to sustain availability during an emergency situation, then service teams propose, submit, and implement changes to increase capacity."
+      - content: "Within 12 months of the last update"
+        isCorrect: false
+        explanation: "Capacity models must be reviewed and updated more frequently than this."
+
+    - content: "Which team at Microsoft is responsible for driving business continuity sponsorship, awareness, resource allocation, and program accountability across Microsoft business units?"
+      choices:
+      - content: "Business Continuity Council"
+        isCorrect: true
+        explanation: "Correct. The Business Continuity Council of Microsoft senior management representatives is chartered to drive business continuity sponsorship, awareness, resource allocation, and program accountability across their respective business units."
+      - content: "EBCM Program Management Office"
+        isCorrect: false
+        explanation: "The EBCM Program Management Office provides governance, oversight, and support for business continuity management across Microsoft."
+      - content: "Service teams"
+        isCorrect: false
+        explanation: "Service teams implement business continuity management using the BCM lifecycle."
