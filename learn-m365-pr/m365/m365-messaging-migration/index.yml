@@ -18,7 +18,7 @@ abstract: |
   - Plan a migration from non-Microsoft systems.
 prerequisites: |
  - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
-iconUrl: learn/achievements/plan-implement-mailbox-migration.svg
+iconUrl: /learn/achievements/plan-implement-mailbox-migration.svg
 levels:
 - intermediate
 roles:
