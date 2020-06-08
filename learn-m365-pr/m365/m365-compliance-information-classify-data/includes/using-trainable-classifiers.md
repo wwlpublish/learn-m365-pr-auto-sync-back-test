@@ -66,7 +66,7 @@ Choose the **Tested items to review** tab to review and evaluate items. You will
 
 Once you have reviewed enough items and accuracy reaches at least 70%, you can publish the trainable classifier or continue to improve the accuracy of the model by conducting additional testing and evaluation.
 
-   ![Publish trainable classifier with status Ready to use](../media/ready-to-user.png) 
+   ![Publish trainable classifier with status Ready to use](../media/ready-to-use.png) 
 
 ### Publish
 Publish the trainable classifier when you are satisfied with the results from the predictive model. Once published, your custom trainable classifier will be available in selected compliance solutions. 
