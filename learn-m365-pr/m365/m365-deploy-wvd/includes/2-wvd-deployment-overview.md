@@ -46,21 +46,21 @@ You choose the image type Azure uses to create the virtual machine, either Galle
 
 ## Virtual network options
 
-We discussed the virtual network requirements in the module Prepare for Windows Virtual Desktop in Microsoft Azure. The virtual network you specific for the host pool provisioning process must be connected to your domain and allow outbound access to the URLs that support Windows Virtual Desktop.
+We discussed the virtual network requirements in the module Prepare for Windows Virtual Desktop in Microsoft Azure. The virtual network you specify for the host pool provisioning process must be connected to your domain and allow outbound access to the URLs that support Windows Virtual Desktop. You'll need to join the virtual machines inside the virtual network to the domain.
 
-For example, if you're using Azure Active Directory Domain Services (Azure AD DS), you would 
+If you're using Azure Active Directory Domain Services (Azure AD DS), we recommend that an Azure AD DS managed domain is deployed into its own dedicated subnet. Don't deploy your VM in the same subnet as your Azure AD DS managed domain. To
+deploy your VM and connect to an appropriate virtual network subnet, we recommend one of the following options:
 
-|Virtual network     |  Select virtual network you've created that can connect to the domain controller. You'll need to join the virtual machines inside the virtual network to the domain.       |
-   |Public IP     | Select whether or not you want a public IP for the virtual machines. We recommend you select No, because a private IP is more secure.        |
-   |Network security group    | Select what kind of security group you want: Basic, Advanced, or None. If you choose Advanced, select an existing network security group that you've already configured.        |
-   |Public inbound ports     | If you select Basic, select yes or no to specify whether you want inbound ports open.        |
-   |inbound ports to allows     | For public inbound ports, choose from the list of standard ports like HTTP (80), HTTPS (443), SSH (22), RDP (3389). 
+- Create or select an existing, subnet in the same the virtual network as your Azure AD DS managed domain is deployed.
+- Select a subnet in an Azure virtual network that is connected to it using Azure virtual network peering.
 
+Can you select a subnet when provisioning...?
 
 ## Domain joining VMs
 
-A user account that's a part of the Azure AD DS managed domain.
-Make sure that Azure AD Connect password hash synchronization or self-service password reset has been performed so the account is able to sign in to Azure AD DS managed domain.
+To domain join the VMs you create, select yes and specify the full Active Directory domain name to join like contoso.com. If you've set up a test environment with Azure AD DS, use the DNS domain name that's on the properties page for Azure AD DS like adds-contoso.onmicrosoft.com.
+
+You'll need to specify an Administrator account so the provisioning process can join the VMs to the domain. This account needs to be assigned to the Active Directory Domain administrator role.
 
 ## Assign application groups
 
