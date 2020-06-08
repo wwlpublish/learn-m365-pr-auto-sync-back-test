@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.deploy-wvd.provision-host-pool
+title: Provision a Windows Virtual Desktop host pool 
+metadata:
+  title: Provision a Windows Virtual Desktop host pool
+  description: Review the preparation needed for Windows Virtual Desktop.
+  ms.date: 05/29/2020
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/3-provision-host-pool.md)]

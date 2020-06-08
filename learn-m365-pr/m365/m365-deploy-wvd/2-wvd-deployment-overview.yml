@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.deploy-wvd.provision-host-pool
+uid: learn-m365.deploy-wvd.wvd-deployment-overview
 title: Provision a Windows Virtual Desktop host pool 
 metadata:
   title: Provision a Windows Virtual Desktop host pool
@@ -11,4 +11,4 @@ metadata:
   ms.prod: learning-m365
 durationInMinutes: 5
 content: |
-  [!include[](includes/2-provision-host-pool.md)]
+  [!include[](includes/2-wvd-deployment-overview.md)]

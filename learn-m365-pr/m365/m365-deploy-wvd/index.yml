@@ -25,6 +25,7 @@ products:
 - m365
 units:
 - learn-m365.deploy-wvd.introduction
+- learn-m365.deploy-wvd.wvd-deployment-overview
 - learn-m365.deploy-wvd.provision-host-pool
 - learn-m365.deploy-wvd.configure-remote-apps
 - learn-m365.deploy-wvd.customize-workspace

@@ -18,7 +18,7 @@ Now that your Windows Virtual Desktop tenant is available and you've set up the 
    |Resource group     | Create a new resource group or select an existing resource group.    |
    |Host pool name     |  Enter a unique name for your host pool.       |
    |Location    | Azure region where Metadata will be stored        |
-   |Host pool type     |  Pooled  or personal. Pooled is where several users sign in and share a VM. Typically, none of those users would be a local administrator on the pooled VM. Personal is where each user has their own dedicated VM and they'd typically be a local administrator for that VM. Select personal where you're using Windows 10 single session. If you select personal, you select the assignment type: automatic or direct. |
+   |Host pool type     |  Pooled  or personal. Select pooled for shared VMs.  Select personal for user dedicated VMs. If you select personal, you select the assignment type: automatic or direct. |
    |Max session limit    | Enter the maximum number of users you want load-balanced to a single session host.|
    |Load balancing algorithm    | Choose either breadth-first or depth-first, based on your usage pattern. |
 1. Select **Next: Virtual Machines**.
@@ -37,13 +37,13 @@ Now that your Windows Virtual Desktop tenant is available and you've set up the 
    |Resource group    |  Choose the resource group where you want to create the virtual machines. This can be a different resource group than the one you used for the host pool.       |
    |Virtual machine location     | Region where you want to create the virtual machines. The location can be same or different from the region you selected for the host pool.        |
    |Virtual machine size     | Choose the size of the virtual machine you want to create. You can either keep the default size as-is or select Change Size to pick a size more suitable for your workload.        |
-   |Number of VMs     |  Provide the number of VMs you want to create for your host pool. The setup process can create up to 400 VMs while setting up your host pool, and each VM setup process creates four objects in your resource group. The creation process doesn't check your subscription quota. So make sure the number of VMs you enter is within the Azure VM and API limits for your resource group and subscription. You can add more VMs after you finish creating your host pool.      |
+   |Number of VMs     |  Provide the number of VMs you want to create for your host pool.  |
    |Name prefix     |  Name the virtual machines the setup process creates. The process adds numerical suffixes to each VM starting with 0.       |
-   |Image type     |  Choose the image type Azure uses to create the virtual machine. You can choose either Gallery or Storage blob.  Gallery allows you to pick a recommended image like Windows 10 Enterprise multi-session + Office 365. Storage blob allows you to use your own image built through Hyper-V or on an Azure VM.  |
-   |Image     |  For Gallery, select one of the recommended images from the drop-down menu. If you don't see the image you want, select Browse all images and disks. Browse lets you select another image in your gallery or an image provided by Microsoft and other publishers.        |
+   |Image type     |  Choose the image type Azure uses to create the virtual machine. You can choose either Gallery or Storage blob.    |
+   |Image     |  For Gallery, select one of the recommended images from the drop-down menu or browse all images and disks. |
    |Image URI    |   For Storage blob, add the URL to the generalized VHD from your Azure Storage account. |
    |OS disk type     | Choose what kind of OS disks you want your VMs to use: Standard SSD, Premium SSD, or Standard HDD.     |
-   |Use managed disks     | For Storage blob image type, we recommend you choose yes for most VM configurations. You'd choose no where you want to use unmanaged disks for classic scenarios or to manage VHDs in your storage account.  |
+   |Use managed disks     | For Storage blob image type, choose yes for most VM configurations. |
    |Storage account     | For Storage blob image type, select the Azure storage account that contains your image.       |
    |Virtual network     |  Select virtual network you've created that can connect to the domain controller. You'll need to join the virtual machines inside the virtual network to the domain.       |
    |Public IP     | Select whether or not you want a public IP for the virtual machines. We recommend you select No, because a private IP is more secure.        |
