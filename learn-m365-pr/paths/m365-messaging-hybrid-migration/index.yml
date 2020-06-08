@@ -13,7 +13,7 @@ summary: "The **Plan a Microsoft 365 Messaging hybrid configuration and migratio
 prerequisites: | 
  - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
  - A working knowledge of Exchange Online authentication types, licensing, and integration with Microsoft 365 applications.
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/plan-microsoft-365-messaging-hybrid-configuration-migration.svg
 levels:
 - intermediate
 roles:
