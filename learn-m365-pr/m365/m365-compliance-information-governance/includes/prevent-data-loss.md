@@ -9,5 +9,5 @@ You can adjust your response based on if the sensitive information is shared wit
 ## Amount shared
 You may determine a user sharing a single credit card number is not as serious as a user sharing 1000 credit card numbers. DLP allows you to respond differently to an oversharing incident based on the amount of data being shared. 
 
-## Sensitivity level
-You might do something as simple as prompt the user with a tool tip to educate them about sensitive data sharing when that data has a low sensitivity level. Sharing of more sensitive information might result in an incident report being sent to administrators. Sharing of the most sensitive data could result in blocking content sharing and the content being encrypted.
+## Exposure impact
+You might do something as simple as prompt the user with a tool tip to educate them about sensitive data sharing when the impact of exposing that data is relatively low. Sharing of more sensitive information might result in an incident report being sent to administrators. Sharing of the most sensitive data could result in blocking content sharing and the content being encrypted.
