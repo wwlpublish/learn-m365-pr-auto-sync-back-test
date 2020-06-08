@@ -49,8 +49,6 @@ Retention policies and retention label policies help you keep what you want and 
 ## Classify data directly in Office apps
 Microsoft makes the process of classifying, labeling, and protecting content a consistent and easy experience for users. Users apply and update labels while working in Word, PowerPoint, Excel, and Outlook. With built-in labeling, sensitivity labeling capability is integrated natively into Office apps. No plug-ins or add-ons are required for most users running the latest Office releases. The same labels and policies apply across Office on Mac, iOS, Android, Windows, and web. 
 
-
- 
 ### Manual labeling on all platforms
 Built-in manual labeling is available on all Office app platforms. Windows users must be running Microsoft 365 Apps for enterprise (formerly known as Office 365 ProPlus) version 1910 or later, or an add-on will still be required. A Microsoft 365 Apps for enterprise subscription is also required for macOS users.
 
