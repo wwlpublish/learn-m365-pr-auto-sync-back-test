@@ -65,6 +65,7 @@ Before you set up the connector, you need to set up your Microsoft 365 environme
     |Connect only if the recipient's email server certificate matches this criteria |Issued by a trusted certificate authority (CA) |
     |And the subject name or subject alternative name (SAN) matches the domain name|Enter in the on-premises domain |
 
+
     ![A screenshot of the page of the new connector wizard that enforces encryption](../media/3-complete-new-connector.png)
 11. Finally, validate the outbound connector. Enter an external email address, select **Validate**. When the validation is successful, select **Save**. 
 
@@ -103,7 +104,8 @@ Now, you're ready to make the connection from your on-premises email server to M
 
    - Set **From** to your on-premises Exchange mail server. 
    - Set **To** to **Office 365**. 
-   
+
+
     ![A screenshot to choose the mail scenarios](../media/3-connector-wizard-on-premises-office-365.png)
 5. Select **Next**. 
 6. Enter a name and description for the new connector.
