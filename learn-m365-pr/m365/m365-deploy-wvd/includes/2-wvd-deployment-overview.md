@@ -6,7 +6,7 @@
 
 - *Workspace* - A workspace is a logical grouping of application groups in Windows Virtual Desktop. When a user signs in to Windows Virtual Desktop, they see a workspace with either a desktop or applications published to the application groups assigned to them.
 - *Host pool* - A host pool is a collection of Azure virtual machines (VMs) that act as session hosts for Windows Virtual Desktop. 
-  - *Pooled* - You can configure a *pooled* host pool where several users sign in and share a VM. Typically, none of those users would be a local administrator on the pooled VM.
+  - *Pooled* - You can configure a *pooled* host pool where several users sign in and share a VM. Typically, none of those users would be a local administrator on the pooled VM. With pooled, you can use one of the recommended images that include Windows 10 Enterprise multi-session. This OS is exclusive to Windows Virtual Desktop.
   - *Personal* - A *personal* host pool is where each user has their own dedicated VM. Those users would typically be a local administrator for the VM. So they could install or uninstall apps without impacting other users.
 - *Application groups* - An application group is a logical grouping of applications installed on session hosts in the host pool. An application group can be one of two types:
 

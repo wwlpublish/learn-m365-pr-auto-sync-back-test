@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: Review what you've learned.
-  ms.date: 05/29/2020
+  ms.date: 06/09/2020
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
@@ -13,30 +13,36 @@ durationInMinutes: 3
 quiz:
     title: Check your knowledge
     questions:
-    - content: "When you create a Windows Virtual Desktop host pool, you must specify which type of desktop you want to use. Which of the following is NOT one of the desktop types?"
+    - content: "You have a group of developers that need virtual desktops that they can manage. What type of host pool do you create for them?"
       choices:
-      - content: "Local desktop"
+      - content: "Personal"
         isCorrect: true
-        explanation: "Correct, Windows Virtual Desktop delivers remote desktop and remote app experiences. It is the opposite of a local desktop."
-      - content: "Personal desktop"
+        explanation: "With a personal host pool, each user has their own dedicated VM. They can be a local administrators for their VM to manage app installation."
+      - content: "Local"
         isCorrect: false
-        explanation: "Incorrect. A personal desktop is one of the available desktop types. This is where each user has their own personal virtual machine. This is useful if the VM needs to be dedicated to one user and that user is a local admin."        
-      - content: "Pooled desktop"
+        explanation: "Local isn't one of the host pool types."        
+      - content: "Pooled"
         isCorrect: false
-        explanation: "Incorrect. A pooled desktop is one of the available desktop types. Pooled desktops allow multiple user accounts to log into the same virtual machine. Pooled desktops in general are more efficient and less expensive in multi-user environments."
-    - content: "The Windows 10 Enterprise multi-session client operating system image is exclusive to Windows Virtual Desktop. On-premises deployments must use Windows Server for multiple concurrent users."
+        explanation: "Pooled desktops allow multiple user accounts to log into the same virtual machine. Typically these users wouldn't be local administrators on the VMs."
+    - content: "If you create a pooled host pool, what VM image should you use?"
       choices:
-      - content: "True"
-        isCorrect: true
-        explanation: "Correct, Windows 10 Enterprise multi-session can only be used with Windows Virtual Desktop in Microsoft Azure."
-      - content: "False"
+      - content: "Windows 10 Enterprise multi-session"
         isCorrect: false
-        explanation: "Incorrect. Windows 10 Enterprise multi-session can only be used with Windows Virtual Desktop in Microsoft Azure."
-    - content: "You can assign users both apps and a remote desktop from the same host pool in the same app group using Windows Virtual Desktop."
+        explanation: "It's one of the recommended images but you can choose an image you've built."
+      - content: "VM image that can support multi-session and your workload"
+        isCorrect: true
+        explanation: "We recommend you use Windows 10 Enterprise multi-session for most use cases but you can use an image you've built."
+      - content: "Windows 10"
+        isCorrect: false
+        explanation: "You can use Windows 10 for a personal host pool but not for pooled."
+    - content: "You want to allow your users access to both apps and a remote desktop. How do you give them access?"
       choices:
-      - content: "True"
+      - content: "You can't. Users can only belong to one application group type."
         isCorrect: false
-        explanation: "Incorrect. A host pool can have one app group assigned per user. App groups can have one or more apps or one remote desktop."
-      - content: "False"
+        explanation: "Users can be assigned to a multiple application groups."
+      - content: "Create a RemoteApp application group and assign it to Azure AD users or groups."
+        isCorrect: false
+        explanation: "Users will have access to the apps published to the application group but not to a remote desktop."
+      - content: "Assign the RemoteApp and desktop application groups to your users."
         isCorrect: true
-        explanation: "Correct. A host pool can have one app group assigned per user. App groups can have one or more apps or one remote desktop."
+        explanation: "You can assign users to both a desktop application group and a RemoteApp application group in the same host pool. But users can only launch one type of application group per session."
