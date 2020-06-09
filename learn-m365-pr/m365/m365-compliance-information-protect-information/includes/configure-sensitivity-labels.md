@@ -11,7 +11,7 @@ Here are the steps involved in sensitivity label configuration:
 - Auto-labeling for Office apps
 - Review your settings
 
- ![Sensitivity label classification](../media/sensitivity-label-classification.png) 
+ ![Sensitivity label configuration](../media/sensitivity-label-configuration.png) 
 
 ### Step 1: Name & Description
 The step consists of providing the following information:
@@ -63,7 +63,7 @@ Content marking adds custom headers, footers, and watermarks to email messages o
 - Footer
 
 Options to customize the text displayed include font size, font color and alignment.
-![Content marketing](../media/content-marketing.png)  
+![Content marking](../media/content-marking.png)  
 
 ### Step 4: Site and group settings (preview)
 When you create sensitivity labels in the Microsoft 365 compliance center, you can now apply them to the following containers: 

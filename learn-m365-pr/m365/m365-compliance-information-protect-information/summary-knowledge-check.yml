@@ -73,6 +73,6 @@ quiz:
         isCorrect: false
         explanation: "Because this labeling is applied by services rather than by applications, you don't need to worry about what apps users have and what version. As a result, this capability is immediately available throughout your organization and suitable for labeling at scale."
       - content: "Labeling is applied manually "
-        isCorrect: true
+        isCorrect: false
         explanation: "Because this labeling is applied by services rather than by applications, you don't need to worry about what apps users have and what version. As a result, this capability is immediately available throughout your organization and suitable for labeling at scale."
       
