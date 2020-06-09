@@ -39,8 +39,8 @@ Windows Virtual Desktop uses app groups to share RemoteApps with users. When you
    |Description    | Description of the application.    |
    |Icon path    |  Path to the application icon.    |
    |Icon index    |   ???   |
-   |Show in web feed    |    ??  |
-   |Require command line    |  ??    |
+   |Show in web feed    |  Select yes to ...  |
+   |Require command line    |  You can pass parameters or run an app with predefined settings.   |
 
 1. Select **Next: Workspace**.
 

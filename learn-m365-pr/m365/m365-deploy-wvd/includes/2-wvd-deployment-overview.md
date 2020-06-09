@@ -4,15 +4,15 @@
 
 ## Terminology
 
+- *Workspace* - A workspace is a logical grouping of application groups in Windows Virtual Desktop. When a user signs in to Windows Virtual Desktop, they see a workspace with either a desktop or applications published to the application groups assigned to them.
 - *Host pool* - A host pool is a collection of Azure virtual machines (VMs) that act as session hosts for Windows Virtual Desktop. 
-  - *Pooled* - You can configure a *pooled* host pool where several users sign in and share a VM. Typically, none of those users would be a local administrator on the pooled VM. 
-  - *Personal* - A *personal* host pool is where each user has their own dedicated VM. Those users would typically be a local administrator for the VM.
+  - *Pooled* - You can configure a *pooled* host pool where several users sign in and share a VM. Typically, none of those users would be a local administrator on the pooled VM.
+  - *Personal* - A *personal* host pool is where each user has their own dedicated VM. Those users would typically be a local administrator for the VM. So they could install or uninstall apps without impacting other users.
 - *Application groups* - An application group is a logical grouping of applications installed on session hosts in the host pool. An application group can be one of two types:
 
-  - *RemoteApp*, where users access the applications you individually publish to the application group. You may create multiple RemoteApp app groups to accommodate different user scenarios.
+  - *RemoteApp*, where users access the applications you individually publish to the application group. You can create multiple RemoteApp app groups to accommodate different user scenarios. Use RemoteApp to virtualize an app that runs on a legacy OS or one that needs secured access to corporate resources.
   - *Desktop*, where users access the full desktop. By default, the group **Desktop Application Group** is automatically created when you create a host pool.
   
-- *Workspace* - A workspace is a logical grouping of application groups in Windows Virtual Desktop. When a user signs in to Windows Virtual Desktop, they see a workspace with either a desktop or applications published to the application groups assigned to them.
 - Load balancing options - 
 
    - *Breadth-first* - Distributes new user sessions across all available session hosts in the host pool. When you configure breadth-first load balancing, you may set a maximum session limit per session host in the host pool.
@@ -24,7 +24,7 @@ When you create a Windows Virtual Desktop host pool, you can choose to create ne
 
 ### Number of VMs
 
-You can create up to 400 VMs while setting up your host pool. Each VM setup process creates four objects in your resource group. The creation process doesn't check your subscription quota. So make sure the number of VMs you enter is within the Azure VM and API limits for your resource group and subscription. You can add more VMs after you finish creating your host pool.
+You can create up to 159 VMs when you first create your host pool. Each VM setup process creates four objects in your resource group plus some additional Azure Resource Manager objects. So you can quickly reach the 800 Azure resources per deployment limit. You can add more VMs after you finish creating your host pool. Check the Azure VM and API limits for your resource group and subscription.
 
 ### VM sizing
 
@@ -53,8 +53,6 @@ deploy your VM and connect to an appropriate virtual network subnet, we recommen
 - Create or select an existing, subnet in the same the virtual network as your Azure AD DS managed domain is deployed.
 - Select a subnet in an Azure virtual network that is connected to it using Azure virtual network peering.
 
-Can you select a subnet when provisioning...?
-
 ## Domain join VMs
 
 To domain join the VMs you create, you need to specify the full Active Directory domain name to join like contoso.com. If you've set up a test environment with Azure AD DS, use the DNS domain name that's on the properties page for Azure AD DS like adds-contoso.onmicrosoft.com.
@@ -63,13 +61,19 @@ You'll need to specify an Administrator account so the provisioning process can 
 
 ## Assign application groups
 
-You can assigned a user or group to both a desktop application group and a RemoteApp applicaton group in the same host pool. However, users can only launch one type of application group per session. 
+You can assigned a user or group to both a desktop application group and a RemoteApp application group in the same host pool. However, users can only launch one type of application group per session. 
 
-If a user or group is assigned to multiple remoteapp application groups within the same host pool, they'll see all the applications published with those application groups.
+If a user or group is assigned to multiple RemoteApp application groups within the same host pool, they'll see all the applications published to those application groups.
 
-You can assign remoteapp application groups to users or groups in the Azure portal. 
+You can assign RemoteApp application groups to users or groups in the Azure portal. We walk through that process in a later unit.
 
-To assign a desktop application group, use the following Azure PowerShell command.
+To assign a desktop application group, use the Azure PowerShell cmdlet `New-AzRoleAssignment`. For example, you'd run the following command to assign the user "hannahj" to the role "Desktop Virtualization Use" at the scope of the resource group that contains the desktop application group:
+
+```powershell
+
+ New-AzRoleAssignment -SignInName "hannahj@contoso.onmicrosoft.com" -RoleDefinitionName "Desktop Virtualization User" -ResourceGroupName "contoso-wvd-rg"
+
+```
 
 ## Set up test environment with Azure AD DS
 
@@ -78,8 +82,8 @@ Include? Or include with prepare module? (Needs polish if we include and maybe i
 1. Used free trial account/VS subscription & tenant.
 2. Created separate user account and password in Azure AD (hannahj)
 3. Created Active AD Domain Services (follow directions in tutorial article).
-4. Update DNS settings for VNET (button you click in overview page after setup: https://docs.microsoft.com/en-us/azure/active-directory-domain-services/tutorial-create-instance#update-dns-settings-for-the-azure-virtual-network)
-5. Enable user accounts (by turning on SSPR in AD) - https://docs.microsoft.com/en-us/azure/active-directory-domain-services/tutorial-create-instance#enable-user-accounts-for-azure-ad-ds
+4. Update DNS settings for VNET (button you click in overview page after setup: https://docs.microsoft.com/azure/active-directory-domain-services/tutorial-create-instance#update-dns-settings-for-the-azure-virtual-network)
+5. Enable user accounts (by turning on SSPR in AD) - https://docs.microsoft.com/azure/active-directory-domain-services/tutorial-create-instance#enable-user-accounts-for-azure-ad-ds
 6. Signed in as hannahj and reset password (per article) - wait 30 mins
 7. Add hannahj to AAD DC admin group in AD.
 8. When creating host pool, for **Domain to join**, use DNS domain name that shows on the properties page for Azure AD DS like adds-contoso.onmicrosoft.com.

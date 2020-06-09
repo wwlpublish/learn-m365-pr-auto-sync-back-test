@@ -8,6 +8,7 @@ In this module, you learned how to deploy Windows Virtual Desktop in your enviro
 
 ## Learn more
 
+-[Azure subscription and service limits, quotas, and constraints](https://docs.microsoft.com/azure/azure-resource-manager/management/azure-subscription-service-limits)
 - [Set up the PowerShell module for Windows Virtual Desktop](https://docs.microsoft.com/azure/virtual-desktop/powershell-module)
 - [Windows Virtual Desktop Cmdlets for Windows PowerShell](https://docs.microsoft.com/powershell/windows-virtual-desktop/overview)
 - [Resource naming and tagging decision guide](https://docs.microsoft.com/azure/cloud-adoption-framework/decision-guides/resource-tagging/?toc=/azure/azure-resource-manager/management/toc.json)
