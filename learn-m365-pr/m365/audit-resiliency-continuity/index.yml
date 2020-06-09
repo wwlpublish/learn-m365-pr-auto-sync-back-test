@@ -31,12 +31,12 @@ products:
 - m365
 units:
 - learn-m365.audit-resiliency-continuity.introduction-resiliency-continuity
-- learn-m365.audit-resiliency-continuity.engineering-resilience
+- learn-m365.audit-resiliency-continuity.engineer-resilience
 - learn-m365.audit-resiliency-continuity.explore-program
 - learn-m365.audit-resiliency-continuity.assessment-activities
 - learn-m365.audit-resiliency-continuity.planning-phase
 - learn-m365.audit-resiliency-continuity.capability-validation
-- learn-m365.audit-resiliency-continuity.availability-monitoring-capacity-planning
+- learn-m365.audit-resiliency-continuity.plan-availability-monitoring-capacity
 - learn-m365.audit-resiliency-continuity.summary-knowledge-check
 badge: 
   uid: learn-m365.audit-resiliency-continuity.badges
