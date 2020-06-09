@@ -3,8 +3,8 @@ uid: learn-m365.m365-messaging-manage-mail-flow.domains
 title: Manage your domains
 metadata:
   title: Manage your domains
-  description: Manage the mail flow in Exchange Online by using domains, hybrid mail flow, and transport rules.
-  ms.date: 04/02/2020
+  description: Learn how to manage domains in Exchange Online.
+  ms.date: 06/08/2020
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
