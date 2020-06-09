@@ -16,39 +16,49 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Question here"
+    - content: "True or False: Once the template type is selected, the target locations and policy settings options (rules, conditions, actions, and so on) can be specified with default policy settings established if policy templates are utilized."
       choices:
-      - content: "Choice 1"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+      - content: "True"
         isCorrect: true
-        explanation: "explanation"
+        explanation: "Once the template type is selected, the target locations and policy settings options (rules, conditions, actions, and so on) can be specified with default policy settings established if policy templates are utilized. (These settings can be edited.)"
+      - content: "False"
+        isCorrect: false
+        explanation: "Once the template type is selected, the target locations and policy settings options (rules, conditions, actions, and so on) can be specified with default policy settings established if policy templates are utilized. (These settings can be edited.)"
 
-    - content: "Question here"
+    - content: "A user sends an email to several recipients containing 16 unique credit card numbers which match a DLP Policy with this sensitive information type.  How many lines will display on the DLP Policy matches report? "
       choices:
-      - content: "Choice 1"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+      - content: "1"
         isCorrect: true
-        explanation: "explanation"
+        explanation: "eThe DLP policy matches report shows matches at a rule level. If an email matched three different rules, the DLP policy matches report shows three different line items. By contrast, the DLP incidents report shows matches at an item level. If an email matched three different rules, the incidents report shows a single line-item for that item. "
+      - content: "16"
+        isCorrect: false
+        explanation: "The DLP policy matches report shows matches at a rule level. If an email matched three different rules, the DLP policy matches report shows three different line items. By contrast, the DLP incidents report shows matches at an item level. If an email matched three different rules, the incidents report shows a single line-item for that item. "
+      - content: "1 for each recipient"
+        isCorrect: false
+        explanation: "The DLP policy matches report shows matches at a rule level. If an email matched three different rules, the DLP policy matches report shows three different line items. By contrast, the DLP incidents report shows matches at an item level. If an email matched three different rules, the incidents report shows a single line-item for that item. "
       
-    - content: "Question here"
+    - content: "Too many false positives can have a negative effect on business production. Additionally, too many false positives can result in security teams ignoring the warnings. Microsoft sensitive information types are thoroughly tested. There is still a chance your organization may have specific needs not met by built in sensitive information types. What do you do if your DLP incident report returns too many false positives? "
       choices:
-      - content: "Choice 1"
+      - content: "Customize access "
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+        explanation: "A key factor in the strength of a DLP solution is the ability to correctly identify confidential or sensitive content that may be unique to the organization, regulatory needs, geography, or other business needs. Customizing access does not address the false positive issue.  "
+      - content: "Refine or customize your DLP policies"
         isCorrect: true
-        explanation: "explanation"
+        explanation: "When looking for sensitive information in content, you need to describe that information in what is called a rule. Data loss prevention (DLP) includes rules for the most-common sensitive information types that you can use right away. To use these rules, you have to include them in a policy. You may want to adjust these built-in rules to meet your organization's specific needs, and you can do that by creating a custom sensitive information type. "
+      - content: "Design a new DLP policy"
+        isCorrect: false
+        explanation: "While you certainly can design a new policy, using existing sensitive information types and modifying them is the best practice. Microsoft sensitive information types are accurate."
+
+        
+    - content: "Maintaining patient privacy is a top priority in the Health Care industry. As a senior care facility, what best practice should you employ using the ready-to-use U.S personal information policy template? "
+      choices:
+      - content: "Test the policy before releasing it"
+        isCorrect: true
+        explanation: "In most cases, you will want to test the DLP policy to make sure it is functioning as expected and meets your specific organization’s needs. "
+      - content: "Import a pre-built policy from outside your organization "
+        isCorrect: false
+        explanation: "Microsoft sensitive information types are thoroughly tested. Third-party policies may work at similar organizations; however, the most secure method is using and testing built in sensitive information types and then modifying if necessary."
+      - content: "Turn on the policy right away "
+        isCorrect: false
+        explanation: "It is always a good practice to test the DLP policy first to validate functionality and alignment with your specific organizational needs."
       
