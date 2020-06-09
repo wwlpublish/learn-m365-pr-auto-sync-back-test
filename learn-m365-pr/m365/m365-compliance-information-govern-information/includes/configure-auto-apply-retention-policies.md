@@ -23,7 +23,7 @@ Creating an auto-apply retention label policy consists of these steps:
 1.	Locations
 1.	Review your settings
 
-![Auto-apply retention label policy configuration](../media/auto-apply-retention-label-policy-configuration)
+![Auto-apply retention label policy configuration](../media/auto-apply-retention-label-policy-configuration.png)
 
 ## Step 1: Choose label to auto-apply
 The label you select will be automatically applied to content in the locations you choose. Users will see the label applied to their content that matches the conditions specified. Unlike manually applied retention labels, you can only auto-apply a single label per policy.
