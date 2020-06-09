@@ -15,39 +15,39 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Question here"
+    - content: "Which mail flow rule component should you use to define what to do with a message that matches a specified condition?"
       choices:
-      - content: "Choice 1"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+      - content: "Actions"
         isCorrect: true
-        explanation: "explanation"
+        explanation: "Yes. Actions are performed on messages that match the conditions and exceptions you've defined."
+      - content: "Exceptions"
+        isCorrect: false
+        explanation: "No. Exceptions control what messages an action is (or is not) applied to."
+      - content: "Conditions"
+        isCorrect: false
+        explanation: "No. Conditions control what messages an action is (or is not) applied to."
 
-    - content: "Question here"
+    - content: "Which of the following cmdlets would you use to create a mail flow rule?"
       choices:
-      - content: "Choice 1"
+      - content: "Set-TransportRule"
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+        explanation: "No. This cmdlet updates an existing rule, but it can't create a new rule."
+      - content: "New-TransportRule"
         isCorrect: true
-        explanation: "explanation"
+        explanation: "Yes, use New-TransportRule to create a mail flow rule."
+      - content: "Get-TransportRule"
+        isCorrect: false
+        explanation: "No. This cmdlet lists all of the mail flow rules; it doesn't create a new rule."
       
-    - content: "Question here"
+    - content: "How do you remove a remote domain by using the Exchange admin center?"
       choices:
-      - content: "Choice 1"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+      - content: "Go to **mail flow > remote domain**. Select the domain, and then select **Delete**."
         isCorrect: true
-        explanation: "explanation"
+        explanation: "Yes. You can manage remote domains in the mail flow section of the Exchange admin center."
+      - content: "In the Microsoft 365 admin center, go to **Domains**, and then select the specific domain. Select **Delete.**"
+        isCorrect: false
+        explanation: "No. You can't manage remote domains in the *Microsoft 365* admin center."
+      - content: "In the Exchange admin center, go to **organization**, and then select the remote domain. Select **Delete**."
+        isCorrect: false
+        explanation: "No. You manage remote domains on the **remote domain** page, not on **organization**."
       

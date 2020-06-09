@@ -3,12 +3,12 @@ uid: learn-m365.m365-messaging-manage-mail-flow.transport-rules
 title: Manage transport rules
 metadata:
   title: Manage transport rules
-  description: Manage the mail flow in Exchange Online by using domains, hybrid mail flow, and transport rules. 
+  description: Learn about transport rules - how to create, manage, and modify the rules that automatically process messages in your Exchange Online organization.  
   ms.date: 04/02/2029
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 3
+durationInMinutes: 10
 content: |
   [!include[](includes/transport-rules.md)]

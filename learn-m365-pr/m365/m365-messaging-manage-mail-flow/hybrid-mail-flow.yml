@@ -2,9 +2,9 @@
 uid: learn-m365.m365-messaging-manage-mail-flow.hybrid-mail-flow
 title: Manage hybrid mail flow
 metadata:
-  title: Manage hybrid mail flow
-  description: Manage the mail flow in Exchange Online by using domains, hybrid mail flow, and transport rules.
-  ms.date: 04/02/2020
+  title: Manage hybrid mail flows
+  description: Learn how to manage the mail flow in a hybrid Exchange environment.
+  ms.date: 06/08/2020
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
