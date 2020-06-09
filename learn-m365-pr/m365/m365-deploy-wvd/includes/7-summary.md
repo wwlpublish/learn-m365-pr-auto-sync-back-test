@@ -3,7 +3,7 @@ In this module, you learned how to deploy Windows Virtual Desktop in your enviro
 - Provision Windows Virtual Desktop host pool
 - Make apps available to users with application groups
 - Customize your workspace
-- Intall Windows Virtual Desktop client for Windows
+- Install Windows Virtual Desktop client for Windows
 
 
 ## Learn more
