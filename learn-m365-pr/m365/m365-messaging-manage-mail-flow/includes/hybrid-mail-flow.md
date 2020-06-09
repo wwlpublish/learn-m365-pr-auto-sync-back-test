@@ -4,7 +4,7 @@ All the tools you’ve been using up to now also let you manage mail flows in a 
 
 As you’ve seen earlier, the Exchange admin center is used to perform most day-to-day administrative tasks for Exchange Online. The same Exchange admin center is installed for all versions of Exchange server installed on-premises from Exchange 2013.  
 
-![A screenshot of the Exchange admin center, showing the hybrid page](../media/3-enable-hybrid-exchange.png)
+![A screenshot of the Exchange admin center, showing the hybrid page](../media/4-enable-hybrid-exchange.png)
 
 After you’ve completed setting up a hybrid deployment in Exchange Online, you can switch seamlessly between managing settings for your on-premises Exchange server and Exchange Online. 
 

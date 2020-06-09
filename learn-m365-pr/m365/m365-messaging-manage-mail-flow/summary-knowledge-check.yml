@@ -36,7 +36,7 @@ quiz:
         isCorrect: true
         explanation: "Yes, use New-TransportRule to create a mail flow rule."
       - content: "Get-TransportRule"
-        isCorrect: true
+        isCorrect: false
         explanation: "No. This cmdlet lists all of the mail flow rules; it doesn't create a new rule."
       
     - content: "How do you remove a remote domain by using the Exchange admin center?"
