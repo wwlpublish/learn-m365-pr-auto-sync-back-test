@@ -50,7 +50,7 @@ quiz:
         explanation: "While you certainly can design a new policy, using existing sensitive information types and modifying them is the best practice. Microsoft sensitive information types are accurate."
 
         
-    - content: "Maintaining patient privacy is a top priority in the Health Care industry. As a senior care facility, what best practice should you employ using the ready-to-use U.S Personally Identifiable Information (PII) policy template? "
+    - content: "Maintaining patient privacy is a top priority in the Health Care industry. As a senior care facility, what best practice should you employ using the ready-to-use U.S personal information policy template? "
       choices:
       - content: "Test the policy before releasing it"
         isCorrect: true

@@ -1,4 +1,4 @@
-To comply with business standards and industry regulations, it's critical that your organization protect sensitive information to prevent its inadvertent disclosure. Sensitive information can include financial data or personally identifiable information (PII) such as credit card numbers, social security numbers, or health records. To help with this, use data loss prevention (DLP) policies to identify, monitor, and automatically protect sensitive info across Microsoft 365. DLP is more about preventing users from accidentally sharing sensitive information. If a user is determined to send sensitive data outside the organization, they will find another way to do so. DLP policies can:
+To comply with business standards and industry regulations, it's critical that your organization protect sensitive information to prevent its inadvertent disclosure. Sensitive information can include financial data or personal information such as credit card numbers, social security numbers, or health records. To help with this, use data loss prevention (DLP) policies to identify, monitor, and automatically protect sensitive info across Microsoft 365. DLP is more about preventing users from accidentally sharing sensitive information. If a user is determined to send sensitive data outside the organization, they will find another way to do so. DLP policies can:
 - Identify sensitive information across many locations, such as Exchange Online, SharePoint Online, OneDrive for Business, and Microsoft Teams.
 - Prevent the accidental sharing of sensitive information.
 - Monitor and protect sensitive information in the desktop versions of Excel, PowerPoint, and Word.
@@ -17,7 +17,7 @@ Each DLP policy contains the following information:
 
 Here is some scenarios Microsoft’s solution for data loss prevention can address:
 - Identify any document containing credit card number stored in users’ OneDrive for Business accounts.
-- Automatically block an email containing employee personally identifiable information (PII) from being sent outside the organization.
+- Automatically block an email containing employee personal information from being sent outside the organization.
 
 ## Getting started with data loss prevention
 You don't want a new DLP policy to unintentionally block access to thousands of documents users require access to. Consider rolling DLP policies out gradually to assess their impact and test their effectiveness before fully enforcing them. 
