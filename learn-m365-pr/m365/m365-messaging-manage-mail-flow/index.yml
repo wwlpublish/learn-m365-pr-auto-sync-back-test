@@ -9,7 +9,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Manage mail flow in Microsoft 365 messaging
-summary: Learn how to manage ail flow rules and various types of domains in Exchange Online.
+summary: Learn how to manage mail flow rules and various types of domains in Exchange Online.
 abstract: |
   At the end of this module, you should be able to:
   - Explain transport rules.

@@ -32,7 +32,7 @@ There’s a long list of actions that can be applied to the emails, as detailed 
 |Actions|Notes| 
 |-|-|
 |Forward emails for approval|Messages are forwarded to a specific person, or the sender’s manager.|
-|Delete message without notification|The message is deleted without nnotifying either the sender or the recipient.|
+|Delete message without notification|The message is deleted without notifying either the sender or the recipient.|
 |Add recipients|Recipients are added to the CC, BCC, or To boxes.|
 |Append or prepend a disclaimer|Messages have your organization’s pre-canned disclaimer HTML appended or prepended to the message.|
 
