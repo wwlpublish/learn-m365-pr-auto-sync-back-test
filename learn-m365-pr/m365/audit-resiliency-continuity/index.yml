@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn-m365.audit-resiliency-continuity
+metadata:
+  title: Understand Microsoft 365 resiliency and continuity 
+  description: Learn how Microsoft 365 builds resilient services to meet customer expectations in the face of faults and challenges to normal operations, maintains optimal service availability, and fulfills business continuity requirements.
+  ms.date: 06/05/2020
+  author: NamrahK
+  ms.author: v-nakhu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Understand Microsoft 365 resiliency and continuity
+summary: Learn how Microsoft 365 builds resilient services to meet customer expectations in the face of faults and challenges to normal operations, maintains optimal service availability, and fulfills business continuity requirements.
+abstract: |
+ Upon completion o  f this module, you should be able to:
+ - Explain how Microsoft 365 services are engineered for resiliency, including strategies such as Active/Active service design, fault isolation, and reduced blast radius.
+ - Describe the teams involved in the Microsoft Enterprise Business Continuity Management (EBCM) program.
+ - Explain Microsoft’s Business Continuity Management (BCM) lifecycle, including ongoing assessment, planning, and capability validation.
+ - List how often Business Continuity Plans (BCP) must be reviewed, updated, and tested.
+ - Explain the test methodology Microsoft uses for BCP Capability Validation.
+ - Describe how Microsoft services monitor availability and allocate resources using capacity planning.
+
+prerequisites: None
+iconUrl: http://via.placeholder.com/120x120
+ratingEnabled: false
+levels:
+- beginner
+roles:
+- technology-manager
+- solution-architect
+products:
+- m365
+units:
+- learn-m365.audit-resiliency-continuity.introduction-resiliency-continuity
+- learn-m365.audit-resiliency-continuity.engineer-resilience
+- learn-m365.audit-resiliency-continuity.explore-program
+- learn-m365.audit-resiliency-continuity.assessment-activities
+- learn-m365.audit-resiliency-continuity.planning-phase
+- learn-m365.audit-resiliency-continuity.capability-validation
+- learn-m365.audit-resiliency-continuity.plan-availability-monitoring-capacity
+- learn-m365.audit-resiliency-continuity.summary-knowledge-check
+badge: 
+  uid: learn-m365.audit-resiliency-continuity.badges
