@@ -69,4 +69,4 @@ To deploy Windows Virtual Desktop, we'll start by creating a host pool, specifyi
 
 As mentioned in the previous unit, you can assign users access to the virtual desktop by using the Azure PowerShell cmdlet `New-AzRoleAssignment`.
 
-Sign in to [Windows Virtual Desktop](https://aka.ms/wvdweb) with the user's credentials to verify the workspace is available with the desktop.
+Sign in to [Windows Virtual Desktop](https://aka.ms/wvdweb) with the user's credentials to verify the workspace is available and shows a virtual desktop.
