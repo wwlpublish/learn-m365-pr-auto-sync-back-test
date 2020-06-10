@@ -1,6 +1,6 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.m365-messaging-manage-mail-flow.introduction
-title: Introduction to managing mail flow
+title: Introduction to troubleshooting mail flow
 metadata:
   title: Introduction to managing mail flow
   description: Manage the mail flow in Exchange Online by using domains, hybrid mail flow, and transport rules. 

@@ -3,8 +3,8 @@ uid: learn-m365.m365-messaging-troubleshoot-mail-flow.validate-mail-flow
 title: Validate inbound and outbound mail flow
 metadata:
   title: Validate inbound and outbound mail flow
-  description: Troubleshoot mail flow issues in Exchange Online using reports, transport logs, and validation.
-  ms.date: 04/07/2020
+  description: Learn how to validate the inbound and outbound flow of mail in your Exchange Online environment.
+  ms.date: 06/09/2020
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial

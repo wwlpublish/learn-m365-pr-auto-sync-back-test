@@ -3,8 +3,8 @@ uid: learn-m365.m365-messaging-troubleshoot-mail-flow.trace-message
 title: Trace a message
 metadata:
   title: Trace a message
-  description: Troubleshoot mail flow issues in Exchange Online using reports, transport logs, and validation.
-  ms.date: 04/07/2020
+  description: Learn how to track a message as it works its way through Exchange Online.
+  ms.date: 06/09/2020
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial

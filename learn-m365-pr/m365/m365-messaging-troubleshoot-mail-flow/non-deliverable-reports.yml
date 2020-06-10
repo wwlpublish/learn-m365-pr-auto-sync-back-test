@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.m365-messaging-troubleshoot-mail-flow.non-deliverable-reports
-title: Analyze non-deliverable reports
+title: Analyze non-delivery reports
 metadata:
-  title: Analyze non-deliverable reports
-  description: Troubleshoot mail flow issues in Exchange Online using reports, transport logs, and validation. 
-  ms.date: 04/07/2029
+  title: Analyze non-delivery reports
+  description: Learn how to analyze information in a non-delivery report. 
+  ms.date: 06/09/2029
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
