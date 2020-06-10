@@ -30,13 +30,13 @@ The identity provider is where the users, resources, and policies intersect with
 
 As a developer, you want your application to be accessible to the highest number of users who should have access to it. Independent software vendors (ISVs) are especially interested in the greatest reach in order to grow their businesses.
 
-You also need access to those resources the users need access to including mail, information about me. Access to these resources is important in building valuable solutions for your customers.
+You also need access to those resources the users need access to including mail and  information about me. Access to these resources is important in building valuable solutions for your customers.
 
 A problem you need to address is how will all these users access their resources but in a way that complies with whatever policies and security requirements the enterprise demands.
 
-How do you make sure that your application follows the right policies? Each enterprise will have a different point of view on what the policy should be
+How do you make sure that your application follows the right policies? Each enterprise will have a different point of view on what the policy should be.
 
-This is where identity platform can help. The goal of Microsoft identity is to make it easy for you to address the largest number of users and the most valuable amount of information in a secure way that satisfies the policies of those enterprises.
+This is where an identity platform can help. The goal of Microsoft identity is to make it easy for you to address the largest number of users and the most valuable amount of information in a secure way that satisfies the policies of those enterprises.
 
 Let's look at how Microsoft identity approaches users, resources, and policies.
 
@@ -83,7 +83,7 @@ The claims included within an ID token can be used for the user experience withi
 > [!IMPORTANT]
 > It is important not to confuse *ID tokens* with *access tokens* that are used for authorization.
 
-ID tokens for a Microsoft identity are JSON web tokens (JWT). These ID tokens consist of a header, payload, and signature. The header and signature are used to verify the authenticity of the token, while the payload contains the information about the user requested by your client.
+ID tokens for Microsoft identity are JSON web tokens (JWT). These ID tokens consist of a header, payload, and signature. The header and signature are used to verify the authenticity of the token, while the payload contains the information about the user requested by your client.
 
 ### How do you obtain an ID token
 
@@ -105,9 +105,9 @@ Access tokens are created based for the audience of the token, meaning the API t
 
 ### How do you obtain an access token
 
-To acquire an access token, use your Open ID Connect/OAuth2 library. For example with MSAL, you always use this pattern. ​
+To acquire an access token, use your Open ID Connect/OAuth2 library. For example with MSAL, you always use the following pattern. ​
 
-First you acquire the access token silently. If MSAL has a token cached, or can silently refresh a token, it will do so.  ​
+First you attempt to acquire the access token silently. If MSAL has a token cached, or can silently refresh a token, it will do so.  ​
 
 By including permission scopes in the request, the Microsoft identity platform endpoint ensures that the user has consented to the permissions indicated in the scope query parameter. ​
 

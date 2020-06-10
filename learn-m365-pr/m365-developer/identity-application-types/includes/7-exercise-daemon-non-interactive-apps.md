@@ -1,4 +1,4 @@
-In this exercise, you’ll learn how to create apps that obtain tokens without user interaction to either act on behalf of a user or perform tasks as the app’s identity.
+In this exercise, you’ll learn how to create apps that obtain tokens without user interaction to perform tasks as the app’s identity.
 
 ## Create an Azure AD application
 
@@ -362,4 +362,4 @@ After a moment, the app will display a list of all the specified user's emails o
 
 ## Summary
 
-In this exercise, you learned how to create apps that obtain tokens without user interaction to either act on behalf of a user or perform tasks as the app’s identity.
+In this exercise, you learned how to create apps that obtain tokens without user interaction to perform tasks as the app’s identity.

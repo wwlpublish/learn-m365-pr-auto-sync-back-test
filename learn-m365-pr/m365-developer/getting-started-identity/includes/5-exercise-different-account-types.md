@@ -5,7 +5,7 @@ This exercise will demonstrate the different account types that are used within 
 
 ## Create an application that only allows a single organization's users to sign in
 
-In this first application, you'll create an Azure AD application and ASP.NET Core web application that allows users from the current organization to sign in and display their information.
+In this first application, you'll create an Azure AD application and an ASP.NET Core web application that allows users from the current organization to sign in and display their information.
 
 ### Create a single-tenant Azure AD application
 
@@ -139,7 +139,7 @@ Stop the web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the command prom
 
 ## Create an application that allows any organization's users to sign in
 
-In this second application, you'll create an Azure AD application and ASP.NET Core web application that allows users from any organization or Microsoft Accounts to sign in and display their information.
+In this second application, you'll create an Azure AD application and ASP.NET Core web application that allow users from any organization or Microsoft Accounts to sign in and display their information.
 
 ### Create a multi-tenant Azure AD application
 

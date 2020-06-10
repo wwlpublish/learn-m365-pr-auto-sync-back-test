@@ -137,8 +137,8 @@ In the root folder of the project, create a file named **ScopeValidator.cs**. Ad
 ```csharp
 using System;
 using System.Linq;
-using System.NET;
-using System.NET.Http;
+using System.Net;
+using System.Net.Http;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Http;
 
@@ -188,6 +188,7 @@ namespace ProductCatalog.Models
     public int Id { get; set; }
     public string Name { get; set; }
   }
+}
 ```
 
 In the **Models** folder, create a new file named **Product.cs** and add the following C# code to it:
@@ -195,7 +196,7 @@ In the **Models** folder, create a new file named **Product.cs** and add the fol
 ```csharp
 namespace ProductCatalog.Models
 {
-  public class Category
+  public class Product
   {
     public int Id { get; set; }
     public string Name { get; set; }
@@ -279,7 +280,7 @@ By convention, .NET Core WebAPI projects store controller classes in a folder na
 ```csharp
 using System.Collections.Generic;
 using System.Linq;
-using identity04.Models;
+using ProductCatalog.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
