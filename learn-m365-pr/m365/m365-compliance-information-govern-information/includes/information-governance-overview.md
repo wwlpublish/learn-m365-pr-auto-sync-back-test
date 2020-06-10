@@ -22,7 +22,7 @@ Situations may arise where content has several retention policies apply (or a co
 ![Principles of retention](../media/principles-of-retention.png)
  
 ### Retention wins over deletion 
-Suppose one retention policy says to delete Exchange email after three years, but another retention policy says to retain Exchange email for five years and then delete it. Any content that reaches three years old will be deleted and hidden from the user, but still retained in the Recoverable Items folder until the content reaches the five-year retention period. Then it would be permanently deleted. Content being retained by one policy cannot be permanently deleted by another policy
+Suppose one retention policy says to delete Exchange email after three years, but another retention policy says to retain Exchange email for five years and then delete it. Any content that reaches three years old will be deleted and hidden from the user, but still retained in the Recoverable Items folder until the content reaches the five-year retention period. Then it would be permanently deleted. Content being retained by one policy cannot be permanently deleted by another policy.
 
 ### Longest retention period wins
 If content is subject to multiple policies that retain content, it will be retained until the end of the longest retention period.
@@ -38,7 +38,7 @@ If content is subject to multiple policies that delete content (with no retentio
 ## Getting started with information governance 
  Deciding what you want to keep and for how long is at the core of information governance. Business, legal, and compliance requirements can impact your information governance strategy. Those responsible for information governance in your organization should identify the content to retain or dispose for business and legal requirements. The governance team will also need to identify the regulations that apply to your organization, many of which include information governance requirements. 
 
-**Microsoft Compliance Score** maps these compliance regulations, like the US Health Insurance Portability and Accountability Act (HIPAA) and the European Union General Data Protection Regulation (GDPR), to actions recommended to achieve compliance. Many of these actions can be addressed using the **Information governance** solution. The image below shows the improvement actions in the **Information governance** solution the organization can take to improve its compliance posture relative to HIPAA.
+**Microsoft Compliance Score** maps these compliance regulations, like the US Health Insurance Portability and Accountability Act (HIPAA), to actions recommended to achieve compliance. Many of these actions can be addressed using the **Information governance** solution. The image below shows the improvement actions in the **Information governance** solution the organization can take to improve its compliance posture relative to HIPAA.
   
 ![Microsoft compliance score](../media/compliance-score.png)
 
@@ -56,4 +56,4 @@ The instructions in the rest of this module assume you have added **Information 
 - [Manage information governance](https://docs.microsoft.com/microsoft-365/compliance/manage-information-governance?azure-portal=true)
 - [Microsoft 365 security & compliance licensing guidance](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance?azure-portal=true)
 - [Information governance licensing guidance](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance%23information-governance?azure-portal=true)
-- [Applying a retention label automatically](link missing)
+- [Applying a retention label automatically](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/placeholder?azure-portal=true)
