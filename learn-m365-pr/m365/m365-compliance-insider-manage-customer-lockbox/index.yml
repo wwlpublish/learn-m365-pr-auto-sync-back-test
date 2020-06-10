@@ -20,7 +20,7 @@ abstract: |
   - Cloud computing concepts. If you are unfamiliar with this topic, we recommend you take [Cloud Concepts - Principles of cloud computing](https://docs.microsoft.com/learn/modules/principles-cloud-computing/)
   - Microsoft 365 product and services. If you are unfamiliar this with topic, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
 
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/customer-lockbox.svg
 ratingEnabled: true
 levels:
 - intermediate
