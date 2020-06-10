@@ -32,7 +32,7 @@
 
 ## Install the Windows Virtual Desktop Client for Windows
 
-1. [Download the Windows Virtual Desktop Client](http://aka.ms/wvd/clients/windows) and install it.
+1. [Download the Windows Virtual Desktop Client](https://aka.ms/wvd/clients/windows) and install it.
 2. Launch the Windows Virtual Desktop Client Desktop app.
 
    :::image type="content" source="../media/5-wvd-app-get-started.png" alt-text="Screenshot that shows workspace tab with yes selected.":::
