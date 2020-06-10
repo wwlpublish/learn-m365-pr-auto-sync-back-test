@@ -245,7 +245,7 @@ function graphAPICallback(data) {
 }
 ```
 
-Finally, add the following two functions to implement a sign in and sign out capability for the button on the page:
+Finally, add the following two functions to implement a sign in and sign out capability for the button on the page.
 
 Add the following function immediately before the `// TODO: add FUNCTIONS before this line` comment:
 
