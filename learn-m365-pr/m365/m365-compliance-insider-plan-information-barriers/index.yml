@@ -17,7 +17,7 @@ abstract: |
   - Explain the process of creating an information barrier policy.
   - Explain how to troubleshoot unexpected issues after information barriers are in place.
 
-  prerequisites: | 
+  Prerequisites: | 
   - Cloud computing concepts. If you are unfamiliar with this topic, we recommend you take [Cloud Concepts - Principles of cloud computing](https://docs.microsoft.com/learn/modules/principles-cloud-computing/)
   - Microsoft 365 product and services. If you are unfamiliar this with topic, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
 
