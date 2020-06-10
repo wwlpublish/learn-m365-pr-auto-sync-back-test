@@ -101,7 +101,7 @@ Retention policy status is available by selecting the policy on the retention ta
 	
 The image below shows the retention policy **Teams Chats Retention Policy** with a status of **On (Pending)**. The **(On Pending)** status means the policy is still being deployed and not being enforced on content yet.
  
- ![Teams chat retention policy](../media/teams-chat-retention-polcy.png)
+ ![Teams chat retention policy](../media/teams-chat-retention-policy.png)
 
 ## Learn more
 - [Overview of retention policies](https://docs.microsoft.com/microsoft-365/compliance/retention-policies?azure-portal=true)
