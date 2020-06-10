@@ -3,7 +3,7 @@ uid: learn-m365.identity-users-groups-approles.5-exercise-authorize-security-gro
 metadata:
   title: Exercise - Utilize security groups in custom web apps and APIs
   description: In this exercise, you’ll learn what security groups are and how you can use them within your custom apps secured with Microsoft identity.
-  ms.date: 02/26/2020
+  ms.date: 05/31/2020
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
