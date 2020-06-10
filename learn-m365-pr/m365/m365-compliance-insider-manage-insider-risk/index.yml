@@ -18,9 +18,8 @@ abstract: |
   - Explain the types of actions you can take on an insider risk management case.
   
 prerequisites: 
-  - Cloud computing concepts
-  - Microsoft 365 product and services
-
+ - Cloud computing concepts
+ - Microsoft 365 product and services
 iconUrl: /learn/achievements/manage-insider-risk.svg
 ratingEnabled: true
 levels:
