@@ -1,6 +1,6 @@
 The Microsoft identity platform implements the OAuth 2.0 authorization protocol. This protocol is a method that a third-party app can use to access web-hosted resources on behalf of a user. The web-hosted resources can define a set of permissions that can be used to implement functionality in smaller chucks.
 
-In this unit, you’ll learn about the different types of permissions supported by the Microsoft identity platform and the consent experience that users and admins must go through to grant permission requests to apps.
+In this exercise, you’ll learn about the different types of permissions supported by the Microsoft identity platform and the consent experience that users and admins must go through to grant permission requests to apps.
 
 > [!NOTE]
 > This exercise utilizes two different accounts in the same organization. One of the accounts, **admin@{org}.onmicrosoft.com**, is assigned the global administrator role and is used to perform management tasks in the directory such as creating the app. The other account, **adelev@{org}.onmicrosoft.com**, is not a member of the global administrator role and is used to demonstrate a typical user without administrative rights.
@@ -355,7 +355,7 @@ To test the web page, first start the local web server. In the command prompt, e
 node server.js
 ```
 
-Next, open a browser where you are not signed-in to Office 365 and navigate to http://localhost:3007. The page initially contains a default welcome message and sign in button.
+Next, open a browser where you are not signed-in to Office 365 and navigate to **http://localhost:3007**. The page initially contains a default welcome message and sign in button.
 
 ![Screenshot of the default web page for an anonymous user](../media/03-test-01.png)
 
@@ -377,7 +377,7 @@ In this scenario, each user will need to grant the application permission before
 
 Close the browser and open a new instance so that you can sign-in again.
 
-Navigate to http://localhost:3007 again and select the **Sign In** button. This time, sign-in with a user *who is assigned* the global administrator role. Notice the difference in the consent dialog:
+Navigate to **http://localhost:3007** again and select the **Sign In** button. This time, sign-in with a user *who is assigned* the global administrator role. Notice the difference in the consent dialog:
 
 ![Screenshot of Azure AD popup sign-in experience](../media/03-test-03.png)
 

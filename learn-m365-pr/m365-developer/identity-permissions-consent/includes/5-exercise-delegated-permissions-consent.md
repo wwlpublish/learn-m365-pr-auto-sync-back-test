@@ -1,6 +1,6 @@
 One type of permissions supported by the Microsoft Identity platform is the delegated permission, also referred to as on behalf of permissions. Delegated permissions are permissions grated by a user or administrator to an app to allow the app act on behalf of the user.
 
-In this unit, you’ll learn how to request delegated permissions and enable users to grant them to applications with either static or dynamic consent.
+In this exercise, you’ll learn how to request delegated permissions and enable users to grant them to applications with either static or dynamic consent.
 
 > [!IMPORTANT]
 > This exercise assumes you have created the single page app (SPA) from the previous unit in this module. You'll edit the SPA created in that exercise in this exercise.
@@ -79,7 +79,7 @@ To test the web page, first start the local web server. In the command prompt, e
 node server.js
 ```
 
-Next, open a browser and navigate to http://localhost:3007. The page initially contains a default welcome message and sign-in button.
+Next, open a browser and navigate to **http://localhost:3007**. The page initially contains a default welcome message and sign-in button.
 
 ![Screenshot of the default web page for an anonymous user](../media/03-test-01.png)
 
@@ -102,6 +102,8 @@ In a new browser window, navigate to the following URL. Make sure you replace th
 ![Screenshot of the admin consent dialog](../media/05-test-03.png)
 
 One permission, *Sign in and read user profile*, is the default one that all apps have: **User.Read**. The other permission, *Read user mail*, was the one that you added in the Azure AD admin center: **Mail.Read**.
+
+Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the console.
 
 ## Dynamic permissions
 
