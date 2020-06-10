@@ -17,7 +17,7 @@ abstract: |
   - Explain the process of creating an information barrier policy.
   - Explain how to troubleshoot unexpected issues after information barriers are in place.
 
-prerequisites: 
+prerequisites: | 
  - Cloud computing concepts
  - Microsoft 365 product and services
 iconUrl: /learn/achievements/implement-information-barriers.svg

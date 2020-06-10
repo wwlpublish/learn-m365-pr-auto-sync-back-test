@@ -16,7 +16,7 @@ abstract: |
   -	Explain how to approve or deny a Customer Lockbox request.
   -	Explain how you can audit actions performed by Microsoft engineers when access requests are approved.
 
-prerequisites:  
+prerequisites: |  
  - Cloud computing concepts
  - Microsoft 365 product and services
 iconUrl: /learn/achievements/customer-lockbox.svg
