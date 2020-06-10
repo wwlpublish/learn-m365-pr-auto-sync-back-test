@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-messaging-troubleshoot-mail-flow.audit-logs
+title: Investigate audit logs
+metadata:
+  title: Investigate audit logs
+  description: Learn how to use audit logs to troubleshoot issues with mail flow in Exchange Online.
+  ms.date: 06/09/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 3
+content: |
+  [!include[](includes/transport-logs.md)]

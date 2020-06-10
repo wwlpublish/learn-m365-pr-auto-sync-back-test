@@ -19,7 +19,7 @@ abstract: |
   - Explain transport logs.
 
 prerequisites: |
- - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+ - Basic understanding of Microsoft 365. 
 iconUrl:  /learn/achievements/troubleshoot-mail-flow.svg
 levels:
 - intermediate
@@ -34,7 +34,7 @@ units:
 - learn-m365.m365-messaging-troubleshoot-mail-flow.validate-mail-flow
 - learn-m365.m365-messaging-troubleshoot-mail-flow.trace-message
 - learn-m365.m365-messaging-troubleshoot-mail-flow.non-deliverable-reports
-- learn-m365.m365-messaging-troubleshoot-mail-flow.transport-logs
+- learn-m365.m365-messaging-troubleshoot-mail-flow.audit-logs
 - learn-m365.m365-messaging-troubleshoot-mail-flow.monitor-mail-flow
 - learn-m365.m365-messaging-troubleshoot-mail-flow.summary-knowledge-check
 badge: 
