@@ -17,11 +17,9 @@ abstract: |
   -	List the prerequisites that need to be met before creating communication compliance policies.
   -	Describe the types of built-in, pre-defined policy templates.
 
-  
 prerequisites: | 
-  - Cloud computing concepts. If you are unfamiliar with this topic, we recommend you take [Cloud Concepts - Principles of cloud computing](https://docs.microsoft.com/learn/modules/principles-cloud-computing/)
-  - Microsoft 365 product and services. If you are unfamiliar this with topic, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
-
+ - Cloud computing concepts
+ - Microsoft 365 product and services
 iconUrl: /learn/achievements/communication-compliance.svg
 ratingEnabled: true
 levels:

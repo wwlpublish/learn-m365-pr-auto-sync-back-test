@@ -5,7 +5,7 @@ A case investigation may end up with a notice being sent to the offending employ
 
 Once an investigation has concluded and the necessary actions have been taken, the case can be closed by resolving the case as either benign or a confirmed policy violation with specific actions taken.
 
-To learn more about Advanced eDiscovery cases, see [Overview of Advanced eDsicovery in Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20?view=o365-worldwide?azure-portal=true).
+To learn more about Advanced eDiscovery cases, see [Overview of Advanced eDiscovery in Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20?view=o365-worldwide?azure-portal=true).
 
 ## Case dashboard
 The insider risk management **Cases dashboard** allows you to view and take action on cases. The **Cases dashboard** displays information from the previous 30 days for the following widgets: 
