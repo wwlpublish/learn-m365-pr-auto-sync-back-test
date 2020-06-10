@@ -11,4 +11,4 @@ metadata:
   ms.prod: learning-m365
 durationInMinutes: 3
 content: |
-  [!include[](includes/transport-logs.md)]
+  [!include[](includes/audit-logs.md)]
