@@ -81,7 +81,7 @@ On the **All Groups** page, select **New Group**. Create the group with the foll
 - **Group Description**: Allows user to view products.
 - **Membership type**: Assigned
 - **Owners**: Select one user account as the group owner.
-- **Members**: Select the same user account you selected as the group owener. You may optionally add additional accounts. 
+- **Members**: Select the same user account you selected as the group owner. You may optionally add additional accounts.
 
 > [!NOTE]
 > The user must be a member of the group to have it included in the group claim.
@@ -101,7 +101,7 @@ namespace UserGroupRole.Models
 {
   public class Category
   {
-    public int Id { get; set; }
+    public int ID { get; set; }
     public string Name { get; set; }
   }
 }
@@ -114,7 +114,7 @@ namespace UserGroupRole.Models
 {
   public class Product
   {
-    public int Id { get; set; }
+    public int ID { get; set; }
     public string Name { get; set; }
     public Category Category { get; set; }
   }
@@ -150,14 +150,14 @@ namespace UserGroupRole
       var categoryIds = 0;
       var categoryFaker = new Faker<Category>()
         .StrictMode(true)
-        .RuleFor(c => c.Id, f => ++categoryIds)
+        .RuleFor(c => c.ID, f => ++categoryIds)
         .RuleFor(c => c.Name, f => f.Commerce.Categories(1)[0]);
       data.Categories = categoryFaker.Generate(10);
 
       var productIds = 0;
       var productFaker = new Faker<Product>()
         .StrictMode(true)
-        .RuleFor(p => p.Id, f => ++productIds)
+        .RuleFor(p => p.ID, f => ++productIds)
         .RuleFor(p => p.Name, f => f.Commerce.Product())
         .RuleFor(p => p.Category, f => f.PickRandom(data.Categories));
       data.Products = productFaker.Generate(20);
@@ -176,7 +176,7 @@ services.AddSingleton(SampleData.Initialize());
 
 ### Add controller and view for Products
 
-Earlier, the middleware was configured to use the group claim from Microsoft identity as the role claim in ASP.NET's identity system. The `[Authorize]` attribute has a property that can specify the roles required to access a controller. Since the group claim contains the group Id, the Id is specified in the attribute. The Id is the object id copied from the Azure Active Directory admin center.
+Earlier, the middleware was configured to use the group claim from Microsoft identity as the role claim in ASP.NET's identity system. The `[Authorize]` attribute has a property that can specify the roles required to access a controller. Since the group claim contains the group ID, the ID is specified in the attribute. The ID is the object ID copied from the Azure Active Directory admin center.
 
 Add a new file **ProductsController.cs** to the **Controllers** folder. Add the following code to it:
 
@@ -223,7 +223,7 @@ Add a new folder **Products** to the **Views** folder. Add a new file, **Index.c
   <thead>
     <tr>
       <th>
-        @Html.DisplayNameFor(model => model.Id)
+        @Html.DisplayNameFor(model => model.ID)
       </th>
       <th>
         @Html.DisplayNameFor(model => model.Name)
@@ -237,7 +237,7 @@ Add a new folder **Products** to the **Views** folder. Add a new file, **Index.c
 @foreach (var item in Model) {
     <tr>
       <td>
-        @Html.DisplayFor(modelItem => item.Id)
+        @Html.DisplayFor(modelItem => item.ID)
       </td>
       <td>
         @Html.DisplayFor(modelItem => item.Name)
@@ -279,7 +279,8 @@ Open a browser and navigate to the url **https://localhost:5001**. The web appli
 
 Sign in using a Work and School account from your Azure AD directory. The login will prompt for consent to the scopes required by the web API if the account you are using has not previously consented. After login and consent, Azure AD will redirect you back to the web application.
 
-> Note: You must login after adding users as members of the security group. Any logins that occurred before the users were added will result in tokens that does not reflect the membership. Close the browser or select **Sign out** to sign out of the session.
+> [!NOTE]
+> You must login after adding users as members of the security group. Any logins that occurred before the users were added will result in tokens that does not reflect the membership. Close the browser or select **Sign out** to sign out of the session.
 
 On the home page, the assigned groups are included in the list of claims. If the user is a member of the correct group, the navigation will include a link to the Products controller.
 
