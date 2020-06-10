@@ -16,7 +16,7 @@ To deploy Windows Virtual Desktop, we'll start by creating a host pool, specifyi
    |---------|---------|
    |Subscription     |  Subscription where you want Windows Virtual Desktop to run       |
    |Resource group     | Resource group you've created for Windows Virtual Desktop resources    |
-   |Host pool name     |  Unique name for your host pool       |
+   |Host pool name     |  wvd-host-pool-1      |
    |Location    | Region needs to be same location as your virtual network        |
    |Host pool type     |  Pooled  |
    |Max session limit    |Maximum number of users you want load-balanced to a single session host|
@@ -65,8 +65,14 @@ To deploy Windows Virtual Desktop, we'll start by creating a host pool, specifyi
 1. Select **Review + create**.
 1. Review what you've entered and select **Create**.
 
-## Test the virtual desktop workspace
+## Assign role "Desktop Virtualization User"
 
-As mentioned in the previous unit, you can assign users access to the virtual desktop by using the Azure PowerShell cmdlet `New-AzRoleAssignment`.
+As mentioned in the previous unit, you can assign users access to the virtual desktop by using the Azure PowerShell cmdlet `New-AzRoleAssignment`. Here's an example:
 
-Sign in to [Windows Virtual Desktop](https://aka.ms/wvdweb) with the user's credentials to verify the workspace is available and shows a virtual desktop.
+```powershell
+
+ New-AzRoleAssignment -SignInName "kaicarter@contoso.onmicrosoft.com" -RoleDefinitionName "Desktop Virtualization User" -ResourceGroupName "wvd-dm-rg1"
+
+```
+
+

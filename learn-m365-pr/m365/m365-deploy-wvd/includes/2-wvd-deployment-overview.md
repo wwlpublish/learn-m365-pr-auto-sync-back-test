@@ -67,24 +67,10 @@ If a user or group is assigned to multiple RemoteApp application groups within t
 
 You can assign RemoteApp application groups to users or groups in the Azure portal. We walk through that process in a later unit.
 
-To assign a desktop application group, use the Azure PowerShell cmdlet `New-AzRoleAssignment`. For example, you'd run the following command to assign the user "hannahj" to the role "Desktop Virtualization Use" at the scope of the resource group that contains the desktop application group:
+To assign a desktop application group, use the Azure PowerShell cmdlet `New-AzRoleAssignment`. For example, you'd run the following command to assign the user "kaicarter" to the role "Desktop Virtualization User" at the scope of the resource group that contains the desktop application group:
 
 ```powershell
 
- New-AzRoleAssignment -SignInName "hannahj@contoso.onmicrosoft.com" -RoleDefinitionName "Desktop Virtualization User" -ResourceGroupName "contoso-wvd-rg"
+ New-AzRoleAssignment -SignInName "kaicarter@contoso.onmicrosoft.com" -RoleDefinitionName "Desktop Virtualization User" -ResourceGroupName "wvd-dm-rg1"
 
 ```
-
-## Set up test environment with Azure AD DS
-
-Include? Or include with prepare module? (Needs polish if we include and maybe it's a unit before the next unit or in previous module)
-
-1. Used free trial account/VS subscription & tenant.
-2. Created separate user account and password in Azure AD (hannahj)
-3. Created Active AD Domain Services (follow directions in tutorial article).
-4. Update DNS settings for VNET (button you click in overview page after setup: https://docs.microsoft.com/azure/active-directory-domain-services/tutorial-create-instance#update-dns-settings-for-the-azure-virtual-network)
-5. Enable user accounts (by turning on SSPR in AD) - https://docs.microsoft.com/azure/active-directory-domain-services/tutorial-create-instance#enable-user-accounts-for-azure-ad-ds
-6. Signed in as hannahj and reset password (per article) - wait 30 mins
-7. Add hannahj to AAD DC admin group in AD.
-8. When creating host pool, for **Domain to join**, use DNS domain name that shows on the properties page for Azure AD DS like adds-contoso.onmicrosoft.com.
-9. Enter admin user credentials like: hannahj@contoso.onmicrosoft.com.

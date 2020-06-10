@@ -9,12 +9,16 @@
 1. Under **Settings**, select **Properties**.
 1. Update the **Friendly name**.
 
+   :::image type="content" source="../media/5-workspace-properties.png" alt-text="Screenshot that shows workspace tab with yes selected.":::
+
 ## Change the name of your virtual desktops
 
 1. In **Windows Virtual Desktop**, select **Application groups**.
 1. Select the application group you want to customize.
 1. Under **Settings**, select **Properties**.
 1. Update the **Friendly name**.
+
+   :::image type="content" source="../media/5-appgroup-properties.png" alt-text="Screenshot that shows workspace tab with yes selected.":::
 
 ## Configure RDP properties 
 
@@ -24,15 +28,22 @@
 1. Select **RDP Settings**.
 1. When you're done, select **Save**.
 
-<!--What do we recommend they update here? Why do they commonly come here -->
-
+   :::image type="content" source="../media/5-hostpool-settings-rdp.png" alt-text="Screenshot that shows workspace tab with yes selected.":::
 
 ## Install the Windows Virtual Desktop Client for Windows
 
-1. Download and install the Windows Virtual Desktop Client.
+1. [Download the Windows Virtual Desktop Client](http://aka.ms/wvd/clients/windows) and install it.
 2. Launch the Windows Virtual Desktop Client Desktop app.
-3. Select **Subscribe with an alternate URL**.
-4. Enter the URL https://rdweb.wvd.microsoft.com/api/arm/feeddiscovery.
-6. Select Next.
-7. Enter your sign-in credentials.
-8. You should see your remote apps and desktop.
+
+   :::image type="content" source="../media/5-wvd-app-get-started.png" alt-text="Screenshot that shows workspace tab with yes selected.":::
+1. Select **Subscribe with an alternate URL**.
+1. Enter the URL https://rdweb.wvd.microsoft.com/api/arm/feeddiscovery.
+ 
+    :::image type="content" source="../media/5-subscribe-workspace.png" alt-text="Screenshot that shows workspace tab with yes selected.":::
+1. Select Next.
+1. Use sign-in credentials for a user that has the desktop or apps group assigned.
+1. You should see the app you added to the remoteapp application group.
+
+   :::image type="content" source="../media/5-remote-desktop-workspace.png" alt-text="Screenshot that shows workspace tab with yes selected.":::
+
+## How do they see desktop app group ??
