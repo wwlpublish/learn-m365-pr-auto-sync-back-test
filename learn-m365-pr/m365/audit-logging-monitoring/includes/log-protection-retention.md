@@ -12,6 +12,6 @@ The central storage service dynamically allocates audit storage space for audit 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4xsMx]
 
-Microsoft 365 retains audit log data in accordance with security best practices and compliance regulations. Most types of audit log data are retained for a minimum of 90 days to support incident investigations and compliance requirements, such as General Data Protection Regulation (GDPR). Service teams may select alternative retention periods for specific types of log data to support the needs of their applications.
+Microsoft 365 retains audit log data in accordance with security best practices and compliance regulations. Most types of audit log data are retained for a minimum of 90 days to support incident investigations and compliance requirements. Service teams may select alternative retention periods for specific types of log data to support the needs of their applications.
 
 In addition to the standard ninety-day retention policy, all audit logs are backed up and stored in long-term storage for at least one year. Access to this log data is limited to small number of security team personnel. Long-term storage enables after-the-fact forensic investigations and provides additional security against the loss of critical log data. Microsoft 365 log retention and backup policies ensure log data is readily available for incident investigations, compliance reporting, and any other business requirements.
