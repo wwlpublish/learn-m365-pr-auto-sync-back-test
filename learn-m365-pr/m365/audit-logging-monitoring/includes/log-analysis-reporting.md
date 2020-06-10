@@ -4,7 +4,7 @@ No matter what log data a system collects, audit logging is only useful if it ca
 
 ## Security monitoring and response at scale
 
-![Principles of security monitoring: - Alerting must be robust: we need to have signals and logic for a variety of different attacker behaviors. - Alerting must be accurate: we have to raise meaningful alerts, to avoid distractions from noise. - Alerting must be fast: we have to catch attackers quickly enough to stop them](../media/security-monitoring.png)
+![Principles of security monitoring: - Alerting must be robust: we need to have signals and logic for a variety of different attacker behaviors. - Alerting must be accurate: we have to raise meaningful alerts, to avoid distractions from noise. - Alerting must be fast: we have to catch attackers quickly enough to stop them](../media/security-monitoring-process.png)
 
 Microsoft 365 engages in continuous security monitoring of its systems to detect and respond to threats to Microsoft 365 Services. Automation, scale, and cloud-based solutions are key pillars of our monitoring and response strategy. For us to effectively catch and stop attacks at the scale of some of the Microsoft 365 core services, our monitoring systems need to automatically raise highly accurate alerts in near real time. Likewise, when an issue is detected, we need the ability to mitigate the risk at scale – we cannot rely on our team to manually fix issues machine-by-machine. To mitigate risks at scale, we use cloud-based tools to automatically apply countermeasures and provide engineers with tools to apply approved mitigations quickly across the environment.
 
