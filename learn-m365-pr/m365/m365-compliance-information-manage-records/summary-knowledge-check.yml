@@ -16,39 +16,39 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Question here"
+    - content: "Declaring content as a record means which of the following?"
       choices:
-      - content: "Choice 1"
+      - content: "The item becomes immutable for a minimum amount of time."
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+        explanation: "There are no maximum or minimum retention times, records are immutable the amount of time an item is retained. "
+      - content: "The item becomes immutable until after the designated time period."
         isCorrect: true
-        explanation: "explanation"
+        explanation: "Declaring content as a record means that the item becomes immutable and cannot be modified or deleted until after their defined retention period has passed. The item becomes immutable for a minimum amount of time."
+      - content: "The item becomes immutable for a maximum amount of time."
+        isCorrect: false
+        explanation: "There are no maximum or minimum retention times, records are immutable the amount of time an item is retained. "
 
-    - content: "Question here"
+    - content: "When do you use event-driven retention configuration?"
       choices:
-      - content: "Choice 1"
+      - content: "When a specific event was created"
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
+        explanation: "Use event-based retention when you want the retention period to be based on when a specific type of event occurs, rather than when the content was created, last modified, or labeled."
+      - content: "When a specific event was labeled"
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+        explanation: "Use event-based retention when you want the retention period to be based on when a specific type of event occurs, rather than when the content was created, last modified, or labeled."
+      - content: "When a specific type of event occurs"
         isCorrect: true
-        explanation: "explanation"
-      
-    - content: "Question here"
+        explanation: "Use event-based retention when you want the retention period to be based on when a specific type of event occurs, rather than when the content was created, last modified, or labeled."
+    
+    - content: "Many organizations have different types of content that require different actions taken on them in order to comply with industry regulations and internal policies. Which feature of records management can help you take the right actions on the right content type?"
       choices:
-      - content: "Choice 1"
+      - content: "File plan descriptors"
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+        explanation: "The file plan descriptors step is unique to records management. File plan descriptors are metadata common to many file plans and facilitate the management of records."
+      - content: "Retention labels"
         isCorrect: true
-        explanation: "explanation"
+        explanation: "With retention labels, you can classify data across your organization for governance, and enforce retention rules based on that classification."
+      - content: "Activity explorer "
+        isCorrect: false
+        explanation: "You can use the Activity explorer to drill deep down on eight different activities that Microsoft 365 tracks on labeled content and content that is located on Windows 10 endpoints."
       
