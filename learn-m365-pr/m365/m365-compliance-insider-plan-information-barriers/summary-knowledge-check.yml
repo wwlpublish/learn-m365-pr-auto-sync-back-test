@@ -40,7 +40,7 @@ quiz:
         isCorrect: false
         explanation: "Edit user account attributes when users are not included in segments they should be, to change which segments users are in, or to define segments using different attributes."
       
-    - content: "Can a user be in both information barrier policies and the address book?"
+    - content: "Can you use address book policies and information barrier policies at the same time?"
       choices:
       - content: "Yes"
         isCorrect: false

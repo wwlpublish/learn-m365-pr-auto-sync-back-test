@@ -30,7 +30,7 @@ quiz:
                
     - content: "Which one of the following apply to Microsoft Insider Risk Management policies and templates?"
       choices:
-      - content: "Insider risk settings apply to the specific insider risk management policies associated with each different template. "
+      - content: "Insider risk settings for **Privacy** and **Policy Indicators** can be configured to apply for a specific policy."
         isCorrect: false
         explanation: "Insider risk settings apply to all insider risk management policies regardless of the template chosen when creating a policy."
       - content: "Microsoft Insider Risk Management policies and templates are for malicious intent violations. "

@@ -14,10 +14,6 @@ Contoso IT administrators attended online webinars about privileged access manag
 - The users who need approval authority for incoming requests for access to elevated and privileged tasks.  
 - The users who will manage access requests. 
  
-### Licensing 
- 
-The first step is to confirm that Contoso's licensing includes support for privileged access management. To enable and configure privileged access policies, Contoso IT administrators need to verify that users submitting and responding to privileged access management requests are assigned an appropriate license. Office 365 E5/A5, Microsoft 365 E5/A5, Microsoft 365 E5/A5 Compliance, and Microsoft 365 E5/A5 Insider Risk Management provide the rights for a user to benefit from privileged access management. 
- 
 ### Creating the approver’s group 
 1. Contoso IT administrators sign into the  [Microsoft 365 Admin Center](https://admin.microsoft.com/?azure-portal=true). 
  

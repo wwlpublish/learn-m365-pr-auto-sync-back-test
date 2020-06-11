@@ -43,7 +43,7 @@ An approval request is generated and the pending request notification is emailed
   ![Access approval](../media/access-approval.png)       
  
 ### Step 4: Access processing 
-For an approved request, the task is processed by the Exchange Management runspace. The approval is checked against the privileged access policy and processed by the Office 365 substrate. All activity for the task is logged in the Office 365 Security and Compliance Center. 
+For an approved request, the task is processed by the Exchange Management runspace. The approval is checked against the privileged access policy and processed by the Microsoft 365 substrate. All activity for the task is logged in the Security and Compliance Center. 
 
   ![Access processing](../media/access-processing.png)  
  
