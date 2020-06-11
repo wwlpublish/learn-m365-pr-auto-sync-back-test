@@ -150,7 +150,7 @@ The application requires a new controller to process the subscription and notifi
 
 Right-click the **Controllers** folder, select **New File**, and name the controller **NotificationsController.cs**.
 
-Replace the contents of **NotificationController.cs** with the following code:
+Replace the contents of **NotificationsController.cs** with the following code:
 
 ```cs
 using System;
@@ -286,7 +286,7 @@ Save your changes.
 
 ### Test the application
 
-In Visual Studio Code, select **Debug > Start debugging** to run the application. Visual Studio Code will build and start the application.
+In Visual Studio Code, select **Run > Start debugging** to run the application. Visual Studio Code will build and start the application.
 
 Once you see the following in the **Debug Console** window...
 
@@ -414,7 +414,7 @@ public async Task<ActionResult<string>> Get()
 
 ### Test the changes
 
-Within Visual Studio Code, select **Debug > Start debugging** to run the application.
+Within Visual Studio Code, select **Run > Start debugging** to run the application.
 
 Navigate to the following url: **http://localhost:5000/api/notifications**. This will register a new subscription.
 
