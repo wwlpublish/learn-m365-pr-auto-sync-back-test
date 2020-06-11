@@ -154,7 +154,7 @@ In the primary navigation, select **Groups > Manage Groups**.
 
 ![Screenshot of Outlook.com's navigation](../media/app-run-07-01.png)
 
-On the next screen, select **Directory > All Groups** and locate the group you just created. It may take a minute or two to appear while Office 365 provisions all the resources for the group.
+On the next screen, select **Directory > All Groups** and locate the group you created. It may take a minute or two to appear while Office 365 provisions all the resources for the group.
 
 After selecting the group, select the **Members** pivot to see a list of all users that have been added to the group. You should see both the owner(s) and member(s) you specified when creating the group:
 
@@ -283,4 +283,4 @@ Confirm this by repeating the process from a previous section to find the group 
 
 ## Summary
 
-In this exercise, you modifies the existing Azure AD application registration using the Azure Active Directory admin center, a .NET Core console application, and used Microsoft Graph to manage the lifecycle of Office 365 groups. You also learned how to provision a Microsoft Teams team from an existing Office 365 group.
+In this exercise, you modified the existing Azure AD application registration using the Azure Active Directory admin center, a .NET Core console application, and used Microsoft Graph to manage the lifecycle of Office 365 groups. You also learned how to provision a Microsoft Teams team from an existing Office 365 group.

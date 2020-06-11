@@ -1,6 +1,6 @@
 In this unit, you’ll learn how to display information about the groups a user is involved with as a member or as an owner.
 
-The previous units in this module demonstrated how you can get a list of groups or a specific group using Microsoft Graph. You also learned how you can obtain information about the users involved with a group, both as owners and as members. This operation is done from the group's point of view.
+The previous unit in this module demonstrated how you can get a list of groups or a specific group using Microsoft Graph. You also learned how you can obtain information about the users involved with a group, both as owners and as members. This operation is done from the group's point of view.
 
 Now let's examine how we can get groups from a user's point of view.
 
