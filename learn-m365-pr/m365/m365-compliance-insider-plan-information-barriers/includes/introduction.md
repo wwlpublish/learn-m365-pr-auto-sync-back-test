@@ -11,7 +11,7 @@ However, since introducing information barriers, many other areas have found the
 
 For all these example scenarios (and more), information barrier policies can be defined to prevent or allow communications in Microsoft Teams. Such policies can prevent people from calling or chatting with those they should not or enable people to communicate only with specific groups in Microsoft Teams. With information barrier policies in effect, whenever users who are covered by those policies attempt to communicate with others in Microsoft Teams, checks are done to prevent or allow communication as defined by the policies). 
 
-It should be noted that information barriers are based on [Exchange address book](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies?azure-portal=true) policies and the two cannot be used simultaneously. Before you define and apply information barrier policies, make sure your organization does not have or require address book policies to be in effect. 
+It should be noted that information barriers are based on [Exchange address book policies](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies?azure-portal=true) and the two cannot be used simultaneously. Before you define and apply information barrier policies, make sure your organization does not have or require address book policies to be in effect. 
 
 > [!NOTE]
 > This feature is a capability included with:
