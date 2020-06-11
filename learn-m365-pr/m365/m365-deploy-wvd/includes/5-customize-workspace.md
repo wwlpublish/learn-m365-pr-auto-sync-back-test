@@ -32,6 +32,8 @@
 
 ## Install the Windows Virtual Desktop Client for Windows
 
+In the previous units, we used the browser to connect to the Windows Virtual Desktop workspace. That option is helpful when you need to do some work and don't have your device with you. But for the best experience, we recommend you run Windows Virtual Desktop directly from your device.
+
 1. [Download the Windows Virtual Desktop Client](https://aka.ms/wvd/clients/windows) and install it.
 2. Launch the Windows Virtual Desktop Client Desktop app.
 
@@ -45,5 +47,3 @@
 1. You should see the app you added to the remoteapp application group.
 
    :::image type="content" source="../media/5-remote-desktop-workspace.png" alt-text="Screenshot that shows workspace tab with yes selected.":::
-
-## How do they see desktop app group ??

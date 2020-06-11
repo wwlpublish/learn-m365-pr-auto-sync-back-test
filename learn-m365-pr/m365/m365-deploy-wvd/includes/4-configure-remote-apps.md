@@ -1,4 +1,4 @@
-Windows Virtual Desktop uses app groups to share RemoteApps with users. When you share an app, the user sees and can use only the application window, not the entire desktop.  
+Now that we have our host pool deployed, let's create a RemoteApp application group to share an application to a different user in the organization.
 
 ## Create and assign remote applications 
 
@@ -53,3 +53,9 @@ Windows Virtual Desktop uses app groups to share RemoteApps with users. When you
    :::image type="content" source="../media/4-remoteapp-workspace.png" alt-text="Screenshot that shows workspace tab with yes selected.":::
 1. Select **Review + create**.
 1. Review what you've entered and select **Create**.
+
+## Verify access to application
+
+1. Go to the [Windows Virtual Desktop web client](https://rdweb.wvd.microsoft.com/arm/webclient/index.html).
+1. Sign in by using the user credentials for the user you assigned to the RemoteApp application group.
+1. You should see the application in the workspace. 

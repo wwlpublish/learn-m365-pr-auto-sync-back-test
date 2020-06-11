@@ -38,7 +38,7 @@ You choose the image type Azure uses to create the virtual machine, either Galle
 
 - *Gallery* -  With this image type, you can select one of the recommended images from the drop-down menu like Windows 10 Enterprise multi-session + Office 365. If you don't see the image you want, select Browse all images and disks. Browse lets you select another image in your gallery or an image provided by Microsoft and other publishers.  
 
-- *Storage blob* - Allows you to use your own image built through Hyper-V or on an Azure VM. When you select this option, there are some additional fields you need to complete.
+- *Storage blob* - Allows you to use your own image built through Hyper-V or on an Azure VM. You might use this option when you have an image you're using on-premises and just want to upload it and start using it in Azure immediately. When you select this option, there are some additional fields you need to complete.
   - *Image URI* - Enter the URL to the generalized VHD from your Azure Storage account.
   - *Use managed disks* - For Storage blob image type, we recommend you choose yes for most VM configurations. You'd choose no where you want to use unmanaged disks for classic scenarios or to manage VHDs in your storage account.  
   - *Storage account* - You select the Azure storage account that contains your image.
@@ -64,13 +64,3 @@ You'll need to specify an Administrator account so the provisioning process can 
 You can assigned a user or group to both a desktop application group and a RemoteApp application group in the same host pool. However, users can only launch one type of application group per session. 
 
 If a user or group is assigned to multiple RemoteApp application groups within the same host pool, they'll see all the applications published to those application groups.
-
-You can assign RemoteApp application groups to users or groups in the Azure portal. We walk through that process in a later unit.
-
-To assign a desktop application group, use the Azure PowerShell cmdlet `New-AzRoleAssignment`. For example, you'd run the following command to assign the user "kaicarter" to the role "Desktop Virtualization User" at the scope of the resource group that contains the desktop application group:
-
-```powershell
-
- New-AzRoleAssignment -SignInName "kaicarter@contoso.onmicrosoft.com" -RoleDefinitionName "Desktop Virtualization User" -ResourceGroupName "wvd-dm-rg1"
-
-```

@@ -65,14 +65,22 @@ To deploy Windows Virtual Desktop, we'll start by creating a host pool, specifyi
 1. Select **Review + create**.
 1. Review what you've entered and select **Create**.
 
-## Assign role "Desktop Virtualization User"
+## Assign desktop application group to user
 
-As mentioned in the previous unit, you can assign users access to the virtual desktop by using the Azure PowerShell cmdlet `New-AzRoleAssignment`. Here's an example:
+Assign the desktop application group to a non-administrative user account that's in Active Directory. 
 
-```powershell
+1. Select **Application groups**.
+1. Select the desktop application group.
+1. Select **Access control (IAM)** > **Add** > **Add role assignment**.
+1. For **Role**, select **Desktop Virtualization User**. 
+1. For **Select**, enter the name of a non-administrative user account that's in Active Directory.
+1. Select **Save**.
 
- New-AzRoleAssignment -SignInName "kaicarter@contoso.onmicrosoft.com" -RoleDefinitionName "Desktop Virtualization User" -ResourceGroupName "wvd-dm-rg1"
 
-```
+## Verify access to desktop
+
+1. Go to the [Windows Virtual Desktop web client](https://rdweb.wvd.microsoft.com/arm/webclient/index.html).
+1. Sign in by using the user credentials for the user you assigned to the desktop application group.
+1. You should see a virtual desktop. 
 
 
