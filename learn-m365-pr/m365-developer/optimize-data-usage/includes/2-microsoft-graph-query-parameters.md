@@ -12,11 +12,11 @@ At its core, Microsoft Graph is a REST API. That means that developers can use a
 
 Microsoft Graph also provides multiple native SDKs for developers who want to use a rich programming model within their applications. These SDKs are available for multiple platforms and simplify the process of interacting with the Microsoft Graph’s REST API. They abstract away the tasks of constructing, submitting, and processing the REST requests and responses with the Microsoft Graph REST API.
 
-You'll find an existing SDK for the platform and language you are working on as all the popular platforms covered, including .NET, iOS, Android, Java, PhP, Ruby, JavaScript, and many more.
+You'll find an existing SDK for the platform and language you're working on as all the popular platforms covered, including .NET, iOS, Android, Java, PhP, Ruby, JavaScript, and many more.
 
 ## Authentication options
 
-Microsoft Graph supports two styles of authentication. One option supports users to authenticate using either an Azure AD account, also known as a Work & School account, or a Microsoft Account. The former account is typically used to access content and resources within Office 365 and Microsoft 365. The latter account type, a Microsoft Account, is used to access consumer resources such as OneDrive Consumer, Outlook.com, and other related services.
+Microsoft Graph supports two styles of authentication. Users can authenticate using either an Azure AD account, also known as a Work and School account, or a Microsoft Account. The former account is typically used to access content and resources within Office 365 and Microsoft 365. The latter account type, a Microsoft Account, is used to access consumer resources such as OneDrive Consumer, Outlook.com, and other related services.
 
 ## Microsoft Account + Azure AD
 
@@ -28,7 +28,7 @@ Microsoft Graph’s REST API conforms to the OData v4 protocol. One aspect of th
 
 Each endpoint exposed by Microsoft Graph has varying support for different query parameters. For example, the `$count` query parameter is supported by the **/contacts** endpoint, but it isn’t supported for directory objects like users and groups.
 
-Query parameters are added to the query string portion of a URL and have a `$` prefix. Each parameter has a different syntax for usage. For example, the `$count` query parameter, when set to `true`, will tell Microsoft Graph to report the total number of items in the collection regardless of how many items are returned by the request. In certain situations the `$count` parameter can dramatically reduce the amount of data returned by the service, reducing the work on Microsoft Graph and bandwidth consumed by your application.
+Query parameters are added to the query string portion of a URL and have a `$` prefix. Each parameter has a different syntax for usage. For example, the `$count` query parameter, when set to `true`, will tell Microsoft Graph to report the total number of items in the collection regardless of how many items are returned by the request. In certain situations, the `$count` parameter can dramatically reduce the amount of data returned by the service, reducing the work on Microsoft Graph and bandwidth consumed by your application.
 
 ## Control the amount of information returned in queries
 
@@ -76,7 +76,7 @@ Microsoft Graph will continue to return a reference to the next page of data in 
 
 ### Limiting data fields in results
 
-Microsoft Graph responses will include a set of default properties when no result set is defined. Including default properties means if you only want the display name & email address of numerous users, you will actually receive a lot more data that isn’t going to be used. To optimize the request and speed up the response, you can use the `$select` parameter to specify a comma-delimited list of properties you want to receive in the response.
+Microsoft Graph responses will include a set of default properties when no result set is defined. Including default properties means if you only want the display name and email address of numerous users, you will actually receive a lot more data that isn’t going to be used. To optimize the request and speed up the response, you can use the `$select` parameter to specify a comma-delimited list of properties you want to receive in the response.
 
 ```http
 https://graph.microsoft.com/v1.0/users?$select=id,givenName,surname
@@ -92,10 +92,10 @@ The `$orderby` parameter enables developers to let data from Microsoft Graph be 
 https://graph.microsoft.com/v1.0/users?$orderby=displayName
 ```
 
-Complex fields can also be sorted. Complex types, such as the from field in an email message is a complex type of an email address that contains a name & address property. To sort by name, use `from/emailAddress/name`.
+Complex fields can also be sorted. Complex types, such as the from field in an email message is a complex type of an email address that contains a name and address property. To sort by name, use `from/emailAddress/name`.
 
 ```http
 https://graph.microsoft.com/v1.0/me/messages?$orderby=from/emailAddress/name
 ```
 
-By default, responses from Microsoft Graph are returned in the JSON format. However, you can request data in two other formats, ATOM and XML, by adding the `$format` parameter.
+By default, responses from Microsoft Graph are returned in the JSON format. However, you can request data in two other formats, ATOM, and XML, by adding the `$format` parameter.
