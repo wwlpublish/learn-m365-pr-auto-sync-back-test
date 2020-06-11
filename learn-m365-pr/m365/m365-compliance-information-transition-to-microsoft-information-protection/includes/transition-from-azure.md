@@ -13,7 +13,7 @@ If you create labels in the Microsoft 365 compliance center with the same name a
 
 Here is the path to activate unified labeling: **Azure Information Protection > Unified Labeling > Activate**. The graphic below shows the Azure Information Protection unified labeling properties page after unified labeling has been activated. This step should only take a few moments but is dependent on the number of labels defined.
  
-![Azure Information Protection unified labeling properties page after unified labeling has been activated](../media/aip-unified-labeling-properties.png)
+![Azure Information Protection unified labeling properties page after unified labeling has been activated](../media/azure-information-protection-unified-labeling-properties.png)
 
 Once labels are migrated, you will see the same labels in Azure information Protection and the Microsoft 365 Compliance Center. The image below shows the results of a successful label migration.
 
@@ -66,7 +66,7 @@ Running the executable (EXE) version of the client is the recommended installati
 Deploying the Windows installer (MSI) version of the client is supported for silent installs that use a central deployment mechanism, such as group policy, Configuration Manager, and Microsoft Intune. This method is necessary for Windows 10 PCs managed by Intune and mobile device management (MDM) because installation via executable files is not supported. When you use this installation method, you must manually check and install or uninstall the software the executable would typically perform.
 
 ## Summary
-Transition to unified labeling is complete and you can manage labels in the Microsoft 365 compliance center once you perform the steps above. Once all your clients are using unified labeling, the only reason you may still need to use the Azure Portal for Azure Information Protection or to manage the Azure Information Protection scanner and to monitor label activities using Azure Information
+Transition to unified labeling is complete and you can manage labels in the Microsoft 365 compliance center once you perform the steps above. Once all your clients are using unified labeling, the only reason you may still need to use the Azure portal for Azure Information Protection or to manage the Azure Information Protection scanner and to monitor label activities using Azure Information
 
 ## Learn more
 - [What label policies can do](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels?view=o365-worldwide#what-label-policies-can-do?azure-portal=true)
