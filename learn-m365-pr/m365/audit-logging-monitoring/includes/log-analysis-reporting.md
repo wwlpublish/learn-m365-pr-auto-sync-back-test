@@ -1,0 +1,21 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4xddn]
+
+No matter what log data a system collects, audit logging is only useful if it can be used to generate meaningful alerts and actionable reports. Microsoft 365 uses automated systems that analyze log data in near real time to support continuous security and service health monitoring.
+
+## Security monitoring and response at scale
+
+![Principles of security monitoring: - Alerting must be robust: we need to have signals and logic for a variety of different attacker behaviors. - Alerting must be accurate: we have to raise meaningful alerts, to avoid distractions from noise. - Alerting must be fast: we have to catch attackers quickly enough to stop them](../media/security-monitoring-process.png)
+
+Microsoft 365 engages in continuous security monitoring of its systems to detect and respond to threats to Microsoft 365 Services. Automation, scale, and cloud-based solutions are key pillars of our monitoring and response strategy. For us to effectively catch and stop attacks at the scale of some of the Microsoft 365 core services, our monitoring systems need to automatically raise highly accurate alerts in near real time. Likewise, when an issue is detected, we need the ability to mitigate the risk at scale – we cannot rely on our team to manually fix issues machine-by-machine. To mitigate risks at scale, we use cloud-based tools to automatically apply countermeasures and provide engineers with tools to apply approved mitigations quickly across the environment.
+
+The logging data we collect enables 24/7 security monitoring with Near Real-Time processing and alerting. Our alerting system analyzes log data as it gets uploaded, producing alerts in near real time. This includes rules-based alerts and more sophisticated alerting based on machine learning models. Our monitoring logic goes beyond generic attack scenarios and incorporates deep awareness of service architecture and operations. We use security monitoring data to continuously improve our models to detect new kinds of attacks and improve the accuracy of our security monitoring.
+
+When we need to take an action in response to an alert or to further investigate forensic evidence throughout the service, our cloud-based tools allow us respond rapidly throughout the environment. These tools include fully automated, intelligent agents that respond to detected threats with security countermeasures. In many cases, these agents deploy automatic countermeasures to mitigate security detections at scale without human intervention. When this is not possible, the security monitoring system automatically alerts the appropriate on-call engineers, who are equipped with a set of tools that enable them to act in real time to mitigate detected threats at scale. Potential incidents detected by security monitoring are escalated to the Microsoft 365 Security Response team and resolved using the security incident response process.
+
+## Service health monitoring
+
+In addition to security monitoring, service teams analyze log data for their own services as a part of service health monitoring. Service health monitoring helps identify potential issues related to system performance, user experience, and deviations from baseline service use. Service health issues that impact availability are reported to service team engineers through automated alerts. In many cases, our services respond automatically to service health issues using automated self-healing measures, such as restoring corrupt data from a replication zone or automatically scaling out the service to handle increased loads.
+
+In addition to resolving short-term issues, service teams use service health trend data for capacity planning and other long-term strategic goals to maintain optimal service for our customers. Service teams incorporate service performance and user experience data into feature planning to ensure that our services continue to meet customer needs.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4xfY4]
