@@ -40,8 +40,8 @@ Update-Package bootstrap
 Install-Package Microsoft.Owin.Host.SystemWeb
 Install-Package Microsoft.Owin.Security.OpenIdConnect
 Install-Package Microsoft.Owin.Security.Cookies
-Install-Package Microsoft.Identity.Client -Version 4.9.0
-Install-Package Microsoft.Graph -Version 1.21.0
+Install-Package Microsoft.Identity.Client -Version 4.14.0
+Install-Package Microsoft.Graph -Version 3.6.0
 ```
 
 ## Design the app
@@ -50,7 +50,7 @@ In this section, you'll create the basic structure of the application.
 
 Create a basic OWIN startup class. Right-click the **graph-tutorial** folder in **Solution Explorer** and select **Add > New Item**. Choose the **OWIN Startup Class** template, name the file **Startup.cs**, and select **Add**.
 
-Right-click the **Models** folder in **Solution Explorer** and select **Add > Class...**. Name the class `Alert` and select **Add**. Replace the entire contents of **Alert.cs** with the following code.
+Right-click the **Models** folder in **Solution Explorer** and select **Add > Class...**. Name the class **Alert** and select **Add**. Replace the entire contents of **Alert.cs** with the following code.
 
 ```cs
 namespace graph_tutorial.Models

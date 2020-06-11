@@ -14,7 +14,7 @@ The Microsoft Graph is the gateway to your data in the Microsoft cloud as you se
 
 ![Microsoft Graph - gateway to your data in the Microsoft cloud](../media/02-msgraph-gateway.png)
 
-The Microsoft cloud is included of multiple services and data types that we can take advantage of from Office 365, and it's all considered part of the Microsoft 365 platform.
+The Microsoft cloud includes multiple services and data types that we can take advantage of from Office 365, and it's all considered part of the Microsoft 365 platform.
 
 Developers can integrate the signed-in user's email, calendar, contacts, and tasks into custom apps. We can work with content in SharePoint sites and lists files in OneDrive, channels and content within Microsoft Teams, and users in Azure Active Directory (Azure AD).
 
@@ -52,7 +52,7 @@ Office 365 has a single authentication flow that Microsoft Graph also uses. User
 
 Azure AD is used for all of the authentication. Microsoft Graph uses the same authentication model as Azure and Office 365 that is built on top of the authentication model of Azure AD. Both of these services trust Azure AD and by having this shared trust, we can leverage the authentication to take advantage of both of these different services with the same authentication flow.
 
-This authentication flow also supports multi-factor authentication, also referred to as MFA, and federated user sign-ons and it supports all different kinds of applications from device applications, including mobile devices, websites, single page applications that live 100% in the client or as a headless application with no user involvement, also referred to as a daemon app or as a service.
+This authentication flow also supports multi-factor authentication, also referred to as MFA, and federated user sign-ons. It supports all different kinds of applications from device applications, including mobile devices, websites, single page applications that live 100% in the client or as a headless application with no user involvement, also referred to as a daemon app or as a service.
 
 One of the concepts with Azure AD is the *common consent framework*. To best understand consent, think about permissions in the concept of a triangle.
 
