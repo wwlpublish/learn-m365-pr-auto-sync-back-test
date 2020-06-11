@@ -1,0 +1,44 @@
+### YamlMime:Module
+uid: learn-m365.m365-onedrive-collaboration-manage-onedrive
+metadata:
+  title: Manage OneDrive migrations and deployment 
+  description:  Learn what you as an administrator need to know before and during your OneDrive rollout to handle migrations and the deployment of the OneDrive sync app. The ability to administer OneDrive is granted through the SharePoint admin role in Microsoft 365. Learn the different options for migration and how you can ensure you chose the best route for your organization. The OneDrive sync app is essential to be deployed as part of your OneDrive rollout. Learn what technologies can be used to manage deployment across your organization’s devices and how to change the sync app configuration based on things like Group Policy.
+  ms.date: 06/15/2020
+  author: ericweisberg
+  ms.author: v-erwe
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage OneDrive migrations and deployment 
+summary:  Learn what you as an administrator need to know before and during your OneDrive rollout to handle migrations and the deployment of the OneDrive sync app. The ability to administer OneDrive is granted through the SharePoint admin role in Microsoft 365. Learn the different options for migration and how you can ensure you chose the best route for your organization. The OneDrive sync app is essential to be deployed as part of your OneDrive rollout. Learn what technologies can be used to manage deployment across your organization’s devices and how to change the sync app configuration based on things like Group Policy.
+abstract: |
+  Upon completion of this module, you should be able to: 
+  -	Identify what you need to know before deploying OneDrive.
+  -	Describe the options for migrating content into OneDrive.
+  -	Show how to manage devices that are using OneDrive.
+  - Demonstrate management options for the sync app.
+  - Explain how to deploy the OneDrive sync app.
+
+
+prerequisites: | 
+   - Basic understanding of Microsoft 365
+   - Understanding of the different types of OneDrive services
+
+iconUrl: http://via.placeholder.com/120x120
+ratingEnabled: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-365
+units:
+- learn-m365.m365-onedrive-collaboration-manage-onedrive.introduction-onedrive-deployment
+- learn-m365.m365-onedrive-collaboration-manage-onedrive.configure-device-management
+- learn-m365.m365-onedrive-collaboration-manage-onedrive.manage-sync-app
+- learn-m365.m365-onedrive-collaboration-manage-onedrive.deploy-sync-app
+- learn-m365.m365-onedrive-collaboration-manage-onedrive.migrate-content
+- learn-m365.m365-onedrive-collaboration-manage-onedrive.summary-knowledge-check
+
+badge: 
+  uid: learn-m365.onedrive-collaboration-manage-onedrive.badges
