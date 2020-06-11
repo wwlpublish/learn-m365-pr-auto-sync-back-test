@@ -15,8 +15,8 @@ abstract: |
   -	Identify what you need to know before deploying OneDrive.
   -	Describe the options for migrating content into OneDrive.
   -	Show how to manage devices that are using OneDrive.
-  - 	Demonstrate management options for the sync app.
-  - 	Explain how to deploy the OneDrive sync app.
+  - Demonstrate management options for the sync app.
+  - Explain how to deploy the OneDrive sync app.
 
 
 prerequisites: | 
