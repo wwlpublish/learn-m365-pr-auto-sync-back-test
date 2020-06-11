@@ -1,0 +1,10 @@
+Microsoft partners with other companies to support our online services and deliver innovative solutions that meet our customers’ needs. We refer to third-party companies who support Microsoft online services as suppliers or subprocessors. Microsoft’s security policies include supplier oversight to protect customer and personal data from unauthorized access, modification, or destruction.
+
+Supplier security and privacy at Microsoft is governed by our Supplier Security and Privacy Assurance (SSPA) program, an enterprise-wide set of requirements for all suppliers who partner with Microsoft to deliver our online services. The SSPA program standardizes supplier requirements and ensures all subprocessors meet or exceed our Data Protection Requirements (DPR), a framework of security and privacy controls designed to protect customer and personal data. SSPA program requirements are enforced through a rigorous onboarding process to verify all applicable requirements for new suppliers have been met before the start of contracted work. Existing suppliers must provide additional verification of compliance with the DPR on an annual basis. When suppliers no longer require access to data, strict offboarding processes protect customer data from unauthorized disclosure or loss.
+
+In addition to the SSPA program, Microsoft 365 implements further requirements for suppliers to limit the number of authorized subprocessors and provide adequate notification to customers when new subprocessors are approved. Together with the SSPA program, Microsoft 365 mitigates the risks typically associated with subprocessing by requiring strong security and privacy controls while also minimizing single points of failure caused by relying too heavily on any one supplier.
+
+## Learn more
+
+- [How does Microsoft handle your data in the cloud?](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4qVL2?azure-portal=true)
+- [Microsoft Online Services Data Protection Terms](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=67&azure-portal=true)

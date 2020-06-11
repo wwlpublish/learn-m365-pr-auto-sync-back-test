@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.audit-subprocessor-management.subprocessor-offboarding
+title: Understand subprocessor offboarding
+metadata:
+  title: Understand subprocessor offboarding
+  description: Learn how Microsoft 365 procures, monitors, and manages subprocessors to help protect data from unauthorized access and inappropriate use.
+  ms.date: 06/11/2020
+  author: NamrahK
+  ms.author: v-nakhu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 2
+content: |
+  [!include[](includes/subprocessor-offboarding.md)]
