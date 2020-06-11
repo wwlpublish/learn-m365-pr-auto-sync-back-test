@@ -2,7 +2,7 @@ In this exercise, you'll extend the existing ASP.NET Core web API application to
 
 ## Update the ASP.NET Core web API project
 
-Open the **Startup.cs** file and comment out the following line to disable ssl redirection.
+Open the **Startup.cs** file and comment out the following line to disable SSL redirection.
 
 ```cs
 //app.UseHttpsRedirection();
