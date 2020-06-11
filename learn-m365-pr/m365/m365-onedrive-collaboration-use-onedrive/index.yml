@@ -1,0 +1,44 @@
+### YamlMime:Module
+uid: learn-m365.m365-onedrive-collaboration-use-onedrive
+metadata:
+  title: Use OneDrive in Microsoft 365
+  description:  Discover how your users will interact with Microsoft OneDrive and how OneDrive makes collaboration better. Learn how your users store, sync, and work with files across all devices and how OneDrive within Microsoft 365 allows people to do just that. 
+  ms.date: 06/15/2020
+  author: ericweisberg
+  ms.author: v-erwe
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Use OneDrive in Microsoft 365
+summary:  Discover how your users will interact with Microsoft OneDrive and how OneDrive makes collaboration better. Learn how your users store, sync, and work with files across all devices and how OneDrive within Microsoft 365 allows people to do just that. 
+abstract: |
+  Upon completion of this module, you should be able to: 
+  -	Explain what OneDrive is and why it is important to your users and how they work.
+  -	Describe the key features of OneDrive.
+  -	Describe the sharing capabilities within OneDrive and when to use each one.
+  -	Explain how to use OneDrive to work with other people within Office files.
+  -	Describe what the OneDrive sync app is and what it does.
+
+prerequisites: | 
+   - Basic understanding of Microsoft 365
+   - Understanding of the different types of OneDrive services
+
+iconUrl: http://via.placeholder.com/120x120
+ratingEnabled: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-365
+units:
+- learn-m365.m365-onedrive-collaboration-use-onedrive.introduction-onedrive
+- learn-m365.m365-onedrive-collaboration-use-onedrive.using-onedrive
+- learn-m365.m365-onedrive-collaboration-use-onedrive.managing-files-folders
+- learn-m365.m365-onedrive-collaboration-use-onedrive.sharing
+- learn-m365.m365-onedrive-collaboration-use-onedrive.co-authoring
+- learn-m365.m365-onedrive-collaboration-use-onedrive.sync
+- learn-m365.m365-onedrive-collaboration-use-onedrive.summary-knowledge-check
+
+badge: 
+  uid: learn-m365.onedrive-collaboration-use-onedrive.badges
