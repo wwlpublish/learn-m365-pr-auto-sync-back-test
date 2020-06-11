@@ -31,13 +31,13 @@ quiz:
     - content: "Before you can get started with privileged access management you need to do which of the following? "
       choices:
       - content: "Create an approver’s group "
-        isCorrect: false
+        isCorrect: true
         explanation: "Before you start using privilege access, determine who needs approval authority for incoming requests for access to elevated and privileged tasks. Any user who is part of the Approvers' group is able to approve access requests.  "
       - content: "Enable privileged access "
         isCorrect: false
         explanation: "Privileged access must be explicitly enabled in Office 365 with the default approver group, including a set of system accounts that you want excluded from the privileged access management access control. "
       - content: "Create an access policy "
-        isCorrect: true
+        isCorrect: false
         explanation: "Creating an approval policy allows you to define the specific approval requirements scoped at individual tasks. The approval type options are **Auto** or **Manual**."
       
     - content: "True or false: If you select to choose manual approval for high risk tasks like setting a journal rule, you cannot choose a different approval group beyond the default approval group. "
