@@ -23,7 +23,7 @@ Add the following code to the `GraphHelper` class.
 private static string appId = ConfigurationManager.AppSettings["ida:AppId"];
 private static string appSecret = ConfigurationManager.AppSettings["ida:AppSecret"];
 private static string redirectUri = ConfigurationManager.AppSettings["ida:RedirectUri"];
-private static string List<string> graphScopes =
+private static List<string> graphScopes =
     new List<string>(ConfigurationManager.AppSettings["ida:AppScopes"].Split(' '));
 
 public static async Task<IEnumerable<Event>> GetEventsAsync()

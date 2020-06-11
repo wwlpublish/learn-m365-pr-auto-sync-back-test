@@ -109,7 +109,7 @@ The `Post` method will now call `CheckForUpdates` when a notification is receive
 
 ### Test your changes
 
-Within Visual Studio Code, select **Debug > Start debugging** to run the application.
+Within Visual Studio Code, select **Run > Start debugging** to run the application.
 
 Navigate to the following url: **http://localhost:5000/api/notifications**. This will register a new subscription.
 

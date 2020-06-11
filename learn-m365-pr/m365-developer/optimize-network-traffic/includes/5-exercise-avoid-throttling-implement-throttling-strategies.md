@@ -235,7 +235,7 @@ try
  catch {}
 ```
 
-With all work complete write the results to the console:
+With all work, complete write the results to the console:
 
 ```cs
 stopwatch.Stop();
@@ -273,7 +273,7 @@ The important point is that the application completed successfully, retrieving a
 
 ## Implement Microsoft Graph SDK for throttling retry strategy
 
-In the last section exercise, you modified the application to implement a strategy to determine if a request is throttled. In the case the request was throttled, as indicated by the response to the REST endpoint request, you implemented a retry strategy using the `HttpClient`.
+In the last section, you modified the application to implement a strategy to determine if a request is throttled. In the case the request was throttled, as indicated by the response to the REST endpoint request, you implemented a retry strategy using the `HttpClient`.
 
 Let's change the application to use the Microsoft Graph SDK client, which has all the logic built in for implementing the retry strategy when a request is throttled.
 
@@ -337,7 +337,7 @@ The collection returned by SDK is in a different format than what the REST API r
 foreach (var graphMessage in clientResponse.CurrentPage)
 ```
 
-### Update the `GetMessageDetail` method to return
+### Update the `GetMessageDetail` method
 
 The last step is to modify the `GetMessageDetail` method that retrieved the message details for each message. Recall from previous section in this unit, you had to write the code to detect when requests were throttled. In the case they were throttled, you added code to retry the request after a specified delay. Fortunately, the Microsoft Graph SDK has this logic included in it.
 

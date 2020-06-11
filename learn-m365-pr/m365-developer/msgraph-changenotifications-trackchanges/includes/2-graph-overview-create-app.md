@@ -16,7 +16,7 @@ The Microsoft Graph is the gateway to your data in the Microsoft cloud.
 
 The Microsoft cloud includes multiple services and data types that we can take advantage of from Office 365, and it's all considered part of the Microsoft 365 platform.
 
-Developers can integrate the signed-in user's email, calendar, contacts, and tasks into custom apps. We can work with content in SharePoint sites and lists files in OneDrive, channels and content within Microsoft Teams, and users in Azure Active Directory (Azure AD).
+Developers can integrate the signed-in user's email, calendar, contacts, and tasks into custom apps. We can work with content in SharePoint sites, files in OneDrive, channels and content within Microsoft Teams, and users in Azure Active Directory (Azure AD).
 
 There are many different services that developers can take advantage of in their custom apps. Many of these services have their own APIs developers can interact with.
 
