@@ -1,0 +1,40 @@
+### YamlMime:Module
+uid: learn-m365.m365-onedrive-collaboration-plan-configure-sharing
+metadata:
+  title: Plan & configure external sharing in OneDrive 
+  description:  Learn what you as an administrator need to know for planning and configuring external sharing in OneDrive. External sharing is a core collaboration feature of OneDrive and has multiple configuration scenarios available are available to every organization. Learn what different sharing options exist and how they relate to the users sharing experience across applications and devices. 
+  ms.date: 06/15/2020
+  author: ericweisberg
+  ms.author: v-erwe
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Plan & configure external sharing in OneDrive 
+summary:  Learn what you as an administrator need to know for planning and configuring external sharing in OneDrive. External sharing is a core collaboration feature of OneDrive and has multiple configuration scenarios available are available to every organization. Learn what different sharing options exist and how they relate to the users sharing experience across applications and devices. 
+abstract: |
+  Upon completion of this module, you should be able to: 
+  -	Explain how to configure sharing in OneDrive.
+  -     Describe how the options for external sharing in OneDrive interact with external sharing in SharePoint.
+  -	Explain the different advanced configuration options for external sharing.
+
+prerequisites: | 
+   - Basic understanding of Microsoft 365
+   - Understanding of the different types of OneDrive services
+
+iconUrl: http://via.placeholder.com/120x120
+ratingEnabled: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-365
+units:
+- learn-m365.m365-onedrive-collaboration-plan-configure-sharing.configure-sharing
+- learn-m365.m365-onedrive-collaboration-plan-configure-sharing.advanced-settings
+- learn-m365.m365-onedrive-collaboration-plan-configure-sharing.file-folder-links
+- learn-m365.m365-onedrive-collaboration-plan-configure-sharing.advanced-settings-anyone-links
+- learn-m365.m365-onedrive-collaboration-plan-configure-sharing.summary-knowledge-check
+
+badge: 
+  uid: learn-m365.onedrive-collaboration-plan-configure-sharing.badges
