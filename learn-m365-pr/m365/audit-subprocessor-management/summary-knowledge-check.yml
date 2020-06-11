@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.audit-subprocessor-management.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Learn how Microsoft 365 procures, monitors, and manages subprocessors to help protect data from unauthorized access and inappropriate use.
+  ms.date: 06/11/2020
+  author: NamrahK
+  ms.author: v-nakhu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 4
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "What type of subprocessor is used to deliver services to help support, operate, and maintain Microsoft online services? "
+      choices:
+      - content: "Technology subprocessors"
+        isCorrect: false
+        explanation: "Technology subprocessors provide technologies used to deliver specific Microsoft online services."
+      - content: "Ancillary subprocessors"
+        isCorrect: true
+        explanation: "Correct. Ancillary subprocessors provide services to help support, operate, and maintain Microsoft online services."
+      - content: "Staff augmentation subprocessors"
+        isCorrect: false
+        explanation: "Staff augmentation subprocessors provide staff that support, operate, and maintain Microsoft online services."
+      
+    - content: "Which statement about Microsoft 365 subprocessor monitoring is accurate?"
+      choices:
+      - content: "All subprocessors must complete an annual attestation to their security and privacy controls. "
+        isCorrect: true
+        explanation: "Correct. All subprocessors must complete an annual attestation to their compliance with applicable security and privacy Data Protection Requirements (DPR)."
+      - content: "All subprocessors require an annual audit by a certified audit authority."
+        isCorrect: false
+        explanation: "Only subprocessors who process certain kinds of data, including but not limited to customer data in an offsite location, are required to complete an annual audit by a third party."
+      - content: "Microsoft provides customer notice six months in advance of providing a subprocessor with access to personal data as part of contracted work. "
+        isCorrect: false
+        explanation: "Microsoft commits to a 30-day notice period for providing subprocessors with access to personal data."
+      
+    - content: "At the end of an engagement with Microsoft, how long does the subprocessor have to completely return or destroy all data?"
+      choices:
+      - content: "Seven days from the end of the engagement "
+        isCorrect: true
+        explanation: "Correct. At the end of an engagement or on Microsoft’s request, the subprocessor has seven days to return or destroy all data including copies."
+      - content: "30 days from the end of the engagement"
+        isCorrect: false
+        explanation: "While 30 days are what we promise our customers, we require subprocessors to complete the task in seven days to ensure we can comply with customer obligations."
+      - content: "Immediately upon request but not to exceed 24 hours"
+        isCorrect: false
+        explanation: "Microsoft provides a 7-day period for the return or destruction of all customer and personal data. It allows the subprocessor time to ensure the data and all copies of data are returned or securely destroyed."
