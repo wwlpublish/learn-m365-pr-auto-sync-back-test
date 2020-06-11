@@ -3,7 +3,7 @@ uid: learn-m365.optimize-network-traffic.4-avoid-throttling-implement-throttling
 metadata:
   title: Avoid throttling & implement throttling strategies
   description: In this unit, you will learn how to can implement different strategies in your applications to avoid from being throttled by Microsoft Graph.
-  ms.date: 03/10/2020
+  ms.date: 06/11/2020
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
