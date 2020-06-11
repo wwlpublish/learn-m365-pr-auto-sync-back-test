@@ -12,16 +12,15 @@ title: Use OneDrive in Microsoft 365
 summary:  Discover how your users will interact with Microsoft OneDrive and how OneDrive makes collaboration better. Learn how your users store, sync, and work with files across all devices and how OneDrive within Microsoft 365 allows people to do just that. 
 abstract: |
   Upon completion of this module, you should be able to: 
--	Explain what OneDrive is and why it is important to your users and how they work.
--	Describe the key features of OneDrive.
--	Describe the sharing capabilities within OneDrive and when to use each one.
--	Explain how to use OneDrive to work with other people within Office files.
--	Describe what the OneDrive sync app is and what it does.
+  -	Explain what OneDrive is and why it is important to your users and how they work.
+  -	Describe the key features of OneDrive.
+  -	Describe the sharing capabilities within OneDrive and when to use each one.
+  -	Explain how to use OneDrive to work with other people within Office files.
+  -	Describe what the OneDrive sync app is and what it does.
 
-  Prerequisites: | 
-   - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [What is Microsoft 365](https://docs.microsoft.com/learn/modules/what-is-m365/?azure-portal=true)
-   - Understanding of the [different types of OneDrive services](https://docs.microsoft.com/office365/servicedescriptions/onedrive-for-business-service-description?azure-portal=true) and how OneDrive is part of your organization’s service within Microsoft 365. 
-
+prerequisites: | 
+   - Basic understanding of Microsoft 365
+   - Understanding of the different types of OneDrive services
 
 iconUrl: http://via.placeholder.com/120x120
 ratingEnabled: true
