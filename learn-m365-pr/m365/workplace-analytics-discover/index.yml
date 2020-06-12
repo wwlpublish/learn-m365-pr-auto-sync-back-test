@@ -24,7 +24,6 @@ roles:
 - business-analyst
 products:
 - m365
-- m365-workplace-analytics
 units:
 - learn-m365.workplace-analytics-discover.introduction
 - learn-m365.workplace-analytics-discover.see-how-tool-works
