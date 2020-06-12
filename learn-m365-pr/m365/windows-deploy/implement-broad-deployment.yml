@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.windows-deploy.implement-broad-deployment
+title: Implement Broad deployment
+metadata:
+  title: Implement Broad deployment
+  description: Learn how to implement Broad deployment
+  ms.date: 05/20/2020
+  author: IanKensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: m365
+durationInMinutes: 8
+content: |
+  [!include[](includes/implement-broad-deployment.md)]
