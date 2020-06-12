@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-deployment-options-microsoft-edge.explore-process-deploy-mobile-apps
+title: Explore the process to deploy Microsoft Edge mobile apps
+metadata:
+  title: Explore the process to deploy Microsoft Edge mobile apps
+  description: "Explore the process to deploy Microsoft Edge mobile apps"
+  ms.date: 06/15/2020
+  author: wwlpublish
+  ms.author: ceperezb
+  ms.topic: interactive-tutorial
+  ms.prod: learning-windows
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/5-explore-process-deploy-mobile-apps.md)]
