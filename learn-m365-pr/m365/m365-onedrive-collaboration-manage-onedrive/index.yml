@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn-m365.m365-onedrive-collaboration-manage-onedrive
+metadata:
+  title: Manage OneDrive
+  description:  The management of OneDrive is ongoing after your rollout. Learn how to view reports of usage and activity within OneDrive to better understand what is happening in your organization and how to audit activities that occur. Learn what you can do to further protect files in OneDrive and also ensure they are retained and available after a user leaves the organization. 
+  ms.date: 06/15/2020
+  author: ericweisberg
+  ms.author: v-erwe
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage OneDrive
+summary:  The management of OneDrive is ongoing after your rollout. Learn how to view reports of usage and activity within OneDrive to better understand what is happening in your organization and how to audit activities that occur. Learn what you can do to further protect files in OneDrive and also ensure they are retained and available after a user leaves the organization. 
+abstract: |
+  Upon completion of this module, you should be able to: 
+  -	Explain how storage can be controlled.
+  - Describe the options for retention and how it works.
+  - Understand how to better secure content in OneDrive.
+  - Understand options for auditing and reporting in OneDrive
+
+
+prerequisites: | 
+   - Basic understanding of Microsoft 365
+   - Understanding of the different types of OneDrive services
+
+iconUrl: http://via.placeholder.com/120x120
+ratingEnabled: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-365
+units:
+- learn-m365.m365-onedrive-collaboration-manage-onedrive.manage-storage-retention
+- learn-m365.m365-onedrive-collaboration-manage-onedrive.secure-onedrive
+- learn-m365.m365-onedrive-collaboration-manage-onedrive.audit-onedrive
+- learn-m365.m365-onedrive-collaboration-manage-onedrive.use-reports
+- learn-m365.m365-onedrive-collaboration-manage-onedrive.summary-knowledge-check
+
+badge: 
+  uid: learn-m365.onedrive-collaboration-manage-onedrive.badges

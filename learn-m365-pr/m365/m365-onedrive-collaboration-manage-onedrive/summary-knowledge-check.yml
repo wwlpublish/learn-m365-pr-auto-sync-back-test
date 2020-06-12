@@ -1,0 +1,67 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-onedrive-collaboration-manage-onedrive.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: The management of OneDrive is ongoing after your rollout. Learn how to view reports of usage and activity within OneDrive to better understand what is happening in your organization and how to audit activities that occur. Learn what you can do to further protect files in OneDrive and also ensure they are retained and available after a user leaves the organization. 
+  ms.date: 06/15/2020
+  author: ericweisberg
+  ms.author: v-erwe
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+ 
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Which of the following describes the most comprehensive approach to information governance and its benefits?"
+      choices:
+      - content: "Securing sensitive data and access."
+        isCorrect: false
+        explanation: "This is one benefit of information governance "
+      - content: "Ensuring your data is defensible and retained. "
+        isCorrect: false
+        explanation: "This is one benefit of information governance "
+      - content: "Managing the end-to-end lifecycle of all content across your digital estate. "
+        isCorrect: true
+        explanation: "Unlike manually applied retention labels, you can only auto-apply a single label. Note that you cannot auto-apply labels that are classified as a record."
+
+    - content: "Which of the following statements is accurate regarding retention labels?"
+      choices:
+      - content: "Only one retention label can be assigned to content (such as an email or document) at a time."
+        isCorrect: true
+        explanation: "Content like an email or document can have only a single retention label assigned to it at a time."
+      - content: "If content has an auto-apply label assigned, users can remove or change the retention label that is assigned. "
+        isCorrect: false
+        explanation: "For retention labels assigned manually by end users, users can remove or change the retention label that is assigned."
+      - content: "If there are multiple rules that assign an auto-apply label and content meets the conditions of multiple rules, the retention label for the most recent (newest) rule is assigned. "
+        isCorrect: false
+        explanation: "If there are multiple rules that assign an auto-apply label and content meets the conditions of multiple rules, the retention label for the oldest rule is assigned."
+      
+    - content: "How long does it take retention labels to take effect?"
+      choices:
+      - content: "Once the label policy is synced from the admin center to the locations in the policy."
+        isCorrect: false
+        explanation: "First, the label policy needs to be synced from the admin center to the locations in the policy. Then the location may require time to make published retention labels available to end users or time to auto-apply labels to content. How long this takes depends on the location and type of retention label."
+      - content: "As soon as you publish or auto-apply retention labels."
+        isCorrect: false
+        explanation: "When you publish or auto-apply retention labels, they don't take effect immediately. First the label policy needs to be synced from the admin center to the locations in the policy. Then the location may require time to make published retention labels available to end users or time to auto-apply labels to content. How long this takes depends on the location and type of retention label."
+      - content: "It depends on the type of retention label."
+        isCorrect: true
+        explanation: "First, the label policy needs to be synced from the admin center to the locations in the policy. Then the location may require time to make published retention labels available to end users or time to auto-apply labels to content. How long this takes depends on the location and type of retention label."
+      
+    - content: "You opted to retain content using the basic path under Settings.  You selected when it was last modified in Teams conversations. What will happen?"
+      choices:
+      - content: "The retention period begins when messages were created."
+        isCorrect: false
+        explanation: "This is true for the selection *when it was created* in SharePoint and OneDrive documents. "
+      - content: "The retention period begins based on when the messages were last modified."
+        isCorrect: false
+        explanation: "This is true for SharePoint and OneDrive documents."
+      - content: "The retention period is based on when messages were sent or received."
+        isCorrect: true
+        explanation: "Regardless of what you choose the retention period on content in Teams conversations will be based on when messages or conversations were sent or received."
+      
+ 
