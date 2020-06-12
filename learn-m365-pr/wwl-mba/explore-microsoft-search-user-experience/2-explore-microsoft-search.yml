@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-microsoft-search-user-experience.explore-microsoft-search
+title: Explore the user experience for Microsoft Search
+metadata:
+  title: Explore the user experience for Microsoft Search
+  description: "Explore the user experience for Microsoft Search"
+  ms.date: 06/14/2020
+  author: wwlpublish
+  ms.author: ceperezb
+  ms.topic: interactive-tutorial
+  ms.prod: learning-windows
+azureSandbox: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/2-explore-microsoft-search.md)]
