@@ -1,0 +1,28 @@
+### YamlMime:LearningPath
+uid: learn.wwl.deploy-configure-microsoft-edge-search-for-devices
+metadata:
+  title: Deploy and configure Microsoft Edge and Microsoft Search for all your devices
+  description: Discover how to deploy and configure Microsoft Edge for all devices, in addition to how to use, enable, and configure Microsoft Search on your browser.
+  ms.date: 06/15/2020
+  author: wwlpublish
+  ms.author: ceperezb
+  ms.topic: learning-m365
+  ms.prod: learning-m365
+title: Deploy and configure Microsoft Edge and Microsoft Search for all your devices
+prerequisites: |
+  - Experience deploying and configuring application packages, at scale, using software distribution tools such as Microsoft Intune or Configuration Manager
+summary: |
+  Discover how to deploy and configure Microsoft Edge for all devices, in addition to how to use, enable, and configure Microsoft Search on your browser.
+iconUrl: /learn/achievements/generic-trophy.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-365
+modules:
+- learn.wwl.explore-deployment-options-microsoft-edge
+- learn.wwl.explore-microsoft-search-user-experience
+trophy:
+  uid: learn.wwl.deploy-configure-microsoft-edge-search-for-devices.trophy
