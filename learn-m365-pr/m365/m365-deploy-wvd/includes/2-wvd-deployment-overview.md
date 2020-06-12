@@ -1,6 +1,4 @@
-
-
-## Review prereq or sample set up?
+Before we walk through the deployment process, let's review some key terms and deployment options.
 
 ## Terminology
 

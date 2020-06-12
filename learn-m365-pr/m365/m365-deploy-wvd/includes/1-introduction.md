@@ -1,11 +1,17 @@
-In this module, we’ll walk through how to deploy your first Windows Virtual Desktop host pool and virtual machines. 
+You've prepared your environment by setting up Azure Active Directory (Azure AD), integrating it with Active Directory Domain Services (AD DS), creating Azure resources needed to deploy Windows Virtual Desktop, and assigning licenses and administrator roles to users. Now you're ready to deploy  Windows Virtual Desktop.
 
-In this module, you will learn how to,
+Suppose you want to allow some of your employees access to virtual desktops that your organization manages. Others in your organization just need access to an application. This application could be a line of business application that runs on a legacy operating system, or one that requires tight security and compliance.
 
-- Create a Windows Virtual Desktop host pool
-- Make apps available to users with app groups
-- Customize your workspace
-- Install the Windows Virtual Desktop Client for Windows
+## Learning objectives
 
+In this module, you will:
 
+- Learn about the key components of Windows Virtual Desktop and the deployment options 
+- Deploy a customized workspace with a virtual desktop and remote app to users
 
+## Prerequisites
+
+- Familiarity with server and client management concepts and tools
+- Familiarity with Windows virtualization technologies, like Remote Desktop Services
+- (Optional) Access to an Azure environment prepared for Windows Virtual Desktop: Azure AD configured and integrated with AD DS, and an Azure Virtual Network that's connected to your domain
+- (Optional) User credentials for three user accounts in Azure AD: a user account that's assigned to the AD DS administrator role and two non-administrative user accounts

@@ -2,9 +2,9 @@
 uid: learn-m365.deploy-wvd.introduction
 title: Introduction
 metadata:
-  title: Review how to deploy Windows Virtual Desktop
-  description: Introduction
-  ms.date: 05/29/2020
+  title: Introduction
+  description: Introduction to deploy Windows Virtual Desktop in Microsoft Azure.
+  ms.date: 06/12/2020
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial

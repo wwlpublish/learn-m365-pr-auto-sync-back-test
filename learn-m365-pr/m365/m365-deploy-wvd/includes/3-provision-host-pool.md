@@ -1,4 +1,11 @@
-To deploy Windows Virtual Desktop, we'll start by creating a host pool, specifying our session host VMs, and creating a workspace. The following steps provide some initial values for you to use to test out Windows Virtual Desktop. Review the available options to plan and customize your deployment to match your organization's needs.
+To deploy Windows Virtual Desktop, we'll start by creating a host pool, specifying our session host VMs, and creating a workspace. This process creates a desktop application group. We'll then assign that application group to a user and verify they can see the virtual desktop in their workspace. 
+
+The following steps provide some initial values for you to use to test out Windows Virtual Desktop. Review the available options to plan and customize your deployment to match your organization's needs.
+
+To complete the exercise, you'll need the Azure credentials for:
+
+- A user account that's assigned to the Active Directory Domain administrator role
+- A non-administrative user account that's in Active Directory
 
 ## Create a host pool by using the Azure portal
 
@@ -25,7 +32,7 @@ To deploy Windows Virtual Desktop, we'll start by creating a host pool, specifyi
 
 ### Step 2: Virtual Machines
 
-1. Select **Yes** to add virtual machines. 
+1. Select **Yes** to add virtual machines.
 1. Use the information in the following table to fill out the virtual machine tab.
 
    :::image type="content" source="../media/3-create-host-pool-vm.png" alt-text="Screenshot of the Windows Virtual Desktop create host pool virtual machine tab.":::
@@ -61,13 +68,13 @@ To deploy Windows Virtual Desktop, we'll start by creating a host pool, specifyi
 1. For **To this workspace**, select **Create new**.
 1. Enter a name for the workspace.
 
-   :::image type="content" source="../media/2-create-workspace.png" alt-text="Screenshot of workspace tab that shows how to create new workspace.":::
+   :::image type="content" source="../media/3-create-workspace.png" alt-text="Screenshot of workspace tab that shows how to create new workspace.":::
 1. Select **Review + create**.
 1. Review what you've entered and select **Create**.
 
 ## Assign desktop application group to user
 
-Assign the desktop application group to a non-administrative user account that's in Active Directory. 
+Assign the desktop application group to a non-administrative user account that's in Active Directory.
 
 1. Select **Application groups**.
 1. Select the desktop application group.

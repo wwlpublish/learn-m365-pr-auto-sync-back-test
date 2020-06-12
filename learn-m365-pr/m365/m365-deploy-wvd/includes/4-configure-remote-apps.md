@@ -1,4 +1,6 @@
-Now that we have our host pool deployed, let's create a RemoteApp application group to share an application to a different user in the organization.
+Now we have a host pool and workspace that we can use to deploy a remote app.  Let's create a RemoteApp application group to share an application to a different user in the organization. 
+
+To complete the exercise, you'll need the credentials for a different non-administrative user account that's in Active Directory.
 
 ## Create and assign remote applications 
 
@@ -9,6 +11,8 @@ Now that we have our host pool deployed, let's create a RemoteApp application gr
 1. Select **Application groups** > **Add**.
 1. Select the subscription, resource group, host pool, and application type.
 
+   :::image type="content" source="../media/4-create-application-group-basics.png" alt-text="Screenshot of the application groups basics tab filled out using values from table.":::
+
    |Field  |Description  |
    |---------|---------|
    |Subscription     |  Subscription where you want the app group to run       |
@@ -16,8 +20,6 @@ Now that we have our host pool deployed, let's create a RemoteApp application gr
    |Host pool     | wvd-host-pool-1    |
    |Application group type     | RemoteApp    |
    |Application group name | RemoteApp1 |
-
-   :::image type="content" source="../media/4-create-application-group-basics.png" alt-text="Screenshot of the application groups basics tab.":::
 1. Select **Next: Assignments**.
 
 ### Step 2: Assignments
