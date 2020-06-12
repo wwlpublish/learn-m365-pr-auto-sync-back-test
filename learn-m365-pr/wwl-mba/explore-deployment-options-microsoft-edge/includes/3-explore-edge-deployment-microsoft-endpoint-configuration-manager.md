@@ -20,7 +20,7 @@ Follow the steps below to create a Microsoft Edge application using the built-in
 
 2) Select **Create Microsoft Edge Application** from either the ribbon, or by right-clicking on the **Microsoft Edge Management** node.
 
-    ![How ow to add Edge in Microsoft Edge Management](../media/unit3-configmgr-create-edge-app.png)
+    ![How ow to add Edge in Microsoft Edge Management](../media/unit3-configuration-manager-create-edge-app.png)
 
    *How ow to add Edge in Microsoft Edge Management*
 
@@ -40,7 +40,7 @@ Follow the steps below to create a Microsoft Edge application using the built-in
 
  
 
-    ![Select Microsoft Edge settings](../media/unit3-configmgr-channels.png)
+    ![Select Microsoft Edge settings](../media/unit3-configuration-manager-channels.png)
 
    *Select Microsoft Edge settings*
 
@@ -54,7 +54,7 @@ Follow the steps below to create a Microsoft Edge application using the built-in
 
  
 
-    ![Edge Application available for download in software center](../media/unit3-configmgr-app-software-center-v4.png)
+    ![Edge Application available for download in software center](../media/unit3-configuration-manager-app-software-center-v4.png)
 
    *Edge Application available for download in software center*
 
@@ -80,7 +80,7 @@ The dashboard is where you can track Microsoft Edge KPIs. Starting in Configurat
 
  
 
-[![The Microsoft Edge Management dashboard](../media/unit3-configmgr-dashboard-v5.png)](../media/unit3-configmgr-dashboard-v5.png#lightbox)
+[![The Microsoft Edge Management dashboard](../media/unit3-configuration-manager-dashboard-v5.png)](../media/unit3-configuration-manager-dashboard-v5.png#lightbox)
 
    *The Microsoft Edge Management dashboard*
 
