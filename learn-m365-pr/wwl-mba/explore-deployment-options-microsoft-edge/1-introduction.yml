@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-deployment-options-microsoft-edge.introduction
+title: Introduction
+metadata:
+  title: Introduction
+  description: "Introduction"
+  ms.date: 06/15/2020
+  author: wwlpublish
+  ms.author: ceperezb
+  ms.topic: interactive-tutorial
+  ms.prod: learning-windows
+azureSandbox: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/1-introduction.md)]

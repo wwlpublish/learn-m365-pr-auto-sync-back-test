@@ -3,7 +3,7 @@ uid: learn-m365.msgraph-access-user-data
 metadata:
   title: Access User Data from Microsoft Graph
   description: Learn how to access user data from Microsoft Graph.
-  ms.date: 3/10/2020
+  ms.date: 06/11/2020
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial

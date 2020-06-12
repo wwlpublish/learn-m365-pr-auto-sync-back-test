@@ -2,7 +2,7 @@ In this unit, you’ll learn how to get a reference to and download a user’s p
 
 ## User profile photos
 
-Profile photos can be set on user accounts, groups, and contacts in Office 365. Developers can use Microsoft Graph to view, download, and manage profile photo for these three resource types.
+Profile photos can be set on user accounts, groups, and contacts in Office 365. Developers can use Microsoft Graph to view, download, and manage profile photos for these three resource types.
 
 Profile photos are stored as binary data that developers can convert to different formats in different use cases, such as base-64 for use in a web environment.
 
