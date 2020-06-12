@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.windows-deploy.implement-pilot-deployment
+title: Implement Pilot deployment
+metadata:
+  title: Implement Pilot deployment
+  description: Learn how to implement Pilot deployment
+  ms.date: 05/20/2020
+  author: IanKensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: m365
+durationInMinutes: 7
+content: |
+  [!include[](includes/implement-pilot-deployment.md)]
+
+
