@@ -2,19 +2,23 @@
 uid: learn-m365.deploy-wvd
 metadata:
   title: Deploy Windows Virtual Desktop in Microsoft Azure
-  description: Learn how to deploy Windows Virtual Desktop, including the wizard-based process to provision a Windows Virtual Desktop host pool and how to customize remote desktops and RemoteApps for your users.  
-  ms.date: 09/03/2019
+  description: Learn how to deploy Windows Virtual Desktop and customize the workspace for your users.  
+  ms.date: 06/09/2020
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Deploy Windows Virtual Desktop in Microsoft Azure
-summary: Learn how to deploy Windows Virtual Desktop, including the wizard-based process to provision a Windows Virtual Desktop host pool and how to customize remote desktops and RemoteApps for your users.  
+summary: Learn how to deploy Windows Virtual Desktop. Provision a Windows Virtual Desktop host pool and workspace. Make a desktop and apps available to users by using application groups. Customize the workspace for your users. Install Windows Virtual Desktop client for Windows and connect to the workspace.
 abstract: |
-  At the end of this module, you should be able to:
-  - Know your options and how to provision a Windows Virtual Desktop host pool 
-  - Make RemoteApps available to users with app groups  
-prerequisites: None
+  In this module, you will:
+  - Learn about the key components of Windows Virtual Desktop and the deployment options 
+  - Deploy a customized workspace with a virtual desktop and remote app 
+prerequisites:  |
+  - Familiarity with server and client management concepts and tools
+  - Familiarity with Windows virtualization technologies, like Remote Desktop Services
+  - (Optional) Access to an Azure environment prepared for Windows Virtual Desktop: Azure Active Directory (Azure AD) configured and integrated with Active Directory Domain Services (AD DS), and an Azure Virtual Network that's connected to your domain 
+  - (Optional) User credentials for three user accounts in Azure AD: a user account that's assigned to the AD DS administrator role and two non-administrative user accounts
 iconUrl: /learn/achievements/deploy-windows-virtual-desktop.svg
 ratingEnabled: true
 levels:
@@ -25,8 +29,11 @@ products:
 - m365
 units:
 - learn-m365.deploy-wvd.introduction
+- learn-m365.deploy-wvd.wvd-deployment-overview
 - learn-m365.deploy-wvd.provision-host-pool
 - learn-m365.deploy-wvd.configure-remote-apps
+- learn-m365.deploy-wvd.customize-workspace
+- learn-m365.deploy-wvd.knowledge-check
 - learn-m365.deploy-wvd.summary-and-knowledge-check
 badge: 
   uid: learn-m365.deploy-wvd.badge
