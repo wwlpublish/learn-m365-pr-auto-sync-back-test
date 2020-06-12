@@ -114,7 +114,11 @@ If it isn't set, select **edit** next to **Job info** and select a manager for t
 
 ### Update the .NET Core console application
 
-Go back to the .NET Core console application. Add the following code immediately after the code you added in the last section:
+Go back to the .NET Core console application.
+
+Locate the code you added above for `request 1 - current user's photo` and comment it out so it doesn't continue to execute.
+
+Add the following code immediately after the code you just commented out:
 
 ```cs
 // request 2 - user's manager
@@ -134,7 +138,7 @@ Console.WriteLine(requestUserManager.GetHttpRequestMessage().RequestUri);
 
 Set the value of the `userId` variable to the **Object ID** of the user you ensured had a manager configured on their profile in the Azure AD admin portal.
 
-This code will get the specified user, and select that user's manager property. It will then display the manager's **Id** and **DisplayName** properties on the console.
+This code will get the specified user, and select that user's manager property. It will then display the manager's **ID** and **DisplayName** properties on the console.
 
 ### Build and test the application
 
