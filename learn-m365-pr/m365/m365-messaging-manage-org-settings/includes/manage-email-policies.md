@@ -1,9 +1,9 @@
-Email address policies assign email addresses to recipients in your Exchange organization. You use the Exchange admin center (EAC) to configure email address policies in Exchange Server.
+Email address policies assign email addresses to recipients in your Exchange organization. You use the Exchange admin center to configure email address policies in Exchange Server.
 
 ## Create email address policies
 After you create an email address policy, you need to apply the policy to recipients. 
 
-1.	In the EAC, go to **Mail flow > Email address policies**, and then click **Add**.
+1.	In the Exchange admin center, go to **Mail flow > Email address policies**, and then click **Add**.
 2.	Configure the following email address policy settings:
     - **Policy name**: Enter a unique, descriptive name for the policy.
     - **Email address format**: Click **Add** to configure an email address template. After you add the first template to define the primary SMTP email address, you can add additional templates for proxy email addresses (SMTP or otherwise). Click **Edit** to modify an existing template.
@@ -23,15 +23,15 @@ For the default email address policy, you can't modify the name, priority, or re
 
 After you modify an email address policy, you need to apply the policy to recipients.
 
-If you created an email address policy in the Exchange Management Shell that uses a custom recipient filter, you can't modify the recipient filter in the EAC. You need to use the Exchange Management Shell:
+If you created an email address policy in the Exchange Management Shell that uses a custom recipient filter, you can't modify the recipient filter in the Exchange admin center. You need to use the Exchange Management Shell:
 
 
-You can't use the EAC or the Exchange Management Shell to replace a custom recipient filter with a precanned recipient filter or vice-versa in an existing email address policy.
+You can't use the Exchange admin center or the Exchange Management Shell to replace a custom recipient filter with a precanned recipient filter or vice-versa in an existing email address policy.
 
-### Modify email address policies in the EAC
+### Modify email address policies in the Exchange admin center
 The same settings are available as when you created the policy, although the settings are now located on separate tabs.
 
-1.	In the EAC, go to **Mail flow > Email address policies**, select the policy from the list, and then click **Edit**.
+1.	In the Exchange admin center, go to **Mail flow > Email address policies**, select the policy from the list, and then click **Edit**.
 2.	Configure the settings on the following tabs:
     - **General**
     - **Policy name**: A unique, descriptive name for the policy.
@@ -46,19 +46,19 @@ The same settings are available as when you created the policy, although the set
      >- Even if you configured a custom recipient filter in the Exchange Management Shell, you can still select **Preview recipients the policy applies to** here.
 3.	When you're finished, click **Save**. You'll receive a warning message that tells you to click **Apply** in the details pane to apply the policy to recipients. 
 
-### Apply email address policies to recipients by using the EAC
-1.	In the EAC, go to **Mail flow > Email address policies**.
+### Apply email address policies to recipients by using the Exchange admin center
+1.	In the Exchange admin center, go to **Mail flow > Email address policies**.
 2.	Select the email address policy that you want to apply (one of the policies with the status *Unapplied*).
 3.	Click **Apply**.
 4.	Click **Yes** on the warning message to apply the policy
 
 ## Remove email address policies
-You can remove most policies through the EAC. (You can't delete the default email address policy regardless of what tool you use.)
+You can remove most policies through the Exchange admin center. (You can't delete the default email address policy regardless of what tool you use.)
 
-If you have a policy assigned to more than 3000 recipients, you'll need to use the Exchange Management Shell to remove it. It takes a long time to remove a policy like this from all of the recipients, and you won't be able to do anything else in the EAC until the removal is done. The recipient updates will take a long time, and they will prevent you from using the EAC session until the updates are finished. It's OK to use the EAC for policies that apply to fewer than 3000 recipients.
+If you have a policy assigned to more than 3000 recipients, you'll need to use the Exchange Management Shell to remove it. It takes a long time to remove a policy like this from all of the recipients, and you won't be able to do anything else in the Exchange admin center until the removal is done. The recipient updates will take a long time, and they will prevent you from using the Exchange admin center session until the updates are finished. It's OK to use the Exchange admin center for policies that apply to fewer than 3000 recipients.
 
-### Use the EAC to remove email address policies
-1.	In the EAC, go to **Mail flow > Email address policies**.
+### Use the Exchange admin center to remove email address policies
+1.	In the Exchange admin center, go to **Mail flow > Email address policies**.
 2.	Select the email address policy that you want to delete, and then click **Remove**.
 3.	Click **Yes** in the warning message that appears. A progress bar allows you to monitor the recipient update process. When updates are complete, click **Close**.
 

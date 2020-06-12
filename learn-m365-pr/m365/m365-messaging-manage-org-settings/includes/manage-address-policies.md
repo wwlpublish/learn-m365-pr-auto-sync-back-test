@@ -42,7 +42,7 @@ Technically, this syntax returns all recipients (including hidden recipients) th
 
 ### Update address lists
 
-The **Update-AddressList** cmdlet (or **Update-GlobalAddressList**) isn't available in Exchange Online PowerShell. If you don't see recipients in an address list that should be there, you need to change the required property value for those users to a temporary value, and then back to the value that's required by the address list. You can update the user property values in the Exchange admin center (EAC) or Exchange Online PowerShell, but it's quicker to do bulk operations in PowerShell.
+The **Update-AddressList** cmdlet (or **Update-GlobalAddressList**) isn't available in Exchange Online PowerShell. If you don't see recipients in an address list that should be there, you need to change the required property value for those users to a temporary value, and then back to the value that's required by the address list. You can update the user property values in the Exchange admin center  or Exchange Online PowerShell, but it's quicker to do bulk operations in PowerShell.
 
 For example, suppose the address list named Oregon and Washington Users uses the filter "((RecipientType -eq 'UserMailbox') -and ((StateOrProvince -eq 'Washington') -or (StateOrProvince -eq 'Oregon')))", but the address list doesn't include everyone whose StateOrProvince property values are set correctly. 
 
@@ -103,17 +103,17 @@ For detailed syntax and parameter information, see Remove-AddressList in the Lea
 ### Hide recipients from address lists
 Hiding a recipient from address lists doesn't stop them from receiving email messages; it prevents others from finding the recipient in address lists. The recipient is hidden from *all* address lists and GALs (effectively, they're exceptions to the recipient filters in all address lists). If you want to include the recipient in some address lists but not others, you need to adjust the recipient filters in the address lists to include or exclude the recipient.
 
-#### Use the EAC to hide recipients from address lists
+#### Use the Exchange admin center to hide recipients from address lists
 
-You can use the EAC to hide recipients from address lists.
+You can use the Exchange admin center to hide recipients from address lists.
 
-1.	In the EAC, go to one of the following locations based on the recipient type:
-      - Recipients > Mailboxes: User mailboxes.
-      - Recipients > Groups: Distribution groups, mail-enabled security groups, and dynamic distribution groups.
-      - Recipients > Resources: Room and equipment mailboxes.
-      - Recipients > Contacts: Mail users and mail contacts.
-      - Recipients > Shared: Shared mailboxes.
-      - Public folders > Public folders: Mail-enabled public folders.
+1.	In the Exchange admin center, go to one of the following locations based on the recipient type:
+      - **Recipients > Mailboxes: User mailboxes**
+      - **Recipients > Groups: Distribution groups, mail-enabled security groups, and dynamic distribution groups**
+      - **Recipients > Resources: Room and equipment mailboxes**
+      - **Recipients > Contacts: Mail users and mail contacts**
+      - **Recipients > Shared: Shared mailboxes**
+      - **Public folders > Public folders: Mail-enabled public folders**
 2.	Select the recipient that you want to hide from address lists, and then click **Edit**.
 3.	What you do next depends on the recipient type:
       - Mailboxes, Contacts, and Shared: Select **Hide from address list**.
