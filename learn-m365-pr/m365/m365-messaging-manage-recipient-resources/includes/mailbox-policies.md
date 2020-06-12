@@ -1,4 +1,4 @@
-In Exchange Online, you can use the EAC or Exchange Online PowerShell to assign permissions to a mailbox or group. This means that other users can access the mailbox (the Full Access permission), or send email messages that appear to come from the mailbox or group (the Send As or Send on Behalf permissions). Users who are assigned these permissions on other mailboxes or groups are called delegates.  
+In Exchange Online, you can use the Exchange admin center or Exchange Online PowerShell to assign permissions to a mailbox or group. This means that other users can access the mailbox (the Full Access permission), or send email messages that appear to come from the mailbox or group (the Send As or Send on Behalf permissions). Users who are assigned these permissions on other mailboxes or groups are called delegates.  
 
 ## Manage mailbox and group permissions 
 
@@ -12,7 +12,7 @@ To configure and manage mailbox permissions, the account you're logged in with n
 
 ### Assign permissions to individual mailboxes  
 
-1. In the EAC, go to **Recipients**. Depending on the type of mailbox permission you want to assign and work with, select from the Mailboxes, Resources, or Shared tabs. 
+1. In the Exchange admin center, go to **Recipients**. Depending on the type of mailbox permission you want to assign and work with, select from the Mailboxes, Resources, or Shared tabs. 
 2. Select the mailbox that you want to assign permissions for, and then select **Edit**. 
 3. On the mailbox properties page that opens, select **Mailbox delegation**. Configure one or more of the following permissions: Send As, Send on Behalf, Full Access. 
 4. To assign permissions to delegates, select **Add** under the appropriate permission. 
@@ -22,7 +22,7 @@ To configure and manage mailbox permissions, the account you're logged in with n
 
 ### Assign permissions to multiple mailboxes at the same time 
 
-1. In the EAC, go to **Recipients > Mailboxes**. 
+1. In the Exchange admin center, go to **Recipients > Mailboxes**. 
 2. Select all the mailboxes that you want to assign permissions to. You'll see the title of the details pane change to **Bulk Edit**. 
 3. At the bottom of the details pane, select **More options**.  
 4. Under the **Mailbox Delegation**, choose **Add** or **Remove**. Depending on your selection, do one of the following steps: 
@@ -33,7 +33,7 @@ To configure and manage mailbox permissions, the account you're logged in with n
 
 ### Assign permissions to groups 
 
-1. In the EAC, go to **Recipients > Groups**. 
+1. In the Exchange admin center, go to **Recipients > Groups**. 
 2. Select the group that you want to assign permissions for, and then select **Edit**. 
 3. Select **Group delegation**, and configure one of the following permissions: **Send As** or **Send on Behalf**. 
 4. To assign permissions to delegates, select **Add** under the appropriate permission. You'll see a list of the users or groups that can have the specific permission.  
@@ -52,9 +52,9 @@ Every Exchange Online organization has a default Outlook on the web mailbox poli
 To configure mailbox policies, the account you use will need either the Organization Management permission or the Recipient Management permission. 
 
 
-### Create an Outlook on the web mailbox policy using the EAC 
+### Create an Outlook on the web mailbox policy using the Exchange admin center 
 
-1. In the EAC, go to **Permissions**, select **Outlook Web App policies**, and then select **New**. 
+1. In the Exchange admin center, go to **Permissions**, select **Outlook Web App policies**, and then select **New**. 
 2. Configure the following settings: 
    - **Policy name**: Enter a unique name for your policy. 
    - Enable or disable features by selecting or clearing them. By default, the most common features are displayed. 

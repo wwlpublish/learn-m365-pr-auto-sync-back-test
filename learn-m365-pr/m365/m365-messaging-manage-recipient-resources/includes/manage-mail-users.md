@@ -2,11 +2,11 @@ Mail users are similar to mail contacts. Both have external email addresses and 
 
 To complete any of the actions or procedures mentioned in this unit, you'll need to ensure the account you're using has the Recipient Management permission.  
 
-In Exchange Online, the Exchange admin center (EAC) has replaced the Exchange Control Panel (ECP) as the GUI-based administrative tool used to manage cloud-based recipients. The EAC also replaces the Exchange Management Console in Exchange Server. 
+In Exchange Online, the Exchange admin center has replaced the Exchange Control Panel (ECP) as the GUI-based administrative tool used to manage cloud-based recipients. The Exchange admin center also replaces the Exchange Management Console in Exchange Server. 
 
 ## Create a mail user 
 
-There are two ways to create a mail user. You can use the EAC or Exchange Online PowerShell commands.  
+There are two ways to create a mail user. You can use the Exchange admin center or Exchange Online PowerShell commands.  
 
 Suppose you want to create a new mail-enabled account for Jeffery Brown with the following details: 
 
@@ -23,11 +23,11 @@ Suppose you want to create a new mail-enabled account for Jeffery Brown with the
 
 We'll look at both ways to create the account.  
 
-### Create a mail user using the EAC  
+### Create a mail user using the Exchange admin center  
 
-The EAC provides a graphical interface for the management of mail-enabled user accounts.  
+The Exchange admin center provides a graphical interface for the management of mail-enabled user accounts.  
 
-1. In the EAC, go to **Recipients > Contacts > New > Mail user**. 
+1. In the Exchange admin center, go to **Recipients > Contacts > New > Mail user**. 
 2. On the **New mail user** page, enter the alias for the mail user in **Alias**. 
 3. Specify what type of email address you're going to create. You can use SMTP or specify a custom address type, for example, X.500, GroupWise, or LotusNotes. 
 4. Enter the mail user's external email address in **External email address**. 
@@ -49,12 +49,12 @@ New-MailUser -Name "Jeffrey Brown" -Alias jeffreyb -ExternalEmailAddress jbrown@
 
 ## Changing mail user properties 
 
-After you create a mail user, you can make changes and set additional properties by using either the EAC or Exchange Online PowerShell cmdlets.  
+After you create a mail user, you can make changes and set additional properties by using either the Exchange admin center or Exchange Online PowerShell cmdlets.  
 
 
-### Modify a mail user in the EAC 
+### Modify a mail user in the Exchange admin center 
 
-1. In the EAC, go to **Recipients > Contacts**. 
+1. In the Exchange admin center, go to **Recipients > Contacts**. 
 2. Select the user that you want to change, and then select **Edit**. 
 3. Select one of the following sections to view or change the user's properties: 
    - **General**: Use this section to view or change basic information about the mail user. This includes name, display name, user name, whether the mail user can appear in an address list, and any custom attributes. 

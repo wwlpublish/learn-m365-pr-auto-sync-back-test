@@ -39,9 +39,9 @@ A **room mailbox** is a resource mailbox that's assigned to a physical location,
 An **equipment mailbox** is a resource mailbox assigned to a resource that's not location-specific, such as a portable computer, projector, microphone, or a company car. After you create an equipment mailbox, users can reserve the associated piece of equipment by including its equipment mailbox in a meeting request. 
 
  
-### Create a room mailbox using the EAC 
+### Create a room mailbox using the Exchange admin center 
 
-1. In the EAC, go to **Recipients > Resources**. 
+1. In the Exchange admin center, go to **Recipients > Resources**. 
 2. To create a room mailbox, select **New +**, and then select **Room mailbox**. 
 3. Specify the room name, email address, location, phone, and capacity for the new resource mailbox. 
 4. When you're finished, select **Save** to create the room mailbox.  
@@ -52,7 +52,7 @@ An **equipment mailbox** is a resource mailbox assigned to a resource that's not
 This example creates a room mailbox with the following configuration: 
 
 - The name of the mailbox is *ConfRoom1*; this name is used in the room's email address. 
-- The display name in the EAC and the address book will be *Conference Room 1*. 
+- The display name in the Exchange admin center and the address book will be *Conference Room 1*. 
 - The mailbox is a **room** mailbox (specified using the **Room** switch.)
 
 ```PowerShell 
@@ -73,9 +73,9 @@ New-DistributionGroup -Name "Building 32 Conference Rooms" -OrganizationalUnit "
 
 ``` 
 
-### Create an equipment mailbox using the EAC
+### Create an equipment mailbox using the Exchange admin center
 
-1. In the EAC, go to **Recipients > Resources**. 
+1. In the Exchange admin center, go to **Recipients > Resources**. 
 2. To create an equipment mailbox, select **New**, and then select **Equipment mailbox**.  
 3. Specify the equipment name, display name, and an email address for the new resource mailbox. 
 4. When you're finished, select **Save** to create the equipment mailbox.  

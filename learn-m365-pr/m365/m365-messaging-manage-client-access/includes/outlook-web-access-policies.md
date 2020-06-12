@@ -2,11 +2,11 @@
 
 ## Outlook on the web mailbox policies 
 
-Mailbox policies control the settings and features that are applied in Outlook on the web. A default policy called **OwaMailboxPolicy-Default** already exists, and you can create a new policy using the Exchange admin center (EAC) in Exchange Online or by using Exchange Online PowerShell. New policies have the most common settings already enabled. 
+Mailbox policies control the settings and features that are applied in Outlook on the web. A default policy called **OwaMailboxPolicy-Default** already exists, and you can create a new policy using the Exchange admin center in Exchange Online or by using Exchange Online PowerShell. New policies have the most common settings already enabled. 
 
 You can only apply one mailbox policy per mailbox. 
 
-To create a new policy in the EAC, click **Permissions > Outlook Web App policies > New +**. 
+To create a new policy in the Exchange admin center, click **Permissions > Outlook Web App policies > New +**. 
 
 ## Public attachment handling 
 
@@ -14,7 +14,7 @@ For Outlook on the web users, attachments can present particular security risks.
 
 To set up the ability to enforce attachment handling from external networks for an entire organization, use these steps: 
 1. Use the **Set-OrganizationConfig** PowerShell cmdlet to enable public attachment handling for your organization. Set the *PublicComputersDetectionEnabled* parameter to $true.
-2. Enable public attachment handling on the Outlook on the web mailbox policy either by using the EAC or the **Set-OwaMailboxPolicy** cmdlet.
+2. Enable public attachment handling on the Outlook on the web mailbox policy either by using the Exchange admin center or the **Set-OwaMailboxPolicy** cmdlet.
 3. Create claim rules in Active Directory Federation Services (ADFS). These rules detect whether the attachment is coming from an internal or external network. 
 
 ## Outlook for iOS and Android 

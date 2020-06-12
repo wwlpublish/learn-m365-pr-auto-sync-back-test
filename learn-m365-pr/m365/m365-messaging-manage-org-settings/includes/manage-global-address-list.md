@@ -30,10 +30,10 @@ Remove-AddressList -Identity "<AddressListName>"
 
 If you want to selectively include the recipient in some address lists but not others, you need to adjust the recipient filters in the address lists to include or exclude the recipient.
 
-### Use the EAC to hide recipients from address lists
-To open the EAC, see Exchange admin center in Exchange Online.
-You can't use the EAC to hide Microsoft 365 groups from address lists.
-1.	In the EAC, go to one of the following locations based on the recipient type:
+### Use the Exchange admin center to hide recipients from address lists
+
+You can't use the Exchange admin center to hide Microsoft 365 groups from address lists.
+1.	In the Exchange admin center, go to one of the following locations based on the recipient type:
     - **Recipients > Mailboxes**: User mailboxes.
     - **Recipients > Groups**: Distribution groups, mail-enabled security groups, and dynamic distribution groups.
     - **Recipients > Resources**: Room and equipment mailboxes.

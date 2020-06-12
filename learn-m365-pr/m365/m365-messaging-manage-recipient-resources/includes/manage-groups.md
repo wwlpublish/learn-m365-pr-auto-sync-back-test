@@ -5,15 +5,15 @@ There are two types of Exchange Online distribution groups you can use to distri
 - Mail-enabled universal distribution groups (also called distribution groups) can be used only to distribute messages 
 - Mail-enabled universal security groups (also called security groups) can be used to distribute messages, and to grant access permissions to resources 
 
-You can use the EAC or Exchange Online PowerShell to create a new distribution group in your Exchange Online organization, or to mail-enable an existing group. 
+You can use the Exchange admin center or Exchange Online PowerShell to create a new distribution group in your Exchange Online organization, or to mail-enable an existing group. 
 
 ## Manage distribution groups 
 
-To manage a distribution group, you'll need to make sure the account you're using has either the Organization Management or Recipient Management permission. If your organization has configured a group naming policy, it's applied only to groups created by users. When you or other administrators use the EAC to create distribution groups, the group naming policy is ignored, and isn't applied to the group name. 
+To manage a distribution group, you'll need to make sure the account you're using has either the Organization Management or Recipient Management permission. If your organization has configured a group naming policy, it's applied only to groups created by users. When you or other administrators use the Exchange admin center to create distribution groups, the group naming policy is ignored, and isn't applied to the group name. 
 
-### Create a distribution group using the EAC 
+### Create a distribution group using the Exchange admin center 
 
-1. In the EAC, go to **Recipients > Groups**. 
+1. In the Exchange admin center, go to **Recipients > Groups**. 
 2. Click **New + > Distribution group**. 
 3. On the **New distribution group** page, enter the display name, alias, and organizational unit (only available in Exchange Server on-premises).  
 4. To add members to the group, select **Add +**. When you finish adding members, select **OK** to return to the **New distribution group** page. 
@@ -36,9 +36,9 @@ New-DistributionGroup -Name "IT Administrators" -Alias itadmin -MemberJoinRestri
 To manage an Exchange Online security group, you'll need to make sure the account you are using has either the Organization Management or Recipient Management permission. A mail-enabled security group can be used to distribute messages, and to grant access permissions to resources in Active Directory. 
 
 
-### Create a security group using the EAC 
+### Create a security group using the Exchange admin center 
 
-1. In the EAC, go to **Recipients > Groups**. 
+1. In the Exchange admin center, go to **Recipients > Groups**. 
 2. Click **New + > Security group**. 
 3. On the **New security group** page, enter a display name, alias, description, organizational unit, owners, and members fields.  
 4. Use **Add group owners as members** to add or remove the owners as members. 

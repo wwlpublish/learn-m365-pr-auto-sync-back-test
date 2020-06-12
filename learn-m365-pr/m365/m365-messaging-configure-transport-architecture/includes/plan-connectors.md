@@ -16,7 +16,7 @@ You don't need to use connectors if you have an Exchange Online organization in 
 If you have some mailboxes in Exchange Online and some mailboxes in Exchange Server on-premises, then you do need a connector. However, if you used the Hybrid Configuration Wizard, then it created the connector for you. 
 
 > [!NOTE]
-> You can check what connectors exist in the Exchange admin center (EAC) under **mail flow**, on the **connectors** tab:
+> You can check what connectors exist in the Exchange admin center under **mail flow**, on the **connectors** tab:
 
  ![A screenshot shows the connectors tab in the Exchange admin center](../media/2-connectors-page.png)
 
