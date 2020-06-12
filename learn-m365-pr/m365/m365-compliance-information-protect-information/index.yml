@@ -12,15 +12,15 @@ title: Protect information in Microsoft 365
 summary:  Learn how to detect sensitive content as it's used and shared throughout your organization, in the cloud and on devices, and help prevent accidental data loss. 
 abstract: |
   Upon completion of this module, you should be able to: 
-  -     Discuss the information protection solution and its benefits.
-  -     List the customer scenarios the information protection solution addresses.
-  -     Describe the information protection configuration process.
-  -     Explain what users will experience when the solution is implemented.
-  -     Articulate deployment and adoption best practices.
+  - Discuss the information protection solution and its benefits.
+  - List the customer scenarios the information protection solution addresses.
+  - Describe the information protection configuration process.
+  - Explain what users will experience when the solution is implemented.
+  - Articulate deployment and adoption best practices.
 
   prerequisites: | 
-   - Cloud computing concepts. If you are unfamiliar with this topic, we recommend you take [Cloud Concepts - Principles of cloud computing](https://docs.microsoft.com/learn/modules/principles-cloud-computing/)
-   - Microsoft 365 product and services. If you are unfamiliar this with topic, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+   - Cloud computing concepts
+   - Microsoft 365 product and services
 
 iconUrl: http://via.placeholder.com/120x120
 ratingEnabled: true
