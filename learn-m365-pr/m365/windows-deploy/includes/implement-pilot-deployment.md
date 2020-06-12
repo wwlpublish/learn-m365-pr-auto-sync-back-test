@@ -1,4 +1,4 @@
-manager, you’ll outline what they need to do to complete this.
+Woodgrove is ready to implement Pilot deployment of the update and, as the company’s process manager, you’ll outline what they need to do to complete this.
 
 ## Inputs
 
