@@ -44,6 +44,7 @@ To complete the exercise, you'll need the credentials for a different non-admini
    |Application source    |  Start menu |
    |Application    | Wordpad     |
    |Display name    | Wordpad    |
+
    Accept the rest of the default values.
 
 1. Select **Next: Workspace**.
