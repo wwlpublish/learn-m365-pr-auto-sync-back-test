@@ -9,11 +9,11 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Deploy Windows Virtual Desktop in Microsoft Azure
-summary: Learn how to deploy Windows Virtual Desktop. Provision a Windows Virtual Desktop host pool and workspace. Make apps available to users with application groups. Customize the workspace for your users. Install Windows Virtual Desktop client for Windows.
+summary: Learn how to deploy Windows Virtual Desktop. Provision a Windows Virtual Desktop host pool and workspace. Make a desktop and apps available to users by using application groups. Customize the workspace for your users. Install Windows Virtual Desktop client for Windows and connect to the workspace.
 abstract: |
   In this module, you will:
   - Learn about the key components of Windows Virtual Desktop and the deployment options 
-  - Deploy a customized workspace with a virtual desktop and remote app to users 
+  - Deploy a customized workspace with a virtual desktop and remote app 
 prerequisites:  |
   - Familiarity with server and client management concepts and tools
   - Familiarity with Windows virtualization technologies, like Remote Desktop Services

@@ -6,8 +6,8 @@ Suppose you want to allow some of your employees access to virtual desktops that
 
 In this module, you will:
 
-- Learn about the key components of Windows Virtual Desktop and the deployment options 
-- Deploy a customized workspace with a virtual desktop and remote app to users
+- Learn about the key components of Windows Virtual Desktop and the deployment options
+- Deploy a customized workspace with a virtual desktop and remote app
 
 ## Prerequisites
 

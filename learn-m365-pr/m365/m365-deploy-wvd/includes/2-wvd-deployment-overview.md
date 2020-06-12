@@ -16,7 +16,7 @@ Before we walk through the deployment process, let's review some key terms and d
    - *Breadth-first* - Distributes new user sessions across all available session hosts in the host pool. When you configure breadth-first load balancing, you may set a maximum session limit per session host in the host pool.
    - *Depth-first* - Distributes new user sessions to an available session host that has the highest number of connections and hasn't reached its maximum session limit threshold. When you configure depth-first load balancing, you must set a maximum session limit per session host in the host pool.
 
-## Virtual machine options
+## Configure virtual machines for host pool
 
 When you create a Windows Virtual Desktop host pool, you can choose to create new VMs and register them to the new host pool. If you've already created VMs you want to use with the host pool, you can register them to the host pool after you create it.
 
@@ -41,7 +41,7 @@ You choose the image type Azure uses to create the virtual machine, either Galle
   - *Use managed disks* - For Storage blob image type, we recommend you choose *Yes* for most VM configurations. You'd choose *No* where you want to use unmanaged disks for classic scenarios or to manage VHDs in your storage account.  
   - *Storage account* - You select the Azure storage account that contains your image.
 
-## Virtual network options
+## Select virtual network
 
 We discussed the virtual network requirements in the module Prepare for Windows Virtual Desktop in Microsoft Azure. The virtual network you specify for the host pool provisioning process must be connected to your domain and allow outbound access to the URLs that support Windows Virtual Desktop. You'll need to join the virtual machines inside the virtual network to the domain.
 
@@ -55,10 +55,23 @@ deploy your VM and connect to an appropriate virtual network subnet, we recommen
 
 To domain join the VMs you create, you need to specify the full Active Directory domain name to join like contoso.com. If you've set up a test environment with Azure AD DS, use the DNS domain name that's on the properties page for Azure AD DS like adds-contoso.onmicrosoft.com.
 
-You'll need to specify an Administrator account so the provisioning process can join the VMs to the domain. This account needs to be assigned to the Active Directory Domain administrator role.
+You'll need to specify an Administrator account so the provisioning process can join the VMs to the domain. This account must be assigned to the Active Directory Domain administrator role.
 
 ## Assign application groups
 
 You can assign a user or group to both a desktop application group and a RemoteApp application group in the same host pool. However, users can only launch one type of application group per session. 
 
 If a user or group is assigned to multiple RemoteApp application groups within the same host pool, they'll see all the applications published to those application groups.
+
+## Connect to a workspace with a web or desktop client
+
+You can access a Windows Virtual Desktop workspace from either a web browser or by using an app on your device. The browser option is helpful when you need to do some work and don't have your device with you. But for the best experience, we recommend you run the Windows Virtual Desktop client directly from your device. There are Windows Virtual Desktop clients that support the following types of devices:
+
+- Windows
+- Android
+- macOS
+- iOS
+
+To learn more about these clients and what operating system versions they support, see the links available at the end of this module.
+
+In the following units, you'll learn how to connect to a workspace by using both a web and desktop client.
