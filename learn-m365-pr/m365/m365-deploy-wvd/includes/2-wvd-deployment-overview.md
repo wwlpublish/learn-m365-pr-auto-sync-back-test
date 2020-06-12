@@ -11,7 +11,7 @@ Before we walk through the deployment process, let's review some key terms and d
   - *RemoteApp*, where users access the applications you individually publish to the application group. You can create multiple RemoteApp app groups to accommodate different user scenarios. Use RemoteApp to virtualize an app that runs on a legacy OS or one that needs secured access to corporate resources.
   - *Desktop*, where users access the full desktop. By default, the group **Desktop Application Group** is automatically created when you create a host pool.
   
-- Load balancing options - 
+- Load-balancing options - 
 
    - *Breadth-first* - Distributes new user sessions across all available session hosts in the host pool. When you configure breadth-first load balancing, you may set a maximum session limit per session host in the host pool.
    - *Depth-first* - Distributes new user sessions to an available session host that has the highest number of connections and hasn't reached its maximum session limit threshold. When you configure depth-first load balancing, you must set a maximum session limit per session host in the host pool.
@@ -38,17 +38,17 @@ You choose the image type Azure uses to create the virtual machine, either Galle
 
 - *Storage blob* - Allows you to use your own image built through Hyper-V or on an Azure VM. You might use this option when you have an image you're using on-premises and just want to upload it and start using it in Azure immediately. When you select this option, there are some additional fields you need to complete.
   - *Image URI* - Enter the URL to the generalized VHD from your Azure Storage account.
-  - *Use managed disks* - For Storage blob image type, we recommend you choose yes for most VM configurations. You'd choose no where you want to use unmanaged disks for classic scenarios or to manage VHDs in your storage account.  
+  - *Use managed disks* - For Storage blob image type, we recommend you choose *Yes* for most VM configurations. You'd choose *No* where you want to use unmanaged disks for classic scenarios or to manage VHDs in your storage account.  
   - *Storage account* - You select the Azure storage account that contains your image.
 
 ## Virtual network options
 
 We discussed the virtual network requirements in the module Prepare for Windows Virtual Desktop in Microsoft Azure. The virtual network you specify for the host pool provisioning process must be connected to your domain and allow outbound access to the URLs that support Windows Virtual Desktop. You'll need to join the virtual machines inside the virtual network to the domain.
 
-If you're using Azure Active Directory Domain Services (Azure AD DS), we recommend that an Azure AD DS managed domain is deployed into its own dedicated subnet. Don't deploy your VM in the same subnet as your Azure AD DS managed domain. To
+If you're using Azure Active Directory Domain Services (Azure AD DS), we recommend that an Azure AD DS-managed domain is deployed into its own dedicated subnet. Don't deploy your VM in the same subnet as your Azure AD DS-managed domain. To
 deploy your VM and connect to an appropriate virtual network subnet, we recommend one of the following options:
 
-- Create or select an existing, subnet in the same the virtual network as your Azure AD DS managed domain is deployed.
+- Create or select an existing, subnet in the same the virtual network as your Azure AD DS-managed domain is deployed.
 - Select a subnet in an Azure virtual network that is connected to it using Azure virtual network peering.
 
 ## Domain join VMs
@@ -59,6 +59,6 @@ You'll need to specify an Administrator account so the provisioning process can 
 
 ## Assign application groups
 
-You can assigned a user or group to both a desktop application group and a RemoteApp application group in the same host pool. However, users can only launch one type of application group per session. 
+You can assign a user or group to both a desktop application group and a RemoteApp application group in the same host pool. However, users can only launch one type of application group per session. 
 
 If a user or group is assigned to multiple RemoteApp application groups within the same host pool, they'll see all the applications published to those application groups.

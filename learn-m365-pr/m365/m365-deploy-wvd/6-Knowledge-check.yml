@@ -17,7 +17,7 @@ quiz:
       choices:
       - content: "Personal"
         isCorrect: true
-        explanation: "With a personal host pool, each user has their own dedicated VM. They can be a local administrators for their VM to manage app installation."
+        explanation: "With a personal host pool, each user has their own dedicated VM. They can be a local administrator for their VM to manage app installation."
       - content: "Local"
         isCorrect: false
         explanation: "Local isn't one of the host pool types."        
@@ -39,7 +39,7 @@ quiz:
       choices:
       - content: "You can't. Users can only belong to one application group type."
         isCorrect: false
-        explanation: "Users can be assigned to a multiple application groups."
+        explanation: "Users can be assigned to multiple application groups."
       - content: "Create a RemoteApp application group and assign it to Azure AD users or groups."
         isCorrect: false
         explanation: "Users will have access to the apps published to the application group but not to a remote desktop."
