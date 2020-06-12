@@ -13,7 +13,7 @@ summary:  Learn what you as an administrator need to know for planning and confi
 abstract: |
   Upon completion of this module, you should be able to: 
   -	Explain how to configure sharing in OneDrive.
-  -     Describe how the options for external sharing in OneDrive interact with external sharing in SharePoint.
+  - Describe how the options for external sharing in OneDrive interact with external sharing in SharePoint.
   -	Explain the different advanced configuration options for external sharing.
 
 prerequisites: | 
