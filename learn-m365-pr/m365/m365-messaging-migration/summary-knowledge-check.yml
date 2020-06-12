@@ -22,10 +22,10 @@ quiz:
         explanation: "Cutover migrations do not support more than 2,000 mailboxes and are only recommended if you have fewer than 150 mailboxes."
       - content: "Express hybrid migration"
         isCorrect: false
-        explanation: "•	You should only consider express hybrid migrations when you have fewer than 500 mailboxes."
+        explanation: "You should only consider express hybrid migrations when you have fewer than 500 mailboxes."
       - content: "Full hybrid migration"
         isCorrect: true
-        explanation: "•	For Exchange Server 2010 or later, with thousands of mailboxes to move, a full hybrid migration is recommended."
+        explanation: "For Exchange Server 2010 or later, with thousands of mailboxes to move, a full hybrid migration is recommended."
 
     - content: "You want to perform a cutover migration from a small on-premises Exchange Server 2007 system to Exchange Online. Which kind of migration endpoint should you create?"
       choices:
