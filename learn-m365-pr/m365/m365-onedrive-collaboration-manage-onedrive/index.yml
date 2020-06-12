@@ -33,9 +33,9 @@ products:
 - office-365
 units:
 - learn-m365.m365-onedrive-collaboration-manage-onedrive.manage-storage-retention
-- learn-m365.m365-onedrive-collaboration-manage-onedrive.securing-onedrive
-- learn-m365.m365-onedrive-collaboration-manage-onedrive.auditing-onedrive
-- learn-m365.m365-onedrive-collaboration-manage-onedrive.using-reports
+- learn-m365.m365-onedrive-collaboration-manage-onedrive.secure-onedrive
+- learn-m365.m365-onedrive-collaboration-manage-onedrive.audit-onedrive
+- learn-m365.m365-onedrive-collaboration-manage-onedrive.use-reports
 - learn-m365.m365-onedrive-collaboration-manage-onedrive.summary-knowledge-check
 
 badge: 
