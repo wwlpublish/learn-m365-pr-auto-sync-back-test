@@ -1,43 +1,41 @@
 The Workplace Analytics app provides you with a streamlined menu of features with four primary ways to analyze and explore your data.
 
-- The **Home** page provides the scope of your Workplace Analytics data along with three areas of research-based behavioral insights into how things get done.
-- The **Analyze** page contains two valuable tools: Explore dashboards and Flexible queries. Dashboards help you analyze out-of-the-box insights while Queries allow you to download row-level data for more in-depth analysis.
+- The **Home** page provides the scope of your Workplace Analytics data along with three areas of research-based behavioral data into how things get done.
+- The **Analyze** page contains two valuable tools: Explore dashboards and flexible queries. Dashboards help you analyze insights while queries allow you to download row-level data for more in-depth analysis.
 - The **Plans** page provides targeted change plans to improve focus, collaboration, well-being, and seller success.
-- The **Settings** page allows you to validate collaboration data, organizational data, optional CRM data, and define which meetings, if any, to exclude in your analysis. 
+- The **Settings** page allows you to validate collaboration data, organizational data, and optional CRM data. It also lets you define which meetings, if any, to exclude in your analysis. 
 
 ![Main Workplace Analytics menu](../media/main-menu.png)
 
-> [!TIP]
+> [!NOTE] 
 > Click the **menu** icon at the top of the panel. It compresses the menu so you can see a full screen view. Click again to reveal the entire menu.
 
 ## Workplace Analytics Home page
 
-Use the Home page to get a quick look at the date range and **measured employees** you can include in your analysis, as well as quick insights into how work gets done. (**Measured employees** means employees with a Workplace Analytics license.)
+Use the Home page to get a quick look at the date range and **measured employees** you can include in your analysis, as well as quick looks into how work gets done. (**Measured employees** is defined as employees with a Workplace Analytics license.)
 
 **My organization’s data** gives you a high-level look at your organization’s Workplace Analytics data, including the date range and a count of measured employees.
 
-In addition to the Explore dashboards, Workplace Analytics offers out-of-the-box insights in three areas of the collaborative experience:
-
+In addition to the Explore dashboards, Workplace Analytics offers a look into three areas of the collaborative experience:
+ 
 - **Employee experience**. Understand employee engagement trends by investigating employee one-on-one time with their manager, email load, and time spent collaborating after hours.
-- **Organizational agility**. Assess your organization’s ability to quickly adapt by exploring how employees collaborate (such as too many inefficient meetings, focus time, and how they are connected and share information).
+- **Organizational agility**. Assess your organization’s ability to quickly adapt by exploring how employees collaborate. This could include too many inefficient meetings, not enough focus time, or how employees connect and share information.
 - **Customer focus**. Explore external connections and time spent in external collaboration.
 
 ![Workplace Analytics Home page view](../media/home-page-view.png)
 
-> [!TIP]
+> [!NOTE]
 > Click when you see the **+ # more**. Each instance reveals additional insights for each solution area.
 
-> [!TIP]
-> Here’s a way to use the **Home page** functionality.
-> 
-> Kevin is a HR business analyst at Contoso Corporation. His manager recently asked him to determine if employees are getting enough time with their managers. Using Workplace Analytics, from the Home page, he clicks the **View insights** button under Employee Experience. There, Kevin finds that nearly sixty percent of employees get less than 15 minutes of one-one-one time with their manager in a month, indicating a need for more coaching.
-> 
+Explore the statistics and **View Recommended Plans** for quick links to the Explore dashboards and management plans. You’ll also find links within each solution area that provide supporting evidence and best practices for each behavioral metric.
 
-Explore the statistics and **View Recommended Plans** for quick links to the Explore dashboards and management plans (covered in the next two units). You’ll also find links within each solution area that provide supporting evidence and best practices for each behavioral metric.
+### Let's look at a real world scenario of how you'd use the View insights feature
+
+Kevin is a HR business analyst at Contoso Corporation. His manager recently asked him to determine if employees are getting enough time with their managers. Using Workplace Analytics from the Home page, he clicks the **View insights** button under Employee Experience. There, Kevin finds that nearly sixty percent of employees get less than 15 minutes of one-on-one time with their manager in a month, indicating a need for more coaching.
 
 ## Workplace Analytics Analyze page
 
-In addition to the solution areas mentioned on the Home page, there are two main ways of analyzing data in Workplace Analytics: Explore dashboards and Flexible queries.
+In addition to the solution areas mentioned on the Home page, there are two main ways of analyzing data in Workplace Analytics: Explore dashboards and flexible queries.
 
 ### Analyze Explore summary page
 
@@ -66,11 +64,11 @@ Explore dashboards in Workplace Analytics are powerful tools to gain quick insig
 
 ![The Meetings overview dashboard](../media/explore-meetings-overview.png)
 
-> [!TIP]
-> Here's a way to use the Meetings functionality.
->
-> Kevin, our HR business analyst at Contoso Corporation, recently discovered that 46% of meeting hours in his organization are redundant, indicating opportunities for delegation. He would like to dive deeper into the data in the Meetings overview page to identify groups that might be driving the higher level of redundant meeting hours in the organization. In the upper right corner of the Explore dashboard, he clicks on **Settings and filters**. In the Page Settings he groups by Organization and clicks **Apply**. The results shown below indicate that employees in his HR department average five hours a week in redundant meetings.
-> 
+### Let's look at a real world scenario of how you'd use the dashboard feature
+
+Kevin, our HR business analyst at Contoso Corporation, recently discovered that 46% of meeting hours in his organization are redundant, indicating opportunities for delegation. He would like to dive deeper into the data in the Meetings overview page to identify groups that might be driving the higher level of redundant meeting hours in the organization. 
+
+In the upper right corner of the Explore dashboard, he clicks on **Settings and filters**. In the Page Settings he groups by Organization and clicks **Apply**. The results shown below indicate that employees in his HR department average five hours a week in redundant meetings.
 
 ![Meetings overview results bar graph](../media/meetings-overview-bar-graph.png)
 
@@ -87,7 +85,7 @@ On the Queries page, under **Start custom query**, you’ll see a list of query 
 
 ![The Analyze Queries page](../media/analyze-queries.png)
 
-Your query output depends on the type of query you run. For example, the Person query results contain metrics related to an individual’s collaboration (such as email hours, meeting hours, and after- hours collaboration). The Meeting query results contain metrics related to the meeting (such as attendee meeting hours and attendee’s multitasking).
+Your query output depends on the type of query you run. For example, the Person query results contain metrics related to an individual’s collaboration (such as email hours, meeting hours, and after hours collaboration). The Meeting query results contain metrics related to the meeting (such as attendee meeting hours and attendee’s multitasking).
 
 ### Query steps
 
@@ -114,7 +112,7 @@ Once you’ve made these selections, follow the four steps below to further refi
 
 ![Step 3 is select organizational data](../media/step-3-organizational-data.png)
 
-**Step 4. Run the query**. You can access your query results by clicking the **Results** link on the Queries page. You have the option of viewing your results or everyone else’s. This page is where you can download the data in a csv format, copy the OData link to load the data into business intelligence applications, and for some queries, open a visualization to analyze within Workplace Analytics.
+**Step 4. Run the query**. You can access your query results by clicking the **Results** link on the Queries page. You can choose to view your results or all results in your organization. This page is where you can download the data in a csv format, copy the OData link to load the data into business intelligence applications, and for some queries, open a visualization to analyze within Workplace Analytics.
 
 ![Step 4 is run the query](../media/step-4-run-query.png)
 
@@ -124,7 +122,7 @@ You also have the option of selecting from a list of queries with preselected fi
 
 You’ll see three of the options shown above have a Power BI icon in the upper right corner. These include a download option for a Power BI Template. If you run this query option, you can download the template, load your data, and get an automatically generated report.
 
-Flexible queries are a powerful tool to obtain filtered and customized Workplace Analytics metrics. Use the output from Flexible queries and combine them with specific business knowledge to generate in-depth, impactful analysis on how employees collaborate to drive positive change in your organization. 
+Flexible queries are a powerful tool to obtain filtered and customized Workplace Analytics metrics. Use the output from flexible queries and combine them with specific business knowledge to generate in-depth, impactful analysis on how employees collaborate to drive positive change in your organization. 
 
 ## Workplace Analytics Plans page
 
@@ -134,10 +132,10 @@ Insights gained from the Explore dashboards and Queries can provide a lot of inf
 
 Microsoft currently offers four plans:
 
-- **Focus plan**. Helps participants get more time to do deep dive work and reclaim their calendar for work that matters most 
-- **Collaboration plan**. Helps participants reduce the number of excessive meetings that the group schedules
-- **Wellbeing plan**. Helps participants unwind and protect their personal time by disconnecting in their off-hours
-- **Seller success plan**. Helps participants prioritize time, increase network quality and size, and connect with the right roles
+- **Focus plan**. Helps participants get more time to do deep dive work and reclaim their calendar for work that matters most. 
+- **Collaboration plan**. Helps participants reduce the number of excessive meetings that the group schedules.
+- **Wellbeing plan**. Helps participants unwind and protect their personal time by disconnecting in their off-hours.
+- **Seller success plan**. Helps participants prioritize time, increase network quality and size, and connect with the right roles.
 
 ![Available plans](../media/available-plans.png)
 
@@ -159,21 +157,19 @@ You can assess the quality and completeness (coverage) of the uploaded organizat
 
 Additionally, if your Workplace Analytics administrator has uploaded CRM data, you can confirm the quality of join coverage (the percentage of CRM contact and sales assignment data associated with CRM accounts).
 
-> [!TIP]
-> Here's an example of using data sources.
-> 
-> Kevin, our HR business analyst at Contoso Corporation, would like to get a high-level look at some fourth quarter custom metrics using a Flexible query. He knows he should probably exclude specific dates that might be outliers. Kevin opens the **Sources** page and looks at the collaboration data over time for the measured population. He sees two dips in the data, both national holidays. He runs his Flexible query, and once he has the output, he filters out the holiday dates for his analysis.
-> 
+### Let's look at a real world scenario of how you'd check your data source quality
+
+Kevin, our HR business analyst at Contoso Corporation, would like to get a high-level look at some fourth quarter custom metrics using a flexible query. He knows he should probably exclude specific dates that might be outliers. Kevin opens the **Sources** page and looks at the collaboration data over time for the measured population. He sees two dips in the data, both national holidays. He runs his flexible query, and once he has the output, he filters out the holiday dates for his analysis.
 
 ## Meeting exclusions
 
 Not all meetings scheduled are business-related. People often have personal appointments and block out time on their calendar to get work done. When doing analysis in Workplace Analytics, there also may be excessively long or large meetings you don’t want to include.
 
-Workplace has a built-in solution to address these issues called **Meeting Exclusions**. With Meeting Exclusions, analysts can create specific rules for meetings to include while adding each rule to a dropdown list of rules to apply for specific analyses.
+Workplace has a built-in solution to address these issues called **meeting exclusions**. With meeting exclusions, analysts can create specific rules for meetings to include while adding each rule to a dropdown list of rules to apply for specific analyses.
 
-![Meeting Exclusions](../media/meeting-exclusions.png)
+![Meeting exclusions](../media/meeting-exclusions.png)
 
-With Meeting Exclusions, you have the options to:
+With meeting exclusions, you have the option to:
 
 - Exclude canceled meetings.
 - Exclude appointments (blocked time with only one attendee).
@@ -182,15 +178,13 @@ With Meeting Exclusions, you have the options to:
 
 Workplace Analytics has a default meeting exclusion rule which excludes meetings with only one attendee, meetings longer than eight hours, meetings with 250 or more participants, and canceled meetings. This rule is used if no other meeting exclusion is selected.
 
-Use Meeting Exclusion rules in Workplace Analytics to exclude meetings you don’t want to include in your analysis (or include meetings excluded in the default meeting exclusion rule).
+Use Meeting Exclusion rules in Workplace Analytics to exclude meetings you don’t want to include in your analysis (or include meetings excluded in the default Meeting Exclusion rule).
 
-> [!TIP]
-> Here's an example of using a meeting exclusion rule.
-> 
-> Kevin, our HR business analyst at Contoso Corporation, would like to begin an analysis on remote workers. Remote workers at Contoso let their managers know they work from home by creating a one person meeting titled, Remote Day.
-> 
-> Since the default meeting exclusion rule excludes these meetings, Kevin needs to create a new rule. He opens **Analysis settings** in the menu to locate the **Meeting Exclusions** page and creates a new meeting exclusion rule to include meetings with only one person.
->
+### Let's look at a real world scenario of how you'd use a meeting exclusion rule
+
+Kevin, our HR business analyst at Contoso Corporation, would like to begin an analysis on remote workers. Remote workers at Contoso let their managers know they work from home by creating a one person meeting titled, Remote Day.
+
+Since the default meeting exclusion rule excludes these meetings, Kevin needs to create a new rule. He opens **Analysis settings** in the menu to locate the **Meeting Exclusions** page and creates a new meeting exclusion rule to include meetings with only one person.
 
 ## Additional features
 
@@ -198,7 +192,7 @@ You'll find some additional features in the upper right-hand corner of each scre
 
 ![Additional features](../media/additional-features.png)
 
-- Click the **?** (Help) icon to find the below resources.
+- Click the **?** (Help) icon to find the resources listed below.
 
   - **Documentation**. Documentation provides extensive information about Workplace Analytics topics.
   - **FAQs**. Find frequently asked questions with the answers you are looking for.

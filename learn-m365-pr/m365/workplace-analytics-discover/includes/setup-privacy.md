@@ -1,6 +1,6 @@
 ## Set up Workplace Analytics
 
-Setting up Workplace Analytics is a straightforward process. Here's an overview of the primary steps.
+Setting up Workplace Analytics is a straightforward process. Here's an overview of the primary steps:
 
 1. Your Office 365 or Azure Active Directory administrator assigns the licenses and roles.
 1. The designated Workplace Analytics administrator enters system defaults and privacy settings.
@@ -21,12 +21,12 @@ These are the customer-specific controls.
 
 ![Customer-specific controls](../media/customer-specific-controls.png)
 
-- Scope of population (with the option to exclude sensitive groups)
-- Analyst access to Workplace Analytics and access to specific population scopes
-- Access to email and meeting subject lines
-- Rule out all meetings and emails by keywords (in subject lines) that you deem sensitive
-- Specific individuals or domains
-- Organizational attributes loaded
+- Scope of population (with the option to exclude sensitive groups).
+- Analyst access to Workplace Analytics and access to specific population scopes.
+- Access to email and meeting subject lines.
+- Rule out all meetings and emails by keywords (in subject lines) that you deem sensitive.
+- Specific individuals or domains.
+- Organizational attributes loaded.
 
 With Workplace Analytics, the objective is not to examine individual activity, but to recognize group level trends happening in your organization. The app looks at header level metadata—no content, such as body of emails, email attachments, or anything considered sensitive in nature. 
 
