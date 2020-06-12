@@ -20,7 +20,7 @@ OneDrive customers can use or launch your app directly from within OneDrive to o
 
 ### Work with content in formats your app understands
 
-Your app can get file content in the format that is most convenient for you. Your app can display custom-sized thumbnails for hundreds of different file formats. You can download files in different formats, like PDF, DOCX and and others.
+Your app can get file content in the format that is most convenient for you. Your app can display custom-sized thumbnails for hundreds of different file formats. You can download files in different formats, like PDF, DOCX and others.
 
 ### Work with file content and metadata without downloading the binary
 

@@ -1,0 +1,42 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-compliance-insider-prepare-communication-compliance.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: Communication compliance in Microsoft 365 is a solution that helps organizations address code-of-conduct policy violations in company communications, while also assisting organizations in regulated industries meet specific supervisory compliance requirements. Communication Compliance leverages machine learning to intelligently detect violations across different communication channels such as Microsoft Teams, Exchange Online, or Yammer messages.
+  ms.date: 05/15/2020
+  author: ericweisberg
+  ms.author: v-erwe
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Microsoft has had built-in intelligence to detect profanities for a while. Which of the following represents a new enhancement in this area?"
+      choices:
+      - content: "Identify threats for the individual to potentially harm themselves"
+        isCorrect: true
+        explanation: "Microsoft has expanded the offensive language classifiers to identify threats to others or even for the individual to harm themselves or even targeted harassment. "
+      - content: "Identify insider trading"
+        isCorrect: false
+        explanation: "Regulatory compliance such as US FINRA requires organizations to monitor issues like insider trading."
+      - content: "Identify possible legal exposure "
+        isCorrect: false
+        explanation: "Risk management compliance helps identify and manage potential legal exposure and can help minimize risks before they can damage corporate operations."
+
+    - content: "The workflow for identifying and resolving compliance issues with communication compliance in Microsoft 365 can be broken down into four phases. In which phase do you review user activity history?"
+      choices:
+      - content: "Remediate"
+        isCorrect: false
+        explanation: "This phase is to remediate communication compliance issues you have investigated. "
+      - content: "Configure "
+        isCorrect: false
+        explanation: "In this phase, you identify your compliance requirements and configure applicable communication compliance policies. "
+      - content: "Investigate"
+        isCorrect: true
+        explanation: "In this step, you look deeper into the issues detected as matching your communication compliance policies.   "
+      
