@@ -12,14 +12,14 @@ title: Transition from Azure Information Protection to Microsoft Information Pro
 summary: Learn the key considerations for transitioning your organization from using Azure Information Protection to Microsoft Information Protection. 
 abstract: |
   Upon completion of this module, you should be able to: 
-  -     Articulate the importance of transitioning to Microsoft Information Protection. 
-  -     List benefits of transitioning to Microsoft Information Protection.
-  -     Explain the key considerations for making the transition. 
-  -     Identify steps for transitioning to Microsoft Information Protection. 
+  - Articulate the importance of transitioning to Microsoft Information Protection. 
+  - List benefits of transitioning to Microsoft Information Protection.
+  - Explain the key considerations for making the transition. 
+  - Identify steps for transitioning to Microsoft Information Protection. 
 
   prerequisites: | 
-   - Cloud computing concepts. If you are unfamiliar with this topic, we recommend you take [Cloud Concepts - Principles of cloud computing](https://docs.microsoft.com/learn/modules/principles-cloud-computing/)
-   - Microsoft 365 product and services. If you are unfamiliar this with topic, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+   - Cloud computing concepts
+   - Microsoft 365 product and services
 
 iconUrl: http://via.placeholder.com/120x120
 ratingEnabled: true

@@ -76,9 +76,13 @@ Content in the containers do not inherit the labels for settings such as the lab
 > [!NOTE]
 > This page is only visible if the following preview is enabled: Use sensitivity labels with Microsoft Teams, Microsoft 365 groups and SharePoint sites. A link to more information is provided later in this unit.
 
-The image below shows how the wizard appears depending on if the preview feature has been enabled.
+The image below shows how the wizard appears if the preview feature has not been enabled.
 
-Image not available
+![Wizard with preview feature not enabled](../media/wizard-without-preview.png) 
+
+This image below shows how the wizard appears if the preview feature has been enabled.
+
+![Wizard with preview feature enabled](../media/wizard-with-preview.png) 
  	 
 ### Privacy of Microsoft 365 group-connected team sites
 Determine who can access a Microsoft 365 group or SharePoint site.

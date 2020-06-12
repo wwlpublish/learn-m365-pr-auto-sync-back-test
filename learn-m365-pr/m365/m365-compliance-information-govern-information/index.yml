@@ -12,15 +12,15 @@ title: Govern information in Microsoft 365
 summary:  Learn how to manage your content lifecycle using solutions to import, store, and classify business-critical data so you can keep what you need and delete what you don't. 
 abstract: |
   Upon completion of this module, you should be able to: 
-  -     Discuss the information governance solution and its benefits.
-  -     List the customer scenarios the information governance solution addresses. 
-  -     Describe the information governance configuration process. 
-  -     Explain what users will experience when the solution is implemented.
-  -     Articulate deployment and adoption best practices. 
+  - Discuss the information governance solution and its benefits.
+  - List the customer scenarios the information governance solution addresses. 
+  - Describe the information governance configuration process. 
+  - Explain what users will experience when the solution is implemented.
+  - Articulate deployment and adoption best practices. 
 
   prerequisites: | 
-   - Cloud computing concepts. If you are unfamiliar with this topic, we recommend you take [Cloud Concepts - Principles of cloud computing](https://docs.microsoft.com/learn/modules/principles-cloud-computing/)
-   - Microsoft 365 product and services. If you are unfamiliar this with topic, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+   - Cloud computing concepts
+   - Microsoft 365 product and services
 
 iconUrl: http://via.placeholder.com/120x120
 ratingEnabled: true
