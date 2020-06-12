@@ -1,0 +1,39 @@
+### YamlMime:Module
+uid: learn-m365.m365-messaging-role-based-permissions
+metadata:
+  title: Manage role-based-permissions in Microsoft 365 Messaging
+  description: Learn about messaging role groups, admin roles, and role-based access control, as well as gain a better understanding of how you can use eDiscovery.  
+  ms.date: 05/01/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage role-based-permissions in Microsoft 365 Messaging
+summary: Learn about messaging role groups, admin roles, and role-based access control, as well as gain a better understanding of how you can use eDiscovery.  
+abstract: |
+  At the end of this module, you should be able to:
+  - Explain role groups.
+  - Explain admin roles.
+  - Explain Role-based Access Control.
+  - Describe Role-based Access Control for eDiscovery.
+prerequisites: |
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+iconUrl: /learn/achievements/manage-role-based-permissions.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-365
+- office-exchange-server
+units:
+- learn-m365.m365-messaging-role-based-permissions.introduction
+- learn-m365.m365-messaging-role-based-permissions.role-groups
+- learn-m365.m365-messaging-role-based-permissions.user-accounts-admin-roles
+- learn-m365.m365-messaging-role-based-permissions.user-roles
+- learn-m365.m365-messaging-role-based-permissions.delegated-access-control
+- learn-m365.m365-messaging-role-based-permissions.roles-ediscovery
+- learn-m365.m365-messaging-role-based-permissions.summary-knowledge-check
+badge: 
+  uid: learn-m365.m365-messaging-role-based-permissions.badge

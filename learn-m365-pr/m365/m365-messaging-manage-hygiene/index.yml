@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn-m365.m365-messaging-manage-hygiene
+metadata:
+  title: Manage message hygiene using Exchange Online and Microsoft 365 Advanced Threat Protection
+  description: Learn how to plan, implement, and configure policies to protect your organization from malware, spam, and phishing. 
+  ms.date: 05/01/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage message hygiene using Exchange Online and Microsoft 365 Advanced Threat Protection
+summary: Learn how to plan, implement, and configure policies to protect your organization from malware, spam, and phishing.  
+abstract: |
+  At the end of this module, you should be able to:
+  - List Microsoft 365 threat protection features.
+  - Explain filters.
+  - Explain quarantined items.
+  - Describe phishing protection.
+  - Explain spam confidence levels.
+  - Explain Advanced Threat Protection. 
+prerequisites: |
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+iconUrl: /learn/achievements/manage-message-hygiene.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-365
+- office-exchange-server
+units:
+- learn-m365.m365-messaging-manage-hygiene.introduction
+- learn-m365.m365-messaging-manage-hygiene.understand-features
+- learn-m365.m365-messaging-manage-hygiene.message-filters
+- learn-m365.m365-messaging-manage-hygiene.quarantined-items
+- learn-m365.m365-messaging-manage-hygiene.phishing-protection
+- learn-m365.m365-messaging-manage-hygiene.spam-confidence-levels
+- learn-m365.m365-messaging-manage-hygiene.safe-attachments-links
+- learn-m365.m365-messaging-manage-hygiene.summary-knowledge-check
+badge: 
+  uid: learn-m365.m365-messaging-manage-hygiene.badge
