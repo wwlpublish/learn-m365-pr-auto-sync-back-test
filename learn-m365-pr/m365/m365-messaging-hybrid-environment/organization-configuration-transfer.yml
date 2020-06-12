@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-messaging-hybrid-environment.organization-configuration-transfer
+title: Configure organization configuration transfer 
+metadata:
+  title: Configure organization configuration transfer
+  description: Learn how to plan and implement hybrid messaging environments, the role of an Edge server, and the use of the Exchange Hybrid Agent. 
+  ms.date: 05/12/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 4
+content: |
+  [!include[](includes/organization-configuration-transfer.md)]
