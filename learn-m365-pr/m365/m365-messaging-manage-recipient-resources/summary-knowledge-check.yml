@@ -1,0 +1,61 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-messaging-manage-recipient-resources.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Review what you've learned about the different mailbox types, distribution and security groups, and mailbox policies and permissions.
+  ms.date: 04/07/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "When you're editing a mail user's properties, which property group would you use to change the company name?"
+      choices:
+      - content: "Contact information"
+        isCorrect: false
+        explanation: "No, the company name is part of the Organization property group."
+      - content: "Organization"
+        isCorrect: true
+        explanation: "Yes, the company name is part of the Organization property group."
+      - content: "General"
+        isCorrect: false
+        explanation: "No, the company name is part of the Organization property group."
+    - content: "What is the oldest version of Exchange Server that supports using Exchange Online Archiving?"
+      choices:
+      - content: "Exchange Server 2010 (Service Pack 2 or later)"
+        isCorrect: true
+        explanation: "Yes, this version of Exchange Server supports using Exchange Online Archiving."
+      - content: "Exchange Server 2007 (Service Pack 1 or later)"
+        isCorrect: false
+        explanation: "No, the oldest version you can use with Exchange Online Archiving is Exchange Server 2010 (Service Pack 2 or later). "
+      - content: "Exchange Server 2005 (Service Pack 2 or later)"
+        isCorrect: false
+        explanation: "No, the oldest version you can use with Exchange Online Archiving is Exchange Server 2010 (Service Pack 2 or later)." 
+    - content: "Which of the following PowerShell cmdlets displays information about a distribution group?"
+      choices:
+      - content: "View-DistributionGroup <Name> | Format-List Name,RecipientTypeDetails,PrimarySmtpAddress "
+        isCorrect: false
+        explanation: "No, View-DistributionGroup isn't an Exchange Online PowerShell cmdlet."
+      - content: "List-DistributionGroup <Name> | Format-List Name,RecipientTypeDetails,PrimarySmtpAddress"
+        isCorrect: false
+        explanation: "No, List-DistributionGroup isn't an Exchange Online PowerShell cmdlet."
+      - content: "Get-DistributionGroup <Name> | Format-List Name,RecipientTypeDetails,PrimarySmtpAddress"
+        isCorrect: true
+        explanation: "Yes, Get-DistributionGroup displays information about a distribution group."
+    - content: "Which of the following mailbox permissions should you use to enable a delegate to send messages that appear to come from the target mailbox?"
+      choices:
+      - content: "Send As"
+        isCorrect: true
+        explanation: "Yes, the Send As mailbox permission enables a delegate to send messages that appear to come from the target mailbox."
+      - content: "Send on Behalf"
+        isCorrect: false
+        explanation: "No, you need to use the Send As mailbox permission."
+      - content: "Full Access"
+        isCorrect: false
+        explanation: "No, you need to use the Send As mailbox permission." 
