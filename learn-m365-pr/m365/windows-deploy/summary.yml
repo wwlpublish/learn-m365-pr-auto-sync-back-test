@@ -15,18 +15,18 @@ content: |
 quiz:
   title: Check your knowledge
   questions:
-  - content: Which of these is a task for Broad deployment?
+  - content: Which of these is a task for broad deployment?
     choices:
     - content: Obtain recommendations for improvements.
       isCorrect: True
-      explanation: This will help Woodgrove improve Broad deployment in future.
-    - content: Determine Broad deployment readiness.
+      explanation: This will help Woodgrove improve broad deployment in future.
+    - content: Determine broad deployment readiness.
       isCorrect: False
-      explanation: You do this during Pilot deployment.
+      explanation: You do this during pilot deployment.
     - content: Troubleshoot critical applications.
       isCorrect: False
-      explanation: This isn’t a Broad deployment task. Critical applications should be validated ahead of Broad deployment.
-  - content: During Pilot deployment, who is responsible for implementing baseline updates?
+      explanation: This isn’t a broad deployment task. Critical applications should be validated ahead of broad deployment.
+  - content: During pilot deployment, who is responsible for implementing baseline updates?
     choices:
     - content: Process manager
       isCorrect: False
