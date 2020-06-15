@@ -83,3 +83,9 @@ To view a role group, use the following syntax:
 ```powershell
 Get-RoleGroup [-Identity "<Role Group Name>"] [-Filter <Filter>]
 ```
+
+## Testing a link
+
+[This tagging uses a ?](https://support.office.com/office-training-center?azure-portal=true)
+
+[This tagging uses a &](https://support.office.com/office-training-center&azure-portal=true)
