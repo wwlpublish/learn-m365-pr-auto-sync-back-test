@@ -34,6 +34,6 @@ Desktop Analytics will show deployment progress. For example, your team can use 
 
 :::image type="content" source="../media/5-deployment status.png" alt-text="Deployment status in Desktop Analytics":::
 
-Desktop Analytics also gives a health status overview of deployment devices. You can review this on an ongoing basis to help better understand and learn how to prevent and resolve issues in future. For example, the organization will see the percentage of devices with crashes before and after the update. This helps you understand whether the stability of applications has decreased or increased in the newly deployed version of Windows, and helps improve for future deployments.
+Desktop Analytics also gives a health status overview of deployment devices. You can review this on an ongoing basis to help better understand and learn how to prevent and resolve issues in the future. For example, the organization will see the percentage of devices with crashes before and after the update. This helps you understand whether the stability of applications has decreased or increased in the newly deployed version of Windows, and helps improve for future deployments.
 
 :::image type="content" source="../media/5-health-status.png" alt-text="Health status factors in Desktop Analytics":::

@@ -4,7 +4,7 @@ After broad deployment, the cycle is almost complete. As the process manager, yo
 
 You should think about how you can improve the servicing process for the next deployment cycle. This procedure will help your organization minimize cost, effort, and the time involved when deploying updates.
 
-To improve the deployment process, you can use learnings from the current deployment cycle and apply them in future. You do this by noting any issues in the deployment process as they arise, and investigating how they can be resolved. You use the outputs created at the end of the broad deployment process to identify the best tools and ways to resolve issues. You can then map tools, resources, and solutions against the issues identified during the process. For example:
+To improve the deployment process, you can use learnings from the current deployment cycle and apply them in the future. You do this by noting any issues in the deployment process as they arise, and investigating how they can be resolved. You use the outputs created at the end of the broad deployment process to identify the best tools and ways to resolve issues. You can then map tools, resources, and solutions against the issues identified during the process. For example:
 
 |Workstream  |Issue  |Solution  |
 |---------|---------|---------|
