@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-messaging-configure-transport-architecture.plan-connectors
+title: Plan to route email with connectors
+metadata:
+  title: Plan to route email with connectors
+  description: Learn the basics of connectors, including when to create a new connector. 
+  ms.date: 06/04/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/plan-connectors.md)]

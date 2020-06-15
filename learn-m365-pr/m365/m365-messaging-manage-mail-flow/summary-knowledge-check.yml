@@ -1,0 +1,53 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-messaging-manage-mail-flow.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Manage the mail flow in Exchange Online by using domains, hybrid mail flow, and transport rules.
+  ms.date: 04/02/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Which mail flow rule component should you use to define what to do with a message that matches a specified condition?"
+      choices:
+      - content: "Actions"
+        isCorrect: true
+        explanation: "Yes. Actions are performed on messages that match the conditions and exceptions you've defined."
+      - content: "Exceptions"
+        isCorrect: false
+        explanation: "No. Exceptions control what messages an action is (or is not) applied to."
+      - content: "Conditions"
+        isCorrect: false
+        explanation: "No. Conditions control what messages an action is (or is not) applied to."
+
+    - content: "Which of the following cmdlets would you use to create a mail flow rule?"
+      choices:
+      - content: "Set-TransportRule"
+        isCorrect: false
+        explanation: "No. This cmdlet updates an existing rule, but it can't create a new rule."
+      - content: "New-TransportRule"
+        isCorrect: true
+        explanation: "Yes, use New-TransportRule to create a mail flow rule."
+      - content: "Get-TransportRule"
+        isCorrect: false
+        explanation: "No. This cmdlet lists all of the mail flow rules; it doesn't create a new rule."
+      
+    - content: "How do you remove a remote domain by using the Exchange admin center?"
+      choices:
+      - content: "Go to **mail flow > remote domain**. Select the domain, and then select **Delete**."
+        isCorrect: true
+        explanation: "Yes. You can manage remote domains in the mail flow section of the Exchange admin center."
+      - content: "In the Microsoft 365 admin center, go to **Domains**, and then select the specific domain. Select **Delete.**"
+        isCorrect: false
+        explanation: "No. You can't manage remote domains in the *Microsoft 365* admin center."
+      - content: "In the Exchange admin center, go to **organization**, and then select the remote domain. Select **Delete**."
+        isCorrect: false
+        explanation: "No. You manage remote domains on the **remote domain** page, not on **organization**."
+      

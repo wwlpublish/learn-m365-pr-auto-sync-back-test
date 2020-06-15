@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-messaging-configure-transport-architecture.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Review what you learned about using connectors in Exchange Online to route email to on-premises email systems and to secure email to partner organizations.
+  ms.date: 06/05/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "You have mailboxes in Exchange Online and in Exchange Server 2013. You've already run the Exchange Hybrid Configuration Wizard to integrate the two systems. Now you want to make sure that you can route email between cloud and on-premises mailboxes. What should you do?"
+      choices:
+      - content: "Nothing. Email routing is already set up."
+        isCorrect: true
+        explanation: "Yes. The Hybrid Configuration wizard automatically creates connectors to route email between cloud and on-premises mailboxes. You don't need to modify them."
+      - content: "Create a connector route email from on-premises mailboxes to Exchange Online."
+        isCorrect: false
+        explanation: "No. The Hybrid Configuration wizard automatically creates connectors to route email between cloud and on-premises mailboxes. You don't need to create additional connectors."
+      - content: "Create a connector to route email from Exchange Online to Exchange Server on-premises."
+        isCorrect: false
+        explanation: "No. The Hybrid Configuration wizard automatically creates connectors to route email between cloud and on-premises mailboxes. You don't need to create additional connectors."
+
+    - content: "Your organization recently merged with another organization, but your email systems remain separate. Both organizations frequently send sensitive emails, so emails must be encrypted between your email servers. Both organizations currently use Exchange Online in Microsoft 365. What should you do to encrypt mail between the servers?"
+      choices:
+      - content: "Do nothing."
+        isCorrect: false
+        explanation: "No. Although the default organization in Exchange Online can route email to your partner organization, the only what to require encryption is to use connectors."
+      - content: "Run the Hybrid Configuration wizard"
+        isCorrect: false
+        explanation: "No. The Hybrid Configuration wizard integrates Exchange Online with on-premises Exchange Servers; it does *not* integrate two Exchange Online tenants."
+      - content: "Manually create connectors between the organizations"
+        isCorrect: true
+        explanation: "Yes. When you create connectors manually, you can require encryption for a specific set of email addresses."
+      
+    - content: "You created a connector to route mail from your Exchange Online subscription to on-premises Exchange 2007 servers, but test emails haven't arrived. You suspect a firewall issue. What should you check?"
+      choices:
+      - content: "Port 25 is open for Exchange Online IP addresses"
+        isCorrect: true
+        explanation: "Yes. Email is sent through Exchange Online connectors to on-premises Exchange servers through SMTP and port 25."
+      - content: "Port 80 is open for Exchange Online IP addresses."
+        isCorrect: false
+        explanation: "No. Port 80 is used for HTTP communications. Exchange Online connectors use port 25."
+      - content: "Port 53 is open for Exchange Online IP addresses"
+        isCorrect: false
+        explanation: "No. Port 53 is used for DNS communications. Exchange Online connectors use port 25."

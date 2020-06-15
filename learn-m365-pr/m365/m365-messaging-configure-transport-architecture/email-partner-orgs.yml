@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-messaging-configure-transport-architecture.email-partner-orgs
+title: Secure email to partner organizations
+metadata:
+  title: Secure email to partner organizations
+  description: Learn how to use connectors in Exchange Online to secure email to partner organizations. 
+  ms.date: 06/04/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 8
+content: |
+  [!include[](includes/email-partner-orgs.md)]
