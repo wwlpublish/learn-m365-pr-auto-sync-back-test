@@ -1,0 +1,40 @@
+### YamlMime:Module
+uid: learn-m365.audit-governance
+metadata:
+  title: Understand Microsoft 365 governance
+  description: Learn how Microsoft implements organization-wide security and privacy governance to support the secure operation of Microsoft 365 services and maintain compliance with regulatory requirements and customer commitments.
+  ms.date: 06/15/2020
+  author: NamrahK
+  ms.author: v-nakhu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Understand Microsoft 365 governance
+summary: Learn how Microsoft implements organization-wide security and privacy governance to support the secure operation of Microsoft 365 services and maintain compliance with regulatory requirements and customer commitments.
+abstract: |
+ Upon completion of this module, you should be able to:
+ - Describe Microsoft 365’s core services.
+ - List the elements of the Microsoft Policy Framework.
+ - Describe the Microsoft Security Policy and related standards, requirements, and procedures. 
+ - Explain how the Microsoft 365 Information Security Policy implements the Microsoft Security and Standards Program. 
+ - List Microsoft personnel requirements and practices. 
+
+prerequisites: None
+iconUrl: http://via.placeholder.com/120x120
+ratingEnabled: false
+levels:
+- beginner
+roles:
+- technology-manager
+- solution-architect
+products:
+- m365
+units:
+- learn-m365.audit-governance.introduction
+- learn-m365.audit-governance.organizational-structure
+- learn-m365.audit-governance.policy-framework
+- learn-m365.audit-governance.policy-standards-program
+- learn-m365.audit-governance.information-security-policy
+- learn-m365.audit-governance.personnel-security-governance
+- learn-m365.audit-governance.summary-knowledge-check
+badge: 
+  uid: learn-m365.audit-governance.badges
