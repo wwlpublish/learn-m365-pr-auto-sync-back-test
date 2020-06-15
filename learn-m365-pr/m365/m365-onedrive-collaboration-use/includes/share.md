@@ -16,7 +16,7 @@ Once the user determines who they want to share with, they can select different 
 - **Set expiration date** -The link will only work until the date you set. After that, you’ll need to create a new link for users requiring access to your file or folder.
 - **Set password** - Users will be prompted to enter a password before they can access the file. You'll need to provide this password separately to recipients. This is only available for Anyone links. 
 - **Block download** - Users can open the file but cannot save a local copy.
-- 
+
 Users can also share files and folders through Outlook, Office apps, the OneDrive mobile app in iOS and Android, SharePoint, and even File Explorer or Mac Finder for files synced to their computer. All offer the same user experience.
 
 ![Users can share files and folders through Outlook, Office apps, the OneDrive mobile app in iOS and Android, SharePoint, File Explorer or Mac Finder for files synced to their computer](../media/change-permissions.png)
@@ -35,7 +35,7 @@ The file owner can stop or change the sharing permissions at any time.
 
 Once they select a file or folder they want to change sharing settings for, they click on the details pane and select Manage access:
  
-![File owners can stop or change the sharing permissions at any time by clicking on the details pane and select Manage access](../media/maange-access.png)
+![File owners can stop or change the sharing permissions at any time by clicking on the details pane and select Manage access](../media/manage-access.png)
 
 The manage access panel opens and they have a collection of options for either **Links Giving Access** or **Direct Access**.
 - **Links Giving Access** shows the links that have permissions to the file or folder. Click the ellipsis (…) to see users who the link has been shared with.
@@ -44,6 +44,7 @@ The manage access panel opens and they have a collection of options for either *
 - The **Direct Access** section shows people and groups who have been granted access directly to the file or folder. (This includes groups that have access to the site where the file or folder resides.)
 
    ![People and groups who have been granted access directly to the file or folder](../media/stop-sharing.png)
+
 Owners can change permissions between view and edit. 
 
 Users can stop sharing files and folders at any time.

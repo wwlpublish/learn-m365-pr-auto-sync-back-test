@@ -27,10 +27,10 @@ With OneDrive Files On-Demand, users can:
 - Set files and folders to be always available locally on their device.
 - View important information about files, such as whether they are shared.
 - See thumbnails of over 300 different file types even if they don’t have the required application to open it.
-- 
+
 With Files On-Demand, users will see new icons next to your files synced to their device:
 
-**Image Missing**
+![With Files On-Demand users will see new icons next to your files synced to their device](../media/new-icons.png)
 
 Users can move online-only files within their OneDrive folder and restore those files through their OneDrive recycle bin. When they search for online-only files by name, OneDrive will let them search the name of those files not on their device. The files-on demand settings are unique to each device, so users should make sure to turn it on for each device where they want to use it. 
 

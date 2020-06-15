@@ -14,7 +14,7 @@ The easiest way to initiate a coauthoring session is to share a file with others
 
 Users will also be able to see where the other users in the file are:
 
-![Users will also be able to see where the other users in the file are](../media/others-in-file.png)
+![Users will also be able to see where the other users in the file are](../media/others-file.png)
  
 Users can add comments and @mention other users, who will then receive an email with a link to the comment. They can click the link to open the document and the conversation or reply to the comment directly in email.
  

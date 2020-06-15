@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.m365-onedrive-collaboration-use-onedrive.managing-files-folders
+uid: learn-m365.m365-onedrive-collaboration-use-onedrive.manage-files-folders
 title: Manage, monitor, and remediate information governance
 metadata:
   title: Manage files and folders
@@ -12,4 +12,4 @@ metadata:
 
 durationInMinutes: 5
 content: |
-  [!include[](includes/managing-files-folders.md)]
+  [!include[](includes/manage-files-folders.md)]

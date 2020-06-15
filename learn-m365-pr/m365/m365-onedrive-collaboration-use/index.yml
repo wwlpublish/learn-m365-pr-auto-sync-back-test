@@ -32,11 +32,11 @@ products:
 - m365
 - office-365
 units:
-- learn-m365.m365-onedrive-collaboration-use-onedrive.introduction-onedrive
-- learn-m365.m365-onedrive-collaboration-use-onedrive.using-onedrive
-- learn-m365.m365-onedrive-collaboration-use-onedrive.managing-files-folders
-- learn-m365.m365-onedrive-collaboration-use-onedrive.sharing
-- learn-m365.m365-onedrive-collaboration-use-onedrive.co-authoring
+- learn-m365.m365-onedrive-collaboration-use-onedrive.introduction
+- learn-m365.m365-onedrive-collaboration-use-onedrive.use
+- learn-m365.m365-onedrive-collaboration-use-onedrive.manage-files-folders
+- learn-m365.m365-onedrive-collaboration-use-onedrive.share
+- learn-m365.m365-onedrive-collaboration-use-onedrive.coauthoring
 - learn-m365.m365-onedrive-collaboration-use-onedrive.sync
 - learn-m365.m365-onedrive-collaboration-use-onedrive.summary-knowledge-check
 
