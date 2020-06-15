@@ -3,7 +3,8 @@ uid: learn-m365.m365-onedrive-collaboration-use-onedrive.summary-knowledge-check
 title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
-  description: Learn how to manage your content lifecycle using solutions to import, store, and classify business-critical data so you can keep what you need and delete what you don't. 
+  description:  Discover how your users will interact with Microsoft OneDrive and how OneDrive makes collaboration better. Learn how your users store, sync, and work with files across all devices and how OneDrive within Microsoft 365 allows people to do just that.
+  ms.date: 06/15/2020 
   ms.date: 06/15/2020
   author: ericweisberg
   ms.author: v-erwe
@@ -16,52 +17,42 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Which of the following describes the most comprehensive approach to information governance and its benefits?"
+    - content: "If you create a new file or upload a file into OneDrive, who will have access by default?"
       choices:
-      - content: "Securing sensitive data and access."
-        isCorrect: false
-        explanation: "This is one benefit of information governance "
-      - content: "Ensuring your data is defensible and retained. "
-        isCorrect: false
-        explanation: "This is one benefit of information governance "
-      - content: "Managing the end-to-end lifecycle of all content across your digital estate. "
+      - content: "Just you"
         isCorrect: true
-        explanation: "Unlike manually applied retention labels, you can only auto-apply a single label. Note that you cannot auto-apply labels that are classified as a record."
+        explanation: "When you upload a file into OneDrive (through the web, on a mobile device, or by saving it to your synced OneDrive folder), by default it is only available to you."
+      - content: "Members of your team "
+        isCorrect: false
+        explanation: "OneDrive is for the files you own as an individual, so when you upload a file into OneDrive (through the web, on a mobile device, or by saving it to your synced OneDrive folder), by default it is only available to you."
+      - content: "All of your organization"
+        isCorrect: false
+        explanation: "OneDrive is for the files you own as an individual, so when you upload a file into OneDrive (through the web, on a mobile device, or by saving it to your synced OneDrive folder), by default it is only available to you."
 
-    - content: "Which of the following statements is accurate regarding retention labels?"
+    - content: "Which of the following statements is true?"
       choices:
-      - content: "Only one retention label can be assigned to content (such as an email or document) at a time."
+      - content: "Once you share a file in OneDrive, you cannot manage that sharing link."
+        isCorrect: false
+        explanation: "You can view and edit access to any files or folders you have shared within OneDrive."
+      - content: "You need to go to OneDrive on the web to share files."
+        isCorrect: false
+        explanation: "You can share files from multiple places, including mobile apps, File Explorer, and Office apps."
+      - content: "You can view files both shared by you and shared with you in OneDrive."
         isCorrect: true
-        explanation: "Content like an email or document can have only a single retention label assigned to it at a time."
-      - content: "If content has an auto-apply label assigned, users can remove or change the retention label that is assigned. "
-        isCorrect: false
-        explanation: "For retention labels assigned manually by end users, users can remove or change the retention label that is assigned."
-      - content: "If there are multiple rules that assign an auto-apply label and content meets the conditions of multiple rules, the retention label for the most recent (newest) rule is assigned. "
-        isCorrect: false
-        explanation: "If there are multiple rules that assign an auto-apply label and content meets the conditions of multiple rules, the retention label for the oldest rule is assigned."
+        explanation: "There are options for viewing both files shared by you and shared with you in OneDrive."
       
-    - content: "How long does it take retention labels to take effect?"
+    - content: "What is Files On-Demand?"
       choices:
-      - content: "Once the label policy is synced from the admin center to the locations in the policy."
+      - content: "It lets you access your files in Microsoft Teams."
         isCorrect: false
-        explanation: "First, the label policy needs to be synced from the admin center to the locations in the policy. Then the location may require time to make published retention labels available to end users or time to auto-apply labels to content. How long this takes depends on the location and type of retention label."
-      - content: "As soon as you publish or auto-apply retention labels."
+        explanation: "It’s a feature in the sync app that lets you browse files on your computer without having to download them and use storage space."
+      - content: "It lets you restore previous versions of files."
         isCorrect: false
-        explanation: "When you publish or auto-apply retention labels, they don't take effect immediately. First the label policy needs to be synced from the admin center to the locations in the policy. Then the location may require time to make published retention labels available to end users or time to auto-apply labels to content. How long this takes depends on the location and type of retention label."
-      - content: "It depends on the type of retention label."
+        explanation: "It’s a feature in the sync app that lets you browse files on your computer without having to download them and use storage space."
+      - content: "It lets you browse SharePoint and OneDrive files without downloading them."
         isCorrect: true
-        explanation: "First, the label policy needs to be synced from the admin center to the locations in the policy. Then the location may require time to make published retention labels available to end users or time to auto-apply labels to content. How long this takes depends on the location and type of retention label."
-      
-    - content: "You opted to retain content using the basic path under Settings.  You selected when it was last modified in Teams conversations. What will happen?"
-      choices:
-      - content: "The retention period begins when messages were created."
+        explanation: "It’s a feature in the OneDrive sync app that helps you save storage space on your device."
+      - content: "It lets you share OneDrive files from Office on the web."
         isCorrect: false
-        explanation: "This is true for the selection *when it was created* in SharePoint and OneDrive documents. "
-      - content: "The retention period begins based on when the messages were last modified."
-        isCorrect: false
-        explanation: "This is true for SharePoint and OneDrive documents."
-      - content: "The retention period is based on when messages were sent or received."
-        isCorrect: true
-        explanation: "Regardless of what you choose the retention period on content in Teams conversations will be based on when messages or conversations were sent or received."
-      
+        explanation: "It’s a feature in the sync app that lets you browse files on your computer without having to download them and use storage space."
  

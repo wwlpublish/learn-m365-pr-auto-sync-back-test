@@ -14,7 +14,7 @@ If OneDrive files are synced to a user’s device, they are accessible in File E
 
 ![If OneDrive files are synced to a user’s device, they are accessible in File Explorer under OneDrive – [your company]](../media/file-explorer.png)
  
-### Should users save files in OneDrive, SharePoint, or Teams?
+## Should users save files in OneDrive, SharePoint, or Teams?
 A good way to think about OneDrive storage is that it’s for “My files” while SharePoint and Teams are where we store “Our files”. OneDrive files are private unless shared with others. That means every file users upload, create, or sync will by default only be viewable by them. A file or folder can be shared with others in an organization or, if the organization allows it, with people outside the organization. Once a file or folder is shared, it is viewable only by file owner and whoever they shared it with. When files are stored in SharePoint or Teams, they will be viewable by anyone who is a part of the team or has permissions to the SharePoint site. 
 
 ## Learn more
