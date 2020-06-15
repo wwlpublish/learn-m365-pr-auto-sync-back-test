@@ -17,7 +17,7 @@ quiz:
   questions:
   - content: Which of these is a task for Broad deployment?
     choices:
-    - content: Obtain recommendations for improvements
+    - content: Obtain recommendations for improvements.
       isCorrect: True
       explanation: This will help Woodgrove improve Broad deployment in future.
     - content: Determine Broad deployment readiness.
@@ -28,13 +28,13 @@ quiz:
       explanation: This isn’t a Broad deployment task. Critical applications should be validated ahead of Broad deployment.
   - content: During Pilot deployment, who is responsible for implementing baseline updates?
     choices:
-    - content: Process manager.
+    - content: Process manager
       isCorrect: False
       explanation: The process manager is informed of these.
-    - content: Operations.
+    - content: Operations
       isCorrect: False
       explanation: Operations aren’t involved in this.
-    - content: End-user computing.
+    - content: End-user computing
       isCorrect: True
       explanation: End-user computing must implement the baseline updates.
   - content: How many deployment rings should Woodgrove choose?
