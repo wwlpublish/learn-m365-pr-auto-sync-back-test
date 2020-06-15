@@ -22,7 +22,7 @@ Updates to the Microsoft Security Policy (MSP) and Microsoft Security Program Po
 
 At a minimum, Microsoft security policies, standards, and requirements are reviewed and updated on an annual basis. Annual security policy revision considers a variety of factors, including:
 
-- Changes to external regulatory or compliance requirements. Examples include legislation, such as the GDPR, or updates to external standards, such as ISO or NIST. The security policy revision process includes review of all proposed changes to ensure alignment with applicable regulations.
+- Changes to external regulatory or compliance requirements. Examples include legislation, or updates to external standards, such as ISO or NIST. The security policy revision process includes review of all proposed changes to ensure alignment with applicable regulations.
 - Changes to the security landscape. This includes emerging threats, security issues, and lessons learned from past incidents.
 - Changing business and customer needs. As the business changes, policies and standards might need to be updated to account for new technologies. For example, new products and services may require new approaches to security.
 
