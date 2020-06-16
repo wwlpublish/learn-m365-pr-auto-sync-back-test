@@ -18,7 +18,7 @@ The ability to manage mobile applications with policies regardless of the device
 ## Conditional access for OneDrive
 Controlling access to OneDrive is not just about devices but also where and how you are connecting to OneDrive. Conditional access control capabilities in Azure Active Directory offer simple ways for you to secure resources in the cloud. The OneDrive sync app works with the conditional access control policies to ensure syncing is only done with compliant devices. For example, you might require sync to be available only on domain-joined devices or devices that meet compliance requirements as defined by the Mobile Device Management system (like Intune). 
 
-- Conditional access controls access to SharePoint, OneDrive, and their admin centers. The built-in conditional access policies in the OneDrive and SharePoint admin center included in the access control page are:
+Conditional access controls access to SharePoint, OneDrive, and their admin centers. The built-in conditional access policies in the OneDrive and SharePoint admin center included in the access control page are:
 - Control access based on network location. You can control access to SharePoint and OneDrive resources based on defined network locations that you trust. This is also known as location-based policy.
 
    ![Control access based on network location](../media/network-location.png)
