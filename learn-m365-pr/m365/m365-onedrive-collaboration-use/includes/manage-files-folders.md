@@ -31,7 +31,7 @@ If many files get deleted, overwritten, corrupted, or infected by malware, users
 
 View a [video version](https://www.microsoft.com/videoplayer/embed/placeholder?azure-portal=true) of the interactive guide (captions available in more languages).
 
-<a href="https://mslearn.cloudguides.com/en-us/guides/Restore%20a%20users%20OneDrive%20files%20in%20Microsoft%20365?azure-portal=true">![Restore a user's OneDrive files in Microsoft 365](../media/restore-user- onedrive-files.png)</a>  
+<a href="https://mslearn.cloudguides.com/en-us/guides/Restore%20a%20users%20OneDrive%20files%20in%20Microsoft%20365?azure-portal=true">![Restore a user's OneDrive files in Microsoft 365](../media/restore-user-files.png)</a>  
 
 Be sure to click the full-screen option in the video player. 
 
