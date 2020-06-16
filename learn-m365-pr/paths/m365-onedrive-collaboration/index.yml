@@ -21,8 +21,8 @@ products:
 - m365
 modules:
 - learn-m365.m365-onedrive-collaboration-use
-- learn-m365-onedrive-collaboration-manage-onedrive-migrations-deployment
-- learnm-365-onedrive-collaboration-plan-configure-sharing
-- learn-m365-onedrive-collaboration-manage-onedrive
+- learn-m365.m365-onedrive-collaboration-manage-onedrive-migrations-deployment
+- learn-m365.m365-onedrive-collaboration-plan-configure-sharing
+- learn-m365.m365-onedrive-collaboration-manage-onedrive
 trophy: 
   uid: learn-m365.m365-onedrive-collaboration.trophy
