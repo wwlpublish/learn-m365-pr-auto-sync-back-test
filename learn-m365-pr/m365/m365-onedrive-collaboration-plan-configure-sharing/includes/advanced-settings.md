@@ -12,7 +12,7 @@ To limit who can share with guests in SharePoint and OneDrive, you can limit sha
 
 People in the security group can be given the ability to share with unauthenticated users only or with both unauthenticated and authenticated users.
 
- ![People in a security group can be given the ability to share with unauthenticated users only or with both unauthenticated and authenticated users](../media/manage-security-groups.png)
+ ![People in a security group can be given the ability to share with unauthenticated users only or with both unauthenticated and authenticated users](../media/manage-security-zones.png)
  
 ## Allow guests to share items they don't own
 This setting is turned on by default and guests must have full control permission to share items externally. This allows a guest to share a file with other people once shared with them.
