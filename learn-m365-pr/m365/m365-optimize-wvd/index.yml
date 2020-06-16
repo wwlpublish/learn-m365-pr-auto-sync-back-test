@@ -26,6 +26,7 @@ products:
 - m365
 units:
 - learn-m365.optimize-wvd.introduction
+- learn-m365.optimize-wvd.overview
 - learn-m365.optimize-wvd.provision-fslogix
 - learn-m365.optimize-wvd.migrate-files
 - learn-m365.optimize-wvd.configure-automation
