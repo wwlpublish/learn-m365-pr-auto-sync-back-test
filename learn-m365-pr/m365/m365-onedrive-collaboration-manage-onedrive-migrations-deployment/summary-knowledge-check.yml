@@ -16,52 +16,63 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Which of the following describes the most comprehensive approach to information governance and its benefits?"
+    - content: "What options are available to control access to OneDrive in the SharePoint admin center?"
       choices:
-      - content: "Securing sensitive data and access."
+      - content: "By user account and Active Directory security group."
         isCorrect: false
-        explanation: "This is one benefit of information governance "
-      - content: "Ensuring your data is defensible and retained. "
-        isCorrect: false
-        explanation: "This is one benefit of information governance "
-      - content: "Managing the end-to-end lifecycle of all content across your digital estate. "
+        explanation: "In the SharePoint admin center, you can  restrict access from unmanaged devices and allow access from only specific IP addresses. "
+      - content: "From unmanaged devices or based on network location."
         isCorrect: true
-        explanation: "Unlike manually applied retention labels, you can only auto-apply a single label. Note that you cannot auto-apply labels that are classified as a record."
+        explanation: "In the SharePoint admin center, you can  restrict access from unmanaged devices and allow access from only specific IP addresses. "
+      - content: "By date and time.  "
+        isCorrect: false
+        explanation: "In the SharePoint admin center, you can  restrict access from unmanaged devices and allow access from only specific IP addresses."
 
-    - content: "Which of the following statements is accurate regarding retention labels?"
+    - content: "How should you use the sync app update rings?"
       choices:
-      - content: "Only one retention label can be assigned to content (such as an email or document) at a time."
+      - content: "Put all users in the Insiders ring."
+        isCorrect: false
+        explanation: "We recommend putting early adopters in the Insiders ring and leaving everyone else in the Production ring."
+      - content: "Put all users in the Deferred ring."
+        isCorrect: false
+        explanation: "We recommend putting early adopters in the Insiders ring and leaving everyone else in the Production ring."
+      - content: "Put early adopters in the Insiders ring and leave everyone else in the Production ring."
         isCorrect: true
-        explanation: "Content like an email or document can have only a single retention label assigned to it at a time."
-      - content: "If content has an auto-apply label assigned, users can remove or change the retention label that is assigned. "
-        isCorrect: false
-        explanation: "For retention labels assigned manually by end users, users can remove or change the retention label that is assigned."
-      - content: "If there are multiple rules that assign an auto-apply label and content meets the conditions of multiple rules, the retention label for the most recent (newest) rule is assigned. "
-        isCorrect: false
-        explanation: "If there are multiple rules that assign an auto-apply label and content meets the conditions of multiple rules, the retention label for the oldest rule is assigned."
+        explanation: "It is best to have users in the production ring so the latest security and functionality is deployed."
       
-    - content: "How long does it take retention labels to take effect?"
+    - content: "True or False: You should use silent account configuration to enable the connection to the Windows Notification Service."
       choices:
-      - content: "Once the label policy is synced from the admin center to the locations in the policy."
+      - content: "True"
         isCorrect: false
-        explanation: "First, the label policy needs to be synced from the admin center to the locations in the policy. Then the location may require time to make published retention labels available to end users or time to auto-apply labels to content. How long this takes depends on the location and type of retention label."
-      - content: "As soon as you publish or auto-apply retention labels."
-        isCorrect: false
-        explanation: "When you publish or auto-apply retention labels, they don't take effect immediately. First the label policy needs to be synced from the admin center to the locations in the policy. Then the location may require time to make published retention labels available to end users or time to auto-apply labels to content. How long this takes depends on the location and type of retention label."
-      - content: "It depends on the type of retention label."
+        explanation: "You should use silent account configuration to make it easier for users to set up the OneDrive sync app."
+      - content: "False"
         isCorrect: true
-        explanation: "First, the label policy needs to be synced from the admin center to the locations in the policy. Then the location may require time to make published retention labels available to end users or time to auto-apply labels to content. How long this takes depends on the location and type of retention label."
+        explanation: "You should use silent account configuration to make it easier for users to set up the OneDrive sync app."
       
-    - content: "You opted to retain content using the basic path under Settings.  You selected when it was last modified in Teams conversations. What will happen?"
+    - content: "Which of the following is NOT a migration feature?"
       choices:
-      - content: "The retention period begins when messages were created."
+      - content: "SharePoint Migration Tool (SPMT)"
         isCorrect: false
-        explanation: "This is true for the selection *when it was created* in SharePoint and OneDrive documents. "
-      - content: "The retention period begins based on when the messages were last modified."
+        explanation: "The SharePoint Migration Tool is a migration tool used to migrate files."
+      - content: "Mover"
         isCorrect: false
-        explanation: "This is true for SharePoint and OneDrive documents."
-      - content: "The retention period is based on when messages were sent or received."
+        explanation: "Mover is a cloud migration solution."
+      - content: "Storage Sense"
         isCorrect: true
-        explanation: "Regardless of what you choose the retention period on content in Teams conversations will be based on when messages or conversations were sent or received."
-      
+        explanation: "Storage Sense is a Windows 10 solution for managing storage not migration."
+      - content: "Migration Manager"
+        isCorrect: false
+        explanation: "Migration Manager is a migration solution used to migrate files. "
+
+    - content: "What is Known Folder Move?"
+      choices:
+      - content: "Known Folder Move redirects your Documents, Desktop, and Pictures folder and automatically syncs those files. "
+        isCorrect: true
+        explanation: "Files On-Demand syncs Documents, Desktop, and Pictures and automatically syncs those files into OneDrive."
+      - content: "Known Folder Move copies files from a network share to OneDrive."
+        isCorrect: false
+        explanation: "Known Folder Move does not copy files from a network share to OneDrive."
+      - content: "Known Folder Move moves your OneDrive to a different geo location. "
+        isCorrect: false
+        explanation: "Known Folder Move syncs your Documents, Desktop, and Pictures folder and syncs the files."
  
