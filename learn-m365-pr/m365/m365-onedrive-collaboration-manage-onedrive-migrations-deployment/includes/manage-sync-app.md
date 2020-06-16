@@ -1,7 +1,7 @@
 The OneDrive sync app syncs files between a computer and the cloud. After deploying the OneDrive sync app to your organization, you can deploy different configurations depending on your needs. 
 
 ## OneDrive sync app update process
-The OneDrive sync app is a standalone app that updates itself automatically is separate from other Office updates. OneDrive updates are released in 3 rings:
+The OneDrive sync app is a standalone app that updates itself automatically is separate from other Office updates. OneDrive updates are released in three rings:
 - Insider – every 1-2 weeks
 - Production – every 2-4 weeks
 - Deferred – every 2-3 months
@@ -23,7 +23,7 @@ When managing OneDrive Group Policy objects, review how they work together. Some
     - Prevent changing of the sync location and set a default location of the synced files.
     - Disable personal sync so users cannot sync OneDrive consumer locations on an organization’s computer.
 - Controlling network
-    - Mange upload and download limits or allow automatic bandwidth percentage.
+    - Manage upload and download limits or allow automatic bandwidth percentage.
     - Control sync on metered or battery saving networks.
     - Prevent network traffic before sign-in.
 - Deploying Known Folder Move (KFM) or Files On-Demand

@@ -1,6 +1,6 @@
 Even though you can work with OneDrive files from a web browser, the ideal OneDrive experience comes from the Windows and Mac sync apps and the iOS and Android mobile apps. OneDrive is available for most operating systems and browsers and requires minimal hardware. 
 
-You don't have to manage all your users’ connected devices for them to use OneDrive but securing and managing their interaction with the data does require some management. Start by determining which types of devices—iOS, Android, Windows 10—require access to OneDrive and whether they’re owned by the business or the employee. Some management options are more suitable for devices that the company owns and manages. Regardless of the platform and who owns it, the following management options are available to you:
+You don't have to manage all your users’ connected devices for them to use OneDrive, but securing and managing their interaction with the data does require some management. Start by determining which types of devices—iOS, Android, Windows 10—require access to OneDrive and whether they’re owned by the business or the employee. Some management options are more suitable for devices that the company owns and manages. Regardless of the platform and who owns it, the following management options are available to you:
 - OneDrive admin center
 - Microsoft 365 MDM
 - Intune MDM or MAM
