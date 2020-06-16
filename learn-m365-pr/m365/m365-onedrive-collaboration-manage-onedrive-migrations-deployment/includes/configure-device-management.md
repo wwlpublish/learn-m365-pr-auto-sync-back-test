@@ -27,7 +27,7 @@ Controlling access to OneDrive is not just about devices but also where and how 
     - You can block or limit access to SharePoint and OneDrive content from unmanaged devices (those not hybrid Active Directory-joined or compliant in Intune). 
     - Blocking or limiting access on unmanaged devices relies on Azure AD conditional access policies. 
 
-   ![Control access from unmanaged devices](../media/cunmanaged-devices.png)
+   ![Control access from unmanaged devices](../media/unmanaged-devices.png)
 
 Limiting access allows users to remain productive while addressing the risk of accidental data loss on unmanaged devices. When you limit access, users on unmanaged devices will have browser-only access with no ability to download, print, or sync files. They also won't be able to access content through apps, including the Microsoft Office desktop apps. When you limit access, you can choose to allow or block editing files in the browser.
 
