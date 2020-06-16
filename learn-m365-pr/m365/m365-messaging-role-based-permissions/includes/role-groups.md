@@ -37,18 +37,24 @@ Where:
 - *Roles* specifies the management roles to assign to the role group, using the following syntax "Role1","Role1",..."RoleN". You can see the available roles by using the **Get-ManagementRole** cmdlet.
 - *Members* specifies the members of the role group by using the following syntax: "Member1","Member2",..."MemberN". You can specify users, mail-enabled universal security groups (USGs), or other role groups (security principals).
 - *ManagedBy* specifies the delegates who can modify and remove the role group by using the following syntax: "Delegate1","Delegate2",..."DelegateN".
-	The CustomRecipientWriteScope parameter specifies the existing custom recipient write scope to apply to the role group. You can see the available custom recipient write scopes by using the Get-ManagementScope cmdlet.
-Copy existing role groups
-You can use an existing role group as that starting point for a new role group, and then add or remove roles as necessary, as follows:. 
-1.	Log in to the Exchange admin center (EAC) with your credentials. 
-2.	From the EAC page, navigate to Permissions and select Admin Roles.
-3.	Select the role group you want to copy and then select Copy.
-4.	In the New role group window, provide a name for the new role group.
+- *CustomRecipientWriteScope* specifies the existing custom recipient write scope to apply to the role group. You can see the available custom recipient write scopes by using the Get-ManagementScope cmdlet.
+
+## Copy existing role groups
+You can use an existing role group as that starting point for a new role group, and then add or remove roles as necessary.
+
+### Copy a role group by using the Exchange admin center
+
+1.	Sign into the Exchange admin center (EAC) with your credentials. 
+2.	Navigate to **Permissions**, and select **Admin Roles**.
+3.	Select the role group you want to copy, and then select **Copy**.
+4.	Enter a name for the new role group.
 5.	Review the roles that have been copied to the new role group. Add or remove roles as necessary.
-6.	Review the write scope and change it as necessary.
+6.	Review the write scope, and change it as necessary.
 7.	Review the members that have been copied to the new role group. Add or remove members as necessary.
-8.	Select Save to create the role group.
-Copy exiting role groups using PowerShell
+8.	Select **Save** to create the role group.
+
+### Copy existing role groups using PowerShell
+
 1.	Store the role group that you want to copy in a variable using the following syntax:
 2.	```powershell
 $RoleGroup = Get-RoleGroup "<Existing Role Group Name>"
@@ -83,9 +89,3 @@ To view a role group, use the following syntax:
 ```powershell
 Get-RoleGroup [-Identity "<Role Group Name>"] [-Filter <Filter>]
 ```
-
-## Testing a link
-
-[This tagging uses a ?](https://support.office.com/office-training-center?azure-portal=true)
-
-[This tagging uses a &](https://support.office.com/office-training-center&azure-portal=true)
