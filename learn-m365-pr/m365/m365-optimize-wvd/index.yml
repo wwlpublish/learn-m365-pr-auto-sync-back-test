@@ -11,11 +11,15 @@ metadata:
 title: Optimize Windows Virtual Desktop in Microsoft Azure
 summary: Learn the steps to optimize Windows Virtual Desktop, including how to customize a basic environment to take advantage of new storage, file management, and automated scaling options.  
 abstract: |
-  At the end of this module, you should be able to:
-  - Set up FSLogix profiles to separate user profiles from virtual machines 
-  - Migrate files from local file shares into Azure storage using Azure File Sync 
-  - Configure depth and breadth scaling automation for Windows Virtual Desktop host pools   
-prerequisites: None
+  In this module, you will learn how to:
+  - Create separate roaming profiles for users by using FXLogix
+  - Migrate files and user profiles by using Azure File Sync
+  - Configure automatic scaling of session hosts   
+prerequisites: |
+  - Familiarity with server and client management concepts and tools
+  - Familiarity with Windows virtualization technologies, like Remote Desktop Services
+  - (Optional) Azure subscription owner or global administrator access to a deployed Windows Virtual Desktop environment
+  - (Optional) User credentials for one user accounts in Azure AD
 iconUrl: /learn/achievements/optimize-windows-virtual-desktop.svg
 ratingEnabled: true
 levels:

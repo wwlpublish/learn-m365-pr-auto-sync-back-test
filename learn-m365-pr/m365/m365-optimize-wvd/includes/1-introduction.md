@@ -4,4 +4,17 @@ When you move from Remote Desktop Services to Windows Virtual Desktop, you no lo
 
 This module covers post-deployment steps to optimize Windows Virtual Desktop: using dynamic FSLogix profiles, and synchronizing on-premises or hosted file shares with Azure using Azure File Sync. We’ll also look at how you can reduce cost and optimize user performance by scaling host pools on demand using depth and breadth scaling.
 
-You can download the scritps discussed in this video at [aka.ms/MechWVDScriptSamples](https://aka.ms/MechWVDScriptSamples).
+## Learning objectives
+
+In this module, you will learn how to:
+
+- Create separate roaming profiles for users by using FXLogix
+- Migrate files and user profiles by using Azure File Sync
+- Configure automatic scaling of session hosts
+
+## Prerequisites
+
+- Familiarity with server and client management concepts and tools
+- Familiarity with Windows virtualization technologies, like Remote Desktop Services
+- (Optional) Azure subscription owner or global administrator access to a deployed Windows Virtual Desktop environment
+- (Optional) User credentials for one user accounts in Azure AD
