@@ -1,0 +1,58 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-onedrive-collaboration-use-onedrive.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description:  Discover how your users will interact with Microsoft OneDrive and how OneDrive makes collaboration better. Learn how your users store, sync, and work with files across all devices and how OneDrive within Microsoft 365 allows people to do just that.
+  ms.date: 06/15/2020 
+  ms.date: 06/15/2020
+  author: ericweisberg
+  ms.author: v-erwe
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+ 
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "If you create a new file or upload a file into OneDrive, who will have access by default?"
+      choices:
+      - content: "Just you"
+        isCorrect: true
+        explanation: "When you upload a file into OneDrive (through the web, on a mobile device, or by saving it to your synced OneDrive folder), by default it is only available to you."
+      - content: "Members of your team "
+        isCorrect: false
+        explanation: "OneDrive is for the files you own as an individual, so when you upload a file into OneDrive (through the web, on a mobile device, or by saving it to your synced OneDrive folder), by default it is only available to you."
+      - content: "All of your organization"
+        isCorrect: false
+        explanation: "OneDrive is for the files you own as an individual, so when you upload a file into OneDrive (through the web, on a mobile device, or by saving it to your synced OneDrive folder), by default it is only available to you."
+
+    - content: "Which of the following statements is true?"
+      choices:
+      - content: "Once you share a file in OneDrive, you cannot manage that sharing link."
+        isCorrect: false
+        explanation: "You can view and edit access to any files or folders you have shared within OneDrive."
+      - content: "You need to go to OneDrive on the web to share files."
+        isCorrect: false
+        explanation: "You can share files from multiple places, including mobile apps, File Explorer, and Office apps."
+      - content: "You can view files both shared by you and shared with you in OneDrive."
+        isCorrect: true
+        explanation: "There are options for viewing both files shared by you and shared with you in OneDrive."
+      
+    - content: "What is Files On-Demand?"
+      choices:
+      - content: "It lets you access your files in Microsoft Teams."
+        isCorrect: false
+        explanation: "It’s a feature in the sync app that lets you browse files on your computer without having to download them and use storage space."
+      - content: "It lets you restore previous versions of files."
+        isCorrect: false
+        explanation: "It’s a feature in the sync app that lets you browse files on your computer without having to download them and use storage space."
+      - content: "It lets you browse SharePoint and OneDrive files without downloading them."
+        isCorrect: true
+        explanation: "It’s a feature in the OneDrive sync app that helps you save storage space on your device."
+      - content: "It lets you share OneDrive files from Office on the web."
+        isCorrect: false
+        explanation: "It’s a feature in the sync app that lets you browse files on your computer without having to download them and use storage space."
+ 

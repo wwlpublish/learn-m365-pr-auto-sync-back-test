@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.m365-onedrive-collaboration-use-onedrive.introduction-onedrive
-title: Introduction to OneDrive
+uid: learn-m365.m365-onedrive-collaboration-use-onedrive.coauthoring
+title: Coauthoring documents
 metadata:
-  title: Introduction to OneDrive
+  title: Coauthoring documents
   description: Discover how your users will interact with Microsoft OneDrive and how OneDrive makes collaboration better. Learn how your users store, sync, and work with files across all devices and how OneDrive within Microsoft 365 allows people to do just that.
   ms.date: 06/15/2020
   author: ericweisberg
@@ -12,4 +12,4 @@ metadata:
 
 durationInMinutes: 5
 content: |
-  [!include[](includes/introduction-onedrive.md)]
+  [!include[](includes/coauthoring.md)]
