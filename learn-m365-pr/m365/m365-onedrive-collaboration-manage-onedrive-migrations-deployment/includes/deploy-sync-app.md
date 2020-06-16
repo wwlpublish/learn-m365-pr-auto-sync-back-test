@@ -8,9 +8,9 @@ Depending on the size of your organization, it is common to use different deploy
 Manual installation by the users is normally not the best deployment approach, but it can work when combined with an administrative deployment. Manual deployment can also be used as a method for mobile device deployment while workstations have automated deployments. The manual setup of the sync app can also be started through the sync button in the toolbar in the web UI. To manage the rollout of the sync app to your organization, hide the Sync button on the OneDrive website to prevent your users from downloading the sync app themselves.
 
 Primary desktop deployment mechanisms include:
-- **Microsoft Endpoint Configuration Manager** - You can use Microsoft Endpoint Configuration Manager to deploy the new OneDrive sync app (OneDrive.exe) as well as the mobile apps for iOS and Android. 
-- **Intune** - Like Microsoft Endpoint Configuration Manager, you can use Intune to deploy the mobile apps for iOS, Android, and Windows.
-- **Autopilot** - The OEM can install Windows 10 via hardware registration in Azure. As Windows 10 already includes OneDrive, the app will already be available, and any configurations can be done as part of the Autopilot build. 
+- **Microsoft Endpoint Configuration Manager**. You can use Microsoft Endpoint Configuration Manager to deploy the new OneDrive sync app (OneDrive.exe) as well as the mobile apps for iOS and Android. 
+- **Intune**. Like Microsoft Endpoint Configuration Manager, you can use Intune to deploy the mobile apps for iOS, Android, and Windows.
+- **Autopilot**. The OEM can install Windows 10 via hardware registration in Azure. As Windows 10 already includes OneDrive, the app will already be available, and any configurations can be done as part of the Autopilot build. 
  
 ## Configuration options for deployment
 There will always be management requirements beyond initial deployment. But you should decide in advance on configurations that may be needed first. 

@@ -16,52 +16,52 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Which of the following describes the most comprehensive approach to information governance and its benefits?"
+    - content: Which OneDrive sharing setting lets users freely forward links to people outside the organization?"
       choices:
-      - content: "Securing sensitive data and access."
-        isCorrect: false
-        explanation: "This is one benefit of information governance "
-      - content: "Ensuring your data is defensible and retained. "
-        isCorrect: false
-        explanation: "This is one benefit of information governance "
-      - content: "Managing the end-to-end lifecycle of all content across your digital estate. "
+      - content: "Anyone"
         isCorrect: true
-        explanation: "Unlike manually applied retention labels, you can only auto-apply a single label. Note that you cannot auto-apply labels that are classified as a record."
+        explanation: "The Anyone sharing option allows users to share files to anyone outside of their organization anonymously. This ensures that whoever is intended to receive the file will be able to open it."
+      - content: "New and existing guests"
+        isCorrect: false
+        explanation: "Guests require authentication to access file or content when shared with them."
+      - content: "Existing guests "
+        isCorrect: false
+        explanation: "People in your organization does not allow any external sharing."
 
-    - content: "Which of the following statements is accurate regarding retention labels?"
+    - content: "True or False: If the default sharing link is set to View, users can change it to Edit when they share."
       choices:
-      - content: "Only one retention label can be assigned to content (such as an email or document) at a time."
+      - content: "True"
         isCorrect: true
-        explanation: "Content like an email or document can have only a single retention label assigned to it at a time."
-      - content: "If content has an auto-apply label assigned, users can remove or change the retention label that is assigned. "
+        explanation: "The default sharing link (which can be set at the organization and site level) controls the permission that’s selected by default."
+      - content: "False"
         isCorrect: false
-        explanation: "For retention labels assigned manually by end users, users can remove or change the retention label that is assigned."
-      - content: "If there are multiple rules that assign an auto-apply label and content meets the conditions of multiple rules, the retention label for the most recent (newest) rule is assigned. "
-        isCorrect: false
-        explanation: "If there are multiple rules that assign an auto-apply label and content meets the conditions of multiple rules, the retention label for the oldest rule is assigned."
+        explanation: "The default sharing link (which can be set at the organization and site level) controls the permission that’s selected by default."
       
-    - content: "How long does it take retention labels to take effect?"
+    - content: "How do the external sharing setting for SharePoint relate to the external sharing setting for OneDrive?"
       choices:
-      - content: "Once the label policy is synced from the admin center to the locations in the policy."
-        isCorrect: false
-        explanation: "First, the label policy needs to be synced from the admin center to the locations in the policy. Then the location may require time to make published retention labels available to end users or time to auto-apply labels to content. How long this takes depends on the location and type of retention label."
-      - content: "As soon as you publish or auto-apply retention labels."
-        isCorrect: false
-        explanation: "When you publish or auto-apply retention labels, they don't take effect immediately. First the label policy needs to be synced from the admin center to the locations in the policy. Then the location may require time to make published retention labels available to end users or time to auto-apply labels to content. How long this takes depends on the location and type of retention label."
-      - content: "It depends on the type of retention label."
+      - content: "The setting for OneDrive can be more restrictive than the setting for SharePoint, but not more permissive. "
         isCorrect: true
-        explanation: "First, the label policy needs to be synced from the admin center to the locations in the policy. Then the location may require time to make published retention labels available to end users or time to auto-apply labels to content. How long this takes depends on the location and type of retention label."
+        explanation: "SharePoint cannot be more permissive than OneDrive."
+      - content: "SharePoint admins aren’t allowed to control the external sharing settings for OneDrive."
+        isCorrect: false
+        explanation: "The external sharing setting for OneDrive can be more restrictive than the setting for SharePoint, but not more permissive."
+      - content: "You can limit external sharing by domain in OneDrive, but not SharePoint."
+        isCorrect: false
+        explanation: "The external sharing setting for OneDrive can be more restrictive than the setting for SharePoint, but not more permissive."
       
-    - content: "You opted to retain content using the basic path under Settings.  You selected when it was last modified in Teams conversations. What will happen?"
+    - content: "What options for the default sharing link type can be selected by an administrator?"
       choices:
-      - content: "The retention period begins when messages were created."
+      - content: "Specific people (only the people the user specifies)"
         isCorrect: false
-        explanation: "This is true for the selection *when it was created* in SharePoint and OneDrive documents. "
-      - content: "The retention period begins based on when the messages were last modified."
+        explanation: "This is an available option but not the only option."
+      - content: "Only people in your organization"
         isCorrect: false
-        explanation: "This is true for SharePoint and OneDrive documents."
-      - content: "The retention period is based on when messages were sent or received."
+        explanation: "This is an available option but not the only option. "
+      - content: "Anyone with the link"
+        isCorrect: false
+        explanation: "This is an available option but not the only option."
+      - content: "All of the above"
         isCorrect: true
-        explanation: "Regardless of what you choose the retention period on content in Teams conversations will be based on when messages or conversations were sent or received."
+        explanation: "All link types can be selected by default."
       
  

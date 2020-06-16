@@ -3,10 +3,10 @@ In Microsoft 365, users can coauthor documents in Word, PowerPoint, Excel, and O
 With one shared file, a whole team can work together on the same document and see changes that each participant makes live. Users no longer need to worry about saving multiple versions of files and sending attachments. With coauthoring in Microsoft 365, users will always be working on document that is the most recent version. 
 
 Coauthoring is available for files stored in OneDrive and SharePoint. To coauthor with others, users need:
-- **A supported storage location** - OneDrive, SharePoint, and SharePoint Server are storage locations that enable coauthoring.
-- **Apps that support coauthoring** - OneNote, Word, and PowerPoint on all devices and Office 2010 or later desktop apps. The Excel mobile apps and the latest version of Excel for Office 365 also support coauthoring. 
-- **A coauthoring-friendly document** - Coauthoring is only supported on modern file formats including: .docx (Word), .pptx (PowerPoint), and .xlsx (Excel).
-- **Edit permissions for coauthors** - All coauthors must have permission to access and edit the documents. Users can use the sharing system in OneDrive or directly in Office to grant this access
+- **A supported storage location**. OneDrive, SharePoint, and SharePoint Server are storage locations that enable coauthoring.
+- **Apps that support coauthoring**. OneNote, Word, and PowerPoint on all devices and Office 2010 or later desktop apps. The Excel mobile apps and the latest version of Excel for Office 365 also support coauthoring. 
+- **A coauthoring-friendly document**. Coauthoring is only supported on modern file formats including: .docx (Word), .pptx (PowerPoint), and .xlsx (Excel).
+- **Edit permissions for coauthors**. All coauthors must have permission to access and edit the documents. Users can use the sharing system in OneDrive or directly in Office to grant this access
 
 The easiest way to initiate a coauthoring session is to share a file with others as described earlier. When multiple users have the same file open at the same time, they are now coauthoring. When coauthoring a document, all users can see who else is coauthoring:
  
