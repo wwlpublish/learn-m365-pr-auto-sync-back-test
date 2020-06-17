@@ -9,7 +9,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: m365
 title: Deploy updates for Windows 10 and Microsoft 365 Apps
-summary: You've created an update plan and prepared your organization. Now you'll learn how to deploy an update across your organization.
+summary: Learn how to deploy the latest updates to Windows 10 and Microsoft 365 Apps.
 abstract: | 
   In this module, you will use the servicing process to help your organization deploy an update.
 prerequisites: | 
