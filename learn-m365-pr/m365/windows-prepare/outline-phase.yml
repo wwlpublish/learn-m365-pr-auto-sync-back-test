@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.windows-prepare.outline-prepare-phase
+uid: learn-m365.windows-prepare.outline-phase
 title: Outline the Prepare phase
 metadata:
   title: Outline the Prepare phase
@@ -11,6 +11,6 @@ metadata:
   ms.prod: m365
 durationInMinutes: 6
 content: |
-  [!include[](includes/outline-prepare-phase.md)]
+  [!include[](includes/outline-phase.md)]
 
 

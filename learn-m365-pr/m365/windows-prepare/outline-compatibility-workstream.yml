@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.windows-prepare.prepare-compatibility-workstream
+uid: learn-m365.windows-prepare.outline-compatibility-workstream
 title: Prepare for the compatibility workstream
 metadata:
   title: Prepare for the compatibility workstream
@@ -11,4 +11,4 @@ metadata:
   ms.prod: m365
 durationInMinutes: 12
 content: |
-  [!include[](includes/prepare-compatibility-workstream.md)]
+  [!include[](includes/outline-compatibility-workstream.md)]
