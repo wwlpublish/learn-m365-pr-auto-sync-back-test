@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.windows-plan.plan-infrastructure
+uid: learn-m365.windows-plan.cover-infrastructure
 title: Plan for infrastructure and configuration
 metadata:
   title: Plan for infrastructure and configuration
@@ -11,4 +11,4 @@ metadata:
   ms.prod: learning-m365
 durationInMinutes: 8
 content: |
-  [!include[](includes/plan-infrastructure.md)]
+  [!include[](includes/cover-infrastructure.md)]
