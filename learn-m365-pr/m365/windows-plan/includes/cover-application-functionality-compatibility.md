@@ -41,7 +41,7 @@ You’ll detail who is responsible for assigning an application owner, and who s
 
 ## Outputs
 
-You're now in a position to be able to create the following artefacts that you can use for the next phase in the workstream:
+You're now in a position to be able to create the following artifacts that you can use for the next phase in the workstream:
 
 |Item  |Example format  |Description  |
 |---------|---------|---------|
