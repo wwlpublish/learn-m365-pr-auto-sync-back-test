@@ -42,6 +42,7 @@ units:
 - learn-m365.audit-privacy.retention
 - learn-m365.audit-privacy.destruction
 - learn-m365.audit-privacy.roles-responsibilities
+- learn-m365.audit-privacy.general-data-protection-regulation
 - learn-m365.audit-privacy.summary-knowledge-check
 badge: 
   uid: learn-m365.audit-privacy.badges
