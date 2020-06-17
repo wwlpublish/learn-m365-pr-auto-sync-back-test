@@ -1,17 +1,15 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.optimize-wvd.summary-and-knowledge-check
-title: Summary and knowledge check
+uid: learn-m365.optimize-wvd.knowledge-check
+title: Knowledge check
 metadata:
-  title: Summary and knowledge check
+  title: Knowledge check
   description: Review what you learned about optimizing Windows Virtual Desktop.
-  ms.date: 08/16/2019
+  ms.date: 06/15/2020
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 3
-content: |
-  [!include[](includes/summary-and-knowledge-check.md)]
 quiz:
    title: Check your knowledge
    questions:
@@ -26,14 +24,17 @@ quiz:
      - content: "Install FSLogix software in Windows Virtual Desktop gallery images"
        isCorrect: true
        explanation: "Correct. FSLogix software is preinstalled in the Azure gallery images. If you use your *own* image, you'll need to install the FSLogix software yourself."
-   - content: "OneDrive Known Folder Move can back up and synchronize files located in a user’s Documents, Desktop, Downloads, and Pictures folders."
+   - content: "What service can you use to migrate file or user profile data from an on-premises location to Azure?"
      choices:
-     - content: "True"
+     - content: "Azure Automation"
        isCorrect: false
-       explanation: "Incorrect. OneDrive Known Folder Move can only back up and synchronize files located in a user’s Documents, Desktop, and Pictures folders. The Downloads folder isn't an option."
-     - content: "False"
+       explanation: "Use Azure Automation and Azure Logic Apps to automatically scale Windows Virtual Desktop session hosts."
+     - content: "Azure File Sync"
        isCorrect: true
-       explanation: "Correct. OneDrive Known Folder Move can only back up and synchronize files located in a user’s Documents, Desktop, and Pictures folders. The Downloads folder isn't an option."
+       explanation: "Deploy Azure File Sync to sync on-premises files or user profile data to Azure Storage."
+     - content: "Windows Virtual Desktop"
+       isCorrect: false
+       explanation: "Virtualize desktops and apps by using Windows Virtual Desktop."
    - content: "What's one of the primary reasons to use automated scaling in Windows Virtual Desktop?"
      choices:
      - content: "To increase virtual disk storage when users get close to reaching the limits in a VM."

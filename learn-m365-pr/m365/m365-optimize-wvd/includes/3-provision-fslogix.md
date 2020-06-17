@@ -1,0 +1,118 @@
+To use FSLogix to separate user profiles from the session host virtual machines (VM), we'll need to configure Azure Storage and create an FSLogix profile.   
+
+## Create the storage account
+
+1. Sign in to the [Azure portal](https://portal.azure.com?azure-portal=true). 
+1. Search for **Storage accounts** by using the Azure portal search box.
+1. In **Storage accounts**, select **Add**.
+1. Select or create a resource group to contain your storage resources. 
+1. Enter a unique name for your Storage account. 
+1. Accept the defaults for the rest of the values.
+
+   :::image type="content" source="../media/3-create-storage-account.png" alt-text="Screenshot of the create storage account experience with resource group selected and a storage account name entered.":::
+
+1. Select **Review + create** and then select **Create**.
+1. Wait for the deployment to complete. This may take a minute.
+1. Select **Go to resource**.
+
+## Enable Azure Active Directory authentication for Azure Files
+
+1. In the storage account you created, under **Settings**, select **Configuration**.
+1. Under **Identity-based access for file shares**, enable the **Azure Active Directory Domain Services (AAD DS)** option.
+
+    :::image type="content" source="../media/3-enable-storage-account-aadds.png" alt-text="Screenshot that shows the storage account configuration page with the Azure Active Directory Domain Services (AAD DS) option enabled.":::
+1. Select **Save**.
+
+## Assign roles
+
+You need to assign roles to the AAD DC Administrators group and to your Windows Virtual Desktop users.
+
+### Assign role to AAD DC Administrators
+
+Give the administrators the ability to modify NTFS permissions by assigning an elevated contributor role for the file share.
+
+1. In the storage account you created, select **Access control (IAM)**.
+1. Select **Add** > **Add role assignment**.
+1. For **Role**, select **Storage File Data SMB Share Elevated Contributor**.
+1. Select **AAD DC Administrators**.
+
+    :::image type="content" source="../media/3-add-role-file-data-elevated.png" alt-text="Screenshot that shows the role and AAD DC Administrators selected.":::
+
+1. Select **Save**.
+
+### Assign role to non-administrator Windows Virtual Desktop users
+
+Assign users a contributor role so they have permission to read and write file data in the SMB file share where the user profile virtual disks are stored.
+
+1. Select **Add** > **Add role assignment**.
+1. For **Role**, select **Storage File Data SMB Share Contributor**.
+1. Select each Windows Virtual Desktop user.
+
+    :::image type="content" source="../media/3-add-role-file-data-contributor.png" alt-text="Screenshot that shows the role and Windows Virtual Desktop user selected.":::
+
+1. Select **Save**.
+
+## Create a file share to store the user profile virtual disks
+
+1. In your storage account, in the left navigation, scroll down to **File service**.
+1. Select **File shares** > **File share** to create a new file share.
+1. Enter a **Name**.
+1. Enter a value for **Quota** in Gibibytes (GiB), up to 5120 GiB.
+
+   :::image type="content" source="../media/3-new-file-share.png" alt-text="Screenshot that shows the new file share page with a name and quota entered.":::
+
+1. Click **Create**. 
+
+This file share will use SMB 3.0 protocol with your session hosts. 
+
+## Install FSLogix software for non-gallery images
+
+Any virtual machine (VM) you create by using a gallery image has the FSLogix software preinstalled. So you can skip this section. If you used an image that's not from the gallery, you need to install FSLogix by completing the following steps.
+
+### Get storage account access key
+
+1. In your storage account, under **Settings**, select **Access keys**.
+1. Copy the value from one of the key fields to use it later.
+
+### Get the file share path
+
+1. In your storage account, in the left navigation, scroll down to **File service** and select **File shares**.
+1. Select the file share you created.
+1. Under **Settings**, select **Properties**.
+1. Copy the URL.
+1. Covert it from an HTTP path to an SMB path to use it later.
+
+### Add registry key to VMs
+
+You need to add two registry keys to the host pool VMs for FSLogix.
+
+1. Create a key for the VMs called **Profiles**.  
+1. Within that new key, add a **DWORD** called "Enabled" and set its value to "1."  
+1. Add a **Multi-String value** called "VHDLocations" and add the file share location from Azure Files, in SMB path format.
+1. Open an elevated command prompt.
+1. Run the following commands where you replace placeholder values with the SMB file share path, the storage account access key, and the user's Azure AD User Principal Name (UPN). The UPN would look something like kaicarter@contoso.onmicrosoft.com.
+
+   ```cmd
+   net use Z: [SMB path used in VHDLocations in the registry] [storage access key]
+
+   Icacls Z: /grant [user UPN]:(f)
+   ```
+
+## Create the FSLogix profile
+
+To create the FSLogix profile, the VM can't already have a user profile established for the user.
+
+1. Go to [https://aka.ms/wvdweb](https://aka.ms/wvdweb).
+1. Sign in to a VM that you haven't signed into yet.
+
+The initial sign-in will take a little longer than usual. It's a one-time delay while the process creates the virtual disk file in the background. This file will be used each time you sign in.  
+
+## Verify disk are created
+
+1. Go back to your **Storage Account** in Azure.
+1. Go to the **File Share**. 
+1. You’ll see the new virtual disk. 
+
+   >![Windows Virtual Desktop - new virtual disk in Azure](../media/wvd-files.png)
+
+The next time the user signs in, the VM will connect to their virtual disk. For the user, it will feel like any apps that use %localappdata% are using a locally stored profile.
