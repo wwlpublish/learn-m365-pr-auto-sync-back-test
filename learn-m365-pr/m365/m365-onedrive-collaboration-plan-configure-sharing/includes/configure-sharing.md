@@ -15,7 +15,9 @@ Your OneDrive sharing strategy affects your entire organization. All teams in yo
 Only global and SharePoint admins can change sharing permissions. There are also settings in the Microsoft 365 admin center that control sharing and affect SharePoint and OneDrive. When you change them in one place, the changes will be automatically reflected in other admin centers. If you have multiple admins in your organization, make sure you communicate the changes you're making. 
 
 ## External sharing settings
+
 Administrators determine sharing settings for their users and thus determine the end-user sharing experience as seen through the sharing dialog.
+
  ![Administrators determine sharing settings for their users and thus determine the end-user sharing experience as seen through the sharing dialog](../media/link-settings.png)
 
 Navigate to the admin center sharing page to control your organizations sharing settings.
