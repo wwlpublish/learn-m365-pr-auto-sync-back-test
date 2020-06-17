@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.windows-plan.cover-infrastructure
+title: Plan for infrastructure and configuration
+metadata:
+  title: Plan for infrastructure and configuration
+  description: Plan for your infrastructure and configuration
+  ms.date: 05/20/2020
+  author: IanKensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 8
+content: |
+  [!include[](includes/cover-infrastructure.md)]
