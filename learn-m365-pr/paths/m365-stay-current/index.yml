@@ -1,0 +1,29 @@
+### YamlMime:LearningPath
+uid: learn-m365.m365-stay-current
+metadata:
+  title: Stay current with Windows 10 and Microsoft 365 Apps
+  description: Learn how to effectively roll out updates to Windows 10 and Microsoft 365 Apps. You can deploy updates faster and support your remote workforce by following a three-phase process, Plan > Prepare > Deploy, that leverages tools like Microsoft Endpoint Configuration Manager to manage devices.
+  ms.date: 06/17/2020
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Stay current with Windows 10 and Microsoft 365 Apps
+summary: Learn how to effectively roll out updates to Windows 10 and Microsoft 365 Apps. You can deploy updates faster and support your remote workforce by following a three-phase process, Plan > Prepare > Deploy, that leverages tools like Microsoft Endpoint Configuration Manager to manage devices.
+prerequisites: | 
+  - None
+iconUrl: /learn/achievements/stay-current-with-windows-10.svg
+levels: 
+- intermediate
+roles:
+- administrator
+products: 
+- m365
+- windows
+- office-365
+modules:
+- learn-m365.windows-plan
+- learn-m365.windows-prepare
+- learn-m365.windows-deploy
+trophy: 
+  uid: learn-m365.m365-stay-current.trophy

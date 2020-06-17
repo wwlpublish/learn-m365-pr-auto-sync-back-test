@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="102px" height="102px" viewBox="0 0 102 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Stay current with Windows 10/deploy-updates-in-windows-10</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="94.3396226" height="94.3396226" rx="47.1698113"></rect>
+        <filter x="-2.9%" y="-2.9%" width="106.4%" height="106.4%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="2.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0.5" dy="0.5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0.5" dy="0.5" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.821822822   0 0 0 0 0.831640661   0 0 0 0 0.835737288  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="77.8299825%" y1="11.1997378%" x2="-99.6885927%" y2="253.807911%" id="linearGradient-4">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-5" x="0" y="0" width="94.3396226" height="94.3396226"></rect>
+        <path d="M48.1132075,0.739331515 C74.2770768,0.739331515 95.4870836,21.9493383 95.4870836,48.1132075 C95.4870836,74.2770768 74.2770768,95.4870836 48.1132075,95.4870836 C21.9493383,95.4870836 0.739331515,74.2770768 0.739331515,48.1132075 C0.739331515,21.9493383 21.9493383,0.739331515 48.1132075,0.739331515 Z M48.1132075,4.71698113 C24.1461335,4.71698113 4.71698113,24.1461335 4.71698113,48.1132075 C4.71698113,72.0802816 24.1461335,91.509434 48.1132075,91.509434 C72.0802816,91.509434 91.509434,72.0802816 91.509434,48.1132075 C91.509434,24.1461335 72.0802816,4.71698113 48.1132075,4.71698113 Z" id="path-6"></path>
+        <linearGradient x1="49.9774416%" y1="17.9912184%" x2="49.9774416%" y2="124.588364%" id="linearGradient-8">
+            <stop stop-color="#32D4F5" offset="0%"></stop>
+            <stop stop-color="#31D1F3" offset="47%"></stop>
+            <stop stop-color="#2EC9EB" offset="63%"></stop>
+            <stop stop-color="#29BADE" offset="77%"></stop>
+            <stop stop-color="#22A5CB" offset="89%"></stop>
+            <stop stop-color="#198AB3" offset="100%"></stop>
+            <stop stop-color="#198AB3" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-9" x="0" y="0" width="44" height="33.1803279" rx="1"></rect>
+        <linearGradient x1="49.9995849%" y1="50.000006%" x2="73.502198%" y2="43.947859%" id="linearGradient-11">
+            <stop stop-color="#D9EAFF" offset="0%"></stop>
+            <stop stop-color="#BFDDFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="6.56219815%" y2="50%" id="linearGradient-12">
+            <stop stop-color="#0076D7" offset="0%"></stop>
+            <stop stop-color="#5EA6DE" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-60.0%" y="-85.5%" width="220.0%" height="278.0%" filterUnits="objectBoundingBox" id="filter-13">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="97.5691716%" x2="50%" y2="-5.30956676%" id="linearGradient-14">
+            <stop stop-color="#0078D4" offset="0%"></stop>
+            <stop stop-color="#1380DA" offset="16%"></stop>
+            <stop stop-color="#3C91E5" offset="53%"></stop>
+            <stop stop-color="#559CEC" offset="82%"></stop>
+            <stop stop-color="#5EA0EF" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-85.7%" y="-122.2%" width="271.4%" height="346.2%" filterUnits="objectBoundingBox" id="filter-15">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="97.5691716%" x2="50%" y2="-5.30956676%" id="linearGradient-16">
+            <stop stop-color="#0078D4" offset="0%"></stop>
+            <stop stop-color="#1380DA" offset="16%"></stop>
+            <stop stop-color="#3C91E5" offset="53%"></stop>
+            <stop stop-color="#559CEC" offset="82%"></stop>
+            <stop stop-color="#5EA0EF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Badges" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Stay-current-with-Windows-10" transform="translate(-159.000000, -319.000000)">
+            <g id="Stay-current-with-Windows-10/deploy-updates-in-windows-10" transform="translate(160.000000, 320.000000)">
+                <g id="Badge-Plates/Circle">
+                    <g id="BG" transform="translate(2.830189, 2.830189)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                            <rect stroke="#F2F1F0" stroke-width="2.5" x="-1.25" y="-1.25" width="96.8396226" height="96.8396226" rx="48.4198113"></rect>
+                        </g>
+                        <g id="Colors/Microsoft-365/BG-Solid-Badge" mask="url(#mask-2)">
+                            <g id="Rectangle">
+                                <use fill="#0078D4" xlink:href="#path-5"></use>
+                                <use fill-opacity="0.4" fill="url(#linearGradient-4)" xlink:href="#path-5"></use>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Border" transform="translate(1.886792, 1.886792)">
+                        <mask id="mask-7" fill="white">
+                            <use xlink:href="#path-6"></use>
+                        </mask>
+                        <use id="Boarder" fill="#0078D4" fill-rule="nonzero" xlink:href="#path-6"></use>
+                        <g id="Colors/Microsoft-365/Border" mask="url(#mask-7)" fill="#0076D7">
+                            <g transform="translate(-1.886792, -1.886792)" id="Microsoft-365/Border">
+                                <rect x="0" y="0" width="100" height="100"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="Group-2" transform="translate(28.000000, 13.000000)" fill-rule="nonzero">
+                    <path d="M42.0296585,20.3376585 C41.8136063,20.1522395 41.5326739,20.0603727 41.2488126,20.0823166 C40.9649512,20.1042605 40.7014758,20.2382127 40.5164878,20.4546341 L24.3963902,39.2619512 L29.486439,21.4462439 C29.564503,21.1724354 29.5305607,20.878828 29.3920838,20.6300526 C29.2536069,20.3812772 29.0219466,20.1977265 28.7480976,20.1198049 C28.1784224,19.961649 27.5874007,20.2906319 27.4216585,20.8581463 L22.0150244,39.782439 L16.6083902,20.8581463 C16.4426481,20.2906319 15.8516264,19.961649 15.2819512,20.1198049 C15.0081022,20.1977265 14.7764419,20.3812772 14.637965,20.6300526 C14.499488,20.878828 14.4655458,21.1724354 14.5436098,21.4462439 L19.6336585,39.2619512 L3.51356098,20.4546341 C3.32889463,20.2377068 3.06534217,20.1033816 2.7813052,20.0814241 C2.49726823,20.0594666 2.21620243,20.1516902 2.00039024,20.3376585 C1.78413265,20.5224658 1.65018798,20.7856433 1.62804719,21.0692467 C1.60590641,21.35285 1.69738485,21.6336262 1.88234146,21.8497561 L18.7622439,41.542439 L25.2678049,41.542439 L42.1477073,21.8497561 C42.3329377,21.6337454 42.4245936,21.3529026 42.402446,21.069212 C42.3802984,20.7855213 42.2461681,20.5223056 42.0296585,20.3376585" id="Fill-1113" fill="#E1E4E4"></path>
+                    <path d="M0.551609756,22.2253659 C0.551609756,10.371122 10.1607805,0.76195122 22.0150244,0.76195122 C33.873561,0.76195122 43.478439,10.371122 43.478439,22.2253659 L0.551609756,22.2253659" id="Fill-1118" fill="url(#linearGradient-8)"></path>
+                </g>
+                <g id="Monitor-Window" transform="translate(50.000000, 68.000000) rotate(3.000000) translate(-50.000000, -68.000000) translate(28.000000, 51.000000)">
+                    <g id="Color" transform="translate(-0.000000, 0.000000)">
+                        <mask id="mask-10" fill="white">
+                            <use xlink:href="#path-9"></use>
+                        </mask>
+                        <g id="BG"></g>
+                        <g id="Color-/-.Net" mask="url(#mask-10)" fill="#E4EAEF">
+                            <rect id="Rectangle" x="0" y="0" width="44" height="33.1803279"></rect>
+                        </g>
+                    </g>
+                    <g id="Shades" style="mix-blend-mode: overlay;" fill-rule="nonzero">
+                        <rect id="BG" fill="url(#linearGradient-11)" x="-4.54747351e-13" y="0" width="44" height="33.1803279" rx="1"></rect>
+                        <path d="M1,0 L43,0 C43.5522847,-1.01453063e-16 44,0.44771525 44,1 L44,8 L44,8 L-4.54747351e-13,8 L-4.54747351e-13,1 C-4.54814986e-13,0.44771525 0.44771525,1.01453063e-16 1,0 Z" id="Top" fill="url(#linearGradient-12)"></path>
+                    </g>
+                    <g id="Misc" transform="translate(27.800000, 3.000000)" fill="#4A96D1" fill-rule="nonzero">
+                        <path d="M11.7,0.3 C11.3,-0.1 10.7,-0.1 10.3,0.3 C10.1,0.5 10,0.7 10,1 C10,1.3 10.1,1.5 10.3,1.7 C10.5,1.9 10.7,2 11,2 C11.3,2 11.5,1.9 11.7,1.7 C11.9,1.5 12,1.2 12,1 C12,0.7 11.9,0.5 11.7,0.3 Z" id="Path"></path>
+                        <path d="M6,0 C5.4,0 5,0.5 5,1 C5,1.6 5.4,2 6,2 C6.6,2 7,1.6 7,1 C7,0.5 6.6,0 6,0 Z" id="Path"></path>
+                        <path d="M0.3,0.3 C0.1,0.5 0,0.7 0,1 C0,1.3 0.1,1.5 0.3,1.7 C0.5,1.9 0.7,2 1,2 C1.3,2 1.5,1.9 1.7,1.7 C1.9,1.5 2,1.3 2,1 C2,0.7 1.9,0.5 1.7,0.3 C1.4,-0.1 0.7,-0.1 0.3,0.3 Z" id="Path"></path>
+                    </g>
+                </g>
+                <path d="M59.8348524,81.2621953 C59.2012123,81.2621953 58.6685491,80.729532 58.6685491,80.0958919 L58.6685491,78.2959485 C56.6161381,80.9334121 53.4222624,82.5294251 50.0006058,82.5294251 C44.4750105,82.5294251 39.7860742,78.3978378 39.101996,72.8980951 L39.0257615,72.3406945 L41.3573541,72.3406945 L41.4078476,72.771367 C42.0424762,77.0048434 45.7176143,80.1978826 50.0005145,80.1978826 C53.0419871,80.1978826 55.8804413,78.5504183 57.4516154,75.9654201 L54.5368708,75.9654201 C53.9032307,75.9654201 53.3705675,75.4327569 53.3705675,74.7991168 C53.3705675,74.1654767 53.9032307,73.6328135 54.5368708,73.6328135 L59.8594478,73.6328135 C60.4168483,73.6328135 61,73.9872464 61,74.7991168 L61,80.0958412 C61,80.7304698 60.4683253,81.2621446 59.8346851,81.2621446 L59.8348524,81.2621953 Z M58.6438118,70.7190067 L58.5933183,70.2882582 C57.9586897,66.0547818 54.2835516,62.8617426 50.0006514,62.8617426 C46.9591788,62.8617426 44.1207246,64.5092069 42.5495505,67.0942051 L45.4384426,67.0942051 C46.0720827,67.0942051 46.6047459,67.6268683 46.6047459,68.2605084 C46.6047459,68.8941485 46.0720827,69.4268118 45.4384426,69.4268118 L40.1663033,69.4258233 C39.6851424,69.4000823 39,69.0961276 39,68.2595199 L39.00099,62.9627955 C39.00099,62.3291554 39.5336532,61.7964921 40.1672944,61.7964921 C40.8009345,61.7964921 41.3335977,62.3291554 41.3335977,62.9627955 L41.3335977,64.7627389 C43.3850202,62.1262891 46.5788706,60.5302764 50.0005272,60.5302764 C55.5261224,60.5302764 60.2150568,64.6618634 60.8991372,70.1616062 L60.9753717,70.7190067 L58.6438118,70.7190067 Z" id="Fill-1" fill="#0075D6" transform="translate(50.000000, 71.529851) rotate(3.000000) translate(-50.000000, -71.529851) "></path>
+                <g id="Cloud-Blue" filter="url(#filter-13)" transform="translate(15.000000, 57.500000)" fill="url(#linearGradient-14)">
+                    <path d="M18.6758496,6.63391023 C17.9739537,5.96259638 17.0826502,5.51768986 16.1196991,5.35813566 C15.9888384,2.27725322 13.3620763,-0.117597437 10.2475473,0.00446628345 C7.77510908,-0.0401268814 5.54248347,1.46117633 4.67471717,3.7520495 C2.0515079,4.06822895 0.0606192938,6.24150503 0,8.85507454 C0.118499987,11.8179938 2.63482982,14.1291499 5.63034073,14.0265636 L6.12550932,14.0265636 L15.2446792,14.0265636 L15.4864162,14.0265636 C17.911336,13.9812382 19.8852008,12.0832828 20,9.6866016 C19.991044,8.55332013 19.5172661,7.47210064 18.6873221,6.69080496" id="Fill-1"></path>
+                </g>
+                <g id="Cloud-Blue" filter="url(#filter-15)" transform="translate(65.859561, 71.529851)" fill="url(#linearGradient-16)">
+                    <path d="M13.0730947,4.64373716 C12.5817676,4.17381747 11.9578552,3.8623829 11.2837893,3.75069497 C11.1921868,1.59407725 9.35345341,-0.0823182059 7.1732831,0.00312639842 C5.44257636,-0.028088817 3.87973843,1.02282343 3.27230202,2.62643465 C1.43605553,2.84776026 0.0424335057,4.36905352 0,6.19855218 C0.0829499909,8.27259565 1.84438087,9.89040491 3.94123851,9.81859454 L4.28785653,9.81859454 L10.6712754,9.81859454 L10.8404913,9.81859454 C12.5379352,9.78686676 13.9196406,8.45829799 14,6.78062112 C13.9937308,5.98732409 13.6620863,5.23047045 13.0811255,4.68356347" id="Fill-1"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
