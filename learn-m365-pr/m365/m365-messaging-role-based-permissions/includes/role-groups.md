@@ -56,35 +56,34 @@ You can use an existing role group as that starting point for a new role group, 
 ### Copy existing role groups using PowerShell
 
 1.	Store the role group that you want to copy in a variable using the following syntax:
-2.	```powershell
+```powershell
 $RoleGroup = Get-RoleGroup "<Existing Role Group Name>"
 ```
-3.	Create a new role group using the following syntax:
+
+2.	Create a new role group using the following syntax:
+
 ```powershell
 New-RoleGroup -Name "<Unique Name>" -Roles $RoleGroup.Roles [-Members <Members>] [-ManagedBy <Managers>] [-CustomRecipientWriteScope "<Existing Custom Recipient Write Scope Name>"]
 ```
-	The Members parameter specifies the members of the role group.
-	The ManagedBy parameter specifies the delegates who can modify and remove the role group by using the following syntax: "Delegate1","Delegate2",..."DelegateN". Note that this setting isn't available in the EAC.
-	The CustomRecipientWriteScope parameter specifies the existing custom recipient write scope to apply to the role group.
-Remove a role group
-Use the following procedure:
-1.	Log in to the Exchange admin center (EAC) with your credentials. 
-2.	From the EAC page, navigate to Permissions and select Admin Roles.
-3.	Select the role group you want to remove and then select Delete.
-4.	Verify that you want to remove the selected role group
-5.	Select Yes to the warning.
+   where:
+   - *Members* specifies the members of the role group.
+   - *ManagedBy* specifies the delegates who can modify and remove the role group by using the following syntax: "Delegate1","Delegate2",..."DelegateN". This setting isn't available in the EAC.
+   - *CustomRecipientWriteScope* specifies the existing custom recipient write scope to apply to the role group.
+
+## Remove a role group
+You can remove a role group by using either the Exchange admin center or by running the **Remove-RoleGroup** PowerShell cmdlet. 
+
 When you remove a role group, the management role assignments between the role group and the management roles are deleted. The management roles aren't deleted. You can't remove built-in role groups
-Remove a role group using PowerShell
-To remove a custom role group, use the following syntax:
-```powershell
-Remove-RoleGroup -Identity "<Role Group Name>" [-BypassSecurityGroupManagerCheck]
-```
-View role groups
-You can view either a list of role groups or detailed information about a specific role group that exists in your organization.
-1.	Log in to the Exchange admin center (EAC) with your credentials. 
+
+## View role groups
+You can view a list of role groups or detailed information about a specific role group. You can view the role groups in either the Exchange admin center or by using the **Get-RoleGroup** PowerShell cmdlet.
+
+### View a role group in the Exchange admin center
+1.	Sign in to the Exchange admin center (EAC) with your credentials. 
 2.	From the EAC page, navigate to Permissions and select Admin Roles. All of the role groups in your organization are listed here.
 3.	Select a role group to view the members, assigned roles, and scope that are configured on the role group.
-View role groups using PowerShell
+
+### View a role group by using PowerShell
 To view a role group, use the following syntax:
 ```powershell
 Get-RoleGroup [-Identity "<Role Group Name>"] [-Filter <Filter>]
