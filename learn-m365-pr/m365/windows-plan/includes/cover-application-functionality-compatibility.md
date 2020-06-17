@@ -46,5 +46,4 @@ You're now in a position to be able to create the following artefacts that you c
 |Item  |Example format  |Description  |
 |---------|---------|---------|
 |Compatibility criteria     |Word document|Detail deployment readiness and deployment supportability|
-|Priority application and owner List|-Spreadsheet<br/>-Desktop Analytics (recommended)|List and assign owners to:<br/>- Critical applications<br/>- Important applications<br/>- Not important applications 
-|
+|Priority application and owner List|-Spreadsheet<br/>-Desktop Analytics (recommended)|List and assign owners to:<br/>- Critical applications<br/>- Important applications<br/>- Not important applications|
