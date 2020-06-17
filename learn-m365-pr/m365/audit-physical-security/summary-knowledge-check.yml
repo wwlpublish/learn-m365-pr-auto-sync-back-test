@@ -1,0 +1,79 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.audit-physical-security.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Learn how Microsoft uses Defense-In-Depth to secure our datacenters against unauthorized access, environmental hazards, and other physical threats, as well as how Microsoft implements resilient architecture, business continuity, and disaster recovery to maintain the availability of our services.
+  ms.date: 06/16/2020
+  author: NamrahK
+  ms.author: v-nakhu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 6
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "What kind of datacenter redundancy does Microsoft use to provide availability in the event of a router failure?"
+      choices:
+      - content: "Network redundancy"
+        isCorrect: true
+        explanation: "Correct. Microsoft datacenters use redundant network components and diverse fiber routes to protect against loss of availability if there is a networking component failure."
+      - content: "Locally redundant storage"
+        isCorrect: false
+        explanation: "Microsoft datacenters use locally redundant storage to protect data stored on hard disks."
+      - content: "Geo-redundant storage"
+        isCorrect: false
+        explanation: "Microsoft datacenters use geo-redundant storage to protect data by replicating data to geographically distinct locations."
+      - content: "Uninterruptible power supplies (UPS)"
+        isCorrect: false
+        explanation: "Uninterruptible power supplies help protect against loss of availability in the event of power loss."
+      
+    - content: "What is a TVRA?"
+      choices:
+      - content: "Threat, Vulnerability, and Risk Assessment"
+        isCorrect: true
+        explanation: "Correct. Microsoft uses Threat, Vulnerability, and Risk Assessments to assess risks related to Microsoft datacenters."
+      - content: "Trust, Validation, and Recovery Assessment"
+        isCorrect: false
+        explanation: "While Microsoft datacenters do implement and validate disaster recovery plans, it is not what TVRA stands for."
+      - content: "Tool Verification and Response Activity"
+        isCorrect: false
+        explanation: "While Microsoft datacenters do use automated tools to protect and respond to a variety of threats, it is not what TVRA stands for."
+      
+    - content: "Which personnel at Microsoft have access to Microsoft datacenters?"
+      choices:
+      - content: "All full-time employees"
+        isCorrect: false
+        explanation: "Datacenter access is restricted to personnel with an approved business need and is not granted by default to any personnel at Microsoft."
+      - content: "Service team engineers"
+        isCorrect: false
+        explanation: "Datacenter access is restricted to personnel with an approved business need and is not granted by default to any personnel at Microsoft."
+      - content: "Personnel with an approved business need"
+        isCorrect: true
+        explanation: "Correct. Datacenter access is limited to personnel with an approved business need, are time-limited, and are only renewed if the requestor’s business need remains valid."
+
+    - content: "How does Microsoft verify and document secure disposal of data bearing devices?"
+      choices:
+      - content: "Supply chain integrity"
+        isCorrect: false
+        explanation: "While Microsoft does practice supply chain integrity to maintain the security of its assets, it is not used to verify and document secure disposal of data bearing devices."
+      - content: "Records of destruction"
+        isCorrect: true
+        explanation: "Correct. Procedures follow a secure chain of custody and disposal with detailed, permanent electronic records for each step through to secure disposal."
+      - content: "Asset inventory"
+        isCorrect: false
+        explanation: "While Microsoft datacenters track inventory as part of asset security, it is used to verify secure disposal of data bearing devices."
+
+    - content: "What plan details how datacenters respond to a disruption of normal operations?"
+      choices:
+      - content: "Business continuity plan"
+        isCorrect: true
+        explanation: "Correct. Microsoft datacenters follow detailed business continuity plans to respond to and recover from disruptions of normal operations."
+      - content: "Incident response plan"
+        isCorrect: false
+        explanation: "While Microsoft has a robust incident response plan, this plan is used to respond to security incidents, not disruptions of normal operations."
+      - content: "TVRA"
+        isCorrect: false
+        explanation: "Threat, Vulnerability, and Risk Assessments (TVRA) are used to assess risks associated with Microsoft datacenters. While they may assess the risk associated with potential disruptions, they are not plans for responding to disruptions of normal operations."
