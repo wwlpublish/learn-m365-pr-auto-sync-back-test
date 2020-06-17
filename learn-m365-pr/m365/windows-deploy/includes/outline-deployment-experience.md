@@ -32,7 +32,7 @@ Monitor the deployment process. Monitoring will help identify issues during depl
 
 Desktop Analytics will show deployment progress. For example, your team can use it to see how many devices have been deployed to successfully and how many have issues needing further attention. This information is used to find patterns of issues across devices. For example, problems with disk space availability, or a device that might have failed while downloading the update. Desktop Analytics gives your team a better idea of issues across deployment devices, so they can quickly fix them.
 
-:::image type="content" source="../media/5-deployment status.png" alt-text="Deployment status in Desktop Analytics":::
+:::image type="content" source="../media/5-deployment-status.png" alt-text="Deployment status in Desktop Analytics":::
 
 Desktop Analytics also gives a health status overview of deployment devices. You can review this on an ongoing basis to help better understand and learn how to prevent and resolve issues in the future. For example, the organization will see the percentage of devices with crashes before and after the update. This helps you understand whether the stability of applications has decreased or increased in the newly deployed version of Windows, and helps improve for future deployments.
 
