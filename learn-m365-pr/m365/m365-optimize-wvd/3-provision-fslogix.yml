@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.optimize-wvd.provision-fslogix
-title: Separate user profiles from virtual machines with FSLogix profiles
+title: Create FSLogix profile for Windows Virtual Desktop users
 metadata:
-  title: Separate user profiles from virtual machines with FSLogix profiles
+  title: Create FSLogix profile for Windows Virtual Desktop users
   description: Learn how to provision FSLogix profiles to separate user profiles from virtual machines.
   ms.date: 06/16/2020
   author: lizap

@@ -3,7 +3,7 @@ uid: learn-m365.optimize-wvd.fslogix
 title: Separate user profiles from virtual machines with FSLogix profiles
 metadata:
   title: Separate user profiles from virtual machines with FSLogix profiles
-  description: Learn how to provision FSLogix profiles to separate user profiles from virtual machines.
+  description: Learn about FSLogix and how FSLogix profiles are used with Windows Virtual Desktop.
   ms.date: 06/17/2020
   author: lizap
   ms.author: elizapo
