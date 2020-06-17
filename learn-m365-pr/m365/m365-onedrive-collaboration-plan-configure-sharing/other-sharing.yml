@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.m365-onedrive-collaboration-plan-configure-sharing.advanced-settings
-title: Manage advanced settings for external sharing    
+uid: learn-m365.m365-onedrive-collaboration-plan-configure-sharing.other-sharing
+title: Manage other sharing settings   
 metadata:
-  title: Manage advanced settings for external sharing     
+  title: Manage other sharing settings    
   description: Learn what you as an administrator need to know for planning and configuring external sharing in OneDrive. External sharing is a core collaboration feature of OneDrive and has multiple configuration scenarios available are available to every organization. Learn what different sharing options exist and how they relate to the users sharing experience across applications and devices. 
   ms.date: 06/15/2020
   author: ericweisberg
@@ -12,4 +12,4 @@ metadata:
 
 durationInMinutes: 5
 content: |
-  [!include[](includes/advanced-settings.md)]
+  [!include[](includes/other-sharing.md)]
