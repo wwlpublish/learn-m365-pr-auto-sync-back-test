@@ -16,52 +16,36 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Which of the following describes the most comprehensive approach to information governance and its benefits?"
+    - content: "What happens to a user’s OneDrive after their account is deleted?"
       choices:
-      - content: "Securing sensitive data and access."
+      - content: "A manager needs to delete the OneDrive manually."
         isCorrect: false
-        explanation: "This is one benefit of information governance "
-      - content: "Ensuring your data is defensible and retained. "
-        isCorrect: false
-        explanation: "This is one benefit of information governance "
-      - content: "Managing the end-to-end lifecycle of all content across your digital estate. "
+        explanation: "Files are not moved and are retained for a period of time."
+      - content: "The files are automatically deleted after a period of time designated by the admin."
         isCorrect: true
-        explanation: "Unlike manually applied retention labels, you can only auto-apply a single label. Note that you cannot auto-apply labels that are classified as a record."
+        explanation: "Default retention can be set for up to 10 years (3650 days)."
+      - content: "The files are retained forever by default."
+        isCorrect: false
+        explanation: "Files are not moved and are retained for a period of time."
+      - content: "The files are automatically moved to another location."
+        isCorrect: false
+        explanation: "Files are not moved and are retained for a period of time."
 
-    - content: "Which of the following statements is accurate regarding retention labels?"
+    - content: "True or False: A Data Loss Prevention policy is deployed to identify credit numbers in files on OneDrive. If a credit card number is later added to a file, will the policy be triggered?"
       choices:
-      - content: "Only one retention label can be assigned to content (such as an email or document) at a time."
+      - content: "True"
         isCorrect: true
-        explanation: "Content like an email or document can have only a single retention label assigned to it at a time."
-      - content: "If content has an auto-apply label assigned, users can remove or change the retention label that is assigned. "
+        explanation: "DLP evaluates policy asynchronously. After a file is changed, it will be indexed and DLP policies will trigger."
+      - content: "False "
         isCorrect: false
-        explanation: "For retention labels assigned manually by end users, users can remove or change the retention label that is assigned."
-      - content: "If there are multiple rules that assign an auto-apply label and content meets the conditions of multiple rules, the retention label for the most recent (newest) rule is assigned. "
-        isCorrect: false
-        explanation: "If there are multiple rules that assign an auto-apply label and content meets the conditions of multiple rules, the retention label for the oldest rule is assigned."
-      
-    - content: "How long does it take retention labels to take effect?"
+        explanation: "DLP evaluations occur asynchronously and if a file is changed it will be indexed and evaluated for any DLP policies."
+
+    - content: "True or False: The default storage for a user’s OneDrive is 25 TB."
       choices:
-      - content: "Once the label policy is synced from the admin center to the locations in the policy."
+      - content: "True"
         isCorrect: false
-        explanation: "First, the label policy needs to be synced from the admin center to the locations in the policy. Then the location may require time to make published retention labels available to end users or time to auto-apply labels to content. How long this takes depends on the location and type of retention label."
-      - content: "As soon as you publish or auto-apply retention labels."
-        isCorrect: false
-        explanation: "When you publish or auto-apply retention labels, they don't take effect immediately. First the label policy needs to be synced from the admin center to the locations in the policy. Then the location may require time to make published retention labels available to end users or time to auto-apply labels to content. How long this takes depends on the location and type of retention label."
-      - content: "It depends on the type of retention label."
+        explanation: "For most subscriptions, the default is 1 TB."
+      - content: "False "
         isCorrect: true
-        explanation: "First, the label policy needs to be synced from the admin center to the locations in the policy. Then the location may require time to make published retention labels available to end users or time to auto-apply labels to content. How long this takes depends on the location and type of retention label."
+        explanation: "For most subscriptions, the default is 1 TB."
       
-    - content: "You opted to retain content using the basic path under Settings.  You selected when it was last modified in Teams conversations. What will happen?"
-      choices:
-      - content: "The retention period begins when messages were created."
-        isCorrect: false
-        explanation: "This is true for the selection *when it was created* in SharePoint and OneDrive documents. "
-      - content: "The retention period begins based on when the messages were last modified."
-        isCorrect: false
-        explanation: "This is true for SharePoint and OneDrive documents."
-      - content: "The retention period is based on when messages were sent or received."
-        isCorrect: true
-        explanation: "Regardless of what you choose the retention period on content in Teams conversations will be based on when messages or conversations were sent or received."
-      
- 
