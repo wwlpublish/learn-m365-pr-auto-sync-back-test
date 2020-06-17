@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.windows-deploy.accelerate-deployment-velocity
+title: Accelerate deployment velocity
+metadata:
+  title: Accelerate deployment velocity
+  description: Learn how to deploy faster
+  ms.date: 05/20/2020
+  author: IanKensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: m365
+durationInMinutes: 6
+content: |
+  [!include[](includes/accelerate-deployment-velocity.md)]
