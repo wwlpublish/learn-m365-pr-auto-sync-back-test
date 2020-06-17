@@ -5,6 +5,7 @@ You can specify a list of allowed or blocked domains for external sharing. When 
  ![Limit external sharing by domain](../media/external-sharing-settings.png)
 
 You can also limit domains for an individual OneDrive. 
+
  ![Limit domains for an individual OneDrive](../media/add-domains.png)
  
 ## Allow only users in specific security groups to share externally
