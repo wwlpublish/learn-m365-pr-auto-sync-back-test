@@ -11,7 +11,7 @@ metadata:
 title: Stay current with Windows 10 and Microsoft 365 Apps
 summary: Learn how to effectively roll out updates to Windows 10 and Microsoft 365 Apps. You can deploy updates faster and support your remote workforce by following a three-phase process, Plan > Prepare > Deploy, that leverages tools like Microsoft Endpoint Configuration Manager to manage devices.
 prerequisites: | 
-- None
+  - None
 iconUrl: /learn/achievements/stay-current-with-windows-10.svg
 levels: 
 - intermediate
