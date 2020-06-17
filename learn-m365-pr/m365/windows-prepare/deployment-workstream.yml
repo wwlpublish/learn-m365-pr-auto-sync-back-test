@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.windows-prepare.prepare-deployment-workstream
+uid: learn-m365.windows-prepare.deployment-workstream
 title: Prepare for the deployment workstream
 metadata:
   title: Prepare for the deployment workstream
@@ -11,6 +11,6 @@ metadata:
   ms.prod: m365
 durationInMinutes: 7
 content: |
-  [!include[](includes/prepare-deployment-workstream.md)]
+  [!include[](includes/deployment-workstream.md)]
 
 

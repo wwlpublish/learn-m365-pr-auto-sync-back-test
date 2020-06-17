@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.windows-prepare.prepare-modernization-workstream
+uid: learn-m365.windows-prepare.modernization-workstream
 title: Prepare for the modernization workstream
 metadata:
   title: Prepare for the modernization workstream
@@ -11,4 +11,4 @@ metadata:
   ms.prod: m365
 durationInMinutes: 4
 content: |
-  [!include[](includes/prepare-modernization-workstream.md)]
+  [!include[](includes/modernization-workstream.md)]

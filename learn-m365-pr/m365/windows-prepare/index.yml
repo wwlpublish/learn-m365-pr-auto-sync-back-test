@@ -24,11 +24,11 @@ products:
 - m365
 units:
 - learn-m365.windows-prepare.introduction
-- learn-m365.windows-prepare.outline-prepare-phase
-- learn-m365.windows-prepare.prepare-modernization-workstream
-- learn-m365.windows-prepare.prepare-deployment-workstream
-- learn-m365.windows-prepare.prepare-compatibility-workstream
-- learn-m365.windows-prepare.prepare-capability-workstream
+- learn-m365.windows-prepare.outline-phase
+- learn-m365.windows-prepare.modernization-workstream
+- learn-m365.windows-prepare.deployment-workstream
+- learn-m365.windows-prepare.compatibility-workstream
+- learn-m365.windows-prepare.capability-workstream
 - learn-m365.windows-prepare.move-deployment
 - learn-m365.windows-prepare.summary
 badge:
