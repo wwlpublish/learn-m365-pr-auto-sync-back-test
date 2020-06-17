@@ -14,4 +14,4 @@ The following steps describe the high-level process you use to set up Azure File
 1. *Register the Windows Server computer with the Storage Sync Service*: After you install the sync agent, you're prompted to register the server with the Storage Sync Service.
 1. *Create the server endpoint*: After the server is registered, you add it as an endpoint in the sync group.
 
-After you've completed the deployment steps, your on-premises files will immediately start sync-ing to the Azure File share you've created.
+After you've completed the deployment steps, your on-premises files will immediately start syncing to the Azure File share you've created.

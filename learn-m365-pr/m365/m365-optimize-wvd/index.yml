@@ -12,7 +12,7 @@ title: Optimize Windows Virtual Desktop in Microsoft Azure
 summary: Learn the steps to optimize Windows Virtual Desktop, including how to customize a basic environment to take advantage of new storage, file management, and automated scaling options.  
 abstract: |
   In this module, you will learn how to:
-  - Create separate roaming profiles for users by using FXLogix
+  - Create separate roaming profiles for users by using FSLogix
   - Migrate files and user profiles by using Azure File Sync
   - Configure automatic scaling of session hosts   
 prerequisites: |
@@ -30,7 +30,7 @@ products:
 - m365
 units:
 - learn-m365.optimize-wvd.introduction
-- learn-m365.optimize-wvd.overview
+- learn-m365.optimize-wvd.fslogix
 - learn-m365.optimize-wvd.provision-fslogix
 - learn-m365.optimize-wvd.migrate-files
 - learn-m365.optimize-wvd.configure-automation

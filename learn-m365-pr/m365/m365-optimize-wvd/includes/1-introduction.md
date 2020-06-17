@@ -1,14 +1,12 @@
-When you move from Remote Desktop Services to Windows Virtual Desktop, you no longer have to manage basic infrastructure components like RDSH servers and gateways. Windows Virtual Desktop includes new ways to componentize compute environments, enabling you to separate the operating system layer from the user profile layer. You can then take advantage of Microsoft 365 and Microsoft Azure services for file management options at the user and file share level.
+When you move from Remote Desktop Services to Windows Virtual Desktop, you no longer have to manage basic infrastructure components like Remote Desktop Session Host servers and gateways. Windows Virtual Desktop includes new ways to componentize compute environments, enabling you to separate the operating system layer from the user profile layer. You can then take advantage of Microsoft 365 and Microsoft Azure services for file management options at the user and file share level.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3Jmri]
-
-This module covers post-deployment steps to optimize Windows Virtual Desktop: using dynamic FSLogix profiles, and synchronizing on-premises or hosted file shares with Azure using Azure File Sync. We’ll also look at how you can reduce cost and optimize user performance by scaling host pools on demand using depth and breadth scaling.
+This module covers post-deployment steps to optimize Windows Virtual Desktop like using dynamic FSLogix profiles, and synchronizing on-premises or hosted file shares with Azure using Azure File Sync. We’ll also look at how you can reduce cost and optimize user performance by scaling host pools on demand using depth and breadth scaling.
 
 ## Learning objectives
 
 In this module, you will learn how to:
 
-- Create separate roaming profiles for users by using FXLogix
+- Create separate roaming profiles for users by using FSLogix
 - Migrate files and user profiles by using Azure File Sync
 - Configure automatic scaling of session hosts
 

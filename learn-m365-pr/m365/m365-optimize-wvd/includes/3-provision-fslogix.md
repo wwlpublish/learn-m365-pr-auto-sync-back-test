@@ -17,7 +17,7 @@ To use FSLogix to separate user profiles from the session host virtual machines 
 
 ## Enable Azure Active Directory authentication for Azure Files
 
-1. In the storage account you just created, under **Settings**, select **Configuration**.
+1. In the storage account you created, under **Settings**, select **Configuration**.
 1. Under **Identity-based access for file shares**, enable the **Azure Active Directory Domain Services (AAD DS)** option.
 
     :::image type="content" source="../media/3-enable-storage-account-aadds.png" alt-text="Screenshot that shows the storage account configuration page with the Azure Active Directory Domain Services (AAD DS) option enabled.":::
@@ -31,7 +31,7 @@ You need to assign roles to the AAD DC Administrators group and to your Windows 
 
 Give the administrators the ability to modify NTFS permissions by assigning an elevated contributor role for the file share.
 
-1. In the storage account you just created, select **Access control (IAM)**.
+1. In the storage account you created, select **Access control (IAM)**.
 1. Select **Add** > **Add role assignment**.
 1. For **Role**, select **Storage File Data SMB Share Elevated Contributor**.
 1. Select **AAD DC Administrators**.
@@ -46,7 +46,7 @@ Assign users a contributor role so they have permission to read and write file d
 
 1. Select **Add** > **Add role assignment**.
 1. For **Role**, select **Storage File Data SMB Share Contributor**.
-1. Select each Windows Virtual Desktop users.
+1. Select each Windows Virtual Desktop user.
 
     :::image type="content" source="../media/3-add-role-file-data-contributor.png" alt-text="Screenshot that shows the role and Windows Virtual Desktop user selected.":::
 
@@ -67,7 +67,7 @@ This file share will use SMB 3.0 protocol with your session hosts.
 
 ## Install FSLogix software for non-gallery images
 
-Any virtual machine (VM) you create by using a gallery image has the FSLogix software preinstalled. So you can skip this section. If you used an image that's not from the from the gallery, you need to install FSLogix by completing the following steps.
+Any virtual machine (VM) you create by using a gallery image has the FSLogix software preinstalled. So you can skip this section. If you used an image that's not from the gallery, you need to install FSLogix by completing the following steps.
 
 ### Get storage account access key
 
@@ -90,7 +90,7 @@ You need to add two registry keys to the host pool VMs for FSLogix.
 1. Within that new key, add a **DWORD** called "Enabled" and set its value to "1."  
 1. Add a **Multi-String value** called "VHDLocations" and add the file share location from Azure Files, in SMB path format.
 1. Open an elevated command prompt.
-1. Run the following commands where you replace placeholder values with the SMB file share path, the storage account access key, and the user's Azure AD User Principal Name (UPN) like kaicarter@contoso.onmicrosoft.com.
+1. Run the following commands where you replace placeholder values with the SMB file share path, the storage account access key, and the user's Azure AD User Principal Name (UPN). The UPN would look something like kaicarter@contoso.onmicrosoft.com.
 
    ```cmd
    net use Z: [SMB path used in VHDLocations in the registry] [storage access key]
@@ -103,9 +103,9 @@ You need to add two registry keys to the host pool VMs for FSLogix.
 To create the FSLogix profile, the VM can't already have a user profile established for the user.
 
 1. Go to [https://aka.ms/wvdweb](https://aka.ms/wvdweb).
-1. Sign in to a VM that you haven't signed into yet. 
+1. Sign in to a VM that you haven't signed into yet.
 
-The initial sign-in will take a little longer than usual. This is a one-time delay while the process creates the virtual disk file in the background. This is the file that will be used each time you sign in.  
+The initial sign-in will take a little longer than usual. It's a one-time delay while the process creates the virtual disk file in the background. This file will be used each time you sign in.  
 
 ## Verify disk are created
 

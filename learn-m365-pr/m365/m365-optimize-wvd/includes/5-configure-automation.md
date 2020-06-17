@@ -22,4 +22,4 @@ The following steps describe the high-level process you use to set up the scalin
 1. *Create a role assignment in Windows Virtual Desktop*: Use the Windows Virtual Desktop PowerShell module to create a role assignment so that AzureRunAsConnection can interact with Windows Virtual Desktop.
 1. *Create the Azure Logic App and run schedule*: Download and run the Azure PowerShell script createazurelogicapp.ps1 from the [scaling script repository](https://aka.ms/WVDscaling) in GitHub.
 
-For step by step instructions and to learn more about this tool, review the learn more links at the end of this module.
+For step-by-step instructions and to learn more about this tool, review the links at the end of this module.

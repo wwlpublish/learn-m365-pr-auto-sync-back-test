@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.optimize-wvd.overview
+uid: learn-m365.fslogix-wvd.fslogix
 title: Separate user profiles from virtual machines with FSLogix profiles
 metadata:
   title: Separate user profiles from virtual machines with FSLogix profiles
@@ -11,4 +11,4 @@ metadata:
   ms.prod: learning-m365
 durationInMinutes: 5
 content: |
-  [!include[](includes/2-optimize-overview.md)]
+  [!include[](includes/2-fslogix-overview.md)]
