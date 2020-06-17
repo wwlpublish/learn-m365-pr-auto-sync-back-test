@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.windows-plan.identify-roles-responsibilities
+title: Identify the roles and responsibilities for your organization
+metadata:
+  title: Identify the roles and responsibilities for your organization.
+  description: Learn how to identify the roles and responsibilities for your organization.
+  ms.date: 05/20/2020
+  author: IanKensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 6
+content: |
+  [!include[](includes/identify-roles-responsibilities.md)]
+
+
