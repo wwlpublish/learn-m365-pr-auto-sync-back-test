@@ -6,7 +6,7 @@ If you’re already using FSLogix in your on-premises implementation of Remote D
 
 ## Migrate files by using Azure File Sync
 
-The following steps describe the high-level process you use to set up Azure File Sync. These steps are covered in the Microsoft Learn module: *Extend your on-premises file share capacity using Azure File Sync*.
+The following steps describe the high-level process you use to set up Azure File Sync. 
 
 1. *Evaluate your on-premises system*:  Run the evaluation cmdlet on your on-premises server to check whether your OS and file system are supported. Azure File Sync supports Windows Server 2012 R2 or later.
 1. *Create Azure resources*: You need a storage account to contain a file share, a Storage Sync Service, and a sync group.
@@ -15,3 +15,5 @@ The following steps describe the high-level process you use to set up Azure File
 1. *Create the server endpoint*: After the server is registered, you add it as an endpoint in the sync group.
 
 After you've completed the deployment steps, your on-premises files will immediately start syncing to the Azure File share you've created.
+
+For step-by-step instructions and to learn more about Azure File Sync, review the links at the end of this module.
