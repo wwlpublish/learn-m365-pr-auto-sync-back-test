@@ -56,7 +56,7 @@ Finally, you can begin to carry out the work needed to ensure your infrastructur
 
 ## Outputs
 
-You will now be able to create the following updates artefacts that you can use for the next phase in the workstream:
+You will now be able to create the following updates artifacts that you can use for the next phase in the workstream:
 
 
 |Item  |Example format  |Description  |
