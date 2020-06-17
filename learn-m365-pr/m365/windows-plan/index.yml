@@ -29,8 +29,8 @@ units:
 - learn-m365.windows-plan.review-benefits-stay-current
 - learn-m365.windows-plan.assess-applications
 - learn-m365.windows-plan.identify-roles-responsibilities
-- learn-m365.windows-plan.plan-application-functionality-compatibility
-- learn-m365.windows-plan.plan-infrastructure
+- learn-m365.windows-plan.cover-application-functionality-compatibility
+- learn-m365.windows-plan.cover-infrastructure
 - learn-m365.windows-plan.modernize-production-environment
 - learn-m365.windows-plan.summary
 badge:
