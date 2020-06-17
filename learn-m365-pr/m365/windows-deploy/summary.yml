@@ -1,0 +1,85 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.windows-deploy.summary
+title: Summary
+metadata:
+  title: Summary
+  description: Summary
+  ms.date: 05/20/2020
+  author: IanKensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: m365
+durationInMinutes: 6
+content: |
+  [!include[](includes/summary.md)]
+quiz:
+  title: Check your knowledge
+  questions:
+  - content: Which of these is a task for broad deployment?
+    choices:
+    - content: Obtain recommendations for improvements.
+      isCorrect: True
+      explanation: This will help Woodgrove improve broad deployment in future.
+    - content: Determine broad deployment readiness.
+      isCorrect: False
+      explanation: You do this during pilot deployment.
+    - content: Troubleshoot critical applications.
+      isCorrect: False
+      explanation: This isn’t a broad deployment task. Critical applications should be validated ahead of broad deployment.
+  - content: During pilot deployment, who is responsible for implementing baseline updates?
+    choices:
+    - content: Process manager
+      isCorrect: False
+      explanation: The process manager is informed of these.
+    - content: Operations
+      isCorrect: False
+      explanation: Operations aren’t involved in this.
+    - content: End-user computing
+      isCorrect: True
+      explanation: End-user computing must implement the baseline updates.
+  - content: How many deployment rings should Woodgrove choose?
+    choices:
+    - content: There's a limit of two deployment rings. Woodgrove has to ensure it doesn’t have anymore.
+      isCorrect: False
+      explanation: There's no limit on deployment rings. Woodgrove can decide how many deployment rings it wants based on its needs.
+    - content: There's no limit on deployment rings. Woodgrove can choose any number of deployment rings it needs.
+      isCorrect: True
+      explanation: For example, Woodgrove might decide to create deployment rings based on the geographic locations of its offices, or it could create them based on how critical devices are.
+    - content: There is a limit of three deployment rings. Woodgrove has to ensure it doesn’t have anymore.
+      isCorrect: False
+      explanation: There's no limit on deployment rings. Woodgrove can decide how many deployment rings it wants based on its needs.
+  - content: What should you do to help support communications about the update?
+    choices:
+    - content: Point to resources and places where users can find information and support for the update.
+      isCorrect: True
+      explanation: Create or collect resources that people can use for support and to learn more about the update.
+    - content: Point to the most technically detailed documentation available, so users can support themselves.
+      isCorrect: False
+      explanation: This would be unnecessary and difficult to benefit from, for many regular users.
+    - content: Point to the artifacts used during the deployment process so users can support themselves. 
+      isCorrect: False
+      explanation: Users outside the process shouldn’t be exposed to artifacts used for the update’s deployment process.
+  - content: What's the best tool to accelerate deployment with devices on a remote site with internet connectivity?
+    choices:
+    - content: Windows Update for Business
+      isCorrect: False
+      explanation: You should use Delivery Optimization. Delivery Optimization is designed to accelerate content delivery for your devices.
+    - content: Delivery Optimization
+      isCorrect: True
+      explanation: You can use Delivery Optimization to accelerate content delivery for your devices. Delivery Optimization is a cloud-managed solution. Access to Delivery Optimization cloud services is a requirement.
+    - content: Microsoft Connected Cache
+      isCorrect: False
+      explanation: You should use Delivery Optimization. Delivery Optimization is designed to accelerate content delivery for your devices
+  - content: How can Woodgrove improve the process for the next development cycle?
+    choices:
+    - content: Make a note of issues across workstreams and investigate how they can be resolved or improved.
+      isCorrect: True
+      explanation: Woodgrove can map tools, resources, and solutions against the issues identified during the process. This will help the organization to minimize cost, effort, and the time involved when deploying updates.
+    - content: Make a note of issues across devices and investigate how they can be resolved.
+      isCorrect: False
+      explanation: Woodgrove shouldn’t only look at devices.
+    - content: Make a note of the issues across applications and investigate how they can be resolved.
+      isCorrect: False
+      explanation: Woodgrove shouldn’t only look at its applications.
+
+
