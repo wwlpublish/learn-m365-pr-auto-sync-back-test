@@ -19,11 +19,11 @@ Once labels are migrated you will see the same labels in Azure information Prote
 
 The image below shows the labels in Azure Information Protection.
 
-![labels in Azure Information Protection](../media/sens-label-aip.png)
+![labels in Azure Information Protection](../media/sensitivity-label-aip.png)
 
 The image below slows the successfully migrated labels in the Microsoft 365 compliance center.
 
-![Successfully migrated labels in the Microsoft 365 compliance center](../media/sens-label-compliance-center.png)
+![Successfully migrated labels in the Microsoft 365 compliance center](../media/sensitivity-label-compliance-center.png)
 
 Here is an image of the service architecture **before** unified labeling activation. When the “Get policy” action is executed from the classic client, the source of the labels is the Azure Information Protection store.
  
