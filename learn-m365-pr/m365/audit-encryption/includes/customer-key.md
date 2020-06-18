@@ -13,7 +13,7 @@ The benefits of using Customer Key include:
 
 ![Two flow diagrams depicting the Microsoft Customer Key hierarchy. The diagram to the left depicts the key hierarchy for Exchange Online, which shows how two Customer root RSA keys and one equivalent AES-256 availability key are used to protect the Data Encryption Policy Key, which in turn protects the Mailbox Key used to encrypt mailboxes in Exchange Online. The diagram to the right depicts the Customer Key hierarchy for SharePoint Online, OneDrive for Business, and Microsoft Teams files, which shares the same root and availability key configuration but uses these keys to protect a Tenant Intermediate Key, which in turn protects a Site Encryption Key, which is used to protect File Chunk Encryption Keys for encrypting customer data.](../media/customer-key.png)
 
-## Availability Key
+## Availability key
 
 For customers who use the Customer Key feature, Microsoft 365 provides data recovery capabilities using availability keys. The primary purpose of the availability key is to provide recovery capability from the unanticipated loss of customer managed root keys, including key loss from mismanagement or malicious action. If customers lose control of their root keys, Microsoft Support can support the process of recovery using the availability key.
 
