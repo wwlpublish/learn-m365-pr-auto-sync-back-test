@@ -1,0 +1,39 @@
+### YamlMime:Module
+uid: learn-m365.audit-architecture
+metadata:
+  title: Understand Microsoft 365 cloud architecture
+  description: Learn how the architecture of Microsoft 365 implements security and privacy features to protect customers who use Microsoft 365 multi-tenant services.
+  ms.date: 06/18/2020
+  author: NamrahK
+  ms.author: v-nakhu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Understand Microsoft 365 cloud architecture
+summary: Learn how the architecture of Microsoft 365 implements security and privacy features to protect customers who use Microsoft 365 multi-tenant services.
+abstract: |
+ Upon completion of this module, you should be able to:
+ - Describe the high-level architecture of Microsoft 365 services and dependencies.
+ - List the security principles built into Microsoft 365 architecture.
+ - Explain how Microsoft 365 implements network, service, and tenant isolation.
+ - Describe how Microsoft 365 maintains service, data, and network resiliency.
+ - Explain how Microsoft 365 performs architecture validation to verify the security posture of Microsoft 365 services.
+
+prerequisites: None
+iconUrl: http://via.placeholder.com/120x120
+ratingEnabled: false
+levels:
+- beginner
+roles:
+- technology-manager
+- solution-architect
+products:
+- m365
+units:
+- learn-m365.audit-architecture.introduction
+- learn-m365.audit-architecture.security-principles
+- learn-m365.audit-architecture.understand-isolation
+- learn-m365.audit-architecture.resiliency
+- learn-m365.audit-architecture.architecture-validation
+- learn-m365.audit-architecture.summary-knowledge-check
+badge: 
+  uid: learn-m365.audit-architecture.badges
