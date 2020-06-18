@@ -1,5 +1,5 @@
 ### YamlMime:Module
-uid: learn-m365.m365-onedrive-collaboration-manage-onedrive
+uid: learn-m365.m365-onedrive-collaboration-manage
 metadata:
   title: Manage OneDrive
   description:  The management of OneDrive is ongoing after your rollout. Learn how to view reports of usage and activity within OneDrive to better understand what is happening in your organization and how to audit activities that occur. Learn what you can do to further protect files in OneDrive and also ensure they are retained and available after a user leaves the organization. 
@@ -22,7 +22,7 @@ prerequisites: |
    - Basic understanding of Microsoft 365
    - Understanding of the different types of OneDrive services
 
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/generic-badge.svg
 ratingEnabled: true
 levels:
 - intermediate
@@ -32,11 +32,11 @@ products:
 - m365
 - office-365
 units:
-- learn-m365.m365-onedrive-collaboration-manage-onedrive.manage-storage-retention
-- learn-m365.m365-onedrive-collaboration-manage-onedrive.secure-onedrive
-- learn-m365.m365-onedrive-collaboration-manage-onedrive.audit-onedrive
-- learn-m365.m365-onedrive-collaboration-manage-onedrive.use-reports
-- learn-m365.m365-onedrive-collaboration-manage-onedrive.summary-knowledge-check
+- learn-m365.m365-onedrive-collaboration-manage.manage-storage-retention
+- learn-m365.m365-onedrive-collaboration-manage.secure-onedrive
+- learn-m365.m365-onedrive-collaboration-manage.audit-onedrive
+- learn-m365.m365-onedrive-collaboration-manage.use-reports
+- learn-m365.m365-onedrive-collaboration-manage.summary-knowledge-check
 
 badge: 
-  uid: learn-m365.onedrive-collaboration-manage-onedrive.badges
+  uid: learn-m365.onedrive-collaboration-manage.badges

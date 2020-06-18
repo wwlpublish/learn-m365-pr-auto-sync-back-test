@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.m365-onedrive-collaboration-manage-onedrive.audit-onedrive
-title: Audit OneDrive
+uid: learn-m365.m365-onedrive-collaboration-manage.manage-storage-retention
+title: Manage OneDrive storage and retention      
 metadata:
-  title: Audit OneDrive
+  title: Manage OneDrive storage and retention       
   description: The management of OneDrive is ongoing after your rollout. Learn how to view reports of usage and activity within OneDrive to better understand what is happening in your organization and how to audit activities that occur. Learn what you can do to further protect files in OneDrive and also ensure they are retained and available after a user leaves the organization. 
   ms.date: 06/15/2020
   author: ericweisberg
@@ -10,6 +10,6 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 
-durationInMinutes: 5
+durationInMinutes: 6
 content: |
-  [!include[](includes/audit-onedrive.md)]
+  [!include[](includes/manage-storage-retention.md)]
