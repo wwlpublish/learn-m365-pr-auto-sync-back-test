@@ -5,5 +5,5 @@ By the end of this module, you'll be able to do the following:
 - Explain role groups
 - Explain admin roles
 - Manage user roles
-- Explain Role-based access control (RBAC)
+- Explain role-based access control (RBAC)
 - Describe RBAC for eDiscovery

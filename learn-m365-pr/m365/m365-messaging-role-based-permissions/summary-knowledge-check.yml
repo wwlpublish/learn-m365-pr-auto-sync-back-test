@@ -15,39 +15,38 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Question here"
+    - content: "Which user role lets a user edit their address information in the global address list (GAL)?"
       choices:
-      - content: "Choice 1"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+      - content: "MyContactInformation"
         isCorrect: true
-        explanation: "explanation"
+        explanation: "Yes, the MyContactInformation role lets a user edit their address information."
+      - content: "MyAddressInformation"
+        isCorrect: false
+        explanation: "No, this isn't a role in Exchange Online. The MyContactInformation role lets a user edit their address information."
+      - content: "MyPersonalInformation"
+        isCorrect: false
+        explanation: "No, this isn't a role in Exchange Online. The MyContactInformation role lets a user edit their address information."
 
-    - content: "Question here"
+    - content: "Which of the following cmdlets lets you view your current role groups?"
       choices:
-      - content: "Choice 1"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+      - content: "Get-RoleGroup"
         isCorrect: true
-        explanation: "explanation"
+        explanation: "Yes, this cmdlet displays the role groups."
+      - content: "View-RoleGroup"
+        isCorrect: false
+        explanation: "No, the GetRoleGroup cmdlet displays the role groups."
+      - content: "Display-RoleGroup"
+        isCorrect: false
+        explanation: "No, the GetRoleGroup cmdlet displays the role groups."
       
-    - content: "Question here"
+    - content: "What is the name of the eDiscovery-related role in the Security & Compliance center?"
       choices:
-      - content: "Choice 1"
+      - content: "eDiscoveryManagement"
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+        explanation: "No, the correct role is eDiscoveryManager."
+      - content: "eDiscoveryManager"
         isCorrect: true
-        explanation: "explanation"
-      
+        explanation: "Yes, this is the correct role."
+      - content: "eDiscoveryAdministrator"
+        isCorrect: false
+        explanation: "No, the correct role is eDiscoveryManager."
