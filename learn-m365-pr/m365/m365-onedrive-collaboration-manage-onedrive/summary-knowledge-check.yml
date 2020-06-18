@@ -31,7 +31,7 @@ quiz:
         isCorrect: false
         explanation: "Files are not moved and are retained for a period of time."
 
-    - content: "True or False: A Data Loss Prevention policy is deployed to identify credit numbers in files on OneDrive. If a credit card number is later added to a file, will the policy be triggered?"
+    - content: "True or False: When a Data Loss Prevention policy is deployed to identify credit numbers in files on OneDrive, if a credit card number is later added to a file, will the policy be triggered."
       choices:
       - content: "True"
         isCorrect: true
