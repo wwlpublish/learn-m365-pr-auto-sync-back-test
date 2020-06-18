@@ -1,0 +1,37 @@
+### YamlMime:LearningPath
+uid: learn-m365.audit-safeguard-customer-data
+metadata:
+  title: Learn how Microsoft safeguards customer data
+  description: This Learning Path is designed for the roles in audit, compliance, risk, and legal roles who seek an overall understanding of Microsoft 365’s fundamental security and privacy practices to safeguard customer data.
+  ms.date: 06/18/2020
+  author: NamrahK
+  ms.author: v-nakhu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Learn how Microsoft safeguards customer data
+summary: This Learning Path is designed for the roles in audit, compliance, risk, and legal roles who seek an overall understanding of Microsoft 365’s fundamental security and privacy practices to safeguard customer data.
+prerequisites: None
+iconUrl: http://via.placeholder.com/120x120
+levels: 
+- beginner
+roles:
+- technology-manager
+- solution-architect
+products: 
+- m365
+modules:
+- learn-m365.audit-incident-management
+- learn-m365.audit-identity-access-management
+- learn-m365.audit-security-development-operation
+- learn-m365.audit-vulnerability-management
+- learn-m365.audit-resiliency-continuity
+- learn-m365.audit-logging-monitoring
+- learn-m365.audit-subprocessor-management
+- learn-m365.audit-privacy
+- learn-m365.audit-encryption
+- learn-m365.audit-governance
+- learn-m365.audit-risk-management
+- learn-m365.audit-architecture
+- learn-m365.audit-physical-security
+trophy: 
+  uid: learn-m365.audit-safeguard-customer-data.trophy
