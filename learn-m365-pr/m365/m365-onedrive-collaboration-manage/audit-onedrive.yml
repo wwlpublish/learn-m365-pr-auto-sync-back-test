@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.m365-onedrive-collaboration-manage-onedrive.audit-onedrive
+uid: learn-m365.m365-onedrive-collaboration-manage.audit-onedrive
 title: Audit OneDrive
 metadata:
   title: Audit OneDrive
@@ -10,6 +10,6 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 
-durationInMinutes: 5
+durationInMinutes: 4
 content: |
   [!include[](includes/audit-onedrive.md)]

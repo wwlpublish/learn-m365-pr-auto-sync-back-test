@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.m365-onedrive-collaboration-manage-onedrive.manage-storage-retention
+uid: learn-m365.m365-onedrive-collaboration-manage.manage-storage-retention
 title: Manage OneDrive storage and retention      
 metadata:
   title: Manage OneDrive storage and retention       
@@ -10,6 +10,6 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 
-durationInMinutes: 5
+durationInMinutes: 6
 content: |
   [!include[](includes/manage-storage-retention.md)]

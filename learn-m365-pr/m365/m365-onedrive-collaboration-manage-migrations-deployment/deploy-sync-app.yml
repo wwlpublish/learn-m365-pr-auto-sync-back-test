@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.m365-onedrive-collaboration-manage-onedrive-migrations-deployment.deploy-sync-app
+uid: learn-m365.m365-onedrive-collaboration-manage-migrations-deployment.deploy-sync-app
 title: Deploy the OneDrive sync app     
 metadata:
   title: Deploy the OneDrive sync app     
@@ -10,6 +10,6 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 
-durationInMinutes: 5
+durationInMinutes: 9
 content: |
   [!include[](includes/deploy-sync-app.md)]

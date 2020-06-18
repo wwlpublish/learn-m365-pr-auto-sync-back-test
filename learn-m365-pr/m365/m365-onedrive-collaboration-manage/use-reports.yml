@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.m365-onedrive-collaboration-manage-onedrive.use-reports
+uid: learn-m365.m365-onedrive-collaboration-manage.use-reports
 title: Use OneDrive reports
 metadata:
   title: Use OneDrive reports
@@ -10,6 +10,6 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 
-durationInMinutes: 5
+durationInMinutes: 4
 content: |
   [!include[](includes/use-reports.md)]

@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.m365-onedrive-collaboration-manage-onedrive-migrations-deployment.migrate-content
+uid: learn-m365.m365-onedrive-collaboration-manage-migrations-deployment.migrate-content
 title: Migrate content to OneDrive
 metadata:
   title: Migrate content to OneDrive
@@ -10,6 +10,6 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 
-durationInMinutes: 5
+durationInMinutes: 8
 content: |
   [!include[](includes/migrate-content.md)]
