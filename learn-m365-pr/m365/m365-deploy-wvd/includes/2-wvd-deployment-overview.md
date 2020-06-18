@@ -6,10 +6,10 @@ Before we walk through the deployment process, let's review some key terms and d
 - *Host pool* - A host pool is a collection of Azure virtual machines (VMs) that act as session hosts for Windows Virtual Desktop. 
   - *Pooled* - You can configure a *pooled* host pool where several users sign in and share a VM. Typically, none of those users would be a local administrator on the pooled VM. With pooled, you can use one of the recommended images that include Windows 10 Enterprise multi-session. This OS is exclusive to Windows Virtual Desktop.
   - *Personal* - A *personal* host pool is where each user has their own dedicated VM. Those users would typically be a local administrator for the VM. So they could install or uninstall apps without impacting other users.
-- *Application groups* - An application group is a logical grouping of applications installed on session hosts in the host pool. An application group can be one of two types:
+- *Application groups* - An application group is a mechanism for grouping remote resources and assigning them to users.. An application group can be one of two types:
 
   - *RemoteApp*, where users access the applications you individually publish to the application group. You can create multiple RemoteApp app groups to accommodate different user scenarios. Use RemoteApp to virtualize an app that runs on a legacy OS or one that needs secured access to corporate resources.
-  - *Desktop*, where users access the full desktop. By default, the group **Desktop Application Group** is automatically created when you create a host pool.
+  - *Remote Desktop*, where users access the full desktop. By default, the group **Desktop Application Group** is automatically created when you create a host pool.
   
 - Load-balancing options - 
 
@@ -18,11 +18,11 @@ Before we walk through the deployment process, let's review some key terms and d
 
 ## Configure virtual machines for host pool
 
-When you create a Windows Virtual Desktop host pool, you can choose to create new VMs and register them to the new host pool. If you've already created VMs you want to use with the host pool, you can register them to the host pool after you create it.
+When you create a Windows Virtual Desktop host pool, you can choose to create new VMs or register existing VMs to a host pool.
 
 ### Number of VMs
 
-You can create up to 159 VMs when you first create your host pool. Each VM setup process creates four objects in your resource group plus some additional Azure Resource Manager objects. So you can quickly reach the 800 Azure resources per deployment limit. You can add more VMs after you finish creating your host pool. Check the Azure VM and API limits for your resource group and subscription.
+You can create up to 159 VMs when you first create your host pool. Each ARM deployment creates four objects per VM, that can be seen in your resource group plus some additional Azure Resource Manager objects. So you can quickly reach the 800 Azure resources per deployment limit. You can add more VMs after you finish creating your host pool. Check the Azure VM and API limits for your resource group and subscription.
 
 ### VM sizing
 
@@ -59,7 +59,7 @@ You'll need to specify an Administrator account so the provisioning process can 
 
 ## Assign application groups
 
-You can assign a user or group to both a desktop application group and a RemoteApp application group in the same host pool. However, users can only launch one type of application group per session. 
+You can assign a user or group to both a remote desktop application group and a RemoteApp application group in the same host pool. However, users can only launch one type of application group per session. 
 
 If a user or group is assigned to multiple RemoteApp application groups within the same host pool, they'll see all the applications published to those application groups.
 
@@ -71,6 +71,7 @@ You can access a Windows Virtual Desktop workspace from either a web browser or 
 - Android
 - macOS
 - iOS
+- Linux
 
 To learn more about these clients and what operating system versions they support, see the links available at the end of this module.
 
