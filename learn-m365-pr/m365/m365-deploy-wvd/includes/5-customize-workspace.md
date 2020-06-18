@@ -37,7 +37,7 @@ To complete the exercise, you'll need the credentials for the user account that 
 In the previous units, we used the browser to connect to the Windows Virtual Desktop workspace. Now we'll install and run the Windows Virtual Desktop client directly from your device.
 
 1. [Download the Windows Virtual Desktop Client](https://aka.ms/wvd/clients/windows) and install it.
-1. Launch the Windows Virtual Desktop Client Desktop app.
+1. Launch the Windows Virtual Desktop client  app.
 
    :::image type="content" source="../media/5-wvd-app-get-started.png" alt-text="Screenshot of the remote desktop window with the subscribe with URL button.":::
 

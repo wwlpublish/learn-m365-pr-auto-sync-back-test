@@ -19,5 +19,6 @@ Other resources:
 
 - [Azure subscription and service limits, quotas, and constraints](https://docs.microsoft.com/azure/azure-resource-manager/management/azure-subscription-service-limits)
 - [Virtual machine sizing guidelines](https://docs.microsoft.com/windows-server/remote/remote-desktop-services/virtual-machine-recs?context=/azure/virtual-desktop/context/context)
+- [Set up email discovery to subscribe to your RDS feed](https://docs.microsoft.com/windows-server/remote/remote-desktop-services/rds-email-discovery)
 - [Customize Remote Desktop Protocol properties for a host pool](https://docs.microsoft.com/azure/virtual-desktop/customize-rdp-properties)
 - [Use Azure Firewall to protect Window Virtual Desktop deployments](https://docs.microsoft.com/azure/firewall/protect-windows-virtual-desktop)
