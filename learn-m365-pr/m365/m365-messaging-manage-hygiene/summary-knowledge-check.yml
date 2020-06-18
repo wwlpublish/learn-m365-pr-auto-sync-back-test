@@ -4,7 +4,7 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Learn how to plan, implement, and configure policies to protect your organization from malware, spam, and phishing.
-  ms.date: 05/01/2020
+  ms.date: 06/18/2020
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
@@ -15,39 +15,71 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Question here"
+    - content: "Which of the following threat protection features require an ATP subscription?"
       choices:
-      - content: "Choice 1"
+      - content: "Anti-malware protection"
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+        explanation: "No, this feature requires Exchange Online Protection, not ATP."
+      - content: "Protection from malicious URLs"
         isCorrect: true
-        explanation: "explanation"
+        explanation: "Yes, this feature requires an ATP subscription."
+      - content: "Zero-hour auto purge"
+        isCorrect: false
+        explanation: "No, this feature requires Exchange Online Protection, not ATP."
 
-    - content: "Question here"
+    - content: "What setting should you configure to skip spam filtering for all incoming messages, when they come from source email servers you've identified?"
       choices:
-      - content: "Choice 1"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+      - content: "IP Allow list"
         isCorrect: true
-        explanation: "explanation"
+        explanation: "Yes. IP Allow list skips spam filtering for all incoming messages from the specific source email servers you identify by other IP address or IP address range."
+      - content: "IP Block list"
+        isCorrect: false
+        explanation: "No, IP Block list blocks all incoming messages from the source email servers that you specify by IP address or IP address range."
+      - content: "Safe list"
+        isCorrect: false
+        explanation: "No, the safe list is a dynamic allow list in the Microsoft datacenter."
       
-    - content: "Question here"
+    - content: "Who can view a quarantined message?"
       choices:
-      - content: "Choice 1"
+      - content: "Only the recipient"
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
+        explanation: "No, a quarantined message can be viewed by the recipient or an admin."
+      - content: "Only an admin"
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+        explanation: "No, a quarantined message can be viewed by the recipient or an admin."
+      - content: "The recipient or an admin"
         isCorrect: true
-        explanation: "explanation"
-      
+        explanation: "Correct, a quarantined message can be viewed by the recipient or an admin."
+    - content: "Which tool should you use to create fake phishing messages and send them to internal users as an education aid?"
+      choices:
+      - content: "Exchange Online Protection"
+        isCorrect: false
+        explanation: "No, Exchange Online Protection can't create fake phishing messages."
+      - content: "Advanced Threat Protection"
+        isCorrect: true
+        explanation: "Yes, you can use the Attack simulator in Advanced Threat Protection to create and send fake phishing mails."
+      - content: "Microsoft 365"
+        isCorrect: false
+        explanation: "No, Microsoft 365 can't create and send fake phishing emails without using additional tools."      
+    - content: "What is the default action for a message with an SCL of 5?"
+      choices:
+      - content: "Deliver the message to the recipient's inbox"
+        isCorrect: false
+        explanation: "No, messages with an SCL of 5 or higher are delivered to the recipient's Junk Email folder."
+      - content: "Deliver the message to the recipient's Junk Email folder"
+        isCorrect: true
+        explanation: "Yes, messages with an SCL of 5 or higher are delivered to the recipient's Junk Email folder"
+      - content: "Delete the message"
+        isCorrect: false
+        explanation: "No, messages with an SCL of 5 or higher are delivered to the recipient's Junk Email folder."
+      - content: "With Safe Links, what happens when a user selects a blocked URL?"
+      choices:
+      - content: "They are taken to a warning page"
+        isCorrect: true
+        explanation: "Yes, when Safe Links is enabled, when a user tries to visit a blocked URL, they'll see a warning page."
+      - content: "They are taken to the page, and an admin is notified."
+        isCorrect: false
+        explanation: "No, when Safe Links is enabled, when a user tries to visit a blocked URL, they'll see a warning page"
+      - content: "They are taken to the page, but all scripting on the page is blocked."
+        isCorrect: false
+        explanation: "No, when Safe Links is enabled, when a user tries to visit a blocked URL, they'll see a warning page"        
