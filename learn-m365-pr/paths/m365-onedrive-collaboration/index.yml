@@ -1,0 +1,28 @@
+### YamlMime:LearningPath
+uid: learn-m365.m365-onedrive-collaboration
+metadata:
+  title: Use OneDrive in Microsoft 365
+  description: OneDrive is the Microsoft cloud service that connects your users to all of their files on any device. As an admin for OneDrive, you’ll learn what components make up OneDrive along with the administration, management, and deployment options you have. When you’re done, you’ll understand how OneDrive connects users to their files and empowers your organization to collaborate on those files securely.
+  ms.date: 06/16/2020
+  author: ericweisberg
+  ms.author: v-erwe
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Use OneDrive in Microsoft 365
+summary: "OneDrive is the Microsoft cloud service that connects your users to all of their files on any device. As an admin for OneDrive, you’ll learn what components make up OneDrive along with the administration, management, and deployment options you have. When you’re done, you’ll understand how OneDrive connects users to their files and empowers your organization to collaborate on those files securely."
+prerequisites: | 
+ - Basic understanding of Microsoft 365
+iconUrl: /learn/achievements/generic-badge.svg
+levels: 
+- intermediate
+roles:
+- administrator
+products: 
+- m365
+modules:
+- learn-m365.m365-onedrive-collaboration-use-onedrive
+- learn-m365.m365-onedrive-collaboration-manage-migrations-deployment
+- learn-m365.m365-onedrive-collaboration-plan-configure-sharing
+- learn-m365.m365-onedrive-collaboration-manage
+trophy: 
+  uid: learn-m365.m365-onedrive-collaboration.trophy
