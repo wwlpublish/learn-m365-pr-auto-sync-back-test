@@ -1,0 +1,78 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-onedrive-collaboration-manage-migrations-deployment.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Learn what you as an administrator need to know before and during your OneDrive rollout to handle migrations and the deployment of the OneDrive sync app. The ability to administer OneDrive is granted through the SharePoint admin role in Microsoft 365. Learn the different options for migration and how you can ensure you chose the best route for your organization. The OneDrive sync app is essential to be deployed as part of your OneDrive rollout. Learn what technologies can be used to manage deployment across your organization’s devices and how to change the sync app configuration based on things like Group Policy.
+  ms.date: 06/15/2020
+  author: ericweisberg
+  ms.author: v-erwe
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+ 
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "What options are available to control access to OneDrive in the SharePoint admin center?"
+      choices:
+      - content: "By user account and Active Directory security group."
+        isCorrect: false
+        explanation: "In the SharePoint admin center, you can  restrict access from unmanaged devices and allow access from only specific IP addresses. "
+      - content: "From unmanaged devices or based on network location."
+        isCorrect: true
+        explanation: "In the SharePoint admin center, you can  restrict access from unmanaged devices and allow access from only specific IP addresses. "
+      - content: "By date and time.  "
+        isCorrect: false
+        explanation: "In the SharePoint admin center, you can  restrict access from unmanaged devices and allow access from only specific IP addresses."
+
+    - content: "How should you use the sync app update rings?"
+      choices:
+      - content: "Put all users in the Insiders ring."
+        isCorrect: false
+        explanation: "We recommend putting early adopters in the Insiders ring and leaving everyone else in the Production ring."
+      - content: "Put all users in the Deferred ring."
+        isCorrect: false
+        explanation: "We recommend putting early adopters in the Insiders ring and leaving everyone else in the Production ring."
+      - content: "Put early adopters in the Insiders ring and leave everyone else in the Production ring."
+        isCorrect: true
+        explanation: "It is best to have users in the production ring so the latest security and functionality is deployed."
+      
+    - content: "True or False: You should use silent account configuration to enable the connection to the Windows Notification Service."
+      choices:
+      - content: "True"
+        isCorrect: false
+        explanation: "You should use silent account configuration to make it easier for users to set up the OneDrive sync app."
+      - content: "False"
+        isCorrect: true
+        explanation: "You should use silent account configuration to make it easier for users to set up the OneDrive sync app."
+      
+    - content: "Which of the following is NOT a migration feature?"
+      choices:
+      - content: "SharePoint Migration Tool (SPMT)"
+        isCorrect: false
+        explanation: "The SharePoint Migration Tool is a migration tool used to migrate files."
+      - content: "Mover"
+        isCorrect: false
+        explanation: "Mover is a cloud migration solution."
+      - content: "Storage Sense"
+        isCorrect: true
+        explanation: "Storage Sense is a Windows 10 solution for managing storage not migration."
+      - content: "Migration Manager"
+        isCorrect: false
+        explanation: "Migration Manager is a migration solution used to migrate files. "
+
+    - content: "What is Known Folder Move?"
+      choices:
+      - content: "Known Folder Move redirects your Documents, Desktop, and Pictures folder and automatically syncs those files. "
+        isCorrect: true
+        explanation: "Files On-Demand syncs Documents, Desktop, and Pictures and automatically syncs those files into OneDrive."
+      - content: "Known Folder Move copies files from a network share to OneDrive."
+        isCorrect: false
+        explanation: "Known Folder Move does not copy files from a network share to OneDrive."
+      - content: "Known Folder Move moves your OneDrive to a different geo location. "
+        isCorrect: false
+        explanation: "Known Folder Move syncs your Documents, Desktop, and Pictures folder and syncs the files."
+ 
