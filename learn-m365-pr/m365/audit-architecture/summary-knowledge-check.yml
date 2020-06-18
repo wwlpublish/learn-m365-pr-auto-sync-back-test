@@ -1,0 +1,64 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.audit-architecture.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Learn how the architecture of Microsoft 365 implements security and privacy features to protect customers who use Microsoft 365 multi-tenant services.
+  ms.date: 06/18/2020
+  author: NamrahK
+  ms.author: v-nakhu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Which of the following protects customers from being adversely affected by other tenants using Microsoft 365 multi-tenant services?"
+      choices:
+      - content: "Network isolation"
+        isCorrect: false
+        explanation: "Microsoft 365 uses network isolation to prevent unnecessary communication between system components and create breach boundaries."
+      - content: "Service isolation"
+        isCorrect: false
+        explanation: "Microsoft 365 uses service isolation to ensure each service is able to run independently of other services, increasing fault isolation."
+      - content: "Tenant isolation"
+        isCorrect: true
+        explanation: "Correct. Microsoft 365 implements tenant isolation to prevent the actions of one tenant from affecting the security or accessing the content of another tenant."
+      
+    - content: "Which Microsoft 365 security principle uses multiple security controls to provide increased protection?"
+      choices:
+      - content: "Assume Breach"
+        isCorrect: false
+        explanation: "Assume breach is a principle that treats every entity in our services as a possible threat, including personnel administering the service, tenants using the service, and the service infrastructure itself."
+      - content: "Defense-In-Depth"
+        isCorrect: true
+        explanation: "Correct. Defense-In-Depth uses mutually reinforcing security controls for multiple layers of protection."
+      - content: "Breach Boundaries"
+        isCorrect: false
+        explanation: "Breach Boundaries prevents failure or compromise of one boundary in Microsoft 365 from causing compromise of other boundaries."
+      
+    - content: "How does Microsoft validate the architecture of Microsoft 365?"
+      choices:
+      - content: "Data flow diagrams"
+        isCorrect: false
+        explanation: "While Microsoft 365 service teams document interconnections between service components using data flow diagrams, data flow diagrams do not themselves validate that the architecture has been implemented according to plan."
+      - content: "Automated assessment"
+        isCorrect: true
+        explanation: "Correct. Microsoft 365 uses automated architecture and configuration assessment tools to validate the architecture of Microsoft 365."
+      - content: "Network isolation"
+        isCorrect: false
+        explanation: "Microsoft 365 uses network isolation to prevent unnecessary communication between system components and create breach boundaries."
+
+    - content: "Which data resiliency principle involves shared responsibility between Microsoft 365 and our customers?"
+      choices:
+      - content: "Data criticality"
+        isCorrect: false
+        explanation: "Our services prioritize the availability of critical data, such as customer data, without customer involvement."
+      - content: "Granular monitoring and automated recovery"
+        isCorrect: false
+        explanation: "Our systems automatically monitor customer data integrity and repair many types of data corruption without customer intervention."
+      - content: "Protection against accidental loss"
+        isCorrect: true
+        explanation: "Correct. Microsoft 365 provides customers with tools to recover accidentally deleted or modified data, but customers are responsible for configuring and using data recovery tools."
