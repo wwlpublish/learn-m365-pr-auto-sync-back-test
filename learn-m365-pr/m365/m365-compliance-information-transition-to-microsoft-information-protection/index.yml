@@ -17,7 +17,7 @@ abstract: |
   - Explain the key considerations for making the transition. 
   - Identify steps for transitioning to Microsoft Information Protection. 
 
-  prerequisites: | 
+prerequisites: | 
    - Cloud computing concepts
    - Microsoft 365 product and services
 

@@ -17,12 +17,12 @@ The steps to create an auto labeling policy are listed below:
 > 
 > Please review Microsoft 365 licensing guidance for security & compliance to identify required licenses for your organization.
 
-### Step 1: Info to label
+## Step 1: Info to label
 Start with a policy template or create a custom policy to choose the sensitive information you want this label applied to. Select a category to see the policy templates you can use or create a custom policy to start from scratch. If you need to protect labeled content, you will be able to choose labels later.  
  
 ![Choose info you want this label applied to](../media/choose-info.png) 
 
-### Step 2: Name
+## Step 2: Name
 The next step is to give your policy a name and description.
 
 ### Name 
@@ -31,12 +31,12 @@ The name will be copied from the policy template, if selected in Step 1. It will
 ### Description
 Provide information to help identify the automatically applied label, locations, and conditions that identify the content to label.
 
-### Step 3: Choose locations
+## Step 3: Choose locations
 Select which locations and users or groups (Exchange), sites (SharePoint), or accounts (OneDrive) the policy will apply to. Exchange will automatically apply the label to unlabeled emails, regardless of which device or platform is used to send and receive the email. SharePoint and OneDrive will automatically apply the label to unlabeled Office documents. The example below shows the configured policy will apply to one Exchange user or group and not SharePoint sites and OneDrive accounts. You can configure a maximum of 10 site collections in all auto-labeling policies at this time.
  
 ![Choose locations where you want to apply this label](../media/choose-locations.png) 
 
-### Step 4: Policy rules
+## Step 4: Policy rules
 The **Define policy settings** page has two options. Keep the default of **Find content that contains** to define rules that identify content to label across all your selected locations. If you need different rules per location, select **Advanced settings**. 
 
 The rules use conditions that can include sensitive information types and sharing options:
@@ -53,10 +53,10 @@ If your only location is Exchange, or if you select **Advanced settings**, there
 - Any email attachment's content could not be scanned
 - Any email attachment's content didn't complete scanning
 
-### Step 5: Label
+## Step 5: Label
 Choose a label to auto-apply. Users will see the selected sensitivity label applied to files that match the rules specified. 
 
-### Step 6: Policy mode
+## Step 6: Policy mode
 Decide if you want to run the simulation now or wait until later.
 
 ### Run policy in simulation mode
@@ -65,7 +65,7 @@ Running the policy in simulation mode before activation helps ensure the label i
 ### Leave policy turned off
 Selecting this option leaves the policy in an inactive state ready to run in simulation mode.
 
-### Step 7: Finish
+## Step 7: Finish
 You will be given one last opportunity to review and edit your settings before submission. Unlike auto-labeling for Office apps, there's no separate publish option. Allow up to 24 hours for the auto-labeling policy to replicate throughout your organization.
 
 ### Simulation mode

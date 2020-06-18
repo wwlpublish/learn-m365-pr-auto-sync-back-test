@@ -17,8 +17,7 @@ abstract: |
   - Define key terms associated with Microsoft’s information protection and governance solutions.
   - Identify the solutions that comprise information and governance in Microsoft 365.
 
-
-  prerequisites: | 
+prerequisites: | 
    - Cloud computing concepts
    - Microsoft 365 product and services
 

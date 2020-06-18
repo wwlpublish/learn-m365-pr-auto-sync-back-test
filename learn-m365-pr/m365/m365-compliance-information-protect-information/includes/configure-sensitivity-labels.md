@@ -13,7 +13,7 @@ Here are the steps involved in sensitivity label configuration:
 
  ![Sensitivity label configuration](../media/sensitivity-label-configuration.png) 
 
-### Step 1: Name & Description
+## Step 1: Name & Description
 The step consists of providing the following information:
 - Name
 - Tooltip
@@ -28,7 +28,7 @@ Enter text that helps users understand this label's purpose.
 ### Description
 Enter a description that's helpful for admins who manage this label. Adding the author and creation date are best practices.
 
-### Step 2: Encryption
+## Step 2: Encryption
 The next step in the creation process is to determine who can access files and email messages that have this label applied. This is accomplished by configuring encryption settings. Encrypting your most sensitive documents and emails helps to ensure only authorized people can access this data. Encryption remains with the document wherever it goes and on whatever device it is accessed from. Encryption uses the Azure Rights Management Service (Azure RMS) from Azure Information Protection. 
 
 The image below shows the three encryption options: **None**, **Apply**, and **Remove**.
@@ -56,7 +56,7 @@ Apply turns on encryption, which impacts Office files (Word, PowerPoint, Excel) 
 ### Remove
 None means encryption will be removed on the files and email messages with this label applied.
 
-### Step 3: Content marking
+## Step 3: Content marking
 Content marking adds custom headers, footers, and watermarks to email messages or documents when the label is applied. These marks are visible to the user. Content marking does not protect the document in any way. It only informs the viewer of the sensitive nature of the content. You can add one or more of the following text-only content marks:
 - Watermark (documents only)
 - Header
@@ -65,7 +65,7 @@ Content marking adds custom headers, footers, and watermarks to email messages o
 Options to customize the text displayed include font size, font color and alignment.
 ![Content marking](../media/content-marking.png)  
 
-### Step 4: Site and group settings (preview)
+## Step 4: Site and group settings (preview)
 When you create sensitivity labels in the Microsoft 365 compliance center, you can now apply them to the following containers: 
 - Microsoft 365 groups
 - SharePoint sites
@@ -93,7 +93,7 @@ Determine who can access a Microsoft 365 group or SharePoint site.
 ### External users access
 Control whether the group owner can add guests to the group.
 
-###Unmanaged devices
+### Unmanaged devices
 Specify the type of access users have from unmanaged devices. The options are:
 - Allow full access from desktop apps, mobile apps and the web
 - Allow limited, web only access
@@ -101,7 +101,7 @@ Specify the type of access users have from unmanaged devices. The options are:
  
 ![Unmanaged devices settings](../media/unmanaged-devices.png) 
 
-### Step 5: Auto-labeling for Office apps
+## Step 5: Auto-labeling for Office apps
 When Microsoft 365 detects sensitive content in email or documents matching the conditions you specify, it can automatically apply the label or show a message to the user recommending they apply it themselves. 
 
 > [!NOTE]
@@ -131,7 +131,7 @@ What message should be displayed to the user informing them of the action?
  
 ![Auto-labeling for Office apps](../media/auto-labeling-for-office-apps.png) 
 
-### Step 6: Review your settings
+## Step 6: Review your settings
 You will be given one last opportunity to review and edit your settings before submission. Hitting the submit button saves the label. It must be published or auto-applied before it is enforced.
  
 ![Review your settings](../media/review-your-settings.png) 
