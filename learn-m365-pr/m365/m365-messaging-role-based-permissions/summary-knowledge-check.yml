@@ -24,7 +24,7 @@ quiz:
         isCorrect: false
         explanation: "No, this isn't a role in Exchange Online. The MyContactInformation role lets a user edit their address information."
       - content: "MyPersonalInformation"
-        isCorrect: true
+        isCorrect: false
         explanation: "No, this isn't a role in Exchange Online. The MyContactInformation role lets a user edit their address information."
 
     - content: "Which of the following cmdlets lets you view your current role groups?"

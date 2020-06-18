@@ -3,7 +3,7 @@ In this unit, you'll take a closer look at role groups in Exchange Online, what 
 ## What is a role group
 Permissions granted to users and administrators are based on management roles. Roles define what tasks or activities a user or administrator can carry out. A role group in Exchange Online is combines multiple roles and assigns them to users. A role group is a *special universal security group* (USG) - it can contain roles, other role groups, USGs, or Active Directory users. When you assign a role to a role group, all the permissions granted by that role are passed on to all members in the role group. You can assign as many roles as needed to a role group. However, because of their scope, you should only use role groups with administrative roles.
 
-:::image type="content" source="../media/role-groups.png" alt-text="A diagram shows a role group made up of two people. The group is surrounded by other users and groups with arrows toward the group in the middle." border="true":::
+:::image type="content" source="../media/role-group.png" alt-text="A diagram shows a role group made up of two people. The group is surrounded by other users and groups with arrows toward the group in the middle." border="true":::
  
 
 Role groups are typically granted to users with broad management areas, for example, recipient management. An administrator that is a member of multiple role groups has all the permissions from all the role groups they are a member of.

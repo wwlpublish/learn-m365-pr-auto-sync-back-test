@@ -15,7 +15,7 @@ There are several ways you can use role assignment policies to assign permission
    - Assign a different license to the user. It will apply the settings of the different mailbox plan, which specifies the role assignment policy to apply. 
    - Manually assign a custom role assignment policy to mailboxes. 
 
-The available end-user roles that you can assign to mailbox plans are described in [Role assignment policies](https://docs.microsoft.com/en-us/exchange/permissions-exo/role-assignment-policies). 
+The available end-user roles that you can assign to mailbox plans are described in [Role assignment policies](https://docs.microsoft.com/exchange/permissions-exo/role-assignment-policies). 
 
 To manage role assignments, you'll need the **Role Management** RBAC role in Exchange Online, and you'll require access to the Exchange admin center (EAC). 
 
