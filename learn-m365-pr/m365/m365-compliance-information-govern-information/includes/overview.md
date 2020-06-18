@@ -8,7 +8,7 @@ Using organization-wide policies, you can choose to retain content for a specifi
 Label-driven policies enable users to contribute to the accuracy of your data retention implementation. Users can manually label their own content to classify it. You can also auto-apply labels to specific content to make things easier on users. As with organization-wide policies, you can choose to retain or delete content based on when it was created or last modified. In addition, you can base retention on when it was labeled or an event, such as an employee leaving the organization. Retention labels can be automatically applied to content containing sensitive data, specific words or phrases, or having certain metadata, or that it matches a trainable classifier.
 
 > [!NOTE]
-> Information the user should notice even if skimmingPlease refer to the Microsoft 365 licensing guidance for security and compliance for additional information on the licensing requirements for this solution.
+> Please refer to the Microsoft 365 licensing guidance for security and compliance for additional information on the licensing requirements for this solution.
 
 ## Customer scenarios
 Here is some common scenarios Microsoft’s solution for information governance can address:

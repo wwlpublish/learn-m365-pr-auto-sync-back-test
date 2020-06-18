@@ -29,7 +29,7 @@ quiz:
       choices:
       - content: "1"
         isCorrect: true
-        explanation: "eThe DLP policy matches report shows matches at a rule level. If an email matched three different rules, the DLP policy matches report shows three different line items. By contrast, the DLP incidents report shows matches at an item level. If an email matched three different rules, the incidents report shows a single line-item for that item. "
+        explanation: "The DLP policy matches report shows matches at a rule level. If an email matched three different rules, the DLP policy matches report shows three different line items. By contrast, the DLP incidents report shows matches at an item level. If an email matched three different rules, the incidents report shows a single line-item for that item. "
       - content: "16"
         isCorrect: false
         explanation: "The DLP policy matches report shows matches at a rule level. If an email matched three different rules, the DLP policy matches report shows three different line items. By contrast, the DLP incidents report shows matches at an item level. If an email matched three different rules, the incidents report shows a single line-item for that item. "

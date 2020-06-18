@@ -31,7 +31,7 @@ Choosing “Let me choose specific locations” allows you to select the locatio
 
  	
 > [!NOTE]
-> Information the user should notice even if skimmingMicrosoft 365 groups includes group-connected team sites.
+> Microsoft 365 groups includes group-connected team sites.
 
 ## Step 3: Name your policy
 

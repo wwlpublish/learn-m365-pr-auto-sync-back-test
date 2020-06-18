@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.m365-compliance-information-govern-information.information-governance-overview
+uid: learn-m365.m365-compliance-information-govern-information.overview
 title: Information governance overview
 metadata:
   title: Information governance overview
@@ -12,4 +12,4 @@ metadata:
 
 durationInMinutes: 12
 content: |
-  [!include[](includes/information-governance-overview.md)]
+  [!include[](includes/overview.md)]

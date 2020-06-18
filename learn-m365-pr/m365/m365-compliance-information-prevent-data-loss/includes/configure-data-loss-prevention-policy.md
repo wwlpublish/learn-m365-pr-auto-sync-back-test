@@ -152,6 +152,6 @@ You will be given one last opportunity to review and edit your settings before s
 ![Results of using the DLP policy template named U.K. Financial Data](../media/review-your-settings.png)
 
 ## Learn more
-- [What the DLP policy templates include](link missing)
+- [What the DLP policy templates include](https://docs.microsoft.com/microsoft-365/compliance/what-the-dlp-policy-templates-include?view=o365-worldwide?azure-portal=true)
 - [Configuring and managing templates for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/configure-policy-templates?azure-portal=true)
 - [Send email notifications and show policy tips for DLP policies](https://docs.microsoft.com/microsoft-365/compliance/use-notifications-and-policy-tips?azure-portal=true)

@@ -32,7 +32,7 @@ products:
 - m365
 - office-365
 units:
-- learn-m365.m365-compliance-information-govern-information.information-governance-overview
+- learn-m365.m365-compliance-information-govern-information.overview
 - learn-m365.m365-compliance-information-govern-information.configure-retention-policies
 - learn-m365.m365-compliance-information-govern-information.configure-retention-labels
 - learn-m365.m365-compliance-information-govern-information.configure-manual-retention-policies

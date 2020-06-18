@@ -44,7 +44,7 @@ There are three options to choose the type of content you want to apply this lab
 - **Apply label to content that matches a trainable classifier**. Custom trainable classifiers are used to identify categories of content specific to your organization, like contracts, employee agreements, or financial documents. Microsoft has also provided built-in trainable classifiers to classify content like resumes or source code.  
 
 ## Step 3: Settings 
-This step is only valid when the option selected in the choose conditions step is **Apply label that contains sensitive info**. You can use it to modify the conditions for the sensitive info types already selected, add new sensitive info types, and specify more advanced conditions like instance count and match accuracy thresholds. For example, content with a single instance of publicly identifiable information (PII) may justify a different retention period than content with 1000 instances of PII. Conditions can also be grouped and you can use and/or logic to link them. 
+This step is only valid when the option selected in the choose conditions step is **Apply label that contains sensitive info**. You can use it to modify the conditions for the sensitive info types already selected, add new sensitive info types, and specify more advanced conditions like instance count and match accuracy thresholds. For example, content with a single instance of personal information may justify a different retention period than content with 1000 instances of PII. Conditions can also be grouped and you can use and/or logic to link them. 
 
 ## Step 4: Name your policy
 
@@ -66,7 +66,7 @@ Choosing **Let me choose specific locations** allows you to not only select the 
 | OneDrive accounts  | Accounts  |
 
 > [!NOTE]
-> Information the user should notice even if skimmingAuto-apply retention labels cannot be included/excluded in Exchange. They are applicable to all Exchange email or no Exchange email.
+> Auto-apply retention labels cannot be included/excluded in Exchange. They are applicable to all Exchange email or no Exchange email.
 
 ## Step 6: Review your settings
 The final step in the process is to review your settings, make any needed updates, and auto-apply the policy. 
