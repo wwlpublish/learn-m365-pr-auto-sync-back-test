@@ -29,7 +29,7 @@ quiz:
         isCorrect: false
         explanation: "OneDrive is for the files you own as an individual, so when you upload a file into OneDrive (through the web, on a mobile device, or by saving it to your synced OneDrive folder), by default it is only available to you."
 
-    - content: "Which of the following statements is true?"
+    - content: "Which one of the following statements is true?"
       choices:
       - content: "Once you share a file in OneDrive, you cannot manage that sharing link."
         isCorrect: false
