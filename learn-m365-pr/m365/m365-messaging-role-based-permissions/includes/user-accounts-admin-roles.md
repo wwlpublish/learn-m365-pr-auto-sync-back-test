@@ -7,14 +7,13 @@ When assigning someone to the Exchange admin role, you also assign them to the S
 Here are some of the key tasks users can do when they are assigned to the Exchange admin role:
 
 - Recover deleted items in a user mailbox
-- Set up an archive and deletion policy for mailboxes in your Office 365 organization.
-- Set up mailbox features like the mailbox sharing policy, which lets users share calendars and contact information with others outside of your organization.
+- Set up an archive and deletion policy
+- Set up mailbox features like the mailbox sharing policy, which lets users share calendars and contact information with others outside of your organization
 - Set up "Send As" and "Send on Behalf" delegates for someone's mailbox. For example, an executive may want their assistant to have the ability to send mail on their behalf.
-- Create a shared mailbox so a group of people can monitor and send email from a shared email address.
-- Office 365 email anti-spam protection and malware filters for the organization.
+- Create a shared mailbox so a group of people can monitor and send email from a shared email address
 - Manage Microsoft 365 Groups
 
-## Assigning Admin roles
+## Assigning admin roles
 
 Be selective, and only grant users an appropriate role. For example, if you need someone to help reset passwords, they don't need the global admin role. Instead, assign them the password admin role. Having too many global admins, with unlimited access to your data and online business, is a security risk.
 

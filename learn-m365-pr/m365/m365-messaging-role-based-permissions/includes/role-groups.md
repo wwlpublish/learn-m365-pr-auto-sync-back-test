@@ -37,7 +37,7 @@ Where:
 - *Roles* specifies the management roles to assign to the role group, using the following syntax "Role1","Role1",..."RoleN". You can see the available roles by using the **Get-ManagementRole** cmdlet.
 - *Members* specifies the members of the role group by using the following syntax: "Member1","Member2",..."MemberN". You can specify users, mail-enabled universal security groups (USGs), or other role groups (security principals).
 - *ManagedBy* specifies the delegates who can modify and remove the role group by using the following syntax: "Delegate1","Delegate2",..."DelegateN".
-- *CustomRecipientWriteScope* specifies the existing custom recipient write scope to apply to the role group. You can see the available custom recipient write scopes by using the Get-ManagementScope cmdlet.
+- *CustomRecipientWriteScope* specifies the existing custom recipient write scope to apply to the role group. You can see the available custom recipient write scopes by using the **Get-ManagementScope** cmdlet.
 
 ## Copy existing role groups
 You can use an existing role group as that starting point for a new role group, and then add or remove roles as necessary.
@@ -56,15 +56,14 @@ You can use an existing role group as that starting point for a new role group, 
 ### Copy existing role groups using PowerShell
 
 1.	Store the role group that you want to copy in a variable using the following syntax:
-```powershell
-$RoleGroup = Get-RoleGroup "<Existing Role Group Name>"
-```
-
+   ```powershell
+   $RoleGroup = Get-RoleGroup "<Existing Role Group Name>"
+   ```
 2.	Create a new role group using the following syntax:
 
-```powershell
-New-RoleGroup -Name "<Unique Name>" -Roles $RoleGroup.Roles [-Members <Members>] [-ManagedBy <Managers>] [-CustomRecipientWriteScope "<Existing Custom Recipient Write Scope Name>"]
-```
+   ```powershell
+   New-RoleGroup -Name "<Unique Name>" -Roles $RoleGroup.Roles [-Members <Members>] [-ManagedBy <Managers>] [-CustomRecipientWriteScope "<Existing Custom Recipient Write Scope Name>"]
+   ```
    where:
    - *Members* specifies the members of the role group.
    - *ManagedBy* specifies the delegates who can modify and remove the role group by using the following syntax: "Delegate1","Delegate2",..."DelegateN". This setting isn't available in the EAC.
