@@ -3,7 +3,9 @@
 ## Anti-phishing protection in EOP
 EOP (that is, for Microsoft 365 organizations without ATP) contains features that help protect your organization from phishing threats:
 - **Spoof intelligence**: Reviews spoofed messages from senders in internal and external domains, and allows or blocks those senders.
-   ![A screenshot of a spoof report](../media/spoof-report.png)
+
+   :::image type="content" source="../media/spoof-report.png" alt-text="A screenshot of a spoof report" border="true":::
+
 - **Anti-phishing policies**: Turn spoof intelligence on or off, turn unauthenticated sender identification in Outlook on or off, and specifies the action for blocked spoofed senders (move to Junk Email folder or quarantine). 
 - **Implicit email authentication**: Enhances standard email authentication checks for inbound email with sender reputation, sender history, recipient history, behavioral analysis, and other advanced techniques to help identify forged senders.
 
