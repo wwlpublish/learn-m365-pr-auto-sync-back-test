@@ -1,4 +1,4 @@
-You've prepared your environment by setting up Azure Active Directory (Azure AD), integrating it with Active Directory Domain Services (AD DS), creating Azure resources needed to deploy Windows Virtual Desktop, and assigning licenses and administrator roles to users. Now you're ready to deploy  Windows Virtual Desktop.
+You've prepared your environment by setting up Active Directory Domain Services (AD DS), integrating it with Azure Active Directory (Azure AD), creating Azure resources needed to deploy Windows Virtual Desktop, and assigning licenses and administrator roles to users. Now you're ready to deploy  Windows Virtual Desktop.
 
 Suppose you want to allow some of your employees access to virtual desktops that your organization manages. Others in your organization just need access to an application. This application could be a line-of-business application that runs on a legacy operating system, or one that requires tight security and compliance.
 
