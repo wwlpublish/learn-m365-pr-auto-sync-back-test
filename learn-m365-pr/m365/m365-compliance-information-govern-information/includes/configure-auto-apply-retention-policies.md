@@ -66,7 +66,7 @@ Choosing **Let me choose specific locations** allows you to not only select the 
 | OneDrive accounts  | Accounts  |
 
 > [!NOTE]
-> Information the user should notice even if skimmingAuto-apply retention labels cannot be included/excluded in Exchange. They are applicable to all Exchange email or no Exchange email.
+> Auto-apply retention labels cannot be included/excluded in Exchange. They are applicable to all Exchange email or no Exchange email.
 
 ## Step 6: Review your settings
 The final step in the process is to review your settings, make any needed updates, and auto-apply the policy. 

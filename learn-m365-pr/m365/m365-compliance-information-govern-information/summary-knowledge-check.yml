@@ -20,8 +20,8 @@ quiz:
       choices:
       - content: "Securing sensitive data and access."
         isCorrect: false
-        explanation: "This is one benefit of information governance "
-      - content: "Ensuring your data is defensible and retained. "
+        explanation: "This is one benefit of information governance."
+      - content: "Ensuring your data is defensible and retained."
         isCorrect: false
         explanation: "This is one benefit of information governance "
       - content: "Managing the end-to-end lifecycle of all content across your digital estate. "
@@ -62,6 +62,6 @@ quiz:
         explanation: "This is true for SharePoint and OneDrive documents."
       - content: "The retention period is based on when messages were sent or received."
         isCorrect: true
-        explanation: "Regardless of what you choose the retention period on content in Teams conversations will be based on when messages or conversations were sent or received."
+        explanation: "Regardless of what you choose, the retention period on content in Teams conversations will be based on when messages or conversations were sent or received."
       
  
