@@ -65,13 +65,13 @@ quiz:
       choices:
       - content: "Deliver the message to the recipient's inbox"
         isCorrect: false
-        explanation: "No, messages with an SCL of 5 or higher are delivered to the recipient's junk email folder."
-      - content: "Deliver the message to the recipient's junk email folder"
+        explanation: "No, messages with an SCL of 5 or higher are delivered to the recipient's Junk Email folder."
+      - content: "Deliver the message to the recipient's Junk Email folder"
         isCorrect: true
-        explanation: "Yes, messages with an SCL of 5 or higher are delivered to the recipient's junk email folder"
+        explanation: "Yes, messages with an SCL of 5 or higher are delivered to the recipient's Junk Email folder"
       - content: "Delete the message"
         isCorrect: false
-        explanation: "No, messages with an SCL of 5 or higher are delivered to the recipient's junk email folder."
+        explanation: "No, messages with an SCL of 5 or higher are delivered to the recipient's Junk Email folder."
       - content: "With Safe Links, what happens when a user selects a blocked URL?"
       choices:
       - content: "They are taken to a warning page"
