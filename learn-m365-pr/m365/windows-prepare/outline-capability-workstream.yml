@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.windows-prepare.outline-capability-workstream
+title: Prepare for the capability workstream
+metadata:
+  title: Prepare for the capability workstream
+  description: Learn how to prepare for the capability workstream.
+  ms.date: 05/20/2020
+  author: IanKensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: m365
+durationInMinutes: 3
+content: |
+  [!include[](includes/outline-capability-workstream.md)]
+
+
