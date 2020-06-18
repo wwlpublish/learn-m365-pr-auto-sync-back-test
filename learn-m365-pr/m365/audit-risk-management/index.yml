@@ -1,0 +1,39 @@
+### YamlMime:Module
+uid: learn-m365.audit-risk-management
+metadata:
+  title: Understand Microsoft 365 risk management
+  description: Learn how Microsoft 365 identifies, assesses, responds to, and manages risks to protect customers and the Microsoft 365 environment.
+  ms.date: 06/18/2020
+  author: NamrahK
+  ms.author: v-nakhu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Understand Microsoft 365 risk management
+summary: Learn how Microsoft 365 identifies, assesses, responds to, and manages risks to protect customers and the Microsoft 365 environment.
+abstract: |
+ Upon completion of this module, you should be able to:
+ - Explain how the Microsoft Enterprise Risk Management (ERM) program provides a consistent approach to enterprise risk across Microsoft.
+ - Describe how Microsoft 365 manages risk.
+ - Explain how Microsoft 365 Trust identifies risks using a variety of inputs.
+ - Describe how Microsoft 365 Trust analyzes and categorizes risk using impact, likelihood, and mitigating controls.
+ - Explain how Microsoft 365 Trust coordinates with services teams to mitigate, monitor, and report on ongoing risks in Microsoft 365 environments.
+
+prerequisites: None
+iconUrl: http://via.placeholder.com/120x120
+ratingEnabled: false
+levels:
+- beginner
+roles:
+- technology-manager
+- solution-architect
+products:
+- m365
+units:
+- learn-m365.audit-risk-management.introduction
+- learn-m365.audit-risk-management.enterprise-risk-management
+- learn-m365.audit-risk-management.overview-risk-management
+- learn-m365.audit-risk-management.risk-identification-assessment
+- learn-m365.audit-risk-management.risk-response
+- learn-m365.audit-risk-management.summary-knowledge-check
+badge: 
+  uid: learn-m365.audit-risk-management.badges
