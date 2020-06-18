@@ -56,14 +56,14 @@ You can use an existing role group as that starting point for a new role group, 
 ### Copy existing role groups using PowerShell
 
 1.	Store the role group that you want to copy in a variable using the following syntax:
-   ```powershell
-   $RoleGroup = Get-RoleGroup "<Existing Role Group Name>"
-   ```
+    ```powershell
+    $RoleGroup = Get-RoleGroup "<Existing Role Group Name>"
+    ```
 2.	Create a new role group using the following syntax:
 
-   ```powershell
-   New-RoleGroup -Name "<Unique Name>" -Roles $RoleGroup.Roles [-Members <Members>] [-ManagedBy <Managers>] [-CustomRecipientWriteScope "<Existing Custom Recipient Write Scope Name>"]
-   ```
+    ```powershell
+    New-RoleGroup -Name "<Unique Name>" -Roles $RoleGroup.Roles [-Members <Members>] [-ManagedBy <Managers>] [-CustomRecipientWriteScope "<Existing Custom Recipient Write Scope Name>"]
+    ```
    where:
    - *Members* specifies the members of the role group.
    - *ManagedBy* specifies the delegates who can modify and remove the role group by using the following syntax: "Delegate1","Delegate2",..."DelegateN". This setting isn't available in the EAC.
