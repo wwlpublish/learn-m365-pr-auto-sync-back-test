@@ -25,7 +25,8 @@ A label can be thought of as a stamp on a document. For example, your organizati
 
 With sensitivity labels, you can classify and help protect your sensitive content. Protection options include adding watermarks or encryption to the content. Sensitivity labels persist wherever your document is stored or sent. 
 
-Retention labels help you retain or delete content based on policies you define. These help organizations comply with industry regulations and internal policies. Retention labels do not persist outside Microsoft 365.
+Retention labels help you retain or delete content based on policies you define. These help organizations comply with industry regulations and internal policies. Retention labels do not persist outside Microsoft 365. 
+
 Unlike retention labels, which are published to locations such as all Exchange mailboxes, sensitivity labels are published to users or groups. Sensitivity labels then appear in Office apps for those users and groups.
 
 This image shows how you select a sensitivity label in a Word document.
@@ -41,7 +42,7 @@ Content can have both a sensitivity label and a retention label associated with 
 ### Policies
 Once classified, you can create policies. Sensitive information types, trainable classifiers, sensitivity labels, and retention labels act as inputs into policies. Policies define behaviors, like if there will be a default label, if labeling is mandatory, what locations the label will be applied to, and under what conditions. A policy is created when you configure Microsoft 365 to publish or automatically apply sensitive information types, trainable classifiers, or labels. 
 
-Sensitivity label policies one or more labels to Office apps (like Outlook and Word), SharePoint sites, and Office 365 groups. Once published, users can apply the labels to protect their content.
+Sensitivity label policies show one or more labels to Office apps (like Outlook and Word), SharePoint sites, and Office 365 groups. Once published, users can apply the labels to protect their content.
 
 Data loss prevention (DLP) policies help identify and protect your organization's sensitive info. For example, you can set up policies to help make sure information in email and documents is not shared with the wrong people. DLP policies can use sensitive information types and retention labels to identify content containing information that might need protection. 
 

@@ -10,7 +10,7 @@ You can complete the following tasks in the overview section:
 - Monitor risky activities associated with sensitive information to inform DLP policies.
 - Understand label utilization across Microsoft 365 to improve protection and governance policies.
  
-     ![Data classification overview](../media/data-classification-overview.png) 
+![Data classification overview](../media/data-classification-overview.png) 
 
 The **Overview** page includes the following cards:
 - Top sensitive info types
@@ -29,7 +29,7 @@ The **Top sensitive info types** card shows the top sensitive information types 
    ![Sensitive info types used most in your content](../media/top-sensitive-info-types.png) 
 
 ## Top sensitivity labels applied to content 
-The **Top sensitivity labels applied to content card show the sensitivity labels most frequently applied to content, grouped by sensitivity label. This card will display **No sensitivity labels detected** if you have not created any sensitivity labels or they have not been applied to any content.
+The **Top sensitivity labels applied to content** card show the sensitivity labels most frequently applied to content, grouped by sensitivity label. This card will display **No sensitivity labels detected** if you have not created any sensitivity labels or they have not been applied to any content.
 
    ![Top sensitivity labels applied to content](../media/top-sensitivity-labels.png) 
 
@@ -39,7 +39,7 @@ This card shows the number of items with a sensitivity label applied grouped by 
    ![Locations where sensitivity labels are applied](../media/locations-where-sensitivity-labels-are-applied.png) 
  
 ## Top retention labels applied 
-The ##Top retention labels applied to content card## shows the most frequently applied retention labels, grouped by retention label. At least one item must have a retention label applied for this card to be populated.
+The **Top retention labels applied** to content card## shows the most frequently applied retention labels, grouped by retention label. At least one item must have a retention label applied for this card to be populated.
  
    ![Top retention labels applied](../media/top-retention-labels.png) 
 

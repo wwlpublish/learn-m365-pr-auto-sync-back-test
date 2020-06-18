@@ -18,7 +18,7 @@ abstract: |
   - Explain what users will experience when the solution is implemented.
   - Articulate deployment and adoption best practices.
 
-  prerequisites: | 
+prerequisites: | 
    - Cloud computing concepts
    - Microsoft 365 product and services
 

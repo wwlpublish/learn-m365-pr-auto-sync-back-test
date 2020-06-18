@@ -25,7 +25,7 @@ quiz:
         explanation: "Content explorer shows a current snapshot of the items that have a sensitivity label, a retention label, or have been classified as a sensitive information type. "
       - content: "Sensitive info types"
         isCorrect: false
-        explanation: "Sensitive info types is where you manage the built-in and custom sensitive information types available to classify data.  "
+        explanation: "Sensitive info types are where you manage the built-in and custom sensitive information types available to classify data.  "
 
     - content: "You can create custom sensitive information types for data specific to your organization. Which of the following statements is true regarding new custom sensitive information types?"
       choices:
@@ -49,7 +49,7 @@ quiz:
         explanation: "Activity explorer enables you to understand what is being done with your labeled content over time. You can use activity explorer to evaluate if the controls already in place, such as data loss prevention policies, are effective. "
       - content: "Monitor risky activities associated with sensitive information to inform DLP policies."
         isCorrect: true
-        explanation: "The data classification overview page provides snapshots of how sensitive info and labels are being used across your organization's locations. The overview page shows volume of sensitive data across Exchange Online, SharePoint Online, and OneDrive for Business, categorized by sensitive information types such as social security number (SSN), or associated with regulations like the General Data Protection Regulation (GDPR), California Consumer Privacy Act (CCPA) and Health Insurance Portability and Accountability Act (HIPAA)."
+        explanation: "The data classification overview page provides snapshots of how sensitive info and labels are being used across your organization's locations. The overview page shows volume of sensitive data across Exchange Online, SharePoint Online, and OneDrive for Business, categorized by sensitive information types such as social security number (SSN), or associated with regulations like the General Data Protection Regulation (GDPR), California Consumer Privacy Act (CCPA), and Health Insurance Portability and Accountability Act (HIPAA)."
       
     - content: "Which card on the data classification overview tab shows the number of items with a retention label applied grouped by location? "
       choices:
@@ -63,7 +63,7 @@ quiz:
         isCorrect: false
         explanation: "The top sensitive info types card shows the top sensitive information types discovered and labeled in the organization."
       
-    - content: "Trainable classifiers use that of the following to identify what an item actually is?  "
+    - content: "Trainable classifiers use which of the following to identify what an item actually is?  "
       choices:
       - content: "Metadata"
         isCorrect: false
