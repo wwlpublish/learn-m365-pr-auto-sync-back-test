@@ -3,7 +3,7 @@ uid: learn-m365.what-is-m365
 metadata:
   title: What is Microsoft 365?
   description: "In this module, you will learn about Microsoft 365 - a productivity cloud that delivers innovative and intelligent experiences, rich organizational insights, and a trusted platform to help people and organizations get more done."
-  ms.date: 04/24/2020
+  ms.date: 06/21/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -28,6 +28,7 @@ units:
 - learn-m365.what-is-m365.2-whats-in-m365
 - learn-m365.what-is-m365.3-connecting-clouds
 - learn-m365.what-is-m365.4-m365-subscriptions
+- learn-m365.what-is-m365.explore-m365-tenant
 - learn-m365.what-is-m365.5-summary-and-knowledge-check
 badge:
   uid: learn-m365.what-is-m365.badge
