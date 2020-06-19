@@ -46,11 +46,11 @@ While Microsoft Teams tabs are `<iframes>` that display webpages, there are some
 
 Microsoft Teams tabs always display web content in an `<iframe>` where a webpage is loaded in any browser. In this way, you can create unique experiences with the web app for only Microsoft Teams by limiting where the application is hosted. For instance, you can limit a webpage to be displayed within an `<iframe>` only from a specific domain such as teams.microsoft.com.
 
-Authentication is handled differently in a Microsoft Teams tab compared to a web app, either via a pop-up window or by calling Azure Active Directory (Azure AD) to fetch tokens. Most websites redirect to a sign-in provider that typically breaks for custom tabs that are hosted inside an `<iframe>`. Tabs break in this experience because the sign-in pages typically don't load within an `<iframe>` to prevent click-jacking.
+Authentication is handled differently in a Microsoft Teams tab compared to a web app, either via a pop-up window or by calling Azure Active Directory (Azure AD) to fetch tokens. Most websites redirect to a sign-in provider that typically breaks custom tabs that are hosted inside an `<iframe>`. Tabs break in this experience because the sign-in pages typically don't load within an `<iframe>` to prevent click-jacking.
 
 Cross-domain navigation is handled differently in tabs from a web app. The Teams client needs to validate the origin against a static validDomains list in the app manifest when it loads or communicates with the tab.
 
-Microsoft Teams tabs can be styled to match the current Microsoft Teams client's theme, such as default dark or high contrast.
+Microsoft Teams tabs can be styled to match the current Microsoft Teams client's theme, such as default, dark or high contrast.
 
 Developers of Microsoft Teams tabs also can communicate with the hosting Microsoft Teams client by using the JavaScript SDK (`microsoftTeams.initialize()`). The SDK gives Teams a communication channel with the hosted page and more visibility into its operations.
 
