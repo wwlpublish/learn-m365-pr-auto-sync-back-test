@@ -77,17 +77,17 @@ To learn more about these clients and what operating system versions they suppor
 
 ## Bypass subscribe to workspace step
 
-After you install the Windows Virtual Desktop client app and first launch it, you're prompted to subscribe to a workspace. 
+After you install the Windows Virtual Desktop client app and first launch it, you're prompted to subscribe to a workspace.
 
   :::image type="content" source="../media/5-subscribe-workspace.png" alt-text="Screenshot of the subscribe to workspace form with the URL pasted in.":::
 
-To bypass that step and simplify the process for your users, set up email discovery with your domain registrar. You add a DNS TXT record that has the following properties for the domain associated with your email:
+To bypass that step and simplify the process for your users, set up email discovery with your domain registrar. Add a DNS TXT record that has the following properties for the domain associated with your email:
 
 
 |Property  |Value  |
 |---------|---------|
 |Host     | _msradc      |
-|Text     | RD web feed URL like https://rdweb.contoso.com/RDWeb/Feed/webfeed.aspx    |
+|Text     | `https://rdweb.wvd.microsoft.com/arm/api/feeddiscovery/webfeeddiscovery.aspx`    |
 |TTL     | 300    |
 
 
