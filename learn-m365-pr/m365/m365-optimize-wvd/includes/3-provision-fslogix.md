@@ -82,9 +82,15 @@ Any virtual machine (VM) you create by using a gallery image has the FSLogix sof
 1. Copy the URL.
 1. Covert it from an HTTP path to an SMB path to use it later.
 
+### Download and install the FSLogix agent
+
+1. For each VM registered to the host pool, [download the FSLogix agent](https://go.microsoft.com/fwlink/?linkid=2084562).
+1. Go to either \\Win32\Release or \\X64\Release in the .zip file.
+1. Run FSLogixAppsSetup to install the FSLogix agent.
+
 ### Add registry key to VMs
 
-You need to add two registry keys to the host pool VMs for FSLogix.
+You need to add two registry keys for FSLogix to each VM registered to the host pool.
 
 1. Create a key for the VMs called **Profiles**.  
 1. Within that new key, add a **DWORD** called "Enabled" and set its value to "1."  
