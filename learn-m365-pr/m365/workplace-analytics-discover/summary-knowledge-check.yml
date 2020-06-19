@@ -4,7 +4,7 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Learn what Workplace Analytics is, how it works, and key features that allow you to generate insights and improve collaboration in your organization.
-  ms.date: 06/04/2020
+  ms.date: 06/19/2020
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
@@ -17,15 +17,15 @@ quiz:
     questions:
     - content: "What are the required and optional data sources included in Workplace Analytics?"
       choices:
-      - content: "Office 365 and HR organization data are required; CRM data is optional."
+      - content: "Microsoft 365 and HR organization data are required; CRM data is optional."
         isCorrect: true
-        explanation: "Correct. Office 365 data and HR organization data are required in Workplace Analytics; CRM data is optional."
-      - content: "Office 365 and CRM data are required; HR organization data is optional."
+        explanation: "Correct. Microsoft 365 data and HR organization data are required in Workplace Analytics; CRM data is optional."
+      - content: "Microsoft 365 and CRM data are required; HR organization data is optional."
         isCorrect: false
-        explanation: "Sorry, that’s incorrect. Office 365 data and HR organization data are required in Workplace Analytics; CRM data is optional."
-      - content: "HR organization and CRM data are required; Office 365 data is optional."
+        explanation: "Sorry, that’s incorrect. Microsoft 365 data and HR organization data are required in Workplace Analytics; CRM data is optional."
+      - content: "HR organization and CRM data are required; Microsoft 365 data is optional."
         isCorrect: false
-        explanation: "Sorry, that’s incorrect. Office 365 data and HR organization data are required in Workplace Analytics; CRM data is optional."
+        explanation: "Sorry, that’s incorrect. Microsoft 365 data and HR organization data are required in Workplace Analytics; CRM data is optional."
 
     - content: "When conducting exploratory analysis, where would you go to view aggregated dashboards with out-of-the-box insights in Workplace Analytics?"
       choices:
