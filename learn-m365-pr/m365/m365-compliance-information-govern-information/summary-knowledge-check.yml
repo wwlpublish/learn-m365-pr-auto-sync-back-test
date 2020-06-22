@@ -26,7 +26,7 @@ quiz:
         explanation: "This is one benefit of information governance "
       - content: "Managing the end-to-end lifecycle of all content across your digital estate. "
         isCorrect: true
-        explanation: "Unlike manually applied retention labels, you can only auto-apply a single label. Note that you cannot auto-apply labels that are classified as a record."
+        explanation: "A comprehensive approach across all content in your digital estate helps protect confidential information and prevent incidents that could disrupt your business."
 
     - content: "Which of the following statements is accurate regarding retention labels?"
       choices:
@@ -50,7 +50,7 @@ quiz:
         explanation: "When you publish or auto-apply retention labels, they don't take effect immediately. First the label policy needs to be synced from the admin center to the locations in the policy. Then the location may require time to make published retention labels available to end users or time to auto-apply labels to content. How long this takes depends on the location and type of retention label."
       - content: "It depends on the type of retention label."
         isCorrect: true
-        explanation: "First, the label policy needs to be synced from the admin center to the locations in the policy. Then the location may require time to make published retention labels available to end users or time to auto-apply labels to content. How long this takes depends on the location and type of retention label."
+        explanation: "It depends on the target location to which the retention label is published or auto-applied."
       
     - content: "You opted to retain content using the basic path under Settings.  You selected when it was last modified in Teams conversations. What will happen?"
       choices:

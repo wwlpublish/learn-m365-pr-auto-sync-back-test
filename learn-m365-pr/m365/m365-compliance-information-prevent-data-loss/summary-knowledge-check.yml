@@ -16,16 +16,7 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "True or False: Once the template type is selected, the target locations and policy settings options (rules, conditions, actions, and so on) can be specified with default policy settings established if policy templates are utilized."
-      choices:
-      - content: "True"
-        isCorrect: true
-        explanation: "Once the template type is selected, the target locations and policy settings options (rules, conditions, actions, and so on) can be specified with default policy settings established if policy templates are utilized. (These settings can be edited.)"
-      - content: "False"
-        isCorrect: false
-        explanation: "Once the template type is selected, the target locations and policy settings options (rules, conditions, actions, and so on) can be specified with default policy settings established if policy templates are utilized. (These settings can be edited.)"
-
-    - content: "A user sends an email to several recipients containing 16 unique credit card numbers which match a DLP Policy with this sensitive information type.  How many lines will display on the DLP Policy matches report? "
+     - content: "A user sends an email to several recipients containing 16 unique credit card numbers which match a DLP Policy with this sensitive information type.  How many lines will display on the DLP Policy matches report? "
       choices:
       - content: "1"
         isCorrect: true
