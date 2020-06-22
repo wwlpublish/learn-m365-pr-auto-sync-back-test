@@ -18,12 +18,11 @@ When users want to change the ownership of files, they move or copy them between
 They can move or copy up to 500 MB of files and folders at a time using a browser. When they move or copy a document, only the latest version is copied. To move earlier versions, they need to restore and move each one. 
 
 ## Restoring deleted files, folders, or previous versions of a file in OneDrive
-If a user accidentally deletes a file or folder in OneDrive, they may be able to recover it later from the OneDrive recycle bin. Once in OneDrive, the Recycle bin will show up in the left navigation pane:  
+If a user accidentally deletes a file or folder in OneDrive, they may be able to recover it later from the OneDrive recycle bin.  
 
 ![Users may be able to recover files from the OneDrive recycle bin](../media/recycle-bin.png)
 
-Once selected, the files or folders can be restored. You can configure how long the files remain in users’ recycle bins before permanently deleted. The default is 93 days. 
-You can also restore an earlier version of a file through the file version history.
+Items are kept for 93 days from the time users delete them, unless the Recycle bin is full or they are manually deleted from the site collection Recycle Bin.
 
 If many files get deleted, overwritten, corrupted, or infected by malware, users can restore their entire OneDrive to a previous time. Files restore enables your users to undo all the actions that occurred on both files and folders within the last 30 days. **Files restore** uses version history and the recycle bin to restore, so it’s subject to the same restrictions as those features. Deleted files can’t be restored after they’ve been removed from the recycle bin. If files or folders cannot be restored, a log file will be generated. You can take control of a user’s OneDrive and perform single file or full restores if it is necessary.
 
