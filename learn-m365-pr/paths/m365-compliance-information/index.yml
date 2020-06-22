@@ -21,9 +21,6 @@ roles:
 - administrator
 products: 
 - m365
-- azure
-- azure-virtual-machines
-- azure-migrate
 modules:
 - learn-m365.m365-compliance-information-governance
 - learn-m365.m365-compliance-information-classify-data
