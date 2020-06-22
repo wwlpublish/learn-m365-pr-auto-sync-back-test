@@ -30,12 +30,12 @@ quiz:
 
     - content: "Which of the following statements regarding encryption and sensitivity labeling configuration is accurate?"
       choices:
-      - content: Encryption prevents any chance of data loss internally or externally for the organization."
+      - content: "Encryption prevents any chance of data loss internally or externally for the organization."
         isCorrect: false
         explanation: " Encryption cannot prevent manual data loss such as a user taking a picture of the screen."
-      - content: "When a sensitivity label is applied to existing encrypted permissions by a specified user and the encryption “None “  option is selected, the new label encryption is applied.  "
+      - content: "When a sensitivity label is applied to existing encrypted permissions by a specified user and the encryption “None “ option is selected, the new label encryption is applied.  "
         isCorrect: false
-        explanation: "When a sensitivity label is applied to existing encrypted permissions by a specified user and encryption “None “  option is selected, the original encryption is preserved.  "
+        explanation: "When a sensitivity label is applied to existing encrypted permissions by a specified user and encryption “None “ option is selected, the original encryption is preserved.  "
       - content: "Encryption remains with the document wherever it goes on whatever device. "
         isCorrect: true
         explanation: "The document remains encrypted no matter where it resides, inside or outside your organization, even if the file is renamed. "
