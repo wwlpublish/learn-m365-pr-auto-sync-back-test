@@ -1,4 +1,4 @@
-To provide the best experience for your Windows Virtual Desktop users, use FSLogix profiles.
+To provide the best experience for your Windows Virtual Desktop users, use FSLogix profiles. FSLogix is designed to roam profiles in remote computing environments, such as Windows Virtual Desktop. It stores a complete user profile in a single container. At sign-in, this container is dynamically attached to the computing environment using natively supported Virtual Hard Disk (VHD) and Hyper-V Virtual Hard disk (VHDX). The user profile is immediately available and appears in the system exactly like a native user profile. 
 
 ## What is FSLogix?
 
@@ -12,6 +12,8 @@ FSLogix is a set of solutions that allow you to manage non-persistent Windows co
 - Specify the version of Java to be used by specific URL and applications
 
 ## Generate user profiles for Windows Virtual Desktop
+
+A user profile contains data elements about an individual, including configuration information like desktop settings, persistent network connections, and application settings. A remote user profile provides a partition between user data and the operating system.
 
 Use FSLogix profiles to:
 

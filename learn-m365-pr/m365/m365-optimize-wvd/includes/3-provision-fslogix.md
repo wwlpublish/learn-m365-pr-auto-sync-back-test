@@ -1,4 +1,4 @@
-To use FSLogix to separate user profiles from the session host virtual machines (VM), we'll need to configure Azure Storage and create an FSLogix profile.   
+To use FSLogix to separate user profiles from the session host virtual machines (VM), we'll need to configure Azure Storage and create an FSLogix profile. These steps vary depending on the storage type and whether you're using Azure Active Directory Domain Services (Azure AD DS) or Active Directory Domain Services (AD DS) on premises. The following steps cover how to configure Azure Files with Azure AD DS. The steps for AD DS on premises are the same except for the "Enable Azure Active Directory authentication" section. The differences are called out in that section.
 
 ## Create the storage account
 
@@ -15,7 +15,11 @@ To use FSLogix to separate user profiles from the session host virtual machines 
 1. Wait for the deployment to complete. This may take a minute.
 1. Select **Go to resource**.
 
-## Enable Azure Active Directory authentication for Azure Files
+## Enable Azure Active Directory authentication
+
+The following steps cover how to enable authentication for Azure file shares with Azure AD DS. If you're using AD DS on premises, you need to register your Azure storage account with AD DS, and then set the required domain properties on the storage account. Use the AzFilesHybrid Azure PowerShell module on a device that is domain joined to your on-premises AD DS. The `Join-AzStorageAccountForAuth` cmdlet performs the equivalent of an offline domain join on behalf of the Azure storage account. For the step-by-step instructions to enable authentication with AD DS on-premises, see the related Docs article at the end of this module.
+
+### Enable authentication for Azure file shares with Azure AD DS 
 
 1. In the storage account you created, under **Settings**, select **Configuration**.
 1. Under **Identity-based access for file shares**, enable the **Azure Active Directory Domain Services (AAD DS)** option.
@@ -23,7 +27,7 @@ To use FSLogix to separate user profiles from the session host virtual machines 
     :::image type="content" source="../media/3-enable-storage-account-aadds.png" alt-text="Screenshot that shows the storage account configuration page with the Azure Active Directory Domain Services (AAD DS) option enabled.":::
 1. Select **Save**.
 
-## Assign roles
+## Assign roles to access storage data
 
 You need to assign roles to the AAD DC Administrators group and to your Windows Virtual Desktop users.
 
@@ -82,13 +86,25 @@ Any virtual machine (VM) you create by using a gallery image has the FSLogix sof
 1. Copy the URL.
 1. Covert it from an HTTP path to an SMB path to use it later.
 
+### Download and install the FSLogix agent
+
+1. For each VM registered to the host pool, [download the FSLogix agent](https://go.microsoft.com/fwlink/?linkid=2084562).
+1. Go to either \\Win32\Release or \\X64\Release in the .zip file.
+1. Run FSLogixAppsSetup to install the FSLogix agent.
+
 ### Add registry key to VMs
 
-You need to add two registry keys to the host pool VMs for FSLogix.
+You need to add a registry key to each VM registered to the host pool.
 
+1. From the start menu, run RegEdit as an administrator.
+1. Go to **Computer\HKEY_LOCAL_MACHINE\software\FSLogix**.
 1. Create a key for the VMs called **Profiles**.  
-1. Within that new key, add a **DWORD** called "Enabled" and set its value to "1."  
-1. Add a **Multi-String value** called "VHDLocations" and add the file share location from Azure Files, in SMB path format.
+1. Under **Profiles**, add the following data type entries:
+
+   | Type  | Name   | Data/Value  
+   |----|---|----|
+   | DWORD | Enabled           | 1     |
+   | Multi-String Value | VHDLocations| File share location from Azure Files, in SMB path format    |
 1. Open an elevated command prompt.
 1. Run the following commands where you replace placeholder values with the SMB file share path, the storage account access key, and the user's Azure AD User Principal Name (UPN). The UPN would look something like kaicarter@contoso.onmicrosoft.com.
 
