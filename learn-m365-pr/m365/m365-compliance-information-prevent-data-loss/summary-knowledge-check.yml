@@ -16,7 +16,7 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-     - content: "A user sends an email to several recipients containing 16 unique credit card numbers which match a DLP Policy with this sensitive information type.  How many lines will display on the DLP Policy matches report? "
+    - content: "A user sends an email to several recipients containing 16 unique credit card numbers which match a DLP Policy with this sensitive information type.  How many lines will display on the DLP Policy matches report? "
       choices:
       - content: "1"
         isCorrect: true
