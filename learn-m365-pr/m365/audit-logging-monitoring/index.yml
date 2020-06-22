@@ -18,13 +18,14 @@ abstract: |
  - Explain how Microsoft 365 analyzes log data to support security monitoring and service health monitoring.
 
 prerequisites: None
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/understand-microsoft-audit-logging-monitoring.svg
 ratingEnabled: false
 levels:
 - beginner
 roles:
-- technology-manager
-- solution-architect
+- auditor
+- privacy-manager
+- risk-practitioner
 products:
 - m365
 units:
