@@ -20,7 +20,7 @@ To complete the exercise, you'll need the credentials for the user account that 
 1. Under **Settings**, select **Properties**.
 1. Update the **Friendly name**.
 
-   :::image type="content" source="../media/5-appgroup-properties.png" alt-text="Screenshot that shows the remoteapp application group properties with the friendly name Costoso apps.":::
+   :::image type="content" source="../media/5-appgroup-properties.png" alt-text="Screenshot that shows the RemoteApp application group properties with the friendly name Costoso apps.":::
 
 ## Configure RDP properties 
 
@@ -49,4 +49,4 @@ In the previous units, we used the browser to connect to the Windows Virtual Des
 1. Use the sign-in credentials for the account that has the RemoteApp application group assigned.
 1. You should see the app you added to the RemoteApp application group.
 
-   :::image type="content" source="../media/5-remote-desktop-workspace.png" alt-text="Screenshot of the contoso workspace with the Wordpad app available.":::
+   :::image type="content" source="../media/5-remote-desktop-workspace.png" alt-text="Screenshot of the contoso workspace with the WordPad app available.":::
