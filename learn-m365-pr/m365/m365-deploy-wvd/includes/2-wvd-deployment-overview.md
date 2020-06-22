@@ -11,10 +11,10 @@ Before we walk through the deployment process, let's review some key terms and d
   - *RemoteApp*, where users access the applications you individually publish to the application group. You can create multiple RemoteApp app groups to accommodate different user scenarios. Use RemoteApp to virtualize an app that runs on a legacy OS or one that needs secured access to corporate resources.
   - *Remote Desktop*, where users access the full desktop. By default, the group **Desktop Application Group** is automatically created when you create a host pool.
   
-- Load-balancing options - 
+- Load-balancing options -
 
-   - *Breadth-first* - Distributes new user sessions across all available session hosts in the host pool. When you configure breadth-first load balancing, you may set a maximum session limit per session host in the host pool.
-   - *Depth-first* - Distributes new user sessions to an available session host that has the highest number of connections and hasn't reached its maximum session limit threshold. When you configure depth-first load balancing, you must set a maximum session limit per session host in the host pool.
+   - *Breadth-first* - Default configuration for new non-persistent host pools. Distributes new user sessions across all available session hosts in the host pool. When you configure breadth-first load balancing, you may set a maximum session limit per session host in the host pool.
+   - *Depth-first* - Distributes new user sessions to an available session host with the highest number of connections but has not reached its maximum session limit threshold. When you configure depth-first load balancing, you must set a maximum session limit per session host in the host pool.
 
 ## Configure virtual machines for host pool
 
@@ -22,7 +22,7 @@ When you create a Windows Virtual Desktop host pool, you can choose to create ne
 
 ### Number of VMs
 
-You can create up to 159 VMs when you first create your host pool. Each ARM deployment creates four objects per VM, that can be seen in your resource group plus some additional Azure Resource Manager objects. So you can quickly reach the 800 Azure resources per deployment limit. You can add more VMs after you finish creating your host pool. Check the Azure VM and API limits for your resource group and subscription.
+You can create up to 159 VMs when you first create your host pool. Each deployment creates four objects per VM, that can be seen in your resource group plus some additional Azure Resource Manager objects. So you can quickly reach the 800 Azure resources per deployment limit. You can add more VMs after you finish creating your host pool. Check the Azure VM and API limits for your resource group and subscription.
 
 ### VM sizing
 
@@ -74,5 +74,21 @@ You can access a Windows Virtual Desktop workspace from either a web browser or 
 - Linux
 
 To learn more about these clients and what operating system versions they support, see the links available at the end of this module.
+
+## Bypass subscribe to workspace step
+
+After you install the Windows Virtual Desktop client app and first launch it, you're prompted to subscribe to a workspace.
+
+  :::image type="content" source="../media/5-subscribe-workspace.png" alt-text="Screenshot of the subscribe to workspace form with the URL pasted in.":::
+
+To bypass that step and simplify the process for your users, set up email discovery with your domain registrar. Add a DNS TXT record that has the following properties for the domain associated with your email:
+
+
+|Property  |Value  |
+|---------|---------|
+|Host     | _msradc      |
+|Text     | https\://rdweb.wvd.microsoft.com/arm/api/feeddiscovery/webfeeddiscovery.aspx    |
+|TTL     | 300    |
+
 
 In the following units, you'll learn how to connect to a workspace by using both a web and desktop client.
