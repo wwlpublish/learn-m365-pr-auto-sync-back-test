@@ -87,7 +87,7 @@ To bypass that step and simplify the process for your users, set up email discov
 |Property  |Value  |
 |---------|---------|
 |Host     | _msradc      |
-|Text     | `https://rdweb.wvd.microsoft.com/arm/api/feeddiscovery/webfeeddiscovery.aspx`    |
+|Text     | https\://rdweb.wvd.microsoft.com/arm/api/feeddiscovery/webfeeddiscovery.aspx    |
 |TTL     | 300    |
 
 
