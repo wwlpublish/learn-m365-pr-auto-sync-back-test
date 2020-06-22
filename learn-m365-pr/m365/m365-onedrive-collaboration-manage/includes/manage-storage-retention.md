@@ -18,8 +18,6 @@ You can set the retention time for OneDrive accounts in the OneDrive admin cente
 
  ![You can set the retention time for OneDrive accounts in the OneDrive admin center](../media/retention-time.png)
 
-No other action besides user deletion causes the cleanup process to occur, including blocking the user from signing in or removing the user's license.
-
 ## Microsoft 365 retention and OneDrive
 There are other options for retaining content in OneDrive that are administered at the Microsoft 365 level and affect applications such as Exchange, SharePoint, OneDrive, and Teams. Using the Microsoft 365 compliance center, you can create retention policies for OneDrive sites and create retention labels to apply to files in OneDrive.
 

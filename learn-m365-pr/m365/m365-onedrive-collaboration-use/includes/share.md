@@ -7,7 +7,7 @@ Users share files in OneDrive by sharing links. Links are automatically created 
 Sharing a file or folder allows users to select the people with whom they want to share and what permissions they will get. These options vary based on your configuration. 
 The options consist of:
 - **Anyone**. gives access to anyone who receives the link, whether they receive it directly from the file or folder owner or it is forwarded from someone else, including people outside of their organization. This link is not discoverable and must be sent to users to get access. This type of link provides anonymous access.
-- **People in <Your Organization>**. gives anyone in an organization who has the link access to the file, whether they receive it directly from owner or it is forwarded from someone else. This type of link is not discoverable through search. It allows for unrestricted internal sharing. 
+- **People in *Your Organization***. gives anyone in an organization who has the link access to the file, whether they receive it directly from owner or it is forwarded from someone else. This type of link is not discoverable through search. It allows for unrestricted internal sharing. 
 - **People with existing access**. can be used by people who already have access to the document or folder. Use this option to send a link to somebody who already has access. 
 - **Specific people**. gives access only to the people the owner specifies.  If people forward the link, only people who have access/permission to the item will be able to use the link. Recipients can include people outside your organization if you’ve enabled guest sharing. 
 
