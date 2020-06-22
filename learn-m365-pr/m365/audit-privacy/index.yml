@@ -23,13 +23,14 @@ abstract: |
  - Describe Microsoft practices for supporting a customer’s compliance with GDPR Data Subject Requests and Data Protection Impact Assessments.
 
 prerequisites: None
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/understand-microsoft-365-privacy.svg
 ratingEnabled: false
 levels:
 - beginner
 roles:
-- technology-manager
-- solution-architect
+- auditor
+- risk-practitioner
+- privacy-manager
 products:
 - m365
 units:

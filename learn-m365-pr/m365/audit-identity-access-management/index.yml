@@ -19,13 +19,14 @@ abstract: |
  - Explain the process for using Microsoft 365 Customer Lockbox.
 
 prerequisites: None
-iconUrl: http://via.placeholder.com/120x120 
+iconUrl: /learn/achievements/understand-microsoft-365-identity-access-management.svg 
 ratingEnabled: false
 levels:
 - beginner
 roles:
-- technology-manager
-- solution-architect
+- auditor
+- privacy-manager
+- risk-practitioner
 products:
 - m365
 units:

@@ -19,13 +19,14 @@ abstract: |
  - Describe Microsoft commitments to protecting customer data and personal data when a supplier contract ends.
 
 prerequisites: None
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/understand-microsoft-365-subprocessor-management.svg
 ratingEnabled: false
 levels:
 - beginner
 roles:
-- technology-manager
-- solution-architect
+- auditor
+- risk-practitioner
+- privacy-manager
 products:
 - m365
 units:

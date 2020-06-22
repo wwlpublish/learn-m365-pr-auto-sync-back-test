@@ -19,13 +19,14 @@ abstract: |
  - Explain how Microsoft 365 performs architecture validation to verify the security posture of Microsoft 365 services.
 
 prerequisites: None
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/understand-microsoft-365-cloud-architecture.svg
 ratingEnabled: false
 levels:
 - beginner
 roles:
-- technology-manager
-- solution-architect
+- auditor
+- risk-practitioner
+- privacy-manager
 products:
 - m365
 units:

@@ -20,13 +20,14 @@ abstract: |
  - Describe how Microsoft services monitor availability and allocate resources using capacity planning.
 
 prerequisites: None
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/understand-microsoft-365-resiliency-continuity.svg
 ratingEnabled: false
 levels:
 - beginner
 roles:
-- technology-manager
-- solution-architect
+- auditor
+- risk-practitioner
+- privacy-manager
 products:
 - m365
 units:

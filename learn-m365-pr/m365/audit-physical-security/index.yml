@@ -21,13 +21,14 @@ abstract: |
  - Describe how datacenter business continuity, disaster recovery, and resilience strategies protect the availability of Microsoft datacenters.
 
 prerequisites: None
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/understand-microsoft-datacenter-security.svg
 ratingEnabled: false
 levels:
 - beginner
 roles:
-- technology-manager
-- solution-architect
+- auditor
+- risk-practitioner
+- privacy-manager
 products:
 - m365
 units:
