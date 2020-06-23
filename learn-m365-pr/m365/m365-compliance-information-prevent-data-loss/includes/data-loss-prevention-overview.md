@@ -11,7 +11,7 @@ Each DLP policy contains the following information:
     - **Actions**. These are what happens when content matching the conditions is identified. An action could be to block access to a document and send the user and compliance manager an email notification.
 
 > [!NOTE]
-> Information the user should notice even if skimmingPlease refer to the Microsoft 365 licensing guidance for security and compliance for additional information on the licensing requirements for this solution.
+> Please refer to the Microsoft 365 licensing guidance for security and compliance for additional information on the licensing requirements for this solution.
 
 ## Customer scenarios
 

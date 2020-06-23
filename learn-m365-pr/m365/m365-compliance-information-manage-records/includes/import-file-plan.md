@@ -37,7 +37,7 @@ The file plan template is a comma separated value (CSV) file. You download it fr
 The next step in the process is to complete the file plan template. Since your goal should be to import the file plan into Microsoft 365, do not make any changes to the column headings. You can save the file as whatever name you prefer. Be sure to export the file to CSV format if you convert it to an Excel workbook (XLSX) file and use rich formatting to facilitate collaboration with stakeholders.
 
 > [!NOTE]
-> Information the user should notice even if skimmingThere is a per-field limit of 64 characters when importing your file plan. You can add more characters to each field after the import, if required.
+> There is a per-field limit of 64 characters when importing your file plan. You can add more characters to each field after the import, if required.
 
 ## Step 3: Import the file plan
 When ready, upload the completed plan to Microsoft 365. Once you have verified everything looks as expected, publish, or auto-apply the labels to activate them. Refer to the information governance module in this learning path for instructions on publishing or auto-applying a label policy.

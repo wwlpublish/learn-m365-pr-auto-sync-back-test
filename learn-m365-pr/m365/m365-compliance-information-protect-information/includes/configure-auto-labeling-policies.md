@@ -3,7 +3,7 @@ You can now create auto-labeling policies to automatically apply sensitivity lab
 The steps to create an auto labeling policy are listed below:
 - Info to label
 - Name
-- Locations
+- Choose locations
 - Policy rules
 - Label
 - Policy mode

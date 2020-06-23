@@ -59,7 +59,7 @@ Some advanced policy settings are not available in the Microsoft 365 compliance 
 - Add "Report an Issue" for users.
 
 > [!NOTE]
-> Information the user should notice even if skimmingThese advanced settings (both for policies and labels) are supported only by the Azure Information Protection unified labeling client and not the Office 365 built-in labeling client.
+> These advanced settings (both for policies and labels) are supported only by the Azure Information Protection unified labeling client and not the Office 365 built-in labeling client.
 
 ## Manage labels and label policies from the Microsoft 365 compliance center
 Any policies copied in the previous step will already be published. However, you may want to edit those existing policies or create new ones. Remember, labels are not visible until they are published. You must edit policies for clients using unified labeling in the Microsoft 365 compliance center. 

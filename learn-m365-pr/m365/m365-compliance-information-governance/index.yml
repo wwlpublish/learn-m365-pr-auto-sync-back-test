@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn-m365.m365-compliance-information-governance
 metadata:
-  title: Introduction to information and governance in Microsoft 365
+  title: Introduction to information protection and governance in Microsoft 365
   description: Learn how Microsoft 365 information protection and governance solutions help you protect and govern your data, throughout its lifecycle – wherever it lives, or wherever it travels. 
   ms.date: 06/15/2020
   author: ericweisberg
   ms.author: v-erwe
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Introduction to information and governance in Microsoft 365
+title: Introduction to information protection and governance in Microsoft 365
 summary: Learn how Microsoft 365 information protection and governance solutions help you protect and govern your data, throughout its lifecycle – wherever it lives, or wherever it travels. 
 abstract: |
   Upon completion of this module, you should be able to: 
