@@ -1,5 +1,5 @@
 
-![Integration architecture](../media/integraton-architecture.png)
+![Integration architecture](../media/integration-architecture.png)
 
 The Azure ATP cloud service runs on Azure infrastructure and is currently deployed in the US, Europe, and Asia. Azure ATP cloud service is connected to Microsoft's intelligent security graph. This enables Azure ATP to integrate with Microsoft Cloud App Security, as part of a Microsoft Threat Protection monitoring strategy.
 
