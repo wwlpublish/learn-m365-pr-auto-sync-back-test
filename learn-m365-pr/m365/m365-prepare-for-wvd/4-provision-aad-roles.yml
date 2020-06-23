@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.prepare-for-wvd.provision-aad-roles
+title: Set up Azure resources, assign roles, and licenses
+metadata:
+  title: Set up Azure resources, assign roles, and licenses
+  description: Learn about the Azure resources needed for Windows Virtual Desktop and the different Azure Active Directory administrator roles required. 
+  ms.date: 06/02/2020
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/4-provision-aad-roles.md)]

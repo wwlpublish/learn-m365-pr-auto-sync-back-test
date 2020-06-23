@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.deploy-wvd.customize-workspace
+title: Customize the Windows Virtual Desktop workspace
+metadata:
+  title: Customize the Windows Virtual Desktop workspace
+  description: Learn how to change the name of the Windows Virtual Desktop workspace and desktop.
+  ms.date:  06/12/2020
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/5-customize-workspace.md)]

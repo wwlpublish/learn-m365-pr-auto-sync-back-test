@@ -1,0 +1,48 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.optimize-wvd.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: Review what you learned about optimizing Windows Virtual Desktop.
+  ms.date: 06/15/2020
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 3
+quiz:
+   title: Check your knowledge
+   questions:
+   - content: "Which of these steps is not part of creating an FSLogix profile?"
+     choices:
+     - content: "Create an Azure storage account with a file share"
+       isCorrect: false
+       explanation: "Incorrect. FSLogix profiles store user-assigned virtual disks in the file share in Azure."
+     - content: "Create a new role in Azure AD to read and write in Azure storage"
+       isCorrect: false
+       explanation: "Incorrect. You need a new role in Azure AD to read and write in Azure storage so users can access and modify the virtual disks that contain their user profile."
+     - content: "Install FSLogix software in Windows Virtual Desktop gallery images"
+       isCorrect: true
+       explanation: "Correct. FSLogix software is preinstalled in the Azure gallery images. If you use your *own* image, you'll need to install the FSLogix software yourself."
+   - content: "What service can you use to migrate file or user profile data from an on-premises location to Azure?"
+     choices:
+     - content: "Azure Automation"
+       isCorrect: false
+       explanation: "Use Azure Automation and Azure Logic Apps to automatically scale Windows Virtual Desktop session hosts."
+     - content: "Azure File Sync"
+       isCorrect: true
+       explanation: "Deploy Azure File Sync to sync on-premises files or user profile data to Azure Storage."
+     - content: "Windows Virtual Desktop"
+       isCorrect: false
+       explanation: "Virtualize desktops and apps by using Windows Virtual Desktop."
+   - content: "What's one of the primary reasons to use automated scaling in Windows Virtual Desktop?"
+     choices:
+     - content: "To increase virtual disk storage when users get close to reaching the limits in a VM."
+       isCorrect: false
+       explanation: "Incorrect. Automated scaling is used to provision and deprovision VMs to save costs based on user demands or usage patterns. Vertically scaling VM size is possible but not the primary reason for autoscaling."
+     - content: "To increase service uptime and availability"
+       isCorrect: false
+       explanation: "Incorrect. VM availability sets are used to help ensure service uptime and availability. Automated scaling is used to provision and deprovision VMs to save costs based on user demands or usage patterns."
+     - content: "To save costs by matching the number of running VMs to user demand"
+       isCorrect: true
+       explanation: "Correct. Automated scaling is used to provision and deprovision virtual machines in order to save costs based on user demands or usage patterns. The automation can be based on a schedule to match common business hours or actual resource utilization."

@@ -1,5 +1,0 @@
-Windows Virtual Desktop provides tools and approaches to automate scaling VM resources in your host pools. One of the primary benefits to hosting Remote Desktop Service in the cloud is that you can shut down compute resources to save costs during off-peak hours, and then restart them either on a schedule or dynamically, based on session host utilization. 
-
-The Windows Virtual Desktop scaling scripts include logic to periodically determine activity levels in VMs before draining underutilized user session hosts and shutting them down. During off-peak usage (usually after hours) the script can reduce the number of running VMs; during peak usage, the script can dynamically provision additional VMs when user density exceeds defined thresholds that trigger scaling. 
-
-Download the scaling scripts from the [scaling script repository](https://aka.ms/WVDscaling) in GitHub. They currently run in the context of a connected VM using scheduled tasks. In the future, scaling operations will use Azure Automation.
