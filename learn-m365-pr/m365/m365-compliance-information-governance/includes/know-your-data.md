@@ -17,7 +17,6 @@ Classification is the process of identifying and labeling content in your organi
 ### Sensitive information types
 Most information protection and governance workflows leverage sensitive information types. A sensitive information type is defined by a pattern that can be identified by a regular expression or function. One commonly recognized sensitive information type is a credit card number. Microsoft includes about 100 of the most common sensitive information types, or you can create your own.
 ### Trainable classifiers (currently in preview)
-Trainable classifiers (in preview)
 Data can also be classified via trainable classifiers. Trainable classifiers use artificial intelligence and machine learning to intelligently classify your data. They are most useful classifying data unique to an organization like specific kinds of contracts, invoices, or customer records. This method of classification is more about training a classifier to identify an item based on what the item is, not by elements that are in the item (pattern matching).
 
 ### Labels
@@ -57,8 +56,8 @@ Built-in manual labeling is available on all Office app platforms. Windows users
 ### Automated labeling in Office for the web and Windows
 The capability for users to do manual labeling is certainly a step in the right direction, but users cannot always be relied upon to do this on their own. Automated labeling is available in Office apps starting with Office on the web and Office on Windows. Users can override the automatically applied labels provided the administrator has configured the system to allow it.  
 
-### Automated labeling on content stored in OneDrive, SharePoint Online, and Exchange Online (currently in preview)
-You can now create auto-labeling policies to automatically apply sensitivity labels to email messages or documents stored in Microsoft 365 services like OneDrive, SharePoint Online, and Exchange Online. Because this labeling is applied by services rather than by applications, you do not need to worry about what apps users have and what version they are using. 
+### Automated labeling on content stored in OneDrive, SharePoint, and Exchange 
+You can now create auto-labeling policies to automatically apply sensitivity labels to email messages or documents stored in Microsoft 365 services like OneDrive, SharePoint, and Exchange. Because this labeling is applied by services rather than by applications, you do not need to worry about what apps users have and what version they are using. 
 
 ## Discover and classify Microsoft 365 content
 The ability to discover and classify data in Microsoft 365 apps and services is part of the core functionality of Microsoft's information protection and governance solutions. These locations include the following:

@@ -35,11 +35,11 @@ There are three options to choose the type of content you want to apply this lab
    - Create a custom policy consisting of the sensitive information types you choose (like credit card and IP address).   
 - **Apply label to content that contains specific words or phrases**. You can auto-apply labels to content that satisfies certain conditions using Keyword Query Language (KQL) syntax to specify words, phrases, or searchable properties (such as "subject" for email and "author" for documents). Here are some examples:
    - Exchange
-      - subject: "Quarterly Financials"
+      - subject:"Quarterly Financials"
       -	recipients:garthf@contoso.com
    - SharePoint and OneDrive
       - contenttype:contract
-      -	site: https://contoso.sharepoint.com/sites/teams/procurement AND contenttype:contract
+      -	site:https://contoso.sharepoint.com/sites/teams/procurement AND contenttype:contract
 
 - **Apply label to content that matches a trainable classifier**. Custom trainable classifiers are used to identify categories of content specific to your organization, like contracts, employee agreements, or financial documents. Microsoft has also provided built-in trainable classifiers to classify content like resumes or source code.  
 

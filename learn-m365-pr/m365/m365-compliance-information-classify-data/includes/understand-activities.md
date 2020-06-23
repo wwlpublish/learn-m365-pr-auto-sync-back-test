@@ -9,7 +9,7 @@
 > 
 > Please review Microsoft 365 licensing guidance for security & compliance to identify required licenses for your organization.
 
-The table below lists the activity types available for analysis.
+Here are the activity types available for analysis.
 
 - File created	
 - File modified	

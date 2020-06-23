@@ -18,10 +18,10 @@ Enter a short name for the retention policy to be displayed on the Retention pag
 Enter a description of the retention policy's purpose.
 
 ## Step 2: Settings
-The first decision you need to make when configuring the settings for the retention policy is which path to take, basic or advanced. The basic path, along with its branches, is represented by the settings under the heading, **Do you want to retain content?** The advanced path is represented by the settings under the heading. **Need more options? The basic branch applies to all content in the locations you choose, while the advanced path lets you set more granular application options**.
+The first decision you need to make when configuring the settings for the retention policy is which path to take, basic or advanced. The basic path, along with its branches, is represented by the settings under the heading, **Do you want to retain content?** The advanced path is represented by the settings under the heading. **Need more options?** The basic branch applies to all content in the locations you choose, while the advanced path lets you set more granular application options.
 
 > [!NOTE]
-> Information the user should notice even if skimmingWhile the advanced **Need more options?** path still exists today, a best practice is to use retention labels instead when you need to apply granular retention settings. It is not covered here for that reason.
+> While the advanced **Need more options?** path still exists today, a best practice is to use retention labels instead when you need to apply granular retention settings. It is not covered here for that reason.
 
 ### Do you want to retain content?
 

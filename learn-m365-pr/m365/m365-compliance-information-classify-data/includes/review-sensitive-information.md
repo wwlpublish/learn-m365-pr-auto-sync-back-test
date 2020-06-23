@@ -1,4 +1,4 @@
-The data classification **Overview** page provides snapshots of how sensitive information and labels are being used in your organization. It displays the volume of sensitive data across Exchange, SharePoint Online, and OneDrive. The view is categorized by sensitive information types, like US Social Security Number, Credit Card Number, and IP Address.
+The data classification **Overview** page provides snapshots of how sensitive information and labels are being used in your organization. It displays the volume of sensitive data across Exchange, SharePoint, and OneDrive. The view is categorized by sensitive information types, like US Social Security Number, Credit Card Number, and IP Address.
 
 The **Overview** page can answer questions like: 
 - What sensitive data is out there?
