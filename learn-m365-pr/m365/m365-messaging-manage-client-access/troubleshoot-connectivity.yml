@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-messaging-manage-client-access.troubleshoot-connectivity
+title: Troubleshoot client connectivity
+metadata:
+  title: Troubleshoot client connectivity
+  description: Learn how to configure clients to access associated Exchange Online mailboxes, how to troubleshoot connectivity issues, and how to connect your clients. 
+  ms.date: 04/01/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 2
+content: |
+  [!include[](includes/troubleshoot-connectivity.md)]

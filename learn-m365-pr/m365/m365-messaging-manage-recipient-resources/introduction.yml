@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-messaging-manage-recipient-resources.introduction
+title: Introduction to managing recipient resources
+metadata:
+  title: Introduction to managing recipient resources
+  description: Learn how to manage different mailbox types, configure mailbox policies and permissions, and understand licensing options.
+  ms.date: 04/07/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/introduction.md)]

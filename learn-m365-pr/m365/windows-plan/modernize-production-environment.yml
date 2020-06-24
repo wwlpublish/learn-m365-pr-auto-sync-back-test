@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.windows-plan.modernize-production-environment
+title: Modernize your production environment
+metadata:
+  title: Modernize your production environment.
+  description: Modernize your production environment.
+  ms.date: 05/20/2020
+  author: IanKensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 6
+content: |
+  [!include[](includes/modernize-production-environment.md)]
+
+

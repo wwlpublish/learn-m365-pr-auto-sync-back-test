@@ -1,0 +1,67 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-onedrive-collaboration-plan-configure-sharing.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Learn what you as an administrator need to know for planning and configuring external sharing in OneDrive. External sharing is a core collaboration feature of OneDrive and has multiple configuration scenarios available are available to every organization. Learn what different sharing options exist and how they relate to the users sharing experience across applications and devices. 
+  ms.date: 06/15/2020
+  author: ericweisberg
+  ms.author: v-erwe
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+ 
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: Which OneDrive sharing setting lets users freely forward links to people outside the organization?"
+      choices:
+      - content: "Anyone"
+        isCorrect: true
+        explanation: "The Anyone sharing option allows users to share files to anyone outside of their organization anonymously. This ensures that whoever is intended to receive the file will be able to open it."
+      - content: "New and existing guests"
+        isCorrect: false
+        explanation: "Guests require authentication to access file or content when shared with them."
+      - content: "Existing guests "
+        isCorrect: false
+        explanation: "People in your organization does not allow any external sharing."
+
+    - content: "True or False: If the default sharing link is set to View, users can change it to Edit when they share."
+      choices:
+      - content: "True"
+        isCorrect: true
+        explanation: "The default sharing link (which can be set at the organization and site level) controls the permission that’s selected by default."
+      - content: "False"
+        isCorrect: false
+        explanation: "The default sharing link (which can be set at the organization and site level) controls the permission that’s selected by default."
+      
+    - content: "How do the external sharing setting for SharePoint relate to the external sharing setting for OneDrive?"
+      choices:
+      - content: "The setting for OneDrive can be more restrictive than the setting for SharePoint, but not more permissive. "
+        isCorrect: true
+        explanation: "SharePoint cannot be more permissive than OneDrive."
+      - content: "SharePoint admins aren’t allowed to control the external sharing settings for OneDrive."
+        isCorrect: false
+        explanation: "The external sharing setting for OneDrive can be more restrictive than the setting for SharePoint, but not more permissive."
+      - content: "You can limit external sharing by domain in OneDrive, but not SharePoint."
+        isCorrect: false
+        explanation: "The external sharing setting for OneDrive can be more restrictive than the setting for SharePoint, but not more permissive."
+      
+    - content: "What options for the default sharing link type can be selected by an administrator?"
+      choices:
+      - content: "Specific people (only the people the user specifies)"
+        isCorrect: false
+        explanation: "This is an available option but not the only option."
+      - content: "Only people in your organization"
+        isCorrect: false
+        explanation: "This is an available option but not the only option. "
+      - content: "Anyone with the link"
+        isCorrect: false
+        explanation: "This is an available option but not the only option."
+      - content: "All of the above"
+        isCorrect: true
+        explanation: "All link types can be selected by default."
+      
+ 

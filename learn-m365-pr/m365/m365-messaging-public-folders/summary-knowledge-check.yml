@@ -1,0 +1,78 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-messaging-public-folders.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Learn how you can continue to use public folders while your company implements a hybrid environment with Microsoft 365. In a hybrid environment, you need to make choices about where these folders should reside.
+  ms.date: 05/18/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 6
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "What are the two kinds of public folder hierarchies? One is read-write and the other is read-only."
+      choices:
+      - content: "Legacy and modern."
+        isCorrect: false
+        explanation: "That's incorrect. Legacy and modern are the two types of public folders. These relate to the version of Exchange server on which they were created."
+      - content: "Top-level and sub-level."
+        isCorrect: false
+        explanation: "That's incorrect. Public folders exist in a hierarchy, so there are top-level and sub-level folders, but they are not read-write and read-only."
+      - content: "Primary and secondary"
+        isCorrect: true
+        explanation: "That's right. The primary public folder hierarchy is read-write, with changes to it synchronized to all the read-only secondary public folder hierarchies."
+
+    - content: "How do you change the email address associated with a mail-enabled public folder?"
+      choices:
+      - content: "Using the EAC, change the email address on the summary screen, as you create a public folder."
+        isCorrect: false
+        explanation: "That's incorrect. There’s no option to specify the email address when you create a public folder."
+      - content: "Using the EAC, edit the properties in the email address section, after you've mail-enabled the public folder."
+        isCorrect: true
+        explanation: "That's right. You can only change the email address of a mail-enabled public folder after you create the public folder. You then edit properties that are mail-related."
+      - content: "Using the PowerShell command, Enable-MailPublicFolder, when you create a public folder."
+        isCorrect: false
+        explanation: "That's incorrect. The Enable-MailPublicFolder command doesn't allow you to specify an email address. There is no -Mail parameter."
+      
+    - content: "What is the last step you should take when you move content between public folder mailboxes?"
+      choices:
+      - content: "You can only have one move request at a time, so you need to run the Remove-PublicFolderMoveRequest PowerShell command to delete the completed request."
+        isCorrect: true
+        explanation: "That's right. Only a single move request can exist at any one time. After you've checked the status that it's completed, you need to remove the request."
+      - content: "You aren't notified when a move request completes. You need to run the Get-PublicFolderMoveRequest PowerShell command to check the status of the request."
+        isCorrect: false
+        explanation: "That's incorrect. You do need to run this command to check on the status of the move request, but it's not the last step you have to do."
+      - content: "After the move request has completed, you need to manually delete the original contents so there are no duplicates."
+        isCorrect: false
+        explanation: "That's incorrect. You don't need to do this. The move request deletes the original content."
+      
+    - content: "Which role allows you to export eDiscovery case data?"
+      choices:
+      - content: "eDiscovery Manager"
+        isCorrect: false
+        explanation: "That's incorrect. The Manager role allows a user to manage cases they own, but they cannot export case data."
+      - content: "eDiscovery Administrator"
+        isCorrect: true
+        explanation: "That's right. The Administrator role allows a user to manage all cases in an organization, and export all case data."
+      - content: "eDiscovery Exporter"
+        isCorrect: false
+        explanation: "That's incorrect. This role doesn’t exist."
+      
+    - content: "What is the guidance for using PST files to migrate public folders?"
+      choices:
+      - content: "The simplest way is to use PST files in most situations, and end users can complete them."
+        isCorrect: false
+        explanation: "That's incorrect. There are disadvantages to using PST files, which means they aren't appropriate in every situation."
+      - content: "You should never use PST files, as they can't migrate existing permissions and might cause mailbox size issues."
+        isCorrect: false
+        explanation: "That's incorrect. You can use them, but you need to be aware of the limitations of what is migrated."
+      - content: "You can use PST files, as they are a quick way to migrate a public folder."
+        isCorrect: true
+        explanation: "That's right. You can use them, but you need to be aware of the limitations of what is migrated. For example, permissions aren’t migrated. Large public folders can take up to two weeks to auto-split correctly in mailboxes."
+  
+        
