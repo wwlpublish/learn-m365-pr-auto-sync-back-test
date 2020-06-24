@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn-m365.m365-compliance-information-governance
+metadata:
+  title: Introduction to information protection and governance in Microsoft 365
+  description: Learn how Microsoft 365 information protection and governance solutions help you protect and govern your data, throughout its lifecycle – wherever it lives, or wherever it travels. 
+  ms.date: 06/15/2020
+  author: ericweisberg
+  ms.author: v-erwe
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Introduction to information protection and governance in Microsoft 365
+summary: Learn how Microsoft 365 information protection and governance solutions help you protect and govern your data, throughout its lifecycle – wherever it lives, or wherever it travels. 
+abstract: |
+  Upon completion of this module, you should be able to: 
+  - Discuss information protection and governance and why it’s important.
+  - Describe Microsoft’s approach to information protection and governance.
+  - Define key terms associated with Microsoft’s information protection and governance solutions.
+  - Identify the solutions that comprise information and governance in Microsoft 365.
+
+prerequisites: | 
+   - Cloud computing concepts
+   - Microsoft 365 product and services
+
+iconUrl:  /learn/achievements/introduction-information-governance.svg
+ratingEnabled: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-365
+units:
+- learn-m365.m365-compliance-information-governance.introduction
+- learn-m365.m365-compliance-information-governance.know-your-data
+- learn-m365.m365-compliance-information-governance.protect-your-data
+- learn-m365.m365-compliance-information-governance.prevent-data-loss
+- learn-m365.m365-compliance-information-governance.govern-your-data
+- learn-m365.m365-compliance-information-governance.summary-knowledge-check
+
+badge: 
+  uid: learn-m365.m365-compliance-information-governance.badges
