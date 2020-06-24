@@ -1,4 +1,5 @@
-Suppose you work at large accounting firm that uses Office 365. Your organizations has 50 employees that may use different devices depending on where they're working. Currently, your employees are struggling with ... (Or IT Dept...) You'd like to provide a consistent and performant Windows desktop experience with the apps your employees need to do their work. Simplified management? Security? Savings? (as they relate to greenfield - what's the key driver?) You want to see how Windows Virtual Desktop can help your organization.
+Suppose you work at large accounting firm that uses Microsoft 365. Your organizations has 50 employees that may use different devices depending on where they're working. During tax season, your organization hires short-term workers to be able to meet customer needs and tax deadlines. Tax software changes from year to year and your organization also has some legacy applications that are a challenge to support.
+You'd like to simplify management of the software your organization uses. You also need to support a flexible workforce by providing a secure, consistent, and performant experience to the apps they need to do their work. You want to see how Windows Virtual Desktop can help your organization.
 
 The following video gives you an overview of Windows Virtual Desktop.
 

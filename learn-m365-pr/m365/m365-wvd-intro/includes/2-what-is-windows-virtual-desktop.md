@@ -1,6 +1,6 @@
 Windows Virtual Desktop on Microsoft Azure is a desktop and app virtualization service that runs on the cloud. Windows Virtual Desktop works across devices, like Windows, Mac, iOS, Android, and Linux, with apps that you can use to access remote desktops and apps. You can also use most modern browsers to access Windows Virtual Desktop-hosted experiences. 
 
-## Improve the user experience
+## Provide the best user experience
 
 Users have the freedom to connect to  Windows Virtual Desktop with any device over the internet. They use a Windows Virtual Desktop client to connect to their published Windows desktop and applications. This client could either be a native application on the device or the Windows Virtual Desktop HTML5 web client.
 
@@ -24,55 +24,21 @@ Windows Virtual Desktop also improves security by using reverse connect technolo
 
 Windows Virtual Desktop is an Azure service which will be familiar to Azure administrators. You use Azure Active Directory and role-based access controls to manage access to resources. Also with Azure, you get  tools to automate VM deployments, manage VM updates, and provide disaster recovery. As with other Azure services, Windows Virtual Desktop uses Azure Monitor for monitoring and alerts. This lets admins identify issues through a single interface.
 
+## Manage performance
+
+Windows Virtual Desktop gives you options to load balance users on your VM host pools. **Host pools** are collections of VMs with the same configuration assigned to multiple users. For the best performance, you can configure load balancing to occur as users sign in (breadth mode). With breadth mode, users are sequentially allocated across the host pool for your workload. To save costs, you can configure your VMs for depth mode load balancing where users are fully allocated on one VM before moving to the next. Windows Virtual Desktop provides tools to automatically provision additional VMs when incoming demand exceeds a specified threshold.
+
+## Deploy multi-session Windows 10
+
+Windows Virtual Desktop lets you use Windows 10 Enterprise multi-session, the only Windows client-based operating system that enables multiple concurrent users on a single virtual machine (VM). Windows Virtual Desktop also provides a more consistent experience with broader application support compared to Windows Server-based operating systems.
+
 ## Licensing and Azure Reservations cost savings
 
-Windows Virtual Desktop is available to you at no additional cost if you have an eligible M365
-license. Just pay for the Azure resources required.
+Windows Virtual Desktop is available to you at no additional cost if you have an eligible Microsoft 365
+license. Just pay for the Azure resources used by Windows Virtual Desktop.
 
 - Licensing:
   - Bring your eligible Windows or Microsoft 365 license to get Windows 10 Enterprise and Windows 7 Enterprise desktops and apps at no additional cost.
   - If you're an eligible Microsoft Remote Desktop Services (RDS) Client Access License (CAL) customer, Windows Server Remote Desktop Services desktops and apps are available at no additional cost.
 - Azure Reservations: A Reserved Virtual Machine Instance can save you up to 72 percent versus pay-as-you-go pricing. You can buy one-year or three-year Azure Reserved Virtual Machine Instances. You can pay for a reservation up front or monthly.
 
-## Requirements
-
-Windows Virtual Desktop requires the following infrastructure, clients, and images.
-
-### Infrastructure
-
-Your infrastructure needs the following things to support Windows Virtual Desktop:
-
-- An Azure Active Directory organization
-- A Windows Server Active Directory in sync with Azure Active Directory. You can configure this with one of the following:
-   - Azure AD Connect (for hybrid organizations)
-   - Azure AD Domain Services (for hybrid or cloud organizations)
-- An Azure subscription that contains a virtual network that either contains or is connected to the Windows Server Active Directory or Active Directory Domain Services
-
-The Azure virtual machines you create for Windows Virtual Desktop must be:
-
-- Standard domain-joined or Hybrid AD-joined. Virtual machines can't be Azure AD-joined.
-- Running one of the supported OS images.
-
-### Supported Remote Desktop clients
-
-The following Remote Desktop clients support Windows Virtual Desktop:
-
-- Windows Desktop
-- Web
-- macOS
-- iOS
-- Android (Preview)
-- Linux
-
-### Supported virtual machine OS images
-
-Windows Virtual Desktop supports the following x64 operating system images:
-
-- Windows 10 Enterprise multi-session, version 1809 or later
-- Windows 10 Enterprise, version 1809 or later
-- Windows 7 Enterprise
-- Windows Server 2019
-- Windows Server 2016
-- Windows Server 2012 R2
-
-Windows Virtual Desktop doesn't support x86 (32-bit), Windows 10 Enterprise N, or Windows 10 Enterprise KN operating system images. Windows 7 also doesn't support any VHD or VHDX-based profile solutions hosted on managed Azure Storage due to a sector size limitation.

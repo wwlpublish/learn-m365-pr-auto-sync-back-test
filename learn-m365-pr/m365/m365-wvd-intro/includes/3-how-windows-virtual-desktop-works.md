@@ -1,31 +1,91 @@
 
 Windows Virtual Desktop is easier to deploy and manage than traditional Remote Desktop Services (RDS) or virtual desktop infrastructure (VDI) environments. You don't have to provision and manage servers and server roles like the gateway, connection broker, diagnostics, load balancing, and licensing. 
 
-## What you manage vs Microsoft
+## What's managed by Microsoft
 
 The following illustration shows what services are managed by Microsoft and what you manage.
 
-:::image type="content" source="../media/3-wvd-architecture.png" alt-text="Diagram that shows what's managed my Microsoft and what's managed by you.":::
+:::image type="content" source="../media/3-wvd-managed-by.png" alt-text="Diagram that shows what's managed my Microsoft and what's managed by you.":::
 
-## Multi-session Windows 10 deployment
+## What you manage
 
-Windows Virtual Desktop lets you use Windows 10 Enterprise multi-session, the only Windows client-based operating system that enables multiple concurrent users on a single virtual machine (VM). Windows Virtual Desktop also provides a more consistent experience with broader application support compared to Windows Server-based operating systems.
+### Desktop and remote apps
+
+Create application groups to group, publish, and assign access to remote apps or desktops. 
+
+- Remoteapp applications groups provide users access to the applications you individually publish to the application group. You can create multiple RemoteApp app groups to accommodate different user scenarios. Use RemoteApp to virtualize an app that runs on a legacy OS or one that needs secured access to corporate resources.
+- Remote Desktop application groups give users access to a the full desktop. You can provide a desktop where the session host VM resources are shared or pooled. Or you can provide personal desktops to users that need to be able to add or remove programs without impacting other users.
+
+### Management and policies
+
+- Images
+- App
+- Profiles
+- VM sizing and scaling
+- User management and identity - RBAC & Azure AD features
+- Networking - NSGs, Express Route, VPN...
+
+## What Microsoft manages
+
+- Windows Virtual Desktop service - Diagnostics with Azure Monitor, load balancing...
+- Azure infrastructure - compute, storage, networking
+
+## Infrastructure and system requirements
+
+Windows Virtual Desktop requires the following infrastructure, clients, and images.
+
+### Infrastructure
+
+Windows Virtual Desktop can be used in a cloud-only organizations or in a hybrid environment. Your infrastructure needs the following things to support Windows Virtual Desktop.
+
+For hybrid environments:
+
+- An Azure Active Directory organization
+- A Windows Server Active Directory in sync with Azure Active Directory. You can configure this with one of the following:
+   - Azure AD Connect
+   - Azure Active Directory Domain Services (Azure AD DS)
+- An Azure subscription that contains a virtual network that either contains or is connected to the Windows Server Active Directory or Active Directory Domain Services
+
+For cloud organizations:
+- An Azure Active Directory organization
+- Azure AD DS
+- An Azure subscription that contains a virtual network that either contains or is connected to the Active Directory Domain Services
 
 
-## Performance
+The Azure virtual machines you create for Windows Virtual Desktop must be:
 
-The integration of **FSLogix profiles** lets you store user profiles as containers on a separate virtual disk. When the user signs in, their virtual disk dynamically attaches in real time to any Windows Virtual Desktop VM, so the local files in the attached virtual disk feel like they're running from the local C:\ drive.
+- Standard domain-joined or Hybrid AD-joined. Virtual machines can't be Azure AD-joined.
+- Running one of the supported OS images.
 
-Windows Virtual Desktop gives you options to load balance users on your VM host pools. **Host pools** are collections of VMs with the same configuration assigned to multiple users. For the best performance, you can configure load balancing to occur as users sign in (breadth mode). With breadth mode, users are sequentially allocated across the host pool for your workload. To save costs, you can configure your VMs for depth mode load balancing where users are fully allocated on one VM before moving to the next. Windows Virtual Desktop provides tools to automatically provision additional VMs when incoming demand exceeds a specified threshold.
+### Supported Remote Desktop clients
+
+The following Remote Desktop clients support Windows Virtual Desktop:
+
+- Windows Desktop
+- Web
+- macOS
+- iOS
+- Android (Preview)
+- Linux
+
+### Supported virtual machine OS images
+
+Windows Virtual Desktop supports the following x64 operating system images:
+
+- Windows 10 Enterprise multi-session, version 1809 or later
+- Windows 10 Enterprise, version 1809 or later
+- Windows 7 Enterprise
+- Windows Server 2019
+- Windows Server 2016
+- Windows Server 2012 R2
+
+Windows Virtual Desktop doesn't support x86 (32-bit), Windows 10 Enterprise N, or Windows 10 Enterprise KN operating system images. Windows 7 also doesn't support any VHD or VHDX-based profile solutions hosted on managed Azure Storage due to a sector size limitation.
 
 ## Set up process
+
 Microsoft’s Windows Virtual Desktop solution on Microsoft Azure is a fully managed desktop virtualization solution.
 
 As you progress through the Windows Virtual Desktop training, you’ll notice that the setup process abstracts many of the infrastructure roles you might have deployed for RDS in the past. The initial provisioning is focused on hybrid integration and deploying host pools. The configuration focuses on the day-to-day operations like management of session host, identity, app, and storage. 
-
-  
- 
-![Prepare Deploy Optimize](../media/wvd-prep-deploy-optimize.png)
 
 Use this information to **Prepare > Deploy > Optimize** your Windows Virtual Desktop environments. 
  
