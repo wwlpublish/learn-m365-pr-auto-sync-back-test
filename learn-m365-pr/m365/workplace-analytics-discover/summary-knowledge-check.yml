@@ -27,15 +27,15 @@ quiz:
         isCorrect: false
         explanation: "Sorry, that’s incorrect. Microsoft 365 data and HR organization data are required in Workplace Analytics; CRM data is optional."
 
-    - content: "When conducting exploratory analysis, where would you go to view aggregated dashboards with out-of-the-box insights in Workplace Analytics?"
+    - content: "When conducting exploratory analysis, where would you go to view aggregated data with out-of-the-box insights in Workplace Analytics?"
       choices:
       - content: "Home page and View metrics"
         isCorrect: false
         explanation: "Sorry, that’s incorrect. You can view out-of-the-box insights using the Home page, but there is no View metrics option in the menu."
-      - content: "Explore dashboards and Queries"
+      - content: "Explore and Queries pages"
         isCorrect: false
         explanation: "Sorry, that’s incorrect. You can view out-of-the-box insights using the Explore dashboards. The Queries feature is used to access non-identifiable row-level data."
-      - content: "Explore dashboards and Home page"
+      - content: "Explore and Home page"
         isCorrect: true
         explanation: "Correct. The Home page provides quick insights into three areas of the collaborative experience."
       
