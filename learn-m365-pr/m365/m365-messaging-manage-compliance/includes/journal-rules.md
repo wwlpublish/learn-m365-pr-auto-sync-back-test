@@ -3,7 +3,7 @@ Journaling is the ability to record all communications, including email communic
 A journal rule defines which messages to record from which addresses and where to store them (in a journaling mailbox). When a journal rule records a message, it records it with a journal report, which is then submitted to the journaling mailbox. The original message that matches the journal rule is included unaltered as an attachment to the journal report. The body of a journal report contains information from the original message such as the sender email address, message subject, message-ID, and recipient email addresses. This is also referred to as *envelope journaling*, and is the only journaling method supported by Microsoft 365.
 
 >[!NOTE]
-> The number of journal rules you can create is determined by which Microsoft license your organization has. Check [Journal, Transport, and Inbox rule limits](https://docs.microsoft.com/en-us/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#journal-transport-and-inbox-rule-limits?azure-portal=true) before you implement journal rules in your production environment.
+> The number of journal rules you can create is determined by which Microsoft license your organization has. Check [Journal, Transport, and Inbox rule limits](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#journal-transport-and-inbox-rule-limits?azure-portal=true) before you implement journal rules in your production environment.
 
 ## Create a journal rule
 You can create a journal rule by using the Exchange admin center or by using the **New-JournalRule** Exchange Online PowerShell cmdlet. For this unit, we'll use the Exchange admin center.

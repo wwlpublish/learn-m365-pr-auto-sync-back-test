@@ -56,26 +56,25 @@ You can add different types of Policy Tips - notify-only, block-message, or bloc
 
 ### Create a notify-only Policy Tip to alert a user about sensitive information
 1.	In the EAC, in **Compliance management > Data loss prevention**, select the DLP policy that you want to add the Policy Tip to, and then select **Edit**.
-3.	On the **Edit DLP policy** page, select **Rules**.
-4.	To add a Policy Tip to an existing rule, highlight the rule, and select **Edit**.
+2.	On the **Edit DLP policy** page, select **Rules**.
+3.	To add a Policy Tip to an existing rule, highlight the rule, and select **Edit**.
    To add a new blank rule that you can fully customize, select **Add**, and then select **Create a new rule**.
-5.	Set **Apply this rule if** to **The message contains sensitive information**. This condition is required.
-6.	Select **Add**, and then select the sensitive information types you want the Policy Tip to flag. Select **Add**, then select **OK** and **OK** again.
-7.	Set **Do the following** to **Notify the sender with a Policy Tip**. Select an option in the **Choose whether the message is blocked or can be sent** list, and then select **OK**.
-8.	If you want to add additional conditions or actions, at the bottom of the window, select **More options**.
-
-   You can only use the following conditions:
+4.	Set **Apply this rule if** to **The message contains sensitive information**. This condition is required.
+5.	Select **Add**, and then select the sensitive information types you want the Policy Tip to flag. Select **Add**, then select **OK** and **OK** again.
+6.	Set **Do the following** to **Notify the sender with a Policy Tip**. Select an option in the **Choose whether the message is blocked or can be sent** list, and then select **OK**.
+7.	If you want to add additional conditions or actions, at the bottom of the window, select **More options**. You can use the following conditions with Policy Tips:
     - **The recipient is** (SentTo)
     - **The recipient is located** (SentToScope)
     - **The sender is** (From)
     - **The sender is a member of** (FromMemberOf)
-    - **The sender is located** (FromScope)
-   You *can't* use the following actions:
+    - **The sender is located** (FromScope)  
+
+    You *can't* use the following actions:
     - **Reject the message and include an explanation** (RejectMessageReasonText)
     - **Reject the message with the enhanced status code of** (RejectMessageEnhancedStatusCode)
     - **Delete the message without notifying anyone** (DeleteMessage)
-9.	In **Choose a mode for this rule list**, select whether you want the rule to be enforced. It's a good idea to test the rule first.
-10.	Select Save to finish modifying the rule and save your changes.
+8.	In **Choose a mode for this rule list**, select whether you want the rule to be enforced. It's a good idea to test the rule first.
+9. Select **Save** to finish modifying the rule and save your changes.
 
 ### Create a block-message or a block-unless-override Policy Tip
 Use a block-message Policy Tip with a rule that blocks sending a message with a problematic condition. You create the Policy Tip the same as the notify-only Policy Tip, but in addition to the **Notify the sender with a Policy Tip** action, also choose the **Block the message** action.

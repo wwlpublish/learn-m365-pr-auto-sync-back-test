@@ -19,7 +19,7 @@ The Content Search tool is available in the Microsoft 365 Security and Complianc
 1.	Go to the Security and Compliance center at https://protection.office.com/, and sign in using your Microsoft 365 credentials.
 2.	Click **Search > Content search**.
 3.	On the **Search** page, click the arrow next to **+ New search**.
-   [A screenshot shows the New search dropdown list in the Security and Compliance center.](../media/create-new-search.png) 
+   ![A screenshot shows the New search dropdown list in the Security and Compliance center.](../media/create-new-search.png) 
 4. Choose which kind of search you want to run:
    - **Guided search** - a wizard guides you through your search.
    - **New search** - create a search without the help of the search wizard. This is the default. 
