@@ -1,0 +1,78 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-compliance-information-protect-information.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Learn how to discover, classify, and protect sensitive and business-critical content throughout its lifecycle across your organization. 
+  ms.date: 06/15/2020
+  author: ericweisberg
+  ms.author: v-erwe
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+ 
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Which capability of Microsoft information protection defines health service numbers or credit card numbers by patterns?"
+      choices:
+      - content: "Sensitive information types "
+        isCorrect: true
+        explanation: "Microsoft 365 includes many sensitive information types that are ready for you to use in DLP policies and for automatic classification with sensitivity and retention labels. Sensitive information types define how the automated process recognizes specific information types such as health service numbers and credit card numbers. "
+      - content: "Sensitivity labels"
+        isCorrect: false
+        explanation: "With sensitivity labels, you can classify and help protect your sensitive content. Protection options include labels, watermarks, and encryption."
+      - content: "Data loss prevention  "
+        isCorrect: false
+        explanation: "With DLP policies, you can identify, monitor, and automatically protect sensitive information across Office 365. Data loss prevention policies can use sensitivity labels and sensitive information types to identify sensitive information.  "
+
+    - content: "Which of the following statements regarding encryption and sensitivity labeling configuration is accurate?"
+      choices:
+      - content: "Encryption prevents any chance of data loss internally or externally for the organization."
+        isCorrect: false
+        explanation: " Encryption cannot prevent manual data loss such as a user taking a picture of the screen."
+      - content: "When a sensitivity label is applied to existing encrypted permissions by a specified user and the encryption “None “ option is selected, the new label encryption is applied.  "
+        isCorrect: false
+        explanation: "When a sensitivity label is applied to existing encrypted permissions by a specified user and encryption “None “ option is selected, the original encryption is preserved.  "
+      - content: "Encryption remains with the document wherever it goes on whatever device. "
+        isCorrect: true
+        explanation: "The document remains encrypted no matter where it resides, inside or outside your organization, even if the file is renamed. "
+      
+    - content: "When viewing your sensitivity labels list in the Information protection solution, the order of the labels is important because it reflects their priority. You want your most restrictive sensitivity label, such as Highly Confidential, to appear at the bottom of the list, and your least restrictive sensitivity label, such as Public, to appear at the top. What best practice should you implement if users in your organization typically try to remove labels or replace labels with lower order numbers? "
+      choices:
+      - content: "Apply a default label"
+        isCorrect: false
+        explanation: "Consider using a default label to set a base level of protection settings that you want applied to all your content. However, without user training and other controls, this setting can also result in inaccurate labeling. "
+      - content: "Remove the user"
+        isCorrect: false
+        explanation: "If a user tries to remove a label or replace it with a label that has a lower-order number, you can require the user provides a justification to perform this action."
+      - content: "Require justification "
+        isCorrect: true
+        explanation: "If a user tries to remove a label or replace it with a label that has a lower-order number, you can require the user provides a justification to perform this action. "
+      
+    - content: "How do you add custom headers or footers to email messages or documents when the label is applied? "
+      choices:
+      - content: "Encryption "
+        isCorrect: false
+        explanation: "Encrypting your most sensitive documents and emails helps to ensure only authorized people can access this data. "
+      - content: "Content marking "
+        isCorrect: true
+        explanation: "Content marking adds custom headers, footers, and watermarks to email messages or documents when the label is applied. These marks are visible to the user. Content marking does not protect the document in any way. "
+      - content: "Auto-labeling "
+        isCorrect: false
+        explanation: "When Microsoft 365 detects sensitive content in email or documents matching the conditions you specify, it can automatically apply the label or show a message to the user recommending they apply it themselves.   "
+      
+    - content: "You can create auto-labeling policies to automatically apply sensitivity labels to email messages or documents that contain sensitive information in OneDrive for Business. What feature of auto-labeling eliminates the worry about what apps users have or what version? "
+      choices:
+      - content: "Labeling is applied by services"
+        isCorrect: true
+        explanation: "Because this labeling is applied by services rather than by applications, you don't need to worry about what apps users have and what version. As a result, this capability is immediately available throughout your organization and suitable for labeling at scale. "
+      - content: "Labeling is applied by applications"
+        isCorrect: false
+        explanation: "Because this labeling is applied by services rather than by applications, you don't need to worry about what apps users have and what version. As a result, this capability is immediately available throughout your organization and suitable for labeling at scale."
+      - content: "Labeling is applied manually"
+        isCorrect: false
+        explanation: "Because this labeling is applied by services rather than by applications, you don't need to worry about what apps users have and what version. As a result, this capability is immediately available throughout your organization and suitable for labeling at scale."
+      
