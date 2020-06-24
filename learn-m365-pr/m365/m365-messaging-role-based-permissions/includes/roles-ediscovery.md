@@ -1,6 +1,6 @@
 In this unit, you'll learn what eDiscovery is and how it is implemented in Exchange Online. You'll see how you can apply an eDiscovery role-based access control to the compliance team.
 
-## What is eDiscovery
+## What is eDiscovery?
 Microsoft 365 provides eDiscovery, or Electronic discovery, to help you identify and deliver electronic information that can be used as evidence in legal cases. You can use eDiscovery in Microsoft 365 to search for content in Exchange Online mailboxes, Microsoft 365 Groups, Microsoft Teams, SharePoint Online and OneDrive for Business sites, Skype for Business conversations, and Yammer teams. You can search for mailboxes and sites in the same eDiscovery search by using the Content Search tool in the Security & Compliance Center. And you can use eDiscovery cases in the Security & Compliance Center to identify, hold, and export content found in mailboxes and sites. 
 
 ## Permissions and role groups

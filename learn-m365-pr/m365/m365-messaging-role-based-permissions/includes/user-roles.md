@@ -1,6 +1,6 @@
 In this unit, you'll learn about how to manage role assignment policies. 
 
-Role assignment policies specify how end-user roles are assigned to users in Exchange Online. A role assignment policy is a collection of one or more end-user roles that enable users to manage their mailbox settings and distribution groups in Exchange Online. End-users roles are part of the role-based access control (RBAC) permissions model in Exchange Online. You can assign different role assignment policies to different users to allow or prevent specific self-management features in Exchange Online. 
+Role assignment policies specify how end-user roles are assigned to users in Exchange Online. A role assignment policy is a collection of one or more end-user roles that enable users to manage their mailbox settings and Exchange Online distribution groups. End-users roles are part of the role-based access control (RBAC) permissions model in Exchange Online. You can assign different role assignment policies to different users to allow or prevent specific self-management features. 
 
 In Exchange Online, a default role assignment policy named Default Role Assignment Policy is specified by the mailbox plan that's assigned to users when their account is licensed. 
 
@@ -17,7 +17,7 @@ There are several ways you can use role assignment policies to assign permission
 
 The available end-user roles that you can assign to mailbox plans are described in [Role assignment policies](https://docs.microsoft.com/exchange/permissions-exo/role-assignment-policies). 
 
-To manage role assignments, you'll need the **Role Management** RBAC role in Exchange Online, and you'll require access to the Exchange admin center (EAC). 
+To manage role assignments, you'll need the **Role Management** RBAC role in Exchange Online, and you'll need to be able to access the Exchange admin center (EAC). 
 
 ## View user role assignments in a role assignment policy 
 
@@ -29,15 +29,14 @@ To view the user role assignments in a policy:
 
    If you want to see the roles assigned to the assignment policy, click **Edit**. This also shows the available roles that aren't assigned to the policy. 
 
-## Add and remove roles to a role assignment policy 
+## Modify the roles to a role assignment policy 
 
-As the company grows, your initial role assignment policy needs to change. You can add or remove roles from a role assignment policy using one of the following procedures. 
+As the company grows, your initial role assignment policy needs to change. You can add or remove roles from a role assignment policy by using either the Exchange admin center or the Exchange Online PowerShell cmdlets. 
 
-### Add a role assignment policy in the Exchange admin center
+### Add a role to a role assignment policy in the Exchange admin center
 
-1. Sign in to the Exchange admin center (EAC) with your credentials. 
-2. Go to **Permissions**, and select **User roles**. 
-3. Select the role assignment policy.
+1. Sign in to the Exchange admin center and go to **Permissions > User roles**. 
+3. Select the role assignment policy that you want to modify.
 4. In the policy properties window that opens, do one of the following steps: 
 
    - To add a role, select it. 
@@ -49,7 +48,7 @@ As the company grows, your initial role assignment policy needs to change. You c
 
 ### Add a role to a role assignment policy using PowerShell 
 
-To add roles to a role assignment policy, run the following cmdlet: 
+To add roles to a role assignment policy, run the **New-ManagementRoleAssignment** cmdlet: 
 
 ```powershell 
 
@@ -59,23 +58,19 @@ New-ManagementRoleAssignment -Role <RoleName> -Policy "<RoleAssignmentPolicyName
 
 ## Create a role assignment policy 
 
-There will be occasions when the existing role assignment policies don't cover the organization. In those instances, you'll need to create a new role assignment policy. To create a new role assignment policy, follow these steps 
+There will be occasions when the existing role assignment policies don't cover your organization. In those instances, you'll need to create a new role assignment policy.  
 
 ### Create a role assignment policy in Exchange admin center
 
-1. From the user roles page in the Exchange admin center, select **New**. 
+1. From the **user roles** page in the Exchange admin center, select **New**. 
 
-2. Configure the following settings in the new role assignment policy window: 
-
-   - **Name**: Enter a descriptive name. 
-   - **Description**: Enter an optional description. 
-   - Select the roles that you want to assign to the policy. 
-
-3. When you're finished, select **Save**. 
+2. Enter a name and optional description for your new role assignment policy.
+3. Select the roles that you want to assign to the policy. 
+4. When you're finished, select **Save**. 
 
 ### Create a role assignment policy using PowerShell 
 
-To create a role assignment policy, run the following cmdlet: 
+To create a role assignment policy, run the **New-RoleAssignmentPolicy** cmdlet: 
 
 ```powershell 
 
@@ -85,12 +80,11 @@ New-RoleAssignmentPolicy -Name <UniqueName> [-Description "<Descriptive Text>"] 
 
 ## Modify a role assignment policy on mailboxes 
 
-A mailbox can have only one role assignment policy assigned. The role assignment policy that you assign to the mailbox replace the existing role assignment policy.  
+A mailbox can have only one role assignment policy assigned. The role assignment policy that you assign to the mailbox replaces the existing role assignment policy.  
 
 ### Modify a role assignment policy by using the Exchange admin center
 
-1. Sign in to the Exchange admin center (EAC) with your credentials. 
-2. Select **Recipients**, and then select **Mailboxes**.
+1. Into the Exchange admin center (EAC), go to **Recipients > Mailboxes**.
 3. Do one of the following steps: 
 
    - **Individual mailboxes**:  
@@ -117,7 +111,7 @@ Set-RoleAssignmentPolicy -Identity "<RoleAssignmentPolicyName>" -IsDefault
 
 ## Remove a role assignment policy 
 
-You can't remove the role assignment policy that's currently specified as the default. You first need to specify another role assignment policy as the default before you can delete the policy. 
+You can't remove the role assignment policy that's currently specified as the default. You first need to specify *another* role assignment policy as the default before you can delete the policy. 
 
 You can't remove a role assignment policy that's assigned to mailboxes. Instead, use the **Set-RoleAssignment** cmdlet to replace the role assignment policy that's assigned to mailboxes. Then you can remove the role assignment policy.
 
@@ -129,7 +123,7 @@ You can't remove a role assignment policy that's assigned to mailboxes. Instead,
 
 ### Remove a role assignment policy using PowerShell 
 
-To remove a role assignment policy, run the following cmdlet: 
+To remove a role assignment policy, run the **Remove-RoleAssignmentPolicy** cmdlet: 
 
 ```powershell  
 

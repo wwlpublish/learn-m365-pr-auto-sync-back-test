@@ -1,10 +1,10 @@
-In this unit, you'll learn about the admin role in Exchange Online, and how you can use Roles to assign it to your existing users. 
+In this unit, you'll learn about the admin role in Exchange Online and why you might want to assign that role to some of your existing users. 
 
-By default, new users are assigned the user role and don't have any administrative privileges. To help you administer Office 365, you can assign users permissions to manage your organization's email and mailboxes from the Exchange admin center. You do this by assigning them to the Exchange admin role.
+By default, new users are assigned the *user* role and don't have any administrative privileges. To help you administer your environment, you can grant individual users permission to manage your organization's email and mailboxes. You do this by assigning them to the Exchange admin role.
 
-When assigning someone to the Exchange admin role, you also assign them to the Service admin role. This way, they can see important information in the Microsoft 365 admin center, such as the health of the Exchange Online service, and change and release notifications.
+When you assign someone to the Exchange admin role, you also assign them to the Service admin role. This way, they can see important information in the Microsoft 365 admin center, like the health of the Exchange Online service and release notifications.
 
-Here are some of the key tasks users can do when they are assigned to the Exchange admin role:
+Here are some of the key tasks users can do when you assign them the Exchange admin role:
 
 - Recover deleted items in a user mailbox
 - Set up an archive and deletion policy
@@ -15,22 +15,24 @@ Here are some of the key tasks users can do when they are assigned to the Exchan
 
 ## Assigning admin roles
 
-Be selective, and only grant users an appropriate role. For example, if you need someone to help reset passwords, they don't need the global admin role. Instead, assign them the password admin role. Having too many global admins, with unlimited access to your data and online business, is a security risk.
+Be selective, and only grant users the appropriate role for the tasks they'll be doing. For example, if you need someone to help reset passwords, they don't need the global admin role. Instead, assign them the password admin role. Having too many global admins, with unlimited access to your data and online business, is a security risk.
 
-There are two ways to assign users to a role:
-- You can go to the user's details, and Manage roles to assign a role to the user.
-- Or you can go to Roles and select the role, and then add multiple users to it.
+There are two ways to assign users to a role: from the role or from the user.
 
 ### Assign an admin role to users using Roles
-1.	In the Exchange admin center, go to *Roles**. Select **Roles** to view all of the admin roles available for your organization.
+If you're granting admin permissions to more than one user, start at the role.
+
+1.	In the Exchange admin center, go to **Roles**. Select **Roles** to view all of the admin roles available for your organization.
 2.	Select the admin role that you want to assign to the user.
-   1. Select **Assigned admins**, and then select **Add**.
-   2. Enter the user's display name or username, and then select the user from the list of suggestions.
-   3. You can add the role to more users by selecting them here.
+    1. Select **Assigned admins**, and then select **Add**.
+    2. Enter the user's display name or username, and then select the user from the list of suggestions.
+    3. Repeat the previous step for each user you want to assign. 
 3.	Select **Save**.
 
 ### Assign a user to an admin role from Active users
-1.	In the Exchange admin center, go to **Users**, and then select **Active users**.
+If you're granting admin permissions to just one user, you can either use the steps above to start from the admin role or you can edit the user directly to manage their roles.
+
+1.	In the Exchange admin center, go to **Users > Active users**.
 2.	Select the user whose admin role you want to change. 
 3.	Next to **Roles**, select **Manage roles**.
 4.	Select the admin role that you want to assign to the user.

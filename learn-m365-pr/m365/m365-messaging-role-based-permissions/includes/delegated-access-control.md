@@ -1,7 +1,7 @@
-In this unit, you'll be introduced to delegated role-based access control (RBAC), how it applies to role groups, and the management of delegated roles.
+In this unit, you'll be introduced to delegated role-based access control (RBAC), how it applies to role groups, and how to use delegated roles.
 
 ## What is delegated role-based access control?
-As you learned in a previous unit, Microsoft Exchange Server includes several built-in role groups, including the Delegated Setup management role group. Administrators in the Delegated Setup role group can deploy Exchange servers that were previously provisioned by a member of the Organization Management role group.
+As you've learned, Microsoft Exchange includes several built-in role groups, including the Delegated Setup management group. Administrators in the Delegated Setup role group can deploy Exchange servers that were previously provisioned by a member of the Organization Management role group.
 
 Members of the Delegated Setup role group can only *deploy* Exchange servers. They can't provision a server, and they can't manage the server after it's been deployed. To manage a server after it's been deployed, the administrator needs to be in the Server Management role group.
 
