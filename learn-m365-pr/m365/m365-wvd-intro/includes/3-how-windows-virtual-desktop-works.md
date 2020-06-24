@@ -11,10 +11,10 @@ The following illustration shows what services are managed by Microsoft and what
 
 ### Desktop and remote apps
 
-Create application groups to group, publish, and assign access to remote apps or desktops. 
+Create application groups to group, publish, and assign access to remote apps or desktops.
 
 - Remoteapp applications groups provide users access to the applications you individually publish to the application group. You can create multiple RemoteApp app groups to accommodate different user scenarios. Use RemoteApp to virtualize an app that runs on a legacy OS or one that needs secured access to corporate resources.
-- Remote Desktop application groups give users access to a the full desktop. You can provide a desktop where the session host VM resources are shared or pooled. Or you can provide personal desktops to users that need to be able to add or remove programs without impacting other users.
+- Remote Desktop application groups give users access to a full desktop. You can provide a desktop where the session host VM resources are shared or pooled. Or you can provide personal desktops to users that need to be able to add or remove programs without impacting other users.
 
 ### Management and policies
 
@@ -36,7 +36,7 @@ Windows Virtual Desktop requires the following infrastructure, clients, and imag
 
 ### Infrastructure
 
-Windows Virtual Desktop can be used in a cloud-only organizations or in a hybrid environment. Your infrastructure needs the following things to support Windows Virtual Desktop.
+Windows Virtual Desktop can be used in a cloud-only organization or in a hybrid environment. Your infrastructure needs the following things to support Windows Virtual Desktop.
 
 For hybrid environments:
 
