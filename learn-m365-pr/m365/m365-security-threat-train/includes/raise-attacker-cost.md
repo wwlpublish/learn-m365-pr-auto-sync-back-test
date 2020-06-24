@@ -6,4 +6,4 @@ You must defend against the cheapest attack techniques first. Blocking the cheap
 
 You must also have good detection and response processes and capabilities - these both limit the time attackers have to conduct attacks and the freedom to explore while they are there. These capabilities will also quickly raise the cost to attack your environment
 
-Once you have solid detection and response in place against known attacks, you can start to defend against potential and future attacks. This is not a luxury most organizations can afford. 
+Once you have solid detection and response in place against known attacks, you can start to defend against potential and future attacks.
