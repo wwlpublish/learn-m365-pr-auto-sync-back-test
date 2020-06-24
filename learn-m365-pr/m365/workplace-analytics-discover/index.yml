@@ -1,0 +1,35 @@
+### YamlMime:Module
+uid: learn-m365.workplace-analytics-discover
+metadata:
+  title: Discover Microsoft Workplace Analytics
+  description: Learn what Microsoft Workplace Analytics is, how it works, and key features that allow you to generate insights and improve collaboration in your organization.  
+  ms.date: 06/19/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Discover Microsoft Workplace Analytics
+summary: Learn what Microsoft Workplace Analytics is, how it works, and key features that allow you to generate insights and improve collaboration in your organization.  
+abstract: |
+  At the end of this module, you should be able to:
+  - Identify how Workplace Analytics can help improve collaboration behaviors in your organization.
+  - Discover the sources of data that are used in Workplace Analytics.
+  - Learn how to navigate and use the features in Workplace Analytics.
+  - Understand tasks and considerations for setting up Workplace Analytics and managing privacy.
+prerequisites: None
+iconUrl: /learn/achievements/discover-workplace-analytics.svg
+levels:
+- beginner
+roles:
+- business-analyst
+products:
+- m365
+- m365-workplace-analytics
+units:
+- learn-m365.workplace-analytics-discover.introduction
+- learn-m365.workplace-analytics-discover.see-how-tool-works
+- learn-m365.workplace-analytics-discover.navigate
+- learn-m365.workplace-analytics-discover.setup-privacy
+- learn-m365.workplace-analytics-discover.summary-knowledge-check
+badge: 
+  uid: learn-m365.workplace-analytics-discover.badge
