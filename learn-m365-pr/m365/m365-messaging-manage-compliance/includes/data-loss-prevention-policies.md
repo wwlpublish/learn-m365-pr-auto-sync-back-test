@@ -1,15 +1,15 @@
-To comply with business standards and industry regulations, organizations must protect sensitive information and prevent its inadvertent disclosure. Sensitive information can include financial data or Personally Identifiable Information (PII) such as credit card numbers, social security numbers, or health records. With a data loss prevention (DLP) policy in the Microsoft 365 Security & Compliance Center, you can identify, monitor, and automatically protect sensitive information. 
+To comply with business standards and industry regulations, organizations must protect sensitive information and prevent its inadvertent disclosure. Sensitive information can include financial data or personal information like credit card numbers or health records. With a data loss prevention (DLP) policy in the Microsoft 365 Security & Compliance Center, you can identify, monitor, and automatically protect sensitive information. 
 
-DLP policies are simple packages that contain sets of conditions, which are made up of mail flow rule (also known as transport rule) conditions, exceptions, and actions that you create in the Exchange admin center (EAC) and then activate to filter email messages and attachments. 
+DLP policies are simple packages that contain sets of conditions, which are made up of mail flow rule conditions, exceptions, and actions that you create in the Exchange admin center (EAC) and then activate to filter email messages and attachments. 
 
 >[!CAUTION]
 > You should enable your DLP policies in test mode before running them in your production environment. During such tests, it is recommended that you configure sample user mailboxes and send test messages that invoke your test policies in order to confirm the results.
 
 ## Configure a DLP policy from a template
 
-Microsoft Exchange includes DLP policy templates. These templates contain pre-built sets of rules that can help you manage message data that is associated with several common legal and regulatory requirements. For example, Exchange includes templates to help you manage Gramm-Leach-Bliley Act (GLBA) data and United States Personally Identifiable Information (U.S. PII).
+Microsoft Exchange includes DLP policy templates. These templates contain pre-built sets of rules that can help you manage message data that is associated with several common legal and regulatory requirements. For example, Exchange includes templates to help you manage Gramm-Leach-Bliley Act (GLBA) data.
 
-You can customize any of these DLP templates or use them as-is. DLP policy templates are built on top of mail flow rules (also known as transport rules) that include new conditions or predicates and actions. DLP policies support the full range of traditional mail flow rules, and you can add the additional rules after a DLP policy has been established. 
+You can customize any of these DLP templates or use them as-is. DLP policy templates are built on top of mail flow rules that include new conditions or predicates and actions. DLP policies support the full range of traditional mail flow rules, and you can add the additional rules after a DLP policy has been established. 
 
 1.	In the EAC, go to **Compliance management > Data loss prevention**, and then click **Add**.
 
