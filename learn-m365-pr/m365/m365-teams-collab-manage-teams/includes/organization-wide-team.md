@@ -1,6 +1,6 @@
 Organization-wide teams provide an automatic way for everyone in a small to medium-sized organization to be a part of a single team for collaboration.
 
-With org-wide teams, global administrators can easily create a public team that pulls in every user in the organization and keeps the membership up-to-date with Active Directory as users join and leave the organization. Only global administrators can create org-wide teams and currently an org-wide team is limited to organizations with no more than 5,000 users. There's also a limit of five org-wide teams per tenant.
+With org-wide teams, global administrators can easily create a public team that pulls in every user in the organization and keeps the membership up-to-date with Active Directory as users join and leave the organization. Only global administrators can create org-wide teams and currently an org-wide team is limited to organizations with no more than 10,000 users. There's also a limit of five org-wide teams per tenant.
 
 ![Select org-wide-team](../media/org-wide-team.png)
 
@@ -8,7 +8,7 @@ With org-wide teams, global administrators can easily create a public team that 
 
 When you create an org-wide team, all global administrators are added as team owners and all active users are added as team members, including unlicensed users. The first time an unlicensed user signs into Teams, the user is assigned a Microsoft Teams Commercial Cloud Trial license.
 
-The following account types won’t be added to your org-wide team:
+The following account types won't be added to your org-wide team:
 
 - Accounts that are blocked from sign-in
 - Guest users
