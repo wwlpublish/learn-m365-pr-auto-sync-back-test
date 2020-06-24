@@ -23,7 +23,7 @@ To create a retention tag:
       > You can't use the EAC to create a DPT to delete voice mail items. Instead use the **New-RetentionPolicyTag** cmdlet.
     - **Applied automatically to a specific folder**: Select this option to create a retention policy tag (RPT) for a default folder such as Inbox or Deleted Items.
       >[!NOTE]
-      >You can only create RPTs with the Delete and allow recovery or Permanently delete actions.
+      >You can only create RPTs with the **Delete and allow recovery** or **Permanently delete** actions.
     - **Applied by users to items and folders (Personal)**: Select this option to create personal tags. These tags allow Outlook and Outlook on the web (formerly known as Outlook Web App) users to apply archive or deletion settings to a message or folders that are different from the settings applied to the parent folder or the entire mailbox.
 3.	Complete the following fields for the new retention tag:
     - **Name**: Enter a name for the retention tag. The tag name is for display purposes and doesn't have any impact on the folder or item a tag is applied to. Consider that the personal tags you provision for users are available in Outlook and Outlook on the web.
@@ -33,7 +33,7 @@ To create a retention tag:
 
    - **Delete and Allow Recovery**: Select this action to delete items but allow users to recover them using the Recover Deleted Items option in Outlook or Outlook on the web. Items are retained until the deleted item retention period configured for the mailbox database or the mailbox user is reached.
    - **Permanently Delete**: Select this option to permanently delete the item from the mailbox database.
-      >[IMPORTANT]
+      >[!IMPORTANT]
       > Mailboxes or items subject to In-Place Hold or litigation hold will be retained and returned in In-Place eDiscovery searches.
    - **Move to Archive**: Select this action to move items to the user's In-Place Archive. This action is available only if you're creating a DPT or a personal tag. 
 5. Define the **retention period**: 
@@ -47,12 +47,12 @@ The next step is to create a retention policy. Use a retention policy to decide 
 
 A retention policy can contain the following tags:
 
-      - One DPT with the **Move to Archive** action.
-      - One DPT with the **Delete and Allow Recovery** or **Permanently Delete** actions.
-      - One DPT for voice mail messages with the **Delete and Allow Recovery** or **Permanently Delete** actions.
-      - One RPT per default folder such as **Inbox** to delete items.
-      - Any number of personal tags.
-      - One or more retention policy tags (RPTs) for supported default folders
+   - One DPT with the **Move to Archive** action.
+   - One DPT with the **Delete and Allow Recovery** or **Permanently Delete** actions.
+   - One DPT for voice mail messages with the **Delete and Allow Recovery** or **Permanently Delete** actions.
+   - One RPT per default folder such as **Inbox** to delete items.
+   - Any number of personal tags.
+   - One or more retention policy tags (RPTs) for supported default folders
 
    >[!NOTE]
    > Although you *can* add any number of personal tags to a retention policy, having many personal tags with different retention settings can confuse users. Consider limiting the number of personal tags linked to a retention policy to less than ten.

@@ -5,4 +5,3 @@ By the end of this module, you'll be able to:
 - Explain data loss prevention (DLP) policies 
 - Explain audit logs
 - Explain content search
-- Explain holds (litigation, in-place, and retention)
