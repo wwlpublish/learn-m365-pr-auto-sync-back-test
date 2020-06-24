@@ -3,7 +3,7 @@ Workplace Analytics is a cloud-based solution that uses the power of Microsoft 3
 With Workplace Analytics features, you can:
 
 - Explore research-based behavioral insights into how things get done using the solution areas in the Home page.
-- Analyze insights using the Explore dashboards.
+- Analyze insights using the Explore pages.
 - Run flexible queries using existing and custom filtered metrics to extract data for tailored analysis.
 - Select targeted change plans to improve focus, collaboration, well-being, and seller success.
 - Use Settings to validate uploaded data, identify dates for analysis and define which meetings, if any, to exclude.

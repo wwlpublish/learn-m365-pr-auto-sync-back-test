@@ -3,9 +3,9 @@ Successful organizations track their business outcomes, but how do you measure t
 > [!div class="centered"]
 > ![Collaboration between people](../media/collaboration-people-1.png)
 
-Knowledge workers work through networks, interacting with coworkers, and leaders. With Microsoft 365 data, we can measure these interactions. Microsoft 365 captures signals from meetings, email, calls, and messaging activities. It’s the largest existing data set of how people spend time at work, passively generated from everyday work activities.
+Knowledge workers work through networks, interacting with coworkers, and leaders. With Microsoft 365 data, we can measure these interactions. Microsoft 365 captures signals from meetings, email, And Teams calls and messaging activities. It’s the largest existing data set of how people spend time at work, passively generated from everyday work activities.
 
-Microsoft Workplace Analytics provides visibility into this data. That means insights into:
+Workplace Analytics provides visibility insights into:
 
 - How people invest their time in different types of activities.
 - How they share information with other individuals in their team and beyond.
@@ -22,7 +22,7 @@ Workplace Analytics turns data into useful insights by providing measures, conte
 > [!div class="centered"]
 > ![More collaboration between people](../media/collaboration-people-2.png)
 
-Workplace Analytics provides decision-makers with a powerful tool to identify opportunities to effectively execute change and improve organizational outcomes such as:
+Workplace Analytics provides decision makers with a powerful tool to identify opportunities to effectively execute change and improve organizational outcomes such as:
 
 - Collaboration overload.
 - Manager effectiveness.
