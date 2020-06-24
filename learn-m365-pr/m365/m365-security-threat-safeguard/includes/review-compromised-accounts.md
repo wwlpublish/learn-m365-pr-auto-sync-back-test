@@ -19,41 +19,41 @@ Each Azure ATP security alert includes:
 
 Alerts can also be viewed within Microsoft Cloud App Security:
 
-![Microsoft Cloud App Security alert](../media/cloud-app-security-alerts.png)
+[ ![Microsoft Cloud App Security alert](../media/cloud-app-security-alerts.png) ](../media/cloud-app-security-alerts-magnify.png#lightbox)
 
 The following scenario describes an investigation into an attacker gaining administrator access to the domain controller and compromising the Active Directory domain and forest. 
 
 The first alert we notice in the Cloud App Security portal shows **User and IP address reconnaissance** (SMB). Clicking into this alert, we see (under Description) that a user was able to learn the IP addresses of 2 accounts by enumerating SMB sessions on the domain controller.
 
-![User and IP address reconnaissance](../media/user-ip-address-reconnaissance.png)
+[ ![User and IP address reconnaissance](../media/user-ip-address-reconnaissance.png) ](../media/user-ip-address-reconnaissance-magnify.png#lightbox)
 
 Within the alert, we can also find the activity log, which shows more information about the command that was run.
 
-![Activity log](../media/activity-log.png)
+[ ![Activity log](../media/activity-log.png) ](../media/activity-log-magnify.png#lightbox)
 
 Back in the Alerts overview, we can see a more recent alert pointing to an **overpass-the-hash attack**.
 
-![Alert: Overpass-the-hash-attack](../media/overpass-hash-attack.png)
+[ ![Alert: Overpass-the-hash-attack](../media/overpass-hash-attack.png) ](../media/overpass-hash-attack-magnify.png#lightbox)
 
 Opening the suspected overpass-the-hash-attack (Kerberos) alert, we see evidence that the user account was part of a lateral movement path.
 
-![Open the suspected attack alert](../media/open-suspected-attack.png)
+[ ![Open the suspected attack alert](../media/open-suspected-attack.png) ](../media/open-suspected-attack-magnify.png#lightbox)
 
 The next alert shows a **Suspected identity theft (pass-the-ticket)**.
 
-![Pass-the-ticket alert](../media/pass-ticket-alert.png)
+[ ![Pass-the-ticket alert](../media/pass-ticket-alert.png) ](../media/pass-ticket-alert-magnify.png#lightbox)
 
 Azure ATP has detected theft of a ticket from a domain administrator to the infiltrated PC. The Cloud App Security portal shows exactly which resources were accessed using the stolen tickets.
 
-![More information on the pass-the-ticket alert](../media/alert-pass-ticket.png)
+[ ![[More information on the pass-the-ticket alert](../media/alert-pass-ticket.png) ](../media/alert-pass-ticket-magnify.png#lightbox)
 
 In the next alert, we see that the stolen credentials were used to run a remote command on the domain controller.
 
-![Alert showing remote code execution attempt](../media/alert-remote-code-execution.png)
+[ ![Alert showing remote code execution attemptl](../media/alert-remote-code-execution.png) ](../media/alert-remote-code-execution-magnify.png#lightbox)
 
 Looking into the Activity Log for the alert, we see that the command was to create a new user within the Administrators group.
 
-![Command used to create a new user](../media/create-new-user.png)
+[ ![Command used to create a new user](../media/create-new-user.png) ](../media/create-new-user-magnify.png#lightbox)
 
 From all the previous alerts, we suspect that an attacker has:
 

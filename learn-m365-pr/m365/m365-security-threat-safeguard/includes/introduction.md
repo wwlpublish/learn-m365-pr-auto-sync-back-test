@@ -13,13 +13,13 @@ Azure ATP provides the following benefits:
 
 Azure ATP monitors and analyzes user activities and information across your network, such as permissions and group membership. It then creates a behavioral baseline for each user. Azure ATP then identifies anomalies with adaptive built-in intelligence, giving you insights into suspicious activities and events, revealing the advanced threats, compromised users, and insider threats facing your organization. Azure ATP's proprietary sensors monitor organizational domain controllers, providing a comprehensive view for all user activities from every device.
 
-![Overview of user activities](../media/user-activities-view.png)
+[ ![Overview of user activities](../media/user-activities-view.png) ](../media/user-activities-view-magnify.png#lightbox)
 
 ## Protect user identities and reduce the attack surface
 
 Azure ATP provides you invaluable insights on identity configurations and suggested security best-practices. Through security reports and user profile analytics, Azure ATP helps dramatically reduce your organizational attack surface, making it harder to compromise user credentials and advance an attack. Azure ATP's visual Lateral Movement Paths help you quickly understand exactly how an attacker can move laterally inside your organization to compromise sensitive accounts and assists in preventing those risks in advance. Azure ATP security reports help you identify users and devices that authenticate using clear-text passwords and provide additional insights to improve your organizational security posture and policies.
 
-![Security Report user improvement suggestions](../media/security-report-improvement-action.png)
+![Security Report user improvement suggestions](../media/security-report-improvement-action-cropped.png)
 
 ## Identify suspicious activities and advanced attacks across the cyber-attack kill-chain
  

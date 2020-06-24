@@ -66,20 +66,21 @@ After the Azure ATP sensor is installed, do the following to configure Azure ATP
 1. Click **Launch** to open your browser and sign into the Azure ATP portal.
 2. In the Azure ATP portal, go to **Configuration**. Under the System section, select **Sensors**.
 
-   ![Install steps: Select sensors in ATP portal](../media/install-select-sensors.png)
+  [ ![Install steps: Select sensors in ATP portal](../media/install-select-sensors.png) ](../media/install-select-sensors-magnify.png#lightbox)
 
 3. Click on the sensor you want to configure and enter the following information:
 
-- **Description**: Enter a description for the Azure ATP sensor (optional).
-- **Domain Controllers** (FQDN) (required for the Azure ATP standalone sensor, this can't be changed for the Azure ATP sensor): Enter the complete FQDN of your domain controller and click the **plus sign** to add it to the list. For example, dc01.contoso.com.
-- The following information applies to the servers you enter in the Domain Controllers list:
+   - **Description**: Enter a description for the Azure ATP sensor (optional).
+   - **Domain Controllers** (FQDN) (required for the Azure ATP standalone sensor, this can't be changed for the Azure ATP sensor): Enter the complete FQDN of your domain controller and click the **plus sign** to add it to the list. For example, dc01.contoso.com.
 
-  - All domain controllers whose traffic is being monitored via port mirroring by the Azure ATP standalone sensor must be listed in the Domain Controllers list. If a domain controller isn't listed in the Domain Controllers list, detection of suspicious activities might not function as expected.
-  - At least one domain controller in the list should be a global catalog. This enables Azure ATP to resolve computer and user objects in other domains in the forest.
+     The following information applies to the servers you enter in the Domain Controllers list:
 
-- **Capture Network adapters** (required):
-  - For Azure ATP sensors, all network adapters that are used for communication with other computers in your organization.
-  - For Azure ATP standalone sensor on a dedicated server, select the network adapters that are configured as the destination mirror port. These network adapters receive the mirrored domain controller traffic.
+     - All domain controllers whose traffic is being monitored via port mirroring by the Azure ATP standalone sensor must be listed in the Domain Controllers list. If a domain controller isn't listed in the Domain Controllers list, detection of suspicious activities might not function as expected.
+     - At least one domain controller in the list should be a global catalog. This enables Azure ATP to resolve computer and user objects in other domains in the forest.
+
+   - **Capture Network adapters** (required):
+     - For Azure ATP sensors, all network adapters that are used for communication with other computers in your organization.
+     - For Azure ATP standalone sensor on a dedicated server, select the network adapters that are configured as the destination mirror port. These network adapters receive the mirrored domain controller traffic.
 
    ![Install steps: Enter information to configure sensor](../media/install-configure-sensor-info.png)
 
