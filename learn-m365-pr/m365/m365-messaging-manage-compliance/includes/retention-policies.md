@@ -33,7 +33,7 @@ To create a retention tag:
 
    - **Delete and Allow Recovery**: Select this action to delete items but allow users to recover them using the Recover Deleted Items option in Outlook or Outlook on the web. Items are retained until the deleted item retention period configured for the mailbox database or the mailbox user is reached.
    - **Permanently Delete**: Select this option to permanently delete the item from the mailbox database.
-      >[!IMPORTANT]
+      > [!IMPORTANT]
       > Mailboxes or items subject to In-Place Hold or litigation hold will be retained and returned in In-Place eDiscovery searches.
    - **Move to Archive**: Select this action to move items to the user's In-Place Archive. This action is available only if you're creating a DPT or a personal tag. 
 5. Define the **retention period**: 
@@ -56,6 +56,8 @@ A retention policy can contain the following tags:
 
    >[!NOTE]
    > Although you *can* add any number of personal tags to a retention policy, having many personal tags with different retention settings can confuse users. Consider limiting the number of personal tags linked to a retention policy to less than ten.
+
+Use these steps to create a new retention policy:
 
 1.	Go to **Compliance management > Retention policies**, and then click **Add**.
 2.	Enter a name for the retention policy.
@@ -104,10 +106,9 @@ To remove the retention hold, run the same cmdlet, but set  *RetentionHoldEnable
 
 >[!IMPORTANT]
 > *RetentionHoldEnabled* isn't a filterable property in Exchange Server. Because of this, you can't use the *Filter* parameter with the **Get-Mailbox** cmdlet to get a list of mailboxes that are placed on retention hold. You can run the following command to retrieve a list of all mailboxes and filters on the client running the Exchange Online PowerShell session. Be aware that, in environments with thousands of mailboxes, this command may take a long time to complete.
-
-```PowerShell
-Get-Mailbox -ResultSize unlimited | Where-Object {$_.RetentionHoldEnabled -eq $true} | Format-Table Name,RetentionPolicy,RetentionHoldEnabled -Auto
-```
+>```PowerShell
+>Get-Mailbox -ResultSize unlimited | Where-Object {$_.RetentionHoldEnabled -eq $true} | Format-Table Name,RetentionPolicy,RetentionHoldEnabled -Auto
+>```
 
 ## Learn more
 - [Create a Retention Policy](https://docs.microsoft.com/exchange/security-and-compliance/messaging-records-management/create-a-retention-policy?azure-portal=true)
