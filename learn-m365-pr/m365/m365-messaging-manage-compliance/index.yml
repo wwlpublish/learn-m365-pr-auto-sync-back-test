@@ -16,7 +16,6 @@ abstract: |
   - Explain data loss prevention policies. 
   - Explain audit logs.
   - Explain content search.
-  - Explain holds (litigation, in-place, and retention).
 prerequisites: |
  - Basic understanding of Microsoft 365 and Exchange Online.
 iconUrl: /learn/achievements/manage-compliance-exchange-online-environment.svg
@@ -35,7 +34,6 @@ units:
 - learn-m365.m365-messaging-manage-compliance.audit-logs
 - learn-m365.m365-messaging-manage-compliance.journal-rules
 - learn-m365.m365-messaging-manage-compliance.content-search
-- learn-m365.m365-messaging-manage-compliance.litigation-in-place-retention-holds
 - learn-m365.m365-messaging-manage-compliance.summary-knowledge-check
 badge: 
   uid: learn-m365.m365-messaging-manage-compliance.badge

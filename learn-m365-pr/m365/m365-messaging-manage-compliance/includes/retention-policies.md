@@ -1,4 +1,4 @@
-In Exchange Online, you can use retention policies to manage email lifecycle. Retention policies are applied by creating retention tags, adding them to a retention policy, and applying the policy to mailbox users.
+In Exchange Online, you can use retention policies to manage the email lifecycle. Retention policies are applied by creating retention tags, adding them to a retention policy, and applying the policy to mailbox users.
 
 ## Step 1: Create a retention tag
 Your first step is to create a retention tag. Retention tags apply retention settings to folders and individual items like e-mail messages. The retention settings specify how long to keep a message in a mailbox and what to do when the message reaches the specified retention age. When a message reaches its retention age, it's moved to the user's In-Place Archive or deleted.
