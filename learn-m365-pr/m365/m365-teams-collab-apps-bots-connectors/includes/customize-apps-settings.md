@@ -6,8 +6,6 @@ Teams provides a great out-of-the-box collaboration experience for your organiza
 
 ![Customize app permission policies](../media/customize-app-settings.png)
 
-Activity reports let you see how people in your organization are using Teams. If some aren't using Teams yet, they might not know how to get started or understand how they can use Teams to be more productive and collaborative.
-
 ## Learn more
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
