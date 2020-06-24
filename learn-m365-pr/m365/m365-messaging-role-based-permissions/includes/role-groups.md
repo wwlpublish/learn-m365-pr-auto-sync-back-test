@@ -40,7 +40,7 @@ Where:
 - *CustomRecipientWriteScope* specifies the existing custom recipient write scope to apply to the role group. You can see the available custom recipient write scopes by using the **Get-ManagementScope** cmdlet.
 
 ## Copy existing role groups
-You can use an existing role group as that starting point for a new role group, and then add or remove roles as necessary.
+You can use an existing role group as the starting point for a new role group, and then add or remove roles as necessary.
 
 ### Copy a role group by using the Exchange admin center
 
@@ -78,9 +78,8 @@ When you remove a role group, the management role assignments between the role g
 You can view a list of role groups or detailed information about a specific role group. You can view the role groups in either the Exchange admin center or by using the **Get-RoleGroup** PowerShell cmdlet.
 
 ### View a role group in the Exchange admin center
-1.	Sign in to the Exchange admin center (EAC) with your credentials. 
-2.	From the EAC page, navigate to Permissions and select Admin Roles. All of the role groups in your organization are listed here.
-3.	Select a role group to view the members, assigned roles, and scope that are configured on the role group.
+1.	In the Exchange admin center, go to **Permissions > Admin Roles**. All of the role groups in your organization are listed here.
+3.	Select a role group to view the members, assigned roles, and scope for that role group.
 
 ### View a role group by using PowerShell
 To view a role group, use the following syntax:
