@@ -1,7 +1,7 @@
 
 Windows Virtual Desktop is easier to deploy and manage than traditional Remote Desktop Services (RDS) or virtual desktop infrastructure (VDI) environments. You don't have to provision and manage servers and server roles like the gateway, connection broker, diagnostics, load balancing, and licensing. 
 
-## Architecture
+## What you manage vs Microsoft
 
 The following illustration shows what services are managed by Microsoft and what you manage.
 
@@ -31,6 +31,6 @@ Use this information to **Prepare > Deploy > Optimize** your Windows Virtual Des
  
 | | |
 |-|-|
-|Prepare <br>![Prepare icon](../media/prepare.png)|In the first step, **Prepare**, we’ll walk through provisioning your first Windows Virtual Desktop host pool. You'll then be able to:<br>- Provision your Azure tenant <br>- Set up Azure Active Directory (Azure AD) <br> - Set up an Azure Virtual Network <br> - Integrate with Active Directory Domain Services <br>- Provision required administrator roles in Azure AD  |
-|Deploy <br>![Deploy icon](../media/deploy.png)|In the second step, **Deploy**, we’ll create and customize your first host pool. You'll then be able to: <br>- Set up the Windows Virtual Desktop workspace <br>- Create a Windows Virtual Desktop host pool <br>- Manage apps and desktops <br>- Customize your workspace <br> - Make apps available to users with app groups <br> - Consider Remote Desktop Services
-|Optimize <br>![Optimize icon](../media/optimize.png)|In the third step, **Optimize**, we’ll customize the basic Windows Virtual Desktop environment to take advantage of storage, file management, and automated scaling options. You'll then be able to:  <br>- Set up FSLogix profiles to separate user profiles from virtual machines and underlying infrastructure<br>- Configure depth and breadth scaling automation| 
+|Prepare <br>![Prepare icon](../media/prepare.png)|In the **Prepare** module, we’ll discuss the following steps to complete before you deploy Windows Virtual Desktop: <br>- Set up Azure Active Directory (Azure AD) <br>- Integrate with Active Directory Domain Services <br> - Create Azure resources <br>- Assign administrator roles<br>-Assign licenses to Windows Virtual Desktop users <br>-Register the DesktopVirtualization provider with your subscription |
+|Deploy <br>![Deploy icon](../media/deploy.png)|In the **Deploy** module, we’ll walk through the steps to: <br>- Create a Windows Virtual Desktop host pool and workspace <br>- Make a desktop and apps available to users by using application groups <br>- Customize the workspace <br>- Connect to the workspace by using the Windows Virtual Desktop client 
+|Optimize <br>![Optimize icon](../media/optimize.png)|In the **Optimize** module, we’ll walk through the steps to:  <br>- Set up roaming and stateful user profiles by using Azure File Storage and FSLogix <br>- Configure Azure File Sync to sync on-premises files or user profile data to Azure Storage<br>- Scale session hosts by using the scaling tool built on Azure Automation and Azure Logic Apps| 
