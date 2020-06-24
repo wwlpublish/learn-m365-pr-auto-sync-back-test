@@ -106,9 +106,9 @@ To remove the retention hold, run the same cmdlet, but set  *RetentionHoldEnable
 
 >[!IMPORTANT]
 > *RetentionHoldEnabled* isn't a filterable property in Exchange Server. Because of this, you can't use the *Filter* parameter with the **Get-Mailbox** cmdlet to get a list of mailboxes that are placed on retention hold. You can run the following command to retrieve a list of all mailboxes and filters on the client running the Exchange Online PowerShell session. Be aware that, in environments with thousands of mailboxes, this command may take a long time to complete.
->```PowerShell
->Get-Mailbox -ResultSize unlimited | Where-Object {$_.RetentionHoldEnabled -eq $true} | Format-Table Name,RetentionPolicy,RetentionHoldEnabled -Auto
->```
+ >```PowerShell
+ >Get-Mailbox -ResultSize unlimited | Where-Object {$_.RetentionHoldEnabled -eq $true} | Format-Table Name,RetentionPolicy,RetentionHoldEnabled -Auto
+ >```
 
 ## Learn more
 - [Create a Retention Policy](https://docs.microsoft.com/exchange/security-and-compliance/messaging-records-management/create-a-retention-policy?azure-portal=true)
