@@ -4,11 +4,11 @@ title: Introduction to managing compliance
 metadata:
   title: Introduction to managing compliance
   description: Learn how to manage compliance in an Exchange Online environment.
-  ms.date: 05/04/2020
+  ms.date: 06/18/2020
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 3
+durationInMinutes: 1
 content: |
   [!include[](includes/introduction.md)]

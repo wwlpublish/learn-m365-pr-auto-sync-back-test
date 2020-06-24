@@ -15,39 +15,41 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Question here"
+    - content: "Which action do you have to add to a DLP policy when you want to display a tip to your users?"
       choices:
-      - content: "Choice 1"
+      - content: "Notify only"
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+        explanation: "No, you need to add the **Notify the sender with a Policy Tip** action."
+      - content: "Notify the sender with a Policy Tip"
         isCorrect: true
-        explanation: "explanation"
-
-    - content: "Question here"
-      choices:
-      - content: "Choice 1"
+        explanation: "Yes, you need to add the **Notify the sender with a Policy Tip** action."
+      - content: "Show the sender a Policy Tip"
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
+        explanation: "No, you need to add the **Notify the sender with a Policy Tip** action."
+      - content: "Show all Policy Tips"
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
-        isCorrect: true
-        explanation: "explanation"
+        explanation: "No, you need to add the **Notify the sender with a Policy Tip** action."
       
-    - content: "Question here"
+    - content: "What are retention tags used for?"
       choices:
-      - content: "Choice 1"
+      - content: "To group retention policies."
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
+        explanation: "No, retention tags apply retention settings to messages and folders."
+      - content: "To take action on an item."
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+        explanation: "No, retention tags apply retention settings to messages and folders."
+      - content: "To apply retention settings to messages and folders."
         isCorrect: true
-        explanation: "explanation"
+        explanation: "Yes, retention tags apply retention settings. You group multiple tags into a retention policy."
+    - content: "What is journaling?"
+      choices:
+      - content: "Recording the activities of your day."
+        isCorrect: false
+        explanation: "No, in Exchange, journaling means recording all communications, including email communications, for use in your email retention or archival strategy."
+      - content: "Keeping track of how many messages each user in your environment sends."
+        isCorrect: false
+        explanation: "No, in Exchange, journaling means recording all communications, including email communications, for use in your email retention or archival strategy."
+      - content: "Recording all communications in your environment.."
+        isCorrect: true
+        explanation: "Yes, Exchange uses journaling and journal rules to record all of the communications you need for your retention and archival strategy."
       

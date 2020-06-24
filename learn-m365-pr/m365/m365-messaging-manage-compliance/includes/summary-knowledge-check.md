@@ -6,4 +6,3 @@ Now that you have completed this module, you should be able to:
 - Explain data loss prevention policies.
 - Explain audit logs.
 - Explain content search.
-- Explain holds (litigation, in-place, and retention).
