@@ -1,5 +1,12 @@
 
-Now that you know what Windows Virtual Desktop is, let's reconsider our accounting firm scenario from the first unit. Is Windows Virtual Desktop right for that organization?
+Now that you know what Windows Virtual Desktop is, let's reconsider our accounting firm scenario from the first unit. The key points from that scenario were:
+
+- Users need tobe able to work from any device from anywhere.
+- During tax season, the organization hires short-term workers to be able to meet customer needs and tax deadlines.
+- Tax software changes from year to year and your organization also has some legacy applications that are a challenge to support.
+- You also need to support a flexible workforce by providing a secure, consistent, and performant experience to the apps they need to do their work.
+
+Is Windows Virtual Desktop right for the organization?
 
 ## When to choose Windows Virtual Desktop
 
@@ -14,6 +21,6 @@ The following table describes business needs and applicable scenarios where Wind
 
 ## When not to choose Windows Virtual Desktop
 
-when not to use example - solo or small company? starter project
+Windows Virtual Desktop isn't suited for offline scenarios. It runs on Azure in the cloud. Users need to be online to connect and use Windows Virtual Desktop remote apps and desktops.
 
 

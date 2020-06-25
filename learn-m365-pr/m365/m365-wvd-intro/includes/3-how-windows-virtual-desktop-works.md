@@ -5,7 +5,12 @@ Windows Virtual Desktop is easier to deploy and manage than traditional Remote D
 
 The following illustration shows what services are managed by Microsoft and what you manage.
 
-:::image type="content" source="../media/3-wvd-managed-by.png" alt-text="Diagram that shows what's managed my Microsoft and what's managed by you.":::
+:::image type="content" source="../media/3-management-ownership.png" alt-text="Diagram that shows what's managed my Microsoft and what's managed by you.":::
+
+## What Microsoft manages
+
+- Windows Virtual Desktop service - Diagnostics with Azure Monitor, load balancing...
+- Azure infrastructure - compute, storage, networking
 
 ## What you manage
 
@@ -24,11 +29,6 @@ Create application groups to group, publish, and assign access to remote apps or
 - VM sizing and scaling
 - User management and identity - RBAC & Azure AD features
 - Networking - NSGs, Express Route, VPN...
-
-## What Microsoft manages
-
-- Windows Virtual Desktop service - Diagnostics with Azure Monitor, load balancing...
-- Azure infrastructure - compute, storage, networking
 
 ## Infrastructure and system requirements
 
