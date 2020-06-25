@@ -18,7 +18,7 @@ Before we walk through the deployment process, let's review some key terms and d
 
 The following diagram shows a Windows Virtual Desktop workspace with two host pools. Host pool A has two application groups: Desktop and RemoteApp. These resources are shared (pooled) across the sales team. Host pool B has a Desktop application group with personal desktops available to an engineering team. 
 
-   :::image type="content" source="../media/2-wvd-deploy-app-groups.png" alt-text="Diagram that shows the relationship of a workspace, host pool, and application group.":::
+   :::image type="content" source="../media/2-deploy-app-groups.png" alt-text="Diagram that shows the relationship of a workspace, host pool, and application group.":::
 
 ## Configure virtual machines for host pool
 
