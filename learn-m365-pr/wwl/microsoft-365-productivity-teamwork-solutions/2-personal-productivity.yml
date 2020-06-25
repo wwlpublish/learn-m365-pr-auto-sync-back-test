@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.microsoft-365-productivity-teamwork-solutions.personal-productivity
+title: Explore ways to improve personal productivity
+metadata:
+  title: Explore ways to improve personal productivity
+  description: "Explore ways to improve personal productivity"
+  ms.date: 06/28/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/2-personal-productivity.md)]

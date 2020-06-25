@@ -1,0 +1,44 @@
+### YamlMime:Module
+uid: learn.wwl.microsoft-365-productivity-teamwork-solutions
+metadata:
+  title: Microsoft 365 productivity and teamwork solutions
+  description: "Learn about the solutions offered as a part of Microsoft 365 and how they can contribute to personal and organizational productivity."
+  ms.date: 06/28/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Microsoft 365 productivity and teamwork solutions
+summary: Learn about the solutions offered as a part of Microsoft 365 and how they can contribute to personal productivity.
+abstract: |
+  Upon completion of this module, the learner will be able to:
+  - Describe personal productivity
+  - Identify each of the solutions
+  - Correlate each of the products to a solution
+  - Tell the Microsoft accessibility story and strategy
+prerequisites: |
+  None
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- business-owner
+- business-user
+- student
+products:
+- m365
+- office-365
+units:
+- learn.wwl.microsoft-365-productivity-teamwork-solutions.introduction
+- learn.wwl.microsoft-365-productivity-teamwork-solutions.personal-productivity
+- learn.wwl.microsoft-365-productivity-teamwork-solutions.engage-employees
+- learn.wwl.microsoft-365-productivity-teamwork-solutions.im-chat
+- learn.wwl.microsoft-365-productivity-teamwork-solutions.online-meetings
+- learn.wwl.microsoft-365-productivity-teamwork-solutions.email-calendaring
+- learn.wwl.microsoft-365-productivity-teamwork-solutions.office-across-devices
+- learn.wwl.microsoft-365-productivity-teamwork-solutions.file-storage-sharing
+- learn.wwl.microsoft-365-productivity-teamwork-solutions.accessibility
+- learn.wwl.microsoft-365-productivity-teamwork-solutions.knowledge-check
+- learn.wwl.microsoft-365-productivity-teamwork-solutions.summary-resources
+badge:
+  uid: learn.wwl.microsoft-365-productivity-teamwork-solutions.badge

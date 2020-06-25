@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.microsoft-365-productivity-teamwork-solutions.accessibility
+title: Describe accessibility investments in Microsoft 365
+metadata:
+  title: Describe accessibility investments in Microsoft 365
+  description: "Describe accessibility investments in Microsoft 365"
+  ms.date: 06/28/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/9-accessibility.md)]
