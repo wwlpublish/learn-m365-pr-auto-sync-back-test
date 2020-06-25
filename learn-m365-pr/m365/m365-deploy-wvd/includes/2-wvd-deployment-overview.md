@@ -16,6 +16,10 @@ Before we walk through the deployment process, let's review some key terms and d
    - *Breadth-first* - Default configuration for new non-persistent host pools. Distributes new user sessions across all available session hosts in the host pool. When you configure breadth-first load balancing, you may set a maximum session limit per session host in the host pool.
    - *Depth-first* - Distributes new user sessions to an available session host with the highest number of connections but has not reached its maximum session limit threshold. When you configure depth-first load balancing, you must set a maximum session limit per session host in the host pool.
 
+The following diagram shows a Windows Virtual Desktop workspace with two host pools. Host pool A has two application groups: Desktop and RemoteApp. These resources are shared (pooled) across the sales team. Host pool B has a Desktop application group with personal desktops available to an engineering team. 
+
+   :::image type="content" source="../media/2-deploy-app-groups.png" alt-text="Diagram that shows the relationship of a workspace, host pool, and application group.":::
+
 ## Configure virtual machines for host pool
 
 When you create a Windows Virtual Desktop host pool, you can choose to create new VMs or register existing VMs to a host pool.
