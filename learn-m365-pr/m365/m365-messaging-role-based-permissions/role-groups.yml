@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-messaging-role-based-permissions.role-groups
+title: Manage role groups
+metadata:
+  title: Manage role groups
+  description: Learn how messaging role groups work in Exchange Online. 
+  ms.date: 06/12/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 10
+content: |
+  [!include[](includes/role-groups.md)]

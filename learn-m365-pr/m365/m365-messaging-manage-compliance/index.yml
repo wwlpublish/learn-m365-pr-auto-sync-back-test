@@ -1,0 +1,39 @@
+### YamlMime:Module
+uid: learn-m365.m365-messaging-manage-compliance
+metadata:
+  title: Manage compliance in Microsoft 365 and Exchange Online
+  description: Learn how compliance works in Exchange Online. Learn how to use retention and data loss prevention policies to keep the data and communications you're required to maintain, how to find that data and communications, and how to ensure you're ready for an audit.  
+  ms.date: 06/18/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage compliance in Microsoft 365 and Exchange Online
+summary: Learn how compliance works in an Exchange Online environment. Learn how to use retention and data loss prevention policies to keep the data and communications you're required to maintain, how to find that data and communications, and how to ensure you're ready for an audit.  
+abstract: |
+  At the end of this module, you should be able to:
+  - Explain retention policies.
+  - Explain data loss prevention policies. 
+  - Explain audit logs.
+  - Explain content search.
+prerequisites: |
+ - Basic understanding of Microsoft 365 and Exchange Online.
+iconUrl: /learn/achievements/manage-compliance-exchange-online-environment.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-365
+- office-exchange-server
+units:
+- learn-m365.m365-messaging-manage-compliance.introduction
+- learn-m365.m365-messaging-manage-compliance.retention-policies
+- learn-m365.m365-messaging-manage-compliance.data-loss-prevention-policies
+- learn-m365.m365-messaging-manage-compliance.audit-logs
+- learn-m365.m365-messaging-manage-compliance.journal-rules
+- learn-m365.m365-messaging-manage-compliance.content-search
+- learn-m365.m365-messaging-manage-compliance.summary-knowledge-check
+badge: 
+  uid: learn-m365.m365-messaging-manage-compliance.badge
