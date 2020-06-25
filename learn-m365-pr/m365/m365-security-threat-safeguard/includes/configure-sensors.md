@@ -66,7 +66,7 @@ After the Azure ATP sensor is installed, do the following to configure Azure ATP
 1. Click **Launch** to open your browser and sign into the Azure ATP portal.
 2. In the Azure ATP portal, go to **Configuration**. Under the System section, select **Sensors**.
 
-  [ ![Install steps: Select sensors in ATP portal](../media/install-select-sensors.png) ](../media/install-select-sensors-magnify.png#lightbox)
+   [ ![Install steps: Select sensors in ATP portal](../media/install-select-sensors.png) ](../media/install-select-sensors-magnify.png#lightbox)
 
 3. Click on the sensor you want to configure and enter the following information:
 
