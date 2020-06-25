@@ -68,3 +68,8 @@ If your organization has a Microsoft 365 tenant, you can use either Intune or Mo
 
   - Allow setting up mobile application management (MAM) policies that affect even devices not enrolled in Intune.
 
+## Learn more
+- [Planning for Mobile Device Management](https://docs.microsoft.com/en-us/intune/fundamentals/planning-guide?azure-portal=true)
+- [Configure Mobile Device Management integration with Azure AD](https://docs.microsoft.com/en-us/windows/client-management/mdm/azure-active-directory-integration-with-mdm?azure-portal=true) 
+- [Mobile Device Management Authority](https://docs.microsoft.com/en-us/intune/fundamentals/mdm-authority-set?azure-portal=true)
+- [Device enrollment restrictions](https://docs.microsoft.com/en-us/intune/enrollment/enrollment-restrictions-set?azure-portal=true)
