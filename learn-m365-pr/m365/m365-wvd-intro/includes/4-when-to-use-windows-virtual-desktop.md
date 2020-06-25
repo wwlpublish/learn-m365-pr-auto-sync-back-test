@@ -1,7 +1,7 @@
 
 Now that you know what Windows Virtual Desktop is, let's reconsider our accounting firm scenario from the first unit. The key points from that scenario were:
 
-- Users need tobe able to work from any device from anywhere.
+- Users need to be able to work from any device from anywhere.
 - During tax season, the organization hires short-term workers to be able to meet customer needs and tax deadlines.
 - Tax software changes from year to year and your organization also has some legacy applications that are a challenge to support.
 - You also need to support a flexible workforce by providing a secure, consistent, and performant experience to the apps they need to do their work.
