@@ -8,7 +8,7 @@ With Workplace Analytics features, you can:
 - Select targeted change plans to improve focus, collaboration, well-being, and seller success.
 - Use Settings to validate uploaded data, identify dates for analysis and define which meetings, if any, to exclude.
 
-Privacy is key. Workplace Analytics looks at header level metadata, not content, attachments, or anything considered sensitive in nature.
+Privacy is key. Workplace Analytics looks at header level metadata. Attachments and text in the body of email and meetings are never used by Workplace Analytics. Furthermore, rights-managed, confidential, and private email and meetings are excluded altogether.
 
 Now that you have completed this module, you should be able to:  
 
