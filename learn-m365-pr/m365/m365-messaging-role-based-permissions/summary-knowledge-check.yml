@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-messaging-role-based-permissions.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Learn about messaging role groups, admin roles, and role-based access control, as well as gain a better understanding of how you can use eDiscovery.
+  ms.date: 05/01/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Which user role lets a user edit their address information in the global address list (GAL)?"
+      choices:
+      - content: "MyContactInformation"
+        isCorrect: true
+        explanation: "Yes, the MyContactInformation role lets a user edit their address information."
+      - content: "MyAddressInformation"
+        isCorrect: false
+        explanation: "No, this isn't a role in Exchange Online. The MyContactInformation role lets a user edit their address information."
+      - content: "MyPersonalInformation"
+        isCorrect: false
+        explanation: "No, this isn't a role in Exchange Online. The MyContactInformation role lets a user edit their address information."
+
+    - content: "Which of the following cmdlets lets you view your current role groups?"
+      choices:
+      - content: "Get-RoleGroup"
+        isCorrect: true
+        explanation: "Yes, this cmdlet displays the role groups."
+      - content: "View-RoleGroup"
+        isCorrect: false
+        explanation: "No, the GetRoleGroup cmdlet displays the role groups."
+      - content: "Display-RoleGroup"
+        isCorrect: false
+        explanation: "No, the GetRoleGroup cmdlet displays the role groups."
+      
+    - content: "What is the name of the eDiscovery-related role in the Security & Compliance center?"
+      choices:
+      - content: "eDiscoveryManagement"
+        isCorrect: false
+        explanation: "No, the correct role is eDiscoveryManager."
+      - content: "eDiscoveryManager"
+        isCorrect: true
+        explanation: "Yes, this is the correct role."
+      - content: "eDiscoveryAdministrator"
+        isCorrect: false
+        explanation: "No, the correct role is eDiscoveryManager."
