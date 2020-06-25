@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn-m365.m365-security-threat-safeguard
+metadata:
+  title: Safeguard your environment with Azure Advanced Threat Protection
+  description: Learn about the Azure Advanced Threat Protection component of Microsoft Threat Protection. 
+  ms.date: 06/24/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Safeguard your environment with Azure Advanced Threat Protection
+summary: Learn about the Azure Advanced Threat Protection component of Microsoft Threat Protection. 
+abstract: |
+  Upon completion of this module, you should be able to: 
+  - Define the capabilities of Azure Advanced Threat Protection.
+  - Understand how to configure Azure Advanced Threat Protection sensors.
+  - Explain how Azure Advanced Threat Protection can remediate risks in your environment.  
+
+prerequisites: none
+iconUrl: http://via.placeholder.com/120x120
+ratingEnabled: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- azure
+units:
+- learn-m365.m365-security-threat-safeguard.introduction
+- learn-m365.m365-security-threat-safeguard.configure-sensors
+- learn-m365.m365-security-threat-safeguard.review-compromised-accounts
+- learn-m365.m365-security-threat-safeguard.integrate-microsoft-tools
+- learn-m365.m365-security-threat-safeguard.summary-knowledge-check
+
+badge: 
+  uid: learn-m365.m365-security-threat-safeguard.badges
+  
