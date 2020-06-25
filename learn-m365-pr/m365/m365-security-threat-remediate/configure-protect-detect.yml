@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-security-threat-remediate.configure-protect-detect
+title: Configure, protect, and detect
+metadata:
+  title: Configure, protect, and detect
+  description: Learn about the Office 365 Advanced Threat Protection component of Microsoft Threat Protection. 
+  ms.date: 06/24/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 3
+content: |
+  [!include[](includes/configure-protect-detect.md)]
