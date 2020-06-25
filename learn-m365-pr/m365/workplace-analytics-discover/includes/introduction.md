@@ -3,7 +3,7 @@ Successful organizations track their business outcomes, but how do you measure t
 > [!div class="centered"]
 > ![Collaboration between people](../media/collaboration-people-1.png)
 
-Knowledge workers work through networks, interacting with coworkers, and leaders. With Microsoft 365 data, we can measure these interactions. Microsoft 365 captures signals from meetings, email, And Teams calls and messaging activities. It’s the largest existing data set of how people spend time at work, passively generated from everyday work activities.
+Knowledge workers work through networks, interacting with coworkers, and leaders. With Microsoft 365 data, we can measure these interactions. Microsoft 365 captures signals from meetings, email, Teams calls, and messaging activities. It’s the largest existing data set of how people spend time at work, passively generated from everyday work activities.
 
 Workplace Analytics provides visibility insights into:
 

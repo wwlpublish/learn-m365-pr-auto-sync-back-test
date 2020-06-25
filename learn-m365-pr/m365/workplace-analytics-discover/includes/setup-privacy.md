@@ -21,7 +21,7 @@ These are the customer-specific controls.
 
 - Scope of population (with the option to exclude sensitive groups).
 - Analyst access to Workplace Analytics and access to specific population scopes.
-- Access to email and meeting subject lines.
+- Visibility to meeting subject lines.
 - Rule out all meetings and emails by keywords (in subject lines) that you deem sensitive.
 - Specific individuals or domains.
 - Organizational attributes loaded.
