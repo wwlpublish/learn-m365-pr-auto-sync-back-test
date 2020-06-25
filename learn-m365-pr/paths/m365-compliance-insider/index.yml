@@ -11,8 +11,8 @@ metadata:
 title: Manage insider risk in Microsoft 365
 summary: "Insider threats and risks from illegal, inappropriate, unauthorized, or unethical behavior and actions are a major issue for all companies and can easily go undetected until it is too late. From IP theft to data leaks to many other scenarios, protecting the data within an organization from inadvertent or malicious actions is paramount for any organization. Microsoft’s solutions for minimizing threats help organizations achieve the right balance between keeping their data protected and their people productive."
 prerequisites: | 
-  - Cloud computing concepts. If you are unfamiliar with this topic, we recommend you take [Cloud Concepts - Principles of cloud computing](https://docs.microsoft.com/learn/modules/principles-cloud-computing/)
-  - Microsoft 365 product and services. If you are unfamiliar this with topic, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+  - Cloud computing concepts
+  - Microsoft 365 product and services 
 iconUrl: /learn/achievements/manage-insider-risk-management.svg
 levels: 
 - intermediate
