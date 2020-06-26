@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.file-storage-sharing-with-onedrive-sharepoint.onedrive-for-business
+title: OneDrive for business
+metadata:
+  title: OneDrive for business
+  description: "OneDrive for business"
+  ms.date: 06/28/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 12
+content: |
+  [!include[](includes/2-onedrive-for-business.md)]

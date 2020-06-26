@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-your-business-with-microsoft-365.business-intelligence
+title: Business intelligence
+metadata:
+  title: Business intelligence
+  description: "Business intelligence"
+  ms.date: 06/29/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/7-business-intelligence.md)]

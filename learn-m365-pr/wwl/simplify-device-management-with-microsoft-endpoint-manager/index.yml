@@ -1,0 +1,40 @@
+### YamlMime:Module
+uid: learn.wwl.simplify-device-management-with-microsoft-endpoint-manager
+metadata:
+  title: Simplify device management with Microsoft Endpoint Manager
+  description: "Learn about the business management solutions offered as a part of Microsoft 365 and how they can help simplify management and contribute to organizational productivity."
+  ms.date: 06/29/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Simplify device management with Microsoft Endpoint Manager
+summary: Learn about modern management and the Microsoft Endpoint Manager and how the business management tools in Microsoft 365 can simplify management of all your devices.
+abstract: |
+  Upon completion of this module, the learner will be able to:
+  - Explain modern device and application management concepts
+  - Explain the value of the Microsoft Endpoint Manager (MEM) including Microsoft Intune and System Center
+  - Describe how Autopilot can help streamline new device acquisition and setup
+prerequisites: |
+  None
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- business-owner
+- business-user
+- student
+products:
+- m365
+- office-365
+units:
+- learn.wwl.simplify-device-management-with-microsoft-endpoint-manager.introduction
+- learn.wwl.simplify-device-management-with-microsoft-endpoint-manager.modern-management
+- learn.wwl.simplify-device-management-with-microsoft-endpoint-manager.integrated-solutions
+- learn.wwl.simplify-device-management-with-microsoft-endpoint-manager.intune
+- learn.wwl.simplify-device-management-with-microsoft-endpoint-manager.configuration-manager
+- learn.wwl.simplify-device-management-with-microsoft-endpoint-manager.autopilot-zero-touch-deployment
+- learn.wwl.simplify-device-management-with-microsoft-endpoint-manager.knowledge-check
+- learn.wwl.simplify-device-management-with-microsoft-endpoint-manager.summary-resources
+badge:
+  uid: learn.wwl.simplify-device-management-with-microsoft-endpoint-manager.badge

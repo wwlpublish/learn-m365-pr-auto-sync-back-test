@@ -1,0 +1,45 @@
+### YamlMime:Module
+uid: learn.wwl.identify-licensing-options-available-microsoft-365
+metadata:
+  title: Identify licensing options available in Microsoft 365
+  description: "Learn fundamental knowledge of the licensing options available in Microsoft 365."
+  ms.date: 06/29/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Identify licensing options available in Microsoft 365
+summary: Learn fundamental knowledge of the licensing options available in Microsoft 365.
+abstract: |
+  Upon completion of this module, the learner will be able to:
+  - Identify licensing options available in Microsoft 365
+  - Describe the available licensing and management options for Microsoft 365
+  - Describe additional capabilities available when a customer purchases Azure Active Directory P1, Azure Active Directory P2, and Azure AD Basic
+  - Plan, predict, and compare pricing
+  - Describe the Cloud Solution Provider (CSP) pricing model for Windows and Microsoft cloud services
+  - Explain available billing and bill management options including billing frequency and methods of payment
+  - Optimize costs based on licensing options
+prerequisites: |
+  None
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- business-owner
+- business-user
+- student
+products:
+- m365
+- office-365
+units:
+- learn.wwl.identify-licensing-options-available-microsoft-365.introduction
+- learn.wwl.identify-licensing-options-available-microsoft-365.compare-home,-business,-enterprise-options
+- learn.wwl.identify-licensing-options-available-microsoft-365.describe-additional-capabilities-available-with-azure
+- learn.wwl.identify-licensing-options-available-microsoft-365.describe-cloud-solution-provider-model
+- learn.wwl.identify-licensing-options-available-microsoft-365.explore-bill-management-options
+- learn.wwl.identify-licensing-options-available-microsoft-365.explain-ways-that-helps-optimize-costs
+- learn.wwl.identify-licensing-options-available-microsoft-365.license-manage-users
+- learn.wwl.identify-licensing-options-available-microsoft-365.knowledge-check
+- learn.wwl.identify-licensing-options-available-microsoft-365.summary-resources
+badge:
+  uid: learn.wwl.identify-licensing-options-available-microsoft-365.badge

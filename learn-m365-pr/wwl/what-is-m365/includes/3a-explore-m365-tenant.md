@@ -2,7 +2,7 @@ Microsoft offers free trials for many of different services, and you can sign-up
 
 - [Signup for a free trial of Microsoft 365 Business Premium](https://go.microsoft.com/fwlink/p/?LinkID=2102309&clcid=0x409&cultures&country=US)
 
-After you have acquired your free trail, explore the Microsoft 365 and Azure Active Directory admin centers by following the exercises below.
+After you have acquired your free trial, explore the Microsoft 365 and Azure Active Directory admin centers by following the exercises below.
 
 #### Exercise 1: Sign in to the tenant
 1. Open **Microsoft Edge**.
