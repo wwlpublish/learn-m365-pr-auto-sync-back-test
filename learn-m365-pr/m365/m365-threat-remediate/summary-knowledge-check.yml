@@ -15,7 +15,7 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Is this true or false? Office 365 ATP requires an agent to be deployed to all Windows 10 devices in your organization for the best protection."
+    - content: "True or false? Office 365 ATP requires an agent to be deployed to all Windows 10 devices in your organization for the best protection."
       choices:
       - content: "True"
         isCorrect: false
@@ -24,17 +24,17 @@ quiz:
         isCorrect: true
         explanation: "Correct! Office 365 ATP is a cloud-based email filtering service that helps protect your organization. No agents are deployed."
   
-    - content: "Which of the following describes Safe Attachments from Office 365 ATP?"
+    - content: "What describes Safe Attachments from Office 365 ATP?"
       choices:
       - content: "Messages and attachments are routed to a special environment where ATP uses a variety of machine learning and analysis techniques to detect malicious intent."
         isCorrect: true
-        explanation: "Correct! Office 365 ATP Safe Attachments protect against unknown malware and viruses, and provides zero-day protection to safeguard your messaging system by rerouting messages and leveraging machine learning to detect malicious intent."
+        explanation: "Correct! Office 365 ATP Safe Attachments protect against unknown malware and viruses, and provide zero-day protection to safeguard your messaging system by rerouting messages and using machine learning to detect malicious intent."
       - content: "Protects your users from malicious URLs in a message or in an Office document."
         isCorrect: false
-        explanation: "Incorrect. This is an explanation of Safe Links in Office 365 ATP. Office 365 ATP Safe Attachments protect against unknown malware and viruses, and provides zero-day protection to safeguard your messaging system by rerouting messages and leveraging machine learning to detect malicious intent."
+        explanation: "Incorrect. This is an explanation of Safe Links in Office 365 ATP. Office 365 ATP Safe Attachments protect against unknown malware and viruses, and provides zero-day protection to safeguard your messaging system by rerouting messages and using machine learning to detect malicious intent."
       - content: "A powerful report that enables your Security Operations team to investigate and respond to threats effectively and efficiently."
         isCorrect: false
-        explanation: "Incorrect. This is an explanation of Office 365 Threat Explorer. Office 365 ATP Safe Attachments protect against unknown malware and viruses, and provides zero-day protection to safeguard your messaging system by rerouting messages and leveraging machine learning to detect malicious intent."
+        explanation: "Incorrect. This is an explanation of Office 365 Threat Explorer. Office 365 ATP Safe Attachments protect against unknown malware and viruses, and provide zero-day protection to safeguard your messaging system by rerouting messages and using machine learning to detect malicious intent."
 
     - content: "Which of the following is **not** an Attack Simulator scenario?"
       choices:

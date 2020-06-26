@@ -25,7 +25,7 @@ modules:
 - learn-m365.m365-security-threat-define
 - learn-m365.m365-security-threat-protect
 - learn-m365.m365-security-threat-train
-- learn-m365.m365.threat-remediate
+- learn-m365.m365-threat-remediate
 
 trophy: 
   uid: learn-m365.m365-security-threat-protection.trophy
