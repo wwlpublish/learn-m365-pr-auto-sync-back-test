@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.harness-business-intelligence-with-microsoft-365-analytics-reporting.service-specific-admin-centers
+title: Describe the additional admin centers in Microsoft 365
+metadata:
+  title: Describe the additional admin centers in Microsoft 365
+  description: "Describe the additional admin centers in Microsoft 365"
+  ms.date: 06/29/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 1
+content: |
+  [!include[](includes/4-service-specific-admin-centers.md)]
