@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn-m365.m365-compliance-advanced-ediscovery
+metadata:
+  title: Discover and analyze content in place using Advanced eDiscovery
+  description: Microsoft 365 delivers comprehensive audit logs and alerts across more than 15 services, enabling customers to track user and administration activity within their tenants. Improvements in Advanced Auditing in Microsoft 365 includes preservation of audit logs for up to a year, faster access to data, and access to crucial events for quicker investigations.
+  ms.date: 07/06/2020
+  author: ericweisberg
+  ms.author: v-erwe
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Discover and analyze content in place using Advanced eDiscovery
+summary: Microsoft 365 delivers comprehensive audit logs and alerts across more than 15 services, enabling customers to track user and administration activity within their tenants. Improvements in Advanced Auditing in Microsoft 365 includes preservation of audit logs for up to a year, faster access to data, and access to crucial events for quicker investigations.
+abstract: |
+  Upon completion of this module, you should be able to: 
+  - Describe the preservation improvements that have been made in advanced auditing.
+  - Describe the bandwidth improvements that have been made in auditing.
+  - Describe the new *MailItemsAccessed* mailbox auditing action and how it can help investigators better understand and identify the scope of compromises to specific mail items that may been compromised.
+
+prerequisites: | 
+   - Cloud computing concepts
+   - Microsoft 365 product and services
+
+iconUrl:  /learn/achievements/classify-data-protection-governance.svg
+ratingEnabled: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-365
+units:
+- learn-m365.m365-compliance-advanced-audit.overview
+- learn-m365.m365-compliance-advanced-audit.monitor
+- learn-m365.m365-compliance-advanced-audit.configure
+- learn-m365.m365-compliance-advanced-audit.create
+- learn-m365.m365-compliance-advanced-audit.investigate
+- learn-m365.m365-compliance-advanced-audit.summary-knowledge-check
+
+badge: 
+  uid: learn-m365.m365-compliance-advanced-ediscovery.badges
