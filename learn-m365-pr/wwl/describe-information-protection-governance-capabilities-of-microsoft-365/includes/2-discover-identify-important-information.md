@@ -1,6 +1,6 @@
 Data is held in more places and on more devices than ever before. Before you can protect sensitive data, you need to know your data.
 
-Knowing your data, is about being able to discover and identify important information across your environment.  You may also need to clarify what sensitive data means for your organization because it is not the same for everyone.  Knowing your data starts with being able to idenitfy what sensitive data you have today so that you can classify it appropriately.
+Knowing your data, is about being able to discover and identify important information across your environment.  You may also need to clarify what sensitive data means for your organization because it is not the same for everyone.  Knowing your data starts with being able to identify what sensitive data you have today so that you can classify it appropriately.
 
 ## Sensitivity labels
 
