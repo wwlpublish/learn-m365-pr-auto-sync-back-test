@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn-m365.m365-threat-remediate
+metadata:
+  title: Remediate risks with Office 365 Advanced Threat Protection
+  description: Learn about the Office 365 Advanced Threat Protection component of Microsoft Threat Protection.
+  ms.date: 06/24/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Remediate risks with Office 365 Advanced Threat Protection  
+summary: Learn about the Office 365 Advanced Threat Protection component of Microsoft Threat Protection.
+abstract: |
+  In this module, you will learn how to:
+  - Define the capabilities of Microsoft Office 365 Advanced Threat Protection.
+  - Understand how to simulate attacks within your network.
+  - Explain how Microsoft Office 365 Advanced Threat Protection can remediate risks in your environment.
+
+prerequisites: | 
+ - Basic understanding of Microsoft 365
+iconUrl: /learn/achievements/train-the-defenders.svg
+ratingEnabled: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-365
+- m365-threat-protection
+units:
+- learn-m365.m365-threat-remediate.introduction
+- learn-m365.m365-threat-remediate.automate-investigate-remediate
+- learn-m365.m365-threat-remediate.configure-protect-detect
+- learn-m365.m365-threat-remediate.simulate-attacks
+- learn-m365.m365-threat-remediate.summary-knowledge-check
+badge: 
+  uid: learn-m365.m365-threat-remediate.badges
