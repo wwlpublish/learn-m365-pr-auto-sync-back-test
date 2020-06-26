@@ -9,7 +9,7 @@ We build our technology based on these three foundational principles:
 * Artificial Intelligence (AI) and automation to secure your future.
 * Integrated across people, devices, apps, and data.
 
-:::image type="content" source="../media/2-intelligent-security.png" alt-text="Intelligent security":::
+:::image type="content" source="../media/2-intelligent-security-v2.png" alt-text="Foundational principles":::
 
 ## Built-in experiences that work across platforms 
 Microsoft provides a built-in approach to security that provides simplified experiences for users and admins from any device, from anywhere, on any platform. 
