@@ -6,7 +6,7 @@
 
 When it comes to deciding what to transfer and what to discard, a manual migration can be more flexible. Some users may want to keep everything, and others may want to take the opportunity to clean up their drives. Your IT department can have support teams visit users or set up support centers for users to bring their PCs to the support team. Users and the IT department will need to work together in moving the desired files and settings to the updated Windows 10 system.
 
-Whether the manual approach is an option in your organization depends on the scale of your migration. Remember the natural limitations of the time and logistics involved in working directly with users, understanding their needs, and copying files across to their updated workspaces. Some organizations take a standardized approach for all users to make the migration as efficient as possible while meeting business requirements. If you’re opting for a manual migration from Windows 7, you may need to assess whether you can complete the task by January 2020 when support for Windows 7 ends. 
+Whether the manual approach is an option in your organization depends on the scale of your migration. Remember the natural limitations of the time and logistics involved in working directly with users, understanding their needs, and copying files across to their updated workspaces. Some organizations take a standardized approach for all users to make the migration as efficient as possible while meeting business requirements.
 
 ## Migrate user data with the User State Migration Tool
 
@@ -48,4 +48,8 @@ View a [video version](https://www.microsoft.com/videoplayer/embed/RE44AMz) of t
 
 Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
 
+## Learn more
 
+- [Identify users and mailboxes to be migrated](https://docs.microsoft.com/exchange/mailbox-migration/mailbox-migration?azure-portal=true)
+- [Plan migration of on-prem users and groups](https://docs.microsoft.com/exchange/mailbox-migration/decide-on-a-migration-path?azure-portal=true)
+- [Import PST Files](https://docs.microsoft.com/microsoft-365/compliance/importing-pst-files-to-office-365?azure-portal=true)

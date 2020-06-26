@@ -66,4 +66,8 @@ After you add a remote domain, you can confirm how you’d like Exchange to resp
 ## Learn more 
 - [Microsoft 365 admin center](https://admin.microsoft.com?azure-portal=true)  
 - [Use Directory Based Edge Blocking to reject messages sent to invalid recipients](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-directory-based-edge-blocking?azure-portal=true) 
+- [Add and configure additional domains](https://docs.microsoft.com/office365/admin/setup/add-domain?azure-portal=true)
+- [Design domain name configuration](https://docs.microsoft.com/office365/admin/setup/domains-faq?azure-portal=true)
+- [Set primary domain name](https://docs.microsoft.com/office365/admin/setup/domains-faq?azure-portal=true)
+- [Verify custom domain](https://docs.microsoft.com/office365/admin/setup/add-domain?azure-portal=true)
 - [Manage remote domains in Exchange Online](https://docs.microsoft.com/Exchange/mail-flow-best-practices/remote-domains/manage-remote-domains?azure-portal=true) 
