@@ -68,7 +68,7 @@ Azure Active Directory is a feature rich service offering that scales to meet yo
 | Cloud Authentication  (Pass-Through Auth, Password Hash sync, Seamless SSO) | Yes               | Yes               | Yes            | Yes            |
 | Azure AD Connect sync (extend  on-premises directories to Azure AD) | Yes               | Yes               | Yes            | Yes            |
 | Self-Service Password Change  for cloud users                | Yes               | Yes               | Yes            | Yes            |
-| Azure AD Join: desktop SSO  & administrator Bitlocker recovery | Yes               | Yes               | Yes            | Yes            |
+| Azure AD Join: desktop SSO  & administrator BitLocker recovery | Yes               | Yes               | Yes            | Yes            |
 | Password Protection (global  banned password)                | Yes               | Yes               | Yes            | Yes            |
 | Multi-Factor Authentication                                  | Yes               | Yes               | Yes            | Yes            |
 | Self-service password reset  for cloud users                 |                   | Yes               | Yes            | Yes            |
