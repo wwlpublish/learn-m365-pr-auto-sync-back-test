@@ -1,7 +1,7 @@
 
 Windows Virtual Desktop is easier to deploy and manage than traditional Remote Desktop Services (RDS) or virtual desktop infrastructure (VDI) environments. You don't have to provision and manage servers and server roles like the gateway, connection broker, diagnostics, load balancing, and licensing. 
 
-## What's managed by Microsoft
+## What's managed by Microsoft and what you manage
 
 The following illustration shows what services are managed by Microsoft and what you manage.
 
@@ -9,8 +9,16 @@ The following illustration shows what services are managed by Microsoft and what
 
 ## What Microsoft manages
 
-- Windows Virtual Desktop service - Diagnostics with Azure Monitor, load balancing...
-- Azure infrastructure - compute, storage, networking
+Windows Virtual Desktop provides virtualization infrastructure as a managed service. Windows Virtual Desktop manages:
+
+- Web client for users to connect to their workspace by using a browser that supports HTML5
+- Diagnostics that allows the administrator to identify issues through a single interface
+- Centralized management of configurations in the Azure portal
+- Broker to manages incoming connections and directs clients to available session hosts
+- Load balancing to balance session host connections
+- Gateway to securely connect users to the workspace
+
+Window Virtual Desktop uses Azure infrastructure services for compute, storage, and networking.
 
 ## What you manage
 
@@ -18,17 +26,17 @@ The following illustration shows what services are managed by Microsoft and what
 
 Create application groups to group, publish, and assign access to remote apps or desktops.
 
-- Remoteapp applications groups provide users access to the applications you individually publish to the application group. You can create multiple RemoteApp app groups to accommodate different user scenarios. Use RemoteApp to virtualize an app that runs on a legacy OS or one that needs secured access to corporate resources.
-- Remote Desktop application groups give users access to a full desktop. You can provide a desktop where the session host VM resources are shared or pooled. Or you can provide personal desktops to users that need to be able to add or remove programs without impacting other users.
+- Desktop - Remote Desktop application groups give users access to a full desktop. You can provide a desktop where the session host VM resources are shared or pooled. Or you can provide personal desktops to users that need to be able to add or remove programs without impacting other users.
+- App - Remoteapp applications groups provide users access to the applications you individually publish to the application group. You can create multiple RemoteApp app groups to accommodate different user scenarios. Use RemoteApp to virtualize an app that runs on a legacy OS or one that needs secured access to corporate resources.
+- Images - When you configure session hosts for application groups, you have your choice of images. Use a recommended image like Windows 10 Enterprise multi-session + Office 365. Or choose another image in your gallery or an image provided by Microsoft or other publishers. You can also use your own image built through Hyper-V or on an Azure VM.
 
 ### Management and policies
 
-- Images
-- App
-- Profiles
-- VM sizing and scaling
-- User management and identity - RBAC & Azure AD features
-- Networking - NSGs, Express Route, VPN...
+- Profile management - Configure FSLogix with a storage solution like Azure Files to containerize user profiles and provide a fast and stateful experience for users.
+- Sizing and scaling - Specify session host VM sizes and depth or breath load balancing when you create a host pool. Configure scaling automation policies.
+- Networking policies - Manage inbound and outbound network traffic for session hosts with network security groups, Azure Firewall, or third-party offering.
+- User management and identity -  Use Azure Active Directory and role-based access controls to manage user access to resources.
+
 
 ## Infrastructure and system requirements
 
@@ -41,7 +49,7 @@ Windows Virtual Desktop can be used in a cloud-only organization or in a hybrid 
 For hybrid environments:
 
 - An Azure Active Directory organization
-- A Windows Server Active Directory in sync with Azure Active Directory. You can configure this with one of the following:
+- A domain controller that's synced with Azure Active Directory. You can configure this with one of the following:
    - Azure AD Connect
    - Azure Active Directory Domain Services (Azure AD DS)
 - An Azure subscription that contains a virtual network that either contains or is connected to the Windows Server Active Directory or Active Directory Domain Services

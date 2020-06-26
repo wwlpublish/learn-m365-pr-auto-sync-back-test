@@ -18,7 +18,7 @@ With Windows Virtual Desktop, the data and apps are separated from the local har
 
 User sessions are isolated in both single and multi-session environments.
 
-Windows Virtual Desktop also improves security by using reverse connect technology which is a more secure connection type than the Remote Desktop Protocol. We don't open inbound ports to the session host VMs. 
+Windows Virtual Desktop also improves security by using reverse connect technology which is a more secure connection type than the Remote Desktop Protocol. We don't open inbound ports to the session host VMs.
 
 ## Simplify management
 
@@ -32,13 +32,15 @@ Windows Virtual Desktop gives you options to load balance users on your VM host 
 
 Windows Virtual Desktop lets you use Windows 10 Enterprise multi-session, the only Windows client-based operating system that enables multiple concurrent users on a single virtual machine (VM). Windows Virtual Desktop also provides a more consistent experience with broader application support compared to Windows Server-based operating systems.
 
-## Licensing and Azure Reservations cost savings
+## Bring your licenses
 
 Windows Virtual Desktop is available to you at no additional cost if you have an eligible Microsoft 365
 license. Just pay for the Azure resources used by Windows Virtual Desktop.
 
-- Licensing:
-  - Bring your eligible Windows or Microsoft 365 license to get Windows 10 Enterprise and Windows 7 Enterprise desktops and apps at no additional cost.
-  - If you're an eligible Microsoft Remote Desktop Services (RDS) Client Access License (CAL) customer, Windows Server Remote Desktop Services desktops and apps are available at no additional cost.
-- Azure Reservations: A Reserved Virtual Machine Instance can save you up to 72 percent versus pay-as-you-go pricing. You can buy one-year or three-year Azure Reserved Virtual Machine Instances. You can pay for a reservation up front or monthly.
+- Bring your eligible Windows or Microsoft 365 license to get Windows 10 Enterprise and Windows 7 Enterprise desktops and apps at no additional cost.
+- If you're an eligible Microsoft Remote Desktop Services (RDS) Client Access License (CAL) customer, Windows Server Remote Desktop Services desktops and apps are available at no additional cost.
+
+## Save on compute costs
+
+Buy one-year or three-year Azure Reserved Virtual Machine Instances to save you up to 72 percent versus pay-as-you-go pricing. You can pay for a reservation up front or monthly. Reservations provide a billing discount and don't affect the runtime state of your resources.
 
