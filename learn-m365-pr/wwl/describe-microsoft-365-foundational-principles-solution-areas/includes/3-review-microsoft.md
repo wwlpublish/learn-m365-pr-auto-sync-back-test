@@ -1,7 +1,7 @@
 Microsoft weaves built-in experiences, AI and automation, and an integrated eco-system into its security and compliance solution areas.
 
 
-##Security
+## Security
 Microsoft's security solutions include the following technology areas:
 
 * Identity and access management
