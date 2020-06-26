@@ -2,6 +2,9 @@
 
 ![step 6 icon](../media/step-6-icon.png)
 
+
+To successfully deploy the Windows 10 operating system in your organization, it is important to understand the different ways that it can be deployed, especially now that there are new scenarios to consider. Choosing among these scenarios, and understanding the capabilities and limitations of each, is a key task.
+
 There are three primary deployment scenarios, each with specific tools or methodologies:
 
 - **Modern.** (Recommended) These methods are supported with existing tools (like Microsoft Deployment Toolkit (MDT) or Microsoft Endpoint Configuration Manager:
@@ -17,3 +20,11 @@ There are three primary deployment scenarios, each with specific tools or method
   - Bare metal - Deploy a new device or wipe an existing device and deploy with a fresh image.
   - Refresh - Also called *wipe and load*, redeploy a device by saving the user state, wiping the disk, then restoring the user state.
   - Replace - Replace an existing device with a new one by moving the user state from the old device and to the new device.
+  
+Modern deployment methods are recommended unless you have a specific need to use a different procedure. These methods are supported with existing tools such as Microsoft Deployment Toolkit (MDT) and Microsoft Endpoint Configuration Manager. These methods are discussed in detail on the Modern Desktop Deployment Center.
+
+Once you have deployed Windows 10 in your organization, it is important to stay up to date by creating a deployment plan for Windows 10 feature updates.
+
+## Learn more
+- [Create a deployment plan](https://docs.microsoft.com/windows/deployment/update/create-deployment-plan?azure-portal=true)
+- [Modern Desktop Deployment Center](https://docs.microsoft.com/microsoft-365/enterprise/desktop-deployment-center-home?view=o365-worldwide?azure-portal=true)
