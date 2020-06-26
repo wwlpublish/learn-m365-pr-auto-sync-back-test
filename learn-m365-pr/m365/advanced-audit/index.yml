@@ -30,12 +30,12 @@ products:
 - m365
 - office-365
 units:
-- learn-m365.m365-compliance-advanced-discover-audit.overview
-- learn-m365.m365-compliance-advanced-discover-audit.monitor
-- learn-m365.m365-compliance-advanced-discover-audit.configure
-- learn-m365.m365-compliance-advanced-discover-audit.create
-- learn-m365.m365-compliance-advanced-discover-audit.investigate
-- learn-m365.m365-compliance-advanced-discover-audit.summary-knowledge-check
+- learn-m365.compliance-advanced-discover-audit.overview
+- learn-m365.compliance-advanced-discover-audit.monitor
+- learn-m365.compliance-advanced-discover-audit.configure
+- learn-m365.compliance-advanced-discover-audit.create
+- learn-m365.compliance-advanced-discover-audit.investigate
+- learn-m365.compliance-advanced-discover-audit.summary-knowledge-check
 
 badge: 
-  uid: learn-m365.m365-compliance-advanced-discover-audit.badges
+  uid: learn-m365.compliance-advanced-discover-audit.badges
