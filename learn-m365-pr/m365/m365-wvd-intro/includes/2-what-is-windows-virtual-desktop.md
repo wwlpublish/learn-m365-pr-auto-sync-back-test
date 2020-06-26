@@ -12,7 +12,7 @@ You can provide individual ownership through personal (persistent) desktops. For
 
 ## Enhance security
 
-Windows Virtual Desktop provides centralized security management  for user's desktops with Azure Active Directory (Azure AD). You can enable multi-factor authentication to secure user sign-ins. You can also secure access to data by assigning granular role-based access controls to users.
+Windows Virtual Desktop provides centralized security management for user's desktops with Azure Active Directory (Azure AD). You can enable multi-factor authentication to secure user sign-ins. You can also secure access to data by assigning granular role-based access controls to users.
 
 With Windows Virtual Desktop, the data and apps are separated from the local hardware and runs them instead on a remote server. So the risk of confidential data being left on a personal device is reduced.
 

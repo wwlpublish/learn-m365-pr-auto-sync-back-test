@@ -14,36 +14,36 @@ durationInMinutes: 3
 quiz:
   title: Check your knowledge
   questions:
-   - content: "Windows Virtual Desktop uses port 3389 to connect to remote sessions."
+   - content: "What is Windows Virtual Desktop?"
      choices:
-     - content: "True"
+     - content: "A Windows Server role that provides desktop and app virtualization"
        isCorrect: false
-       explanation: "Incorrect. Port 3389 is used by the Remote Desktop Protocol, not Windows Virtual Desktop, to connect to session hosts."
-     - content: "False"
+       explanation: "Windows Server has Remote Desktop Services roles that support desktop and app virtualization deployments."
+     - content: "An Azure service that provides desktop and app virtualization service in the cloud"
        isCorrect: true
-       explanation: "Correct. Port 3389 is used by the Remote Desktop Protocol, not Windows Virtual Desktop, to connect to session hosts."   
-   - content: "Which of the following scaling options is available with Windows Virtual Desktop?"
+       explanation: "Windows Virtual Desktop on Microsoft Azure is a desktop and app virtualization service that runs on the cloud."
+     - content: "A service that provides desktop virtualization on-premises"
+       isCorrect: false
+       explanation: "Remote Desktop Services can provide desktop virtualization on-premises"   
+   - content: "What do you need to configure when you set up a Windows Virtual Desktop?"
      choices:
-     - content: "Targeted"
+     - content: "Remote Desktop Session Host (RD Session Host)"
        isCorrect: false
-       explanation: "Incorrect. Windows Virtual Desktop uses breadth and depth scaling."
-     - content: "Depth"
+       explanation: "RD Session Host is a Windows Server role."
+     - content: "Web client"
+       isCorrect: false
+       explanation: "Windows Virtual Desktop provides a web client so users can connect to their workspace with a browser."
+     - content: "Pooled or personal session hosts"
        isCorrect: true
-       explanation: "Correct. In addition to breadth mode scaling, Windows Virtual Desktop uses depth scaling to fully allocate users on one VM before moving to the next."
-     - content: "Hyper"
-       isCorrect: false
-       explanation: "Incorrect. Windows Virtual Desktop uses breadth and depth scaling."
-   - content: "Which server role do you need to configure when you set up a Windows Virtual Desktop infrastructure?"
+       explanation: "When you configure your host pool, you specify whether session host resources are pooled or personal. A pooled host pool is where several users share VM resources. With a personal host pool, users have dedicated VM resources."
+   - content: "When could Windows Virtual Desktop be a good choice for an organization?"
      choices:
-     - content: "RDSH"
-       isCorrect: false
-       explanation: "Incorrect. With Windows Virtual Desktop, the required server infrastructure is managed by Microsoft in Microsoft Azure. You don't need to configure any server roles."
-     - content: "Licensing server"
-       isCorrect: false
-       explanation: "Incorrect. With Windows Virtual Desktop, the required server infrastructure is managed by Microsoft in Microsoft Azure. You don't need to configure any server roles."
-     - content: "Gateway"
-       isCorrect: false
-       explanation: "Incorrect. With Windows Virtual Desktop, the required server infrastructure is managed by Microsoft in Microsoft Azure. You don't need to configure any server roles."
-     - content: "None of the above"
+     - content: "Users need flexibility to work remotely with their personal device"
        isCorrect: true
-       explanation: "Correct. With Windows Virtual Desktop, the required server infrastructure is managed by Microsoft in Microsoft Azure. You don't need to configure any server roles."
+       explanation: "Windows Virtual Desktop allows users to use their own device and be productive wherever they are."
+     - content: "Users need to be able to work offline"
+       isCorrect: false
+       explanation: "Users need to be online to connect and use Windows Virtual Desktop."
+     - content: "Organization wants full end-to-end control of the desktop virtualization environment"
+       isCorrect: false
+       explanation: "Remote Desktop Services is more suited to that scenario."

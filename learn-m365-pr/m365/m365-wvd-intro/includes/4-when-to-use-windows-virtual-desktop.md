@@ -14,7 +14,7 @@ The following table describes business needs and applicable scenarios where Wind
 
 |Business need  |Description | Scenarios  |
 |---------|---------|---------|
-|Security and regulation     |Keep data and organizational resources safe while enabling the appropriate level of access by a variety of the organization's users. Leverage documentation and systems that support compliance with industry and local regulations.|     - Financial services <br>-  Healthcare<br>- Government    |
+|Security and regulation     |Keep data and organizational resources safe while enabling the appropriate level of access by a variety of the organization's users. Leverage documentation and systems that support compliance with industry and local regulations.|- Financial services <br>- Healthcare<br>- Government    |
 |Elastic workforce   | Scale Windows Virtual Desktop to provide access to services on demand.   | - Mergers and acquisitions<br>- Short-term employees<br>- Contractors and partners      |
 |Remote employees   |Meet employee-specific needs by allowing them to use their own device and be productive wherever they are.  | - BYOD and mobile<br>- Call centers <br>- Branch workers |
 |Specialized workloads |Provide access to  apps or desktops that may need to run with specialized or older software.  | - Design and engineering<br>- Legacy apps<br>- Software development and test        |
