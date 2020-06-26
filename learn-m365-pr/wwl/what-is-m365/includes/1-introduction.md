@@ -11,8 +11,6 @@ In this module, you will:
 
 - Basic understanding of cloud computing. If you are unfamiliar with cloud computing concepts, we recommend you take [Cloud Concepts - Principles of cloud computing](https://docs.microsoft.com/learn/modules/principles-cloud-computing/)
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtIaa]
-
 Microsoft 365 empowers users with the latest innovation across new and familiar productivity experiences like Teams, Word, Excel, PowerPoint, Outlook, and Windows. Unlike other productivity services, Microsoft 365 learns from users and collects valuable insights through the Microsoft Graph to deliver enhanced experiences that continually get better over time and keep users protected.  Microsoft 365 empowers organizations with the following capabilities: 
 
 |Capability|Description|
