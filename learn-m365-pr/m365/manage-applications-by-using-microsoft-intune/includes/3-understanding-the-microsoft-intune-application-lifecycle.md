@@ -30,3 +30,6 @@ Intune gives you many ways to help protect the data in your apps. The main metho
 
 Eventually, the apps that you deployed will likely become outdated and need to be removed. Intune makes it easy to retire apps from service.
 
+## Learn more
+- [Plan for Mobile Application Management](https://docs.microsoft.com/microsoft-store/distribute-apps-with-management-tool?azure-portal=true)
+- [App protection policies](https://docs.microsoft.com/mem/intune/apps/app-protection-policy?azure-portal=true)
