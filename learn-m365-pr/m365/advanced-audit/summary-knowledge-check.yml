@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.m365-compliance-advanced-ediscovery.summary-knowledge-check
+uid: learn-m365.m365-compliance-advanced-audit.summary-knowledge-check
 title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
-  description:  eDiscovery offers built-in tools such as Content Search to help identify data used as evidence in legal cases. Content Search helps identify relevant data directly in Microsoft 365, reducing the amount of data customers need to prepare and export to their 3rd party compliance tools. Advanced eDiscovery builds on the core eDiscovery solution, helping organizations respond more quickly with a streamlined end-to-end eDiscovery workflow, intelligent search capabilities to decrease manual work, and save on 3rd party storage costs.
+  description:  Microsoft 365 delivers comprehensive audit logs and alerts across more than 15 services, which enables customers to track user and administration activity within their tenants. Improvements in Advanced Auditing in Microsoft 365 includes preservation of audit logs for up to a year, faster access to data, and access to crucial events for quicker investigations.
   ms.date: 07/06/2020
   author: ericweisberg
   ms.author: v-erwe
