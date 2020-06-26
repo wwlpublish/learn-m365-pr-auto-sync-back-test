@@ -1,5 +1,5 @@
 ### YamlMime:Module
-uid: learn-m365.m365-compliance-advanced-audit
+uid: learn-m365.compliance-discover-advanced-audit
 metadata:
   title: Track user and admin activity with Advanced Audit
   description: Microsoft 365 delivers comprehensive audit logs and alerts across more than 15 services, which enables customers to track user and administration activity within their tenants. Improvements in Advanced Auditing in Microsoft 365 include preservation of audit logs for up to a year, faster access to data, and access to crucial events for quicker investigations.
@@ -20,7 +20,7 @@ prerequisites: |
    - Cloud computing concepts
    - Microsoft 365 product and services
 
-iconUrl:  /learn/achievements/classify-data-protection-governance.svg
+iconUrl:  /learn/achievements/compliance-advanced-discover-audit.svg
 ratingEnabled: true
 levels:
 - intermediate
@@ -30,12 +30,12 @@ products:
 - m365
 - office-365
 units:
-- learn-m365.m365-compliance-advanced-audit.overview
-- learn-m365.m365-compliance-advanced-audit.monitor
-- learn-m365.m365-compliance-advanced-audit.configure
-- learn-m365.m365-compliance-advanced-audit.create
-- learn-m365.m365-compliance-advanced-audit.investigate
-- learn-m365.m365-compliance-advanced-audit.summary-knowledge-check
+- learn-m365.compliance-discover-advanced-audit.overview
+- learn-m365.compliance-discover-advanced-audit.monitor
+- learn-m365.compliance-discover-advanced-audit.configure
+- learn-m365.compliance-discover-advanced-audit.create
+- learn-m365.compliance-discover-advanced-audit.investigate
+- learn-m365.compliance-discover-advanced-audit.summary-knowledge-check
 
 badge: 
-  uid: learn-m365.m365-compliance-advanced-audit.badges
+  uid: learn-m365.compliance-discover-advanced-audit.badges
