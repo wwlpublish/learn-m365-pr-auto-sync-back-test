@@ -99,7 +99,6 @@ These are the main takeaways from this guidance. You must:
 
 ## Learn more
 
-When you're done with a link, use the **Back** arrow in your browser to come back to this page.
-
-- [Evaluate your environment before upgrading to Teams](https://docs.microsoft.com/MicrosoftTeams/upgrade-plan-journey-evaluate-environment)
-- [Prepare your network for upgrading to Teams](https://docs.microsoft.com/MicrosoftTeams/upgrade-prepare-environment-prepare-network)
+- [Evaluate your environment before upgrading to Teams](https://docs.microsoft.com/MicrosoftTeams/upgrade-plan-journey-evaluate-environment?azure-portal=true)
+- [Prepare your network for upgrading to Teams](https://docs.microsoft.com/MicrosoftTeams/upgrade-prepare-environment-prepare-network?azure-portal=true)
+- [Use Network Planner](https://docs.microsoft.com/microsoftteams/network-planner?azure-portal=true)
