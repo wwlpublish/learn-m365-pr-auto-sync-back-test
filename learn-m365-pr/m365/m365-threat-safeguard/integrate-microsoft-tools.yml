@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.m365-security-threat-safeguard.configure-sensors
-title: Configure Azure ATP sensors
+uid: learn-m365.m365-threat-safeguard.integrate-microsoft-tools
+title: Integrate with other Microsoft tools
 metadata:
-  title: Configure Azure ATP sensors
+  title: Integrate with other Microsoft tools
   description: Learn about the Azure Advanced Threat Protection component of Microsoft Threat Protection. 
   ms.date: 06/24/2020
   author: AlexandraHrt
@@ -11,4 +11,4 @@ metadata:
   ms.prod: learning-m365
 durationInMinutes: 5
 content: |
-  [!include[](includes/configure-sensors.md)]
+  [!include[](includes/integrate-microsoft-tools.md)]
