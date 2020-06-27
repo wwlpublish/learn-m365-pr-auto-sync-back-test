@@ -100,5 +100,6 @@ These are the main takeaways from this guidance. You must:
 ## Learn more
 
 - [Evaluate your environment before upgrading to Teams](https://docs.microsoft.com/MicrosoftTeams/upgrade-plan-journey-evaluate-environment?azure-portal=true)
+- [Configure media optimizations using QOS](https://docs.microsoft.com/microsoftteams/qos-in-teams?azure-portal=true)
 - [Prepare your network for upgrading to Teams](https://docs.microsoft.com/MicrosoftTeams/upgrade-prepare-environment-prepare-network?azure-portal=true)
 - [Use Network Planner](https://docs.microsoft.com/microsoftteams/network-planner?azure-portal=true)
