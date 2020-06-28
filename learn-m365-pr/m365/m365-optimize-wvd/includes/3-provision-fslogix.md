@@ -2,7 +2,7 @@ To use FSLogix to separate user profiles from the session host virtual machines 
 
 ## Create the storage account
 
-1. Sign in to the [Azure portal](https://portal.azure.com?azure-portal=true). 
+1. Sign in to the [Azure portal](https://portal.azure.com?azure-portal=true).
 1. Search for **Storage accounts** by using the Azure portal search box.
 1. In **Storage accounts**, select **Add**.
 1. Select or create a resource group to contain your storage resources. 
@@ -126,9 +126,9 @@ The initial sign-in will take a little longer than usual. It's a one-time delay 
 ## Verify disk are created
 
 1. Go back to your **Storage Account** in Azure.
-1. Go to the **File Share**. 
-1. You’ll see the new virtual disk. 
+1. Go to the **File Share**.
+1. You’ll see the new virtual disk.
 
-   >![Windows Virtual Desktop - new virtual disk in Azure](../media/wvd-files.png)
+   :::image type="content" source="../media/3-profile-files.png" alt-text="Screenshot that shows the user profile disk in the Azure file share..":::
 
 The next time the user signs in, the VM will connect to their virtual disk. For the user, it will feel like any apps that use %localappdata% are using a locally stored profile.
