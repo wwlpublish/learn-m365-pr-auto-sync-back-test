@@ -14,7 +14,7 @@ Windows Virtual Desktop provides virtualization infrastructure as a managed serv
 - Web client for users to connect to their workspace by using a browser that supports HTML5
 - Diagnostics that allows the administrator to identify issues through a single interface
 - Centralized management of configurations in the Azure portal
-- Broker to manages incoming connections and directs clients to available session hosts
+- Broker to manage incoming connections and directs clients to available session hosts
 - Load balancing to balance session host connections
 - Gateway to securely connect users to the workspace
 
@@ -33,7 +33,7 @@ Create application groups to group, publish, and assign access to remote apps or
 ### Management and policies
 
 - Profile management - Configure FSLogix with a storage solution like Azure Files to containerize user profiles and provide a fast and stateful experience for users.
-- Sizing and scaling - Specify session host VM sizes and depth or breath load balancing when you create a host pool. Configure scaling automation policies.
+- Sizing and scaling - Specify session host VM sizes and depth or breath load balancing when you create a host pool. Configure automation policies for scaling.
 - Networking policies - Manage inbound and outbound network traffic for session hosts with network security groups, Azure Firewall, or third-party offering.
 - User management and identity -  Use Azure Active Directory and role-based access controls to manage user access to resources.
 
@@ -93,11 +93,11 @@ Windows Virtual Desktop doesn't support x86 (32-bit), Windows 10 Enterprise N, o
 
 Microsoft’s Windows Virtual Desktop solution on Microsoft Azure is a fully managed desktop virtualization solution.
 
-As you progress through the Windows Virtual Desktop training, you’ll notice that the setup process abstracts many of the infrastructure roles you might have deployed for RDS in the past. The initial provisioning is focused on hybrid integration and deploying host pools. The configuration focuses on the day-to-day operations like management of session host, identity, app, and storage. 
+As you progress through the Windows Virtual Desktop training, you’ll notice that the setup process abstracts many of the infrastructure roles you might have deployed for RDS in the past. Use the information in this learning path to **Prepare > Deploy > Optimize** your Windows Virtual Desktop environments. 
 
-Use this information to **Prepare > Deploy > Optimize** your Windows Virtual Desktop environments. 
+The following table gives you an overview of the set up process and describes what's covered in the rest of the Windows Virtual Desktop modules.
  
-| | |
+|Milestone | Steps|
 |-|-|
 |Prepare <br>![Prepare icon](../media/prepare.png)|In the **Prepare** module, we’ll discuss the following steps to complete before you deploy Windows Virtual Desktop: <br>- Set up Azure Active Directory (Azure AD) <br>- Integrate with Active Directory Domain Services <br> - Create Azure resources <br>- Assign administrator roles<br>-Assign licenses to Windows Virtual Desktop users <br>-Register the DesktopVirtualization provider with your subscription |
 |Deploy <br>![Deploy icon](../media/deploy.png)|In the **Deploy** module, we’ll walk through the steps to: <br>- Create a Windows Virtual Desktop host pool and workspace <br>- Make a desktop and apps available to users by using application groups <br>- Customize the workspace <br>- Connect to the workspace by using the Windows Virtual Desktop client 

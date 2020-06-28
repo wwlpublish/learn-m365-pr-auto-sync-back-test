@@ -9,7 +9,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Introduction to Windows Virtual Desktop in Microsoft Azure
-summary: Learn about Windows Virtual Desktop.
+summary: Learn how to use Windows Virtual Desktop to deliver remote desktop and remote app experiences in Microsoft Azure.
 abstract: |
   At the end of this module, you should be able to:
   - Describe Windows Virtual Desktop and how it works
