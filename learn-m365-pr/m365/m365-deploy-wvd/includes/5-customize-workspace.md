@@ -39,10 +39,10 @@ In the previous units, we used the browser to connect to the Windows Virtual Des
 1. [Download the Windows Virtual Desktop Client](https://aka.ms/wvd/clients/windows) and install it.
 1. Launch the Windows Virtual Desktop client  app.
 
-   :::image type="content" source="../media/5-wvd-app-get-started.png" alt-text="Screenshot of the remote desktop window with the subscribe with URL button.":::
+   :::image type="content" source="../media/5-app-get-started.png" alt-text="Screenshot of the remote desktop window with the subscribe with URL button.":::
 
 1. Select **Subscribe with an alternate URL**.
-1. Enter the URL https://rdweb.wvd.microsoft.com/api/arm/feeddiscovery.
+1. Enter the URL https:\//rdweb.wvd.microsoft.com/api/arm/feeddiscovery.
  
     :::image type="content" source="../media/5-subscribe-workspace.png" alt-text="Screenshot of the subscribe to workspace form with the URL pasted in.":::
 1. Select Next.
