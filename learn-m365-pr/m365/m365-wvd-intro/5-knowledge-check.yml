@@ -21,10 +21,10 @@ quiz:
        explanation: "Windows Server has Remote Desktop Services roles that support desktop and app virtualization deployments."
      - content: "An Azure service that provides desktop and app virtualization service in the cloud"
        isCorrect: true
-       explanation: "Windows Virtual Desktop on Microsoft Azure is a desktop and app virtualization service that runs on the cloud."
+       explanation: "Windows Virtual Desktop on Microsoft Azure is a desktop and app virtualization service that runs in the cloud."
      - content: "A service that provides desktop virtualization on-premises"
        isCorrect: false
-       explanation: "Remote Desktop Services can provide desktop virtualization on-premises"   
+       explanation: "Remote Desktop Services can provide desktop virtualization on-premises."   
    - content: "What do you need to configure when you set up a Windows Virtual Desktop?"
      choices:
      - content: "Remote Desktop Session Host (RD Session Host)"
