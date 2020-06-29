@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 06/28/2020
+  ms.date: 07/02/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -20,13 +20,13 @@ quiz:
     choices:
     - content: "By creating a webhook."
       isCorrect: false
-      explanation: "That's incorrect. You create tabs to add PowerApp apps."
+      explanation: "That's incorrect. PowerApps applications can be added to Microsoft Teams channel by creating a tab."
     - content: "By creating a tab."
       isCorrect: true
       explanation: "That's correct. These apps can be added directly to Teams by creating tabs for those apps. Apps can be accessed from the tabs"
     - content: "By creating a bot."
       isCorrect: false
-      explanation: "That's incorrect. You create tabs to add PowerApp apps."
+      explanation: "That's incorrect. PowerApps applications can be added to Microsoft Teams channel by creating a tab."
   - content: "Where are Microsoft Teams Meeting rooms added when creating a new Teams meeting?"
     choices:
     - content: "The rooms will be available in the Room dropdown in the new meeting form."
@@ -42,13 +42,13 @@ quiz:
     choices:
     - content: "Yammer activity reports."
       isCorrect: false
-      explanation: "That's incorrect. These reports help you understand your organization's engagement level for Yammer. You use device usage reports."
+      explanation: "That's incorrect. These reports provide information about an organization's engagement level for Yammer."
     - content: "Yammer group activity reports."
       isCorrect: false
-      explanation: "That's incorrect. These help you view posting, reading, and member activity across groups."
+      explanation: "That's incorrect. These reports provide information about posting, reading, and member activity across groups."
     - content: "Yammer device usage reports."
       isCorrect: true
-      explanation: "That's correct. You can find information about devices types, the number of devices, operating system type, and more across the organization, or on an individual user level."
+      explanation: "That's correct. These reports provide information about devices types, the number of devices, operating system type, and more across the organization, or on an individual user level."
   - content: "Which extensibility feature of Microsoft Teams allows for applications like GitHub to be integrated into a Teams channel?"
     choices:
     - content: "Message extensions."
@@ -59,15 +59,15 @@ quiz:
       explanation: "That's incorrect. Use connectors to connect with services like GitHub. Bots help users to interact with other services by sending messages."
     - content: "Connectors."
       isCorrect: true
-      explanation: "That's correct. You can use connectors for third-party apps like GitHub, Bitbucket, Salesforce, and more."
+      explanation: "That's correct. Use connectors for third-party apps like GitHub, Bitbucket, Salesforce, and more."
   - content: "Which of the following roles are needed to access Microsoft Stream audit logs?"
     choices:
     - content: "An Azure Global Admin role."
       isCorrect: false
-      explanation: "That's incorrect. You don't need an Azure Global Admin role. You need a Microsoft 365 role"
+      explanation: "That's incorrect. A Microsoft 365 Global Admin role or an Exchange admin role  are needed to access Microsoft Stream audit logs."
     - content: "A Microsoft 365 Global Admin role."
       isCorrect: true
-      explanation: "That's correct. You can also have an Exchange admin role"
+      explanation: "That's correct. A Microsoft 365 Global Admin role or an Exchange admin role  are needed to access Microsoft Stream audit logs."
     - content: "A Microsoft Yammer admin role."
       isCorrect: false
-      explanation: "That's incorrect. You need a Microsoft 365 Global Admin role."
+      explanation: "That's incorrect. A Microsoft 365 Global Admin role or an Exchange admin role  are needed to access Microsoft Stream audit logs."

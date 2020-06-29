@@ -16,3 +16,9 @@ The security administrator at Contoso might use values like the following in ord
 |**Mailbox intelligence**|By default, mailbox intelligence is selected when you create a new anti-phishing policy. Leave this setting **On** for best results.|
 |**Add trusted senders and domains**|For this example, don't define any overrides.|
 |**Applied to**|Select **The recipient domain is**. Under **Any of these**, select **Choose**. Select **+ Add**. Select the name of the domain (for example, contoso.com), and then select **Add**. Select **Done**.
+
+## Learn more
+
+- [Set up anti phishing policies](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies?azure-portal=true)
+- [Configure anti phishing policies](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-atp-anti-phishing-policies?azure-portal=true)
+- [Anti-spoofing protection in EOP](https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-spoofing-protection?azure-portal=true)
