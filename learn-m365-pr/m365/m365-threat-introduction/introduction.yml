@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.m365-threat-introduction.introduction
-title: Define threats
+title: Introduction to threat protection
 metadata:
-  title: Define threats
+  title: Introduction to threat protection
   description: Learn about cybersecurity threats and how the new threat protection tools from Microsoft protect your organization’s users, devices, and data. 
   ms.date: 06/29/2020
   author: AlexandraHrt
