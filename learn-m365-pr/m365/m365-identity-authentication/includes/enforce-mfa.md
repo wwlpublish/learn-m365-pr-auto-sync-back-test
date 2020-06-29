@@ -24,7 +24,8 @@ A Conditional Access policy can require MFA when criteria such as these are met:
 - Client applications
 
 ## Learn More
-- [Conditional Access policy](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)
-- [Require multi-factor authentication at device enrollment](https://docs.microsoft.com/intune/multi-factor-authentication)
-- [Configure Conditional Access policy to require MFA](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted#plan-conditional-access-policies)
-- [Manage user settings](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-userdevicesettings)
+- [Conditional Access policy](https://docs.microsoft.com/azure/active-directory/conditional-access/overview?azure-portal=true)
+- [Configure Azure Multi-Factor Authentication settings](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-mfasettings#activity-report?azure-portal=true)
+- [Require multi-factor authentication at device enrollment](https://docs.microsoft.com/intune/multi-factor-authentication?azure-portal=true)
+- [Configure Conditional Access policy to require MFA](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted#plan-conditional-access-policies?azure-portal=true)
+- [Manage user settings](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-userdevicesettings?azure-portal=true)
