@@ -1,9 +1,9 @@
 
-[Diagram of common weaknesses](../media/common-threats-intro.png)
+![Diagram of common weaknesses](../media/common-threats-intro.png)
 
 Users face multiple threats—from credential theft to malware to phishing to infrastructure attacks.
 
-[Typical attack timeline](../media/typical-attack-timeline.png)
+![Typical attack timeline](../media/typical-attack-timeline.png)
 
 Targeted attacks usually follow a timeline similar to the above image with:
 
