@@ -44,4 +44,6 @@ In the following example, the Marketing group has been assigned the Contributor 
  ![Identity Lifecycle](../media/icon11.png)
 
 ## Learn more 
-- [Understand role definitions for Azure resources](https://docs.microsoft.com/azure/role-based-access-control/role-definitions)
+- [Understand role definitions for Azure resources](https://docs.microsoft.com/azure/role-based-access-control/role-definitions?azure-portal=true)
+- [Azure AD Connect configure filtering](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-configure-filtering?azure-portal=true)
+
