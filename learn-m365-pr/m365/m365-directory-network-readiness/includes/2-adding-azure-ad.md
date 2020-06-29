@@ -15,3 +15,8 @@ View a [video version](https://www.microsoft.com/videoplayer/embed/RE44DnV) of t
 <a href="https://mslearn.cloudguides.com/guides/Establish%20hybrid%20identity">![Establish hybrid identity](../media/lab-hybrid-identity.png)</a>  
 
 Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
+
+## Learn more
+
+- [Set up directory synchronization](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization?azure-portal=true)
+- [Prepare for directory synchronization to Microsoft 365](https://docs.microsoft.com/office365/enterprise/prepare-for-directory-synchronization?azure-portal=true)
