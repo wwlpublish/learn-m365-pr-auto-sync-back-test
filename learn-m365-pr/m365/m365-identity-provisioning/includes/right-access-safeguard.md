@@ -43,4 +43,8 @@ Your guest users and external partners manage their own identities through Azure
 
 ## Learn more
 
-- [Adding or managing guest users](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations) 
+- [Adding or managing guest users](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations?azure-portal=true)
+- [Identity protection policies](https://docs.microsoft.com/azure/active-directory/identity-protection/concept-identity-protection-policies?azure-portal=true)
+- [Implement sign-in risk policies](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-configure-risk-policies?azure-portal=true)
+- [Configure Identity Protection alerts](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-configure-risk-policies?azure-portal=true)
+- [Review and respond to risk events](https://docs.microsoft.com/azure/active-directory/identity-protection/overview-identity-protection?azure-portal=true)
