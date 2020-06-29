@@ -15,7 +15,7 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Which of following is a benefit of encryption?"
+    - content: "Which of the following is a benefit of encryption?"
       choices:
       - content: "It is always legally required."
         isCorrect: false
@@ -37,7 +37,7 @@ quiz:
         explanation: "For some customers, Microsoft Managed Keys may not meet their compliance obligations or internal security requirements."
       - content: "Availability key"
         isCorrect: false
-        explanation: "The availability key is part Customer Key but is not a separate offering."
+        explanation: "The availability key is part of Customer Key but is not a separate offering."
       - content: "Customer Key"
         isCorrect: true
         explanation: "Customer Key provides customers the ability to manage encryption keys, which includes key rolling and key revocation."
@@ -50,6 +50,6 @@ quiz:
       - content: "Microsoft 365 uses service encryption to encrypt customer data at the application layer."
         isCorrect: true
         explanation: "Correct. Additionally, Microsoft 365 encrypts data-at-rest using BitLocker."
-      - content: "Microsoft utilizes a third party’s certificate authority to manage the certificates used for TLS encryption."
+      - content: "Microsoft utilizes a third party’s certificate authority to manage all certificates used for TLS encryption."
         isCorrect: false
         explanation: "Microsoft owns and manages its own certificate authority to manage the certificates used for TLS encryption."

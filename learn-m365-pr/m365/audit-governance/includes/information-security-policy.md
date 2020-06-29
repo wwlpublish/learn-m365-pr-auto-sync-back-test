@@ -2,9 +2,9 @@ Business units and product groups at Microsoft are responsible for specific impl
 
 ## Scope
 
-The purpose of the Microsoft 365 Information Security Policy is to enable Microsoft 365 to operate according to best practices, achieve the corporate objective of building and maintaining customer trust, complying with regulatory requirements and customer commitments, and supporting public promises with respect to the confidentiality, integrity, and availability of Microsoft 365 services.
+The purpose of the Microsoft 365 Information Security Policy is to enable Microsoft 365 to operate according to best practices, achieve the corporate objective of building and maintaining customer trust, comply with regulatory requirements and customer commitments, and support public promises with respect to the confidentiality, integrity, and availability of Microsoft 365 services.
 
-The Microsoft 365 information system includes the following components governed by the Microsoft 365 Information Security Policy
+The Microsoft 365 information system includes the following components governed by the Microsoft 365 Information Security Policy:
 
 - Infrastructure: The physical and hardware components of Microsoft 365 systems (facilities, equipment, and networks)
 - Software: The programs and operating software of Microsoft 365 systems (systems, applications, and utilities)
@@ -16,7 +16,7 @@ All Microsoft 365 information system components are governed by the Microsoft 36
 
 ## Microsoft 365 Control Framework
 
-The Microsoft 365 Information Security Policy is supplemented by the Microsoft 365 Control Framework. The Microsoft 365 Control Framework details the minimum-security requirements for all Microsoft 365 services and information system components, and references the legal and corporate requirements behind each control. The framework includes control activity names, descriptions, and guidance to ensure effective control implementations by service teams. Microsoft 365 uses the control framework to track evidence of control implementations for internal and external reporting.
+The Microsoft 365 Information Security Policy is supplemented by the Microsoft 365 Control Framework. The Microsoft 365 Control Framework details the minimum-security requirements for all Microsoft 365 services and information system components and references the legal and corporate requirements behind each control. The framework includes control activity names, descriptions, and guidance to ensure effective control implementations by service teams. Microsoft 365 uses the control framework to track evidence of control implementations for internal and external reporting.
 
 The Control Framework consists of 18 objectives in the following key domain areas:
 

@@ -15,17 +15,17 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Which type of data is ‘generated ‘or ‘derived’ by Microsoft through the operation of an online service?"
+    - content: "Which type of data is **generated** or **derived** by Microsoft through the operation of an online service?"
       choices:
       - content: "Customer data"
         isCorrect: false
-        explanation: "Customer data is all data, including text, sound, video or image files, and software that the customer provides to Microsoft or that’s provided on the customer’s behalf through Microsoft enterprise online services."
+        explanation: "Customer data is all data, including text, sound, video or image files, and software that the customer provides to Microsoft or that is provided on the customer’s behalf through Microsoft enterprise online services."
       - content: "Payment data"
         isCorrect: false
-        explanation: "Payment data is the information customer provides when they buy something online with Microsoft. It may include a credit card number and security code, name, billing address, and other financial data."
+        explanation: "Payment data is the information a customer provides when they buy something online with Microsoft. It may include a credit card number and security code, name, billing address, and other financial data."
       - content: "Service-generated data"
         isCorrect: true
-        explanation: "Correct. Service-generated data includes all data “generated” or “derived” by Microsoft through the operation of an online service. Microsoft aggregates this data and uses it to ensure performance, security and other services that impact the customer experience are operating as per customer expectations."
+        explanation: "Correct. Service-generated data includes all data “generated” or “derived” by Microsoft through the operation of an online service. Microsoft aggregates this data and uses it to ensure performance, security, and other services that impact the customer experience are operating as per customer expectations."
       - content: "Professional services data"
         isCorrect: false
         explanation: "Professional services data includes support data that is provided to Microsoft during technical support for an online service."
@@ -34,8 +34,8 @@ quiz:
       choices:
       - content: "Microsoft does not give any government direct or unfettered access to customer data."
         isCorrect: true
-        explanation: "Correct. Microsoft does not give any government (including law enforcement or other government entities) direct or unfettered access to customer data. If any third party wants customer data, it needs to follow applicable legal process–meaning, it must serve us with a valid legal process for content or subscriber information or other non-content data."
-      - content: "Data processor is a legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of the processing of personal data"
+        explanation: "Correct. Microsoft does not give any government (including law enforcement or other government entities) direct or unfettered access to customer data. If any third party wants customer data, it needs to follow applicable legal process, meaning it must serve us with a valid legal process for content or subscriber information or other non-content data."
+      - content: "Data processor is a legal person, public authority, agency, or other body which, alone or jointly with others, determines the purposes and means of the processing of personal data."
         isCorrect: false
         explanation: "This is a definition of data controller."
       - content: "Professional services data is used to help Microsoft ensure the client software is secure and performing properly."

@@ -1,4 +1,4 @@
-Datacenters contain data and this is normally stored on media such as hard disks, flash or USB drives, and other types of storage devices. Microsoft handles such devices from installation to decommissioning with the strictest security.
+Datacenters contain data, and this data is normally stored on media such as hard disks, flash or USB drives, and other types of storage devices. Microsoft handles such devices from installation to decommissioning with the strictest security.
 
 ## Data bearing device handling
 

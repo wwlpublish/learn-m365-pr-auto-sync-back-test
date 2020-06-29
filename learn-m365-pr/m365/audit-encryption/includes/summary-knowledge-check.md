@@ -1,4 +1,4 @@
-In this module, you learned about how encryption helps protecting data against unauthorized access, and how Microsoft 365 provides encryption and key management solutions.
+In this module, you learned about how Microsoft 365 encrypts data at rest and in transit, securely manages encryption keys, and provides key management options to customers to meet their business needs and compliance obligations.
 
 Now that you have completed this module, you should be able to:
 

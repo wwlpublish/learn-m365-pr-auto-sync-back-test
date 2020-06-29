@@ -4,4 +4,4 @@ Secure development at Microsoft begins with the people who build our products an
 
 In addition to security awareness training, developers and engineers receive appropriate training to stay informed about security basics and recent trends in security and privacy. Attending these trainings helps ensure software is created with security and privacy in mind and helps development teams stay current on security issues.
 
-Developers and engineers are strongly encouraged to seek additional security and privacy education appropriate to their needs or products. All members of software development teams have access to advanced security and privacy training. This includes full-time employees, interns, contingent staff, subcontractors, and third parties.
+Developers and engineers are strongly encouraged to seek additional security and privacy education appropriate to their needs or products. All members of software development teams, including full-time employees, interns, contingent staff, subcontractors, and third parties, have access to advanced security and privacy training.

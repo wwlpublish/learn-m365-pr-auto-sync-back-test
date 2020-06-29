@@ -1,6 +1,6 @@
 To maintain the security of Microsoft 365, we embed security into our service architecture to mitigate security risks associated with cloud environments.  We design our services using a robust set of core security principles and make sure those principles are embedded deeply into service design and operations.
 
-The key principles that influence Microsoft’s approach to the security for Microsoft 365 include:
+The key principles that influence Microsoft’s approach to security for Microsoft 365 include:
 
 - **Data privacy:** Our customers own their data, and Microsoft 365 gives customers the tools to govern, manage, and control access to their data in Microsoft 365 services. Our services are specifically architected to enable our engineers to operate without touching customer data unless and until specifically requested by the customer. We implement Zero Standing Access (ZSA) and automate our services as much as possible to limit human interaction with customer data.
 - **Security by design:** Security priorities and requirements are embedded into the design of new features and capabilities, ensuring that our strong security posture scales with the service. Security is embedded since the early stages of the design and through the entire lifecycle of the service using Microsoft’s Security Development Lifecycle (SDL).
@@ -11,4 +11,4 @@ The key principles that influence Microsoft’s approach to the security for Mic
 
 ## Learn more
 
-- [Behind the Scenes: Securing the Infrastructure Powering the Microsoft 365 Service](https://download.microsoft.com/download/c/4/5/c45b197e-f0d9-4f40-bd5f-ed8fc7d0cd8c/M365DCSecurityIntro_Whitepaper.pdf?azure-portal=true)
+- [Behind the Scenes: Securing the Infrastructure Powering the Microsoft 365 Service](https://download.microsoft.com/download/c/4/5/c45b197e-f0d9-4f40-bd5f-ed8fc7d0cd8c/M365DCSecurityIntro_Whitepaper.pdf)

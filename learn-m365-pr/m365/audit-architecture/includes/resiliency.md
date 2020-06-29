@@ -4,7 +4,7 @@ Resiliency is another key design principle for Microsoft 365 architecture and se
 
 Microsoft 365’s resilience strategy prioritizes software resiliency. This means that we focus on building resiliency into the design of our services, protecting against service downtime regardless of failures in underlying hardware. Service resiliency allows our services to automatically recover from many kinds of faults and failures without impacting service availability.
 
-Microsoft 365 services employ a number of resiliency principles, including:
+Microsoft 365 services implement a number of resiliency principles, including:
 
 - **Active/Active service design:** Wherever possible, we ensure our services are designed and deployed with Active/Active resiliency. This means that if a critical component of the service fails, an identical component is available to take over without a loss of availability.
 - **Fault isolation:** Fault isolation increases service resilience by preventing faults in one component from causing other components to fail. Microsoft 365 works continuously to reduce the size of fault zones in our services to prevent failures from spreading and impacting other system components. For example, Exchange Online Database Availability Groups limit the impact of failures within the service to specific availability groups.
@@ -17,7 +17,7 @@ Data resiliency complements service resiliency by protecting the integrity and a
 - **Data criticality:** Our services are designed to protect critical customer data. To accomplish this, we categorize data processed by our systems as either critical or non-critical. Non-critical data, such as whether a message was read, can be dropped in rare failure scenarios. Critical data, such as customer data, is protected against loss during failure scenarios.
 - **Data redundancy:** Our services use local storage redundancy and geo-redundancy to replicate copies of customer data into different fault zones. If data is corrupted or lost in one fault zone, it can be accessed in another fault zone without loss of availability.
 - **Granular monitoring and automated recovery:** Our systems monitor customer data integrity and automatically restore corrupted data. For example, Exchange Online monitors for data corruption at multiple levels and automatically restores databases or mailboxes that experience corruption.
-- **Protection against accidental loss:** Most data loss results from customer actions. Microsoft 365 provides customers with tools to recover accidentally deleted or modified data in Exchange Online and SharePoint Online  .
+- **Protection against accidental loss:** Most data loss results from customer actions. Microsoft 365 provides customers with tools to recover accidentally deleted or modified data in Exchange Online and SharePoint Online.
 
 ## Network  resiliency
 
@@ -42,8 +42,8 @@ Customer responsibilities for resilience vary based on the specific Microsoft 36
 
 ## Learn more
 
-- [Office 365 Monitoring and Self-Healing](https://docs.microsoft.com/office365/Enterprise/office-365-monitoring-and-self-healing?azure-portal=true)
+- [Microsoft 365 Monitoring and Self-Healing](https://docs.microsoft.com/office365/Enterprise/office-365-monitoring-and-self-healing?azure-portal=true)
 - [Built in resiliency](https://docs.microsoft.com/microsoft-365/enterprise/ebcm-m365-service-resiliency?view=o365-worldwide&azure-portal=true)
-- [Data Resilience in Office 365](https://docs.microsoft.com/office365/Enterprise/office-365-data-resiliency-overview?azure-portal=true)
-- [Dealing with Data Corruption in Office 365](https://docs.microsoft.com/office365/Enterprise/office-365-dealing-with-data-corruption?azure-portal=true)
-- [Exchange Online Data Resiliency in Office 365](https://docs.microsoft.com/office365/Enterprise/office-365-exchange-data-resiliency?azure-portal=true)
+- [Data Resilience in Microsoft 365](https://docs.microsoft.com/office365/Enterprise/office-365-data-resiliency-overview?azure-portal=true)
+- [Dealing with Data Corruption in Microsoft 365](https://docs.microsoft.com/office365/Enterprise/office-365-dealing-with-data-corruption?azure-portal=true)
+- [Exchange Online Data Resiliency in Microsoft 365](https://docs.microsoft.com/office365/Enterprise/office-365-exchange-data-resiliency?azure-portal=true)

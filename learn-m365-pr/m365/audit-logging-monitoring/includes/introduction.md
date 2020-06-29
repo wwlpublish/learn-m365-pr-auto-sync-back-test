@@ -9,4 +9,4 @@ Our audit logging and monitoring strategy revolves around clearly defined loggin
 ## Learn more
 
 - [Auditing and reporting in Microsoft Cloud Services](https://docs.microsoft.com/office365/Enterprise/office-365-auditing-and-reporting-overview?azure-portal=true)
-- [Office 365 Reporting Features](https://docs.microsoft.com/office365/Enterprise/office-365-reporting-features?azure-portal=true)
+- [Microsoft 365 Reporting Features](https://docs.microsoft.com/office365/Enterprise/office-365-reporting-features?azure-portal=true)

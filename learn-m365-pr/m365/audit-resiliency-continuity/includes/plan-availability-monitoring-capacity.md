@@ -2,7 +2,7 @@ Even the most resilient online services require adequate resources to run effect
 
 ## Availability monitoring
 
-Microsoft 365 implements extensive availability monitoring to ensure our services have the necessary resources to run optimally. Service teams use automated log and telemetry analysis to alert On-Call Engineers (OCEs) to availability issues. For example, service teams monitor processor and memory utilization for spikes that might threaten the health of the service. In addition to general availability monitoring,  service teams also select appropriate availability metrics based on the nature of their service. For example, SharePoint Online (SPO) monitors core customer functionality, such as homepage availability and the ability to upload and download documents.
+Microsoft 365 implements extensive availability monitoring to ensure our services have the necessary resources to run optimally. Service teams use automated log and telemetry analysis to alert on-call engineers to availability issues. For example, service teams monitor processor and memory utilization for spikes that might threaten the health of the service. In addition to general availability monitoring,  service teams also select appropriate availability metrics based on the nature of their service. For example, SharePoint Online (SPO) monitors core customer functionality, such as homepage availability and the ability to upload and download documents.
 
 In many cases, our services automatically respond to issues that threaten availability by provisioning additional resources or rerouting traffic to unaffected service components. Service team engineers respond to alerts by investigating and resolving any underlying issues. Availability issues that indicate a potential security incident are escalated to the Microsoft 365 Security Response team for resolution using the security incident response process.
 
@@ -17,6 +17,6 @@ As part of capacity planning, each service team designates a Capacity Project Ma
 ## Learn more
 
 - [SLA commitments for online services](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37&azure-portal=true)
-- [Office 365 Service Health](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/service-health-and-continuity?azure-portal=true)
+- [Microsoft 365 Service Health](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/service-health-and-continuity?azure-portal=true)
 - [Capacity Planning and Load Testing in SharePoint Online](https://docs.microsoft.com/office365/enterprise/capacity-planning-and-load-testing-sharepoint-online?azure-portal=true)
 - [Exchange Online (EXO) High Availability](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/high-availability-and-business-continuity?redirectedfrom=MSDN&azure-portal=true)

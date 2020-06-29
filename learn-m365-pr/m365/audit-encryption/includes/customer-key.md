@@ -2,7 +2,7 @@
 
 Customer Key is a feature that enables compliance with internal policies or compliance obligations involving the keys used for data encryption. These compliance obligations may include requirements to own the root keys used for data encryption, rotate keys on a defined cadence, or store keys in an HSM. Customer Key also provides customers the option to revoke their root keys and request a data purge when they leave the service, which shortens the time their data is retained in the cloud after service termination by cryptographically shredding the data, as outlined in the Online Services Terms.
 
-When using Customer Key, the customers’ root keys leverage FIPS 140-2 compatible algorithms and do not leave the HSM boundary. As a result, customers may exercise their control and revoke their keys should they decide to exit the service. Revoking the keys and requesting a data purge renders encrypted data unreadable to our services.
+When using Customer Key, the customer's root keys leverage FIPS 140-2 compatible algorithms and do not leave the HSM boundary. As a result, customers may exercise their control and revoke their keys should they decide to exit the service. Revoking the keys and requesting a data purge renders encrypted data unreadable to our services.
 
 The benefits of using Customer Key include:
 
@@ -15,7 +15,7 @@ The benefits of using Customer Key include:
 
 ## Availability key
 
-For customers who use the Customer Key feature, Microsoft 365 provides data recovery capabilities using availability keys. The primary purpose of the availability key is to provide recovery capability from the unanticipated loss of customer managed root keys, including key loss from mismanagement or malicious action. If customers lose control of their root keys, Microsoft Support can support the process of recovery using the availability key.
+For customers who use the Customer Key feature, Microsoft 365 provides data recovery capabilities using availability keys. The primary purpose of the availability key is to provide recovery capability from the unanticipated loss of customer managed root keys, including key loss from mismanagement or malicious action. If customers lose control of their root keys, Microsoft Support can initiate recovery at the customer's request using the availability key.
 
 The availability key is a root key provisioned and protected by Microsoft, which is functionally equivalent to the root keys supplied by the customer using the Customer Key feature. The availability key is automatically generated and provisioned when customers create a data encryption policy. By design, no one at Microsoft has access to the availability key: it is only accessible by Microsoft 365 service code. Microsoft 365 stores and protects the availability key, and unlike the keys that customers provide and manage in Azure Key Vault, customers cannot directly access the availability key. Nevertheless, Microsoft provides customers with sole authority over the disablement or destruction of the availability key. The availability key is unique to Customer Key, and should the customer decide to exit the service, the availability key is purged as part of the data purge process.
 

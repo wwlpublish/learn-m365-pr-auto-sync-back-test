@@ -1,4 +1,4 @@
-Microsoft datacenters are designed to implement a strategy of Defence-In-Depth, employing multiple layers of safeguards to reliably protect our cloud architecture and supporting infrastructure. We build redundancy into our systems at multiple levels to support datacenter availability.
+Microsoft datacenters are designed to implement a strategy of Defense-In-Depth, employing multiple layers of safeguards to reliably protect our cloud architecture and supporting infrastructure. We build redundancy into our systems at multiple levels to support datacenter availability.
 
 ## Availability
 
@@ -20,4 +20,4 @@ Microsoft's datacenters have dedicated 24x7 uninterruptible power supplies (UPS)
 
 ## Maintenance
 
-Microsoft datacenters rely on a computerized maintenance system to manage schedules and work orders. Work orders are generated based on OEM guidelines and are assigned for completion. Maintenance steps following approved instructions are captured in a Method of Procedure document. Datacenter management provides approval before work can begin off and signs on finished work to indicate completion. Maintenance records are retained in the automated system.
+Microsoft datacenters rely on a computerized maintenance system to manage schedules and work orders. Work orders are generated based on OEM guidelines and are assigned for completion. Maintenance steps following approved instructions are captured in a Method of Procedure document. Datacenter management provides approval before work can begin, and signs off on finished work to indicate completion. Maintenance records are retained in the automated system.

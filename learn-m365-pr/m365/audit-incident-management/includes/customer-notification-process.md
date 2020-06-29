@@ -8,14 +8,14 @@ If at any point in the investigation of a security or privacy incident the Micro
 
 The notification timeline commitment begins when the official security incident declaration occurs. Upon declaring a security incident, the notification process occurs as expeditiously as possible, without undue delay.
 
-Customer notification for security incidents occurs via appropriate channels based on the nature and scope of the incident. These channels may include one or more of the following:
+Customer notification for security incidents occurs via appropriate channels based on the nature and scope of the incident. These channels may include one or more of the following notifications:
 
-- Notification in the [Message Center of the M365 Admin center](https://docs.microsoft.com/microsoft-365/admin/manage/message-center?view=o365-worldwide&azure-portal=true)
+- Notification in the [Message Center of the Microsoft 365 Admin center](https://docs.microsoft.com/microsoft-365/admin/manage/message-center?view=o365-worldwide&azure-portal=true)
 - Email to the customer’s tenant administrator
 - Email to the customer’s designated [Global Privacy Contact](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-properties-area?azure-portal=true) (if the tenant Admin has defined it in the Azure Active Directory Admin center)
 - Direct outreach by phone call to the customer’s tenant administrator by a specially trained Support team member
 
-Microsoft’s customer notification commitments are detailed in two sections of the [Microsoft online services Data Protection Addendum](https://www.microsoft.com/licensing/product-licensing/products?azure-portal=true):
+Microsoft’s customer notification commitments are detailed in two sections of the [Microsoft online services Data Protection Addendum.](https://www.microsoft.com/licensing/product-licensing/products?azure-portal=true)
 
 ### Security incident notification ###
 

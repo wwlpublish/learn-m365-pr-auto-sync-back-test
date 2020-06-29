@@ -18,5 +18,6 @@ The following diagram illustrates the Customer Lockbox workflow when a customer 
 
 6. After receiving approval from the customer approver, the service team engineer is granted access. The engineer can then log into the customer’s tenant in Microsoft 365 Services and resolve the customer's issue. When the period approved for access expires, access is automatically revoked. Currently, the maximum period allowed for access permissions granted through Customer Lockbox is 4 hours. The engineer can request a shorter period.
 
-## Learn more ##
+## Learn more
+
 - [Customer Lockbox FAQ](https://docs.microsoft.com/microsoft-365/compliance/customer-lockbox-requests?view=o365-worldwide#frequently-asked-questions&azure-portal=true)

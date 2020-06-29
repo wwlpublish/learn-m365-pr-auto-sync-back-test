@@ -1,6 +1,6 @@
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4xqaA]
 
-Deciding what kinds of log data to collect is critically importing for effective monitoring. Logs provide a wealth of information about the health and security of an information system; however, effective monitoring requires the ability to discover meaningful, actionable signals from the perpetual stream of log data. We do this in Microsoft 365 by clearly defining the types of events that must be logged by our system components as well as the data logged events must contain.
+Deciding what kinds of log data to collect is critically importing for effective monitoring. Logs provide a wealth of information about the health and security of an information system; however, effective monitoring requires the ability to discover meaningful, actionable signals from the perpetual stream of log data. We do it in Microsoft 365 by clearly defining the types of events that must be logged by our system components as well as the data logged events must contain.
 
 ## Defining auditable events
 
@@ -16,8 +16,8 @@ Just as important as the types of events we collect is the data those events con
 
 ## Enforcing our logging policy
 
-Microsoft 365 enforces logging requirements at the machine level as part of the deployment process. Baseline images include a custom logging agent called the Office Data Loader (ODL). The ODL is configured to collect the events defined by Microsoft 365 Security and send these events to centralized services for processing and storage. Log data is encrypted in transit and scrubbed for customer-identifiable information before it is uploaded to the central log storage service.
+Microsoft 365 enforces logging requirements at the machine level as part of the deployment process. Baseline images include a custom logging agent called the Office Data Loader (ODL). The ODL is configured to collect the events defined by Microsoft 365 Security and send these events to centralized services for processing and storage. Log data is encrypted in transit and scrubbed for end user identifiable information before it is uploaded to the central log storage service.
 
 ## Learn more
 
-- [Internal Logging for Office 365 Engineering](https://docs.microsoft.com/office365/Enterprise/office-365-internal-logging?azure-portal=true)
+- [Logging for Microsoft 365 Engineering](https://docs.microsoft.com/office365/Enterprise/office-365-internal-logging?azure-portal=true)

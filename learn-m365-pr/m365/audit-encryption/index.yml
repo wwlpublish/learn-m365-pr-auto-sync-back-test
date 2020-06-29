@@ -11,7 +11,7 @@ metadata:
 title: Understand Microsoft 365 encryption
 summary: Learn how Microsoft 365 encrypts data at rest and in transit, securely manages encryption keys, and provides key management options to customers to meet their business needs and compliance obligations.
 abstract: |
- Upon completion o  f this module, you should be able to:
+ Upon completion of this module, you should be able to:
  - Explain how encryption mitigates the risk of unauthorized data disclosure.
  - Describe Microsoft data-at-rest and data-in-transit encryption solutions.
  - Explain how Microsoft 365 implements service encryption to protect customer data at the application layer.
