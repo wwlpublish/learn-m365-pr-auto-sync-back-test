@@ -45,3 +45,9 @@ When a threat is detected, alerts are created in the system. Alerts with the sam
 Inspired by the "assume breach" mindset, Microsoft Defender ATP continuously collects behavioral cyber telemetry. This includes process information, network activities, deep optics into the kernel and memory manager, user login activities, registry and file system changes, and others. The information is stored for six months, enabling an analyst to travel back in time to the start of an attack. The analyst can then pivot in various views and approach an investigation through multiple vectors.
 
 The response capabilities give you the power to promptly remediate threats by acting on the affected entities.
+
+## Learn more
+
+- [Microsoft Defender Application Guard](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-application-guard/md-app-guard-overview?azure-portal=true) 
+- [Configure Microsoft Defender Application Guard policies](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-application-guard/configure-md-app-guard?azure-portal=true)
+
