@@ -14,3 +14,7 @@ The Microsoft 365 security center includes:
 - **Classification** – Help protect data loss by adding labels to classify documents, email messages, documents, sites, and more. When a label is applied (automatically or by the user), the content or site is protected based on the settings chosen. For example, you can create labels that encrypt files, add content marking, and control user access to specific sites.
 - **Policies** - Set up policies to manage devices, protect against threats, and receive alerts about various activities in your org.
 - **Permissions** - Manage who in your organization has access to Microsoft 365 security center to view content and perform tasks. You can also assign Microsoft 365 permissions in the Azure AD Portal.
+
+## Learn more
+
+- [Service assurance in the Security & Compliance Center](https://docs.microsoft.com/microsoft-365/compliance/service-assurance?azure-portal=true)
