@@ -4,7 +4,7 @@ Microsoft respects and maintains the value of privacy across our products and se
 - Transparency: We will be transparent about data collection and use so customers can make informed decisions.
 - Security: We will protect the data customers entrust to us through strong security and encryption.
 - Strong legal protections: We will respect customers’ local privacy laws and fight for legal protection of privacy as a fundamental human right.
-- No content-based targeting: We will not use customer email, chat, files or other personal content to target ads to customers.
+- No content-based targeting: We will not use customer email, chat, files, or other personal content to target ads to customers.
 - Benefits to customers: When we do collect data, we will use it to benefit our customers and to make experiences better.
 
 Microsoft supports a wide variety of privacy standards and regulations. We build our services with privacy and security regulations in mind to help our customers comply with their own requirements.

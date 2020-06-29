@@ -20,7 +20,7 @@ quiz:
       - content: "To execute risk assessments on Microsoft 365."
         isCorrect: false
         explanation: "Microsoft 365 Trust manages Microsoft 365 risk management activities, including activities related to risk assessments."
-      - content: "To identify and ensure accountability of Microsoft’s most significant risks."
+      - content: "To identify and ensure accountability for Microsoft’s most significant risks."
         isCorrect: true
         explanation: "Correct. The purpose of the Enterprise Risk management program is to identify and ensure accountability for Microsoft’s most significant risks."
       - content: "To mitigate all risks at Microsoft."

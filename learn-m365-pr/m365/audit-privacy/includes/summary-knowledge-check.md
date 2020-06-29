@@ -4,8 +4,8 @@ Now that you have completed this module, you should be able to:
 
 - Explain Microsoft’s six principles for protecting privacy.
 - List key privacy roles and categories of data processed by Microsoft.
-- Explain how Microsoft uses defense-in-depth to protect data throughout its lifecycle.
-- Describe Microsoft’s data collection practices, including privacy notices, data handling and compliance with international data transfers.
+- Explain how Microsoft uses Defense-in-Depth to protect data throughout its lifecycle.
+- Describe Microsoft’s data collection practices, including privacy notices, data handling, and compliance with international data transfers.
 - List examples of how Microsoft processes data to provide online services.
 - Explain how Microsoft restricts data transfer to third parties and provides appropriate customer notification.
 - Describe Microsoft 365 data residency and retention capabilities.

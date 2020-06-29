@@ -74,22 +74,7 @@ quiz:
       - content: "Threat modeling"
         isCorrect: false
         explanation: "Threat modeling is used to identify vulnerabilities in the design of products and services."
-
-    - content: "Which of the following must be completed before code changes can be approved for release?"
-      choices:
-      - content: "Security review"
-        isCorrect: false
-        explanation: "This is not the whole answer. All builds must pass a final security review before they can be approved for release."
-      - content: "Manual code review"
-        isCorrect: false
-        explanation: "This is not the whole answer. Microsoft requires manual code review to verify code meets design specifications."
-      - content: "Automated security testing"
-        isCorrect: false
-        explanation: "This is not the whole answer. Code changes must pass automated security testing from a variety of tools before they can be approved for release."
-      - content: "All of the above"
-        isCorrect: true
-        explanation: "Correct. All of the steps listed above must be completed before code changes can be approved for release."
-
+        
     - content: "How does Microsoft detect open-source components in its products and services?"
       choices:
       - content: "Static code analysis tools"

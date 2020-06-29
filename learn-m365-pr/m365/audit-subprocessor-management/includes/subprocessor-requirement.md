@@ -6,13 +6,13 @@ When Microsoft hires a supplier to provide some aspect of our online services th
 
 All data used throughout the lifecycle of a customer account to provide Microsoft Online Services or Professional Services falls within one of four separate and distinct data categories:
 
-- **Customer data** is all data, including text, sound, video or image files, and software that the customer provides to Microsoft or that’s provided on a customer’s behalf through use of Microsoft enterprise online services, excluding Microsoft Professional Services. It includes customer content, which is the data a customer uploads for storage or processing and apps a customer uploads for distribution through a Microsoft enterprise service.
+- **Customer data** is all data, including text, sound, video or image files, and software that the customer provides to Microsoft or that is provided on a customer’s behalf through use of Microsoft enterprise online services, excluding Microsoft Professional Services. It includes customer content, which is the data a customer uploads for storage or processing and apps a customer uploads for distribution through a Microsoft enterprise service.
 
     For example, customer content includes Exchange Online email and attachments, Power BI reports, SharePoint Online site content, or instant messaging conversations.
 
 - **Service-generated data** includes all data “generated” or “derived” by Microsoft through the operation of an online service. Microsoft aggregates this data from our online services and uses it to make sure performance, security, scaling, and other services that impact the customer experience are operating at the levels our customers require.
 
-    For example, to understand how to ramp up data center capacity as a customer's use of Microsoft Teams increases, we process log data of their Teams usage. We then review the logs for peak times and decide which data centers to add to meet this capacity.
+    For example, to understand how to ramp up data-center capacity as a customer's use of Microsoft Teams increases, we process log data of their Teams usage. We then review the logs for peak times and decide which data centers to add to meet this capacity.
 
 - **Diagnostic data** includes all data “collected” or “obtained” from applications that are installed locally for use in connection with the Microsoft enterprise online service. It is used to help Microsoft ensure the client software is secure and performing properly. 
 
@@ -20,7 +20,7 @@ All data used throughout the lifecycle of a customer account to provide Microsof
 
 - **Professional services data** means all data, provided to Microsoft, or processed by Microsoft, upon authorization and through an engagement with Microsoft to obtain Professional Services. Professional Services Data includes support data that is provided to Microsoft during technical support for an online service.
 
-    For example, include text, sound, video, image files, or software provided to Microsoft during troubleshooting.
+    For example, professional services data includes text, sound, video, image files, or software provided to Microsoft during troubleshooting.
 
 ## Microsoft Supplier Security and Privacy Assurance (SSPA) program
 
@@ -28,7 +28,7 @@ The Microsoft Supplier Security and Privacy Assurance (SSPA) program is a corpor
 
 The SSPA program includes a set of security and privacy controls that must be implemented by subprocessors prior to processing data on behalf of Microsoft. We call these controls the Data Protection Requirements (DPR). All subprocessors enrolled in the SSPA program must review and attest to their compliance with applicable DPR controls before beginning contracted work. In addition, subprocessors must complete a self-attestation of compliance with the DPR annually.
 
-Subprocessor compliance with the requirements of the SSPA program are tracked in Microsoft purchasing tools. Purchasing tools do not allow engagements with subprocessors to move forward until all requirements are completed. Failure to maintain compliance with SSPA results in the subprocessor being blocked from accessing or processing data on behalf of Microsoft.
+Subprocessor compliance with the requirements of the SSPA program are tracked in Microsoft purchasing tools. Purchasing tools do not allow engagements with subprocessors to move forward until all requirements are completed. Failure to maintain compliance with SSPA requirements results in the subprocessor being blocked from accessing or processing data on behalf of Microsoft.
 
 ## Learn more
 

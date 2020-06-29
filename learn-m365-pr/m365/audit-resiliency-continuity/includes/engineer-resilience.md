@@ -29,11 +29,11 @@ Closely related to fault isolation is the concept of an incident’s “blast ra
 
 ## Continuous improvement
 
-When incidents occur, our incident response process ensures each incident is managed to resolution. We use standardized metrics to track the impact of incidents on service availability and performance. Incidents with significant impact to customers are subjected to a Post-Incident Review, which is posted to the Service Health Dashboard for impacted customers to view.
+When incidents occur, our incident response process ensures each incident is managed to resolution. We use standardized metrics to track the impact of incidents on service availability and performance. Incidents with significant impact to customers are subjected to a Post-Incident Review. Key findings and mitigations resulting from the Post-Incident Review are posted to the Service Health Dashboard for impacted customers to view.
 
 Post-Incident Reviews help to identify resiliency improvements that might prevent or limit the scope of similar issues in the future. Lessons learned from incidents are shared across service teams, so each team can implement improvements without directly experiencing a similar incident.
 
 ## Learn more
 
 - [M365 Service Resilience and Customer Guidance](https://aka.ms/M365ServiceResilienceGuidance?azure-portal=true)
-- [Office 365 Data Resiliency Overview](https://docs.microsoft.com/office365/Enterprise/office-365-data-resiliency-overview?azure-portal=true)
+- [Microsoft 365 Data Resiliency Overview](https://docs.microsoft.com/office365/Enterprise/office-365-data-resiliency-overview?azure-portal=true)

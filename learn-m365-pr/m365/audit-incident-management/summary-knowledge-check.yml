@@ -3,7 +3,7 @@ uid: learn-m365.audit-incident-management.summary-knowledge-check
 title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
-  description: Learn how Microsoft online services investigates, manages, and responds to security concerns so that customers’ data is secure and protected.
+  description: Learn how Microsoft online services investigate, manages, and responds to security concerns so that customers’ data is secure and protected.
   ms.date: 05/22/2020
   author: NamrahK
   ms.author: v-nakhu
@@ -27,17 +27,17 @@ quiz:
         isCorrect: false
         explanation: "The preparation phase focuses on preventing incidents before they occur and developing the processes and tools necessary for effective incident response."
       
-    - content: "Which statement about the Microsoft 365 Incident Response Process is not true?"
+    - content: "Which statement about the Microsoft 365 Incident Response Process is true?"
       choices:
-      - content: "All On-Call Engineers must complete security and privacy training annually."
-        isCorrect: false
-        explanation: "All On-Call Engineers must complete yearly training and obtain up-to-date background checks to maintain eligibility for access to tools and resources."
-      - content: "All security incidents undergo a full incident post-mortem."
+      - content: "All on-call engineers must complete security and privacy training annually."
         isCorrect: true
-        explanation: "Correct. Only select security incidents, especially those that are customer-impacting or resulting in a data breach, will undergo a full incident post-mortem."
-      - content: "Security Incident Notification will occur without undue delay within a maximum of 72 hours."
+        explanation: "Correct. All on-call engineers must complete yearly training and obtain up-to-date background checks to maintain eligibility for access to tools and resources."
+      - content: "All security incidents undergo a full incident post-mortem."
         isCorrect: false
-        explanation: "Microsoft’s Security Incident Notification obligation is clearly described in the Microsoft online services Data Protection Addendum."
+        explanation: "Only select security incidents, especially those that are customer-impacting or resulting in a data breach, will undergo a full incident post-mortem."
+      - content: "Security Incident Notification will occur without undue delay within a maximum of 96 hours."
+        isCorrect: false
+        explanation: "As described in the Microsoft Online Services Data Protection Addendum, Security Incident Notification will occur without undue delay within a maximum of 72 hours."
      
     - content: "Depending on the nature of the incident, the Microsoft 365 Security Response team and service teams may engage security partners and subject matter experts from other organizations within Microsoft for investigative assistance. Which team do they work with for support on externally reported vulnerabilities?"
       choices:

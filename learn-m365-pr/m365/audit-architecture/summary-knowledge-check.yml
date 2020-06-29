@@ -37,7 +37,7 @@ quiz:
         explanation: "Correct. Defense-In-Depth uses mutually reinforcing security controls for multiple layers of protection."
       - content: "Breach Boundaries"
         isCorrect: false
-        explanation: "Breach Boundaries prevents failure or compromise of one boundary in Microsoft 365 from causing compromise of other boundaries."
+        explanation: "Breach Boundaries prevent failure or compromise of one boundary in Microsoft 365 from causing compromise of other boundaries."
       
     - content: "How does Microsoft validate the architecture of Microsoft 365?"
       choices:

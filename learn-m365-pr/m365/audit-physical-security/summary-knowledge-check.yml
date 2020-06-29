@@ -52,7 +52,7 @@ quiz:
         explanation: "Datacenter access is restricted to personnel with an approved business need and is not granted by default to any personnel at Microsoft."
       - content: "Personnel with an approved business need"
         isCorrect: true
-        explanation: "Correct. Datacenter access is limited to personnel with an approved business need, are time-limited, and are only renewed if the requestor’s business need remains valid."
+        explanation: "Correct. Datacenter access is limited to personnel with an approved business need, is time-limited, and is only renewed if the requestor’s business need remains valid."
 
     - content: "How does Microsoft verify and document secure disposal of data bearing devices?"
       choices:
@@ -64,7 +64,7 @@ quiz:
         explanation: "Correct. Procedures follow a secure chain of custody and disposal with detailed, permanent electronic records for each step through to secure disposal."
       - content: "Asset inventory"
         isCorrect: false
-        explanation: "While Microsoft datacenters track inventory as part of asset security, it is used to verify secure disposal of data bearing devices."
+        explanation: "While Microsoft datacenters track inventory as part of asset security, it is not used to verify secure disposal of data bearing devices."
 
     - content: "What plan details how datacenters respond to a disruption of normal operations?"
       choices:

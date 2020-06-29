@@ -4,14 +4,14 @@ The TVRA process follows these steps:
 
 ![a visual representation of TVRA process starting with risk identification, risk analysis, risk classification, and report](../media/risk-management-process.png)
 
-- **Risk Identification:** TVRAs consider a wide range of threat scenarios emerging from natural and man-made (including accidental) hazards, depending on datacenter location, design, scope of services, and other factors. The TVRA considers threat scenarios at multiple geographic levels: country, metropolitan area, and site-specific. In addition to leveraging data from trusted and independent third-party risk organizations, the TVRA threat scenarios also incorporate feedback from Microsoft subject-matter experts (SMEs) regarding the top threats to Microsoft datacenters. For locations that have multiple datacenters, TVRA ratings are aggregated to ensure a holistic view of the physical and environmental threats, vulnerabilities, and risks for the locations being assessed.
+- **Risk Identification:** TVRAs consider a wide range of threat scenarios emerging from natural and man-made (including accidental) hazards, depending on datacenter location, design, scope of services, and other factors. The TVRA considers threat scenarios at multiple geographic levels: country, metropolitan area, and site-specific. In addition to leveraging data from trusted and independent third-party risk organizations, the TVRA threat scenarios also incorporate feedback from Microsoft subject matter experts (SMEs) regarding the top threats to Microsoft datacenters. For locations that have multiple datacenters, TVRA ratings are aggregated to ensure a holistic view of the physical and environmental threats, vulnerabilities, and risks for the locations being assessed.
 
-Types of threat scenarios assessed for datacenter TVRAs include:
+    Types of threat scenarios assessed for datacenter TVRAs include:
 
-- **External threats** – incidents resulting from external intentional or accidental human activities (for example, political instability, civil disorder).
-- **Internal threats** – incidents resulting from internal intentional or accidental human activities (for example, internal theft, sabotage).
-- **Natural hazards** – a natural process or phenomenon that could negatively impact datacenters (for example, floods, earthquakes, severe storms).
-- **Environmental threats** – environmental conditions that could negatively impact datacenters (for example, water stress, hazardous materials exposure, climate change).
+    - **External threats** – incidents resulting from external intentional or accidental human activities (for example, political instability, civil disorder).
+    - **Internal threats** – incidents resulting from internal intentional or accidental human activities (for example, internal theft, sabotage).
+    - **Natural hazards** – a natural process or phenomenon that could negatively impact datacenters (for example, floods, earthquakes, severe storms).
+    - **Environmental threats** – environmental conditions that could negatively impact datacenters (for example, water stress, hazardous materials exposure, climate change).
 
 - **Risk Analysis:** Threats are evaluated based on an assessment of their inherent risk. Inherent risk is calculated as a function of impact of a threat and likelihood of the threat occurrence in the absence of management action and controls. These assessments are informed by both internal SME feedback and third-party data sources.
 

@@ -4,17 +4,17 @@ When Microsoft 365 initiates a support contract with a subprocessor, specific wo
 
 Adding a new subprocessor requires a series of rigorous verifications to ensure the subprocessor meets Microsoft standards before they can begin contracted work. These verification steps include but are not limited to:
 
-- A business verification check: A review by the business to determine why the use of this supplier is needed over suppliers who are already approved. Once business approval has been approved, the following verifications must be performed:
+- A business verification check: A review by the business to determine why the use of this supplier is needed over suppliers who are already approved. Once business approval has been granted, the additional verifications below must be performed:
 - Anti-corruption checks: Check against global relationship management systems and news for suppliers who may be engaged in corruption activities.
-- Corruption risk score: It is a score that is assigned based on the anti-corruption check. The score indicates the risk level of the supplier being involved in corruption activities.
-- A do-not-engage check: Internal Microsoft check against suppliers who have been deemed inappropriate for use
-- Trade sanctions screening: A review of watch sites, government records and media searches to determine if trade sanctions apply
+- Corruption risk score: This is a score that is assigned based on the anti-corruption check. The score indicates the risk level of the supplier being involved in corruption activities.
+- A do-not-engage check: Internal Microsoft check against suppliers who have been deemed inappropriate for use.
+- Trade sanctions screening: A review of watch sites, government records, and media searches to determine if trade sanctions apply to the supplier.
 
 In addition, business unit approval is required as a final check after all scores and checks have been returned and accounted for.
 
 ![a workflow detailing SSPA enrollment process explained in below narrative](../media/enrollment-process.png)
 
-Subprocessor enrollment begins with an email request to a prospective subprocessor with instructions to create a profile in the Microsoft Supplier Compliance Portal (MSCP). Subprocessor will choose the data processing activities they wish to be approved for. These approvals include:
+Subprocessor enrollment begins with an email request to a prospective subprocessor with instructions to create a profile in the Microsoft Supplier Compliance Portal (MSCP). Subprocessors use the portal to choose the data processing activities they wish to be approved for. These data processing activities include:
 
 - Processing of personal data and/or Microsoft confidential data
 - Processing data on the supplier’s network
@@ -27,7 +27,7 @@ Once a subprocessor has completed their profile, subprocessors must demonstrate 
 
 ## Adding an existing subprocessor
 
-Subprocessors that have already been approved by Microsoft to process certain data types can be engaged more easily to complete similar contracts. If a subprocess has already been approved to process the relevant data classifications, new purchase orders can specify existing subprocessor resources. Our systems verify that the existing subprocessor has met relevant requirements for the data classifications required by the new purchase order. If the existing subprocessor has not yet been approved for the relevant data classification, an updated DPR is sent to the subprocessor for attestation and may result in additional verification requirements.
+Subprocessors that have already been approved by Microsoft to process certain data types can be engaged more easily to complete similar contracts. If a subprocessor has already been approved to process the relevant data classifications, new purchase orders can specify existing subprocessor resources. Our systems verify that the existing subprocessor has met relevant requirements for the data classifications required by the new purchase order. If the existing subprocessor has not yet been approved for the relevant data classification, an updated DPR is sent to the subprocessor for attestation and may result in additional verification requirements.
 
 ## Microsoft Data Protection Requirements (DPR)
 
@@ -46,7 +46,7 @@ All enrolled subprocessors must complete a self-attestation of compliance with t
 
 ## Additional certification requirements
 
-In addition to compliance with the DRP, Microsoft requires subprocessors to maintain the following certifications:
+In addition to compliance with the DPR, Microsoft requires subprocessors to maintain the following certifications:
 
 - **ISO/IEC 27001 Certification** for all subprocessors, including the ISO/IEC 27002 Code of Best Practices.
 - **ISO/IEC 27018 Certification** for subprocessors storing customer data in a cloud service.

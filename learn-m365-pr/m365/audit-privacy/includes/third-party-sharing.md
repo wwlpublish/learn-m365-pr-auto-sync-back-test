@@ -1,10 +1,10 @@
-Third-party sharing is the sharing or onward discloser of data to third parties. Discussed below are ways in which Microsoft may share data. In all cases, Microsoft will only share data when authorized by the customer or required to do so by applicable law.
+Third-party sharing is the sharing or onward disclosure of data to third parties. Discussed below are ways in which Microsoft may share data. In all cases, Microsoft will only share data when authorized by the customer or required to do so by applicable law.
 
 ## Subprocessing
 
 Microsoft processes data as part of providing cloud services to our customers. We categorize the data we process to ensure it is handled with appropriate security and privacy protections. Categories of data processed by Microsoft are defined in the Microsoft Online Services Data Protection Addendum (DPA).  
 
-When Microsoft hires a supplier to provide some aspect of our online services that may require the supplier to use or process such data, the supplier is identified as a “subprocessor”. All subprocessors must adhere to the Microsoft Supplier Security and Privacy (SSPA) Assurance program before being allowed to process data on behalf of Microsoft.
+When Microsoft hires a supplier to provide some aspect of our online services that may require the supplier to use or process such data, the supplier is identified as a “subprocessor." All subprocessors must adhere to the Microsoft Supplier Security and Privacy (SSPA) Assurance program before being allowed to process data on behalf of Microsoft.
 
 The Microsoft SSPA program is a corporate program designed to standardize and strengthen data handling practices by setting privacy and security requirements for Microsoft suppliers. The SSPA program requires suppliers to demonstrate compliance with Microsoft’s strict privacy and security policies, legal obligations, and customer expectations. To protect customer and personal data, Microsoft requires all subprocessors to comply with the SSPA program.
   
@@ -14,9 +14,9 @@ Customers can use third-party offerings available through platforms such as the 
 
 ## Law enforcement requests
 
-Microsoft does not give any government (including law enforcement or other government entities) direct or unfettered access to customer data. If any third party wants customer data, it needs to follow applicable legal process–meaning, it must serve us with a valid legal process for content or subscriber information or other non-content data. For non-governmental requests, we require specific lawful consent of the account owner to release content and, for all requests, we provide notice to the account owner unless prohibited by law from doing so. Microsoft does not provide any government with platform encryption keys or provide governments with the ability to break customer enabled encryption.
+Microsoft does not give any government (including law enforcement or other government entities) direct or unfettered access to customer data. If any third party wants customer data, it needs to follow applicable legal process. It means it must serve us with a valid legal request for content or subscriber information or other non-content data. For non-governmental requests, we require specific lawful consent of the account owner to release content and, for all requests, we provide notice to the account owner unless prohibited by law from doing so. Microsoft does not provide any government with platform encryption keys or provide governments with the ability to break customer enabled encryption.
 
-If a government wants customer data, it must follow applicable legal process.
+If a government wants customer data, it must follow applicable legal processes, which include:
 
 - All legal demands for customer data must target specific accounts and identifiers.
 - Microsoft’s legal compliance team reviews all legal demands to ensure they are valid, rejects the ones that are not valid, and only provides specific data in response.

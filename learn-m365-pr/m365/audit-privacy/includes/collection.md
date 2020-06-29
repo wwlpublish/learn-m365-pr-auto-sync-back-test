@@ -13,9 +13,9 @@ Notice and consent are fundamental principles of privacy laws around the world. 
 
 ## Data handling and use
 
-Data Handling Standards provide guidance about how to manage each data classification type within specific activities or scenarios, including a set of collective requirements to meet the obligations outlined in the OST/DPA and various audit standards and regulations. These are commonly used when new features are being built or running a service and can be specific to that service, such as Microsoft 365.
+Data Handling Standards provide guidance about how to manage each data classification type within specific activities or scenarios, including a set of collective requirements to meet the obligations outlined in the OST/DPA and various audit standards and regulations. These standards are commonly used when new features are being built or when running a service, and can be specific to that service, such as Microsoft 365.
 
-To comply with broadly applicable privacy laws, we strictly limit our use of all personal data within the four categories of data processed. To protect the confidentiality of customer business data, we further strictly limit the use of all customer data, and all professional services data. We do not access the contents of customer data to determine what is personal or not. Instead, we assume that all customer data and all professional services data contain personal data.  Below is a visual representation of the data types defined in the DPA. The blue box helps to illustrate that all personal data is processed as a part of one of the other data types (all of which also include non-personal data). Support data is a subset of professional services data.
+To comply with broadly applicable privacy laws, we strictly limit our use of all personal data within the four categories of data processed. To protect the confidentiality of customer business data, we further strictly limit the use of all customer data and all professional services data. We do not access the contents of customer data to determine what is personal or not. Instead, we assume that all customer data and all professional services data contain personal data.  Below is a visual representation of the data types defined in the DPA. The blue box helps to illustrate that all personal data is processed as a part of one of the other data types (all of which also include non-personal data). Support data is a subset of professional services data.
 
 ![a visual representation to show personal data can be found in all types of data such as customer data, diagnostic data, service-generated data, professional services data, and support data.](../media/personal-data.png)
 
@@ -23,7 +23,7 @@ The personal data within diagnostic data and service-generated data is mostly in
 
 ## International data transfers
 
-Customer data and personal data that Microsoft processes on a customer’s behalf may be transferred to, and stored and processed in, the United States or any other country in which Microsoft or its subprocessors operate. If a customer wants a deeper understanding by service, it’s beneficial to visit the Data Protection Addendum.
+Customer data and personal data that Microsoft processes on a customer’s behalf may be transferred to, and stored and processed in, the United States or any other country in which Microsoft or its subprocessors operate. If a customer wants a deeper understanding by service, it is beneficial to review the Data Protection Addendum.
 
 Microsoft complies with the below international data protection laws regarding transfers of customer data across borders.
 

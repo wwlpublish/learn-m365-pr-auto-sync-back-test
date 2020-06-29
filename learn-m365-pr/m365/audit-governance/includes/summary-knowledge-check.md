@@ -1,6 +1,6 @@
 In this module, you learned how Microsoft implements organization-wide security and privacy governance to support the secure operation of Microsoft 365 services and maintain compliance with regulatory requirements and customer commitments.
-N
-ow that you have completed this module, you should be able to:
+
+Now that you have completed this module, you should be able to:
 
 - Describe Microsoft 365’s core services.
 - List the elements of the Microsoft Policy Framework.

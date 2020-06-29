@@ -18,12 +18,12 @@ Staff involved in the development, operation, or delivery of online services to 
 
 Employment with Microsoft is subject to specific conditions and obligations as formally identified in our employee agreement. The primary goal of the employee agreement is to protect our employees, customers, property, personal data, and proprietary information. Employee obligations include avoiding conflicts of interest and protecting Microsoft proprietary information through non-disclosure agreements. To enforce these obligations, Microsoft requires all employees to agree to our Standards of Business Conduct and complete related training.
 
-We use a Learning Management System platform that delivers training materials and tracks training requirements completion for each employee. These trainings include business ethics, employee safety, privacy, anti-harassment, and zero tolerance for non-ethical behavior. At the end of the course, employees must attest that they will abide to Microsoft code of business conduct, which is being tracked at an organization level.
+We use a Learning Management System platform that delivers training materials and tracks training requirements completion for each employee. These trainings include business ethics, employee safety, privacy, anti-harassment, and zero tolerance for non-ethical behavior. At the end of the course, employees must attest that they will abide by the Microsoft code of business conduct, which is tracked at the organization level.
 
 ## Termination
 
-Microsoft uses clearly defined policies and procedures to promptly revoke physical and logical access to Microsoft systems and resources when an employee is terminated. Our termination process ensures that former Microsoft employees cannot access data or systems after their employment ends as our HR systems interface with our identity management tools to automatically revoke access for service team accounts.
+Microsoft uses clearly defined policies and procedures to promptly revoke physical and logical access to Microsoft systems and resources when an employee is terminated. Our termination process ensures that former Microsoft employees cannot access data or systems after their employment ends. Our HR systems interface with our identity management tools to automatically revoke access for service team accounts.
 
 ## Learn more
 
-- [Office 365 Personnel Controls](https://docs.microsoft.com/office365/Enterprise/office-365-personnel-controls?azure-portal=true)
+- [Microsoft 365 Personnel Controls](https://docs.microsoft.com/office365/Enterprise/office-365-personnel-controls?azure-portal=true)

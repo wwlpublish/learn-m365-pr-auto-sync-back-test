@@ -11,7 +11,7 @@ metadata:
 title: Understand Microsoft datacenter security
 summary: Learn how Microsoft uses Defense-In-Depth to secure our datacenters against unauthorized access, environmental hazards, and other physical threats, as well as how Microsoft implements resilient architecture, business continuity, and disaster recovery to maintain the availability of our services.
 abstract: |
- Upon completion o  f this module, you should be able to:
+ Upon completion of this module, you should be able to:
  - Describe how the architecture of Microsoft datacenters contributes to resilience and availability.
  - Explain how Microsoft uses Threat, Vulnerability, and Risk Assessments (TVRA) to analyze datacenter risk.
  - Describe how Microsoft implements environmental safeguards to protect both Microsoft datacenters and the environment.

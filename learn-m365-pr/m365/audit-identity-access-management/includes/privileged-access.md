@@ -1,10 +1,10 @@
-## Zero Standing Access (ZSA) ##
+## Zero Standing Access (ZSA)
 
 Microsoft approaches privileged access using the principle of ZSA. ZSA means that by default, Microsoft personnel do not have persistent privileged access to production environments. When access is provided through Just-In-Time (JIT) access, it is the bare minimum, with just enough access for the specific task at hand. ZSA takes the possibility of account compromise seriously and ensures that a compromised account cannot be used to run privileged commands in the production environment or access customer content.
 
 ZSA is made possible by the architecture of Microsoft 365 products and services. Automated service code handles routine operations in Microsoft 365. This enables our engineers to support the service without standing administrative privileges or access to customer content. Nevertheless, sometimes our engineers require elevated privileges to provide timely support to customers or resolve issues in Microsoft 365 production environments. When service team engineers require privileged access, Microsoft 365 uses a JIT access model to provide limited, time-bound access.
 
-## Just-In-Time (JIT) and Just-Enough-Access (JEA) ##
+## Just-In-Time (JIT) and Just-Enough-Access (JEA)
 
 Microsoft 365 uses a JIT access model to provide service team engineers with temporary privileged access to production environments when such access is required to support Microsoft 365. The JIT access model replaces traditional, persistent administrative access with a process for engineers to request temporary elevation into privileged roles when required.
 
