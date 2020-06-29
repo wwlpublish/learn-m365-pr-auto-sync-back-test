@@ -4,12 +4,12 @@ title: Explore how Workplace Analytics can help organizations improve productivi
 metadata:
   title: Explore how Workplace Analytics can help organizations improve productivity
   description: "Explore how Workplace Analytics can help organizations improve productivity"
-  ms.date: 06/29/2020
+  ms.date: 07/02/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-durationInMinutes: 5
+durationInMinutes: 7
 content: |
   [!include[](includes/2-workplace-analytics.md)]
