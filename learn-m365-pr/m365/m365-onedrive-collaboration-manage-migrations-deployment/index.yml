@@ -1,0 +1,44 @@
+### YamlMime:Module
+uid: learn-m365.m365-onedrive-collaboration-manage-migrations-deployment
+metadata:
+  title: Manage OneDrive migrations and deployment 
+  description:  Learn the different options for migration and how you can ensure you choose the best route for your organization.
+  ms.date: 06/15/2020
+  author: ericweisberg
+  ms.author: v-erwe
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage OneDrive migrations and deployment 
+summary:  Learn the different options for migration and how you can ensure you choose the best route for your organization.
+abstract: |
+  Upon completion of this module, you should be able to: 
+  - Identify what you need to know before deploying OneDrive.
+  - Describe the options for migrating content into OneDrive.
+  - Show how to manage devices that are using OneDrive.
+  - Demonstrate management options for the sync app.
+  - Explain how to deploy the OneDrive sync app.
+
+
+prerequisites: | 
+   - Basic understanding of Microsoft 365
+   - Understanding of the different types of OneDrive services
+
+iconUrl: /learn/achievements/generic-badge.svg
+ratingEnabled: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-365
+units:
+- learn-m365.m365-onedrive-collaboration-manage-migrations-deployment.introduction-onedrive-deployment
+- learn-m365.m365-onedrive-collaboration-manage-migrations-deployment.configure-device-management
+- learn-m365.m365-onedrive-collaboration-manage-migrations-deployment.manage-sync-app
+- learn-m365.m365-onedrive-collaboration-manage-migrations-deployment.deploy-sync-app
+- learn-m365.m365-onedrive-collaboration-manage-migrations-deployment.migrate-content
+- learn-m365.m365-onedrive-collaboration-manage-migrations-deployment.summary-knowledge-check
+
+badge: 
+  uid: learn-m365.onedrive-collaboration-manage-migrations-deployment.badges

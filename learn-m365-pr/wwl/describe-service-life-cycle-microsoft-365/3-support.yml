@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.describe-service-life-cycle-microsoft-365.explain-support-models-for-private,-public-preview,-general-availability-release
+title: Explain support models for private, public preview, and general availability releases
+metadata:
+  title: Explain support models for private, public preview, and general availability releases
+  description: "Explain support models for private, public preview, and general availability releases"
+  ms.date: 06/29/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 1
+content: |
+  [!include[](includes/3-support.md)]

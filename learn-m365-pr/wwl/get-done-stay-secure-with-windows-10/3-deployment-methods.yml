@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.get-done-stay-secure-with-windows-10.deployment-methods
+title: Explore deployment methods for Windows 10
+metadata:
+  title: Explore deployment methods for Windows 10
+  description: "Explore deployment methods for Windows 10"
+  ms.date: 06/28/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-deployment-methods.md)]

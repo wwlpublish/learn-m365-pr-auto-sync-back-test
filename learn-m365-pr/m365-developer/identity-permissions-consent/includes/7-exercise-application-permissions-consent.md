@@ -1,6 +1,6 @@
 Application permissions are the other type of permission supported by the Microsoft identity platform. Application permissions are used by apps that run without a signed-in user present such as services or daemon processes.
 
-In this unit, you'll learn about application permissions, how to define them and how to grant them using a different type of consent flow in your apps.
+In this exercise, you'll learn about application permissions, how to define them and how to grant them using a different type of consent flow in your apps.
 
 ## Create an Azure AD application
 

@@ -1,0 +1,17 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.windows-prepare.move-deployment
+title: Move to deployment
+metadata:
+  title: Move to deployment
+  description: Get ready to move to deployment of the update
+  ms.date: 05/20/2020
+  author: IanKensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: m365
+durationInMinutes: 4
+content: |
+  [!include[](includes/move-deployment.md)]
+
+
+

@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-messaging-migration.mailbox-migration
+title: Manage mailbox migration
+metadata:
+  title: Manage mailbox migration
+  description: Plan a migration from Exchange Server on-premises and other email systems to Microsoft 365 in the cloud. 
+  ms.date: 05/13/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 4
+content: |
+  [!include[](includes/mailbox-migration.md)]

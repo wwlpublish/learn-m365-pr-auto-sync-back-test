@@ -63,9 +63,9 @@ On the **Register an application** page, set the values as follows:
 
 Select **Register** to create the application.
 
-On the **Product Catalog API** page, copy the values **Application (client) ID** and **Directory (tenant) ID**; you'll need these values later in this exercise.
+On the **Product Catalog daemon** page, copy the values **Application (client) ID** and **Directory (tenant) ID**; you'll need these values later in this exercise.
 
-![Screenshot of the application ID of the new app registration](../media/03-azure-ad-portal-new-app-details.png)
+![Screenshot of the application ID of the new app registration](../media/07-azure-ad-portal-new-app-details.png)
 
 ### Create a client secret for the daemon app
 
@@ -75,13 +75,13 @@ Select **Certificates & secrets** from the left-hand navigation panel.
 
 Select the **New client secret** button:
 
-![Screenshot of the Certificates & Secrets page in the Azure AD admin center](../media/05-azure-ad-portal-new-app-secret-01.png)
+![Screenshot of the Certificates & Secrets page in the Azure AD admin center](../media/07-azure-ad-portal-new-app-secret-01.png)
 
 When prompted, give the secret a description and select one of the expiration duration options provided and select **Add**. *What you enter and select doesn't matter for the exercise.*
 
 The **Certificate & Secrets** page will display the new secret. Its important you copy this value as its only shown this one time; if you leave the page and come back, it will only show as a masked value.
 
-![Screenshot showing the new secret](../media/05-azure-ad-portal-new-app-secret-02.png)
+![Screenshot showing the new secret](../media/07-azure-ad-portal-new-app-secret-02.png)
 
 Copy the value of the secret as you'll need it later.
 
@@ -91,30 +91,26 @@ The daemon app requires permission to call the web API. This permission is reque
 
 Select **API permissions** from the left-hand navigation panel.
 
-Select **Add a permission**
+Select **Add a permission**. Select the app registration that represents the web API application.
 
 ![Screenshot of the API permissions page in the Azure AD admin center](../media/07-azure-ad-portal-app-reg-api-perm-01.png)
 
-Select the app registration that represents the web API application.
-
-![Screenshot of the API permissions page in the Azure AD admin center](../media/07-azure-ad-portal-app-reg-api-perm-02.png)
-
 Select **Application permissions**, select the **access_as_application** role, then select **Add permission**.
 
-![Screenshot of the API permissions page in the Azure AD admin center](../media/07-azure-ad-portal-app-reg-api-perm-03.png)
+![Screenshot of the API permissions page in the Azure AD admin center](../media/07-azure-ad-portal-app-reg-api-perm-02.png)
 
 The **API permissions** page will redisplay. Note there are two warning messages about the application:
 
 - Users will have to reconsent to the application even if they've already done so.
 - The application permission is not yet consented by a tenant administrator.
 
-![Screenshot of the API permissions page in the Azure AD admin center](../media/07-azure-ad-portal-app-reg-api-perm-04.png)
+![Screenshot of the API permissions page in the Azure AD admin center](../media/07-azure-ad-portal-app-reg-api-perm-03.png)
 
 Since this exercise is creating a daemon application that doesn't have a user interface, admin consent will be granted using the Azure AD admin center.
 
-Select **Grant admin consent for [Tenant Name]**. (In this exercise, the tenant name is "Contoso".) Select **Yes** to complete the consent process.
+Select **Grant admin consent for [Tenant Name]**. (In the screen capture, the tenant name is "Contoso".) Select **Yes** to complete the consent process.
 
-![Screenshot of the API permissions page in the Azure AD admin center](../media/07-azure-ad-portal-app-reg-api-perm-05.png)
+![Screenshot of the API permissions page in the Azure AD admin center](../media/07-azure-ad-portal-app-reg-api-perm-04.png)
 
 ## Create a .NET Core console application
 
@@ -123,10 +119,12 @@ Open your command prompt, navigate to a directory where you want to save your wo
 Execute the following command to create a new .NET core console application:
 
 ```shell
-dotnet new console
+dotnet new console -o ProductCatalogDaemon
+cd ProductCatalogDaemon
 dotnet add package Microsoft.Identity.Client
 dotnet add package Microsoft.Extensions.Configuration
 dotnet add package Microsoft.Extensions.Configuration.Binder
+dotnet add package Microsoft.Extensions.Configuration.Json
 ```
 
 Open the scaffolded project folder in **Visual Studio Code**. When a dialog box asks if you want to add required assets to the project, select **Yes**.
@@ -139,7 +137,7 @@ using System;
 using System.Globalization;
 using System.IO;
 
-namespace <PROJECT-NAMESPACE>
+namespace ProductCatalogDaemon
 {
   public class AuthenticationConfig
   {
@@ -171,8 +169,6 @@ namespace <PROJECT-NAMESPACE>
 }
 ```
 
-Replace the string `<PROJECT-NAMESPACE>` with the root namespace of the project. This can be found in the **Program.cs** file.
-
 Add a file to the root folder of the project named **appsettings.json**. Add the following to the file:
 
 ```json
@@ -193,10 +189,10 @@ Open the file **Program.cs**. Add the following code at the top of the file:
 ```csharp
 using Microsoft.Identity.Client;
 using System.Linq;
-using System.NET.Http;
+using System.Net.Http;
 using System.Threading.Tasks;
 using System.Text.Json;
-using System.NET.Http.Headers;
+using System.Net.Http.Headers;
 ```
 
 Leave the namespace declaration untouched, then replace the contents of the `Program` class with the following code:
@@ -326,13 +322,14 @@ public List<Category> GetAllCategories() {
 
 The authorization by scope is only done if the caller isn't part of the **access_as_application** role.
 
-On the Visual Studio Code menu bar, select **Debug** > **Run Without Debugging** to start the web API.
+On the Visual Studio Code menu bar, select **Run** > **Run Without Debugging** to start the web API.
 
 ## Build and run the daemon application
 
 Execute the following command in a command prompt to compile and run the application:
 
 ```shell
+dotnet dev-certs https --trust
 dotnet build
 dotnet run
 ```

@@ -1,0 +1,55 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-compliance-information-prevent-data-loss.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Learn how to detect sensitive content as it's used and shared throughout your organization, in the cloud and on devices, and help prevent accidental data loss. 
+  ms.date: 06/15/2020
+  author: ericweisberg
+  ms.author: v-erwe
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+ 
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "A user sends an email to several recipients containing 16 unique credit card numbers which match a DLP Policy with this sensitive information type.  How many lines will display on the DLP Policy matches report? "
+      choices:
+      - content: "1"
+        isCorrect: true
+        explanation: "The DLP policy matches report shows matches at a rule level. If an email matched three different rules, the DLP policy matches report shows three different line items. By contrast, the DLP incidents report shows matches at an item level. If an email matched three different rules, the incidents report shows a single line-item for that item. "
+      - content: "16"
+        isCorrect: false
+        explanation: "The DLP policy matches report shows matches at a rule level. If an email matched three different rules, the DLP policy matches report shows three different line items. By contrast, the DLP incidents report shows matches at an item level. If an email matched three different rules, the incidents report shows a single line-item for that item. "
+      - content: "1 for each recipient"
+        isCorrect: false
+        explanation: "The DLP policy matches report shows matches at a rule level. If an email matched three different rules, the DLP policy matches report shows three different line items. By contrast, the DLP incidents report shows matches at an item level. If an email matched three different rules, the incidents report shows a single line-item for that item. "
+      
+    - content: "Too many false positives can have a negative effect on business production. Additionally, too many false positives can result in security teams ignoring the warnings. Microsoft sensitive information types are thoroughly tested. There is still a chance your organization may have specific needs not met by built in sensitive information types. What do you do if your DLP incident report returns too many false positives? "
+      choices:
+      - content: "Customize access "
+        isCorrect: false
+        explanation: "A key factor in the strength of a DLP solution is the ability to correctly identify confidential or sensitive content that may be unique to the organization, regulatory needs, geography, or other business needs. Customizing access does not address the false positive issue.  "
+      - content: "Refine or customize your DLP policies"
+        isCorrect: true
+        explanation: "When looking for sensitive information in content, you need to describe that information in what is called a rule. Data loss prevention (DLP) includes rules for the most-common sensitive information types that you can use right away. To use these rules, you have to include them in a policy. You may want to adjust these built-in rules to meet your organization's specific needs, and you can do that by creating a custom sensitive information type. "
+      - content: "Design a new DLP policy"
+        isCorrect: false
+        explanation: "While you certainly can design a new policy, using existing sensitive information types and modifying them is the best practice. Microsoft sensitive information types are accurate."
+
+        
+    - content: "Maintaining patient privacy is a top priority in the Health Care industry. As a senior care facility, what best practice should you employ using the ready-to-use U.S personal information policy template? "
+      choices:
+      - content: "Test the policy before releasing it"
+        isCorrect: true
+        explanation: "In most cases, you will want to test the DLP policy to make sure it is functioning as expected and meets your specific organization’s needs. "
+      - content: "Import a pre-built policy from outside your organization "
+        isCorrect: false
+        explanation: "Microsoft sensitive information types are thoroughly tested. Third-party policies may work at similar organizations; however, the most secure method is using and testing built in sensitive information types and then modifying if necessary."
+      - content: "Turn on the policy right away "
+        isCorrect: false
+        explanation: "It is always a good practice to test the DLP policy first to validate functionality and alignment with your specific organizational needs."
+      

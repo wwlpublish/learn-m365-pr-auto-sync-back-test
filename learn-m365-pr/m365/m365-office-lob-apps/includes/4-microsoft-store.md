@@ -11,3 +11,9 @@ Before you package your desktop app for the store, be sure to review any require
 **Distribute your apps using your private store**
 
 Your private store is available as a tab in the Microsoft Store app and is named for your company or organization. You can make an app available in your private store when you acquire the app, or you can do it later from your inventory. Once the app is in your private store, employees may claim and install the app.
+
+## Learn more
+- [Plan for the Microsoft Store for Business](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business?azure-portal=true)
+- [Configure access to Microsoft Store](https://docs.microsoft.com/windows/configuration/stop-employees-from-using-microsoft-store?azure-portal=true)
+- [Manage apps in Microsoft Store for Business](https://docs.microsoft.com/microsoft-store/manage-apps-microsoft-store-for-business-overview?azure-portal=true)
+- [Plan for device and app monitoring](https://docs.microsoft.com/configmgr/desktop-analytics/health-status-monitoring?azure-portal=true)

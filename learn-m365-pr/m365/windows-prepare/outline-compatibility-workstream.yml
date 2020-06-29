@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.windows-prepare.outline-compatibility-workstream
+title: Prepare for the compatibility workstream
+metadata:
+  title: Prepare for the compatibility workstream
+  description: Learn how to prepare for the compatibility workstream.
+  ms.date: 05/20/2020
+  author: IanKensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: m365
+durationInMinutes: 12
+content: |
+  [!include[](includes/outline-compatibility-workstream.md)]

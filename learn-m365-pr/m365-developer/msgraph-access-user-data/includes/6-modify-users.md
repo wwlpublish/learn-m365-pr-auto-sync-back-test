@@ -1,6 +1,6 @@
 In this unit, you’ll learn how to create, update, and delete users and the permissions required to do these operations.
 
-Microsoft Graph has support for creating, updating, and deleting users in your organization. When creating or updating a user, HTTP request body contains the user to create. This is typically submitted as JSON object in string form.
+Microsoft Graph has support for creating, updating, and deleting users in your organization. When creating or updating a user, HTTP request body contains the property values for the user. This is typically submitted as JSON object in string form.
 
 ## Creating users
 

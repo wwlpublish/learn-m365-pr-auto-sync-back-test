@@ -1,12 +1,8 @@
 In this unit, you’ll learn how to create server-side web apps that enable users to sign in and grant the app permissions.
 
-## Overview
-
-There are scenarios where one API needs to call another API. In this case, the first API needs to obtain it’s own access token that enables one API to call another.
-
 ## Create Microsoft identity-secured web apps
 
-Now let's see how to create and configure a web API so that it can access a secured web API.
+Now let's see how to create and configure a web app so that it can access a secured web API.
 
 The first step is to register a new Azure AD app in the Azure AD admin center that will represent the web application.
 

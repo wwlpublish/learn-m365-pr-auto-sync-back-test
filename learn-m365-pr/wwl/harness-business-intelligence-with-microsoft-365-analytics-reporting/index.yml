@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn.wwl.harness-business-intelligence-with-microsoft-365-analytics-reporting
+metadata:
+  title: Harness business intelligence with Microsoft 365 analytics and reporting
+  description: "Learn fundamental knowledge of the reporting and analytics capabilities in Microsoft 365 as part of a simplified business management strategy."
+  ms.date: 06/29/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Harness business intelligence with Microsoft 365 analytics and reporting
+summary: Learn fundamental knowledge of the reporting and analytics capabilities in Microsoft 365 as part of a simplified business management strategy.
+abstract: |
+  Upon completion of this module, the learner will be able to:
+  - Describe analytics capabilities in Microsoft 365
+  - Describe capabilities of Workplace Analytics and MyAnalytics
+  - Describe the reports available in the Microsoft 365 Admin center and other admin centers
+prerequisites: |
+  None
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- business-owner
+- business-user
+- student
+products:
+- m365
+- office-365
+units:
+- learn.wwl.harness-business-intelligence-with-microsoft-365-analytics-reporting.introduction
+- learn.wwl.harness-business-intelligence-with-microsoft-365-analytics-reporting.workplace-analytics
+- learn.wwl.harness-business-intelligence-with-microsoft-365-analytics-reporting.m365-admin-center
+- learn.wwl.harness-business-intelligence-with-microsoft-365-analytics-reporting.service-specific-admin-centers
+- learn.wwl.harness-business-intelligence-with-microsoft-365-analytics-reporting.knowledge-check
+- learn.wwl.harness-business-intelligence-with-microsoft-365-analytics-reporting.summary-resources
+badge:
+  uid: learn.wwl.harness-business-intelligence-with-microsoft-365-analytics-reporting.badge

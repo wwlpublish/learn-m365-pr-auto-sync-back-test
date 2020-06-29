@@ -177,7 +177,7 @@ public ActionResult Error(string message, string debug)
 }
 ```
 
-Add a controller to handle sign-in. Right-click the **Controllers** folder in Solution Explorer and select **Add > Controller...**. Choose **MVC 5 Controller - Empty** and select **Add**. Name the controller `AccountController` and select **Add**. Replace the entire contents of the file with the following code.
+Add a controller to handle sign-in. Right-click the **Controllers** folder in Solution Explorer and select **Add > Controller...**. Choose **MVC 5 Controller - Empty** and select **Add**. Name the controller **AccountController** and select **Add**. Replace the entire contents of the file with the following code.
 
 ```cs
 using Microsoft.Owin.Security;
@@ -224,11 +224,27 @@ Save your changes and start the project. Click the sign-in button and you should
 
 Once the user is logged in, you can get their information from Microsoft Graph.
 
-Right-click the **graph-tutorial** folder in Solution Explorer, and select **Add > New Folder**. Name the folder `Helpers`.
+Right-click the **Models** folder in **Solution Explorer** and select **Add > Class...**. Name the class **Alert** and select **Add**. Replace the entire contents of **CachedUser.cs** with the following code.
+
+```cs
+namespace graph_tutorial.Models
+{
+    // Simple class to serialize user details
+    public class CachedUser
+    {
+        public string DisplayName { get; set; }
+        public string Email { get; set; }
+        public string Avatar { get; set; }
+    }
+}
+```
+
+Right-click the **graph-tutorial** folder in Solution Explorer, and select **Add > New Folder**. Name the folder **Helpers**.
 
 Right-click this new folder and select **Add > Class...**. Name the file **GraphHelper.cs** and select **Add**. Replace the contents of this file with the following code.
 
 ```cs
+using graph_tutorial.Models;
 using Microsoft.Graph;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
@@ -267,7 +283,7 @@ namespace graph_tutorial.Helpers
 }
 ```
 
-This implements the `GetUserDetails` function, which uses the Microsoft Graph SDK to call the `/me` endpoint and return the result.
+This implements the `GetUserDetailsAsync` function, which uses the Microsoft Graph SDK to call the `/me` endpoint and return the result.
 
 Update the `OnAuthorizationCodeReceivedAsync` method in **App_Start/Startup.Auth.cs** to call this function. Add the following `using` statement to the top of the file.
 
@@ -302,7 +318,7 @@ Now that you can get tokens, it's time to implement a way to store them in the a
 - Update the authentication code to use the token store class.
 - Update the base controller class to expose the stored user details to all views in the application.
 
-Right-click the **graph-tutorial** folder in Solution Explorer, and select **Add > New Folder**. Name the folder `TokenStorage`.
+Right-click the **graph-tutorial** folder in Solution Explorer, and select **Add > New Folder**. Name the folder **TokenStorage**.
 
 Right-click this new folder and select **Add > Class...**. Name the file **SessionTokenStore.cs** and select **Add**. Replace the contents of this file with the following code.
 
@@ -310,6 +326,7 @@ Right-click this new folder and select **Add > Class...**. Name the file **Sessi
 // Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT license.
 
+using graph_tutorial.Models;
 using Microsoft.Identity.Client;
 using Newtonsoft.Json;
 using System.Security.Claims;
@@ -318,14 +335,6 @@ using System.Web;
 
 namespace graph_tutorial.TokenStorage
 {
-    // Simple class to serialize into the session
-    public class CachedUser
-    {
-        public string DisplayName { get; set; }
-        public string Email { get; set; }
-        public string Avatar { get; set; }
-    }
-
     public class SessionTokenStore
     {
         private static readonly ReaderWriterLockSlim sessionLock = new ReaderWriterLockSlim(LockRecursionPolicy.NoRecursion);
@@ -574,9 +583,9 @@ Click the user avatar in the top-right corner to access the **Sign Out** link. C
 
 At this point, your application has an access token, which is sent in the `Authorization` header of API calls. This is the token that allows the app to access Microsoft Graph on the user's behalf.
 
-However, this token is short-lived. The token expires an hour after its issued. This is where the refresh token becomes useful. The refresh token allows the app to request a new access token without requiring the user to sign in again.
+However, this token is short-lived. The token expires an hour after it's issued. This is where the refresh token becomes useful. The refresh token allows the app to request a new access token without requiring the user to sign in again.
 
-Because the app is using the MSAL library and serializing the `TokenCache` object, you don't have to implement any token refresh logic. The `ConfidentialClientApplication.AcquireTokenSilentAsync` method does all of the logic for you. It first checks the cached token, and if it isn't expired, it returns it. If its expired, it uses the cached refresh token to obtain a new one. You'll use this method in the following module.
+Because the app is using the MSAL library and serializing the `TokenCache` object, you don't have to implement any token refresh logic. The `ConfidentialClientApplication.AcquireTokenSilentAsync` method does all of the logic for you. It first checks the cached token, and if it isn't expired, it returns it. If it's expired, it uses the cached refresh token to obtain a new one. You'll use this method in the following module.
 
 ## Summary
 

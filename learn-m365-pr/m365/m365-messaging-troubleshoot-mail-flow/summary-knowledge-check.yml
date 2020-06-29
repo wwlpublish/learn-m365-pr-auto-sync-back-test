@@ -1,0 +1,76 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-messaging-troubleshoot-mail-flow.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Troubleshoot mail flow issues in Exchange Online using reports, transport logs, and validation.
+  ms.date: 06/09/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "What's the easiest way to test if a user is having issues with their mail client?"
+      choices:
+      - content: "Connect to Exchange Online by using a different email client"
+        isCorrect: true
+        explanation: "Yes. This is the easiest way."
+      - content: "Delete and recreate their account"
+        isCorrect: false
+        explanation: "No. Deleting an account won't fix an email issue, even after you recreate the account."
+      - content: "Run Microsoft Support and Recovery Assistant"
+        isCorrect: false
+        explanation: "No. You can run Microsoft Support and Recovery Assistant to test client configuration, but it's easier to have the user try a different email client."
+
+    - content: "By default, how far back does a message trace search?"
+      choices:
+      - content: "One day"
+        isCorrect: false
+        explanation: "No. The default trace is 48 hours, or two days."
+      - content: "Two days"
+        isCorrect: true
+        explanation: "Yes. The default trace is 48 hours, or two days."
+      - content: "Seven days"
+        isCorrect: false
+        explanation: "No. The default trace is 48 hours, or two days."
+      
+    - content: "Which class of user is the newest style non-delivery report aimed at?"
+      choices:
+      - content: "Only email administrators"
+        isCorrect: false
+        explanation: "No. The newest style non-delivery report hs information for users and admins."
+      - content: "Only email users"
+        isCorrect: false
+        explanation: "No. The newest style non-delivery report hs information for users and admins."
+      - content: "Both email administrators and users"
+        isCorrect: true
+        explanation: "Yes. The newest style non-delivery report hs information for users and admins."
+      
+    - content: "Which do audit logs track?"
+      choices:
+      - content: "Errors caused by users"
+        isCorrect: false
+        explanation: "No. Audit logs track changes made by administrators."
+      - content: "Issues caused by malware"
+        isCorrect: false
+        explanation: "No. Audit logs track changes made by administrators."
+      - content: "Changes made by admins"
+        isCorrect: true
+        explanation: "Yes. Audit logs track changes made by administrators."
+      
+    - content: "Where do you find reports to monitor usage, security, and compliance for Exchange Online?"
+      choices:
+      - content: "In the Microsoft 365 admin center"
+        isCorrect: true
+        explanation: "Yes. These reports are available in the Microsoft 365 admin center."
+      - content: "On client devices"
+        isCorrect: false
+        explanation: "No. These reports are available in the Microsoft 365 admin center."
+      - content: "In the /reports folder on the Exchange Online server"
+        isCorrect: false
+        explanation: "No. These reports are available in the Microsoft 365 admin center."      

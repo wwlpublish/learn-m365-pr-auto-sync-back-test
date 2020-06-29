@@ -1,4 +1,4 @@
-In this exercise, you’ll learn how to create a .NET Web application that uses Microsoft identity to log in, and to show the claims available for apply authorization checks.
+In this exercise, you’ll learn how to create a .NET Web application that uses Microsoft identity to log in, and to show the claims available to apply authorization checks.
 
 ## Create an Azure AD application
 
@@ -24,7 +24,7 @@ On the **Product Catalog WebApp** page, copy the values **Application (client) I
 
 ![Screenshot of the application ID of the new app registration](../media/03-aad-portal-newapp-details-01.png)
 
-On the **User Group Role** page, select the **Add a Redirect URI** link under the **Redirect URIs**.
+On the **Overview** page, select the **Add a Redirect URI** link under the **Redirect URIs**.
 
 Select **Add a platform**, then select **Web**.
 
@@ -63,6 +63,14 @@ Set the `AzureAd.TenantId` property to the **Directory (tenant) ID** you copied 
 Set the `AzureAd.ClientId` property to the **Application (client) ID** you copied when creating the Azure AD application in the previous section.
 
 ### Configure web application middleware
+
+Locate and open the **./Startup.cs** file in the ASP.NET Core project.
+
+Add the following `using` statement after the existing `using` statements:
+
+```cs
+using Microsoft.AspNetCore.Authentication.OpenIdConnect;
+```
 
 Within the method `ConfigureServices()`, locate the following line:
 
@@ -125,10 +133,10 @@ dotnet run
 
 Open a browser and navigate to the url **https://localhost:5001**. The web application will redirect you to the Azure AD sign-in page.
 
-Sign in using a Work and School account from your Azure AD directory. After login and consent. Azure AD will redirect you back to the web application. Notice some of the details from the claims included in the ID token.
+Sign in using a Work and School account from your Azure AD directory. After login and consent, Azure AD will redirect you back to the web application. Notice some of the details from the claims included in the ID token.
 
 ![Screenshot of the application](../media/03-application-claims-display.png)
 
 ## Summary
 
-In this exercise, you learned how to create a .NET Web application that uses Microsoft identity to log in, and to show the claims available for apply authorization checks.
+In this exercise, you learned how to create a .NET Web application that uses Microsoft identity to log in, and to show the claims available to apply authorization checks.

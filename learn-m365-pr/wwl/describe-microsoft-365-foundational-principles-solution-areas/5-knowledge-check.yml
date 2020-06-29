@@ -1,0 +1,62 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.describe-microsoft-365-security-principles-solution-areas.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 06/28/2020
+  author: wwlpublish
+  ms.author: ceperezb
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/5-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which of the following is a benefit of single sign-on?"
+    choices:
+    - content: "No password is required."
+      isCorrect: false
+      explanation: "That's incorrect. Single sign-on does not remove the need for passwords."
+    - content: "It works across on-premises and cloud apps and devices."
+      isCorrect: true
+      explanation: "That's correct. Single sign-on works across all apps, whether on-premises or cloud-based and across different devices."
+    - content: "It reduces the need for data protection."
+      isCorrect: false
+      explanation: "That's incorrect. Single sign-on is more convenient for users, but does not remove the need for data protection policies and safeguards."
+  - content: "Which is not a Microsoft privacy principle?"
+    choices:
+    - content: "Encryption."
+      isCorrect: true
+      explanation: "That's correct. Encryption can be used to protect data but is not one of Microsoft’s six primary privacy principles."
+    - content: "No content-based targeting."
+      isCorrect: false
+      explanation: "That's incorrect. No content-based targeting is one of Microsoft’s six primary privacy principles. It states that email, chat, files and other personal content will not be used for targeted advertising."
+    - content: "Control."
+      isCorrect: false
+      explanation: "That's incorrect. Putting people in control of their own privacy settings is one of Microsoft’s six primary privacy principles."
+  - content: "What does Microsoft’s Discover & Respond solution do?"
+    choices:
+    - content: "Protects against malware."
+      isCorrect: false
+      explanation: "That's incorrect. Microsoft’s Discover & Respond solution is not designed to protect an organization against malware."
+    - content: "Helps you find, refine, and prepare relevant content."
+      isCorrect: true
+      explanation: "That's correct. Microsoft's Discover & Respond is designed to help you find relevant content, refine content, and prepare content to be handed off to the requesting body in an efficient way."
+    - content: "Encrypts cloud data."
+      isCorrect: false
+      explanation: "That's incorrect. Microsoft’s Discover & Respond solution is not designed to encrypt cloud data."
+  - content: "What is identity management?"
+    choices:
+    - content: "The process of identifying a user."
+      isCorrect: true
+      explanation: "That's correct. Identifying users, and protecting users' identities is important because it determines who can access data."
+    - content: "A type of user account."
+      isCorrect: false
+      explanation: "That's incorrect. Users are identified through their user accounts, but there is more to identity management than creating a user account, including validating that the user account has not been compromised."
+    - content: "Azure's security solution."
+      isCorrect: false
+      explanation: "That's incorrect. Identity management is part of many different security solutions; it is not specific to Azure."

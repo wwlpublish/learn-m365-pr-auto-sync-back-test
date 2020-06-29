@@ -20,13 +20,13 @@ quiz:
       choices:
       - content: "A new team"
         isCorrect: false
-        explanation: "A team can be organization-wide and can serve many purposes. You can create a channel within a team for specific purposes, such as a project."
+        explanation: "A team can be organization-wide and can serve many purposes. Because these members are working on a short-term project, it makes more sense to create a new channel in the existing team, instead of a new team."
       - content: "A new channel"
         isCorrect: true
-        explanation: "A team can contain any number of channels dedicated to specific purposes, such as a project."
+        explanation: "Because these members are working on a short-term project, it makes more sense to create a new channel in the existing team."
       - content: "A new chat group"
         isCorrect: false
-        explanation: "Chat is just one of many Teams features that can be used within a project-specific channel."
+        explanation: "Chat is just one of many Teams features that can be used within a project-specific channel. You should create a new channel that includes chat."
 
     - content: "For the full Teams experience, users should be enabled for every service EXCEPT:"
       choices:

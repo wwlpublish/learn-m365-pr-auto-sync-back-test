@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-messaging-manage-mobile-devices.configure-activesync
+title: Support more mobile devices by using Exchange ActiveSync
+metadata:
+  title: Support more mobile devices by using Exchange ActiveSync
+  description: Learn how to use Exchange ActiveSync to expand access for non-iOS and non-Android mobile devices. 
+  ms.date: 04/09/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 6
+content: |
+  [!include[](includes/configure-activesync.md)]

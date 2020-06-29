@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn-m365.m365-messaging-manage-recipient-resources
+metadata:
+  title: Manage recipient resources in Exchange Online
+  description: Learn how to manage different mailbox types, configure mailbox policies and permissions, and understand licensing options.
+  ms.date: 04/07/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage recipient resources in Exchange Online
+summary: Learn how to manage different mailbox types, configure mailbox policies and permissions, and understand licensing options.
+abstract: |
+  At the end of this module, you should be able to:
+  - Describe how to manage different mailbox types.
+  - Explain the different group types.
+  - Explain how to configure mailbox policies and permissions.
+
+prerequisites: |
+ - None
+iconUrl: /learn/achievements/manage-recipient-resources.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-365
+- office-exchange-server
+units:
+- learn-m365.m365-messaging-manage-recipient-resources.introduction
+- learn-m365.m365-messaging-manage-recipient-resources.manage-mail-users
+- learn-m365.m365-messaging-manage-recipient-resources.manage-mailboxes
+- learn-m365.m365-messaging-manage-recipient-resources.manage-groups
+- learn-m365.m365-messaging-manage-recipient-resources.mailbox-policies
+- learn-m365.m365-messaging-manage-recipient-resources.summary-knowledge-check
+badge: 
+  uid: learn-m365.m365-messaging-manage-recipient-resources.badge

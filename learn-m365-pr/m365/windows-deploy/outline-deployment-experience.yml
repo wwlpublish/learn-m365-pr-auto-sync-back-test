@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.windows-deploy.outline-deployment-experience
+title: Outline the deployment experience
+metadata:
+  title: Outline the deployment experience
+  description: Learn how to handle the deployment experience
+  ms.date: 05/20/2020
+  author: IanKensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: m365
+durationInMinutes: 9
+content: |
+  [!include[](includes/outline-deployment-experience.md)]
+
+

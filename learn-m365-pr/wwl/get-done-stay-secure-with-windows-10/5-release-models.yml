@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.get-done-stay-secure-with-windows-10.release-models
+title: Describe servicing options for Windows 10
+metadata:
+  title: Describe servicing options for Windows 10
+  description: "Describe servicing options for Windows 10"
+  ms.date: 06/28/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 1
+content: |
+  [!include[](includes/5-release-models.md)]

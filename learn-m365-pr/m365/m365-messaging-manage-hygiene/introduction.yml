@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-messaging-manage-hygiene.introduction
+title: Introduction to managing message hygiene
+metadata:
+  title: Introduction to managing message hygiene
+  description: Learn how to plan, implement, and configure policies to protect your organization from malware, spam, and phishing.
+  ms.date: 05/01/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/introduction.md)]

@@ -1,0 +1,35 @@
+### YamlMime:Module
+uid: learn.wwl.explore-deployment-options-microsoft-edge
+metadata:
+  title: Explore your deployment options for Microsoft Edge
+  description: "Edge brings enterprise-ready security, privacy, and manageability controls, making it the best browser for business across PC, Mac, and mobile devices. Explore options to deploy Microsoft Edge to hundreds or thousands of devices at scale."
+  ms.date: 06/15/2020
+  author: wwlpublish
+  ms.author: ceperezb
+  ms.topic: interactive-tutorial
+  ms.prod: learning-windows
+title: Explore your deployment options for Microsoft Edge
+summary: Edge brings enterprise-ready security, privacy, and manageability controls; making it the best browser for business across PC, Mac, and mobile devices.  Explore options to deploy Microsoft Edge to hundreds or thousands of devices at scale.
+abstract: |
+  * Explore the Edge package options for automated installation,
+  * Provision all your managed devices – including your phones and Macs – with Edge
+prerequisites: |
+  * Experience deploying and configuring application packages using software distribution tools such as Microsoft Intune or Configuration Manager
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-365
+units:
+- learn.wwl.explore-deployment-options-microsoft-edge.introduction
+- learn.wwl.explore-deployment-options-microsoft-edge.discover-general-deployment-optionspackages-channels
+- learn.wwl.explore-deployment-options-microsoft-edge.explore-edge-deployment-microsoft-endpoint-configuration-manager
+- learn.wwl.explore-deployment-options-microsoft-edge.explore-edge-deployment-microsoft-intune
+- learn.wwl.explore-deployment-options-microsoft-edge.explore-process-deploy-mobile-apps
+- learn.wwl.explore-deployment-options-microsoft-edge.knowledge-check
+- learn.wwl.explore-deployment-options-microsoft-edge.summary-resources
+badge:
+  uid: learn.wwl.explore-deployment-options-microsoft-edge.badge

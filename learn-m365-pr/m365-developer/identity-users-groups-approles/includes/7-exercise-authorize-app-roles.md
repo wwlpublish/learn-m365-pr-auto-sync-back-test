@@ -1,5 +1,8 @@
 In this exercise, you’ll learn how to create and configure an application registration to define app roles, assign users and groups to those roles and authorize access to a controller using those assignments.
 
+> [!IMPORTANT]
+> This exercise assumes you have completed the second exercise in this module. 
+
 ## Update the application registration
 
 App Roles for an app registration are defined by editing the manifest. The roles have a unique identifier, a display name and a value. The value can be inspected at runtime to make authorization decisions.
@@ -65,13 +68,15 @@ Select **Enterprise applications** in the left-hand navigation.
 
 On the **Enterprise applications** page, locate the application registration that represents the Users Group Roles application from the first exercise in this module. To verify the application, compare the **Application (client) ID** of the app registration with the **Application ID** entry in the **Enterprise Applications** list. Select the correct application.
 
-On the enterprise application overview pane, select **Users & Groups**.
+On the enterprise application overview pane, select **Users and Groups**.
 
 ![Screenshot of the Enterprise Applications](../media/07-aad-portal-entapp-users.png)
 
 Select **Add User**. On the add **Assignment** pane, select **Users and groups**. Select one or more users or groups from the list and then select the **Select** button at the bottom of the pane.
 
-On the **Add Assignment** pane, select **Role**. Select the **ProductAdministrator** role to apply to the selected users or groups, then select **OK** at the bottom of the pane.
+On the **Add Assignment** pane, select **Role**. Select the **ProductAdministrator** role to apply to the selected users or groups, then select **Select** at the bottom of the pane.
+
+![Screenshot of the Enterprise Applications](../media/07-app-roles-add-roles-users.png)
 
 Select **Assign** at the bottom of the pane. The assigned users or groups have the permissions defined by the selected role for this enterprise app.
 
@@ -82,7 +87,13 @@ Using app roles as the authorization source is similar to using the group claims
 1. Turn off the ASP.NET claim type mapping (since we aren't supporting legacy applications).
 1. Use the roles claims in the token as the `RoleClaimType`.
 
-In Visual Studio code, open the web application studio from the previous exercise. Open the **Startup.cs** file.
+In Visual Studio Code, open the web application from the previous exercise. Open the **Startup.cs** file.
+
+At the top of the file, add the following `using` statement to the end of the existing `using` statements:
+
+```cs
+using System.IdentityModel.Tokens.Jwt;
+```
 
 Within the method `ConfigureServices()`, locate the line that configures the `OpenIdConnectOptions`.
 
@@ -115,7 +126,7 @@ Update the `[Authorize]` attribute to use the role names (specify multiple value
 Open the **_Layout.cshtml** file in the **Views\Shared** folder. Locate the call to **User.IsInRole** and change the statement to the following code:
 
 ```cshtml
-@if (User.IsInRole("ProductsViewer") || User.IsInRole("ProductsAdministrators"))
+@if (User.IsInRole("ProductViewers") || User.IsInRole("ProductAdministrators"))
 ```
 
 ### Add action and view to allow creating new products
@@ -125,7 +136,7 @@ Create a new file in the **Models** folder name **ProductViewModel.cs**. Add the
 ```csharp
 using System.Collections.Generic;
 
-namespace <PROJECT-NAMESPACE>.Models
+namespace UserGroupRole.Models
 {
   public class ProductViewModel
   {
@@ -136,16 +147,12 @@ namespace <PROJECT-NAMESPACE>.Models
 }
 ```
 
-Replace the string `<PROJECT-NAMESPACE>` with the root namespace of the project. This can be found in the **Startup.cs** file.
-
 Open the **ProductsController.cs** file in the **Controllers** folder. Add the following to the top of the file:
 
 ```csharp
 using System.Linq;
-using <PROJECT-NAMESPACE>.Models;
+using UserGroupRole.Models;
 ```
-
-Replace the string `<PROJECT-NAMESPACE>` with the root namespace of the project. This can be found in the **Startup.cs** file.
 
 Add the following methods to the **ProductsController.cs** file:
 
@@ -171,7 +178,7 @@ public ActionResult Create([Bind("ProductName", "CategoryId")] ProductViewModel 
     {
       Id = data.Products.Max(p => p.Id) + 1,
       Name = model.ProductName,
-      Category = new Category { Id = model.CategoryId }
+      Category = data.Categories.FirstOrDefault(c => c.Id == model.CategoryId)
     });
     return RedirectToAction("Index");
   }
@@ -190,7 +197,7 @@ Open the **Index.cshtml** file in the **Views\Products** folder. Above the `<tab
 Create a new file in the **Views\Products** folder named **Create.cshtml**. Add the following to the file:
 
 ```cshtml
-@model <PROJECT-NAMESPACE>.Models.ProductViewModel
+@model UserGroupRole.Models.ProductViewModel
 
 @{
   ViewData["Title"] = "New Product";
@@ -228,8 +235,6 @@ Create a new file in the **Views\Products** folder named **Create.cshtml**. Add 
   @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
 ```
-
-Replace the string `<PROJECT-NAMESPACE>` with the root namespace of the project. This can be found in the **Startup.cs** file.
 
 #### Build and test the web app
 

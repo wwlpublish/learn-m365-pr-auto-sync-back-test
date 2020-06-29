@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-compliance-information-manage-records.records-management-overview
+title: Records management overview
+metadata:
+  title: Records management overview
+  description: Learn how to use intelligent classification to automate and simplify the retention schedule for regulatory, legal, and business-critical records in your organization. 
+  ms.date: 06/05/2020
+  author: ericweisberg
+  ms.author: v-erwe
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+
+durationInMinutes: 8
+content: |
+  [!include[](includes/records-management-overview.md)]

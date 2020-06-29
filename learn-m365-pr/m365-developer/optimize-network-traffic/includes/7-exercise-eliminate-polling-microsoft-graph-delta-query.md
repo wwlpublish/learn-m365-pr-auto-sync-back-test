@@ -30,7 +30,7 @@ In the **Configured Permissions** panel, select the button **Grant admin consent
 
 ## Update the console application to use delta query
 
-Now you'll update the application to retrieve and then display all users in the tenant with Microsoft Graph. After displaying the list of users, the application will sleep for ten seconds and repeat the same query, but instead only display the users who have been added or updated.
+Now you'll update the application to retrieve and then display all users in the tenant with Microsoft Graph. After displaying the list of users, the application will sleep for 10 seconds and repeat the same query, but instead only display the users who have been added or updated.
 
 First, add the following two members to the class, immediately before the `Main` method:
 
@@ -57,7 +57,7 @@ private static void OutputUsers(IUserDeltaCollectionPage users)
 
 Next, add a method to retrieve users with Microsoft Graph. This method will use the delta link feature in Microsoft Graph.
 
-If this is the first time the request is made, indicated by the `_previousPage == null`, you will request all users but also request a delta link using the `Delta()` method. The code will return the current page of users.
+If this is the first time the request is made, indicated by the `_previousPage == null`, you'll request all users but also request a delta link using the `Delta()` method. The code will return the current page of users.
 
 Otherwise, if there are more pages of users, it will initiate a request for the next page using the delta link string that you will obtain later.
 
@@ -141,7 +141,7 @@ var userPassword = ReadPassword();
 
 Remove all the existing code in this method after these two lines.
 
-Next, add the following code to after the previous two lines above. This will use the `CheckForUpdates` method to get a list of all users. It will then go into an infinite loop, sleeping for ten seconds, and issue the same request again:
+Next, add the following code to after the previous two lines above. This will use the `CheckForUpdates` method to get a list of all users. It will then go into an infinite loop, sleeping for 10 seconds, and issue the same request again:
 
 ```cs
 Console.WriteLine("All users in tenant:");
@@ -196,7 +196,7 @@ Create a new user by entering the values in the **Identity** section of the **Ne
 
 ![Screenshot creating a new user](../media/app-run-07-03.png)
 
-Watch the running application in the console. The next time it runs, it will display the new user that you just created:
+Watch the running application in the console. The next time it runs, it will display the new user that you created:
 
 ![Screenshot of the console app displaying the new user](../media/app-run-07-04.png)
 

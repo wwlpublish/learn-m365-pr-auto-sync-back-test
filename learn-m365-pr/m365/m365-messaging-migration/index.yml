@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn-m365.m365-messaging-migration
+metadata:
+  title: Plan and implement migration to Exchange Online
+  description: Plan a migration from Exchange Server on-premises and other email systems to Microsoft 365 in the cloud. 
+  ms.date: 05/13/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Plan and implement migration to Exchange Online
+summary: Plan a migration from Exchange Server on-premises and other email systems to Microsoft 365 in the cloud.  
+abstract: |
+  At the end of this module, you should be able to:
+  - Choose the best migration methods for a business scenario.
+  - Describe migration endpoints.
+  - Describe moving mailboxes in batches.
+  - Plan a migration from non-Microsoft systems.
+prerequisites: |
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+iconUrl: /learn/achievements/plan-implement-mailbox-migration.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-365
+- office-exchange-server
+units:
+- learn-m365.m365-messaging-migration.introduction
+- learn-m365.m365-messaging-migration.migration-methods
+- learn-m365.m365-messaging-migration.migration-endpoints
+- learn-m365.m365-messaging-migration.mailbox-migration
+- learn-m365.m365-messaging-migration.non-microsoft-messaging-systems
+- learn-m365.m365-messaging-migration.summary-knowledge-check
+badge: 
+  uid: learn-m365.m365-messaging-migration.badge

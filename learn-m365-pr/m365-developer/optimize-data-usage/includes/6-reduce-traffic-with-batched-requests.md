@@ -12,11 +12,11 @@ Another scenario may involve multiple write operations such as:
 
 Applications can get chatty quickly, and that can also introduce potential throttling issues.
 
-One way to avoid any issues and to introduce an optimization is to group multiple requests into a single request to Microsoft Graph. This batching, instructs Microsoft Graph to execute multiple requests and return the grouped results for each request in a single response. Batching does not reduce the number of requests, but it does reduce the number of HTTP round trips your application requests to Microsoft Graph.
+One way to avoid any issues and to introduce an optimization is to group multiple requests into a single request to Microsoft Graph. This support, called batching, instructs Microsoft Graph to execute multiple requests and return the grouped results for each request in a single response. Batching does not reduce the number of requests, but it does reduce the number of HTTP round trips your application requests to Microsoft Graph.
 
 ## Microsoft Graph endpoints support batched requests
 
-The requests within a batch are not special requests; they are just like any other normal request you would submit. Therefore, all endpoints and resources exposed by Microsoft Graph can support batching.
+The requests within a batch are not special requests; they are just like any other request you would submit. Therefore, all endpoints and resources exposed by Microsoft Graph can support batching.
 
 When submitting batch requests, all URLs within the requests should be relative to the root of the version of the Microsoft Graph REST endpoint.
 
