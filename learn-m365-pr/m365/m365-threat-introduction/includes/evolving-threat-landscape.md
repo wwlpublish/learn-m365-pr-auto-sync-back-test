@@ -1,9 +1,9 @@
-In today’s cyberthreat environment, security teams are up against a constant flood of incoming risks. But by leveraging advanced security analytics, machine learning, and their own intuition, security experts are fighting back with agile, adaptable defense systems. While security teams comb through tens of thousands of cybersecurity alerts-trying to separate legitimate risks from the noise—attacks can slip through the cracks unnoticed and do significant damage.
+In today’s cyberthreat environment, security teams are up against a constant flood of incoming risks. But with advanced security analytics, machine learning, and their own intuition, security experts are fighting back with agile, adaptable defense systems. While security teams comb through tens of thousands of cybersecurity alerts-trying to separate legitimate risks from the noise—attacks can slip through the cracks unnoticed and do significant damage.
 
 There’s too much to handle:
 
 - The average large organization has to sift through 17,000 malware warnings each week.
-- Ninety-nine days is the median amount of time for an organization to discover a security breach.
+- 99 days are the median amount of time for an organization to discover a security breach.
 - It takes less than 48 hours for attackers to have complete control of a network.
 - 4 million dollars is the average cost of a data breach to a company.
 
@@ -11,13 +11,13 @@ There’s too much to handle:
 
 Microsoft Threat Protection (MTP) is an integrated, cross-domain threat detection and response solution. It provides organizations with the ability to prevent, detect, investigate. and remediate sophisticated cross-domain attacks within their Microsoft 365 environments. MTP leverages raw signal data from individual service domains - user identity, endpoints, applications, email, and collaboration tools, normalizing the data at the ingestion point. 
 
-The data is analyzed and low-level signals that may otherwise be missed as well as individual alerts are correlated into incidents, giving a complete view of an attack that can be responded to in its entirety. Powerful workflows and AI auto-heal affected assets, and advanced hunting capabilities mean organizations can use their proprietary knowledge to uncover sophisticated breaches and customize their responses. But, MTP requires no specific expertise or customization, so defenders can immediately use the integrated console and combined incident views.
+The data is analyzed and low-level signals that may otherwise be missed as well as individual alerts are correlated into incidents. This gives a complete view of an attack that can be responded to in its entirety. Powerful workflows and AI autoheal affected assets. Advanced hunting capabilities mean organizations can use their proprietary knowledge to uncover sophisticated breaches and customize their responses. But, MTP requires no specific expertise or customization, so defenders can immediately use the integrated console and combined incident views.
 
 With MTP, security teams can:
 
 - Automatically block attacks and eliminate their persistence to keep them from starting again.
 - Prioritize incidents for investigation and response.
-- Auto-heal assets. 
+- Autoheal assets. 
 - Focus unique expertise on cross-domain hunting. 
 
 Microsoft Threat Protection suite protects:

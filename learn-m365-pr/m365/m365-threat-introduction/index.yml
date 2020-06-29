@@ -28,7 +28,7 @@ products:
 - m365
 - m365-threat-protection
 units:
-- learn-m365.mm365-threat-introduction.introduction
+- learn-m365.m365-threat-introduction.introduction
 - learn-m365.m365-threat-introduction.learn-common-threats
 - learn-m365.m365-threat-introduction.evolving-threat-landscape
 - learn-m365.m365-threat-introduction.summary-knowledge-check

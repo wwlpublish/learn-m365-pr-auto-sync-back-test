@@ -24,17 +24,17 @@ quiz:
         isCorrect: false
         explanation: "Threats are the potential weakness that attackers can use to infiltrate your organization."
      
-    - content: "Which of the following describes the benefits of Microsoft Threat Protection?"
+    - content: "Which of the following choices describe the benefits of Microsoft Threat Protection?"
       choices:
-      - content: "Coordinate defenses to stop attacks from spreading and auto-heal impacted assets."
+      - content: "Coordinate defenses to stop attacks from spreading and autoheal impacted assets."
         isCorrect: true
-        explanation: "Correct! Microsoft Threat Protection (MTP) provides the built-in intelligence, automation, and integration to coordinate protection, detection, response, and prevention by combining and orchestrating into a single solution the capabilities of Microsoft Defender Advanced Threat Protection (ATP) (endpoints), Office 365 ATP (email), Azure ATP (identity), and Microsoft Cloud App Security (apps)."
+        explanation: "Correct! Microsoft Threat Protection (MTP) provides the built-in intelligence, automation, and integration to coordinate protection, detection, response, and prevention by combining and orchestrating into a single solution the capabilities of Microsoft ATP (endpoints), Office 365 ATP (email), Azure ATP (identity), and Microsoft Cloud App Security (apps)."
       - content: "Control and help secure email, documents, and sensitive data inside and outside your company walls."
         isCorrect: false
-        explanation: "Incorrect. This is an explanation of Azure Information Protection. Microsoft Threat Protection (MTP) coordinates defenses to stop attacks from spreading and auto-heals impacted assets."
+        explanation: "Incorrect. This is an explanation of Azure Information Protection. Microsoft Threat Protection (MTP) coordinates defenses to stop attacks from spreading and autoheals impacted assets."
       - content: "Safeguard access to data and applications by requiring a second form of authentication and deliver strong authentication via a range of easy-to-use authentication methods."
         isCorrect: false
-        explanation: "Incorrect. This is an explanation of multi-factor authentication. Microsoft Threat Protection (MTP) coordinates defenses to stop attacks from spreading and auto-heals impacted assets."      
+        explanation: "Incorrect. This is an explanation of multi-factor authentication. Microsoft Threat Protection (MTP) coordinates defenses to stop attacks from spreading and autoheals impacted assets."      
   
     - content: "Which of the following is not part of the typical attack timeline?"
       choices:
