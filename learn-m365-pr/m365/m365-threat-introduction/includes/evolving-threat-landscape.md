@@ -7,7 +7,7 @@ There’s too much to handle:
 - It takes less than 48 hours for attackers to have complete control of a network.
 - 4 million dollars is the average cost of a data breach to a company.
 
-[Intelligence matters](../media/intelligence-matters.png)
+![Intelligence matters](../media/intelligence-matters.png)
 
 Microsoft Threat Protection (MTP) is an integrated, cross-domain threat detection and response solution. It provides organizations with the ability to prevent, detect, investigate. and remediate sophisticated cross-domain attacks within their Microsoft 365 environments. MTP leverages raw signal data from individual service domains - user identity, endpoints, applications, email, and collaboration tools, normalizing the data at the ingestion point. 
 
