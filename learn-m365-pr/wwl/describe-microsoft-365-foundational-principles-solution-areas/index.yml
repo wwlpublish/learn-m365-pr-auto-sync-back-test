@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn.wwl.describe-microsoft-365-security-principles-solution-areas
+metadata:
+  title: Describe Microsoft 365 security principles and solution areas
+  description: "Learn about the security principles upon which Microsoft has built its security solution that empowers security teams to do more with intelligent capabilities, delivers industry-leading protection, and streamlines integration for comprehensive coverage."
+  ms.date: 06/28/2020
+  author: wwlpublish
+  ms.author: ceperezb
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: Describe Microsoft 365 security principles and solution areas
+summary: Learn about the security principles upon which Microsoft has built its security solution that empowers security teams to do more with intelligent capabilities, delivers industry-leading protection, and streamlines integration for comprehensive coverage.
+abstract: |
+  Upon completion of this module, the learner will be able to:
+  * Describe Microsoft foundational principles
+  * Discover how Microsoft protects your data
+  * Review Microsoft’s Solution Areas
+prerequisites: |
+  none
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- business-owner
+- business-user
+- student
+products:
+- m365
+- office-365
+units:
+- learn.wwl.describe-microsoft-365-security-principles-solution-areas.introduction
+- learn.wwl.describe-microsoft-365-security-principles-solution-areas.describe-microsoft
+- learn.wwl.describe-microsoft-365-security-principles-solution-areas.review-microsoft’s
+- learn.wwl.describe-microsoft-365-security-principles-solution-areas.explore-microsoft-privacy-principles
+- learn.wwl.describe-microsoft-365-security-principles-solution-areas.knowledge-check
+- learn.wwl.describe-microsoft-365-security-principles-solution-areas.summary-resources
+badge:
+  uid: learn.wwl.describe-microsoft-365-security-principles-solution-areas.badge

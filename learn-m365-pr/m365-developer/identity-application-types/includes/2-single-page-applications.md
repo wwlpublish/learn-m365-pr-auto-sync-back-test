@@ -14,7 +14,7 @@ SPAs and other JavaScript apps that run primarily in a browser have unique chall
 
 ## OAuth 2.0 implicit grant flow
 
-The OAuth 2.0 implicit grant flow is a popular way for these SPAs to authenticate to obtain an access token to connect to protected services. The Microsoft identity platform supports the OAuth 2.0 implicit grant flow.
+The OAuth 2.0 implicit grant flow is a popular way for these SPAs to authenticate and obtain an access token to connect to protected services. The Microsoft identity platform supports the OAuth 2.0 implicit grant flow.
 
 ## Azure AD app registration
 

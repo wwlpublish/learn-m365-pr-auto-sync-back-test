@@ -1,0 +1,17 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.windows-plan.assess-applications
+title: Assess the applications in your organization
+metadata:
+  title: Assess the applications in your organization
+  description: Learn how to assess the applications in your organization.
+  ms.date: 05/20/2020
+  author: IanKensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/assess-applications.md)]
+
+
+

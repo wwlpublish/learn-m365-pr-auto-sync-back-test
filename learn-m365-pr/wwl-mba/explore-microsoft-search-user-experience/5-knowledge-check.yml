@@ -1,0 +1,37 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-microsoft-search-user-experience.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 06/14/2020
+  author: wwlpublish
+  ms.author: ceperezb
+  ms.topic: interactive-tutorial
+  ms.prod: learning-windows
+azureSandbox: false
+durationInMinutes: 1
+quiz:
+  questions:
+  - content: "Which of the following statements is correct, regarding Microsoft Search?"
+    choices:
+    - content: "Microsoft Search is supported on the Microsoft Edge browser running on a PC and mobile devices."
+      isCorrect: true
+      explanation: "Correct. Microsoft Search is supported on the Edge browser running on a PC and mobile devices."
+    - content: "Microsoft Search is supported on Microsoft Edge running on PCs only."
+      isCorrect: false
+      explanation: "Incorrect. Microsoft Search is supported on the Edge browser running on a PC and mobile devices."
+    - content: "Microsoft Edge must be configured with special extensions to work with the Microsoft Edge browser."
+      isCorrect: false
+      explanation: "Incorrect. Microsoft Search is built into the Microsoft Edge browser."
+  - content: "Which of the following statements is correct, regarding the Microsoft Search user experience?"
+    choices:
+    - content: "For your managed devices, Microsoft Search will only search your organization's intranet content."
+      isCorrect: false
+      explanation: "Incorrect. On managed devices, Microsoft Search can secure search across intranet and the web."
+    - content: "For your managed devices, Microsoft Search can securely search across your intranet and the web."
+      isCorrect: true
+      explanation: "Correct. On managed devices, Microsoft Search can securely search across your intranet and the web."
+    - content: "For your managed devices, Microsoft Search results are based only on publically available content, no corporate content is included in your search."
+      isCorrect: false
+      explanation: "Incorrect. On managed devices, Microsoft Search can securely search across your intranet and the web."

@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn.wwl.describe-support-offerings-for-microsoft-365-services
+metadata:
+  title: Describe support offerings for Microsoft 365 services
+  description: "Learn to describe support offerings for Microsoft 365 services."
+  ms.date: 06/29/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Describe support offerings for Microsoft 365 services
+summary: Learn to describe support offerings for Microsoft 365 services.
+abstract: |
+  Upon completion of this module, the learner will be able to:
+  - Describe support offerings for Microsoft 365 services
+  - Describe how to create a support request for Microsoft 365 services
+  - Describe service level agreements (SLAs) concepts, use cases for SLAs, SLA tiers, roles, and responsibilities
+  - Determine service health status by using the Microsoft 365 dashboard or the tenant dashboard
+  - Describe how organizations can communicate with Microsoft by using UserVoice
+prerequisites: |
+  None
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- business-owner
+- business-user
+- student
+products:
+- m365
+- office-365
+units:
+- learn.wwl.describe-support-offerings-for-microsoft-365-services.introduction
+- learn.wwl.describe-support-offerings-for-microsoft-365-services.explore-support-options
+- learn.wwl.describe-support-offerings-for-microsoft-365-services.explain-service-level-agreements
+- learn.wwl.describe-support-offerings-for-microsoft-365-services.describe-how-to-track-service-health-status
+- learn.wwl.describe-support-offerings-for-microsoft-365-services.communicate-share-ideas-with-uservoice
+- learn.wwl.describe-support-offerings-for-microsoft-365-services.knowledge-check
+- learn.wwl.describe-support-offerings-for-microsoft-365-services.summary-resources
+badge:
+  uid: learn.wwl.describe-support-offerings-for-microsoft-365-services.badge

@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-messaging-manage-mail-flow.domains
+title: Manage your domains
+metadata:
+  title: Manage your domains
+  description: Learn how to manage domains in Exchange Online.
+  ms.date: 06/08/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 7
+content: |
+  [!include[](includes/domains.md)]

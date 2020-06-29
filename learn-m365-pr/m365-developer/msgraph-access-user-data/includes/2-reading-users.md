@@ -1,4 +1,4 @@
-In this unit, you’ll learn the basics of working with users with Microsoft Graph. Working with users requires a user and app be granted specific permissions, some that can be granted by a user while others must be granted by an administrator.
+In this unit, you’ll learn the basics of working with users with Microsoft Graph. Working with users requires a user and app be granted specific permissions, some can be granted by a user while others must be granted by an administrator.
 
 Users are the representation of an Azure Active Directory (Azure AD) work or school user account or a Microsoft account in Microsoft Graph. The user resource in Microsoft Graph is a hub from which you can access the relationships and resources that are relevant to your users.
 

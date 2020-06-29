@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn-m365.m365-messaging-hybrid-environment
+metadata:
+  title: Plan and implement a hybrid environment
+  description: Your organization has migrated many workloads to Microsoft Azure, and you now intend to migrate to a hybrid Exchange environment. You need to consider the choices for a hybrid environment while keeping your infrastructure secure. You’ll plan the migration process to ensure that it’s as straightforward as possible. 
+  ms.date: 05/12/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Plan and implement a hybrid environment
+summary: Your organization has migrated many workloads to Microsoft Azure, and you now intend to migrate to a hybrid Exchange environment. You need to consider the choices for a hybrid environment while keeping your infrastructure secure. You’ll plan the migration process to ensure that it’s as straightforward as possible.  
+abstract: |
+  At the end of this module, you should be able to:
+  - Explain hybrid environments.
+  - Explain free/busy access.
+  - Explain the decision between Classic and Modern hybrid.
+  - Describe the Edge server role.
+  - Configure organization configuration transfer.
+  - Configure hybrid topology.
+prerequisites: |
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+iconUrl: /learn/achievements/plan-implement-hybrid-environment.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-365
+- office-exchange-server
+units:
+- learn-m365.m365-messaging-hybrid-environment.introduction
+- learn-m365.m365-messaging-hybrid-environment.configure-hybrid-access
+- learn-m365.m365-messaging-hybrid-environment.decide-classic-modern
+- learn-m365.m365-messaging-hybrid-environment.manage-edge-server-role
+- learn-m365.m365-messaging-hybrid-environment.organization-configuration-transfer
+- learn-m365.m365-messaging-hybrid-environment.hybrid-configuration-wizard
+- learn-m365.m365-messaging-hybrid-environment.deploy-hybrid-agent
+- learn-m365.m365-messaging-hybrid-environment.summary-knowledge-check
+badge: 
+  uid: learn-m365.m365-messaging-hybrid-environment.badge

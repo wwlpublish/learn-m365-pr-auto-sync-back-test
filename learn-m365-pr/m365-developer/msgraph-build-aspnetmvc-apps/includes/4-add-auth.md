@@ -1,4 +1,4 @@
-In this unit, the focus is on the Azure Active Directory (AD). You'll learn how to use the Azure AD admin center to register an application, set up app's credentials, and configure the type of the application. Next, you'll learn how to modify an existing ASP.NET MVC application so it will work with Azure AD.
+In this unit, the focus is on the Azure Active Directory (AD). You'll learn how to use the Azure AD admin center to register an application, set up the app's credentials, and configure the type of the application. Next, you'll learn how to modify an existing ASP.NET MVC application so it will work with Azure AD.
 
 ## Azure AD endpoint versions
 

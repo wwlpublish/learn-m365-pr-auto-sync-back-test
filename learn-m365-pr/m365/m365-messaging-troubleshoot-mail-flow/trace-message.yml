@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-messaging-troubleshoot-mail-flow.trace-message
+title: Trace a message
+metadata:
+  title: Trace a message
+  description: Learn how to track a message as it works its way through Exchange Online.
+  ms.date: 06/09/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/trace-message.md)]

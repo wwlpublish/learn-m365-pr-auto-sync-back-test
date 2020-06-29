@@ -19,8 +19,6 @@ On the **App registrations** page, select the **Graph Console App**.
 
 Select **API Permissions** in the left-hand navigation panel.
 
-![Screenshot of the API Permissions navigation item](../media/azure-ad-portal-new-app-permissions-01a.png)
-
 Select the **Add a permission** button.
 
 ![Screenshot of the Add permission button](../media/azure-ad-portal-new-app-permissions-05-02.png)
@@ -103,7 +101,7 @@ In this section, update the console app upload a large file.
 
 Obtain a large file, one at least 5 MB, and copy it to the root of the .NET Core console app's folder. Name the file **largefile.zip**.
 
-Locate the code you added above for `// request 1 - upload small file to user's onedrive` and optionally comment it out so it doesn't continue to execute.
+Locate the code you added above for `// request 1 - upload small file to user's onedrive` and comment it out so it doesn't continue to execute.
 
 Add the following code to the `Main` method of the console application. This will get a reference to the large file you copied to the folder:
 

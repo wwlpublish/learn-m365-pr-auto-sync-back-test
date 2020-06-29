@@ -25,7 +25,7 @@ For example, assume your app has been granted the **User.ReadWrite.All** delegat
 
 For application permissions, the effective permissions of your app will be the full level of privileges implied by the permission. For example, an app that has the **User.ReadWrite.All** application permission can update the profile of every user in the organization.
 
-## Consent experience (ref)
+## Consent experience
 
 In an OpenID Connect or OAuth 2.0 authorization request, an app can request the permissions it needs by using the scope query parameter. For example, when a user signs in to an app, the app sends a request like the following example (with line breaks added for legibility):
 

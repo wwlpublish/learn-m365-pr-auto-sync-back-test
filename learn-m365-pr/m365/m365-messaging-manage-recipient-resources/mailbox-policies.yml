@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-messaging-manage-recipient-resources.mailbox-policies
+title: Configure mailbox policies and permissions
+metadata:
+  title: Configure mailbox policies and permissions
+  description: Learn how to manage mailbox policies and permissions in Exchange Online.
+  ms.date: 04/07/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 7
+content: |
+  [!include[](includes/mailbox-policies.md)]

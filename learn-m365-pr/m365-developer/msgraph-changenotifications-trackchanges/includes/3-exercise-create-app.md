@@ -34,8 +34,6 @@ Enter a value in **Description** and select one of the options for **Expires** a
 
 ![Screenshot of the Add a client secret dialog](../media/03-aad-portal-newapp-secret.png)
 
-![Screenshot of the Add a client secret dialog](../media/03-aad-portal-newapp-secret-02.png)
-
 Copy the client secret value before you leave this page. You'll need it later in the exercise.
 
 > [!IMPORTANT]

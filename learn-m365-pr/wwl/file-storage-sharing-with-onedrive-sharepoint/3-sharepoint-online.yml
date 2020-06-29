@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.file-storage-sharing-with-onedrive-sharepoint.sharepoint-online
+title: SharePoint online
+metadata:
+  title: SharePoint online
+  description: "SharePoint online"
+  ms.date: 06/28/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/3-sharepoint-online.md)]

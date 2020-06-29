@@ -1,0 +1,89 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-messaging-hybrid-environment.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Your organization has migrated many workloads to Microsoft Azure, and you now intend to migrate to a hybrid Exchange environment. You need to consider the choices for a hybrid environment while keeping your infrastructure secure. You’ll plan the migration process to ensure that it’s as straightforward as possible.
+  ms.date: 05/12/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "In the context of configuring hybrid free/busy access with Exchange Online, what is a federation trust?"
+      choices:
+      - content: "A federation trust is a many-to-many relationship with the Azure Active Directory authentication system."
+        isCorrect: false
+        explanation: "A federation trust is a one-to-one relationship with the Azure Active Directory authentication system that defines parameters for your Exchange organization."
+      - content: "A federation trust is a one-to-one relationship with the Azure Active Directory authentication system."
+        isCorrect: true
+        explanation: "A federation trust is a one-to-one relationship with the Azure Active Directory authentication system that defines parameters for your Exchange organization."
+      - content: "A federation trust is a one-to-many relationship with the Azure Active Directory authentication system."
+        isCorrect: false
+        explanation: "A federation trust is a one-to-one relationship with the Azure Active Directory authentication system that defines parameters for your Exchange organization."
+
+    - content: "If you require the full Exchange Hybrid experience, should you deploy a Classic or Modern hybrid topology?"
+      choices:
+      - content: "Classic"
+        isCorrect: true
+        explanation: "A Classic deployment provides the full Exchange Hybrid experience."
+      - content: "Modern"
+        isCorrect: false
+        explanation: "A Classic deployment provides the full Exchange Hybrid experience."
+      - content: "Either Classic or Modern"
+        isCorrect: false
+        explanation: "Only a Classic deployment provides the full Exchange Hybrid experience."
+      
+    - content: "To ensure that you minimize the attack surface of your network when deploying a hybrid Exchange topology, which server should you deploy?"
+      choices:
+      - content: "A DHCP server"
+        isCorrect: false
+        explanation: "A DHCP server controls IP address allocation, and will not reduce the attack surface."
+      - content: "An Edge Transport server"
+        isCorrect: true
+        explanation: "An Edge Transport server is designed to minimize the attack surface of the organization."
+      - content: "An IIS server"
+        isCorrect: false
+        explanation: "An IIS server is designed to host websites, and will not reduce the attack surface."
+
+    - content: "If you require your address list attributes to be copied to Exchange Online as part of the Hybrid Configuration wizard, which option should you select?"
+      choices:
+      - content: "Free/busy access option"
+        isCorrect: false
+        explanation: "Free/busy access does not copy address list attributes to Exchange Online."
+      - content: "Sharing Policy option"
+        isCorrect: false
+        explanation: "Sharing Policy does not copy address list attributes to Exchange Online."
+      - content: "Organization Configuration Transfer option"
+        isCorrect: true
+        explanation: "The address list attributes are included in the settings that the Organization Configuration Transfer option transfers."
+
+    - content: "After you’ve run the Hybrid Configuration wizard, what added step do you need to run to make the configuration changes to create and enable the hybrid deployment?"
+      choices:
+      - content: "None"
+        isCorrect: true
+        explanation: "The Hybrid Configuration wizard makes the configuration changes to create and enable the hybrid deployment."
+      - content: "Run the DeployHCW PowerShell cmdlet"
+        isCorrect: false
+        explanation: "The Hybrid Configuration wizard makes the configuration changes to create and enable the hybrid deployment."
+      - content: "Update the configuration in Exchange Online"
+        isCorrect: false
+        explanation: "The Hybrid Configuration wizard makes the configuration changes to create and enable the hybrid deployment."
+
+    - content: "You’re using the Hybrid Configuration wizard and need to enable all hybrid deployment features. What additional step should you run?"
+      choices:
+      - content: "None"
+        isCorrect: true
+        explanation: "The Hybrid Configuration wizard automatically enables all hybrid deployment features by default each time it runs."
+      - content: "Run the HCWCfg PowerShell cmdlet"
+        isCorrect: false
+        explanation: "The Hybrid Configuration wizard automatically enables all hybrid deployment features by default each time it runs."
+      - content: "Update the configuration in Exchange Online"
+        isCorrect: false
+        explanation: "The Hybrid Configuration wizard automatically enables all hybrid deployment features by default each time it runs."
+     

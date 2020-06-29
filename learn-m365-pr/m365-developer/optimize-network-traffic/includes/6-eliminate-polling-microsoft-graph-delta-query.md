@@ -28,4 +28,4 @@ Using this strategy, applications can nearly eliminate the need to frequently po
 
 ### Recommendation: schedule one Delta Query requests on a long interval
 
-To ensure no changes are missed, it is recommended to schedule at least one long-interval delta query request and not rely entirely on the subscription notifications to request changes from the Microsoft Graph resource. This will return all changed data can be processed by the application in the case a change notification was missed.
+To ensure no changes are missed, it's recommended to schedule at least one long-interval delta query request and not rely entirely on the subscription notifications to request changes from the Microsoft Graph resource. This will return all changed data can be processed by the application in the case a change notification was missed.

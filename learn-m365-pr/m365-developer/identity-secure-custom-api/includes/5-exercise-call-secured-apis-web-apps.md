@@ -1,4 +1,4 @@
-In this unit, you’ll learn how to create server-side web apps that enable users to sign in and grant the app permissions to act on the user’s behalf. Once the user has authenticated and granted the app consent to act on their behalf, the web application will use data returned from a secure web API by using the OAuth 2.0 auth code grant flow.
+In this exercise, you’ll learn how to create server-side web apps that enable users to sign in and grant the app permissions to act on the user’s behalf. Once the user has authenticated and granted the app consent to act on their behalf, the web application will use data returned from a secure web API by using the OAuth 2.0 auth code grant flow.
 
 > [!IMPORTANT]
 > This exercise assumes you have created the secured API app registration in the Azure AD admin center and associated project from the previous unit in this module. You'll consume that API in this exercise.
@@ -66,8 +66,6 @@ The **Certificate & Secrets** page will display the new secret. It's important y
 
 ![Screenshot showing the new secret](../media/05-azure-ad-portal-new-app-secret-02.png)
 
-Copy the value of the secret as you'll need it later.
-
 ## Create a single organization ASP.NET web application
 
 Open your command prompt, navigate to a directory where you want to save your work, create a new folder, and change directory into that folder.
@@ -75,17 +73,18 @@ Open your command prompt, navigate to a directory where you want to save your wo
 Execute the following command to create a new ASP.NET Core MVC web application:
 
 ```shell
-dotnet new mvc --auth SingleOrg
+dotnet new mvc --auth SingleOrg -o ProductCatalogWeb
 ```
-
-Open the root folder of the new ASP.NET core application using a text editor such as Visual Studio Code.
 
 After creating the application, run the following commands to ensure your new project runs correctly.
 
 ```shell
+cd ProductCatalogWeb
 dotnet add package Microsoft.Identity.Client
 dotnet add package Microsoft.Extensions.Configuration
 ```
+
+Open the scaffolded project folder, which is named **ProductCatalogWeb** in **Visual Studio Code**
 
 ### Configure the web application with the Azure AD application
 
@@ -211,7 +210,7 @@ The next step is to add a model, controller, and view to the web app that will d
 Add a new file **Category.cs** to the **Models** folder. add the following code to it:
 
 ```cs
-namespace <PROJECT-NAMESPACE>.Models
+namespace ProductCatalogWeb.Models
 {
   public class Category
   {
@@ -220,8 +219,6 @@ namespace <PROJECT-NAMESPACE>.Models
   }
 }
 ```
-
-Replace the string `<PROJECT-NAMESPACE>` with the root namespace of the project. This string can be found in the **Startup.cs** file.
 
 Add a new file **CategoriesController.cs** to the **Controllers** folder. Add the following code to it:
 
@@ -233,12 +230,12 @@ using System.Security.Claims;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
-using id4web.Models;
+using ProductCatalogWeb.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Identity.Client;
 
-namespace <PROJECT-NAMESPACE>.Controllers
+namespace ProductCatalogWeb.Controllers
 {
   [Authorize]
   public class CategoriesController : Controller
@@ -305,8 +302,6 @@ namespace <PROJECT-NAMESPACE>.Controllers
 }
 ```
 
-Replace the string `<PROJECT-NAMESPACE>` with the root namespace of the project. This can be found in the **Startup.cs** file.
-
 This controller's `GetTokenForUser()` method demonstrates how to use the MSAL application to get a token for the current user.
 
 Now create the view to display the categories.
@@ -314,7 +309,7 @@ Now create the view to display the categories.
 Add a new folder **Categories** to the **Views** folder. Add a new file, **Index.cshtml**, to the new **Categories** folder and add the following code to it. This view will display all the categories provided by the API:
 
 ```cshtml
-@model IEnumerable<<PROJECT-NAMESPACE>.Models.Category>
+@model IEnumerable<ProductCatalogWeb.Models.Category>
 
 @{
   ViewData["Title"] = "Categories";
@@ -351,12 +346,10 @@ Add a new folder **Categories** to the **Views** folder. Add a new file, **Index
 </table>
 ```
 
-Replace the string `<PROJECT-NAMESPACE>` with the root namespace of the project. This can be found in the **Startup.cs** file.
-
 Add a new file, **Create.cshtml**, to the **Views\Categories** folder and add the following code to it. This view view will provide a form for creating a new category:
 
 ```cshtml
-@model <PROJECT-NAMESPACE>.Models.Category
+@model ProductCatalogWeb.Models.Category
 
 @{
   ViewData["Title"] = "New Category";
@@ -390,8 +383,6 @@ Add a new file, **Create.cshtml**, to the **Views\Categories** folder and add th
 }
 ```
 
-Replace the string `<PROJECT-NAMESPACE>` with the root namespace of the project. This can be found in the **Startup.cs** file.
-
 ### Add a Products model, controller, and view to the web app
 
 The final step is to add a model, controller, and view to the web app that will display the products returned from the product catalog API.
@@ -399,7 +390,7 @@ The final step is to add a model, controller, and view to the web app that will 
 Add a new file **Product.cs** to the **Models** folder. add the following code to it:
 
 ```cs
-namespace <PROJECT-NAMESPACE>.Models
+namespace ProductCatalogWeb.Models
 {
   public class Product
   {
@@ -410,12 +401,12 @@ namespace <PROJECT-NAMESPACE>.Models
 }
 ```
 
-Replace the string `<PROJECT-NAMESPACE>` with the root namespace of the project. This string can be found in the **Startup.cs** file.
-
 Add a new file **ProductViewModel.cs** to the **Models** folder. add the following code to it:
 
 ```cs
-namespace <PROJECT-NAMESPACE>.Models
+using System.Collections.Generic;
+
+namespace ProductCatalogWeb.Models
 {
   public class ProductViewModel
   {
@@ -425,8 +416,6 @@ namespace <PROJECT-NAMESPACE>.Models
   }
 }
 ```
-
-Replace the string `<PROJECT-NAMESPACE>` with the root namespace of the project. This string can be found in the **Startup.cs** file.
 
 Add a new file **ProductsController.cs** to the **Controllers** folder. Add the following code to it:
 
@@ -438,12 +427,12 @@ using System.Security.Claims;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
-using id4web.Models;
+using ProductCatalogWeb.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Identity.Client;
 
-namespace <PROJECT-NAMESPACE>.Controllers
+namespace ProductCatalogWeb.Controllers
 {
   [Authorize]
   public class ProductsController : Controller
@@ -528,8 +517,6 @@ namespace <PROJECT-NAMESPACE>.Controllers
 }
 ```
 
-Replace the string `<PROJECT-NAMESPACE>` with the root namespace of the project. This string can be found in the **Startup.cs** file.
-
 This controller's `GetTokenForUser()` method demonstrates how to use the MSAL application to get a token for the current user.
 
 Now create the view to display the categories.
@@ -537,7 +524,7 @@ Now create the view to display the categories.
 Add a new folder **Products** to the **Views** folder. Add a new file, **Index.cshtml**, to the new **Products** folder and add the following code to it. This view will display all the products provided by the API:
 
 ```html
-@model IEnumerable<<PROJECT-NAMESPACE>.Models.Product>
+@model IEnumerable<ProductCatalogWeb.Models.Product>
 
 @{
   ViewData["Title"] = "Products";
@@ -580,12 +567,10 @@ Add a new folder **Products** to the **Views** folder. Add a new file, **Index.c
 </table>
 ```
 
-Replace the string `<PROJECT-NAMESPACE>` with the root namespace of the project. This can be found in the **Startup.cs** file.
-
 Add a new file, **Create.cshtml**, to the **Views\Products** folder and add the following code to it. This will provide a form for creating a new product:
 
 ```html
-@model <PROJECT-NAMESPACE>.Models.ProductViewModel
+@model ProductCatalogWeb.Models.ProductViewModel
 
 @{
   ViewData["Title"] = "New Product";
@@ -597,7 +582,6 @@ Add a new file, **Create.cshtml**, to the **Views\Products** folder and add the 
   <div class="col-md-4">
     <form asp-action="Create">
       <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-      <input type="hidden" asp-for="Id" />
       <div class="form-group">
         <label asp-for="ProductName" class="control-label"></label>
         <input asp-for="ProductName" class="form-control" />
@@ -625,19 +609,18 @@ Add a new file, **Create.cshtml**, to the **Views\Products** folder and add the 
 }
 ```
 
-Replace the string `<PROJECT-NAMESPACE>` with the root namespace of the project. This can be found in the **Startup.cs** file.
-
 #### Start the web API
 
 In a separate instance of Visual Studio code, open the folder containing the web API application from the previous exercise.
 
-On the Visual Studio Code menu bar, select **Debug** > **Run Without Debugging** to start the web API.
+On the Visual Studio Code menu bar, select **Run** > **Run Without Debugging** to start the web API.
 
 #### Build and test the web app
 
 Execute the following in a command prompt to compile and run the application:
 
 ```shell
+dotnet dev-certs https --trust
 dotnet build
 dotnet run
 ```

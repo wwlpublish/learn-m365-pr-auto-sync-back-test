@@ -1,5 +1,8 @@
 In this exercise, you'll modify an existing Azure AD application registration using the Azure Active Directory admin center, a .NET Core console application, and use Microsoft Graph to create, update, and delete users in your organization.
 
+> [!IMPORTANT]
+> This exercise assumes you have created the Azure AD application and .NET console application from the previous unit in this module. You'll edit the existing Azure AD application and .NET console application created in that exercise in this exercise.
+
 ## Set up the .NET Core console application
 
 Locate the **Program.cs** file from the application you created in a previous unit in this module.
@@ -14,7 +17,7 @@ Delete all code within the `Main` method after the above line.
 
 ## Create a new user in your organization
 
-Add the following code to the end of the `Main` method. This code will obtain a reference to the currently signed in user's profile photo and display its details:
+Add the following code to the end of the `Main` method. This code will call a method that will use Microsoft Graph to create a new user:
 
 ```cs
 // request 1: create user
@@ -22,8 +25,6 @@ var resultNewUser = CreateUserAsync(client);
 resultNewUser.Wait();
 Console.WriteLine("New user ID: " + resultNewUser.Id);
 ```
-
-This code will call a method that will use Microsoft Graph to create a new user.
 
 Next, add the `CreateUserAsync()` method to the console application:
 

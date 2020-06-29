@@ -19,8 +19,6 @@ On the **App registrations** page, select the **Graph Console App**.
 
 Select **API Permissions** in the left-hand navigation panel.
 
-![Screenshot of the API Permissions navigation item](../media/azure-ad-portal-new-app-permissions-01a.png)
-
 Select the **Add a permission** button.
 
 ![Screenshot of the Add permission button](../media/azure-ad-portal-new-app-permissions-05-02.png)
@@ -94,7 +92,7 @@ After entering the username and password of a user, the console app will display
 
 In this section, you'll update the .NET console app to display the files recently used and accessed by the currently signed-in user.
 
-Locate the code you added above for `// request 1 - get trending files around a specific user (me)` and optionally comment it out so it doesn't continue to execute.
+Locate the code you added above for `// request 1 - get trending files around a specific user (me)` and comment it out so it doesn't continue to execute.
 
 Add the following code to the `Main` method of the console application. 
 This code will get a list of all files in the group's root OneDrive folder and write the files to the console:

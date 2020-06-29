@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.microsoft-365-productivity-teamwork-solutions.engage-employees
+title: Explore ways to engage employees
+metadata:
+  title: Explore ways to engage employees
+  description: "Explore ways to engage employees"
+  ms.date: 06/28/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-engage-employees.md)]

@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.simplify-device-management-with-microsoft-endpoint-manager.integrated-solutions
+title: Integrated solutions in Microsoft Endpoint Manager
+metadata:
+  title: Integrated solutions in Microsoft Endpoint Manager
+  description: "Integrated solutions in Microsoft Endpoint Manager"
+  ms.date: 06/29/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/3-integrated-solutions.md)]

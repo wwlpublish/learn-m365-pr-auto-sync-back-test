@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.windows-plan.review-benefits-stay-current
+title: Review the benefits of staying current
+metadata:
+  title: Review the benefits of staying current.
+  description: Review the benefits of staying current.
+  ms.date: 05/20/2020
+  author: IanKensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 10
+content: |
+  [!include[](includes/review-benefits-stay-current.md)]
+
+

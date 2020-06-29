@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.get-more-done-with-office-across-devices.deployment-methods
+title: Describe deployment methods for Microsoft 365 Apps
+metadata:
+  title: Describe deployment methods for Microsoft 365 Apps
+  description: "Describe deployment methods for Microsoft 365 Apps"
+  ms.date: 06/28/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/3-deployment-methods.md)]

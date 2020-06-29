@@ -1,6 +1,6 @@
 This unit will cover the different account types that are used within the Microsoft identity platform. You'll also learn about the differences and relationships between applications and service principals.
 
-Developers that leverage the Microsoft identity platform within custom apps begin with registering an application in Azure AD. It doesn’t matter if the app runs on a mobile device, in the cloud, or what cloud provider it runs. The app can even be a PowerShell script. The Azure AD application is the control point for how you access the identity and the information it protects.
+Developers that leverage the Microsoft identity platform within custom apps begin with registering an application in Azure AD. It doesn’t matter if the app runs on a mobile device or in the cloud. If the runs in the cloud, it doesn't matter which cloud provider hosts it. The app can even be a PowerShell script. The Azure AD application is the control point for how you access the identity and the information it protects.
 
 You as the developer have a number of choices to make and the choices you make are driven by the requirements for your application. Developers have to decide:
 
@@ -68,9 +68,9 @@ The application object serves as the template from which common and default prop
 
 Service principals must be created in each tenant where the application is used, enabling it to establish an identity for sign in and/or access to resources being secured by the tenant.
 
-Single-tenant application has only one service principal (in its home tenant), created and consented for use during application registration.
+A Single-tenant application has only one service principal (in its home tenant), created and consented for use during application registration.
 
-Multi-tenant web applications or APIs also has a service principal created in each tenant where a user from that tenant has consented to its use.
+Multi-tenant web applications or APIs also have a service principal created in each tenant where a user from that tenant has consented to its use.
 
 ## Summary
 

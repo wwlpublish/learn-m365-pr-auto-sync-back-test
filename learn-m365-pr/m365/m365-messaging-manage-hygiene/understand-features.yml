@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-messaging-manage-hygiene.understand-features
+title: Understand message hygiene features
+metadata:
+  title: Understand message hygiene features
+  description: Learn about the message hygiene features available to help you protect your organization.  
+  ms.date: 06/18/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 2
+content: |
+  [!include[](includes/understand-features.md)]

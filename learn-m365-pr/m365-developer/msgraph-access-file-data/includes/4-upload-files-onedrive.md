@@ -1,6 +1,6 @@
 In this unit, you’ll learn how to upload files to OneDrive using Microsoft Graph, including both small and large files.
 
-Microsoft Graph supports through the REST API and through the multiple SDKs the ability to upload files to OneDrive. There are two approaches to uploading files:
+Microsoft Graph supports, through the REST API and through the multiple SDKs, the ability to upload files to OneDrive. There are two approaches to uploading files:
 
 - Simple upload: this API supports uploading files to OneDrive up to 4 MB in size.
 - Large file upload: this resumable API supports uploading files larger than 4 MB in size.

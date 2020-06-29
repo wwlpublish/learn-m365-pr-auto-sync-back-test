@@ -1,8 +1,8 @@
-In this exercise, you'll learn how to create server-side web apps that allow a user to sign in and grant the app permissions to act on the user's behalf. Once the user has authenticated and granted the app consent to act on their behalf, the web application will use data returned from Microsoft Graph by using the OAuth 2.0 auth code grant flow.
+In this exercise, you'll learn how to a create server-side web app that allow a user to sign in and grant the app permissions to act on the user's behalf. Once the user has authenticated and granted the app consent to act on their behalf, the web application will use data returned from Microsoft Graph by using the OAuth 2.0 auth code grant flow.
 
 ## Create an application that only allows a single organization's users to sign in
 
-In this first application, you'll create an Azure AD application and ASP.NET Core web application that allows users from the current organization to sign in and display their information.
+In this example you'll create an Azure AD application and an ASP.NET Core web application that allows users from the current organization to sign in and display their information.
 
 ### Create a single-tenant Azure AD application
 
@@ -313,4 +313,4 @@ Update the URL to **https://localhost:5001/User** to navigate to the **User** co
 
 ## Summary
 
-In this unit, you learned how to create server-side web apps that allow users to sign in and grant the app permissions to act on the user's behalf. One the user has authenticated and granted the app consent to act on their behalf, the web application will use data returned from Microsoft Graph by using the OAuth 2.0 auth code grant flow.
+In this unit, you learned how to create a server-side web app that allow users to sign in and grant the app permissions to act on the user's behalf. One the user has authenticated and granted the app consent to act on their behalf, the web application will use data returned from Microsoft Graph by using the OAuth 2.0 auth code grant flow.

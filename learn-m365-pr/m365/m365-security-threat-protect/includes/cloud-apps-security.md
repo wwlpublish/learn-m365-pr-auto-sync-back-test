@@ -11,3 +11,9 @@ Microsoft Cloud App Security natively integrates with leading Microsoft solution
 - **Assess the compliance of your cloud apps**: Determine if your cloud apps meet relevant compliance requirements (including regulatory compliance) and industry standards. Prevent data leaks to non-compliant apps and limit access to regulated data.
 
 ![Cloud App Security](../media/cloud-app-security.png)
+
+## Learn more
+- [Configure Cloud App Security (CAS) and policies](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security?azure-portal=true)
+- [Connect apps](https://docs.microsoft.com/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps?azure-portal=true)
+- [Design CAS solution](https://docs.microsoft.com/cloud-app-security/general-setup?azure-portal=true)
+- [Manage your alerts](https://docs.microsoft.com/cloud-app-security/managing-alerts?azure-portal=true)

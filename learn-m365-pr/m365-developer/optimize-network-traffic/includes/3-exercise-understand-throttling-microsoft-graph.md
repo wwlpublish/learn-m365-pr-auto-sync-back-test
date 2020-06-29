@@ -338,7 +338,7 @@ if (config == null)
 }
 ```
 
-Add the following code to the end of the `Main` method, just after the code added in the last step. Thi code will obtain an authenticated instance of the `HttpClient` and submit a request for the current user's email:
+Add the following code to the end of the `Main` method, just after the code added in the last step. This code will obtain an authenticated instance of the `HttpClient` and submit a request for the current user's email:
 
 ```cs
 var userName = ReadUsername();

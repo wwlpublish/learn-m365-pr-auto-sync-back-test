@@ -1,0 +1,37 @@
+### YamlMime:Module
+uid: learn-m365.windows-plan
+metadata:
+  title: Plan to deploy updates for Windows 10 and Microsoft 365 Apps
+  description: Some of your organization's devices are at the end of support or nearing end of support. This means your organization's environment is at risk of security threats and other issues. You'll learn how to create a plan to help bring your organization's environment up to date.
+  ms.date: 06/17/2020
+  author: IanKensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Plan to deploy updates for Windows 10 and Microsoft 365 Apps
+summary: Learn how you can use the Windows servicing process to help your organization implement a plan to stay current with the latest Windows updates. 
+abstract: | 
+  In this module, you will:
+  - Understand the servicing process
+  - Understand how to plan to stay current
+prerequisites: | 
+  - None
+iconUrl: /learn/achievements/plan-to-deploy-updates-to-windows-10.svg
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+- m365
+units:
+- learn-m365.windows-plan.introduction
+- learn-m365.windows-plan.review-benefits-stay-current
+- learn-m365.windows-plan.assess-applications
+- learn-m365.windows-plan.identify-roles-responsibilities
+- learn-m365.windows-plan.cover-application-functionality-compatibility
+- learn-m365.windows-plan.cover-infrastructure
+- learn-m365.windows-plan.modernize-production-environment
+- learn-m365.windows-plan.summary
+badge:
+  uid: learn-m365.windows-plan.badge
