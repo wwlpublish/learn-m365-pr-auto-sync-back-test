@@ -14,6 +14,8 @@ Microsoft Cloud App Security natively integrates with leading Microsoft solution
 
 ## Learn more
 - [Configure Cloud App Security (CAS) and policies](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security?azure-portal=true)
+- [Cloud App Security dashboards and reports](https://docs.microsoft.com/cloud-app-security/create-snapshot-cloud-discovery-reports?azure-portal=true)
+- [Interpret Cloud App Security activity log and governance log](https://docs.microsoft.com/cloud-app-security/discovery-docker?azure-portal=true)
 - [Connect apps](https://docs.microsoft.com/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps?azure-portal=true)
 - [Design CAS solution](https://docs.microsoft.com/cloud-app-security/general-setup?azure-portal=true)
 - [Manage your alerts](https://docs.microsoft.com/cloud-app-security/managing-alerts?azure-portal=true)
