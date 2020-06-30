@@ -2,7 +2,7 @@
 
 The Microsoft 365 compliance center provides easy access to the data and tools you need to manage to your organization's compliance needs.  
 
-When you first visit the Microsoft 365 compliance center, the card section on the home page shows you, at a glance.  You will see how your organization is doing with data compliance, what solutions are available for your organization,  a summary of any active alerts, and more.
+The Microsoft 365 compliance center home page shows you, at a glance, how your organization is doing with data compliance, what solutions are available for your organization,  a summary of any active alerts, and more.
 
 
 :::image type="content" source="../media/3-welcome-compliance-center-v3.png" alt-text="Microsoft 365 compliance center":::
