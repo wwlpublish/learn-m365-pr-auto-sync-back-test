@@ -4,7 +4,7 @@ The open-source software (OSS) landscape is rapidly growing, both in the quantit
 
 Microsoft has adopted a high-level strategy for managing open-source security. Our open-source security strategy leverages tools and workflows designed to:
 
-- Understand which open-source components are being used in our products and services
+- Understand which open-source components are being used in our products and services.
 - Track where and how those components are used.
 - Determine whether those components have any vulnerabilities.
 - Respond properly when vulnerabilities are discovered that affect those components.

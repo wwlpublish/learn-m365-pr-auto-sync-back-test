@@ -1,4 +1,4 @@
-While the Microsoft SSPA program provides a comprehensive program for the governance and management of our supplier base, individual business units such as Microsoft 365, may maintain additional requirements for their suppliers. Microsoft 365 maintains a set of requirements for subprocessors besides the ones required through the SSPA program. Microsoft 365 makes commitments to provide notice to customers when new subprocessors are approved and enforces additional checks when contracting with new suppliers. Additional Microsoft 365 supplier requirements are designed to supplement SSPA requirements and align with regulatory requirements.
+While the Microsoft SSPA program provides a comprehensive program for the governance and management of our supplier base, individual business units, such as Microsoft 365, may maintain additional requirements for their suppliers. Microsoft 365 maintains a set of requirements for subprocessors besides the ones required through the SSPA program. Microsoft 365 makes commitments to provide notice to customers when new subprocessors are approved and enforces additional checks when contracting with new suppliers. Additional Microsoft 365 supplier requirements are designed to supplement SSPA requirements and align with regulatory requirements.
 
 ## Notice requirement
 
@@ -14,4 +14,4 @@ When a purchase order is submitted through our purchasing systems, the submitter
 
 ## Learn more
 
-- [Online Services Terms (OST) & Data Protection Addendum (DPA)](https://aka.ms/OST?azure-potal=true)
+- [Online Services Terms (OST) & Data Protection Addendum (DPA)](https://aka.ms/OST?azure-portal=true)

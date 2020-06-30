@@ -1,4 +1,4 @@
-At Microsoft, we employ a variety of safeguards to protect against environmental threats to datacenter availability. These safeguards enable us to provide the secure and available cloud platform our customers' trust.
+At Microsoft, we employ a variety of safeguards to protect against environmental threats to datacenter availability. These safeguards enable us to provide the secure and available cloud platform trusted by our customers.
 
 ## Site selection
 

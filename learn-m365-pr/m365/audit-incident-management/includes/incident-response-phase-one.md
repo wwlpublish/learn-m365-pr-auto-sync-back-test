@@ -1,5 +1,6 @@
 Now that you know the teams responsible for incident response, we will explore each phase of the incident response process.
-
+<br>
+<br>
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4wqV5]
 
 Preparation enables rapid response when an incident occurs and may even prevent incidents in the first place. Microsoft 365 dedicates significant resources to preparing for security incidents.
@@ -25,7 +26,7 @@ On-call engineers use Secure Access Workstations to access the production enviro
 
 ## Tools and resources
 
-The Microsoft 365 Security Response team is responsible for maintaining all tools and resources associated with security incident response. These include online help resources designed to quickly inform On-call engineers of proper procedures and how to escalate potential issues quickly and securely. Incident response resources also include custom tools, scripts, and processes to help the Microsoft 365 Security Response team address a variety of security issues and attack types. On-call engineers must complete yearly training and obtain up-to-date background checks to maintain eligibility for access to incident response tools and resources.
+The Microsoft 365 Security Response team is responsible for maintaining all tools and resources associated with security incident response. These include online help resources designed to quickly inform on-call engineers of proper procedures and how to escalate potential issues quickly and securely. Incident response resources also include custom tools, scripts, and processes to help the Microsoft 365 Security Response team address a variety of security issues and attack types. On-call engineers must complete yearly training and obtain up-to-date background checks to maintain eligibility for access to incident response tools and resources.
 
 ## Incident response testing
 

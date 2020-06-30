@@ -1,5 +1,6 @@
 At Microsoft, we mitigate the risks associated with privileged accounts through the principle of Zero Standing Access (ZSA). It enables Microsoft to operate its services without persistent privileged user accounts. Combined with Just-In-Time (JIT) and Just-Enough-Access (JEA), ZSA provides a robust framework for safeguarding customer data.
-
+<br>
+<br>
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4xq8i]
 
 Microsoft 365 has identified three categories of accounts to support organizational missions and business functions: service team accounts, service accounts, and customer accounts. Two of these categories, service team accounts and service accounts, are managed by Microsoft and enable us to operate and support our products and services. The third category, customer accounts, are managed by the customer and give customers the flexibility to meet their internal access control requirements.

@@ -22,7 +22,7 @@ quiz:
         explanation: "Correct. Microsoft 365 systems automatically deploy security countermeasures to mitigate many kinds of security issues at scale."
       - content: "Alerting all service team personnel"
         isCorrect: false
-        explanation: "While On-Call Engineers are alerted to security issues detected by security monitoring, these alerts are not received by all service team personnel."
+        explanation: "While on-call engineers are alerted to security issues detected by security monitoring, these alerts are not received by all service team personnel."
       - content: "Patch management"
         isCorrect: false
         explanation: "Patch management involves applying security updates to system components. It is not used to respond to security issues detected by security monitoring."
@@ -32,9 +32,9 @@ quiz:
       - content: "All service team personnel"
         isCorrect: false
         explanation: "Service team personnel are not tasked with receiving security incident escalations."
-      - content: "Service team On-Call Engineers"
+      - content: "Service team on-call engineers"
         isCorrect: false
-        explanation: "While On-Call Engineers receive alerts for suspicious activity, they do not receive security incident escalations."
+        explanation: "While on-call engineers receive alerts for suspicious activity, they do not receive security incident escalations."
       - content: "Microsoft 365 Security Response"
         isCorrect: true
         explanation: "Correct. Potential security incidents are escalated to the Microsoft 365 Security Response team."

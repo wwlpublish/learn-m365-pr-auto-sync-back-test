@@ -37,7 +37,7 @@ quiz:
         explanation: "Only select security incidents, especially those that are customer-impacting or resulting in a data breach, will undergo a full incident post-mortem."
       - content: "Security Incident Notification will occur without undue delay within a maximum of 96 hours."
         isCorrect: false
-        explanation: "As described in the Microsoft Online Services Data Protection Addendum, Security Incident Notification will occur without undue delay within a maximum of 72 hours."
+        explanation: "As described in the Microsoft online services Data Protection Addendum, Security Incident Notification will occur without undue delay within a maximum of 72 hours."
      
     - content: "Depending on the nature of the incident, the Microsoft 365 Security Response team and service teams may engage security partners and subject matter experts from other organizations within Microsoft for investigative assistance. Which team do they work with for support on externally reported vulnerabilities?"
       choices:

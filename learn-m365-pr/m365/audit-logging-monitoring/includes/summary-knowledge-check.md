@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4xfY4]
+
 In this module, you learned about how Microsoft 365 uses comprehensive audit logging and monitoring to support security monitoring, maintain service availability, and meet compliance requirements.
 
 Now that you have completed this module, you should be able to:

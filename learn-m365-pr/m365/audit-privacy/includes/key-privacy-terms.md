@@ -2,7 +2,7 @@ Let’s start by reviewing some key privacy terms.
 
 **Data controller:** A legal person, public authority, agency, or other body which, alone or jointly with others, determines the purposes and means of the processing of personal data.
 
-The customer is the data controller for their use of Microsoft online services, and professional services and Microsoft is the data processor (except in those cases where the customer is the data processor, in which case Microsoft is the subprocessor). Microsoft is an independent data controller for data used to provide a limited set of legitimate business operations (LBOs) needed to support the use of Microsoft online services and professional services.
+The customer is the data controller for their use of Microsoft online services and professional services. Microsoft is the data processor (except in those cases where the customer is the data processor, in which case Microsoft is the subprocessor). Microsoft is an independent data controller for data used to provide a limited set of legitimate business operations (LBOs) needed to support the use of Microsoft online services and professional services.
 
 **Personal data and data subject:** Any information relating to an identified or identifiable natural person (data subject). An identifiable natural person is one who can be identified, directly or indirectly. There are two types of data subjects in enterprise services: end users within a tenant and users that are external to a tenant.
 
@@ -28,7 +28,7 @@ Data that is used throughout the lifecycle of a customer account to provide Micr
 
 - **Service-generated data** includes all data “generated” or “derived” by Microsoft through the operation of an online service. Microsoft aggregates this data from our online services and uses it to make sure performance, security, scaling, and other services that impact the customer experience are operating at the levels our customers require.
 
-    For example, to understand how to ramp up data-center capacity as a customer's use of Microsoft Teams increases, we process log data of their Teams usage. We then review the logs for peak times and decide which data centers to add to meet this capacity.
+    For example, to understand how to ramp up datacenter capacity as a customer's use of Microsoft Teams increases, we process log data of their Teams usage. We then review the logs for peak times and decide which data centers to add to meet this capacity.
 
 - **Diagnostic data** includes all data “collected” or “obtained” from software that is installed locally for use in connection with the Microsoft enterprise online service. It is used to help Microsoft ensure the client software is secure and performing properly.
 

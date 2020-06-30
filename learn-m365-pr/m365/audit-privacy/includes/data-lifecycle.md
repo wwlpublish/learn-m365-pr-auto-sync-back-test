@@ -6,7 +6,7 @@ Microsoft’s Defense-In-Depth protects data through the entire data lifecycle, 
 
 ![data lifecycle workflow - starting from collection, processing, third party sharing, retention, and destruction](../media/data-lifecycle.png)
 
-- Collection - Collection begins the data lifecycle and describes the receipt of data by an organization.
+- Collection – Collection begins the data lifecycle and describes the receipt of data by an organization.
 - Processing – Processing refers to any action performed on collected data, whether automated or manual.
 - Third party sharing – Third party sharing is the sharing or onward disclosure of data to third parties.
 - Retention – Retention is the persistence of data beyond initial collection. Retention covers data storage locations as well as data stored in databases.
