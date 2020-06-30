@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 06/29/2020
+  ms.date: 07/02/2020
   author: wwlpublish
   ms.author: ceperezb
   ms.topic: interactive-tutorial
@@ -32,7 +32,7 @@ quiz:
     - content: "Signal, Decision, Enforcement"
       isCorrect: true
       explanation: "That's correct. Conditional Access is the tool used by Azure Active Directory to bring signals together, to make decisions, and enforce organizational policies."
-    - content: "Signal, Decide, Respond."
+    - content: "Signal, Decide, Respond"
       isCorrect: false
       explanation: "That's incorrect. Conditional Access uses signals, to make decisions, and enforce organizational policies."
     - content: "Signal, Decision, Respond"

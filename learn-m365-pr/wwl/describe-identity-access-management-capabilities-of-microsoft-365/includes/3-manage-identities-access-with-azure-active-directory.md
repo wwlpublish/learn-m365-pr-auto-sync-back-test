@@ -44,16 +44,15 @@ Many organizations have [common access concerns that Conditional Access policies
 - Requiring trusted locations for Azure Multi-Factor Authentication registration
 - Blocking or granting access from specific locations
 - Blocking risky sign-in behaviors
-
-Requiring organization-managed devices for specific applications
+- Requiring organization-managed devices for specific applications
 
 ### Licensing for identity and Conditional Access
 
 Azure AD is a cloud-based identity service that centralizes identity and access management across cloud and on-premises environments. It has built in support for synchronizing with your existing on-premises Active Directory or can be used stand-alone. This means that all your applications, whether on-premises, in the cloud, or even mobile can share the same credentials.
 
-Azure AD has several tiers of service, including Free, Microsoft 365, Premium editions, P1 and P2. Premium editions might require additional cost depending upon your Microsoft cloud subscription levels. Azure AD Premium P1 is included as part of Microsoft 365 E5, E3, and F3 plans. Azure AD Premium P2 is included with Microsoft 365 E5.
+Azure AD has several tiers of service, including Free, Microsoft 365, and Premium editions P1 and P2. Premium editions might require additional cost depending upon your Microsoft cloud subscription levels. Azure AD Premium P1 is included as part of Microsoft 365 E5, E3, and F3 plans. Azure AD Premium P2 is included with Microsoft 365 E5.
 
-Here are the essential features from each tier:
+Here are some of the key features from each tier:
 
 - Free – includes single sign-on, self-service password change, multi-factor authentication, basic security/usage reports, and business-to business collaboration
 - Microsoft 365 Apps – includes all the free features plus identity, self-service password reset, and device write-back (two-way synchronization between on-premises directories and Azure)

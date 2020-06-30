@@ -4,5 +4,5 @@ Another aspect of the fast-changing regulatory requirements organizations must c
 
 At the end of this module, you will be able to:
 
-- Explore the Microsoft 365 capabilities to manage insider risk
-- Describe the tools available to help organizations find relevant data quickly and cost effectively
+- Explore the Microsoft 365 capabilities to manage insider risk.
+- Describe the tools available to help organizations find relevant data quickly and cost effectively.

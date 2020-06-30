@@ -14,4 +14,4 @@ As you can see, Compliance Communication is a powerful tool that can help monito
 
 Once enabled, you can use the advanced machine learning to track emails and team conversations looking for inappropriate message sentiment, profanity, resumes, source code, targeted harassment, and threats. In addition, you can use it to identify instances of insider trading by looking for account details, monetary values, and credit or bank account details.
 
-Communications Compliance is a power tool, that can help maintain and safeguard your staff, your data and your organization.
+Communications Compliance is a powerful tool, that can help maintain and safeguard your staff, your data and your organization.
