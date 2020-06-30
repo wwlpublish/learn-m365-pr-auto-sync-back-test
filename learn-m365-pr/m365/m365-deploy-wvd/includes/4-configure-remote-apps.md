@@ -37,13 +37,13 @@ To complete the exercise, you'll need the credentials for a different non-admini
    :::image type="content" source="../media/4-remoteapp-applications.png" alt-text="Screenshot of the applications tab with add applications highlighted.":::
 1. Use the information in the following table to help you add an application. Accept the rest of the default values where not listed in the table.
 
-   :::image type="content" source="../media/4-remoteapp-addapplication.png" alt-text="Screenshot that shows Word pad selected.":::
+   :::image type="content" source="../media/4-remoteapp-add-application.png" alt-text="Screenshot that shows WordPad selected.":::
 
    |Field  |Value  |
    |---------|---------|
    |Application source    |  Start menu |
-   |Application    | Wordpad   |
-   |Display name    | Wordpad  |
+   |Application    | WordPad   |
+   |Display name    | WordPad  |
 
 1. Select **Next: Workspace**.
 

@@ -6,7 +6,7 @@ Before we walk through the deployment process, let's review some key terms and d
 - *Host pool* - A host pool is a collection of Azure virtual machines (VMs) that act as session hosts for Windows Virtual Desktop. 
   - *Pooled* - You can configure a *pooled* host pool where several users sign in and share a VM. Typically, none of those users would be a local administrator on the pooled VM. With pooled, you can use one of the recommended images that include Windows 10 Enterprise multi-session. This OS is exclusive to Windows Virtual Desktop.
   - *Personal* - A *personal* host pool is where each user has their own dedicated VM. Those users would typically be a local administrator for the VM. So they could install or uninstall apps without impacting other users.
-- *Application groups* - An application group is a mechanism for grouping remote resources and assigning them to users.. An application group can be one of two types:
+- *Application groups* - An application group is a mechanism for grouping remote resources and assigning them to users. An application group can be one of two types:
 
   - *RemoteApp*, where users access the applications you individually publish to the application group. You can create multiple RemoteApp app groups to accommodate different user scenarios. Use RemoteApp to virtualize an app that runs on a legacy OS or one that needs secured access to corporate resources.
   - *Remote Desktop*, where users access the full desktop. By default, the group **Desktop Application Group** is automatically created when you create a host pool.
@@ -83,7 +83,7 @@ To learn more about these clients and what operating system versions they suppor
 
 After you install the Windows Virtual Desktop client app and first launch it, you're prompted to subscribe to a workspace.
 
-  :::image type="content" source="../media/5-subscribe-workspace.png" alt-text="Screenshot of the subscribe to workspace form with the URL pasted in.":::
+  :::image type="content" source="../media/2-subscribe-workspace.png" alt-text="Screenshot of the subscribe to workspace form with the URL pasted in.":::
 
 To bypass that step and simplify the process for your users, set up email discovery with your domain registrar. Add a DNS TXT record that has the following properties for the domain associated with your email:
 
