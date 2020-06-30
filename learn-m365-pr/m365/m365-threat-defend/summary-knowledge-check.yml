@@ -1,0 +1,49 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-threat-defend.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Learn how Microsoft Defender Advanced Threat Protection can help your organization stay secure. 
+  ms.date: 06/30/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Is this true or false? The Microsoft Defender ATP agent should be deployed to all Windows 10 devices in your organization."
+      choices:
+      - content: "True"
+        isCorrect: false
+        explanation: "Incorrect. Microsoft Defender ATP behavioral sensors are embedded in Windows 10."
+      - content: "False"
+        isCorrect: true
+        explanation: "Correct! Microsoft ATP behavioral sensors are embedded in Windows 10."
+  
+    - content: "Which of the following choices describes threat hunting using Microsoft Defender ATP?"
+      choices:
+      - content: "You can proactively inspect events in your network using a powerful search and query tool."
+        isCorrect: true
+        explanation: "Correct! Microsoft Defender ATP advanced threat hunting is built on top of a query language that gives you flexibility."
+      - content: "Detecting and blocking apps that are considered unsafe but may not be detected as malware."
+        isCorrect: false
+        explanation: "Incorrect. This is an explanation of advanced protection provided by Windows Defender Antivirus."
+      - content: "Reduce vulnerabilities (attack surfaces) in your applications with intelligent rules that help stop malware."
+        isCorrect: false
+        explanation: "Incorrect. This is an explanation of attack surface reduction."
+
+    - content: "Which of the following is not a component of Microsoft Defender ATP?"
+      choices:
+      - content: "Next generation protection"
+        isCorrect: false
+        explanation: "Incorrect. Threat and vulnerability management, attack surface reduction, next generation protection, endpoint detection and response, automated investigation and remediation are all components of Microsoft Defender ATP."
+      - content: "Endpoint detection and response"
+        isCorrect: false
+        explanation: "Incorrect. Threat and vulnerability management, attack surface reduction, next generation protection, endpoint detection and response, automated investigation and remediation are all components of Microsoft Defender ATP."
+      - content: "Cloud device management"
+        isCorrect: true
+        explanation: "Correct! Cloud device management is not a component of security administration of Microsoft Defender ATP."
