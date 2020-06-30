@@ -29,7 +29,7 @@ Create a storage account in the Azure portal to store the user-assigned virtual 
 
 The following diagram shows the process of getting the user profile after a user signs into the Remote Desktop client.
 
-   :::image type="content" source="../media/2-user-profiles.png" alt-text="Illustration that shows the process of getting user profiles after a user signs into the remote desktop client.":::
+   :::image type="content" source="../media/2-user-profiles.png" border="false" alt-text="Illustration that shows the process of getting user profiles after a user signs into the remote desktop client.":::
 
 1. User signs into the Remote Desktop client.
 1. User gets assigned to a session host virtual machine (VM).
