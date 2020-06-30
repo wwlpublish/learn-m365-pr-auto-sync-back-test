@@ -5,7 +5,7 @@ Windows Virtual Desktop is easier to deploy and manage than traditional Remote D
 
 The following illustration shows what services are managed by Microsoft and what you manage.
 
-:::image type="content" source="../media/3-management-ownership.png" alt-text="Diagram that shows what's managed my Microsoft and what's managed by you.":::
+:::image type="content" source="../media/3-management-ownership.png" border="false" alt-text="Diagram that shows what's managed my Microsoft and what's managed by you.":::
 
 ## What Microsoft manages
 
