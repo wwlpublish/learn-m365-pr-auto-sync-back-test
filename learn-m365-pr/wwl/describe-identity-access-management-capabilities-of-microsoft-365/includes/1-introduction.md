@@ -6,7 +6,6 @@ Providing access to your resources and data is an essential requirement for all 
 
 At the end of this module, you’ll be able to:
 
-- Have a good understanding of how Microsoft’s Zero Trust Principles work and how you can apply them to your organization
-- Manage identities and access in Microsoft 365 with Azure Active Directory (Azure AD)
-- Reduce the risk of security breaches using passwordless services like Windows Hello and Multi-factor Authentication (MFA)
-
+- Have a good understanding of how Microsoft’s Zero Trust Principles work and how you can apply them to your organization.
+- Manage identities and access in Microsoft 365 with Azure Active Directory (Azure AD).
+- Reduce the risk of security breaches using passwordless services like Windows Hello and Multi-factor Authentication (MFA).
