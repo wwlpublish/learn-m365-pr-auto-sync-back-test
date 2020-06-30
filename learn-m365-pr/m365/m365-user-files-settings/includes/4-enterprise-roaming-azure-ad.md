@@ -8,4 +8,10 @@ Enterprise state roaming incorporates:
 
 Enterprise state roaming data is hosted in one or more Azure regions that best align with the country/region value set in the Azure Active Directory instance. The data is partitioned based on three major geographic regions: North America, EMEA, and APAC. Data for the tenant is locally located with the geographical region and is not replicated across regions.
 
-To enable Azure enterprise state roaming, you’ll need to be in one of the [Azure regions that supports it]( https://azure.microsoft.com/global-infrastructure/regions/#services), and you’ll need a [Premium Azure subscription]( https://azure.microsoft.com/services/active-directory/).
+To enable Azure enterprise state roaming, you’ll need to be in one of the [Azure regions that supports it]( https://azure.microsoft.com/global-infrastructure/regions/#services?azure-portal=true), and you’ll need a [Premium Azure subscription]( https://azure.microsoft.com/services/active-directory?azure-portal=true).
+
+## Learn more
+
+- [Configure Enterprise State Roaming in Azure AD](https://docs.microsoft.com/azure/active-directory/devices/enterprise-state-roaming-faqs?azure-portal=true)
+- [Configure sync settings](https://docs.microsoft.com/azure/active-directory/devices/enterprise-state-roaming-group-policy-settings?azure-portal=true)	
+- [Windows 10 roaming settings reference](https://docs.microsoft.com/azure/active-directory/devices/enterprise-state-roaming-windows-settings-reference?azure-portal=true)
