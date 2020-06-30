@@ -36,4 +36,4 @@ Application Guard has been created to target several types of systems:
 - [Implement and manage Windows Defender Exploit Guard](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-attack-surface-reduction?azure-portal=true)
 - [Implement Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection?azure-portal=true)
 - [Integrate Windows Defender Application Control](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control-deployment-guide?azure-portal=true)	
-- [Manage Windows Defender Antivirus](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/deploy-manage-report-windows-defender-antivirus?azure-portal=true)
+- [Manage Windows Defender Antivirus](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/deploy-manage-report-microsoft-defender-antivirus?azure-portal=true)
