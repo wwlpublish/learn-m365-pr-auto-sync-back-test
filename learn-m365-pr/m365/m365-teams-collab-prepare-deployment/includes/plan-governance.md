@@ -52,6 +52,8 @@ Teams also gives organizations the ability to control what features your users c
 
 ## Learn more
 
-When you're done with a link, use the **Back** arrow in your browser to come back to this page.
-
-- [Plan for governance in Teams](https://docs.microsoft.com/MicrosoftTeams/plan-teams-governance)
+- [Plan for governance in Teams](https://docs.microsoft.com/MicrosoftTeams/plan-teams-governance?azure-portal=true)
+- [Create team templates](https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-templates?azure-portal=true)
+- [Set up policies for Microsoft 365 Groups creation](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups?azure-portal=true)
+- [Configure Microsoft 365 Groups for Microsoft Teams](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization?azure-portal=true)
+- [Archive, restore, and delete a team](https://docs.microsoft.com/microsoftteams/archive-or-delete-a-team?azure-portal=true)
