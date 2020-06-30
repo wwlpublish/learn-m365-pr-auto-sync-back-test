@@ -10,6 +10,7 @@ Docs resources:
 
 - [What is FSLogix?](https://docs.microsoft.com/fslogix/overview)
 - [Storage options for FSLogix profile containers in Windows Virtual Desktop](https://docs.microsoft.com/azure/virtual-desktop/store-fslogix-profile)
+- [Set up MSIX app attach](https://docs.microsoft.com/azure/virtual-desktop/app-attach)
 - [Enable AD DS authentication for your Azure file shares](https://docs.microsoft.com/azure/storage/files/storage-files-identity-ad-ds-enable)
 -  [Download and Install FSLogix](https://docs.microsoft.com/fslogix/install-ht)
 - [Planning for an Azure File Sync deployment](https://docs.microsoft.com/azure/storage/files/storage-sync-files-planning)
