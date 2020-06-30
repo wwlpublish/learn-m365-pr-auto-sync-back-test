@@ -13,3 +13,8 @@ You should migrate if:
 -	You are changing from Windows 7, Windows 8, or Windows 8.1 x86 to Windows 10 x64. The upgrade process can’t change from a 32-bit operating system to a 64-bit operating system, because of possible complications with installed applications and drivers.
 
 In this module we review different deployment scenarios, methods, and tools.
+
+## Learn more
+
+- [Windows 10 upgrade paths](https://docs.microsoft.com/windows/deployment/upgrade/windows-10-upgrade-paths?azure-portal=true)
+- [Windows 10 deployment scenarios](https://docs.microsoft.com/en-us/windows/deployment/windows-10-deployment-scenarios?azure-portal=true)
