@@ -26,4 +26,7 @@ Consider publishing new sensitivity label policies to a small number of users fi
 - [Microsoft 365 security & compliance licensing guidance](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance?azure-portal=true)
 - [Information protection licensing guidance](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection?azure-portal=true)
 - [Protect your enterprise data using Windows Information Protection (WIP)](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip?azure-portal=true)
+- [Configure Windows Information Protection](https://docs.microsoft.com/intune/apps/windows-information-protection-policy-create?azure-portal=true)	
+- [Implement Azure Information Protection templates](https://docs.microsoft.com/azure/information-protection/configure-policy-templates?azure-portal=true)
+- [Securing data by using Intune](https://docs.microsoft.com/intune/apps/app-protection-policy?azure-portal=true)
 
