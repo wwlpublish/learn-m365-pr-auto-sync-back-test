@@ -2,8 +2,8 @@ With the proliferation and growth of data, your reliance on storing and accessin
 
 Now that you’ve reviewed this module, you should be able to:
 
-- Understand how to identify and take action on critical insider risks with Microsoft 365
-- Understood how to use Advanced audit and advanced eDiscovery to quickly and efficiently find relevant data
+- Understand how to identify and take action on critical insider risks with Microsoft 365.
+- Understand how to use Advanced audit and advanced eDiscovery to quickly and efficiently find relevant data.
 
 ## Learn more
 
