@@ -27,10 +27,13 @@ To complete the exercise, you'll need the credentials for the user account that 
 1. In **Windows Virtual Desktop**, select **Host pools**.
 1. Select the host pool you want to configure.
 1. Under **Settings**, select **Properties**.
-1. Select **RDP Settings**.
-1. When you're done, select **Save**.
+1. Scroll down to **RDP Properties**.
+1. Enter the RDP properties your users need. For example, you can set the screen mode so the remote session window appears full screen when a user launches the connection.
 
-   :::image type="content" source="../media/5-hostpool-settings-rdp.png" alt-text="Screenshot that shows the RDP settings that are available on the host pool's properties.":::
+   :::image type="content" source="../media/5-hostpool-settings-rdp.png" alt-text="Screenshot that shows the RDP Properties text field with some redirection properties like audiocapturemode and audiomode set.":::
+
+   For the list of supported properties, see [Supported Remote Desktop RDP file settings](https://docs.microsoft.com/windows-server/remote/remote-desktop-services/clients/rdp-files?context=/azure/virtual-desktop/context/context).
+1. When you're done, select **Save**.
 
 ## Install the Windows Virtual Desktop Client for Windows
 

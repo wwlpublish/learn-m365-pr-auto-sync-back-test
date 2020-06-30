@@ -21,4 +21,5 @@ Other resources:
 - [Virtual machine sizing guidelines](https://docs.microsoft.com/windows-server/remote/remote-desktop-services/virtual-machine-recs?context=/azure/virtual-desktop/context/context)
 - [Set up email discovery to subscribe to your RDS feed](https://docs.microsoft.com/windows-server/remote/remote-desktop-services/rds-email-discovery)
 - [Customize Remote Desktop Protocol properties for a host pool](https://docs.microsoft.com/azure/virtual-desktop/customize-rdp-properties)
+- [Supported Remote Desktop RDP file settings](https://docs.microsoft.com/windows-server/remote/remote-desktop-services/clients/rdp-files?context=/azure/virtual-desktop/context/context)
 - [Use Azure Firewall to protect Window Virtual Desktop deployments](https://docs.microsoft.com/azure/firewall/protect-windows-virtual-desktop)
