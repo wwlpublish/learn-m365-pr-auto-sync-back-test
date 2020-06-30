@@ -10,7 +10,7 @@ When you upgrade to a new version of Windows, be aware of the following:
 
 **Errorhandler.cmd.** If you want to use Errorhandler.cmd during your upgrade, copy the file into the %WINDIR%\Setup\Scripts directory on the old installation. This ensures that if there are errors during the down-level phase of Windows Setup, the commands in Errorhandler.cmd still run.
 
-**Data drive ACL migration.** During the configuration pass of Windows Setup, the root access control list (ACL) on drives formatted for NTFS without an installed OS are changed to the default Windows XP ACL format. This change enables authenticated users to modify access on folders and files. Because this change may affect performance, you can [change the relevant registry value](/windows/deployment/upgrade/windows-upgrade-and-migration-considerations) to disable this feature if needed.
+**Data drive ACL migration.** During the configuration pass of Windows Setup, the root access control list (ACL) on drives formatted for NTFS without an installed OS are changed to the default Windows XP ACL format. This change enables authenticated users to modify access on folders and files. Because this change may affect performance, you can [change the relevant registry value](/windows/deployment/upgrade/windows-upgrade-and-migration-considerations?azure-portal=true) to disable this feature if needed.
 
 ## In-place upgrades
 
@@ -29,3 +29,10 @@ Previous versions of Windows didn’t require a task sequence for in-place upgra
 You can use in-place upgrade to migrate to Windows 10 from older versions of Windows, as well as to update from previous versions of Windows 10. After Windows Setup completes the upgrade, the task sequence can continue to run and upgrade applications like Office, replace drivers, and apply personalization settings. Likewise, you can use the upgrade task sequence to perform pre-installation tasks or checks prior to carrying out the upgrade.
 
 Regardless of the deployment type you choose, automation provides predictability and repeatability. 
+
+## Learn more
+
+- [Manage in-place upgrades](https://docs.microsoft.com/windows/deployment/upgrade/upgrade-to-windows-10-with-system-center-configuraton-manager?azure-portal=true)
+- [Windows Autopilot for existing devices](https://docs.microsoft.com/windows/deployment/windows-autopilot/existing-devices?azure-portal=true)
+- [Configure a Desktop Analytics environment](https://docs.microsoft.com/configmgr/desktop-analytics/set-up?azure-portal=true)
+- [Assess which computers can be upgraded to Windows 10](https://docs.microsoft.com/configmgr/desktop-analytics/about-deployment-plans?azure-portal=true)
