@@ -38,9 +38,9 @@ In a Zero Trust model, every access request is strongly authenticated, authorize
 
 Guiding principles of Zero Trust:
 
-- Verify explicitly. Always authenticate and authorize based on all available data points, including user identity, location, device health, service or workload, data classification, and anomalies.
-- Use the least privileged access. Limit user access with Just-In-Time and Just Enough Access (JIT/JEA), risk-based adaptive policies, and data protection to protect both data and productivity.
-- Assume breach. Minimize blast radius for breaches and prevent lateral movement by segmenting access by network, user, devices, and application. Verify all sessions are encrypted end to end. Use analytics to get visibility, drive threat detection, and improve defenses.
+- **Verify explicitly**. Always authenticate and authorize based on all available data points, including user identity, location, device health, service or workload, data classification, and anomalies.
+- **Use the least privileged access**. Limit user access with Just-In-Time and Just Enough Access (JIT/JEA), risk-based adaptive policies, and data protection to protect both data and productivity.
+- **Assume breach**. Minimize blast radius for breaches and prevent lateral movement by segmenting access by network, user, devices, and application. Verify all sessions are encrypted end to end. Use analytics to get visibility, drive threat detection, and improve defenses.
 
 Zero Trust shifts the focus of governing access away from the network, to intelligent access controls. These controls take advantage of dynamic user and device risk signals and other telemetry to make more informed access decisions about an organization’s data and resources on a case-by-case basis.
 

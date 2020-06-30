@@ -6,15 +6,15 @@ Microsoft 365 and Azure AD can improve an organization’s security posture by a
 
 Helping secure your users helps protect against breaches. And one important area is the quality of user passwords. Passwords are problematic. Users are expected to remember complex passwords for a variety of different accounts, both personal and for work. Issues with passwords include:
 
-- Strong passwords can be difficult to remember
-- Users often reuse passwords on multiple different sites
+- Strong passwords can be difficult to remember.
+- Users often reuse passwords on multiple different sites.
 - Server breaches can expose symmetric network credentials (passwords).
 - Passwords are subject to replay attacks.
 - Users can inadvertently expose their passwords due to phishing attacks.
 
 This poses a significant security risk as once bad actors get compromised passwords, they can sign in to multiple sites. Most breaches are a result of compromised passwords.
 
-Watch this video for a brief introduction into th options available to bolster and improve your network security:  
+Watch this video for a brief introduction into the options available to bolster and improve your network security:  
 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4zhD7]
@@ -60,7 +60,7 @@ Passwordless authentication:
 
 ### Implement Passwordless authentication with Azure AD
 
-Azure AD supports Fast Identity Online 2 (FIDO2). FIDO is an open standard for passwordless authentication. FIDO allows users and organizations to leverage the standard to sign in to their resources without a username or password using an external security key or a platform key built into a device.
+Azure AD supports Fast Identity Online 2 (FIDO2). FIDO2 is an open standard for passwordless authentication. FIDO2 allows users and organizations to leverage the standard to sign in to their resources without a username or password using an external security key or a platform key built into a device.
 
 
 Users can access a device based on organization controls and authenticate based on a PIN or biometric and using devices such as USB security keys and NFC-enabled smartcards, keys, or wearables.

@@ -8,8 +8,7 @@ In this module, you have learned about the following technologies and how you ca
 
 ## Learn more
 
-- [Overview of Microsoft 365 Identity](https://docs.microsoft.com/learn/modules/m365-identity-overview/)
-- [Zero Trust model](https://www.microsoft.com/itshowcase/implementing-a-zero-trust-security-model-at-microsoft)
+- [Zero Trust model](https://www.microsoft.com/security/business/zero-trust)
 - [Overview of Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)
 - [Integrating Azure with Microsoft 365](https://docs.microsoft.com/office365/enterprise/azure-integration)
 - [An overview of Windows Hello](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-overview)
