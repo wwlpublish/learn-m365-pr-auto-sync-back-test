@@ -27,7 +27,7 @@ Window Virtual Desktop uses Azure infrastructure services for compute, storage, 
 Create application groups to group, publish, and assign access to remote apps or desktops.
 
 - Desktop - Remote Desktop application groups give users access to a full desktop. You can provide a desktop where the session host VM resources are shared or pooled. Or you can provide personal desktops to users that need to be able to add or remove programs without impacting other users.
-- App - Remoteapp applications groups provide users access to the applications you individually publish to the application group. You can create multiple RemoteApp app groups to accommodate different user scenarios. Use RemoteApp to virtualize an app that runs on a legacy OS or one that needs secured access to corporate resources.
+- App - RemoteApp applications groups provide users access to the applications you individually publish to the application group. You can create multiple RemoteApp app groups to accommodate different user scenarios. Use RemoteApp to virtualize an app that runs on a legacy OS or one that needs secured access to corporate resources.
 - Images - When you configure session hosts for application groups, you have your choice of images. Use a recommended image like Windows 10 Enterprise multi-session + Office 365. Or choose another image in your gallery or an image provided by Microsoft or other publishers. You can also use your own image built through Hyper-V or on an Azure VM.
 
 ### Management and policies
