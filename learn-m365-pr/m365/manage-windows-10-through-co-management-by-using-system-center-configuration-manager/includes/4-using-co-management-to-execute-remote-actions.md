@@ -19,5 +19,10 @@ Use these remote actions from Intune once you enable co-management in Configurat
 | **Fresh Start**| The Fresh Start device action removes any apps installed on a device running Windows 10, version 1703 or later. Fresh Start helps remove pre-installed (OEM) apps that are typically installed with a new device.<br /><br />If you choose not to retain user data, the device restores to its out-of-box state. It unenrolls from Azure AD and MDM.<br /><br />If you have predetermined standards regarding what apps should be on the device, then this action eliminates the ones that don't meet your criteria.|
 | **Remote control**| Devices managed by Intune can be administered remotely using SCCM or [TeamViewer](https://www.teamviewer.com/). TeamViewer is a third-party program that you acquire separately.|
 
-Other than remote control via TeamViewer, to start using these remote device actions in Intune, no additional setup is required after you [enable co-management](https://docs.microsoft.com/sccm/comanage/how-to-enable).
+Other than remote control via TeamViewer, to start using these remote device actions in Intune, no additional setup is required after you [enable co-management](https://docs.microsoft.com/sccm/comanage/how-to-enable?azure-portal=true).
+
+## Learn more
+
+- [Implement co-management precedence](https://docs.microsoft.com/configmgr/comanage/tutorial-co-manage-clients?azure-portal=true)
+- [Migrate group policy to MDM policies](https://docs.microsoft.com/windows/client-management/mdm/?azure-portal=true)
 
