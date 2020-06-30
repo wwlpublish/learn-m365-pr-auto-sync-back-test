@@ -17,4 +17,4 @@ In this module we review different deployment scenarios, methods, and tools.
 ## Learn more
 
 - [Windows 10 upgrade paths](https://docs.microsoft.com/windows/deployment/upgrade/windows-10-upgrade-paths?azure-portal=true)
-- [Windows 10 deployment scenarios](https://docs.microsoft.com/en-us/windows/deployment/windows-10-deployment-scenarios?azure-portal=true)
+- [Windows 10 deployment scenarios](https://docs.microsoft.com/windows/deployment/windows-10-deployment-scenarios?azure-portal=true)
