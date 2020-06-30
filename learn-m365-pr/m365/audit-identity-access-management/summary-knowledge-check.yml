@@ -51,17 +51,17 @@ quiz:
         isCorrect: false
         explanation: "Customer accounts are provisioned by the customer for users in the customer’s organization."
 
-    - content: "What access control technology is NOT used for service team account access control?"
+    - content: "What access control technology limits the devices used to connect to production Microsoft 365 environments?"
       choices:
-      - content: "Individual access permissions"
-        isCorrect: true
-        explanation: "Correct. Role-Based Access Control (RBAC) is used for access permissions."
+      - content: "Role-Based Access Control"
+        isCorrect: false
+        explanation: "Role-Based Access Control is used for access permissions but does not limit the types of devices used for production access."
       - content: "Multi-factor authentication"
         isCorrect: false
-        explanation: "Multi-factor authentication is required for all service team accounts."
+        explanation: "Multi-factor authentication is required for all service team accounts but does not limit the types of devices used for production access."
       - content: "Secure Access Workstations"
-        isCorrect: false
-        explanation: "Engineers are required to use Secure Access Workstations."
+        isCorrect: true
+        explanation: "Correct. Engineers accessing production environments are required to use Secure Access Workstations."
       - content: "Lockbox"
         isCorrect: false
-        explanation: "Lockbox is used to enable Just-In-Time access."
+        explanation: "Lockbox is used to enable Just-In-Time access but does not limit the types of devices used for production access."

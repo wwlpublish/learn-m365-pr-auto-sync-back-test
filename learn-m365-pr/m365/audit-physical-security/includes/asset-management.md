@@ -1,4 +1,4 @@
-Microsoft datacenters are composed of a variety of physical and virtual components. We refer to distinct individual components as assets. Microsoft Cloud Operations and Innovation (CO+I) follow standardized, secure processes for the acquisition, configuration, deployment, tracking, and decommissioning of our physical and virtual assets.
+Microsoft datacenters are composed of a variety of physical and virtual components. We refer to distinct individual components as assets. The Microsoft Cloud Operations and Innovation (CO+I) engineering group follows standardized, secure processes for the acquisition, configuration, deployment, tracking, and decommissioning of our physical and virtual assets.
 
 ## Supply chain integrity
 

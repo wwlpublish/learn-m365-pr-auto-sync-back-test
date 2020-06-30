@@ -24,7 +24,3 @@ In addition to the teams who develop and operate our core services, Microsoft 36
 - **Other Microsoft 365 Workloads** include service teams who provide features and components that support Microsoft 365 services.
 
 Together these teams develop, build, and support the Microsoft 365 service offering for customers.
-
-## Learn more
-
-- [Facts About Microsoft](https://news.microsoft.com/facts-about-microsoft/?azure-portal=true)

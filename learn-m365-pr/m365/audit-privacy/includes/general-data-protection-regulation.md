@@ -4,7 +4,7 @@ For Microsoft online services, we are the data processor:
 
 - Microsoft presents the data controller’s privacy statement to their data subjects.
 - Microsoft designs changes to existing service features and new features in alignment with data subject rights.
-- Microsoft provides notice in case of a data breach when the breach is likely to “result in a risk for the rights or freedom of individuals.” We commit to notify appropriate parties within 72 hours when a data breach has been declared.
+- Microsoft provides notice if there is a data breach when the breach is likely to “result in a risk for the rights or freedom of individuals.” We commit to notify appropriate parties within 72 hours when a data breach has been declared.
 
 In alignment to GDPR provisions for the implementation of appropriate and effective technical and organizational measures, Microsoft aligns to ISO 27001 and ISO 27018 control requirements and is expending alignment to ISO 27701 across our services.
 
@@ -23,7 +23,7 @@ Microsoft provides customers with administrative tools to help find personal dat
 
 ## Data Protection Impact Assessment
 
-The GDPR requires controllers to prepare a Data Protection Impact Assessment (DPIA) for operations that are "likely to result in a high risk to the rights and freedoms of natural persons." There is nothing inherent in Microsoft products and services that require the creation of a DPIA. However, because Microsoft products and services are highly customizable, a DPIA may be necessary depending on the details of a customer's situation. Microsoft has no control over, and little or no insight into, such information. The data controller must determine appropriate uses of their data. Microsoft does, however, recognize the sizable effort required to perform a DPIA and so has provided some resources to help customers in meeting their obligations in the DPIA for the GDPR, should they need to do so.
+The GDPR requires controllers to prepare a Data Protection Impact Assessment (DPIA) for operations that are "likely to result in a high risk to the rights and freedoms of natural persons." There is nothing inherent in Microsoft products and services that requires the creation of a DPIA. However, because Microsoft products and services are highly customizable, a DPIA may be necessary depending on the details of a customer's situation. Microsoft has no control over, and little or no insight into, such information. The data controller must determine appropriate uses of their data. Microsoft does, however, recognize the sizable effort required to perform a DPIA and so has provided some resources to help customers in meeting their obligations in the DPIA for the GDPR, should they need to do so.
 
 ## Learn more
 

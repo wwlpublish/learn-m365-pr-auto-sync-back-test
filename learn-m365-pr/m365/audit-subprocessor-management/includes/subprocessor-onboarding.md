@@ -4,7 +4,7 @@ When Microsoft 365 initiates a support contract with a subprocessor, specific wo
 
 Adding a new subprocessor requires a series of rigorous verifications to ensure the subprocessor meets Microsoft standards before they can begin contracted work. These verification steps include but are not limited to:
 
-- A business verification check: A review by the business to determine why the use of this supplier is needed over suppliers who are already approved. Once business approval has been granted, the additional verifications below must be performed:
+- A business verification check: A review by the business to determine why the use of this supplier is needed over suppliers who are already approved. Once business approval has been granted, the additional verifications below must be performed.
 - Anti-corruption checks: Check against global relationship management systems and news for suppliers who may be engaged in corruption activities.
 - Corruption risk score: This is a score that is assigned based on the anti-corruption check. The score indicates the risk level of the supplier being involved in corruption activities.
 - A do-not-engage check: Internal Microsoft check against suppliers who have been deemed inappropriate for use.

@@ -36,4 +36,4 @@ Post-Incident Reviews help to identify resiliency improvements that might preven
 ## Learn more
 
 - [M365 Service Resilience and Customer Guidance](https://aka.ms/M365ServiceResilienceGuidance?azure-portal=true)
-- [Microsoft 365 Data Resiliency Overview](https://docs.microsoft.com/office365/Enterprise/office-365-data-resiliency-overview?azure-portal=true)
+- [Data Resiliency in Microsoft 365](https://docs.microsoft.com/office365/Enterprise/office-365-data-resiliency-overview?azure-portal=true)

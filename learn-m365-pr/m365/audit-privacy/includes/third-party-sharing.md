@@ -14,7 +14,7 @@ Customers can use third-party offerings available through platforms such as the 
 
 ## Law enforcement requests
 
-Microsoft does not give any government (including law enforcement or other government entities) direct or unfettered access to customer data. If any third party wants customer data, it needs to follow applicable legal process. It means it must serve us with a valid legal request for content or subscriber information or other non-content data. For non-governmental requests, we require specific lawful consent of the account owner to release content and, for all requests, we provide notice to the account owner unless prohibited by law from doing so. Microsoft does not provide any government with platform encryption keys or provide governments with the ability to break customer enabled encryption.
+Microsoft does not give any government (including law enforcement or other government entities) direct or unfettered access to customer data. If any third party wants customer data, it needs to follow applicable legal process, meaning it must serve us with a valid legal request for content or subscriber information or other non-content data. For non-governmental requests, we require specific lawful consent of the account owner to release content and, for all requests, we provide notice to the account owner unless prohibited by law from doing so. Microsoft does not provide any government with platform encryption keys or provide governments with the ability to break customer enabled encryption.
 
 If a government wants customer data, it must follow applicable legal processes, which include:
 

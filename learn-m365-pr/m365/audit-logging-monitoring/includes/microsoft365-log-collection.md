@@ -20,4 +20,4 @@ Microsoft 365 enforces logging requirements at the machine level as part of the 
 
 ## Learn more
 
-- [Logging for Microsoft 365 Engineering](https://docs.microsoft.com/office365/Enterprise/office-365-internal-logging?azure-portal=true)
+- [Internal Logging for Microsoft 365 Engineering](https://docs.microsoft.com/office365/Enterprise/office-365-internal-logging?azure-portal=true)

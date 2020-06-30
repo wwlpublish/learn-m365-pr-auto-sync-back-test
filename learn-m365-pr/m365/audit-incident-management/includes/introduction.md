@@ -6,7 +6,8 @@ In cloud environments, customers and cloud service providers share the responsib
 At Microsoft, we use a Defense-in-Depth approach to secure our services by applying security protections at multiple layers. Defense-in-Depth provides overlapping safeguards to protect against security threats. While we build our services with security in mind, we also prepare our services for the possibility of compromise using an Assume Breach strategy. Assume Breach limits the trust placed in applications, services, identities, and networks by approaching them all—internal and external—as insecure and already compromised. The principles of Assume Breach help to limit the impact of security incidents by reducing the damage an adversary can cause and enabling rapid detection and response to security threats.
 
 In this module, we will focus on how Microsoft 365 investigates, manages, and responds to security threats to protect customers in the Microsoft 365 cloud environment.
-
+<br>
+<br>
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4wI1J]
 
 ## What is a security incident?

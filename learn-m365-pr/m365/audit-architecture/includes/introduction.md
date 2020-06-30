@@ -23,4 +23,4 @@ While Microsoft 365 designs, builds, and deploys its own services, our systems l
 
 ## Learn more
 
-- [Shared Responsibility in the cloud](https://docs.microsoft.com/azure/security/fundamentals/shared-responsibility?azure-portal=true)
+- [Shared responsibility in the cloud](https://docs.microsoft.com/azure/security/fundamentals/shared-responsibility?azure-portal=true)

@@ -6,7 +6,7 @@ Microsoft 365 uses an account management system called Identity Management Tool 
 
 Before a new service team account can be created, IDM ensures all eligibility requirements have been met. These requirements include personnel screening, security and privacy training, and appropriate manager approval. IDM also notifies managers for approval whenever account modifications are requested. When an employee is transferred, terminated, or fails to complete required training, IDM automatically revokes access for their service team account and notifies their manager to ensure visibility.
 
-IDM automatically disables service team accounts after no more than 90 days of inactivity. In addition, Microsoft 365 service teams review system admin accounts at least quarterly to ensure their user membership is accurate. Service team accounts that exceed the failed login attempt threshold are automatically locked. In addition, service team accounts are audited automatically throughout their lifecycle. In addition, shared or group accounts are never permitted. Both policies ensure accountability for actions taken with service team accounts.
+IDM automatically disables service team accounts after no more than 90 days of inactivity. In addition, Microsoft 365 service teams review system admin accounts at least quarterly to ensure their user membership is accurate. Service team accounts that exceed the failed login attempt threshold are automatically locked. In addition, service team accounts are audited automatically throughout their lifecycle.
 
 ## Role-based access control (RBAC)
 
@@ -16,7 +16,7 @@ Service team account access is managed according to the principle of least privi
 
 ## Remote access
 
-Microsoft 365 system components are housed in datacenters geographically separated from the operations teams. Datacenter personnel have physical access but do not have logical access to the Microsoft 365 environment. Alternately, service team personnel have logical access, but do not have physical access. As a result, service team personnel manages the environment through remote access. All approved activities are authorized for execution via remote access to the Microsoft 365 environment. Service team personnel who require remote access to support Microsoft 365 are only granted remote access after approval from an authorized manager. All remote access uses FIPS 140-2 compatible TLS for secure remote connections.
+Microsoft 365 system components are housed in datacenters geographically separated from the operations teams. Datacenter personnel have physical access but do not have logical access to the Microsoft 365 environment. Alternately, service team personnel have logical access, but do not have physical access. As a result, service team personnel manage the environment through remote access. All approved activities are authorized for execution via remote access to the Microsoft 365 environment. Service team personnel who require remote access to support Microsoft 365 are only granted remote access after approval from an authorized manager. All remote access uses FIPS 140-2 compatible TLS for secure remote connections.
 
 ## Secure Access Workstations (SAWs)
 
