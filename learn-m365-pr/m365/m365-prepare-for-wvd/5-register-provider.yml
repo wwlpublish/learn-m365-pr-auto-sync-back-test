@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.prepare-for-wvd.register-provider
+title: Register Windows Virtual Desktop provider with the subscription
+metadata:
+  title: Register Windows Virtual Desktop provider with the subscription
+  description: Learn how to register Windows Virtual Desktop provider DesktopVirtualization with your subscription. 
+  ms.date: 06/29/2020
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/5-register-provider.md)]

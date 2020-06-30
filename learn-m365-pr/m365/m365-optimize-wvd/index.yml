@@ -3,7 +3,7 @@ uid: learn-m365.optimize-wvd
 metadata:
   title: Optimize Windows Virtual Desktop in Microsoft Azure
   description: Learn the steps to optimize Windows Virtual Desktop, including how to take advantage of new storage, file management, and automated scaling options.  
-  ms.date: 09/03/2019
+  ms.date: 06/29/2020
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
@@ -11,12 +11,15 @@ metadata:
 title: Optimize Windows Virtual Desktop in Microsoft Azure
 summary: Learn the steps to optimize Windows Virtual Desktop, including how to customize a basic environment to take advantage of new storage, file management, and automated scaling options.  
 abstract: |
-  At the end of this module, you should be able to:
-  - Set up FSLogix profiles to separate user profiles from virtual machines 
-  - Configure OneDrive with policies in Windows Virtual Desktop host pools 
-  - Migrate files from local file shares into Azure storage using Azure File Sync 
-  - Configure depth and breadth scaling automation for Windows Virtual Desktop host pools   
-prerequisites: None
+  In this module, you will learn how to:
+  - Create separate roaming profiles for users by using FSLogix
+  - Migrate files and user profiles by using Azure File Sync
+  - Configure automatic scaling of session hosts   
+prerequisites: |
+  - Familiarity with server and client management concepts and tools
+  - Familiarity with Windows virtualization technologies, like Remote Desktop Services
+  - (Optional) Azure subscription owner or global administrator access to a deployed Windows Virtual Desktop environment
+  - (Optional) User credentials for one user accounts in Azure AD
 iconUrl: /learn/achievements/optimize-windows-virtual-desktop.svg
 ratingEnabled: true
 levels:
@@ -27,10 +30,11 @@ products:
 - m365
 units:
 - learn-m365.optimize-wvd.introduction
+- learn-m365.optimize-wvd.fslogix
 - learn-m365.optimize-wvd.provision-fslogix
-- learn-m365.optimize-wvd.configure-onedrive
 - learn-m365.optimize-wvd.migrate-files
 - learn-m365.optimize-wvd.configure-automation
+- learn-m365.optimize-wvd.knowledge-check
 - learn-m365.optimize-wvd.summary-and-knowledge-check
 badge: 
   uid: learn-m365.optimize-wvd.badges
