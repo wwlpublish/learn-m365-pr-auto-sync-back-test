@@ -54,3 +54,10 @@ In this scenario, the following objectives apply:
 
 These are the three primary scenarios for using Windows Update for Business.
 
+
+## Learn more
+
+- [Configure Windows Update for Business](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb?azure-portal=true)
+- [Deploy Windows Updates](https://docs.microsoft.com/windows/deployment/update/?azure-portal=true)
+- [Implement feature updates](https://docs.microsoft.com/windows/deployment/update/?azure-portal=true)	
+- [Monitor Windows 10 updates](https://docs.microsoft.com/windows/deployment/update/update-compliance-monitor?azure-portal=true)

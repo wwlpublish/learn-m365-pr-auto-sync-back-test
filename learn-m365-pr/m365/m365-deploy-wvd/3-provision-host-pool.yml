@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.deploy-wvd.provision-host-pool
+title: Create and share a desktop with users
+metadata:
+  title: Create and share a desktop with users
+  description: Learn how to create and share a desktop with users by using Windows Virtual Desktop.
+  ms.date: 06/29/2020
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 10
+content: |
+  [!include[](includes/3-provision-host-pool.md)]
