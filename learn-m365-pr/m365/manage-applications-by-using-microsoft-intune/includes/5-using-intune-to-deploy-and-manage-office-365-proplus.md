@@ -2,7 +2,7 @@
 
 However, before you can assign, monitor, configure, or protect apps, you must add them to Intune. One of the available app types is Microsoft 365 apps for Windows 10 devices. By selecting this app type in Intune, you can assign and install apps to devices you manage that run Windows 10. The available apps are displayed as a single entry in the list of apps in the Intune console within Azure.
 
-You must use Office 365 ProPlus licenses to activate apps deployed through Microsoft Intune. Currently, Microsoft 365 Business edition is not supported by Intune. You can also assign and install apps for the Microsoft Project Online desktop client and Microsoft Visio Online Plan 2.
+You must use Microsoft 365 Apps licenses to activate Microsoft 365 Apps apps deployed through Microsoft Intune. Microsoft 365 Apps for business edition is supported by Intune, however you must configure the app suite of the Microsoft 365 Apps for business edition using XML data.
 
 ## Intune Microsoft 365 Apps configuration
 
