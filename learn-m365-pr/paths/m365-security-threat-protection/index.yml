@@ -9,9 +9,9 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Defend against threats with Microsoft 365 and Microsoft threat protection
-summary: Microsoft threat protection in Microsoft 365 addresses today's security challenges by securing your organization's assets and proactively identifying and protecting against persistent threats to your network endpoints.
+summary: "Microsoft threat protection in Microsoft 365 addresses today's security challenges by securing your organization's assets and proactively identifying and protecting against persistent threats to your network endpoints. This learning path can help you prepare for the [Microsoft 365 Certified: Security Administrator Associate](https://docs.microsoft.com/learn/certifications/m365-security-administrator) and [Microsoft 365 Certified: Enterprise Administration Expert](https://docs.microsoft.com/learn/certifications/m365-enterprise-administrator) certifications."
 prerequisites: | 
- - Basic understanding of Microsoft 365. If you're unfamiliar with this, you can take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+ - Basic understanding of Microsoft 365.
 iconUrl: /learn/achievements/defend-against-threats-m365-microsoft-threat-protection.svg
 levels: 
 - intermediate

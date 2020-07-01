@@ -9,9 +9,9 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Protect identity and access with Microsoft 365
-summary: Identity & access management is the foundation for a secure digital estate. The credentials that you issue to your users prove that they are who they claim to be and that they have permission to access your resources. Learn how to use Microsoft 365 to for authentication and authorization in your enterprise environment.
+summary: "Identity & access management is the foundation for a secure digital estate. The credentials that you issue to your users prove that they are who they claim to be and that they have permission to access your resources. Learn how to use Microsoft 365 to for authentication and authorization in your enterprise environment. This learning path can help you prepare for the [Microsoft 365 Certified: Security Administrator Associate](https://docs.microsoft.com/learn/certifications/m365-security-administrator) and [Microsoft 365 Certified: Enterprise Administration Expert](https://docs.microsoft.com/learn/certifications/m365-enterprise-administrator) certifications."
 prerequisites: | 
- - [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals)
+ - Basic understanding of Microsoft 365
 iconUrl: /learn/achievements/protect-identity-and-access-with-microsoft-365.svg
 levels: 
 - beginner
