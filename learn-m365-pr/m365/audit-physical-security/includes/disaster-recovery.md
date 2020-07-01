@@ -1,0 +1,11 @@
+Disasters are unpredictable, but Microsoft datacenters and operations personnel prepare for disasters to provide continuity of operations should unexpected events occur. Resilient architecture and up-to-date tested continuity plans mitigate potential damage and promote swift recovery of datacenter operations. Crisis management plans provide clarity on roles, responsibilities, and mitigation activities before, during, and after a crisis. The roles and contacts defined in these plans facilitate effective escalation up the chain of command during crisis situations.
+
+## Business resilience
+
+Under Microsoft Cloud Operations and Innovation Business Continuity Program, datacenters are required to test the continued operation and resumption of critical processes. Each datacenter has their own business continuity plan, created by key subject matter experts to ensure that site-specific context is factored into emergency preparedness. These documents describe the roles, responsibilities, and detailed procedures focused on safety of our personnel, notifications, and escalations, as well as quick and efficient response to an event.
+
+Microsoft’s Cloud Operations and Innovations organization’s Resilience function is governed by the Enterprise Business Continuity Management program and follows the Enterprise Policies and Standards. The program’s performance is reviewed on a periodic basis by the Business Continuity Council, departmental leadership, and ultimately Microsoft’s Senior Leadership Team.  
+
+## Crisis management and pandemic response
+
+The Crisis Management Program is an integral part of Microsoft’s response to major events given its global presence. Microsoft’s Datacenter Crisis Management Plan is based on industry-best practices and includes the critical components required to allow for a tactical approach in responding to major events. In addition, Microsoft maintains an Enterprise Pandemic Plan that is used to respond to infectious diseases that may have operational impact. As part of our pandemic response, the resilience support team provides critical and timely local disease intelligence to Redmond-based Microsoft leadership to facilitate a cohesive, comprehensive mitigation strategy.

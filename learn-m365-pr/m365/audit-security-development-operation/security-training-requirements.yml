@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.audit-security-development-operation.security-training-requirements
+title: Understand Microsoft developer security training requirements
+metadata:
+  title: Understand Microsoft developer security training requirements
+  description: Learn how Microsoft 365 follows Microsoft’s Security Development Lifecycle (SDL) to build security and privacy into our products and services.
+  ms.date: 05/29/2020
+  author: NamrahK
+  ms.author: v-nakhu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 2
+content: |
+  [!include[](includes/security-training-requirements.md)]

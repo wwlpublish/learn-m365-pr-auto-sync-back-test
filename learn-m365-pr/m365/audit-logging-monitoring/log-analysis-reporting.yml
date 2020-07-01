@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.audit-logging-monitoring.log-analysis-reporting
+title: Explore Microsoft 365 log analysis and reporting
+metadata:
+  title: Explore Microsoft 365 log analysis and reporting
+  description: Learn about how Microsoft 365 uses comprehensive audit logging and monitoring to support security monitoring, maintain service availability, and meet compliance requirements.
+  ms.date: 06/10/2020
+  author: NamrahK
+  ms.author: v-nakhu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 6
+content: |
+  [!include[](includes/log-analysis-reporting.md)]

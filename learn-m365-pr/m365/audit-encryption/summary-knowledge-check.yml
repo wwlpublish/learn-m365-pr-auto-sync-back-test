@@ -1,0 +1,55 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.audit-encryption.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Learn how Microsoft 365 encrypts data at rest and in transit, securely manages encryption keys, and provides key management options to customers to meet their business needs and compliance obligations.
+  ms.date: 06/18/2020
+  author: NamrahK
+  ms.author: v-nakhu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 4
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Which of the following is a benefit of encryption?"
+      choices:
+      - content: "It is always legally required."
+        isCorrect: false
+        explanation: "Encryption requirements vary across data types and industries."
+      - content: "It helps mitigate the impact of data theft."
+        isCorrect: true
+        explanation: "Correct. When data is encrypted with strong encryption, it cannot reasonably be deciphered without the correct encryption key."
+      - content: "It renders data unreadable."
+        isCorrect: false
+        explanation: "Encryption is a two-way process. Anyone with the correct encryption key can decipher encrypted data, making key management an important part of implementing strong encryption."
+      - content: "It meets all access control requirements."
+        isCorrect: false
+        explanation: "Encryption is not a substitute for access control."
+      
+    - content: "If a customer has stringent encryption requirements for key management that mandate keys are rolled every year, which of the following Microsoft 365 features should the customer use?"
+      choices:
+      - content: "Microsoft Managed Keys"
+        isCorrect: false
+        explanation: "For some customers, Microsoft Managed Keys may not meet their compliance obligations or internal security requirements."
+      - content: "Availability key"
+        isCorrect: false
+        explanation: "The availability key is part of Customer Key but is not a separate offering."
+      - content: "Customer Key"
+        isCorrect: true
+        explanation: "Customer Key provides customers the ability to manage encryption keys, which includes key rolling and key revocation."
+      
+    - content: "Which of the following statements is accurate?"
+      choices:
+      - content: "Files sent between users in Microsoft 365 are encrypted using BitLocker."
+        isCorrect: false
+        explanation: "Microsoft 365 encrypts data-in-transit using TLS."
+      - content: "Microsoft 365 uses service encryption to encrypt customer data at the application layer."
+        isCorrect: true
+        explanation: "Correct. Additionally, Microsoft 365 encrypts data-at-rest using BitLocker."
+      - content: "Microsoft utilizes a third party’s certificate authority to manage all certificates used for TLS encryption."
+        isCorrect: false
+        explanation: "Microsoft owns and manages its own certificate authority to manage the certificates used for TLS encryption."

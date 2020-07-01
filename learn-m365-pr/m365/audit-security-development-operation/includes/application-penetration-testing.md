@@ -1,0 +1,21 @@
+>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4xsIw]
+
+Security by design and automated security testing focus on preventing breaches by fixing vulnerabilities before they can be exploited. We supplement these practices by preparing our services for the possibility of compromise using an Assume Breach strategy. Assume Breach   limits the trust placed in applications, services, identities, and networks by approaching them all—internal and external—as insecure and already compromised. These principles help to limit the impact of security vulnerabilities by reducing the damage an adversary can cause and enabling rapid detection and response to security threats.
+
+## SDL penetration testing
+
+In addition to automated dynamic code testing, the SDL requires regular penetration testing of all applications. General penetration testing of service team applications is conducted on a regular basis. Application penetration tests may discover security flaws not detected by other testing methods. They also test logging and detection capabilities to ensure our software provides the Microsoft 365 Security Response team with the data needed to defend production systems against real attackers.
+
+Service teams also perform targeted penetration testing against software interfaces when necessary as part of security review. Targeted penetration tests are designed to detect specific types of vulnerabilities. These tests provide an additional layer of protection against potential vulnerabilities in key software functions and dataflows.
+
+## Attack simulation
+
+Once code is approved for release and deployed in production environments, we continue to test operational security by simulating attacks against production systems. Attack simulation tests the operations side of the DevOps model against operational SDL requirements. The primary goal of attack simulation is to validate our detection and response capabilities. While our attack simulations are certainly used to identify new vulnerabilities and paths into the service, a major priority is testing what happens after compromise. Are we detecting the attack quickly enough? Are we able to effectively remediate and evict the attackers? Attack simulation and other forms of penetration testing allow us to answer these questions on an ongoing basis.
+
+Microsoft 365 utilizes an in-house offensive security team of full-time employees to conduct continuous penetration testing by simulating attacks against our systems. We call this team the Red Team. The Red Team attempts to compromise Microsoft systems without detection by discovering and exploiting vulnerabilities and security misconfigurations. Red Team efforts simulate real-world attacks and test the capabilities of the Microsoft 365 Security Response team. In the context of internal penetration testing, the Microsoft 365 Security Response team is known as the Blue Team. The Blue Team works to prevent, detect, and respond to Red Team attacks using our security monitoring systems and the security incident response process.
+
+![Two boxes with definition of Red Team and Blue Team. Red Team: Cybersecurity experts who constantly attempt to breach our own production services without detection to simulate attackers by advanced adversaries. Blue Team: Cyber defenders who use sophisticated security tools and techniques to detect and defeat the Red Team's efforts](../media/red-blue-teams.png)
+
+The Red Team attacks Microsoft 365 systems and operations using the same tactics, techniques, and procedures as real adversaries. Their attacks test our security detection and response capabilities and help identify production vulnerabilities, configuration errors, invalid assumptions, and other security issues in a controlled manner. Every Red Team breach is followed by full disclosure and collaboration between both teams to identify and resolve operational security gaps, assign bugs to service teams to address vulnerabilities at the code level, and improve breach detection and response.
+
+Red Team attack simulations are designed to simulate realistic attacks without adversely affecting our customers. Customer tenants are never the target of Red Team attacks, and Red Team penetration testing helps to ensure Microsoft 365 is prepared to prevent, detect, and respond to security threats.

@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.audit-subprocessor-management.subprocessor-onboarding
+title: Understand subprocessor onboarding and monitoring 
+metadata:
+  title: Understand subprocessor onboarding and monitoring 
+  description: Learn how Microsoft 365 procures, monitors, and manages subprocessors to help protect data from unauthorized access and inappropriate use.
+  ms.date: 06/11/2020
+  author: NamrahK
+  ms.author: v-nakhu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 6
+content: |
+  [!include[](includes/subprocessor-onboarding.md)]

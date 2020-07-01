@@ -1,0 +1,67 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.audit-governance.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Learn how Microsoft implements organization-wide security and privacy governance to support the secure operation of Microsoft 365 services and maintain compliance with regulatory requirements and customer commitments.
+  ms.date: 06/15/2020
+  author: NamrahK
+  ms.author: v-nakhu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Which Microsoft 365 team supports security and compliance efforts as part of maintaining compliance certifications?"
+      choices:
+      - content: "Microsoft 365 Security"
+        isCorrect: false
+        explanation: "Microsoft 365 Security provides service teams with centralized security expertise and security incident response as part of our federated security response model."
+      - content: "Microsoft 365 Identity"
+        isCorrect: false
+        explanation: "Microsoft 365 Identity oversees identity and access management, providing an integrated and broad solution for managing Microsoft 365 user identities and associated credentials."
+      - content: "Microsoft 365 Business Continuity"
+        isCorrect: false
+        explanation: "Microsoft 365 Business Continuity supports business continuity and disaster recovery efforts across Microsoft 365 as part of Enterprise Business Continuity Management (EBCM)."
+      - content: "Microsoft 365 Trust"
+        isCorrect: true
+        explanation: "Correct. Microsoft 365 Trust supports Microsoft 365 security and compliance efforts as part of maintaining compliance certifications, promoting transparency, and retaining customer trust in Microsoft 365 services."
+      
+    - content: "Which of the following policies provides comprehensive security governance for all Microsoft engineering groups?"
+      choices:
+      - content: "Microsoft Policy Framework"
+        isCorrect: false
+        explanation: "The Microsoft Policy Framework includes security policies, but the framework itself is not a security policy."
+      - content: "Microsoft Security Policy"
+        isCorrect: true
+        explanation: "Correct. The Microsoft Security Policy provides comprehensive security governance for all Microsoft engineering groups."
+      - content: "Microsoft 365 Information Security Policy"
+        isCorrect: false
+        explanation: "The Microsoft 365 Information Security Policy is specific to the Microsoft 365 business unit."
+      
+    - content: "Which of the following statements is accurate?"
+      choices:
+      - content: "The Microsoft 365 Control Framework provides detailed security requirements for all of Microsoft."
+        isCorrect: false
+        explanation: "The Microsoft 365 Control Framework provides detailed security requirements for Microsoft 365, but is not applicable to the rest of Microsoft."
+      - content: "The Microsoft 365 Information Security Policy governs all components of the Microsoft 365 information system."
+        isCorrect: true
+        explanation: "Correct. The Microsoft 365 Information Security Policy governs all components of the Microsoft 365 information system, including infrastructure, software, people, procedures, and data."
+      - content: "Exceptions to the Microsoft 365 Information Security policy do not require review."
+        isCorrect: false
+        explanation: "Exceptions to the Microsoft 365 Information Security policy do require review and must be approved by an appropriate manager based on the scope of the exception."
+
+    - content: "Which of the following personnel requirements protects Microsoft information systems when an employee is terminated?"
+      choices:
+      - content: "Personnel screening"
+        isCorrect: false
+        explanation: "Personnel screening is designed to protect Microsoft information systems when an employee is hired or granted access, not when an employee is terminated."
+      - content: "Standards of Business Conduct"
+        isCorrect: false
+        explanation: "While the Standards of Business Conduct govern Microsoft business practices for employees, they do not specifically protect Microsoft information systems when an employee is terminated."
+      - content: "Access revocation"
+        isCorrect: true
+        explanation: "Correct. Access is automatically revoked for terminated employees to protect Microsoft information systems."
