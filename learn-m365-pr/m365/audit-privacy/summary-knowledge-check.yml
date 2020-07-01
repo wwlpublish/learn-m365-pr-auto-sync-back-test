@@ -1,0 +1,58 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.audit-privacy.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Learn about Microsoft 365 privacy standards, the reasons we have them in place, and how they differentiate Microsoft in protecting and respecting customer data.
+  ms.date: 06/15/2020
+  author: NamrahK
+  ms.author: v-nakhu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 4
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Which type of data is **generated** or **derived** by Microsoft through the operation of an online service?"
+      choices:
+      - content: "Customer data"
+        isCorrect: false
+        explanation: "Customer data is all data, including text, sound, video or image files, and software that the customer provides to Microsoft or that is provided on the customer’s behalf through Microsoft enterprise online services."
+      - content: "Payment data"
+        isCorrect: false
+        explanation: "Payment data is the information a customer provides when they buy something online with Microsoft. It may include a credit card number and security code, name, billing address, and other financial data."
+      - content: "Service-generated data"
+        isCorrect: true
+        explanation: "Correct. Service-generated data includes all data “generated” or “derived” by Microsoft through the operation of an online service. Microsoft aggregates this data and uses it to ensure performance, security, and other services that impact the customer experience are operating as per customer expectations."
+      - content: "Professional services data"
+        isCorrect: false
+        explanation: "Professional services data includes support data that is provided to Microsoft during technical support for an online service."
+      
+    - content: "Which statement is accurate?"
+      choices:
+      - content: "Microsoft does not give any government direct or unfettered access to customer data."
+        isCorrect: true
+        explanation: "Correct. Microsoft does not give any government (including law enforcement or other government entities) direct or unfettered access to customer data. If any third party wants customer data, it needs to follow applicable legal process, meaning it must serve us with a valid legal process for content or subscriber information or other non-content data."
+      - content: "Data processor is a legal person, public authority, agency, or other body which, alone or jointly with others, determines the purposes and means of the processing of personal data."
+        isCorrect: false
+        explanation: "This is a definition of data controller."
+      - content: "Professional services data is used to help Microsoft ensure the client software is secure and performing properly."
+        isCorrect: false
+        explanation: "This is a description of diagnostic data."
+      
+    - content: "Which document provides guidance about how to manage each data classification type within specific activities or scenarios?"
+      choices:
+      - content: "Privacy notice"
+        isCorrect: false
+        explanation: "Privacy notice is an external instrument that informs the outside world about an organization’s privacy practices."
+      - content: "Privacy consent"
+        isCorrect: false
+        explanation: "Consent is an agreement from the user for an organization to process the user’s data in a certain fashion."
+      - content: "Data Handling Standards"
+        isCorrect: true
+        explanation: "Correct. Data Handling Standards provide guidance about how to manage each data classification type within specific activities or scenarios, including a set of collective requirements to meet the obligations outlined in the OST/DPA and various audit standards and regulations."
+      - content: "Data Protection Impact Assessment (DPIA)"
+        isCorrect: false
+        explanation: "A DPIA is the process by which organizations can systematically assess and identify the privacy and data protection impacts of any products they offer and services they provide."

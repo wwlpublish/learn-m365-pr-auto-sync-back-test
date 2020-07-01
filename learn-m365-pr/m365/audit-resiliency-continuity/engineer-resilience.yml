@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.audit-resiliency-continuity.engineer-resilience
+title: Understand engineering for resilience
+metadata:
+  title: Understand engineering for resilience
+  description: Learn how Microsoft 365 builds resilient services to meet customer expectations in the face of faults and challenges to normal operations, maintains optimal service availability, and fulfills business continuity requirements.
+  ms.date: 06/05/2020
+  author: NamrahK
+  ms.author: v-nakhu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/engineer-resilience.md)]

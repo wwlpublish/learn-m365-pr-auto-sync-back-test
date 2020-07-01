@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.audit-logging-monitoring.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Learn about how Microsoft 365 uses comprehensive audit logging and monitoring to support security monitoring, maintain service availability, and meet compliance requirements.
+  ms.date: 06/10/2020
+  author: NamrahK
+  ms.author: v-nakhu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 4
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "How does Microsoft 365 respond at scale to security issues detected by security monitoring?"
+      choices:
+      - content: "Automated countermeasures"
+        isCorrect: true
+        explanation: "Correct. Microsoft 365 systems automatically deploy security countermeasures to mitigate many kinds of security issues at scale."
+      - content: "Alerting all service team personnel"
+        isCorrect: false
+        explanation: "While on-call engineers are alerted to security issues detected by security monitoring, these alerts are not received by all service team personnel."
+      - content: "Patch management"
+        isCorrect: false
+        explanation: "Patch management involves applying security updates to system components. It is not used to respond to security issues detected by security monitoring."
+      
+    - content: "When suspicious activity is detected by security monitoring, who receives security incident escalations?"
+      choices:
+      - content: "All service team personnel"
+        isCorrect: false
+        explanation: "Service team personnel are not tasked with receiving security incident escalations."
+      - content: "Service team on-call engineers"
+        isCorrect: false
+        explanation: "While on-call engineers receive alerts for suspicious activity, they do not receive security incident escalations."
+      - content: "Microsoft 365 Security Response"
+        isCorrect: true
+        explanation: "Correct. Potential security incidents are escalated to the Microsoft 365 Security Response team."
+      
+    - content: "Which statement below is accurate?"
+      choices:
+      - content: "All Microsoft 365 log events are timestamped according to their local time zone."
+        isCorrect: false
+        explanation: "All Microsoft 365 log events are timestamped according to Coordinated Universal Time (UTC)."
+      - content: "Microsoft 365 is responsible for monitoring activities within customer tenants."
+        isCorrect: false
+        explanation: "Microsoft 365 operates on a shared responsibility model. Customers are responsible for monitoring their own tenants and users according to the customer’s organizational and regulatory requirements."
+      - content: "All event log transfers are encrypted using TLS."
+        isCorrect: true
+        explanation: "Correct. All event log transfers occur over a TLS connection on specifically approved ports and protocols to protect log data in transit."

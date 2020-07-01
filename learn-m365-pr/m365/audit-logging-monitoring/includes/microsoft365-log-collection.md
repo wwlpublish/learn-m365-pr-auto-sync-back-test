@@ -1,0 +1,23 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4xqaA]
+
+Deciding what kinds of log data to collect is critically importing for effective monitoring. Logs provide a wealth of information about the health and security of an information system; however, effective monitoring requires the ability to discover meaningful, actionable signals from the perpetual stream of log data. We do it in Microsoft 365 by clearly defining the types of events that must be logged by our system components as well as the data logged events must contain.
+
+## Defining auditable events
+
+To discern meaningful signals from log data, it is vital to audit events consistently across all system components. To standardize our logging practices, the Microsoft 365 Security team defines the fundamental requirements for logging in all Microsoft 365 Services. Logging requirements include events of interest for security monitoring and incident response as well as diagnostic events to support service health and identify system problems. The list of auditable events is informed by ongoing risk assessments, Microsoft 365 security standards, and compliance requirements. In addition to the list of audit events defined by the Microsoft 365 Security team, service teams can define additional logging requirements for their service.
+
+The list of auditable events includes operating system events from security and application logs, host-based intrusion detection systems, and events related to access control. For example, all Microsoft 365 Services are required to audit privileged access. Privileged access in Microsoft 365 production environments is managed by Lockbox and Customer Lockbox to enforce Zero Standing Access (ZSA). All Just-In-Time (JIT) access requests are logged through Lockbox and Customer Lockbox. In addition, all privileged commands run by service team engineers using temporary JIT access are logged and made available through centralized logging and reporting. These access control events provide vital data for security monitoring and incident investigation. They also provide the customer with an auditable record of Customer Lockbox actions taken by Microsoft personnel related to the customer’s tenant.
+
+We review and update the list of auditable events regularly to maintain effective audit logging throughout Microsoft 365. The Microsoft 365 Security team reviews and updates the list of auditable events to account for new threats, system changes, lessons learned from past incidents, and changing compliance requirements. At a minimum, this review takes place annually. Service-level auditable events are reviewed and updated whenever a significant change to the system is made, such as when a new service or feature is brought online. Application specific events are reviewed and updated during service reviews and the planning phases of feature milestones. By continuously reviewing and updating the list of auditable events, we arm ourselves with the data we need to detect and respond to security threats, provide optimal service to our customers, and meet compliance requirements.
+
+## Event contents
+
+Just as important as the types of events we collect is the data those events contain. Logged events must have enough information to support accurate monitoring and effective incident investigations. Microsoft 365 Security requires log entries to contain enough information to determine the type of event that occurred along with the source and outcome of the event. To establish proper time ordering, all events must be timestamped according to Coordinated Universal Time (UTC). In addition, event logs must record where the event occurred, any users or system hosts involved in the event, and any other details relevant to the event type. For example, event-specific details for network events may include network addresses and protocols used, along with source and target host names. Standardizing event content requirements ensures our logs provide the level of detail required for their intended purposes.
+
+## Enforcing our logging policy
+
+Microsoft 365 enforces logging requirements at the machine level as part of the deployment process. Baseline images include a custom logging agent called the Office Data Loader (ODL). The ODL is configured to collect the events defined by Microsoft 365 Security and send these events to centralized services for processing and storage. Log data is encrypted in transit and scrubbed for end user identifiable information before it is uploaded to the central log storage service.
+
+## Learn more
+
+- [Internal Logging for Microsoft 365 Engineering](https://docs.microsoft.com/office365/Enterprise/office-365-internal-logging?azure-portal=true)

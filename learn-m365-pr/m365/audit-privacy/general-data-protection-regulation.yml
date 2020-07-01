@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.audit-privacy.general-data-protection-regulation
+title: Explore GDPR 
+metadata:
+  title: Explore GDPR 
+  description: Learn about Microsoft 365 privacy standards, the reasons we have them in place, and how they differentiate Microsoft in protecting and respecting customer data.
+  ms.date: 06/15/2020
+  author: NamrahK
+  ms.author: v-nakhu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 4
+content: |
+  [!include[](includes/general-data-protection-regulation.md)]

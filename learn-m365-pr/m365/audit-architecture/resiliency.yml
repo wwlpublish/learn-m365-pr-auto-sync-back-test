@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.audit-architecture.resiliency
+title: Understand Microsoft 365 resiliency
+metadata:
+  title: Understand Microsoft 365 resiliency
+  description: Learn how the architecture of Microsoft 365 implements security and privacy features to protect customers who use Microsoft 365 multi-tenant services.
+  ms.date: 06/18/2020
+  author: NamrahK
+  ms.author: v-nakhu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 6
+content: |
+  [!include[](includes/resiliency.md)]

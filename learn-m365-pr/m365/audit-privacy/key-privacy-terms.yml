@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.audit-privacy.key-privacy-terms
+title: Learn key privacy terms and categories of data
+metadata:
+  title: Learn key privacy terms and categories of data
+  description: Learn about Microsoft 365 privacy standards, the reasons we have them in place, and how they differentiate Microsoft in protecting and respecting customer data.
+  ms.date: 06/15/2020
+  author: NamrahK
+  ms.author: v-nakhu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 8
+content: |
+  [!include[](includes/key-privacy-terms.md)]
