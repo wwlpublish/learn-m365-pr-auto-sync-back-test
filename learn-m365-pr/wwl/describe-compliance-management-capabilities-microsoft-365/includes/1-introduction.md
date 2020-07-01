@@ -4,5 +4,5 @@ Our compliance management tools help simplify risk assessment and mitigation in 
 
 At the end of this module, you will be able to:
 
-- Explore Microsoft compliance center and Compliance Score
-- Navigate the Service Trust Portal
+- Explore Microsoft compliance center and Compliance Score.
+- Navigate the Service Trust Portal.
