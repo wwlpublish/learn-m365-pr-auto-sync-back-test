@@ -13,6 +13,6 @@ The following steps outline the typical workflow when a Microsoft engineer initi
 1. The approver signs-in to the Microsoft 365 admin center and approves the request. This step triggers the creation of an audit record available by searching the audit log. If the customer rejects the request or doesn't approve the request within 12 hours, the request expires, and no access is granted to the Microsoft engineer.
 1. After the approver from the organization approves the request, the Microsoft engineer receives the approval message, logs into the tenant in Exchange Online, and fixes the customer's issue. Microsoft engineers have the requested duration to fix the issue after which the access is automatically revoked.
 
-:::image type="content" source="../media/6-lockbox-workflow.png" alt-text="Diagram showing the lockbox workflow: customer, Microsoft engineer, lockbox system, Microsoft manager, customer, and Microsoft engineer":::
+:::image type="content" source="../media/6-lockbox-workflow.png" alt-text="Diagram showing the lockbox workflow":::
 
 All actions performed by a Microsoft engineer are logged in the audit log. You can search for and review these audit records.
