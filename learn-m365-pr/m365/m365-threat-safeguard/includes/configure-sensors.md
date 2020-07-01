@@ -29,7 +29,7 @@ The Azure ATP sensor has the following requirements:
 
 - KB4487044 is installed on Server 2019. Azure ATP sensors already installed on 2019 servers without this update will be automatically stopped.
 - The Azure ATP sensor supported domain controller OS list:
-- Windows Server 2008 R2 SP1 (not including Server Core)
+  - Windows Server 2008 R2 SP1 (not including Server Core)
   - Windows Server 2012
   - Windows Server 2012 R2
   - Windows Server 2016 (including Windows Server Core but not Windows Nano Server)
