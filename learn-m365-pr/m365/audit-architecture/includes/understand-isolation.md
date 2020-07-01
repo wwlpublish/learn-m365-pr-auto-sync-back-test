@@ -14,8 +14,8 @@ One of the primary benefits of cloud computing is the ability to leverage shared
 
 Microsoft cloud services were designed with the assumption that all tenants are potentially hostile to all other tenants. As a result, we have implemented security measures to prevent the actions of one tenant from affecting the security or accessing the content of another tenant. The two primary goals of maintaining tenant isolation in Microsoft 365 are:
 
-1. Preventing leakage of, or unauthorized access to, customer content across tenants.
-2. Preventing the actions of one tenant from adversely affecting the service for another tenant.
+- Preventing leakage of, or unauthorized access to, customer content across tenants.
+- Preventing the actions of one tenant from adversely affecting the service for another tenant.
 
 Logical isolation of customer content within each tenant is built into each service by design and achieved through Azure Active Directory (AAD) and role-based access control. Specifically, each tenant container in Microsoft 365 is defined by the tenant’s Organizational Unit (OU) in AAD. Tenants have their own security boundaries and User Principal Names (UPNs) to prevent information leakage and unauthorized access between tenants. User authentication in Microsoft 365 verifies not only the user identity, but also the tenant identity the user account is part of, preventing users from accessing data outside their tenant environment. Tenant-specific encryption at the service level provides an additional layer of protection for each customer tenant.
 

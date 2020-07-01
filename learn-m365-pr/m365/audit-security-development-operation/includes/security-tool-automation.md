@@ -6,13 +6,13 @@ In addition to providing secure development tools, Microsoft implements and enfo
 
 Our automated security tooling falls into several broad categories for testing code at different stages of development, from the time code is committed to when it is released for operation in production environments. The table below summarizes the types of tools we use at Microsoft for SDL code analysis.
 
-| SECURITY TOOL | Description |
+| Security tool | Description |
 |-|-|
-| STATIC CODE ANALYSIS | Analyzes source code for potential security flaws, including the presence of credentials in code. |
-| BINARY ANALYSIS | Assesses vulnerabilities at the binary code level to confirm code is production ready. |
-| ENCRYPTION SCANNING | Validates encryption best practices in source code and code execution. |
-| FUZZ TESTING | Uses malformed and unexpected data to find defects in code and validate proper error handling. |
-| CONFIGURATION VALIDATION | Analyzes the configuration of production systems against security standards and best practices. |
+| Static code analysis | Analyzes source code for potential security flaws, including the presence of credentials in code. |
+| Binary analysis | Assesses vulnerabilities at the binary code level to confirm code is production ready. |
+| Encryption scanning | Validates encryption best practices in source code and code execution. |
+| Fuzz testing | Uses malformed and unexpected data to find defects in code and validate proper error handling. |
+| Configuration validation | Analyzes the configuration of production systems against security standards and best practices. |
 
 ## Static code analysis and binary analysis
 

@@ -11,6 +11,6 @@ For printed materials containing customer information:
 - Shredding must be witnessed and documented by an onsite member of the provider’s security team.
 - Shredding must use certified shred machines that adhere to the NSA standard. As part of this standard, shredders must be capable of shredding to a level that protects against industrial espionage and allows shredded material to be recycled.
 
-Learn more
+## Learn more
 
 - [NSA Destruction Standard](https://www.nsa.gov/resources/everyone/media-destruction/?azure-portal=true)
