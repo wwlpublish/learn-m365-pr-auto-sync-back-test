@@ -1,3 +1,5 @@
+## Learn Office 365 specific terminology, threats, and concepts
+
 **Microsoft Office 365 Advanced Threat Protection (ATP)** is a cloud-based email filtering service that helps protect your organization against unknown malware and viruses by providing robust zero-day protection. It includes features to safeguard your organization from harmful links in real time. ATP has rich reporting and URL trace capabilities that give administrators insight into the kind of attacks happening in your organization.
 
 ![Office 365 ATP benefits](../media/office-365-advanced-threat-protection-benefits.png)

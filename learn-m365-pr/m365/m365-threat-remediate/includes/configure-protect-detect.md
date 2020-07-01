@@ -42,7 +42,7 @@ Safe links includes a default policy that controls global settings such as which
 The following options can be configured as part of the Safe Links policy:
 
 - For **Select the action for unknown potentially malicious URLs in messages**, selecting **On** will allow URLs to be rewritten and checked.
-- **Use Safe Attachments to scan downloadable content** will enable URL detonation to scan files hosted on web sites. For example, if an email contains a link such as http://contoso.com/maliciousfile.pdf, the .pdf file is opened in a separate hypervisor environment and, if the file is found to be malicious, users will see a warning page if they click the link.  
+- **Use Safe Attachments to scan downloadable content** will enable URL detection to scan files hosted on web sites. For example, if an email contains a link such as http://contoso.com/maliciousfile.pdf, the .pdf file is opened in a separate hypervisor environment and, if the file is found to be malicious, users will see a warning page if they click the link.  
 - **Apply safe links to messages sent within the organization** will provide the same level of protection when links are sent by email within the organization. 
 - **Do not track user clicks** will block tracking and monitoring when users click links that are determined to be malicious. 
 - **Do not allow users to click through to the original URL** will prevent users from proceeding to the target web site if it is found to be malicious.  
