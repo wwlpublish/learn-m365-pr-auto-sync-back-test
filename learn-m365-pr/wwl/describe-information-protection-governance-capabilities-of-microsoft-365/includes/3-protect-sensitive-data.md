@@ -58,3 +58,5 @@ For more information, visit [Overview of data loss prevention](https://docs.micr
 ## Windows Information Protection
 
 Windows Information Protection (WIP) is a set of technologies that protect your organization from accidental or malicious data leaks, without significant changes to your enterprise environment or apps. It provides this protection to both enterprise-owned devices and BYOD devices, and it does so without interfering with employees’ regular workflows.
+
+For more information, visit [Protect your enterprise data using Windows Information Protection (WIP)](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip).

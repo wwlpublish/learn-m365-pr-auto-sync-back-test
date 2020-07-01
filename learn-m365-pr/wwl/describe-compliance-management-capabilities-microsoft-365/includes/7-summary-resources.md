@@ -1,8 +1,8 @@
 With the proliferation and growth of data, your reliance on storing and accessing it online is a necessity. To maintain compliance with the various governing bodies and regulations, you require a comprehensive suite of tools. Microsoft 365's compliance tools will let you achieve that.
 
 Now that you have reviewed this module, you should be able to:
-- Explore Microsoft compliance center and Compliance Score
-- Navigate the Service Trust Portal
+- Explore Microsoft compliance center and Compliance Score.
+- Navigate the Service Trust Portal.
 
 
 ## Learn more

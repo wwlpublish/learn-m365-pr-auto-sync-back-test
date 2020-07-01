@@ -18,3 +18,4 @@ Your private store is available as a tab in the Microsoft Store app and is named
 - [Manage apps in Microsoft Store for Business](https://docs.microsoft.com/microsoft-store/manage-apps-microsoft-store-for-business-overview?azure-portal=true)
 - [Windows 10 sideloading](https://docs.microsoft.com/intune/apps/app-sideload-windows?azure-portal=true)
 - [Plan for device and app monitoring](https://docs.microsoft.com/configmgr/desktop-analytics/health-status-monitoring?azure-portal=true)
+- [Manage kiosk settings](https://docs.microsoft.com/intune/configuration/kiosk-settings-windows?azure-portal=true)

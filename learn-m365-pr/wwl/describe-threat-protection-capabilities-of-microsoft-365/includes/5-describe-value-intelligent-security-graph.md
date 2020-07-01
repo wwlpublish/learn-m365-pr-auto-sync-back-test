@@ -10,7 +10,7 @@ The Microsoft Graph Security API is a unified API that provides a standard inter
 
 The security API is part of the Microsoft Graph, a unified REST API for integrating data and intelligence from Microsoft and partner products and services. Using Microsoft Graph, customers and partners can rapidly build solutions that authenticate once and use a single API call to access or act on security insights from multiple security solutions. By exploring other Microsoft Graph entities (such as Azure Active Directory, Intune, and more), you can discover additional value and security insights.
 
-For more information, read [The Microsoft Intelligent Security Graph](https://cloud-platform-assets.azurewebsites.net/intelligent-security-graph/).
+For more information, read the [Microsoft Graph Security API overview](https://docs.microsoft.com/graph/security-concept-overview).
 
 ## Azure Sentinel
 Microsoft Threat Protection solutions integrate with Azure Sentinel.  Microsoft Azure Sentinel is a scalable, cloud-native, **security information event management (SIEM)** and **security orchestration automated response (SOAR)** solution.  Azure Sentinel delivers intelligent security analytics and threat intelligence across the enterprise, providing alert detection, threat visibility, proactive hunting, and threat response.

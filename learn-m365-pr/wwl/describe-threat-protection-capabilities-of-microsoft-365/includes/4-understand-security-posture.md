@@ -5,7 +5,7 @@ Managing the security of your business to protect against an ever-evolving threa
 
 Enter Microsoft 365 security center, the new home for monitoring and managing security across your Microsoft identities, data, devices, apps, and infrastructure. Here you can easily view the security health of your organization, act to configure devices, users, and apps, and get alerts for suspicious activity. The Microsoft 365 security center is specifically intended for security admins and security operations teams to manage and better protect their organization.
 
-:::image type="content" source="../media/4-security-center.png" alt-text="Welcome to Microsoft 365 Security Center":::
+:::image type="content" source="../media/4-security-center-v3.png" alt-text="Welcome to Microsoft 365 Security Center":::
 
 For more information, read [Overview of the Microsoft 365 security center](https://docs.microsoft.com/microsoft-365/security/mtp/overview-security-center?view=o365-worldwide)
 
@@ -26,7 +26,7 @@ Microsoft Secure Score shows you the full set of possible improvements, regardle
 
 In the Microsoft Secure Score overview page, you can see how points are split between the various categories (identity, data, device, apps, and infrastructure and what points are available. The overview page is also the place to get an all-up view of the total score, the historical trend of your secure score with benchmark comparisons, and prioritized improvement actions that can be taken to improve your score.
 
-:::image type="content" source="../media/4-secure-score.png" alt-text="Microsoft Secure Score":::
+:::image type="content" source="../media/4-secure-score-v4.png" alt-text="Microsoft Secure Score":::
 
 For more information, read [Microsoft Secure Score](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score-preview?view=o365-worldwide)
 
@@ -45,14 +45,14 @@ Follow the steps below to navigate through the Microsoft 365 security center, us
 
 ### Task 2: Explore the Microsoft 365 security center
 
-1. From the Microsoft 365 security center welcome page, locate the secure score card.  Right-click on **Microsoft Secure Score** and select **open link in a new tab**.
-1. Go to the new tab to view the **Microsoft Secure Score** page.  Notice the tabs for **Improvement actions**, **History**, and **Metrics & trends**.
+1. From the Microsoft 365 security center welcome page, locate the secure score card.  From the top of the card, click on **Microsoft Secure Score**.
+1. On the top of the Microsoft Secure Score page, notice the tabs for **Improvement actions**, **History**, and **Metrics & trends**.
 1. Select **Improvement actions**.  Notice the information available for each improvement action.
 1. Select an improvement action, from the list, to view available information for each action.
 1. Select the back arrow key on the browser to return to the Improvement actions page.
 1. Take a moment to explore information on the other tabs (History and Metrics & trends).
-1. On the browser, return to the tab labeled **Home-Microsoft 365 security** to return to the Microsoft 365 Security Center welcome page.  
+1. Select **Home** on the left navigation panel to return to the Microsoft 365 Security Center welcome page.  
 1. Look for the card labeled **Users as risk** and select **View all users**.  
-1. You are taken to the **Risky users** page in Microsoft Azure.  If you have no users configured in your tenant or have no risky users, no users will be listed.
+1. You are taken to the **Risky users** page in Microsoft Azure (this is a new tab on your browser).  If you have no users configured in your tenant or have no risky users, no users will be listed.
 1. On the browser, return to the tab labeled **Home-Microsoft 365 security** to return to the Microsoft 365 Security Center welcome page and take the time to explore some of the other cards.
 1. When you're ready, close **Microsoft Edge**.
