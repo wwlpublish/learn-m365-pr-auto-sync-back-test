@@ -18,6 +18,7 @@ Find out more about the topics discussed in this module:
 
 - [Know your data - data classification overview](https://docs.microsoft.com/microsoft-365/compliance/data-classification-overview?view=o365-worldwide)
 - [Overview of data loss prevention](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies?view=o365-worldwide)
-- [Azure Information Protection](https://azure.microsoft.com/services/information-protection/)
+- [Azure Information Protection](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)
 - [Office 365 Message Encryption](https://docs.microsoft.com/microsoft-365/compliance/ome?view=o365-worldwide)
 - [Microsoft 365 Data governance](https://docs.microsoft.com/microsoft-365/compliance/manage-information-governance?view=o365-worldwide)
+- [Protect your enterprise data using Windows Information Protection (WIP)](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip)
