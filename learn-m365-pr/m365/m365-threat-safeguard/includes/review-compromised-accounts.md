@@ -45,7 +45,7 @@ The next alert shows a **Suspected identity theft (pass-the-ticket)**.
 
 Azure ATP has detected theft of a ticket from a domain administrator to the infiltrated PC. The Cloud App Security portal shows exactly which resources were accessed using the stolen tickets.
 
-[ ![[More information on the pass-the-ticket alert](../media/alert-pass-ticket.png) ](../media/alert-pass-ticket-magnify.png#lightbox)
+[ ![More information on the pass-the-ticket alert](../media/alert-pass-ticket.png) ](../media/alert-pass-ticket-magnify.png#lightbox)
 
 In the next alert, we see that the stolen credentials were used to run a remote command on the domain controller.
 
