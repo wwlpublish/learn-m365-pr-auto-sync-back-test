@@ -17,7 +17,7 @@ abstract: |
   - Explain how Azure Advanced Threat Protection can remediate risks in your environment.  
 
 prerequisites: none
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/generic-badge.svg
 ratingEnabled: true
 levels:
 - intermediate
