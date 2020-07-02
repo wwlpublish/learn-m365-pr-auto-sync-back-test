@@ -34,7 +34,7 @@ The following best practices can be followed to ensure query performance:
 - When joining between two tables, choose the table with less rows to be the first one (left-most).
 - When joining between two tables, project only needed columns from both sides of the join.
 
-Here is an example of a Kusto query for process creation with suspicious file endings:
+Here's an example of a Kusto query for process creation with suspicious file endings:
 
 ```kusto
 ProcessCreationEvents 
