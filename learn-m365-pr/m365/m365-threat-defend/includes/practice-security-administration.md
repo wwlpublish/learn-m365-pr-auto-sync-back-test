@@ -1,6 +1,6 @@
 ## Threat and vulnerability management
 
-![Threat and Vulnerability Management dashboard](../media/threat-vulnerability-management-dashboard.png)
+ [ ![Threat and Vulnerability Management dashboard](../media/threat-vulnerability-management-dashboard.png) ](../media/threat-vulnerability-management-dashboard-magnify.png#lightbox)
 
 Effectively identifying, assessing, and remediating endpoint weaknesses is pivotal to running a healthy security program and reducing organizational risk. Threat and vulnerability management serves as an infrastructure for reducing organizational exposure, hardening endpoint surface area, and increasing organizational resilience.
 
@@ -32,7 +32,7 @@ The attack surface reduction set of capabilities provides the first line of defe
 
 The  below screenshot shows a chart of detections against an attack surface reduction rule that is protecting office applications:
 
-![Attack surface reduction rules](../media/attack-surface-reduction-rules.png)
+ [ ![Attack surface reduction rules](../media/attack-surface-reduction-rules.png) ](../media/attack-surface-reduction-rules-magnify.png#lightbox)
 
 ## Next generation protection
 
@@ -60,14 +60,14 @@ Inspired by the "assume breach" mindset, Microsoft Defender ATP continuously col
 
 The Security operations dashboard (below) is where the endpoint detection and response capabilities are surfaced. It provides a high-level overview of where detections were seen and highlights where response actions are needed. 
 
-![Security operations dashboard](../media/security-operations-dashboard.png)
+ [ ![Security operations dashboard](../media/security-operations-dashboard.png) ](../media/security-operations-dashboard-magnify.png#lightbox)
 
 ## Automated investigation and remediation
 
 Microsoft Defender ATP offers a wide breadth of visibility on multiple machines. With this kind of optics, the service generates a multitude of alerts. The volume of alerts generated can be challenging for a typical security operations team to individually address. To address this challenge, Microsoft Defender ATP uses automated investigation and remediation capabilities to significantly reduce the volume of alerts that must be investigated individually.
 
-![Automated investigations](../media/automated-investigations.png)
+ [ ![Automated investigations](../media/automated-investigations.png) ](../media/automated-investigations-magnify.png#lightbox)
 
 The automated investigation feature uses various inspection algorithms, and processes used by analysts (such as playbooks) to examine alerts and take immediate remediation action to resolve breaches. This significantly reduces alert volume, allowing security operations experts to focus on more sophisticated threats and other high value initiatives. In the following investigation screenshot, we can see that malware was detected, as well as automatically remediated:
 
-![Malware detected and remediated](../media/malware-detected-remediated.png)
+ [ ![Malware detected and remediated](../media/malware-detected-remediated.png) ](../media/malware-detected-remediated-magnify.png#lightbox)
