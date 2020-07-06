@@ -1,0 +1,36 @@
+### YamlMime:Module
+uid: learn-m365.m365-threat-introduction
+metadata:
+  title: Introduction to threat protection with Microsoft 365 
+  description: Learn about cybersecurity threats and how the new threat protection tools from Microsoft protect your organization’s users, devices, and data. 
+  ms.date: 07/02/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Introduction to threat protection with Microsoft 365
+summary: Learn about cybersecurity threats and how the new threat protection tools from Microsoft protect your organization’s users, devices, and data.
+abstract: |
+  In this module, you will learn how to:
+  - Define security threats.
+  - Understand common threats.
+  - Explain how the threat landscape is evolving.
+
+prerequisites: | 
+ - Basic understanding of Microsoft 365.
+iconUrl: /learn/achievements/introduction-to-threat-protection.svg
+ratingEnabled: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- m365-threat-protection
+units:
+- learn-m365.m365-threat-introduction.introduction
+- learn-m365.m365-threat-introduction.learn-common-threats
+- learn-m365.m365-threat-introduction.evolving-threat-landscape
+- learn-m365.m365-threat-introduction.summary-knowledge-check
+badge: 
+  uid: learn-m365.m365-threat-introduction.badges
