@@ -23,7 +23,7 @@ products:
 - m365-threat-protection
 modules:
 - learn-m365.m365-threat-introduction
-- learn-m365.m365-security-threat-define
+- learn-m365.m365-threat-defend
 - learn-m365.m365-security-threat-protect
 - learn-m365.m365-threat-safeguard
 

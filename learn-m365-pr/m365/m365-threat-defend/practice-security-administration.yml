@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-threat-defend.practice-security-administration
+title: Practice security administration
+metadata:
+  title: Practice security administration
+  description: Learn how Microsoft Defender Advanced Threat Protection can help your organization stay secure. 
+  ms.date: 06/30/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 8
+content: |
+  [!include[](includes/practice-security-administration.md)]
