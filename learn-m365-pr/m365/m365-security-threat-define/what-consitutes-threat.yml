@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.m365-threat-introduction.learn-common-threats
+uid: learn-m365.m365-security-threat-define.what-constitutes-threat
 title: Learn about common threats
 metadata:
   title: Learn about common threats
@@ -11,4 +11,4 @@ metadata:
   ms.prod: learning-m365
 durationInMinutes: 3
 content: |
-  [!include[](includes/learn-common-threats.md)]
+  [!include[](includes/what-constitutes-threat.md)]
