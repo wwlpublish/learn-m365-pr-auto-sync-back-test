@@ -17,7 +17,7 @@ abstract: |
   - Explain how Microsoft Office 365 Advanced Threat Protection can remediate risks in your environment.
 
 prerequisites: | 
- - Basic understanding of Microsoft 365
+ - Intermediate understanding of Microsoft 365
 iconUrl: /learn/achievements/train-the-defenders.svg
 ratingEnabled: true
 levels:

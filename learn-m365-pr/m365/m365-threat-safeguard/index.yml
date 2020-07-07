@@ -16,7 +16,8 @@ abstract: |
   - Understand how to configure Azure Advanced Threat Protection sensors.
   - Explain how Azure Advanced Threat Protection can remediate risks in your environment.  
 
-prerequisites: none
+prerequisites: | 
+ - Intermediate understanding of Microsoft 365
 iconUrl: /learn/achievements/generic-badge.svg
 ratingEnabled: true
 levels:
