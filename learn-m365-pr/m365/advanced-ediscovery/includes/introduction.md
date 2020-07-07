@@ -72,5 +72,5 @@ To access Advanced eDiscovery v2.0:
 - [EDRM Model](https://www.edrm.net/resources/frameworks-and-standards/edrm-model/?azure-portal=true) 
 - [EDRM home page](https://www.edrm.net/?azure-portal=true)
 - [Reduce cost and risk with Microsoft 365 Advanced eDiscovery (video)](https://www.microsoft.com/videoplayer/embed/RE4Asf4?azure-portal=true)
-- [eDiscovery in Microsoft 365](https://docs.microsoft.com/en-us/microsoft-365/compliance/ediscovery?view=o365-worldwide?azure-portal=true) 
+- [eDiscovery in Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/ediscovery?view=o365-worldwide?azure-portal=true) 
 
