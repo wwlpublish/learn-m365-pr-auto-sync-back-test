@@ -10,69 +10,80 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
  
-durationInMinutes: 5
+durationInMinutes: 10
 content: |
   [!include[](includes/summary-knowledge-check.md)]
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Where do you go in the data classification dashboard to explore the email and docs in your organization that contain sensitive information or have labels applied?"
+    - content: "Which of the following definitions best describes what eDiscovery is?"
       choices:
-      - content: "Activity explorer"
-        isCorrect: false
-        explanation: "The activity explorer shows document-level activities like label changes and label downgrades, such as from confidential to general, across various locations. Intelligent detections."
-      - content: "Content explorer "
+      - content: "Identifying, collecting, and producing electronically stored information in response to a litigation, investigation or regulatory request."
         isCorrect: true
-        explanation: "Content explorer shows a current snapshot of the items that have a sensitivity label, a retention label, or have been classified as a sensitive information type. "
-      - content: "Sensitive info types"
+        explanation: "In today’s digital workplace, the sheer volume of electronically stored information, in addition to increased regulation and litigation, are driving increased growth in eDiscovery and investigations."
+      - content: "Reducing your risk of data loss due to cyber security threats and reduced claims of tampering."
         isCorrect: false
-        explanation: "Sensitive info types are where you manage the built-in and custom sensitive information types available to classify data.  "
+        explanation: "eDiscovery is used to filter the massive volume of data that is analyzed so the results for review are most relevant to an investigation. It does not reduce risk for data loss.  "
+      - content: "Searching based on conditions and keywords, and refining content with advanced analytics."
+        isCorrect: false
+        explanation: "While this may seem correct at the surface, the key differentiator is eDiscovery is used to filter the massive volume of data that is analyzed so the results for review are most relevant to an investigation or regulatory request."
 
-    - content: "You can create custom sensitive information types for data specific to your organization. Which of the following statements is true regarding new custom sensitive information types?"
+    - content: "With eDiscovery, organizations can review content in-place to identify sensitive or malicious content. What does in-place mean?"
       choices:
-      - content: "You cannot assign higher levels of confidence for your custom sensitive information type."
+      - content: "Data can be reviewed and redacted prior once exported to ensure that only most relevant data is being shared."
         isCorrect: false
-        explanation: "The more supporting evidence you have, the higher the likelihood that a match contains the sensitive information you're looking for. You can assign higher levels of confidence for matches that are detected by using more evidence."
-      - content: "You can use exact data match (EDM) for your custom sensitive information type that utilizes pattern matching."
+        explanation: "The ability to apply holds to the data where it lives ensures that it will be preserved and remain accessible to the administrators and compliance officers, thereby reducing the disruption to the end users and reducing storage costs. Data is not exported for review."
+      - content: "Data can only be in Exchange, SharePoint online, OneDrive for Business or Teams."
         isCorrect: false
-        explanation: "Exact Data Match (EDM) enhances custom sensitive information types to help accurately target detection of exact data values, instead of pattern matching."
-      - content: "You need to create a new sensitive information type for custom data because you cannot directly modify the default rules. "
+        explanation: "Preservation using holds in Exchange and SharePoint helps meet compliance needs by giving organizations the ability to search electronic information in its present state, as well as hidden copies of those items that have been deleted or modified.  "
+      - content: "Data does not need to be continually transferred out of Exchange or SharePoint to a third party hosted eDiscovery service."
         isCorrect: true
-        explanation: "You cannot directly modify the default rules."
+        explanation: "The traditional method of performing eDiscovery typically involved going out and collecting vast amounts of data from various distributed sources and storing them in a central location (usually off-site) in order to then have them indexed and searched to start the process of identifying the relevant data. In many cases, this would take place at a third-party vendor."
       
-    - content: "Which of the following can be completed from the data classification overview page? "
+    - content: "Which feature lets you quickly validate search results such as the location that had the most items matching your query and the number and size of unindexed items?"
       choices:
-      - content: "Filter by label or sensitive type to get a detailed view of locations where data is stored."
+      - content: "Preview"
         isCorrect: false
-        explanation: "You can search for specific sensitive information types, sensitivity labels or retention labels, or browse to the one you are interested in via the content explorer."
-      - content: "Filter to see all the details for a specific label including file types, users, and activities. "
+        explanation: "Preview generates a sampling of the various data sources and provides another view for early validation that you are on the right track."
+      - content: "Sample "
         isCorrect: false
-        explanation: "Activity explorer enables you to understand what is being done with your labeled content over time. You can use activity explorer to evaluate if the controls already in place, such as data loss prevention policies, are effective. "
-      - content: "Monitor risky activities associated with sensitive information to inform DLP policies."
+        explanation: "Generating a sample lets you use parameters such as confidence level and confidence interval. "
+      - content: "Statistics"
         isCorrect: true
-        explanation: "The data classification overview page provides snapshots of how sensitive info and labels are being used across your organization's locations. The overview page shows volume of sensitive data across Exchange Online, SharePoint Online, and OneDrive for Business, categorized by sensitive information types such as social security number (SSN), or associated with regulations like the General Data Protection Regulation (GDPR), California Consumer Privacy Act (CCPA), and Health Insurance Portability and Accountability Act (HIPAA)."
+        explanation: "Statistics on the retrieved items enables you to validate your search results and make sure they align with your expectations. You can see things such as the locations that had the most items that matched the search query, the number of and size of unindexed items."
       
-    - content: "Which card on the data classification overview tab shows the number of items with a retention label applied grouped by location? "
+    - content: "Before uploading non-Microsoft 365 data into a review set, you need to have all files in the review set in folders. These folders are associated with which of the following?"
       choices:
-      - content: "Locations where retention labels are applied."
+      - content: "Specific custodian"
         isCorrect: true
-        explanation: "The locations where retention labels are applied card shows the number of items with a retention label applied grouped by location."
-      - content: "Top activities detected"
+        explanation: "All files that are uploaded to a review set must be located in folders, where each folder is associated with a specific custodian. The names for these folders must use the following naming format: *alias@domainname*."
+      - content: "Specific eDiscovery case"
         isCorrect: false
-        explanation: "The top activities detected card summarizes the most common actions on items with sensitivity labels applied."
-      - content: "Top sensitive information types"
+        explanation: "You must have an existing Advanced eDiscovery case before uploading data into a review set. "
+      - content: "Specific file formats"
         isCorrect: false
-        explanation: "The top sensitive info types card shows the top sensitive information types discovered and labeled in the organization."
+        explanation: "Non-Microsoft 365 data must be a file type that's supported by Advanced eDiscovery."
       
-    - content: "Trainable classifiers use which of the following to identify what an item actually is?  "
+    - content: "Which analysis feature in Advanced eDiscovery attempts to mimic how humans reason about documents?"
       choices:
-      - content: "Metadata"
+      - content: "Email threading"
         isCorrect: false
-        explanation: "Unlike pattern matching, trainable classifiers do not look at metadata."
-      - content: "Machine learning"
+        explanation: "Email threading parses each email in a thread, deconstructs it into individual messages, then analyzes those messages for unique content."
+      - content: "Themes"
         isCorrect: true
-        explanation: "Trainable classifiers use machine learning to identify what an item actually is. It does this by analyzing hundreds of examples of a type of content (such as an invoice), which you provide to the engine."
-      - content: "Keywords"
+        explanation: "The Themes functionality in Advanced eDiscovery attempts to mimic how humans reason about documents, by analyzing the themes that are discussed in a review set and assigning a theme to documents in the review set."
+      - content: "Optical character recognition"
         isCorrect: false
-        explanation: "Unlike pattern matching, trainable classifiers do not look at keywords."
+        explanation: "When optical character recognition is enabled in a case, the OCR functionality automatically extracts text from images and includes the image text with the data that is added to a review set."
       
+    - content: "What is the primary difference between active and closed cases?"
+      choices:
+      - content: "The case is no longer listed on the Advanced eDiscovery page."
+        isCorrect: false
+        explanation: "The case is still listed on the Advanced eDiscovery page in the Microsoft 365 Compliance Center. The details, holds, searches, and members of a closed case are retained. "
+      - content: "You cannot edit a case once it is closed."
+        isCorrect: false
+        explanation: "You can edit a case after it is closed. For example, you can add or remove members, create searches, export search results, and prepare search results for analysis in Advanced eDiscovery."
+      - content: "Holds that are associated with a closed case are turned off."
+        isCorrect: true
+        explanation: "Closing a case only turns off the holds that are associated with that case. If other holds are place on a content location (such as a Litigation Hold. a Preservation Policy, or a hold from a different eDiscovery case) those holds will still be maintained."

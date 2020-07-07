@@ -10,6 +10,6 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 
-durationInMinutes: 16
+durationInMinutes: 11
 content: |
   [!include[](includes/export-data.md)]
