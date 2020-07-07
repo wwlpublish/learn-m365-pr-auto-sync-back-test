@@ -26,5 +26,6 @@ modules:
 - learn-m365-identity.m365-identity-authentication
 - learn-m365-identity.m365-identity-secure-administrators
 - learn-m365-identity.m365-identity-cultural-shift
+- learn-m365-identity.identity-overview
 trophy: 
   uid: learn-m365.identity-and-access.trophy
