@@ -36,7 +36,7 @@ Email threading parses each email in a thread, deconstructs it into individual m
 This section lets you configure the following parameters:
 - **Near duplicates/email threading**. When turned on, duplicate detection, near duplicate detection, and email threading are included as part of the workflow when you run analytics on the data in a review set.
 - **Document and email similarity threshold**. If the similarity level for two documents is above the threshold, both documents are put in the same near duplicate set.
-- **Minimum/maximum number of word**s. These settings specify that near duplicates and email threading analysis are performed only on documents that have at least the minimum number of words and at most the maximum number of words.
+- **Minimum/maximum number of words**. These settings specify that near duplicates and email threading analysis are performed only on documents that have at least the minimum number of words and at most the maximum number of words.
 
 ### Themes
 The Themes functionality analyzes documents with text in a review set to parse out common themes that appear across all the documents in the review set. Advanced eDiscovery assigns those themes to the documents in which they appear. It also labels each theme with the words used in the documents that are representative of the theme. Because a document can contain various types of subject matter, Advanced eDiscovery often assigns multiple themes to documents. The theme that appears most prominently in a document is designated as its dominant theme.

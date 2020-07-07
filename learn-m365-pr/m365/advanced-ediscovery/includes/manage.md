@@ -58,7 +58,7 @@ To run the compliance security filter cmdlets, you must be a member of the Organ
 
 Microsoft 365 E3 only provide the rights for a user to benefit from core eDiscovery features as illustrated in the table below. 
 
-![Microsoft 365 eDiscovery features by plan](../media/m365-ediscovery-features.png)  
+![Microsoft 365 eDiscovery features by plan](../media/microsoft-365-ediscovery-features.png)  
 
 ## Add or remove members from a case
 You can add or remove members to manage who can access the case. However, before a member can access and perform tasks in an Advanced eDiscovery case, you must add the user to the eDiscovery Manager role group on the **Permissions** page in the [Security & Compliance Center](https://protection.office.com?azure-portal=true). 

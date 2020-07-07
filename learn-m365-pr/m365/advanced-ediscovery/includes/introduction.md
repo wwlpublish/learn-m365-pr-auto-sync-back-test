@@ -26,7 +26,7 @@ The Advanced eDiscovery solution in Microsoft 365 builds on the original, core [
 
 For some context, the traditional method of performing eDiscovery typically involved collecting large amounts of data from various distributed sources, storing them in a central location (usually off-site), and then indexing and searching through the data to identify the most relevant content. In many cases, these steps would take place at a third-party vendor. This approach took a lot of time, added high costs at each stage, and caused interruptions to the end users whose data was being collected causing lost productivity. 
 
- ![Advanced eDiscovery solution in Microsoft 365](../media/all-m365.png) 
+ ![Advanced eDiscovery solution in Microsoft 365](../media/all-microsoft-365.png) 
  
 By providing expanded capabilities so that you can do more things in-place to further reduce and cull your data, Advanced eDiscovery in Microsoft 365 provides a workflow aligned to the EDRM framework that is more efficient and cost effective. In addition to the efficiency and cost savings, the reduction of risk cannot be understated here – the in-place culling and reduction of data helps to keep sensitive and private data within the tenant without having to share additional copies to outside vendors unless absolutely necessary. 
 
@@ -60,7 +60,7 @@ For a quick look at Advanced eDiscovery in Microsoft 365, see the [Reduce cost a
 ## Microsoft 365 Compliance Center
 If you've ever worked with the core eDiscovery solution in the Office 365 Security & Compliance center, you may be aware that you could further manage a case using Advanced eDiscovery by clicking **Switch to Advanced eDiscovery**. This opened the case in Advanced eDiscovery (classic) which is being retired. Its functionality has been replaced by a new version of Advanced eDiscovery in the Microsoft 365 compliance center.
  
-![Microsoft 365 compliance center](../media/m365-compliance-center.png) 
+![Microsoft 365 compliance center](../media/microsoft-365-compliance-center.png) 
 
 Version 2.0 of the Advanced eDiscovery solution in Microsoft provides all of the capabilities of the original solution, but now includes a custodian-based approach of identifying content in other Microsoft 365 services, collecting that content, and then adding it to a review set where reviewers can take advantage of fast search queries, tagging, and analytics features to help cull relevant documents. It includes improved processing and native viewers for both Microsoft and non-Microsoft file types, and provides a custodian holds management feature that lets you apply holds to content in different services, notify users of the holds, and track custodian responses, all within an Advanced eDiscovery case.
 

@@ -161,7 +161,7 @@ After attorney-client privilege detection has been enabled, you will see an enha
 One of the primary ways to see the results of attorney-client privilege detection in your review process is by using a smart tag group. A smart tag group indicates the results of the attorney-client privilege detection and shows the results in-line next to the tags in a smart tag group. This lets you quickly identify documents that are potentially privileged during a document review. Additionally, you can also use the tags in the smart tag group to tag documents as privileged or non-privileged. 
 
 There are two locations that enable you to configure smart tag groups:
-- In the review set, click ****Manage review set and then click **Manage tags**.
+- In the review set, click **Manage review set** and then click **Manage tags**.
 - In the **Tagging panel**, click **Manage tags**. 
 
 Either method will open the interface that enables you to customize the Attorney-client privilege options and settings. 

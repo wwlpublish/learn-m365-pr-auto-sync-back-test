@@ -60,7 +60,7 @@ To export content:
 
 1. On the **Connection summary** page, review the connection information, then click **Connect**. 
 
-    The **Blob containers** node (under **Storage Accounts > Attached Containers)** is opened to a container with the display name from step 7. This container contains a folder for each export job that you have created. The folders are named with an ID that corresponds to the ID of the export job. 
+    The **Blob containers** node (under **Storage Accounts > Attached Containers**) is opened to a container with the display name from step 7. This container contains a folder for each export job that you have created. The folders are named with an ID that corresponds to the ID of the export job. 
 
     ![Export content, step 8.](../media/containers-1.png) 
 

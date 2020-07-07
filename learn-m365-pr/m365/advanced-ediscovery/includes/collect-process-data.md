@@ -67,7 +67,7 @@ The search system is tuned for performance so you can search for content quickly
 
 Advanced indexing is the process that re-processes unindexed and partially indexed content to make it fully searchable. 
 
-The **Processing** tab in Advanced eDiscovery provides insight into the status of advanced indexing for different processing scenarios. In the **Index status** view on the **Processing** tab for a case, the graph lists the number of items added to the* hybrid index*. The hybrid index is where Advanced eDiscovery stores the re-processed content.
+The **Processing** tab in Advanced eDiscovery provides insight into the status of advanced indexing for different processing scenarios. In the **Index status** view on the **Processing** tab for a case, the graph lists the number of items added to the *hybrid index*. The hybrid index is where Advanced eDiscovery stores the re-processed content.
 
 ![The Processing tab in Advanced eDiscovery provides insight into the status of advanced indexing for different processing scenarios.](../media/processing.png) 
 
