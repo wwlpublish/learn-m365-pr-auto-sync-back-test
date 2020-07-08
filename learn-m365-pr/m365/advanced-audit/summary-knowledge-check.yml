@@ -10,69 +10,69 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
  
-durationInMinutes: 5
+durationInMinutes: 8
 content: |
   [!include[](includes/summary-knowledge-check.md)]
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Where do you go in the data classification dashboard to explore the email and docs in your organization that contain sensitive information or have labels applied?"
+    - content: "The Advanced Audit “default audit log retention policy” retains any audit record that contains the value of which of the following choices for the Workload property?"
       choices:
-      - content: "Activity explorer"
+      - content: "Exchange, SharePoint, OneDrive "
         isCorrect: false
-        explanation: "The activity explorer shows document-level activities like label changes and label downgrades, such as from confidential to general, across various locations. Intelligent detections."
-      - content: "Content explorer "
+        explanation: "The Advanced Audit default audit log retention policy doesn't modify the retention period for OneDrive audit records."
+      - content: "Exchange, SharePoint, AzureActiveDirectory "
         isCorrect: true
-        explanation: "Content explorer shows a current snapshot of the items that have a sensitivity label, a retention label, or have been classified as a sensitive information type. "
-      - content: "Sensitive info types"
+        explanation: "Advanced Audit retains all Exchange, SharePoint, and Azure Active Directory audit records for one year. This retention is accomplished by a default audit log retention policy that retains any audit record that contains the value of **Exchange**, **SharePoint**, or **AzureActiveDirectory** for the **Workload** property (which indicates the service in which the activity occurred) for one year. "
+      - content: "Exchange, SharePoint, Teams "
         isCorrect: false
-        explanation: "Sensitive info types are where you manage the built-in and custom sensitive information types available to classify data.  "
+        explanation: "The Advanced Audit default audit log retention policy doesn't modify the retention period for Teams audit records. "
 
-    - content: "You can create custom sensitive information types for data specific to your organization. Which of the following statements is true regarding new custom sensitive information types?"
+    - content: "What user value results from moving from a publisher-level limit to a tenant-level limit?"
       choices:
-      - content: "You cannot assign higher levels of confidence for your custom sensitive information type."
+      - content: "Organizations no longer need Independent Software Vendors."
         isCorrect: false
-        explanation: "The more supporting evidence you have, the higher the likelihood that a match contains the sensitive information you're looking for. You can assign higher levels of confidence for matches that are detected by using more evidence."
-      - content: "You can use exact data match (EDM) for your custom sensitive information type that utilizes pattern matching."
+        explanation: "Independent Software Vendors were negatively impacted by publisher-level limits on bandwidth."
+      - content: "Organizations’ bandwidth is now static and predefined. "
         isCorrect: false
-        explanation: "Exact Data Match (EDM) enhances custom sensitive information types to help accurately target detection of exact data values, instead of pattern matching."
-      - content: "You need to create a new sensitive information type for custom data because you cannot directly modify the default rules. "
+        explanation: "The bandwidth isn't a statically predefined limit but is modeled on a combination of factors. "
+      - content: "Organizations no longer share limits for pulling data. "
         isCorrect: true
-        explanation: "You cannot directly modify the default rules."
+        explanation: "Each organization gets their own fully allocated bandwidth to access auditing data. "
       
-    - content: "Which of the following can be completed from the data classification overview page? "
+    - content: "What is the minimum required permission to allow a user to search the audit log? "
       choices:
-      - content: "Filter by label or sensitive type to get a detailed view of locations where data is stored."
+      - content: "Audit Logs role "
         isCorrect: false
-        explanation: "You can search for specific sensitive information types, sensitivity labels or retention labels, or browse to the one you are interested in via the content explorer."
-      - content: "Filter to see all the details for a specific label including file types, users, and activities. "
+        explanation: "You must be assigned the Audit Logs role in Exchange Online to turn audit logging on or off in Microsoft 365. "
+      - content: "Organizational Management role group "
         isCorrect: false
-        explanation: "Activity explorer enables you to understand what is being done with your labeled content over time. You can use activity explorer to evaluate if the controls already in place, such as data loss prevention policies, are effective. "
-      - content: "Monitor risky activities associated with sensitive information to inform DLP policies."
+        explanation: "By default, the Audit Logs role is assigned to the Compliance Management and Organization Management role groups in the Exchange admin center."
+      - content: "View-Only Audit Logs "
         isCorrect: true
-        explanation: "The data classification overview page provides snapshots of how sensitive info and labels are being used across your organization's locations. The overview page shows volume of sensitive data across Exchange Online, SharePoint Online, and OneDrive for Business, categorized by sensitive information types such as social security number (SSN), or associated with regulations like the General Data Protection Regulation (GDPR), California Consumer Privacy Act (CCPA), and Health Insurance Portability and Accountability Act (HIPAA)."
+        explanation: "View-Only Audit Logs is the minimum required permission to allow a user to search the audit log. "
       
-    - content: "Which card on the data classification overview tab shows the number of items with a retention label applied grouped by location? "
+    - content: "Advanced Audit in Microsoft 365 provides a default audit log retention policy for all organizations. This policy retains all Exchange, SharePoint, and Azure Active Directory audit records for one year. If you create a custom audit log retention policy for Exchange mailbox activity that had a retention period of six months, audit records for Exchange mailbox will be retained for how long? "
       choices:
-      - content: "Locations where retention labels are applied."
+      - content: "Six months"
         isCorrect: true
-        explanation: "The locations where retention labels are applied card shows the number of items with a retention label applied grouped by location."
-      - content: "Top activities detected"
+        explanation: "All custom audit log retention policies (created by your organization) take priority over the default retention policy. "
+      - content: "One year"
         isCorrect: false
-        explanation: "The top activities detected card summarizes the most common actions on items with sensitivity labels applied."
-      - content: "Top sensitive information types"
+        explanation: "If you create an audit log retention policy for Exchange mailbox activity that has a retention period that's shorter than one year, audit records for Exchange mailbox activities will be retained for the shorter duration specified by the custom policy. "
+      - content: "One year if they were before the custom audit log; six months if they were after the custom audit log. "
         isCorrect: false
-        explanation: "The top sensitive info types card shows the top sensitive information types discovered and labeled in the organization."
+        explanation: "If you create an audit log retention policy for Exchange mailbox activity that has a retention period that's shorter than one year, audit records for Exchange mailbox activities will be retained for the shorter duration specified by the custom policy. "
       
-    - content: "Trainable classifiers use which of the following to identify what an item actually is?  "
+    - content: "Users must be assigned the Organization Configuration role in the Security & Compliance Center to create or modify an audit log retention policy. This is accomplished by adding the user to which role group in the Security & Compliance Center? "
       choices:
-      - content: "Metadata"
+      - content: "Compliance Management"
         isCorrect: false
-        explanation: "Unlike pattern matching, trainable classifiers do not look at metadata."
-      - content: "Machine learning"
+        explanation: "Compliance Management isn't the correct role group."
+      - content: "Organization Management"
         isCorrect: true
-        explanation: "Trainable classifiers use machine learning to identify what an item actually is. It does this by analyzing hundreds of examples of a type of content (such as an invoice), which you provide to the engine."
-      - content: "Keywords"
+        explanation: "This can be accomplished by adding the user to the Organization Management role group in Security & Compliance Center. This is a different role group than the Organization Management role group in the Exchange admin center. "
+      - content: "Security Administrator"
         isCorrect: false
-        explanation: "Unlike pattern matching, trainable classifiers do not look at keywords."
+        explanation: "Security Administrator isn't the correct role group."
       
