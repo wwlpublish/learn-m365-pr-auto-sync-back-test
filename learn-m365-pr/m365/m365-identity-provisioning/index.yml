@@ -2,23 +2,22 @@
 uid: learn-m365-identity.m365-identity-provisioning
 metadata:
   title: Simplify access and identity provisioning with Microsoft 365
-  description: Learn how to use Microsoft 365 authentication tools for access and identity provisioning.
-  ms.date: 09/09/2019
-  author: TheJasonAndrew 
-  ms.author: v-jasoan
+  description: Learn about identity governance and how you can safeguard access to your organization’s data.
+  ms.date: 07/07/2020
+  author: AlexandraHrt 
+  ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Simplify access and identity provisioning with Microsoft 365
-summary: Learn how to use Microsoft 365 authentication tools for access and identity provisioning.
+summary: Learn about identity governance and how you can safeguard access to your organization’s data.
 abstract: |
-  In this module, you will learn:
-   - The identity management capabilities of Microsoft 365
-   - About the identity governance lifecycle and how to plan for Azure AD identity governance
-   - How to create an identity infrastructure and how to plan for single sign-on 
-   - About role-based access, conditional access, and how to manage user groups 
-   - How to provision users in SaaS apps 
-   - How to secure B2B collaboration 
-prerequisites: None
+  In this module, you will learn to:
+   - Define single sign-on.
+   - Understand identity governance.
+   - Explain how to perform an access review.
+
+prerequisites: | 
+ - Intermediate understanding of Microsoft 365.
 iconUrl: /learn/achievements/simplify-access-and-identity-provisioning-with-microsoft-365.svg
 ratingEnabled: true
 levels:
@@ -30,10 +29,9 @@ products:
 - m365
 units:
 - learn-m365-identity.m365-identity-provisioning.introduction
-- learn-m365-identity.m365-identity-provisioning.choose-deploy-sso
-- learn-m365-identity.m365-identity-provisioning.importance-identity-governance
+- learn-m365-identity.m365-identity-provisioning.proactive-identity-governance
+- learn-m365-identity.m365-identity-provisioning.define-right-access
 - learn-m365-identity.m365-identity-provisioning.establish-identity-governance
-- learn-m365-identity.m365-identity-provisioning.right-access-safeguard
 - learn-m365-identity.m365-identity-provisioning.summary-knowledge-check
 badge: 
   uid: learn-m365-identity.m365-identity-provisioning.badge
