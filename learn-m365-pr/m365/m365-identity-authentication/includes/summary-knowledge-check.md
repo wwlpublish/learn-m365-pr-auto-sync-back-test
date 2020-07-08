@@ -1,1 +1,7 @@
-Azure AD secures your authentication system through monitoring and enforcing MFA via Conditional Access. Additionally, you can leverage FIDO2 security keys to use Windows Hello and Microsoft Authenticator to implement passwordless authentication through smartphone and biometrics.
+In this module, you learned about modern authentication and the security benefits it provides to your organization, such as enabling multi-factor authentication and a passwordless environment. 
+
+Now that you have completed this module, you should be able to:
+
+- Define modern authentication.
+- Understand how to enable multi-factor authentication.
+- Explain how passwordless authentication improves security. 
