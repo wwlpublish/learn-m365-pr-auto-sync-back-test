@@ -13,7 +13,7 @@ This section explains permissions that a user must have to manage the following:
 - Access Advanced eDiscovery Reports (in Preview)
 
 ### Permissions to use eDiscovery 
-To access Advanced eDiscovery in the Microsoft 365 compliance center, you must assign the user the appropriate permissions. Specifically, a user must be added as a member of the **eDiscovery Manager** or eDiscovery Administrators role group on the **Permissions** page in the Security & Compliance Center. 
+To access Advanced eDiscovery in the Microsoft 365 compliance center, you must assign the user the appropriate permissions. Specifically, a user must be added as a member of the eDiscovery Manager or eDiscovery Administrators role group on the **Permissions** page in the Security & Compliance Center. 
 
 Members of these two role groups can do the following:
 - Create new cases. 
@@ -95,7 +95,7 @@ Compliance boundaries are defined and managed by using a combination of role gro
 #### Create a role group for each agency
 Role groups are used to control who can see the eDiscovery cases in the Microsoft 365 Compliance Center. This means that eDiscovery managers and investigators can only see the eDiscovery cases in their agency. Role groups also control who can assign members to an eDiscovery case. This means eDiscovery managers and investigators can only assign members to cases that they themselves are a member of. We recommend that you create a role group by copying the built-in eDiscovery Managers group, adding the appropriate members, and removing roles that may not be applicable to your needs. 
 
-To create the role groups, go to the Permissions page in the [Security & Compliance Center](https://protection.office.com?azure-portal=true) and create a role group for each team in each agency that will use compliance boundaries and eDiscovery cases to manage investigations.
+To create the role groups, go to the **Permissions** page in the [Security & Compliance Center](https://protection.office.com?azure-portal=true) and create a role group for each team in each agency that will use compliance boundaries and eDiscovery cases to manage investigations.
 
 Using the Contoso compliance boundaries sample scenario, four role groups need to be created and the appropriate members added to each one.
 - Fourth Coffee eDiscovery Managers
@@ -104,7 +104,7 @@ Using the Contoso compliance boundaries sample scenario, four role groups need t
 - Coho Winery Investigators
 
 #### Create a search permissions filter to enforce the compliance boundary
-The New-ComplianceSecurityFilter cmdlet is used to create a search permissions filter that controls the content locations that eDiscovery managers and investigators can search. This means eDiscovery managers and investigators in the Fourth Coffee agency can only search content locations in the Fourth Coffee subsidiary. The same restriction applies to the Coho Winery subsidiary.
+The **New-ComplianceSecurityFilter** cmdlet is used to create a search permissions filter that controls the content locations that eDiscovery managers and investigators can search. This means eDiscovery managers and investigators in the Fourth Coffee agency can only search content locations in the Fourth Coffee subsidiary. The same restriction applies to the Coho Winery subsidiary.
 
 Here are examples of the two search permissions filters that would be created to support the Contoso compliance boundaries scenario. Both of these examples include a comma-separated filters list, in which the mailbox and site filters are included in the same search permissions filter and are separated by a comma.
 
@@ -112,7 +112,7 @@ Here are examples of the two search permissions filters that would be created to
 
 `New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "Coho Winery eDiscovery Managers", "Coho Winery Investigators" -Filters "Mailbox_Department -eq 'CohoWinery'", "Site_ComplianceAttribute -eq 'CohoWinery' -or Site_Path -like 'https://contoso.sharepoint.com/sites/CohoWinery*'" -Action ALL`
 
-To learn more about each of the New-ComplianceSecurityFilter parameters, see [New-ComplianceSecurityFilter](https://docs.microsoft.com/microsoft-365/compliance/permissions-filtering-for-content-search?view=o365-worldwide#new-compliancesecurityfilter?azure-portal=true).
+To learn more about each of the **New-ComplianceSecurityFilter** parameters, see [New-ComplianceSecurityFilter](https://docs.microsoft.com/microsoft-365/compliance/permissions-filtering-for-content-search?view=o365-worldwide#new-compliancesecurityfilter?azure-portal=true).
 
 The entire process for setting up compliance boundaries involves the following steps:
 1.	Identify a user attribute to define your agencies, i.e. Company or Department. 
@@ -133,7 +133,7 @@ Consider the following limitations when managing eDiscovery cases and investigat
 When the investigation is completed, you can close or delete the case. In most instances, you will only delete a case when starting over. This is what happens when you close or delete a case:
 - If the case contains any content locations on hold, those holds will be turned off. This might result in content being permanently deleted or purged, either by the user or by an automated process, such as a deletion policy.
 - Closing a case only turns off the holds that are associated with that case. If other holds are placed on a content location (such as a Litigation Hold, a Preservation policy, or a hold from a different eDiscovery case) those holds will still be maintained.
-- The case is still listed on the Advanced eDiscovery page in the Microsoft 365 Compliance Center. The details, holds, searches, and members of a closed case are retained.
+- The case is still listed on the Advanced eDiscovery page in the Microsoft 365 compliance center. The details, holds, searches, and members of a closed case are retained.
 - You can edit a case after it is closed. For example, you can add or remove members, create searches, export search results, and prepare search results for analysis in Advanced eDiscovery. The primary difference between active and closed cases is that holds are turned off when a case is closed.
 - You can reopen a case that has been closed. However, any holds that were in place when the case was closed will not be automatically reinstated. After the case is reopened, you will have to go to the **Holds** tab and turn on the previous holds. To turn on a hold, select it to display the flyout page, and then set the **Status** toggle to **On**.
 - When you delete a case, all components associated with the case, such as the list of custodians, communications, searches, review sets, and export job are deleted. 
@@ -159,9 +159,3 @@ It might take up to 60 minutes for the closing process to complete.
 It might take up to 60 minutes for the closing process to complete.
 
 ![Case information](../media/close-delete.png)  
-
-## Learn more
-- [Office 365 Security & Compliance PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=o365-worldwide?azure-portal=true)
-- [New-ComplianceSecurityFilter](https://docs.microsoft.com/microsoft-365/compliance/permissions-filtering-for-content-search?view=o365-worldwide#new-compliancesecurityfilter?azure-portal=true).
-- [Set up compliance boundaries for eDiscovery investigations](https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries?view=o365-worldwide?azure-portal=true)
-- [Permissions in the Security & Compliance Center](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center?view=o365-worldwide?azure-portal=true)

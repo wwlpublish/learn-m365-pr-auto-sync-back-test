@@ -67,6 +67,3 @@ When optical character recognition is enabled in a case, the OCR functionality a
 
 > [!NOTE]
 > You have to enable OCR functionality for each case that you create in Advanced eDiscovery.
-
-## Learn more
-- [Supported file types in Advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/supported-filetypes-ediscovery20?view=o365-worldwide#image?azure-portal=true)

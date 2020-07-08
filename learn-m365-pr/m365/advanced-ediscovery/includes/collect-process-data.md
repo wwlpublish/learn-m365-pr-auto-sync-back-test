@@ -29,7 +29,7 @@ When building search queries, you can use keywords to find specific content and 
 ### Keyword searches
 Using keywords enable you to get statistics that show how many items match each keyword in the keyword list. This can help you quickly identify the keywords that are the most or least effective. You can also use a keyword phrase, surrounded by parentheses, in a row in the keywords list.
 
-The **Keywords** box supports keywords, email message properties (such as sent and received dates), document properties (such as file names or the date that a document was last changed), and queries that use a Boolean operator such as **AND, OR, NOT**, and **NEAR**. You can also search for sensitive information (such as social security numbers) in documents in SharePoint and OneDrive (not in email messages), or search for documents that have been shared externally. If you leave the **Keywords** box empty, all content located in the specified content locations is in the search results.
+The **Keywords** box supports keywords, email message properties (such as sent and received dates), document properties (such as file names or the date that a document was last changed), and queries that use a Boolean operator such as **AND, OR, NOT**, and **NEAR**. You can also search for sensitive information (such as Social Security numbers) in documents in SharePoint and OneDrive (not in email messages), or search for documents that have been shared externally. If you leave the **Keywords** box empty, all content located in the specified content locations is in the search results.
 
 > [!NOTE]
 > To optimize performance, you are limited to a maximum of 20 rows in the keyword list.
@@ -38,7 +38,7 @@ The **Keywords** box supports keywords, email message properties (such as sent a
 Conditions are granular parameters such as dates, authors, or email recipients which can be used to narrow the scope of a search and return a more refined set of results. Each condition adds a clause to the search query that is created and run when you start the search. A condition is logically connected to the keyword query specified in the keyword box by a logical operator (which is represented as c:c in the search query syntax) that is similar in functionality to the **AND** operator. That means that items must satisfy both the keyword query and one or more conditions to be included in the search results. This is how conditions help to narrow your results. For a list and description of conditions that you can use in a search query, see [Search conditions](https://docs.microsoft.com/microsoft-365/compliance/keyword-queries-and-search-conditions?view=o365-worldwide#search-conditions?azure-portal=true).
 
 ## Validate search results
-After executing a search, you can use Statistics and Preview options to verify the search you created is collecting the type of data you need. 
+After executing a search, you can use **Statistics** and **Preview** options to verify the search you created is collecting the type of data you need. 
  
 ![Statistics and Preview options verify the search](../media/search-custodian-data.png) 
 
@@ -61,7 +61,7 @@ Generating a sample lets you use parameters such as confidence level and confide
 ## Content indexing of data
 The next phase of the EDRM model, Processing, involves deep indexing of content including file identification, expansion of embedded documents and attachments, text extraction, and OCR (Optical Character Recognition) of image files.
 
-The underlying content indexing engine is provided by Microsoft Search. This platform includes various components for crawling and indexing data, querying data, and searching data. eDiscovery relies on the Search system to crawl content and build an index that eDiscovery cases run queries against. As the Search system crawls content, it creates a search index. The search index stores data that is used to provide the results for search queries, including information about the permissions that are required to access each piece of content. When a user performs a search, the search system uses the search index to identify the appropriate search results. Before displaying the results, the search system performs security trimming. Security trimming is the process by which the system compares the user’s permissions to the permissions that are required to access content that search results link to, and then “trims” the results to show only those results that the user has permission to view. 
+The underlying content indexing engine is provided by Microsoft Search. This platform includes various components for crawling and indexing data, querying data, and searching data. eDiscovery relies on the Search system to crawl content and build an index that eDiscovery cases run queries against. As the Search system crawls content, it creates a search index. The search index stores data that is used to provide the results for search queries, including information about the permissions that are required to access each piece of content. When a user performs a search, the search system uses the search index to identify the appropriate search results. Before displaying the results, the search system performs *security trimming*. Security trimming is the process by which the system compares the user’s permissions to the permissions that are required to access content that search results link to, and then “trims” the results to show only those results that the user has permission to view. 
 
 The search system is tuned for performance so you can search for content quickly. Because it’s tuned for speed, there are mechanisms in place to identify and skip items that may take too long to process. Therefore, items such as very large files or emails with several attachments may be skipped and remain unindexed so that search results can be returned more quickly. Content may also be partially indexed for reasons including encryption or password protection, the existence of images, unsupported file types or when indexing file size limits are encountered. 
 
@@ -86,7 +86,7 @@ Error remediation of documents leverages an Azure AzCopy command that contains p
 
     ![Click Next: Download files to download.](../media/new-remediation.png) 
  
-1. To download files, specify the **Destination path for download**. This is a path to the parent folder on your local computer where the file will be downloaded. The default path, %USERPROFILE%\Downloads\errors, points to the local user's downloads folder and can be changed if desired. For performance reasons, it is recommended that you do not use a remote network path. 
+1. To download files, specify the **Destination path for download**. This is a path to the parent folder on your local computer where the file will be downloaded. The default path, %USERPROFILE%\Downloads\errors, points to the local user's download folder and can be changed if desired. For performance reasons, it is recommended that you do not use a remote network path. 
 
     The path to the parent folder is automatically added to the AzCopy command as the value of the **/Dest** parameter. 
 
@@ -96,7 +96,7 @@ Error remediation of documents leverages an Azure AzCopy command that contains p
 
     The files that you selected are downloaded to the location that you specified in step 5. In the parent folder (for example, **C:\Remediation**), the following subfolder structure is automatically created:
 
-    <Parent folder>\Subfolder 1\Subfolder 2\<file>
+    <Parent folder>\Subfolder 1\Subfolder 2\\\<file>
      - *Subfolder 1* is named with the ID for the case or the review set, depending on the scope that you selected in step 1.
      - *Subfolder 2* is named with the file ID of the downloaded file
      - The downloaded file is located in *Subfolder 2* and is also named with the file ID.
@@ -115,7 +115,7 @@ Error remediation of documents leverages an Azure AzCopy command that contains p
  
     ![Command prompt with AzCopy command.](../media/process-files.png)  
 
-1. After you run the AzCopy command, click Next: Process files.
+1. After you run the AzCopy command, click Next: **Process files**.
 
     ![After you run the AzCopy command, click Next: Process files.](../media/process-files-2.png) 
  
@@ -124,8 +124,5 @@ Error remediation of documents leverages an Azure AzCopy command that contains p
 ### Single item error remediation
 Sometimes it doesn't make sense to remediate errors in multiple files when you’re unsure if any of those files are relevant to the case you’re investigating. It also might not make sense to remediate errors before you’ve had a chance to review the file metadata (such as file location or who had access) to help you make decisions about the relevance. *Single item error remediation* is a feature that enables you to view the metadata of files with a processing error and, if necessary, remediate the error directly in the review set. To learn more about this, please see [single item error remediation](https://docs.microsoft.com/microsoft-365/compliance/single-item-error-remediation?view=o365-worldwide?azure-portal=true).
 
-## Learn more
- - [Search conditions](https://docs.microsoft.com/microsoft-365/compliance/keyword-queries-and-search-conditions?view=o365-worldwide#search-conditions?azure-portal=true) 
- - [Search statistics](https://docs.microsoft.com/microsoft-365/compliance/search-statistics?view=o365-worldwide?azure-portal=true)
- - [Get started with AzCopy](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy-v10?azure-portal=true)
+
 

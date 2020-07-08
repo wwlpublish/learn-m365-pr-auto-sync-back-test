@@ -3,14 +3,14 @@ After you have finished culling your data in a review set to the content that is
 ![Seventh phase of the EDRM model – Export data.](../media/edrm-model-5.png) 
 
 ### Download documents from a review set
-In some cases, you may just need to download a few documents from a case for a specific deposition. The Download option is the quickest way to export a small set of data while preserving the native file names. It leverages a browser's data transfer features so a browser prompt will appear once a download is ready. Files downloaded using this method will be zipped into a container file and will be item level files. This means that if you select an attachment, you will automatically receive the email with the attachment included. Similarly, if you select an excel spreadsheet that was embedded in a word document, you will receive the word document with the excel spreadsheet embedded. Downloaded items will preserve the last modified date which can be viewed as a file property.
+In some cases, you may just need to download a few documents from a case for a specific deposition. The **Download** option is the quickest way to export a small set of data while preserving the native file names. It leverages a browser's data transfer features so a browser prompt will appear once a download is ready. Files downloaded using this method will be zipped into a container file and will be item level files. This means that if you select an attachment, you will automatically receive the email with the attachment included. Similarly, if you select an Excel spreadsheet that was embedded in a word document, you will receive the word document with the Excel spreadsheet embedded. Downloaded items will preserve the last modified date which can be viewed as a file property.
 
 To download content from a review set, start by selecting the files you want to download then click **Download** under the **Action** menu.
 
 ![Download content screen from a review set.](../media/download.png)  
 
 ### Export documents from a review set
-For bigger volumes, you can use the export option. Export lets you customize the content that is included in the download package. This includes exporting file metadata, native files, text files, and redacted documents that have been saved to a PDF file. After the exported data is uploaded to an Azure Storage location, you can download it to a local computer. 
+For bigger volumes, you can use the **Export** option. Export lets you customize the content that is included in the download package. This includes exporting file metadata, native files, text files, and redacted documents that have been saved to a PDF file. After the exported data is uploaded to an Azure Storage location, you can download it to a local computer. 
 
 To export content from a review set, start by selecting the files you want to download then click **Export** under the **Action** menu.
 

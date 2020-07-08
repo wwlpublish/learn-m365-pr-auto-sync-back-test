@@ -46,7 +46,7 @@ The files to be uploaded must be located in subfolders, where each subfolder is 
  
     ![Click Upload files to start the data import wizard.](../media/review-set.png)  
 
-    The first step in the wizard prepares a secure Microsoft-provided Azure Storage location to upload the files to. When the preparation is completed, the Next: Upload files button becomes active.
+    The first step in the wizard prepares a secure Microsoft-provided Azure Storage location to upload the files to. When the preparation is completed, the **Next: Upload files** button becomes active.
 
     ![The first step in the wizard prepares a secure Microsoft-provided Azure Storage location to upload the files to. When the preparation is completed, the Next: Upload files button becomes active.](../media/non-office-data.png)  
 
@@ -76,7 +76,7 @@ You can add content from one review set to another one by selecting specific doc
 
 ![Adding selected items.](../media/action.png)  
 
-In the **Add to another review set options** flyout page, choose the review set you want to add the items to. Choose whether to add **All documents in the review set** or **Selected documents only**. **Additional information** provides options to include metadata from the items and whether to include [tags](https://docs.microsoft.com/microsoft-365/compliance/tagging-documents?view=o365-worldwide?azure-portal=true) from the source review set when the documents are added to the new review set.
+In the **Add to another review set** flyout page, choose the review set you want to add the items to. Choose whether to add **All documents in the review set** or **Selected documents only**. **Additional information** provides options to include metadata from the items and whether to include [tags](https://docs.microsoft.com/microsoft-365/compliance/tagging-documents?view=o365-worldwide?azure-portal=true) from the source review set when the documents are added to the new review set.
 
  ![Add to another review set options flyout page](../media/add-to-another-review-set.png) 
 
@@ -84,8 +84,4 @@ In the **Add to another review set options** flyout page, choose the review set 
 Investigations may be conducted over the course of weeks or even months. As the case progresses, you may discover that there may be additional data sources relevant to a specific custodian. This may require you to create multiple searches over the course of time so that your review set includes all the data that is relevant to the case. 
 
 A load set is an instance of adding data to a review set. For example, if you add the results of two different searches to the same review set, each will represent a load set. 
-
-## Learn more
-- [Supported file types in Advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/supported-filetypes-ediscovery20?view=o365-worldwide?azure-portal=true)
-- [Get started with AzCopy](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy-v10?azure-portal=true)
 
