@@ -4,13 +4,13 @@ This section describes how Advanced eDiscovery supports the first two phases of 
 
 The first phase in the EDRM model is *Identification*. This phase involves identifying the people in the organization who are in possession of documents and communications relevant to the investigation. These individuals are the custodians of data, or just custodians, and are defined as "persons having control of a document or electronic file". For example, the custodian of an email message could be the owner of the mailbox that contains the relevant message. 
 
-Once the custodians have been identified, they are added to an Advanced eDiscovery case. Creating a case is accomplished by navigating to the **Advanced eDiscovery** home page in the Microsoft 365 Compliance Center, navigating to the **Cases** tab, then clicking **Create a case**. 
+Once the custodians have been identified, they are added to an Advanced eDiscovery case. Creating a case is accomplished by navigating to the **Advanced eDiscovery** home page in the Microsoft 365 compliance center, navigating to the **Cases** tab, then clicking **Create a case**. 
  
-![Advanced eDiscovery home page in the Microsoft 365 Compliance Center.](../media/advanced-ediscovery.png) 
+![Advanced eDiscovery home page in the Microsoft 365 compliance center.](../media/advanced-ediscovery.png) 
 
 Once the case has been created, you can begin adding the persons of interest by navigating to the **Custodians** tab and clicking **Add custodians**.
 
-![Custodians tab in Advanced eDiscovery home page in the Microsoft 365 Compliance Center.](../media/add-custodians.png) 
+![Custodians tab in Advanced eDiscovery home page in the Microsoft 365 compliance center.](../media/add-custodians.png) 
 
 When you add a custodian, the system automatically identifies and places a hold on their Exchange mailbox and OneDrive for Business account. This is the *Preservation* phase of the EDRM model. During this process, you can also select additional data sources such as SharePoint sites, Teams, and Yammer groups that the custodian either contributed to or is a member of. 
 
@@ -44,7 +44,7 @@ Holds are applied at the site level. When you place a site on hold, a Preservati
  ![Process for placing SharePoint Online sites on hold.](../media/sharepoint-holds-1.png) 
 
 ### Place a hold on Microsoft Teams 
-Channel conversations that are part of a Microsoft Teams channel are stored in the mailbox that is associated with the Team. On the other hand, files that team members share in a channel are stored on the Microsoft Teams associated SharePoint site. Therefore, if you need to retain conversations and files in a channel you must place the Microsoft Team mailbox and SharePoint site on hold by adding Teams content to the custodial hold. Consider the following example:
+Channel conversations that are part of a Microsoft Teams channel are stored in the mailbox that is associated with the Team. On the other hand, files that team members share in a channel are stored on the SharePoint site associated with the Microsoft Team. Therefore, if you need to retain conversations and files in a channel you must place the Microsoft Team mailbox and SharePoint site on hold by adding Teams content to the custodial hold. Consider the following example:
 
  ![Example of placing a hold on Microsoft Teams](../media/choose-teams.png) 
  
@@ -63,10 +63,10 @@ Every Microsoft Team or team channel contains a Wiki for note taking and collabo
 An organization is required to preserve relevant information when it learns about an impending litigation or regulatory investigation. Since the process of adding a custodian to a case and placing holds on their content is transparent to the end user, the organization should inform the user about the hold and their duty to preserve relevant information. 
 
 The custodian communications tool enables legal teams to configure the following notifications:
-1.	**Issuance notice**. A legal hold notice is issued (or initiated) by a notification from the legal department to custodians who may have relevant information about the case matter. This notice instructs the custodians to preserve any information that may be needed for discovery.
-1.	**Re-Issuance notice**. During a case, custodians may be required to preserve additional content (or less content) than was previously requested. For this scenario, you can update the existing hold notice and reissue it to custodians.
-1.	**Release notice**. Once a matter is resolved and the custodian is no longer subject to a preservation requirement, the custodian can be released from the case. Additionally, you can notify the custodian that they are no longer required to preserve content and provide instructions about how to resume their normal work activity with regard to their data.
-1.	**Reminders and escalations**. In some instances, just issuing a notice isn’t enough to satisfy legal discovery requirements. With each notification, legal teams can schedule a set of reminder and escalation workflows to automatically follow up with unresponsive custodians.
+-	**Issuance notice**. A legal hold notice is issued (or initiated) by a notification from the legal department to custodians who may have relevant information about the case matter. This notice instructs the custodians to preserve any information that may be needed for discovery.
+-	**Re-Issuance notice**. During a case, custodians may be required to preserve additional content (or less content) than was previously requested. For this scenario, you can update the existing hold notice and reissue it to custodians.
+-	**Release notice**. Once a matter is resolved and the custodian is no longer subject to a preservation requirement, the custodian can be released from the case. Additionally, you can notify the custodian that they are no longer required to preserve content and provide instructions about how to resume their normal work activity with regard to their data.
+-	**Reminders and escalations**. In some instances, just issuing a notice isn’t enough to satisfy legal discovery requirements. With each notification, legal teams can schedule a set of reminder and escalation workflows to automatically follow up with unresponsive custodians.
     - **Reminders**: After a legal hold notice has been issued or reissued to a set of custodians, an organization can set up reminders to alert unresponsive custodians.
     - **Escalations**: In some cases, if a custodian remains unresponsive even after a set of reminders over a period of time, the legal team can set up an escalation workflow to notify unresponsive custodians and their manager.
 
@@ -85,7 +85,7 @@ After clicking **Next**, you can use the rich text editor to create the Hold Not
 
  ![Step 3 is using the rich text editor to create the Hold Notice and variables such as display name are available that can be used to create the notice.](../media/define-portal-content.png) 
 
-On the **Set Notifications – Required** page, you can define if this is a new issuance, reissue or release of hold for the communication and define the content within the hold as well as utilize common variables such as display name, acknowledgment link and more.
+On the **Set Notifications – Required** page, you can define if this is a new issuance, reissue or release of hold for the communication and define the content within the hold as well as utilize common variables such as display name, acknowledgment link, and more.
 
  ![Set Notifications - Required page](../media/set-notifications.png) 
 
@@ -114,7 +114,7 @@ The flyout page also enables you to do the following:
 - **Release the custodian from the case**. Custodians are automatically released when a case is closed. In other scenarios, you can click **Release custodians** when the custodian is no longer under obligation to preserve content for a case, or when the custodian is no longer considered to be relevant to the case.
 
 ## View custodian activities in the audit log
-The Custodian activities search page is displayed when you click **View custodian activity**. You can select different custodians in the **Custodian** drop-down box, but you can only search for activities for one custodian at a time.
+The **Custodian activities** page is displayed when you click **View custodian activity**. You can select different custodians in the **Custodian** drop-down box, but you can only search for activities for one custodian at a time.
 
  ![Custodian activities search page  ](../media/custodian-activities.png) 
 
@@ -139,6 +139,3 @@ The results contain the following information about each event returned by the s
 You can filter the results by date, IP address, activity, or by a specific item. To filter the search results, click **Filter results**, then click one of the boxes under a column header and type a word or phrase, depending on the column you are filtering on. The results will dynamically readjust to display the events that match your filter.
 
 The **Export results** button lets you export the results of an audit log search to a comma-separated value (CSV) file on your computer. This enables you to open the file in Microsoft Excel and use features such as search, sorting, filtering, and splitting a single column (that contains multi-value cells) into multiple columns.
-
-## Learn more
- - [Overview of Native Mode](https://docs.microsoft.com/yammer/configure-your-yammer-network/overview-native-mode?azure-portal=true)

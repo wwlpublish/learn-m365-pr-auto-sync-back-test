@@ -11,7 +11,7 @@ Microsoft 365 has a built-in eDiscovery solution meant to address these challeng
 ## The Electronic Discovery Reference Model
 In today’s digital workplace, the sheer volume of electronically stored information, in addition to increased regulation and litigation, are driving increased growth in eDiscovery and investigations more broadly. In 2018, IDC estimated that organizations spent over $10B supporting customers’ eDiscovery needs. According to another survey, 63 percent of organizations expect to conduct even more investigations. 
 
-Many organizations maintain an exorbitant amount of data in the form of email messages and electronic documents, social data, instant messages, and webpages. By 2025, IDC says worldwide data will grow 61 percent to 175 zettabytes, with as much of the data stored in the cloud as in data centers. With legal review costs up to of $150 per gigabyte, there is strong incentive to filter the massive volume of data that is analyzed so the results sent for review are the most relevant to an investigation. The process of gathering and analyzing electronic information so that a large volume of data is filtered down to what is most relevant is commonly referred to as EDRM, or the [Electronic Discovery Reference Model](https://www.edrm.net/resources/frameworks-and-standards/edrm-model/?azure-portal=true?). 
+Many organizations maintain an exorbitant amount of data in the form of email messages and electronic documents, social data, instant messages, and webpages. By 2025, IDC says worldwide data will grow 61 percent to 175 zettabytes, with as much of the data stored in the cloud as in data centers. With legal review costs up to $150 per gigabyte, there is strong incentive to filter the massive volume of data that is analyzed so the results sent for review are the most relevant to an investigation. The process of gathering and analyzing electronic information so that a large volume of data is filtered down to what is most relevant is commonly referred to as EDRM, or the [Electronic Discovery Reference Model](https://www.edrm.net/resources/frameworks-and-standards/edrm-model/?azure-portal=true?). 
 
 Since 2005, [EDRM](http://www.edrm.net/?azure-portal=true) has delivered standards, tools, guides, and test datasets to improve eDiscovery, privacy, and security best practices throughout the world. A relatively recent addition to the EDRM model was Information Governance, which is about getting your electronic house in order to mitigate risk and expenses should it become necessary to use eDiscovery. 
 
@@ -23,8 +23,6 @@ It’s also worth noting that the same step may be repeated numerous times or yo
 
 ## Advanced eDiscovery in Microsoft 365
 The Advanced eDiscovery solution in Microsoft 365 builds on the original, core [eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/ediscovery?view=o365-worldwide?azure-portal=true) solution in Microsoft 365 by providing expanded capabilities that enable you to do more while the data remains in-place in your tenant. 
-
-For some context, the traditional method of performing eDiscovery typically involved collecting large amounts of data from various distributed sources, storing them in a central location (usually off-site), and then indexing and searching through the data to identify the most relevant content. In many cases, these steps would take place at a third-party vendor. This approach took a lot of time, added high costs at each stage, and caused interruptions to the end users whose data was being collected causing lost productivity. 
 
  ![Advanced eDiscovery solution in Microsoft 365](../media/all-microsoft-365.png) 
  
@@ -67,10 +65,3 @@ Version 2.0 of the Advanced eDiscovery solution in Microsoft provides all of the
 To access Advanced eDiscovery v2.0:
 1.	Go to the [Microsoft 365 compliance center](https://compliance.microsoft.com/?azure-portal=true).
 1.	In the left navigation pane of the Microsoft 365 compliance center, click **Show all**, and then click **eDiscovery > Advanced**.
-
-## Learn more
-- [EDRM Model](https://www.edrm.net/resources/frameworks-and-standards/edrm-model/?azure-portal=true) 
-- [EDRM home page](https://www.edrm.net/?azure-portal=true)
-- [Reduce cost and risk with Microsoft 365 Advanced eDiscovery (video)](https://www.microsoft.com/videoplayer/embed/RE4Asf4?azure-portal=true)
-- [eDiscovery in Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/ediscovery?view=o365-worldwide?azure-portal=true) 
-

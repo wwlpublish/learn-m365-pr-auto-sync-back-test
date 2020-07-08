@@ -4,7 +4,7 @@ By creating widgets, you can quickly analyze your data to identify trends or key
 
 For example, if your priority is to review all the data from a specific sender domain, you can create a widget that allows you to see that data with a bar chart, pie chart, column chart, or line chart. By applying a condition to the widget, you can filter the search even further. When finished, you can save the results as a query. 
 
-Once you specify the domain, you can use this to create your search and save it as a query. 
+Once you specify the sender domain, you can use this to create your search and save it as a query. 
 
 ### Create a widget on the review set dashboard
 1. Open the case under investigation and navigate to the **Review Sets** tab, then select a review set.
@@ -28,7 +28,7 @@ Once you specify the domain, you can use this to create your search and save it 
 
      ![Create custom widget screen.](../media/add-widget.png) 
 
-1. In our example, we want to review the data from a specific sender domain and display the results in a bar chart. Therefore, after entering a name for the widget in the **Title** field, select **Sender Domain** from the **Choose pivot** drop-down list.
+1. In our example, we want to review the data from a specific sender domain and display the results in a bar chart. Therefore, after entering a name for the widget in the **Title** field, select **SenderDomain** from the **Choose pivot** drop-down list.
   
      ![Create custom widget example.](../media/senderdomain.png) 
 
@@ -36,7 +36,7 @@ Once you specify the domain, you can use this to create your search and save it 
 
      ![Create custom widget example, part 2.](../media/bar-chart.png) 
 
-1. You can further filter your results by clicking the ellipses (…), then Apply condition.
+1. You can further filter your results by clicking the ellipses (…), then click **Apply condition**.
 
      ![Create custom widget example, part 3.](../media/apply-condition.png) 
 
@@ -129,8 +129,8 @@ Advanced eDiscovery recently introduced a new smart tag for detecting attorney-c
 To take full advantage of the attorney-client privilege detection model, it is recommended that you submit a list of attorneys for your organization when you set up attorney-client privilege detection in your tenant. The model then compares the participants of the document with the attorney list to determine if a document has at least one attorney participant. The ML model also uses machine learning to determine the likelihood that the document contains content that is legal in nature. The analysis of this combination produces three properties for each document which ultimately determines whether or not privileged communications were detected:
  - **AttorneyClientPrivilegeScore**. The likelihood the document is legal in nature; the values for the score are between **0** and **1**.
  - **HasAttorney**. This property is set to **true** if one of the document participants is listed in the attorney list; otherwise the value is **false**. The value is also set to **false** if your organization didn't upload an attorney list.
- - **IsPrivilege. This property is set to **true** if the value for **AttorneyClientPrivilegeScore** is above the threshold *or* if the document has an attorney participant; otherwise the value is set to **false**.
- - 
+ - **IsPrivilege**. This property is set to **true** if the value for **AttorneyClientPrivilegeScore** is above the threshold *or* if the document has an attorney participant; otherwise the value is set to **false**.
+ 
 These properties and their corresponding values are searchable within a review set and added to the file metadata of the documents in a review set, as illustrated in the screenshot below:
 
  ![Attorney-client privilege score.](../media/a-c-p-score.png) 
@@ -169,8 +169,4 @@ Either method will open the interface that enables you to customize the Attorney
  ![Two locations for configuring smart tag groups.](../media/manage-tags-a-c-p.png) 
 
 For more information, see [Use the attorney-client privilege detection model](https://docs.microsoft.com/microsoft-365/compliance/attorney-privilege-detection?view=o365-worldwide#use-the-attorney-client-privilege-detection-model?azure-portal=true).
-
-## Learn more
- - [Document metadata fields in Advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/document-metadata-fields-in-advanced-ediscovery?view=o365-worldwide?azure-portal=true) 
- - [Use the attorney-client privilege detection model](https://docs.microsoft.com/microsoft-365/compliance/attorney-privilege-detection?view=o365-worldwide#use-the-attorney-client-privilege-detection-model?azure-portal=true).
 
