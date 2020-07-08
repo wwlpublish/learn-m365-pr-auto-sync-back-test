@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365-identity.m365-identity-secure-administrators.isolated-identity
-title: Understand Isolated identity
+title: Understand isolated identity
 metadata:
-  title: Understand Isolated identity
+  title: Understand isolated identity
   description:  Learn about securing administrator accounts through secure devices, dedicated administrator accounts, and just-in-time privileges. 
   ms.date: 07/08/2020
   author: AlexandraHrt
