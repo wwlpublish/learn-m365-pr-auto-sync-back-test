@@ -18,6 +18,8 @@ For example, using the security recommendations present in the portal, an admini
 
 [ ![Security recommendations](../media/security-recommendations.png) ](../media/security-recommendations-magnify.png#lightbox)
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4r1nv?rel=0]
+
 ## Attack surface reduction
 
 The attack surface reduction set of capabilities provides the first line of defense in the stack by ensuring configuration settings are properly set and exploit mitigation techniques are applied.
@@ -33,6 +35,8 @@ The attack surface reduction set of capabilities provides the first line of defe
 The  below screenshot shows a chart of detections against an attack surface reduction rule that is protecting office applications:
 
  [ ![Attack surface reduction rules](../media/attack-surface-reduction-rules.png) ](../media/attack-surface-reduction-rules-magnify.png#lightbox)
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4woug]
 
 ## Next generation protection
 
@@ -71,3 +75,5 @@ Microsoft Defender ATP offers a wide breadth of visibility on multiple machines.
 The automated investigation feature uses various inspection algorithms, and processes used by analysts (such as playbooks) to examine alerts and take immediate remediation action to resolve breaches. This significantly reduces alert volume, allowing security operations experts to focus on more sophisticated threats and other high value initiatives. In the following investigation screenshot, we can see that malware was detected, as well as automatically remediated:
 
  [ ![Malware detected and remediated](../media/malware-detected-remediated.png) ](../media/malware-detected-remediated-magnify.png#lightbox)
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4bOeh?rel=0]
