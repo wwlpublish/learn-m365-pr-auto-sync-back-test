@@ -10,6 +10,13 @@
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-office-lob-apps/2-install-upgrade-m365-apps",
       "redirect_document_id": true
     },
+	
+	{
+      "source_path": "learn-m365-pr/m365/m365-identity-authentication/implement-pw-alternatives.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-authentication/implement-password-alternatives",
+      "redirect_document_id": true
+    },
+	
     {
 	  	"source_path": "learn-m365-pr/m365/m365-identity-secure-administrators/configure-nonpersistent.yml",
 	  	"redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-secure-administrators/just-time-privileges",
