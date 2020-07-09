@@ -10,6 +10,24 @@
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-office-lob-apps/2-install-upgrade-m365-apps",
       "redirect_document_id": true
     },
+	{
+      "source_path": "learn-m365-pr/m365/m365-identity-provisioning/choose-deploy-sso.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-provisioning/introduction",
+      "redirect_document_id": true
+    },
+
+    {
+      "source_path": "learn-m365-pr/m365/m365-identity-provisioning/importance-identity-governance.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-provisioning/proactive-identity-governance",
+      "redirect_document_id": true
+    },
+
+    {
+      "source_path": "learn-m365-pr/m365/m365-identity-provisioning/right-access-safeguard.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-provisioning/define-right-access",
+      "redirect_document_id": true
+    },
+		
     {
       "source_path": "learn-m365-pr/compliance-with-microsoft-365/index.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/compliance-with-microsoft-365",
