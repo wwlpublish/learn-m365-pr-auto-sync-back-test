@@ -46,5 +46,8 @@ ProcessCreationEvents
     or FileName endswith ".jpeg.exe"
 | project EventTime, ComputerName, FileName, AccountSid, AccountName, AccountDomain
 | top 100 by EventTime
+
 ```
+
+>
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4bGqo?rel=0]

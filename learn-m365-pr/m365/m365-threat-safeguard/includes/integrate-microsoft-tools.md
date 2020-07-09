@@ -7,6 +7,7 @@ Once integrated into Microsoft Cloud App Security, you'll be able to see on-prem
 
 [ ![Azure ATP reporting within Microsoft Cloud App Security](../media/azure-reporting-cloud-app-security.png) ](../media/azure-reporting-cloud-app-security-magnify.png#lightbox)
 
+>
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4r4yQ?rel=0]
 
 Azure Advanced Threat Protection also enables you to integrate Azure ATP with Microsoft Defender ATP, for an even more complete threat protection solution. While Azure ATP monitors the traffic on your domain controllers, Microsoft Defender ATP monitors your endpoints, together providing a single interface from which you can protect your environment.
