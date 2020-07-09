@@ -18,6 +18,7 @@ For example, using the security recommendations present in the portal, an admini
 
 [ ![Security recommendations](../media/security-recommendations.png) ](../media/security-recommendations-magnify.png#lightbox)
 
+>
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4r1nv?rel=0]
 
 ## Attack surface reduction
@@ -36,6 +37,7 @@ The  below screenshot shows a chart of detections against an attack surface redu
 
  [ ![Attack surface reduction rules](../media/attack-surface-reduction-rules.png) ](../media/attack-surface-reduction-rules-magnify.png#lightbox)
 
+>
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4woug]
 
 ## Next generation protection
@@ -76,4 +78,5 @@ The automated investigation feature uses various inspection algorithms, and proc
 
  [ ![Malware detected and remediated](../media/malware-detected-remediated.png) ](../media/malware-detected-remediated-magnify.png#lightbox)
 
+>
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4bOeh?rel=0]
