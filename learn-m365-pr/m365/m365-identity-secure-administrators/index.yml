@@ -1,22 +1,23 @@
 ### YamlMime:Module
 uid: learn-m365-identity.m365-identity-secure-administrators
 metadata:
-  title: Protect those most targeted
-  description: Learn how to protect the most important credentials in your enterprise ecosystem - administrator credentials.
-  ms.date: 09/06/2019
-  author: puffinanda
-  ms.author: v-jolev
+  title: Secure administrator accounts in Microsoft 365
+  description: Learn about securing administrator accounts through secure devices, dedicated administrator accounts, and just-in-time privileges. 
+  ms.date: 07/08/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Protect those most targeted
-summary: Learn how to protect the most important credentials in your enterprise ecosystem - administrator credentials.
+title: Secure administrator accounts in Microsoft 365
+summary: Learn about securing administrator accounts through secure devices, dedicated administrator accounts, and just-in-time privileges. 
 abstract: |
   In this module, you will learn:
-   - Why administrator accounts require enhanced security
-   - How to implement just-in-time access 
-   - How to enforce using secure devices
-   - How to isolate privileged access
-prerequisites: None
+   - How to define privileged access workstations.
+   - How creating dedicated accounts for administrators improves security. 
+   - How Privileged Identity Management works.
+
+prerequisites: | 
+ - Intermediate understanding of Microsoft 365.
 iconUrl: /learn/achievements/use-microsoft-365-to-secure-administrator-access.svg
 ratingEnabled: true
 levels:
@@ -24,13 +25,12 @@ levels:
 roles:
 - administrator
 products:
+- azure
 - m365
 units:
 - learn-m365-identity.m365-identity-secure-administrators.introduction
-- learn-m365-identity.m365-identity-secure-administrators.enforce-secure-devices
-- learn-m365-identity.m365-identity-secure-administrators.enhance-security-admin-accounts
-- learn-m365-identity.m365-identity-secure-administrators.isolate-privileged-accounts
-- learn-m365-identity.m365-identity-secure-administrators.configure-nonpersistent
+- learn-m365-identity.m365-identity-secure-administrators.isolated-identity
+- learn-m365-identity.m365-identity-secure-administrators.just-time-privileges
 - learn-m365-identity.m365-identity-secure-administrators.summary-knowledge-check
 badge: 
   uid: learn-m365-identity.m365-identity-secure-administrators.badge
