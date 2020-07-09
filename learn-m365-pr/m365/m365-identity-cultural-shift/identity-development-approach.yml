@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365-identity.m365-cultural-shift.introduction
-title: Introduction to identity protection
+uid: learn-m365-identity.m365-cultural-shift.identity-development-approach
+title: Incorporate identity into your development approach 
 metadata:
-  title: Introduction to identity protection
+  title: Incorporate identity into your development approach 
   description:  Learn about Azure Active Directory (AD) Identity Protection and ways to optimize the end-user experience while benefiting security. 
   ms.date: 07/08/2020
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 1
+durationInMinutes: 3
 content: |
-  [!include[](includes/introduction.md)]
+  [!include[](includes/identity-development-approach.md)]

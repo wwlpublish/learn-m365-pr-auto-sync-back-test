@@ -1,3 +1,1 @@
-The core foundation of cyber security is to quickly and accurately identify authorized users and provide them with proper access to the information and tools they need to do their job. Protecting identity and access management are core principles in Microsoft 365. Our goal is to provide you with the tools to protect the identity of your authorized users so you can authenticate their credentials and manage their access to your files in a seamless manner that gives them the freedom to collaborate with others as needed.
-
-Azure Active Directory is a component of Microsoft 365. Its technologies help ensure that only your approved users have appropriate access to your data.
+content here
