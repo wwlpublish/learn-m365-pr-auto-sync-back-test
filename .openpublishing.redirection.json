@@ -10,6 +10,13 @@
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-office-lob-apps/2-install-upgrade-m365-apps",
       "redirect_document_id": true
     },
+	
+	{
+      "source_path": "learn-m365-pr/m365/m365-identity-authentication/implement-pw-alternatives.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-authentication/implement-password-alternatives",
+      "redirect_document_id": true
+    },
+	
     {
       "source_path": "learn-m365-pr/compliance-with-microsoft-365/index.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/compliance-with-microsoft-365",
