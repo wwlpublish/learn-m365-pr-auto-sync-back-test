@@ -3,13 +3,13 @@ uid: learn-m365-identity.m365-cultural-shift.summary-knowledge-check
 title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
-  description: Review what you've learned about promoting a security mindset.
-  ms.date: 09/06/2019
-  author: puffinanda
-  ms.author: v-jolev
+  description: Learn about Azure Active Directory (AD) Identity Protection and ways to optimize the end-user experience while benefiting security. 
+  ms.date: 07/08/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 2
+durationInMinutes: 5
 content: |
   [!include[](includes/summary-knowledge-check.md)]
 quiz:

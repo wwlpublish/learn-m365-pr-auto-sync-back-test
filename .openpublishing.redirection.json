@@ -10,6 +10,25 @@
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-office-lob-apps/2-install-upgrade-m365-apps",
       "redirect_document_id": true
     },
+	
+	{
+      "source_path": "learn-m365-pr/m365/m365-identity-cultural-shift/build-IT-awareness.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-cultural-shift/introduction",
+      "redirect_document_id": true
+    },
+
+    {
+      "source_path": "learn-m365-pr/m365/m365-identity-cultural-shift/help-developers-become-security-allies.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-cultural-shift/identity-development-approach",
+      "redirect_document_id": true
+    },
+
+    {
+      "source_path": "learn-m365-pr/m365/m365-identity-cultural-shift/increase-user-security-awareness.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-cultural-shift/security-best-practices",
+      "redirect_document_id": true
+    },
+	
     {
       "source_path": "learn-m365-pr/compliance-with-microsoft-365/index.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/compliance-with-microsoft-365",
