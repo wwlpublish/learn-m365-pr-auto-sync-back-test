@@ -11,45 +11,48 @@
       "redirect_document_id": true
     },
 
+    {
+	  	"source_path": "learn-m365-pr/m365/m365-identity-secure-administrators/configure-nonpersistent.yml",
+	  	"redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-secure-administrators/just-time-privileges",
+	  	"redirect_document_id": true
+	  },
+
+    {
+	  "source_path": "learn-m365-pr/m365/m365-identity-cultural-shift/build-IT-awareness.yml",
+	  "redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-cultural-shift/introduction",
+	  "redirect_document_id": true
+	  },
+
 	  {
-      "source_path": "learn-m365-pr/m365/m365-identity-secure-administrators/configure-nonpersistent.yml",
-      "redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-secure-administrators/just-time-privileges",
-      "redirect_document_id": true
+	  	"source_path": "learn-m365-pr/m365/m365-identity-secure-administrators/enforce-secure-devices.yml",
+	  	"redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-secure-administrators/introduction",
+	  	"redirect_document_id": true
     },
-
-      "source_path": "learn-m365-pr/m365/m365-identity-cultural-shift/build-IT-awareness.yml",
-      "redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-cultural-shift/introduction",
-      "redirect_document_id": true
-    },
-
-    {
-      "source_path": "learn-m365-pr/m365/m365-identity-secure-administrators/enforce-secure-devices.yml",
-      "redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-secure-administrators/introduction",
-      "redirect_document_id": true
     
-    },
-      "source_path": "learn-m365-pr/m365/m365-identity-cultural-shift/help-developers-become-security-allies.yml",
-      "redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-cultural-shift/identity-development-approach",
-      "redirect_document_id": true
-    },
+    {
+	  "source_path": "learn-m365-pr/m365/m365-identity-cultural-shift/help-developers-become-security-allies.yml",
+	  "redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-cultural-shift/identity-development-approach",
+	  "redirect_document_id": true
+	  },
+
+	  {
+	  	"source_path": "learn-m365-pr/m365/m365-identity-secure-administrators/enhance-security-admin-accounts.yml",
+	  	"redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-secure-administrators/just-time-privileges",
+	  	"redirect_document_id": true
+	  },
+
+	  {
+	  	"source_path": "learn-m365-pr/m365/m365-identity-secure-administrators/isolate-privileged-accounts.yml",
+	  	"redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-secure-administrators/isolated-identity",
+	  	"redirect_document_id": true
+	  },
 
     {
-      "source_path": "learn-m365-pr/m365/m365-identity-secure-administrators/enhance-security-admin-accounts.yml",
-      "redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-secure-administrators/just-time-privileges",
-      "redirect_document_id": true
+	  "source_path": "learn-m365-pr/m365/m365-identity-cultural-shift/increase-user-security-awareness.yml",
+	  "redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-cultural-shift/security-best-practices",
+	  "redirect_document_id": true
     },
-
-    {
-      "source_path": "learn-m365-pr/m365/m365-identity-secure-administrators/isolate-privileged-accounts.yml",
-      "redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-secure-administrators/isolated-identity",
-      "redirect_document_id": true
-    },
-
-      "source_path": "learn-m365-pr/m365/m365-identity-cultural-shift/increase-user-security-awareness.yml",
-      "redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-cultural-shift/security-best-practices",
-      "redirect_document_id": true
-    },
-	
+    
     {
       "source_path": "learn-m365-pr/compliance-with-microsoft-365/index.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/compliance-with-microsoft-365",
