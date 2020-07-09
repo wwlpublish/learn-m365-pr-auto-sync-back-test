@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365-identity.m365-cultural-shift.summary-knowledge-check
+uid: learn-m365-identity.m365-identity-zero-trust.summary-knowledge-check
 title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
-  description: Learn about Azure Active Directory (AD) Identity Protection and ways to optimize the end-user experience while benefiting security. 
+  description: Learn about the Zero Trust model and how to implement Zero Trust into your organization. 
   ms.date: 07/08/2020
   author: AlexandraHrt
   ms.author: v-aleha
