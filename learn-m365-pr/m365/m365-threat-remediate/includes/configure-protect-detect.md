@@ -64,3 +64,10 @@ There is no default ATP anti-phishing policy. When creating one, only targeting 
 An impersonated domain might otherwise be considered legitimate (registered domain, configured email authentication records, etc.), except its intent is to deceive recipients. In the ATP anti-phishing policy, you can configure a set of users to protect, domains to protect, actions for protected users (such as redirect messages or sending to junk folders), safety tips, trusted senders and domains and more. These settings are exclusive to ATP anti-phishing. Anti-spoofing settings are also included in ATP anti-phishing policies.
 
 ![Anti-phishing policy](../media/anti-phishing-policy.png)
+
+View a [video version](https://www.microsoft.com/videoplayer/embed/RE4AD4D) of the interactive guide (captions available in more languages).
+
+<a href="https://mslearn.cloudguides.com/guides/Safeguard%20your%20organization%20with%20Office%20365%20Advanced%20Threat%20Protection">![Office 365 ATP](../media/thumbnail-safeguard-office-365-atp.png)</a>  
+
+Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
+

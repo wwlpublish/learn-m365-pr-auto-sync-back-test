@@ -1,5 +1,11 @@
 Advanced hunting within Microsoft Defender ATP allows you to hunt for possible threats across your organization using a powerful search and query tool. You can proactively inspect events in your network in order to locate interesting indicators and entities. The flexible access to data aids unconstrained hunting for both known and potential threats.
- 
+
+View a [video version](https://www.microsoft.com/videoplayer/embed/RE4AlaY) of the interactive guide (captions available in more languages).
+
+<a href="https://mslearn.cloudguides.com/guides/Investigate%20and%20remediate%20threats%20with%20Microsoft%20Defender%20ATP">![Microsoft Defender ATP](../media/thumbnail-investigate-microsoft-defender-atp.png)</a>  
+
+Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
+
 You can use the same threat-hunting queries to build custom detection rules. These rules run automatically to check for and respond to various events and system states, including suspected breach activity and misconfigured machines.
 
 ![Use threat hunting queries](../media/threat-hunting-query.png)

@@ -27,6 +27,12 @@ Microsoft Threat Protection suite protects:
 - Identities with Azure ATP and Azure Active Directory (AD) Identity Protection - Azure ATP uses Active Directory signals to identify, detect, and investigate advanced threats, compromised identities, and malicious insider actions directed at your organization.
 - Applications with Microsoft Cloud App security - Microsoft Cloud App security is a comprehensive cross-SaaS solution bringing deep visibility, strong data controls, and enhanced threat protection to your cloud apps.
 
+View a [video version](https://www.microsoft.com/videoplayer/embed/RE4ARh9) of the interactive guide (captions available in more languages).
+
+<a href="https://mslearn.cloudguides.com/guides/Protect%20your%20organization%20with%20Microsoft%20Threat%20Protection">![Microsoft Threat Protection](../media/thumbnail-protect-microsoft-threat-protection.png)</a>  
+
+Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
+
 To dynamically identify new threats, Windows Defender Antivirus (part of Microsoft Defender ATP) works with large sets of interconnected data in the Microsoft Intelligent Security Graph and powerful artificial intelligence (AI) systems driven by advanced machine learning models.
 
 The Microsoft Graph Security API is a unified API that provides a standard interface and uniform schema to integrate security alerts and threat intelligence from multiple sources, enrich alerts and data with contextual information, and automate security operations. The security API is part of the Microsoft Graph, which is a unified REST API for integrating data and intelligence from Microsoft and partner products and services. Using Microsoft Graph, customers and partners can rapidly build solutions that authenticate once and use a single API call to access or act on security insights from multiple security solutions. Additional value is uncovered when you explore the other Microsoft Graph entities (Office 365, Azure Active Directory, Intune, and more) to tie business context with your security insights.
