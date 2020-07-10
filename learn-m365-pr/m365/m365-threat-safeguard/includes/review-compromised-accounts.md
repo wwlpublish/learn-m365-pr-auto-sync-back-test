@@ -66,6 +66,8 @@ From all the previous alerts, we suspect that an attacker has:
 
 With domain administrative permissions, the attacker has effectively compromised the environment. Now they are free to perform any number of attacks, such as a Skeleton Key attack. 
 
+### Explore how to detect suspicious activities and potential attacks with Azure ATP
+
 View a [video version](https://www.microsoft.com/videoplayer/embed/RE4AHZO) of the interactive guide (captions available in more languages).
 
 <a href="https://mslearn.cloudguides.com/guides/Detect%20suspicious%20activities%20and%20potential%20attacks%20with%20Azure%20ATP">![Azure ATP](../media/thumbnail-azure-atp.png)</a>  
