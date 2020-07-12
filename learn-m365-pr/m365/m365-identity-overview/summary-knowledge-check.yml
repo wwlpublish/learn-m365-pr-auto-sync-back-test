@@ -15,36 +15,35 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Why do today’s security analysts sometimes describe identity security as *the new control plane*?"
+    - content: "Azure Active Directory doesn’t natively support mobile devices without third-party solutions."
       choices:
-      - content: "In the time of mainframes and local identities, IT was not concerned about identity management, but with the advent of cloud computing it’s become significant."
-        isCorrect: false
-        explanation: "IT has always been concerned with identity security. Cloud computing and proliferation of mobile devices have made identity and access control critical."
-      - content: "Before cloud computing, all user credentials resided on-premises; now they all live in a public cloud."
-        isCorrect: false
-        explanation: "Not all organizations store user credentials in a public cloud. Regardless of where credentials reside, passwords are not the most reliable protection against network breaches."
-      - content: "Unlike the days of single organizational identities, workers today use many devices and cloud apps with multiple identities and passwords."
+      - content: "True"
         isCorrect: true
-        explanation: "As users now access data through multiple devices and identities, the network perimeter is no longer the first line of defense."
-    - content: "Why is user identity vulnerable to attacks in today’s digital landscape?"
+        explanation: "Incorrect. Azure AD is integrated with Microsoft Intune, a Microsoft mobile device management solution."
+      - content: "False"
+        isCorrect: false
+        explanation: "Correct! Azure AD is integrated with Microsoft Intune, a Microsoft mobile device management solution."
+      
+    - content: "Which of the following describes Azure Active Directory?"
       choices:
-      - content: "Sophisticated attackers can exploit software vulnerabilities by inserting malicious code in webpages and thereby gain access to credentials stored on users’ devices."
-        isCorrect: false
-        explanation: "Users don’t always store credentials on their devices, but smart hackers use social engineering techniques to trick users into divulging credentials."
-      - content: "Because users access organizational data through mobile devices and cloud apps, they must remember numerous passwords, and hackers can exploit this weakness."
+      - content: "Microsoft’s evolution of identity and access management for the cloud"
         isCorrect: true
-        explanation: "Because users find it difficult to remember numerous personal and work passwords, they tend to use weak or duplicate passwords that are vulnerable to identity theft and brute force attacks."
-      - content: "Most organizations now store workforce credentials in the cloud where they are increasingly vulnerable to attack."
+        explanation: "Correct! Azure AD provides organizations with Identity as a Service, and helps employees sign in and access resources within external and internal sources."
+      - content: "Controls and helps secure email, documents, and sensitive data inside and outside your company walls"
         isCorrect: false
-        explanation: "Regardless of where credentials are stored, attackers target weak or duplicate passwords that are the most vulnerable to compromise."
-    - content: "Which of these describes a modern identity and access management strategy?"
+        explanation: "Incorrect. This is an explanation of Azure Information Protection. Azure AD is Microsoft’s cloud-based identity and access management service."
+      - content: "Safeguards access to data and applications by requiring a second form of authentication and a range of easy to use authentication methods."
+        isCorrect: false
+        explanation: "Incorrect. This is an explanation of multi-factor authentication. Azure AD is Microsoft’s cloud-based identity and access management service."
+    
+    - content: "Which of the following is a reason that the network perimeter is no longer enough?"
       choices:
-      - content: "Protect internal and external user identity while improving user experience and productivity."
+      - content: "Organizational data is kept internal to the network boundaries."
+        isCorrect: false
+        explanation: "Incorrect. Organizational data, devices, and users often reside and operate outside of traditional network boundaries (whether this was sanctioned by IT or not."
+      - content: "Adversaries are using phishing attacks."
         isCorrect: true
-        explanation: "Users value productivity over identity protection and prefer a simple authentication experience."
-      - content: "Prioritize hardening the on-premises network security perimeter while requiring periodic password changes."
+        explanation: "Correct! Adversaries have demonstrated a consistent and ongoing ability to penetrate network perimeters using phishing attacks.."
+      - content: "Port and protocol definitions have kept up with the complexity of data."
         isCorrect: false
-        explanation: "Requiring regular password changes is best practice but it doesn’t fully address phishing attacks and the user experience."
-      - content: "Create and enforce a single strong access policy for all users."
-        isCorrect: false
-        explanation: "A modern access management strategy avoids a one-size-fits-all approach, preferring to customize policy based on user role and need to access."
+        explanation: "Incorrect. Port and protocol definitions and exceptions have failed to keep up with the complexity of services, applications, devices, and data."
