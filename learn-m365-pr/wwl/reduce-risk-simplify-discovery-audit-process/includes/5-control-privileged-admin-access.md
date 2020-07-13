@@ -15,6 +15,6 @@ After approval is granted, the requesting user can execute the intended task and
 
 Watch this 6-minute video to get a tour of Privileged Access management:
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4xqtC?pid=RE4xqtC-ax-86-id-oneplayer&postJsllMsg=true&autoplay=false&mute=false&loop=false&market=en-us&playFullScreen=false]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4xqtC]
 
 In the video, you watched a tour of scoped, just-in-time controls for granting admin role and task privileges.
