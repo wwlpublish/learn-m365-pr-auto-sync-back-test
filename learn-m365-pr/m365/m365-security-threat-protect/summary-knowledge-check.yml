@@ -3,8 +3,8 @@ uid: learn-m365.m365-security-threat-protect.summary-knowledge-check
 title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
-  description: Review what you've learned about the threat protection capabilities included in Microsoft 365.
-  ms.date: 10/14/2019
+  description: Learn how Microsoft Defender Advanced Threat Protection can help your organization stay secure. 
+  ms.date: 06/30/2020
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
@@ -15,48 +15,35 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Which of the following best describes the Microsoft Defender ATP agent?"
+    - content: "The Microsoft Defender ATP agent should be deployed to all Windows 10 devices in your organization."
       choices:
-      - content: "The sensors are embedded into Windows 10 so the agent does not need to be deployed."
+      - content: "True"
+        isCorrect: false
+        explanation: "Incorrect. Microsoft Defender ATP behavioral sensors are embedded in Windows 10."
+      - content: "False"
         isCorrect: true
         explanation: "Correct! Microsoft ATP behavioral sensors are embedded in Windows 10."
-      - content: "The agent should be deployed to any Windows 10 device not managed by Microsoft Intune."
+  
+    - content: "Which of the following choices describes threat hunting using Microsoft Defender ATP?"
+      choices:
+      - content: "You can proactively inspect events in your network using a powerful search and query tool."
+        isCorrect: true
+        explanation: "Correct! Microsoft Defender ATP advanced threat hunting is built on top of a query language that gives you flexibility."
+      - content: "Detecting and blocking apps that are considered unsafe but may not be detected as malware."
         isCorrect: false
-        explanation: "The agent does not need to be deployed to Windows 10 devices regardless of whether they’re Intune managed or not."
-      - content: "The agent should be deployed to all Windows 10 devices."
+        explanation: "Incorrect. This is an explanation of advanced protection provided by Windows Defender Antivirus."
+      - content: "Reduce vulnerabilities (attack surfaces) in your applications with intelligent rules that help stop malware."
         isCorrect: false
-        explanation: "The agent does not need to be deployed to Windows 10 devices."
-      - content: "The sensors are embedded into Windows 10 so only the enablement agent needs to be deployed to Windows 10 devices."
-        isCorrect: false
-        explanation: "The Microsoft ATP behavioral sensors are embedded into Windows 10, there is no enablement agent."
+        explanation: "Incorrect. This is an explanation of attack surface reduction."
 
-    - content: "Which of the following best describes the benefits of Cloud App Security?"
+    - content: "Which of the following is not a component of Microsoft Defender ATP?"
       choices:
-      - content: "It provides visibility and control over data travel along with sophisticated analytics to help you identify and combat cyberthreats across all your Microsoft and third-party cloud services."
+      - content: "Next generation protection"
+        isCorrect: false
+        explanation: "Incorrect. Threat and vulnerability management, attack surface reduction, next generation protection, endpoint detection and response, automated investigation and remediation are all components of Microsoft Defender ATP."
+      - content: "Endpoint detection and response"
+        isCorrect: false
+        explanation: "Incorrect. Threat and vulnerability management, attack surface reduction, next generation protection, endpoint detection and response, automated investigation and remediation are all components of Microsoft Defender ATP."
+      - content: "Cloud device management"
         isCorrect: true
-        explanation: "Correct! Cloud App Security allows organizations to benefit from cloud apps and services while providing IT the ability to maintain control and protect data."
-      - content: "It is a cloud-based email filtering service that helps protect your organization against unknown malware and viruses by providing robust zero-day protection."
-        isCorrect: false
-        explanation: "These are the services available as part of Office 365 ATP."
-      - content: "It provides built-in remediation processes through Microsoft Intune and Microsoft System Center Configuration Manager."
-        isCorrect: false
-        explanation: "This is an explanation of next-generation capabilities of Microsoft Defender ATP."
-      - content: "It allows you to easily view the security health of your organization, act to configure devices, users, and apps, and get alerts for suspicious activity."
-        isCorrect: false
-        explanation: "These are the services available through the Microsoft 365 security center."
-      
-    - content: "Which of the following is not a component of the Cloud App Security framework?"
-      choices:
-      - content: "Discovery and control the use of Shadow IT"
-        isCorrect: false
-        explanation: "Discovery and control of the use of Shadow IT is a component of the Cloud App Security framework."
-      - content: "Protection of sensitive information anywhere in the cloud"
-        isCorrect: false
-        explanation: "Protection of organization’s sensitive information anywhere in the cloud is a component of the Cloud App Security framework."
-      - content: "Protection against cyberthreats and anomalies"
-        isCorrect: false
-        explanation: "Protection against cyberthreats and anomalies is a component of the Cloud App Security framework."
-      - content: "Enforced malware scans on devices"
-        isCorrect: true
-        explanation: "Correct! Malware scanning on devices is not a component of the Cloud App Security framework."
-      
+        explanation: "Correct! Cloud device management is not a component of security administration of Microsoft Defender ATP."
