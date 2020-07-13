@@ -1,3 +1,0 @@
-The Microsoft 365 security center is the new home for monitoring and managing security across your Microsoft identities, data, devices, apps, and infrastructure. Here, you can easily view the security health of your organization, configure devices, users, and apps, and get alerts for suspicious activity. The Microsoft 365 security center is intended for security admins and security operations teams to better manage and protect their organization.
-
-![Microsoft 365 security center](../media/security-center.png)

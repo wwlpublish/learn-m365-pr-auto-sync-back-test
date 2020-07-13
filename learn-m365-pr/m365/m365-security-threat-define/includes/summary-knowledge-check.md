@@ -1,1 +1,7 @@
-In today’s evolving threat landscape, it’s become critical to arm security administrators with the solutions required to identify and counter these attacks. Microsoft’s security solutions use advanced analytics and machine learning to make intelligent recommendations and actionable insights that empower security teams not just to fight back but to proactively prevent future threats from occurring.
+In this module, you learned about cybersecurity threats and how the new threat protection tools from Microsoft protect your organization’s users, devices, and data.
+
+Now that you have completed this module, you should be able to:
+
+- Define security threats.
+- Understand common threats.
+- Explain how the threat landscape is evolving.
