@@ -11,6 +11,46 @@
       "redirect_document_id": true
     },
     {
+      "source_path": "learn-m365-pr/m365/m365-security-threat-protect/cloud-apps-security.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/m365-security-threat-protect/introduction",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-security-threat-protect/m365-security-center.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/m365-security-threat-protect/practice-security-administration",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-security-threat-protect/office-365-atp.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/m365-threat-remediate/introduction",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-security-threat-train/defenders-dilemma.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/m365-threat-remediate/automate-investigate-remediate",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-security-threat-train/index.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/m365-threat-remediate/introduction",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-security-threat-train/introduction.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/m365-threat-remediate/introduction",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-security-threat-train/raise-attacker-cost.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/m365-threat-remediate/configure-protect-detect",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-security-threat-train/train-defenders.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/m365-threat-remediate/simulate-attacks",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "learn-m365-pr/compliance-with-microsoft-365/index.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/compliance-with-microsoft-365",
       "redirect_document_id": true
