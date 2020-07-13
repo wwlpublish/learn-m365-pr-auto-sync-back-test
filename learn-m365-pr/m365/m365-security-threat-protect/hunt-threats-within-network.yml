@@ -9,6 +9,6 @@ metadata:
   ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 5
+durationInMinutes: 23
 content: |
   [!include[](includes/hunt-threats-within-network.md)]
