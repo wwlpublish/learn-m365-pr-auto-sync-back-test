@@ -15,26 +15,34 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "What is an effective way to increase users’ awareness of and participation in identity security best practices?"
+    - content: "True or False: The Zero Trust model assumes breach and verifies each request as though it originates from an uncontrolled network. "
       choices:
-      - content: "Implement a policy that requires users to reset passwords every 30 days."
-        isCorrect: false
-        explanation: "Frequent password reset requirements lead users to choose weak passwords."
-      - content: "Implement an authentication procedure that is both secure and easy to use."
+      - content: "True"
         isCorrect: true
-        explanation: "Users are more likely to adopt identity security measures that combine security with ease of use."
-      - content: "Restrict non-administrative staff from using personal mobile devices to access the organization’s network."
+        explanation: "The Zero Trust model assumes breach and verifies each request as though it originates from an uncontrolled network."
+      - content: "False"
         isCorrect: false
-        explanation: "Users might find this policy too restrictive; it would not encourage users to adopt organization identity security best practices."
-    - content: "Fabrikam recently deployed Microsoft 365. One of its developers is building a mobile app for use by company staff. The developer wants the app to identify the user’s role at sign-in and asks your advice on how to implement this capability efficiently. How would you respond?"
+        explanation: "The Zero Trust model assumes breach and verifies each request as though it originates from an uncontrolled network."
+    - content: "Which of the following tools can you implement to support the 1st principle of Zero Trust, verify explicitly?"
       choices:
-      - content: "Recommend registering the app with the Microsoft identity platform and executing a call to the Microsoft Graph API."
+      - content: "BitLocker Encryption"
+        isCorrect: false
+        explanation: "Azure MFA, Azure AD Hybrid or Azure AD Join, Microsoft Intune, and leveraging passwordless credentials all support the 1st principle of Zero Trust."
+      - content: "Azure Multi-Factor Authentication (MFA)"
         isCorrect: true
-        explanation: "This is the most efficient method because the developer can use the Microsoft Graph API functionality to access an Azure AD identity."
-      - content: "Advise the developer to require that users enter their role when they sign in to the app."
+        explanation: "Azure MFA, Azure AD Hybrid or Azure AD Join, Microsoft Intune, and leveraging passwordless credentials all support the 1st principle of Zero Trust."
+      - content: "Legacy Authentication"
         isCorrect: false
-        explanation: "The app would still need to include a procedure to verify the user role."
-      - content: "Suggest that the developer build the role lookup functionality into the app by querying the company’s HR database."
+        explanation: "Azure MFA, Azure AD Hybrid or Azure AD Join, Microsoft Intune, and leveraging passwordless credentials all support the 1st principle of Zero Trust."
+    - content: "Which of the following is a foundational element that should implement Zero Trust controls?"
+      choices:
+      - content: "Music"
         isCorrect: false
-        explanation: "This would not be efficient because it would require extra coding."
+        explanation: "Zero Trust controls should be implemented across 6 foundational elements: identities, devices, applications, data, infrastructure, and networks."
+      - content: "Social Media"
+        isCorrect: false
+        explanation: "Zero Trust controls should be implemented across 6 foundational elements: identities, devices, applications, data, infrastructure, and networks."
+      - content: "Devices"
+        isCorrect: true
+        explanation: "Zero Trust controls should be implemented across 6 foundational elements: identities, devices, applications, data, infrastructure, and networks."
     
