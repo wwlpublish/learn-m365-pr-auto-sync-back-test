@@ -11,43 +11,48 @@
       "redirect_document_id": true
     },
     {
-      "source_path": "learn-m365-pr/m365/m365-security-threat-protect/cloud-apps-security.yml",
+      "source_path": "learn-m365-pr/m365/m365-security-threat-protect/cloud-apps-security.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-security-threat-protect/introduction",
       "redirect_document_id": true
     },
     {
-      "source_path": "learn-m365-pr/m365/m365-security-threat-protect/m365-security-center.yml",
+      "source_path": "learn-m365-pr/m365/m365-security-threat-protect/m365-security-center.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-security-threat-protect/practice-security-administration",
       "redirect_document_id": true
     },
     {
-      "source_path": "learn-m365-pr/m365/m365-security-threat-protect/office-365-atp.yml",
+      "source_path": "learn-m365-pr/m365/m365-security-threat-protect/office-365-atp.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-threat-remediate/introduction",
       "redirect_document_id": true
     },
     {
-      "source_path": "learn-m365-pr/m365/m365-security-threat-train/defenders-dilemma.yml",
+      "source_path": "learn-m365-pr/m365/m365-security-threat-train/defenders-dilemma.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-threat-remediate/automate-investigate-remediate",
       "redirect_document_id": true
     },
     {
-      "source_path": "learn-m365-pr/m365/m365-security-threat-train/index.yml",
+      "source_path": "learn-m365-pr/m365/m365-security-threat-train/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/m365-threat-remediate",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-security-threat-train/introduction.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-threat-remediate/introduction",
       "redirect_document_id": true
     },
     {
-      "source_path": "learn-m365-pr/m365/m365-security-threat-train/introduction.yml",
-      "redirect_url": "https://docs.microsoft.com/learn/modules/m365-threat-remediate/introduction",
-      "redirect_document_id": true
-    },
-    {
-      "source_path": "learn-m365-pr/m365/m365-security-threat-train/raise-attacker-cost.yml",
+      "source_path": "learn-m365-pr/m365/m365-security-threat-train/raise-attacker-cost.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-threat-remediate/configure-protect-detect",
       "redirect_document_id": true
     },
     {
-      "source_path": "learn-m365-pr/m365/m365-security-threat-train/train-defenders.yml",
+      "source_path": "learn-m365-pr/m365/m365-security-threat-train/train-defenders.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-threat-remediate/simulate-attacks",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-security-threat-train/summary-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/m365-threat-remediate/summary-knowledge-check",
       "redirect_document_id": true
     },
     {
