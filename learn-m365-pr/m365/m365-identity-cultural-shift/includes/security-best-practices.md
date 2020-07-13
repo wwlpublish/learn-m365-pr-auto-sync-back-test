@@ -7,7 +7,7 @@ To enable the policy:
 
 2. By default, the Access control to require MFA registration will be enabled. Leave this option selected.
 
-    ![Select controls to be enforced is selected](../media/identity-access.png) 
+    ![Select controls to be enforced is selected](../media/access.png) 
 
 3. Select **On** under **Enforce Policy** to require users to register for MFA.
 
