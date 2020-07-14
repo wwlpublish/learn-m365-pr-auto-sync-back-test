@@ -1,6 +1,6 @@
 Securing privileged access is a critical first step to securing business assets in a modern organization. The security of business assets in an IT organization depends on the integrity of the privileged accounts used for administration, management, and development. Privileged accounts like administrators of Active Directory Domain Services have direct or indirect access to most or all assets in an IT organization, making a compromise of these accounts a significant business risk. Cyber-attackers often target these accounts and other elements of privileged access using credential theft attacks like Pass-the-Hash and Pass-the-Ticket. An attacker that gains control of an administrative account can use those privileges to increase their impact in the target organization as depicted below:
 
-![An attacker that gains control of an administrative account can use those privileges to increase their impact in the target organization.](../media/attackers-can.png) 
+![An attacker that gains control of an administrative account can use those privileges to increase their impact in the target organization.](../media/attackers.png) 
  
 Protecting privileged access against determined adversaries requires you to take a complete and thoughtful approach to isolate these systems from risks. 
 

@@ -25,7 +25,7 @@ First, you need to set up Privileged Identity Management so that users are eligi
 
 4.	Click **Edit** to identify the tasks required to receive privileges. Here, we set the maximum activation duration to 8 hours, required Azure MFA for activation, and required justification. We also required an approver to activate.
 
-     ![Activation screen](../media/activation.png) 
+     ![Activation screen](../media/activate.png) 
 
     When assigning a privileged identity-managed role, you can choose from those two assignment types – **eligible** and **active**. Eligible assignments require the member of the role to perform an action to use the role. Actions might include performing a multi-factor authentication (MFA) check, providing a business justification, or requesting approval from designated approvers. Active assignments don't require the member to perform any action to use the role. Members assigned as active have privileges assigned at all times. In the **roles** settings, we can configure the expiration duration for both of these assignment types.
 
