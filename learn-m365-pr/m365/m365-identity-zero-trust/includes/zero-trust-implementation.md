@@ -11,7 +11,7 @@ SSO is not only a convenient feature for users, but it’s also a security postu
 ## Automate provisioning to applications
 Once you have your users’ identities in Azure AD, you can use Azure AD to automate provisioning those user identities into your various cloud applications. 
 G
-## et your logging and reporting in order
+## Get your logging and reporting in order
 Be sure to analyze the logs from Azure AD either in Azure or using a SIEM system of choice.
 
 ## Enact Zero Trust Principles

@@ -11,7 +11,7 @@ In a Zero Trust model, every access request is strongly authenticated, authorize
 
 **Guiding principles of Zero Trust:**
 - **Verify explicitly**. Always authenticate and authorize based on all available data points, including user identity, location, device health, service or workload, data classification, and anomalies.
-- **Use least privileged access**. Limit user access with Just-In-Time and Just-Enough Access (JIT/JEA), risk-based adaptive polices and data protection to protect both data and productivity.
+- **Use least privileged access**. Limit user access with Just-In-Time and Just-Enough Access (JIT/JEA), risk-based adaptive policies and data protection to protect both data and productivity.
 - **Assume breach**. Minimize breach blast radius and prevent lateral movement by segmenting access by network, user, devices, and application awareness. Verify all sessions are encrypted end to end. Use analytics to get visibility, drive threat detection, and improve defenses.
 
  
