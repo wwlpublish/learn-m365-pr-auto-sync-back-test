@@ -11,11 +11,10 @@ metadata:
 title: Secure administrator accounts in Microsoft 365
 summary: Learn about securing administrator accounts through secure devices, dedicated administrator accounts, and just-in-time privileges. 
 abstract: |
-At the end of this module, you should be able to:
-- Define privileged access workstations.
-- Describe how to create dedicated accounts for administrators improves security.
-- Explain how Privileged Identity Management works.
-
+  In this module, you will learn:
+   - Define privileged access workstations.
+   - Describe how to create dedicated accounts for administrators improves security.
+   - Explain how Privileged Identity Management works.
 
 prerequisites: | 
  - Intermediate understanding of Microsoft 365.
