@@ -3,5 +3,5 @@ In this module, you learned about securing administrator accounts through secure
 Now that you have completed this module, you should be able to:
 
 - Define privileged access workstations.
-- Understand how creating dedicated accounts for administrators improves security. 
+- Describe how to create dedicated accounts for administrators improves security. 
 - Explain how Privileged Identity Management works.
