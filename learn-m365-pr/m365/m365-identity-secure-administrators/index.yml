@@ -31,6 +31,7 @@ units:
 - learn-m365-identity.m365-identity-secure-administrators.introduction
 - learn-m365-identity.m365-identity-secure-administrators.isolated-identity
 - learn-m365-identity.m365-identity-secure-administrators.just-time-privileges
-- learn-m365-identity.m365-identity-secure-administrators.summary-knowledge-check
+- learn-m365-identity.m365-identity-secure-administrators.knowledge-check
+- learn-m365-identity.m365-identity-secure-administrators.summary
 badge: 
   uid: learn-m365-identity.m365-identity-secure-administrators.badge
