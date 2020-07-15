@@ -18,7 +18,7 @@ Conditional Access policies can be granular and specific, with the goal of empow
 The **Require multi-factor authentication** control can be resolved by:
 
 - Presence of the following claim in a token issued by the trusted federation service:
-  - https://schemas.microsoft.com/ws/2008/06/identity/claims/authenticationmethod = http://schemas.microsoft.com/claims/multipleauthn
+  - https://schemas.microsoft.com/ws/2008/06/identity/claims/authenticationmethod = https://schemas.microsoft.com/claims/multipleauthn
 - Windows Hello for Business Primary Refresh Token (PRT) with strong authentication:
   - “ACR”: 2
 - Azure MFA Service
