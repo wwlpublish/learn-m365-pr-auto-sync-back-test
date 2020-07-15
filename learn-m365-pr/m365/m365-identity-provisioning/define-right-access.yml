@@ -4,11 +4,11 @@ title: Define the right access to safeguard identities and data
 metadata:
   title: Define the right access to safeguard identities and data 
   description:  Learn about identity governance and how you can safeguard access to your organization’s data.
-  ms.date: 07/07/2020
+  ms.date: 07/14/2020
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 3
+durationInMinutes: 5
 content: |
   [!include[](includes/define-right-access.md)]

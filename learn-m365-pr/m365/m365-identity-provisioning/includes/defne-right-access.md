@@ -1,22 +1,22 @@
-Azure Active Directory (AD) lets you collaborate internally as well as externally. Users can join groups, invite guests, connect to cloud apps, and work remotely from their work or personal devices. The convenience of self-service however, has led to a need for better access management capabilities.
+Azure AD enables you to collaborate internally as well as externally, such as with partners. Users can join groups, invite guests, connect to cloud apps, and work remotely from their work or personal devices. The convenience of leveraging the power of self-service, however, has led to a need for better access management capabilities. 
 
 How do you:
 
 - Ensure new employees have the right access to be productive?
 - Ensure access is removed when people—especially guests—leave or change teams? 
-- Ensure access rights aren't excessive, which can indicate a lack of control over access and lead to audit findings?
+- Ensure access rights are not excessive, which can indicate a lack of control over access and lead to audit findings?
 - Engage with resource owners to ensure they regularly review who has access to their resources?
 
 ![Azure access reviews](../media/azure-access-reviews.png)
 
-To help you address these questions, Azure AD has developed a capability called **access reviews**.
+To help you address these questions, Azure AD has developed a capability called access reviews.
 
-Azure AD access reviews help you recertify and audit users' access to resources,  ensuring that their access is appropriate and reviewed on a regular basis.  Access reviews enable organizations to efficiently address excess access risks and provide more visibility about them to users in departments beyond IT.  If you're only concerned about guests, then access reviews make it easy to scope the review for guests only.
+Azure AD access reviews helps you recertify and audit users' access to resources so you can ensure their access is appropriate and reviewed on a regular basis.  Azure AD access reviews enables organizations to efficiently address the risk of users having excess access and provides more visibility about access rights and risks to users in departments beyond IT.  If you're only concerned about guests, Azure AD access reviews makes it easy to scope the review for guests only.
 
-To understand how Azure AD access reviews help you manage access, consider four sets of users:
+To understand how Azure AD access reviews helps you manage access, consider 4 sets of users:
 
-- **Members of Office groups**. Office 365 users can create as many groups as they wish. Access reviews allow you to manage membership of those groups.
-- **Members of security groups**. Access reviews help you manage users both cloud-only or synchronized from on-prem to cloud who should or shouldn't be in a group.
+- **Members of Office groups**. Office 365 users can create as many groups as they wish. Access reviews allows you to manage membership of those groups.
+- **Members of security groups**. Access reviews helps you manage users both cloud-only or synchronized from on-prem to cloud who should or shouldn't be in a group.
 - **Users who have been directly assigned to an application**.
 - **Guest users**. If you're only concerned about guests who have been invited to your directory, we make it easy to scope the review to be on guests only.
 

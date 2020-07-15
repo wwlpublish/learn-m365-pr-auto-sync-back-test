@@ -66,6 +66,11 @@
 	    "redirect_document_id": true
     },
     {
+	    "source_path": "learn-m365-pr/m365/m365-identity-authentication/enforce-mfa.yml",
+	    "redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-authentication/enforce-multi-factor-authentication",
+	    "redirect_document_id": true
+    },
+    {
       "source_path": "learn-m365-pr/m365/m365-security-threat-protect/cloud-apps-security.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-security-threat-protect/introduction",
       "redirect_document_id": true

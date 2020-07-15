@@ -4,7 +4,7 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Learn about identity governance and how you can safeguard access to your organization’s data.
-  ms.date: 07/07/2020
+  ms.date: 07/14/2020
   author: AlexandraHrt 
   ms.author: v-aleha
   ms.topic: interactive-tutorial
@@ -15,7 +15,7 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "All of these are identity management capabilities of Microsoft 365 EXCEPT:"
+    - content: "All of these are identity management capabilities of Microsoft 365 **except**:"
       choices:
       - content: "Conditional access"
         isCorrect: false
@@ -25,7 +25,7 @@ quiz:
         explanation: "Azure AD B2B lets you share your company's applications and services with guest users and external partners."
       - content: "Automated investigation and response"
         isCorrect: true
-        explanation: "Automated investigation and response is not an identity management feature; it’s a tool that automates investigation and remediation of well-known attack threats."
+        explanation: "Automated investigation and response are not an identity management feature; it’s a tool that automates investigation and remediation of well-known attack threats."
     - content: "When you plan for identity governance in Azure AD, you should:"
       choices:
       - content: "Determine which users and groups should have access to which resources at which time."
