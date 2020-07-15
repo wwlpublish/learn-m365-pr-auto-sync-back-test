@@ -31,6 +31,7 @@ units:
 - learn-m365-identity.m365-identity-zero-trust.introduction
 - learn-m365-identity.m365-identity-zero-trust.build-zero-trust-organization
 - learn-m365-identity.m365-identity-zero-trust.zero-trust-implementation
-- learn-m365-identity.m365-identity-zero-trust.summary-knowledge-check
+- learn-m365-identity.m365-identity-zero-trust.knowledge-check
+- learn-m365-identity.m365-identity-zero-trust.summary
 badge: 
   uid: learn-m365-identity.m365-identity-zero-trust.badge
