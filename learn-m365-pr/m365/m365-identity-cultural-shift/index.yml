@@ -32,6 +32,7 @@ units:
 - learn-m365-identity.m365-cultural-shift.introduction
 - learn-m365-identity.m365-cultural-shift.security-best-practices
 - learn-m365-identity.m365-cultural-shift.identity-development-approach
-- learn-m365-identity.m365-cultural-shift.summary-knowledge-check
+- learn-m365-identity.m365-cultural-shift.knowledge-check
+- learn-m365-identity.m365-cultural-shift.summary
 badge: 
   uid: learn-m365-identity.m365-identity-cultural-shift.badge

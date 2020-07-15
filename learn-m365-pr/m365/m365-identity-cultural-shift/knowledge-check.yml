@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365-identity.m365-cultural-shift.summary-knowledge-check
-title: Summary and knowledge check
+uid: learn-m365-identity.m365-cultural-shift.knowledge-check
+title: Knowledge check
 metadata:
-  title: Summary and knowledge check
+  title: Knowledge check
   description: Learn about Azure Active Directory (AD) Identity Protection and ways to optimize the end-user experience while benefiting security. 
   ms.date: 07/08/2020
   author: AlexandraHrt
@@ -11,7 +11,6 @@ metadata:
   ms.prod: learning-m365
 durationInMinutes: 5
 content: |
-  [!include[](includes/summary-knowledge-check.md)]
 quiz:
     title: Check your knowledge
     questions:
@@ -36,13 +35,13 @@ quiz:
         explanation: "Azure AD Identity Protection sign-in risk policies allow affected users to remediate the risk by verifying their identity through Azure MFA."
     - content: "Which of the following is an Azure Active Directory Identity Protection API that exposes information about risky users and sign-ins?"
       choices:
-      - content: "notRisky"
+      - content: "`notRisky`"
         isCorrect: false
-        explanation: "riskDetection, riskeyUsers, signIn, and identityRiskEvents are the four APIs that expose information about risky users and sign-ins from Azure Active Directory Identity Protection."
-      - content: "hackerNotifier"
+        explanation: "`riskDetection`, `riskeyUsers`, `signIn`, and `identityRiskEvents` are the four APIs that expose information about risky users and sign-ins from Azure Active Directory Identity Protection."
+      - content: "`hackerNotifier`"
         isCorrect: false
-        explanation: "riskDetection, riskeyUsers, signIn, and identityRiskEvents are the four APIs that expose information about risky users and sign-ins from Azure Active Directory Identity Protection."
-      - content: "riskDetection "
+        explanation: "`riskDetection`, `riskeyUsers`, `signIn`, and `identityRiskEvents` are the four APIs that expose information about risky users and sign-ins from Azure Active Directory Identity Protection."
+      - content: "`riskDetection` "
         isCorrect: true
-        explanation: "riskDetection, riskeyUsers, signIn, and identityRiskEvents are the four APIs that expose information about risky users and sign-ins from Azure Active Directory Identity Protection."
+        explanation: "`riskDetection`, `riskeyUsers`, `signIn`, and `identityRiskEvents` are the four APIs that expose information about risky users and sign-ins from Azure Active Directory Identity Protection."
     
