@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365-identity.m365-cultural-shift.summary-knowledge-check
-title: Summary and knowledge check
+uid: learn-m365-identity.m365-cultural-shift.knowledge-check
+title: Knowledge check
 metadata:
-  title: Summary and knowledge check
+  title: Knowledge check
   description: Learn about Azure Active Directory (AD) Identity Protection and ways to optimize the end-user experience while benefiting security. 
   ms.date: 07/08/2020
   author: AlexandraHrt
@@ -11,7 +11,6 @@ metadata:
   ms.prod: learning-m365
 durationInMinutes: 5
 content: |
-  [!include[](includes/summary-knowledge-check.md)]
 quiz:
     title: Check your knowledge
     questions:
