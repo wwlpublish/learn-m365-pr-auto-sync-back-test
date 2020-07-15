@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365-identity.m365-identity-secure-administrators.summary-knowledge-check
-title: Summary and knowledge check
+uid: learn-m365-identity.m365-identity-secure-administrators.knowledge-check
+title: Knowledge check
 metadata:
-  title: Summary and knowledge check
+  title: Knowledge check
   description: Learn about securing administrator accounts through secure devices, dedicated administrator accounts, and just-in-time privileges. 
   ms.date: 07/08/2020
   author: AlexandraHrt
@@ -11,7 +11,6 @@ metadata:
   ms.prod: learning-m365
 durationInMinutes: 5
 content: |
-  [!include[](includes/summary-knowledge-check.md)]
 quiz:
     title: Check your knowledge
     questions:
