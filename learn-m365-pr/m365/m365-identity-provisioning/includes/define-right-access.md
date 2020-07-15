@@ -1,4 +1,4 @@
-Azure AD enables you to collaborate internally as well as externally. Users can join groups, invite guests, connect to cloud apps, and work remotely from their work or personal devices. The convenience of self-service however, has led to a need for better access management capabilities.
+Azure Active Directory (AD) lets you collaborate internally as well as externally. Users can join groups, invite guests, connect to cloud apps, and work remotely from their work or personal devices. The convenience of self-service however, has led to a need for better access management capabilities.
 
 How do you:
 
@@ -11,12 +11,12 @@ How do you:
 
 To help you address these questions, Azure AD has developed a capability called **access reviews**.
 
-Azure AD access reviews help you recertify and audit users' access to resources. This ensures their access is appropriate and reviewed on a regular basis.  Access reviews enable organizations to efficiently address excess access risks and provide more visibility about them to users in departments beyond IT.  If you're only concerned about guests, then access reviews make it easy to scope the review for guests only.
+Azure AD access reviews help you recertify and audit users' access to resources,  ensuring that their access is appropriate and reviewed on a regular basis.  Access reviews enable organizations to efficiently address excess access risks and provide more visibility about them to users in departments beyond IT.  If you're only concerned about guests, then access reviews make it easy to scope the review for guests only.
 
-To understand how Azure AD access reviews helps you manage access, consider 4 sets of users:
+To understand how Azure AD access reviews help you manage access, consider four sets of users:
 
-- **Members of Office groups**. Office 365 users can create as many groups as they wish. Access reviews allows you to manage membership of those groups.
-- **Members of security groups**. Access reviews helps you manage users both cloud-only or synchronized from on-prem to cloud who should or shouldn't be in a group.
+- **Members of Office groups**. Office 365 users can create as many groups as they wish. Access reviews allow you to manage membership of those groups.
+- **Members of security groups**. Access reviews help you manage users both cloud-only or synchronized from on-prem to cloud who should or shouldn't be in a group.
 - **Users who have been directly assigned to an application**.
 - **Guest users**. If you're only concerned about guests who have been invited to your directory, we make it easy to scope the review to be on guests only.
 
