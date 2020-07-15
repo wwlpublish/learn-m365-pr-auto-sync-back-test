@@ -4,7 +4,7 @@ Since an average of one in every 250 corporate accounts is compromised each mont
 
 Password-less authentication is a form of multi-factor authentication that replaces the password with a secure alternative. This type of authentication requires two or more verification factors to sign in and are secured with a cryptographic key pair. The device creates a public and private key when registered. The private key can only be unlocked using a local gesture such as a biometric or PIN. Users have the option to either sign in directly via biometric recognition—such as fingerprint scan, facial recognition, or iris scan—or with a PIN that’s locked and secured on the device.
 
-Microsoft Authenticator supports push notifications, one-time passcodes, and biometrics for any Azure AD-connected app and is free to download from the Apple and Android app stores. It also supports passwordless authentication. Windows Hello and Hello for Business are other secure and convenient options (both require Windows 10).
+Microsoft Authenticator supports push notifications, one-time passcodes, and biometrics for any Azure AD-connected app and is free to download from the Apple and Android app stores. It also supports passwordless authentication (in preview). Windows Hello and Hello for Business are other secure and convenient options (both require Windows 10).
 
 ![Microsoft's password replacement offerings](../media/password-replacement-offerings.png)
 
