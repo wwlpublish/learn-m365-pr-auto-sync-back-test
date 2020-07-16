@@ -31,6 +31,7 @@ units:
 - learn-m365-identity.m365-identity-overview.introduction
 - learn-m365-identity.m365-identity-overview.identity-importance
 - learn-m365-identity.m365-identity-overview.identity-core-security
-- learn-m365-identity.m365-identity-overview.summary-knowledge-check
+- learn-m365-identity.m365-identity-overview.knowledge-check
+- learn-m365-identity.m365-identity-overview.summary
 badge: 
   uid: learn-m365-identity.m365-identity-overview.badge
