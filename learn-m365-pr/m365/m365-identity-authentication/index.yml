@@ -12,6 +12,7 @@ title: Strengthen authentication (conditional access) with Microsoft 365
 summary: Learn about modern authentication and the security benefits it provides to your organization, such as enabling multi-factor authentication (MFA) and a passwordless environment. 
 abstract: |
   In this module, you will learn how to:
+    
    -Define modern authentication.
   - Understand how to enable multi-factor authentication.
   - Explain how passwordless authentication improves security. 

@@ -18,10 +18,10 @@ quiz:
     - content: "Azure Active Directory doesn’t natively support mobile devices without third-party solutions."
       choices:
       - content: "True"
-        isCorrect: true
+        isCorrect: false
         explanation: "Incorrect. Azure AD is integrated with Microsoft Intune, a Microsoft mobile device management solution."
       - content: "False"
-        isCorrect: false
+        isCorrect: true
         explanation: "Correct! Azure AD is integrated with Microsoft Intune, a Microsoft mobile device management solution."
       
     - content: "Which of the following describes Azure Active Directory?"
