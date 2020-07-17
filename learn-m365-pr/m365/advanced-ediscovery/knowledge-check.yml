@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.compliance-discover-advanced-ediscovery.summary-knowledge-check
-title: Summary and knowledge check
+uid: learn-m365.compliance-discover-advanced-ediscovery.knowledge-check
+title: Knowledge check
 metadata:
-  title: Summary and knowledge check
+  title: Knowledge check
   description:  eDiscovery offers built-in tools such as Content Search to help identify data used as evidence in legal cases. Content Search helps identify relevant data directly in Microsoft 365, reducing the amount of data that customers need to prepare and export to their third-party compliance tools. Advanced eDiscovery builds on the core eDiscovery solution, helping organizations respond more quickly with a streamlined end-to-end eDiscovery workflow, intelligent search capabilities to decrease manual work, and save on third-party storage costs.
   ms.date: 07/06/2020
   author: ericweisberg
@@ -12,7 +12,6 @@ metadata:
  
 durationInMinutes: 10
 content: |
-  [!include[](includes/summary-knowledge-check.md)]
 quiz:
     title: Check your knowledge
     questions:
@@ -33,7 +32,7 @@ quiz:
       - content: "Data can be reviewed and redacted prior once exported to ensure that only most relevant data is being shared."
         isCorrect: false
         explanation: "The ability to apply holds to the data where it lives ensures that it will be preserved and remain accessible to the administrators and compliance officers, thereby reducing the disruption to the end users and reducing storage costs. Data is not exported for review."
-      - content: "Data can only be in Exchange, SharePoint online, OneDrive for Business or Teams."
+      - content: "Data can only be in Exchange, SharePoint, OneDrive, or Teams."
         isCorrect: false
         explanation: "Preservation using holds in Exchange and SharePoint helps meet compliance needs by giving organizations the ability to search electronic information in its present state, as well as hidden copies of those items that have been deleted or modified.  "
       - content: "Data does not need to be continually transferred out of Exchange or SharePoint to a third party hosted eDiscovery service."

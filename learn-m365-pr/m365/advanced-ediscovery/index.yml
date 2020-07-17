@@ -39,7 +39,8 @@ units:
 - learn-m365.compliance-discover-advanced-ediscovery.analyze-data
 - learn-m365.compliance-discover-advanced-ediscovery.export-data
 - learn-m365.compliance-discover-advanced-ediscovery.manage
-- learn-m365.compliance-discover-advanced-ediscovery.summary-knowledge-check
+- learn-m365.compliance-discover-advanced-ediscovery.knowledge-check
+- learn-m365.compliance-discover-advanced-ediscovery.summary
 
 badge: 
   uid: learn-m365.compliance-discover-advanced-ediscovery.badges

@@ -21,7 +21,9 @@ After you are satisfied with the collection of custodial content, you can evalua
 Adding the results of your search to a review set triggers Advanced eDiscovery to collect all the content from your search results. It then processes all that content by extracting the text and metadata and places the results in a centralized index. These results from the sources you selected can then be searched and analyzed through one interface.
 
 > [!NOTE]
-> Adding data to a review set is a long-running process. This process includes gathering items from the original data sources in Microsoft 365 (for example, from mailboxes and sites), copying them to the Azure Storage location, and then re-indexing the items. You can track the progress on the Jobs tab or on the Searches tab by monitoring the status in the Added data to review set column. After the review set processing is completed, you can click the Review sets tab in the case, and click the review set to start the process of filtering, reviewing, tagging, and exporting data in the review set.
+> Adding data to a review set is a long-running process. This process includes gathering items from the original data sources in Microsoft 365 (for example, from mailboxes and sites), copying them to the Azure Storage location, and then re-indexing the items. You can track the progress on the Jobs tab or on the Searches tab by monitoring the status in the Added data to review set column. 
+
+After the review set processing is completed, you can click the Review sets tab in the case, and click the review set to start the process of filtering, reviewing, tagging, and exporting data in the review set.
 
 ## Load non-Microsoft 365 data into a review set
 Not all content that you need to analyze in Advanced eDiscovery is in Microsoft 365. If you want to add data from a source other than Office 365 into your search – including data from an on-premises environment - a process is provided to add that data after you complete your initial search. With the non-Microsoft 365 data import feature in Advanced eDiscovery, you can upload documents that aren't located in Microsoft 365 to a review set. 

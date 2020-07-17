@@ -48,17 +48,17 @@ The person who enables Attorney-Client Privilege Detection in your tenant must b
 To run the compliance security filter cmdlets, you must be a member of the Organization Management role group in the Security & Compliance Center. For more information, see [Permissions in the Security & Compliance Center](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center?view=o365-worldwide?azure-portal=true). You also must connect Windows PowerShell to both the Security & Compliance Center and to your Exchange Online organization to use the compliance security filter cmdlets. This is necessary because these cmdlets require access to mailbox properties, which is why you have to connect to Exchange Online. 
 
 ### Licensing
+Microsoft 365 E3 only provide the rights for a user to benefit from core eDiscovery features as illustrated in the table below. 
+
+![Microsoft 365 eDiscovery features by plan](../media/microsoft-365-ediscovery-features.png)  
+
 > [!NOTE]
-> This feature is a capability included with:
+> Advanced eDiscovery is a capability included with:
 > - Microsoft 365 E5 
 > - Microsoft 365 E5 Compliance 
 > - Microsoft 365 E5 eDiscovery and Audit 
 >
 > Please review [Microsoft 365 licensing guidance for security & compliance](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance?azure-portal=true) to identify required licenses for your organization.
-
-Microsoft 365 E3 only provide the rights for a user to benefit from core eDiscovery features as illustrated in the table below. 
-
-![Microsoft 365 eDiscovery features by plan](../media/microsoft-365-ediscovery-features.png)  
 
 ## Add or remove members from a case
 You can add or remove members to manage who can access the case. However, before a member can access and perform tasks in an Advanced eDiscovery case, you must add the user to the eDiscovery Manager role group on the **Permissions** page in the [Security & Compliance Center](https://protection.office.com?azure-portal=true). 
