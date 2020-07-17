@@ -1,6 +1,6 @@
 ## Sign on seamlessly to all connected apps
 
-Single sign-on (SSO) adds security and convenience for signing onto applications in Azure Active Directory (Azure AD). 
+Single sign-on (SSO) adds security and convenience to signing on to applications in Azure Active Directory (Azure AD).
 
 **With single sign-on**, users sign on once to access domain-joined devices, company resources, software as a service (SaaS) applications, and web applications. After signing on, the user can launch applications from the Office 365 portal or the Azure AD MyApps access panel. Administrators can centralize user account management and automatically add or remove user access to applications based on group membership.
 

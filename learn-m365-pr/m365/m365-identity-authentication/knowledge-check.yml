@@ -31,7 +31,7 @@ quiz:
       - content: "Configure a Compliance policy in Intune with **Require multi-factor authentication** enabled."
         isCorrect: false
         explanation: "To enforce MFA, create a Conditional Access policy and select **Require multi-factor authentication** under Access controls."
-      - content: "Multi-factor authenticate is automatically enforced for all modern authentication applications."
+      - content: "Multi-factor authentication is automatically enforced for all modern authentication applications."
         isCorrect: false
         explanation: "To enforce MFA, create a Conditional Access policy and select **Require multi-factor authentication** under Access controls."
     - content: "Which of the following is a method of passwordless authentication?"

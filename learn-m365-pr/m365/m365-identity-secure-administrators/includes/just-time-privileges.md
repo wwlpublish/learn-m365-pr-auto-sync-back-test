@@ -7,14 +7,17 @@ Azure AD Privileged Identity Management helps you manage privileged administrati
 ![Manage your privileged access screen](../media/quick-start.png) 
 
 ## Manage risk
+
 You can secure your organization by enforcing the principles of least privilege and just-in-time access. By minimizing the number of permanent assignments of users to privileged roles and enforcing approvals and MFA for elevation, you greatly reduce security risks related to privileged access. Enforcing least privilege and just-in-time access will also allow you to view a history of access to privileged roles so you can track down security issues as they happen.
 
-## Address compliance and governance 
+## Address compliance and governance
+ 
 Deploying Privileged Identity Management creates an environment for on-going identity governance. Just-in-time elevation of privileged identities provides a way for Privileged Identity Management to keep track of privileged access activities in your organization. You can also view and receive notifications for all assignments of permanent and eligible roles. Through access review, you can regularly audit and remove unnecessary privileged identities and make sure your organization complies with the most rigorous identity, access, and security standards.
 
 ## Steps to enable Privileged Identity Management
+
 First, you need to set up Privileged Identity Management so that users are eligible for privileged roles. In the Azure portal:
-1.	Open the **Azure AD Privileged Identity Management blade**.
+1.	Open the **Azure AD Privileged Identity Management** blade.
 2.	Select **Azure AD roles** and then **Role settings**:
 
     ![Role settings screen](../media/settings.png) 
