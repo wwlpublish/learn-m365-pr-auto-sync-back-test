@@ -44,8 +44,11 @@ At Microsoft, we have seen the average volume of user-generated data grow from 4
 
 Even with this tremendous growth in data, the graph shows our cost savings we have seen with the adoption of Office 365 and in-place preservation and eDiscovery. You can see the transition from the “traditional” eDiscovery approach where we outsourced all of the processing and searching of data by sending it to our third-party eDiscovery partner represented by the left-most bar (100 percent), the use of Core eDiscovery to cull in-place that saved us approximately 70 percent of our costs, and then the adoption of the Advanced eDiscovery analytics that helped to reduce our costs by an additional 50 percent for an overall average savings of nearly 85 percent. 
 
-For a quick look at Advanced eDiscovery in Microsoft 365, see the [Reduce cost and risk with Microsoft 365 Advanced eDiscovery](https://www.microsoft.com/videoplayer/embed/RE4Asf4?azure-portal=true) video. 
+For a quick look at Advanced eDiscovery in Microsoft 365, watch:
+>
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Asf4]
 
+> 
 
 > [!NOTE]
 > This feature is a capability included with:

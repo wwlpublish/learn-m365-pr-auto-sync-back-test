@@ -55,7 +55,7 @@ When you click **Choose teams** (then click **Choose teams** again on the flyout
 When you select the Team (or Teams) associated with the custodian, the system will automatically identify and select 
 the associated SharePoint site and mailbox associated with that Microsoft Team. 
 
-Alternatively, conversations that are part of the Chat list in Microsoft Teams are stored in the mailbox of the users who participate in the chat. Files that a user shares in Chat conversations are stored in the OneDrive for Business site of the user who shares the file. Therefore, you must place the individual user mailboxes and OneDrive for Business sites on hold to retain conversations and files in the Chat list.
+Alternatively, all Teams 1:1 or group chats are journaled through to the respective users' mailboxes. Files that a user shares in 1:1 or group chats are stored in the OneDrive site of the user who shares the file. Therefore, you must place the individual user mailboxes and OneDrive sites on hold to retain 1:1 chats, 1:N chats, and files shared in those chats.
 
 Every Microsoft Team or team channel contains a Wiki for note taking and collaboration. The Wiki content is automatically saved to a file with a .mht format. This file is stored in the Teams Wiki Data document library on the team's SharePoint site. You can place the content in the Wiki on hold by placing the team's SharePoint site on hold.
 

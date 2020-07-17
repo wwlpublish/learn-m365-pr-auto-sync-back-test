@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.compliance-discover-advanced-audit.summary-knowledge-check
-title: Summary and knowledge check
+uid: learn-m365.compliance-discover-advanced-audit.knowledge-check
+title: Knowledge check
 metadata:
-  title: Summary and knowledge check
+  title: Knowledge check
   description:  Microsoft 365 delivers comprehensive audit logs and alerts across more than 15 services, which enables customers to track user and administration activity within their tenants. Improvements in Advanced Auditing in Microsoft 365 include preservation of audit logs for up to a year, faster access to data, and access to crucial events for quicker investigations.
   ms.date: 07/06/2020
   author: ericweisberg
@@ -12,7 +12,6 @@ metadata:
  
 durationInMinutes: 8
 content: |
-  [!include[](includes/summary-knowledge-check.md)]
 quiz:
     title: Check your knowledge
     questions:

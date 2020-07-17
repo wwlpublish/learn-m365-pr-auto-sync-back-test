@@ -59,7 +59,7 @@ Generating a sample lets you use parameters such as confidence level and confide
 ![Generating a sample lets you use parameters such as confidence level and confidence interval.](../media/sampling-parameters.png) 
  
 ## Content indexing of data
-The next phase of the EDRM model, Processing, involves deep indexing of content including file identification, expansion of embedded documents and attachments, text extraction, and OCR (Optical Character Recognition) of image files.
+The next phase of the EDRM model, *Processing*, involves deep indexing of content including file identification, expansion of embedded documents and attachments, text extraction, and OCR (Optical Character Recognition) of image files.
 
 The underlying content indexing engine is provided by Microsoft Search. This platform includes various components for crawling and indexing data, querying data, and searching data. eDiscovery relies on the Search system to crawl content and build an index that eDiscovery cases run queries against. As the Search system crawls content, it creates a search index. The search index stores data that is used to provide the results for search queries, including information about the permissions that are required to access each piece of content. When a user performs a search, the search system uses the search index to identify the appropriate search results. Before displaying the results, the search system performs *security trimming*. Security trimming is the process by which the system compares the user’s permissions to the permissions that are required to access content that search results link to, and then “trims” the results to show only those results that the user has permission to view. 
 
@@ -96,7 +96,7 @@ Error remediation of documents leverages an Azure AzCopy command that contains p
 
     The files that you selected are downloaded to the location that you specified in step 5. In the parent folder (for example, **C:\Remediation**), the following subfolder structure is automatically created:
 
-    <Parent folder>\Subfolder 1\Subfolder 2\\\<file>
+    \<Parent folder>\Subfolder 1\Subfolder 2\\\<file>
      - *Subfolder 1* is named with the ID for the case or the review set, depending on the scope that you selected in step 1.
      - *Subfolder 2* is named with the file ID of the downloaded file
      - The downloaded file is located in *Subfolder 2* and is also named with the file ID.
@@ -107,7 +107,7 @@ Error remediation of documents leverages an Azure AzCopy command that contains p
 
     ![Download files screen](../media/download-files.png) 
  
-1. Specify the parent folder where the remediated files are located in the **Path to location of files** text box. The parent folder must have the same subfolder structure that was created when you downloaded the files. The path to the parent folder is automatically added to AzCopy command as the value of the **/Source** parameter.
+1. Specify the parent folder where the remediated files are located in the **Path to location of files** text box. The parent folder must have the same subfolder structure that was created when you downloaded the files. The path to the parent folder is automatically added to the AzCopy command as the value of the **/Source** parameter.
 
     ![Upload files screen](../media/upload-files.png) 
  
