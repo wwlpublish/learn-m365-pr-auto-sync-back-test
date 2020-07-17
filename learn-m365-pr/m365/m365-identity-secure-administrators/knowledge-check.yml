@@ -14,7 +14,7 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "True or False: Privileged Access Workstations (PAWs) provide a dedicated operating system for sensitive tasks that is protected from Internet attacks and threat vectors. "
+    - content: "Privileged Access Workstations (PAWs) provide a dedicated operating system for sensitive tasks that's protected from Internet attacks and threat vectors. "
       choices:
       - content: "True"
         isCorrect: true

@@ -4,11 +4,11 @@ title: Build security best practices into user experience
 metadata:
   title: Build security best practices into user experience
   description:  Learn about Azure Active Directory (AD) Identity Protection and ways to optimize the end-user experience while benefiting security. 
-  ms.date: 07/08/2020
+  ms.date: 07/17/2020
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 3
+durationInMinutes: 13
 content: |
   [!include[](includes/security-best-practices.md)]
