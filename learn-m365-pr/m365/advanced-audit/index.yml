@@ -35,7 +35,8 @@ units:
 - learn-m365.compliance-discover-advanced-audit.configure
 - learn-m365.compliance-discover-advanced-audit.create
 - learn-m365.compliance-discover-advanced-audit.investigate
-- learn-m365.compliance-discover-advanced-audit.summary-knowledge-check
+- learn-m365.compliance-discover-advanced-audit.knowledge-check
+- learn-m365.compliance-discover-advanced-audit.summary
 
 badge: 
   uid: learn-m365.compliance-discover-advanced-audit.badges
