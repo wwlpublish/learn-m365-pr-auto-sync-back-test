@@ -9,11 +9,11 @@ Sync operations are recorded when a mailbox is accessed by a desktop version of 
 A bind operation occurs when a user accesses an individual email message. For bind access, the *InternetMessageId* of individual messages will be recorded in the audit record. All bind operations that occur within a 2-minute interval are aggregated in a single audit record in the *Folders* field within the *AuditData* property. Each message accessed is identified by its *InternetMessageId*. The number of bind operations aggregated in the record is displayed in the *OperationCount* field in the *AuditData* property.
 
 ## Audit records throttling
-If more than 1,000 *MailItemsAccessed* audit records are generated in less than 24 hours, Exchange Online will stop generating auditing records for *MailItemsAccessed* activity. This is referred to as “throttling”. *MailItemsAccessed* activity will not be logged for 24 hours after throttling is initiated. If this occurs, there is a chance the mailbox could be accessed during this period without an audit record being generated. The recording of *MailItemsAccessed* activity will be resumed following a 24-hour period. Here are some key considerations: 
+If more than 1,000 *MailItemsAccessed* audit records are generated in less than 24 hours, Exchange Online will stop generating auditing records for *MailItemsAccessed* activity. This action is referred to as "throttling." *MailItemsAccessed* activity won't be logged for 24 hours after throttling is initiated. If this action occurs, there's a chance the mailbox could be accessed during this period without an audit record being generated. The recording of *MailItemsAccessed* activity will be resumed following a 24-hour period. Here are some key considerations: 
 - Less than 1 percent of all mailboxes in Exchange Online are throttled.
 - When a mailbox is throttling, only audit records for *MailItemsAccessed* activity are not audited. Other mailbox auditing actions are not affected.
 - Mailboxes are throttled only for bind operations. Audit records for sync operations are not throttled.
-- You should assume *MailItemsAccessed* activity was not recorded in the audit logs if a mailbox is throttled.
+- Assume *MailItemsAccessed* activity was not recorded in the audit logs if a mailbox is throttled.
 
 ## Learn more
 - [The MailItemsAccessed mailbox auditing action](https://docs.microsoft.com/microsoft-365/compliance/mailitemsaccessed-forensics-investigations?view=o365-worldwide#the-mailitemsaccessed-mailbox-auditing-action?azure-portal=true)
