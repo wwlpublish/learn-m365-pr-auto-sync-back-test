@@ -3,8 +3,8 @@ uid: learn-m365-identity.m365-cultural-shift.knowledge-check
 title: Knowledge check
 metadata:
   title: Knowledge check
-  description: Learn about Azure Active Directory (AD) Identity Protection and ways to optimize the end-user experience while benefiting security. 
-  ms.date: 07/08/2020
+  description: Learn about Azure Active Directory Identity Protection and ways to optimize the end-user experience while benefiting security. 
+  ms.date: 07/20/2020
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
@@ -14,34 +14,34 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "True or False: Azure Active Directory Identity Protection policies can require end users to enroll their mobile device with Intune. "
+    - content: "Azure Active Directory Identity Protection policies can require end users to enroll their mobile device with Intune. "
       choices:
       - content: "True"
         isCorrect: false
-        explanation: "Azure AD Identity Protection can require users to register for Azure MFA and automate remediation of risky sign-ins and compromised users through Azure MFA and self-service password reset."
+        explanation: "Azure Active Directory Identity Protection can require users to register for Azure multi-factor authentication, but not to enroll their mobile device with Intune."
       - content: "False"
         isCorrect: true
-        explanation: "Azure Active Directory Identity Protection policies do not require end users to enroll their mobile device with Intune. "
+        explanation: "Azure Active Directory Identity Protection policies don't require end users to enroll their mobile device with Intune. "
     - content: "If a risky user is identified or affected by a sign-in risk policy, how will they be prompted to prove their identity?"
       choices:
-      - content: "To complete Azure multi-factor authentication"
+      - content: "By completing Azure multi-factor authentication."
         isCorrect: true
-        explanation: "Azure AD Identity Protection sign-in risk policies allow affected users to remediate the risk by verifying their identity through Azure MFA."
+        explanation: "Azure AD Identity Protection sign-in risk policies allow affected users to verify their identity through Azure multi-factor authentication."
       - content: "Advise the developer to require that users enter their role when they sign in to the app."
         isCorrect: false
-        explanation: "Azure AD Identity Protection sign-in risk policies allow affected users to remediate the risk by verifying their identity through Azure MFA."
-      - content: "To enter their social security number"
+        explanation: "Azure AD Identity Protection sign-in risk policies allow affected users to verify their identity through Azure multi-factor authentication."
+      - content: "To enter their social security number."
         isCorrect: false
-        explanation: "Azure AD Identity Protection sign-in risk policies allow affected users to remediate the risk by verifying their identity through Azure MFA."
+        explanation: "Azure AD Identity Protection sign-in risk policies allow affected users to verify their identity through Azure multi-factor authentication."
     - content: "Which of the following is an Azure Active Directory Identity Protection API that exposes information about risky users and sign-ins?"
       choices:
       - content: "`notRisky`"
         isCorrect: false
-        explanation: "`riskDetection`, `riskeyUsers`, `signIn`, and `identityRiskEvents` are the four APIs that expose information about risky users and sign-ins from Azure Active Directory Identity Protection."
+        explanation: "`riskDetection`, `riskyUsers`, and `sign in` are the three APIs that expose information about risky users and sign-ins."
       - content: "`hackerNotifier`"
         isCorrect: false
-        explanation: "`riskDetection`, `riskeyUsers`, `signIn`, and `identityRiskEvents` are the four APIs that expose information about risky users and sign-ins from Azure Active Directory Identity Protection."
+        explanation: "`riskDetection`, `riskyUsers`, and `sign in` are the three APIs that expose information about risky users and sign-ins."
       - content: "`riskDetection` "
         isCorrect: true
-        explanation: "`riskDetection`, `riskeyUsers`, `signIn`, and `identityRiskEvents` are the four APIs that expose information about risky users and sign-ins from Azure Active Directory Identity Protection."
+        explanation: "`riskDetection`, `riskyUsers`, and `sign in` are the three APIs that expose information about risky users and sign-ins."
     
