@@ -34,7 +34,7 @@ The image below shows a successful connection to Exchange Online PowerShell V2.
     `Connect-ExchangeOnline -UserPrincipalName <UPN> -ShowProgress $true`
 
 ## Identify throttled mailboxes
-Check if the mailbox was throttled during the time it may have been compromised. If it has been throttled, some mailbox auditing records have likely not been logged. In the case where any audit records have "IsThrottled" as "True," you should assume that for a 24-hour period after that record was generated, access to the mailbox was not audited and all mail data has been compromised. No results means the mailbox was not throttled during the period you are investigating. To search for *MailItemsAccessed* records where the mailbox was throttled, run the following PowerShell command substituting the values for EndDate, StartDate, and UserIds with what is appropriate for time period and user accounts you are investigating. 
+Check if the mailbox was throttled during the time it may have been compromised. If it has been throttled, some mailbox auditing records have likely not been logged. In the case where any audit records have "IsThrottled" as "True," you should assume that for a 24-hour period after that record was generated, access to the mailbox was not audited, and all mail data has been compromised. No results mean the mailbox was not throttled during the period you are investigating. To search for *MailItemsAccessed* records where the mailbox was throttled, run the following PowerShell command substituting the values for EndDate, StartDate, and UserIds with what is appropriate for time period and user accounts you are investigating. 
 
 `Search-UnifiedAuditLog -StartDate 05/13/2020 -EndDate 05/14/2020 -UserIds meganb -Operations MailItemsAccessed -ResultSize 1000 | Where {$_.AuditData -like '*"IsThrottled","Value":"True"*'} | FL`
 
@@ -47,7 +47,7 @@ Here are the values used in the example:
 | UserIds  | meganb  |
 
 ## Check for sync activities
-If an attacker uses an email client to download messages in a mailbox, they can disconnect the computer from the Internet and view the messages offline. This means mailbox auditing would not be able to audit these activities. You should assume all synced email messages were compromised if the request came from the attacker’s PC or Mac. To search for *MailItemsAccessed* records where the mail items were accessed via a sync operation, run the following command substituting the values for *EndDate, StartDate*, and *UserIds* values with what is appropriate for your situation. 
+If an attacker uses an email client to download messages in a mailbox, they can disconnect the computer from the Internet and view the messages offline. As a result, mailbox auditing would not be able to audit these activities. Assume all synced email messages were compromised if the request came from the attacker’s PC or Mac. To search for *MailItemsAccessed* records where the mail items were accessed via a sync operation, run the following command substituting the values for *EndDate, StartDate*, and *UserIds* values with what is appropriate for your situation. 
 
 `Search-UnifiedAuditLog -StartDate 05/13/2020 -EndDate 05/14/2020 -UserIds meganb -Operations MailItemsAccessed -ResultSize 1000 | Where {$_.AuditData -like '*"MailAccessType","Value":"Sync"*'} | FL`
 
@@ -99,11 +99,11 @@ Here is the result of running the PowerShell command shown above:
  
  ![PowerShell command results](../media/search-unifiedauditlog-2.png) 
 
-Email messages that were accessed are identified by their *InternetMessageId* value. You can also check to see if any audit records have the same context as those already associated with other attacker activity. 
+Email messages that were accessed are identified by their *InternetMessageId* value. You can also check to see if any audit records have the same context as the records already associated with other attacker activity. 
 
 You can use the audit data for bind operations in two different ways:
 - Access or collect all email messages the attacker accessed by using the *InternetMessageId* to find them and determine if any of those messages contains sensitive information.
-- Use the *InternetMessageId* to search audit records related to a set of potentially sensitive email messages. This is useful if you are concerned only about a small number of messages.
+- Use the *InternetMessageId* to search audit records related to a set of potentially sensitive email messages. This method is useful if you're concerned only about a small number of messages.
 
 ## Learn more
 - [Responding to a Compromised Email Account](https://docs.microsoft.com/microsoft-365/security/office-365-security/responding-to-a-compromised-email-account?view=o365-worldwide?azure-portal=true)
