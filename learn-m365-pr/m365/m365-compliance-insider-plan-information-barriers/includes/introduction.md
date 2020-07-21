@@ -44,9 +44,9 @@ For example, Sergio belongs to the Banking segment and Pradeep belongs to the Fi
 ![Concepts of information barrier policies](../media/concepts-information-barrier-policies.png)
  
 When you define policies for information barriers, you will work with user account attributes, segments, "block" and/or "allow" policies, and policy application.
-- *User account attributes* are defined in Azure Active Directory (or Exchange Online). These attributes can include department, job title, location, team name, and other job profile details.
-- *Segments* are sets of users that are defined in the Office 365 Security & Compliance Center using a selected **user account attribute**. (See the [list of supported attributes](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-attributes?view=o365-worldwide?azure-portal=true).)
+- **User account attributes** are defined in Azure Active Directory (or Exchange Online). These attributes can include department, job title, location, team name, and other job profile details.
+- **Segments** are sets of users that are defined in the Office 365 Security & Compliance Center using a selected **user account attribute**. (See the [list of supported attributes](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-attributes?view=o365-worldwide?azure-portal=true).)
 - Information barrier policies determine communication limits or restrictions. When you define information barrier policies, you choose from two kinds of policies:
-   - *Block* policies prevent one segment from communicating with another segment.
-   - *Allow* policies allow one segment to communicate with only certain other segments.
-- *Policy application* is done after all information barrier policies are defined, and you are ready to apply them in your organization.
+   - **Block** policies prevent one segment from communicating with another segment.
+   - **Allow** policies allow one segment to communicate with only certain other segments.
+- **Policy application** is done after all information barrier policies are defined, and you are ready to apply them in your organization.
