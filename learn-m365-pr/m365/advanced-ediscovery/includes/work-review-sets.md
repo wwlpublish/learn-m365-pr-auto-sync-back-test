@@ -133,7 +133,7 @@ To take full advantage of the attorney-client privilege detection model, it is r
  
 These properties and their corresponding values are searchable within a review set and added to the file metadata of the documents in a review set, as illustrated in the screenshot below:
 
- ![Attorney-client privilege score.](../media/a-c-p-score.png) 
+ ![Attorney-client privilege score.](../media/attorney-client-privilege-score.png) 
 
 ### Set up attorney-client privilege detection
 1. To enable attorney-client privilege detection in your tenant, navigate to the **Cases** tab in Advanced eDiscovery and click **Configure global analytics settings**.
@@ -166,7 +166,7 @@ There are two locations that enable you to configure smart tag groups:
 
 Either method will open the interface that enables you to customize the Attorney-client privilege options and settings. 
 
- ![Two locations for configuring smart tag groups.](../media/manage-tags-a-c-p.png) 
+ ![Two locations for configuring smart tag groups.](../media/manage-tags-attorney-client-privilege.png) 
 
 For more information, see [Use the attorney-client privilege detection model](https://docs.microsoft.com/microsoft-365/compliance/attorney-privilege-detection?view=o365-worldwide#use-the-attorney-client-privilege-detection-model?azure-portal=true).
 
