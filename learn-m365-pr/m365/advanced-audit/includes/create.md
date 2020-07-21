@@ -23,7 +23,7 @@ Here are the steps to connect to Security & Compliance PowerShell:
 
     `$Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection`
 
-    For Office 365 Germany, use the *ConnectionUri* value: https://ps.compliance.protection.outlook.de/powershell-liveid/.
+    For Office 365 Germany, use the **ConnectionUri** value: https://ps.compliance.protection.outlook.de/powershell-liveid/.
 
     For Microsoft 365 Government Community Cloud High (GCC High), use the ConnectionUri value: https://ps.compliance.protection.office365.us/powershell-liveid/.
 
@@ -39,7 +39,7 @@ Watch this demonstration of how to connect to Office 365 Security & Compliance C
 ## Grant permission to create audit log retention policies
 You must be assigned the Organization Configuration role in the Security & Compliance Center to create or modify an audit log retention policy. Here are the instructions for granting these permissions using PowerShell.
 1.	Connect to Office 365 Security & Compliance Center PowerShell using an account that already has access. 
-1.	Use the *Add-RoleGroupMember* cmdlet to add a user to the Organization Management role group. This example shows AlexW being added to the role group:
+1.	Use the **Add-RoleGroupMember** cmdlet to add a user to the Organization Management role group. This example shows AlexW being added to the role group:
 
     `Add-RoleGroupMember -Identity "Organization Management" -Member AlexW`
 

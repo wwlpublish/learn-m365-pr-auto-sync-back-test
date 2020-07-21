@@ -122,7 +122,7 @@ Error remediation of documents leverages an Azure AzCopy command that contains p
     When processing is complete, you can go to the review set and view the remediated files.
 
 ### Single item error remediation
-Sometimes it doesn't make sense to remediate errors in multiple files when you’re unsure if any of those files are relevant to the case you’re investigating. It also might not make sense to remediate errors before you’ve had a chance to review the file metadata (such as file location or who had access) to help you make decisions about the relevance. *Single item error remediation* is a feature that enables you to view the metadata of files with a processing error and, if necessary, remediate the error directly in the review set. To learn more about this, please see [single item error remediation](https://docs.microsoft.com/microsoft-365/compliance/single-item-error-remediation?view=o365-worldwide?azure-portal=true).
+Sometimes it doesn't make sense to remediate errors in multiple files when you’re unsure if any of those files are relevant to the case you’re investigating. It also might not make sense to remediate errors before you’ve had a chance to review the file metadata (such as file location or who had access) to help you make decisions about the relevance. **Single item error remediation** is a feature that enables you to view the metadata of files with a processing error and, if necessary, remediate the error directly in the review set. To learn more about this, please see [single item error remediation](https://docs.microsoft.com/microsoft-365/compliance/single-item-error-remediation?view=o365-worldwide?azure-portal=true).
 
 
 
