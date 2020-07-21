@@ -1,9 +1,9 @@
-Many security threats are facing IT staff these days.  Examples of common security threats include Network security threats and data security threats.
+Many security threats are facing IT staff these days.  Examples of common security threats include network security threats and data security threats.
 
 Common network security threats include:
 
-* An eavesdropping attack (also known as network sniffing), occurs when a hacker captures network packets in transit on your network.
-* A denial of service (DoS) attack limits the function of a network app or renders an app or network resource unavailable.
+* Eavesdropping attacks (also known as network sniffing), which occur when a hacker captures network packets in transit on your network.
+* Denial of service (DoS) attacks, which limit the function of a network app or renders an app or network resource unavailable.
 * Port scanning attacks, which can identify specific apps running on servers.
 * Man-in-the-middle attacks (MITMs), where a hacker uses a computer to impersonate a legitimate host on the network with which your computers are communicating.
 

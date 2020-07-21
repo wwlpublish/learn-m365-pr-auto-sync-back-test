@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.audit-governance.policy-framework
+title: Learn about the Microsoft policy framework
+metadata:
+  title: Learn about the Microsoft policy framework
+  description: Learn how Microsoft implements organization-wide security and privacy governance to support the secure operation of Microsoft 365 services and maintain compliance with regulatory requirements and customer commitments.
+  ms.date: 06/15/2020
+  author: NamrahK
+  ms.author: v-nakhu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 3
+content: |
+  [!include[](includes/policy-framework.md)]

@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.audit-logging-monitoring.introduction
+title: Introduction to Microsoft 365 audit logging and monitoring
+metadata:
+  title: Introduction to Microsoft 365 audit logging and monitoring
+  description: Learn about how Microsoft 365 uses comprehensive audit logging and monitoring to support security monitoring, maintain service availability, and meet compliance requirements.
+  ms.date: 06/10/2020
+  author: NamrahK
+  ms.author: v-nakhu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 2
+content: |
+  [!include[](includes/introduction.md)]

@@ -1,1 +1,7 @@
-Microsoft Defender Advanced Threat Protection is a platform designed to help organizations prevent, detect, investigate, and respond to advanced threats in a constantly evolving landscape. By leveraging cloud security analytics and additional security integrations such as Office 365 ATP and Microsoft Cloud App Security, security teams identify attacker tools, techniques, and procedures. 
+In this module, you learned how Microsoft Defender Advanced Threat Protection can help your organization stay secure.
+
+Now that you have completed this module, you should be able to:
+
+- Define the capabilities of Microsoft Defender ATP.
+- Understand how to hunt threats within your network.
+- Explain how Microsoft Defender ATP can remediate risks in your environment.

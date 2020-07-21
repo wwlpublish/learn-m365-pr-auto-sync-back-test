@@ -4,12 +4,12 @@ title: Describe Windows Virtual Desktop (WVD)
 metadata:
   title: Describe Windows Virtual Desktop (WVD)
   description: "Describe Windows Virtual Desktop (WVD)"
-  ms.date: 06/28/2020
+  ms.date: 07/16/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-durationInMinutes: 3
+durationInMinutes: 12
 content: |
   [!include[](includes/6-windows-virtual-desktop.md)]

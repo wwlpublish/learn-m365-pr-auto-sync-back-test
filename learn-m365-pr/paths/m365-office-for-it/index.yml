@@ -9,7 +9,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Upgrade Microsoft Office for IT at scale
-summary: Learn how to move from a previous version of Microsoft Office to a newer version in your enterprise environment. Use Microsoft Endpoint Configuration Manager to roll out the upgrade at scale, saving you time and effort upgrading individual systems.
+summary: "Learn how to move from a previous version of Microsoft Office to a newer version in your enterprise environment. Use Microsoft Endpoint Configuration Manager to roll out the upgrade at scale, saving you time and effort upgrading individual systems. This learning path can help you prepare for the [Microsoft 365 Certified: Modern Desktop Administrator Associate](https://www.microsoft.com/learning/microsoft-365-exams.aspx#exam-md-100-section) certification."
 prerequisites: | 
  - Familiarity with Microsoft Office, especially servicing
  - Familiarity with Configuration Manager

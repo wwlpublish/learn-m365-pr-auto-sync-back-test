@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.describe-compliance-management-capabilities-of-microsoft-365.get-to-know-your-compliance-score
+title: Get to know your compliance score
+metadata:
+  title: Get to know your compliance score
+  description: "Get to know your compliance score"
+  ms.date: 07/03/2020
+  author: wwlpublish
+  ms.author: ceperezb
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+durationInMinutes: 12
+content: |
+  [!include[](includes/4-get-know-compliance-score.md)]

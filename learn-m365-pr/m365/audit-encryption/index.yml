@@ -1,0 +1,39 @@
+### YamlMime:Module
+uid: learn-m365.audit-encryption
+metadata:
+  title: Understand Microsoft 365 encryption
+  description: Learn how Microsoft 365 encrypts data at rest and in transit, securely manages encryption keys, and provides key management options to customers to meet their business needs and compliance obligations.
+  ms.date: 06/18/2020
+  author: NamrahK
+  ms.author: v-nakhu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Understand Microsoft 365 encryption
+summary: Learn how Microsoft 365 encrypts data at rest and in transit, securely manages encryption keys, and provides key management options to customers to meet their business needs and compliance obligations.
+abstract: |
+ Upon completion of this module, you should be able to:
+ - Explain how encryption mitigates the risk of unauthorized data disclosure.
+ - Describe Microsoft data-at-rest and data-in-transit encryption solutions.
+ - Explain how Microsoft 365 implements service encryption to protect customer data at the application layer.
+ - Understand the differences between Microsoft managed keys and customer managed keys for use with service encryption.
+
+prerequisites: None
+iconUrl: /learn/achievements/understand-microsoft-365-encryption.svg
+ratingEnabled: false
+levels:
+- beginner
+roles:
+- auditor
+- risk-practitioner
+- privacy-manager
+products:
+- m365
+units:
+- learn-m365.audit-encryption.introduction
+- learn-m365.audit-encryption.data-at-rest-encryption
+- learn-m365.audit-encryption.service-encryption
+- learn-m365.audit-encryption.customer-key
+- learn-m365.audit-encryption.encryption-in-transit
+- learn-m365.audit-encryption.summary-knowledge-check
+badge: 
+  uid: learn-m365.audit-encryption.badges

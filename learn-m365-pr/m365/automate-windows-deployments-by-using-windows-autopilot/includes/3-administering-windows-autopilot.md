@@ -68,3 +68,9 @@ Autopilot supports multiple ways of delivering applications to users and devices
 
 - **Microsoft 365 Apps** - All of the apps that are included in the Office suite including Word, Excel, PowerPoint, OneDrive, Access, Outlook, Publisher, Skype for Business, Teams, Project, and Visio.
 
+## Learn more
+
+- [Create and assign deployment profile](https://docs.microsoft.com/intune/enrollment/enrollment-autopilot?azure-portal=true)
+- [Extract device hardware information to CSV](https://docs.microsoft.com/windows/deployment/windows-autopilot/add-devices#device-identification?azure-portal=true)
+- [Import device hardware information to cloud service](https://docs.microsoft.com/intune/enrollment/enrollment-autopilot?azure-portal=true)
+- [Troubleshoot deployment](https://docs.microsoft.com/windows/deployment/windows-autopilot/troubleshooting?azure-portal=true)

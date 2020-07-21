@@ -1,0 +1,34 @@
+### YamlMime:LearningPath
+uid: learn.wwl.m365-security-compliance-capabilities
+metadata:
+  title: Demonstrate fundamental knowledge of Microsoft 365 security and compliance capabilities
+  description: Demonstrate fundamental knowledge of Microsoft 365 security and compliance capabilities
+  ms.date: 07/01/2020
+  author: wwlpublish
+  ms.author: ceperezb
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: Demonstrate fundamental knowledge of Microsoft 365 security and compliance capabilities
+prerequisites: |
+  - A basic understanding of cloud computing. If you're unfamiliar with basic cloud computing concepts, we recommend you take [Cloud Concepts - Principles of cloud computing](https://docs.microsoft.com/learn/modules/principles-cloud-computing/index)
+summary: |
+  Learn about the Microsoft 365 security and compliance solutions areas and the capabilities available to help enterprises secure their enterprise and meet regulatory requirements.
+iconUrl: /learn/achievements/generic-trophy.svg
+levels:
+- beginner
+roles:
+- business-owner
+- business-user
+- student
+products:
+- m365
+modules:
+- learn.wwl.describe-microsoft-365-security-principles-solution-areas
+- learn.wwl.describe-identity-access-management-capabilities-of-microsoft-365
+- learn.wwl.describe-threat-protection-capabilities-of-microsoft-365
+- learn.wwl.describe-cloud-security-capabilities-of-microsoft-365
+- learn.wwl.describe-information-protection-governance-capabilities-of-microsoft-365
+- learn.wwl.describe-compliance-management-capabilities-of-microsoft-365
+- learn.wwl.reduce-risk-simplify-discovery-audit-process
+trophy:
+  uid: learn.wwl.m365-security-compliance-capabilities.trophy

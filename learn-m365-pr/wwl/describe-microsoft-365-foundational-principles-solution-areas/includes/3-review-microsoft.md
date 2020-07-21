@@ -18,7 +18,7 @@ With the growing importance of mobility and the transition to the cloud, we’ve
 * Identity protection - Identity protection keeps you informed of suspicious user and sign-in behavior in your environment. It works 24/7 and automatically responds to proactively prevent compromised identities from being abused. 
 * Identity governance - Protect, monitor, and audit access to critical assets throughout the user lifecycle. And ensure the right access for the right users at the right time.
 
-   :::image type="content" source="../media/3-identity.png" alt-text="Identity is the new control plane":::
+   :::image type="content" source="../media/3-identity-v3.png" alt-text="Identity is the new control plane":::
 
 ### Threat protection
 Organizations have concerns about the high volume of data they store, as well as the increasing sophistication and impact of attacks. Integrated and automated threat protection is designed to help meet the demand for advanced security that works in the real world.
@@ -51,10 +51,10 @@ We give customers the flexibility to implement the necessary controls to meet bo
 * An analytics dashboard to monitor and remediate issues.
 * A set of APIs that enables the ecosystem to extend our information protection and governance capabilities to their own apps and services. 
 
-  :::image type="content" source="../media/3-data-landscape.png" alt-text="Understand your data landscape and identify important data":::
+  :::image type="content" source="../media/3-data-landscape-v2.png" alt-text="Understand your data landscape and identify important data":::
 
 ### Insider risk management
-Orangiziations need to be able to identify, analyze, and remediate internal risks before they cause harm.  Insider risk management policies give you visibility into, and control over:
+Organizations need to be able to identify, analyze, and remediate internal risks before they cause harm.  Insider risk management policies give you visibility into, and control over:
 * Internal data access.
 * Identify and manage corporate policy violations such as harassment, code-of-conduct, and fraud.
 * Data leakages by insiders, including IP theft, confidential data, etc.

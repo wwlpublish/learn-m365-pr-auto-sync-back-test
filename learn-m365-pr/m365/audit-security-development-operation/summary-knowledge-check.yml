@@ -1,0 +1,91 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.audit-security-development-operation.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Learn how Microsoft 365 follows Microsoft’s Security Development Lifecycle (SDL) to build security and privacy into our products and services.
+  ms.date: 05/29/2020
+  author: NamrahK
+  ms.author: v-nakhu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 6
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "What is the correct order for the five core development phases of Microsoft’s SDL?"
+      choices:
+      - content: "Design > Requirements > Implementation > Verification > Release"
+        isCorrect: false
+        explanation: "Microsoft’s SDL defines security and privacy requirements before the software design phase."
+      - content: "Requirements > Design > Implementation > Release > Verification"
+        isCorrect: false
+        explanation: "Microsoft’s SDL requires that all new builds are verified and approved before release."
+      - content: "Implementation > Requirements > Design > Verification > Release"
+        isCorrect: false
+        explanation: "Microsoft’s SDL requires defined security requirements and software design before implementation of the design."
+      - content: "Requirements > Design > Implementation > Verification > Release"
+        isCorrect: true
+        explanation: "Correct. These are the phases of Microsoft’s Security Development Lifecycle."
+      
+    - content: "How does the Microsoft SDL use threat modeling to improve security?"
+      choices:
+      - content: "To verify code meets design specifications before it is checked in"
+        isCorrect: false
+        explanation: "Microsoft requires manual code review to verify code meets design specifications."
+      - content: "To identify vulnerabilities in the design of a product or service"
+        isCorrect: true
+        explanation: "Correct. Microsoft requires threat modeling to identify vulnerabilities in the design of products and services."
+      - content: "To release code securely across the environment"
+        isCorrect: false
+        explanation: "Microsoft requires that all new builds undergo testing, security review, and approval to release code securely across the environment."
+      - content: "To detect and respond to potential security incidents"
+        isCorrect: false
+        explanation: "Microsoft detects security incidents through security monitoring and responds using the incident response process."
+      
+    - content: "What category of automated tools does Microsoft use to test and validate how code handles unexpected or untrusted inputs during execution?"
+      choices:
+      - content: "Static code analysis tools"
+        isCorrect: false
+        explanation: "Static code analysis tools check source code for vulnerabilities."
+      - content: "Binary analysis tools"
+        isCorrect: false
+        explanation: "Binary analysis tools check builds at the binary level for security flaws."
+      - content: "Fuzz testing tools"
+        isCorrect: true
+        explanation: "Correct. Fuzz testing tools simulate malformed inputs to validate how code handles unexpected or untrusted inputs during execution."
+      - content: "Component Governance"
+        isCorrect: false
+        explanation: "Component Governance is used to detect and track open-source components."
+
+    - content: "Which of the following does Microsoft use to test the detection and response capabilities of its services?"
+      choices:
+      - content: "Attack simulation"
+        isCorrect: true
+        explanation: "Correct. The Red Team performs attack simulations to test the detection and response capabilities of Microsoft 365 services."
+      - content: "Component Governance"
+        isCorrect: false
+        explanation: "Component Governance is used to detect and track open-source components."
+      - content: "Security awareness training"
+        isCorrect: false
+        explanation: "Security awareness training prepares employees to recognize and report security incidents, but it does not test detection or response capabilities."
+      - content: "Threat modeling"
+        isCorrect: false
+        explanation: "Threat modeling is used to identify vulnerabilities in the design of products and services."
+        
+    - content: "How does Microsoft detect open-source components in its products and services?"
+      choices:
+      - content: "Static code analysis tools"
+        isCorrect: false
+        explanation: "Static code analysis tools check source code for vulnerabilities."
+      - content: "Binary analysis tools"
+        isCorrect: false
+        explanation: "Binary analysis tools check builds at the binary level for security flaws."
+      - content: "Fuzz testing tools"
+        isCorrect: false
+        explanation: "Fuzz testing tools simulate malformed inputs to validate how code handles unexpected or untrusted inputs during execution."
+      - content: "Component Governance"
+        isCorrect: true
+        explanation: "Correct. Component Governance is used to detect and track open-source components."

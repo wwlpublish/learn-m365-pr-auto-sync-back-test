@@ -3,7 +3,7 @@
 Microsoft Threat Protection is a unified pre- and post-breach enterprise defense suite that natively coordinates detection, prevention, investigation, and response across endpoints, identities, email, and applications to provide integrated protection against sophisticated attacks.
 Microsoft Threat Protection suite protects:
 
-* Identities with Azure ATP and Azure AD Identity Protection - Azure ATP uses Active Directory signals to identify, detect, and investigate advanced threats, compromised identities, and malicious insider actions directed at your organization.
+* Identities with Azure ATP - Azure ATP uses Active Directory signals to identify, detect, and investigate advanced threats, compromised identities, and malicious insider actions directed at your organization.
 * Endpoints with Microsoft Defender ATP - Microsoft Defender ATP is a unified endpoint platform for preventative protection, post-breach detection, automated investigation, and response.
 * Applications with Microsoft Cloud App security - Microsoft Cloud App security is a comprehensive cross-SaaS solution bringing deep visibility, strong data controls, and enhanced threat protection to your cloud apps.
 * Email and collaboration with Office 365 ATP - Office 365 ATP safeguards your organization against malicious threats by detecting, investigating, and responding to attacks across email and other collaboration vectors like Microsoft Teams, SharePoint Online, and OneDrive for Business and Office clients.
@@ -32,11 +32,11 @@ Microsoft Defender Advanced Threat Protection is a platform designed to help ent
 There are seven pillars to Microsoft Defender Advanced Threat Protection:
 
 * Threat & vulnerability management - Threat and vulnerability management is a risk-based approach to the discovery, prioritization, and remediation of endpoint vulnerabilities and misconfigurations. It uses sensors on devices to avoid the need for agents or scans and prioritizes vulnerabilities.
-* Attack surface reduction - Attack surface reduction reduces the places that you’re open to attack. You can ensure that only allowed apps can run and prevent apps from accessing dangerous locations.
-* Next Generation protection - Next-Generation protection detects and blocks attacks before they can do damage, including attacks from new and emerging threats.
-* Endpoint detection and response - Endpoint detection and response finds otherwise hidden threats. Microsoft Defender ATP collects behaviors and attacker techniques on endpoints to identify, and alert on, suspicious activity.
-* Auto investigation & remediation - Auto investigation & remediation automatically investigates and remediates threats at scale using AI.
-* Microsoft Threat Experts - Microsoft Threat Experts is a managed threat hunting service including targeted attack notifications and Microsoft threat experts on demand to provide a technical consultation.
+* Attack surface reduction - Attack surface reduction reduces the places where your organization is vulnerable to cyberthreats and attacks.. You can ensure that only allowed apps can run and prevent apps from accessing dangerous locations.
+* Next Generation protection - Microsoft Defender Antivirus is the next-generation protection component of Microsoft Defender ATP. Next-generation protection brings together machine learning, big-data analysis, in-depth threat resistance research, and the Microsoft cloud infrastructure to protect devices in your enterprise organization.
+* Endpoint detection and response - Microsoft Defender ATP endpoint detection and response capabilities provide advanced attack detections that are near real-time and actionable. Security analysts can prioritize alerts, gain visibility into the full scope of a breach, and take response actions to remediate threats.
+* Automated investigation & remediation - The automated investigation feature uses various inspection algorithms, and processes used by analysts (such as playbooks) to examine alerts and take immediate remediation action to resolve breaches. This significantly reduces the volume of alerts that must be investigated individually.
+* Microsoft Threat Experts - Microsoft Threat Experts is a managed threat hunting service that provides Security Operation Centers (SOCs) with expert level monitoring and analysis to help them ensure that critical threats in their unique environments don’t get missed.
 * Management & APIs - Besides providing a comprehensive and robust endpoint protection solution in its own right, Microsoft Defender ATP provides APIs to integrate with other solutions.
 
 In this video, you'll learn more about Microsoft Defender Advanced Threat Protection:

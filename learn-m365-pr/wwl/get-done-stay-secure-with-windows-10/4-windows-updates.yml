@@ -4,12 +4,12 @@ title: Explain how Windows stays secure and up-to-date
 metadata:
   title: Explain how Windows stays secure and up-to-date
   description: "Explain how Windows stays secure and up-to-date"
-  ms.date: 06/28/2020
+  ms.date: 07/16/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-durationInMinutes: 1
+durationInMinutes: 6
 content: |
   [!include[](includes/4-windows-updates.md)]

@@ -1,0 +1,48 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.prepare-for-wvd.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: Review what you've learned.
+  ms.date: 06/29/2020
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 3
+quiz:
+   title: Check your knowledge
+   questions:
+   - content: "What subscription is required to set up Windows Virtual Desktop?"
+     choices:
+     - content: "Azure subscription"
+       isCorrect: true
+       explanation: "Windows Virtual Desktop runs in Azure as an Azure service. It also requires other Azure services like Azure Active Directory, Azure Virtual Network, and Azure Storage."
+     - content: "Microsoft 365 subscription"
+       isCorrect: false
+       explanation: "Windows Virtual Desktop doesn't run in Microsoft 365."
+     - content: "Windows 10 subscription"
+       isCorrect: false
+       explanation: "You can use your Windows 10 licenses with Windows Virtual Desktop. But a subscription isn't required."
+   - content: "Synchronizing an Active Directory Domain Services (AD DS) environment with Azure Active Directory (Azure AD) helps establish consistent user logins. It's also used to match devices to users with Group Policy. Which option is NOT a method to synchronize Active Directory with AD DS?" 
+     choices:
+     - content: "Password Hash Sync"
+       isCorrect: false 
+       explanation: "Password Hash Sync is a valid method. This option synchronizes usernames and hashes of passwords with to Azure AD." 
+     - content: "Pass-through Authentication" 
+       isCorrect: false
+       explanation: "Pass-through Authentication is a valid method. This option allows your on-premises directory service to perform simple authentication for Microsoft cloud services, requiring very little on-premises configuration." 
+     - content: "Windows Hello for Business" 
+       isCorrect: true
+       explanation: "Correct, Windows Hello for Business is not a synchronization solution Azure Active Directory, in fact its value is largely based on PIN and biometric logins using asymmetrical public-private key pairs (PKI) rather than a shared secret, such as a password."   
+   - content: "Which role do you need to provision Windows Virtual Desktop?" 
+     choices:
+     - content: "Global administrator" 
+       isCorrect: true
+       explanation: "An Azure user that has the Global administrator role can provision Windows Virtual Desktop." 
+     - content: "User administrator" 
+       isCorrect: false
+       explanation: "You need the user administrator role to create and manage user. But this role isn't used to provision Windows Virtual Desktop." 
+     - content: "Subscription owner"
+       isCorrect: false  
+       explanation: "The Azure subscription owner must to register the Windows Virtual Desktop provider. But this role alone won't allow the user to provision Windows Virtual Desktop." 

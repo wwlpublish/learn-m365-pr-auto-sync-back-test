@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn-m365.audit-logging-monitoring
+metadata:
+  title: Understand Microsoft 365 audit logging and monitoring
+  description: Learn about how Microsoft 365 uses comprehensive audit logging and monitoring to support security monitoring, maintain service availability, and meet compliance requirements.
+  ms.date: 06/10/2020
+  author: NamrahK
+  ms.author: v-nakhu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Understand Microsoft 365 audit logging and monitoring
+summary: Learn about how Microsoft 365 uses comprehensive audit logging and monitoring to support security monitoring, maintain service availability, and meet compliance requirements.
+abstract: |
+ Upon completion of this module, you should be able to:
+ - Explain how Microsoft 365 standardizes log data collection.
+ - Describe how Microsoft 365 aggregates and protects log data in centralized processing and storage services.
+ - List Microsoft 365’s retention policies for log data.
+ - Explain how Microsoft 365 analyzes log data to support security monitoring and service health monitoring.
+
+prerequisites: None
+iconUrl: /learn/achievements/understand-microsoft-audit-logging-monitoring.svg
+ratingEnabled: false
+levels:
+- beginner
+roles:
+- auditor
+- privacy-manager
+- risk-practitioner
+products:
+- m365
+units:
+- learn-m365.audit-logging-monitoring.introduction
+- learn-m365.audit-logging-monitoring.microsoft365-log-collection
+- learn-m365.audit-logging-monitoring.log-protection-retention
+- learn-m365.audit-logging-monitoring.log-analysis-reporting
+- learn-m365.audit-logging-monitoring.summary-knowledge-check
+badge: 
+  uid: learn-m365.audit-logging-monitoring.badges

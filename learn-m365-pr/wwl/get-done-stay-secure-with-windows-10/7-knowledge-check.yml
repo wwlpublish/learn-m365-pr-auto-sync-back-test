@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 06/28/2020
+  ms.date: 07/16/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -20,7 +20,7 @@ quiz:
     choices:
     - content: "The ability to run Windows as a virtual desktop"
       isCorrect: false
-      explanation: "That's incorrect. Windows-as-a-Service is a new model for Windows. It provides more frequent updates, for examply semi-annually, instead of installing a major new release every few years."
+      explanation: "That's incorrect. Windows-as-a-Service is a new model for Windows. It provides more frequent updates, for example semi-annually, instead of installing a major new release every few years."
     - content: "Windows 10 with regular feature updates"
       isCorrect: true
       explanation: "That's correct. Windows-as-a-Service is a new model for Windows 10. Instead of a major release every three or four years, features are released more frequently, such as semi-annually."
@@ -53,7 +53,7 @@ quiz:
     choices:
     - content: "Configuration Manager"
       isCorrect: true
-      explanation: "That's correct. Confituration Manager allows you to configure Windows-as-a-Service including Service Channels and Deployment rings."
+      explanation: "That's correct. Configuration Manager allows you to configure Windows-as-a-Service including Service Channels and Deployment rings."
     - content: "Windows updates"
       isCorrect: false
       explanation: "That's incorrect. Windows updates are used to distribute fixes and security updates. Configuration Manager is used to configure Windows-as-a-Service."

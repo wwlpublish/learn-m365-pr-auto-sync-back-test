@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.describe-compliance-management-capabilities-of-microsoft-365.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 07/03/2020
+  author: wwlpublish
+  ms.author: ceperezb
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+durationInMinutes: 1
+content: |
+  [!include[](includes/6-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which of the following compliance tools are accessible from the Service Trust Portal?"
+    choices:
+    - content: "Compliance Manager, Trust documents, Regional Solutions, and Privacy"
+      isCorrect: true
+      explanation: "Correct. These are all accessible from the Service Trust Portal."
+    - content: "Accessibility assurance controls, Conditional Trust, and Compliance Manager"
+      isCorrect: false
+      explanation: "Incorrect. accessibility assurance control and conditional trust are not part of the Service Trust Portal."
+    - content: "Responsibility Manager, Accessibility assurance controls, and Conditional Trust"
+      isCorrect: false
+      explanation: "Incorrect. None of these are part of the Service Trust Portal."
+  - content: "What type of controls does Compliance Score track?"
+    choices:
+    - content: "Microsoft-managed controls only"
+      isCorrect: false
+      explanation: "Incorrect. Compliance Score tracks Microsoft-managed controls and customer-managed controls."
+    - content: "Customer-managed controls only"
+      isCorrect: false
+      explanation: "Incorrect. Compliance Score tracks Microsoft-managed controls and customer-managed controls"
+    - content: "Microsoft-managed controls and customer-managed controls"
+      isCorrect: true
+      explanation: "Correct. Compliance Score tracks Microsoft-managed controls and customer-managed controls"
+  - content: "Which of the following is a key capability of Microsoft compliance center in Microsoft 365?"
+    choices:
+    - content: "Workplace analytics"
+      isCorrect: false
+      explanation: "That's incorrect. Workplace analytics is not one of the key capabilities of Microsoft compliance center."
+    - content: "View and respond to compliance alerts"
+      isCorrect: true
+      explanation: "That's correct. Microsoft compliance center allows you to view and respond to compliance alerts"
+    - content: "MyAnalytics"
+      isCorrect: false
+      explanation: "That's incorrect. MyAnalytics is not one of the key capabilities of Microsoft compliance center."

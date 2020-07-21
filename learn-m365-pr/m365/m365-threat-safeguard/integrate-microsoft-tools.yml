@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-threat-safeguard.integrate-microsoft-tools
+title: Integrate with other Microsoft tools
+metadata:
+  title: Integrate with other Microsoft tools
+  description: Learn about the Azure Advanced Threat Protection component of Microsoft Threat Protection. 
+  ms.date: 06/24/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 10
+content: |
+  [!include[](includes/integrate-microsoft-tools.md)]

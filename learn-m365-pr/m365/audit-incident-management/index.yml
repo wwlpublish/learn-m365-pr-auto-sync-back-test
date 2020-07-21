@@ -1,0 +1,43 @@
+### YamlMime:Module
+uid: learn-m365.audit-incident-management
+metadata:
+  title: Understand Microsoft 365 security incident management 
+  description: Learn how Microsoft 365 investigates, manages, and responds to security concerns to protect customers and the Microsoft 365 cloud environment.
+  ms.date: 05/22/2020
+  author: NamrahK
+  ms.author: v-nakhu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Understand Microsoft 365 security incident management 
+summary: Learn how Microsoft 365 investigates, manages, and responds to security concerns to protect customers and the Microsoft 365 cloud environment. 
+abstract: |
+ Upon completion of this module, you should be able to: 
+ - Describe Microsoft’s Assume Breach Strategy and Defense-in-Depth approach to security.
+ - Explain how Microsoft defines a Security Incident, the federated model that Microsoft uses for Security Incident Response across the organization, and how customers and Microsoft share responsibility for security in the cloud.
+ - Describe how Microsoft prepares to deal with security issues through training, testing, and knowledge sharing.
+ - Describe how the Security Incident Response team detects and analyzes potential security issues.
+ - Describe how issues are contained, eradicated, and how recovery is handled.
+ - Describe how Microsoft incorporates lessons from security incidents into our processes and procedures.
+ - Explain how and when Microsoft will notify your organization in the event a Security Incident affects your tenant.
+  
+prerequisites: None
+iconUrl: /learn/achievements/understand-microsoft-365-security-incident-management.svg
+ratingEnabled: false
+levels:
+- beginner
+roles:
+- auditor
+- privacy-manager
+- risk-practitioner
+products:
+- m365
+units:
+- learn-m365.audit-incident-management.introduction
+- learn-m365.audit-incident-management.incident-response-phase-one
+- learn-m365.audit-incident-management.incident-response-phase-two
+- learn-m365.audit-incident-management.incident-response-phase-three
+- learn-m365.audit-incident-management.incident-response-phase-four
+- learn-m365.audit-incident-management.customer-notification-process
+- learn-m365.audit-incident-management.summary-knowledge-check
+badge: 
+  uid: learn-m365.audit-incident-management.badges

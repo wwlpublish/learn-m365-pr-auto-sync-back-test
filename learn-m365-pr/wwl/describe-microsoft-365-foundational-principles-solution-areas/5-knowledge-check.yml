@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 06/28/2020
+  ms.date: 07/03/2020
   author: wwlpublish
   ms.author: ceperezb
   ms.topic: interactive-tutorial
@@ -27,17 +27,6 @@ quiz:
     - content: "It reduces the need for data protection."
       isCorrect: false
       explanation: "That's incorrect. Single sign-on is more convenient for users, but does not remove the need for data protection policies and safeguards."
-  - content: "Which is not a Microsoft privacy principle?"
-    choices:
-    - content: "Encryption."
-      isCorrect: true
-      explanation: "That's correct. Encryption can be used to protect data but is not one of Microsoft’s six primary privacy principles."
-    - content: "No content-based targeting."
-      isCorrect: false
-      explanation: "That's incorrect. No content-based targeting is one of Microsoft’s six primary privacy principles. It states that email, chat, files and other personal content will not be used for targeted advertising."
-    - content: "Control."
-      isCorrect: false
-      explanation: "That's incorrect. Putting people in control of their own privacy settings is one of Microsoft’s six primary privacy principles."
   - content: "What does Microsoft’s Discover & Respond solution do?"
     choices:
     - content: "Protects against malware."

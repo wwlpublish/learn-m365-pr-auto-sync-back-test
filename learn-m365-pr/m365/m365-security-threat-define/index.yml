@@ -2,21 +2,22 @@
 uid: learn-m365.m365-security-threat-define
 metadata:
   title: Introduction to threat protection with Microsoft 365 
-  description: Learn about how attackers most commonly breach organizations--and the Microsoft tools that protect your organization in an ever shifting landscape.
-  ms.date: 10/14/2019
-  author: lizap
-  ms.author: elizapo
+  description: Learn about cybersecurity threats and how the new threat protection tools from Microsoft protect your organization’s users, devices, and data. 
+  ms.date: 07/02/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Introduction to threat protection with Microsoft 365
-summary: Learn about how attackers most commonly breach organizations--and the Microsoft tools that protect your organization in an ever shifting landscape. 
+summary: Learn about cybersecurity threats and how the new threat protection tools from Microsoft protect your organization’s users, devices, and data.
 abstract: |
   In this module, you will learn how to:
-  - Identify and define security threats
-  - Explain how the threat landscape is evolving and attackers are adapting
-  - Articulate the Microsoft Graph and the security API
+  - Define security threats.
+  - Understand common threats.
+  - Explain how the threat landscape is evolving.
+
 prerequisites: | 
- - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+ - Intermediate understanding of Microsoft 365.
 iconUrl: /learn/achievements/introduction-to-threat-protection.svg
 ratingEnabled: true
 levels:
@@ -27,6 +28,7 @@ products:
 - m365
 - m365-threat-protection
 units:
+- learn-m365.m365-security-threat-define.introduction
 - learn-m365.m365-security-threat-define.what-constitutes-threat
 - learn-m365.m365-security-threat-define.landscape-evolving
 - learn-m365.m365-security-threat-define.summary-knowledge-check

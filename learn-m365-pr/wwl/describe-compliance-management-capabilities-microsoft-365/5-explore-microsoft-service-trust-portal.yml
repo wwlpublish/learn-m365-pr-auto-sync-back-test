@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.describe-compliance-management-capabilities-of-microsoft-365.explore-microsoft-service-trust-portal
+title: Explore the Microsoft Service Trust Portal
+metadata:
+  title: Explore the Microsoft Service Trust Portal
+  description: "Explore the Microsoft Service Trust Portal"
+  ms.date: 07/03/2020
+  author: wwlpublish
+  ms.author: ceperezb
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/5-explore-microsoft-service-trust-portal.md)]

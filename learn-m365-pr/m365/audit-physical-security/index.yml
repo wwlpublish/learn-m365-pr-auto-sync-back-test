@@ -1,0 +1,45 @@
+### YamlMime:Module
+uid: learn-m365.audit-physical-security
+metadata:
+  title: Understand Microsoft datacenter security
+  description: Learn how Microsoft uses Defense-In-Depth to secure our datacenters against unauthorized access, environmental hazards, and other physical threats, as well as how Microsoft implements resilient architecture, business continuity, and disaster recovery to maintain the availability of our services.
+  ms.date: 06/16/2020
+  author: NamrahK
+  ms.author: v-nakhu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Understand Microsoft datacenter security
+summary: Learn how Microsoft uses Defense-In-Depth to secure our datacenters against unauthorized access, environmental hazards, and other physical threats, as well as how Microsoft implements resilient architecture, business continuity, and disaster recovery to maintain the availability of our services.
+abstract: |
+ Upon completion of this module, you should be able to:
+ - Describe how the architecture of Microsoft datacenters contributes to resilience and availability.
+ - Explain how Microsoft uses Threat, Vulnerability, and Risk Assessments (TVRA) to analyze datacenter risk.
+ - Describe how Microsoft implements environmental safeguards to protect both Microsoft datacenters and the environment.
+ - Explain how Microsoft uses Defense-In-Depth to physically secure Microsoft datacenters.
+ - Describe how Microsoft protects and tracks physical and virtual assets in Microsoft datacenters.
+ - Explain how Microsoft protects data stored on data bearing devices.
+ - Describe how datacenter business continuity, disaster recovery, and resilience strategies protect the availability of Microsoft datacenters.
+
+prerequisites: None
+iconUrl: /learn/achievements/understand-microsoft-datacenter-security.svg
+ratingEnabled: false
+levels:
+- beginner
+roles:
+- auditor
+- risk-practitioner
+- privacy-manager
+products:
+- m365
+units:
+- learn-m365.audit-physical-security.introduction
+- learn-m365.audit-physical-security.architecture-infrastructure
+- learn-m365.audit-physical-security.risk-management
+- learn-m365.audit-physical-security.environmental-safeguards
+- learn-m365.audit-physical-security.physical-security
+- learn-m365.audit-physical-security.asset-management
+- learn-m365.audit-physical-security.device-security
+- learn-m365.audit-physical-security.disaster-recovery
+- learn-m365.audit-physical-security.summary-knowledge-check
+badge: 
+  uid: learn-m365.audit-physical-security.badges

@@ -8,10 +8,10 @@ Communication compliance policies in Microsoft 365 help you overcome many modern
 
 Watch this 7-minute video to get a tour of Microsoft Communication Compliance.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4xlaF?pid=RE4xlaF-ax-86-id-oneplayer&postJsllMsg=true&autoplay=false&mute=false&loop=false&playFullScreen=false]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4xlaF]
 
 As you can see, Compliance Communication is a powerful tool that can help monitor and detect aberrant and undesirable communications either between your staff, or between your staff and third-parties.  Communication compliance isn’t enabled by default, and can be found in the Solutions Catalog, under Insider Risk Management.
 
 Once enabled, you can use the advanced machine learning to track emails and team conversations looking for inappropriate message sentiment, profanity, resumes, source code, targeted harassment, and threats. In addition, you can use it to identify instances of insider trading by looking for account details, monetary values, and credit or bank account details.
 
-Communications Compliance is a power tool, that can help maintain and safeguard your staff, your data and your organization.
+Communications Compliance is a powerful tool, that can help maintain and safeguard your staff, your data and your organization.

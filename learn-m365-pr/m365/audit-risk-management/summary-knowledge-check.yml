@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.audit-risk-management.summary-knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Learn how Microsoft 365 identifies, assesses, responds to, and manages risks to protect customers and the Microsoft 365 environment.
+  ms.date: 06/18/2020
+  author: NamrahK
+  ms.author: v-nakhu
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 4
+content: |
+  [!include[](includes/summary-knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "What is the purpose of the Enterprise Risk Management program?"
+      choices:
+      - content: "To execute risk assessments on Microsoft 365."
+        isCorrect: false
+        explanation: "Microsoft 365 Trust manages Microsoft 365 risk management activities, including activities related to risk assessments."
+      - content: "To identify and ensure accountability for Microsoft’s most significant risks."
+        isCorrect: true
+        explanation: "Correct. The purpose of the Enterprise Risk management program is to identify and ensure accountability for Microsoft’s most significant risks."
+      - content: "To mitigate all risks at Microsoft."
+        isCorrect: false
+        explanation: "Not all risks require mitigation. Low severity risks may simply be monitored to ensure rapid detection and response, and high severity risks may be avoided or transferred instead of undergoing mitigation."
+      
+    - content: "Who is responsible for implementing security controls in Microsoft 365 products and services?"
+      choices:
+      - content: "Microsoft 365 Trust"
+        isCorrect: false
+        explanation: "Microsoft 365 Trust works with service teams to identity control gaps and plan control solutions but does not implement security controls."
+      - content: "Service teams"
+        isCorrect: true
+        explanation: "Correct. Service teams implement security controls after working with Microsoft 365 Trust to identity control gaps."
+      - content: "Enterprise Risk Management"
+        isCorrect: false
+        explanation: "The Enterprise Risk Management program provides a consistent approach to managing risk at Microsoft but does not implement security controls."
+      
+    - content: "Which factor for calculating risk accounts for the predicted frequency at which a risk will occur?"
+      choices:
+      - content: "Impact"
+        isCorrect: false
+        explanation: "Impact accounts for the negative effects of a risk being realized."
+      - content: "Likelihood"
+        isCorrect: true
+        explanation: "Correct. Likelihood takes the predicted frequency of an event into account for calculating risk."
+      - content: "Control Deficiency"
+        isCorrect: false
+        explanation: "Control deficiency measures the effectiveness of existing controls for reducing risk."

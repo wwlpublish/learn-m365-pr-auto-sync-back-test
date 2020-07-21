@@ -18,3 +18,9 @@ For this phase, it is especially important to communicate changes and help users
 
 ## Phase 3: Broad production deployment 
 By the time you start deploying broadly, the processes, communications, training, and self-service tools should be in place. New technology acceptance and adoption goes on long after all of the users in your organization have installed Windows 10 and Microsoft 365 Apps. End users won’t necessarily change how they work if the business doesn’t take the time to train them on new functionalities. With new servicing models providing new capabilities semi-annually for Windows and, optionally monthly for Office, communication is an ongoing process.
+
+## Learn more
+
+- [Evaluate and select deployment options](https://docs.microsoft.com/learn/modules/m365-modern-os-deployment/2-deployment-tools?azure-portal=true)
+- [Build deployment rings](https://docs.microsoft.com/windows/deployment/update/waas-deployment-rings-windows-10-updates?azure-portal=true)
+- [Manage and troubleshoot provisioning packages](https://docs.microsoft.com/windows/configuration/provisioning-packages/provisioning-packages?azure-portal=true)

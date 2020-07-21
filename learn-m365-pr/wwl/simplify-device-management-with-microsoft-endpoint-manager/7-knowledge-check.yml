@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 06/29/2020
+  ms.date: 07/16/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -40,7 +40,7 @@ quiz:
       explanation: "That's correct. For personal devices, if users only want access to email or Microsoft Teams, then use app protection policies that require multi-factor authentication (MFA) to use these apps."
   - content: "Which of the following statements is correct?"
     choices:
-    - content: "Configuration Manager manages both on-premises infrastructure andcloud-based functions"
+    - content: "Configuration Manager manages both on-premises infrastructure and cloud-based functions"
       isCorrect: false
       explanation: "That's incorrect. Configuration Manager manages on-premises infrastructure and Intune manages cloud-based functions."
     - content: "Configuration Manager manages on-premises infrastructure and Intune manages cloud-based functions"
