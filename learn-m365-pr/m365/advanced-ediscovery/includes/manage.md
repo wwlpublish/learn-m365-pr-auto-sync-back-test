@@ -104,7 +104,7 @@ Using the Contoso compliance boundaries sample scenario, four role groups need t
 - Coho Winery Investigators
 
 #### Create a search permissions filter to enforce the compliance boundary
-The *New-ComplianceSecurityFilter* cmdlet is used to create a search permissions filter that controls the content locations that eDiscovery managers and investigators can search. This means eDiscovery managers and investigators in the Fourth Coffee agency can only search content locations in the Fourth Coffee subsidiary. The same restriction applies to the Coho Winery subsidiary.
+The **New-ComplianceSecurityFilter** cmdlet is used to create a search permissions filter that controls the content locations that eDiscovery managers and investigators can search. This means eDiscovery managers and investigators in the Fourth Coffee agency can only search content locations in the Fourth Coffee subsidiary. The same restriction applies to the Coho Winery subsidiary.
 
 Here are examples of the two search permissions filters that would be created to support the Contoso compliance boundaries scenario. Both of these examples include a comma-separated filters list, in which the mailbox and site filters are included in the same search permissions filter and are separated by a comma.
 
@@ -112,7 +112,7 @@ Here are examples of the two search permissions filters that would be created to
 
 `New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "Coho Winery eDiscovery Managers", "Coho Winery Investigators" -Filters "Mailbox_Department -eq 'CohoWinery'", "Site_ComplianceAttribute -eq 'CohoWinery' -or Site_Path -like 'https://contoso.sharepoint.com/sites/CohoWinery*'" -Action ALL`
 
-To learn more about each of the *New-ComplianceSecurityFilter* parameters, see [New-ComplianceSecurityFilter](https://docs.microsoft.com/microsoft-365/compliance/permissions-filtering-for-content-search?view=o365-worldwide#new-compliancesecurityfilter?azure-portal=true).
+To learn more about each of the **New-ComplianceSecurityFilter** parameters, see [New-ComplianceSecurityFilter](https://docs.microsoft.com/microsoft-365/compliance/permissions-filtering-for-content-search?view=o365-worldwide#new-compliancesecurityfilter?azure-portal=true).
 
 The entire process for setting up compliance boundaries involves the following steps:
 1.	Identify a user attribute to define your agencies, i.e. Company or Department. 
