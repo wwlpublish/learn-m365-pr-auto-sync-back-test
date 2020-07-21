@@ -99,7 +99,7 @@ To create and run a query on the documents in a review set, click **New query** 
 
  ![New query screen in a review set.](../media/new-query.png) 
 
-After you name your query, you can create it by using a combination of conditions and query language in the Keywords condition card. You can also group conditions together as a block (called a *condition group*) to build a more complex query. For a list and description of metadata properties that you can search, see [Document metadata fields in Advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/document-metadata-fields-in-advanced-ediscovery?view=o365-worldwide?azure-portal=true).
+After you name your query, you can create it by using a combination of conditions and query language in the Keywords condition card. You can also group conditions together as a block (called a **condition group**) to build a more complex query. For a list and description of metadata properties that you can search, see [Document metadata fields in Advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/document-metadata-fields-in-advanced-ediscovery?view=o365-worldwide?azure-portal=true).
 
  ![Condition group in building a query.](../media/new-query-2.png) 
 
