@@ -54,6 +54,6 @@ Now that you’ve read about creating security best practices, let’s walk thro
 
 View a [video version](https://www.microsoft.com/videoplayer/embed/RE4C7zQ) of the interactive guide (captions available in more languages).
 
-<a href="https://mslearn.cloudguides.com/en-us/guides/Enable%20a%20combined%20MFA%20and%20SSPR%20registration%20experience%20in%20Azure%20AD">![Enable a combined MFA and SSPR registration experience in Azure AD](../media/interactive-multi-factor-authentication-registration.png)</a>  
+<a href="https://mslearn.cloudguides.com/guides/Enable%20a%20combined%20MFA%20and%20SSPR%20registration%20experience%20in%20Azure%20AD">![Enable a combined MFA and SSPR registration experience in Azure AD](../media/interactive-multi-factor-authentication-registration.png)</a>  
 
 Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 

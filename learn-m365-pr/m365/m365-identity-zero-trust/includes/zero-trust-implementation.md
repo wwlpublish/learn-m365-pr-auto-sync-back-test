@@ -14,7 +14,7 @@ SSO is not only a convenient feature for users, but it’s also a security postu
 
 View a [video version](https://www.microsoft.com/videoplayer/embed/RE4C2jQ) of the interactive guide (captions available in more languages).
 
-<a href="https://mslearn.cloudguides.com/en-us/guides/Provide%20secure%20remote%20access%20to%20on-premises%20applications%20with%20Azure%20AD%20Application%20Proxy">![Provide secure remote access to on-premises apps with Azure AD Application Proxy](../media/interactive-provide-secure-remote-access-premises-apps.png)</a>  
+<a href="https://mslearn.cloudguides.com/guides/Provide%20secure%20remote%20access%20to%20on-premises%20applications%20with%20Azure%20AD%20Application%20Proxy">![Provide secure remote access to on-premises apps with Azure AD Application Proxy](../media/interactive-provide-secure-remote-access-premises-apps.png)</a>  
 
 Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
 

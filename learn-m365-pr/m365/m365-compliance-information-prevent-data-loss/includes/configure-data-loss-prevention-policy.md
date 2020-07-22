@@ -69,13 +69,13 @@ You can also elect when to detect content has been shared. Leaving this box unch
 ### What do you want to do if we detect sensitive info?
 Detailed activity reports are already produced so you can review the content matching the DLP policy, but there are more settings you can configure.
 
-*Notify users when content matches the policy settings*. You want people in your organization who work with sensitive information to stay compliant with your DLP policies, but you do not want to block them unnecessarily from getting their work done. Enabling this feature, which is on by default, results in the following notifications designed to help them learn how to use sensitive info responsibly:
+**Notify users when content matches the policy settings**. You want people in your organization who work with sensitive information to stay compliant with your DLP policies, but you do not want to block them unnecessarily from getting their work done. Enabling this feature, which is on by default, results in the following notifications designed to help them learn how to use sensitive info responsibly:
 - Default or custom policy tip appearing to users in their apps (Outlook, OneDrive, SharePoint, and Teams).
 - Default or custom email notifying the user of a policy settings match.
 
 Uncheck this box if you are just getting started with this policy and want to test it first.
 
-*Detect when a specific amount of sensitive info is being shared at one time.* Sharing one credit card number probably should not result in the same response as sharing 1,000 credit card numbers. You can specify the number of instances of the same info type that must be detected to trigger a response. The default is 10. Two additional options are available if this option is checked.
+**Detect when a specific amount of sensitive info is being shared at one time.** Sharing one credit card number probably should not result in the same response as sharing 1,000 credit card numbers. You can specify the number of instances of the same info type that must be detected to trigger a response. The default is 10. Two additional options are available if this option is checked.
 - **Send incident reports in email**. This option, enabled by default, sends an email to the global admin and the admin configuring the DLP policy when there has been a violation.
 - **Restrict access or encrypt the content**. When enabled, you have two options:
     - **Block people from sharing and restrict access to shared content.**
@@ -90,11 +90,11 @@ This page only appears if you select the option to **Restrict access or encrypt 
 
 By default, users are blocked from sending email and Teams chats and channel messages that contain the type of content you are protecting. But you can choose who has access to shared SharePoint and OneDrive files. You can also decide if you want to let people override the policy's restrictions.
 
-*Block these people from accessing SharePoint, OneDrive, and Teams content*. Options for this setting include:
+**Block these people from accessing SharePoint, OneDrive, and Teams content**. Options for this setting include:
 - **Everyone**
 - **Only people outside your organization**
 
-*Let people who see the tip override the policy*. When this option is enabled, users who see the tip can override the DLP policy. Additional options include:
+**Let people who see the tip override the policy**. When this option is enabled, users who see the tip can override the DLP policy. Additional options include:
 - Require a business justification to override.
 - Override the rule automatically if it is reported as a false positive.
 

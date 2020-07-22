@@ -15,7 +15,7 @@ Azure AD Identity Governance helps manage access using the following capabilitie
 
 View a [video version](https://www.microsoft.com/videoplayer/embed/RE4ChU3) of the interactive guide (captions available in more languages).
 
-<a href="https://mslearn.cloudguides.com/en-us/guides/Enable%20B2B%20Collaboration%20in%20Azure%20AD">![Enable B2B Collaboration with Azure AD](../media/interactive-enable-b2b-collaboration.png)</a>  
+<a href="https://mslearn.cloudguides.com/guides/Enable%20B2B%20Collaboration%20in%20Azure%20AD">![Enable B2B Collaboration with Azure AD](../media/interactive-enable-b2b-collaboration.png)</a>  
 
 Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
 
