@@ -29,9 +29,9 @@ products:
 - m365
 units:
 - learn-m365-identity.m365-identity-authentication.introduction
-- learn-m365-identity.m365-identity-authentication.enforce-multi-factor-authentication
+- learn-m365-identity.m365-identity-authentication.enforce-mfa
 - learn-m365-identity.m365-identity-authentication.reduce-legacy-authentication
-- learn-m365-identity.m365-identity-authentication.implement-password-alternatives
+- learn-m365-identity.m365-identity-authentication.implement-pw-alternatives
 - learn-m365-identity.m365-identity-authentication.summary-knowledge-check
 - learn-m365-identity.m365-identity-authentication.summary
 badge: 
