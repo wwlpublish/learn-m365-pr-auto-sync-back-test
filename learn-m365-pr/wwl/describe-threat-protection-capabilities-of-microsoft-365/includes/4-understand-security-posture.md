@@ -30,9 +30,10 @@ In the Microsoft Secure Score overview page, you can see how points are split be
 
 For more information, read [Microsoft Secure Score](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score-preview?view=o365-worldwide)
 
-Follow the steps below to navigate through the Microsoft 365 security center, using a free trial tenant:
+
 
 ## Walkthrough
+Follow the steps below to navigate through the Microsoft 365 security center, using a free trial tenant.
 
 ### Task 1: Sign in to the tenant
 
