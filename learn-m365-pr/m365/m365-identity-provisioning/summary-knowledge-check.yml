@@ -1,21 +1,21 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365-identity.m365-identity-provisioning.summary-knowledge-check
-title: Summary and knowledge check
+title: Knowledge check
 metadata:
-  title: Summary and knowledge check
-  description: Review what you've learned about access and identity provisioning in Microsoft 365.
-  ms.date: 09/12/2019
-  author: TheJasonAndrew 
-  ms.author: v-jasoan
+  title: Knowledge check
+  description: Learn about identity governance and how you can safeguard access to your organization’s data.
+  ms.date: 07/14/2020
+  author: AlexandraHrt 
+  ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 2
+durationInMinutes: 5
 content: |
-  [!include[](includes/summary-knowledge-check.md)]
+
 quiz:
     title: Check your knowledge
     questions:
-    - content: "All of these are identity management capabilities of Microsoft 365 EXCEPT:"
+    - content: "All of these are identity management capabilities of Microsoft 365 **except**:"
       choices:
       - content: "Conditional access"
         isCorrect: false
@@ -25,7 +25,7 @@ quiz:
         explanation: "Azure AD B2B lets you share your company's applications and services with guest users and external partners."
       - content: "Automated investigation and response"
         isCorrect: true
-        explanation: "Automated investigation and response is not an identity management feature; it’s a tool that automates investigation and remediation of well-known attack threats."
+        explanation: "Automated investigation and response are not an identity management feature; it’s a tool that automates investigation and remediation of well-known attack threats."
     - content: "When you plan for identity governance in Azure AD, you should:"
       choices:
       - content: "Determine which users and groups should have access to which resources at which time."

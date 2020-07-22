@@ -1,50 +1,46 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365-identity.m365-identity-secure-administrators.summary-knowledge-check
-title: Summary and knowledge check
+title: Knowledge check
 metadata:
-  title: Summary and knowledge check
-  description: Review what you've learned about enhancing security for administrator accounts.
-  ms.date: 09/06/2019
-  author: puffinanda
-  ms.author: v-jolev
+  title: Knowledge check
+  description: Learn about securing administrator accounts through secure devices, dedicated administrator accounts, and just-in-time privileges. 
+  ms.date: 07/08/2020
+  author: AlexandraHrt
+  ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 2
+durationInMinutes: 5
 content: |
-  [!include[](includes/summary-knowledge-check.md)]
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Why do administrator accounts require enhanced security?"
+    - content: "Privileged Access Workstations (PAWs) provide a dedicated operating system for sensitive tasks that's protected from Internet attacks and threat vectors. "
       choices:
-      - content: "Because administrators travel frequently, they are more likely to use unsecured devices to access their organization’s resources remotely."
-        isCorrect: false
-        explanation: "Administrators are not more likely than other staff to use unsecured devices."
-      - content: "Administrators typically have supervisory access to the personal files of their direct reports."
-        isCorrect: false
-        explanation: "Administrators usually do not have access to personal files of their direct reports."
-      - content: "Administrators frequently have privileged access to sensitive data and therefore are often targets of cyberattacks."
+      - content: "True"
         isCorrect: true
-        explanation: "Hackers target administrator accounts to gain access to an organization’s sensitive data and systems."
-    - content: "How could you ensure that administrators use secure mobile devices to access the organization’s network?"
+        explanation: "Privileged Access Workstations (PAWs) provide a dedicated operating system for sensitive tasks that is protected from Internet attacks and threat vectors"
+      - content: "False"
+        isCorrect: false
+        explanation: "Privileged Access Workstations (PAWs) provide a dedicated operating system for sensitive tasks that is protected from Internet attacks and threat vectors."
+    - content: "Which of the following responses is not a protected resource using Azure AD Privileged Identity Management?"
       choices:
-      - content: "Create a Conditional Access policy that only grants access to managed and compliant devices."
+      - content: "Azure resources"
+        isCorrect: false
+        explanation: "Azure AD Privileged Identity Management helps you to manage privileged administrative roles across Azure AD, Azure resources, and other Microsoft Online Services. For Active Directory Domain Services, use Microsoft Identity Manager's Privileged Access Manager capability."
+      - content: "Azure AD "
+        isCorrect: false
+        explanation: "Azure AD Privileged Identity Management helps you to manage privileged administrative roles across Azure AD, Azure resources, and other Microsoft Online Services. For Active Directory Domain Services, use Microsoft Identity Manager's Privileged Access Manager capability."
+      - content: "Active Directory Domain Services "
         isCorrect: true
-        explanation: "Conditional Access uses a combination of user, location, device, app, and other risk conditions to ensure only the right users have access to apps and data."
-      - content: "Use Azure Information Protection to control how data is accessed from employee devices."
-        isCorrect: false
-        explanation: "You use Azure Information Protection to classify and protect documents and emails, not to secure mobile devices."
-      - content: "Enable single sign-on for mobile devices."
-        isCorrect: false
-        explanation: "Single sign-on would not by itself guarantee that a device is trusted and compliant."
-    - content: "Which of these methods would best lower the exposure risk of privileged administrator accounts?"
+        explanation: "Azure AD Privileged Identity Management helps you to manage privileged administrative roles across Azure AD, Azure resources, and other Microsoft Online Services. For Active Directory Domain Services, use Microsoft Identity Manager's Privileged Access Manager capability."
+    - content: "Which of the following responses is **not** one of the approaches behind Azure AD Privileged Identity Management?"
       choices:
-      - content: "Require all critical administrator accounts to use single sign-on."
+      - content: "Manage risk"
         isCorrect: false
-        explanation: "Requiring single-on would not reduce the risk posed by phishing attacks."
-      - content: "Use Azure AD Privileged Identity Management to set time-limited access of privileged roles."
+        explanation: "Managing risk is one of the one of the approaches behind Azure AD Privileged Identity Management."
+      - content: "Reduce number of privileged users"
         isCorrect: true
-        explanation: "You can use Azure AD Privileged Identity Management to set as-needed access to administrator accounts that access sensitive data."
-      - content: "For administrator roles, set a Conditional Access policy that restricts access to sensitive data from noncompliant devices."
+        explanation: "Azure AD Privileged Identity Management does not seek to reduce the number of privileged users, but instead ensures that users only have administrative privileges when they are required."
+      - content: "Address compliance and governance "
         isCorrect: false
-        explanation: "A better method would be to reduce persistent access to sensitive data."
+        explanation: "Address compliance and governance is one of the one of the approaches behind Azure AD Privileged Identity Management."

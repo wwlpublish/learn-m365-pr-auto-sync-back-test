@@ -1,25 +1,7 @@
-Cybersecurity attacks have become more sophisticated. Passwords alone are no longer failproof protection against unauthorized access. Hackers use phishing attacks to steal users’ credentials, then bypass network controls and expand access throughout the organization’s network.  Single factor authentication, such as passwords, isn’t enough to deter modern attacks. 
+Today, analyst firms report that the average enterprise’s employees collectively use more than 300 software-as-a-service applications (and some estimates are much higher). That number is rapidly expanding. Between the hyper-growth of these apps, the rate at which they change and the business demand to harness new cloud capabilities for business transformation, it’s challenging to keep up. Relying on an on-premises identity solution as the control point makes connecting to all these cloud applications a nearly impossible task. If you include all the user devices, guest accounts, and connected objects,  you have a management and security nightmare.
 
-![Password Risk Data](../media/icon2.png)
+![300 percent increase in identity attacks](../media/increase-identity-attacks.png)
 
-The risks to your data are clear: 
+With cloud-based identity as the control point, you can help users be more productive by providing access to apps and devices that are on-premises or in the cloud from virtually anywhere and do so with incredible agility. Whether you’re just getting started on your cloud journey or want to accelerate your identity modernization, Azure AD can help you connect all your applications to achieve your business productivity and security goals.
 
-- 81% of security breaches are caused by identity theft. Cloud, mobile, and Internet of Things (IoT) assets are frequently outside enterprise firewalls. Identity and access controls are inconsistent across platforms, services, and devices. Once users are outside your network perimeter, they are potentially at risk for attack. [source: Verizon 2017 Data Breach Investigations Report]
-
-- 73% of users use the same password for multiple accounts because they must remember credentials for multiple apps and devices. If a user’s identity is breached for one account, it’s only a matter of time before hackers move laterally throughout your network. If one of your users is hacked on a non-corporate account, it might lead to a vulnerability in their work identity. [source: Telesign 2016 consumer account security report]
-
-- Users tend to value productivity over security; 80% of employees admit using non-approved SaaS apps for work, which may introduce vulnerabilities into your network. [source: Stratecast, December 2013]
-
-## Identity challenges for today’s organizations  
-
-The new threat landscape requires a shift from securing perimeters to protecting identities.
-
-![New Threat Landscape](../media/icon3.png)  
-
-- Users need constant access using different technologies across multiple mobile devices, cloud apps, and services.
-
-- Users suffer from an increase in identity attacks because of a lack of visibility and control over their technology.
-
-- Organizations must comply with evolving data privacy regulations and must constantly monitor their security practices to remain compliant.
-
-- Users want to stay productive using a simple authentication experience.
+![Consistent single-sign-on to legacy apps](../media/consistent-sso-legacy-apps.png)

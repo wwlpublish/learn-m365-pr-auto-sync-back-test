@@ -1,11 +1,16 @@
-Identity management is the process of authenticating identities. This might include services, applications, users, or groups. Microsoft identity and access management solutions use Azure AD to protect access to applications and resources across the organization’s datacenter and into the cloud. 
+## Sign on seamlessly to all connected apps
 
-By using the security capabilities of Azure AD, you can:
+Single sign-on (SSO) adds security and convenience to signing on to applications in Azure Active Directory (Azure AD).
 
-* Create and manage a single identity for each user across your hybrid enterprise, keeping users, groups, and devices in sync.
+**With single sign-on**, users sign on once to access domain-joined devices, company resources, software as a service (SaaS) applications, and web applications. After signing on, the user can launch applications from the Office 365 portal or the Azure AD MyApps access panel. Administrators can centralize user account management and automatically add or remove user access to applications based on group membership.
 
-* Provide single sign-on (SSO) access to your applications, including thousands of pre-integrated SaaS apps.
+**Without single sign-on**, by contrast, users must remember application-specific passwords and log into each application individually. IT staff needs to create and update user accounts for each application such as Office 365, Box, and Salesforce. 
 
-* Provision secure remote access to on-premises web applications through Azure AD Application Proxy.
+![Enable a seamless user experience with single sign-on](../media/enable-sso.png)
 
-* Enable application access security by enforcing rules-based Multi-factor Authentication for both on-premises and cloud applications.
+## Configure single sign-on
+
+There are several ways to configure an application for single sign-on, depending on how the application is configured for authentication.
+
+- Cloud applications use OpenID Connect, OAuth, SAML, password-based, linked, or disabled methods for single sign-on.
+- On-premises applications use password-based, Integrated Windows Authentication, header-based, linked, or disabled methods for single sign-on. The on-premises choices work when applications are configured for Application Proxy. Azure AD Application Proxy is a feature of Azure AD that supports SSO and enables users to access on-premises web applications from a remote client, removing the need for a VPN or a reverse proxy. 
