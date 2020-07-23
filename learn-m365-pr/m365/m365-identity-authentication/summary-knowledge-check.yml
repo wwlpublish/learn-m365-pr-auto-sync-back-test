@@ -1,39 +1,47 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365-identity.m365-identity-authentication.summary-knowledge-check
-title: Summary and knowledge check
+title: Knowledge check
 metadata:
-  title: Summary and knowledge check
-  description: Review what you've learned about access and identity authentication in Microsoft 365.
-  ms.date: 09/09/2019
-  author: TheJasonAndrew 
-  ms.author: v-jasoan
+  title: Knowledge check
+  description: Learn about modern authentication and the security benefits it provides to your organization, such as enabling multi-factor authentication (MFA) and a passwordless environment. 
+  ms.date: 07/14/2020
+  author: AlexandraHrt 
+  ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 2
+durationInMinutes: 5
 content: |
-  [!include[](includes/summary-knowledge-check.md)]
+
 quiz:
     title: Check your knowledge
     questions:
-    - content: "How do you require multi-factor authentication (MFA) for your end users?"
+    - content: "Legacy authentication supports enabling multi-factor authentication."
       choices:
-      - content: "Use Azure AD Privileged Identity Management to assign which roles require MFA."
+      - content: "True"
         isCorrect: false
-        explanation: "You use Privileged Identity Management to manage who has access to which organization resources."
-      - content: "Use a Conditional Access policy to require users to perform MFA when certain criteria are met."
+        explanation: "Legacy authentication does not support multi-factor authentication."
+      - content: "False"
         isCorrect: true
-        explanation: "You deploy multi-factor authentication by using Conditional Access to enforce policies."
-      - content: "Use Role-based Access to determine which specific roles are required to use MFA."
-        isCorrect: false
-        explanation: "You use Role-based Access to control which roles have access to organization resources."
-    - content: "How would you prepare to implement passwordless authentication for your mobile device users?"
+        explanation: "Legacy authentication does not support multi-factor authentication."     
+    - content: "Which of the following describes how to enforce multi-factor authentication?"
       choices:
-      - content: "Enable multi-factor authentication (MFA), use Microsoft Intune to ensure that users can enroll their mobile devices, and require users to install the Microsoft Authenticator app."
+      - content: "Create a Conditional Access policy with “Require multi-factor authentication” enabled."
         isCorrect: true
-        explanation: "You must enable MFA, ensure that users’ mobile devices are trusted, and require users to install the Microsoft Authenticator app."
-      - content: "Enable single sign-on, turn on Conditional Access, use Microsoft Intune to enable users to enroll their devices, and require users to install the Microsoft Authenticator app."
+        explanation: "To enforce MFA, create a Conditional Access policy and select **Require multi-factor authentication** under Access controls."
+      - content: "Configure a Compliance policy in Intune with **Require multi-factor authentication** enabled."
         isCorrect: false
-        explanation: "You must enable MFA to implement passwordless authentication."
-      - content: "Enable MFA, turn on Conditional Access, and require users to install the Microsoft Authenticator app."
+        explanation: "To enforce MFA, create a Conditional Access policy and select **Require multi-factor authentication** under Access controls."
+      - content: "Multi-factor authentication is automatically enforced for all modern authentication applications."
         isCorrect: false
-        explanation: "Users must enroll their mobile devices as trusted before you can enable passwordless authentication with the Microsoft Authenticator app."
+        explanation: "To enforce MFA, create a Conditional Access policy and select **Require multi-factor authentication** under Access controls."
+    - content: "Which of the following is a method of passwordless authentication?"
+      choices:
+      - content: "Copying and pasting the password from a sticky note. "
+        isCorrect: false
+        explanation: "A biometric scan or pin via Windows Hello, phone-as-a-token from the Microsoft Authenticator app, or a FIDO2 security key are all methods of passwordless authentication."
+      - content: "Biometric scan"
+        isCorrect: true
+        explanation: "A biometric scan or pin via Windows Hello, phone-as-a-token from the Microsoft Authenticator app, or a FIDO2 security key are all methods of passwordless authentication. "
+      - content: "Gently whispering the password into a microphone"
+        isCorrect: false
+        explanation: "A biometric scan or pin via Windows Hello, phone-as-a-token from the Microsoft Authenticator app, or a FIDO2 security key are all methods of passwordless authentication."

@@ -11,47 +11,112 @@
       "redirect_document_id": true
     },
     {
-      "source_path": "learn-m365-pr/m365/m365-security-threat-protect/cloud-apps-security.md",
+      "source_path": "learn-m365-pr/m365/m365-identity-overview/evolution-identity-tech.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-overview/introduction",
+      "redirect_document_id": true
+    },
+	  {
+      "source_path": "learn-m365-pr/m365/m365-identity-provisioning/choose-deploy-sso.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-provisioning/introduction",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-identity-provisioning/importance-identity-governance.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-provisioning/proactive-identity-governance",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-identity-provisioning/right-access-safeguard.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-provisioning/define-right-access",
+      "redirect_document_id": true
+    },
+	  {
+      "source_path": "learn-m365-pr/m365/m365-identity-authentication/implement-pw-alternatives.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-authentication/implement-password-alternatives",
+      "redirect_document_id": true
+    },
+    {
+	  	"source_path": "learn-m365-pr/m365/m365-identity-secure-administrators/configure-nonpersistent.md",
+	  	"redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-secure-administrators/just-time-privileges",
+	  	"redirect_document_id": true
+	  },
+    {
+	    "source_path": "learn-m365-pr/m365/m365-identity-cultural-shift/build-IT-awareness.md",
+	    "redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-cultural-shift/introduction",
+	    "redirect_document_id": true
+	  },
+	  {
+	  	"source_path": "learn-m365-pr/m365/m365-identity-secure-administrators/enforce-secure-devices.md",
+	  	"redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-secure-administrators/introduction",
+	  	"redirect_document_id": true
+    },
+    {
+	    "source_path": "learn-m365-pr/m365/m365-identity-cultural-shift/help-developers-become-security-allies.md",
+	    "redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-cultural-shift/identity-development-approach",
+	    "redirect_document_id": true
+	  },
+	  {
+	  	"source_path": "learn-m365-pr/m365/m365-identity-secure-administrators/enhance-security-admin-accounts.md",
+	  	"redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-secure-administrators/just-time-privileges",
+	  	"redirect_document_id": true
+	  },
+	  {
+	  	"source_path": "learn-m365-pr/m365/m365-identity-secure-administrators/isolate-privileged-accounts.md",
+	  	"redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-secure-administrators/isolated-identity",
+	  	"redirect_document_id": true
+	  },
+    {
+	    "source_path": "learn-m365-pr/m365/m365-identity-cultural-shift/increase-user-security-awareness.md",
+	    "redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-cultural-shift/security-best-practices",
+	    "redirect_document_id": true
+    },
+    {
+	    "source_path": "learn-m365-pr/m365/m365-identity-authentication/enforce-mfa.md",
+	    "redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-authentication/enforce-multi-factor-authentication",
+	    "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-security-threat-protect/cloud-apps-security.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-security-threat-protect/introduction",
       "redirect_document_id": true
     },
     {
-      "source_path": "learn-m365-pr/m365/m365-security-threat-protect/m365-security-center.md",
+      "source_path": "learn-m365-pr/m365/m365-security-threat-protect/m365-security-center.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-security-threat-protect/practice-security-administration",
       "redirect_document_id": true
     },
     {
-      "source_path": "learn-m365-pr/m365/m365-security-threat-protect/office-365-atp.md",
+      "source_path": "learn-m365-pr/m365/m365-security-threat-protect/office-365-atp.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-threat-remediate/introduction",
       "redirect_document_id": true
     },
     {
-      "source_path": "learn-m365-pr/m365/m365-security-threat-train/defenders-dilemma.md",
+      "source_path": "learn-m365-pr/m365/m365-security-threat-train/defenders-dilemma.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-threat-remediate/automate-investigate-remediate",
       "redirect_document_id": true
     },
     {
-      "source_path": "learn-m365-pr/m365/m365-security-threat-train/index.md",
+      "source_path": "learn-m365-pr/m365/m365-security-threat-train/index.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-threat-remediate",
       "redirect_document_id": true
     },
     {
-      "source_path": "learn-m365-pr/m365/m365-security-threat-train/introduction.md",
+      "source_path": "learn-m365-pr/m365/m365-security-threat-train/introduction.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-threat-remediate/introduction",
       "redirect_document_id": true
     },
     {
-      "source_path": "learn-m365-pr/m365/m365-security-threat-train/raise-attacker-cost.md",
+      "source_path": "learn-m365-pr/m365/m365-security-threat-train/raise-attacker-cost.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-threat-remediate/configure-protect-detect",
       "redirect_document_id": true
     },
     {
-      "source_path": "learn-m365-pr/m365/m365-security-threat-train/train-defenders.md",
+      "source_path": "learn-m365-pr/m365/m365-security-threat-train/train-defenders.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-threat-remediate/simulate-attacks",
       "redirect_document_id": true
     },
     {
-      "source_path": "learn-m365-pr/m365/m365-security-threat-train/summary-knowledge-check.md",
+      "source_path": "learn-m365-pr/m365/m365-security-threat-train/summary-knowledge-check.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-threat-remediate/summary-knowledge-check",
       "redirect_document_id": true
     },

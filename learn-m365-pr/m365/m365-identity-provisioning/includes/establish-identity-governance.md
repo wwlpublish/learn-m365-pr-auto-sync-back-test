@@ -1,25 +1,41 @@
-To create your identity infrastructure, you'll designate a primary identity provider. This service stores user accounts and attributes, groups and memberships, and supports their ongoing administration. 
+With Azure Active Directory (Azure AD), you can easily ensure that users have appropriate access. You can ask the users themselves or a decision maker to participate in an access review and recertify (or attest) to users' access. The reviewers can give their input on each user's need for continued access based on suggestions from Azure AD. When an access review is finished, you can then make changes and remove access from users who no longer need it.
 
-  ![Identity Lifecycle](../media/icon10.png)
+## Begin an access review
 
-With Microsoft 365, your primary identity provider is either: 
+To begin an access review, select the Azure AD group or application you want to manage access to. Decide whether you want individual users to review their own access, or one or more users review access for everyone. Then:
 
-- Active Directory Domain Services (AD DS), an intranet identity provider hosted on computers running Windows Server. This is typically used by organizations that have an existing on-premises identity provider.
+1. Navigate to the **Identity Governance** page.
 
- ![Identity Lifecycle](../media/icon11.png)
+   ![Step 1 The Identity Governance page](../media/01-identity-governance-page.png)
 
-- Azure Active Directory (Azure AD), a cloud-based Identity as a Service (IDaaS) that provides a broad range of capabilities for managing and protecting your environment. This is typically used by organizations that have no existing on-premises infrastructure. Azure AD is also used by enterprise customers with on-premises infrastructure. You use Azure AD Connect to manage this hybrid identity environment.
+2. If this is your first time using access reviews, select **Onboard** and **Onboard Now**.
 
-Use the following steps to plan your identity governance infrastructure in a cloud or hybrid environment.
+   ![Step 2 Select Onboard and Onboard Now](../media/02-onboard.png)
 
-1. *Plan for users and groups.* Identify users, groups, and group memberships and their corresponding Azure AD accounts.
+3. Select **Create an access review** from the Getting started page
 
-2. *Secure your privileged identities.* Plan how to secure your global administrator accounts and determine which users will have global admin roles and dedicated global admin accounts.
+   ![Step 3 Create an access review](../media/03-create-access-review.png)
 
-3. *Configure hybrid identity.* For hybrid environments, determine which on-premises identities in AD DS you want to sync with the Azure AD tenant used by your Microsoft 365 subscription. Plan how you will configure Azure AD Connect to implement the synchronization.
+4. On the Access Review screen, provide a **name**, **Start date**, **frequency/duration**, and **end date**. These settings will apply to either members of a group or users assigned to an application. Select the group or application along with the reviewers:
 
-4. *Configure secure user authentication.* Plan to set up multi-factor authentication as a second level of security for user sign-ins. Determine how you will configure the second authentication method on a per-user account basis.
+   ![Step 4 Enter needed data](../media/04-enter-needed-data.png)
 
-5. *Simplify access for users.* Plan to use Azure AD to enable self-service password reset (SSPR). This permits users to reset or unlock their passwords without help desk intervention. For hybrid environments, plan to implement password writeback, which allows users to update their passwords through Azure AD SSPR even when their accounts and attributes are stored on-premises.
+5. Once the review is created, the access review will initialize and then start on the assigned date. 
 
-6. *Use groups for easier management.* Identify Azure AD groups that group owners can manage on their own. Self-service group management enables group leaders who understand the business use for the group to have day-to-day control of membership.
+   ![Step 5 Initialize and start](../media/05-initialize-start.png)
+
+6. Reviewers assigned to the access review will receive an email from Microsoft, prompting them to review access:
+
+   ![Step 6 Email to review access](../media/06-email-review-access.png)
+
+7. On the Access review page, they can select either the groups and apps that require access reviews, or the access packages:
+
+   ![Step 7 Review access packages](../media/07-access-reviews-webpage.png)
+
+8. Once the reviewer has opened the access review, they are able to approve or deny the access. Here three users are selected and denied for access to the Intune Administrators group:
+
+   ![Step 8 Approve or deny access](../media/08-intune-admin-confirm-deny.png)
+
+9. The Identity Governance access review pane then updates with the results of the access review, and users denied access are removed from the group.
+
+   ![Step 9 Access review pane update](../media/09-access-review-pane.png)

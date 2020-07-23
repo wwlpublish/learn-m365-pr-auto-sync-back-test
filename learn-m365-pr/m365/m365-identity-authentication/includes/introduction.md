@@ -1,9 +1,10 @@
-About 81% of all successful attacks result from weak or compromised credentials. Multi-factor authentication helps safeguard access to data and applications.
+## Modernize your authentication flows
 
-MFA requires two or more of the following authentication methods:
+To give your users easy access to your cloud apps, Azure Active Directory (Azure AD) supports a broad variety of authentication protocols including legacy authentication. Legacy authentication is a term that refers to an authentication request made by:
 
-- Something you know (typically a password)
-- Something you have (a trusted device that is not easily duplicated, such as a smart device or a badge)
-- Something you are (fingerprints, iris/retina scan, facial recognition)
+- Older Office clients that do not use modern authentication methods (for example, Office 2010 client).
+- Any client that uses legacy mail protocols such as IMAP/SMTP/POP3.
 
-Two-step verification creates a second security layer. Compromising multiple authentication factors presents a significant challenge for attackers because even if they manage to compromise a user’s password, they can’t use it without also possessing one of the additional authentication methods.
+Today the majority of all compromising sign-on attempts come from legacy authentication because it does not support multi-factor authentication (MFA). Even if you have an MFA policy enabled on your directory, a bad actor can authenticate using a legacy protocol and bypass MFA. The best way to protect your account from malicious authentication requests made by legacy protocols is to block these attempts altogether.
+
+Modern authentication is a method of identity management that offers more secure user authentication and authorization. Specifically, modern authentication enables Microsoft Authentication Library (MSAL)-based sign-on for Office client apps across different platforms. This allows sign-on features such as multi-factor authentication (MFA), smart card, and certificate-based authentication to be enabled. If you have an MFA policy in place on your directory, modern authentication ensures that the user is prompted for MFA when required. It is the more secure alternative to legacy authentication protocols.
