@@ -31,6 +31,8 @@ Moving to the cloud presents a new threat vector for organizations. Attacks can 
 - MCAS leverages the Intelligent Security Graph, with its billions of security signals, to power its Threat Detection.
 - MCAS integrates with Secure Score to provide visibility into your Microsoft security position and provides an overview of which security features are available to reduce risk. MCAS feeds into the overall scoring and helps you protect your environment of cloud apps.
 
+To learn more go through the [Interactive guide – Detect threats and manage alerts wtih Microsoft Cloud App Security](https://mslearn.cloudguides.com/guides/Detect%20threats%20and%20manage%20alerts%20with%20Microsoft%20Cloud%20App%20Security)
+
 ## MCAS integration with Power Automate
 
 Power Automate is a service that helps you create automated workflow between your favorite apps and service to synchronize files, get notices, collect data, and more. Microsoft Cloud App Security integrates with Power Automate to provide custom alert automation and orchestration playbooks that help automate and orchestrate a response when specific alerts are triggered. By creating a playbook in Power Automate using Cloud App Security connector, your business can create workflows to enable customized governance options for their policies.
