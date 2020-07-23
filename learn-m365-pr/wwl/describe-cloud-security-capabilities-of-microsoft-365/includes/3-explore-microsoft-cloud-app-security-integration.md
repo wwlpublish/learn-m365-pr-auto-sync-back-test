@@ -31,7 +31,7 @@ Moving to the cloud presents a new threat vector for organizations. Attacks can 
 - MCAS leverages the Intelligent Security Graph, with its billions of security signals, to power its Threat Detection.
 - MCAS integrates with Secure Score to provide visibility into your Microsoft security position and provides an overview of which security features are available to reduce risk. MCAS feeds into the overall scoring and helps you protect your environment of cloud apps.
 
-To learn more go through the [Interactive guide – Detect threats and manage alerts wtih Microsoft Cloud App Security](https://mslearn.cloudguides.com/guides/Detect%20threats%20and%20manage%20alerts%20with%20Microsoft%20Cloud%20App%20Security)
+To learn more go through the [Interactive guide – Detect threats and manage alerts with Microsoft Cloud App Security](https://mslearn.cloudguides.com/guides/Detect%20threats%20and%20manage%20alerts%20with%20Microsoft%20Cloud%20App%20Security)
 
 ## MCAS integration with Power Automate
 
