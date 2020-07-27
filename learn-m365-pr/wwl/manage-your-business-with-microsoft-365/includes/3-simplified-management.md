@@ -1,6 +1,4 @@
-In today’s workplace, IT departments support different devices configured in different ways. Your organization might have Android and iOS mobile phones, Windows 10 and macOS PCs, and custom devices your users bring to work. Not only do you have to support all of these 
-
-:::image type="content" source="../media/3-cloud-connected.png" alt-text="Cloud-connected IT":::
+In today’s workplace, IT departments support different devices configured in different ways. Your organization might have Android and iOS mobile phones, Windows 10 and macOS PCs, and custom devices your users bring to work.
 
 Microsoft provides the tools and services to enable you to simplify the management of all these devices. Microsoft Endpoint Manager (MEM) helps you solve the challenge of device management in today’s mobile and remote work environment. MEM is a secure and intelligent management solution that improves productivity and collaboration with the familiar experiences users expect and gives IT the flexibility to support diverse scenarios for both bring your own device (BYOD) and corporate-owned devices.
 
