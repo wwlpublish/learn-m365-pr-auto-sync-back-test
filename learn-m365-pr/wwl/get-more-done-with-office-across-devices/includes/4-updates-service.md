@@ -15,7 +15,7 @@ Feature updates in Semi-Annual Enterprise Channel have already been released in 
 
 As you can see in this image, Current Channel updates occur at different times of the month and filter into the next Monthly Enterprise Channel update:
 
-:::image type="content" source="../media/5-office-updates.png" alt-text="Update frequency":::
+:::image type="content" source="/media/5-office-updates.png" alt-text="Update frequency":::
 
 As needed, Microsoft also provides each update channel with two additional types of updates:
 
