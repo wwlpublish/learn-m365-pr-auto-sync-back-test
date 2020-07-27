@@ -22,7 +22,7 @@ These experiences use your Office content to provide design recommendations, edi
 
 These experiences connect to the Internet for online content including templates, images, and data. For example, if you display the weather forecast in Outlook, Outlook connects to Bing to retrieve the relevant weather data.
 
-:::image type="content" source="/media/2-connected-experiences.png" alt-text="Connected experiences":::
+:::image type="content" source="../media/2-connected-experiences.png" alt-text="Connected experiences":::
 
 Connected experiences include:
 
