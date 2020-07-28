@@ -23,6 +23,6 @@ Your organization can get access to support in the following ways:
 
 Use the following walkthrough to learn how to find support options and create support requests for Microsoft 365 services:
 
-[Discover support options in Microsoft 365](https://mslearn.cloudguides.com/guides/Discover%20support%20options%20in%20Microsoft%20365)
+> [!VIDEO https://mslearn.cloudguides.com/guides/Discover%20support%20options%20in%20Microsoft%20365]
 
 You’ve now learned how to use the Microsoft 365 admin center to search for support options, view existing service requests, and create new service requests.
