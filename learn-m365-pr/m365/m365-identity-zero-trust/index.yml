@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn-m365-identity.m365-identity-zero-trust
 metadata:
-  title: Embrace Zero Trust with Microsoft 365  
+  title: Embrace Zero Trust with Azure Active Directory  
   description: Learn about the Zero Trust model and how to implement Zero Trust into your organization. 
   ms.date: 07/08/2020
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Embrace Zero Trust with Microsoft 365  
+title: Embrace Zero Trust with Azure Active Directory  
 summary: Learn about the Zero Trust model and how to implement Zero Trust into your organization. 
 abstract: |
   In this module, you will learn:
@@ -17,7 +17,7 @@ abstract: |
    - To explain how the Zero Trust mindset improves your security posture. 
 
 prerequisites: | 
- - Intermediate understanding of Microsoft 365.
+ - Intermediate understanding of Microsoft 365 and Azure Active Directory.
 iconUrl: /learn/achievements/generic-badge.svg
 ratingEnabled: true
 levels:
