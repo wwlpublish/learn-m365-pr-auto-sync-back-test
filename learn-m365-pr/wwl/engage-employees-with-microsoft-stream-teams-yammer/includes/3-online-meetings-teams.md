@@ -19,6 +19,6 @@ Microsoft Teams is designed to help you have more productive meetings. Microsoft
 
 Use the interactive walkthrough below to learn how your users set up manage meetings, and how to manage settings such as meeting policies, to help control which features are available to users in meetings.
 
-[Set up and manage meetings in Microsoft Teams](https://mslearn.cloudguides.com/guides/Set%20up%20and%20manage%20meetings%20in%20Microsoft%20Teams)
+> [!VIDEO https://mslearn.cloudguides.com/guides/Set%20up%20and%20manage%20meetings%20in%20Microsoft%20Teams]
 
 You now have a better understanding of how Microsoft Teams can help your teams to have more productive and secure meetings.

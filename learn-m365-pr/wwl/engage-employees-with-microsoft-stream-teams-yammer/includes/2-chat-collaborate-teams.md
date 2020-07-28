@@ -57,6 +57,6 @@ Microsoft Teams is also designed to help improve learning through classroom-styl
 
 Use the interactive walkthrough below to learn how Microsoft Teams helps your teams to be more productive and efficient through features that are designed to support your chat and instant-messaging conversations. Including features like rich audio and video, file sharing, team channels, and integration with other apps such as Microsoft Planner, Microsoft Whiteboard, Power BI, and more.
 
-[https://mslearn.cloudguides.com/guides/Get to know Microsoft Teams](https://mslearn.cloudguides.com/guides/Get%20to%20know%20Microsoft%20Teams)
+> [!VIDEO https://mslearn.cloudguides.com/guides/Get%20to%20know%20Microsoft%20Teams]
 
 You now have a better understanding of how Microsoft Teams can help your teams to collaborate better through conversations.
