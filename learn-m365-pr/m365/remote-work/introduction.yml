@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.remote-work.introduction
+title: Introduction
+metadata:
+  title: Introduction
+  description: Learn how to use Microsoft 365 and Teams to work remotely from any location.
+  ms.date: 07/28/2020
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+
+durationInMinutes: 3
+content: |
+  [!include[](includes/introduction.md)]
