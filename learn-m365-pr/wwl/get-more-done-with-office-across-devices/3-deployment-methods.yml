@@ -4,12 +4,12 @@ title: Describe deployment methods for Microsoft 365 Apps
 metadata:
   title: Describe deployment methods for Microsoft 365 Apps
   description: "Describe deployment methods for Microsoft 365 Apps"
-  ms.date: 07/02/2020
+  ms.date: 07/30/2020
   author: wwlpublish
-  ms.author: dahans
+  ms.author: cwsuseng
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-durationInMinutes: 13
+durationInMinutes: 4
 content: |
   [!include[](includes/3-deployment-methods.md)]
