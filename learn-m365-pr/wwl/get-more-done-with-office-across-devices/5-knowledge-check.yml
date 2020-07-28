@@ -4,9 +4,9 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 07/02/2020
+  ms.date: 07/30/2020
   author: wwlpublish
-  ms.author: dahans
+  ms.author: cwsuseng
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
@@ -43,7 +43,7 @@ quiz:
     - content: "Current Channel"
       isCorrect: false
       explanation: "That's incorrect. Current Channel receives feature updates approximately every month, but not on a specific day."
-    - content: "Monthly Enterprise Channel."
+    - content: "Monthly Enterprise Channel"
       isCorrect: true
       explanation: "That's correct. Monthly Enterprise Channel receives feature updates once a month, on the second Tuesday of the month."
     - content: "Semi-Annual Channel (Preview)"

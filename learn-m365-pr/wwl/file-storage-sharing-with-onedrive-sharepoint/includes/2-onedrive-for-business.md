@@ -77,4 +77,4 @@ If you don't use OneDrive in SharePoint Server, but you do have an on-premises S
 
 ### Activity
 
-In the following activity, you will explore ways to migrate Windows known folders to OneDrive. See [Migrate Windows known folders to OneDrive](https://mslearn.cloudguides.com/guides/Migrate%20Windows%20known%20folders%20to%20OneDrive)
+> [!VIDEO https://mslearn.cloudguides.com/guides/Migrate%20Windows%20known%20folders%20to%20OneDrive]

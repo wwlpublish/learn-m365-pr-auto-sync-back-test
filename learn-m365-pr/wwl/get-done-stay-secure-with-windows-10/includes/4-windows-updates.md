@@ -11,11 +11,10 @@ This interactive guide introduces you to two ways to optimize the delivery of Wi
 - Reduce bandwidth consumption.
 - Speed up content distribution by enabling peer to peer sharing.
 
-:::image type="content" source="../media/4-optimize-delivery-guide.png" alt-text="Optimize delivery of Windows 10 updates":::
-
-Start the guide here: [Interactive Guide to Optimizing Delivery of Windows Updates](https://mslearn.cloudguides.com/guides/Optimize%20delivery%20of%20Windows%2010%20updates) 
+> [!VIDEO https://mslearn.cloudguides.com/guides/Optimize%20delivery%20of%20Windows%2010%20updates]
 
 For more information, check these additional resources:
+
 - [Delivery Optimization for Windows 10 updates](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization).
 - [Delivery Optimization reference](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization-reference).
 - [Configure BranchCache for Windows 10 updates](https://docs.microsoft.com/windows/deployment/update/waas-branchcache).

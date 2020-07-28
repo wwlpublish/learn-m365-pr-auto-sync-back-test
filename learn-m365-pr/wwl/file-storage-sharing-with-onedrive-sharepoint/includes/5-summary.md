@@ -3,7 +3,7 @@ With OneDrive for Business you can access your files from all your devices, you 
 Now that you’ve reviewed this module, you should be able to:
 
 - Describe the features of OneDrive for Business.
-- Describe the resources you need to install SharePoint.
+- Describe the features and functionality of SharePoint online.
 
 ### Learn More
 

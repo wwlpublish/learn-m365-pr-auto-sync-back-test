@@ -4,9 +4,9 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 07/02/2020
+  ms.date: 07/30/2020
   author: wwlpublish
-  ms.author: dahans
+  ms.author: cwsuseng
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
@@ -30,13 +30,13 @@ quiz:
   - content: "Where can reports about SharePoint activity and usage be found?"
     choices:
     - content: "SharePoint Admin Center"
-      isCorrect: false
+      isCorrect: true
       explanation: "That's correct. Use the SharePoint Admin Center to view reports about how SharePoint is being used within your organization."
     - content: "Configuration Manager"
       isCorrect: false
       explanation: "That's incorrect. You cannot add a new user to your Microsoft 365 subscription using Workspace Analytics."
     - content: "Intune Admin Center"
-      isCorrect: true
+      isCorrect: false
       explanation: "That's incorrect. Use the Intune Admin Center to view reports about devices, not SharePoint usage."
   - content: "In which ways can the Microsoft 365 admin center home page be customized?"
     choices:
