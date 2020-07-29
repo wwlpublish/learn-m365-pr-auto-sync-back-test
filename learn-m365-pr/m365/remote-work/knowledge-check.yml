@@ -1,0 +1,49 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.remote-work.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: Check what you've learned about your remote work options with Microsoft 365.
+  ms.date: 07/28/2020
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+quiz:
+   title: Check your knowledge
+   questions:
+   - content: "Question 1"
+     choices:
+     - content: "Choice a"
+       isCorrect: false
+       explanation: "Explanation for why this is the WRONG answer."
+     - content: "Choice b"
+       isCorrect: true
+       explanation: "Explanation for why this is the RIGHT answer."   
+     - content: "Choice c"
+       isCorrect: false
+       explanation: "Explanation for why this is the WRONG answer."   
+   - content: "Question 2"
+     choices:
+     - content: "Choice a"
+       isCorrect: true
+       explanation: "Explanation for why this is the RIGHT answer."
+     - content: "Choice b"
+       isCorrect: false
+       explanation: "Explanation for why this is the WRONG answer."   
+     - content: "Choice c"
+       isCorrect: false
+       explanation: "Explanation for why this is the WRONG answer."
+   - content: "Question 3"
+     choices:
+     - content: "Choice a"
+       isCorrect: false
+       explanation: "Explanation for why this is the WRONG answer."
+     - content: "Choice b"
+       isCorrect: false
+       explanation: "Explanation for why this is the WRONG answer."   
+     - content: "Choice c"
+       isCorrect: true
+       explanation: "Explanation for why this is the RIGHT answer."
