@@ -1,4 +1,4 @@
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3VUpb]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FLzP]
 
 ## Sync OneDrive to your computer
 1. Select **Start**, type **OneDrive**, and then select **OneDrive**.

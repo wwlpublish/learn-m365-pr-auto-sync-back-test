@@ -32,10 +32,8 @@ products:
 units:
 - learn-m365.remote-work.introduction
 - learn-m365.remote-work.get-started-office
-- learn-m365.remote-work.meet-communicate
 - learn-m365.remote-work.teams-meetings
 - learn-m365.remote-work.teams-channels
-- learn-m365.remote-work.onedrive-files
 - learn-m365.remote-work.get-started-onedrive
 - learn-m365.remote-work.cloud-files
 - learn-m365.remote-work.advanced-alternatives
