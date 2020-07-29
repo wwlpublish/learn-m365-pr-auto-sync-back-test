@@ -1,4 +1,4 @@
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4rqge]
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWvvHe]
 
 ## Sign in to Office
 
@@ -7,6 +7,6 @@
 
 And if you don't already have the desktop versions of the Office apps installed, select **Install Office** near the top right of the window.
 
-## Learn more
+### Learn more
 
 [Sign in to Office](https://support.microsoft.com/office/sign-in-to-office-b9582171-fd1f-4284-9846-bdd72bb28426#online?azure-portal=true)
