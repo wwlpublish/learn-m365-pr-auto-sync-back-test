@@ -14,36 +14,36 @@ content: |
 quiz:
    title: Check your knowledge
    questions:
-   - content: "Question 1"
+   - content: "Which application is a workspace for meetings, chats, and real-time collaboration?"
      choices:
-     - content: "Choice a"
+     - content: "Outlook"
        isCorrect: false
-       explanation: "Explanation for why this is the WRONG answer."
-     - content: "Choice b"
+       explanation: "No, Teams is the app that lets you meet, chat, and collaborate in real time."
+     - content: "Teams"
        isCorrect: true
-       explanation: "Explanation for why this is the RIGHT answer."   
-     - content: "Choice c"
+       explanation: "Correct! Teams lets you meet, chat, and collaborate in real time."   
+     - content: "To-Do"
        isCorrect: false
-       explanation: "Explanation for why this is the WRONG answer."   
-   - content: "Question 2"
+       explanation: "No, Teams is the app that lets you meet, chat, and collaborate in real time."   
+   - content: "Which application lets you store and sync all of your work files in one secure place in the cloud?"
      choices:
-     - content: "Choice a"
+     - content: "OneDrive"
        isCorrect: true
-       explanation: "Explanation for why this is the RIGHT answer."
-     - content: "Choice b"
+       explanation: "Correct! With OneDrive, you can store your files in a secure cloud location and access them remotely."
+     - content: "Outlook"
        isCorrect: false
-       explanation: "Explanation for why this is the WRONG answer."   
-     - content: "Choice c"
+       explanation: "No, OneDrive is the app that lets you safely store files in the cloud."   
+     - content: "Planner"
        isCorrect: false
-       explanation: "Explanation for why this is the WRONG answer."
-   - content: "Question 3"
+       explanation: "No, OneDrive is the app that lets you safely store files in the cloud."
+   - content: "What is the best way to collaborate with others on a file at the same time?"
      choices:
-     - content: "Choice a"
+     - content: "Email a copy of the file as an attachment"
        isCorrect: false
-       explanation: "Explanation for why this is the WRONG answer."
-     - content: "Choice b"
+       explanation: "No, the best way is to save the file to the cloud and then share it with your collaborator."
+     - content: "Save the file to your desktop"
        isCorrect: false
-       explanation: "Explanation for why this is the WRONG answer."   
-     - content: "Choice c"
+       explanation: "No, the best way is to save the file to the cloud and then share it with your collaborator."   
+     - content: "Save the file to the cloud and share it"
        isCorrect: true
-       explanation: "Explanation for why this is the RIGHT answer."
+       explanation: "Correct! This is the best way to work with others on a file."

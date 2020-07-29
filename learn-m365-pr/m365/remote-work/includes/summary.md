@@ -13,10 +13,6 @@ Now that you've finished this module, you know how to do the following tasks:
 Learn about more ways to stay productive from any location:
 
 - [Best practices for collaborating](https://support.microsoft.com/office/best-practices-for-collaborating-with-microsoft-365-5144136b-1ff8-476f-bcba-00de0bdaa600?azure-portal=true) 
-- [Collaborate with Microsoft 365](https://support.microsoft.com/office/collaborate-from-anywhere-using-microsoft-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4?azure-portal=true) 
-- [Essential guide to working from home](https://go.microsoft.com/fwlink/?linkid=2127759?azure-portal=true)
-- [Tips for working remotely](https://www.microsoft.com/tips/home/working-remotely?azure-portal=true)  
+- [Essential guide to working from home](https://go.microsoft.com/fwlink/?linkid=2127759)
 - [Top tips for working from home more securely](https://support.microsoft.com/office/top-tips-for-working-more-securely-from-home-c3e6c940-43a6-43a3-b780-b8784776c2a8?azure-portal=true)  
 - [Empower your small business with remote work](https://support.microsoft.com/office/empower-your-small-business-with-remote-work-9b91a85a-39b4-40a6-a590-0f9bea0ba8e6?azure-portal=true)
-
-If you don't have Microsoft 365, check out [Advanced alternatives for working remotely](https://support.microsoft.com/office/advanced-alternatives-for-working-remotely-86559dc9-3aa1-479d-976f-5c2698ee78d5?azure-portal=true).
