@@ -1,15 +1,15 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.compliance-discover-advanced-audit.monitor
-title: Monitor mailbox access
+uid: learn-m365.remote-work.get-started-onedrive
+title: Get started with OneDrive
 metadata:
-  title: Monitor mailbox access
-  description: Microsoft 365 delivers comprehensive audit logs and alerts across more than 15 services, which enables customers to track user and administration activity within their tenants. Improvements in Advanced Auditing in Microsoft 365 include preservation of audit logs for up to a year, faster access to data, and access to crucial events for quicker investigations.
-  ms.date: 07/06/2020
-  author: ericweisberg
-  ms.author: v-erwe
+  title: Get started with OneDrive
+  description: Learn how to get started using OneDrive to store your files.
+  ms.date: 07/28/2020
+  author: lizap
+  ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 
 durationInMinutes: 4
 content: |
-  [!include[](includes/monitor.md)]
+  [!include[](includes/get-started-onedrive.md)]

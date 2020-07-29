@@ -1,15 +1,14 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.compliance-discover-advanced-audit.monitor
-title: Monitor mailbox access
+uid: learn-m365.remote-work.teams-channels
+title: Work in teams and channels
 metadata:
-  title: Monitor mailbox access
-  description: Microsoft 365 delivers comprehensive audit logs and alerts across more than 15 services, which enables customers to track user and administration activity within their tenants. Improvements in Advanced Auditing in Microsoft 365 include preservation of audit logs for up to a year, faster access to data, and access to crucial events for quicker investigations.
-  ms.date: 07/06/2020
-  author: ericweisberg
-  ms.author: v-erwe
+  title: Work in teams and channels
+  description: Learn how to use teams and channels to collaborate with your coworkers.
+  ms.date: 07/28/2020
+  author: lizap
+  ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-
-durationInMinutes: 4
+durationInMinutes: 5
 content: |
-  [!include[](includes/monitor.md)]
+  [!include[](includes/teams-channels.md)]

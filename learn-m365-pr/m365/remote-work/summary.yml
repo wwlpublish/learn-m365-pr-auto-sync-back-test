@@ -1,15 +1,14 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.compliance-discover-advanced-audit.summary
+uid: learn-m365.remote-work.summary
 title: Summary
 metadata:
   title: Summary
-  description:  Microsoft 365 delivers comprehensive audit logs and alerts across more than 15 services, which enables customers to track user and administration activity within their tenants. Improvements in Advanced Auditing in Microsoft 365 include preservation of audit logs for up to a year, faster access to data, and access to crucial events for quicker investigations.
-  ms.date: 07/06/2020
-  author: ericweisberg
-  ms.author: v-erwe
+  description:  Review what you've learned about your remote work options with Microsoft 365.
+  ms.date: 07/28/2020
+  author: lizap
+  ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
- 
 durationInMinutes: 1
 content: |
   [!include[](includes/summary.md)]
