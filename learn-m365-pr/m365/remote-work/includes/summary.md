@@ -9,7 +9,7 @@ Now that you've finished this module, you know how to do the following tasks:
   - Store and sync files in OneDrive.
   - Remotely connect to your PC or your organization's network.
 
-### Learn more
+## Learn more
 Learn about more ways to stay productive from any location:
 
 - [Best practices for collaborating](https://support.microsoft.com/office/best-practices-for-collaborating-with-microsoft-365-5144136b-1ff8-476f-bcba-00de0bdaa600?azure-portal=true) 
