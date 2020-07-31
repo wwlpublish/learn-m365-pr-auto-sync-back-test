@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.remote-work.get-started-office
+title: Get started at Office.com
+metadata:
+  title: Get started at Office.com
+  description: Learn how to sign into Office online.
+  ms.date: 07/28/2020
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+
+durationInMinutes: 5
+content: |
+  [!include[](includes/get-started-office.md)]
