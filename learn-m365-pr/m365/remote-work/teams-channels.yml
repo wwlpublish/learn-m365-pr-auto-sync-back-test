@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.remote-work.teams-channels
+title: Work in teams and channels
+metadata:
+  title: Work in teams and channels
+  description: Learn how to use teams and channels to collaborate with your coworkers.
+  ms.date: 07/28/2020
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/teams-channels.md)]

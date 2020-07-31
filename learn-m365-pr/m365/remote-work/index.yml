@@ -1,0 +1,44 @@
+### YamlMime:Module
+uid: learn-m365.remote-work
+metadata:
+  title: Work remotely with Microsoft 365
+  description: Learn how to use Microsoft 365 to work from anywhere.
+  ms.date: 07/28/2020
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Work remotely with Microsoft 365
+summary: Learn how to use Microsoft 365 to work from anywhere.
+abstract: |
+  When you finish this module, you should be able to: 
+  - Use Microsoft 365 and Teams to connect to the files and people you need to be productive.
+  - Meet and communicate in Microsoft Teams.
+  - Store and sync files in OneDrive.
+  - Remotely connect to your PC or your organization's network.
+
+prerequisites: | 
+   - None
+
+iconUrl:  /learn/achievements/generic-badge.svg
+ratingEnabled: true
+levels:
+- beginner
+roles:
+- business-user
+products:
+- m365
+- office-teams
+units:
+- learn-m365.remote-work.introduction
+- learn-m365.remote-work.get-started-office
+- learn-m365.remote-work.teams-meetings
+- learn-m365.remote-work.teams-channels
+- learn-m365.remote-work.get-started-onedrive
+- learn-m365.remote-work.cloud-files
+- learn-m365.remote-work.advanced-alternatives
+- learn-m365.remote-work.knowledge-check
+- learn-m365.remote-work.summary
+
+badge: 
+  uid: learn-m365.remote-work.badges
