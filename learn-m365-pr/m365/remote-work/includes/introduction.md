@@ -7,7 +7,7 @@ Suppose something's happened, and you can't make it into the office - perhaps yo
 > [!NOTE]
 > Your organization may have best practices for working remotely, so contact them with questions specific to your organization’s policies.
 
-### Learning objectives
+## Learning objectives
 
 When you finish this module, you should be able to: 
   - Use Microsoft 365 and Teams to connect to the files and people you need to be productive.
@@ -15,5 +15,5 @@ When you finish this module, you should be able to:
   - Store and sync files in OneDrive.
   - Remotely connect to your PC or your organization's network.
 
-### Prerequisites
+## Prerequisites
 - None

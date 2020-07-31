@@ -12,6 +12,6 @@ The tabs at the top of each channel link to your favorite files, apps, and servi
 
 You can add more tabs to further organize your information.
 
-### Learn more
+## Learn more
 - [Use live captions in a Teams meeting](https://support.microsoft.com/office/use-live-captions-in-a-teams-meeting-4be2d304-f675-4b57-8347-cbd000a21260?azure-portal=true)
 - [Search for messages and more in Teams](https://support.microsoft.com/office/search-for-messages-and-more-in-teams-4a351520-33f4-42ab-a5ee-5fc0ab88b263?azure-portal=true)

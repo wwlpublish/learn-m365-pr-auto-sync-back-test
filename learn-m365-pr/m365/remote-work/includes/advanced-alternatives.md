@@ -10,7 +10,7 @@ Before you can remotely connect to your workplace computer, you must be at that 
 ## Connect to your organization's network
 A virtual private network (VPN) can give you a more secure way to connect to your organization's network and the internet. This is especially useful if, say, you're using public wi-fi.
 
-### Learn more
+## Learn more
 
 - [How to use Remote Desktop](https://support.microsoft.com/help/4028379?azure-portal=true)
 - [Connect to a VPN in Windows 10 for details](https://support.microsoft.com/help/20510/windows-10-connect-to-vpn?azure-portal=true) 
