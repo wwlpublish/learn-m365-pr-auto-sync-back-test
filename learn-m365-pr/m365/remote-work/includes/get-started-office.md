@@ -1,4 +1,4 @@
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWvvHe]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWvvHe]
 
 ## Sign in to Office
 

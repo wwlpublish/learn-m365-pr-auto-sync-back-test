@@ -1,4 +1,4 @@
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWeokR]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWeokR]
 
 In Microsoft Teams, teams are groups of people, content, and tools brought together for work, projects, or common interests. A team is designed to bring together a group of people who work closely to get things done.
 

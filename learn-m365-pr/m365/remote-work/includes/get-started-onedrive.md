@@ -6,7 +6,7 @@ On OneDrive, your files are backed up and protected. And you control if and when
 
 Now, learn how to get started with OneDrive.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWfnZM]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWfnZM]
 
 As you saw in the video, with OneDrive you can:
 

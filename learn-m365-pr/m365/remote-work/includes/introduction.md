@@ -1,4 +1,4 @@
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4rqge]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4rqge]
 
 Microsoft Teams and Microsoft 365 help you get work done - with others and on your own - wherever you are. As long as you can connect to the internet, you can connect to the files and people you need to stay productive. Teams and Office have advanced security features built in so you can relax knowing your info is backed by enterprise-grade security.
 
