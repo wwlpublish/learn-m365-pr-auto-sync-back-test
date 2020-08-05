@@ -100,7 +100,7 @@ Any virtual machine (VM) you create by using a gallery image has the FSLogix sof
 
 ### Add registry key to VMs
 
-Add a registry key to each VM registered to the host pool.
+Add a registry key to each VM registered to the host pool.  You'll need the storage account access key and the file share path.
 
 1. From the start menu, run RegEdit as an administrator.
 1. Go to **Computer\HKEY_LOCAL_MACHINE\software\FSLogix**.
