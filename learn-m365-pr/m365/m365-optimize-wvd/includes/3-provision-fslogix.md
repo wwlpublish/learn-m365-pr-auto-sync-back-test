@@ -90,7 +90,6 @@ You'll need the storage account access key and file share path to configure FSLo
 
 Any virtual machine (VM) you create by using a gallery image has the FSLogix software preinstalled. So you can skip this section. If you used an image that's not from the gallery, you need to install FSLogix by completing the following steps.
 
-### Download and install the FSLogix agent
 
 1. For each VM registered to the host pool, [download the FSLogix agent](https://go.microsoft.com/fwlink/?linkid=2084562).
 1. Go to either \\Win32\Release or \\X64\Release in the .zip file.
