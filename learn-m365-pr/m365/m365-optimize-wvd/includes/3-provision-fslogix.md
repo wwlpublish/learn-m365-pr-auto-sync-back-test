@@ -69,9 +69,9 @@ Assign users a contributor role so they have permission to read and write file d
 
 This file share will use SMB 3.0 protocol with your session hosts. 
 
-## Install FSLogix software for non-gallery images
+## Get the access key and file share path
 
-Any virtual machine (VM) you create by using a gallery image has the FSLogix software preinstalled. So you can skip this section. If you used an image that's not from the gallery, you need to install FSLogix by completing the following steps.
+You'll need the storage account access key and file share path to configure FSLogix on the VMs.
 
 ### Get storage account access key
 
@@ -86,15 +86,23 @@ Any virtual machine (VM) you create by using a gallery image has the FSLogix sof
 1. Copy the URL.
 1. Covert it from an HTTP path to an SMB path to use it later.
 
+## Install FSLogix software for non-gallery images
+
+Any virtual machine (VM) you create by using a gallery image has the FSLogix software preinstalled. So you can skip this section. If you used an image that's not from the gallery, you need to install FSLogix by completing the following steps.
+
 ### Download and install the FSLogix agent
 
 1. For each VM registered to the host pool, [download the FSLogix agent](https://go.microsoft.com/fwlink/?linkid=2084562).
 1. Go to either \\Win32\Release or \\X64\Release in the .zip file.
 1. Run FSLogixAppsSetup to install the FSLogix agent.
 
+## Configure FSLogix
+
+You'll need the storage account access key and the file share path to complete the follow steps. 
+
 ### Add registry key to VMs
 
-You need to add a registry key to each VM registered to the host pool.
+Add a registry key to each VM registered to the host pool.
 
 1. From the start menu, run RegEdit as an administrator.
 1. Go to **Computer\HKEY_LOCAL_MACHINE\software\FSLogix**.
@@ -118,7 +126,7 @@ You need to add a registry key to each VM registered to the host pool.
 
 To create the FSLogix profile, the VM can't already have a user profile established for the user.
 
-1. Go to [https://aka.ms/wvdweb](https://aka.ms/wvdweb).
+1. Go to [https://aka.ms/wvdwebarm](https://aka.ms/wvdwebarm).
 1. Sign in to a VM that you haven't signed into yet.
 
 The initial sign-in will take a little longer than usual. It's a one-time delay while the process creates the virtual disk file in the background. This file will be used each time you sign in.  
