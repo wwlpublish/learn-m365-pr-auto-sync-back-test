@@ -13,11 +13,11 @@ With Microsoft 365 you can meet your goals through:
 
 Workplace Analytics and MyAnalytics uses data gathered from your organizations day-to-day activities to identify collaboration patterns that impact productivity, workforce effectiveness, and employee engagement.
 
-Workspace Analytics will supply you with AI based insights that create actionable behaviors you can apply to the way your organization behaves and reacts to change.
+Workplace Analytics will supply you with AI based insights that create actionable behaviors you can apply to the way your organization behaves and reacts to change.
 
-## Benefits of using Workspace Analytics
+## Benefits of using Workplace Analytics
 
-Using Workspace Analytics in your organization can provide you with:
+Using Workplace Analytics in your organization can provide you with:
 
 - Address wasteful collaboration and meeting cultures.
 - Enhance process efficiency and effectiveness
