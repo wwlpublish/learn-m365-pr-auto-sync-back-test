@@ -97,7 +97,6 @@ Any virtual machine (VM) you create by using a gallery image has the FSLogix sof
 
 ## Configure FSLogix
 
-You'll need the storage account access key and the file share path to complete the follow steps. 
 
 ### Add registry key to VMs
 
