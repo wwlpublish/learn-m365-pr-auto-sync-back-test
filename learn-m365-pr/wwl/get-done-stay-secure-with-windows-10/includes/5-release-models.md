@@ -12,9 +12,7 @@ Follow the interactive guide to see how to:
 - Automate updates
 - Manage devices with Microsoft Intune.
 
-:::image type="content" source="../media/5-discover-servicing-options-guide.png" alt-text="Discover servicing options for Windows 10":::
-
-Start the interactive guide and follow the prompts: [Discover Servicing Options for Windows 10](https://mslearn.cloudguides.com/guides/Discover%20servicing%20options%20for%20Windows%2010) 
+> [!VIDEO https://mslearn.cloudguides.com/guides/Discover%20servicing%20options%20for%20Windows%2010]
 
 For more resources, see:
 
