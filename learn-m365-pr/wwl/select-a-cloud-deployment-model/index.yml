@@ -2,8 +2,11 @@
 uid: learn-m365.select-a-cloud-deployment-model-for-m365
 metadata:
   title: Select a cloud deployment model
-  description: "In this module, you’ll see how the cloud-only and hybrid deployments require different approaches and how an organization approaches migrating systems with older versions of Office, Windows, and Office Server to Microsoft 365."
-  ms.date: 04/24/2020
+  description: "In this module, you’ll
+see how the cloud-only and hybrid deployments require different approaches and how
+an organization approaches migrating systems with older versions of Office,
+Windows, and Office Server to Microsoft 365."
+  ms.date: 08/08/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
