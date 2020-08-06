@@ -5,7 +5,7 @@ metadata:
   description: Microsoft Threat Protection (MTP) is an integrated, cross-domain threat detection and response solution. It provides organizations with the ability to prevent, detect, investigate. and remediate sophisticated cross-domain attacks within their Microsoft 365 environments. The Microsoft Threat Protection learning path covers an introduction to Microsoft Threat Protection and the underlying pillars such as Microsoft Defender Advanced Threat Protection, Office 365 Advanced Threat Protection, and Azure Advanced Threat Protection concepts. 
   ms.date: 06/24/2020
   author: AlexandraHrt
-  ms.author: v-aleha
+  ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Defend against threats with Microsoft Threat Protection
