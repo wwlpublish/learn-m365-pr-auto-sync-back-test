@@ -66,7 +66,7 @@ Azure AD supports Fast Identity Online 2 (FIDO2). FIDO2 is an open standard for 
 Users can access a device based on organization controls and authenticate based on a PIN or biometric and using devices such as USB security keys and NFC-enabled smartcards, keys, or wearables.
 Passwordless authentication with Azure AD is applicable for shared PCs and where a mobile phone is not a viable option (such as for help desk personnel, public kiosk, or hospital team).
 
-Learn more at [FIDO2 security keys](https://docs.microsoft.com/azure/active-directory/authentication/concept-authentication-passwordless%23fido2-security-keys)
+Learn more at [FIDO2 security keys](https://docs.microsoft.com/azure/active-directory/authentication/concept-authentication-passwordless#fido2-security-keys)
 
 ## Windows Hello
 
