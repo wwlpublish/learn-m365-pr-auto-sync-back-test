@@ -28,7 +28,7 @@ In the Microsoft Secure Score overview page, you can see how points are split be
 
 :::image type="content" source="../media/4-secure-score-v4.png" alt-text="Microsoft Secure Score":::
 
-For more information, read [Microsoft Secure Score](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score-preview?view=o365-worldwide)
+For more information, read [Microsoft Secure Score](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score?view=o365-worldwide)
 
 
 
