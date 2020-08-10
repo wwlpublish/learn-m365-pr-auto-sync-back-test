@@ -5,7 +5,7 @@ metadata:
   description: Learn how to manage the lifecycle of Office 365 groups with Microsoft Graph.
   ms.date: 06/11/2020
   author: andrewconnell
-  ms.author: v-johnco
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
 title: Manage Group Lifecycle with Microsoft Graph

@@ -5,7 +5,7 @@ metadata:
   description: Learn how to deploy your SharePoint Framework customizations to production environments.
   ms.date: 3/9/2020
   author: andrewconnell
-  ms.author: v-johnco
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Deploy SharePoint Framework Components to Production

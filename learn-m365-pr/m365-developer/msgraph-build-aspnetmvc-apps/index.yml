@@ -5,7 +5,7 @@ metadata:
   description: Learn how to use the Microsoft Graph .NET SDK in an ASP.NET MVC web application.
   ms.date: 06/11/2020
   author: andrewconnell
-  ms.author: v-johnco
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
 title: Build ASP.NET MVC web applications with the Microsoft Graph .NET SDK
