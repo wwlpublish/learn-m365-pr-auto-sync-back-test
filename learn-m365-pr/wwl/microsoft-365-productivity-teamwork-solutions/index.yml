@@ -3,7 +3,7 @@ uid: learn.wwl.microsoft-365-productivity-teamwork-solutions
 metadata:
   title: Microsoft 365 productivity and teamwork solutions
   description: "Learn about the solutions offered as a part of Microsoft 365 and how they can contribute to personal and organizational productivity."
-  ms.date: 08/09/2020
+  ms.date: 08/13/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -18,7 +18,7 @@ abstract: |
   - Tell the Microsoft accessibility story and strategy
 prerequisites: |
   None
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/microsoft-365-productivity-teamwork-solutions.svg
 levels:
 - beginner
 roles:
