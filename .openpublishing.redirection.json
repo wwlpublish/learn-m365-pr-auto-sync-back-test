@@ -979,6 +979,11 @@
       "source_path": "learn-m365-pr/wwwl/describe-identity-access-management-capabilities-of-microsoft-365/6-summary-resources.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/describe-identity-access-management-capabilities-of-microsoft-365/6-summary-resources",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/paths/m365-fundamentals/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/certifications/microsoft-365-fundamentals",
+      "redirect_document_id": false
     }
   ]
 }
