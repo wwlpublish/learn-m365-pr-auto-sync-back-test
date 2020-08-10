@@ -166,12 +166,7 @@ If you didn't use the Yeoman generator to create your add-in project, you can va
 
 ## Understand the capabilities of the Excel JavaScript API
 
-You can use Office add-ins developer tools to create an Office add-in, explore Office JavaScript APIs, and validate an Office add-in manifest file. In this unit, you'll learn about the following tools:
-
-- Yeoman generator for Office add-ins
-- Visual Studio
-- Script Lab
-- Manifest validator
+The Excel JavaScript APIs give your add-ins access to Excel documents. An Excel add-in can manage the content, formatting, and structure of a workbook or spreadsheet.
 
 ### Creating an Office add-in
 
