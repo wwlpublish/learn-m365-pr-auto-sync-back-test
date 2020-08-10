@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.remote-work.summary
+title: Summary
+metadata:
+  title: Summary
+  description:  Review what you've learned about your remote work options with Microsoft 365.
+  ms.date: 07/28/2020
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/summary.md)]

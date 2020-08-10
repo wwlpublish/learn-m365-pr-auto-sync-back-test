@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn-m365-identity.m365-identity-provisioning
 metadata:
-  title: Simplify access and identity provisioning with Microsoft 365
+  title: Simplify access and identity provisioning with Azure Active Directory
   description: Learn about identity governance and how you can safeguard access to your organization’s data.
   ms.date: 07/14/2020
   author: AlexandraHrt 
   ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Simplify access and identity provisioning with Microsoft 365
+title: Simplify access and identity provisioning with Azure Active Directory
 summary: Learn about identity governance and how you can safeguard access to your organization’s data.
 abstract: |
   In this module, you will learn to:
@@ -17,7 +17,7 @@ abstract: |
    - Explain how to perform an access review.
 
 prerequisites: | 
- - Intermediate understanding of Microsoft 365.
+ - Intermediate understanding of Microsoft 365 and Azure Active Directory.
 iconUrl: /learn/achievements/simplify-access-and-identity-provisioning-with-microsoft-365.svg
 ratingEnabled: true
 levels:
