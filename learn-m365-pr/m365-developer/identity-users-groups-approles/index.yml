@@ -5,7 +5,7 @@ metadata:
   description: In this module, you’ll learn how to use both Azure AD Groups and Application Roles to provide fine grained access control to an application.
   ms.date: 05/31/2020
   author: andrewconnell
-  ms.author: v-johnco
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Work with users, groups, and roles in custom apps and APIs

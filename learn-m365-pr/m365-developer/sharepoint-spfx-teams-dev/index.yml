@@ -5,7 +5,7 @@ metadata:
   description: Learn how to use your SharePoint Framework customizations with in Microsoft Teams.
   ms.date: 3/10/2020
   author: andrewconnell
-  ms.author: v-johnco
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Build Microsoft Teams customization using the SharePoint Framework

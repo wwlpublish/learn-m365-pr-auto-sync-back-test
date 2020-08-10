@@ -5,7 +5,7 @@ metadata:
   description: Learn how to secure a web API with Microsoft identity and how to call it from another application.
   ms.date: 05/26/2020
   author: andrewconnell
-  ms.author: v-johnco
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Secure custom APIs with Microsoft Identity
