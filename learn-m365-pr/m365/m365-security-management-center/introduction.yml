@@ -6,7 +6,7 @@ metadata:
   description: Get an overview of the Microsoft 365 security center, a set of tools to monitor and manage security.
   ms.date: 10/14/2019
   author: AlexandraHrt
-  ms.author: v-aleha
+  ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 2
