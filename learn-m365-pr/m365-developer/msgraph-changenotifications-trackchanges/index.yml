@@ -5,7 +5,7 @@ metadata:
   description: Learn how to with change notifications (webhooks) & track changes (delta query) in the Microsoft Graph.
   ms.date: 06/11/2020
   author: andrewconnell
-  ms.author: v-johnco
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
 title: Use Change Notifications and Track Changes with Microsoft Graph

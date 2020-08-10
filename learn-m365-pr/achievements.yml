@@ -20,3 +20,8 @@ achievements:
   title: Learn how your organization can move to a modern workplace with Microsoft 365
   summary: Learn how your organization can move to a modern workplace with Microsoft 365
   iconUrl: /learn/achievements/welcome-to-microsoft-365.svg
+- uid: learn-m365.microsoft-365-fundamentals.trophy
+  type: trophy
+  title: Microsoft 365 Fundamentals
+  summary: Microsoft 365 Fundamentals
+  iconUrl: /learn/achievements/m365-fundamentals.svg

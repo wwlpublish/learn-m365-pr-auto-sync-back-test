@@ -3,7 +3,7 @@ uid: learn-m365.intro-office-add-ins.3-apis
 metadata:
   title: Understand Office JavaScript APIs
   description: In this unit, you'll explore the Office add-ins programming model, developer tools, and the capabilities of the Office JavaScript APIs for Excel, Outlook, and Word.
-  ms.date: 03/24/2020
+  ms.date: 08/10/2020
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial

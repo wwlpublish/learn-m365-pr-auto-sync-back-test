@@ -5,7 +5,7 @@ metadata:
   description: Learn the basics of Microsoft identity including the different types of tokens, account types, and supported topologies.
   ms.date: 05/25/2020
   author: andrewconnell
-  ms.author: v-johnco
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Getting Started with Microsoft Identity

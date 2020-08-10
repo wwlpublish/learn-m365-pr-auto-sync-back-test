@@ -3,7 +3,7 @@ uid: learn.wwl.get-done-stay-secure-with-windows-10
 metadata:
   title: Get more done and stay secure with Windows 10
   description: "Learn fundamental knowledge of Windows 10 in Microsoft 365 as part of a simplified business management strategy."
-  ms.date: 08/08/2020
+  ms.date: 08/12/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -17,7 +17,7 @@ abstract: |
   - Describe the capabilities of Windows Virtual Desktop (WVD) and when it makes sense to implement WVD
 prerequisites: |
   None
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/get-more-done-and-stay-secure-with-windows-10.svg
 levels:
 - beginner
 roles:
