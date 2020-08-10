@@ -3,97 +3,97 @@
     {
       "source_path": "learn-m365-pr/m365/m365-get-modern-intro/1-get-started-w10-o365pp.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-get-modern-intro/1-get-started",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-office-lob-apps/2-install-upgrade-0365-proplus.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-office-lob-apps/2-install-upgrade-m365-apps",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-identity-overview/evolution-identity-tech.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-overview/introduction",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-identity-provisioning/choose-deploy-sso.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-provisioning/introduction",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-identity-provisioning/importance-identity-governance.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-provisioning/proactive-identity-governance",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-identity-provisioning/right-access-safeguard.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-provisioning/define-right-access",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-identity-authentication/implement-pw-alternatives.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-authentication/implement-password-alternatives",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-identity-secure-administrators/configure-nonpersistent.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-secure-administrators/just-time-privileges",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-identity-cultural-shift/build-IT-awareness.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-cultural-shift/introduction",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-identity-secure-administrators/enforce-secure-devices.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-secure-administrators/introduction",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-identity-cultural-shift/help-developers-become-security-allies.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-cultural-shift/identity-development-approach",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-identity-secure-administrators/enhance-security-admin-accounts.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-secure-administrators/just-time-privileges",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-identity-secure-administrators/isolate-privileged-accounts.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-secure-administrators/isolated-identity",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-identity-cultural-shift/increase-user-security-awareness.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-cultural-shift/security-best-practices",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-identity-authentication/enforce-mfa.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-identity-authentication/enforce-multi-factor-authentication",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-security-threat-protect/cloud-apps-security.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-security-threat-protect/introduction",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-security-threat-protect/m365-security-center.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-security-threat-protect/practice-security-administration",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-security-threat-protect/office-365-atp.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-threat-remediate/introduction",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-security-threat-train/defenders-dilemma.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-threat-remediate/automate-investigate-remediate",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-security-threat-train/index.yml",
@@ -103,22 +103,22 @@
     {
       "source_path": "learn-m365-pr/m365/m365-security-threat-train/introduction.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-threat-remediate/introduction",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-security-threat-train/raise-attacker-cost.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-threat-remediate/configure-protect-detect",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-security-threat-train/train-defenders.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-threat-remediate/simulate-attacks",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-security-threat-train/summary-knowledge-check.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-threat-remediate/summary-knowledge-check",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/compliance-with-microsoft-365/index.md",
@@ -128,172 +128,172 @@
     {
       "source_path": "learn-m365-pr/compliance-with-microsoft-365/1-introduction.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/compliance-with-microsoft-365/1-introduction",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/compliance-with-microsoft-365/2-compliance-with-microsoft-365.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/compliance-with-microsoft-365/2-compliance-with-microsoft-365",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/compliance-with-microsoft-365/3-customer-success-story.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/compliance-with-microsoft-365/3-customer-success-story",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/compliance-with-microsoft-365/4-meet-your-compliance-obligations.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/compliance-with-microsoft-365/4-meet-your-compliance-obligations",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/compliance-with-microsoft-365/5-knowledge-check.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/compliance-with-microsoft-365/5-knowledge-check",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/compliance-with-microsoft-365/6-summary-and-resources.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/compliance-with-microsoft-365/6-summary-and-resources",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/deploy-and-manage-windows-10-and-office-365-proplus/index.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/deploy-and-manage-windows-10-and-office-365-proplus/index",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/deploy-and-manage-windows-10-and-office-365-proplus/1-introduction.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/deploy-and-manage-windows-10-and-office-365-proplus/1-introduction",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/deploy-and-manage-windows-10-and-office-365-proplus/2-windows-10-and-office-365-proplus.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/deploy-and-manage-windows-10-and-office-365-proplus/2-windows-10-and-office-365-proplus",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/deploy-and-manage-windows-10-and-office-365-proplus/3-customer-success-story.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/deploy-and-manage-windows-10-and-office-365-proplus/3-customer-success-story",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/deploy-and-manage-windows-10-and-office-365-proplus/4-how-modern-is-your-it-organization.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/deploy-and-manage-windows-10-and-office-365-proplus/4-how-modern-is-your-it-organization",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/deploy-and-manage-windows-10-and-office-365-proplus/5-knowledge-check.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/deploy-and-manage-windows-10-and-office-365-proplus/5-knowledge-check",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/deploy-and-manage-windows-10-and-office-365-proplus/6-summary-and-resources.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/deploy-and-manage-windows-10-and-office-365-proplus/6-summary-and-resources",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/facilitate-teamwork-with-microsoft-365/index.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/facilitate-teamwork-with-microsoft-365/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/facilitate-teamwork-with-microsoft-365/1-introduction.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/facilitate-teamwork-with-microsoft-365/1-introduction",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/facilitate-teamwork-with-microsoft-365/2-microsoft-teams-and-office-365.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/facilitate-teamwork-with-microsoft-365/2-microsoft-teams-and-office-365",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/facilitate-teamwork-with-microsoft-365/3-customer-success-story.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/facilitate-teamwork-with-microsoft-365/3-customer-success-story",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/facilitate-teamwork-with-microsoft-365/4-how-well-do-your-teams-work.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/facilitate-teamwork-with-microsoft-365/4-how-well-do-your-teams-work",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/facilitate-teamwork-with-microsoft-365/5-knowledge-check.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/facilitate-teamwork-with-microsoft-365/5-knowledge-check",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/facilitate-teamwork-with-microsoft-365/6-summary-and-resources.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/facilitate-teamwork-with-microsoft-365/6-summary-and-resources",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/get-more-from-microsoft-365-with-surface-for-business/index.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/get-more-from-microsoft-365-with-surface-for-business/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/get-more-from-microsoft-365-with-surface-for-business/1-introduction.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/get-more-from-microsoft-365-with-surface-for-business/1-introduction",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/get-more-from-microsoft-365-with-surface-for-business/2-surface-for-business-devices.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/get-more-from-microsoft-365-with-surface-for-business/2-surface-for-business-devices",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/get-more-from-microsoft-365-with-surface-for-business/3-customer-success-story.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/get-more-from-microsoft-365-with-surface-for-business/3-customer-success-story",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/get-more-from-microsoft-365-with-surface-for-business/4-assess-your-device-needs.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/get-more-from-microsoft-365-with-surface-for-business/4-assess-your-device-needs",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/get-more-from-microsoft-365-with-surface-for-business/5-knowledge-check.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/get-more-from-microsoft-365-with-surface-for-business/5-knowledge-check",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/get-more-from-microsoft-365-with-surface-for-business/6-summary-and-resources.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/get-more-from-microsoft-365-with-surface-for-business/6-summary-and-resources",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/get-started-with-microsoft-365-using-fasttrack/index.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/get-started-with-microsoft-365-using-fasttrack/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/get-started-with-microsoft-365-using-fasttrack/1-introduction.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/get-started-with-microsoft-365-using-fasttrack/1-introduction",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/get-started-with-microsoft-365-using-fasttrack/2-microsoft-helps-you-get-up-and-running-with-fasttrack.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/get-started-with-microsoft-365-using-fasttrack/2-microsoft-helps-you-get-up-and-running-with-fasttrack",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/get-started-with-microsoft-365-using-fasttrack/3-customer-success-story.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/get-started-with-microsoft-365-using-fasttrack/3-customer-success-story",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/get-started-with-microsoft-365-using-fasttrack/4-be-strategic-and-thoughtful-about-your-deployment.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/get-started-with-microsoft-365-using-fasttrack/4-be-strategic-and-thoughtful-about-your-deployment",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/get-started-with-microsoft-365-using-fasttrack/5-knowledge-check.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/get-started-with-microsoft-365-using-fasttrack/5-knowledge-check",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/get-started-with-microsoft-365-using-fasttrack/6-summary-and-resources.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/get-started-with-microsoft-365-using-fasttrack/6-summary-and-resources",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/introducing-microsoft-365-and-surface-for-business/index.md",
@@ -328,72 +328,72 @@
     {
       "source_path": "learn-m365-pr/modern-communications-in-microsoft-teams/index.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/modern-communications-in-microsoft-teams/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modern-communications-in-microsoft-teams/1-introduction.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/modern-communications-in-microsoft-teams/1-introduction",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modern-communications-in-microsoft-teams/2-microsoft-teams-meetings,-voice,-and-devices.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/modern-communications-in-microsoft-teams/2-microsoft-teams-meetings,-voice,-and-devices",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modern-communications-in-microsoft-teams/3-customer-success-story.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/modern-communications-in-microsoft-teams/3-customer-success-story",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modern-communications-in-microsoft-teams/4-assess-your-communications-experiences.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/modern-communications-in-microsoft-teams/4-assess-your-communications-experiences",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modern-communications-in-microsoft-teams/5-knowledge-check.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/modern-communications-in-microsoft-teams/5-knowledge-check",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/modern-communications-in-microsoft-teams/6-summary-and-resources.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/modern-communications-in-microsoft-teams/6-summary-and-resources",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/security-with-microsoft-365/index.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/security-with-microsoft-365/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/security-with-microsoft-365/1-introduction.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/security-with-microsoft-365/1-introduction",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/security-with-microsoft-365/2-security-with-microsoft-365.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/security-with-microsoft-365/2-security-with-microsoft-365",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/security-with-microsoft-365/3-customer-success-story.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/security-with-microsoft-365/3-customer-success-story",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/security-with-microsoft-365/4-assess-your-security-needs.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/security-with-microsoft-365/4-assess-your-security-needs",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/security-with-microsoft-365/5-knowledge-check.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/security-with-microsoft-365/5-knowledge-check",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/security-with-microsoft-365/6-summary-and-resources.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/security-with-microsoft-365/6-summary-and-resources",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl-mba/welcome-to-microsoft-365/index.md",
@@ -413,197 +413,197 @@
     {
       "source_path": "learn-m365-pr/wwl-mba/introducing-microsoft-365-and-surface-for-business/index.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/discover-modern-workplace-solutions-m365-surface-business/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl-mba/introducing-microsoft-365-and-surface-for-business/1-introduction.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/discover-modern-workplace-solutions-m365-surface-business/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl-mba/introducing-microsoft-365-and-surface-for-business/2-microsoft-365.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/discover-modern-workplace-solutions-m365-surface-business/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl-mba/introducing-microsoft-365-and-surface-for-business/3-surface-for-business-devices.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/discover-modern-workplace-solutions-m365-surface-business/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl-mba/introducing-microsoft-365-and-surface-for-business/4-knowledge-check.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/discover-modern-workplace-solutions-m365-surface-business/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl-mba/introducing-microsoft-365-and-surface-for-business/5-summary-and-resources.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/discover-modern-workplace-solutions-m365-surface-business/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/paths/extend-office-fundamentals/index.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/paths/m365-extend-fundamental/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365-developer/understand-office-add-ins-fundamentals/index.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365-developer/understand-office-add-ins-fundamentals/1-introduction.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/2-fundamentals",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365-developer/understand-office-add-ins-fundamentals/2-understand-task-panes-content-add-ins.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/2-fundamentals",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365-developer/understand-office-add-ins-fundamentals/3-understand-dialogs.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/2-fundamentals",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365-developer/understand-office-add-ins-fundamentals/4-understand-custom-functions.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/2-fundamentals",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365-developer/understand-office-add-ins-fundamentals/5-understand-add-in-commands.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/2-fundamentals",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365-developer/understand-office-add-ins-fundamentals/6-understand-manifest-purpose.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/2-fundamentals",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365-developer/understand-office-add-ins-fundamentals/7-knowledge-check.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/2-fundamentals",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365-developer/understand-office-add-ins-fundamentals/8-summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/2-fundamentals",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365-developer/understand-office-javascript-apis/index.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365-developer/understand-office-javascript-apis/1-introduction.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/3-apis",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365-developer/understand-office-javascript-apis/2-understand-office-add-ins-programming-model.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/3-apis",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365-developer/understand-office-javascript-apis/3-understand-office-add-ins-developer-tools.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/3-apis",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365-developer/understand-office-javascript-apis/4-understand-excel-javascript-api-capabilities.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/3-apis",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365-developer/understand-office-javascript-apis/5-understand-outlook-javascript-api-capabilities.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/3-apis",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365-developer/understand-office-javascript-apis/6-understand-word-javascript-api-capabilities.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/3-apis",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365-developer/understand-office-javascript-apis/7-understand-custom-functions-capabilities.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/3-apis",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365-developer/understand-office-javascript-apis/8-knowledge-check.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/3-apis",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365-developer/understand-office-javascript-apis/9-summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/3-apis",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365-developer/understand-office-add-ins-customization/index.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365-developer/understand-office-add-ins-customization/1-introduction.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/4-customization",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365-developer/understand-office-add-ins-customization/2-understand-persisting-state-settings-options.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/4-customization",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365-developer/understand-office-add-ins-customization/3-understand-office-ui-fabric-office-add-ins.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/4-customization",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365-developer/understand-office-add-ins-customization/4-understand-microsoft-graph-office-add-ins.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/4-customization",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365-developer/understand-office-add-ins-customization/5-knowledge-check.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/4-customization",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365-developer/understand-office-add-ins-customization/6-summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/4-customization",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365-developer/understand-test-debug-deployment-options/index.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365-developer/understand-test-debug-deployment-options/1-introduction.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/5-debug-test-deployment",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365-developer/understand-test-debug-deployment-options/2-choose-deployment-option.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/5-debug-test-deployment",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365-developer/understand-test-debug-deployment-options/3-understand-test-debug-office-add-ins.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/5-debug-test-deployment",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365-developer/understand-test-debug-deployment-options/4-knowledge-check.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/5-debug-test-deployment",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365-developer/understand-test-debug-deployment-options/5-summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/intro-office-add-ins/5-debug-test-deployment",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/what-is-m365/2-whats-in-m365.md",
@@ -628,197 +628,197 @@
     {
       "source_path": "learn-m365-pr/wwl/intro-to-m365-core-services/2-accessibility-in-microsoft-365.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-m365-core-services/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/intro-to-m365-core-services/4-sharepoint-online.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-m365-core-services/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/intro-to-m365-core-services/2-windows-10-enterprise.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-m365-core-services/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/intro-to-m365-core-services/3-exchange-online.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-m365-core-services/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/intro-to-m365-core-services/5-teams.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-m365-core-services/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/intro-to-m365-core-services/7-o365-proplus.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-m365-core-services/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/intro-to-m365-core-services/8-intune.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-m365-core-services/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/intro-to-m365-core-services/9-summary-and-knowledge-check.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-m365-core-services/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/intro-to-teamwork-in-m365/5-collect-and-share-knowledge.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-teamwork-in-m365/5-collect-share-knowledge",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/intro-to-teamwork-in-m365/2-choose-the-right-tools.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-teamwork-in-m365/2-choose-right-tools",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/intro-to-teamwork-in-m365/8-summary-and-knowledge-check.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-teamwork-in-m365/8-summary-knowledge-check",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/intro-to-m365-unified-endpoint-management/1-what-is-uem.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-m365-unified-endpoint-management/1-introduction",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/intro-to-m365-unified-endpoint-management/5-summary-and-knowledge-check.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-m365-unified-endpoint-management/5-summary-knowledge-check",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/security-in-m365/identity-and-access.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/security-in-m365/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/security-in-m365/information-protection.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/security-in-m365/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/security-in-m365/key-security-pillars.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/security-in-m365/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/security-in-m365/m365-security-center.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/security-in-m365/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/security-in-m365/microsoft-secure-score.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/security-in-m365/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/security-in-m365/summary-and-knowledge-check.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/security-in-m365/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/security-in-m365/threat-protection.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/security-in-m365/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/compliance-in-m365/2-common-compliance.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/compliance-in-m365/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/compliance-in-m365/3-assess-your-compliance.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/compliance-in-m365/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/compliance-in-m365/4-data-governance.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/compliance-in-m365/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/compliance-in-m365/4-microsoft-compliance-center.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/compliance-in-m365/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/compliance-in-m365/5-summary-and-knowledge-check.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/compliance-in-m365/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/manage-your-m365-subscription/1-manage-licenses.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/manage-your-m365-subscription/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/manage-your-m365-subscription/2-manage-billing.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/manage-your-m365-subscription/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/manage-your-m365-subscription/3-explore-support-options.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/manage-your-m365-subscription/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/manage-your-m365-subscription/4-m365-slas.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/manage-your-m365-subscription/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/manage-your-m365-subscription/5-service-health.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/manage-your-m365-subscription/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/manage-your-m365-subscription/7-summary-and-knowledge-check.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/manage-your-m365-subscription/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/select-a-cloud-deployment-model/2-the-cloud-only-model.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/select-a-cloud-deployment-model/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/select-a-cloud-deployment-model/3-the-hybrid-model.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/select-a-cloud-deployment-model/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/select-a-cloud-deployment-model/4-which-model-to-choose.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/select-a-cloud-deployment-model/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/select-a-cloud-deployment-model/5-migration-m365.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/select-a-cloud-deployment-model/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/select-a-cloud-deployment-model/6-summary-and-knowledge-check.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/select-a-cloud-deployment-model/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/move-to-modern-desktop-m365/2-plan-for-deployment.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/move-to-modern-desktop-m365/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/move-to-modern-desktop-m365/6-summary-and-knowledge-check.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/move-to-modern-desktop-m365/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl/what-is-m365/4-summary-and-knowledge-check.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/what-is-m365/4-summary-knowledge-check",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-wvd-intro/introduction.md",
@@ -898,7 +898,7 @@
     {
       "source_path": "learn-m365-pr/m365/m365-optimize-wvd/configure-onedrive.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-optimize-wvd/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-optimize-wvd/migrate-files.md",
@@ -918,72 +918,72 @@
     {
       "source_path": "learn-m365-pr/wwwl/describe-cloud-security-capabilities-of-microsoft-365/index.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/describe-cloud-security-capabilities-of-microsoft-365/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwwl/describe-cloud-security-capabilities-of-microsoft-365/3-explore-microsoft-cloud-app-security-integration.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/describe-cloud-security-capabilities-of-microsoft-365/3-explore-microsoft-cloud-app-security-integration",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwwl/describe-cloud-security-capabilities-of-microsoft-365/1-introduction.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/describe-cloud-security-capabilities-of-microsoft-365/1-introduction",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwwl/describe-cloud-security-capabilities-of-microsoft-365/4-knowledge-check.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/describe-cloud-security-capabilities-of-microsoft-365/4-knowledge-check",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwwl/describe-cloud-security-capabilities-of-microsoft-365/5-summary-resources.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/describe-cloud-security-capabilities-of-microsoft-365/5-summary-resources",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwwl/describe-cloud-security-capabilities-of-microsoft-365/2-take-control-of-cloud-environment.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/describe-cloud-security-capabilities-of-microsoft-365/2-take-control-of-cloud-environment",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwwl/describe-identity-access-management-capabilities-of-microsoft-365/index.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/describe-identity-access-management-capabilities-of-microsoft-365/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwwl/describe-identity-access-management-capabilities-of-microsoft-365/2-learn-identity-access-management-microsoft-zero-trust-model.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/describe-identity-access-management-capabilities-of-microsoft-365/2-learn-identity-access-management-microsoft-zero-trust-model",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwwl/describe-identity-access-management-capabilities-of-microsoft-365/1-introduction.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/describe-identity-access-management-capabilities-of-microsoft-365/1-introduction",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwwl/describe-identity-access-management-capabilities-of-microsoft-365/5-knowledge-check.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/describe-identity-access-management-capabilities-of-microsoft-365/5-knowledge-check",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwwl/describe-identity-access-management-capabilities-of-microsoft-365/3-manage-identities-access-with-azure-active-directory.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/describe-identity-access-management-capabilities-of-microsoft-365/3-manage-identities-access-with-azure-active-directory",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwwl/describe-identity-access-management-capabilities-of-microsoft-365/4-multi-factor-authentication.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/describe-identity-access-management-capabilities-of-microsoft-365/4-multi-factor-authentication",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwwl/describe-identity-access-management-capabilities-of-microsoft-365/6-summary-resources.md",
       "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/describe-identity-access-management-capabilities-of-microsoft-365/6-summary-resources",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/paths/m365-fundamentals/index.md",
       "redirect_url": "https://docs.microsoft.com/learn/certifications/microsoft-365-fundamentals",
-      "redirect_document_id": true
+      "redirect_document_id": false
     }
   ]
 }
