@@ -64,7 +64,6 @@ Tasks for the Plan phase:
 |*Compatibility*|*Deployment*|*Capability*|*Modernize*  |
 |---------|---------|---------|---------|
 |- Define deployment readiness criteria <br/>- Determine app readiness|-Define deployment readiness criteria <br/>- Determine infrastructure requirements |- Define innovation areas <br/>- Determine capabilities and requirements|- Define innovation areas <br/>- Determine improvements|
-</div>
 
 **Prepare phase**
 
