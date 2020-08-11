@@ -5,7 +5,7 @@ metadata:
   description: Learn about identity and access management in Azure Active Directory and why identity is a core component of your organization’s security posture.
   ms.date: 07/07/2020
   author: AlexandraHrt
-  ms.author: v-aleha
+  ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Define identity and access management in Azure Active Directory

@@ -6,7 +6,7 @@ metadata:
   description: Learn about modern authentication and the security benefits it provides to your organization, such as enabling multi-factor authentication (MFA) and a passwordless environment. 
   ms.date: 07/14/2020
   author: AlexandraHrt 
-  ms.author: v-aleha
+  ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 5
