@@ -6,7 +6,7 @@ metadata:
   description: Learn about Azure Active Directory Identity Protection and ways to optimize the end-user experience while benefiting security. 
   ms.date: 07/20/2020
   author: AlexandraHrt
-  ms.author: v-aleha
+  ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 5
