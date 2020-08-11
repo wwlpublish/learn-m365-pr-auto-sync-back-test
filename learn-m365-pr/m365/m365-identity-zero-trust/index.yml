@@ -5,7 +5,7 @@ metadata:
   description: Learn about the Zero Trust model and how to implement Zero Trust into your organization. 
   ms.date: 07/08/2020
   author: AlexandraHrt
-  ms.author: v-aleha
+  ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Embrace Zero Trust with Azure Active Directory  
@@ -18,7 +18,7 @@ abstract: |
 
 prerequisites: | 
  - Intermediate understanding of Microsoft 365 and Azure Active Directory.
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/embrace-zero-trust.svg
 ratingEnabled: true
 levels:
 - intermediate
