@@ -2,14 +2,14 @@
 uid: learn-m365.msgraph-associate
 metadata:
   title: Build apps with Microsoft Graph – Associate
-  description: Microsoft Graph provides a unified programmability model that you can use to build apps that interact with the data of millions of users for organizations and consumers. Microsoft Graph APIs implements many of the OData protocol’s query parameters. Learn how to use Microsoft Graph in your custom applications.
+  description: Microsoft Graph provides a unified programmability model that you can use to build apps for organizations and consumers that interact with the data of millions of users. Microsoft Graph APIs implement many of OData protocol query parameters. Learn how to use Microsoft Graph in your custom applications.
   ms.date: 01/21/2020
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Build apps with Microsoft Graph – Associate
-summary: "Microsoft Graph provides a unified programmability model that you can use to build apps that interact with the data of millions of users for organizations and consumers. Microsoft Graph APIs implements many of the OData protocol’s query parameters. Learn how to use Microsoft Graph in your custom applications. This learning path can help you prepare for the [Microsoft 365 Certified: Developer Associate](https://docs.microsoft.com/learn/certifications/m365-developer-associate) certification."
+summary: "Microsoft Graph provides a unified programmability model that you can use to build apps for organizations and consumers that interact with the data of millions of users. Microsoft Graph APIs implement many OData protocol query parameters. Learn how to use Microsoft Graph in your custom applications. This learning path can help you prepare for the [Microsoft 365 Certified: Developer Associate](https://docs.microsoft.com/learn/certifications/m365-developer-associate) certification."
 prerequisites: None
 iconUrl: /learn/achievements/msgraph-associate.svg
 levels:
