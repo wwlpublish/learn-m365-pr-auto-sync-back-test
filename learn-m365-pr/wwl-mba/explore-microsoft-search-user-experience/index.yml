@@ -3,7 +3,7 @@ uid: learn.wwl.explore-microsoft-search-user-experience
 metadata:
   title: Explore the Microsoft Search user experience and how to enable and configure it for your devices
   description: "Take a hands-on tour of Microsoft Search, your tailored search experience for information in your organization to find people, files, org charts, sites, and answers to common questions."
-  ms.date: 06/14/2020
+  ms.date: 08/16/2020
   author: wwlpublish
   ms.author: ceperezb
   ms.topic: interactive-tutorial
@@ -16,7 +16,7 @@ abstract: |
   * Configure the Microsoft Search service.
 prerequisites: |
   * Experience deploying and configuring application packages, using software distribution tools such as Microsoft Intune or Configuration Manager.
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/explore-microsoft-search-user-experience.svg
 levels:
 - intermediate
 roles:
