@@ -3,7 +3,7 @@ uid: learn.wwl.explore-deployment-options-microsoft-edge
 metadata:
   title: Explore your deployment options for Microsoft Edge
   description: "Edge brings enterprise-ready security, privacy, and manageability controls, making it the best browser for business across PC, Mac, and mobile devices. Explore options to deploy Microsoft Edge to hundreds or thousands of devices at scale."
-  ms.date: 06/15/2020
+  ms.date: 08/16/2020
   author: wwlpublish
   ms.author: ceperezb
   ms.topic: interactive-tutorial
@@ -15,7 +15,7 @@ abstract: |
   * Provision all your managed devices – including your phones and Macs – with Edge
 prerequisites: |
   * Experience deploying and configuring application packages using software distribution tools such as Microsoft Intune or Configuration Manager
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/explore-your-deployment-options-for-microsoft-edge.svg
 levels:
 - intermediate
 roles:
