@@ -3,7 +3,7 @@ uid: learn.wwl.reduce-risk-simplify-discovery-audit-process
 metadata:
   title: Reduce risk and simplify the discovery and audit process
   description: "Reduce risk and simplify the discovery and audit process"
-  ms.date: 07/16/2020
+  ms.date: 08/16/2020
   author: wwlpublish
   ms.author: ceperezb
   ms.topic: interactive-tutorial
@@ -15,7 +15,7 @@ abstract: |
   - Describe the tools available to help organizations find relevant data quickly and cost effectively
 prerequisites: |
   - A basic understanding of cloud computing. If you're unfamiliar with basic cloud computing concepts, we recommend you take [Cloud Concepts - Principles of cloud computing](https://docs.microsoft.com/learn/modules/principles-cloud-computing/index)
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/reduce-risk-and-simplify-the-discovery-and-audit-process.svg
 levels:
 - beginner
 roles:
