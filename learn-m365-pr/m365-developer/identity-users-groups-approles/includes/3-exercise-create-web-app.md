@@ -46,8 +46,15 @@ Open your command prompt, navigate to a directory where you want to save your wo
 
 Execute the following command to create a new ASP.NET Core MVC web application:
 
-```shell
+```console
 dotnet new mvc --auth SingleOrg
+```
+
+After creating the application, run the following commands to ensure your new project runs correctly.
+
+```console
+dotnet add package Microsoft.Identity.Web --version 0.2.1-preview
+dotnet add package Microsoft.Identity.Web.UI --version 0.2.1-preview
 ```
 
 Open the root folder of the new ASP.NET core application using a text editor such as Visual Studio Code.
@@ -68,18 +75,49 @@ Locate and open the **./Startup.cs** file in the ASP.NET Core project.
 
 Add the following `using` statement after the existing `using` statements:
 
-```cs
+```csharp
+using Microsoft.AspNetCore.Http;
+using Microsoft.Identity.Web;
+using Microsoft.Identity.Web.UI;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
+```
+
+Locate the method `ConfigureServices()`.
+
+Replace the body of the method with the following code. This code will configure the web app's middleware to support Azure AD for authentication and to obtain an ID token:
+
+```csharp
+services.Configure<CookiePolicyOptions>(options =>
+{
+  // This lambda determines whether user consent for non-essential cookies is needed for a given request.
+  options.CheckConsentNeeded = context => true;
+  options.MinimumSameSitePolicy = SameSiteMode.Unspecified;
+  // Handling SameSite cookie according to https://docs.microsoft.com/en-us/aspnet/core/security/samesite?view=aspnetcore-3.1
+  options.HandleSameSiteCookieCompatibility();
+});
+
+services.AddOptions();
+
+services.AddMicrosoftWebAppAuthentication(Configuration);
+
+services.AddControllersWithViews(options =>
+{
+  var policy = new AuthorizationPolicyBuilder()
+                .RequireAuthenticatedUser()
+                .Build();
+  options.Filters.Add(new AuthorizeFilter(policy));
+}).AddMicrosoftIdentityUI();
+
+services.AddRazorPages();
 ```
 
 Within the method `ConfigureServices()`, locate the following line:
 
 ```csharp
-services.AddAuthentication(AzureADDefaults.AuthenticationScheme)
-        .AddAzureAD(options => Configuration.Bind("AzureAd", options));
+services.AddMicrosoftWebAppAuthentication(Configuration);
 ```
 
-Add the following code after the `services.AddAzureAD()` line. This code will configure the web app's middleware to support the v2 tokens from Microsoft identity:
+Add the following code after this line. This code will configure the web app's middleware to support the v2 tokens from Microsoft identity:
 
 ```csharp
 services.Configure<OpenIdConnectOptions>(AzureADDefaults.OpenIdScheme, options =>
@@ -121,13 +159,13 @@ Add the following code to the end of the file:
 
 Run the following command in a command prompt to compile the application:
 
-```shell
+```console
 dotnet build
 ```
 
 Run the following command to run the application:
 
-```shell
+```console
 dotnet run
 ```
 

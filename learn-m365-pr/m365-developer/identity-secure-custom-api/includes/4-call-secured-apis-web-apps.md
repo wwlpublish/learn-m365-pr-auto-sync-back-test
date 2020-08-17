@@ -20,7 +20,7 @@ The next step is to create the web application that will allow the user to sign 
 
 Create a new ASP.NET Core MVC application using the following command, followed by installing a few NuGet packages to support and Microsoft identity.
 
-```shell
+```console
 dotnet new mvc --auth SingleOrg
 dotnet add package Microsoft.Identity.Client
 dotnet add package Microsoft.Extensions.Configuration
@@ -35,62 +35,34 @@ Now update the project to associate it with the Azure AD app you registered for 
 - **ClientId**: the ID of your Azure AD application
 - **ClientSecret**: the secret of your Azure AD application
 
-Next, configure the web app's authentication by updating the `ConfigureServices()` method in the `Startup` class for the project:
+Next, configure the web app's authentication by updating the `ConfigureServices()` method in the `Startup` class for the project. Replace the body of the method with the following code. This code will configure the web app's middleware to support Azure AD for authentication and to obtain an ID token:
 
-- First, configure the web app to support authentication with Microsoft identity using the details from the **appsettings.file**:
+```csharp
+services.Configure<CookiePolicyOptions>(options =>
+{
+  // This lambda determines whether user consent for non-essential cookies is needed for a given request.
+  options.CheckConsentNeeded = context => true;
+  options.MinimumSameSitePolicy = SameSiteMode.Unspecified;
+  // Handling SameSite cookie according to https://docs.microsoft.com/en-us/aspnet/core/security/samesite?view=aspnetcore-3.1
+  options.HandleSameSiteCookieCompatibility();
+});
 
-    ```csharp
-    services.AddAuthentication(AzureADDefaults.AuthenticationScheme)
-        .AddAzureAD(options => Configuration.Bind("AzureAd", options));
+services.AddOptions();
 
-    var appSettings = new AzureADOptions();
-    Configuration.Bind("AzureAd", appSettings);
+services.AddMicrosoftWebAppAuthentication(Configuration)
+  .AddMicrosoftWebAppCallsWebApi(Configuration, Constants.ProductCatalogAPI.SCOPES)
+  .AddInMemoryTokenCaches();
 
-    var application = ConfidentialClientApplicationBuilder.Create(appSettings.ClientId)
-          .WithAuthority(appSettings.Instance + appSettings.TenantId + "/v2.0/")
-          .WithRedirectUri("https://localhost:5001" + appSettings.CallbackPath)
-          .WithClientSecret(appSettings.ClientSecret)
-          .Build();
-    services.AddSingleton(application);
-    ```
+services.AddControllersWithViews(options =>
+{
+  var policy = new AuthorizationPolicyBuilder()
+                .RequireAuthenticatedUser()
+                .Build();
+  options.Filters.Add(new AuthorizeFilter(policy));
+}).AddMicrosoftIdentityUI();
 
-- Now, configure the app's services to support the user signing in to Azure AD and providing an authorization code to the web app. The web app takes this authorization code and exchanges it for an access token using the Azure AD token issuing endpoint:
-
-    ```csharp
-    services.Configure<OpenIdConnectOptions>(AzureADDefaults.OpenIdScheme, options =>
-    {
-      // configure authority to use v2 endpoint
-      options.Authority = options.Authority + "/v2.0/";
-
-      // asking Azure AD for id_token (to establish identity) and authorization code (to get access/refresh tokens for calling services)
-      options.ResponseType = OpenIdConnectResponseType.CodeIdToken;
-
-      // add the permission scopes you want the application to use
-      options.Scope.Add("offline_access");
-      Constants.ProductCatalogAPI.SCOPES.ForEach(s => options.Scope.Add(s));
-
-      // validate the token issuer
-      options.TokenValidationParameters.NameClaimType = "preferred_username";
-
-      // wire up event to do second part of code authorization flow (exchanging authorization code for token)
-      var handler = options.Events.OnAuthorizationCodeReceived;
-      options.Events.OnAuthorizationCodeReceived = async context =>
-      {
-        // handle the auth code returned post signin
-        context.HandleCodeRedemption();
-        if (!context.HttpContext.User.Claims.Any())
-        {
-          (context.HttpContext.User.Identity as ClaimsIdentity).AddClaims(context.Principal.Claims);
-        }
-
-        // get token
-        var token = await application.AcquireTokenByAuthorizationCode(options.Scope, context.ProtocolMessage.Code).ExecuteAsync();
-
-        context.HandleCodeRedemption(null, token.IdToken);
-        await handler(context).ConfigureAwait(false);
-      };
-    });
-    ```
+services.AddRazorPages();
+```
 
 At this point, the web app is associated with the registered Azure AD app and configured to support users signing in with their Microsoft identity account.
 
@@ -98,33 +70,24 @@ At this point, the web app is associated with the registered Azure AD app and co
 
 The next step is to create controllers to implement the pages on the site.
 
-When the user requests one of these pages, the web app already has an access token for the user. This token is used, in addition to the web app's Azure AD app details, to obtain a new access token. The resulting access token is intended to be used with the web API but is for the web app to use:
+When the user requests one of these pages, the web app already has an access token for the user. This token is used, in addition to the web app's Azure AD app details, to obtain a new access token. The resulting access token is intended to be used with the web API but is for the web app to use.
 
 ```csharp
-private async Task<string> GetTokenForUser()
+public CategoriesController(ITokenAcquisition tokenAcquisition)
 {
-  // get the current user's account ID
-  string userObjectId = User.FindFirstValue(Constants.ClaimIds.UserObjectId);
-  string tenantId = User.FindFirstValue(Constants.ClaimIds.TenantId);
-  var accountIdentifier = $"{userObjectId}.{tenantId}";
-  IAccount account = await application.GetAccountAsync(accountIdentifier);
-
-  var authResult = await application.AcquireTokenSilent(scopes, account).ExecuteAsync();
-  return authResult.AccessToken;
+  this.tokenAcquisition = tokenAcquisition;
 }
 ```
-
-Each controller's method, representing a page, can then use this `GetTokenForUser()` method to issue a request to the web API with this new access token:
 
 ```csharp
 public async Task<ActionResult> Index()
 {
   HttpClient client = new HttpClient();
-  client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", await GetTokenForUser());
+  var accessToken = await tokenAcquisition.GetAccessTokenForUserAsync(Constants.ProductCatalogAPI.SCOPES);
+  client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
 
-  string webApiEndpoint = "https://localhost:5050/api/Categories";
-  string json = await client.GetStringAsync(webApiEndpoint);
-
+  var json = await client.GetStringAsync(url);
+  
   var serializerOptions = new JsonSerializerOptions
   {
     PropertyNamingPolicy = JsonNamingPolicy.CamelCase

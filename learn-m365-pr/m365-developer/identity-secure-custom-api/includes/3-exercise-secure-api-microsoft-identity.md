@@ -66,8 +66,15 @@ Open your command prompt, navigate to a directory where you want to save your wo
 
 Execute the following command to create a new .NET Core web API application:
 
-```shell
+```console
 dotnet new webapi -o ProductCatalog -au singleorg
+```
+
+After creating the application, run the following commands to ensure your new project runs correctly.
+
+```console
+cd ProductCatalogWeb
+dotnet add package Microsoft.Identity.Web --version 0.2.3-preview
 ```
 
 Open the scaffolded project folder, which is named **ProductCatalog** in **Visual Studio Code**. When a dialog box asks if you want to add required assets to the project, select **Yes**.
@@ -97,82 +104,47 @@ The web API application doesn't contain any HTML pages, so there's no need to la
 // },
 ```
 
+### Configure the web application with the Azure AD application
+
+Locate and open the **./appsettings.json** file in the ASP.NET Core project.
+
+Set the `AzureAd.Domain` property to the domain of your Azure AD tenant where you created the Azure AD application (*for example: contoso.onmicrosoft.com*).
+
+Set the `AzureAd.TenantId` property to the **Directory (tenant) ID** you copied when creating the Azure AD application in the previous section.
+
+Set the `AzureAd.ClientId` property to the **Application (client) ID** you copied when creating the Azure AD application in the previous section.
+
 ### Request Authentication & Bearer Token validation
 
-The scaffolded project is pre-configured to authenticate requests using the HTTP request's Authorization header. In the **Startup.cs** file, the `ConfigureServices()` method has the following statements that add the appropriate middleware:
+The scaffolded project uses code from the Microsoft.AspNetCore.Authentication library to authenticate requests using the HTTP request's Authorization header. In the **Startup.cs** file, the `ConfigureServices()` method has the following statement that adds the middleware to do this:
 
 ```csharp
 services.AddAuthentication(AzureADDefaults.BearerAuthenticationScheme)
         .AddAzureADBearer(options => Configuration.Bind("AzureAd", options));
 ```
 
-The **AzureADBearer** middleware will validate core token attributes, such as the token lifetime, signature, and audience. The **appsettings.json** file must have the values from the app registration provided so that the middleware can do this validation. The scaffolded **appsettings.json** file has placeholder values for `TenantId` and `ClientId`. Replace these placeholders with the values copied from the AAD Portal when creating the app registration.
-
-The valid audiences must be provided using a `JwtBearerOptions` class, which is configured in the `ConfigureServices()` method.
+You will remove this code and instead use code from the Microsoft.Identity.Web library to add the middleware to authenticate requests. 
 
 First, add the following statement to the top of the **Startup.cs** file:
 
 ```csharp
-using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.Identity.Web;
 ```
 
-Next, add the following to the `ConfigureServices()` method after the statement that adds the AzureADBearer middleware:
+Next, locate the following two lines of code in the `ConfigureServices()` method:
 
 ```csharp
-services.Configure<JwtBearerOptions>(AzureADDefaults.JwtBearerAuthenticationScheme, options =>
-{
-  // The web API accepts as audiences both the Client ID (options.Audience) and api://{ClientID}.
-  options.TokenValidationParameters.ValidAudiences = new[]
-  {
-    options.Audience,
-    $"api://{options.Audience}"
-  };
-});
+services.AddAuthentication(AzureADDefaults.BearerAuthenticationScheme)
+        .AddAzureADBearer(options => Configuration.Bind("AzureAd", options));
 ```
 
-While the provided middleware will validate the token, authorizing a request for a specific controller action is the responsibility of the developer. In this exercise, the presence of scopes in the token is used to authorize the action. If the scope is present, the action is allowed.
-
-In the root folder of the project, create a file named **ScopeValidator.cs**. Add the following code to the file:
+Replace them with the following code:
 
 ```csharp
-using System;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
-using System.Security.Claims;
-using Microsoft.AspNetCore.Http;
-
-namespace ProductCatalog
-{
-  public static class ScopeValidator
-  {
-
-    /// <summary>
-    /// When applied to a <see cref="HttpContext"/>, verifies that the user authenticated in the
-    /// web API has any of the accepted scopes.
-    /// If the authenticated user doesn't have any of these <paramref name="acceptedScopes"/>, the
-    /// method throws an HTTP Unauthorized error with a message noting which scopes are expected in the token.
-    /// </summary>
-    /// <param name="acceptedScopes">Scopes accepted by this API</param>
-    /// <exception cref="HttpRequestException"/> with a <see cref="HttpResponse.StatusCode"/> set to
-    /// <see cref="HttpStatusCode.Unauthorized"/>
-    public static void VerifyUserHasAnyAcceptedScope(this HttpContext context, params string[] acceptedScopes)
-    {
-      if (acceptedScopes == null)
-      {
-        throw new ArgumentNullException(nameof(acceptedScopes));
-      }
-      Claim scopeClaim = context?.User?.FindFirst("http://schemas.microsoft.com/identity/claims/scope");
-      if (scopeClaim == null || !scopeClaim.Value.Split(' ').Intersect(acceptedScopes).Any())
-      {
-        context.Response.StatusCode = (int)HttpStatusCode.Unauthorized;
-        string message = $"The 'scope' claim doesn't contain scopes '{string.Join(",", acceptedScopes)}' or was not found";
-        throw new HttpRequestException(message);
-      }
-    }
-  }
-}
+services.AddMicrosoftWebApiAuthentication(Configuration);
 ```
+
+While the provided middleware will validate the token, authorizing a request for a specific controller action is the responsibility of the developer. In this exercise, the presence of scopes in the token is used to authorize the action. If the scope is present, the action is allowed. Validating scopes will be done in the action methods of the controllers that will be added later in this exercise.
 
 ### Data models and sample data
 
@@ -209,7 +181,7 @@ This exercise will store sample data in-memory while the app is running. The dat
 
 Install the NuGet package by running the following from your command prompt in the project folder:
 
-```shell
+```console
 dotnet add package Bogus
 ```
 
@@ -257,19 +229,10 @@ The sample data will be stored as a singleton in the dependency injection contai
 ```csharp
 public void ConfigureServices(IServiceCollection services)
 {
-  services.AddAuthentication(AzureADDefaults.BearerAuthenticationScheme)
-      .AddAzureADBearer(options => Configuration.Bind("AzureAd", options));
-  services.Configure<JwtBearerOptions>(AzureADDefaults.JwtBearerAuthenticationScheme, options =>
-  {
-    // The web API accepts as audiences both the Client ID (options.Audience) and api://{ClientID}.
-    options.TokenValidationParameters.ValidAudiences = new[]
-    {
-      options.Audience,
-      $"api://{options.Audience}"
-    };
-  });
-  services.AddControllers();
-  services.AddSingleton(SampleData.Initialize());
+    services.AddMicrosoftWebApiAuthentication(Configuration);
+    services.AddControllers();
+
+    services.AddSingleton(SampleData.Initialize());
 }
 ```
 
@@ -283,6 +246,7 @@ using System.Linq;
 using ProductCatalog.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Identity.Web.Resource;
 
 namespace ProductCatalog.Controllers
 {
@@ -298,7 +262,8 @@ namespace ProductCatalog.Controllers
       this.data = data;
     }
 
-    public List<Category> GetAllCategories() {
+    public List<Category> GetAllCategories()
+    {
       HttpContext.VerifyUserHasAnyAcceptedScope(new string[] { "Category.Read" });
       return data.Categories;
     }
@@ -311,7 +276,7 @@ namespace ProductCatalog.Controllers
     }
 
     [HttpPost]
-    public ActionResult CreateCategory([FromBody] Product newCategory)
+    public ActionResult CreateCategory([FromBody] Category newCategory)
     {
       HttpContext.VerifyUserHasAnyAcceptedScope(new string[] { "Category.Write" });
       if (string.IsNullOrEmpty(newCategory.Name))
@@ -319,7 +284,7 @@ namespace ProductCatalog.Controllers
         return BadRequest("Product Name cannot be empty");
       }
       newCategory.Id = (data.Categories.Max(c => c.Id) + 1);
-      data.Products.Add(newCategory);
+      data.Categories.Add(newCategory);
       return CreatedAtAction(nameof(GetCategory), new { id = newCategory.Id }, newCategory);
     }
   }
@@ -336,6 +301,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ProductCatalog.Models;
+using Microsoft.Identity.Web.Resource;
 
 namespace ProductCatalog.Controllers
 {

@@ -60,61 +60,34 @@ With the app registered in Azure AD, the next step is to configure the web app. 
 
 Next, you need to modify the web app startup process to configure the support for signing-in with Azure AD and obtaining an ID token.
 
-In an ASP.NET Core web application, add the following to the `ConfigureServices()` method.
+In an ASP.NET Core web application, locate the `ConfigureServices()` method and replace it's contents with the following:
 
-```cs
-List<string> scopes = new List<string>();
-scopes.Add("offline_access");
-scopes.Add("user.read");
-
-var appSettings = new AzureADOptions();
-Configuration.Bind("AzureAd", appSettings);
-
-var application = ConfidentialClientApplicationBuilder.Create(appSettings.ClientId)
-                      .WithAuthority(appSettings.Instance + appSettings.TenantId +"/v2.0/")
-                      .WithRedirectUri("https://localhost:5001" + appSettings.CallbackPath)
-                      .WithClientSecret(appSettings.ClientSecret)
-                      .Build();
+```csharp
+// This lambda determines whether user consent for non-essential cookies is needed for a given request.
+options.CheckConsentNeeded = context => true;
+options.MinimumSameSitePolicy = SameSiteMode.Unspecified;
+// Handling SameSite cookie according to https://docs.microsoft.com/en-us/aspnet/core/security/samesite?view=aspnetcore-3.1
+options.HandleSameSiteCookieCompatibility();
 ```
 
 Then add the following code to the end of the `ConfigureServices()` method. This will complete the Azure AD configuration by doing the following steps:
 
-- Set the authority for Azure AD to be the OAuth 2.0 Azure AD endpoint
-- Request both an authorization code and ID token when the user signs in
-- Associate the user's name property in ASP.NET to the **preferred_username** claim returned in the ID token
-- Create a callback when the authorization code is received to add all claims from the ID token to the current signed-in user's claims
+- Configure the web app to use using the NuGet package's Microsoft.Identity.Web utility methods
+- Setup the controllers
+- configure the authentication to use the Microsoft identity UI
 
-```cs
-services.Configure<OpenIdConnectOptions>(AzureADDefaults.OpenIdScheme, async options => {
-    // configure authority to use v2 endpoint
-    options.Authority = options.Authority + "/v2.0/";
-
-    // asking Azure AD for id_token (to establish identity) and authorization code (to get access/refresh tokens for calling services)
-    options.ResponseType = OpenIdConnectResponseType.CodeIdToken;
-
-    // add the permission scopes you want the application to use
-    options.Scope.Add("offline_access");
-    options.Scope.Add("user.read");
-
-    // validate the token issuer
-    options.TokenValidationParameters.NameClaimType = "preferred_username";
-
-    // wire up event to do second part of code authorization flow (exchanging authorization code for token)
-    var handler = options.Events.OnAuthorizationCodeReceived;
-    options.Events.OnAuthorizationCodeReceived = async context => {
-      // handle the auth code returned post signin
-      context.HandleCodeRedemption();
-      if (!context.HttpContext.User.Claims.Any()) {
-        (context.HttpContext.User.Identity as ClaimsIdentity).AddClaims(context.Principal.Claims);
-      }
-
-      // get token
-      var token = await application.AcquireTokenByAuthorizationCode(options.Scope, context.ProtocolMessage.Code).ExecuteAsync();
-
-      context.HandleCodeRedemption(null, token.IdToken);
-      await handler(context).ConfigureAwait(false);
-    };
-});
+```csharp
+services.AddOptions();
+services.AddMicrosoftWebAppAuthentication(Configuration)
+        .AddMicrosoftWebAppCallsWebApi(Configuration, new string[] { "User.Read" })
+        .AddInMemoryTokenCaches();
+services.AddControllersWithViews(options => {
+  var policy = new AuthorizationPolicyBuilder()
+                .RequireAuthenticatedUser()
+                .Build();
+  options.Filters.Add(new AuthorizeFilter(policy));
+}).AddMicrosoftIdentityUI();
+services.AddRazorPages();
 ```
 
 ## Signing-in & acquiring tokens
@@ -125,7 +98,7 @@ The sign-in process uses the values from the **appsettings.json** file and the c
 
 When a user signs-in to Azure AD and is redirected back to the web application, the web app can use the MSAL.NET library to obtain an access token:
 
-```cs
+```csharp
 List<string> scopes = new List<string>();
 IAccount account = {};
 var accessToken = await application.AcquireTokenSilent(scopes, account).ExecuteAsync();
@@ -137,39 +110,27 @@ The account is retrieved from the currently signed-in user. The token can then b
 
 The last part of the process is to use the access code in a request to a secured endpoint.
 
-One way to do this is to create an instance of the Microsoft Graph client and add it as a singleton to ASP.NET Core's dependency injection system:
-
-```cs
-// add this to the Startup.cs in the ConfigureServices() method after creating an
-//    instance of the confidential client (application)
-var graphServiceClient = new GraphServiceClient(new DelegateAuthenticationProvider(async (request) => {
-  var graphUserAccount = new Helpers.GraphUserAccount(request.Properties["User"] as System.Security.Claims.ClaimsPrincipal);
-  var accessToken = await application.AcquireTokenSilent(scopes, graphUserAccount).ExecuteAsync();
-  request.Headers.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("bearer", accessToken.AccessToken);
-}));
-services.AddSingleton<GraphServiceClient>(graphServiceClient);
-```
-
-The instance of the service can then be used from a controller within the web application:
-
-```cs
+```csharp
 [Authorize]
 public class UserController : Controller
 {
-  private readonly GraphServiceClient _graphServiceClient;
+  private readonly ITokenAcquisition _tokenAcquisition;
 
-  public UserController(GraphServiceClient graphServiceClient)
+  public UserController(ITokenAcquisition tokenAcquisition)
   {
-    _graphServiceClient = graphServiceClient;
+    _tokenAcquisition = tokenAcquisition;
   }
 
+  [AuthorizeForScopes(Scopes = new[] { "User.Read" })]
   public async Task<IActionResult> Index()
   {
-    var request = this._graphServiceClient.Me.Request().GetHttpRequestMessage();
-    request.Properties["User"] = HttpContext.User;
-    var response = await this._graphServiceClient.HttpProvider.SendAsync(request);
-    var handler = new ResponseHandler(new Serializer());
-    var user = await handler.HandleResponse<User>(response);
+    var graphServiceClient = new GraphServiceClient(
+        new DelegateAuthenticationProvider(async (request) =>
+        {
+          var accessToken = await _tokenAcquisition.GetAccessTokenForUserAsync(new[] { "User.Read" });
+          request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+        }));
+    var user = await graphServiceClient.Me.Request().GetAsync();
 
     return View(user);
   }

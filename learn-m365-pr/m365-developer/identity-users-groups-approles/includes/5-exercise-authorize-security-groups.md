@@ -5,7 +5,7 @@ In this exercise, you’ll learn how to create and configure an application regi
 
 ## Update the application registration
 
-The ID token returned by default from Microsoft identity contains only basic information about the current user. The application registration can be updated to include additional information. Configure the application registration to include group membership claims by editing the application manifest.
+The ID token returned by default from Microsoft identity contains only basic information about the current user. The application registration can be updated to include additional information. Configure the application registration to include group membership claims as role claims by editing the application manifest.
 
 Open a browser and navigate to the [Azure Active Directory admin center](https://aad.portal.azure.com). Sign in using a **Work or School Account** that has global administrator rights to the tenant.
 
@@ -31,34 +31,24 @@ Next, within the manifest editor, find the node `optionalClaims`. The default va
 
 ```json
 "optionalClaims": {
-  "accessToken": [
+  "idToken": [
     {
       "name": "groups",
-      "additionalProperties": ["emit_as_roles"]
+      "source": null,
+      "essential": false,
+      "additionalProperties": [
+        "emit_as_roles"
+      ]
     }
-  ]
+  ],
+  "accessToken": [],
+  "saml2Token": []
 }
 ```
 
 ![Screenshot of the application registration with the manifest link highlighted](../media/05-aad-portal-appreg-manifest.png)
 
 Save the manifest.
-
-### Configure web application middleware
-
-In Visual Studio Code, locate and open the **./Startup.cs** file in the ASP.NET Core project created in the first exercise.
-
-Within the method `ConfigureServices()`, locate the line that configures the `OpenIdConnectOptions`. Update the expression to match the following code:
-
-```csharp
-services.Configure<OpenIdConnectOptions>(AzureADDefaults.OpenIdScheme, options =>
-{
-  options.Authority = options.Authority + "/v2.0/";
-  options.TokenValidationParameters.RoleClaimType = "groups";
-});
-```
-
-A new statement is added to specify the claim that represents Groups when creating the ClaimsPrincipal in ASP.NET.
 
 ### Extend application with authorization
 
@@ -88,7 +78,7 @@ On the **All Groups** page, select **New Group**. Create the group with the foll
 
 Select **Create**.
 
-On the **All Groups** page, copy the **Object Id** of the new group. You'll need this value later in the exercise.
+On the **All Groups** page, copy the **Object ID** of the new group. You'll need this value later in the exercise.
 
 #### Add data models and sample data
 
@@ -125,7 +115,7 @@ This exercise will store sample data in-memory while the app is running. The dat
 
 Install the NuGet package by running the following from your command prompt in the project folder:
 
-```shell
+```console
 dotnet add package Bogus
 ```
 
@@ -180,7 +170,7 @@ Earlier, the middleware was configured to use the group claim from Microsoft ide
 
 Add a new file **ProductsController.cs** to the **Controllers** folder. Add the following code to it:
 
-```cs
+```csharp
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -270,7 +260,7 @@ Replace the string `<VIEWER-GROUP-OBJECTID>` with the value copied from the All 
 
 Execute the following command in a command prompt to compile and run the application:
 
-```shell
+```console
 dotnet build
 dotnet run
 ```
@@ -282,7 +272,7 @@ Sign in using a Work and School account from your Azure AD directory. The login 
 > [!NOTE]
 > You must login after adding users as members of the security group. Any logins that occurred before the users were added will result in tokens that does not reflect the membership. Close the browser or select **Sign out** to sign out of the session.
 
-On the home page, the assigned groups are included in the list of claims. If the user is a member of the correct group, the navigation will include a link to the Products controller.
+On the home page, the assigned groups are included in the list of claims as roles. If the user is a member of the correct group, the navigation will include a link to the Products controller.
 
 ![Screenshot of the application home page, highlighting the navigation and group claims.](../media/05-home-page-with-groups.png)
 

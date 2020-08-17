@@ -34,7 +34,7 @@ The easiest way to use Microsoft identity for authentication and to obtain acces
 
 After adding a script reference to the page, add the following code to obtain an instance of the application:
 
-```js
+```javascript
 const msalConfig = {
   auth: {
     clientId: '{{AZUREAD_APP_ID}}',
@@ -58,7 +58,7 @@ The app ID and directory ID tokens in the code are placeholders for the values f
 
 With the application configured, the next step is for the user to sign in. Do this by calling the `loginPopup()` method and pass in an object with the wanted permissions defined:
 
-```js
+```javascript
 var loginRequest = {
   scopes: ["user.read", "mail.read"]
 };
@@ -84,7 +84,7 @@ There are two methods on the MSAL.js API that you can use for this task:
 
 - `acquireTokenSilent()`: If the user has already signed in and an interactive sign-in is not required, this method will return a response that includes the access token:
 
-    ```js
+    ```javascript
     var accessTokenRequest = { scopes: ["user.read", "mail.read"] };
 
     msalApplication.acquireTokenSilent(accessTokenRequest)
@@ -95,7 +95,7 @@ There are two methods on the MSAL.js API that you can use for this task:
 
 - `acquireTokenPopup()`: if the `acquireTokenSilent()` fails and/or an interactive sign-in is required, you can use this method. It will combine the request to sign-in and obtain an access token in one step:
 
-    ```js
+    ```javascript
     var accessTokenRequest = { scopes: ["user.read", "mail.read"] };
 
     msalApplication.acquireTokenPopup(accessTokenRequest)
@@ -108,7 +108,7 @@ There are two methods on the MSAL.js API that you can use for this task:
 
 Once your SPA has an access token, you can use it to call the secured endpoint, such as Microsoft Graph:
 
-```js
+```javascript
 getMessagesFromMSGraph(
   'https://graph.microsoft.com/v1.0/me/messages?$top=10&$select=subject',
   tokenResponse.accessToken

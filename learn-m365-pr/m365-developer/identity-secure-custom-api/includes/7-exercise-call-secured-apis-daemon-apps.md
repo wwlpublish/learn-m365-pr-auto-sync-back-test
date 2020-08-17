@@ -118,7 +118,7 @@ Open your command prompt, navigate to a directory where you want to save your wo
 
 Execute the following command to create a new .NET core console application:
 
-```shell
+```console
 dotnet new console -o ProductCatalogDaemon
 cd ProductCatalogDaemon
 dotnet add package Microsoft.Identity.Client
@@ -328,7 +328,7 @@ On the Visual Studio Code menu bar, select **Run** > **Run Without Debugging** t
 
 Execute the following command in a command prompt to compile and run the application:
 
-```shell
+```console
 dotnet dev-certs https --trust
 dotnet build
 dotnet run

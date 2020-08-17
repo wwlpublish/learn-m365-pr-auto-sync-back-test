@@ -55,7 +55,7 @@ Daemon applications require have a tenant admin pre-consent to the application c
 
 The configuration of an app that leverages the client credentials flow is similar to a web app or console app. First create an instance of the confidential client using the MSAL library:
 
-```cs
+```csharp
 string tenantId = config["tenantId"];
 string clientId = config["applicationId"];
 string clientSecret = config["applicationSecret"];
@@ -69,7 +69,7 @@ var cca = ConfidentialClientApplicationBuilder.Create(clientId)
 
 This code uses the client secret option with the client credentials flow. The following example demonstrates how to do the same thing using a certificate that has been set in the Azure AD app registration:
 
-```cs
+```csharp
 string tenantId = config["tenantId"];
 string clientId = config["applicationId"];
 X509Certificate2 certificate = ReadCertificate(config.CertificateName);
@@ -85,7 +85,7 @@ var cca = ConfidentialClientApplicationBuilder.Create(clientId)
 
 Once the confidential client is created, use the `AcquireTokenForClient()` method to obtain an access token for the app:
 
-```cs
+```csharp
 List<string> scopes = new List<string>();
 scopes.Add("https://graph.microsoft.com/.default");
 
@@ -101,7 +101,7 @@ The scope to request for a client credential flow is the resource you are access
 
 Finally, you can use the configured confidential client to call a secured endpoint, such as Microsoft Graph. When using the Microsoft Graph .NET SDK, first create an instance of the MSAL authentication provider:
 
-```cs
+```csharp
 public class MsalAuthenticationProvider : IAuthenticationProvider
 {
   private IConfidentialClientApplication _application;
@@ -136,7 +136,7 @@ var app = new MsalAuthenticationProvider(cca, scopes);
 
 Next, use the MSAL authentication provider in creating a new instance of the `GraphServiceClient` from the Microsoft Graph .NET SDK:
 
-```cs
+```csharp
 private static GraphServiceClient GetAuthenticatedGraphClient(IConfigurationRoot config)
 {
   var authenticationProvider = CreateAuthorizationProvider(config);
@@ -146,7 +146,7 @@ private static GraphServiceClient GetAuthenticatedGraphClient(IConfigurationRoot
 
 Finally, use the `GraphServiceClient` to submit requests to Microsoft Graph:
 
-```cs
+```csharp
 var client = GetAuthenticatedGraphClient(config);
 var requestUserEmail = client.Users[config["targetUserId"]].Messages.Request();
 var results = requestUserEmail.GetAsync().Result;
