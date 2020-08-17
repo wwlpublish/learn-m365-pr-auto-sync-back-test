@@ -77,7 +77,7 @@ After configuring the web API project with the registered Azure AD app, you can 
 
 Start by creating a new .NET Core web API project using the following command:
 
-```shell
+```console
 dotnet new webapi -o ProductCatalog -au singleorg
 ```
 
@@ -94,48 +94,14 @@ Next, use the existing **Startup.cs** file to configure the authentication setti
 ```csharp
 public void ConfigureServices(IServiceCollection services)
 {
-  services.AddAuthentication(AzureADDefaults.BearerAuthenticationScheme)
-      .AddAzureADBearer(options => Configuration.Bind("AzureAd", options));
-  services.Configure<JwtBearerOptions>(AzureADDefaults.JwtBearerAuthenticationScheme, options =>
-  {
-    // The web API accepts as audiences both the Client ID (options.Audience) and api://{ClientID}.
-    options.TokenValidationParameters.ValidAudiences = new[]
-    {
-      options.Audience,
-      $"api://{options.Audience}"
-    };
-  });
+  services.AddMicrosoftWebApiAuthentication(Configuration);
   services.AddControllers();
+
   services.AddSingleton(SampleData.Initialize());
 }
 ```
 
-#### Add support to validate the current request has the necessary scopes
-
-When you create the controllers, or endpoints, for your web API, you'll need to make sure the current request has the necessary permissions, or scopes, granted to it.
-
-This can be done using a static class that contains a single method. The following `ScopeValidator` class has a method `VerifyUserHasAnyAcceptedScope()` that will check if the current request's included access token contains a specified scope. It returns a boolean value if the desired scope is or isn't present:
-
-```csharp
-public static class ScopeValidator
-{
-
-  public static void VerifyUserHasAnyAcceptedScope(this HttpContext context,
-                                                    params string[] acceptedScopes) {
-    if (acceptedScopes == null) {
-      throw new ArgumentNullException(nameof(acceptedScopes));
-    }
-    Claim scopeClaim = context?.User?.FindFirst("http://schemas.microsoft.com/identity/claims/scope");
-    if (scopeClaim == null || !scopeClaim.Value.Split(' ').Intersect(acceptedScopes).Any()) {
-      context.Response.StatusCode = (int)HttpStatusCode.Unauthorized;
-      string message = $"The 'scope' claim does not contain scopes '{string.Join(",", acceptedScopes)}' or was not found";
-      throw new HttpRequestException(message);
-    }
-  }
-}
-```
-
-This new method that's added to the current `HttpContext` is used within your controller's methods to first verify the current request includes the necessary permissions. If it doesn't, it throws an error. Otherwise, it will continue and execute the desired result:
+This code uses the **Microsoft.Identity.Web** NuGet package to configure the web application to use Microsoft identity and the MSAL.NET SDK.
 
 ```csharp
 public List<Product> GetAllProducts()

@@ -72,16 +72,16 @@ Open your command prompt, navigate to a directory where you want to save your wo
 
 Execute the following command to create a new ASP.NET Core MVC web application:
 
-```shell
+```console
 dotnet new mvc --auth SingleOrg -o ProductCatalogWeb
 ```
 
 After creating the application, run the following commands to ensure your new project runs correctly.
 
-```shell
+```console
 cd ProductCatalogWeb
-dotnet add package Microsoft.Identity.Client
-dotnet add package Microsoft.Extensions.Configuration
+dotnet add package Microsoft.Identity.Web --version 0.2.3-preview
+dotnet add package Microsoft.Identity.Web.UI --version 0.2.3-preview
 ```
 
 Open the scaffolded project folder, which is named **ProductCatalogWeb** in **Visual Studio Code**
@@ -113,13 +113,14 @@ namespace Constants
   {
     public const string CategoryUrl = "https://localhost:5050/api/Categories";
     public const string ProductUrl = "https://localhost:5050/api/Products";
+    public const string ProductReadScope = "api://[web-api-client-id]/Product.Read";
+    public const string ProductWriteScope = "api://[web-api-client-id]/Product.Write";
+    public const string CategoryReadScope = "api://[web-api-client-id]/Category.Read";
+    public const string CategoryWriteScope = "api://[web-api-client-id]/Category.Write";
 
     public static List<string> SCOPES = new List<string>()
     {
-      "api://[web-api-client-id]/Product.Read",
-      "api://[web-api-client-id]/Product.Write",
-      "api://[web-api-client-id]/Category.Read",
-      "api://[web-api-client-id]/Category.Write",
+      ProductReadScope, ProductWriteScope, CategoryReadScope, CategoryWriteScope
     };
   }
 
@@ -137,71 +138,43 @@ Locate and open the **./Startup.cs** file in the ASP.NET Core project.
 
 Add the following `using` statements after the existing `using` statements:
 
-```cs
-using Microsoft.AspNetCore.Authentication.OpenIdConnect;
-using Microsoft.IdentityModel.Protocols.OpenIdConnect;
-using Microsoft.Identity.Client;
-using System.Security.Claims;
+```csharp
+using Microsoft.AspNetCore.Http;
+using Microsoft.Identity.Web;
+using Microsoft.Identity.Web.TokenCacheProviders.InMemory;
+using Microsoft.Identity.Web.UI;
 ```
 
-Within the method `ConfigureServices()`, locate the following line:
+Locate the method `ConfigureServices()`.
 
-```cs
-services.AddAuthentication(AzureADDefaults.AuthenticationScheme)
-    .AddAzureAD(options => Configuration.Bind("AzureAd", options));
-```
+Replace the body of the method with the following code. This code will configure the web app's middleware to support Azure AD for authentication and to obtain an ID token:
 
-Add the following code after the `services.AddAzureAD()` line. This code will configure the web app's middleware to support Azure AD for authentication and to obtain an access token for the web API:
-
-```cs
-var appSettings = new AzureADOptions();
-Configuration.Bind("AzureAd", appSettings);
-
-var application = ConfidentialClientApplicationBuilder.Create(appSettings.ClientId)
-                      .WithAuthority(appSettings.Instance + appSettings.TenantId + "/v2.0/")
-                      .WithRedirectUri("https://localhost:5001" + appSettings.CallbackPath)
-                      .WithClientSecret(appSettings.ClientSecret)
-                      .Build();
-services.AddSingleton(application);
-
-services.Configure<OpenIdConnectOptions>(AzureADDefaults.OpenIdScheme, options =>
+```csharp
+services.Configure<CookiePolicyOptions>(options =>
 {
-  // configure authority to use v2 endpoint
-  options.Authority = options.Authority + "/v2.0/";
-
-  // asking Azure AD for id_token (to establish identity) and
-  // authorization code (to get access/refresh tokens for calling services)
-  options.ResponseType = OpenIdConnectResponseType.CodeIdToken;
-
-  // add the permission scopes you want the application to use
-  options.Scope.Add("offline_access");
-  Constants.ProductCatalogAPI.SCOPES.ForEach(s => options.Scope.Add(s));
-
-  options.TokenValidationParameters.NameClaimType = "preferred_username";
-
-  // wire up event to do second part of code authorization flow (exchanging authorization code for token)
-  var handler = options.Events.OnAuthorizationCodeReceived;
-  options.Events.OnAuthorizationCodeReceived = async context =>
-  {
-    // handle the auth code returned post signin
-    context.HandleCodeRedemption();
-    if (!context.HttpContext.User.Claims.Any())
-    {
-      (context.HttpContext.User.Identity as ClaimsIdentity).AddClaims(context.Principal.Claims);
-    }
-
-    // get token
-    var token = await application.AcquireTokenByAuthorizationCode(options.Scope, context.ProtocolMessage.Code).ExecuteAsync();
-
-    context.HandleCodeRedemption(null, token.IdToken);
-    await handler(context).ConfigureAwait(false);
-  };
+  // This lambda determines whether user consent for non-essential cookies is needed for a given request.
+  options.CheckConsentNeeded = context => true;
+  options.MinimumSameSitePolicy = SameSiteMode.Unspecified;
+  // Handling SameSite cookie according to https://docs.microsoft.com/en-us/aspnet/core/security/samesite?view=aspnetcore-3.1
+  options.HandleSameSiteCookieCompatibility();
 });
+
+services.AddOptions();
+
+services.AddMicrosoftWebAppAuthentication(Configuration)
+  .AddMicrosoftWebAppCallsWebApi(Configuration, Constants.ProductCatalogAPI.SCOPES)
+  .AddInMemoryTokenCaches();
+
+services.AddControllersWithViews(options =>
+{
+  var policy = new AuthorizationPolicyBuilder()
+                .RequireAuthenticatedUser()
+                .Build();
+  options.Filters.Add(new AuthorizeFilter(policy));
+}).AddMicrosoftIdentityUI();
+
+services.AddRazorPages();
 ```
-
-This code will create a new instance of the Confidential Client application with the app registration settings for the web app. This MSAL application will use an in-memory cache for user tokens. The Confidential Client application is registered as a singleton in the ASP.NET Core dependency injection (DI) configuration, making it available to the controllers.
-
-The application middleware is configured to use the MSAL application to redeem authorization codes. This will ensure that the token cache has an entry for each user of the application.
 
 ### Add a Categories model, controller, and view to the web app
 
@@ -209,7 +182,7 @@ The next step is to add a model, controller, and view to the web app that will d
 
 Add a new file **Category.cs** to the **Models** folder. add the following code to it:
 
-```cs
+```csharp
 namespace ProductCatalogWeb.Models
 {
   public class Category
@@ -222,7 +195,10 @@ namespace ProductCatalogWeb.Models
 
 Add a new file **CategoriesController.cs** to the **Controllers** folder. Add the following code to it:
 
-```cs
+```csharp
+// Copyright (c) Microsoft Corporation. All rights reserved.
+// Licensed under the MIT license.
+
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Headers;
@@ -234,38 +210,31 @@ using ProductCatalogWeb.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Identity.Client;
+using Microsoft.Identity.Web;
 
 namespace ProductCatalogWeb.Controllers
 {
   [Authorize]
   public class CategoriesController : Controller
   {
-    private IConfidentialClientApplication application;
+    private ITokenAcquisition tokenAcquisition;
     string[] scopes = Constants.ProductCatalogAPI.SCOPES.ToArray();
     string url = "https://localhost:5050/api/Categories";
 
-    public CategoriesController(IConfidentialClientApplication application)
+    public CategoriesController(ITokenAcquisition tokenAcquisition)
     {
-      this.application = application;
+      this.tokenAcquisition = tokenAcquisition;
     }
 
-    private async Task<string> GetTokenForUser()
-    {
-      // Get the account.
-      string userObjectId = User.FindFirstValue(Constants.ClaimIds.UserObjectId);
-      string tenantId = User.FindFirstValue(Constants.ClaimIds.TenantId);
-      var accountIdentifier = $"{userObjectId}.{tenantId}";
-      IAccount account = await application.GetAccountAsync(accountIdentifier);
-
-      var authResult = await application.AcquireTokenSilent(scopes, account).ExecuteAsync();
-      return authResult.AccessToken;
-    }
-
+    [AuthorizeForScopes(Scopes = new[] { Constants.ProductCatalogAPI.CategoryReadScope })]
     public async Task<ActionResult> Index()
     {
-      HttpClient client = new HttpClient();
-      client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", await GetTokenForUser());
-      string json = await client.GetStringAsync(url);
+      var client = new HttpClient();
+
+      var accessToken = await tokenAcquisition.GetAccessTokenForUserAsync(Constants.ProductCatalogAPI.SCOPES);
+      client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+
+      var json = await client.GetStringAsync(url);
 
       var serializerOptions = new JsonSerializerOptions
       {
@@ -275,6 +244,7 @@ namespace ProductCatalogWeb.Controllers
       return View(categories);
     }
 
+    [AuthorizeForScopes(Scopes = new[] { Constants.ProductCatalogAPI.CategoryWriteScope })]
     public ActionResult Create()
     {
       return View();
@@ -282,14 +252,17 @@ namespace ProductCatalogWeb.Controllers
 
     [HttpPost]
     [ValidateAntiForgeryToken]
+    [AuthorizeForScopes(Scopes = new[] { Constants.ProductCatalogAPI.CategoryWriteScope })]
     public async Task<ActionResult> Create([Bind("Name")] Category category)
     {
       if (ModelState.IsValid)
       {
         var newCat = new Category() { Name = category.Name };
 
-        HttpClient client = new HttpClient();
-        client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", await GetTokenForUser());
+        var client = new HttpClient();
+
+        var accessToken = await tokenAcquisition.GetAccessTokenForUserAsync(Constants.ProductCatalogAPI.SCOPES);
+        client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
 
         var content = new StringContent(JsonSerializer.Serialize(newCat, typeof(Category)), Encoding.UTF8, "application/json");
         await client.PostAsync(url, content);
@@ -302,7 +275,7 @@ namespace ProductCatalogWeb.Controllers
 }
 ```
 
-This controller's `GetTokenForUser()` method demonstrates how to use the MSAL application to get a token for the current user.
+The action methods in the controller create new instances of the Microsoft Graph .NET client. Each client is configured to use the currently signed-in user to request an access token. This is done using the token acquisition service added as a singleton to the ASP.NET Core dependency injection (DI) configuration earlier in this exercise.
 
 Now create the view to display the categories.
 
@@ -389,7 +362,7 @@ The final step is to add a model, controller, and view to the web app that will 
 
 Add a new file **Product.cs** to the **Models** folder. add the following code to it:
 
-```cs
+```csharp
 namespace ProductCatalogWeb.Models
 {
   public class Product
@@ -403,7 +376,7 @@ namespace ProductCatalogWeb.Models
 
 Add a new file **ProductViewModel.cs** to the **Models** folder. add the following code to it:
 
-```cs
+```csharp
 using System.Collections.Generic;
 
 namespace ProductCatalogWeb.Models
@@ -419,7 +392,10 @@ namespace ProductCatalogWeb.Models
 
 Add a new file **ProductsController.cs** to the **Controllers** folder. Add the following code to it:
 
-```cs
+```csharp
+// Copyright (c) Microsoft Corporation. All rights reserved.
+// Licensed under the MIT license.
+
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Headers;
@@ -431,35 +407,29 @@ using ProductCatalogWeb.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Identity.Client;
+using Microsoft.Identity.Web;
 
 namespace ProductCatalogWeb.Controllers
 {
   [Authorize]
   public class ProductsController : Controller
   {
-    private IConfidentialClientApplication application;
+    private ITokenAcquisition tokenAcquisition;
 
-    public ProductsController(IConfidentialClientApplication application)
+    public ProductsController(ITokenAcquisition tokenAcquisition)
     {
-      this.application = application;
+      this.tokenAcquisition = tokenAcquisition;
     }
 
-    private async Task<string> GetTokenForUser()
-    {
-      // Get the account.
-      string userObjectId = User.FindFirstValue(Constants.ClaimIds.UserObjectId);
-      string tenantId = User.FindFirstValue(Constants.ClaimIds.TenantId);
-      var accountIdentifier = $"{userObjectId}.{tenantId}";
-      IAccount account = await application.GetAccountAsync(accountIdentifier);
 
-      var authResult = await application.AcquireTokenSilent(Constants.ProductCatalogAPI.SCOPES.ToArray(), account).ExecuteAsync();
-      return authResult.AccessToken;
-    }
-
+    [AuthorizeForScopes(Scopes = new[] { Constants.ProductCatalogAPI.ProductReadScope })]
     public async Task<ActionResult> Index()
     {
-      HttpClient client = new HttpClient();
-      client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", await GetTokenForUser());
+      var client = new HttpClient();
+
+      var accessToken = await tokenAcquisition.GetAccessTokenForUserAsync(Constants.ProductCatalogAPI.SCOPES);
+      client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+
       string json = await client.GetStringAsync(Constants.ProductCatalogAPI.ProductUrl);
 
       var serializerOptions = new JsonSerializerOptions
@@ -470,11 +440,15 @@ namespace ProductCatalogWeb.Controllers
       return View(products);
     }
 
+    [AuthorizeForScopes(Scopes = new[] { Constants.ProductCatalogAPI.ProductWriteScope })]
     public async Task<ActionResult> Create()
     {
       // get list of categories for dropdown
-      HttpClient client = new HttpClient();
-      client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", await GetTokenForUser());
+      var client = new HttpClient();
+
+      var accessToken = await tokenAcquisition.GetAccessTokenForUserAsync(Constants.ProductCatalogAPI.SCOPES);
+      client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+
       string json = await client.GetStringAsync(Constants.ProductCatalogAPI.CategoryUrl);
 
       var serializerOptions = new JsonSerializerOptions
@@ -493,6 +467,7 @@ namespace ProductCatalogWeb.Controllers
 
     [HttpPost]
     [ValidateAntiForgeryToken]
+    [AuthorizeForScopes(Scopes = new[] { Constants.ProductCatalogAPI.ProductWriteScope })]
     public async Task<ActionResult> Create([Bind("ProductName", "CategoryId")] ProductViewModel model)
     {
       if (ModelState.IsValid)
@@ -503,8 +478,10 @@ namespace ProductCatalogWeb.Controllers
           Category = new Category { Id = model.CategoryId }
         };
 
-        HttpClient client = new HttpClient();
-        client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", await GetTokenForUser());
+        var client = new HttpClient();
+
+        var accessToken = await tokenAcquisition.GetAccessTokenForUserAsync(Constants.ProductCatalogAPI.SCOPES);
+        client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
 
         var content = new StringContent(JsonSerializer.Serialize(newProd, typeof(Product)), Encoding.UTF8, "application/json");
         await client.PostAsync(Constants.ProductCatalogAPI.ProductUrl, content);
@@ -517,7 +494,7 @@ namespace ProductCatalogWeb.Controllers
 }
 ```
 
-This controller's `GetTokenForUser()` method demonstrates how to use the MSAL application to get a token for the current user.
+The action methods in the controller create new instances of the Microsoft Graph .NET client. Each client is configured to use the currently signed-in user to request an access token. This is done using the token acquisition service added as a singleton to the ASP.NET Core dependency injection (DI) configuration earlier in this exercise.
 
 Now create the view to display the categories.
 
@@ -530,7 +507,7 @@ Add a new folder **Products** to the **Views** folder. Add a new file, **Index.c
   ViewData["Title"] = "Products";
 }
 
-<h1>Categories</h1>
+<h1>Products</h1>
 
 <p>
   <a asp-action="Create">Create New</a>
@@ -619,7 +596,7 @@ On the Visual Studio Code menu bar, select **Run** > **Run Without Debugging** t
 
 Execute the following in a command prompt to compile and run the application:
 
-```shell
+```console
 dotnet dev-certs https --trust
 dotnet build
 dotnet run
