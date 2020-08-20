@@ -6,8 +6,9 @@ metadata:
   description: "Explore exam areas"
   ms.date: 08/22/2020
   author: wwlpublish
+  ms.author: dahans
   ms.topic: interactive-tutorial
-  ms.prod: learning-azure
+  ms.prod: learning-m365
 azureSandbox: false
 durationInMinutes: 3
 content: |
