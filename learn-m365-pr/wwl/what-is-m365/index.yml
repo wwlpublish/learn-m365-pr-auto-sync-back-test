@@ -3,7 +3,7 @@ uid: learn-m365.what-is-m365
 metadata:
   title: What is Microsoft 365?
   description: "In this module, you will learn about Microsoft 365 - a productivity cloud that delivers innovative and intelligent experiences, rich organizational insights, and a trusted platform to help people and organizations get more done."
-  ms.date: 07/02/2020
+  ms.date: 08/23/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -12,9 +12,11 @@ title: What is Microsoft 365?
 summary: In this module, you will learn about Microsoft 365 - a productivity cloud that delivers innovative and intelligent experiences, rich organizational insights, and a trusted platform to help people and organizations get more done.
 abstract: |
   In this module, you will:
-     - List the components of Microsoft 365
-     - Understand the value provided by the Microsoft 365 solutions
-     - Name the subscription options
+  - List the capabilities of Microsoft 365
+  - Understand the value provided by Microsoft 365 solutions
+  - Name the Microsoft 365 subscription options
+  - Create a Microsoft 365 trial organization
+  - Explore the Microsoft 365 Fundamental exam study areas and learning paths
 prerequisites: |
    - Basic understanding of cloud computing. If you are unfamiliar with cloud computing concepts, we recommend you take [Cloud Concepts - Principles of cloud computing](https://docs.microsoft.com/learn/modules/principles-cloud-computing/index)
 iconUrl: /learn/achievements/what-is-m365.svg
@@ -29,6 +31,8 @@ units:
 - learn-m365.what-is-m365.3-connecting-clouds
 - learn-m365.what-is-m365.4-m365-subscriptions
 - learn-m365.what-is-m365.explore-m365-tenant
+- learn-m365.what-is-m365.explore-exam-areas
 - learn-m365.what-is-m365.5-summary-and-knowledge-check
+- learn-m365.what-is-m365.summary-resource
 badge:
   uid: learn-m365.what-is-m365.badge
