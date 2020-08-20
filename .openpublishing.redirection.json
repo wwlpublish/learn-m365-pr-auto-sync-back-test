@@ -984,6 +984,11 @@
       "source_path": "learn-m365-pr/paths/m365-fundamentals/index.md",
       "redirect_url": "https://docs.microsoft.com/learn/certifications/microsoft-365-fundamentals",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/select-a-cloud-deployment-model/5-summary-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/select-a-cloud-deployment-model/5-knowledge-check",
+      "redirect_document_id": true
     }
   ]
 }
