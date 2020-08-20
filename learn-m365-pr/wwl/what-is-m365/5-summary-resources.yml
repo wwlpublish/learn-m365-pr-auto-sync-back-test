@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.what-is-m365.summary-resource
+title: Summary and resources
+metadata:
+  title: Summary and resources
+  description: "Summary and resources"
+  ms.date: 08/22/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+durationInMinutes: 1
+content: |
+  [!include[](includes/5-summary-resources.md)]

@@ -4,6 +4,7 @@ Every organization has unique requirements, so Microsoft offers a variety of sub
 > The plans, exact set of features, pricing, and licensing requirements can vary between countries and regions. If you require a Microsoft 365 subscription for a non-US organization, contact your regional sales representative to learn what subscriptions, plans, features, and pricing are available.
 
 ## Microsoft 365 Enterprise 
+
 Microsoft 365 Enterprise provides enterprise-class services to organizations that want a productivity solution that includes robust threat protection, security, compliance, and analytics features.
 
 There are three available plans for Microsoft 365 Enterprise, letting you further refine what's included in your implementation - E3, E5, and F3 (formerly F1). E5 includes all of the same features as E3 plus the latest advanced threat protection, security, and collaboration tools.  F3 is designed for Firstline Workers through purpose-built tools and resources that allow them to do their best work.
@@ -18,8 +19,8 @@ There are three available plans for Microsoft 365 for business:  Basic, Standard
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA]
 
-
 ## Microsoft 365 Education 
+
 Microsoft 365 Education is available for educational organizations and empowers educators to unlock creativity, promote teamwork, and provide a simple and safe experience in a single, affordable solution built for education. Academic licenses can be tailored to fit any institution’s needs, including productivity and security solutions for faculty, staff, and students.
 
 [Compare the three available plans](https://www.microsoft.com/education/buy-license/microsoft365) to see how your organization can benefit from Microsoft 365 for Education.
