@@ -1,5 +1,13 @@
 In this module you learned that productivity cloud that delivers innovative and intelligent experiences, rich organizational insights and a trusted platform to help people and organizations get more done. 
 
+Now that you've reviewed this module, you should be able to: 
+
+- List the capabilities of Microsoft 365
+- Understand the value provided by Microsoft 365 solutions
+- Name the Microsoft 365 subscription options
+- Create a Microsoft 365 trial organization
+- Explore the Microsoft 365 Fundamental exam study areas and learning paths
+
 ## Learn more
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
