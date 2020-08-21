@@ -72,7 +72,7 @@ quiz:
       - content: "Delete the message"
         isCorrect: false
         explanation: "No, messages with an SCL of 5 or higher are delivered to the recipient's Junk Email folder."
-      - content: "With Safe Links, what happens when a user selects a blocked URL?"
+    - content: "With Safe Links, what happens when a user selects a blocked URL?"
       choices:
       - content: "They are taken to a warning page"
         isCorrect: true
