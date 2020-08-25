@@ -58,7 +58,7 @@ The next step is to create the daemon app that will obtain an access token and t
 
 Create a new .NET Core console app using the following command, followed by installing a few NuGet packages to support and Microsoft identity.
 
-```shell
+```console
 dotnet new console
 dotnet add package Microsoft.Identity.Client
 dotnet add package Microsoft.Extensions.Configuration

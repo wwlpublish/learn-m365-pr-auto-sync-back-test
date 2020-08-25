@@ -10,19 +10,19 @@ Open your command prompt, navigate to a directory where you want to save your wo
 
 Execute the following command to create a new Node.js application:
 
-```shell
+```console
 npm init -y
 ```
 
 Install the Node.js webserver **express** and HTTP request middleware **morgan** into the application:
 
-```shell
+```console
 npm install express morgan
 ```
 
 Create a new file **server.js** in the root of the folder and add the following JavaScript to it. This code will start the web server:
 
-```js
+```javascript
 var express = require('express');
 var app = express();
 var morgan = require('morgan');
@@ -150,7 +150,7 @@ In the current folder, add a new file **index.html** told the folder. Add the fo
 
 Add the following function to the **index.html** file immediately before the `// TODO: add FUNCTIONS before this line` comment that will configure the welcome message for the page:
 
-```js
+```javascript
 // Update the welcome message &
 // init the signin button
 function updateWelcomeMessageAndSigninControl() {
@@ -167,7 +167,7 @@ function updateWelcomeMessageAndSigninControl() {
 
 Next, add the following functions to **index.html** immediately before the `// TODO: add FUNCTIONS before this line` comment. These functions request an access token from Microsoft identity and submit a request to Microsoft Graph for the current user's information. The function `acquireTokenPopupAndGetUserEmails()` uses the popup approach that works for all modern browsers while the `acquireTokenRedirectAndGetUserEmails()` function uses the redirect approach that is suitable for Internet Explorer:
 
-```js
+```javascript
 function acquireTokenPopupAndGetUserEmails() {
   // try to get token silently without logging in (ie: from token cache)
   msalApplication.acquireTokenSilent(graphConfig.requestObj)
@@ -218,7 +218,7 @@ The redirect approach to authenticating requires an extra step. The MSAL applica
 
 Add the following function immediately before the `// TODO: add FUNCTIONS before this line` comment:
 
-```js
+```javascript
 function authRedirectCallBack(error, response) {
   if (error) {
     console.log(error);
@@ -234,7 +234,7 @@ function authRedirectCallBack(error, response) {
 
 Configure MSAL to use this function by adding the following line immediately before the `// TODO: add CODE before this line` comment:
 
-```js
+```javascript
 msalApplication.handleRedirectCallback(authRedirectCallBack);
 ```
 
@@ -242,7 +242,7 @@ Once the user is authenticated, the code can submit a request to Microsoft Graph
 
 Add the following function immediately before the `// TODO: add FUNCTIONS before this line` comment:
 
-```js
+```javascript
 function getMessagesFromMSGraph(endpoint, accessToken, callback) {
   var xmlHttp = new XMLHttpRequest();
   xmlHttp.onreadystatechange = function () {
@@ -268,7 +268,7 @@ Finally, add the following two functions to implement a sign in and sign out cap
 
 Add the following function immediately before the `// TODO: add FUNCTIONS before this line` comment:
 
-```js
+```javascript
 function signIn() {
   msalApplication.loginPopup(graphConfig.requestObj)
     .then(function (loginResponse) {
@@ -336,7 +336,7 @@ Locate the `var msalConfig = {}` code in the **index.html** file. The `auth` obj
 
 To test the web page, first start the local web server. In the command prompt, execute the following command from the root of the project:
 
-```shell
+```console
 node server.js
 ```
 

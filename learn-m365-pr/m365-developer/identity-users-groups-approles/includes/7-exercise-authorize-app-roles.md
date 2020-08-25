@@ -21,7 +21,19 @@ On the **App registrations** page, locate the application registration that repr
 
 In the application registration for your application, select **Manifest**.
 
-In the manifest editor, find the node named `appRoles`. The default value is an empty array. Replace the `appRoles` node with the following code:
+In the manifest editor, find the node named `groupMembershipClaims`. Set the `groupMembershipClaims` node back to its default value, `null`:
+
+```json
+"groupMembershipClaims": null,
+```
+
+Next, within the manifest editor, find the node `optionalClaims`. Set the `optionalClaims` node back to its default value, `null`:
+
+```json
+"optionalClaims": null,
+```
+
+Finally, within the manifest editor, find the node named `appRoles`. The default value is an empty array. Replace the `appRoles` node with the following code:
 
 ```json
 "appRoles": [
@@ -48,11 +60,11 @@ In the manifest editor, find the node named `appRoles`. The default value is an 
 ],
 ```
 
-When updating the manifest, consider the following requirements:
+When updating the value of the `appRoles` node, consider the following requirements:
 
 - Leave allowedMemberTypes set to "User" only.
 - Make sure displayName and value don't contain spaces.
-- Replace the string `<NEW-GUID>` with a new GUID. Make sure id is a unique GUID. The following PowerShell will generate a new GUID:
+- Replace the string `<NEW-GUID>` with a new GUID. Make sure ID is a unique GUID. The following PowerShell will generate a new GUID:
 
     ```powershell
     New-Guid
@@ -79,39 +91,6 @@ On the **Add Assignment** pane, select **Role**. Select the **ProductAdministrat
 ![Screenshot of the Enterprise Applications](../media/07-app-roles-add-roles-users.png)
 
 Select **Assign** at the bottom of the pane. The assigned users or groups have the permissions defined by the selected role for this enterprise app.
-
-### Configure application middleware
-
-Using app roles as the authorization source is similar to using the group claims in a previous exercise. There are two changes from using groups:
-
-1. Turn off the ASP.NET claim type mapping (since we aren't supporting legacy applications).
-1. Use the roles claims in the token as the `RoleClaimType`.
-
-In Visual Studio Code, open the web application from the previous exercise. Open the **Startup.cs** file.
-
-At the top of the file, add the following `using` statement to the end of the existing `using` statements:
-
-```cs
-using System.IdentityModel.Tokens.Jwt;
-```
-
-Within the method `ConfigureServices()`, locate the line that configures the `OpenIdConnectOptions`.
-
-Before that line, add the following:
-
-```csharp
-JwtSecurityTokenHandler.DefaultMapInboundClaims = false;
-```
-
-Then update the `OpenIdConnectOptions` to use the roles claim:
-
-```csharp
-services.Configure<OpenIdConnectOptions>(AzureADDefaults.OpenIdScheme, options =>
-{
-  options.Authority = options.Authority + "/v2.0/";
-  options.TokenValidationParameters.RoleClaimType = "roles";
-});
-```
 
 ### Update role check-in controller/view
 
@@ -176,9 +155,9 @@ public ActionResult Create([Bind("ProductName", "CategoryId")] ProductViewModel 
   {
     data.Products.Add(new Product()
     {
-      Id = data.Products.Max(p => p.Id) + 1,
+      ID = data.Products.Max(p => p.ID) + 1,
       Name = model.ProductName,
-      Category = data.Categories.FirstOrDefault(c => c.Id == model.CategoryId)
+      Category = data.Categories.FirstOrDefault(c => c.ID == model.CategoryId)
     });
     return RedirectToAction("Index");
   }
@@ -189,9 +168,12 @@ public ActionResult Create([Bind("ProductName", "CategoryId")] ProductViewModel 
 Open the **Index.cshtml** file in the **Views\Products** folder. Above the `<table>` element, add the following code:
 
 ```cshtml
+@if (User.IsInRole("ProductAdministrators"))
+{
 <p>
   <a asp-action="Create">Create New</a>
 </p>
+}
 ```
 
 Create a new file in the **Views\Products** folder named **Create.cshtml**. Add the following to the file:
@@ -217,7 +199,7 @@ Create a new file in the **Views\Products** folder named **Create.cshtml**. Add 
       <div class="form-group">
         <label asp-for="CategoryId" class="control-label"></label>
         <select asp-for="CategoryId"
-                asp-items=@(new SelectList(Model.Categories,"Id","Name")) class="form-control"></select>
+                asp-items=@(new SelectList(Model.Categories,"ID","Name")) class="form-control"></select>
         <span asp-validation-for="CategoryId" class="text-danger"></span>
       </div>
       <div class="form-group">
@@ -240,7 +222,7 @@ Create a new file in the **Views\Products** folder named **Create.cshtml**. Add 
 
 Execute the following command in a command prompt to compile and run the application:
 
-```shell
+```console
 dotnet build
 dotnet run
 ```
