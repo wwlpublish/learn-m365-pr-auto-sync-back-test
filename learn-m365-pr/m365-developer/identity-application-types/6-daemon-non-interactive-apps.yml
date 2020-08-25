@@ -3,7 +3,7 @@ uid: learn-m365.identity-application-types.6-daemon-non-interactive-apps
 metadata:
   title: Daemon and non-interactive apps
   description: In this unit, you’ll learn how to create apps that obtain tokens without user interaction to either act on behalf of a user or do tasks as the app’s identity.
-  ms.date: 03/10/2020
+  ms.date: 08/17/2020
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial

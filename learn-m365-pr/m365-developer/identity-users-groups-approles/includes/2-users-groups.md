@@ -60,7 +60,7 @@ Developers first create a *role definition* within the app's registration in the
 
 This pattern simplifies management as the app developer can define the roles, while administrators can grant users to these roles without requiring updates to the app's code.
 
-## Enabling users to sign-in to custom web apps
+## Enabling users to sign in to custom web apps
 
 In order for a web app to use Microsoft identity to enable users to authenticate and obtain access tokens for use with services such as Microsoft Graph, you must register a new app with Azure AD. This can be done using the Azure AD admin center https://aad.portal.azure.com.
 
@@ -68,7 +68,7 @@ In order for a web app to use Microsoft identity to enable users to authenticate
 
 When registering the app in Azure AD, ensure the redirect URI of the app points to the callback URL of the web app. This URL must match the redirect URL provided by the app when the authentication process is started. The authorization code will be sent to this endpoint, which means you need to configure any authentication libraries and middleware to listen on this endpoint to receive the authorization code.
 
-A sign-out URL should also be specified so the authentication libraries and middleware deletes any cached tokens or other data that is only needed for signed in users.
+A sign-out URL should also be specified so the delete any cached tokens or other data that are only needed for signed in users.
 
 ![Screenshot of the application configuration](../media/03-aad-portal-newapp-details.png)
 
@@ -106,16 +106,29 @@ Open this file and set the three values you collected from registering the Azure
 
 #### Configure web application middleware
 
-Next, you need to modify the web app startup process to configure the support for signing-in with Azure AD and obtaining an ID token.
+Next, you need to modify the web app startup process to configure the support for signing-in with Azure AD and obtaining an ID token. This is handled by the **Microsoft.Identity.Web** NuGet package.
 
-Within the method `ConfigureServices()` in the **Startup.cs** file, add the following code that configures the web app's middleware to support the v2 tokens from Microsoft identity:
+Within the method `ConfigureServices()` in the **Startup.cs** file, use the following code to configure the web app's middleware to support the v2 tokens from Microsoft identity:
 
 ```csharp
-services.Configure<OpenIdConnectOptions>(AzureADDefaults.OpenIdScheme, options =>
+services.Configure<CookiePolicyOptions>(options =>
 {
-  options.Authority = options.Authority + "/v2.0/";
-  options.TokenValidationParameters.NameClaimType = "preferred_username";
+  // This lambda determines whether user consent for non-essential cookies is needed for a given request.
+  options.CheckConsentNeeded = context => true;
+  options.MinimumSameSitePolicy = SameSiteMode.Unspecified;
+  // Handling SameSite cookie according to https://docs.microsoft.com/en-us/aspnet/core/security/samesite?view=aspnetcore-3.1
+  options.HandleSameSiteCookieCompatibility();
 });
+services.AddOptions();
+services.AddMicrosoftWebAppAuthentication(Configuration);
+services.AddControllersWithViews(options =>
+{
+  var policy = new AuthorizationPolicyBuilder()
+                .RequireAuthenticatedUser()
+                .Build();
+  options.Filters.Add(new AuthorizeFilter(policy));
+}).AddMicrosoftIdentityUI();
+services.AddRazorPages();
 ```
 
 #### Display the user's claims

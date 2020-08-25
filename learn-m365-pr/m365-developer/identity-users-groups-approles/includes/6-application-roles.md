@@ -1,6 +1,6 @@
 Application roles are used to assign permissions to users and apps. These roles are defined in the registered Azure AD app’s manifest.
 
-In this unit, you’ll learn how to add app roles to an Azure AD registered app, grant users and groups to the role and use the app role within a custom app secured with Microsoft identity.
+In this unit, you’ll learn how to add app roles to an Azure AD registered app, grant users, and groups to the role and use the app role within a custom app secured with Microsoft identity.
 
 ## Utilize app roles in your application
 
@@ -69,24 +69,7 @@ Using app roles as the authorization source is similar to using the group claims
 
 ### Code configuration
 
-With the app registered and configured in the Azure AD admin center, the next step is to update the app's configuration.
-
-In an ASP.NET web app, within the `ConfigureServices()` method in the  **Startup.cs** file, update the configuration of the `OpenIdConnectOptions` when configuring the service to the following. This code will first disable the default mapping of claims and configure OpenIDConnect to map the roles to the app roles.
-
-```csharp
-JwtSecurityTokenHandler.DefaultMapInboundClaims = false;
-services.Configure<OpenIdConnectOptions>(AzureADDefaults.OpenIdScheme, options =>
-{
-  options.Authority = options.Authority + "/v2.0/";
-  options.TokenValidationParameters.RoleClaimType = "roles";
-});
-```
-
-Notice the difference in the line for the `RoleClaimType` is set to `roles`. This is added to specify the claim that represents app roles when creating the ClaimsPrincipal in ASP.NET.
-
 In ASP.NET, you can secure a controller so only authenticated users can access it by decorating it the method with the `[Authorize]` attribute. This attribute also supports securing the endpoint based on an app role.
-
-After configuring the OpenID Connect middleware to use Microsoft identity as the role claim, you can specify the ID of a group to secure the controller:
 
 ```csharp
 [Authorize(Roles=("ProductViewers,ProductAdministrators"))]
@@ -128,4 +111,4 @@ public ActionResult Create([Bind("ProductName", "CategoryId")] ProductViewModel 
 
 ## Summary
 
-In this unit, you learned how to add app roles to an Azure AD registered app, grant users and groups to the role and use the app role within a custom app secured with Microsoft identity.
+In this unit, you learned how to add app roles to an Azure AD registered app, grant users, and groups to the role and use the app role within a custom app secured with Microsoft identity.

@@ -97,13 +97,13 @@ You'll use a .NET Core console application to run as a service. This app can the
 
 Open your command prompt, navigate to a directory where you have rights to create your project, and run the following command to create a new .NET Core console application:
 
-```shell
+```console
 dotnet new console -o graphdaemon
 ```
 
 After creating the application, run the following commands to ensure your new project runs correctly.
 
-```shell
+```console
 cd graphdaemon
 dotnet add package Microsoft.Identity.Client
 dotnet add package Microsoft.Graph
@@ -114,7 +114,7 @@ dotnet add package Microsoft.Extensions.Configuration.Json
 
 Open the application in Visual Studio Code using the following command:
 
-```shell
+```console
 code .
 ```
 
@@ -145,7 +145,7 @@ Create a new folder **Helpers** in the project.
 
 Create a new file **AuthHandler.cs** in the **Helpers** folder and add the following code:
 
-```cs
+```csharp
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
@@ -174,7 +174,7 @@ namespace Helpers
 
 Create a new file **MsalAuthenticationProvider.cs** in the **Helpers** folder and add the following code:
 
-```cs
+```csharp
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
@@ -228,7 +228,7 @@ namespace Helpers
 
 Open the **Program.cs** file and add the following `using` statements to the top fo the file:
 
-```cs
+```csharp
 using System.Collections.Generic;
 using Microsoft.Identity.Client;
 using Microsoft.Graph;
@@ -238,7 +238,7 @@ using Helpers;
 
 Add the following method `LoadAppSettings` to the `Program` class. The method retrieves the configuration details from the **appsettings.json** file previously created:
 
-```cs
+```csharp
 private static IConfigurationRoot LoadAppSettings()
 {
   try
@@ -267,7 +267,7 @@ private static IConfigurationRoot LoadAppSettings()
 
 Add the following method `CreateAuthorizationProvider` to the `Program` class. The method will create an instance of the clients used to call Microsoft Graph.
 
-```cs
+```csharp
 private static IAuthenticationProvider CreateAuthorizationProvider(IConfigurationRoot config)
 {
   var tenantId = config["tenantId"];
@@ -288,7 +288,7 @@ private static IAuthenticationProvider CreateAuthorizationProvider(IConfiguratio
 
 Add the following method `GetAuthenticatedGraphClient` to the `Program` class. The method creates an instance of the `GraphServiceClient` object.
 
-```cs
+```csharp
 private static GraphServiceClient GetAuthenticatedGraphClient(IConfigurationRoot config)
 {
   var authenticationProvider = CreateAuthorizationProvider(config);
@@ -298,7 +298,7 @@ private static GraphServiceClient GetAuthenticatedGraphClient(IConfigurationRoot
 
 Locate the `Main` method in the `Program` class. Add the following code to the end of the `Main` method to load the configuration settings from the **appsettings.json** file:
 
-```cs
+```csharp
 var config = LoadAppSettings();
 if (config == null)
 {
@@ -309,13 +309,13 @@ if (config == null)
 
 Add the following code to the end of the `Main()` method to obtain an instance of the Microsoft Graph .NET SDK client that you'll use to get a user's email messages:
 
-```cs
+```csharp
 var client = GetAuthenticatedGraphClient(config);
 ```
 
 Next, add the following code to the end of the `Main()` method. This will create a request using Microsoft Graph for a specific user's email messages and display them in the console. The ID of the user is pulled from the **appsettings.json** file:
 
-```cs
+```csharp
 var requestUserEmail = client.Users[config["targetUserId"]].Messages.Request();
 var results = requestUserEmail.GetAsync().Result;
 foreach (var message in results)
@@ -334,7 +334,7 @@ Console.WriteLine(requestUserEmail.GetHttpRequestMessage().RequestUri);
 
 Run the following command in a command prompt to compile the console application:
 
-```shell
+```console
 dotnet build
 ```
 
@@ -352,7 +352,7 @@ In the **appsettings.json** file in the console application, replace  `TARGET_US
 
 Run the following command to run the console application:
 
-```shell
+```console
 dotnet run
 ```
 
