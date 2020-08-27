@@ -4,7 +4,7 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Summary and knowledge check
-  ms.date: 9/3/2019
+  ms.date: 08/26/2020
   author: dahans-msft2
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -27,9 +27,6 @@ quiz:
       - content: "Co-management"
         isCorrect: true
         explanation: "Correct!"
-      - content: "MDM for Microsoft 365"
-        isCorrect: false
-        explanation: "Incorrect."
     - content: "Which of the following attributes are the same between Mobile Device Management for Microsoft 365 and Microsoft Intune?"
       choices:
       - content: "Management interface"
