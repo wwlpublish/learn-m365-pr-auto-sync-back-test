@@ -12,7 +12,7 @@ In this module, you will learn to:
 
 Moving to a modern management approach can sometimes be a challenging task considering the complexity of planning and switching from existing IT systems, organizational structures, and processes. Most organizations are still using some combination of on-premises Windows Server Active Directory (AD) and System Center Configuration Manager (ConfigMgr) to manage their Windows devices.
 
-Mobile device management (MDM) is an industry standard for managing all types of mobile devices, such as smart phones, tablets, laptops, and desktop computers and is implemented by using MDM authority and MDM clients. Microsoft offers two MDM authority solutions with Intune and MDM for Microsoft 365. Android, iOS, and Windows 10 devices all include MDM client functionality, so they can be properly managed by an MDM authority.
+Mobile device management (MDM) is an industry standard for managing all types of mobile devices, such as smart phones, tablets, laptops, and desktop computers and is implemented by using MDM authority and MDM clients. Microsoft's MDM authority solution is Microsoft Intune. Android, iOS, and Windows 10 devices all include MDM client functionality, so they can be properly managed by an MDM authority.
 
 ## Co-management
 
