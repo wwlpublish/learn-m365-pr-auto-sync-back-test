@@ -64,7 +64,7 @@ Once the item is created, the object is converted to a JSON string using the `JS
 
 Updating list items with the SharePoint REST API is similar to creating items with a few small differences.
 
-To update an item, you can submit an HTTP POST or HTTP MERGE operation to the SharePoint REST API. The difference between the two is that POST will update all properties on the specified item while MERGE will only update those properties included in the body of the request. This means that any properties omitted when submitting an HTTP POST will be nulled out because no value was submitted.
+To update an item, you can submit an HTTP PUT or HTTP MERGE operation to the SharePoint REST API. The difference between the two is that PUT will update all properties on the specified item while MERGE will only update those properties included in the body of the request. This means that any properties omitted when submitting an HTTP PUT will be nulled out because no value was submitted.
 
 If this is not the behavior you want, you can use the HTTP MERGE method, which will ignore any properties not included in the body of the payload.
 

@@ -56,4 +56,4 @@ private _onGetListItems = (): void => {
 
 ## Summary
 
-In this unit, you'll learn how to use mocks to simulate SharePoint data when developing and testing SharePoint Framework components in the local workbench.
+In this unit, you learned how to use mocks to simulate SharePoint data when developing and testing SharePoint Framework components in the local workbench.
