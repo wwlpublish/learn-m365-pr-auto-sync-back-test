@@ -30,9 +30,9 @@ The development tools and platform used in the SharePoint Framework is implement
 
 The SharePoint Framework enables developers to create different types of custom components that are used to customize and extend SharePoint sites. The custom component types are:
 
-- client-side web parts
-- extensions
-- libraries
+- Client-side web parts
+- Extensions
+- Libraries
 
 ### Client-side web parts
 
@@ -75,9 +75,9 @@ SharePoint Framework extensions enable developers to customize and extend the Sh
 
 Microsoft introduced extensions in the SharePoint Framework to allow customers to implement some of the same customization options available in classic sites. Extensions will only work in the modern SharePoint experience and are intended to serve as the modern option for the following options in the classic experience:
 
-- delegate controls and `ScriptLink`
-- client-side rendering (CSR) and `JSLink`
-- custom actions
+- Delegate controls and `ScriptLink`
+- Client-side rendering (CSR) and `JSLink`
+- Custom actions
 
 Because they only run in the modern experience, you can only use SharePoint Framework extensions in SharePoint Server 2019 and SharePoint Online.
 
@@ -90,14 +90,14 @@ Let's look at the first type of extension: the application customizer. This exte
 
 Application customizers enable you to do two things:
 
-- add script to all pages in a site collection
-- set the HTML on two well known `<div>` elements on the page that serve as headers and footers
+- Add script to all pages in a site collection
+- Set the HTML on two well known `<div>` elements on the page that serve as headers and footers
 
 ![Screenshot of application customizer placeholders](../media/02-application-customizers-preview.png)
 
 #### Field customizer
 
-The next type of extension is the field customizer. This extension is intended to be the modern replacement to the legacy client-side rendering (CSR) framework and `JSLink`.
+The next type of extension is the field customizer. This extension is intended to be the modern replacement to the legacy client-side rendering (CSR) framework and **JSLink**.
 
 Field customizers enable you to define the HTML within a cell in the list display form. In the following screenshot, notice the **Percent Complete** column is rendered with custom colored bars instead of plain text:
 

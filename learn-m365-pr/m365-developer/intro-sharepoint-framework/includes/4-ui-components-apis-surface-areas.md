@@ -101,23 +101,23 @@ To obtain an instance of the Microsoft Graph JavaScript SDK, use the `this.conte
 
 ```typescript
 this.context.msGraphClientFactory
-     .getClient()
-     .then((client: MSGraphClient): void => {
-        client.api('/me')
-          .get((error: any, user: MicrosoftGraph.User, rawResponse?: any) => {
-            console.log('name: ', user.displayName);
-            console.log('email: ', user.mail);
-            console.log('phone: ', user.businessPhones[0]);
-            });
-          });
+  .getClient()
+  .then((client: MSGraphClient): void => {
+    client.api('/me')
+      .get((error: any, user: MicrosoftGraph.User, rawResponse?: any) => {
+        console.log('name: ', user.displayName);
+        console.log('email: ', user.mail);
+        console.log('phone: ', user.businessPhones[0]);
+        });
       });
+  });
 ```
 
 ### Azure AD secured endpoints
 
 Resources in Microsoft Azure can be secured with Azure AD. Azure AD can be used to secure REST APIs that are hosted in Microsoft Azure and API hosted in other cloud platforms. Microsoft Azure hosted resources are easier to secure as the Azure AD Admin Center provides a simplified configuration experience.
 
-Azure AD secured REST APIs require all requests to be authorized. To authorize a request, you'll include an OAuth 2.0 access token in the `authorization` HTTP request header. This access token must be obtained from Azure AD using one of the supported OAuth flows.
+Azure AD secured REST APIs require all requests to be authorized. To authorize a request, you'll include an OAuth 2.0 access token in the **authorization** HTTP request header. This access token must be obtained from Azure AD using one of the supported OAuth flows.
 
 The SharePoint Framework API simplifies the access token acquisition from SharePoint Online and Azure AD. The API uses the token to configure a special instance of the `HttpClient`, known as the `AadHttpClient`, you'll use to submit the request.
 
