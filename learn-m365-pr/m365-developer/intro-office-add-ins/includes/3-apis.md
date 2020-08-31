@@ -36,18 +36,18 @@ if (Office.context.requirements.isSetSupported(RequirementSetName, MinimumVersio
 To use these APIs, reference them on the Office.js content delivery network (CDN), typically by adding one of the following code statements to your page's `<head>` tag.
 
 ```html
-// Reference the production APIs on the CDN
+<!-- Reference the production APIs on the CDN -->
 <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js" type="text/javascript"></script>
 ```
 
 ```html
-// Reference the beta/preview APIs on the CDN
+<!-- Reference the beta/preview APIs on the CDN -->
 <script src="https://appsforoffice.microsoft.com/lib/beta/hosted/office.js" type="text/javascript"></script>
 ```
 
 Along with adding your preferred CDN link, all Office add-ins require an `Office.onReady()` call. You put your add-in code in this method, and it gets called once the Office.js library has initialized. Inside the `onReady()` method, you can determine which host your add-in is running in by checking the `Office.HostType` enum value (for example, `Excel` or `Word`). You can check which platform your add-in is running on with an `Office.PlatformType` enum value (for example, `PC` or `Mac`).
 
-If you're using additional JavaScript frameworks that include their own initialization handler or tests, they should be placed within the response to `Office.onReady()`. For example, you would reference JQuery's `$(document).ready()` function as shown in the following code example.
+If you're using additional JavaScript frameworks that include their own initialization handler or tests, they should be placed within the response to `Office.onReady()`. For example, you would reference jQuery's `$(document).ready()` function as shown in the following code example.
 
 ```javascript
 Office.onReady(function() {
@@ -115,13 +115,13 @@ To create an Office add-in project with the Yeoman generator, complete the follo
 
 1. To globally install Yeoman and the Yeoman generator for Office add-ins using npm, the Node package manager, run the following command.
 
-    ```bash
+    ```console
     npm install -g yo generator-office
     ```
 
 1. To create an add-in project using the Yeoman generator, run the following command.
 
-    ```bash
+    ```console
     yo office
     ```
 
@@ -148,7 +148,7 @@ The following video shows Script Lab in action.
 
 The Office add-ins manifest validator examines your add-in's manifest file to determine if it's correct and complete. If you created your add-in project using the Yeoman generator for Office add-ins (version 1.1.17 or later), you can validate the manifest by running the following command in the root directory of the project.
 
-```bash
+```console
 npm run validate
 ```
 
@@ -160,7 +160,7 @@ If you didn't use the Yeoman generator to create your add-in project, you can va
     > [!IMPORTANT]
     > Replace `{{MANIFEST_FILE}}` with the name of your manifest file.
 
-    ```bash
+    ```console
     npx office-addin-manifest validate {{MANIFEST_FILE}}
     ```
 
@@ -190,13 +190,13 @@ To create an Office add-in project with the Yeoman generator, complete the follo
 
 1. To globally install Yeoman and the Yeoman generator for Office add-ins using npm, the Node package manager, run the following command.
 
-    ```bash
+    ```console
     npm install -g yo generator-office
     ```
 
 1. To create an add-in project using the Yeoman generator, run the following command.
 
-    ```bash
+    ```console
     yo office
     ```
 
@@ -223,7 +223,7 @@ The following video shows Script Lab in action.
 
 The Office add-ins manifest validator examines your add-in's manifest file to determine if it's correct and complete. If you created your add-in project using the Yeoman generator for Office add-ins (version 1.1.17 or later), you can validate the manifest by running the following command in the root directory of the project.
 
-```bash
+```console
 npm run validate
 ```
 
@@ -235,7 +235,7 @@ If you didn't use the Yeoman generator to create your add-in project, you can va
     > [!IMPORTANT]
     > Replace `{{MANIFEST_FILE}}` with the name of your manifest file.
 
-    ```bash
+    ```console
     npx office-addin-manifest validate MANIFEST_FILE
     ```
 
@@ -271,15 +271,15 @@ Your Outlook add-in can access information from anywhere on the Internet. A few 
 
 ##### Exchange user identity token
 
-Exchange user identity tokens provide a way for your add-in to establish the identity of the user. By verifying the user's identity, you can authenticate a user into your system once, then accept the user identity token as an authorization for future requests. Consider using user identity tokens if your add-in is used primarily by Exchange on-premises users or needs access to a non-Microsoft service that you control. Your add-in can call `getUserIdentityTokenAsync` to get Exchange user identity tokens.
+Exchange user identity tokens provide a way for your add-in to establish the identity of the user. By verifying the user's identity, you can authenticate a user into your system once, then accept the user identity token as an authorization for future requests. Consider using user identity tokens if your add-in is used primarily by Exchange on-premises users or needs access to a non-Microsoft service that you control. Your add-in can call `getUserIdentityTokenAsync()` to get Exchange user identity tokens.
 
 ##### Access tokens obtained via OAuth2 flows
 
-Add-ins can also access third-party services that support OAuth2 for authorization. Consider using OAuth2 tokens if your add-in needs access to a third-party service outside of your control. Using this method, your add-in prompts the user to sign in to the service by using the `displayDialogAsync` method to initialize the OAuth2 flow, for example.
+Add-ins can also access third-party services that support OAuth2 for authorization. Consider using OAuth2 tokens if your add-in needs access to a third-party service outside of your control. Using this method, your add-in prompts the user to sign in to the service by using the `displayDialogAsync()` method to initialize the OAuth2 flow, for example.
 
 ##### Callback tokens
 
-Callback tokens provide your add-in access to the user's mailbox from your server, either using Exchange Web Services (EWS), or the Outlook REST API. Add-ins obtain callback tokens using one of the `getCallbackTokenAsync` methods. The level of access is controlled by the permissions specified in the add-in manifest.
+Callback tokens provide your add-in access to the user's mailbox from your server, either using Exchange Web Services (EWS), or the Outlook REST API. Add-ins obtain callback tokens using one of the `getCallbackTokenAsync()` methods. The level of access is controlled by the permissions specified in the add-in manifest.
 
 ##### Authentication summary
 
@@ -498,7 +498,7 @@ Word.run(function (context) {
       // Queue a set of commands to change the font for each found item.
       for (var i = 0; i < searchResults.items.length; i++) {
         searchResults.items[i].font.color = 'purple';
-        searchResults.items[i].font.highlightColor = '#FFFF00'; //Yellow
+        searchResults.items[i].font.highlightColor = '#FFFF00'; // Yellow
         searchResults.items[i].font.bold = true;
       }
 
@@ -534,7 +534,7 @@ You can create custom JavaScript or TypeScript functions that can be accessed li
 
 #### Custom function JavaScript example
 
-The following code sample defines the custom function `add` that accepts two numbers then returns their sum.
+The following code sample defines the custom function `add()` that accepts two numbers then returns their sum.
 
 ```javascript
 /**

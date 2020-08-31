@@ -13,7 +13,7 @@ Task pane add-ins allow user interaction through a panel displayed within an Off
 
 ![Task pane add-in on the right side in the Office application window](../media/02-about-addins-taskpane.png)
 
-*Task pane add-in displayed within an Office application*
+_Task pane add-in displayed within an Office application_
 
 In newer versions of Word, Excel, and PowerPoint, you can configure the task pane to be displayed automatically when a user opens a file. The user will need to have your add-in installed first to activate this behavior.
 
@@ -47,7 +47,7 @@ Content add-ins can be used to insert an object into an Excel spreadsheet or Pow
 
 ![Content add-in in the middle of the Office application window](../media/02-about-addins-contentaddin.png)
 
-*Content add-in loaded within an Office application*
+_Content add-in loaded within an Office application_
 
 #### Define the content add-in type
 
@@ -73,7 +73,7 @@ The dialog window isn't modal, meaning that your user can continue to interact w
 
 ![Dialog displayed in the Office application window](../media/02-overview-with-app-dialog.png)
 
-*Dialog displayed in an Office application*
+_Dialog displayed in an Office application_
 
 ## Understand Office add-ins custom functions
 
@@ -83,7 +83,7 @@ The following image shows a custom function called `SPHEREVOLUME` being entered 
 
 ![Custom function being entered in Excel](../media/02-sphere-volume.gif)
 
-*Custom function being entered in Excel*
+_Custom function being entered in Excel_
 
 The following code sample shows the JavaScript code for the `SPHEREVOLUME()` function shown previously.
 
@@ -94,7 +94,7 @@ The following code sample shows the JavaScript code for the `SPHEREVOLUME()` fun
  * @param {number} radius
  */
 function sphereVolume(radius) {
-  return Math.pow(radius, 3) * 4 * Math.PI / 3;
+  return (Math.pow(radius, 3) * 4 * Math.PI) / 3;
 }
 ```
 
@@ -102,8 +102,8 @@ function sphereVolume(radius) {
 
 Custom functions are available in Excel on the following platforms.
 
-- Windows (connected to an Office 365 subscription)
-- Mac (connected to an Office 365 subscription)
+- Windows _(connected to an Office 365 subscription)_
+- macOS _(connected to an Office 365 subscription)_
 - Web browser
 
 ### Define the custom function add-in type
@@ -149,13 +149,14 @@ You can configure an add-in so that a user can run it by selecting:
 
 An add-in command can also open a submenu with additional commands.
 
-**Note**: Content add-ins don't currently support add-in commands.
+> [!NOTE]
+> Content add-ins don't currently support add-in commands.
 
 The following image shows three add-in commands (custom buttons) added to the **Data** tab of the Excel ribbon.
 
 ![Add-in commands in Excel](../media/02-add-in-commands.png)
 
-*Add-in commands in Excel on Windows*
+_Add-in commands in Excel on Windows_
 
 ### Add-in commands in Outlook
 
@@ -176,24 +177,24 @@ The following images show three add-in commands (custom buttons) added to the ri
 
 ![Add-in commands in Outlook](../media/02-commands-normal-collapsed.png)
 
-*Add-in commands in Outlook on Windows*
+_Add-in commands in Outlook on Windows_
 
 ### Where can you use add-in commands?
 
 Add-in commands are available in Excel, Outlook, OneNote, PowerPoint, and Word as shown in the following table.
 
-|  Platform   | Major Office version |  Subscription or one-time purchase?  |                                                                              Notes                                                                              |
+| Platform    | Major Office version | Subscription or one-time purchase?   | Notes                                                                                                                                                           |
 | ----------- | -------------------- | ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Windows     | *Not applicable*     | connected to Office 365 subscription | *Not available in OneNote*                                                                                                                                      |
-|             | 2019                 | one-time purchase                    | *Not available in OneNote*                                                                                                                                      |
-|             | 2016                 | one-time purchase                    | *Only available in Outlook on Exchange 2016 (requires post-release update) or later. Not available in Office other applications.*                               |
-|             | 2013                 | one-time purchase                    | *Only available in Outlook on Exchange 2016 or later. Requires post-release updates for Outlook and Exchange 2016. Not available in other Office applications.* |
-| Mac         | *Not applicable*     | connected to Office 365 subscription | *Not available in OneNote*                                                                                                                                      |
-|             | 2019                 | one-time purchase                    | *Not available in OneNote*                                                                                                                                      |
-|             | 2016                 | one-time purchase                    | *Not available in OneNote*                                                                                                                                      |
-| iOS         | *Not applicable*     | connected to Office 365 subscription | *Only available in Outlook*                                                                                                                                     |
-| Android     | *Not applicable*     | connected to Office 365 subscription | *Only available in Outlook*                                                                                                                                     |
-| web browser | *Not applicable*     | *Not applicable*                     | *Available in all supported Office applications*                                                                                                                |
+| Windows     | _Not applicable_     | connected to Office 365 subscription | _Not available in OneNote_                                                                                                                                      |
+|             | 2019                 | one-time purchase                    | _Not available in OneNote_                                                                                                                                      |
+|             | 2016                 | one-time purchase                    | _Only available in Outlook on Exchange 2016 (requires post-release update) or later. Not available in Office other applications._                               |
+|             | 2013                 | one-time purchase                    | _Only available in Outlook on Exchange 2016 or later. Requires post-release updates for Outlook and Exchange 2016. Not available in other Office applications._ |
+| macOS       | _Not applicable_     | connected to Office 365 subscription | _Not available in OneNote_                                                                                                                                      |
+|             | 2019                 | one-time purchase                    | _Not available in OneNote_                                                                                                                                      |
+|             | 2016                 | one-time purchase                    | _Not available in OneNote_                                                                                                                                      |
+| iOS         | _Not applicable_     | connected to Office 365 subscription | _Only available in Outlook_                                                                                                                                     |
+| Android     | _Not applicable_     | connected to Office 365 subscription | _Only available in Outlook_                                                                                                                                     |
+| web browser | _Not applicable_     | _Not applicable_                     | _Available in all supported Office applications_                                                                                                                |
 
 ## Understand the purpose of the add-in manifest
 
