@@ -32,7 +32,7 @@ gulp build
 
 The next phase is bundling. The bundling phase generates a JavaScript bundle and the manifest for the SharePoint Framework component.
 
-Bundling takes all the JavaScript and CSS files referenced in your project and combines them into a single JavaScript bundle. A configuration file enables developers to specify if multiple bundles generated with specific components in them, or if all components in the project are grouped into a single bundle.
+Bundling takes all the JavaScript and CSS files referenced in your project and combines them into a single JavaScript bundle. A configuration file enables developers to specify if multiple bundles are generated with specific components in them, or if all components in the project are grouped into a single bundle.
 
 The popular open-source tool Webpack is used to create the JavaScript bundle file. Normally developers need to create a configuration file and pass it into webpack when bundling, but the SharePoint Framework does this for you. When the bundling task is executed, the SharePoint Framework build toolchain dynamically creates the webpack configuration using configuration files in the project.
 
@@ -129,4 +129,4 @@ The last step is to install the app from the package into a site collection. Thi
 
 ## Summary
 
-In this unit, you'll learn how to package and deploy SharePoint Framework solutions to production.
+In this unit, you learned how to package and deploy SharePoint Framework solutions to production.
