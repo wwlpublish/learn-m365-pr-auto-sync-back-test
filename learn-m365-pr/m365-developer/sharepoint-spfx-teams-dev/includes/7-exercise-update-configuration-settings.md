@@ -111,7 +111,7 @@ Locate the property `configurableTabs[0].canUpdateConfiguration`.
 
 Set the value of this property to `false` and save the file.
 
-Recreate the Microsoft Teams app package by zipping the three files, **manifest.json** and two image files, into a new Microsoft Teams app package.
+Create a Microsoft Teams app package by zipping the contents of the **./teams** folder. Make sure to zip just the contents and not the folder itself. This ZIP archive should contain 3 files at the root: two images and the **manifest.json**.
 
 ## Delete the previous Microsoft Teams tab
 
@@ -129,7 +129,7 @@ Select the app menu, then select **Update**.
 
 ![Screenshot of the SPFx solution in Microsoft Teams](../media/07-update-settings-step-04.png)
 
-Select the new Microsoft Teams app manifest.
+Select the new Microsoft Teams app manifest you created a moment ago.
 
 ## Test the new Microsoft Teams app
 

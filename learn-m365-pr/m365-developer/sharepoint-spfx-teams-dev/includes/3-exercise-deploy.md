@@ -1,5 +1,8 @@
 In this exercise, you'll create a SharePoint Framework web part solution that will work in both SharePoint Online and as a tab in Microsoft Teams.
 
+> [!IMPORTANT]
+> The instructions below assume you are using v1.11.0 of the SharePoint Framework Yeoman generator.
+
 Open a command prompt and change to the folder where you want to create the SharePoint Framework project. Then, run the SharePoint Yeoman generator by executing the following command:
 
 ```shell
@@ -18,7 +21,7 @@ Use the following to complete the prompt that is displayed (*if additional optio
 - **What is your Web Part description?**: SPFx Teams Together description
 - **Which framework would you like to use?** No JavaScript framework
 
-After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When NPM completes downloading all dependencies, open the project in Visual Studio Code.
+After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When NPM completes downloading all dependencies, open the project in **Visual Studio Code**.
 
 ![Screenshot of the SharePoint Framework Project](../media/03-create-project-02.png)
 
@@ -43,11 +46,9 @@ Add another option to enable this web part to be used as a tab in a Microsoft Te
 Notice the project contains a folder **teams** that contains two images. These are used in Microsoft Teams to display the custom tab.
 
 > [!NOTE]
-> You may notice there is no **manifest.json** file present. The manifest file can be generated automatically by SharePoint from the **App Catalog** site. However, at this time, this functionality is not fully operational.
+> You may notice there is no **manifest.json** file present. The manifest file can be generated automatically by SharePoint from the **App Catalog** site or you can create it manually. For more information on manual creation of the manifest file, refer to the documentation: [Create Microsoft Teams manifest manually for a web part and deploy it to Microsoft Teams](https://docs.microsoft.com/sharepoint/dev/spfx/web-parts/guidance/creating-team-manifest-manually-for-webpart).
 >
-> Alternatively, you can manually create the manifest file if you want to have more control over the default values SharePoint will create. For more information on this, refer to the documentation: [Create Microsoft Teams manifest manually for a web part and deploy it to Microsoft Teams](https://docs.microsoft.com/sharepoint/dev/spfx/web-parts/guidance/creating-team-manifest-manually-for-webpart).
->
-> Because the automatic generation and deployment of the Microsoft Teams manifest is not currently operational, you will manually create the Microsoft Teams manifest and package.
+> In this exercise you will manually create the Microsoft Teams manifest file so that you may get familliar with its contents.
 
 ### Manually create the Microsoft Teams manifest and app package
 
@@ -60,7 +61,7 @@ Create a new file **manifest.json** in the **teams** folder and add the followin
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.2/MicrosoftTeams.schema.json",
   "manifestVersion": "1.2",
   "packageName": "{{SPFX_COMPONENT_ALIAS}}",
-  "id": "aa3fecf0-1fd0-4751-aba1-12314dc3a22f",
+  "id": "{{SPFX_COMPONENT_ID}}",
   "version": "0.1",
   "developer": {
     "name": "Parker Porcupine",
@@ -108,20 +109,18 @@ Create a new file **manifest.json** in the **teams** folder and add the followin
 This file contains multiple strings that need to be updated to match the SharePoint Framework component. Use the following table to determine the values that should be replaced. The SharePoint Framework component properties are found in the web part manifest file: **./src/webparts/spFxTeamsTogether/SpFxTeamsTogetherWebPart.manifest.json**
 
 |          manifest.json string          |  Property in SharePoint Framework component manifest  |
-| -------------------------------------- | ------------------------------------- |
-| `{{SPFX_COMPONENT_ALIAS}}`             | `alias`                               |
-| `{{SPFX_COMPONENT_NAME}}`              | `preconfiguredEntries[0].title`       |
-| `{{SPFX_COMPONENT_SHORT_DESCRIPTION}}` | `preconfiguredEntries[0].description` |
-| `{{SPFX_COMPONENT_LONG_DESCRIPTION}}`  | `preconfiguredEntries[0].description` |
-| `{{SPFX_COMPONENT_ID}}`                | `id`                                  |
+| -------------------------------------- | ----------------------------------------------|
+| `{{SPFX_COMPONENT_ALIAS}}`             | `alias`                                       |
+| `{{SPFX_COMPONENT_NAME}}`              | `preconfiguredEntries[0].title.default`       |
+| `{{SPFX_COMPONENT_SHORT_DESCRIPTION}}` | `preconfiguredEntries[0].description.default` |
+| `{{SPFX_COMPONENT_LONG_DESCRIPTION}}`  | `preconfiguredEntries[0].description.default` |
+| `{{SPFX_COMPONENT_ID}}`                | `id`                                          |
 
 > [!IMPORTANT]
 > Don't miss replacing `{{SPFX_COMPONENT_ID}}` in `configurableTabs[0].configurationUrl`. You'll likely have to scroll your editor to the right to see it.
 
 > [!IMPORTANT]
 > The tokens surrounded by single curly braces (e.g. `{teamSiteDomain}`) do not need to be replaced.
-
-Create a Microsoft Teams app package by zipping the contents of the **./teams** folder. Make sure to zip just the contents and not the folder itself. This ZIP archive should contain 3 files at the root: two images and the **manifest.json**.
 
 ## Create and deploy the SharePoint package
 
@@ -217,15 +216,7 @@ In the **Add a tab** dialog, select **More Apps**
 
 ![Screenshot of the Add a tab dialog](../media/03-add-tab-step-10.png)
 
-Select the **Upload a custom app** > **Upload for ...** from the list of app categories:
-
-![Screenshot of the Microsoft Teams teams navigation](../media/03-add-tab-step-03.png)
-
-Select the Microsoft Teams application ZIP file previously created. This is the file that contains the **manifest.json** and two image files.
-
-After a moment, the application will appear next to your tenant name.
-
-> You may need to refresh the page for the app to appear if you are using the browser Microsoft Teams client.
+Select **Built for [your tentant name]**.
 
 Select the **SPFx Teams Together** app.
 

@@ -1,4 +1,4 @@
-In this exercise, you'll update the SharePoint Framework web part from the previous exercise to display different information depending on whether its running within a SharePoint or Microsoft Teams context.
+In this exercise, you'll update the SharePoint Framework web part from the previous exercise to display different information depending on whether it's running within a SharePoint or Microsoft Teams context.
 
 Locate and open the file **./src/webparts/spFxTeamsTogether/SpFxTeamsTogetherWebPart.ts**.
 
@@ -95,4 +95,4 @@ Now go back into the Microsoft Teams team and select the tab that you previously
 
 ## Summary
 
-In this exercise, you'll update the SharePoint Framework web part from the previous exercise to display different information depending on whether its running within a SharePoint or Microsoft Teams context.
+In this exercise, you updated the SharePoint Framework web part from the previous exercise to display different information depending on whether it's running within a SharePoint or Microsoft Teams context.

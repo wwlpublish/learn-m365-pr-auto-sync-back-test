@@ -1,4 +1,4 @@
-In this unit, you'll learn how to conditionally display information depending if the SharePoint Framework client-side web part is running in a SharePoint or Microsoft Teams environment.
+In this unit, you'll learn how to conditionally display information depending on whether the SharePoint Framework client-side web part is running in a SharePoint or Microsoft Teams environment.
 
 ## SharePoint Framework and Microsoft Teams context
 
@@ -55,4 +55,4 @@ let currentLocation: string = (this.teamsContext)
 
 ## Summary
 
-In this unit, you learned how to conditionally display information depending if the SharePoint Framework client-side web part is running in a SharePoint or Microsoft Teams environment.
+In this unit, you learned how to conditionally display information depending on whether the SharePoint Framework client-side web part is running in a SharePoint or Microsoft Teams environment.
