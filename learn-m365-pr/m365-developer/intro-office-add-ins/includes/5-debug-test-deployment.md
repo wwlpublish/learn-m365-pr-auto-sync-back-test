@@ -33,7 +33,7 @@ At various points during your add-in's life cycle, you need to verify functional
 
 You can locally install (sideload) your add-in for testing and debugging on Windows, Mac, and in a web browser. You can also sideload your Excel or Word add-in on an iPad. Use Node.js, Internet Information Services (IIS), or another preferred means to web host your add-in on your development machine.
 
-If you create your project using the Yeoman generator for Office add-ins, you can run `npm run start` in a command-line prompt to start and sideload your add-in to Excel on Windows or `npm run start:web` to run it in a web browser, though you'll have to manually sideload to Excel in the browser.
+If you create your project using the Yeoman generator for Office add-ins, you can run **npm run start** in a command-line prompt to start and sideload your add-in to Excel on Windows or **npm run start:web** to run it in a web browser, though you'll have to manually sideload to Excel in the browser.
 
 If you create your project using Visual Studio (VS), you can run the project in VS debug mode and it will automatically sideload to Excel on Windows.
 
@@ -82,7 +82,7 @@ For your sideloaded task pane and content add-ins, you can use the Safari Web In
 You can validate your add-in's manifest using any of these options:
 
 - Yeoman generator for Office add-ins
-- office-addin-manifest `validate` command
+- office-addin-manifest **validate** command
 - libxml
 
 ### Test required Office clients and platforms
