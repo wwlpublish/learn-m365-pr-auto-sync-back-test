@@ -35,7 +35,7 @@ Select **Save as draft** to see the page as your users will see it.
 ## Verify your developer environment is properly configured
 
 > [!NOTE]
-> The instructions below assume you're using v1.10.0 of the SharePoint Framework Yeoman generator.
+> The instructions below assume you're using v1.11.0 of the SharePoint Framework Yeoman generator.
 
 Use the tools installed in the second exercise to create a new SharePoint Framework component and test it using the local workbench.
 

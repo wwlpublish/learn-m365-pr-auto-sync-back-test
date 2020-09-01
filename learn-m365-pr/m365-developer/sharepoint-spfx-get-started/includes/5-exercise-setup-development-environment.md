@@ -17,7 +17,36 @@ The tools used in compiling, debugging, and packaging SharePoint Framework proje
 > node -v
 > ```
 >
-> If a version number is returned, you already have Node.js. The version(s) of Node.js you may use depends on the environment(s) you will be targeting. If you'll be targeting SharePoint Server 2016, you must use Node.js version 8.x. If you'll be targeting SharePoint Server 2019 and/or SharePoint Online, then you can use either Node.js version 8.x or Node.js version 10.x.
+> If a version number is returned, you already have Node.js. The version(s) of Node.js you may use depends on the environment(s) you will be targeting. 
+>
+> If you are building projects for SharePoint 2016, then you should not use Node.js v10.x. If you do you will not be able to debug SharePoint 2016 projects in the local or SharePoint-hosted workbenches. It is recommended that you instead install Node.js v8.x, which means that the maximum version of the SharePoint Framework Yeoman generator you may use is v1.10.0.
+>
+> If you are building projects for SharePoint 2019 and/or SharePoint Online, then it is recommended that you install Node.js v10.x and the latest version of the SharePoint Framework (which is currently v1.11.0).
+
+### SharePoint Framework / Node.js Compatability
+
+| SPFx    | Node.js     |
+| ------- | ----------- |
+| v1.11.0 | v10.x       |
+| v1.10.0 | v8.x, v10.x |
+| v1.9.1  | v8.x, v10.x |
+| v1.9.0  | v8.x, v10.x |
+| v1.8.2  | v8.x, v10.x |
+| v1.8.1  | v8.x        |
+| v1.8.0  | v8.x        |
+| v1.7.1  | v8.x        |
+| v1.7.0  | v8.x        |
+| v1.6.0  | v6.x, v8.x  |
+| v1.5.1  | v6.x, v8.x  |
+| v1.5.0  | v6.x, v8.x  |
+| v1.4.1  | v6.x, v8.x  |
+| v1.4.0  | v6.x, v8.x  |
+| v1.2.0  | v6.x, v8.x  |
+| v1.1.1  | v6.x, v8.x  |
+| v1.1.0  | v6.x        |
+
+
+> For SharePoint Framework v1.1.1 through 1.4.0, a workaround is required when debugging in the local or hosted workbench if you have Node.js v8.x installed. Please see the following GitHub issue for more information: [Run gulp serve with 'NODE_NO_HTTP2=1' when using SPFx on node v8](https://github.com/SharePoint/sp-dev-docs/issues/1002).
 
 If you already have a version of Node.js that's compatible with the environment(s) you'll be targeting, then skip to the next section.
 
@@ -57,11 +86,24 @@ npm install --global yo
 
 Microsoft has created a Yeoman generator for scaffolding SharePoint Framework projects.
 
-Open a command prompt / terminal window and execute the following command to install the SharePoint Framework Yeoman generator globally with NPM:
+To install the latest version of the SharePoint Framework Yeoman generator globally with NPM, open a command prompt / terminal window and execute the following command:
 
 ```shell
 npm install --global @microsoft/generator-sharepoint
 ```
+
+To install a specifc version of the SharePoint Framework Yeoman generator globally with NPM, open a command prompt / terminal window and execute the following command:
+
+```shell
+npm install --global @microsoft/generator-sharepoint@[version number]
+```
+
+For example:
+
+```shell
+npm install --global @microsoft/generator-sharepoint@1.9.1
+```
+
 
 ### Install Gulp
 

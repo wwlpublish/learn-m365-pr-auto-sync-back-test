@@ -3,7 +3,7 @@ uid: learn-m365.sharepoint-spfx-get-started.5-exercise-setup-development-environ
 metadata:
   title: Exercise - Configure your SharePoint Framework development environment
   description: In this exercise, you set up your local developer environment with everything you need to start creating SharePoint Framework components.
-  ms.date: 3/9/2020
+  ms.date: 08/31/2020
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
