@@ -1,0 +1,40 @@
+### YamlMime:Module
+uid: learn-m365.m365-teams-rooms-optimize-network
+metadata:
+  title: Optimize your network for Microsoft Teams
+  description: Learn about the global Microsoft 365 network and how you can optimize your organizational network to maximize performance when accessing Microsoft Teams meetings.
+  ms.date: 09/01/2020
+  author: AlexandraHrt
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Optimize your network for Microsoft Teams
+summary: Learn about the global Microsoft 365 network and how you can optimize your organizational network to maximize performance when accessing Microsoft Teams meetings. 
+abstract: |
+  At the end of this module, you should be able to:
+  - Understand how Microsoft built Microsoft 365 to limit reliance on the public internet.
+  - Design your organizational network to best leverage Microsoft’s investments in networking.
+  - Understand how Microsoft Teams meetings are designed to be hosted in the closest geographical area to attendees.
+
+prerequisites: | 
+ - Experience with Microsoft Teams
+
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+- student
+products:
+- m365
+- office-teams
+units:
+- learn-m365.m365-teams-rooms-optimize-network.introduction
+- learn-m365.m365-teams-rooms-optimize-network.global-microsoft-365-network
+- learn-m365.m365-teams-rooms-optimize-network.media-flow
+- learn-m365.m365-teams-rooms-optimize-network.transport-relays
+- learn-m365.m365-teams-rooms-optimize-network.steps-optimize-network
+- learn-m365.m365-teams-rooms-optimize-network.knowledge-check
+- learn-m365.m365-teams-rooms-optimize-network.summary
+badge: 
+  uid: learn-m365.m365-teams-rooms-optimize-network.badge
