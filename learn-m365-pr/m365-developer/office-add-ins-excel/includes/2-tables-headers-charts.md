@@ -32,7 +32,7 @@ Excel add-in developers should understand an Excel workbook's hierarchy and how 
 
 ### Hierarchy of a workbook
 
-Office.js provides context to an Excel workbook through Excel.run and the context.workbook property.
+Office.js provides context to an Excel workbook through `Excel.run()` and the `context.workbook` property.
 
 ![Screenshot of Excel object hierarchy](../media/02-excel-object-hierarchy.png)
 
@@ -78,52 +78,52 @@ You can also set header values using the `getHeaderRowRange().values` property w
 
 The following code snippets demonstrate working examples of working text and paragraphs using the Excel JavaScript API:
 
-- obtain a range of data from a worksheet:
+- Obtain a range of data from a worksheet:
 
     ```javascript
     const range = currWorksheet.getRange('A1:D1');
     ```
 
-- insert a table into the worksheet based on the specified range
+- Insert a table into the worksheet based on the specified range
 
     ```javascript
     const table = currWorksheet.tables.add(range, true);
     table.name = "ExpensesTable";
     ```
 
-- get a table by name from a workbook or worksheet
+- Get a table by name from a workbook or worksheet
 
     ```javascript
     const table = workbook.tables.getItem("ExpensesTable");
     ```
 
-- add a header row to the specified table
+- Add a header row to the specified table
 
     ```javascript
     table.getHeaderRowRange().values = [["Date", "Merchant", "Category", "Amount"]];
     ```
 
-- freeze the header row by freezing the topmost row
+- Freeze the header row by freezing the topmost row
 
     ```javascript
     currWorksheet.freezePanes.freezeRows(1);
     ```
 
-- delete the second row in a table
+- Delete the second row in a table
 
     ```javascript
     var row = context.workbook.tables.getItem("ExpensesTable").rows.getItemAt(1);
     row.delete();
     ```
 
-- update the second row in a table
+- Update the second row in a table
 
     ```javascript
     var row = context.workbook.tables.getItem("ExpensesTable").rows.getItemAt(1);
     row.values = [["1/15/2017", "Best For You Organics Company", "Groceries", "97.8"]];
     ```
 
-- add rows to the end of a table
+- Add rows to the end of a table
 
     ```javascript
     table.rows.add(null, [
@@ -134,7 +134,7 @@ The following code snippets demonstrate working examples of working text and par
     > [!NOTE]
     > The first parameter of the `add()` method indicates the index where the data should be added. A value of `null` or `-1`, the row is added to the end of the end table.
 
-- add a row
+- Add a row
 
     ```javascript
     table.rows.add(0, [
@@ -252,20 +252,20 @@ In addition to the properties in the table above, the chart object includes mult
 
 The following code examples demonstrate how to use the Office.js API to create and manipulate charts in Excel:
 
-- add a clustered column chart using table data:
+- Add a clustered column chart using table data:
 
     ```javascript
     const dataRange = table.getDataBodyRange();
     let chart = currWorksheet.charts.add("ColumnClustered", dataRange, "auto");
     ```
 
-- get existing chart by name
+- Get existing chart by name
 
     ```javascript
     let chart = workbook.charts.getItem("MyChart");
     ```
 
-- modify chart properties such as position, titles, colors, and font sizes
+- Modify chart properties such as position, titles, colors, and font sizes
 
     ```javascript
     chart.setPosition("A15", "F30");

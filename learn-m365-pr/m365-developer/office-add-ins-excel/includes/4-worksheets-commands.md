@@ -26,37 +26,37 @@ Developers can also freeze worksheet panes and protect or unprotect worksheets.
 
 The following code examples demonstrate common operations developers can do from custom Excel add-ins using the Office.js API:
 
-- get the active worksheet
+- Get the active worksheet
 
     ```javascript
     var worksheet = context.workbook.worksheets.getActiveWorksheet();
     ```
 
-- get worksheet by name
+- Get worksheet by name
 
     ```javascript
     var worksheet = context.workbook.worksheets.getItem("MyNewWorksheet");
     ```
 
-- set the active worksheet
+- Set the active worksheet
 
     ```javascript
     someWorksheet.activate();
     ```
 
-- create a worksheet
+- Create a worksheet
 
     ```javascript
     var worksheet = context.workbook.worksheets.add("MyNewWorksheet");
     ```
 
-- delete a worksheet
+- Delete a worksheet
 
     ```javascript
     someWorksheet.delete();
     ```
 
-- wire into the ondeactivated event
+- Wire into the ondeactivated event
 
     ```javascript
     currWorksheet.onDeactivated.add((args) => {
@@ -64,13 +64,13 @@ The following code examples demonstrate common operations developers can do from
     });
     ```
 
-- freeze first row of worksheet
+- Freeze first row of worksheet
 
     ```javascript
     currWorksheet.freezePanes.freezeRows(1);
     ```
 
-- toggle worksheet protection
+- Toggle worksheet protection
 
     ```javascript
     currWorksheet.load("protection/protected");
