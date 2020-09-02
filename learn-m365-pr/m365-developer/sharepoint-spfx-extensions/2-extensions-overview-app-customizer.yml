@@ -3,7 +3,7 @@ uid: learn-m365.sharepoint-spfx-extensions.2-extensions-overview-app-customizer
 metadata:
   title: Overview of SharePoint Framework extensions and application customizers
   description: "In this unit, you'll learn what SharePoint Framework extensions are and how you can use them to customize SharePoint. Then, you'll learn about one type of extension: application customizers."
-  ms.date: 3/9/2020
+  ms.date: 08/31/2020
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial

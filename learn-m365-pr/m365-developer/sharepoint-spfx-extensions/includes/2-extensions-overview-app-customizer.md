@@ -27,13 +27,13 @@ Application customizers enable you to do two things:
 
 The next type of extension is the field customizer. This extension is intended to be the modern replacement to the legacy client-side rendering (CSR) framework and `JSLink`.
 
-Field customizers enable you to define the HTML within a cell in the list display form. In the following screenshot, notice the **Percent Complete** column is rendered with custom colored bars instead of plain text:
+Field customizers enable you to define the HTML within a cell in a list view. In the following screenshot, notice the **Percent Complete** column is rendered with custom colored bars instead of plain text:
 
 ![Screenshot of the field customizer](../media/02-field-customizer-preview.png)
 
 ### Command sets
 
-The last type of extension is the command set. This extension is intended to be the modern replacement to the legacy custom actions.
+The last type of extension is the command set. This extension is intended to be the modern replacement for legacy custom actions.
 
 Command sets enable you to add buttons to list and library toolbars or to the context menu of items within a list.
 
@@ -62,7 +62,7 @@ Let's look at the folders in a newly created and built SharePoint Framework proj
 
 ## Debugging and testing extensions
 
-Now let's look at how you can debug and text SharePoint Framework extensions. Unlike client-side web parts, extensions require a live SharePoint site, list, or library. This means you can't test extensions in either the local or SharePoint-hosted workbench. You can still build and host extensions projects locally while debugging and testing in a remote SharePoint site.
+Now let's look at how you can debug and test SharePoint Framework extensions. Unlike client-side web parts, extensions require a live SharePoint site, list, or library. This means you can't test extensions in either the local or SharePoint-hosted workbench. However, you can still build and host extensions projects locally while debugging and testing in a remote SharePoint site.
 
 The testing experience is similar to the experience when you use the hosted SharePoint workbench for a web part development testing and debugging.
 
@@ -85,7 +85,7 @@ The deployment for extensions is similar in many ways to deploying web parts. Th
 
 Application customizers and command sets are provisioned in an environment using the `<CustomAction>` element. Field customizers are provisioned into a SharePoint environment as site columns that are defined using the `<Field>` element.
 
-The difference between web parts and extensions when it comes to deployment is that the web part provision process is more transparent than extensions, which require more manual work.
+When it comes to deployment, the difference between web parts and extensions is that the web part provisioning process is more transparent than extensions, which require more manual work.
 
 When the SharePoint Framework build process creates the SharePoint package, it generates the **\*.webpart** file and SharePoint Feature that's used to provision the **\*.webpart** file to the Web Part Gallery. This is done using the component's manifest and other various project configuration files.
 
@@ -93,9 +93,7 @@ However with extensions, these files must be manually modified prior to packagin
 
 ### Tenant wide deployment
 
-Some extensions support tenant wide deployment. Tenant wide deployment allows you to have centralized control of which extensions are available across all sites in a tenant.
-
-This deployment option enables you to easily implement a consistent user experience across all of our sites and a consistent deployment for one extension across all sites in the tenant.
+Some extensions support tenant wide deployment. Tenant wide deployment allows you to have centralized control of which extensions are available across all sites in a tenant. This deployment option enables you to easily implement a consistent user experience across all of your sites.
 
 The other aspect of tenant wide deployment is that it applies to not just existing sites, but any new sites will have the extension automatically installed as well.
 
@@ -173,4 +171,4 @@ this._topPlaceholder = this.context.placeholderProvider.tryCreateContent(
 
 ## Summary
 
-In this unit, you learned what SharePoint Framework extensions are and how you can use them to customize SharePoint. Then, you'll learn about one type of extension: application customizers.
+In this unit, you learned what SharePoint Framework extensions are and how you can use them to customize SharePoint. Then, you learned about one type of extension: application customizers.
