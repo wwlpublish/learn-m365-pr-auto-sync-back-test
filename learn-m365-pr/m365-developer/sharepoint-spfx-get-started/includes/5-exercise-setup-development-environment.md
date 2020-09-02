@@ -23,7 +23,7 @@ The tools used in compiling, debugging, and packaging SharePoint Framework proje
 >
 > If you are building projects for SharePoint 2019 and/or SharePoint Online, then it is recommended that you install Node.js v10.x and the latest version of the SharePoint Framework (which is currently v1.11.0).
 
-### SharePoint Framework / Node.js Compatability
+### SharePoint Framework / Node.js Compatibility
 
 | SPFx    | Node.js     |
 | ------- | ----------- |
@@ -92,7 +92,7 @@ To install the latest version of the SharePoint Framework Yeoman generator globa
 npm install --global @microsoft/generator-sharepoint
 ```
 
-To install a specifc version of the SharePoint Framework Yeoman generator globally with NPM, open a command prompt / terminal window and execute the following command:
+To install a specific version of the SharePoint Framework Yeoman generator globally with NPM, open a command prompt / terminal window and execute the following command:
 
 ```shell
 npm install --global @microsoft/generator-sharepoint@[version number]
