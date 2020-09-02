@@ -14,8 +14,6 @@ The SharePoint Framework API for client-side web parts includes the following pr
 
 Developers can also implement a custom property pane field when you want to customize how the control is rendered.
 
-![Screenshot of a custom field control in the property pane](../media/04-custom-property-pane-field.png)
-
 ## Implement custom property pane field controls
 
 To implement a custom property pane field control, you'll first import the `PropertyPaneCustomField` class from the **@microsoft/sp-webpart-base** class.

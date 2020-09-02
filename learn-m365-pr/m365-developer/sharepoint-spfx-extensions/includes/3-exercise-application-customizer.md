@@ -1,5 +1,8 @@
 In this exercise, you'll create a SharePoint Framework (SPFx) application customizer extension.
 
+> [!IMPORTANT]
+> The instructions below assume you are using v1.11.0 of the SharePoint Framework Yeoman generator.
+
 Open a command prompt and change to the folder where you want to create the project.
 
 Run the SharePoint Yeoman generator by executing the following command:
@@ -322,8 +325,6 @@ In a separate browser window, navigate to any modern page in any modern site wit
 > [!NOTE]
 > It may take up to 20 minutes for a tenant-wide extension to get deployed across the SharePoint online tenant so you may need to wait to fully test your deployment was successful.
 
-Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the console/terminal window.
-
 ## Summary
 
-In this exercise, you'll create a SharePoint Framework (SPFx) application customizer extension.
+In this exercise, you created a SharePoint Framework (SPFx) application customizer extension.

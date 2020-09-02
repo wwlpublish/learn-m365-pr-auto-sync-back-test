@@ -2,6 +2,9 @@ In this exercise, you'll create a new SharePoint Framework project with a single
 
 ## Create the SharePoint Framework solution
 
+> [!IMPORTANT]
+> The instructions below assume you are using v1.11.0 of the SharePoint Framework Yeoman generator.
+
 Open a command prompt and change to the folder where you want to create the project. Run the SharePoint Yeoman generator by executing the following command:
 
 ```shell
@@ -20,7 +23,7 @@ Use the following to complete the prompt that is displayed (*if additional optio
 - **What is your Web part description?**: SPFxHttpClient description
 - **Which framework would you like to use?**: React
 
-After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When NPM completes downloading all dependencies, open the project in Visual Studio Code.
+After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When NPM completes downloading all dependencies, open the project in **Visual Studio Code**.
 
 ## Update the public interface for the React component
 

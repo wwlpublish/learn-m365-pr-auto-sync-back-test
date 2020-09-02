@@ -10,17 +10,13 @@ All available Microsoft REST APIs that don't support anonymous requests are secu
 
 ### Secure Azure Functions with Azure AD
 
-A common approach to implementing a REST API is to use Azure Functions. Securing an Azure Function with Azure AD is simple. From the Azure Function app's **Platform features** page, select the **Authentication / Authorization** menu item:
+A common approach to implementing a REST API is to use Azure Functions. Securing an Azure Function with Azure AD is simple. In the left-hand navigation, select the **Authentication / Authorization** menu item. The **Authentication / Authorization** blade supports authentication using different OAuth 2.0 providers, including Azure AD, Microsoft Accounts, Facebook, and Google.
 
 ![Screenshot of Azure Function app configuration page](../media/secure-azure-functions-01.png)
 
-The **Authentication / Authorization** blade supports authentication using different OAuth 2.0 providers, including Azure AD, Microsoft Accounts, Facebook, and Google.
-
-![Screenshot of Azure Function app Authentication / Authorization blade](../media/secure-azure-functions-02.png)
-
 After enabling authentication and selecting **Azure AD**, you'll then either create a new Azure AD app or associate the Azure Function app with an existing Azure AD app.
 
-![Screenshot of Azure Function app Authentication / Authorization blade](../media/secure-azure-functions-03.png)
+![Screenshot of Azure Function app Authentication / Authorization blade](../media/secure-azure-functions-02.png)
 
 By enabling Azure AD authentication and authentication on an Azure Function, Microsoft Azure will automatically check for a valid access token in the `authorization` HTTP request header in every request received. If the access token isn't present or not valid, the request is rejected. This verification check is done without you having to write any special code in your Azure Function.
 
@@ -128,7 +124,7 @@ This message instructs the administrator this solution contains permission reque
 
 ### Approve or reject permission requests from the SharePoint Admin Center
 
-To approve or reject permission requests, navigate to the **API Management** page in the **SharePoint Admin Center**. Here you'll find a list of permission requests pending approval or rejection:
+To approve or reject permission requests, navigate to the **API access** page in the **SharePoint Admin Center**. Here you'll find a list of permission requests pending approval or rejection:
 
 ![Screencast of the API management page in the SharePoint Admin Center](../media/api-management-01.png)
 

@@ -6,7 +6,7 @@ SharePoint Framework projects have two different things that you can version.
 
 In a SharePoint Framework project, you can assign a version to the component itself, such as a web part or an extension. You can also version the entire SharePoint Framework package.
 
-When updating a component or package, it isn't required to increment the version numbers. Versioning is mostly used for documentation purposes but there are some scenarios that require you to increment the versions of packages and components.
+When updating a component or package, it isn't required to increment the version numbers, versioning is mostly used for documentation purposes. However there are some scenarios that require you to increment the versions of packages and components.
 
 When you change the code for a SharePoint Framework component, you'll need to rebuild, bundle, package, and redeploy the solution to SharePoint. When the package is redeployed, all existing code files are automatically overwritten with the new files regardless if the version number changed or not.
 
@@ -57,7 +57,7 @@ The last version number to look at in a SharePoint Framework project is the one 
 
 The value of the **package.json**'s `version` property doesn't have any impact on the component other than documentation. Neither the behavior of the component, package, or SharePoint is affected by changing the `version` property.
 
-While it's only used for documentation, its recommended to increment this version whenever you make changes to your components strictly for documentation purposes.
+While it's only used for documentation, it's still recommended to increment this version whenever you make changes to your components.
 
 ## Summary
 
