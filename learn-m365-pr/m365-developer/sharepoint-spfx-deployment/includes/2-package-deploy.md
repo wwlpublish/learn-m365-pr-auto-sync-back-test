@@ -20,7 +20,7 @@ SharePoint Framework projects are deployed to production using *packages*. A pac
 
 ### Build
 
-The build phase transpiles all TypeScript to Javascript, generates TypeScript type declarations from your TypeScript files, and transpiles SCSS files to CSS. All these files are placed in the **lib** folder in your project.
+The build phase transpiles all TypeScript to JavaScript, generates TypeScript type declarations from your TypeScript files, and transpiles SCSS files to CSS. All these files are placed in the **lib** folder in your project.
 
 The build process is started when you run the gulp task **build** from the command line:
 
