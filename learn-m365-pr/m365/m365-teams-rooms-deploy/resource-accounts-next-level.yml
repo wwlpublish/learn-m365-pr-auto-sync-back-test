@@ -3,7 +3,7 @@ uid: learn-m365.m365-teams-rooms-deploy.resource-accounts-next-level
 title: Take resource accounts to the next level
 metadata:
   title: Take resource accounts to the next level
-  description: Learn to simplify the distribution of Teams Rooms across your environment, including shipping, components, and logistics, by standardizing Teams Rooms deployments. Learn about the various components of Teams Rooms and how they connect with one another. Learn about the resource account which represents the meeting room in Microsoft Teams. 
+  description: Learn to simplify the distribution of Teams Rooms across your environment by standardizing deployments. Discover the various components of Teams Rooms and their interconnections. Learn about the resource account, which represents the meeting room in Microsoft Teams. 
   ms.date: 09/01/2020
   author: AlexandraHrt
   ms.author: elizapo
