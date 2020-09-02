@@ -4,7 +4,7 @@ In this unit, you'll learn how to incorporate Microsoft Graph into your custom S
 
 ![Microsoft 365 platform](../media/06-m365-platform.png)
 
-The Microsoft 365 developer vision focuses on the user's experience and their data and as a developer you can bring your application into the user experience with over 1.2 billion users of office worldwide. This is a huge opportunity to provide a window into your application and to enable users to connect into their data to intelligence to your application.
+The Microsoft 365 developer vision focuses on the user's experience and their data and as a developer you can bring your application into the user experience with over 1.2 billion users of Office worldwide. This is a huge opportunity to provide a window into your application and to enable users to connect into their data to intelligence to your application.
 
 There are currently over 850 million events created each month and a total of over 400 petabytes of data stored in the service that can add value for your users.
 
