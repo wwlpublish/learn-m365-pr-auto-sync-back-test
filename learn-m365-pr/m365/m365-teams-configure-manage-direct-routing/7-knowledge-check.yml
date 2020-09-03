@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.configure-manage-direct-routing.7-knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: Check your knowledge
+  ms.date: 09/03/2020
+  author: PhilStollery
+  ms.author: v-phstol
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 3
+content: |
+quiz:
+  title: Check your knowledge
+  questions:
+
+  - content: "How can you configure voice routing?"
+    choices:
+    - content: Create a user, a direct route, and a voice routing policy.
+      isCorrect: false
+      explanation: "These aren't valid steps. Instead, create a usage, a voice route, and a voice routing policy."
+    - content: Create a usage, a voice route, and a voice routing policy.
+      isCorrect: true
+      explanation: "That's correct. Voice routing helps you dictate how calls are routed through your SBC or multiple SBCs."
+    - content: Create a usage, a voice route, and a voice routing policy.
+      isCorrect: true
+      explanation: "These aren't valid steps. Voice routing helps you dictate how calls are routed through your SBC or multiple SBCs."
+
+  - content: "Your SBC raises a **failed to verify peer certificate** error. How do you resolve this?"
+    choices:
+    - content: Import the Peer Root Certificate.
+      isCorrect: false
+      explanation: "That's incorrect. You need to import the Baltimore Root Certificate."
+    - content: Import the SBC Root Certificate.
+      isCorrect: false
+      explanation: "That's incorrect. You need to import the Baltimore Root Certificate."
+    - content: Import the Baltimore Root Certificate.
+      isCorrect: true
+      explanation: "That's correct. Your vendor's documentation for configuring your SBC will have a step that covers this."
+
+  - content: "What formatting standard is used by Microsoft Teams to represent caller numbers and caller IDs?"
+    choices:
+    - content: E.164.
+      isCorrect: true
+      explanation: "That's correct. The E.164 is an international standard used by Microsoft Teams and Phone System."
+    - content: E.163.
+      isCorrect: false
+      explanation: "That's incorrect. The E.163 standard was withdrawn from use in 1997, although some of its features were incorporated into the first revision of its replacement. It's not used by Microsoft Teams."
+    - content: E.123.
+      isCorrect: false
+      explanation: "That's incorrect. The E.123 is a valid international standard for telecommunication standards, but focuses on telephone numbers, email addresses and web addresses."

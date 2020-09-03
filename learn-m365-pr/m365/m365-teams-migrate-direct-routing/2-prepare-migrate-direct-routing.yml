@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.migrate-direct-routing.2-prepare-migrate-direct-routing
+title: Prepare to migrate to Direct Routing
+metadata:
+  title: Prepare to migrate to Direct Routing
+  description: Learn where to place the Session Border Controller and prepare for the cut over.
+  ms.date: 09/03/2020
+  author: PhilStollery
+  ms.author: v-phstol
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 4
+content: |
+  [!include[](includes/2-prepare-migrate-direct-routing.md)]

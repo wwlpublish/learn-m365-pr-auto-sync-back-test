@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.configure-manage-direct-routing.8-summary
+title: Summary
+metadata:
+  title: Summary
+  description: Review what you've learned about configuring and managing Direct Routing.
+  ms.date: 09/03/2020
+  author: PhilStollery
+  ms.author: v-phstol
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 2
+content: |
+  [!include[](includes/8-summary.md)]

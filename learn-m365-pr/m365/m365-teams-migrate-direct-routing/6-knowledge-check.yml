@@ -1,0 +1,56 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.migrate-direct-routing.6-knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: Check your knowledge
+  ms.date: 09/03/2020
+  author: PhilStollery
+  ms.author: v-phstol
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 3
+content: |
+quiz:
+  title: Check your knowledge
+  questions:
+  - content: "Which of the following should you consider about the user's phone number when making the cut over?"
+    choices:
+    - content: Ensure that numbers now include the country dial code; for example, +1 for the US.
+      isCorrect: false
+      explanation: "The correct answer is through Active Directory Users and Groups"
+    - content: Ensure that it's no longer routed to the old system.
+      isCorrect: true
+    - content: Ensure that the new SIP attribute has been added to the phone number.
+      isCorrect: false
+      explanation: "The correct answer is through Active Directory Users and Groups"  
+  - content: "After running Get-CsOnlineUser, you see that OnPremHostingProvider, which was SRV, is now sipfed.online.lync.com. Which of the following describes the meaning of this change?"
+    choices:
+    - content: Calls to this user will now go to Skype for Business.
+      isCorrect: false
+      explanation: "The correct answer is that Direct Routing is now enabled."
+    - content: Direct routing is now enabled for the user.
+      isCorrect: true
+    - content: Calls to this user now bypass the SBC.
+      isCorrect: false
+      explanation: "The correct answer is that Direct Routing is now enabled."
+  - content: "Which of the following describes how to configure the SBC for dynamic routing?"
+    choices:
+    - content: Dynamic routing is enabled on the SBC through PowerShell.
+      isCorrect: false
+      explanation: "The correct answer is via an LDAP connection to the domain controller."
+    - content: Via an LDAP connection to the domain controller.
+      isCorrect: true
+    - content: By querying the list of users in Teams.
+      isCorrect: false
+      explanation: "The correct answer is via an LDAP connection to the domain controller."
+  - content: "Your Skype for Business environment has been decommissioned. A user tells you that their phone number has changed. After running the PowerShell command Get-CsOnlineUser for that user, you find “OnPremLineURIManuallySet=False”. Which of the following describes how you'll update the user's phone number?"
+    choices:
+    - content: Through Active Directory Users and Groups.
+      isCorrect: true
+    - content: Set-CsUser **user** -OnPremLineURI **value**.
+      isCorrect: false
+      explanation: "The correct answer is through Active Directory Users and Groups."
+    - content: Edit the number in the SBC.
+      isCorrect: false
+      explanation: "The correct answer is through Active Directory Users and Groups."

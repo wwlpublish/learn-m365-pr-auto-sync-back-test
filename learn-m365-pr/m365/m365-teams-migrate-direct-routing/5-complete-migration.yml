@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.migrate-direct-routing.5-complete-migration
+title: Complete the migration
+metadata:
+  title: Complete the migration
+  description: Learn how to resolves issues after a migration.
+  ms.date: 09/03/2020
+  author: PhilStollery
+  ms.author: v-phstol
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 12
+content: |
+  [!include[](includes/5-complete-migration.md)]

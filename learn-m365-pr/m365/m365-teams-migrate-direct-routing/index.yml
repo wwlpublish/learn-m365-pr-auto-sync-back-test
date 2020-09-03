@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn-m365.teams.migrate-direct-routing
+metadata:
+  title: Migrate to Direct Routing in Teams
+  description: Plan, execute, and complete a migration of an on-premises Skype for Business Server telephony system to Teams Direct Routing.
+  ms.date: 09/03/2020
+  author: PhilStollery
+  ms.author: v-phstol
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+title: Migrate to Direct Routing in Teams
+summary: Plan, execute, and complete a migration of an on-premises Skype for Business Server telephony system to Teams Direct Routing.
+abstract: |
+  At the end of this module, you should be able to:
+  - Prepare an on-premises Skype for Business Server telephony system for migration to Teams Direct Routing.
+  - Migrate a telephony system to Teams Direct Routing.
+  - Connect calls by using Dynamic Routing during the migration.
+  - Complete a migration to Teams Direct Routing.
+prerequisites: | 
+  - Knowledge of PBX telephony systems and terminology
+  - Knowledge of Skype for Business telephony
+  - Knowledge equivalent to the Introduction to Direct Routing module
+  - Knowledge equivalent to the Plan for Direct Routing module
+  - Knowledge equivalent to the Configure and Manage Direct Routing module
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- office-teams
+units:
+- learn-m365.teams.migrate-direct-routing.1-introduction
+- learn-m365.teams.migrate-direct-routing.2-prepare-migrate-direct-routing
+- learn-m365.teams.migrate-direct-routing.3-migrate-direct-routing
+- learn-m365.teams.migrate-direct-routing.4-configure-dynamic-routing
+- learn-m365.teams.migrate-direct-routing.5-complete-migration
+- learn-m365.teams.migrate-direct-routing.6-knowledge-check
+- learn-m365.teams.migrate-direct-routing.7-summary
+badge:
+  uid: learn-m365.teams.migrate-direct-routing.badge

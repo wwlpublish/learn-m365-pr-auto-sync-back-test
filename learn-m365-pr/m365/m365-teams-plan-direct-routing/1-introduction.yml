@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.teams.decide-when-implement-direct-routing.1-introduction
+uid: learn-m365.teams.plan-direct-routing.1-introduction
 title: Introduction
 metadata:
   title: Introduction
@@ -8,7 +8,7 @@ metadata:
   author: PhilStollery
   ms.author: v-phstol
   ms.topic: interactive-tutorial
-  ms.prod: learning-{product}
-durationInMinutes: 2
+  ms.prod: learning-teams
+durationInMinutes: 1
 content: |
   [!include[](includes/1-introduction.md)]

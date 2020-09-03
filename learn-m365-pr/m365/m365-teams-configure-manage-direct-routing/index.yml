@@ -1,0 +1,40 @@
+### YamlMime:Module
+uid: learn-m365.teams.configure-manage-direct-routing
+metadata:
+  title: Configure and manage Direct Routing with Microsoft Teams
+  description: Learn how to configure and manage Direct Routing with Microsoft Teams
+  ms.date: 09/03/2020
+  author: PhilStollery
+  ms.author: v-phstol
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+title: Configure and manage Direct Routing with Microsoft Teams
+summary: Learn how to configure and manage Direct Routing with Microsoft Teams
+abstract: |
+  At the end of this module, you should be able to:
+  - Explain how to configure and connect a Session Border Controller (SBC).
+  - Describe the process for configuring simple and advanced voice routing.
+  - Describe how to provision users, implement number translation, create and assign dial plans.
+  - Demonstrate how to configure Local Media Optimization.
+  - Explain how to manage Direct Routing and resolve common SBC configuration issues.
+prerequisites: | 
+  - Knowledge of PBX telephony systems and terminology.
+  - Knowledge equivalent to the Plan for Direct Routing module.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- office-teams
+units:
+- learn-m365.teams.configure-manage-direct-routing.1-introduction
+- learn-m365.teams.configure-manage-direct-routing.2-configure-connect-session-border-controller
+- learn-m365.teams.configure-manage-direct-routing.3-configure-voice-routing
+- learn-m365.teams.configure-manage-direct-routing.4-provision-users
+- learn-m365.teams.configure-manage-direct-routing.5-configure-local-media-optimization
+- learn-m365.teams.configure-manage-direct-routing.6-manage-direct-routing
+- learn-m365.teams.configure-manage-direct-routing.7-knowledge-check
+- learn-m365.teams.configure-manage-direct-routing.8-summary
+badge:
+  uid: learn-m365.teams.configure-manage-direct-routing.badge
