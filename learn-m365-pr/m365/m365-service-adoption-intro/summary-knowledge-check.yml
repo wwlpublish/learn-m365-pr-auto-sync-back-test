@@ -58,21 +58,7 @@ quiz:
       - content: "Employees not sharing data in consumer."
         isCorrect: false
         explanation: "No, 'healthy service usage' is an employee's ability to use a service to deliver a business outcome."
-    - content: "Service adoption is defined as which of the following?"
-      choices:
-      - content: "The ability to deploy new technology quickly."
-        isCorrect: false
-        explanation: "No, 'service adoption' is the ability of an org to drive healthy usage of a service."
-      - content: "The ability of an organization to drive healthy usage of business and technical capabilities."
-        isCorrect: true
-        explanation: "Yes, this is the definition of 'service adoption.'"
-      - content: "A company's end user training programs."
-        isCorrect: false
-        explanation: "No, 'service adoption' is the ability of an org to drive healthy usage of a service."
-      - content: "The measures of how many people are using approved software."
-        isCorrect: false
-        explanation: "No, 'service adoption' is the ability of an org to drive healthy usage of a service."
-    - content: "The process that an organization has to go through to change its strategies, processes, culture, or technology is referred to as what?"
+        - content: "The process that an organization has to go through to change its strategies, processes, culture, or technology is referred to as what?"
       choices:
       - content: "Business management."
         isCorrect: false
