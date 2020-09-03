@@ -80,7 +80,7 @@ Locate the file created by the gulp task, found in the **./sharepoint/solution**
 
 Drag this file into the **Apps for SharePoint** library in the browser. When prompted, select **Replace It**.
 
-![Screenshot dragging the SharePoint package into the Apps for SharePoint library](../media/05-update-solution.png)
+![Screenshot dragging the SharePoint package into the Apps for SharePoint library](../media/05-upload-solution.png)
 
 ## Test the changes
 
