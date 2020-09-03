@@ -24,7 +24,7 @@ quiz:
       isCorrect: true
       explanation: "That's correct. Voice routing helps you dictate how calls are routed through your SBC or multiple SBCs."
     - content: Create a usage, a voice route, and a voice routing policy.
-      isCorrect: true
+      isCorrect: false
       explanation: "These aren't valid steps. Voice routing helps you dictate how calls are routed through your SBC or multiple SBCs."
 
   - content: "Your SBC raises a **failed to verify peer certificate** error. How do you resolve this?"

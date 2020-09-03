@@ -55,4 +55,6 @@ quiz:
     - content: You should only configure a voice routing policy to stop media being sent via the internet and Phone Service for users in the same building or on the same network.
       isCorrect: false
       explanation: "That's incorrect. A voice routing policy is required for all users making calls with Direct Routing, not only users in the same building or on the same network."
-    - content: You should only config
+    - content: You should only configure a voice routing policy to stop users from making international calls..
+      isCorrect: false
+      explanation: "That's incorrect. A voice routing policy is required in more scenarios than restricting the class of call a user is allowed to make."
