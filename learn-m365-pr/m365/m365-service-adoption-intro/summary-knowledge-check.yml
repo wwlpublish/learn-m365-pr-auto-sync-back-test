@@ -58,7 +58,7 @@ quiz:
       - content: "Employees not sharing data in consumer."
         isCorrect: false
         explanation: "No, 'healthy service usage' is an employee's ability to use a service to deliver a business outcome."
-        - content: "The process that an organization has to go through to change its strategies, processes, culture, or technology is referred to as what?"
+    - content: "The process that an organization has to go through to change its strategies, processes, culture, or technology is referred to as what?"
       choices:
       - content: "Business management."
         isCorrect: false
