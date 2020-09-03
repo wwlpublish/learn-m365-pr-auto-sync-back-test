@@ -344,7 +344,7 @@ Now that you've defined the dialog UI, you can write the code that makes it actu
 
 Finally, open the file **webpack.config.js** file in the root directory of the project and complete the following steps.
 
-1. Locate the `entry` object within the `config` object and add a new entry for `dialog`.
+1. Locate the `entry` object within the `config` object and add a new entry for `dialog`:
 
     ```javascript
     dialog: "./src/settings/dialog.js"
@@ -415,13 +415,13 @@ Finally, open the file **webpack.config.js** file in the root directory of the p
 1. If the web server is running, close the node command window.
 1. To rebuild the project, run the following command.
 
-    ```bash
+    ```console
     npm run build
     ```
 
 1. To start the web server, run the following command:
 
-    ```bash
+    ```console
     npm run dev-server
     ```
 
@@ -542,7 +542,7 @@ Open the file **./src/commands/commands.html** and replace the entire contents w
 
 ### Update the function file
 
-Open the file **./src/commands/commands.js** and replace the entire contents with the following code. Note that if the `insertDefaultGist` function determines the add-in hasn't yet been configured, it adds the `?warn=1` parameter to the dialog URL. Doing so makes the settings dialog render the message bar that's defined in **./settings/dialog.html**, to tell the user why they're seeing the dialog.
+Open the file **./src/commands/commands.js** and replace the entire contents with the following code. Note that if the `insertDefaultGist()` function determines the add-in hasn't yet been configured, it adds the `?warn=1` parameter to the dialog URL. Doing so makes the settings dialog render the message bar that's defined in **./settings/dialog.html**, to tell the user why they're seeing the dialog.
 
 ```javascript
 var config;
@@ -721,7 +721,7 @@ function buildBodyContent(gist, callback) {
 
 ### Test the button
 
-If the server isn't already running, save all of your changes and run `npm run dev-server` from the command prompt. Then, to test the **Insert default gist** button, complete the following steps:
+If the server isn't already running, save all of your changes and run **npm run dev-server** from the command prompt. Then, to test the **Insert default gist** button, complete the following steps:
 
 1. Open Outlook and compose a new message.
 1. In the compose message window, select the **Insert default gist** button. You should be prompted to configure the add-in.

@@ -12,7 +12,7 @@ You'll use Node.js to create the custom Outlook add-in in this module. The exerc
 - [Node.js](https://nodejs.org/) - (*the latest [LTS](https://nodejs.org/about/releases) version*)
 - NPM (installed with Node.js) - v6.x (or higher)
 - [Yeoman](https://yeoman.io/) - v3.x (or higher)
-- [Yeoman Generator for Microsoft Office](https://github.com/OfficeDev/generator-office) - v1.6.x (or higher)
+- [Yeoman Generator for Microsoft Office](https://github.com/OfficeDev/generator-office) - v1.7.x (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
@@ -70,12 +70,12 @@ The add-in that you'll create in this tutorial will read [gists](https://gist.gi
 
 1. Run the following command to create an add-in project using the Yeoman generator:
 
-    ```bash
+    ```console
     yo office
     ```
 
     > [!NOTE]
-    > When you run the `yo office` command, you may receive prompts about the data collection policies of Yeoman and the Office Add-in CLI tools. Use the information that's provided to respond to the prompts as you see fit.
+    > When you run the **yo office** command, you may receive prompts about the data collection policies of Yeoman and the Office Add-in CLI tools. Use the information that's provided to respond to the prompts as you see fit.
 
     When prompted, provide the following information to create your add-in project:
     - **Choose a project type** - Office Add-in Task Pane project
@@ -92,7 +92,7 @@ The add-in that you'll create in this tutorial will read [gists](https://gist.gi
 
 1. Navigate to the root directory of the project.
 
-    ```bash
+    ```console
     cd "Git the gist"
     ```
 
@@ -104,7 +104,7 @@ The add-in that you'll create in this tutorial will read [gists](https://gist.gi
 
      To install these tools for your project, run the following command in the root directory of the project:
 
-    ```bash
+    ```console
     npm install showdown urijs jquery --save
     ```
 
@@ -137,7 +137,7 @@ Before going any further, let's test the basic add-in that the generator created
 
 1. Run the following command in the root directory of your project. When you run this command, the local web server will start (if it's not already running).
 
-    ```bash
+    ```console
     npm run dev-server
     ```
 

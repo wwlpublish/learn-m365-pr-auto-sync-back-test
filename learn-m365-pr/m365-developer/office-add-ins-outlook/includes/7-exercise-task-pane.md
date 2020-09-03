@@ -401,7 +401,7 @@ In the project that you've created, the task pane JavaScript is specified in the
 
 ### Test the button
 
-Save all of your changes and run `npm run dev-server` from the command prompt, if the server isn't already running. Then complete the following steps to test the **Insert gist** button.
+Save all of your changes and run **npm run dev-server** from the command prompt, if the server isn't already running. Then complete the following steps to test the **Insert gist** button.
 
 1. Open Outlook and compose a new message.
 
