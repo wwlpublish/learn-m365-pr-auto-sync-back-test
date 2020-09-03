@@ -216,7 +216,7 @@ In the **Add a tab** dialog, select **More Apps**
 
 ![Screenshot of the Add a tab dialog](../media/03-add-tab-step-10.png)
 
-Select **Built for [your tentant name]**.
+Select **Built for [your tenant name]**.
 
 Select the **SPFx Teams Together** app.
 
