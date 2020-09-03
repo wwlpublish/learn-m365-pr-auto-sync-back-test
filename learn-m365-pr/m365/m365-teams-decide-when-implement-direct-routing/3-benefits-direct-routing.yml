@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.decide-when-implement-direct-routing.3-benefits-direct-routing
+title: Describe the benefits of Direct Routing
+metadata:
+  title: Describe the benefits of Direct Routing
+  description: In this unit you'll learn about the advantages of Direct Routing over a third-party Private Branch Exchange (PBX).
+  ms.date: 03/09/2020
+  author: {TODO}
+  ms.author: {TODO}
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 4
+content: |
+  [!include[](includes/3-benefits-direct-routing.md)]
