@@ -1,12 +1,12 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.teams.decide-when-implement-direct-routing.6-summary
-title: Content
+title: Summary
 metadata:
-  title: Content
-  description: Content
+  title: Summary
+  description: Review what you've learned about Direct Routing.
   ms.date: 03/06/2019
-  author: {TODO}
-  ms.author: {TODO}
+  author: PhilStollery
+  ms.author: v-phstol
   ms.topic: interactive-tutorial
   ms.prod: learning-{product}
 durationInMinutes: 2

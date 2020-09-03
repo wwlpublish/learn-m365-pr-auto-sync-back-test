@@ -5,8 +5,8 @@ metadata:
   title: Expand the voice capabilities of Teams with Direct Routing
   description: In this unit you'll learn about the business-case for Direct Routing.
   ms.date: 03/09/2020
-  author: {TODO}
-  ms.author: {TODO}
+  author: PhilStollery
+  ms.author: v-phstol
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 5
