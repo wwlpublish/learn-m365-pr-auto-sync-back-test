@@ -3,7 +3,7 @@ uid: learn-m365.sharepoint-spfx-teams-dev.3-exercise-deploy
 metadata:
   title: Exercise - Deploy SharePoint Framework solutions to Microsoft Teams
   description: In this exercise, you'll create a SharePoint Framework web part solution that will work in both SharePoint Online and as a tab in Microsoft Teams.
-  ms.date: 3/10/2020
+  ms.date: 08/31/2020
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
@@ -30,7 +30,7 @@ quiz:
     choices:
     - content: "Deploy the package to both the SharePoint Online tenant's App Catalog and the Microsoft Teams tenant's App Catalog sites."
       isCorrect: false
-      explanation: "The App Catalog only exists in SharPoint, not in Microsoft Teams."
+      explanation: "The App Catalog only exists in SharePoint, not in Microsoft Teams."
     - content: "Deploy the package the SharePoint Online tenant's App Catalog site."
       isCorrect: true
       explanation: "Correct!"

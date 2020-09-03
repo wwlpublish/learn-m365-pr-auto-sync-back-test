@@ -40,7 +40,7 @@ The configuration of your tab is located in your custom Microsoft Teams app's ma
 
 When using SharePoint Framework client-side web parts to create tabs for Microsoft Teams, you'll see the configuration works mostly the same way. There are some subtle differences that we'll explore later in the module.
 
-Recall that all content within a tab is rendered in an Iframe. Your tab and configuration page will have a URL that's used by Microsoft Teams to know the location of the page to load in the IFrame.
+Recall that all content within a tab is rendered in an Iframe. Your tab and configuration page will have a URL that's used by Microsoft Teams to know the location of the page to load in the Iframe.
 
 The tab and configuration page will use the Microsoft Teams context to inspect the tab's `EntityId` and `SubEntityId`. These are IDs that uniquely identify your tab. The `SubEntityId` is sometimes used to store simple configuration information.
 
@@ -76,7 +76,7 @@ The following table lists some of the noteworthy properties you have access to o
 
 In 2019, Microsoft introduced the capability to use a SharePoint Framework client-side web part as a tab in Microsoft Teams. As we've previously covered, a Microsoft Teams tab is just a web page loaded in an Iframe.
 
-The development process of a Microsoft Teams tab that's implemented using a SharePoint client-side web part is nearly identical to creating a web part for a SharePoint site. Any web part can be exposed as a tab in Microsoft teams.
+The development process of a Microsoft Teams tab that's implemented using a SharePoint Framework client-side web part is nearly identical to creating a web part for a SharePoint site. Any web part can be exposed as a tab in Microsoft teams.
 
 To enable a client-side web part to be used as a tab in Microsoft Teams, you'll need to update a single property in the component's manifest.
 
@@ -111,7 +111,7 @@ If a manifest file is present in your **./teams** folder, SharePoint will use it
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.2/MicrosoftTeams.schema.json",
   "manifestVersion": "1.5",
   "packageName": "{{SPFX_COMPONENT_ALIAS}}",
-  "id": "aa3fecf0-1fd0-4751-aba1-12314dc3a22f",
+  "id": "{{SPFX_COMPONENT_ID}}",
   "version": "0.1",
   "developer": {
     "name": "Contoso Developer",
@@ -159,12 +159,12 @@ If a manifest file is present in your **./teams** folder, SharePoint will use it
 This file contains multiple strings that need to be updated to match the SharePoint Framework component. Use the following table to determine the values that should be replaced.
 
 |          manifest.json string          |  Property in SharePoint Framework component manifest  |
-| -------------------------------------- | ------------------------------------- |
-| `{{SPFX_COMPONENT_ALIAS}}`             | `alias`                               |
-| `{{SPFX_COMPONENT_NAME}}`              | `preconfiguredEntries[0].title`       |
-| `{{SPFX_COMPONENT_SHORT_DESCRIPTION}}` | `preconfiguredEntries[0].description` |
-| `{{SPFX_COMPONENT_LONG_DESCRIPTION}}`  | `preconfiguredEntries[0].description` |
-| `{{SPFX_COMPONENT_ID}}`                | `id`                                  |
+| -------------------------------------- | --------------------------------------------- |
+| `{{SPFX_COMPONENT_ALIAS}}`             | `alias`                                       |
+| `{{SPFX_COMPONENT_NAME}}`              | `preconfiguredEntries[0].title.default`       |
+| `{{SPFX_COMPONENT_SHORT_DESCRIPTION}}` | `preconfiguredEntries[0].description.default` |
+| `{{SPFX_COMPONENT_LONG_DESCRIPTION}}`  | `preconfiguredEntries[0].description.default` |
+| `{{SPFX_COMPONENT_ID}}`                | `id`                                          |
 
 > [!IMPORTANT]
 > Don't miss replacing `{{SPFX_COMPONENT_ID}}` in `configurableTabs[0].configurationUrl`. You'll likely have to scroll your editor to the right to see it.
