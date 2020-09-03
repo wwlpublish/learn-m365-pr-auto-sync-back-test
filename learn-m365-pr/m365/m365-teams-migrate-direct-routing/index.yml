@@ -4,8 +4,8 @@ metadata:
   title: Migrate to Direct Routing in Teams
   description: Plan, execute, and complete a migration of an on-premises Skype for Business Server telephony system to Teams Direct Routing.
   ms.date: 09/03/2020
-  author: PhilStollery
-  ms.author: v-phstol
+  author: lizap
+  ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 title: Migrate to Direct Routing in Teams

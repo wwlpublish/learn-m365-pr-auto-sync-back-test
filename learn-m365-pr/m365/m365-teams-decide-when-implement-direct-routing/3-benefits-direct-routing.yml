@@ -5,8 +5,8 @@ metadata:
   title: Describe the benefits of Direct Routing
   description: In this unit you'll learn about the advantages of Direct Routing over a third-party Private Branch Exchange (PBX).
   ms.date: 09/03/2020
-  author: PhilStollery
-  ms.author: v-phstol
+  author: lizap
+  ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 4
