@@ -252,7 +252,7 @@ In addition to the properties in the table above, the chart object includes mult
 
 The following code examples demonstrate how to use the Office.js API to create and manipulate charts in Excel:
 
-- Add a clustered column chart using table data:
+- Add a clustered column chart using table data
 
     ```javascript
     const dataRange = table.getDataBodyRange();
