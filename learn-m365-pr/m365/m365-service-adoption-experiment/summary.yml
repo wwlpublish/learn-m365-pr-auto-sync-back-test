@@ -26,7 +26,7 @@ quiz:
       - content: "Let you document issues"
         isCorrect: false
         explanation: "No, one of the chief objectives is to get experience with the product."
-      - content: "Give you experience with the product"
+      - content: "Give you hands-on experience with the product"
         isCorrect: true
         explanation: "Yes, one of the chief objectives is to get experience with the product."
     - content: "It's a best practice to revisit your overall program success measures on what schedule?"
@@ -96,14 +96,6 @@ quiz:
       - content: "Stakeholder management support"
         isCorrect: false
         explanation: "No, your champions provide peer-to-peer learning and feedback."
-    - content: "True or false: Champions give up their normal role activities while they are rolling out your project."
-      choices:
-      - content: "True"
-        isCorrect: false
-        explanation: "No, champions maintain their existing role/responsiblities while participating in your project."
-      - content: "False"
-        isCorrect: true
-        explanation: "Correct, champions maintain their existing role/responsiblities while participating in your project."
     - content: "True or false: Approving guest access is a governance decision."
       choices:
       - content: "True"
@@ -117,7 +109,7 @@ quiz:
       - content: "Yes, but only in North America"
         isCorrect: false
         explanation: "No, the free Teamwork Champion program is available to everyone, regardless of their location."
-      - content: "Yes, to everyone online via the free Teamwork Champion program"
+      - content: "Yes, to everyone online via the free Microsoft 365 Champion program"
         isCorrect: true
         explanation: "Yes, the free Teamwork Champion program is available to everyone online."
       - content: "Yes, but only through the FastTrack program"
@@ -154,11 +146,31 @@ quiz:
       - content: "Audit employees"
         isCorrect: false
         explanation: "No, protecting corporate assets is one of the four pillars of content governance."
-    - content: "True or false: It's a best practice to make governance decisions for experimentation before making broad decisions for your company-wide rollout."
-      choices:
-      - content: "True"
-        isCorrect: true
-        explanation: "Correct - making governance decisions during the Experiment phase lets you test them before you roll them out broadly."
-      - content: "False"
+     - content: "Which of the following is NOT a reason to approve apps available in Microsoft Teams?"
+       choices:
+      - content: "They will improve the collaboration experience."
         isCorrect: false
-        explanation: "Incorrect - making governance decisions during the Experiment phase lets you test them before you roll them out broadly."
+        explanation: "No, users should always have multiple apps to choose from."
+      - content: "End users use Microsoft 1st party apps and others in their day-to-day work. Approving them will create continuity in the experience."
+        isCorrect: false
+        explanation: "No, users should always have multiple apps to choose from."
+      - content: "Users should always have multiple apps to choose from."
+        isCorrect: true
+        explanation: "Correct, users should always have multiple apps to choose from."
+      - content: "Better Together scenarios depend on these apps being available."
+        isCorrect: false
+        explanation: "No, users should always have multiple apps to choose from."
+     - content: "Which of the following examples of success measures should be included in your project?"
+       choices:
+      - content: "Service quality."
+        isCorrect: false
+        explanation: "No, Service quality, service reliability, and project budget performance are all examples of success measures should be included in your project."
+      - content: "Service reliability."
+        isCorrect: false
+        explanation: "No, Service quality, service reliability, and project budget performance are all examples of success measures should be included in your project."
+      - content: "Project budget performance."
+        isCorrect: false
+        explanation: "No, Service quality, service reliability, and project budget performance are all examples of success measures should be included in your project."
+      - content: "All of the above."
+        isCorrect: true
+        explanation: "Correct, Service quality, service reliability, and project budget performance are all examples of success measures should be included in your project."
