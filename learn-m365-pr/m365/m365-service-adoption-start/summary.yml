@@ -63,20 +63,20 @@ quiz:
       - content: "Be a consistently visible part of your change program"
         isCorrect: true
         explanation: "Yes, the best thing your executive sponsor can do is be a consistently visible part of the change program."
-    - content: "What is the second phase within the Change Curve that people normally go through?"
+    - content: "What are the four phases of the Change Curve?"
       choices:
-      - content: "Enthusiasm"
+      - content: "Enthusiasm, Resistance, Planning, Implementation"
         isCorrect: false
-        explanation: "No, the second phase is 'Resistance'."
-      - content: "Anger"
+        explanation: "No, the four phases are Denial, Resistance, Exploration, Commitment."
+      - content: "Anger, Denial, Exploration, Execution"
         isCorrect: false
-        explanation: "No, the second phase is 'Resistance'."
-      - content: "Bargaining"
+        explanation: "No, the four phases are Denial, Resistance, Exploration, Commitment."
+      - content: "Planning, Bargaining, Implementation, Success"
         isCorrect: false
-        explanation: "No, the second phase is 'Resistance'."
-      - content: "Resistance"
+        explanation: "No, the four phases are Denial, Resistance, Exploration, Commitment."
+      - content: "Denial, Resistance, Exploration, Commitment"
         isCorrect: true
-        explanation: "Yes, the second phase is 'Resistance'."
+        explanation: "Yes, the four phases are Denial, Resistance, Exploration, Commitment."
     - content: "When crafting the key messages in your service adoption plan, you should write them down from the perspective of the __________."
       choices:
       - content: "Executive sponsor"
@@ -96,14 +96,6 @@ quiz:
       - content: "False"
         isCorrect: false
         explanation: "Incorrect - a good service supports your objectives without being center-stage."
-    - content: "True or false: When interviewing employees, in-person or video chat meetings are preferable to get the full context of communications?"
-      choices:
-      - content: "True"
-        isCorrect: true
-        explanation: "Correct - you can get more context through non-verbal clues through in-person and video chats."
-      - content: "False"
-        isCorrect: false
-        explanation: "Incorrect - you can get more context through non-verbal clues through in-person and video chats."
     - content: "Assessing the organizational readiness will allow you to do which of the following?"
       choices:
       - content: "Determine how receptive your end users are to change"
