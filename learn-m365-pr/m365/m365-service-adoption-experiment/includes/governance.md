@@ -11,7 +11,7 @@ You can achieve these strategic pillars by making governance decisions that prio
 Make the following decisions. (At this point, these decisions apply only to Phase 2).
 
 **Decision 1: Who can create teams?**
-In phase 2, you can restrict who can create teams to the early adopter population and your core project team. This lets your early adopters create additional teams if needed. Monitoring this behavior will give you key information for your broad deployment.
+In Phase 2, you can restrict who can create teams to the early adopter population and your core project team. This lets your early adopters create additional teams if needed. Monitoring this behavior will give you key information for your broad deployment.
 
 **Decision 2: Teams naming conventions**
 You'll likely want to implement some naming conventions for your broad deployment of Teams, and check for duplicate names. In Phase 2, we suggest that you use a manual naming convention for your initial projects. As a best practice, you could conduct an interactive onboarding with the early adopter project team and let them choose their own name. This will provide insight into how employees think about their work. That insight will be essential when you create a larger-scale naming convention at a later time. This capability is only available if you have the appropriate P1 Azure Active Directory Premium license. Learn more at [The key to rolling out Microsoft Teams on home turf: Good governance](https://www.microsoft.com/itshowcase/blog/the-key-to-rolling-out-microsoft-teams-on-home-turf-good-governance/). 
