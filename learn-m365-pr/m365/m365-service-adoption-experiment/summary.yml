@@ -146,8 +146,8 @@ quiz:
       - content: "Audit employees"
         isCorrect: false
         explanation: "No, protecting corporate assets is one of the four pillars of content governance."
-     - content: "Which of the following is NOT a reason to approve apps available in Microsoft Teams?"
-       choices:
+    - content: "Which of the following is NOT a reason to approve apps available in Microsoft Teams?"
+      choices:
       - content: "They will improve the collaboration experience."
         isCorrect: false
         explanation: "No, users should always have multiple apps to choose from."
@@ -160,8 +160,8 @@ quiz:
       - content: "Better Together scenarios depend on these apps being available."
         isCorrect: false
         explanation: "No, users should always have multiple apps to choose from."
-     - content: "Which of the following examples of success measures should be included in your project?"
-       choices:
+    - content: "Which of the following examples of success measures should be included in your project?"
+      choices:
       - content: "Service quality."
         isCorrect: false
         explanation: "No, Service quality, service reliability, and project budget performance are all examples of success measures should be included in your project."
