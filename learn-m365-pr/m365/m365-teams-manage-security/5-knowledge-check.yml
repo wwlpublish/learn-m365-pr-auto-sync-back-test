@@ -1,0 +1,66 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.manage-security.5-knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: Check your knowledge
+  ms.date: 09/03/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 3
+content: |
+quiz:
+  title: Check your knowledge
+  questions:
+
+  - content: "What would you use to determine whether a PDF file sent to a user is malicious?"
+    choices:
+    - content: "Safe links."
+      isCorrect: false
+      explanation: "That's incorrect. Safe Links doesn't check and identify malicious attachments."
+    - content: "Safe attachments."
+      isCorrect: true
+      explanation: "That's correct. Safe attachments is designed to check and identify malicious attachments."
+    - content: "Data loss prevention."
+      isCorrect: false
+      explanation: "That's incorrect. Data loss prevention prevents people from sharing sensitive information. It doesn't check whether an attachment is malicious."
+
+  - content: "Why would you configure an information barrier?"
+    choices:
+    - content: "To enable people or groups from communicating with one another."
+      isCorrect: false
+      explanation: "That's incorrect. An information barrier doesn't enable people or groups to communicate with one another."
+    - content: "To prevent people or groups from communicating with one another."
+      isCorrect: true
+      explanation: "That's correct. An information barrier prevents people or groups from communicating with one another."
+    - content: "To prevent users sending inappropriate messages between people or groups."
+      isCorrect: false
+      explanation: "That's incorrect. An information barrier doesn't prevent users sending inappropriate messages between people or groups."
+
+  - content: "To comply with the sensitive tier in the three-tier protection framework, how should you configure team settings?"
+    choices:
+    - content: "Public."
+      isCorrect: false
+      explanation: "That's incorrect. To comply with the sensitive tier of the three-tier protection framework, teams shouldn't be public."
+    - content: "Private."
+      isCorrect: true
+      explanation: "That's correct. To comply with the sensitive tier of the three-tier protection framework, teams should be private."
+    - content: "Private or public, depending on the organization's needs."
+      isCorrect: false
+      explanation: "That's incorrect. To comply with the sensitive tier of the three-tier protection framework, teams shouldn't be either public or private."
+
+  - content: "What are two ways of making Teams meetings more secure?"
+    choices:
+    - content: "Controlling who must wait in the lobby, and structured meetings."
+      isCorrect: true
+      explanation: "That's correct. Structured meetings, plus controlling who must wait in the lobby, and who can be admitted to a meeting automatically, makes Teams meetings more secure."
+    - content: "Controlling who must wait in the lobby, and implementing Safe Links."
+      isCorrect: false
+      explanation: "That's incorrect. Safe Links isn't a feature that makes Microsoft Teams meetings more secure."
+    - content: "Structured meetings and safe attachments."
+      isCorrect: false
+      explanation: "That's incorrect. Safe attachments isn't a feature that makes Microsoft Teams meetings more secure."
+
+
