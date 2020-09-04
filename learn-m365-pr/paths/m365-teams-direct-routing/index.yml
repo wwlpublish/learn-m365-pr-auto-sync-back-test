@@ -2,16 +2,19 @@
 uid: learn-m365.teams-direct-routing
 metadata:
   title: Deploy Teams phone systems with Direct routing
-  description: Learn about the benefits of deploying Direct Routing for Microsoft Teams, understand how to plan your deployment, and successfully migrate and manage Direct Routing.
+  description: Deploy Teams phone systems with Direct Routing introduces you to Direct Routing and its features, and then explains how to plan for a smooth Direct Routing role out. 
   ms.date: 09/03/2020
   author: PhilStollery
   ms.author: v-phstol
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Deploy Teams phone systems with Direct routing
-summary: "Learn about the benefits of deploying Direct Routing for Microsoft Teams, understand how to plan your deployment, and successfully migrate and manage Direct Routing."
+summary: "You can use Microsoft Teams to implement telephony in your business and integrate it with video conferences, chats, and other Teams features. Microsoft Teams Phone System is a private branch exchange (PBX) system that you can use to build a telephone system without complicated and expensive equipment. With Teams Direct Routing, you can route voice calls to, and receive calls from, almost any telephony carrier.  
+
+Deploy Teams phone systems with Direct Routing introduces you to Direct Routing and its features, and then explains how to plan for a smooth Direct Routing role out. You’ll also learn how to configure Direct Routing to support your users and how to migrate from other phone systems to Direct Routing in Teams. "
 prerequisites: | 
-  - None
+  - Ability to administer Microsoft Teams 
+  - Familiarity with traditional and VOIP telephony concepts such as private branch exchanges (PBXs) and public switch telephone networks (PSTNs) 
 iconUrl: /learn/achievements/generic-trophy.svg
 levels: 
 - intermediate
