@@ -9,6 +9,6 @@ metadata:
   author: lizap
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
-durationInMinutes: {approx length in minutes}
+durationInMinutes: 9
 content: |
   [!include[](includes/4-manage-endpoints-for-microsoft-teams.md)]
