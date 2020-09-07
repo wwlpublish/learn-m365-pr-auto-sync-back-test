@@ -44,7 +44,7 @@ quiz:
     - content: Debug and media logs.
       isCorrect: false
       explanation: "That's incorrect. Media logs contain diagnostic data about audio, video, and screen sharing but not data about connecting."
-    - content: ) Debug and desktop logs.
+    - content: Debug and desktop logs.
       isCorrect: true
       explanation: "That's correct. Debug logs are produced by the Windows and Mac desktop clients and are normally used to troubleshoot a problem. If needed, you can also look at the desktop log that contains data about events occurring between the desktop client and the browser."
     - content: Desktop and media logs.
