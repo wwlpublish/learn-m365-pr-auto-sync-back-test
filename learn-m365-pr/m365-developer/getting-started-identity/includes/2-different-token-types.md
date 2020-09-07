@@ -87,7 +87,7 @@ ID tokens for Microsoft identity are JSON web tokens (JWT). These ID tokens cons
 
 ### How do you obtain an ID token
 
-It is important for developers, whenever possible, to use a well-maintained Open ID Connect library. While Microsoft identity is built on open standards like OAuth2 and Open ID Connect, fully implementing these protocols is time consuming and complicated. It is also required that any implementation of these standards be kept up-to-date with the latest recommendations to ensure the implementation is as secure as possible. ​
+It's important for developers, whenever possible, to use a well-maintained Open ID Connect library. While Microsoft identity is built on open standards like OAuth2 and Open ID Connect, fully implementing these protocols is time consuming and complicated. It is also required that any implementation of these standards be kept up-to-date with the latest recommendations to ensure the implementation is as secure as possible. ​
 
 When your web app needs to authenticate the user, it can direct the user to the Microsoft identity platform `/authorize` endpoint using an Open ID Connect library. ​
 

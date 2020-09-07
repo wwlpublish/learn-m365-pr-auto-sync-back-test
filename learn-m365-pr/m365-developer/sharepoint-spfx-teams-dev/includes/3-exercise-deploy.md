@@ -46,7 +46,7 @@ Add another option to enable this web part to be used as a tab in a Microsoft Te
 Notice the project contains a folder **teams** that contains two images. These are used in Microsoft Teams to display the custom tab.
 
 > [!NOTE]
-> You may notice there is no **manifest.json** file present. The manifest file can be generated automatically by SharePoint from the **App Catalog** site or you can create it manually. For more information on manual creation of the manifest file, refer to the documentation: [Create Microsoft Teams manifest manually for a web part and deploy it to Microsoft Teams](https://docs.microsoft.com/sharepoint/dev/spfx/web-parts/guidance/creating-team-manifest-manually-for-webpart).
+> You may notice there is no **manifest.json** file present. The manifest file can be generated automatically by SharePoint from the **App Catalog** site or you can create it manually. For more information on manual creation of the manifest file, see the documentation: [Create Microsoft Teams manifest manually for a web part and deploy it to Microsoft Teams](https://docs.microsoft.com/sharepoint/dev/spfx/web-parts/guidance/creating-team-manifest-manually-for-webpart).
 >
 > In this exercise you will manually create the Microsoft Teams manifest file so that you may get familliar with its contents.
 
@@ -160,7 +160,7 @@ In the **Do you trust...?** dialog, select the checkbox **Make this solution ava
 
 This will make the web part available to all site collections in the tenant, including those that are behind a Microsoft Teams team.
 
-The last step is to publish the Microsoft Teams app to your tenant's Microsoft Teams store. Select the SharePoint package you just uploaded. Then, using the ribbon, select the **Files** tab and then the **Sync to Teams** button.
+The last step is to publish the Microsoft Teams app to your tenant's Microsoft Teams store. Select the SharePoint package you uploaded. Then, using the ribbon, select the **Files** tab and then the **Sync to Teams** button.
 
 ![Screenshot of the app deployment trust dialog](../media/03-sync-to-teams.png)
 
@@ -184,7 +184,7 @@ First, create a new Microsoft Teams team.
 
 Using the same browser where you're logged into SharePoint Online, navigate to https://teams.microsoft.com. When prompted, load the web client.
 
-If you don't have any teams in your tenant, you will be presented with the following dialog. Otherwise, select the **Join or create a team** at the bottom of the list of teams:
+If you don't have any teams in your tenant, you'll be presented with the following dialog. Otherwise, select the **Join or create a team** at the bottom of the list of teams:
 
 ![Screenshot of the create teams dialog](../media/03-create-team-step-01.png)
 
