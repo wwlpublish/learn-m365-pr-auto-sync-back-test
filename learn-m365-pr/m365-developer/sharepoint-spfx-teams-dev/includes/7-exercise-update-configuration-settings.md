@@ -105,13 +105,13 @@ Add a value to the **Custom Setting** property in the property pane. Notice how 
 
 Locate and open the following file in the project: **teams/manifest.json**.
 
-Set the value of the the property `version` to `0.2`.
+Set the value of the property `version` to `0.2`.
 
 Locate the property `configurableTabs[0].canUpdateConfiguration`.
 
 Set the value of this property to `false` and save the file.
 
-Create a Microsoft Teams app package by zipping the contents of the **./teams** folder. Make sure to zip just the contents and not the folder itself. This ZIP archive should contain 3 files at the root: two images and the **manifest.json**.
+Create a Microsoft Teams app package by zipping the contents of the **./teams** folder. Make sure to zip just the contents and not the folder itself. This ZIP archive should contain three files at the root: two images and the **manifest.json**.
 
 ## Delete the previous Microsoft Teams tab
 
@@ -145,7 +145,7 @@ At the top of the page, select the + icon in the horizontal navigation:
 
 ![Screenshot of the Microsoft Teams teams navigation](../media/03-add-tab-step-02.png)
 
-In the **Add a tab** dialog, locate and select the **SPFx Teams Together** app:
+In the **Add a tab** dialog, locate, and select the **SPFx Teams Together** app:
 
 ![Screenshot of the SPFx Teams Together app](../media/03-add-tab-step-09.png)
 

@@ -1,4 +1,4 @@
-In this unit, you'll learn how to configure your SharePoint Framework client-side web part's settings when its used as a tab in Microsoft Teams.
+In this unit, you'll learn how to configure your SharePoint Framework client-side web part's settings when it's used as a tab in Microsoft Teams.
 
 ## Custom Microsoft Teams tab configuration options
 
@@ -51,4 +51,4 @@ When set to `false`, the settings page is only displayed immediately before the 
 
 ## Summary
 
-In this unit, you learned how to configure your SharePoint Framework client-side web part's settings when its used as a tab in Microsoft Teams.
+In this unit, you learned how to configure your SharePoint Framework client-side web part's settings when it's used as a tab in Microsoft Teams.
