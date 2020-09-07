@@ -99,13 +99,13 @@ You'll use a .NET Core console application to run as a service. This app can the
 
 Open your command prompt, navigate to a directory where you have rights to create your project, and run the following command to create a new .NET Core console application:
 
-```shell
+```console
 dotnet new console -o graphdaemon
 ```
 
 After creating the application, run the following commands to ensure your new project runs correctly.
 
-```shell
+```console
 cd graphdaemon
 dotnet add package Microsoft.Identity.Client
 dotnet add package Microsoft.Graph
@@ -116,7 +116,7 @@ dotnet add package Microsoft.Extensions.Configuration.Json
 
 Open the application in Visual Studio Code using the following command:
 
-```shell
+```console
 code .
 ```
 
@@ -336,7 +336,7 @@ Console.WriteLine(requestUserEmail.GetHttpRequestMessage().RequestUri);
 
 Run the following command in a command prompt to compile the console application:
 
-```shell
+```console
 dotnet build
 ```
 
@@ -354,7 +354,7 @@ In the **appsettings.json** file in the console application, replace  `TARGET_US
 
 Run the following command to run the console application:
 
-```shell
+```console
 dotnet run
 ```
 

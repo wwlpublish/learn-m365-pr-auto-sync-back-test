@@ -31,7 +31,6 @@ On the **Register an application** page, set the values as follows:
 
 - **Name**: Identity Exercise 02
 - **Supported account types**: Accounts in this organizational directory only (Single tenant)
-- **Redirect URI**: Web = http://localhost:3007
 
     ![Screenshot of the Register an application page](../media/05-azure-ad-portal-new-app-01.png)
 
@@ -41,11 +40,15 @@ On the **Identity Exercise 02** page, copy the values **Application (client) ID*
 
   ![Screenshot of the application ID of the new app registration](../media/05-azure-ad-portal-new-app-details-01.png)
 
-On the **Identity Exercise 02** page, select the **1 web, 0 public client** link under the **Redirect URIs**.
+Select **Manage > Authentication** in the left-hand navigation.
 
-Locate the section **Implicit grant** and select both **Access tokens** and **ID tokens**. This tells Azure AD to return these tokens the authenticated user if requested.
+On the **Authentication** page, select **Add a platform**. When the **Configure platforms** panel appears, select **Single-page application**.
 
-Select **Save** in the top menu to save your changes.
+![Screenshot of the Configure platforms panel](../media/05-azure-ad-portal-newapp-details-02.png)
+
+In the **Configure single-page application** panel, add **http://localhost:3007** under **Redirect URIs**, and select **Configure**.
+
+![Screenshot of the Configure Web panel](../media/05-azure-ad-portal-newapp-details-03.png)
 
 #### Add permissions to the Azure AD app
 
@@ -58,8 +61,6 @@ On the **Request API Permissions** page, select **Microsoft APIs**, **Microsoft 
   ![Screenshot of selecting Microsoft Graph Delegated permissions](../media/05-azure-ad-portal-new-app-permissions-02.png)
 
 In the search box in the **Select permissions** section, enter **Mail.R**, select the permission **Mail.Read** permission, and then select **Add permissions**.
-
-  ![Screenshot of selecting Microsoft Graph Delegated permissions](../media/05-azure-ad-portal-new-app-permissions-03.png)
 
 ### Update the SPA with the Azure AD application details
 
@@ -75,7 +76,7 @@ Locate the `var msalConfig = {}` code in the **index.html** file. The `auth` obj
 
 To test the web page, first start the local web server. In the command prompt, execute the following command from the root of the project:
 
-```shell
+```console
 node server.js
 ```
 
@@ -85,7 +86,7 @@ Next, open a browser and navigate to **http://localhost:3007**. The page initial
 
 Select the **Sign In** button.
 
-Depending on the browser, you're using, a popup window will load or the page will redirect to the Azure AD sign in prompt.
+Depending on the browser, you're using, a popup window will load or the page will redirect to the Azure AD sign-in prompt.
 
 Sign in using a **Work or School Account** of a user in your organization. On the next screen, **don't select** the **Accept** button. Instead, examine the dialog:
 
@@ -117,7 +118,7 @@ Locate the `var graphConfig = {}` code in the **index.html** file. The `scopes` 
 
 The `graphConfig` object should now look like the following code:
 
-```js
+```javascript
 var graphConfig = {
   graphMeEndpoint: "https://graph.microsoft.com/v1.0/me",
   requestObj: {
@@ -132,7 +133,7 @@ Now change the Microsoft Graph requests to request calendar items instead of ema
 
 To test the web page, first start the local web server. In the command prompt, execute the following command from the root of the project:
 
-```shell
+```console
 node server.js
 ```
 
@@ -140,7 +141,7 @@ Next, open a browser and navigate to http://localhost:3007. The page initially c
 
 Select the **Sign In** button.
 
-Depending on the browser, you're using, a popup window will load or the page will redirect to the Azure AD sign in prompt.
+Depending on the browser, you're using, a popup window will load or the page will redirect to the Azure AD sign-in prompt.
 
 Sign in using a **Work or School Account** of a user in your organization. On the next screen, notice how the list of permissions has changed:
 
