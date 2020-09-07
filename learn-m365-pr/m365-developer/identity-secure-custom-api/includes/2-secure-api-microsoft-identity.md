@@ -94,7 +94,7 @@ Next, use the existing **Startup.cs** file to configure the authentication setti
 ```csharp
 public void ConfigureServices(IServiceCollection services)
 {
-  services.AddMicrosoftWebApiAuthentication(Configuration);
+  services.AddMicrosoftIdentityWebApiAuthentication(Configuration);
   services.AddControllers();
 
   services.AddSingleton(SampleData.Initialize());
@@ -102,6 +102,8 @@ public void ConfigureServices(IServiceCollection services)
 ```
 
 This code uses the **Microsoft.Identity.Web** NuGet package to configure the web application to use Microsoft identity and the MSAL.NET SDK.
+
+Finally, use the `VerifyUserHasAnyAcceptedScope()` method within your controller's action methods to verify the current request includes the necessary permissions scopes. If it doesn't, it throws an error. Otherwise, it will continue and execute the desired result.
 
 ```csharp
 public List<Product> GetAllProducts()
