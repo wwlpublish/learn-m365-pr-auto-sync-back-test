@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.implement-compliance.5-knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: Check your knowledge
+  ms.date: 09/07/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 3
+content: |
+quiz:
+  title: Check your knowledge
+  questions:
+
+  - content: "Why would you use communication compliance in Teams?"
+    choices:
+    - content: To identify inappropriate messages and/or sensitive information.
+      isCorrect: true
+      explanation: "Communication compliance helps identify offensive, profane, and harassing language, adult, racy, and gory images, and sensitive information."
+    - content: To check for insider trading and financial information.
+      isCorrect: false
+      explanation: "Communication compliance helps identify offensive, profane, and harassing language, adult, racy, and gory images, and sensitive information."
+    - content: To identify where teams are in breach of data protection laws.
+      isCorrect: false
+      explanation: "Communication compliance helps identify offensive, profane, and harassing language, adult, racy, and gory images, and sensitive information."
+
+  - content: "When using AppLocker for allow lists in Teams, which type of rule are you recommended to use?"
+    choices:
+    - content: Hash rules
+      isCorrect: false
+      explanation: "We don't recommend the use of hash rules because the rules would have to be changed each time the Teams client app is updated."
+    - content: Publisher condition rules
+      isCorrect: true
+      explanation: "We recommend that you use the publisher condition rules because all Teams app files are digitally signed."
+    - content: Path rules
+      isCorrect: false
+      explanation: "We don't recommend the use of path rules because the Teams installation directory is user-writable."
+
+  - content: "When using AppLocker for allow lists in Teams, which type of rule are you recommended to use?"
+    choices:
+    - content: Reactions (likes, hearts, and so on.)
+      isCorrect: false
+      explanation: "Reactions cannot be located through eDiscovery"
+    - content: Inline images
+      isCorrect: true
+      explanation: "Inline images can be located through eDiscovery."
+    - content: Code snippets
+      isCorrect: false
+      explanation: "Code snippets cannot be located through eDiscovery."
