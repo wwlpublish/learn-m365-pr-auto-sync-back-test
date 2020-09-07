@@ -196,7 +196,7 @@ namespace UserGroupRole.Controllers
 
 Replace the string `<VIEWER-GROUP-OBJECTID>` with the value copied from the All Groups page.
 
-Now create the view to display the categories.
+Now create the view to display the products.
 
 Add a new folder **Products** to the **Views** folder. Add a new file, **Index.cshtml**, to the new **Products** folder and add the following code to it. This will display all the products provided by the API:
 
