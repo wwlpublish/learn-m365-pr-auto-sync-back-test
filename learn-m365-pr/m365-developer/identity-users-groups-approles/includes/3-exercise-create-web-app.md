@@ -47,14 +47,15 @@ Open your command prompt, navigate to a directory where you want to save your wo
 Execute the following command to create a new ASP.NET Core MVC web application:
 
 ```console
-dotnet new mvc --auth SingleOrg
+dotnet new mvc --auth SingleOrg -o UserGroupRole
 ```
 
 After creating the application, run the following commands to ensure your new project runs correctly.
 
 ```console
-dotnet add package Microsoft.Identity.Web --version 0.2.1-preview
-dotnet add package Microsoft.Identity.Web.UI --version 0.2.1-preview
+cd UserGroupRole
+dotnet add package Microsoft.Identity.Web --version 0.3.1-preview
+dotnet add package Microsoft.Identity.Web.UI --version 0.3.1-preview
 ```
 
 Open the root folder of the new ASP.NET core application using a text editor such as Visual Studio Code.
@@ -98,7 +99,7 @@ services.Configure<CookiePolicyOptions>(options =>
 
 services.AddOptions();
 
-services.AddMicrosoftWebAppAuthentication(Configuration);
+services.AddMicrosoftIdentityWebAppAuthentication(Configuration);
 
 services.AddControllersWithViews(options =>
 {
@@ -114,7 +115,7 @@ services.AddRazorPages();
 Within the method `ConfigureServices()`, locate the following line:
 
 ```csharp
-services.AddMicrosoftWebAppAuthentication(Configuration);
+services.AddMicrosoftIdentityWebAppAuthentication(Configuration);
 ```
 
 Add the following code after this line. This code will configure the web app's middleware to support the v2 tokens from Microsoft identity:
