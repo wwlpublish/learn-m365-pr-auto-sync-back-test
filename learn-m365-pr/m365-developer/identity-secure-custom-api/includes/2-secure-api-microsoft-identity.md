@@ -45,7 +45,7 @@ Securing a web API with Microsoft identity that can be called by other applicati
 
 The first step is to register the app in Azure AD using the Azure AD admin center located at https://aad.portal.azure.com.
 
-![Screenshot of App Registrations page](../media/azure-ad-portal-new-app-00.png)
+![Screenshot of App Registrations page](../media/azure-aad-portal-newapp-00.png)
 
 #### Define scopes
 

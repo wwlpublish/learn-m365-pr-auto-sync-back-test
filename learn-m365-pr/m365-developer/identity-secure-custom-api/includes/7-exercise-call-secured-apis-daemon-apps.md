@@ -11,7 +11,7 @@ Select **Azure Active Directory** in the left-hand navigation.
 
 Select **App registrations** in the left-hand navigation.
 
-![Screenshot of the App registrations](../media/azure-ad-portal-home.png)
+![Screenshot of the App registrations](../media/azure-aad-portal-home.png)
 
 On the **App registrations** page, locate the application registration that represents the secured web API application from the first exercise in this module. To verify the application, compare the **Application (client) ID** and **Directory (tenant) ID** in the portal to the values set in the web api application.
 
@@ -54,7 +54,7 @@ Save the manifest by selecting the **Save** button.
 
 On the **App registrations** page, select **New registration**.
 
-![Screenshot of App Registrations page](../media/azure-ad-portal-new-app-00.png)
+![Screenshot of App Registrations page](../media/azure-aad-portal-newapp-00.png)
 
 On the **Register an application** page, set the values as follows:
 

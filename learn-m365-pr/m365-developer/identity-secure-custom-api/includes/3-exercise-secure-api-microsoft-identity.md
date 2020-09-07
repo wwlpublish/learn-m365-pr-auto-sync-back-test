@@ -12,7 +12,7 @@ Select **App registrations** in the left-hand navigation.
 
 On the **App registrations** page, select **New registration**.
 
-![Screenshot of App Registrations page](../media/azure-aad-portal-new-app-00.png)
+![Screenshot of App Registrations page](../media/azure-aad-portal-newapp-00.png)
 
 On the **Register an application** page, set the values as follows:
 
