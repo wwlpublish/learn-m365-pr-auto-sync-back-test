@@ -8,11 +8,11 @@ Select **Azure Active Directory** in the left-hand navigation.
 
 Select **App registrations** in the left-hand navigation.
 
-![Screenshot of the App registrations](../media/azure-ad-portal-home.png)
+![Screenshot of the App registrations](../media/azure-aad-portal-home.png)
 
 On the **App registrations** page, select **New registration**.
 
-![Screenshot of App Registrations page](../media/azure-ad-portal-new-app-00.png)
+![Screenshot of App Registrations page](../media/azure-aad-portal-new-app-00.png)
 
 On the **Register an application** page, set the values as follows:
 
@@ -74,7 +74,7 @@ After creating the application, run the following commands to ensure your new pr
 
 ```console
 cd ProductCatalogWeb
-dotnet add package Microsoft.Identity.Web --version 0.2.3-preview
+dotnet add package Microsoft.Identity.Web --version 0.3.1-preview
 ```
 
 Open the scaffolded project folder, which is named **ProductCatalog** in **Visual Studio Code**. When a dialog box asks if you want to add required assets to the project, select **Yes**.
@@ -141,7 +141,7 @@ services.AddAuthentication(AzureADDefaults.BearerAuthenticationScheme)
 Replace them with the following code:
 
 ```csharp
-services.AddMicrosoftWebApiAuthentication(Configuration);
+services.AddMicrosoftIdentityWebApiAuthentication(Configuration);
 ```
 
 While the provided middleware will validate the token, authorizing a request for a specific controller action is the responsibility of the developer. In this exercise, the presence of scopes in the token is used to authorize the action. If the scope is present, the action is allowed. Validating scopes will be done in the action methods of the controllers that will be added later in this exercise.
@@ -229,7 +229,7 @@ The sample data will be stored as a singleton in the dependency injection contai
 ```csharp
 public void ConfigureServices(IServiceCollection services)
 {
-    services.AddMicrosoftWebApiAuthentication(Configuration);
+    services.AddMicrosoftIdentityWebApiAuthentication(Configuration);
     services.AddControllers();
 
     services.AddSingleton(SampleData.Initialize());
