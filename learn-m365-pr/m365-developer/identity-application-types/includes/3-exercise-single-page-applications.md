@@ -47,15 +47,15 @@ console.log('Press CTRL+C to stop the web server...');
 
 ### Create a web page for the user to sign in and display details
 
-In the current folder, add a new file **index.html** told the folder. Add the following code to the **index.html** file:
+In the current folder, add a new file named **index.html**. Add the following code to the **index.html** file:
 
 ```html
 <!DOCTYPE html>
 <html>
 <head>
   <title>Microsoft Identity: Application Types</title>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.5.5/bluebird.min.js"></script>
-  <script src="https://alcdn.msftauth.net/lib/1.1.3/js/msal.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.7.2/bluebird.min.js"></script>
+  <script src="https://alcdn.msauth.net/lib/1.4.0/js/msal.min.js"></script>
 </head>
 
 <body>
@@ -346,7 +346,7 @@ Next, open a browser and navigate to http://localhost:3007. The page initially c
 
 Select the **Sign in** button.
 
-Depending on the browser, you're using, a popup window will load or the page will redirect to the Azure AD sign in prompt.
+Depending on the browser, you're using, a popup window will load or the page will redirect to the Azure AD sign-in prompt.
 
 Sign in using a **Work or School Account** and accept the permissions requested for the application by selecting **Accept**.
 
