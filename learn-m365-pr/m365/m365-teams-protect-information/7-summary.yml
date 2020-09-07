@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.protect-information.7-summary
+title: Summary
+metadata:
+  title: Summary
+  description: Review what you've learned about protecting your organizations' information in Teams.
+  ms.date: 09/07/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 1
+content: |
+  [!include[](includes/7-summary.md)]

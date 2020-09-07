@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.protect-information.6-knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: Check your knowledge
+  ms.date: 09/07/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 3
+content: |
+quiz:
+  title: Check your knowledge
+  questions:
+
+  - content: "Which security feature prevents the accidental sharing of sensitive information?"
+    choices:
+    - content: Data loss prevention
+      isCorrect: true
+      explanation: "Data loss prevention policies prevent the accidental sharing of sensitive information."
+    - content: Safe Links
+      isCorrect: false
+      explanation: "Safe Links isn't designed to prevent the accidental sharing of sensitive information."
+    - content: Advanced Threat Protection
+      isCorrect: false
+      explanation: "Advanced Threat Protection monitors suspicious activity. It doesn't prevent the accidental sharing of sensitive information."
+
+  - content: "Where do you enable auditing in Teams?"
+    choices:
+    - content: Microsoft 365 admin center
+      isCorrect: false
+      explanation: "Auditing for Teams isn't enabled using the Microsoft 365 admin center."
+    - content: Security & Compliance Center
+      isCorrect: true
+      explanation: "Auditing for Teams is enabled in the Security & Compliance Center."
+    - content: Microsoft Teams admin center
+      isCorrect: false
+      explanation: "Auditing for Teams isn't enabled in the Microsoft Teams admin center."
+
+  - content: "What determines where Microsoft Teams data is stored?"
+    choices:
+    - content: The location of the user who saved the data
+      isCorrect: false
+      explanation: "Data storage in Teams doesn't depend on where individual users are located."
+    - content: Your Microsoft 365 tenant
+      isCorrect: true
+      explanation: "The location of your Microsoft 365 tenant determines where your Teams data is stored."
+    - content: The location you select in the Teams admin center
+      isCorrect: false
+      explanation: "The data storage location isn't determined by a setting in the Teams admin center."
