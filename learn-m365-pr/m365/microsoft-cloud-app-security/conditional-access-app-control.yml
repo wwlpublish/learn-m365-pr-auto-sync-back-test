@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.cloud-app-security.conditional-access-app-control
+title: Protect your data and apps with Conditional Access App Control
+metadata:
+  title: Protect your data and apps with Conditional Access App Control
+  description: Learn how to protect your data and apps with Conditional Access App Control. 
+  ms.date: 07/09/2020
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 10
+content: |
+  [!include[](includes/conditional-access-app-control.md)]
