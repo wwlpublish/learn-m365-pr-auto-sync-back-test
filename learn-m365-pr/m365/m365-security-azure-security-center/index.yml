@@ -35,6 +35,7 @@ units:
 - learn-m365.sci-asc.manage-cloud-posture
 - learn-m365.sci-asc.protect-cloud-workloads
 - learn-m365.sci-asc.integrate-sentinel
+- learn-m365.sci-asc.knowledge-check
 - learn-m365.sci-asc.summary
 badge:
   uid: learn-m365.sci-asc.badge
