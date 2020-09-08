@@ -2,7 +2,7 @@
 ## How the City of Corona unlocked potential with Microsoft 365
 
 
-![City of Corona](../media/cityofcorona.jpg)
+![City of Corona](../media/CityofCorona.jpg)
 
 The City of Corona, California, is the municipal government for more than 160,000 residents. Their aging IT infrastructure was not adequate to serve the needs of the government or the public, and they lacked an easy, secure way to share information. Their IT department is responsible for providing software for police, firefighters, and other critical city functions, but must also manage working within the city's budget. With siloed applications impeding workflow, sensitivity for risk mitigation, and the constant need to minimize cost, the City of Corona's IT team had a big challenge on their hands.
 
