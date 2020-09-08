@@ -1,0 +1,65 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.rollout-using-advisor.6-knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: Check your knowledge
+  ms.date: 09/08/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 4
+content: |
+quiz:
+  title: Check your knowledge
+  questions:
+
+  - content: "Which of these is a prerequisite for rolling out Teams?"
+    choices:
+    - content: Advisor for Teams.
+      isCorrect: false
+      explanation: "That's incorrect. Advisor for Teams is part of the Teams admin center and isn't a prerequisite for rolling out Teams."
+    - content: A subscription to a minimum of Microsoft 365 Business Basic.
+      isCorrect: true
+      explanation: "That's correct. To roll out Teams, you must be subscribed to Microsoft 365 Business Basic, Business Standard, or Business Premium license, or one of the Enterprise plans."
+    - content: At least one Teams communications support engineer.
+      isCorrect: false
+      explanation: "That's incorrect. Assigning roles isn't a prerequisite to rolling out Teams."
+
+  - content: "What extra support does Team Advisor give to organizations upgrading from Skype for Business?"
+    choices:
+    - content: Downloadable assets and live planning workshops.
+      isCorrect: true
+      explanation: "That's correct. In addition to the components provided for all workloads, Skype for Business includes downloadable assets, live planning workshops, and additional resources."
+    - content: Advisor for Teams bot.
+      isCorrect: false
+      explanation: "That's incorrect. The Advisor for Teams bot is included for all workloads and isn't additional for Skype for Business."
+    - content: Adoption tasks.
+      isCorrect: false
+      explanation: "That's incorrect. Adoption tasks are included for all workloads and aren't additional for Skype for Business."
+
+  - content: "Which of these tests will be included in an assessment for the meetings and conferencing workload?"
+    choices:
+    - content: Microsoft 365 Groups naming policy configured.
+      isCorrect: false
+      explanation: "That's incorrect. This test is included in the chat, teams, channels, and apps workload, but not the meetings and conferencing workload."
+    - content: Stream licenses.
+      isCorrect: true
+      explanation: "That's correct. The test for at least one Stream license is included in the meetings and conferencing workload."
+    - content: Microsoft 365 Groups Expiration Policy configured.
+      isCorrect: false
+      explanation: "That's incorrect. This test is included in the chat, teams, channels, and apps workload, but not the meetings and conferencing workload."
+
+  - content: "Where can you find the percentage of tasks left to complete for a workload?"
+    choices:
+    - content: The Planner board view.
+      isCorrect: false
+      explanation: "That's incorrect. The Planner board view displays individual tasks, and not the percentage of tasks left to complete."
+    - content: The Planner charts view.
+      isCorrect: true
+      explanation: "That's correct. The Planner charts view shows the percentage of tasks left to complete."
+    - content: The Planner schedule view.
+      isCorrect: false
+      explanation: "That's incorrect. The Planner schedule view shows tasks with an assigned date on a calendar view."
+
