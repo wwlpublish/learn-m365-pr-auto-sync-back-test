@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: Learn what Microsoft Teams meetings are, what defines Microsoft Teams devices, and what the basic requirements are for setting up Microsoft Teams Rooms.
-  ms.date: 09/01/2020
+  ms.date: 09/08/2020
   author: AlexandraHrt
   ms.author: elizapo
   ms.topic: interactive-tutorial
@@ -13,39 +13,50 @@ durationInMinutes: 5
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Question here"
+    - content: "What is the Teams Meetings lifecycle?"
       choices:
-      - content: "Choice 1"
+      - content: "The process by which you schedule and end a Microsoft Teams meeting."
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+        explanation: "Starting and ending a meeting are part of the Microsoft Teams meetings lifecycle. But there is more to it, including activities that happen before and after the meeting."
+      - content: "Leveraging Microsoft Teams to manage a meeting, from creating the agenda through post-meeting follow-ups."
         isCorrect: true
-        explanation: "explanation"
+        explanation: "Correct. The Teams Meeting lifecycle captures all the actions around a meeting, from working on the meeting agenda to viewing a recording of the meeting after it has completed."
+      - content: "Using Microsoft Teams to record a meeting so that it can be viewed later."
+        isCorrect: false
+        explanation: "Recording a meeting can be part of the meeting lifecycle. But there is more to it, including activities that happen before and after the meeting."
 
-    - content: "Question here"
+    - content: "What is the device called that in-room attendees can use to join a meeting with one touch?"
       choices:
-      - content: "Choice 1"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+      - content: "Console"
         isCorrect: true
-        explanation: "explanation"
+        explanation: "Correct. The console is the device that sits on the meeting room table and that attendees interact with to start meetings, make calls, and end meetings."
+      - content: "Compute module"
+        isCorrect: false
+        explanation: "The console connects to the compute module, but attendees do not interact directly with it."
+      - content: "Front of room display"
+        isCorrect: false
+        explanation: "The front of room display is the television or monitor that shows the meeting content to the attendees in the meeting room."
       
-    - content: "Question here"
+    - content: "What is the name of the feature that lets remote meeting attendees easily see an analog whiteboard?"
       choices:
-      - content: "Choice 1"
+      - content: "Proximity-based join"
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
+        explanation: "Proximity-based join lets you join a Microsoft Teams Room to your meeting without having to use the front-of-room console. Proximity-Join uses a Bluetooth signal that your PC or mobile device uses to detect the room and invite it into the meeting."
+      - content: "Whiteboard touching and inking"
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+        explanation: "Whiteboard touching and inking is a digital whiteboard that can be shared via Microsoft Teams."
+      - content: "Content camera"
         isCorrect: true
-        explanation: "explanation"
-      
+        explanation: "You’re right! This feature uses a dedicated camera pointed at an analog whiteboard. It frames and centers the whiteboard making it easier for remote participants to see the drawings on the board. It also lets remote participants see the full whiteboard even if someone walks in front of it."
+
+    - content: "What are the network requirements for Microsoft Teams Rooms?"
+      choices:
+      - content: "Wireless only"
+        isCorrect: false
+        explanation: "Wireless networking is not supported on Teams Rooms. You must have a physical network connection when installing and using Teams Rooms."
+      - content: "Physical ethernet only"
+        isCorrect: true
+        explanation: "You got it! To have the most reliable networking connection, Teams Rooms requires use of a physical network connection."
+      - content: "Both wireless and wired ethernet"
+        isCorrect: false
+        explanation: "Teams Rooms requires a physical network connection. Wireless connectivity is unsupported."       
