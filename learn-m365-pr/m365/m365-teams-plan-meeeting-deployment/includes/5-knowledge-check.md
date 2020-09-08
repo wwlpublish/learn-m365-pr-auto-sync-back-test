@@ -1,0 +1,39 @@
+quiz:
+  title: Check your knowledge
+  questions:
+
+  - content: "Which outgoing UDP ports should be open for clients to use Teams?"
+    choices:
+    - content: Ports 192 and 1433.
+      isCorrect: false
+      explanation: "That's incorrect. These aren't the UDP ports."
+    - content: Ports 3478 and 3481.
+      isCorrect: true
+      explanation: "That's correct. Ports 3478 and 3481 are the outgoing UDP ports that need to be open."
+    - content: Ports 80 and 443.
+      isCorrect: false
+      explanation: "That's incorrect. It is true that TCP ports 80 and 443 outgoing are needed, but these aren't the UDP ports."
+  
+  - content: "Where are Teams meetings recordings stored?"
+    choices:
+    - content: Microsoft SharePoint Online
+      isCorrect: false
+      explanation: "That's incorrect. SharePoint Online can't be used to store recordings."
+    - content: Microsoft Stream
+      isCorrect: true
+      explanation: "That's correct. Microsoft Streams recordings are stored in Microsoft Stream."
+    - content: Microsoft OneDrive
+      isCorrect: false
+      explanation: "That's incorrect. OneDrive can't be used to store recordings."
+  
+  - content: "Which type of PC can you add Microsoft Teams Rooms peripherals to?"
+    choices:
+    - content: Any Windows 10 PC
+      isCorrect: false
+      explanation: "You can prepare your own Microsoft Teams Rooms solution by using a Surface Pro device and existing, supported AV peripheral devices."
+    - content: Microsoft Surface Pro
+      isCorrect: true
+      explanation: "You can prepare your own Microsoft Teams Rooms solution by using a Surface Pro device and existing, supported AV peripheral devices."
+    - content: Code Microsoft Surface Book
+      isCorrect: false
+      explanation: "You can prepare your own Microsoft Teams Rooms solution by using a Surface Pro device and existing, supported AV peripheral devices."
