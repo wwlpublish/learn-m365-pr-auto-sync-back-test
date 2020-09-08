@@ -9,6 +9,6 @@ metadata:
   author: lizap
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
-durationInMinutes: {approx length in minutes}
+durationInMinutes: 1
 content: |
   [!include[](includes/6-summary.md)]
