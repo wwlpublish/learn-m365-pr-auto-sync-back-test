@@ -1,10 +1,10 @@
-One of the key elements of the Cloud App Security framework is protecting your sensitive information. Sensitivity is a subjective phrase, as this can vary from organization to organization.
+One of the key elements of the Cloud App Security framework is protecting your sensitive information. Sensitivity is a subjective phrase, as this can vary from one organization to another.
 
-Here, you’ll understand how to go about finding which apps are accessing your data, how to classify which information is sensitive, how to protect it from illegal access, and how to monitor and report on the overall health of your environment.
+Here, you’ll understand how to find which apps are accessing your data, how to classify which information is sensitive, how to protect it from illegal access, and how to monitor and report on the overall health of your environment.
 
 ## What is Information Protection?
 
-An employee might accidentally upload a file to the wrong place. Or they could send confidential information to someone who shouldn’t have that information. As a result, information could be lost or made accessible to the wrong person. Any lost or wrongfully exposed information can have serious legal, financial, or reputational consequences for your organization. Information is vital to any modern organization. You want to ensure that information is protected at all times.
+An employee might accidentally upload a file to the wrong place. Or they could send confidential information to someone who shouldn’t have it. As a result, information could be lost or made accessible to the wrong person. Any lost or wrongfully exposed information can have serious legal, financial, or reputational consequences for your organization. Information is vital to any modern organization, and you want to ensure that it’s protected at all times.
 
 To help you, Microsoft Cloud App Security natively integrates with Azure Information Protection, a cloud-based service that helps classify and protect files and emails across your organization.
 
@@ -16,31 +16,32 @@ You enforce information protection with Microsoft Cloud App Security through pha
 
 ### Phase 1: Discover data
 
-During this phase, you make sure your apps are connected to Microsoft Cloud App Security so that it can scan for and classify data, and then apply policies and controls. You can do this in two different ways, use an app connector, or use Conditional Access App Control.
+During this phase, you make sure apps are connected to Microsoft Cloud App Security so it can scan for and classify data, then apply policies and controls. You can do this in two different ways: use an app connector, or use Conditional Access App Control.
 
 ### Phase 2: Classify sensitive information
 
 In this phase, you’ll do the following:
 
-1. Decide what counts as sensitive in the context of your organization.  Microsoft Cloud App Security includes over 100 predefined sensitive information types, in addition to the default labels in Azure Information Protection. Sensitive information types and labels define how to handle information like passport numbers and national identity numbers, and more  You can also take advantage of default labels in Azure Information Protection that will be used by Microsoft Cloud App Security when scanning, to classify information. The labels are:
-   - Personal: Data for personal, non-business use only
-   - Public: Data that can be shared for public consumption (marketing posters, blog posts, etc.)
-   - General: Data that can’t be shared for public consumption, but can be shared with external partners (project timelines, organizational charts, etc.)
-   - Confidential: Data that could damage the organization if it is shared with unauthorized people (sales account data, forecasts, etc.)
-   - Highly confidential: Very sensitive data that will cause serious damage if shared with unauthorized people (customer details, passwords, source code, etc.)
+1. Decide what counts as sensitive in the context of your organization. Microsoft Cloud App Security includes more than 100 predefined sensitive information types, and default labels in Azure Information Protection. Sensitive information types and labels define how to handle, for example, passport numbers and national identity numbers. You can also use default labels in Azure Information Protection. These labels will be used by Microsoft Cloud App Security when scanning, to classify information. The labels are:
+
+   - **Personal**: Data for personal, nonbusiness use only.
+   - **Public**: Data that can be shared for public consumption, such as marketing posters and  blog posts.
+   - **General**: Data that can’t be shared for public consumption, but can be shared with external partners. For example, project timelines and organizational charts.
+   - **Confidential**: Data that could damage the organization if it’s shared with unauthorized people. For example, sales account data and forecasts.
+   - **Highly confidential**: Very sensitive data that will cause serious damage if shared with unauthorized people. For example, customer details, passwords and source code.
 1. Enable Azure Information Protection integration in Microsoft Cloud App Security by selecting **Automatically scan new files for Azure Information Protection classification labels** in the **Settings** pane:
 
 :::image type="content" source="../media/phase2-classify-sensitive-information.png" alt-text="Screenshot showing how to configure Azure information protection":::
 
 ### Phase 3: Protect data
 
-Create policies to detect sensitive information and act accordingly. There are different types of policies you can create. For example, you can create a **File policy** to scan the content of files in your apps in real-time and for data at rest. File policies let you apply governance actions, which enable you to automatically:
+There are different types of policies you can create to detect sensitive information and act accordingly. For example, you can create a **File policy** to scan the content of files in your apps in real time, and for data at rest. File policies let you apply governance actions. You can then automatically:
 
-- Trigger alerts and email notifications
-- Change sharing access for files
-- Quarantine files
-- Remove file or folder permissions
-- Move files to a trash folder
+- Trigger alerts and email notifications.
+- Change sharing access for files.
+- Quarantine files.
+- Remove file or folder permissions.
+- Move files to a trash folder.
 
 To create a file policy
 
@@ -69,4 +70,4 @@ Check your dashboard to monitor for alerts and the overall health of your enviro
 
 :::image type="content" source="../media/phase4-alerts.png" alt-text="Screenshot showing how to monitor for alerts":::
 
-You can investigate a file-related alert to better understand what caused the alert to be triggered. Or you can dismiss an alert that you determine can be ignored.  You can also export your alerts to a CSV file for further analysis.
+You can investigate a file-related alert to better understand what caused it to be triggered. Or you can dismiss an alert that you determine could be ignored. You can also export your alerts to a CSV file for further analysis.
