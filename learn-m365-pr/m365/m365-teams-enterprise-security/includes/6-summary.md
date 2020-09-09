@@ -1,0 +1,9 @@
+In your firm of legal advisors, the sensitive nature of your business requires that you deal with clients' secret information every day. You had noticed regular attacks and you wanted to use industry-leading techniques to counter them. By using Safe Links in Teams, you're able to prevent users from reaching URLs with bad reputations. By using Safe Attachments, you can intercept files with insecure content, as they're exchanged in Teams. You also used multi-factor authentication (MFA) to ensure that users' credentials didn't constitute a weak link in the security chain.
+
+Microsoft Teams promotes close collaboration and high productivity for your users. By implementing Safe Links, Safe Attachments, and MFA, you can ensure  this extra functionality doesn't introduce extra opportunities for malicious users to attack your users and data.
+
+Now that you've completed this module, you should be able to:
+
+- Describe how Safe Links protects your users.
+- Demonstrate how Safe Attachments can prevent data compromise.
+- Explain how to configure multi-factor authentication to secure access to Teams.
