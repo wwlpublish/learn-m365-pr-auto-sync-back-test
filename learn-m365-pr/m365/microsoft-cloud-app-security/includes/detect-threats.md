@@ -36,7 +36,7 @@ Now that you’ve learned about the anomaly detection policies, let’s configur
 
 You can set filters to customize how you monitor application usage. Filters include an application filter, selected data views, and a selected start date. You can also set the sensitivity, which enables you to set how many alerts the policy should trigger.
 
-This interactive video walks you through the steps to configure an anomaly detection policy:
+This interactive guide walks you through the steps to configure an anomaly detection policy:
 
 > [!VIDEO https://mslearn.cloudguides.com/guides/Detect%20threats%20and%20manage%20alerts%20with%20Microsoft%20Cloud%20App%20Security]
 
