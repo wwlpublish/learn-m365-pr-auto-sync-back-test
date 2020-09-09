@@ -11,4 +11,4 @@ metadata:
   ms.prod: learning-teams
 durationInMinutes: 2
 content: |
-  [!include[](includes/2-configure-safe-attachments)]
+  [!include[](includes/2-configure-safe-attachments.md)]
