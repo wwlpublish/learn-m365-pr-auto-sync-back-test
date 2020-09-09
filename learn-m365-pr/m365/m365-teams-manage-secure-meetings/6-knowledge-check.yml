@@ -49,7 +49,7 @@ quiz:
       explanation: "A customer meeting policy allows you to create a policy that's assigned to certain users."
     - content: When you want to prevent guests joining meetings for your organization.
       isCorrect: false
-      explanation: "You can amend the global policy if you want to prevent guests from joining meetings.""
+      explanation: "You can amend the global policy if you want to prevent guests from joining meetings."
 
   - content: "Your organization doesn't have a Microsoft Stream license. How long are meeting recordings stored?"
     choices:
