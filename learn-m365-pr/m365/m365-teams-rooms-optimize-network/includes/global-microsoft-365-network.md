@@ -16,7 +16,7 @@ What if you could reduce the corporate network traffic and get your traffic onto
 
 Historically, corporate networks were designed with one or two centralized datacenters that housed all the servers and firewalls for the corporation. This connectivity made perfect sense when the overwhelming majority of network traffic was destined for corporate servers housed in those datacenters. But with the emergence of Software as a Service (SaaS) and Platform as a Service (PaaS) offerings, a lot of traffic is now headed to the internet and not as much traffic is headed to corporate datacenters.
 
-When you add internet-bound realtime media into the mix, does it still make sense to have corporate internet connectivity only located at centralized datacenters? Is there a way to optimize a corporate network to improve Microsoft 365 performance?
+When you add internet-bound, real-time media into the mix, does it still make sense to have corporate internet connectivity only located at centralized datacenters? Is there a way to optimize a corporate network to improve Microsoft 365 performance?
 
 Local Internet breakouts and local DNS resolution are key to optimizing corporate network connectivity to Microsoft 365.
 
