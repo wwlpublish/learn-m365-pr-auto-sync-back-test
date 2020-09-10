@@ -25,7 +25,7 @@ You'll use Node.js to create custom Microsoft Teams tabs in this module. The exe
 - NPM (installed with Node.js) - v6.\* (or higher)
 - [Gulp](https://gulpjs.com/) - v4.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.12\* (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.15\* (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
@@ -36,7 +36,7 @@ Open your command prompt, navigate to a directory where you want to save your wo
 
 Run the Yeoman Generator for Microsoft Teams by running the following command:
 
-```shell
+```console
 yo teams
 ```
 
@@ -48,19 +48,42 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project?**: Adaptive Cards Task Modules
 - **Your (company) name? (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: v1.5
+- **Which manifest version would you like to use?**: v1.6
 - **Enter your Microsoft Partner ID, if you have one?**: (Leave blank to skip)
 - **What features do you want to add to your project?**: A Tab
-- **The URL where you will host this solution?**: https://youtubeplayer.azurewebsites.net
+- **The URL where you will host this solution?**: (Accept the default option)
+- **Would you like to show a loading indicator when your app/tab loads?** No
 - **Would you like to include Test framework and initial tests?**: No
 - **Would you like to use Azure Applications Insights for telemetry?**: No
-- **Default Tab name? (max 16 characters)**: YouTube Player
+- **Default Tab name? (max 16 characters)**: YouTube Player 
 - **Do you want to create a configurable or static tab?**: Static
+- **Do you require Azure AD Single-Sign-On support for the tab?** No
 
 > [!NOTE]
 > Most of the answers to these questions can be changed after creating the project. For example, the URL where the project will be hosted isn't important at the time of creating or testing the project.
 
 After answering the generator's questions, the generator will create the scaffolding for the project and then execute `npm install` that downloads all the dependencies required by the project.
+
+### Ensure the project is using the latest version of Teams manifest & SDK
+
+Run the npm command to install the latest version of the SDK
+
+```console
+npm i @microsoft/teams-js
+```
+
+Locate and open the `manifest.json` file in the `manifest`  folder of the project. 
+- Change the `$schema` property to **https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json**
+- Change the `manifestVersion` property to **1.7**.
+
+Open the `gulp.config.js` file in the root folder of the project. Add the following to the **SCHEMAS** property.
+
+```json
+{
+  version: "1.7",
+  schema: "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json"
+}
+```
 
 ### Test the personal tab
 
@@ -68,7 +91,7 @@ Before customizing the tab, let's test the tab to see the initial developer expe
 
 From the command line, navigate to the root folder for the project and execute the following command:
 
-```shell
+```console
 gulp ngrok-serve
 ```
 
@@ -130,7 +153,7 @@ Locate and open the file that contains the React component used in the project: 
 Update the import statements in this file to add components from the Fluent UI - React library. Find the following import statement at the top of the file that imports components from the Fluent UI - React library:
 
 ```typescript
-import { Provider, Flex, Text, Button, Header } from "@fluentui/react";
+import { Provider, Flex, Text, Button, Header } from "@fluentui/react-northstar";
 ```
 
 Replace the previous statement with the following import statement:
@@ -145,7 +168,7 @@ import {
   ThemePrepared,
   themes,
   Input
-} from "@fluentui/react";
+} from "@fluentui/react-northstar";
 ```
 
 Update the state of the component to contain a list of items and a property for a new item. Locate the `IYouTubePlayerTabState` interface in the **YouTubePlayerTab.tsx** file and add the following properties to it:
@@ -240,7 +263,7 @@ At this point, our Microsoft Teams app, implemented as a custom person tab is se
 
 From the command line, navigate to the root folder for the project and execute the following command:
 
-```shell
+```console
 gulp ngrok-serve
 ```
 
@@ -348,7 +371,7 @@ This code will create a new `taskInfo` object with the details of the task modul
 
 From the command line, navigate to the root folder for the project and execute the following command:
 
-```shell
+```console
 gulp ngrok-serve
 ```
 
@@ -467,7 +490,7 @@ const taskModuleInfo = {
 
 From the command line, navigate to the root folder for the project and execute the following command:
 
-```shell
+```console
 gulp ngrok-serve
 ```
 
