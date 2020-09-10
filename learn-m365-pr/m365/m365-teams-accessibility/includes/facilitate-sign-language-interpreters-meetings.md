@@ -53,7 +53,8 @@ You can set it to one of the following options:
 ### Allow interpreters and participants to share IP video feed  
 
 Sign language interpreters need to be able to share their video feed with meeting participants so that users can see their interpretation, and so that the interpreters can also read signs from users who are deaf.
- As an admin, you need to make sure video isn't turned off in your organization's policies. You do this by ensuring that **Allow IP video** is set to **On** in your meeting policies:
+
+As an admin, you need to make sure video isn't turned off in your organization's policies. You do this by ensuring that **Allow IP video** is set to **On** in your meeting policies:
 
 :::image type="content" source="../media/microsoft-teams-admin-center-meeting-policies-allow-ip-video.png" alt-text="Screenshot showing the Teams admin center meeting policies to allow IP video":::
 

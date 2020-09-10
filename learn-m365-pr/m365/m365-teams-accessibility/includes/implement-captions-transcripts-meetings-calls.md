@@ -1,6 +1,7 @@
 As the Microsoft Teams administrator for your organization, you want to ensure meetings and calls are inclusive of users with disabilities so everyone can participate and contribute.
 
 You can take advantage of several features, including captions and transcription, to support accessibility in your Teams environment.
+
 Here, you will learn how to enable features like captions and transcripts to help make meetings and calls more inclusive of people with disabilities.
 
 ## Why captions and transcripts are important

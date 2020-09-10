@@ -74,20 +74,20 @@ As the admin, you manage messaging policies by using the Microsoft Teams admin c
 
    :::image type="content" source="../media/microsoft-teams-admin-center-meeting-policies-immersive-reader.png" alt-text="Screenshot showing Teams admin center and the option to allow immersive reader options":::
 
-> [!NOTE]
->
-> Immersive reader is available in Edge, Outlook, Microsoft 365, and Teams.  This is not a plugin or add-on but is built right into the applications.  Immersive Reader was developed to help those with dyslexia and dysgraphia, can be used by anyone who wants to make reading on their device easier.  Some of the key features are:
->
-> - Allowing users to have content read aloud
-> - Changing text size and background color
-> - Breaking words into syllables
-> - Increasing the space between letters
-> - Highlighting one or more lines of text
-> - Highlighting parts of speech
+   > [!NOTE]
+   >
+   > Immersive reader is available in Edge, Outlook, Microsoft 365, and Teams.  This is not a plugin or add-on but is built right into the applications.  Immersive Reader was developed to help those with dyslexia and dysgraphia, can be used by anyone who wants to make reading on their device easier.  Some of the key features are:
+   >
+   > - Allowing users to have content read aloud
+   > - Changing text size and background color
+   > - Breaking words into syllables
+   > - Increasing the space between letters
+   > - Highlighting one or more lines of text
+   > - Highlighting parts of speech
 
 ### Best Practices
 
-When sharing images with users who are blind and use screen readers to chat and collaborate with colleagues, you should make sure to add descriptive alternative text for the image. Read the support article that details everything you need to know to write effective alt text in the **Learn more** section below. 
+When sharing images with users who are blind and use screen readers to chat and collaborate with colleagues, you should make sure to add descriptive alternative text for the image. Read the support article that details everything you need to know to write effective alt text in the **Learn more** section below.
 
 ## Learn more
 
