@@ -199,7 +199,7 @@ export class LearningTeamsBot extends TeamsActivityHandler {
     const mention = {
       mentioned: context.activity.from,
       text: `<at>${new TextEncoder().encode(context.activity.from.name)}</at>`,
-      type: 'mention'
+      type: "mention"
     };
 
     const replyActivity = MessageFactory.text(`Hi ${mention.text}`);
@@ -221,7 +221,7 @@ Increment the `version` property in the app's **./manifest/manifest.json** file 
 
 From the command line, navigate to the root folder for the project and execute the following command:
 
-```shell
+```console
 gulp ngrok-serve
 ```
 
@@ -235,14 +235,12 @@ Select **Settings** from the left-hand navigation. Update the **Messaging endpoi
 
 ![Screenshot of the console with ngrok URL](../media/07-test-bot-02.png)
 
-Locate the **./.env** file in the project. Update the property **HOSTNAME** to point to the same ngrok URL: **{{REPLACE_THIS}}.ngrok.io**.
-
 Now you're ready to add the bot to Microsoft Teams. In the browser, navigate to **https://teams.microsoft.com** and sign in with the credentials of a Work and School account.
 
 > [!NOTE]
 > Microsoft Teams is available for use as a web client, desktop client and a mobile client. In this module, we will use the web client but any of the clients can be used.
 
-Using the app bar navigation menu, select the **Mode added apps** button. Then select **Browse all apps** followed by **Upload for me or my teams**.
+Using the app bar navigation menu, select the **More added apps** button. Then select **Browse all apps** followed by **Upload for me or my teams**.
 
 ![Screenshot of More added apps dialog in Microsoft Teams](../media/03-yo-teams-05.png)
 
@@ -388,7 +386,7 @@ In the bot file, **./src/app/learningTeamsBot/learningTeamsBot.ts**, locate the 
 }
 ```
 
-You'll chain two task modules together. The first will display the Adaptive Card selector. Within the `handleTaskModuleFetch()` method, add the following `case` statement to the existing `switch` statement:
+You'll chain two task modules together. The first will display the Adaptive Card selector. Within the `handleTeamsTaskModuleFetch()` method, add the following `case` statement to the existing `switch` statement:
 
 ```typescript
 case "selector":
