@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.protect-against-malicious-attacks-unauthorized-access-with-microsoft-edge.enhance-browser-security-defender-application-guard
+title: Enhance browser security with Microsoft Defender Application Guard
+metadata:
+  title: Enhance browser security with Microsoft Defender Application Guard
+  description: "Enhance browser security with Microsoft Defender Application Guard"
+  ms.date: 09/13/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/4-enhance-browser-security-defender-application-guard.md)]

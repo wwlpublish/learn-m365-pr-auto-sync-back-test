@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.protect-against-malicious-attacks-unauthorized-access-with-microsoft-edge.intercept-malicious-attacks-defender-smartscreen
+title: Intercept malicious attacks with Microsoft Defender SmartScreen
+metadata:
+  title: Intercept malicious attacks with Microsoft Defender SmartScreen
+  description: "Intercept malicious attacks with Microsoft Defender SmartScreen"
+  ms.date: 09/13/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-intercept-malicious-attacks-defender-smartscreen.md)]

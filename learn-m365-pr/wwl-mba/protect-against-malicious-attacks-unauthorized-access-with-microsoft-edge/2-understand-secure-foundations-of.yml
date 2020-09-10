@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.protect-against-malicious-attacks-unauthorized-access-with-microsoft-edge.understand-secure-foundations-of
+title: Understand the secure foundations of Microsoft Edge
+metadata:
+  title: Understand the secure foundations of Microsoft Edge
+  description: "Understand the secure foundations of Microsoft Edge"
+  ms.date: 09/13/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-understand-secure-foundations-of.md)]
