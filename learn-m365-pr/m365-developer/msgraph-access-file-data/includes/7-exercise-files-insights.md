@@ -21,7 +21,7 @@ Select **API Permissions** in the left-hand navigation panel.
 
 Select the **Add a permission** button.
 
-![Screenshot of the Add permission button](../media/azure-ad-portal-new-app-permissions-05-02.png)
+![Screenshot of the Add permission button](../media/azure-ad-portal-new-app-permissions-07-02.png)
 
 In the **Request API permissions** panel that appears, select **Microsoft Graph** from the **Microsoft APIs** tab.
 
@@ -43,7 +43,7 @@ Locate the **Program.cs** file from the application you created in a previous un
 
 First, update the permission requests to include the new permission added to the app. Locate the `CreateAuthorizationProvider` method. In this method, add the new permission as another scope to the list of existing scopes:
 
-```cs
+```csharp
 List<string> scopes = new List<string>();
 scopes.Add("User.Read");
 scopes.Add("Files.Read");
@@ -53,7 +53,7 @@ scopes.Add("Sites.Read.All");
 
 Within the `Main` method, locate the following line:
 
-```cs
+```csharp
 var client = GetAuthenticatedGraphClient(config, userName, userPassword);
 ```
 
@@ -61,7 +61,7 @@ Delete all code within the `Main` method after the above line.
 
 Add the following code to the end of the `Main` method. This will get a list of all trending files around the currently signed-in user:
 
-```cs
+```csharp
 // request 1 - get trending files around a specific user (me)
 var request = client.Me.Insights.Trending.Request();
 
@@ -79,7 +79,7 @@ foreach (var resource in results)
 
 Run the following command in a command prompt to compile and run the console application:
 
-```shell
+```console
 dotnet build
 dotnet run
 ```
@@ -97,7 +97,7 @@ Locate the code you added above for `// request 1 - get trending files around a 
 Add the following code to the `Main` method of the console application. 
 This code will get a list of all files in the group's root OneDrive folder and write the files to the console:
 
-```cs
+```csharp
 // request 2 - used files
 var request = client.Me.Insights.Used.Request();
 
@@ -116,7 +116,7 @@ foreach (var resource in results)
 
 Run the following command in a command prompt to compile and run the console application:
 
-```shell
+```console
 dotnet build
 dotnet run
 ```

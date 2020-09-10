@@ -45,7 +45,7 @@ Locate the **Program.cs** file from the application you created in a previous un
 
 First, update the permission requests to include the new permission added to the app. Locate the `CreateAuthorizationProvider` method. In this method, add the new permission as another scope to the list of existing scopes:
 
-```cs
+```csharp
 List<string> scopes = new List<string>();
 scopes.Add("User.Read");
 scopes.Add("Files.Read");
@@ -54,7 +54,7 @@ scopes.Add("Files.ReadWrite");
 
 Within the `Main` method, locate the following line:
 
-```cs
+```csharp
 var client = GetAuthenticatedGraphClient(config, userName, userPassword);
 ```
 
@@ -62,7 +62,7 @@ Delete all code within the `Main` method after the above line.
 
 Add the following code to the end of the `Main` method. This code will first get a reference to the file in the project. It will then open the file and upload it using the `PutAsync` method on the Microsoft Graph .NET SDK:
 
-```cs
+```csharp
 // request 1 - upload small file to user's onedrive
 var fileName = "smallfile.txt";
 var filePath = Path.Combine(System.IO.Directory.GetCurrentDirectory(), fileName);
@@ -82,7 +82,7 @@ Console.WriteLine("File uploaded to: " + uploadedFile.WebUrl);
 
 Run the following command in a command prompt to compile and run the console application:
 
-```shell
+```console
 dotnet build
 dotnet run
 ```
@@ -105,7 +105,7 @@ Locate the code you added above for `// request 1 - upload small file to user's 
 
 Add the following code to the `Main` method of the console application. This will get a reference to the large file you copied to the folder:
 
-```cs
+```csharp
 // request 2 - upload large file to user's onedrive
 var fileName = "largefile.zip";
 var filePath = Path.Combine(System.IO.Directory.GetCurrentDirectory(), fileName);
@@ -114,7 +114,7 @@ Console.WriteLine("Uploading file: " + fileName);
 
 Add the following code to the end of the `Main` method. This will open the file as a stream and create a new upload session using the Microsoft Graph .NET SDK:
 
-```cs
+```csharp
 // load resource as a stream
 using (Stream stream = new FileStream(filePath, FileMode.Open))
 {
@@ -135,7 +135,7 @@ using (Stream stream = new FileStream(filePath, FileMode.Open))
 
 Next, add the following code after the comment `// create upload task`. This code will create a new `LargeFileUploadTask` using the existing session and stream:
 
-```cs
+```csharp
 var maxChunkSize = 320 * 1024;
 var largeUploadTask = new LargeFileUploadTask<DriveItem>(uploadSession, stream, maxChunkSize);
 ```
@@ -145,7 +145,7 @@ var largeUploadTask = new LargeFileUploadTask<DriveItem>(uploadSession, stream, 
 
 The `LargeFileUploadTask` object will report the progress of the file upload. To use this capability, create an implementation of the `IProgress` interface. Add the following code after the `// create progress implementation` comment:
 
-```cs
+```csharp
 IProgress<long> uploadProgress = new Progress<long>(uploadBytes =>
 {
   Console.WriteLine($"Uploaded {uploadBytes} bytes of {stream.Length} bytes");
@@ -154,7 +154,7 @@ IProgress<long> uploadProgress = new Progress<long>(uploadBytes =>
 
 Finally, upload the file by adding the following code after the `// upload file` comment:
 
-```cs
+```csharp
 UploadResult<DriveItem> uploadResult = largeUploadTask.UploadAsync(uploadProgress).Result;
 if (uploadResult.UploadSucceeded)
 {
@@ -166,7 +166,7 @@ if (uploadResult.UploadSucceeded)
 
 Run the following command in a command prompt to compile and run the console application:
 
-```shell
+```console
 dotnet build
 dotnet run
 ```
