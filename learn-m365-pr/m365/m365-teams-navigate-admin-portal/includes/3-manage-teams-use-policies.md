@@ -20,7 +20,7 @@ Use policy packages as a starting point to assist with regulatory compliance, ma
 
 ## How to use policy packages in Teams
 
-:::image type="content" source="../media/3-manage-policy-packages-overview.png" alt-text="A flow diagram showing the steps to using Policy Packages: View, Assign, and Customize":::
+:::image type="content" border="false" source="../media/3-manage-policy-packages-overview.png" alt-text="A flow diagram showing the steps to using Policy Packages: View, Assign, and Customize":::
 
 There are three stages you should go through to successfully use policy packages in your organization:
 
