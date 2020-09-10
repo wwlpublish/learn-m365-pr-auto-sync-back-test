@@ -12,11 +12,15 @@ Open a browser and navigate to https://developer.microsoft.com/graph/graph-explo
 
 Select the **Sign In with Microsoft** button in the left-side panel and enter the credentials of a Work and School account.
 
-After signing in, select the **modify permissions** and verify the user has enough permissions to submit the requests in this exercise. You must have at least these minimum permissions:
+After signing in, select the gear icon to the right of your user profile and then select **Select permissions**. Verify the user has enough permissions to submit the requests in this exercise. You must consent to at least these minimum permissions:
 
 - Mail.Read
 - Calendars.Read
 - Files.ReadWrite
+
+![Screenshot of the Graph Explorer user options](../media/07-graph-explorer-select-permissions-01.png)
+
+![Screenshot of the Graph Explorer permissions panel](../media/07-graph-explorer-select-permissions-02.png)
 
 ## Submit three (3) GET requests in a single batch
 
@@ -73,7 +77,7 @@ Enter the following JSON to the **Request Body** input box. This request will is
 
 ```json
 {
-  "requests": 
+  "requests":
   [
     {
       "url": "/me/drive/root/children",
