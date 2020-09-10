@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn.wwl.ensure-app-website-compatibility-with-microsoft-edge
+metadata:
+  title: Ensure app and website compatibility with Microsoft Edge
+  description: "Ensure app and website compatibility with Microsoft Edge"
+  ms.date: 09/13/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-windows
+title: Ensure app and website compatibility with Microsoft Edge
+summary: Microsoft Edge is compatible with both modern and legacy websites with Internet Explorer mode. Learn how to configure Internet Explorer mode and Enterprise Mode to determine how and where sites will be rendered.
+abstract: |
+  At the end of this module, you will be able to:
+  - Explain how to use Internet Explorer mode to enable legacy sites and line-of-business applications to run in Microsoft Edge.
+  - Configure Enterprise Mode Site List Manager to define the sites that will automatically run in IE mode.
+  - Enable Enterprise Mode in Microsoft Edge across the organization with group policy.
+prerequisites: |
+  - Experience deploying and configuring application packages using software distribution tools such as Microsoft Intune or Configuration Manager
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-365
+- microsoft-edge
+- internet-explorer
+units:
+- learn.wwl.ensure-app-website-compatibility-with-microsoft-edge.introduction
+- learn.wwl.ensure-app-website-compatibility-with-microsoft-edge.use-internet-explorer-mode-for-legacy-sites
+- learn.wwl.ensure-app-website-compatibility-with-microsoft-edge.configure-enterprise-mode-site-list-manager-for-legacy-sites
+- learn.wwl.ensure-app-website-compatibility-with-microsoft-edge.enable-enterprise-mode-using-group-policy
+- learn.wwl.ensure-app-website-compatibility-with-microsoft-edge.knowledge-check
+- learn.wwl.ensure-app-website-compatibility-with-microsoft-edge.summary-resources
+badge:
+  uid: learn.wwl.ensure-app-website-compatibility-with-microsoft-edge.badge

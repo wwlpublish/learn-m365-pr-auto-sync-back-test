@@ -1,0 +1,37 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.ensure-app-website-compatibility-with-microsoft-edge.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 09/13/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+quiz:
+  questions:
+  - content: "Which of the following statements is correct, regarding Microsoft Edge channels?"
+    choices:
+    - content: "Microsoft Edge supports four update channels: Stable, Beta, Dev, and Canary."
+      isCorrect: true
+      explanation: "Correct. The four update channels are Stable, Beta, Dev, and Canary."
+    - content: "Microsoft Edge supports three update channels: Stable, Beta, and Dev."
+      isCorrect: false
+      explanation: "Incorrect. Microsoft Edge supports four update channels: Stable, Beta, Dev, and Canary."
+    - content: "Microsoft Edge supports four update channels: Stable, Alpha, Beta, and Dev."
+      isCorrect: false
+      explanation: "Incorrect.  Microsoft Edge supports four update channels: Stable, Beta, Dev, and Canary."
+  - content: "Which of the following statements is correct, regarding deployment of Microsoft Edge, using Intune?"
+    choices:
+    - content: "Microsoft Edge is fully integrated with Intune, for Windows devices only."
+      isCorrect: false
+      explanation: "Incorrect. Microsoft Edge is fully integrated with Intune, for both Windows and non-Windows devices."
+    - content: "Microsoft Edge is fully integrated with Intune, for both Windows and non-Windows devices."
+      isCorrect: true
+      explanation: "Correct. Microsoft Edge is fully integrated with Intune, for both Windows and non-Windows devices."
+    - content: "Microsoft Edge is not fully integrated with Intune, admins must download the Windows installer MSI based packages, to use with Intune."
+      isCorrect: false
+      explanation: "Incorrect. Microsoft Edge is fully integrated with Intune, for both Windows and non-Windows devices."

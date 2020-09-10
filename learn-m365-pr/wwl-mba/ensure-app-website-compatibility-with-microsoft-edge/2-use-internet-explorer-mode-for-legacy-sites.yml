@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.ensure-app-website-compatibility-with-microsoft-edge.use-internet-explorer-mode-for-legacy-sites
+title: Use Internet Explorer mode for legacy sites in Microsoft Edge
+metadata:
+  title: Use Internet Explorer mode for legacy sites in Microsoft Edge
+  description: "Use Internet Explorer mode for legacy sites in Microsoft Edge"
+  ms.date: 09/13/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-use-internet-explorer-mode-for-legacy-sites.md)]
