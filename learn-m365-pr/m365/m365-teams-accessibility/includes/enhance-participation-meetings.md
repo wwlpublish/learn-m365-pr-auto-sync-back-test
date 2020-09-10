@@ -1,8 +1,8 @@
-You want to provide your users with more options, control and flexibility so they can participate in meetings in ways that work for them.
+You want to provide your users with more options, control, and flexibility so they can participate in meetings in ways that work for them.
 
-Microsoft Teams comes with features like Raise your hand, Together mode, in-meeting chat, and messaging policies like chat editing, Immersive reader, and emojis to provide options, control and flexible participation.
+Microsoft Teams comes with features like Raise your hand, Together mode, in-meeting chat, and messaging policies like chat editing, Immersive reader, and emojis to provide options, control, and flexible participation.
 
-Here, you will explore the different options available to you so that you can enhance participation in Teams meetings.
+Here, you'll explore the different options available to you so that you can enhance participation in Teams meetings.
 
 ## Raise your hand
 
@@ -28,7 +28,7 @@ Users can use the Raise your hand feature by doing the following:
 
 ## Support team connection with Together mode
 
-Research has shown that people can feel disconnected and more fatigued when moving to remote working. This can result in less idea sharing, lower productivity, and strained mental wellbeing.  One study has shown that brainwave markers normally associated with stress, and overworking are found to be significantly higher during video meetings when compared to work that doesn’t involve meetings, like emails.
+Research has shown that people can feel disconnected and more fatigued when moving to remote working. It can result in less idea sharing, lower productivity, and strained mental wellbeing.  One study has shown that brainwave markers normally associated with stress, and overworking are found to be significantly higher during video meetings when compared to work that doesn’t involve meetings, like emails.
 
 :::image type="content" source="../media/teams-together-mode.png" alt-text="Screenshot showing how Teams Together mode looks when it is running":::
 
@@ -38,7 +38,7 @@ Your users can enable Together mode in a meeting by selecting **Together mode** 
 
 Microsoft Teams’ Together mode can help support employee wellbeing by reducing the feeling of fatigue that some remote workers experience from meetings. Early research has shown that when taking part in meetings using Together mode, participants exert less effort and are better able to focus on other participants’ faces and body language to interpret important non-verbal cues. Each participant enables Together Mode for their own Teams instance. Teams then puts all participants in a single shared background to make it feel like everyone is in the same room.
 
-:::image type="content" source="../media/teams-together-mode-research-findings.png" alt-text="Illustration showing brain activity during meetings compairing grid view and together mode":::
+:::image type="content" source="../media/teams-together-mode-research-findings.png" alt-text="Illustration showing brain activity during meetings comparing grid view and together mode":::
 
 ## Enable in-meeting chat
 
@@ -87,9 +87,9 @@ As the admin, you manage messaging policies by using the Microsoft Teams admin c
 
 ### Best Practices
 
-When sharing images with users who are blind and use screenreaders to chat and collaborate with colleagues, you should make sure to add descriptive alternative text for the image. Read the support article that details everything you need to know to write effective alt text in the **Learn more** section below. 
+When sharing images with users who are blind and use screen readers to chat and collaborate with colleagues, you should make sure to add descriptive alternative text for the image. Read the support article that details everything you need to know to write effective alt text in the **Learn more** section below. 
 
 ## Learn more
 
 - [Everything you need to know to write effective alt text](https://support.microsoft.com/office/everything-you-need-to-know-to-write-effective-alt-text-df98f884-ca3d-456c-807b-1a1fa82f5dc2)
-- [Future of work – the good, the challenging and the unknown](https://www.microsoft.com/microsoft-365/blog/2020/07/08/future-work-good-challenging-unknown/)
+- [Future of work – the good, the challenging, and the unknown](https://www.microsoft.com/microsoft-365/blog/2020/07/08/future-work-good-challenging-unknown/)

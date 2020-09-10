@@ -7,4 +7,4 @@ Now that you've completed this module, you should be able to:
 - Implement captions and transcription for Microsoft Teams meetings and calls.
 - Facilitate sign language interpreters in meetings.
 - Enable background effects to reduce distractions in meetings.
-- Implement features to enhance participation in Microsoft Teams meetings .
+- Implement features to enhance participation in Microsoft Teams meetings.

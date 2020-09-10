@@ -1,8 +1,8 @@
-Some users in your organization might find it difficult to focus during video meetings and calls because of movement, light and other distractions in participants’ backgrounds. Whether users are neurodiverse and prefer to control distractions in their environment, or are hard of hearing and need to lipread to understand what other participants are saying, you need to ensure these users can control distractions and participate fully.
+Some users in your organization might find it difficult to focus during video meetings and calls because of movement, light, and other distractions in participants’ backgrounds. Whether users are neurodiverse and prefer to control distractions in their environment, or are hard of hearing and need to lipread to understand what other participants are saying, you need to ensure these users can control distractions and participate fully.
 
 ## Enable background effects
 
-Microsoft Teams makes it possible for users to activate background effects for videos during meetings and calls. Background effects can be fun for most users. But for some users, they are critical to making calls and meetings more inclusive.
+Microsoft Teams makes it possible for users to activate background effects for videos during meetings and calls. Background effects can be fun for most users. But for some users, they're critical to making calls and meetings more inclusive.
 Background effects can help people focus on the speaker rather than what’s going on in the speaker’s background. Microsoft Teams provides a library of backgrounds and users can also upload their own. Users can use simple backgrounds to help them focus on the speaker or they can use any of those already included in Microsoft Teams.
 
 :::image type="content" source="../media/background-image-add-image.png" alt-text="Screenshot showing how you can add a background image through Teams":::

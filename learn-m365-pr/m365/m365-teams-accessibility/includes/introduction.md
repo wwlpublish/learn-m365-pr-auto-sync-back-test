@@ -8,7 +8,7 @@ Microsoft Teams comes with many features to help you create a Teams environment 
 
 Suppose you work as a Microsoft Teams administrator for a large multi-national organization. You’ve successfully deployed Microsoft Teams across your organization, and now you need to set up and configure Microsoft Teams to support your users’ accessibility needs.
 
-In this module, you will learn how to support accessibility in Microsoft Teams meetings and calls.
+In this module, you'll learn how to support accessibility in Microsoft Teams meetings and calls.
 
 By the end of this module, you be able to:
 

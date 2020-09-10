@@ -1,11 +1,11 @@
 There could be users in your organization who are deaf and use sign language interpreters to effectively participate and contribute to meetings. 
 Microsoft Teams makes it possible to include sign language interpreters in meetings.
 
-Here, you will learn how to enable sign language interpreters to access Microsoft Teams meetings.  You’ll also learn about which polices you can employ to help users who are deaf and interpreters work more effectively together.
+Here, you'll learn how to enable sign language interpreters to access Microsoft Teams meetings.  You’ll also learn about which policies you can employ to help users who are deaf and interpreters work more effectively together.
 
 ## Enable access to meetings for interpreters
 
-Sign language interpreters likely do not work for your organization, so granting them access to your Teams environment should be done in a way that is in line with your organization’s compliance and security requirements. Microsoft's cloud solutions, including Azure Active Directory, Microsoft 365, SharePoint, and Teams allow for fine-controls for guests, so your configuration fits in with your security and compliance requirements.
+Sign language interpreters likely don't work for your organization, so granting them access to your Teams environment should be done in a way that is in line with your organization’s compliance and security requirements. Microsoft's cloud solutions, including Azure Active Directory, Microsoft 365, SharePoint, and Teams allow for fine-controls for guests, so your configuration fits in with your security and compliance requirements.
 You can invite interpreters in Microsoft Teams meetings by providing them guest access.
 
 ### Guest access
@@ -23,21 +23,21 @@ If you want to use guest user access, but want the flexibility to employ some sp
 - Block or allow guest users based on a user’s domain.
 - Block or allow guest access to all teams in your Microsoft Teams environment.
 - Block guest users from Microsoft Teams, but still give them access to SharePoint sites for collaboration.
-This short five-minute video walks you through the steps, at a high-level, for turning on and enabling guest access in Teams.
+This short five-minute video walks you through the steps, at a high level, for turning on and enabling guest access in Teams.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE44NTr?autoplay=false?autoCaptions=en-gb]
 
 ### Configure meeting policy settings for guests
 
-Use meeting policies to control the features that are available to meeting participants (including guest users) for meetings scheduled by users in your organization. You can use the global (Org-wide default) policy that's automatically created or create and assign custom policies. These settings control which meeting participants wait in the lobby before they are admitted to the meeting and the level of participation they are allowed in a meeting.
+Use meeting policies to control the features that are available to meeting participants (including guest users) for meetings scheduled by users in your organization. You can use the global (Org-wide default) policy that's automatically created or create and assign custom policies. These settings control which meeting participants wait in the lobby before they're admitted to the meeting and the level of participation they're allowed in a meeting.
 
 ## Admit sign language interpreters to meetings
 
-It’s helpful for interpreters to join a meeting before the discussion begins, to make sure their equipment is working, their work space is distraction-free, and they are present before their client joins the meeting. The Automatically admit people setting controls whether people join a meeting directly or wait in the lobby until they are admitted by an authenticated user. This setting does not apply to dial in users. You should either allow everyone to bypass the lobby or the organizer should plan to activate the meeting and admit the interpreter from the lobby several minutes prior to the meeting start time.
+It’s helpful for interpreters to join a meeting before the discussion begins, to make sure their equipment is working, their work space is distraction-free, and they're present before their client joins the meeting. The Automatically admit people setting controls whether people join a meeting directly or wait in the lobby until they're admitted by an authenticated user. This setting doesn't apply to dial in users. You should either allow everyone to bypass the lobby or the organizer should plan to activate the meeting and admit the interpreter from the lobby several minutes prior to the meeting start time.
 
 Meeting organizers can select **Meeting Options** in the meeting invitation to change this setting for each meeting they schedule.
 
-As the admin, you can control this using the meeting options. The setting is labelled Automatically admit people.
+As the admin, you can control this using the meeting options. The setting is labeled Automatically admit people.
 
 :::image type="content" source="../media/microsoft-teams-admin-center-meeting-policies-automatically-admit-people.png" alt-text="Screenshot showing how to allow automatically admit people to a teams meeting ":::
 
@@ -45,7 +45,7 @@ You can set it to one of the following options:
 
 | Setting   value                                          | Join   behavior                                          |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **Everyone**                                                 | All  meeting participants join the meeting directly without waiting in the lobby.  This includes authenticated users, external users from trusted organizations  (federated), guests, and anonymous users. |
+| **Everyone**                                                 | All  meeting participants join the meeting directly without waiting in the lobby.  It includes authenticated users, external users from trusted organizations  (federated), guests, and anonymous users. |
 | **Everyone  in your organization and federated organizations** | Authenticated  users within the organization, including guest users and the users from  trusted organizations, join the meeting directly without waiting in the  lobby. Anonymous users wait in the lobby. |
 | **Everyone  in your organization**                           | Authenticated  users from within the organization, including guest users, join the meeting  directly without waiting in the lobby. Users from trusted organizations and  anonymous users wait in the lobby. This is the default setting. |
 
@@ -58,7 +58,7 @@ Sign language interpreters need to be able to share their video feed with meetin
 
 ### Use pin video and Dynamic view to keep interpreters in view
 
-By default, Teams switches the live stream view to whomever is talking. It’s important for people who are deaf or hard of hearing, however, to clearly see their sign language interpreter’s video feed at all times. Teams provides Dynamic View which allows users to pin up to four people's video streams so that they remain on the screen regardless of who is speaking. With Dynamic View, when an interpreter’s video is pinned, even when other content is shared, the video of the interpreter remains large and on the screen at all times.
+By default, Teams switches the live stream view to whomever is talking. It’s important for people who are deaf or hard of hearing, however, to clearly see their sign language interpreter’s video feed at all times. Teams provides Dynamic View, which allows users to pin up to four people's video streams so that they remain on the screen regardless of who is speaking. With Dynamic View, when an interpreter’s video is pinned, even when other content is shared, the video of the interpreter remains large and on the screen at all times.
 
 ## Learn more
 
