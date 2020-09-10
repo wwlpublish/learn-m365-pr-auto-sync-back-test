@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.teams.configure-manage-direct-routing.2-configure-connect-session-border-controller
-title: Configure and Connect the Session Border Controller (SBC)
+title: Configure and connect the Session Border Controller (SBC)
 metadata:
-  title: Configure and Connect the Session Border Controller (SBC)
+  title: Configure and connect the Session Border Controller (SBC)
   description: Learn how to configure SBCs.
   ms.date: 09/03/2020
   author: lizap

@@ -1,4 +1,4 @@
-In Microsoft Teams Direct Routing, Session Border Controllers (SBCs) route calls from the Public Switched Telephone Network (PSTN) to Teams.
+In Microsoft Teams Direct Routing, Session Border Controllers (SBCs) route calls from the public switched telephone network (PSTN) to Teams.
 
 In your clothing retailer, you're ready to begin to configure Direct Routing. To start, you'll need to configure your Session Border Controller (SBC) and connect it to the Microsoft Phone System.
 

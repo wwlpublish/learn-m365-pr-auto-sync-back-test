@@ -1,6 +1,6 @@
 Voice routing helps you dictate how calls are routed through your Session Border Controller (SBC) or multiple SBCs.
 
-In your clothing retailer, you've installed and configured the SBC. Now, you want to ensure that voice calls are routed to the right destination, as they are received from the Public Switched Telephone Network (PSTN)
+In your clothing retailer, you've installed and configured the SBC. Now, you want to ensure that voice calls are routed to the right destination, as they are received from the public switched telephone network (PSTN).
 
 Here, you'll learn how to manage routing in Direct Routing.
 
