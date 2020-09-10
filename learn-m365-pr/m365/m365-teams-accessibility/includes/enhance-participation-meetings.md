@@ -6,13 +6,13 @@ Here, you'll explore the different options available to you so that you can enha
 
 ## Raise your hand
 
-For some users with hearing disabilities or who are neurodiverse, it can be difficult to find the right moment to contribute to the discussion without speaking over others. Microsoft Teams provides the **Raise your hand** option, so users have more ways to participate in meeting discussions in a way that is comfortable and inclusive.
+For some users with hearing disabilities or who are neurodiverse, it can be difficult to find the right moment to contribute to the discussion without speaking over others. Microsoft Teams provides the **Raise your hand** option, so users have more ways to participate in meeting discussions in a comfortable and inclusive way.
 
-When a user selects Raise Hand, the meeting presenter will receive a notification so they can give that user the opportunity to provide their input in a way that works best for that user. Other participants are temporarily muted while this user is given the spotlight. When the user is done, they use the **Lower your hand** option. The meeting presenter can also lower a participant's hand if necessary.
+When a user selects Raise Hand, the meeting presenter will receive a notification so they can give that user the opportunity to provide their input in a way that works best for that user. Other participants are temporarily muted while this user speaks. When the user is done, they use the **Lower your hand** option. The meeting presenter can also lower a participant's hand if necessary.
 
 The Raise your hand option is available to all participants of the meeting and is a great way to let the presenter and all the other participants of the meeting know that you would like to speak.
 
-Users can use the Raise your hand feature by doing the following:
+Users can use the Raise your hand feature by doing:
 
 1. In the meeting controls, select **Raise your hand**.
 
@@ -28,7 +28,7 @@ Users can use the Raise your hand feature by doing the following:
 
 ## Support team connection with Together mode
 
-Research has shown that people can feel disconnected and more fatigued when moving to remote working. It can result in less idea sharing, lower productivity, and strained mental wellbeing.  One study has shown that brainwave markers normally associated with stress, and overworking are found to be significantly higher during video meetings when compared to work that doesn’t involve meetings, like emails.
+Research has shown that people can feel disconnected and more fatigued when moving to remote working. It can result in less idea sharing, lower productivity, and strained mental wellbeing.  One study has shown that brainwave markers associated with stress and overworking are found to be significantly higher during video meetings when compared to work that doesn’t involve meetings, like emails.
 
 :::image type="content" source="../media/teams-together-mode.png" alt-text="Screenshot showing how Teams Together mode looks when it is running":::
 
@@ -42,7 +42,7 @@ Microsoft Teams’ Together mode can help support employee wellbeing by reducing
 
 ## Enable in-meeting chat
 
-Chat provides users with another way to participate in the meeting discussion. For some users with disabilities, chat may be preferable to voice or sign language, as a way to contribute to some meeting discussions. As the admin, you should encourage presenters to take recurring pauses to check the chat window for any feedback. Too often presenters move things along without paying attention to the chat window.
+Chat provides users with another way to participate in the meeting discussion. For some users with disabilities, chat may be preferable to voice or sign language as a way to contribute to some meeting discussions. As the admin, you should encourage presenters to take recurring pauses to check the chat window for any feedback. Too often, presenters move things along without paying attention to the chat window.
 
 As the admin, you can enable in-meeting chat for all users by configuring the Global (Org-wide default) meeting policy using the Microsoft Teams admin center. To do this in the Microsoft Teams admin center, you select **Meeting policies**, select the **Global (Org-wide default)** meeting policy, then set **Allow chat in meetings** to **Enabled**:
 
@@ -50,7 +50,7 @@ As the admin, you can enable in-meeting chat for all users by configuring the Gl
 
 ### Use messaging policies for increased flexibility and control
 
-Messaging policies provide users with greater flexibility in how they consume in-meeting chat content, and more options and control over how they participate in a meeting with chat. You can provide the option to edit and delete chats, so those with learning disabilities can choose to edit their writing after they’ve hit send. You can provide the option to communicate with emojis, so those with learning disabilities can choose images rather than writing. You can enable features like Immersive Reader, a capability designed for users who have dyslexia, to make text easier to consume, or in-line translation for users who prefer to communicate in a different language.
+Messaging policies provide users with greater flexibility in how they consume in-meeting chat content and more options and control over how they participate in a meeting with chat. You can provide the option to edit and delete chats, so those with learning disabilities can choose to edit their writing after they’ve hit send. You can give the option to communicate with emojis, so those with learning disabilities can choose images rather than writing. You can enable features like Immersive Reader, a capability designed for users who have dyslexia, to make the text easier to consume, or in-line translation for users who prefer to communicate in a different language.
 
 As the admin, you manage messaging policies by using the Microsoft Teams admin center. Apply default messaging policy settings for all users across your organization by configuring the Global (Org-wide default) policy that is created automatically for you.
 
@@ -76,7 +76,7 @@ As the admin, you manage messaging policies by using the Microsoft Teams admin c
 
 > [!NOTE]
 >
-> Immersive reader is available in Edge, Outlook, Microsoft 365, and Teams.  This is not a plug in or add-on, but is built right into the applications.  Immersive Reader was developed to help those with dyslexia and dysgraphia, can be used by anyone who wants to make reading on their device easer.  Some of the key features are:
+> Immersive reader is available in Edge, Outlook, Microsoft 365, and Teams.  This is not a plugin or add-on but is built right into the applications.  Immersive Reader was developed to help those with dyslexia and dysgraphia, can be used by anyone who wants to make reading on their device easier.  Some of the key features are:
 >
 > - Allowing users to have content read aloud
 > - Changing text size and background color

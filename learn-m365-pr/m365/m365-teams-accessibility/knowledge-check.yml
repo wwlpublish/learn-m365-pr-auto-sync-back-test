@@ -29,27 +29,27 @@ quiz:
  # Question 2 
   - content: How can you use PowerShell to configure a background blur policy?
     choices:
-    - content: Create a policy using the `Set-CsTeamsMeetingPolicy` cmdlet and set the `-VideoFiltersMode` parameter to `BlurOnly`
-      isCorrect: true
-      explanation: You can also use the `AllFilters` and `BlurandDefaultBackgrounds` parameters to allow additional background effects for users.
     - content: Create a policy using the `Set-CsTeamsBlurMeetingPolicy` cmdlet. The blur will automatically be applied
       isCorrect: false
       explanation: •	The `Set-CsTeamsBlurMeetingPolicy` cmdlet doesn’t exist, so you can’t use it to create a policy. You also must use the `VideoFiltersMode` parameter to successfully apply a blur policy.
+    - content: Create a policy using the `Set-CsTeamsMeetingPolicy` cmdlet and set the `-VideoFiltersMode` parameter to `BlurOnly`
+      isCorrect: true
+      explanation: You can also use the `AllFilters` and `BlurandDefaultBackgrounds` parameters to allow additional background effects for users.
     - content: Make sure to create a meeting using the `Set-CsTeamsMeeting` cmdlet and set the `-BlurFiltersMode` parameter to `BlurOnly`
       isCorrect: false
       explanation: The BlurFiltersMode parameter doesn’t exist, so you can’t use it to enable blurring. Also, you don’t create a meeting using a cmdlet, you need to create a policy.
  # Question 3
   - content: When using screen sharing mode, what screen sharing options are available?
     choices:
-    - content: Entire screen, single application, and disabled
-      isCorrect: true
-      explanation: When using screen sharing mode, you can share the entire screen, a single application, or you can choose to disable screen sharing all together.
     - content: Split screen, single applications, or disabled
       isCorrect: false
       explanation: Of these three options, only single applications, and disabled are valid screen sharing option.
     - content: No screen sharing, single application, or disabled
       isCorrect: false
       explanation: Of these three options, only single applications, and disabled are valid screen sharing option.
+    - content: Entire screen, single application, and disabled
+      isCorrect: true
+      explanation: When using screen sharing mode, you can share the entire screen, a single application, or you can choose to disable screen sharing all together.
  # Question 4
   - content: Normally, when a meeting participant shares their screen, all participants video streams convert to a thumbnail. This could be a problem for users who need interpreters because they need to be able to clearly see their interpreters. How can those users resolve this?
     choices:

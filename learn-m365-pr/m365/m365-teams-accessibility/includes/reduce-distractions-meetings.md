@@ -3,18 +3,23 @@ Some users in your organization might find it difficult to focus during video me
 ## Enable background effects
 
 Microsoft Teams makes it possible for users to activate background effects for videos during meetings and calls. Background effects can be fun for most users. But for some users, they're critical to making calls and meetings more inclusive.
-Background effects can help people focus on the speaker rather than what’s going on in the speaker’s background. Microsoft Teams provides a library of backgrounds and users can also upload their own. Users can use simple backgrounds to help them focus on the speaker or they can use any of those already included in Microsoft Teams.
+
+Background effects can help people focus on the speaker rather than on the speaker’s background. Microsoft Teams provides a library of backgrounds, and users can also upload their own. Users can use simple backgrounds to help them focus on the speaker, or they can use any of those already included in Microsoft Teams.
 
 :::image type="content" source="../media/background-image-add-image.png" alt-text="Screenshot showing how you can add a background image through Teams":::
 
 ### Enable background blur
 
-Background blur helps provide improved visibility and focus when in meetings or calls for some users Background blur allows users to blur their own background in meetings and calls but keep themselves in focus.
+Background blur helps provide improved visibility and focus when in meetings or calls. For some users, background blur allows users to blur their own background in meetings and calls but keep themselves in focus.
 
 :::image type="content" source="../media/enable-background-blur.png" alt-text="Screenshot showing background blur":::
 
 As the admin, you can enable Background blur by configuring a meeting policy setting in PowerShell.  For example, to enable Background blur for all users along with the ability to use default backgrounds, you can update the global policy by using the **`Set-CsTeamsMeetingPolicy`** cmdlet, and set the **`VideoFiltersMode`** parameter to **`BlurandDefaultBackgrounds`**:
+
+```powershell
 Set-CsTeamsMeetingPolicy -Identity Global -VideoFiltersMode BlurAndDefaultBackgrounds.
+
+```
 
 You can set the **`VideoFiltersMode`** to any of the following values to enable or disable background blur:
 
@@ -22,7 +27,7 @@ You can set the **`VideoFiltersMode`** to any of the following values to enable 
 | ----------------------------- | ------------------------------------------------------------ |
 | **NoFilters**                 | Disable all background effects.                              |
 | **BlurOnly**                  | Users can enable background blur only.                       |
-| **BlurandDefaultBackgrounds** | Users can blur their video background or choose from default images to  use as background. |
+| **BlurandDefaultBackgrounds** | Users can blur their video background or choose from default images to use as background. |
 | **AllFilters**                | Users can blur their video background or choose from default images to  use as a background, or they can upload images to use as their background. |
 
 After you’ve enabled Background blur for your users, they can use it by selecting **Apply background effects** during meetings or calls:
