@@ -1,4 +1,4 @@
-Once you’ve completed preparations, it's time to start reconfiguring your system to use Direct Routing. Some of these reconfiguration steps don't affect users, so they should be completed ahead of time. For example, make sure that the user is licensed for Direct Routing. On migration day, you can then move the user's phone number across to Teams Direct Routing and verify functionality.
+Once you've completed preparations, it's time to start reconfiguring your system to use Direct Routing. Some of these reconfiguration steps don't affect users, so they should be completed ahead of time. For example, make sure that the user is licensed for Direct Routing. On migration day, you can then move the user's phone number across to Teams Direct Routing and verify functionality.
 
 Suppose that as the administrator you are ready to migrate from your existing Skype for Business server to Teams Direct Routing. You also need to take the necessary step to stage the migration, configure licensing, and verify user provisioning.
 
@@ -137,10 +137,10 @@ The next step is to verify that outbound dialing works from the Teams client. Re
 If the dial pad isn't displayed, start by checking for the proper licensing and configuration. Look for:
 
 - Skype for Business Online Plan 2 License
-- User Homed Online (Hosting Provider = sipfed.online.lync.com)
+- User Homed Online (**Hosting Provider = sipfed.online.lync.com**)
 - Phone System License
-- Call plan and/or CsOnlineVoiceRoutingPolicy is assigned to the user
-- AllowPrivateCalling = True in CsTeamsCallingPolicy
+- Call plan and/or **CsOnlineVoiceRoutingPolicy** is assigned to the user
+- AllowPrivateCalling = True in **CsTeamsCallingPolicy**
 - Supported client (desktop, mobile, Edge, Chrome)
 
 It might take some time for the dial pad to appear. Have the user sign out then sign back in. If that doesn't resolve the issue, check the weblogs in Teams Diagnostics.
@@ -156,10 +156,10 @@ You can find a file named MSTeams Diagnostics Log (time stamp).txt in the %userp
 
 There are four items in this log that are of particular interest:
 
-1. isCallingAllowed was configured when you set AllowPrivateCalling = True in CsTeamsCallingPolicy.
-2. isEvEnabled references Enterprise Voice that should have been done as part of staging.
-3. isBusinessVoicePath will be true if the user has a calling plan assigned.
-4. isByotEnabled is true when the user is enabled for Direct Routing and was confirmed when CsOnlineVoiceRoutingPolicy was set for this user.
+1. **isCallingAllowed** was configured when you set AllowPrivateCalling = True in **CsTeamsCallingPolicy**.
+2. **isEvEnabled** references Enterprise Voice that should have been done as part of staging.
+3. **isBusinessVoicePath** will be true if the user has a calling plan assigned.
+4. **isByotEnabled** is true when the user is enabled for Direct Routing and was confirmed when **CsOnlineVoiceRoutingPolicy** was set for this user.
 
 Either isBusinessVoicePath or isByotEnabled must be set to true, otherwise the dial pad won't appear.
 

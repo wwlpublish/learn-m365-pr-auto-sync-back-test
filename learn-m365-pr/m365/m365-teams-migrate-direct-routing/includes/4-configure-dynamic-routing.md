@@ -14,18 +14,18 @@ In this example, we start with the telco-provided connection that could be a SIP
 
 The SBC makes routing decisions because of an LDAP connection to a Domain Controller, in which there's a set of attributes that can be queried. The attributes in question are:
 
-- msRTCSIP-Line
-- msRTCSIP-DeploymentLocator
-- msRTCSIP-OptionsFlags
-- extensionAttribute1
+- **msRTCSIP-Line**
+- **msRTCSIP-DeploymentLocator**
+- **msRTCSIP-OptionsFlags**
+- **extensionAttribute1**
 
-The last two attributes are optional. For example, you can use the msRTCSIP-OptionalFlags to ensure the account is enabled for Enterprise Voice (value 385).
+The last two attributes are optional. For example, you can use the **msRTCSIP-OptionalFlags** to ensure the account is enabled for Enterprise Voice (value 385).
 
-If Exchange is deployed, you could use extensionAttribute1 to flag when a user has been migrated or to differentiate between Skype for Business Online and Teams.
+If Exchange is deployed, you could use **extensionAttribute1** to flag when a user has been migrated or to differentiate between Skype for Business Online and Teams.
 
-The msRTCSIP-Line attribute can be considered as the anchor. It's used to match a user with an incoming call. For example, a call is coming in for Bob (949-555-2832) that reaches the SBC. The SBC makes an LDAP query to see if there's a user with this phone number. Because Bob has been enabled for Enterprise Voice, a match will be found. If the phone number wasn't assigned to a user, the call can be rejected. The system looks at the mcRTCSIP-line attribute because that's where the user's phone number is stored when they're enabled for Enterprise Voice in Skype for Business Server.
+The **msRTCSIP-Line** attribute can be considered as the anchor. It's used to match a user with an incoming call. For example, a call is coming in for Bob (949-555-2832) that reaches the SBC. The SBC makes an LDAP query to see if there's a user with this phone number. Because Bob has been enabled for Enterprise Voice, a match will be found. If the phone number wasn't assigned to a user, the call can be rejected. The system looks at the **mcRTCSIP-line** attribute because that's where the user's phone number is stored when they're enabled for Enterprise Voice in Skype for Business Server.
 
-Next, the system looks at the msRTCSIP-DeploymentLocator attribute. If msRTCSIP-DeploymentLocator contains **SRV:**, it indicates the account is on-premises and the call will be routed to Skype for Business Server. Or, if msRTCSIP-DeploymentLocator contains **sipfed.online.lync.com**, the call is sent to Teams.
+Next, the system looks at the **msRTCSIP-DeploymentLocator** attribute. If **msRTCSIP-DeploymentLocator** contains **SRV:**, it indicates the account is on-premises and the call will be routed to Skype for Business Server. Or, if **msRTCSIP-DeploymentLocator** contains **sipfed.online.lync.com**, the call is sent to Teams.
 
 ## Configure dynamic routing on an SBC
 
@@ -42,7 +42,7 @@ Here's how to configure the Call Setup Rule:
 1. Start with the **Rule Set ID**, which is an arbitrary number. In this example, it's **1**.
 2. Set the **Request Type** to **LDAP**.
 3. Set the **Request Target** to your Domain Controller Group.
-4. Set the **Request Key** to your anchor attribute that, as you'll recall, is the msRTCSIP-Line attribute.
+4. Set the **Request Key** to your anchor attribute that, as you'll recall, is the **msRTCSIP-Line** attribute.
 5. **Attributes To Get** is the attribute you want to have after you've found the user. In this example, it's the deployment locator **msRTCSIP-DeploymentLocator**. As we discussed earlier, the deployment locator will be either **SRV:** or **sipfed.online.lync.com**.
 6. Finally, set **Condition** to be equal to **sipfed.online.lync.com**.
 
@@ -52,4 +52,4 @@ Now look at the routing in this diagram:
 
 On the routing, the first field you'll fill in is **Source IP Group**. This field is for the call received from the PSTN Trunk. The next field is **Destination IP Group** that you want to set for Teams. Next is **Call Setup Rules Set ID** that, as you recall from earlier, is **1**. You're telling the SBC that, before the call gets routed, to look up Call Setup Rule number 1. If it doesn't match, the SBC will go on to the next one that does match, which would be the Skype for Business rule.
 
-Remember that, when you configured the Call Setup Rule, you defined two attributes to read: msRTCSIP-Line and msRTCSIP-DeploymentLocator. On some SBCs, you can optionally cache these attributes. It means that you don't impact the performance of having to query the local domain controllers all the time.
+Remember that, when you configured the Call Setup Rule, you defined two attributes to read: **msRTCSIP-Line** and **msRTCSIP-DeploymentLocator**. On some SBCs, you can optionally cache these attributes. It means that you don't impact the performance of having to query the local domain controllers all the time.
