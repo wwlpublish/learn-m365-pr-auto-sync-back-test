@@ -50,7 +50,7 @@ quiz:
       isCorrect: false 
       explanation: "That's incorrect. In dynamic routing, the SBC queries information about users in Active Directory, not Teams."
 
-  - content: "Your Skype for Business environment has been decommissioned. A user tells you that their phone number has changed. After running the PowerShell command Get-CsOnlineUser for that user, you find ‘OnPremLineURIManuallySet=False'. Which of the following describes how you'll update the user's phone number?"
+  - content: "Your Skype for Business environment has been decommissioned. A user tells you that their phone number has changed. After running the PowerShell command Get-CsOnlineUser for that user, you find 'OnPremLineURIManuallySet=False'. Which of the following describes how you'll update the user's phone number?"
     choices: 
     - content: Through Active Directory Users and Groups. 
       isCorrect: false 
