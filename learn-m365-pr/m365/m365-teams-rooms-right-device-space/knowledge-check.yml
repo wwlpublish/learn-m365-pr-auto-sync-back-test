@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: Learn about the necessary hardware components and how to choose them when designing Microsoft Teams Rooms.
-  ms.date: 09/01/2020
+  ms.date: 09/10/2020
   author: AlexandraHrt
   ms.author: elizapo
   ms.topic: interactive-tutorial
@@ -13,39 +13,39 @@ durationInMinutes: 5
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Question here"
+    - content: "What is the device called that users interact with to join and control meetings?"
       choices:
-      - content: "Choice 1"
+      - content: "Controller"
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+        explanation: "Close but not quite. Controller does sound similar  to console, but it’s not the same thing."
+      - content: "Console"
         isCorrect: true
-        explanation: "explanation"
+        explanation: "You got it! The console is the device that attendees interact with when joining and controlling a meeting."
+      - content: "Display"
+        isCorrect: false
+        explanation: "The console does indeed have a touch display. However, when we refer to a display in Microsoft Teams Rooms, we mean the front-of-room displays that show the people and content within the meeting."
 
-    - content: "Question here"
+    - content: "When analyzing a room, you should photograph . . . "
       choices:
-      - content: "Choice 1"
+      - content: "Only the table because that’s the most important."
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
+        explanation: "The table is very important. But so is the wall that holds the TV. And the floor under the table. And the ceiling. And behind the display. And . . . everything else in the room."
+      - content: "Just the room as seen from the doorway."
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+        explanation: "This is an important picture to take. But it doesn’t show the detail in the room, such as how you can run tables or the make and model of an existing display in the room."
+      - content: "Everything!"
         isCorrect: true
-        explanation: "explanation"
+        explanation: "Yes, that's right. You can’t have enough information available. This will help not only in designing the room but in supporting it in the future."
       
-    - content: "Question here"
+    - content: "A camera with a wide field of view is better than a camera with a narrow field of view."
       choices:
-      - content: "Choice 1"
+      - content: "True"
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
+        explanation: This is true only in cases where the table is very wide or attendees sit very close to the camera. In rooms with a long table where attendees sit far from the camera, a narrow field of view is best."
+      - content: "False"
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+        explanation: "This is true only in rooms with a long table where attendees sit far from the camera. A wide field of view is best if the table is very wide or attendees sit very close to the camera."
+      - content: "It depends on several things."
         isCorrect: true
-        explanation: "explanation"
+        explanation: "Yes, that's right. It totally depends on the layout of the room. A camera with a wide field of view is good for rooms where attendees are close to the camera or if the table is very wide. A narrow field of view is best when there is a long table and attendees are quite far away from the camera."
       
