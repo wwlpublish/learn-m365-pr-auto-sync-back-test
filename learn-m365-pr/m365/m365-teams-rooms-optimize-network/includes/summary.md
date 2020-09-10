@@ -1,6 +1,6 @@
 The shift to computing in the cloud has impacted the way organizations design their networks. And as more and more organizations shift workloads to the cloud, your internal network should be reviewed to make sure that new networking principles are used to maximize the end-user experience.
 
-- You learned about the global Microsoft 365 network and how it’s optimized for media, especially audio and video used in Microsoft Teams. 
+- You learned about the global Microsoft 365 network and how it’s been optimized for audio and video used in Microsoft Teams. 
 - You learned that local Internet breakouts and local DNS resolution are key to optimizing corporate network connectivity to Microsoft 365. 
 - You learned about peering points, network locations where two or more networks meet. 
 - You learned about transport relays, and how they translate between various protocols so that everybody can speak to each other.
