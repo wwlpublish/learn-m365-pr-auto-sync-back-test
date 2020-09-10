@@ -20,7 +20,7 @@ You'll use Node.js to create a custom Microsoft Teams app in this module. The ex
 - NPM (installed with Node.js) - v6.\* (or higher)
 - [Gulp](https://gulpjs.com/) - v4.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.13.0 (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.15.0 (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
@@ -74,7 +74,7 @@ In the **Bot Channels Registration** blade, enter the following values and then 
 - **Application Insights**: Off
 - **Microsoft App ID and password**: Auto create App ID and password
 
-Azure will start to provision the new resource. This will take a moment or two. Once its finished, navigate to the bot resource in the resource group.
+Azure will start to provision the new resource. This will take a moment or two. Once it's finished, navigate to the bot resource in the resource group.
 
 ![Screenshot of searching for the bot registration resource](../media/03-azure-bot-registration-03.png)
 
@@ -135,7 +135,7 @@ Open your command prompt, navigate to a directory where you want to save your wo
 
 Run the Yeoman Generator for Microsoft Teams by running the following command:
 
-```shell
+```console
 yo teams
 ```
 
@@ -145,9 +145,10 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project?**: Planet Messaging
 - **Your (company) name? (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: 1.5
+- **Which manifest version would you like to use?**: v1.6
 - **Enter your Microsoft Partner Id, if you have one?**: (Leave blank to skip)
 - **What features do you want to add to your project?**: *(uncheck the default option **A Tab** using the <kbd>space</kbd> key and press <kbd>enter</kbd>)*
+- **Would you like show a loading indicator when your app/tab loads?**: No
 - **The URL where you will host this solution?**: (Accept the default option)
 - **Would you like to include Test framework and initial tests?**: No
 - **Would you like to use Azure Applications Insights for telemetry?**: No
@@ -159,7 +160,7 @@ After answering the generator's questions, the generator will create the scaffol
 
 ### Add a bot to the project
 
-In this section you will manually add a bot to the project.
+In this section, you will manually add a bot to the project.
 
 Create a new folder **planetBot** in the **./src/app** folder.
 
@@ -242,14 +243,14 @@ express.post("/api/messages", (request, response) => {
 });
 ```
 
-In the code above, the first section initializes the the Bot Framework adapter with the Azure AD app credentials created when you registered the bot in the Azure portal. These two properties, the Azure AD app's ID and secret, are pulled from an environment variable. This project contains a file, **./.env** that is used to set environment variables when it runs. You need to set these two values for the bot to work:
+In the code above, the first section initializes the Bot Framework adapter with the Azure AD app credentials created when you registered the bot in the Azure portal. These two properties, the Azure AD app's ID and secret, are pulled from an environment variable. This project contains a file, **./.env** that is used to set environment variables when it runs. You need to set these two values for the bot to work:
 
 Locate and open the file **./.env**.
 
 Locate the following section in the file, and set the values of the two properties that you obtained when registering the bot:
 
 ```txt
-# App Id and App Password ofr the Bot Framework bot
+# App Id and App Password for the Bot Framework bot
 MICROSOFT_APP_ID=
 MICROSOFT_APP_PASSWORD=
 ```
@@ -260,7 +261,13 @@ The last step to configure your project to host a messaging extension is to add 
 
 Locate and open the **./src/manifest/manifest.json**.
 
-Locate the property `id`. Change it's value to match the GUID of the Azure AD app that was created when creating the bot in the Azure portal.
+Locate the property `$schema`. Change its value to **https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json**
+
+Locate the property `manifestVersion`. Change its value to **1.7**.
+
+Locate the property `version`. Change its value to **1.0.0**.
+
+Locate the property `id`. Change its value to match the GUID of the Azure AD app that was created when creating the bot in the Azure portal.
 
 Locate the property `composeExtensions`. Add a new action command messaging extension to the collection of extensions registered with this Microsoft Teams app by updating the `composeExtensions` property the following JSON. This code will add our action command to the compose box and the action command in a message when it is installed.
 
@@ -290,6 +297,23 @@ Locate the property `composeExtensions`. Add a new action command messaging exte
 > Ensure you replace the `botId` property's value with the Azure AD app ID you obtained when registering the bot.
 
 At this point, your project is configured to host a messaging extension and your Microsoft Teams app has a single action command registered. Now you can code the action command.
+
+## Update the Teams SDK and gulp configuration
+
+Run the npm command to install the latest version of the SDK
+
+```console
+npm install @microsoft/teams-js -S
+```
+
+Open the `gulp.config.js` file in the root folder of the project. Add the following to the **SCHEMAS** property.
+
+```json
+{
+  version: "1.7",
+  schema: "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json"
+}
+```
 
 ## Code the messaging extension
 
@@ -438,7 +462,7 @@ Add a new file **planetSelectorCard.json** to the **./src/app/planetBot** folder
 
 To simplify working with collections, install the Lodash library by executing the following commands in the command line from the root folder of the project:
 
-```shell
+```console
 npm install lodash -S
 npm install @types/lodash -D
 ```
@@ -470,29 +494,29 @@ protected handleTeamsMessagingExtensionFetchTask(context: TurnContext, action: M
   const planets: any = require("./planets.json");
   const sortedPlanets: any = sortBy(planets, ["id"])
     .map((planet) => {
-      return { "value": planet.id, "title": planet.name }
+      return { value: planet.id, title: planet.name };
     });
 
   // load card template
   const adaptiveCardSource: any = require("./planetSelectorCard.json");
   // locate the planet selector
-  let planetChoiceSet: any = find(adaptiveCardSource.body, { "id": "planetSelector" });
+  const planetChoiceSet: any = find(adaptiveCardSource.body, { id: "planetSelector" });
   // update choice set with planets
   planetChoiceSet.choices = sortedPlanets;
   // load the adaptive card
   const adaptiveCard = CardFactory.adaptiveCard(adaptiveCardSource);
 
-  let response: MessagingExtensionActionResponse = <MessagingExtensionActionResponse>{
+  const response: MessagingExtensionActionResponse = {
     task: {
       type: "continue",
       value: {
         card: adaptiveCard,
-        title: 'Planet Selector',
+        title: "Planet Selector",
         height: 150,
         width: 500
       }
     }
-  };
+  } as MessagingExtensionActionResponse;
 
   return Promise.resolve(response);
 }
@@ -603,7 +627,7 @@ Next, add a handler to process the message when the messaging extension's Adapti
 ```typescript
 protected handleTeamsMessagingExtensionSubmitAction(context: TurnContext, action: MessagingExtensionAction): Promise<MessagingExtensionActionResponse> {
   switch (action.commandId) {
-    case 'planetExpanderAction':
+    case "planetExpanderAction":
       // load planets
       const planets: any = require("./planets.json");
       // get the selected planet
@@ -611,16 +635,16 @@ protected handleTeamsMessagingExtensionSubmitAction(context: TurnContext, action
       const adaptiveCard = this.getPlanetDetailCard(selectedPlanet);
 
       // generate the response
-      return Promise.resolve(<MessagingExtensionActionResponse>{
+      return Promise.resolve({
         composeExtension: {
           type: "result",
           attachmentLayout: "list",
           attachments: [adaptiveCard]
         }
-      });
+      } as MessagingExtensionActionResponse);
       break;
     default:
-      throw new Error('NotImplemented');
+      throw new Error("NotImplemented");
   }
 }
 ```
@@ -636,16 +660,16 @@ private getPlanetDetailCard(selectedPlanet: any): MessagingExtensionAttachment {
 
   // update planet fields in display card
   adaptiveCardSource.actions[0].url = selectedPlanet.wikiLink;
-  find(adaptiveCardSource.body, { "id": "cardHeader" }).items[0].text = selectedPlanet.name;
-  const cardBody: any = find(adaptiveCardSource.body, { "id": "cardBody" });
-  find(cardBody.items, { "id": "planetSummary" }).text = selectedPlanet.summary;
-  find(cardBody.items, { "id": "imageAttribution" }).text = "*Image attribution: " + selectedPlanet.imageAlt + "*";
-  const cardDetails: any = find(cardBody.items, { "id": "planetDetails" });
+  find(adaptiveCardSource.body, { id: "cardHeader" }).items[0].text = selectedPlanet.name;
+  const cardBody: any = find(adaptiveCardSource.body, { id: "cardBody" });
+  find(cardBody.items, { id: "planetSummary" }).text = selectedPlanet.summary;
+  find(cardBody.items, { id: "imageAttribution" }).text = "*Image attribution: " + selectedPlanet.imageAlt + "*";
+  const cardDetails: any = find(cardBody.items, { id: "planetDetails" });
   cardDetails.columns[0].items[0].url = selectedPlanet.imageLink;
-  find(cardDetails.columns[1].items[0].facts, { "id": "orderFromSun" }).value = selectedPlanet.id;
-  find(cardDetails.columns[1].items[0].facts, { "id": "planetNumSatellites" }).value = selectedPlanet.numSatellites;
-  find(cardDetails.columns[1].items[0].facts, { "id": "solarOrbitYears" }).value = selectedPlanet.solarOrbitYears;
-  find(cardDetails.columns[1].items[0].facts, { "id": "solarOrbitAvgDistanceKm" }).value = Number(selectedPlanet.solarOrbitAvgDistanceKm).toLocaleString();
+  find(cardDetails.columns[1].items[0].facts, { id: "orderFromSun" }).value = selectedPlanet.id;
+  find(cardDetails.columns[1].items[0].facts, { id: "planetNumSatellites" }).value = selectedPlanet.numSatellites;
+  find(cardDetails.columns[1].items[0].facts, { id: "solarOrbitYears" }).value = selectedPlanet.solarOrbitYears;
+  find(cardDetails.columns[1].items[0].facts, { id: "solarOrbitAvgDistanceKm" }).value = Number(selectedPlanet.solarOrbitAvgDistanceKm).toLocaleString();
 
   // return the adaptive card
   return CardFactory.adaptiveCard(adaptiveCardSource);
@@ -656,7 +680,7 @@ private getPlanetDetailCard(selectedPlanet: any): MessagingExtensionAttachment {
 
 From the command line, navigate to the root folder for the project and execute the following command:
 
-```shell
+```console
 gulp ngrok-serve
 ```
 
@@ -689,7 +713,7 @@ Now let's install the app in Microsoft Teams. In the browser, navigate to **http
 > [!NOTE]
 > Microsoft Teams is available for use as a web client, desktop client and a mobile client. In this module, we will use the web client but any of the clients can be used.
 
-Using the app bar navigation menu, select the **Mode added apps** button. Then select **Browse all apps** followed by **Upload for me or my teams**.
+Using the app bar navigation menu, select the **More added apps** button. Then select **Browse all apps** followed by **Upload for me or my teams**.
 
 ![Screenshot of More added apps dialog in Microsoft Teams](../media/03-test-02.png)
 
