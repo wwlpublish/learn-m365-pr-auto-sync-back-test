@@ -37,7 +37,7 @@ quiz:
       explanation: •	The `Set-CsTeamsBlurMeetingPolicy` cmdlet doesn’t exist, so you can’t use it to create a policy. You also must use the `VideoFiltersMode` parameter to successfully apply a blur policy.
     - content: Make sure to create a meeting using the `Set-CsTeamsMeeting` cmdlet and set the `-BlurFiltersMode` parameter to `BlurOnly`
       isCorrect: false
-      explanation: The BlurFiltersMode parameter doesn’t exist, so you can’t use it enable blurring. Also, you don’t create a meeting using a cmdlet, you need to create a policy.
+      explanation: The BlurFiltersMode parameter doesn’t exist, so you can’t use it to enable blurring. Also, you don’t create a meeting using a cmdlet, you need to create a policy.
  # Question 3
   - content: When using screen sharing mode, what screen sharing options are available?
     choices:
