@@ -26,7 +26,7 @@ For example, an Office 365 group is indicated by the property `groupTypes:["Unif
 
 The same request can be done using the Microsoft Graph .NET SDK with the following code:
 
-```cs
+```csharp
 var client = GetAuthenticatedGraphClient(...);
 var requestOwnerOf = client.Me.OwnedObjects.Request();
 var resultsOwnerOf = requestOwnerOf.GetAsync().Result;
@@ -36,7 +36,7 @@ By attempting to cast the directory object as a specific type in the Microsoft G
 
 For example, the following code tries to cast the object to a **Microsoft.Graph.Group** object (an Office 365 group) and a **Microsoft.Graph.DirectoryRole** object (a security group).
 
-```cs
+```csharp
 foreach (var ownedObject in resultsOwnerOf)
 {
   var group = ownedObject as Microsoft.Graph.Group;
@@ -65,7 +65,7 @@ Like the previous example, this returns a list of directory objects. You can exa
 
 The same request can be done using the Microsoft Graph .NET SDK with the following code:
 
-```cs
+```csharp
 var client = GetAuthenticatedGraphClient(...);
 var requestGroupsMemberOf = client.Me.MemberOf.Request();
 var resultsGroupsMemberOf = requestGroupsMemberOf.GetAsync().Result;
