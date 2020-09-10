@@ -10,7 +10,7 @@ The first decision is whether to host the SBC yourself, or use a partner hosted 
 
 For each approach, you need to understand:
 
-- Initial and ongoing costs
+- Initial and ongoing costs.
 - The available support. There's a certification program for SBC devices, but not for Microsoft partners. You should find out what expertise your partner organization has and the support they can provide.
 
 ## Licensing and endpoints

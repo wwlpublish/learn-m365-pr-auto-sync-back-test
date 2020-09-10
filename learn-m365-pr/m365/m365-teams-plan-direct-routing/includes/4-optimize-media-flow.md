@@ -19,7 +19,7 @@ Media bypass is supported on Teams desktop clients and Teams phone devices. For 
 
 When media bypass is implemented, there are additional considerations for setting IP address ranges and port numbers.
 
-First, users inside the network need access to the public IP address of the SBC. The administrator has to configure a "hairpin", with the connection going out from the Teams client and back in to the SBC's public IP address. If this isn't possible for any reason, the alternative is **local media optimization**, covered later in this unit.
+First, users inside the network need access to the public IP address of the SBC. The administrator has to configure a "hairpin", with the connection going out from the Teams client and back into the SBC's public IP address. If this isn't possible for any reason, the alternative is **local media optimization**, covered later in this unit.
 
 Second, media processors are still required for voice apps and web clients, in the same way as they are for non-bypass traffic. You must also configure IP addresses for them.
 Finally, with media bypass, SBCs need to communicate with transport relays, so the relevant ports must be open, and the IP address ranges set.  
@@ -36,7 +36,7 @@ When Local Media Optimization is configured, the internal IP address of the SBC 
 
 :::image type="content"  source="../media/4-local-media-optimization.png" alt-text="Local Media Optimization":::
 
-To configure Local Media Optimization, you need to create a **proxy SBC**, with a public IP address, to communicate with Phone Service . It's deployed and configured in the same way as any other SBC for direct routing. This proxy SBC is the target for online voice routes .
+To configure Local Media Optimization, you need to create a **proxy SBC**, with a public IP address, to communicate with Phone Service. It's deployed and configured in the same way as any other SBC for direct routing. This proxy SBC is the target for online voice routes.
 
 In addition, a **downstream SBC** is required. This SBC doesn't have a public IP address and is paired to the Phone Service  by association to the upstream or **proxy SBC**.
 
