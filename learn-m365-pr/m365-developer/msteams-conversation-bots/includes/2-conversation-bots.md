@@ -174,7 +174,7 @@ A conversation is a series of messages sent between your bot and one or more use
 - **groupChat**: conversation between a bot and two or more users
 - **personal**: conversations between bots and a single user
 
-A bot behaves slightly differently depending on what kind of conversation its involved in:
+A bot behaves slightly differently depending on what kind of conversation it's involved in:
 
 - Bots in channel and group chat conversations require the user to @mention the bot to invoke it in a channel.
 - Bots in a one-to-one conversation don't require an @mention. All messages sent by the user will be routed to your bot.
