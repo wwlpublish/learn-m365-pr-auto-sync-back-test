@@ -2,7 +2,7 @@ In this unit, you'll learn how you can track changes to entities in a collection
 
 ## Tracking changes to entities with Microsoft Graph
 
-Many custom applications have a need to track and replicate changes between two systems. For example, updates to user information in the master Azure AD directory for an organization, such as office addresses, manager, and contact phone numbers need to be recorded in time reporting systems or other back-office platforms. One way developers can monitor a source system for changes is by polling the system to detect changes.
+Many custom applications have a need to track and replicate changes between two systems. For example, updates to user information in the master Azure AD directory for an organization, such as office addresses, manager, and contact phone numbers need to be recorded in time reporting systems or other back-office platforms. One-way developers can monitor a source system for changes is by polling the system to detect changes.
 
 As you learned in a previous unit, an alternative to the polling pattern, developers can leverage change notifications in Microsoft Graph to be notified when entities change. While this addresses one part of the problem, what happens in the case where a change notification subscription expires? In this case, your application may miss changes to entities when the subscription was not active. In addition, what happens if a change notification wasn't fired by Microsoft Graph because of a system error? In these cases, your application would have to temporarily rely on the polling pattern.
 
@@ -50,7 +50,7 @@ With this pattern, your app could first, create a change notification subscripti
 
 In the future, change notifications are used to notify your application that something changed. You can use this as a trigger to resubmit the delta query for all changes that have happened since the first request, or one of the later requests. This way, your application can be assured to not miss any changes that happen even if there is when a subscription expires or there's an unforeseen error in the processing of, or sending, the change notification.
 
-To make the application as fault tolerant as possible, it's recommended to have a scheduled process check for a valid subscription and renew it if the expiration time is coming up soon. Its also recommended to schedule a delta query request to occur on regular intervals to cover the scenario where there was a gap in an active subscription and or where a notification of a change wasn't received for some unknown reason.
+To make the application as fault tolerant as possible, it's recommended to have a scheduled process check for a valid subscription and renew it if the expiration time is coming up soon. It's also recommended to schedule a delta query request to occur on regular intervals to cover the scenario where there was a gap in an active subscription and or where a notification of a change wasn't received for some unknown reason.
 
 ## Summary
 
