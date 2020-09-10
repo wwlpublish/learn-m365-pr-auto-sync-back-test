@@ -1,0 +1,64 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-teams-accessibility.knowledge-check
+title: Summary and knowledge check
+metadata:
+  title: Summary and knowledge check
+  description: Test your understanding of the concepts presented in this module. 
+  ms.date: 09/10/2020
+  ms.author: elizapo
+  author: iankensey
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 5
+content: |
+quiz:
+  title: Check your knowledge
+  questions:
+  #Question 1
+  - content: How do you enable transcription for recorded meetings using the Microsoft Teams admin center?
+    choices:
+    - content: Set the Enable live captions option to On
+      isCorrect: false
+      explanation: This isn’t a value that exists for the option
+    - content: Set the Enable live captions option to Switched off but user can override
+      isCorrect: false
+      explanation: This isn’t a value that exists for the option.
+    - content: Set the Enable live captions option to Disabled but the user can override
+      isCorrect: true
+      explanation: This isn’t a value that exists for the option.
+ # Question 2 
+  - content: How can you use PowerShell to configure a background blur policy?
+    choices:
+    - content: Create a policy using the `Set-CsTeamsMeetingPolicy` cmdlet and set the `-VideoFiltersMode` parameter to `BlurOnly`
+      isCorrect: true
+      explanation: You can also use the `AllFilters` and `BlurandDefaultBackgrounds` parameters to allow additional background effects for users.
+    - content: Create a policy using the `Set-CsTeamsBlurMeetingPolicy` cmdlet. The blur will automatically be applied
+      isCorrect: false
+      explanation: •	The `Set-CsTeamsBlurMeetingPolicy` cmdlet doesn’t exist, so you can’t use it to create a policy. You also must use the `VideoFiltersMode` parameter to successfully apply a blur policy.
+    - content: Make sure to create a meeting using the `Set-CsTeamsMeeting` cmdlet and set the `-BlurFiltersMode` parameter to `BlurOnly`
+      isCorrect: false
+      explanation: The BlurFiltersMode parameter doesn’t exist, so you can’t use it enable blurring. Also, you don’t create a meeting using a cmdlet, you need to create a policy.
+ # Question 3
+  - content: When using screen sharing mode, what screen sharing options are available?
+    choices:
+    - content: Entire screen, single application, and disabled
+      isCorrect: true
+      explanation: When using screen sharing mode, you can share the entire screen, a single application, or you can choose to disable screen sharing all together.
+    - content: Split screen, single applications, or disabled
+      isCorrect: false
+      explanation: Of these three options, only single applications, and disabled are valid screen sharing option.
+    - content: No screen sharing, single application, or disabled
+      isCorrect: false
+      explanation: Of these three options, only single applications, and disabled are valid screen sharing option.
+ # Question 4
+  - content: Normally, when a meeting participant shares their screen, all participants video streams convert to a thumbnail. This could be a problem for users who need interpreters because they need to be able to clearly see their interpreters. How can those users resolve this?
+    choices:
+    - content: They can pin the video of the interpreters
+      isCorrect: true
+      explanation: The interpreter will continue to be displayed at an easily viewable size while displaying the remaining screen space with the rest of the video.
+    - content: They can use the Raise your hand feature
+      isCorrect: false
+      explanation: The Raise your hand feature gives users the chance to speak, it doesn’t ensure interpreters can be viewable. Instead, they should pin the video of the interpreters.
+    - content: They can use Together mode
+      isCorrect: false
+      explanation: Together mode will put display all participants in single, shared space. It doesn’t ensure interpreters are fully viewable. Instead, they should pin the video of the interpreters.
