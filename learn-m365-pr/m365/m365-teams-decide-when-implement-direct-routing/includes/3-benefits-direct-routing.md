@@ -2,7 +2,7 @@ As we saw in the previous unit, Direct Routing allows you to use your own teleph
 
 In your clothing retail company, you're considering whether to use Direct Routing. You have a board meeting coming up, and you want to brief them on the benefits that a move to Direct Routing might realize.
 
-Here, you'll learn about the advantages of Direct Routing over a third-party Private Branch Exchange (PBX).
+Here, you'll learn about the advantages of Direct Routing over a third-party private branch exchange (PBX).
 
 ## Interoperability
 

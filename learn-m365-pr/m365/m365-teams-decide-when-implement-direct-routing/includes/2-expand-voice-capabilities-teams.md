@@ -1,18 +1,18 @@
 Microsoft Teams offers several ways of communicating, including file sharing, chat, video calls, and voice calls. When you want to expand Teams to include voice call and public switched telephone network (PSTN) capabilities, Direct Routing is one option.
 
-Suppose you want to start your assessment of Teams telephony functionality. In your clothing retailer, you want to find out if you can reduce telephony costs by moving to Direct Routing from your third-party Private Branch Exchange (PBX) system. It's important that users don't have to change their phone numbers if you decide to take that step.
+Suppose you want to start your assessment of Teams telephony functionality. In your clothing retailer, you want to find out if you can reduce telephony costs by moving to Direct Routing from your third-party private branch exchange (PBX) system. It's important that users don't have to change their phone numbers if you decide to take that step.
 
 Here, you'll learn about the business-case for Direct Routing.
 
-## What is Direct Routing
+## What is Direct Routing?
 
-Direct Routing allows you to connect Teams to your existing telephone system infrastructure. It works with Phone System, Microsoft's technology for call control and Private Branch Exchange (PBX) capabilities.
+Direct Routing allows you to connect Teams to your existing telephone system infrastructure. It works with Phone System, Microsoft's technology for call control and private branch exchange (PBX) capabilities.
 
 Direct Routing is the right option if your organization wants to use an existing telephony provider to deliver voice capability in Teams. You can use it to enable users to make phone calls outside your organization.
 
 Direct Routing is only available in Teams; you can't use it with Skype for Business.
 
-## Is Direct Routing right for my organization
+## Is Direct Routing right for my organization?
 
 Direct Routing may be right for your organization if:
 
@@ -23,13 +23,13 @@ Direct Routing may be right for your organization if:
 - You want to use Microsoft Calling Plans as well as Direct Routing.
 - You want a controlled migration of non-Microsoft endpoints to Microsoft Teams.
 
-## What other options are available
+## What other options are available?
 
 :::image type="content" source="../media/2-teams-direct-routing.png" alt-text="Direct Routing and Teams":::
 
 Microsoft Calling Plans is an alternative to Direct Routing. It's available in many, but not all countries. If Calling Plans isn't available in your country, Direct Routing is the alternative.
 
-## What infrastructure do I need
+## What infrastructure do I need?
 
 To implement Direct Routing, you must have a certified Session Border Controller (SBC). The SBC connects your PSTN infrastructure to the Microsoft Teams Phone System.
 
