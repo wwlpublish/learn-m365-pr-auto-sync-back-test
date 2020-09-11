@@ -3,7 +3,7 @@ uid: learn-m365.m365-teams-rooms-deploy
 metadata:
   title: Deploy Microsoft Teams Rooms
   description: Learn to simplify the distribution of Teams Rooms across your environment by standardizing deployments. Discover the various components of Teams Rooms and their interconnections. Learn about the resource account, which represents the meeting room in Microsoft Teams. 
-  ms.date: 09/01/2020
+  ms.date: 09/10/2020
   author: AlexandraHrt
   ms.author: elizapo
   ms.topic: interactive-tutorial
@@ -17,7 +17,8 @@ abstract: |
   - Create the resource account used by Teams Rooms.
 
 prerequisites: | 
- - Experience with Microsoft Teams
+ - Familiarity with Microsoft Teams
+ - Understanding of PowerShell
 
 iconUrl: /learn/achievements/generic-badge.svg
 levels:

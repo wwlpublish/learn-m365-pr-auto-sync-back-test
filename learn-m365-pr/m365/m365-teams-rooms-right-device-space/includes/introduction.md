@@ -4,8 +4,14 @@ In this module, you'll learn what to consider when looking at your various meeti
 
 Finally, you'll gain an appreciation of all the crucial elements needed to document a room. This documentation is valuable not only during the design and installation of Teams Rooms but also in the ongoing operations in years to come.
 
+## Learning objectives
+
 In this module, you’ll learn to:
  
 - Consider the right criteria when analyzing various meeting spaces.
 - Recognize the different form factors and components that comprise Microsoft Teams Rooms.
 - Understand the environmental considerations when designing Microsoft Teams Rooms. 
+
+## Prerequisites
+
+- Familiarity with Microsoft Teams
