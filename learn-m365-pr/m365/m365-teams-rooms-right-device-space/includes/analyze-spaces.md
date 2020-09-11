@@ -12,7 +12,7 @@ You’ll want to consider a number of things when designing meeting spaces for T
 
 In the below left image, we see a small focus room. This is a great place for Teams Rooms, be it a collaboration bar for Microsoft Teams or the full Windows-based Teams Rooms.
 
-On the right is a different situation. This is the type of environment that is great for Surface Hub. As there's no table in front of any of the chairs, people can get up and walk directly to the Surface Hub to interact with it. By putting tables in front of the chairs, people may feel hesitant to walk around the table to get to the Surface Hub. When going with Surface Hub, be sure that the room is designed to encourage interactivity with the device.
+On the right is a different situation. This is the type of environment that is great for Surface Hub, an all-in-one digital whiteboard, meetings platform, and collaborative computing device that brings the power of Windows 10 to teamwork. As there's no table in front of any of the chairs, people can get up and walk directly to the Surface Hub to interact with it. By putting tables in front of the chairs, people may feel hesitant to walk around the table to get to the Surface Hub. When going with Surface Hub, be sure that the room is designed to encourage interactivity with the device.
 
 ![Meeting space sizes](../media/meeting-space-sizes.png)
 
