@@ -16,7 +16,7 @@ abstract: |
   - Assess your network to see if it supports Teams and Microsoft 365 networking requirements.
   - Optimize your network security by implementing Zero Trust principals.
   - Ensure Teams meetings perform well for users.
-prerequisites: None | 
+prerequisites: |
   - Knowledge of networking terminology and technology
   - Knowledge of TCP/IP and DNS
 iconUrl: /learn/achievements/generic-badge.svg
