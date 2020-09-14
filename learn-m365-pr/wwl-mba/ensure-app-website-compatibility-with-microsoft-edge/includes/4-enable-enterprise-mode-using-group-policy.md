@@ -1,5 +1,5 @@
 
-Checkout the video below to see how to enable Enterprise Mode through group policy, as well as some pro-tips to make things easier.
+Check out the video below to see how to enable Enterprise Mode through group policy, as well as some pro-tips to make things easier.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Fm7C]
 
