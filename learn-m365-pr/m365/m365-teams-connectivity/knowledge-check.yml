@@ -1,0 +1,64 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-teams-connectivity.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: Test your understanding of the concepts presented in this module. 
+  ms.date: 09/14/2020
+  ms.author: elizapo
+  author: iankensey
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 5
+content: |
+quiz:
+  title: "Check your knowledge"
+  questions:
+  #QUESTION 1
+  - content: "Which of the following configurations would constitute a network hairpin?"
+    choices:
+      - content: "Your ISP has a direct peering relationship with the Microsoft Global Network."
+        isCorrect: false
+        explanation: "A direct peering relationship with the Microsoft Global network doesn't constitute a hairpin."
+      - content: "Your network configuration routes traffic to an intermediate on-premises security check before traffic is routed to Microsoft 365."
+        isCorrect: true
+        explanation: "A hairpin happens when traffic bound for a destination is directed to an intermediate location."
+      - content: "Your routers are configured to send Microsoft 365 traffic directly."
+        isCorrect: false
+        explanation: "When routers are configured to send traffic directly to Microsoft 365, without going through an intermediate location, it doesn't constitute a hairpin."
+  #QUESTION 2
+  - content: "Which of the following tools could you use to find out your distance from the network egress location?"
+    choices:
+      - content: "Skype for Business Network Assessment Tool."
+        isCorrect: false
+        explanation: "The Skype for Business Network Assessment Tool doesn't show your distance from the network egress location."
+      - content: "Microsoft 365 Network Onboarding Tool"
+        isCorrect: true
+        explanation: "The Microsoft 365 Network Onboarding Tool includes your distance from the network egress location."
+      - content: "Network Planner for Microsoft Teams"
+        isCorrect: false
+        explanation: "The Network Planner for Microsoft Teams doesn't show the distance from the network egress location."
+  #QUESTION 3
+  - content: "You want to implement Zero Trust principles in your Microsoft 365 system. Which of these configurations should you use?"
+    choices:
+      - content: "Ensure your network perimeter is secured against attack."
+        isCorrect: false
+        explanation: "Securing your network perimeter provides insufficient security for a cloud-first, mobile-first environment that contains many different devices."
+      - content: "Microsoft Azure Active Directory conditional access."
+        isCorrect: true
+        explanation: "By combining data about, for example, users, devices and locations, you determine whether the request should be granted, denied, or controlled with more information, such as two-factor authentication."
+      - content: "User passwords that require changing every three months."
+        isCorrect: false
+        explanation: "A single compromised password could risk an attacker gaining access to all of your network."
+  #QUESTION 4
+  - content: "Which of the following network configurations will have a negative impact on the performance of Teams meetings?"
+    choices:
+      - content: "Microsoft Teams traffic is directed through a VPN."
+        isCorrect: true
+        explanation: "For best performance, Teams traffic shouldn't be directed through a VPN."
+      - content: "Microsoft Teams traffic isn't directed through a VPN."
+        isCorrect: false
+        explanation: "Directing traffic so that it bypasses the VPN will improve performance."
+      - content: "Microsoft Teams traffic is  directed through a split-tunnel VPN."
+        isCorrect: false
+        explanation: "Directing traffic so that it bypasses the VPN, also known as a split-tunnel VPN, will improve performance."
