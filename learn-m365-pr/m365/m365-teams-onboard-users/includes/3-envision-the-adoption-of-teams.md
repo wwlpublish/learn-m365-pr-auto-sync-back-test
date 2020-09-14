@@ -4,11 +4,10 @@ At this stage in the roll out project, you need to identify the people who will 
 
 ## Adoption prerequisites
 
-Before getting started an administrator should ensure that, make sure that:
+Before getting started an administrator should ensure that:
 
 - *Teams is installed* and *licenses are assigned* in your environment. At a minimum, licenses should be assigned to your core team and to the early adopters participating in this initial project phase.
 - Desktop and mobile applications are downloaded.
-
 
 ## Assemble your team
 
@@ -26,7 +25,7 @@ No matter how large or small your organization, you'll want to bring together a 
 | Communication Lead              | Oversee company-wide communications about Teams.                                                                     | Corporate Communications, IT, or other |
 | Community Manager               | Manage day-to-day Yammer network activity. Provide guidance and best practices.                                      | Multiple departments                   |
 
-It's important that you and the rest of the roll out project team to commit to using Teams chat, channels, and resources to manage the roll out project. By modeling the behavior you want the rest of your company to embrace, you increase the likelihood of successful adoption by the rest of the company. Set the tone, go first, and enjoy having your project information all in one place.
+It's important that you and the rest of the roll out project team commit to using Teams chat, channels, and resources to manage the roll out project. By modeling the behavior you want the rest of your company to embrace, you increase the likelihood of successful adoption by the rest of the company. Set the tone, go first, and enjoy having your project information all in one place.
 
 ### Identify your stakeholders
 

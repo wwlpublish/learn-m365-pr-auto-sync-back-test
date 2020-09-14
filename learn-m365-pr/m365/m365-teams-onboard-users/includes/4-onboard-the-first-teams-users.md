@@ -92,9 +92,9 @@ For more information, see *FastTrack Center Benefit for Microsoft 365* and *Envi
 
 ### Develop a training plan for Microsoft Teams users
 
-Providing widely available self-help information, training and written guidance will enable users to quickly onboard to the product. Many users will simply jump in once it becomes available. However, everyone learns in different ways – so having a central information portal will support all styles of learning within your organization.
+Providing widely available self-help information, training and written guidance will enable users to quickly onboard to the product. Many users will simply jump in once it becomes available. However, everyone learns in different ways - so having a central information portal will support all styles of learning within your organization.
 
-Use Microsoft resources to build a custom end-user training program focused on your organization's needs. You should design your program to allow people learn as they use Teams. Use the training section below in the **Learn more** section to reduce the time to build the program.
+Use Microsoft resources to build a custom end-user training program focused on your organization's needs. You should design your program to allow people to learn as they use Teams. Use the training section below in the **Learn more** section to reduce the time to build the program.
 Use your champions as an initial cohort to test and then refine the program. People are busy, so streamlining the training program will help users to complete it.
 
 ## Launch to early adopters
