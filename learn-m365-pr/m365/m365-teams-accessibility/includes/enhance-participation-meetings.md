@@ -1,6 +1,6 @@
 You want to provide your users with more options, control, and flexibility so they can participate in meetings in ways that work for them.
 
-Microsoft Teams comes with features like Raise your hand, Together mode, in-meeting chat, and messaging policies like chat editing, Immersive reader, and emojis to provide options, control, and flexible participation.
+Microsoft Teams comes with features like **Raise your hand**, **Together mode**, **in-meeting chat**, and messaging policies like chat editing, Immersive reader, and emojis to provide options, control, and flexible participation.
 
 Here, you'll explore the different options available to you so that you can enhance participation in Teams meetings.
 
@@ -8,9 +8,9 @@ Here, you'll explore the different options available to you so that you can enha
 
 For some users with hearing disabilities or who are neurodiverse, it can be difficult to find the right moment to contribute to the discussion without speaking over others. Microsoft Teams provides the **Raise your hand** option, so users have more ways to participate in meeting discussions in a comfortable and inclusive way.
 
-When a user selects Raise Hand, the meeting presenter will receive a notification so they can give that user the opportunity to provide their input in a way that works best for that user. Other participants are temporarily muted while this user speaks. When the user is done, they use the **Lower your hand** option. The meeting presenter can also lower a participant's hand if necessary.
+When a user selects **Raise your Hand**, the meeting presenter will receive a notification so they can give that user the opportunity to provide their input in a way that works best for that user. Other participants are temporarily muted while this user speaks. When the user is done, they use the **Lower your hand** option. The meeting presenter can also lower a participant's hand if necessary.
 
-The Raise your hand option is available to all participants of the meeting and is a great way to let the presenter and all the other participants of the meeting know that you would like to speak.
+The raise your hand option is available to all participants of the meeting and is a great way to let the presenter and all the other participants of the meeting know that you would like to speak.
 
 Users can use the Raise your hand feature by doing:
 
@@ -36,7 +36,7 @@ Your users can enable Together mode in a meeting by selecting **Together mode** 
 
 :::image type="content" source="../media/teams-menu-together-mode.png" alt-text="Screenshot showing how to enable Teams together mode":::
 
-Microsoft Teams’ Together mode can help support employee wellbeing by reducing the feeling of fatigue that some remote workers experience from meetings. Early research has shown that when taking part in meetings using Together mode, participants exert less effort and are better able to focus on other participants’ faces and body language to interpret important non-verbal cues. Each participant enables Together Mode for their own Teams instance. Teams then puts all participants in a single shared background to make it feel like everyone is in the same room.
+Microsoft Teams Together mode can help support employee wellbeing by reducing the feeling of fatigue that some remote workers experience from meetings. Early research has shown that when taking part in meetings using Together mode, participants exert less effort and are better able to focus on other participants’ faces and body language to interpret important non-verbal cues. Each participant enables Together Mode for their own Teams instance. Teams then puts all participants in a single shared background to make it feel like everyone is in the same room.
 
 :::image type="content" source="../media/teams-together-mode-research-findings.png" alt-text="Illustration showing brain activity during meetings comparing grid view and together mode":::
 
@@ -44,7 +44,7 @@ Microsoft Teams’ Together mode can help support employee wellbeing by reducing
 
 Chat provides users with another way to participate in the meeting discussion. For some users with disabilities, chat may be preferable to voice or sign language as a way to contribute to some meeting discussions. As the admin, you should encourage presenters to take recurring pauses to check the chat window for any feedback. Too often, presenters move things along without paying attention to the chat window.
 
-As the admin, you can enable in-meeting chat for all users by configuring the Global (Org-wide default) meeting policy using the Microsoft Teams admin center. To do this in the Microsoft Teams admin center, you select **Meeting policies**, select the **Global (Org-wide default)** meeting policy, then set **Allow chat in meetings** to **Enabled**:
+As the admin, you can enable **in-meeting chat** for all users by configuring the Global (Org-wide default) meeting policy using the Microsoft Teams admin center. To do this in the **Microsoft Teams admin center**, you select **Meeting policies**, select the **Global (Org-wide default)** meeting policy, then set **Allow chat in meetings** to **Enabled**:
 
 :::image type="content" source="../media/microsoft-teams-admin-center-meeting-policies-allow-chat-meetings.png" alt-text="Screenshot showing Teams admin center allowing chat in meetings":::
 
@@ -52,9 +52,9 @@ As the admin, you can enable in-meeting chat for all users by configuring the Gl
 
 Messaging policies provide users with greater flexibility in how they consume in-meeting chat content and more options and control over how they participate in a meeting with chat. You can provide the option to edit and delete chats, so those with learning disabilities can choose to edit their writing after they’ve hit send. You can give the option to communicate with emojis, so those with learning disabilities can choose images rather than writing. You can enable features like Immersive Reader, a capability designed for users who have dyslexia, to make the text easier to consume, or in-line translation for users who prefer to communicate in a different language.
 
-As the admin, you manage messaging policies by using the Microsoft Teams admin center. Apply default messaging policy settings for all users across your organization by configuring the Global (Org-wide default) policy that is created automatically for you.
+As the admin, you manage messaging policies by using the Microsoft Teams admin center. Apply default messaging policy settings for all users across your organization by configuring the **Global (Org-wide default)** policy that is created automatically for you.
 
-1. In the Microsoft Teams admin center select **Messaging policies**, then select the **Global (Org-wide default)**:
+1. In the **Microsoft Teams admin center** select **Messaging policies**, then select the **Global (Org-wide default)**:
 
    :::image type="content" source="../media/microsoft-teams-admin-center-meeting-policies-messaging.png" alt-text="Screenshot showing the Teams admin center and setting messaging policies":::
 

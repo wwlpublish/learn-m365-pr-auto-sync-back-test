@@ -1,7 +1,6 @@
-There could be users in your organization who are deaf and use sign language interpreters to effectively participate and contribute to meetings. 
-Microsoft Teams makes it possible to include sign language interpreters in meetings.
+There could be users in your organization who are deaf and use sign language interpreters to effectively participate and contribute to meetings. Microsoft Teams makes it possible to include sign language interpreters in meetings.
 
-Here, you'll learn how to enable sign language interpreters to access Microsoft Teams meetings.  You’ll also learn about which policies you can employ to help users who are deaf and interpreters work more effectively together.
+Here, you'll learn how to enable sign language interpreters to access Microsoft Teams meetings. You’ll also learn about which policies you can employ to help users who are deaf and interpreters work more effectively together.
 
 ## Enable access to meetings for interpreters
 
@@ -10,7 +9,9 @@ You can invite interpreters in Microsoft Teams meetings by providing them guest 
 
 ### Guest access
 
-Guest access allows teams in your organization to collaborate with people outside your organization by granting them access to existing teams and channels in Microsoft Teams. Anyone with a business or personal email account, such as Outlook, Gmail, or others, can participate as a guest in Microsoft Teams with full access to team chats, meetings, and files. As the Microsoft Teams admin, you’ll control which features guests can (and can't) use in Microsoft Teams.
+Guest access allows teams in your organization to collaborate with people outside your organization by granting them access to existing teams and channels in Microsoft Teams. Anyone with a business or personal email account, such as Outlook, Gmail, or others, can participate as a guest in Microsoft Teams with full access to team chats, meetings, and files. 
+
+As the Microsoft Teams admin, you’ll control which features guests can (and can't) use in Microsoft Teams.
 Guest access is an organization-wide setting in Microsoft Teams and is turned off by default. Guest access is subject to Azure Active Directory and Microsoft 365 or Office 365 service limits:
 
 - Guests are added to your organization’s Active Directory.
@@ -54,11 +55,11 @@ You can set it to one of the following options:
 
 Sign language interpreters need to be able to share their video feed with meeting participants so that users can see their interpretation, and so that the interpreters can also read signs from users who are deaf.
 
-As an admin, you need to make sure video isn't turned off in your organization's policies. You do this by ensuring that **Allow IP video** is set to **On** in your meeting policies:
+As an admin, you need to make sure video isn't turned off in your organization's policies. You do this by ensuring that **Allow IP video** is set to **On** in your **meeting policies**:
 
 :::image type="content" source="../media/microsoft-teams-admin-center-meeting-policies-allow-ip-video.png" alt-text="Screenshot showing the Teams admin center meeting policies to allow IP video":::
 
-### Use pin video and Dynamic view to keep interpreters in view
+### Use pin video and Dynamic View to keep interpreters in view
 
 By default, Teams switches the live stream view to whoever is talking. However, it’s important for people who are deaf or hard of hearing to clearly see their sign language interpreter’s video feed at all times. Teams provides Dynamic View, which allows users to pin up to four people's video streams so that they remain on the screen regardless of who is speaking. With Dynamic View, when an interpreter’s video is pinned, even when other content is shared, the interpreter's video remains large and on the screen at all times.
 

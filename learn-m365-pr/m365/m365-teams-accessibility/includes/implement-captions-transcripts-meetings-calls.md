@@ -47,7 +47,7 @@ To provide live captions for meetings, Microsoft Teams leverages details like th
 
 > [!NOTE]
 >
-> Data handling adheres to the terms of your master service agreement with Microsoft. If you have a question about privacy, please contact us by using our web form linked in the learn more section.
+> As previously stated, data handling adheres to the terms of your master service agreement with Microsoft. If you have a question about privacy, please contact us by using our web form linked in the learn more section.
 
 ## View transcripts through recorded meetings
 
@@ -58,7 +58,7 @@ With Microsoft Teams, you can enable your users to record meetings, which allows
 To enable recording for meetings, you can use the Microsoft Teams admin center.
 In the Microsoft Teams admin center:
 
-1. Select the Meeting policies pane.
+1. Select the **Meeting policies** pane.
 1. Select **Global (Org-wide default)** and set **Allow cloud recording** to **On**, as shown in the image below.
 
    :::image type="content" source="../media/microsoft-teams-admin-center-meeting-policies-allow-cloud-meeting.png" alt-text="Screenshot showing the meeting policies in Teams Admin Center to allow for cloud recording":::
@@ -91,7 +91,7 @@ With cloud recording and transcription enabled, your users can generate automati
 
 1. Finally, select **Apply** at the top dashboard.
 
-1. Live captioning will then be available for the video. Users can enable it by selecting CC on the bottom right of the video when watching a video. A searchable transcript is also available on the right of the video:
+1. Live captioning will then be available for the video. Users can enable it by selecting **CC** on the bottom right of the video when watching a video. A searchable transcript is also available on the right of the video:
 
    :::image type="content" source="../media/transcripts-meetings-05.png" alt-text="Screenshot showing the transcript of a video":::
 
