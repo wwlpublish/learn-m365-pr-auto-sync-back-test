@@ -17,48 +17,48 @@ quiz:
     
   - content: "By default, how long is data retained in Teams chat and channels?"
     choices:
-    - content: The period specified in the Teams admin center org settings.
+    - content: The period specified in the Teams admin center org settings
       isCorrect: false
       explanation: "That's incorrect. There is not a setting to allow you to set how long Teams data should be retained for."
-    - content: Indefinitely.
+    - content: Indefinitely
       isCorrect: true
       explanation: "That's correct. Microsoft Teams data is retained indefinitely."
-    - content: Five years.
+    - content: Five years
       isCorrect: false
       explanation: "That's incorrect. Data in Teams chat and channels is not retained for a specified period of time."
 
   - content: "How can you create a new information barrier policy using PowerShell?"
     choices:
-    - content: New-OrganizationSegment.
+    - content: **New-OrganizationSegment**
       isCorrect: false
       explanation: "That's incorrect. The New-OrganizationSegment cmdlet allows you to create a new user segment."
-    - content: New-InformationBarrierPolicy.
+    - content: **New-InformationBarrierPolicy**
       isCorrect: true
       explanation: "That's correct. The New-InformationBarrierPolicy cmdlet allows you to create a new information barrier policy."
-    - content: Set-InformationBarrierPolicy.
+    - content: **Set-InformationBarrierPolicy**
       isCorrect: false
       explanation: "That's incorrect. The Set-InformationBarrierPolicy cmdlet allows you to set the policy status to active."
 
   - content: "What is required to create a communication compliance policy?"
     choices:
-    - content: Enable the audit log.
+    - content: Enable the audit log
       isCorrect: true
       explanation: "That's correct. The audit log must be enabled in order to create a communication compliance policy."
-    - content: Create a Communication Compliance Analysis role.
+    - content: Create a Communication Compliance Analysis role
       isCorrect: false
       explanation: "That's incorrect. Creating and assigning a Communication Compliance Analysis role is an optional step, and not required to create a communication compliance policy."
-    - content: Set up groups for communication compliance.
+    - content: Set up groups for communication compliance
       isCorrect: false
       explanation: "That's incorrect. Setting up groups for communication compliance is an optional step, and not required to create a communication policy."
 
   - content: "How can you export eDiscovery search results?"
     choices:
-    - content: From the eDiscovery case Export tab.
+    - content: From the eDiscovery case Export tab
       isCorrect: false
       explanation: "That's incorrect. The eDiscovery case does not have an Export tab."
-    - content: Select Export from the Microsoft 365 Compliance center menu.
+    - content: Select Export from the Microsoft 365 Compliance center menu
       isCorrect: false
       explanation: "That's incorrect. The Microsoft 365 Compliance center menu does not have an Export option."
-    - content: From the eDiscovery case Searches tab.
+    - content: From the eDiscovery case Searches tab
       isCorrect: true
       explanation: "That's correct. The eDiscovery case Searches tab includes an export option."

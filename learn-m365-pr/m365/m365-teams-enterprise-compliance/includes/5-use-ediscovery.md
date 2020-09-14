@@ -17,7 +17,7 @@ An **eDiscovery Manager** can:
 - Access and manage the cases they create, but not cases created by other eDiscovery managers.
 - Use the Content Search tool to search content locations, preview, and export search results.
 - Create and manage Core eDiscovery cases and Advanced eDiscovery cases.
-- Add to a case, and remove members.
+- Add to a case and remove members.
 - Create case holds.
 - Run searches associated with a case.
 
@@ -35,7 +35,7 @@ Administrators, compliance officers, or legal personnel who are assigned to case
 ## Create a Core eDiscovery case
 To create a core eDiscovery case:
 
-1. Sign in to the **Microsoft 365 compliance center** with a user account with the appropriate eDiscovery permissions, or who is part of the Organization Management role group.
+1. Sign into the **Microsoft 365 compliance center** with a user account with the appropriate eDiscovery permissions, or who is part of the Organization Management role group.
 1. From the left navigation pane select **Show all** > **eDiscovery** > **Core**.
 1. Select **Create a case**.
 1. On the **New case** page, give the case a **name** that is unique within your organization. Optionally add a case number and description.
@@ -50,7 +50,7 @@ Once you have created a Core eDiscovery case, you can add one or more holds. Whe
 
 To create an eDiscovery hold:
 
-1. From the Microsoft 365 compliance center left navigation pane, select **Show all** > **eDiscovery** > **Core**.
+1. From the **Microsoft 365 compliance center** left navigation pane, select **Show all** > **eDiscovery** > **Core**.
 1. Select a case, and then select **Open case**.
 1. On the **Home page**, select the **Holds** tab.
 1. On the **Holds** page, select **Create**.
@@ -61,7 +61,7 @@ To create an eDiscovery hold:
 ## Content Search
 To search for content relevant to the case:
 
-1. From the Microsoft 365 compliance center left navigation pane, select **Show all** > **eDiscovery** > **Core**.
+1. From the **Microsoft 365 compliance center** left navigation pane, select **Show all** > **eDiscovery** > **Core**.
 1. Select a case, and then select **Open case**.
 1. On the **Home** page for the case, select the **Searches** tab.
 1. On the **Search** page, select **New search**.
@@ -71,7 +71,7 @@ To search for content relevant to the case:
 ## Export search results
 You can download data from a search, by exporting the results.
 
-1. From the Microsoft 365 compliance center left navigation pane, select **Show all** > **eDiscovery** > **Core**.
+1. From the **Microsoft 365 compliance center** left navigation pane, select **Show all** > **eDiscovery** > **Core**.
 1. Select **Open case** > **Searches** tab.
 1. From the **Searches** page, select **Export results**.
 1. From the **Exports results** page, select how you want the data output, and then select **Export**.
@@ -82,6 +82,7 @@ You can also export the results of multiple searches - see the documentation onl
 
 ## Learn more
 
+- [Microsoft 365 compliance center](https://compliance.microsoft.com)
 - [eDiscovery in Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/ediscovery)
 - [Content Search](https://docs.microsoft.com/microsoft-365/compliance/content-search)
 - [Assign eDiscovery permissions in the Security & Compliance Center](https://docs.microsoft.com/microsoft-365/compliance/assign-ediscovery-permissions)

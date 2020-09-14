@@ -81,7 +81,7 @@ New-InformationBarrierPolicy -Name "Manufacturing-HR" -AssignedSegment "Manufact
 
 ## Apply an information barrier policy for Microsoft Teams
 
-You have seen how to segment users, and define a policy. You now need to apply the policy. Information barrier policies do not take effect until you set them to active, and apply the policy.
+You have seen how to segment users and define a policy. You now need to apply the policy. Information barrier policies do not take effect until you set them to active and apply the policy.
 
 To set a policy to active status, use the **Set-InformationBarrierPolicy** cmdlet with an **Identity** parameter, and set the **State** parameter to **Active**:
 
