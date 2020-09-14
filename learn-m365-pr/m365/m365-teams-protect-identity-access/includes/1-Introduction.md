@@ -2,7 +2,7 @@ In the past, a username and password were considered enough to secure user accou
 
 Suppose you're an administrator for a large multinational organization with many users. Microsoft Teams comes with different features and capabilities you can use to protect your users' identities and access. You want to investigate these features and select the ones that most closely suit your needs.
 
-In this module, you'll learn about simplifying access and identity, strengthening authentication, and managing endpoints to increase security in Teams
+In this module, you'll learn about simplifying access and identity, strengthening authentication, and managing endpoints to increase security in Teams.
 
 ## Learning objectives
 
