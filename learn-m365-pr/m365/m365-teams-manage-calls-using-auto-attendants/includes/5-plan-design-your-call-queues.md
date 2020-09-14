@@ -21,7 +21,7 @@ You must decide whether to implement this arrangement in Teams or to replace it 
 
 For example, the queue might need to be in use from 11am to 11:30pm, seven days a week.
 
-### Do you want distinct initial greetings for business hours, after-hours, weekends, or holidays
+### Do you want distinct initial greetings for business hours, after-hours, weekends, or holidays?
 
 For example, if the call rate outside of their business hours is very low, you can consider using special greetings.
 
@@ -35,7 +35,7 @@ Suppose that, depending on the hour, the call queue can vary from 5 to 30. Wait 
 
 ### Do you want to play hold music?
 
-Hold music can help to reassure queuing callers, but must be carefully chosen to avoid irritation and fit with your brand.
+Hold music can help to reassure queuing callers but must be carefully chosen to avoid irritation and fit with your brand.
 
 ## Design and mockup
 
@@ -45,6 +45,7 @@ A cloud call queue has a limited number of options. The main decisions to make f
 - Whether to have an initial greeting as part of the call queue. Alternatively, an auto attendant can provide a greeting.
 - What hold music to use.
 - How to distribute the calls among the available agents.
+
 The following diagram shows an example call queue design without an attendant.
 
 :::image type="content" border="false" source="../media/5-plan-call-queues.png" alt-text="Design Call Queues":::
@@ -107,7 +108,7 @@ Let's examine the steps to implement a call queue.
     |**1 - Agent can opt out of getting calls**| You can choose to allow call queue agents to opt-out of taking calls from a particular queue by enabling this option.  Enabling this option allows all agents in this queue to start or stop receiving calls from this call queue at will. You can revoke the agent opt-out privilege at any time by clearing the check box, causing agents to become automatically opted in for this queue again (the default setting for all agents). |
     |**2 - Agent alert setting**| This defines the duration of an agent being notified of a call before the Serial or Round Robin routing methods move to the next agent. The default setting is 30 seconds, but it can be set for up to 3 minutes. |
 
-1. Finally, you can set the overflow handling options
+1. Finally, you can set the overflow handling options.
 
     :::image type="content" source="../media/5-overflow-handling.png" alt-text="Overflow Handling":::
 

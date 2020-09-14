@@ -10,7 +10,7 @@ Sometimes, it's useful to have small easy to remember extension numbers for empl
 The following steps show how to implement extension dialing:
 
 1. Open the Teams Admin Center, expand **Voice** and go to **Dial Plans**.
-1. Select the **Global Dial Plan** or your custom dial plan, or create a new one to assign to users.
+1. Select the **Global Dial Plan** or your custom dial plan or create a new one to assign to users.
 
     :::image type="content" source="../media/6-dialling-plan.png" alt-text="Create Dialing Plan":::
 

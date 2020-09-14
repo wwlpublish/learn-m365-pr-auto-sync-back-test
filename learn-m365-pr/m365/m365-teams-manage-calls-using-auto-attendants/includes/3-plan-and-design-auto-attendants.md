@@ -6,7 +6,7 @@ Here you'll plan, design, and create auto attendants that are tailored to specif
 
 ## Assess the business need
 
-The first stage of auto attendant planning, is to assess the business requirements. Complete the following steps:
+The first stage of auto attendant planning is to assess the business requirements. Complete the following steps:
 
 ### Who are the people in the business?
 
@@ -51,7 +51,7 @@ To complete the initial design, you'll need a flexible and easy way to work out 
 1. Mark one note as the main auto attendant, which will include a business hours initial greeting, an after-hours greeting, and a main menu. You may also want an auto attendant to represent the hours and location recording and additional auto attendants to cover the needs of your callers. If possible, use a different color of note to represent auto attendants.
 1. Place the main auto attendant note on your board space. If any of the top options go directly to a single employee, put their note to the right of the note representing the attendant.
 1. It's unlikely all the options will fit on the main auto attendant menu, so think about which additional attendants might be needed and how they might nest under the main attendant.
-1. If you have an option that leads to a call queue, create a note using a third color, place it below and to the right of the attendant that connects to the Call Queue.
+1. If you have an option that leads to a call queue, create a note using a third color and place it below and to the right of the attendant that connects to the call queue.
 
 :::image type="content" border="false" source="../media/3-aa-lawyeroffice-callqueues.png" alt-text="Example auto attendant design":::
 
@@ -63,7 +63,7 @@ Your auto-attendant script can make or break the impression left on your custome
 
 Implementation of the design in the earlier diagram is presented in the steps that follow. This implementation uses text-to-speech for the scripts. Phone System has a built-in text to speech engine so you have the option of listening to your final text to determine whether it conveys the impression you want. If not, it's up to you whether to record your own prompts using recording software or have a professional voice-over artist use your scripts to record audio files.
 
-Create the following auto attendant, and set its general information.
+Create the following auto attendant and set its general information.
 
 :::image type="content" source="../media/3-auto-attendant-step1.png" alt-text="Create Auto Attendant":::
 
