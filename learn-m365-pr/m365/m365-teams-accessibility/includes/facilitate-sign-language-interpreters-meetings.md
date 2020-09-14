@@ -61,7 +61,7 @@ As an admin, you need to make sure video isn't turned off in your organization's
 
 ### Use pin video and Dynamic View to keep interpreters in view
 
-By default, Teams switches the live stream view to whoever is talking. However, it’s important for people who are deaf or hard of hearing to clearly see their sign language interpreter’s video feed at all times. Teams provides Dynamic View, which allows users to pin up to four people's video streams so that they remain on the screen regardless of who is speaking. With Dynamic View, when an interpreter’s video is pinned, even when other content is shared, the interpreter's video remains large and on the screen at all times.
+By default, Teams switches the live stream view to whoever is talking. However, it’s important for people who are deaf or hard of hearing to clearly see their sign language interpreter’s video feed at all times. Teams provides **Dynamic View**, which allows users to pin up to four people's video streams so that they remain on the screen regardless of who is speaking. With **Dynamic View**, when an interpreter’s video is pinned, even when other content is shared, the interpreter's video remains large and on the screen at all times.
 
 ## Learn more
 
