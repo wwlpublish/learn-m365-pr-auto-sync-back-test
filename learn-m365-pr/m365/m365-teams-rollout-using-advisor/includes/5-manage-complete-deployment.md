@@ -12,8 +12,7 @@ Select the Planner from the top menu in your workload channel.
 The Planner has three views: **Board, Charts**, and **Schedule**. Use the Board view to see individual tasks. Use the Charts view to see summary visualizations including the number of tasks by status, by bucket, by user, and by priority. Use the Schedule view to see tasks with an assigned date on a calendar view.
 
 ### Assign users to tasks
-The Deployment Planner creates tasks that you'll need to deploy your chosen workload successfully. Review each task, and assign them to people in your team. You can amend and add new tasks, or delete the ones you don't need.
-When you assign a task to someone, it will appear in their Planner.
+The Deployment Planner creates tasks that you'll need to deploy your chosen workload successfully. Review each task and assign them to people in your team. You can amend and add new tasks or delete the ones you don't need. When you assign a task to someone, it will appear in their Planner.
 
 ### Use the project buckets
 

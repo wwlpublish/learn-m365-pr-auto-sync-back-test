@@ -15,8 +15,9 @@ The following tests are run for all workloads:
 
 ## Assessment tests for chat, teams, channels, and apps
 In addition to the assessment tests already described, the following specific tests for chat, teams, channels, and apps are also run:
+
 - **Microsoft 365 Groups naming policy configured**. Tests whether naming standards have been configured for Microsoft 365 Groups. The Microsoft 365 Groups naming policy enables your organization to apply a consistent naming strategy to user-created teams. It applies to other Groups workloads, including Outlook, SharePoint, Planner, and Yammer.
-- **Microsoft 365 Groups expiration policy configured**. Tests whether a group expiration policy has been defined for Microsoft 365 Groups. This policy enables your organization to automatically remove inactive Teams, and is off by default.
+- **Microsoft 365 Groups expiration policy configured**. Tests whether a group expiration policy has been defined for Microsoft 365 Groups. This policy enables your organization to automatically remove inactive Teams and is off by default.
 
 ## Assessment tests for meetings and conferencing
 - **Audio Conferencing licenses**. Tests whether you have an active subscription with Audio Conferencing licenses. It's a prerequisite if you're deploying Audio Conferencing bridges.
@@ -27,13 +28,14 @@ In addition to the assessment tests for all workloads, Skype for Business Upgrad
 
 ## How to run an assessment
 To run the workload tests:
-1.	Sign in to the **Teams admin center**.
-2.	From the left navigation bar, select **Planning**, then **Teams advisor**.
-3.	The **Deploy Features** screen displays the summary results of the workload tests. To get a detailed view, select **View all**.
-4.	The **Assessments** blade displays the results of each individual test. When you've read each assessment, select **Close**.
-5.	Select **Next** to display the **Add team members** screen.
-6.	Select **Add** and search for the users who will be part of the **Teams Service Management team**. Select **Apply**.
-7.	When you've added all the team members who will assist in the rollout of the selected workload, select **Create**. A new **Deployment** team is created with a **General** and workload-specific channel. For example, **Chat, teams, channels, and apps**.
+1. Sign into the **Teams admin center**.
+1. From the left navigation bar, select **Planning**, then **Teams advisor**.
+1. The **Deploy Features** screen displays the summary results of the workload tests. To get a detailed view, select **View all**.
+1. The **Assessments** blade displays the results of each individual test. When you've read each assessment, select **Close**.
+1. Select **Next** to display the **Add team members** screen.
+1. Select **Add** and search for the users who will be part of the **Teams Service Management team**. Select **Apply**.
+1. When you've added all the team members who will assist in the rollout of the selected workload, select **Create**. A new **Deployment** team is created with a **General** and workload-specific channel. For example, **Chat, teams, channels, and apps**.
+
 You're now ready to start collaborating on your Teams rollout.
 
 ## Learn more

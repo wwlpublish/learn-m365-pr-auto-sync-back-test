@@ -4,7 +4,7 @@ When you create a **Deployment plan**, you're prompted to select the workloads y
 - Meetings and conferencing
 - Skype for Business upgrade
 
-Before making your selection, look at the assessment checks against each workload. The score is based on how your configuration compares to best practice configurations. A warning identifies a potential problem that you might need to resolve. In the details column, select **View** to preview the workload details.
+Before making your selection, look at the assessment checks against each workload. The score is based on how your configuration compares to best practice configurations. A warning identifies a potential problem that you might need to resolve. In the **Details** column, select **View** to preview the workload details.
 
 A good place to start is with the **Chat, teams, channels, and apps** workload. When you've deployed that workload, you can go back to Advisor for Teams, and select **Add channel** to start the next one.
 
