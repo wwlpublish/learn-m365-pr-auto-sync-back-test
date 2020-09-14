@@ -52,21 +52,21 @@ To locate information from audit logs during eDiscovery, follow these steps:
 
 Content Search is an eDiscovery tool in Microsoft 365 that you can use to locate information, relevant to a legal action, in:
 
-- Microsoft Teams.
-- Exchange Online mailboxes.
-- Exchange Online public folders.
-- SharePoint Online sites.
-- OneDrive for Business.
-- Skype for Business conversations.
-- Microsoft 365 groups.
-- Yammer groups.
+- Microsoft Teams
+- Exchange Online mailboxes
+- Exchange Online public folders
+- SharePoint Online sites
+- OneDrive for Business
+- Skype for Business conversations
+- Microsoft 365 groups
+- Yammer groups
 
-Using this tool, you can run single queries that locate information in multiple Microsoft 365 systems in one action. For example, you could search for “New Factory specifications” and retrieve results from:
+Using this tool, you can run single queries that locate information in multiple Microsoft 365 systems in one action. For example, you could search for "New Factory specifications" and retrieve results from:
 
-- A Teams channel conversation.
-- A file uploaded to a SharePoint site.
-- A user's OneDrive for Business account.
-- A conversation in Yammer.
+- A Teams channel conversation
+- A file uploaded to a SharePoint site
+- A user's OneDrive for Business account
+- A conversation in Yammer
 
 You have a large degree of control over the queries you use, which enables you to narrow the range of results you discover and to drill down into only those items that relate to the legal action you are investigating.
 
