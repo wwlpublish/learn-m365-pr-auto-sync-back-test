@@ -21,11 +21,15 @@ With the growing importance of mobility and the transition to the cloud, we’ve
    :::image type="content" source="../media/3-identity-v3.png" alt-text="Identity is the new control plane":::
 
 ### Threat protection
+
+> [!NOTE]
+> Microsoft 365 Defender is the new name for Microsoft Threat Protection. Learn more. We’ll be updating our products and docs soon, so keep an eye out.
+
 Organizations have concerns about the high volume of data they store, as well as the increasing sophistication and impact of attacks. Integrated and automated threat protection is designed to help meet the demand for advanced security that works in the real world.
 
-Microsoft Threat Protection’s suite of best-in-class products includes specific security solutions to help protect each of the major perimeters: identity, endpoint, apps and data. Data includes content associated with email and collaboration tools including Microsoft Teams, SharePoint Online, OneDrive for Business and Office clients.  Secure any endpoint, anywhere, via a unified platform for preventive protection, post-breach detection, automated investigation, and response. Microsoft Threat Protection works on the desktop, mobile devices, and servers, regardless of OS, which gives organizations and users the flexibility to choose the devices they want to use.
+Microsoft 365 Defender's suite of best-in-class products includes specific security solutions to help protect each of the major perimeters: identity, endpoint, apps and data. Data includes content associated with email and collaboration tools including Microsoft Teams, SharePoint Online, OneDrive for Business and Office clients.  Secure any endpoint, anywhere, via a unified platform for preventive protection, post-breach detection, automated investigation, and response. Microsoft 365 Defender works on the desktop, mobile devices, and servers, regardless of OS, which gives organizations and users the flexibility to choose the devices they want to use.
 
-:::image type="content" source="../media/3-threat-protection-v2.png" alt-text="Integrated Microsoft Threat Protection experience":::
+:::image type="content" source="../media/3-threat-protection-v3.png" alt-text="Integrated Microsoft 365 Defender experience":::
 
 ### Cloud security
 As enterprises move more of their workloads to the cloud, it has never been more important to protect cross-cloud resources. From Azure to AWS, from Slack to Salesforce, we’ve built comprehensive cloud security to protect every layer of your resources, regardless of which cloud or cloud apps you use.  
