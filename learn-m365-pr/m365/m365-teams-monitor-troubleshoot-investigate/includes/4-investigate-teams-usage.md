@@ -4,11 +4,11 @@ Currently, Microsoft Teams usage reports are available from both the Microsoft 3
 
 To view usage reports in the Microsoft 365 admin center, you must have global administrator permissions. There are two types of usage reports: Teams user activity and Teams device usage. To access both Teams usage reports:
 
-1. Sign in to the Microsoft 365 admin center.
-2. Select Show all > Reports.
-3. Expand Reports > Usage.
-4. From Select a report, select Microsoft Teams.
-5. Expand Microsoft Teams and select Device usage or User activity.
+1. Sign in to the **[Microsoft 365 admin center](https://admin.microsoft.com)**.
+2. Select **Show all** > **Reports**.
+3. Expand **Reports** > **Usage**.
+4. From **Select a report**, select **Microsoft Teams**.
+5. Select **Device usage** or **User activity**.
 
 The reports display a line chart and a detailed table view for 7, 30, 90, or 180 days. In the detailed view, select the three bars to change the sort order, filter the data, or choose which columns are displayed. To export data to Microsoft Excel, select Export.
 

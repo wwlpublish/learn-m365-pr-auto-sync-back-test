@@ -16,9 +16,11 @@ The following services require specific URLs and ports to be opened in the firew
 
 ## Using logs
 
-Log files are created automatically, and provide information to help you troubleshoot specific issues.
+Log files are created automatically and provide information to help you troubleshoot specific issues.
+
 There are three types of log files: debug, media, and desktop. The debug log is used most often. Media and desktop logs are used by Microsoft for specific support cases. If you create a Microsoft support request, the support engineer will require the debug log.
-Debug log records are produced by the Windows and Mac desktop clients, and browser-based clients. The logs are text files, and can be read using any text-based editor. Logs are read from the bottom up and new log records are created when logging into the client. Debug logs show the following data flows:
+
+Debug log records are produced by the Windows and Mac desktop clients, and browser-based clients. The logs are text files and can be read using any text-based editor. Logs are read from the bottom up and new log records are created when logging into the client. Debug logs show the following data flows:
 
 - Login
 - Connection requests to middle tier services
