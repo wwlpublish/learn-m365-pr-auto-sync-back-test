@@ -18,12 +18,12 @@ Microsoft Teams desktop clients for Windows and Mac support modern authenticatio
 
 :::image type="content" border="false" source="../media/4-conditional-access.png" alt-text="Conditional access and MFA":::
 
-When a user signs in to Microsoft Teams, whatever conditional access policies are set will be applied. Be aware, however, that if a conditional access policy is set for Teams, but not Exchange Online or SharePoint Online, users will still be able to access those resources directly.
+When a user signs into Microsoft Teams, whatever conditional access policies are set will be applied. Be aware, however, that if a conditional access policy is set for Teams, but not Exchange Online or SharePoint Online, users will still be able to access those resources directly.
 
 ## Configure MFA
 To require all users to sign in with MFA:
 
-1. Sign in to the **Azure portal** with global administrator, security administrator, or conditional access administrator permissions.
+1. Sign into the **Azure portal** with global administrator, security administrator, or conditional access administrator permissions.
 1. Select **Azure Active Directory** > **Security** > **Conditional Access** and then select **New policy**.
 1. Enter a meaningful **name** for the policy and then, under **Assignments**, select **Users and groups**.
 1. Under **Include**, select **All users**. Then under **Exclude**, select **Users and groups**, and choose your organization's emergency access or break-glass accounts. Emergency access or break-glass accounts prevent tenant-wide account lockout. You can log in with the emergency-access administrative account to take steps to recover access.
@@ -42,7 +42,7 @@ The What If tool is located in the **Azure portal** > **Azure Active Directory**
 
 The **What If** tool requires only *User* privileges to work, but you can narrow the scope with additional information, such as **IP address, Country/Region, Device platform**, etc.
 
-Input the criteria, and select **What If** to generate a list of results. The tool will show which conditional access policies would apply for the given criteria. It will also show the conditional access policies that would not apply for the given criteria.
+Input the criteria and select **What If** to generate a list of results. The tool will show which conditional access policies would apply for the given criteria. It will also show the conditional access policies that would not apply for the given criteria.
 
 ## Learn more
 

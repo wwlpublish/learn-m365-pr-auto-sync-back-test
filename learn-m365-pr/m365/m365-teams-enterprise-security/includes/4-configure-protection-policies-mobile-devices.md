@@ -13,10 +13,10 @@ Application protection policies provide a number of essential benefits:
 The app protection policy organizes data protection into three distinct levels, each building on the elements in the previous framework:
 
 #### Enterprise basic data protection (level 1)
-This is an entry level configuration, and makes sure that all apps are protected with a PIN and all data is encrypted. It also gives selective wipe operations.
+This is an entry level configuration and makes sure that all apps are protected with a PIN and all data is encrypted. It also gives selective wipe operations.
 
 #### Enterprise enhanced data protection (level 2)
-This configuration is the most applicable to mobile users access work data as it introduces a minimum operating system requirement, and data leak prevention mechanisms.
+This configuration is the most applicable to mobile users who access work data as it introduces a minimum operating system requirement, and data leak prevention mechanisms.
 
 #### Enterprise high data protection (level 3)
 This level of configuration is applied for users that are accessing high risk data.  It introduces app protection policy Mobile Threat Defense, enhanced PIN config, and advanced data protection mechanisms.
@@ -35,7 +35,7 @@ The **Platform** value is set based on your above choice.
 The **Apps** page allows you to choose how you want to apply this policy to apps on different devices. You must add at least one app.
 
     > [!NOTE]
-    > Organizations can add multiple apps that can be governed by a single policy. For example Teams, SharePoint, Outlook, and OneDrive are commonly managed Microsoft apps that can share a single app protection policy.
+    > Organizations can add multiple apps that can be governed by a single policy. For example, Teams, SharePoint, Outlook, and OneDrive are commonly managed Microsoft apps that can share a single app protection policy.
 
 1. Select **Next** to display the Data protection page.
 This page provides settings for data loss prevention (DLP) controls, including cut, copy, paste, and save-as restrictions. These settings determine how users interact with data in the apps that this app protection policy applies.
