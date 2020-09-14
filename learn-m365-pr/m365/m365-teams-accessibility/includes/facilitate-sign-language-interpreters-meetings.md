@@ -31,11 +31,11 @@ This short five-minute video walks you through the steps, at a high level, for t
 
 ### Configure meeting policy settings for guests
 
-Use meeting policies to control the features available to meeting participants (including guest users) for meetings scheduled by users in your organization. You can use the global (Org-wide default) policy that's automatically created or create and assign custom policies. These settings control which meeting participants wait in the lobby before they're admitted to the meeting and the participation level they're allowed in a meeting.
+Use meeting policies to control the features available to meeting participants (including guest users) for meetings scheduled by users in your organization. You can use the **Global (Org-wide default)** policy that's automatically created or create and assign custom policies. These settings control which meeting participants wait in the lobby before they're admitted to the meeting and the participation level they're allowed in a meeting.
 
 ## Admit sign language interpreters to meetings
 
-It’s helpful for interpreters to join a meeting before the discussion begins, to make sure their equipment is working, their workspace is distraction-free, and they're present before their client joins the meeting. The Automatically admit people setting controls whether people join a meeting directly or wait in the lobby until an authenticated user admits them. This setting doesn't apply to dial in users. You should either allow everyone to bypass the lobby, or the organizer should plan to activate the meeting and admit the interpreter from the lobby several minutes before the meeting start time.
+It’s helpful for interpreters to join a meeting before the discussion begins, to make sure their equipment is working, their workspace is distraction-free, and they're present before their client joins the meeting. The **Automatically admit people** setting controls whether people join a meeting directly or wait in the lobby until an authenticated user admits them. This setting doesn't apply to dial in users. You should either allow everyone to bypass the lobby, or the organizer should plan to activate the meeting and admit the interpreter from the lobby several minutes before the meeting start time.
 
 Meeting organizers can select **Meeting Options** in the meeting invitation to change this setting for each meeting they schedule.
 

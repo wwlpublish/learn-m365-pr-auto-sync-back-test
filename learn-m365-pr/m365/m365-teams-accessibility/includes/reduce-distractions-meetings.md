@@ -14,14 +14,14 @@ Background blur helps provide improved visibility and focus when in meetings or 
 
 :::image type="content" source="../media/enable-background-blur.png" alt-text="Screenshot showing background blur":::
 
-As the admin, you can enable Background blur by configuring a meeting policy setting in PowerShell.  For example, to enable Background blur for all users along with the ability to use default backgrounds, you can update the global policy by using the **Set-CsTeamsMeetingPolicy** cmdlet, and set the **VideoFiltersMode** parameter to **BlurandDefaultBackgrounds**:
+As the admin, you can enable Background blur by configuring a meeting policy setting in PowerShell.  For example, to enable Background blur for all users along with the ability to use default backgrounds, you can update the global policy by using the **Set-CsTeamsMeetingPolicy** cmdlet, and set the `VideoFiltersMode` parameter to **BlurandDefaultBackgrounds**:
 
 ```powershell
 Set-CsTeamsMeetingPolicy -Identity Global -VideoFiltersMode BlurAndDefaultBackgrounds
 
 ```
 
-You can set the **VideoFiltersMode** to any of the following values to enable or disable background blur:
+You can set the `VideoFiltersMode` parameter to any of the following values to enable or disable background blur:
 
 | Value                     | Description                                              |
 | ----------------------------- | ------------------------------------------------------------ |
