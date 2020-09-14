@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.m365-teams-connectivity.summary
-title: Introduction
+title: Summary
 metadata:
-  title: Introduction
-  description: Learn how to plan network infrastructure that supports intense Teams usage.
+  title: Summary
+  description: Review what you learned about configuring your network for Microsoft 365 and Teams connectivity
   ms.date: 09/14/2020
   ms.author: elizapo
   author: iankensey
