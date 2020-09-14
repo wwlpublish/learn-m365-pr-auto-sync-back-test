@@ -29,13 +29,13 @@ quiz:
 
   - content: "How can you create a new information barrier policy using PowerShell?"
     choices:
-    - content: **New-OrganizationSegment**
+    - content: "**New-OrganizationSegment**"
       isCorrect: false
       explanation: "That's incorrect. The New-OrganizationSegment cmdlet allows you to create a new user segment."
-    - content: **New-InformationBarrierPolicy**
+    - content: "**New-InformationBarrierPolicy**"
       isCorrect: true
       explanation: "That's correct. The New-InformationBarrierPolicy cmdlet allows you to create a new information barrier policy."
-    - content: **Set-InformationBarrierPolicy**
+    - content: "**Set-InformationBarrierPolicy**"
       isCorrect: false
       explanation: "That's incorrect. The Set-InformationBarrierPolicy cmdlet allows you to set the policy status to active."
 
