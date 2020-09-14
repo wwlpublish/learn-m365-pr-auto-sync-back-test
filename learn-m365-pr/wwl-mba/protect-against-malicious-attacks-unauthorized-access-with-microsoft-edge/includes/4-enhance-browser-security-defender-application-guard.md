@@ -6,7 +6,7 @@ If an employee goes to an untrusted site through either Microsoft Edge or Intern
 
 ![Hardware isolation of Microsoft Edge with Windows Defender Application Guard](../media/appguard-hardware-isolation.png)
 
-Checkout the video below for a detailed look at how Application Guard not only prevents attacks but protects the environment in the event of an exploit.
+Check out the video below for a detailed look at how Application Guard not only prevents attacks but protects the environment in the event of an exploit.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4F998]
 

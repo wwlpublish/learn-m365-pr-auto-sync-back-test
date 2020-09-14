@@ -2,7 +2,7 @@ In recent years, malicious attacks on applications such as browsers and document
 
 Microsoft Edge and Windows Defender Application Guard (WDAG) combine for both a software and hardware isolation approach to security. This approach lets untrusted site navigation launch inside a container and the isolation helps enterprises safeguard their corporate network and data in case users visit a site that is compromised or is malicious. Edge provides the highest level of protection against zero-day exploits, unpatched vulnerabilities, and web-based malware. 
 
-Checkout the video below to see how Microsoft Edge isolates processes to prevent malicious attacks and unauthorized access through the browser.
+Check out the video below to see how Microsoft Edge isolates processes to prevent malicious attacks and unauthorized access through the browser.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4FoNZ]
 

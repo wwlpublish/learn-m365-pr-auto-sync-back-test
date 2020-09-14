@@ -35,4 +35,4 @@ Watch the video below to see how Microsoft Defender SmartScreen within Edge in a
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4FjtS]
 
-As you just saw in the video, Edge and SmartScreen protects from various types of threats, from phishing to malware to unauthorized applications.
+As you just saw in the video, Edge and SmartScreen protect from various types of threats, from phishing to malware to unauthorized applications.
