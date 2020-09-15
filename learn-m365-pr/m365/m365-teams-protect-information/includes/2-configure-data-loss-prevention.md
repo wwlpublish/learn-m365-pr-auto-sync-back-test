@@ -29,7 +29,7 @@ You create and manage DLP policies on the **Data loss prevention** page in the M
 
 If your organization has DLP, you can define policies to prevent people from sharing sensitive information in a Microsoft Teams channel or chat session. A DLP policy can also prevent sensitive information being shared with external users. To create a new DLP policy, you must be assigned a role that has permissions to edit DLP them.
 
-1. Sign in to the [Security & Compliance Center](https://protection.office.com).
+1. Sign into the [Security & Compliance Center](https://protection.office.com).
 1. Choose **Data loss prevention** > **Policy** > **+ Create a policy**.
 1. Choose a **template** > **Next**.
 1. On the **Name your policy tab**, enter a name and description, and choose **Next**.
@@ -37,9 +37,10 @@ If your organization has DLP, you can define policies to prevent people from sha
 1. Choose **Next**.
 1. On the **Policy settings** tab, under **Customize the type of content you want to protect**, keep the default **Simple settings**, or choose **Use advanced settings**, and then select **Next**.
 
-   Simple settings are designed for the most common requirements of a DLP policy. Advanced settings give you complete control to change each setting.
+Simple settings are designed for the most common requirements of a DLP policy. Advanced settings give you complete control to change each setting.
 
-1. On the **Policy settings** tab, under **What do you want to do if we detect sensitive info?** either keep the default policy tips and email notifications or customize them. When you've finished reviewing or editing settings, choose **Next**.
+1. On the **Policy settings** tab, under **What do you want to do if we detect sensitive info?** either keep the default policy tips and email notifications or customize them.
+1. When you've finished reviewing or editing settings, choose **Next**.
 1. On the **Policy settings** tab, under **Do you want to turn on the policy or test things out first?** choose a setting. Then select **Next**.
 1. Choose the **Review your settings** tab. Select **Edit** to make changes or select **Create**.
 
