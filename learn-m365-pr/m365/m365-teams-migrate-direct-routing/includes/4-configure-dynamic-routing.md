@@ -33,7 +33,7 @@ Configurations are specific to each vendor. In this discussion, we'll reference 
 
 The first step is to configure the LDAP connection, which is often disabled by default. You set up the connection by configuring an LDAP server group that contains an LDAP server.
 
-Next you build the rules to query the respective attributes that you want from Active Directory; it's where you start building logic. If the user is on-premises, send the call to Skype; if the user is online, send it to Teams. These rules are the ones you're going to query. With AudioCodes, these are referred to as Call Setup Rules. The following sample shows what it looks like:
+Next you build the rules to query the respective attributes that you want from Active Directory; it's where you start building logic. If the user is on-premises, send the call to Skype; if the user is online, send it to Teams. These rules are the ones you're going to query. With AudioCodes, these are referred to as **Call Setup Rules**. The following sample shows what it looks like:
 
 :::image type="content" border="false" source="../media/4-audiocodes-left.png" alt-text="Configuring Call Setup Rule":::
 
