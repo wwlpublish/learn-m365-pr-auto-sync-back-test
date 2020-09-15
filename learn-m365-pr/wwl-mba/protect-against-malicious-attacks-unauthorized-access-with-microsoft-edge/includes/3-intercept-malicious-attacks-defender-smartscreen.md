@@ -1,4 +1,4 @@
-Microsoft Defender SmartScreen is a service that Microsoft Edge uses to keep you safe while you browse the web. Microsoft Defender SmartScreen provides an early warning system against websites that might engage in phishing attacks or attempt to distribute malware through a focused attack.
+Microsoft Defender SmartScreen is a service that Microsoft Edge uses to help keep you safe while you browse the web. Microsoft Defender SmartScreen provides an early warning system against websites that might engage in phishing attacks or attempt to distribute malware through a focused attack.
 
 ## Benefits of Microsoft Defender SmartScreen
 
@@ -9,7 +9,7 @@ Microsoft Defender SmartScreen provides several benefits, which are summarized i
 - Operating system integration
 - Improved heuristics and diagnostic data
 - Management through Group Policy and Microsoft Intune
-- Blocking URLs associated with potentially unwanted applications
+- Blocking URLs associated with potentially unwanted applications (PUAs)
 
 ## Understand how Microsoft Defender SmartScreen works
 
@@ -28,11 +28,15 @@ Microsoft Defender SmartScreen determines whether a downloaded app or app instal
 
 - Files with a known safe reputation will download without any notification.
 - Files with a known malicious reputation show a warning to let the user know that the file is unsafe and has been reported as malicious. The next screenshot is an example of a warning for a malicious file.
-- Microsoft Defender SmartScreen block page file with malicious reputation
+
+    ![Microsoft Defender SmartScreen blocking a known malicious threat](../media/ms-edge-smartscreen-known-malicious.png)
+
 - Files that are unknown show a warning to let the user know that the download doesn't have a known footprint and advise caution. The next screenshot is an example of a warning for an unknown file.
+
+    ![Microsoft Defender SmartScreen warning against an unknown threat](../media/ms-edge-smartscreen-unknown-malicious.png)
 
 Watch the video below to see how Microsoft Defender SmartScreen within Edge in action.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4FjtS]
 
-As you just saw in the video, Edge and SmartScreen protect from various types of threats, from phishing to malware to unauthorized applications.
+As you just saw in the video, SmartScreen in Microsoft Edge protects from various types of threats, from phishing to malware to unauthorized applications.

@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn.wwl.protect-against-malicious-attacks-unauthorized-access-with-microsoft-edge.manage-controls-policies-for-edge-microsoft-endpoint-manager
-title: Manage controls and policies for Edge in Microsoft Endpoint Manager
+title: Manage controls and policies for Microsoft Edge in Microsoft Endpoint Manager
 metadata:
-  title: Manage controls and policies for Edge in Microsoft Endpoint Manager
-  description: "Manage controls and policies for Edge in Microsoft Endpoint Manager"
-  ms.date: 09/16/2020
+  title: Manage controls and policies for Microsoft Edge in Microsoft Endpoint Manager
+  description: "Manage controls and policies for Microsoft Edge in Microsoft Endpoint Manager"
+  ms.date: 09/17/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial

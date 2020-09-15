@@ -3,17 +3,17 @@ uid: learn.wwl.protect-against-malicious-attacks-unauthorized-access-with-micros
 metadata:
   title: Protect against malicious attacks and unauthorized access with Microsoft Edge
   description: "Protect against malicious attacks and unauthorized access with Microsoft Edge"
-  ms.date: 09/16/2020
+  ms.date: 09/17/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-windows
 title: Protect against malicious attacks and unauthorized access with Microsoft Edge
-summary: Edge helps protect your network and devices from malicious attacks, prevents unauthorized access, and leaks of corporate data with Microsoft Defender SmartScreen and Microsoft Defender Application Guard.
+summary: Microsoft Edge helps protect your network and devices from malicious attacks and helps prevent unauthorized access to, and leaks of, corporate data with Microsoft Defender SmartScreen and Microsoft Defender Application Guard.
 abstract: |
   At the end of this module, you will be able to:
   - Describe how Microsoft Edge is built for secure browsing
-  - Use Microsoft Defender SmartScreen and Application Guard protect against malicious attacks and unauthorized access
+  - Use Microsoft Defender SmartScreen and Application Guard to protect against malicious attacks and unauthorized access.
   - Manage Microsoft Edge security options through policies and controls in Microsoft Endpoint Manager
 prerequisites: |
   - Experience deploying and configuring application packages using software distribution tools such as Microsoft Intune or Configuration Manager

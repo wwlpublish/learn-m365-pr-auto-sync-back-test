@@ -1,4 +1,5 @@
 As you learned in this module, enterprise IT administrators are constantly facing a myriad of security challenges, which makes protecting the corporate network and devices harder and harder each day. Microsoft Edge provides several natively built, unique capabilities that help address fight these threats.
+
 Edge can help protect your network and devices from malicious attacks, unauthorized access, and leaks of corporate data with Microsoft Defender SmartScreen and Microsoft Defender Application Guard.
 
 Now that you’ve completed this module, you should be able to:
