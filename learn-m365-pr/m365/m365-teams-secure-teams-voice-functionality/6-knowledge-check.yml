@@ -50,12 +50,12 @@ quiz:
       explanation: "That's correct. Inbound call blocking isn't supported on a per-user basis."      
   - content:  "Which of the following is a correct statement about blocking a Caller ID?"
     choices:
-    - content:  By default, all Call ID policies are turned off.
+    - content:  By default, all Call ID policies are disabled.
       isCorrect: true
       explanation: "That's correct. By default, all caller ID settings are indeed turned off."
     - content:  You can block incoming calls in Skype for Business Online.
       isCorrect: false
       explanation: "That's incorrect. Skype for Business Online calls can't be blocked."
-    - content:  Setting Blocking outbound caller ID prevents Emergency Call Center dispatcher from seeing the caller's number.
+    - content:  Enabling Blocking outbound caller ID prevents Emergency Call Center dispatcher from seeing the caller's number.
       isCorrect: false
       explanation: "That's incorrect. Emergency calls will always send the user's telephone number (caller ID)."

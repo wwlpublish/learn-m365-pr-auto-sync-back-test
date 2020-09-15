@@ -13,7 +13,7 @@ When someone leaves a voicemail message for a user in your organization, the voi
 
 To set up protected voicemail, do the following:
 
-1. Go to **<https://admin.microsoft.com>** and sign in using an account with global administrator permissions.
+1. Sign into the [Teams admin center](https://admin.teams.microsoft.com) using an account with global administrator permissions.
 1. Select **Show all** and then go to **Admin centers** > **Exchange**.
 1. In the Exchange Admin Center, select **Mail flow** > **Rules**.
 1. Select **+ Add**, and then select **Apply Office 365 Message Encryption and rights protection to messages**.
@@ -39,7 +39,7 @@ Voicemail messages received by users in your organization are transcribed in the
 > [!IMPORTANT]
 > You can't create a new policy instance for transcription and transcription profanity masking using the **New-CsOnlineVoiceMailPolicy** cmdlet, and you can't remove an existing policy instance using the **Remove-CsOnlineVoiceMailPolicy** cmdlet.
 
-You can manage the transcription settings for your users using voicemail policies. To see all available voicemail policy instances, you can use the Get-CsOnlineVoicemailPolicy cmdlet.
+You can manage the transcription settings for your users using voicemail policies. To see all available voicemail policy instances, you can use the **Get-CsOnlineVoicemailPolicy** cmdlet.
 
 :::image type="content" source="../media/3-get-csonlinevoicemailpolicy.png" alt-text="Screenshot showing the results of the Get-CsOnlineVoiceMailPolicy cmdlet":::
 
@@ -67,7 +67,8 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionDisabled -Identity sip:am
 ```
 
 ## Turning on transcription profanity masking for a user
-To enable transcription profanity masking for a specific user, you can assign a policy to enable transcription profanity masking for a specific user by using the Grant-CsOnlineVoicemailPolicy cmdlet.
+
+To enable transcription profanity masking for a specific user, you can assign a policy to enable transcription profanity masking for a specific user by using the **Grant-CsOnlineVoicemailPolicy** cmdlet.
 
 To enable transcription profanity masking for a single user, run:
 
