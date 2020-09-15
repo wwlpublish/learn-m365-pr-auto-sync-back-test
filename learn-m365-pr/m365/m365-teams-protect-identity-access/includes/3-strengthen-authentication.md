@@ -89,7 +89,7 @@ enum CertAuthorityType
 For the configuration, you can use Azure Active Directory PowerShell Version 2:
 
 1. Start Windows PowerShell with administrator privileges.
-2. Install the Azure AD module version 2.0.0.33 or higher.
+1. Install the Azure AD module version 2.0.0.33 or higher.
 
 ``` PowerShell
    Install-Module -Name AzureAD –RequiredVersion 2.0.0.33
@@ -97,19 +97,19 @@ For the configuration, you can use Azure Active Directory PowerShell Version 2:
 
 You need to establish a connection with your tenant. As soon as that connection exists, you can review, add, delete, and modify the trusted certificate authorities that are defined in your directory.
 
-To establish a connection with your tenant, use the Connect-AzureAD cmdlet:
+To establish a connection with your tenant, use the **Connect-AzureAD** cmdlet:
 
 ``` PowerShell
 Connect-AzureAD
 ```
 
-To retrieve the trusted certificate authorities defined in your directory, use the `Get-AzureADTrustedCertificateAuthority` cmdlet:
+To retrieve the trusted certificate authorities defined in your directory, use the **Get-AzureADTrustedCertificateAuthority** cmdlet:
 
 ``` PowerShell
 Get-AzureADTrustedCertificateAuthority
 ```
 
-To create a trusted certificate authority, use the `New-AzureADTrustedCertificateAuthority` cmdlet and set the **crlDistributionPoint** attribute to a correct value:
+To create a trusted certificate authority, use the **New-AzureADTrustedCertificateAuthority** cmdlet and set the **crlDistributionPoint** attribute to a correct value:
 
 ``` PowerShell
 $cert=Get-Content -Encoding byte "[LOCATION OF THE CER FILE]"
@@ -120,14 +120,14 @@ $new_ca.crlDistributionPoint="<CRL Distribution URL>"
 New-AzureADTrustedCertificateAuthority -CertificateAuthorityInformation $new_ca
 ```
 
-To remove a trusted certificate authority, use the `Remove-AzureADTrustedCertificateAuthority` cmdlet:
+To remove a trusted certificate authority, use the **Remove-AzureADTrustedCertificateAuthority** cmdlet:
 
 ``` PowerShell
 $c=Get-AzureADTrustedCertificateAuthority
 Remove-AzureADTrustedCertificateAuthority -CertificateAuthorityInformation $c[2]
 ```
 
-To modify a trusted certificate authority, use the `Set-AzureADTrustedCertificateAuthority` cmdlet:
+To modify a trusted certificate authority, use the **Set-AzureADTrustedCertificateAuthority** cmdlet:
 
 ``` PowerShell
 $c = Get-AzureADTrustedCertificateAuthority
@@ -146,23 +146,23 @@ The following steps outline the process for updating and invalidating the author
 
 1. To configure revocation, use admin credentials to connect to the MSOL service:
 
-``` PowerShell
+   ``` PowerShell
    $msolcred = get-credential
    connect-msolservice -credential $msolcred
    ```
 
 1. Retrieve the current **StsRefreshTokensValidFrom** value for a user:
 
-``` PowerShell
-   $user = Get-MsolUser -UserPrincipalName test@yourdomain.com`
-   $user.StsRefreshTokensValidFrom
-   ```
+    ``` PowerShell
+    $user = Get-MsolUser -UserPrincipalName test@yourdomain.com`
+    $user.StsRefreshTokensValidFrom
+    ```
 
 1. Configure a new **StsRefreshTokensValidFrom** value for the user equal to the current timestamp:
-
-``` PowerShell
-   Set-MsolUser -UserPrincipalName test@yourdomain.com -StsRefreshTokensValidFrom ("03/05/2016")
-   ```
+    
+    ``` PowerShell
+    Set-MsolUser -UserPrincipalName test@yourdomain.com -StsRefreshTokensValidFrom ("03/05/2016")
+    ```
 
 The date you set must be in the future. If that isn't the case, the **StsRefreshTokensValidFrom** property isn't set. If the date is in the future, **StsRefreshTokensValidFrom** is set to the current time, not the date indicated by `Set-MsolUser` command.
 
