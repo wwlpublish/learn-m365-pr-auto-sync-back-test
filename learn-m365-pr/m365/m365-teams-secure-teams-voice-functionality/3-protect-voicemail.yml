@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.secure-teams-voice-functionality.3-protect-voicemail
+title: Protect voicemail
+metadata:
+  title: Protect voicemail
+  description: Learn about protected voicemail, voicemail policies, and how to control transcription for voice messages.
+  ms.date: 09/04/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 6
+content: |
+  [!include[](includes/3-protect-voicemail.md)]
