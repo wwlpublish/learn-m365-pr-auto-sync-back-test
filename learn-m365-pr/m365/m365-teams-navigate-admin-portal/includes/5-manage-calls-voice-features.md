@@ -7,6 +7,7 @@ Here, you'll learn about tools in the Teams admin portal for monitoring and cont
 ## The Call Quality Dashboard (CQD)
 
 The *Call Quality Dashboard* shows data for call and meeting quality for Microsoft Teams, Skype for Business Online, and Skype for Business Server 2019. Data is shown for the organization, and data is collected after the first sign in.
+
 The CQD provides a summary view of your organization's calls and meetings - on a monthly, daily or hourly. It allows you to investigate problems based on quality, failure, and in-product user feedback.
 
 The near real time data enable to drill down to find from where the issue is, and who was impacted, for faster resolution of troubleshooting efforts.
@@ -19,7 +20,7 @@ Once you have signed in, CQD will start collecting and processing data. It will 
 
 ### Summary reports
 
-When you first sign into the CQD, you will see the summary reports. These show daily and monthly call quality trends. **Call quality** is classified as good, poor, or unclassified. In the **Product Filter**, select Microsoft Teams.  Using the tabs, select Overall Call Quality, Server-Client, Client-Client, or Voice Quality SLA.
+When you first sign into the CQD, you will see the summary reports. These show daily and monthly call quality trends. **Call quality** is classified as good, poor, or unclassified. In the **Product Filter**, select Microsoft Teams.  Using the tabs, select **Overall Call Quality**, **Server-Client**, **Client-Client**, or **Voice Quality SLA**.
 
 :::image type="content" source="../media/5-call-quality-summary-reports.png" alt-text="Call Quality Dashboard summary reports":::
 
@@ -36,7 +37,7 @@ Use the menu at the top to select other reports, including:
 - Help desk reports
 - Client version reports
 - Endpoint reports
-- Detailed reports 
+- Detailed reports
 
 For each type of report, you can filter and show different selections.
 
