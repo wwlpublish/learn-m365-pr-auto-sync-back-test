@@ -28,7 +28,7 @@ With the growing importance of mobility and the transition to the cloud, we’ve
 >* Microsoft Defender for Office 365 is the new name for Office 365 Advanced Threat Protection.
 >* Microsoft Defender for Identity is the new name for Azure Advanced Threat Protection.
 >  
-> [Learn more](https://www.microsoft.com/security/blog/?p=91813). We’ll be updating our products and docs soon, so keep an eye out. 
+> [Learn more](https://www.microsoft.com/security/blog/?p=91813). We’ll be updating our products and docs soon, so keep an eye out.
 
 Organizations have concerns about the high volume of data they store, as well as the increasing sophistication and impact of attacks. Integrated and automated threat protection is designed to help meet the demand for advanced security that works in the real world.
 
