@@ -36,4 +36,4 @@ For more information about the topics covered in this unit, see:
 
 - [Manage your devices in Microsoft Teams](https://docs.microsoft.com/microsoftteams/devices/device-management).
 - [IP Phones certified for Microsoft Teams](https://docs.microsoft.com/microsoftteams/devices/teams-ip-phones).
-- [Phones for Microsoft Teams]( https://docs.microsoft.com/microsoftteams/devices/phones-for-teams).
+- [Phones for Microsoft Teams](https://docs.microsoft.com/microsoftteams/devices/phones-for-teams).
