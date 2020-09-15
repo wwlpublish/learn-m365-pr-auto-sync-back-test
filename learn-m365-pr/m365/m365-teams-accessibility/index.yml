@@ -1,0 +1,37 @@
+### YamlMime:Module
+uid: learn-m365.m365-teams-accessibility
+metadata:
+  title: Configure Microsoft Teams meetings and calls for inclusion
+  description: Understand how to implement accessibility features and capabilities in Microsoft Teams meetings.
+  ms.date: 09/10/2020
+  ms.author: elizapo
+  author: iankensey
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Configure Microsoft Teams meetings and calls for inclusion
+summary: Understand how to implement accessibility features and capabilities in Microsoft Teams meetings.
+abstract: |
+  At the end of this module, you should be able to:
+  - Implement captions and transcription for Microsoft Teams meetings and calls.
+  - Facilitate sign language interpreters in meetings.
+  - Enable background effects to reduce distractions in meetings.
+  - Implement features to enhance participation in Microsoft Teams meetings.
+prerequisites: None | 
+  - Familiarity with administration of Microsoft Teams
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- administrator
+products:
+- office-teams
+units:
+- learn-m365.m365-teams-accessibility.introduction
+- learn-m365.m365-teams-accessibility.implement-captions-transcripts-meetings-calls
+- learn-m365.m365-teams-accessibility.facilitate-sign-language-interpreters-meetings
+- learn-m365.m365-teams-accessibility.reduce-distractions-meetings
+- learn-m365.m365-teams-accessibility.enhance-participation-meetings
+- learn-m365.m365-teams-accessibility.knowledge-check
+- learn-m365.m365-teams-accessibility.summary
+badge:
+  uid: learn-m365.m365-teams-accessibility.badge
