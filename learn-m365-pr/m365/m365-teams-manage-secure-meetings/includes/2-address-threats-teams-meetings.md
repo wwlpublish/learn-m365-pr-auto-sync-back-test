@@ -11,11 +11,11 @@ An anonymous user is one that isn't authenticated in your organization's tenant.
 - Participant roles determine meeting control privileges.
 - Participant types allow you to limit access to specific meetings.
 - Scheduling meetings is restricted to users who have an Azure Active Directory account and a Teams license.
-- Anonymous, that is, unauthenticated, users who want to join a dial-in conference must dial one of the conference access numbers. If the "Always allow callers to bypass the lobby" setting is turned *On*, then they also need to wait until a presenter or authenticated user joins the meeting.
+- Anonymous, that is, unauthenticated, users who want to join a dial-in conference must dial one of the conference access numbers. If the **Always allow callers to bypass the lobby** setting is turned **On**, then they also need to wait until a presenter or authenticated user joins the meeting.
 
 ## Use lobby settings to control anonymous access to Teams meetings
 
-In Teams, anonymous users are transferred to a waiting area called the lobby. Presenters can then either *admit* these users into the meeting or *reject* them. When these users are transferred to the lobby, the presenter and attendees are notified, and the anonymous users must then wait until they're either accepted or rejected, or their connection times out. Meeting organizers control whether participants join a meeting without waiting in the lobby.
+In Teams, anonymous users are transferred to a waiting area called the lobby. Presenters can then either **admit** these users into the meeting or **reject** them. When these users are transferred to the lobby, the presenter and attendees are notified, and the anonymous users must then wait until they're either accepted or rejected, or their connection times out. Meeting organizers control whether participants join a meeting without waiting in the lobby.
 
 Anonymous users can't create or join a meeting as a presenter, but they can be promoted to presenter after they join.
 
@@ -23,9 +23,9 @@ Each meeting can be set up to enable access using any one of the following metho
 
 The defaults are:
 
-- *People in my Organization* - Everyone external to the organization will wait in the lobby until admitted.
-- *People from my organization and trusted organizations* - Authenticated users and external users from Teams and Skype for Business domains that are in the external access allow list can bypass the lobby. All other users will wait in the lobby until admitted.
-- *Everyone* - All meeting participants bypass the lobby once an authenticated user has joined the meeting.
+- **People in my Organization** - Everyone external to the organization will wait in the lobby until admitted.
+- **People from my organization and trusted organizations** - Authenticated users and external users from Teams and Skype for Business domains that are in the external access allow list can bypass the lobby. All other users will wait in the lobby until admitted.
+- **Everyone** - All meeting participants bypass the lobby once an authenticated user has joined the meeting.
 
 ## Use structured meetings to control guest participation in a Teams Meeting
 
