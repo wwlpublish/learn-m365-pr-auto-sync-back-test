@@ -17,7 +17,7 @@ On the **App registrations** page, select the application you previously created
 
 Select **API Permissions** in the left-hand navigation panel.
 
-![Screenshot of the API Permissions navigation item](../media/05-aad-portal-newapp-permissions-01.png)
+![Screenshot of the API Permissions navigation item](../media/05-azure-ad-portal-new-app-permissions-01.png)
 
 Select the **Add a permission** button.
 
