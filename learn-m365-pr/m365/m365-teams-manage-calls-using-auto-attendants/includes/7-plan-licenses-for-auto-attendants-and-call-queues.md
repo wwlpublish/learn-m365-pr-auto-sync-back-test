@@ -17,7 +17,10 @@ Before you get started adding licenses, consider these points:
 - Because of the latency between Microsoft 365 and Microsoft Teams, it can take up to 24 hours for a user to be assigned a Calling Plan after you assign a license. If the user isn't assigned a Calling Plan after 24 hours, contact support.
 - You'll get an error message if you haven't purchased the correct number of licenses. If you need to buy more Calling Plan licenses, choose the option to buy more.
 - Even if your users are assigned Enterprise E5 licenses, you still need to assign communications credits licenses to them if they want to make or receive calls from the PSTN.
-After you assign Calling Plan or communication credits licenses to your users, you'll need to get phone numbers for your organization, and then assign those numbers to users.## Zero Licensing cost
+
+After you assign Calling Plan or communication credits licenses to your users, you'll need to get phone numbers for your organization, and then assign those numbers to users.
+
+## Zero Licensing cost
 
 When using nested auto attendants, as long as they don't have a phone number assigned, you won't need a license.
 

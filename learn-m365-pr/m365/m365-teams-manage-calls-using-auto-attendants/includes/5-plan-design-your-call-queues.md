@@ -119,7 +119,7 @@ Let's examine the steps to implement a call queue.
     |**1 - Maximum calls in the queue**| Use this to set the maximum calls that can wait in the queue at the same time. The default is 50, but it can range from 0 to 200. When this limit is reached, the call is handled in the way you set on the When the maximum number of calls is reached setting below. |
     |**2 - When the maximum number of calls is reached**| When the call queue reaches its maximum size (set using the Maximum calls in the queue setting), you can choose what happens to new incoming calls. |
     |**3 - Call Timeout: maximum wait time**|  You can also decide how much time a call can be on hold in the queue before it times out and needs to be redirected or disconnected. Where it's redirected is based on how you set the When a call times out setting. You can set a time from 0 to 45 minutes. |
-    |**4 - When call times out**| When the call reaches the limit you set on the How long a call can wait in the queue setting, you can choose what happens to the call |
+    |**4 - When call times out**| When the call reaches the limit you set on the How long a call can wait in the queue setting, you can choose what happens to the call. |
 
 ## Edit and Test your call queues
 
