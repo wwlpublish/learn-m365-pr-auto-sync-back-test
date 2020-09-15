@@ -22,8 +22,13 @@ With the growing importance of mobility and the transition to the cloud, we’ve
 
 ### Threat protection
 
-> [!NOTE]
-> Microsoft 365 Defender is the new name for Microsoft Threat Protection. Learn more. We’ll be updating our products and docs soon, so keep an eye out.
+> [!IMPORTANT]
+> Microsoft 365 Defender is the new name for Microsoft Threat Protection.  Additionally:  
+>* Microsoft Defender for Endpoint is the new name for Microsoft Defender Advanced Threat Protection.
+>* Microsoft Defender for Office 365 is the new name for Office 365 Advanced Threat Protection.
+>* Microsoft Defender for Identity is the new name for Azure Advanced Threat Protection.
+>  
+> [Learn more](https://www.microsoft.com/security/blog/?p=91813). We’ll be updating our products and docs soon, so keep an eye out. 
 
 Organizations have concerns about the high volume of data they store, as well as the increasing sophistication and impact of attacks. Integrated and automated threat protection is designed to help meet the demand for advanced security that works in the real world.
 
@@ -59,9 +64,9 @@ We give customers the flexibility to implement the necessary controls to meet bo
 
 ### Insider risk management
 Organizations need to be able to identify, analyze, and remediate internal risks before they cause harm.  Insider risk management policies give you visibility into, and control over:
-* Internal data access.
-* Identify and manage corporate policy violations such as harassment, code-of-conduct, and fraud.
-* Data leakages by insiders, including IP theft, confidential data, etc.
+* Internal data access
+* Identifying and managing corporate policy violations such as harassment, code-of-conduct, and fraud
+* Data leakage by insiders, including IP theft, confidential data, etc.
 
 ### Discover and respond 
 Data explosion creates challenges of finding the data you need when you need it for a variety of scenarios.  Whether it is litigation, internal investigation, responding to a regulatory request or policy obligation – you need to be able to find relevant content, refine that content and prepare that content to be handed off to the requesting body in an efficient and effective way.  Microsoft’s discover and respond solution provides intelligent tools to help address the needs of data discovery and audit, to address these compliance challenges.
