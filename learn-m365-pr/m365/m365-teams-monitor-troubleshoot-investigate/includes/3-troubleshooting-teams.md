@@ -28,9 +28,9 @@ Debug log records are produced by the Windows and Mac desktop clients, and brows
 
 The debug logs are produced using the following OS-specific methods:
 
-- Windows: keyboard shortcut: Ctrl + Alt + Shift + 1
-- Mac OSX: keyboard shortcut: Option + Command + Shift + 1
-- Linux: keyboard shortcut: Ctrl + Alt + Shift + 1
+- Windows: keyboard shortcut: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
+- Mac OSX: keyboard shortcut: <kbd>Option</kbd> + <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
+- Linux: keyboard shortcut: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
 
 These logs are automatically downloaded to the following folders:
 
@@ -40,6 +40,7 @@ These logs are automatically downloaded to the following folders:
 - Browser: You'll be prompted to save the debug log to a default save location
 
 Media logs contain diagnostic data about audio, video, and screen sharing. These logs are required for support cases only when requested and can only be inspected by Microsoft.
+
 Desktop logs, also known as bootstrapper logs, contain log data about events that occur between the desktop client and the browser. Like media logs, these logs are only needed if requested by Microsoft. The logs are text-based and can be read using any text-based editor in a top down format.
 
 ## Common problems
