@@ -17,25 +17,25 @@ quiz:
 
   - content: "Which of these examples is part of the Cloud App Security framework?"
     choices:
-    - content: "Identity cyber threats in your Shadow IT."
+    - content: "Identity cyber threats in your Shadow IT"
       isCorrect: false
       explanation: "That's incorrect. The Cloud App Security framework doesn't identify cyber threats in your Shadow IT, but does identify apps."
-    - content: "Discover and control the use of Shadow IT."
+    - content: "Discover and control the use of Shadow IT"
       isCorrect: true
       explanation: "That's correct. The Cloud App Security framework allows you to identify apps that aren't controlled by the central IT function."
-    - content: "Assess the compliance of your Shadow IT."
+    - content: "Assess the compliance of your Shadow IT"
       isCorrect: false
       explanation: "That's incorrect. The Cloud App Security framework doesn't allow you to assess compliance. It does allow you to sanction or unsanction Shadow IT apps."
  
   - content: "Which three services are part of Advanced Threat Protection?"
     choices:
-    - content: "Microsoft Defender ATP, Azure ATP, Microsoft Cloud App Security."
+    - content: "Microsoft Defender ATP, Azure ATP, Microsoft Cloud App Security"
       isCorrect: true
       explanation: "That's correct. These four technologies work together to allow you to protect users, endpoints and data."
-    - content: "Microsoft 365 ATP, Conditional Access, Microsoft Cloud App Security."
+    - content: "Microsoft 365 ATP, Conditional Access, Microsoft Cloud App Security"
       isCorrect: false
       explanation: "That's incorrect. Conditional Access isn't part of Microsoft Advanced Threat Protection."
-    - content: "Conditional Access, Compliance and Security, Microsoft Cloud App Security."
+    - content: "Conditional Access, Compliance and Security, Microsoft Cloud App Security"
       isCorrect: false
       explanation: "That's incorrect. Conditional Access isn't part of Microsoft Advanced Threat Protection. Compliance and Security isn't a specific Microsoft technology."
 
@@ -53,12 +53,12 @@ quiz:
 
   - content: "Which Microsoft security service includes next generation antivirus protection?"
     choices:
-    - content: "Conditional Access."
+    - content: "Conditional Access"
       isCorrect: false
       explanation: "That's incorrect. Conditional Access doesn't include antivirus protection."
-    - content: "Advanced Threat Protection (ATP)."
+    - content: "Advanced Threat Protection (ATP)"
       isCorrect: true
       explanation: "That's correct. ATP includes next generation antivirus protection."
-    - content: "Cloud app security."
+    - content: "Cloud app security"
       isCorrect: false
       explanation: "That's incorrect. Cloud app security doesn't include antivirus protection."
