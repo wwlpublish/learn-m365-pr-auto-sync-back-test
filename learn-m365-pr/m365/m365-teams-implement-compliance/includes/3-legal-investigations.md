@@ -44,7 +44,8 @@ These logs can help during an investigation and can be located during eDiscovery
 
 To locate information from audit logs during eDiscovery, follow these steps:
 
-1. Go to the Security and Compliance Center. Under **Search**, select **Audit log search**.
+1. Sign into the [Security and Compliance Center](https://protection.office.com).
+1. Under **Search**, select **Audit log search**.
 1. Use **Search** to filter by the activities, dates, and users you want to audit.
 1. Export your results to Excel for further analysis.
 
