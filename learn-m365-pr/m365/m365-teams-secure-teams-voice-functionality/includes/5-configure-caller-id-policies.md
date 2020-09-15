@@ -29,9 +29,9 @@ To learn more about these settings see **How can caller ID be used in your organ
 > For all of the Caller ID settings in Skype for Business Online, you must use Windows PowerShell and you can't use the Skype for Business admin center.
 
 ### Verify and start Windows PowerShell
-Ensure that you're running Windows PowerShell version 3.0 or higher.
+Ensure that you're running Windows PowerShell version 3.0 or higher:
 
-1. To verify that you're running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
+1. Select **Start Menu** > **Windows PowerShell**.
 1. Check the version by typing **Get-Host** in the Windows PowerShell window.
 1. If you don't have version 3.0 or higher, you need to download and install updates to Windows PowerShell. For Windows 10 1607 and up, Windows PowerShell 5.1 is installed by default. It's highly recommended that you upgrade Windows 10 to the latest version.
 1. You'll also need to install the Windows PowerShell module for Skype for Business Online that enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module, which is supported only on 64-bit computers, can be downloaded from the Microsoft Download Center at Windows PowerShell Module for Skype for Business Online, a link for which is in the **Learn more** section below. Restart your computer if you're prompted.
@@ -39,6 +39,7 @@ Ensure that you're running Windows PowerShell version 3.0 or higher.
 If you need to know more, see Connect to all Microsoft 365 services in a single Windows PowerShell window, a link to which is in the **Learn more** section below.
 
 ### Start a Windows PowerShell session
+
 1. From the **Start Menu** > **Windows PowerShell**.
 1. In the **Windows PowerShell** window, connect to your Microsoft 365 by running:
 

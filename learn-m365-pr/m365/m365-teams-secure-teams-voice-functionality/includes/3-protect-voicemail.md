@@ -9,7 +9,7 @@ Here, you'll learn about protected voicemail, voicemail policies, and how to con
 When someone leaves a voicemail message for a user in your organization, the voicemail is delivered to the user's mailbox as an email message attachment. Using mail flow rules to apply message encryption, you can prevent those voicemail messages from being forwarded to other recipients. When you enable protected voicemail, users can listen to protected voicemail messages by calling into their voicemail mailbox or by opening the message in Outlook, Outlook on the web, or in Outlook for Android or iOS. Protected voicemail messages can't be opened in Skype for Business.
 
 > [!IMPORTANT]
-> For users who are online for Phone System but have their mailbox on Exchange Server: Voicemail messages are delivered to users' Exchange mailbox via SMTP routed through Exchange Online Protection. To enable successful delivery of these messages, please be sure that Exchange Connectors are configured correctly between your Exchange servers and Exchange Online Protection; see **Use Connectors to Configure Mail Flow**, a link is in **Learn more** section below.
+> For users who are online for Phone System but have their mailbox on Exchange Server, Voicemail messages are delivered to users' Exchange mailbox via SMTP routed through Exchange Online Protection. To enable successful delivery of these messages, please be sure that Exchange Connectors are configured correctly between your Exchange servers and Exchange Online Protection. See **Use Connectors to Configure Mail Flow**, a link is in **Learn more** section below.
 
 To set up protected voicemail, do the following:
 
@@ -58,7 +58,7 @@ Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
 ```
 
 ## Turning off transcription for a user
-User policies are evaluated before the organizational default settings. For example, if voicemail transcription is enabled for all of your users, you can assign a policy to disable transcription for a specific user by using the **Grant-CsOnlineVoicemailPolicy** cmdlet.
+User policies take precedence over the organizational default settings. For example, if voicemail transcription is enabled for all of your users, you can assign a policy to disable transcription for a specific user by using the **Grant-CsOnlineVoicemailPolicy** cmdlet.
 
 To disable transcription for a single user, run:
 
@@ -79,6 +79,7 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -
 > The voicemail service in Microsoft 365 and Office 365 caches voicemail policies and updates the cache every 4 hours. Policy changes that you make can take up to 4 hours to be applied.
 
 ## Learn more
+
 - [Use Connectors to Configure Mail Flow](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)
 - [Email encryption](https://docs.microsoft.com/microsoft-365/compliance/email-encryption?view=o365-worldwide)
 - [Set up new Message Encryption capabilities](https://docs.microsoft.com/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide)

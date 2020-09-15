@@ -5,7 +5,7 @@ In your firm of financial advisors, scam calls have become a problem. Their stra
 Here, you'll learn how to use calling policies in Teams to control telephony in your company.
 
 ## Create a custom calling policy
-Follow these steps to create a custom calling policy.
+Follow these steps to create a custom calling policy:
 
 1. Sign into the [Teams admin center](https://admin.teams.microsoft.com).
 1. In the left navigation of the Teams admin center, go to **Voice > Calling policies**.
@@ -15,7 +15,7 @@ Follow these steps to create a custom calling policy.
 1. Select **Save**.
 
 ## Edit a calling policy
-Follow these steps to edit an existing calling policy.
+Follow these steps to edit an existing calling policy:
 
 1. In the left navigation of the Teams admin center, select **Voice** > **Calling policies**.
 1. Select next to the policy that you want to modify, and then select **Edit**.
@@ -26,16 +26,14 @@ You can assign a policy directly to users, either individually or at scale throu
 
 Using the Teams admin center, assign a policy to a user with these steps:
 
-1. In the left navigation of the Microsoft Teams admin center, go to Users, and then select the user.
-1. Select the user by clicking to the left of the user name, and then select Edit settings.
-1. Select the policy you want to assign, and then select Apply.
+1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then select the user.
+1. Select the user by clicking to the left of the user name, and then select **Edit settings**.
+1. Select the policy you want to assign, and then select **Apply**.
 
 To learn about the different ways that you can assign policies to users, see **Assign policies to your users in Teams** in the **Learn more** section below.
 
 ## Calling policy settings
-Here's the settings that you can configure for calling policies.
-
-
+Here's the settings that you can configure for calling policies:
 
 | Setting  | Description |
 |---------|---------|
