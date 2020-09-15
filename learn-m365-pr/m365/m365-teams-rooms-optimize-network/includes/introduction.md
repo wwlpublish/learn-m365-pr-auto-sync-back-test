@@ -7,8 +7,8 @@ Understanding how to optimally connect from your home or office to Microsoft Tea
 In this module, you’ll learn to:
 
 - Understand how Microsoft built Microsoft 365 to limit reliance on the public internet.
-- Design your organizational network to best leverage Microsoft’s investments in networking.
-- Understand how Microsoft Teams meetings are designed to be hosted in the closest geographical area to attendees.
+- Design your organization's network to best leverage Microsoft 365’s design.
+- Understand how Microsoft Teams meetings are  hosted in the closest geographical region to attendees.
 
 ## Prerequisites
 

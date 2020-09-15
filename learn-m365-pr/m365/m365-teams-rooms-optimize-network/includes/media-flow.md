@@ -8,7 +8,7 @@ If you schedule a meeting with attendees from around the globe, where will that 
 
 Even if you are the one who sends out the Teams meeting invite, but a colleague in a distant country is the first one to join the meeting, that meeting will be hosted in the Microsoft 365 datacenter for that country. This means that your media must travel to that datacenter where it is then combined with the media from your colleague and sent back to you. The first person to join a Teams meeting dictates where that meeting will be hosted. The theory is that most attendees of a meeting will be in the same basic region and it really doesn’t matter who joins first.
 
-When it does matter is if 10 people are invited to a meeting and 9 of them are in region A and the 10th invitee is in region B. If that 10th attendee joins the meeting first, the media from the 9 attendees in region A must now travel to the Microsoft datacenter in region B to be joined and sent back.
+When it does matter is if 10 people are invited to a meeting and 9 of them are in region A and the 10th invitee is in region B. If that 10th invitee joins the meeting first, the media from the 9 invitees in region A must now travel to the Microsoft datacenter in region B to be joined and sent back.
 
 > [!TIP]
 > If you’ve set up a meeting like this, join it a little earlier to help keep the media in the region where most of the attendees are located.

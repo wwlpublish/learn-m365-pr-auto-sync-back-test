@@ -1,12 +1,12 @@
-You may be surprised to read that Microsoft operates one of the largest networks on the planet. Microsoft has datacenters across the globe and we need to get them all connected at super high speed with super-low latency. To accomplish this speed and latency, Microsoft has hundreds of thousands of route miles of privately owned fiber. Microsoft’s fiber optic network could stretch to the moon and back, three times over!
+You may be surprised to read that Microsoft operates one of the largest networks on the planet. Microsoft has datacenters across the globe and we need to get them all connected at super high speed with super-low latency. To accomplish this, Microsoft has hundreds of thousands of route miles of privately owned fiber. Microsoft’s fiber optic network could stretch to the moon and back, three times over!
 
 The Microsoft network is optimized for media. Optimization is done in several ways, including using fiber connections between regions, prioritizing media traffic throughout the Microsoft global network, and placing edge sites (entry points to the Microsoft network) close to users to reduce latency. Unlike the general internet, or even corporate networks, the Microsoft network knows what media to expect and acts accordingly to prioritize things like Microsoft Teams media.
 
-In the image below, you can see how you generally connect to a website such as LinkedIn or MSN. You have full control and full responsibility for your network until you route to the internet.  The internet offers limited control. You can only choose your Internet Service Provider (ISP) and maybe a DNS provider. Even though the internet can be a little wild, it works pretty well. Your users can get to LinkedIn.com or MSN.com just fine. 
+In the image below, you can see how you generally connect to a website such as LinkedIn or MSN. You have full control and full responsibility for your network until you route to the internet.  The internet offers limited control. You can only choose your Internet Service Provider (ISP) and maybe a DNS provider. Even though the internet can be a little wild, it works pretty well. Your users can get to LinkedIn or MSN just fine. 
 
 ![Corporate network to internet data flow](../media/corporate-internet-data-flow.png)
 
-However, when you go to Microsoft 365 things change in a very meaningful way. Note that the reliance on the internet has shrunk, and that the Microsoft network picks up the majority of the connection. You still start your connection on your corporate network and  you're still looking to go to Microsoft 365.
+However, when you go to Microsoft 365 things change in a very meaningful way. The reliance on the internet shrinks, and the Microsoft network picks up much of the connection. You still start your connection on your corporate network and you're still going to Microsoft 365.
 
 But because the way the Microsoft network is designed, placing edge sites as close as possible to users around the world, the time you spend on the internet is greatly reduced. By reducing the amount of time your traffic spends on the open internet, you minimize things like jitter, latency, and packet loss, all of which can impact Microsoft Teams meeting quality. The Microsoft network has been designed to focus on Microsoft specific technologies and not the general-purpose internet.
 
@@ -20,7 +20,7 @@ When you add internet-bound, real-time media into the mix, does it still make se
 
 Local Internet breakouts and local DNS resolution are key to optimizing corporate network connectivity to Microsoft 365.
 
-What does this mean? If you have DNS configured so all DNS requests get forwarded to the corporate headquarters datacenter, the Microsoft DNS servers will see the DNS requests as coming from the corporate headquarters and not the local branch. Thus, Microsoft DNS servers will return an accurate DNS entry for the corporate headquarters, but not one for the local branch.
+What does this mean? If you have DNS configured so all DNS requests get forwarded to the corporate headquarters datacenter, the Microsoft DNS servers will see the DNS requests as coming from the corporate headquarters and not the local branch. Thus, Microsoft DNS servers will return an accurate DNS response for the corporate headquarters, but not one for the local branch.
 
 The local branch needs local DNS so the Microsoft DNS servers can realize where they are located and give them the optimal DNS response.
 
