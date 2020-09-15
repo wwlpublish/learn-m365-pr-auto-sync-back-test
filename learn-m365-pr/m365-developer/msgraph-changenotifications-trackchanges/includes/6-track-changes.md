@@ -2,7 +2,7 @@ In this unit, you'll learn how you can track changes to entities in a collection
 
 ## Tracking changes to entities with Microsoft Graph
 
-Many custom applications have a need to track and replicate changes between two systems. For example, updates to user information in the master Azure AD directory for an organization, such as office addresses, manager, and contact phone numbers need to be recorded in time reporting systems or other back-office platforms. One-way developers can monitor a source system for changes is by polling the system to detect changes.
+Many custom applications have a need to track and replicate changes between two systems. For example, updates to user information in the master Azure AD directory for an organization, such as office addresses, manager, and contact phone numbers need to be recorded in time reporting systems or other back-office platforms. One way developers can monitor a source system for changes is by polling the system to detect changes.
 
 As you learned in a previous unit, an alternative to the polling pattern, developers can leverage change notifications in Microsoft Graph to be notified when entities change. While this addresses one part of the problem, what happens in the case where a change notification subscription expires? In this case, your application may miss changes to entities when the subscription was not active. In addition, what happens if a change notification wasn't fired by Microsoft Graph because of a system error? In these cases, your application would have to temporarily rely on the polling pattern.
 
