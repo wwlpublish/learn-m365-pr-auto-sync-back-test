@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.ensure-app-website-compatibility-with-microsoft-edge.summary-resources
+title: Summary and resources
+metadata:
+  title: Summary and resources
+  description: "Summary and resources"
+  ms.date: 09/17/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/6-summary-resources.md)]
