@@ -12,7 +12,6 @@ title: Protect information in Microsoft Teams
 summary: Protect identity and access in Microsoft Teams across your organization.
 abstract: |
   At the end of this module, you should be able to:
-  - Explain how to configure Safe Links for Microsoft Teams.
   - Demonstrate how to configure data loss prevention policies.
   - Describe how to determine data residency.
   - Explain how to record access in Microsoft Teams.

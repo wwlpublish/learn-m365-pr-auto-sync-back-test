@@ -17,15 +17,15 @@ quiz:
 
   - content: "Which security feature prevents the accidental sharing of sensitive information?"
     choices:
-    - content: Data loss prevention
-      isCorrect: true
-      explanation: "Data loss prevention policies prevent the accidental sharing of sensitive information."
-    - content: Safe Links
+    - content: Conditional Access
       isCorrect: false
-      explanation: "Safe Links isn't designed to prevent the accidental sharing of sensitive information."
+      explanation: "Conditional Access isn't designed to prevent the accidental sharing of sensitive information."
     - content: Advanced Threat Protection
       isCorrect: false
       explanation: "Advanced Threat Protection monitors suspicious activity. It doesn't prevent the accidental sharing of sensitive information."
+    - content: Data loss prevention
+      isCorrect: true
+      explanation: "Data loss prevention policies prevent the accidental sharing of sensitive information."      
 
   - content: "Where do you enable auditing in Teams?"
     choices:
@@ -41,12 +41,12 @@ quiz:
 
   - content: "What determines where Microsoft Teams data is stored?"
     choices:
+    - content: Your Microsoft 365 tenant
+      isCorrect: true
+      explanation: "The location of your Microsoft 365 tenant determines where your Teams data is stored."    
     - content: The location of the user who saved the data
       isCorrect: false
       explanation: "Data storage in Teams doesn't depend on where individual users are located."
-    - content: Your Microsoft 365 tenant
-      isCorrect: true
-      explanation: "The location of your Microsoft 365 tenant determines where your Teams data is stored."
     - content: The location you select in the Teams admin center
       isCorrect: false
       explanation: "The data storage location isn't determined by a setting in the Teams admin center."

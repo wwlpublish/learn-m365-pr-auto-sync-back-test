@@ -39,7 +39,7 @@ If your organization has DLP, you can define policies to prevent people from sha
 
    Simple settings are designed for the most common requirements of a DLP policy. Advanced settings give you complete control to change each setting.
 
-1. On the **Policy settings** tab, under **What do you want to do if we detect sensitive info?** either keep the default policy tips and email notifications, or customize them. When you've finished reviewing or editing settings, choose **Next**.
+1. On the **Policy settings** tab, under **What do you want to do if we detect sensitive info?** either keep the default policy tips and email notifications or customize them. When you've finished reviewing or editing settings, choose **Next**.
 1. On the **Policy settings** tab, under **Do you want to turn on the policy or test things out first?** choose a setting. Then select **Next**.
 1. Choose the **Review your settings** tab. Select **Edit** to make changes or select **Create**.
 
@@ -65,18 +65,17 @@ Users must have a license for Microsoft 365 DLP, which is included in Microsoft 
 
 ## Policy tips
 
-Policy tips help to educate and explain to users when an action conflicts with a DLP policy, such as if a message is blocked. If someone attempts to share a social security number in a Microsoft Teams channel, for example, the **What can I do?** link opens a dialog box. The sender then has options to resolve the issue. There might be an option to override the policy, or notify an admin to review and resolve it.
-You can customize policy tips, providing you have permission to edit DLP policies.
+Policy tips help to educate and explain to users when an action conflicts with a DLP policy, such as if a message is blocked. If someone attempts to share a social security number in a Microsoft Teams channel, for example, the **What can I do?** link opens a dialog box. The sender then has options to resolve the issue. There might be an option to override the policy or notify an admin to review and resolve it. You can customize policy tips, providing you have permission to edit DLP policies.
 
 ## Add Microsoft Teams to existing DLP policies
 
 To add Microsoft Teams as a location to existing DLP policies, you must have permissions to edit them.
 
-1. Go to the Security & Compliance Center (https://protection.office.com) and sign in.
+1. Sign into the [Security & Compliance Center](https://protection.office.com).
 1. Choose **Data loss prevention** > **Policy**.
-1. Select a policy, and review the **Locations** section. If **Teams chat and channel messages** is listed, you don't need to do anything. If it isn't listed, select **Edit**.
+1. Select a policy and review the **Locations** section. If **Teams chat and channel messages** is listed, you don't need to do anything. If it isn't listed, select **Edit**.
 1. In the **Status** column, turn on the policy for Teams chat and channel messages.
-1. Keep the default settings of all accounts, or specify which accounts to include or exclude.
+1. Keep the default settings of all accounts or specify which accounts to include or exclude.
 1. Select **Save**.
 
 Allow approximately one hour for the changes to work their way through your datacenter and sync to user accounts.
