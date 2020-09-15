@@ -17,15 +17,15 @@ quiz:
 
   - content: "What would you use to determine whether a PDF file sent to a user is malicious?"
     choices:
-    - content: Microsoft Advanced Threat Protection (ATP)"
+    - content: Microsoft Advanced Threat Protection (ATP)
       isCorrect: false
       explanation: "That's incorrect. Safe Links doesn't check and identify malicious attachments."
-    - content: "Safe attachments"
-      isCorrect: true
-      explanation: "That's correct. Safe attachments is designed to check and identify malicious attachments."
     - content: "Data loss prevention"
       isCorrect: false
       explanation: "That's incorrect. Data loss prevention prevents people from sharing sensitive information. It doesn't check whether an attachment is malicious."
+    - content: "Safe attachments"
+      isCorrect: true
+      explanation: "That's correct. Safe attachments is designed to check and identify malicious attachments."
 
   - content: "Why would you configure an information barrier?"
     choices:
@@ -41,26 +41,27 @@ quiz:
 
   - content: "To comply with the sensitive tier in the three-tier protection framework, how should you configure team settings?"
     choices:
-    - content: "Public."
-      isCorrect: false
-      explanation: "That's incorrect. To comply with the sensitive tier of the three-tier protection framework, teams shouldn't be public."
-    - content: "Private."
+    - content: "Private"
       isCorrect: true
       explanation: "That's correct. To comply with the sensitive tier of the three-tier protection framework, teams should be private."
-    - content: "Private or public, depending on the organization's needs."
+    - content: "Public"
+      isCorrect: false
+      explanation: "That's incorrect. To comply with the sensitive tier of the three-tier protection framework, teams shouldn't be public."
+    - content: "Private or public, depending on the organization's needs"
       isCorrect: false
       explanation: "That's incorrect. To comply with the sensitive tier of the three-tier protection framework, teams shouldn't be either public or private."
 
   - content: "What are two ways of making Teams meetings more secure?"
     choices:
-    - content: "Controlling who must wait in the lobby and structured meetings."
-      isCorrect: true
-      explanation: "That's correct. Structured meetings, plus controlling who must wait in the lobby, and who can be admitted to a meeting automatically, makes Teams meetings more secure."
     - content: "Controlling who must wait in the lobby and implementing conditional access."
       isCorrect: false
       explanation: "That's incorrect. Conditional access isn't a feature that makes Microsoft Teams meetings more secure."
     - content: "Structured meetings and safe attachments."
       isCorrect: false
       explanation: "That's incorrect. Safe attachments isn't a feature that makes Microsoft Teams meetings more secure."
+    - content: "Controlling who must wait in the lobby and structured meetings."
+      isCorrect: true
+      explanation: "That's correct. Structured meetings, plus controlling who must wait in the lobby, and who can be admitted to a meeting automatically, makes Teams meetings more secure."
+
 
 
