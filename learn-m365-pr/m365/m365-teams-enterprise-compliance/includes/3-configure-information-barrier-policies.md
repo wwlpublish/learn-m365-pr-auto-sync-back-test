@@ -33,13 +33,13 @@ When segmenting users, there are two important rules:
 
 - A user must be in only one segment.
 - Each segment must have only one information barrier.
-To assign users to a segment, you use the cmdlet New-OrganizationSegment with the UserGroupFilter parameter:
+To assign users to a segment, you use the cmdlet **New-OrganizationSegment** with the **UserGroupFilter** parameter:
 
 ```powershell
 New-OrganizationSegment -Name "segmentname" -UserGroupFilter "attribute -eq 'attributevalue'"
 ```
 
-To define a segment named **HR**, using the Department attribute, use this command:
+To define a segment named **HR**, using the **Department** attribute, use this command:
 
 ```powershell
 New-OrganizationSegment -Name "HR" -UserGroupFilter "Department -eq 'HR'

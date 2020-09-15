@@ -39,12 +39,21 @@ To manage communication policies and alerts, create one or more admin role group
 ## Enable the audit log
 Communication compliance requires that the audit log is enabled. The log shows alerts and tracks remediation actions taken by reviewers. The audit logs are a summary of all activities associated with a defined organizational policy or anytime a communication compliance policy changes.
 You can use the Security & Compliance Center or PowerShell to turn on audit log search. You have to be assigned the Audit Logs role in Exchange Online to turn on audit log search.
-From the **Office 365 Security & Compliance center**, from the lefthand navigation, select **Search** > **Audit log search**. After you turn on auditing, a message is displayed that says the audit log is being prepared and that you can run a search in a couple of hours after the preparation is complete. You only have to do this action once.
+
+To enable te audit log follow these steps:
+
+1. Sign into the [Office 365 Security & Compliance center](https://protection.office.com).
+1. In the left navigation, select **Search** > **Audit log search**.
+1. Select **Turn on auditing** on the **Audit log search** page.
+
+:::image type="content" source="../media/4-switching-audit-logging.png" alt-text="A screenshot of the Audit log search page":::
+
+After you turn on auditing, a message is displayed that says the audit log is being prepared and that you can run a search in a couple of hours after the preparation is complete. You only have to do this action once.
 
 ## Create a communication compliance policy for Microsoft Teams
 Once the audit log is enabled, you can start creating policy for communication compliance:
 
-1. Sign into the **Microsoft 365 compliance center**, from the left navigation, select **Show all** > **Communication compliance**.
+1. Sign into the [Microsoft 365 compliance center](https://compliance.microsoft.com), from the left navigation, select **Show all** > **Communication compliance**.
 1. Select the **Policies** tab.
 1. Select **Create policy** to create a custom policy, or from a template.
 1. When you choose a policy template, you will:
@@ -65,13 +74,10 @@ Once the audit log is enabled, you can start creating policy for communication c
 1. **Review** your policy selections and then create the policy.
 1. The **Your policy was created** page is displayed with guidelines on when policy will be activated and which communications will be captured.
 
-
 ## Learn more
 
 To learn more about the topics covered in this unit, see:
 
-- [Microsoft 365 compliance center](https://compliance.microsoft.com)
-- [Office 365 Security & Compliance center](https://protection.office.com)
 - [Communication compliance with Microsoft Teams](https://docs.microsoft.com/microsoftteams/communication-compliance).
 - [Get started with communication compliance](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-configure).
 - [Turn audit log search on or off](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off).

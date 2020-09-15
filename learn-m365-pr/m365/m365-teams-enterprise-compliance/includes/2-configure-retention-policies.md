@@ -13,7 +13,7 @@ By default, Teams chat, channel, and files data are retained indefinitely. Use T
 
 To create a retention policy:
 
-1. Sign into the **Microsoft 365 compliance center**, from the left navigation, select **Show all** > **Information governance**.
+1. Sign into the [Microsoft 365 compliance center](https://compliance.microsoft.com), from the left navigation, select **Show all** > **Information governance**.
 1. On the **Information governance page**, select the **Retention** tab.
 1. Select **+** to create a new retention policy.
 1. On the **Name your policy** page, enter a **name** and optionally a **description**. Then select **Next**.
@@ -30,7 +30,7 @@ In Microsoft Teams, you can define policies to prevent people from sharing sensi
 
 To create a new DLP policy using a template:
 
-1. Sign into the **Microsoft 365 compliance center**, from the left navigation, select **Show all** > **Data loss prevention**.
+1. Sign into the [Microsoft 365 compliance center](https://compliance.microsoft.com), from the left navigation, select **Show all** > **Data loss prevention**.
 1. On the **Data loss prevention** page, select the **Policies** tab.
 1. Select **+** to create a policy.
 1. On the **Start with a template or create custom policy** page, select either a **country or region** to display the available **Categories** and **Templates**. Or select *Search for specific templates*. Then select **Next**.
@@ -41,6 +41,5 @@ To create a new DLP policy using a template:
 
 ## Learn more
 
-- [Microsoft 365 compliance center](https://compliance.microsoft.com)
 - [Retention policies in Microsoft Teams](https://docs.microsoft.com/microsoftteams/retention-policies).
 - [Overview of data loss prevention](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)
