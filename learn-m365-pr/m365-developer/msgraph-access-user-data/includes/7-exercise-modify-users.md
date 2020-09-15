@@ -9,7 +9,7 @@ Locate the **Program.cs** file from the application you created in a previous un
 
 Within the `Main` method, locate the following line
 
-```cs
+```csharp
 var client = GetAuthenticatedGraphClient(config, userName, userPassword);
 ```
 
@@ -17,9 +17,15 @@ Delete all code within the `Main` method after the above line.
 
 ## Create a new user in your organization
 
+Add the following `using` statement to the top of the **Program.cs** file:
+
+```csharp
+using System.Threading.Tasks;
+```
+
 Add the following code to the end of the `Main` method. This code will call a method that will use Microsoft Graph to create a new user:
 
-```cs
+```csharp
 // request 1: create user
 var resultNewUser = CreateUserAsync(client);
 resultNewUser.Wait();
@@ -28,7 +34,7 @@ Console.WriteLine("New user ID: " + resultNewUser.Id);
 
 Next, add the `CreateUserAsync()` method to the console application:
 
-```cs
+```csharp
 private static async Task<Microsoft.Graph.User> CreateUserAsync(GraphServiceClient client) {
   Microsoft.Graph.User user = new Microsoft.Graph.User() {
     AccountEnabled = true,
@@ -51,15 +57,9 @@ Update the `{{REPLACE_YOUR_ORG_DOMAIN}}` string with the domain of your organiza
 
 ![Screenshot of the Azure AD admin portal home](../media/azure-ad-portal-home-00.png)
 
-The `CreateUserAsync()` method creates a user asynchronously and returns a **Task** object back to the caller. Add the following `using` statement to the top of the **Program.cs** file:
-
-```cs
-using System.Threading.Tasks;
-```
-
 The last step is to update the permissions requested when the application runs. Locate the method `CreateAuthorizationProvider()`. Within this method, locate the code that creates a collection of scopes. Add the following permission request to the scopes collection:
 
-```cs
+```csharp
 scopes.Add("User.ReadWrite.All");
 ```
 
@@ -79,7 +79,7 @@ On the **App registrations** page, select the **Graph Console App**.
 
 Select **API Permissions** in the left-hand navigation panel.
 
-![Screenshot of the API Permissions navigation item](../media/azure-ad-portal-new-app-permissions-01.png)
+![Screenshot of the API Permissions navigation item](../media/07-azure-ad-portal-new-permission.png)
 
 Select the **Add a permission** button.
 
@@ -99,7 +99,7 @@ In the **Configured Permissions** panel, select the button **Grant admin consent
 
 Run the following command in a command prompt to compile and run the console application:
 
-```shell
+```console
 dotnet build
 dotnet run
 ```
@@ -114,7 +114,7 @@ In this section, you'll update the .NET Core console application to update the u
 
 First, comment out the following code you added in the previous section. Otherwise, the application will throw an error when it tries to create the same user again:
 
-```cs
+```csharp
 // request 1: create user
 var resultNewUser = CreateUserAsync(client);
 resultNewUser.Wait();
@@ -123,7 +123,7 @@ Console.WriteLine("New user ID: " + resultNewUser.Id);
 
 Next, add the following code. This will update the user you created in the last section:
 
-```cs
+```csharp
 // request 2: update user
 // (1/2) get the user we just created
 var userToUpdate = client.Users.Request()
@@ -141,7 +141,7 @@ Update the `{{REPLACE_YOUR_ORG_DOMAIN}}` string with the domain of your organiza
 
 Next, add the `UpdateUserAsync()` method to the console application:
 
-```cs
+```csharp
 private static async Task<Microsoft.Graph.User> UpdateUserAsync(GraphServiceClient client, string userIdToUpdate) {
   Microsoft.Graph.User user = new Microsoft.Graph.User() {
     MobilePhone = "555-555-1212"
@@ -154,7 +154,7 @@ private static async Task<Microsoft.Graph.User> UpdateUserAsync(GraphServiceClie
 
 Run the following command in a command prompt to compile and run the console application:
 
-```shell
+```console
 dotnet build
 dotnet run
 ```
@@ -169,7 +169,7 @@ In this section, you'll update the .NET Core console application to delete the u
 
 Add the following code to the end of the `Main()` method in the console application:
 
-```cs
+```csharp
 // request 3: delete user
 var deleteTask = DeleteUserAsync(client, userToUpdate.Id);
 deleteTask.Wait();
@@ -177,7 +177,7 @@ deleteTask.Wait();
 
 Next, add the `DeleteUserAsync()` method to the console application:
 
-```cs
+```csharp
 private static async Task DeleteUserAsync(GraphServiceClient client, string userIdToDelete) {
   await client.Users[userIdToDelete].Request().DeleteAsync();
 }
@@ -187,7 +187,7 @@ private static async Task DeleteUserAsync(GraphServiceClient client, string user
 
 Run the following command in a command prompt to compile and run the console application:
 
-```shell
+```console
 dotnet build
 dotnet run
 ```
