@@ -7,6 +7,7 @@ Here, you'll learn how to use calling policies in Teams to control telephony in 
 ## Create a custom calling policy
 Follow these steps to create a custom calling policy.
 
+1. Sign into the [Teams admin center](https://admin.teams.microsoft.com).
 1. In the left navigation of the Teams admin center, go to **Voice > Calling policies**.
 1. Select **Add**.
 1. Turn on or turn off the features that you want to use in your calling policy.

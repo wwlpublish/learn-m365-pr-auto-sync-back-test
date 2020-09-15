@@ -17,45 +17,45 @@ quiz:
 
   - content:  "Which of the following isn't a valid setting when enabling inbound calls to be sent to voice mail?"
     choices:
-    - content:  Default.
+    - content:  Default
       isCorrect: true
       explanation: "That's correct. Default isn't on of the available options."
-    - content:  Disabled.
+    - content:  Disabled
       isCorrect: false
       explanation: "That's incorrect. Disabled is a valid option."
-    - content:  User controlled.
+    - content:  User controlled
       isCorrect: false
       explanation: "That's incorrect. User controlled is a valid option."
   - content:  "Which of the following isn't a valid option for listening to protected voicemail messages?"
     choices:
-    - content:  Outlook for Android or iOs.
+    - content:  Outlook for Android or iOs
       isCorrect: false
-      explanation: "That's incorrect. Outlook app on mobiles phones is supported"
-    - content:  Outlook on the web.
+      explanation: "That's incorrect. Outlook app on mobiles phones is supported."
+    - content:  Outlook on the web
       isCorrect: false
       explanation: "That's incorrect. The Outlook web app is supported."
-    - content:  Skype for Business.
+    - content:  Skype for Business
       isCorrect: true
       explanation: "That's correct. Protected voicemail messages can't be opened in Skype for Business."  
   - content:  "Which of the following statements about inbound call blocking isn't true?"
     choices:
-    - content:  Administrator controls for blocking numbers is accomplished through the Teams admin portal.
-      isCorrect: true
-      explanation: "That's correct. Admin controls for blocking numbers are provided only using PowerShell"
-    - content:  Blocking policies are only available on a tenant-global basis.
+    - content: Blocking policies are only available on a tenant-global basis.
       isCorrect: false
       explanation: "That's incorrect, this is a true statement."
+    - content:  Administrator controls for blocking numbers is accomplished through the Teams admin portal.
+      isCorrect: true
+      explanation: "That's correct. Admin controls for blocking numbers are provided only using PowerShell."
     - content:  Only calls that originate from a PSTN can be blocked.
       isCorrect: false
-      explanation: "That's incorrect, this is a true statement"
+      explanation: "That's incorrect, this is a true statement."
   - content:  "Which of the following isn't a correct statement about blocking a Caller ID?"
     choices:
-    - content:  Setting Blocking outbound caller ID to on prevents Emergency Call Center dispatcher from seeing the caller's number.
-      isCorrect: true
-      explanation: "That's correct, this is the false statement. Emergency calls will always send the user's telephone number (caller ID)."
     - content:  By default, all Call ID policies are turned off.
       isCorrect: false
       explanation: "That's incorrect, this is a true statement. By default, all caller ID settings are indeed turned off."
     - content:  You can't block incoming calls currently in Skype for Business Online.
       isCorrect: false
       explanation: "That's incorrect, this is a true statement. Skype for Business Online calls can't be blocked."
+    - content:  Setting Blocking outbound caller ID to on prevents Emergency Call Center dispatcher from seeing the caller's number.
+      isCorrect: true
+      explanation: "That's correct, this is the false statement. Emergency calls will always send the user's telephone number (caller ID)."
