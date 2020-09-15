@@ -17,7 +17,7 @@ On the **App registrations** page, select the application you previously created
 
 Select **API Permissions** in the left-hand navigation panel.
 
-![Screenshot of the API Permissions navigation item](../media/aad-portal-newapp-permissions-01.png)
+![Screenshot of the API Permissions navigation item](../media/05-aad-portal-newapp-permissions-01.png)
 
 Select the **Add a permission** button.
 
@@ -39,13 +39,13 @@ Open the .NET console app in Visual Studio Code and then open the **Program.cs**
 
 Locate the line that starts with `var graphRequest = client.Users` in the `Main` method. Update this line of code with the following to request groups instead of users. Notice the addition of the `.Expand()` method that instructs Microsoft Graph to include the members collection for each group:
 
-```cs
+```csharp
 var graphRequest = client.Groups.Request().Top(5).Expand("members");
 ```
 
 Update the `foreach` loop to output the group details, and for each group write the members:
 
-```cs
+```csharp
 foreach(var group in results)
 {
   Console.WriteLine(group.Id + ": " + group.DisplayName);
@@ -58,7 +58,7 @@ foreach(var group in results)
 
 Rebuild and rerun the console application by executing the following commands in the command line:
 
-```shell
+```console
 dotnet build
 dotnet run
 ```
