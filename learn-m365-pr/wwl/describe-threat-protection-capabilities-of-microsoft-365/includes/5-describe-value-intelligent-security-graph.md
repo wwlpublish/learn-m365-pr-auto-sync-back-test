@@ -14,8 +14,8 @@ For more information, read the [Microsoft Graph Security API overview](https://d
 
 ## Azure Sentinel
 
-> [!NOTE]
-> Microsoft 365 Defender is the new name for Microsoft Threat Protection. 
+> [!IMPORTANT]
+> Microsoft 365 Defender is the new name for Microsoft Threat Protection.
 
 Microsoft 365 Defender solutions integrate with Azure Sentinel.  Microsoft Azure Sentinel is a scalable, cloud-native, **security information event management (SIEM)** and **security orchestration automated response (SOAR)** solution.  Azure Sentinel delivers intelligent security analytics and threat intelligence across the enterprise, providing alert detection, threat visibility, proactive hunting, and threat response.
 
