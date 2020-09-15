@@ -1,10 +1,17 @@
-Microsoft Teams is built on the Microsoft 365 cloud, and delivers advanced security and compliance capabilities. Teams enforces team- and organization-wide two-factor authentication, single sign-on through Active Directory, and encryption of data in transit and at rest.
+Microsoft Teams is built on the Microsoft 365 cloud and delivers advanced security and compliance capabilities. Teams enforces team- and organization-wide two-factor authentication, single sign-on through Active Directory, and encryption of data in transit and at rest.
 
 Files and wiki data are stored in SharePoint, backed by SharePoint encryption. Notes are stored in OneNote in the team SharePoint site, further protected with OneNote encryption.
 
 ## Safeguarding your privacy
 
-Our customers are controllers for the data provided to Microsoft, and they determine the legal bases of processing. Microsoft, in turn, processes the data on customers' instructions.
+Microsoft is committed to ensuring the privacy of organization through our contractual agreements and by providing user control and transparency. The following are Microsoft's commitment to privacy:
+
+- *Controlled by you* - We commit to strong privacy protections through greater user control and transparency.
+- *No data profiling* - We won't share or use your data for marketing, advertising, or other commercial purposes.
+- *Strong legal protection* - We don't provide governments with "back doors", encryption keys, or assistance to break encryption.
+- *GDPR for all customers* - We extend General Data Protection Regulation (GDPR) data protection rights to all customers worldwide, not just Europe.
+- *Listening to customers* - We actively collaborate with customers and regulators to foresee and shape compliance regulations.
+
 To the extent Microsoft processes personal data in connection with its own legitimate business operations, as described in the Online Services Terms, Microsoft is an independent controller for such processing.
 
 ### Third-party access to data
