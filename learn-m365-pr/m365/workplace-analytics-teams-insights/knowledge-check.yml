@@ -1,0 +1,53 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.workplace-analytics-teams-insights.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: Learn about the Workplace Analytics Teams insights dashboard, how to set it up, and how to interpret the results to understand how employees are adopting and using Microsoft Teams to collaborate in your organization. 
+  ms.date: 09/15/2020
+  author: AlexandraHrt
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/knowledge-check.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Question here"
+      choices:
+      - content: "Choice 1"
+        isCorrect: false
+        explanation: "explanation"
+      - content: "Choice 2"
+        isCorrect: false
+        explanation: "explanation"
+      - content: "Choice 3"
+        isCorrect: true
+        explanation: "explanation"
+
+    - content: "Question here"
+      choices:
+      - content: "Choice 1"
+        isCorrect: false
+        explanation: "explanation"
+      - content: "Choice 2"
+        isCorrect: false
+        explanation: "explanation"
+      - content: "Choice 3"
+        isCorrect: true
+        explanation: "explanation"
+      
+    - content: "Question here"
+      choices:
+      - content: "Choice 1"
+        isCorrect: false
+        explanation: "explanation"
+      - content: "Choice 2"
+        isCorrect: false
+        explanation: "explanation"
+      - content: "Choice 3"
+        isCorrect: true
+        explanation: "explanation"
+      
