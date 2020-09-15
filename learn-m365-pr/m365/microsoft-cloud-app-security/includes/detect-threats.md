@@ -38,11 +38,11 @@ You can set filters to customize how you monitor application usage. Filters incl
 
 This interactive guide walks you through the steps to configure an anomaly detection policy:
 
-> [!VIDEO https://mslearn.cloudguides.com/guides/Detect%20threats%20and%20manage%20alerts%20with%20Microsoft%20Cloud%20App%20Security]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4FkTv]
 
 ### Fine tune anomaly detection policies for suppression or surfacing alerts
 
-Although anomaly detections only trigger when something happens outside the norm, they're still susceptible to false positives. Too many false positives can lead to alert fatigue, and you risk missing the important alerts in the noise. To help prevent this, you can fine-tune the detection logic in each policy to include different levels of suppression to address scenarios that can trigger false positive, such as VPN activities. 
+Although anomaly detections only trigger when something happens outside the norm, they're still susceptible to false positives. Too many false positives can lead to alert fatigue, and you risk missing the important alerts in the noise. To help prevent this, you can fine-tune the detection logic in each policy to include different levels of suppression to address scenarios that can trigger false positive, such as VPN activities.
 
 When creating or editing an anomaly detection policy, you determine its sensitivity according to the type of coverage you need. A higher sensitivity uses stricter detection logic algorithms. This allows you to adapt your detection strategies for each policy.
 
