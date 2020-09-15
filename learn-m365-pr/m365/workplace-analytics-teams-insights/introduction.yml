@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.workplace-analytics-teams-insights.introduction
+title: Introduction
+metadata:
+  title: Introduction
+  description: Learn about the Workplace Analytics Teams insights dashboard, how to set it up, and how to interpret the results to understand how employees are adopting and using Microsoft Teams to collaborate in your organization. 
+  ms.date: 09/17/2020
+  author: AlexandraHrt
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 2
+content: |
+  [!include[](includes/introduction.md)]
