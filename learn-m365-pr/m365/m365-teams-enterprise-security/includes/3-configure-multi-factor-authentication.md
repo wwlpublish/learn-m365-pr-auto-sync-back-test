@@ -5,6 +5,7 @@ Suppose, in your firm of legal advisors, you are concerned that more sophisticat
 Here, you'll learn how to require extra credentials during authentication that make it hard for attackers to break into user accounts.
 
 ## Multi Factor Authentication (MFA) for Microsoft Teams
+
 Multi-factor authentication (MFA) is the process of prompting a user for an additional form of identification during sign-in. They might be asked to enter a code on their cell phone or to provide a fingerprint scan. MFA dramatically decreases the chances of user accounts being compromised. Requiring MFA for all users will significantly improve identity security for your organization.
 
 MFA for Microsoft Teams is enabled by setting conditional access policies. You can define conditional access policies for the apps that provide Teams with its functionality, such as Exchange Online and SharePoint. You can also configure conditional access policies separately for Microsoft Teams.
@@ -21,6 +22,7 @@ Microsoft Teams desktop clients for Windows and Mac support modern authenticatio
 When a user signs into Microsoft Teams, whatever conditional access policies are set will be applied. Be aware, however, that if a conditional access policy is set for Teams, but not Exchange Online or SharePoint Online, users will still be able to access those resources directly.
 
 ## Configure MFA
+
 To require all users to sign in with MFA:
 
 1. Sign into the **Azure portal** with global administrator, security administrator, or conditional access administrator permissions.
@@ -34,13 +36,14 @@ To require all users to sign in with MFA:
 1. Confirm your settings and set **Enable policy** to **On**. Then select **Create** to create your policy.
 
 ## Test MFA
+
 The Conditional Access What If Tool allows you to test that MFA is working correctly. Use the What If tool in conditional access to understand why a policy was or was not applied to a user in a specific circumstance or known state.
 
 The What If tool is located in the **Azure portal** > **Azure Active Directory** > **Conditional Access** > **What If**.
 
 :::image type="content" source="../media/4-what-if.png" alt-text="Conditional access What If tool":::
 
-The **What If** tool requires only *User* privileges to work, but you can narrow the scope with additional information, such as **IP address, Country/Region, Device platform**, etc.
+The **What If** tool requires only **User** privileges to work, but you can narrow the scope with additional information. For example by **IP address**, **Country/Region**, or **Device platform**.
 
 Input the criteria and select **What If** to generate a list of results. The tool will show which conditional access policies would apply for the given criteria. It will also show the conditional access policies that would not apply for the given criteria.
 

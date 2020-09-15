@@ -22,12 +22,11 @@ This configuration is the most applicable to mobile users who access work data a
 This level of configuration is applied for users that are accessing high risk data.  It introduces app protection policy Mobile Threat Defense, enhanced PIN config, and advanced data protection mechanisms.
 
 ### Create a mobile app protection policy
-To create an app protection policy for your apps, you'll need to follow a modern Intune process that'll result in a new app protection policy. 
-1. From the Microsoft Endpoint Manager admin center, select Intune portal.
-1. In Intune portal, choose Apps > App protection policies. This selection opens the App protection policies details, where you create new policies and edit existing policies.
-1. Select **Create policy** and select either **iOS/iPadOS** or **Android**. The Create policy pane is displayed.
-1. On the **Basics** page, add the name of this app protection policy and add the description.
-The **Platform** value is set based on your above choice.
+To create an app protection policy for your apps, you'll need to follow a modern Intune process that'll result in a new app protection policy.
+1. Sign into the [Microsoft Endpoint Manager admin center](https://endpoint.microsoft.com/), the select **Intune portal**.
+1. In the **Intune portal**, choose **Apps** > **App protection policies**. This selection opens the **App protection policies details**, where you create new policies and edit existing policies.
+1. Select **Create policy** and select either **iOS/iPadOS** or **Android**. The **Create policy** pane is displayed.
+1. On the **Basics** page, add the name of this app protection policy and add the description. The **Platform** value is set based on your above choice.
 
     :::image type="content" border="false" source="../media/4-create-policy.png" alt-text="Screenshot of the Create policy page.":::
 

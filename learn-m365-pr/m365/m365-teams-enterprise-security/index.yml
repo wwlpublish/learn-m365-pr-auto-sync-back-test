@@ -12,9 +12,9 @@ title: Configure enterprise-grade security in Microsoft Teams
 summary: Learn how to configure enterprise-grade security for Microsoft Teams.
 abstract: |
   At the end of this module, you should be able to:
-  - Describe how Safe Links protects your users.
   - Demonstrate how Safe Attachments can prevent data compromise.
   - Explain how to configure multi-factor authentication to secure access to Teams.
+  - Describe how to configure app protection policies for mobile devices.
 prerequisites: None
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
