@@ -10,7 +10,7 @@ Call analytics shows detailed information about Teams calls and meetings for eac
 
 Call analytics shows you each leg of a call or meeting; for example, from one participant to another. By analyzing these details, a Teams admin can isolate problem areas and identify the root cause of poor quality.
 
-Call analytics is available from the Microsoft Teams admin center. Select Users, select a user, then Call History. Call analytics displays all calls and meetings for that user for the past 30 days.
+Call analytics is available from the **Microsoft Teams admin center**. Select **Users**, select a user, then **Call History**. Call analytics displays all calls and meetings for that user for the past 30 days.
 
 :::image type="content" source="../media/2-call-analytics.png" alt-text="Teams call analytics":::
 
@@ -43,6 +43,7 @@ Without QoS, you might see quality issues in voice and video, such as:
 - Jitter. Media packets arriving at different rates, which can result in missing words or syllables in calls.
 - Packet loss. Packets dropped, which can also result in lower voice quality and speech that's hard to understand.
 - Delayed Round Trip Time (RTT). Media packets taking a long time to reach their destinations, which results in noticeable delays causing people to talk over each other.
+
 For QoS to be effective, you must apply consistent QoS settings throughout your organization. Any part of the path that fails to support your QoS priorities can degrade the quality of calls, video, and screen sharing. This includes applying settings to all user PCs or devices, network switches, routers to the internet, and the Teams service.
 
 ## Learn more
