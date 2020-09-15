@@ -6,9 +6,9 @@ Teams Rooms is only available as a Microsoft  certified system. You can’t buil
 
 You can have up to two 1080p displays with HDMI connections connected to Teams Rooms. Teams Rooms does support 4K monitors but will only send a 1080p image.
 
-We recommend that you use a USB keyboard and mouse for initial configuration of Teams Rooms. Once the room is in production, you can safely remove the keyboard and mouse. Attendees in Teams Rooms meetings never need to use a USB keyboard and mouse as all interaction is handled by the center of table console.
+It's recommended that you use a USB keyboard and mouse for initial configuration of Teams Rooms. Once the room is in production, you can safely remove the keyboard and mouse. Attendees in Teams Rooms meetings never need to use a USB keyboard and mouse as all interaction is handled by the center of table console.
 
-A wired network connection is also required. Microsoft doesn't support wi-fi with Teams Rooms. Proxy bypass is strongly encouraged.
+A wired network connection is also required. Microsoft doesn't support wireless networking with Teams Rooms. Proxy bypass is strongly encouraged.
 
 ## What are the software requirements?
 
@@ -33,7 +33,7 @@ The Teams Rooms Premium license adds a managed service component to the Teams Ro
 
 Finally, when rolling out Teams Rooms, there are several roles that will be needed within the deployment.
  
-- A System Integrator can help to design conference rooms and meeting rooms and help with the assessment, validation, and equipment ordering. They can make sure the project moves along in a timely manner and they can help install the devices, as well as help provide training and support for both end users and administrators.
+- A System Integrator can help to design conference rooms and meeting rooms and help with the assessment, validation, and equipment ordering. They can make sure the project moves along in a timely manner and they can help install the devices. They can also  help provide training and support for both end users and administrators.
 - You’re going to need somebody who is familiar with audio and video. You’ll  need Microsoft Teams or Skype for Business experts who understand how your environment is configured.
 - If you will be enabling dial-in calling, you will need to add the telecommunications department to help assign telephone numbers. 
 - You'll need someone familiar with the network to make sure switch ports are set up correctly and firewalls and proxies are properly configured. You'll need someone with rights to create an Exchange mailbox, change passwords, and perform end-user management. 
