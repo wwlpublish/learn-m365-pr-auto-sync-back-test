@@ -74,7 +74,6 @@ For more information, read [Microsoft Cloud App Security overview](https://docs.
 ## Microsoft Defender for Office 365
 
 > [!IMPORTANT]
-> [!IMPORTANT]
 > Microsoft Defender for Office 365 is the new name for Office 365 Advanced Threat Protection. [Learn more](https://www.microsoft.com/security/blog/?p=91813). We’ll be updating our products and docs soon, so keep an eye out. 
 
 Microsoft Defender for Office 365 (MSDO) safeguards your organization against malicious threats posed by email messages, links (URLs), and collaboration tools, including Microsoft Teams, SharePoint Online, OneDrive for Business, and other Office clients. MSDO includes:
