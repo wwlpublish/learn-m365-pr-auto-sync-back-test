@@ -13,7 +13,11 @@ The security API is part of the Microsoft Graph, a unified REST API for integrat
 For more information, read the [Microsoft Graph Security API overview](https://docs.microsoft.com/graph/security-concept-overview).
 
 ## Azure Sentinel
-Microsoft Threat Protection solutions integrate with Azure Sentinel.  Microsoft Azure Sentinel is a scalable, cloud-native, **security information event management (SIEM)** and **security orchestration automated response (SOAR)** solution.  Azure Sentinel delivers intelligent security analytics and threat intelligence across the enterprise, providing alert detection, threat visibility, proactive hunting, and threat response.
+
+> [!NOTE]
+> Microsoft 365 Defender is the new name for Microsoft Threat Protection. 
+
+Microsoft 365 Defender solutions integrate with Azure Sentinel.  Microsoft Azure Sentinel is a scalable, cloud-native, **security information event management (SIEM)** and **security orchestration automated response (SOAR)** solution.  Azure Sentinel delivers intelligent security analytics and threat intelligence across the enterprise, providing alert detection, threat visibility, proactive hunting, and threat response.
 
 * Collect data at cloud scale across all users, devices, applications, and infrastructure, both on-premises and in multiple clouds.
 * Detect previously undetected threats, and minimize false positives using Microsoft's analytics and unparalleled threat intelligence. 

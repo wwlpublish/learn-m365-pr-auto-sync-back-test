@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 08/12/2020
+  ms.date: 09/17/2020
   author: wwlpublish
   ms.author: ceperezb
   ms.topic: interactive-tutorial
@@ -14,16 +14,16 @@ durationInMinutes: 3
 content: |
   [!include[](includes/6-knowledge-check.md)]
 quiz:
-  title: "Check your knowledge"
+  title: "Check your knowledge> [!IMPORTANT]> Microsoft 365 Defender is the new name for Microsoft Threat Protection.  Additionally  >* Microsoft Defender for Endpoint is the new name for Microsoft Defender Advanced Threat Protection.>* Microsoft Defender for Office 365 is the new name for Office 365 Advanced Threat Protection.>* Microsoft Defender for Identity is the new name for Azure Advanced Threat Protection.>  > [Learn more](https//www.microsoft.com/security/blog/?p=91813). We’ll be updating our products and docs soon, so keep an eye out."
   questions:
   - content: "Which of the following is a is a cloud-based security solution that identifies, detects, and helps to investigate advanced threats, compromised identities, and malicious insider actions directed at your organization?"
     choices:
-    - content: "Microsoft Office 365 ATP"
+    - content: "Microsoft Defender for Office 365 (MSDO)"
       isCorrect: false
-      explanation: "That's incorrect. Microsoft Office 365 Advanced Threat Protection (ATP) is a cloud-based email filtering service that helps protect your organization against unknown malware and viruses."
-    - content: "Azure ATP"
+      explanation: "That's incorrect. Microsoft Defender for Office 365 (MSDO) is a cloud-based email filtering service that helps protect your organization against unknown malware and viruses."
+    - content: "Microsoft Defender for Identity (MSDI)"
       isCorrect: true
-      explanation: "That's correct. Azure ATP is a cloud-based security solution that identifies, detects, and helps you investigate advanced threats, compromised identities, and malicious insider actions directed at your organization."
+      explanation: "That's correct. Microsoft Defender for Identity (MSDI) is a cloud-based security solution that identifies, detects, and helps you investigate advanced threats, compromised identities, and malicious insider actions directed at your organization."
     - content: "Microsoft Cloud App Security"
       isCorrect: false
       explanation: "That's incorrect. Microsoft Cloud App Security is a Cloud Access Security Broker that supports various deployment modes including log collection, API connectors, and reverse proxy."
@@ -40,23 +40,23 @@ quiz:
       explanation: "That's incorrect. Secure Score includes scores for identity, data, device, apps, and infrastructure."
   - content: "Which of the following safeguards your organization against malicious threats posed by email messages, links (URLs), and collaboration tools?"
     choices:
-    - content: "Microsoft Office 365 ATP"
+    - content: "Microsoft Defender for Office 365 (MSDO)"
       isCorrect: true
-      explanation: "That's correct. Microsoft Office 365 Advanced Threat Protection (ATP) safeguards your organization against malicious threats posed by email messages, links (URLs), and collaboration tools"
-    - content: "Azure ATP"
+      explanation: "That's correct. Microsoft Defender for Office 365 (MSDO) safeguards your organization against malicious threats posed by email messages, links (URLs), and collaboration tools"
+    - content: "Microsoft Defender for Identity (MSDI)"
       isCorrect: false
-      explanation: "That's incorrect. Azure ATP is a cloud-based security solution that identifies, detects, and helps you investigate advanced threats, compromised identities, and malicious insider actions directed at your organization."
+      explanation: "That's incorrect. Microsoft Defender for Identity (MSDI) is a cloud-based security solution that identifies, detects, and helps you investigate advanced threats, compromised identities, and malicious insider actions directed at your organization."
     - content: "Microsoft Cloud App Security"
       isCorrect: false
       explanation: "That's incorrect. Microsoft Cloud App Security is a Cloud Access Security Broker that supports various deployment modes including log collection, API connectors, and reverse proxy."
   - content: "Which of the following is a Cloud Access Security Broker that supports various deployment modes including log collection, API connectors, and reverse proxy?"
     choices:
-    - content: "Microsoft Office 365 ATP"
+    - content: "Microsoft Defender for Office 365 (MSDO)"
       isCorrect: false
-      explanation: "That's incorrect. Microsoft Office 365 Advanced Threat Protection (ATP) is a cloud-based email filtering service that helps protect your organization against unknown malware and viruses."
-    - content: "Azure ATP"
+      explanation: "That's incorrect. Microsoft Defender for Office 365 (MSDO) is a cloud-based email filtering service that helps protect your organization against unknown malware and viruses."
+    - content: "Microsoft Defender for Identity (MSDI)"
       isCorrect: false
-      explanation: "That's incorrect. Azure ATP is a cloud-based security solution that identifies, detects, and helps you investigate advanced threats, compromised identities, and malicious insider actions directed at your organization."
+      explanation: "That's incorrect. Microsoft Defender for Identity (MSDI) is a cloud-based security solution that identifies, detects, and helps you investigate advanced threats, compromised identities, and malicious insider actions directed at your organization."
     - content: "Microsoft Cloud App Security"
       isCorrect: true
       explanation: "That's correct. Microsoft Cloud App Security is a Cloud Access Security Broker that supports various deployment modes including log collection, API connectors, and reverse proxy."
