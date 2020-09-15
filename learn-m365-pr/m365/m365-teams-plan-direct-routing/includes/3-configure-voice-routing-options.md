@@ -45,13 +45,13 @@ You're limited to a maximum of 1,000 dial plans per tenant and 500 normalization
 
 The Service dial plan can't be changed and is the same for everyone in a specific country. The country is the same as that assigned when the user record is created in the Microsoft 365 Admin Portal. The Service dial plan includes a number of common normalization rules. For many organizations, the Service dial plan fits their needs without creating any additional dial plans.
 
-### Tenant global
+### Tenant global dial plan
 
 The tenant global dial plan can be customized. As the name suggests, it affects all users in your organization.
 
-### Tenant user
+### Tenant user dial plan
 
-The tenant yser dial plan can also be customized. You can operate the tenant user dial plan for a group of users.
+The tenant user dial plan can also be customized. You can operate the tenant user dial plan for a group of users.
 
 There is a **Dial Plan Hierarchy**:
 
