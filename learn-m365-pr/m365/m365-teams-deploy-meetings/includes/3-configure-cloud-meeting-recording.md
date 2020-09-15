@@ -13,16 +13,16 @@ For  Teams meetings to be recorded, Microsoft Stream must be enabled for the ten
 - User has Microsoft Stream upload video permissions.
 - User has consented to the company guidelines, if set up by the admin.
 - User has sufficient storage in Microsoft Stream for recordings to be saved.
-- User has TeamsMeetingPolicy-AllowCloudRecording set to true.
+- User has **TeamsMeetingPolicy-AllowCloudRecording** set to true.
 - User isn't an anonymous, guest, or federated user in the meeting.
-- To enable transcription for a user's meeting, the Teams meeting policy they're assigned to must have the -AllowTranscription set to true.
+- To enable transcription for a user's meeting, the Teams meeting policy they're assigned to must have the **-AllowTranscription** set to true.
 
 ## Set up Teams cloud meeting recording for your users
 
 To set up Teams cloud meeting recording for your users, complete the following steps:
 
-1. Turn on *Microsoft Stream* for users in the organization.
-1. Make sure users have *upload video* permissions in Microsoft Stream.
+1. Turn on **Microsoft Stream** for users in the organization.
+1. Make sure users have **upload video** permissions in Microsoft Stream.
 1. Notify employees to consent to company guidelines in Microsoft Stream.
 1. Turn on or turn off cloud recording.
 
@@ -38,4 +38,4 @@ The meeting recordings are stored in Microsoft Stream, which is Microsoft 365 an
 
 ## Learn more
 
-- Cloud meeting recording (https://docs.microsoft.com/microsoftteams/cloud-recording)
+- [Teams cloud meeting recording](https://docs.microsoft.com/microsoftteams/cloud-recording)

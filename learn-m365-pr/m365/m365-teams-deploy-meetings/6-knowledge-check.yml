@@ -35,7 +35,7 @@ quiz:
     - content: A recording completed message is available in the compliance content search functionality for Microsoft Teams.
       isCorrect: true
       explanation: " A recording completed message is available in the compliance content search functionality for Microsoft Teams."
-    - content: Compliance admins can use the recordcmplt PowerShell cmdlet to list completed recordings.
+    - content: "Compliance admins can use the **recordcmplt** PowerShell cmdlet to list completed recordings."
       isCorrect: false
       explanation: " A recording completed message is available in the compliance content search functionality for Microsoft Teams."
 

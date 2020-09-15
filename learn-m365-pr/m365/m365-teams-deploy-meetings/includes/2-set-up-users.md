@@ -13,7 +13,7 @@ You manage access to Teams at the user level by assigning or removing a Microsof
 ### Using the Microsoft 365 admin center
 
 Teams user-level licenses are managed directly through the Microsoft 365 admin center user management interfaces. An administrator can assign licenses to new users when those accounts are created or to users with existing accounts.
-The steps are different depending on whether you use the Licenses page or Active users page. For step-by-step instructions, see *Assign licenses to users* in the *Learn more* section below.
+The steps are different depending on whether you use the Licenses page or Active Users page. For step-by-step instructions, see **Assign licenses to users** in the **Learn more** section below.
 
 :::image type="content" border="false" source="../media/2-o365.png" alt-text="Assign licenses":::
 
@@ -48,7 +48,7 @@ This policy is per-organizer. The setting controls whether people join a meeting
 
 ### Allow dial-in users to bypass the lobby
 
-This policy is per-organizer. The setting controls whether people who dial in by phone join the meeting directly or wait in the lobby, whatever the **Automatically admit people** setting fixes. The default value is **False**. When it's **False**, dial-in users will wait in the lobby until an organization user joins the meeting with a Teams client, and admits them. If it's **True**, dial-in users will automatically join the meeting when an organization user arrives.
+This policy is per-organizer. The setting controls whether people who dial in by phone join the meeting directly or wait in the lobby, whatever the **Automatically admit people** setting fixes. The default value is **False**. When it's **False**, dial-in users will wait in the lobby until an organization user joins the meeting with a Teams client and admits them. If it's **True**, dial-in users will automatically join the meeting when an organization user arrives.
 
 ### Configure desktop sharing in Microsoft Teams
 
@@ -100,7 +100,7 @@ In the **Microsoft Teams admin center**:
 
     :::image type="content" source="../media/2-email-invitation.png" alt-text="Configure the email invitation":::
 
-    - **Logo URL**. Enter the URL where your logo is stored.
+    - **Logo URL**. Enter the URL where your logo is stored. The URL must be reachable inside and outside your organization.
     - **Legal URL**. If your organization has a website where you want people to go for any legal concerns, enter the URL here.
     - **Help URL**. If your organization has a support website where you want people to go if they run into issues, enter the URL here.
     - **Footer**. Enter text that you want to include as a footer.

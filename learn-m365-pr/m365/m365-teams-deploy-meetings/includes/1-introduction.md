@@ -1,7 +1,6 @@
-Suppose you're an administrator for a large multinational organization in the software development sector. Audio/video conferencing has been handled in the past by a third party system that users dialed into. Now, you want to use Teams to replicate that functionality and integrate it with file management, chat, and so on. You've put together a plan for how you'll deploy Microsoft Teams meetings across the organization and support both office-based and home working users in multiple countries.
+Suppose you're an administrator for a large multinational organization in the software development sector. Audio/video conferencing has been handled in the past by a third-party system that users dialed into. Now, you want to use Teams to replicate that functionality and integrate it with file management, chat, and so on. You've put together a plan for how you'll deploy Microsoft Teams meetings across the organization and support both office-based and home working users in multiple countries.
 
 In this module, you will learn how to set up user accounts for access to meetings and how to configure advanced meetings features, such as recording and video interoperability.
-
 
 ## Learning objectives
 
