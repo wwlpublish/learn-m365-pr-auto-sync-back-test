@@ -29,36 +29,36 @@ quiz:
 
   - content: "Which role within a Teams rollout would have responsibility to oversee all technical aspects of implementation, including integrations?"
     choices:
-      - content: Success owner.
+      - content: Success owner
         isCorrect: false
         explanation: "That's incorrect. Success owners ensure the business goals are realized from the Teams rollout.."
-      - content: Program manager.
+      - content: Program manager
         isCorrect: false
         explanation: "That's incorrect. Program managers oversee the entire Teams launch execution and rollout process."
-      - content: IT specialist.
+      - content: IT specialist
         isCorrect: true
         explanation: "That's correct. IT specialists oversee all technical aspects of implementation, including integrations. "
 
   - content: "Your company is fairly small, less than 1,000 employees. In addition, your company is new to Microsoft 365. Which of the following enablement strategies is best for rolling out Teams?"
     choices:
-      - content: Teams First.
+      - content: Teams First
         isCorrect: false
         explanation: "That's incorrect. Teams First is better suited for companies with an existing investment in Microsoft Technologies, not a new adopter."
-      - content: Teams Core.
+      - content: Teams Core
         isCorrect: false
         explanation: "That's incorrect. Teams Core, like Teams First is a better approach for larger companies well established with Microsoft technologies."
-      - content: Teams Go Big.
+      - content: Teams Go Big
         isCorrect: true
         explanation: "Teams Go big is a good choice for smaller companies and companies new to Microsoft technologies."
 
   - content: "Your company is also launching Exchange Online and OneDrive for Business as well as Teams. Which of the following enablement strategies is best for rolling out Teams?"
     choices:
-      - content: Teams First.
+      - content: Teams First
         isCorrect: true
         explanation: "Teams First will enable your users to get used to the enhanced collaboration experience of Teams. Your collaboration project team can then plan to roll out additional capabilities and the training and support required for them to be successful."
-      - content: Side by Side.
+      - content: Side by Side
         isCorrect: false
         explanation: "That's incorrect. Side by Side is a good choice for organizations that are using Skype for Business for audio conferencing, support for conference room devices, or cloud voice capabilities."
-      - content: Teams Go Big.
+      - content: Teams Go Big
         isCorrect: false
         explanation: "That's incorrect. Teams Go big is a good choice for smaller companies and companies new to Microsoft technologies."

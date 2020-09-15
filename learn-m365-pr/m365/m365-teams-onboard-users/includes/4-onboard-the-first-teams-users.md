@@ -8,11 +8,13 @@ With your project team defined, and a list of possible champions identified, you
 
 ### Understand teams and channels in Microsoft Teams
 
-The concepts of teams and channels are fundamental to the implementation of Teams.
+The concepts of teams and channels are fundamental to the implementation of Teams:
 
 - A team is a collection of people, content, and tools that work together to produce a business outcome for your company. Teams are built on Microsoft 365 Groups, and changes to Microsoft 365 group membership sync to the team.
 - Channels are the collaboration spaces within a team in which the actual work is done.
+
 Team access types determine who can join a team:
+
 - *Private* teams are restricted to team members approved by the team owner(s). This is a typical setting for project teams and virtual teams in a large organization.
 - *Public* teams are open to anyone in the organization, and users can join them directly. Public teams are useful for collaboration on topics of general interest to people in different departments or to people who are working on different projects. This is a good default setting for smaller organizations.
 

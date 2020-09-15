@@ -65,7 +65,7 @@ Once you've identified likely candidates, consider asking them to join Microsoft
 
 ## Define the roll-out strategy
 
-Many projects across your company would likely lend themselves to being migrated to Teams. One of these projects could be used as a Teams pilot. In addition, leaders or divisions inside of an organization might want a dedicated pilot for their own people. You'll make use of the stakeholder analysis you've done to choose appropriate teams or pilot projects for the later stages of the roll out. Consider the organizational and project models shown in the following illustration below.
+Many projects across your company would likely lend themselves to being migrated to Teams. One of these projects could be used as a Teams pilot. In addition, leaders or divisions inside of an organization might want a dedicated pilot for their own people. You'll make use of the stakeholder analysis you've done to choose appropriate teams or pilot projects for the later stages of the roll out. Consider the organizational and project models shown in the following illustration below:
 
 :::image type="content" border="false" source="../media/3-organizational-and-project model.png" alt-text="Organizational and Project Models":::
 
@@ -80,9 +80,9 @@ Change is a human process that has nothing to do with technology. There is behav
 
 :::image type="content" border="false" source="../media/4-teams-adoption-resistance.png" alt-text="Teams Adoption Resistance":::
 
-Every organization approaches change differently, depending on region, work style, professional profile, and other elements of the organization. To assess your organization's readiness, see Assess organizational change readiness. Use the guidelines to answer the following questions:
+Every organization approaches change differently, depending on region, work style, professional profile, and other elements of the organization. To assess your organization's readiness, see **Assess organizational change readiness** in the **Learn more** section below. Use the guidelines to answer the following questions:
 
-1. What percentage of users fall into each bucket? Use this to assess change resistance. 
+1. What percentage of users fall into each bucket? Use this to assess change resistance.
     - *Early adopter*: request the solution before it's available.
     - *Informed users*: use the solution once its value is proven.
     - *Dissenters*: push back on any change.
@@ -104,4 +104,5 @@ You can use internal champions to address the problem of having different change
 - [Get clients for Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/get-clients)
 - [Teams Adoption Guide](https://aka.ms/teamstoolkit)
 - [Champion Program](https://aka.ms/O365Champions)
-- [Envision, Onboard and Drive Value with Microsoft 365 Adoption Tools]( https://adoption.microsoft.com/)
+- [Assess organizational change readiness](https://docs.microsoft.com/MicrosoftTeams/upgrade-org-change-readiness)
+- [Envision, Onboard, and Drive Value with Microsoft 365 Adoption Tools](https://adoption.microsoft.com/)
