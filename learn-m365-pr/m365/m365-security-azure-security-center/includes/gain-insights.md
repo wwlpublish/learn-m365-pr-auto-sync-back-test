@@ -28,7 +28,7 @@ Azure Security Center also enables you to set up security policies to protect di
 
 ### Resource security hygiene
 
-Use this section to understand which common security hygiene issues are affecting your resources. These issues will be labelled as low, medium, or high severity, based on the impact they might have on your organization’s security. For example, Azure Security Center tells you whether there are any Azure SQL Database servers that don’t have advanced data security enabled. You can then let Azure Security Center automatically remediate this situation using Quick Fix:
+Use this section to understand which common security hygiene issues are affecting your resources. These issues will be labeled as low, medium, or high severity, based on the impact they might have on your organization’s security. For example, Azure Security Center tells you whether there are any Azure SQL Database servers that don’t have advanced data security enabled. You can then let Azure Security Center automatically remediate this situation using Quick Fix:
 
 :::image type="content" source="../media/2-resource-hygiene.png" alt-text="Resource hygiene":::
 
