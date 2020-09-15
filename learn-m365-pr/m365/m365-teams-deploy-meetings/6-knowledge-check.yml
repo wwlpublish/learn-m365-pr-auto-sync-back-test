@@ -17,11 +17,11 @@ quiz:
 
   - content: "When **Automatically admit people** is turned on and no other settings are configured, what happens when a dial-in user tries to join the meeting?"
     choices:
-    - content: They're automatically rejected.
-      isCorrect: false
-      explanation: "The **Automatically admit people** setting doesn't apply to dial-in users. The **Allow dial-in users to bypass the lobby** setting controls whether people who dial in by phone join the meeting directly."
     - content: They wait in the lobby.
       isCorrect: true
+      explanation: "The **Automatically admit people** setting doesn't apply to dial-in users. The **Allow dial-in users to bypass the lobby** setting controls whether people who dial in by phone join the meeting directly."
+    - content: They're automatically rejected.
+      isCorrect: false
       explanation: "The **Automatically admit people** setting doesn't apply to dial-in users. The **Allow dial-in users to bypass the lobby** setting controls whether people who dial in by phone join the meeting directly."
     - content: They're automatically admitted.
       isCorrect: false

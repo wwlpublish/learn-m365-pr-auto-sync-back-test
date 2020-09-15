@@ -1,6 +1,7 @@
-Teams offers a great deal of functionality that can be customized by each customer. Your company will have to decide which features it is appropriate to deploy.
+Teams offers a great deal of functionality that can be customized by each customer. Your company will have to decide which features it's appropriate to deploy.
 
 In our scenario of a software development company, audio and video conferences are used for daily stand-up meetings, customer communication, and other parts of the Agile software development process. You want to start planning for Microsoft Teams meetings by learning how you can manage user access.
+
 Here, you learn how to set users up on Teams meetings by using the Microsoft 365 admin center, PowerShell, or Teams meetings policies.
 
 ## Manage user access to Teams
