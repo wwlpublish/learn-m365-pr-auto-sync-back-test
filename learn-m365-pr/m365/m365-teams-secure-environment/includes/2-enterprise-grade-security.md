@@ -18,9 +18,9 @@ To the extent Microsoft processes personal data in connection with its own legit
 
 Microsoft will not disclose personal data except:
 
-1. As the customer directs (including as required to complete phone calls).
-2. As described in the Online Service Terms (such as the use of authorized subcontractors to provide certain components of services).
-3. As required by law.
+- As the customer directs (including as required to complete phone calls).
+- As described in the Online Service Terms (such as the use of authorized subcontractors to provide certain components of services).
+- As required by law.
 
 ## Security framework
 
