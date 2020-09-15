@@ -6,5 +6,5 @@ In this module, you've explored the steps needed to plan the deployment of meeti
 
 Now that you've completed this module, you should be able to:
 
-- Explain how to evaluate your organization's readiness to host cloud-based meetings through Teams
-- Plan for the deployment of meetings using Teams
+- Explain how to evaluate your organization's readiness to host cloud-based meetings through Teams.
+- Plan for the deployment of meetings using Teams.

@@ -8,18 +8,22 @@ To get the best experience on Teams, your organization must have deployed Exchan
 
 To scale meetings across your organization, you should ensure that all user locations have internet access to connect to the Microsoft 365 Services. 
 
-At a minimum you should make sure that the following common ports are open to the internet from your user's locations:
+At a minimum, in addition to normal web traffic, you should make sure that the following common ports and locations are opened, for all locations, for media in Teams:
 -	TCP ports 80 and 443 outgoing from clients that will use Teams
 -	UDP ports 3478 through 3481 outgoing from clients that will use Teams
+- IP address ranges:
+    - 13.107.64.0/18
+    - 52.112.0.0/14
+    - 52.120.0.0/14
 
 ## Evaluate your Network and bandwidth capabilities
 
 Review the following before you begin your Teams meetings deployment:
 
-1. Do all your locations have internet access (so they can connect to Microsoft 365)?
+1. Do all your locations have internet access (so they can directly connect to Microsoft 365)?
 1. Do you have a verified domain for Microsoft 365 (for example, *contoso.com*)?
-1. Has your organization deployed Exchange Online and SharePoint Online?
-1. Have you run the Network Assessment Tool and ensure that you meet the requirements described in media quality and network connectivity performance from both the edge segment and the client segment.
+1. Has your organization deployed Exchange Online and enabled SharePoint Online?
+1. Have you run the Network Assessment Tool and ensure that you meet the requirements described in media quality and network connectivity performance from both the edge segment and the client segment?
 
 Once you've verified that you meet these network requirements, you should be ready to roll out Teams.
 
