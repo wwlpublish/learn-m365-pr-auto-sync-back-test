@@ -4,14 +4,14 @@ Suppose, in your multi-national organization, you've experienced a recent increa
 
 Here, you'll learn about tools in the Teams admin portal for monitoring and controlling voice features.
 
-## The call quality dashboard
+## The Call Quality Dashboard (CQD)
 
-The *call quality dashboard* shows data for call and meeting quality for Microsoft Teams, Skype for Business Online, and Skype for Business Server 2019. Data is shown for the organization, and data is collected after the first sign in.
-The call quality dashboard provides a summary view of your organization's calls and meetings – on a monthly, daily or hourly. It allows you to investigate problems based on quality, failure, and in-product user feedback.
+The *Call Quality Dashboard* shows data for call and meeting quality for Microsoft Teams, Skype for Business Online, and Skype for Business Server 2019. Data is shown for the organization, and data is collected after the first sign in.
+The CQD provides a summary view of your organization's calls and meetings - on a monthly, daily or hourly. It allows you to investigate problems based on quality, failure, and in-product user feedback.
 
-The near real time data enable to drill down to find from where the issue is, and who was impacted, for faster resolution of troubleshooting efforts. 
+The near real time data enable to drill down to find from where the issue is, and who was impacted, for faster resolution of troubleshooting efforts.
 
-Sign into the Microsoft call quality dashboard using your admin credentials. Alternatively, sign in to the Teams admin center, and select call quality dashboard from the left ribbon. You will be prompted to sign in to the call quality dashboard.
+Sign into the Microsoft Call Quality Dashboard using your admin credentials. Alternatively, sign into the Teams admin center, and select **Call quality dashboard** from the left ribbon. You will be prompted to sign into the Call Quality Dashboard.
 
 :::image type="content" source="../media/5-call-quality-dashboard.png" alt-text="Teams admin center Call Quality Dashboard menu":::
 

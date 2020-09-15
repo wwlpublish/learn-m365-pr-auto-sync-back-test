@@ -26,9 +26,9 @@ By default, a user who creates a new team is granted the owner status. In additi
 
 **Team members** can leave a team, add, or delete a standard channel, and edit a standard channel name and description. They can also add a private channel, but cannot delete it. Team members can also add apps.
 
-**Moderation** allows you to control who can start new posts in a channel, add and remove team members as moderators, and control whether team members can reply to existing channel messages.
+Moderation allows you to control who can start new posts in a channel, add and remove team members as moderators, and control whether team members can reply to existing channel messages.
 
-Moderators can start new posts in a channel and control whether team members can reply to existing channel messages. They can also control whether bots and connectors can submit channel messages. Moderator capabilities are assigned at the channel level. Team owners have moderator capabilities by default. Team members have moderator capabilities turned off by default, but a team owner can give moderator capabilities for a channel to a team member. Moderators within a channel can add and remove other moderators within that channel.
+**Moderators** can start new posts in a channel and control whether team members can reply to existing channel messages. They can also control whether bots and connectors can submit channel messages. Moderator capabilities are assigned at the channel level. Team owners have moderator capabilities by default. Team members have moderator capabilities turned off by default, but a team owner can give moderator capabilities for a channel to a team member. Moderators within a channel can add and remove other moderators within that channel.
 
 ## Configure Teams
 

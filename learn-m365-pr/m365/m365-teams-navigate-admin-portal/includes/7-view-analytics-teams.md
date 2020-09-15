@@ -9,7 +9,7 @@ Here, you'll learn about the analytics and reporting tools that you can find in 
 Using Teams analytics, you can see how many users communicate through channel and chat messages, and the types of devices they use. Use the information from Teams analytics to understand usage patterns, make informed business decisions, and guide training and communication initiatives.
 To display analytics reports:
 
-1. Sign in to the **Microsoft Teams admin center** with Teams Service Administrator permissions.
+1. Sign into the [Microsoft Teams admin center](https://admin.teams.microsoft.com) with Teams Service Administrator permissions.
 1. Select **Analytics & reports** from the left navigation bar.
 1. Under **Report**, select **Usage reports**.
 1. From the Analytics and Reports screen, select the report and date range.

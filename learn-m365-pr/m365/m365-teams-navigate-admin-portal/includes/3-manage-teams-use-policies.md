@@ -37,13 +37,13 @@ In the Teams admin center, in the left navigation select Policy packages. You'll
 
 You can assign a policy package to an individual user, multiple users at the same time, or a large batch of users up to 5,000 at a time. For individuals, in the Teams admin center, navigate to an individual user and assign a policy package to them. For multiple users, navigate to the Policy package section of the admin center. Select the policy package you want, then Manage users, and select all the employees you'd like assigned to it.
 
-If you need to assign a policy package to thousands of users, use the **New-CsBatchPolicyPackageAssignmentOperation** ` PowerShell cmdlet. More details can be found in the Learn more section below.
+If you need to assign a policy package to thousands of users, use the **New-CsBatchPolicyPackageAssignmentOperation** PowerShell cmdlet. More details can be found in the **Learn more** section below.
 
 ### Customize a policy package
 
 You can edit the settings of a policy through the Policy packages page or by going directly to the policy page in the Teams admin center.
 
-1. In the left navigation of the Microsoft Teams admin center, do one of the following:
+1. In the left navigation of the [Microsoft Teams admin center](https://admin.teams.microsoft.com), do one of the following:
    - Select **Policy packages**, and then select the policy package by selecting to the left of the package name.
    - Select the policy type. For example, select **Messaging policies**.
 1. Select the policy you want to edit. Policies that are linked to a policy package have the same name as the policy package.
@@ -106,9 +106,9 @@ The **Designated presenter role mode** lets you change the **Who can present?** 
 
 The **meeting attendance report** setting controls whether meeting organizers can download the meeting attendance report. This is a per-user policy. Currently, you can only use PowerShell to configure this policy setting. To enable a meeting organizer to download the meeting attendance report, set the **AllowEngagementReport** parameter to Enabled. When enabled, the option to download the report is displayed in the Participants pane.
 
-#### Meeting provider for island mode
+#### Meeting provider for Islands mode
 
-The **meeting provider for island mode** controls which Outlook meeting add-in is used for users who are in Islands mode. This is a per-user policy. Specify whether users can only use the Teams Meeting add-in or both the Teams Meeting and Skype for Business Meeting add-ins to schedule meetings in Outlook.
+The **meeting provider for Islands mode** controls which Outlook meeting add-in is used for users who are in Islands mode. This is a per-user policy. Specify whether users can only use the Teams Meeting add-in or both the Teams Meeting and Skype for Business Meeting add-ins to schedule meetings in Outlook.
 
 You can only apply this policy to users who are in Islands mode and have the **AllowOutlookAddIn** parameter set to True in their Teams meeting policy. Currently, you can only use PowerShell to set this policy.
 
@@ -124,7 +124,7 @@ To specify whether users can customize their video background in a meeting, set 
 
 ### Create a custom messaging policy
 
-1. In the Microsoft Teams admin center, select **Messaging policies**.
+1. Sign into the [Microsoft Teams admin center](https://admin.teams.microsoft.com), select **Messaging policies**.
 1. Select **Add**.
 1. Enter a **name** and **description** for the policy.
 1. Amend the **settings** to suit your needs.
@@ -141,7 +141,7 @@ In this example, you want to ensure that sent messages are not deleted or altere
 
 ### Assign a custom messaging policy to a user
 
-1. In the **Microsoft Teams admin center**, in the left navigation, select **Users**.
+1. Sign into the [Microsoft Teams admin center](https://admin.teams.microsoft.com), in the left navigation, select **Users**.
 1. Select the user by selecting to the left of the **user name**.
 1. Select **Edit settings**.
 1. Under **Policies**, in **Messaging policy**, select the correct policy.

@@ -19,12 +19,12 @@ The Microsoft Teams admin center allows administrators to manage devices that ar
 For a list of Teams certified devices, see the online documentation.
 
 - Personal devices:
-    - Teams phones
-    - Teams Displays
+  - Teams phones
+  - Teams Displays
 - Shared devices:
-    - Microsoft Teams Rooms for Android (used to be called collaboration bars) 
-    - Microsoft Teams Rooms for Windows
-    - Teams Conference phones
+  - Microsoft Teams Rooms for Windows
+  - Collaboration bars
+  - Teams Conference phones
 
 All these devices are managed the in the Microsoft Teams admin center and have their own respective sections in the left navigation under Devices. This lets you manage each type of device separately.
 
