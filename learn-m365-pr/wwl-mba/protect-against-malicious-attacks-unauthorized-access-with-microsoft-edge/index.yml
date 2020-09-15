@@ -1,0 +1,39 @@
+### YamlMime:Module
+uid: learn.wwl.protect-against-malicious-attacks-unauthorized-access-with-microsoft-edge
+metadata:
+  title: Protect against malicious attacks and unauthorized access with Microsoft Edge
+  description: "Protect against malicious attacks and unauthorized access with Microsoft Edge"
+  ms.date: 09/17/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-windows
+title: Protect against malicious attacks and unauthorized access with Microsoft Edge
+summary: Microsoft Edge helps protect your network and devices from malicious attacks and helps prevent unauthorized access to, and leaks of, corporate data with Microsoft Defender SmartScreen and Microsoft Defender Application Guard.
+abstract: |
+  At the end of this module, you will be able to:
+  - Describe how Microsoft Edge is built for secure browsing
+  - Use Microsoft Defender SmartScreen and Application Guard to protect against malicious attacks and unauthorized access.
+  - Manage Microsoft Edge security options through policies and controls in Microsoft Endpoint Manager
+prerequisites: |
+  - Experience deploying and configuring application packages using software distribution tools such as Microsoft Intune or Configuration Manager
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-365
+- microsoft-edge
+- internet-explorer
+units:
+- learn.wwl.protect-against-malicious-attacks-unauthorized-access-with-microsoft-edge.introduction
+- learn.wwl.protect-against-malicious-attacks-unauthorized-access-with-microsoft-edge.understand-secure-foundations-of
+- learn.wwl.protect-against-malicious-attacks-unauthorized-access-with-microsoft-edge.intercept-malicious-attacks-defender-smartscreen
+- learn.wwl.protect-against-malicious-attacks-unauthorized-access-with-microsoft-edge.enhance-browser-security-defender-application-guard
+- learn.wwl.protect-against-malicious-attacks-unauthorized-access-with-microsoft-edge.manage-controls-policies-for-edge-microsoft-endpoint-manager
+- learn.wwl.protect-against-malicious-attacks-unauthorized-access-with-microsoft-edge.knowledge-check
+- learn.wwl.protect-against-malicious-attacks-unauthorized-access-with-microsoft-edge.summary-resources
+badge:
+  uid: learn.wwl.protect-against-malicious-attacks-unauthorized-access-with-microsoft-edge.badge
