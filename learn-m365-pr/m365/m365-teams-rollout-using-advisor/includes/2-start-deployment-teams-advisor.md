@@ -1,4 +1,4 @@
-**Microsoft Advisor for Teams* is a smart guide to deploying Microsoft Teams. It helps you to:
+*Microsoft Advisor for Teams* is a smart guide to deploying Microsoft Teams. It helps you to:
 
 - **Plan and implement** your Microsoft Teams rollout based on information from your environment.
   - Select what workload you want to rollout and who will roll it out with.
