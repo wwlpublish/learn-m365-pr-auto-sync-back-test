@@ -4,7 +4,7 @@ Currently, Microsoft Teams usage reports are available from both the Microsoft 3
 
 To view usage reports in the Microsoft 365 admin center, you must have global administrator permissions. There are two types of usage reports: Teams user activity and Teams device usage. To access both Teams usage reports:
 
-1. Sign in to the **[Microsoft 365 admin center](https://admin.microsoft.com)**.
+1. Sign into the [Microsoft 365 admin center](https://admin.microsoft.com).
 2. Select **Show all** > **Reports**.
 3. Expand **Reports** > **Usage**.
 4. From **Select a report**, select **Microsoft Teams**.
@@ -16,11 +16,11 @@ The reports display a line chart and a detailed table view for 7, 30, 90, or 180
 
 You can view various reports from the Teams admin center, including live event usage and public switched telephone network (PSTN) reports. To access reports from Teams admin center:
 
-1. From the Teams admin center, select Analytics & reports > Usage reports.
-2. On the View reports tab, under Report, select the relevant report.
-3. Select the date period, if applicable. Reports that require a date period also allow you to select a custom date range up to a year in the past, or six months before and after the current date.
-4. For the Teams live event usage report under Organizer, you can optionally add a user name. When you start typing, a list of potential matches is displayed.
-5. Select Run report.
+1. Sign into the [Teams admin center](https://admin.teams.microsoft.com/), select **Analytics & reports** > **Usage reports**.
+2. On the **View reports** tab, under **Report**, select the relevant report.
+3. Select the date period if applicable. Reports that require a date period also allow you to select a custom date range up to a year in the past, or six months before and after the current date.
+4. For the Teams live event usage report under **Organizer**, you can optionally add a user name. When you start typing, a list of potential matches is displayed.
+5. Select **Run report**.
 
 The reports available from the Teams admin center are:
 
