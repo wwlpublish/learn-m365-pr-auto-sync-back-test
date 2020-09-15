@@ -7,7 +7,7 @@ In the video below, you’ll see how to configure legacy sites in the Enterprise
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Fm7D]
 
-As you just saw in the video, the Enterprise Mode Site List Manager can be used to create a list of sites to be rendered in either IE 11 or Edge.  You can then use group policy to configure Enterprise Mode for the list of sites.
+As you just saw in the video, the Enterprise Mode Site List Manager can be used to create a list of sites to be rendered in either IE 11 or Microsoft Edge.  You can then use group policy to configure Enterprise Mode for the list of sites.
 
 ### Download and use the Enterprise Mode Site List Manager
 
@@ -18,17 +18,20 @@ As you just saw in the video, the Enterprise Mode Site List Manager can be used 
 
 1. Enter the URL that you want to target with Enterprise Mode. Entering HTTP and HTTPS is not required.
 
-    ![Screenshot of adding a new website](../media/enterprise-mode-site-list-manager-2.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of adding a new website](../media/enterprise-mode-site-list-manager-2.png)
 
 1. Select **None**, **IE11**, or **MSEdge** from the dropdown to force the URL to render using the browser you choose.  Selecting **None** from the dropdown will specify that site as a neutral site and render it in the currently open and running browser.
 
-    ![Screenshot of selecting which browser to open the website](../media/enterprise-mode-site-list-manager-3.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of selecting which browser to open the website](../media/enterprise-mode-site-list-manager-3.png)
 
-1. Check the **Standalone IE** box to open the site a new IE window.  It is recommended to leave this box unchecked and open the site in a new tab within Edge.
+1. Check the **Standalone IE** box to open the site a new IE window.  It is recommended to leave this box unchecked and open the site in a new tab within Microsoft Edge.
 1. Check the **Allow Redirect** if you want redirected sites to open in the browser that’s currently open, or if it should render using the option selected in the **Open In** dropdown list. 
 1. Select which IE level to render the site in from the **Compat Mode** dropdown list. **Default Mode** is recommended in most cases.
 
-    ![Screenshot of selecting the Compat Mode](../media/enterprise-mode-site-list-manager-4.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of selecting the Compat Mode](../media/enterprise-mode-site-list-manager-4.png)
 
 1. Select **Save** when complete, and then select **File > Save XML** from the application menu.
 1. Save to a network location accessible by users in your organization.

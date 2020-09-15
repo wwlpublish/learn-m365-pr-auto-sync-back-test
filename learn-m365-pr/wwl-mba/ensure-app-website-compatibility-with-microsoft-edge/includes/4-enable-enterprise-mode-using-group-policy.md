@@ -3,9 +3,9 @@ Check out the video below to see how to enable Enterprise Mode through group pol
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Fm7C]
 
-As you just saw in the video, you can use group policy to configure IE mode through either the IE node or the Edge node, and then how to most effectively apply those policies to end users.
+As you just saw in the video, you can use group policy to configure IE mode through either the IE node or the Microsoft Edge node, and then effectively apply those policies to end users.
 
-### Enable Internet Explorer integration using Group Policy
+### Enable Internet Explorer integration using group policy
 
 1. Download and use the latest [Microsoft Edge Policy Template](https://www.microsoft.com/edge/business/download).
 1. Open Group Policy Editor (*Start &rarr; Run &rarr; GPEdit.msc*).

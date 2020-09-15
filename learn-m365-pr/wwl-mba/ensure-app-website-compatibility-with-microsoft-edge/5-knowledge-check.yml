@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 09/16/2020
+  ms.date: 09/17/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -13,25 +13,25 @@ azureSandbox: false
 durationInMinutes: 3
 quiz:
   questions:
-  - content: "Which of the following statements is correct, regarding Microsoft Edge channels?"
+  - content: "Which engine does Microsoft Edge use to render legacy sites in IE mode?"
     choices:
-    - content: "Microsoft Edge supports four update channels: Stable, Beta, Dev, and Canary."
+    - content: "Trident MSHTML"
       isCorrect: true
-      explanation: "Correct. The four update channels are Stable, Beta, Dev, and Canary."
-    - content: "Microsoft Edge supports three update channels: Stable, Beta, and Dev."
+      explanation: "Correct. Trident is a proprietary browser engine for the Microsoft Windows version of Internet Explorer, developed by Microsoft. It was first introduced with the release of Internet Explorer version 4.0 in October 1997."
+    - content: "Chromium"
       isCorrect: false
-      explanation: "Incorrect. Microsoft Edge supports four update channels: Stable, Beta, Dev, and Canary."
-    - content: "Microsoft Edge supports four update channels: Stable, Alpha, Beta, and Dev."
+      explanation: "Incorrect. Chromium is an open-source browser project that aims to build a safer, faster, and more stable way for all Internet users to experience the web. Microsoft Edge has recently adopted Chromium as its browser engine."
+    - content: "WebKit"
       isCorrect: false
-      explanation: "Incorrect.  Microsoft Edge supports four update channels: Stable, Beta, Dev, and Canary."
-  - content: "Which of the following statements is correct, regarding deployment of Microsoft Edge, using Intune?"
+      explanation: "Incorrect.  WebKit is a browser engine developed by Apple and primarily used in its Safari web browser, as well as all the iOS web browsers."
+  - content: "Enterprise Site Discovery has detected some internal legacy sites that still use ActiveX controls.  To ensure these legacy sites continue to operate, add the site to the Enterprise Mode Site List Manager and configure it to open in which of the following modes?"
     choices:
-    - content: "Microsoft Edge is fully integrated with Intune, for Windows devices only."
+    - content: "None"
       isCorrect: false
-      explanation: "Incorrect. Microsoft Edge is fully integrated with Intune, for both Windows and non-Windows devices."
-    - content: "Microsoft Edge is fully integrated with Intune, for both Windows and non-Windows devices."
+      explanation: "Incorrect. Setting the site to **None** will designate it as a neutral site and open in the currently running browser window, whether it's Internet Explorer 11 or Microsoft Edge."
+    - content: "IE11"
       isCorrect: true
-      explanation: "Correct. Microsoft Edge is fully integrated with Intune, for both Windows and non-Windows devices."
-    - content: "Microsoft Edge is not fully integrated with Intune, admins must download the Windows installer MSI based packages, to use with Intune."
+      explanation: "Correct. Since Microsoft Edge doesn't support Active-X controls, for these sites to continue operating, they should be opened in IE11."
+    - content: "MSEdge"
       isCorrect: false
-      explanation: "Incorrect. Microsoft Edge is fully integrated with Intune, for both Windows and non-Windows devices."
+      explanation: "Incorrect. Microsoft Edge doesn't support Active-X controls, so opening them in Edge wouldn't work."

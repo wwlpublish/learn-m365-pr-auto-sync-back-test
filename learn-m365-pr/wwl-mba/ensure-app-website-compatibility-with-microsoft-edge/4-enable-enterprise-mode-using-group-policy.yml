@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn.wwl.ensure-app-website-compatibility-with-microsoft-edge.enable-enterprise-mode-using-group-policy
-title: Enable enterprise mode using group policy
+title: Enable Enterprise Mode using group policy
 metadata:
-  title: Enable enterprise mode using group policy
-  description: "Enable enterprise mode using group policy"
-  ms.date: 09/16/2020
+  title: Enable Enterprise Mode using group policy
+  description: "Enable Enterprise Mode using group policy"
+  ms.date: 09/17/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial

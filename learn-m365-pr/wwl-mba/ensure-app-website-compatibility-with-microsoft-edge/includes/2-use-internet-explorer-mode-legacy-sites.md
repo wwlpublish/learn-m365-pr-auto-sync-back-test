@@ -7,7 +7,7 @@ Watch the video below to see how Internet Explorer mode works in Microsoft Edge.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4FeB3]
 
-As you saw in the video, you can define a subset of sites that are rendered seamlessly in IE mode on Edge. Similarly, you can actively prevent people from using Internet Explorer and force them to use Edge with IE mode.
+As you saw in the video, you can define a subset of sites that are rendered seamlessly in IE mode on Microsoft Edge. Similarly, you can actively prevent people from using Internet Explorer and force them to use Microsoft Edge with IE mode.
 
 Only those sites that you specifically configure (via policy) will use IE mode, all other sites will be rendered as modern web sites. For a site to use IE mode, you need to:
 
@@ -15,10 +15,10 @@ Only those sites that you specifically configure (via policy) will use IE mode, 
     - Microsoft Edge 78 or later, "Configure the Enterprise Mode Site List"
     - Internet Explorer, "Use the Enterprise Mode IE website list"
 
-> [!NOTE]
-> We only process one Enterprise Mode Site List. The Microsoft Edge site list policy takes precedence over the Internet Explorer site list policy.
+    > [!NOTE]
+    > We only process one Enterprise Mode Site List. The Microsoft Edge site list policy takes precedence over the Internet Explorer site list policy.
 
-- All Intranet sites when the **Send all intranet sites to Internet Explorer** group policy is enabled (Microsoft Edge 77 or later.)
+- Enable the **Send all intranet sites to Internet Explorer** group policy setting for Microsoft Edge 77 or later, so all intranet sites open in IE mode. 
 
 ### IE mode supports the following Internet Explorer functionality
 
