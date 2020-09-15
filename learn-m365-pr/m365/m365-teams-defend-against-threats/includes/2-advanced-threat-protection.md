@@ -2,13 +2,12 @@ As systems such as Microsoft Teams become easier to use and more flexible, the e
 
 ## What is Advanced Threat Protection?
 
-Microsoft Advanced Threat Protection (ATP) is a unified platform for detecting and blocking files that have been identified as malicious. Microsoft Defender ATP protects endpoints from cyber threats, detects advanced attacks and data breaches, and automates the handling of security incidents. It's available for Microsoft Teams, and SharePoint and OneDrive, which are used by Teams for content management. ATP allows you to identify malicious content in any of these applications, and block it from user access.
+Microsoft Advanced Threat Protection (ATP) is a unified platform for detecting and blocking files that have been identified as malicious. Microsoft Defender ATP protects endpoints from cyber threats, detects advanced attacks and data breaches, and automates the handling of security incidents. It's available for Microsoft Teams, and SharePoint and OneDrive, which are used by Teams for content management. ATP allows you to identify malicious content in any of these applications and block it from user access.
 
-After a problem is detected, how the content is managed depends on the settings in Microsoft 365 or Office 365. Microsoft recommends that you configure ATP for all applications.
+After a problem is detected, how the content is managed depends on the settings in Microsoft 365. Microsoft recommends that you configure ATP for all applications.
 
 ## Defender Advanced Threat Protection
 Microsoft Defender Advanced Threat Protection is an enterprise endpoint security platform designed to help prevent, detect, investigate, and respond to advanced threats.
-
 
 :::image type="content" border="false" source="../media/2-defender-advanced-threat-protection.png" alt-text="Microsoft Defender Advanced Threat Protection":::
 
@@ -30,15 +29,13 @@ Microsoft Advanced Threat Protection uses a combination of technologies:
 
 ## Activate ATP for Teams
 
-ATP is available for Microsoft Teams, along with SharePoint and OneDrive, which integrate with it to manage content. ATP allows you to determine if content in these applications is malicious in nature, and block it from user access.
+ATP is available for Microsoft Teams, along with SharePoint and OneDrive, which integrate with it to manage content. ATP allows you to determine if content in these applications is malicious in nature and block it from user access.
+
 How the affected content is managed after detection is determined by your settings in Microsoft 365. Don't consider Teams in isolation when you configure ATP. It's best practice to configure all applications together.
 
-**Safe attachments** is an ATP feature that's designed to enhance security by checking and identifying malicious attachments. Global Admins or Security Admins create policies to prevent malicious attachments from being sent to users, clicked, or acted on. Safe attachment protection is available in SharePoint, OneDrive, and Microsoft Teams. Microsoft 365 or Office 365 Advanced Threat Protection Plan 1 and 2 have this capability.  
-
-**Safe Links** is an ATP feature that's not currently available in Microsoft Teams, but is in public preview through the Technology Adoption Program (TAP). ATP Safe Links is available in both ATP Plan 1 and Plan 2.
+**Safe attachments** is an ATP feature that's designed to enhance security by checking and identifying malicious attachments. Global Admins or Security Admins create policies to prevent malicious attachments from being sent to users, clicked, or acted on. Safe attachment protection is available in SharePoint, OneDrive, and Microsoft Teams. Microsoft 365 Advanced Threat Protection Plan 1 and 2 have this capability.  
 
 ## Learn more
 - [ATP for SharePoint, OneDrive, and Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams?view=o365-worldwide)
 - [Safe Attachments](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide)
-- [ATP Safe Links](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links?view=o365-worldwide#how-to-get-atp-safe-links-protection)
 - [Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)
