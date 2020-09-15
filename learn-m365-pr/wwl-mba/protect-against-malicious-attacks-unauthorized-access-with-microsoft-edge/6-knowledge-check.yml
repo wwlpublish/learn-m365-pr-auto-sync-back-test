@@ -1,0 +1,48 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.protect-against-malicious-attacks-unauthorized-access-with-microsoft-edge.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 09/17/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+quiz:
+  questions:
+  - content: "Which of the following tools can be used to visualize how Microsoft Edge isolates processes to maintain a secure browsing environment, preventing malicious code from accessing data and resources on the host operating system?"
+    choices:
+    - content: "Event Viewer"
+      isCorrect: false
+      explanation: "Incorrect. Event Viewer can be used to look at Windows events, but not the details of currently running processes."
+    - content: "Process Explorer"
+      isCorrect: true
+      explanation: "Correct. Process Explorer can be used to look at the individual processes created by Microsoft Edge, but also their priorities and integrity levels."
+    - content: "Task Manager"
+      isCorrect: false
+      explanation: "Incorrect. Task Manager can be used to look at the processes, but not all the necessary details."
+  - content: "Microsoft Defender SmartScreen acts as an early warning system for users and administrators, helping to prevent exploits and attacks before they do serious damage.  SmartScreen can help defend against which of the following?"
+    choices:
+    - content: "Phishing, malware, and potentially unwanted applications (PUAs)"
+      isCorrect: true
+      explanation: "Correct.  These are the most common threats that SmartScreen can help defend against."
+    - content: "Viruses, Session Hijacking, and Denial of Service (DoS)"
+      isCorrect: false
+      explanation: "Incorrect.  While SmartScreen doesn't prevent against these threats directly, they can be prevented by protecting against other threats like phishing, malware, and PUAs."
+    - content: "Physical exploits, brute force password attacks, and SQL injection attacks"
+      isCorrect: false
+      explanation: "Incorrect. SmartScreen doesn't prevent against physical exploits, brute force password attacks, or SQL injection attacks."
+  - content: "When Microsoft Edge Application Guard identifies an untrusted site or application, it opens Microsoft Edge in an isolated container to protect the host operating system from damage or exploitation.  Which of the following containers does Microsoft Edge use?"
+    choices:
+    - content: "Hard disk drive image"
+      isCorrect: false
+      explanation: "Incorrect. Hard disk drive images are used in the creation of a virtual machine, but are not used for isolation."
+    - content: "Isolation chamber"
+      isCorrect: false
+      explanation: "Incorrect.  Isolation chambers are not used by Microsoft Edge."
+    - content: "Hyper-V Krypton container"
+      isCorrect: true
+      explanation: "Correct. Microsoft Edge isolates untrusted sites in Hyper-V Krypton containers to prevent harm to the host operating system, or to prevent access to corporate resources."
