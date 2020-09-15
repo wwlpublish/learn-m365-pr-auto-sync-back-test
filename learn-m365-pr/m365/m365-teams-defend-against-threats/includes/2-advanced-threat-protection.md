@@ -11,7 +11,7 @@ Microsoft Defender Advanced Threat Protection is an enterprise endpoint security
 
 :::image type="content" border="false" source="../media/2-defender-advanced-threat-protection.png" alt-text="Microsoft Defender Advanced Threat Protection":::
 
-Microsoft Advanced Threat Protection uses a combination of technologies:
+Microsoft Defender Advanced Threat Protection uses a combination of technologies:
 
 - **Threat and vulnerability management**. A risk-based approach that works in real time. Reduces vulnerability exposure and improves the discovery, threat detection, business prioritization, and automated compensation and remediation of endpoint threats.
 
