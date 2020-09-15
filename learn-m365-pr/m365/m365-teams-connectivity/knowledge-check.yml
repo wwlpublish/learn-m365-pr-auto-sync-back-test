@@ -17,12 +17,12 @@ quiz:
   #QUESTION 1
   - content: "Which of the following configurations would constitute a network hairpin?"
     choices:
-      - content: "Your ISP has a direct peering relationship with the Microsoft Global Network."
-        isCorrect: false
-        explanation: "A direct peering relationship with the Microsoft Global network doesn't constitute a hairpin."
       - content: "Your network configuration routes traffic to an intermediate on-premises security check before traffic is routed to Microsoft 365."
         isCorrect: true
         explanation: "A hairpin happens when traffic bound for a destination is directed to an intermediate location."
+      - content: "Your ISP has a direct peering relationship with the Microsoft Global Network."
+        isCorrect: false
+        explanation: "A direct peering relationship with the Microsoft Global network doesn't constitute a hairpin."
       - content: "Your routers are configured to send Microsoft 365 traffic directly."
         isCorrect: false
         explanation: "When routers are configured to send traffic directly to Microsoft 365, without going through an intermediate location, it doesn't constitute a hairpin."
@@ -32,12 +32,12 @@ quiz:
       - content: "Skype for Business Network Assessment Tool."
         isCorrect: false
         explanation: "The Skype for Business Network Assessment Tool doesn't show your distance from the network egress location."
-      - content: "Microsoft 365 Network Onboarding Tool"
-        isCorrect: true
-        explanation: "The Microsoft 365 Network Onboarding Tool includes your distance from the network egress location."
       - content: "Network Planner for Microsoft Teams"
         isCorrect: false
         explanation: "The Network Planner for Microsoft Teams doesn't show the distance from the network egress location."
+      - content: "Microsoft 365 Network Onboarding Tool"
+        isCorrect: true
+        explanation: "The Microsoft 365 Network Onboarding Tool includes your distance from the network egress location."
   #QUESTION 3
   - content: "You want to implement Zero Trust principles in your Microsoft 365 system. Which of these configurations should you use?"
     choices:
