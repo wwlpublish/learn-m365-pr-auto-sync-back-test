@@ -19,7 +19,7 @@ Policy settings are implemented as per-organizer, per-user, or per-organizer and
 - **Per-organizer and per-user**. These policies restrict meeting participants based on both their policy *and* the organizer's policy. For example, **Allow cloud recording** is a per-organizer and per-user policy. Turn on this setting to allow the meeting organizer and participants to start and stop a recording.
 
 ## Policy settings
-Let's examine a sample of some of the settings that you can use in your meetings policies.
+Let's examine some of the settings that you can use in your meetings policies.
 
 ### General
 

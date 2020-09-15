@@ -4,7 +4,7 @@ Without Teams meeting policies, you have little control over user actions in mee
 
 Now you've completed this module, you should be able to:
 
-- Explore how to address threats to Teams meetings.
-- Demonstrate how to configure Teams meeting settings.
-- Explain how to manage meetings by using meeting policies in Microsoft Teams.
-- Describe how to control cloud recordings by using Teams policies.
+- Configure Teams meeting settings.
+- Configure Teams meeting policies.
+- Address threats to Teams meetings.
+- Configure cloud meeting recording.

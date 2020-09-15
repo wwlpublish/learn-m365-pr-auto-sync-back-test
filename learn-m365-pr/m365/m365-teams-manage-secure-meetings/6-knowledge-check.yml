@@ -17,19 +17,19 @@ quiz:
 
   - content: "When configuring meeting policies, how does a per-organizer policy work?"
     choices:
-    - content: The per-organizer policy applies only to meeting organizers
+    - content: The per-organizer policy applies only to meeting organizers.
       isCorrect: false
       explanation: "A per-organizer policy applies to the meeting organizer and meeting participants."
     - content: The per-organizer policy applies to meeting organizers and meeting participants.
       isCorrect: true
       explanation: "With a per-organizer policy, the meeting participants inherit the policy from the organizer."
-    - content: The per-organizer policy applies only to meeting participants
+    - content: The per-organizer policy applies only to meeting participants.
       isCorrect: false
       explanation: "A per-organizer policy applies to the meeting organizer and meeting participants."
 
   - content: "What's required for a meeting participant to start a meeting recording?"
     choices:
-    - content: The participant has an assigned policy with **Allow cloud recording** set to On, and they're part of the same organization
+    - content: The participant has an assigned policy with **Allow cloud recording** set to On, and they're part of the same organization.
       isCorrect: true
       explanation: "The user must be assigned a policy with the meeting recording option set to On, and be a user in the same organization as the meeting organizer."
     - content: The participant has an assigned policy with **Allow IP video** set to On, and they're part of the same organization.

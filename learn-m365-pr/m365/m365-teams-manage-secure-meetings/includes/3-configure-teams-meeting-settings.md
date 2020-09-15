@@ -27,7 +27,7 @@ Before you enable guest access, you first of all need to assess what level of ac
 
 - Azure Active Directory - This authorization level controls the guest experience at the directory, tenant, and application level.
 - Microsoft Teams - Controls the guest experience at a Teams level only.
-- Microsoft 365 Groups: Controls the guest experience in Microsoft Teams and Microsoft 365 Groups.
+- Microsoft 365 Groups - Controls the guest experience in Microsoft Teams and Microsoft 365 Groups.
 - SharePoint Online and OneDrive for Business - Controls the guest experience in SharePoint Online, OneDrive for Business, Teams, and Microsoft 365 Groups.
 
 Each level gives you the flexibility to decide how a guest will interact with your organization through Teams.
@@ -89,7 +89,7 @@ PowerShell
 Get-CsOnlineUser | Select-Object objectid, TeamsMeetingPolicy | Group-Object TeamsMeetingPolicy
 ```
 
-If you have a small number of users, you can remove the **RestrictedAnonymousAccess** meeting policy using  the [Grant-CSTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) cmdlet.
+If you have a small number of users, you can remove the **RestrictedAnonymousAccess** meeting policy using the **Grant-CSTeamsMeetingPolicy** cmdlet.
 
 Run the following to remove the **RestrictedAnonymousAccess** meeting policy from users.
 
@@ -99,9 +99,9 @@ PowerShell
 Get-CsOnlineUser |? TeamsMeetingPolicy -eq "RestrictedAnonymousAccess" | Select-Object objectid | foreach {Grant-CsTeamsMeetingPolicy -Identity $_.ObjectId -PolicyName $null}
 ```
 
-If you have a large number of users, it's more efficient to use the [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) cmdlet to submit a batch operation.
+If you have a large number of users, it's more efficient to use the **New-CsBatchPolicyAssignmentOperation** cmdlet to submit a batch operation.
 
-Run the following commands to remove the RestrictedAnonymousAccess meeting policy from a batch of users.
+Run the following commands to remove the **RestrictedAnonymousAccess** meeting policy from a batch of users.
 
 PowerShell
 
@@ -114,3 +114,8 @@ PowerShell
 ```powershell
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName $null -Identity $restrictedAnonymousUsers -OperationName "Batch unassign meeting policy"
 ```
+
+### Learn more
+
+- [Grant-CSTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy)
+- [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)
