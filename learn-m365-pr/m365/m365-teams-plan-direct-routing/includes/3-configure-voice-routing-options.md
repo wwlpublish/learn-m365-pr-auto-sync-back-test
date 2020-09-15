@@ -45,23 +45,23 @@ You're limited to a maximum of 1,000 dial plans per tenant and 500 normalization
 
 The Service dial plan can't be changed and is the same for everyone in a specific country. The country is the same as that assigned when the user record is created in the Microsoft 365 Admin Portal. The Service dial plan includes a number of common normalization rules. For many organizations, the Service dial plan fits their needs without creating any additional dial plans.
 
-### Tenant - Global
+### Tenant global
 
-The Tenant Global dial plan can be customized. As the name suggests, it affects all users in your organization.
+The tenant global dial plan can be customized. As the name suggests, it affects all users in your organization.
 
-### Tenant - User
+### Tenant user
 
-The Tenant - User dial plan can also be customized. You can operate the Tenant - User dial plan for a group of users.
+The tenant yser dial plan can also be customized. You can operate the tenant user dial plan for a group of users.
 
 There is a **Dial Plan Hierarchy**:
 
-- If you haven't modified any dial plan, then the Service dial plan for the relevant country will be used.
-- If you have modified the Tenant - Global dial plan, this will be merged with the Service dial plan for the relevant country. The combination of the two will be used.
-- If you have created  one or more Tenant - User dial plans, these will be merged with the Service country dial plan. The combination of the two will be used.
+- If you haven't modified any dial plan, then the service dial plan for the relevant country will be used.
+- If you have modified the tenant global dial plan, this will be merged with the Service dial plan for the relevant country. The combination of the two will be used.
+- If you have created  one or more tenant user dial plans, these will be merged with the Service country dial plan. The combination of the two will be used.
 
 This diagram helps you to plan whether or not you need to create dial plans for your organization, and if so, what type.
 
-:::image type="content" border="false" source="../media/3-dial-plans-planning.png" alt-text="Dial Plans Planning Steps":::
+:::image type="content" border="false" source="../media/3-dial-plans-planning.png" alt-text="Dial plans planning steps":::
 
 ## Gateway
 

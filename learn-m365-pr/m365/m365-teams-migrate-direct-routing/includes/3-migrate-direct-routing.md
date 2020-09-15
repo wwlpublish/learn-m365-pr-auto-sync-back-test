@@ -140,7 +140,7 @@ If the dial pad isn't displayed, start by checking for the proper licensing and 
 - User Homed Online (**Hosting Provider = sipfed.online.lync.com**)
 - Phone System License
 - Call plan and/or **CsOnlineVoiceRoutingPolicy** is assigned to the user
-- AllowPrivateCalling = True in **CsTeamsCallingPolicy**
+- **AllowPrivateCalling** = True in **CsTeamsCallingPolicy**
 - Supported client (desktop, mobile, Edge, Chrome)
 
 It might take some time for the dial pad to appear. Have the user sign out then sign back in. If that doesn't resolve the issue, check the weblogs in Teams Diagnostics.
@@ -161,7 +161,7 @@ There are four items in this log that are of particular interest:
 3. **isBusinessVoicePath** will be true if the user has a calling plan assigned.
 4. **isByotEnabled** is true when the user is enabled for Direct Routing and was confirmed when **CsOnlineVoiceRoutingPolicy** was set for this user.
 
-Either isBusinessVoicePath or isByotEnabled must be set to true, otherwise the dial pad won't appear.
+Either **isBusinessVoicePath** or **isByotEnabled** must be set to true, otherwise the dial pad won't appear.
 
 ## Learn more
 

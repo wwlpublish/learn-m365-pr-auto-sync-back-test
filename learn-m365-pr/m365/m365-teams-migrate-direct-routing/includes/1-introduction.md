@@ -1,4 +1,4 @@
-Direct Routing allows you to connect an existing phone infrastructure to the Microsoft Teams service. Using a certified Session Border Controller (SBC) you can route calls from your Public Switched Telephone Network (PSTN) to Microsoft's Phone System.
+Direct Routing allows you to connect an existing phone infrastructure to the Microsoft Teams service. Using a certified Session Border Controller (SBC) you can route calls from your public switched telephone network (PSTN) to Microsoft's Phone System.
 
 Suppose you're the lead administrator for Teams at Contoso. You've been asked to begin planning your migration of telephony service to Microsoft Teams. You already have Teams rolled out for internet-based communications, but your telephony services are running on an on-premises Skype for Business Server. You want to ensure as smooth a migration as possible.
 

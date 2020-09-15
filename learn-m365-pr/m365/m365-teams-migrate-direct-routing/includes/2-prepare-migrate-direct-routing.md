@@ -1,6 +1,6 @@
 Before you can migrate to Microsoft Teams Direct Routing from your previous telephony system, you must carefully consider some key aspects of the new system, such as the location of the Session Border Controller (SBC).
 
-Suppose that you are an Teams administrator and you beginning the planning phase for implementing Direct Routing. You need to determine where to place the Session Border Controller and how to prepare to cutting over to the new system.
+Suppose that you are a Teams administrator and you beginning the planning phase for implementing Direct Routing. You need to determine where to place the Session Border Controller and how to prepare to cut over to the new system.
 
 Here you will learn where to place the Session Border Controller and prepare for the cut over.
 
@@ -16,7 +16,7 @@ The placement of your SBCs is important. Consider the following diagram:
 
 :::image type="content" border="false" source="../media/2-topology-diagram.png" alt-text="Topology Diagram":::
 
-On the left side, you have the telephone company connection in the form of a Public Switched Telephone Network (PSTN) coming into an SBC. Calls can then be routed to, for example, a Skype for Business Server, shown here as the Mediation Server. Or you could have calls routed to a legacy PBX like a Cisco or Avaya platform. In this unit, we'll be looking at Direct Routing as shown in the diagram above.
+On the left side, you have the telephone company connection in the form of a public switched telephone network (PSTN) coming into an SBC. Calls can then be routed to, for example, a Skype for Business Server, shown here as the Mediation Server. Or you could have calls routed to a legacy PBX like a Cisco or Avaya platform. In this unit, we'll be looking at Direct Routing as shown in the diagram above.
 
 ## Session Border Controller
 
