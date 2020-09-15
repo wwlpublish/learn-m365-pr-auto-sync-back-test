@@ -24,7 +24,7 @@ quiz:
         explanation: "That's incorrect. Use the Cloud Discovery Dashboard to see what kinds of apps are being used, open alerts, and the risk levels of apps in your organization."
       - content: "Use the Cloud Discovery Dashboard"
         isCorrect: true
-        explanation: "THat's correct. You can see what kinds of apps are being used, open alerts, and the risk levels of apps in your organization."
+        explanation: "That's correct. You can see what kinds of apps are being used, open alerts, and the risk levels of apps in your organization."
 
     - content: "The Cloud App Security framework includes which of the following?"
       choices:
