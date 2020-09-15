@@ -18,17 +18,17 @@ To the extent Microsoft processes personal data in connection with its own legit
 
 Microsoft will not disclose personal data except:
 
-1. As the customer directs (including as required to complete phone calls)
-2. As described in the Online Service Terms (such as the use of authorized subcontractors to provide certain components of services)
-3. As required by law
+1. As the customer directs (including as required to complete phone calls).
+2. As described in the Online Service Terms (such as the use of authorized subcontractors to provide certain components of services).
+3. As required by law.
 
 ## Security framework
 
 Core elements of the Teams security framework are:
 
-- Azure Active Directory (Azure AD), which provides a single trusted back-end repository for user accounts
-- Transport Layer Security (TLS), and mutual TLS (MTLS) which encrypt instant message traffic and enable endpoint authentication
-- Industry-standard protocols for user authentication, provided by Azure AD in Microsoft 365
+- Azure Active Directory (Azure AD), which provides a single trusted back-end repository for user accounts.
+- Transport Layer Security (TLS), and mutual TLS (MTLS) which encrypt instant message traffic and enable endpoint authentication.
+- Industry-standard protocols for user authentication, provided by Azure AD in Microsoft 365.
 
 ### Security by design
 
