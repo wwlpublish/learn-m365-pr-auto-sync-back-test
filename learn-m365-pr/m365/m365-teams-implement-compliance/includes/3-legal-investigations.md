@@ -99,8 +99,7 @@ To put a user or a team on legal hold:
 
 ## Learn more
 
-- eDiscovery of private channels
-- Use Content Search in Microsoft Teams
-- Content Search in Microsoft 365 or Office 365
-- Turn audit log search on or off
-- Place a Microsoft Teams user or team on legal hold
+- [eDiscovery of private channels](https://docs.microsoft.com/microsoftteams/ediscovery-investigation#ediscovery-of-private-channels)
+- [Use Content Search in Microsoft Teams](https://docs.microsoft.com/microsoftteams/content-search))
+- [Turn audit log search on or off](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off)
+- [Place a Microsoft Teams user or team on legal hold](https://docs.microsoft.com/microsoftteams/legal-hold)
