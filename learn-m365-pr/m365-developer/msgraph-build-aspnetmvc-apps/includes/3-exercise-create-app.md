@@ -40,8 +40,8 @@ Update-Package bootstrap
 Install-Package Microsoft.Owin.Host.SystemWeb
 Install-Package Microsoft.Owin.Security.OpenIdConnect
 Install-Package Microsoft.Owin.Security.Cookies
-Install-Package Microsoft.Identity.Client -Version 4.14.0
-Install-Package Microsoft.Graph -Version 3.6.0
+Install-Package Microsoft.Identity.Client -Version 4.18.0
+Install-Package Microsoft.Graph -Version 3.12.0
 ```
 
 ## Design the app
@@ -52,7 +52,7 @@ Create a basic OWIN startup class. Right-click the **graph-tutorial** folder in 
 
 Right-click the **Models** folder in **Solution Explorer** and select **Add > Class...**. Name the class **Alert** and select **Add**. Replace the entire contents of **Alert.cs** with the following code.
 
-```cs
+```csharp
 namespace graph_tutorial.Models
 {
     // Used to flash error messages in the app's views.
@@ -173,7 +173,7 @@ Open the **./Views/Shared/_Layout.cshtml** file, and replace its entire contents
 
 Open **Content/Site.css** and replace its entire contents with the following code.
 
-```css
+```csharps
 body {
     padding-top: 4.5rem;
 }
@@ -209,7 +209,7 @@ Open the **Views/Home/index.cshtml** file and replace its contents with the foll
 
 Right-click the **Controllers** folder in Solution Explorer and select **Add > Controller...**. Choose **MVC 5 Controller - Empty** and select **Add**. Name the controller **BaseController** and select **Add**. Replace the contents of **BaseController.cs** with the following code.
 
-```cs
+```csharp
 using graph_tutorial.Models;
 using System.Collections.Generic;
 using System.Web.Mvc;
@@ -238,7 +238,7 @@ namespace graph_tutorial.Controllers
 
 Open **Controllers/HomeController.cs** and change the `public class HomeController : Controller` line to:
 
-```cs
+```csharp
 public class HomeController : BaseController
 ```
 

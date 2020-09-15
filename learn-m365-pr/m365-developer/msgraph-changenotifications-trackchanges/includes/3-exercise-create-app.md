@@ -69,7 +69,7 @@ Before you continue, you should have [ngrok](https://ngrok.com) installed on you
 
 Run ngrok by executing the following command from the command line:
 
-```shell
+```console
 ngrok http 5000
 ```
 
@@ -77,7 +77,7 @@ This will start ngrok and will tunnel requests from an external ngrok url to you
 
 Copy the https forwarding address. In the following sample output, that is **https://787b8292.ngrok.io**. You'll need this URL later.
 
-```shell
+```console
 ngrok by @inconshreveable
 
 Session Status                online
@@ -97,13 +97,13 @@ Connections                   ttl     opn     rt1     rt5     p50     p90
 
 Open your command prompt, navigate to a directory where you have rights to create your project, and run the following command to create a new .NET Core WebApi app:
 
-```shell
+```console
 dotnet new webapi -o msgraphapp
 ```
 
 After creating the application, run the following commands to ensure your new project runs correctly.
 
-```shell
+```console
 cd msgraphapp
 dotnet add package Microsoft.Identity.Client
 dotnet add package Microsoft.Graph
@@ -112,7 +112,7 @@ dotnet run
 
 The application will start and display the following in the console:
 
-```shell
+```console
 info: Microsoft.Hosting.Lifetime[0]
       Now listening on: https://localhost:5001
 info: Microsoft.Hosting.Lifetime[0]
@@ -129,7 +129,7 @@ Stop the application running by pressing <kbd>CTRL</kbd>+<kbd>C</kbd>.
 
 Open the application in Visual Studio Code using the following command:
 
-```shell
+```console
 code .
 ```
 
