@@ -8,22 +8,23 @@ Adding Microsoft Graph support to an ASP.NET MVC web application is simple. The 
 
 All communication with Microsoft Graph is handled though the `GraphServiceClient`. The `GraphServiceClient` must be configured to include an access token in each request. Therefore, the first step is for the web application to obtain an access token once the user has signed-in. This can be done using following code that demonstrates how to obtain an access token:
 
-```cs
+```csharp
 public async Task<string> GetUserAccessTokenAsync()
 {
-  IConfidentialClientApplication cca = ConfidentialClientApplicationBuilder.Create(appId)
-    .WithRedirectUri(redirectUri)
-    .WithClientSecret(appSecret)
-    .Build();
+  var idClient = ConfidentialClientApplicationBuilder.Create(appId)
+      .WithRedirectUri(redirectUri)
+      .WithClientSecret(appSecret)
+      .Build();
 
-  string signedInUserId = ClaimsPrincipal.Current.FindFirst(ClaimTypes.NameIdentifier).Value;
-  SessionTokenStore tokenStore = new SessionTokenStore(signedInUserId, HttpContext.Current);
-  tokenStore.Initialize(cca.UserTokenCache);
+  var tokenStore = new SessionTokenStore(idClient.UserTokenCache,
+          HttpContext.Current, ClaimsPrincipal.Current);
 
-  IEnumerable<IAccount> accounts = await cca.GetAccountsAsync();
+  var accounts = await idClient.GetAccountsAsync();
 
-  var scopes = graphScopes.Split(' ');
-  var result = await cca.AcquireTokenSilent(scopes, accounts.FirstOrDefault()).ExecuteAsync();
+  // By calling this here, the token can be refreshed
+  // if it's expired right before the Graph call is made
+  var result = await idClient.AcquireTokenSilent(graphScopes, accounts.FirstOrDefault())
+      .ExecuteAsync();
 
   return result.AccessToken;
 }
@@ -41,7 +42,7 @@ Now that the application has an access token, it can move onto the next step and
 
 Once the application has an access token for Microsoft Graph, create a new instance of the `GraphServiceClient` and configure it to include the access token in each request submitted to Microsoft Graph as shown in the following code:
 
-```cs
+```csharp
 public static GraphServiceClient GetAuthenticatedClient()
 {
     DelegateAuthenticationProvider provider = new DelegateAuthenticationProvider(
@@ -88,7 +89,7 @@ Before proceeding to the next unit, let's explore how the OAuth v2 authorization
 
 Once the access token is acquired, your application is going to call Microsoft Graph without having to go through the steps to obtain the access token again. Instead, the web application caches the access token locally and it keeps using it until at some point in the future where that token expires.
 
-In this case, a *refresh token* is used to obtain a new access token without requiring the user to sign in again. This is one of the advantages to using the MSAL library because while its important to understand what is happening, the MSAL library handles this token caching and, when necessary, refreshing the token for you.
+In this case, a *refresh token* is used to obtain a new access token without requiring the user to sign in again. This is one of the advantages to using the MSAL library because while it's important to understand what is happening, the MSAL library handles this token caching and, when necessary, refreshing the token for you.
 
 Your code follows a simple pattern to acquire a token silently. If that fails, your application will then guide the user through acquiring the interactively. Silently acquiring the token means that MSAL first tries to retrieve the token from cache or by using a refresh token if the token has expired.
 

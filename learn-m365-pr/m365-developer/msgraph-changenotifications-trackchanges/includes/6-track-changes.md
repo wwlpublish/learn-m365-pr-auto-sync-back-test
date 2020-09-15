@@ -50,7 +50,7 @@ With this pattern, your app could first, create a change notification subscripti
 
 In the future, change notifications are used to notify your application that something changed. You can use this as a trigger to resubmit the delta query for all changes that have happened since the first request, or one of the later requests. This way, your application can be assured to not miss any changes that happen even if there is when a subscription expires or there's an unforeseen error in the processing of, or sending, the change notification.
 
-To make the application as fault tolerant as possible, it's recommended to have a scheduled process check for a valid subscription and renew it if the expiration time is coming up soon. Its also recommended to schedule a delta query request to occur on regular intervals to cover the scenario where there was a gap in an active subscription and or where a notification of a change wasn't received for some unknown reason.
+To make the application as fault tolerant as possible, it's recommended to have a scheduled process check for a valid subscription and renew it if the expiration time is coming up soon. It's also recommended to schedule a delta query request to occur on regular intervals to cover the scenario where there was a gap in an active subscription and or where a notification of a change wasn't received for some unknown reason.
 
 ## Summary
 
