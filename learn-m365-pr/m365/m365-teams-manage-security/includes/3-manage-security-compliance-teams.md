@@ -6,13 +6,11 @@ Here, you'll learn about the advanced protection tools that are available in Tea
 
 ## Manage security
 
-**Microsoft Advanced Threat Protection (ATP) **is a unified platform for detecting and blocking files identified as malicious. Microsoft Defender ATP protects endpoints from cyber threats, detects advanced attacks and data breaches, and automates the handling of security incidents. It's available for Microsoft Teams, and SharePoint and OneDrive, which are used by Teams for content management. ATP allows you to identify malicious content in any of these applications, and block the content from user access.
-
-**Safe Links** is in public preview for Microsoft Teams through the Technology Adoption Program (TAP). Safe Links protects your organization from dangerous links. It's a feature of Microsoft 365 Advanced Threat Protection and provides time-of-click verification of web addresses (URLs). Use Safe Links in Microsoft Teams Chat, Group Chat, Channels, and in Tabs to validate URLs at the point when they're clicked.
+**Microsoft Advanced Threat Protection (ATP)** is a unified platform for detecting and blocking files identified as malicious. Microsoft Defender ATP protects endpoints from cyber threats, detects advanced attacks and data breaches, and automates the handling of security incidents. It's available for Microsoft Teams, and SharePoint and OneDrive, which are used by Teams for content management. ATP allows you to identify malicious content in any of these applications and block the content from user access.
 
 **Safe attachments** detects malicious attachments. Global or security administrators create policies for handling these suspected malicious attachments to prevent them from being sent to users, clicked, and acted upon. Safe attachment protection is available to SharePoint, OneDrive, and Microsoft Teams.
 
-**Conditional Access** is a security feature of Azure Active Directory (Azure AD). Microsoft Teams relies on Exchange Online, SharePoint, and Skype for Business Online for core features such as meetings, calendars, interop chats, and file sharing. When a user signs in to Microsoft Teams, the Conditional Access policies that are set for these cloud apps apply to the Teams user.
+**Conditional Access** is a security feature of Azure Active Directory (Azure AD). Microsoft Teams relies on Exchange Online, SharePoint, and Skype for Business Online for core features such as meetings, calendars, interop chats, and file sharing. When a user signs into Microsoft Teams, the Conditional Access policies that are set for these cloud apps apply to the Teams user.
 
 Conditional Access uses multiple signals to determine whether a user or device is trustworthy. Conditional Access policies are made up of if-then statements that are enforced after first-factor authentication is complete. Microsoft Teams is supported separately as a cloud app in Azure Active Directory Conditional Access policies.
 

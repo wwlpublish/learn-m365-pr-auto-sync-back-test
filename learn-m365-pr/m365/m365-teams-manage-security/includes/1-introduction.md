@@ -8,6 +8,6 @@ In this module, you'll learn about the security model Microsoft used when they b
 
 At the end of this module, you should be able to:
 
--	Describe the Microsoft Teams security model.
--	Explain how to manage security and compliance in Teams.
--	Demonstrate how to secure Microsoft Teams with three tiers of protection.
+- Describe the Microsoft Teams security model.
+- Explain how to manage security and compliance in Teams.
+- Demonstrate how to secure Microsoft Teams with three tiers of protection.

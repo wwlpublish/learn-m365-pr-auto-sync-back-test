@@ -10,7 +10,7 @@ Security is part of the design process for Microsoft Teams. It was developed to 
 
 Security activities include developing threat models to test each Microsoft Teams feature, code reviews, and security testing during a focused "security push". There's a focus on security at each stage of the software development process. Multiple security-related improvements were built into the coding process and practices. While no system guarantees complete security, the SDL development process does produce systems with a lower rate of security vulnerabilities.
 
-Microsoft Teams incorporates industry-standard security technologies as part of its architecture. Data is protected by encrypting network communications in Teams by default, and requiring all servers to use certificates. Teams uses OAUTH, Transport Layer Security (TLS), Secure Real-Time Transport Protocol (SRTP), and other industry-standard encryption techniques, including 256-bit Advanced Encryption Standard (AES) encryption.
+Microsoft Teams incorporates industry-standard security technologies as part of its architecture. Data is protected by encrypting network communications in Teams by default and requiring all servers to use certificates. Teams uses OAUTH, Transport Layer Security (TLS), Secure Real-Time Transport Protocol (SRTP), and other industry-standard encryption techniques, including 256-bit Advanced Encryption Standard (AES) encryption.
 
 ## Common security threats
 Microsoft Teams mitigates many common security threats.
