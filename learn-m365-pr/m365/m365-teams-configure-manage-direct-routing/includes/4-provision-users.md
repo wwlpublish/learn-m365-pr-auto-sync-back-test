@@ -90,10 +90,7 @@ The table below provides an at-a-glance example of the type of settings you migh
 |Number provisioned     | In Azure Active Directory (User Online or AADSync)        |  Acquired from **Microsoft** or **ported to Phone System**       |
 |Enable the user     | `Set-CsUser -Identity "User name" -OnPremLineURI tel:+123456789 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true`        |  User is assigned a number through Teams Admin Center or **Set-CsOnlineVoiceUser** (inbound calling is anchored on Calling Plan)       |
 |Routing behavior     | Only administrator routes evaluated, if no routes exist matching the callee number, the call drops        | <ul><li>Step 1. Routes configured by administrator evaluated.</li><li>Step 2. If no routed matching the callee number exist on Step 1, route the call via Microsoft Calling plan.</li></ul>         |
-
-| | |
-| --- | --- |
-|Assign routing     | `Grant-CsOnlineVoiceRoutingPolicy -Identity "User name" -PolicyName "US Only"` | |
+|Assign routing     | `Grant-CsOnlineVoiceRoutingPolicy -Identity "User name" -PolicyName "US Only"` | `Grant-CsOnlineVoiceRoutingPolicy -Identity "User name" -PolicyName "US Only"` |
 
 
 ## Dial plans

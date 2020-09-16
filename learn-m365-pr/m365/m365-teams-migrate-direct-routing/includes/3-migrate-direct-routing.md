@@ -61,7 +61,7 @@ The second attribute to look at is **InterpretedUserType**. Run the **Get-CsOnli
 
 The next step as part of staging is to enable the user. When you assign the various licenses, many of these features will automatically be turned on for you. Ensure that Enterprise Voice and Hosted Voicemail are enabled.  To enable Hosted Voicemail use the PowerShell command:
 
-```poweshell
+```powershell
 Set-CsUser -Identity TestUser01@contoso.com -HostedVoiceMail $true
 ```
 
