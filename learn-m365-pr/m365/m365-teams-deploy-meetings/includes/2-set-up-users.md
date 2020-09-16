@@ -16,7 +16,7 @@ You manage access to Teams at the user level by assigning or removing a Microsof
 Teams user-level licenses are managed directly through the Microsoft 365 admin center user management interfaces. An administrator can assign licenses to new users when those accounts are created or to users with existing accounts.
 The steps are different depending on whether you use the Licenses page or Active Users page. For step-by-step instructions, see **Assign licenses to users** in the **Learn more** section below.
 
-:::image type="content" border="false" source="../media/2-o365.png" alt-text="Assign licenses":::
+:::image type="content" border="false" source="../media/2-office-365.png" alt-text="Assign licenses":::
 
 ### Using PowerShell
 
@@ -26,7 +26,7 @@ Run the following command to display all available licensing plans in your organ
 Get-MsolAccountSku
 ```
 
-Run the following commands to disable Teams, where **CompanyName:License** is your organization name and the identifier for the licensing plan that you retrieved in the earlier step. For example, `ContosoSchool:ENTERPRISEPACK_STUDENT`:
+Run the following commands to disable Teams, where **CompanyName:License** is your organization name and the identifier for the licensing plan that you retrieved in the earlier step. For example, **ContosoSchool:ENTERPRISEPACK_STUDENT**:
 
 ```powershell
 $acctSKU="<CompanyName:License>
@@ -57,7 +57,7 @@ Desktop sharing lets users present a screen or app during a meeting or chat. Adm
 
 To configure screen sharing, you create a new meetings policy, and then assign it to the users you want to manage.
 
-In the **Microsoft Teams admin center**:
+1. Sign into the [Microsoft Teams admin center](https://admin.teams.microsoft.com/).
 
 1. Select **Meetings** > **Meeting policies**.
 
@@ -94,8 +94,8 @@ You can also use the **Set-CsTeamsMeetingPolicy** cmdlet to control desktop shar
 
 You can customize Teams meeting invitations to satisfy your organization's needs. Add your organization's logo and include helpful information, such as links to your support website and legal disclaimer, and a text-only footer.
 
-In the **Microsoft Teams admin center**:
 
+1. Sign into the [Microsoft Teams admin center](https://admin.teams.microsoft.com/).
 1. In the left navigation, go to **Meetings** > **Meeting settings**.
 1. Under **Email invitation**, do the following:
 

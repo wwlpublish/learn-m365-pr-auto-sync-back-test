@@ -18,4 +18,4 @@ CVI is designed to be used when:
 
 Remember that CVI is a partner solution, so the precise steps you must take are dependent on the devices you want to support. However, the deployment always includes these generalized steps:
 
-:::image type="content" border="false" source="../media/5-CVI.png" alt-text="Deploy CVI":::
+:::image type="content" border="false" source="../media/5-cloud-video-interop.png" alt-text="Deploy CVI":::
