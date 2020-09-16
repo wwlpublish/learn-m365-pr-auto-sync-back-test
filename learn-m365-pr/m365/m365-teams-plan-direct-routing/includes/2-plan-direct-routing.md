@@ -4,9 +4,12 @@ There are seven steps in the planning process for Direct Routing. It's important
 
 ## Self-deployed or hosted Session Border Controller (SBC)
 
-The first decision is whether to host the SBC yourself, or use a partner hosted service. This diagram summarizes the main issues.
+The first decision is whether to host the SBC yourself, or use a partner hosted service. This table summarizes the main issues.
 
-:::image type="content" border="false" source="../media/2-self-partner-hosted.png" alt-text="self-partner image":::
+|  |Self deployed SBC  | Parter hosted SBC  |
+|---------|---------|---------|
+|Benefits     | <ul><li>Full control over SBC</li><li>Connectivity to existing PBX</li></ul>        | <ul><li>No need for purchasing, maintaining, and hosting own SBC</li></ul>        |
+|Disadvantages     | <ul><li>Customer responsible for SBC configuration</li><li>Need to purchase, maintain, and host SBC</li></ul>         | <ul><li>No control over SBC configuration</li><li>Support model more complex</li></ul>        |
 
 For each approach, you need to understand:
 
@@ -69,7 +72,7 @@ IP ranges and ports must be set correctly so that the SBC can communicate with t
 
 This table summarizes the IP range and port number requirements for Microsoft 365 Commercial and GCC Moderate or Standard plans.
 
-:::image type="content" border="false" source="../media/2-sbc-ports.png" alt-text="Assigning port numbers":::
+:::image type="content" border="false" source="../media/2-sbc-ports.png" alt-text="Assigning port numbers" lightbox="../media/2-sbc-ports.png":::
 
 ## Device routing components
 

@@ -86,13 +86,13 @@ Get-CsHostingProvider | Set-CsHostingProvider -Enabled $False
 
 You need to know where to edit a user's phone number after decommissioning the Skype for Business on-premises environment.
 
-It's important to know where the user was enabled for voice before migration to Teams. If this took place on-premises, then the msRTCSIP-Line attribute was populated in the on-premises Active Directory. When that value is populated in an on-premises Active Directory, it syncs into Azure Active Directory and the OnPremLineURI becomes the LineURI.
+It's important to know where the user was enabled for voice before migration to Teams. If this took place on-premises, then the **msRTCSIP-Line** attribute was populated in the on-premises Active Directory. When that value is populated in an on-premises Active Directory, it syncs into Azure Active Directory and the **OnPremLineURI** becomes the **LineURI**.
 
-The following is a screenshot showing an OnPremLineURI.
+The following is a screenshot showing an **OnPremLineURI**.
 
-:::image type="content" border="false" source="../media/5-phone-number-before-teams.png" alt-text="OnPremLineURI":::
+:::image type="content" source="../media/5-phone-number-before-teams.png" alt-text="OnPremLineURI":::
 
-The line **OnPremLineURIManuallySet = False** indicates that the owner of this LineURI is located on an on-premises Active Directory. That means if you decommission the on-premises Skype environment, this user's phone number changes. If you try to change the number in the service, you'll get the error shown at the bottom of the screenshot above. This situation occurs because, effectively, on-premises AD is authoritative for this user's phone number. You need to continue to manage this user's phone number through the on-premises msRTCSIP-Line attribute as shown here:
+The line **OnPremLineURIManuallySet = False** indicates that the owner of this **LineURI** is located on an on-premises Active Directory. That means if you decommission the on-premises Skype environment, this user's phone number changes. If you try to change the number in the service, you'll get the error shown at the bottom of the screenshot above. This situation occurs because, effectively, on-premises AD is authoritative for this user's phone number. You need to continue to manage this user's phone number through the on-premises **msRTCSIP-Line** attribute as shown here:
 
 :::image type="content" source="../media/5-msrtcsip-line-attribute.png" alt-text="Manage msRTCSIP-Line Attribute":::
 
@@ -143,13 +143,13 @@ There are some caveats to think about when disabling users. Consider the followi
 - This includes removing **msRTCSIP-Line**.
   - This is a critical attribute if the user was enabled for Enterprise Voice on-premises.
 
-If this user was enabled for Enterprise Voice on-premises, then msRTCSIP-Line is an attribute that you still need if an on-premises Active Directory is authoritative for that phone number. If you run **Disable-CsUser**, you're going to blank that out and the number is removed from Azure Active Directory the next time a sync is run. The user's LineURI has been removed for Direct Routing. On the plus side, this action also removes the restriction from being able to manage the phone number online. You can now run a **Set-CsUser** command. To correct this, you assign a phone number back by going into a Tenant Remote or Skype Remote PowerShell, and running the following command:
+If this user was enabled for Enterprise Voice on-premises, then **msRTCSIP-Line** is an attribute that you still need if an on-premises Active Directory is authoritative for that phone number. If you run **Disable-CsUser**, you're going to blank that out and the number is removed from Azure Active Directory the next time a sync is run. The user's **LineURI** has been removed for Direct Routing. On the plus side, this action also removes the restriction from being able to manage the phone number online. You can now run a **Set-CsUser** command. To correct this, you assign a phone number back by going into a Tenant Remote or Skype Remote PowerShell, and running the following command:
 
 ```powershell
 Set-CsUser <user> -OnPremLineURI tel:+19495552319
 ```
 
-You have some choices here. You can completely decommission the on-premises environment, not run **Disable-CsUser**, and continue managing the LineURI attribute through on-premises Active Directory. You can provision new users and always set the LineURI on-premises, let it sync into the service, and do all of your management of the LineURI from an on-premises Active Directory.
+You have some choices here. You can completely decommission the on-premises environment, not run **Disable-CsUser**, and continue managing the **LineURI** attribute through on-premises Active Directory. You can provision new users and always set the **LineURI** on-premises, let it sync into the service, and do all of your management of the **LineURI** from an on-premises Active Directory.
 
 Or you could use this demarcation so that, from this point forward, you don't manage it with on-premises Active Directory, and instead use Azure Active Directory. That means any user before this point would be managed through on-premises Active Directory; anybody after that point would be managed with Azure Active Directory.
 

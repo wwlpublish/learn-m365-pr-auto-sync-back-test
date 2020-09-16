@@ -27,7 +27,7 @@ The **Voice Route** specifies the **number patterns** that it will handle, the p
 
 This diagram summarizes how the different components work together.
 
-:::image type="content" border="false" source="../media/3-routing-example.png" alt-text="Routing components":::
+:::image type="content" border="false" source="../media/3-routing-example.png" alt-text="Routing components" lightbox="../media/3-routing-example.png":::
 
 ## Dial plans
 
@@ -37,7 +37,7 @@ Dial plans are implemented as a set of normalization rules, using regular expres
 
 The benefit of a dial plan is that you can migrate to Teams without changing users' habits. Alternatively, you might consider that it's more beneficial to train users in the new way of working, rather than encouraging them to keep legacy habits.
 
-:::image type="content" border="false" source="../media/3-legacy-teams.png" alt-text="Legacy habits":::
+:::image type="content" border="false" source="../media/3-legacy-teams.png" alt-text="Legacy habits" lightbox="../media/3-legacy-teams.png":::
 
 You're limited to a maximum of 1,000 dial plans per tenant and 500 normalization rules per dial plan. There are three types of dial plan:
 
@@ -61,7 +61,7 @@ There is a **Dial Plan Hierarchy**:
 
 This diagram helps you to plan whether or not you need to create dial plans for your organization, and if so, what type.
 
-:::image type="content" border="false" source="../media/3-dial-plans-planning.png" alt-text="Dial plans planning steps":::
+:::image type="content" border="false" source="../media/3-dial-plans-planning.png" alt-text="Dial plans planning steps" lightbox="../media/3-dial-plans-planning.png":::
 
 ## Gateway
 

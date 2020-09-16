@@ -51,7 +51,7 @@ The region you're working with is Asia. You need to define your region by giving
 New-CsTenantNetworkRegion -NetworkRegionID "Asia"
 ```
 
-After defining the region, you can define the sites for it. Run the **New-CsTenantNetworkSite** command to define your sites, and specify the `NetworkRegionID` as "Asia" for each site:
+After defining the region, you can define the sites for it. Run the **New-CsTenantNetworkSite** command to define your sites, and specify the **NetworkRegionID** as "Asia" for each site:
 
 ```powershell
 # Define the Vietnam site
@@ -67,7 +67,7 @@ New-CsTenantNetworkSite -NetworkSiteID "Singapore" -NetworkRegionID "Asia"
 > [!NOTE]
 > In these PowerShell commands, site names are case sensitive.
 
-Next, define your subnets. You run the **New-CsTenantNetworkSubnet** command for each subnet and specify the `NetworkSiteID` for its associated site:
+Next, define your subnets. You run the **New-CsTenantNetworkSubnet** command for each subnet and specify the **NetworkSiteID** for its associated site:
 
 ```powershell
 # Define the subnet for Vietnam

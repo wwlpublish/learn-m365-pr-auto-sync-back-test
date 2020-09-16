@@ -55,17 +55,20 @@ Next, use the **Get-CsOnlineUser** PowerShell command to check and verify the st
 
 :::image type="content" border="false" source="../media/3-verify-user-provisioning.png" alt-text="Verify User Provisioning":::
 
-In this example, there's a couple of key attributes to look at, starting with **OnPremHostingProvider**. This attribute lets you and the service know where this particular account is homed, or where it lives. This account lives on Skype for Business Server on-premises. We know that because the value here is `SRV:`.
+In this example, there's a couple of key attributes to look at, starting with **OnPremHostingProvider**. This attribute lets you and the service know where this particular account is homed, or where it lives. This account lives on Skype for Business Server on-premises. We know that because the value here is **SRV:**.
 
 The second attribute to look at is **InterpretedUserType**. Run the **Get-CsOnlineUser** command every time you provision a user to see if they're in a state of provisioning or not. The state **HybridOnpremSfBUserNeedsProvisioning** tells you that a license was assigned this user and that provisioning needs to take place. On completion of provisioning, the state changes to **HybridOnpremSfBUser**. Now you know that the user is configured as part of hybrid, meaning they're synchronized with Azure AD. **OnpremSfBUser** means that the user or account is homed on-premises in the Skype for Business environment.
 
-The next step as part of staging is to enable the user. When you assign the various licenses, many of these features will automatically be turned on for you. Ensure that Enterprise Voice and Hosted Voicemail are enabled.  
-Use the PowerShell command `Set-CsUser -Identity TestUser01@contoso.com -HostedVoiceMail $true` to enable Hosted Voicemail.
+The next step as part of staging is to enable the user. When you assign the various licenses, many of these features will automatically be turned on for you. Ensure that Enterprise Voice and Hosted Voicemail are enabled.  To enable Hosted Voicemail use the PowerShell command:
+
+```poweshell
+Set-CsUser -Identity TestUser01@contoso.com -HostedVoiceMail $true
+```
 
 Also at this time, from a user configuration perspective, you can grant the **OnlineVoiceRoutingPolicy** and **TenantDialPlan** with the following two PowerShell commands:
 
-- `Grant-CsOnlineVoiceRoutingPolicy`
-- `Grant-CsTenantDialPlan`
+- **Grant-CsOnlineVoiceRoutingPolicy**
+- **Grant-CsTenantDialPlan**
 
 To view all the changes for the user "testuser01", use the following PowerShell command:
 
@@ -140,7 +143,7 @@ If the dial pad isn't displayed, start by checking for the proper licensing and 
 - User Homed Online (**Hosting Provider = sipfed.online.lync.com**)
 - Phone System License
 - Call plan and/or **CsOnlineVoiceRoutingPolicy** is assigned to the user
-- **AllowPrivateCalling** = True in **CsTeamsCallingPolicy**
+- **AllowPrivateCalling = True** in **CsTeamsCallingPolicy**
 - Supported client (desktop, mobile, Edge, Chrome)
 
 It might take some time for the dial pad to appear. Have the user sign out then sign back in. If that doesn't resolve the issue, check the weblogs in Teams Diagnostics.
@@ -156,10 +159,10 @@ You can find a file named MSTeams Diagnostics Log (time stamp).txt in the %userp
 
 There are four items in this log that are of particular interest:
 
-1. **isCallingAllowed** was configured when you set AllowPrivateCalling = True in **CsTeamsCallingPolicy**.
-2. **isEvEnabled** references Enterprise Voice that should have been done as part of staging.
-3. **isBusinessVoicePath** will be true if the user has a calling plan assigned.
-4. **isByotEnabled** is true when the user is enabled for Direct Routing and was confirmed when **CsOnlineVoiceRoutingPolicy** was set for this user.
+- **isCallingAllowed** was configured when you set **AllowPrivateCalling = True** in **CsTeamsCallingPolicy**.
+- **isEvEnabled** references Enterprise Voice that should have been done as part of staging.
+- **isBusinessVoicePath** will be true if the user has a calling plan assigned.
+- **isByotEnabled** is true when the user is enabled for Direct Routing and was confirmed when **CsOnlineVoiceRoutingPolicy** was set for this user.
 
 Either **isBusinessVoicePath** or **isByotEnabled** must be set to true, otherwise the dial pad won't appear.
 

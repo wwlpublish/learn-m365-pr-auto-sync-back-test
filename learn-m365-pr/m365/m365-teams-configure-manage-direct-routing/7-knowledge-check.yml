@@ -19,13 +19,13 @@ quiz:
     choices:
     - content: Create a user, a direct route, and a voice routing policy.
       isCorrect: false
-      explanation: "These aren't valid steps. Instead, create a usage, a voice route, and a voice routing policy."
+      explanation: "These aren't valid steps. You don't need to create users or a direct route."
     - content: Create a usage, a voice route, and a voice routing policy.
       isCorrect: true
       explanation: "That's correct. Voice routing helps you dictate how calls are routed through your SBC or multiple SBCs."
-    - content: Create a usage, a voice route, and a voice routing policy.
+    - content: Create a user, a voice route, and a PSTN usage policy.
       isCorrect: false
-      explanation: "These aren't valid steps. Voice routing helps you dictate how calls are routed through your SBC or multiple SBCs."
+      explanation: "These aren't valid steps. You don't need to create users or a PSTN policy."
 
   - content: "Your SBC raises a **failed to verify peer certificate** error. How do you resolve this?"
     choices:

@@ -6,7 +6,7 @@ Direct Routing handles two types of traffic: media and signaling. In this unit, 
 
 The following diagrams show two scenarios. The diagram on the left shows call flow without media bypass, using Phone Service and the internet. The diagram on the right shows call flow with media bypass, where media flows directly to the SBC.
 
-:::image type="content" border="false" source="../media/4-media-bypass.png" alt-text="Media Bypass Overview":::
+:::image type="content" border="false" source="../media/4-media-bypass.png" alt-text="Media Bypass Overview" lightbox="../media/4-media-bypass.png":::
 
 For media bypass to work, it must be enabled on the SBC; there's an on/off toggle. Also, the Teams user must have access to the public IP address of the SBC, whether or not they're on the same network, unless you're using Local Media Optimization.
 

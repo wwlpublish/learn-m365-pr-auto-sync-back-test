@@ -29,10 +29,10 @@ Each rule needs to be assigned to a policy that resides on the SBC. Each policy 
 
 To assign, configure, and list number translation rules on SBCs, you use the **New-CSOnlinePSTNGateway** and **Set-CSOnlinePSTNGateway** cmdlets together with the following parameters:
 
-- `InboundTeamsNumberTranslationRules`
-- `InboundPSTNNumberTranslationRules`
-- `OutboundTeamsNumberTranslationRules`
-- `OutboundPSTNNumberTranslationRules`
+- **InboundTeamsNumberTranslationRules**
+- **InboundPSTNNumberTranslationRules**
+- **OutboundTeamsNumberTranslationRules**
+- **OutboundPSTNNumberTranslationRules**
 
 For more information about these cmdlets, see the links in the **Learn more** section below.
 
@@ -82,9 +82,19 @@ Whether you're provisioning for Direct Routing only or using Microsoft Calling P
 - Assign routing - What voice routing will be used?  This is where you'll assign one or more routing policies.
 - Routing behavior - How will the routing be evaluated and what are the outcomes?
 
-The image below provides an at-a-glance example of the type of settings you might use.
+The table below provides an at-a-glance example of the type of settings you might use:
 
-:::image type="content" border="false" source="../media/4-user-provisioning-direct-routing-calling-plan.png" alt-text="Table showing an example of the considerations when provisioning users":::
+|  | Direct Routing only  | Microsoft Calling Plan and Direct Routing |
+|---------|---------|---------|
+|Licenses required     | Microsoft Phone System, Microsoft Teams, Audio Conferencing (for scheduled meeting dial in/out)        | Microsoft Phone System, Microsoft Teams, Audio Conferencing (for scheduled meeting dial in/out)        |
+|Number provisioned     | In Azure Active Directory (User Online or AADSync)        |  Acquired from **Microsoft** or **ported to Phone System**       |
+|Enable the user     | `Set-CsUser -Identity "User name" -OnPremLineURI tel:+123456789 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true`        |  User is assigned a number through Teams Admin Center or **Set-CsOnlineVoiceUser** (inbound calling is anchored on Calling Plan)       |
+|Routing behavior     | Only administrator routes evaluated, if no routes exist matching the callee number, the call drops        | <ul><li>Step 1. Routes configured by administrator evaluated.</li><li>Step 2. If no routed matching the callee number exist on Step 1, route the call via Microsoft Calling plan.</li></ul>         |
+
+| | |
+| --- | --- |
+|Assign routing     | `Grant-CsOnlineVoiceRoutingPolicy -Identity "User name" -PolicyName "US Only"` | |
+
 
 ## Dial plans
 
@@ -153,7 +163,7 @@ You can also use the Microsoft Teams admin center to create a dial plan.
 1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Dial plan**.
 1. Select **Add**, and then enter a name and description for the dial plan.
 
-:::image type="content" source="../media/4-add-dial-plan-admin-center.png" alt-text="Screenshot showing the Add page for creating a dial plan":::
+    :::image type="content" source="../media/4-add-dial-plan-admin-center.png" alt-text="Screenshot showing the Add page for creating a dial plan":::
 
 1. Under **Dial plan details**, specify an external dialing prefix if users need to dial one or more additional leading digits (for example, 9) to get an external line:
 
@@ -167,7 +177,7 @@ You can also use the Microsoft Teams admin center to create a dial plan.
 
 1. Arrange the normalization rules in the order that you want. Select **Move up** or **Move down** to change the position of rules in the list.
 
-> [!NOTE]
+    > [!NOTE]
     > Microsoft Teams traverses the list of normalization rules from the top down, using the first rule that matches the dialed number. If you set up a dial plan so that a dialed number can match more than one normalization rule, make sure the more restrictive rules are sorted above the less restrictive ones.
 
 1. Select **Save**.
