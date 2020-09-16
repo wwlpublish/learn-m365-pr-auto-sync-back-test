@@ -6,9 +6,10 @@ Now that you’ve completed this module, you should be able to:
 
 ## Learn more
 
-> [!NOTE]
-> Microsoft Defender for Endpoint is the new name for Microsoft Defender Advanced Threat Protection.
-> [Learn more](https://www.microsoft.com/security/blog/?p=91813). We’ll be updating our products and docs soon, so keep an eye out.  
+> [!IMPORTANT]
+> Microsoft Defender for Endpoint is the new name for Microsoft Defender Advanced Threat Protection. 
+> [Learn more](https://www.microsoft.com/security/blog/?p=91813). We’ll be updating our products and docs soon, so keep an eye out.
+>
 
 - [Microsoft Cloud App Security documentation](https://docs.microsoft.com/cloud-app-security/)
 - [Interactive guide – Discover, protect, and control your apps with Microsoft Cloud App Security](https://mslearn.cloudguides.com/guides/Discover,%20protect,%20and%20control%20your%20apps%20with%20Microsoft%20Cloud%20App%20Security)
