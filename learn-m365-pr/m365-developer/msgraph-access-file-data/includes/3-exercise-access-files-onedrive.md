@@ -72,13 +72,13 @@ In the **Configured Permissions** panel, select the button **Grant admin consent
 
 Open your command prompt, navigate to a directory where you have rights to create your project, and run the following command to create a new .NET Core console application:
 
-```shell
+```console
 dotnet new console -o graphconsoleapp
 ```
 
 After creating the application, run the following commands to add the Microsoft Authentication Library (MSAL), Microsoft Graph .NET SDK, and a few configuration packages to the project:
 
-```shell
+```console
 cd graphconsoleapp
 dotnet add package Microsoft.Identity.Client
 dotnet add package Microsoft.Graph
@@ -89,7 +89,7 @@ dotnet add package Microsoft.Extensions.Configuration.Json
 
 Open the application in Visual Studio Code using the following command:
 
-```shell
+```console
 code .
 ```
 
@@ -117,7 +117,7 @@ Create a new folder **Helpers** in the project.
 
 Create a new file **MsalAuthenticationProvider.cs** in the **Helpers** folder and add the following code:
 
-```cs
+```csharp
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Security;
@@ -191,7 +191,7 @@ namespace Helpers
 
 Open the **Program.cs** file and add the following `using` statements to the top fo the file:
 
-```cs
+```csharp
 using System.Collections.Generic;
 using System.IO;
 using System.Security;
@@ -203,7 +203,7 @@ using Helpers;
 
 Add the following method `LoadAppSettings` to the `Program` class. The method retrieves the configuration details from the **appsettings.json** file previously created:
 
-```cs
+```csharp
 private static IConfigurationRoot LoadAppSettings()
 {
   try
@@ -230,7 +230,7 @@ private static IConfigurationRoot LoadAppSettings()
 
 Add the following method `CreateAuthorizationProvider` to the `Program` class. The method will create an instance of the clients used to call Microsoft Graph.
 
-```cs
+```csharp
 private static IAuthenticationProvider CreateAuthorizationProvider(IConfigurationRoot config, string userName, SecureString userPassword)
 {
   var clientId = config["applicationId"];
@@ -252,7 +252,7 @@ private static IAuthenticationProvider CreateAuthorizationProvider(IConfiguratio
 
 Add the following method `GetAuthenticatedGraphClient` to the `Program` class. The method creates an instance of the `GraphServiceClient` object.
 
-```cs
+```csharp
 private static GraphServiceClient GetAuthenticatedGraphClient(IConfigurationRoot config, string userName, SecureString userPassword)
 {
   var authenticationProvider = CreateAuthorizationProvider(config, userName, userPassword);
@@ -263,7 +263,7 @@ private static GraphServiceClient GetAuthenticatedGraphClient(IConfigurationRoot
 
 Add the following method `ReadPassword` to the `Program` class. The method prompts the user for their password:
 
-```cs
+```csharp
 private static SecureString ReadPassword()
 {
   Console.WriteLine("Enter your password");
@@ -285,7 +285,7 @@ private static SecureString ReadPassword()
 
 Add the following method `ReadUsername` to the `Program` class. The method prompts the user for their username:
 
-```cs
+```csharp
 private static string ReadUsername()
 {
   string username;
@@ -297,7 +297,7 @@ private static string ReadUsername()
 
 Locate the `Main` method in the `Program` class. Add the following code to the end of the `Main` method to load the configuration settings from the **appsettings.json** file:
 
-```cs
+```csharp
 var config = LoadAppSettings();
 if (config == null)
 {
@@ -308,7 +308,7 @@ if (config == null)
 
 Add the following code to the end of the `Main` method, just after the code added in the last step. This code will obtain an authenticated instance of the `GraphServiceClient` and submit a request for the current user's email:
 
-```cs
+```csharp
 var userName = ReadUsername();
 var userPassword = ReadPassword();
 
@@ -317,7 +317,7 @@ var client = GetAuthenticatedGraphClient(config, userName, userPassword);
 
 Add the following code to submit a request to Microsoft Graph. This code will request all the files in the root folder of the currently signed-in user's OneDrive and write them to the console.
 
-```cs
+```csharp
 // request 1 - get user's files
 var request = client.Me.Drive.Root.Children.Request();
 
@@ -332,13 +332,13 @@ foreach (var file in results)
 
 Run the following command in a command prompt to compile the console application:
 
-```shell
+```console
 dotnet build
 ```
 
 Run the following command to run the console application:
 
-```shell
+```console
 dotnet run
 ```
 
@@ -354,7 +354,7 @@ Locate the code you added above for `// request 1 - get user's files` and option
 
 Add the following code to the `Main` method of the console application. This will get and display a specific file from the current user's OneDrive:
 
-```cs
+```csharp
 // request 2 - get specific file
 var fileId = "REPLACE_THIS";
 var request = client.Me.Drive.Items[fileId].Request();
@@ -369,7 +369,7 @@ Update the `fileId` string in the previous code with the ID of a file from the p
 
 Run the following command in a command prompt to compile and run the console application:
 
-```shell
+```console
 dotnet build
 dotnet run
 ```
@@ -384,7 +384,7 @@ In this last section, update the console app to download a file from the user's 
 
 Locate the code you added above for `// request 2 - get specific file` and optionally comment it out so it doesn't continue to execute.
 
-```cs
+```csharp
 // request 3 - download specific file
 var fileId = "REPLACE_THIS";
 var request = client.Me.Drive.Items[fileId].Content.Request();
@@ -397,13 +397,13 @@ stream.CopyTo(driveItemFile);
 Console.WriteLine("Saved file to: " + driveItemPath);
 ```
 
-Update the `fileId` string in the previous code with the Id of a file from the previous section.
+Update the `fileId` string in the previous code with the ID of a file from the previous section.
 
 ### Build and test the application
 
 Run the following command in a command prompt to compile and run the console application:
 
-```shell
+```console
 dotnet build
 dotnet run
 ```

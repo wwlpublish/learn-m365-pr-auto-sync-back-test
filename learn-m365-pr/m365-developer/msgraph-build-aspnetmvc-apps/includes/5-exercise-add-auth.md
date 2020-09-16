@@ -32,7 +32,7 @@ Start by initializing the OWIN middleware to use Azure AD authentication for the
 
 Right-click the **App_Start** folder in Solution Explorer and select **Add > Class...**. Name the file **Startup.Auth.cs** and select **Add**. Replace the entire contents with the following code.
 
-```cs
+```csharp
 using Microsoft.Identity.Client;
 using Microsoft.IdentityModel.Protocols.OpenIdConnect;
 using Microsoft.IdentityModel.Tokens;
@@ -149,7 +149,7 @@ namespace graph_tutorial
 
 Now update the **Startup.cs** file to call the `ConfigureAuth` method. Replace the entire contents of **Startup.cs** with the following code.
 
-```cs
+```csharp
 using Microsoft.Owin;
 using Owin;
 
@@ -169,7 +169,7 @@ namespace graph_tutorial
 
 Add an `Error` action to the `HomeController` class to transform the `message` and `debug` query parameters into an `Alert` object. Open **Controllers/HomeController.cs** and add the following function.
 
-```cs
+```csharp
 public ActionResult Error(string message, string debug)
 {
     Flash(message, debug);
@@ -179,7 +179,7 @@ public ActionResult Error(string message, string debug)
 
 Add a controller to handle sign-in. Right-click the **Controllers** folder in Solution Explorer and select **Add > Controller...**. Choose **MVC 5 Controller - Empty** and select **Add**. Name the controller **AccountController** and select **Add**. Replace the entire contents of the file with the following code.
 
-```cs
+```csharp
 using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.OpenIdConnect;
@@ -218,15 +218,15 @@ namespace graph_tutorial.Controllers
 
 This defines a `SignIn` and `SignOut` action. The `SignIn` action checks if the request is already authenticated. If not, it invokes the OWIN middleware to authenticate the user. The `SignOut` action invokes the OWIN middleware to sign out.
 
-Save your changes and start the project. Click the sign-in button and you should be redirected to `https://login.microsoftonline.com`. Log in with your Microsoft account and consent to the requested permissions. The browser redirects to the app, showing the token.
+Save your changes and start the project. Select the **Sign In** button and you should be redirected to `https://login.microsoftonline.com`. Log in with your Microsoft account and consent to the requested permissions. The browser redirects to the app, showing the token.
 
 ### Get user details
 
 Once the user is logged in, you can get their information from Microsoft Graph.
 
-Right-click the **Models** folder in **Solution Explorer** and select **Add > Class...**. Name the class **Alert** and select **Add**. Replace the entire contents of **CachedUser.cs** with the following code.
+Right-click the **Models** folder in **Solution Explorer** and select **Add > Class...**. Name the class **CachedUser** and select **Add**. Replace the entire contents of **CachedUser.cs** with the following code.
 
-```cs
+```csharp
 namespace graph_tutorial.Models
 {
     // Simple class to serialize user details
@@ -243,7 +243,7 @@ Right-click the **graph-tutorial** folder in Solution Explorer, and select **Add
 
 Right-click this new folder and select **Add > Class...**. Name the file **GraphHelper.cs** and select **Add**. Replace the contents of this file with the following code.
 
-```cs
+```csharp
 using graph_tutorial.Models;
 using Microsoft.Graph;
 using System.Net.Http.Headers;
@@ -287,13 +287,13 @@ This implements the `GetUserDetailsAsync` function, which uses the Microsoft Gra
 
 Update the `OnAuthorizationCodeReceivedAsync` method in **App_Start/Startup.Auth.cs** to call this function. Add the following `using` statement to the top of the file.
 
-```cs
+```csharp
 using graph_tutorial.Helpers;
 ```
 
 Replace the existing `try` block in `OnAuthorizationCodeReceivedAsync` with the following code.
 
-```cs
+```csharp
 try
 {
     string[] scopes = graphScopes.Split(' ');
@@ -322,10 +322,7 @@ Right-click the **graph-tutorial** folder in Solution Explorer, and select **Add
 
 Right-click this new folder and select **Add > Class...**. Name the file **SessionTokenStore.cs** and select **Add**. Replace the contents of this file with the following code.
 
-```cs
-// Copyright (c) Microsoft Corporation. All rights reserved.
-// Licensed under the MIT license.
-
+```csharp
 using graph_tutorial.Models;
 using Microsoft.Identity.Client;
 using Newtonsoft.Json;
@@ -453,14 +450,14 @@ namespace graph_tutorial.TokenStorage
 
 Add the following `using` statements to the top of the **App_Start/Startup.Auth.cs** file.
 
-```cs
+```csharp
 using graph_tutorial.TokenStorage;
 using System.Security.Claims;
 ```
 
 Replace the existing `OnAuthorizationCodeReceivedAsync` function with the following.
 
-```cs
+```csharp
 private async Task OnAuthorizationCodeReceivedAsync(AuthorizationCodeReceivedNotification notification)
 {
     notification.HandleCodeRedemption();
@@ -509,13 +506,13 @@ private async Task OnAuthorizationCodeReceivedAsync(AuthorizationCodeReceivedNot
 
 Update the `SignOut` action to clear the token store before signing out. Add the following `using` statement to the top of **Controllers/AccountController.cs**.
 
-```cs
+```csharp
 using graph_tutorial.TokenStorage;
 ```
 
 Replace the existing `SignOut` function with the following.
 
-```cs
+```csharp
 public ActionResult SignOut()
 {
     if (Request.IsAuthenticated)
@@ -535,7 +532,7 @@ public ActionResult SignOut()
 
 Open **Controllers/BaseController.cs** and add the following `using` statements to the top of the file.
 
-```cs
+```csharp
 using graph_tutorial.TokenStorage;
 using System.Security.Claims;
 using System.Web;
@@ -544,7 +541,7 @@ using Microsoft.Owin.Security.Cookies;
 
 Add the following function.
 
-```cs
+```csharp
 protected override void OnActionExecuting(ActionExecutingContext filterContext)
 {
     if (Request.IsAuthenticated)
@@ -575,7 +572,7 @@ Start the server and go through the sign-in process. You should end up back on t
 
 ![A screenshot of the home page after signing in](../media/05-add-aad-auth-01.png)
 
-Click the user avatar in the top-right corner to access the **Sign Out** link. Clicking **Sign Out** resets the session and returns you to the home page.
+Select the user avatar in the top-right corner to access the **Sign Out** link. Selecting **Sign Out** resets the session and returns you to the home page.
 
 ![A screenshot of the dropdown menu with the Sign Out link](../media/05-add-aad-auth-02.png)
 

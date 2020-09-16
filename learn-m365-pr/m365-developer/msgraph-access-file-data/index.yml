@@ -3,7 +3,7 @@ uid: learn-m365.msgraph-access-file-data
 metadata:
   title: Access Files with Microsoft Graph
   description: Learn how to access files in OneDrive with Microsoft Graph.
-  ms.date: 06/11/2020
+  ms.date: 09/10/2020
   author: andrewconnell
   ms.author: suzanz
   ms.topic: interactive-tutorial

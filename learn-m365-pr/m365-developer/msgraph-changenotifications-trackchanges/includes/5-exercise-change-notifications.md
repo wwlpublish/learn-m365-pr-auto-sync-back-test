@@ -4,7 +4,7 @@ In this exercise, you'll extend the existing ASP.NET Core web API application to
 
 Open the **Startup.cs** file and comment out the following line to disable SSL redirection.
 
-```cs
+```csharp
 //app.UseHttpsRedirection();
 ```
 
@@ -22,7 +22,7 @@ Right-click the **Models** folder and add three new files:
 
 Replace the contents of **Notification.cs** with the following code:
 
-```cs
+```csharp
 using Newtonsoft.Json;
 using System;
 
@@ -66,7 +66,7 @@ namespace msgraphapp.Models
 
 Replace the contents of **ResourceData.cs** with the following:
 
-```cs
+```csharp
 using Newtonsoft.Json;
 
 namespace msgraphapp.Models
@@ -94,7 +94,7 @@ namespace msgraphapp.Models
 
 Replace the contents of **MyConfig.cs** with the following code:
 
-```cs
+```csharp
 namespace msgraphapp
 {
   public class MyConfig
@@ -109,7 +109,7 @@ namespace msgraphapp
 
 Open the **Startup.cs** file. Locate the method `ConfigureServices()` method and replace it with the following code:
 
-```cs
+```csharp
 public void ConfigureServices(IServiceCollection services)
 {
   services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
@@ -152,7 +152,7 @@ Right-click the **Controllers** folder, select **New File**, and name the contro
 
 Replace the contents of **NotificationsController.cs** with the following code:
 
-```cs
+```csharp
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -316,7 +316,7 @@ Update the **Phone number** value with a new number and Select **Save**.
 
 In the Visual Studio Code **Debug Console**, you'll see a notification has been received. Sometimes this may take a few minutes to arrive. An example of the output is below:
 
-```shell
+```console
 Received notification: 'Users/7a7fded6-0269-42c2-a0be-512d58da4463', 7a7fded6-0269-42c2-a0be-512d58da4463
 ```
 
@@ -328,14 +328,14 @@ Open **Controllers > NotificationsController.cs** file
 
 Add the following two member declarations to the `NotificationsController` class:
 
-```cs
+```csharp
 private static Dictionary<string, Subscription> Subscriptions = new Dictionary<string, Subscription>();
 private static Timer subscriptionTimer = null;
 ```
 
 Add the following new methods. These will implement a background timer that will run every 15 seconds to check if subscriptions have expired. If they have, they'll be renewed.
 
-```cs
+```csharp
 private void CheckSubscriptions(Object stateInfo)
 {
   AutoResetEvent autoEvent = (AutoResetEvent)stateInfo;
@@ -383,7 +383,7 @@ The `RenewSubscription()` method renews a subscription and is only called if a s
 
 Locate the method `Get()` and replace it with the following code:
 
-```cs
+```csharp
 [HttpGet]
 public async Task<ActionResult<string>> Get()
 {
@@ -393,7 +393,7 @@ public async Task<ActionResult<string>> Get()
   sub.ChangeType = "updated";
   sub.NotificationUrl = config.Ngrok + "/api/notifications";
   sub.Resource = "/users";
-  sub.ExpirationDateTime = DateTime.UtcNow.AddMinutes(5);
+  sub.ExpirationDateTime = DateTime.UtcNow.AddMinutes(15);
   sub.ClientState = "SecretClientState";
 
   var newSubscription = await graphServiceClient
@@ -420,14 +420,14 @@ Navigate to the following url: **http://localhost:5000/api/notifications**. This
 
 In the Visual Studio Code **Debug Console** window, approximately every 15 seconds, notice the timer checking the subscription for expiration:
 
-```shell
+```console
 Checking subscriptions 12:32:51.882
 Current subscription count 1
 ```
 
 Wait a few minutes and you'll see the following when the subscription needs renewing:
 
-```shell
+```console
 Renewed subscription: 07ca62cd-1a1b-453c-be7b-4d196b3c6b5b, New Expiration: 3/10/2019 7:43:22 PM +00:00
 ```
 
@@ -435,4 +435,4 @@ This indicates that the subscription was renewed and shows the new expiry time.
 
 ## Summary
 
-In this exercise, you extended the existing ASP.NET console application to receive notifications from Microsoft Graph subscriptions. The notifications are sent after a subscription is successfully created, requesting Microsoft Graph to notify an endpoint when specified entities are created, updated, or deleted.
+In this exercise, you extended the existing ASP.NET Core web API application to receive notifications from Microsoft Graph subscriptions. The notifications are sent after a subscription is successfully created, requesting Microsoft Graph to notify an endpoint when specified entities are created, updated, or deleted.

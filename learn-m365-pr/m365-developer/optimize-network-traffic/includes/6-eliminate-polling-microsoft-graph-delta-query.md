@@ -4,7 +4,7 @@ One common scenario that custom applications implement is polling Microsoft Grap
 
 ## Microsoft Graph: delta query
 
-One way to mitigate throttling when polling Microsoft Graph for large data sets is to use the delta query feature of Microsoft Graph. Delta query, also known as "change tracking" allows developers to request only data that has been added, updated, or deleted since the last request. This pattern will allow the application to reduce the amount of data requested by the application which will reduce the cost of the request and therefore likely limit the chances of the requests being throttled.
+One way to mitigate throttling when polling Microsoft Graph for large data sets is to use the delta query feature of Microsoft Graph. Delta query, also known as "change tracking" allows developers to request only data that has been added, updated, or deleted since the last request. This pattern will allow the application to reduce the amount of data requested by the application that will reduce the cost of the request and therefore likely limit the chances of the requests being throttled.
 
 Delta query works using the concept of a state token. An application will issue an initial request to Microsoft Graph the same way it normally does, except it will include the delta link function in the request.
 
