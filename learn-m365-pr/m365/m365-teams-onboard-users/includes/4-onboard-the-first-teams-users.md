@@ -87,7 +87,7 @@ For your pilot phases these are the minimum steps for success:
 - Pick a feedback method to gather information from people participating in the pilot. Consider using a public channel within Teams to allow users to join and provide feedback.
 - Make self-help documentation available, including product videos.
 - Hold a kick-off meeting with the pilot users to get them excited about their participation.  Creating a sense of community with enthusiasm can't be underrated.
-- 
+
 Once you have worked through the initial pilot phases, the steps above can be expanded to reach your entire organization. We recommend these individuals be involved early and often as you utilize the available adoption materials or design your own.
 
 For more information, see *FastTrack Center Benefit for Microsoft 365* and *Envision, Onboard and Drive Value with Microsoft 365 Adoption Tools* in the *Learn more* section, below.
