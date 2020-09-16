@@ -27,8 +27,9 @@ In addition to the assessment tests already described, the following specific te
 In addition to the assessment tests for all workloads, Skype for Business Upgrade includes assessments used in the meetings and conferencing plan.
 
 ## How to run an assessment
+
 To run the workload tests:
-1. Sign into the **Teams admin center**.
+1. Sign into the [Teams admin center](https://admin.teams.microsoft.com/).
 1. From the left navigation bar, select **Planning**, then **Teams advisor**.
 1. The **Deploy Features** screen displays the summary results of the workload tests. To get a detailed view, select **View all**.
 1. The **Assessments** blade displays the results of each individual test. When you've read each assessment, select **Close**.
@@ -39,5 +40,6 @@ To run the workload tests:
 You're now ready to start collaborating on your Teams rollout.
 
 ## Learn more
+
 - [Use Advisor for Teams to help you roll out Microsoft Teams](https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out)
 - [Advisor for Teams assessment tests](https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out#assessment-tests-for-all-workloads)
