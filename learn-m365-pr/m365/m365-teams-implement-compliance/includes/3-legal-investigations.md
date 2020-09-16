@@ -79,19 +79,19 @@ To put a user or a team on legal hold:
 
 1. To create a case, in the Security and Compliance Center go to **eDiscovery** or **Advanced eDiscovery** and select **+ Create a case**. When the case is created, open it.
 
-   :::image type="content" source="../media/3-legalhold1.png" alt-text="Create a case":::
+   :::image type="content" source="../media/3-legal-hold-1.png" alt-text="Create a case":::
 
 1. To create a hold, select the **Holds** tab, and then select **+ Create** to create a hold.
 
-    :::image type="content" source="../media/3-legalhold2.png" alt-text="Holds section":::
+    :::image type="content" source="../media/3-legal-hold-2.png" alt-text="Holds section":::
 
 1. In the **Name** textbox, type a descriptive name for your hold. If you need to provide extra information, use the **Description** textbox.
 
-    :::image type="content" source="../media/3-legalhold3.png" alt-text="Name your hold":::
+    :::image type="content" source="../media/3-legal-hold-3.png" alt-text="Name your hold":::
 
 1. Choose a **Location** for the hold.
 
-    :::image type="content" source="../media/3-legalhold4.png" alt-text="Choose location":::
+    :::image type="content" source="../media/3-legal-hold-4.png" alt-text="Choose location":::
 
 1. Create the query to target specific content.
 
