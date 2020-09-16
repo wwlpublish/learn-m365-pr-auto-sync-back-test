@@ -40,7 +40,7 @@ To manage communication policies and alerts, create one or more admin role group
 Communication compliance requires that the audit log is enabled. The log shows alerts and tracks remediation actions taken by reviewers. The audit logs are a summary of all activities associated with a defined organizational policy or anytime a communication compliance policy changes.
 You can use the Security & Compliance Center or PowerShell to turn on audit log search. You have to be assigned the Audit Logs role in Exchange Online to turn on audit log search.
 
-To enable te audit log follow these steps:
+To enable the audit log follow these steps:
 
 1. Sign into the [Office 365 Security & Compliance center](https://protection.office.com).
 1. In the left navigation, select **Search** > **Audit log search**.
