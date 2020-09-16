@@ -10,11 +10,11 @@ Policies are used across the Microsoft Teams service to ensure the experience en
 
 After a policy is created or edited it can be assigned to the entire tenant, to a group of users, or to an individual user – this flexibility provides a powerful set of capabilities for customers of all sizes to tune the service as needed.
 
-## Policy Packages
+## Policy packages
 
 A policy package is a collection of predefined policies and settings. When you assign a policy package to users, the policies in the package are created. You can then customize the settings of the policies in the package to meet your organization's needs.
 
-The policy package is designed to be applied to a group of users with similar roles, such as higher education students or first-line workers. Policy packages are designed to simplify, streamline, and provide consistency when managing policies for groups of users.
+The policy package is designed to be applied to a group of users with similar roles, such as higher education students or firstline workers. Policy packages are designed to simplify, streamline, and provide consistency when managing policies for groups of users.
 
 Use policy packages as a starting point to assist with regulatory compliance, making changes to fit your own regulatory requirements.
 
@@ -118,7 +118,7 @@ The **video filtering** setting controls whether users can customize their video
 
 To specify whether users can customize their video background in a meeting, set the VideoFiltersMode parameter to either **NoFilters**, **BlurOnly**, **BlurandDefaultBackgrounds** or **AllFilters**.
 
-## Manage Messaging Policies
+## Manage messaging policies
 
 *Messaging policies* are used to control which chat and channel messaging features are available to users in Microsoft Teams.
 

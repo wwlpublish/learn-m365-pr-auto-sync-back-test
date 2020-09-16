@@ -3,7 +3,7 @@ Although the features available in Microsoft Teams out-of-the-box are broad and 
 Suppose, in your multi-national organization, you have several development teams that use Agile coding practices. You want to manages these projects in Microsoft Teams. You have located a third-party Teams app that provides Agile project management functionality, such as feature backlogs and customer feedback management. You want to add the app to your Teams deployment.
 Here, you'll learn how to add apps to Teams and manage their use.
 
-## What are Apps in Teams?
+## What are apps in Teams?
 
 Apps provide additional functionality for Microsoft Teams. They provide collaboration and workflow functionality in tabs, messaging extensions, connectors, and bots . Apps may be provided by Microsoft, built by a third-party, or by developers in your organization.
 
