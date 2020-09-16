@@ -16,7 +16,7 @@ abstract: |
   -	Explain how to manage security and compliance in Teams.
   -	Demonstrate how to secure Microsoft Teams with three tiers of protection.
 prerequisites: | 
-  - Knowledge equivalent to the protect identity and access in Microsoft Teams module.
+  - Knowledge equivalent to the **Protect identity and access in Microsoft Teams** module.
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - intermediate

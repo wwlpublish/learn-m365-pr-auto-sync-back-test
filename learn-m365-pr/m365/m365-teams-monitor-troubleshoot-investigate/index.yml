@@ -16,7 +16,7 @@ abstract: |
   - Explain how to diagnose common problems in Teams by using logs.
   - Describe how to maintain capacity in Teams by monitoring user demand and behavior.
 prerequisites: | 
-  - Knowledge equivalent to previous modules in the "Security, privacy, and compliance in Microsoft Teams" learning path.
+  - Knowledge equivalent to previous modules in the **Security, privacy, and compliance in Microsoft Teams** learning path.
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - intermediate
