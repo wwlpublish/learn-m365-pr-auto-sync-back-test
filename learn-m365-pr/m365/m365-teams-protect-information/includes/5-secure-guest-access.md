@@ -24,7 +24,7 @@ To allow or disallow guest access for the whole organization, you must be a Team
 1. On the same page, you enable or disable guests, or turn off **Calling**, **Meeting**, and **Messaging** settings for guests.
 1. Select **Save**. Each Team can then choose whether to allow guess access.
 
-:::image type="content" source="../media/6-guest-access.png" alt-text="Guess access in Microsoft Teams":::
+:::image type="content" source="../media/6-guest-access.png" alt-text="Screenshot of the Guest access screen in the admin center":::
 
 ## Configure Azure AD
 
@@ -76,7 +76,7 @@ Because Teams uses SharePoint sites for storage, verify the guest settings for t
 
 In the Teams application, at the individual team level, configure guest permissions that control whether guests can create, update, or delete channels. Teams administrators and team owners can configure these settings.
 
-:::image type="content" source="../media/6-teams-guest-permissions.png" alt-text="Teams guest permissions":::
+:::image type="content" source="../media/6-teams-guest-permissions.png" alt-text="Screenshot of the Teams guest permissions options":::
 
 ## Anonymous users can join a meeting
 

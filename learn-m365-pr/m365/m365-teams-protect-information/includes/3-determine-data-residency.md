@@ -11,11 +11,11 @@ To see which region houses data for your tenant:
 1. Navigate to **Settings** > **Organization profile**.
 1. Scroll down to **Data location**.
 
-:::image type="content" source="../media/4-teams-data-location.png" alt-text="Location of Teams data at rest":::
+:::image type="content" source="../media/4-teams-data-location.png" alt-text="Diagram showing the location of Teams data at rest":::
 
 Where your Teams data is stored depends on the content type, as shown in the diagram below:
 
-:::image type="content" source="../media/4-teams-content-types.png" alt-text="Teams content types":::
+:::image type="content" source="../media/4-teams-content-types.png" alt-text="Diagram showing the Teams content types":::
 
 ## Security and privacy
 
