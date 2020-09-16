@@ -34,20 +34,20 @@ You can use activity reports in the Microsoft 365 admin center to see how users 
 
 **Microsoft Teams user activity report**
 
-:::image type="content" border="false" source="../media/5-m365-teams-user-activity-report.png" alt-text="Screenshot of the Microsoft Teams user activity report" lightbox="../media/5-m365-teams-user-activity-report.png":::
+:::image type="content" border="false" source="../media/5-microsoft-365-teams-user-activity-report.png" alt-text="Screenshot of the Microsoft Teams user activity report" lightbox="../media/5-microsoft-365-teams-user-activity-report.png":::
 
 The Teams user activity report gives you a view of the most common activities that your users perform in Teams. This includes how many people engage in a chat in a channel, how many communicate via private chat message, and how many participate in calls or meetings. You can see this information for your whole organization, as well as for each individual user.
 
 **Microsoft Teams device usage report**
 
-:::image type="content" border="false" source="../media/5-m365-teams-device-usage-report.png" alt-text="Screenshot of the Microsoft Teams device usage report" lightbox="../media/5-m365-teams-device-usage-report.png":::
+:::image type="content" border="false" source="../media/5-microsoft-365-teams-device-usage-report.png" alt-text="Screenshot of the Microsoft Teams device usage report" lightbox="../media/5-microsoft-365-teams-device-usage-report.png":::
 
 The Teams device usage report provides you a view of how your users connect to Teams, including mobile apps. The report helps you understand which devices are popular in your organization and how many users work on the go.
 
 ## Encourage ongoing engagement
 
 With the pilot phases completed you shouldn't be afraid to share those success stories showing how your team uses Teams to make the project a success. Consider periodically hosting town hall meetings or lunch & learns to continue to drive the end-user engagement.
-Try to reward people for changing their work behaviors – cultural evolution is critical to adoption of any new technology. Remember to maintain and support your champions and continue to grow them as you roll out Teams further in your organization.
+Try to reward people for changing their work behaviors - cultural evolution is critical to adoption of any new technology. Remember to maintain and support your champions and continue to grow them as you roll out Teams further in your organization.
 
 **Workplace Analytics** has a section to analyze Teams collaboration. You should utilize this to assess Teams adoption.
 
