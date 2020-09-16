@@ -22,7 +22,7 @@ Safe attachments doesn't scan all files, but uses smart heuristics and threat si
 
 To start using Safe Attachments, configure a Safe Attachment policy:
 
-1. Sign into the **Security & Compliance center** with global administrator, security administrator, Exchange Online organization management, or Exchange Online hygiene management permissions.
+1. Sign into the [Security & Compliance center](https://protection.office.com/) with global administrator, security administrator, Exchange Online organization management, or Exchange Online hygiene management permissions.
 1. In the left navigation bar, select **Threat management** > **Policy** > **Safe Attachments**.
 
     :::image type="content" source="../media/3-atp-safe-attachments.png" alt-text="ATP Safe Attachments" lightbox="../media/3-atp-safe-attachments.png":::
