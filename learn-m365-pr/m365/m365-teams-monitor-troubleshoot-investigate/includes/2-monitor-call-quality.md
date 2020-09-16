@@ -10,7 +10,13 @@ Call analytics shows detailed information about Teams calls and meetings for eac
 
 Call analytics shows you each leg of a call or meeting; for example, from one participant to another. By analyzing these details, a Teams admin can isolate problem areas and identify the root cause of poor quality.
 
-Call analytics is available from the **Microsoft Teams admin center**. Select **Users**, select a user, then **Call History**. Call analytics displays all calls and meetings for that user for the past 30 days.
+Follow these steps to view a user's call analytics:
+
+1. Sign into [Microsoft Teams admin center](https://admin.teams.microsoft.com/).
+1. From the left navigation, select **Users**, and then select a user.
+1. On the **User** page, select **Call History**.
+
+Call analytics displays all calls and meetings for that user for the past 30 days.
 
 :::image type="content" source="../media/2-call-analytics.png" alt-text="Teams call analytics":::
 
@@ -27,7 +33,7 @@ When you set up call analytics, consider:
 
 The Call Quality Dashboard (CQD) shows call and meeting quality at an organization level. CQD has a near-time data feed providing data within 30 minutes of the end of a call. Use CQD to help optimize your network, to investigate call quality for a specific user, and in conjunction with per-user call analytics. As with call analytics, you can also upload location data.
 
-:::image type="content" source="../media/2-cqd.png" alt-text="Call Quality Dashboard":::
+:::image type="content" source="../media/2-call-quality-dashboard.png" alt-text="Call Quality Dashboard":::
 
 From the Teams admin center, select Call Quality Dashboard from the left menu bar. You can upload your buildings data, and select to view data for Microsoft Teams, Skype for Business, or both.
 With CQD, overall patterns might become apparent, so network engineers can make informed assessments of call quality. CQD provides reports of call quality metrics that give you insight into overall call quality, server-client streams, client-client streams, and voice quality service level agreements (SLAs). Data is presented visually, with additional filters available, depending on your selection.
