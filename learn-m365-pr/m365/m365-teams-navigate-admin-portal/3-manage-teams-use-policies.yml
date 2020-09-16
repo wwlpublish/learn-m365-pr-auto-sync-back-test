@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.navigate-admin-portal.3-manage-teams-use-policies
+title: Manage Teams by using policies  
+metadata:
+  title: Manage Teams by using policies  
+  description: Learn how policies can be used to impose restrictions on large numbers of users and devices across your Teams system.
+  ms.date: 09/10/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 8
+content: |
+  [!include[](includes/3-manage-teams-use-policies.md)]

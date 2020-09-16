@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.navigate-admin-portal.6-manage-devices-teams
+title: Manage devices in Microsoft Teams
+metadata:
+  title: Manage devices in Microsoft Teams
+  description: Learn how to impose configurations on devices that access Teams.
+  ms.date: 09/10/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 2
+content: |
+  [!include[](includes/6-manage-devices-teams.md)]
