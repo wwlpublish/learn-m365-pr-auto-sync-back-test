@@ -61,13 +61,13 @@ Create a form in Microsoft Forms to allow these individuals to opt into an early
 - Identify business challenges and possible solutions.
 - Reduce strain on core project team through active, ongoing engagement.
 
-Once you've identified likely candidates, consider asking them to join Microsoft's Champions Program. They'll get support from other champions and ideas on how they can support the organizations use of Teams. For more information, see the link in the **Learn more** section below. 
+Once you've identified likely candidates, consider asking them to join Microsoft's Champions Program. They'll get support from other champions and ideas on how they can support the organizations use of Teams. For more information, see the link in the **Learn more** section below.
 
 ## Define the roll-out strategy
 
 Many projects across your company would likely lend themselves to being migrated to Teams. One of these projects could be used as a Teams pilot. In addition, leaders or divisions inside of an organization might want a dedicated pilot for their own people. You'll make use of the stakeholder analysis you've done to choose appropriate teams or pilot projects for the later stages of the roll out. Consider the organizational and project models shown in the following illustration below:
 
-:::image type="content" border="false" source="../media/3-organizational-and-project model.png" alt-text="Organizational and Project Models":::
+:::image type="content" border="false" source="../media/3-organizational-and-project-model.png" alt-text="Organizational and Project Models" lightbox="../media/3-organizational-and-project-model.png":::
 
 In an organizational team (shown on the left side of the image above), key information about the way that organization runs its business, team events, core strategies, and other operational information, such as business reviews, might be shared. For the team shown on the right, the district's information is broken down into channels that represent the categories of work that are being accomplished by that team. Members of this team may or may not report to the same person, but they are all engaged in driving the results for the district.
 Thinking in these terms, you can shape the roll out strategy to focus on a mixture of models. Which departments make a good candidate for using Teams first? Likewise, are there any ideal projects that would be able to handle a move to Teams without impacting their delivery?

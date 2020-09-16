@@ -8,39 +8,39 @@ The Teams and Microsoft 365 admin centers provide a number of different reports.
 
 ### Teams admin center reports
 
-To view the reports, navigate to the **Teams admin center**, in the left navigation pane, select **Analytics & reports**. On the **Report** page, you can then select to view one of the following.
+To view the reports, navigate to the [Teams admin center](https://admin.teams.microsoft.com), in the left navigation pane, select **Analytics & reports**. On the **Report** page, you can then select to view one of the following.
 
 **Teams usage report**
 
-:::image type="content" border="false" source="../media/5-teams-reports-teams-usage.png" alt-text="Screenshot of the Teams usage report":::
+:::image type="content" border="false" source="../media/5-teams-reports-teams-usage.png" alt-text="Screenshot of the Teams usage report" lightbox="../media/5-teams-reports-teams-usage.png":::
 
 The Teams usage report shows you an overview of the usage activity in Teams. It includes the number of active users and channels. You can view usage information for teams, including the number of active users and channels, guests, and messages in each team.
 
 **Teams user activity report**
 
-:::image type="content" border="false" source="../media/5-teams-reports-user-activity.png" alt-text="Screenshot of the Teams user activity report":::
+:::image type="content" border="false" source="../media/5-teams-reports-user-activity.png" alt-text="Screenshot of the Teams user activity report" lightbox="../media/5-teams-reports-user-activity.png":::
 
 The Teams user activity report gives you an insight into the types of activities that users are doing in Teams. We share details about screen, video, and audio minutes, and chat communication statistics, such as how many users reply to and post channel messages, and how many users engage in 1:1 or group chat messages.
 
 **Teams device usage report**
 
-:::image type="content" source="../media/5-teams-reports-device-usage.png" alt-text="Screenshot of the Teams device usage report":::
+:::image type="content" source="../media/5-teams-reports-device-usage.png" alt-text="Screenshot of the Teams device usage report" lightbox="../media/5-teams-reports-device-usage.png":::
 
 The Teams device usage report shows you information about how users are connecting to Teams. You can use the report to see the devices that are used, including how many use Teams from their mobile devices.
 
 ### Microsoft 365 admin center reports
 
-You can use activity reports in the Microsoft 365 admin center to see how users in your organization are using Microsoft Teams. Navigate to the **Microsoft 365 admin center**, in the navigation on the left, select **Reports > Usage**. The on the **Usage** page select the report you'd like to see.
+You can use activity reports in the Microsoft 365 admin center to see how users in your organization are using Microsoft Teams. Navigate to the [Microsoft 365 admin center](https://admin.microsoft.com/), in the navigation on the left, select **Reports > Usage**. The on the **Usage** page select the report you'd like to see.
 
 **Microsoft Teams user activity report**
 
-:::image type="content" border="false" source="../media/5-M365-teams-user-activity-report.png" alt-text="Screenshot of the Microsoft Teams user activity report":::
+:::image type="content" border="false" source="../media/5-m365-teams-user-activity-report.png" alt-text="Screenshot of the Microsoft Teams user activity report" lightbox="../media/5-m365-teams-user-activity-report.png":::
 
 The Teams user activity report gives you a view of the most common activities that your users perform in Teams. This includes how many people engage in a chat in a channel, how many communicate via private chat message, and how many participate in calls or meetings. You can see this information for your whole organization, as well as for each individual user.
 
 **Microsoft Teams device usage report**
 
-:::image type="content" border="false" source="../media/5-M365-teams-device-usage-report.png" alt-text="Screenshot of the Microsoft Teams device usage report":::
+:::image type="content" border="false" source="../media/5-m365-teams-device-usage-report.png" alt-text="Screenshot of the Microsoft Teams device usage report" lightbox="../media/5-m365-teams-device-usage-report.png:::
 
 The Teams device usage report provides you a view of how your users connect to Teams, including mobile apps. The report helps you understand which devices are popular in your organization and how many users work on the go.
 
@@ -55,7 +55,7 @@ Try to reward people for changing their work behaviors – cultural evolution is
 
 In a large organization, you should try to incorporate many different roles in your broad onboarding phase. This may include additional business sponsors, training helpdesk and IT support staff, additional members in your champion community, and in some cases formal change management or training personnel. The illustration below shows a large-scale adoption team that allows for a separation of duties.
 
-:::image type="content" border="false" source="../media/5-teams-adoption-large-scale-model.png" alt-text="Diagram of the Large-Scale Adoption Model":::
+:::image type="content" border="false" source="../media/5-teams-adoption-large-scale-model.png" alt-text="Diagram of the Large-Scale Adoption Model" lightbox="../media/5-teams-adoption-large-scale-model.png:::
 
 In a smaller organization, one or more of these roles might be performed by a single individual, but the skills required remain the same. Technical, communication, and training skills are important in a successful change project.
 
