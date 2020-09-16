@@ -25,7 +25,7 @@ To start using Safe Attachments, configure a Safe Attachment policy:
 1. Sign into the [Security & Compliance center](https://protection.office.com/) with global administrator, security administrator, Exchange Online organization management, or Exchange Online hygiene management permissions.
 1. In the left navigation bar, select **Threat management** > **Policy** > **Safe Attachments**.
 
-    :::image type="content" source="../media/3-atp-safe-attachments.png" alt-text="ATP Safe Attachments" lightbox="../media/3-atp-safe-attachments.png":::
+    :::image type="content" source="../media/3-atp-safe-attachments.jpg" alt-text="ATP Safe Attachments":::
 
 1. Select **Turn on ATP for SharePoint, OneDrive, and Microsoft Teams**.
 1. Select **Save** and review your organization's Safe Attachments policies.

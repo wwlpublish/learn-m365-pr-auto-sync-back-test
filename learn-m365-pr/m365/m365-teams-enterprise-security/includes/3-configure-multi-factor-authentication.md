@@ -39,9 +39,7 @@ To require all users to sign in with MFA:
 
 The Conditional Access What If Tool allows you to test that MFA is working correctly. Use the What If tool in conditional access to understand why a policy was or was not applied to a user in a specific circumstance or known state.
 
-The What If tool is located in the **Azure portal** > **Azure Active Directory** > **Conditional Access** > **What If**.
-
-:::image type="content" source="../media/4-what-if.png" alt-text="Conditional access What If tool"  lightbox="../media/4-what-if.png":::
+The What If tool is located in the **Azure portal** > **Azure Active Directory** > **Security** > **Conditional Access** > **What If**.
 
 The **What If** tool requires only **User** privileges to work, but you can narrow the scope with additional information. For example by **IP address**, **Country/Region**, or **Device platform**.
 
