@@ -45,7 +45,7 @@ To provision guest access, you'll need to use the Teams admin center. When you e
 
 Follow these steps to enable guest access in your Teams environment:
 
-1. Sign into the Teams admin center.
+1. Sign into the [Teams admin center](admin.teams.microsoft.com).
 1. Select **Org-wide settings** > **Guest access**.
 1. Set **Allow guest access in Microsoft Teams** to **On**.
 
