@@ -16,9 +16,8 @@ Teams Rooms allow multiple users to join a Teams meeting in one room. The users 
 
 Teams Rooms audio and video devices can either be added to a Microsoft Surface Pro device or provide all compute, audio, and video capabilities in a bundle. Collaboration bars include high-end audio and video capabilities inside a Teams-certified soundbar with the ability to add engaging touch experiences. By attaching a touchscreen display to the collaboration bar, users can interact with the meeting with features such as the Microsoft Whiteboard app.
 
-
 :::image type="content" border="false" source="../media/4-soundbar.png" alt-text="Collaboration bar":::
 
-## Learn More
+## Learn more
 
 - [For every work experience, there's a Microsoft Teams device](https://products.office.com/microsoft-teams/across-devices)

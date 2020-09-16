@@ -20,10 +20,10 @@ At a minimum, in addition to normal web traffic, you should make sure that the f
 
 Review the following before you begin your Teams meetings deployment:
 
-1. Do all your locations have internet access (so they can directly connect to Microsoft 365)?
-1. Do you have a verified domain for Microsoft 365 (for example, *contoso.com*)?
-1. Has your organization deployed Exchange Online and enabled SharePoint Online?
-1. Have you run the Network Assessment Tool and ensure that you meet the requirements described in media quality and network connectivity performance from both the edge segment and the client segment?
+- Do all your locations have internet access (so they can directly connect to Microsoft 365)?
+- Do you have a verified domain for Microsoft 365 (for example, *contoso.com*)?
+- Has your organization deployed Exchange Online and enabled SharePoint Online?
+- Have you run the Network Assessment Tool and ensure that you meet the requirements described in media quality and network connectivity performance from both the edge segment and the client segment?
 
 Once you've verified that you meet these network requirements, you should be ready to roll out Teams.
 
@@ -39,7 +39,7 @@ You manage access to Teams at the user level by assigning or removing a Microsof
 
 By default, when a licensing plan (for example, Microsoft 365 Enterprise E3 or Microsoft 365 Business Premium) is assigned to a user, a Teams license is automatically assigned, and the user is enabled for Teams. You can disable or enable Teams for a user by removing or assigning a license at any time.
 
-## Learn More
+## Learn more
 
 - [Meetings and conferencing in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page)
 - [Meetings in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams?tutorial-step=4)

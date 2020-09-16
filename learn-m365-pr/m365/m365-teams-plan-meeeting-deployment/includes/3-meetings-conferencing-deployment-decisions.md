@@ -30,6 +30,7 @@ For a Teams user's meetings to be recorded, Microsoft Stream must be enabled for
 - User is not an anonymous, guest, or federated user in the meeting.
 - To enable transcription for a user's meeting, the Teams meeting policy they're assigned to must have the **-AllowTranscription** setting set to true.
 
-## Learn More
+## Learn more
+
 - [Microsoft Teams cloud meeting recording](https://docs.microsoft.com/MicrosoftTeams/cloud-recording)
 - [Manage meeting policies in Teams](https://docs.microsoft.com/MicrosoftTeams/meeting-policies-in-teams)
