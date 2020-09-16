@@ -49,27 +49,27 @@ Follow these steps to enable guest access in your Teams environment:
 1. Select **Org-wide settings** > **Guest access**.
 1. Set **Allow guest access in Microsoft Teams** to **On**.
 
-  :::image type="content" source="../media/2-set-up-guests-image1.png" alt-text="Screenshot showing how to turn on the allow guest access in  Teams":::
+    :::image type="content" source="../media/2-set-up-guests-image1.png" alt-text="Screenshot showing how to turn on the allow guest access in  Teams":::
 
 1. Under **Calling**, **Meeting**, and **Messaging**, select **On** or **Off** for each capability, depending on what you want to allow for guest users.
 
-  - **Make private calls** - Turn **On** to allow guests to make peer-to-peer calls.
-  - **Allow IP video** - Turn **On** to allow guests to use video in their calls and meetings.
-  - Screen sharing mode - Controls the availability of screen sharing for guest users.
-    - Select **Disabled** to remove the ability for guests to share their screens in Teams.
-    - Select **Single application** to allow sharing of individual applications.
-    - Select **Entire screen** to allow complete screen sharing.
-  - **Allow Meet Now** - Turn **On** to allow guests to use the Meet Now feature in Microsoft Teams.
-  - **Edit sent messages** - Turn **On** to allow guests to edit messages they previously sent.
-  - **Guests can delete sent messages** - Turn **On** to allow guests to delete messages they previously sent.
-  - **Chat** - Turn **On** to give guests the ability to use chat in Teams.
-  - **Use Giphys in conversations** - Turn **On** to allow guests to use Giphys in conversations. Giphy is an online database and search engine that allows users to search for and share animated GIF files. Each Giphy is assigned a content rating.
-  - Giphy content rating - Select a rating from the drop-down list:
-    - **Allow all content** - Guests can insert all Giphys in chats, regardless of the content rating.
-    - **Moderate** - Guests can insert Giphys in chats, but will be moderately restricted from adult content.
-    - **Strict** - Guests can insert Giphys in chats, but will be restricted from inserting adult content.
-  - **Use memes in conversations** - Turn **On** to allow guests to use Memes in conversations.
-  - **Use Stickers in conversations** - Turn **On** to allow guests to use stickers in conversations.
+    - **Make private calls** - Turn **On** to allow guests to make peer-to-peer calls.
+    - **Allow IP video** - Turn **On** to allow guests to use video in their calls and meetings.
+    - Screen sharing mode - Controls the availability of screen sharing for guest users.
+        - Select **Disabled** to remove the ability for guests to share their screens in Teams.
+        - Select **Single application** to allow sharing of individual applications.
+        - Select **Entire screen** to allow complete screen sharing.
+    - **Allow Meet Now** - Turn **On** to allow guests to use the Meet Now feature in Microsoft Teams.
+    - **Edit sent messages** - Turn **On** to allow guests to edit messages they previously sent.
+    - **Guests can delete sent messages** - Turn **On** to allow guests to delete messages they previously sent.
+    - **Chat** - Turn **On** to give guests the ability to use chat in Teams.
+    - **Use Giphys in conversations** - Turn **On** to allow guests to use Giphys in conversations. Giphy is an online database and search engine that allows users to search for and share animated GIF files. Each Giphy is assigned a content rating.
+    - Giphy content rating - Select a rating from the drop-down list:
+        - **Allow all content** - Guests can insert all Giphys in chats, regardless of the content rating.
+        - **Moderate** - Guests can insert Giphys in chats, but will be moderately restricted from adult content.
+        - **Strict** - Guests can insert Giphys in chats, but will be restricted from inserting adult content.
+    - **Use memes in conversations** - Turn **On** to allow guests to use Memes in conversations.
+    - **Use Stickers in conversations** - Turn **On** to allow guests to use stickers in conversations.
 
 1. Select **Save**.
 
