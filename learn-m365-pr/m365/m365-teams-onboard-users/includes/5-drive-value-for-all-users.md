@@ -40,7 +40,7 @@ The Teams user activity report gives you a view of the most common activities th
 
 **Microsoft Teams device usage report**
 
-:::image type="content" border="false" source="../media/5-m365-teams-device-usage-report.png" alt-text="Screenshot of the Microsoft Teams device usage report" lightbox="../media/5-m365-teams-device-usage-report.png:::
+:::image type="content" border="false" source="../media/5-m365-teams-device-usage-report.png" alt-text="Screenshot of the Microsoft Teams device usage report" lightbox="../media/5-m365-teams-device-usage-report.png":::
 
 The Teams device usage report provides you a view of how your users connect to Teams, including mobile apps. The report helps you understand which devices are popular in your organization and how many users work on the go.
 
@@ -55,7 +55,7 @@ Try to reward people for changing their work behaviors – cultural evolution is
 
 In a large organization, you should try to incorporate many different roles in your broad onboarding phase. This may include additional business sponsors, training helpdesk and IT support staff, additional members in your champion community, and in some cases formal change management or training personnel. The illustration below shows a large-scale adoption team that allows for a separation of duties.
 
-:::image type="content" border="false" source="../media/5-teams-adoption-large-scale-model.png" alt-text="Diagram of the Large-Scale Adoption Model" lightbox="../media/5-teams-adoption-large-scale-model.png:::
+:::image type="content" border="false" source="../media/5-teams-adoption-large-scale-model.png" alt-text="Diagram of the Large-Scale Adoption Model" lightbox="../media/5-teams-adoption-large-scale-model.png":::
 
 In a smaller organization, one or more of these roles might be performed by a single individual, but the skills required remain the same. Technical, communication, and training skills are important in a successful change project.
 
