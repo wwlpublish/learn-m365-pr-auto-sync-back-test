@@ -25,7 +25,7 @@ When planning to deploy Teams, consider the following network-related questions:
 - Is there sufficient bandwidth for your users and the underlying technologies?
 - Is there acoustic and visual noise in the network environment?
 - What devices will be used for capturing and playing back audio and video?
-- Is your network wireless or wired? Wireless networks aren't designed for real-time communication, and a wired network is preferred
+- Is your network wireless or wired? (Wireless networks aren't designed for real-time communication, and a wired network is preferred.)
 
 ## Microsoft Teams 365 bandwidth requirements
 
