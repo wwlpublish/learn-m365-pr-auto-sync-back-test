@@ -1,0 +1,36 @@
+### YamlMime:Module
+uid: learn-m365.teams.plan-direct-routing
+metadata:
+  title: Plan your deployment of Direct Routing in Teams
+  description: Learn how to successfully use Direct Routing with Teams by creating a detailed plan to deploy it in your organization.
+  ms.date: 09/03/2020
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+title: Plan your deployment of Direct Routing in Teams
+summary: Learn how to successfully use Direct Routing with Teams by creating a detailed plan to deploy it in your organization.
+abstract: |
+  At the end of this module, you should be able to:
+  - List the steps required to deploy Direct Routing.
+  - Describe the configuration options available for Direct Routing.
+  - Explain the benefits of optimizing media flow.
+prerequisites: | 
+  - Experience of Teams.
+  - Knowledge of traditional and VOIP telephony.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- office-teams
+units:
+- learn-m365.teams.plan-direct-routing.1-introduction
+- learn-m365.teams.plan-direct-routing.2-plan-direct-routing
+- learn-m365.teams.plan-direct-routing.3-configure-voice-routing-options
+- learn-m365.teams.plan-direct-routing.4-optimize-media-flow
+- learn-m365.teams.plan-direct-routing.5-knowledge-check
+- learn-m365.teams.plan-direct-routing.6-summary
+badge:
+  uid: learn-m365.teams.plan-direct-routing.badge
