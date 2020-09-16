@@ -18,7 +18,8 @@ Let's examine these steps in more detail.
 
 To allow or disallow guest access for the whole organization, you must be a Teams service administrator.
 
-1. In the Teams admin center, select **Org-Wide settings** > **Guest access**.
+1. Sign into the [Teams admin center](https://admin.teams.microsoft.com/).
+1. Select **Org-Wide settings** > **Guest access**.
 1. Set the **Allow guest access in Microsoft Teams** switch to **On**.
 1. On the same page, you enable or disable guests, or turn off **Calling**, **Meeting**, and **Messaging** settings for guests.
 1. Select **Save**. Each Team can then choose whether to allow guess access.
@@ -29,7 +30,7 @@ To allow or disallow guest access for the whole organization, you must be a Team
 
 Before you collaborate with guests in Teams, you must configure your Azure AD settings.
 
-1. Sign in to the [Azure portal](https://portal.azure.com) as a tenant administrator.
+1. Sign into the [Azure portal](https://portal.azure.com) as a tenant administrator.
 1. Select **Azure Active Directory** > **Users** > **User settings**.
 1. Under **External users**, select **Manage external collaboration settings**. You can also access the same settings from **Manage** > **Organizational relationships** > **Settings**.
 1. On the **External collaboration settings** page, choose the policies you want to enable.
@@ -40,7 +41,7 @@ The following table gives details of these settings:
 |---------|---------|
 |Guest user permissions are limited    | Determines permissions for guests in your directory. Select **Yes** to block guests from certain directory tasks, like enumerating users, groups, or other directory resources. Select **No** to give guests the same access to directory data as regular users in your directory.      |
 |Admins and users in the guest inviter role can invite    |  To allow admins and users in the "guest inviter" role to invite guests, set this policy to **Yes**.       |
-|Members can invite    |   To allow non-admin members of your directory to invite guests, set this policy to **Yes** (recommended). If you want only admins to add guests, set this policy to **No**. This action will limit the guest experience for non-admin teams owners. They'll only be able to add guests in Teams that have already been added in AAD by the admin.      |
+|Members can invite    |   To allow non-admin members of your directory to invite guests, set this policy to **Yes** (recommended). If you want only admins to add guests, set this policy to **No**. This action will limit the guest experience for non-admin teams owners. They'll only be able to add guests in Teams that have already been added in Azure AD by the admin.      |
 |Guests can invite     |    To allow guests to invite other guests, set this policy to **Yes**.  However, this option isn't currently supported, so guests can't invite others even when it's set to **Yes**.   |
 |Enable email one-time passcode for guests    |  Currently in preview.       |
 |Collaboration restrictions     |    Allows or blocks invitations to specific domains.  |
@@ -50,7 +51,7 @@ The following table gives details of these settings:
 
 If you want guest users to access group content, you must specifically enable them.
 
-1. In the Microsoft 365 admin center, go to **Settings** > **Org Settings**.
+1. In the [Microsoft 365 admin center](https://admin.microsoft.com/), go to **Settings** > **Org Settings**.
 1. Select **Services**, and then select **Microsoft 365 Groups**.
 1. Select the check box **Let group members outside the organization access group content** to allow guests to access group content.
 1. Select the check box **Let group owners add people outside the organization to groups** to allow team owners to add new guests. This setting must be turned on to support guest access.
@@ -59,7 +60,7 @@ If you want guest users to access group content, you must specifically enable th
 
 You can enable ordinary users to add guests:
 
-1. In the Microsoft 365 admin center, go to **Settings** > **Org Settings**.
+1. In the [Microsoft 365 admin center](https://admin.microsoft.com/), go to **Settings** > **Org Settings**.
 1. Select **Security & privacy** > **Sharing**.
 1. Select the check box **Let users add new guests to this organization** > **Save changes**.
 
@@ -67,7 +68,7 @@ You can enable ordinary users to add guests:
 
 Because Teams uses SharePoint sites for storage, verify the guest settings for those sites:
 
-1. In the Microsoft 365 admin center, under **Admin centers**, select **SharePoint**.
+1. In the [Microsoft 365 admin center](https://admin.microsoft.com/), under **Admin centers**, select **SharePoint**.
 1. Under **Sites**, select **Active sites**.
 1. Select the site, select **Sharing**, and then select either **Anyone** or **New and existing guests**.
 
@@ -81,7 +82,7 @@ In the Teams application, at the individual team level, configure guest permissi
 
 If you want guests to join meetings, you must turn on the **Anonymous users can join a meeting** setting in Microsoft Teams.
 
-1. In the Microsoft Teams admin center, go to **Meetings** > **Meeting settings**.
+1. In the [Teams admin center](https://admin.teams.microsoft.com/), go to **Meetings** > **Meeting settings**.
 1. Under **Participants**, select **Anonymous users can join a meeting**.
 
 ## Learn more

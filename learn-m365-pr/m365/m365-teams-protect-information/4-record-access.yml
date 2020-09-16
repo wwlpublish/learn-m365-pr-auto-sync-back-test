@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.teams.protect-information.4-record-access
-title: Record Access
+title: Record access
 metadata:
-  title: Record Access
+  title: Record access
   description: Learn how to use audit logs to see who did what in Teams. 
   ms.date: 09/07/2020
   ms.author: elizapo
