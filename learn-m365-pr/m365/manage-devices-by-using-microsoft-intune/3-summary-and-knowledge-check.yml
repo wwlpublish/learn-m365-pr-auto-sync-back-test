@@ -4,7 +4,7 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Summary and knowledge check
-  ms.date: 9/3/2019
+  ms.date: 08/26/2020
   author: dahans-msft2
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -25,23 +25,6 @@ quiz:
         isCorrect: false
         explanation: "Incorrect."
       - content: "Co-management"
-        isCorrect: true
-        explanation: "Correct!"
-      - content: "MDM for Microsoft 365"
-        isCorrect: false
-        explanation: "Incorrect."
-    - content: "Which of the following attributes are the same between Mobile Device Management for Microsoft 365 and Microsoft Intune?"
-      choices:
-      - content: "Management interface"
-        isCorrect: false
-        explanation: "Incorrect, this attribute is different."
-      - content: "Capabilities"
-        isCorrect: false
-        explanation: "Incorrect, this attribute is different."
-      - content: "Cost"
-        isCorrect: false
-        explanation: "Incorrect, this attribute is different."
-      - content: "Devices managed"
         isCorrect: true
         explanation: "Correct!"
     - content: "Which of the following options is NOT a valid method for enrolling Windows 10 devices into Microsoft Intune?"

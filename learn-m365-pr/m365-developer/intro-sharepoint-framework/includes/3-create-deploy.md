@@ -4,9 +4,9 @@ In this unit, you'll learn what developers will need and how to create custom Sh
 
 Microsoft has adopted the open-source tooling for the foundation of SharePoint Framework development. Three categories to explore when it comes to open-source tooling and libraries related to the SharePoint Framework are as follows:
 
-- build process and tooling
-- web frameworks
-- code editors
+- Build process and tooling
+- Web frameworks
+- Code editors
 
 ![Screenshot of the open-source tooling for the SharePoint Framework](../media/03-open-source-tooling.png)
 

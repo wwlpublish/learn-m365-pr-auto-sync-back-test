@@ -2,7 +2,7 @@ In this unit, you'll learn about another type of SharePoint Framework extension 
 
 ## Overview
 
-A SharePoint Framework field customizer extension enables developers the ability to customize the rendering of a cell in the display mode of a SharePoint list. These extensions are similar to the SharePoint classic experience customizations of client-side rendering (CSR) and JSLink. The classic mode customizations of CSR and JSLink don't work in the modern experience and field customizers will only work in the modern experience.
+A SharePoint Framework field customizer extension enables developers to customize the rendering of a field in a SharePoint list view. These extensions are similar to the SharePoint classic experience customizations of client-side rendering (CSR) and JSLink. The classic mode customizations of CSR and JSLink don't work in the modern experience and field customizers will only work in the modern experience.
 
 A field customizer enables a developer to define through code how a specific column should be rendered when a user views a SharePoint list in the grid-view format in the modern experience. The following scenarios are some example use cases for field customizers:
 
@@ -60,7 +60,7 @@ You can also add a field customizer to site column programmatically by setting p
 
 ## Debugging and testing extensions
 
-Now let's look at how you can debug and text SharePoint Framework field customizer extensions. Unlike client-side web parts, extensions require a live SharePoint site, list, or library. This means you can't test extensions in either the local or SharePoint-hosted workbench. You can still build and host extensions projects locally while debugging and testing in a remote SharePoint site.
+Now let's look at how you can debug and test SharePoint Framework field customizer extensions. Unlike client-side web parts, extensions require a live SharePoint site, list, or library. This means you can't test extensions in either the local or SharePoint-hosted workbench. You can still build and host extensions projects locally while debugging and testing in a remote SharePoint site.
 
 The testing experience is similar to the experience when you use the hosted SharePoint workbench for a web part development testing and debugging.
 

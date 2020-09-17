@@ -2,7 +2,7 @@
 
 Using a device management provider, organizations can make sure that only authorized people and devices get access to proprietary information. Similarly, users can feel at ease accessing work data from their device, because they know it meets their organization's security requirements.
 
-This module will introduce you to the modern device management options for Windows 10 from Microsoft 365, including **co-management**, **Microsoft Intune**, and **Mobile Device Management (MDM) for Microsoft 365**.
+This module will introduce you to the modern device management options for Windows 10 from Microsoft 365, including **co-management** and **Microsoft Intune**.
 
 In this module, you will learn to:
 
@@ -12,11 +12,11 @@ In this module, you will learn to:
 
 Moving to a modern management approach can sometimes be a challenging task considering the complexity of planning and switching from existing IT systems, organizational structures, and processes. Most organizations are still using some combination of on-premises Windows Server Active Directory (AD) and System Center Configuration Manager (ConfigMgr) to manage their Windows devices.
 
-Mobile device management (MDM) is an industry standard for managing all types of mobile devices, such as smart phones, tablets, laptops and desktop computers and is implemented by using MDM authority and MDM clients. Microsoft offers two MDM authority solutions with Intune and MDM for Microsoft 365. Android, iOS and Windows 10 devices all include MDM client functionality, so they can be properly managed by an MDM authority.
+Mobile device management (MDM) is an industry standard for managing all types of mobile devices, such as smart phones, tablets, laptops, and desktop computers and is implemented by using MDM authority and MDM clients. Microsoft's MDM authority solution is Microsoft Intune. Android, iOS, and Windows 10 devices all include MDM client functionality, so they can be properly managed by an MDM authority.
 
 ## Co-management
 
-To help IT professionals simplify the transition to modern management, Microsoft designed a new feature called co-management. Co-management offers a simplified and manageable way to transition from either on-premises Active Directory, or ConfigMgr and Active Directory, to a modern management approach with Intune and Azure AD.  Since the two solutions work together, organizations don't have to completely abandon their old management practices and can instead move to a modern approach when it makes sense for them.
+To help IT professionals simplify the transition to modern management, Microsoft designed a new feature called co-management. Co-management offers a simplified and manageable way to transition from either on-premises Active Directory, or Configuration Manager and Active Directory, to a modern management approach with Intune and Azure AD. Since the two solutions work together, organizations don't have to completely abandon their old management practices and can instead move to a modern approach when it makes sense for them.
 
 ## Microsoft Intune
 
@@ -38,35 +38,7 @@ In the following diagram, you can see how Intune interacts with other components
 
 ![Diagram of Intune components](../media/md101-3-2-1-3.png)
 
-## MDM for Microsoft 365
 
-Mobile Device Management (MDM) for Microsoft 365 offers a subset of Intune services that help secure and manage your users' mobile devices like iPhones, iPads, Androids, and Windows phones. You can create and manage device security policies, remotely wipe a device, and view detailed device reports. MDM gives you a broad way to configure settings that achieve your administrative intent without exposing every possible setting. You can apply broader privacy, security, and application management settings through lighter and more efficient tools, while also allowing you to target internet-connected devices to manage policies.  This solution is typically best for organizations that want to keep an existing MDM provider, but take advantage of the basic features offered by Intune.
-
-### Comparing Intune with Mobile Device Management for Microsoft 365
-
-If your organization has a Microsoft 365 tenant, you can use either Intune or Mobile Device Management for Microsoft 365 to manage individual devices. In fact, you can use both within the same tenant and target specific users and devices with the solution that you feel is best. While MDM for Microsoft 365 provides basic MDM capabilities, Intune provides the most comprehensive device management solution from Microsoft.  The primary differences are:
-
-- **Cost:** Mobile Device Management for Microsoft 365 is included with most Microsoft 365 subscriptions. Intune is either a separate, paid subscription or part of an EMS subscription. EMS is included with an Enterprise E5 subscription, so you might already have Intune.
-
-- **Management interface:** Mobile Device Management for Microsoft 365 uses the Microsoft 365 security and compliance centers. Intune uses its own portal or **System Center Configuration Manager (SCCM)**.
-
-- **Devices:** Intune manages the same devices as Mobile Device Management for Microsoft 365 along with Mac OS X devices and all Windows PCs.
-
-- **Capabilities:** Intune has all the capabilities of Mobile Device Management for Microsoft 365, and it can also:
-
-  - Help users access corporate resources with certificates, wireless networks, VPNs, and email profiles.
-
-  - Enroll and manage corporation-owned devices.
-
-  - Deploy internal line-of-business (LOB) apps to users.
-
-  - Restrict actions such as copying, cutting, and pasting in Office mobile and LOB apps.
-
-  - Enable more secure browsing by using the Intune-managed Browser app.
-
-  - Manage infrastructure, including PCs, Macs, and Linux servers along with mobile devices, from the cloud.
-
-  - Allow setting up mobile application management (MAM) policies that affect even devices not enrolled in Intune.
 
 ## Learn more
 - [Planning for Mobile Device Management](https://docs.microsoft.com/intune/fundamentals/planning-guide?azure-portal=true)

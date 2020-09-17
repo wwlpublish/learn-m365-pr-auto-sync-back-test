@@ -18,38 +18,28 @@ By default, the ID and Access tokens provided by Microsoft identity only contain
 
 To add them to the ID token, set the `groupMembershipClaims` property to `SecurityGroup` or `All` in the manifest of the registered Azure AD app from the Azure AD admin center.
 
-The code you will write in ASP.NET Core will add the groups to the role claim instead of the group claim, so there is one more thing you need to change. Locate the `optionalClaims` property as update it to set `accessToken` to include additional properties that will return the groups as roles:
+The code you will write in ASP.NET Core will add the groups to the role claim instead of the group claim, so there is one more thing you need to change. Locate the `optionalClaims` property as update it to set `idToken` to include additional properties that will return the groups as roles:
 
 ```json
 {
   ...
   "optionalClaims": {
-    "accessToken": [
+    "idToken": [
       {
         "name": "groups",
-        "additionalProperties": ["emit_as_roles"]
+        "source": null,
+        "essential": false,
+        "additionalProperties": [ "emit_as_roles" ]
       }
-    ]
+    ],
+    "accessToken": [],
+    "saml2Token": []
   }
   ...
 }
 ```
 
 ### Code configuration
-
-With the app registered and configured in the Azure AD admin center, the next step is to update the app's configuration.
-
-Within the method `ConfigureServices()`, locate the line that configures the `OpenIdConnectOptions`. Update the expression to match the following code:
-
-```csharp
-services.Configure<OpenIdConnectOptions>(AzureADDefaults.OpenIdScheme, options =>
-{
-  options.Authority = options.Authority + "/v2.0/";
-  options.TokenValidationParameters.RoleClaimType = "groups";
-});
-```
-
-Notice the addition of the line for the `RoleClaimType` is set to `groups`. This is added to specify the claim that represents Groups when creating the ClaimsPrincipal in ASP.NET.
 
 In ASP.NET, you can secure a controller so only authenticated users can access it by decorating it the method with the `[Authorize]` attribute. This attribute also supports securing the endpoint based on a security group.
 

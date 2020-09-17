@@ -1,4 +1,4 @@
-Microsoft 365 services collect data about the usage patterns of your users. This data is only available to people who are designated global or workload administrators or who have been granted report reader rights in the experience. Discuss the use of these reports in your service adoption work with your IT partners. You can see important information such as:
+Microsoft 365 services collect data about the usage patterns of your users. This data in the Microsoft 365 Content pack is only available to people who are designated global or workload administrators or who have been granted report reader rights in the experience. Discuss the use of these reports in your service adoption work with your IT partners. You can see important information such as:
 
 - Licenses (enabled) vs active users
 - Usage by workload

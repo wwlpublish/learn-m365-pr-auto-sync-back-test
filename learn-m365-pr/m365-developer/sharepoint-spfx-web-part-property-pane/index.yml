@@ -3,7 +3,7 @@ uid: learn-m365.sharepoint-spfx-web-part-property-pane
 metadata:
   title: Enable SharePoint Framework web part configuration with property panes
   description: Learn how to enable web part configurations with property panes in the SharePoint Framework.
-  ms.date: 3/9/2020
+  ms.date: 08/31/2020
   author: andrewconnell
   ms.author: suzanz
   ms.topic: interactive-tutorial

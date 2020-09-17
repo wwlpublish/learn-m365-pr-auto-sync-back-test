@@ -16,9 +16,9 @@ None of these related HTTP request APIs require developers to install additional
 
 ## Call third-party APIs with the `HttpClient` API
 
-The `HttpClient` API is available from the SharePoint Framework component's `context` object. You'll primarily use this API to submit HTTP request to anonymous REST APIs, but you aren't limited to anonymous APIs or REST APIs. The client is optimized for REST APIs, but its used to submit HTTP requests to endpoints. You'll have full control to override any parts of the request prior to sending it, including adding or modifying HTTP request header values.
+The `HttpClient` API is available from the SharePoint Framework component's `context` object. You'll primarily use this API to submit HTTP request to anonymous REST APIs, but you aren't limited to anonymous APIs or REST APIs. The client is optimized for REST APIs, but it can be used to submit HTTP requests to other types of endpoints. You have full control to override any parts of the request prior to sending it, including adding or modifying HTTP request header values.
 
-Most modern browsers implement the [Fetch API, which provides an interface for fetching resources across a network. The `HttpClient` API wraps the Fetch API and automatically includes the polyfill **whatwg-fetch** for older browsers that don't implement the Fetch API, such as Internet Explorer 11.
+Most modern browsers implement the Fetch API, which provides an interface for fetching resources across a network. The `HttpClient` API wraps the Fetch API and automatically includes the polyfill **whatwg-fetch** for older browsers that don't implement the Fetch API, such as Internet Explorer 11.
 
 Previously we said you'd primarily use the `HttpClient` API for calling anonymous APIs. You aren't limited to anonymous APIs. The SharePoint Framework includes APIs that are based off the `HttpClient` for calling Microsoft-secured APIs, such as the SharePoint REST API, Microsoft Graph and other APIs secured with Azure AD. You can use the `HttpClient` if you need to call an API secured with another solution, but you'll need to implement any authorization specifications in your project.
 

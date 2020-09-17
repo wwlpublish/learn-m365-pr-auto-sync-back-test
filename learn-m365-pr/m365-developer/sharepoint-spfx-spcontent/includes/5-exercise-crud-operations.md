@@ -157,7 +157,7 @@ The method `_addListItem()` first obtains the data type supported by the list ne
 - This new object is set to the `body` property as a string on a `request` object that will be sent in the HTTP POST.
 - Then, using the `spHttpClient` API's `post()` method, set the endpoint to the list's `items` collection, with the specified configuration and then set the `request` object as the third parameter for the `post()` method. This will tell the `spHttpClient` API to send the new object as part of the body in the HTTP request.
 
-Add the following method to the `SpFxHttpClientDemoWebPart` class to update an item to the list:
+Add the following method to the `SpFxHttpClientDemoWebPart` class to update an item in the list:
 
 ```typescript
 private _updateListItem(): Promise<SPHttpClientResponse> {

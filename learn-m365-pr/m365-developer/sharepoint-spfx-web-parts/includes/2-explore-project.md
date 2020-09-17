@@ -73,9 +73,7 @@ Web parts will also contain a section for `preconfiguredEntries` that are the de
 
 ### CSS Modules
 
-CSS modules address a challenge that when we're working with client-side solutions. CSS classes can be used to not only set the styles of an element on the page, but can also override other CSS classes. If a CSS class name is present on the page more than once, the last one will override any settings on previously defined classes.
-
-This native aspect of CSS classes presents a challenge with SharePoint Framework components when more than one web parts are on the same page using the same CSS class name can impact the rendering of each component.
+CSS modules address a challenge you may have when working with client-side solutions. CSS classes can be used to not only set the styles of an element on the page, but can also override other CSS classes. If a CSS class name is present on the page more than once, the last one will override any settings on previously defined classes. For example, having different web parts that use the same CSS class name on the same page can impact the rendering of each web part.
 
 CSS modules address this challenge by creating a globally unique name for each CSS class. A class named `.helloWorld` is translated to `.helloWorld_da83fer` for example. The hash at the end of the class name is unique to that web part project.
 
@@ -162,7 +160,7 @@ The SharePoint Framework development and build toolchain includes many tasks dev
 
 ## Solution packaging
 
-Once you've created you project and its ready for deployment, use the `gulp package-solution` task to create the **\*.sppkg** SharePoint Package file.
+Once you've created your project and it's ready for deployment, use the `gulp package-solution` task to create the **\*.sppkg** SharePoint Package file.
 
 For projects created and built using the SharePoint Framework v1.4.1 or higher, if the property `includeClientSideAssets` is set to `true` in the **./config/package-solution.json** file, the JavaScript bundle and manifest for the components will be included in the SharePoint package file. This option will enable the deployment of the files to a special **ClientSideAssets** library in the root of the site collection where the app is installed.
 
