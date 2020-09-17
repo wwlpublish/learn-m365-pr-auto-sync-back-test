@@ -13,19 +13,19 @@ Azure Security Center will continually look for security issues with subscriptio
 
 You can review the secure score, and then begin to work on improving it. You’ll see the overall score, and how it’s split across your subscriptions:
 
-:::image type="content" source="../media/3-secure-score-dashboard.png" alt-text="Secure score dashboard":::
+:::image type="content" source="../media/3-secure-score-dashboard-inline.png" alt-text="Secure score dashboard" lightbox="../media/3-secure-score-dashboard-extended":::
 
 Select any subscription to find out how its score has been calculated:
 
-:::image type="content" source="../media/3-secure-score-calculation.png" alt-text="Secure score calculation":::
+:::image type="content" source="../media/3-secure-score-calculation-inline.png" alt-text="Secure score calculation" lightbox="../media/3-secure-score-calculation-expanded.png":::
 
 You’ll see a list of controls. Each control is made up of a group of related recommendations to deal with a specific risk, along with detailed instructions about how to implement them. Your secure score is calculated using these controls. The controls are prioritized for you in the top down list, so that you’re aware of which ones to take care of first. Each control will only help you increase your secure score if you get maximum points for that specific control. You only get all those points if you implement all of its associated recommendations. For example, the **Manage access and permissions control** has several recommendations that need to be implemented to get its maximum number of points (four):
 
-:::image type="content" source="../media/3-control-breakdown.png" alt-text="Breakdown":::
+:::image type="content" source="../media/3-control-breakdown-inline.png" alt-text="Breakdown" lightbox="../media/3-control-breakdown-expanded.png":::
 
 If a recommendation in a control has the **Quick Fix** option, select it to apply the recommendation automatically:
 
-:::image type="content" source="../media/3-apply-quick-fix-secure-score.png" alt-text="Apply the recommendation":::
+:::image type="content" source="../media/3-apply-quick-fix-secure-score-inline.png" alt-text="Apply the recommendation" lightbox="../media/3-apply-quick-fix-secure-score-expanded.png":::
 
 > [!NOTE]
 > You can also access your secure score programmatically through the Azure Security Center REST API, to query data and generate your own reports.
@@ -34,15 +34,15 @@ If a recommendation in a control has the **Quick Fix** option, select it to appl
 
 It can be difficult to remediate issues across a large fleet of resources and subscriptions. Azure Security Center helps you manage this scenario better through automation in several ways:
 
-**Quick Fix recommendations**
+#### Quick Fix recommendations
 
-You can use **Quick Fix** to implement certain recommendations across multiple resources. When you select **Quick Fix**, you can choose the resources that this recommendation should be implemented across. For example, for the **Secure transfer to storage accounts should be enabled** Quick Fix recommendation, you select which storage accounts should be remediated: 
+You can use **Quick Fix** to implement certain recommendations across multiple resources. When you select **Quick Fix**, you can choose the resources that this recommendation should be implemented across. For example, for the **Secure transfer to storage accounts should be enabled** Quick Fix recommendation, you select which storage accounts should be remediated:
 
-:::image type="content" source="../media/3-secure-transfer-storage-accounts-recommendation.png" alt-text="Secure storage accounts recommendation":::
+:::image type="content" source="../media/3-secure-transfer-storage-accounts-recommendation-inline.png" alt-text="Secure storage accounts recommendation" lightbox="../media/3-secure-transfer-storage-accounts-recommendation-expanded.png":::
 
 At the top of the pane, you’ll also see a general description and details of the remediation, and information on how to remediate it manually if you wish. When you select **Remediate**, a pane appears on the right for you to review what this remediation will do, and the implications. If you’re happy to go ahead, select **Remediate resources**:
 
-:::image type="content" source="../media/3-select-remediate-resources.png" alt-text="Remediate resources":::
+:::image type="content" source="../media/3-select-remediate-resources-inline.png" alt-text="Remediate resources" lightbox="../media/3-select-remediate-resources-expanded.png":::
 
 ## Workflow automation with Logic Apps
 
@@ -97,20 +97,18 @@ created, then select **Go to resource**.
 
 1. When you’re done, select the **+** next to the **Security Center Alert** field, then select **Continue**. Now you can configure the details for the emails you want to send for alerts:
 
-    :::image type="content" source="../media/3-configure-email-details.png" alt-text="Configure email details":::
+    :::image type="content" source="../media/3-configure-email-details-inline.png" alt-text="Configure email details" lightbox="../media/3-configure-email-details-expanded.png":::
 
     When you’re done, select **Save**.
 
 1. Return to the **Add workflow automation** tab on your browser.
-    1. Make sure to select an appropriate subscription, or subscriptions, in the **Show Logic App instances from the following subscriptions** field. 
+    1. Make sure to select an appropriate subscription, or subscriptions, in the **Show Logic App instances from the following subscriptions** field.
 
     1. Select **Refresh** at the bottom of the form. You can select your Logic App in the **Logic App name** field. Then select **Create** when you're done:
 
     :::image type="content" source="../media/3-select-logic-app.png" alt-text="Select Logic App":::
 
-
 ## Continuous export
-
 
 You might want to export information about alerts and recommendations for reporting purposes, or to feed this information into other monitoring tools (such as a SIEM) that you might already have in your environment. Azure Security Center lets you:
 
