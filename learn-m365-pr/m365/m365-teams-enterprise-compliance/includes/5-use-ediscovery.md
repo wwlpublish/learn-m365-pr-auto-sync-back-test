@@ -72,7 +72,7 @@ To search for content relevant to the case:
 ## Export search results
 You can download data from a search, by exporting the results.
 
-1.Sign into the [Microsoft 365 compliance center](https://compliance.microsoft.com), in the left navigation pane select **Show all** > **eDiscovery** > **Core**.
+1. Sign into the [Microsoft 365 compliance center](https://compliance.microsoft.com), in the left navigation pane select **Show all** > **eDiscovery** > **Core**.
 1. Select **Open case** > **Searches** tab.
 1. From the **Searches** page, select **Export results**.
 1. From the **Exports results** page, select how you want the data output, and then select **Export**.
