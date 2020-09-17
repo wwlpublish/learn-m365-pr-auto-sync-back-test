@@ -1,0 +1,37 @@
+### YamlMime:Module
+uid: learn-m365.teams.protect-information
+metadata:
+  title: Protect information in Microsoft Teams
+  description: Protect identity and access in Microsoft Teams across your organization.
+  ms.date: 09/07/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+title: Protect information in Microsoft Teams
+summary: Protect identity and access in Microsoft Teams across your organization.
+abstract: |
+  At the end of this module, you should be able to:
+  - Demonstrate how to configure data loss prevention policies.
+  - Describe how to determine data residency.
+  - Explain how to record access in Microsoft Teams.
+  - Explain secure guest access.
+prerequisites: | 
+  - Complete the **Defend against threats in Microsoft Teams** learn module.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- office-teams
+units:
+- learn-m365.teams.protect-information.1-introduction
+- learn-m365.teams.protect-information.2-configure-data-loss-prevention
+- learn-m365.teams.protect-information.3-determine-data-residency
+- learn-m365.teams.protect-information.4-record-access
+- learn-m365.teams.protect-information.5-secure-guest-access
+- learn-m365.teams.protect-information.6-knowledge-check
+- learn-m365.teams.protect-information.7-summary
+badge:
+  uid: learn-m365.teams.protect-information.badge

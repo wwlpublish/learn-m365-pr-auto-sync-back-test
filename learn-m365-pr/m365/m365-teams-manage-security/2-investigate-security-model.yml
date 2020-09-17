@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.manage-security.2-investigate-security-model
+title: Investigate the Microsoft Teams security model
+metadata:
+  title: Investigate the Microsoft Teams security model
+  description: Learn how Microsoft Teams is designed to be secure. You'll also see common security threats and the Microsoft Teams security framework.
+  ms.date: 09/03/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 6
+content: |
+  [!include[](includes/2-investigate-security-model.md)]

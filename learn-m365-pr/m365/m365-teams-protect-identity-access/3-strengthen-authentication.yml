@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.protect-identity-access.3-strengthen-authentication
+title: Strengthen authentication when using Teams
+metadata:
+  title: Strengthen authentication when using Teams
+  description: Learn about the ways you can configure Teams to improve sign in using multi-factor or certificate based authentication.
+  ms.date: 09/07/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 9
+content: |
+  [!include[](includes/3-strengthen-authentication.md)]

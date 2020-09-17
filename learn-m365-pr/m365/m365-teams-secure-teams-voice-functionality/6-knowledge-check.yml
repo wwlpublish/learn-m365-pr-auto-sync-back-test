@@ -1,0 +1,61 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.secure-teams-voice-functionality.6-knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: Check your knowledge
+  ms.date: 09/03/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 3
+content: |
+quiz:
+  title: Check your knowledge
+  questions:
+
+  - content:  "Which of the following is a valid setting when enabling inbound calls to be sent to voice mail?"
+    choices:
+    - content:  Default
+      isCorrect: false
+      explanation: "That's incorrect. Default isn't one of the available options."
+    - content:  Disabled
+      isCorrect: true
+      explanation: "That's correct. Disabled is a valid option."
+    - content:  User assigned
+      isCorrect: false
+      explanation: "That's incorrect. User assigned isn't a valid option, User controlled is."
+  - content:  "Which of the following is a valid option for listening to protected voicemail messages?"
+    choices:
+    - content:  Outlook
+      isCorrect: true
+      explanation: "That's correct. The Outlook app is supported."      
+    - content:  Teams app for Android or iOs
+      isCorrect: false
+      explanation: "That's incorrect. The teams app on mobile phones isn't supported."
+    - content:  Skype for Business
+      isCorrect: false
+      explanation: "That's incorrect. Protected voicemail messages can't be opened in Skype for Business."  
+  - content:  "Which of the following statements about inbound call blocking is true?"
+    choices:
+    - content:  You can only use the Teams admin portal to control call blocking.
+      isCorrect: false
+      explanation: "That's incorrect. Call blocking numbers can only be done using PowerShell cmdlets."
+    - content:  Only calls that don't originate from a PSTN can be blocked.
+      isCorrect: false
+      explanation: "That's incorrect. Only calls that do originate from a PSTN can be blocked."
+    - content: Blocking policies are only available on a tenant global basis.
+      isCorrect: true
+      explanation: "That's correct. Inbound call blocking isn't supported on a per-user basis."      
+  - content:  "Which of the following is a correct statement about blocking a Caller ID?"
+    choices:
+    - content:  By default, all Call ID policies are disabled.
+      isCorrect: true
+      explanation: "That's correct. By default, all caller ID settings are indeed turned off."
+    - content:  You can block incoming calls in Skype for Business Online.
+      isCorrect: false
+      explanation: "That's incorrect. Skype for Business Online calls can't be blocked."
+    - content:  Enabling Blocking outbound caller ID prevents Emergency Call Center dispatcher from seeing the caller's number.
+      isCorrect: false
+      explanation: "That's incorrect. Emergency calls will always send the user's telephone number (caller ID)."

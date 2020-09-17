@@ -1,0 +1,35 @@
+### YamlMime:Module
+uid: learn-m365.teams.protect-identity-access
+metadata:
+  title: Protect identity and access in Microsoft Teams 
+  description: Protect identity and access in Microsoft Teams across your organization.
+  ms.date: 09/07/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+title: Protect identity and access in Microsoft Teams
+summary: Protect identity and access in Microsoft Teams across your organization.
+abstract: |
+  At the end of this module, you should be able to:
+  - Explain how to simplify access and identity provisioning in Microsoft Teams.
+  - Demonstrate how to strengthen authentication in Microsoft Teams.
+  - Explain how to manage Microsoft Teams endpoints.
+prerequisites: | 
+  - Complete the **Get started securing Microsoft Teams** module.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- office-teams
+units:
+- learn-m365.teams.protect-identity-access.1-introduction
+- learn-m365.teams.protect-identity-access.2-simplify-access-and-identity-provisioning
+- learn-m365.teams.protect-identity-access.3-strengthen-authentication
+- learn-m365.teams.protect-identity-access.4-manage-endpoints-for-microsoft-teams
+- learn-m365.teams.protect-identity-access.5-knowledge-check
+- learn-m365.teams.protect-identity-access.6-summary
+badge:
+  uid: learn-m365.teams.protect-identity-access.badge
