@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn-m365.teams.manage-calls-using-auto-attendants
+metadata:
+  title: Manage calls in Microsoft Teams by using auto attendants and call queues 
+  description: Learn how to use Microsoft Phone System's features to provide auto attendants and call queue services with Microsoft Teams.
+  ms.date: 09/07/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+title: Manage calls in Microsoft Teams by using auto attendants and call queues
+summary: Learn how to use Microsoft Phone System's features to provide auto attendants and call queue services with Microsoft Teams.
+abstract: |
+  At the end of this module, you should be able to:
+  - Describe the differences between auto attendants and call queues.
+  - Design an auto attendant to gather information from callers.
+  - Explain how to set up auto attendants to implement your plan.
+  - Demonstrate how to plan call queues to manage many callers.
+  - Describe how to configure call queues to alert agents and route calls.
+  - Explain how to plan licensing for auto attendants and call queues.
+prerequisites: | 
+  - Familiarity with administrating Microsoft Teams
+  - Awareness of Microsoft 365 Phone System
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- office-teams
+units:
+- learn-m365.teams.manage-calls-using-auto-attendants.1-introduction
+- learn-m365.teams.manage-calls-using-auto-attendants.2-when-to-use-attendants-and-call-queues
+- learn-m365.teams.manage-calls-using-auto-attendants.3-plan-and-design-auto-attendants
+- learn-m365.teams.manage-calls-using-auto-attendants.4-configure-use-auto-attendants
+- learn-m365.teams.manage-calls-using-auto-attendants.5-plan-design-your-call-queues
+- learn-m365.teams.manage-calls-using-auto-attendants.6-configure-use-call-queues
+- learn-m365.teams.manage-calls-using-auto-attendants.7-plan-licenses-for-auto-attendants-and-call-queues
+- learn-m365.teams.manage-calls-using-auto-attendants.8-knowledge-check
+- learn-m365.teams.manage-calls-using-auto-attendants.9-summary
+badge:
+  uid: learn-m365.teams.manage-calls-using-auto-attendants.badge

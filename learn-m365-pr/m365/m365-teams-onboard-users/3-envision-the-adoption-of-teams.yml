@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.onboard-users.3-envision-the-adoption-of-teams
+title: Envision the adoption of Teams
+metadata:
+  title: Envision the adoption of Teams
+  description: Learn about the steps in the envision phase.
+  ms.date: 09/10/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 8
+content: |
+  [!include[](includes/3-envision-the-adoption-of-teams.md)]
