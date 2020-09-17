@@ -47,7 +47,7 @@ quiz:
         explanation: "No, meeting organizers schedule the meetings. The resource account simply accepts the invite."
       - content: "It's the account that is invited to meetings on behalf of the room."
         isCorrect: true
-        explanation: Correct. The resource account is an Exchange mailbox that accepts meeting invites. Any accepted meeting will show up on the console allowing attendees to one-touch join their meetings."
+        explanation: "Correct. The resource account is an Exchange mailbox that accepts meeting invites. Any accepted meeting will show up on the console allowing attendees to one-touch join their meetings."
       
     - content: "Where in Microsoft 365 admin center do you go to create a resource account?"
       choices:

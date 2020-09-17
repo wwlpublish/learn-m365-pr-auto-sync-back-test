@@ -8,4 +8,4 @@ Now that you have finished this module, you learned:
   
 - How to standardize a Teams Rooms deployment.
 - How all the various components of Teams Rooms work together.
-- To create the resource account used by Teams Rooms
+- To create the resource account used by Teams Rooms.

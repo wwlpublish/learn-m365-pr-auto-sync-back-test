@@ -1,4 +1,4 @@
-You’ll want to consider a number of things when designing meeting spaces for Teams Rooms. Here’s just a partial list of questions that need to be asked.
+Here’s a partial list of questions that need to be asked when designing meeting spaces for Teams Rooms.
 
 - What type of furniture is in the room? 
 - What sort of materials are on the walls in the room? 
@@ -16,9 +16,9 @@ On the right is a different situation. This is the type of environment that is g
 
 ![Meeting space sizes](../media/meeting-space-sizes.png)
 
-As you analyze your meeting spaces, decide if Teams Rooms is the right device for the space or if Surface Hub makes more sense. In some cases, it makes sense to put both Teams Rooms and Surface Hub in the same room and configure Coordinated Meetings between the two.
+As you analyze your meeting spaces, decide if Teams Rooms is the right device for the space or if Surface Hub makes more sense. In some cases, it makes sense to put both Teams Rooms and Surface Hub in the same room and configure Coordinated Meeting Join between the two.
 
-Here’s some initial considerations you’ll want to take into account:
+Here's some  things you’ll want to consider when selecting equipment for your meeting spaces:
 
 - **The camera** is obviously important in a meeting space. You must decide how well the camera you choose can handle the lighting in the room.  Do you need pan, tilt, and zoom, or can it be a static camera? The camera’s field of view is important. The wider the field of view, the less depth the camera can focus on accurately.  The narrower the field of view, the deeper into the room the camera can look.
 - **The microphone array** is important in picking up the voices of the attendees. You can decide if you want the microphones to be on a table or in the ceiling. One advantage of ceiling-based microphones is they don’t pick up vibrations as people bump into the table.
@@ -28,10 +28,10 @@ Here’s some initial considerations you’ll want to take into account:
 
 **The touchscreen console**. The center of table touchscreen console is the device that users interact with when joining and managing a meeting. There are many different form factors. Some have compute modules built-in and some can swivel the display. Some consoles have a high tilt angle and some lay a little more flat.
 
+
 ![Touchscreen consoles](../media/touchscreen-consoles.png)
 
-**The compute module**. Teams Rooms vendors support compute modules from several companies. Teams Rooms from a given vendor could land with a Lenovo, an HP, or an Intel compute module.
-The devices in Teams Rooms will eventually connect into the compute module. The compute modules have been designed to pair up with the correct Teams Rooms configuration so that they have enough USB, HDMI, and any other required ports. The compute module runs Windows 10 Enterprise IoT.
+**The compute module**. Teams Rooms support compute modules from several vendors. The compute modules have been designed to match with the correct Teams Rooms configuration so that they have enough USB, HDMI, and other required ports. The compute module runs Windows 10 Enterprise IoT.
 
 ![Compute modules](../media/compute-modules.png)
 
@@ -48,7 +48,7 @@ This provides two advantages. First, it helps the content camera frame the white
 
 ![Content cameras](../media/content-cameras.png)
 
-**Audio considerations**. Audio is crucial so that everyone can hear what's going on. On the left is a sound bar that hangs below the front of room display. The sound bar includes both the speakers and the microphone. On the right is a speaker-only sound bar. There are also microphones that can be placed directly on the table.
+**Audio considerations**. Audio is crucial so everyone can hear what's going on. On the left is a sound bar that hangs below the front of room display. The sound bar includes both the speakers and the microphone. On the right is a speaker-only sound bar. There are also microphones that can be placed throughout the room.
 
 ![Audio sound bars](../media/audio-sound-bars.png)
 
@@ -57,9 +57,9 @@ When should you use a single monitor versus dual monitors? A single monitor is g
 
 ![Touchscreen monitor](../media/touchscreen-monitor.png)
 
-What are the requirements for a touchscreen? Any monitor that works with Windows 10 will work with Teams Rooms. You may need to go into Windows Settings and verify that tablet PC settings are configured correctly.
+*What are the requirements for a touchscreen?* Any touch-enabled monitor that works with Windows 10 will work with Teams Rooms. You may need to go into Windows Settings and verify that tablet PC settings are configured correctly to enable the monitors touch features.
 
-Are all the walls in the meeting space glass? In that case, you can't mount on the wall and you'll have to get creative, opting for a projector and screen or purchasing a stand to hold the display.
+*Are all the walls in the meeting space glass?* In that case, you can't mount on the wall and you'll have to get creative, opting for a projector and screen or purchasing a stand to hold the display.
  
 **Use the right cables and connectors**. If the room already has existing displays, make note of the make and model, and make sure the connectors on the existing displays will work with Teams Rooms.
 

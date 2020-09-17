@@ -1,4 +1,4 @@
-There are some advanced options you can set for your resource accounts.
+There are some additional options you can set for your resource accounts.
 
 1. Open the Exchange admin center in Microsoft 365. 
 1. Click on **recipients** > **resources**. 
@@ -19,7 +19,7 @@ Set-Mailbox -Identity $MailBoxAlias -MailTip "This room is equipped to support T
 
 When the resource account auto-accepts a meeting, it sends an e-mail back confirming that it accepted or rejected the meeting request.
 
-By using HTML in the **booking options** setting, you can add graphics or links to videos, and then send a helpful message back such as reminding them to make this a Teams meeting. You could also add end-user training links or corporate logos to this response.
+By using HTML in the **booking options** setting, you can add graphics or links to videos, and then send a helpful message back such as a reminder to make this a Teams meeting. You could also add end-user training links or corporate logos to this response.
 
 ![Set HTML booking options](../media/html-booking-options.png)
 
@@ -62,7 +62,7 @@ Set-CalendarProcessing -identity mtr-stp-avanti-1@contoso.com ‐ProcessExternal
 
 ## Add some security mailbox settings
 
-There are some mailbox settings you may want to enable in order to add some security. For example, there may be an agenda discussing sensitive information added to a meeting invite. You want to make sure the Exchange Administrators or Teams Rooms administrators cannot sign-in to Outlook and read the agenda.
+There are some mailbox settings you may want to enable to add some security. For example, there may be an agenda discussing sensitive information added to a meeting invite. You want to make sure the Exchange or Teams Rooms administrators cannot sign in to Outlook and read the agenda.
 
 The following **Set-CalendarProcessing** command will remove sensitive information that is stored in the mailbox from being seen by those who shouldn’t have access to confidential information.
 
@@ -90,17 +90,20 @@ Set-CalendarProcessing -identity $MailBoxAlias
 
 Room Lists help you organize all your meeting rooms. Instead of having a flat list of hundreds of meeting rooms, you can organize them by location. That location can be a building, a campus, a city, or even a country. It's up to you to decide the organization.
 
-In this example, we have a room list created. If we click on Tampa Bay, it then filters and shows the three meeting rooms available in the Tampa Bay area.
+In this example, a room list has been created. If  Tampa Bay is clicked, it then filters and shows the three meeting rooms available in the Tampa Bay area.
 
 ![Room Lists](../media/room-list.png)
 
-How do we create room lists? It must be done via PowerShell, but it's pretty simple. Type **New-DistributionGroup** and give it a name.  Then make sure you flag it as a special distribution group called a **RoomList**.
+How do you create room lists? It must be done via PowerShell, but it's pretty simple. Type **New-DistributionGroup** and give it a name.  Then make sure you flag it as a special distribution group called a **RoomList**.
 
+
+```powershell
 `New-DistributionGroup -Name "Tampa Bay" -Roomlist`
+```
 
-We then add members to that distribution group using the **Add-DistributionGroup** cmdlet.
+You then add members to that distribution group using the **Add-DistributionGroup** cmdlet.
 
-Here we add MTR-STP-Avanti-1 and MTR-STP-Avanti-2 to our Room List.
+In this example, resource accounts MTR-STP-Avanti-1 and MTR-STP-Avanti-2 are added to the Room List.
 
 
 ```powershell
@@ -110,7 +113,7 @@ Add-DistributionGroupMember -Identity "Tampa Bay" -Member "MTR-STP-Avanti-2"
 
 ## What is Places?
 
-Instead of just naming the location of where rooms are, you can add additional criteria, such as wheelchair accessibility, room hardware, or the room floor in a given building. This feature is called **Places**.
+Instead of just naming the location of where rooms are, you can add additional criteria, such as wheelchair accessibility, room hardware, or the floor in a given building. This feature is called *Places*.
 
 Here's an example of Places for Tampa Bay. When filtering on Tampa Bay, you can see there are three rooms that are available. Clicking **Filters** brings up a new menu. Now you can filter on rooms that have at least a 10-person capacity, that have a video camera, and are wheelchair accessible. Click the **Apply button** and you'll see one room that matches the criteria.
 
@@ -118,7 +121,10 @@ Here's an example of Places for Tampa Bay. When filtering on Tampa Bay, you can 
 
 Creating Places must be done via PowerShell using the **Set-Place** cmdlet. In this example, the place is the meeting room MTR-STP-Avanti-1. This room will be listed as wheelchair accessible, with a 12-person capacity, and a video display.
 
+
+```powershell
 `Set-Place MTR-STP-Avanti-1  IsWheelChairAccessible $true  Capacity 12  DisplayDeviceName $True`
+```
 
 
 ## Learn more
