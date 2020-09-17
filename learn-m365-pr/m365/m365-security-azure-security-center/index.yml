@@ -16,7 +16,7 @@ abstract: |
   - Explore Cloud Security Posture Management and the services and features available in Azure
   - Understand how to use Cloud Workload Protection to protect VMs and Servers, Containers, IoT, Data and Storage
   - Improve Azure security using Azure Sentinel
-prerequisites: None | 
+prerequisites: | 
   - Familiarity with Azure administration and security
   - Basic familiarity with Azure services, particularly Azure Security Center
   - Familiarity with Azure virtual machines and virtual networking.
