@@ -21,7 +21,7 @@ roles:
 products: 
 - m365
 modules:
-- learn-m365.sci-asc
-- learn-m365.cloud-app-security
+  - learn-m365.cloud-app-security
+  - learn-m365.sci-asc
 trophy: 
   uid: learn-m365.m365-secure-estate-through-azure.trophy
