@@ -13,7 +13,7 @@ Azure Security Center will continually look for security issues with subscriptio
 
 You can review the secure score, and then begin to work on improving it. You’ll see the overall score, and how it’s split across your subscriptions:
 
-:::image type="content" source="../media/3-secure-score-dashboard-inline.png" lightbox="../media/3-secure-score-dashboard-expanded.png" alt-text="Secure score dashboard":::
+:::image type="content" source="../media/3-secure-score-dashboard-inline.png" lightbox="../media/3-secure-score-dashboard-expanded.png" alt-text="Screenshot showing the Secure score dashboard":::
 
 Select any subscription to find out how its score has been calculated:
 
@@ -97,7 +97,7 @@ created, then select **Go to resource**.
 
 1. When you’re done, select the **+** next to the **Security Center Alert** field, then select **Continue**. Now you can configure the details for the emails you want to send for alerts:
 
-    :::image type="content" source="../media/3-configure-email-details-inline.png" alt-text="Configure email details" lightbox="../media/3-configure-email-details-expanded.png":::
+    :::image type="content" source="../media/3-configure-email-details-inline.png" lightbox="../media/3-configure-email-details-expanded.png" alt-text="Configure email details":::
 
     When you’re done, select **Save**.
 

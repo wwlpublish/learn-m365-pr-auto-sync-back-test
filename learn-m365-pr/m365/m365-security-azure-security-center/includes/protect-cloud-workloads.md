@@ -228,7 +228,7 @@ Azure Security Center provides specific protections for each resource or service
 
 Through advanced threat protection, Azure Key Vault detects suspicious attempts to exploit or access your Azure Key Vault accounts. When suspicious activities are detected by Azure Security Center, you’ll receive alerts.
 
-:::image type="content" source="../media/4-key-vault-alerts-inline.png" alt-text="Azure Key Vault security alerts" lightbox="../media/4-key-vault-alerts-expanded.png":::
+:::image type="content" source="../media/4-key-vault-alerts-inline.png" lightbox="../media/4-key-vault-alerts-expanded.png" alt-text="Azure Key Vault security alerts":::
 
 Azure Security Center will also send an email to the subscription administrator, which includes information about activity that occurred, and how to remediate it.
 
@@ -259,7 +259,7 @@ Azure Security Center also uses malware reputation screening, where hash reputat
 
 You can select an alert to get more information, along with details about how you can remediate it.
 
-:::image type="content" source="../media/4-remediate-malware-alert-inline.png" alt-text="A malware alert" lightbox="../media/4-remediate-malware-alert-expanded.png":::
+:::image type="content" source="../media/4-remediate-malware-alert-inline.png" lightbox="../media/4-remediate-malware-alert-expanded.png" alt-text="A malware alert":::
 
 Azure Security Center can also send an email to the storage owner to approve or delete the file. You can set up workflow automation for this, by configuring an automated workflow that deletes suspicious files whenever the **Potential malware uploaded to a storage account** alert is triggered.
 
@@ -286,13 +286,12 @@ When you want to enable Azure Security Center for IoT, two different deployment 
 You’ll need to make sure the following components are in place to enable Azure Security Center for IoT:
 
 - **IoT Hub standard tier**
-    - You’ll also need an Azure role that has the **Owner** role over it
+  - You’ll also need an Azure role that has the **Owner** role over it
 - **Azure Security Center**
 - **Log Analytics Workspace** (one is created for you automatically when enabling Azure Security Center for IoT)
 
 > [!NOTE]
 > If you want to use enhanced deployment, you need to also check the supported platforms for agents. You should also make sure that your IoT Hub is in one of the supported regions. You can find details about supported platforms and regions in the **Learn more** section of this unit.
-
 
 ### Enable Azure Security Center for IoT
 
@@ -322,25 +321,22 @@ After you’ve set up Azure Security Center for IoT, it will begin to provide se
 1. Select **IoT Hubs & resources**, under **Resource security hygiene**.
 1. You’ll see security recommendations for your IoT Hubs. Select a recommendation to investigate it further.
 
-    :::image type="content" source="../media/4-security-recommendation-for-iot-hub-inline.png" alt-text="Security recommendation for IoT Hub" lightbox="../media/4-security-recommendation-for-iot-hub-expanded.png":::
+    :::image type="content" source="../media/4-security-recommendation-for-iot-hub-inline.png" lightbox="../media/4-security-recommendation-for-iot-hub-expanded.png" alt-text="Security recommendation for IoT Hub":::
 
 1. In the pane that appears, you’ll see
 more information about the security recommendations, which of your IoT Hubs are
 affected, and details about remediation steps you can take to address the
 issue.
 
-    :::image type="content" source="../media/4-recommendation-details-iot-hub-inline.png" alt-text="Recommendation details for IoT Hub" lightbox="../media/4-recommendation-details-iot-hub-expanded.png":::
+    :::image type="content" source="../media/4-recommendation-details-iot-hub-inline.png" lightbox="../media/4-recommendation-details-iot-hub-expanded.png" alt-text="Recommendation details for IoT Hub":::
 
 1. To remediate, select an IoT Hub and then select **Remediate**, or select **Trigger Logic App** to trigger an automated workflow.
 
 ## Learn more
 
 - [Onboard Windows servers to the Microsoft Defender ATP service](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-server-endpoints).
-
 - [Onboarding to Azure Security Center Standard for enhanced security](https://docs.microsoft.com/azure/security-center/security-center-onboarding).
-
 - [Azure Security Center’s ACR bundle](https://docs.microsoft.com/azure/security-center/azure-kubernetes-service-integration)
-
 - [Azure Security Center’s AKS bundle](https://docs.microsoft.com/azure/security-center/azure-kubernetes-service-integration)
 - [Azure Security Center for IoT Supported platforms](https://docs.microsoft.com/azure/asc-for-iot/how-to-deploy-agent#supported-platforms)
 - [Azure Security Center for IoT supported regions](https://docs.microsoft.com/azure/asc-for-iot/service-prerequisites#supported-service-regions)
