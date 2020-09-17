@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.deploy-meetings.2-set-up-users
+title: Set up users
+metadata:
+  title: Set up users
+  description: Learn how to set users up on Teams meetings by using the Microsoft 365 admin center, PowerShell, or Teams meetings policies. 
+  ms.date: 09/08/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 6
+content: |
+  [!include[](includes/2-set-up-users.md)]
