@@ -1,9 +1,10 @@
 Organizations often need to control the set of features that are available in Microsoft Teams meetings in order to focus the flow of meetings or to reduce the attack surface area. You can use meeting policies to remove features from meetings.
 
 Suppose you are using Teams meetings in your software development organization and you've been asked to demo new functionality to external users. By default, your organization has restricted external users from controlling internal machines in Team meetings. You need to allow external users to try out your app's new features on your machine.
+
 Here, you will learn how to use Teams policies to control what participants can do in meetings.
 
-## What are meetings policies?
+## What are meeting policies?
 
 Meeting policies are used to define the features available to meeting organizers and participants. Meeting policies define the user experience before, during, and after a meeting. There are two types of meeting policies:
 
