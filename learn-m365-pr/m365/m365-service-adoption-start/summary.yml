@@ -123,3 +123,18 @@ quiz:
       - content: "Business process owners who are willing to participate in proof of concept projects"
         isCorrect: false
         explanation: "No, your stakeholders are anyone with interest in or influence over your project."
+    - content: "Which of the following is NOT a benefit for employees moving to cloud-based services?"
+      choices:
+      - content: "Anytime, anywhere access"
+        isCorrect: false
+        explanation: "Incorrect, anytime, anywhere access is a benefit for employees moving to cloud-based services."
+      - content: "Simpler interaction with IT"
+        isCorrect: true
+        explanation: "Correct, simpler interaction with IT is NOT a benefit for employees moving to cloud-based services."
+      - content: "Secure experience"
+        isCorrect: false
+        explanation: "Incorrect, secure experience is a benefit for employees moving to cloud-based services."
+      - content: "Technical agility"
+        isCorrect: false
+        explanation: "Incorrect, technical agility is a benefit for employees moving to cloud-based services."
+
