@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.enterprise-security.3-configure-multi-factor-authentication
+title: Configure multi-factor authentication (MFA)
+metadata:
+  title: Configure multi-factor authentication (MFA)
+  description: Learn how to require extra credentials during authentication that make it very hard for attackers to break into user accounts.
+  ms.date: 09/09/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 4
+content: |
+  [!include[](includes/3-configure-multi-factor-authentication.md)]

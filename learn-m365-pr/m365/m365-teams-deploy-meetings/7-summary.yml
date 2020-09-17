@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.deploy-meetings.7-summary
+title: Summary
+metadata:
+  title: Summary
+  description: Review what you've learned about configuring advanced meetings features and dedicated meeting hardware with Teams.
+  ms.date: 09/08/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 1
+content: |
+  [!include[](includes/7-summary.md)]

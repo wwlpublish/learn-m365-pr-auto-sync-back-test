@@ -4,12 +4,12 @@ title: Enhance browser security with Microsoft Defender Application Guard
 metadata:
   title: Enhance browser security with Microsoft Defender Application Guard
   description: "Enhance browser security with Microsoft Defender Application Guard"
-  ms.date: 09/17/2020
+  ms.date: 09/19/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-durationInMinutes: 3
+durationInMinutes: 5
 content: |
   [!include[](includes/4-enhance-browser-security-defender-application-guard.md)]

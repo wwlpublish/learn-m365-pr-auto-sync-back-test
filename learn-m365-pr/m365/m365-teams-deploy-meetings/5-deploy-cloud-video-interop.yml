@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.deploy-meetings.5-deploy-cloud-video-interop
+title: Deploy Cloud video interop (CVI)
+metadata:
+  title: Deploy Cloud video interop (CVI)
+  description: Learn how CVI can connect third-party video conferencing hardware to Teams meetings.
+  ms.date: 09/08/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 1
+content: |
+  [!include[](includes/5-deploy-cloud-video-interop.md)]
