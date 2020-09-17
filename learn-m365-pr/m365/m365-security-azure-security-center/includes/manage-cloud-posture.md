@@ -147,17 +147,15 @@ The regulatory compliance dashboard gives an overview of your environment’s co
 
 :::image type="content" source="../media/3-regulatory-compliance-breakdown.png" alt-text="Regulatory compliance breakdown":::
 
-
 To remediate compliance issues, you expand the list of controls and select the recommendations to implement them.
 
 The Azure Security Benchmark consists of a collection of high-impact security recommendations that you can use to help secure most of your services in Azure. It’s based on well-known security benchmarks, like the Center for Internet Security (CIS) Control Framework. Most customers tend to structure their security policies around these frameworks, so the benchmark will most likely help you to understand how to best secure your resources.
 
 You can also generate reports for a standard. For example, you can download a report for the Azure Security Benchmark, by selecting **Download report**, and then selecting **Azure Security Benchmark** in the dropdown:
 
-:::image type="content" source="../media/3-select-download-report.png" alt-text="Download report":::
+:::image type="content" source="../media/3-select-download-report-inline.png" lightbox="../media/3-select-download-report-expanded.png" alt-text="Download report":::
 
 Reports give a high-level summary of your compliance status against your selected standard. You can share these reports with stakeholders, and provide them for internal and external auditing.
-
 
 ### Create custom policies
 
@@ -195,14 +193,13 @@ You can create your own policies that Azure Security Center uses to assess your 
 
 Your custom initiative will start to take effect. You’ll find it in your compliance dashboard, listed alongside the built-in initiatives.
 
-
 ## Networking security
 
 Azure Security Center will continuously monitor your environment based on network security best practices. When Azure Security Center finds potential security risks, it will give alerts and recommendations to help you understand how to best deal with them. The network map is a tool in Azure Security Center to help you understand the state of your Azure network and remediate any identified issues.
 
 :::image type="content" source="../media/3-network-map.png" alt-text="Network map":::
 
-You can use the network map to see the network topology of your workloads in Azure, and the connections between your virtual machines, virtual networks, and subnets. Use the map to drill down into specific resources to get a better understanding of them, along with the recommendations for those resources. To view the network map, you: 
+You can use the network map to see the network topology of your workloads in Azure, and the connections between your virtual machines, virtual networks, and subnets. Use the map to drill down into specific resources to get a better understanding of them, along with the recommendations for those resources. To view the network map, you:
 
 1. Select **Networking** under **Resource Security Hygiene**, on the left pane of the Azure Security Center.
 
@@ -214,7 +211,7 @@ You can use filters at the top of the topology to specify what you want to see. 
 
 You select a specific resource to drill down into it, and view the recommendations. Details and recommendations for that specific resource will show in a pane that appears on the right:
 
-:::image type="content" source="../media/3-network-details.png" alt-text="View network details":::
+:::image type="content" source="../media/3-network-details-inline.png" lightbox="../media/3-network-details-expanded.png" alt-text="View network details":::
 
 ## Learn more
 
