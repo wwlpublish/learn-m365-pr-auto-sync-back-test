@@ -3,7 +3,7 @@ uid: learn-m365.m365-cloud-security
 metadata:
   title: Secure your estate through Azure
   description: Learn how Azure can provide comprehensive security for your organization's estate. 
-  ms.date: 09/16/2020
+  ms.date: 09/17/2020
   author: IanKensey
   ms.author: iankensey
   ms.topic: interactive-tutorial
@@ -21,6 +21,7 @@ roles:
 products: 
 - m365
 modules:
+- learn-m365.sci-asc
 - learn-m365.cloud-app-security
 trophy: 
   uid: learn-m365.m365-secure-estate-through-azure.trophy
