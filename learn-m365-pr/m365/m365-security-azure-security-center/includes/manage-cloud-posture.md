@@ -13,19 +13,19 @@ Azure Security Center will continually look for security issues with subscriptio
 
 You can review the secure score, and then begin to work on improving it. You’ll see the overall score, and how it’s split across your subscriptions:
 
-:::image type="content" source="../media/3-secure-score-dashboard.png" alt-text="Secure score dashboard":::
+:::image type="content" source="../media/3-secure-score-dashboard-inline.png" lightbox="../media/3-secure-score-dashboard-expanded.png" alt-text="Screenshot showing the Secure score dashboard":::
 
 Select any subscription to find out how its score has been calculated:
 
-:::image type="content" source="../media/3-secure-score-calculation.png" alt-text="Secure score calculation":::
+:::image type="content" source="../media/3-secure-score-calculation-inline.png" lightbox="../media/3-secure-score-calculation-expanded.png" alt-text="Secure score calculation":::
 
 You’ll see a list of controls. Each control is made up of a group of related recommendations to deal with a specific risk, along with detailed instructions about how to implement them. Your secure score is calculated using these controls. The controls are prioritized for you in the top down list, so that you’re aware of which ones to take care of first. Each control will only help you increase your secure score if you get maximum points for that specific control. You only get all those points if you implement all of its associated recommendations. For example, the **Manage access and permissions control** has several recommendations that need to be implemented to get its maximum number of points (four):
 
-:::image type="content" source="../media/3-control-breakdown.png" alt-text="Breakdown":::
+:::image type="content" source="../media/3-control-breakdown-inline.png" lightbox="../media/3-control-breakdown-expanded.png" alt-text="Breakdown" :::
 
 If a recommendation in a control has the **Quick Fix** option, select it to apply the recommendation automatically:
 
-:::image type="content" source="../media/3-apply-quick-fix-secure-score.png" alt-text="Apply the recommendation":::
+:::image type="content" source="../media/3-apply-quick-fix-secure-score-inline.png" lightbox="../media/3-apply-quick-fix-secure-score-expanded.png" alt-text="Apply the recommendation":::
 
 > [!NOTE]
 > You can also access your secure score programmatically through the Azure Security Center REST API, to query data and generate your own reports.
@@ -34,15 +34,15 @@ If a recommendation in a control has the **Quick Fix** option, select it to appl
 
 It can be difficult to remediate issues across a large fleet of resources and subscriptions. Azure Security Center helps you manage this scenario better through automation in several ways:
 
-**Quick Fix recommendations**
+#### Quick Fix recommendations
 
-You can use **Quick Fix** to implement certain recommendations across multiple resources. When you select **Quick Fix**, you can choose the resources that this recommendation should be implemented across. For example, for the **Secure transfer to storage accounts should be enabled** Quick Fix recommendation, you select which storage accounts should be remediated: 
+You can use **Quick Fix** to implement certain recommendations across multiple resources. When you select **Quick Fix**, you can choose the resources that this recommendation should be implemented across. For example, for the **Secure transfer to storage accounts should be enabled** Quick Fix recommendation, you select which storage accounts should be remediated:
 
-:::image type="content" source="../media/3-secure-transfer-storage-accounts-recommendation.png" alt-text="Secure storage accounts recommendation":::
+:::image type="content" source="../media/3-secure-transfer-storage-accounts-recommendation-inline.png" lightbox="../media/3-secure-transfer-storage-accounts-recommendation-expanded.png" alt-text="Secure storage accounts recommendation":::
 
 At the top of the pane, you’ll also see a general description and details of the remediation, and information on how to remediate it manually if you wish. When you select **Remediate**, a pane appears on the right for you to review what this remediation will do, and the implications. If you’re happy to go ahead, select **Remediate resources**:
 
-:::image type="content" source="../media/3-select-remediate-resources.png" alt-text="Remediate resources":::
+:::image type="content" source="../media/3-select-remediate-resources-inline.png" lightbox="../media/3-select-remediate-resources-expanded.png" alt-text="Remediate resources":::
 
 ## Workflow automation with Logic Apps
 
@@ -97,20 +97,18 @@ created, then select **Go to resource**.
 
 1. When you’re done, select the **+** next to the **Security Center Alert** field, then select **Continue**. Now you can configure the details for the emails you want to send for alerts:
 
-    :::image type="content" source="../media/3-configure-email-details.png" alt-text="Configure email details":::
+    :::image type="content" source="../media/3-configure-email-details-inline.png" lightbox="../media/3-configure-email-details-expanded.png" alt-text="Configure email details":::
 
     When you’re done, select **Save**.
 
 1. Return to the **Add workflow automation** tab on your browser.
-    1. Make sure to select an appropriate subscription, or subscriptions, in the **Show Logic App instances from the following subscriptions** field. 
+    1. Make sure to select an appropriate subscription, or subscriptions, in the **Show Logic App instances from the following subscriptions** field.
 
     1. Select **Refresh** at the bottom of the form. You can select your Logic App in the **Logic App name** field. Then select **Create** when you're done:
 
     :::image type="content" source="../media/3-select-logic-app.png" alt-text="Select Logic App":::
 
-
 ## Continuous export
-
 
 You might want to export information about alerts and recommendations for reporting purposes, or to feed this information into other monitoring tools (such as a SIEM) that you might already have in your environment. Azure Security Center lets you:
 
@@ -149,17 +147,15 @@ The regulatory compliance dashboard gives an overview of your environment’s co
 
 :::image type="content" source="../media/3-regulatory-compliance-breakdown.png" alt-text="Regulatory compliance breakdown":::
 
-
 To remediate compliance issues, you expand the list of controls and select the recommendations to implement them.
 
 The Azure Security Benchmark consists of a collection of high-impact security recommendations that you can use to help secure most of your services in Azure. It’s based on well-known security benchmarks, like the Center for Internet Security (CIS) Control Framework. Most customers tend to structure their security policies around these frameworks, so the benchmark will most likely help you to understand how to best secure your resources.
 
 You can also generate reports for a standard. For example, you can download a report for the Azure Security Benchmark, by selecting **Download report**, and then selecting **Azure Security Benchmark** in the dropdown:
 
-:::image type="content" source="../media/3-select-download-report.png" alt-text="Download report":::
+:::image type="content" source="../media/3-select-download-report-inline.png" lightbox="../media/3-select-download-report-expanded.png" alt-text="Download report":::
 
 Reports give a high-level summary of your compliance status against your selected standard. You can share these reports with stakeholders, and provide them for internal and external auditing.
-
 
 ### Create custom policies
 
@@ -197,14 +193,13 @@ You can create your own policies that Azure Security Center uses to assess your 
 
 Your custom initiative will start to take effect. You’ll find it in your compliance dashboard, listed alongside the built-in initiatives.
 
-
 ## Networking security
 
 Azure Security Center will continuously monitor your environment based on network security best practices. When Azure Security Center finds potential security risks, it will give alerts and recommendations to help you understand how to best deal with them. The network map is a tool in Azure Security Center to help you understand the state of your Azure network and remediate any identified issues.
 
 :::image type="content" source="../media/3-network-map.png" alt-text="Network map":::
 
-You can use the network map to see the network topology of your workloads in Azure, and the connections between your virtual machines, virtual networks, and subnets. Use the map to drill down into specific resources to get a better understanding of them, along with the recommendations for those resources. To view the network map, you: 
+You can use the network map to see the network topology of your workloads in Azure, and the connections between your virtual machines, virtual networks, and subnets. Use the map to drill down into specific resources to get a better understanding of them, along with the recommendations for those resources. To view the network map, you:
 
 1. Select **Networking** under **Resource Security Hygiene**, on the left pane of the Azure Security Center.
 
@@ -216,8 +211,7 @@ You can use filters at the top of the topology to specify what you want to see. 
 
 You select a specific resource to drill down into it, and view the recommendations. Details and recommendations for that specific resource will show in a pane that appears on the right:
 
-:::image type="content" source="../media/3-network-details.png" alt-text="View network details":::
-
+:::image type="content" source="../media/3-network-details-inline.png" lightbox="../media/3-network-details-expanded.png" alt-text="View network details":::
 
 ## Learn more
 

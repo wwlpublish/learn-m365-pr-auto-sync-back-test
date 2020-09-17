@@ -2,23 +2,23 @@
 uid: learn-m365.sci-asc
 metadata:
   title: Improve your cloud security posture with Azure Security Center
-  description: Learn how you can strengthen your security posture through Azure Security Center
+  description: Learn how you can strengthen your security posture through Azure Security Center.
   ms.date: 09/08/2020
   ms.author: elizapo
   author: iankensey
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Improve your cloud security posture with Azure Security Center
-summary: Learn how you can strengthen your security posture through Azure Security Center
+summary: Learn how you can strengthen your security posture through Azure Security Center.
 abstract: |
   At the end of this module, you should be able to:
-  - Understand how Azure Security Center can help organizations keep ahead of their security and compliance needs
-  - Explore Cloud Security Posture Management and the services and features available in Azure
-  - Understand how to use Cloud Workload Protection to protect VMs and Servers, Containers, IoT, Data and Storage
-  - Improve Azure security using Azure Sentinel
-prerequisites: None | 
-  - Familiarity with Azure administration and security
-  - Basic familiarity with Azure services, particularly Azure Security Center
+  - Understand how Azure Security Center can help organizations keep ahead of their security and compliance needs.
+  - Explore Cloud Security Posture Management and the services and features available in Azure.
+  - Understand how to use Cloud Workload Protection to protect VMs and Servers, Containers, IoT, Data and Storage.
+  - Improve Azure security using Azure Sentinel.
+prerequisites: | 
+  - Familiarity with Azure administration and security.
+  - Basic familiarity with Azure services, particularly Azure Security Center.
   - Familiarity with Azure virtual machines and virtual networking.
 iconUrl: /learn/achievements/generic-badge.svg
 levels:

@@ -22,13 +22,14 @@ You complete the following steps to integrate Azure Sentinel with Azure Security
 1. When the **Azure Sentinel workspaces** pane appears, select a workspace. If you don’t have a workspace to use, you can create a new one by selecting **Add** at the top of the list.
 1. In the left pane, select **Data connectors**, under **Configuration**.
 
-    :::image type="content" source="../media/5-open-connector-page.png" alt-text="Open the Security Center connector":::
+    :::image type="content" source="../media/5-open-connector-page-inline.png" lightbox="../media/5-open-connector-page-expanded.png" alt-text="Open the Security Center connector":::
+
 1. Select **Azure Security Center** in the connector gallery, then select **Open connector page** in the pane that appears on the right.
 
 1. Select **Connect** on the subscription for which you want to stream alerts into Azure Sentinel.
 
-    :::image type="content" source="../media/5-connect-subscription.png" alt-text="Connect a subscription":::
+    :::image type="content" source="../media/5-connect-subscription-inline.png" lightbox="../media/5-connect-subscription-expanded.png" alt-text="Connect a subscription":::
 
 1. If you also want to automatically create incidents for alerts from Azure Security Center, select **Enable**, under **Create incidents**. Incidents enable you to gather related information on alerts and do detailed investigations in Azure Sentinel.
 
-    :::image type="content" source="../media/5-enable-incidents.png" alt-text="Create incidents":::
+    :::image type="content" source="../media/5-enable-incidents-inline.png" lightbox="../media/5-enable-incidents-expanded.png" alt-text="Create incidents":::

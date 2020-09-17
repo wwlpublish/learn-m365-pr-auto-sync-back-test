@@ -14,9 +14,9 @@ As a unified infrastructure security management system, Azure Security Center is
 
 Use the Azure Security Center dashboard in the Azure portal to obtain and manage an organization level overview of the company’s security posture, compliance, and any threats.
 
-:::image type="content" source="../media/2-dashboard.png" alt-text="Azure Security Center dashboard":::
+:::image type="content" source="../media/2-dashboard-inline.png" lightbox="../media/2-dashboard-expanded.png" alt-text="Azure Security Center dashboard":::
 
-The Azure Security Center dashboard consists of a few high-level sections: 
+The Azure Security Center dashboard consists of a few high-level sections:
 
 ### Policy & compliance
 
@@ -30,7 +30,7 @@ Azure Security Center also enables you to set up security policies to protect di
 
 Use this section to understand which common security hygiene issues are affecting your resources. These issues will be labeled as low, medium, or high severity, based on the impact they might have on your organization’s security. For example, Azure Security Center tells you whether there are any Azure SQL Database servers that don’t have advanced data security enabled. You can then let Azure Security Center automatically remediate this situation using Quick Fix:
 
-:::image type="content" source="../media/2-resource-hygiene.png" alt-text="Resource hygiene":::
+:::image type="content" source="../media/2-resource-hygiene-inline.png" lightbox="../media/2-resource-hygiene-expanded.png" alt-text="Resource hygiene":::
 
 ### Threat protection
 

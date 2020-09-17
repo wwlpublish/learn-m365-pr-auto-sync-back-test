@@ -16,7 +16,7 @@ Azure Security Center protects your virtual machines and servers through several
 
 ### Use Microsoft Defender Advanced Threat Protection
 
-Azure Security Center is designed to work with other Azure services to continuously protect and monitor your servers. Azure Security Center can extend how it protects your cloud workloads by integrating with Microsoft Defender Advanced Threat Protection (ATP) for Servers. Both services will work together to provide intelligent endpoint detection and response capabilities. Microsoft Defender ATP for Servers detects threats, and triggers alerts. You can then see these alerts from Azure Security Center. From there, you can jump to the Microsoft Defender ATP portal, and carry out detailed investigations to understand the scope of an attack. 
+Azure Security Center is designed to work with other Azure services to continuously protect and monitor your servers. Azure Security Center can extend how it protects your cloud workloads by integrating with Microsoft Defender Advanced Threat Protection (ATP) for Servers. Both services will work together to provide intelligent endpoint detection and response capabilities. Microsoft Defender ATP for Servers detects threats, and triggers alerts. You can then see these alerts from Azure Security Center. From there, you can jump to the Microsoft Defender ATP portal, and carry out detailed investigations to understand the scope of an attack.
 
 You’ll need to complete some steps. For example, you can do the following higher-level steps to use Microsoft Defender ATP integration with Azure Security Center, to protect your Windows servers:
 
@@ -29,10 +29,9 @@ You’ll need to complete some steps. For example, you can do the following high
 >
 > Also, automated onboarding is only available for Windows Server 2008 R2 SP1, Windows Server 2012 R2, and Windows Server 2016.
 
-
 ### Use just-in-time (JIT) to protect virtual machine access
 
-Attackers frequently look for accessible machines through open management ports such as Secure Shell (SSH) or Remote Desktop Protocol (RDP). This means that all of the virtual machines in your environment could be targets for an attacker. If a virtual machine becomes compromised, it can be used to attack other resources in your environment. 
+Attackers frequently look for accessible machines through open management ports such as Secure Shell (SSH) or Remote Desktop Protocol (RDP). This means that all of the virtual machines in your environment could be targets for an attacker. If a virtual machine becomes compromised, it can be used to attack other resources in your environment.
 
 Of course, you want to prevent this from ever happening by perhaps closing as many ports as you can at all times. The problem is that, because your users also use these ports, you can’t practically always keep them closed. Here’s where just-in-time (JIT) can help you. JIT enables you to lock ports for inbound traffic on your virtual machines, but allow them to be opened temporarily when necessary.
 
@@ -229,7 +228,7 @@ Azure Security Center provides specific protections for each resource or service
 
 Through advanced threat protection, Azure Key Vault detects suspicious attempts to exploit or access your Azure Key Vault accounts. When suspicious activities are detected by Azure Security Center, you’ll receive alerts.
 
-:::image type="content" source="../media/4-key-vault-alerts.png" alt-text="Azure Key Vault security alerts":::
+:::image type="content" source="../media/4-key-vault-alerts-inline.png" lightbox="../media/4-key-vault-alerts-expanded.png" alt-text="Azure Key Vault security alerts":::
 
 Azure Security Center will also send an email to the subscription administrator, which includes information about activity that occurred, and how to remediate it.
 
@@ -239,11 +238,11 @@ Here’s how you configure advanced threat protection for your Azure Key Vaults:
 1. Make sure you’re on the standard tier.
 
     :::image type="content" source="../media/4-enable-key-vaults.png" alt-text="Enable Key Vaults":::
+
 1. Set **Key Vaults (preview)** to **enabled**.
 1. Select **Save** at the top.
 
-
-**Advanced Threat Protection for Azure Storage**
+#### Advanced Threat Protection for Azure Storage
 
 Through advanced threat protection, Azure Security Center provides protection for different types of Azure Storage resources, including:
 
@@ -256,11 +255,11 @@ For example, Azure Security Center will monitor for activities across your Azure
 - Suspicious activity: For example, someone might have accessed one of your storage accounts from an IP address that’s known to be an active exit node of Tor.
 - Anomalous behavior: Normally, your storage accounts are accessed from the United States, but now access might have been attempted from another country, on a different continent. So Azure Security Center decides to alert you.
 
-Azure Security Center also uses malware reputation screening, where hash reputation analysis is used to find out whether an uploaded file could be harmful. This means your uploaded files aren’t opened or scanned. Instead, the storage logs are scrutinized and hashes of uploaded files are compared with hashes of known viruses, spyware, trojans, and ransomware. If Azure Security Center suspects a file contains malware, it will raise an alert. 
+Azure Security Center also uses malware reputation screening, where hash reputation analysis is used to find out whether an uploaded file could be harmful. This means your uploaded files aren’t opened or scanned. Instead, the storage logs are scrutinized and hashes of uploaded files are compared with hashes of known viruses, spyware, trojans, and ransomware. If Azure Security Center suspects a file contains malware, it will raise an alert.
 
 You can select an alert to get more information, along with details about how you can remediate it.
 
-:::image type="content" source="../media/4-remediate-malware-alert.png" alt-text="A malware alert":::
+:::image type="content" source="../media/4-remediate-malware-alert-inline.png" lightbox="../media/4-remediate-malware-alert-expanded.png" alt-text="A malware alert":::
 
 Azure Security Center can also send an email to the storage owner to approve or delete the file. You can set up workflow automation for this, by configuring an automated workflow that deletes suspicious files whenever the **Potential malware uploaded to a storage account** alert is triggered.
 
@@ -287,13 +286,12 @@ When you want to enable Azure Security Center for IoT, two different deployment 
 You’ll need to make sure the following components are in place to enable Azure Security Center for IoT:
 
 - **IoT Hub standard tier**
-    - You’ll also need an Azure role that has the **Owner** role over it
+  - You’ll also need an Azure role that has the **Owner** role over it
 - **Azure Security Center**
 - **Log Analytics Workspace** (one is created for you automatically when enabling Azure Security Center for IoT)
 
 > [!NOTE]
 > If you want to use enhanced deployment, you need to also check the supported platforms for agents. You should also make sure that your IoT Hub is in one of the supported regions. You can find details about supported platforms and regions in the **Learn more** section of this unit.
-
 
 ### Enable Azure Security Center for IoT
 
@@ -323,25 +321,22 @@ After you’ve set up Azure Security Center for IoT, it will begin to provide se
 1. Select **IoT Hubs & resources**, under **Resource security hygiene**.
 1. You’ll see security recommendations for your IoT Hubs. Select a recommendation to investigate it further.
 
-    :::image type="content" source="../media/4-security-recommendation-for-iot-hub.png" alt-text="Security recommendation for IoT Hub":::
+    :::image type="content" source="../media/4-security-recommendation-for-iot-hub-inline.png" lightbox="../media/4-security-recommendation-for-iot-hub-expanded.png" alt-text="Security recommendation for IoT Hub":::
 
 1. In the pane that appears, you’ll see
 more information about the security recommendations, which of your IoT Hubs are
 affected, and details about remediation steps you can take to address the
 issue.
 
-    :::image type="content" source="../media/4-recommendation-details-iot-hub.png" alt-text="Recommendation details for IoT Hub":::
+    :::image type="content" source="../media/4-recommendation-details-iot-hub-inline.png" lightbox="../media/4-recommendation-details-iot-hub-expanded.png" alt-text="Recommendation details for IoT Hub":::
 
 1. To remediate, select an IoT Hub and then select **Remediate**, or select **Trigger Logic App** to trigger an automated workflow.
 
 ## Learn more
 
 - [Onboard Windows servers to the Microsoft Defender ATP service](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-server-endpoints).
-
 - [Onboarding to Azure Security Center Standard for enhanced security](https://docs.microsoft.com/azure/security-center/security-center-onboarding).
-
 - [Azure Security Center’s ACR bundle](https://docs.microsoft.com/azure/security-center/azure-kubernetes-service-integration)
-
 - [Azure Security Center’s AKS bundle](https://docs.microsoft.com/azure/security-center/azure-kubernetes-service-integration)
 - [Azure Security Center for IoT Supported platforms](https://docs.microsoft.com/azure/asc-for-iot/how-to-deploy-agent#supported-platforms)
 - [Azure Security Center for IoT supported regions](https://docs.microsoft.com/azure/asc-for-iot/service-prerequisites#supported-service-regions)
