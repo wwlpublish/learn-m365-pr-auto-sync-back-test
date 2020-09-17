@@ -1,0 +1,35 @@
+### YamlMime:Module
+uid: learn-m365.teams.securing-environment
+metadata:
+  title: Get started securing your Microsoft Teams environment
+  description: Understand what security capabilities are available in Microsoft Teams.
+  ms.date: 09/08/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+title: Get started securing your Microsoft Teams environment
+summary: Understand what security capabilities are available in Microsoft Teams.
+abstract: |
+  At the end of this module, you should be able to:
+  - Describe enterprise-grade security in Teams.
+  - Explain integrated security across SharePoint, OneDrive, Office, and Windows.
+  - Describe security settings and policies in Teams.
+prerequisites: | 
+  - Familiarity with Microsoft Teams administration
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- office-teams
+units:
+- learn-m365.teams.securing-environment.1-introduction
+- learn-m365.teams.securing-environment.2-enterprise-grade-security
+- learn-m365.teams.securing-environment.3-security-across-sharepoint-office-onedrive-windows
+- learn-m365.teams.securing-environment.4-security-settings-policies
+- learn-m365.teams.securing-environment.5-knowledge-check
+- learn-m365.teams.securing-environment.6-summary
+badge:
+  uid: learn-m365.teams.securing-environment.badge
