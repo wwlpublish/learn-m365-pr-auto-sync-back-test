@@ -14,7 +14,7 @@ As a unified infrastructure security management system, Azure Security Center is
 
 Use the Azure Security Center dashboard in the Azure portal to obtain and manage an organization level overview of the company’s security posture, compliance, and any threats.
 
-:::image type="content" source="../media/2-dashboard-inline.png" alt-text="Azure Security Center dashboard" lightbox="2-dashboard-expanded.png":::
+:::image type="content" source="../media/2-dashboard-inline.png" alt-text="Azure Security Center dashboard" lightbox="../media/2-dashboard-expanded.png":::
 
 The Azure Security Center dashboard consists of a few high-level sections:
 

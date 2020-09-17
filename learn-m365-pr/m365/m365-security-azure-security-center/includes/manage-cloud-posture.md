@@ -13,7 +13,7 @@ Azure Security Center will continually look for security issues with subscriptio
 
 You can review the secure score, and then begin to work on improving it. You’ll see the overall score, and how it’s split across your subscriptions:
 
-:::image type="content" source="../media/3-secure-score-dashboard-inline.png" alt-text="Secure score dashboard" lightbox="../media/3-secure-score-dashboard-extended":::
+:::image type="content" source="../media/3-secure-score-dashboard-inline.png" alt-text="Secure score dashboard" lightbox="../media/3-secure-score-dashboard-extended.png":::
 
 Select any subscription to find out how its score has been calculated:
 
