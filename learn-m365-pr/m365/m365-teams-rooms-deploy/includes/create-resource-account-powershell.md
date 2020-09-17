@@ -6,15 +6,15 @@ There are two mandatory PowerShell modules needed to create a resource account. 
 2. Make sure you have enough licenses by running the following PowerShell cmdlet:
 
 
-```powershell
-Get-MsolAccountSku | where-object {$_.AccountSkuID -like "*meeting*"}
-```
+   ```powershell
+   Get-MsolAccountSku | where-object {$_.AccountSkuID -like "*meeting*"}
+   ```
 
    ![See your licenses](../media/see-licenses.png)
 
-   In this example, you can see that there are 25 Meeting Room licenses and 19 of them have been consumed (or assigned). This means there are six licenses available to assign to resource accounts.
+   In this example, you can see there are 25 Meeting Room licenses and 19 of them have been consumed (or assigned). This means there are six licenses available to assign to resource accounts.
 
-   When creating accounts via PowerShell, it is advantageous to use variables to store values. Throughout these following cmdlets, you will re-use the same values several times. Storing these values in a variable will make these commands easier to run successfully. It also sets the stage for writing your own script if you need to create many resource accounts at once. 
+   When creating accounts via PowerShell, it is advantageous to use variables to store values. Throughout these following cmdlets, you'll re-use the same values several times. Storing these values in a variable will make these commands easier to run successfully. It also sets the stage for writing your own script if you need to create many resource accounts at once. 
 
 3. Create a few variables (in this case) like account UPN, mailbox name, mailbox alias, and password. 
 
