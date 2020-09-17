@@ -105,7 +105,7 @@ There are a few unique considerations when converting a user account to a meetin
 - Another change when converting a user to a meeting room is that Skype for Business now knows a meeting room has been invited. Attendees will be asked if they want to mute their devices before joining the meeting in order to limit echo and feedback.
 - You should also be aware that when you convert a user to a meeting room, that meeting room will no longer appear when you run the **Get-CsUser Skype for Business** PowerShell cmdlet. Instead, you'll have to run **Get-CsMeetingRoom** to list your meeting rooms.
 
-Create an Exchange Resource Mailbox as described above and then run the Skype for Business Powershell cmdlet **Enable-CsUser**. In the following examples, be sure to replace skypepool.contoso.com and contoso.com to the correct values for your organization.
+Create an Exchange Resource Mailbox as described above and then run the Skype for Business PowerShell cmdlet **Enable-CsUser**. In the following examples, be sure to replace skypepool.contoso.com and contoso.com to the correct values for your organization.
 
 ```powershell
 Enable-CsUser -Identity MTR-STP-Avanti-1@contoso.com -RegistrarPool "skypepool.contoso.com" -SipAddressType SamAccountName -SipDomain contoso.com
