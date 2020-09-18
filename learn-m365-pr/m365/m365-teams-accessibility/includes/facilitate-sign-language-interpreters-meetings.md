@@ -27,7 +27,7 @@ If you want to use guest user access, but want the flexibility to employ some sp
 
 This short five-minute video walks you through the steps, at a high level, for turning on and enabling guest access in Teams.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE44NTr?autoplay=false?autoCaptions=en-gb]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE44NTr]
 
 ### Configure meeting policy settings for guests
 
