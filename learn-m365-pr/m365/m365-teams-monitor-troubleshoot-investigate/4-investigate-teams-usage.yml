@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.monitor-troubleshoot-investigate.4-investigate-teams-usage
+title: Investigate Teams usage with reports
+metadata:
+  title: Investigate Teams usage with reports
+  description: Learn how to monitor Teams usage with the reports provided by Teams.
+  ms.date: 09/07/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 4
+content: |
+  [!include[](includes/4-investigate-teams-usage.md)]
