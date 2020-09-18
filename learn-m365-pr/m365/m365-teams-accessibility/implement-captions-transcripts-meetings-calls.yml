@@ -9,6 +9,6 @@ metadata:
   author: iankensey
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
-durationInMinutes: 2
+durationInMinutes: 4
 content: |
   [!include[](includes/implement-captions-transcripts-meetings-calls.md)]

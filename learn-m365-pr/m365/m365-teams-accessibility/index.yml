@@ -9,14 +9,14 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Configure Microsoft Teams meetings and calls for inclusion
-summary: Understand how to implement accessibility features and capabilities in Microsoft Teams meetings.
+summary: As a Microsoft Teams admin, you want Teams to be as inclusive of people with disabilities as possible. Microsoft Teams includes numerous features -- including captioning of live video, real-time transcription of meetings, support for sign-language interpreters, adaptive backgrounds, and in-meeting chat that give your users a great amount of flexibility in how they engage with your Teams environment. In this module, we’ll look at how to enable Teams to make your environment more flexible -- and more inclusive. 
 abstract: |
   At the end of this module, you should be able to:
   - Implement captions and transcription for Microsoft Teams meetings and calls.
   - Facilitate sign language interpreters in meetings.
   - Enable background effects to reduce distractions in meetings.
   - Implement features to enhance participation in Microsoft Teams meetings.
-prerequisites: None | 
+prerequisites: | 
   - Familiarity with administration of Microsoft Teams
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
