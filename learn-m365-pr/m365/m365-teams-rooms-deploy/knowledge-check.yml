@@ -1,0 +1,87 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-teams-rooms-deploy.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: Learn to simplify the distribution of Teams Rooms across your environment by standardizing deployments. Discover the various components of Teams Rooms and their interconnections. Learn about the resource account, which represents the meeting room in Microsoft Teams. 
+  ms.date: 09/11/2020
+  author: AlexandraHrt
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Which of the following is NOT a consideration when standardizing your Teams Rooms deployments?"
+      choices:
+      - content: "Shipping"
+        isCorrect: false
+        explanation: "No, this is a consideration. You should decide if you will be shipping all of your devices to a central location first or if you will be shipping them directly to the remote offices."
+      - content: "Scalability"
+        isCorrect: false
+        explanation: "No, this is a consideration Scalability is the ability to take your ordering processes and scale them up from one or two Teams Rooms to dozens or hundreds of Teams Rooms. Having standardized processes will be very important as you scale up."
+      - content: "Lighting"
+        isCorrect: true
+        explanation: "Correct. This isn’t a consideration in standardization. You cannot control the lighting in every room as there are many variables that affect lighting, such as sunlight, the type of lightbulbs in the room, and the reflectivity of surfaces in the room."
+
+    - content: "What is the role of the console in Teams Rooms?"
+      choices:
+      - content: "It is the heart of teams Rooms and all components connect to it."
+        isCorrect: false
+        explanation: "Incorrect. The compute module, not the console, is where all the various components connect."
+      - content: "It is the center of table device used to manage the meeting."
+        isCorrect: true
+        explanation: "Correct! The console is what attendees in the room use to manage meetings."
+      - content: "It is the front of room display that shows meeting content."
+        isCorrect: false
+        explanation: "Incorrect. The console does not show the meeting content. That is done by the front of room displays."
+      
+    - content: "What is the role of the resource account?"
+      choices:
+      - content: "It signs in to Windows on Teams Rooms."
+        isCorrect: false
+        explanation: "No, the resource account signs in to either (or both) Teams and Skype for Business. There is a different account that signs in to Windows on Teams Rooms."
+      - content: "It schedules the meetings that happen on Teams Rooms."
+        isCorrect: false
+        explanation: "No, meeting organizers schedule the meetings. The resource account simply accepts the invite."
+      - content: "It's the account that is invited to meetings on behalf of the room."
+        isCorrect: true
+        explanation: "Correct. The resource account is an Exchange mailbox that accepts meeting invites. Any accepted meeting will show up on the console allowing attendees to one-touch join their meetings."
+      
+    - content: "Where in Microsoft 365 admin center do you go to create a resource account?"
+      choices:
+      - content: "Rooms & equipment"
+        isCorrect: true
+        explanation: "That's right. Teams Rooms resource accounts are created in the Rooms & equipment section of Microsoft 365 admin center."
+      - content: "Users"
+        isCorrect: false
+        explanation: "You need to go to the Users section after the room has been created in the Room & equipment section to set the password and assign the license. But Teams Rooms resource accounts are created in the Rooms & equipment section of Microsoft 365 admin center."
+      - content: "Roles"
+        isCorrect: false
+        explanation: "Teams Rooms resource accounts are created in the Rooms & equipment section of Microsoft 365 admin center."
+
+    - content: "What two modules are required to create a Teams Rooms account in PowerShell?"
+      choices:
+      - content: "Microsoft Online and Azure Active Directory"
+        isCorrect: false
+        explanation: "No, the Microsoft Online PowerShell module is what is used to manage Azure Active Directory. You also need the Exchange online module."
+      - content: "Exchange Online and Skype for Business Online"
+        isCorrect: false
+        explanation: "No, the Skype for Business Online module is optional if you want to set the resource account as a meeting room in Skype. But it is an optional module and is therefore not required."
+      - content: "Microsoft Online and Exchange Online"
+        isCorrect: true
+        explanation: "That's right. These two modules are required to create a Teams Rooms account in PowerShell."
+      
+    - content: "How can the Places feature help your users when scheduling meetings?"
+      choices:
+      - content: "It allows you to add additional parameters to a meeting room, such as wheelchair accessibility."
+        isCorrect: true
+        explanation: "That's right. You can also set parameters such as the meeting room floor and the room capacity."
+      - content: "It allows you to assign meeting rooms to buildings."
+        isCorrect: false
+        explanation: "No, that's actually done via Distribution Groups and Lists."
+      - content: "It helps secure the resource account from data leakage."
+        isCorrect: false
+        explanation: "No. While it may be required to secure some resource accounts from data leakage, Places helps users find rooms based on additional room parameters."
+      

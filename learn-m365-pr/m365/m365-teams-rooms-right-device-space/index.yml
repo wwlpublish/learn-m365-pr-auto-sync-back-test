@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn-m365.m365-teams-rooms-right-device-space
+metadata:
+  title: Choose the right device for the right space with Microsoft Teams
+  description: Learn about the necessary hardware components and how to choose them when designing Microsoft Teams Rooms.
+  ms.date: 09/09/2020
+  author: AlexandraHrt
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Choose the right device for the right space with Microsoft Teams
+summary: Learn about the necessary hardware components and how to choose them when designing Microsoft Teams Rooms. 
+abstract: |
+  At the end of this module, you should be able to:
+  - Consider the right criteria when analyzing various meeting spaces.
+  - Recognize the different form factors and components that comprise Microsoft Teams Rooms.
+  - Understand the environmental considerations when designing Microsoft Teams Rooms. 
+
+prerequisites: | 
+ - Familiarity with Microsoft Teams
+
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+- student
+products:
+- m365
+- office-teams
+units:
+- learn-m365.m365-teams-rooms-right-device-space.introduction
+- learn-m365.m365-teams-rooms-right-device-space.analyze-spaces
+- learn-m365.m365-teams-rooms-right-device-space.document-meeting-spaces
+- learn-m365.m365-teams-rooms-right-device-space.knowledge-check
+- learn-m365.m365-teams-rooms-right-device-space.summary
+badge: 
+  uid: learn-m365.m365-teams-rooms-right-device-space.badge
