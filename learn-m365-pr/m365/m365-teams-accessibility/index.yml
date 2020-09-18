@@ -16,7 +16,7 @@ abstract: |
   - Facilitate sign language interpreters in meetings.
   - Enable background effects to reduce distractions in meetings.
   - Implement features to enhance participation in Microsoft Teams meetings.
-prerequisites: None | 
+prerequisites: | 
   - Familiarity with administration of Microsoft Teams
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
