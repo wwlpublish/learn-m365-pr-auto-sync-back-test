@@ -28,18 +28,28 @@ Here's some  things you’ll want to consider when selecting equipment for your 
 
 **The touchscreen console**. The center of table touchscreen console is the device that users interact with when joining and managing a meeting. There are many different form factors. Some have compute modules built-in and some can swivel the display. Some consoles have a high tilt angle and some lay a little more flat.
 
+![Touchscreen consoles](../media/touchscreen-consoles.png)
+
 **The compute module**. Teams Rooms support compute modules from several vendors. The compute modules have been designed to match with the correct Teams Rooms configuration so that they have enough USB, HDMI, and other required ports. The compute module runs Windows 10 Enterprise IoT.
+
+![Compute modules](../media/compute-modules.png)
 
 **The camera**. Cameras are an important part of the Teams Rooms environment, and there are many different options. Some cameras are housed in a console that also contains the microphone and speakers, such as the camera on the left. The camera on the right is a traditional pan/tilt/zoom camera that works well in larger meeting spaces.
 You'll need to consider the field of view and if other features like automatic speaker framing are needed.
 
+![Cameras](../media/cameras.png)
+
 **The content camera**. There are specific certified cameras that support the content camera feature. You can see examples of two of them below.
+
+![Content cameras](../media/content-cameras.png)
 
 The ideal size of the capture area of an analog whiteboard is between 1.8m-2.7m/6-9 ft. wide. Whiteboards larger than 3.6m/12ft will not be picked up by the camera. Note that the whiteboard should be white and not another color. If you have a whiteboard that is the entire length of the wall, the camera will not be able to show the whole thing. The recommendation is to take colored tape and tape an outline of the camera’s field of view directly on the whiteboard.
 
 This provides two advantages. First, it helps the content camera frame the whiteboard as it can detect a border. Perhaps more importantly, it will let someone who's drawing on the whiteboard know if they're about to draw outside of what the camera can see. If they were to draw outside the taped area, the camera won't show it, and they'll be encouraged to continue diagramming inside the frame.
 
 **Audio considerations**. Audio is crucial so everyone can hear what's going on. On the left is a sound bar that hangs below the front of room display. The sound bar includes both the speakers and the microphone. On the right is a speaker-only sound bar. There are also microphones that can be placed throughout the room.
+
+![Audio sound bars](../media/audio-sound-bars.png)
 
 **Display options**. There are many different display options. You can use displays hanging on a wall or a projector. Make sure that the displays are sized properly for the space. 4K displays are supported, but Teams will only show up to a 1080p image.
 When should you use a single monitor versus dual monitors? A single monitor is good primarily for small rooms, while dual monitors are great for large rooms. Note that in either single or dual monitor scenarios, a monitor can be touch-enabled to support interactive inking.
