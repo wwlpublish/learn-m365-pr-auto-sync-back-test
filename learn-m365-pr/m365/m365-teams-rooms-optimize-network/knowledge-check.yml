@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-teams-rooms-optimize-network.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: Learn about the global Microsoft 365 network and how you can optimize your organizational network to maximize performance when accessing Microsoft Teams meetings.
+  ms.date: 09/09/2020
+  author: AlexandraHrt
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Which of the following will most help improve Microsoft 365 (and Teams) performance?"
+      choices:
+      - content: "Use an Azure Front Door."
+        isCorrect: false
+        explanation: "Azure Front Doors are found across the world and help provide a good connection to Microsoft 365. However, if you are not using local internet egress or have incorrectly configured DNS, you could end up going to a remote Azure Front Door and have poor performance."
+      - content: "Use centralized network egress."
+        isCorrect: false
+        explanation: "In some cases, a centralized network egress is a good design – usually for organizations that are close to each other geographically. But for organizations spread across a country, a continent, or the whole planet, centralized network egress should be avoided."
+      - content: "Connect to the Microsoft network as quickly as possible."
+        isCorrect: true
+        explanation: "That’s right. The faster you can get on the Microsoft network, the faster you can access the best Azure Front Door. That will provide the best possible client experience."
+
+    - content: "Where will a Microsoft Teams meeting be hosted?"
+      choices:
+      - content: "In the region of the first person to join the meeting."
+        isCorrect: true
+        explanation: "Correct. The first person to join a meeting dictates where the meeting is hosted."
+      - content: "In the region of the person who scheduled the meeting."
+        isCorrect: false
+        explanation: "The first person to join a meeting, and not the meeting organizer, dictates where the meeting is hosted."
+      - content: "In the region where the tenant is located."
+        isCorrect: false
+        explanation: "The first person to join the meeting dictates where the meeting is homed – even if tha's' in a region outside of the tenant’s configured home region."
+      
+    - content: "Which protocol is optimal when using Teams media?"
+      choices:
+      - content: "TCP"
+        isCorrect: false
+        explanation: "TCP is a slower – but more reliable - protocol than UDP. As such, UDP is the preferred protocol for Teams media."
+      - content: "UDP"
+        isCorrect: true
+        explanation: "You got it! Due to the speed of UDP, it’s the preferred protocol for Teams media."
+      - content: "HTTP"
+        isCorrect: false
+        explanation: "While HTTP is a supported protocol, it is the poorest performing protocol for Teams media."
+      
