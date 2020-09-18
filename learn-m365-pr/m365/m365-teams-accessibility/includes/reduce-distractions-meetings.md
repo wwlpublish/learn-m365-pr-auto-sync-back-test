@@ -6,8 +6,6 @@ Microsoft Teams makes it possible for users to activate background effects for v
 
 Background effects can help people focus on the speaker rather than on the speaker’s background. Microsoft Teams provides a library of backgrounds, and users can also upload their own. Users can use simple backgrounds to help them focus on the speaker, or they can use any of those already included in Microsoft Teams.
 
-:::image type="content" source="../media/background-image-add-image.png" alt-text="Screenshot showing how you can add a background image through Teams":::
-
 ### Enable background blur
 
 Background blur helps provide improved visibility and focus when in meetings or calls. For some users, background blur allows users to blur their own background in meetings and calls but keep themselves in focus.
