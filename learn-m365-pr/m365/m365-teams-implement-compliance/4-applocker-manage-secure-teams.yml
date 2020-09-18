@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.implement-compliance.4-applocker-manage-secure-teams
+title: Manage and secure Teams using AppLocker
+metadata:
+  title: Manage and secure Teams using AppLocker
+  description: See how to ensure that Teams is allowed by AppLocker.
+  ms.date: 09/07/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 2
+content: |
+  [!include[](includes/4-applocker-manage-secure-teams.md)]
