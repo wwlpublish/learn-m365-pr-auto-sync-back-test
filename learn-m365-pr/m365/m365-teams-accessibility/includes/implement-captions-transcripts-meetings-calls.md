@@ -10,11 +10,11 @@ Captions and transcripts are text versions of the words someone is speaking. Cap
 
 *Captions* appear for users in sync with real-time audio without obstructing other visual aids, like shared screens or media, as shown in the image below.
 
-:::image type="content" source="../media/teams-captions.png" alt-text="Screenshot of Teams showing captions during a conversation":::
+:::image type="content" source="../media/teams-captions.png" alt-text="Screenshot of Teams showing captions during a conversation.":::
 
 *Transcripts* play for users in sync with audio for recorded meetings. Users can access transcripts separately from videos so they can digest the content in a manner they prefer:
 
-:::image type="content" source="../media/teams-transcripts.png" alt-text="Screenshot showing a transcript":::
+:::image type="content" source="../media/teams-transcripts.png" alt-text="Screenshot showing a transcript.":::
 
 ## Enable live captions for meetings
 
@@ -30,7 +30,7 @@ To enable live captions for all users using the Microsoft Teams admin center:
 
 Users can then turn on live captions during meetings:
 
-:::image type="content" source="../media/teams-turn-on-live-captions.png" alt-text="Screenshot showing Teams message menu with the turn on live captions highlighted":::
+:::image type="content" source="../media/teams-turn-on-live-captions.png" alt-text="Screenshot showing Teams message menu with the turn on live captions highlighted.":::
 
 > [!NOTE]
 >
@@ -61,7 +61,7 @@ In the Microsoft Teams admin center:
 1. Select the **Meeting policies** pane.
 1. Select **Global (Org-wide default)** and set **Allow cloud recording** to **On**, as shown in the image below.
 
-   :::image type="content" source="../media/microsoft-teams-admin-center-meeting-policies-allow-cloud-meeting.png" alt-text="Screenshot showing the meeting policies in Teams Admin Center to allow for cloud recording":::
+   :::image type="content" source="../media/microsoft-teams-admin-center-meeting-policies-allow-cloud-meeting.png" alt-text="Screenshot showing the meeting policies in Teams Admin Center to allow for cloud recording.":::
 
 Users can then record any meetings by selecting **Start recording** during meetings:
 
@@ -75,37 +75,37 @@ With cloud recording and transcription enabled, your users can generate automati
 
 1. Find recorded meetings under **My content** - > **Meetings**:
 
-   :::image type="content" source="../media/transcripts-meetings-01.png" alt-text="Screenshot showing the ":::
+   :::image type="content" source="../media/transcripts-meetings-01.png" alt-text="Screenshot showing the.":::
 
 1. Select the video to enable captions and transcripts by selecting **Update video details** on the video in the list:
 
-   :::image type="content" source="../media/transcripts-meetings-02.png" alt-text="Screenshot showing how to update the video details":::
+   :::image type="content" source="../media/transcripts-meetings-02.png" alt-text="Screenshot showing how to update the video details.":::
 
 1. In the details section, select one of the supported languages to use for captioning and transcription:
 
-   :::image type="content" source="../media/transcripts-meetings-03.png" alt-text="Screenshot showing the details for supported video language":::
+   :::image type="content" source="../media/transcripts-meetings-03.png" alt-text="Screenshot showing the details for supported video language.":::
 
 1. In the options section, select **Autogenerate a caption file**:
 
-   :::image type="content" source="../media/transcripts-meetings-04.png" alt-text="Screenshot showing how to autogenerate a caption file":::
+   :::image type="content" source="../media/transcripts-meetings-04.png" alt-text="Screenshot showing how to autogenerate a caption file.":::
 
 1. Finally, select **Apply** at the top dashboard.
 
 1. Live captioning will then be available for the video. Users can enable it by selecting **CC** on the bottom right of the video when watching a video. A searchable transcript is also available on the right of the video:
 
-   :::image type="content" source="../media/transcripts-meetings-05.png" alt-text="Screenshot showing the transcript of a video":::
+   :::image type="content" source="../media/transcripts-meetings-05.png" alt-text="Screenshot showing the transcript of a video.":::
 
 1. Users can use the transcript to find keywords or phrases spoken during the video and jump to that specific point in the video by typing into the search field at the top of the transcript and selecting the result:
 
-   :::image type="content" source="../media/transcripts-meetings-06.png" alt-text="Screenshot showing how to search a transcript for keywords":::
+   :::image type="content" source="../media/transcripts-meetings-06.png" alt-text="Screenshot showing how to search a transcript for keywords.":::
 
 1. Alternatively, if users want to search for a word or phrase across all videos made available to them, they can search for it by using the search field at the top of Microsoft Stream:
 
-   :::image type="content" source="../media/transcripts-meetings-07.png" alt-text="Screenshot showing how to search for words and phrases in the Microsoft Stream":::
+   :::image type="content" source="../media/transcripts-meetings-07.png" alt-text="Screenshot showing how to search for words and phrases in the Microsoft Stream.":::
 
 1. And then select any result in the list to take you to a specific matched point in each video:
 
-   :::image type="content" source="../media/transcripts-meetings-08.png" alt-text="Screenshot showing the transcript search results":::
+   :::image type="content" source="../media/transcripts-meetings-08.png" alt-text="Screenshot showing the transcript search results.":::
 
 ## Learn more
 
