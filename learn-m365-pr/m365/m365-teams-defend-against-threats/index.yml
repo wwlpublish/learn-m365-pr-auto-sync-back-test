@@ -15,6 +15,8 @@ abstract: |
   - Describe the Advanced Threat Protection (ATP) features within Teams.
   - Describe how security is implemented for cloud applications.
   - Explain how to restrict and control access to Teams resources using Conditional Access.
+
+  **IMPORTANT** Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813).
 prerequisites: | 
   - Familiarity with Microsoft Teams administration
 iconUrl: /learn/achievements/generic-badge.svg

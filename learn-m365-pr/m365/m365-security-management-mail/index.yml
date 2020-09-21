@@ -15,6 +15,7 @@ abstract: |
   - Understand the protection available using ATP policies
   - Define mail protection using ATP policies
 
+  **IMPORTANT**: Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813). We'll be updating names in products and in the Learn content in the near future.  
 prerequisites: | 
  - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
 iconUrl: /learn/achievements/protect-mail-with-office-365-advanced-threat-protection.svg

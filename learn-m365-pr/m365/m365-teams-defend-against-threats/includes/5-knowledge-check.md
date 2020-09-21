@@ -18,7 +18,7 @@ quiz:
     choices:
     - content: "Microsoft Defender ATP, Azure ATP, Microsoft Cloud App Security."
       isCorrect: true
-      explanation: "That's correct. These four technologies work together to allow you to protect users, endpoints, and data."
+      explanation: "That's correct. These four technologies work together to allow you to protect users, endpoints, and data. (**IMPORTANT**: Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813).)"
     - content: "Microsoft 365 ATP, Conditional Access, Microsoft Cloud App Security."
       isCorrect: false
       explanation: "That's incorrect. Conditional Access isn't part of Microsoft Advanced Threat Protection."

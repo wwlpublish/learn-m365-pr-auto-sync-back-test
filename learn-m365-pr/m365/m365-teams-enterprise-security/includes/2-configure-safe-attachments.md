@@ -1,3 +1,6 @@
+>[!IMPORTANT]
+>Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813). We'll be updating names in products and in the Learn content in the near future.
+
 The ability to attach files to messages in Teams chats is a feature that users can find helpful. However, if the files originate from untrustworthy sources, they can become a security risk.
 
 Suppose, in your firm of legal advisors, you're concerned some Word documents might contain malicious macro code. You want to intercept malicious files that users exchange in Teams before they can compromise security.

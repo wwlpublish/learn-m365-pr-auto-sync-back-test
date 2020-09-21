@@ -1,1 +1,4 @@
+>[!IMPORTANT]
+>Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813). We'll be updating names in products and in the Learn content in the near future.
+
 Microsoft Office 365 Advanced Threat Protection provides protection against some of the most common organizational attacks, ranging from malicious attachments to harmful redirected links contained in the body of an email. By providing robust zero-day protection, and featuring the rich reporting and URL trace capabilities, security administrators have real-time insights into the attacks happening in your organization.
