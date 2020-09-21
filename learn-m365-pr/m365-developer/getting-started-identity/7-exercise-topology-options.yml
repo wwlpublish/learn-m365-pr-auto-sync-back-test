@@ -3,7 +3,7 @@ uid: learn-m365.getting-started-identity.7-exercise-topology-options
 metadata:
   title: Exercise - Identity topology options
   description: This exercise will demonstrate to the user how to configure and implement an application that supports B2B.
-  ms.date: 05/25/2020
+  ms.date: 09/07/2020
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
