@@ -1,3 +1,6 @@
+>[!IMPORTANT]
+>Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813). We'll be updating names in products and in the Learn content in the near future.
+
 People regularly send, receive, and share attachments, and it's not always easy to tell whether an attachment is safe or malicious just by looking at the email message. ATP helps prevent malicious attachments from infiltrating your organization.
 
 ### Set up (or edit) an ATP Safe Attachments policy

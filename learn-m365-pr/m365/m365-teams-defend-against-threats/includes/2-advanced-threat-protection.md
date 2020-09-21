@@ -1,3 +1,6 @@
+>[!IMPORTANT]
+>Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813). We'll be updating names in products and in the Learn content in the near future.
+
 As systems such as Microsoft Teams become easier to use and more flexible, the extra complexity can result in greater opportunities for malicious attacks. Microsoft continually guards against such problems by providing industry-leading security features. Advanced Threat Protection is a sophisticated security tool you can use in Teams.
 
 ## What is Advanced Threat Protection?
