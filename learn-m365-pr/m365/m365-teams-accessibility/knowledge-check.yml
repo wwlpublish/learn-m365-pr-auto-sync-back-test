@@ -19,25 +19,25 @@ quiz:
     choices:
     - content: Set the Enable live captions option to On.
       isCorrect: false
-      explanation: This isn’t a value that exists for the option.
+      explanation: This isn't a value that exists for the option.
     - content: Set the Enable live captions option to Switched off but user can override.
       isCorrect: false
-      explanation: This isn’t a value that exists for the option.
+      explanation: This isn't a value that exists for the option.
     - content: Set the Enable live captions option to Disabled but the user can override.
       isCorrect: true
-      explanation: This isn’t a value that exists for the option.
+      explanation: This isn't a value that exists for the option.
  # Question 2 
   - content: How can you use PowerShell to configure a background blur policy?
     choices:
     - content: Create a policy using the **Set-CsTeamsBlurMeetingPolicy** cmdlet. The blur will automatically be applied.
       isCorrect: false
-      explanation: The **Set-CsTeamsBlurMeetingPolicy** cmdlet doesn’t exist, so you can’t use it to create a policy. You also must use the `VideoFiltersMode` parameter to successfully apply a blur policy.
+      explanation: The **Set-CsTeamsBlurMeetingPolicy** cmdlet doesn't exist, so you can't use it to create a policy. You also must use the `VideoFiltersMode` parameter to successfully apply a blur policy.
     - content: Create a policy using the **Set-CsTeamsMeetingPolicy** cmdlet and set the `-VideoFiltersMode` parameter to **BlurOnly**.
       isCorrect: true
       explanation: You can also use the `AllFilters` and `BlurandDefaultBackgrounds` parameters to allow additional background effects for users.
     - content: Make sure to create a meeting using the **Set-CsTeamsMeeting** cmdlet and set the `-BlurFiltersMode` parameter to **BlurOnly**.
       isCorrect: false
-      explanation: The BlurFiltersMode parameter doesn’t exist, so you can’t use it to enable blurring. Also, you don’t create a meeting using a cmdlet, you need to create a policy.
+      explanation: The BlurFiltersMode parameter doesn't exist, so you can't use it to enable blurring. Also, you don't create a meeting using a cmdlet, you need to create a policy.
  # Question 3
   - content: When using screen sharing mode, what screen sharing options are available?
     choices:
@@ -58,7 +58,7 @@ quiz:
       explanation: The interpreter will continue to be displayed at an easily viewable size while displaying the remaining screen space with the rest of the video.
     - content: They can use the Raise your hand feature.
       isCorrect: false
-      explanation: The Raise your hand feature gives users the chance to speak, it doesn’t ensure interpreters can be viewable. Instead, they should pin the video of the interpreters.
+      explanation: The Raise your hand feature gives users the chance to speak, it doesn't ensure interpreters can be viewable. Instead, they should pin the video of the interpreters.
     - content: They can use Together mode.
       isCorrect: false
-      explanation: Together mode will put display all participants in single, shared space. It doesn’t ensure interpreters are fully viewable. Instead, they should pin the video of the interpreters.
+      explanation: Together mode will put display all participants in single, shared space. It doesn't ensure interpreters are fully viewable. Instead, they should pin the video of the interpreters.
