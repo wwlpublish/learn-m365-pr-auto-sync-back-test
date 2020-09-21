@@ -32,8 +32,6 @@ On the **Hello ASPNET Core Identity 03** page, copy the values **Application (cl
 
   ![Screenshot of the application ID of the new app registration](../media/07-aad-portal-newapp-details-01.png)
 
-On the **Hello ASPNET Core Identity 03** page, select the **Add a Redirect URI** link under the **Redirect URIs**.
-
 Select **Manage > Authentication** in the left-hand navigation.
 
 In the **Authentication** page, select **Add a platform**. When the **Configure platform** panel appears, select **Web**.
@@ -120,7 +118,7 @@ Open a browser and navigate to the url **https://localhost:5001**. The web appli
 
 Sign in using a Work and School account from your Azure AD directory. Azure AD will redirect you back to the web application. Notice some of the details from the claims included in the ID token.
 
-![Screenshot of the web application with user details](../media/05-test-01.png)
+![Screenshot of the web application with user details](../media/07-test-01.png)
 
 Take special note of the **tenantid** and **upn** claim. These claims indicate the ID of the Azure AD directory and ID of the user that signed in. Make a note of these values to compare them to other options in a minute.
 
@@ -128,7 +126,7 @@ Now try logging in as a user from a different organization. Select the **Sign ou
 
 Notice Azure AD will reject the user's sign in, explaining that the user's account doesn't exist in the current tenant.
 
-![Screenshot of Azure AD blocking the sign in of a non-organization user](../media/05-test-02.png)
+![Screenshot of Azure AD blocking the sign in of a non-organization user](../media/07-test-02.png)
 
 Before this user can access this application, they need to be added as a guest into the Azure AD directory where the application was registered.
 
@@ -150,7 +148,7 @@ Now let's invite a guest user. Select **All users** in the left-hand navigation,
 
 ![Screenshot of the Users - All Users screen](../media/07-add-guest-01.png)
 
-On the **New user** page, select **Invite user**, enter the email address of a user in another Azure AD directory that you want to invite and select **Invite**. In this scenario displayed in the following screenshot, we are inviting the user we previously tried to sign in with: MeganB@M365x460234.onmicrosoft.com.
+On the **New user** page, select **Invite user**, enter the email address of a user in another Azure AD directory that you want to invite and select **Invite**. In this scenario displayed in the following screenshot, we are inviting the user we previously tried to sign in with.
 
 ![Screenshot of inviting a guest user into the directory](../media/07-add-guest-02.png)
 
