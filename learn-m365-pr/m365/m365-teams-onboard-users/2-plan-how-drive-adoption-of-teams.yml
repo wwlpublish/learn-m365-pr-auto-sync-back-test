@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.onboard-users.2-plan-how-drive-adoption-of-teams
+title: Plan how to drive adoption of Teams
+metadata:
+  title: Plan how to drive adoption of Teams
+  description: Learn how you can use Microsoft's adoption framework to help drive Teams adoption.
+  ms.date: 09/10/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 1
+content: |
+  [!include[](includes/2-plan-how-drive-adoption-of-teams.md)]

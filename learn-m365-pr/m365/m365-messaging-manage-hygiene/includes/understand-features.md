@@ -1,3 +1,6 @@
+>[!IMPORTANT]
+>Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813). We'll be updating names in products and in the Learn content in the near future.
+
 In Microsoft 365 Exchange Online Protection (EOP) provides tools to help keep your organization's e-mail clean, often referred to as *message hygiene*. Microsoft 365 threat protection features help you keep unwanted mail out of your users' inboxes — and your network free of spam and viruses.
 
 Message hygiene includes all forms of protection:

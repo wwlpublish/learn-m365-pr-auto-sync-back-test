@@ -1,0 +1,37 @@
+### YamlMime:Module
+uid: learn-m365.teams.deploy-meetings
+metadata:
+  title: Deploy meetings using Teams 
+  description: Learn how to set up user accounts for access to meetings and how to configure advanced meetings features, such as recording and video interoperability.
+  ms.date: 09/08/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+title: Deploy meetings using Teams
+summary: Learn how to set up user accounts for access to meetings and how to configure advanced meetings features, such as recording and video interoperability.
+abstract: |
+  At the end of this module, you should be able to:
+  - Explain how to set up users for Teams meetings.
+  - Describe how to configure cloud meeting recording.
+  - Demonstrate how to set up shared meeting rooms.
+  - Explain how to deploy Cloud Video Interoperability.
+prerequisites: | 
+  - Complete the **Plan your Teams meeting deployment** learn module.
+iconUrl: /learn/achievements/deploy-meetings-using-teams.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- office-teams
+units:
+- learn-m365.teams.deploy-meetings.1-introduction
+- learn-m365.teams.deploy-meetings.2-set-up-users
+- learn-m365.teams.deploy-meetings.3-configure-cloud-meeting-recording
+- learn-m365.teams.deploy-meetings.4-set-up-shared-meeting-rooms
+- learn-m365.teams.deploy-meetings.5-deploy-cloud-video-interop
+- learn-m365.teams.deploy-meetings.6-knowledge-check
+- learn-m365.teams.deploy-meetings.7-summary
+badge:
+  uid: learn-m365.teams.deploy-meetings.badge

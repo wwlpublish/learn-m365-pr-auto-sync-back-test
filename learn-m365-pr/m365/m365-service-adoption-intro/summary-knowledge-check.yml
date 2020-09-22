@@ -167,3 +167,17 @@ quiz:
       - content: "Provides a structure for teaching the framework to others."
         isCorrect: false
         explanation: "No, breaking the framework into phases lets different units adopt it at different paces."
+    - content: "Which of the following items is NOT emphasized in the service adoption framework process?"
+      choices:
+      - content: "Light business process mapping"
+        isCorrect: false
+        explanation: "Incorrect, light business process mapping is emphasized in the service adoption framework process." 
+      - content: "Frequent feedback loops"
+        isCorrect: false
+        explanation: "Incorrect, frequent feedback loops are emphasized in the service adoption framework process." 
+      - content: "Identified success measures"
+        isCorrect: false
+        explanation: "Incorrect, identified success measures are emphasized in the service adoption framework process." 
+      - content: "Workforce talent reviews"
+        isCorrect: true
+        explanation: "Correct, workforce talent reviews is NOT emphasized in the service adoption framework process."   

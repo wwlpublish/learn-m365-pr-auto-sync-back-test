@@ -4,12 +4,12 @@ title: Manage controls and policies for Microsoft Edge in Microsoft Endpoint Man
 metadata:
   title: Manage controls and policies for Microsoft Edge in Microsoft Endpoint Manager
   description: "Manage controls and policies for Microsoft Edge in Microsoft Endpoint Manager"
-  ms.date: 09/17/2020
+  ms.date: 09/19/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-durationInMinutes: 3
+durationInMinutes: 4
 content: |
   [!include[](includes/5-manage-controls-policies-edge-microsoft-endpoint-manager.md)]
