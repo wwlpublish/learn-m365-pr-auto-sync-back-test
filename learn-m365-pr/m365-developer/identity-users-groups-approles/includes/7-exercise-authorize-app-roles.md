@@ -13,11 +13,11 @@ Select **Azure Active Directory** in the left-hand navigation.
 
 Select **App registrations** in the left-hand navigation.
 
-![Screenshot of the App registrations](../media/aad-portal-home.png)
+![Screenshot of the App registrations](../media/azure-ad-portal-home.png)
 
 On the **App registrations** page, locate the application registration that represents the Users Group Roles application from the first exercise in this module. To verify the application, compare the **Application (client) ID** and **Directory (tenant) ID** in the portal to the values copied in the first exercise.
 
-![Screenshot of the application ID of the new app registration](../media/03-aad-portal-newapp-details-01.png)
+![Screenshot of the application ID of the new app registration](../media/03-azure-ad-portal-new-app-details-01.png)
 
 In the application registration for your application, select **Manifest**.
 
@@ -76,13 +76,13 @@ Save the manifest.
 
 Select **Enterprise applications** in the left-hand navigation.
 
-![Screenshot of the Enterprise Applications](../media/07-aad-portal-entapp.png)
+![Screenshot of the Enterprise Applications](../media/07-azure-ad-portal-entapp.png)
 
 On the **Enterprise applications** page, locate the application registration that represents the Users Group Roles application from the first exercise in this module. To verify the application, compare the **Application (client) ID** of the app registration with the **Application ID** entry in the **Enterprise Applications** list. Select the correct application.
 
 On the enterprise application overview pane, select **Users and Groups**.
 
-![Screenshot of the Enterprise Applications](../media/07-aad-portal-entapp-users.png)
+![Screenshot of the Enterprise Applications](../media/07-azure-ad-portal-entapp-users.png)
 
 Select **Add User**. On the add **Assignment** pane, select **Users and groups**. Select one or more users or groups from the list and then select the **Select** button at the bottom of the pane.
 
