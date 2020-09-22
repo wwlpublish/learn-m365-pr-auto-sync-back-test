@@ -44,11 +44,11 @@ Select **Manage > Authentication** in the left-hand navigation.
 
 On the **Authentication** page, select **Add a platform**. When the **Configure platforms** panel appears, select **Single-page application**.
 
-![Screenshot of the Configure platforms panel](../media/05-azure-ad-portal-newapp-details-02.png)
+![Screenshot of the Configure platforms panel](../media/05-azure-ad-portal-new-app-details-02.png)
 
 In the **Configure single-page application** panel, add **http://localhost:3007** under **Redirect URIs**, and select **Configure**.
 
-![Screenshot of the Configure Web panel](../media/05-azure-ad-portal-newapp-details-03.png)
+![Screenshot of the Configure Web panel](../media/05-azure-ad-portal-new-app-details-03.png)
 
 #### Add permissions to the Azure AD app
 
