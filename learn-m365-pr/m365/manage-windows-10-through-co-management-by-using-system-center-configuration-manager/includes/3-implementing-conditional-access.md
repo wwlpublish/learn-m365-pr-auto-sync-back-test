@@ -1,4 +1,7 @@
-﻿Oftentimes, regular uses of System Center Configuration Manager overlook how much they can use **Conditional Access (CA)** and take advantage of the simple, cloud-attached benefits.
+﻿>[!IMPORTANT]
+>Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813). We'll be updating names in products and in the Learn content in the near future.
+
+Oftentimes, regular uses of System Center Configuration Manager overlook how much they can use **Conditional Access (CA)** and take advantage of the simple, cloud-attached benefits.
 
 Conditional Access is a powerful service, which ensures that corporate resources are only accessed by trusted users on trusted devices using trusted apps. It has been built from scratch for the cloud and, whether you’re managing devices with Intune or extending your Configuration Manager deployment with co-management, it works the same way.
 

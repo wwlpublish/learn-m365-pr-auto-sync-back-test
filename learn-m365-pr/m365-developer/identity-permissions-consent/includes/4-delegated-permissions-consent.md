@@ -1,4 +1,4 @@
-One type of permissions supported by the Microsoft identity platform is the delegated permission, also referred to as on behalf of permissions. Delegated permissions are permissions grated by a user or administrator to an app to allow the app act on behalf of the user.
+One type of permission supported by the Microsoft identity platform is the delegated permission, also referred to as on behalf of permissions. Delegated permissions are permissions granted by a user or administrator to an app to allow the app act on behalf of the user.
 
 In this unit, you’ll learn how to request delegated permissions and enable users to grant them to applications with either static or dynamic consent.
 
@@ -36,7 +36,7 @@ This approach also enables administrators to consent on behalf of all users in t
 
 For developers migrating apps from the Microsoft identity v1.0 endpoint to the v2.0 endpoint, Microsoft introduced the `/.default` scope. This is a built-in scope for every application that refers to the static list of permissions configured on the application registration.
 
-A scope value of **[app id]/.default** requests an access token with the scopes on the App ID that the application has registered for in the Azure portal.
+A scope value of **[app ID]/.default** requests an access token with the scopes on the App ID that the application has registered for in the Azure portal.
 
 The `/.default` scope should be used with apps that use the OAuth 2.0 client credentials flow.
 
