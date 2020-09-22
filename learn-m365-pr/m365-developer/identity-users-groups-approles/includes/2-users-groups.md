@@ -10,7 +10,7 @@ An app can then grant users the ability to do specific tasks depending who they 
 
 Users are managed from the Azure AD admin center (https://aad.portal.azure.com) including users within your organization and those added as guests in business-to-business (B2B) scenarios.
 
-![Screenshot of the All Users blade in Azure AD admin center](../media/02-azuread-admin-center-all-users.png)
+![Screenshot of the All Users blade in Azure AD admin center](../media/02-azure-ad-admin-center-all-users.png)
 
 In addition to users, administrators (*and other people with the appropriate access*) can use the Azure AD admin center to create and manage security groups that contain collections of users, groups, and roles specific to your custom app.
 
@@ -20,7 +20,7 @@ Custom apps that are configured with Microsoft identity to support user's signin
 
 To add a user to your organization, first sign-in to the Azure AD admin center and select the **Users** navigation option to open the **All users** blade.
 
-![Screenshot of the All Users blade in Azure AD admin center](../media/02-azuread-admin-center-all-users.png)
+![Screenshot of the All Users blade in Azure AD admin center](../media/02-azure-ad-admin-center-all-users.png)
 
 Select the **New user** button in the navigation to enter the user's information. Some fields are required, such as the name, username, and password, while others are optional such as the groups they belong to and job information.
 
@@ -48,7 +48,7 @@ Select an app, then select the **Properties** navigation item, enable the toggle
 
 Once the property has been set, you can use the **Users and groups** blade within the app to manage the list of users and groups who can sign in and access your app:
 
-![Screenshot of the app users and groups blade](../media/02-aad-portal-newapp-usersgroups.png)
+![Screenshot of the app users and groups blade](../media/02-azure-ad-portal-new-app-users-groups.png)
 
 ### Role-based access control (RBAC)
 
@@ -70,11 +70,11 @@ When registering the app in Azure AD, ensure the redirect URI of the app points 
 
 A sign-out URL should also be specified so the delete any cached tokens or other data that are only needed for signed in users.
 
-![Screenshot of the application configuration](../media/02-aad-portal-newapp-authentication.png)
+![Screenshot of the application configuration](../media/02-azure-ad-portal-new-app-authentication.png)
 
 The web app will also need a client secret to sign in with Azure AD to exchange the authorization code for an access token.
 
-![Screenshot of the Certificates & Secrets page in the Azure AD admin center](../media/02-aad-portal-newapp-secret.png)
+![Screenshot of the Certificates & Secrets page in the Azure AD admin center](../media/02-azure-ad-portal-new-app-secret.png)
 
 There are three things you'll need from the Azure AD app registration:
 

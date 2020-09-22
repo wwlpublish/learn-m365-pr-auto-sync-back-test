@@ -13,11 +13,11 @@ Select **Azure Active Directory** in the left-hand navigation.
 
 Select **App registrations** in the left-hand navigation.
 
-![Screenshot of the App registrations](../media/aad-portal-home.png)
+![Screenshot of the App registrations](../media/azure-ad-portal-home.png)
 
 On the **App registrations** page, locate the application registration that represents the Users Group Roles application from the first exercise in this module. To verify the application, compare the **Application (client) ID** and **Directory (tenant) ID** in the portal to the values copied in the first exercise.
 
-![Screenshot of the application ID of the new app registration](../media/03-aad-portal-newapp-details-01.png)
+![Screenshot of the application ID of the new app registration](../media/03-azure-ad-portal-new-app-details-01.png)
 
 In the application registration for your application, select **Manifest**.
 
@@ -46,7 +46,7 @@ Next, within the manifest editor, find the node `optionalClaims`. The default va
 }
 ```
 
-![Screenshot of the application registration with the manifest link highlighted](../media/05-aad-portal-appreg-manifest.png)
+![Screenshot of the application registration with the manifest link highlighted](../media/05-azure-ad-portal-appreg-manifest.png)
 
 Save the manifest.
 

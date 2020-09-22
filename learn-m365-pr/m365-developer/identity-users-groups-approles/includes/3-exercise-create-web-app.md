@@ -8,11 +8,11 @@ Select **Azure Active Directory** in the left-hand navigation.
 
 Select **App registrations** in the left-hand navigation.
 
-![Screenshot of the App registrations](../media/aad-portal-home.png)
+![Screenshot of the App registrations](../media/azure-ad-portal-home.png)
 
 On the **App registrations** page, select **New registration**.
 
-![Screenshot of App Registrations page](../media/aad-portal-newapp-00.png)
+![Screenshot of App Registrations page](../media/azure-ad-portal-new-app-00.png)
 
 On the **Register an application** page, set the values as follows:
 
@@ -22,13 +22,13 @@ On the **Register an application** page, set the values as follows:
 Select **Register** to create the application.
 On the **Product Catalog WebApp** page, copy the values **Application (client) ID** and **Directory (tenant) ID**; you'll need these values later in this exercise.
 
-![Screenshot of the application ID of the new app registration](../media/03-aad-portal-newapp-details-01.png)
+![Screenshot of the application ID of the new app registration](../media/03-azure-ad-portal-new-app-details-01.png)
 
 On the **Overview** page, select the **Add a Redirect URI** link under the **Redirect URIs**.
 
 Select **Add a platform**, then select **Web**.
 
-![Screenshot of the add platform panel of the new app registration](../media/03-aad-portal-newapp-details-02.png)
+![Screenshot of the add platform panel of the new app registration](../media/03-azure-ad-portal-new-app-details-02.png)
 
 On the **Configure Web** panel, use the following values to configure the application:
 
@@ -38,7 +38,7 @@ On the **Configure Web** panel, use the following values to configure the applic
 
 Select **Configure** when finished setting these values.
 
-![Screenshot of the application configuration](../media/03-aad-portal-newapp-details-03.png)
+![Screenshot of the application configuration](../media/03-azure-ad-portal-new-app-details-03.png)
 
 ## Create a single organization ASP.NET web application
 
