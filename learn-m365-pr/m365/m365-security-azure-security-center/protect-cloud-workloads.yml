@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.sci-asc.protect-cloud-workloads
+title: Protect your cloud workloads
+metadata:
+  title: Protect your cloud workloads
+  description: Learn how you can use Azure Defender capabilities to protect these different workloads.
+  ms.date: 09/08/2020
+  ms.author: elizapo
+  author: iankensey
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 12
+content: |
+  [!include[](includes/protect-cloud-workloads.md)]
