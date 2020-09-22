@@ -340,7 +340,7 @@ Run the following command in a command prompt to compile the console application
 dotnet build
 ```
 
-### Obtain the Id of a user to use in the test
+### Obtain the ID of a user to use in the test
 
 Using the [Azure AD admin center](https://aad.portal.azure.com/), select **Users**, and then select one of the users from the organization:
 
