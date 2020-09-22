@@ -80,8 +80,8 @@ After creating the application, run the following commands to ensure your new pr
 
 ```console
 cd ProductCatalogWeb
-dotnet add package Microsoft.Identity.Web --version 0.2.3-preview
-dotnet add package Microsoft.Identity.Web.UI --version 0.2.3-preview
+dotnet add package Microsoft.Identity.Web --version 0.3.1-preview
+dotnet add package Microsoft.Identity.Web.UI --version 0.3.1-preview
 ```
 
 Open the scaffolded project folder, which is named **ProductCatalogWeb** in **Visual Studio Code**
@@ -102,7 +102,7 @@ Create a new property, `ClientSecret`, immediately after the `ClientId`. Set the
 
 The web application must know the URL and scopes required by the web API application created in the previous exercise. The scopes defined for the web API application are found in the **Expose an api** blade of the app registration in the Azure Active Directory portal. (The scopes are specified in the format `api://[client-id]/[scope]`).
 
-In the root folder of the project, create a file named **Constants.cs**. Add the following to the file, specifying the correct value for the web API application client ID. The claim ids (which are strings that look like a URI) that are required for token acquisition are added to the Constants class.
+In the root folder of the project, create a file named **Constants.cs**. Add the following to the file, specifying the correct value for the web API application client ID. The claim IDs (which are strings that look like a URI) that are required for token acquisition are added to the Constants class.
 
 ```csharp
 using System.Collections.Generic;
@@ -161,8 +161,8 @@ services.Configure<CookiePolicyOptions>(options =>
 
 services.AddOptions();
 
-services.AddMicrosoftWebAppAuthentication(Configuration)
-  .AddMicrosoftWebAppCallsWebApi(Configuration, Constants.ProductCatalogAPI.SCOPES)
+services.AddMicrosoftIdentityWebAppAuthentication(Configuration)
+  .EnableTokenAcquisitionToCallDownstreamApi(Constants.ProductCatalogAPI.SCOPES)
   .AddInMemoryTokenCaches();
 
 services.AddControllersWithViews(options =>
@@ -196,9 +196,6 @@ namespace ProductCatalogWeb.Models
 Add a new file **CategoriesController.cs** to the **Controllers** folder. Add the following code to it:
 
 ```csharp
-// Copyright (c) Microsoft Corporation. All rights reserved.
-// Licensed under the MIT license.
-
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Headers;
@@ -319,7 +316,7 @@ Add a new folder **Categories** to the **Views** folder. Add a new file, **Index
 </table>
 ```
 
-Add a new file, **Create.cshtml**, to the **Views\Categories** folder and add the following code to it. This view view will provide a form for creating a new category:
+Add a new file, **Create.cshtml**, to the **Views\Categories** folder and add the following code to it. This view will provide a form for creating a new category:
 
 ```cshtml
 @model ProductCatalogWeb.Models.Category
@@ -393,9 +390,6 @@ namespace ProductCatalogWeb.Models
 Add a new file **ProductsController.cs** to the **Controllers** folder. Add the following code to it:
 
 ```csharp
-// Copyright (c) Microsoft Corporation. All rights reserved.
-// Licensed under the MIT license.
-
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Headers;
