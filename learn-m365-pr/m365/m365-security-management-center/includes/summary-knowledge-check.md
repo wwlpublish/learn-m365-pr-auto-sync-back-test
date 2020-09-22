@@ -1,1 +1,4 @@
+>[!IMPORTANT]
+>Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813). We'll be updating names in products and in the Learn content in the near future.
+
 As attack methods become more complex, organizations have responded by deploying more security solutions. This increases system complexity, adding more work with less efficiency. With a threat landscape that is constantly evolving and with your resources spread across many environments, you need efficient security management more than ever. The Microsoft 365 security center provides a single location where you can monitor and manage security across identities, data, devices, apps, and infrastructure.

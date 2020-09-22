@@ -1,0 +1,35 @@
+### YamlMime:Module
+uid: learn-m365.teams.monitor-troubleshoot-investigate
+metadata:
+  title: Monitor, troubleshoot, and investigate Teams usage
+  description: Learn how to ensure your Teams users have an optimal experience by monitoring call quality, troubleshooting problems, and investigating usage reports.
+  ms.date: 09/07/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+title: Monitor, troubleshoot, and investigate Teams usage
+summary: Learn how to ensure your Teams users have an optimal experience by monitoring call quality, troubleshooting problems, and investigating usage reports.
+abstract: |
+  At the end of this module, you should be able to:
+  - Demonstrate how to monitor the quality of Teams calls and meetings and eliminate any with poor sound or unreliable connections.
+  - Explain how to diagnose common problems in Teams by using logs.
+  - Describe how to maintain capacity in Teams by monitoring user demand and behavior.
+prerequisites: | 
+  - Knowledge equivalent to previous modules in the **Security, privacy, and compliance in Microsoft Teams** learning path.
+iconUrl: /learn/achievements/monitor-troubleshoot-and-investigate-teams-usage.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- office-teams
+units:
+- learn-m365.teams.monitor-troubleshoot-investigate.1-introduction
+- learn-m365.teams.monitor-troubleshoot-investigate.2-monitor-call-quality
+- learn-m365.teams.monitor-troubleshoot-investigate.3-troubleshooting-teams
+- learn-m365.teams.monitor-troubleshoot-investigate.4-investigate-teams-usage
+- learn-m365.teams.monitor-troubleshoot-investigate.5-knowledge-check
+- learn-m365.teams.monitor-troubleshoot-investigate.6-summary
+badge:
+  uid: learn-m365.teams.monitor-troubleshoot-investigate.badge

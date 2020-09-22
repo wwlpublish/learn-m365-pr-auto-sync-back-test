@@ -21,11 +21,20 @@ With the growing importance of mobility and the transition to the cloud, we’ve
    :::image type="content" source="../media/3-identity-v3.png" alt-text="Identity is the new control plane":::
 
 ### Threat protection
+
+> [!IMPORTANT]
+> Microsoft 365 Defender is the new name for Microsoft Threat Protection.  Additionally:  
+>* Microsoft Defender for Endpoint is the new name for Microsoft Defender Advanced Threat Protection.
+>* Microsoft Defender for Office 365 is the new name for Office 365 Advanced Threat Protection.
+>* Microsoft Defender for Identity is the new name for Azure Advanced Threat Protection.
+>  
+> [Learn more](https://www.microsoft.com/security/blog/?p=91813). We’ll be updating our products and docs soon, so keep an eye out.
+
 Organizations have concerns about the high volume of data they store, as well as the increasing sophistication and impact of attacks. Integrated and automated threat protection is designed to help meet the demand for advanced security that works in the real world.
 
-Microsoft Threat Protection’s suite of best-in-class products includes specific security solutions to help protect each of the major perimeters: identity, endpoint, apps and data. Data includes content associated with email and collaboration tools including Microsoft Teams, SharePoint Online, OneDrive for Business and Office clients.  Secure any endpoint, anywhere, via a unified platform for preventive protection, post-breach detection, automated investigation, and response. Microsoft Threat Protection works on the desktop, mobile devices, and servers, regardless of OS, which gives organizations and users the flexibility to choose the devices they want to use.
+Microsoft 365 Defender's suite of best-in-class products includes specific security solutions to help protect each of the major perimeters: identity, endpoint, apps and data. Data includes content associated with email and collaboration tools including Microsoft Teams, SharePoint Online, OneDrive for Business and Office clients.  Secure any endpoint, anywhere, via a unified platform for preventive protection, post-breach detection, automated investigation, and response. Microsoft 365 Defender works on the desktop, mobile devices, and servers, regardless of OS, which gives organizations and users the flexibility to choose the devices they want to use.
 
-:::image type="content" source="../media/3-threat-protection-v2.png" alt-text="Integrated Microsoft Threat Protection experience":::
+:::image type="content" source="../media/3-threat-protection-v3.png" alt-text="Integrated Microsoft 365 Defender experience":::
 
 ### Cloud security
 As enterprises move more of their workloads to the cloud, it has never been more important to protect cross-cloud resources. From Azure to AWS, from Slack to Salesforce, we’ve built comprehensive cloud security to protect every layer of your resources, regardless of which cloud or cloud apps you use.  
@@ -55,9 +64,9 @@ We give customers the flexibility to implement the necessary controls to meet bo
 
 ### Insider risk management
 Organizations need to be able to identify, analyze, and remediate internal risks before they cause harm.  Insider risk management policies give you visibility into, and control over:
-* Internal data access.
-* Identify and manage corporate policy violations such as harassment, code-of-conduct, and fraud.
-* Data leakages by insiders, including IP theft, confidential data, etc.
+* Internal data access
+* Identifying and managing corporate policy violations such as harassment, code-of-conduct, and fraud
+* Data leakage by insiders, including IP theft, confidential data, etc.
 
 ### Discover and respond 
 Data explosion creates challenges of finding the data you need when you need it for a variety of scenarios.  Whether it is litigation, internal investigation, responding to a regulatory request or policy obligation – you need to be able to find relevant content, refine that content and prepare that content to be handed off to the requesting body in an efficient and effective way.  Microsoft’s discover and respond solution provides intelligent tools to help address the needs of data discovery and audit, to address these compliance challenges.

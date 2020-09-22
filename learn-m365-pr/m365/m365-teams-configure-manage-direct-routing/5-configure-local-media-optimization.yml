@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.configure-manage-direct-routing.5-configure-local-media-optimization
+title: Configure Local Media Optimization
+metadata:
+  title: Configure Local Media Optimization
+  description: Learn how to configure Direct Routing to optimize access to local media.
+  ms.date: 09/03/2020
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 7
+content: |
+  [!include[](includes/5-configure-local-media-optimization.md)]

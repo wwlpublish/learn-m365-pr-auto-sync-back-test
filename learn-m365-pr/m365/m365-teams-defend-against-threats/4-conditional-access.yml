@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.defends-against-threats.4-conditional-access
+title: Implement Conditional Access in Teams
+metadata:
+  title: Implement Conditional Access in Teams
+  description: Learn how to to set policies that test devices and users, then decide on their level of access based on the results with Conditional Access.
+  ms.date: 09/03/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 3
+content: |
+  [!include[](includes/4-conditional-access.md)]

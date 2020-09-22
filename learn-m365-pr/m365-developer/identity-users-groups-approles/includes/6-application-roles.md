@@ -54,7 +54,7 @@ After defining the app roles within the app's manifest, you can now add users to
 
 From the **Enterprise application** blade in the Azure AD admin center, select the application and then select the **Users & Groups** navigation item.
 
-![Screenshot of the Enterprise Applications](../media/07-aad-portal-entapp-users.png)
+![Screenshot of the Enterprise Applications](../media/07-azure-ad-portal-entapp-users.png)
 
 Select **Add User**. On the **Add Assignment** blade, select the users or groups you want to add to the app role. Then select the app role or app roles to add the user or groups:
 

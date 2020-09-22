@@ -4,12 +4,12 @@ title: Use Internet Explorer mode for legacy sites in Microsoft Edge
 metadata:
   title: Use Internet Explorer mode for legacy sites in Microsoft Edge
   description: "Use Internet Explorer mode for legacy sites in Microsoft Edge"
-  ms.date: 09/17/2020
+  ms.date: 09/19/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-durationInMinutes: 3
+durationInMinutes: 4
 content: |
   [!include[](includes/2-use-internet-explorer-mode-legacy-sites.md)]

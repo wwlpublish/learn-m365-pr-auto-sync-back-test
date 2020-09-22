@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.migrate-direct-routing.4-configure-dynamic-routing
+title: Configure dynamic routing
+metadata:
+  title: Configure dynamic routing
+  description: See what dynamic routing looks like, how to configure an LDAP connection, and see an example of how to configure a specific SBC.
+  ms.date: 09/03/2020
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 6
+content: |
+  [!include[](includes/4-configure-dynamic-routing.md)]
