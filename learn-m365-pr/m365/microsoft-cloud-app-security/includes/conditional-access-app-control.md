@@ -1,12 +1,10 @@
 Cloud Discovery helps you understand what's happening in your cloud environment after the fact. While this process is important, your primary goal is to stop breaches and leaks in real time, before they put your organization at risk. You also need a way to enable users to bring their own devices to work while still protecting your organization from data leaks and data theft. Microsoft Cloud App Security integrates with identity providers (IdPs) to protect your data and devices with access and session controls through **Conditional Access App Control**. If you're using Azure Active Directory (Azure AD) as your IdP, these controls are integrated directly into Cloud App Security.
 
-   :::image type="content" source="../media/conditional-access.png" alt-text="A workflow diagram shows how Cloud App Security integrates with identity systems like Azure AD to enforce conditional access.":::
 
 Conditional Access App Control lets you monitor and control user app access and sessions in real time. By integrating with Azure AD Conditional Access, it's easy to configure apps to work with Conditional Access App Control. It lets you selectively enforce access and session controls on your organization's apps based on any condition in Conditional Access. You can use conditions that define who (user or group of users), what (which cloud apps), and where (which locations and networks) a Conditional Access policy is applied. After you determine the conditions, you can route users to Cloud App Security where you protect data with Conditional Access App Control by applying access and session controls.
 
 Azure AD includes built-in policies that you can configure for an easy deployment. After you configure the conditions of a Conditional Access policy in Azure AD, select **Session** under **Access controls**, and click **Use Conditional Access App Control**. If you choose to **use custom controls**, you'll define them in the Cloud App Security portal.
 
-:::image type="content" source="../media/mcas-screenshot.png" alt-text="Screenshot showing the MCAS interface":::
 
 You can use access and session policies in the Cloud App Security portal to further refine filters and set actions to be taken on a user. With the access and session policies, you can:
 
@@ -21,16 +19,11 @@ For example, let's create a session policy in Microsoft Teams that blocks IM mes
 
 We'll use an existing template for our new session policy. Select the **Block sending of messages based on real-time content inspection** policy template.
 
-:::image type="content" source="../media/mcas-scenario1.png" alt-text="Screen shot showing the creation session policy":::
 
 Under **Activity source** for the session policy, select **Send Teams message** as the application.
 
-:::image type="content" source="../media/mcas-scenario2.png" alt-text="Screeenshot showing the next stage in the setup of a session policy":::
 
 You then enable **Content Inspection**, where you'll define the sensitive information as matching a present expression, a custom expression, or any regular expression. When the expressions are defined, select **Block** under **Actions** to block the message, and to create alerts to notify administrators.
 
-:::image type="content" source="../media/mcas-scenario3.png" alt-text="Screemshot showing how to enable the content inspector for a session policy":::
 
-Now, when a user tries to send a sensitive message in Teams, they'll see the following notification:
-
-:::image type="content" source="../media/mcas-scenario4.png" alt-text="Screenshot showing an example of a notification":::
+Now, when a user tries to send a sensitive message in Teams, they'll see a notification.
