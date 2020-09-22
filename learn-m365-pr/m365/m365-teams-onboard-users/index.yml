@@ -1,0 +1,36 @@
+### YamlMime:Module
+uid: learn-m365.teams.onboard-users
+metadata:
+  title: Onboard users to Microsoft Teams 
+  description: Learn how to ensure the smooth adoption of Microsoft Teams in your organization by driving engagement with the product.
+  ms.date: 09/10/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+title: Onboard users to Microsoft Teams 
+summary: Learn how to ensure the smooth adoption of Microsoft Teams in your organization by driving engagement with the product.
+abstract: |
+  At the end of this module, you should be able to:
+  - Explain how to begin your adoption project by assembling a team and defining a strategy.
+  - Demonstrate how to onboard and support people through their use of Teams.
+  - Describe how to drive all users in your organization to adopt Teams.
+prerequisites: | 
+  - Basic understanding of Microsoft Teams
+iconUrl: /learn/achievements/onboard-users-to-microsoft-teams.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- office-teams
+units:
+- learn-m365.teams.onboard-users.1-introduction
+- learn-m365.teams.onboard-users.2-plan-how-drive-adoption-of-teams
+- learn-m365.teams.onboard-users.3-envision-the-adoption-of-teams
+- learn-m365.teams.onboard-users.4-onboard-the-first-teams-users
+- learn-m365.teams.onboard-users.5-drive-value-for-all-users
+- learn-m365.teams.onboard-users.6-knowledge-check
+- learn-m365.teams.onboard-users.7-summary
+badge:
+  uid: learn-m365.teams.onboard-users.badge

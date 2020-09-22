@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.enterprise-compliance.2-configure-retention-policies
+title: Configure retention policies and data loss prevention (DLP) policies
+metadata:
+  title: Configure retention policies and data loss prevention (DLP) policies
+  description: Learn about retention policies and Data Loss Prevention (DLP) policies and how they can be used to retain or remove Teams content such as chat items or files.
+  ms.date: 09/09/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 4
+content: |
+  [!include[](includes/2-configure-retention-policies.md)]

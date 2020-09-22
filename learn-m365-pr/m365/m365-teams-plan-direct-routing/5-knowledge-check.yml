@@ -1,0 +1,60 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.plan-direct-routing.5-knowledge-check
+title: Knowledge check 
+metadata:
+  title: Knowledge check
+  description: Check your knowledge
+  ms.date: 09/03/2020
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 3
+content: |
+quiz:
+  title: Check your knowledge
+  questions:
+  - content: "Which of the following statements is true about a hosted SBC solution?"
+    choices:
+    - content: This is ideal for organizations with little or no expertise in telephone systems.
+      isCorrect: true
+      explanation: "That's correct. A hosted SBC solution is suitable for organizations that either do not have in-house skills or would prefer to delegate the management of the service to a specialist vendor."
+    - content: Microsoft doesn't recommend hosted SBC solutions.
+      isCorrect: false
+      explanation: "That's incorrect. Microsoft certifies SBCs, but doesn't have a certification program for partner organizations that offer SBC solutions."
+    - content: You're responsible for SBC updates with a hosted solution.
+      isCorrect: false
+      explanation: "That's incorrect. With a hosted solution, the vendor organization manages updates, the configuration, and everything else that's required for you to use the service."
+  - content: "What is the purpose of a tenant dial plan?"
+    choices:
+    - content: A tenant dial plan allows Teams users to make calls outside the organization.
+      isCorrect: false
+      explanation: "That's incorrect. It isn't necessary to configure a dial plan for users to make calls outside the organization."
+    - content: A tenant dial plan allows users to keep legacy dialing patterns, such as three-digit extension numbers.
+      isCorrect: true
+      explanation: "That's correct. A tenant dial plan uses normalization rules to convert a familiar dialing pattern to the international E.164 dialing standard."
+    - content: A tenant dial plan restricts users from making international calls.
+      isCorrect: false
+      explanation: "That's incorrect. A tenant dial plan doesn't limit the class of call that a user can make. That's done with a PSTN usage record."
+  - content: "What's the difference between a Downstream SBC and a Proxy SBC, when configuring local media optimization?"
+    choices:
+    - content: The Downstream SBC doesn't need an IP address.
+      isCorrect: false
+      explanation: "That's incorrect. Both the Downstream SBC and the Proxy SBC must be configured with an IP address."
+    - content: The Downstream SBC doesn't have a public IP address.
+      isCorrect: true
+      explanation: "That's correct. When paired with a Proxy SBC, the Downstream SBC doesn't have a public IP address."
+    - content: The Proxy SBC doesn't have a public IP address.
+      isCorrect: false
+      explanation: "That's incorrect. When paired with a Downstream SBC, the Downstream SBC must have a public IP address."
+  - content: "In which scenario should you configure a voice routing policy?"
+    choices:
+    - content: You should only configure a voice routing policy to stop media being sent via the internet and Phone Service for users in the same building or on the same network.
+      isCorrect: false
+      explanation: "That's incorrect. A voice routing policy is required for all users making calls with Direct Routing, not only users in the same building or on the same network."
+    - content: You should only configure a voice routing policy to stop users from making international calls.
+      isCorrect: false
+      explanation: "That's incorrect. A voice routing policy is required in more scenarios than restricting the class of call a user is allowed to make."
+    - content: You configure a voice routing policy for all scenarios with Direct Routing.
+      isCorrect: true
+      explanation: "That's correct. A voice routing policy is required for users to make calls in all scenarios using Direct Routing."

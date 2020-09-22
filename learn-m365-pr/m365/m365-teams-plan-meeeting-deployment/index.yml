@@ -1,0 +1,34 @@
+### YamlMime:Module
+uid: learn-m365.teams.plan-meeting-deployment
+metadata:
+  title: Plan your Teams meeting deployment
+  description: Microsoft Teams brings teams together to work more efficiently.  Meetings are an essential part of any project or organizations daily operation.  Teams supports meetings not only within your organization, but also with third-parties.   In this module, you'll understand how plan the deployment of Teams to facilitate meetings in your business.
+  ms.date: 09/08/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+title: Plan your Teams meeting deployment
+summary: Microsoft Teams brings teams together to work more efficiently.  Meetings are an essential part of any project or organizations daily operation.  Teams supports meetings not only within your organization, but also with third-parties.   In this module, you'll understand how plan the deployment of Teams to facilitate meetings in your business.
+abstract: |
+  At the end of this module, you should be able to:
+  - Explain how to evaluate your organization's readiness to host cloud-based meetings through Teams.
+  - Plan for the deployment of meetings using Teams.
+prerequisites: | 
+  - Familiarity with Microsoft Teams administration
+iconUrl: /learn/achievements/plan-your-teams-meeting-deployment.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- office-teams
+units:
+- learn-m365.teams.plan-meeting-deployment.1-introduction
+- learn-m365.teams.plan-meeting-deployment.2-preparation-deployment-meetings-teams
+- learn-m365.teams.plan-meeting-deployment.3-meetings-conferencing-deployment-decisions
+- learn-m365.teams.plan-meeting-deployment.4-device-selection
+- learn-m365.teams.plan-meeting-deployment.5-knowledge-check
+- learn-m365.teams.plan-meeting-deployment.6-summary
+badge:
+  uid: learn-m365.teams.plan-meeting-deployment.badge

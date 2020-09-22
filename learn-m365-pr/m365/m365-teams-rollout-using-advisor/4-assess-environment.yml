@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.rollout-using-advisor.4-assess-environment
+title: Assess your environment for deployment
+metadata:
+  title: Assess your environment for deployment
+  description: Learn how assessments help you identify aspects of your environment that might need attention before you roll out Teams. 
+  ms.date: 09/08/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 4
+content: |
+  [!include[](includes/4-assess-environment.md)]

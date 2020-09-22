@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.manage-secure-meetings.3-configure-teams-meeting-settings
+title: Configure Teams meeting settings
+metadata:
+  title: Configure Teams meeting settings
+  description: See how to configure guest access to your Teams meetings and how to create custom meeting invitations.
+  ms.date: 09/09/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 6
+content: |
+  [!include[](includes/3-configure-teams-meeting-settings.md)]
