@@ -28,7 +28,7 @@ Now let's see how to create and configure a daemon app that can access a secured
 
 The first step is to register a new Azure AD app in the Azure AD admin center that will represent the web application.
 
-![Screenshot of App Registrations page](../media/azure-aad-portal-newapp-00.png)
+![Screenshot of App Registrations page](../media/azure-ad-portal-new-app-00.png)
 
 The important part of the app registration is the creation of an app secret. This secret, along with the client ID of the app, are used by the daemon app to authenticate with Microsoft identity when it requests an access token.
 

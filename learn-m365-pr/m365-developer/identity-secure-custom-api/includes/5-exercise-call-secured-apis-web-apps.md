@@ -13,13 +13,13 @@ Open a browser and navigate to the [Azure Active Directory admin center](https:/
 
 Select **Azure Active Directory** in the left-hand navigation.
 
-![Screenshot of the App registrations](../media/azure-aad-portal-home.png)
+![Screenshot of the App registrations](../media/azure-ad-portal-home.png)
 
 Select **Manage > App registrations** in the left-hand navigation.
 
 On the **App registrations** page, select **New registration**.
 
-![Screenshot of App Registrations page](../media/azure-aad-portal-newapp-00.png)
+![Screenshot of App Registrations page](../media/azure-ad-portal-new-app-00.png)
 
 On the **Register an application** page, set the values as follows:
 
