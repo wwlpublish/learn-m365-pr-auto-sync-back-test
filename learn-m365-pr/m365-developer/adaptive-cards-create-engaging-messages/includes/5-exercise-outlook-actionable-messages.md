@@ -84,13 +84,13 @@ In the **Configured Permissions** panel, select the button **Grant admin consent
 
 Open your command prompt, navigate to a directory where you have rights to create your project, and run the following command to create a new .NET Core console application:
 
-```shell
+```console
 dotnet new console -o graphconsoleapp
 ```
 
 After creating the application, run the following commands to add the Microsoft Authentication Library (MSAL), Microsoft Graph .NET SDK, and a few configuration packages to the project:
 
-```shell
+```console
 cd graphconsoleapp
 dotnet add package Microsoft.Identity.Client
 dotnet add package Microsoft.Graph
@@ -101,7 +101,7 @@ dotnet add package Microsoft.Extensions.Configuration.Json
 
 Open the application in Visual Studio Code using the following command:
 
-```shell
+```console
 code .
 ```
 
@@ -129,7 +129,7 @@ Create a new folder **Helpers** in the project.
 
 Create a new file **MsalAuthenticationProvider.cs** in the **Helpers** folder and add the following code:
 
-```cs
+```csharp
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Security;
@@ -201,11 +201,12 @@ namespace Helpers
 
 ### Incorporate Microsoft Graph into the console app
 
-Open the **Program.cs** file and add the following `using` statements to the top fo the file:
+Open the **Program.cs** file and add the following `using` statements to the top of the file:
 
-```cs
+```csharp
 using System.Collections.Generic;
 using System.Security;
+using System.Threading.Tasks;
 using Microsoft.Identity.Client;
 using Microsoft.Graph;
 using Microsoft.Extensions.Configuration;
@@ -214,7 +215,7 @@ using Helpers;
 
 Add the following method `LoadAppSettings` to the `Program` class. The method retrieves the configuration details from the **appsettings.json** file previously created:
 
-```cs
+```csharp
 private static IConfigurationRoot LoadAppSettings()
 {
   try
@@ -241,7 +242,7 @@ private static IConfigurationRoot LoadAppSettings()
 
 Add the following method `CreateAuthorizationProvider` to the `Program` class. The method will create an instance of the clients used to call Microsoft Graph.
 
-```cs
+```csharp
 private static IAuthenticationProvider CreateAuthorizationProvider(IConfigurationRoot config, string userName, SecureString userPassword)
 {
   var clientId = config["applicationId"];
@@ -263,7 +264,7 @@ private static IAuthenticationProvider CreateAuthorizationProvider(IConfiguratio
 
 Add the following method `GetAuthenticatedGraphClient` to the `Program` class. The method creates an instance of the `GraphServiceClient` object.
 
-```cs
+```csharp
 private static GraphServiceClient GetAuthenticatedGraphClient(IConfigurationRoot config, string userName, SecureString userPassword)
 {
   var authenticationProvider = CreateAuthorizationProvider(config, userName, userPassword);
@@ -274,7 +275,7 @@ private static GraphServiceClient GetAuthenticatedGraphClient(IConfigurationRoot
 
 Add the following method `ReadPassword` to the `Program` class. The method prompts the user for their password:
 
-```cs
+```csharp
 private static SecureString ReadPassword()
 {
   Console.WriteLine("Enter your password");
@@ -296,7 +297,7 @@ private static SecureString ReadPassword()
 
 Add the following method `ReadUsername` to the `Program` class. The method prompts the user for their username:
 
-```cs
+```csharp
 private static string ReadUsername()
 {
   string username;
@@ -308,7 +309,7 @@ private static string ReadUsername()
 
 Finally, add the following two methods to the `Program` class. The `SendEmail()` method will create and send the email to the currently signed in user. It calls the `LoadCardMessageBody()` to load an HTML template and Adaptive Card to create the email message:
 
-```cs
+```csharp
 private static async Task SendEmail(GraphServiceClient client, string email){
   // create email
   Message emailMessage = new Message()
@@ -345,7 +346,7 @@ private static string LoadCardMessageBody()
 
 Locate the `Main` method in the `Program` class. Add the following code to the end of the `Main` method to load the configuration settings from the **appsettings.json** file:
 
-```cs
+```csharp
 var config = LoadAppSettings();
 if (config == null)
 {
@@ -356,7 +357,7 @@ if (config == null)
 
 Add the following code to the end of the `Main` method, just after the code added in the last step. This code will obtain an authenticated instance of the `GraphServiceClient` and call the method to send the email:
 
-```cs
+```csharp
 var userName = ReadUsername();
 var userPassword = ReadPassword();
 
@@ -461,13 +462,13 @@ The last step is to add the two templates that contain the HTML email and the Ad
 
 Run the following command in a command prompt to compile the console application:
 
-```shell
+```console
 dotnet build
 ```
 
 Run the following command to run the console application:
 
-```shell
+```console
 dotnet run
 ```
 
@@ -490,7 +491,7 @@ Delete the email.
 
 The Adaptive Card in the rendered email will submit the form results to an API to record the user's feedback and update the card in the email. The next step is to create the API that receives the form submission and responds with an updated card that Outlook will use to update the existing message.
 
-You'll use Node.js and TypeScript to create the simple web service
+You'll use Node.js and TypeScript to create the web service
 
 Open your command prompt, navigate to a directory where you have rights to create your project, and create a new folder **refresh-card-ts**.
 
@@ -498,25 +499,25 @@ Open your command prompt, navigate to a directory where you have rights to creat
 
 Change to that folder and run the following to initialize a new Node project:
 
-```shell
+```console
 npm init -y
 ```
 
 Install the required dependencies for the project by running the following command. This will install packages used to run project:
 
-```bash
+```console
 npm install adaptivecards-templating@0.1.1-alpha.1 axios base64url body-parser debug dotenv express jsonwebtoken morgan rsa-pem-from-mod-exp typescript -S
 ```
 
-Repeat the previous step to install the following packages used during development of the project:
+Install the following packages used during development of the project by running the following command.
 
-```bash
+```console
 npm install @types/express @types/jsonwebtoken @types/morgan -D
 ```
 
 Open the project in an editor such as VS Code by executing the following command, or by opening VS Code and opening the **refresh-card-ts** folder:
 
-```bash
+```console
 code .
 ```
 
@@ -530,7 +531,7 @@ Add a few utility commands to project to simply building and running the project
 },
 ```
 
-You'll write the code for this project using TypeScript. Add a few file **tsconfig.json** to the root of the project and add the following JSON to it. This will configure the TypeScript compiler's settings without having to enter each setting in on the command line each time you run the project:
+You'll write the code for this project using TypeScript. Add a new file **tsconfig.json** to the root of the project and add the following JSON to it. This will configure the TypeScript compiler's settings without having to enter each setting in on the command line each time you run the project:
 
 ```json
 {
@@ -551,7 +552,7 @@ You'll write the code for this project using TypeScript. Add a few file **tsconf
 }
 ```
 
-Lastly, add a new file **.env** to the root fo the project and add the following to it. This will be used during development to specify environment variables when the project is run:
+Lastly, add a new file **.env** to the root of the project and add the following to it. This will be used during development to specify environment variables when the project is run:
 
 ```ini
 # allowed sender & domain the API will respond to
@@ -700,7 +701,7 @@ class OpenIdMetadata {
 export { OpenIdMetadata };
 ```
 
-Create another file **ActionableMessageTokenValidator** in the **Utilities** folder and add the following code to it. This contains two classes:
+Create another file **ActionableMessageTokenValidator.ts** in the **Utilities** folder and add the following code to it. This contains two classes:
 
 - `ActionableMessageTokenValidatorResult`: the object returned to the caller that contains the sender of the original email and person who did the action in the Adaptive Card
 - `ActionableMessageTokenValidator`: the object that will validate the token received in the message to verify the request was sent by Microsoft and parse the contents of the token to return to the caller as an `ActionableMessageTokenValidatorResult`
@@ -1013,7 +1014,7 @@ Before you continue, you should have [ngrok](https://ngrok.com) installed on you
 
 Run ngrok by executing the following command from the command line:
 
-```shell
+```console
 ngrok http 3007
 ```
 
@@ -1021,7 +1022,7 @@ This will start ngrok and will tunnel requests from an external ngrok url to you
 
 Copy the https forwarding address. In the following sample output, that is **https://787b8292.ngrok.io**.
 
-```shell
+```console
 ngrok by @inconshreveable
 
 Session Status                online
@@ -1074,7 +1075,7 @@ At this point, you're ready to test the complete process. There are four parts t
 
 ### Update the .NET Core console app to use the dynamic ngrok URL
 
-Locate and open the file **adaptive-card.json** in the .NET Core console app project. Locate the string `https://{{REPLACE-WITH-YOUR-SUBDOMAIN)}.ngrok.io/api/card` and set it the Ngrok URL obtained in a previous step.
+Locate and open the file **adaptive-card.json** in the .NET Core console app project. Locate the string `https://{{REPLACE-WITH-YOUR-SUBDOMAIN)}.ngrok.io/api/card` and set it to the ngrok URL obtained in a previous step.
 
 Save your changes.
 
@@ -1082,7 +1083,7 @@ Save your changes.
 
 Rerun the project by executing the following commands:
 
-```bash
+```console
 dotnet build
 dotnet run
 ```
@@ -1093,7 +1094,7 @@ Enter the username and password of your test user.
 
 Verify the ngrok process is still running from the previous time you started it. If it isn't running, you can start it by running either of the following two commands from the root of the Node.js API project:
 
-```bash
+```console
 ngrok http 3007
 # or
 npm run start-ngrok
@@ -1108,13 +1109,25 @@ npm run start-ngrok
 >
 > If you have to start or restart ngrok and the subdomain changes, make sure you apply the subdomain changes to these areas and resend the email to the test user using the .NET Core console app.
 
+#### Start the web server in bash
+
 Start the Node.js web server by running the following command from the project's root folder:
 
-```bash
+```console
 npm run start-server
 ```
 
 This command will run the script **start** that will first build the project and then start the web server.
+
+#### Start the web server in PowerShell
+
+Start the Node.js web server by running the following commands from the project's root folder:
+
+```powershell
+$ENV:DEBUG="msoutlook-adaptivecards"
+npm run build
+node server.js
+```
 
 ### Submit the form in the rendered Adaptive Card in Outlook
 
