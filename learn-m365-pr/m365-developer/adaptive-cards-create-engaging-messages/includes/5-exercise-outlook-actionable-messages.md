@@ -1075,7 +1075,7 @@ At this point, you're ready to test the complete process. There are four parts t
 
 ### Update the .NET Core console app to use the dynamic ngrok URL
 
-Locate and open the file **adaptive-card.json** in the .NET Core console app project. Locate the string `https://{{REPLACE-WITH-YOUR-SUBDOMAIN)}.ngrok.io/api/card` and set it the Ngrok URL obtained in a previous step.
+Locate and open the file **adaptive-card.json** in the .NET Core console app project. Locate the string `https://{{REPLACE-WITH-YOUR-SUBDOMAIN)}.ngrok.io/api/card` and set it to the ngrok URL obtained in a previous step.
 
 Save your changes.
 
