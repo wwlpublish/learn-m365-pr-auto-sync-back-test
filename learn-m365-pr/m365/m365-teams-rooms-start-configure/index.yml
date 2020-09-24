@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn-m365.m365-teams-rooms-start-configure
+metadata:
+  title: Start and configure Microsoft Teams Rooms
+  description: Start and configure Microsoft Teams Rooms guides you through the steps to get Teams Rooms ready for production after setting up your hardware and creating your resource account. You’ll learn about the out-of-box experience, key actions to take, and configuring initial Teams settings to secure, optimize, and then test your Teams Rooms installation.
+  ms.date: 09/22/2020
+  author: AlexandraHrt
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Start and configure Microsoft Teams Rooms
+summary: Start and configure Microsoft Teams Rooms guides you through the steps to get Teams Rooms ready for production after setting up your hardware and creating your resource account. You’ll learn about the out-of-box experience, key actions to take, and configuring initial Teams settings to secure, optimize, and then test your Teams Rooms installation. 
+abstract: |
+  At the end of this module, you should be able to:
+  - Understand the out-of-box experience.
+  - Configure Teams Rooms after the out-of-box experience is completed.
+  - Test that everything is installed and configured correctly. 
+
+prerequisites: | 
+ - Familiarity with Microsoft Teams deployment and resource accounts
+ - Familiarity with Microsoft Teams devices
+ - Familiarity with Windows 10 management tools
+
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+- student
+products:
+- m365
+- office-teams
+units:
+- learn-m365.m365-teams-rooms-start-configure.introduction
+- learn-m365.m365-teams-rooms-start-configure.out-box-experience
+- learn-m365.m365-teams-rooms-start-configure.take-key-actions
+- learn-m365.m365-teams-rooms-start-configure.validate
+- learn-m365.m365-teams-rooms-start-configure.knowledge-check
+- learn-m365.m365-teams-rooms-start-configure.summary
+badge: 
+  uid: learn-m365.m365-teams-rooms-start-configure.badge
