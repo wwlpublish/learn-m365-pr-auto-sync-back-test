@@ -20,7 +20,7 @@ Task modules can be invoked from tabs, bots, or deep links and what appears in o
 
 To invoke a task module, use the Microsoft Teams client SDK:
 
-```js
+```javascript
 microsoftTeams.tasks.startTask(taskInfo, callback);
 ```
 
@@ -43,7 +43,7 @@ The second parameter of the `startTask()` method is a callback. This callback ca
 
 From within the task module, you can submit the data collected from the user by calling the `submitTask()` method:
 
-```js
+```javascript
 microsoftTeams.tasks.submitTask(result);
 ```
 
