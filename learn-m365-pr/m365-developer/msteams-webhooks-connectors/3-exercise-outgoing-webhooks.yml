@@ -3,7 +3,7 @@ uid: learn-m365.msteams-webhooks-connectors.3-exercise-outgoing-webhooks
 metadata:
   title: Exercise - Create outgoing webhooks
   description: In this exercise, you’ll learn how to create a web service and register it as an outgoing webhook in the Microsoft Teams client.
-  ms.date: 05/08/2020
+  ms.date: 09/10/2020
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial

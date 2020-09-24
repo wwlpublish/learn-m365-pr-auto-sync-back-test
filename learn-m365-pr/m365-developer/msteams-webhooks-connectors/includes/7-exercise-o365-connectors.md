@@ -32,7 +32,7 @@ Open your command prompt, navigate to a directory where you want to save your wo
 
 Run the Yeoman Generator for Microsoft Teams by running the following command:
 
-```shell
+```console
 yo teams
 ```
 
@@ -42,10 +42,11 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project?**: My First Teams Connector
 - **Your (company) name? (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: 1.5
+- **Which manifest version would you like to use?**: v1.6
 - **Enter your Microsoft Partner Id, if you have one?**: (Leave blank to skip)
 - **What features do you want to add to your project?**: A Connector
 - **The URL where you will host this solution?**: (Accept the default option)
+- **Would you like show a loading indicator when your app/tab loads?**: No
 - **Would you like to include Test framework and initial tests?**: No
 - **Would you like to use Azure Applications Insights for telemetry?**: No
 - **What type of Connector would you like to include?**: A new Connector hosted in this solution
@@ -56,6 +57,29 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 > Most of the answers to these questions can be changed after creating the project. For example, the URL where the project will be hosted isn't important at the time of creating or testing the project.
 
 After answering the generator's questions, the generator will create the scaffolding for the project and then execute `npm install` that downloads all the dependencies required by the project.
+
+### Ensure the project is using the latest version of Teams manifest & SDK
+
+Run the npm command to install the latest version of the SDK
+
+```console
+npm i @microsoft/teams-js
+```
+
+Locate and open the `manifest.json` file in the `manifest`  folder of the project.
+
+- Change the `$schema` property to **https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json**
+- Change the `manifestVersion` property to **1.7**.
+- Change the `version` property to **1.0.0**.
+
+Open the `gulp.config.js` file in the root folder of the project. Add the following to the **SCHEMAS** property.
+
+```json
+{
+  version: "1.7",
+  schema: "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json"
+}
+```
 
 ### Examine and update the app manifest file
 
@@ -78,7 +102,7 @@ Within this file, locate the `connectors` array. Notice a single connector is li
 > [!IMPORTANT]
 > Notice the scope of the Connector ID will be replaced by the build process. This ID can be found in the `./.env` file that's used for development.
 
-A default manifest has a few empty array properties must be removed in order to add the Connector to a team. Locate the following properties and delete them from the **manifest.json** file:
+A default manifest has a few empty array properties that must be removed in order to add the Connector to a team. Locate the following properties and delete them from the **manifest.json** file:
 
 ```json
 "configurableTabs": []
@@ -107,7 +131,7 @@ microsoftTeams.getContext((context: microsoftTeams.Context) => {
 });
 ```
 
-The `find()` method needs to be replaced with a `fitler()` method. Update this line:
+The `find()` method needs to be replaced with a `filter()` method. Update this line:
 
 ```typescript
 color: availableColors.find(c => c.code === context.entityId),
@@ -135,7 +159,6 @@ microsoftTeams.settings.getSettings((s: any) => {
     user: s.userObjectId,
     appType: s.appType,
   });
-
 ...
 ```
 
@@ -166,7 +189,7 @@ At this point, our Microsoft Teams app and Office 365 Connector is set up and wo
 
 From the command line, navigate to the root folder for the project and execute the following command:
 
-```shell
+```console
 gulp ngrok-serve
 ```
 
