@@ -17,7 +17,7 @@ You'll use Node.js to create custom Microsoft Teams tabs in this module. The exe
 - NPM (installed with Node.js) - v6.\* (or higher)
 - [Gulp](https://gulpjs.com/) - v4.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.13.0 (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.15.0 (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 
 *You must have the minimum versions of these prerequisites installed on your workstation.
@@ -55,7 +55,7 @@ On the **Teams Calendar Graph Tab** page, copy the value of the **Application (c
 
   ![Screenshot of the Application ID of the new app registration](../media/aad-portal-newapp-details.png)
 
-On the **Teams Calendar Graph Tab** page, select the **1 web, 0 public client** link under the **Redirect URIs**.
+On the **Teams Calendar Graph Tab** page, select the **1 web, 0 spa, 0 public client** link under the **Redirect URIs**.
 
 Locate the section **Implicit grant**, and select both **Access tokens** and **ID tokens**. This action tells Azure AD to return these tokens to the authenticated user if requested.
 
@@ -81,9 +81,9 @@ In the **Request API permissions** panel that appears, select **Microsoft Graph*
 
 When you're prompted for the type of permission, select **Delegated permissions**.
 
-Enter *Mail.R* in the **Select permissions** search box, and select the **Mail.Read** permission. Select the **Add permission** button at the bottom of the panel.
+Enter *Mail.R* in the **Select permissions** search box, and select the **Mail.Read** permission. Select the **Add permissions** button at the bottom of the panel.
 
-At the bottom of the **API Permissions** panel, select the **Grant admin consent for [tenant]** button. Select **Yes** to grant all users in your organization this permission.
+On the **API Permissions** panel, select the **Grant admin consent for [tenant]** button. Select **Yes** to grant all users in your organization this permission.
 
 ## Create Microsoft Teams app
 
@@ -91,7 +91,7 @@ Open your command prompt, and go to a directory where you want to save your work
 
 Run the Yeoman generator for Microsoft Teams by running the following command:
 
-```shell
+```console
 yo teams
 ```
 
@@ -103,10 +103,11 @@ Yeoman starts and asks you a series of questions. Answer the questions with the 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project**: Learn MSTeams Auth Tabs
 - **Your (company) name (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: 1.5
+- **Which manifest version would you like to use?**: v1.6
 - **Enter your Microsoft Partner ID, if you have one**: (Leave blank to skip)
 - **What features do you want to add to your project?**: A tab
 - **The URL where you will host this solution?**: (Accept the default option)
+- **Would you like to show a loading indicator when your app/tab loads?** No
 - **Would you like to include Test framework and initial tests?**: No
 - **Would you like to use Azure Applications Insights for telemetry?**: No
 - **Default Tab name (max 16 characters)**: LearnAuthTab
@@ -120,9 +121,30 @@ After you answer the generator's questions, the generator creates the scaffoldin
 
 The tab you'll create in this exercise will get the latest emails from the current user's mailbox by using Microsoft Graph. Install the Microsoft Graph JavaScript SDK and associated TypeScript type declarations for Microsoft Graph in the project. To install these packages, run the following commands:
 
-```shell
+```console
 npm install @microsoft/microsoft-graph-client
 npm install @types/microsoft-graph --save-dev
+```
+
+### Ensure the project is using the latest version of Teams manifest & SDK
+
+Run the npm command to install the latest version of the SDK
+
+```console
+npm i @microsoft/teams-js
+```
+
+Locate and open the `manifest.json` file in the `manifest`  folder of the project.
+- Change the `$schema` property to **https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json**
+- Change the `manifestVersion` property to **1.7**.
+
+Open the `gulp.config.js` file in the root folder of the project. Add the following to the **SCHEMAS** property.
+
+```json
+{
+  version: "1.7",
+  schema: "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json"
+}
 ```
 
 ## Update the tab to use the current Theme
@@ -132,7 +154,7 @@ Locate and open the file that contains the React component used in the project: 
 Update the `import` statements in this file to include the components used in the configuration tab. Find the following `import` statement that imports the Fluent UI - React library:
 
 ```typescript
-import { Provider, Flex, Text, Button, Header } from "@fluentui/react";
+import { Provider, Flex, Text, Button, Header } from "@fluentui/react-northstar";
 ```
 
 Replace the previous statement with the following import statement:
@@ -146,9 +168,14 @@ import {
   Header,
   ThemePrepared,
   themes,
-  List,
-  Icon
-} from "@fluentui/react";
+  List
+} from "@fluentui/react-northstar";
+```
+
+Add the following import statement:
+
+```typescript
+import { EmailIcon } from "@fluentui/react-icons-northstar";
 ```
 
 Update the state of the component to contain a property for the current Stardust theme. Locate the `ILearnAuthTabState` interface in the LearnAuthTab.tsx file, and add the following member to it:
@@ -251,7 +278,7 @@ public render() {
         <List selectable>
           {
             this.state.messages.map(message => (
-              <List.Item media={<Icon name="email"></Icon>}
+              <List.Item media={<EmailIcon></EmailIcon>}
                 header={message.receivedDateTime}
                 content={message.subject}>
               </List.Item>
@@ -477,7 +504,7 @@ The notification process triggers Microsoft Teams to close the pop-up window and
 
 From the command line, go to the root folder for the project and run the following command:
 
-```shell
+```console
 gulp ngrok-serve
 ```
 

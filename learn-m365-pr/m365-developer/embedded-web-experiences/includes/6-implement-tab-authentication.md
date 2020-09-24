@@ -65,7 +65,7 @@ The OAuth 2.0 implicit grant flow calls for a *state* parameter in the authentic
 
 ### Authentication flow example: Trigger a pop-up window from a user action
 
-```ts
+```typescript
 private async getAccessToken(promptConsent: boolean = false): Promise<string> {
   return new Promise<string>((resolve, reject) => {
     microsoftTeams.authentication.authenticate({

@@ -101,7 +101,7 @@ If you respond directly to the conversation, you'll need to also register your m
 
 If you aren't using the static list of parameters to implement the task module, you'll need to create and return the task module from your messaging extension's web service.
 
-The Bot Framework will send an `Activity` object to your web service of type `composeExtension/fetchTask` with the command id that you need to respond to with a `task` object.
+The Bot Framework will send an `Activity` object to your web service of type `composeExtension/fetchTask` with the command ID that you need to respond to with a `task` object.
 
 The following code demonstrates a messaging extension web service, implemented using the Bot Framework SDK, that responds when an action command is invoked. This example implements the task module using an Adaptive card:
 
@@ -134,7 +134,7 @@ The method `handleTeamsMessagingExtensionFetchTask()` is called by the Bot Frame
 
 ## Handling the messaging extension task module submission
 
-When a user submits the messaging extension's task module, the Bot Framework will send another `Activity` object to your web service of type `composeExtension/submitAction` with the command id and parameter values set.
+When a user submits the messaging extension's task module, the Bot Framework will send another `Activity` object to your web service of type `composeExtension/submitAction` with the command ID and parameter values set.
 
 You have multiple options when receiving this message, including:
 

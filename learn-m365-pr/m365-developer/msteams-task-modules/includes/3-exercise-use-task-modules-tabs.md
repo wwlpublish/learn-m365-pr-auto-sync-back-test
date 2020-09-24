@@ -25,7 +25,7 @@ You'll use Node.js to create custom Microsoft Teams tabs in this module. The exe
 - NPM (installed with Node.js) - v6.\* (or higher)
 - [Gulp](https://gulpjs.com/) - v4.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.13.0 (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.15.0 (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
@@ -36,7 +36,7 @@ Open your command prompt, navigate to a directory where you want to save your wo
 
 Run the Yeoman Generator for Microsoft Teams by running the following command:
 
-```shell
+```console
 yo teams
 ```
 
@@ -48,10 +48,11 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project?**: YouTube Player
 - **Your (company) name? (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: v1.5
+- **Which manifest version would you like to use?**: v1.6
 - **Enter your Microsoft Partner ID, if you have one?**: (Leave blank to skip)
 - **What features do you want to add to your project?**: A Tab
 - **The URL where you will host this solution?**: (Accept the default option)
+- **Would you like to show a loading indicator when your app/tab loads?** No
 - **Would you like to include Test framework and initial tests?**: No
 - **Would you like to use Azure Applications Insights for telemetry?**: No
 - **Default Tab name? (max 16 characters)**: YouTube Player 1
@@ -63,13 +64,35 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 
 After answering the generator's questions, the generator will create the scaffolding for the project and then execute `npm install` that downloads all the dependencies required by the project.
 
+### Ensure the project is using the latest version of Teams manifest & SDK
+
+Run the npm command to install the latest version of the SDK
+
+```console
+npm i @microsoft/teams-js
+```
+
+Locate and open the `manifest.json` file in the `manifest`  folder of the project. 
+- Change the `$schema` property to **https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json**
+- Change the `manifestVersion` property to **1.7**.
+
+Open the `gulp.config.js` file in the root folder of the project. Add the following to the **SCHEMAS** property.
+
+```json
+{
+  version: "1.7",
+  schema: "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json"
+}
+```
+
+
 ### Test the personal tab
 
 Before customizing the tab, let's test the tab to see the initial developer experience for testing.
 
 From the command line, navigate to the root folder for the project and execute the following command:
 
-```shell
+```console
 gulp ngrok-serve
 ```
 
@@ -131,7 +154,7 @@ Locate and open the file that contains the React component used in the project: 
 Update the import statements in this file to add components from the Fluent UI - React library. Find the following import statement at the top of the file that imports components from the Fluent UI - React library:
 
 ```typescript
-import { Provider, Flex, Text, Button, Header } from "@fluentui/react";
+import { Provider, Flex, Text, Button, Header } from "@fluentui/react-northstar";
 ```
 
 Replace the previous statement with the following import statement:
@@ -146,7 +169,7 @@ import {
   ThemePrepared,
   themes,
   Input
-} from "@fluentui/react";
+} from "@fluentui/react-northstar";
 ```
 
 Update the state of the component to contain a list of items and a property for a new item. Locate the `IYouTubePlayer1TabState` interface in the **YouTubePlayer1Tab.tsx** file and add the following properties to it:
@@ -188,7 +211,7 @@ Initialize the current theme and state of the component. Locate the line `this.u
 ```typescript
 this.updateComponentTheme(this.getQueryVariable("theme"));
 this.setState(Object.assign({}, this.state, {
-  youTubeVideoId: "jugBQqE_2sM"
+  youTubeVideoId: "VlEH4vtaxp4"
 }));
 ```
 
@@ -235,15 +258,6 @@ private onChangeVideo = (event: React.MouseEvent<HTMLButtonElement>): void => {
 }
 ```
 
-Finally, initialize the state of the tab by setting it to a default video to display.
-
-Within the `componentWillMount()` method, add the following statement to the top of the method:
-
-```typescript
-this.setState(Object.assign({}, this.state, {
-  youTubeVideoId: "VlEH4vtaxp4"
-}));
-```
 
 ### Test the personal tab
 
@@ -253,7 +267,7 @@ Increment the `version` property in the app's **./manifest/manifest.json** file 
 
 From the command line, navigate to the root folder for the project and execute the following command:
 
-```shell
+```console
 gulp ngrok-serve
 ```
 
@@ -365,7 +379,7 @@ Increment the `version` property in the app's **./manifest/manifest.json** file 
 
 From the command line, navigate to the root folder for the project and execute the following command:
 
-```shell
+```console
 gulp ngrok-serve
 ```
 
@@ -453,8 +467,8 @@ Add the following code to the page. Most of this code mirrors what you would see
 
 ```typescript
 import * as React from "react";
-import { Provider, Flex, Text, Button, Header, ThemePrepared, themes, Input } from "@fluentui/react";
-import TeamsBaseComponent, { ITeamsBaseComponentProps, ITeamsBaseComponentState } from "msteams-react-base-component";
+import { Provider, Flex, Text, Button, Header, ThemePrepared, themes, Input } from "@fluentui/react-northstar";
+import TeamsBaseComponent, { ITeamsBaseComponentState } from "msteams-react-base-component";
 import * as microsoftTeams from "@microsoft/teams-js";
 
 export interface IVideoSelectorTaskModuleState extends ITeamsBaseComponentState {
@@ -462,7 +476,7 @@ export interface IVideoSelectorTaskModuleState extends ITeamsBaseComponentState 
   youTubeVideoId?: string;
 }
 
-export interface IVideoSelectorTaskModuleProps extends ITeamsBaseComponentProps {
+export interface IVideoSelectorTaskModuleProps extends {
 }
 
 export class VideoSelectorTaskModule extends TeamsBaseComponent<IVideoSelectorTaskModuleProps, IVideoSelectorTaskModuleState> {
@@ -571,7 +585,7 @@ Increment the `version` property in the app's **./manifest/manifest.json** file 
 
 From the command line, navigate to the root folder for the project and execute the following command:
 
-```shell
+```console
 gulp ngrok-serve
 ```
 

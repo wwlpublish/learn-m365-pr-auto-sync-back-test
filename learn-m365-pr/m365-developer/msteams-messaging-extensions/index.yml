@@ -3,7 +3,7 @@ uid: learn-m365.msteams-messaging-extensions
 metadata:
   title: Task-oriented interactions in Microsoft Teams with messaging extensions
   description: Learn how to interact with users in Microsoft Teams with messaging extensions.
-  ms.date: 2/12/2020
+  ms.date: 09/10/2020
   author: andrewconnell
   ms.author: suzanz
   ms.topic: interactive-tutorial

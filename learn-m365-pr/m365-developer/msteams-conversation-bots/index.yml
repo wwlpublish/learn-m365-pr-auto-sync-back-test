@@ -3,7 +3,7 @@ uid: learn-m365.msteams-conversation-bots
 metadata:
   title: Create interactive conversational bots for Microsoft Teams
   description: Learn how to create interactive bots and integrate them in Microsoft Teams apps.
-  ms.date: 2/12/2020
+  ms.date: 09/10/2020
   author: andrewconnell
   ms.author: suzanz
   ms.topic: interactive-tutorial
