@@ -1,0 +1,43 @@
+### YamlMime:Module
+uid: learn-m365.workplace-analytics-business-continuity
+metadata:
+  title: Discover Workplace Analytics
+  description: Learn how to set up and interpret the results from the Workplace Analytics Power BI Business continuity dashboard. Generate insights from the behavioral data to help navigate shifts in employee and team work patterns.  
+  ms.date: 09/28/2020
+  author: AlexandraHrt
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Discover Workplace Analytics
+summary: Learn how to set up and interpret the results from the Workplace Analytics Power BI Business continuity dashboard. Generate insights from the behavioral data to help navigate shifts in employee and team work patterns.  
+abstract: |
+  At the end of this module, you should be able to:
+  - Explain what the Workplace Analytics Power BI Business continuity dashboard is, and why it provides an important perspective.
+  - Run queries, load the data, and select your settings.
+  - Interpret the results in the dashboard
+
+prerequisites: |
+ - Familiarity with Workplace Analytics data sources
+ - Basic knowledge of Microsoft Power BI software
+ - Basic knowledge of queries and query structure 
+
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- business-analyst
+- data-analyst
+- business-owner
+products:
+- m365
+- m365-workplace-analytics
+- power-bi
+units:
+- learn-m365.workplace-analytics-business-continuity.introduction
+- learn-m365.workplace-analytics-business-continuity-dashboard
+- learn-m365.workplace-analytics-business-continuity.impact-business-shifts
+- learn-m365.workplace-analytics-business-continuity.target-areas-improve
+- learn-m365.workplace-analytics-business-continuity.knowledge-check
+- learn-m365.workplace-analytics-business-continuity.summary-
+badge: 
+  uid: learn-m365.workplace-analytics-business-continuity.badge
