@@ -45,7 +45,7 @@ Part 1 of the *Work-life integration report* helps you determine the share of em
 
 > [!TIP]
 > 
-> Use the hours-per-week drop-down menu at the top of each pane to adjust the desired collaboration and work week sp an hours value comparison points to at least zero, two, or four hours per week.
+> Use the hours-per-week drop-down menu at the top of each pane to adjust the desired collaboration and work week span hours value comparison points to at least zero, two, or four hours per week.
 > 
 
 - If you see team collaboration patterns revert to near-normal levels, employees may still be impacted due to managing work demands with family or community, technology-related blockers, or prioritizing non-collaborative work to make the most of decreased connectivity. 
@@ -83,7 +83,7 @@ The *External relationships report* quantifies changes in communication with cus
 Teams with significant decreases in external collaboration may be struggling to maintain connectivity with customers. When companies respond to business shifts, they often become more inwardly focused. It may be difficult for sales teams to schedule time with customers that are focusing on other priorities. On the other hand, functions that provide support to customers could see an uptick in customer external collaboration.
 
 > [!NOTE]
-> External collaboration hours include collaboration with personal domains (gmail.com, yahoo.com, etc.). To exclude personal domains, customize the “external email hours” and “external meeting hours” metrics in the query.
+> External collaboration hours include collaboration with personal domains (gmail, yahoo, etc.). To exclude personal domains, customize the “external email hours” and “external meeting hours” metrics in the query.
 > 
 
 ### Report: Are employees engaged and connected?
@@ -91,7 +91,7 @@ Teams with significant decreases in external collaboration may be struggling to 
 The *Engagement and connectivity report* helps identify areas that may be struggling with employee connectivity and community by showing recent manager one-on-one and small group conversation activity. 
 
 - The chart on the left shows the share of employees by group with no manager one-on-one meetings.  
-- The chart on the right shows the amount of time in small group conversations (8 people or less) employees are partaking in on a weekly basis.
+- The chart on the right shows the amount of time in small group conversations (eight people or less) employees are partaking in on a weekly basis.
 
 ![The engagement and connectivity report](../media/employees-engaged-connected.png)
 
@@ -101,11 +101,11 @@ The *Engagement and connectivity report* helps identify areas that may be strugg
 
 - Manager one-on-one meetings are an indicator of support and development opportunities. In a remote work environment, it is important for managers to check in with employees on a regular basis to see how they are doing, identify barriers, and ensure workloads are manageable. Such check-ins demonstrate compassion and empathy and establish trust. 
 
-- Small group conversations in meetings, calls, and chats can reduce feelings of isolation (while email may push a workstream, it is impersonal and does not promote engaged connectivity). Employees experiencing low connectivity (< 2 hours per week) may be struggling to adapt to virtual work and may need more training and assistance. 
+- Small group conversations in meetings, calls, and chats can reduce feelings of isolation (while email may push a workstream, it is impersonal and does not promote engaged connectivity). Employees experiencing low connectivity (< two hours per week) may be struggling to adapt to virtual work and may need more training and assistance. 
 - Both visuals in this report can be used together to form a story. For example, employees with low connectivity and limited manager one-on-one sessions are likely at the highest risk of isolation and disengagement.
 - Customers with MyAnalytics may benefit from Manager Nudges that help remind managers to take actions that foster a sense of community and engagement across their teams.
 
-Engage with teams that are doing well in terms of manager one-on-ones and small group conversations and share their best practices with the broader organization. Encourage managers to check on well-being, connectivity, and workload in one-on-ones, and encourage team members to connect in virtual meetings, calls and chats to avoid isolation.
+Engage with teams that are doing well in terms of manager one-on-ones and small group conversations and share their best practices with the broader organization. Encourage managers to check on well-being, connectivity, and workload in one-on-ones, and encourage team members to connect in virtual meetings, calls, and chats to avoid isolation.
 
 ### Report: How are work patterns evolving?
 
@@ -118,8 +118,8 @@ This view shows population level metrics over time, including:
 - Collaboration hours
 - Workweek span
 - After-hours collaboration
-- Percent of employees with no manager one-on-one meetings in the last 2 weeks
-- Percent of employees with less than 2 hours a week in small group conversations
+- Percent of employees with no manager one-on-one meetings in the last two weeks
+- Percent of employees with less than two hours a week in small group conversations
 
-Use this view to spot trends against the backdrop of 4-week rolling average data, to see changes in the metrics themselves, and changes in the directionality of trend lines.
+Use this view to spot trends against the backdrop of four-week rolling average data, to see changes in the metrics themselves, and changes in the directionality of trend lines.
 As employees acclimate to new ways of working, the trend lines should begin to stabilize.  If employees return to the office, use these trend lines to track the new normal. As managers connect and provide guidance, and facilitate community continuity, the percentages in the Maintaining engagement and connectivity category should trend downward.

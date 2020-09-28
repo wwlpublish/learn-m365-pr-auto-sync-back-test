@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.workplace-analytics-business-continuity.setup-dashboard
+uid: learn-m365.workplace-analytics-business-continuity.set-up-dashboard
 title: Set up the Business continuity dashboard
 metadata:
   title: Set up the Business continuity dashboard
@@ -11,4 +11,4 @@ metadata:
   ms.prod: learning-m365
 durationInMinutes: 3
 content: |
-  [!include[](includes/setup-dashboard.md)]
+  [!include[](includes/set-up-dashboard.md)]
