@@ -51,7 +51,7 @@ The dashboard visualizations on each page of the report populates with Workplace
 
 - Select time periods for comparison. These are the time periods you’ll use to compare how workplace behavior has changed. The baseline period contains the collaboration you'll compare the current time period against.
 - Select from the list of organizational attributes you chose to include in your query. Default attributes are **Organization**, **LevelDesignation** and **TimeZone**, but the list will include any organizational attributes selected when queries were run.
-- To filter the reports further, select any of the available organizational attributes filter values for the data you would like to include.
+- To filter the reports further, select any of the available organizational attributes and filter values for the data you would like to include.
 
 ![Settings options](../media/settings-options.png)
 

@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn-m365.workplace-analytics-business-continuity
 metadata:
-  title: Discover Workplace Analytics
+  title: Evaluate shifts in work patterns with the Business continuity dashboard in Microsoft Workplace Analytics
   description: Learn how to set up and interpret the results from the Workplace Analytics Power BI Business continuity dashboard. Generate insights from the behavioral data to help navigate shifts in employee and team work patterns.  
   ms.date: 09/28/2020
   author: AlexandraHrt
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Discover Workplace Analytics
+title: Evaluate shifts in work patterns with the Business continuity dashboard in Microsoft Workplace Analytics
 summary: Learn how to set up and interpret the results from the Workplace Analytics Power BI Business continuity dashboard. Generate insights from the behavioral data to help navigate shifts in employee and team work patterns.  
 abstract: |
   At the end of this module, you should be able to:
