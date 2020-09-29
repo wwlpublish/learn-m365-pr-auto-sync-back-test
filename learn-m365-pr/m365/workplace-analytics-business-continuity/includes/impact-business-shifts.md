@@ -22,7 +22,7 @@ The *Collaboration activity report* shows how collaboration patterns are changin
 - The chart on the left shows the average level of collaboration for the measured employees on a per-employee per-week level. 
 - The chart on the right breaks out the change in collaboration between the baseline and current time periods, across your selected organizational attribute
 
-![The collaboration activity report](../media/collaboration-activities-changing.png)
+ [ ![The collaboration activity report](../media/collaboration-activities-changing.png) ](../media/collaboration-activities-changing-lightbox.png#lightbox)
 
 > [!TIP]
 > Click any bar in the column chart on the right to filter the timeline chart on the left (this filter is only applied to this report page).

@@ -4,7 +4,8 @@ The Business continuity Power BI template provides quick insight on opportunity 
 
 View 1 of the *Areas of improvement report* gives a population-level look at five areas for potential remote work improvement.
 
-![The Areas of improvement report View 1](../media/effectiveness-improved-1.png)
+[ ![The Areas of improvement report View 1](../media/effectiveness-improved-1.png) ](../media/effectiveness-improved-1-lightbox.png#lightbox)
+
 
 **Manageable work levels**: Employees with an increase of 4+ hours in both collaboration hours and workweek span may be experiencing difficulty managing their workloads, and may benefit from task prioritization and workload balancing.
 
@@ -26,7 +27,8 @@ Take a look at the *Best practices recommendations* (on the right side of the re
 
 View 2 of the *Areas of improvement report* summarizes the key metrics identified in the previous report by group.  
 
-![The Areas of improvement report View 2](../media/effectiveness-improved-2.png)
+[ ![The Areas of improvement report View 2](../media/effectiveness-improved-2.png) ](../media/effectiveness-improved-2-lightbox.png#lightbox)
+
 
 - Use the break-outs by organizational attribute in this report to identify pockets of the organization most impacted by the opportunity areas.
 - To filter the reports by a different organizational attribute, return to the Settings screen and select a new attribute from the dropdown menu. All report pages will automatically group the data by the newly selected attribute.
@@ -36,7 +38,7 @@ View 2 of the *Areas of improvement report* summarizes the key metrics identifie
 
 This final report, the *Glossary*, provides a reference for the metrics and terminology used across the Business continuity Dashboard. 
 
-![The Glossary](../media/glossary.png)
+[ ![The Glossary](../media/glossary.png) ](../media/glossary-lightbox.png#lightbox)
 
 ## Learn more
 
