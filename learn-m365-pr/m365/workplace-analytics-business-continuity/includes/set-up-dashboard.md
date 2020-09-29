@@ -53,7 +53,7 @@ The dashboard visualizations on each page of the report populates with Workplace
 - Select from the list of organizational attributes you chose to include in your query. Default attributes are **Organization**, **LevelDesignation** and **TimeZone**, but the list will include any organizational attributes selected when queries were run.
 - To filter the reports further, select any of the available organizational attributes and filter values for the data you would like to include.
 
-![Settings options](../media/settings-options.png)
+![Settings options](../media/options-settings.png)
 
 Once you've selected the settings for the group you'd like to analyze, you can start using the dashboard. The populated Business continuity dashboard includes report pages on changing collaboration, work-life integration, external relationships, engagement and connectivity, evolving work patterns, and areas of improvement. 
 
