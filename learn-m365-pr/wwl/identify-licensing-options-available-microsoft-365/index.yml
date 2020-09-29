@@ -27,7 +27,6 @@ levels:
 roles:
 - business-owner
 - business-user
-- student
 products:
 - m365
 - office-365
