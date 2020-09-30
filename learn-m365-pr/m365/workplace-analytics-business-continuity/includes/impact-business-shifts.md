@@ -15,7 +15,7 @@ The Introduction page of the report helps set up the context around what questio
 
 The Business continuity Dashboard is often converted into a PDF and distributed within a company, so this Introduction page helps set the stage for dashboard recipients who are unfamiliar with insights generated from Workplace Analytics.
 
-### Report: How are collaboration activities changing?
+## Report: How are collaboration activities changing?
 
 The *Collaboration activity report* shows how collaboration patterns are changing in response to shifting work patterns, and which tools people are substituting for in-person interactions.
 
@@ -33,7 +33,7 @@ The *Collaboration activity report* shows how collaboration patterns are changin
 - Decreased collaboration that continues to stay low across all channels can indicate challenges transitioning to virtual work. Examples of underlying causes are poor connectivity, discomfort with remote meetings, lack of familiarity with tools, and the inability to take work home.
 - Ensure teams are getting support to balance work and life. For teams with low virtual collaboration, check in on their remote work experience to identify specific challenges. It may be helpful to share remote work best practices with the team as part of a live discussion.
 
-### Report: What are the impacts of work-life integration? Part 1
+## Report: What are the impacts of work-life integration? Part 1
 
 Part 1 of the *Work-life integration report* helps you determine the share of employees whose collaboration time and work week span have increased or decreased by at least 0, 4, or 8 hours per week.
 
@@ -53,7 +53,7 @@ Part 1 of the *Work-life integration report* helps you determine the share of em
 - Low workweek spans do not necessarily indicate lower productivity or less time working – rather, employees may be handling collaborative activity in fewer hours, and performing focused work outside of that window.
 - If some employees are sending messages early or late in the day, and others are sticking to their prior schedules, it may be valuable for teams to align their expectations on how “after-hours” messages should be handled, and how quickly to respond or expect a response. 
 
-### Report: What are the impacts of work-life integration? Part 2
+## Report: What are the impacts of work-life integration? Part 2
 
 Part 2 of the *Work-life integration report* shows the share of employees whose after-hours activity has increased or decreased by more than 0, 2, or 4 hours. You can also assess activity by time of day for each collaboration channel to understand how the workday is changing.
 
@@ -71,7 +71,7 @@ Part 2 of the *Work-life integration report* shows the share of employees whose 
 - Teams that see larger increases or decreases in after-hours activity are good candidates for investigating activities that may be driving the change. It's a good practice to validate with employees how it impacts their well-being and ability to work effectively.
 - For customers with MyAnalytics, Focus Plans can empower employees to take better control of their working hours to reduce the workload that spills into after-hours.
 
-### Report: Are external relationships being maintained?
+## Report: Are external relationships being maintained?
 
 The *External relationships report* quantifies changes in communication with customers, partners, and others outside the organization. 
 
@@ -86,7 +86,7 @@ Teams with significant decreases in external collaboration may be struggling to 
 > External collaboration hours include collaboration with personal domains (gmail, yahoo, etc.). To exclude personal domains, customize the “external email hours” and “external meeting hours” metrics in the query.
 > 
 
-### Report: Are employees engaged and connected?
+## Report: Are employees engaged and connected?
 
 The *Engagement and connectivity report* helps identify areas that may be struggling with employee connectivity and community by showing recent manager one-on-one and small group conversation activity. 
 
@@ -107,7 +107,7 @@ The *Engagement and connectivity report* helps identify areas that may be strugg
 
 Engage with teams that are doing well in terms of manager one-on-ones and small group conversations and share their best practices with the broader organization. Encourage managers to check on well-being, connectivity, and workload in one-on-ones, and encourage team members to connect in virtual meetings, calls, and chats to avoid isolation.
 
-### Report: How are work patterns evolving?
+## Report: How are work patterns evolving?
 
 The *Evolving work patterns report* shows how key collaboration behaviors have been changing over time for the measured population in three categories: *Tracking collaboration*, *Adapting to remote*, and *Maintaining engagement and connectivity*.
 
