@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: Start and configure Microsoft Teams Rooms guides you through the steps to get Teams Rooms ready for production after setting up your hardware and creating your resource account. You’ll learn about the out-of-box experience, key actions to take, and configuring initial Teams settings to secure, optimize, and then test your Teams Rooms installation.
-  ms.date: 09/22/2020
+  ms.date: 10/02/2020
   author: AlexandraHrt
   ms.author: elizapo
   ms.topic: interactive-tutorial
@@ -13,39 +13,36 @@ durationInMinutes: 5
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Question here"
+    - content: "Teams Rooms supports Modern Authentication."
       choices:
-      - content: "Choice 1"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+      - content: "True"
         isCorrect: true
-        explanation: "explanation"
+        explanation: "Correct. While Modern Authentication is optional, it is a supported option."
+      - content: "False"
+        isCorrect: false
+        explanation: "Modern authentication is an optional configuration. However, it is supported on Teams Rooms."
 
-    - content: "Question here"
+    - content: "What is a critical security step to take immediately after setting up Teams Rooms ?"
       choices:
-      - content: "Choice 1"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+      - content: "Change the default Admin password."
         isCorrect: true
-        explanation: "explanation"
+        explanation: "Absolutely! All Teams Rooms ship with an Admin account and the same default password. You should change the default password as quickly as possible."
+      - content: "Update the Teams Rooms App."
+        isCorrect: false
+        explanation: "This is an important step, but it’s not a critical security step."
+      - content: "Change the password for the resource account."
+        isCorrect: false
+        explanation: "You can change the resource account password whenever you like. However, it is not a critical security piece."
       
-    - content: "Question here"
+    - content: "What **don’t** you need to verify when testing basic Teams Rooms functionality?"
       choices:
-      - content: "Choice 1"
+      - content: "The ability to see and hear a remote attendee."
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
+        explanation: "This is an important step when verifying that the room is set up correctly."
+      - content: "Validating that the brightness on the console and displays is set appropriately."
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+        explanation: "This is an important step when verifying that the room is set up correctly."
+      - content: "Sending a feedback report."
         isCorrect: true
-        explanation: "explanation"
+        explanation: "Sending a feedback report is something you should test, but it is not helpful in validating the basic functionality of Teams Rooms."
       

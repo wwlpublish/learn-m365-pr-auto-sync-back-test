@@ -3,7 +3,7 @@ uid: learn-m365.m365-teams-rooms-start-configure
 metadata:
   title: Start and configure Microsoft Teams Rooms
   description: Start and configure Microsoft Teams Rooms guides you through the steps to get Teams Rooms ready for production after setting up your hardware and creating your resource account. You’ll learn about the out-of-box experience, key actions to take, and configuring initial Teams settings to secure, optimize, and then test your Teams Rooms installation.
-  ms.date: 09/22/2020
+  ms.date: 10/02/2020
   author: AlexandraHrt
   ms.author: elizapo
   ms.topic: interactive-tutorial
@@ -34,6 +34,7 @@ units:
 - learn-m365.m365-teams-rooms-start-configure.introduction
 - learn-m365.m365-teams-rooms-start-configure.out-box-experience
 - learn-m365.m365-teams-rooms-start-configure.take-key-actions
+- learn-m365.m365-teams-rooms-start-configure.review-configure-settings
 - learn-m365.m365-teams-rooms-start-configure.validate
 - learn-m365.m365-teams-rooms-start-configure.knowledge-check
 - learn-m365.m365-teams-rooms-start-configure.summary

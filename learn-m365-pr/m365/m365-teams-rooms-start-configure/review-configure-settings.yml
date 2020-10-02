@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.m365-teams-rooms-start-configure.validate
-title: Validate that Teams Rooms is working correctly
+uid: learn-m365.m365-teams-rooms-start-configure.review-configure-settings
+title: Review and configure the Teams Rooms settings
 metadata:
-  title: Validate that Teams Rooms is working correctly
+  title: Review and configure the Teams Rooms settings
   description: Start and configure Microsoft Teams Rooms guides you through the steps to get Teams Rooms ready for production after setting up your hardware and creating your resource account. You’ll learn about the out-of-box experience, key actions to take, and configuring initial Teams settings to secure, optimize, and then test your Teams Rooms installation.
   ms.date: 10/02/2020
   author: AlexandraHrt
@@ -11,4 +11,4 @@ metadata:
   ms.prod: learning-m365
 durationInMinutes: 10
 content: |
-  [!include[](includes/validate.md)]
+  [!include[](includes/review-configure-settings.md)]
