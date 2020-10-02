@@ -17,12 +17,12 @@ quiz:
       choices:
       - content: "True"
         isCorrect: true
-        explanation: "Correct. While Modern Authentication is optional, it is a supported option."
+        explanation: "Correct. While Modern Authentication is optional, it's a supported option."
       - content: "False"
         isCorrect: false
-        explanation: "Modern authentication is an optional configuration. However, it is supported on Teams Rooms."
+        explanation: "Modern authentication is an optional configuration. However, it's supported on Teams Rooms."
 
-    - content: "What is a critical security step to take immediately after setting up Teams Rooms ?"
+    - content: "What is a critical security step to take immediately after setting up Teams Rooms?"
       choices:
       - content: "Change the default Admin password."
         isCorrect: true
@@ -32,7 +32,7 @@ quiz:
         explanation: "This is an important step, but it’s not a critical security step."
       - content: "Change the password for the resource account."
         isCorrect: false
-        explanation: "You can change the resource account password whenever you like. However, it is not a critical security piece."
+        explanation: "You can change the resource account password whenever you like. However, it's not a critical security piece."
       
     - content: "What **don’t** you need to verify when testing basic Teams Rooms functionality?"
       choices:
@@ -44,5 +44,5 @@ quiz:
         explanation: "This is an important step when verifying that the room is set up correctly."
       - content: "Sending a feedback report."
         isCorrect: true
-        explanation: "Sending a feedback report is something you should test, but it is not helpful in validating the basic functionality of Teams Rooms."
+        explanation: "Sending a feedback report is something you should test, but it's not helpful in validating the basic functionality of Teams Rooms."
       
