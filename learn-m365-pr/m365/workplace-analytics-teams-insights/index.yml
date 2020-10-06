@@ -2,23 +2,23 @@
 uid: learn-m365.workplace-analytics-teams-insights
 metadata:
   title: Measure Teams collaboration with the Teams insights dashboard in Workplace Analytics
-  description: Learn about the Workplace Analytics Teams insights dashboard, how to set it up, and how to interpret the results to understand how employees are adopting and using Microsoft Teams to collaborate in your organization.   
-  ms.date: 09/15/2020
+  description: Learn how to prepare and generate actionable data using the Workplace Analytics Power BI Teams insights dashboard.  Analyze Microsoft Teams adoption trends from the populated reports.   
+  ms.date: 10/05/2020
   author: AlexandraHrt
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Measure Teams collaboration with the Teams insights dashboard in Workplace Analytics
-summary: Learn about the Workplace Analytics Teams insights dashboard, how to set it up, and how to interpret the results to understand how employees are adopting and using Microsoft Teams to collaborate in your organization.   
+summary: Learn how to prepare and generate actionable data using the Workplace Analytics Power BI Teams insights dashboard.  Analyze Microsoft Teams adoption trends from the populated reports.  
 abstract: |
   At the end of this module, you should be able to:
-  - Describe what the Teams insights dashboard is. 
-  - Set up the associated Power BI template. 
-  - Evaluate Teams adoption trends using the Power BI template. 
-
+  - Explain what the Workplace Analytics Power BI Teams insights dashboard is, and why it provides an important perspective.
+  - Run queries, load the data, and select your settings.
+  - Interpret the results in the dashboard.
+ 
 prerequisites: |
  - Familiarity with Workplace Analytics data sources
- - Basic knowledge of Microsoft Power Business Intelligence (BI) software
+ - Basic knowledge of Power BI software
  - Basic knowledge of data queries and query structure 
 
 iconUrl: /learn/achievements/generic-badge.svg
