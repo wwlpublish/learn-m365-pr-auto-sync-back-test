@@ -19,7 +19,7 @@ abstract: |
 prerequisites: |
  - Familiarity with Workplace Analytics data sources
  - Basic knowledge of Microsoft Power BI software
- - Basic knowledge of queries and query structure 
+ - Basic knowledge of Workplace Analytics queries and query structure 
 
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
