@@ -70,7 +70,7 @@ Part 2 of the *Work-life integration report* shows the share of employees whose 
 
 - The chart on the left shows the share of employees by group for the selected change in after-hours. In the example below, after-hours activity decreased by more than 2 hours for 14% of Professional Services and increased by more than 2 hours for 8% of Professional Services.
 
-- The chart on the right shows how activity for each communication mode is distributed across the day, along with a notes that describe the change in activity between the baseline and the current time period, both for  8am – 5pm and for after hours
+- The chart on the right shows how activity for each communication mode is distributed across the day, along with notes that describe the change in activity between the baseline and the current time period, both for  8am – 5pm and for after hours
 
 ![The work-life-integration report Part 2](../media/work-life-integration-impacts-2.png)
 
