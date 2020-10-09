@@ -40,7 +40,7 @@ The *Collaboration & after-hours* report helps you uncover how much time each te
 > The percentage of workweek spent in collaboration is calculated using a standard 40-hour workweek.
 > 
 
-![How is collaboration impacting after hours](../media/collaboration-impact-after-hours.png)
+![How is collaboration impacting after hours report](../media/collaboration-impact-after-hours.png)
 
 > [!TIP]
 > Use the drop-down menu in the top-right corner to filter by managerial level.
@@ -58,7 +58,7 @@ The *Meeting culture* report gives insight into how an organization spends time 
 
 - The chart on the right shows the percentage of recurring meeting hours for each meeting type by group.
 
-![How does the organization spend its meeting time](../media/organization-spend-meeting-time.png)
+![How does the organization spend its meeting time report](../media/organization-spend-meeting-time.png)
 
 Too much time in long and/or large meetings can signal an opportunity to make meetings more efficient and effective. Meetings that are longer than one hour can make it difficult for attendees to maintain focus, and meetings with too many attendees can make it difficult to make decisions. 
 
@@ -77,7 +77,7 @@ The *Generated workload* report helps organizations understand the source of mee
 
 - The charts on the right display the percentage of top meeting generators—as defined by the slider—by Organization and by Supervisor Indicator. In the example here, Product Management and Program Management have the highest representation of meeting generators, at 53% and 50%, respectively.
 
-![ Who in the organization is generating the most workload](../media/generate-most-workload.png)
+![ Who in the organization is generating the most workload report](../media/generate-most-workload.png)
 
 The *Generated workload* report helps you answer questions about whether meeting time reflects widespread company scheduling behavior or if it's the result of the behaviors of a subset of employees who schedule lots of meetings. It also provides the predominant functions and levels of the biggest meeting load generators.
 
@@ -117,7 +117,7 @@ The *Burnout risk* report helps you identify groups that may be at risk for burn
 
 - The chart on the right shows the distribution of employees by collaboration hours and workweek span by group. In the example here, 44% of employees in the Strategy organization have both long workweek spans and high average weekly collaboration hours. 
 
-![Who in the organization is at highest risk of burnout](../media/high-risk-burnout.png)
+![Who in the organization is at highest risk of burnout report](../media/high-risk-burnout.png)
 
 > [!TIP]
 > Tip: Click on any bar on the right to filter the chart on the left by the data in the selected bar (this filter is only applied in the context of this report page).
@@ -140,7 +140,7 @@ The *Manager relationship* report provides a view of managerial behaviors in ter
 
 - The chart on the right shows the percentage of employees in each of these manager relationship categories by group. In the example here, Strategy has the highest proportion of employees with a coaching relationship on the team, but at 41% there is still significant room left for improvement. 
 
-![What managerial behaviors predominate in the organization](../media/managerial-behaviors.png)
+![What managerial behaviors predominate in the organization report](../media/managerial-behaviors.png)
 
 The most engaged and successful employees get plenty of coaching time with their managers, but are also empowered to operate autonomously in meetings. 
 
@@ -150,7 +150,7 @@ The *Manager relationship* report helps answer questions about the managerial pr
 
 A *Glossary* is also included in the dashboard, providing a reference for the metrics and terminology used across the Collaboration assessment.
 
-![Glossary](../media/glossary.png)
+![The Glossary report](../media/glossary.png)
 
 ## Learn more
 
