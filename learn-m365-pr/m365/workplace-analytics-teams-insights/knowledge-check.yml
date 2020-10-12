@@ -3,7 +3,7 @@ uid: learn-m365.workplace-analytics-teams-insights.knowledge-check
 title: Knowledge check
 metadata:
   title: Knowledge check
-  description: Learn how to prepare and generate actionable data using the Workplace Analytics Power BI Teams insights dashboard.  Analyze Microsoft Teams adoption trends from the populated reports.
+  description: Learn how to prepare and generate useful data using the Workplace Analytics Power BI Teams insights dashboard.  Analyze Microsoft Teams adoption trends from the populated reports.
   ms.date: 10/05/2020
   author: AlexandraHrt
   ms.author: elizapo
@@ -45,7 +45,7 @@ quiz:
       
     - content: "Which three opportunity areas for meaningful change are presented in the Teams insights dashboard?"
       choices:
-      - content: "Protect wellbeing, Drive adoption with influencers, and Reduce ad-hoc calls"
+      - content: "Protect wellbeing, Drive adoption with influencers, and Reduce adhoc calls"
         isCorrect: false
         explanation: "That's incorrect. Reduce ad-hoc calls isn't one of the opportunity areas."
       - content: "Increase channel and IM use to speed up communication, Protect wellbeing, and Drive adoption with influencers"

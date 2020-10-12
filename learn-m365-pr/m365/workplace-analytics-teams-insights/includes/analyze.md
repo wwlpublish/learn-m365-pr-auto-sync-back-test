@@ -14,7 +14,7 @@ This page provides an overview for dashboard recipients who are unfamiliar with 
 
 ## Report: What does adoption look like so far?
 
-The State of Adoption report shows how Teams adoption is playing out in the organization in terms of the level of usage.
+The *State of Adoption* report shows how Teams adoption is playing out in the organization in terms of the level of usage.
  
 The chart on the left shows the share of inactive, low, medium, and high users by month for the selected time frame. In the example here, the percentage of High Users in the organization went from 48% to 74% over six months. The chart on the right shows the share of inactive, low, medium, and high users by category and by group. In the example here, individuals in the Marketing team are 100% High Users.
 
@@ -30,7 +30,7 @@ Use the State of Adoption report to track changes in how employees are using Tea
 
 ## Report: How can Teams help employees speed up communication?
 
-The Speed up Communication report gives you a view into how Teams can help employees use the most efficient method of communication for what they want to accomplish. 
+The *Speed up Communication* report gives you a view into how Teams can help employees use the most efficient method of communication for what they want to accomplish. 
 
 The chart on the left shows average one-on-one email and instant message (chat) communication for High Users over the selected time frame. In the example here, a decrease in email hours is offset by an increase in instant message hours over a six-month time frame. The chart on the right shows the total High User group emails sent per week and group emails sent over time by group. In this example, group emails sent for the Customer Success, Marketing, and Sales groups trended downward from February to July. 
 
@@ -45,7 +45,7 @@ Group email conversations might also begin to migrate to Teams channels. Teams c
 
 ## Report: How does Teams help employees network and build connections?
 
-The Build Networks report shows how connected employees are to other individuals and groups in the organization in terms of the level of Teams usage. 
+The *Build Networks* report shows how connected employees are to other individuals and groups in the organization in terms of the level of Teams usage. 
 
 The chart on the left plots the average internal network size (x-axis) and average number of network groups (y-axis) by level of team usage (dots). In the example here, High Users have an average of 90 internal connections and connect with 18 different groups. The chart on the right shows the average number of collaboration hours invested in network connection per week. Here it takes Inactive Users nearly 60% more time to maintain one network connection (0.67 hours vs. 0.42 hours for High Users), demonstrating that Teams is the more efficient choice for this group to maintain connections. 
 
@@ -59,7 +59,7 @@ By measuring how employees collaborate, you can get a more complete picture of t
 
 ## Report: Where should you focus education and training for Teams adoption?
 
-The Target Areas for Adoption report can help companies identify groups that lead and lag in Teams usage to optimize their Teams adoption rollout.
+The *Target Areas for Adoption* report can help companies identify groups that lead and lag in Teams usage to optimize their Teams adoption rollout.
 
 ![Where should you focus education and training for Teams adoption report](../media/focus-training-education.png)
 
@@ -78,7 +78,7 @@ Use this report to identify groups that might be struggling to adopt Teams and t
 
 ## Report: How can community influencers help drive the adoption of Teams?
 
-The Recommended Influencers report uses data science to identify and group people based on their degree of influence and creates a recommended Teams adoption plan for your organization.
+The *Recommended Influencers* report uses data science to identify and group people based on their degree of influence and creates a recommended Teams adoption plan for your organization.
 
 The left side of the report shows the number of influencers in the organization and the percentage of those influencers who are active in Teams. In this example the organization has 916 influencers, 86% of whom are active in Teams. The right side of the report provides a Teams adoption plan based on each group’s number of influencers and level of Teams adoption.
 
@@ -94,7 +94,7 @@ Target Phase I groups for rapid Teams adoption. Adoption should happen quickly d
 
 ## Report: Are employees working after-hours in Teams?
 
-The Protect Employee Wellbeing report shows what Teams collaboration looks like across the day and by group, giving users the ability to target groups that might need to take steps to improve work-life balance and encourage wellbeing.
+The *Protect Employee Wellbeing* report shows what Teams collaboration looks like across the day and by group, giving users the ability to target groups that might need to take steps to improve work-life balance and encourage wellbeing.
 
 The chart on the left shows how activity for Teams instant messages and calls is distributed across the average day for both the 8 am – 5 pm change in activity and the change in activity after-hours (before and after working hours). The chart on the right drills down to organizations that are spending the most time collaborating in Teams after-hours. In the example here, the sales group spends an average of 0.8 hours a week in after-hours unscheduled calls, 0.3 hours a week in scheduled calls, and 0.2 hours in after-hours instant messages.
 
@@ -108,11 +108,11 @@ This view gives a population-level look at three opportunity areas to get more o
 
 [ ![Opportunity areas to get more out of Teams report](../media/opportunity-areas.png) ](../media/opportunity-areas-lightbox.png#lightbox)
 
-**Increase channel and IM use to speed up communication**: employees who send a lot of emails and spend a lot of hours in meetings can make communication more efficient by switching to Teams instant messages and postings to Teams channels.
+**Increase channel and IM use to speed up communication**. employees who send a lot of emails and spend a lot of hours in meetings can make communication more efficient by switching to Teams instant messages and postings to Teams channels.
 
-**Protect wellbeing**: employees spending too much time collaborating in Teams in after-hours may be having trouble balancing work and non-work activities. Creating expectations around collaboration norms and sharing best practices on boundaries might help maintain wellbeing.
+**Protect wellbeing**. employees spending too much time collaborating in Teams in after-hours may be having trouble balancing work and non-work activities. Creating expectations around collaboration norms and sharing best practices on boundaries might help maintain wellbeing.
 
-**Drive adoption with influencers**: Groups with high numbers of influential employees who are doing well in terms of Teams adoption can share best practices to facilitate adoption in other groups. Connect influential Teams users with low adoption groups to accelerate Teams usage.
+**Drive adoption with influencers**. Groups with high numbers of influential employees who are doing well in terms of Teams adoption can share best practices to facilitate adoption in other groups. Connect influential Teams users with low adoption groups to accelerate Teams usage.
 
 Employees might find it difficult to create boundaries between “work” and “life.” Creating team expectations around virtual collaboration norms and sharing best practices on creating boundaries might help maintain wellbeing. 
 
