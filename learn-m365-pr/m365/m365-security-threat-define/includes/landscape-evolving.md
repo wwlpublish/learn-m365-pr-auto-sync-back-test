@@ -32,9 +32,9 @@ Microsoft Threat Protection suite protects:
 
 ### Explore how to protect your organization with Microsoft Threat Protection
 
-View a [video version](https://www.microsoft.com/videoplayer/embed/RE4ARh9) of the interactive guide (captions available in more languages).
+View a [video version](https://www.microsoft.com/videoplayer/embed/RE4GsNW) of the interactive guide (captions available in more languages).
 
-<a href="https://mslearn.cloudguides.com/guides/Protect%20your%20organization%20with%20Microsoft%20Threat%20Protection">![Microsoft Threat Protection](../media/thumbnail-protect-microsoft-threat-protection.png)</a>  
+<a href="https://mslearn.cloudguides.com/guides/Protect%20your%20organization%20with%20Microsoft%20365%20Defender">![Protect your organization with Microsoft 365 Defender](../media/thumbnail-protect-microsoft-threat-protection.png)</a>  
 
 Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
 
