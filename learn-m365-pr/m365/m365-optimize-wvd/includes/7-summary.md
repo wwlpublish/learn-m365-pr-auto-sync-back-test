@@ -14,7 +14,8 @@ Docs resources:
 - [Enable AD DS authentication for your Azure file shares](https://docs.microsoft.com/azure/storage/files/storage-files-identity-ad-ds-enable)
 -  [Download and Install FSLogix](https://docs.microsoft.com/fslogix/install-ht)
 - [Planning for an Azure File Sync deployment](https://docs.microsoft.com/azure/storage/files/storage-sync-files-planning)
-- [Scale session hosts using Azure Automation](https://docs.microsoft.com/azure/virtual-desktop/virtual-desktop-fall-2019/set-up-scaling-script#create-an-azure-automation-run-as-account)
+- [Scale session hosts using Azure Automation (WVD Classic)](https://docs.microsoft.com/azure/virtual-desktop/virtual-desktop-fall-2019/set-up-scaling-script#create-an-azure-automation-run-as-account)
+- [Scale session hosts using Azure Automation](https://docs.microsoft.com/azure/virtual-desktop/set-up-scaling-script)
 
 Tools:
 
