@@ -55,7 +55,7 @@ Developers can use one of the many Microsoft Graph SDKs to access a user's OneDr
 
 For example, to get the current signed-in user's root OneDrive folder with the Microsoft Graph SDK, you would use the following code:
 
-```cs
+```csharp
 GraphServiceClient graphClient = GetAuthenticatedGraphClient(...);
 // get user's files & folders in the root
 var oneDriveRoot = client.Me.Drive.Root
@@ -101,7 +101,7 @@ The `DriveItem` resource has a property `content` that can be used to get access
 
 The `content` property returns the primary stream of the file. For example, to download a specific file using the Microsoft Graph .NET SDK, you would use the following code:
 
-```cs
+```csharp
 var fileId = "REPLACE_WITH_FILE_ID";
 
 // get reference to stream of file in OneDrive

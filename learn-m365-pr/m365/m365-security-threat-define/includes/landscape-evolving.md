@@ -1,3 +1,6 @@
+>[!IMPORTANT]
+>Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813). We'll be updating names in products and in the Learn content in the near future.
+
 In today’s cyberthreat environment, security teams are up against a constant flood of incoming risks. But with advanced security analytics, machine learning, and their own intuition, security experts are fighting back with agile, adaptable defense systems. While security teams comb through tens of thousands of cybersecurity alerts-trying to separate legitimate risks from the noise—attacks can slip through the cracks unnoticed and do significant damage.
 
 There’s too much to handle:
@@ -29,9 +32,9 @@ Microsoft Threat Protection suite protects:
 
 ### Explore how to protect your organization with Microsoft Threat Protection
 
-View a [video version](https://www.microsoft.com/videoplayer/embed/RE4ARh9) of the interactive guide (captions available in more languages).
+View a [video version](https://www.microsoft.com/videoplayer/embed/RE4GsNW) of the interactive guide (captions available in more languages).
 
-<a href="https://mslearn.cloudguides.com/guides/Protect%20your%20organization%20with%20Microsoft%20Threat%20Protection">![Microsoft Threat Protection](../media/thumbnail-protect-microsoft-threat-protection.png)</a>  
+<a href="https://mslearn.cloudguides.com/guides/Protect%20your%20organization%20with%20Microsoft%20365%20Defender">![Protect your organization with Microsoft 365 Defender](../media/thumbnail-protect-microsoft-threat-protection.png)</a>  
 
 Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
 

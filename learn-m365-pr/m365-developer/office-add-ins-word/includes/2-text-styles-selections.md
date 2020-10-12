@@ -39,7 +39,7 @@ The relationships in this hierarchy are exposed as properties in the API allowin
 
 Office.js allows you to insert new paragraphs and edit, delete, clear existing paragraphs, and how they appear in a document.
 
-Paragraphs are aware of their siblings using `getNext` and `getPrevious` operations and when inserting a paragraph relative to itself using `before` of `after` location.
+Paragraphs are aware of their siblings using `getNext()` and `getPrevious()` operations and when inserting a paragraph relative to itself using `before` of `after` location.
 
 The following code snippets demonstrate working examples of working text and paragraphs using the Word JavaScript API:
 

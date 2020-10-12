@@ -55,7 +55,7 @@ someInlinePicture.width = 400;
 
 Office.js enables developers to insert a table relative to paragraphs, ranges, and the body of a document.
 
-The `insertTable` method specifies the dimensions of the table and where to insert it. Data is added to the table by passing in a two-dimensional array of values to the `insertTable()` method.
+The `insertTable()` method specifies the dimensions of the table and where to insert it. Data is added to the table by passing in a two-dimensional array of values to the `insertTable()` method.
 
 The `tables` property allows tables to be accessed and manipulated in JavaScript on the `body` and `range` objects.
 

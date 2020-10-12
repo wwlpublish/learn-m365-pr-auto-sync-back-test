@@ -16,7 +16,7 @@ On the **App registrations** page, select the **Graph Console App**, or the name
 
 Select **API Permissions** in the left-hand navigation panel.
 
-![Screenshot of the API Permissions navigation item](../media/aad-portal-newapp-permissions-01.png)
+![Screenshot of the API Permissions navigation item](../media/07-aad-portal-add-permission.png)
 
 Select the **Add a permission** button.
 
@@ -34,7 +34,7 @@ Now you'll update the application to retrieve and then display all users in the 
 
 First, add the following two members to the class, immediately before the `Main` method:
 
-```cs
+```csharp
 private static object _deltaLink = null;
 private static IUserDeltaCollectionPage _previousPage = null;
 ```
@@ -43,7 +43,7 @@ private static IUserDeltaCollectionPage _previousPage = null;
 
 Within the **Program.cs** file, add the following method to write all users to the console:
 
-```cs
+```csharp
 private static void OutputUsers(IUserDeltaCollectionPage users)
 {
   foreach (var user in users)
@@ -63,7 +63,7 @@ Otherwise, if there are more pages of users, it will initiate a request for the 
 
 Add the following method to the `Program` class:
 
-```cs
+```csharp
 private static IUserDeltaCollectionPage GetUsers(GraphServiceClient graphClient, object deltaLink)
 {
   IUserDeltaCollectionPage page;
@@ -98,7 +98,7 @@ The next method will be used to check for new and changed users. The first time 
 
 Add the following method to the `Program` class:
 
-```cs
+```csharp
 private static void CheckForUpdates(IConfigurationRoot config, string userName, SecureString userPassword)
 {
   var graphClient = GetAuthenticatedGraphClient(config, userName, userPassword);
@@ -121,7 +121,7 @@ The last thing this method needs to do is retrieve the delta link from the last 
 
 Add the following code to the end of the `CheckForUpdates` method:
 
-```cs
+```csharp
 object deltaLink;
 
 if (users.AdditionalData.TryGetValue("@odata.deltaLink", out deltaLink))
@@ -134,7 +134,7 @@ if (users.AdditionalData.TryGetValue("@odata.deltaLink", out deltaLink))
 
 Locate the following code in the `Main` method:
 
-```cs
+```csharp
 var userName = ReadUsername();
 var userPassword = ReadPassword();
 ```
@@ -143,7 +143,7 @@ Remove all the existing code in this method after these two lines.
 
 Next, add the following code to after the previous two lines above. This will use the `CheckForUpdates` method to get a list of all users. It will then go into an infinite loop, sleeping for 10 seconds, and issue the same request again:
 
-```cs
+```csharp
 Console.WriteLine("All users in tenant:");
 CheckForUpdates(config, userName, userPassword);
 Console.WriteLine();
@@ -162,13 +162,13 @@ The first request will result in the application obtaining the delta link that w
 
 Run the following command in a command prompt to compile the console application:
 
-```shell
+```console
 dotnet build
 ```
 
 Run the following command to run the console application:
 
-```shell
+```console
 dotnet run
 ```
 

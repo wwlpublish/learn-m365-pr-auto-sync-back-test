@@ -74,7 +74,7 @@ A dialog can pass messages back to the host by calling `Office.context.ui.messag
 
 The `messageParent()` method can only be called on a page with the same domain (including protocol and port) as the host page.
 
-The host page must listen for messages by subscribing to the `DialogMessageReceived` handler. In the sample, the host page registers this handler using the `processMessage` function, where it logs the message to the console.
+The host page must listen for messages by subscribing to the `DialogMessageReceived` handler. In the sample, the host page registers this handler using the `processMessage()` function, where it logs the message to the console.
 
 ## Summary
 

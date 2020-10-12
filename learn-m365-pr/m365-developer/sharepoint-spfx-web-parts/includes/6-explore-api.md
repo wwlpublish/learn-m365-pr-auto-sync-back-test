@@ -2,13 +2,13 @@ In this unit, you'll learn about some of the features included in the SharePoint
 
 ## SharePoint Framework Utilities
 
-The SharePoint Framework includes many utility APIs and libraries that make developing SharePoint Framework components easier for developers. These utilities are available either from the Framework API while others are available as external libraries. Depending on the utility, you may need to import additional packages into your project or the code files in your project.
+The SharePoint Framework includes many utility APIs and libraries that make developing SharePoint Framework components easier. These utilities are available from the Framework API and from external libraries.
 
 ## Status renderers
 
-The first utility we'll cover are the status renderers. These indicators are ideal for use when you have an error to display or when your component is doing a long-running asynchronous operation.
+The first utility we'll cover is the status renderers. These indicators are ideal for use when you have an error to display or when your component is doing a long-running asynchronous operation.
 
-These status renderers are available from the web part's `context` property and why there's nothing to import or add to your project or code file to use them. When used, the status renderer will take up the entire web part user experience. There are two types of renderers available to developers:
+The status renderers are available from the web part's `context` property so there's nothing to import or add to your project to use them. When used, the status renderer will take up the entire web part user experience. There are two types of renderers available to developers:
 
 - **loading indicators**: used when initializing or loading content in your web part
 - **error indicator**: used to display error messages
@@ -181,7 +181,7 @@ To use the SharePoint Framework logging infrastructure, import the `Log` object 
 
 ![Screenshot of log messages in the console](../media/06-logging-javascript-console.png)
 
-## Loading scripts and CSS files with the `SPComponentLoader`
+## Loading scripts and CSS files with the SPComponentLoader
 
 When your component needs to programmatically load an external JavaScript or CSS file, you can use the `SPComponentLoader` object. This object can be found in the **@microsoft/sp-loader** package.
 

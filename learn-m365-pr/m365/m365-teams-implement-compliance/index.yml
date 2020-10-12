@@ -1,0 +1,36 @@
+### YamlMime:Module
+uid: learn-m365.teams.implement-compliance
+metadata:
+  title: Implement compliance in Teams
+  description: Learn how you can extend your organization's compliance and regulatory requirements into Teams.
+  ms.date: 09/07/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+title: Implement compliance in Teams
+summary: Learn how you can extend your organization's compliance and regulatory requirements into Teams.
+abstract: |
+  At the end of this module, you should be able to:
+  - Explain how your organization meets communication compliance requirements.
+  - Describe how you can use eDiscovery with Teams.
+  - Demonstrate how to use AppLocker control policies in Teams.
+  - Demonstrate how to use the audit log, content search, and legal hold functions in Teams.
+prerequisites: | 
+  - Familiarity with Microsoft Teams administration
+iconUrl: /learn/achievements/implement-compliance-in-microsoft-teams.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- office-teams
+units:
+- learn-m365.teams.implement-compliance.1-introduction
+- learn-m365.teams.implement-compliance.2-compliance-teams
+- learn-m365.teams.implement-compliance.3-legal-investigations
+- learn-m365.teams.implement-compliance.4-applocker-manage-secure-teams
+- learn-m365.teams.implement-compliance.5-knowledge-check
+- learn-m365.teams.implement-compliance.6-summary
+badge:
+  uid: learn-m365.teams.implement-compliance.badge

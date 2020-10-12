@@ -70,13 +70,13 @@ In the **Configured Permissions** panel, select the button **Grant admin consent
 
 Open your command prompt, navigate to a directory where you have rights to create your project, and run the following command to create a new .NET Core console application:
 
-```shell
+```console
 dotnet new console -o graphconsoleapp
 ```
 
 After creating the application, run the following commands to add the Microsoft Authentication Library (MSAL), Microsoft Graph .NET SDK, and a few configuration packages to the project:
 
-```shell
+```console
 cd graphconsoleapp
 dotnet add package Microsoft.Identity.Client
 dotnet add package Microsoft.Graph
@@ -87,7 +87,7 @@ dotnet add package Microsoft.Extensions.Configuration.Json
 
 Open the application in Visual Studio Code using the following command:
 
-```shell
+```console
 code .
 ```
 
@@ -115,7 +115,7 @@ Create a new folder **Helpers** in the project.
 
 Create a new file **MsalAuthenticationProvider.cs** in the **Helpers** folder and add the following code:
 
-```cs
+```csharp
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Security;
@@ -189,7 +189,7 @@ namespace Helpers
 
 Open the **Program.cs** file and add the following `using` statements to the top of the file:
 
-```cs
+```csharp
 using System.Collections.Generic;
 using System.Security;
 using Microsoft.Identity.Client;
@@ -201,7 +201,7 @@ using Helpers;
 
 Add the following method `LoadAppSettings` to the `Program` class. The method retrieves the configuration details from the **appsettings.json** file previously created:
 
-```cs
+```csharp
 private static IConfigurationRoot LoadAppSettings()
 {
   try
@@ -228,7 +228,7 @@ private static IConfigurationRoot LoadAppSettings()
 
 Add the following method `CreateAuthorizationProvider` to the `Program` class. The method will create an instance of the clients used to call Microsoft Graph.
 
-```cs
+```csharp
 private static IAuthenticationProvider CreateAuthorizationProvider(IConfigurationRoot config, string userName, SecureString userPassword)
 {
   var clientId = config["applicationId"];
@@ -251,7 +251,7 @@ private static IAuthenticationProvider CreateAuthorizationProvider(IConfiguratio
 
 Add the following method `GetAuthenticatedGraphClient` to the `Program` class. The method creates an instance of the `GraphServiceClient` object.
 
-```cs
+```csharp
 private static GraphServiceClient GetAuthenticatedGraphClient(IConfigurationRoot config, string userName, SecureString userPassword)
 {
   var authenticationProvider = CreateAuthorizationProvider(config, userName, userPassword);
@@ -262,7 +262,7 @@ private static GraphServiceClient GetAuthenticatedGraphClient(IConfigurationRoot
 
 Add the following method `ReadPassword` to the `Program` class. The method prompts the user for their password:
 
-```cs
+```csharp
 private static SecureString ReadPassword()
 {
   Console.WriteLine("Enter your password");
@@ -284,7 +284,7 @@ private static SecureString ReadPassword()
 
 Add the following method `ReadUsername` to the `Program` class. The method prompts the user for their username:
 
-```cs
+```csharp
 private static string ReadUsername()
 {
   string username;
@@ -296,7 +296,7 @@ private static string ReadUsername()
 
 Locate the `Main` method in the `Program` class. Add the following code to the end of the `Main` method to load the configuration settings from the **appsettings.json** file:
 
-```cs
+```csharp
 var config = LoadAppSettings();
 if (config == null)
 {
@@ -307,7 +307,7 @@ if (config == null)
 
 Add the following code to the end of the `Main` method, just after the code added in the last step. This code will obtain an authenticated instance of the `GraphServiceClient` and submit a request for the current user's email:
 
-```cs
+```csharp
 var userName = ReadUsername();
 var userPassword = ReadPassword();
 
@@ -316,7 +316,7 @@ var client = GetAuthenticatedGraphClient(config, userName, userPassword);
 
 Next, add the following code to the end of the `Main` method. This code will request all the Office 365 groups in the current tenant and write them to the console:
 
-```cs
+```csharp
 // request 1 - all groups
 Console.WriteLine("\n\nREQUEST 1 - ALL GROUPS:");
 var requestAllGroups = client.Groups.Request();
@@ -334,13 +334,13 @@ Console.WriteLine(requestAllGroups.GetHttpRequestMessage().RequestUri);
 
 Run the following command in a command prompt to compile the console application:
 
-```shell
+```console
 dotnet build
 ```
 
 Run the following command to run the console application:
 
-```shell
+```console
 dotnet run
 ```
 
@@ -352,15 +352,17 @@ After entering the username and password of a user, you'll see the results of al
 
 In this section, you'll get a specific group using Microsoft Graph.
 
-Using the results in the console from the previous step, copy the ID from one of the groups displayed. Add the following code to the end of the `Main` method, replacing the ID with the ID you copied from the console:
+Locate the code you added above for `// request 1 - all groups` and comment it out so it doesn't continue to execute.
 
-```cs
-var groupId = "131a84c3-4565-450f-9742-f7637111f637";
+Using the results in the console from the previous step, copy the ID from one of the groups displayed. Add the following code to the end of the `Main` method, replacing `{{REPLACE_WITH_GROUP_ID}}` with the ID you copied from the console:
+
+```csharp
+var groupId = "{{REPLACE_WITH_GROUP_ID}}";
 ```
 
 Next, add the following code to the end of the `Main` method. This code will request a specific group and write its details to the console:
 
-```cs
+```csharp
 // request 2 - one group
 Console.WriteLine("\n\nREQUEST 2 - ONE GROUP:");
 var requestGroup = client.Groups[groupId].Request();
@@ -375,7 +377,7 @@ Console.WriteLine(requestGroup.GetHttpRequestMessage().RequestUri);
 
 Run the following commands in a command prompt to compile and run the console application:
 
-```shell
+```console
 dotnet build
 dotnet run
 ```
@@ -388,9 +390,11 @@ After entering the username and password of a user, you'll see the results of a 
 
 In this section, you'll get the owner of the group you obtained in the last section.
 
+Locate the code you added above for `// request 2 - one group` and comment it out so it doesn't continue to execute. Don't comment out the declaration of the `groupId` variable.
+
 Add the following code to the end of the `Main` method. This will get the collection of owners of the specified group and write them to the console:
 
-```cs
+```csharp
 // request 3 - group owners
 Console.WriteLine("\n\nREQUEST 3 - GROUP OWNERS:");
 var requestGroupOwners = client.Groups[groupId].Owners.Request();
@@ -409,7 +413,7 @@ Console.WriteLine(requestGroupOwners.GetHttpRequestMessage().RequestUri);
 
 Run the following commands in a command prompt to compile and run the console application:
 
-```shell
+```console
 dotnet build
 dotnet run
 ```
@@ -423,11 +427,13 @@ After entering the username and password of a user, you'll see the list of owner
 
 ## Get members of an Office 365 group
 
-In this section, you'll get all the members of the group you obtained in the last section.
+In this section, you'll get all the members of the group you obtained in a previous section.
+
+Locate the code you added above for `// request 3 - group owners` and comment it out so it doesn't continue to execute. 
 
 Add the following code ot the end of the `Main` method. This will get the collection of members of the specified group and write them to the console:
 
-```cs
+```csharp
 // request 4 - group members
 Console.WriteLine("\n\nREQUEST 4 - GROUP MEMBERS:");
 var requestGroupMembers = client.Groups[groupId].Members.Request();
@@ -446,7 +452,7 @@ Console.WriteLine(requestGroupMembers.GetHttpRequestMessage().RequestUri);
 
 Run the following commands in a command prompt to compile and run the console application:
 
-```shell
+```console
 dotnet build
 dotnet run
 ```

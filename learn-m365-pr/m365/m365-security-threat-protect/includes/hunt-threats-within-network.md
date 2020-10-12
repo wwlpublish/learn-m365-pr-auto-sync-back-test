@@ -1,3 +1,7 @@
+>[!IMPORTANT]
+>Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813). We'll be updating names in products and in the Learn content in the near future.
+
+
 Advanced hunting within Microsoft Defender ATP allows you to hunt for possible threats across your organization using a powerful search and query tool. You can proactively inspect events in your network in order to locate interesting indicators and entities. The flexible access to data aids unconstrained hunting for both known and potential threats.
 
 ### Explore how to investigate and remediate threats with Microsoft Defender ATP

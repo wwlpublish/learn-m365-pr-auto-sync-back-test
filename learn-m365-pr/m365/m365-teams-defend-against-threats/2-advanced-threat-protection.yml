@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.defends-against-threats.2-advanced-threat-protection
+title: Explore Advanced Threat Protection
+metadata:
+  title: Explore Advanced Threat Protection
+  description: Learn about the Advanced Threat Protection tool and how you can use it in Teams.
+  ms.date: 09/03/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 4
+content: |
+  [!include[](includes/2-advanced-threat-protection.md)]

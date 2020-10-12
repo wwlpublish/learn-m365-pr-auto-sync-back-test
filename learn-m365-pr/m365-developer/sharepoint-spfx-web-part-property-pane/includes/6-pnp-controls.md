@@ -6,7 +6,7 @@ The property pane field controls included in the SharePoint Framework API are ba
 
 For example, if you wanted to provide an experience for your users to select an existing SharePoint list from the current site from a list in the property pane, you'll have to write the code to retrieve all the SharePoint lists and display them in the property pane.
 
-This common requirement could be simplified in that a developer could create a custom property pane field control that when added to the property pane, contained the logic to retrieve all lists from the current SharePoint site and display them in a dropdown control. You could also include settings on the control to include or exclude hidden lists, exclude SharePoint infrastructure lists such as the Master Page Gallery or Client Side Assets library, or other settings.
+This common requirement could be simplified so that a developer could create a custom property pane field control that, when added to the property pane, contained the logic to retrieve all lists from the current SharePoint site and display them in a dropdown control. You could also include settings on the control to include or exclude hidden lists, exclude SharePoint infrastructure lists such as the Master Page Gallery or Client Side Assets library, or other settings.
 
 These *smart controls* can then be used across multiple SharePoint Framework client-side web part projects, simplifying the code in those projects because they don't have to populate the property pane with a list of all SharePoint lists in the site.
 
@@ -76,4 +76,4 @@ groupFields: [
 
 ## Summary
 
-In this unit, you'll learn how you can use third-party controls from the popular PnP SPFx reusable property pane controls project.
+In this unit, you learned how you can use third-party controls from the popular PnP SPFx reusable property pane controls project.

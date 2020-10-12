@@ -1,3 +1,6 @@
+>[!IMPORTANT]
+>Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813). We'll be updating names in products and in the Learn content in the near future.
+
 One of the most effective ways to protect your users and data is to use the latest operating system with all security patches and newest security technologies built to address today’s threats.
 
 Windows 10 is the most secure operating system built by Microsoft and includes the latest security technology available today.

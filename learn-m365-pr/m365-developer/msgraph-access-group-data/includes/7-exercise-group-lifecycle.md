@@ -9,7 +9,7 @@ In previous exercises, you created a .NET console application that retrieved and
 
 In the **Program.cs** file, locate the following line in the `Main` method:
 
-```cs
+```csharp
 var client = GetAuthenticatedGraphClient(config, userName, userPassword);
 ```
 
@@ -25,7 +25,7 @@ An application must be granted specific permissions to get access to groups in O
 
 Within the **Program.cs** file, locate the method `CreateAuthorizationProvider()`, and locate the following code:
 
-```cs
+```csharp
 List<string> scopes = new List<string>();
 scopes.Add("User.Read");
 scopes.Add("Group.Read.All");
@@ -34,7 +34,7 @@ scopes.Add("Directory.Read.All");
 
 These permissions need to be updated for the code you added in the last section. Remove the permission **Directory.Read.All** and request the permission **Group.ReadWrite.All**. The result should now look like the following code:
 
-```cs
+```csharp
 List<string> scopes = new List<string>();
 scopes.Add("User.Read");
 scopes.Add("Group.ReadWrite.All");
@@ -48,11 +48,11 @@ Open a browser and navigate to the [Azure Active Directory admin center (https:/
 
 Select **Azure Active Directory** in the left-hand navigation. Locate the Azure AD app by selecting **Manage > App Registrations** and selecting the app **Graph Console App**:
 
-![Screenshot ](../media/azure-ad-portal-permissions-05-01.png)
+![Screenshot ](../media/azure-ad-portal-new-app-details.png)
 
 Select **API Permissions** in the left-hand navigation panel.
 
-![Screenshot of the API Permissions navigation item](../media/azure-ad-portal-new-app-permissions-01.png)
+![Screenshot of the API Permissions navigation item](../media/azure-ad-portal-permissions-07-01.png)
 
 Select the **Add a permission** button.
 
@@ -70,14 +70,14 @@ In the **Configured Permissions** panel, select the button **Grant admin consent
 
 To create a new Office 365 group, you need to submit the new group details to the `/groups` endpoint using an HTTP POST request. To do this, add the following method to the existing **Program.cs** file:
 
-```cs
+```csharp
 private static async Task<Microsoft.Graph.Group> CreateGroupAsync(GraphServiceClient client) {
 }
 ```
 
 Add the following `using` statement to the top of the **Program.cs** file with the other `using` statements:
 
-```cs
+```csharp
 using System.Threading.Tasks;
 ```
 
@@ -89,7 +89,7 @@ Repeat this process a few more times to get the IDs of a few users.
 
 Back in the .NET console app, add the following code to the new `CreateGroupAsync` method. Replace the IDs of the users in this code with the IDs you copied from the Azure AD admin center:
 
-```cs
+```csharp
 // create object to define members & owners as 'additionalData'
 var additionalData = new Dictionary<string, object>();
 additionalData.Add("owners@odata.bind",
@@ -107,7 +107,7 @@ additionalData.Add("members@odata.bind",
 
 Next, add the following code to the `CreateGroupAsync` method to create a new group object:
 
-```cs
+```csharp
 var group = new Microsoft.Graph.Group
 {
   AdditionalData = additionalData,
@@ -122,14 +122,14 @@ var group = new Microsoft.Graph.Group
 
 Finally, add the following code to the end of the `CreateGroupAsync` method to use the Microsoft Graph .NET SDK to create the new group:
 
-```cs
+```csharp
 var requestNewGroup = client.Groups.Request();
 return await requestNewGroup.AddAsync(group);
 ```
 
 The last step is to call this new method from the `Main` method. Add the following code to the end of the `Main` method:
 
-```cs
+```csharp
 // request 1 - create new group
 Console.WriteLine("\n\nREQUEST 1 - CREATE A GROUP:");
 var requestNewGroup = CreateGroupAsync(client);
@@ -141,7 +141,7 @@ Console.WriteLine("New group ID: " + requestNewGroup.Id);
 
 Run the following commands in a command prompt to compile and run the console application:
 
-```shell
+```console
 dotnet build
 dotnet run
 ```
@@ -166,7 +166,7 @@ In this section, you will create a Microsoft Teams team from the Office 365 grou
 
 First, to avoid any issues with duplicate groups, locate the following lines and comment them out in the `Main` method. This will keep the console app from creating another group:
 
-```cs
+```csharp
 // request 1 - create new group
 Console.WriteLine("\n\nREQUEST 1 - CREATE A GROUP:");
 var requestNewGroup = CreateGroupAsync(client);
@@ -176,7 +176,7 @@ Console.WriteLine("New group ID: " + requestNewGroup.Id);
 
 The next step is to obtain the ID of the group you created in the previous section. Add the following code to the end of the `Main` method.
 
-```cs
+```csharp
 // request 2 - teamify group
 // get new group ID
 var requestGroup = client.Groups.Request()
@@ -187,7 +187,7 @@ var resultGroup = requestGroup.GetAsync().Result;
 
 Now, add the following method to the **Program.cs** class. This method uses a `GraphServiceClient` and the group ID to create a Microsoft team under the existing Office 365 group:
 
-```cs
+```csharp
 private static async Task<Microsoft.Graph.Team> TeamifyGroupAsync(GraphServiceClient client, string groupId)
 {
   var team = new Microsoft.Graph.Team
@@ -213,7 +213,7 @@ private static async Task<Microsoft.Graph.Team> TeamifyGroupAsync(GraphServiceCl
 
 Call this method by adding the following code to the end of the `Main` method:
 
-```cs
+```csharp
 // teamify group
 var teamifiedGroup = TeamifyGroupAsync(client, resultGroup[0].Id);
 teamifiedGroup.Wait();
@@ -224,7 +224,7 @@ Console.WriteLine(teamifiedGroup.Result.Id);
 
 Run the following commands in a command prompt to compile and run the console application:
 
-```shell
+```console
 dotnet build
 dotnet run
 ```
@@ -243,7 +243,7 @@ In this section, you will delete the Office 365 group you created in a previous 
 
 First, to avoid any issues with the previous sections, locate the following lines and comment them out in the `Main` method. This will keep the console app from creating another Microsoft Teams team:
 
-```cs
+```csharp
 // teamify group
 var teamifiedGroup = TeamifyGroupAsync(client, resultGroup[0].Id);
 teamifiedGroup.Wait();
@@ -252,7 +252,7 @@ Console.WriteLine(teamifiedGroup.Result.Id);
 
 Next, add the following method to the **Program.cs** file. This will delete the specified Office 365 group:
 
-```cs
+```csharp
 private static async Task DeleteTeamAsync(GraphServiceClient client, string groupIdToDelete) {
   await client.Groups[groupIdToDelete].Request().DeleteAsync();
 }
@@ -260,7 +260,7 @@ private static async Task DeleteTeamAsync(GraphServiceClient client, string grou
 
 Finally, add the following code to the end of the `Main` method to call the method you previously added:
 
-```cs
+```csharp
 // request 3: delete group
 var deleteTask = DeleteTeamAsync(client, resultGroup[0].Id);
 deleteTask.Wait();
@@ -270,7 +270,7 @@ deleteTask.Wait();
 
 Run the following commands in a command prompt to compile and run the console application:
 
-```shell
+```console
 dotnet build
 dotnet run
 ```

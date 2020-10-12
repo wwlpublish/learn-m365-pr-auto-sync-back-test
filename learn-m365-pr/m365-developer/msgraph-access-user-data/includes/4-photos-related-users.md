@@ -26,7 +26,7 @@ To get a resource's profile photo, use the `/photo/$value` endpoint on the resou
 
 The same operation can be done using the Microsoft Graph .NET SDK:
 
-```cs
+```csharp
 GraphServiceClient graphClient = GetAuthenticatedGraphClient(...);
 var profilePhoto = graphClient.Me.Photo.Request().GetAsync().Result;
 ```
@@ -61,7 +61,7 @@ When you use the `/photo/$value` endpoint to get the binary data for a profile p
 
 The following code uses the Microsoft Graph .NET SDK to request the profile photo of the current signed-in user and save it to disk as a JPEG:
 
-```cs
+```csharp
 // get photo
 GraphServiceClient graphClient = GetAuthenticatedGraphClient(...);
 var requestUserPhotoFile = graphClient.Me.Photo.Content.Request();
@@ -80,7 +80,7 @@ Each user resource has additional referenced resources such as their email messa
 
 One of the resources linked off the user resource is the user's manager. The `/manager` property on a user resource is returned as a `DirectoryObject` type. If you're using one of the native Microsoft Graph SDKs, it should automatically convert the type to a `User` object, but if not, you can always cast it as a user:
 
-```cs
+```csharp
 var userId = "{ID}";
 var requestUserManager = client.Users[userId]
                                .Manager

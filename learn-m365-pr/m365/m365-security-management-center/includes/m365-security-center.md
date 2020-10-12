@@ -1,3 +1,6 @@
+>[!IMPORTANT]
+>Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813). We'll be updating names in products and in the Learn content in the near future.
+
 Microsoft 365 security center is the new home for monitoring and managing security across your Microsoft identities, data, devices, apps, and infrastructure. Here you can easily view the security health of your organization, act to configure devices, users, and apps, as well as get alerts for suspicious activity. The Microsoft 365 security center is designed to help security admins and security operations teams manage and protect their organization.
 
 The Home page features many of the common cards that security teams need to protect their assets. The composition of cards and data depends on the user role. Because the Microsoft 365 security center uses role-based access control, different roles will see cards that are relevant to their work.

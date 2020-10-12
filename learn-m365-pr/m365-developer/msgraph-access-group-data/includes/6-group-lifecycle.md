@@ -19,7 +19,7 @@ You can also configure the owners and members of a group at creation time, use t
 
 For example, the following code will create a new Office 365 group with one owner and two members
 
-```cs
+```csharp
 private static async Task<Microsoft.Graph.Group> CreateGroupAsync(GraphServiceClient client)
 {
   // create object to define members & owners as 'additionalData'
@@ -62,7 +62,7 @@ DELETE https://graph.microsoft.com/v1.0/groups/{ID}
 
 The same request submitted using the Microsoft Graph .NET SDK:
 
-```cs
+```csharp
 var groupIdToDelete = "{ID}";
 await client.Groups[groupIdToDelete].Request().DeleteAsync();
 ```
@@ -94,7 +94,7 @@ Content-type: application/json
 
 The same request submitted using the Microsoft Graph .NET SDK:
 
-```cs
+```csharp
 private static async Task<Microsoft.Graph.Team> TeamifyGroupAsync(GraphServiceClient client, string groupId)
 {
   var team = new Microsoft.Graph.Team

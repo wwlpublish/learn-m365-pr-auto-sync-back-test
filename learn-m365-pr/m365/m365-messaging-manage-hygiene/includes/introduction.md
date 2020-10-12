@@ -1,3 +1,6 @@
+>[!IMPORTANT]
+>Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813). We'll be updating names in products and in the Learn content in the near future.
+
 As a messaging administrator, you need to protect your organization from malicious messages. You need to plan, implement, and configure policies to protect your organization from viruses, spam, phishing, and other malware.
 
 ## Learning objectives

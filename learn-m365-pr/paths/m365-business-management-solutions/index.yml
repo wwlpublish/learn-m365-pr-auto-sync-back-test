@@ -3,7 +3,7 @@ uid: learn.wwl.m365-business-management-solutions
 metadata:
   title: Demonstrate fundamental knowledge of Microsoft 365 business management solutions
   description: Learn more about Microsoft 365 business management solutions.
-  ms.date: 08/12/2020
+  ms.date: 09/05/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -24,6 +24,7 @@ products:
 - m365
 - office-365
 modules:
+- learn-m365.what-is-m365
 - learn.wwl.manage-your-business-with-microsoft-365
 - learn.wwl.simplify-device-management-with-microsoft-endpoint-manager
 - learn.wwl.get-done-stay-secure-with-windows-10

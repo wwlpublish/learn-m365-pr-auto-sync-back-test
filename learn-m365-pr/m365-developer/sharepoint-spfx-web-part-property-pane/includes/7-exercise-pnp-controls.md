@@ -192,4 +192,4 @@ Notice the values entered are displayed within the web part:
 
 ## Summary
 
-In this exercise, you'll learn how to use existing third-party controls from the popular [PnP SPFx reusable property pane controls](https://sharepoint.github.io/sp-dev-fx-property-controls) project.
+In this exercise, you learned how to use existing third-party controls from the popular [PnP SPFx reusable property pane controls](https://sharepoint.github.io/sp-dev-fx-property-controls) project.

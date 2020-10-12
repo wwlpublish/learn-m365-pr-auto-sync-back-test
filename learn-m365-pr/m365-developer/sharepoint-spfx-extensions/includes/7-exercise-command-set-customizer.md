@@ -1,5 +1,8 @@
 In this exercise, you'll create a SharePoint Framework (SPFx) command set extension that will display custom buttons in a SharePoint list.
 
+> [!IMPORTANT]
+> The instructions below assume you are using v1.11.0 of the SharePoint Framework Yeoman generator.
+
 Open a command prompt and change to the folder where you want to create the project.
 
 Run the SharePoint Yeoman generator by executing the following command:
@@ -20,7 +23,7 @@ Use the following to complete the prompt that is displayed (*if additional optio
 - **What is your Command Set name?**: CommandSetDemo
 - **What is your Command Set description?**: CommandSetDemo description
 
-After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When NPM completes downloading all dependencies, test the default project provisioned by the generator.
+After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When NPM completes downloading all dependencies, open the project folder in **Visual Studio Code**.
 
 ## Define the command set buttons
 
@@ -145,4 +148,4 @@ Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the consol
 
 ## Summary
 
-In this exercise, you'll create a SharePoint Framework (SPFx) command set extension that will display custom buttons in a SharePoint list.
+In this exercise, you created a SharePoint Framework (SPFx) command set extension that displays custom buttons in a SharePoint list.

@@ -41,7 +41,7 @@ Let's look at some of the key features of outgoing webhooks:
 - **Standard HTTP message exchange**: Responses will appear in the same chain as the original request message and can include any Bot Framework message content (rich text, images, cards, and emojis).
 - **Microsoft Teams API method support**: Outgoing webhooks send an HTTP POST to a web service and process the web service's response. They can't access any other APIs like retrieve the roster or list of channels in a team.
 
-Outgoing webhooks are scoped to the entire team and are visible to all members of the team. Like a bot, users ae required to @mention the name of the outgoing webhook to invoke it in a channel.
+Outgoing webhooks are scoped to the entire team and are visible to all members of the team. Like a bot, users are required to @mention the name of the outgoing webhook to invoke it in a channel.
 
 ## How to add outgoing webhooks to Microsoft Teams
 

@@ -10,7 +10,7 @@ A page is the entire visible panel of the property pane shown in the task pane.
 
 The header is an optional section at the top of the property pane. It includes a description that you can set from the web part's code.
 
-Each page on the property contains one or more groups. Groups contain one or more field controls used to display or collect information from the user.
+Each page on the property pane contains one or more groups. Groups contain one or more field controls used to display or collect information from the user.
 
 We can have different groups that contain different fields and that allows us to group things within a specific page.
 
@@ -118,7 +118,7 @@ protected getPropertyPaneConfiguration(): IPropertyPaneConfiguration {
 
 The next step to customizing the property pane is to define how you want to handle changes to the properties in the property pane. The property pane has two different modes: **reactive** and **non-reactive**.
 
-The default mode is reactive. In this mode, as you change the value of the property pane control, those changes are immediately applied live to the corresponding properties that they're attached to.
+The default mode is reactive. In this mode, changes the value of the property pane controls are immediately applied to the associated properties of the web part.
 
 In the non-reactive mode, changes to field controls are not immediately applied to the associated property of the control. The user must select the **Apply** button at the bottom of the property pane that is only rendered when the web part's property pane is in non-reactive mode.
 

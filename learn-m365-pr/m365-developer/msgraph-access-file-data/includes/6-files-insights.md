@@ -50,7 +50,7 @@ This request will return a collection of documents, each with an assigned weight
 
 You can obtain trending files around the currently signed-in user with the Microsoft Graph .NET SDK, use the following code:
 
-```cs
+```csharp
 GraphServiceClient graphClient = GetAuthenticatedGraphClient(...);
 var results = client.Me.Insights
                        .Trending
@@ -85,7 +85,7 @@ This request will return a similar response to the `trending` endpoint except ea
 
 You can obtain used files around the currently signed-in user with the Microsoft Graph .NET SDK, use the following code:
 
-```cs
+```csharp
 GraphServiceClient graphClient = GetAuthenticatedGraphClient(...);
 var results = client.Me.Insights
                        .Used

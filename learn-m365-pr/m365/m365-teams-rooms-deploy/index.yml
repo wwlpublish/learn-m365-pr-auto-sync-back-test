@@ -1,0 +1,43 @@
+### YamlMime:Module
+uid: learn-m365.m365-teams-rooms-deploy
+metadata:
+  title: Deploy Microsoft Teams Rooms
+  description: Learn to simplify the distribution of Teams Rooms across your environment by standardizing deployments. Discover the various components of Teams Rooms and their interconnections. Learn about the resource account, which represents the meeting room in Microsoft Teams. 
+  ms.date: 09/10/2020
+  author: AlexandraHrt
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Deploy Microsoft Teams Rooms
+summary: Learn to simplify the distribution of Teams Rooms across your environment by standardizing deployments. Discover the various components of Teams Rooms and their interconnections. Learn about the resource account, which represents the meeting room in Microsoft Teams.  
+abstract: |
+  At the end of this module, you should be able to:
+  - Describe how to standardize a Teams Rooms deployment.
+  - Describe how all the various components of Teams Rooms work together.
+  - Create the resource account used by Teams Rooms.
+
+prerequisites: | 
+ - Familiarity with Microsoft Teams
+ - Understanding of PowerShell
+
+iconUrl: /learn/achievements/deploy-microsoft-teams-rooms.svg
+levels:
+- intermediate
+roles:
+- administrator
+- student
+products:
+- m365
+- office-teams
+units:
+- learn-m365.m365-teams-rooms-deploy.introduction
+- learn-m365.m365-teams-rooms-deploy.standardize-deployment
+- learn-m365.m365-teams-rooms-deploy.connect-rooms
+- learn-m365.m365-teams-rooms-deploy.resource-account
+- learn-m365.m365-teams-rooms-deploy.create-resource-account-admin-center
+- learn-m365.m365-teams-rooms-deploy.create-resource-account-powershell
+- learn-m365.m365-teams-rooms-deploy.resource-accounts-next-level
+- learn-m365.m365-teams-rooms-deploy.knowledge-check
+- learn-m365.m365-teams-rooms-deploy.summary
+badge: 
+  uid: learn-m365.m365-teams-rooms-deploy.badge

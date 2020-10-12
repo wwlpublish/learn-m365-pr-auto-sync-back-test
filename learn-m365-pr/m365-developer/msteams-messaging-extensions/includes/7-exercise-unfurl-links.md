@@ -62,13 +62,13 @@ protected handleTeamsAppBasedLinkQuery(context: TurnContext, query: AppBasedLink
   const adaptiveCard = this.getPlanetDetailCard(selectedPlanet);
 
   // generate the response
-  return Promise.resolve(<MessagingExtensionActionResponse>{
+  return Promise.resolve({
     composeExtension: {
       type: "result",
       attachmentLayout: "list",
       attachments: [adaptiveCard]
     }
-  });
+  } as MessagingExtensionActionResponse);
 }
 ```
 
@@ -78,7 +78,7 @@ This method is called by the Bot Framework when a URL matching the domain listed
 
 From the command line, navigate to the root folder for the project and execute the following command:
 
-```shell
+```console
 gulp ngrok-serve
 ```
 
@@ -89,7 +89,7 @@ First, update the existing installed version of the bot.
 
 In the browser, navigate to **https://teams.microsoft.com** and sign in with the credentials of a Work and School account.
 
-Using the app bar navigation menu, select the **Mode added apps** button. Then select **Browse all apps**, select the menu in the top-right corner of the **Planet Messaging** and select **Update**.
+Using the app bar navigation menu, select the **More added apps** button. Then select **Browse all apps**, select the menu in the top-right corner of the **Planet Messaging** and select **Update**.
 
 After updating the app, go back to the 1:1 chat where you tested the messaging extension in the previous exercise. Copy and paste the URL of one of the planets from the **planets.json** file into the compose box. Notice the message has been updated to include the card, which is also included when you send the message:
 

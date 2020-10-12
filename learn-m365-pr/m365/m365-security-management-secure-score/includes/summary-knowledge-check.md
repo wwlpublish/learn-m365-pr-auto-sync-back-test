@@ -1,1 +1,4 @@
+>[!IMPORTANT]
+>Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813). We'll be updating names in products and in the Learn content in the near future.
+
 The Microsoft 365 security center empowers security administrators and operations personnel to use the intelligence built into Microsoft solutions enabling your organization to maintain a consistent and robust security posture. Centralized and in-depth reporting focused on critical areas – identity, data, devices, and apps – provides real-time visibility to make informed decisions. In combination with Microsoft Secure Score, security administrators have the insights, visibility, and control needed over the organization’s security position.

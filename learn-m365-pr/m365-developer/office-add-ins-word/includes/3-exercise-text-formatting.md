@@ -12,7 +12,7 @@ You'll use Node.js to create the custom Word add-in in this module. The exercise
 - [Node.js](https://nodejs.org/) - (*the latest [LTS](https://nodejs.org/about/releases) version*)
 - NPM (installed with Node.js) - v6.x (or higher)
 - [Yeoman](https://yeoman.io/) - v3.x (or higher)
-- [Yeoman Generator for Microsoft Office](https://github.com/OfficeDev/generator-office) - v1.6.x (or higher)
+- [Yeoman Generator for Microsoft Office](https://github.com/OfficeDev/generator-office) - v1.7.x (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
@@ -21,7 +21,7 @@ You must have the minimum versions of these prerequisites installed on your work
 
 Run the following command to create an add-in project using the Yeoman generator:
 
-```bash
+```console
 yo office
 ```
 
@@ -30,8 +30,8 @@ yo office
 
 When prompted, provide the following information to create your add-in project:
 
-- **Choose a project type:** Office Add-in Task Pane project
-- **Choose a script type:** JavaScript
+- **Select a project type:** Office Add-in Task Pane project
+- **Select a script type:** JavaScript
 - **What do you want to name your add-in?** My Office Add-in
 - **Which Office client application would you like to support?** Word
 
@@ -58,13 +58,12 @@ In this section, you'll programmatically test that your add-in supports the user
     ```
 
 1. Open the file **./src/taskpane/taskpane.js**. This file contains the Office JavaScript API code that facilitates interaction between the task pane and the Office host application.
-
-1. Remove all references to the `run` button and the `run()` function by doing the following steps:
+1. Remove all references to the **run** button and the `run()` function by doing the following steps:
 
     - Locate and delete the line `document.getElementById("run").onclick = run;`.
     - Locate and delete the entire `run()` function.
 
-1. Within the `Office.onReady` method call, locate the line `if (info.host === Office.HostType.Word) {` and add the following code immediately after that line:
+1. Within the `Office.onReady()` method call, locate the line `if (info.host === Office.HostType.Word) {` and add the following code immediately after that line:
 
     ```javascript
     // Determine if the user's version of Office supports all the Office.js APIs that are used in the tutorial.
@@ -79,7 +78,7 @@ In this section, you'll programmatically test that your add-in supports the user
     > [!NOTE]
     >
     > - The first part of this code determines whether the user's version of Word supports a version of Word.js that includes all the APIs used in this tutorial. In a production add-in, use the body of the conditional block to hide or disable the UI that calls unsupported APIs. This will enable the user to use the parts of the add-in that are supported by their version of Word.
-    > - The second part of this code adds an event handler for the `insert-paragraph` button.
+    > - The second part of this code adds an event handler for the **insert-paragraph** button.
 
 1. Add the following function to the end of the file:
 
@@ -131,31 +130,31 @@ In this section, you'll programmatically test that your add-in supports the user
     > [!TIP]
     > If you're testing your add-in on Mac, run the following command in the root directory of your project before proceeding. When you run this command, the local web server starts.
     >
-    > ```bash
+    > ```console
     > npm run dev-server
     > ```
 
     - To test your add-in in Word, run the following command in the root directory of your project. This starts the local web server (if it's not already running) and opens Word with your add-in loaded.
 
-        ```bash
+        ```console
         npm start
         ```
 
     - To test your add-in in Word on the web, run the following command in the root directory of your project. When you run this command, the local web server will start (if it's not already running).
 
-        ```bash
+        ```console
         npm run start:web
         ```
 
         To use your add-in, open a new document in Word on the web and then sideload your add-in by following the instructions in [Sideload Office Add-ins in Office on the web](https://docs.microsoft.com/office/dev/add-ins/testing/sideload-office-add-ins-for-testing#sideload-an-office-add-in-in-office-on-the-web).
 
-1. In Word, choose the **Home** tab, and then choose the **Show Task pane** button in the ribbon to open the add-in task pane.
+1. In Word, select the **Home** tab, and then select the **Show Task pane** button in the ribbon to open the add-in task pane.
 
     ![Screenshot of the Word application with the Show Task pane button highlighted](../media/03-word-quickstart-addin-2b.png)
 
-1. In the task pane, choose **Insert Paragraph**.
+1. In the task pane, select **Insert Paragraph**.
 1. Make a change in the paragraph.
-1. Choose the **Insert Paragraph** button again. The new paragraph appears above the previous one because the `insertParagraph` method is inserting at the start of the document's body.
+1. Select the **Insert Paragraph** button again. The new paragraph appears above the previous one because the `insertParagraph*()` method is inserting at the start of the document's body.
 
     ![Word tutorial - Insert Paragraph](../media/03-word-tutorial-insert-paragraph-2.png)
 
@@ -166,14 +165,14 @@ In this section, you'll apply a built-in style to text, apply a custom style to 
 ### Apply a built-in style to text
 
 1. Open the file **./src/taskpane/taskpane.html**.
-1. Locate the `<button>` element for the `insert-paragraph` button, and add the following markup after that line:
+1. Locate the `<button>` element for the **insert-paragraph** button, and add the following markup after that line:
 
     ```html
     <button class="ms-Button" id="apply-style">Apply Style</button><br/><br/>
     ```
 
 1. Open the file **./src/taskpane/taskpane.js**.
-1. Within the `Office.onReady` method call, locate the following line in the `Office.onRead()` method:
+1. Within the `Office.onReady()` method call, locate the following line in the `Office.onRead()` method:
 
     ```javascript
     document.getElementById("insert-paragraph").onclick = insertParagraph;
@@ -214,14 +213,14 @@ In this section, you'll apply a built-in style to text, apply a custom style to 
 ### Apply a custom style to text
 
 1. Open the file **./src/taskpane/taskpane.html**.
-1. Locate the `<button>` element for the `apply-style` button, and add the following markup after that line:
+1. Locate the `<button>` element for the **apply-style** button, and add the following markup after that line:
 
     ```html
     <button class="ms-Button" id="apply-custom-style">Apply Custom Style</button><br/><br/>
     ```
 
 1. Open the file **./src/taskpane/taskpane.js**.
-1. Within the `Office.onReady` method call, locate the following line in the `Office.onRead()` method:
+1. Within the `Office.onReady()` method call, locate the following line in the `Office.onRead()` method:
 
     ```javascript
     document.getElementById("apply-style").onclick = applyStyle;
@@ -264,14 +263,14 @@ In this section, you'll apply a built-in style to text, apply a custom style to 
 ### Change the font of text
 
 1. Open the file **./src/taskpane/taskpane.html**.
-1. Locate the `<button>` element for the `apply-custom-style` button, and add the following markup after that line:
+1. Locate the `<button>` element for the **apply-custom-style** button, and add the following markup after that line:
 
     ```html
     <button class="ms-Button" id="change-font">Change Font</button><br/><br/>
     ```
 
 1. Open the file **./src/taskpane/taskpane.js**.
-1. Within the `Office.onReady` method call, locate the following line in the `Office.onRead()` method:
+1. Within the `Office.onReady()` method call, locate the following line in the `Office.onRead()` method:
 
     ```javascript
     document.getElementById("apply-custom-style").onclick = applyCustomStyle;
@@ -302,7 +301,7 @@ In this section, you'll apply a built-in style to text, apply a custom style to 
     }
     ```
 
-1. Within the `changeFont()` function, replace `TODO1` with the following code. The code gets a reference to the second paragraph by using the `ParagraphCollection.getFirst` method chained to the `Paragraph.getNext` method.
+1. Within the `changeFont()` function, replace `TODO1` with the following code. The code gets a reference to the second paragraph by using the `ParagraphCollection.getFirst()` method chained to the `Paragraph.getNext()` method.
 
     ```javascript
     var secondParagraph = context.document.body.paragraphs.getFirst().getNext();
@@ -321,24 +320,24 @@ In this section, you'll apply a built-in style to text, apply a custom style to 
 
     - To test your add-in in Word, run the following command in the root directory of your project. This starts the local web server (if it's not already running) and opens Word with your add-in loaded.
 
-        ```bash
+        ```console
         npm start
         ```
 
     - To test your add-in in Word on the web, run the following command in the root directory of your project. When you run this command, the local web server will start (if it's not already running).
 
-        ```bash
+        ```console
         npm run start:web
         ```
 
         To use your add-in, open a new document in Word on the web and then sideload your add-in by following the instructions in [Sideload Office Add-ins in Office on the web](https://docs.microsoft.com/office/dev/add-ins/testing/sideload-office-add-ins-for-testing#sideload-an-office-add-in-in-office-on-the-web).
 
-1. If the add-in task pane isn't already open in Word, go to the **Home** tab and choose **Show Task pane**.
-1. Be sure there are at least three paragraphs in the document. You can choose the **Insert Paragraph** button three times. *Check carefully that there's no blank paragraph at the end of the document. If there is, delete it.*
+1. If the add-in task pane isn't already open in Word, go to the **Home** tab and select **Show Task pane**.
+1. Be sure there are at least three paragraphs in the document. You can select the **Insert Paragraph** button three times. *Check carefully that there's no blank paragraph at the end of the document. If there is, delete it.*
 1. In Word, create a [custom style](https://support.office.com/article/Customize-or-create-new-styles-d38d6e47-f6fc-48eb-a607-1eb120dec563) named **MyCustomStyle**. It can have any formatting that you want.
-1. Choose the **Apply Style** button. The first paragraph will be styled with the built-in style **Intense Reference**.
-1. Choose the **Apply Custom Style** button. The last paragraph will be styled with your custom style. (If nothing seems to happen, the last paragraph might be blank. If so, add some text to it.)
-1. Choose the **Change Font** button. The font of the second paragraph changes to 18 pt., bold, Courier New.
+1. Select the **Apply Style** button. The first paragraph will be styled with the built-in style **Intense Reference**.
+1. Select the **Apply Custom Style** button. The last paragraph will be styled with your custom style. (If nothing seems to happen, the last paragraph might be blank. If so, add some text to it.)
+1. Select the **Change Font** button. The font of the second paragraph changes to 18 pt., bold, Courier New.
 
     ![Word tutorial - Apply Styles and Font](../media/03-word-tutorial-apply-styles-and-font-2.png)
 

@@ -19,8 +19,6 @@ On the **App registrations** page, locate the application registration that repr
 
 To expose application permissions for the web API, you need to edit the manifest. In the application registration for your application, select **Manifest**.
 
-![Screenshot of the application registration with the manifest link highlighted](../media/07-azure-ad-portal-app-reg-manifest.png)
-
 In the manifest editor, find the name **appRoles**. The default value is an empty array. Replace the **appRoles** node with the following JSON:
 
 ```json
@@ -37,6 +35,8 @@ In the manifest editor, find the name **appRoles**. The default value is an empt
   }
 ],
 ```
+
+![Screenshot of the application registration with the manifest link highlighted](../media/07-azure-ad-portal-app-reg-manifest.png)
 
 When updating the manifest, consider the following requirements:
 
@@ -79,7 +79,7 @@ Select the **New client secret** button:
 
 When prompted, give the secret a description and select one of the expiration duration options provided and select **Add**. *What you enter and select doesn't matter for the exercise.*
 
-The **Certificate & Secrets** page will display the new secret. Its important you copy this value as its only shown this one time; if you leave the page and come back, it will only show as a masked value.
+The **Certificate & Secrets** page will display the new secret. It's important you copy this value as it's only shown this one time; if you leave the page and come back, it will only show as a masked value.
 
 ![Screenshot showing the new secret](../media/07-azure-ad-portal-new-app-secret-02.png)
 
@@ -108,9 +108,7 @@ The **API permissions** page will redisplay. Note there are two warning messages
 
 Since this exercise is creating a daemon application that doesn't have a user interface, admin consent will be granted using the Azure AD admin center.
 
-Select **Grant admin consent for [Tenant Name]**. (In the screen capture, the tenant name is "Contoso".) Select **Yes** to complete the consent process.
-
-![Screenshot of the API permissions page in the Azure AD admin center](../media/07-azure-ad-portal-app-reg-api-perm-04.png)
+Select **Grant admin consent for [Tenant Name]**. Select **Yes** to complete the consent process.
 
 ## Create a .NET Core console application
 

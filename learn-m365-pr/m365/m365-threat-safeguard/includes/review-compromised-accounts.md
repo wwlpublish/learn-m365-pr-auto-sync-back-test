@@ -1,3 +1,6 @@
+>[!IMPORTANT]
+>Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813). We'll be updating names in products and in the Learn content in the near future.
+
 Azure ATP security alerts explain the suspicious activities detected by Azure ATP sensors on your network, and the actors and computers involved in each threat. Alert evidence lists contain direct links to the involved users and computers, to help make your investigations easy and direct.
 
 Azure ATP security alerts are divided into the following categories or phases, like the phases seen in a typical cyber-attack kill chain:

@@ -1,4 +1,4 @@
-In this unit, you'll learn how to interact with Framework-based client-side web parts in a SharePoint Online modern site collection.
+In this unit, you'll learn how to interact with SharePoint Framework-based client-side web parts in a SharePoint Online modern site collection.
 
 ## SharePoint client-side web parts
 
@@ -8,7 +8,7 @@ They're configurable, reusable, and purpose-built components that page designers
 
 ![Screenshot of client-side web parts](../media/06-sp-client-side-web-parts.png)
 
-Client-side web parts are build using the SharePoint Framework that provides additional capabilities, including access to Microsoft Graph for incorporating personal and organizational information into page experiences.
+Client-side web parts are built using the SharePoint Framework that provides additional capabilities, including access to Microsoft Graph for incorporating personal and organizational information into page experiences.
 
 Web parts are also context aware, in the sense that they have access to contextual information about the current page. For instance, at runtime, the web part can get information about the current user and the current page and site the web part is currently running in.
 
@@ -36,4 +36,4 @@ You can edit the web part by opening the property pane with the edit icon to the
 
 ## Summary
 
-In this unit, you'll learn how to interact with Framework-based client-side web parts in a SharePoint Online modern site collection.
+In this unit, you learned how to interact with Framework-based client-side web parts in a SharePoint Online modern site collection.

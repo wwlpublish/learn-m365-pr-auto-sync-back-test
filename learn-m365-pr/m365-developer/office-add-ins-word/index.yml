@@ -3,7 +3,7 @@ uid: learn-m365.office-add-ins-word
 metadata:
   title: Build Office add-ins for Word
   description: This module walks through development of Office add-ins for Microsoft Word.
-  ms.date: 03/31/2020
+  ms.date: 08/31/2020
   author: andrewconnell
   ms.author: suzanz
   ms.topic: interactive-tutorial

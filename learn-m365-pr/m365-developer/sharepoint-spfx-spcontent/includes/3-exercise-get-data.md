@@ -18,6 +18,9 @@ Add items to the list by entering the names of different countries as shown in t
 
 Open a command prompt and change to the folder where you want to create the project.
 
+> [!IMPORTANT]
+> The instructions below assume you are using v1.11.0 of the SharePoint Framework Yeoman generator.
+
 Run the SharePoint Yeoman generator by executing the following command:
 
 ```shell
@@ -38,7 +41,7 @@ Use the following to complete the prompt that is displayed (*if additional optio
 
 After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When NPM completes downloading all dependencies, test the default project provisioned by the generator.
 
-Open the project in Visual Studio Code.
+Open the project in **Visual Studio Code**.
 
 ### Create an interface for the SharePoint list items
 

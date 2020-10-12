@@ -3,7 +3,7 @@ uid: learn.wwl.m365-productivity-teamwork-solutions
 metadata:
   title: Demonstrate fundamental knowledge of Microsoft 365 productivity and teamwork solutions
   description: Learn more about Microsoft 365 productivity and team work solutions.
-  ms.date: 08/13/2020
+  ms.date: 09/05/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -24,6 +24,7 @@ products:
 - m365
 - office-365
 modules:
+- learn-m365.what-is-m365
 - learn.wwl.microsoft-365-productivity-teamwork-solutions
 - learn.wwl.engage-employees-with-microsoft-stream-teams-yammer
 - learn.wwl.get-more-done-with-office-across-devices

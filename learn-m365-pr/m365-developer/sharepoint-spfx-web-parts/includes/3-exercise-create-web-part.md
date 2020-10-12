@@ -1,7 +1,7 @@
 In this exercise, you'll create a SharePoint Framework client-side web part.
 
 > [!IMPORTANT]
-> The instructions below assume you are using v1.10.0 of the SharePoint Framework Yeoman generator.
+> The instructions below assume you are using v1.11.0 of the SharePoint Framework Yeoman generator.
 
 Open a command prompt and change to the folder where you want to create the project.
 

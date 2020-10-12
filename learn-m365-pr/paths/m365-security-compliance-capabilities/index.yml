@@ -3,7 +3,7 @@ uid: learn.wwl.m365-security-compliance-capabilities
 metadata:
   title: Demonstrate fundamental knowledge of Microsoft 365 security and compliance capabilities
   description: Demonstrate fundamental knowledge of Microsoft 365 security and compliance capabilities
-  ms.date: 08/12/2020
+  ms.date: 09/05/2020
   author: wwlpublish
   ms.author: ceperezb
   ms.topic: interactive-tutorial
@@ -23,6 +23,7 @@ roles:
 products:
 - m365
 modules:
+- learn-m365.what-is-m365
 - learn.wwl.describe-microsoft-365-security-principles-solution-areas
 - learn.wwl.describe-identity-access-management-capabilities-of-microsoft-365
 - learn.wwl.describe-threat-protection-capabilities-of-microsoft-365

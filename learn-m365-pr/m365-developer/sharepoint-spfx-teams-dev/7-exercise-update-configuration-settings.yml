@@ -3,7 +3,7 @@ uid: learn-m365.sharepoint-spfx-teams-dev.7-exercise-update-configuration-settin
 metadata:
   title: Exercise - Update configuration settings
   description: In this exercise, you'll update the configuration settings for the SharePoint Framework application and the configuration details of the Microsoft Teams application.
-  ms.date: 3/10/2020
+  ms.date: 08/31/2020
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
@@ -15,7 +15,7 @@ content: |
 quiz:
   title: Test your knowledge
   questions:
-  - content: "How is the Microsoft Teams tab settings configuration experience different from the SharePoitn web part property pane experience?"
+  - content: "How is the Microsoft Teams tab settings configuration experience different from the SharePoint web part property pane experience?"
     choices:
     - content: "There are no differences. When a client-side web part is used as a Microsoft Teams tab, it inherits the Microsoft Teams settings configuration experience that displays a dialog."
       isCorrect: false

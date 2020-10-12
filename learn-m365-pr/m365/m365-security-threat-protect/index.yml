@@ -15,7 +15,8 @@ abstract: |
   - Define the capabilities of Microsoft Defender Advanced Threat Protection.
   - Understand how to hunt threats within your network.
   - Explain how Microsoft Defender Advanced Threat Protection can remediate risks in your environment.
-
+  
+  **IMPORTANT**: Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813). We'll be updating names in products and in the Learn content in the near future.
 prerequisites: | 
  - Intermediate understanding of Microsoft 365
 iconUrl: /learn/achievements/protect-against-threats.svg

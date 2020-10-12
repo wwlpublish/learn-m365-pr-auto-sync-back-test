@@ -9,7 +9,7 @@ In this module, you'll learn how to use Microsoft Graph to work with users in Mi
 - Ability to develop with ASP.NET Core at the intermediate level
 - Experience using Visual Studio Code at the beginner level
 - Access to a [Microsoft 365 tenant](https://developer.microsoft.com/office/dev-program?ocid=MSlearn)
-'
+
 ## Learning objectives
 
 By the end of this module, you will be able to:

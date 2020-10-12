@@ -8,9 +8,6 @@ The tenant App Catalog is managed by the SharePoint tenant administrators. All S
 
 Starting in SharePoint Server 2019 and in SharePoint Online, when deploying a SharePoint package to the tenant App Catalog, you can optionally have web parts installed to all site collections in the tenant. For this option to be available when deploying the package, the developer must enable it in the **./src/package-solution.json** file. This option can save administrators and site collection owners time from having to go to each site collection and install the app in each site collection after deploying it. In addition, it will automatically install the app in all new site collections created after deploying the package.
 
-> [!NOTE]
-> The automatic deployment of SharePoint Framework web part apps to all site collections only applies to SharePoint Server 2019, SharePoint Online and client-side web parts. It doesn't include SharePoint Framework extensions.
-
 ## Site collection-scoped App Catalog
 
 The site collection App Catalog is only available in SharePoint Online. The site collection App Catalog works just like the tenant-scoped App Catalog, except SharePoint packages deployed to it are only available to that specific site collection.

@@ -9,7 +9,7 @@ Add the following code to the existing `NotificationsController` class.
 
 This code includes a new method, `CheckForUpdates()`, that will call the Microsoft Graph using the delta url and then pages through the results until it finds a new `deltalink` on the final page of results. It stores the url in memory until the code is notified again when another notification is triggered.
 
-```cs
+```csharp
 private static object DeltaLink = null;
 
 private static IUserDeltaCollectionPage lastPage = null;
@@ -71,7 +71,7 @@ private async Task<IUserDeltaCollectionPage> GetUsers(GraphServiceClient graphCl
 
 Locate the existing `Post()` method and replace it with the following code:
 
-```cs
+```csharp
 public async Task<ActionResult<string>> Post([FromQuery]string validationToken = null)
 {
   // handle validation
@@ -125,13 +125,13 @@ Update the **Mobile phone** value with a new number and Select **Save**.
 
 Wait for the notification to be received as indicated in the Visual Studio Code **Debug Console**:
 
-```shell
+```console
 Received notification: 'Users/7a7fded6-0269-42c2-a0be-512d58da4463', 7a7fded6-0269-42c2-a0be-512d58da4463
 ```
 
 The application will now start a delta query with Microsoft Graph to get all the users and log out some of their details to the console output.
 
-```shell
+```console
 User: 19e429d2-541a-4e0b-9873-6dff9f48fabe, Allan Deyoung
 User: 05501e79-f527-4913-aabf-e535646d7ffa, Christie Cline
 User: fecac4be-76e7-48ec-99df-df745854aa9c, Debra Berger
@@ -167,7 +167,7 @@ In the Microsoft 365 Admin Portal, repeat the process of editing a user and **Sa
 
 The application will receive another notification and will query Microsoft Graph again using the last delta link it received. However, this time you'll notice that only the modified user was returned in the results.
 
-```shell
+```console
 User: 7a7fded6-0269-42c2-a0be-512d58da4463, Adele Vance
 ```
 

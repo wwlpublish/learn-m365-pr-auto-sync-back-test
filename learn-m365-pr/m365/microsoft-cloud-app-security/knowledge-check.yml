@@ -1,0 +1,75 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.cloud-app-security.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: Review what you've learned about Microsoft Cloud App Security.
+  ms.date: 09/08/2020
+  author: lizap
+  ms.author: iankensey
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 3
+content: |
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "How can you get an at-a-glance overview of the kinds of apps are being used within your organization?"
+      choices:
+      - content: "Use Azure Information Protection"
+        isCorrect: false
+        explanation: "That's incorrect.Use the Cloud Discovery Dashboard to see what kinds of apps are being used, open alerts, and the risk levels of apps in your organization"
+      - content: "Use Conditional Access"
+        isCorrect: false
+        explanation: "That's incorrect. Use the Cloud Discovery Dashboard to see what kinds of apps are being used, open alerts, and the risk levels of apps in your organization."
+      - content: "Use the Cloud Discovery Dashboard"
+        isCorrect: true
+        explanation: "That's correct. You can see what kinds of apps are being used, open alerts, and the risk levels of apps in your organization."
+
+    - content: "The Cloud App Security framework includes which of the following?"
+      choices:
+      - content: "Discover and control the use of Shadow IT"
+        isCorrect: true
+        explanation: "That's correct. The framework includes: Discover and control the use of Shadow IT, protect your sensitive information anywhere in the cloud, protect against cyberthreats and anomalies, and assess the compliance of your cloud apps are all parts of the Cloud App Security framework."
+      - content: "Block external traffic"
+        isCorrect: false
+        explanation: "That's incorrect. The framework includes: Discover and control the use of Shadow IT, protect your sensitive information anywhere in the cloud, Protect against cyberthreats and anomalies, and Assess the compliance of your cloud apps are all parts of the Cloud App Security framework."
+      - content: "Protect Active Directory"
+        isCorrect: false
+        explanation: "That's incorrect. The framework includes: Discover and control the use of Shadow IT, protect your sensitive information anywhere in the cloud, Protect against cyberthreats and anomalies, and Assess the compliance of your cloud apps are all parts of the Cloud App Security framework."
+      
+    - content: "Which of these is a feature of Conditional Access App Control policies?"
+      choices:
+      - content: "Remote access"
+        isCorrect: false
+        explanation: "That's incorrect. This isn’t a valid feature of Conditional Access App Control policies. Valid features include: Prevent data exfiltration, protect on download, prevent upload of unlabeled files, monitor user sessions for compliance, block access, and block custom activities."
+      - content: "Require multi-factor authentication"
+        isCorrect: false
+        explanation: "That's incorrect. This isn’t a valid feature of Conditional Access App Control policies. Valid features include: Prevent data exfiltration, protect on download, prevent upload of unlabeled files, monitor user sessions for compliance, block access, and block custom activities."
+      - content: "Protect on download"
+        isCorrect: true
+        explanation: "That's Correct! Prevent data exfiltration, protect on download, prevent upload of unlabeled files, monitor user sessions for compliance, block access, and block custom activities are all features of Conditional Access App Control policies."
+            
+    - content: "How can you ensure that a file is sent into quarantine for review by an administrator?"
+      choices:
+      - content: "When creating a file policy, select Quarantine for admin"
+        isCorrect: false
+        explanation: "That's incorrect. This option doesn’t exist. You need to select Put in admin quarantine to let administrators to review files."
+      - content: "When creating a file policy, select Put in admin quarantine"
+        isCorrect: true
+        explanation: "That's incorrect. This makes it possible for administrators to decide what happens with the file."
+      - content: "When creating a file policy, select Put in review for admin"
+        isCorrect: false
+        explanation: "That's Correct! This option doesn’t exist. You need to select Put in admin quarantine to let administrators to review files."
+            
+    - content: "Which anomaly detection policy triggers an alert if the same user credentials originate from two geographically distant locations within a short time?"
+      choices:
+      - content: "Impossible travel"
+        isCorrect: true
+        explanation: "That's incorrect. The impossible travel policy is triggered when two user activities originate from geographically distant locations within a time period shorter than the time it would have taken the user to travel from the first location to the second."
+      - content: "Impossible distance"
+        isCorrect: false
+        explanation: "That's incorrect. While geographical distance is a factor, the impossible distance is not a valid detection policy."
+      - content: "Impossible twins"
+        isCorrect: false
+        explanation: "That's Correct! While the anomaly detection policy will flag that the same user credentials are being used from two different geographical locations, this is not the correct detection policy name."

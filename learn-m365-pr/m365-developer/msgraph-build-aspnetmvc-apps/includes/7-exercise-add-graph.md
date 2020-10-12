@@ -6,7 +6,7 @@ Start by extending the `GraphHelper` class you created in the last module.
 
 Add the following `using` statements to the top of the **Helpers/GraphHelper.cs** file.
 
-```cs
+```csharp
 using graph_tutorial.TokenStorage;
 using Microsoft.Identity.Client;
 using System.Collections.Generic;
@@ -18,7 +18,7 @@ using System.Web;
 
 Add the following code to the `GraphHelper` class.
 
-```cs
+```csharp
 // Load configuration settings from PrivateSettings.config
 private static string appId = ConfigurationManager.AppSettings["ida:AppId"];
 private static string appSecret = ConfigurationManager.AppSettings["ida:AppSecret"];
@@ -76,7 +76,7 @@ private static GraphServiceClient GetAuthenticatedClient()
 
 Create a controller for the calendar views. Right-click the **Controllers** folder in Solution Explorer and select **Add > Controller...**. Choose **MVC 5 Controller - Empty** and select **Add**. Name the controller **CalendarController** and select **Add**. Replace the entire contents of the new file with the following code.
 
-```cs
+```csharp
 using graph_tutorial.Helpers;
 using System;
 using System.Threading.Tasks;
@@ -107,7 +107,7 @@ namespace graph_tutorial.Controllers
 }
 ```
 
-Start the app, sign in, and click the **Calendar** link in the nav bar. If everything works, you should see a JSON dump of events on the user's calendar.
+Start the app, sign in, and select the **Calendar** link in the nav bar. If everything works, you should see a JSON dump of events on the user's calendar.
 
 ## Display the results
 
@@ -150,11 +150,11 @@ That will loop through a collection of events and add a table row for each one.
 
 Remove the `return Json(events, JsonRequestBehavior.AllowGet);` line from the `Index` function in **Controllers/CalendarController.cs**, and replace it with the following code.
 
-```cs
+```csharp
 return View(events);
 ```
 
-Start the app, sign in, and click the **Calendar** link. The app should now render a table of events.
+Start the app, sign in, and select the **Calendar** link. The app should now render a table of events.
 
 ![A screenshot of the table of events](../media/07-add-msgraph-01.png)
 

@@ -9,7 +9,7 @@ In a previous exercise, you created a .NET console application that retrieved an
 
 In the **Program.cs** file, locate the following line in the `Main` method:
 
-```cs
+```csharp
 var client = GetAuthenticatedGraphClient(config, userName, userPassword);
 ```
 
@@ -23,7 +23,7 @@ The first step is to request all the groups the user has been added to as a memb
 
 Add the following code to the end of the `Main` method:
 
-```cs
+```csharp
 // request 1 - all groups member of
 Console.WriteLine("\n\nREQUEST 1 - ALL GROUPS MEMBER OF:");
 var requestGroupsMemberOf = client.Me.MemberOf.Request();
@@ -32,7 +32,7 @@ var resultsGroupsMemberOf = requestGroupsMemberOf.GetAsync().Result;
 
 Next, add the following code to the end of the `Main` method that will display the results of the previous query:
 
-```cs
+```csharp
 foreach (var groupDirectoryObject in resultsGroupsMemberOf)
 {
   var group = groupDirectoryObject as Microsoft.Graph.Group;
@@ -57,7 +57,7 @@ An application must be granted specific permissions to get access to groups in O
 
 Within the **Program.cs** file, locate the method `CreateAuthorizationProvider()`, and locate the following code:
 
-```cs
+```csharp
 List<string> scopes = new List<string>();
 scopes.Add("User.Read");
 scopes.Add("Group.Read.All");
@@ -66,7 +66,7 @@ scopes.Add("User.ReadBasic.All");
 
 These permissions need to be updated for the code you added in the last section. Remove the permission **User.ReadBasic.All** and request the permission **Directory.Read.All**. The result should now look like the following code:
 
-```cs
+```csharp
 List<string> scopes = new List<string>();
 scopes.Add("User.Read");
 scopes.Add("Group.Read.All");
@@ -81,11 +81,11 @@ Open a browser and navigate to the [Azure Active Directory admin center (https:/
 
 Select **Azure Active Directory** in the left-hand navigation. Locate the Azure AD app by selecting **Manage > App Registrations** and selecting the app **Graph Console App**:
 
-![Screenshot ](../media/azure-ad-portal-permissions-05-01.png)
+![Screenshot ](../media/azure-ad-portal-new-app-details.png)
 
 Select **API Permissions** in the left-hand navigation panel.
 
-![Screenshot of the API Permissions navigation item](../media/azure-ad-portal-new-app-permissions-01.png)
+![Screenshot of the API Permissions navigation item](../media/azure-ad-portal-permissions-05-01.png)
 
 Select the **Add a permission** button.
 
@@ -103,7 +103,7 @@ In the **Configured Permissions** panel, select the button **Grant admin consent
 
 Run the following commands in a command prompt to compile and run the console application:
 
-```shell
+```console
 dotnet build
 dotnet run
 ```
@@ -118,14 +118,16 @@ In addition to getting a list of all groups a user is a member of, Microsoft Gra
 
 The Microsoft Graph .NET SDK exposes this with the `OwnedObjects` collection on the **User** resource. This collection maps to the `/ownedObjects` Microsoft Graph API endpoint.
 
+Locate the code you added above for `// request 1 - all groups member of` and comment it out so it doesn't continue to execute. 
+
 Add the following code to the end of the `Main` method. This code will get a list of all objects owned by the currently signed-in user. Using the same process as above, it will then write the results of the query to the console:
 
-```cs
+```csharp
 // request 2 - all groups owner of
 Console.WriteLine("\n\nREQUEST 2 - ALL GROUPS OWNER OF:");
 var requestOwnerOf = client.Me.OwnedObjects.Request();
 var resultsOwnerOf = requestOwnerOf.GetAsync().Result;
-foreach (var ownedObject in resultsGroupsMemberOf)
+foreach (var ownedObject in resultsOwnerOf)
 {
   var group = ownedObject as Microsoft.Graph.Group;
   var role = ownedObject as Microsoft.Graph.DirectoryRole;
@@ -146,7 +148,7 @@ Console.WriteLine(requestOwnerOf.GetHttpRequestMessage().RequestUri);
 
 Run the following commands in a command prompt to compile and run the console application:
 
-```shell
+```console
 dotnet build
 dotnet run
 ```

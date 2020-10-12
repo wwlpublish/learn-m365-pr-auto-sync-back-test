@@ -31,7 +31,7 @@ A new small file
 
 You can also use the Microsoft Graph .NET SDK to perform the same action. Assuming a file named **myNewSmallFile.txt** is present in the current folder, use the following code to upload the file to the currently signed-in user's root OneDrive account:
 
-```cs
+```csharp
 // get reference to stream of file in OneDrive
 var fileName = "myNewSmallFile.txt";
 var currentFolder = System.IO.Directory.GetCurrentDirectory();
@@ -125,7 +125,7 @@ This will return the same type of response returned when a range is uploaded. Us
 
 The following code uploads a large file to the currently signed-in user's OneDrive root folder using the Microsoft Graph .NET SDK:
 
-```cs
+```csharp
 var fileName = "largefile.zip";
 var currentFolder = System.IO.Directory.GetCurrentDirectory();
 var filePath = Path.Combine(currentFolder, fileName);

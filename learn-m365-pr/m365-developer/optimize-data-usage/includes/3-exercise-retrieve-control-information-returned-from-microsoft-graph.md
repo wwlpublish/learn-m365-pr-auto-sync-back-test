@@ -18,7 +18,6 @@ On the **Register an application** page, set the values as follows:
 
 - **Name**: Graph Console App
 - **Supported account types**: Accounts in this organizational directory only (Contoso only - Single tenant)
-- **Redirect URI**: Web = https://localhost
 
     ![Screenshot of the Register an application page](../media/aad-portal-newapp-01.png)
 
@@ -69,13 +68,13 @@ In the **Configured permissions** panel, select the button **Grant admin consent
 
 Open your command prompt, navigate to a directory where you have rights to create your project, and run the following command to create a new .NET Core console application:
 
-```shell
+```console
 dotnet new console -o graphconsoleapp
 ```
 
 After creating the application, run the following commands to ensure your new project runs correctly.
 
-```shell
+```console
 cd graphconsoleapp
 dotnet add package Microsoft.Identity.Client
 dotnet add package Microsoft.Graph
@@ -86,7 +85,7 @@ dotnet add package Microsoft.Extensions.Configuration.Json
 
 Open the application in Visual Studio Code using the following command:
 
-```shell
+```console
 code .
 ```
 
@@ -117,7 +116,7 @@ Create a new folder **Helpers** in the project.
 
 Create a new file **AuthHandler.cs** in the **Helpers** folder and add the following code:
 
-```cs
+```csharp
 using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.Graph;
@@ -146,7 +145,7 @@ namespace Helpers
 
 Create a new file **MsalAuthenticationProvider.cs** in the **Helpers** folder and add the following code:
 
-```cs
+```csharp
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
@@ -186,7 +185,7 @@ namespace Helpers
 
 Open the **Program.cs** file and add the following `using` statements to the top of the file:
 
-```cs
+```csharp
 using System.Collections.Generic;
 using Microsoft.Identity.Client;
 using Microsoft.Graph;
@@ -196,13 +195,13 @@ using Helpers;
 
 Add the following static member to the `Program` class in the **Program.cs** file. This member will be used to instantiate the client used to call Microsoft Graph:
 
-```cs
+```csharp
 private static GraphServiceClient _graphClient;
 ```
 
 Add the following method `LoadAppSettings` to the `Program` class. This method retrieves the configuration details from the **appsettings.json** file previously created:
 
-```cs
+```csharp
 private static IConfigurationRoot LoadAppSettings()
 {
   try
@@ -231,7 +230,7 @@ private static IConfigurationRoot LoadAppSettings()
 
 Add the following method `CreateAuthorizationProvider` to the `Program` class. This method will create an instance of the clients used to call Microsoft Graph.
 
-```cs
+```csharp
 private static IAuthenticationProvider CreateAuthorizationProvider(IConfigurationRoot config)
 {
   var clientId = config["applicationId"];
@@ -253,7 +252,7 @@ private static IAuthenticationProvider CreateAuthorizationProvider(IConfiguratio
 
 Add the following method `GetAuthenticatedGraphClient`  to the `Program` class. This method creates an instance of the `GraphServiceClient` object.
 
-```cs
+```csharp
 private static GraphServiceClient GetAuthenticatedGraphClient(IConfigurationRoot config)
 {
     var authenticationProvider = CreateAuthorizationProvider(config);
@@ -264,7 +263,7 @@ private static GraphServiceClient GetAuthenticatedGraphClient(IConfigurationRoot
 
 Locate the `Main` method in the `Program` class. Add the following code to the end of the `Main` method to load the configuration settings from the **appsettings.json** file:
 
-```cs
+```csharp
 var config = LoadAppSettings();
 if (config == null)
 {
@@ -275,7 +274,7 @@ if (config == null)
 
 Add the following code to the end of the `Main` method, just after the code added in the last step. This code will obtain an authenticated instance of the `GraphServicesClient` and submit a request for the first user.
 
-```cs
+```csharp
 var client = GetAuthenticatedGraphClient(config);
 
 var graphRequest = client.Users.Request();
@@ -294,13 +293,13 @@ Console.WriteLine(graphRequest.GetHttpRequestMessage().RequestUri);
 
 Run the following command in a command prompt to compile the console application:
 
-```shell
+```console
 dotnet build
 ```
 
 Run the following command to run the console application:
 
-```shell
+```console
 dotnet run
 ```
 
@@ -317,7 +316,7 @@ The current console application isn't efficient because it retrieves all informa
 
 Update the line that starts with `var graphRequest = client.Users` in the `Main` method with the following to limit the query to just two properties:
 
-```cs
+```csharp
 var graphRequest = client.Users
                     .Request()
                     .Select(u => new { u.DisplayName, u.Mail });
@@ -325,7 +324,7 @@ var graphRequest = client.Users
 
 Rebuild and rerun the console application by executing the following commands in the command line:
 
-```shell
+```console
 dotnet build
 dotnet run
 ```
@@ -336,7 +335,7 @@ Now you see the `Id` property isn't populated with data as it wasn't included in
 
 Let us further limit the results to just the first 15 results. Update the line that starts with `var graphRequest = client.Users` in the `Main` method with the following:
 
-```cs
+```csharp
 var graphRequest = client.Users
                     .Request()
                     .Select(u => new { u.DisplayName, u.Mail })
@@ -345,7 +344,7 @@ var graphRequest = client.Users
 
 Rebuild and rerun the console application by executing the following commands in the command line:
 
-```shell
+```console
 dotnet build
 dotnet run
 ```
@@ -356,7 +355,7 @@ Notice only 15 items are now returned by the query.
 
 Sort the results in reverse alphabetic order. Update the line that starts with `var graphRequest = client.Users` in the `Main` method with the following:
 
-```cs
+```csharp
 var graphRequest = client.Users
                     .Request()
                     .Select(u => new { u.DisplayName, u.Mail })
@@ -366,7 +365,7 @@ var graphRequest = client.Users
 
 Rebuild and rerun the console application by executing the following commands in the command line:
 
-```shell
+```console
 dotnet build
 dotnet run
 ```
@@ -375,7 +374,7 @@ dotnet run
 
 Further refine the results by selecting Users who's surname starts with A, B, or C. You'll need to remove the `$orderby` query parameter added previously as the Users endpoint doesn't support combining the `$filter` and `$orderby` parameters. Update the line that starts with `var graphRequest = client.Users` in the `Main` method with the following:
 
-```cs
+```csharp
 var graphRequest = client.Users
                     .Request()
                     .Select(u => new { u.DisplayName, u.Mail })
@@ -386,7 +385,7 @@ var graphRequest = client.Users
 
 Rebuild and rerun the console application by executing the following commands in the command line:
 
-```shell
+```console
 dotnet build
 dotnet run
 ```

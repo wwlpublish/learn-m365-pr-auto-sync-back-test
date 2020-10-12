@@ -4,16 +4,16 @@ Query parameters will help you achieve multiple tasks such as limiting the amoun
 
 This module will also cover other query parameters that can be used for combining multiple requests in a single HTTP request. Combining requests is done by leveraging batching and expanding related items to avoid additional HTTP round-trips to Microsoft Graph.
 
-## Prerequisites  
+## Prerequisites
 
 - Basic knowledge of REST services and APIs
 - Ability to develop with ASP.NET Core at the intermediate level
 - Experience using Visual Studio Code at the beginner level
 - Access to a [Microsoft 365 tenant](https://developer.microsoft.com/office/dev-program?ocid=MSlearn)
-  
+
 ## Learning objectives
 
-By the end of this module, you will be able to:  
+By the end of this module, you will be able to:
 
 - Demonstrate how to manipulate REST queries with query parameters
 - Create queries that expand complex entities

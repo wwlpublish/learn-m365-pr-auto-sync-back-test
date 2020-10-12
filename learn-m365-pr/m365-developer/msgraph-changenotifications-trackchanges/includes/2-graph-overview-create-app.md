@@ -38,7 +38,7 @@ Change notifications enable applications to be alerted when data changes or is c
 
 What can you get notifications for?
 
-You can get notifications on messages, events, contacts, users, groups, conversations, OneDrive files, and alerts. This allows you to stay up to date and in sync with data that that is accessible via Microsoft Graph. It also allows you to avoid implementing a polling infrastructure where you submit requests to Microsoft Graph at regular intervals to get the most recent changes. Instead, you can go back to Microsoft Graph asking for changes when a notification is received by your application. This way you'll never miss a change to data that is exposed or was accessible via Microsoft Graph.
+You can get notifications on messages, events, contacts, users, groups, conversations, OneDrive files, alerts, and more. This allows you to stay up to date and in sync with data that that is accessible via Microsoft Graph. It also allows you to avoid implementing a polling infrastructure where you submit requests to Microsoft Graph at regular intervals to get the most recent changes. Instead, you can go back to Microsoft Graph asking for changes when a notification is received by your application. This way you'll never miss a change to data that is exposed or was accessible via Microsoft Graph.
 
 ### Example scenarios
 

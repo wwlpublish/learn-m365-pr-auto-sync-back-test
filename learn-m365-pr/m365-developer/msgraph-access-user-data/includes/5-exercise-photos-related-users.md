@@ -9,7 +9,7 @@ Locate the **Program.cs** file from the application you created in a previous un
 
 Within the `Main` method, locate the following line:
 
-```cs
+```csharp
 var client = GetAuthenticatedGraphClient(config, userName, userPassword);
 ```
 
@@ -22,7 +22,7 @@ Delete all code within the `Main` method after the above line.
 
 Add the following code to the end of the `Main` method. This code will obtain a reference to the currently signed in user's profile photo and display its details:
 
-```cs
+```csharp
 // request 1 - current user's photo
 
 var requestUserPhoto = client.Me.Photo.Request();
@@ -44,7 +44,7 @@ Console.WriteLine(requestUserPhoto.GetHttpRequestMessage().RequestUri);
 
 Run the following command in a command prompt to compile and run the console application:
 
-```shell
+```console
 dotnet build
 dotnet run
 ```
@@ -59,14 +59,14 @@ Next, save the profile photo to your workstation.
 
 Locate the comment `// get actual photo` from the code you added in the last section. Add the following lines after the comment:
 
-```cs
+```csharp
 var requestUserPhotoFile = client.Me.Photo.Content.Request();
 var resultUserPhotoFile = requestUserPhotoFile.GetAsync().Result;
 ```
 
 Next, locate the comment `// create the file` from the code you added in the last section. Add the following lines after the comment:
 
-```cs
+```csharp
 var profilePhotoPath = System.IO.Path.Combine(System.IO.Directory.GetCurrentDirectory(), "profilePhoto_" + resultsUserPhoto.Id + ".jpg");
 var profilePhotoFile = System.IO.File.Create(profilePhotoPath);
 resultUserPhotoFile.Seek(0, System.IO.SeekOrigin.Begin);
@@ -83,7 +83,7 @@ This code will create a new image file in the current folder of the application 
 
 Run the following command in a command prompt to compile and run the console application:
 
-```shell
+```console
 dotnet build
 dotnet run
 ```
@@ -120,7 +120,7 @@ Locate the code you added above for `request 1 - current user's photo` and comme
 
 Add the following code immediately after the code you just commented out:
 
-```cs
+```csharp
 // request 2 - user's manager
 var userId = "{{REPLACE_WITH_USER_ID}}";
 var requestUserManager = client.Users[userId]
@@ -144,7 +144,7 @@ This code will get the specified user, and select that user's manager property. 
 
 Run the following command in a command prompt to compile and run the console application:
 
-```shell
+```console
 dotnet build
 dotnet run
 ```

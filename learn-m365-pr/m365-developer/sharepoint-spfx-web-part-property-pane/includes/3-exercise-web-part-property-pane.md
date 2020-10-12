@@ -2,6 +2,9 @@ In this exercise, you'll manipulate the property pane for a SharePoint Framework
 
 ## Create a new ShareaPoint Framework solution and web part
 
+> [!IMPORTANT]
+> The instructions below assume you are using v1.11.0 of the SharePoint Framework Yeoman generator.
+
 Open a command prompt and change to the folder where you want to create the project.
 
 Run the SharePoint Framework Yeoman generator by executing the following command:
@@ -42,7 +45,11 @@ Select the **edit web part** control to the side of the web part to display the 
 
 ## Add New Properties to the web part
 
-With a working web part, the next step is to customize the property pane experience. Create two new properties that will be used in the web part and property pane. Open the file **.\src\webparts\helloPropertyPane\HelloPropertyPaneWebPart.ts**. Locate the interface `IHelloPropertyPaneWebPartProps` after the `import` statements. Add the following two properties to the interface:
+With a working web part, the next step is to customize the property pane experience. Create two new properties that will be used in the web part and property pane. 
+
+Open the project folder in **Visual Studio Code**.
+
+Open the file **.\src\webparts\helloPropertyPane\HelloPropertyPaneWebPart.ts**. Locate the interface `IHelloPropertyPaneWebPartProps` after the `import` statements. Add the following two properties to the interface:
 
 ```typescript
 myContinent: string;
@@ -151,4 +158,4 @@ Notice the property value isn't updated when the control's input is invalid.
 
 ## Summary
 
-In this exercise, you'll manipulate the property pane for a SharePoint Framework client-side web part with controls, groups, and pages.
+In this exercise, you manipulated the property pane for a SharePoint Framework client-side web part with controls, groups, and pages.

@@ -34,7 +34,7 @@ Content-type: application/json
 
 The same request submitted using the Microsoft Graph .NET SDK:
 
-```cs
+```csharp
 GraphServiceClient graphClient = GetAuthenticatedGraphClient(...);
 Microsoft.Graph.User user = new Microsoft.Graph.User() {
   AccountEnabled = true,
@@ -74,7 +74,7 @@ Content-type: application/json
 
 The same request submitted using the Microsoft Graph .NET SDK:
 
-```cs
+```csharp
 GraphServiceClient graphClient = GetAuthenticatedGraphClient(...);
 Microsoft.Graph.User user = new Microsoft.Graph.User() {
   MobilePhone = "555-555-1212"
@@ -95,7 +95,7 @@ Content-type: application/json
 
 The same request submitted using the Microsoft Graph .NET SDK:
 
-```cs
+```csharp
 var userIdToDelete = "{ID}";
 await client.Users[userIdToDelete].Request().DeleteAsync();
 ```

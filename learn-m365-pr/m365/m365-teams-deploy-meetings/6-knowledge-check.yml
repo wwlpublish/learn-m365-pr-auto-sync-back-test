@@ -1,0 +1,64 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.deploy-meetings.6-knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: Check your knowledge
+  ms.date: 09/08/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 4
+content: |
+quiz:
+  title: Check your knowledge
+  questions:
+
+  - content: "When **Automatically admit people** is turned on and no other settings are configured, what happens when a dial-in user tries to join the meeting?"
+    choices:
+    - content: They wait in the lobby.
+      isCorrect: true
+      explanation: "The **Automatically admit people** setting doesn't apply to dial-in users. The **Allow dial-in users to bypass the lobby** setting controls whether people who dial in by phone join the meeting directly."
+    - content: They're automatically rejected.
+      isCorrect: false
+      explanation: "The **Automatically admit people** setting doesn't apply to dial-in users. The **Allow dial-in users to bypass the lobby** setting controls whether people who dial in by phone join the meeting directly."
+    - content: They're automatically admitted.
+      isCorrect: false
+      explanation: "The **Automatically admit people** setting doesn't apply to dial-in users. The **Allow dial-in users to bypass the lobby** setting controls whether people who dial in by phone join the meeting directly."
+
+  - content: "How does Teams support e-discovery requests for compliance admins who are interested in meeting or call recordings?"
+    choices:
+    - content: Compliance admins are sent a chat message in Teams after each recording.
+      isCorrect: false
+      explanation: A recording completed message is available in the compliance content search functionality for Microsoft Teams."
+    - content: A recording completed message is available in the compliance content search functionality for Microsoft Teams.
+      isCorrect: true
+      explanation: " A recording completed message is available in the compliance content search functionality for Microsoft Teams."
+    - content: "Compliance admins can use the **recordcmplt** PowerShell cmdlet to list completed recordings."
+      isCorrect: false
+      explanation: " A recording completed message is available in the compliance content search functionality for Microsoft Teams."
+
+  - content: "What are the onboarding steps of a Microsoft Teams Rooms deployment?"
+    choices:
+    - content: Room inventory and plan capabilities, device selection, procurement.
+      isCorrect: false
+      explanation: "Room inventory and plan capabilities, device selection, and procurement are the envision steps of a Microsoft Teams Rooms deployment."
+    - content: Adoption, maintenance, and operations.
+      isCorrect: false
+      explanation: "Adoption, maintenance and operations are the drive value steps of a Microsoft Teams Rooms deployment."
+    - content: Site readiness, service readiness, configuration, and deployment.
+      isCorrect: true
+      explanation: "The onboarding steps of a Microsoft Teams Rooms deployment are site readiness, service readiness, configuration, and deployment."
+
+  - content: "When should you deploy Cloud Video Interop?"
+    choices:
+    - content: As an intermediate service while you transition to a full native Microsoft Teams solution.
+      isCorrect: true
+      explanation: "Cloud Video Interop provides an intermediate service while you transition to a full native Microsoft Teams solution."
+    - content: As an upgrade to a full native Microsoft Teams solution.
+      isCorrect: false
+      explanation: "Cloud Video Interop provides an intermediate service while you transition to a full native Microsoft Teams solution."
+    - content: As an add-on to a full native Microsoft Teams Solution.
+      isCorrect: false
+      explanation: "Cloud Video Interop provides an intermediate service while you transition to a full native Microsoft Teams solution."

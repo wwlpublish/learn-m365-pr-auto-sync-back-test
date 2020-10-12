@@ -7,14 +7,14 @@ When a table is long enough that a user must scroll to see some rows, the header
 ### Freeze the table's header row
 
 1. Open the file **./src/taskpane/taskpane.html**.
-1. Locate the `<button>` element for the `create-chart` button, and add the following markup after that line:
+1. Locate the `<button>` element for the **create-chart** button, and add the following markup after that line:
 
     ```html
     <button class="ms-Button" id="freeze-header">Freeze Header</button><br/><br/>
     ```
 
 1. Open the file **./src/taskpane/taskpane.js**.
-1. Within the `Office.onReady` method call, in the `Office.onRead()` method, locate the following line:
+1. Within the `Office.onReady()` method call, locate the following line:
 
     ```javascript
     document.getElementById("create-chart").onclick = createChart;
@@ -55,7 +55,7 @@ When a table is long enough that a user must scroll to see some rows, the header
     > [!NOTE]
     >
     > - The `Worksheet.freezePanes` collection is a set of panes in the worksheet that are pinned, or frozen, in place when the worksheet is scrolled.
-    > - The `freezeRows` method takes as a parameter the number of rows, from the top that are to be pinned in place. We pass `1` to pin the first row in place.
+    > - The `freezeRows()` method takes as a parameter the number of rows, from the top that are to be pinned in place. We pass `1` to pin the first row in place.
 
 1. Verify that your changes are saved to the project.
 
@@ -64,22 +64,22 @@ When a table is long enough that a user must scroll to see some rows, the header
 1. If the local web server is already running and your add-in is already loaded in Excel, continue to step 2. Otherwise, start the local web server and sideload your add-in:
     - To test your add-in in Excel, run the following command in the root directory of your project. This starts the local web server (if it's not already running) and opens Excel with your add-in loaded.
 
-        ```bash
+        ```console
         npm start
         ```
 
     - To test your add-in in Excel on the web, run the following command in the root directory of your project. When you run this command, the local web server will start (if it's not already running).
 
-        ```bash
+        ```console
         npm run start:web
         ```
 
         To use your add-in, open a new document in Excel on the web and then sideload your add-in by following the instructions in [Sideload Office Add-ins in Office on the web](https://docs.microsoft.com/office/dev/add-ins/testing/sideload-office-add-ins-for-testing#sideload-an-office-add-in-in-office-on-the-web).
 
-1. If the add-in task pane isn't already open, on the **Home** tab, choose **Show Task pane**.
+1. If the add-in task pane isn't already open, on the **Home** tab, select **Show Task pane**.
 1. If the table you added previously in this tutorial is present in the worksheet, delete it.
-1. In the task pane, choose **Create Table**.
-1. In the task pane, choose **Freeze Header** .
+1. In the task pane, select **Create Table**.
+1. In the task pane, select **Freeze Header** .
 1. Scroll down the worksheet far enough to see that the table header remains visible at the top even when the higher rows scroll out of sight.
 
 ![Excel tutorial - Freeze Header](../media/05-excel-tutorial-freeze-header-2.png)
@@ -91,7 +91,9 @@ In this section, you'll add another button to the ribbon that, when chosen, exec
 ### Configure the manifest to add a second ribbon button
 
 1. Open the manifest file **./manifest.xml**.
-1. Locate the `<Control>` element. This element defines the **Show Task pane** button on the **Home** ribbon you have been using to launch the add-in. We're going to add a second button to the same group on the **Home** ribbon. In between the end Control tag (`</Control>`) and the end Group tag (`</Group>`), add the following markup.
+1. Locate the `<Control>` element. This element defines the **Show Task pane** button on the **Home** ribbon you have been using to launch the add-in. We're going to add a second button to the same group on the **Home** ribbon.
+
+    Between the end Control tag (`</Control>`) and the end Group tag (`</Group>`), add the following markup.
 
     ```xml
     <Control xsi:type="Button" id="<!--TODO1: Unique (in manifest) name for button -->">
@@ -211,7 +213,7 @@ In this section, you'll add another button to the ribbon that, when chosen, exec
     g.toggleProtection = toggleProtection;
     ```
 
-1. Within the `toggleProtection` function, replace `TODO1` with the following code. This code uses the worksheet object's protection property in a standard toggle pattern. The `TODO2` will be explained in the next section.
+1. Within the `toggleProtection()` function, replace `TODO1` with the following code. This code uses the worksheet object's protection property in a standard toggle pattern. The `TODO2` will be explained in the next section.
 
     ```javascript
     var sheet = context.workbook.worksheets.getActiveWorksheet();
@@ -231,12 +233,12 @@ In this section, you'll add another button to the ribbon that, when chosen, exec
 In each function that you've created in this unit until now, you queued commands to *write* to the Office document. Each function ended with a call to the `context.sync()` method, which sends the queued commands to the document to be executed. But the code you added in the last step calls the `sheet.protection.protected` property, and this is a significant difference from the earlier functions you wrote, because the `sheet` object is only a proxy object that exists in your task pane's script. It doesn't know what the actual protection state of the document is, so its `protection.protected` property can't have a real value. It's necessary to first fetch the protection status from the document and use it set the value of `sheet.protection.protected`. Only then can `sheet.protection.protected` be called without causing an exception to be thrown. This fetching process has three steps:
 
   1. Queue a command to load (that is; fetch) the properties that your code needs to read.
-  1. Call the context object's `sync` method to send the queued command to the document for execution and return the requested information.
-  1. Because the `sync` method is asynchronous, ensure that it has completed before your code calls the properties that were fetched.
+  1. Call the context object's `sync()` method to send the queued command to the document for execution and return the requested information.
+  1. Because the `sync()` method is asynchronous, ensure that it has completed before your code calls the properties that were fetched.
 
 These steps must be completed whenever your code needs to *read* information from the Office document.
 
-1. Within the `toggleProtection` function, replace `TODO2` with the following code:
+1. Within the `toggleProtection()` function, replace `TODO2` with the following code:
 
     ```javascript
     sheet.load('protection/protected');
@@ -252,14 +254,14 @@ These steps must be completed whenever your code needs to *read* information fro
 
     > [!NOTE]
     >
-    ><- Every Excel object has a `load` method. You specify the properties of the object that you want to read in the parameter as a string of comma-delimited names. In this case, the property you need to read is a subproperty of the `protection` property. You reference the subproperty almost exactly as you would anywhere else in your code, with the exception that you use a forward slash ('/') character instead of a "." character.
-    ><- To ensure that the toggle logic, which reads `sheet.protection.protected`, doesn't run until after the `sync` is complete and the `sheet.protection.protected` has been assigned the correct value that is fetched from the document, it will be moved (in the next step) into a `then` function that won't run until the `sync` has completed.
+    ><- Every Excel object has a `load()` method. You specify the properties of the object that you want to read in the parameter as a string of comma-delimited names. In this case, the property you need to read is a subproperty of the `protection` property. You reference the subproperty almost exactly as you would anywhere else in your code, with the exception that you use a forward slash ('/') character instead of a "." character.
+    ><- To ensure that the toggle logic, which reads `sheet.protection.protected`, doesn't run until after the `sync()` is complete and the `sheet.protection.protected` has been assigned the correct value that is fetched from the document, it will be moved (in the next step) into a `then()` function that won't run until the `sync()` has completed.
 
-1. You can't have two `return` statements in the same unbranching code path, so delete the final line `return context.sync();` at the end of the `Excel.run`. You'll add a new final `context.sync`, in a later step.
-1. Cut the `if ... else` structure in the `toggleProtection` function and paste it in place of `TODO3`.
+1. You can't have two `return` statements in the same unbranching code path, so delete the final line `return context.sync();` at the end of the `Excel.run()`. You'll add a new final `context.sync()`, in a later step.
+1. Cut the `if ... else` structure in the `toggleProtection()` function and paste it in place of `TODO3`.
 1. Replace `TODO4` with the following code. Note:
-   - Passing the `sync` method to a `then` function ensures that it doesn't run until either `sheet.protection.unprotect()` or `sheet.protection.protect()` has been queued.
-   - The `then` method invokes whatever function is passed to it, and you don't want `sync` to be invoked twice, so leave off the "()" from the end of `context.sync`.
+   - Passing the `sync()` method to a `then()` function ensures that it doesn't run until either `sheet.protection.unprotect()` or `sheet.protection.protect()` has been queued.
+   - The `then()` method invokes whatever function is passed to it, and you don't want `sync()` to be invoked twice, so leave off the "()" from the end of `context.sync`.
 
     ```javascript
     .then(context.sync);
@@ -316,24 +318,24 @@ These steps must be completed whenever your code needs to *read* information fro
 
     - To test your add-in in Excel, run the following command in the root directory of your project. This starts the local web server (if it's not already running) and opens Excel with your add-in loaded.
 
-        ```bash
+        ```console
         npm start
         ```
 
     - To test your add-in in Excel on the web, run the following command in the root directory of your project. When you run this command, the local web server will start (if it's not already running).
 
-        ```bash
+        ```console
         npm run start:web
         ```
 
         To use your add-in, open a new document in Excel on the web and then sideload your add-in by following the instructions in [Sideload Office Add-ins in Office on the web](https://docs.microsoft.com/office/dev/add-ins/testing/sideload-office-add-ins-for-testing#sideload-an-office-add-in-in-office-on-the-web).
 
-1. On the **Home** tab in Excel, choose the **Toggle Worksheet Protection** button. Most of the controls on the ribbon are disabled (and visually grayed-out) as seen in the following screenshot.
+1. On the **Home** tab in Excel, select the **Toggle Worksheet Protection** button. Most of the controls on the ribbon are disabled (and visually grayed-out) as seen in the following screenshot.
 
     ![Excel tutorial - Ribbon with Protection On](../media/05-excel-tutorial-ribbon-with-protection-on-2.png)
 
-1. Choose a cell as you would if you wanted to change its content. Excel displays an error message indicating that the worksheet is protected.
-1. Choose the **Toggle Worksheet Protection** button again, and the controls are reenabled, and you can change cell values again.
+1. Select a cell as you would if you wanted to change its content. Excel displays an error message indicating that the worksheet is protected.
+1. Select the **Toggle Worksheet Protection** button again, and the controls are reenabled, and you can change cell values again.
 
 ## Summary
 

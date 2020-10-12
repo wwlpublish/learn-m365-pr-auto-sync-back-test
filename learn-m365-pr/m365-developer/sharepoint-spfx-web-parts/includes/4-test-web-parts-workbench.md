@@ -6,15 +6,15 @@ Microsoft provides developers two options to test SharePoint Framework projects.
 
 ### Local workbench
 
-The local workbench is served up from executing the gulp **serve** task. It runs on https://localhost that has no SharePoint context. Its simply an HTML page that loads the SharePoint Framework in the browser.
+The local workbench is served up by executing the gulp **serve** task. It runs on https://localhost that has no SharePoint context. Its simply an HTML page that loads the SharePoint Framework in the browser.
 
-The local workbench is a great option for developers develop and test web parts that don't require an instance of SharePoint. For web parts that need SharePoint context or work with live SharePoint data, you'll need to mock data requests to test your web part in the local workbench.
+The local workbench is a great option for developers to develop and test web parts that don't require an instance of SharePoint. For web parts that need SharePoint context or work with live SharePoint data, you'll need to mock data requests to test your web part in the local workbench.
 
 ### SharePoint-hosted workbench
 
 The SharePoint-hosted workbench is hosted by a real SharePoint site, located at **https://{your-sharepoint-site}/_layouts/workbench.aspx**. The hosted workbench is unlike the local workbench in that because its hosted by a real SharePoint site, it has SharePoint context. This means that your web part can access data in SharePoint lists and libraries in the same site as the hosted workbench.
 
-Unlike the local workbench, while the gulp **serve** task will continue to monitor your project for changes, while it will rebuild the project, it won't automatically refresh the browser containing the hosted workbench. To see the changes, you can manually refresh the browser where you loaded the hosted workbench.
+The gulp **serve** task will continue to monitor your project and rebuild it when changes are made. However, unlike the local workbench, it won't automatically refresh the browser containing the hosted workbench. To see the changes, you will need to manually refresh the browser where you loaded the hosted workbench.
 
 ## Debugging
 

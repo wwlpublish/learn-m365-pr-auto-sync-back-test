@@ -74,13 +74,13 @@ In the **Configured Permissions** panel, select the button **Grant admin consent
 
 Open your command prompt, navigate to a directory where you have rights to create your project, and run the following command to create a new .NET Core console application:
 
-```shell
+```console
 dotnet new console -o graphconsoleapp
 ```
 
 After creating the application, run the following commands to ensure your new project runs correctly.
 
-```shell
+```console
 cd graphconsoleapp
 dotnet add package Microsoft.Identity.Client
 dotnet add package Microsoft.Graph
@@ -91,7 +91,7 @@ dotnet add package Microsoft.Extensions.Configuration.Json
 
 Open the application in Visual Studio Code using the following command:
 
-```shell
+```console
 code .
 ```
 
@@ -119,7 +119,7 @@ Create a new folder **Helpers** in the project.
 
 Create a new file **AuthHandler.cs** in the **Helpers** folder and add the following code:
 
-```cs
+```csharp
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
@@ -148,7 +148,7 @@ namespace Helpers
 
 Create a new file **MsalAuthenticationProvider.cs** in the **Helpers** folder and add the following code:
 
-```cs
+```csharp
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Security;
@@ -222,7 +222,7 @@ namespace Helpers
 
 Open the **Program.cs** file and add the following `using` statements to the top fo the file:
 
-```cs
+```csharp
 using System.Collections.Generic;
 using System.Net;
 using System.Net.Http;
@@ -238,7 +238,7 @@ using Helpers;
 
 Add the following method `LoadAppSettings` to the `Program` class. The method retrieves the configuration details from the **appsettings.json** file previously created:
 
-```cs
+```csharp
 private static IConfigurationRoot LoadAppSettings()
 {
   try
@@ -265,7 +265,7 @@ private static IConfigurationRoot LoadAppSettings()
 
 Add the following method `CreateAuthorizationProvider` to the `Program` class. The method will create an instance of the clients used to call Microsoft Graph.
 
-```cs
+```csharp
 private static IAuthenticationProvider CreateAuthorizationProvider(IConfigurationRoot config, string userName, SecureString userPassword)
 {
   var clientId = config["applicationId"];
@@ -284,7 +284,7 @@ private static IAuthenticationProvider CreateAuthorizationProvider(IConfiguratio
 
 Add the following method `GetAuthenticatedHTTPClient` to the `Program` class. The method creates an instance of the `HttpClient` object.
 
-```cs
+```csharp
 private static HttpClient GetAuthenticatedHTTPClient(IConfigurationRoot config, string userName, SecureString userPassword)
 {
   var authenticationProvider = CreateAuthorizationProvider(config, userName, userPassword);
@@ -295,7 +295,7 @@ private static HttpClient GetAuthenticatedHTTPClient(IConfigurationRoot config, 
 
 Add the following method `ReadPassword` to the `Program` class. The method prompts the user for their password:
 
-```cs
+```csharp
 private static SecureString ReadPassword()
 {
   Console.WriteLine("Enter your password");
@@ -317,7 +317,7 @@ private static SecureString ReadPassword()
 
 Add the following method `ReadUsername` to the `Program` class. The method prompts the user for their username:
 
-```cs
+```csharp
 private static string ReadUsername()
 {
   string username;
@@ -329,7 +329,7 @@ private static string ReadUsername()
 
 Locate the `Main` method in the `Program` class. Add the following code to the end of the `Main` method to load the configuration settings from the **appsettings.json** file:
 
-```cs
+```csharp
 var config = LoadAppSettings();
 if (config == null)
 {
@@ -340,7 +340,7 @@ if (config == null)
 
 Add the following code to the end of the `Main` method, just after the code added in the last step. This code will obtain an authenticated instance of the `HttpClient` and submit a request for the current user's email:
 
-```cs
+```csharp
 var userName = ReadUsername();
 var userPassword = ReadPassword();
 
@@ -351,7 +351,7 @@ Add the following code to issue many requests to Microsoft Graph. This code will
 
 All tasks are then executed in parallel. At the conclusion of all requests, the results are written to the console:
 
-```cs
+```csharp
 var totalRequests = 100;
 var successRequests = 0;
 var tasks = new List<Task>();
@@ -396,13 +396,13 @@ if (successRequests != totalRequests)
 
 Run the following command in a command prompt to compile the console application:
 
-```shell
+```console
 dotnet build
 ```
 
 Run the following command to run the console application:
 
-```shell
+```console
 dotnet run
 ```
 

@@ -65,7 +65,7 @@ Developers can also use one of the many Microsoft Graph SDKs to obtain a user.
 
 For example, to get a user with the Microsoft Graph .NET SDK, you would use the following code:
 
-```cs
+```csharp
 GraphServiceClient graphClient = GetAuthenticatedGraphClient(...);
 // get the signed-in user ...
 var user = client.Me.Request().GetAsync().Result;
@@ -96,7 +96,7 @@ Each user resource has additional referenced resources such as their email messa
 
 Microsoft Graph also enables developers to get a list of users. The `/users` endpoint will return all users in the organization using the Microsoft Graph API. The following code will do the same thing using the Microsoft Graph .NET SDK:
 
-```cs
+```csharp
 GraphServiceClient graphClient = GetAuthenticatedGraphClient(...);
 var users = client.Users.Request().GetAsync().Result;
 ```

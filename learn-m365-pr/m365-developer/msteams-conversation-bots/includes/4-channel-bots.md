@@ -92,7 +92,7 @@ You may find it necessary to strip out the @mentions from the text of the messag
 
 Mentions are returned in the entities object in payload and contain both the unique ID of the user and, in most cases, the name of user mentioned. The text of the message will also include the mention like `<at>@John Smith<at>`.
 
-However, you shouldn't rely on the text in the message to retrieve any information about the user; its possible for the person sending the message to alter it. Instead, use the entities object.
+However, you shouldn't rely on the text in the message to retrieve any information about the user; it's possible for the person sending the message to alter it. Instead, use the entities object.
 
 ### Updating and deleting existing messages
 

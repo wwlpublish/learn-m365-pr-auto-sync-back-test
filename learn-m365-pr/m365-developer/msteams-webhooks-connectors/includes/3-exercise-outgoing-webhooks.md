@@ -17,8 +17,9 @@ You'll use Node.js to create custom Microsoft Teams tabs in this module. The exe
 - NPM (installed with Node.js) - v6.\* (or higher)
 - [Gulp](https://gulpjs.com/) - v4.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.13.0 (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.15.0 (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
+- [ngrok](https://ngrok.io)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
 
@@ -28,7 +29,7 @@ Open your command prompt, navigate to a directory where you want to save your wo
 
 Run the Yeoman Generator for Microsoft Teams by running the following command:
 
-```shell
+```console
 yo teams
 ```
 
@@ -40,10 +41,11 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project?**: Teams Webhooks
 - **Your (company) name? (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: 1.5
+- **Which manifest version would you like to use?**: v1.6
 - **Enter your Microsoft Partner Id, if you have one?**: (Leave blank to skip)
 - **What features do you want to add to your project?**: An Outgoing Webhook
 - **The URL where you will host this solution?**: (Accept the default option)
+- **Would you like show a loading indicator when your app/tab loads?**: No
 - **Would you like to include Test framework and initial tests?**: No
 - **Would you like to use Azure Applications Insights for telemetry?**: No
 - **Name of your outgoing webhook?**: Teams Webhooks Outgoing Webhook
@@ -55,9 +57,31 @@ After answering the generator's questions, the generator will create the scaffol
 
 Our web service will need one more NPM package to simplify finding data in an array. Execute the following command in the command prompt from the root folder of the project to install the library Lodash:
 
-```shell
+```console
 npm install lodash -S
 ```
+
+### Ensure the project is using the latest version of Teams manifest & SDK
+
+Run the npm command to install the latest version of the SDK
+
+```console
+npm i @microsoft/teams-js
+```
+
+Locate and open the `manifest.json` file in the `manifest`  folder of the project. 
+- Change the `$schema` property to **https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json**
+- Change the `manifestVersion` property to **1.7**.
+
+Open the `gulp.config.js` file in the root folder of the project. Add the following to the **SCHEMAS** property.
+
+```json
+{
+  version: "1.7",
+  schema: "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json"
+}
+```
+
 
 ## Code the outgoing webhook
 
@@ -280,23 +304,23 @@ private static getPlanetDetailCard(selectedPlanet: any): builder.Attachment {
 
   // update planet fields in display card
   adaptiveCardSource.actions[0].url = selectedPlanet.wikiLink;
-  find(adaptiveCardSource.body, { "id": "cardHeader" }).items[0].text = selectedPlanet.name;
-  const cardBody: any = find(adaptiveCardSource.body, { "id": "cardBody" });
-  find(cardBody.items, { "id": "planetSummary" }).text = selectedPlanet.summary;
-  find(cardBody.items, { "id": "imageAttribution" }).text = "*Image attribution: " + selectedPlanet.imageAlt + "*";
-  const cardDetails: any = find(cardBody.items, { "id": "planetDetails" });
+  find(adaptiveCardSource.body, { id: "cardHeader" }).items[0].text = selectedPlanet.name;
+  const cardBody: any = find(adaptiveCardSource.body, { id: "cardBody" });
+  find(cardBody.items, { id: "planetSummary" }).text = selectedPlanet.summary;
+  find(cardBody.items, { id: "imageAttribution" }).text = "*Image attribution: " + selectedPlanet.imageAlt + "*";
+  const cardDetails: any = find(cardBody.items, { id: "planetDetails" });
   cardDetails.columns[0].items[0].url = selectedPlanet.imageLink;
-  find(cardDetails.columns[1].items[0].facts, { "id": "orderFromSun" }).value = selectedPlanet.id;
-  find(cardDetails.columns[1].items[0].facts, { "id": "planetNumSatellites" }).value = selectedPlanet.numSatellites;
-  find(cardDetails.columns[1].items[0].facts, { "id": "solarOrbitYears" }).value = selectedPlanet.solarOrbitYears;
-  find(cardDetails.columns[1].items[0].facts, { "id": "solarOrbitAvgDistanceKm" }).value = Number(selectedPlanet.solarOrbitAvgDistanceKm).toLocaleString();
+  find(cardDetails.columns[1].items[0].facts, { id: "orderFromSun" }).value = selectedPlanet.id;
+  find(cardDetails.columns[1].items[0].facts, { id: "planetNumSatellites" }).value = selectedPlanet.numSatellites;
+  find(cardDetails.columns[1].items[0].facts, { id: "solarOrbitYears" }).value = selectedPlanet.solarOrbitYears;
+  find(cardDetails.columns[1].items[0].facts, { id: "solarOrbitAvgDistanceKm" }).value = Number(selectedPlanet.solarOrbitAvgDistanceKm).toLocaleString();
 
   // return the adaptive card
   return builder.CardFactory.adaptiveCard(adaptiveCardSource);
 }
 ```
 
-Next, add the following method ot the `TeamsWebhooksOutgoingWebhook` class. The `processAuthenticatedRequest()` method takes the incoming text uses it to find a planet in the **planets.json** file. If it finds one, it calls the `getPlanetDetailCard()` method to get an adaptive card and returns it as an `Activity` that will be sent back to Microsoft Teams. If a planet isn't found, it just echoes the text back in a reply to the request:
+Next, add the following method to the `TeamsWebhooksOutgoingWebhook` class. The `processAuthenticatedRequest()` method takes the incoming text uses it to find a planet in the **planets.json** file. If it finds one, it calls the `getPlanetDetailCard()` method to get an adaptive card and returns it as an `Activity` that will be sent back to Microsoft Teams. If a planet isn't found, it just echoes the text back in a reply to the request:
 
 ```typescript
 private static processAuthenticatedRequest(incomingText: string): Partial<builder.Activity> {
@@ -326,7 +350,7 @@ Add the following `scrubMessage()` method to the `TeamsWebhooksOutgoingWebhook` 
 
 ```typescript
 private static scrubMessage(incomingText: string): string {
-  let cleanMessage = incomingText
+  const cleanMessage = incomingText
                         .slice(incomingText.lastIndexOf(">")+1, incomingText.length)
                         .replace("&nbsp;", "");
   return cleanMessage;
@@ -360,13 +384,13 @@ Finally, update the `requestHandler()` method:
 
 From the command line, navigate to the root folder for the project and execute the following command:
 
-```shell
+```console
 gulp serve
 ```
 
 Next, open a new console window and execute the following command:
 
-```shell
+```console
 ngrok http 3007
 ```
 
@@ -411,7 +435,7 @@ Copy this value and set the `SECURITY_TOKEN` property in the **./.env** file in 
 
 Stop the project's local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> and restart it by executing the following command:
 
-```shell
+```console
 gulp serve
 ```
 

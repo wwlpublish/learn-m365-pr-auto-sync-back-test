@@ -6,7 +6,7 @@ Now that you’ve reviewed this module, you should be able to:
 * Describe Microsoft’s privacy principles.
 
 
-Learn more
+## Learn more
 There are plenty of resources to get more information. Here are the resources for the topics covered today:
 * Learn more about the pillars upon which our security and compliance solutions are built at [Microsoft's Intelligent Security](https://www.microsoft.com/security/business). 
 * Learn more about how to secure access to your organization with [Identity and access management](https://www.microsoft.com/microsoft-365/business/identity-and-access-management).

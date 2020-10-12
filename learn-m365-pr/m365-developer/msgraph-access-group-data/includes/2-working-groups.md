@@ -74,7 +74,7 @@ GET https://graph.microsoft.com/v1.0/groups
 
 The same request can be done using the Microsoft Graph .NET SDK with the following code:
 
-```cs
+```csharp
 var client = GetAuthenticatedGraphClient(...);
 var requestAllGroups = client.Groups.Request();
 var resultsAllGroups = requestAllGroups.GetAsync().Result;
@@ -102,7 +102,7 @@ GET https://graph.microsoft.com/v1.0/groups/{ID}
 
 The same request can be done using the Microsoft Graph .NET SDK with the following code:
 
-```cs
+```csharp
 var client = GetAuthenticatedGraphClient(...);
 var requestGroup = client.Groups[groupId].Request();
 var resultsGroup = requestGroup.GetAsync().Result;
@@ -121,7 +121,7 @@ GET https://graph.microsoft.com/v1.0/groups/{ID}/owners
 
 The same request can be done using the Microsoft Graph .NET SDK with the following code:
 
-```cs
+```csharp
 var client = GetAuthenticatedGraphClient(...);
 var requestGroupOwners = client.Groups[groupId].Owners.Request();
 var resultsGroupOwners = requestGroupOwners.GetAsync().Result;
@@ -142,7 +142,7 @@ GET https://graph.microsoft.com/v1.0/groups/{ID}/members
 
 The same request can be done using the Microsoft Graph .NET SDK with the following code:
 
-```cs
+```csharp
 var client = GetAuthenticatedGraphClient(...);
 var requestGroupMembers = client.Groups[groupId].Members.Request();
 var resultsGroupMembers = requestGroupMembers.GetAsync().Result;

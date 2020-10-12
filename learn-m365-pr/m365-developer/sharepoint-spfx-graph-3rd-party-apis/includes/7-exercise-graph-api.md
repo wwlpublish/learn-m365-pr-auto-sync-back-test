@@ -2,6 +2,9 @@ In this exercise, you'll create a new SharePoint Framework project with a single
 
 ## Create the Persona SharePoint Framework solution
 
+> [!IMPORTANT]
+> The instructions below assume you are using v1.11.0 of the SharePoint Framework Yeoman generator.
+
 Open a command prompt and change to the folder where you want to create the project. Run the SharePoint Yeoman generator by executing the following command:
 
 ```shell
@@ -20,7 +23,7 @@ Use the following to complete the prompt that is displayed (*if additional optio
 - **What is your Web part description?**: Display current user's persona details in a Fabric React Persona card
 - **Which framework would you like to use?**: React
 
-After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When NPM completes downloading all dependencies, open the project in Visual Studio Code.
+After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When NPM completes downloading all dependencies, open the project in **Visual Studio Code**.
 
 ## Update the solution dependencies
 
@@ -268,7 +271,7 @@ In the **Do you trust ms-graph-sp-fx-client-side-solution?** dialog, select **De
 
 Navigate to the SharePoint Admin Portal located at **https://{{REPLACE_WITH_YOUR_TENANTID}}-admin.sharepoint.com/_layouts/15/online/AdminHome.aspx**, replacing the domain with your SharePoint Online's administration tenant URL.
 
-In the navigation, select **Advanced > API Management**:
+In the navigation, select **Advanced > API access**:
 
 ![Screenshot of the SharePoint Online admin portal](../media/spo-admin-portal-01.png)
 

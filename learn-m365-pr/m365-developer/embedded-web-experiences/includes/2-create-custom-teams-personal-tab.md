@@ -190,7 +190,7 @@ A personal tab is defined within the static tabs collection of the Microsoft Tea
     "name": "Candidates",
     "contentUrl": "https://.../Tabs/candidates.html",
     "websiteUrl": "https://.../Tabs/candidates.html?web=1",
-    "scopes": ["personal"]
+    "scopes": ["personal"]
   }
 ],
 "validDomains": [

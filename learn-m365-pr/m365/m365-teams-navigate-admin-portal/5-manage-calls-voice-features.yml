@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.navigate-admin-portal.5-manage-calls-voice-features
+title: Manage calls and voice features
+metadata:
+  title: Manage calls and voice features
+  description: Learn about tools in the Teams admin portal for monitoring and controlling voice features.
+  ms.date: 09/10/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 3
+content: |
+  [!include[](includes/5-manage-calls-voice-features.md)]

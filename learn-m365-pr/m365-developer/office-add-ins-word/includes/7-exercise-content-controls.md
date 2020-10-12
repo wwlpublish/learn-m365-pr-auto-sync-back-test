@@ -9,14 +9,14 @@ In this exercise, you'll learn how to create rich text content controls in the d
 ### Create a content control
 
 1. Open the file **./src/taskpane/taskpane.html**.
-1. Locate the `<button>` element for the `insert-table` button, and add the following markup after that line:
+1. Locate the `<button>` element for the **insert-table** button, and add the following markup after that line:
 
     ```html
     <button class="ms-Button" id="create-content-control">Create Content Control</button><br/><br/>
     ```
 
 1. Open the file **./src/taskpane/taskpane.js**.
-1. Within the `Office.onReady` method call, locate the following line in the `Office.onRead()` method:
+1. Within the `Office.onReady()` method call, locate the following line in the `Office.onRead()` method:
 
     ```javascript
     document.getElementById("insert-table").onclick = insertTable;
@@ -61,7 +61,7 @@ In this exercise, you'll learn how to create rich text content controls in the d
     >
     > - This code is intended to wrap the phrase "Office 365" in a content control. It makes a simplifying assumption that the string is present and the user has selected it.
     > - The `ContentControl.title` property specifies the visible title of the content control.
-    > - The `ContentControl.tag` property specifies a tag that can be used to get a reference to a content control using the `ContentControlCollection.getByTag` method, which you'll use in a later function.
+    > - The `ContentControl.tag` property specifies a tag that can be used to get a reference to a content control using the `ContentControlCollection.getByTag()` method, which you'll use in a later function.
     > - The `ContentControl.appearance` property specifies the visual look of the control. Using the value "Tags" means that the control will be wrapped in opening and closing tags, and the opening tag will have the content control's title. Other possible values are "BoundingBox" and "None".
     > - The `ContentControl.color` property specifies the color of the tags or the border of the bounding box.
 
@@ -69,14 +69,14 @@ In this exercise, you'll learn how to create rich text content controls in the d
 
 1. Open the file **./src/taskpane/taskpane.html**.
 
-1. Locate the `<button>` element for the `create-content-control` button, and add the following markup after that line:
+1. Locate the `<button>` element for the **create-content-control** button, and add the following markup after that line:
 
     ```html
     <button class="ms-Button" id="replace-content-in-control">Rename Service</button><br/><br/>
     ```
 
 1. Open the file **./src/taskpane/taskpane.js**.
-1. Within the `Office.onReady` method call, locate the following line in the `Office.onRead()` method:
+1. Within the `Office.onReady()` method call, locate the following line in the `Office.onRead()` method:
 
     ```javascript
     document.getElementById("create-content-control").onclick = createContentControl;
@@ -108,7 +108,7 @@ In this exercise, you'll learn how to create rich text content controls in the d
     ```
 
 1. Within the `replaceContentInControl()` function, replace `TODO1` with the following code. Note:
-    - The `ContentControlCollection.getByTag` method returns a `ContentControlCollection` of all content controls of the specified tag. We use `getFirst` to get a reference to the desired control.
+    - The `ContentControlCollection.getByTag()` method returns a `ContentControlCollection` of all content controls of the specified tag. We use `getFirst` to get a reference to the desired control.
 
         ```javascript
         var serviceNameContentControl = context.document.contentControls.getByTag("serviceName").getFirst();
@@ -120,10 +120,10 @@ In this exercise, you'll learn how to create rich text content controls in the d
 ### Test the add-in
 
 1. Repeat the steps from the previous exercise to sideload the add-in.
-1. If the add-in task pane isn't already open, from the **Home** tab, choose **Show Task pane**.
-1. In the task pane, choose the **Insert Paragraph** button to ensure that there's a paragraph with "Office 365" at the top of the document.
-1. In the document, select the text "Office 365" and then choose the **Create Content Control** button. The phrase is wrapped in tags labeled "Service Name".
-1. Choose the **Rename Service** button and note that the text of the content control changes to "Fabrikam Online Productivity Suite".
+1. If the add-in task pane isn't already open, from the **Home** tab, select **Show Task pane**.
+1. In the task pane, select the **Insert Paragraph** button to ensure that there's a paragraph with "Office 365" at the top of the document.
+1. In the document, select the text "Office 365" and then select the **Create Content Control** button. The phrase is wrapped in tags labeled "Service Name".
+1. Select the **Rename Service** button and note that the text of the content control changes to "Fabrikam Online Productivity Suite".
 
 ![Word tutorial - Create Content Control and Change its Text](../media/07-word-tutorial-content-control-2.png)
 

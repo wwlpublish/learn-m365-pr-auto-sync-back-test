@@ -6,14 +6,14 @@ In this exercise, you'll add text inside and outside of selected ranges of text,
 ### Add text inside a range
 
 1. Open the file **./src/taskpane/taskpane.html**.
-1. Locate the `<button>` element for the `change-font` button, and add the following markup after that line:
+1. Locate the `<button>` element for the **change-font** button, and add the following markup after that line:
 
     ```html
     <button class="ms-Button" id="insert-text-into-range">Insert Abbreviation</button><br/><br/>
     ```
 
 1. Open the file **./src/taskpane/taskpane.js**.
-1. Within the `Office.onReady` method call, locate the following line in the `Office.onRead()` method:
+1. Within the `Office.onReady()` method call, locate the following line in the `Office.onRead()` method:
 
     ```javascript
     document.getElementById("change-font").onclick = changeFont;
@@ -84,8 +84,8 @@ It's necessary to first fetch the text value of the range from the document and 
 This fetching process has three steps:
 
 1. Queue a command to load (that is; fetch) the properties that your code needs to read.
-1. Call the context object's `sync` method to send the queued command to the document for execution and return the requested information.
-1. Because the `sync` method is asynchronous, ensure that it has completed before your code calls the properties that were fetched.
+1. Call the context object's `sync()` method to send the queued command to the document for execution and return the requested information.
+1. Because the `sync()` method is asynchronous, ensure that it has completed before your code calls the properties that were fetched.
 
 These steps must be completed whenever your code needs to *read* information from the Office document.
 
@@ -102,7 +102,7 @@ These steps must be completed whenever your code needs to *read* information fro
       //        been queued.
     ```
 
-1. You can't have two `return` statements in the same unbranching code path, so delete the final line `return context.sync();` at the end of the `Word.run`. You'll add a new final `context.sync` later.
+1. You can't have two `return` statements in the same unbranching code path, so delete the final line `return context.sync();` at the end of the `Word.run()`. You'll add a new final `context.sync()` later.
 1. Move the `doc.body.insertParagraph` line and paste in place of `TODO4`.
 1. Replace `TODO5` with the following code.
 
@@ -112,8 +112,8 @@ These steps must be completed whenever your code needs to *read* information fro
 
     > [!NOTE]
     >
-    > - Passing the `sync` method to a `then` function ensures that it doesn't run until the `insertParagraph` logic has been queued.
-    > - The `then` method invokes whatever function is passed to it, and you don't want `sync` to be invoked twice, so omit the "()" from the end of context.sync.
+    > - Passing the `sync()` method to a `then()` method ensures that it doesn't run until the `insertParagraph` logic has been queued.
+    > - The `then()` method invokes whatever function is passed to it, and you don't want `sync` to be invoked twice, so omit the "()" from the end of context.sync.
 
 When you're done, the completed `insertTextIntoRange()` function should look like the following:
 
@@ -143,14 +143,14 @@ function insertTextIntoRange() {
 ### Add text between ranges
 
 1. Open the file **./src/taskpane/taskpane.html**.
-1. Locate the `<button>` element for the `insert-text-into-range` button, and add the following markup after that line:
+1. Locate the `<button>` element for the **insert-text-into-range** button, and add the following markup after that line:
 
     ```html
     <button class="ms-Button" id="insert-text-outside-range">Add Version Info</button><br/><br/>
     ```
 
 1. Open the file **./src/taskpane/taskpane.js**.
-1. Within the `Office.onReady` method call, locate the following line in the `Office.onRead()` method:
+1. Within the `Office.onReady()` method call, locate the following line in the `Office.onRead()` method:
 
     ```javascript
     document.getElementById("insert-text-into-range").onclick = insertTextIntoRange;
@@ -193,8 +193,8 @@ function insertTextIntoRange() {
     > [!NOTE]
     >
     > - The method is intended to add a range whose text is "Office 2019, " before the range with text "Office 365". It makes a simplifying assumption that the string is present and the user has selected it.
-    > - The first parameter of the `Range.insertText` method is the string to add.
-    > - The second parameter specifies where in the range the additional text should be inserted. For more information about the location options, see the previous discussion of the `insertTextIntoRange` function.
+    > - The first parameter of the `Range.insertText()` method is the string to add.
+    > - The second parameter specifies where in the range the additional text should be inserted. For more information about the location options, see the previous discussion of the `insertTextIntoRange()` function.
 
 1. Within the `insertTextBeforeRange()` function, replace `TODO2` with the following code.
 
@@ -225,14 +225,14 @@ function insertTextIntoRange() {
 ### Replace the text of a range
 
 1. Open the file **./src/taskpane/taskpane.html**.
-1. Locate the `<button>` element for the `insert-text-outside-range` button, and add the following markup after that line:
+1. Locate the `<button>` element for the **insert-text-outside-range** button, and add the following markup after that line:
 
     ```html
     <button class="ms-Button" id="replace-text">Change Quantity Term</button><br/><br/>
     ```
 
 1. Open the file **./src/taskpane/taskpane.js**.
-1. Within the `Office.onReady` method call, locate the following line in the `Office.onRead()` method:
+1. Within the `Office.onReady()` method call, locate the following line in the `Office.onRead()` method:
 
     ```javascript
     document.getElementById("insert-text-outside-range").onclick = insertTextBeforeRange;
@@ -274,14 +274,14 @@ function insertTextIntoRange() {
 ### Test the add-in
 
 1. Repeat the steps from the previous exercise to sideload the add-in.
-1. If the add-in task pane isn't already open in Word, go to the **Home** tab and choose the **Show Task pane** button in the ribbon to open it.
-1. In the task pane, choose the **Insert Paragraph** button to ensure that there's a paragraph at the start of the document.
+1. If the add-in task pane isn't already open in Word, go to the **Home** tab and select the **Show Task pane** button in the ribbon to open it.
+1. In the task pane, select the **Insert Paragraph** button to ensure that there's a paragraph at the start of the document.
 1. Within the document, select the phrase "Click-to-Run". *Be careful not to include the preceding space or following comma in the selection.*
-1. Choose the **Insert Abbreviation** button. Note that " (C2R)" is added. Note also that at the bottom of the document a new paragraph is added with the entire expanded text because the new string was added to the existing range.
+1. Select the **Insert Abbreviation** button. Note that " (C2R)" is added. Note also that at the bottom of the document a new paragraph is added with the entire expanded text because the new string was added to the existing range.
 1. Within the document, select the phrase "Office 365". *Be careful not to include the preceding or following space in the selection.*
-1. Choose the **Add Version Info** button. Note that "Office 2019, " is inserted between "Office 2016" and "Office 365". Note also that at the bottom of the document a new paragraph is added but it contains only the originally selected text because the new string became a new range rather than being added to the original range.
+1. Select the **Add Version Info** button. Note that "Office 2019, " is inserted between "Office 2016" and "Office 365". Note also that at the bottom of the document a new paragraph is added but it contains only the originally selected text because the new string became a new range rather than being added to the original range.
 1. Within the document, select the word "several". *Be careful not to include the preceding or following space in the selection.*
-1. Choose the **Change Quantity Term** button. Note that "many" replaces the selected text.
+1. Select the **Change Quantity Term** button. Note that "many" replaces the selected text.
 
 ![Word tutorial - Text Added and Replaced](../media/05-word-tutorial-text-replace-2.png)
 
@@ -304,23 +304,23 @@ Complete the following steps to define the image that you'll insert into the doc
 ### Insert an image
 
 1. Open the file **./src/taskpane/taskpane.html**.
-1. Locate the `<button>` element for the `replace-text` button, and add the following markup after that line:
+1. Locate the `<button>` element for the **replace-text** button, and add the following markup after that line:
 
     ```html
     <button class="ms-Button" id="insert-image">Insert Image</button><br/><br/>
     ```
 
 1. Open the file **./src/taskpane/taskpane.js**.
-1. Locate the `Office.onReady` method call near the top of the file and add the following code immediately before that line. This code imports the variable that you defined previously in the file **base64Image.js**.
+1. Locate the `Office.onReady()` method call near the top of the file and add the following code immediately before that line. This code imports the variable that you defined previously in the file **base64Image.js**.
 
     ```javascript
     import { base64Image } from "./base64Image";
     ```
 
-1. Within the `Office.onReady` method call, locate the following line in the `Office.onRead()` method:
+1. Within the `Office.onReady()` method call, locate the following line in the `Office.onRead()` method:
 
     ```javascript
-    document.getElementById("insert-text-outside-range").onclick = insertTextBeforeRange;
+    document.getElementById("replace-text").onclick = replaceText;
     ```
 
     Add the following code immediately after it:
@@ -347,7 +347,7 @@ Complete the following steps to define the image that you'll insert into the doc
     }
     ```
 
-1. Within the `insertImage()` function, replace `TODO1` with the following code. This line inserts the base 64 encoded image at the end of the document. (The `Paragraph` object also has an `insertInlinePictureFromBase64` method and other `insert*` methods. See the following insertHTML section for an example.)
+1. Within the `insertImage()` function, replace `TODO1` with the following code. This line inserts the base 64 encoded image at the end of the document. (The `Paragraph` object also has an `insertInlinePictureFromBase64()` method and other `insert*` methods. See the following insertHTML section for an example.)
 
     ```javascript
     context.document.body.insertInlinePictureFromBase64(base64Image, "End");
@@ -356,14 +356,14 @@ Complete the following steps to define the image that you'll insert into the doc
 ### Insert HTML
 
 1. Open the file **./src/taskpane/taskpane.html**.
-1. Locate the `<button>` element for the `insert-image` button, and add the following markup after that line:
+1. Locate the `<button>` element for the **insert-image** button, and add the following markup after that line:
 
     ```html
     <button class="ms-Button" id="insert-html">Insert HTML</button><br/><br/>
     ```
 
 1. Open the file **./src/taskpane/taskpane.js**.
-1. Within the `Office.onReady` method call, locate the following line in the `Office.onRead()` method:
+1. Within the `Office.onReady()` method call, locate the following line in the `Office.onRead()` method:
 
     ```javascript
     document.getElementById("insert-image").onclick = insertImage;
@@ -402,19 +402,19 @@ Complete the following steps to define the image that you'll insert into the doc
     > [!NOTE]
     >
     > - The first line adds a blank paragraph to the end of the document.
-    > - The second line inserts a string of HTML at the end of the paragraph; specifically two paragraphs, one formatted with Verdana font, the other with the default styling of the Word document. (As you saw in the `insertImage` method earlier, the `context.document.body` object also has the `insert*` methods.)
+    > - The second line inserts a string of HTML at the end of the paragraph; specifically two paragraphs, one formatted with Verdana font, the other with the default styling of the Word document. (As you saw in the `insertImage()` method earlier, the `context.document.body` object also has the `insert*` methods.)
 
 ### Insert a table
 
 1. Open the file **./src/taskpane/taskpane.html**.
-1. Locate the `<button>` element for the `insert-html` button, and add the following markup after that line:
+1. Locate the `<button>` element for the **insert-html** button, and add the following markup after that line:
 
     ```html
     <button class="ms-Button" id="insert-table">Insert Table</button><br/><br/>
     ```
 
 1. Open the file **./src/taskpane/taskpane.js**.
-1. Within the `Office.onReady` method call, locate the following line in the `Office.onRead()` method:
+1. Within the `Office.onReady()` method call, locate the following line in the `Office.onRead()` method:
 
     ```javascript
     document.getElementById("insert-html").onclick = insertHTML;
@@ -447,7 +447,7 @@ Complete the following steps to define the image that you'll insert into the doc
     }
     ```
 
-1. Within the `insertTable()` function, replace `TODO1` with the following code. This line uses the `ParagraphCollection.getFirst` method to get a reference ot the first paragraph and then uses the `Paragraph.getNext` method to get a reference to the second paragraph.
+1. Within the `insertTable()` function, replace `TODO1` with the following code. This line uses the `ParagraphCollection.getFirst()` method to get a reference ot the first paragraph and then uses the `Paragraph.getNext()` method to get a reference to the second paragraph.
 
     ```javascript
     var secondParagraph = context.document.body.paragraphs.getFirst().getNext();
@@ -466,21 +466,21 @@ Complete the following steps to define the image that you'll insert into the doc
 
     > [!NOTE]
     >
-    > - The first two parameters of the `insertTable` method specify the number of rows and columns.
+    > - The first two parameters of the `insertTable()` method specify the number of rows and columns.
     > - The third parameter specifies where to insert the table, in this case after the paragraph.
     > - The fourth parameter is a two-dimensional array that sets the values of the table cells.
-    > - The table will have plain default styling, but the `insertTable` method returns a `Table` object with many members, some of which are used to style the table.
+    > - The table will have plain default styling, but the `insertTable()` method returns a `Table` object with many members, some of which are used to style the table.
 
 1. Verify that you've saved all of the changes you've made to the project.
 
 ### Test the add-in
 
 1. Repeat the steps from the previous exercise to sideload the add-in.
-1. If the add-in task pane isn't already open in Word, go to the **Home** tab and choose the **Show Task pane** button in the ribbon to open it.
-1. In the task pane, choose the **Insert Paragraph** button at least three times to ensure that there are a few paragraphs in the document.
-1. Choose the **Insert Image** button and note that an image is inserted at the end of the document.
-1. Choose the **Insert HTML** button and note that two paragraphs are inserted at the end of the document, and that the first one has Verdana font.
-1. Choose the **Insert Table** button and note that a table is inserted after the second paragraph.
+1. If the add-in task pane isn't already open in Word, go to the **Home** tab and select the **Show Task pane** button in the ribbon to open it.
+1. In the task pane, select the **Insert Paragraph** button at least three times to ensure that there are a few paragraphs in the document.
+1. Select the **Insert Image** button and note that an image is inserted at the end of the document.
+1. Select the **Insert HTML** button and note that two paragraphs are inserted at the end of the document, and that the first one has Verdana font.
+1. Select the **Insert Table** button and note that a table is inserted after the second paragraph.
 
 ![Word tutorial - Insert Image, HTML, and Table](../media/05-word-tutorial-insert-image-html-table-2.png)
 

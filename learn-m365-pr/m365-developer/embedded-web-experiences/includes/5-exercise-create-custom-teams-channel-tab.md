@@ -9,14 +9,16 @@ The Yeoman generator for Microsoft Teams can be used to add new components to an
 
 Execute the following command in the console from the root folder of the project:
 
-```shell
+```console
 yo teams
 ```
+
+> [!NOTE]
+> If you see an error stating that the project has a non supported-schema, change the `$schema` and `manifestVersion` properties in the manifest.json file to a supported version. Supported versions are listed in the [generator's GitHub Wiki](https://github.com/pnp/generator-teams/wiki/Manifest-Versions).
 
 Yeoman starts and asks you a series of questions. Answer the questions with the following values:
 
 - **You are running the generator on an already existing project... are you sure you want to continue?**: Yes
-- **Do you want to change the current manifest version (1.5)?**: No
 - **What features do you want to add to your project?**: A Tab
 - **Default tab name (max 16 characters)**: ConfigMathTab
 - **Do you want to create a configurable or static tab?**: Configurable
@@ -27,13 +29,34 @@ Yeoman starts and asks you a series of questions. Answer the questions with the 
 
 After you answer the generator's questions, the generator adds the additional files for a new component. Then it runs `npm install` to ensure that any new dependencies are downloaded for the project.
 
+### Ensure the project is using the latest version of Teams manifest & SDK
+
+Run the npm command to install the latest version of the SDK
+
+```console
+npm i @microsoft/teams-js
+```
+
+Locate and open the `manifest.json` file in the `manifest`  folder of the project.
+- Change the `$schema` property to **https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json**
+- Change the `manifestVersion` property to **1.7**.
+
+Open the `gulp.config.js` file in the root folder of the project. Add the following to the **SCHEMAS** property.
+
+```json
+{
+  version: "1.7",
+  schema: "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json"
+}
+```
+
 ## Test the channel tab
 
 Before you customize the tab, let's test the tab to see the experience for testing.
 
 From the command line, go to the root folder for the project and run the following command:
 
-```shell
+```console
 gulp ngrok-serve
 ```
 
@@ -76,7 +99,7 @@ Update the `import` statements in this file to include the components used in th
 1. Find the following `import` statement that imports the Fluent UI - React library:
 
     ```typescript
-    import { Provider, Flex, Header, Input} from "@fluentui/react";
+    import { Provider, Flex, Header, Input} from "@fluentui/react-northstar";
     ```
 
 1. Replace the previous statement with the following import statement:
@@ -91,7 +114,7 @@ Update the `import` statements in this file to include the components used in th
       themes,
       DropdownProps,
       Dropdown
-    } from "@fluentui/react";
+    } from "@fluentui/react-northstar";
     ```
 
 Locate the `IConfigMathTabConfigState` interface, and replace its contents with the following two members:
@@ -135,7 +158,7 @@ Locate the line `this.updateTheme(this.getQueryVariable("theme"));` and replace 
 ```typescript
 this.updateComponentTheme(this.getQueryVariable("theme"));
 ```
-    
+
 ### Implement the configuration page logic
 
 The configuration page displays a drop-down list of four math operators to select from. After an operator is selected, it's saved to the tab's `entityId` property with the string **MathPage** appended to it. This value is used by the tab page to determine what operation to perform in the tab.
@@ -224,7 +247,7 @@ Locate and open the file **./src/app/scripts/configMathTab/ConfigMathTab.tsx**.
 Update the `import` statements in this file to include the components used in the configuration tab. Find the following `import` statement that imports the Fluent UI - React library:
 
 ```typescript
-import { Provider, Flex, Text, Button, Header } from "@fluentui/react";
+import { Provider, Flex, Text, Button, Header } from "@fluentui/react-northstar";
 ```
 
 Replace the previous statement with the following import statement:
@@ -239,7 +262,7 @@ import {
   ThemePrepared,
   themes,
   Input
-} from "@fluentui/react";
+} from "@fluentui/react-northstar";
 ```
 
 Locate the `IConfigMathTabState` interface, and replace its contents with the following:

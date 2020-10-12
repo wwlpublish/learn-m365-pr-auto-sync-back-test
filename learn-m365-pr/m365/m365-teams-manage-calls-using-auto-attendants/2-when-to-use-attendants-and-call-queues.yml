@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.manage-calls-using-auto-attendants.2-when-to-use-attendants-and-call-queues
+title: Choose when to use auto attendants and call queues
+metadata:
+  title: Choose when to use auto attendants and call queues
+  description: Learn how Microsoft Teams can implement the required attendants and queues for your business.
+  ms.date: 09/07/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-when-to-use-attendants-and-call-queues.md)]
