@@ -114,7 +114,7 @@ Add a registry key to each VM registered to the host pool.  You'll need the stor
 1. Run the following commands where you replace placeholder values with the SMB file share path, the storage account access key, and the user's Azure AD User Principal Name (UPN). The UPN would look something like kaicarter@contoso.onmicrosoft.com.
 
    ```cmd
-   net use Z: [SMB path used in VHDLocations in the registry] [storage access key]
+   net use Z: [SMB path used in VHDLocations in the registry] /u:Azure\[storage account name] [storage access key] 
 
    Icacls Z: /grant [user UPN]:(f)
    ```
