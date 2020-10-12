@@ -8,18 +8,15 @@ To set up the Teams insights dashboard:
 2. Download the Teams insights Power BI template and load the query output.
 3. Select your settings in the Teams insights dashboard.
 
-Once the data is loaded, the dashboard reports generate automatically. This results in multiple pages of Workplace Analytics reports that give a broad, diagnostic view of Teams adoption.
+After the data is loaded, the dashboard reports generate automatically. This results in multiple pages of Workplace Analytics reports that give a broad, diagnostic view of Teams adoption.
 
-## Run the Teams insights and Influence insights queries
+**1. Run the Teams insights and Influence insights queries**. The Teams insights dashboard reports require output from two Workplace Analytics queries. On the Queries page, under **Start from preselected filters and metrics**, begin by running the Teams insights and Influence insights queries.
 
-The Teams insights dashboard reports require output from two Workplace Analytics queries. On the Queries page, under **Start from preselected filters and metrics**, begin by running the Teams insights and Influence insights queries.
-
-In the upper right corner of the query, you'll notice a Power BI icon. This icon means there's a download option for a Power BI template that you can use to generate the reports in the dashboard.
+In the upper right corner of the query card, you'll notice a Power BI icon. This icon means there's a download option for a Power BI template that you can use to generate the reports in the dashboard.
 
 ![Power BI icon on the query panes](../media/query-panes.png)
 
 > [!IMPORTANT]
-> 
 > Be sure to download and install the most recent version of Power BI to avoid issues setting up and loading data into the dashboard.
 > 
 
@@ -34,9 +31,7 @@ Some things to keep in mind when running the queries to populate the Teams insig
 - In the Teams insights query, under **Select Organizational attributes**, you can leave the default attributes, or add any other attributes. Be sure to select the attribute that identifies people managers in your organization. If you cannot find a manager indicator field in the dropdown menu, contact your Workplace Analytics Admin to confirm it was included in the data. 
 - In the Influence insights query, under **Select Organizational attributes**, leave the default attributes selected. Don't delete them as they're needed to populate meeting-related charts and graphs in the report pages.
 
-## Download the Teams Insights Power BI template and load the query output
-
-Once the queries have finished running, you can access the template and data via OData URL by clicking the **Results** tab on the Queries page. 
+**2. Download the Teams Insights Power BI template and load the query output**. Once the queries have finished running, you can access the template and data via OData URL by clicking the **Results** tab on the Queries page. 
 
 ![Load the query output into the downloaded template](../media/load-data-template.png)
 
@@ -52,9 +47,7 @@ To load the data into the Teams insights Power BI (PBI) template:
 
 The dashboard visualizations on each page of the report will populate with Workplace Analytics data, starting with the Settings page. 
 
-## Select your settings in the Teams insights dashboard
-
-After you've loaded the data to generate the report, you can adjust some settings on the Settings page.
+**3. Select your settings in the Teams insights dashboard**. After you've loaded the data to generate the report, you can adjust some settings on the Settings page.
 
 - Select the time period for your report. 
 - Select an organizational attribute to view the report by.
