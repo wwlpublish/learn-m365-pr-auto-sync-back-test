@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.workplace-analytics-collaboration-assessment.setup-dashboard
-title: Prepare the Collaboration assessment dashboard
+uid: learn-m365.workplace-analytics-ways-working.introduction
+title: Introduction
 metadata:
-  title:  Prepare the Collaboration assessment dashboard
+  title:  Introduction
   description: Learn to evaluate collaboration culture and employee experience with a Power BI template using Workplace Analytics data.
   ms.date: 10/10/2020
   author: AlexandraHrt
@@ -10,6 +10,6 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 
-durationInMinutes: 8
+durationInMinutes: 5
 content: |
-  [!include[](includes/setup-dashboard.md)]
+  [!include[](includes/introduction.md)]

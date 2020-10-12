@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.workplace-analytics-collaboration-assessment.knowledge-check
+uid: learn-m365.workplace-analytics-ways-working.knowledge-check
 title: Knowledge check
 metadata:
   title: Knowledge check
@@ -13,7 +13,7 @@ durationInMinutes: 5
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Which of the following themes is **NOT** covered by the Collaboration assessment dashboard?"
+    - content: "Which of the following themes is **NOT** covered by the Ways of Working assessment dashboard?"
       choices:
       - content: "Employee experience"
         isCorrect: false
@@ -25,19 +25,19 @@ quiz:
         isCorrect: false
         explanation: "Incorrect. This is one of the main themes covered in this dashboard."
 
-    - content: "Which of the following queries are needed to populate the Collaboration assessment dashboard?"
+    - content: "Which of the following queries are needed to populate the Ways of Working assessment dashboard?"
       choices:
       - content: "Collaboration overload and Standard meeting query"
         isCorrect: false
-        explanation: "Incorrect. The Collaboration assessment and Standard meeting queries are required to populate the dashboard."
-      - content: ": Standard meeting query and Collaboration tracker"
+        explanation: "Incorrect. The Ways of Working assessment and Standard meeting queries are required to populate the dashboard."
+      - content: "Standard meeting query and Ways of Working tracker"
         isCorrect: false
-        explanation: "Incorrect. The Collaboration assessment and Standard meeting queries are required to populate the dashboard."
-      - content: "Collaboration assessment and Standard meeting query"
+        explanation: "Incorrect. The Ways of Working assessment and Standard meeting queries are required to populate the dashboard."
+      - content: "Ways of Working assessment and Standard meeting query"
         isCorrect: true
-        explanation: ": Correct. The Collaboration assessment and Standard meeting queries are required to populate the dashboard."
+        explanation: "Correct. The Ways of Working assessment and Standard meeting queries are required to populate the dashboard."
       
-    - content: "What does the Collaboration assessment consider a *bloated* meeting?"
+    - content: "What does the Ways of Working assessment consider a *bloated* meeting?"
       choices:
       - content: "2-18 attendees, 1-2 hours long"
         isCorrect: false

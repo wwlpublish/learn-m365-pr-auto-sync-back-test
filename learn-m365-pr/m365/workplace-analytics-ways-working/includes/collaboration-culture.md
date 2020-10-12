@@ -1,4 +1,4 @@
-The Collaboration assessment Power BI template provides a quick and easy way to conduct a broad diagnostic on two themes: *Collaboration culture* and *Employee experience*. 
+The Ways of Working assessment Power BI template provides a quick and easy way to conduct a broad diagnostic on two themes: *Collaboration culture* and *Employee experience*. 
 
 ## So how does it work?
  
@@ -14,7 +14,7 @@ Each report page provides views into one of the themes laid out on the introduct
 
 ## The Introduction page
 
-The Introduction page of the report helps create the context around what questions the Collaboration Assessment will address, and why it matters. 
+The Introduction page of the report helps create the context around what questions the Ways of Working Assessment will address, and why it matters. 
 
 ![The Introduction page](../media/introduction-page.png)
 
@@ -148,7 +148,7 @@ The *Manager relationship* report helps answer questions about the managerial pr
 
 ## Report: Glossary
 
-A *Glossary* is also included in the dashboard, providing a reference for the metrics and terminology used across the Collaboration assessment.
+A *Glossary* is also included in the dashboard, providing a reference for the metrics and terminology used across the Ways of Working assessment.
 
 ![The Glossary report](../media/glossary.png)
 
