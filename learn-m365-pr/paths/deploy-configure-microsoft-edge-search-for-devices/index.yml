@@ -3,7 +3,7 @@ uid: learn.wwl.deploy-configure-microsoft-edge-search-for-devices
 metadata:
   title: Deploy and configure Microsoft Edge and Microsoft Search for all your devices
   description: Discover how to deploy and configure Microsoft Edge for all devices, in addition to how to use, enable, and configure Microsoft Search on your browser.
-  ms.date: 08/16/2020
+  ms.date: 09/18/2020
   author: wwlpublish
   ms.author: ceperezb
   ms.topic: interactive-tutorial
@@ -23,6 +23,8 @@ products:
 - office-365
 modules:
 - learn.wwl.explore-deployment-options-microsoft-edge
+- learn.wwl.protect-against-malicious-attacks-unauthorized-access-with-microsoft-edge
+- learn.wwl.ensure-app-website-compatibility-with-microsoft-edge
 - learn.wwl.explore-microsoft-search-user-experience
 trophy:
   uid: learn.wwl.deploy-configure-microsoft-edge-search-for-devices.trophy

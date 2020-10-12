@@ -1,4 +1,7 @@
-﻿Intune lets you manage your workforce’s devices and apps and how they access your company data. To use this Mobile Device Management (MDM) system, the devices must first be enrolled in the Intune service. Several methods exist to enroll your workforce’s devices. Each method depends on the device's ownership (personal or corporate), device type (iOS, Windows, Android), and management requirements (resets, affinity, locking).
+﻿>[!IMPORTANT]
+>Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813). We'll be updating names in products and in the Learn content in the near future.
+
+Intune lets you manage your workforce’s devices and apps and how they access your company data. To use this Mobile Device Management (MDM) system, the devices must first be enrolled in the Intune service. Several methods exist to enroll your workforce’s devices. Each method depends on the device's ownership (personal or corporate), device type (iOS, Windows, Android), and management requirements (resets, affinity, locking).
 
 By default, devices for all platforms can enroll in Intune. However, you can restrict devices by platform.
 

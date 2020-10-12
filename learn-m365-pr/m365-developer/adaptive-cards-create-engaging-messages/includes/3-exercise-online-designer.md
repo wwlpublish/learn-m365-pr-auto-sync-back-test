@@ -2,7 +2,7 @@ In this exercise, you'll learn how to create and test Adaptive Cards with the on
 
 ## Explore the Adaptive Card online designer
 
-The Adaptive Card site is your one-stop source for all resources related to Adaptive Cards, including documentation, samples, and blog posts. The site also hosts a visual designer developers can use to create and test Adaptive Cards.
+The Adaptive Card site is your one-stop source for all resources related to Adaptive Cards, including documentation, samples, and blog posts. The site also hosts a visual designer that developers can use to create and test Adaptive Cards.
 
 Launch the designer by navigating to the following page in a browser: [https://adaptivecards.io/designer](https://adaptivecards.io/designer).
 
@@ -29,7 +29,7 @@ Select the **New card** button in the top navigation. Select one of the availabl
 
 Repeat the process to select the sample card **Activity update**. Let's make some changes to this card and see how it impacts both the source and rendering of the card.
 
-In the **Card Structure** panel, select the **TextBlock** control with the person's name listed in the panel. In the **Card Payload Editor** panel, scroll down to the JSON that represents this control. It should be on or around lines 31-36. Notice the contents of the control are displayed in the **Text** property in the **Element Properties** panel:
+In the **Card Structure** panel, select the **TextBlock** control with the person's name listed in the panel. In the **Card Payload Editor** panel, scroll down to the JSON that represents this control. It should be on or around lines 27-33. Notice the contents of the control are displayed in the **Text** property in the **Element Properties** panel:
 
 ![Screenshot of the activity update card](../media/03-activity-update-card-01.png)
 

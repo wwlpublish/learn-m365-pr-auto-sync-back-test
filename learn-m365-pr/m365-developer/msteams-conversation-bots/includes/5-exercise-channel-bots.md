@@ -81,7 +81,7 @@ Save your changes, update, and test the installed app.
 
 From the command line, navigate to the root folder for the project and execute the following command:
 
-```shell
+```console
 gulp ngrok-serve
 ```
 
@@ -92,11 +92,24 @@ First, update the existing installed version of the bot.
 
 In the browser, navigate to **https://teams.microsoft.com** and sign in with the credentials of a Work and School account.
 
-Using the app bar navigation menu, select the **Mode added apps** button. Then select **Browse all apps**, select the menu in the top-right corner of the **Conversation bot** and select **Update**.
+Using the app bar navigation menu, select the **More added apps** button. Then right-click on the **Conversational Bot** application. Select **Uninstall**. Select **Uninstall** again to confirm.
 
 ![Screenshot of updating an installed Microsoft Teams app](../media/05-test-01.png)
 
-When prompted, select the updated package of the Microsoft Teams app. Microsoft Teams will update the app to the new version.
+Using the app bar navigation menu, select the **More added apps** button. Then select **Browse all apps** followed by **Upload for me or my teams**.
+
+![Screenshot of More added apps dialog in Microsoft Teams](../media/03-test-02.png)
+
+In the file dialog that appears, select the Microsoft Teams package in your project. This app package is a ZIP file that can be found in the project's **./package** folder.
+
+After the package is uploaded, Microsoft Teams displays a summary of the app. Select the arrow next to the **Add** button, and select **Add to a team** to install the app:
+
+![Screenshot adding a channel tab](../media/05-channel-tab-01.png)
+
+In the **Select a channel to start using** dialog box, select an existing team. Then select **Set up a tab**:
+
+![Screenshot selecting a team to add the channel tab to](../media/05-channel-tab-02.png)
+
 
 Navigate to an existing channel in a team.
 
@@ -346,7 +359,7 @@ this.onMessage(async (context: TurnContext): Promise<void> => {
 
 From the command line, navigate to the root folder for the project and execute the following command:
 
-```shell
+```console
 gulp ngrok-serve
 ```
 
@@ -393,7 +406,7 @@ This code will execute when a user adds a reaction to a message from the bot. If
 
 From the command line, navigate to the root folder for the project and execute the following command:
 
-```shell
+```console
 gulp ngrok-serve
 ```
 

@@ -1,0 +1,36 @@
+### YamlMime:Module
+uid: learn-m365.teams.enterprise-compliance
+metadata:
+  title: Configure enterprise-grade compliance in Microsoft Teams
+  description: Learn how to configure enterprise-grade compliance for Microsoft Teams.
+  ms.date: 09/09/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+title: Configure enterprise-grade compliance in Microsoft Teams
+summary: Learn how to configure enterprise-grade compliance for Microsoft Teams.
+abstract: |
+  At the end of this module, you should be able to:
+  - Describe how to configure data retention and data loss prevention policies.
+  - Explain when to use information barrier policies, and how to configure them.
+  - Describe how to configure communication compliance policies.
+  - Demonstrate how to create eDiscovery cases, search for content, and export search results.
+prerequisites: None 
+iconUrl: /learn/achievements/configure-enterprise-grade-compliance-in-microsoft-teams.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- office-teams
+units:
+- learn-m365.teams.enterprise-compliance.1-introduction
+- learn-m365.teams.enterprise-compliance.2-configure-retention-policies
+- learn-m365.teams.enterprise-compliance.3-configure-information-barrier-policies
+- learn-m365.teams.enterprise-compliance.4-configure-communication-compliance
+- learn-m365.teams.enterprise-compliance.5-use-ediscovery
+- learn-m365.teams.enterprise-compliance.6-knowledge-check
+- learn-m365.teams.enterprise-compliance.7-summary
+badge:
+  uid: learn-m365.teams.enterprise-compliance.badge

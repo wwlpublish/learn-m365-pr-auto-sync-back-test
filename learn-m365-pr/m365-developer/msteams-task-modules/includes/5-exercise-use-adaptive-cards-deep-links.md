@@ -149,7 +149,7 @@ Increment the `version` property in the app's **./manifest/manifest.json** file 
 
 From the command line, navigate to the root folder for the project and execute the following command:
 
-```shell
+```console
 gulp ngrok-serve
 ```
 

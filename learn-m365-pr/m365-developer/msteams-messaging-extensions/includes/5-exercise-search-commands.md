@@ -13,7 +13,7 @@ In this section, you'll add a search messaging extension to find a specific plan
 
 First, update app's manifest to add the new messaging extension. Locate and open the **./src/manifest/manifest.json** file.
 
-You must increment the version of the app to upgrade an existing installed version. Locate the property `version` and increment the version to something greater than the default value `0.0.1`.
+You must increment the version of the app to upgrade an existing installed version. Locate the property `version` and increment the version to `1.0.1`.
 
 Next, locate the `composeExtensions.commands` array. Add the following object to the array to add the search extension:
 
@@ -80,18 +80,18 @@ protected handleTeamsMessagingExtensionQuery(context: TurnContext, query: Messag
   }
 
   // get the results as cards
-  let searchResultsCards: MessagingExtensionAttachment[] = [];
+  const searchResultsCards: MessagingExtensionAttachment[] = [];
   queryResults.forEach((planet) => {
     searchResultsCards.push(this.getPlanetResultCard(planet));
   });
 
-  let response: MessagingExtensionResponse = <MessagingExtensionResponse>{
+  const response: MessagingExtensionResponse = {
     composeExtension: {
       type: "result",
       attachmentLayout: "list",
       attachments: searchResultsCards
     }
-  };
+  } as MessagingExtensionResponse;
 
   return Promise.resolve(response);
 }
@@ -117,7 +117,7 @@ private getPlanetResultCard(selectedPlanet: any): MessagingExtensionAttachment {
 
 From the command line, navigate to the root folder for the project and execute the following command:
 
-```shell
+```console
 gulp ngrok-serve
 ```
 
@@ -128,7 +128,7 @@ First, update the existing installed version of the bot.
 
 In the browser, navigate to **https://teams.microsoft.com** and sign in with the credentials of a Work and School account.
 
-Using the app bar navigation menu, select the **Mode added apps** button. Then select **Browse all apps**, select the menu in the top-right corner of the **Planet Messaging** and select **Update**.
+Using the app bar navigation menu, select the **More added apps** button. Then select **Browse all apps**, select the menu in the top-right corner of the **Planet Messaging** and select **Update**.
 
 ![Screenshot of updating an installed Microsoft Teams app](../media/05-test-01.png)
 

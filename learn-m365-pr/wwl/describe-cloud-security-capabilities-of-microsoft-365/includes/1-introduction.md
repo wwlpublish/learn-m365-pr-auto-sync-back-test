@@ -4,4 +4,4 @@ In this module, you will:
 
 - Explore the Cloud App Security Framework.
 - Discover the capabilities of Microsoft Cloud Application Security (MCAS).
-- Explore how Microsoft Cloud App Security integrates with Microsoft Security and Threat protection capabilities.
+- Explore how Microsoft Cloud App Security integrates with Microsoft security and threat protection capabilities.

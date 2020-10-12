@@ -130,7 +130,7 @@ You can inspect the bearer token and use the **Microsoft.O365.ActionableMessages
 - The token hasn't expired.
 - The audience claim matches the service domain URL.
 
-```cs
+```csharp
 var validator = new ActionableMessageTokenValidator();
 var result = await validator.ValidateTokenAsync(
                         Request.Headers.Authorization.Parameter,
@@ -146,7 +146,7 @@ The email address of the email sender that included the Actionable Message can b
 
 If you're using the `ActionMessageTokenValidator()` class from the **Microsoft.O365.ActionableMessage.Utilities** NuGet package, these will be exposed in the result as the `Sender` and `ActionPerformer` properties:
 
-```cs
+```csharp
 public async Task<HttpResponseMessage> Post([FromBody]string value)
 {
   //Validate token
@@ -174,7 +174,7 @@ When your API receives an HTTP POST request from the action performer, it respon
 
 The success or failure status is indicated by returning an HTTP 200 (success) or HTTP 400-499 (failure) status code. You can include an additional message to the user by including it in the `CARD-ACTION-STATUS` HTTP response header.
 
-```cs
+```csharp
 private HttpResponseMessage CreateCardResponse(HttpStatusCode code, string cardStatus)
 {
   if(code == HttpStatusCode.OK) {
@@ -201,7 +201,7 @@ To refresh a card, your API must do two things:
 
 When Office 365 receives the new card in the response from the HTTP POST action, it will update the email to use the new card.
 
-```cs
+```csharp
 bool approved = ExpenseModel.IsApproved(value);
 if (approved)
 {

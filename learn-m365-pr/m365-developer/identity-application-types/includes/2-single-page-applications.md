@@ -93,7 +93,7 @@ There are two methods on the MSAL.js API that you can use for this task:
       });
     ```
 
-- `acquireTokenPopup()`: if the `acquireTokenSilent()` fails and/or an interactive sign-in is required, you can use this method. It will combine the request to sign-in and obtain an access token in one step:
+- `acquireTokenPopup()`: if the `acquireTokenSilent()` fails and/or an interactive sign-in is required, you can use this method. It will combine the request to sign in and obtain an access token in one step:
 
     ```javascript
     var accessTokenRequest = { scopes: ["user.read", "mail.read"] };

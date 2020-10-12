@@ -68,7 +68,7 @@ This report compares groups in four categories of Teams activity:
 - One-on-one instant messages
 - Group instant messages
 - Teams meetings
-- Ad-hoc calls 
+- Ad hoc calls 
 
 Activity for each group is ranked and categorized by its usage level (Top 33%, Middle 33%, and Bottom 33%). 
 

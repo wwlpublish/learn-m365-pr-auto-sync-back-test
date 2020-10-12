@@ -50,8 +50,8 @@ Create a new folder **web** in the current folder and add a new file **index.htm
 <html>
 <head>
   <title>Getting Started with Microsoft identity</title>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.5.5/bluebird.min.js"></script>
-  <script src="https://alcdn.msftauth.net/lib/1.1.3/js/msal.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.7.2/bluebird.min.js"></script>
+  <script src="https://alcdn.msauth.net/browser/2.1.0/js/msal-browser.js"></script>
 </head>
 
 <body>
@@ -65,6 +65,13 @@ Create a new folder **web** in the current folder and add a new file **index.htm
     </div>
   </div>
   <script>
+    var ua = window.navigator.userAgent;
+    var msie = ua.indexOf('MSIE ');
+    var msie11 = ua.indexOf('Trident/');
+    var msedge = ua.indexOf('Edge/');
+    var isIE = msie > 0 || msie11 > 0;
+    var isEdge = msedge > 0;
+
     var msalConfig = {
       auth: {
         clientId: '',
@@ -73,7 +80,7 @@ Create a new folder **web** in the current folder and add a new file **index.htm
       },
       cache: {
         cacheLocation: "localStorage",
-        storeAuthStateInCookie: true
+        storeAuthStateInCookie: isIE || isEdge
       }
     };
 
@@ -84,11 +91,9 @@ Create a new folder **web** in the current folder and add a new file **index.htm
       }
     };
 
-    var msalApplication = new Msal.UserAgentApplication(msalConfig);
-
-    // init the auth handling on the page
-    initPage();
-
+    var msalApplication = new msal.PublicClientApplication(msalConfig);
+    var userName = "";
+    var loginType = isIE ? "REDIRECT" : "POPUP";
 
 
     // TODO: add CODE before this line
@@ -96,47 +101,6 @@ Create a new folder **web** in the current folder and add a new file **index.htm
 
 
     // TODO: add FUNCTIONS before this line
-
-
-    function initPage() {
-      // Browser check variables
-      var ua = window.navigator.userAgent;
-      var msie = ua.indexOf('MSIE ');
-      var msie11 = ua.indexOf('Trident/');
-      var msedge = ua.indexOf('Edge/');
-      var isIE = msie > 0 || msie11 > 0;
-      var isEdge = msedge > 0;
-
-      // if you support IE, recommendation: sign in using Redirect APIs vs. popup
-      // Browser check variables
-      // can change this to default an experience outside browser use
-      var loginType = isIE ? "REDIRECT" : "POPUP";
-
-      // runs on page load, change config to try different login types to see what is best for your application
-      switch (isIE) {
-        case true:
-          document.getElementById("SignIn").onclick = function () {
-            msalApplication.loginRedirect(graphConfig.requestObj);
-          };
-
-          // avoid duplicate code execution on page load in case of iframe and popup window
-          if (msalApplication.getAccount() && !msalApplication.isCallback(window.location.hash)) {
-            updateUserInterface();
-            acquireTokenRedirectAndGetUser();
-          }
-          break;
-        case false:
-          // avoid duplicate code execution on page load in case of iframe and popup window
-          if (msalApplication.getAccount()) {
-            updateUserInterface();
-            acquireTokenPopupAndGetUser();
-          }
-          break;
-        default:
-          console.error('Please set a valid login type');
-          break;
-      }
-    }
   </script>
 </body>
 </html>
@@ -150,7 +114,7 @@ Add the following function to the **index.html** file immediately before the `//
 ```js
 function updateUserInterface() {
   var divWelcome = document.getElementById('WelcomeMessage');
-  divWelcome.innerHTML = `Welcome <strong>${msalApplication.getAccount().userName}</strong> to Microsoft Graph API`;
+  divWelcome.innerHTML = 'Welcome <strong>' + userName + '</strong> to Microsoft Graph API';
 
   var loginbutton = document.getElementById('SignIn');
   loginbutton.innerHTML = 'Sign Out';
@@ -158,78 +122,58 @@ function updateUserInterface() {
 }
 ```
 
-Next, add the following functions to **index.html** immediately before the `// TODO: add FUNCTIONS before this line` comment. These functions request an access token from Microsoft identity and submit a request to Microsoft Graph for the current user's information. The function `acquireTokenPopupAndGetUser()` uses the popup approach that works for all modern browsers while the `acquireTokenRedirectAndGetUserFromMSGraph()` function uses the redirect approach that is suitable for Internet Explorer:
+Next, add the following function to **index.html** immediately before the `// TODO: add FUNCTIONS before this line` comment. This function requests an access token from Microsoft identity and submits a request to Microsoft Graph for the current user's information. The function uses the popup approach for modern browsers and it uses the redirect approach for Internet Explorer:
 
 ```js
-function acquireTokenPopupAndGetUser() {
-  msalApplication.acquireTokenSilent(graphConfig.requestObj)
+function acquireTokenAndGetUser() {
+  var request = graphConfig.requestObj;
+  request.account = msalApplication.getAccountByUsername(userName);
+
+  msalApplication.acquireTokenSilent(request)
     .then(function (tokenResponse) {
-      getUserFromMSGraph(graphConfig.graphMeEndpoint, tokenResponse.accessToken, graphAPICallback);
-    }).catch(function (error) {
-      console.log(error);
-      if (requiresInteraction(error.errorCode)) {
-        msalApplication.acquireTokenPopup(graphConfig.requestObj).then(function (tokenResponse) {
-          getUserFromMSGraph(graphConfig.graphMeEndpoint, tokenResponse.accessToken, graphAPICallback);
-        }).catch(function (error) {
-          console.log(error);
-        });
+      getUserFromMSGraph(tokenResponse.accessToken, graphAPICallback);
+    })
+    .catch(function (error) {
+      console.log("silent token acquisition fails.");
+      if (error instanceof msal.InteractionRequiredAuthError) {
+        if (loginType == "POPUP") {
+          msalApplication.acquireTokenPopup(request)
+            .then(function (tokenResponse) {
+              getUserFromMSGraph(tokenResponse.accessToken, graphAPICallback);
+            })
+            .catch(function (error) { console.error(error); }
+            );
+        } else {
+          msalApplication.acquireTokenRedirect(request);
+        }
+      } else {
+        console.error(error);
       }
     });
 }
-
-function acquireTokenRedirectAndGetUser() {
-  msalApplication.acquireTokenSilent(graphConfig.requestObj).then(function (tokenResponse) {
-    getUserFromMSGraph(graphConfig.graphMeEndpoint, tokenResponse.accessToken, graphAPICallback);
-  }).catch(function (error) {
-    console.log(error);
-    if (requiresInteraction(error.errorCode)) {
-      msalApplication.acquireTokenRedirect(graphConfig.requestObj);
-    }
-  });
-}
-
-function requiresInteraction(errorCode) {
-  if (!errorCode || !errorCode.length) {
-    return false;
-  }
-  return errorCode === "consent_required" ||
-          errorCode === "interaction_required" ||
-          errorCode === "login_required";
-}
 ```
 
-These functions first attempt to retrieve the access token silently from the currently signed in user. If the user needs to sign in, the functions will trigger either the popup or redirect authentication process.
+The function first attempts to retrieve the access token silently from the currently signed in user. If the user needs to sign in, the function will trigger either the popup or redirect authentication process.
 
 The redirect approach to authenticating requires an extra step. The MSAL application on the page needs to see if the current page was requested based on a redirect from Azure AD. If so, it needs to process information in the URL request provided by Azure AD.
 
-Add the following function immediately before the `// TODO: add FUNCTIONS before this line` comment:
+Add the following code immediately before the `// TODO: add CODE before this line` comment:
 
 ```js
-function authRedirectCallBack(error, response) {
-  if (error) {
-    console.log(error);
-  } else {
-    if (response.tokenType === "access_token") {
-      getUserFromMSGraph(graphConfig.graphMeEndpoint, response.accessToken, graphAPICallback);
-    } else {
-      console.log("token type is:" + response.tokenType);
-    }
-  }
-}
+msalApplication.handleRedirectPromise()
+  .then(handleResponse)
+  .catch(function (error) { console.log(error); }
+  );
 ```
 
-Configure MSAL to use this function by adding the following line immediately before the `// TODO: add CODE before this line` comment:
+Once the user is authenticated, the code can submit a request to Microsoft Graph for the current user's information. The `acquireTokenAndGetUser()` function passes the access token acquired from Azure AD to the `getUserFromMSGraph()` function you are about to add.
+
+Add the following functions immediately before the `// TODO: add FUNCTIONS before this line` comment:
 
 ```js
-msalApplication.handleRedirectCallback(authRedirectCallBack);
-```
+function getUserFromMSGraph(accessToken, callback) {
+  var endpoint = graphConfig.graphMeEndpoint;
 
-Once the user is authenticated, the code can submit a request to Microsoft Graph for the current user's information. The two `acquireToken*()` functions pass the access token acquired from Azure AD to the function:
-
-Add the following function immediately before the `// TODO: add FUNCTIONS before this line` comment:
-
-```js
-function getUserFromMSGraph(endpoint, accessToken, callback) {
   var xmlHttp = new XMLHttpRequest();
   xmlHttp.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200)
@@ -245,23 +189,44 @@ function graphAPICallback(data) {
 }
 ```
 
-Finally, add the following two functions to implement a sign in and sign out capability for the button on the page.
+Finally, add the following functions to implement a sign in and sign out capability for the button on the page.
 
-Add the following function immediately before the `// TODO: add FUNCTIONS before this line` comment:
+Add the functions immediately before the `// TODO: add FUNCTIONS before this line` comment:
 
 ```js
+function handleResponse(loginResponse) {
+  if (loginResponse != null) {
+    userName = loginResponse.account.username;
+  } else {
+    var currentAccounts = msalApplication.getAllAccounts();
+    if (currentAccounts == null || currentAccounts.length == 0) {
+      return;
+    } else {
+      userName = currentAccounts[0].username;
+    }
+  }
+
+  updateUserInterface();
+  acquireTokenAndGetUser();
+}
+
 function signIn() {
-  msalApplication.loginPopup(graphConfig.requestObj)
-    .then(function (loginResponse) {
-      updateUserInterface();
-      acquireTokenPopupAndGetUser();
-    }).catch(function (error) {
-      console.log(error);
-    });
+  if (loginType == "POPUP") {
+    msalApplication.loginPopup(graphConfig.requestObj)
+      .then(handleResponse)
+      .catch(function (error) { console.log(error); }
+      );
+  } else {
+    msalApplication.loginRedirect(graphConfig.requestObj);
+  }
 }
 
 function signOut() {
-  msalApplication.logout();
+  var logoutRequest = {
+    account: msalApplication.getAccountByUsername(userName)
+  };
+
+  msalApplication.logout(logoutRequest);
 }
 ```
 
@@ -285,7 +250,6 @@ On the **Register an application** page, set the values as follows:
 
 - **Name**: Hello World Identity
 - **Supported account types**: Accounts in this organizational directory only (Single tenant)
-- **Redirect URI**: Web = http://localhost:3007
 
     ![Screenshot of the Register an application page](../media/03-aad-portal-newapp-01.png)
 
@@ -295,11 +259,15 @@ On the **Hello World Identity** page, copy the values **Application (client) ID*
 
   ![Screenshot of the application ID of the new app registration](../media/03-aad-portal-newapp-details.png)
 
-On the **Hello World Identity** page, select the **1 web, 0 public client** link under the **Redirect URIs**.
+Select **Manage > Authentication** in the left-hand navigation.
 
-Locate the section **Implicit grant** and select both **Access tokens** and **ID tokens**. This tells Azure AD to return these tokens the authenticated user if requested.
+On the **Authentication** page, select **Add a platform**. When the **Configure platforms** panel appears, select **Single-page application**.
 
-Select **Save** in the top menu to save your changes.
+![Screenshot of the Configure platforms panel](../media/03-aad-portal-newapp-details-02.png)
+
+In the **Configure single-page application** panel, add **https://localhost:3007** under **Redirect URIs**, and select **Configure**.
+
+![Screenshot of the Configure Web panel](../media/03-aad-portal-newapp-details-03.png)
 
 ## Update the web page with the Azure AD application details
 
@@ -312,6 +280,9 @@ Locate the `var msalConfig = {}` code in the **index.html** file. The `auth` obj
 - `redirectURI`: set to the Azure AD application's redirect URI: **http://localhost:3007**
 
 ## Test the web application
+
+> [!IMPORTANT]
+> If you are using Internet Explorer, ensure that `http://localhost` and `https://login.microsoftonline.com` are both in the same **security zone** - **Trusted Sites** is recommended.
 
 To test the web page, first start the local web server. In the command prompt, execute the following command from the root of the project:
 

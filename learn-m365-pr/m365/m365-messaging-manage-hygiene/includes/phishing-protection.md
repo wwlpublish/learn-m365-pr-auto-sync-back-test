@@ -1,3 +1,6 @@
+>[!IMPORTANT]
+>Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813). We'll be updating names in products and in the Learn content in the near future.
+
 *Phishing* is an email attack that tries to steal sensitive information in messages that appear to be from legitimate or trusted senders. With the growing complexity of attacks, it's even more difficult for trained users to identify sophisticated phishing messages. Fortunately, EOP and the additional features in ATP can help.
 
 ## Anti-phishing protection in EOP

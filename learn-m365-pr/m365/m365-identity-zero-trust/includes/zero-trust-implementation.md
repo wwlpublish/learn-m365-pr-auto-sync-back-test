@@ -1,3 +1,6 @@
+>[!IMPORTANT]
+>Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813). We'll be updating names in products and in the Learn content in the near future.
+
 A Zero Trust strategy requires that you verify explicitly, use least privileged access principles, and assume breach. Azure Active Directory can act as the policy decision point to enforce your access policies based on user, device, target resource, and environment insights. 
 
 To do this, we need to put Azure Active Directory in the path of every access request—connecting every user and every app or resource through this identity control plane. In addition to productivity gains and improved user experiences from single sign-on (SSO) and consistent policy guardrails, connecting all users and apps provides Azure AD with the signal to make the best possible decisions about the authentication/authorization risk.

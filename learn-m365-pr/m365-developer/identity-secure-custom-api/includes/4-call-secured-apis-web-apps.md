@@ -22,8 +22,8 @@ Create a new ASP.NET Core MVC application using the following command, followed 
 
 ```console
 dotnet new mvc --auth SingleOrg
-dotnet add package Microsoft.Identity.Client
-dotnet add package Microsoft.Extensions.Configuration
+dotnet add package Microsoft.Identity.Web
+dotnet add package Microsoft.Identity.Web.UI
 ```
 
 ### Update web app to support user sign-in for Microsoft identity
@@ -49,8 +49,8 @@ services.Configure<CookiePolicyOptions>(options =>
 
 services.AddOptions();
 
-services.AddMicrosoftWebAppAuthentication(Configuration)
-  .AddMicrosoftWebAppCallsWebApi(Configuration, Constants.ProductCatalogAPI.SCOPES)
+services.AddMicrosoftIdentityWebAppAuthentication(Configuration)
+  .EnableTokenAcquisitionToCallDownstreamApi(Constants.ProductCatalogAPI.SCOPES)
   .AddInMemoryTokenCaches();
 
 services.AddControllersWithViews(options =>
@@ -80,14 +80,16 @@ public CategoriesController(ITokenAcquisition tokenAcquisition)
 ```
 
 ```csharp
+[AuthorizeForScopes(Scopes = new[] { Constants.ProductCatalogAPI.CategoryReadScope })]
 public async Task<ActionResult> Index()
 {
-  HttpClient client = new HttpClient();
+  var client = new HttpClient();
+
   var accessToken = await tokenAcquisition.GetAccessTokenForUserAsync(Constants.ProductCatalogAPI.SCOPES);
   client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
 
   var json = await client.GetStringAsync(url);
-  
+
   var serializerOptions = new JsonSerializerOptions
   {
     PropertyNamingPolicy = JsonNamingPolicy.CamelCase

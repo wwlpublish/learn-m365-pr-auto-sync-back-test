@@ -1,11 +1,15 @@
-## Integration with Microsoft Defender Advanced Threat Protection
+## Integration with Microsoft Defender for Endpoint
 
-Microsoft Cloud App Security (MCAS) uniquely integrates with Microsoft Defender Advanced Threat Protection (MDATP), a unified endpoint security platform for protection, detection, investigation, and response to enhance the discovery of Shadow IT in your organization.
+> [!IMPORTANT]
+> Microsoft Defender for Endpoint is the new name for Microsoft Defender Advanced Threat Protection. 
+> [Learn more](https://www.microsoft.com/security/blog/?p=91813). We’ll be updating our products and docs soon, so keep an eye out. 
 
-In this video, you'll see how Microsoft Cloud App Security integrates with Microsoft Defender ATP.
+Microsoft Cloud App Security (MCAS) uniquely integrates with Microsoft Defender for Endpoint (MSDE), a unified endpoint security platform for protection, detection, investigation, and response to enhance the discovery of Shadow IT in your organization.
+
+In this video, you'll see how Microsoft Cloud App Security integrates with Microsoft Defender for Endpoint.
 
 > [!NOTE]
-> The video refers to Windows Defender ATP which is now called Microsoft Defender ATP.
+> The video refers to Windows Defender ATP which is now called Microsoft Defender for Endpoint.
 
 <br>
 

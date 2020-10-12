@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.plan-direct-routing.2-plan-direct-routing
+title: Plan for Direct Routing
+metadata:
+  title: Plan for Direct Routing
+  description: Explore the steps you need to perform to migrate to Direct Routing.
+  ms.date: 09/03/2020
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 7
+content: |
+  [!include[](includes/2-plan-direct-routing.md)]

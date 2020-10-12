@@ -110,7 +110,7 @@ private async createConversation(context: TurnContext, message: Partial<Activity
 
 From the command line, navigate to the root folder for the project and execute the following command:
 
-```shell
+```console
 gulp ngrok-serve
 ```
 

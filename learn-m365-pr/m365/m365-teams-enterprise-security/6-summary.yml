@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.enterprise-security.6-summary
+title: Summary
+metadata:
+  title: Summary
+  description: Review what you've learned about enterprise security.
+  ms.date: 09/09/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 1
+content: |
+  [!include[](includes/6-summary.md)]

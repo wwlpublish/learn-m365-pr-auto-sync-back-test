@@ -59,7 +59,7 @@ When prompted, give the secret a description and select one of the expiration du
 
 ![Screenshot of creating a new client secret](../media/07-azure-ad-portal-new-app-secret-02.png)
 
-The **Certificate & Secrets** page will display the new secret. Its important you copy this value as its only shown this one time; if you leave the page and come back, it will only show as a masked value.
+The **Certificate & Secrets** page will display the new secret. It's important you copy this value as it's only shown this one time; if you leave the page and come back, it will only show as a masked value.
 
 ![Screenshot showing the new secret](../media/07-azure-ad-portal-new-app-secret-03.png)
 

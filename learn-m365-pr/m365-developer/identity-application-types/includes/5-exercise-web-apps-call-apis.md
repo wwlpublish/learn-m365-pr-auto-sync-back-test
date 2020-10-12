@@ -1,8 +1,8 @@
-In this exercise, you'll learn how to a create server-side web app that allow a user to sign in and grant the app permissions to act on the user's behalf. Once the user has authenticated and granted the app consent to act on their behalf, the web application will use data returned from Microsoft Graph by using the OAuth 2.0 auth code grant flow.
+In this exercise, you'll learn how to a create server-side web app that allows a user to sign in and grant the app permissions to act on the user's behalf. Once the user has authenticated and granted the app consent to act on their behalf, the web application will use data returned from Microsoft Graph by using the OAuth 2.0 auth code grant flow.
 
 ## Create an application that only allows a single organization's users to sign in
 
-In this example you'll create an Azure AD application and an ASP.NET Core web application that allows users from the current organization to sign in and display their information.
+In this example, you'll create an Azure AD application and an ASP.NET Core web application that allows users from the current organization to sign in and display their information.
 
 ### Create a single-tenant Azure AD application
 
@@ -59,7 +59,7 @@ When prompted, give the secret a description and select one of the expiration du
 
 ![Screenshot of creating a new client secret](../media/05-azure-ad-portal-new-app-secret-02.png)
 
-The **Certificate & Secrets** page will display the new secret. Its important you copy this value as its only shown this one time; if you leave the page and come back, it will only show as a masked value.
+The **Certificate & Secrets** page will display the new secret. It's important you copy this value as it's only shown this one time; if you leave the page and come back, it will only show as a masked value.
 
 ![Screenshot showing the new secret](../media/05-azure-ad-portal-new-app-secret-03.png)
 
@@ -70,18 +70,19 @@ Open your command prompt, navigate to a directory where you want to save your wo
 Execute the following command to create a new ASP.NET Core MVC web application:
 
 ```console
-dotnet new mvc --auth SingleOrg
+dotnet new mvc --auth SingleOrg -o IdentityWeb
 ```
 
 After creating the application, run the following commands to ensure your new project runs correctly.
 
 ```console
-dotnet add package Microsoft.Identity.Web --version 0.2.1-preview
-dotnet add package Microsoft.Identity.Web.UI --version 0.2.1-preview
+cd IdentityWeb
+dotnet add package Microsoft.Identity.Web --version 0.3.1-preview
+dotnet add package Microsoft.Identity.Web.UI --version 0.3.1-preview
 dotnet add package Microsoft.Graph
 ```
 
-Open the root folder of the new ASP.NET core application using a text editor such as Visual Studio Code.
+Open the root folder of the new ASP.NET core application using a text editor such as **Visual Studio Code**.
 
 ### Update the web application's launch configuration
 
@@ -130,8 +131,8 @@ services.Configure<CookiePolicyOptions>(options =>
 
 services.AddOptions();
 
-services.AddMicrosoftWebAppAuthentication(Configuration)
-        .AddMicrosoftWebAppCallsWebApi(Configuration, new string[] { "User.Read" })
+services.AddMicrosoftIdentityWebAppAuthentication(Configuration)
+        .EnableTokenAcquisitionToCallDownstreamApi(new string[] { "User.Read" })
         .AddInMemoryTokenCaches();
 
 services.AddControllersWithViews(options =>
@@ -160,7 +161,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Graph;
 using Microsoft.Identity.Web;
 
-namespace <PROJECT-NAMESPACE>.Controllers
+namespace IdentityWeb.Controllers
 {
   [Authorize]
   public class UserController : Controller
@@ -192,8 +193,6 @@ namespace <PROJECT-NAMESPACE>.Controllers
 }
 ```
 
-Replace the string `<PROJECT-NAMESPACE>` with the root namespace of the project. This can be found in the **Startup.cs** file.
-
 This controller's default method, `Index()`, creates a new instance of the Microsoft Graph .NET client. The client is configured to use the currently signed-in user to request an access token. This is done using the token acquisition service added as a singleton to the ASP.NET Core dependency injection (DI) configuration in the previous step. It then adds the access token to requests to Microsoft Graph as an HTTP **Authorization** header. Finally, it submits a request to Microsoft Graph for the current user's details.
 
 Now create the view to display the user's name.
@@ -219,7 +218,7 @@ dotnet build
 dotnet run
 ```
 
-Open a browser and navigate to the url **https://localhost:5001**. The web application will redirect you to the Azure AD sign in page.
+Open a browser and navigate to the url **https://localhost:5001**. The web application will redirect you to the Azure AD sign-in page.
 
 Sign in using a Work and School account from your Azure AD directory. Azure AD will redirect you back to the web application.
 
@@ -229,4 +228,4 @@ Update the URL to **https://localhost:5001/User** to navigate to the **User** co
 
 ## Summary
 
-In this unit, you learned how to create a server-side web app that allow users to sign in and grant the app permissions to act on the user's behalf. One the user has authenticated and granted the app consent to act on their behalf, the web application will use data returned from Microsoft Graph by using the OAuth 2.0 auth code grant flow.
+In this unit, you learned how to create a server-side web app that allows users to sign in and grant the app permissions to act on the user's behalf. One the user has authenticated and granted the app consent to act on their behalf, the web application will use data returned from Microsoft Graph by using the OAuth 2.0 auth code grant flow.

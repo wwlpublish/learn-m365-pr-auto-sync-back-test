@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.plan-direct-routing.4-optimize-media-flow
+title: Optimize media for Direct Routing
+metadata:
+  title: Optimize media for Direct Routing
+  description: Learn about media bypass, where media flow is optimized for users who are in the same building and on the same network as the SBC.
+  ms.date: 09/03/2020
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 4
+content: |
+  [!include[](includes/4-optimize-media-flow.md)]

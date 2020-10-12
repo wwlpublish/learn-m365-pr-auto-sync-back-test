@@ -17,7 +17,7 @@ You'll use Node.js to create custom Microsoft Teams tabs in this module. The exe
 - NPM (installed with Node.js) - v6.\* (or higher)
 - [Gulp](https://gulpjs.com/) - v4.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.13.0 (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.15.0 (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 
 *You must have the minimum versions of these prerequisites installed on your workstation.
@@ -28,7 +28,7 @@ Open your command prompt, and go to a directory where you want to save your work
 
 Run the Yeoman generator for Microsoft Teams by running the following command:
 
-```shell
+```console
 yo teams
 ```
 
@@ -40,14 +40,15 @@ Yeoman starts and asks you a series of questions. Answer the questions with the 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project**: Learn MSTeams Tabs
 - **Your (company) name (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: v1.5
+- **Which manifest version would you like to use?**: v1.6
 - **Enter your Microsoft Partner ID, if you have one**: (Leave blank to skip)
 - **What features do you want to add to your project?**: A tab
 - **The URL where you will host this solution?**: (Accept the default option)
+- **Would you like to show a loading indicator when your app/tab loads?** No
 - **Would you like to include Test framework and initial tests?**: No
 - **Would you like to use Azure Applications Insights for telemetry?**: No
 - **Default Tab name (max 16 characters)**: LearnPersonalTab
-- **Do you want to create a configurable or static tab?**: Static
+- **What kind of Tab would you like to create?**: Personal (static)
 - **Do you require Azure AD Single-Sign-On support for the tab?** No
 
 > [!NOTE]
@@ -55,13 +56,34 @@ Yeoman starts and asks you a series of questions. Answer the questions with the 
 
 After you answer the generator's questions, the generator creates the scaffolding for the project. The generator then runs `npm install` that downloads all the dependencies required by the project.
 
+### Ensure the project is using the latest version of Teams manifest & SDK
+
+Run the npm command to install the latest version of the SDK
+
+```console
+npm i @microsoft/teams-js
+```
+
+Locate and open the `manifest.json` file in the `manifest`  folder of the project. 
+- Change the `$schema` property to **https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json**
+- Change the `manifestVersion` property to **1.7**.
+
+Open the `gulp.config.js` file in the root folder of the project. Add the following to the **SCHEMAS** property.
+
+```json
+{
+  version: "1.7",
+  schema: "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json"
+}
+```
+
 ## Test the personal tab
 
 Before you customize the tab, let's test the tab to see the initial developer experience for testing.
 
 From the command line, go to the root folder for the project and run the following command:
 
-```shell
+```console
 gulp ngrok-serve
 ```
 
@@ -147,7 +169,8 @@ import {
   ExclamationTriangleIcon,
   Label,
   Button,
-  Input
+  Input,
+  ToDoListIcon
 } from "@fluentui/react-northstar";
 ```
 
@@ -292,7 +315,7 @@ Finally, locate the string `TODO: add new list item form here` in the `render()`
 
 At this point, the app is complete. Recall from our initial test that when the app was added to Microsoft Teams, it had a few todo strings for the description of the app. While you could change these values in the project's **./src/manifest/manifest.json** file, you will use App Studio to make these changes.
 
-First, build and run the project by running the command **gulp ngrok-serve** in the command line like you did previously. This step also creates the Microsoft Teams app package.
+First, build, and run the project by running the command **gulp ngrok-serve** in the command line like you did previously. This step also creates the Microsoft Teams app package.
 
 In the browser, go to [Microsoft Teams](https://teams.microsoft.com) and sign in with the credentials of a Work and School account.
 

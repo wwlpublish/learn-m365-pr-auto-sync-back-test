@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.implement-compliance.3-legal-investigations
+title: Complete a legal investigation using the Security & Compliance Center
+metadata:
+  title: Complete a legal investigation using the Security & Compliance Center
+  description: Learn how to execute eDiscovery searches and holds on Teams content.
+  ms.date: 09/07/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 5
+content: |
+  [!include[](includes/3-legal-investigations.md)]

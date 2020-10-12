@@ -16,7 +16,7 @@ Let's look at how your component can work with the Microsoft Teams context.
 
 First, you need to import a reference for the **\@microsoft/teams-js** package.
 
-Next, check to see if the component is running within Microsoft Teams and if so, get a reference to the Microsoft Teams context. This is best done in the component's `onInit()` method when its added to the page. In this code, notice how the `onInit()` method checks if the `this.context.microsoftTeams` object is defined. If its, it calls the `getContext()` method to request the Microsoft Teams context. This method passes the populated Microsoft Teams context into a callback that we can make a copy of.
+Next, check to see if the component is running within Microsoft Teams and if so, get a reference to the Microsoft Teams context. This is best done in the component's `onInit()` method when it's added to the page. In this code, notice how the `onInit()` method checks if the `this.context.microsoftTeams` object is defined. If it's, it calls the `getContext()` method to request the Microsoft Teams context. This method passes the populated Microsoft Teams context into a callback that we can make a copy of.
 
 Finally, using the context, your code can check if the web part is running in SharePoint or Microsoft Teams and display the current site or team name depending on the scenario.
 

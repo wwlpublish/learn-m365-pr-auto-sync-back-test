@@ -1,3 +1,6 @@
+>[!IMPORTANT]
+>Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813). We'll be updating names in products and in the Learn content in the near future.
+
 Until recently, managing an organization’s technological infrastructure and PCs was done using dissimilar tools and methods that meant IT professionals had to do lots of hands-on, manual, and time-consuming tasks. New kinds of device form factors, new approaches in Windows 10 management, advancements in cloud technology, and **bring your own device (BYOD)** trends have made the move toward modern management more compelling for many organizations - not only for mobile devices, but also for PCs.
 
 Modern management is a novel approach of managing Windows 10 similar to how mobile devices are managed by **Enterprise Mobility Management (EMM)** solutions. This approach allows you to simplify deployment and management, improve security, provide better end-user experiences, and lower costs for your Windows devices. With modern management, you can now manage Windows 10 devices of all kinds, from desktop PCs to HoloLens and Surface Hubs, company-owned or employee-owned, as well as mobile devices using one management platform.

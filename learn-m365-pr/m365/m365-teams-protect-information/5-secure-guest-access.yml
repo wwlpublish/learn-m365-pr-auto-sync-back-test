@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.protect-information.5-secure-guest-access
+title: Secure guest access
+metadata:
+  title: Secure guest access
+  description: Learn about how to control guest access to your Teams information.
+  ms.date: 09/07/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 5
+content: |
+  [!include[](includes/5-secure-guest-access.md)]

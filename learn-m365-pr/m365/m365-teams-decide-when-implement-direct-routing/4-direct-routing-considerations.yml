@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.decide-when-implement-direct-routing.4-direct-routing-considerations
+title: Consider special numbers for telephony
+metadata:
+  title: Consider special numbers for telephony
+  description: In this unit you'll learn about service numbers and emergency dialing in Direct Routing.
+  ms.date: 09/03/2020
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 3
+content: |
+  [!include[](includes/4-direct-routing-considerations.md)]

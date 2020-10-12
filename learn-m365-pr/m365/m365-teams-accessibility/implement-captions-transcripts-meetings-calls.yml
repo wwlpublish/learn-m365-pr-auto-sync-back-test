@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-teams-accessibility.implement-captions-transcripts-meetings-calls
+title: Implement captions and transcription for meetings and calls
+metadata:
+  title: Implement captions and transcription for meetings and calls
+  description: Learn how to enable features like captions and transcripts to help make meetings and calls more inclusive of people with disabilities.
+  ms.date: 09/10/2020
+  ms.author: elizapo
+  author: iankensey
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 4
+content: |
+  [!include[](includes/implement-captions-transcripts-meetings-calls.md)]

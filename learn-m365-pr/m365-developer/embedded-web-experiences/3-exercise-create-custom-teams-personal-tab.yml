@@ -3,7 +3,7 @@ uid: learn-m365.embedded-web-experiences.3-exercise-create-custom-teams-personal
 metadata:
   title: Exercise - Create a custom Microsoft Teams personal tab
   description: In this exercise, you'll create a new Microsoft Teams personal tab by using the Microsoft Teams Yeoman generator, Visual Studio Code, and App Studio.
-  ms.date: 05/07/2020
+  ms.date: 09/10/2020
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial

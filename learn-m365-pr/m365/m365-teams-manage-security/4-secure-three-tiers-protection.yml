@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.manage-security.4-secure-three-tiers-protection
+title: Secure Microsoft Teams with three tiers of protection
+metadata:
+  title: Secure Microsoft Teams with three tiers of protection
+  description: Learn about Microsoft's recommended three tiers of protection for data in Teams.
+  ms.date: 09/03/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 3
+content: |
+  [!include[](includes/4-secure-three-tiers-protection.md)]

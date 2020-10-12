@@ -2,7 +2,7 @@ In this unit, you'll learn how to create channel tabs and configuration pages in
 
 ## Compare personal and channel tabs
 
-In the previous unit, you learned the fundamentals of Microsoft Teams tabs and how to create a custom personal tab. Your Microsoft Teams app also can include channel tabs, which were formerly known as configurable tabs. 
+In the previous unit, you learned the fundamentals of Microsoft Teams tabs and how to create a custom personal tab. Your Microsoft Teams app also can include channel tabs, which were formerly known as configurable tabs.
 
 Personal and channel tabs differ in how they're used and in their capabilities.
 
@@ -87,7 +87,7 @@ You're responsible for saving any configuration information your tab will need.
 
 This code is what you'll use to save any settings from the configuration page in your web app. It notifies Microsoft Teams that the settings were saved successfully.
 
-```ts
+```typescript
 microsoftTeams.settings.registerOnSaveHandler((saveEvent: microsoftTeams.settings.SaveEvent) => {
   // Calculate host dynamically to enable local debugging
   const host = "https://" + window.location.host;

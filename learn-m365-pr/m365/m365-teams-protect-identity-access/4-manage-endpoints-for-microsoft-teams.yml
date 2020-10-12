@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.protect-identity-access.4-manage-endpoints-for-microsoft-teams
+title: Manage endpoints in Microsoft Teams
+metadata:
+  title: Manage endpoints in Microsoft Teams
+  description: Learn what endpoints are in Teams including managing and troubleshooting them.
+  ms.date: 09/07/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 9
+content: |
+  [!include[](includes/4-manage-endpoints-for-microsoft-teams.md)]

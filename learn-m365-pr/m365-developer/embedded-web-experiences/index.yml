@@ -3,7 +3,7 @@ uid: learn-m365.embedded-web-experiences
 metadata:
   title: Create embedded web experiences with tabs for Microsoft Teams
   description: Learn how to create custom tabs and add them to your Microsoft Teams app.
-  ms.date: 3/10/2020
+  ms.date: 09/10/2020
   author: andrewconnell
   ms.author: suzanz
   ms.topic: interactive-tutorial

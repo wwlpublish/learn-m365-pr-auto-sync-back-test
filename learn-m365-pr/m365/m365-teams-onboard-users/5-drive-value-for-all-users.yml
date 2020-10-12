@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.onboard-users.5-drive-value-for-all-users
+title: Drive value for all users
+metadata:
+  title: Drive value for all users
+  description: Learn about the steps in the drive value phase.
+  ms.date: 09/10/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 8
+content: |
+  [!include[](includes/5-drive-value-for-all-users.md)]

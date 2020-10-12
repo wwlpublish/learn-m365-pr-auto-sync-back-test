@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.manage-secure-meetings.2-address-threats-teams-meetings
+title: Address threats to Teams meetings
+metadata:
+  title: Address threats to Teams meetings
+  description: Learn how to control who arrives in Teams meetings, and who will have access to any information presented.
+  ms.date: 09/09/2020
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-address-threats-teams-meetings.md)]

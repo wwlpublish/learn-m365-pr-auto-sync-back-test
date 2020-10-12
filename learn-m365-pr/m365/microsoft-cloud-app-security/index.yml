@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn-m365.cloud-app-security
+metadata:
+  title: Secure your cloud apps and services with Microsoft Cloud App Security
+  description: Microsoft Cloud App Security is a Cloud Access Security Broker (CASB) that operates on multiple clouds. It provides rich visibility, control over data travel, and sophisticated analytics to identify and combat cyberthreats across all your cloud services. Learn how to use Cloud App Security in your organization.  
+  ms.date: 09/08/2020
+  author: lizap
+  ms.author: iankensey
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Secure your cloud apps and services with Microsoft Cloud App Security
+summary: Microsoft Cloud App Security is a Cloud Access Security Broker (CASB) that operates on multiple clouds. It provides rich visibility, control over data travel, and sophisticated analytics to identify and combat cyberthreats across all your cloud services. Learn how to use Cloud App Security in your organization.
+abstract: |
+  At the end of this module, you should be able to:
+  - Define the Cloud App Security framework
+  - Explain how Cloud Discovery helps you see what's going on in your organization
+  - Understand how to use Conditional Access App Control policies to control access to the apps in your organization 
+prerequisites: None
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- administrator
+products:
+- m365
+- m365-ems-cloud-app-security
+units:
+- learn-m365.cloud-app-security.introduction
+- learn-m365.cloud-app-security.framework
+- learn-m365.cloud-app-security.cloud-discovery
+- learn-m365.cloud-app-security.conditional-access-app-control
+- learn-m365.cloud-app-security.walkthrough
+- learn-m365.cloud-app-security.classify-protect-sensitive-information
+- learn-m365.cloud-app-security.detect-threats
+- learn-m365.cloud-app-security.knowledge-check
+- learn-m365.cloud-app-security.summary
+badge: 
+  uid: learn-m365.cloud-app-security.badge
