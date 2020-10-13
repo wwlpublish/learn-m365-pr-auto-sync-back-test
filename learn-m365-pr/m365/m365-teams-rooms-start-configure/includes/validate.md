@@ -44,7 +44,7 @@ In the dial-in test, you dial the phone number of the resource account.
 
 ### Test HDMI ingest
 
-The next test validatse the HDMI ingest feature.
+The next test validates the HDMI ingest feature.
 
 1. Using a laptop, connect an HDMI cable to it and to the console.
 1. If auto-sharing is enabled, the screen will change to show the **Stop presenting** icon. The front-of-room display will show the same thing that's being shown on the laptop. If auto-sharing is not enabled, you'll have to click the **Present** icon on the console.
