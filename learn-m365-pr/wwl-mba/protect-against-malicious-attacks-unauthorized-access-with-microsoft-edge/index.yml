@@ -3,7 +3,7 @@ uid: learn.wwl.protect-against-malicious-attacks-unauthorized-access-with-micros
 metadata:
   title: Protect against malicious attacks and unauthorized access with Microsoft Edge
   description: "Protect against malicious attacks and unauthorized access with Microsoft Edge"
-  ms.date: 09/19/2020
+  ms.date: 10/15/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -17,7 +17,7 @@ abstract: |
   - Manage Microsoft Edge security options through policies and controls in Microsoft Endpoint Manager
 prerequisites: |
   - Experience deploying and configuring application packages using software distribution tools such as Microsoft Intune or Configuration Manager
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/protect-against-malicious-attacks-and-unauthorized-access-with-microsoft-edge.svg
 levels:
 - intermediate
 roles:
