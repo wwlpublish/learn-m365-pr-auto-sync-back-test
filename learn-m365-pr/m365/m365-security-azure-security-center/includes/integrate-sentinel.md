@@ -33,3 +33,12 @@ You complete the following steps to integrate Azure Sentinel with Azure Security
 1. If you also want to automatically create incidents for alerts from Azure Security Center, select **Enable**, under **Create incidents**. Incidents enable you to gather related information on alerts and do detailed investigations in Azure Sentinel.
 
     :::image type="content" source="../media/5-enable-incidents-inline.png" lightbox="../media/5-enable-incidents-expanded.png" alt-text="Create incidents":::
+
+
+### Explore how to modernize your security operations with Microsoft Azure Sentinel
+
+View a [video version](https://www.microsoft.com/en-us/videoplayer/embed/RE4GnLf) of the interactive guide (captions available in more languages).
+
+<a href="https://mslearn.cloudguides.com/en-us/guides/Modernize%20your%20security%20options%20with%20Microsoft%20Azure%20Sentinel">![Microsoft Azure Sentinel](../media/modernize-your-security-options.png)</a>  
+
+Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
