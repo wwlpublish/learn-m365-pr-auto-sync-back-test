@@ -1,18 +1,18 @@
 ### YamlMime:Module
 uid: learn-m365.workplace-analytics-ways-working
 metadata:
-  title: Analyze collaboration and engagement using the Workplace Analytics Ways of Working assessment dashboard
+  title: Analyze collaboration and engagement using the Workplace Analytics Ways of working assessment dashboard
   description: Learn to evaluate collaboration culture and employee experience with a Power BI template using Workplace Analytics data.
   ms.date: 10/10/2020
   author: AlexandraHrt
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Analyze collaboration and engagement using the Workplace Analytics Ways of Working assessment dashboard
+title: Analyze collaboration and engagement using the Workplace Analytics Ways of working assessment dashboard
 summary: Learn to evaluate collaboration culture and employee experience with a Power BI template using Workplace Analytics data.
 abstract: |
   At the end of this module, you should be able to:
-  - Explain what the Workplace Analytics Power BI Ways of Working assessment dashboard is, and why it provides an important perspective. 
+  - Explain what the Workplace Analytics Power BI Ways of working assessment dashboard is, and why it provides an important perspective. 
   - Run queries, load the data, and select your settings. 
   - Interpret the results from multiple reports in the dashboard. 
 
