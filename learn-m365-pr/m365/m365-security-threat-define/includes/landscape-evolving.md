@@ -30,7 +30,7 @@ Microsoft Threat Protection suite protects:
 - Identities with Azure ATP and Azure Active Directory (AD) Identity Protection - Azure ATP uses Active Directory signals to identify, detect, and investigate advanced threats, compromised identities, and malicious insider actions directed at your organization.
 - Applications with Microsoft Cloud App security - Microsoft Cloud App security is a comprehensive cross-SaaS solution bringing deep visibility, strong data controls, and enhanced threat protection to your cloud apps.
 
-### Explore how to protect your organization with Microsoft Threat Protection
+### Explore how to protect your organization with Microsoft 365 Defender
 
 View a [video version](https://www.microsoft.com/videoplayer/embed/RE4GsNW) of the interactive guide (captions available in more languages).
 
