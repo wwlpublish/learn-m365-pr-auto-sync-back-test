@@ -6,7 +6,7 @@ One of the benefits of the next version of Microsoft Edge is that Microsoft can 
 At the end of this module, you will be able to:
 
 - Manage automatic updates and servicing for Microsoft Edge.
-- Control build levels and targeted versions of Microsoft Edge through group policy.
+- Control builds and targeted versions of Microsoft Edge through group policy.
 - Configure side-by-side installations of Microsoft Edge
 
 ## Pre-requisites

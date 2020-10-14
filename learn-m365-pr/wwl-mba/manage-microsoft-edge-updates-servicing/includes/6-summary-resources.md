@@ -4,7 +4,7 @@ As you've learned, Microsoft Edge provides new features on a regular basis throu
 Now that you've completed this module, you should be able to:
 
 - Manage automatic updates and servicing for Microsoft Edge.
-- Control build levels and targeted versions of Microsoft Edge through group policy.
+- Control builds and targeted versions of Microsoft Edge through group policy.
 - Configure side-by-side installations of Microsoft Edge
 
 ## Resources
