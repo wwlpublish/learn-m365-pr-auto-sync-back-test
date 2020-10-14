@@ -1,0 +1,37 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-microsoft-edge-updates-servicing.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 10/17/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+quiz:
+  questions:
+  - content: "Name the Update policy that controls whether side-by-side installations of Microsoft Edge are allowed."
+    choices:
+    - content: "EnableSxS"
+      isCorrect: false
+      explanation: "Incorrect. EnableSxS is not the right policy setting."
+    - content: "Allowsxs"
+      isCorrect: true
+      explanation: "Correct. Allowsxs is the right policy setting to control whether side-by-side installations of Microsoft Edge are allowed."
+    - content: "Side-by-sideEdgeAllowed"
+      isCorrect: false
+      explanation: "Incorrect. Side-by-sideEdgeAllowed is not the right policy setting."
+  - content: "Configuration Manager added an option to enable automatic updates for Microsoft Edge during the package creation process.  Which version was that option introduced?"
+    choices:
+    - content: "Configuration Manager version 2002"
+      isCorrect: true
+      explanation: "Correct. Version 2002 of Configuration Manager was released in July of 2020 and has a new option to enable automatic updates for Microsoft Edge during the package creation process."
+    - content: "Configuration Manager version 2020"
+      isCorrect: false
+      explanation: "Incorrect. Version 2020 of Configuration Manager does not exist yet."
+    - content: "Configuration Manager version 1910"
+      isCorrect: false
+      explanation: "Incorrect. Version 1910 of Configuration Manager does not yet contain a new option to enable automatic updates for Microsoft Edge during the package creation process."

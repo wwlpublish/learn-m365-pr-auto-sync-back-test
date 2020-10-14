@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn.wwl.manage-microsoft-edge-updates-servicing
+metadata:
+  title: Manage Microsoft Edge updates and servicing
+  description: "Manage Microsoft Edge updates and servicing"
+  ms.date: 10/17/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-windows
+title: Manage Microsoft Edge updates and servicing
+summary: Consider update management or servicing options for Microsoft Edge to test new releases and set channel priority. Configure side-by-side installation for testing and validating capabilities early on while managing risk.
+abstract: |
+  At the end of this module, you will be able to:
+  - Manage automatic updates and servicing for Microsoft Edge.
+  - Control build levels and targeted versions of Microsoft Edge through group policy.
+  - Configure side-by-side installations of Microsoft Edge
+prerequisites: |
+  - Experience deploying and configuring application packages using software distribution tools such as Microsoft Intune or Configuration Manager
+iconUrl: /learn/achievements/manage_microsoft_edge_updates_and_servicing.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-365
+- microsoft-edge
+- internet-explorer
+units:
+- learn.wwl.manage-microsoft-edge-updates-servicing.introduction
+- learn.wwl.manage-microsoft-edge-updates-servicing.manage-automatic-methods-for-microsoft-edge
+- learn.wwl.manage-microsoft-edge-updates-servicing.control-build-levels-targeted-versions-of-through-group-policy
+- learn.wwl.manage-microsoft-edge-updates-servicing.configure-side-by-side-installations-of
+- learn.wwl.manage-microsoft-edge-updates-servicing.knowledge-check
+- learn.wwl.manage-microsoft-edge-updates-servicing.summary-resources
+badge:
+  uid: learn.wwl.manage-microsoft-edge-updates-servicing.badge
