@@ -37,7 +37,7 @@ You complete the following steps to integrate Azure Sentinel with Azure Security
 
 ### Explore how to modernize your security operations with Microsoft Azure Sentinel
 
-View a [video version](https://www.microsoft.com/en-us/videoplayer/embed/RE4GnLf) of the interactive guide (captions available in more languages).
+View a [video version](https://www.microsoft.com/videoplayer/embed/RE4GnLf) of the interactive guide (captions available in more languages).
 
 <a href="https://mslearn.cloudguides.com/en-us/guides/Modernize%20your%20security%20options%20with%20Microsoft%20Azure%20Sentinel">![Microsoft Azure Sentinel](../media/modernize-your-security-options.png)</a>  
 
