@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.edu-deploy-applications.deploy-win32-applications
+metadata:
+  title: Deploy win32 applications 
+  description: Learn how to install applications from the Microsoft Store for Eduction using Intune for Education.
+  ms.date: 10/15/2020
+  author: iankensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+title: Deploy win32 applications 
+durationInMinutes: 2
+content: |
+  [!include[](includes/deploy-win32-applications.md)]

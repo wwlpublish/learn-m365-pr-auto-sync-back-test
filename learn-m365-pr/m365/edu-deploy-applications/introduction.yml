@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.edu-deploy-applications.introduction
+metadata:
+  title: Introduction
+  description: Explore different technology options offered by Microsoft including the deployment of applications from Microsoft Store for Education and the use of Intune for Education to manage groups and app deployment.
+  ms.date: 10/15/2020
+  author: iankensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+title: introduction
+durationInMinutes: 2
+content: |
+  [!include[](includes/introduction.md)]
