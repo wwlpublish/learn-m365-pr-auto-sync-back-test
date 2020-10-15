@@ -1,10 +1,10 @@
-Any device used in a classroom environment needs applications. Some of these will be free, others will need to be purchased. Managing access to applications, distribution and licensing costs can become overwhelming.  Microsoft Store for Education can simplify the selection, deployment and licensing of apps on your school's PCs.
+Any device used in a classroom environment needs applications. Some of these will be free, others will need to be purchased. Managing access to applications, distribution and licensing costs can become overwhelming.  Microsoft Store for Education can simplify the selection, deployment, and licensing of apps on your school's PCs.
 
 Here, you'll learn how to configure and use the Microsoft Store for Education.
 
 ## Microsoft Store for Education overview
 
-Microsoft Store for Education gives schools a flexible way to find, acquire, manage, and distribute free and paid apps to Windows 10 devices. You can manage Microsoft Store apps and private line-of-business apps in one inventory, plus assign and re-use licenses as needed. You can choose the best distribution method for your organization: directly assign apps to individuals and teams, publish apps to private pages in Microsoft Store, or connect with management solutions for more options.
+Microsoft Store for Education gives schools a flexible way to find, acquire, manage, and distribute free and paid apps to Windows 10 devices. You can manage Microsoft Store apps and private line-of-business apps in one inventory, plus assign and reuse licenses as needed. You can choose the best distribution method for your organization: directly assign apps to individuals and teams, publish apps to private pages in Microsoft Store, or connect with management solutions for more options.
 
 > [!NOTE]
 > The Microsoft Store for Business and Education is a shared destination. Some of the documents refer to the Microsoft Store for Business, however it is also for Education purposes.
@@ -23,7 +23,7 @@ Admins can add or remove user accounts in the Microsoft 365 admin center, even i
 
 ### Software
 
-Administrators working with Microsoft Store for Education need a browser compatible with Microsoft Store running on a PC or mobile device. Supported browsers include: Internet Explorer 10 or later, current versions of Microsoft Edge, Chrome or Firefox. JavaScript must be supported and enabled.
+Administrators working with Microsoft Store for Education need a browser compatible with Microsoft Store running on a PC or mobile device. Supported browsers include: Internet Explorer 10 or later, current versions of Microsoft Edge, Chrome, or Firefox. JavaScript must be supported and enabled.
 
 Employees and students using apps from Store for and Education need at least Windows 10, version 1511 running on a PC or mobile device.
 
@@ -39,18 +39,18 @@ In order to sign in to Microsoft Store for Education, you must be a global admin
 
 #### Create an Azure AD account through Store for Education
 
-1. Open a browser and go to [https://www.microsoft.com/education-store](https://www.microsoft.com/education-store) and then click **Sign-up**.
-1. On the **Welcome, Let's get to know you screen**, type in the required information and then click **Next**
-1. On the **Create your user ID** screen, examine the information that was created from the first screen, and then click **Next**.
-1. On the **Prove. You're. Not. A. Robot.** screen, select either the **Text me** or **Call me** buttons, enter a phone number, and then click either **Text me** or **Call me**.
-1. Enter your verification code, and then click **Create my account**.
+1. Open a browser and go to [https://www.microsoft.com/education-store](https://www.microsoft.com/education-store) and then Select **Sign-up**.
+1. On the **Welcome, Let's get to know you screen**, type in the required information and then Select **Next**
+1. On the **Create your user ID** screen, examine the information that was created from the first screen, and then Select **Next**.
+1. On the **Prove. You're. Not. A. Robot.** screen, select either the **Text me** or **Call me** buttons, enter a phone number, and then Select either **Text me** or **Call me**.
+1. Enter your verification code, and then Select **Create my account**.
 1. On the **Save this info.** screen, make note of your Business store sign-in URL and your user ID.
 
-At this point you'll have an Azure AD directory created with one user account and that account is the global administrator. You can use this account to sign in to Store for Education.
+At this point, you'll have an Azure AD directory created with one user account and that account is the global administrator. You can use this account to sign in to Store for Education.
 
 #### Sign in to Store for Education
 
-1. Open a browser and go to [https://www.microsoft.com/education-store](https://www.microsoft.com/education-store) and then click **Sign-up**.
+1. Open a browser and go to [https://www.microsoft.com/education-store](https://www.microsoft.com/education-store) and then Select **Sign-up**.
 1. Sign in with your Azure AD account credentials.
 1. Read and accept Microsoft Store for Business and Education terms.
 
@@ -99,7 +99,7 @@ There are two roles for the management of purchases. This table lists the roles 
 1. On **Roles**, or **Purchasing roles**, select **Assign roles**.
 1. Enter a name, choose the role you want to assign, and select **Save**. If you don't find the name you want, you might need to add people to your Azure AD directory.
 
-For more information see **Manage user accounts** in the Learn more section.
+For more information, see **Manage user accounts** in the Learn more section.
 
 ## Get apps and content
 
@@ -129,13 +129,13 @@ You can use either, or both distribution methods in your organization.
 
 ### Distribute with Store for Education
 
-- Email link – After purchasing an app, Admins can send employees a link in an email message. Employees can click the link to install the app.
+- Email link – After purchasing an app, Admins can send employees a link in an email message. Employees can Select the link to install the app.
 - Curate private store for all employees – A private store can include content you’ve purchased from Microsoft Store for Business, and your line-of-business apps that you’ve submitted to Microsoft Store for Business. Apps in your private store are available to all of your employees. They can browse the private store and install apps when needed.
 - To use the options above users must be signed in with an Azure AD account on a Windows 10 device. Licenses are assigned as individuals install apps.
 
 ### Using a management tool
 
-For larger organizations that want a greater level of control over how apps are distributed and managed, a management tools provides other distribution options:
+For larger organizations that want a greater level of control over how apps are distributed and managed, a management tool provides other distribution options:
 
 - Scoped content distribution – Ability to scope content distribution to specific groups of employees.
 - Install apps for employees – Employees are not responsible for installing apps. Management tool installs apps for employees.
@@ -153,15 +153,15 @@ The private store was created when you signed up for Microsoft Store. Applicatio
 #### To acquire an app and make it visible in your private store
 
 1. Sign in to Microsoft Store for Education.
-1. Click an application, choose the license type, and then click **Get the app** to acquire the application for your organization.
+1. Select an application, choose the license type, and then Select **Get the app** to acquire the application for your organization.
 1. Microsoft Store adds the app to **Products and services**.
-1. Click **Manage, Apps & software** for app distribution options.
+1. Select **Manage, Apps & software** for app distribution options.
 
 #### To make an app in Apps & software available in your private store
 
 1. Sign in to Microsoft Store for Business or Microsoft Store for Education.
-1. Click Manage, and then choose Products and services.
-1. Click on the application to open the application settings, then select Private store availability.
+1. Select Manage, and then choose Products and services.
+1. Select on the application to open the application settings, then select Private store availability.
 1. Select Everyone to make application available for all people in your organization.
 
 > [!NOTE]
@@ -180,35 +180,35 @@ Private store availability allows you to choose which groups of people can see a
 To assign security groups to an app
 
 1. Sign in to the Microsoft Store for Business or Microsoft Store for Education.
-1. Click Manage, and then choose Products & services.
+1. Select Manage, and then choose Products & services.
 1. Find an app, choose the ellipses, and then choose View license details.
-1. Click Private store availability, select Specific groups, and then click Assign groups.
-1. Enter a name or email address for the security group you want to use, and then click Add groups.
+1. Select Private store availability, select Specific groups, and then Select Assign groups.
+1. Enter a name or email address for the security group you want to use, and then Select Add groups.
 
 #### Manage application licenses
 
-For each app in your inventory, you can view and manage license details. This give you another way to assign apps to people in your organization. It also allows you to reclaim app licenses after they've been assigned to people, or claimed by people in your organization.
+For each app in your inventory, you can view and manage license details. This gives you another way to assign apps to people in your organization. It also allows you to reclaim app licenses after they've been assigned to people, or claimed by people in your organization.
 
 To view license details
 
 1. Sign in to Microsoft Store for Education.
-1. Click **Manage**, and then choose **Products & services**.
-1. Click an app you want to manage.
+1. Select **Manage**, and then choose **Products & services**.
+1. Select an app you want to manage.
 1. On the app details page, you'll see the names of people in your organization who have installed the app and are using one of the licenses. From here, you can:
     - Assign the app to other people in your organization.
     - Reclaim app licenses.
     - View app details.
-    - Add the app to your private store, if it is not in the private store.
+    - Add the app to your private store, if it isn't in the private store.
 
 You can assign the app to more people in your organization, or reclaim licenses.
 
 To assign an app to more people
 
-- On the app page, click **Assign users**, type the email address for the person that you're assigning the app to, and click **Assign**.
+- On the app page, Select **Assign users**, type the email address for the person that you're assigning the app to, and Select **Assign**.
 
 To reclaim licenses
 
-- On the app page, choose the person you want to reclaim the license from, click the ellipses, and then click **Reclaim licenses**.
+- On the app page, choose the person you want to reclaim the license from, Select the ellipses, and then Select **Reclaim licenses**.
 
 Microsoft Store updates the list of assigned licenses.
 
@@ -219,15 +219,15 @@ You can purchase additional licenses for apps in your Inventory.
 To purchase additional app licenses
 
 1. Sign in to Microsoft Store for Education.
-1. Click **Manage**, and then choose **Apps & software**.
-1. From **Apps & software**, click an app.
-1. On the app page, click **Buy more** for additional licenses, or click **Assign users** to manage your current licenses.
+1. Select **Manage**, and then choose **Apps & software**.
+1. From **Apps & software**, Select an app.
+1. On the app page, Select **Buy more** for additional licenses, or Select **Assign users** to manage your current licenses.
 
 You'll have a summary of current license availability.
 
 #### Download offline-licensed app
 
-Offline licensing is a new feature in Windows 10 and allows apps to be deployed to devices that are not connected to the Internet. This means organizations can deploy apps when users or devices do not have connectivity to the Store.
+Offline licensing is a new feature in Windows 10 and allows apps to be deployed to devices that aren't connected to the Internet. This means organizations can deploy apps when users or devices don't have connectivity to the Store.
 
 You can download offline-licensed apps from your inventory. You'll need to download these items:
 
@@ -242,7 +242,7 @@ For more information about downloading offline-licensed apps, see **Download off
 
 #### Manage products programmatically
 
-Microsoft Store for Education provides a set of Admin management APIs. If you organization develops scripts or tools, these APIs allow Admins to programmatically manage items in **Apps & software**. For more information, see **REST API reference for Microsoft Store for Business** in the Learn more section.
+Microsoft Store for Education provides a set of Admin management APIs. If your organization develops scripts or tools, these APIs allow Admins to programmatically manage items in **Apps & software**. For more information, see **REST API reference for Microsoft Store for Business** in the Learn more section.
 
 You can download a preview PowerShell script that uses REST APIs. The script is available from PowerShell Gallery. You can use to the script to:
 
