@@ -1,0 +1,61 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.edu-deploy-devices.knowledge-check
+metadata:
+  title: kKnowledge Check
+  description: Check your knowledge
+  ms.date: 10/09/2020
+  author: iankensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+title: knowledge check
+durationInMinutes: 5
+content: |
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Which operating systems support Shared PC mode for school devices?"
+      choices:
+      - content: "iOS, iPadOS, OS X"
+        isCorrect: false
+        explanation: "Shared PC mode support is not available on Apple devices."
+      - content: "Windows 10 Pro"
+        isCorrect: true
+        explanation: "Shared PC mode can be applied to devices running Windows 10 Pro, Windows 10 Pro Education."
+      - content: "Android OS"
+        isCorrect: false
+        explanation: "Shared PC mode support isn't available on Android devices."
+    - content: "When provisioning a Windows device for the classroom using the CleanPC and removing pre-installed apps option, what is the estimated provisioning time?"
+      choices:
+      - content: "3 to 5 minutes"
+        isCorrect: false
+        explanation: "Provisioning of default settings takes 3 to 5 minutes."
+      - content: "10-15 minutes"
+        isCorrect: false
+        explanation: "Provisioning of default settings and applications takes 10 to 15 minutes."
+      - content: "60 minutes"
+        isCorrect: true
+        explanation: "It takes 60 minutes to applying default settings, and the removal of pre-installed apps using CleanPC."
+    - content: "Which of the following describes what Windows Autopilot can be used to do?"
+      choices:
+      - content: "Reset, repurpose, and recover devices"
+        isCorrect: true
+        explanation: "Using Windows Autopilot you can quickly and easily manage your devices"
+      - content: "Reset, recover, and lock devices"
+        isCorrect: false
+        explanation: "You wouldn't use Windows Autopilot for these purposes."
+      - content: "Deploy, repurpose, and connect devices"
+        isCorrect: false
+        explanation: "You wouldn't use Windows Autopilot for these purposes."
+    - content: "Once created, how long does an Apple MDM Push certificate, MDM server token, or a VPP token last for?"
+      choices:
+      - content: "Indefinitely"
+        isCorrect: true
+        explanation: "These tokens and certificates are only valid for a limited time period."
+      - content: "365 days"
+        isCorrect: true
+        explanation: "Each of these tokens will expire 365 days from the date of creation.  Microsoft Intune will notify you when it they're about to expire."
+      - content: "180 days"
+        isCorrect: false
+        explanation: "These tokens and certificates have a longer duration than 180 days."

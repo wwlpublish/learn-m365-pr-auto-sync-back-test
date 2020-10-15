@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.edu-deploy-devices.6-summary
+metadata:
+  title: Summary
+  description: Summarize what you've learnt in this module.
+  ms.date: 10/09/2020
+  author: iankensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  ROBOTS: NOINDEX
+title: Summary and Knowledge Check
+durationInMinutes: 1
+content: |
+  [!include[](includes/6-summary.md)]
