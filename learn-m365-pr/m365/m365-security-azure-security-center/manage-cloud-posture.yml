@@ -9,6 +9,6 @@ metadata:
   author: iankensey
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
-durationInMinutes: 10
+durationInMinutes: 15
 content: |
   [!include[](includes/manage-cloud-posture.md)]

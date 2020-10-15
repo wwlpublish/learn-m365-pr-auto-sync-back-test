@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.workplace-analytics-teams-insights.analyze
+title: Analyze Teams adoption trends
+metadata:
+  title: Analyze Teams adoption trends using the Power BI template
+  description: Learn how to prepare and generate useful data using the Workplace Analytics Power BI Teams insights dashboard.  Analyze Microsoft Teams adoption trends from the populated reports.
+  ms.date: 10/05/2020
+  author: AlexandraHrt
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 10
+content: |
+  [!include[](includes/analyze.md)]

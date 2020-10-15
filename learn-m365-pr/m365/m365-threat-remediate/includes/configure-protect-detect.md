@@ -68,11 +68,11 @@ An impersonated domain might otherwise be considered legitimate (registered doma
 
 ![Anti-phishing policy](../media/anti-phishing-policy.png)
 
-### Explore how to safeguard your organization with Office 365 ATP
+### Explore how to safeguard your organization with Microsoft Defender for Office 365
 
-View a [video version](https://www.microsoft.com/videoplayer/embed/RE4AD4D) of the interactive guide (captions available in more languages).
+View a [video version](https://www.microsoft.com/videoplayer/embed/RE4GsOE) of the interactive guide (captions available in more languages).
 
-<a href="https://mslearn.cloudguides.com/guides/Safeguard%20your%20organization%20with%20Office%20365%20Advanced%20Threat%20Protection">![Office 365 ATP](../media/thumbnail-safeguard-office-365-atp.png)</a>  
+<a href="https://mslearn.cloudguides.com/guides/Safeguard%20your%20organization%20with%20Microsoft%20Defender%20for%20Office%20365">![Defender for Office 365](../media/safeguard-your-organization.png)</a>  
 
 Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
 
