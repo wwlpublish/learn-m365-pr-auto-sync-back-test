@@ -41,14 +41,15 @@ Now that you've bought the apps, use Intune for Education to specify the group t
 :::image type="content" source="../media/3-intune-all-users.png" alt-text="Intune for Education All Users":::
 
 1. Under **Apps**, select **Windows apps**, and then select **Edit apps**.
+
 :::image type="content" source="../media/3-intune-windows-apps.png" alt-text="Intune for Education Edit apps":::
 
 1. Select the apps to deploy to the group. A blue check mark will appear next to the apps you select.
-:::image type="content" source="../media/3-intune-select-duolingo.png" alt-text="Intune for Education Edit apps":::
+
+:::image type="content" source="../media/3-intune-select-duolingo.png" alt-text="Screenshot showing confirmed app selection":::
 
 1. Once you're done, click **Save** at the top of the page to deploy the selected apps to the group.
 
 You'll be notified that app assignments are being updated. The updated All Users groups page now include the apps you selected.
 
 :::image type="content" source="../media/3-intune-duolingo-assigned.png" alt-text="Intune for Education assigned apps":::
-
