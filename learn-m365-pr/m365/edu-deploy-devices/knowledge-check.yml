@@ -51,7 +51,7 @@ quiz:
     - content: "Once created, how long does an Apple MDM Push certificate, MDM server token, or a VPP token last for?"
       choices:
       - content: "Indefinitely"
-        isCorrect: true
+        isCorrect: false
         explanation: "These tokens and certificates are only valid for a limited time period."
       - content: "365 days"
         isCorrect: true
