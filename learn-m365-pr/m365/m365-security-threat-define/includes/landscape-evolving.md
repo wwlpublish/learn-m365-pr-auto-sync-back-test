@@ -34,7 +34,7 @@ Microsoft Threat Protection suite protects:
 
 View a [video version](https://www.microsoft.com/videoplayer/embed/RE4GsNW) of the interactive guide (captions available in more languages).
 
-<a href="https://mslearn.cloudguides.com/guides/Protect%20your%20organization%20with%20Microsoft%20365%20Defender">![Protect your organization with Microsoft 365 Defender](../media/thumbnail-protect-microsoft-threat-protection.png)</a>  
+<a href="https://mslearn.cloudguides.com/guides/Protect%20your%20organization%20with%20Microsoft%20365%20Defender">![Protect your organization with Microsoft 365 Defender](../media/protect-organization-microsoft-defender.png)</a>  
 
 Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
 

@@ -39,3 +39,11 @@ The next stage is when attackers attempt to move laterally through your environm
 Ultimately, attackers want to establish domain dominance. One method, for example is the DCShadow attack. This attack is designed to change directory objects using malicious replication. This attack can be performed from any machine by creating a rogue domain controller using a replication process. If this occurs, Azure ATP triggers an alert when a machine in the network tries to register as a rogue domain controller.
 
 This is not the complete set of detections, but it shows the breadth of detections Azure ATP covers.
+
+### Explore how to detect suspicious activities and potential attacks with Microsoft Defender for Identity (formerly Azure ATP)
+
+View a [video version](https://www.microsoft.com/videoplayer/embed/RE4Gq4n) of the interactive guide (captions available in more languages).
+
+<a href="https://mslearn.cloudguides.com/en-us/guides/Detect%20suspicious%20activities%20and%20potential%20attacks%20with%20Microsoft%20Defender%20for%20Identity">![Detect suspicious activities and potential attacks with Microsoft Defender for Identity](../media/detect-suspicious-activities.png)</a> 
+
+Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 

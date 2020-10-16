@@ -213,6 +213,15 @@ You select a specific resource to drill down into it, and view the recommendatio
 
 :::image type="content" source="../media/3-network-details-inline.png" lightbox="../media/3-network-details-expanded.png" alt-text="View network details":::
 
+
+### Explore how to protect your hybrid cloud with Azure Security Center
+
+View a [video version](https://www.microsoft.com/en-us/videoplayer/embed/RE4GsND) of the interactive guide (captions available in more languages).
+
+<a href="https://mslearn.cloudguides.com/guides/Protect%20your%20hybrid%20cloud%20with%20Azure%20Security%20Center">![Azure Security Center](../media/protect-your-hybrid-cloud.png)</a>  
+
+Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
+
 ## Learn more
 
 - [Workflow automation required roles and permissions](https://docs.microsoft.com/azure/security-center/workflow-automation#availability)
