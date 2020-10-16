@@ -1,0 +1,40 @@
+### YamlMime:Module
+uid: learn-m365.m365-teams-rooms-manage
+metadata:
+  title: Manage Microsoft Teams Rooms
+  description: Learn about Microsoft Teams Rooms management choices-unmanaged, on-premises, hybrid, Microsoft 365, and the Microsoft Teams Rooms Premium managed service option. Understand which tools to use and when to use them. Learn some basic troubleshooting techniques in a Teams Rooms meeting. 
+  ms.date: 09/30/2020
+  author: AlexandraHrt
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage Microsoft Teams Rooms
+summary: Learn about Microsoft Teams Rooms management choices-unmanaged, on-premises, hybrid, Microsoft 365, and the Microsoft Teams Rooms Premium managed service option. Understand which tools to use and when to use them. Learn some basic troubleshooting techniques in a Teams Rooms meeting. 
+abstract: |
+  At the end of this module, you should be able to:
+  - Differentiate between the available management options.
+  - Understand which tools to use and when to use them.
+  - Troubleshoot poor participant audio in a Teams Rooms meeting. 
+
+prerequisites: | 
+ - Familiarity with Microsoft Teams
+ - Familiarity with PowerShell
+
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+- student
+products:
+- m365
+- office-teams
+units:
+- learn-m365.m365-teams-rooms-manage.introduction
+- learn-m365.m365-teams-rooms-manage.explore-options
+- learn-m365.m365-teams-rooms-manage.basic-tools
+- learn-m365.m365-teams-rooms-manage.admin-center
+- learn-m365.m365-teams-rooms-manage.knowledge-check
+- learn-m365.m365-teams-rooms-manage.summary
+badge: 
+  uid: learn-m365.m365-teams-rooms-manage.badge
