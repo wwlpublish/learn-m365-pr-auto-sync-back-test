@@ -39,18 +39,18 @@ In order to sign in to Microsoft Store for Education, you must be a global admin
 
 #### Create an Azure AD account through Store for Education
 
-1. Open a browser and go to [https://www.microsoft.com/education-store](https://www.microsoft.com/education-store) and then Select **Sign-up**.
-1. On the **Welcome, Let's get to know you screen**, type in the required information and then Select **Next**
-1. On the **Create your user ID** screen, examine the information that was created from the first screen, and then Select **Next**.
-1. On the **Prove. You're. Not. A. Robot.** screen, select either the **Text me** or **Call me** buttons, enter a phone number, and then Select either **Text me** or **Call me**.
-1. Enter your verification code, and then Select **Create my account**.
+1. Open a browser and go to [https://www.microsoft.com/education-store](https://www.microsoft.com/education-store) and then select **Sign-up**.
+1. On the **Welcome, Let's get to know you screen**, type in the required information and then select **Next**
+1. On the **Create your user ID** screen, examine the information that was created from the first screen, and then select **Next**.
+1. On the **Prove. You're. Not. A. Robot.** screen, select either the **Text me** or **Call me** buttons, enter a phone number, and then select either **Text me** or **Call me**.
+1. Enter your verification code, and then select **Create my account**.
 1. On the **Save this info.** screen, make note of your Business store sign-in URL and your user ID.
 
 At this point, you'll have an Azure AD directory created with one user account and that account is the global administrator. You can use this account to sign in to Store for Education.
 
 #### Sign in to Store for Education
 
-1. Open a browser and go to [https://www.microsoft.com/education-store](https://www.microsoft.com/education-store) and then Select **Sign-up**.
+1. Open a browser and go to [https://www.microsoft.com/education-store](https://www.microsoft.com/education-store) and then select **Sign-up**.
 1. Sign in with your Azure AD account credentials.
 1. Read and accept Microsoft Store for Business and Education terms.
 
@@ -129,7 +129,7 @@ You can use either, or both distribution methods in your organization.
 
 ### Distribute with Store for Education
 
-- Email link – After purchasing an app, Admins can send employees a link in an email message. Employees can Select the link to install the app.
+- Email link – After purchasing an app, Admins can send employees a link in an email message. Employees can select the link to install the app.
 - Curate private store for all employees – A private store can include content you’ve purchased from Microsoft Store for Business, and your line-of-business apps that you’ve submitted to Microsoft Store for Business. Apps in your private store are available to all of your employees. They can browse the private store and install apps when needed.
 - To use the options above users must be signed in with an Azure AD account on a Windows 10 device. Licenses are assigned as individuals install apps.
 
@@ -153,7 +153,7 @@ The private store was created when you signed up for Microsoft Store. Applicatio
 #### To acquire an app and make it visible in your private store
 
 1. Sign in to Microsoft Store for Education.
-1. Select an application, choose the license type, and then Select **Get the app** to acquire the application for your organization.
+1. Select an application, choose the license type, and then select **Get the app** to acquire the application for your organization.
 1. Microsoft Store adds the app to **Products and services**.
 1. Select **Manage, Apps & software** for app distribution options.
 
@@ -182,8 +182,8 @@ To assign security groups to an app
 1. Sign in to the Microsoft Store for Business or Microsoft Store for Education.
 1. Select Manage, and then choose Products & services.
 1. Find an app, choose the ellipses, and then choose View license details.
-1. Select Private store availability, select Specific groups, and then Select Assign groups.
-1. Enter a name or email address for the security group you want to use, and then Select Add groups.
+1. Select Private store availability, select Specific groups, and then select Assign groups.
+1. Enter a name or email address for the security group you want to use, and then select Add groups.
 
 #### Manage application licenses
 
@@ -204,11 +204,11 @@ You can assign the app to more people in your organization, or reclaim licenses.
 
 To assign an app to more people
 
-- On the app page, Select **Assign users**, type the email address for the person that you're assigning the app to, and Select **Assign**.
+- On the app page, select **Assign users**, type the email address for the person that you're assigning the app to, and select **Assign**.
 
 To reclaim licenses
 
-- On the app page, choose the person you want to reclaim the license from, Select the ellipses, and then Select **Reclaim licenses**.
+- On the app page, choose the person you want to reclaim the license from, select the ellipses, and then select **Reclaim licenses**.
 
 Microsoft Store updates the list of assigned licenses.
 
@@ -220,8 +220,8 @@ To purchase additional app licenses
 
 1. Sign in to Microsoft Store for Education.
 1. Select **Manage**, and then choose **Apps & software**.
-1. From **Apps & software**, Select an app.
-1. On the app page, Select **Buy more** for additional licenses, or Select **Assign users** to manage your current licenses.
+1. From **Apps & software**, select an app.
+1. On the app page, select **Buy more** for additional licenses, or select **Assign users** to manage your current licenses.
 
 You'll have a summary of current license availability.
 
@@ -252,4 +252,3 @@ You can download a preview PowerShell script that uses REST APIs. The script is 
 
 > [!NOTE]
 > The Microsoft Store for Business and Education Admin role is required to manage products and to use the MSStore module. This requires advanced knowledge of PowerShell.
-

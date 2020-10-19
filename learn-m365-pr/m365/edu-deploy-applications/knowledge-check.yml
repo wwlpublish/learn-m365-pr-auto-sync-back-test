@@ -14,27 +14,27 @@ durationInMinutes: 4
 content: |
 quiz:
     questions:
-    - content: "Which of the following isn't two types of administrators?"
+    - content: "Which of the following is a valid administrator role?"
       choices:
       - content: "Global Administrator"
-        isCorrect: false
-        explanation: "Global Administrator is one of the two types discussed in this course."
-      - content: "Billing Administrator"
-        isCorrect: false
-        explanation: "Global Administrator is one of the two types discussed in this course."
-      - content: "Accounts Administrator"
         isCorrect: true
-        explanation: "Account Administrator isn't one of the two types discussed in this course."
-    - content: "Which of the following statements about VPP tokens isn't true?"
+        explanation: "Global Administrator is one of the two types discussed in this course."
+      - content: "Universal Administrator"
+        isCorrect: false
+        explanation: "Universal Administrator is not one of the two types discussed in this course."
+      - content: "Accounts Administrator"
+        isCorrect: false
+        explanation: "Account Administrator is not one of the two types discussed in this course."
+    - content: "Which of the following statements about VPP tokens is true?"
       choices:
-      - content: "VPP tokens are used with fee apps"
+      - content: "VPP tokens are only used with fee apps"
         isCorrect: false
         explanation: "VPP tokens can be used with both free and paid apps."
       - content: "Intune silently installs VPP-purchased apps."
-        isCorrect: false
+        isCorrect: true
         explanation: "This is a true statement."
       - content: "Apple ID is required with VPP paid apps"
-        isCorrect: true
+        isCorrect: false
         explanation: "This statement is false. All VPP-purchased apps do not require Apple ID to authenticate."
     - content: "Which describes the minimum version of Internet Explorer an administrator would need to work with Microsoft Store for Education?"
       choices:

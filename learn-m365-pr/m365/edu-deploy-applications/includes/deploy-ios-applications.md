@@ -18,9 +18,9 @@ Complete the following steps to add an iOS app to Intune for Education.
 
 1. Sign in to the Intune for Education portal.
 1. Select **Apps**.
-1. In the left pane, under **iOS Apps**, Select **New app**.
+1. In the left pane, under **iOS Apps**, select **New app**.
 1. In the search box, type the full or partial name of an app.
-1. Select the app and Select **Save** to add the app to your Intune inventory.
+1. Select the app and select **Save** to add the app to your Intune inventory.
 
 ### View app details in Intune for Education
 
@@ -53,8 +53,8 @@ Complete the following steps to search and add paid-for iOS apps from the Intune
 Free apps are made available for purchase directly from the portal. However, these apps are made available so that users without a VPP account can easily get them. If you plan to deploy free apps silently and in volume to your school's devices, you should purchase them through the Apple VPP or Apple School Manager websites.
 
 1. Sign in to the Intune for Education portal.
-1. Select **Apps**, Select **New app**, and then Select **New iOS app**.
-1. From the app list, under **iOS Apps**, Select **New app**.
+1. Select **Apps**, select **New app**, and then select **New iOS app**.
+1. From the app list, under **iOS Apps**, select **New app**.
 1. Select the country/region from where you're purchasing the app.
 1. Type in the app's full or partial name. Intune returns a list of relevant results from the App Store.
 1. Select the app.

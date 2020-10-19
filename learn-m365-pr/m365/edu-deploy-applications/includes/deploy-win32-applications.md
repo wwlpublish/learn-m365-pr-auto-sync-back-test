@@ -5,10 +5,10 @@ Here, you'll learn how to install applications from the Microsoft Store for Educ
 In this example, you'll see how to install a free educational/reference application.
 
 1. Using a browser, connect to Intune for Education at [https://intuneeducation.portal.azure.com](https://intuneeducation.portal.azure.com).
-1. In the Intune for Education console, Select **Apps** from the menu on the left.
+1. In the Intune for Education console, select **Apps** from the menu on the left.
 :::image type="content" source="../media/3-intune-apps-menu.png" alt-text="Intune for Education Apps":::
 
-1. On the Apps screen, Select **New App**, and then Select **New Microsoft Store app**. This will take you to the Microsoft Store for Education portal and you'll already be signed in.
+1. On the Apps screen, select **New App**, and then select **New Microsoft Store app**. This will take you to the Microsoft Store for Education portal and you'll already be signed in.
 :::image type="content" source="../media/3-intune-new-apps.png" alt-text="Intune for Education New App":::
 
 1. In the Microsoft Store page, check some of the categories for suggested apps or search the Store for a free educational or reference app. Find ones that you haven't already installed during express setup for Intune for Education.
@@ -20,7 +20,7 @@ In this example, you'll see how to install a free educational/reference applicat
     - Khan Academy
     - My Study Life
 
-1. Find or select the app you want to install and Select **Get the app**.
+1. Find or select the app you want to install and select **Get the app**.
 
 1. Repeat steps 3-5 to install another app or move to the next step.
 
@@ -34,11 +34,11 @@ In this example, you'll see how to install a free educational/reference applicat
 
 Now that you've bought the apps, use Intune for Education to specify the group to install the apps for. Here, we'll show you how to install the apps you bought for all devices used by all users in your tenant.
 
-1. In the Intune for Education console, Select the **Groups** option from the menu on the left.
+1. In the Intune for Education console, select the **Groups** option from the menu on the left.
 
    :::image type="content" source="../media/3-intue-groups.png" alt-text="Intune for Education Groups":::
 
-1. In the **Groups** page, select **All Users** from the list of groups on the left, and then in **Group member**, Select **Users**.
+1. In the **Groups** page, select **All Users** from the list of groups on the left, and then in **Group member**, select **Users**.
 
    :::image type="content" source="../media/3-intune-all-users.png" alt-text="Intune for Education All Users":::
 
@@ -50,7 +50,7 @@ Now that you've bought the apps, use Intune for Education to specify the group t
 
    :::image type="content" source="../media/3-intune-select-duolingo.png" alt-text="Screenshot showing confirmed app selection":::
 
-1. Once you're done, Select **Save** at the top of the page to deploy the selected apps to the group.
+1. Once you're done, select **Save** at the top of the page to deploy the selected apps to the group.
 
    You'll be notified that app assignments are being updated. The updated All Users groups page now includes the apps you selected.
 
