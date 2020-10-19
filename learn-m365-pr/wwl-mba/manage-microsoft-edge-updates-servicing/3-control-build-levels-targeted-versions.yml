@@ -4,11 +4,11 @@ title: Control build levels and targeted versions of Microsoft Edge through grou
 metadata:
   title: Control build levels and targeted versions of Microsoft Edge through group policy
   description: "Control build levels and targeted versions of Microsoft Edge through group policy"
-  ms.date: 10/18/2020
+  ms.date: 10/21/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
-  ms.prod: learning-m365
+  ms.prod: learning-windows
 azureSandbox: false
 durationInMinutes: 3
 content: |

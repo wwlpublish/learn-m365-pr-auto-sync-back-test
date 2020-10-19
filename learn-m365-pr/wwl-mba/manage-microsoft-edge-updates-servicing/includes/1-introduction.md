@@ -9,6 +9,6 @@ At the end of this module, you will be able to:
 - Control builds and targeted versions of Microsoft Edge through group policy.
 - Configure side-by-side installations of Microsoft Edge
 
-## Pre-requisites
+## Prerequisites
 
 - Experience deploying and configuring application packages using software distribution tools such as Microsoft Intune or Configuration Manager

@@ -3,7 +3,7 @@ uid: learn.wwl.manage-microsoft-edge-updates-servicing
 metadata:
   title: Manage Microsoft Edge updates and servicing
   description: "Manage Microsoft Edge updates and servicing"
-  ms.date: 10/18/2020
+  ms.date: 10/21/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -17,7 +17,7 @@ abstract: |
   - Configure side-by-side installations of Microsoft Edge
 prerequisites: |
   - Experience deploying and configuring application packages using software distribution tools such as Microsoft Intune or Configuration Manager
-iconUrl: /learn/achievements/manage_microsoft_edge_updates_and_servicing.svg
+iconUrl: /learn/achievements/manage-microsoft-edge-updates-servicing.svg
 levels:
 - intermediate
 roles:
