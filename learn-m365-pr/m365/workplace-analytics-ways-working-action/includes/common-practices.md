@@ -43,7 +43,7 @@ Meeting overload is a frequent burden on employees and can be measured through W
 
 - **Invite fewer people**. When preparing the agenda, include the purpose of each participant's attendance. The exercise reveals unnecessary invitees, including people who are optional or only require meeting notes.
 
-- **Cancel recurring meetings**. Every quarter reassess the need for recurring meetings that consume the most time. Try cancelling some and then add them back if missed.
+- **Cancel recurring meetings**. Every quarter reassess the need for recurring meetings that consume the most time. Try canceling some and then add them back if missed.
 
 - **Say no to meetings**. Managers who decline meetings they are not needed in, with a brief explanation for why they declined, empower employees and role-model healthy habits.
 
