@@ -63,7 +63,7 @@ A new Windows device comes with many applications that aren't suited to the clas
 - Mail/Calendar
 - Skype
 
-## Create a provisioning package
+## Create a provisioning package using Windows Configuration Designer
 
 To create a provisioning package, you can use Windows Configuration Designer. This can be downloaded from the Microsoft Store or as a Windows ADK.
 
@@ -90,6 +90,12 @@ Downloading and installing Windows Configuration Designer is outside this unit's
    - Common to Windows 10 Team edition
 1. Select Finish to create your project.
 1. From the Available customizations pane, you can now configure the settings for your package.
+
+### Interactive guide on creating provisioning packages
+
+Watch and interact with this online guide, which will walk you through the process of creating a provisioning package.
+
+[Interactive Guide for creating a provisioning package](Place guide URL here)
 
 ## Provisioning time estimates
 
