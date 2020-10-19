@@ -27,7 +27,7 @@ You can consider some best practices with every change initiative:
 
 ## Scenario-specific common practices
 
-Here’s three common Workplace Analytics scenarios and tactics to help take action on.
+Here are three common Workplace Analytics scenarios and tactics to help take action on.
 
 - Reduce meeting overload
 - Develop effective managers
