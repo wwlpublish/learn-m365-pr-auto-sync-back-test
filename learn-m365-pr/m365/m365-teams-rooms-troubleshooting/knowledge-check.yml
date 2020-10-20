@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-teams-rooms-troubleshooting.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: Learn about the available Microsoft Teams end-user adoption tools and how to educate your users on their benefits. Learn how to operate and manage Teams Rooms in a production environment. Discover how to troubleshoot common issues with Microsoft Teams Rooms.
+  ms.date: 10/19/2020
+  author: AlexandraHrt
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Why is end user adoption important?"
+      choices:
+      - content: "To make sure users know how to use Teams Rooms to help conduct effective meetings."
+        isCorrect: true
+        explanation: "Correct! Just because you installed Teams Rooms doesn’t mean your users will know how to use the console and access the features."
+      - content: "It isn’t because Teams Rooms is self-explanatory."
+        isCorrect: false
+        explanation: "Incorrect. Teams Rooms is indeed very easy to use to join and control meetings. However, not every user will know how to use Teams Rooms effectively without having some training first."
+      - content: "So that users will know about the meeting lifecycle."
+        isCorrect: false
+        explanation: "Incorrect. Microsoft Teams is an important tool to track the lifecycle of meetings. However, Teams Rooms is only a portion of the meeting lifecycle. If users Don't know how to use Teams Rooms, the investments made will not have a great return."
+
+    - content: "Why should you routinely review the Teams Rooms equipment in your meeting rooms?"
+      choices:
+      - content: "To make sure they are showing up correctly in Teams Admin Center."
+        isCorrect: false
+        explanation: "Incorrect. You walk the rooms every week or so to make sure that they are still functioning correctly and to spot any issues before they arise."
+      - content: "To make sure everything is working correctly and spot any issues before it affects meetings."
+        isCorrect: true
+        explanation: "Correct! You walk the rooms every week or so to make sure that they are still functioning correctly and to spot any issues before they arise."
+      - content: "To prepare the room for the next meeting."
+        isCorrect: false
+        explanation: "Incorrect. You walk the rooms every week or so to make sure that they are still functioning correctly and to spot any issues before they arise."
+      
+    - content: "If video and audio performance are choppy, what steps would help fix this issue?"
+      choices:
+      - content: "Add an HDMI CEC adapter."
+        isCorrect: false
+        explanation: "Incorrect. An HDMI CEC adapter is used to wake up a display at the start of the meeting. They don't help with choppy audio or video performance."
+      - content: "Use the Microsoft Teams Rooms recovery tool."
+        isCorrect: false
+        explanation: "Incorrect. The Teams Rooms recovery tool can help update the Teams Rooms app if it's having trouble updating."
+      - content: "Bypass the proxy server and disable break/inspect on Teams media traffic."
+        isCorrect: true
+        explanation: "Correct! Proxies and break/inspect are known to cause problems with Microsoft Teams media."
+      
