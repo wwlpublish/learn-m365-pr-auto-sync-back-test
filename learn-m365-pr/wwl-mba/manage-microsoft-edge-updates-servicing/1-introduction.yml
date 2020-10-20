@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-microsoft-edge-updates-servicing.introduction
+title: Introduction
+metadata:
+  title: Introduction
+  description: "Introduction"
+  ms.date: 10/21/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-windows
+azureSandbox: false
+durationInMinutes: 1
+content: |
+  [!include[](includes/1-introduction.md)]
