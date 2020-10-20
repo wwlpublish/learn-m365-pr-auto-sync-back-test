@@ -30,14 +30,14 @@ products:
 - m365
 - office-365
 units:
-uid: learn-m365.m365-compmgmt-undertand-landscape.introduction
-uid: learn-m365.m365-compmgmt-undertand-landscape.harness-explosion
-uid: learn-m365.m365-compmgmt-undertand-landscape.identify-regulations
-uid: learn-m365.m365-compmgmt-undertand-landscape.manage-challenges
-uid: learn-m365.m365-compmgmt-undertand-landscape.discover-challenges
-uid: learn-m365.m365-compmgmt-undertand-landscape.simplify-compliance
-uid: learn-m365.m365-compmgmt-undertand-landscape.determine-cases
-uid: learn-m365.m365-compmgmt-undertand-landscape-assessment.knowledge-check
-uid: learn-m365.m365-compmgmt-undertand-landscape-assessment.summary
+- learn-m365.m365-compmgmt-undertand-landscape.introduction
+- learn-m365.m365-compmgmt-undertand-landscape.harness-explosion
+- learn-m365.m365-compmgmt-undertand-landscape.identify-regulations
+- learn-m365.m365-compmgmt-undertand-landscape.manage-challenges
+- learn-m365.m365-compmgmt-undertand-landscape.discover-challenges
+- learn-m365.m365-compmgmt-undertand-landscape.simplify-compliance
+- learn-m365.m365-compmgmt-undertand-landscape.determine-cases
+- learn-m365.m365-compmgmt-undertand-landscape-assessment.knowledge-check
+- learn-m365.m365-compmgmt-undertand-landscape-assessment.summary
 badge: 
   uid: learn-m365.m365-compmgmt-undertand-landscape.badges
