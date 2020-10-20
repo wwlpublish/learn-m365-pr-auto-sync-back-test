@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.compmgmt-learn-concepts.identify-regulations
+uid: learn-m365.compmgmt-learn-concepts.explain-model
 title: Explain the shared responsibility model
 metadata:
   title:  Explain the shared responsibility model
@@ -12,4 +12,4 @@ metadata:
 
 durationInMinutes: 2
 content: |
-  [!include[](includes/identify-regulations.md)]
+  [!include[](includes/explain-model.md)]
