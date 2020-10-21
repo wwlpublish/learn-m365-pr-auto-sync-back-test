@@ -20,15 +20,17 @@ By using your own Workplace Analytics data and employee feedback, you can priori
 
 ## 2. Identify the root cause
 
-The outcome you want is often unachievable without first identifying the root cause. If you identify that your organization has poor meeting culture, it's valuable to keep asking why until you get to an addressable root cause. 
+The outcome you want is often unachievable without first identifying the root cause. If you identify that your organization has poor meeting culture, it's valuable to keep asking why until you get to an addressable root cause.
 
-![Identify the root cause](../media/identify-root-cause.png)
+> [!div class="centered"]
+> ![Identify the root cause](../media/identify-root-cause.png)
 
 ## 3. Define the target behavior(s)
 
 After you've identified the root cause you can begin to identify specific behaviors that individuals will need to start doing. 
 
-![Define the target behavior](../media/root-cause-target-behavior.png)
+> [!div class="centered"]
+> ![Define the target behavior](../media/root-cause-target-behavior.png)
 
 In some cases, you might have an exhaustive list of target behaviors but find a need to prioritize due to the risk of overwhelming people or limited resources to drive the change. In either case you can use the following to prioritize target behaviors:
 
@@ -37,7 +39,8 @@ In some cases, you might have an exhaustive list of target behaviors but find a 
 
 Here's an example of what it looks like to prioritize your target behaviors. Your results will vary and be determined by your organization’s culture. 
 
-![Prioritize target behaviors](../media/target-behavior-impact.png)
+> [!div class="centered"]
+> ![Prioritize target behaviors](../media/target-behavior-impact.png)
 
 ## 4. Identify barriers to change
 
@@ -58,7 +61,8 @@ In some cases, you might develop quite a few tactics that you’d like to priori
 - How likely is it that the goal will be achieved by implementing this tactic?
 - How easy is it to implement?
 
-![Prioritize tactics](../media/prioritize-tactics.png)
+> [!div class="centered"]
+> ![Prioritize tactics](../media/prioritize-tactics.png)
 
 ## What are co-creation workshops?
 
