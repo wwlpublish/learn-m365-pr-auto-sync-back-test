@@ -65,7 +65,7 @@ The relationship between an employee and their manager can increase effectivenes
 
 - **Use Teams and OneNote to share meeting notes**. Employees can share meeting notes with decisions and action items with managers as an alternative way to keep them informed.
 
-### Reduce Organizational Silos
+### Reduce organizational silos
 
 - **Cross-functional goals**. Create cross-functional goals for managers of isolated teams and assign interdepartmental liaisons to communicate across teams.
 

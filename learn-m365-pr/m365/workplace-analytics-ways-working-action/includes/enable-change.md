@@ -134,7 +134,9 @@ Here’s the Insights for people managers **Home** page:
 
 Here's some examples of how you can track progress:
 
-![Insights for people managers Home page](../media/insights-people-managers-home.png)
+![Are you getting enough time with your manager?](../media/team-time-manager.png)
+
+![Are you getting enough time to focus?](../media/team-time-focus.png)
 
 After identifying an opportunity, the manager can take action by enrolling team members into a plan.
 
