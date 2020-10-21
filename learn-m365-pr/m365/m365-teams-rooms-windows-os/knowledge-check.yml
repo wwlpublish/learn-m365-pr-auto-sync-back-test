@@ -1,0 +1,63 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-teams-rooms-windows-os.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: Learn how to manage the underlying Microsoft Windows operating system on Microsoft Teams Rooms devices. Discover the tools and best practices for managing Windows on Teams Rooms devices and which tools to use. Explore how Teams Room stays updated with the latest Windows patches and versions.
+  ms.date: 10/14/2020
+  author: AlexandraHrt
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Which of the following are best practices for managing Teams Rooms?"
+      choices:
+      - content: "Block inheritance of group policies but not Intune conditional access policies."
+        isCorrect: false
+        explanation: "Incorrect. You should also block inheritance of conditional access policies as they most likely have policy settings that conflict with Teams Rooms."
+      - content: "Enable multi-factor authentication and use dynamic groups."
+        isCorrect: false
+        explanation: "Incorrect. Multi factor authentication is not supported on Teams Rooms."
+      - content: "Create custom Active Directory organizational units, create dynamic groups, and block group policy inheritance."
+        isCorrect: true
+        explanation: "Correct! Teams Rooms shouldn’t be treated like typical workstations or servers. Teams Rooms has unique requirements that most servers and workstations don’t have."
+
+    - content: "What advantage do dynamic groups in Azure Active directory provide?"
+      choices:
+      - content: "You can easily group Teams Rooms by using a naming standard."
+        isCorrect: true
+        explanation: "Correct. If you have a consistent naming standard for Teams Rooms, they will automatically join an Azure AD dynamic group. You could then send down Intune Policies tied to this group to, for example, simplify the initial configuration of Teams Rooms."
+      - content: "Automatically apply Intune policies."
+        isCorrect: false
+        explanation: "Incorrect. It's' possible that an Intune policy could get automatically applied to a dynamic group. However, that's' a function of Intune and not a native function of dynamic groups in Azure Active directory."
+      - content: "Require you to manually add Teams Rooms to a group called Dynamic."
+        isCorrect: false
+        explanation: "Incorrect. Dynamic groups automatically add machines to a group based on certain criteria, such as machine name. With dynamic groups, you don’t have to manually add members to the group."
+      
+    - content: "Which tool is **NOT** part of Configuration Manager in Microsoft Endpoint Manager?"
+      choices:
+      - content: "Intune"
+        isCorrect: false
+        explanation: "Incorrect. Intune is part of Endpoint Manager."
+      - content: "Power Automate"
+        isCorrect: true
+        explanation: "Correct! Power Automate is used to easily create automated workflows to improve productivity with business process automation."
+      - content: "System Center Configuration Manager"
+        isCorrect: false
+        explanation: "Incorrect. Configuration Manager is now part of Endpoint Manager."
+      
+    - content: "How do you best update Teams Rooms?"
+      choices:
+      - content: "Let Teams Rooms update the app but manually install new versions of Windows as they get released."
+        isCorrect: false
+        explanation: "Incorrect. The nightly script downloads and installs all Teams Rooms app updates and any necessary Windows updates, including security updates."
+      - content: "Manually update the Teams Rooms app but let the Windows updates get installed automatically."
+        isCorrect: false
+        explanation: "Incorrect. The nightly script downloads and installs all Teams Rooms app updates and any necessary Windows updates, including security updates."
+      - content: "By leaving it alone."
+        isCorrect: true
+        explanation: "Correct! Teams Rooms is designed to update itself. It will always be running the latest Windows security updates and the latest version of the Teams rooms app."
+        
