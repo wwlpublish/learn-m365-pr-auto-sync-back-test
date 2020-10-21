@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn-m365.m365-teams-rooms-windows-os
+metadata:
+  title: Manage Microsoft Windows on Teams Rooms 
+  description: Learn how to manage the underlying Microsoft Windows operating system on Microsoft Teams Rooms devices. Discover the tools and best practices for managing Windows on Teams Rooms devices and which tools to use. Explore how Teams Room stays updated with the latest Windows patches and versions.
+  ms.date: 10/14/2020
+  author: AlexandraHrt
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage Microsoft Windows on Teams Rooms 
+summary: Learn how to manage the underlying Microsoft Windows operating system on Microsoft Teams Rooms devices. Discover the tools and best practices for managing Windows on Teams Rooms devices and which tools to use. Explore how Teams Room stays updated with the latest Windows patches and versions.
+abstract: |
+  At the end of this module, you should be able to:
+  - Become aware of the management options available.
+  - Explain which management tools are your best choice.
+  - Understand how Windows and Teams Rooms stay updated.
+
+
+prerequisites: | 
+ - Familiarity with Microsoft Teams
+ - Familiarity with Microsoft Windows operating system
+
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+- student
+products:
+- m365
+- office-teams
+units:
+- learn-m365.m365-teams-rooms-windows-os.introduction
+- learn-m365.m365-teams-rooms-windows-os.management-concepts
+- learn-m365.m365-teams-rooms-windows-os.azure-ad
+- learn-m365.m365-teams-rooms-windows-os.endpoint-manager
+- learn-m365.m365-teams-rooms-windows-os.update
+- learn-m365.m365-teams-rooms-windows-os.knowledge-check
+- learn-m365.m365-teams-rooms-windows-os.summary
+badge: 
+  uid: learn-m365.m365-teams-rooms-windows-os.badge
