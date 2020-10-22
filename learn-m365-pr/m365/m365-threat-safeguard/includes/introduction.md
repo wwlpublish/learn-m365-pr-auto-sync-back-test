@@ -40,7 +40,7 @@ Ultimately, attackers want to establish domain dominance. One method, for exampl
 
 This is not the complete set of detections, but it shows the breadth of detections Azure ATP covers.
 
-### Explore how to detect suspicious activities and potential attacks with Microsoft Defender for Identity (formerly Azure ATP)
+### Explore how to detect suspicious activities and potential attacks with Microsoft Defender for Identity
 
 View a [video version](https://www.microsoft.com/videoplayer/embed/RE4Gq4n) of the interactive guide (captions available in more languages).
 
