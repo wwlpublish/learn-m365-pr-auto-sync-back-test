@@ -1,6 +1,8 @@
-The Teams insights Power BI template provides a quick and easy way to conduct a broad diagnostic on Teams collaboration and adoption.
+The Microsoft Teams insights Power BI template provides a quick and easy way to conduct a broad diagnostic on Teams collaboration and adoption.
 
-So how does it work? Each report page provides data that you can act on into one of the themes laid out on the introduction page. Embedded guidance helps users to uncover useful information and ground their findings in a business context. 
+## So how does it work? 
+
+Each report page provides data that you can act on into one of the themes laid out on the introduction page. Embedded guidance helps users to uncover useful information and ground their findings in a business context. 
 
 ![A view of the report pages](../media/report-pages.png)
 

@@ -4,13 +4,13 @@ The Teams insights dashboard uses a prebuilt Power BI template populated by outp
 
 To set up the Teams insights dashboard:
 
-1. Run the Teams insights and Influence insights queries.
+1. Run the Microsoft Teams insights and Influence insights queries.
 2. Download the Teams insights Power BI template and load the query output.
 3. Select your settings in the Teams insights dashboard.
 
 After the data is loaded, the dashboard reports generate automatically. This results in multiple pages of Workplace Analytics reports that give a broad, diagnostic view of Teams adoption.
 
-**1. Run the Teams insights and Influence insights queries**. The Teams insights dashboard reports require output from two Workplace Analytics queries. On the Queries page, under **Start from preselected filters and metrics**, begin by running the Teams insights and Influence insights queries.
+**1. Run the Microsoft Teams insights and Influence insights queries**. The Teams insights dashboard reports require output from two Workplace Analytics queries. On the Queries page, under **Start from preselected filters and metrics**, begin by running the Teams insights and Influence insights queries.
 
 In the upper right corner of the query card, you'll notice a Power BI icon. This icon means there's a download option for a Power BI template that you can use to generate the reports in the dashboard.
 
