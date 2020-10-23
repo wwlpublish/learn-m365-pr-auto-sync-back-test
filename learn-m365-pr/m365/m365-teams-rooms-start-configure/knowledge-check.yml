@@ -1,0 +1,48 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-teams-rooms-start-configure.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "**Start and configure Microsoft Teams Rooms** guides you through the configuration and testing steps to get Teams Rooms ready for production. You’ll learn about the out-of-box experience, key actions to take, and validation of the essential Teams Rooms features."
+  ms.date: 10/02/2020
+  author: AlexandraHrt
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Teams Rooms supports Modern Authentication."
+      choices:
+      - content: "True"
+        isCorrect: true
+        explanation: "Correct. While Modern Authentication is optional, it's a supported option."
+      - content: "False"
+        isCorrect: false
+        explanation: "Modern authentication is an optional configuration. However, it's supported on Teams Rooms."
+
+    - content: "What is a critical security step to take immediately after setting up Teams Rooms?"
+      choices:
+      - content: "Change the default Admin password."
+        isCorrect: true
+        explanation: "Absolutely! All Teams Rooms ship with an Admin account and the same default password. You should change the default password as quickly as possible."
+      - content: "Update the Teams Rooms App."
+        isCorrect: false
+        explanation: "This is an important step, but it’s not a critical security step."
+      - content: "Change the password for the resource account."
+        isCorrect: false
+        explanation: "You can change the resource account password whenever you like. However, it's not a critical security piece."
+      
+    - content: "What **don’t** you need to verify when testing basic Teams Rooms functionality?"
+      choices:
+      - content: "The ability to see and hear a remote attendee."
+        isCorrect: false
+        explanation: "This is an important step when verifying that the room is set up correctly."
+      - content: "Validating that the brightness on the console and displays is set appropriately."
+        isCorrect: false
+        explanation: "This is an important step when verifying that the room is set up correctly."
+      - content: "Sending a feedback report."
+        isCorrect: true
+        explanation: "Sending a feedback report is something you should test, but it's not helpful in validating the basic functionality of Teams Rooms."
+      
