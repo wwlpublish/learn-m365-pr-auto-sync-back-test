@@ -21,7 +21,7 @@ prerequisites: |
  - Familiarity with Microsoft Teams devices
  - Familiarity with Windows 10 management tools
 
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/start-and-configure-microsoft-teams-rooms.svg
 levels:
 - intermediate
 roles:
@@ -32,7 +32,7 @@ products:
 - office-teams
 units:
 - learn-m365.m365-teams-rooms-start-configure.introduction
-- learn-m365.m365-teams-rooms-start-configure.out-box-experience
+- learn-m365.m365-teams-rooms-start-configure.out-of-box-experience
 - learn-m365.m365-teams-rooms-start-configure.take-key-actions
 - learn-m365.m365-teams-rooms-start-configure.review-configure-settings
 - learn-m365.m365-teams-rooms-start-configure.validate
