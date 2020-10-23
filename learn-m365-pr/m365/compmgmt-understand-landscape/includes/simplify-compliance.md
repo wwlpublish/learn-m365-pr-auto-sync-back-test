@@ -12,4 +12,4 @@ Compliance Manager provides the following benefits:
 
 Watch the 90-second video below to learn how Compliance Manager can simplify how your organization manages compliance:
 > 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4H9S1?azure-portal=true]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4FGYZ?azure-portal=true]

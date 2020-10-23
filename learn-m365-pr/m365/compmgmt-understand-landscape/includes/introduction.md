@@ -5,3 +5,17 @@ Suppose you work at an electronics company. After you've been responsible for IT
 In this module, you will learn why compliance management has become so important and be introduced to Microsoft’s solution for compliance management.   You will gain an understanding of some of the most common use cases and be presented with a proposed compliance management journey using Microsoft Compliance Manager.
 
 By the end of this module, you will be more familiar with the compliance management landscape and how Microsoft can help you simplify compliance and reduce risk.
+
+## Learning objectives
+
+By the end of this module, you will be able to:
+
+- Describe why compliance management is important.
+- List common compliance management challenges.
+- Explain how Microsoft Compliance Manager helps you achieve compliance management goals.
+
+
+## Prerequisites
+
+- Cloud computing concepts
+

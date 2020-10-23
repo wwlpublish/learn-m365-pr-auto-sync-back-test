@@ -7,7 +7,7 @@ Now that you have finished this module, you should be able to:
 - Explain how Microsoft Compliance Manager helps you achieve compliance management goals.
 
 
-Use these resources to discover more.
+## Resources
 
 - [Microsoft Compliance Manager](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-overview?azure-portal=true)
 - [Microsoft 365 compliance center](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center?azure-portal=true)
