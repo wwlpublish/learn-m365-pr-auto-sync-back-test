@@ -6,9 +6,9 @@ Here are some of the terms you should be familiar with as you use Compliance Man
 
 ## Controls
 A control is a requirement of a regulation, standard, or policy. It defines how you assess and manage system configuration, organizational process, and people responsible for meeting a specific requirement of a regulation, standard, or policy. Controls are organized into control families that align with the assessment structure for corresponding certifications or regulations. Based on the shared responsibility model for security and compliance in the cloud, controls can be: 
-1.	**Microsoft-managed controls:** Microsoft is responsible for these controls and provides detailed information on how they are implemented.
-2.	**Your controls:** Sometimes referred to as customer-managed controls, these are controls your organization is responsible for implementing.
-3.	**Shared controls:** These are controls that both your organization and Microsoft share responsibility for implementing.
+- **Microsoft-managed controls:** Microsoft is responsible for these controls and provides detailed information on how they are implemented.
+- **Your controls:** Sometimes referred to as customer-managed controls, these are controls your organization is responsible for implementing.
+- **Shared controls:** These are controls that both your organization and Microsoft share responsibility for implementing.
 
 For example, Compliance Manager includes a control with the title *Privacy Compliance - DLP Policies for Sensitive Data*, which is part of the *Privacy and Compliance* control family. It is a shared control since both your organization and Microsoft share the implementation responsibility. 
 
@@ -32,9 +32,9 @@ In our example, the Data Protection Baseline *assessment template* was used to c
 An improvement action is an activity that helps implement one or more controls. Each action provides information to help you align with regulations and standards. Improvement actions can be assigned to users in your organization to implement and test. Documentation can be stored, and action status can be recorded for auditing or other purposes.
 
 In our example, besides the actions Microsoft has taken on your behalf, the three improvement actions your organization can take that align with the Privacy Compliance - DLP Policies for Sensitive Data control of the Data Protection Baseline are:
-1.	Create DLP Policies for Personally Identifiable Information.  
-2.	Create customized DLP Policies for Company Sensitive Information.
-3.	Create customized or use default DLP Policies for Personal Data.
+- Create DLP Policies for Personally Identifiable Information.  
+- Create customized DLP Policies for Company Sensitive Information.
+- Create customized or use default DLP Policies for Personal Data.
 
 ## Control mapping
 A single improvement action can help satisfy the requirements of more than one control. This is referred to as control mapping. The additional control or controls can be part of the same assessment or another assessment. This helps eliminate duplication of effort, increases efficiency, and saves time. To illustrate, completing one improvement action, Enable Multifactor Authentication, helps satisfy controls in 50 different regulations. 
