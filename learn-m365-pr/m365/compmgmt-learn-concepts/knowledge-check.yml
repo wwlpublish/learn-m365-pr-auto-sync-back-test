@@ -61,14 +61,14 @@ quiz:
         isCorrect: true
         explanation: "Correct. Preventative actions address specific risks. For example, protecting information at rest using encryption is a preventative action against attacks and breaches. "
       
-    - content: "Each action has an assigned value in Compliance Manager based on the risk it represents. Those values range from 1 point to 27 points. Which type of action has an assigned value of 9 points?"
+    - content: "Each action has an assigned value in Compliance Manager based on the risk it represents. Those values range from one point to 27 points. Which type of action has an assigned value of nine points?"
       choices:
       - content: "Preventative discretionary"
         isCorrect: true
-        explanation: "Correct. A preventative discretionary improvement action has an assigned value of 9 points."
+        explanation: "Correct. A preventative discretionary improvement action has an assigned value of nine points."
       - content: "Corrective mandatory"
         isCorrect: false
-        explanation: "Incorrect. A corrective mandatory improvement action has an assigned value of 3 points."
+        explanation: "Incorrect. A corrective mandatory improvement action has an assigned value of three points."
       - content: "Precautionary discretionary"
         isCorrect: false
         explanation: "Incorrect. There is no Compliance Manager improvement action of the type precautionary discretionary."
