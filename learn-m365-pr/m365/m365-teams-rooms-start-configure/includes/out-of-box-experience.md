@@ -25,10 +25,10 @@ When you first power on Teams Rooms, the first screens you see are the out-of-bo
 1. You can also enable Modern Authentication. 
 1. After entering and setting the necessary values choose **Next**. 
 
-   ![Click Next after your password](../media/out-of-box-initial-setup-options.png)
+   [ ![Choose Next after setting values](../media/out-of-box-initial-setup-options.png) ](../media/out-of-box-initial-setup-options-lightbox.png#lightbox)
 
 1. The Advanced screen is meant for advanced Skype for Business configurations. Check with a Skype for Business expert if you need to fill out these values. In most cases, you can just skip this screen by choosing **Next**.
 1. If you have Microsoft certified Teams Rooms equipment connected, you'll see the congratulations message. If not, you'll need to connect the center of room console to the compute module.
 1. Choose **Finish** to complete the out-of-box experience for both Windows and Microsoft Teams Rooms.
 
-   ![Finish the out-of-box experience](../media/out-of-box-finish.png)
+   [ ![Choose Finish to complete the out-of-box experience](../media/out-of-box-finish.png) ](../media/out-of-box-finish-lightbox.png#lightbox)
