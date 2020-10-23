@@ -94,7 +94,10 @@ Inline suggestions in Outlook are brief data and AI-driven notifications that ap
 
 Broadly available inline suggestions include the following:
 
-- Delay email delivery
+- Delay email delivery. Here's an example:
+
+  ![Example of an inline suggestion in Outlook](../media/delay-email-delivery.png)
+
 - Suggested outstanding tasks
 - Get more time to focus
 - Plan your time away
@@ -125,7 +128,7 @@ In addition to its standard weekly digest, the digest for plan participants incl
 Insights for people managers provide team leaders with behavioral measures of employee experience and team effectiveness. Managers can leverage a dashboard to track progress, view suggested actions, and launch a plan for their team.
 
 > [!NOTE]
-> Managers cannot access data on individuals. Managers who are assigned access can only see data on their team in an aggregate view. The default group size threshold is five.
+> Managers cannot access data on individuals. Managers who are assigned access can only see data on their team in an aggregate view. The default group size threshold is ten, including the manager.
 >
 
 Here’s the Insights for people managers **Home** page:

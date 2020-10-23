@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn-m365.m365-teams-rooms-troubleshooting
+metadata:
+  title: Adopt, maintain, and troubleshoot Microsoft Teams Rooms
+  description: Learn about the available Microsoft Teams end-user adoption tools and how to educate your users on their benefits. Learn how to operate and manage Teams Rooms in a production environment. Discover how to troubleshoot common issues with Microsoft Teams Rooms.
+  ms.date: 10/19/2020
+  author: AlexandraHrt
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Adopt, maintain, and troubleshoot Microsoft Teams Rooms
+summary: Learn about the available Microsoft Teams end-user adoption tools and how to educate your users on their benefits. Learn how to operate and manage Teams Rooms in a production environment. Discover how to troubleshoot common issues with Microsoft Teams Rooms.
+abstract: |
+  In this module, you’ll learn: 
+  - Ideas for end-user training and adoption materials.
+  - Operation and maintenance techniques for Teams Rooms.
+  - Common issues with Teams Rooms and how to troubleshoot them.
+
+prerequisites: | 
+ - Familiarity with Microsoft Teams deployment and resource accounts
+ - Familiarity with Microsoft Teams devices
+ - Familiarity with Windows 10 management tools
+
+iconUrl: /learn/achievements/adopt-troubleshoot-microsoft-teams-rooms.svg
+levels:
+- intermediate
+roles:
+- administrator
+- student
+products:
+- m365
+- office-teams
+units:
+- learn-m365.m365-teams-rooms-troubleshooting.introduction
+- learn-m365.m365-teams-rooms-troubleshooting.help-adopt
+- learn-m365.m365-teams-rooms-troubleshooting.operate-maintain
+- learn-m365.m365-teams-rooms-troubleshooting.troubleshoot
+- learn-m365.m365-teams-rooms-troubleshooting.knowledge-check
+- learn-m365.m365-teams-rooms-troubleshooting.summary
+badge: 
+  uid: learn-m365.m365-teams-rooms-troubleshooting.badge
