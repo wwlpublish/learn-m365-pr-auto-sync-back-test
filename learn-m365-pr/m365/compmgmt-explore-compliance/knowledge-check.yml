@@ -13,39 +13,27 @@ durationInMinutes: 5
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Question here"
+    - content: "Some Compliance Manager improvement actions are also monitored by Microsoft Secure Score. Enabling automatic updates between Secure Score and Compliance Manager reduces duplication of effort between the security team and compliance team. Besides the global administrator, what role group can enable automatic updates for individual actions?"
       choices:
-      - content: "Choice 1"
+      - content: "Security Administrator "
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
+        explanation: "Incorrect. The Security Administrator role group does not manage this setting globally or individually."
+      - content: "Compliance Administrator"
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+        explanation: "Incorrect. The Compliance Administrator role group cannot turn on automatic updates for individual actions."
+      - content: "Compliance Manager Administrator"
         isCorrect: true
-        explanation: "explanation"
+        explanation: "Correct. Members of the Compliance Manager Administrator role group can turn on automatic updates for individual actions."
 
-    - content: "Question here"
+    - content: "Compliance score breakdown on the Compliance Manager dashboard is divided into two sections that allow you to view a subset of your compliance score. What are the names of those two sections?"
       choices:
-      - content: "Choice 1"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
-        isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
+      - content: "Assessments and Categories"
         isCorrect: true
-        explanation: "explanation"
-      
-    - content: "Question here"
-      choices:
-      - content: "Choice 1"
+        explanation: "Correct. Compliance score breakdown includes an Assessments section and a Categories section."
+      - content: "Solutions and Categories"
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 2"
+        explanation: "Compliance score breakdown does not have a Solutions section. You can, however, use the filtering functionality in the Compliance Manager dashboard to filter content by Solution."
+      - content: "Controls and Assessments"
         isCorrect: false
-        explanation: "explanation"
-      - content: "Choice 3"
-        isCorrect: true
-        explanation: "explanation"
-      
+        explanation: "Incorrect. Compliance score breakdown does not have a Controls section. The two sections are Assessments and Categories."
+     
