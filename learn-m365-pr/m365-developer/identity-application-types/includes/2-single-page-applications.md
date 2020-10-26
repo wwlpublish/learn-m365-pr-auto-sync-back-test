@@ -1,41 +1,43 @@
 Web standards and modern browsers have advanced considerably in recent years to the point that developers can create sophisticated client-side applications. These client-side applications, also referred to as single-page applications (SPAs), can enable users to authenticate and obtain tokens from Microsoft identity platform that can be used to call secured web APIs.
 
-In this unit, you’ll learn how to create, configure, and use Azure AD applications that use data returned from Microsoft Graph in single-page applications by using the OAuth 2.0 implicit grant flow.
+In this unit, you’ll learn how to create, configure, and use Azure AD applications that use data returned from Microsoft Graph in single-page applications by using the OAuth 2.0 authorization code flow.
 
 ## Single-page applications (SPA)
 
-Many modern web applications are built as client-side SPAs written using JavaScript or a SPA framework such as Angular, Vue, or React. These applications run in a web browser and have different authentication characteristics than traditional server-side web applications. The Microsoft identity platform enables SPAs to sign in users and get tokens to access backend services or web APIs using the OAuth 2.0 implicit flow. The implicit flow allows the application to get ID tokens to represent the authenticated user and also access tokens needed to call protected APIs.
+Many modern web applications are built as client-side SPAs written using JavaScript or a SPA framework such as Angular, Vue, or React. These applications have traditionally used the OAuth 2.0 implicit flow to authenticate and obtain an access token to connect to protected services.
 
-SPAs and other JavaScript apps that run primarily in a browser have unique challenges when it comes to authentication:
+The pattern used to implement the implicit flow in SPAs included the use of iframes and cookies for silent single sign-on in the browser. However, many modern browsers now block third-party cookies that breaks that implementation. That fact, along with concerns about the visibility of access tokens when using the implicit grant flow, lead to the decision to move to using the OAuth 2.0 authorization code flow for SPAs.
 
-- Security characteristics of these apps are different from traditional server-based web applications
-- Many authorization servers and identity providers don't support CORS requests
-- Full-page browser redirects away from the app become invasive to the user experience
+## Microsoft Authentication Library (MSAL) JS
 
-## OAuth 2.0 implicit grant flow
+The easiest way to use Microsoft identity for authentication and to obtain access tokens to authorize requests to secured endpoints in SPAs is to use the Microsoft Authentication Library (MSAL) for JavaScript.
 
-The OAuth 2.0 implicit grant flow is a popular way for these SPAs to authenticate and obtain an access token to connect to protected services. The Microsoft identity platform supports the OAuth 2.0 implicit grant flow.
+MSAL.js 1.x only supports the use of the implicit flow. However, in July 2020 Microsoft released MSAL.js 2.0 that supports the use of the authorization code flow. The remainder of this unit and the following exercise focus on MSAL.js 2.x and the use of the authorization code flow.
 
 ## Azure AD app registration
 
 In order for a SPA to use Microsoft identity to enable users to authenticate and obtain access tokens for use with services such as Microsoft Graph, you must register a new app with Azure AD. You can do this using the Azure AD admin center https://aad.portal.azure.com.
 
-By default, Azure AD apps don't support the OAuth 2.0 implicit grant flow. After registering the Azure AD app, there are a few things you need to do.
+After the application has been created, configure it to use the **Single-page application** platform.
 
-First, ensure the redirect URI of the app points to the URL of the SPA. This URL must match the redirect URL provided by the SPA when the authentication process is initiated.
+![Screenshot of selecting the supported platforms for the Azure AD app](../media/03-azure-ad-portal-new-app-details-02.png)
 
-Next, ensure the implicit flow is enabled by selecting the **ID token** option on the app's authentication settings. If the app is also going to request an access token to use in authenticating requests to other Microsoft identity-protected endpoints, you must also select the **Access tokens** option.
+Next, ensure the redirect URI of the app points to the URL of the SPA. This URL must match the redirect URL provided by the SPA when the authentication process is started.
 
-![Screenshot of the authentication settings for the Azure AD app](../media/03-azure-ad-portal-new-app-authentication.png)
+![Screenshot of the authentication settings configurations for the Azure AD app](../media/03-azure-ad-portal-new-app-details-03.png)
 
-## MSAL JS & code configuration
+## Code configuration
 
-The easiest way to use Microsoft identity for authentication and to obtain access tokens to authorize requests to secured endpoints in SPAs is to use the Microsoft Authentication Library (MSAL) for JavaScript.
+Load the MSAL.js 2.x library from the Microsoft-hosted content delivery network (CDN):
 
-After adding a script reference to the page, add the following code to obtain an instance of the application:
+```html
+<script src="https://alcdn.msauth.net/browser/2.4.0/js/msal-browser.js"></script>
+```
+
+After adding the script reference to the page, add the following code to obtain an instance of the application:
 
 ```javascript
-const msalConfig = {
+var msalConfig = {
   auth: {
     clientId: '{{AZUREAD_APP_ID}}',
     authority: 'https://login.microsoftonline.com/{{AZUREAD_DIRECTORY_ID}}',
@@ -43,10 +45,10 @@ const msalConfig = {
   },
   cache: {
     cacheLocation: "localStorage",
-    storeAuthStateInCookie: true
+    storeAuthStateInCookie: isIE || isEdge
   }
 };
-const msalApplication = new Msal.UserAgentApplication(msalConfig);
+var msalApplication = new msal.PublicClientApplication(msalConfig);
 ```
 
 The app ID and directory ID tokens in the code are placeholders for the values from the Azure AD app.
@@ -59,13 +61,14 @@ The app ID and directory ID tokens in the code are placeholders for the values f
 With the application configured, the next step is for the user to sign in. Do this by calling the `loginPopup()` method and pass in an object with the wanted permissions defined:
 
 ```javascript
-var loginRequest = {
-  scopes: ["user.read", "mail.read"]
+var graphConfig = {
+  requestObj: {
+    scopes: ["user.read", "mail.read"]
+  }
 };
-msalApplication.loginPopup(loginRequest)
-  .then(function (loginResponse) {
-    let idToken = loginResponse.idToken;
-  }).catch(function (error) {
+msalApplication.loginPopup(graphConfig.requestObj)
+  .then(handleResponse)
+  .catch(function (error) {
     console.log(error);
   });
 ```
@@ -82,25 +85,31 @@ After the user has signed in, the next step is to obtain an access token to use 
 
 There are two methods on the MSAL.js API that you can use for this task:
 
-- `acquireTokenSilent()`: If the user has already signed in and an interactive sign-in is not required, this method will return a response that includes the access token:
+- `acquireTokenSilent()`: If the user has already signed in and an interactive sign-in isn't required, this method will return a response that includes the access token:
 
     ```javascript
-    var accessTokenRequest = { scopes: ["user.read", "mail.read"] };
+    var tokenRequest = {
+      scopes: ["user.read", "mail.read"],
+      account: msalApplication.getAccountByUsername(userEmail)
+    };
 
-    msalApplication.acquireTokenSilent(accessTokenRequest)
-      .then(function(accessTokenResponse) {
-        let accessToken = accessTokenResponse.accessToken;
+    msalApplication.acquireTokenSilent(tokenRequest)
+      .then(function(tokenResponse) {
+        var accessToken = tokenResponse.accessToken;
       });
     ```
 
 - `acquireTokenPopup()`: if the `acquireTokenSilent()` fails and/or an interactive sign-in is required, you can use this method. It will combine the request to sign in and obtain an access token in one step:
 
     ```javascript
-    var accessTokenRequest = { scopes: ["user.read", "mail.read"] };
+    var tokenRequest = {
+      scopes: ["user.read", "mail.read"],
+      account: msalApplication.getAccountByUsername(userEmail)
+    };
 
-    msalApplication.acquireTokenPopup(accessTokenRequest)
-      .then(function(accessTokenResponse) {
-        let accessToken = accessTokenResponse.accessToken;
+    msalApplication.acquireTokenPopup(tokenRequest)
+      .then(function(tokenResponse) {
+        var accessToken = tokenResponse.accessToken;
       });
     ```
 
@@ -109,12 +118,9 @@ There are two methods on the MSAL.js API that you can use for this task:
 Once your SPA has an access token, you can use it to call the secured endpoint, such as Microsoft Graph:
 
 ```javascript
-getMessagesFromMSGraph(
-  'https://graph.microsoft.com/v1.0/me/messages?$top=10&$select=subject',
-  tokenResponse.accessToken
-  onSuccessGraphCallback);
+function getMessagesFromMSGraph(accessToken, callback) {
+  var endpoint = "https://graph.microsoft.com/v1.0/me/messages?$top=10&$select=subject";
 
-function getMessagesFromMSGraph(endpoint, accessToken, callback) {
   var xmlHttp = new XMLHttpRequest();
   xmlHttp.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200)
@@ -128,4 +134,4 @@ function getMessagesFromMSGraph(endpoint, accessToken, callback) {
 
 ## Summary
 
-In this unit, you learned how to create, configure, and use Azure AD applications that use data returned from Microsoft Graph in single-page applications by using the OAuth 2.0 implicit grant flow.
+In this unit, you learned how to create, configure, and use Azure AD applications that use data returned from Microsoft Graph in single-page applications by using the OAuth 2.0 authorization code flow.
