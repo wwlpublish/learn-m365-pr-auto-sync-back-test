@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn-m365.compmgmt-explore-compliance
 metadata:
-  title: Understand today’s compliance landscape
+  title: Explore Microsoft Compliance Manager
   description: In this module, you will learn about the shared responsibility model and important Compliance Manager concepts. 
   ms.date: 10/20/2020
   author: ericweisberg
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Understand today’s compliance landscape
+title: Explore Microsoft Compliance Manager
 summary: In this module, you will learn about the shared responsibility model and important Compliance Manager concepts. 
 abstract: |
   At the end of this module, you should be able to:
