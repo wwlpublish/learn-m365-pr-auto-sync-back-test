@@ -2,7 +2,7 @@
 
 ![the unmanaged option](../media/unmanaged-option.png)
 
-**The on-premises management option**. In a strictly on-premises environment, you can use the local management tools you're already familiar with as well as one new one – the *skypesettings.xml* file. This is a file that you can copy to Teams Rooms to change configuration settings.
+**The on-premises management option**. In a strictly on-premises environment, you can use the local management tools you're already familiar with as well. 
 
 There are other tools you could use too such as Microsoft System Center Operations Manager to track CPU, RAM, and get alerts on specific events.
 
