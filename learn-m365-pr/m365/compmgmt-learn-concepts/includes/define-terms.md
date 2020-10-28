@@ -24,7 +24,7 @@ When creating an assessment, you will be asked to identify the group you want th
 To take our example one step further, the *Privacy Compliance - DLP Policies for Sensitive Data* control is part of the *Data Protection Baseline* assessment in a group named *Default Group*. The Data Protection Baseline is a set of controls that includes key regulations and standards for data protection and general data governance. 
 
 ## Assessment templates 
-Compliance Manager provides pre-configured templates that help you create assessments. Simply put, instantiated templates become assessments. These templates encompass industry and regional standards and regulations. You can use these templates as-is or modify them to meet your requirements. Data Protection Baseline, European Union GDPR, ISO 27001:2013, and NIST 800-53 Rev.4 assessment templates are included subject to your organization’s licensing agreement. Additionally, your organization may choose to obtain one or more of the over 175 pre-built premium assessment templates. You can also create your own assessment templates using the guidance we provide.
+Compliance Manager provides pre-configured templates that help you create assessments. Simply put, instantiated templates become assessments. These templates encompass industry and regional standards and regulations. You can use these templates as-is or modify them to meet your requirements. Data Protection Baseline, European Union GDPR, ISO 27001:2013, and NIST 800-53 Rev.4 assessment templates are included in selected Microsoft 365 SKUs, subject to your organization’s licensing agreement. Additionally, your organization may choose to obtain one or more of the over 175 pre-built premium assessment templates. You can also create your own assessment templates using the guidance we provide.
 
 In our example, the Data Protection Baseline *assessment template* was used to create the Data Protection Baseline *assessment.*
   
@@ -39,7 +39,7 @@ In our example, besides the actions Microsoft has taken on your behalf, the thre
 ## Control mapping
 A single improvement action can help satisfy the requirements of more than one control. This is referred to as control mapping. The additional control or controls can be part of the same assessment or another assessment. This helps eliminate duplication of effort, increases efficiency, and saves time. To illustrate, completing one improvement action, Enable Multifactor Authentication, helps satisfy controls in 50 different regulations. 
 
-In our example, if we use the EU GDPR assessment template to add a second assessment to Compliance Manager, completing the improvement action Create customized DLP Policies for Company Sensitive information would help satisfy both the Privacy Compliance - DLP Policies for Sensitive Data control of the Data Protection Baseline and numerous EU GDPR controls including one with the title Integrity and Confidentiality of Personal Data. 
+In our example, if we use the EU GDPR assessment template to add a second assessment to Compliance Manager, completing the improvement action Create customized DLP Policies for Company Sensitive information would help satisfy both the Privacy Compliance - DLP Policies for Sensitive Data control of the Data Protection Baseline and numerous EU GDPR controls including one with the title *Integrity and Confidentiality of Personal Data.* 
 
 ## Action characteristics
 There are a few different ways to classify improvement actions, including whether they are:

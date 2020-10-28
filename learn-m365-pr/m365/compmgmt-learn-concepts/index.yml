@@ -18,7 +18,6 @@ abstract: |
 
 prerequisites: |
  - Cloud computing concepts
- - Compliance management landscape
 iconUrl: /learn/achievements/learn-microsoft-compliance-manager-concepts.svg
 levels:
 - intermediate

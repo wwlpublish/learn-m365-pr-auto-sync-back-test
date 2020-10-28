@@ -16,4 +16,4 @@ By the end of this module, you will be able to:
 ## Prerequisites
 
 - Cloud computing concepts
-- Compliance management landscape
+
