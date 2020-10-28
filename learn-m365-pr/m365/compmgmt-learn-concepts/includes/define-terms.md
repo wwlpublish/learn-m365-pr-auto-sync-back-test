@@ -32,7 +32,7 @@ In our example, the Data Protection Baseline *assessment template* was used to c
 An improvement action is an activity that helps implement one or more controls. Each action provides information to help you align with regulations and standards. Improvement actions can be assigned to users in your organization to implement and test. Documentation can be stored, and action status can be recorded for auditing or other purposes.
 
 In our example, besides the actions Microsoft has taken on your behalf, the three improvement actions your organization can take that align with the Privacy Compliance - DLP Policies for Sensitive Data control of the Data Protection Baseline are:
-- Create DLP Policies for Personally Identifiable Information.  
+- Create DLP Policies for personal information.  
 - Create customized DLP Policies for Company Sensitive Information.
 - Create customized or use default DLP Policies for Personal Data.
 
