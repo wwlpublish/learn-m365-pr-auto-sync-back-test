@@ -17,7 +17,7 @@ For improvement actions not monitored automatically, Microsoft Compliance Manage
 - **Update status:** Implementation status can be updated at any time during the process but should be done at least once after the implementation is complete. An **Implementation date** can only be added when **Implementation status** is set to **Implemented** or **Alternative Implementation.** The test status fields are locked until **Implementation date** is provided.
 
 ### Test phase
-- **Assign.** The intent of the test phase is to allow someone acting in an oversight capacity, like an auditor or assessor, to confirm the evidence provided during the implementation proves successful completion of the action. The assignee in the implement phase is replaced with the individual responsible for this phase. Email is sent to the assigned user just like it is in the implement phase.
-- **Test.** The tester evaluates the evidence to determine if it is satisfactory. 
-- **Document.** Additional evidence can be uploaded to the improvement action at any time, but documentation in this step should consist mainly of adding information to the Test notes.
-- **Update status.** Status must be set to Passed for the action to achieve points that contribute to your compliance score. If set to Failed, the assessor can assign the action back to someone else to do additional work.
+- **Assign:** The intent of the test phase is to allow someone acting in an oversight capacity, like an auditor or assessor, to confirm the evidence provided during the implementation proves successful completion of the action. The assignee in the implement phase is replaced with the individual responsible for this phase. Email is sent to the assigned user just like it is in the implement phase.
+- **Test:** The tester evaluates the evidence to determine if it is satisfactory. 
+- **Document:** Additional evidence can be uploaded to the improvement action at any time, but documentation in this step should consist mainly of adding information to the Test notes.
+- **Update status:** Status must be set to Passed for the action to achieve points that contribute to your compliance score. If set to Failed, the assessor can assign the action back to someone else to do additional work.
