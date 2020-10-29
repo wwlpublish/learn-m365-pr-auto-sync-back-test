@@ -36,7 +36,7 @@ In Meetings, you have a few options to consider.
    Set-CalendarProcessing <Teams Rooms Resource Account UPN  > -ProcessExternalMeetingMessages $True -DeleteComments $False -DeleteSubject $False
    ```
 
-You'll also need to disable Microsoft 365 Threat Protection link rewrite for any third-party domain names (such as *.webex.com*), using the article ["Do not rewrite the following URLs" lists in Safe Links policies](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links?view=o365-worldwide#do-not-rewrite-the-following-urls-lists-in-safe-links-policies).
+You'll also need to disable Microsoft 365 Threat Protection link rewrite for any third-party domain names (such as **.webex.com*), using the article ["Do not rewrite the following URLs" lists in Safe Links policies](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links?view=o365-worldwide#do-not-rewrite-the-following-urls-lists-in-safe-links-policies).
 
 
 #### The Device screen

@@ -1,4 +1,4 @@
-Azure AD is Microsoft’s cloud-based identity and access management service. Azure AD requires no physical infrastructure and can be accessed anywhere with an internet connection. Organizations deploying Microsoft Teams will already have Azure AD configured and in use. This makes it a natural fit for managing Windows on Teams Rooms devices.
+Azure AD is Microsoft’s cloud-based identity and access management service. Azure AD requires no physical infrastructure and can be accessed anywhere with an internet connection. Organizations deploying Microsoft Teams will already have Azure AD configured and in use. This makes it a natural fit for managing Windows on Teams Rooms.
  
 There are two primary methods to join Windows to Azure AD. The first one is *direct Azure AD join* and the second one is *Hybrid Azure AD*, which works with on-premises Active Directory.
 
