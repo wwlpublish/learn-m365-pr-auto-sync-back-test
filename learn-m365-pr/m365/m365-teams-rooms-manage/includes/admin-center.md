@@ -1,4 +1,7 @@
-Within the Teams admin center, you can see an inventory of all your rooms, their status, performance statistics, and the ability to remotely restart Teams Rooms and collect logs.
+Here are some of the tasks you can do in the Teams admin center:
+-	See an inventory of all your rooms, their status, and performance statistics.
+-	Remotely restart Teams Rooms.
+-	Collect logs.
 
 You can see below that all the rooms are listed in the left-hand column. You can also quickly see that there's one unhealthy room and there's one that’s offline.  You can also see a healthy meetings metric. 99% of the meetings have not had any quality issues.
 
