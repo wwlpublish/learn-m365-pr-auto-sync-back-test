@@ -2,7 +2,7 @@
 
 ![the unmanaged option](../media/unmanaged-option.png)
 
-**The on-premises management option**. In a strictly on-premises environment, you can use the local management tools you're already familiar with as well. 
+**The on-premises management option**. In a strictly on-premises environment, you can use the local management tools you're already familiar with. 
 
 There are other tools you could use too such as Microsoft System Center Operations Manager to track CPU, RAM, and get alerts on specific events.
 
