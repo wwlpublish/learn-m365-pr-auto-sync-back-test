@@ -16,7 +16,9 @@ You're now ready to validate and test Teams Rooms to make sure all's working pro
 
 1. When you're finished, select the **Hang up** icon.
 
-[!NOTE] On the bottom left of the screen you can see **Report a problem**. This would be chosen by users if they had an issue to report. You need to set up an e-mail address in the Device sections of Teams Rooms settings for this option to appear.
+   > [!NOTE]
+   > On the bottom left of the screen you can see **Report a problem**. This would be chosen by users if they had an issue to report. You need to set up an e-mail address in the Device sections of Teams Rooms settings for this option to appear.
+   >
 
 ![Hang up or Report a problem](../media/report-problem.png)
 
