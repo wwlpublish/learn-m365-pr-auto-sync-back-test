@@ -31,7 +31,7 @@ You can see that the poor call was caused by the network.  Below the message are
 
 [ ![Click on Network as the poor call quality cause](../media/troubleshoot-call-quality-3.png) ](../media/troubleshoot-call-quality-3-lightbox.png#lightbox)
 
-After clicking on Network, you can see that the average round-trip time was 784 milliseconds and the maximum round-trip time was almost two seconds.
+After clicking on **Network,** you can see that the average round-trip time was 784 milliseconds and the maximum round-trip time was almost two seconds.
 
 [ ![View the round-trip time](../media/troubleshoot-call-quality-4.png) ](../media/troubleshoot-call-quality-4-lightbox.png#lightbox)
 

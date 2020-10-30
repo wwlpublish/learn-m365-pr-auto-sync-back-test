@@ -1,0 +1,28 @@
+### YamlMime:LearningPath
+uid: learn-m365.compmgmt
+metadata:
+  title: Reduce risk with Microsoft Compliance Manager
+  description: Learn how Microsoft Compliance Manager measures your progress in completing actions that help reduce risks around data protection and regulatory standards.  
+  ms.date: 10/20/2020
+  author: ericweisberg
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Reduce risk with Microsoft Compliance Manager
+summary: "Learn how Microsoft Compliance Manager measures your progress in completing actions that help reduce risks around data protection and regulatory standards."
+prerequisites: | 
+  - Cloud computing concepts
+iconUrl: /learn/achievements/reduce-risk-with-microsoft-compliance-manager.svg
+levels: 
+- intermediate
+roles:
+- administrator
+products: 
+- m365
+- office-365
+modules:
+- learn-m365.compmgmt-understand-landscape
+- learn-m365.compmgmt-learn-concepts
+- learn-m365.compmgmt-explore-compliance
+trophy: 
+  uid: learn-m365.compmgmt.trophy
