@@ -28,6 +28,7 @@ roles:
 - administrator
 products:
 - m365
+- azure
 units:
 - learn-m365.optimize-wvd.introduction
 - learn-m365.optimize-wvd.fslogix
