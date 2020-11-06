@@ -28,7 +28,7 @@ Use Windows Virtual Desktop for specific needs, such as when security is importa
 > 
 > Find out more here: [Windows Autopilot and Surface devices](https://docs.microsoft.com/surface/windows-virtual-desktop-surface)
 
-Find out more about Windows Virtual Desktop here: [Windows Virtual Desktop](https://www.microsoft.com/business/azure/migrate/windows-virtual-desktop/)
+Find out more about Windows Virtual Desktop here: [What is Windows Virtual Desktop?](https://docs.microsoft.com/azure/virtual-desktop/overview)
 
 Watch this video for more information about when to use Windows Virtual Desktop, and how it works:
 
