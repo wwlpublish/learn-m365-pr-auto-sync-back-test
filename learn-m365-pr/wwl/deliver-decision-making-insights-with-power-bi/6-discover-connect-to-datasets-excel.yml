@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.deliver-decision-making-insights-with-power-bi.discover-connect-to-datasets-excel
+title: Discover and connect to Power BI datasets in Excel
+metadata:
+  title: Discover and connect to Power BI datasets in Excel
+  description: "Discover and connect to Power BI datasets in Excel"
+  ms.date: 11/16/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/6-discover-connect-to-datasets-excel.md)]

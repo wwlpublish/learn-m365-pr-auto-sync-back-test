@@ -1,0 +1,43 @@
+### YamlMime:Module
+uid: learn.wwl.deliver-decision-making-insights-with-power-bi
+metadata:
+  title: Deliver decision making insights with Power BI
+  description: "Deliver decision making insights with Power BI"
+  ms.date: 11/16/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Deliver decision making insights with Power BI
+summary: Learn about new Power BI capabilities that help cultivate an organizational data culture. Explore how Power BI integrates with Teams, Excel and the Power Platform to infuse data into where users get their work done.
+abstract: |
+  In this module, you will learn:
+  - How the new Power BI App for Teams helps empower every team to make impactful decisions
+  - How quickly creating reports in Teams helps make decisions when and where it matters
+  - How to connect Power BI organizational datasets in Excel
+prerequisites: ""
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- business-analyst
+- business-owner
+- business-user
+- data-analyst
+products:
+- office-excel
+- office-teams
+- power-bi
+- power-platform
+units:
+- learn.wwl.deliver-decision-making-insights-with-power-bi.introduction
+- learn.wwl.deliver-decision-making-insights-with-power-bi.do-more-with-your-data
+- learn.wwl.deliver-decision-making-insights-with-power-bi.use-artificial-intelligence-to-add-narratives-detect-anomalies-your-data
+- learn.wwl.deliver-decision-making-insights-with-power-bi.interact-with-data-augmented-reality
+- learn.wwl.deliver-decision-making-insights-with-power-bi.empower-every-team-teams
+- learn.wwl.deliver-decision-making-insights-with-power-bi.discover-connect-to-datasets-excel
+- learn.wwl.deliver-decision-making-insights-with-power-bi.turn-insights-into-actions
+- learn.wwl.deliver-decision-making-insights-with-power-bi.knowledge-check
+- learn.wwl.deliver-decision-making-insights-with-power-bi.summary-resources
+badge:
+  uid: learn.wwl.deliver-decision-making-insights-with-power-bi.badge

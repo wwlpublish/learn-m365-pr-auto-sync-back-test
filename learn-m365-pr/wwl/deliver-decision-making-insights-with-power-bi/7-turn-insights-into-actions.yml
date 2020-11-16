@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.deliver-decision-making-insights-with-power-bi.turn-insights-into-actions
+title: Turn insights into actions
+metadata:
+  title: Turn insights into actions
+  description: "Turn insights into actions"
+  ms.date: 11/16/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/7-turn-insights-into-actions.md)]

@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.deliver-decision-making-insights-with-power-bi.interact-with-data-augmented-reality
+title: Interact with data in augmented reality
+metadata:
+  title: Interact with data in augmented reality
+  description: "Interact with data in augmented reality"
+  ms.date: 11/16/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/4-interact-with-data-augmented-reality.md)]
