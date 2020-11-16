@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.advance-power-bi-premium-for-enterprise-analytics-market-beyond.define-cost-management-capabilities
+title: Define cost-management capabilities
+metadata:
+  title: Define cost-management capabilities
+  description: "Define cost-management capabilities"
+  ms.date: 11/16/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/4-define-cost-management-capabilities.md)]

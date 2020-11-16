@@ -1,0 +1,40 @@
+### YamlMime:Module
+uid: learn.wwl.advance-power-bi-premium-for-enterprise-analytics-market-beyond
+metadata:
+  title: Advance Power BI Premium for the enterprise analytics market and beyond
+  description: "Advance Power BI Premium for the enterprise analytics market and beyond"
+  ms.date: 11/16/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Advance Power BI Premium for the enterprise analytics market and beyond
+summary: Learn about new capabilities coming to Power BI Premium aimed at providing additional flexibility, scale, and performance – helping organizations discover insights hidden in their data.
+abstract: |
+  In this module, you will learn:
+  - The importance of flexibility in licensing Power BI Premium by user
+  - How new utilization metrics and automatic capacity management can help reduce costs
+  - How Power BI Premium has be architected to support faster processing for all operations, including refreshes
+prerequisites: ""
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- business-analyst
+- business-owner
+- business-user
+- data-analyst
+products:
+- power-bi
+- azure-synapse-analytics
+units:
+- learn.wwl.advance-power-bi-premium-for-enterprise-analytics-market-beyond.introduction
+- learn.wwl.advance-power-bi-premium-for-enterprise-analytics-market-beyond.understand-evolution-of
+- learn.wwl.advance-power-bi-premium-for-enterprise-analytics-market-beyond.understand-how-reporting-capacity-processing
+- learn.wwl.advance-power-bi-premium-for-enterprise-analytics-market-beyond.define-cost-management-capabilities
+- learn.wwl.advance-power-bi-premium-for-enterprise-analytics-market-beyond.reduce-management-overhead-with-faster-processing
+- learn.wwl.advance-power-bi-premium-for-enterprise-analytics-market-beyond.explore-how-to-automatically-add-capacity-as-needed
+- learn.wwl.advance-power-bi-premium-for-enterprise-analytics-market-beyond.knowledge-check
+- learn.wwl.advance-power-bi-premium-for-enterprise-analytics-market-beyond.summary-resources
+badge:
+  uid: learn.wwl.advance-power-bi-premium-for-enterprise-analytics-market-beyond.badge
