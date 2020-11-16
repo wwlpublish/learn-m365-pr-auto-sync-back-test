@@ -1,0 +1,44 @@
+### YamlMime:Module
+uid: learn.wwl.build-systems-of-insights-for-enterprise-scale-with-power-bi-azure
+metadata:
+  title: Build systems of insights for enterprise scale with Power BI and Azure
+  description: "Build systems of insights for enterprise scale with Power BI and Azure"
+  ms.date: 11/16/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Build systems of insights for enterprise scale with Power BI and Azure
+summary: Learn about how Power BI deeply integrates with Azure Synapse Analytics and how you can easily leverage your investments in Azure to bring insights to those who need it the most.
+abstract: |
+  In this module, you will learn:
+  - How new data preparation capabilities make it easier and faster to ingest your data
+  - How performance accelerator adds more capacity for processing
+  - How composite models help businesses define their data
+  - How end-to-end label inheritance helps you easily classify your data
+prerequisites: ""
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- business-analyst
+- business-owner
+- business-user
+- data-analyst
+products:
+- power-bi
+- azure-synapse-analytics
+- power-query
+units:
+- learn.wwl.build-systems-of-insights-for-enterprise-scale-with-power-bi-azure.introduction
+- learn.wwl.build-systems-of-insights-for-enterprise-scale-with-power-bi-azure.ingest-prep-data-with-dataflows-machine-learning
+- learn.wwl.build-systems-of-insights-for-enterprise-scale-with-power-bi-azure.define-data-stack-integration-with-azure-synapse-analytics
+- learn.wwl.build-systems-of-insights-for-enterprise-scale-with-power-bi-azure.define-business-data-with-enterprise-semantic-models
+- learn.wwl.build-systems-of-insights-for-enterprise-scale-with-power-bi-azure.discuss-enterprise-reporting
+- learn.wwl.build-systems-of-insights-for-enterprise-scale-with-power-bi-azure.explore-end-to-end-label-inheritance-from-azure-synapse-analytics
+- learn.wwl.build-systems-of-insights-for-enterprise-scale-with-power-bi-azure.monitor-evaluate-report-performance-with-azure-log-analytics
+- learn.wwl.build-systems-of-insights-for-enterprise-scale-with-power-bi-azure.discuss-next-generation-premium
+- learn.wwl.build-systems-of-insights-for-enterprise-scale-with-power-bi-azure.knowledge-check
+- learn.wwl.build-systems-of-insights-for-enterprise-scale-with-power-bi-azure.summary-resources
+badge:
+  uid: learn.wwl.build-systems-of-insights-for-enterprise-scale-with-power-bi-azure.badge
