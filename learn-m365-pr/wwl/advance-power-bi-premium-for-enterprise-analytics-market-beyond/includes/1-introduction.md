@@ -8,7 +8,7 @@ In this module, you will learn:
 
 - How new utilization metrics and automatic capacity management can help reduce costs
 
-- How Power BI Premium has be architected to support faster processing for all operations, including refreshes
+- How Power BI Premium has been architected to support faster processing for all operations, including refreshes
 
 ## Prerequisites
 

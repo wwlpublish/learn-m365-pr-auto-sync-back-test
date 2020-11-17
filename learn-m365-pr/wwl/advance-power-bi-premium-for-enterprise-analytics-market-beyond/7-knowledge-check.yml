@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 11/16/2020
+  ms.date: 11/17/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -16,17 +16,17 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "Power BI Autoscaling adds additional v-cores as needed for a period of how long?"
+  - content: "Power BI Autoscaling adds additional v-cores as needed for how long?"
     choices:
     - content: "Indefinitely"
       isCorrect: false
-      explanation: "Incorrect.  When total utilization capacity exeeds the limits set by the administrator, Autoscale will add 1 v-core at a time for a period of 24-hours."
+      explanation: "Incorrect.  When total utilization capacity exceeds the limits set by the administrator, Autoscale will add one v-core at a time for a period of 24-hours."
     - content: "72-hours"
       isCorrect: false
-      explanation: "Incorrect.  When total utilization capacity exeeds the limits set by the administrator, Autoscale will add 1 v-core at a time for a period of 24-hours."
+      explanation: "Incorrect.  When total utilization capacity exceeds the limits set by the administrator, Autoscale will add one v-core at a time for a period of 24-hours."
     - content: "24-hours"
       isCorrect: true
-      explanation: "Correct.  When total utilization capacity exeeds the limits set by the administrator, Autoscale will add 1 v-core at a time for a period of 24-hours."
+      explanation: "Correct.  When total utilization capacity exceeds the limits set by the administrator, Autoscale will add one v-core at a time for a period of 24-hours."
   - content: "How is total utilization defined?"
     choices:
     - content: "Total utilization is a measure of reporting capacity when all reports are being accessed at once."
