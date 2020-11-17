@@ -15,20 +15,20 @@ quiz:
     questions:
     - content: "To prepare the Power BI Workplace Analytics Teams insights dashboard, which pre-defined queries do you need to run?"
       choices:
-      - content: "Standard person query and Teams insights query"
+      - content: "Standard person query and Microsoft Teams insights query"
         isCorrect: false
-        explanation: "Sorry, incorrect. Teams Insights and Influence insights queries are the two needed for this dashboard."
+        explanation: "Sorry, incorrect. Microsoft Teams insights and Influence insights queries are the two needed for this dashboard."
       - content: "Collaboration tracker and Influence insights query"
         isCorrect: false
-        explanation: "Sorry, incorrect. Teams Insights and Influence insights queries are the two needed for this dashboard."
-      - content: "Teams Insights query and Influence insights query"
+        explanation: "Sorry, incorrect. Microsoft Teams insights and Influence insights queries are the two needed for this dashboard."
+      - content: "Microsoft Teams insights query and Influence insights query"
         isCorrect: true
         explanation: "Yes, that's correct. These queries are the two needed for this dashboard."
-      - content: "Influence Insights query and Business continuity query"
+      - content: "Influence insights query and Business continuity query"
         isCorrect: false
-        explanation: "Sorry, incorrect. Teams Insights and Influence insights queries are the two needed for this dashboard."
+        explanation: "Sorry, incorrect. Microsoft Teams insights and Influence insights queries are the two needed for this dashboard."
 
-    - content: "Which of the following reports are **NOT** presented in the Workplace Analytics Power BI Teams Insights dashboard? "
+    - content: "Which of the following reports are **NOT** presented in the Workplace Analytics Power BI Teams insights dashboard? "
       choices:
       - content: "What does adoption look like so far?"
         isCorrect: false

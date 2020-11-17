@@ -8,7 +8,7 @@ Each report page provides data that you can act on into one of the themes laid o
 
 ## The Introduction page
 
-The introduction page of the report helps set up the context around what questions the Teams Insights dashboard addresses, as well as why it matters. 
+The introduction page of the report helps set up the context around what questions the Teams insights dashboard addresses, as well as why it matters. 
 
 ![The Introduction page](../media/introduction-page.png)
 
