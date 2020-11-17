@@ -3,7 +3,7 @@ uid: learn.wwl.deliver-decision-making-insights-with-power-bi
 metadata:
   title: Deliver decision making insights with Power BI
   description: "Deliver decision making insights with Power BI"
-  ms.date: 11/16/2020
+  ms.date: 11/17/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -15,7 +15,8 @@ abstract: |
   - How the new Power BI App for Teams helps empower every team to make impactful decisions
   - How quickly creating reports in Teams helps make decisions when and where it matters
   - How to connect Power BI organizational datasets in Excel
-prerequisites: ""
+prerequisites: |
+  None
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - beginner
