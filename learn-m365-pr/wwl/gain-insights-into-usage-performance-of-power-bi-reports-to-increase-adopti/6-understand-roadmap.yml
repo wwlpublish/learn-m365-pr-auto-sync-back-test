@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.gain-insights-into-usage-performance-of-your-power-bi-reports-to-increase-adopti.understand-roadmap
+title: Understand the Power BI roadmap
+metadata:
+  title: Understand the Power BI roadmap
+  description: "Understand the Power BI roadmap"
+  ms.date: 11/17/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/6-understand-roadmap.md)]

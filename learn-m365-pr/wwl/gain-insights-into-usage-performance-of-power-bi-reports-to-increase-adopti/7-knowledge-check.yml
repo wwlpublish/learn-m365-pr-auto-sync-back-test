@@ -1,0 +1,40 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.gain-insights-into-usage-performance-of-your-power-bi-reports-to-increase-adopti.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 11/17/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/7-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "In Power BI, Microsoft Information Protection (MIP) sensitivity labels can be applied to which of the following?"
+    choices:
+    - content: "Queries, reports, logs, and tables."
+      isCorrect: false
+      explanation: "Incorrect. Datasets, reports, dashboards, and dataflows can all have sensitivity labels applied, and when exporting that data to another application like Excel, the sensitivity labels are inherited end-to-end."
+    - content: "Logs, dataflows, rows, and columns."
+      isCorrect: false
+      explanation: "Incorrect. Datasets, reports, dashboards, and dataflows can all have sensitivity labels applied, and when exporting that data to another application like Excel, the sensitivity labels are inherited end-to-end."
+    - content: "Datasets, reports, dashboards, and dataflows."
+      isCorrect: true
+      explanation: "Correct. Datasets, reports, dashboards, and dataflows can all have sensitivity labels applied, and when exporting that data to another application like Excel, the sensitivity labels are inherited end-to-end."
+  - content: "To diagnose and resolve performance issues in Power BI, administrators can connect to which Azure service?"
+    choices:
+    - content: "Azure Cosmos DB"
+      isCorrect: false
+      explanation: "Incorrect. Azure Monitor Log Analytics is a feature of Azure Monitor that collects and organizes log data from a variety of sources."
+    - content: "Azure Sentinel"
+      isCorrect: false
+      explanation: "Incorrect. Azure Monitor Log Analytics is a feature of Azure Monitor that collects and organizes log data from a variety of sources."
+    - content: "Azure Monitor Log Analytics"
+      isCorrect: true
+      explanation: "Correct. Azure Monitor Log Analytics is a feature of Azure Monitor that collects and organizes log data from a variety of sources."

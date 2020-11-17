@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.gain-insights-into-usage-performance-of-your-power-bi-reports-to-increase-adopti.connect-to-azure-monitor-log-analytics
+title: Connect Power BI to Azure monitor log analytics
+metadata:
+  title: Connect Power BI to Azure monitor log analytics
+  description: "Connect Power BI to Azure monitor log analytics"
+  ms.date: 11/17/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/5-connect-azure-monitor-log-analytics.md)]

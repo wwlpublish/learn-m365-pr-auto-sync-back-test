@@ -1,0 +1,40 @@
+### YamlMime:Module
+uid: learn.wwl.gain-insights-into-usage-performance-of-your-power-bi-reports-to-increase-adopti
+metadata:
+  title: Gain insights into usage and performance of your Power BI reports to increase adoption and reduce costs
+  description: "Gain insights into usage and performance of your Power BI reports to increase adoption and reduce costs"
+  ms.date: 11/17/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Gain insights into usage and performance of your Power BI reports to increase adoption and reduce costs
+summary: Learn about the capabilities in Power BI that help provide insights into usage and performance of your Power BI reports.
+abstract: |
+  In this module, you will learn:
+  - How to use sensitivity labels to prep and classify your data
+  - How Azure Monitor Log Analytics can help understand and resolve performance issues
+  - How to glean insights into usage across Power BI
+prerequisites: |
+  None
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- business-analyst
+- business-owner
+- business-user
+- data-analyst
+products:
+- power-bi
+units:
+- learn.wwl.gain-insights-into-usage-performance-of-your-power-bi-reports-to-increase-adopti.introduction
+- learn.wwl.gain-insights-into-usage-performance-of-your-power-bi-reports-to-increase-adopti.sensitivity-labels
+- learn.wwl.gain-insights-into-usage-performance-of-your-power-bi-reports-to-increase-adopti.gain-insights-about-usage-of
+- learn.wwl.gain-insights-into-usage-performance-of-your-power-bi-reports-to-increase-adopti.understand-challenge-of-diagnosing-resolving-performance-issues
+- learn.wwl.gain-insights-into-usage-performance-of-your-power-bi-reports-to-increase-adopti.connect-to-azure-monitor-log-analytics
+- learn.wwl.gain-insights-into-usage-performance-of-your-power-bi-reports-to-increase-adopti.understand-roadmap
+- learn.wwl.gain-insights-into-usage-performance-of-your-power-bi-reports-to-increase-adopti.knowledge-check
+- learn.wwl.gain-insights-into-usage-performance-of-your-power-bi-reports-to-increase-adopti.summary-resources
+badge:
+  uid: learn.wwl.gain-insights-into-usage-performance-of-your-power-bi-reports-to-increase-adopti.badge
