@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 11/16/2020
+  ms.date: 11/17/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -20,19 +20,19 @@ quiz:
     choices:
     - content: "A set of a standardized data schemas and a metadata system to allow consistency of data and its meaning across applications and business processes"
       isCorrect: true
-      explanation: "Correct.  The Common Data Model makes it easy to build new systems of insight using a standarized set of schemas and metadata."
+      explanation: "Correct.  The Common Data Model makes it easy to build new systems of insight using a standardized set of schemas and metadata."
     - content: "A loosely defined set of data types that allow a high degree of customization among organizations to create custom dataflows."
       isCorrect: false
-      explanation: "Incorrect.  The Common Data Model makes it easy to build new systems of insight using a standarized set of schemas and metadata."
+      explanation: "Incorrect.  The Common Data Model makes it easy to build new systems of insight using a standardized set of schemas and metadata."
     - content: "A strict grouping of objects from multiple organizations, each with their own set of metadata, allowing different companies to connect unrelated data types."
       isCorrect: false
-      explanation: "Incorrect. The Common Data Model makes it easy to build new systems of insight using a standarized set of schemas and metadata."
+      explanation: "Incorrect. The Common Data Model makes it easy to build new systems of insight using a standardized set of schemas and metadata."
   - content: "What can Power BI Dataflows do to help organizations make sense of disjointed data sources?"
     choices:
     - content: "Easily ingest, cleanse, transform, integrate, enrich, and schematize data from a large array of transactional and observational sources, encompassing all data preparation logic."
       isCorrect: true
       explanation: "Correct.  Power BI dataflows help organizations tackle the most time consuming part of ingesting data - preparing it for use by your users."
-    - content: "Automatically analyze complex data streams to detect anomolies in large batches of data from multiple datastores."
+    - content: "Automatically analyze complex data streams to detect anomalies in large batches of data from multiple datastores."
       isCorrect: false
       explanation: "Incorrect. Power BI dataflows help organizations tackle the most time consuming part of ingesting data - preparing it for use by your users."
     - content: "Effortlessly merge data and detect duplicates from internal and public data sources."

@@ -1,4 +1,4 @@
-Bringing business intelligence to thousands of users in the enterprise requires scaling for the largest datasets in the organization without compromising performance or security. Read on to learn about how Power BI deeply integrates with Azure Synapse Analytics and how you can easily leverage your investments in Azure to bring insights to those who need it the most.
+Bringing business intelligence to thousands of users in the enterprise requires scaling for the largest datasets in the organization without compromising performance or security. Read on to learn about how Power BI deeply integrates with Azure Synapse Analytics and how you can easily leverage your investments in Azure to bring insights to the people who need it the most.
 
 ## Learning objectives
 
