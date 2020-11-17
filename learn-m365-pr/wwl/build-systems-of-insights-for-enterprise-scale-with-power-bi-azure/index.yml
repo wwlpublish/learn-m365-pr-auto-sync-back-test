@@ -16,7 +16,8 @@ abstract: |
   - How performance accelerator adds more capacity for processing
   - How composite models help businesses define their data
   - How end-to-end label inheritance helps you easily classify your data
-prerequisites: ""
+prerequisites: |
+  None
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - beginner
