@@ -29,7 +29,6 @@ roles:
 products:
 - power-bi
 - azure-synapse-analytics
-- power-query
 units:
 - learn.wwl.build-systems-of-insights-for-enterprise-scale-with-power-bi-azure.introduction
 - learn.wwl.build-systems-of-insights-for-enterprise-scale-with-power-bi-azure.ingest-prep-data-with-dataflows-machine-learning
