@@ -2,7 +2,7 @@ Azure Monitor Log Analytics provides a powerful way to capture performance data 
 
 |||
 | :--- | :--- |
-| ![Icon indicating play video](../media/video_icon.png)| Watch this video to learn more about dataset events and how to connect Power BI to Azure Monitor to enable tenant and workspace level Log Analytics.|
+| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about dataset events and how to connect Power BI to Azure Monitor to enable tenant and workspace level Log Analytics.|
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HsA8]
 

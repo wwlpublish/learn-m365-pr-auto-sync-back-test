@@ -14,7 +14,7 @@ The [advanced auditing functionality](https://docs.microsoft.com/microsoft-365/c
 
 |||
 | :--- | :--- |
-| ![Icon indicating play video](../media/video_icon.png)| Watch this video to learn more about different ways to gain insights about how your Power BI reports are performing and utilized.|
+| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about different ways to gain insights about how your Power BI reports are performing and utilized.|
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HnCa]
 

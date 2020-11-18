@@ -10,7 +10,7 @@ Power BI is the only BI product in the industry to support [Microsoft Informatio
 
 |||
 | :--- | :--- |
-| ![Icon indicating play video](../media/video_icon.png)| Watch this video to learn more about sensitivity labels in Power BI and how end-to-end label inheritance makes it easy to protect and govern data, no matter where it is being used.|
+| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about sensitivity labels in Power BI and how end-to-end label inheritance makes it easy to protect and govern data, no matter where it is being used.|
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HuYW]
 

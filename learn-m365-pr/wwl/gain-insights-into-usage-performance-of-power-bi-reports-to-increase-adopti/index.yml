@@ -3,7 +3,7 @@ uid: learn.wwl.gain-insights-into-usage-performance-of-your-power-bi-reports-to-
 metadata:
   title: Gain insights into usage and performance of your Power BI reports to increase adoption and reduce costs
   description: "Gain insights into usage and performance of your Power BI reports to increase adoption and reduce costs"
-  ms.date: 11/17/2020
+  ms.date: 11/18/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -27,6 +27,7 @@ roles:
 - data-analyst
 products:
 - power-bi
+- power-query
 units:
 - learn.wwl.gain-insights-into-usage-performance-of-your-power-bi-reports-to-increase-adopti.introduction
 - learn.wwl.gain-insights-into-usage-performance-of-your-power-bi-reports-to-increase-adopti.sensitivity-labels
