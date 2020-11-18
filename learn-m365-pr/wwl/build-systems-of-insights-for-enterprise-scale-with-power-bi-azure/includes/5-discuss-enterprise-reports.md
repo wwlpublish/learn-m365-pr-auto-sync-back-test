@@ -2,7 +2,7 @@ Paginated reports in Power BI have been around for many years and provide simila
 
 |||
 | :--- | :--- |
-| ![Icon indicating play video](../media/video_icon.png)| Watch this video to learn more about enterprise reporting capabilities in Power BI.|
+| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about enterprise reporting capabilities in Power BI.|
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HnBd]
 

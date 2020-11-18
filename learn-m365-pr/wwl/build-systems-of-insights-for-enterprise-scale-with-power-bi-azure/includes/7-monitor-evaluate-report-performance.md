@@ -2,7 +2,7 @@ Organizations need the ability to understand where users are experiencing perfor
 
 |||
 | :--- | :--- |
-| ![Icon indicating play video](../media/video_icon.png)| Watch this video to learn more about monitoring and evaluating report performance.|
+| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about monitoring and evaluating report performance.|
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HsyY]
 

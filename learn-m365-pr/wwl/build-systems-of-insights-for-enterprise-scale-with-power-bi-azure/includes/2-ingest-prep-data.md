@@ -8,11 +8,11 @@ To answer many of these challenges, Power BI serves analysts today with industry
 
 - **Support for the [Common Data Model](https://aka.ms/AA24r2z)** – The Common Data Model (CDM) is a set of a standardized data schemas and a metadata system to allow consistency of data and its meaning across applications and business processes.  Dataflows support the CDM by offering easy mapping from any data in any shape into the standard CDM entities, such as Account, Contact etc.
 
-- **Visual data preparation (coming soon) ** – We are introducing “Diagram View” within the Power Query Editor, that provides an interface to easily create your queries and visualize your data preparation process. We want to simplify the experience for analysts to get started, speed up the data preparation process, and help quickly understand the data flow, both the ‘big picture view’ of how the queries are related and the ‘detailed view’ around specific data preparation steps within a query.
+- **Visual data preparation** – We are introducing “Diagram View” within the Power Query Editor, that provides an interface to easily create your queries and visualize your data preparation process. We want to simplify the experience for analysts to get started, speed up the data preparation process, and help quickly understand the data flow, both the ‘big picture view’ of how the queries are related and the ‘detailed view’ around specific data preparation steps within a query.
 
 |||
 | :--- | :--- |
-| ![Icon indicating play video](../media/video_icon.png)| Watch this video to learn more about Dataflow, data preparation, and machine learning.|
+| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about Dataflow, data preparation, and machine learning.|
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HnBb]
 

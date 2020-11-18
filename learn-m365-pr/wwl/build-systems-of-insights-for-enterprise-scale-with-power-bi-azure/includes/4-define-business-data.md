@@ -2,7 +2,7 @@ Most organizations provide centralized, certified datasets for their users to bu
 
 |||
 | :--- | :--- |
-| ![Icon indicating play video](../media/video_icon.png)| Watch this video to see a quick demo on building composite models in Power BI Desktop.|
+| ![Icon indicating play video](../media/video-icon.png)| Watch this video to see a quick demo on building composite models in Power BI Desktop.|
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HuYy]
 

@@ -2,7 +2,7 @@ With end-to-end label inheritance, reports and dashboards created in the Power B
 
 |||
 | :--- | :--- |
-| ![Icon indicating play video](../media/video_icon.png)| Watch this video to learn more about end-to-end label inheritance in Power BI.|
+| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about end-to-end label inheritance in Power BI.|
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HxDx]
 

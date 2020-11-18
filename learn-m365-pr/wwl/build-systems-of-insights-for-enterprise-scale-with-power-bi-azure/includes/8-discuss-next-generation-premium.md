@@ -6,7 +6,7 @@ We are also excited to announce Premium Per User – which provides capabilities
 
 |||
 | :--- | :--- |
-| ![Icon indicating play video](../media/video_icon.png)| Watch this video to learn more about the next generation of Power BI Premium.|
+| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about the next generation of Power BI Premium.|
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HuYz]
 

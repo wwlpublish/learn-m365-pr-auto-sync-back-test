@@ -2,7 +2,7 @@ The Power BI performance accelerator for Azure Synapse Analytics can be turned o
 
 |||
 | :--- | :--- |
-| ![Icon indicating play video](../media/video_icon.png)| Watch this video to learn more about more about how Power BI and Azure Synapse Analytics work together to accelerate performance.|
+| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about more about how Power BI and Azure Synapse Analytics work together to accelerate performance.|
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HxDw]
 
