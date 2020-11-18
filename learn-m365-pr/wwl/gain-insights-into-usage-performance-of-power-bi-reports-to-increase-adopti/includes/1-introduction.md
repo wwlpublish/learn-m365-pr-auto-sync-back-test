@@ -8,7 +8,7 @@ In this module, you will learn:
 
 - How Azure Monitor Log Analytics can help understand and resolve performance issues
 
-- How to glean insights into usage across Power BI
+- How to glean insights into usage across Power BI 
 
 ## Prerequisites
 
