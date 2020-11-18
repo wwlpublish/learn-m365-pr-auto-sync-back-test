@@ -1,0 +1,40 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.enhance-your-business-intelligence-solutions-with-artificial-intelligence.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 11/18/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/6-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Power BI primarily focuses on empowering three main personas with artificial intelligence.  What are those personas?"
+    choices:
+    - content: "Data scientists, database administrators, and software engineers."
+      isCorrect: false
+      explanation: "Incorrect.  The AI features in Power BI help everyone with success, but especially data scientists, analysts, and end-users."
+    - content: "Data scientists, analysts, and end-users."
+      isCorrect: true
+      explanation: "Correct.  The AI features in Power BI help everyone with success, but especially data scientists, analysts, and end-users."
+    - content: "Analysts, retail workers, and customers."
+      isCorrect: false
+      explanation: "Incorrect.  The AI features in Power BI help everyone with success, but especially data scientists, analysts, and end-users."
+  - content: "Which new feature helps add context and storytelling elements to reports in Power BI?"
+    choices:
+    - content: "Data story"
+      isCorrect: false
+      explanation: "Incorrect.  Smart narratives in Power BI can help report creators add additional context and perspective to reports."
+    - content: "Smart narratives"
+      isCorrect: true
+      explanation: "Correct.  Smart narratives in Power BI can help report creators add additional context and perspective to reports."
+    - content: "Smart story"
+      isCorrect: false
+      explanation: "Incorrect.  Smart narratives in Power BI can help report creators add additional context and perspective to reports."
