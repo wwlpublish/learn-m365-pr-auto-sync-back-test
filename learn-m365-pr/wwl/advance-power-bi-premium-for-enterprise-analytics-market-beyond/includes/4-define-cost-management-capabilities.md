@@ -5,7 +5,7 @@ Utilization metrics in Power BI Premium have been reimagined with new metrics, u
 
 |||
 | :--- | :--- |
-| ![Icon indicating play video](../media/video_icon.png)| Watch this video to learn more about new metrics in Power BI Premium and how they can help keep costs manageable.|
+| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about new metrics in Power BI Premium and how they can help keep costs manageable.|
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HDqk]
 

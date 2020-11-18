@@ -4,7 +4,7 @@ Autoscale acts as an optional safety net for organizations, transferring the imp
 
 |||
 | :--- | :--- |
-| ![Icon indicating play video](../media/video_icon.png)| Watch this video to learn more about Autoscale in Power BI Premium, and how organization can use it add capacity as needed.|
+| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about Autoscale in Power BI Premium, and how organization can use it add capacity as needed.|
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HDqj]
 

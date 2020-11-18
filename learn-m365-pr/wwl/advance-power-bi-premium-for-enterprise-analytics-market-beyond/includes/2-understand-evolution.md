@@ -18,7 +18,7 @@ With per user and per capacity licensing options, customers can choose the best 
 
 |||
 | :--- | :--- |
-| ![Icon indicating play video](../media/video_icon.png)| Watch this video to learn more about how Power BI Premium has evolved and some of the upcoming investments being made with the next generation of Power BI Premium.|
+| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about how Power BI Premium has evolved and some of the upcoming investments being made with the next generation of Power BI Premium.|
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HkvX]
 

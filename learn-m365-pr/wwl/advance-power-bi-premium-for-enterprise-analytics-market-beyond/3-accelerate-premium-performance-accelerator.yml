@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn.wwl.advance-power-bi-premium-for-enterprise-analytics-market-beyond.understand-how-reporting-capacity-processing
-title: Accelerate Power BI Premium processing for all operations
+title: Accelerate Power BI Premium with performance accelerator
 metadata:
-  title: Accelerate Power BI Premium processing for all operations
-  description: "Accelerate Power BI Premium processing for all operations"
-  ms.date: 11/17/2020
+  title: Accelerate Power BI Premium with performance accelerator
+  description: "Accelerate Power BI Premium with performance accelerator"
+  ms.date: 11/18/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -12,4 +12,4 @@ metadata:
 azureSandbox: false
 durationInMinutes: 3
 content: |
-  [!include[](includes/3-understand-how-reporting-capacity-processing.md)]
+  [!include[](includes/3-accelerate-premium-performance-accelerator.md)]

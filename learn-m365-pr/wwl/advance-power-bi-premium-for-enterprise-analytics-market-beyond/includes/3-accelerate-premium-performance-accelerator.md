@@ -2,7 +2,7 @@ Power BI Premium provides enhanced performance on any capacity size, anytime: An
 
 |||
 | :--- | :--- |
-| ![Icon indicating play video](../media/video_icon.png)| Watch this video to learn more about the enhanced performance of the new Power BI Premium.|
+| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about the enhanced performance of the new Power BI Premium.|
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HA8Z]
 
