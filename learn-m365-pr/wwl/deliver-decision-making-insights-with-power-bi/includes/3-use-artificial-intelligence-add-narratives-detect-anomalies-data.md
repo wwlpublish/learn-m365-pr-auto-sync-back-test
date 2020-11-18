@@ -6,7 +6,7 @@ With Smart narratives, creators can add narratives to their report to address ke
 
 |||
 | :--- | :--- |
-| ![Icon indicating play video](../media/video_icon.png)| Watch this video to learn more about two new capabilities in Power BI: Smart narratives and anomaly detection.|
+| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about two new capabilities in Power BI: Smart narratives and anomaly detection.|
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HuXU]
 

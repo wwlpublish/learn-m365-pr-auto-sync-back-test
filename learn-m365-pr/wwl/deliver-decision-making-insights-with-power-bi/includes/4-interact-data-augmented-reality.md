@@ -2,7 +2,7 @@ Power BI continues to be an industry leader in bringing insights into the real w
 
 |||
 | :--- | :--- |
-| ![Icon indicating play video](../media/video_icon.png)| Watch this video to see the new Power BI app in action on HoloLens 2.|
+| ![Icon indicating play video](../media/video-icon.png)| Watch this video to see the new Power BI app in action on HoloLens 2.|
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HxD8]
 

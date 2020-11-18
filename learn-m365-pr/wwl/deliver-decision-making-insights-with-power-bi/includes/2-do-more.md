@@ -6,7 +6,7 @@ Power BI continues to advance the state of the art in leveraging artificial inte
 
 |||
 | :--- | :--- |
-| ![Icon indicating play video](../media/video_icon.png)| Watch this video to learn how Power BI helps drive a data culture, where every team and individual can make more insightful, data-driven decisions.|
+| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn how Power BI helps drive a data culture, where every team and individual can make more insightful, data-driven decisions.|
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HxD7]
 

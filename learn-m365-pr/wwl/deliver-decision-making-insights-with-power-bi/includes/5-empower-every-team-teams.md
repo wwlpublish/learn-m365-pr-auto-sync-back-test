@@ -2,7 +2,7 @@ The way we work is changing dramatically. It’s more connected, collaborative, 
 
 |||
 | :--- | :--- |
-| ![Icon indicating play video](../media/video_icon.png)| Watch this video to learn more about the newest investments in Teams and Power BI, that put data at the forefront of decision making.|
+| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about the newest investments in Teams and Power BI, that put data at the forefront of decision making.|
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HuXV]
 

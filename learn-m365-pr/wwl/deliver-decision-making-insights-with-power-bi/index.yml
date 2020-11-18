@@ -1,15 +1,15 @@
 ### YamlMime:Module
 uid: learn.wwl.deliver-decision-making-insights-with-power-bi
 metadata:
-  title: Deliver decision making insights with Power BI
-  description: "Deliver decision making insights with Power BI"
-  ms.date: 11/17/2020
+  title: Deliver decision-making insights with Power BI
+  description: "Deliver decision-making insights with Power BI"
+  ms.date: 11/18/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Deliver decision making insights with Power BI
-summary: Learn about new Power BI capabilities that help cultivate an organizational data culture. Explore how Power BI integrates with Teams, Excel and the Power Platform to infuse data into where users get their work done.
+title: Deliver decision-making insights with Power BI
+summary: Learn about new Power BI capabilities that help cultivate an organizational data culture. Explore how Power BI integrates with Teams, Excel, and the Power Platform to infuse data into where users get their work done.
 abstract: |
   In this module, you will learn:
   - How the new Power BI App for Teams helps empower every team to make impactful decisions

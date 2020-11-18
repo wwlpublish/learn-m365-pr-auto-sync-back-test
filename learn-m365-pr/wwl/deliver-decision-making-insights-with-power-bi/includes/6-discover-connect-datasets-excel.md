@@ -4,7 +4,7 @@ Now, you’ll be able to discover Power BI tables available to you through the d
 
 |||
 | :--- | :--- |
-| ![Icon indicating play video](../media/video_icon.png)| Watch this video to learn more about Power BI datasets in Excel.|
+| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about Power BI datasets in Excel.|
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HuXN]
 

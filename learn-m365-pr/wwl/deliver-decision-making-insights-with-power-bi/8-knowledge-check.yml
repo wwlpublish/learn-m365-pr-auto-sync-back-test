@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 11/17/2020
+  ms.date: 11/18/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -16,7 +16,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "With the new Teams search experience, finding and opening Power BI content has never been easier.  Which of the following would you use to find reports, dashboards, and apps?"
+  - content: "With the new Teams search experience, finding and opening Power BI content has never been easier.  Which of these mentions is used to find reports, dashboards, and apps in the Microsoft Teams search bar?"
     choices:
     - content: "@Power BI"
       isCorrect: true
@@ -27,7 +27,7 @@ quiz:
     - content: "@Power Apps"
       isCorrect: false
       explanation: "Incorrect.  Mentioning **@Power Apps** would not work."
-  - content: "Which of the following ways can users access organizationl Power BI datasets in Excel, providing a familiar, flexible, and powerful way to transform their data?"
+  - content: "Which of the following ways can users access organizational Power BI datasets in Excel, providing a familiar, flexible, and powerful way to transform their data?"
     choices:
     - content: "SmartArt"
       isCorrect: false
