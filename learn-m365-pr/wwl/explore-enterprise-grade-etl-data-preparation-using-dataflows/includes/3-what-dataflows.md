@@ -2,7 +2,7 @@ A **dataflow** is a collection of entities (entities are similar to tables) that
 
 |||
 | :--- | :--- |
-| ![Icon indicating play video](../media/video_icon.png)| Watch this video to learn more about how dataflows in Power BI can help your organization make big data preparation easier for everyone.|
+| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about how dataflows in Power BI can help your organization make big data preparation easier for everyone.|
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HxEi]
 

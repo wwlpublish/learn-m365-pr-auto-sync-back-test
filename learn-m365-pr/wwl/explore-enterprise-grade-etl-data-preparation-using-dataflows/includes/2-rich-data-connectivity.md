@@ -2,7 +2,7 @@ Power Query is a data transformation and data preparation engine. Power Query co
 
 |||
 | :--- | :--- |
-| ![Icon indicating play video](../media/video_icon.png)| Watch this video to learn more about Power Query Online, Power Query Desktop, connectors, transformations, and dataflows.|
+| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about Power Query Online, Power Query Desktop, connectors, transformations, and dataflows.|
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Hkxd]
 
