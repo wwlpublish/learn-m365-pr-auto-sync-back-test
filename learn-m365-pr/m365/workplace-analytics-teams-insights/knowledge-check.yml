@@ -13,7 +13,7 @@ durationInMinutes: 5
 quiz:
     title: Check your knowledge
     questions:
-    - content: "To prepare the Power BI Workplace Analytics Teams insights dashboard, which pre-defined queries do you need to run?"
+    - content: "To prepare the Workplace Analytics Power BI Teams insights dashboard, which pre-defined queries do you need to run?"
       choices:
       - content: "Standard person query and Microsoft Teams insights query"
         isCorrect: false

@@ -16,7 +16,7 @@ This page provides an overview for dashboard recipients who are unfamiliar with 
 
 ## Report: What does adoption look like so far?
 
-The *State of Adoption* report shows how Teams adoption is playing out in the organization in terms of the level of usage.
+The *State of Adoption* report shows how Teams adoption is playing out in the organization in terms of the level of use.
  
 The chart on the left shows the share of inactive, low, medium, and high users by month for the selected time frame. In the example here, the percentage of High Users in the organization went from 48% to 74% over six months. The chart on the right shows the share of inactive, low, medium, and high users by category and by group. In the example here, individuals in the Marketing team are 100% High Users.
 
@@ -92,7 +92,7 @@ The left side of the report shows the number of influencers in the organization 
 
 Community influencers are well-connected employees in your organization. Influencers can lead cultural change, including accelerating the adoption of Teams, by sharing benefits and best practices. A high influence score suggests that an employee’s perspective will efficiently flow through the organization.
 
-Target Phase I groups for rapid Teams adoption. Adoption should happen quickly due to high number of influencers in these groups. Phase II groups already have high users, so encourage them to share best practices with other groups they work with. To speed up adoption for Phase III users, connect them to groups with many influencers and high Teams usage. 
+Target Phase I groups for rapid Teams adoption. Adoption should happen quickly due to a high number of influencers in these groups. Phase II groups already have high users, so encourage them to share best practices with other groups they work with. To speed up adoption for Phase III users, connect them to groups with many influencers and high Teams usage. 
 
 ## Report: Are employees working after-hours in Teams?
 
@@ -110,9 +110,9 @@ This view gives a population-level look at three opportunity areas to get more o
 
 [ ![Opportunity areas to get more out of Teams report](../media/opportunity-areas.png) ](../media/opportunity-areas-lightbox.png#lightbox)
 
-**Increase channel and IM use to speed up communication**. employees who send a lot of emails and spend a lot of hours in meetings can make communication more efficient by switching to Teams instant messages and postings to Teams channels.
+**Increase channel and IM use to speed up communication**. Employees who send a lot of emails and spend a lot of hours in meetings can make communication more efficient by switching to Teams instant messages and postings to Teams channels.
 
-**Protect wellbeing**. employees spending too much time collaborating in Teams in after-hours may be having trouble balancing work and non-work activities. Creating expectations around collaboration norms and sharing best practices on boundaries might help maintain wellbeing.
+**Protect wellbeing**. Employees who spend too much time collaborating in Teams in after-hours may be having trouble balancing work and non-work activities. Creating expectations around collaboration norms and sharing best practices on boundaries might help maintain wellbeing.
 
 **Drive adoption with influencers**. Groups with high numbers of influential employees who are doing well in terms of Teams adoption can share best practices to facilitate adoption in other groups. Connect influential Teams users with low adoption groups to accelerate Teams usage.
 
