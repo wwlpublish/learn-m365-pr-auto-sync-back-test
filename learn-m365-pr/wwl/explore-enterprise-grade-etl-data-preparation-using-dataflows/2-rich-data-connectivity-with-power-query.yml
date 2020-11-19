@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-enterprise-grade-etl-data-preparation-using-dataflows.rich-data-connectivity-with-power-query
+title: Rich data connectivity with Power query
+metadata:
+  title: Rich data connectivity with Power query
+  description: "Rich data connectivity with Power query"
+  ms.date: 11/19/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-rich-data-connectivity-with-power-query.md)]
