@@ -32,7 +32,7 @@ Some tips to keep in mind when running the queries:
 
 - If you're filtering for a subset of the population, you'll need to edit all the preselected metrics in the Standard meeting query as well. As an example, if you want to only view collaboration activity for Human Resources, for each metric in the Standard meeting query you would select the pencil icon and filter on **Organization = Human Resources**.
 
-- In the Ways of working assessment query, under **Select Organizational attributes**, you can leave the default attributes (Organization, LevelDesignation) selected, or select any other attributes to filter by. Be sure to select the attribute that identifies people supervisors in your company (if you cannot find a supervisor indicator field in the drop-down menu, contact your Workplace Analytics Admin to confirm it was included in the organizational data). 
+- In the Ways of working assessment query, under **Select Organizational attributes**, leave the default attributes (Organization, LevelDesignation) selected. Then locate and select the attribute that identifies people managers (if you cannot find a manager indicator field in the drop-down menu, contact your Workplace Analytics Admin to confirm it was included in the organizational data). Optionally, select additional attributes you'd like to include in the reports.
 
 - In the Standard meeting query, under **Select Organizational attributes**, leave the default attributes (IsRecurring, Subject, and DurationHours) selected. Don't delete these attributes as they're needed for the meeting-related charts and graphs in the report pages.
 
