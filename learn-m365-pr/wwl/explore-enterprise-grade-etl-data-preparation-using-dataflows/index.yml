@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn.wwl.explore-enterprise-grade-etl-data-preparation-using-dataflows
+metadata:
+  title: Explore enterprise-grade ETL and data preparation using dataflows
+  description: "Explore enterprise-grade ETL and data preparation using dataflows"
+  ms.date: 11/20/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Explore enterprise-grade ETL and data preparation using dataflows
+summary: Learn how preparing enterprise data is a significant, labor-intensive, and time-consuming challenge for businesses today and how dataflows enable business analysts and citizen developers to process, unify, and store their data.
+abstract: |
+  In this module, you will learn:
+  - How the Text/CSV by Example feature allows for easy data extraction in Power BI
+  - How fuzzy grouping allows for easy data grouping in Power BI
+  - How to consume dataflows with Power Automate Connector
+prerequisites: |
+  None
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- business-analyst
+- business-owner
+- business-user
+- data-analyst
+products:
+- power-bi
+- azure-log-analytics
+- azure-synapse-analytics
+units:
+- learn.wwl.explore-enterprise-grade-etl-data-preparation-using-dataflows.introduction
+- learn.wwl.explore-enterprise-grade-etl-data-preparation-using-dataflows.rich-data-connectivity-with-power-query
+- learn.wwl.explore-enterprise-grade-etl-data-preparation-using-dataflows.what-are-dataflows
+- learn.wwl.explore-enterprise-grade-etl-data-preparation-using-dataflows.create-consume-dataflows
+- learn.wwl.explore-enterprise-grade-etl-data-preparation-using-dataflows.understand-power-query-connectors-roadmap
+- learn.wwl.explore-enterprise-grade-etl-data-preparation-using-dataflows.understand-power-query-dataflows-roadmap
+- learn.wwl.explore-enterprise-grade-etl-data-preparation-using-dataflows.knowledge-check
+- learn.wwl.explore-enterprise-grade-etl-data-preparation-using-dataflows.summary-resources
+badge:
+  uid: learn.wwl.explore-enterprise-grade-etl-data-preparation-using-dataflows.badge
