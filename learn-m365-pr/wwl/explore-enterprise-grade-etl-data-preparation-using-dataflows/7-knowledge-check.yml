@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 11/19/2020
+  ms.date: 11/20/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -18,23 +18,23 @@ quiz:
   questions:
   - content: "What Power Query connector would someone use to create structured data from a comma separate values file or text file?"
     choices:
-    - content: "Excel connector"
-      isCorrect: false
-      explanation: "Incorrect. The Text/CSV connector in Power Query imports comma separated files and text files to create structured results that can be used across different services like Power BI and Power Automate."
     - content: "Text/CSV connector"
       isCorrect: true
       explanation: "Correct. The Text/CSV connector in Power Query imports comma separated files and text files to create structured results that can be used across different services like Power BI and Power Automate."
+    - content: "Excel connector"
+      isCorrect: false
+      explanation: "Incorrect. The Text/CSV connector in Power Query imports comma separated files and text files to create structured results that can be used across different services like Power BI and Power Automate."
     - content: "XML connector"
       isCorrect: false
       explanation: "Incorrect. The Text/CSV connector in Power Query imports comma separated files and text files to create structured results that can be used across different services like Power BI and Power Automate."
-  - content: "Which feature of Power Query allows for deduplication and normalization of data within Power Query results?"
+  - content: "Which feature of Power Query allows for de-duplication and normalization of data within Power Query results?"
     choices:
-    - content: "Fuzzy Grouping"
-      isCorrect: true
-      explanation: "Correct. The Fuzzy Grouping transformation performs data cleaning tasks by identifying rows of data that are likely to be duplicates and selecting a canonical row of data to use in standardizing the data."
     - content: "Common Matching"
       isCorrect: false
       explanation: "Incorrect. The Fuzzy Grouping transformation performs data cleaning tasks by identifying rows of data that are likely to be duplicates and selecting a canonical row of data to use in standardizing the data."
+    - content: "Fuzzy Grouping"
+      isCorrect: true
+      explanation: "Correct. The Fuzzy Grouping transformation performs data cleaning tasks by identifying rows of data that are likely to be duplicates and selecting a canonical row of data to use in standardizing the data."
     - content: "Clustering"
       isCorrect: false
       explanation: "Incorrect. The Fuzzy Grouping transformation performs data cleaning tasks by identifying rows of data that are likely to be duplicates and selecting a canonical row of data to use in standardizing the data."

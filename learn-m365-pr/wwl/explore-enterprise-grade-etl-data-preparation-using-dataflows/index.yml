@@ -3,7 +3,7 @@ uid: learn.wwl.explore-enterprise-grade-etl-data-preparation-using-dataflows
 metadata:
   title: Explore enterprise-grade ETL and data preparation using dataflows
   description: "Explore enterprise-grade ETL and data preparation using dataflows"
-  ms.date: 11/19/2020
+  ms.date: 11/20/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -15,7 +15,8 @@ abstract: |
   - How the Text/CSV by Example feature allows for easy data extraction in Power BI
   - How fuzzy grouping allows for easy data grouping in Power BI
   - How to consume dataflows with Power Automate Connector
-prerequisites: ""
+prerequisites: |
+  None
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - beginner
