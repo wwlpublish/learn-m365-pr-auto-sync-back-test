@@ -8,5 +8,5 @@ Now, you’ll be able to discover Power BI tables available to you through the d
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HuXN]
 
-Read more about [Connecting your own data with more new data types in Excel](https://www.microsoft.com/microsoft-365/blog/2020/10/29/connect-to-your-own-data-with-more-new-data-types-in-excel/).
+Read more about [Connecting your own data with more new data types in Excel](https://www.microsoft.com/en-us/microsoft-365/blog/2020/10/29/connect-to-your-own-data-with-more-new-data-types-in-excel/).
 
