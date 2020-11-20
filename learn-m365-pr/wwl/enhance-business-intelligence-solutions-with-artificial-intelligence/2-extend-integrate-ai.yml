@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.enhance-your-business-intelligence-solutions-with-artificial-intelligence.extend-integrate-ai-with-power-bi
+title: Extend and integrate AI with Power BI
+metadata:
+  title: Extend and integrate AI with Power BI
+  description: "Extend and integrate AI with Power BI"
+  ms.date: 11/19/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-extend-integrate-ai.md)]
