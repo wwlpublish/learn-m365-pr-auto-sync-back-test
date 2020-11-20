@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.enhance-your-business-intelligence-solutions-with-artificial-intelligence.use-smart-narratives-to-add-storytelling-to-your-data
+title: Use smart narratives to add storytelling to your data
+metadata:
+  title: Use smart narratives to add storytelling to your data
+  description: "Use smart narratives to add storytelling to your data"
+  ms.date: 11/19/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/4-use-smart-narratives-to-add-storytelling.md)]

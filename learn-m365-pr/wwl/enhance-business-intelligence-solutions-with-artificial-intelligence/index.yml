@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn.wwl.enhance-your-business-intelligence-solutions-with-artificial-intelligence
+metadata:
+  title: Enhance your business intelligence solutions with artificial intelligence
+  description: "Enhance your business intelligence solutions with artificial intelligence"
+  ms.date: 11/19/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Enhance your business intelligence solutions with artificial intelligence
+summary: Take a look at the latest AI capabilities coming to Power BI and learn how you can easily transform your reports into rich storytelling, exploration, and insights experiences.
+abstract: |
+  In this module, you will learn:
+  - How Smart Narratives add storytelling to your data
+  - How you can detect anomalies in your data
+  - How to use decomposition trees and Q&amp;A visuals in Power BI
+prerequisites: ""
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- business-analyst
+- business-owner
+- business-user
+- data-analyst
+products:
+- power-bi
+units:
+- learn.wwl.enhance-your-business-intelligence-solutions-with-artificial-intelligence.introduction
+- learn.wwl.enhance-your-business-intelligence-solutions-with-artificial-intelligence.extend-integrate-ai-with-power-bi
+- learn.wwl.enhance-your-business-intelligence-solutions-with-artificial-intelligence.explore-decomposition-tree-qa-visual-power-bi
+- learn.wwl.enhance-your-business-intelligence-solutions-with-artificial-intelligence.use-smart-narratives-to-add-storytelling-to-your-data
+- learn.wwl.enhance-your-business-intelligence-solutions-with-artificial-intelligence.detect-anomalies-your-data
+- learn.wwl.enhance-your-business-intelligence-solutions-with-artificial-intelligence.knowledge-check
+- learn.wwl.enhance-your-business-intelligence-solutions-with-artificial-intelligence.summary-resources
+badge:
+  uid: learn.wwl.enhance-your-business-intelligence-solutions-with-artificial-intelligence.badge
