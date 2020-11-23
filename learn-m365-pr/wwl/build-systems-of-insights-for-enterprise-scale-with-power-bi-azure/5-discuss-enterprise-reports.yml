@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.build-systems-of-insights-for-enterprise-scale-with-power-bi-azure.discuss-enterprise-reporting
+title: Discuss enterprise reporting with Power BI
+metadata:
+  title: Discuss enterprise reporting with Power BI
+  description: "Discuss enterprise reporting with Power BI"
+  ms.date: 11/23/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/5-discuss-enterprise-reports.md)]

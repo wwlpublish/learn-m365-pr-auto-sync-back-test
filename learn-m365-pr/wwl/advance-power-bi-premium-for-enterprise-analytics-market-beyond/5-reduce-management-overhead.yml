@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.advance-power-bi-premium-for-enterprise-analytics-market-beyond.reduce-management-overhead-with-faster-processing
+title: Reduce management overhead with fewer resource constrain
+metadata:
+  title: Reduce management overhead with fewer resource constrain
+  description: "Reduce management overhead with fewer resource constrain"
+  ms.date: 11/23/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/5-reduce-management-overhead.md)]
