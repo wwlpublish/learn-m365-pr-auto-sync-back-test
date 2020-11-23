@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-enterprise-grade-etl-data-preparation-using-dataflows.create-consume-dataflows
+title: Create and consume dataflows
+metadata:
+  title: Create and consume dataflows
+  description: "Create and consume dataflows"
+  ms.date: 11/20/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/4-create-consume-dataflows.md)]

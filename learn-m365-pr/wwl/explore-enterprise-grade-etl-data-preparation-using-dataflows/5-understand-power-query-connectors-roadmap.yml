@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-enterprise-grade-etl-data-preparation-using-dataflows.understand-power-query-connectors-roadmap
+title: Understand the Power Query connectors roadmap
+metadata:
+  title: Understand the Power Query connectors roadmap
+  description: "Understand the Power Query connectors roadmap"
+  ms.date: 11/20/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/5-understand-power-query-connectors-roadmap.md)]
