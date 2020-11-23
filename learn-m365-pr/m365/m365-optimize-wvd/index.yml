@@ -29,6 +29,7 @@ roles:
 products:
 - m365
 - azure
+- windows-virtual-desktop
 units:
 - learn-m365.optimize-wvd.introduction
 - learn-m365.optimize-wvd.fslogix
