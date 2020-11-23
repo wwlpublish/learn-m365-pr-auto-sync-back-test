@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn.wwl.build-systems-of-insights-for-enterprise-scale-with-power-bi-azure.monitor-evaluate-report-performance-with-azure-log-analytics
-title: Monitor and evaluate report performance with Azure log analytics
+title: Monitor and evaluate report performance with Azure Log Analytics
 metadata:
-  title: Monitor and evaluate report performance with Azure log analytics
-  description: "Monitor and evaluate report performance with Azure log analytics"
-  ms.date: 11/20/2020
+  title: Monitor and evaluate report performance with Azure Log Analytics
+  description: "Monitor and evaluate report performance with Azure Log Analytics"
+  ms.date: 11/23/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial

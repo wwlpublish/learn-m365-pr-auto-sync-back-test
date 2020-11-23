@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn.wwl.build-systems-of-insights-for-enterprise-scale-with-power-bi-azure.define-data-stack-integration-with-azure-synapse-analytics
-title: Define data stack integration with Azure synapse analytics
+title: Define data stack integration with Azure Synapse Analytics
 metadata:
-  title: Define data stack integration with Azure synapse analytics
-  description: "Define data stack integration with Azure synapse analytics"
-  ms.date: 11/20/2020
+  title: Define data stack integration with Azure Synapse Analytics
+  description: "Define data stack integration with Azure Synapse Analytics"
+  ms.date: 11/23/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial

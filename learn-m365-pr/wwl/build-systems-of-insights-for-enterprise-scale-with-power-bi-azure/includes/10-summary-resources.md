@@ -18,5 +18,5 @@ Use these resources to discover more.
 
 - [What is Azure Synapse Analytics (workspaces preview)](https://docs.microsoft.com/azure/synapse-analytics/overview-what-is)
 
-- [For more information on purchasing Premium Per User and to be notified when preview goes live, sign up here](https://info.microsoft.com/ww-landing-power-bi-premium-per-user.html?LCID=EN-US).
+- [For more information on purchasing Premium Per User and to be notified when preview goes live, sign up here](https://info.microsoft.com/ww-landing-power-bi-premium-per-user.html?).
 

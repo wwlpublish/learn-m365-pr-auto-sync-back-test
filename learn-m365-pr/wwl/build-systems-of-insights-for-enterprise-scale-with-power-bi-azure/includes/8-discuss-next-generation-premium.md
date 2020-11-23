@@ -10,5 +10,5 @@ We are also excited to announce Premium Per User – which provides capabilities
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HuYz]
 
-[For more information on purchasing Premium Per User and to be notified when preview goes live, sign up here](https://info.microsoft.com/ww-landing-power-bi-premium-per-user.html?LCID=EN-US).
+[For more information on purchasing Premium Per User and to be notified when preview goes live, sign up here](https://info.microsoft.com/ww-landing-power-bi-premium-per-user.html?).
 
