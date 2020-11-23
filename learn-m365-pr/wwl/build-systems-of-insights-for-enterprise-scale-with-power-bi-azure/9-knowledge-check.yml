@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.build-systems-of-insights-for-enterprise-scale-with-power-bi-azure.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 11/23/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/9-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "What is the Common Data Model?"
+    choices:
+    - content: "A set of a standardized data schemas and a metadata system to allow consistency of data and its meaning across applications and business processes"
+      isCorrect: true
+      explanation: "Correct.  The Common Data Model makes it easy to build new systems of insight using a standardized set of schemas and metadata."
+    - content: "A loosely defined set of data types that allow a high degree of customization among organizations to create custom dataflows."
+      isCorrect: false
+      explanation: "Incorrect.  The Common Data Model makes it easy to build new systems of insight using a standardized set of schemas and metadata."
+    - content: "A strict grouping of objects from multiple organizations, each with their own set of metadata, allowing different companies to connect unrelated data types."
+      isCorrect: false
+      explanation: "Incorrect. The Common Data Model makes it easy to build new systems of insight using a standardized set of schemas and metadata."
+  - content: "What can Power BI Dataflows do to help organizations make sense of disjointed data sources?"
+    choices:
+    - content: "Easily ingest, cleanse, transform, integrate, enrich, and schematize data from a large array of transactional and observational sources, encompassing all data preparation logic."
+      isCorrect: true
+      explanation: "Correct.  Power BI dataflows help organizations tackle the most time consuming part of ingesting data - preparing it for use by your users."
+    - content: "Automatically analyze complex data streams to detect anomalies in large batches of data from multiple datastores."
+      isCorrect: false
+      explanation: "Incorrect. Power BI dataflows help organizations tackle the most time consuming part of ingesting data - preparing it for use by your users."
+    - content: "Effortlessly merge data and detect duplicates from internal and public data sources."
+      isCorrect: false
+      explanation: "Incorrect. Power BI dataflows help organizations tackle the most time consuming part of ingesting data - preparing it for use by your users."
+  - content: "What does the Power BI performance accelerator in Azure Synapse Analytics do for organizations?"
+    choices:
+    - content: "Speeds up Power BI performance across all reports in an organization."
+      isCorrect: false
+      explanation: "Incorrect. Performance accelerator can be turned on in Azure Synapse Analytics to cache the most common queries across your organization, leading to accelerated performance for everyone."
+    - content: "Helps speed up query and report performance by analyzing the most common queries across the organization."
+      isCorrect: true
+      explanation: "Correct. Performance accelerator can be turned on in Azure Synapse Analytics to cache the most common queries across your organization, leading to accelerated performance for everyone."
+    - content: "Increases total utilization capacity temporarily to meet unexpected reporting demands."
+      isCorrect: false
+      explanation: "Incorrect. Performance accelerator can be turned on in Azure Synapse Analytics to cache the most common queries across your organization, leading to accelerated performance for everyone."
