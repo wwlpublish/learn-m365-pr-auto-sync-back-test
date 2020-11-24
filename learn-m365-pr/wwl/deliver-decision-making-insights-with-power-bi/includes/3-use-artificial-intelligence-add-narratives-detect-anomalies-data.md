@@ -10,13 +10,13 @@ With Smart narratives, creators can add narratives to their report to address ke
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HuXU]
 
-Since this feature is in preview, you will need to first turn on the feature switch by going to File > Options and Settings > Options > Preview feature and make sure Smart narrative visual is turned on:
+You will need to first turn on the feature switch by going to File > Options and Settings > Options > Preview feature and make sure Smart narrative visual is turned on:
 
 ![Option to turn on Smart Narratives in Power BI.](../media/smart-narratives-september-2020.png)
 
 Read more about [smart narratives in Power BI](https://powerbi.microsoft.com/blog/smart-narrative-preview/).
 
-## Anomaly detection (coming soon)
+## Anomaly detection
 
 Report authors will be able to add enrichments to visualizations to automatically find anomalies based on personalized parameters. Selecting an anomaly will trigger a further analysis that explains the anomaly for the end user. These explanations can be customized by the report author.
 
