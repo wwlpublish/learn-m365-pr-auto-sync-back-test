@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.build-systems-of-insights-for-enterprise-scale-with-power-bi-azure.ingest-prep-data-with-dataflows-machine-learning
+title: Ingest and prep data with dataflows and machine learning
+metadata:
+  title: Ingest and prep data with dataflows and machine learning
+  description: "Ingest and prep data with dataflows and machine learning"
+  ms.date: 11/23/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-ingest-prep-data.md)]
