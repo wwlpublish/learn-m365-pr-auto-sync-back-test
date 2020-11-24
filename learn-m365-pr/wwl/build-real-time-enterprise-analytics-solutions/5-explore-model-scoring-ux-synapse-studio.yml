@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.build-real-time-enterprise-analytics-solutions-with-azure-synapse-analytics.explore-model-scoring-ux-synapse-studio
+title: Explore model scoring in Synapse Studio
+metadata:
+  title: Explore model scoring in Synapse Studio
+  description: "Explore model scoring in Synapse Studio"
+  ms.date: 11/24/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/5-explore-model-scoring-ux-synapse-studio.md)]

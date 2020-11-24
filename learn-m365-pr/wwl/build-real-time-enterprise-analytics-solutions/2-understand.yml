@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.build-real-time-enterprise-analytics-solutions-with-azure-synapse-analytics.understand
+title: Understand Azure Synapse Analytics workspaces
+metadata:
+  title: Understand Azure Synapse Analytics workspaces
+  description: "Understand Azure Synapse Analytics workspaces"
+  ms.date: 11/24/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/2-understand.md)]

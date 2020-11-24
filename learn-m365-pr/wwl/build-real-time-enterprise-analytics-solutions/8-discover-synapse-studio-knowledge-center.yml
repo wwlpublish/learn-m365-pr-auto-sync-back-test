@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.build-real-time-enterprise-analytics-solutions-with-azure-synapse-analytics.discover-synapse-studio-knowledge-center
+title: Discover Synapse Studio Knowledge center
+metadata:
+  title: Discover Synapse Studio Knowledge center
+  description: "Discover Synapse Studio Knowledge center"
+  ms.date: 11/24/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/8-discover-synapse-studio-knowledge-center.md)]

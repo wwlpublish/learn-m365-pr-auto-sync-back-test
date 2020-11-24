@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.build-real-time-enterprise-analytics-solutions-with-azure-synapse-analytics.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 11/24/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/9-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "What is the ONNX format used for?"
+    choices:
+    - content: "For Synapse SQL dedicated pools."
+      isCorrect: false
+      explanation: "Incorrect. ONNX is an open format for ML models, allowing you to interchange models between various ML frameworks and tools."
+    - content: "For Apache Spark pools."
+      isCorrect: false
+      explanation: "Incorrect. ONNX is an open format for ML models, allowing you to interchange models between various ML frameworks and tools."
+    - content: "To represent machine learning models."
+      isCorrect: true
+      explanation: "Correct. ONNX is an open format for ML models, allowing you to interchange models between various ML frameworks and tools."
+  - content: "What is the maximum throughput possible when streaming to Azure Synapse Analytics?"
+    choices:
+    - content: "12 TB per minute"
+      isCorrect: false
+      explanation: "Incorrect. You can achieve up to 12 GB per minute of throughput into Azure Synapse Analytics."
+    - content: "12 GB per minute"
+      isCorrect: true
+      explanation: "Correct. You can achieve up to 12 GB per minute of throughput into Azure Synapse Analytics."
+    - content: "12 GB per second"
+      isCorrect: false
+      explanation: "Incorrect. You can achieve up to 12 GB per minute of throughput into Azure Synapse Analytics."
+  - content: "Where can users go to see examples of Synapse SQL projects, get access to sample data sets, and take a tour of Synapse Studio?"
+    choices:
+    - content: "SQL center"
+      isCorrect: false
+      explanation: "Incorrect. The Knowledge center in Synapse Studio gives users access to sample projects, code, datasets, and more to help them get started quickly with Synapse SQL."
+    - content: "Knowledge center"
+      isCorrect: true
+      explanation: "Correct. The Knowledge center in Synapse Studio gives users access to sample projects, code, datasets, and more to help them get started quickly with Synapse SQL."
+    - content: "Information hub"
+      isCorrect: false
+      explanation: "Incorrect. The Knowledge center in Synapse Studio gives users access to sample projects, code, datasets, and more to help them get started quickly with Synapse SQL."

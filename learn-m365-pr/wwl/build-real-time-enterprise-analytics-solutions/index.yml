@@ -1,0 +1,44 @@
+### YamlMime:Module
+uid: learn.wwl.build-real-time-enterprise-analytics-solutions-with-azure-synapse-analytics
+metadata:
+  title: Build real-time enterprise analytics solutions with Azure Synapse Analytics
+  description: "Build real-time enterprise analytics solutions with Azure Synapse Analytics"
+  ms.date: 11/24/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Build real-time enterprise analytics solutions with Azure Synapse Analytics
+summary: Learn about the latest Azure Synapse Analytics capabilities for developing end-to-end solutions for real-time analytics, data warehousing, and machine learning.
+abstract: |
+  In this module, you will learn:
+  - How to stream analytics high throughput egress to Azure Synapse SQL
+  - How to train models in Azure Synapse
+  - How model scoring works in Synapse Studio
+  - About advanced security in Synapse SQL, Power Query support in Synapse Pipelines, and Synapse Studio Knowledge Center
+prerequisites: ""
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- business-analyst
+- business-owner
+- business-user
+- data-analyst
+products:
+- azure-machine-learning
+- power-bi
+- azure-synapse-analytics
+units:
+- learn.wwl.build-real-time-enterprise-analytics-solutions-with-azure-synapse-analytics.introduction
+- learn.wwl.build-real-time-enterprise-analytics-solutions-with-azure-synapse-analytics.understand
+- learn.wwl.build-real-time-enterprise-analytics-solutions-with-azure-synapse-analytics.stream-analytics-high-throughput-egress-to-synapse-sql
+- learn.wwl.build-real-time-enterprise-analytics-solutions-with-azure-synapse-analytics.train-models-track-them-azure-ml
+- learn.wwl.build-real-time-enterprise-analytics-solutions-with-azure-synapse-analytics.explore-model-scoring-ux-synapse-studio
+- learn.wwl.build-real-time-enterprise-analytics-solutions-with-azure-synapse-analytics.discover-advanced-security-synapse-sql
+- learn.wwl.build-real-time-enterprise-analytics-solutions-with-azure-synapse-analytics.support-power-query-synapse-pipelines
+- learn.wwl.build-real-time-enterprise-analytics-solutions-with-azure-synapse-analytics.discover-synapse-studio-knowledge-center
+- learn.wwl.build-real-time-enterprise-analytics-solutions-with-azure-synapse-analytics.knowledge-check
+- learn.wwl.build-real-time-enterprise-analytics-solutions-with-azure-synapse-analytics.summary-resources
+badge:
+  uid: learn.wwl.build-real-time-enterprise-analytics-solutions-with-azure-synapse-analytics.badge

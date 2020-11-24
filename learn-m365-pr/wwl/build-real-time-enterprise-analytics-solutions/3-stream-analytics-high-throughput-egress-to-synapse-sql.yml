@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.build-real-time-enterprise-analytics-solutions-with-azure-synapse-analytics.stream-analytics-high-throughput-egress-to-synapse-sql
+title: Stream Analytics high-throughput egress to Synapse SQL
+metadata:
+  title: Stream Analytics high-throughput egress to Synapse SQL
+  description: "Stream Analytics high-throughput egress to Synapse SQL"
+  ms.date: 11/24/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/3-stream-analytics-high-throughput-egress-to-synapse-sql.md)]
