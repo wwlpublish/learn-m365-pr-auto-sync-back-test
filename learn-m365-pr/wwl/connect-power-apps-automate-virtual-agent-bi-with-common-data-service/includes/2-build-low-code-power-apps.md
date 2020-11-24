@@ -6,7 +6,7 @@ Avoid wasting time by switching between multiple services and apps with one full
 
 ## Quickly build and deploy apps and bots inside Teams
 
-With both the Power Apps App Studio and the Power Virtual Agents Portal embedded in Teams, users can now easily and quickly build apps and bots with drag and drop simplicity in Teams without switching applications. With this built-in data platform and an easy-to-use editable data table, there is no need to connect to storage. All users can now easily create custom data tables that are team and scenario specific. Optimize your Teams processes, drive greater collaboration, and improve efficiency with a built-in low code platform and low-code data storage.
+With both the Microsoft Power Apps Studio and the Power Virtual Agents Portal embedded in Teams, users can now easily and quickly build apps and bots with drag and drop simplicity in Teams without switching applications. With this built-in data platform and an easy-to-use editable data table, there is no need to connect to storage. All users can now easily create custom data tables that are team and scenario specific. Optimize your Teams processes, drive greater collaboration, and improve efficiency with a built-in low code platform and low-code data storage.
 
 ## Easily share and administer custom solutions through Teams
 

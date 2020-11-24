@@ -3,7 +3,7 @@ uid: learn.wwl.connect-power-apps-automate-virtual-agent-bi-with-common-data-ser
 metadata:
   title: Connect to the Microsoft Dataverse through Microsoft Teams
   description: "Connect to the Microsoft Dataverse through Microsoft Teams"
-  ms.date: 11/23/2020
+  ms.date: 11/24/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -14,7 +14,8 @@ abstract: |
   In this module, you will learn:
   - How Microsoft Dataverse for Teams is helping everyone to create low-code, data-driven apps
   - How the Common Data Service (Beta) connector works with Power BI
-prerequisites: ""
+prerequisites: |
+  None
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - beginner

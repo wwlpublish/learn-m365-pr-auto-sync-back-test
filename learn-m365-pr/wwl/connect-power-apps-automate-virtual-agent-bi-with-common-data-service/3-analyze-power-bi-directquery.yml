@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn.wwl.connect-power-apps-automate-virtual-agent-bi-with-common-data-service.analyze-with-power-bi-directquery
-title: Analyze with Power BI directquery
+title: Analyze with Power BI DirectQuery
 metadata:
-  title: Analyze with Power BI directquery
-  description: "Analyze with Power BI directquery"
-  ms.date: 11/23/2020
+  title: Analyze with Power BI DirectQuery
+  description: "Analyze with Power BI DirectQuery"
+  ms.date: 11/24/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial

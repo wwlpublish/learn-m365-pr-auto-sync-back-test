@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 11/23/2020
+  ms.date: 11/24/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -31,10 +31,10 @@ quiz:
     choices:
     - content: "Tabular Data Stream (TDS) endpoint"
       isCorrect: true
-      explanation: "Correct. The TDS endpoint allows read-only access to the data in a tabular format, resulting in immediata data access with the built-in security of Microsoft 365."
+      explanation: "Correct. The TDS endpoint allows read-only access to the data in a tabular format, resulting in immediate data access with the built-in security of Microsoft 365."
     - content: "Multi Data Stream"
       isCorrect: false
-      explanation: "Incorrect. The TDS endpoint allows read-only access to the data in a tabular format, resulting in immediata data access with the built-in security of Microsoft 365."
+      explanation: "Incorrect. The TDS endpoint allows read-only access to the data in a tabular format, resulting in immediate data access with the built-in security of Microsoft 365."
     - content: "CSV Data Stream"
       isCorrect: false
-      explanation: "Incorrect. The TDS endpoint allows read-only access to the data in a tabular format, resulting in immediata data access with the built-in security of Microsoft 365."
+      explanation: "Incorrect. The TDS endpoint allows read-only access to the data in a tabular format, resulting in immediate data access with the built-in security of Microsoft 365."

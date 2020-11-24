@@ -4,7 +4,7 @@ Users can use Direct Query with the new Common Data Service (beta) Connector. Th
 
 |||
 | :--- | :--- |
-| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about how you can benefit from using Direct Query in Power BI.|
+| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about how you can benefit from using DirectQuery in Power BI.|
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HDtq]
 
