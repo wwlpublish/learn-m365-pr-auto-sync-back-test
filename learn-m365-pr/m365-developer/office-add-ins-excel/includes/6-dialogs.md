@@ -4,7 +4,7 @@ In this unit, you'll learn how to incorporate dialogs in Excel workbooks. You'll
 
 The Dialog API is an extension of the user experience developers can customize in Office. Developers can use it to open dialogs from custom add-ins that interact with the user and the custom add-in user experience.
 
-The primary scenario for the Dialog API is authentication with third-party providers. Most identity providers prevent their sign-in experiences from being displayed in an Iframe due to click-jacking concerns. This is troublesome with an add-in as they are displayed in Iframes in some of the clients such as the web versions of Office client applications.
+The primary scenario for the Dialog API is authentication with third-party providers. Most identity providers prevent their sign-in experiences from being displayed in an iframe because of click-jacking concerns. This is troublesome with an add-in as they're displayed in iframes in some of the clients such as the web versions of Office client applications.
 
 Another challenge with authentication scenarios is predicting the domains that will need to load. In federated sign-in scenarios the potential list of domains could be endless, which again is troublesome in an add-in where all domains need to be registered in the manifest.
 
