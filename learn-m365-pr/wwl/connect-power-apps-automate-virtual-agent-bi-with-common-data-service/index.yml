@@ -1,0 +1,39 @@
+### YamlMime:Module
+uid: learn.wwl.connect-power-apps-automate-virtual-agent-bi-with-common-data-service
+metadata:
+  title: Connect to the Microsoft Dataverse through Microsoft Teams
+  description: "Connect to the Microsoft Dataverse through Microsoft Teams"
+  ms.date: 11/25/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Connect to the Microsoft Dataverse through Microsoft Teams
+summary: Learn how the Microsoft Dataverse for Teams provides a low code data platform that allows your data to permeate all your apps, flows, agents, and dashboards.
+abstract: |
+  In this module, you will learn:
+  - How Microsoft Dataverse for Teams is helping everyone to create low-code, data-driven apps
+  - How the Common Data Service (Beta) connector works with Power BI
+prerequisites: |
+  None
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- business-analyst
+- business-owner
+- business-user
+- data-analyst
+products:
+- power-apps
+- power-automate
+- power-bi
+- power-virtual-agents
+units:
+- learn.wwl.connect-power-apps-automate-virtual-agent-bi-with-common-data-service.introduction
+- learn.wwl.connect-power-apps-automate-virtual-agent-bi-with-common-data-service.build-low-code,-power-apps-within-microsoft-teams
+- learn.wwl.connect-power-apps-automate-virtual-agent-bi-with-common-data-service.analyze-with-power-bi-directquery
+- learn.wwl.connect-power-apps-automate-virtual-agent-bi-with-common-data-service.knowledge-check
+- learn.wwl.connect-power-apps-automate-virtual-agent-bi-with-common-data-service.summary-resources
+badge:
+  uid: learn.wwl.connect-power-apps,-automate,-virtual-agent,-bi-with-common-data-service.badge
