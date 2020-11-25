@@ -1,6 +1,6 @@
-Power BI is adding another way to analyze your data in Power BI with Direct Query. Direct Query provides real-time access to the data, resulting in less latency when running an operation.  In addition, since Power BI and Direct Query are part of Microsoft 365, it benefits from the excellent set of security services to protect data from at its source, and ensuring only users have access to the data that’s relevant.
+Power BI is adding another way to analyze your data in Power BI with DirectQuery. DirectQuery provides real-time access to the data, resulting in less latency when running an operation.  In addition, since Power BI and DirectQuery are part of Microsoft 365, it benefits from the excellent set of security services to protect data from at its source, and ensuring only users have access to the data that’s relevant.
 
-Users can use Direct Query with the new Common Data Service (beta) Connector. This connector uses the Tabular Data Stream endpoint for the Microsoft Dataverse environment. This endpoint enables better relationship discovery in the Power BI dataset model. In addition, complex data types, such as lookups, option-sets, and currency are flattened for easy consumption in the model.
+Users can use DirectQuery with the new Common Data Service (beta) Connector. This connector uses the Tabular Data Stream endpoint for the Microsoft Dataverse environment. This endpoint enables better relationship discovery in the Power BI dataset model. In addition, complex data types, such as lookups, option-sets, and currency are flattened for easy consumption in the model.
 
 |||
 | :--- | :--- |
