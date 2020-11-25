@@ -210,7 +210,7 @@ function insertTextIntoRange() {
       //        been queued.
     ```
 
-1. Replace `TODO3` with the following code. This new paragraph will demonstrate the fact that the new text is ***not*** part of the original selected range. The original range still has only the text it had when it was selected.
+1. Replace `TODO3` with the following code. This new paragraph will demonstrate the fact that the new text **isn't** part of the original selected range. The original range still has only the text it had when it was selected.
 
     ```javascript
     doc.body.insertParagraph("Current text of original range: " + originalRange.text, "End");
