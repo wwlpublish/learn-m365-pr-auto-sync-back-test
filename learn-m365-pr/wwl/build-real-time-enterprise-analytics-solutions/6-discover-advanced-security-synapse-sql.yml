@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.build-real-time-enterprise-analytics-solutions-with-azure-synapse-analytics.discover-advanced-security-synapse-sql
+title: Discover advanced security in Synapse SQL
+metadata:
+  title: Discover advanced security in Synapse SQL
+  description: "Discover advanced security in Synapse SQL"
+  ms.date: 11/25/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/6-discover-advanced-security-synapse-sql.md)]

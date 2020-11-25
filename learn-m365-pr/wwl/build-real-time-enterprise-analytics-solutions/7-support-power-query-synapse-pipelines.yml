@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.build-real-time-enterprise-analytics-solutions-with-azure-synapse-analytics.support-power-query-synapse-pipelines
+title: Support for Power Query in Azure Synapse Pipelines
+metadata:
+  title: Support for Power Query in Azure Synapse Pipelines
+  description: "Support for Power Query in Azure Synapse Pipelines"
+  ms.date: 11/25/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/7-support-power-query-synapse-pipelines.md)]
