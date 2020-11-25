@@ -111,14 +111,27 @@ Open the file **webpack.config.js** in the root directory of the project and com
       new HtmlWebpackPlugin({
         filename: "taskpane.html",
         template: "./src/taskpane/taskpane.html",
-        chunks: ['polyfill', 'taskpane']
+        chunks: ["polyfill", "taskpane"]
       }),
-      new CopyWebpackPlugin([
-      {
-        to: "taskpane.css",
-        from: "./src/taskpane/taskpane.css"
-      }
-      ]),
+      new CopyWebpackPlugin({
+        patterns: [
+          {
+            to: "taskpane.css",
+            from: "./src/taskpane/taskpane.css"
+          },
+          {
+            to: "[name]." + buildType + ".[ext]",
+            from: "manifest*.xml",
+            transform(content) {
+              if (dev) {
+                return content;
+              } else {
+                return content.toString().replace(new RegExp(urlDev, "g"), urlProd);
+              }
+            }
+          }
+        ]
+      }),
       new HtmlWebpackPlugin({
         filename: "commands.html",
         template: "./src/commands/commands.html",
