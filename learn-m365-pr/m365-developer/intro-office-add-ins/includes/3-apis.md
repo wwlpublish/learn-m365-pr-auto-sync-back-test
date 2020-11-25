@@ -4,7 +4,7 @@ In this unit, you'll explore the Office add-ins programming model, developer too
 
 The Office add-in programming model relies on two JavaScript object models:
 
-- Host-specific JavaScript API - Host-specific APIs for Excel and Word provide strongly-typed objects that you can use to access specific elements in the host application. For example, the Excel API contains objects that represent worksheets, ranges, tables, charts, and more.
+- Host-specific JavaScript API - Host-specific APIs for Excel and Word provide strongly typed objects that you can use to access specific elements in the host application. For example, the Excel API contains objects that represent worksheets, ranges, tables, charts, and more.
 - Common API - Introduced with Office 2013, the Common API enables you to access features such as:
   - UI
   - Dialogs
@@ -293,7 +293,7 @@ The following table summarizes when you should use each type of access token.
 
 #### Contextual add-ins
 
-Contextual add-ins are Outlook add-ins that activate based on text in a message or appointment. You may have seen the default contextual add-ins in Outlook, such as Bing Maps or Suggested Meetings. Using contextual add-ins, a user can initiate tasks related to a message without leaving the message itself, which results in an easier and richer user experience.
+Contextual add-ins are Outlook add-ins that activate based on text in a message or appointment. You may have seen the default contextual add-ins in Outlook, such as Bing Maps or Suggested Meetings. Using contextual add-ins, a user can start tasks related to a message without leaving the message itself, which results in an easier and richer user experience.
 
 The following table lists a few example tasks based on a user's selection.
 
@@ -327,7 +327,7 @@ As such, the add-in manifest must contain a rule of type `ItemHasKnownEntity` or
 </ExtensionPoint>
 ```
 
-After a contextual add-in is associated with an account, it will automatically start when the user clicks a highlighted entity or regular expression.
+After a contextual add-in is associated with an account, it will automatically start when the user selects a highlighted entity or regular expression.
 
 A user launches a contextual add-in through text, either a known entity or a developer's regular expression. Typically, a user identifies a contextual add-in because the entity is highlighted.
 
@@ -522,7 +522,7 @@ To develop a Word add-in, use:
 - The Yeoman generator for Office add-ins
 - Visual Studio
 
-If you want to explore the APIs more, the Script Lab add-in is recommended. There, you'll see many TypeScript and JavaScript snippets and be able to experiment with Word documents without creating an entire add-in.
+If you want to explore the APIs more, the Script Lab add-in is recommended. There, you'll see many TypeScript and JavaScript snippets and can experiment with Word documents without creating an entire add-in.
 
 ## Understand the capabilities of custom functions
 
@@ -563,7 +563,7 @@ The JSDoc tags in the code comments are used to generate a JSON metadata file th
 
 ### Custom function runtime restrictions
 
-The custom function runtime only runs JavaScript. There's no document object model (DOM) or local storage, as you would find in a browser-based JavaScript runtime environment. This means you can't load any libraries that use the DOM, such as jQuery. Also, you can't access the Office.js API to interact with the document like you can from a task pane. Instead, the custom functions runtime is optimized for tasks such as performing rapid calculations and generally doesn't need to use some of the Office.js APIs such as formatting tools in Excel.
+The custom function runtime only runs JavaScript. There's no document object model (DOM) or local storage, as you would find in a browser-based JavaScript runtime environment. This means you can't load any libraries that use the DOM, such as jQuery. Also, you can't access the Office.js API to interact with the document like you can from a task pane. Instead, the custom functions runtime is optimized for tasks such as doing rapid calculations and generally doesn't need to use some of the Office.js APIs such as formatting tools in Excel.
 
 Custom functions have a webpage that loads the custom functions runtime. Since the custom functions runtime doesn't have a UI, there's nothing for the webpage to display. You'll find the following script tag in the webpage that loads the library for the custom functions runtime.
 
@@ -577,7 +577,7 @@ Typically custom functions are combined with a task pane in the same add-in. If 
 
 Custom function code and task pane code (which uses Office.js) can't call or communicate directly with each other. But you can use a storage API that allows them to share data. A common scenario for using the storage API is when the add-in needs to share a security token for accessing a secure network resource. The user might first call a custom function that requires them to be signed in. After authentication, it receives the security token. Then it shares the security token using the storage API so that later, when the user opens the task pane, the task pane doesn't need to sign them in again.
 
-Alternatively, the user might open the task pane first. In this case, the task pane will sign in the user and share the security token through the storage API. When a custom function is used later, the custom function can get the security token through the storage API.
+Instead, the user might open the task pane first. In this case, the task pane will sign in the user and share the security token through the storage API. When a custom function is used later, the custom function can get the security token through the storage API.
 
 #### Storage API example
 

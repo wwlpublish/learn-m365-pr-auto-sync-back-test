@@ -3,7 +3,7 @@ uid: learn-m365.intro-office-add-ins.4-customization
 metadata:
   title: Understand how to customize Office add-ins
   description: The Office add-ins platform enables you to customize your add-in. In this unit, you'll explore how to customize your add-in by persisting state, and using Office UI Fabric and Microsoft Graph. By the end of this unit, you should know how to customize Office add-ins using persisted state, Office UI Fabric, and Microsoft Graph.
-  ms.date: 03/24/2020
+  ms.date: 11/25/2020
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
@@ -37,14 +37,14 @@ quiz:
     - content: "Fabric reflects Office branding."
       isCorrect: true
       explanation: "Your add-in can look like a natural extension of Office when you use Fabric elements and components."
-  - content: "Joe's connecting to Microsoft Graph in an add-in. Where should the add-in display the Azure Active Directory (AAD) sign-in form for a user in Office on the web?"
+  - content: "Joe's connecting to Microsoft Graph in an add-in. Where should the add-in display the Azure Active Directory (Azure AD) sign-in form for a user in Office on the web?"
     choices:
     - content: "Custom function"
       isCorrect: false
       explanation: "A custom function may require the user to sign in but that's not where a user would sign in."
     - content: "Dialog"
       isCorrect: true
-      explanation: "The add-in needs to use the Dialog API to display the AAD login form in a dialog."
+      explanation: "The add-in needs to use the Dialog API to display the Azure AD login form in a dialog."
     - content: "Task pane"
       isCorrect: false
-      explanation: "AAD doesn't allow their login form to be displayed in the task pane iframe."
+      explanation: "Azure AD doesn't allow their login form to be displayed in the task pane iframe."
