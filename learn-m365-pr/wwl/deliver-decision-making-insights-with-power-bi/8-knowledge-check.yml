@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.deliver-decision-making-insights-with-power-bi.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 11/24/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/8-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "With the new Teams search experience, finding and opening Power BI content has never been easier.  Which of these mentions is used to find reports, dashboards, and apps in the Microsoft Teams search bar?"
+    choices:
+    - content: "@Power BI"
+      isCorrect: true
+      explanation: "Correct.  Mention **@Power BI** in the Teams search bar, and you'll be able to find Power BI reports, dashboards, apps, and more."
+    - content: "@Teams BI"
+      isCorrect: false
+      explanation: "Incorrect.  Mentioning **@Teams BI** would not work."
+    - content: "@Power Apps"
+      isCorrect: false
+      explanation: "Incorrect.  Mentioning **@Power Apps** would not work."
+  - content: "Which of the following ways can users access organizational Power BI datasets in Excel, providing a familiar, flexible, and powerful way to transform their data?"
+    choices:
+    - content: "SmartArt"
+      isCorrect: false
+      explanation: "Incorrect. SmartArt cannot connect to Power BI datasets."
+    - content: "PivotTable"
+      isCorrect: true
+      explanation: "Correct. Excel can automatically create PivotTables based on published Power BI datasets.  Allowing users to get the most up-to-date information from Power BI, in a familiar environment in Excel."
+    - content: "PivotChart"
+      isCorrect: false
+      explanation: "Incorrect.  While PivotCharts cannot connect directly to Power BI datasets, they can be created after a PivotTable is connected."
+  - content: "The Power BI app for Microsoft Teams provides a central, personalized home for data, without ever having to leave Teams. Within the home tab, content is organized into which groups?"
+    choices:
+    - content: "Favorites and frequently accessed, recently accessed, and featured content."
+      isCorrect: true
+      explanation: "Correct. To make decisions quickly, users need access to the data that matters the most."
+    - content: "Alphabetically, numerically, and chronologically."
+      isCorrect: false
+      explanation: "Incorrect. This is not how the content is grouped in the Power BI app for Teams."
+    - content: "Team content, company content, and external content."
+      isCorrect: false
+      explanation: "Incorrect. This is not how the content is grouped in the Power BI app for Teams."
