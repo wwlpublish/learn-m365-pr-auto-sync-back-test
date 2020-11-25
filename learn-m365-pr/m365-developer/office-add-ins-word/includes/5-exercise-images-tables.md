@@ -13,7 +13,7 @@ In this exercise, you'll add text inside and outside of selected ranges of text,
     ```
 
 1. Open the file **./src/taskpane/taskpane.js**.
-1. Within the `Office.onReady()` method call, locate the following line in the `Office.onRead()` method:
+1. Within the `Office.onReady()` method call, locate the following line in the `Office.onReady()` method:
 
     ```javascript
     document.getElementById("change-font").onclick = changeFont;
@@ -150,7 +150,7 @@ function insertTextIntoRange() {
     ```
 
 1. Open the file **./src/taskpane/taskpane.js**.
-1. Within the `Office.onReady()` method call, locate the following line in the `Office.onRead()` method:
+1. Within the `Office.onReady()` method call, locate the following line in the `Office.onReady()` method:
 
     ```javascript
     document.getElementById("insert-text-into-range").onclick = insertTextIntoRange;
@@ -232,7 +232,7 @@ function insertTextIntoRange() {
     ```
 
 1. Open the file **./src/taskpane/taskpane.js**.
-1. Within the `Office.onReady()` method call, locate the following line in the `Office.onRead()` method:
+1. Within the `Office.onReady()` method call, locate the following line in the `Office.onReady()` method:
 
     ```javascript
     document.getElementById("insert-text-outside-range").onclick = insertTextBeforeRange;
@@ -317,7 +317,7 @@ Complete the following steps to define the image that you'll insert into the doc
     import { base64Image } from "./base64Image";
     ```
 
-1. Within the `Office.onReady()` method call, locate the following line in the `Office.onRead()` method:
+1. Within the `Office.onReady()` method call, locate the following line in the `Office.onReady()` method:
 
     ```javascript
     document.getElementById("replace-text").onclick = replaceText;
@@ -363,7 +363,7 @@ Complete the following steps to define the image that you'll insert into the doc
     ```
 
 1. Open the file **./src/taskpane/taskpane.js**.
-1. Within the `Office.onReady()` method call, locate the following line in the `Office.onRead()` method:
+1. Within the `Office.onReady()` method call, locate the following line in the `Office.onReady()` method:
 
     ```javascript
     document.getElementById("insert-image").onclick = insertImage;
@@ -414,7 +414,7 @@ Complete the following steps to define the image that you'll insert into the doc
     ```
 
 1. Open the file **./src/taskpane/taskpane.js**.
-1. Within the `Office.onReady()` method call, locate the following line in the `Office.onRead()` method:
+1. Within the `Office.onReady()` method call, locate the following line in the `Office.onReady()` method:
 
     ```javascript
     document.getElementById("insert-html").onclick = insertHTML;

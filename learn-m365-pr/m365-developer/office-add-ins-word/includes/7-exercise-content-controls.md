@@ -16,7 +16,7 @@ In this exercise, you'll learn how to create rich text content controls in the d
     ```
 
 1. Open the file **./src/taskpane/taskpane.js**.
-1. Within the `Office.onReady()` method call, locate the following line in the `Office.onRead()` method:
+1. Within the `Office.onReady()` method call, locate the following line in the `Office.onReady()` method:
 
     ```javascript
     document.getElementById("insert-table").onclick = insertTable;
@@ -76,7 +76,7 @@ In this exercise, you'll learn how to create rich text content controls in the d
     ```
 
 1. Open the file **./src/taskpane/taskpane.js**.
-1. Within the `Office.onReady()` method call, locate the following line in the `Office.onRead()` method:
+1. Within the `Office.onReady()` method call, locate the following line in the `Office.onReady()` method:
 
     ```javascript
     document.getElementById("create-content-control").onclick = createContentControl;

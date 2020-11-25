@@ -172,7 +172,7 @@ In this section, you'll apply a built-in style to text, apply a custom style to 
     ```
 
 1. Open the file **./src/taskpane/taskpane.js**.
-1. Within the `Office.onReady()` method call, locate the following line in the `Office.onRead()` method:
+1. Within the `Office.onReady()` method call, locate the following line in the `Office.onReady()` method:
 
     ```javascript
     document.getElementById("insert-paragraph").onclick = insertParagraph;
@@ -220,7 +220,7 @@ In this section, you'll apply a built-in style to text, apply a custom style to 
     ```
 
 1. Open the file **./src/taskpane/taskpane.js**.
-1. Within the `Office.onReady()` method call, locate the following line in the `Office.onRead()` method:
+1. Within the `Office.onReady()` method call, locate the following line in the `Office.onReady()` method:
 
     ```javascript
     document.getElementById("apply-style").onclick = applyStyle;
@@ -270,7 +270,7 @@ In this section, you'll apply a built-in style to text, apply a custom style to 
     ```
 
 1. Open the file **./src/taskpane/taskpane.js**.
-1. Within the `Office.onReady()` method call, locate the following line in the `Office.onRead()` method:
+1. Within the `Office.onReady()` method call, locate the following line in the `Office.onReady()` method:
 
     ```javascript
     document.getElementById("apply-custom-style").onclick = applyCustomStyle;
