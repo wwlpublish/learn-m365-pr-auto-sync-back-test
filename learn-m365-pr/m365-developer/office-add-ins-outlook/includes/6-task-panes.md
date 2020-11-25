@@ -178,7 +178,7 @@ Office.context.mailbox.getCallbackTokenAsync({isRest: true}, function(result){
 });
 ```
 
-### Tokens and APIs (EWS)
+### Tokens and APIs (Exchange Web Services)
 
 This sample demonstrates how to call the Exchange Web Services (EWS) from an add-in using Office.js.
 
