@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn.wwl.build-real-time-enterprise-analytics-solutions-with-azure-synapse-analytics.train-models-track-them-azure-ml
-title: Train models in Azure Synapse and track them in Azure ML
+title: Train models in Azure Synapse and track them in Azure Machine Learning
 metadata:
-  title: Train models in Azure Synapse and track them in Azure ML
-  description: "Train models in Azure Synapse and track them in Azure ML"
-  ms.date: 11/24/2020
+  title: Train models in Azure Synapse and track them in Azure Machine Learning
+  description: "Train models in Azure Synapse and track them in Azure Machine Learning"
+  ms.date: 11/25/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial

@@ -3,7 +3,7 @@ uid: learn.wwl.build-real-time-enterprise-analytics-solutions-with-azure-synapse
 metadata:
   title: Build real-time enterprise analytics solutions with Azure Synapse Analytics
   description: "Build real-time enterprise analytics solutions with Azure Synapse Analytics"
-  ms.date: 11/24/2020
+  ms.date: 11/25/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -16,7 +16,8 @@ abstract: |
   - How to train models in Azure Synapse
   - How model scoring works in Synapse Studio
   - About advanced security in Synapse SQL, Power Query support in Synapse Pipelines, and Synapse Studio Knowledge Center
-prerequisites: ""
+prerequisites: |
+  None
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - beginner
