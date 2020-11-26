@@ -369,12 +369,12 @@ Finally, open the file **webpack.config.js** file in the root directory of the p
       template: "./src/settings/dialog.html",
       chunks: ["polyfill", "dialog"]
     }),
-    new CopyWebpackPlugin([
-      {
+    new CopyWebpackPlugin({
+      patterns: [{
         to: "dialog.css",
         from: "./src/settings/dialog.css"
-      }
-    ])
+      }]
+    })
     ```
 
     After you've done this, the new `plugins` array will look like this:
@@ -385,14 +385,27 @@ Finally, open the file **webpack.config.js** file in the root directory of the p
       new HtmlWebpackPlugin({
         filename: "taskpane.html",
         template: "./src/taskpane/taskpane.html",
-        chunks: ['polyfill', 'taskpane']
+        chunks: ["polyfill", "taskpane"]
       }),
-      new CopyWebpackPlugin([
-      {
-        to: "taskpane.css",
-        from: "./src/taskpane/taskpane.css"
-      }
-      ]),
+      new CopyWebpackPlugin({
+        patterns: [
+          {
+            to: "taskpane.css",
+            from: "./src/taskpane/taskpane.css"
+          },
+          {
+            to: "[name]." + buildType + ".[ext]",
+            from: "manifest*.xml",
+            transform(content) {
+              if (dev) {
+                return content;
+              } else {
+                return content.toString().replace(new RegExp(urlDev, "g"), urlProd);
+              }
+            }
+          }
+        ]
+      }),
       new HtmlWebpackPlugin({
         filename: "commands.html",
         template: "./src/commands/commands.html",
@@ -401,14 +414,14 @@ Finally, open the file **webpack.config.js** file in the root directory of the p
       new HtmlWebpackPlugin({
         filename: "dialog.html",
         template: "./src/settings/dialog.html",
-        chunks: ['polyfill', 'dialog']
+        chunks: ["polyfill", "dialog"]
       }),
-      new CopyWebpackPlugin([
-      {
-        to: "dialog.css",
-        from: "./src/settings/dialog.css"
-      }
-      ])
+      new CopyWebpackPlugin({
+        patterns: [{
+          to: "dialog.css",
+          from: "./src/settings/dialog.css"
+        }]
+      })
     ],
     ```
 
