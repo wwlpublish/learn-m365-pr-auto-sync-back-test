@@ -1,0 +1,38 @@
+### YamlMime:LearningPath
+uid: learn.wwl.gain-insights-into-your-data-through-intelligent-tools-power-bi
+metadata:
+  title: Gain insights into your data through intelligent tools in Power BI
+  description: Gain insights into your data through intelligent tools in Power BI
+  ms.date: 11/26/2020
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Gain insights into your data through intelligent tools in Power BI
+prerequisites: |
+  - None
+summary: |
+  Learn about the investments made in Power BI to deliver impactful insights while empowering everyone and every team to make data-driven decisions when and where it matters.
+iconUrl: /learn/achievements/gain-insights-into-your-data-through-intelligent-tools-in-power-bi.svg
+levels:
+- beginner
+roles:
+- business-analyst
+- business-owner
+- business-user
+- data-analyst
+products:
+- power-bi
+- azure-synapse-analytics
+- power-query
+modules:
+- learn.wwl.deliver-decision-making-insights-with-power-bi
+- learn.wwl.build-systems-of-insights-for-enterprise-scale-with-power-bi-azure
+- learn.wwl.advance-power-bi-premium-for-enterprise-analytics-market-beyond
+- learn.wwl.gain-insights-into-usage-performance-of-your-power-bi-reports-to-increase-adopti
+- learn.wwl.enhance-your-business-intelligence-solutions-with-artificial-intelligence
+- learn.wwl.explore-enterprise-grade-etl-data-preparation-using-dataflows
+- learn.wwl.connect-power-apps-automate-virtual-agent-bi-with-common-data-service
+- learn.wwl.build-real-time-enterprise-analytics-solutions-with-azure-synapse-analytics
+trophy:
+  uid: learn.wwl.gain-insights-into-your-data-through-intelligent-tools-power-bi.trophy
