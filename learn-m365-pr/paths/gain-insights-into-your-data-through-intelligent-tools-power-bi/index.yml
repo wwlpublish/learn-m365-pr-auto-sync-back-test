@@ -24,7 +24,6 @@ roles:
 products:
 - power-bi
 - azure-synapse-analytics
-- power-query
 modules:
 - learn.wwl.deliver-decision-making-insights-with-power-bi
 - learn.wwl.build-systems-of-insights-for-enterprise-scale-with-power-bi-azure
