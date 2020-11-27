@@ -11,40 +11,40 @@ Open a browser and navigate to the [Azure Active Directory admin center (https:/
 
 Select **Azure Active Directory** in the left-hand navigation.
 
-  ![Screenshot of the App registrations](../media/aad-portal-home.png)
+  ![Screenshot of the App registrations](../media/azure-ad-portal-home.png)
 
 Select **Manage > App registrations** in the left-hand navigation.
 
 On the **App registrations** page, select **New registration**.
 
-  ![Screenshot of App Registrations page](../media/aad-portal-newapp-00.png)
+  ![Screenshot of App Registrations page](../media/azure-ad-portal-new-app-00.png)
 
 On the **Register an application** page, set the values as follows:
 
 - **Name**: Hello ASPNET Core Identity 03
 - **Supported account types**: Accounts in this organizational directory only (Single tenant)
 
-    ![Screenshot of the Register an application page](../media/07-aad-portal-newapp-01.png)
+    ![Screenshot of the Register an application page](../media/07-azure-ad-portal-new-app-01.png)
 
 Select **Register** to create the application.
 
 On the **Hello ASPNET Core Identity 03** page, copy the values **Application (client) ID** and **Directory (tenant) ID**; you'll need these values later in this exercise.
 
-  ![Screenshot of the application ID of the new app registration](../media/07-aad-portal-newapp-details-01.png)
+  ![Screenshot of the application ID of the new app registration](../media/07-azure-ad-portal-new-app-details-01.png)
 
 Select **Manage > Authentication** in the left-hand navigation.
 
 In the **Authentication** page, select **Add a platform**. When the **Configure platform** panel appears, select **Web**.
 
-![Screenshot of the Configure platforms panel](../media/07-aad-portal-newapp-details-02.png)
+![Screenshot of the Configure platforms panel](../media/07-azure-ad-portal-new-app-details-02.png)
 
-In the **Configure Web** panel, add **https://localhost:3007** under **Redirect URIs**, add **https://localhost:3007/signout-oidc** under **Logout URL**, select both **Access tokens** and **ID tokens** under **Implicit grant**, and select **Configure**.
+In the **Configure Web** panel, add **https://localhost:3007** under **Redirect URIs**, add **https://localhost:3007/signout-oidc** under **Logout URL**, select **ID tokens** under **Implicit grant**, and select **Configure**.
 
-![Screenshot of the Configure Web panel](../media/07-aad-portal-newapp-details-03.png)
+![Screenshot of the Configure Web panel](../media/07-azure-ad-portal-new-app-details-03.png)
 
 When the **Authentication** page refreshes, select **Add URI**, add **https://localhost:3007/signin-oidc**, and select **Save** near the top of the page to save the changes. 
 
-![Screenshot of the Authentication page](../media/07-aad-portal-newapp-details-04.png)
+![Screenshot of the Authentication page](../media/07-azure-ad-portal-new-app-details-04.png)
 
 ## Create a single organization ASP.NET core web application
 
@@ -53,10 +53,10 @@ Open your command prompt, navigate to a directory where you want to save your wo
 Execute the following command to create a new ASP.NET Core MVC web application:
 
 ```shell
-dotnet new mvc --auth SingleOrg
+dotnet new mvc --auth SingleOrg -o TopologyOptions
 ```
 
-Open the root folder of the new ASP.NET core application using a text editor such as Visual Studio Code.
+Open the project folder of the new ASP.NET core application using a text editor such as **Visual Studio Code**.
 
 ### Configure the web application with the Azure AD application you created
 
