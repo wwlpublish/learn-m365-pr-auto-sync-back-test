@@ -53,9 +53,6 @@ var msalApplication = new msal.PublicClientApplication(msalConfig);
 
 The app ID and directory ID tokens in the code are placeholders for the values from the Azure AD app.
 
-> [!IMPORTANT]
-> The preferred experience when using MSAL when signing-in and obtaining access tokens is to use a popup window. However, some browsers have known issues with popup windows. In these cases, you can choose to use MSAL's equivalent methods that use browser redirects.
-
 ## Sign in
 
 With the application configured, the next step is for the user to sign in. Do this by calling the `loginPopup()` method and pass in an object with the wanted permissions defined:
@@ -78,6 +75,9 @@ This code will open a popup that loads the Azure AD sign-in experience. If the u
 ![Screenshot of Azure AD popup sign-in experience](../media/03-test-02.png)
 
 After completing the sign-in experience, MSAL.js will close the sign-in popup and execute the success path of the `loginPopup()` method.
+
+> [!IMPORTANT]
+> The preferred experience when using MSAL when signing-in and obtaining access tokens is to use a popup window. However, some browsers have known issues with popup windows. In these cases, you can choose to use MSAL's equivalent methods that use browser redirects.
 
 ## Acquire token
 
