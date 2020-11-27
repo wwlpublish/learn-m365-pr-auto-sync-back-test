@@ -14,9 +14,7 @@ These application roles are defined in the Azure AD admin center in the applicat
 
 App roles can be managed from the Azure AD admin center (https://aad.portal.azure.com). Select an application in the Azure AD admin center. Roles are defined in the app's manifest that is accessible from the **Manifest** navigation item.
 
-Locate the `appRoles` setting in the manifest:
-
-![Screenshot of the Manifest blade in the Azure AD admin center](../media/06-manifest-app-roles.png)
+Locate the `appRoles` setting in the manifest.
 
 Add application roles to the manifest by adding them to this `appRoles` property. For example, the following JSON defines two new roles: **ProductAdministrators** and **ProductViewers**.
 
@@ -47,6 +45,8 @@ Add application roles to the manifest by adding them to this `appRoles` property
 
 > [!IMPORTANT]
 > The `displayName` property can't contain any spaces.
+
+![Screenshot of the Manifest blade in the Azure AD admin center](../media/06-manifest-app-roles.png)
 
 ### Add users and groups to roles
 

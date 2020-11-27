@@ -74,6 +74,10 @@ Save the manifest.
 
 ### Assign users to app roles
 
+Open a browser and navigate to the [Azure Active Directory admin center](https://aad.portal.azure.com). Sign in using a **Work or School Account** that has global administrator rights to the tenant.
+
+Select **Azure Active Directory** in the left-hand navigation.
+
 Select **Enterprise applications** in the left-hand navigation.
 
 ![Screenshot of the Enterprise Applications](../media/07-azure-ad-portal-entapp.png)
@@ -220,9 +224,10 @@ Create a new file in the **Views\Products** folder named **Create.cshtml**. Add 
 
 #### Build and test the web app
 
-Execute the following command in a command prompt to compile and run the application:
+Execute the following commands in a command prompt to compile and run the application:
 
 ```console
+dotnet dev-certs https --trust
 dotnet build
 dotnet run
 ```
