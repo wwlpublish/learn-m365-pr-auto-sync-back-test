@@ -23,6 +23,12 @@ Install the Node.js webserver **express** and HTTP request middleware **morgan**
 npm install express morgan
 ```
 
+Open the application in **Visual Studio Code** using the following command:
+
+```console
+code .
+```
+
 Create a new file **server.js** in the root of the folder and add the following JavaScript to it. This code will start the web server:
 
 ```javascript
@@ -58,7 +64,7 @@ Create a new folder **web** in the current folder and add a new file **index.htm
 <head>
   <title>Getting Started with Microsoft identity</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.7.2/bluebird.min.js"></script>
-  <script src="https://alcdn.msauth.net/browser/2.1.0/js/msal-browser.js"></script>
+  <script src="https://alcdn.msauth.net/browser/2.6.0/js/msal-browser.js"></script>
 </head>
 
 <body>

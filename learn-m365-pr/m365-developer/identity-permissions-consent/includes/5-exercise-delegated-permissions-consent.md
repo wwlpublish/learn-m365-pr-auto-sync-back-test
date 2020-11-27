@@ -127,7 +127,7 @@ var graphConfig = {
 };
 ```
 
-Now change the Microsoft Graph requests to request calendar items instead of email messages. Search for all instances of `/messages?` in the SPA and replace them with `/events?`. There should be 3 of them. The rest of the request can remain as is because both email messages and calendar events have a *subject* property.
+Now change the Microsoft Graph requests to request calendar items instead of email messages. Search for `/messages?` in the SPA and replace it with `/events?`. The rest of the request can remain as is because both email messages and calendar events have a *subject* property.
 
 ### Test the web application
 
