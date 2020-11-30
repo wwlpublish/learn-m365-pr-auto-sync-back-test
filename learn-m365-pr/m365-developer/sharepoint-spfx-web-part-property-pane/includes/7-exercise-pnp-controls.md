@@ -188,11 +188,11 @@ Once the web part has been added to the page, open the property pane with the ed
 
 Enter a few values in the provided fields, then select **Save**.
 
-![Screenshot using the PnP Reusable controls](../media/07-pnp-field-control-collection-01.png)
+![Screenshot using the PnP Reusable controls - Property edit experience](../media/07-pnp-field-control-collection-01.png)
 
 Notice the values entered are displayed within the web part:
 
-![Screenshot using the PnP Reusable controls](../media/07-pnp-field-control-collection-02.png)
+![Screenshot using the PnP Reusable controls - Rendering property settings](../media/07-pnp-field-control-collection-02.png)
 
 ## Summary
 

@@ -95,7 +95,7 @@ Locate the following section in the file: `preconfiguredEntries[0].properties.de
 
 Close the browser tab containing the local workbench and stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the command prompt. Rebuild and restart the local web server by executing the command **gulp serve**. When the SharePoint workbench loads, add the web part back to the page to see the properties.
 
-![Screenshot of HelloPropertyPane with no values](../media/03-edit-property-pane-add-property-02.png)
+![Screenshot of HelloPropertyPane with values](../media/03-edit-property-pane-add-property-02.png)
 
 ## Extend the property pane
 
@@ -111,7 +111,7 @@ PropertyPaneTextField('myContinent', {
 
 If the local web server isn't running, start it by executing **gulp serve**. Once the SharePoint workbench is running again, add the web part to the page and open the property pane. Notice you can see the property and text box in the property pane. Any edits to the field will automatically update the web part:
 
-![Screenshot of HelloPropertyPane with a new field](../media/03-edit-property-pane-add-property-03.png)
+![Screenshot of HelloPropertyPane with a new text field](../media/03-edit-property-pane-add-property-03.png)
 
 Next, add a slider control to the property pane, connected to the **numContinentsVisited** property. In the **HelloPropertyPaneWebPart.ts**, at the top of the file, add a `PropertyPaneSlider` reference to the existing `import` statement for the `@microsoft/sp-webpart-base` package.
 
@@ -128,7 +128,7 @@ PropertyPaneSlider('numContinentsVisited', {
 
 Notice the property pane now has a slider control to control the number of continents you've visited:
 
-![Screenshot of HelloPropertyPane with a new field](../media/03-edit-property-pane-add-property-04.png)
+![Screenshot of HelloPropertyPane with a new slider field](../media/03-edit-property-pane-add-property-04.png)
 
 ## Add control validation
 

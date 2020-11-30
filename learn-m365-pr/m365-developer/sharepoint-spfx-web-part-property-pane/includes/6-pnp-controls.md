@@ -32,7 +32,7 @@ This library contains multiple controls that you can use in your projects. Some 
 
 - **PropertyFieldPeoplePicker**: Select people or groups from the current site's directory.
 
-    ![Screenshot of the PropertyFieldListPicker control](../media/06-property-field-control-people-picker.png)
+    ![Screenshot of the PropertyFieldPeoplePicker control](../media/06-property-field-control-people-picker.png)
 
 ## Use the PnP reusable property pane controls in your project
 
