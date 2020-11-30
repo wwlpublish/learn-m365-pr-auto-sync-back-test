@@ -38,7 +38,7 @@ This library contains multiple controls that you can use in your projects. Some 
 
 To use the PnP reusable property pane controls in your project, you start by first installing the NPM package that contains the controls:
 
-```shell
+```console
 npm install @pnp/spfx-property-controls --save
 ```
 

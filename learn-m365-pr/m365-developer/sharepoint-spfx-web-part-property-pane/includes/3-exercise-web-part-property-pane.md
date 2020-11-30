@@ -1,6 +1,6 @@
 In this exercise, you'll manipulate the property pane for a SharePoint Framework client-side web part with controls, groups, and pages.
 
-## Create a new ShareaPoint Framework solution and web part
+## Create a new SharePoint Framework solution and web part
 
 > [!IMPORTANT]
 > The instructions below assume you are using v1.11.0 of the SharePoint Framework Yeoman generator.
@@ -9,7 +9,7 @@ Open a command prompt and change to the folder where you want to create the proj
 
 Run the SharePoint Framework Yeoman generator by executing the following command:
 
-```shell
+```console
 yo @microsoft/sharepoint
 ```
 
@@ -25,9 +25,17 @@ Use the following to complete the prompt that is displayed (*if additional optio
 - **What is your Web part description?:** HelloPropertyPane description
 - **Which framework would you like to use?:** No JavaScript framework
 
+After provisioning the folders required for the project, the generator will install all the dependency packages using NPM.
+
+When NPM completes downloading all dependencies, ensure the developer certificate is installed by executing the following command:
+
+```console
+gulp trust-dev-cert
+```
+
 Next, verify everything is working. Execute the following command to build, start the local web server, and test the web part in the local workbench:
 
-```shell
+```console
 gulp serve
 ```
 
@@ -85,7 +93,7 @@ Locate the following section in the file: `preconfiguredEntries[0].properties.de
 > [!TIP]
 > While the **gulp serve** task monitors the project's files for changes to rebuild and reload the local workbench, changes to the manifest and configuration files require restarting the local web server.
 
-In the command prompt, press <kbd>CTRL+C</kbd> to stop the local web server. Rebuild and restart the local web server by executing the command **gulp serve**. When the SharePoint workbench loads, add the web part back to the page to see the properties.
+Close the browser tab containing the local workbench and stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the command prompt. Rebuild and restart the local web server by executing the command **gulp serve**. When the SharePoint workbench loads, add the web part back to the page to see the properties.
 
 ![Screenshot of HelloPropertyPane with no values](../media/03-edit-property-pane-add-property-02.png)
 
