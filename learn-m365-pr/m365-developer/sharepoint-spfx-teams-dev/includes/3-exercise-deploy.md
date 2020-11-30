@@ -160,7 +160,7 @@ This will make the web part available to all site collections in the tenant, inc
 
 The last step is to publish the Microsoft Teams app to your tenant's Microsoft Teams store. Select the SharePoint package you uploaded. Then, using the ribbon, select the **Files** tab and then the **Sync to Teams** button.
 
-![Screenshot of the app deployment trust dialog](../media/03-sync-to-teams.png)
+![Screenshot of the installed uploaded package](../media/03-sync-to-teams.png)
 
 ## Test the SharePoint Framework web part in SharePoint
 
@@ -170,7 +170,7 @@ Select the **Edit** button in the top-right of the page.
 
 Select the (+) icon to open the SharePoint web part toolbox and locate the web part **SPFx Teams Together**:
 
-![Screenshot of the SharePoint web part](../media/03-add-web-part-step-01.png)
+![Screenshot of the SharePoint web part in the gallery](../media/03-add-web-part-step-01.png)
 
 The SharePoint Framework web part will be displayed on the page as shown in the following figure:
 
@@ -188,11 +188,11 @@ If you don't have any teams in your tenant, you'll be presented with the followi
 
 On the **Create your team** dialog, select **From scratch**:
 
-![Screenshot of the create teams dialog](../media/03-create-team-step-02.png)
+![Screenshot of the create teams dialog - create team dialog options](../media/03-create-team-step-02.png)
 
 On the **What kind of team will this be?** dialog, select **Public**:
 
-![Screenshot of the create teams dialog](../media/03-create-team-step-03.png)
+![Screenshot of the create teams dialog - create team privacy options](../media/03-create-team-step-03.png)
 
 In the **Some quick details about your public team** dialog, set the Team name **My First Team** and select **Create**.
 

@@ -95,11 +95,11 @@ Edit the page and add a value to the **Custom Setting** property in the property
 
 Now go back into the Microsoft Teams team. Refresh the page if you have Teams open in a web browser. Select the down arrow to the right of the **SPFx Teams Together** tab and select **Settings**.
 
-![Screenshot of the SPFx solution in Microsoft Teams](../media/07-update-settings-step-02.png)
+![Screenshot of the SPFx solution in Microsoft Teams - Settings context menu item](../media/07-update-settings-step-02.png)
 
 Add a value to the **Custom Setting** property in the property pane. Notice how the tab shows the property value:
 
-![Screenshot of the SPFx solution in Microsoft Teams](../media/07-update-settings-step-03.png)
+![Screenshot of the SPFx solution in Microsoft Teams - Updating custom setting for SPFx web part](../media/07-update-settings-step-03.png)
 
 ## Disable updates to teams tab configuration
 
@@ -127,7 +127,7 @@ Within the Microsoft Teams client, select **Apps** in the lower right corner, an
 
 Select the app menu, then select **Update**.
 
-![Screenshot of the SPFx solution in Microsoft Teams](../media/07-update-settings-step-04.png)
+![Screenshot of the SPFx solution in Microsoft Teams - Selecting the Update context menu item](../media/07-update-settings-step-04.png)
 
 Select the new Microsoft Teams app manifest you created a moment ago.
 
@@ -161,7 +161,7 @@ Notice how the web part's property pane opens by default. Edit the values of the
 
 Now go back into the Microsoft Teams team. Select the down arrow to the right of the **SPFx Teams Together** tab. Notice the **Settings** option is no longer present. This is because the setting in the Microsoft Teams app manifest specified the configuration can't be updated once its installed into Microsoft Teams.
 
-![Screenshot of the SPFx solution in Microsoft Teams](../media/07-update-settings-step-06.png)
+![Screenshot of the SPFx solution in Microsoft Teams - Missing Settings context menu item](../media/07-update-settings-step-06.png)
 
 ## Summary
 
