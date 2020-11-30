@@ -1,6 +1,6 @@
 In this exercise, you'll add and interact with SharePoint Framework-based client-side web parts in a SharePoint Online modern site collection.
 
-Open a browser and navigate to the development site you created in the first exercise. If prompted, log in using your Work or School credentials.
+Open a browser and navigate to the developer site you created in the first exercise. If prompted, log in using your Work or School credentials.
 
 Select the **Pages** link in the left-hand Quick Launch navigation menu.
 
@@ -43,7 +43,7 @@ Open a command prompt and change to an empty folder where you want to store the 
 
 Run the SharePoint Yeoman generator by executing the following command:
 
-```shell
+```console
 yo @microsoft/sharepoint
 ```
 
@@ -63,13 +63,13 @@ After provisioning the folders required for the project, the generator will inst
 
 When NPM completes downloading all dependencies, install the developer certificate by executing the following command:
 
-```shell
+```console
 gulp trust-dev-cert
 ```
 
 Run the project by executing the following command:
 
-```shell
+```console
 gulp serve
 ```
 
