@@ -4,13 +4,13 @@ In this exercise, you'll extend the SharePoint Framework project from the previo
 
 Run the following command to start the local web server and test the web part in the hosted workbench:
 
-```shell
+```console
 gulp serve
 ```
 
 Add the web part to the workbench using the same process as the previous exercises. When the web part loads, try selecting any of the buttons. Notice nothing happens.
 
-![Screenshot of empty web part in local workbench](../media/local-workbench-01.png)
+![Screenshot of empty web part in local workbench](../media/07-local-workbench-01.png)
 
 If you open the JavaScript console in your browser's developer tools, you'll notice a few errors related to the workbench. If you inspect the network traffic in the developer tools you'll see requests to the ***/_api/** endpoint will first show as **pending** and then ultimately timeout.
 
@@ -61,7 +61,7 @@ if (!this._isSharePoint) {
 }
 ```
 
-Apply similar logic to the methods that implement write operations. However, in these cases we simply want the web part to do nothing as there is nothing to simulate in a write operation. Locate the methods `_onAddListItem`, `_onUpdateListItem` and `onDeleteListItem` and add the following line to the top of each method. This will exit the function if the web part is running in the local workbench:
+Apply similar logic to the methods that implement write operations. However, in these cases we simply want the web part to do nothing as there's nothing to simulate in a write operation. Locate the methods `_onAddListItem`, `_onUpdateListItem` and `onDeleteListItem` and add the following line to the top of each method. This will exit the function if the web part is running in the local workbench:
 
 ```typescript
 if (!this._isSharePoint) { return; }
@@ -71,9 +71,9 @@ if (!this._isSharePoint) { return; }
 
 Go back to the browser with the local workbench loaded. Notice that when you select the **Get Countries** button, you see the mock data returned:
 
-![Screenshot of mock data in the web part](../media/local-workbench-02.png)
+![Screenshot of mock data in the web part](../media/07-local-workbench-02.png)
 
-Also notice that if you go back to the hosted workbench in a SharePoint Online site, the web part works as it did prior to adding mock data as it uses the live SharePoint REST API in a real SharePoint environment.
+Also notice that if you go back to the hosted workbench in a SharePoint Online site, the web part works as it did before adding mock data as it uses the live SharePoint REST API in a real SharePoint environment.
 
 Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the console/terminal window.
 
