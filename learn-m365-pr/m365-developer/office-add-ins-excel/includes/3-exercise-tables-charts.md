@@ -190,7 +190,7 @@ In this section, you'll programmatically test that your add-in supports the user
 
 1. In Excel, select the **Home** tab, and then select the **Show Task pane** button in the ribbon to open the add-in task pane.
 
-    ![Excel add-in button](../media/03-excel-quickstart-addin-3b.png)
+    ![Excel add-in button](../media/03-excel-quickstart-add-in-3b.png)
 
 1. In the task pane, select the **Create Table** button.
 
@@ -392,7 +392,7 @@ In this section, you'll create a chart using data from the table that you create
     }
     ```
 
-1. Within the `createChart()` function, replace `TODO1` with the following code. In order to exclude the header row, the code uses the `Table.getDataBodyRange()` method to get the range of data you want to chart instead of the `getRange()` method.
+1. Within the `createChart()` function, replace `TODO1` with the following code. To exclude the header row, the code uses the `Table.getDataBodyRange()` method to get the range of data you want to chart instead of the `getRange()` method.
 
     ```javascript
     var currentWorksheet = context.workbook.worksheets.getActiveWorksheet();

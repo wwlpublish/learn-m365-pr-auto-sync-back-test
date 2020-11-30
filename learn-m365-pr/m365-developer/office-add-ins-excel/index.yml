@@ -3,7 +3,7 @@ uid: learn-m365.office-add-ins-excel
 metadata:
   title: Build Office add-ins for Excel
   description: This module walks through development of Office add-ins for Microsoft Excel.
-  ms.date: 09/01/2020
+  ms.date: 11/25/2020
   author: andrewconnell
   ms.author: suzanz
   ms.topic: interactive-tutorial
@@ -12,8 +12,8 @@ title: Build Office add-ins for Excel
 summary: Microsoft Office clients enable developers to create add-ins that extend Microsoft Excel with custom functionality. Through a JavaScript API, developers can manipulate the content in an Excel workbook from an app running in the task pane. In this module, you'll learn how to build an Excel add-in that inserts (and replaces) text ranges, tables, charts, and dialogs.
 abstract: |
   By the end of this module, you will be able to:
-  - Create a Excel add-in that uses the Excel JavaScript API to manipulate a workbook
-  - Demonstrate how to add and edit content in a Excel document
+  - Create an Excel add-in that uses the Excel JavaScript API to manipulate a workbook
+  - Demonstrate how to add and edit content in an Excel document
   - Explain how to deploy and host a custom add-in for Microsoft Excel
 prerequisites: |
   - Experience using Microsoft Excel
