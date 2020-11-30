@@ -10,11 +10,11 @@ Select **More features** in the left-hand navigation.
 
 Select the **Open** button under **Apps**.
 
-![Screenshot of the SharePoint admin center](../media/03-app-catalog-02.png)
+![Screenshot of the SharePoint admin center - More Features](../media/03-app-catalog-02.png)
 
 When the new page opens, select **App Catalog**.
 
-![Screenshot of the SharePoint admin center](../media/03-app-catalog-03.png)
+![Screenshot of the SharePoint admin center - App catalog menu](../media/03-app-catalog-03.png)
 
 > If you're taken to an app catalog site as shown in the following image, then your tenant already has an app catalog, created by someone previously. In this case, you can skip to the next step to create a developer site collection.
 >
@@ -62,7 +62,7 @@ On the **Other options** panel, keep the default value of **Team site** in the *
 > [!NOTE]
 > After a minute or two the site collection will be created. On the **SharePoint admin center** site, select the **Sites > Active Sites** item in the left-hand navigation. You'll see a list of all *classic* and *modern* sites including the **Developer site** that you just created.
 >
-> ![Screenshot of the Active sites list](../media/03-new-site-collection-04.png)
+> ![Screenshot of the Active sites list - Created site](../media/03-new-site-collection-04.png)
 
 ## Summary
 
