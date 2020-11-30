@@ -161,13 +161,13 @@ Select the **About** link.
 
 On the app details page, notice there's a message that a new version of the app is available and the version is 1.2.0.0.
 
-![Screenshot of the installed app tile](../media/07-update-package-step-03.png)
+![Screenshot of the installed app - Get It button](../media/07-update-package-step-03.png)
 
 Select the **Get It** button to upgrade the application.
 
 SharePoint will take you back to the **Site Contents** page. Wait for the app to complete its upgrade process and verify the new version has been installed:
 
-![Screenshot of the upgraded app tile](../media/07-update-package-step-04.png)
+![Screenshot of the upgraded app - Site Contents page](../media/07-update-package-step-04.png)
 
 Now, when you go back to a page to add the new web part, you'll see the second web part show up in the web part toolbox as shown in the following image:
 

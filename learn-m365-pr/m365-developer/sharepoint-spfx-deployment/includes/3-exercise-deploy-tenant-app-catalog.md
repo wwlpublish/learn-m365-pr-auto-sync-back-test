@@ -83,13 +83,13 @@ Put it in edit mode by selecting the **Edit** button in the top-right portion of
 
 Select the web part icon button to open the list of available web parts:
 
-![Screenshot of adding the web part to the page](../media/03-deploy-step-05.png)
+![Screenshot of adding the web part to the page - web part gallery](../media/03-deploy-step-05.png)
 
 Select the expand icon, a diagonal line with two arrows in the top-right corner, to expand the web part toolbox.
 
 Scroll to the bottom, locate, and select the **Deployment Demo** web part.
 
-![Screenshot of adding the web part to the page](../media/03-deploy-step-06.png)
+![Screenshot of adding the web part to the page - selecting web part](../media/03-deploy-step-06.png)
 
 ## Examine the deployed web part files
 

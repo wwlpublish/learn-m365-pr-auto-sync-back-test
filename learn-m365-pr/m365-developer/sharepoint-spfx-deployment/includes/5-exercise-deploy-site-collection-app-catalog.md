@@ -58,11 +58,11 @@ Select **Site Contents** from the left-hand navigation.
 
 From the **New** menu, select **App**.
 
-![Screenshot selecting to create a new app](../media/03-deploy-step-02.png)
+![Screenshot selecting to create a new app - select App from the New menu](../media/03-deploy-step-02.png)
 
 Locate the solution you previously deployed. We'll need the application to be installed for the next exercise so select it to start that process.
 
-![Screenshot creating a new app](../media/05-testing-step-01.png)
+![Screenshot creating a new app - select App from the New menu](../media/05-testing-step-01.png)
 
 Now, navigate to a different site collection.
 
@@ -70,11 +70,11 @@ Select **Site Contents** from the left-hand navigation.
 
 From the **New** menu, select **App**.
 
-![Screenshot selecting to create a new app](../media/05-testing-step-02.png)
+![Screenshot selecting to create a new app - Apps you can add category](../media/05-testing-step-02.png)
 
 Notice the solution you deployed to the other site collection isn't shown.
 
-![Screenshot creating a new app](../media/05-testing-step-03.png)
+![Screenshot creating a new app - Apps you can add category](../media/05-testing-step-03.png)
 
 ## Summary
 
