@@ -260,7 +260,7 @@ Add the web part to the page: Select the **Add a new web part** control...
 
 Then search for **spfxhttp** select the **SPFxHttpClientDemo** web part to add the web part to the page.
 
-![Screenshot of the SharePoint workbench](../media/03-add-webpart-02.png)
+![Screenshot of the SharePoint workbench - web part gallery](../media/03-add-webpart-02.png)
 
 The web part will appear on the page with a single button and no data in the list.
 

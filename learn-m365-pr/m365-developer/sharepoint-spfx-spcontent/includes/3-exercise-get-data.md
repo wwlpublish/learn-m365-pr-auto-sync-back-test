@@ -8,11 +8,11 @@ In a browser, navigate to a site collection in SharePoint Online. Select **Site 
 
 Select the **Blank list** template.
 
-![Screenshot showing the Create a list form](../media/create-countries-list-01.png)
+![Screenshot showing the Create a list form - Selecting Blank template](../media/create-countries-list-01.png)
 
 Set the list name to **Countries** and select **Create**.
 
-![Screenshot showing the Create a list form](../media/create-countries-list-02.png)
+![Screenshot showing the Create a list form - Entering list details](../media/create-countries-list-02.png)
 
 Add items to the list by entering the names of different countries as shown in the following image.
 
@@ -253,7 +253,7 @@ Add the web part to the page: Select the **Add a new web part** control...
 
 Then search for **spfxhttp** select the **SPFxHttpClientDemo** web part to add the web part to the page.
 
-![Screenshot of the SharePoint workbench](../media/03-add-webpart-02.png)
+![Screenshot of the SharePoint workbench - web part gallery](../media/03-add-webpart-02.png)
 
 The web part will appear on the page with a single button and no data in the list.
 
