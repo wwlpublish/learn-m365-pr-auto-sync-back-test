@@ -7,7 +7,7 @@ Open a command prompt and change to the folder where you want to create the proj
 
 Run the SharePoint Yeoman generator by executing the following command:
 
-```shell
+```console
 yo @microsoft/sharepoint
 ```
 
@@ -25,15 +25,15 @@ Use the following to complete the prompt that is displayed:
 
 After provisioning the folders required for the project, the generator will install all the dependency packages using NPM.
 
-When NPM completes downloading all dependencies, install the developer certificate by executing the following command:
+When NPM completes downloading all dependencies, ensure the developer certificate is installed by executing the following command:
 
-```shell
+```console
 gulp trust-dev-cert
 ```
 
 Run the project by executing the following command:
 
-```shell
+```console
 gulp serve
 ```
 
@@ -59,11 +59,11 @@ In the property pane that opens, change the value of the **Description Field**. 
 
 ## Update the web part code
 
-Next, update the code in the `render()` method to add a button that responds to an event.
+Open the project folder in **Visual Studio Code**.
 
 If the local dev webserver isn't running, start it by running `gulp serve` on the command line from the root folder of the project, and add the **HelloWorld** web part to the SharePoint Workbench.
 
-Open the project folder in **Visual Studio Code**.
+Next, update the code in the `render()` method to add a button that responds to an event.
 
 Locate and open the file **src/webparts/helloWorld/HelloWorldWebPart.ts**.
 
@@ -133,7 +133,7 @@ The web part's icon is the name of one of the icons listed in the Office UI Fabr
 
 Start the local web server using the provided gulp **serve** task:
 
-```shell
+```console
 gulp serve
 ```
 

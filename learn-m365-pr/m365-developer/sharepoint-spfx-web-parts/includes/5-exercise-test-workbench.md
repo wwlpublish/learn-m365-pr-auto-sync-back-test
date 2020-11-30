@@ -4,7 +4,7 @@ Open **Visual Studio Code** and then open the SharePoint Framework web part proj
 
 Start the local web server using the provided gulp **serve** task:
 
-```shell
+```console
 gulp serve
 ```
 
@@ -14,7 +14,7 @@ Add the web part to the page.
 
 Now, with both the browser and Visual Studio code on the same screen, edit the HTML in the web part's `render()` method, located in the **src/webparts/helloWorld/HelloWorldWebPart.ts** file.
 
-If you save the file (*or let Visual Studio Code save it after a few seconds of inactivity*), you will see the command prompt window execute numerous commands and then the browser will refresh.
+If you save the file (*or let Visual Studio Code save it after a few seconds of inactivity*), you'll see the command prompt window execute many commands and then the browser will refresh.
 
 This is because the gulp **serve** task is monitoring all code files such as **\*.ts**, **\*.htm**, and **\*.scss** for changes. If they change, it reruns the tasks that **gulp serve** ran for you. It then refreshes the browser as it is using a utility that allows the server to have some control over the local workbench.
 
@@ -33,7 +33,7 @@ Notice that the toolbox contains many web parts, not just the **HelloWorld** web
 
 Let's see another difference between the local and hosted workbenches. Go back to the web part and make a change to the HTML.
 
-Notice that after saving the file, while the console displays numerous commands, the browser that is displaying the hosted workbench doesn't automatically reload. This is expected. You can still refresh the page to see the updated web part, but the local web server can't cause the hosted workbench to refresh.
+Notice that after saving the file, while the console displays many commands, the browser that is displaying the hosted workbench doesn't automatically reload. This is expected. You can still refresh the page to see the updated web part, but the local web server can't cause the hosted workbench to refresh.
 
 Close both the local and hosted workbench and stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the command prompt.
 
@@ -43,11 +43,11 @@ The gulp **serve** task that you've run so far has automatically opened the loca
 
 Start the local web server using the provided gulp **serve** task with the **nobrowser** switch:
 
-```shell
+```console
 gulp serve --nobrowser
 ```
 
-The gulp **serve** task will run just like normal and start the local webserver, but it will not launch the browser.
+The gulp **serve** task will run just like normal and start the local webserver, but it won't launch the browser.
 
 Open a browser and navigate to one of your SharePoint Online sites and append the following to the end of the root site's URL: **/_layouts/workbench.aspx**.
 
@@ -76,7 +76,7 @@ Update the `initialPage` setting to open the hosted workbench:
 
 Start the local web server using the provided gulp **serve** task:
 
-```shell
+```console
 gulp serve
 ```
 

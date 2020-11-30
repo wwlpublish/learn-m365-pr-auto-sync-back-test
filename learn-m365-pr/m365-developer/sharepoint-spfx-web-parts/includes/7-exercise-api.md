@@ -59,7 +59,7 @@ Display the values in these two members by adding the following two lines to the
 
 Test the web part to see what we get. Start the local web server using the provided gulp **serve** task:
 
-```shell
+```console
 gulp serve
 ```
 
@@ -117,7 +117,7 @@ Go back to the browser tab containing the local workbench and open your browser'
 
 Open the **Console** tab (*it may have a slightly different name depending on the browser you're using*).
 
-There will be numerous messages logged to the console, so use the filter technique to filter based on the name of your web part, **HelloWorld**.
+There will be many messages logged to the console, so use the filter technique to filter based on the name of your web part, **HelloWorld**.
 
 Notice in the following image that each message is prefixed with the unique name of the web part.
 
@@ -125,7 +125,7 @@ Notice in the following image that each message is prefixed with the unique name
 
 ## Addressing delayed loading web parts
 
-Your web part may have a number of calculations to perform or have a delay in fetching data before it renders the first time. Thankfully the SharePoint Framework provides an API you can use to address this.
+Your web part may have a number of calculations to do or have a delay in fetching data before it renders the first time. Thankfully the SharePoint Framework provides an API you can use to address this.
 
 Locate the web part file **src/webparts/helloWorld/HelloWorldWebPart.ts**.
 
