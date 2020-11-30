@@ -7,7 +7,7 @@ In this exercise, you'll create a new SharePoint Framework project with a single
 
 Open a command prompt and change to the folder where you want to create the project. Run the SharePoint Yeoman generator by executing the following command:
 
-```shell
+```console
 yo @microsoft/sharepoint
 ```
 
@@ -165,21 +165,21 @@ In this code, we've added a check to see if the web part has already been render
 
 Start the local web server and test the web part in the local workbench:
 
-```shell
+```console
 gulp serve
 ```
 
 When the workbench loads in a browser, select the *plus* icon to open the toolbox:
 
-![Screenshot of the add web part control](../media/http-client-test-01.png)
+![Screenshot of the add web part control](../media/03-http-client-test-01.png)
 
 Select the web part from the toolbox:
 
-![Screenshot of the web part in the toolbox](../media/http-client-test-02.png)
+![Screenshot of the web part in the toolbox](../media/03-http-client-test-02.png)
 
 Observe when the web part renders, it shows data from the NASA Imagery REST API:
 
-![Screenshot of the rendered web part](../media/http-client-test-03.png)
+![Screenshot of the rendered web part](../media/03-http-client-test-03.png)
 
 Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the console/terminal window.
 

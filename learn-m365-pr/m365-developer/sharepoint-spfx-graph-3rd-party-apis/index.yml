@@ -3,7 +3,7 @@ uid: learn-m365.sharepoint-spfx-graph-3rd-party-apis
 metadata:
   title: Leverage Microsoft Graph & third-party APIs
   description: Learn how to call third-party APIs including Microsoft Graph, Azure AD protected APIs, and anonymous APIs.
-  ms.date: 08/31/2020
+  ms.date: 11/30/2020
   author: andrewconnell
   ms.author: suzanz
   ms.topic: interactive-tutorial
@@ -11,7 +11,7 @@ metadata:
 title: Leverage Microsoft Graph & third-party APIs
 summary: This module introduces you to using external APIs in your SharePoint Framework projects. SharePoint Framework projects can incorporate data from anonymous APIs, those REST APIs secured with Azure AD, and Microsoft Graph.
 abstract: |
-  By the end of this module, you will be able to:
+  By the end of this module, you'll be able to:
   - Create a SharePoint Framework project that requests and displays data from anonymous REST APIs
   - Demonstrate how to call REST APIs secured with Azure AD in SharePoint Framework projects
   - Demonstrate how to request and displays data from Microsoft Graph

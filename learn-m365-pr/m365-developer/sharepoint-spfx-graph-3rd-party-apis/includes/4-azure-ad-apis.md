@@ -12,11 +12,11 @@ All available Microsoft REST APIs that don't support anonymous requests are secu
 
 A common approach to implementing a REST API is to use Azure Functions. Securing an Azure Function with Azure AD is simple. In the left-hand navigation, select the **Authentication / Authorization** menu item. The **Authentication / Authorization** blade supports authentication using different OAuth 2.0 providers, including Azure AD, Microsoft Accounts, Facebook, and Google.
 
-![Screenshot of Azure Function app configuration page](../media/secure-azure-functions-01.png)
+![Screenshot of Azure Function app configuration page](../media/04-secure-azure-functions-01.png)
 
 After enabling authentication and selecting **Azure AD**, you'll then either create a new Azure AD app or associate the Azure Function app with an existing Azure AD app.
 
-![Screenshot of Azure Function app Authentication / Authorization blade](../media/secure-azure-functions-02.png)
+![Screenshot of Azure Function app Authentication / Authorization blade](../media/04-secure-azure-functions-02.png)
 
 By enabling Azure AD authentication and authentication on an Azure Function, Microsoft Azure will automatically check for a valid access token in the `authorization` HTTP request header in every request received. If the access token isn't present or not valid, the request is rejected. This verification check is done without you having to write any special code in your Azure Function.
 
@@ -28,7 +28,7 @@ Permission requests to REST APIs, also known as *resources*, are granted to an A
 
 When you grant a permission request for a specific resource, such as Microsoft Graph, to the **SharePoint Online Client Extensibility Web Application Principal** app, you're granting that entire SharePoint Online tenant the permission. Its important to understand that this permission grant isn't unique to the site or to the SharePoint Framework component; the permission grant applies to the *entire SharePoint Online tenant*.
 
-In addition, its important to understand that permissions aren't tied to SharePoint Framework apps. SharePoint Framework solutions and apps can be deployed, installed, added, and removed to or from pages without approving or revoking permission requests.
+Also, its important to understand that permissions aren't tied to SharePoint Framework apps. SharePoint Framework solutions and apps can be deployed, installed, added, and removed to or from pages without approving or revoking permission requests.
 
 ### Grant permissions to SharePoint Online
 
@@ -70,7 +70,7 @@ Each request must include the name of the REST API (`resource`) and the permissi
 
 After SharePoint Framework package has been added to the App Catalog, let's look the process for granting permissions and how the SharePoint Framework ultimately submits requests to the Azure AD secured REST API.
 
-![Overview of calling Azure AD secured REST APIs from the SharePoint Framework](../media/call-azure-ad-secured-apis-from-spfx.png)
+![Overview of calling Azure AD secured REST APIs from the SharePoint Framework](../media/04-call-azure-ad-secured-apis-from-spfx.png)
 
 At the bottom of the figure above, the tenant administrator grants the permissions (also known as *scopes*), to the SharePoint Online tenant. This is done from the API Management page in the SharePoint Admin Center.
 
@@ -118,7 +118,7 @@ aadClient.get(endpoint, AadHttpClient.configurations.v1)
 
 When an administrator deploys the SharePoint Framework component to the tenant App Catalog, they're presented with an additional message in the trust dialog prompt:
 
-![Screenshot of the trust dialog](../media/deploy-app-prompt-approve-scopes.png)
+![Screenshot of the trust dialog](../media/05-azure-ad-add-package-01.png)
 
 This message instructs the administrator this solution contains permission requests that should be reviewed and approved or rejected. Recall that permissions aren't tied to the SharePoint Framework package. Approving or rejecting the permissions is a separate step that must be done in order for the SharePoint Framework component to work.
 
@@ -126,11 +126,11 @@ This message instructs the administrator this solution contains permission reque
 
 To approve or reject permission requests, navigate to the **API access** page in the **SharePoint Admin Center**. Here you'll find a list of permission requests pending approval or rejection:
 
-![Screencast of the API management page in the SharePoint Admin Center](../media/api-management-01.png)
+![Screencast of the API management page in the SharePoint Admin Center](../media/sharepoint-admin-portal-01.png)
 
 Select the permission request to view its details and use the buttons at the bottom of the panel to approve or reject the request:
 
-![Screencast of the API management page in the SharePoint Admin Center](../media/api-management-02.png)
+![Screencast of the API management page in the SharePoint Admin Center](../media/sharepoint-admin-portal-03.png)
 
 ## Summary
 
