@@ -236,7 +236,7 @@ The next dialog will confirm the installation of the app. Select **Save**.
 
 The application should now load in Microsoft Teams within the **General** channel under the tab **SPFx Teams Together**.
 
-![Screenshot setting up the SPFx Teams Together app](../media/03-add-tab-step-08.png)
+![Screenshot of the working SPFx Teams Together app](../media/03-add-tab-step-08.png)
 
 Select the **X** in the upper-right corner of the property pane to close the initial configuration.
 
