@@ -111,14 +111,27 @@ Open the file **webpack.config.js** in the root directory of the project and com
       new HtmlWebpackPlugin({
         filename: "taskpane.html",
         template: "./src/taskpane/taskpane.html",
-        chunks: ['polyfill', 'taskpane']
+        chunks: ["polyfill", "taskpane"]
       }),
-      new CopyWebpackPlugin([
-      {
-        to: "taskpane.css",
-        from: "./src/taskpane/taskpane.css"
-      }
-      ]),
+      new CopyWebpackPlugin({
+        patterns: [
+          {
+            to: "taskpane.css",
+            from: "./src/taskpane/taskpane.css"
+          },
+          {
+            to: "[name]." + buildType + ".[ext]",
+            from: "manifest*.xml",
+            transform(content) {
+              if (dev) {
+                return content;
+              } else {
+                return content.toString().replace(new RegExp(urlDev, "g"), urlProd);
+              }
+            }
+          }
+        ]
+      }),
       new HtmlWebpackPlugin({
         filename: "commands.html",
         template: "./src/commands/commands.html",
@@ -173,7 +186,7 @@ Open the file **webpack.config.js** in the root directory of the project and com
     var dialog = null;
     ```
 
-1. Add the following function to the end of the file (after the declaration of `dialog`). The important thing to notice about this code is what is *not* there: there's no call of `Excel.run()`. This is because the API to open a dialog is shared among all Office hosts, so it's part of the Office JavaScript Common API, not the Excel-specific API.
+1. Add the following function to the end of the file (after the declaration of `dialog`). The important thing to notice about this code is what **isn't** there: there's no call of `Excel.run()`. This is because the API to open a dialog is shared among all Office hosts, so it's part of the Office JavaScript Common API, not the Excel-specific API.
 
     ```javascript
     function openDialog() {
@@ -245,7 +258,7 @@ Open the file **webpack.config.js** in the root directory of the project and com
 
 1. To open the add-in task pane, on the **Home** tab, select **Show Task pane**.
 1. Choose **Open Dialog** .
-1. While the dialog is open, drag it and resize it. You can interact with the worksheet and press other buttons on the task pane, but you cannot launch a second dialog from the same task pane page.
+1. While the dialog is open, drag it and resize it. You can interact with the worksheet and press other buttons on the task pane, but you can't launch a second dialog from the same task pane page.
 1. In the dialog, enter a name, and select **OK**. The name appears on the task pane and the dialog closes.
 1. Optionally, in the `processMessage` function, add **//** in front of the line `dialog.close();` . Then repeat the steps of this section. The dialog stays open and you can change the name. You can close it manually by pressing the **X** button in the upper right corner.
 

@@ -30,21 +30,21 @@ The following image includes contains an image of an Office client application o
 
 The manifest starts with the `ExtensionPoint` element that contains all customizations defined for the Office ribbon:
 
-![Screenshot of add-in manifest and an Office application](../media/04-manifest-02.png)
+![Screenshot of add-in manifest and an Office application - highlight ExtensionPoint element](../media/04-manifest-02.png)
 
 The entire contents of the `ExtensionPoint` element define the custom tab in the ribbon and all buttons in the tab:
 
-![Screenshot of add-in manifest and an Office application](../media/04-manifest-03.png)
+![Screenshot of add-in manifest and an Office application - highlight CustomTab element](../media/04-manifest-03.png)
 
 Each button in the ribbon is defined using a `Control` element. A control can be different types, defined in the `xsi:type` property. All the controls in this ribbon are buttons:
 
-![Screenshot of add-in manifest and an Office application](../media/04-manifest-04.png)
+![Screenshot of add-in manifest and an Office application - highlight Control element](../media/04-manifest-04.png)
 
 Within a control, developers can define *actions* or *items*. An `Action` element is used to do an action, such as showing a task pane or executing a custom function.
 
 The `Items` collection allows developers to add additional menu items to the ribbon button as shown in the following image. Notice each sub menu item also has a `Action` element as well:
 
-![Screenshot of add-in manifest and an Office application](../media/04-manifest-05.png)
+![Screenshot of add-in manifest and an Office application - highlight Item element](../media/04-manifest-05.png)
 
 ### ExecuteFunction add-in command
 
@@ -97,7 +97,7 @@ The Dialog API is an extension of the user experience developers can customize i
 
 The primary scenario for the Dialog API is authentication with third-party providers. Most identity providers prevent their sign-in experiences from being displayed in an Iframe due to click-jacking concerns. This is troublesome with an add-in as they are displayed in Iframes in some of the clients such as the web versions of Office client applications.
 
-Another challenge with authentication scenarios is predicting the domains that will need to load. In federated sign-in scenarios the potential list of domains could be endless, which again is troublesome in an add-in where all domains need to be registered in the manifest.
+Another challenge with authentication scenarios is predicting the domains that will need to load. In federated sign-in scenarios, the potential list of domains could be endless, which again is troublesome in an add-in where all domains need to be registered in the manifest.
 
 It's important to note that Office offers a single sign-on experience specific for Microsoft identities. If your add-in requires data about the Office user or their resources accessible through Microsoft Graph, such as Office 365 or OneDrive, Microsoft recommends you use the single sign-on API whenever you can. If you use the APIs for single sign-on, then you won't need the Dialog API.
 

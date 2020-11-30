@@ -11,7 +11,7 @@ Office add-ins provide several options for how your solution can interact with a
 
 Task pane add-ins allow user interaction through a panel displayed within an Office application. Through the task pane interface, you can enable the user to modify documents or emails, view data from a data source, and more. In the following image, the task pane is the panel that's displayed to the right of the document.
 
-![Task pane add-in on the right side in the Office application window](../media/02-about-addins-taskpane.png)
+![Task pane add-in on the right side in the Office application window](../media/02-about-add-ins-task-pane.png)
 
 _Task pane add-in displayed within an Office application_
 
@@ -45,7 +45,7 @@ To configure an add-in for Outlook, set the `xsi:type` attribute to `MailApp` wi
 
 Content add-ins can be used to insert an object into an Excel spreadsheet or PowerPoint presentation. That object can be a web-based data visualization, media, or other external content. In the following image, the content add-in is displayed near the center of the document.
 
-![Content add-in in the middle of the Office application window](../media/02-about-addins-contentaddin.png)
+![Content add-in in the middle of the Office application window](../media/02-about-add-ins-content-add-in.png)
 
 _Content add-in loaded within an Office application_
 
@@ -136,7 +136,7 @@ To configure an add-in to contain custom functions, the key settings in the mani
 
 ## Understand add-in commands
 
-Add-in commands are UI elements that extend the Office UI and start actions in your add-in. You can use add-in commands to add a button on the ribbon or an item to a context menu. When users select an add-in command, they initiate actions such as running JavaScript code, or showing a page of the add-in in a task pane. Add-in commands help users find and use your add-in, which can help increase your add-in's adoption and reuse, and improve customer retention.
+Add-in commands are UI elements that extend the Office UI and start actions in your add-in. You can use add-in commands to add a button on the ribbon or an item to a context menu. When users select an add-in command, they start actions such as running JavaScript code, or showing a page of the add-in in a task pane. Add-in commands help users find and use your add-in, which can help increase your add-in's adoption and reuse, and improve customer retention.
 
 ### Add-in commands in Excel, Word, PowerPoint, and OneNote
 

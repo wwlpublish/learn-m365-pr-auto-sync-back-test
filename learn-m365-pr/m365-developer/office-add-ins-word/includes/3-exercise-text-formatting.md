@@ -57,7 +57,7 @@ In this section, you'll programmatically test that your add-in supports the user
     <button class="ms-Button" id="insert-paragraph">Insert Paragraph</button><br/><br/>
     ```
 
-1. Open the file **./src/taskpane/taskpane.js**. This file contains the Office JavaScript API code that facilitates interaction between the task pane and the Office host application.
+1. Open the file **./src/taskpane/taskpane.js**. This file contains the Office JavaScript API code that enables interaction between the task pane and the Office host application.
 1. Remove all references to the **run** button and the `run()` function by doing the following steps:
 
     - Locate and delete the line `document.getElementById("run").onclick = run;`.
@@ -150,7 +150,7 @@ In this section, you'll programmatically test that your add-in supports the user
 
 1. In Word, select the **Home** tab, and then select the **Show Task pane** button in the ribbon to open the add-in task pane.
 
-    ![Screenshot of the Word application with the Show Task pane button highlighted](../media/03-word-quickstart-addin-2b.png)
+    ![Screenshot of the Word application with the Show Task pane button highlighted](../media/03-word-quickstart-add-in-2b.png)
 
 1. In the task pane, select **Insert Paragraph**.
 1. Make a change in the paragraph.
@@ -172,7 +172,7 @@ In this section, you'll apply a built-in style to text, apply a custom style to 
     ```
 
 1. Open the file **./src/taskpane/taskpane.js**.
-1. Within the `Office.onReady()` method call, locate the following line in the `Office.onRead()` method:
+1. Within the `Office.onReady()` method call, locate the following line in the `Office.onReady()` method:
 
     ```javascript
     document.getElementById("insert-paragraph").onclick = insertParagraph;
@@ -220,7 +220,7 @@ In this section, you'll apply a built-in style to text, apply a custom style to 
     ```
 
 1. Open the file **./src/taskpane/taskpane.js**.
-1. Within the `Office.onReady()` method call, locate the following line in the `Office.onRead()` method:
+1. Within the `Office.onReady()` method call, locate the following line in the `Office.onReady()` method:
 
     ```javascript
     document.getElementById("apply-style").onclick = applyStyle;
@@ -270,7 +270,7 @@ In this section, you'll apply a built-in style to text, apply a custom style to 
     ```
 
 1. Open the file **./src/taskpane/taskpane.js**.
-1. Within the `Office.onReady()` method call, locate the following line in the `Office.onRead()` method:
+1. Within the `Office.onReady()` method call, locate the following line in the `Office.onReady()` method:
 
     ```javascript
     document.getElementById("apply-custom-style").onclick = applyCustomStyle;

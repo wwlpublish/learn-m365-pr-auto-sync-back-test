@@ -369,12 +369,12 @@ Finally, open the file **webpack.config.js** file in the root directory of the p
       template: "./src/settings/dialog.html",
       chunks: ["polyfill", "dialog"]
     }),
-    new CopyWebpackPlugin([
-      {
+    new CopyWebpackPlugin({
+      patterns: [{
         to: "dialog.css",
         from: "./src/settings/dialog.css"
-      }
-    ])
+      }]
+    })
     ```
 
     After you've done this, the new `plugins` array will look like this:
@@ -385,14 +385,27 @@ Finally, open the file **webpack.config.js** file in the root directory of the p
       new HtmlWebpackPlugin({
         filename: "taskpane.html",
         template: "./src/taskpane/taskpane.html",
-        chunks: ['polyfill', 'taskpane']
+        chunks: ["polyfill", "taskpane"]
       }),
-      new CopyWebpackPlugin([
-      {
-        to: "taskpane.css",
-        from: "./src/taskpane/taskpane.css"
-      }
-      ]),
+      new CopyWebpackPlugin({
+        patterns: [
+          {
+            to: "taskpane.css",
+            from: "./src/taskpane/taskpane.css"
+          },
+          {
+            to: "[name]." + buildType + ".[ext]",
+            from: "manifest*.xml",
+            transform(content) {
+              if (dev) {
+                return content;
+              } else {
+                return content.toString().replace(new RegExp(urlDev, "g"), urlProd);
+              }
+            }
+          }
+        ]
+      }),
       new HtmlWebpackPlugin({
         filename: "commands.html",
         template: "./src/commands/commands.html",
@@ -401,14 +414,14 @@ Finally, open the file **webpack.config.js** file in the root directory of the p
       new HtmlWebpackPlugin({
         filename: "dialog.html",
         template: "./src/settings/dialog.html",
-        chunks: ['polyfill', 'dialog']
+        chunks: ["polyfill", "dialog"]
       }),
-      new CopyWebpackPlugin([
-      {
-        to: "dialog.css",
-        from: "./src/settings/dialog.css"
-      }
-      ])
+      new CopyWebpackPlugin({
+        patterns: [{
+          to: "dialog.css",
+          from: "./src/settings/dialog.css"
+        }]
+      })
     ],
     ```
 
@@ -542,7 +555,7 @@ Open the file **./src/commands/commands.html** and replace the entire contents w
 
 ### Update the function file
 
-Open the file **./src/commands/commands.js** and replace the entire contents with the following code. Note that if the `insertDefaultGist()` function determines the add-in hasn't yet been configured, it adds the `?warn=1` parameter to the dialog URL. Doing so makes the settings dialog render the message bar that's defined in **./settings/dialog.html**, to tell the user why they're seeing the dialog.
+Open the file **./src/commands/commands.js** and replace the entire contents with the following code. If the `insertDefaultGist()` function determines the add-in hasn't yet been configured, it adds the `?warn=1` parameter to the dialog URL. Doing so makes the settings dialog render the message bar that's defined in **./settings/dialog.html**, to tell the user why they're seeing the dialog.
 
 ```javascript
 var config;
@@ -726,11 +739,11 @@ If the server isn't already running, save all of your changes and run **npm run 
 1. Open Outlook and compose a new message.
 1. In the compose message window, select the **Insert default gist** button. You should be prompted to configure the add-in.
 
-    ![Screenshot of the add-in's prompt to configure](../media/05-addin-prompt-configure.png)
+    ![Screenshot of the add-in's prompt to configure](../media/05-add-in-prompt-configure.png)
 
 1. In the settings dialog, enter your GitHub username and then either **Tab** or click elsewhere in the dialog to invoke the `change` event, which should load your list of gists. Select a gist to be the default, and select **Done**.
 
-    ![Screenshot of the add-in's settings dialog](../media/05-addin-settings.png)
+    ![Screenshot of the add-in's settings dialog](../media/05-add-in-settings.png)
 
 1. Select the **Insert default gist** button again. This time, you should see the contents of the gist inserted into the body of the email.
 

@@ -11,7 +11,7 @@ metadata:
 title: Build Office add-ins for Word
 summary: Microsoft Office clients enable developers to create add-ins that extend Microsoft Word with custom functionality. Through a JavaScript API, developers can manipulate the content in a Word document from an app running in the task pane. In this module, you'll learn how to build a Word add-in that inserts (and replaces) text ranges, paragraphs, images, HTML, tables, and content controls. You'll also learn how to format text and how to insert (and replace) content in content controls.
 abstract: |
-  By the end of this module, you will be able to:
+  By the end of this module, you'll be able to:
   - Create a Word add-in that uses the Word JavaScript API to manipulate a document
   - Demonstrate how to add and edit content in a Word document
   - Explain how to deploy and host a custom add-in for Microsoft Word
