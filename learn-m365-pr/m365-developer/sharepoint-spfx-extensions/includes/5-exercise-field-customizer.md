@@ -100,11 +100,11 @@ In a browser, navigate to a SharePoint Online modern site collection where you w
 
 Select the **Site contents** link in the left-hand navigation and then select **New > List** in the toolbar. Select the **Blank list** template.
 
-![Screenshot creating new SharePoint list](../media/05-field-customizer-setup-list-01.png)
+![Screenshot creating new SharePoint list - Select blank list template](../media/05-field-customizer-setup-list-01.png)
 
 Set the list name to **Work Status** and select **Create**.
 
-![Screenshot creating new SharePoint list](../media/05-field-customizer-setup-list-02.png)
+![Screenshot creating new SharePoint list - Dialog completing new list name](../media/05-field-customizer-setup-list-02.png)
 
 When the list loads, select the **Add column > Number** to create a new column.
 

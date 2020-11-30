@@ -314,7 +314,7 @@ Select **Site contents** in the left-hand navigation.
 
 Select **Tenant Wide Extensions**. Depending on when your tenant was created the **Tenant Wide Extensions** list may be hidden. If you don't see the list in the Site Contents, then you'll have to navigate to it manually by appending `/Lists/TenantWideExtensions/AllItems.aspx` to the URL of the App Catalog site.
 
-![Screenshot displaying the Tenant Wide Extensions list](../media/03-application-customizer-tenant-wide-deploy-02.png)
+![Screenshot displaying the App catalog site contents](../media/03-application-customizer-tenant-wide-deploy-02.png)
 
 Notice the application customizer is present, with the specified properties, in the list:
 
