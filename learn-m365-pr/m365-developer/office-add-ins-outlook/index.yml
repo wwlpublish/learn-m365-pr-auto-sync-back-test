@@ -11,7 +11,7 @@ metadata:
 title: Build Office add-ins for Outlook
 summary: Microsoft Office clients enable developers to create add-ins that extend Microsoft Outlook with custom functionality. Through a JavaScript API, developers can access and edit the contents in an email or calendar event in Outlook from an app running in the client. In this module, you'll learn how to build an Outlook add-in that will render buttons in the compose message window, implement a button that invokes a function, and implement a task pane that inserts content into the body of a message.
 abstract: |
-  By the end of this module, you will be able to:
+  By the end of this module, you'll be able to:
   - Create an Outlook add-in that uses the Outlook JavaScript API to manipulate a document
   - Demonstrate how to access and edit content in an email
   - Explain how to deploy and host a custom add-in for Microsoft Outlook

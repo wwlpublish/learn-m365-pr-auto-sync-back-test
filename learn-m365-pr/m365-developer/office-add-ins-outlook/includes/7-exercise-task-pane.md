@@ -5,7 +5,7 @@ Task panes are useful in Outlook add-ins when you want to present the user with 
 
 ## Implement a task pane
 
-This add-in's **Insert gist** button will open a task pane and display the user's gists. The user can then select one of the gists to insert into the body of the message. If the user has not yet configured the add-in, they will be prompted to do so.
+This add-in's **Insert gist** button will open a task pane and display the user's gists. The user can then select one of the gists to insert into the body of the message. If the user hasn't yet configured the add-in, they'll be prompted to do so.
 
 ### Specify the HTML for the task pane
 
@@ -409,7 +409,7 @@ Save all of your changes and run **npm run dev-server** from the command prompt,
 
 1. In the task pane, select the **Hello World Html** gist and select **Insert** to insert that gist into the body of the message.
 
-![A screenshot of the add-in task pane](../media/07-addin-taskpane.png)
+![A screenshot of the add-in task pane](../media/07-add-in-taskpane.png)
 
 ## Summary
 
