@@ -55,7 +55,7 @@ Edit the web part's properties by selecting the pencil (edit) icon in the toolba
 
 In the property pane that opens, change the value of the **Description Field**. Notice how the web part updates as you make changes to the text:
 
-![Screenshot of editing the web part property pane](../media/03-testing-05.png)1
+![Screenshot of editing the web part property pane](../media/03-testing-05.png)
 
 ## Update the web part code
 
@@ -139,7 +139,7 @@ gulp serve
 
 The SharePoint Framework's gulp **serve** task will build the project, start a local web server, and launch a browser open to the SharePoint Workbench. This time, when you hover the mouse over the web part in the toolbox, you'll see the changes you applied to your web part:
 
-![Screenshot of editing the web part property pane](../media/03-testing-06.png)
+![Screenshot of the web part gallery](../media/03-testing-06.png)
 
 Close the browser and stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the command prompt.
 

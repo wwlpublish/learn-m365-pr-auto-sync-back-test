@@ -121,7 +121,7 @@ There will be many messages logged to the console, so use the filter technique t
 
 Notice in the following image that each message is prefixed with the unique name of the web part.
 
-![Screenshot of the SharePoint hosted workbench](../media/07-web-part-03.png)
+![Screenshot of the browser developer console](../media/07-web-part-03.png)
 
 ## Addressing delayed loading web parts
 
