@@ -60,19 +60,19 @@ Add the following property and value to the `properties` object:
 
 Build the project by opening a command prompt and changing to the root folder of the project. Then execute the following command:
 
-```shell
+```console
 gulp build
 ```
 
 Next, create a production bundle of the project by running the following command on the command line from the root of the project:
 
-```shell
+```console
 gulp bundle --ship
 ```
 
 Finally, create a deployment package of the project by running the following command on the command line from the root of the project:
 
-```shell
+```console
 gulp package-solution --ship
 ```
 
@@ -159,7 +159,7 @@ Notice how the web part's property pane opens by default. Edit the values of the
 
 ![Screenshot of the default settings on the web part](../media/07-update-settings-step-05.png)
 
-Now go back into the Microsoft Teams team. Select the down arrow to the right of the **SPFx Teams Together** tab. Notice the **Settings** option is no longer present. This is because the setting in the Microsoft Teams app manifest specified the configuration can't be updated once it is installed into Microsoft Teams.
+Now go back into the Microsoft Teams team. Select the down arrow to the right of the **SPFx Teams Together** tab. Notice the **Settings** option is no longer present. This is because the setting in the Microsoft Teams app manifest specified the configuration can't be updated once its installed into Microsoft Teams.
 
 ![Screenshot of the SPFx solution in Microsoft Teams](../media/07-update-settings-step-06.png)
 

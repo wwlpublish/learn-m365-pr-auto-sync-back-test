@@ -5,7 +5,7 @@ In this exercise, you'll create a SharePoint Framework web part solution that wi
 
 Open a command prompt and change to the folder where you want to create the SharePoint Framework project. Then, run the SharePoint Yeoman generator by executing the following command:
 
-```shell
+```console
 yo @microsoft/sharepoint
 ```
 
@@ -124,7 +124,7 @@ This file contains multiple strings that need to be updated to match the SharePo
 
 ## Create and deploy the SharePoint package
 
-In order to test the web part in SharePoint and Microsoft Teams, it must first be deployed to an App Catalog.
+To test the web part in SharePoint and Microsoft Teams, it must first be deployed to an App Catalog.
 
 Open a browser and navigate to your SharePoint Online tenant App Catalog site.
 
@@ -132,31 +132,29 @@ Select the menu item **Apps for SharePoint** from the left-hand navigation menu.
 
 Build the project by opening a command prompt and changing to the root folder of the project. Then execute the following command:
 
-```shell
+```console
 gulp build
 ```
 
 Next, create a production bundle of the project by running the following command on the command line from the root of the project:
 
-```shell
+```console
 gulp bundle --ship
 ```
 
 Finally, create a deployment package of the project by running the following command on the command line from the root of the project:
 
-```shell
+```console
 gulp package-solution --ship
 ```
 
 Locate the file created by the gulp **package-solution** task in the **./sharepoint/solution** folder with the name **\*.sppkg**.
 
-Drag this file into the **Apps for SharePoint** library in the browser:
-
-![Screenshot dragging the SharePoint package into the Apps for SharePoint library](../media/03-deploy-package-01.png)
+Drag this file into the **Apps for SharePoint** library in the browser.
 
 In the **Do you trust...?** dialog, select the checkbox **Make this solution available to all sites in the organization** and then select **Deploy**.
 
-![Screenshot of the app deployment trust dialog](../media/03-deploy-package-02.png)
+![Screenshot of the app deployment trust dialog](../media/03-deploy-package-01.png)
 
 This will make the web part available to all site collections in the tenant, including those that are behind a Microsoft Teams team.
 
@@ -188,7 +186,7 @@ If you don't have any teams in your tenant, you'll be presented with the followi
 
 ![Screenshot of the create teams dialog](../media/03-create-team-step-01.png)
 
-On the **Create your team** dialog, select **Build a team from scratch**:
+On the **Create your team** dialog, select **From scratch**:
 
 ![Screenshot of the create teams dialog](../media/03-create-team-step-02.png)
 
@@ -196,7 +194,9 @@ On the **What kind of team will this be?** dialog, select **Public**:
 
 ![Screenshot of the create teams dialog](../media/03-create-team-step-03.png)
 
-When prompted, use the name **My First Team**.
+In the **Some quick details about your public team** dialog, set the Team name **My First Team** and select **Create**.
+
+In the **Add members to My First Team** dialog, select **Skip**.
 
 ## Install the Microsoft Teams application as a new tab
 
