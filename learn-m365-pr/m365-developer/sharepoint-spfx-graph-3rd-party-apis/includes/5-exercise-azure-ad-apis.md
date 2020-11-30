@@ -289,11 +289,11 @@ In the browser, select the Web part icon button to open the list of available we
 
 Locate the **SPFxAadHttpClient** web part and select it
 
-![Screenshot of adding the web part to the modern SharePoint page](../media/05-add-web-part-02.png)
+![Screenshot of adding the web part to the modern SharePoint page - Web part gallery](../media/05-add-web-part-02.png)
 
 When the page loads, notice after a brief delay, it will display a list of users:
 
-![Screenshot of the web part running in a modern SharePoint page](../media/05-test-01.png)
+![Screenshot of the web part running in a modern SharePoint page - web part on the page](../media/05-test-01.png)
 
 ## Summary
 

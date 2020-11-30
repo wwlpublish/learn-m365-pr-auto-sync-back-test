@@ -314,7 +314,7 @@ In the browser, select the Web part icon button to open the list of available we
 
 Locate the **GraphPersona** web part and select it
 
-![Screenshot of adding the web part to the modern SharePoint page](../media/07-add-web-part-02.png)
+![Screenshot of adding the web part to the modern SharePoint page - web part gallery](../media/07-add-web-part-02.png)
 
 When the page loads, notice after a brief delay, it will display the current user's details on the Persona card:
 

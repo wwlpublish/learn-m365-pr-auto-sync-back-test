@@ -12,7 +12,7 @@ The Microsoft Graph is the gateway to your data in the Microsoft cloud as you se
 
 ### Microsoft Graph - gateway to your data in the Microsoft cloud
 
-![Microsoft Graph - gateway to your data in the Microsoft cloud](../media/06-msgraph-gateway.png)
+![Microsoft 365 Platform](../media/06-msgraph-gateway.png)
 
 The Microsoft cloud is included of multiple services and data types that we can take advantage of from Office 365, and it's all considered part of the Microsoft 365 platform.
 
@@ -148,7 +148,7 @@ To approve or reject permission requests, navigate to the **API Management** pag
 
 Select the permission request to view its details and use the buttons at the bottom of the panel to approve or reject the request:
 
-![Screencast of the API management page in the SharePoint Admin Center](../media/sharepoint-admin-portal-03.png)
+![Screencast of the API management page in the SharePoint Admin Center - Approve/decline access request dialog](../media/sharepoint-admin-portal-03.png)
 
 ## Summary
 

@@ -130,7 +130,7 @@ To approve or reject permission requests, navigate to the **API access** page in
 
 Select the permission request to view its details and use the buttons at the bottom of the panel to approve or reject the request:
 
-![Screencast of the API management page in the SharePoint Admin Center](../media/sharepoint-admin-portal-03.png)
+![Screencast of the API management page in the SharePoint Admin Center - Approve/Decline access request dialog](../media/sharepoint-admin-portal-03.png)
 
 ## Summary
 
