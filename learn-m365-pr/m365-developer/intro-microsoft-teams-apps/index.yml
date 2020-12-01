@@ -3,13 +3,13 @@ uid: learn-m365.intro-microsoft-teams-apps
 metadata:
   title: Introduction to building apps for Microsoft Teams
   description: An introduction to creating custom apps for Microsoft Teams built on the Microsoft Teams Platform.
-  ms.date: 10/01/2019
+  ms.date: 12/01/2019
   author: clearab
   ms.author: anclear
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Introduction to building apps for Microsoft Teams
-summary: Microsoft Teams is an extensible platform you can build custom apps on. Understand what is possible with a Microsoft Teams custom app, and determine if it is right for you.
+summary: Microsoft Teams is an extensible platform you can build custom apps on. Understand what is possible with a Microsoft Teams custom app, and determine if its right for you.
 abstract: |
   At the end of this module, you should be able to:
   - Describe the components of a Microsoft Teams app
