@@ -22,7 +22,7 @@ NPM is used as the package manager and you'll use it to install global tools and
 
 Webpack is used to combine all the JavaScript and CSS files in your project into a single JavaScript bundle. Bundles are the recommended way to deploy client-side applications for performance reasons.
 
-These are tools that aren't built and provided by Microsoft, rather they're maintained by the community and are all open-source tools. One benefit of using these tools is that they are cross platform, so the same tools can be used regardless if your development environment is Windows, macOS, or Linux.
+These are tools that aren't built and provided by Microsoft, rather they're maintained by the community and are all open-source tools. One benefit of using these tools is that they're cross platform, so the same tools can be used regardless if your development environment is Windows, macOS, or Linux.
 
 ### Web frameworks
 
@@ -36,7 +36,7 @@ However, you aren't limited to Visual Studio Code. You can choose a different ed
 
 ## Server-side tool comparison
 
-The SharePoint Framework development toolchain is a significant change from the traditional server-side SharePoint development experience. Let's look at the two development toolchains to see how they are compare and contrast
+The SharePoint Framework development toolchain is a significant change from the traditional server-side SharePoint development experience. Let's look at the two development toolchains to see how they're compare and contrast
 
 ![Screenshot of the server-side tool comparison](../media/03-server-side-tooling-comparison.png)
 
