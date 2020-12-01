@@ -4,12 +4,12 @@ title: Use artificial intelligence to add narratives and detect anomalies in you
 metadata:
   title: Use artificial intelligence to add narratives and detect anomalies in your data
   description: "Use artificial intelligence to add narratives and detect anomalies in your data"
-  ms.date: 11/24/2020
+  ms.date: 12/01/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-durationInMinutes: 3
+durationInMinutes: 5
 content: |
   [!include[](includes/3-use-artificial-intelligence-add-narratives-detect-anomalies-data.md)]
