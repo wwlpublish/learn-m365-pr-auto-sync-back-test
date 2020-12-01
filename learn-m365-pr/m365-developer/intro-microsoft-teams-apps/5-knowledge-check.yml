@@ -40,7 +40,7 @@ quiz:
     choices:
     - content: "Publish your app to the public app store."
       isCorrect: false
-      explanation: "You should only submit your app for publication to the public app store if you believe its relevant for all Teams users everywhere."
+      explanation: "You should only submit your app for publication to the public app store if you believe it's relevant for all Teams users everywhere."
     - content: "Distribute your app package for users to install directly."
       isCorrect: false
       explanation: "Although technically possible, this would be a inefficient method of distribution for an entire organization."

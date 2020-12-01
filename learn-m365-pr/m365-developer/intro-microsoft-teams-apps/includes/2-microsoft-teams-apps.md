@@ -10,7 +10,7 @@ Apps built on the Microsoft Teams Platform consist of three primary pieces.
 - **Your Teams App Package** is the package that is installed in Microsoft Teams. It contains a small icon, a large icon, and a manifest JSON file. The manifest file contains the metadata for your app (like the name of the app, the developers name and so on), which extensibility points your app uses (like tabs and messaging extensions), and pointers to your web services that power your app (like the ID for your bot, or your tab's URL).
 - **Your web services** hosted by you providing the APIs and logic that power your app.
 
-Its important to keep in mind that the Microsoft Teams Platform isn't a hosting service; the web services powering your app must be hosted by you and accessible by HTTPS over the internet.
+It's important to keep in mind that the Microsoft Teams Platform isn't a hosting service; the web services powering your app must be hosted by you and accessible by HTTPS over the internet.
 
 ## Where can the Teams client be extended?
 
@@ -23,7 +23,7 @@ Teams, channels, and group chats allow multiple people to collaborate. Apps that
 They can be expanded with:
 
 - **Conversational bots** interacting with members of the conversation through chat, and responding to events (like a new member being added, or a channel being renamed). All conversations with a bot in this context are visible to all members of the channel or group, so you'll need to ensure the conversation is relevant to everyone.
-- **Configurable Tabs** providing a full-screen embedded web experience configured for the channel or group chat its installed in. All members will interact on the same shared web-app, so a stateless single page app experience is typical.
+- **Configurable Tabs** providing a full-screen embedded web experience configured for the channel or group chat it's installed in. All members will interact on the same shared web-app, so a stateless single page app experience is typical.
 - **Webhooks and Connectors** enabling external services to post messages to the conversation. You can take advantage of cards and card actions to create rich, actionable messages. Webhooks provide a simple, unauthenticated, one-way method to post messages to a channel, while Connectors provide a slightly more robust back-and-forth experience.
 
 ### Personal apps
@@ -32,7 +32,7 @@ Personal apps are the portion of your Teams app focusing on interactions with a 
 
 They can contain:
 
-- **Conversational bots** having a one-to-one conversation with the user. Because this is a private conversation, if your app needs to have a multi-turn conversation with a user, or provide a notification relevant only to a single user, its typically best to have that interaction in a personal app.
+- **Conversational bots** having a one-to-one conversation with the user. Because this is a private conversation, if your app needs to have a multi-turn conversation with a user, or provide a notification relevant only to a single user, it's typically best to have that interaction in a personal app.
 - **Personal Tabs** providing a full-screen embedded web experience.
 
 ### Messages
@@ -63,7 +63,7 @@ Task modules allow you to create modal popup experiences in your Teams applicati
 
 ### Deep links
 
-Your app can create URL deep links to help navigate your user through your app, and the Teams client. You can create a deeplink for most entities within Teams, and some (like a new meeting request) allow you to pre-populate information using query strings in the URL. For example, your conversational bot could send a message to a channel with a deeplink to a task module that results in a card being sent as a one-to-one message to a user, that in turn contains a deeplink to create a new meeting with a specific user at a certain date/time. Use deep links to connect across the various extension points available to your app, keeping your user in the correct context at all times.
+Your app can create URL deep links to help navigate your user through your app, and the Teams client. You can create a deep link for most entities within Teams, and some (like a new meeting request) allow you to pre-populate information using query strings in the URL. For example, your conversational bot could send a message to a channel with a deep link to a task module that results in a card being sent as a one-to-one message to a user, that in turn contains a deep link to create a new meeting with a specific user at a certain date/time. Use deep links to connect across the various extension points available to your app, keeping your user in the correct context at all times.
 
 ### Web content pages
 
