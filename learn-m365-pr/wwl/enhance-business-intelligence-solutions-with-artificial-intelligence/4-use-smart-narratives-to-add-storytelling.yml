@@ -4,12 +4,12 @@ title: Use smart narratives to add storytelling to your data
 metadata:
   title: Use smart narratives to add storytelling to your data
   description: "Use smart narratives to add storytelling to your data"
-  ms.date: 11/19/2020
+  ms.date: 12/02/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-durationInMinutes: 3
+durationInMinutes: 8
 content: |
   [!include[](includes/4-use-smart-narratives-to-add-storytelling.md)]
