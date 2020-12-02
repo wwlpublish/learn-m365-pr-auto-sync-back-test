@@ -16,13 +16,13 @@ Use these resources to discover more.
 
 - [Power BI September 2020 Feature Summary](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/)
 
-- Read more about [smart narratives in Power BI](https://powerbi.microsoft.com/blog/smart-narrative-preview/).
+- [smart narratives in Power BI](https://powerbi.microsoft.com/blog/smart-narrative-preview/).
 
-- Learn more about [Power BI for HoloLens 2](https://powerbi.microsoft.com/blog/power-bi-app-for-mixed-reality-now-available-for-hololens-2/).
+- [Power BI for HoloLens 2](https://powerbi.microsoft.com/blog/power-bi-app-for-mixed-reality-now-available-for-hololens-2/).
 
-- Learn more about [Power BI experiences in Microsoft Teams](https://powerbi.microsoft.com/blog/announcing-new-power-bi-experiences-in-microsoft-teams/).
+- [Power BI experiences in Microsoft Teams](https://powerbi.microsoft.com/blog/announcing-new-power-bi-experiences-in-microsoft-teams/).
 
-- Read more about [Power BI datasets and sensitivity labels](https://powerbi.microsoft.com/blog/power-bi-data-protection-updates/).
+- [Power BI datasets and sensitivity labels](https://powerbi.microsoft.com/blog/power-bi-data-protection-updates/).
 
-- Read more about [Connecting your own data with more new data types in Excel](https://www.microsoft.com/en-us/microsoft-365/blog/2020/10/29/connect-to-your-own-data-with-more-new-data-types-in-excel/).
+- [Connecting your own data with more new data types in Excel](https://www.microsoft.com/en-us/microsoft-365/blog/2020/10/29/connect-to-your-own-data-with-more-new-data-types-in-excel/).
 

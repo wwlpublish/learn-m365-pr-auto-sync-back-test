@@ -4,12 +4,12 @@ title: Understand the Power Query dataflows roadmap
 metadata:
   title: Understand the Power Query dataflows roadmap
   description: "Understand the Power Query dataflows roadmap"
-  ms.date: 11/20/2020
+  ms.date: 12/02/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-durationInMinutes: 3
+durationInMinutes: 5
 content: |
   [!include[](includes/6-understand-power-query-dataflows-roadmap.md)]

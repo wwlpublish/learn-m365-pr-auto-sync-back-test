@@ -4,12 +4,12 @@ title: Create and consume dataflows
 metadata:
   title: Create and consume dataflows
   description: "Create and consume dataflows"
-  ms.date: 11/20/2020
+  ms.date: 12/02/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-durationInMinutes: 3
+durationInMinutes: 6
 content: |
   [!include[](includes/4-create-consume-dataflows.md)]

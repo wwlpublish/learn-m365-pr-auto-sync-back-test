@@ -3,7 +3,7 @@ uid: learn.wwl.advance-power-bi-premium-for-enterprise-analytics-market-beyond
 metadata:
   title: Advance Power BI Premium for the enterprise analytics market and beyond
   description: "Advance Power BI Premium for the enterprise analytics market and beyond"
-  ms.date: 11/23/2020
+  ms.date: 12/02/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -17,7 +17,7 @@ abstract: |
   - How Power BI Premium has be architected to support faster processing for all operations, including refreshes
 prerequisites: |
   None
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/advance-power-bi-premium-for-enterprise-analytics-market-beyond.svg
 levels:
 - beginner
 roles:
