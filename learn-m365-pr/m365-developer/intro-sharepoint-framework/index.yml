@@ -3,7 +3,7 @@ uid: learn-m365.intro-sharepoint-framework
 metadata:
   title: Introduction to customizing and extending SharePoint
   description: SharePoint is an extensible platform you can customize and extend with the SharePoint Framework and multiple APIs available to developers. In this module, developers learn what customizations and extensibility points are available to them with the SharePoint Framework, and determine if it's right for you.
-  ms.date: 08/31/2020
+  ms.date: 12/01/2020
   author: andrewconnell
   ms.author: suzanz
   ms.topic: interactive-tutorial
@@ -11,14 +11,14 @@ metadata:
 title: Introduction to customizing and extending SharePoint
 summary: SharePoint is an extensible platform you can customize and extend with the SharePoint Framework and multiple APIs available to developers. In this module, developers learn what customizations and extensibility points are available to them with the SharePoint Framework, and determine if it's right for you.
 abstract: |
-  By the end of this module, you will be able to:
+  By the end of this module, you'll be able to:
   - Describe the different types of components available in the SharePoint Framework
   - List the customization options enabled by the SharePoint Framework
   - Describe the development environment, tooling, and custom app lifecycle of SharePoint Framework projects
   - Choose the correct extensibility point(s) based on your scenario
 prerequisites: |
   - Experience using SharePoint Online at the beginner level
-  - Ability to program with JavaScript or TypeScriptat the beginner level
+  - Ability to program with JavaScript or TypeScript at the beginner level
   - Access to a Microsoft 365 tenant
 iconUrl: /learn/achievements/intro-sharepoint-framework.svg
 levels:

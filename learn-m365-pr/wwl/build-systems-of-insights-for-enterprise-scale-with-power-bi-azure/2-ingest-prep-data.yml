@@ -4,12 +4,12 @@ title: Ingest and prep data with dataflows and machine learning
 metadata:
   title: Ingest and prep data with dataflows and machine learning
   description: "Ingest and prep data with dataflows and machine learning"
-  ms.date: 11/23/2020
+  ms.date: 12/02/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-durationInMinutes: 3
+durationInMinutes: 10
 content: |
   [!include[](includes/2-ingest-prep-data.md)]
