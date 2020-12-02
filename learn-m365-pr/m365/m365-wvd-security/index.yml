@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn-m365.wvd-security
+metadata:
+  title: Introduction to Windows Virtual Desktop in Microsoft Azure
+  description: Learn how to use Windows Virtual Desktop to deliver remote desktop and remote app experiences in Microsoft Azure.
+  ms.date: 06/25/2020
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Introduction to Windows Virtual Desktop in Microsoft Azure
+summary: Learn how to use Windows Virtual Desktop to deliver remote desktop and remote app experiences in Microsoft Azure.
+abstract: |
+  At the end of this module, you should be able to:
+  - Describe Windows Virtual Desktop and how it works
+  - Decide whether Windows Virtual Desktop is a good choice for your organization
+prerequisites: |
+  - Familiarity with server and client management concepts and tools
+  - Familiarity with Windows virtualization technologies, like Remote Desktop Services
+iconUrl: /learn/achievements/get-modern-os-deployment-and-feature-updates.svg
+ratingEnabled: true
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- azure
+- windows-virtual-desktop
+units:
+- learn-365.wvd-security.introduction
+- learn-365.wvd-security.set-up-exercise-environment
+- learn-365.wvd-security.enable-security-services-wvd-deployment
+- learn-365.wvd-security.exercise-secure-users-identity
+- learn-365.wvd-security.secure-session-hosts-applications
+- learn-365.wvd-security.enable-data-security
+- learn-365.wvd-security.secure-network-access
+- learn-365.wvd-security.exercise-secure-downloaded-desktop-using-applocker 
+- learn-365.wvd-security.knowledge-check
+- learn-365.wvd-security.summary
+badge: 
+  uid: learn-m365.wvd-security.badges
