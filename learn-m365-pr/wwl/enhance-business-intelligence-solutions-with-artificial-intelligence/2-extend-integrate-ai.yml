@@ -4,12 +4,12 @@ title: Extend and integrate AI with Power BI
 metadata:
   title: Extend and integrate AI with Power BI
   description: "Extend and integrate AI with Power BI"
-  ms.date: 11/19/2020
+  ms.date: 12/02/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-durationInMinutes: 3
+durationInMinutes: 4
 content: |
   [!include[](includes/2-extend-integrate-ai.md)]
