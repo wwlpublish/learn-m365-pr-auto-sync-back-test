@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.workplace-analytics-discover.see-how-tool-works
-title: See how it works
+uid: learn-m365.workplace-analytics-onboard.assign-roles
+title: Assign Workplace Analytics roles
 metadata:
-  title: See how it works
-  description: Learn what Workplace Analytics is, how it works, and key features that allow you to generate insights and improve collaboration in your organization.  
-  ms.date: 06/02/2020
-  author: AlexandraHrt
-  ms.author: v-aleha
+  title: Assign Workplace Analytics roles
+  description: Learn how to assign Workplace Analytics roles to the users in your organization.  
+  ms.date: 12/02/2020
+  author: lizap
+  ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 7
 content: |
-  [!include[](includes/see-how-tool-works.md)]
+  [!include[](includes/assign-roles.md)]

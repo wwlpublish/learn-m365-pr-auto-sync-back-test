@@ -1,34 +1,15 @@
-Successful organizations track their business outcomes, but how do you measure the day-to-day actions that create those outcomes? Collaboration is a key component of knowledge worker success.
+Microsoft Workplace Analytics provides powerful insights about the way organizations collaborate and how work gets done. Setting up Workplace Analytics for the organization requires collaboration between the Microsoft 365 administrator and the Workplace Analytics administrator, who typically work under the direction of an overall program manager. 
 
-> [!div class="centered"]
-> ![Collaboration between people](../media/collaboration-people-1.png)
+This module explains how people in these roles work together to set up Workplace Analytics for their organization as they:
 
-Knowledge workers work through networks, interacting with coworkers, and leaders. With Microsoft 365 data, we can measure these interactions. Microsoft 365 captures signals from meetings, email, Teams calls, and messaging activities. It’s the largest existing data set of how people spend time at work, passively generated from everyday work activities.
+- Assign licenses and roles
+- Make privacy and configuration settings
+- Prepare and upload organizational data
 
-Workplace Analytics provides visibility insights into:
+After these steps are completed, the Workplace Analytics web application will be available with 13 months of historical data by default. 
 
-- How people invest their time in different types of activities.
-- How they share information with other individuals in their team and beyond.
-- How teams interact with other teams, geographies, lines of business, and external contacts.
+>[!NOTE]
+> The actual amount of historical data available depends on the archiving policies that have been applied to Exchange online mailboxes.
 
-These insights can help organizations and their employees develop stronger work habits and team norms and do their jobs more effectively. But to turn the data into insights, the raw signals need to be converted into useful information.
-
-- Translate interactions into aggregate measures of time and relationships.
-- Join collaboration information with context about employee and customer organizations, roles, geographies, and outcomes.
-- Provide options and controls to protect individual privacy while getting insight from the data.
-
-Workplace Analytics turns data into useful insights by providing measures, context, and privacy controls, as well as dashboards and other tools for users to access those insights. It's a cloud-based solution that uses the power of Microsoft 365 collaboration data to provide actionable insights into how your organization spends its time.
-
-> [!div class="centered"]
-> ![More collaboration between people](../media/collaboration-people-2.png)
-
-Workplace Analytics provides decision makers with a powerful tool to identify opportunities to effectively execute change and improve organizational outcomes such as:
-
-- Collaboration overload.
-- Manager effectiveness.
-- Sales productivity. 
-- Employee engagement. 
-
-## Learn more
-
-[Workplace Analytics home page](https://docs.microsoft.com/workplace-analytics/use/home-page?azure-portal=true)
+## Example scenario 
+You are an IT Project Leader at Contoso Corporation, which recently acquired Workplace Analytics licenses for the entire company. Working with Alex, a Microsoft 365 administrator, and Taylor, a Human Resources analyst who will serve as the Workplace Analytics administrator, you have been asked to make Workplace Analytics operational for the business. This team will have to gather input from the right stakeholders to decide how to configure Workplace Analytics, based on Contoso's unique requirements and collect and upload the organizational data that brings the Workplace Analytics insights to life.
