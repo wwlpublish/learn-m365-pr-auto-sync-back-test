@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.wvd-security.enable-data-security
-title: Enable data security
+uid: learn-m365.wvd-security.exercise-secure-desktop
+title: Exercise - Secure the downloaded desktop using AppLocker
 metadata:
-  title: Enable data security
-  description: Learn how to use Azure files as persistent, stateful containers.
+  title: Exercise - Secure the downloaded desktop using AppLocker
+  description: Learn how to increase the security of your WVD host.
   ms.date:  12/02/2020
   author: ndelgado
   ms.author: nedelgad
@@ -11,4 +11,4 @@ metadata:
   ms.prod: learning-m365
 durationInMinutes: 6
 content: |
-  [!include[](includes/6-enable-data-security.md)]
+  [!include[](includes/8-exercise-secure-desktop.md)]

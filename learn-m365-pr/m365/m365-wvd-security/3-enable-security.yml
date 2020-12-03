@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.wvd-security.enable-security-services-wvd-deployment
+uid: learn-m365.wvd-security.enable-security
 title: Enable security services of a WVD deployment
 metadata:
   title: Enable security services of a WVD deployment
@@ -11,4 +11,4 @@ metadata:
   ms.prod: learning-m365
 durationInMinutes: 9
 content: |
-  [!include[](includes/3-enable-security-services-wvd-deployment.md)]
+  [!include[](includes/3-enable-security.md)]
