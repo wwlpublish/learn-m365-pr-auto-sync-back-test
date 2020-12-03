@@ -3,7 +3,7 @@ uid: learn.wwl.gain-insights-into-your-data-through-intelligent-tools-power-bi
 metadata:
   title: Gain insights into your data through intelligent tools in Power BI
   description: Gain insights into your data through intelligent tools in Power BI
-  ms.date: 11/26/2020
+  ms.date: 12/03/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -14,6 +14,7 @@ prerequisites: |
 summary: |
   Learn about the investments made in Power BI to deliver impactful insights while empowering everyone and every team to make data-driven decisions when and where it matters.
 iconUrl: /learn/achievements/gain-insights-into-your-data-through-intelligent-tools-in-power-bi.svg
+hidden: true
 levels:
 - beginner
 roles:
