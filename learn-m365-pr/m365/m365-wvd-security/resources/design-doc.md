@@ -1,3 +1,14 @@
+metadata:
+  title: Secure a Windows Virtual Desktop deployment
+  description: Introduction to Microsoft security capabilities that can keep your applications and data secure in your WVD deployment.
+  ms.date: 06/25/2020
+  author: ndelgado
+  ms.author: nedelgad
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+
+title: Secure a Windows Virtual Desktop deployment
+
 # Module: Secure a Windows Virtual Desktop deployment
 
 ## Learner roles

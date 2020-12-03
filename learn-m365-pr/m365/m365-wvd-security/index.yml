@@ -8,12 +8,12 @@ metadata:
   ms.author: nedelgad
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Introduction to Windows Virtual Desktop in Microsoft Azure
+title: Secure a Windows Virtual Desktop deployment
 summary: Introduction to Microsoft security capabilities that can keep your applications and data secure in your WVD deployment.
 abstract: |
   At the end of this module, you should be able to:
-  - <TBD>
-  - <TBD>
+  - Secure the user’s identity used to access their WVD environment.
+  - Use AppLocker to secure the downloaded desktop.
 prerequisites: |
   - Intermediate knowledge of Azure services such as: Core Azure compute, storage, networking, and virtualization technologies.
   - Intermediate knowledge of Azure operational concepts, such as monitoring, logging, and alerting.
