@@ -3,7 +3,7 @@ uid: learn.wwl.build-systems-of-insights-for-enterprise-scale-with-power-bi-azur
 metadata:
   title: Build systems of insights for enterprise scale with Power BI and Azure
   description: "Build systems of insights for enterprise scale with Power BI and Azure"
-  ms.date: 12/02/2020
+  ms.date: 12/03/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -19,6 +19,7 @@ abstract: |
 prerequisites: |
   None
 iconUrl: /learn/achievements/generic-badge.svg
+hidden: true
 levels:
 - beginner
 roles:

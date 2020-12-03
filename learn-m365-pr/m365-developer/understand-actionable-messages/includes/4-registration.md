@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD041 -->
 Actionable Messages in Outlook provide a powerful set of capabilities and typically send information outside of the Microsoft 365 service. Because of this, services must register their sender and web API endpoints.
 
 ## Actionable Email Developer Dashboard
@@ -14,12 +15,6 @@ Once the registration is created, the developer obtains a provider ID, which is 
 ### Scope of submission
 
 Next steps for the registration process depends on the desired scope of submission.
-
-#### My Mailbox
-
-With this scope, the solution is only allowed to send to the user's mailbox that created the registration. This scope is typically used in the early stages of development, allowing the developer to test the Actionable Message in their own mailbox.
-
-This scope requires no additional information, and is auto-approved.
 
 #### Test Users
 
