@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.wvd-security.secure-session-hosts
+title: Secure session hosts and applications
+metadata:
+  title: Secure session hosts and applications
+  description: Learn how to protect and monitor the session hosts including RemoteApp groups and host pools.
+  ms.date:  12/02/2020
+  author: ndelgado
+  ms.author: nedelgad
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 8
+content: |
+  [!include[](includes/5-secure-session-hosts.md)]

@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.wvd-security.set-up-exercise
+title: Set up exercise environment
+metadata:
+  title: Set up exercise environment
+  description: This unit will instruct the learner how to run the provided script to automatically set up their BYOS environment. 
+  ms.date: 12/02/2020
+  author: ndelgado
+  ms.author: nedelgad
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 10
+content: |
+  [!include[](includes/2-set-up-exercise.md)]

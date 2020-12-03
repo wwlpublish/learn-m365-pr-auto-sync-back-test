@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.wvd-security.introduction
+title: Introduction
+metadata:
+  title: Introduction
+  description: Introduction to Microsoft security capabilities that can keep your applications and data secure in your WVD deployment.
+  ms.date:  12/02/2020
+  author: ndelgado
+  ms.author: nedelgad
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 4
+content: |
+  [!include[](includes/1-introduction.md)]
