@@ -4,4 +4,4 @@ The Office 365 tenant administrator can use group-based licensing or Windows Pow
 
 It's important to note that assigning a Workplace Analytics license to a mailbox does not change the employee's day-to-day experience. 
 
-:::image type="content" source="<../media/assign-licenses.png>" alt-text="<A graphic that shows the steps for assigning licenses. A license image with a human face represents the work to identify who to include in the analysis population. A face with a download symbol represents the Microsoft 365 tenant administrator who assigns licenses.>":::
+:::image type="content" source="../media/assign-licenses.png" alt-text="A graphic that shows the steps for assigning licenses. A license image with a human face represents the work to identify who to include in the analysis population. A face with a download symbol represents the Microsoft 365 tenant administrator who assigns licenses.":::
