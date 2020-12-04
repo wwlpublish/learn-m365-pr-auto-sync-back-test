@@ -3,7 +3,7 @@ uid: learn.wwl.connect-power-apps-automate-virtual-agent-bi-with-common-data-ser
 metadata:
   title: Connect to the Microsoft Dataverse through Microsoft Teams
   description: "Connect to the Microsoft Dataverse through Microsoft Teams"
-  ms.date: 12/02/2020
+  ms.date: 12/03/2020
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -17,6 +17,7 @@ abstract: |
 prerequisites: |
   None
 iconUrl: /learn/achievements/generic-badge.svg
+hidden: true
 levels:
 - beginner
 roles:
