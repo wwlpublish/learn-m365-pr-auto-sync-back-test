@@ -5,8 +5,8 @@ metadata:
   title: Manage MSIX app attach
   description: Create an MSIX image for MSIX app attach. Test MSIX app attach with PowerShell scripts. Publish an MSIX app attach application as a Remote App. Maintain an MSIX app attach with updates and removals.
   ms.date:  12/04/2020
-  author: nedelgad
-  ms.author: ndelgado
+  author: ndelgado
+  ms.author: nedelgad
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 10
