@@ -15,8 +15,14 @@ abstract: |
   - Transform existing applications with the MSIX packaging tool.
   - Deploy MSIX app attach.
 prerequisites: |
-  - Familiarity with server and client management concepts and tools
-  - Familiarity with Windows virtualization technologies, like Remote Desktop Services
+  To get the best learning experience from this module, you should have intermediate-level experience with:
+  - Server and client management concepts and tools.
+  - Windows virtualization technologies, like Remote Desktop Services
+  - Common Windows Server management tools.
+  - Core Microsoft compute, storage, networking, and virtualization technologies.
+  You should have beginner-level experience with:
+  - Application deployment 
+  - Windows Virtual Desktop
 iconUrl: /learn/achievements/generic-badge.svg
 ratingEnabled: true
 levels:
