@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.wvd-msix-app-attach.manage-msix-app-attach
+title: Manage MSIX app attach
+metadata:
+  title: Manage MSIX app attach
+  description: Create an MSIX image for MSIX app attach. Test MSIX app attach with PowerShell scripts. Publish an MSIX app attach application as a Remote App. Maintain an MSIX app attach with updates and removals.
+  ms.date:  12/04/2020
+  author: nedelgad
+  ms.author: ndelgado
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 10
+content: |
+  [!include[](includes/4-manage-msix-app-attach.md)]

@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn-m365.wvd-msix-app-attach
+metadata:
+  title: Deploy applications using MSIX app attach
+  description: Learn how to deliver applications using MSIX app attach technology. MSIX app attach is Microsoft's application delivery technology that enables you to separate applications and their state from the operating system and assign applications to users dynamically.
+  ms.date: 12/04/2020
+  author: ndelgado
+  ms.author: nedelgad
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Deploy applications using MSIX app attach
+summary: Learn how to deliver applications using MSIX app attach technology. MSIX app attach is Microsoft's application delivery technology that enables you to separate applications and their state from the operating system and assign applications to users dynamically.
+abstract: |
+  At the end of this module, you should be able to:
+  - Transform existing applications with the MSIX packaging tool.
+  - Deploy MSIX app attach.
+prerequisites: |
+  - Familiarity with server and client management concepts and tools
+  - Familiarity with Windows virtualization technologies, like Remote Desktop Services
+iconUrl: /learn/achievements/generic-badge.svg
+ratingEnabled: true
+levels:
+- intermediate
+roles:
+- administrator
+- solution-architect
+- devops-engineer
+products:
+- m365
+- azure
+- windows-virtual-desktop
+units:
+- learn-m365.wvd-msix-app-attach.introduction
+- learn-m365.wvd-msix-app-attach.what-is-msix
+- learn-m365.wvd-msix-app-attach.what-is-msix-app-attach
+- learn-m365.wvd-msix-app-attach.manage-msix-app-attach
+- learn-m365.wvd-msix-app-attach.exercise-deploy-msix-app-attach
+- learn-m365.wvd-msix-app-attach.knowledge-check
+- learn-m365.wvd-msix-app-attach.summary
+badge: 
+  uid: learn-m365.wvd-msix-app-attach.badges
