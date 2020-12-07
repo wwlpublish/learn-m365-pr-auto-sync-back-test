@@ -72,6 +72,8 @@ Windows Autopilot automates the setup and configuration of the classroom devices
 
 For Windows Autopilot to work, you'll need to create a deployment profile. It's good practice to configure the default Autopilot deployment profile for regular user permissions first before starting the deployment profiles with administrator permissions.
 
+Note that Intune for Education only supports user-driven mode and doesn't require you to configure company branding.
+
 ### Group Autopilot-registered devices using a group tag
 
 When creating Windows Autopilot policies, it's a good idea to create a group tag. Creating a group tag rule will automatically populate a group with devices as they complete the Autopilot registration process.
@@ -89,7 +91,7 @@ When creating Windows Autopilot policies, it's a good idea to create a group tag
 
 ## Windows Autopilot Reset
 
-Through Windows Intune, Autopilot Reset lets remotely wipe all the data on all the devices in your school in preparation for the new school year start. It removes all the apps, settings, and user data but preserves the device's enrollment in Azure AD and Intune.  Once reset, the Windows device will be refreshed with the latest Intune policies needed for that classroom.
+Through Windows Intune, Autopilot Reset lets remotely wipe all the data on your devices in your school in preparation for the new school year start. It removes all the apps, settings, and user data but preserves the device's enrollment in Azure AD and Intune.  Once reset, the Windows device will be refreshed with the latest Intune policies needed for that classroom.
 
 A reset can also be applied to a group of devices.
 
@@ -99,3 +101,6 @@ A reset can also be applied to a group of devices.
 1. To confirm the reset, select **Autopilot Reset** again.
 
 The selected device(s) will reset the next time they connect to the school network, either in the classroom or remotely.
+
+> [!NOTE]
+> You cannot use Autopilot Reset to reset an entire group. Autopilot Reset can reset up to 2000 devices at a time, and you can select the devices you want to reset either from the device list in a group or the full device list in the *Devices* blade. If you choose to use the *Devices* blade, you can apply filters to the device list to limit te operation to 2000 or fewer devices. Use the *Select all* box at the top to select the entire filtered list.

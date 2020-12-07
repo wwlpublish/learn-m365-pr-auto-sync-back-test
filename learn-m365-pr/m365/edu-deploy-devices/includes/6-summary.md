@@ -2,7 +2,7 @@ As you've seen, the classroom has evolved to be a more engaged and interactive e
 
 Suppose you work in your school's IT department, and were looking at different options to enable the use of technology by teachers and students.
 
-By using Set up Schools PCs and Windows Autopilot, you are able to enable and enroll devices to be used within your school and classrooms.  You can use provisioning packages to simplify and standardize the applications and services that are available on Windows devices.  By using Windows Autopilot, you can simplify deployment for multiple devices in one or more classrooms. Finally, Microsoft supports the automatic enrollment of BYOD iOS based devices.
+By using Set up Schools PCs and Windows Autopilot, you are able to enable and enroll devices to be used within your school and classrooms.  You can use provisioning packages to simplify and standardize the applications and services that are available on Windows devices.  By using Windows Autopilot, you can simplify deployment for multiple devices in one or more classrooms. Finally, Microsoft supports the Automated device enrollment.
 
 In this module, you explored the use of Set up Schools PCs, and Windows Autopilot deployment capabilities. You learnt how to configure and enroll devices for use in your school using provisioning packages, and Windows Autopilot. Finally, you saw how to set up auto enrollment support for iOS based devices.
 

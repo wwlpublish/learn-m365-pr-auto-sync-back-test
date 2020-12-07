@@ -31,7 +31,8 @@ To allow Microsoft Intune to synchronize with the Apple School Manager (ASM) por
 
 ### Download the Intune public key certificate
 
-This is required to create the token.  You'll go to the Microsoft Endpoint Manager admin center, where you'll need to select iOS.iPadOS enrollment.  Next, you'll need to choose the enrollment program because you'll need to give Microsoft permission to send user and device information to Apple. 
+This is required to create the token.  You'll go to the Microsoft Endpoint Manager admin center, where you'll need to select iOS.iPadOS enrollment.  Next, choose the enrollment program; you'll need to give Microsoft permission to send user and device information to Apple. 
+
 Once you give consent, you'll be able to download your public encryption key (.pem). The .pem file will be used to request a trust-relationship certificate from Apple.
 
 ### Use the public key certificate to download an ADE token from Apple
@@ -53,7 +54,7 @@ From the Microsoft Endpoint Manager admin center, you'll use the Enroll Program 
 
 Each profile will require specific Device Management Settings.  One of the first things you'll need to decide is whether the profile can enroll with an assigned user or not. Here, you can decide if you want to apply conditional access, whether the device should be supervised (which gives you more management options). Additionally, you can decide if you want to allow local management of the profile.
 
-Next, you can decide what the Setup Assistant will show to the user during the initial set up.  This is presented as a show or hide list.  If you select hide, the user won't see the option during the initial installation but can access it via the settings.
+Next, you can decide what the Setup Assistant will show to the user during the initial setup.  This is presented as a show or hide list.  If you select hide, the user won't see the option during the initial installation but can access it via the settings.
 
 :::image type="content" source="../media/5-setupassistantcustom.png" alt-text="Screenshot showing the Setup Assistance Customization options":::
 
