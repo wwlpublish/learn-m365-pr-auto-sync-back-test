@@ -11,10 +11,10 @@ metadata:
 title: Connect web services to Microsoft Teams with webhooks and Office 365 Connectors
 summary: "Webhooks and connectors are a simple way to connect your web services to channels and teams inside Microsoft Teams. Outgoing webhooks allow your users to send text messages from a channel to your web services. Connectors allow users to subscribe to receive notifications and messages from your web services. There are two types of connectors available in Microsoft Teams: incoming webhooks and Office 365 connectors. In this module, you’ll learn about webhooks and connectors and how to implement them in Microsoft Teams channels."
 abstract: |
-  By the end of this module, you will be able to:
+  By the end of this module, you'll be able to:
   - Demonstrate how to create and use an outgoing webhook for a Microsoft Teams channel
   - Demonstrate how to create and use an incoming webhook for a Microsoft Teams channel
-  - Demonstrate how to create, register and use an Office 365 Connector for Microsoft Teams
+  - Demonstrate how to create, register, and use an Office 365 Connector for Microsoft Teams
 prerequisites: |
   - Experience using Microsoft Teams at the intermediate level
   - Ability to program with JavaScript, TypeScript, and Node.js
