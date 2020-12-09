@@ -47,7 +47,7 @@ The `context` property defines where the messaging extension can be invoked.
 
 The `parameters` property defines the input fields displayed in the search experience when the messaging extension is invoked.
 
-If you include the property `initialRun` to `true`, your web service will receive the invoke message as soon as the search command is invoked. Otherwise, it will only receive a message when the search is executed. This property defaults to `false` if it is omitted.
+If you include the property `initialRun` to `true`, your web service will receive the invoke message as soon as the search command is invoked. Otherwise, it will only receive a message when the search is executed. This property defaults to `false` if its omitted.
 
 ### Respond to the search command
 
@@ -102,7 +102,7 @@ The `attachments` property is used when `type` is set to `result` and contains a
 
 If `type` is set to `message`, an additional property `text` can be used to set the plain text message displayed.
 
-When `type` is set to `auth` or `config`, use the `suggestedActions` property to suggest additional actions to perform.
+When `type` is set to `auth` or `config`, use the `suggestedActions` property to suggest additional actions to do.
 
 ## Summary
 

@@ -20,7 +20,7 @@ You'll use Node.js to create a custom Microsoft Teams app in this module. The ex
 - NPM (installed with Node.js) - v6.\* (or higher)
 - [Gulp](https://gulpjs.com/) - v4.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.15.0 (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.16.0 (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
@@ -145,11 +145,12 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project?**: Planet Messaging
 - **Your (company) name? (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: v1.6
+- **Which manifest version would you like to use?**: v1.8
 - **Enter your Microsoft Partner Id, if you have one?**: (Leave blank to skip)
 - **What features do you want to add to your project?**: *(uncheck the default option **A Tab** using the <kbd>space</kbd> key and press <kbd>enter</kbd>)*
-- **Would you like show a loading indicator when your app/tab loads?**: No
 - **The URL where you will host this solution?**: (Accept the default option)
+- **Would you like show a loading indicator when your app/tab loads?**: No
+- **Would you like personal apps to be rendered without a tab header-bar?** No
 - **Would you like to include Test framework and initial tests?**: No
 - **Would you like to use Azure Applications Insights for telemetry?**: No
 
@@ -160,7 +161,7 @@ After answering the generator's questions, the generator will create the scaffol
 
 ### Add a bot to the project
 
-In this section, you will manually add a bot to the project.
+In this section, you'll manually add a bot to the project.
 
 Create a new folder **planetBot** in the **./src/app** folder.
 
@@ -261,15 +262,11 @@ The last step to configure your project to host a messaging extension is to add 
 
 Locate and open the **./src/manifest/manifest.json**.
 
-Locate the property `$schema`. Change its value to **https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json**
-
-Locate the property `manifestVersion`. Change its value to **1.7**.
-
 Locate the property `version`. Change its value to **1.0.0**.
 
 Locate the property `id`. Change its value to match the GUID of the Azure AD app that was created when creating the bot in the Azure portal.
 
-Locate the property `composeExtensions`. Add a new action command messaging extension to the collection of extensions registered with this Microsoft Teams app by updating the `composeExtensions` property the following JSON. This code will add our action command to the compose box and the action command in a message when it is installed.
+Locate the property `composeExtensions`. Add a new action command messaging extension to the collection of extensions registered with this Microsoft Teams app by updating the `composeExtensions` property the following JSON. This code will add our action command to the compose box and the action command in a message when its installed.
 
 ```json
 "composeExtensions": [
@@ -298,7 +295,7 @@ Locate the property `composeExtensions`. Add a new action command messaging exte
 
 At this point, your project is configured to host a messaging extension and your Microsoft Teams app has a single action command registered. Now you can code the action command.
 
-## Update the Teams SDK and gulp configuration
+## Update the Teams SDK
 
 Run the npm command to install the latest version of the SDK
 
@@ -306,18 +303,9 @@ Run the npm command to install the latest version of the SDK
 npm install @microsoft/teams-js -S
 ```
 
-Open the `gulp.config.js` file in the root folder of the project. Add the following to the **SCHEMAS** property.
-
-```json
-{
-  version: "1.7",
-  schema: "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json"
-}
-```
-
 ## Code the messaging extension
 
-In this section, you will code the action command for the messaging extension. Your action command, when triggered, will present the user with a modal dialog where they can select a planet from our solar system. The modal dialog is implemented using an Adaptive Card. After submitting the dialog, the action command will use another adaptive card to add details about the selected planet.
+In this section, you'll code the action command for the messaging extension. Your action command, when triggered, will present the user with a modal dialog where they can select a planet from our solar system. The modal dialog is implemented using an Adaptive Card. After submitting the dialog, the action command will use another adaptive card to add details about the selected planet.
 
 ### Add a data set of planet details
 
@@ -719,7 +707,7 @@ Using the app bar navigation menu, select the **More added apps** button. Then s
 
 In the file dialog that appears, select the Microsoft Teams package in your project. This app package is a ZIP file that can be found in the project's **./package** folder.
 
-Once the package is uploaded, Microsoft Teams will display a summary of the app. Here you can see some "todo" items to address. *None of these "todo" items are important to this exercise, so you will leave them as is.*
+Once the package is uploaded, Microsoft Teams will display a summary of the app. Here you can see some "todo" items to address. *None of these "todo" items are important to this exercise, so you'll leave them as is.*
 
 ![Screenshot of Microsoft Teams app](../media/03-test-03.png)
 
