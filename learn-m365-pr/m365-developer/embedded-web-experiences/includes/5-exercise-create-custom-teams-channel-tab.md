@@ -37,19 +37,6 @@ Run the npm command to install the latest version of the SDK
 npm i @microsoft/teams-js
 ```
 
-Locate and open the `manifest.json` file in the `manifest`  folder of the project.
-- Change the `$schema` property to **https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json**
-- Change the `manifestVersion` property to **1.7**.
-
-Open the `gulp.config.js` file in the root folder of the project. Add the following to the **SCHEMAS** property.
-
-```json
-{
-  version: "1.7",
-  schema: "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json"
-}
-```
-
 ## Test the channel tab
 
 Before you customize the tab, let's test the tab to see the experience for testing.
@@ -111,7 +98,9 @@ Update the `import` statements in this file to include the components used in th
       Header,
       Input,
       ThemePrepared,
-      themes,
+      teamsTheme,
+      teamsDarkTheme,
+      teamsHighContrastTheme,
       DropdownProps,
       Dropdown
     } from "@fluentui/react-northstar";
@@ -127,18 +116,18 @@ mathOperator: string;
 Add the following method to the `ConfigMathTabConfig` class that will update the component state to match the currently selected Microsoft Teams client theme:
 
 ```typescript
-private updateComponentTheme = (teamsTheme: string = "default"): void => {
+private updateComponentTheme = (currentThemeName: string = "default"): void => {
   let componentTheme: ThemePrepared;
 
-  switch (teamsTheme) {
+  switch (currentThemeName) {
     case "default":
-      componentTheme = themes.teams;
+      componentTheme = teamsTheme;
       break;
     case "dark":
-      componentTheme = themes.teamsDark;
+      componentTheme = teamsDarkTheme;
       break;
     case "contrast":
-      componentTheme = themes.teamsHighContrast;
+      componentTheme = teamsHighContrastTheme;
       break;
     default:
       componentTheme = themes.teams;
@@ -260,7 +249,9 @@ import {
   Button,
   Header,
   ThemePrepared,
-  themes,
+  teamsTheme,
+  teamsDarkTheme,
+  teamsHighContrastTheme,
   Input
 } from "@fluentui/react-northstar";
 ```
@@ -278,21 +269,21 @@ result: string;
 Add the following method to the `ConfigMathTab` class that will update the component state to match the currently selected Microsoft Teams client theme:
 
 ```typescript
-private updateComponentTheme = (teamsTheme: string = "default"): void => {
+private updateComponentTheme = (currentThemeName: string = "default"): void => {
   let componentTheme: ThemePrepared;
 
-  switch (teamsTheme) {
+  switch (currentThemeName) {
     case "default":
-      componentTheme = themes.teams;
+      componentTheme = teamsTheme;
       break;
     case "dark":
-      componentTheme = themes.teamsDark;
+      componentTheme = teamsDarkTheme;
       break;
     case "contrast":
-      componentTheme = themes.teamsHighContrast;
+      componentTheme = teamsHighContrastTheme;
       break;
     default:
-      componentTheme = themes.teams;
+      componentTheme = teamsTheme;
       break;
   }
   // update the state
@@ -346,7 +337,7 @@ this.setState(Object.assign({}, this.state, {
 }));
 ```
 
-Add the following event handlers to the `ConfigMathTab` class. These event handlers will update the state with the values from the controls and perform the calculation of the two numbers by using the operator specified on the configuration page.
+Add the following event handlers to the `ConfigMathTab` class. These event handlers will update the state with the values from the controls and do the calculation of the two numbers by using the operator specified on the configuration page.
 
 ```typescript
 private handleOnChangedOperandA = (event): void => {
@@ -388,7 +379,7 @@ private handleOperandChange = (): void => {
 
 ### Implement the channel page user interface
 
-Locate the `render()` method in the `ConfigMathTab` class. Replace the existing method implementation with the following code. This new code adds two input boxes and a button to the page. When the button is selected, it performs the math operation selected on the configuration page to the two values and displays the results.
+Locate the `render()` method in the `ConfigMathTab` class. Replace the existing method implementation with the following code. This new code adds two input boxes and a button to the page. When the button is selected, it does the math operation selected on the configuration page to the two values and displays the results.
 
 ```typescript
 public render() {

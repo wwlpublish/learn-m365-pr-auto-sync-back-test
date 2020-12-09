@@ -8,7 +8,7 @@ For the Office 365 tenant, follow the instructions in [Microsoft Teams: Prepare 
 
 Microsoft Teams must be configured to enable custom apps and allow custom apps to be uploaded to your tenant to build custom apps for Microsoft Teams. Follow the instructions in "Prepare your Office 365 tenant" mentioned previously.
 
-You'll use Node.js to create custom Microsoft Teams tabs in this module. The exercises in this module assume you have the following tools installed on your developer workstation.
+You'll use Node.js to create custom Microsoft Teams tabs in this module. The exercises in this module assume you've the following tools installed on your developer workstation.
 
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
@@ -17,7 +17,7 @@ You'll use Node.js to create custom Microsoft Teams tabs in this module. The exe
 - NPM (installed with Node.js) - v6.\* (or higher)
 - [Gulp](https://gulpjs.com/) - v4.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.15.0 (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.16.0 (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 
 *You must have the minimum versions of these prerequisites installed on your workstation.
@@ -40,11 +40,12 @@ Yeoman starts and asks you a series of questions. Answer the questions with the 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project**: Learn MSTeams Tabs
 - **Your (company) name (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: v1.6
+- **Which manifest version would you like to use?**: v1.8
 - **Enter your Microsoft Partner ID, if you have one**: (Leave blank to skip)
 - **What features do you want to add to your project?**: A tab
 - **The URL where you will host this solution?**: (Accept the default option)
 - **Would you like to show a loading indicator when your app/tab loads?** No
+- **Would you like personal apps to be rendered without a tab header-bar?** No
 - **Would you like to include Test framework and initial tests?**: No
 - **Would you like to use Azure Applications Insights for telemetry?**: No
 - **Default Tab name (max 16 characters)**: LearnPersonalTab
@@ -56,25 +57,12 @@ Yeoman starts and asks you a series of questions. Answer the questions with the 
 
 After you answer the generator's questions, the generator creates the scaffolding for the project. The generator then runs `npm install` that downloads all the dependencies required by the project.
 
-### Ensure the project is using the latest version of Teams manifest & SDK
+### Ensure the project is using the latest version of Teams SDK
 
 Run the npm command to install the latest version of the SDK
 
 ```console
 npm i @microsoft/teams-js
-```
-
-Locate and open the `manifest.json` file in the `manifest`  folder of the project. 
-- Change the `$schema` property to **https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json**
-- Change the `manifestVersion` property to **1.7**.
-
-Open the `gulp.config.js` file in the root folder of the project. Add the following to the **SCHEMAS** property.
-
-```json
-{
-  version: "1.7",
-  schema: "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json"
-}
 ```
 
 ## Test the personal tab
@@ -163,7 +151,9 @@ import {
   Header,
   List,
   Alert,
-  themes,
+  teamsTheme,
+  teamsDarkTheme,
+  teamsHighContrastTheme,
   ThemePrepared,
   WindowMaximizeIcon,
   ExclamationTriangleIcon,
@@ -185,18 +175,18 @@ newTodoValue: string;
 Add the following method to the `LearnPersonalTab` class that updates the component state to the theme that matches the currently selected Microsoft Teams client theme:
 
 ```typescript
-private updateComponentTheme = (teamsTheme: string = "default"): void => {
+private updateComponentTheme = (currentThemeName: string = "default"): void => {
   let theme: ThemePrepared;
 
-  switch (teamsTheme) {
+  switch (currentThemeName) {
     case "default":
-      theme = themes.teams;
+      theme = teamsTheme;
       break;
     case "dark":
-      theme = themes.teamsDark;
+      theme = teamsDarkTheme;
       break;
     case "contrast":
-      theme = themes.teamsHighContrast;
+      theme = teamsHighContrastTheme;
       break;
     default:
       theme = themes.teams;
@@ -244,9 +234,9 @@ public render() {
         <Alert icon={<ExclamationTriangleIcon />} content={this.state.entityId} dismissible></Alert>
         <Text content="These are your to-do items:" size="medium"></Text>
         <List selectable>
-          { this.state.todoItems.map(todoItem => (
+          { this.state.todoItems.map((todoItem, i) => (
             <List.Item media={<WindowMaximizeIcon outline />}
-                       content={ todoItem }>
+                       content={ todoItem } index={i} >
             </List.Item> ))
           }
         </List>
@@ -313,7 +303,7 @@ Finally, locate the string `TODO: add new list item form here` in the `render()`
 
 ## Use App Studio to update the Microsoft Teams app manifest
 
-At this point, the app is complete. Recall from our initial test that when the app was added to Microsoft Teams, it had a few todo strings for the description of the app. While you could change these values in the project's **./src/manifest/manifest.json** file, you will use App Studio to make these changes.
+At this point, the app is complete. Recall from our initial test that when the app was added to Microsoft Teams, it had a few todo strings for the description of the app. While you could change these values in the project's **./src/manifest/manifest.json** file, you'll use App Studio to make these changes.
 
 First, build, and run the project by running the command **gulp ngrok-serve** in the command line like you did previously. This step also creates the Microsoft Teams app package.
 
@@ -329,7 +319,9 @@ Select the **Manifest editor** tab in App Studio, and then select **Import an ex
 
 Edit the app by selecting its tile, or use the menu in the upper-right corner for more options and select **Edit**.
 
-On the **App details** page, change the **Full name** of the app to **Learn Microsoft Teams Tabs**.
+On the **App details** page, change the **Full name** of the app to **Learn Teams Tabs**.
+
+On the **App details** page, change the **Version** to **1.0.0**.
 
 On the **App details** page, scroll down to the **Descriptions** section and enter the following values:
 
@@ -357,7 +349,7 @@ To download the project, select **Finish** > **Test and distribute** in the left
 
 ## Install and test the Microsoft Teams app
 
-In App Studio, select **Finish** > **Test and distribute** in the left pane in App Studio. Then select **Install**. Notice that the new names and descriptions are shown prior to installing the app.
+In App Studio, select **Finish** > **Test and distribute** in the left pane in App Studio. Then select **Install**. Notice that the new names and descriptions are shown before installing the app.
 
 ![Screenshot of installing the updated app](../media/03-yo-teams-16.png)
 
