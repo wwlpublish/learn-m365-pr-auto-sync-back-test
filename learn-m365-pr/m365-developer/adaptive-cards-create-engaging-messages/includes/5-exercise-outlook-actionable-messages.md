@@ -1,6 +1,6 @@
 In this exercise, you'll use Adaptive Cards to implement an engaging user experience with Outlook Actionable Messages.
 
-You'll create two separate projects during this exercise and register your app in two different portals in order to implement a complete solution:
+You'll create two separate projects during this exercise and register your app in two different portals to implement a complete solution:
 
 1. You'll start by first creating an Azure AD application that will be used to send an email with Microsoft Graph.
 1. Next, you'll use the Azure AD app in a .NET Core Console app that will send the email using Microsoft Graph that contains the adaptive card in the message.
@@ -49,7 +49,7 @@ In the **Redirect URIs** section of the **Configure Desktop + devices** panel, s
 
 ![Screenshot of the Configure Desktop + devices panel](../media/05-azure-ad-portal-new-app-02a.png)
 
-In the **Authentication** panel, scroll down to the **Default client type** section and set the toggle to **Yes**.
+In the **Authentication** panel, scroll down to the **Advanced settings** section and set the toggle for **Allow public client flows** to **Yes**.
 
 ![Screenshot of the Default client type section](../media/05-azure-ad-portal-new-app-03.png)
 
@@ -1046,7 +1046,7 @@ Open the **./.env** file and set the value of the `HOSTNAME` variable to the dyn
 
 Outlook will only render and send Adaptive Card submissions for services & users that are registered in the Actionable Email Developer Dashboard. To test the service, you need to register your service.
 
-Open a browser and navigate to the [Actionable Email Developer Dashboard https://aka.ms/publishoam)](https://aka.ms/publishoam). Sign in using a **Work or School Account**.
+Open a browser and navigate to the [Actionable Email Developer Dashboard](https://aka.ms/publishoam). Sign in using a **Work or School Account**.
 
 Select the **New Provider** link:
 

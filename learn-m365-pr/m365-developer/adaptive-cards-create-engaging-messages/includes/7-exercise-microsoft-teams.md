@@ -1,6 +1,6 @@
 In this exercise, you'll use Adaptive Cards to implement custom task modules in Microsoft Teams. Task modules are used as dialogs in Microsoft Teams to display or collect information from users.
 
-One is a standard HTML page that accepts the ID of a video on YouTube. When the task module is invoked, it will display the video using the YouTube embedded player in an HTML page. This task module will get the video ID from the query string, but it will not need to return any information back to the tab.
+One is a standard HTML page that accepts the ID of a video on YouTube. When the task module is invoked, it will display the video using the YouTube embedded player in an HTML page. This task module will get the video ID from the query string, but it won't need to return any information back to the tab.
 
 ![Screenshot of the YouTube Player task module](../media/07-test-rendered-task-module.png)
 
@@ -12,11 +12,11 @@ The other task module is implemented with an Adaptive Card. This task module ena
 
 Developing Microsoft Teams apps requires an Office 365 tenant, Microsoft Teams configured for development, and the necessary tools installed on your workstation.
 
-For the Office 365 tenant, follow the instructions on [Microsoft Teams: Prepare your Office 365 tenant](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-tenant) for obtaining a developer tenant if you don't currently have an Office 365 account. Make sure you have also enabled Microsoft Teams for your organization.
+For the Office 365 tenant, follow the instructions on [Microsoft Teams: Prepare your Office 365 tenant](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-tenant) for obtaining a developer tenant if you don't currently have an Office 365 account. Make sure you've also enabled Microsoft Teams for your organization.
 
 Microsoft Teams must be configured to enable custom apps and allow custom apps to be uploaded to your tenant to build custom apps for Microsoft Teams. Follow the instructions on the same **Prepare your Office 365 tenant** page mentioned above.
 
-You'll use Node.js to create custom Microsoft Teams tabs in this module. The exercises in this module assume you have the following tools installed on your developer workstation.
+You'll use Node.js to create custom Microsoft Teams tabs in this module. The exercises in this module assume you've the following tools installed on your developer workstation.
 
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
@@ -25,7 +25,7 @@ You'll use Node.js to create custom Microsoft Teams tabs in this module. The exe
 - NPM (installed with Node.js) - v6.\* (or higher)
 - [Gulp](https://gulpjs.com/) - v4.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.15\* (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.16\* (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
@@ -48,11 +48,12 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project?**: Adaptive Cards Task Modules
 - **Your (company) name? (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: v1.6
+- **Which manifest version would you like to use?**: v1.8
 - **Enter your Microsoft Partner ID, if you have one?**: (Leave blank to skip)
 - **What features do you want to add to your project?**: A Tab
 - **The URL where you will host this solution?**: (Accept the default option)
 - **Would you like to show a loading indicator when your app/tab loads?** No
+- **Would you like personal apps to be rendered without a tab header-bar?** No
 - **Would you like to include Test framework and initial tests?**: No
 - **Would you like to use Azure Applications Insights for telemetry?**: No
 - **Default Tab name? (max 16 characters)**: YouTube Player 
@@ -64,25 +65,12 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 
 After answering the generator's questions, the generator will create the scaffolding for the project and then execute `npm install` that downloads all the dependencies required by the project.
 
-### Ensure the project is using the latest version of Teams manifest & SDK
+### Ensure the project is using the latest version of Teams SDK
 
 Run the npm command to install the latest version of the SDK
 
 ```console
 npm i @microsoft/teams-js
-```
-
-Locate and open the `manifest.json` file in the `manifest`  folder of the project. 
-- Change the `$schema` property to **https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json**
-- Change the `manifestVersion` property to **1.7**.
-
-Open the `gulp.config.js` file in the root folder of the project. Add the following to the **SCHEMAS** property.
-
-```json
-{
-  version: "1.7",
-  schema: "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json"
-}
 ```
 
 ### Test the personal tab
@@ -122,11 +110,11 @@ Using the app bar navigation menu, select the **More added apps** button. Then s
 
 ![Screenshot of More added apps dialog in Microsoft Teams](../media/07-yo-teams-05.png)
 
-On the **Browse available apps and services** page, select **Upload a custom app** > **Upload for me or my teams**.
+On the **Apps** page, select **Upload a custom app** > **Upload for me or my teams**.
 
 In the file dialog that appears, select the Microsoft Teams package in your project. This app package is a ZIP file that can be found in the project's **./package** folder.
 
-Once the package is uploaded, Microsoft Teams will display a summary of the app. Here you can see some "todo" items to address. *None of these "todo" items are important to this exercise, so you will leave them as is.*
+Once the package is uploaded, Microsoft Teams will display a summary of the app. Here you can see some "todo" items to address. *None of these "todo" items are important to this exercise, so you'll leave them as is.*
 
 ![Screenshot of Microsoft Teams app](../media/07-yo-teams-06.png)
 
@@ -166,7 +154,9 @@ import {
   Button,
   Header,
   ThemePrepared,
-  themes,
+  teamsTheme,
+  teamsDarkTheme,
+  teamsHighContrastTheme,
   Input
 } from "@fluentui/react-northstar";
 ```
@@ -181,21 +171,21 @@ youTubeVideoId: string;
 Add the following method to the `YouTubePlayerTab` class that updates the component state to the theme that matches the currently selected Microsoft Teams client theme:
 
 ```typescript
-private updateComponentTheme = (teamsTheme: string = "default"): void => {
+private updateComponentTheme = (currentThemeName: string = "default"): void => {
   let theme: ThemePrepared;
 
-  switch (teamsTheme) {
+  switch (currentThemeName) {
     case "default":
-      theme = themes.teams;
+      theme = teamsThemes;
       break;
     case "dark":
-      theme = themes.teamsDark;
+      theme = teamsDarkTheme;
       break;
     case "contrast":
-      theme = themes.teamsHighContrast;
+      theme = teamsHighContrastTheme;
       break;
     default:
-      theme = themes.teams;
+      theme = teamsTheme;
       break;
   }
   // update the state
@@ -267,13 +257,15 @@ From the command line, navigate to the root folder for the project and execute t
 gulp ngrok-serve
 ```
 
-Refresh the Microsoft Teams interface and notice the new UI you've implemented for the tab:
+The ngrok subdomain will change when the ngrok process is restarted. Re-add the app to Teams, following the same steps as before:
+- Using the app bar navigation menu, select the **More added apps** button. Then select **More apps**.
+- On the **Apps** page, select **Upload a custom app** > **Upload for me or my teams**. In the file dialog that appears, select the Microsoft Teams package in your project. (This app package is a ZIP file that can be found in the project's **./package** folder.)
+- Once the package is uploaded, Microsoft Teams will display a summary of the app. Select the **Add** button to install the app, adding a new personal tab to your **More added apps** dialog.
+- Select the app to navigate to the new tab.
 
 ![Screenshot of the updated YouTube Player tab](../media/07-yo-teams-09.png)
 
 Now you can update the project and add task modules to the custom Microsoft Teams app.
-
-Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the console to stop the running process.
 
 ## Add video player task module
 
@@ -337,7 +329,7 @@ Implement the `<iframe>` embedded video player by adding the following JavaScrip
 
 Now, implement the task module in the personal tab.
 
-Locate and open the **./src/app/scripts/YouTubePlayerTab.tsx** file.
+Locate and open the **./src/app/scripts/YouTubePlayerTab/YouTubePlayerTab.tsx** file.
 
 First, add the following utility method to the `YouTubePlayerTab` class:
 
@@ -375,7 +367,7 @@ From the command line, navigate to the root folder for the project and execute t
 gulp ngrok-serve
 ```
 
-Refresh the Microsoft Teams interface. Select the **Show video** button. Microsoft Teams will load the video player task module with the specified video loaded in the embedded player:
+Re-add the app as above. Select the **Show video** button. Microsoft Teams will load the video player task module with the specified video loaded in the embedded player:
 
 ![Screenshot of the YouTube Player task module](../media/07-test-rendered-task-module.png)
 
