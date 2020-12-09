@@ -3,7 +3,7 @@ In this exercise, you'll learn how to use task modules with bots in Microsoft Te
 The first step will be to create a bot and add it to our existing Microsoft Teams app. You'll then extend the bot to support the existing task modules to display a video and change the selected video.
 
 > [!NOTE]
-> This exercise requires a valid Azure subscription in order to create a bot using Bot Framework. However, if you do not have an Azure subscription, you can use the legacy Bot Framework Registration Portal. Refer to the following docs for more information: [Create a bot for Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform/bots/how-to/create-a-bot-for-teams).
+> This exercise requires a valid Azure subscription in order to create a bot using Bot Framework. However, if you don't have an Azure subscription, you can use the legacy Bot Framework Registration Portal. Refer to the following docs for more information: [Create a bot for Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform/bots/how-to/create-a-bot-for-teams).
 
 > [!IMPORTANT]
 > This exercise assumes you have created the Microsoft Teams app project with the Yeoman generator that contains a personal tab from the previous exercise in this module. You'll update the project to add a new task module that uses an Adaptive Card.
@@ -126,7 +126,7 @@ Locate the section `"bots": [],` in the **manifest.json** file. Replace this emp
 ```json
 "bots": [
   {
-    "botId": "618ddfa7-7990-4bba-ab95-fc6e76d2c019",
+    "botId": "{{MICROSOFT_APP_ID}}",
     "scopes": [
       "personal"
     ],

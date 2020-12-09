@@ -12,7 +12,7 @@ The other task module is implemented using React, the same way custom tabs are i
 
 Developing Microsoft Teams apps requires an Office 365 tenant, Microsoft Teams configured for development, and the necessary tools installed on your workstation.
 
-For the Office 365 tenant, follow the instructions on [Microsoft Teams: Prepare your Office 365 tenant](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-tenant) for obtaining a developer tenant if you don't currently have an Office 365 account. Make sure you have also enabled Microsoft Teams for your organization.
+For the Office 365 tenant, follow the instructions on [Microsoft Teams: Prepare your Office 365 tenant](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-tenant) for obtaining a developer tenant if you don't currently have an Office 365 account. Make sure you've also enabled Microsoft Teams for your organization.
 
 Microsoft Teams must be configured to enable custom apps and allow custom apps to be uploaded to your tenant to build custom apps for Microsoft Teams. Follow the instructions on the same **Prepare your Office 365 tenant** page mentioned above.
 
@@ -25,7 +25,7 @@ You'll use Node.js to create custom Microsoft Teams tabs in this module. The exe
 - NPM (installed with Node.js) - v6.\* (or higher)
 - [Gulp](https://gulpjs.com/) - v4.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.15.0 (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.16.0 (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
@@ -48,11 +48,12 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project?**: YouTube Player
 - **Your (company) name? (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: v1.6
+- **Which manifest version would you like to use?**: v1.8
 - **Enter your Microsoft Partner ID, if you have one?**: (Leave blank to skip)
 - **What features do you want to add to your project?**: A Tab
 - **The URL where you will host this solution?**: (Accept the default option)
 - **Would you like to show a loading indicator when your app/tab loads?** No
+- **Would you like personal apps to be rendered without a tab header-bar?** No
 - **Would you like to include Test framework and initial tests?**: No
 - **Would you like to use Azure Applications Insights for telemetry?**: No
 - **Default Tab name? (max 16 characters)**: YouTube Player 1
@@ -63,28 +64,6 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 > Most of the answers to these questions can be changed after creating the project. For example, the URL where the project will be hosted isn't important at the time of creating or testing the project.
 
 After answering the generator's questions, the generator will create the scaffolding for the project and then execute `npm install` that downloads all the dependencies required by the project.
-
-### Ensure the project is using the latest version of Teams manifest & SDK
-
-Run the npm command to install the latest version of the SDK
-
-```console
-npm i @microsoft/teams-js
-```
-
-Locate and open the `manifest.json` file in the `manifest`  folder of the project. 
-- Change the `$schema` property to **https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json**
-- Change the `manifestVersion` property to **1.7**.
-
-Open the `gulp.config.js` file in the root folder of the project. Add the following to the **SCHEMAS** property.
-
-```json
-{
-  version: "1.7",
-  schema: "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json"
-}
-```
-
 
 ### Test the personal tab
 
@@ -167,7 +146,9 @@ import {
   Button,
   Header,
   ThemePrepared,
-  themes,
+  teamsTheme,
+  teamsDarkTheme,
+  teamsHighContrastTheme,
   Input
 } from "@fluentui/react-northstar";
 ```
@@ -182,21 +163,21 @@ youTubeVideoId?: string;
 Add the following method to the `YouTubePlayer1Tab` class that updates the component state to the theme that matches the currently selected Microsoft Teams client theme:
 
 ```typescript
-private updateComponentTheme = (teamsTheme: string = "default"): void => {
+private updateComponentTheme = (currentThemeName: string = "default"): void => {
   let theme: ThemePrepared;
 
-  switch (teamsTheme) {
+  switch (currentThemeName) {
     case "default":
-      theme = themes.teams;
+      theme = teamsTheme;
       break;
     case "dark":
-      theme = themes.teamsDark;
+      theme = teamsDarkTheme;
       break;
     case "contrast":
-      theme = themes.teamsHighContrast;
+      theme = teamsHighContrastTheme;
       break;
     default:
-      theme = themes.teams;
+      theme = teamsTheme;
       break;
   }
   // update the state
@@ -343,7 +324,7 @@ Implement the `<iframe>` embedded video player by adding the following JavaScrip
 
 Now, implement the task module in the personal tab.
 
-Locate and open the **./src/app/scripts/YouTubePlayer1Tab.tsx** file.
+Locate and open the **./src/app/scripts/youTubePlayer1Tab/YouTubePlayer1Tab.tsx** file.
 
 First, add the following utility method to the `YouTubePlayer1Tab` class:
 
@@ -467,7 +448,7 @@ Add the following code to the page. Most of this code mirrors what you would see
 
 ```typescript
 import * as React from "react";
-import { Provider, Flex, Text, Button, Header, ThemePrepared, themes, Input } from "@fluentui/react-northstar";
+import { Provider, Flex, Text, Button, Header, ThemePrepared, teamsTheme, teamsDarkTheme, teamsHighContrastTheme, Input } from "@fluentui/react-northstar";
 import TeamsBaseComponent, { ITeamsBaseComponentState } from "msteams-react-base-component";
 import * as microsoftTeams from "@microsoft/teams-js";
 
@@ -476,7 +457,7 @@ export interface IVideoSelectorTaskModuleState extends ITeamsBaseComponentState 
   youTubeVideoId?: string;
 }
 
-export interface IVideoSelectorTaskModuleProps extends {
+export interface IVideoSelectorTaskModuleProps {
 }
 
 export class VideoSelectorTaskModule extends TeamsBaseComponent<IVideoSelectorTaskModuleProps, IVideoSelectorTaskModuleState> {
@@ -497,21 +478,21 @@ export class VideoSelectorTaskModule extends TeamsBaseComponent<IVideoSelectorTa
     );
   }
 
-  private updateComponentTheme = (teamsTheme: string = "default"): void => {
+  private updateComponentTheme = (currentThemeName: string = "default"): void => {
     let theme: ThemePrepared;
 
-    switch (teamsTheme) {
+    switch (currentThemeName) {
       case "default":
-        theme = themes.teams;
+        theme = teamsTheme;
         break;
       case "dark":
-        theme = themes.teamsDark;
+        theme = teamsDarkTheme;
         break;
       case "contrast":
-        theme = themes.teamsHighContrast;
+        theme = teamsHighContrastTheme;
         break;
       default:
-        theme = themes.teams;
+        theme = teamsTheme;
         break;
     }
     // update the state
