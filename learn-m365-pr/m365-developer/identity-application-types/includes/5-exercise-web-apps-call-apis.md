@@ -37,7 +37,7 @@ On the **Authentication** page, select **Add a platform**. When the **Configure 
 
 ![Screenshot of the Configure platforms panel](../media/05-azure-ad-portal-new-app-details-02.png)
 
-In the **Configure Web** panel, add **https://localhost:3007** under **Redirect URIs**, add **https://localhost:3007/signout-oidc** under **Logout URL**, select both **Access tokens** and **ID tokens** under **Implicit grant**, and select **Configure**.
+In the **Configure Web** panel, add **https://localhost:3007** under **Redirect URIs**, add **https://localhost:3007/signout-oidc** under **Logout URL**, select **ID tokens** under **Implicit grant**, and select **Configure**.
 
 ![Screenshot of the Configure Web panel](../media/05-azure-ad-portal-new-app-details-03.png)
 
@@ -77,12 +77,12 @@ After creating the application, run the following commands to ensure your new pr
 
 ```console
 cd IdentityWeb
-dotnet add package Microsoft.Identity.Web --version 0.3.1-preview
-dotnet add package Microsoft.Identity.Web.UI --version 0.3.1-preview
+dotnet add package Microsoft.Identity.Web
+dotnet add package Microsoft.Identity.Web.UI
 dotnet add package Microsoft.Graph
 ```
 
-Open the root folder of the new ASP.NET core application using a text editor such as **Visual Studio Code**.
+Open the project folder of the new ASP.NET core application using a text editor such as **Visual Studio Code**.
 
 ### Update the web application's launch configuration
 
