@@ -8,7 +8,7 @@ Open a browser and navigate to the [Azure Active Directory admin center (https:/
 
 Select **Azure Active Directory** in the left-hand navigation.
 
-  ![Screenshot of the App registrations](../media/azure-ad-portal-home.png)
+  ![Screenshot of Azure AD Portal](../media/azure-ad-portal-home.png)
 
 Select **Manage > App registrations** in the left-hand navigation.
 
@@ -186,7 +186,7 @@ Open a browser and navigate to the [Azure Active Directory admin center (https:/
 
 Select **Users** in the left-hand navigation.
 
-![Screenshot of the App registrations](../media/azure-ad-portal-users.png)
+![Screenshot of the Azure AD Users screen](../media/azure-ad-portal-users.png)
 
 On the **Users - All Users** page, select **New User**.
 

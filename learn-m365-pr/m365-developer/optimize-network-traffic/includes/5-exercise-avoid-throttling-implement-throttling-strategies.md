@@ -265,7 +265,7 @@ Within one or two minutes, the application will display the results of the appli
 
 If your application ran fast enough, you should see some instances where Microsoft Graph returned the HTTP status code 429, indicated by the **TooManyRequests** entries:
 
-![Screenshot of .NET console application logging messages](../media/05-app-run-02.png)
+![Screenshot of .NET console application displaying TooManyRequests error](../media/05-app-run-02.png)
 
 In this case, the **messages** endpoint returned a `Retry-After` value of one (1) because the application displays messages on the console that it slept for one second.
 
@@ -372,7 +372,7 @@ dotnet run
 
 After entering the username and password for the current user, the application will write multiple log entries to the console like the following:
 
-![Screenshot of .NET console application logging messages](../media/05-app-run-03.png)
+![Screenshot of .NET console application logging email subjects](../media/05-app-run-03.png)
 
 The application will do the same thing as the **HttpClient** version of the application. However, one difference is that the application won't display the status code returned in the response to the requests or any of the *sleeping* log messages because the Microsoft Graph SDK handles all the retry logic internally.
 
