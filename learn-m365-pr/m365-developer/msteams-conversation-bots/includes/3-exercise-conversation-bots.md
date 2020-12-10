@@ -42,13 +42,13 @@ Select **Create a resource** in the left-hand navigation:
 
 Enter **resource group** in the **Search the marketplace** input box, and select **Resource group**.
 
-![Screenshot of creating a resource group](../media/03-azure-portal-02.png)
+![Screenshot of creating a resource group - create a resource menu item](../media/03-azure-portal-02.png)
 
 On the **Resource Group** page, select the **Create** button to create a new resource group.
 
 Select a valid subscription, enter a name for the resource group, and select the wanted region. _None of these choices will impact the bot registration and are up to you._
 
-![Screenshot of creating a resource group](../media/03-azure-portal-03.png)
+![Screenshot of creating a resource group - search for the resource group option](../media/03-azure-portal-03.png)
 
 Complete the wizard to create the resource group. Once Azure has completed the resource group creation process, navigate to the resource group.
 
@@ -76,7 +76,7 @@ In the **Bot Channels Registration** blade, enter the following values and then 
 
 Azure will start to provision the new resource. This will take a moment or two. Once it's finished, navigate to the bot resource in the resource group.
 
-![Screenshot of searching for the bot registration resource](../media/03-azure-bot-registration-03.png)
+![Screenshot of the created bot channels registration resource](../media/03-azure-bot-registration-03.png)
 
 ### Enable the Microsoft Teams channel for the bot
 
@@ -259,7 +259,7 @@ Using the app bar navigation menu, select the **More added apps** button. Then s
 
 Select the **Manifest editor** tab and then the **Create a new app** button:
 
-![Screenshot of App studio manifest editor screen](../media/03-app-studio-03.png)
+![Screenshot of App studio manifest editor screen - create new app](../media/03-app-studio-03.png)
 
 Provide a short name.
 
@@ -269,7 +269,7 @@ Provide a Package Name and Version.
 
 Provide a Short Description and Full Description.
 
-![Screenshot of App studio manifest editor screen](../media/03-app-studio-04.png)
+![Screenshot of App studio - app details screen](../media/03-app-studio-04.png)
 
 From the **(2) Capabilities** > **Bots** page, select **Set up** to add a bot to the manifest.
 
@@ -395,7 +395,7 @@ Select the **MentionMe** command, or manually type **mentionme** in the compose 
 
 After a few seconds, you should see the bot respond mentioning the user you are signed in with:
 
-![Screenshot of the installed Microsoft Teams app](../media/03-test-06.png)
+![Screenshot of the working Microsoft Teams app](../media/03-test-06.png)
 
 At this point, we have a working bot that is responding when it's mentioned.
 
