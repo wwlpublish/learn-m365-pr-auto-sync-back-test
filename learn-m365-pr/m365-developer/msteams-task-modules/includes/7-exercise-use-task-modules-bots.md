@@ -21,11 +21,11 @@ Open a browser and navigate to the [Azure portal](https://portal.azure.com). Sig
 
 Select **Create a resource** in the left-hand navigation:
 
-![Screenshot of the primary Azure navigation](../media/07-azure-portal-01.png)
+![Screenshot of the primary Azure navigation - create a resource menu option](../media/07-azure-portal-01.png)
 
 Enter **resource group** in the **Search the marketplace** input box, and select **Resource group**.
 
-![Screenshot of creating a resource group](../media/07-azure-portal-02.png)
+![Screenshot of creating a resource group - search for 'resource group'](../media/07-azure-portal-02.png)
 
 On the **Resource Group** page, select the **Create** button to create a new resource group.
 
@@ -37,11 +37,11 @@ Complete the wizard to create the resource group. Once Azure has completed the r
 
 From the resource group, select the **Add** or **Create resources** button.
 
-![Screenshot of creating a new resource](../media/07-azure-bot-registration-01.png)
+![Screenshot of creating a new resource - create a resource group](../media/07-azure-bot-registration-01.png)
 
 Enter **bot** in the **Search the marketplace** input box, and select **Bot Channels Registration** from the list of resources returned. Then select **Create** on the next page to start the process of registering a new bot resource:
 
-![Screenshot of searching for the bot registration resource](../media/07-azure-bot-registration-02.png)
+![Screenshot of searching for the bot registration resource - search for a bot resource](../media/07-azure-bot-registration-02.png)
 
 In the **Bot Channels Registration** blade, enter the following values and then select **Create**:
 
@@ -59,7 +59,7 @@ In the **Bot Channels Registration** blade, enter the following values and then 
 
 Azure will start to provision the new resource. This will take a moment or two. Once it's finished, navigate to the bot resource in the resource group.
 
-![Screenshot of searching for the bot registration resource](../media/07-azure-bot-registration-03.png)
+![Screenshot of searching for the bot registration resource - created Bot Channel registration resource](../media/07-azure-bot-registration-03.png)
 
 ### Enable the Microsoft Teams channel for the bot
 
@@ -233,7 +233,7 @@ Go back to the bot registration in the Azure portal.
 
 Select **Settings** from the left-hand navigation. Update the **Messaging endpoint** of the bot to match the ngrok URL. The resulting URL should be **https://{{REPLACE_THIS}}.ngrok.io/api/messages**.
 
-![Screenshot of the console with ngrok URL](../media/07-test-bot-02.png)
+![Screenshot of updating the messaging enpoint URL with the ngrok URL](../media/07-test-bot-02.png)
 
 Now you're ready to add the bot to Microsoft Teams. In the browser, navigate to **https://teams.microsoft.com** and sign in with the credentials of a Work and School account.
 

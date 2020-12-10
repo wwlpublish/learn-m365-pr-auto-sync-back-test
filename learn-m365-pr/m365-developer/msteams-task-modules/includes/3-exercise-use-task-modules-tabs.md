@@ -2,7 +2,7 @@ In this exercise, you'll learn the basics of task modules in Microsoft Teams and
 
 One is a standard HTML page that accepts the ID of a video on YouTube. When the task module is invoked, it will display the video using the YouTube embedded player. This task module will get the video ID from the query string, but it will not need to return any information back to the tab.
 
-![Screenshot of the YouTube Player task module](../media/03-yo-teams-10.png)
+![Screenshot of the YouTube Player task module loading a web page](../media/03-yo-teams-10.png)
 
 The other task module is implemented using React, the same way custom tabs are implemented using the Yeoman Generator for Microsoft Teams. This task module enables the user to specify the ID of the YouTube video to display. Once changed, when the user saves their changes, it will use the callback to close submit the new ID back to the tab.
 
@@ -87,11 +87,11 @@ This gulp task will run many other tasks all displayed within the command-line c
 
 Open a browser and navigate to the ngrok URL displayed in the console:
 
-![Screenshot of the local web app hosting the Teams tab project](../media/03-yo-teams-03.png)
+![Screenshot of the local web app hosting the Teams tab project with the homepage loaded](../media/03-yo-teams-03.png)
 
 Update the URL in the browser to load the tab created by the scaffolding process. Here you can see the page can determine that it isn't running within the Microsoft Teams client.
 
-![Screenshot of the local web app hosting the Teams tab project](../media/03-yo-teams-04.png)
+![Screenshot of the local web app hosting the Teams tab project with the tab loaded](../media/03-yo-teams-04.png)
 
 Now let's load the tab in Microsoft Teams. In the browser, navigate to **https://teams.microsoft.com** and sign in with the credentials of a Work and School account.
 
@@ -368,7 +368,7 @@ Upgrade the previously deployed Teams app with the updated app package.
 
 In the browser, navigate back to the tab in the Microsoft Teams interface. Select the **Show video** button. Microsoft Teams will load the video player task module with the specified video loaded in the embedded player:
 
-![Screenshot of the YouTube Player task module](../media/03-yo-teams-10.png)
+![Screenshot of the YouTube Player task module with a video loaded in the web page](../media/03-yo-teams-10.png)
 
 Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the console to stop the running process.
 

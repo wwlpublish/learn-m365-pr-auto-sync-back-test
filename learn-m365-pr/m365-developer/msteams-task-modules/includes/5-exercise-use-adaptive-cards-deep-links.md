@@ -191,7 +191,7 @@ In Microsoft teams, go to a channel, select the **Conversations** tab, and selec
 
 Enter a message to post to the channel. Select some of the text and use the **Link** feature to add the deep link to the message:
 
-![Screenshot of the new message experience in a Conversations tab](../media/05-test-03.png)
+![Screenshot of the new message experience in a Conversations tab - adding a link](../media/05-test-03.png)
 
 ![Screenshot of the new message experience in a Conversations tab](../media/05-test-04.png)
 
