@@ -4,7 +4,7 @@ In this exercise, you'll learn how to enable a site collection-scoped App Catalo
 
 Navigate to an existing site collection and select **Site Contents** from the left-hand navigation.
 
-In the set of lists on the **Site Contents** page, look for a library named **Apps for SharePoint**. If its present, you can skip to the next step of this exercise. Otherwise you'll need to create the site collection App Catalog.
+In the set of lists on the **Site Contents** page, look for a library named **Apps for SharePoint**. If it's present, you can skip to the next step of this exercise. Otherwise you'll need to create the site collection App Catalog.
 
 Depending on your development platform, create a new site collection App Catalog:
 
