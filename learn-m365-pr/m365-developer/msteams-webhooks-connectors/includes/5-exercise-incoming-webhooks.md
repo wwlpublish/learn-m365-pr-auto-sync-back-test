@@ -22,15 +22,15 @@ On the **Apps** page, search for the **incoming webhook** app and select it.
 
 Select the **Add to a team** button. On the next page, enter the name of a channel to add the webhook to, and select the **Set up a connector**:
 
-![Screenshot of the incoming webhook configuration screen](../media/05-test-04.png)
+![Screenshot of the incoming webhook configuration screen - step 1 - set up a connector](../media/05-test-04.png)
 
 On the **Incoming Webhook** configuration screen, enter the name **Dwarf Planet Details** and select the **Create** button (*you may need to scroll down in the dialog as the **Create** button isn't visible by default, as in the following screenshot*):
 
-![Screenshot of the incoming webhook configuration screen](../media/05-test-05.png)
+![Screenshot of the incoming webhook configuration screen - step 2 - name the connector](../media/05-test-05.png)
 
 After creating the incoming webhook, the dialog will add a new input box that contains the endpoint for you should post to. Copy this value:
 
-![Screenshot of the incoming webhook configuration screen](../media/05-test-06.png)
+![Screenshot of the incoming webhook configuration screen - step 3 - obtain connector endpoint](../media/05-test-06.png)
 
 ## Test the incoming webhook
 
