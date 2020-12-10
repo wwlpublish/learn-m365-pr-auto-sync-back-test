@@ -352,7 +352,7 @@ dotnet run
 
 After a moment, the app will display a list of all the specified user's emails obtained using the Microsoft Graph .NET SDK.
 
-![Screenshot of the All Users page in the Azure AD admin center](../media/07-test-02.png)
+![Screenshot of the All Users page in the console](../media/07-test-02.png)
 
 ## Summary
 
