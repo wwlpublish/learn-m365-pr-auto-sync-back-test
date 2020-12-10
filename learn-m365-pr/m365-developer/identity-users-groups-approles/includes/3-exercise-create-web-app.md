@@ -54,11 +54,11 @@ After creating the application, run the following commands to ensure your new pr
 
 ```console
 cd UserGroupRole
-dotnet add package Microsoft.Identity.Web --version 0.3.1-preview
-dotnet add package Microsoft.Identity.Web.UI --version 0.3.1-preview
+dotnet add package Microsoft.Identity.Web
+dotnet add package Microsoft.Identity.Web.UI
 ```
 
-Open the root folder of the new ASP.NET core application using a text editor such as Visual Studio Code.
+Open the root folder of the new ASP.NET core application using a text editor such as **Visual Studio Code**. When a dialog box asks if you want to add required assets to the project, select **Yes**.
 
 ### Configure the web application with the Azure AD application
 
@@ -157,6 +157,12 @@ Add the following code to the end of the file:
 ```
 
 #### Build and test the web app
+
+Run the following command to trust the .NET Core HTTPS development certificate:
+
+```console
+dotnet dev-certs https --trust
+```
 
 Run the following command in a command prompt to compile the application:
 
