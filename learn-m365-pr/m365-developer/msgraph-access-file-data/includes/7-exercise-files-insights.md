@@ -11,7 +11,7 @@ Open a browser and navigate to the [Azure Active Directory admin center (https:/
 
 Select **Azure Active Directory** in the left-hand navigation.
 
-  ![Screenshot of the App registrations](../media/azure-ad-portal-home-appreg-01.png)
+  ![Screenshot of the App registrations](../media/azure-ad-portal-home.png)
 
 Select **Manage > App registrations** in the left-hand navigation.
 
@@ -21,7 +21,7 @@ Select **API Permissions** in the left-hand navigation panel.
 
 Select the **Add a permission** button.
 
-![Screenshot of the Add permission button](../media/azure-ad-portal-new-app-permissions-07-02.png)
+![Screenshot of the Add permission button](../media/07-azure-ad-portal-new-app-permissions-02.png)
 
 In the **Request API permissions** panel that appears, select **Microsoft Graph** from the **Microsoft APIs** tab.
 
@@ -31,7 +31,7 @@ When prompted for the type of permission, select **Delegated permissions**.
 
 Enter **Sites.R** in the **Select permissions** search box and select the **Sites.Read.All** permission, followed by the **Add permission** button at the bottom of the panel.
 
-![Screenshot of the Files.ReadWrite permission in the Request API permissions panel](../media/azure-ad-portal-new-app-permissions-07-04.png)
+![Screenshot of the Files.ReadWrite permission in the Request API permissions panel](../media/07-azure-ad-portal-new-app-permissions-04.png)
 
 In the **Configured Permissions** panel, select the button **Grant admin consent for [tenant]**, and then select the **Yes** button in the consent dialog to grant all users in your organization this permission.
 
@@ -86,7 +86,7 @@ dotnet run
 
 After entering the username and password of a user, the console app will display a list of files trending around the current user. Notice they're stored in descending order by their relative weight property:
 
-![Screenshot of the console application displaying the files trending around the currently signed in user](../media/app-run-07-01.png)
+![Screenshot of the console application displaying the files trending around the currently signed in user](../media/07-app-run-01.png)
 
 ## List files accessed and used by the current user
 
@@ -123,7 +123,7 @@ dotnet run
 
 After entering the username and password of a user, the console app will display a list of files recently accessed and modified by the current user:
 
-![Screenshot of the console application displaying recently used files](../media/app-run-07-02.png)
+![Screenshot of the console application displaying recently used files](../media/07-app-run-02.png)
 
 ## Summary
 
