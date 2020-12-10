@@ -25,7 +25,7 @@ Change the `version` property in the **package.json** file to `0.0.2` and save y
 
 Build and bundle the project to see the new version. Do this by executing the following two commands in the root of the project:
 
-```shell
+```console
 gulp build
 
 gulp bundle --ship
@@ -39,7 +39,7 @@ Notice the `version` property of the component's manifest is now `0.0.2`.
 
 Execute the following in the command line from the root of the SharePoint project:
 
-```shell
+```console
 yo @microsoft/sharepoint
 ```
 
@@ -56,19 +56,19 @@ Use the following to complete the prompt that is displayed (*if additional optio
 
 Build the project by running the following command on the command line from the root of the project:
 
-```shell
+```console
 gulp build
 ```
 
 Next, create a production bundle of the project by running the following command on the command line from the root of the project:
 
-```shell
+```console
 gulp bundle --ship
 ```
 
 Finally, create a deployment package of the project by running the following command on the command line from the root of the project:
 
-```shell
+```console
 gulp package-solution --ship
 ```
 
@@ -98,9 +98,9 @@ Select the web part icon button to open the list of available web parts:
 
 ![Screenshot of adding the web part to the page](../media/03-deploy-step-05.png)
 
-Select the expand icon, a diagonal line with two arrows in the top right corner, to expand the web part toolbox.
+Select the expand icon, a diagonal line with two arrows in the top-right corner, to expand the web part toolbox.
 
-Scroll to the bottom and notice the new web part is not listed. This is because web parts are added to the web part gallery by activating a feature.
+Scroll to the bottom and notice the new web part isn't listed. This is because web parts are added to the web part gallery by activating a feature.
 
 > [!NOTE]
 > When the package was first deployed, the features within it were activated. Without versioning the package, SharePoint does not expose the user interface needed to activate or reactivate any new or existing features.
@@ -113,19 +113,19 @@ Within the `solution` object, update the `version` property to `1.2.0.0`.
 
 Build the project by running the following command on the command line from the root of the project:
 
-```shell
+```console
 gulp build
 ```
 
 Next, create a production bundle of the project by running the following command on the command line from the root of the project:
 
-```shell
+```console
 gulp bundle --ship
 ```
 
 Finally, create a deployment package of the project by running the following command on the command line from the root of the project:
 
-```shell
+```console
 gulp package-solution --ship
 ```
 
@@ -161,15 +161,15 @@ Select the **About** link.
 
 On the app details page, notice there's a message that a new version of the app is available and the version is 1.2.0.0.
 
-![Screenshot of the installed app tile](../media/07-update-package-step-03.png)
+![Screenshot of the installed app - Get It button](../media/07-update-package-step-03.png)
 
 Select the **Get It** button to upgrade the application.
 
 SharePoint will take you back to the **Site Contents** page. Wait for the app to complete its upgrade process and verify the new version has been installed:
 
-![Screenshot of the upgraded app tile](../media/07-update-package-step-04.png)
+![Screenshot of the upgraded app - Site Contents page](../media/07-update-package-step-04.png)
 
-Now, when you go back to a page to add the new web part, you will see the second web part show up in the web part toolbox as shown in the following image:
+Now, when you go back to a page to add the new web part, you'll see the second web part show up in the web part toolbox as shown in the following image:
 
 ![Screenshot of the second webpart in the toolbox](../media/07-update-package-step-05.png)
 

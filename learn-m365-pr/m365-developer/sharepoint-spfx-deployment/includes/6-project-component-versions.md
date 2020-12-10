@@ -26,7 +26,7 @@ By setting the version number in each component manifest, different components i
 
 The version number for the package is defined in the **./config/package-solution.json** file. SharePoint package version is displayed in the tenant or site collection App Catalog:
 
-![Screenshot of the SharePoint package version](../media/06-package-version.png)
+![Screenshot of the SharePoint package version](../media/07-update-package-step-01.png)
 
 If you deploy an updated SharePoint package without changing the version numbers, SharePoint will still update the existing deployed component runtime files, including the JavaScript bundles.
 
