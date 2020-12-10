@@ -21,7 +21,7 @@ Application customizers enable you to do two things:
 - add script to all pages in a site collection
 - set the HTML on two well known `<div>` elements on the page that serve as headers and footers
 
-![Screenshot of application customizer placeholders](../media/02-application-customizers-preview.png)
+![Screenshot of application customizer placeholders](../media/03-application-customizer-test-placeholders.png)
 
 ### Field customizer
 
@@ -29,7 +29,7 @@ The next type of extension is the field customizer. This extension is intended t
 
 Field customizers enable you to define the HTML within a cell in a list view. In the following screenshot, notice the **Percent Complete** column is rendered with custom colored bars instead of plain text:
 
-![Screenshot of the field customizer](../media/02-field-customizer-preview.png)
+![Screenshot of the field customizer](../media/05-field-customizer-test.png)
 
 ### Command sets
 
@@ -37,7 +37,7 @@ The last type of extension is the command set. This extension is intended to be 
 
 Command sets enable you to add buttons to list and library toolbars or to the context menu of items within a list.
 
-![Screenshot of the command set](../media/02-command-sets-preview.png)
+![Screenshot of the command set](../media/07-command-set-test-01.png)
 
 ## Project structure
 
@@ -75,7 +75,7 @@ To test an extension, you include special query string parameters to the URL of 
 
 The Yeoman generator for the SharePoint Framework simplifies this process fo you by creating a configuration that the **gulp serve** task uses to create the debugging URL. These settings are defined in the **./config/serve.json** file.
 
-When SharePoint receives the request with these query string parameters, it will first prompt the user to confirm they want to load debugging scripts. SharePoint does this same technique could be used in a phishing attack. Therefore, you should only load the debugging scripts if you're sure you started the request.
+When SharePoint receives the request with these query string parameters, it will first prompt the user to confirm they want to load debugging scripts. SharePoint does this same technique could be used in a phishing attack. So, you should only load the debugging scripts if you're sure you started the request.
 
 ![Screenshot of the debugging scripts confirmation](../media/app-customizer-load-debug-scripts.png)
 
@@ -89,7 +89,7 @@ When it comes to deployment, the difference between web parts and extensions is 
 
 When the SharePoint Framework build process creates the SharePoint package, it generates the **\*.webpart** file and SharePoint Feature that's used to provision the **\*.webpart** file to the Web Part Gallery. This is done using the component's manifest and other various project configuration files.
 
-However with extensions, these files must be manually modified prior to packaging to get the right settings.
+However with extensions, these files must be manually modified before packaging to get the right settings.
 
 ### Tenant wide deployment
 

@@ -10,7 +10,7 @@ A field customizer enables a developer to define through code how a specific col
 - make renderings interactive
 - add React component to a field rendering.
 
-![Screenshot of the field customizer](../media/field-customizer-test.png)
+![Screenshot of the field customizer](../media/05-field-customizer-test.png)
 
 ## Field customizer class
 
@@ -26,7 +26,7 @@ export interface IPercentCompleteFieldCustomizerProperties {
 
 The extension is implemented in a class that extends the `BaseFieldCustomizer` class. This class contains three methods you can override:
 
-The `onInit()` method returns a `Promise` object and can be used to perform any initialization code that needs to be completed before rendering the field customizer. Once the returned promise resolves, the SharePoint Framework will call the `onRenderCell()` method.
+The `onInit()` method returns a `Promise` object and can be used to do any initialization code that needs to be completed before rendering the field customizer. Once the returned promise resolves, the SharePoint Framework will call the `onRenderCell()` method.
 
 The `onRenderCell()` method receives a single parameter of type `IFieldCustomizerCellEventParameters` that developers can use to obtain the value of the field for the current list item and modify the contents of the cell associated with the field.
 
@@ -73,7 +73,7 @@ To test a field customizer extension, you include special query string parameter
 
 The Yeoman generator for the SharePoint Framework simplifies this process fo you by creating a configuration that the **gulp serve** task uses to create the debugging URL. These settings are defined in the **./config/serve.json** file.
 
-When SharePoint receives the request with these query string parameters, it will first prompt the user to confirm they want to load debugging scripts. SharePoint does this same technique could be used in a phishing attack. Therefore, you should only load the debugging scripts if you're sure you started the request.
+When SharePoint receives the request with these query string parameters, it will first prompt the user to confirm they want to load debugging scripts. SharePoint does this same technique could be used in a phishing attack. So, you should only load the debugging scripts if you're sure you started the request.
 
 When testing a field customizer using the query string option, take note of the `InternalFieldName` property in the **serve.json** file. You must update that property to match the name of the column's internal name property that you want to map the field customizer to during testing.
 
