@@ -99,7 +99,7 @@ Open a browser and navigate to the ngrok URL displayed in the console:
 
 Update the URL in the browser to load the tab created by the scaffolding process. Here you can see the page can determine that it isn't running within the Microsoft Teams client.
 
-![Screenshot of the local web app hosting the Teams tab project](../media/07-yo-teams-04.png)
+![Screenshot of the local web app hosting the Teams tab project, display the tab](../media/07-yo-teams-04.png)
 
 Now let's load the tab in Microsoft Teams. In the browser, navigate to **https://teams.microsoft.com** and sign in with the credentials of a Work and School account.
 
