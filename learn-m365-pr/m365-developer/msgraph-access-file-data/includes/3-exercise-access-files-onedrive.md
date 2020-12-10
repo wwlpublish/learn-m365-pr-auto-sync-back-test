@@ -410,7 +410,7 @@ dotnet run
 
 After entering the username and password of a user, you'll see the console app write a message where the file was saved to your local machine.
 
-![Screenshot of the console application showing a specific file from the user's OneDrive](../media/03-app-run-03.png)
+![Screenshot of the console application showing the saved file from the user's OneDrive](../media/03-app-run-03.png)
 
 ## Summary
 

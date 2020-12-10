@@ -89,11 +89,11 @@ dotnet run
 
 After entering the username and password of a user, the path to the new file will be written to the console:
 
-![Screenshot of the console application showing a specific file from the user's OneDrive](../media/05-app-run-01.png)
+![Screenshot of the console application showing the uploaded file from the user's OneDrive](../media/05-app-run-01.png)
 
 Open a browser and navigate to the URL written to the console, except omit the filename from the URL. After signing in using the same credentials used when testing the console app, you'll see the file listed in the user's OneDrive:
 
-![Screenshot of the user's OneDrive account](../media/05-app-run-02.png)
+![Screenshot of the user's OneDrive account with 'smallfile.txt' highlighted](../media/05-app-run-02.png)
 
 ## Update .NET Core console application to upload a large file
 
@@ -173,11 +173,11 @@ dotnet run
 
 After entering the username and password of a user, the console app will write the progress of uploading the file until it's complete:
 
-![Screenshot of the console application showing a specific file from the user's OneDrive](../media/05-app-run-03.png)
+![Screenshot of the console application showing uploading files to the user's OneDrive](../media/05-app-run-03.png)
 
 Open a browser and navigate to the user's OneDrive account to see the large file that has been uploaded:
 
-![Screenshot of the user's OneDrive account](../media/05-app-run-04.png)
+![Screenshot of the user's OneDrive account with 'largefile.zip' highlighted](../media/05-app-run-04.png)
 
 ## Summary
 
