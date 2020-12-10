@@ -26,7 +26,7 @@ On the **Register an application** page, set the values as follows:
 - **Name**: Hello ASPNET Core Identity 01
 - **Supported account types**: Accounts in this organizational directory only (Single tenant)
 
-    ![Screenshot of the Register an application page](../media/05-azure-ad-portal-new-app-01.png)
+    ![Screenshot of the Register an application page - select single tenant](../media/05-azure-ad-portal-new-app-01.png)
 
 Select **Register** to create the application.
 
@@ -125,7 +125,7 @@ Open a browser and navigate to the url **https://localhost:5001**. The web appli
 
 Sign in using a Work and School account from your Azure AD directory. Azure AD will redirect you back to the web application. Notice some of the details from the claims included in the ID token.
 
-![Screenshot of the web application with user details](../media/05-test-01.png)
+![Screenshot of the web application with user details - single tenant config](../media/05-test-01.png)
 
 Take special note of the **tenantid** and **upn** claim. These claims indicate the ID of the Azure AD directory and ID of the user that signed in. Make a note of these values to compare them to other options in a minute.
 
@@ -148,7 +148,7 @@ Create a second Azure AD application using the same process outlined previously 
 - **Name**: Hello ASPNET Core Identity 02
 - **Supported account types**: Accounts in any organizational directory only (Any Azure AD directory - Multitenant)
 
-    ![Screenshot of the Register an application page](../media/05-azure-ad-portal-new-app-02.png)
+    ![Screenshot of the Register an application page - select multitenant](../media/05-azure-ad-portal-new-app-02.png)
 
 Select **Register** to create the application.
 
@@ -222,7 +222,7 @@ Open a browser and navigate to the url **https://localhost:5001**. The web appli
 
 Sign in using a Work and School account from your Azure AD directory. Azure AD will redirect you back to the web application. Notice some of the details from the claims included in the ID token.
 
-![Screenshot of the web application with user details](../media/05-test-05.png)
+![Screenshot of the web application with user details - multitenant config - same org](../media/05-test-05.png)
 
 Take special note of the **tenantid** and **upn** claim. These indicate the ID of the Azure AD directory and ID of the user that signed in. Make a note of these values to compare them to other options in a minute.
 
@@ -236,7 +236,7 @@ Select **Accept**.
 
 Notice the web application's page loads with different claims, specifically for the **tenantid** and **upn** claim. This indicates the user is not from the current directory where the Azure AD application is registered:
 
-![Screenshot of the web application with user details](../media/05-test-04.png)
+![Screenshot of the web application with user details - multitenant config - different org](../media/05-test-04.png)
 
 Stop the web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the command prompt.
 
