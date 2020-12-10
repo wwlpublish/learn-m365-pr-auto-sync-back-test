@@ -21,7 +21,7 @@ On the **Register an application** page, set the values as follows:
 
 Select **Register** to create the application.
 
-On the **Product Catalog API** page, copy the values **Application (client) ID** and **Directory (tenant) ID**; you'll need these values later in this exercise.
+On the **Product Catalog API** page, copy the values **Application (client) ID** and **Directory (tenant) ID**; you'll need the value of the tenant ID later in this exercise and you'll need the value of the client ID in all of the exercises in this module.
 
 ![Screenshot of the application ID of the new app registration](../media/03-azure-ad-portal-new-app-details.png)
 
@@ -74,7 +74,7 @@ After creating the application, run the following commands to ensure your new pr
 
 ```console
 cd ProductCatalogWeb
-dotnet add package Microsoft.Identity.Web --version 0.3.1-preview
+dotnet add package Microsoft.Identity.Web
 ```
 
 Open the scaffolded project folder, which is named **ProductCatalog** in **Visual Studio Code**. When a dialog box asks if you want to add required assets to the project, select **Yes**.
