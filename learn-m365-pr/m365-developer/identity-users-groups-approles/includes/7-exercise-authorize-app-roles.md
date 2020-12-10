@@ -86,13 +86,13 @@ On the **Enterprise applications** page, locate the application registration tha
 
 On the enterprise application overview pane, select **Users and Groups**.
 
-![Screenshot of the Enterprise Applications](../media/07-azure-ad-portal-entapp-users.png)
+![Screenshot of the Users and Groups](../media/07-azure-ad-portal-entapp-users.png)
 
 Select **Add User**. On the add **Assignment** pane, select **Users and groups**. Select one or more users or groups from the list and then select the **Select** button at the bottom of the pane.
 
 On the **Add Assignment** pane, select **Role**. Select the **ProductAdministrator** role to apply to the selected users or groups, then select **Select** at the bottom of the pane.
 
-![Screenshot of the Enterprise Applications](../media/07-app-roles-add-roles-users.png)
+![Screenshot of adding an assignment to the User Group Role page](../media/07-app-roles-add-roles-users.png)
 
 Select **Assign** at the bottom of the pane. The assigned users or groups have the permissions defined by the selected role for this enterprise app.
 
