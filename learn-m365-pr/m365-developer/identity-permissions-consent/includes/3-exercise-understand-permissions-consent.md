@@ -300,7 +300,7 @@ On the **Request API Permissions** page, select **Microsoft APIs**, **Microsoft 
 
 In the search box in the **Select permissions** section, enter **Mail.R**, select the permission **Mail.Read** permission, and then select **Add permissions**.
 
-  ![Screenshot of selecting Microsoft Graph Delegated permissions](../media/03-azure-ad-portal-new-app-permissions-03.png)
+  ![Screenshot of selecting Microsoft Graph Delegated permissions Mail.Read](../media/03-azure-ad-portal-new-app-permissions-03.png)
 
 ## Update the web page with the Azure AD application details
 
@@ -330,7 +330,7 @@ Depending on the browser, you're using, a popup window will load or the page wil
 
 Sign in using a **Work or School Account** with a user *who isn't assigned* the global administrator role. On the next screen, **don't select** the **Accept** button. Instead, examine the dialog:
 
-![Screenshot of Azure AD popup sign-in experience](../media/03-test-02.png)
+![Screenshot of Azure AD popup sign-in experience for user 'adelev'](../media/03-test-02.png)
 
 This screenshot demonstrates the *user consent experience* in Microsoft identity.
 
@@ -344,13 +344,13 @@ Close the browser and open a new instance so that you can sign in again.
 
 Navigate to **http://localhost:3007** again and select the **Sign In** button. This time, sign in with a user *who is assigned* the global administrator role. Notice the difference in the consent dialog:
 
-![Screenshot of Azure AD popup sign-in experience](../media/03-test-03.png)
+![Screenshot of Azure AD popup sign-in experience for user 'admin'](../media/03-test-03.png)
 
 There's one significant difference to take notice of. First, because you signed in using an administrator account, you have an additional option. The checkbox after the permission list enables an administrator to grant these delegated permissions to *all users* in the organization. This removes the requirement for each user to grant the permission.
 
 Select the checkbox **Consent on behalf of your organization**. Notice how the permissions change and an additional informational message are displayed. Take special notice how the words "you" and "your" in the permissions have been replaced with "user".
 
-![Screenshot of Azure AD popup sign-in experience](../media/03-test-04.png)
+![Screenshot of Azure AD popup sign-in experience consenting on behalf of an organization](../media/03-test-04.png)
 
 Select the **Accept** button.
 

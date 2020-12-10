@@ -90,7 +90,7 @@ Depending on the browser, you're using, a popup window will load or the page wil
 
 Sign in using a **Work or School Account** of a user in your organization. On the next screen, **don't select** the **Accept** button. Instead, examine the dialog:
 
-![Screenshot of Azure AD popup sign-in experience](../media/05-test-02.png)
+![Screenshot of Azure AD popup sign-in experience for user 'meganb'](../media/05-test-02.png)
 
 This screenshot demonstrates the *user consent experience* in Microsoft identity. It lists all permissions that are being requested. This includes both the statically defined permissions as well permissions dynamically requested.
 
@@ -145,7 +145,7 @@ Depending on the browser, you're using, a popup window will load or the page wil
 
 Sign in using a **Work or School Account** of a user in your organization. On the next screen, notice how the list of permissions has changed:
 
-![Screenshot of Azure AD popup sign-in experience](../media/05-test-04.png)
+![Screenshot of Azure AD popup sign-in experience - Calendar.Read permission added](../media/05-test-04.png)
 
 This time, you're prompted to grant the application access to your calendar. This is a dynamic permission because it was defined in the SPA's code and included in the list of permissions in the access token request.
 
@@ -153,7 +153,7 @@ Select the **Accept** button.
 
 Depending on the browser you're using, the popup will disappear or you will be redirected back to the web page. When the page loads, MSAL will request an access token and request your information from Microsoft Graph. After the request complete, it will display the results on the page:
 
-![Screenshot of Azure AD popup sign-in experience](../media/05-test-05.png)
+![Screenshot of events from the user's calendar](../media/05-test-05.png)
 
 Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the console.
 
