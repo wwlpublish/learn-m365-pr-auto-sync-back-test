@@ -1,8 +1,8 @@
 In this exercise, you'll use the Azure AD application and .NET console application you previously created and modify them to demonstrate two strategies to account for throttling in your application.
 
-The first strategy you will employ involves working with the `HttpClient` object to call the base Microsoft Graph REST API. This approach will enable you to see the underlying protocol responses and how to handle them.
+The first strategy you'll employ involves working with the `HttpClient` object to call the base Microsoft Graph REST API. This approach will enable you to see the underlying protocol responses and how to handle them.
 
-The second strategy you will employ uses Microsoft Graph .NET SDK that takes into account throttling responses returned by the service and automatically retries the request. This approach simplifies your application code as you do not have to incorporate the retry logic that is included in the SDK.
+The second strategy you'll employ uses Microsoft Graph .NET SDK that takes into account throttling responses returned by the service and automatically retries the request. This approach simplifies your application code as you don't have to incorporate the retry logic that is included in the SDK.
 
 > [!IMPORTANT]
 > This exercise assumes you have created the Azure AD application and .NET console application from the previous unit in this module. You'll edit the existing Azure AD application and .NET console application created in that exercise in this exercise.
@@ -81,7 +81,7 @@ var httpResponseTask = clientResponse.Content.ReadAsStringAsync();
 httpResponseTask.Wait();
 ```
 
-In the case of a successful response, return the deserialized response back to the caller to display the messages.
+If there's a successful response, return the deserialized response back to the caller to display the messages.
 
 Add the following lines to the top of the **Program.cs** file to update the `using` statements:
 
@@ -101,7 +101,7 @@ if (clientResponse.StatusCode == HttpStatusCode.OK)
 }
 ```
 
-In the case of a throttled response, add the following `else` statement to the `if` statement you just added:
+If there's a throttled response, add the following `else` statement to the `if` statement you just added:
 
 ```csharp
 // ELSE IF request was throttled (429, aka: TooManyRequests)...
@@ -259,17 +259,17 @@ dotnet run
 
 After entering the username and password for the current user, the application will write multiple log entries to the console like the following figure:
 
-![Screenshot of .NET console application logging messages](../media/app-run-05-01.png)
+![Screenshot of .NET console application logging messages](../media/05-app-run-01.png)
 
 Within one or two minutes, the application will display the results of the application. Depending on the speed of your workstation and internet connection, your requests may or may not have triggered Microsoft Graph to throttle you. If not, try running the application a few more times.
 
 If your application ran fast enough, you should see some instances where Microsoft Graph returned the HTTP status code 429, indicated by the **TooManyRequests** entries:
 
-![Screenshot of .NET console application logging messages](../media/app-run-05-02.png)
+![Screenshot of .NET console application logging messages](../media/05-app-run-02.png)
 
 In this case, the **messages** endpoint returned a `Retry-After` value of one (1) because the application displays messages on the console that it slept for one second.
 
-The important point is that the application completed successfully, retrieving all 100 messages, even when some requests were rejected due to being throttled by Microsoft Graph.
+The important point is that the application completed successfully, retrieving all 100 messages, even when some requests were rejected because of being throttled by Microsoft Graph.
 
 ## Implement Microsoft Graph SDK for throttling retry strategy
 
@@ -372,9 +372,9 @@ dotnet run
 
 After entering the username and password for the current user, the application will write multiple log entries to the console like the following:
 
-![Screenshot of .NET console application logging messages](../media/app-run-05-03.png)
+![Screenshot of .NET console application logging messages](../media/05-app-run-03.png)
 
-The application will do the same thing as the **HttpClient** version of the application. However, one difference is that the application will not display the status code returned in the response to the requests or any of the *sleeping* log messages because the Microsoft Graph SDK handles all the retry logic internally.
+The application will do the same thing as the **HttpClient** version of the application. However, one difference is that the application won't display the status code returned in the response to the requests or any of the *sleeping* log messages because the Microsoft Graph SDK handles all the retry logic internally.
 
 ### Summary
 
