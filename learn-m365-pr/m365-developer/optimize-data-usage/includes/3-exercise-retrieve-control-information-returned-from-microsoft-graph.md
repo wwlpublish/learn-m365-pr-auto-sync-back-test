@@ -6,39 +6,39 @@ Open a browser and navigate to the [Azure Active Directory admin center (https:/
 
 Select **Azure Active Directory** in the left-hand navigation.
 
-  ![Screenshot of the App registrations](../media/aad-portal-home.png)
+  ![Screenshot of the App registrations](../media/azure-ad-portal-home.png)
 
 Select **Manage > App registrations** in the left-hand navigation.
 
 On the **App registrations** page, select **New registration**.
 
-  ![Screenshot of App Registrations page](../media/aad-portal-newapp-00.png)
+  ![Screenshot of App Registrations page](../media/azure-ad-portal-new-app-00.png)
 
 On the **Register an application** page, set the values as follows:
 
 - **Name**: Graph Console App
 - **Supported account types**: Accounts in this organizational directory only (Contoso only - Single tenant)
 
-    ![Screenshot of the Register an application page](../media/aad-portal-newapp-01.png)
+    ![Screenshot of the Register an application page](../media/azure-ad-portal-new-app-01.png)
 
     Select **Register**.
 
-On the **Graph Console App** page, copy the value of the **Application (client) ID** and **Directory (tenant) ID**; you will need them later in this exercise.
+On the **Graph Console App** page, copy the value of the **Application (client) ID** and **Directory (tenant) ID**; you'll need them later in this exercise.
 
-  ![Screenshot of the application ID of the new app registration](../media/aad-portal-newapp-details.png)
+  ![Screenshot of the application ID of the new app registration](../media/azure-ad-portal-new-app-details.png)
 
 Select **Manage > Certificates & secrets**.
 
 Select **New client secret**.
 
-![Screenshot of the Add a client secret dialog](../media/aad-portal-newapp-secret.png)
+![Screenshot of the Add a client secret dialog](../media/azure-ad-portal-new-app-secret.png)
 
 On the **Add a client secret** page, enter a value in **Description**, select one of the options for **Expires** and select **Add**.
 
   > [!IMPORTANT]
   > This client secret is never shown again, so make sure you copy it now.
 
-![Screenshot of the newly added client secret](../media/aad-portal-newapp-secret-03.png)
+![Screenshot of the newly added client secret](../media/azure-ad-portal-new-app-secret-02.png)
 
 ### Grant Azure AD application permissions to Microsoft Graph
 
@@ -46,23 +46,23 @@ After creating the application, you need to grant it the necessary permissions t
 
 Select **API Permissions** in the left-hand navigation panel.
 
-![Screenshot of the API Permissions navigation item](../media/aad-portal-newapp-permissions-01.png)
+![Screenshot of the API Permissions navigation item](../media/azure-ad-portal-new-app-permissions-01.png)
 
 Select the **Add a permission** button.
 
 In the **Request API permissions** panel that appears, select **Microsoft Graph** from the **Microsoft APIs** tab.
 
-![Screenshot of Microsoft Graph in the Request API permissions panel](../media/aad-portal-newapp-permissions-03.png)
+![Screenshot of Microsoft Graph in the Request API permissions panel](../media/azure-ad-portal-new-app-permissions-02.png)
 
 When prompted for the type of permission, select **Application permissions**.
 
-![Screenshot of the User.Read.All permission in the Request API permissions panel](../media/aad-portal-newapp-permissions-04.png)
+![Screenshot of the User.Read.All permission in the Request API permissions panel](../media/azure-ad-portal-new-app-permissions-03.png)
 
 Enter **User.R** in the **Select permissions** search box and select the **User.Read.All** permission, followed by the **Add permission** button at the bottom of the panel.
 
 In the **Configured permissions** panel, select the button **Grant admin consent for [tenant]**, and then select **Yes** when in the confirmation dialog.
 
-![Screenshot of the Configured permissions panel](../media/aad-portal-newapp-permissions-05.png)
+![Screenshot of the Configured permissions panel](../media/azure-ad-portal-new-app-permissions-04.png)
 
 ## Create .NET Core console application
 
@@ -72,7 +72,7 @@ Open your command prompt, navigate to a directory where you have rights to creat
 dotnet new console -o graphconsoleapp
 ```
 
-After creating the application, run the following commands to ensure your new project runs correctly.
+After creating the application, run the following commands to ensure your new project runs correctly:
 
 ```console
 cd graphconsoleapp
