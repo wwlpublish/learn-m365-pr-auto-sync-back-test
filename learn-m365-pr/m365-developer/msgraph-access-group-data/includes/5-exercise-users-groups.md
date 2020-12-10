@@ -85,7 +85,7 @@ Select **Azure Active Directory** in the left-hand navigation. Locate the Azure 
 
 Select **API Permissions** in the left-hand navigation panel.
 
-![Screenshot of the API Permissions navigation item](../media/azure-ad-portal-permissions-05-01.png)
+![Screenshot of the API Permissions navigation item](../media/05-azure-ad-portal-permissions-01.png)
 
 Select the **Add a permission** button.
 
@@ -110,7 +110,7 @@ dotnet run
 
 After entering the username and password of a user, you'll see the results of all groups in the organization the current user is a member of:
 
-![Screenshot of the console application showing all groups the user is a member of](../media/app-run-05-01.png)
+![Screenshot of the console application showing all groups the user is a member of](../media/05-app-run-01.png)
 
 ## Get all groups a user is the owner of
 
@@ -155,7 +155,7 @@ dotnet run
 
 After entering the username and password of a user, you'll see the results of all groups in the organization the current user owns:
 
-![Screenshot of the console application showing all groups the user owns](../media/app-run-05-02.png)
+![Screenshot of the console application showing all groups the user owns](../media/05-app-run-02.png)
 
 ## Summary
 

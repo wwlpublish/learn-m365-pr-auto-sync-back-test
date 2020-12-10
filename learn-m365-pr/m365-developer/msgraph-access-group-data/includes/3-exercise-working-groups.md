@@ -8,7 +8,7 @@ Select **Azure Active Directory** in the left-hand navigation.
 
 Select **Manage > App registrations** in the left-hand navigation.
 
-  ![Screenshot of the App registrations](../media/azure-ad-portal-home-appreg-01.png)
+  ![Screenshot of the App registrations](../media/azure-ad-portal.png)
 
 On the **App registrations** page, select **New registration**.
 
@@ -35,11 +35,11 @@ In the **Platform configurations** section, select the **Add a platform** button
 
 In the **Redirect URIs** section of the **Configure Desktop + devices** panel, select the entry that ends with **nativeclient**, and then select the **Configure** button:
 
-![Screenshot of the Configure Desktop + devices panel](../media/azure-ad-portal-new-app-02a.png)
+![Screenshot of the Configure Desktop + devices panel](../media/azure-ad-portal-new-app-03.png)
 
 In the **Authentication** panel, scroll down to the **Default client type** section and set the toggle to **Yes**.
 
-![Screenshot of the Default client type section](../media/azure-ad-portal-new-app-03.png)
+![Screenshot of the Default client type section](../media/azure-ad-portal-new-app-04.png)
 
 Select **Save** in the top menu to save your changes.
 
@@ -346,7 +346,7 @@ dotnet run
 
 After entering the username and password of a user, you'll see the results of all groups in the organization written to the console.
 
-![Screenshot of the console application showing all groups in the organization](../media/app-run-03-01.png)
+![Screenshot of the console application showing all groups in the organization](../media/03-app-run-01.png)
 
 ## Get a specific Office 365 group
 
@@ -384,7 +384,7 @@ dotnet run
 
 After entering the username and password of a user, you'll see the results of a single group with the ID you specified written to the console.
 
-![Screenshot of the console application showing a single group in the organization](../media/app-run-03-02.png)
+![Screenshot of the console application showing a single group in the organization](../media/03-app-run-02.png)
 
 ## Get owners of an Office 365 group
 
@@ -420,7 +420,7 @@ dotnet run
 
 After entering the username and password of a user, you'll see the list of owners of a single group with the ID you specified written to the console.
 
-![Screenshot of the console application showing a single group's owners in the organization](../media/app-run-03-03.png)
+![Screenshot of the console application showing a single group's owners in the organization](../media/03-app-run-03.png)
 
 > [!NOTE]
 > If no owners are displayed, you may have selected a group without any owners set. If that happens, try a different group ID and retry the test until the console app displays at least one owner.
@@ -459,7 +459,7 @@ dotnet run
 
 After entering the username and password of a user, you'll see the list of members of a single group with the ID you specified written to the console.
 
-![Screenshot of the console application showing a single group's members in the organization](../media/app-run-03-04.png)
+![Screenshot of the console application showing a single group's members in the organization](../media/03-app-run-04.png)
 
 ## Summary
 
