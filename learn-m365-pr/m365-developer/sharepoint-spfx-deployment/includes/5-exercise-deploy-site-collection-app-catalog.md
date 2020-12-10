@@ -4,13 +4,13 @@ In this exercise, you'll learn how to enable a site collection-scoped App Catalo
 
 Navigate to an existing site collection and select **Site Contents** from the left-hand navigation.
 
-In the set of lists on the **Site Contents** page, look for a library named **Apps for SharePoint**. If it is present, you can skip to the next step of this exercise. Otherwise you'll need to create the site collection App Catalog.
+In the set of lists on the **Site Contents** page, look for a library named **Apps for SharePoint**. If it's present, you can skip to the next step of this exercise. Otherwise you'll need to create the site collection App Catalog.
 
 Depending on your development platform, create a new site collection App Catalog:
 
 If you're using Windows, you can use the [SharePoint Online Management Shell](https://www.microsoft.com/download/details.aspx?id=35588) PowerShell module:
 
-```shell
+```console
 # login as a tenant admin to the SharePoint Online tenant admin site
 # replace the URL shown below with the URL of your SharePoint Online tenant admin site
 PS> Connect-SPOService -Url https://contoso-admin.sharepoint.com
@@ -20,9 +20,9 @@ PS> Connect-SPOService -Url https://contoso-admin.sharepoint.com
 PS> Add-SPOSiteCollectionAppCatalog -Site https://contoso.sharepoint.com/sites/dev01
 ```
 
-Alternatively, you can use the [Office 365 CLI](https://pnp.github.io/office365-cli/). This is a good option when your development environment isn't Windows.
+Instead, you can use the [Office 365 CLI](https://pnp.github.io/office365-cli/). This is a good option when your development environment isn't Windows.
 
-```shell
+```console
 # login as a tenant admin to the SharePoint Online tenant admin site
 # replace the URL shown below with the URL of your SharePoint Online tenant admin site
 $ spo connect https://contoso-admin.sharepoint.com
@@ -58,11 +58,11 @@ Select **Site Contents** from the left-hand navigation.
 
 From the **New** menu, select **App**.
 
-![Screenshot selecting to create a new app](../media/03-deploy-step-02.png)
+![Screenshot selecting to create a new app - select App from the New menu](../media/03-deploy-step-02.png)
 
 Locate the solution you previously deployed. We'll need the application to be installed for the next exercise so select it to start that process.
 
-![Screenshot creating a new app](../media/05-testing-step-01.png)
+![Screenshot creating a new app - select App from the New menu](../media/05-testing-step-01.png)
 
 Now, navigate to a different site collection.
 
@@ -70,11 +70,11 @@ Select **Site Contents** from the left-hand navigation.
 
 From the **New** menu, select **App**.
 
-![Screenshot selecting to create a new app](../media/03-deploy-step-02.png)
+![Screenshot selecting to create a new app - Apps you can add category](../media/05-testing-step-02.png)
 
 Notice the solution you deployed to the other site collection isn't shown.
 
-![Screenshot creating a new app](../media/05-testing-step-02.png)
+![Screenshot creating a new app - Apps you can add category](../media/05-testing-step-03.png)
 
 ## Summary
 

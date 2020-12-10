@@ -5,7 +5,7 @@ In this exercise, you'll create a SharePoint Framework web part solution that wi
 
 Open a command prompt and change to the folder where you want to create the SharePoint Framework project. Then, run the SharePoint Yeoman generator by executing the following command:
 
-```shell
+```console
 yo @microsoft/sharepoint
 ```
 
@@ -124,7 +124,7 @@ This file contains multiple strings that need to be updated to match the SharePo
 
 ## Create and deploy the SharePoint package
 
-In order to test the web part in SharePoint and Microsoft Teams, it must first be deployed to an App Catalog.
+To test the web part in SharePoint and Microsoft Teams, it must first be deployed to an App Catalog.
 
 Open a browser and navigate to your SharePoint Online tenant App Catalog site.
 
@@ -132,37 +132,35 @@ Select the menu item **Apps for SharePoint** from the left-hand navigation menu.
 
 Build the project by opening a command prompt and changing to the root folder of the project. Then execute the following command:
 
-```shell
+```console
 gulp build
 ```
 
 Next, create a production bundle of the project by running the following command on the command line from the root of the project:
 
-```shell
+```console
 gulp bundle --ship
 ```
 
 Finally, create a deployment package of the project by running the following command on the command line from the root of the project:
 
-```shell
+```console
 gulp package-solution --ship
 ```
 
 Locate the file created by the gulp **package-solution** task in the **./sharepoint/solution** folder with the name **\*.sppkg**.
 
-Drag this file into the **Apps for SharePoint** library in the browser:
-
-![Screenshot dragging the SharePoint package into the Apps for SharePoint library](../media/03-deploy-package-01.png)
+Drag this file into the **Apps for SharePoint** library in the browser.
 
 In the **Do you trust...?** dialog, select the checkbox **Make this solution available to all sites in the organization** and then select **Deploy**.
 
-![Screenshot of the app deployment trust dialog](../media/03-deploy-package-02.png)
+![Screenshot of the app deployment trust dialog](../media/03-deploy-package-01.png)
 
 This will make the web part available to all site collections in the tenant, including those that are behind a Microsoft Teams team.
 
 The last step is to publish the Microsoft Teams app to your tenant's Microsoft Teams store. Select the SharePoint package you uploaded. Then, using the ribbon, select the **Files** tab and then the **Sync to Teams** button.
 
-![Screenshot of the app deployment trust dialog](../media/03-sync-to-teams.png)
+![Screenshot of the installed uploaded package](../media/03-sync-to-teams.png)
 
 ## Test the SharePoint Framework web part in SharePoint
 
@@ -172,7 +170,7 @@ Select the **Edit** button in the top-right of the page.
 
 Select the (+) icon to open the SharePoint web part toolbox and locate the web part **SPFx Teams Together**:
 
-![Screenshot of the SharePoint web part](../media/03-add-web-part-step-01.png)
+![Screenshot of the SharePoint web part in the gallery](../media/03-add-web-part-step-01.png)
 
 The SharePoint Framework web part will be displayed on the page as shown in the following figure:
 
@@ -188,15 +186,17 @@ If you don't have any teams in your tenant, you'll be presented with the followi
 
 ![Screenshot of the create teams dialog](../media/03-create-team-step-01.png)
 
-On the **Create your team** dialog, select **Build a team from scratch**:
+On the **Create your team** dialog, select **From scratch**:
 
-![Screenshot of the create teams dialog](../media/03-create-team-step-02.png)
+![Screenshot of the create teams dialog - create team dialog options](../media/03-create-team-step-02.png)
 
 On the **What kind of team will this be?** dialog, select **Public**:
 
-![Screenshot of the create teams dialog](../media/03-create-team-step-03.png)
+![Screenshot of the create teams dialog - create team privacy options](../media/03-create-team-step-03.png)
 
-When prompted, use the name **My First Team**.
+In the **Some quick details about your public team** dialog, set the Team name **My First Team** and select **Create**.
+
+In the **Add members to My First Team** dialog, select **Skip**.
 
 ## Install the Microsoft Teams application as a new tab
 
@@ -236,7 +236,7 @@ The next dialog will confirm the installation of the app. Select **Save**.
 
 The application should now load in Microsoft Teams within the **General** channel under the tab **SPFx Teams Together**.
 
-![Screenshot setting up the SPFx Teams Together app](../media/03-add-tab-step-08.png)
+![Screenshot of the working SPFx Teams Together app](../media/03-add-tab-step-08.png)
 
 Select the **X** in the upper-right corner of the property pane to close the initial configuration.
 

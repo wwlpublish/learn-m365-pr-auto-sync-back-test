@@ -1,16 +1,20 @@
 In this exercise, you'll learn how to use existing third-party controls from the popular [PnP SPFx Reusable Property Pane Controls](https://sharepoint.github.io/sp-dev-fx-property-controls) project.
 
+## Create a new SharePoint Framework solution and web part
+
 Create a new SPFx project that contains a single web part using no JavaScript framework for SharePoint Online with the Yeoman generator using the same steps from the first exercise. Allow the generator to scaffold the project and install all the necessary packages.
 
 ## Install the PnP SPFx reusable property pane controls
 
 Open a command prompt and change to the folder for the root of the project. Execute the following command to install the controls:
 
-```shell
+```console
 npm install @pnp/spfx-property-controls --save --save-exact
 ```
 
 ## Add the People Picker control to the web part
+
+Open the project folder in **Visual Studio Code**.
 
 Locate the web part class in the **src\webparts\\\*\\\*WebPart.ts** file.
 
@@ -36,7 +40,7 @@ people: IPropertyFieldGroupOrPerson[];
 
 ### Display the selected people
 
-Locate the web part's `render()` method. Within this method, there is an HTML anchor `<a>` element. Add the following immediately after the `<a>` element:
+Locate the web part's `render()` method. Within this method, there's an HTML anchor `<a>` element. Add the following immediately after the `<a>` element:
 
 ```html
 <div class="selectedPeople"></div>
@@ -184,11 +188,11 @@ Once the web part has been added to the page, open the property pane with the ed
 
 Enter a few values in the provided fields, then select **Save**.
 
-![Screenshot using the PnP Reusable controls](../media/07-pnp-field-control-collection-01.png)
+![Screenshot using the PnP Reusable controls - Property edit experience](../media/07-pnp-field-control-collection-01.png)
 
 Notice the values entered are displayed within the web part:
 
-![Screenshot using the PnP Reusable controls](../media/07-pnp-field-control-collection-02.png)
+![Screenshot using the PnP Reusable controls - Rendering property settings](../media/07-pnp-field-control-collection-02.png)
 
 ## Summary
 

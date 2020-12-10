@@ -6,13 +6,17 @@ Before you can get display data from a SharePoint list using the SharePoint REST
 
 In a browser, navigate to a site collection in SharePoint Online. Select **Site Contents** in the left-hand navigation and then select **New > List** in the toolbar.
 
+Select the **Blank list** template.
+
+![Screenshot showing the Create a list form - Selecting Blank template](../media/create-countries-list-01.png)
+
 Set the list name to **Countries** and select **Create**.
 
-![Screenshot showing the Create a list form](../media/create-countries-list01.png)
+![Screenshot showing the Create a list form - Entering list details](../media/create-countries-list-02.png)
 
 Add items to the list by entering the names of different countries as shown in the following image.
 
-![Screenshot showing sample countries in the list](../media/create-countries-list02.png)
+![Screenshot showing sample countries in the list](../media/create-countries-list-03.png)
 
 ## Create the web part to display data using the SharePoint REST API
 
@@ -23,7 +27,7 @@ Open a command prompt and change to the folder where you want to create the proj
 
 Run the SharePoint Yeoman generator by executing the following command:
 
-```shell
+```console
 yo @microsoft/sharepoint
 ```
 
@@ -229,33 +233,35 @@ private _getListItems(): Promise<ICountryListItem[]> {
 
 ## Test the web part
 
+Run the following command to ensure the developer certificate is installed:
+
+```console
+gulp trust-dev-cert
+```
+
 Run the following command to start the local web server:
 
-```shell
+```console
 gulp serve
 ```
 
-The browser will load the local workbench, but you cannot use this for testing because there's no SharePoint context in the local workbench. Instead, navigate to the SharePoint Online site where you created the **Countries** list, and load the hosted workbench at **https://[sharepoint-online-site]/_layouts/workbench.aspx**.
+The browser will load the local workbench, but you can't use this for testing because there's no SharePoint context in the local workbench. Instead, navigate to the SharePoint Online site where you created the **Countries** list, and load the hosted workbench at **https://[sharepoint-online-site]/_layouts/workbench.aspx**.
 
 Add the web part to the page: Select the **Add a new web part** control...
 
-![Screenshot of the SharePoint workbench](../media/add-webpart-01.png)
+![Screenshot of the SharePoint workbench](../media/03-add-webpart-01.png)
 
-...then select the expand toolbox icon in the top-right...
+Then search for **spfxhttp** select the **SPFxHttpClientDemo** web part to add the web part to the page.
 
-![Screenshot of the SharePoint workbench](../media/add-webpart-02.png)
-
-...and select the **SPFxHttpClientDemo** web part to add the web part to the page.
-
-![Screenshot of the SharePoint workbench toolbox](../media/add-webpart-03.png)
+![Screenshot of the SharePoint workbench - web part gallery](../media/03-add-webpart-02.png)
 
 The web part will appear on the page with a single button and no data in the list.
 
-![Screenshot of the web part with no data](../media/add-webpart-04.png)
+![Screenshot of the web part with no data](../media/03-add-webpart-03.png)
 
 Select the **Get Countries** button and notice the list will display the data from the SharePoint REST API.
 
-![Screenshot of the web part with data](../media/get-items-sp.png)
+![Screenshot of the web part with data](../media/03-get-items.png)
 
 Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the console/terminal window.
 

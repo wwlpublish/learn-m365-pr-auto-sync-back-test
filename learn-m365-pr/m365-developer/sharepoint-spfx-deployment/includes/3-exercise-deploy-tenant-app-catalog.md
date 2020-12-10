@@ -5,7 +5,7 @@ In this exercise, you'll create a SharePoint Framework (SPFx) client-side web pa
 
 Open a command prompt and change to the folder where you want to create the project. Run the SharePoint Yeoman generator by executing the following command:
 
-```shell
+```console
 yo @microsoft/sharepoint
 ```
 
@@ -21,25 +21,25 @@ Use the following to complete the prompt that is displayed (*if additional optio
 - **What is your Web part description?**: Deployment Demo description
 - **Which framework would you like to use?**: No JavaScript framework
 
-After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. 
+After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically.
 
 ## Create a deployment package for the project
 
 When NPM completes downloading all dependencies, build the project by running the following command on the command line from the root of the project:
 
-```shell
+```console
 gulp build
 ```
 
 Next, create a production bundle of the project by running the following command on the command line from the root of the project:
 
-```shell
+```console
 gulp bundle --ship
 ```
 
 Finally, create a deployment package of the project by running the following command on the command line from the root of the project:
 
-```shell
+```console
 gulp package-solution --ship
 ```
 
@@ -83,13 +83,13 @@ Put it in edit mode by selecting the **Edit** button in the top-right portion of
 
 Select the web part icon button to open the list of available web parts:
 
-![Screenshot of adding the web part to the page](../media/03-deploy-step-05.png)
+![Screenshot of adding the web part to the page - web part gallery](../media/03-deploy-step-05.png)
 
 Select the expand icon, a diagonal line with two arrows in the top-right corner, to expand the web part toolbox.
 
 Scroll to the bottom, locate, and select the **Deployment Demo** web part.
 
-![Screenshot of adding the web part to the page](../media/03-deploy-step-06.png)
+![Screenshot of adding the web part to the page - selecting web part](../media/03-deploy-step-06.png)
 
 ## Examine the deployed web part files
 
@@ -97,13 +97,13 @@ Once the page loads, open the browser's developer tools and navigate to the **So
 
 Refresh the page and examine where the JavaScript bundle is being hosted.
 
-If you have not enabled the Office 365 CDN, then the bundle will be hosted from a document library named **ClientSideAssets** in the App Catalog site.
+If you haven't enabled the Office 365 CDN, then the bundle will be hosted from a document library named **ClientSideAssets** in the App Catalog site.
 
 ![Screenshot of web part downloaded from the App Catalog site](../media/03-deploy-step-07.png)
 
-If you have enabled the Office 365 CDN, then the bundle will be automatically hosted from the CDN.
+If you've enabled the Office 365 CDN, then the bundle will be automatically hosted from the CDN.
 
-![Screenshot of web part downloaded from the Office 365 CDN](../media/03-deploy-step-07a.png)
+![Screenshot of web part downloaded from the Office 365 CDN](../media/03-deploy-step-08.png)
 
 ## Remove the deployed web part
 
@@ -119,7 +119,17 @@ Navigate back to the site's **Site Contents** page.
 
 Select the context menu for the installed package and select the **Remove** action:
 
-![Screenshot of uninstalling the SharePoint app package](../media/03-remove-step-02.png)
+![Screenshot of site contents](../media/03-remove-step-02.png)
+
+In the **Action isn't supported in this view** dialog, select the **Return to classic SharePoint** button:
+
+![Screenshot of Action isn't supported in this view dialog](../media/03-remove-step-03.png)
+
+Select the context menu for the installed package and select the **Remove** action:
+
+![Screenshot of classic site contents](../media/03-remove-step-04.png)
+
+In the left-hand navigation menu, select the **Exit classic experience** link.
 
 ### Retract the SharePoint package
 
@@ -129,7 +139,7 @@ Select the **Apps for SharePoint** option from the left-hand navigation.
 
 Select the menu for the deployed package, open the extra actions, and then select **Delete** as shown in the following figure:
 
-![Screenshot of retracting the SharePoint app package](../media/03-remove-step-03.png)
+![Screenshot of retracting the SharePoint app package](../media/03-remove-step-05.png)
 
 ## Summary
 

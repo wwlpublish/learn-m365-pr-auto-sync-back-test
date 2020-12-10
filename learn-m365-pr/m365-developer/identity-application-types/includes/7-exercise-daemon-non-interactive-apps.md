@@ -37,13 +37,7 @@ In the **Platform configurations** section, select the **Add a platform** button
 
 In the **Redirect URIs** section of the **Configure Desktop + devices** panel, select the entry that ends with **nativeclient**, and then select the **Configure** button:
 
-![Screenshot of the Configure Desktop + devices panel](../media/07-azure-ad-portal-new-app-authentication-01a.png)
-
-Scroll down to the **Default client type** section and set the toggle to **Yes**.
-
-![Screenshot of the Default client type section](../media/07-azure-ad-portal-new-app-authentication-02.png)
-
-Select **Save** in the top menu to save your changes.
+![Screenshot of the Configure Desktop + devices panel](../media/07-azure-ad-portal-new-app-authentication-02.png)
 
 ### Create a client secret for the app
 
@@ -358,7 +352,7 @@ dotnet run
 
 After a moment, the app will display a list of all the specified user's emails obtained using the Microsoft Graph .NET SDK.
 
-![Screenshot of the All Users page in the Azure AD admin center](../media/07-test-02.png)
+![Screenshot of the All Users page in the console](../media/07-test-02.png)
 
 ## Summary
 

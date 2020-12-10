@@ -7,7 +7,7 @@ Open a command prompt and change to the folder where you want to create the proj
 
 Run the SharePoint Yeoman generator by executing the following command:
 
-```shell
+```console
 yo @microsoft/sharepoint
 ```
 
@@ -108,7 +108,7 @@ In a browser, navigate to a SharePoint Online modern site collection where you w
 
 Select the **Site contents** link in the left-hand navigation. Select the list **Work Status** you created in a previous exercise:
 
-![Screenshot of sample data in a list](../media/field-customizer-setup-list-03.png)
+![Screenshot of sample data in a list](../media/05-field-customizer-setup-list-04.png)
 
 Locate and open the **./config/serve.json** file.
 
@@ -126,7 +126,7 @@ Change the value of the `properties` object to the following JSON:
 
 Run the project by executing the following command:
 
-```shell
+```console
 gulp serve
 ```
 
@@ -134,15 +134,15 @@ When prompted, select the **Load debug scripts** button.
 
 Notice a new button in the toolbar after the page loads. When the **Always On** button is selected, a dialog appears that displays the message prefix defined in the public properties and the total number of items selected.
 
-![Screenshot of the command set Always On button](../media/command-set-test-01.png)
+![Screenshot of the command set Always On button](../media/07-command-set-test-01.png)
 
 Select one item in the list. Notice a new button appears. Select the button and notice how the dialog has changed:
 
-![Screenshot of the command set One Item Selected button](../media/command-set-test-02.png)
+![Screenshot of the command set One Item Selected button](../media/07-command-set-test-02.png)
 
 Select a second item in the list. Notice a new button appears. Select the button and notice how the dialog has changed:
 
-![Screenshot of the command set Two Item Selected button](../media/command-set-test-03.png)
+![Screenshot of the command set Two Item Selected button](../media/07-command-set-test-03.png)
 
 Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the console/terminal window.
 

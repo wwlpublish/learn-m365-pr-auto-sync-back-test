@@ -258,9 +258,10 @@ Replace the string `<VIEWER-GROUP-OBJECTID>` with the value copied from the All 
 
 #### Build and test the web app
 
-Execute the following command in a command prompt to compile and run the application:
+Execute the following commands in a command prompt to compile and run the application:
 
 ```console
+dotnet dev-certs https --trust
 dotnet build
 dotnet run
 ```

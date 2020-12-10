@@ -14,7 +14,7 @@ When creating or updating a SharePoint list item, you must submit the data for t
 
 You must tell the SharePoint REST API the data type of the item submitted in the request payload when you create a new list item. To do this, specify the data type in the `@odata.type` property in the payload of the request.
 
-This is required as SharePoint lists can support multiple content types. Each content type can have unique or shared fields, but each field can have different settings, such as if they're required or not. Therefore, when creating an item, you must tell SharePoint the type of data so SharePoint knows which content type rules to enforce.
+This is required as SharePoint lists can support multiple content types. Each content type can have unique or shared fields, but each field can have different settings, such as if they're required or not. So, when creating an item, you must tell SharePoint the type of data so SharePoint knows which content type rules to enforce.
 
 You can obtain a list of all the data types supported on a list using the lists `ListItemEntityTypeFullName` property. It will return the data type supported by the list.
 
@@ -37,7 +37,7 @@ private _getItemEntityType(): Promise<string> {
 }
 ```
 
-Call this method prior to creating a new list item. The following TypeScript method calls the `_getItemEntityType()` method to first get the data type supported by the list. It then creates a JSON object for the new item, setting the `Title` property of the item and the `@odata.type` property:
+Call this method before creating a new list item. The following TypeScript method calls the `_getItemEntityType()` method to first get the data type supported by the list. It then creates a JSON object for the new item, setting the `Title` property of the item and the `@odata.type` property:
 
 ```typescript
 private _addListItem(): Promise<SPHttpClientResponse> {
@@ -66,7 +66,7 @@ Updating list items with the SharePoint REST API is similar to creating items wi
 
 To update an item, you can submit an HTTP PUT or HTTP MERGE operation to the SharePoint REST API. The difference between the two is that PUT will update all properties on the specified item while MERGE will only update those properties included in the body of the request. This means that any properties omitted when submitting an HTTP PUT will be nulled out because no value was submitted.
 
-If this is not the behavior you want, you can use the HTTP MERGE method, which will ignore any properties not included in the body of the payload.
+If this isn't the behavior you want, you can use the HTTP MERGE method, which will ignore any properties not included in the body of the payload.
 
 The challenge with the HTTP MERGE method is that not all networking equipment and libraries support it. To get around this limitation, specify the wanted method in an HTTP POST with the HTTP request header `X-HTTP-METHOD`. Set the `X-HTTP-METHOD` to `MERGE` when you submit an HTTP POST using the `SPHttpClient.post()` method when you want the SharePoint REST API to treat the HTTP POST as an HTTP MERGE.
 

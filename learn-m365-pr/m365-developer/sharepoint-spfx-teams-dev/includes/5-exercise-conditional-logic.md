@@ -59,19 +59,19 @@ Finally, update the HTML written to the page. Replace the existing `<div class="
 
 Build the project by opening a command prompt and changing to the root folder of the project. Then execute the following command:
 
-```shell
+```console
 gulp build
 ```
 
 Next, create a production bundle of the project by running the following command on the command line from the root of the project:
 
-```shell
+```console
 gulp bundle --ship
 ```
 
 Finally, create a deployment package of the project by running the following command on the command line from the root of the project:
 
-```shell
+```console
 gulp package-solution --ship
 ```
 
