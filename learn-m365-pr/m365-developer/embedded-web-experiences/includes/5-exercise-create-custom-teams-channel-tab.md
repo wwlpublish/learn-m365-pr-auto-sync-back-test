@@ -221,7 +221,7 @@ If you didn't remove the tab, select the menu from the tab and then select **Set
 
 The configuration page opens with the updated component.
 
-![Screenshot selecting the tab settings menu](../media/05-channel-tab-04.png)
+![Screenshot showing how to update the settings](../media/05-channel-tab-04.png)
 
 Select one of the math operators, and save your changes by selecting **Save**. The tab should display the selected operator with the **MathPage** suffix.
 

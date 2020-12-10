@@ -84,11 +84,11 @@ This gulp task runs many other tasks all displayed within the command-line conso
 
 Open a browser, and go to the ngrok URL displayed in the console.
 
-![Screenshot of the local web app hosting the Teams tab project](../media/03-yo-teams-03.png)
+![Screenshot of the local web app hosting the Teams tab project - project homepage](../media/03-yo-teams-03.png)
 
 Update the URL in the browser to load the tab created by the scaffolding process. Here you can see the page can determine that it isn't running within the Microsoft Teams client.
 
-![Screenshot of the local web app hosting the Teams tab project](../media/03-yo-teams-04.png)
+![Screenshot of the local web app hosting the Teams tab project - displaying the tab](../media/03-yo-teams-04.png)
 
 Now let's load the tab in Microsoft Teams. In the browser, go to [Microsoft Teams](https://teams.microsoft.com). Sign in with the credentials of a Work and School account.
 
