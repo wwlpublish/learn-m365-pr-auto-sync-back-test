@@ -2,8 +2,8 @@
 uid: learn-m365.msgraph-access-user-data.4-photos-related-users
 metadata:
   title: User profile photos and related users
-  description: In this unit, you’ll learn how to get a reference to and download a user’s profile photo as well as how to get the user’s manager’s profile.
-  ms.date: 09/10/2020
+  description: In this unit, you’ll learn how to get a reference to and download a user’s profile photo and how to get the user’s manager’s profile.
+  ms.date: 12/10/2020
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial

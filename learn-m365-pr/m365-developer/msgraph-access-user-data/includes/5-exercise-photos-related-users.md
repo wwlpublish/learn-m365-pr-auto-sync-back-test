@@ -51,7 +51,7 @@ dotnet run
 
 After entering the username and password of a user, you'll see the details of the user's profile photo:
 
-![Screenshot of the console application showing a specific user](../media/app-run-05-01.png)
+![Screenshot of the console application showing a specific user](../media/05-app-run-01.png)
 
 ### Save the profile photo
 
@@ -100,13 +100,13 @@ Open a browser and navigate to the [Azure Active Directory admin center (https:/
 
 Select **Azure Active Directory** in the left-hand navigation.
 
-  ![Screenshot of the App registrations](../media/azure-ad-portal-home-appreg-01.png)
+  ![Screenshot of the App registrations](../media/azure-ad-portal-home.png)
 
 Select **Manage > Users** in the left-hand navigation.
 
 Select a user within the organization and on their profile page, copy the user's **Object ID** property:
 
-![Screenshot of a user's profile in the Azure AD portal](../media/azure-ad-portal-user-profile-05-01.png)
+![Screenshot of a user's profile in the Azure AD portal](../media/05-azure-ad-portal-user-profile-01.png)
 
 In the **Job info** section, verify the **Manager** property is set.
 
@@ -151,7 +151,7 @@ dotnet run
 
 After entering the username and password of a user, the specified user and their manager details are displayed on the console:
 
-![Screenshot of the running application](../media/app-run-05-02.png)
+![Screenshot of the running application](../media/05-app-run-02.png)
 
 ## Summary
 

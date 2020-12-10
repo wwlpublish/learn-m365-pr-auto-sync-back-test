@@ -85,13 +85,13 @@ Select the **Add a permission** button.
 
 In the **Request API permissions** panel that appears, select **Microsoft Graph** from the **Microsoft APIs** tab.
 
-![Screenshot of Microsoft Graph in the Request API permissions panel](../media/azure-ad-portal-new-app-permissions-03.png)
+![Screenshot of Microsoft Graph in the Request API permissions panel](../media/azure-ad-portal-new-app-permissions-02.png)
 
 When prompted for the type of permission, select **Delegated permissions**.
 
 Enter **User.R** in the **Select permissions** search box and select the **User.ReadWrite.All** permission, followed by the **Add permission** button at the bottom of the panel.
 
-![Screenshot of the User.ReadWrite.All permission in the Request API permissions panel](../media/azure-ad-portal-new-app-permissions-07-04.png)
+![Screenshot of the User.ReadWrite.All permission in the Request API permissions panel](../media/07-azure-ad-portal-new-permission-02.png)
 
 In the **Configured Permissions** panel, select the button **Grant admin consent for [tenant]**, and then select the **Yes** button in the consent dialog to grant all users in your organization this permission.
 
@@ -106,7 +106,7 @@ dotnet run
 
 After entering the username and password of a user, you'll see the ID of the new user. Verify the user was created by going back to the Azure Active Directory admin center, selecting **Manage > Users** and finding the new user:
 
-![Screenshot of the Azure AD admin center showing the new user](../media/app-run-07-01.png)
+![Screenshot of the Azure AD admin center showing the new user](../media/07-app-run-01.png)
 
 ## Update an existing user
 
@@ -161,7 +161,7 @@ dotnet run
 
 After entering the username and password of a user, you'll see the ID of the updated user. Verify the user was updated by going back to the Azure Active Directory admin center, selecting **Manage > Users** and finding the user. Select the user and examine the **Mobile phone** property. It may take a moment to reflect the change, so be patient and keep refreshing the page:
 
-![Screenshot of the Azure AD admin center showing the updated user](../media/app-run-07-02.png)
+![Screenshot of the Azure AD admin center showing the updated user](../media/07-app-run-02.png)
 
 ### Delete the existing user
 
@@ -194,7 +194,7 @@ dotnet run
 
 After entering the username and password of a user, you'll see the application exit without error. Verify the user was deleted by going back to the Azure Active Directory admin center, selecting **Manage > Users** and trying to find the user. They shouldn't be present in the search results:
 
-![Screenshot of the Azure AD admin center showing the missing user](../media/app-run-07-03.png)
+![Screenshot of the Azure AD admin center showing the missing user](../media/07-app-run-03.png)
 
 ## Summary
 
