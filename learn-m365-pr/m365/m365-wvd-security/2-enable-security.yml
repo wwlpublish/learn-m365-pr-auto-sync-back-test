@@ -11,4 +11,4 @@ metadata:
   ms.prod: learning-m365
 durationInMinutes: 9
 content: |
-  [!include[](includes/3-enable-security.md)]
+  [!include[](includes/2-enable-security.md)]
