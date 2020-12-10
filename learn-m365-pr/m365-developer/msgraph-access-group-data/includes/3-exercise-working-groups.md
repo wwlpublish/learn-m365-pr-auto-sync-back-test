@@ -8,7 +8,7 @@ Select **Azure Active Directory** in the left-hand navigation.
 
 Select **Manage > App registrations** in the left-hand navigation.
 
-  ![Screenshot of the App registrations](../media/azure-ad-portal.png)
+  ![Screenshot of the App registrations](../media/azure-ad-portal-home.png)
 
 On the **App registrations** page, select **New registration**.
 
