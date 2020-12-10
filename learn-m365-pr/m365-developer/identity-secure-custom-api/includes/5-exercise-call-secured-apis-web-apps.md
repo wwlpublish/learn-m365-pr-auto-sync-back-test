@@ -44,7 +44,7 @@ On the **Configure Web** panel, use the following values to configure the applic
 
 - **Redirect URIs**: https://localhost:5001/signin-oidc
 - **Logout URL**: https://localhost:5001/signout-oidc
-- **Implicit grant**: select both **Access tokens** and **ID tokens**
+- **Implicit grant**: select **ID tokens**
 
 Select **Configure** when finished setting these values.
 
@@ -80,8 +80,8 @@ After creating the application, run the following commands to ensure your new pr
 
 ```console
 cd ProductCatalogWeb
-dotnet add package Microsoft.Identity.Web --version 0.3.1-preview
-dotnet add package Microsoft.Identity.Web.UI --version 0.3.1-preview
+dotnet add package Microsoft.Identity.Web
+dotnet add package Microsoft.Identity.Web.UI
 ```
 
 Open the scaffolded project folder, which is named **ProductCatalogWeb** in **Visual Studio Code**
