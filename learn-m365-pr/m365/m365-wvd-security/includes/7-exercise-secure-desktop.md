@@ -63,7 +63,7 @@ You now need to create a resource group. An Azure resource group is a logical co
 
     }
     ```
-1. The public address is the address to **us** in your RDP connection. Note it down along with your administrator password.
+1. The public address is the address to **use** in your RDP connection. Note it down along with your administrator password.
 
 ## Subtask 2: Connect to VM
 
@@ -71,7 +71,7 @@ Use the following steps to create a remote desktop session from your local compu
 
 1. On a Windows desktop, enter **mstsc** in your search window and select the Remote Desktop Connection app.
 
-1. Select **Show Options**. Enter the IP address of the VM and your administrator credentials, and then select **Connect**. The next step is to add a standard user to the **myVM** server.
+1. Select **Show Options**. Enter the IP address of the VM and your administrator credentials, and then select **Connect**. The next step is to add a standard user to the **myVM** server. Do not select to save the sign-on configuration.
 
 ## Subtask 3: Add a standard user
 
