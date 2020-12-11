@@ -35,11 +35,11 @@ The client-side development framework will deliver capabilities that will help b
 
 ### SharePoint Framework overview
 
-SharePoint Framework is modern client-side development. All the customizations you create and build are deployed and run in the browser. There is no server-side component in a SharePoint Framework component.
+SharePoint Framework is modern client-side development. All the customizations you create and build are deployed and run in the browser. There's no server-side component in a SharePoint Framework component.
 
 You can create server-side components, but you're going to host that yourself in a location other than SharePoint.
 
-SharePoint Framework components are lightweight and run in both web and mobile experiences because they are client-side solutions. We're relying on JavaScript, HTML, CSS, and images. This means they run the exact same way in the browser as it does in the mobile experiences.
+SharePoint Framework components are lightweight and run in both web and mobile experiences because they're client-side solutions. We're relying on JavaScript, HTML, CSS, and images. This means they run the exact same way in the browser as it does in the mobile experiences.
 
 The SharePoint Framework is backwards compatible meaning that it works not just the modern pages, but also on classic and publishing pages as well.
 
