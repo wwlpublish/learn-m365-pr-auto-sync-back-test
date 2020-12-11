@@ -1,0 +1,37 @@
+WVD provides the ability to host client sessions on the session hosts running on Azure. As described previously, Microsoft manages portions of the services on the customer's behalf and provides secure endpoints for connecting clients and session hosts. 
+
+WVD uses Remote Desktop Protocol (RDP) to provide remote display and input capabilities over network connections. In previous versions of Remote Desktop Services (RDS) where a Remote Desktop Gateway was deployed, the process consisted of the following steps:
+
+1. The end user connected to the remote system using the RDS client over the traditional port of 443. 
+
+1. When authenticated in Active Directory, a token was returned to the RDS client. 
+
+1. The gateway checked the token with the Connection Broker. 
+
+1. The Broker queried the Azure SQL database for resources assigned to the user. 
+
+1. If the resources were available, the gateway created a secure inbound session on port 3389 to the VM to be accessed.
+
+In WVD running in Azure, the first four steps are the same, but the fifth step is different. The Gateway and the Broker select the session host for the connected client. The session host then creates a reverse connection to the client by using the WVD Gateway. No inbound ports are opened. In this version, the Gateway is acting as an intelligent reverse proxy. The Gateway manages all session connectivity, with nothing but pixels reaching the client. The following image illustrates this five-step process for WVD running in Azure.
+
+:::image type="content" source="../media/6-wvd-sign-on-flow.png" alt-text="The WVD architecture with access requests and the resulting data flow. The arrows depict the five steps described in the preceding text." border="false":::
+
+## Limit WVD traffic with NSG service tags 
+
+Service tags simplify security for Azure VMs, and Azure virtual networks used in a WVD deployment by enabling the ability to easily restrict network access to just the Azure services that are needed. You can use service tags in your network security group (NSG) rules to allow or deny traffic to a specific Azure service globally or per Azure region.
+
+### NSGs
+
+An NSG is a collection of security rules that grant or deny network traffic flow into or out of Azure resources. Each rule can specify the following properties--Name, Priority, Source or destination, Protocol, Direction, Port range, and Action. NSGs are a layer 3 and layer 4 network security service. 
+
+### Service tags
+
+A service tag represents a group of IP address prefixes from a given Azure service. It helps to minimize the complexity of frequent updates on network security rules. Microsoft manages the address prefixes encompassed by the service tag, and automatically updates the service tag as addresses change. An Azure administrator cannot create their own service tag or specify which IP addresses are included within a tag. 
+
+You can use service tags within your NSG rules to fine-tune network traffic to the Azure WVD service globally or regionally. You can use Azure Firewall service tags in the **Destination** field in network rules. You can use them in place of specific IP addresses.
+
+## Use Azure Firewall for application-level protection
+
+The VMs that reside in the WVD host pool are subject to the virtual network security controls. They need outbound internet access to the WVD service to operate properly and might also need outbound internet access for end users. You can use Azure Firewall to lock down your environment and filter outbound traffic.
+
+To function properly, WVD hosts need access to Fully Qualified Domain Names (FQDNs). Azure Firewall provides a WVD FQDN Tag to simplify this configuration. The steps to allow outbound WVD platform traffic and configure the firewall rules are beyond the scope of this module, but you can refer to articles in the summary unit for more information.
