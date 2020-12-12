@@ -6,11 +6,11 @@ WVD is a desktop and app virtualization service that runs on-premises and in Azu
 
 - Provide virtualization infrastructure as a managed service.
 
-- Deploy and manage VMs in your Azure subscription.
+- Mangement of VMs deployed in your Azure subscription.
 
-- Utilize Azure AD to manage the identity services. 
+- Azure AD is use to manage the identity services. 
 
-- Support the use of existing tools such as Microsoft System Center Configuration Manager or Microsoft Intune.
+- Existing tools such as Microsoft Intune or System Center Configuration Manager are supported.
 
 The following image is a typical enterprise deployment architecture diagram that depicts the various components. 
 
@@ -26,7 +26,7 @@ Microsoft manages the WVD services described in the following table.
 
 | **Service**                   | **Description**                     |
 | ----------------------------- | ------------------------------------------------------------ |
-| Azure Web Access              | The Azure Web Access service within WVD lets users access  virtual desktops and remote apps through any HTML 5-compatible web browser,  regardless of the type of operating system. |
+| Azure Web Access              | This WVD service enables end users access to virtual desktops and remote apps through a HTML 5-compatible web browser. The operting system that browser is running on does not matter. |
 | Gateway                       | The Remote Connection Gateway service connects remote users to  WVD apps and desktops from any internet-connected device that can run a WVD  client. The client connects to a gateway, which then orchestrates a  connection from a virtual machine (VM) back to the same gateway. |
 | Broker                        | The Broker service manages user connections to virtual  desktops and remote apps. It provides load balancing and reconnection to  existing sessions. |
 | Diagnostics                   | Remote Desktop Diagnostics is an event-based aggregator that  marks each user or administrator action on the WVD deployment as a success or  failure. Administrators can use the Diagnostics service to troubleshoot  errors. |
