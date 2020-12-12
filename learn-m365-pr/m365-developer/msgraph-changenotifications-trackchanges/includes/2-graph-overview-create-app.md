@@ -46,13 +46,13 @@ Let's look at a couple of different example notifications scenarios.
 
 When an email is received, you want to translate it from its native language to another language and make it easier for the consumer to read that email.
 
-When a new user is added to your organization, you want to automatically create an account for that user in your corporate third-party time tracking system and send them an email alerting them that their new account has been set up.  
+When a new user is added to your organization, you want to automatically create an account for that user in your corporate third-party time tracking system and send them an email alerting them that their new account has been set up.
 
 How would you implement these scenarios with change notifications?
 
 ![Screenshot of creating a .NET Core web API project](../media/02-create-app.png)
 
-You first need to create an app that will host a web API to listen for notifications. This will be the component that will not only trigger the request to create the subscription, but it will also manage subscription renewals and receive and respond to notifications received from Microsoft Graph.
+You first need to create an app that will host a web API to listen for notifications. This will be the component that won't only trigger the request to create the subscription, but it will also manage subscription renewals and receive and respond to notifications received from Microsoft Graph.
 
 ### Change notification subscriptions
 
@@ -66,7 +66,7 @@ The change notifications that your app receives from Microsoft Graph can allow y
 
 The development experience for creating an app that receives change notifications can be challenging because you do have to stand up a well-known and accessible HTTPS secured endpoint to receive the notifications.
 
-A free tool, [ngrok](https://ngrok.com) simplifies the developer experience. It creates a temporary well-known endpoint that redirects to your developer environment. Once you start your local web server to host your application, you start ngrok in a separate process. Ngrok creates a public HTTPS secured endpoint that points to our local web server. Once both are running, Microsoft Graph will be able to submit HTTP POST requests to the Ngrok URL, which will be routed down to our local web server.
+A free tool, [ngrok](https://ngrok.com) simplifies the developer experience. It creates a temporary well-known endpoint that redirects to your developer environment. Once you start your local web server to host your application, you start ngrok in a separate process. Ngrok creates a public HTTPS secured endpoint that points to our local web server. Once both are running, Microsoft Graph can submit HTTP POST requests to the Ngrok URL, which will be routed down to our local web server.
 
 ## Summary
 

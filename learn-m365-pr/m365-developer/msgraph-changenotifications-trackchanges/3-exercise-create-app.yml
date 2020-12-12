@@ -3,7 +3,7 @@ uid: learn-m365.msgraph-changenotifications-trackchanges.3-exercise-create-app
 metadata:
   title: Exercise - Azure AD apps .NET core web APIs
   description: In this exercise, you'll create a new Azure AD app registration using the Azure AD admin center and grant administrator consent to the required permission scopes.
-  ms.date: 09/10/2020
+  ms.date: 12/11/2020
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
@@ -30,7 +30,7 @@ quiz:
     choices:
     - content: "Email messages, events, contacts, users, groups, devices enrolled in Intune, conversations, and OneDrive files."
       isCorrect: false
-      explanation: "Change notifications are not supported on devices enrolled with Intune."
+      explanation: "Change notifications aren't supported on devices enrolled with Intune."
     - content: "Email messages, events, contacts, users, groups, conversations, and OneDrive files."
       isCorrect: true
       explanation: "Correct!"

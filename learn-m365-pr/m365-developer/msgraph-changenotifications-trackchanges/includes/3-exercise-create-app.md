@@ -4,27 +4,29 @@ In this exercise, you'll create a new Azure AD app registration using the Azure 
 
 Open a browser and navigate to the [Azure Active Directory admin center](https://aad.portal.azure.com). Login using a **Work or School Account**.
 
-Select **Azure Active Directory** in the left-hand navigation, then select **App registrations** under **Manage**.
+Select **Azure Active Directory** in the left-hand navigation.
 
-![Screenshot of the App registrations](../media/03-aad-portal-home.png)
+Select **Manage > App registrations** in the left-hand navigation.
 
-Select **New registration**. On the **Register an application** page
+  ![Screenshot of the App registrations](../media/azure-ad-portal-home.png)
 
-![Screenshot of App Registrations page](../media/03-aad-portal-newapp.png)
+On the **App registrations** page, select **New registration**.
 
-Set the values as follows:
+  ![Screenshot of App Registrations page](../media/azure-ad-portal-new-app-00.png)
+
+On the **Register an application** page, set the values as follows:
 
 - **Name**: GraphNotificationTutorial
 - **Supported account types**: Accounts in any organizational directory and personal Microsoft accounts
 - **Redirect URI**: Web > http://localhost
 
-![Screenshot of the Register an application page](../media/03-aad-portal-newapp-01.png)
+![Screenshot of the Register an application page](../media/azure-ad-portal-new-app-01.png)
 
 Select **Register**.
 
 On the **GraphNotificationTutorial** page, copy the value of the **Application (client) ID** and **Directory (tenant) ID** save it, you'll need them later in the exercise.
 
-![Screenshot of the application ID of the new app registration](../media/03-aad-portal-newapp-details.png)
+![Screenshot of the application ID of the new app registration](../media/azure-ad-portal-new-app-details.png)
 
 Select **Manage > Certificates & secrets**.
 
@@ -32,34 +34,34 @@ Select **New client secret**.
 
 Enter a value in **Description** and select one of the options for **Expires** and select **Add**.
 
-![Screenshot of the Add a client secret dialog](../media/03-aad-portal-newapp-secret.png)
+![Screenshot of the Add a client secret dialog](../media/azure-ad-portal-new-app-secret.png)
 
 Copy the client secret value before you leave this page. You'll need it later in the exercise.
 
 > [!IMPORTANT]
 > This client secret is never shown again, so make sure you copy it now.
 
-![Screenshot of the newly added client secret](../media/03-aad-portal-newapp-secret-03.png)
+![Screenshot of the newly added client secret](../media/azure-ad-portal-new-app-secret-02.png)
 
 Select **Manage > API Permissions**.
 
 Select **Add a permission** and select **Microsoft Graph**.
 
-![Screenshot selecting the Microsoft Graph service](../media/03-aad-portal-newapp-graphscope.png)
+![Screenshot selecting the Microsoft Graph service](../media/azure-ad-portal-new-app-permissions-01.png)
 
 Select **Application Permission**, expand the **User** group, and select **User.Read.All** scope.
 
 Select **Add permissions** to save your changes.
 
-![Screenshot selecting Microsoft Graph scope](../media/03-aad-portal-newapp-graphscope-02.png)
+![Screenshot selecting Microsoft Graph scope](../media/azure-ad-portal-new-app-permissions-02.png)
 
-![Screenshot of the newly added client secret](../media/03-aad-portal-newapp-graphscope-03.png)
+![Screenshot of the newly added client secret](../media/azure-ad-portal-new-app-permissions-03.png)
 
 The application requests an application permission with the **User.Read.All** scope. This permission requires administrative consent.
 
 Select **Grant admin consent for [your tenant name]**, then select **Yes** to consent this application and grant the application access to your tenant using the scopes you specified.
 
-![Screenshot approved admin consent](../media/03-aad-portal-newapp-graphscope-04.png)
+![Screenshot approved admin consent](../media/azure-ad-portal-new-app-permissions-04.png)
 
 ## Create an ASP.NET Core web API project
 
