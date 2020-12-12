@@ -5,14 +5,11 @@ As the lead system engineer and Azure administrator tasked with evaluating WVD, 
 WVD is a desktop and app virtualization service that runs on-premises and in Azure. This unit focuses on the Azure deployments, which:
 
 - Provide virtualization infrastructure as a managed service.
-
-- Mangement of VMs deployed in your Azure subscription.
-
-- Azure AD is use to manage the identity services. 
-
+- Management of VMs deployed in your Azure subscription.
+- Azure AD is use to manage the identity services.
 - Existing tools such as Microsoft Intune or System Center Configuration Manager are supported.
 
-The following image is a typical enterprise deployment architecture diagram that depicts the various components. 
+The following image is a typical enterprise deployment architecture diagram that depicts the various components.
 
 :::image type="content" source="../media/2-wvd-at-scale.png" alt-text="Typical scaled-out WVD deployment that consists of on-premises AD DS, endpoint systems, synchronization to Azure AD using Azure AD Connect, and a Network Gateway for Express Route to Azure. In Azure, the WVD deployment has single-session and multiple-session host pools, Azure files for storage, and the WVD Control Plane." border=“false":::
 
@@ -24,26 +21,26 @@ When you use WVD, it’s important to understand that while Microsoft has alread
 
 Microsoft manages the WVD services described in the following table.
 
-| **Service**                   | **Description**                     |
+| **Service**                   | **Description**                                              |
 | ----------------------------- | ------------------------------------------------------------ |
-| Azure Web Access              | This WVD service enables end users access to virtual desktops and remote apps through a HTML 5-compatible web browser. The operting system that browser is running on does not matter. |
-| Gateway                       | The Remote Connection Gateway service connects remote users to  WVD apps and desktops from any internet-connected device that can run a WVD  client. The client connects to a gateway, which then orchestrates a  connection from a virtual machine (VM) back to the same gateway. |
-| Broker                        | The Broker service manages user connections to virtual  desktops and remote apps. It provides load balancing and reconnection to  existing sessions. |
-| Diagnostics                   | Remote Desktop Diagnostics is an event-based aggregator that  marks each user or administrator action on the WVD deployment as a success or  failure. Administrators can use the Diagnostics service to troubleshoot  errors. |
-| Azure infrastructure services | Microsoft also manages the Azure Infrastructure services -  Networking, Storage, and Compute. |
+| Azure Web Access              | This service enables WVD end users access to virtual desktops and remote apps through a HTML 5-compatible web browser. The operating system that browser is running on does not matter. |
+| Gateway                       | This service connects remote clients to a gateway, which then establishes a connection from a virtual machine (VM) back to the same gateway. |
+| Broker                        | The Broker service provides load balancing and reconnection to virtual desktops and remote apps in existing user sessions. |
+| Diagnostics                   | These Remote Desktop Diagnostics logs events of actions on the WVD deployment as a success or failure. The Diagnostics are used to troubleshoot errors. |
+| Azure infrastructure services | Networking, Storage, and Compute Azure Infrastructure service are managed by Microsoft. |
 
 ## End-user management
 
-The customer manages the components described in the following table.
+The customer manages the following components needed for a successful WVD deployment.
 
-| **Component**                    | **Description**                  |
-| -------------------------------- | --------------------------------- |
-| Profile management               | FSLogix and Azure Files are a solution to containerize  user profiles and provide a fast and stateful experience for users. |
-| User density                     | Specify depth or  breath load balancing when you create a host pool. |
-| VM sizing and scaling policies   | Specify session host VM sizes including GPU-enabled VMs.     |
-| Automation policies  for scaling | Session host pools  are natively integrated with Azure VM Scale. |
-| Networking policies              | Secure your virtual networks by assigning Network Security  Groups (NSGs) to the subnets beneath them. |
-| User management and  identity    | Use Azure AD and  role-based access controls to manage user access to resources. |
+| **Component**                   | **Description**                                              |
+| ------------------------------- | ------------------------------------------------------------ |
+| Profile management              | FSLogix and Azure Files are a solution that provide a fast and stateful experience for users through containerize user profiles. |
+| User density                    | On the creation of a Host pool the type of load balancing is defined as either depth or breath. |
+| VM sizing and scaling policies  | VM sizing components including GPU-enabled VMs.              |
+| Automation policies for scaling | Session host pools integrated with Azure VM Scale that manages a group of load-balanced VMs. |
+| Networking policies             | Defining and assigning Network Security Groups (NSGs) to filter network traffic. |
+| User management and identity    | Use Azure AD and role-based access controls to provide fine-grained authorization. |
 
 [!NOTE] WVD requires AD DS. An AD DS domain-joined session host takes advantage of Azure AD security features, such as conditional access, multifactor authentication, and the Intelligent Security Graph.
 
@@ -53,22 +50,17 @@ WVD requires integration with Azure AD. This integration allows for the incorpor
 
 The following security processes and components contribute to this Azure AD Identity as a Service architecture:
 
-- Static or dynamic conditional access policies
+- Conditional access policies both static or dynamic
+- Using multifactor authentication enhanced authentication
+- Subscribing to the standard SKU of Azure Security Center for its integrated vulnerability assessment
+- Strong credential management services, and policies.
 
-- Enhanced authentication by using multifactor authentication
+The following load balancing methods are available in WVD. Breath-first and Depth-first load-balancing permits the customization for WVD host pools to match your deployment needs.
 
-- Integrated vulnerability assessment using Azure Security Center
-
-- Credential management includes services, policies, and practices that issue, track, and update access to resources or services. 
-
-The following load balancing methods are available in WVD:
-
-- Breadth-first load balancing allows you to evenly distribute user sessions across the session hosts in a host pool.
-
-- Depth-first load balancing allows you to saturate a session host with user sessions in a host pool. When the first session host reaches its session limit threshold, the load balancer directs any new user connections to the next session host in the host pool until it reaches its limit, and so on.
+- Breadth-first is the default configuration that distributed new user sessions throughout the hosts in a host pool. This gives each user full control of the VM without sharing any resources.
+- Depth-first connects new users sessions to multi-session host till the maximum connections is reached. This is typically used to reduce cost.
 
 Several Remote Desktop clients such as Windows Desktop, Microsoft Store Client, and the most popular third-party OS devices include support for WVD. You can:
 
-- Access a full desktop in Windows 10 Enterprise multi-session, Windows 10 Enterprise, Windows Server 2012 R2 and newer, Windows 7 Enterprise Full Desktop for compatibility.
-
+- Access a full desktop in Windows 10 Enterprise multi-session, Windows 10 Enterprise, Windows Server 2012 R2 and newer, Windows 7 Enterprise Full Desktop for backward compatibility.
 - Access just the application from a preconfigured application group in a host pool.
