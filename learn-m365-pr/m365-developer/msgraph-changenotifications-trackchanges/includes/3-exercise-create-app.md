@@ -55,7 +55,7 @@ Select **Add permissions** to save your changes.
 
 ![Screenshot selecting Microsoft Graph scope](../media/azure-ad-portal-new-app-permissions-02.png)
 
-![Screenshot of the newly added client secret](../media/azure-ad-portal-new-app-permissions-03.png)
+![Screenshot of the "not granted for Contoso" admin consent notification](../media/azure-ad-portal-new-app-permissions-03.png)
 
 The application requests an application permission with the **User.Read.All** scope. This permission requires administrative consent.
 
