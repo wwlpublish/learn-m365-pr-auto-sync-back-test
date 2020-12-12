@@ -24,7 +24,7 @@ However, this can be challenging to go to each of these individual services with
 
 ### Microsoft Graph simplifies access to Microsoft 365 data
 
-![Microsoft Graph - gateway to your data in the Microsoft cloud](../media/02-msgraph-gateway-o365.png)
+![Microsoft Graph simplifies access to Microsoft 365 data](../media/02-msgraph-gateway-o365.png)
 
 One of the benefits of Microsoft Graph is that it serves as a proxy endpoint to all of these other services. Microsoft Graph encompass things such as Office 365, Windows 10 enterprise mobility and security (EMS), and it brings all of these different services under one unified endpoint: **graph.microsoft.com**.
 
