@@ -12,7 +12,7 @@ In this module, you'll learn how to work with the Microsoft Graph .NET SDK to cr
 
 ## Learning objectives
 
-By the end of this module, you will be able to:
+By the end of this module, you'll be able to:
 
 - Demonstrate how to create and configure an ASP.NET MVC application to authenticate users and obtain tokens from Azure AD
 - Demonstrate how to get display a user's events in their calendar

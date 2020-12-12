@@ -137,8 +137,14 @@ namespace graph_tutorial
                 debug = ex.Message;
             }
 
+            var queryString = $"message={message}&debug={debug}";
+            if (queryString.Length > 2048)
+            {
+                queryString = queryString.Substring(0, 2040) + "...";
+            }
+
             notification.HandleResponse();
-            notification.Response.Redirect($"/Home/Error?message={message}&debug={debug}");
+            notification.Response.Redirect($"/Home/Error?{queryString}");
         }
     }
 }
@@ -570,11 +576,11 @@ protected override void OnActionExecuting(ActionExecutingContext filterContext)
 
 Start the server and go through the sign-in process. You should end up back on the home page, but the UI should change to indicate that you're signed-in.
 
-![A screenshot of the home page after signing in](../media/05-add-aad-auth-01.png)
+![A screenshot of the home page after signing in](../media/05-app-run-01.png)
 
 Select the user avatar in the top-right corner to access the **Sign Out** link. Selecting **Sign Out** resets the session and returns you to the home page.
 
-![A screenshot of the dropdown menu with the Sign Out link](../media/05-add-aad-auth-02.png)
+![A screenshot of the dropdown menu with the Sign Out link](../media/05-app-run-01.png)
 
 ## Refreshing tokens
 
