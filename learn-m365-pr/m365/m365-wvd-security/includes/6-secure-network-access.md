@@ -1,18 +1,17 @@
 WVD provides the ability to host client sessions on the session hosts running on Azure. As described previously, Microsoft manages portions of the services on the customer's behalf and provides secure endpoints for connecting clients and session hosts. 
 
-WVD uses Remote Desktop Protocol (RDP) to provide remote display and input capabilities over network connections. In previous versions of Remote Desktop Services (RDS) where a Remote Desktop Gateway was deployed, the process consisted of the following steps:
+WVD uses Remote Desktop Protocol (RDP) to provide remote display and input capabilities over network connections. The connection data flow for WVD starts with a DNS lookup for the closes Azure data center.
 
-1. The end user connected to the remote system using the RDS client over the traditional port of 443. 
-
-1. When authenticated in Active Directory, a token was returned to the RDS client. 
+1. When authenticated in Azure AD, a token was returned to the RDS client. 
 
 1. The gateway checked the token with the Connection Broker. 
 
 1. The Broker queried the Azure SQL database for resources assigned to the user. 
 
-1. If the resources were available, the gateway created a secure inbound session on port 3389 to the VM to be accessed.
+1. The Gateway and the Broker select the session host for the connected client. 
+1. The session host then creates a reverse connection to the client by using the WVD Gateway. 
 
-In WVD running in Azure, the first four steps are the same, but the fifth step is different. The Gateway and the Broker select the session host for the connected client. The session host then creates a reverse connection to the client by using the WVD Gateway. No inbound ports are opened. In this version, the Gateway is acting as an intelligent reverse proxy. The Gateway manages all session connectivity, with nothing but pixels reaching the client. The following image illustrates this five-step process for WVD running in Azure.
+No inbound ports are opened. In this version, the Gateway is acting as an intelligent reverse proxy. The Gateway manages all session connectivity, with nothing but pixels reaching the client. The following image illustrates this five-step process for WVD running in Azure.
 
 :::image type="content" source="../media/6-wvd-sign-on-flow.png" alt-text="The WVD architecture with access requests and the resulting data flow. The arrows depict the five steps described in the preceding text." border="false":::
 
