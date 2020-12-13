@@ -28,7 +28,7 @@ quiz:
       isCorrect: false
       explanation: "That's incorrect. The end user needs to manage this."
       
-  - content: "Why is it a security recommended to use RemoteApp?"
+  - content: "Why is it a security recommendation to use RemoteApp?"
     choices:
     - content: "For faster access."
       isCorrect: false
