@@ -2,7 +2,7 @@ Microsoft Graph has built-in throttling to protect its resources from being over
 
 ## Learning objectives
 
-By the end of this module, you will be able to:
+By the end of this module, you'll be able to:
 
 - Explain how Microsoft Graph maintains resource health
 - Identify when Microsoft Graph throttles requests

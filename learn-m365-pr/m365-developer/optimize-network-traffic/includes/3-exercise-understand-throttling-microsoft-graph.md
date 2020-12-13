@@ -1,4 +1,4 @@
-In this exercise, you'll create a new Azure AD web application registration using the Azure Active Directory admin center, a .NET Core console application and query Microsoft Graph. You will issue many requests in parallel to trigger your requests to be throttled. This application will allow you to see the response you will receive.
+In this exercise, you'll create a new Azure AD web application registration using the Azure Active Directory admin center, a .NET Core console application and query Microsoft Graph. You'll issue many requests in parallel to trigger your requests to be throttled. This application will allow you to see the response you'll receive.
 
 ## Create an Azure AD application
 
@@ -6,40 +6,40 @@ Open a browser and navigate to the [Azure Active Directory admin center (https:/
 
 Select **Azure Active Directory** in the left-hand navigation.
 
-  ![Screenshot of the App registrations](../media/aad-portal-home.png)
+  ![Screenshot of the App registrations](../media/azure-ad-portal-home.png)
 
 Select **Manage > App registrations** in the left-hand navigation.
 
 On the **App registrations** page, select **New registration**.
 
-  ![Screenshot of App Registrations page](../media/aad-portal-newapp-00.png)
+  ![Screenshot of App Registrations page](../media/azure-ad-portal-new-app-00.png)
 
 On the **Register an application** page, set the values as follows:
 
 - **Name**: Graph Console App
 - **Supported account types**: Accounts in this organizational directory only (Contoso only - Single tenant)
 
-    ![Screenshot of the Register an application page](../media/aad-portal-newapp-01.png)
+    ![Screenshot of the Register an application page](../media/azure-ad-portal-new-app-01.png)
 
     Select **Register**.
 
-On the **Graph Console App** page, copy the value of the **Application (client) ID** and **Directory (tenant) ID**; you will need these in the application.
+On the **Graph Console App** page, copy the value of the **Application (client) ID** and **Directory (tenant) ID**; you'll need these in the application.
 
-  ![Screenshot of the application ID of the new app registration](../media/aad-portal-newapp-details.png)
+  ![Screenshot of the application ID of the new app registration](../media/azure-ad-portal-new-app-details.png)
 
 Select **Manage > Authentication**.
 
 In the **Platform configurations** section, select the **Add a platform** button. Then in the **Configure platforms** panel, select the **Mobile and desktop applications** button:
 
-![Screenshot of the Platform configurations section](../media/aad-portal-newapp-02.png)
+![Screenshot of the Platform configurations section](../media/azure-ad-portal-new-app-02.png)
 
 In the **Redirect URIs** section of the **Configure Desktop + devices** panel, select the entry that ends with **nativeclient**, and then select the **Configure** button:
 
-![Screenshot of the Configure Desktop + devices panel](../media/aad-portal-newapp-02a.png)
+![Screenshot of the Configure Desktop + devices panel](../media/azure-ad-portal-new-app-03.png)
 
 In the **Authentication** page, scroll down to the **Default client type** section and set the toggle to **Yes**.
 
-![Screenshot of the Default client type section](../media/aad-portal-newapp-03.png)
+![Screenshot of the Default client type section](../media/azure-ad-portal-new-app-04.png)
 
 Select **Save** in the top menu to save your changes.
 
@@ -49,23 +49,23 @@ After creating the application, you need to grant it the necessary permissions t
 
 Select **API Permissions** in the left-hand navigation panel.
 
-![Screenshot of the API Permissions navigation item](../media/aad-portal-newapp-permissions-01.png)
+![Screenshot of the API Permissions navigation item](../media/azure-ad-portal-new-app-permissions-01.png)
 
 Select the **Add a permission** button.
 
 In the **Request API permissions** panel that appears, select **Microsoft Graph** from the **Microsoft APIs** tab.
 
-![Screenshot of Microsoft Graph in the Request API permissions panel](../media/aad-portal-newapp-permissions-03.png)
+![Screenshot of Microsoft Graph in the Request API permissions panel](../media/azure-ad-portal-new-app-permissions-02.png)
 
 When prompted for the type of permission, select **Delegated permissions**.
 
-![Screenshot of the Mail.Read permission in the Request API permissions panel](../media/aad-portal-newapp-permissions-04.png)
+![Screenshot of the Mail.Read permission in the Request API permissions panel](../media/azure-ad-portal-new-app-permissions-03.png)
 
 Enter **Mail.R** in the **Select permissions** search box and select the **Mail.Read** permission, followed by the **Add permission** button at the bottom of the panel.
 
 In the **Configured Permissions** panel, select the button **Grant admin consent for [tenant]**, and then select **Yes** in the confirmation dialog.
 
-![Screenshot of the Configured permissions panel](../media/aad-portal-newapp-permissions-05.png)
+![Screenshot of the Configured permissions panel](../media/azure-ad-portal-new-app-permissions-04.png)
 
 > [!NOTE]
 > The option to **Grant admin consent** here in the Azure AD admin center is pre-consenting the permissions to the users in the tenant to simplify the exercise. This approach allows the console application to use the [resource owner password credential grant](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth-ropc), so the user isn't prompted to grant consent to the application that simplifies the process of obtaining an OAuth access token. You could elect to implement alternative options such as the [device code flow](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth2-device-code) to utilize dynamic consent as another option.
@@ -409,11 +409,11 @@ dotnet run
 > [!TIP]
 > The console app may take a one or two minutes to complete the process of authenticating and obtaining an access token from Azure AD and issuing the requests to Microsoft Graph.
 
-After entering the username and password of a user, you will see the results written to the console:
+After entering the username and password of a user, you'll see the results written to the console:
 
-![Screenshot of the console application with no query parameters](../media/app-run-01.png)
+![Screenshot of the console application with no query parameters](../media/03-app-run-01.png)
 
-There is a mix of success and failure indicators in the console. The summary states only 39% of the requests were successful.
+There's a mix of success and failure indicators in the console. The summary states only 39% of the requests were successful.
 
 After the results, the console has two lines that begin with **Failed response**. Notice the code states **TooManyRequests** that is the representation of the HTTP status code 429. This status code is the indication that your requests are being throttled.
 
