@@ -13,7 +13,7 @@ This module will also cover other query parameters that can be used for combinin
 
 ## Learning objectives
 
-By the end of this module, you will be able to:
+By the end of this module, you'll be able to:
 
 - Demonstrate how to manipulate REST queries with query parameters
 - Create queries that expand complex entities
