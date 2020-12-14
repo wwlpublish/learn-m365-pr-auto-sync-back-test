@@ -36,7 +36,7 @@ Microsoft Intune can be used to create and check for compliance, and deploy apps
 |**Functionality**| **Description**|
 | --------------------------------- | ------------------------------------------------------------ |
 |Device management|BYOD or organization-owned enrolled devices in Intune, receive rules and settings through policies that you configure to match your organizations security policies. |
-|App management|Mobile application management (MAM) in Intune can be bring app management on organization-owned devices and personal devices.|
+|App management|Mobile application management (MAM) in Intune can bring app management on organization-owned devices and personal devices.|
 |Compliance and conditional access|Intune integrates with Azure AD to enable a broad set of access control scenarios.|
 
 Application control moves away from an application trust model that assumes all applications are trustworthy to a model where applications must earn trust before they can run. Windows 10 includes two technologies that you can use for application control: Windows Defender Application Control and AppLocker.
