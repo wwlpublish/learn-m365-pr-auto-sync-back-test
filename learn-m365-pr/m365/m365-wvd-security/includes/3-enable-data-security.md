@@ -15,30 +15,27 @@ When you sign in to WVD, the container of a user profile dynamically attaches to
 
 FSLogix address key issues with non-persistent profiles. In summary, FSLogix enables local profiles to act like roaming profiles and offers the following key advantages:
 
-- Improved performance. FSLogix profile containers offer high performance and address historic blocked cached exchange mode.
+- Performance Improvements. FSLogix profile containers offer high performance and address historic blocked cached exchange mode.
 
 - Support for Microsoft OneDrive for Business. Previously, this support was not included in non-persistent VDI environments.
 
 - Additional folders. FSLogix provides the ability to extend user profiles to provision enterprise-grade SMB volumes by using the Azure NetApp Files service. Azure NetApp Files supports SMB 2.1 and SMB 3.1.
 
 ## Secure your WVD data with Azure Disk Encryption
-<!--LM: When referring to the service, Azure Virtual Network is a capitalized term. You can use lowercase "virtual network" when generic.-->
-As previously mentioned, Azure NetApp Files is an Azure native service that is deployed into the Azure virtual network where the service is available and used by WVD. All Azure NetApp Files volumes are encrypted using the Federal Information Processing Standards Publications (FIPS PUBS)140-2 standard. The Azure NetApp Files service manages all keys and generates a unique XTS-AES-256 data encryption key for each volume. An encryption key hierarchy is used to encrypt and protect all volume keys. These encryption keys are never available or reported in an unencrypted format and are deleted immediately when a volume is deleted.
+
+As previously mentioned, Azure NetApp Files is an Azure native service that is deployed into the Azure Virtual Network where the service is available and used by WVD. All Azure NetApp Files volumes are encrypted using the Federal Information Processing Standards Publications (FIPS PUBS)140-2 standard. The Azure NetApp Files service manages all keys and generates a unique XTS-AES-256 data encryption key for each volume. An encryption key hierarchy is used to encrypt and protect all volume keys. These encryption keys are never available or reported in an unencrypted format and are deleted immediately when a volume is deleted.
 
 Support for customer-managed keys (Bring Your Own Key) using Azure Dedicated HSM is available. Check for availability in your region.
 
 ## Enable more secure data access when using Azure Files
 
-You can use the Azure Private Link service to improve data access security. An Azure private endpoint is the fundamental building block for Private Link. It enables Azure resources such as VMs to privately communicate with Private Link resources. Traffic between your virtual network and the service travels the Microsoft backbone network. It's no longer necessary to expose your service to the public internet. You can create your own private link service in your virtual network and deliver it to your organization.
+You can use the Azure Private Link service to improve data access security. An Azure private endpoint is the bases  for Private Link. It enables Azure resources to privately communicate with Private Link resources. In WVD environment, it enhances secure access. Traffic between your virtual network and the service travels the Microsoft high speed backbone network. It's no longer necessary to expose your service to the public internet. You can create your own private link service in your virtual network and deliver it to your organization.
 
 Azure private endpoints help to secure your Azure resources by removing the need for a public endpoint for Azure Files and by preventing data exfiltration from your network boundary.
 
 Azure Private link provides the following benefits:
 
-- Private access to services on the Azure platform. You can connect your virtual network to services in Azure without a public IP address at the source or destination. The Private Link platform will manage the connectivity between the consumer and services over the Azure backbone network.
-
+- Protection against data leakage. A private endpoint is mapped to an single instance of a resource instead of the entire service. Consumers can only connect to the specific resource, thereby preventing data leakage.
+- Restricted access to Azure services. Connections from your virtual network to services in Azure without the use of a public IP address at the source or destination. The Private Link platform will manage the connectivity between the consumer and services over the Azure backbone network.
 - Access to on-premises or peered networks. You can access services running in Azure from an on-premises location over ExpressRoute private peering, VPN tunnels, and peered virtual networks using private endpoints. There is no need to traverse the internet to reach the service.
-
-- Protection against data leakage. A private endpoint is mapped to an instance of a PaaS resource instead of the entire service. Consumers can only connect to the specific resource, thereby preventing data leakage.
-
-- Global reach. You can connect privately to services running in other regions.
+- Global access. Connectivity is private to services running in other regions.
