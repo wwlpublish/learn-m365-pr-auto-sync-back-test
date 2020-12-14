@@ -11,7 +11,7 @@ WVD is a desktop and app virtualization service that runs on-premises and in Azu
 
 The following image is a typical enterprise deployment architecture diagram that depicts the various components.
 
-:::image type="content" source="../media/2-wvd-at-scale.png" alt-text="Typical scaled-out WVD deployment that consists of on-premises AD DS, endpoint systems, synchronization to Azure AD using Azure AD Connect, and a Network Gateway for Express Route to Azure. In Azure, the WVD deployment has single-session and multiple-session host pools, Azure files for storage, and the WVD Control Plane." border=“false":::
+:::image type="content" source="../media/2-wvd-at-scale.png" alt-text="Typical scaled-out WVD deployment that consists of on-premises AD DS, endpoint systems, synchronization to Azure AD using Azure AD Connect, and a Network Gateway for Express Route to Azure. In Azure, the WVD deployment has single-session and multiple-session host pools, Azure files for storage, and the WVD Control Plane." border="false":::
 
 WVD is deployed in a hierarchical workspace. In a traditional on-premises Virtual Desktop Infrastructure (VDI) deployment, the customer would be responsible for all aspects of security. However, with WVD, these responsibilities are shared between the customer and Microsoft. Microsoft helps secure the physical datacenters, the physical network, the physical hosts that Azure runs on, and the virtualization control plane, which includes WVD services running in Azure.
 
