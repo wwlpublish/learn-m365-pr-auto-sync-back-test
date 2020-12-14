@@ -44,7 +44,7 @@ You can create an MSIX package using one of two methods:
 - Converting existing installers
 - Generating MSIX from source code
 
-# MSIX Packaging Tool
+## MSIX Packaging Tool
 
 You can use the MSIX Packaging Tool to create an MSIX application package from any of the following installers:
 
@@ -77,6 +77,8 @@ When you run the MSIX Packaging Tool on the clean computer, you’ll be prompted
 - Application package. Use this option to create an MSIX package either from existing installers or through manual installation of the application payload.
 - Modification package. Use this option to modify existing MSIX packages. This option might require you to go through the initial packaging steps.
 - Package editor. Use this option to make changes to the existing package without running the installers again. For example, you can edit the manifest of the package.
+
+:::image type="content" source="../media/02-Screenshot-MSIX-packaging-tool.PNG" alt-text="Screenshot of MSIX packaging tool." border="true":::
 
 Use the following steps to create the MSIX packages.
 
