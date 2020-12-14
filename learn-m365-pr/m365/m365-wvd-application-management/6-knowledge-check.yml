@@ -13,36 +13,36 @@ durationInMinutes: 5
 quiz:
    title: Check your knowledge
    questions:
-   - content: "Which of these steps is not part of testing an MSIX app attach.?"
+   - content: "Which of these steps is not part of testing an MSIX app attach?"
      choices:
      - content: "Destage"
        isCorrect: false
-       explanation: "Destage is part of testing MSIX app attach and removes the application from the computer."
+       explanation: "Destage is part of testing an MSIX app attach and removes the application from the computer."
      - content: "Register"
        isCorrect: false
-       explanation: "2.	Register is part of the testing MSIX app attach and makes the app available for the user."
+       explanation: "Register is part of testing an MSIX app attach and makes the app available for the user."
      - content: "Publish"
        isCorrect: true
-       explanation: "You don;t publish the application in the test phase."
-   - content: "On which of the following operating systems you can run MSIX packages?"
+       explanation: "You don't publish the application in the test phase."
+   - content: "On which of the following operating systems can you run MSIX packages?"
      choices:
-     - content: "Windows 7 Enteprise Edition"
+     - content: "Windows 7 Enterprise Edition"
        isCorrect: false
-       explanation: "MSIX is currently supported on Windows 10 version 1709 and later, Windows Server 2019 LTSC and later."
+       explanation: "MSIX is currently supported on Windows 10 version 1709 and later, and Windows Server 2019 LTSC and later."
      - content: "Windows 10, version 1709, and later"
        isCorrect: true
-       explanation: "MSIX is currently supported on Windows 10 version 1709 and later, Windows Server 2019 LTSC and later."
+       explanation: "MSIX is currently supported on Windows 10 version 1709 and later, and Windows Server 2019 LTSC and later."
      - content: "Windows 8.1"
        isCorrect: false
-       explanation: "MSIX is currently supported on Windows 10 version 1709 and later, Windows Server 2019 LTSC and later."
-   - content: " MSIX app attach is?"
+       explanation: "MSIX is currently supported on Windows 10 version 1709 and later, and Windows Server 2019 LTSC and later."
+   - content: "What is MSIX app attach?"
      choices:
      - content: "Application virtualization technology."
        isCorrect: false
-       explanation: "MSIX app attach is Microsoft layering solution for delivering Applications to a modern workspace."
-     - content: "Application compatibility solution."
+       explanation: "MSIX app attach is a Microsoft layering solution for delivering applications to a modern workspace."
+     - content: "An application compatibility solution."
        isCorrect: false
-       explanation: "MSIX app attach is Microsoft layering solution for delivering Applications to a modern workspace."
-     - content: "Layering solution for delivering Applications "
+       explanation: "MSIX app attach is a Microsoft layering solution for delivering applications to a modern workspace."
+     - content: "A layering solution for delivering applications."
        isCorrect: true
-       explanation: "MSIX app attach is Microsoft layering solution for delivering Applications to a modern workspace."
+       explanation: "MSIX app attach is a Microsoft layering solution for delivering applications to a modern workspace."
