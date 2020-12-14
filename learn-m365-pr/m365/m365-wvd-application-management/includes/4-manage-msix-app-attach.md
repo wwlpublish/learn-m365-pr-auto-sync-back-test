@@ -146,6 +146,8 @@ If you are publishing MSIX app attach to Remote Desktops, select the existing **
 To publish MSIX application to remote application group (RAG) follow the similar procedure to select **Application Group**. 
 From the toolbar select **+Add**, provide name of the remote application group, and then in the Applications tab add the existing MSIX application, by selecting the application source to be MSIX package.
 
+:::image type="content" source="../media/04-Screenshot-of-Application-groups-in-WVD.PNG" alt-text="Screenshot of Application grous in WVD." border="true":::
+
 ### Assign users or groups
 
 Use the Assignments tab in the DAG or RAG to assign the access to MSIX app for your users or groups.
