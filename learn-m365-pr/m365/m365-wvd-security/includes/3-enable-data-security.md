@@ -25,7 +25,8 @@ FSLogix address key issues with non-persistent profiles. In summary, FSLogix ena
 
 As previously mentioned, Azure NetApp Files is an Azure native service that is deployed into the Azure Virtual Network where the service is available and used by WVD. All Azure NetApp Files volumes are encrypted using the Federal Information Processing Standards Publications (FIPS PUBS) 140-2 standard. The Azure NetApp Files service manages all keys and generates a unique XTS-AES-256 data encryption key for each volume. An encryption key hierarchy is used to encrypt and protect all volume keys. These encryption keys are never available or reported in an unencrypted format and are deleted immediately when a volume is deleted.
 
-Support for customer-managed keys (Bring Your Own Key) using Azure Dedicated HSM is available. Check for availability in your region.
+> [!NOTE] 
+> Support for customer-managed keys (Bring Your Own Key) using Azure Dedicated HSM is available. Check for availability in your region.
 
 ## Enable more secure data access when using Azure Files
 
