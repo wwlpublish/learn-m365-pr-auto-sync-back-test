@@ -23,9 +23,9 @@ Customers can take several actions and use a variety of tools to help secure the
 
 One of the best practices is to enable endpoint protection, which you can do by using Microsoft Defender for Endpoint, previously known as Microsoft Defender Advanced Threat Protection. Microsoft Defender for Endpoint is typically used on-premises but can also be used in a VDI environment.
 
-To deploy Microsoft Defender for Endpoint on your WVD VMs in their host pools, you can enroll the VMs into Azure Security Center. Security Center provides a license as part of its standard offering. You should also use auto provisioning. The auto-provisioning settings in Security Center have a toggle for each type of supported extension. When you enable auto-provisioning of an extension, you assign the appropriate DeployIfNotExists policy to make sure that the extension is provisioned on all existing and future resources of that type.
+To deploy Microsoft Defender for Endpoint on your WVD VMs in their host pools, you can enroll the VMs into Azure Security Center. Security Center provides a license as part of its standard offering. You should also use auto provisioning. The auto-provisioning settings in Security Center have a toggle for each type of supported extension. When you enable auto-provisioning of an extension, you assign the appropriate **DeployIfNotExists** policy to make sure that the extension is provisioned on all existing and future resources of that type.
 
-{!Note] Enable auto-provisioning of the Log Analytics agent. When automatic provisioning is turned on for the Log Analytics agent, Security Center deploys the agent on all supported Azure VMs and any new ones that are created.
+[!NOTE] Enable auto-provisioning of the Log Analytics agent. When automatic provisioning is turned on for the Log Analytics agent, Security Center deploys the agent on all supported Azure VMs and any new ones that are created.
 
 ### Microsoft Endpoint Manager integration with Intune
 
@@ -35,7 +35,7 @@ Microsoft Intune can be used to create and check for compliance, and deploy apps
 
 |**Functionality**| **Description**|
 | --------------------------------- | ------------------------------------------------------------ |
-|Device management|BYOD or organization-owned enrolled devices in Intune, receive rules and settings through policies that you configure to match your organizations security policies. |
+|Device management|BYOD or organization-owned enrolled devices in Intune receive rules and settings through policies that you configure to match your organization's security policies. |
 |App management|Mobile application management (MAM) in Intune can bring app management on organization-owned devices and personal devices.|
 |Compliance and conditional access|Intune integrates with Azure AD to enable a broad set of access control scenarios.|
 
@@ -47,9 +47,9 @@ Windows 10 introduced Windows Defender Application Control, which organizations 
 
 ## AppLocker
 
-AppLocker should be part of your overall application control strategy by allowing on predefined applications t run on your systems.
+AppLocker should be part of your overall application control strategy by allowing predefined applications to run on your systems.
 
-AppLocker control policies restriction rules based on file attributes such as the digital signature, product name, file name, and file version. The default rules block many scripts, Windows installer packages, and executables.
+AppLocker control policies restriction rules are based on file attributes such as the digital signature, product name, file name, and file version. The default rules block many scripts, Windows installer packages, and executables.
 
 AppLocker includes default rules for each rule collection to ensure that the files required for Windows to operate properly are allowed in an AppLocker rule collection. The default rules also allow members of the local **Administrators** group to run all Windows Installer files. The default rules are:
 - Allow members of the Everyone group to run digitally signed Windows Installer files.
