@@ -1,4 +1,4 @@
-s the lead system engineer and Azure administrator tasked with evaluating WVD, it is important that you understand its architecture and security capabilities. You also need to have a clear understanding of Microsoft's responsibilities and those of the customers.
+As the lead system engineer and Azure administrator tasked with evaluating WVD, it is important that you understand its architecture and security capabilities. You also need to have a clear understanding of Microsoft's responsibilities and those of the customers.
 
 ## WVD architecture
 
