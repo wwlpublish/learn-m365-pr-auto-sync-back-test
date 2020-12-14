@@ -36,7 +36,7 @@ The customer manages the following components needed for a successful WVD deploy
 |**Component**|**Description**|
 | ------------------------------- | ------------------------------------------------------------ |
 |User profile management|FSLogix and Azure Files are a solution that provide a fast and stateful experience for users through containerize user profiles.|
-|User host access|On the creation of a Host pool the type of load balancing is defined as either depth or breadth.|
+|User host access|On the creation of a post pool the type of load balancing is defined as either depth or breadth.|
 |Sizing and scaling policies for VM|VM sizing components including GPU-enabled VMs.|
 |Scaling policies|Session host pools integrated with Azure VM Scale that manages a group of load-balanced VMs.|
 |Networking policies|Defining and assigning Network Security Groups (NSGs) to filter network traffic.|

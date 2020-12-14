@@ -32,7 +32,7 @@ quiz:
     choices:
     - content: "For faster access."
       isCorrect: false
-      explanation: "That's incorrect. Access might be faster, but that is not the reason for the security recommendation."
+      explanation: "That's incorrect. Access might be faster, but that's not the reason for the security recommendation."
     - content: "Reduced attack surface area."
       isCorrect: true
       explanation: "That's correct. RemoteApp reduces risk by only letting the user work with a subset of the remote machine exposed."
