@@ -2,7 +2,7 @@ Contoso wanted to deploy a solution that supported their employees working remot
 
 This module addressed how to add strict identity and device verification regardless of the location of the user accessing company resources. This is the basis of the Zero Trust security model. In this module, you learned how to protect corporate data and resources while ensuring that organizations can build a modern workplace by using technologies such as WVD that empower employees to be productive anytime, anywhere.
 
-In this module, you reviewed many of the security features that create an extra layer of security that doesn’t rely only on the device itself. Some of the main points were:
+In this module, you reviewed many of the security features that create an extra layer of security that doesn’t rely only on the device itself. The main points were:
 
 - Security aspects of WVD architecture, including a shared responsibility model
 
@@ -20,7 +20,7 @@ WVD offers significant benefits to businesses. One of the key benefits is the fl
 
 ## Learn more
 
-You can learn more by reviewing the following documents. 
+You can learn more by reviewing the following documents.
 
 - [Use Microsoft Teams on Windows Virtual desktop](https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd?azure-portal=true)
 

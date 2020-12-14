@@ -2,19 +2,19 @@ In this exercise, you’ll learn how to enable AppLocker. In an enterprise, this
 
 <!--Video:here -->
 
-## Prerequisites 
+## Prerequisites
 
 To perform this exercise, you require:
 
--  An Azure subscription
+- An Azure subscription
 
--  The Remote Desktop app
+- The Remote Desktop app
 
-You can define and deploy VMs on Azure in several ways. You can use the Azure portal, a script (using the Azure Command Line Interface (CLI) or Azure PowerShell), or through an Azure Resource Manager template. This exercise uses the Azure CLI.
+You can define and deploy VMs on Azure in several ways. You can use the Azure portal, a script (using the Azure Command Line Interface [CLI] or Azure PowerShell), or through an Azure Resource Manager template. This exercise uses the Azure CLI.
 
 ## Subtask 1: Create a Windows VM by using the Azure Command Line Interface
 
-1. Sign into the [Azure portal](https://portal.azure.com/) using your Azure credentials.
+1. Sign in to the [Azure portal](https://portal.azure.com/) using your Azure credentials.
 
 1. Select the PowerShell icon next to the search box. A **Welcome to Azure Cloud Shell banner** opens.
 
@@ -22,17 +22,17 @@ You can define and deploy VMs on Azure in several ways. You can use the Azure po
 
 1. If prompted, select **Create storage** and wait for the command prompt. A **Welcome to Cloud Shell** message and a command prompt window should become available.
 
-### Create a resource Group
+### Create a resource group
 
 You now need to create a resource group. An Azure resource group is a logical container into which Azure resources are deployed and managed. The following example creates a resource group named **myResourceGroup** in the **westus** location. Depending on your location, you might select a different option.
 
-1. Enter the following command in the PowerShell CLI: 
+1. Enter the following command in the PowerShell CLI:
 
 	```az group create -n myResourceGroup -l westus```
 
 1. Verify your new resource group by using the **Get-AZResourceGroup** cmdlet. The **ProvisioningState : Succeeded** message should confirm successful creation.
 
-### Create a Windows Server 2016 VM 
+### Create a Windows Server 2016 VM
 
 1. Enter the following commands into the CLI window:
 
@@ -63,7 +63,7 @@ You now need to create a resource group. An Azure resource group is a logical co
 
     }
     ```
-1. The public address is the address to **use** in your RDP connection. Note it down along with your administrator password.
+1. The public address is the address to use in your RDP connection. Note the address with your administrator password.
 
 ## Subtask 2: Connect to VM
 
@@ -71,7 +71,7 @@ Use the following steps to create a remote desktop session from your local compu
 
 1. On a Windows desktop, enter **mstsc** in your search window and select the Remote Desktop Connection app.
 
-1. Select **Show Options**. Enter the IP address of the VM and your administrator credentials, and then select **Connect**. The next step is to add a standard user to the **myVM** server. Do not select to save the sign-on configuration.
+1. Select **Show Options**. Enter the IP address of the VM and your administrator credentials, and then select **Connect**. The next step is to add a standard user to the **myVM** server. Do not choose to save the sign-on configuration.
 
 ## Subtask 3: Add a standard user
 
@@ -85,13 +85,13 @@ Use the following steps to create a remote desktop session from your local compu
 
 1. Select **Create,** and then select **Close.**
 
-1. Select the **Group** option, and then search for **Remote Desktop Users**. 
+1. Select the **Group** option, and then search for **Remote Desktop Users**.
 
-1. Right-click **Remote Desktop Users** or activate its context menu, and then select **Add to Group**. 
+1. Right-click **Remote Desktop Users** or activate its context menu, and then select **Add to Group**.
 
 1. In the **Remote Desktop Users Properties interface** dialog box, select **Add**.
 
-1. Add the standard user you created to this group. 
+1. Add the standard user you created to this group.
 
 1. Select **OK**.
 
@@ -103,11 +103,11 @@ Use the following steps to create a remote desktop session from your local compu
 
 1. Under **Security Setting**, select **Application Control Policies**.
 
-1. Select **AppLocker**. The AppLocker interface is in the details pane.
+1. Select **AppLocker**. The AppLocker interface is in the **details** pane.
 
 1. Select **Configure rule enforcement**. The AppLocker Properties interface becomes available.
 
-1. In the **Enforcement** tab, these default rules are not enabled. Select the check boxes to enable the **Executable rules.** 
+1. In the **Enforcement** tab, these default rules are not enabled. Select the check boxes to enable the **Executable rules.**
 
 1. Repeat the previous step for **Windows Installer Rules**, **Script Rules,** and **Package app Rules**.
 
@@ -117,11 +117,11 @@ Use the following steps to create a remote desktop session from your local compu
 
 Test the deployment by using the following steps:
 
-1. Sign out as an administrator and sign in using the non-administrative user account you created earlier.
+1. Sign out as an administrator and sign in using the non-administrative user account you created previously.
 
-1. Access the internet and try to download your favorite app. 
+1. Access the internet and try to download your favorite app.
 
-1. You should not be allowed to install the app. 
+1. You should not be allowed to install the app.
 
 ## Clean up the resources
 
