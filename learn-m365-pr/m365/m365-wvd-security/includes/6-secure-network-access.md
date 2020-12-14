@@ -14,7 +14,7 @@ WVD uses Remote Desktop Protocol (RDP) to provide remote display and input capab
 
 No inbound ports are opened. In this version, the Gateway is acting as an intelligent reverse proxy. The Gateway manages all session connectivity, with nothing but pixels reaching the client. The following image illustrates this five-step process for WVD running in Azure.
 
-:::image type="content" source="../media/6-wvd-sign-on-flow.png" alt-text="The WVD architecture with access requests and the resulting data flow. The arrows depict the five steps described in the preceding text." border="false":::
+:::image type="content" source="../media/6-wvd-sign-on-flow.png" alt-text="The WVD architecture with access requests and the resulting data flow. The arrows depict the five steps described in the preceding text." border="true":::
 
 ## Limit WVD traffic with NSG service tags
 
