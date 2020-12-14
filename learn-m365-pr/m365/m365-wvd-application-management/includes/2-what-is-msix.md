@@ -1,6 +1,6 @@
 You’re helping Contoso determine if they should deploy their applications using MSIX app attach technology. Before delving into MSIX app attach, you first explore the purpose and benefits of MSIX, MSIX packaging, and the MSIX Packaging tool.
 
-# Purpose and benefits of MSIX
+## Purpose and benefits of MSIX
 
 MSIX is a Windows app package format that provides a modern packaging experience to all Windows apps.
 
@@ -18,7 +18,7 @@ The benefits of MSIX include:
 
 > With MSIX, you can package and distribute Win32 applications using Microsoft Store.
 
-# MSIX packaging
+## MSIX packaging
 
 ## What’s inside an MSIX package?
 
