@@ -25,7 +25,8 @@ One of the best practices is to enable endpoint protection, which you can do by 
 
 To deploy Microsoft Defender for Endpoint on your WVD VMs in their host pools, you can enroll the VMs into Azure Security Center. Security Center provides a license as part of its standard offering. You should also use auto provisioning. The auto-provisioning settings in Security Center have a toggle for each type of supported extension. When you enable auto-provisioning of an extension, you assign the appropriate **DeployIfNotExists** policy to make sure that the extension is provisioned on all existing and future resources of that type.
 
-[!NOTE] Enable auto-provisioning of the Log Analytics agent. When automatic provisioning is turned on for the Log Analytics agent, Security Center deploys the agent on all supported Azure VMs and any new ones that are created.
+> [!NOTE] 
+> Enable auto-provisioning of the Log Analytics agent. When automatic provisioning is turned on for the Log Analytics agent, Security Center deploys the agent on all supported Azure VMs and any new ones that are created.
 
 ### Microsoft Endpoint Manager integration with Intune
 
