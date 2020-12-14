@@ -5,9 +5,9 @@ As the lead system engineer and Azure administrator tasked with evaluating WVD, 
 WVD is a desktop and app virtualization service that runs on-premises and in Azure. This unit focuses on the Azure deployments, which:
 
 - Provide virtualization infrastructure as a managed service.
-- Management of VMs deployed in your Azure subscription.
-- Azure AD is used to manage the identity services.
-- Existing tools such as Microsoft Intune or System Center Configuration Manager are supported.
+- Enable management of VMs deployed in your Azure subscription.
+- Use Azure AD to manage the identity services.
+- Include support for existing tools such as Microsoft Intune or System Center Configuration Manager.
 
 The following image is a typical enterprise deployment architecture diagram that depicts the various components.
 
@@ -23,10 +23,10 @@ Microsoft manages the WVD services described in the following table.
 
 | **Service**                   | **Description**                                              |
 | ----------------------------- | ------------------------------------------------------------ |
-| Azure Web Access              | This service enables WVD end users access to virtual desktops and remote apps through a HTML 5-compatible web browser. The operating system that browser is running on does not matter. |
+| Azure Web Access              | This service enables WVD end users to access virtual desktops and remote apps through a HTML 5-compatible web browser. The operating system that browser is running on does not matter. |
 | Gateway                       | This service connects remote clients to a gateway, which then establishes a connection from a virtual machine (VM) back to the same gateway. |
 | Broker                        | The Broker service provides load balancing and reconnection to virtual desktops and remote apps in existing user sessions. |
-| Diagnostics                   | These Remote Desktop Diagnostics logs events of actions on the WVD deployment as a success or failure. Diagnostics are used to troubleshoot errors. |
+| Diagnostics                   | The Remote Desktop Diagnostics service logs events of actions on the WVD deployment as a success or failure. Diagnostics are used to troubleshoot errors. |
 | Azure infrastructure services | Microsoft manages networking, storage, and compute Azure infrastructure services. |
 
 ## End-user management
@@ -36,7 +36,7 @@ The customer manages the following components needed for a successful WVD deploy
 | **Component**                      | **Description**                                              |
 | ---------------------------------- | ------------------------------------------------------------ |
 | User profile management            | FSLogix and Azure Files are a solution that provide a fast and stateful experience for users through containerize user profiles. |
-| User host access                   | On the creation of a host pool the type of load balancing is defined as either depth or breadth. |
+| User host access                   | On the creation of a host pool, the type of load balancing is defined as either depth or breadth. |
 | Sizing and scaling policies for VM | VM sizing components including GPU-enabled VMs.              |
 | Scaling policies                   | Session host pools integrated with Azure VM Scale that manages a group of load-balanced VMs. |
 | Networking policies                | Defining and assigning Network Security Groups (NSGs) to filter network traffic. |
@@ -45,7 +45,7 @@ The customer manages the following components needed for a successful WVD deploy
 
 ## Secure WVD credentials
 
-WVD requires integration with Azure AD. This integration allows for the incorporation of identity and access capabilities from Azure AD, and a layered *zero-trust security* strategy. The zero-trust security model removes the concept of a “walled garden". This model assumes every service, user, application, and system is open to the internet. This approach focuses on building strong authentication, authorization, and encryption, while also providing better operational agility.
+WVD requires integration with Azure AD. This integration allows for the incorporation of identity and access capabilities from Azure AD, and a layered *zero-trust security* strategy. The zero-trust security model removes the concept of a "walled garden". This model assumes that every service, user, application, and system is open to the internet. This approach focuses on building strong authentication, authorization, and encryption, while also providing better operational agility.
 
 The following security processes and components contribute to this Azure AD Identity as a Service architecture. Consider:
 - Using static and dynamic conditional access policies
@@ -61,6 +61,6 @@ The following load balancing methods are available in WVD. Breadth-first and dep
 Several Remote Desktop clients such as Windows Desktop, Microsoft Store Client, and the most popular third-party OS devices include support for WVD. You can:
 
 - Access a full desktop in Windows 10 Enterprise multi-session, Windows 10 Enterprise, Windows Server 2012 R2 and newer, Windows 7 Enterprise Full Desktop for backward compatibility.
-- Access only the application from a preconfigured application group in a host pool.. Use Azure AD and role-based access controls to provide fine-grained authorization.
+- Access only the application from a preconfigured application group in a host pool. Use Azure AD and role-based access controls to provide fine-grained authorization.
 
 [!NOTE] WVD requires AD DS. An AD DS domain-joined session host takes advantage of Azure AD security features, such as conditional access, multifactor authentication, and the Intelligent Security Graph.
