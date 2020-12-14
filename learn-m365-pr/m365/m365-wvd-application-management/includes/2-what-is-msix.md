@@ -18,8 +18,6 @@ The benefits of MSIX include:
 
 > With MSIX, you can package and distribute Win32 applications using Microsoft Store.
 
-## MSIX packaging
-
 ## What’s inside an MSIX package?
 
 Applications packaged in MSIX format are installed in the **c:\Program Files\WindowsApps** folder. Each package folder contains several standardized files that are described in the following table.
