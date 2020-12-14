@@ -16,6 +16,12 @@ Install the Node.js webserver **express** and HTTP request middleware **morgan**
 npm install express morgan
 ```
 
+Open the application in Visual Studio Code using the following command:
+
+```console
+code .
+```
+
 Create a new file **server.js** in the root of the folder and add the following JavaScript to it. This code will start the web server:
 
 ```js
@@ -238,36 +244,36 @@ Open a browser and navigate to the [Azure Active Directory admin center (https:/
 
 Select **Azure Active Directory** in the left-hand navigation.
 
-  ![Screenshot of the App registrations](../media/aad-portal-home.png)
+  ![Screenshot of the App registrations](../media/azure-ad-portal-home.png)
 
 Select **Manage > App registrations** in the left-hand navigation.
 
 On the **App registrations** page, select **New registration**.
 
-  ![Screenshot of App Registrations page](../media/aad-portal-newapp-00.png)
+  ![Screenshot of App Registrations page](../media/azure-ad-portal-new-app-00.png)
 
 On the **Register an application** page, set the values as follows:
 
 - **Name**: Hello World Identity
 - **Supported account types**: Accounts in this organizational directory only (Single tenant)
 
-    ![Screenshot of the Register an application page](../media/03-aad-portal-newapp-01.png)
+    ![Screenshot of the Register an application page](../media/03-azure-ad-portal-new-app-01.png)
 
 Select **Register** to create the application.
 
 On the **Hello World Identity** page, copy the values **Application (client) ID** and **Directory (tenant) ID**; you'll need these values later in this exercise.
 
-  ![Screenshot of the application ID of the new app registration](../media/03-aad-portal-newapp-details.png)
+  ![Screenshot of the application ID of the new app registration](../media/03-azure-ad-portal-new-app-details.png)
 
 Select **Manage > Authentication** in the left-hand navigation.
 
 On the **Authentication** page, select **Add a platform**. When the **Configure platforms** panel appears, select **Single-page application**.
 
-![Screenshot of the Configure platforms panel](../media/03-aad-portal-newapp-details-02.png)
+![Screenshot of the Configure platforms panel](../media/03-azure-ad-portal-new-app-details-02.png)
 
-In the **Configure single-page application** panel, add **https://localhost:3007** under **Redirect URIs**, and select **Configure**.
+In the **Configure single-page application** panel, add **http://localhost:3007** under **Redirect URIs**, and select **Configure**.
 
-![Screenshot of the Configure Web panel](../media/03-aad-portal-newapp-details-03.png)
+![Screenshot of the Configure Web panel](../media/03-azure-ad-portal-new-app-details-03.png)
 
 ## Update the web page with the Azure AD application details
 

@@ -15,7 +15,7 @@ Select **App registrations** in the left-hand navigation.
 
 On the **App registrations** page, locate the application registration that represents the secured web API application from the first exercise in this module. To verify the application, compare the **Application (client) ID** and **Directory (tenant) ID** in the portal to the values set in the web api application.
 
-![Screenshot of the application ID of the new app registration](../media/03-azure-ad-portal-new-app-details.png)
+![Screenshot of the application ID of the new app registration for the API app](../media/03-azure-ad-portal-new-app-details.png)
 
 To expose application permissions for the web API, you need to edit the manifest. In the application registration for your application, select **Manifest**.
 
@@ -65,7 +65,7 @@ Select **Register** to create the application.
 
 On the **Product Catalog daemon** page, copy the values **Application (client) ID** and **Directory (tenant) ID**; you'll need these values later in this exercise.
 
-![Screenshot of the application ID of the new app registration](../media/07-azure-ad-portal-new-app-details.png)
+![Screenshot of the application ID of the new app registration for the daemon app](../media/07-azure-ad-portal-new-app-details.png)
 
 ### Create a client secret for the daemon app
 
@@ -97,14 +97,14 @@ Select **Add a permission**. Select the app registration that represents the web
 
 Select **Application permissions**, select the **access_as_application** role, then select **Add permission**.
 
-![Screenshot of the API permissions page in the Azure AD admin center](../media/07-azure-ad-portal-app-reg-api-perm-02.png)
+![SScreenshot of adding the access_as_application permission](../media/07-azure-ad-portal-app-reg-api-perm-02.png)
 
 The **API permissions** page will redisplay. Note there are two warning messages about the application:
 
 - Users will have to reconsent to the application even if they've already done so.
 - The application permission is not yet consented by a tenant administrator.
 
-![Screenshot of the API permissions page in the Azure AD admin center](../media/07-azure-ad-portal-app-reg-api-perm-03.png)
+![Screnshot showing the added permissions](../media/07-azure-ad-portal-app-reg-api-perm-03.png)
 
 Since this exercise is creating a daemon application that doesn't have a user interface, admin consent will be granted using the Azure AD admin center.
 
@@ -179,6 +179,14 @@ Add a file to the root folder of the project named **appsettings.json**. Add the
   "ApiScope": "api://[web-api-client-id]/.default"
 }
 ```
+
+Set the `Tenant` property to the **Directory (tenant) ID** you copied when creating the Azure AD application in the previous section.
+
+Set the `ClientId` property to the **Application (client) ID** you copied when creating the Azure AD application in the previous section.
+
+Set the `ClientSecret` property to the client secret you created when creating the Azure AD application in the previous section.
+
+Replace `[web-api-client-id]` in the `APIScope` property value with the client ID for the web API application created in the first exercise in this module.
 
 The scope doesn't include the delegated scopes (Category.Read, etc.) nor does it include the application role (access_as_application).  Apps using the client credentials flow must use a static scope definition that has been configured in the portal. The `.default` suffix indicates that the pre-configured scopes/roles are used.
 
@@ -304,7 +312,7 @@ class Program
 
 The web API application does an authorization check on the scopes provided in each request. This check must be updated to consider the **access_as_application** role.
 
-In a separate instance of Visual Studio Code, open the folder containing the web API application from the previous exercise.
+In a separate instance of Visual Studio Code, open the folder containing the web API application from the first exercise.
 
 Open the file **Controllers\CategoriesController.cs**. Locate the method `GetAllCategories` and replace its contents with the following code:
 

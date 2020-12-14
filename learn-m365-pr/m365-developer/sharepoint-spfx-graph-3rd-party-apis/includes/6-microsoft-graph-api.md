@@ -12,7 +12,7 @@ The Microsoft Graph is the gateway to your data in the Microsoft cloud as you se
 
 ### Microsoft Graph - gateway to your data in the Microsoft cloud
 
-![Microsoft Graph - gateway to your data in the Microsoft cloud](../media/06-msgraph-gateway.png)
+![Microsoft 365 Platform](../media/06-msgraph-gateway.png)
 
 The Microsoft cloud is included of multiple services and data types that we can take advantage of from Office 365, and it's all considered part of the Microsoft 365 platform.
 
@@ -69,7 +69,7 @@ While the Microsoft Graph JavaScript SDK is written in JavaScript, just like oth
 
 Install the Microsoft Graph TypeScript type declarations by executing the following statement on the command line:
 
-```shell
+```console
 npm install @microsoft/microsoft-graph-types --save-dev
 ```
 
@@ -136,7 +136,7 @@ Each request must include the name of the REST API (`resource`) and the permissi
 
 When an administrator deploys the SharePoint Framework component to the tenant App Catalog, they're presented with an additional message in the trust dialog prompt:
 
-![Screenshot of the trust dialog](../media/deploy-app-prompt-approve-scopes.png)
+![Screenshot of the trust dialog](../media/07-tenant-app-catalog-02.png)
 
 This message instructs the administrator this solution contains permission requests that should be reviewed and approved or rejected. Recall that permissions aren't tied to the SharePoint Framework package. Approving or rejecting the permissions is a separate step that must be done in order for the SharePoint Framework component to work.
 
@@ -144,11 +144,11 @@ This message instructs the administrator this solution contains permission reque
 
 To approve or reject permission requests, navigate to the **API Management** page in the **SharePoint Admin Center**. Here you'll find a list of permission requests pending approval or rejection:
 
-![Screencast of the API management page in the SharePoint Admin Center](../media/api-management-01.png)
+![Screencast of the API management page in the SharePoint Admin Center](../media/sharepoint-admin-portal-01.png)
 
 Select the permission request to view its details and use the buttons at the bottom of the panel to approve or reject the request:
 
-![Screencast of the API management page in the SharePoint Admin Center](../media/api-management-02.png)
+![Screencast of the API management page in the SharePoint Admin Center - Approve/decline access request dialog](../media/sharepoint-admin-portal-03.png)
 
 ## Summary
 

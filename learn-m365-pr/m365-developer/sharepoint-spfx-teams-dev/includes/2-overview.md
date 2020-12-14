@@ -52,7 +52,7 @@ Tabs can interact with Microsoft Teams, and Microsoft Teams communicates with a 
 
 When a tab loads, Microsoft Teams will replace well-known strings in the URL before loading the tab. For example, the ID of the current team, channel, and theme setting is added to the URL when you include the `{teamId}`, `{channelId}`, and `{theme}` respectively. These values are resolved at runtime and allow developers to customize the tab based on this information.
 
-For example, when your tab loads, it can get the current Microsoft Teams client theme that's set by the user and have the tab's experience use a matching theme. This facilitates a great experience for your users because the tab can look and feel like it's part of Microsoft Teams. If the user changes the selected theme, the URL is updated, and your tab can detect the newly selected theme.
+For example, when your tab loads, it can get the current Microsoft Teams client theme that's set by the user and have the tab's experience use a matching theme. This makes a great experience for your users because the tab can look and feel like it's part of Microsoft Teams. If the user changes the selected theme, the URL is updated, and your tab can detect the newly selected theme.
 
 ### Get Microsoft Teams context through the JavaScript library
 

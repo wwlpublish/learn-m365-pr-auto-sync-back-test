@@ -2,7 +2,7 @@ In this unit, you'll learn how to package and deploy SharePoint Framework soluti
 
 ## SharePoint Framework deployment artifacts
 
-Let's start by looking at the SharePoint Framework deployment artifacts to understand the different things required for SharePoint Framework solutions to work in production. 
+Let's start by looking at the SharePoint Framework deployment artifacts to understand the different things required for SharePoint Framework solutions to work in production.
 
 There are two different kinds of files:
 
@@ -24,7 +24,7 @@ The build phase transpiles all TypeScript to JavaScript, generates TypeScript ty
 
 The build process is started when you run the gulp task **build** from the command line:
 
-```shell
+```console
 gulp build
 ```
 
@@ -40,7 +40,7 @@ The files generated in the bundling phase are saved to the **dist** folder in th
 
 The bundling process is started when you run the gulp task **bundle** from the command line. When you add the optional `--ship` or `-p` to the command, the bundling process will also minify the resulting bundle and manifest file. Minification removes all code comments and white space in the file to create the smallest possible file that's downloaded when the component is loaded on the page.
 
-```shell
+```console
 gulp bundle
 ```
 
@@ -48,13 +48,13 @@ gulp bundle
 
 The last phase is packaging. The packaging phase generates all the files necessary to deploy your SharePoint Framework solution to SharePoint. These files are combined in to a ZIP archive with the file name **\*.sppkg** that's saved to the **sharepoint** folder in your project. This file is referred to as the *SharePoint package*.
 
-Prior to packaging all the files into the SharePoint package, the package solution phase generates multiple files necessary for deployment. This includes creating the app manifest, any feature definitions and element manifests necessary for provisioning the components, and collecting all the runtime files such as the bundle, component manifest and string localization files.
+Before packaging all the files into the SharePoint package, the package solution phase generates multiple files necessary for deployment. This includes creating the app manifest, any feature definitions and element manifests necessary for provisioning the components, and collecting all the runtime files such as the bundle, component manifest and string localization files.
 
 Depending on the project configuration, the component runtime files including the bundle, component manifest, localization files, are placed in the **./temp/deploy** folder or added to the package. You can configure this setting using **./config/package-solution.json** file using the `includeClientSideAssets` property. When set to `true`, the files are added to the package and are automatically provisioned to the SharePoint library **ClientSideAssets** in the root of the site collection where the app is installed. Otherwise, when the property is set to `false`, you're responsible for deploying the files to a location your users can access, such as an Azure CDN.
 
 The packaging process is started when you run the gulp task **package-solution** from the command line. When you add the optional `--ship` or `-p` to the command, the packaging process will also modify manifest files for production, setting the URL where the component's runtime files can be located. This location is defined in the **./config/write-manifests.json** file.
 
-```shell
+```console
 gulp package-solution
 ```
 

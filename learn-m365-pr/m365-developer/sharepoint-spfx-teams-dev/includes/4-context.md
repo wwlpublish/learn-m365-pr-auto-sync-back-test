@@ -8,7 +8,7 @@ Your component can use the page's context, accessible from the `this.context.pag
 
 Microsoft introduced a new context in the SharePoint Framework v1.8 release when they added support for deploying client-side web parts as Microsoft Teams tabs. The `this.context.microsoftTeams` object is a reference ot the `microsoftTeams` object available in the **\@microsoft/teams-js** package.
 
-A client-side web part can detect if its running in SharePoint or Microsoft Teams by checking if the `microsoftTeams` object is set to a value or is undefined. If its `undefined`, then the component is not running in Microsoft Teams.
+A client-side web part can detect if its running in SharePoint or Microsoft Teams by checking if the `microsoftTeams` object is set to a value or is undefined. If its `undefined`, then the component isn't running in Microsoft Teams.
 
 ## Work with the Microsoft Teams context
 

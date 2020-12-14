@@ -7,7 +7,7 @@ Open a command prompt and change to the folder where you want to create the proj
 
 Run the SharePoint Yeoman generator by executing the following command:
 
-```shell
+```console
 yo @microsoft/sharepoint
 ```
 
@@ -16,7 +16,7 @@ Use the following to complete the prompt that is displayed (*if additional optio
 - **What is your solution name?**: SPFxAppCustomizer
 - **Which baseline packages do you want to target for your component(s)?**: SharePoint Online only (latest)
 - **Where do you want to place the files?**: Use the current folder
-- **Do you want to allow the tenant admin the choice of being able to deploy the solution to all sites immediately without running any feature deployment or adding apps in sites?**: No
+- **Do you want to allow the tenant admin the choice of being able to deploy the solution to all sites immediately without running any feature deployment or adding apps in sites?**: Yes
 - **Will the components in the solution require permissions to access web APIs that are unique and not shared with other components in the tenant?**: No
 - **Which type of client-side component to create?**: Extension
 - **What type of client-side extension to create?**: Application Customizer
@@ -36,7 +36,7 @@ Next, open the **./config/serve.json** file and copy the URL of your modern Shar
 
 Run the project by executing the following command:
 
-```shell
+```console
 gulp serve
 ```
 
@@ -48,7 +48,7 @@ Select the **Load debug scripts** button.
 
 Once the scripts load, a SharePoint alert dialog will be shown:
 
-![Screenshot of SharePoint Alert dialog](../media/app-customizer-test.png)
+![Screenshot of SharePoint Alert dialog](../media/03-app-customizer-test.png)
 
 This alert dialog is shown by the application customizer. Open the application customizer file located at **./src/extensions/helloAppCustomizer/HelloAppCustomizerApplicationCustomizer.ts** and find the `OnInit()` method. Notice the following line in the method that is triggering the dialog to appear.
 
@@ -112,7 +112,7 @@ In this next step, we'll modify the CSS to give the header and footer a better u
 
 Start by installing the SPFx version of the Office UI Fabric Core CSS files by executing the following command on the command line:
 
-```shell
+```console
 npm install @microsoft/sp-office-ui-fabric-core --save
 ```
 
@@ -268,7 +268,7 @@ return Promise.resolve();
 
 Run the project by executing the following command:
 
-```shell
+```console
 gulp serve
 ```
 
@@ -276,7 +276,7 @@ When prompted, select the **Load debug scripts** button.
 
 Notice when the page loads, the text defined in the public properties is displayed in the header and footer of the page:
 
-![Screenshot displaying the application customizer placeholders](../media/application-customizer-test-placeholders.png)
+![Screenshot displaying the application customizer placeholders](../media/03-application-customizer-test-placeholders.png)
 
 Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the console/terminal window.
 
@@ -290,7 +290,7 @@ Locate and open the **./sharepoint/assets/ClientSideInstance.xml** file. This fi
 
 Build and package the solution by running the following commands one at a time:
 
-```shell
+```console
 gulp build
 gulp bundle --ship
 gulp package-solution --ship
@@ -306,24 +306,21 @@ In the **Do you trust spfx-app-customizer-client-side-solution?** dialog:
 
 - Select the checkbox: **Make this solution available to all sites in the organization**
 - Review the message: **This package contains an extension which will be automatically enabled across sites...**
--Select **Deploy**
+- Select **Deploy**
 
-![Screenshot deploying the extension to the entire tenant](../media/application-customizer-tenant-wide-deploy-01.png)
+![Screenshot deploying the extension to the entire tenant](../media/03-application-customizer-tenant-wide-deploy-01.png)
 
 Select **Site contents** in the left-hand navigation.
 
 Select **Tenant Wide Extensions**. Depending on when your tenant was created the **Tenant Wide Extensions** list may be hidden. If you don't see the list in the Site Contents, then you'll have to navigate to it manually by appending `/Lists/TenantWideExtensions/AllItems.aspx` to the URL of the App Catalog site.
 
-![Screenshot displaying the Tenant Wide Extensions list](../media/application-customizer-tenant-wide-deploy-02.png)
+![Screenshot displaying the App catalog site contents](../media/03-application-customizer-tenant-wide-deploy-02.png)
 
 Notice the application customizer is present, with the specified properties, in the list:
 
-![Screenshot displaying the Tenant Wide Extensions list](../media/application-customizer-tenant-wide-deploy-03.png)
+![Screenshot displaying the Tenant Wide Extensions list](../media/03-application-customizer-tenant-wide-deploy-03.png)
 
 In a separate browser window, navigate to any modern page in any modern site within your SharePoint Online tenant. You should see the extension appear in the tenant.
-
-> [!NOTE]
-> It may take up to 20 minutes for a tenant-wide extension to get deployed across the SharePoint online tenant so you may need to wait to fully test your deployment was successful.
 
 ## Summary
 

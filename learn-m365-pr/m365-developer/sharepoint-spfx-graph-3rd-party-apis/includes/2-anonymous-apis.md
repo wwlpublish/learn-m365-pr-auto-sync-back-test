@@ -16,7 +16,7 @@ None of these related HTTP request APIs require developers to install additional
 
 ## Call third-party APIs with the `HttpClient` API
 
-The `HttpClient` API is available from the SharePoint Framework component's `context` object. You'll primarily use this API to submit HTTP request to anonymous REST APIs, but you aren't limited to anonymous APIs or REST APIs. The client is optimized for REST APIs, but it can be used to submit HTTP requests to other types of endpoints. You have full control to override any parts of the request prior to sending it, including adding or modifying HTTP request header values.
+The `HttpClient` API is available from the SharePoint Framework component's `context` object. You'll primarily use this API to submit HTTP request to anonymous REST APIs, but you aren't limited to anonymous APIs or REST APIs. The client is optimized for REST APIs, but it can be used to submit HTTP requests to other types of endpoints. You have full control to override any parts of the request before sending it, including adding or modifying HTTP request header values.
 
 Most modern browsers implement the Fetch API, which provides an interface for fetching resources across a network. The `HttpClient` API wraps the Fetch API and automatically includes the polyfill **whatwg-fetch** for older browsers that don't implement the Fetch API, such as Internet Explorer 11.
 

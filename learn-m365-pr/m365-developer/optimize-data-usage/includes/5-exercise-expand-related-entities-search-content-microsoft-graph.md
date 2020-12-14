@@ -23,7 +23,7 @@ Select the **Add a permission** button.
 
 In the **Request API permissions** panel that appears, select **Microsoft Graph** from the **Microsoft APIs** tab.
 
-![Screenshot of Microsoft Graph in the Request API permissions panel](../media/aad-portal-newapp-permissions-03.png)
+![Screenshot of Microsoft Graph in the Request API permissions panel](../media/azure-ad-portal-new-app-permissions-02.png)
 
 When prompted for the type of permission, select **Application permissions**.
 
@@ -33,7 +33,7 @@ In the **Configured Permissions** panel, select the button **Grant admin consent
 
 ### Update the console app to use the $expand query parameter
 
-In this part of the exercise, you'll update the code to obtain a list of all groups in your Office 365 tenancy. In addition, you'll leverage the `$top` query parameter and the `$expand` parameter to expand a nested collection of members of the group. Using this technique, you're optimizing the app so it does not have to request the members for each group as it iterates through the collection.
+In this part of the exercise, you'll update the code to obtain a list of all groups in your Office 365 tenancy. Also, you'll leverage the `$top` query parameter and the `$expand` parameter to expand a nested collection of members of the group. Using this technique, you're optimizing the app so it doesn't have to request the members for each group as it iterates through the collection.
 
 Open the .NET console app in Visual Studio Code and then open the **Program.cs** file.
 
@@ -91,10 +91,10 @@ Notice you can scroll through many results in the **Response Preview** window af
 
 Now enter the following query that will search for a user with the name *"wilke"* and select the **Run Query** button. This time the query will only return a single user: **https://graph.microsoft.com/v1.0/me/people?search="wilke"**.
 
-The `$search` query parameter also supports wildcards. Execute the following query to see many more people were found in the same data collection: **https://graph.microsoft.com/v1.0/me/people?search="wil\\\\*"**.
+The `$search` query parameter also supports wildcards. Execute the following query to see many more people were found in the same data collection: **https://graph.microsoft.com/v1.0/me/people?search="wil\*"**.
 
 ## Summary
 
-In this exercise, you modified the existing Azure AD application and.NET console application to use the `$expand` query parameter. The `$expand` parameter allows developers to limit multiple requests for data, such as enumerating through many groups to retrieve a list of group members.
+In this exercise, you modified the existing Azure AD application and .NET console application to use the `$expand` query parameter. The `$expand` parameter allows developers to limit multiple requests for data, such as enumerating through many groups to retrieve a list of group members.
 
 You also used the Graph Explorer utility to use the `$search` query parameter to find specific users. This query parameter also enables developers to optimize queries by not enumerating through large data collections to find a single entity, and instead leverage the more efficient search capability.

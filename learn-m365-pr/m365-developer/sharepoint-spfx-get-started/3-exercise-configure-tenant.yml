@@ -3,7 +3,7 @@ uid: learn-m365.sharepoint-spfx-get-started.3-exercise-configure-tenant
 metadata:
   title: Exercise - Create and configure your SharePoint Online developer tenant
   description: In this exercise, you'll configure your SharePoint environment to be ready for SharePoint Framework development.
-  ms.date: 03/09/2020
+  ms.date: 11/30/2020
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
@@ -29,7 +29,7 @@ quiz:
     - content: "All the above"
       isCorrect: true
       explanation: "Correct!"
-  - content: "In order to deploy and test SharePoint Framework components, what must you first do in your SharePoint tenant?"
+  - content: "To deploy and test SharePoint Framework components, what must you first do in your SharePoint tenant?"
     choices:
     - content: "Create an app catalog site from the SharePoint Online admin center (or Central Administration site if on-premises)."
       isCorrect: true

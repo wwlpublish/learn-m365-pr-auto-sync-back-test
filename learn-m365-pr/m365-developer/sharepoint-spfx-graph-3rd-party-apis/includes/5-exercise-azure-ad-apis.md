@@ -7,7 +7,7 @@ In this exercise, you'll create a new SharePoint Framework project with a single
 
 Open a command prompt and change to the folder where you want to create the project. Run the SharePoint Yeoman generator by executing the following command
 
-```shell
+```console
 yo @microsoft/sharepoint
 ```
 
@@ -202,26 +202,26 @@ Locate the `solution` section. Add the following permission request element just
     "resource": "Microsoft Graph",
     "scope": "User.ReadBasic.All"
   }
-]
+],
 ```
 
 ## Create the SharePoint package for deployment
 
 Build the solution by executing the following command on the command line:
 
-```shell
+```console
 gulp build
 ```
 
 Bundle the solution by executing the following command on the command line:
 
-```shell
+```console
 gulp bundle --ship
 ```
 
 Package the solution by executing the following command on the command line:
 
-```shell
+```console
 gulp package-solution --ship
 ```
 
@@ -240,7 +240,7 @@ Drag the generated SharePoint package from **/sharepoint/solution/sp-fx-aad-http
 
 In the **Do you trust sp-fx-aad-http-client-side-solution?** dialog, select **Deploy**.
 
-![Screenshot of trusting a SharePoint package](../media/azure-ad-add-package-01.png)
+![Screenshot of trusting a SharePoint package](../media/05-azure-ad-add-package-01.png)
 
 ## Approve the API permission request
 
@@ -248,11 +248,11 @@ Navigate to the SharePoint Admin Portal located at **https://{{REPLACE_WITH_YOUR
 
 In the navigation, select **Advanced > API access**:
 
-![Screenshot of the API management page](../media/spo-admin-portal-01.png)
+![Screenshot of the API management page](../media/sharepoint-admin-portal-01.png)
 
 Select the **Pending approval** for the **Microsoft Graph** permission **User.ReadBasic.All**.
 
-![Screenshot of the permission requests pending approval](../media/spo-admin-portal-02.png)
+![Screenshot of the permission requests pending approval](../media/sharepoint-admin-portal-02.png)
 
 Select the **Approve or Reject** button, followed by selecting **Approve**.
 
@@ -273,27 +273,27 @@ In site navigation, select **From your Organization**.
 
 Select **sp-fx-aad-http-client-side-solution** to add your web part.
 
-![Screenshot of the Apps you can add dialog](../media/azure-ad-add-package-05.png)
+![Screenshot of the Apps you can add dialog](../media/05-add-app.png)
 
 ### Test the web part on a SharePoint Online modern page
 
 In the site navigation, select the **Pages** library.
 
-Select an existing page (*option 2 in the following image*), or create a new page (*option 1 in the following image*) in the library to test the web part on.
+Select an existing page or create a new page in the library to test the web part on.
 
-![Screenshot of the SharePoint Online Pages library](../media/graph-test-01.png)
+![Screenshot of the SharePoint Online Pages library](../media/add-page-01.png)
 
 In the browser, select the Web part icon button to open the list of available web parts:
 
-![Screenshot of adding the web part to the modern SharePoint page](../media/graph-persona-01.png)
+![Screenshot of adding the web part to the modern SharePoint page](../media/add-web-part-01.png)
 
 Locate the **SPFxAadHttpClient** web part and select it
 
-![Screenshot of adding the web part to the modern SharePoint page](../media/azure-ad-add-package-06.png)
+![Screenshot of adding the web part to the modern SharePoint page - Web part gallery](../media/05-add-web-part-02.png)
 
 When the page loads, notice after a brief delay, it will display a list of users:
 
-![Screenshot of the web part running in a modern SharePoint page](../media/azure-ad-add-package-07.png)
+![Screenshot of the web part running in a modern SharePoint page - web part on the page](../media/05-test-01.png)
 
 ## Summary
 

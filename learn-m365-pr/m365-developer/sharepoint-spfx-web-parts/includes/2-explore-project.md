@@ -125,7 +125,7 @@ The `bundles` node enables developers to control the name of the bundle file cre
 > [!NOTE]
 > Webpack, another open-source tool, is included in each project's dependencies and is entirely managed by the build process. There is nothing for the developer to install or configure.
 
-The `externals` node is where you can define external libraries that you don't want to be included in the resulting bundle created by Webpack. For example, if our component used the popular library jQuery, you shouldn't include it as part of the bundle. Instead, the external library should be loaded from an external CDN before loading the component bundle on the page. In this case, you'd add the jQuery CDN reference to the `externals` node. During the bundling process, when Webpack sees a reference to jQuery, it will ignore it and not include it in the bundle. In addition, the component's manifest will be modified to instruct the module loader in at runtime to load jQuery before loading the component's bundle.
+The `externals` node is where you can define external libraries that you don't want to be included in the resulting bundle created by Webpack. For example, if our component used the popular library jQuery, you shouldn't include it as part of the bundle. Instead, the external library should be loaded from an external CDN before loading the component bundle on the page. In this case, you'd add the jQuery CDN reference to the `externals` node. During the bundling process, when Webpack sees a reference to jQuery, it will ignore it and not include it in the bundle. Also, the component's manifest will be modified to instruct the module loader in at runtime to load jQuery before loading the component's bundle.
 
 ## Client-side web part build toolchain flow
 
@@ -152,7 +152,7 @@ The SharePoint Framework development and build toolchain includes many tasks dev
 - **clean**: This task deletes the **dist**, **lib**, and **temp** folders created from building and bundling the project.
 - **build**: This task will transpile all TypeScript to JavaScript and all SASS to CSS files. These temporary files are built to the **lib** folder.
 - **bundle**: This ask will run the **build** task and then create JavaScript bundle(s) with Webpack using the files from the build task.
-- **dev-deploy** and **deploy-azure-storage**: These tasks upload the production manifest and JavaScript bundles to the Azure Storage blob specified in the **./config/deploy-azure-storage.json** configuration file when you've elected to use the Azure CDN to host and serve your files.
+- **dev-deploy** and **deploy-azure-storage**: These tasks upload the production manifest and JavaScript bundles to the Azure Storage blob specified in the **./config/deploy-azure-storage.json** configuration file when you've selected to use the Azure CDN to host and serve your files.
 - **package-solution**: This task will create a **\*.sppkg** SharePoint package file using the output from the **bundle** task.
 - **serve**: The serve task will start the local web server that hosts the local workbench.
 - **test**: This task will run the **build** task and then run all unit tests defined in the project.
