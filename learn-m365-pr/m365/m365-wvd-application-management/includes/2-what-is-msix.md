@@ -1,4 +1,4 @@
-You’re helping Contoso determine if they should deploy their applications using MSIX app attach technology. Before delving into MSIX app attach, you first explore the purpose and benefits of MSIX, MSIX packaging, and the MSIX Packaging tool. 
+You’re helping Contoso determine if they should deploy their applications using MSIX app attach technology. Before delving into MSIX app attach, you first explore the purpose and benefits of MSIX, MSIX packaging, and the MSIX Packaging tool.
 
 # Purpose and benefits of MSIX
 
@@ -22,18 +22,18 @@ The benefits of MSIX include:
 
 ## What’s inside an MSIX package?
 
-Applications packaged in MSIX format are installed under the " **c:\Program Files\WindowsApps"** folder. Each package folder contains several standardized files described in the following table.
+Applications packaged in MSIX format are installed in the **c:\Program Files\WindowsApps** folder. Each package folder contains several standardized files that are described in the following table.
 
 | File              | Description                                                  |
 | ----------------- | ------------------------------------------------------------ |
-| App payload       | Contains the app code files and assets.                      |
-| AppxBlockMap.xml  | Contains a verified  and secure list of all the files within the package. |
-| AppxManifest.xml  | Drives the installation, by configuring association with  files, and contains the identity of the package and their dependencies. |
-| AppxSignature.p7x | Contains the  signature of the package that has to be trusted by the operating system  before the app is installed. |
+|App payload|Contains the app code files and assets.|
+|AppxBlockMap.xml|Contains a verified  and secure list of all the files within the package.|
+| AppxManifest.xml|Drives the installation, by configuring association with files, and contains the identity of the package and their dependencies. |
+| AppxSignature.p7x|Contains the signature of the package that must be trusted by the operating system before the app is installed.|
 
->  [!TIP]
+>[!TIP]
 
->  To extract the contents of the MSIX package, change the **.msix** file extension to **.zip,** then extract the files using File Explorer.
+>To extract the contents of the MSIX package, change the **.msix** file extension to **.zip,** then extract the files using File Explorer.
 
 ## MSIX Containers
 
@@ -57,20 +57,20 @@ You can use the MSIX Packaging Tool to create an MSIX application package from a
 - Script
 - Manual installation
 
->  [!NOTE]
+>[!NOTE]
 
->  You can also get the MSIX Packaging Tool from the Microsoft Store.
+>You can also get the MSIX Packaging Tool from the Microsoft Store.
 
 You can use either an interactive UI or a command line to convert an existing package to MSIX package format. It’s important that prior to running the MSIX Packaging Tool you:
 
 - Use a supported  Windows 10 version, minimum 1809.
-- work from a clean computer, without additional services and applications running on the computer.
+- Work from a clean computer, without additional services and applications running on the computer.
 - Prepare the environment for conversion ensuring it’s similar to the one that will host the newly created MSIX package.
-- Ensure the same architecture on the computer which is used for conversion as the computer that will deploy the application.
+- Ensure that the architecture on the computer used for conversion is the same as the computer that will deploy the application.
 - Use a virtual machine with checkpoints, so you can easily test and revert the changes for every modification of the package.
 - Understand the dependencies of the applications to properly prepare the MSIX package.
 
->  [!NOTE]
+>[!NOTE]
 
 > Starting with Windows 10 Fall Creators Update (Windows 10 version 1709) Microsoft provides a [**Hyper-V Quick Create**](https://docs.microsoft.com/windows/msix/packaging-tool/quick-create-vm) virtual environment on Hyper-V that you can use for MSIX packaging projects.
 
@@ -82,7 +82,7 @@ When you run the MSIX Packaging Tool on the clean computer, you’ll be prompted
 
 Use the following steps to create the MSIX packages.
 
-1. Prepare the computer. In this step the MSIX package driver is installed and Windows Update is disabled.
+1. Prepare the computer. In this step, the MSIX package driver is installed and Windows Update is disabled.
 
 2. Choose the installer you want to package. This step varies based on the installers that you choose to convert. The last part of this step is to sign the     package using one of the following options:
 
@@ -92,13 +92,13 @@ Use the following steps to create the MSIX packages.
 
 4. Detail the package information. The MSIX package tool will attempt to auto-fill information about the app based on the installer that is used to be transformed. You can customize the input with your own values as needed.
 
-5. Run installation. The tool starts to monitor the installation phase and capture all installation options. If the installer requires restart you can restart     computer and continue the process of conversion.
+5. Run installation. The tool starts to monitor the installation phase and capture all installation options. If the installer requires restart you can restart computer and continue the process of conversion.
 
 6. Manage first launch tasks. This page captures the first run experience launch by selecting **run.**
 
 7. Review the services report. This step is used for installers that register service on the computers. If there are services that are supported, they will be listed in the **Included** table, and services that are not supported will appear in **Excluded** table.
 
-8. Create package. This is the final phase of the process, where you provide a location where the MSIX package will be saved.
+8. Create package. This is the final phase of the process, where you provide a location to save the MSIX package.
 
 You can automate the process of repacking the applications with the command line interface. The following examples define how to use the MSIX Packaging Tool from the command line:
 
@@ -107,16 +107,14 @@ You can automate the process of repacking the applications with the command line
  \> MSIXPackagingTool.exe create-package --template c:\users\documents\ConversionTemplate.xml --virtualMachinePassword pswd112893
 ```
 
->  [!NOTE]
+>[!NOTE]
 
 > You can find sample PowerShell and Bash scripts that demonstrate how to automate the process of packaging, signing managing and distributing MSIX packages in the [scripts](https://github.com/microsoft/MSIX-Toolkit/tree/master/Scripts) folder of the MSIX Toolkit.
 
->  [!NOTE]
+>[!NOTE]
 
-> MSIX is currently supported on the following versions of Windows:
+> The following versions of Windows support MSIX:
 
-> - Windows 10, version 1709, and later.
+> - Windows 10, version 1709 and later.
 
 > - Windows Server 2019 LTSC and later.
-
- 

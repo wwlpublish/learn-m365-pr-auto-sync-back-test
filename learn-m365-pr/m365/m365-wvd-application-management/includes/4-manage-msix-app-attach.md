@@ -1,8 +1,8 @@
-You’ve learned about MSIX app attach and how it works, now let's find out how you can use it in Contoso’s Windows Virtual Desktop environment.
+You’ve learned about MSIX app attach and how it works. Let's find out how you can use it in Contoso’s Windows Virtual Desktop environment.
 
 # Create an MSIX image for MSIX app attach
 
-MSIX app attach requires a MSIX image, which is a separate virtual hard disk (VHD) that contains MSIX packages. You already learned how to prepare the MSIX package, now let’s explore how to prepare the VHD.
+MSIX app attach requires a MSIX image, which is a separate VHD that contains MSIX packages. You already learned how to prepare the MSIX package; now let’s explore how to prepare the VHD.
 
 First, download the [msixmgr tool](https://aka.ms/msixmgr) and save the msixmrg.zip folder to a folder within a session host VM. Then, unzip the **msixmgr.zip** folder and place the MSIX package in the same folder.
 
@@ -62,7 +62,7 @@ To test an MSIX app attach, you follow four ordered phases.
 2. Make a staged app attach package available for the user. You can choose between two options:
 
    - Full registration
-   - On-demand registration. The applications are shown to the user (in the Start menu) and registration is finished upon the user clicking the app.
+   - On-demand registration. The applications display in the Start menu and registration is complete when the user selects the app.
 
 1. Remove the application from the user.
 2. Remove the application from the computer.
@@ -76,7 +76,7 @@ Each of the following automatic scripts runs a different script for each phase o
 - The logoff script runs the deregister script.
 - The shutdown script runs the destage script.
 
-# Publish an MSIX App Attach application as a remote app
+# Publish an MSIX app attach application as a remote app
 
 To publish an MSIX app attach application as a remote app in your Windows Virtual Desktop environment:
 
