@@ -9,5 +9,6 @@ The IT director has asked you to evaluate the risks and benefits to using WVD to
 In this module, you’ll learn how to access WVD from the Azure portal and configure WVD services that are configured in a shared responsibility model.
 
 After completing this module, you’ll be able to explain the requirements and architecture for a WVD deployment and assess its security.
-<!--LM: I'm not sure why the note doesn't render correctly in the preview window in VSC because the [!NOTE] code looks ok. -->
-[!NOTE] If you choose to perform the exercise in this module, you might incur costs in your Azure subscription. To estimate the cost, refer to [Windows Virtual Machines Pricing](https://azure.microsoft.com/pricing/details/virtual-machines/windows/?azure-portal=true).
+
+> [!NOTE] 
+> If you choose to perform the exercise in this module, you might incur costs in your Azure subscription. To estimate the cost, refer to [Windows Virtual Machines Pricing](https://azure.microsoft.com/pricing/details/virtual-machines/windows/?azure-portal=true).
