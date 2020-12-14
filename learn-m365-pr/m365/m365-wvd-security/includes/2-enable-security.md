@@ -41,8 +41,6 @@ The customer manages the following components needed for a successful WVD deploy
 | Scaling policies                   | Session host pools integrated with Azure VM Scale that manages a group of load-balanced VMs. |
 | Networking policies                | Defining and assigning Network Security Groups (NSGs) to filter network traffic. |
 
-
-
 ## Secure WVD credentials
 
 WVD requires integration with Azure AD. This integration allows for the incorporation of identity and access capabilities from Azure AD, and a layered *zero-trust security* strategy. The zero-trust security model removes the concept of a "walled garden". This model assumes that every service, user, application, and system is open to the internet. This approach focuses on building strong authentication, authorization, and encryption, while also providing better operational agility.
@@ -63,4 +61,5 @@ Several Remote Desktop clients such as Windows Desktop, Microsoft Store Client, 
 - Access a full desktop in Windows 10 Enterprise multi-session, Windows 10 Enterprise, Windows Server 2012 R2 and newer, Windows 7 Enterprise Full Desktop for backward compatibility.
 - Access only the application from a preconfigured application group in a host pool. Use Azure AD and role-based access controls to provide fine-grained authorization.
 
-[!NOTE] WVD requires AD DS. An AD DS domain-joined session host takes advantage of Azure AD security features, such as conditional access, multifactor authentication, and the Intelligent Security Graph.
+> [!NOTE] 
+> WVD requires AD DS. An AD DS domain-joined session host takes advantage of Azure AD security features, such as conditional access, multifactor authentication, and the Intelligent Security Graph.
