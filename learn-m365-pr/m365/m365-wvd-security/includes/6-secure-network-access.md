@@ -1,14 +1,15 @@
 WVD provides the ability to host client sessions on the session hosts running on Azure. As described previously, Microsoft manages portions of the services on the customer's behalf and provides secure endpoints for connecting clients and session hosts.
 
-WVD uses Remote Desktop Protocol (RDP) to provide remote display and input capabilities over network connections. The connection data flow for WVD starts with a DNS lookup for the closes Azure data center.
+WVD uses Remote Desktop Protocol (RDP) to provide remote display and input capabilities over network connections. The connection data flow for WVD starts with a DNS lookup for the closest Azure data center.
 
-1. When authenticated in Azure AD, a token was returned to the RDS client.
+1. When authenticated in Azure AD, a token is returned to the RDS client.
 
-1. The gateway checked the token with the Connection Broker.
+1. The gateway checks the token with the Connection Broker.
 
-1. The Broker queried the Azure SQL database for resources assigned to the user.
+1. The Broker queries the Azure SQL database for resources assigned to the user.
 
 1. The Gateway and the Broker select the session host for the connected client.
+
 1. The session host then creates a reverse connection to the client by using the WVD Gateway.
 
 No inbound ports are opened. In this version, the Gateway is acting as an intelligent reverse proxy. The Gateway manages all session connectivity, with nothing but pixels reaching the client. The following image illustrates this five-step process for WVD running in Azure.
