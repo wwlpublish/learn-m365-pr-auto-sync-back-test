@@ -3,7 +3,7 @@ uid: learn-m365.wvd-security.exercise-secure-desktop
 title: Exercise - Secure the downloaded desktop using AppLocker
 metadata:
   title: Exercise - Secure the downloaded desktop using AppLocker
-  description: Learn how to increase the security of your WVD host.
+  description: Learn how to increase the security of your Windows Virtual Desktop host.
   ms.date:  12/02/2020
   author: ndelgado
   ms.author: nedelgad
