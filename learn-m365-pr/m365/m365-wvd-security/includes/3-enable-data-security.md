@@ -9,9 +9,9 @@ A user profile is a collection of configurations that the user or administrator 
 
 ## FSLogix profile containers
 
-In a WVD environment, Microsoft recommends the use of FSLogix profile containers. Profile containers are not a traditional profile management solution but are a full remote profile solution for non-persistent environments. Profile containers redirect the entire user profile to a remote location. Profile container configuration defines how and where the profile is redirected. When used with WVD, the profile container is stored in an Azure storage account.
+In a Windows Virtual Desktop environment, Microsoft recommends the use of FSLogix profile containers. Profile containers are not a traditional profile management solution but are a full remote profile solution for non-persistent environments. Profile containers redirect the entire user profile to a remote location. Profile container configuration defines how and where the profile is redirected. When used with WVD, the profile container is stored in an Azure storage account.
 
-When you sign in to WVD, the container of a user profile dynamically attaches to the computing environment by using a locally supported virtual hard disk (VHD) and a Hyper-V VHD. These advanced filter-driver technologies allow the user profile to be immediately available and display in the system exactly like a local user profile.
+When you sign in to Windows Virtual Desktop, the container of a user profile dynamically attaches to the computing environment by using a locally supported virtual hard disk (VHD) and a Hyper-V VHD. These advanced filter-driver technologies allow the user profile to be immediately available and display in the system exactly like a local user profile.
 
 FSLogix address key issues with non-persistent profiles. In summary, FSLogix enables local profiles to act like roaming profiles and offers the following key advantages:
 
@@ -21,16 +21,16 @@ FSLogix address key issues with non-persistent profiles. In summary, FSLogix ena
 
 - Additional folders. FSLogix provides the ability to extend user profiles to provision enterprise-grade SMB volumes by using the Azure NetApp Files service. Azure NetApp Files supports SMB 2.1 and SMB 3.1.
 
-## Secure your WVD data with Azure Disk Encryption
+## Secure your Windows Virtual Desktop data with Azure Disk Encryption
 
-As previously mentioned, Azure NetApp Files is an Azure native service that is deployed into the Azure Virtual Network where the service is available and used by WVD. All Azure NetApp Files volumes are encrypted using the Federal Information Processing Standards Publications (FIPS PUBS) 140-2 standard. The Azure NetApp Files service manages all keys and generates a unique XTS-AES-256 data encryption key for each volume. An encryption key hierarchy is used to encrypt and protect all volume keys. These encryption keys are never available or reported in an unencrypted format and are deleted immediately when a volume is deleted.
+As previously mentioned, Azure NetApp Files is an Azure native service that is deployed into the Azure Virtual Network where the service is available and used by Windows Virtual Desktop. All Azure NetApp Files volumes are encrypted using the Federal Information Processing Standards Publications (FIPS PUBS) 140-2 standard. The Azure NetApp Files service manages all keys and generates a unique XTS-AES-256 data encryption key for each volume. An encryption key hierarchy is used to encrypt and protect all volume keys. These encryption keys are never available or reported in an unencrypted format and are deleted immediately when a volume is deleted.
 
 > [!NOTE] 
 > Support for customer-managed keys (Bring Your Own Key) using Azure Dedicated HSM is available. Check for availability in your region.
 
 ## Enable more secure data access when using Azure Files
 
-You can use the Azure Private Link service to improve data access security. An Azure private endpoint is the basis for Private Link. It enables Azure resources to privately communicate with Private Link resources. In a WVD environment, it enhances secure access. Traffic between your virtual network and the service travels the Microsoft high speed backbone network. It's no longer necessary to expose your service to the public internet. You can create your own private link service in your virtual network and deliver it to your organization.
+You can use the Azure Private Link service to improve data access security. An Azure private endpoint is the basis for Private Link. It enables Azure resources to privately communicate with Private Link resources. In a Windows Virtual Desktop environment, it enhances secure access. Traffic between your virtual network and the service travels the Microsoft high speed backbone network. It's no longer necessary to expose your service to the public internet. You can create your own private link service in your virtual network and deliver it to your organization.
 
 Azure private endpoints help to secure your Azure resources by removing the need for a public endpoint for Azure Files and by preventing data exfiltration from your network boundary.
 
