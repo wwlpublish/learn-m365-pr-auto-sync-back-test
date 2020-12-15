@@ -1,4 +1,4 @@
-Customers can take several actions and use a variety of tools to help secure their WVD deployment. The following table lists some of the best practices for securing your WVD ecosystem.
+Customers can take several actions and use a variety of tools to help secure their Windows Virtual Desktop deployment. The following table lists some of the best practices for securing your Windows Virtual Desktop ecosystem.
 
 |**Best Practice**| **Result**                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -7,23 +7,23 @@ Customers can take several actions and use a variety of tools to help secure the
 |Enable conditional access|Manage risks before you grant users access.|
 |Collect audit logs|Review user and administrator activity.|
 |Use RemoteApp|Reduce risk by only letting the user work with a subset of the remote machine exposed.|
-|Monitor usage with Azure Monitor| Create service health alerts to receive notifications for the WVD service.|
+|Monitor usage with Azure Monitor| Create service health alerts to receive notifications for the Windows Virtual Desktop service.|
 |Enable endpoint protection|Protect your deployment from known malware.|
 |Install an endpoint detection and response (EDR) product|Use EDR to provide advanced detection and response capabilities.|
 |Enable threat and vulnerability management assessments|Help identify problem spots through vulnerability assessments for server operating systems.|
 |Fix software vulnerabilities in your environment| When a vulnerability is identified, you must fix it. This also applies to virtual environments.|
 |Establish maximum inactive time and disconnection policies|Sign users out when they're inactive to preserve resources and prevent unauthorized access. |
-|Set up screen locks for idle sessions|Prevent unwanted system access by configuring WVD to lock a machine's screen during idle time and requiring authentication to unlock it.|
+|Set up screen locks for idle sessions|Prevent unwanted system access by configuring Windows Virtual Desktopto lock a machine's screen during idle time and requiring authentication to unlock it.|
 |Don't grant your users administrator access to virtual desktops|Manage software packages by using Configuration Manager.|
 |Consider which users should access which resources|Limit host connection to internet resources.|
 |Restrict operating system capabilities|Strengthen the security of your session hosts.|
-|In the WVD host pools, limit device redirection under RDP Properties|Prevent data leakage.|
+|In the Windows Virtual Desktop host pools, limit device redirection under RDP Properties|Prevent data leakage.|
 
 ## Enable endpoint protection by using Microsoft Defender for Endpoint
 
 One of the best practices is to enable endpoint protection, which you can do by using Microsoft Defender for Endpoint, previously known as Microsoft Defender Advanced Threat Protection. Microsoft Defender for Endpoint is typically used on-premises but can also be used in a VDI environment.
 
-To deploy Microsoft Defender for Endpoint on your WVD VMs in their host pools, you can enroll the VMs into Azure Security Center. Security Center provides a license as part of its standard offering. You should also use auto provisioning. The auto-provisioning settings in Security Center have a toggle for each type of supported extension. When you enable auto-provisioning of an extension, you assign the appropriate **DeployIfNotExists** policy to make sure that the extension is provisioned on all existing and future resources of that type.
+To deploy Microsoft Defender for Endpoint on your Windows Virtual Desktop VMs in their host pools, you can enroll the VMs into Azure Security Center. Security Center provides a license as part of its standard offering. You should also use auto provisioning. The auto-provisioning settings in Security Center have a toggle for each type of supported extension. When you enable auto-provisioning of an extension, you assign the appropriate **DeployIfNotExists** policy to make sure that the extension is provisioned on all existing and future resources of that type.
 
 > [!NOTE] 
 > Enable auto-provisioning of the Log Analytics agent. When automatic provisioning is turned on for the Log Analytics agent, Security Center deploys the agent on all supported Azure VMs and any new ones that are created.
