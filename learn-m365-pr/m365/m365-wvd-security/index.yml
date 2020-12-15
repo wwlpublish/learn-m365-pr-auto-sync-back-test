@@ -2,24 +2,24 @@
 uid: learn-m365.wvd-security
 metadata:
   title: Secure a Windows Virtual Desktop deployment
-  description: Introduction to Microsoft security capabilities that can keep your applications and data secure in your WVD deployment.
+  description: Introduction to Microsoft security capabilities that can keep your applications and data secure in your Windows Virtual Desktop deployment.
   ms.date: 06/25/2020
   author: ndelgado
   ms.author: nedelgad
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Secure a Windows Virtual Desktop deployment
-summary: Introduction to Microsoft security capabilities that can keep your applications and data secure in your WVD deployment.
+summary: Introduction to Microsoft security capabilities that can keep your applications and data secure in your Windows Virtual Desktop deployment.
 abstract: |
   After completing this module, you’ll be able to:
-  - Secure the user’s identity used to access their WVD environment.
+  - Secure the user’s identity used to access their Windows Virtual Desktop environment.
   - Use AppLocker to secure the downloaded desktop.
 prerequisites: |
   - Intermediate knowledge of Microsoft Azure services such as Core Azure compute, storage, networking, and virtualization technologies.
   - Intermediate knowledge of Azure operational concepts, such as monitoring, logging, and alerting.
-  - Familiarity with WVD.
+  - Familiarity with Windows Virtual Desktop.
   - Knowledge of security concepts at a fundamental level.
-  - An Azure subscription to enable a WVD deployment using setup scripts. 
+  - An Azure subscription to enable a Windows Virtual Desktop deployment using setup scripts. 
 iconUrl: /learn/achievements/generic-badge.svg
 ratingEnabled: true
 levels:
