@@ -16,7 +16,7 @@ quiz:
   title: Check your knowledge
   questions:
 
-  - content: "Which of the following processes are part of the Microsoft-managed services in a WVD deployment?"
+  - content: "Which of the following processes are part of the Microsoft-managed services in a Windows Virtual Desktop deployment?"
     choices:
     - content: "Gateway."
       isCorrect: true
@@ -40,7 +40,7 @@ quiz:
       isCorrect: false
       explanation: "That's incorrect. Both access methods are secure."
       
-  - content: "Which of the following should you enable in a secure WVD deployment?"
+  - content: "Which of the following should an administrator enable in a secure Windows Virtual Desktop deployment?"
     choices:
     - content: "A common administration password to limit complexity."
       isCorrect: false
