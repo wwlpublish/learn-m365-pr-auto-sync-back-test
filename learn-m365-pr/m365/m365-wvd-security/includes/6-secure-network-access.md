@@ -14,7 +14,7 @@ Windows Virtual Desktop uses Remote Desktop Protocol (RDP) to provide remote dis
 
 No inbound ports are opened. In this version, the Gateway is acting as an intelligent reverse proxy. The Gateway manages all session connectivity, with nothing but pixels reaching the client. The following image illustrates this five-step process for Windows Virtual Desktop running in Azure.
 
-:::image type="content" source="../media/6-Windows-Virtual-Desktop-sign-on-flow.png" alt-text="The Windows Virtual Desktop architecture with access requests and the resulting data flow. The arrows depict the five steps described in the preceding text." border="true":::
+:::image type="content" source="../media/6-windows-virtual-desktop-sign-on-flow.png" alt-text="The Windows Virtual Desktop architecture with access requests and the resulting data flow. The arrows depict the five steps described in the preceding text." border="true":::
 
 ## Limit Windows Virtual Desktop traffic with NSG service tags
 
