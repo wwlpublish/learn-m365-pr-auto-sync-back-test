@@ -9,7 +9,7 @@ A user profile is a collection of configurations that the user or administrator 
 
 ## FSLogix profile containers
 
-In a Windows Virtual Desktop environment, Microsoft recommends the use of FSLogix profile containers. Profile containers are not a traditional profile management solution but are a full remote profile solution for non-persistent environments. Profile containers redirect the entire user profile to a remote location. Profile container configuration defines how and where the profile is redirected. When used with WVD, the profile container is stored in an Azure storage account.
+In a Windows Virtual Desktop environment, Microsoft recommends the use of FSLogix profile containers. Profile containers are not a traditional profile management solution but are a full remote profile solution for non-persistent environments. Profile containers redirect the entire user profile to a remote location. Profile container configuration defines how and where the profile is redirected. When used with Windows Virtual Desktop, the profile container is stored in an Azure storage account.
 
 When you sign in to Windows Virtual Desktop, the container of a user profile dynamically attaches to the computing environment by using a locally supported virtual hard disk (VHD) and a Hyper-V VHD. These advanced filter-driver technologies allow the user profile to be immediately available and display in the system exactly like a local user profile.
 
