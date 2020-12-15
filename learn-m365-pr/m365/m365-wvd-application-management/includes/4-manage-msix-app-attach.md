@@ -38,7 +38,7 @@ Follow the steps bellow to create and initialize the VHD or VHDS disk using Powe
 5. To format the partition run:
 
 ```
- \> Format-Volume -FileSystem NTFS -Confirm:$false -DriveLetter $partition.DriveLetter -Force
+ Format-Volume -FileSystem NTFS -Confirm:$false -DriveLetter $partition.DriveLetter -Force
 ```
 
 6. Create a parent folder on the mounted VHD.
