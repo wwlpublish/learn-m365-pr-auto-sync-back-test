@@ -11,7 +11,7 @@ Windows Virtual Desktop is a desktop and app virtualization service that runs on
 
 The following image is a typical enterprise deployment architecture diagram that depicts the various components.
 
-:::image type="content" source="../media/2-wvd-at-scale.png" alt-text="Typical scaled-out Windows Virtual Desktop deployment that consists of on-premises AD DS, endpoint systems, synchronization to Azure AD using Azure AD Connect, and a Network Gateway for Express Route to Azure. In Azure, the Windows Virtual Desktop deployment has single-session and multiple-session host pools, Azure files for storage, and the Windows Virtual Desktop Control Plane." border="true":::
+:::image type="content" source="../media/2-windows-virtual-desktop-at-scale.png" alt-text="Typical scaled-out Windows Virtual Desktop deployment that consists of on-premises AD DS, endpoint systems, synchronization to Azure AD using Azure AD Connect, and a Network Gateway for Express Route to Azure. In Azure, the Windows Virtual Desktop deployment has single-session and multiple-session host pools, Azure files for storage, and the Windows Virtual Desktop Control Plane." border="true":::
 
 Windows Virtual Desktop is deployed in a hierarchical workspace. In a traditional on-premises Virtual Desktop Infrastructure (VDI) deployment, the customer would be responsible for all aspects of security. However, with Windows Virtual Desktop, these responsibilities are shared between the customer and Microsoft. Microsoft helps secure the physical datacenters, the physical network, the physical hosts that Azure runs on, and the virtualization control plane, which includes Windows Virtual Desktop services running in Azure.
 
