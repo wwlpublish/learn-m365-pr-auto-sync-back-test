@@ -57,9 +57,9 @@ There are several considerations to keep in mind both the first time you create 
 |Area|Best practice|
 |-|-|
 |Scope|- Initial organizational file should include one snapshot for each of the past 13 months to map to initial historical collaboration data load. <br>- Include descriptive organizational data for all employees in the company, even if they're not part of the analysis population, to enrich custom collaboration metrics.|
-|Updates|- Include one snapshot for each month historically and going forward to capture changes to employee attributes.<br>- Upload files including "net new" employees, effective datas, and columns using the **Append** option. Ensure there are no missing values in the **Effective Dates** attribute.<br>- Avoid renaming columns.|
+|Updates|- Include one snapshot for each month historically and going forward to capture changes to employee attributes.<br>- Upload files including "net new" employees, effective dates, and columns using the **Append** option. Ensure there are no missing values in the **Effective Dates** attribute.<br>- Avoid renaming columns.|
 |Quality|Avoid columns with:<br>- Many missing values<br>- Too broad or detailed for useful grouping and filtering (like company code or job title)<br>- Redundant attributes (like department name or code)<br>- Dirty data (for example, multiple spellings of one value, like "Mktg" and "Marketing")|
-|Formatting|- Ensure fields are properly formatted for the type of data they contain (dates, text/strings, or numbers). <br>- Ensure each data source or field has a unique identifier. <br>- For optional fields, if values aren't available, leave empty. (Replacing with "0" wil impact average values.)|
+|Formatting|- Ensure fields are properly formatted for the type of data they contain (dates, text/strings, or numbers). <br>- Ensure each data source or field has a unique identifier. <br>- For optional fields, if values aren't available, leave empty. (Replacing with "0" will impact average values.)|
 |Privacy|To help ensure privacy, don't include employee names or ID numbers in the file.|
 
 You're now ready to upload the organizational data file to Workplace Analytics.
