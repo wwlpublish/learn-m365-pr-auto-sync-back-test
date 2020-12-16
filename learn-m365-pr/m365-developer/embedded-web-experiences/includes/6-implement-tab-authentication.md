@@ -14,7 +14,7 @@ Recall that a custom tab is just an `<iframe>` that displays the contents of a w
 
 Never treat this information as proof of identity of the current user. Instead, use it as the sign-in hint when the user is prompted to sign in.
 
-Azure AD and many other identity providers don't allow their sign-in experiences to be hosted in an `<iframe>`. Because all tabs in Microsoft Teams are in an `<iframe>`, you'll implement a pop-up window pattern to start the authentication process. This pop-up window should be startd only by a user action. It shouldn't open automatically. Pop-up windows that open automatically are likely to trigger the browser's pop-up blocker and confuse the user experience. Create a button within the tab's configuration or content page that starts the authentication process.
+Azure AD and many other identity providers don't allow their sign-in experiences to be hosted in an `<iframe>`. Because all tabs in Microsoft Teams are in an `<iframe>`, you'll implement a pop-up window pattern to start the authentication process. This pop-up window should be started only by a user action. It shouldn't open automatically. Pop-up windows that open automatically are likely to trigger the browser's pop-up blocker and confuse the user experience. Create a button within the tab's configuration or content page that starts the authentication process.
 
 ### OAuth 2.0 implicit grant flow and Microsoft Teams tabs
 
