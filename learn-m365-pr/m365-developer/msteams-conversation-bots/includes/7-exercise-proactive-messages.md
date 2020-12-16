@@ -3,7 +3,7 @@ In this exercise, you’ll update the existing Teams app to send a proactive mes
 > [!IMPORTANT]
 > This exercise assumes you have created the Microsoft Teams app project with the Yeoman generator that contains a personal tab from the previous exercise in this module. You'll update the project to add a new task module that uses an Adaptive Card.
 
-## Initiate a proactive message from the bot
+## Start a proactive message from the bot
 
 Locate and open the bot in the file **./src/app/conversationalBot/ConversationalBot.ts**.
 
@@ -121,11 +121,11 @@ In the Microsoft Teams client, go to the channel you installed the bot in the pr
 
 The bot will reply to the message with the updated card that contains two buttons:
 
-![Screenshot of a message from the bot using cards](../media/07-test-01.png)
+![Screenshot of a message from the bot using cards - initial card display](../media/07-test-01.png)
 
 Select the second button, **Create new thread in this channel**. Within a few seconds, you should see a new conversation appear in the channel:
 
-![Screenshot of a message from the bot using cards](../media/07-test-02.png)
+![Screenshot of a message from the bot using cards - updating a card](../media/07-test-02.png)
 
 ## Summary
 
