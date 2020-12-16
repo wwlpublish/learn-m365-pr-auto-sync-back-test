@@ -62,7 +62,7 @@ export class MyBot extends TeamsActivityHandler {
 
 Bots can also update messages they created. The update can replace an existing Adaptive Card, similar to how Outlook Actionable Messages can be refreshed.
 
-The following code demonstrates how to update an existing message. The `replyToId` property on the activity that initiated the turn, use the `updateActivity()` method to update an existing message.
+The following code demonstrates how to update an existing message. The `replyToId` property on the activity that started the turn, use the `updateActivity()` method to update an existing message.
 
 ```typescript
 export class ConvoBot extends TeamsActivityHandler {
