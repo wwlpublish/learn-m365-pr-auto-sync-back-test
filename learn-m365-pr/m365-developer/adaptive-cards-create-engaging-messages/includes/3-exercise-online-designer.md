@@ -294,10 +294,6 @@ Notice the preview of the card displays broken links and placeholders surrounded
 
 ![Screenshot of the template planet card with no data specified](../media/03-mars-adaptive-card-02.png)
 
-Next, restore the two panels you previously minimized in the designer. Select the expand icon for the **Sample Data Editor** and **Data Structure** panels:
-
-![Screenshot of the restored designer](../media/03-restoring-designer-panels.png)
-
 Replace the contents of the **Sample Data Editor** using the following JSON to represent the planet Mars:
 
 ```json

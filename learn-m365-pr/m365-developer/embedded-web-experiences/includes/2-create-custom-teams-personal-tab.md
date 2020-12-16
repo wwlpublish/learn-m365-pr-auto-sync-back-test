@@ -28,7 +28,7 @@ First, you develop the components that support your Microsoft Teams app. Microso
 
 Microsoft Teams apps can be stand-alone, or they can integrate with Microsoft Teams. Microsoft provides a JavaScript SDK for interactivity with the Microsoft teams client and the Bot Framework SDK for building bots.
 
-After you're finished creating the application, the final step is to package and deploy the application. Every Microsoft Teams app contains a manifest file that describes all aspects of your app. The manifest includes the URLs and unique identifiers for the components that you created to implement the application. After you create the manifest, create a package that includes the manifest and associated images used by the app. This package is a zip file. Prior to uploading and publishing the package, you need to deploy all resources that implement the app. These resources include webpages and services used within tabs, bots, and web hooks.
+After you're finished creating the application, the final step is to package and deploy the application. Every Microsoft Teams app contains a manifest file that describes all aspects of your app. The manifest includes the URLs and unique identifiers for the components that you created to implement the application. After you create the manifest, create a package that includes the manifest and associated images used by the app. This package is a zip file. Before uploading and publishing the package, you need to deploy all resources that implement the app. These resources include webpages and services used within tabs, bots, and web hooks.
 
 ## Microsoft Teams tabs
 
@@ -92,7 +92,7 @@ Find ways to notify users about tab activity. For example, post a message card t
 
 #### Conversational
 
-Find a way to facilitate conversation around a tab to ensure that conversations center on the content, data, or process at hand.
+Find a way to implement conversation around a tab to ensure that conversations center on the content, data, or process at hand.
 
 #### Streamlined access
 
@@ -108,7 +108,7 @@ When you create a Microsoft Teams tab, keep in mind the following key points:
 
 - A Microsoft Teams tab is a webpage hosted by the tab provider or developer. No data related to the tab is stored in Microsoft Teams. The developer of the tab is responsible for all aspects of the tab, which includes data storage, configuration settings, and authentication. Microsoft Teams saves only minimal configuration details on the tab, such as the URLs for the content and website of the tab and the name and IDs of the tab.
 
-- When you build your tab, you might want to implement the user experience more like an application and less like a webpage. Many websites implement the traditional page-to-page and postback style of submitting and presenting information. The users of your tabs interact with your application from the Microsoft Teams client. They might use a desktop, mobile, or web experience, but all facilitate a rich client experience. Using web frameworks, such as React, Angular, and Vue.js, you can implement a rich client experience without continuously reloading the page.
+- When you build your tab, you might want to implement the user experience more like an application and less like a webpage. Many websites implement the traditional page-to-page and postback style of submitting and presenting information. The users of your tabs interact with your application from the Microsoft Teams client. They might use a desktop, mobile, or web experience, but all enable a rich client experience. Using web frameworks, such as React, Angular, and Vue.js, you can implement a rich client experience without continuously reloading the page.
 
 ### Developer tooling options
 
@@ -138,7 +138,7 @@ Microsoft Teams offers two ways to obtain context on the current user or from wi
 
 Use placeholders in your configuration or content URLs. Microsoft Teams replaces the placeholders with the relevant values when it determines the actual configuration or content URL to go to. The available placeholders include all fields on the Microsoft Teams context object available within the JavaScript SDK.
 
-Some of the values available as URL placeholders are set when the tab is configured. Other values are set when a deep link to the tab is generated. Deep links are used to facilitate tab-to-tab communication.
+Some of the values available as URL placeholders are set when the tab is configured. Other values are set when a deep link to the tab is generated. Deep links are used to implement tab-to-tab communication.
 
 The URL placeholder values include the properties listed in the following table.
 

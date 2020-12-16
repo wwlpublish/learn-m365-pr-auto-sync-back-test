@@ -26,7 +26,7 @@ Scenarios that work well in a channel will usually work as well in a group chat.
 
 ### Bots in one-to-one chats
 
-This is the traditional way for a conversational bot to interact with a user. They can enable diverse workloads. Q&A bots, bots that initiate workflows in other systems, bots that tell jokes, and bots that take notes are just a few examples.
+This is the traditional way for a conversational bot to interact with a user. They can enable diverse workloads. Q&A bots, bots that start workflows in other systems, bots that tell jokes, and bots that take notes are just a few examples.
 
 Remember to consider whether a conversation-based interface is the best way to present your functionality.
 
@@ -86,7 +86,7 @@ Microsoft provides SDKs for multiple platforms, including .NET and Node.js. This
 
 ### Create a web service
 
-The heart of your bot is the web service. It will define a single HTTPS route on which to receive all requests. The Microsoft Bot Framework will send different types of messages to your web service. Your web service can inspect the type of message to route it to the desired logic. The other option is to use one of the available SDKs that expose methods the SDK will call when messages matching specific types are received.
+The heart of your bot is the web service. It will define a single HTTPS route on which to receive all requests. The Microsoft Bot Framework will send different types of messages to your web service. Your web service can inspect the type of message to route it to the wanted logic. The other option is to use one of the available SDKs that expose methods the SDK will call when messages matching specific types are received.
 
 For example, when a messaging extension action command is invoked, the SDK will detect the message type `composeExtension/fetchTask` and call the `handleTeamsMessagingExtensionFetchTask()` method, passing in a context and the payload from the message sent as an HTTPS POST from the Microsoft Bot Framework.
 
@@ -181,7 +181,7 @@ A bot behaves slightly differently depending on what kind of conversation it's i
 
 ### Activities
 
-Each message is an `Activity` object of type `messageType: message`. When a user sends a message, Teams posts the message to your bot; specifically, it sends a JSON object to your bot's messaging endpoint. Your bot examines the message to determine its type and respond accordingly.
+Each message is an `Activity` object of type `messageType: message`. When a user sends a message, Teams posts the message to your bot; specifically, it sends a JSON object to your bot's messaging endpoint. Your bot examines the message to determine its type and respond correctly.
 
 ### Receive a message
 

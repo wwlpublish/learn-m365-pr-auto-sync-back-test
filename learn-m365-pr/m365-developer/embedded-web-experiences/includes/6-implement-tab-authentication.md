@@ -14,13 +14,13 @@ Recall that a custom tab is just an `<iframe>` that displays the contents of a w
 
 Never treat this information as proof of identity of the current user. Instead, use it as the sign-in hint when the user is prompted to sign in.
 
-Azure AD and many other identity providers don't allow their sign-in experiences to be hosted in an `<iframe>`. Because all tabs in Microsoft Teams are in an `<iframe>`, you'll implement a pop-up window pattern to initiate the authentication process. This pop-up window should be initiated only by a user action. It shouldn't open automatically. Pop-up windows that open automatically are likely to trigger the browser's pop-up blocker and confuse the user experience. Create a button within the tab's configuration or content page that initiates the authentication process.
+Azure AD and many other identity providers don't allow their sign-in experiences to be hosted in an `<iframe>`. Because all tabs in Microsoft Teams are in an `<iframe>`, you'll implement a pop-up window pattern to start the authentication process. This pop-up window should be started only by a user action. It shouldn't open automatically. Pop-up windows that open automatically are likely to trigger the browser's pop-up blocker and confuse the user experience. Create a button within the tab's configuration or content page that starts the authentication process.
 
 ### OAuth 2.0 implicit grant flow and Microsoft Teams tabs
 
 A basic understanding of the OAuth 2.0 implicit grant flow is a prerequisite for working with authentication in Microsoft Teams tabs. The UML sequence here documents the process.
 
-1. The user interacts with the content on the tab configuration or content page. Typically, they use a button to initiate the sign-in process.
+1. The user interacts with the content on the tab configuration or content page. Typically, they use a button to start the sign-in process.
 1. The tab builds the URL for its authentication start page, optionally by using information from URL placeholders or by calling `microsoftTeams.getContext()`. This Microsoft Teams JavaScript SDK method streamlines the authentication experience for the user.
 
     For example, when authenticating with Azure AD, if the `loginHint` parameter is set to the user's email address, the user might not have to sign in if they've done so recently. They might not have to sign in because Azure AD uses the user's cached credentials if possible. In this scenario, the pop-up window flashes briefly and then disappears.
@@ -42,7 +42,7 @@ A basic understanding of the OAuth 2.0 implicit grant flow is a prerequisite for
 
 Before you implement authentication in your Microsoft Teams tab, you must first configure your identity provider. In a scenario where Azure AD is the selected identity provider, you need to register a new Azure AD application and define the permissions that the application needs. The user is required to consent to these permissions to the application when they first sign in to the application.
 
-The Microsoft Teams JavaScript SDK contains an API to initiate the pop-up window authentication process. The `microsoftTeams.authentication.authenticate()` method takes a single configuration object in as a parameter. You can use this configuration object to specify the URL of the page that initiates the authentication flow and the success and failure callback handlers when the process completes.
+The Microsoft Teams JavaScript SDK contains an API to start the pop-up window authentication process. The `microsoftTeams.authentication.authenticate()` method takes a single configuration object in as a parameter. You can use this configuration object to specify the URL of the page that starts the authentication flow and the success and failure callback handlers when the process completes.
 
 If the authentication process failed, Microsoft Teams reports back with the error. Two predefined failure reasons are specific to Microsoft Teams:
 
