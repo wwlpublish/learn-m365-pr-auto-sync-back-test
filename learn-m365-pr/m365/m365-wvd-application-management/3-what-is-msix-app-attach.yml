@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.wvd-msix-app-attach.what-is-msix-app-attach
-title: How does Windows Virtual Desktop work?
+title: What is MSIX app attach?
 metadata:
-  title: How does Windows Virtual Desktop work?
+  title: What is MSIX app attach?
   description: Learn application delivery options for Windows Virtual Desktop and how MSIX app attach works. Learn MSIX app attach terminology and best practices.
   ms.date: 12/04/2020
   author: ndelgado
