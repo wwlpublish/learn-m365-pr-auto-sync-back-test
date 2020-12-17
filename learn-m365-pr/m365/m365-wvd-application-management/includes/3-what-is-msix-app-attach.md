@@ -46,5 +46,5 @@ As a review and reference, the following are key MSIX app attach terms.
 | MSIX container|MSIX apps run in a lightweight container isolated from other apps.|
 | MSIX application|An application that is packaged in MSIX format with an MSIX extension.|
 | MSIX package|The package that contains the payload of the application with additional files.|
-| MSIX share|An MSIX image is a VHD, VHDX, or CIM file that contains one or more MSIX packaged applications.|
+| MSIX image|An MSIX image is a VHD, VHDX, or CIM file that contains one or more MSIX packaged applications.|
 | Repackage|The process to convert a non-MSIX application into MSIX using the MSIX Packaging Tool. |
