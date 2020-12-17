@@ -117,6 +117,7 @@ UNC
 To add an MSIX image in the WVD, open the Azure portal, select your WVD host pool, and then select **MSIX packages** tab.
 From the toolbar select **+ADD** and in the MSIX image path provide the UNC path to the MSIX image. 
 
+|||
 | --- | --- |
 | **MSIX image path** | UNC path of the MSIX image |
 | **MSIX package** | MSIX package, loaded from the MSIX image |
