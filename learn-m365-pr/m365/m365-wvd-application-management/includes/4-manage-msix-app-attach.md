@@ -14,13 +14,13 @@ Follow the steps bellow to create and initialize the VHD or VHDS disk using Powe
 1. Run the following cmdlet in PowerShell to create a VHD:
 
 ```
- New-VHD -SizeBytes \&lt;size\&gt;MB -Path c:\temp\\&lt;name\&gt;.vhd -Dynamic -Confirm:$false
+ New-VHD -SizeBytes <size>MB -Path c:\temp\<name>.vhd -Dynamic -Confirm:$false
 ```
 
 2. To mount the newly created VHD run:
 
 ```
- $vhdObject = Mount-VHD c:\temp\\&lt;name\&gt;.vhd -Passthru
+ $vhdObject = Mount-VHD c:\temp\<name>.vhd -Passthru
 ```
 
 3. To initialize the VHD run:
