@@ -89,7 +89,7 @@ Use the following steps to create a remote desktop session from your local compu
 
 1. Right-click **Remote Desktop Users** or activate its context menu, and then select **Add to Group**.
 
-1. In the **Remote Desktop Users Properties interface** dialog box, select **Add**.
+1. In the **Remote Desktop Users** properties interface** dialog box, select Add.
 
 1. Add the standard user you created to this group.
 
