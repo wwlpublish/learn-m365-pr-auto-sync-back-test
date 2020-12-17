@@ -2,7 +2,7 @@ Customers can take several actions and use a variety of tools to help secure the
 
 |**Best Practice**| **Result**                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-|Subscribe to Azure Security Center Standard| Use the ASC security score to improve your overall security.|
+|Enable Azure Security Center for it's Cloud security posture management (CSPM) features| Use the CSPM feature of the security score to improve your overall security.|
 |Require multifactor authentication|Enhance user authentication.|
 |Enable conditional access|Manage risks before you grant users access.|
 |Collect audit logs|Review user and administrator activity.|
