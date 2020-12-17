@@ -4,7 +4,7 @@ You’ve learned about MSIX app attach and how it works. Let's find out how you 
 
 MSIX app attach requires a MSIX image, which is a separate VHD that contains MSIX packages. You already learned how to prepare the MSIX package; now let’s explore how to prepare the VHD.
 
-First, download the [msixmgr tool](https://aka.ms/msixmgr) and save the msixmrg.zip folder to a folder within a session host VM. Then, unzip the **msixmgr.zip** folder and place the MSIX package in the same folder.
+First, download the [msixmgr tool](https://aka.ms/msixmgr) and save the msixmrg.zip file to a folder within a session host VM. Then, unzip the **msixmgr.zip** file and place the MSIX package in the same folder.
 
 ## Create a VHD or VHDX disk
 
@@ -136,7 +136,7 @@ UNC
 
 To add an MSIX image in the WVD, open the Azure portal, select your WVD host pool, and then select **MSIX packages** tab.
 From the toolbar select **+ADD** and in the MSIX image path provide the UNC path to the MSIX image. 
-Remote Desktop agent on a randomly selected VM from the host pool will access the MSIX image from the UNC path and will load in the host pool.
+Remote desktop agent on a randomly selected VM from the host pool will access the MSIX image from the UNC path and will load in the host pool.
 
 :::image type="content" source="../media/04-Screenshot-of-Add-MSIX-package-in-WVD.PNG" alt-text="Screenshot of MSIX package in WVD." border="true":::
 
@@ -152,8 +152,7 @@ From the toolbar select **+Add**, provide name of the remote application group, 
 
 ### Assign users or groups
 
-Use the Assignments tab in the DAG or RAG to assign the access to MSIX app for your users or groups.
-
+To assign users or groups to receive apps, in the DAG or RAG, in the Assignments tab, assign access to the MSIX app to specific users or groups.
 
 ## Maintain an MSIX app attach with updates and removals
 
