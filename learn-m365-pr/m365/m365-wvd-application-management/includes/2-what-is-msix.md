@@ -84,11 +84,11 @@ Use the following steps to create the MSIX packages.
 
 1. Prepare the computer. In this step, the MSIX package driver is installed and Windows Update is disabled.
 
-2. Choose the installer you want to package. This step varies based on the installers that you choose to convert. The last part of this step is to sign the     package using one of the following options:
+2. Choose the installer you want to package. This step varies based on the installers that you choose to convert. The last part of this step is to sign the package using one of the following options:
 
-3. - Sign with Device Guard signing
-   - Sign with a certificate(.pfx)
-   - Specify a .cer file. This does not sign the package but matches the subject of the certificate that will be used for signing.
+ - Sign with Device Guard signing
+ - Sign with a certificate(.pfx)
+ - Specify a .cer file. This does not sign the package but matches the subject of the certificate that will be used for signing.
 
 4. Detail the package information. The MSIX package tool will attempt to auto-fill information about the app based on the installer that is used to be transformed. You can customize the input with your own values as needed.
 
@@ -103,8 +103,8 @@ Use the following steps to create the MSIX packages.
 You can automate the process of repacking the applications with the command line interface. The following examples define how to use the MSIX Packaging Tool from the command line:
 
 ```
- \> MsixPackagingTool.exe create-package --template c:\users\documents\ConversionTemplate.xml -v
- \> MSIXPackagingTool.exe create-package --template c:\users\documents\ConversionTemplate.xml --virtualMachinePassword pswd112893
+ MsixPackagingTool.exe create-package --template c:\users\documents\ConversionTemplate.xml -v
+ MSIXPackagingTool.exe create-package --template c:\users\documents\ConversionTemplate.xml --virtualMachinePassword pswd112893
 ```
 
 >[!NOTE]
