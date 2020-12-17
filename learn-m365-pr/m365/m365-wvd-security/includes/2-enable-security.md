@@ -2,12 +2,12 @@ As the lead system engineer and Azure administrator tasked with evaluating Windo
 
 ## Windows Virtual Desktop architecture
 
-Windows Virtual Desktop is a desktop and app virtualization service that runs in Azure. Windows Virtual Desktop provides:
+Windows Virtual Desktop is a desktop and app virtualization service that runs in Azure. Windows Virtual Desktop:
 
-- Provide virtualization infrastructure as a managed service.
-- Enable management of VMs deployed in your Azure subscription.
-- Use Azure AD to manage the identity services.
-- Include support for existing tools such as Microsoft Intune or System Center Configuration Manager.
+- Provides virtualization infrastructure as a managed service.
+- Enables management of VMs deployed in your Azure subscription.
+- Uses Azure AD to manage the identity services.
+- Includes support for existing tools such as Microsoft Intune or System Center Configuration Manager.
 
 The following image is a typical enterprise deployment architecture diagram that depicts the various components.
 
@@ -62,4 +62,4 @@ Several Remote Desktop clients such as Windows Desktop, Microsoft Store Client, 
 - Access only the application from a preconfigured application group in a host pool. Use Azure AD and role-based access controls to provide fine-grained authorization.
 
 > [!NOTE] 
-> Windows Virtual Desktop requires Active Directory Domain Services (AD DS). An AD DS joined session host can take advantage of Azure AD security features, such as conditional access, multifactor authentication, and the Intelligent Security Graph. 
+> Windows Virtual Desktop requires AD DS. An AD DS-joined session host can take advantage of Azure AD security features, such as conditional access, multifactor authentication, and the Intelligent Security Graph. 
