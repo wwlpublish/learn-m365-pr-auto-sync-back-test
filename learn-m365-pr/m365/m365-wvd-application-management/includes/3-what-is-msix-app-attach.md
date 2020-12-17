@@ -21,6 +21,26 @@ MSIX app attach stores application files in a separate virtual hard disk from th
 
 When MSIX app attach is launched, the application files are accessed from a VHD, and the user isn’t even aware that the application isn’t locally installed.
 
+Each of the following automatic scripts runs a different script for each phase of the app attach process:
+
+- The startup script runs the stage script.
+- The logon script runs the register script.
+- The logoff script runs the deregister script.
+- The shutdown script runs the destage script.
+
+To test an MSIX app attach, you follow four ordered phases.
+
+1. Make an app attach package available on a VM.
+2. Make a staged app attach package available for the user. You can choose between two options:
+
+   - Full registration
+   - On-demand registration. The applications display in the Start menu and registration is complete when the user selects the app.
+
+3. Remove the application from the user.
+4. Remove the application from the computer.
+
+You can integrate deployment of these PowerShell scripts using Group Policy.
+
 After opening MSIX app attach, the user experiences the following:
 
 1. From the Windows Virtual Desktop client, the user signs in and selects the host pool for which they have access. The process is similar if the user opens published RemoteApps from the Windows Virtual Desktop environment.
