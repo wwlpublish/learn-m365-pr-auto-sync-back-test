@@ -2,7 +2,7 @@
 
 A role is a system of grouping users and granting them rights.
 
-There are two types of role specifically for Intune, built-in and custom as well as Azure Active Directory roles, which have Intune access.
+There are two types of role specifically for Intune: built-in and custom.
 
 ### Built-in roles
 
@@ -15,7 +15,7 @@ You can assign permissions to administrators by assigning them one or more built
 | Read Only Operator         | Can view user and device information, but can't make changes.                                                                  |
 | Application Manager        | Can view device information and configuration profiles. Can manage applications.                                                |
 | Intune Role Administrator  | Manages custom Intune roles and role assignments.                                                                               |
-| School Administrator       | Manages Intune for Education Windows 10 devices.                                                                                |
+| School Administrator       | Manages apps and settings for their groups. A School Administrator can take remote actions on devices, including remotely locking them, restarting them, and retiring them from management. |
 | Endpoint Security Manager  | Manages security and compliance. |
 
 ## Custom roles
