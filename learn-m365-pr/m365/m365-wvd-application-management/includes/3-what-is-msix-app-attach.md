@@ -21,16 +21,16 @@ MSIX app attach stores application files in a separate virtual hard disk from th
 
 When MSIX app attach is launched, the application files are accessed from a VHD, and the user isn’t even aware that the application isn’t locally installed.
 
-MSIX app attach follow several steps or actions:
+MSIX app attach follows several steps or actions:
 
 |Term| Definition|
 |----------------|------------------------------------------------------------|
-| Stage|Process that make the MSIX app attach available on the VM.|
-| Registration|Process that make the MSIX app attach available for the user.|
-| Delayed registration|Delay loading until after the session is established.|
-| On demand registration|User load applications as needed.|
-| Deregistration|User sign-off and application is de-register for that user |
-| Destage|VM shutdown or reboot, and application is destaged from the VM|
+| Stage|Process that makes the MSIX app attach available on the VM.|
+| Registration|Process that makes the MSIX app attach available for the user.|
+| Delayed registration|Delays loading until after the session is established.|
+| On demand registration|User loads applications as needed.|
+| Deregistration|User signs out and the application is de-registered for that user |
+| Destage|VM shutdown or reboot, and the application is destaged from the VM|
 
 After opening MSIX app attach, the user experiences the following:
 
@@ -60,4 +60,4 @@ As a review and reference, the following are key MSIX app attach terms.
 | MSIX application|An application that is packaged in MSIX format with an MSIX extension.|
 | MSIX package|The package that contains the payload of the application with additional files.|
 | MSIX image|An MSIX image is a VHD, VHDX, or CIM file that contains one or more MSIX packaged applications.|
-| Repackage|The process to convert a non-MSIX application into MSIX using the MSIX Packaging Tool. |
+| Repackage|The process to convert a non-MSIX application into MSIX using the MSIX Packaging tool. |
