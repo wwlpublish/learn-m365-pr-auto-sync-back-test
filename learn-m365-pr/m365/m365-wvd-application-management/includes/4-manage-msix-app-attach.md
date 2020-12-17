@@ -60,6 +60,7 @@ msixmgr.exe -Unpack -packagePath <package>.msix -destination "f:\<name of folder
 ## Composite Image File System (CimFS)
 
 You can prepare the MSIX image using CimFS format that is available in Windows 10 2004 release. CimFS provides faster mounting and unmounting times and lower memory and CPU consumption then VHD. You can also create the MSIX image with Composite Image (CIM) format that is similar to Windows Imaging Format (WIM) or read-only VHD. 
+
 You can use your MSIX app attach image either in the on-premises or in your Windows Virtual Desktop environment. 
 
 ## Use MSIX app attach locally
