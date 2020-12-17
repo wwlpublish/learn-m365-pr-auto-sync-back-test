@@ -2,7 +2,7 @@ As the lead system engineer and Azure administrator tasked with evaluating Windo
 
 ## Windows Virtual Desktop architecture
 
-Windows Virtual Desktop is a desktop and app virtualization service that runs on-premises and in Azure. This unit focuses on the Azure deployments, which:
+Windows Virtual Desktop is a desktop and app virtualization service that runs in Azure. Windows Virtual Desktop provides:
 
 - Provide virtualization infrastructure as a managed service.
 - Enable management of VMs deployed in your Azure subscription.
@@ -23,7 +23,7 @@ Microsoft manages the Windows Virtual Desktop services described in the followin
 
 | **Service**                   | **Description**                                              |
 | ----------------------------- | ------------------------------------------------------------ |
-| Azure Web Access              | This service enables Windows Virtual Desktop end users to access virtual desktops and remote apps through a HTML 5-compatible web browser. The operating system that browser is running on does not matter. |
+| Azure Web Access              | This service enables Windows Virtual Desktop end users to access virtual desktops and remote apps through a HTML 5-compatible web browser. |
 | Gateway                       | This service connects remote clients to a gateway, which then establishes a connection from a virtual machine (VM) back to the same gateway. |
 | Broker                        | The Broker service provides load balancing and reconnection to virtual desktops and remote apps in existing user sessions. |
 | Diagnostics                   | The Remote Desktop Diagnostics service logs events of actions on the Windows Virtual Desktop deployment as a success or failure. Diagnostics are used to troubleshoot errors. |
@@ -58,8 +58,8 @@ The following load balancing methods are available in Windows Virtual Desktop. B
 
 Several Remote Desktop clients such as Windows Desktop, Microsoft Store Client, and the most popular third-party OS devices include support for Windows Virtual Desktop. You can:
 
-- Access a full desktop in Windows 10 Enterprise multi-session, Windows 10 Enterprise, Windows Server 2012 R2 and newer, Windows 7 Enterprise Full Desktop for backward compatibility.
+- Access a full desktop in Windows 10 Enterprise multi-session, Windows Server 2012 R2 and newer, Windows 7 Enterprise (full desktop) for backward compatibility.
 - Access only the application from a preconfigured application group in a host pool. Use Azure AD and role-based access controls to provide fine-grained authorization.
 
 > [!NOTE] 
-> Windows Virtual Desktop requires AD DS. An AD DS domain-joined session host takes advantage of Azure AD security features, such as conditional access, multifactor authentication, and the Intelligent Security Graph.
+> Windows Virtual Desktop requires Active Directory Domain Services (AD DS). An AD DS joined session host can take advantage of Azure AD security features, such as conditional access, multifactor authentication, and the Intelligent Security Graph. 
