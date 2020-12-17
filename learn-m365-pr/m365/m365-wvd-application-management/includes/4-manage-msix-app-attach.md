@@ -75,7 +75,7 @@ To use an MSIX app attach in your Windows Virtual Desktop environment:
 - Set up and MSIX app attach share
 - Upload MSIX image to File Share
 - Create a WVD host pool
-- Create MSIX app group
+- Create MSIX app
 - Publish applications to a RemoteApp/RemoteDesktop
 - Assign users or groups
 
@@ -99,7 +99,7 @@ Windows Virtual Desktop is a desktop and app virtualization service that runs on
 You can deploy and manage virtual desktops using the Azure portal, Windows Virtual Desktop PowerShell, or REST interfaces.
 To configure the host pools, create app groups, assign users, and publish resources use the following tutorial [Create a host pool with the Azure portal](https://docs.microsoft.com/en-us/azure/virtual-desktop/create-host-pools-azure-marketplace).
 
-### Create MSIX app group
+### Create MSIX app
 
 Once your WVD is ready and has at least one running virtual machine (VM) you can proceed with the step to add MSIX image to host pool.
 To add the MSIX image in the host pool you need to obtain the UNC path of the MSIX image. 
@@ -115,7 +115,7 @@ UNC
 ```
 
 To add an MSIX image in the WVD, open the Azure portal, select your WVD host pool, and then select **MSIX packages** tab.
-From the toolbar select **+ADD** and in the MSIX image path provide the UNC path to the MSIX image. 
+From the toolbar select **+ ADD** and in the MSIX image path provide the UNC path to the MSIX image. 
 
 |||
 | --- | --- |
@@ -134,10 +134,10 @@ Remote desktop agent on a randomly selected VM from the host pool will access th
 ### Publish applications
 
 To publish MSIX application using MSIX app attach, the state of the app in the host pool should be **Active**.
-In the Azure portal, navigate to your WVD and select **Application Group**. 
-If you are publishing MSIX app attach to Remote Desktops, select the existing **Desktop** application group (DAG). From the Application group menu in the **Manage** section, select **Applications** and from the toolbar select **+Add** to add and existing MSIX package.
+In the Azure portal, navigate to your Windows Virtual Desktop and select **Application Group**. 
+If you are publishing MSIX app attach to Remote Desktops, select the existing **Desktop** application group (DAG). From the Application group menu in the **Manage** section, select **Applications** and from the toolbar select **+ Add** to add and existing MSIX package.
 To publish MSIX application to remote application group (RAG) follow the similar procedure to select **Application Group**. 
-From the toolbar select **+Add**, provide name of the remote application group, and then in the Applications tab add the existing MSIX application, by selecting the application source to be MSIX package.
+From the toolbar select **+ Add**, provide name of the remote application group, and then in the Applications tab add the existing MSIX application, by selecting the application source to be MSIX package.
 
 :::image type="content" source="../media/04-Screenshot-of-Application-groups-in-WVD.PNG" alt-text="Screenshot of Application grous in WVD." border="true":::
 
@@ -149,10 +149,8 @@ To assign users or groups to receive apps, in the DAG or RAG, in the Assignments
 
 You can manage new versions of the applications by uploading a new VHD on a file share. The process is similar to publishing a new MSIX app attach application.
 
-1. You must update the MSIX app group and modify the application to the new version.
-
-2. Users can get the new version of the application by signing out and signing in again.
-
-3. After the user signs in, the new application is staged and registered.
-
-4. To remove the application using MSIX app attach, remove from the group and from the file share.
+You must update the MSIX app and modify the application to the new version.
+Users can get the new version of the application by signing out and signing in again.
+After the user signs in, the new application is staged and registered.
+You can change MSIX package registration type, by opening the MSIX package and in the **Registration Tpe** select **On-demand** or **Log on blocking** as desired.
+To remove the application using MSIX app attach, remove from the app from Windows Virtual Desktop and from the file share.
