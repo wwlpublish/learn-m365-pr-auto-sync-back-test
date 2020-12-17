@@ -9,7 +9,7 @@ You can learn more by reviewing the following documents.
 
 - [What is MSIX?](https://docs.microsoft.com/windows/msix/overview)
 - [What is MSIX app attach?](https://docs.microsoft.com/azure/virtual-desktop/what-is-app-attach)
-- [Set up MSIX app attach](https://docs.microsoft.com/azure/virtual-desktop/app-attach)
+- [Create PowerShell scripts for MSIX app attach (preview)](https://docs.microsoft.com/azure/virtual-desktop/app-attach)
 - [What is Windows Virtual Desktop?](https://docs.microsoft.com/azure/virtual-desktop/overview)
 - [MSIX Packaging Tool](https://docs.microsoft.com/windows/msix/packaging-tool/tool-overview)
 - [Using startup, shutdown, logon, and logoff scripts in Group Policy](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn789196(v=ws.11)/)
