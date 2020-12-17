@@ -2,7 +2,7 @@ Learn about the Microsoft security capabilities that help keep your applications
 
 ## Scenario
 
-You are the lead system engineer and Microsoft Azure administrator at Contoso, Ltd., which is a growing financial services company that is based in London and has a branch office in New York. The company uses Microsoft 365 and Active Directory Domain Services (AD DS). These services are in sync with Azure Active Directory (Azure AD) with the use of Azure AD Connect.
+You are the lead system engineer and Microsoft Azure administrator at Contoso, Ltd., which is a growing financial services company that is based in London and has a branch office in New York. The company uses Microsoft 365 and Active Directory Domain Services (AD DS). Their on-premises Active Directory is syncing to Azure Active Directory (Azure AD) with the use of Azure AD Connect.
 
 The IT director has asked you to evaluate the risks and benefits to using Windows Virtual Desktop to support their remote workers. The key aspects of the evaluation will be functionality, scalability, security, and the cost of Windows Virtual Desktop.
 
