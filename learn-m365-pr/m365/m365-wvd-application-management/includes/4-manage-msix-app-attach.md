@@ -68,26 +68,6 @@ You can use your MSIX app attach image either in the on-premises or in your Wind
 Setting up MSIX app attach outside Windows Virtual Desktop requires all phases for MSIX app attach to be performed with PowerShell scripts.
 You can prepare for each phase using PowerShell scripts that run at the specific stage on the virtual machine. You can find sample scripts for each phase in the [MSIX app attach](https://github.com/Azure/RDS-Templates/tree/master/msix-app-attach) repo on GitHub.
 
-Each of the following automatic scripts runs a different script for each phase of the app attach process:
-
-- The startup script runs the stage script.
-- The logon script runs the register script.
-- The logoff script runs the deregister script.
-- The shutdown script runs the destage script.
-
-To test an MSIX app attach, you follow four ordered phases.
-
-1. Make an app attach package available on a VM.
-2. Make a staged app attach package available for the user. You can choose between two options:
-
-   - Full registration
-   - On-demand registration. The applications display in the Start menu and registration is complete when the user selects the app.
-
-3. Remove the application from the user.
-4. Remove the application from the computer.
-
-You can integrate deployment of these PowerShell scripts using Group Policy.
-
 ## Use MSIX app attach in Windows Virtual Desktop
 
 To use an MSIX app attach in your Windows Virtual Desktop environment:
