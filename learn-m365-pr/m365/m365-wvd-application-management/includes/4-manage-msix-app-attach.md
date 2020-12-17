@@ -116,6 +116,16 @@ UNC
 
 To add an MSIX image in the WVD, open the Azure portal, select your WVD host pool, and then select **MSIX packages** tab.
 From the toolbar select **+ADD** and in the MSIX image path provide the UNC path to the MSIX image. 
+
+| --- | --- |
+| **MSIX image path** | UNC path of the MSIX image |
+| **MSIX package** | MSIX package, loaded from the MSIX image |
+| **Package applications** | List of MSIX applications available in an MSIX package. |
+| **Display name** | Optional display name to be presented in the interface. |
+| **Version** | MSIX package version automatically delivered from parsing the package. |
+| **Registration type** | **On-demand –** User starts MSIX application on demand. **Log on Blocking –** Registration is done during logon session |
+| **State** | **Active** – Users interact with active packages **Inactive –** Inactive packages are not delivered to users. |
+
 Remote desktop agent on a randomly selected VM from the host pool will access the MSIX image from the UNC path and will load in the host pool.
 
 :::image type="content" source="../media/04-Screenshot-of-Add-MSIX-package-in-WVD.PNG" alt-text="Screenshot of MSIX package in WVD." border="true":::
