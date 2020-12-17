@@ -114,15 +114,15 @@ UNC
 To add an MSIX image in the Windows Virtual Desktop environment, open the Azure portal, select your Windows Virtual Desktop host pool, and then select the **MSIX packages** tab.
 From the toolbar select **+ ADD** and in the MSIX image path provide the UNC path to the MSIX image. 
 
-|||
+|Item|Description|
 | --- | --- |
 | **MSIX image path** | UNC path of the MSIX image |
 | **MSIX package** | MSIX package, loaded from the MSIX image |
 | **Package applications** | List of MSIX applications available in an MSIX package. |
 | **Display name** | Optional display name to be presented in the interface. |
 | **Version** | MSIX package version automatically delivered from parsing the package. |
-| **Registration type** | **On-demand –** User starts the MSIX application on demand. **Log on Blocking –** Registration is done during logon session |
-| **State** | **Active** – Users interact with active packages **Inactive –** Inactive packages are not delivered to users. |
+| **Registration type** | **On-demand –** User starts the MSIX application on demand. **Log on Blocking –** Registration is done during logon session. |
+| **State** | **Active** – Users interact with active packages. **Inactive –** Inactive packages are not delivered to users. |
 
 Remote desktop agent on a randomly selected VM from the host pool will access the MSIX image from the UNC path and will load in the host pool.
 
