@@ -40,6 +40,8 @@ After opening MSIX app attach, the user experiences the following:
 4. Applications that are assigned to the user are read from Windows Virtual Desktop.
 5. MSIX app attach applications are registered to the virtual machine for that user from the attached MSIX virtual disk. That virtual disk could be on an IaaS file share, Azure Files or Azure NetApp Files.
 
+:::image type="content" source="../media/03-How-MSIX-app-attach-works.PNG" alt-text="Diagram how MSIX app attach work." border="true":::
+
 > [!NOTE]
 
 > Both the user profile and MSIX app attach are stored on a file share in virtual hard disk format.
