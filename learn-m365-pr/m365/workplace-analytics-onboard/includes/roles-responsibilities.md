@@ -17,4 +17,4 @@ This group will:
 
 The Microsoft 365 administrator assigns licenses and user roles (steps 1 and 2). The Workplace Analytics administrator confirms Workplace Analytics settings and uploads the organizational data file (steps 3 and 4).
 
-:::image type="content" source="../media/setup-onboarding.png" alt-text="<A graphic shows four steps for onboarding. Under the heading Microsoft 365 tenant admin are steps 1, Scope the analysis population, and 2, Control who has what access. Under the heading Workplace Analytics Admin are steps 3, Manage protection of sensitive data, and 4, Adjust availability of employee descriptive data.>":::
+:::image type="content" source="../media/setup-onboarding.png" border="false" alt-text="<A graphic shows four steps for onboarding. Under the heading Microsoft 365 tenant admin are steps 1, Scope the analysis population, and 2, Control who has what access. Under the heading Workplace Analytics Admin are steps 3, Manage protection of sensitive data, and 4, Adjust availability of employee descriptive data.>":::

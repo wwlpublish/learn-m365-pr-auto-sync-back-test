@@ -37,7 +37,7 @@ For these five required attributes, every row in the file must have a non-blank 
 ## Which employees to include
 **All employees should be included in your organizational data file**, whether or not they are assigned Workplace Analytics licenses. This lets you  measure how employees in the analysis population work with other employees across the organization.
 
-:::image type="content" source="../media/which-employees-include.png" alt-text="A graphic shows first an example scenario - the admin assigned licenses to only employees in the United States, but they want to understand how those US employees invested their time with employees across the globe. Then there are two pie charts that compare the time those US employees devoted to other US employees versus all users.":::
+:::image type="content" source="../media/which-employees-include.png" border="false" alt-text="A graphic shows first an example scenario - the admin assigned licenses to only employees in the United States, but they want to understand how those US employees invested their time with employees across the globe. Then there are two pie charts that compare the time those US employees devoted to other US employees versus all users.":::
 
 ## Additional data attributes
 The first time that you activate Workplace Analytics you need just the five *required* attributes. There are more than 100 additional *optional* attributes that you can use, based on the analyses you want to conduct and how you want to group your data. The following table shows some examples of these attributes. Additional data attributes are optional, and you can append them to the organizational file at any time.  
