@@ -49,7 +49,7 @@ Let's first explore the sending phase of actionable messages
 
 In the send phase, the pre-requisites for your service to send actionable messages are as follows:
 
-- If you're using actionable email, you'll need to enable sender verification. This does not apply to connector messages.
+- If you're using actionable email, you'll need to enable sender verification. This doesn't apply to connector messages.
 - Your service must be registered with Microsoft.
 - The Action URL must support HTTPS.
 

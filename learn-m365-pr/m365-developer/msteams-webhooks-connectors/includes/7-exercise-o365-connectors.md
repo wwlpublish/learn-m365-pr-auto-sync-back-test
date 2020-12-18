@@ -20,7 +20,7 @@ On the **Register Connector** page, complete the required fields in the form wit
 
 Select the **I accept the terms and conditions...** checkbox and select **Save** to register the Connector.
 
-After successfully registering your Connector, the **Connectors Developer Dashboard** page will display some additional sections. While there is a button to **Download Manifest** for a custom Microsoft Teams app, we'll use the manifest created by the Yeoman Generator for Microsoft Teams.
+After successfully registering your Connector, the **Connectors Developer Dashboard** page will display some additional sections. While there's a button to **Download Manifest** for a custom Microsoft Teams app, we'll use the manifest created by the Yeoman Generator for Microsoft Teams.
 
 You'll need the ID of your new Connector later in the exercise. This ID, a GUID, can be found in the URL of the updated page. Copy this ID for later use.
 
@@ -42,11 +42,12 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project?**: My First Teams Connector
 - **Your (company) name? (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: v1.6
+- **Which manifest version would you like to use?**: v1.8
 - **Enter your Microsoft Partner Id, if you have one?**: (Leave blank to skip)
 - **What features do you want to add to your project?**: A Connector
 - **The URL where you will host this solution?**: (Accept the default option)
 - **Would you like show a loading indicator when your app/tab loads?**: No
+- **Would you like personal apps to be rendered without a tab header-bar?** No
 - **Would you like to include Test framework and initial tests?**: No
 - **Would you like to use Azure Applications Insights for telemetry?**: No
 - **What type of Connector would you like to include?**: A new Connector hosted in this solution
@@ -58,32 +59,9 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 
 After answering the generator's questions, the generator will create the scaffolding for the project and then execute `npm install` that downloads all the dependencies required by the project.
 
-### Ensure the project is using the latest version of Teams manifest & SDK
-
-Run the npm command to install the latest version of the SDK
-
-```console
-npm i @microsoft/teams-js
-```
-
-Locate and open the `manifest.json` file in the `manifest`  folder of the project.
-
-- Change the `$schema` property to **https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json**
-- Change the `manifestVersion` property to **1.7**.
-- Change the `version` property to **1.0.0**.
-
-Open the `gulp.config.js` file in the root folder of the project. Add the following to the **SCHEMAS** property.
-
-```json
-{
-  version: "1.7",
-  schema: "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json"
-}
-```
-
 ### Examine and update the app manifest file
 
-After creating the project you'll need to make a few edits to the default app manifest file. Locate and open the file **./src/manifest/manifest.json**.
+After creating the project, you'll need to make a few edits to the default app manifest file. Locate and open the file **./src/manifest/manifest.json**.
 
 Within this file, locate the `connectors` array. Notice a single connector is listed:
 
@@ -102,7 +80,7 @@ Within this file, locate the `connectors` array. Notice a single connector is li
 > [!IMPORTANT]
 > Notice the scope of the Connector ID will be replaced by the build process. This ID can be found in the `./.env` file that's used for development.
 
-A default manifest has a few empty array properties that must be removed in order to add the Connector to a team. Locate the following properties and delete them from the **manifest.json** file:
+A default manifest has a few empty array properties that must be removed to add the Connector to a team. Locate the following properties and delete them from the **manifest.json** file:
 
 ```json
 "configurableTabs": []
@@ -181,7 +159,7 @@ The web service exposes two endpoints, both represented by methods with the endp
     > [!NOTE]
     > The sample web service in the default project uses a JSON file to store the registration. It does not contain any logic to update an existing Connector when it's changed, or remove a Connector. In a real world Connector, you'll likely implement a system that saves this registration to a persistent data store that handles the scenarios of updating and removing a Connector from a team.
 
-- **/ping**: This endpoint can be called by anyone and is simply used to test the Connector. When called, it will create a card and send it to all the registered Connectors.
+- **/ping**: This endpoint can be called by anyone and is used to test the Connector. When called, it will create a card and send it to all the registered Connectors.
 
 ## Test the Office 365 Connector in Microsoft Teams
 
@@ -195,7 +173,7 @@ gulp ngrok-serve
 
 Now let's load the Connector in Microsoft Teams. In the browser, navigate to **https://teams.microsoft.com** and sign in with the credentials of a Work and School account.
 
-Once you are signed in, the first step is to install the Microsoft Teams app.
+Once you're signed in, the first step is to install the Microsoft Teams app.
 
 Select a team, select the action menu on the team and select **Manage team**:
 
@@ -219,7 +197,7 @@ Once installed, you can now add the Connector to a team. You can do this from th
 
 ![Screenshot of the Add to a team dialog](../media/07-test-setup-app-05.png)
 
-On the **Connectors for... channel in ... team** page, select the **Others** category and scroll to the bottom. You will see your connector under the **Sideloaded** section:
+On the **Connectors for... channel in ... team** page, select the **Others** category and scroll to the bottom. You'll see your connector under the **Sideloaded** section:
 
 ![Screenshot listing all Connectors available to a team](../media/07-test-setup-app-06.png)
 
@@ -351,7 +329,7 @@ Using the free tool [Postman](https://www.postman.com/), create a new request to
     > [!IMPORTANT]
     > Connectors, like incoming webhooks, only support Office 365 Connector Cards for messages sent to Microsoft Teams. Adaptive cards aren't supported when sending messages with cards when using Connectors or incoming webhooks.
 
-Select the **Send** button in Postman. When you go back to the channel, you will see the card displayed as a message in the team:
+Select the **Send** button in Postman. When you go back to the channel, you'll see the card displayed as a message in the team:
 
 ![Screenshot of the rendered card in the team](../media/07-test-setup-app-11.png)
 

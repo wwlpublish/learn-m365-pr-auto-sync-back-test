@@ -20,7 +20,7 @@ You'll use Node.js to create a custom Microsoft Teams app in this module. The ex
 - NPM (installed with Node.js) - v6.\* (or higher)
 - [Gulp](https://gulpjs.com/) - v4.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.15.0 (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.16.0 (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
@@ -42,19 +42,19 @@ Select **Create a resource** in the left-hand navigation:
 
 Enter **resource group** in the **Search the marketplace** input box, and select **Resource group**.
 
-![Screenshot of creating a resource group](../media/03-azure-portal-02.png)
+![Screenshot of creating a resource group - create a resource menu item](../media/03-azure-portal-02.png)
 
 On the **Resource Group** page, select the **Create** button to create a new resource group.
 
 Select a valid subscription, enter a name for the resource group, and select the wanted region. *None of these choices will impact the bot registration and are up to you.*
 
-![Screenshot of creating a resource group](../media/03-azure-portal-03.png)
+![Screenshot of creating a resource group - search for resource group](../media/03-azure-portal-03.png)
 
 Complete the wizard to create the resource group. Once Azure has completed the resource group creation process, navigate to the resource group.
 
 From the resource group, select the **Add** or **Create resources** button.
 
-![Screenshot of creating a new resource](../media/03-azure-bot-registration-01.png)
+![Screenshot of creating a new resource - create resource group](../media/03-azure-bot-registration-01.png)
 
 Enter **bot** in the **Search the marketplace** input box, and select **Bot Channels Registration** from the list of resources returned. Then select **Create** on the next page to start the process of registering a new bot resource:
 
@@ -76,7 +76,7 @@ In the **Bot Channels Registration** blade, enter the following values and then 
 
 Azure will start to provision the new resource. This will take a moment or two. Once it's finished, navigate to the bot resource in the resource group.
 
-![Screenshot of searching for the bot registration resource](../media/03-azure-bot-registration-03.png)
+![Screenshot of the created bot channel registration resource](../media/03-azure-bot-registration-03.png)
 
 ### Enable the Microsoft Teams channel for the bot
 
@@ -145,11 +145,12 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project?**: Planet Messaging
 - **Your (company) name? (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: v1.6
+- **Which manifest version would you like to use?**: v1.8
 - **Enter your Microsoft Partner Id, if you have one?**: (Leave blank to skip)
 - **What features do you want to add to your project?**: *(uncheck the default option **A Tab** using the <kbd>space</kbd> key and press <kbd>enter</kbd>)*
-- **Would you like show a loading indicator when your app/tab loads?**: No
 - **The URL where you will host this solution?**: (Accept the default option)
+- **Would you like show a loading indicator when your app/tab loads?**: No
+- **Would you like personal apps to be rendered without a tab header-bar?** No
 - **Would you like to include Test framework and initial tests?**: No
 - **Would you like to use Azure Applications Insights for telemetry?**: No
 
@@ -160,7 +161,7 @@ After answering the generator's questions, the generator will create the scaffol
 
 ### Add a bot to the project
 
-In this section, you will manually add a bot to the project.
+In this section, you'll manually add a bot to the project.
 
 Create a new folder **planetBot** in the **./src/app** folder.
 
@@ -261,15 +262,11 @@ The last step to configure your project to host a messaging extension is to add 
 
 Locate and open the **./src/manifest/manifest.json**.
 
-Locate the property `$schema`. Change its value to **https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json**
-
-Locate the property `manifestVersion`. Change its value to **1.7**.
-
 Locate the property `version`. Change its value to **1.0.0**.
 
 Locate the property `id`. Change its value to match the GUID of the Azure AD app that was created when creating the bot in the Azure portal.
 
-Locate the property `composeExtensions`. Add a new action command messaging extension to the collection of extensions registered with this Microsoft Teams app by updating the `composeExtensions` property the following JSON. This code will add our action command to the compose box and the action command in a message when it is installed.
+Locate the property `composeExtensions`. Add a new action command messaging extension to the collection of extensions registered with this Microsoft Teams app by updating the `composeExtensions` property the following JSON. This code will add our action command to the compose box and the action command in a message when it's installed.
 
 ```json
 "composeExtensions": [
@@ -298,7 +295,7 @@ Locate the property `composeExtensions`. Add a new action command messaging exte
 
 At this point, your project is configured to host a messaging extension and your Microsoft Teams app has a single action command registered. Now you can code the action command.
 
-## Update the Teams SDK and gulp configuration
+## Update the Teams SDK
 
 Run the npm command to install the latest version of the SDK
 
@@ -306,18 +303,9 @@ Run the npm command to install the latest version of the SDK
 npm install @microsoft/teams-js -S
 ```
 
-Open the `gulp.config.js` file in the root folder of the project. Add the following to the **SCHEMAS** property.
-
-```json
-{
-  version: "1.7",
-  schema: "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json"
-}
-```
-
 ## Code the messaging extension
 
-In this section, you will code the action command for the messaging extension. Your action command, when triggered, will present the user with a modal dialog where they can select a planet from our solar system. The modal dialog is implemented using an Adaptive Card. After submitting the dialog, the action command will use another adaptive card to add details about the selected planet.
+In this section, you'll code the action command for the messaging extension. Your action command, when triggered, will present the user with a modal dialog where they can select a planet from our solar system. The modal dialog is implemented using an Adaptive Card. After submitting the dialog, the action command will use another adaptive card to add details about the selected planet.
 
 ### Add a data set of planet details
 
@@ -719,7 +707,7 @@ Using the app bar navigation menu, select the **More added apps** button. Then s
 
 In the file dialog that appears, select the Microsoft Teams package in your project. This app package is a ZIP file that can be found in the project's **./package** folder.
 
-Once the package is uploaded, Microsoft Teams will display a summary of the app. Here you can see some "todo" items to address. *None of these "todo" items are important to this exercise, so you will leave them as is.*
+Once the package is uploaded, Microsoft Teams will display a summary of the app. Here you can see some "todo" items to address. *None of these "todo" items are important to this exercise, so you'll leave them as is.*
 
 ![Screenshot of Microsoft Teams app](../media/03-test-03.png)
 
@@ -727,7 +715,7 @@ Select the **Add** button to install the app.
 
 After installing the app, Microsoft Teams will take you to the 1:1 chat with the Microsoft Teams app and show the first dialog:
 
-![Screenshot of the installed Microsoft Teams messaging extension](../media/03-test-04.png)
+![Screenshot of the setting up the Microsoft Teams messaging extension](../media/03-test-04.png)
 
 Cancel this dialog by selecting the **X** close icon in the upper-right corner.
 
@@ -737,11 +725,11 @@ Now, in the compose box in the chat, select either the **Planet Messaging** icon
 
 When the messaging extension's task module is displayed, select a planet and then select the **Insert selected planet** button. The messaging extension's submit action handler is called which will add the updated Adaptive Card to the compose box:
 
-![Screenshot of messaging extension in the compose message box](../media/03-test-06.png)
+![Screenshot of messaging extension in the compose message box - step 1](../media/03-test-06.png)
 
 You can also trigger the messaging extension from an existing message in the chat using the **...** menu in the upper-right corner of the message. Select **Mode actions** and then select the **Planet Expander** option.
 
-![Screenshot of messaging extension in the compose message box](../media/03-test-07.png)
+![Screenshot of messaging extension in the compose message box - step 2](../media/03-test-07.png)
 
 ## Summary
 
