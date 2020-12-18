@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.workplace-analytics-onboard.introduction
+title: Introduction to onboarding to Workplace Analytics
+metadata:
+  title: Introduction to onboarding to Workplace Analytics
+  description: Learn what Workplace Analytics is and how to onboard to it.
+  ms.date: 11/30/2020
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 2
+content: |
+  [!include[](includes/introduction.md)]
