@@ -1,4 +1,4 @@
-Users are the core of most operations in Microsoft 365. Microsoft Graph enables developers full control over the lifecycle of users in Microsoft 365 including creating, updating, and deleting users in addition to listing users in the organization.
+Users are the core of most operations in Microsoft 365. Microsoft Graph enables developers full control over the lifecycle of users in Microsoft 365 including creating, updating, and deleting users also to listing users in the organization.
 
 In this module, you'll learn how to use Microsoft Graph to work with users in Microsoft 365 including the required permissions.
 
@@ -12,7 +12,7 @@ In this module, you'll learn how to use Microsoft Graph to work with users in Mi
 
 ## Learning objectives
 
-By the end of this module, you will be able to:
+By the end of this module, you'll be able to:
 
 - Demonstrate how to get a list of users
 - Demonstrate how to get details, including a profile picture, of a user
