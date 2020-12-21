@@ -118,6 +118,11 @@ You will:
 2. Select **Subscribe**.
 3. Sign in with the credential of the user which has been assigned access to application group that contain MSIX app attach.
 4. Double click the **SessionDesktop** icon and sign in with the credential of the user.
+
+> [!Note]
+
+> You may be prompted a security warning "Allow local resources". Select which local resources you want to allow the remote computer to access and select Allow. 
+
 5. Once you remote in the virtual machine, open start menu, and notice the shortcut of the published app.
 6. Close the Remote Desktop session.
 
