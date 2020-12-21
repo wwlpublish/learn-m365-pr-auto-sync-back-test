@@ -8,7 +8,7 @@ Select **Azure Active Directory** in the left-hand navigation.
 
 Select **Manage > App registrations** in the left-hand navigation.
 
-  ![Screenshot of the App registrations](../media/azure-ad-portal-home-appreg-01.png)
+  ![Screenshot of the App registrations](../media/azure-ad-portal-home.png)
 
 On the **App registrations** page, select **New registration**.
 
@@ -35,11 +35,11 @@ In the **Platform configurations** section, select the **Add a platform** button
 
 In the **Redirect URIs** section of the **Configure Desktop + devices** panel, select the entry that ends with **nativeclient**, and then select the **Configure** button:
 
-![Screenshot of the Configure Desktop + devices panel](../media/azure-ad-portal-new-app-02a.png)
+![Screenshot of the Configure Desktop + devices panel](../media/azure-ad-portal-new-app-03.png)
 
 In the **Authentication** panel, scroll down to the **Default client type** section and set the toggle to **Yes**.
 
-![Screenshot of the Default client type section](../media/azure-ad-portal-new-app-03.png)
+![Screenshot of the Default client type section](../media/azure-ad-portal-new-app-04.png)
 
 Select **Save** in the top menu to save your changes.
 
@@ -55,13 +55,13 @@ Select the **Add a permission** button.
 
 In the **Request API permissions** panel that appears, select **Microsoft Graph** from the **Microsoft APIs** tab.
 
-![Screenshot of Microsoft Graph in the Request API permissions panel](../media/azure-ad-portal-new-app-permissions-03.png)
+![Screenshot of Microsoft Graph in the Request API permissions panel](../media/azure-ad-portal-new-app-permissions-02.png)
 
 When prompted for the type of permission, select **Delegated permissions**.
 
 Enter **Files.R** in the **Select permissions** search box and select the **Files.Read** permission, followed by the **Add permission** button at the bottom of the panel.
 
-![Screenshot of the Files.Read permission in the Request API permissions panel](../media/azure-ad-portal-new-app-permissions-03-04.png)
+![Screenshot of the Files.Read permission in the Request API permissions panel](../media/03-azure-ad-portal-new-app-permissions-03.png)
 
 In the **Configured Permissions** panel, select the button **Grant admin consent for [tenant]**, and then select the **Yes** button in the consent dialog to grant all users in your organization this permission.
 
@@ -344,7 +344,7 @@ dotnet run
 
 After entering the username and password of a user, you'll see the results of all files in the currently signed-in user's OneDrive root folder written to the console.
 
-![Screenshot of the console application showing all files in the currently signed-in user's OneDrive root folder](../media/app-run-03-01.png)
+![Screenshot of the console application showing all files in the currently signed-in user's OneDrive root folder](../media/03-app-run-01.png)
 
 ## Display a specific file
 
@@ -376,7 +376,7 @@ dotnet run
 
 After entering the username and password of a user, you'll see the details of a specific file from the user's OneDrive written to the console.
 
-![Screenshot of the console application showing a specific file from the user's OneDrive](../media/app-run-03-02.png)
+![Screenshot of the console application showing a specific file from the user's OneDrive](../media/03-app-run-02.png)
 
 ## Download a file from the user's OneDrive
 
@@ -410,7 +410,7 @@ dotnet run
 
 After entering the username and password of a user, you'll see the console app write a message where the file was saved to your local machine.
 
-![Screenshot of the console application showing a specific file from the user's OneDrive](../media/app-run-03-03.png)
+![Screenshot of the console application showing the saved file from the user's OneDrive](../media/03-app-run-03.png)
 
 ## Summary
 
