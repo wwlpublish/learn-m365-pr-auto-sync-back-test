@@ -26,7 +26,7 @@ You will:
 5. On the **_your host pool_|MSIX packages** page from the toolbar select **+ Add**.
 6. On the **Add MSIX package** windows in the **MSIX image path** field add the UNC path of your MSIX image.
 
->[!note]
+>[!NOTE]
 
 >If you are storing MSIX image in Azure Files, refer to the fourth unit **Manage msix app attach** in this module, to retrieve the UNC path from the URL location of the MSIX image.
 
