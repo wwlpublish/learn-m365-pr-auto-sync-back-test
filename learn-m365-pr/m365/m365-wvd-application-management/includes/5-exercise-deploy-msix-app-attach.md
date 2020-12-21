@@ -42,6 +42,8 @@ You will:
 | **Registration type** | **On-demand –** |
 | **State** | **Active** |
 
+:::image type="content" source="../media/04-Screenshot-of-Add-MSIX-package-in-WVD.PNG" alt-text="Screenshot of MSIX package in WVD." border="true":::
+
 8. Select **Add** to add the MSIX image into host pool.
 
 ### Task 2: Publish MSIX app attach to desktop application group (DAG)
@@ -59,6 +61,8 @@ You will:
 | **Application name** | Type descriptive name |
 | **Display name** | Type descriptive name |
 | **Description** | Provide descriptive name for the MSIX package |
+
+:::image type="content" source="../media/05-Screenshot-of-add-app-application-group.PNG" alt-text="Screenshot of adding an MSIX package in Application Group." border="true":::
 
 6. Select **Save** to add the MSIX image into the application group.
 
@@ -116,12 +120,10 @@ You will:
 4. Once you remote in the virtual machine, open start menu, and notice the shortcut of the published app.
 5. Close the Remote Desktop session.
 
-# Results
+:::image type="content" source="../media/05-Screenshot-of-Edge-Dev.PNG" alt-text="Screenshot of published MSIX app attach" border="true":::
+
+## Results
 
 This personal exercise environment is insufficient to demonstrate the results of the exercise if it were performed in a more real-world work environment. The following video demonstrates the results you would be able to observe in a more real-world environment.
 
 > [!VIDEO https://channel9.msdn.com/Shows/Docs-Learn/Data-Serialization-Languages/player?format=ny]
-
-# Clean up the resources
-
-<Advise the learners to shut down or delete any Azure services to avoid incurring further costs in their Azure subscription.>
