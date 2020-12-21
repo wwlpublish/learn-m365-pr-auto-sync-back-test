@@ -30,7 +30,7 @@ Custom applications can use one of the authentication libraries provided by Micr
 
 Apps that use the v2 endpoints can use the Microsoft Authentication Library (MSAL) SDKs. MSAL replaced the previous library, Azure AD Authentication Library (ADAL) that only works with the v1 endpoints.
 
-For apps that are integrated with Microsoft Graph, Microsoft recommends developers use the Microsoft identity v2 endpoints, and therefore use the MSAL library.
+For apps that are integrated with Microsoft Graph, Microsoft recommends developers use the Microsoft identity v2 endpoints, so use the MSAL library.
 
 ### Web applications and Microsoft identity
 
@@ -40,7 +40,7 @@ The web app must authenticate with Azure AD when it requests the access token. A
 
 The web app must also tell Microsoft identity the address of the web app that Microsoft identity should redirect the user to on a successful login. This address is called the *redirect URI*. The redirect URI included in the login must match the address in the app registration.
 
-The last step in the app registration process in the Azure AD admin center is to specify any permissions the app will need. This can include either delegated permissions or application permissions. Delegated permissions are those that the user grants the app to act on their behalf when they're signed into the app. Application permissions are used by the app when no interactive user session is present as in the case of a service app or daemon app. Permissions defined within the Azure AD admin center are static permissions, not dynamic permissions. Users are presented with these permissions when they sign in to the application the first time as part of the common consent previously discussed.
+The last step in the app registration process in the Azure AD admin center is to specify any permissions the app will need. This can include either delegated permissions or application permissions. Delegated permissions are those that the user grants the app to act on their behalf when they're signed into the app. Application permissions are used by the app when no interactive user session is present as if there's a service app or daemon app. Permissions defined within the Azure AD admin center are static permissions, not dynamic permissions. Users are presented with these permissions when they sign in to the application the first time as part of the common consent previously discussed.
 
 ## Summary
 
