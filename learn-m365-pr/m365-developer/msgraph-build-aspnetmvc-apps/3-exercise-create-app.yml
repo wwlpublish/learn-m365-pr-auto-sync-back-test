@@ -3,7 +3,7 @@ uid: learn-m365.msgraph-build-aspnetmvc-apps.3-exercise-create-app
 metadata:
   title: Exercise - Create ASP.NET MVC web app and register Azure AD app
   description: In this exercise, you'll create an ASP.NET MVC web application with Visual Studio and Azure AD application with the Azure Active Directory admin center. Once the application is created, you'll then add the necessary packages and libraries that support user authentication and requesting data from Microsoft Graph.
-  ms.date: 09/10/2020
+  ms.date: 12/11/2020
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
@@ -15,7 +15,7 @@ content: |
 quiz:
   title: Test your knowledge
   questions:
-  - content: "Microsoft Graph supports access tokens generated on behalf of users that are signed in using which types of accounts?"
+  - content: "Microsoft Graph supports access tokens generated for users that are signed in using which types of accounts?"
     choices:
     - content: "Only Microsoft accounts (consumer logins, LiveID, Outlook.com)."
       isCorrect: false

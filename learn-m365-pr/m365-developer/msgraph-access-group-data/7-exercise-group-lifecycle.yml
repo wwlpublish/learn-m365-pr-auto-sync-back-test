@@ -3,7 +3,7 @@ uid: learn-m365.msgraph-access-group-data.7-exercise-group-lifecycle
 metadata:
   title: Exercise - Manage group lifecycle
   description: In this exercise, you'll modify the existing Azure AD application registration using the Azure Active Directory admin center, a .NET Core console application, and use Microsoft Graph to manage the lifecycle of Office 365 groups. You'll also learn how to provision a Microsoft Teams team from an existing Office 365 group.
-  ms.date: 09/10/2020
+  ms.date: 12/10/2020
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
@@ -31,7 +31,7 @@ quiz:
     - content: "Specify the group's ID in the JSON string included in the body of the request and submit it to the /groups endpoint."
       isCorrect: false
       explanation: "Incorrect; the group to delete should be defined in the endpoint of the request."
-    - content: "Get a reference to the group, update it's properties, and submit it as an HTTP POST to the `/groups` endpoint."
+    - content: "Get a reference to the group, update its properties, and submit it as an HTTP POST to the `/groups` endpoint."
       isCorrect: false
       explanation: "Incorrect; the group to delete should be defined in the endpoint of the request."
     - content: "Specify the group in the target endpoint, using the group's ID."
