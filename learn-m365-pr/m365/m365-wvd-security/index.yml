@@ -37,7 +37,7 @@ units:
 - learn-m365.wvd-security.introduction
 - learn-m365.wvd-security.enable-security
 - learn-m365.wvd-security.enable-data-security
-- learn-m365.wvd-security.exercise-secure-users
+- learn-m365.wvd-security.secure-users
 - learn-m365.wvd-security.secure-session-hosts
 - learn-m365.wvd-security.secure-network-access
 - learn-m365.wvd-security.exercise-secure-desktop 
