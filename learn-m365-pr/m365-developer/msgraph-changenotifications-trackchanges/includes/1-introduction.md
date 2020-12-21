@@ -12,7 +12,7 @@ In this module, you'll learn how to work with change notifications (webhooks) & 
 
 ## Learning objectives
 
-By the end of this module, you will be able to:
+By the end of this module, you'll be able to:
 
 - Demonstrate how to use the Microsoft Graph .NET SDK
 - Demonstrate how to subscribe and receive notifications when entities change with Microsoft Graph

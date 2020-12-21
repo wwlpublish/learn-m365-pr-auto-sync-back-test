@@ -113,6 +113,10 @@ Open the **Startup.cs** file. Locate the method `ConfigureServices()` method and
 public void ConfigureServices(IServiceCollection services)
 {
   services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
+  services.AddSwaggerGen(c =>
+  {
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "msgraphapp", Version = "v1" });
+  });  
   var config = new MyConfig();
   Configuration.Bind("MyConfig", config);
   services.AddSingleton(config);
@@ -290,11 +294,11 @@ In Visual Studio Code, select **Run > Start debugging** to run the application. 
 
 Once you see the following in the **Debug Console** window...
 
-![Screenshot of the VS Code Debug Console](../media/05-vscode-debugapp-03.png)
+![Screenshot of the VS Code Debug Console](../media/05-vscode-debug-app-01.png)
 
 Open a browser and navigate to **http://localhost:5000/api/notifications** to subscribe to change notifications. If successful you'll see output that includes a subscription ID like the one below:
 
-![Screenshot of a successful subscription](../media/05-vscode-debugapp-04.png)
+![Screenshot of a successful subscription](../media/05-vscode-debug-app-02.png)
 
 Your application is now subscribed to receive notifications from the Microsoft Graph when an update is made on any user in the Office 365 tenant.
 
@@ -302,15 +306,15 @@ Now, test the subscription by updating a user to trigger a notification from Mic
 
 Open a browser and navigate to the [Microsoft 365 admin center (https://admin.microsoft.com/AdminPortal)](https://admin.microsoft.com/AdminPortal).
 
-If you are prompted to sign-in, sign-in using an admin account.
+If you're prompted to sign-in, sign-in using an admin account.
 
 Select **Users > Active users**.
 
-![Screenshot of the Microsoft 365 Admin Center](../media/05-vscode-debugapp-05.png)
+![Screenshot of the Microsoft 365 Admin Center](../media/05-vscode-debug-app-03.png)
 
 Select an active user and select **Edit** for their **Contact information**.
 
-![Screenshot of a user's details](../media/05-vscode-debugapp-06.png)
+![Screenshot of a user's details](../media/05-vscode-debug-app-04.png)
 
 Update the **Phone number** value with a new number and Select **Save**.
 
