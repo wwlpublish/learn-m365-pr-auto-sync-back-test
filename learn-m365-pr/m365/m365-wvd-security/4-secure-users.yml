@@ -2,7 +2,7 @@
 uid: learn-m365.wvd-security.exercise-secure-users
 title: Exercise - Secure user identity used to access their Windows Virtual Desktop environment
 metadata:
-  title: Exercise - Secure user identity used to access their Windows Virtual Desktop environment
+  title: Secure user identity used to access their Windows Virtual Desktop environment
   description: Learn how to increase the security of Windows Virtual Desktop deployment with Identity controls.
   ms.date:  12/02/2020
   author: ndelgado
@@ -11,4 +11,4 @@ metadata:
   ms.prod: learning-m365
 durationInMinutes: 6
 content: |
-  [!include[](includes/4-exercise-secure-users.md)]
+  [!include[](includes/4-secure-users.md)]
