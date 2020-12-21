@@ -580,7 +580,7 @@ Start the server and go through the sign-in process. You should end up back on t
 
 Select the user avatar in the top-right corner to access the **Sign Out** link. Selecting **Sign Out** resets the session and returns you to the home page.
 
-![A screenshot of the dropdown menu with the Sign Out link](../media/05-app-run-01.png)
+![A screenshot of the dropdown menu with the Sign Out link](../media/05-app-run-02.png)
 
 ## Refreshing tokens
 
