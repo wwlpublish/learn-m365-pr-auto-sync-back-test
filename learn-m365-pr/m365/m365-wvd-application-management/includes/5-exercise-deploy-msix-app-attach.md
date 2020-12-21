@@ -127,9 +127,3 @@ You will:
 6. Close the Remote Desktop session.
 
 :::image type="content" source="../media/05-Screenshot-of-Edge-Dev.PNG" alt-text="Screenshot of published MSIX app attach" border="true":::
-
-## Results
-
-This personal exercise environment is insufficient to demonstrate the results of the exercise if it were performed in a more real-world work environment. The following video demonstrates the results you would be able to observe in a more real-world environment.
-
-> [!VIDEO https://channel9.msdn.com/Shows/Docs-Learn/Data-Serialization-Languages/player?format=ny]
