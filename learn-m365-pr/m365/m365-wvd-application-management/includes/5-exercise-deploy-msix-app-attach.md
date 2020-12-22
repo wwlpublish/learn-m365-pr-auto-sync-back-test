@@ -39,7 +39,7 @@ You will:
 |**Package applications**|MSIX applications loaded from MSIX package.|
 |**Display name**|Enter a descriptive name |
 |**Version**|Retrieved from the MSIX package|
-|**Registration type**|**On-demand –**|
+|**Registration type**|**On-demand**|
 |**State**|**Active**|
 
 :::image type="content" source="../media/04-Screenshot-of-Add-MSIX-package-in-WVD.PNG" alt-text="Screenshot of MSIX package in WVD." border="true":::
