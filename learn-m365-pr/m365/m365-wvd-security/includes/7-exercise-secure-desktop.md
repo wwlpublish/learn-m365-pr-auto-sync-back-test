@@ -1,6 +1,6 @@
 In this exercise, you’ll learn how to enable AppLocker. In an enterprise, this process would normally be done using GPOs, Intune, or Configuration Manager. This exercise does not include access to those tools or an Active Directory Domain Controller. In this exercise, you'll use a Windows Server 2016 VM running in Azure. Given that this is not a Windows Virtual Desktop environment for the lab, Windows 10 Enterprise was not available. You can also review the following video on AppLocker in a Windows Virtual Desktop deployment.
 
-<!--Video:here -->
+[The following video shows AppLocker working in a WVD enviroment](https://www.microsoft.com/en-us/videoplayer/embed/RE4Lt59)
 
 ## Prerequisites
 
