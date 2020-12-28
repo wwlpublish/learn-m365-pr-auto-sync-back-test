@@ -24,17 +24,17 @@ quiz:
      - content: "Publish"
        isCorrect: true
        explanation: "You don't publish the application in the test phase."
-   - content: "On which of the following operating systems can you run MSIX packages?"
+   - content: "On which of the following operating systems can you use MSIX app attach?"
      choices:
      - content: "Windows 7 Enterprise Edition"
        isCorrect: false
-       explanation: "MSIX is currently supported on Windows 10 version 1709 and later, and Windows Server 2019 LTSC and later."
-     - content: "Windows 10, version 1709, and later"
+       explanation: "MSIX app attach is currently supported on Windows 10, version 2004, and later."
+     - content: "Windows 10, version 2004, and later"
        isCorrect: true
-       explanation: "MSIX is currently supported on Windows 10 version 1709 and later, and Windows Server 2019 LTSC and later."
+       explanation: "MSIX app attach is currently supported on Windows 10, version 2004, and later."
      - content: "Windows 8.1"
        isCorrect: false
-       explanation: "MSIX is currently supported on Windows 10 version 1709 and later, and Windows Server 2019 LTSC and later."
+       explanation: "MSIX app attach is currently supported on Windows 10, version 2004, and later."
    - content: "What is MSIX app attach?"
      choices:
      - content: "Application virtualization technology."
