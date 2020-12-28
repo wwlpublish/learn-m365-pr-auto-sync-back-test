@@ -2,13 +2,12 @@ You’ve learned about MSIX packages. Now let's consider how you can deploy thos
 
 ## Purpose and benefits of MSIX app attach
 
-MSIX app attach is a Microsoft layering solution for delivering applications to a modern workspace. With MSIX app attach you can deliver MSIX packages to both physical and virtual machines. Although MSIX app attach can be used on-premises or in Azure, this technology is specially adopted for Windows Virtual Desktop.
+MSIX app attach is a Microsoft application delivering approach design for a modern workspace. With MSIX app attach you can use on application format, namely MSIX to deliver applications to both physical and virtual machines. Although MSIX app attach can be used on-premises or in Azure, this technology is specially adopted for Windows Virtual Desktop.
 
 The following are MSIX app attach benefits:
 
 - You can use existing MSIX packages, without repacking or altering the structure.
 - You don't need additional infrastructure servers to deploy the MSIX packages. You can use existing Azure Files for hosting the virtual hard disk (VHD) that contains the MSIX package.
-- You can use MSIX app attach as the delivery technology on both physical and virtual Windows computers.
 - MSIX app attach separates application files from the operating system. If the device needs a reset or re-image, these applications will not require a re-installation.
 - You can edit and update the applications, after which all the changes will be saved as a new package that can simply replace the old MSIX app attach package.
 - You can combine MSIX app attach with FSLogix Profile containers to isolate user profiles on a separate virtual hard disk VHD or VHDX.
@@ -17,7 +16,7 @@ Contoso is a good candidate for using MSIX app attach for their application deli
 
 ## How MSIX app attach works
 
-MSIX app attach stores application files in a separate virtual hard disk from the operating system. It registers the regular MSIX package on a device instead of on a physical download and installation. The registration uses existing Windows Applications Programing Interfaces (API) and is almost instantaneous after the user signs in on the device, which enhances the user experience.
+MSIX app attach stores application files in a separate virtual hard disk from the operating system. It registers the regular MSIX package on a device instead of on a physical download and install. The registration uses existing Windows Applications Programing Interfaces (API) and has minimal impact on user logon times, which enhances the user experience.
 
 When MSIX app attach is launched, the application files are accessed from a VHD, and the user isn’t even aware that the application isn’t locally installed.
 
@@ -25,30 +24,21 @@ MSIX app attach follows several steps or actions:
 
 |Term| Definition|
 |----------------|------------------------------------------------------------|
-| Stage|Process that makes the MSIX app attach available on the VM.|
-| Registration|Process that makes the MSIX app attach available for the user.|
-| Delayed registration|Delays loading until after the session is established.|
-| On demand registration|User loads applications as needed.|
+| Stage|Notifies the operating system that an application is available and the virtual disk containing the MSIX package (aka the MSIX image) is mounted.|
+| Registration|Per user process that MSIX app attach uses to make the application available to the user.|
+| Delayed registration|Process that delays complete registration of the application until the user decides to execute the application.|
 | Deregistration|User signs out and the application is de-registered for that user |
 | Destage|VM shutdown or reboot, and the application is destaged from the VM|
 
 After opening MSIX app attach, the user experiences the following:
 
 1. From the Windows Virtual Desktop client, the user signs in and selects the host pool for which they have access. The process is similar if the user opens published RemoteApps from the Windows Virtual Desktop environment.
-2. The user is assigned a virtual machine within the host pool, or RemoteApp is registered on the computer with the Windows Virtual Desktop client.
-3. The FSLogix agent on the session host provides the user profile from the file share, which can be Azure Files, Azure NetApp Files, or an IaaS file server.
+2. The user is assigned a virtual machine within the host pool, on which a RemoteApp or Remote Desktop session is create with which the Windows Virtual Desktop client interacts.
+3. If the user profiles are configured, the FSLogix agent on the session host provides the user profile from the file share, which can be Azure Files, Azure NetApp Files, or an IaaS file server.
 4. Applications that are assigned to the user are read from Windows Virtual Desktop.
 5. MSIX app attach applications are registered to the virtual machine for that user from the attached MSIX virtual disk. That virtual disk could be on an IaaS file share, Azure Files or Azure NetApp Files.
 
 :::image type="content" source="../media/03-How-MSIX-app-attach-works.PNG" alt-text="Diagram how MSIX app attach work." border="true":::
-
-> [!NOTE]
-
-> Both the user profile and MSIX app attach are stored on a file share in virtual hard disk format.
-
-> [!NOTE]
-
-> MSIX app attach can be used with on-premises, Azure, or other cloud environments without any modification and is independent of the OS.
 
 ## MSIX terminology
 
