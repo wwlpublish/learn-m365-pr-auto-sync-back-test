@@ -2,7 +2,7 @@ You’ve learned about MSIX app attach and how it works. Let's find out how you 
 
 ## Create an MSIX image for MSIX app attach
 
-MSIX app attach requires a MSIX image, which is a separate VHD that contains MSIX packages. You already learned how to prepare the MSIX package; now let’s explore how to prepare the VHD.
+MSIX app attach requires an MSIX image, which is the expanded content of the MSIX file stored in a VHD(x) or a Composite Image format (CIM). You already learned how to prepare the MSIX package; now let’s explore how to prepare the VHD.
 
 First, download the [msixmgr tool](https://aka.ms/msixmgr) and save the msixmrg.zip file to a folder within a session host VM. Then, unzip the **msixmgr.zip** file and place the MSIX package in the same folder.
 
@@ -61,13 +61,6 @@ msixmgr.exe -Unpack -packagePath <package>.msix -destination "f:\<name of folder
 
 You can prepare the MSIX image using CimFS format that is available in Windows 10 2004 release. CimFS provides faster mounting and unmounting times and lower memory and CPU consumption then VHD. You can also create the MSIX image with Composite Image (CIM) format that is similar to Windows Imaging Format (WIM) or read-only VHD. 
 
-You can use your MSIX app attach image either in the on-premises or in your Windows Virtual Desktop environment. 
-
-## Use MSIX app attach locally
-
-Setting up MSIX app attach outside Windows Virtual Desktop requires all phases for MSIX app attach to be performed with PowerShell scripts.
-You can prepare for each phase using PowerShell scripts that run at the specific stage on the virtual machine. You can find sample scripts for each phase in the [MSIX app attach repo](https://github.com/Azure/RDS-Templates/tree/master/msix-app-attach) on GitHub.
-
 ## Use MSIX app attach in Windows Virtual Desktop
 
 To use an MSIX app attach in your Windows Virtual Desktop environment:
@@ -75,7 +68,7 @@ To use an MSIX app attach in your Windows Virtual Desktop environment:
 - Set up an MSIX app attach share
 - Upload the MSIX image to a file share
 - Create a Windows Virtual Desktop host pool
-- Create an MSIX app
+- Publish an MSIX app
 - Publish applications to a RemoteApp or remote desktop location
 - Assign users or groups
 
