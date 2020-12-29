@@ -1,4 +1,20 @@
-In this exercise, you’ll learn how to enable AppLocker. In an enterprise, this process would normally be done using GPOs, Intune, or Configuration Manager. This exercise does not include access to those tools or an Active Directory Domain Controller. In this exercise, you'll use a Windows Server 2016 VM running in Azure. Given that this is not a Windows Virtual Desktop environment for the lab, Windows 10 Enterprise was not available. You can also review the following video on AppLocker in a Windows Virtual Desktop deployment.
+
+As a senior administrator working for Contoso, you've been asked to test Microsoft AppLocker for future deployment in your WVD enviroment. In an enterprise, this process would normally be done using GPOs, Intune, or Configuration Manager. This exercise does not include access to those tools or an Active Directory Domain Controller. 
+
+## Exercise: Enable AppLocker in a Windows Server 2016 VM running in Azure
+
+In this exercise, you'll use a Windows Server 2016 VM running in Azure. Given that this is not a Windows Virtual Desktop environment for the lab, Windows 10 Enterprise was not available. You will:
+
+- Deploy a Windows Server 2016 VM in Azure
+- Manually add users
+- Manually enable AppLocker
+- Disable Internet Explorer Enhanced Security Configuration
+- Test AppLocker
+- You can view the following video on AppLocker in a Windows Virtual Desktop deployment
+
+
+> [!NOTE]
+> To complete the Exercise unit, you need to have an active Azure subscription. If you choose to perform the exercise in this module, you might incur costs in your Azure subscription. To estimate the cost, refer to [Windows Virtual Machines Pricing](https://azure.microsoft.com/pricing/details/virtual-machines/windows/?azure-portal=true). The steps outlined in this lab are for a Windows server 2016 environment.
 
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4Lt59]
@@ -8,7 +24,7 @@ In this exercise, you’ll learn how to enable AppLocker. In an enterprise, this
 > If you choose to perform the exercise in this module, you might incur costs in your Azure subscription. To estimate the cost, refer to [Windows Virtual Machines Pricing](https://azure.microsoft.com/pricing/details/virtual-machines/windows/?azure-portal=true). The steps outlined in this lab are for a Windows server 2016 environment.
 
 
-### Prerequisites
+#### Pre-requisites
 
 To perform this exercise, you require:
 
@@ -16,21 +32,21 @@ To perform this exercise, you require:
 
 - The Remote Desktop app
 
-You can define and deploy VMs on Azure in several ways. This exercise uses the Azure Command Line Interface in Azure Cloud Shell.
+You can define and deploy VMs on Azure in several ways. This exercise uses the Azure Command Line Interface in Azure Cloud Shell. The steps outlined here are for Windows server environments.
 
 ### Task 1: Create a Windows VM by using the Azure Command Line Interface in the Azure Cloud Shell
 
 1. Sign in to the [Azure portal](https://portal.azure.com/) using your Azure credentials.
 
-1. You may also receive a prompt stating you have no storage mounted, prompting you to select a subscription and to create storage. Select your subscription and choose to **Create storage** if prompted.
-
-1. The **ProvisioningState : Succeeded** message should confirm successful creation of your storage.
-
 1. Select the Cloud Shell icon next to the search box. A **Welcome to Azure Cloud Shell banner** opens.
 
 1. In the Azure Cloud Shell terminal window ensure Powershell is chosen as the the selected environment. Select **PowerShell**.
 
-### Create a resource group
+1. You may also receive a prompt stating you have no storage mounted, prompting you to select a subscription and to create storage. Select your subscription and choose to **Create storage** if prompted.
+
+1. The **ProvisioningState : Succeeded** message should confirm successful creation of your storage.
+
+### Task 2: Create a resource group
 
 You now need to create a resource group. An Azure resource group is a logical container into which Azure resources are deployed and managed. The following example creates a resource group named **myResourceGroup** in the **westus** location. Depending on your location, you might select a different option.
 
@@ -42,10 +58,10 @@ You now need to create a resource group. An Azure resource group is a logical co
 
 1. Verify your new resource group by using the following. This command gets the Azure resource group in your subscription named myResourceGroup.
 	```PowerShell
-	Get-AZResourceGroup -Name "myResourceGroup"
+	Get-AZResourceGroup -Name myResourceGroup
 	``` 
 
-### Deploy a Windows Server 2016 VM
+### Task 3: Deploy a Windows Server 2016 VM
 
 1. Enter the following commands into the CLI window:
 
@@ -61,30 +77,20 @@ You now need to create a resource group. An Azure resource group is a logical co
 
     ```PowerShell
     {- Finished ..
-
      "fqdns": "",
-
-    "id":"/subscriptions/************/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/myVM",
-
+     "id":"/subscriptions/************/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/myVM",
      "location": "westus",
-
      "macAddress": "00-0D-3A-5A-75-FA",
-
      "powerState": "VM running",
-
      "privateIpAddress": "10.0.0.4",
-
-     "publicIpAddress": "65.52.124.71",
-
+     "publicIpAddress": "65.52.124.71", 
      "resourceGroup": "myResourceGroup",
-
      "zones": ""
-
     }
     ```
 1. The public address is the address to use in your RDP connection. Note the address with your administrator password. 
 
-### Task 2: Connect to VM
+### Task 4: Connect to VM
 
 Use the following steps to create a remote desktop session from your local computer. Replace the IP address with the public IP address of your VM. When prompted, enter the admin username you specified in the PowerShell command, and the password you entered when the VM was created.
 
@@ -92,9 +98,11 @@ Use the following steps to create a remote desktop session from your local compu
 
 1. Select **Show Options**. Enter the IP address of the VM and your administrator credentials, and then select **Connect**. Do not choose to save the sign-on configuration.
 
-### Task 3: Add a standard user
+1. If you receive a message that **The identify of the remote computer cannot be verified. Do you want to conenct anyway?**, Select **Yes**
 
-1. The next step is to add a standard user to the **myVM** server.
+### Task 5: Add a standard user
+
+The next step is to add a standard user to the **myVM** server.
 
 1. The Windows Server Manager dashboard should now be available. If not, select **Start**, and then select **Server Manager**.
 
@@ -118,47 +126,104 @@ Use the following steps to create a remote desktop session from your local compu
 
 1. Close the **Computer Management** console.
 
-### Task 4: Enable AppLocker
+### Task 6: Enable the AppIDsrv
+The Application Identity service determines and verifies the identity of an app. Stopping this service will prevent AppLocker policies from being enforced.
+
+1. Start **Task Manger** by right-click on the **Taskbar** and select **Task Manager**.
+
+1. Select **More Details**, then select the **Services** tab.
+
+1> Scroll down till you see the **AppIDSvc**. Right-click and select **Start**.
+
+1. The AppIDSrv should now be **Running.
+
+1. Close Task Manager.
+
+### Task 7: Download and install Visual Studio code 2019
+
+1. Download and install Visual Studio Community 2019 edition at https://visualstudio.microsoft.com/downloads/
+
+1. Start Visual Studio to ensure it can run, then close it.
+
+### Task 8: Enable AppLocker
 
 1. In **Server Manager** select **Tools**, and then select **Local Security Policy**.
 
 1. Under **Security Setting**, select **Application Control Policies**.
 
-1. Select **AppLocker**. The AppLocker configuration interface displays.
+1. Expand the **Application Control Policies**. Select **AppLocker**. The AppLocker configuration interface displays.
 
 1. Select **Configure rule enforcement**. The **AppLocker Properties** interface becomes available.
 
-1. In the **Enforcement** tab, these default rules are not enabled. Select the **Executable rules Configured**check box. to enable executable rules.
+1. In the **Enforcement** tab, these default rules are not enabled. Select the **Executable rules: Configured** check box to enable executable rules.
 
-1. Repeat the previous step for **Windows Installer rules...**, **...Script rules,** and **Packaged app Rules...**.
+1. Repeat the previous step for **Windows Installer rules:**, **Script rules:** and **Packaged app Rules:**.
 
 1. Select **OK**.
 
-### Task 5 Disable Internet Explorer Enhanced Security Configuration
-To show the power of AppLocker we need to disable the Enhanced Security Configuration which is enabled by default in Internet Explorer on Windows Server 2016.
+### Task 9: Enable Default AppLocker Rules
+
+1. Open the AppLocker drop down in the left panel. Select **Packaged app Rules** and right click, select **Create Default Rules**.
+
+1. The **(Default Rule) All signed package apps** should be displayed in the right panel.
+
+1. Repeat the step above for **Executable Rules**. You should see three defaut rules created.
+
+1. Select **Executable Rules** in the left panel, right click, select **Create New Rule**.
+
+1. The **Create Executable Rules** panel is displayed. Selct **Next**.
+
+1. Under **Actions**, select **Deny**.
+
+1. Now click on **Select...**
+
+1. The **Select User or Group** panel is displayed. In the **Enter the object name to select** box, enter the standard user name you created previously.
+
+1. Select **Check Names**. You should see **myVM\"your standard users login name** .
+
+1. Select **OK** button.
+
+1. Select **Next**. Then select **Path**, then select **Next**.
+
+1. Select **Browse Folders**. The **Browse For Folde** File Explorer is displayed.
+
+1. Select **Progrsm Files (x86)**, then select **Microsoft Visual Studio**, then **2019**. Select **OK**.
+
+1. The Path should now be set to **%PROGRAMFILES%\Microsoft Visual Studio\2019**. Select **Next**.
+
+1. Select **Next** on the **Exceptions** panel.
+
+1. Select **Create** on the **Name and Description** panel. 
+
+1. You should now see a new **Deny** rule in the **Executable Rules** panel.
+
+1. Close the **Local Security Policy** window.
+
+### Task 10: Disable Internet Explorer Enhanced Security Configuration
+To show the power of AppLocker we need to disable the Enhanced Security Configuration (ESC) which is enabled by default in Internet Explorer on Windows Server 2016.
 
 1. In **Server Manager** select **Local Server**.
 
 1. In the **Properties** panel locate the **IE Enhanced Security Configuration**, and select the **On** link.
 
-1. Turn off IE Enhanced Security for both **Administrators** and **Users** by selecting the **Off* button for each.
+1. Turn off IE ESC for both **Administrators** and **Users** by selecting the **Off** button for each.
 
 1. Start IE. You should see a message that **Internet Explorer Enhanced Security Configuration is not enabled**.
 
 
-### Task 6 Test the applocker configuration on our deployed Windows Server 2016 VM by using the following steps
+### Task 11: Test the AppLocker configuration on our deployed Windows Server 2016 VM
 
 1. Sign out of the deployed Windows Server VM that you just configured, and then sign in using the standard user account you created previously.
 
-1. Access the internet using IE. 
+1. Select the **Start** menu and click on **Visual Studio Code**.
 
-1. Try to download Visual Studio Code at https://code.visualstudio.com/Download or you favorite app.
+1. You should see a message that **This app has been blocked by your system administrator**.
 
-1. You should not be allowed to install the app. The default **access denied** message should be displayed.
+When AppLocker rules are enforced in the production environment, any apps that are not included in the allowed rules are blocked from running.
 
-### Task 7 Clean up the resources
+### Task 12: Clean up the resources
 
-1. You can use the following command to remove the resource group, VM, and all related resources when you no longer require them:
+1. You can use the following command to remove the resource group, VM, and all related resources when you no longer require them. Replace the resource group name with the name of the resource group you created (myResourceGroup) in your own environment. If you choose not to delete them you may incur costs associated with them.
 
 ```PowerShell
 az group delete --name myResourceGroup
