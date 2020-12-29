@@ -1,4 +1,4 @@
-Customers can take several actions and use a variety of tools to help secure their Windows Virtual Desktop deployment. The following table lists some of the best practices for securing your Windows Virtual Desktop ecosystem.
+Customers can take several actions and use various tools to help secure their Windows Virtual Desktop deployment. The following table lists some of the best practices for securing your Windows Virtual Desktop ecosystem.
 
 |**Best Practice**| **Result**                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -11,9 +11,9 @@ Customers can take several actions and use a variety of tools to help secure the
 |Enable endpoint protection|Protect your deployment from known malware.|
 |Install an endpoint detection and response (EDR) product|Use EDR to provide advanced detection and response capabilities.|
 |Enable threat and vulnerability management assessments|Help identify problem spots through vulnerability assessments for server operating systems.|
-|Fix software vulnerabilities in your environment| When a vulnerability is identified, you must fix it. This also applies to virtual environments.|
+|Fix software vulnerabilities in your environment| When a vulnerability is identified, on-premises or in a virtual enviroment, you must fix it.|
 |Establish maximum inactive time and disconnection policies|Sign users out when they're inactive to preserve resources and prevent unauthorized access. |
-|Set up screen locks for idle sessions|Prevent unwanted system access by configuring Windows Virtual Desktopto lock a machine's screen during idle time and requiring authentication to unlock it.|
+|Set up screen locks for idle sessions|Prevent unwanted system access by configuring Windows Virtual Desktop to lock a machine's screen during idle time and requiring authentication to unlock it.|
 |Don't grant your users administrator access to virtual desktops|Manage software packages by using Configuration Manager.|
 |Consider which users should access which resources|Limit host connection to internet resources.|
 |Restrict operating system capabilities|Strengthen the security of your session hosts.|
@@ -23,7 +23,7 @@ Customers can take several actions and use a variety of tools to help secure the
 
 One of the best practices is to enable endpoint protection, which you can do by using Microsoft Defender for Endpoint, previously known as Microsoft Defender Advanced Threat Protection. Microsoft Defender for Endpoint is typically used on-premises but can also be used in a VDI environment.
 
-To deploy Microsoft Defender for Endpoint on your Windows Virtual Desktop VMs in their host pools, you can enroll the VMs into Azure Security Center. Security Center provides a license as part of its standard offering. You should also use auto provisioning. The auto-provisioning settings in Security Center have a toggle for each type of supported extension. When you enable auto-provisioning of an extension, you assign the appropriate **DeployIfNotExists** policy to make sure that the extension is provisioned on all existing and future resources of that type.
+To deploy Microsoft Defender for Endpoint on your Windows Virtual Desktop VMs in their host pools, you can enroll the VMs into Azure Security Center. Security Center provides a license as part of its standard offering. You should also use auto-provisioning. The auto-provisioning settings in Security Center have a toggle for each type of supported extension. When auto-provisioning of an extension, the **DeployIfNotExists** policy should be assigned to make sure that the extension is provisioned on all existing and future resources of that type.
 
 > [!NOTE] 
 > Enable auto-provisioning of the Log Analytics agent. When automatic provisioning is turned on for the Log Analytics agent, Security Center deploys the agent on all supported Azure VMs and any new ones that are created.
@@ -44,7 +44,7 @@ Application control moves away from an application trust model that assumes all 
 
 ## Windows Defender Application Control
 
-Windows 10 introduced Windows Defender Application Control, which organizations can use to control the drivers and applications that can run on their Windows 10 clients. Note that initially in Windows 10, Windows Defender Application Control was known as configurable code integrity. Configurable code integrity carries no specific hardware or software requirements other than running Windows 10. It was also one of the features which contained the now-defunct Device Guard.
+Windows 10 introduced Windows Defender Application Control, which organizations can use to control the drivers and applications that can run on their Windows 10 clients. Note initially in Windows 10, Windows Defender Application Control was known as configurable code integrity. Configurable code integrity carries no specific hardware or software requirements other than running Windows 10. It was also one of the features that contained the now-defunct Device Guard.
 
 ## AppLocker
 
