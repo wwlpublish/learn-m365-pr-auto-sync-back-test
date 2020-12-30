@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn-m365.wvd-security
 metadata:
-  title: Secure a Windows Virtual Desktop deployment
+  title: "Secure a Windows Virtual Desktop deployment"
   description: Introduction to Microsoft security capabilities that can keep your applications and data secure in your Windows Virtual Desktop deployment.
-  ms.date: 06/25/2020
+  ms.date: 12/25/2020
   author: ndelgado
   ms.author: nedelgad
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Secure a Windows Virtual Desktop deployment
+title: "Secure a Windows Virtual Desktop deployment"
 summary: Introduction to Microsoft security capabilities that can keep your applications and data secure in your Windows Virtual Desktop deployment.
 abstract: |
   After completing this module, you’ll be able to:
