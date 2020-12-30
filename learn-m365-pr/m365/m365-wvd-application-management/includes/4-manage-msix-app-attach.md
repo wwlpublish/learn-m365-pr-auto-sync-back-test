@@ -8,7 +8,7 @@ First, download the [msixmgr tool](https://aka.ms/msixmgr) and save the msixmrg.
 
 ## Create a VHD or VHDX disk
 
-You must create and initialize a VHD or VHDX disk. You can create the disk either using the Disk Management MMC console or by using PowerShell. 
+You must create and initialize a VHD or VHDX disk. You can create the disk either using the Disk Management MMC console or by using PowerShell.
 Follow the steps below to create and initialize the VHD or VHDS disk using PowerShell:
 
 1. Run the following cmdlet in PowerShell to create a VHD:
@@ -59,7 +59,7 @@ msixmgr.exe -Unpack -packagePath <package>.msix -destination "f:\<name of folder
 
 ## Composite Image File System (CimFS)
 
-You can prepare the MSIX image using CimFS format that is available in Windows 10 2004 release. CimFS provides faster mounting and unmounting times and lower memory and CPU consumption then VHD. You can also create the MSIX image with Composite Image (CIM) format that is similar to Windows Imaging Format (WIM) or read-only VHD. 
+You can prepare the MSIX image using CimFS format that is available in Windows 10 2004 release. CimFS provides faster mounting and unmounting times and lower memory and CPU consumption than VHD. You can also create the MSIX image with Composite Image (CIM) format that is similar to Windows Imaging Format (WIM) or read-only VHD.
 
 ## Use MSIX app attach in Windows Virtual Desktop
 
@@ -74,7 +74,7 @@ To use an MSIX app attach in your Windows Virtual Desktop environment:
 
 ### Set up an MSIX app attach share
 
-You can use an SMB network share in your Windows Virtual Desktop environment to host the MSIX image. The network share can be on an IaaS file share, an Azure Files share or Azure NetApp Files. 
+You can use an SMB network share in your Windows Virtual Desktop environment to host the MSIX image. The network share can be on an IaaS file share, an Azure Files share or Azure NetApp Files.
 
 > [!Note]
 
@@ -83,13 +83,13 @@ You can use an SMB network share in your Windows Virtual Desktop environment to 
 ### Upload MSIX image to the file share
 
 MSIX images are separated from the main operating system and they reside in the file share. You can upload your MSIX image using different tools such as Azure portal, PowerShell, Azure CLI, or AzCopy.
-You can also use Azure Storage Explorer that provides an intuitive UI and better performance then Azure portal.
+You can also use Azure Storage Explorer that provides an intuitive UI and better performance than Azure portal.
 
 ### Create a Windows Virtual Desktop host pool
 
-Windows Virtual Desktop is a desktop and app virtualization service that runs on the cloud. 
+Windows Virtual Desktop is a desktop and app virtualization service that runs on the cloud.
 You can deploy and manage virtual desktops using the Azure portal, Windows Virtual Desktop PowerShell, or REST interfaces.
-To configure the host pools, create app groups, assign users, and publish resources use the following tutorial [Create a host pool with the Azure portal](https://docs.microsoft.com/en-us/azure/virtual-desktop/create-host-pools-azure-marketplace).
+To configure the host pools, create app groups, assign users, and publish resources use the following tutorial [Create a host pool with the Azure portal](https://docs.microsoft.com/azure/virtual-desktop/create-host-pools-azure-marketplace).
 
 ### Create MSIX app
 
@@ -102,11 +102,11 @@ URL
 https://contosostorage.files.core.windows.net/msixfileshare/mymsix.vhd
 
 UNC
-\\contosostorage.files.core.windows.net\msixfilesharezmymsix.vhd
+\\contosostorage.files.core.windows.net\msixfileshare\mymsix.vhd
 ```
 
 To add an MSIX image in the Windows Virtual Desktop environment, open the Azure portal, select your Windows Virtual Desktop host pool, and then select the **MSIX packages** tab.
-From the toolbar select **+ ADD** and in the MSIX image path provide the UNC path to the MSIX image. 
+From the toolbar select **+ ADD** and in the MSIX image path provide the UNC path to the MSIX image.
 
 |Item|Description|
 | --- | --- |
@@ -125,12 +125,12 @@ Remote desktop agent on a randomly selected VM from the host pool will access th
 ### Publish applications
 
 To publish MSIX applications using MSIX app attach, the state of the app in the host pool should be **Active**.
-In the Azure portal, navigate to your Windows Virtual Desktop environment and select **Application Group**. 
+In the Azure portal, navigate to your Windows Virtual Desktop environment and select **Application Group**.
 If you're publishing MSIX app attach to remote desktops, select the existing **Desktop** application group (DAG). From the Application group menu in the **Manage** section, select **Applications** and from the toolbar select **+ Add** to add an existing MSIX package.
-To publish MSIX applications to a remote application group (RAG) follow a similar procedure to select **Application Group**. 
+To publish MSIX applications to a remote application group (RAG) follow a similar procedure to select **Application Group**.
 From the toolbar select **+ Add**, provide the name of the remote application group, and then in the Applications tab add the existing MSIX application by selecting the application source to be the MSIX package.
 
-:::image type="content" source="../media/04-Screenshot-of-Application-groups-in-WVD.PNG" alt-text="Screenshot of Application grous in WVD." border="true":::
+:::image type="content" source="../media/04-Screenshot-of-Application-groups-in-WVD.PNG" alt-text="Screenshot of Application groups in WVD." border="true":::
 
 ### Assign users or groups
 

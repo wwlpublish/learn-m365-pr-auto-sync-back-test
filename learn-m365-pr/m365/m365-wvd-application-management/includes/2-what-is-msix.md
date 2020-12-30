@@ -10,7 +10,7 @@ The benefits of MSIX include:
 
 - Predictable and secure deployment. MSIX apps use container technology that isolates the app from the rest of the operating system for security.
 - Clean removal. When you remove MSIX apps, you remove all application data. There is no remaining data in the registry or in the file system of the operating system.
-- Single instance storage. MSIX app attach uses one instance of the MSIX application to deliver to all host without consuming additional space.
+- Single instance storage. MSIX app attach uses one instance of the MSIX application to deliver to all host without consuming extra space.
 - Tampering. After an MSIX package has been expanded into an MSIX image, the later is read-only and locked down for modification by the operating system.
 
 > [!TIP]
@@ -91,7 +91,7 @@ In the MSIX packaging tool (MPT) use the following steps to repackage an applica
  - Sign with a certificate(.pfx)
  - Specify a .cer file. This does not sign the package but matches the subject of the certificate that will be used for signing.
 
-4. Detail the package information. The MSIX package tool will attempt to auto-fill information about the app based on the installer that is used to be transformed. You can customize the input with your own values as needed.
+4. Detail the package information. The MSIX package tool will attempt to autofill information about the app based on the installer that is used to be transformed. You can customize the input with your own values as needed.
 
 5. Run installation. The tool starts to monitor the installation phase and capture all installation options. If the installer requires restart, you can restart the computer and continue the process of conversion.
 
@@ -101,7 +101,7 @@ In the MSIX packaging tool (MPT) use the following steps to repackage an applica
 
 8. Create package. This is the final phase of the process, where you provide a location to save the MSIX package.
 
-You can automate the process of repacking the applications with the command line interface. The following examples define how to use the MSIX Packaging tool from the command line:
+You can automate the process of repacking the applications with the command-line interface. The following examples define how to use the MSIX Packaging tool from the command line:
 
 ```
  MsixPackagingTool.exe create-package --template c:\users\documents\ConversionTemplate.xml -v
