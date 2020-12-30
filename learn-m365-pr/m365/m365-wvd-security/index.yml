@@ -34,14 +34,14 @@ products:
 - azure
 - windows-virtual-desktop
 units:
-- learn-m365.wvd-security.introduction
-- learn-m365.wvd-security.enable-security
-- learn-m365.wvd-security.enable-data-security
-- learn-m365.wvd-security.secure-users
-- learn-m365.wvd-security.secure-session-hosts
-- learn-m365.wvd-security.secure-network-access
-- learn-m365.wvd-security.exercise-secure-desktop 
-- learn-m365.wvd-security.knowledge-check
-- learn-m365.wvd-security.summary
+- learn-m365.wvd-security.1-introduction
+- learn-m365.wvd-security.2-enable-security
+- learn-m365.wvd-security.3-enable-data-security
+- learn-m365.wvd-security.4-secure-users
+- learn-m365.wvd-security.5-secure-session-hosts
+- learn-m365.wvd-security.6-secure-network-access
+- learn-m365.wvd-security.7-exercise-secure-desktop 
+- learn-m365.wvd-security.8-knowledge-check
+- learn-m365.wvd-security.9-summary
 badge: 
   uid: learn-m365.wvd-security.badges
