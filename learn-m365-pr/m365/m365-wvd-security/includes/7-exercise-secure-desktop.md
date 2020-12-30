@@ -172,7 +172,8 @@ To show the power of AppLocker we need to disable the Enhanced Security Configur
 
 1. In the **Enforcement** tab, these default rules aren't enabled. Select the **Executable rules: Configured** check box to enable executable rules.
 
->[!NOTE] Ensure the setting is set to **Enforce rules**, *not* **Audit only**. 
+>[!NOTE] 
+>Ensure the setting is set to **Enforce rules**, *not* **Audit only**. 
 >The **Audit only** setting  will not block any apps, and you may not experience the exercise as written if this setting is selected.
 
 1. Repeat the previous step for **Windows Installer rules:**, **Script rules:** and **Packaged app Rules:**.
