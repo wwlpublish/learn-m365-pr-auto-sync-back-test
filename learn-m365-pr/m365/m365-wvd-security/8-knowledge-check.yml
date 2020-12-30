@@ -15,6 +15,7 @@ content: |
 quiz:
   title: Check your knowledge
   questions:
+  
   - content: "Which of the following processes are part of the Microsoft-managed services in a Windows Virtual Desktop deployment?"
     choices:
     - content: "Gateway"
@@ -32,7 +33,7 @@ quiz:
     - content: "For faster access"
       isCorrect: false
       explanation: "That's incorrect. Conditional Access is a tool used by Azure Active Directory, to make decisions, and enforce organizational policies."
-    - content: "Enabling Conditional Access"
+    - content: "Allows for management of risk before granting access"
       isCorrect: true
       explanation: "That's correct. Enabling Conditional Access lets you manage risks before you grant users access to your Windows Virtual Desktop environment."
     - content: "With Conditional Access, you can remove the user's burden of multi-factor authentication"
