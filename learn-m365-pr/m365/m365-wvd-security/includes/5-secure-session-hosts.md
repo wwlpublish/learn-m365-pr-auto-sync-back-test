@@ -54,7 +54,7 @@ AppLocker control policies restriction rules are based on:
  - File attributes such as the digital signature, 
  - Product name, 
  - File name,
- = File version. 
+ - File version. 
  
  The default rules block many scripts, Windows installer packages, and executables.
 
