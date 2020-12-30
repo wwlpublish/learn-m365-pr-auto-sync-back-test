@@ -35,18 +35,18 @@ quiz:
     - content: "Enabling Conditional Access"
       isCorrect: true
       explanation: "That's correct. Enabling Conditional Access lets you manage risks before you grant users access to your Windows Virtual Desktop environment."
-    - content: "With Conditional Access you can remove the users burden of multi-factor authentication"
+    - content: "With Conditional Access, you can remove the user's burden of multi-factor authentication"
       isCorrect: false
       explanation: "That's incorrect. multi-factor authentication should be used with Conditional Access."
       
-  - content: "Which of the following should an administrator enable in a secure Windows Virtual Desktop deployment?"
+  - content: "Which of the following services should an administrator enable in a secure Windows Virtual Desktop deployment?"
     choices:
     - content: "A common administration password to limit complexity"
       isCorrect: false
-      explanation: "That's incorrect. From a security perspective, this is a bad idea and makes logging for accountability useless."
+      explanation: "That's incorrect. From a security perspective, common passwords are a bad idea and makes logging for accountability useless."
     - content: "Reduce logging for performance reasons"
       isCorrect: false
       explanation: "That's incorrect. Logging strengthens the overall security of your environment."
-    - content: "Multifactor authentication using Azure AD"
+    - content: "Multi-factor authentication using Azure AD"
       isCorrect: true
-      explanation: "That's correct. This should be required for all users."
+      explanation: "That's correct. Mult-factor authentication should be required for all users."
