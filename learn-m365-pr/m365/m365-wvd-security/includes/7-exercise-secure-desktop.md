@@ -13,14 +13,15 @@ In this exercise, you'll use a Windows Server 2016 VM running in Azure. Since th
 - You can view the following video on AppLocker in a Windows Virtual Desktop deployment
 
 
-> [!NOTE]
-> To complete the Exercise unit, you need to have an active Azure subscription. If you choose to perform the exercise in this module, you might incur costs in your Azure subscription. To estimate the cost, refer to 
-[Windows Virtual Machines Pricing](https://azure.microsoft.com/pricing/details/virtual-machines/windows/?azure-portal=true). The steps outlined in this lab are for a Windows server 2016 environment. 
+ 
 
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4Lt59]
 
 
+>[!NOTE]
+> To complete the Exercise unit, you need to have an active Azure subscription. If you choose to perform the exercise in this module, you might incur costs in your Azure subscription. To estimate the cost, refer to 
+[Windows Virtual Machines Pricing](https://azure.microsoft.com/pricing/details/virtual-machines/windows/?azure-portal=true). The steps outlined in this lab are for a Windows server 2016 environment.
 
 #### Pre-requisites
 
