@@ -11,7 +11,7 @@ A user profile is a collection of configurations that the user or administrator 
 
 In a Windows Virtual Desktop environment, Microsoft has made the FSLogix Profile Containers the default for storing the whole user profile. Profile containers aren't a traditional profile management solution but are a full remote profile solution for non-persistent environments. Profile containers redirect the entire user profile to a remote location. Profile container configuration defines how and where the profile is redirected. When used with Windows Virtual Desktop, the profile container can be stored in an Azure storage account.
 
-When you sign in to Windows Virtual Desktop, a container (VHD) of a user profile, dynamically attaches to the VM a user is assigned. FSLogix is using an advanced filter-driver technology to allow the user profile to be immediately available and display in the system exactly like a local user profile.
+When you sign in to Windows Virtual Desktop, a container (VHD) of a user profile, dynamically attaches to the VM a user is assigned. FSLogix is using an advanced filter-driver technology to allow the user profile to be immediately available in the system exactly like a local user profile.
 
 FSLogix address key issues with non-persistent profiles. In summary, FSLogix enables local profiles to act like roaming profiles and offers the following key advantages:
 
@@ -19,11 +19,11 @@ FSLogix address key issues with non-persistent profiles. In summary, FSLogix ena
 
 - Support for Microsoft OneDrive for Business, including Files on Demand. Previously, this support wasn't included in non-persistent virtualized environments.
 
-- Additional folders. FSLogix provides for extending user profiles to provision enterprise-grade SMB volumes by using the Azure NetApp Files service. Azure NetApp Files supports SMB 2.1 and SMB 3.1.
+- SMB folders. FSLogix provides for extending user profiles to provision enterprise-grade SMB volumes by using the Azure NetApp Files service. Azure NetApp Files supports SMB 2.1 and SMB 3.1.
 
 ## Secure your Windows Virtual Desktop data with Azure Disk Encryption
 
-All Azure NetApp Files used by WIndows Virtual Desktop are encrypted using the Federal Information Processing Standards Publications (FIPS PUBS) 140-2 standard. The Azure NetApp Files service manages all keys and generates a unique XTS-AES-256 data encryption key for each volume. An encryption key hierarchy is used to encrypt and protect all volume keys. These encryption keys are never available or reported in an unencrypted format. The keys are also deleted immediately when a volume is deleted.
+All Azure NetApp Files used by Windows Virtual Desktop are encrypted using the Federal Information Processing Standards Publications (FIPS PUBS) 140-2 standard. The Azure NetApp Files service manages all keys and generates a unique XTS-AES-256 data encryption key for each volume. An encryption key hierarchy is used to encrypt and protect all volume keys. These encryption keys are never available or reported in an unencrypted format. The keys are also deleted immediately when a volume is deleted.
 
 > [!NOTE] 
 > Support for customer-managed keys (Bring Your Own Key) using Azure Dedicated HSM is available. Check for availability in your region.
