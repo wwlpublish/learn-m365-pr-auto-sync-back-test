@@ -5,12 +5,18 @@ As a senior administrator working for Contoso, you've been asked to test Microso
 
 In this exercise, you'll use a Windows Server 2016 VM running in Azure. Since this isn't a Windows Virtual Desktop environment for the lab, Windows 10 Enterprise was not available. You will:
 
-- Deploy a Windows Server 2016 VM in Azure
-- Manually add users
-- Manually enable AppLocker
+- Open Azure Cloud Shell
+- Create a resource group
+- Deploy a Windows Server 2016 VM
+- Connect to VM
+- Add a standard user
+- Enable the AppIDsrv
 - Disable Internet Explorer Enhanced Security Configuration
-- Test AppLocker
-- You can view the following video on AppLocker in a Windows Virtual Desktop deployment
+- Download and install Visual Studio code 2019
+- Enable AppLocker
+- Enable Default AppLocker Rules
+- Test the AppLocker configuration on our deployed Windows Server 2016 VM
+- Clean up the resources
 
 
  
@@ -33,7 +39,7 @@ To do this exercise, you require:
 
 You can define and deploy VMs on Azure in several ways. This exercise uses the Azure Command Line Interface in Azure Cloud Shell. The steps outlined here are for Windows server environments.
 
-### Task 1: Create a Windows VM by using the Azure Command Line Interface in the Azure Cloud Shell
+### Task 1: Open Azure Cloud Shell
 
 1. Sign in to the [Azure portal](https://portal.azure.com/) using your Azure credentials.
 
@@ -172,9 +178,9 @@ To show the power of AppLocker we need to disable the Enhanced Security Configur
 
 1. In the **Enforcement** tab, these default rules aren't enabled. Select the **Executable rules: Configured** check box to enable executable rules.
 
->[!NOTE] 
->Ensure the setting is set to **Enforce rules**, *not* **Audit only**. 
->The **Audit only** setting  will not block any apps, and you may not experience the exercise as written if this setting is selected.
+	>[!NOTE] 
+	>Ensure the setting is set to **Enforce rules**, *not* **Audit only**. 
+	>The **Audit only** setting  will not block any apps, and you may not experience the exercise as written if this setting is selected.
 
 1. Repeat the previous step for **Windows Installer rules:**, **Script rules:** and **Packaged app Rules:**.
 
@@ -198,13 +204,13 @@ To show the power of AppLocker we need to disable the Enhanced Security Configur
 
 1. The **Select User or Group** panel is displayed. In the **Enter the object name to select** box, enter the standard user name you created previously.
 
-1. Select **Check Names**. You should see **myVM\"your standard users login name"**.
+1. Select **Check Names**. You should see **myVM\\"your standard users login name"**.
 
 1. Select **OK** button.
 
 1. Select **Next**. Then select **Path**, then select **Next**.
 
-1. Select **Browse Folders**. The **Browse For Folder ** File Explorer is displayed.
+1. Select **Browse Folders**. The **Browse For Folder** File Explorer is displayed.
 
 1. Select **Program Files (x86)**, then select **Microsoft Visual Studio**, then **2019**. Select **OK**.
 
