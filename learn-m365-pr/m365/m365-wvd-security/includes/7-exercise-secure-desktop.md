@@ -239,7 +239,7 @@ When AppLocker rules are enforced in the production environment, any apps that a
 
 1. You can use the following command to remove the resource group, VM, and all related resources when you no longer require them. Replace the resource group name with the name of the resource group you created (myResourceGroup) in your own environment. If you choose not to delete them, you may incur costs associated with them.
 
-```PowerShell
-az group delete --name myResourceGroup
-```
+	```PowerShell
+	az group delete --name myResourceGroup
+	```
 1. This process will take 2 to 3 minutes.
