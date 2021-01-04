@@ -1,9 +1,9 @@
 
 As a senior administrator working for Contoso, you've been asked to test Microsoft AppLocker for future deployment in your WVD environment. In an enterprise, this process would normally be done using GPOs, Intune, or Configuration Manager. This exercise doesn't include access to those tools or an Active Directory Domain Controller. 
 
-## Exercise: Enable AppLocker in a Windows Server 2016 VM running in Azure
+## Exercise - Enable AppLocker in a Windows Server 2016 VM running in Azure
 
-In this exercise, you'll use a Windows Server 2016 VM running in Azure. Since this isn't a Windows Virtual Desktop environment for the lab, Windows 10 Enterprise was not available. You will:
+In this exercise, you'll use a Windows Server 2016 VM running in Azure. Because this isn't a Windows Virtual Desktop environment for the lab, Windows 10 Enterprise is not available. You will:
 
 - Open Azure Cloud Shell
 - Create a resource group
@@ -12,7 +12,7 @@ In this exercise, you'll use a Windows Server 2016 VM running in Azure. Since th
 - Add a standard user
 - Enable the AppIDsrv
 - Disable Internet Explorer Enhanced Security Configuration
-- Download and install Visual Studio code 2019
+- Download and install Visual Studio Code 2019
 - Enable AppLocker
 - Enable Default AppLocker Rules
 - Test the AppLocker configuration on our deployed Windows Server 2016 VM
@@ -27,7 +27,7 @@ In this exercise, you'll use a Windows Server 2016 VM running in Azure. Since th
 
 >[!NOTE]
 > To complete the Exercise unit, you need to have an active Azure subscription. If you choose to perform the exercise in this module, you might incur costs in your Azure subscription. To estimate the cost, refer to 
-[Windows Virtual Machines Pricing](https://azure.microsoft.com/pricing/details/virtual-machines/windows/?azure-portal=true). The steps outlined in this lab are for a Windows server 2016 environment.
+[Windows Virtual Machines Pricing](https://azure.microsoft.com/pricing/details/virtual-machines/windows/?azure-portal=true). The steps outlined in this lab are for a Windows Server 2016 environment.
 
 #### Pre-requisites
 
@@ -43,11 +43,11 @@ You can define and deploy VMs on Azure in several ways. This exercise uses the A
 
 1. Sign in to the [Azure portal](https://portal.azure.com/) using your Azure credentials.
 
-1. Select the Cloud Shell icon next to the search box. A **Welcome to Azure Cloud Shell banner** opens.
+1. Select the Cloud Shell icon next to the search box. A **Welcome to Azure Cloud Shell** banner opens.
 
 1. You may also receive a prompt stating you have no storage mounted, prompting you to select a subscription and to create storage. Select your subscription and choose to **Create storage** if prompted.
 
-1. In the Azure Cloud Shell terminal window ensure Powershell is chosen as the the selected environment. Select **PowerShell**.
+1. In the Azure Cloud Shell terminal window, ensure Powershell is chosen as the selected environment. Select **PowerShell**.
 
 ### Task 2: Create a resource group
 
@@ -95,13 +95,13 @@ You now need to create a resource group. An Azure resource group is a logical co
 
 ### Task 4: Connect to VM
 
-Use the following steps to create a remote desktop session from your local computer. Replace the IP address with the public IP address of your VM. When prompted, enter the admin username specified in the PowerShell command, and the associated password.
+Use the following steps to create a remote desktop session from your local computer. Replace the IP address with the public IP address of your VM. When prompted, enter the admin username specified in the PowerShell command and the associated password.
 
 1. On a Windows desktop, enter **mstsc** in your search window and select the Remote Desktop Connection app.
 
 1. Select **Show Options**. Enter the IP address of the VM and your administrator credentials, and then select **Connect**. Don't choose to save the sign-on configuration.
 
-1. If you receive a message that, **The identity of the remote computer cannot be verified. Do you want to connect anyway?**, Select **Yes**
+1. If you receive a message that, **The identity of the remote computer cannot be verified. Do you want to connect anyway?**, select **Yes**
 
 ### Task 5: Add a standard user
 
@@ -109,13 +109,13 @@ The next step is to add a standard user to the **myVM** server.
 
 1. The Windows Server Manager dashboard should now be available. If not, select **Start**, and then select **Server Manager**.
 
-1. On the Dashboard, select **Tools**, and then select **Computer Management.**
+1. On the Dashboard, select **Tools**, and then select **Computer Management**.
 
-1. Under **System Tools**, select **Local Users and Groups.** Right-click **Users** or activate its context menu, and then select **New User.**
+1. Under **System Tools**, select **Local Users and Groups.** Right-click **Users** or activate its context menu, and then select **New User**.
 
-1. Enter a Username, Full name and Description. Enter and confirm a Password, and clear the **User must change password at next login** check box.
+1. Enter a Username, Full name, and Description. Enter and confirm a Password, and clear the **User must change password at next login** check box.
 
-1. Select **Create,** and then select **Close.**
+1. Select **Create,** and then select **Close**.
 
 1. Select the **Groups** option, and then search for **Remote Desktop Users**.
 
@@ -123,7 +123,7 @@ The next step is to add a standard user to the **myVM** server.
 
 1. In the **Remote Desktop Users** properties interface dialog box, select **Add...**.
 
-1. Add the standard user you created earlier, to this group.
+1. Add the standard user you created earlier to this group.
 
 1. Select **OK**.
 
@@ -132,18 +132,18 @@ The next step is to add a standard user to the **myVM** server.
 ### Task 6: Enable the AppIDsrv
 The Application Identity service determines and verifies the identity of an app. Stopping this service will prevent AppLocker policies from being enforced.
 
-1. Start **Task Manger** by right-click on the **Taskbar** and select **Task Manager**.
+1. Start **Task Manger** by right-clicking on the **Taskbar** and then selecting **Task Manager**.
 
 1. Select **More Details**, then select the **Services** tab.
 
-1. Scroll down until you see the **AppIDSvc**. Right-click and select **Start**.
+1. Scroll down until you see **AppIDSvc**. Right-click and select **Start**.
 
 1. The **AppIDSrv** service should now be **Running**.
 
 1. Close **Task Manager**.
 
 ### Task 7: Disable Internet Explorer Enhanced Security Configuration
-To show the power of AppLocker we need to disable the Enhanced Security Configuration (ESC).This protection is enabled by default in Internet Explorer on Windows Server 2016. With ESC disabled, access to the Internet is not checked.
+To show the power of AppLocker, we need to disable the Enhanced Security Configuration (ESC). This protection is enabled by default in Internet Explorer on Windows Server 2016. With ESC disabled, access to the Internet is not checked.
 
 1. In **Server Manager**, select **Local Server**.
 
@@ -153,7 +153,7 @@ To show the power of AppLocker we need to disable the Enhanced Security Configur
 
 1. Start IE. You should see a message that **Internet Explorer Enhanced Security Configuration is not enabled**.
 
-### Task 8: Download and install Visual Studio code 2019
+### Task 8: Download and install Visual Studio Code 2019
 
 1. Download and install **Visual Studio Community 2019** edition at https://visualstudio.microsoft.com/downloads/
 **Visual Studio Community 2019** is free for students, open-source contributors, and individuals.
@@ -162,17 +162,17 @@ To show the power of AppLocker we need to disable the Enhanced Security Configur
 
 1. During the install, accept all defaults, and select **Continue** and **Install** when prompted during setup. You do not need to install any additional components for this exercise.
 
-1. Start **Visual Studio** to ensure it can run. There's no shortcut by default on desktop or task bar. **Visual Studio** can be found on the start menu under recently added.
+1. Start **Visual Studio** to ensure it can run. There's no shortcut by default on desktop or task bar. **Visual Studio** can be found on the Start menu under recently added.
 
 1. Close **Visual Studio**.
 
 ### Task 9: Enable AppLocker
 
-1. In **Server Manager** select **Tools**, and then select **Local Security Policy**.
+1. In **Server Manager**, select **Tools**, and then select **Local Security Policy**.
 
 1. Under **Security Setting**, select **Application Control Policies**.
 
-1. Expand the **Application Control Policies**. Select **AppLocker**. The AppLocker configuration interface displays.
+1. Expand **Application Control Policies**. Select **AppLocker**. The AppLocker configuration interface displays.
 
 1. Select **Configure rule enforcement**. The **AppLocker Properties** interface becomes available.
 
@@ -182,19 +182,19 @@ To show the power of AppLocker we need to disable the Enhanced Security Configur
 >Ensure the setting is set to **Enforce rules**, *not* **Audit only**. 
 >The **Audit only** setting  will not block any apps, and you may not experience the exercise as written if this setting is selected.
 
-1. Repeat the previous step for **Windows Installer rules:**, **Script rules:** and **Packaged app Rules:**.
+1. Repeat the previous step for **Windows Installer rules:**, **Script rules:**, and **Packaged app Rules:**.
 
 1. Select **OK**.
 
 ### Task 10: Enable Default AppLocker Rules
 
-1. In the **Local Security Policy** console under **Security Setting** > **Application Control Policies** > **AppLocker**, select **Packaged app Rules** and right click, select **Create Default Rules**.
+1. In the **Local Security Policy** console under **Security Setting** > **Application Control Policies** > **AppLocker**, right-click **Packaged app Rules** and then right-click, then select **Create Default Rules**.
 
 1. The **(Default Rule) All signed package apps** should be displayed in the right panel.
 
 1. Repeat the step above for **Executable Rules**. You should see the default rules that are created.
 
-1. Select **Executable Rules** in the left panel, right click, select **Create New Rule**.
+1. In the left panel right-click **Executable Rules**, and then select **Create New Rule**.
 
 1. The **Create Executable Rules** panel is displayed. Select **Next**.
 
@@ -206,9 +206,9 @@ To show the power of AppLocker we need to disable the Enhanced Security Configur
 
 1. Select **Check Names**. You should see **myVM\\"your standard users login name"**.
 
-1. Select **OK** button.
+1. Select the **OK** button.
 
-1. Select **Next**. Then select **Path**, then select **Next**.
+1. Select **Next**, select **Path**, and then select **Next**.
 
 1. Select **Browse Folders**. The **Browse For Folder** File Explorer is displayed.
 
@@ -227,11 +227,11 @@ To show the power of AppLocker we need to disable the Enhanced Security Configur
 ### Task 11: Test the AppLocker configuration on our deployed Windows Server 2016 VM
 
 1. Sign out of the deployed Windows Server VM that you configured, and then sign in using the standard user account you created previously.
-The rdp session you had open will close on sign out and you will have to start another rdp session and sign in via the rdp client again as described previously.
+The rdp session you had open will close on sign-out. You will have to start another rdp session and sign in via the rdp client again as described previously.
 
 1. Select the **Start** menu and click on **Visual Studio 2019**.
 
-1. You should see a message that **This app has been blocked by your system administrator**.
+1. You should see the message **This app has been blocked by your system administrator**.
 
 When AppLocker rules are enforced in the production environment, any apps that aren't included in the allowed rules are blocked from running.
 
