@@ -1,4 +1,4 @@
-A user profile is a collection of configurations that the user or administrator made, which represent the state of a system. Different system components bind to a user's profile. For example, applications, registry entries and others customized entries. Windows 10 offers several types of user profiles. The following table describes the four traditional types of Windows profiles.
+A user profile is a collection of configurations that the user or administrator made, which represent the state of a system. Different system components bind to a user's profile, for example, applications, registry entries and others customized entries. Windows 10 offers several types of user profiles. The following table describes the four traditional types of Windows profiles.
 
 | **Types of profiles** | **Description**                             |
 | --------------------- | ---------------------------------- |
@@ -11,11 +11,11 @@ A user profile is a collection of configurations that the user or administrator 
 
 In a Windows Virtual Desktop environment, Microsoft has made the FSLogix Profile Containers the default for storing the whole user profile. Profile containers aren't a traditional profile management solution but are a full remote profile solution for non-persistent environments. Profile containers redirect the entire user profile to a remote location. Profile container configuration defines how and where the profile is redirected. When used with Windows Virtual Desktop, the profile container can be stored in an Azure storage account.
 
-When you sign in to Windows Virtual Desktop, a container (VHD) of a user profile, dynamically attaches to the VM a user is assigned. FSLogix is using an advanced filter-driver technology to allow the user profile to be immediately available in the system exactly like a local user profile.
+When you sign in to Windows Virtual Desktop, a container (VHD) of a user profile dynamically attaches to the VM to which a user is assigned. FSLogix uses an advanced filter-driver technology to allow the user profile to be immediately available in the system exactly like a local user profile.
 
-FSLogix address key issues with non-persistent profiles. In summary, FSLogix enables local profiles to act like roaming profiles and offers the following key advantages:
+FSLogix addresses key issues with non-persistent profiles. In summary, FSLogix enables local profiles to act like roaming profiles and offers the following key advantages:
 
-- Performance Improvements. FSLogix profile containers offer high performance and address historic blocked cached exchange mode.
+- Performance improvements. FSLogix profile containers offer high performance and address historic blocked cached exchange mode.
 
 - Support for Microsoft OneDrive for Business, including Files on Demand. Previously, this support wasn't included in non-persistent virtualized environments.
 
