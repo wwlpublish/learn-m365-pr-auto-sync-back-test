@@ -35,7 +35,7 @@ To do this exercise, you require:
 
 - An Azure subscription
 
-- The Remote Desktop app for Windows. If you are using an OS other than Windows you will need to use your favorite Remote Desktop software
+- The Remote Desktop app for Windows. If you are using an OS other than Windows, you will need to use your favorite Remote Desktop software
 
 You can define and deploy VMs on Azure in several ways. This exercise uses the Azure Command Line Interface in Azure Cloud Shell. The steps outlined here are for Windows server environments.
 
