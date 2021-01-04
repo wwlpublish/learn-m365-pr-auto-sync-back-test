@@ -30,7 +30,7 @@ You will:
 
 >If you're storing MSIX image in Azure Files, refer to the fourth unit, **Manage MSIX app attach** in this module, to retrieve the UNC path from the URL location of the MSIX image.
 
-7. After you add the UNC path of your MSIX image, select the following:
+7. After you add the UNC path of your MSIX image, provide the following information:
 
 |||
 |---|---|
@@ -52,7 +52,7 @@ You will:
 2. On the **Windows Virtual Desktop | Application groups** page, select the desired application group.
 3. On the application group page, in the navigation menu, in the **Manage** section, select **Applications**.
 4. On the **_your application group_|Applications** page from the toolbar, select **+ Add**.
-5. On the **Add application** windows, select:
+5. On the **Add application** windows, provide the following information:
 
 |||
 | --- | --- |
@@ -104,15 +104,15 @@ You will:
 |Show in web feed|Yes|
 
 6. Select **Save** to add application and then select **Next: Assignments >**.
-7. On the **Assignment** tab, select **+ Add Azure AD users or user groups** and then select one or multiple users or groups from Azure AD.
+7. On the **Assignment** tab, select **+ Add Azure AD users or user groups**, then select one or multiple users or groups from Azure AD, and then choose **Select**.
 8. Select **Next: Workspace >**.
-9. On the **Workspace** tab, select **Yes** for **Register application group** and then from the **Register application group** dropdown menu, select one of the RAG.
+9. On the **Workspace** tab, select **Yes** for **Register application group** and then from the **Register application group** dropdown menu, select one of the RemoteApp group.
 10. Select **Next: Tags >**.
 11. On the **Tags** tab, provide a **Name** and **Value** for the tags and select **Next: Review + create >**.
 12. Once the validation completes, select **Create** to finish creating the RemoteApp group.
 13. Wait for the deployment to complete.
 
-### Task 4: Test the MSIX app attach
+### Task 5: Test the MSIX app attach
 
 1. From any computer, open a browser and then open the remote desktop web client by using the following URL [https://rdweb.wvd.microsoft.com/arm/webclient/index.html](https://rdweb.wvd.microsoft.com/arm/webclient/index.html).
 2. Select **Subscribe**.
