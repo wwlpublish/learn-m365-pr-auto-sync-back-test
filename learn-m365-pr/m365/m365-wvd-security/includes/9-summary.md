@@ -1,4 +1,4 @@
-Contoso wanted to deploy a solution that supported their employees working remotely. This solution needed to be up-to-date, secure, and highly scalable. You found that Windows Virtual Desktop provided its users access to every system that a physical desktop would.
+Contoso wanted to deploy a solution that supported their employees working remotely. This solution needed to be up-to-date, secure, and highly scalable. You found that Windows Virtual Desktop provided its users with access to every system that a physical desktop would.
 
 This module addressed how to add strict identity and device verification regardless of the location of the user accessing company resources. This is the basis of the Zero Trust security model. In this module, you learned how to protect corporate data and resources while ensuring that organizations can build a modern workplace by using technologies such as Windows Virtual Desktop that empower employees to be productive anytime, anywhere.
 
