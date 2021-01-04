@@ -28,7 +28,7 @@ quiz:
       isCorrect: false
       explanation: "That's incorrect. The end user needs to manage this."
       
-  - content: "Why is conditional access recommended as a security control in a Windows Virtual Desktop deployment?"
+  - content: "Why is Conditional Access recommended as a security control in a Windows Virtual Desktop deployment?"
     choices:
     - content: "For faster access"
       isCorrect: false
@@ -44,7 +44,7 @@ quiz:
     choices:
     - content: "A common administration password to limit complexity"
       isCorrect: false
-      explanation: "That's incorrect. From a security perspective, common passwords are a bad idea and makes logging for accountability useless."
+      explanation: "That's incorrect. From a security perspective, common passwords are a bad idea and make logging for accountability useless."
     - content: "Reduce logging for performance reasons"
       isCorrect: false
       explanation: "That's incorrect. Logging strengthens the overall security of your environment."
