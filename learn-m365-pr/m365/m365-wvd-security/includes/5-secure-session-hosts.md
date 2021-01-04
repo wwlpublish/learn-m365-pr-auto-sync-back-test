@@ -51,10 +51,10 @@ Windows 10 introduced Windows Defender Application Control, which organizations 
 AppLocker should be part of your overall application control strategy by allowing predefined applications to run on your systems.
 
 AppLocker control policies restriction rules are based on:
- - File attributes such as the digital signature, 
- - Product name, 
- - File name,
- - File version. 
+ - File attributes such as the digital signature 
+ - Product name
+ - File name
+ - File version 
  
  The default rules block many scripts, Windows installer packages, and executables.
 
