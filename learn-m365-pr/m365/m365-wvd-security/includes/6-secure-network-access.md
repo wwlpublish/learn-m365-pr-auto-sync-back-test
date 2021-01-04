@@ -18,7 +18,7 @@ No inbound ports are opened. In this version, the Gateway is acting as an intell
 
 ## Limit Windows Virtual Desktop traffic with NSG service tags
 
-Service tags simplify security for Azure VMs. Since Azure virtual networks are used in a Windows Virtual Desktop deployment, the Service tags make it easily to restrict network access to just the Azure services. Service tags can be used in your network security group (NSG) rules to allow or deny traffic to a specific Azure service globally or per Azure region.
+Service tags simplify security for Azure VMs. Since Azure virtual networks are used in a Windows Virtual Desktop deployment, the Service tags make it easy to restrict network access to just the Azure services. Service tags can be used in your network security group (NSG) rules to allow or deny traffic to a specific Azure service globally or per Azure region.
 
 ### NSGs
 
