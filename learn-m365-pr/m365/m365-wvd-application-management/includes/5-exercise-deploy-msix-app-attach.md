@@ -23,7 +23,7 @@ You will:
 2. On the **Windows Virtual Desktop** page, in the navigation menu on the left side, select **Host pools**.
 3. On the **Windows Virtual Desktop | Host pools** page, select the desired host pool.
 4. On the **_your host pool_** page in the navigation menu on the left side, from the **Manage** section, select **MSIX packages**.
-5. On the **_your host pool_|MSIX packages** page from the toolbar, select **+ Add**.
+5. On the **_your host pool_ | MSIX packages** page from the toolbar, select **+ Add**.
 6. On the **Add MSIX package** windows in the **MSIX image path** field, add the UNC path of your MSIX image.
 
 >[!NOTE]
@@ -51,7 +51,7 @@ You will:
 1. On the **Windows Virtual Desktop** page, in the navigation menu on the left side, select **Application groups**.
 2. On the **Windows Virtual Desktop | Application groups** page, select the desired application group.
 3. On the application group page, in the navigation menu, in the **Manage** section, select **Applications**.
-4. On the **_your application group_|Applications** page from the toolbar, select **+ Add**.
+4. On the **_your application group_ | Applications** page from the toolbar, select **+ Add**.
 5. On the **Add application** windows, provide the following information:
 
 |||
@@ -71,7 +71,7 @@ You will:
 1. On the **Windows Virtual Desktop** page, in the navigation menu on the left side, select **Application groups**.
 2. On the **Windows Virtual Desktop | Application groups** page, select the desired application group.
 3. On the application group page, in the navigation menu, in the **Manage** section, select **Assignments**.
-4. On the **_your application group_|Assignments** page from the toolbar select **+ Add**.
+4. On the **_your application group_ | Assignments** page from the toolbar select **+ Add**.
 5. On the **Select Azure AD users or user groups** select your users or groups and then select **Select**.
 
 ### Task 4: Publish MSIX app attach to RemoteApp group (RAG)
@@ -119,7 +119,7 @@ You will:
 3. Sign in with the credential of the user which has been assigned access to application group that contain MSIX app attach.
 4. Select the **SessionDesktop** icon and sign in with the credential of the user.
 
-> [!Note]
+> [!NOTE]
 
 > You might be prompted with a security warning to "Allow local resources". Select which local resources you want to allow the remote computer to access and then select **Allow**.
 
