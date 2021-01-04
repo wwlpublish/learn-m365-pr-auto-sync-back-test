@@ -6,7 +6,7 @@ Contoso, Ltd., is a growing financial services company that is based in London a
 
 The IT director has asked you to evaluate the risks and benefits to using Windows Virtual Desktop to support their remote workers. The key aspects of the evaluation will be functionality, scalability, security, and the cost of Windows Virtual Desktop.
 
-In this module, you’ll learn how to access Windows Virtual Desktop from the Azure portal. You'll also be introduced to shared responsibility model of a secure Windows Virtual Desktop environment.
+In this module, you’ll learn how to access Windows Virtual Desktop from the Azure portal. You'll also be introduced to the shared responsibility model of a secure Windows Virtual Desktop environment.
 
 After completing this module, you can explain the requirements and architecture for a Windows Virtual Desktop deployment and assess its security.
 
