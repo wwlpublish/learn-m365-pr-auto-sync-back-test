@@ -2,7 +2,7 @@ As the lead system engineer and Azure administrator tasked with evaluating Windo
 
 ## Windows Virtual Desktop architecture
 
-Windows Virtual Desktop is a desktop and app virtualization service that runs in Azure. Windows Virtual Desktop:
+Windows Virtual Desktop is a desktop and app virtualization service that runs in Azure. Windows Virtual Desktop,and:
 
 - Provides virtualization infrastructure as a managed service.
 - Enables management of VMs deployed in your Azure subscription.
@@ -23,7 +23,7 @@ Microsoft manages the Windows Virtual Desktop services described in the followin
 
 | **Service**                   | **Description**                                              |
 | ----------------------------- | ------------------------------------------------------------ |
-| Azure Web Access              | This service enables Windows Virtual Desktop end users to access virtual desktops and remote apps through an HTMLv5 compatible web browser. |
+| Azure Web Access              | This service enables Windows Virtual Desktop end users to access virtual desktops and remote apps through an HTMLv5-compatible web browser. |
 | Gateway                       | This service connects remote clients to a gateway, which then establishes a connection from a virtual machine (VM) back to the same gateway. |
 | Broker                        | The Broker service provides load-balancing and reconnection to virtual desktops and remote apps in existing user sessions. |
 | Diagnostics                   | The Remote Desktop Diagnostics service logs events of actions on the Windows Virtual Desktop deployment as a success or failure. Diagnostics are used to troubleshoot errors. |
@@ -35,8 +35,8 @@ The customer manages the following components needed for a successful Windows Vi
 
 | **Component**                      | **Description**                                              |
 | ---------------------------------- | ------------------------------------------------------------ |
-| User profile management            | FSLogix and Azure Files are a solution that provides a fast and stateful experience for users through containerize user profiles. |
-| User host access                   | On the creation of a host pool, the type of load-balancing is defined as either depth or breadth. |
+| User profile management            | FSLogix and Azure Files are a solution that provides a fast and stateful experience for users through containerized user profiles. |
+| User host access                   | On the creation of a host pool, the type of load balancing is defined as either depth or breadth. |
 | Sizing and scaling policies for VM | VM sizing components including GPU-enabled VMs.              |
 | Scaling policies                   | Session host pools integrated with Azure VM Scale that manages a group of load-balanced VMs. |
 | Networking policies                | Defining and assigning Network Security Groups (NSGs) to filter network traffic. |
@@ -53,7 +53,7 @@ The following security processes and components contribute to this Azure AD Iden
 
 The following load-balancing methods are available in Windows Virtual Desktop. Breadth-first and depth-first load-balancing permits the customization for Windows Virtual Desktop host pools to match your deployment needs.
 
-- Breadth-first is the default configuration that distributed new user sessions throughout the hosts in a host pool. This configuration gives each user full control of the VM without sharing any resources.
+- Breadth-first is the default configuration that distributes new user sessions throughout the hosts in a host pool. This configuration gives each user full control of the VM without sharing any resources.
 - Depth-first connects new user sessions to a multiple session host until the maximum connections are reached. This configuration is typically used to reduce cost.
 
 Several Remote Desktop clients such as Windows Desktop, Microsoft Store Client, and the most popular third-party OS devices include support for Windows Virtual Desktop. You can:
