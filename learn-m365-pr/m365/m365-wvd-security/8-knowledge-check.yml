@@ -1,5 +1,6 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.wvd-security.knowledge-check
+uid: learn-m365.wvd-security.8-knowledge-check
+title: Knowledge check
 metadata:
   title: Knowledge check
   description: Review what you've learned.
@@ -8,50 +9,45 @@ metadata:
   ms.author: nedelgad
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Knowledge check
 durationInMinutes: 5
 content: |
   [!include[](includes/8-knowledge-check.md)]
 quiz:
   title: Check your knowledge
   questions:
-
-  - content: "Which of the following processes are part of the Microsoft-managed services in a WVD deployment?"
+  
+  - content: "Which of the following processes are part of the Microsoft-managed services in a Windows Virtual Desktop deployment?"
     choices:
-    - content: "Gateway."
+    - content: "Gateway"
       isCorrect: true
       explanation: "That's correct. Microsoft manages the Gateway."
-    - content: "Identity."
+    - content: "Identity"
       isCorrect: false
       explanation: "That's incorrect. Identity is customer-managed."
-    - content: "Web browser."
+    - content: "Web browser"
       isCorrect: false
       explanation: "That's incorrect. The end user needs to manage this."
       
-  - content: "Why is it a security recommendation to use RemoteApp?"
+  - content: "Why is Conditional Access recommended as a security control in a Windows Virtual Desktop deployment?"
     choices:
-    - content: "For faster access."
+    - content: "For faster access"
       isCorrect: false
-      explanation: "That's incorrect. Access might be faster, but that's not the reason for the security recommendation."
-    - content: "Reduced attack surface area."
+      explanation: "That's incorrect. Conditional Access is a tool used by Azure Active Directory, to make decisions, and enforce organizational policies."
+    - content: "Allows for management of risk before granting access"
       isCorrect: true
-      explanation: "That's correct. RemoteApp reduces risk by only letting the user work with a subset of the remote machine exposed."
-    - content: "Connecting to a virtual machine in a host pool is more secure."
+      explanation: "That's correct. Enabling Conditional Access lets you manage risks before you grant users access to your Windows Virtual Desktop environment."
+    - content: "With Conditional Access, you can remove the user's burden of multi-factor authentication"
       isCorrect: false
-      explanation: "That's incorrect. Both access methods are secure."
+      explanation: "That's incorrect. multi-factor authentication should be used with Conditional Access."
       
-  - content: "Which of the following should you enable in a secure WVD deployment?"
+  - content: "Which of the following services should an administrator enable in a secure Windows Virtual Desktop deployment?"
     choices:
-    - content: "A common administration password to limit complexity."
+    - content: "A common administration password to limit complexity"
       isCorrect: false
-      explanation: "That's incorrect. From a security perspective, this is a bad idea and makes logging for accountability useless."
-    - content: "Reduce logging for performance reasons."
+      explanation: "That's incorrect. From a security perspective, common passwords are a bad idea and make logging for accountability useless."
+    - content: "Reduce logging for performance reasons"
       isCorrect: false
       explanation: "That's incorrect. Logging strengthens the overall security of your environment."
-    - content: "Multifactor authentication using Azure AD."
+    - content: "Multi-factor authentication using Azure AD"
       isCorrect: true
-      explanation: "That's correct. This should be required for all users."
-
-
-
-
+      explanation: "That's correct. Mult-factor authentication should be required for all users."
