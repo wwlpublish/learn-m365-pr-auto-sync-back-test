@@ -52,7 +52,7 @@ The following security processes and components contribute to this Azure AD Iden
 - Subscribing to the standard SKU of Azure Security Center for its integrated vulnerability assessment
 - Using strong credential management services and policies
 
-The following load-balancing methods are available in Windows Virtual Desktop. Breadth-first and depth-first load-balancing permits the customization for Windows Virtual Desktop host pools to match your deployment needs.
+The following load-balancing methods are available in Windows Virtual Desktop. Breadth-first and depth-first load balancing permits the customization for Windows Virtual Desktop host pools to match your deployment needs.
 
 - Breadth-first is the default configuration that distributes new user sessions throughout the hosts in a host pool. This configuration gives each user full control of the VM without sharing any resources.
 - Depth-first connects new user sessions to a multiple session host until the maximum connections are reached. This configuration is typically used to reduce cost.
