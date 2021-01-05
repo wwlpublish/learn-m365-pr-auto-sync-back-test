@@ -57,7 +57,7 @@ You now need to create a resource group. An Azure resource group is a logical co
 
 	```PowerShell
 	Get-AZResourceGroup -Name myResourceGroup
-	``` 
+	```
 
 ### Task 3: Deploy a Windows Server 2016 VM
 
@@ -133,7 +133,7 @@ The Application Identity service determines and verifies the identity of an app.
 
 1. Select **More Details**, then select the **Services** tab.
 
-1. Scroll down until you see **AppIDSvc**. Right-click and select **Start**.
+1. Scroll down until you see **AppIDSvc**. Select the AppIDSvc, then right-click and select **Start**.
 
 1. The **AppIDSrv** service should now be **Running**.
 
@@ -153,7 +153,7 @@ To show the power of AppLocker, we need to disable the Enhanced Security Configu
 
 ### Task 8: Download and install Visual Studio Code 2019
 
-1. Download and install **Visual Studio Community 2019** edition at https://visualstudio.microsoft.com/downloads/
+1. Download and install **Visual Studio Community 2019** edition at <https://visualstudio.microsoft.com/downloads/>
 **Visual Studio Community 2019** is free for students, open-source contributors, and individuals.
 
 1. You will see a prompt to run or save the visual studio .exe, select **Run**.
@@ -180,13 +180,13 @@ To show the power of AppLocker, we need to disable the Enhanced Security Configu
 >Ensure the setting is set to **Enforce rules**, *not* **Audit only**.
 >The **Audit only** setting  will not block any apps, and you may not experience the exercise as written if this setting is selected.
 
-1. Repeat the previous step for **Windows Installer rules:**, **Script rules:**, and **Packaged app Rules:**.
+6. Repeat the previous step for **Windows Installer rules:**, **Script rules:**, and **Packaged app Rules:**.
 
-1. Select **OK**.
+7. Select **OK**.
 
 ### Task 10: Enable Default AppLocker Rules
 
-1. In the **Local Security Policy** console under **Security Setting** > **Application Control Policies** > **AppLocker**, right-click **Packaged app Rules** and then right-click, then select **Create Default Rules**.
+1. In the **Local Security Policy** console under **Security Setting** > **Application Control Policies** > **AppLocker**, right-click **Packaged app Rules**, then select **Create Default Rules**.
 
 1. The **(Default Rule) All signed package apps** should be displayed in the right panel.
 
