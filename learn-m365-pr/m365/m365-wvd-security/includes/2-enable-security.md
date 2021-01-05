@@ -63,4 +63,4 @@ Several Remote Desktop clients such as Windows Desktop, Microsoft Store Client, 
 - Access a full desktop in Windows 10 Enterprise multi-session, Windows 10 Enterprise, Windows Server 2012 R2 and newer, Windows 7 Enterprise Full Desktop for backward compatibility.
 - Access only the application from a preconfigured application group in a host pool. Use Azure AD and role-based access controls to provide fine-grained authorization.
 
-[!NOTE] WVD requires AD DS. An AD DS domain-joined session host takes advantage of Azure AD security features, such as conditional access, multifactor authentication, and the Intelligent Security Graph.
+>[!NOTE] WVD requires AD DS. An AD DS domain-joined session host takes advantage of Azure AD security features, such as conditional access, multifactor authentication, and the Intelligent Security Graph.
