@@ -10,5 +10,5 @@ In this module, you’ll learn how to access Windows Virtual Desktop from the Az
 
 After completing this module, you can explain the requirements and architecture for a Windows Virtual Desktop deployment and assess its security.
 
-> [!NOTE] 
+> [!NOTE]
 > If you choose to perform the exercise in this module, you might incur costs in your Azure subscription. To estimate the cost, refer to [Windows Virtual Machines Pricing](https://azure.microsoft.com/pricing/details/virtual-machines/windows/?azure-portal=true).

@@ -13,7 +13,7 @@ The following image is a typical enterprise deployment architecture diagram that
 
 :::image type="content" source="../media/2-windows-virtual-desktop-at-scale.png" alt-text="Typical scaled-out Windows Virtual Desktop deployment that consists of on-premises AD DS, synchronization to Azure AD using Azure AD Connect. Also shown is a Network Gateway for Express Route to Azure." border="true":::
 
-Windows Virtual Desktop is deployed in a hierarchical workspace. In a traditional on-premises Virtual Desktop Infrastructure (VDI) deployment, the customer would be responsible for all aspects of security. However, with Windows Virtual Desktop, these responsibilities are shared between the customer and Microsoft. Microsoft helps secure the physical datacenters, the physical network, and the physical hosts that Azure runs on. Microsoft also is responsible to secure the virtualization control plane, which includes Windows Virtual Desktop services running in Azure.
+Windows Virtual Desktop is deployed in a hierarchical workspace. In a traditional on-premises Virtual Desktop Infrastructure (VDI) deployment, the customer would be responsible for all aspects of security. However, with Windows Virtual Desktop, these responsibilities are shared between the customer and Microsoft. Microsoft helps secure the physical data centers, the physical network, and the physical hosts that Azure runs on. Microsoft also is responsible to secure the virtualization control plane, which includes Windows Virtual Desktop services running in Azure.
 
 When you use Windows Virtual Desktop, it’s important to understand that Microsoft has already helped secure some services. The customer needs to configure other areas to fit their organization’s security needs. However, if needed, Microsoft can provide best practice guidance to its customers for the services they're responsible for.
 
@@ -39,13 +39,14 @@ The customer manages the following components needed for a successful Windows Vi
 | User host access                   | On the creation of a host pool, the type of load balancing is defined as either depth or breadth. |
 | Sizing and scaling policies for VM | VM sizing components including GPU-enabled VMs.              |
 | Scaling policies                   | Session host pools integrated with Azure VM Scale that manages a group of load-balanced VMs. |
-| Networking policies                | Defining and assigning Network Security Groups (NSGs) to filter network traffic. |
+| Networking policies                | Defining and assigning Network Security Groups (NSG) to filter network traffic. |
 
 ## Secure Windows Virtual Desktop credentials
 
 Windows Virtual Desktop requires integration with Azure AD, permitting the incorporation of identity and access capabilities from Azure AD. This integration with Azure AD is key in a layered *zero-trust security* strategy. The zero-trust security model removes the concept of a "walled garden". This model assumes every service, user, application, and system is open to the internet. This approach focuses on building strong authentication, authorization, and encryption, while also providing better operational agility.
 
 The following security processes and components contribute to this Azure AD Identity as a Service architecture. Consider:
+
 - Using static and dynamic conditional access policies
 - Using multi-factor authentication enhanced authentication
 - Subscribing to the standard SKU of Azure Security Center for its integrated vulnerability assessment
@@ -59,11 +60,7 @@ The following load-balancing methods are available in Windows Virtual Desktop. B
 Several Remote Desktop clients such as Windows Desktop, Microsoft Store Client, and the most popular third-party OS devices include support for Windows Virtual Desktop. You can:
 
 - Access a full desktop in Windows 10 Enterprise multi-session, Windows Server 2012 R2 and newer, Windows 7 Enterprise (full desktop) for backward compatibility.
-- Access only the application from a preconfigured application group in a host pool. Use Azure AD and role-based access controls to provide fine-grained authorization.
+- Access only the application from a pre-configured application group in a host pool. Use Azure AD and role-based access controls to provide fine-grained authorization.
 
-<<<<<<< HEAD
->[!NOTE] WVD requires AD DS. An AD DS domain-joined session host takes advantage of Azure AD security features, such as conditional access, multifactor authentication, and the Intelligent Security Graph.
-=======
-> [!NOTE] 
-> Windows Virtual Desktop requires AD DS. An AD DS-joined session host can take advantage of Azure AD security features, such as conditional access, multi-factor authentication, and the Intelligent Security Graph. 
->>>>>>> cd010d7f5a41ec01d7ed9b00dc2bd515a55ae716
+>[!NOTE]
+>Window Virtual Desktop requires AD DS. An AD DS domain-joined session host takes advantage of Azure AD security features, such as conditional access, multi-factor authentication, and the Intelligent Security Graph.

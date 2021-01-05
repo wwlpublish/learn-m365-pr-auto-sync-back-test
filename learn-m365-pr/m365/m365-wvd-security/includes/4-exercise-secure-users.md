@@ -1,2 +1,0 @@
-Microsoft provides end-to-end security for your WVD deployments. This video will demonstrate a highly secure WVD environment, by accessing the WVD resources using the Azure portal. The goal of a secure WVD environment is to only allow pixels to be transferred to the end user desktop.
-<!-- Video image file format . We don’t know the name of the video or where it will be hosted at this time -->

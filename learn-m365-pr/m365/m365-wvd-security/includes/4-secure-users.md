@@ -2,5 +2,4 @@ Microsoft provides comprehensive security for your Windows Virtual Desktop deplo
 
 
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4Lqiv]
-
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4Lqiv]

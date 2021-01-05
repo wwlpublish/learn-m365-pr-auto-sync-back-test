@@ -1,4 +1,3 @@
-
 As a senior administrator working for Contoso, you've been asked to test Microsoft AppLocker for future deployment in your WVD environment. In an enterprise, this process would normally be done using GPOs, Intune, or Configuration Manager. This exercise doesn't include access to those tools or an Active Directory Domain Controller. 
 
 ## Exercise - Enable AppLocker in a Windows Server 2016 VM running in Azure
@@ -18,12 +17,7 @@ In this exercise, you'll use a Windows Server 2016 VM running in Azure. Because 
 - Test the AppLocker configuration on our deployed Windows Server 2016 VM
 - Clean up the resources
 
-
- 
-
-
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4Lt59]
-
 
 >[!NOTE]
 > To complete the Exercise unit, you need to have an active Azure subscription. If you choose to perform the exercise in this module, you might incur costs in your Azure subscription. To estimate the cost, refer to 
@@ -60,6 +54,7 @@ You now need to create a resource group. An Azure resource group is a logical co
 	```
 
 1. Verify your new resource group by using the following. This command gets the Azure resource group in your subscription named myResourceGroup.
+
 	```PowerShell
 	Get-AZResourceGroup -Name myResourceGroup
 	``` 
@@ -70,7 +65,7 @@ You now need to create a resource group. An Azure resource group is a logical co
 
 	```PowerShell
 	az vm create --resource-group myResourceGroup --name myVM --image win2016datacenter --admin-username myVMadmin
-	```
+    ```
 
 1. Enter the **Admin Password** and confirm it when prompted.
 
@@ -91,7 +86,8 @@ You now need to create a resource group. An Azure resource group is a logical co
      "zones": ""
     }
     ```
-1. The public address is the address to use in your RDP connection. Note the address with your administrator password. 
+
+1. The public address is the address to use in your RDP connection. Note the address with your administrator password.
 
 ### Task 4: Connect to VM
 
@@ -130,6 +126,7 @@ The next step is to add a standard user to the **myVM** server.
 1. Close the **Computer Management** console.
 
 ### Task 6: Enable the AppIDsrv
+
 The Application Identity service determines and verifies the identity of an app. Stopping this service will prevent AppLocker policies from being enforced.
 
 1. Start **Task Manger** by right-clicking on the **Taskbar** and then selecting **Task Manager**.
@@ -143,6 +140,7 @@ The Application Identity service determines and verifies the identity of an app.
 1. Close **Task Manager**.
 
 ### Task 7: Disable Internet Explorer Enhanced Security Configuration
+
 To show the power of AppLocker, we need to disable the Enhanced Security Configuration (ESC). This protection is enabled by default in Internet Explorer on Windows Server 2016. With ESC disabled, access to the Internet is not checked.
 
 1. In **Server Manager**, select **Local Server**.
@@ -178,8 +176,8 @@ To show the power of AppLocker, we need to disable the Enhanced Security Configu
 
 1. In the **Enforcement** tab, these default rules aren't enabled. Select the **Executable rules: Configured** check box to enable executable rules.
 
->[!NOTE] 
->Ensure the setting is set to **Enforce rules**, *not* **Audit only**. 
+>[!NOTE]
+>Ensure the setting is set to **Enforce rules**, *not* **Audit only**.
 >The **Audit only** setting  will not block any apps, and you may not experience the exercise as written if this setting is selected.
 
 1. Repeat the previous step for **Windows Installer rules:**, **Script rules:**, and **Packaged app Rules:**.
@@ -218,7 +216,7 @@ To show the power of AppLocker, we need to disable the Enhanced Security Configu
 
 1. Select **Next** on the **Exceptions** panel.
 
-1. Select **Create** on the **Name and Description** panel. 
+1. Select **Create** on the **Name and Description** panel.
 
 1. You should now see a new **Deny** rule in the **Executable Rules** panel.
 

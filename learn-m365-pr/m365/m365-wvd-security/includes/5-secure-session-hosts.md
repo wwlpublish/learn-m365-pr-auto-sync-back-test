@@ -19,18 +19,14 @@ Customers can take several actions and use multiple tools to help secure their W
 |Restrict operating system capabilities|Strengthen the security of your session hosts.|
 |In the Windows Virtual Desktop host pools, limit device redirection under RDP Properties|Prevent data leakage.|
 
-## Enable endpoint protection by using Microsoft Defender for Endpoint
+### Enable endpoint protection by using Microsoft Defender for Endpoint
 
 To help secure a company's endpoints, it is recommended to configure Microsoft Defender for Endpoint, previously known as Microsoft Defender Advanced Threat Protection. Microsoft Defender for Endpoint is typically used on-premises but can also be used in a VDI environment.
 
 To deploy **Microsoft Defender for Endpoint** on your Windows Virtual Desktop VMs, enroll the VMs into Azure Security Center. Security Center provides a license as part of its standard offering. You should also use auto-provisioning. The auto-provisioning settings in Security Center have a toggle for each type of supported extension. When you enable auto-provisioning of an extension, you assign the appropriate **DeployIfNotExists** policy to make sure that the extension is provisioned on all existing and future resources of that type.
 
-<<<<<<< HEAD
->[!NOTE] Enable auto-provisioning of the Log Analytics agent. When automatic provisioning is turned on for the Log Analytics agent, Security Center deploys the agent on all supported Azure VMs and any new ones that are created.
-=======
-> [!NOTE] 
+> [!NOTE]
 > Enable auto-provisioning of the Log Analytics agent. When automatic provisioning is turned on for the Log Analytics agent, Security Center deploys the agent on all supported Azure VMs and any new ones that are created.
->>>>>>> cd010d7f5a41ec01d7ed9b00dc2bd515a55ae716
 
 ### Microsoft Endpoint Manager integration with Intune
 
@@ -46,23 +42,25 @@ Microsoft Intune can be used to create and check for compliance, and deploy apps
 
 Application control moves from an application trust model that assumes all applications are trustworthy. The new model demands that applications must earn trust before they can run. Windows 10 includes two technologies that are used for application control: Windows Defender Application Control and AppLocker.
 
-## Windows Defender Application Control
+### Windows Defender Application Control
 
 Windows 10 introduced Windows Defender Application Control, which organizations can use to control the drivers and applications that can run on their Windows 10 clients. Note initially in Windows 10, Windows Defender Application Control was known as configurable code integrity. Configurable code integrity carries no specific hardware or software requirements other than running Windows 10. It was also one of the features that contained the now-defunct Device Guard.
 
-## AppLocker
+### AppLocker
 
 AppLocker should be part of your overall application control strategy by allowing predefined applications to run on your systems.
 
 AppLocker control policies restriction rules are based on:
- - File attributes such as the digital signature 
- - Product name
- - File name
- - File version 
- 
+
+- File attributes such as the digital signature
+- Product name
+- File name
+- File version
+
  The default rules block many scripts, Windows installer packages, and executables.
 
 AppLocker includes default rules for each rule collection to ensure that the files required for Windows to operate properly are allowed in an AppLocker rule collection. The default rules also allow members of the local **Administrators** group to run all Windows Installer files. The default rules are:
+
 - Allow members of the Everyone group to run digitally signed Windows Installer files.
 - Allow members of the Everyone group to run all Windows Installer files located in the Windows\Installer folder.
 - Allow members of the local Administrators group to run all scripts.

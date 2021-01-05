@@ -25,5 +25,5 @@ FSLogix addresses key issues with non-persistent profiles. In summary, FSLogix e
 
 All Azure NetApp Files used by Windows Virtual Desktop are encrypted using the Federal Information Processing Standards Publications (FIPS PUBS) 140-2 standard. The Azure NetApp Files service manages all keys and generates a unique XTS-AES-256 data encryption key for each volume. An encryption key hierarchy is used to encrypt and protect all volume keys. These encryption keys are never available or reported in an unencrypted format. The keys are also deleted immediately when a volume is deleted.
 
-> [!NOTE] 
+> [!NOTE]
 > Support for customer-managed keys (Bring Your Own Key) using Azure Dedicated HSM is available. Check for availability in your region.
