@@ -2,7 +2,7 @@ As the lead system engineer and Azure administrator tasked with evaluating Windo
 
 ## Windows Virtual Desktop architecture
 
-Windows Virtual Desktop is a desktop and app virtualization service that runs in Azure. Windows Virtual Desktop,and:
+Windows Virtual Desktop is a desktop and app virtualization service that runs in Azure, and:
 
 - Provides virtualization infrastructure as a managed service.
 - Enables management of VMs deployed in your Azure subscription.
