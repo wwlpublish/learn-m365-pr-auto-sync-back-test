@@ -31,5 +31,3 @@ You can learn more by reviewing the following documents.
 - [Set up the PowerShell module for Windows Virtual Desktop](https://docs.microsoft.com/azure/virtual-desktop/powershell-module?azure-portal=true)
 
 - [Use Azure Firewall to protect Window Virtual Desktop deployments](https://docs.microsoft.com/azure/firewall/protect-windows-virtual-desktop?azure-portal=true)
-
-- [Use Microsoft Teams on Windows Virtual desktop](https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd?azure-portal=true)
