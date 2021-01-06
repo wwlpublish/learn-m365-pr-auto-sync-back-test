@@ -115,15 +115,14 @@ You will:
 ### Task 5: Test the MSIX app attach
 
 1. From any computer, open a browser and then open the remote desktop web client by using the following URL [https://rdweb.wvd.microsoft.com/arm/webclient/index.html](https://rdweb.wvd.microsoft.com/arm/webclient/index.html).
-2. Select **Subscribe**.
-3. Sign in with the credential of the user which has been assigned access to application group that contain MSIX app attach.
-4. Select the **SessionDesktop** icon and sign in with the credential of the user.
+2. Sign in with the credential of the user which has been assigned access to application group that contain MSIX app attach.
+3. Select the **SessionDesktop** icon and sign in with the credential of the user.
 
 > [!NOTE]
 
 > You might be prompted with a security warning to "Allow local resources". Select which local resources you want to allow the remote computer to access and then select **Allow**.
 
-5. After you remotely access the virtual machine, open the **Start** menu, and notice the shortcut of the published app.
-6. Close the Remote Desktop session.
+4. After you remotely access the virtual machine, open the **Start** menu, and notice the shortcut of the published app.
+5. Close the Remote Desktop session.
 
 :::image type="content" source="../media/05-Screenshot-of-Edge-Dev.PNG" alt-text="Screenshot of published MSIX app attach" border="true":::
