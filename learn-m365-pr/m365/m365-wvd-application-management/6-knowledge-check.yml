@@ -37,12 +37,12 @@ quiz:
        explanation: "MSIX app attach is currently supported on Windows 10, version 2004, and later."
    - content: "What is MSIX app attach?"
      choices:
-     - content: "Application virtualization technology."
+     - content: "Application virtualization technology"
        isCorrect: false
        explanation: "MSIX app attach is a Microsoft layering solution for delivering applications to a modern workspace."
-     - content: "An application compatibility solution."
+     - content: "An application compatibility solution"
        isCorrect: false
        explanation: "MSIX app attach is a Microsoft layering solution for delivering applications to a modern workspace."
-     - content: "A layering solution for delivering applications."
+     - content: "A layering solution for delivering applications"
        isCorrect: true
        explanation: "MSIX app attach is a Microsoft layering solution for delivering applications to a modern workspace."
