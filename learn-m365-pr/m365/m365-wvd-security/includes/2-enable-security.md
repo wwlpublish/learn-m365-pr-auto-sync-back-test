@@ -2,7 +2,7 @@ As the lead system engineer and Azure administrator tasked with evaluating Windo
 
 ### Windows Virtual Desktop architecture
 
-Windows Virtual Desktop is a desktop and app virtualization service that runs in Azure. Windows Virtual Desktop,and:
+Windows Virtual Desktop is a desktop and app virtualization service that runs in Azure, and:
 
 - Provides virtualization infrastructure as a managed service.
 - Enables management of VMs deployed in your Azure subscription.
@@ -13,7 +13,7 @@ The following image is a typical enterprise deployment architecture diagram that
 
 :::image type="content" source="../media/2-windows-virtual-desktop-at-scale.png" alt-text="Typical scaled-out Windows Virtual Desktop deployment that consists of on-premises AD DS, synchronization to Azure AD using Azure AD Connect. Also shown is a Network Gateway for Express Route to Azure." border="true":::
 
-Windows Virtual Desktop is deployed in a hierarchical workspace. In a traditional on-premises Virtual Desktop Infrastructure (VDI) deployment, the customer would be responsible for all aspects of security. However, with Windows Virtual Desktop, these responsibilities are shared between the customer and Microsoft. Microsoft helps secure the physical data centers, the physical network, and the physical hosts that Azure runs on. Microsoft also is responsible to secure the virtualization control plane, which includes Windows Virtual Desktop services running in Azure.
+Windows Virtual Desktop is deployed in a hierarchical workspace. In a traditional on-premises Virtual Desktop Infrastructure (VDI) deployment, the customer would be responsible for all aspects of security. However, with Windows Virtual Desktop, these responsibilities are shared between the customer and Microsoft. Microsoft helps secure the physical data centers, the physical network, and the physical hosts that Azure runs on. Microsoft is also responsible for securing the virtualization control plane, which includes Windows Virtual Desktop services running in Azure.
 
 When you use Windows Virtual Desktop, it’s important to understand that Microsoft has already helped secure some services. The customer needs to configure other areas to fit their organization’s security needs. However, if needed, Microsoft can provide best practice guidance to its customers for the services they're responsible for.
 
@@ -52,7 +52,7 @@ The following security processes and components contribute to this Azure AD Iden
 - Subscribing to the standard SKU of Azure Security Center for its integrated vulnerability assessment
 - Using strong credential management services and policies
 
-The following load-balancing methods are available in Windows Virtual Desktop. Breadth-first and depth-first load-balancing permits the customization for Windows Virtual Desktop host pools to match your deployment needs.
+The following load-balancing methods are available in Windows Virtual Desktop. Breadth-first and depth-first load balancing permits the customization for Windows Virtual Desktop host pools to match your deployment needs.
 
 - Breadth-first is the default configuration that distributes new user sessions throughout the hosts in a host pool. This configuration gives each user full control of the VM without sharing any resources.
 - Depth-first connects new user sessions to a multiple session host until the maximum connections are reached. This configuration is typically used to reduce cost.
