@@ -11,7 +11,7 @@ metadata:
 title: Deploy applications using MSIX app attach
 summary: Learn how to deliver applications using MSIX app attach technology. MSIX app attach is Microsoft's application delivery technology that enables you to separate applications and their state from the operating system and assign applications to users dynamically.
 abstract: |
-  At the end of this module, you should be able to:
+  At the end of this module, you'll be to:
   - Transform existing applications with the MSIX packaging tool.
   - Deploy MSIX app attach.
 prerequisites: |
