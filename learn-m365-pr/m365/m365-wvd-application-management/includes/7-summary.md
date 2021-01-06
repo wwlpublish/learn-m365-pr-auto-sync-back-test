@@ -1,5 +1,5 @@
 With your help, Contoso investigated how to improve the image management for their Windows Virtual Desktop environment. The IT team has spent a lot of time managing applications and Windows updates in each individual image required by different departments. By using the MSIX app attach layering technology from Microsoft, they separated the process of application delivery from the primary image.
-Contoso can now use a few standardized images and separate VHD disks that contain MSIX packages. They also improved the update process of the applications because the application modification can now be saved in a new package that can then be delivered on existing virtual machines.
+Contoso can now use a few standardized images and separate VHD disks that contain MSIX packages. They also improved the update process of the applications, because the application modification can now be saved in a new package that can then be delivered on existing virtual machines.
 
 In this module, you learned how to use the MSIX app attach layering technology to deliver MSIX packages in your Windows Virtual Desktop environment.
 
