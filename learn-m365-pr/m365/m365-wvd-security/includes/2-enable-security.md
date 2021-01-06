@@ -1,6 +1,6 @@
 As the lead system engineer and Azure administrator tasked with evaluating Windows Virtual Desktop, it is important to understand its architecture and security capabilities. You also need to have a clear understanding of Microsoft's and the customer's responsibilities.
 
-## Windows Virtual Desktop architecture
+### Windows Virtual Desktop architecture
 
 Windows Virtual Desktop is a desktop and app virtualization service that runs in Azure. Windows Virtual Desktop,and:
 
@@ -17,7 +17,7 @@ Windows Virtual Desktop is deployed in a hierarchical workspace. In a traditiona
 
 When you use Windows Virtual Desktop, it’s important to understand that Microsoft has already helped secure some services. The customer needs to configure other areas to fit their organization’s security needs. However, if needed, Microsoft can provide best practice guidance to its customers for the services they're responsible for.
 
-## Microsoft-managed services
+### Microsoft-managed services
 
 Microsoft manages the Windows Virtual Desktop services described in the following table.
 
@@ -29,7 +29,7 @@ Microsoft manages the Windows Virtual Desktop services described in the followin
 | Diagnostics                   | The Remote Desktop Diagnostics service logs events of actions on the Windows Virtual Desktop deployment as a success or failure. Diagnostics are used to troubleshoot errors. |
 | Azure infrastructure services | Microsoft manages networking, storage, and compute Azure infrastructure services. |
 
-## End-user management
+### End-user management
 
 The customer manages the following components needed for a successful Windows Virtual Desktop deployment.
 
@@ -41,7 +41,7 @@ The customer manages the following components needed for a successful Windows Vi
 | Scaling policies                   | Session host pools integrated with Azure VM Scale that manages a group of load-balanced VMs. |
 | Networking policies                | Defining and assigning Network Security Groups (NSG) to filter network traffic. |
 
-## Secure Windows Virtual Desktop credentials
+### Secure Windows Virtual Desktop credentials
 
 Windows Virtual Desktop requires integration with Azure AD, permitting the incorporation of identity and access capabilities from Azure AD. This integration with Azure AD is key in a layered *zero-trust security* strategy. The zero-trust security model removes the concept of a "walled garden". This model assumes every service, user, application, and system is open to the internet. This approach focuses on building strong authentication, authorization, and encryption, while also providing better operational agility.
 

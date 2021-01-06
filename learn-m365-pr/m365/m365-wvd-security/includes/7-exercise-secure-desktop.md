@@ -1,6 +1,4 @@
-As a senior administrator working for Contoso, you've been asked to test Microsoft AppLocker for future deployment in your WVD environment. In an enterprise, this process would normally be done using GPOs, Intune, or Configuration Manager. This exercise doesn't include access to those tools or an Active Directory Domain Controller. 
-
-## Exercise - Enable AppLocker in a Windows Server 2016 VM running in Azure
+As a senior administrator working for Contoso, you've been asked to test Microsoft AppLocker for future deployment in your WVD environment. In an enterprise, this process would normally be done using GPOs, Intune, or Configuration Manager. This exercise doesn't include access to those tools or an Active Directory Domain Controller.
 
 In this exercise, you'll use a Windows Server 2016 VM running in Azure. Because this isn't a Windows Virtual Desktop environment for the lab, Windows 10 Enterprise is not available. You will:
 
@@ -16,8 +14,6 @@ In this exercise, you'll use a Windows Server 2016 VM running in Azure. Because 
 - Enable Default AppLocker Rules
 - Test the AppLocker configuration on our deployed Windows Server 2016 VM
 - Clean up the resources
-
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4Lt59]
 
 >[!NOTE]
 > To complete the Exercise unit, you need to have an active Azure subscription. If you choose to perform the exercise in this module, you might incur costs in your Azure subscription. To estimate the cost, refer to 
@@ -241,3 +237,9 @@ When AppLocker rules are enforced in the production environment, any apps that a
 	az group delete --name myResourceGroup
 	```
 1. This process will take 2 to 3 minutes.
+
+### Video demo of using AppLocker in a Windows Virtual Desktop environment
+
+The following video shows how AppLocker can be used to secure your Windows Virtual Desktop deployment.
+
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4Lt59]

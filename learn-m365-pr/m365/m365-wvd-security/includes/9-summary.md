@@ -22,8 +22,6 @@ Windows Virtual Desktop offers significant benefits to businesses. One of the ke
 
 You can learn more by reviewing the following documents.
 
-- [Use Microsoft Teams on Windows Virtual desktop](https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd?azure-portal=true)
-
 - [What is Windows Virtual Desktop?](https://docs.microsoft.com/azure/virtual-desktop/overview?azure-portal=true)
 
 - [Windows Virtual Desktop for the enterprise](https://docs.microsoft.com/azure/architecture/example-scenario/wvd/windows-virtual-desktop?azure-portal=true)
@@ -33,3 +31,5 @@ You can learn more by reviewing the following documents.
 - [Set up the PowerShell module for Windows Virtual Desktop](https://docs.microsoft.com/azure/virtual-desktop/powershell-module?azure-portal=true)
 
 - [Use Azure Firewall to protect Window Virtual Desktop deployments](https://docs.microsoft.com/azure/firewall/protect-windows-virtual-desktop?azure-portal=true)
+
+- [Use Microsoft Teams on Windows Virtual desktop](https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd?azure-portal=true)
