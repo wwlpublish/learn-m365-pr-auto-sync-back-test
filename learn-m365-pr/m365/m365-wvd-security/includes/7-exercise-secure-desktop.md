@@ -238,7 +238,7 @@ When AppLocker rules are enforced in the production environment, any apps that a
 	```
 1. This process will take 2 to 3 minutes.
 
-### Video demo of using AppLocker in a Windows Virtual Desktop environment
+### Demo: Using AppLocker in a Windows Virtual Desktop environment
 
 The following video shows how AppLocker can be used to secure your Windows Virtual Desktop deployment.
 
