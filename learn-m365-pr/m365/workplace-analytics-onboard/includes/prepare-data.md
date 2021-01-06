@@ -1,4 +1,4 @@
-Organizational data provides context to analyses that are performed with Workplace Analytics. By uploading organizational data to Workplace Analytics, you provide descriptive information about employees. Workplace Analytics then maps that data to the collaboration data from Office 365. 
+Organizational data provides context to analyses that are performed with Workplace Analytics. By uploading organizational data to Workplace Analytics, you provide descriptive information about employees. Workplace Analytics then maps that data to the collaboration data from Microsoft 365. 
 
 Organizational data supports Workplace Analytics analyses in many ways, including the following:
 - Group and filter collaboration results by employee attributes of interest.
