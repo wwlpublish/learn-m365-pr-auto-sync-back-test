@@ -23,9 +23,9 @@ FSLogix addresses key issues with non-persistent profiles. In summary, FSLogix e
 
 ### FSLogix profile containers with Azure Files
 
-Azure Files supports Server Message Block (SMB) identity-based authentication using  on-premises Active Directory Domain Services (AD DS) with Azure Active Directory Domain Services (Azure AD DS). Azure file shares leverages Kerberos protocol for authenticating with either on-premises AD DS or Azure AD DS. Enabling identity-based access for your Azure file shares allows you to replace existing on-premises file servers with Azure file shares while maintaining  your existing directory service.
+Azure Files supports Server Message Block (SMB) identity-based authentication using  on-premises Active Directory Domain Services (AD DS) with Azure Active Directory Domain Services (Azure AD DS). Azure file applies Kerberos protocol for authenticating with either on-premises AD DS or Azure AD DS. Enabling identity-based access for your Azure file shares allows you to replace existing on-premises file servers with Azure file shares while maintaining  your existing directory service.
 
-The file shares will be hosted in a Azure virtual machine residing on the virtual network of your Windows Virtual Desktop host pool. The virtual machine that is the file share needs to be joined to the Domain of the AD on the virtual network. Once domain joined the virtual machine can act as a FSLogix profile container share for a host pool. We strongly recommend using Azure Files instead of file shares.
+The file shares will be hosted in an Azure virtual machine residing on the virtual network of your Windows Virtual Desktop host pool. The virtual machine that is the file share is joined to the Domain of the AD on the virtual network. Once domain joined, the virtual machine can act as a FSLogix profile container share for a host pool. We strongly recommend using Azure Files instead of file shares.
 
 ### Secure your Windows Virtual Desktop data with Azure Disk Encryption
 
