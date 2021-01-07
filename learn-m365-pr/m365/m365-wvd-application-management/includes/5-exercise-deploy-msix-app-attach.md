@@ -27,7 +27,6 @@ You will:
 6. On the **Add MSIX package** window in the **MSIX image path** field, add the UNC path of your MSIX image.
 
 >[!NOTE]
-
 >If you're storing MSIX image in Azure Files, refer to the fourth unit in this module, **Manage MSIX app attach**, to retrieve the UNC path from the URL location of the MSIX image.
 
 7. After you add the UNC path of your MSIX image, provide the following information:
@@ -119,7 +118,6 @@ You will:
 3. Select the **SessionDesktop** icon and sign in with the credentials of the user.
 
 > [!NOTE]
-
 > You might be prompted with a security warning to "Allow local resources." Select which local resources you want to allow the remote computer to access and then select **Allow**.
 
 4. After you remotely access the virtual machine, open the **Start** menu, and notice the shortcut of the published app.
