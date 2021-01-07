@@ -14,14 +14,14 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Which of these roles is not used during Windows Analytics setup and onboarding?"
+    - content: "Which of these roles is not used during Workplace Analytics setup and onboarding?"
       choices:
       - content: "HR database administrator"
         isCorrect: true
         explanation: "Correct. You need the Workplace Analytics administrator to upload organizational data, which is generally pulled from your HR database, but that doesn't require your HR admin's participation."
-      - content: "Office 365 administrator"
+      - content: "Microsoft 365 administrator"
         isCorrect: false
-        explanation: "Sorry, that’s incorrect. The Office 365 admin assigns Workplace Analytics licenses."
+        explanation: "Sorry, that’s incorrect. The Microsoft 365 admin assigns Workplace Analytics licenses."
       - content: "Workplace Analytics administrator"
         isCorrect: false
         explanation: "Sorry, that’s incorrect. The Workplace Analytics administrator configures settings and assigns user roles."
@@ -38,9 +38,9 @@ quiz:
         explanation: "Sorry, that's incorrect. Workplace Analytics only captures digital collaboration signals from Outlook and Teams."
     - content: "Which role has full access to all Workplace Analytics features (including the ability to directly query the data set) but can't change Workplace Analytics settings (like system defaults and privacy settings)?"
       choices:
-      - content: "Office 365 administrator"
+      - content: "Microsoft 365 administrator"
         isCorrect: false
-        explanation: "Sorry, that's incorrect. Your Office 365 admin assigns Workplace Analytics licenses but isn't assigned a Workplace Analytics role."
+        explanation: "Sorry, that's incorrect. Your Microsoft 365 admin assigns Workplace Analytics licenses but isn't assigned a Workplace Analytics role."
       - content: "Workplace Analytics administrator"
         isCorrect: false
         explanation: "Sorry, that's incorrect. Your Workplace Analytics admin can configure and modify Workplace Analytics settings but doesn't have access to other product features."

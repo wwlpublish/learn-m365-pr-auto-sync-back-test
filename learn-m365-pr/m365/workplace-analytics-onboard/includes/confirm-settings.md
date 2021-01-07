@@ -11,10 +11,10 @@ The following system default settings apply to the employees you've included in 
 - Workplace Analytics uses the **Hourly Rate** to calculate the cost of employee time (for example, the cost of time spent in "low-quality" meetings). You can customize this value at aggregate levels in the organizational data file, or the Workplace Analytics administrator can set a single number as a default.
 - Workplace Analytics provides insights on how employees collaborate with other employees (not included in the analysis population) in the company or with external individuals, using domain information. 
 
-   You can use **Reclassify external domains** settings to treat external domains as internal collaborators. For example: If there are contractors or consultants that your company works closely with and you want to treat those interactions as internal collaboration instead of as external collaboration, reclassify the consulting company's domain as internal by using this setting. Note: The ability to reclassify settings becomes available only after the first Office 365 data extraction.
+   You can use **Reclassify external domains** settings to treat external domains as internal collaborators. For example: If there are contractors or consultants that your company works closely with and you want to treat those interactions as internal collaboration instead of as external collaboration, reclassify the consulting company's domain as internal by using this setting. Note: The ability to reclassify settings becomes available only after the first Microsoft 365 data extraction.
 
 >[!IMPORTANT]
->You change these system defaults any time. Changes are applied after the next data refresh of your organizational data or Office 365 collaboration data. These changes apply to data retroactively and can affect previous calculations that use historical metrics.
+>You change these system defaults any time. Changes are applied after the next data refresh of your organizational data or Microsoft 365 collaboration data. These changes apply to data retroactively and can affect previous calculations that use historical metrics.
 
 
 ## Privacy settings
