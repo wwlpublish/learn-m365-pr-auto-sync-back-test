@@ -7,7 +7,7 @@ Windows Virtual Desktop is a desktop and app virtualization service that runs in
 - Provides virtualization infrastructure as a managed service.
 - Enables management of VMs deployed in your Azure subscription.
 - Uses Azure AD to manage the identity services.
-- Includes support for existing tools such as Microsoft Intune or System Center Configuration Manager.
+- Includes support for existing tools such as Microsoft Endpoint Manager.
 
 The following image is a typical enterprise deployment architecture diagram that shows the various components.
 
@@ -49,7 +49,7 @@ The following security processes and components contribute to this Azure AD Iden
 
 - Using static and dynamic conditional access policies
 - Using multi-factor authentication enhanced authentication
-- Subscribing to the standard SKU of Azure Security Center for its integrated vulnerability assessment
+- Subscribing to the Azure Security Center or Azure Defender for its integrated vulnerability assessment
 - Using strong credential management services and policies
 
 The following load-balancing methods are available in Windows Virtual Desktop. Breadth-first and depth-first load balancing permits the customization for Windows Virtual Desktop host pools to match your deployment needs.
