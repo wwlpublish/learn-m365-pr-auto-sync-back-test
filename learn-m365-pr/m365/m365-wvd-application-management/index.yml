@@ -20,9 +20,7 @@ prerequisites: |
   - Windows virtualization technologies, such as Remote Desktop Services.
   - Common Windows Server management tools.
   - Core Microsoft compute, storage, networking, and virtualization technologies.
-  You should have beginner-level experience with:
-  - Application deployment 
-  - Windows Virtual Desktop
+  - You should have beginner-level experience with Application deployment, and Windows Virtual Desktop.
 iconUrl: /learn/achievements/generic-badge.svg
 ratingEnabled: true
 levels:
