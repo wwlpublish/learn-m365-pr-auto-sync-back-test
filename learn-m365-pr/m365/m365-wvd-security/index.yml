@@ -20,7 +20,7 @@ prerequisites: |
   - Familiarity with Windows Virtual Desktop.
   - Knowledge of security concepts at a fundamental level.
   - An Azure subscription to enable a Windows Virtual Desktop deployment using setup scripts. 
-  - The Remote Desktop app for Windows. If you are using an OS other than Windows, you will need to download the appropriate Remote Desktop client using the links here <https://aka.ms/wvd/clients>
+  - The Remote Desktop app for Windows. If you are using an OS other than Windows, you will need to download the appropriate Remote Desktop client by using the links found at <https://aka.ms/wvd/clients>
 iconUrl: /learn/achievements/generic-badge.svg
 ratingEnabled: true
 levels:
