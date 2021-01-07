@@ -2,7 +2,7 @@ You’ve learned about MSIX packages. Now let's consider how you can deploy thos
 
 ## Purpose and benefits of MSIX app attach
 
-MSIX app attach is a Microsoft application delivering approach design for a modern workspace. With MSIX app attach, you can use on application format, namely MSIX, to deliver applications to both physical and virtual machines. Although MSIX app attach can be used on-premises or in Azure, this technology is specially adopted for Windows Virtual Desktop.
+MSIX app attach is a Microsoft application delivering approach design for a modern workspace. With MSIX app attach, you can use one application format, namely MSIX, to deliver applications to both physical and virtual machines. Although MSIX app attach can be used on-premises or in Azure, this technology is specially adopted for Windows Virtual Desktop.
 
 The following are MSIX app attach benefits:
 
@@ -16,7 +16,7 @@ Contoso is a good candidate for using MSIX app attach for their application deli
 
 ## How MSIX app attach works
 
-MSIX app attach stores application files in a separate virtual hard disk from the operating system. It registers the regular MSIX package on a device instead of on a physical download and install. The registration uses existing Windows Applications Programing Interfaces (API) and has minimal impact on user sign in times, which enhances the user experience.
+MSIX app attach stores application files in a separate virtual hard disk from the operating system. It registers the regular MSIX package on a device instead of on a physical download and install. The registration uses existing Windows Applications Programing Interfaces (API) and has minimal impact on user sign-in times, which enhances the user experience.
 
 When MSIX app attach is launched, the application files are accessed from a VHD, and the user isn’t even aware that the application isn’t locally installed.
 
