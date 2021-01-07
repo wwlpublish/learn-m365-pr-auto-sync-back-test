@@ -4,7 +4,7 @@ You’re helping Contoso determine if they should deploy their applications usin
 
 MSIX is a Windows app package format that provides a modern packaging experience to all Windows apps.
 
-You can prepare your application in MSIX package format, which uses container technology to improve application install and uninstall fidelity. All MSIX apps write to their own registry and application data folder, and through the operating system, can read the global registry.
+You can prepare your application in MSIX package format, which uses container technology to improve application install and uninstall fidelity. All MSIX apps write to their own registry and application data folder, and and can read the global registry through the operating system.
 
 The benefits of MSIX include:
 
@@ -14,7 +14,6 @@ The benefits of MSIX include:
 - Tampering. After an MSIX package has been expanded into an MSIX image, the latter is read-only and locked down for modification by the operating system.
 
 > [!TIP]
-
 > With MSIX, you can package and distribute Win32 applications using Microsoft Store.
 
 ## What’s inside an MSIX package?
@@ -29,7 +28,6 @@ Applications packaged in MSIX format are installed in the **c:\Program Files\Win
 | AppxSignature.p7x|Contains the signature of the package that must be trusted by the operating system before the app is installed.|
 
 >[!TIP]
-
 >To extract the contents of the MSIX package, change the **.msix** file extension to **.zip**, then extract the files using File Explorer.
 
 ## MSIX Containers
@@ -66,7 +64,6 @@ You can use either an interactive UI or a command line to convert an existing pa
 - Understand the dependencies of the applications to properly prepare the MSIX package.
 
 >[!NOTE]
-
 > Starting with Windows 10 Fall Creators Update (Windows 10 version 1709), Microsoft provides a [**Hyper-V Quick Create**](https://docs.microsoft.com/windows/msix/packaging-tool/quick-create-vm) virtual environment on Hyper-V that you can use for MSIX packaging projects.
 
 When you run the MSIX Packaging tool on the clean computer, you’ll be prompted to choose one of the following three options:
@@ -78,7 +75,6 @@ When you run the MSIX Packaging tool on the clean computer, you’ll be prompted
 :::image type="content" source="../media/02-Screenshot-MSIX-packaging-tool.PNG" alt-text="Screenshot of MSIX packaging tool." border="true":::
 
 > [!NOTE]
-
 > MSIX app attach does not support modification package.
 
 In the MSIX packaging tool (MPT), use the following steps to repackage an application to MSIX.
@@ -109,11 +105,9 @@ You can automate the process of repacking the applications with the command-line
 ```
 
 >[!NOTE]
-
 > You can find sample PowerShell and Bash scripts that demonstrate how to automate the process of packaging, signing, managing, and distributing MSIX packages in the [scripts](https://github.com/microsoft/MSIX-Toolkit/tree/master/Scripts) folder of the MSIX Toolkit.
 
 >[!NOTE]
-
 > The following versions of Windows support MSIX:
 
 > - Windows 10, version 1709 and later
