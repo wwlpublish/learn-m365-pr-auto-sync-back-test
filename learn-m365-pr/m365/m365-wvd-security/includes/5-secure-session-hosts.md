@@ -30,7 +30,7 @@ To deploy **Microsoft Defender for Endpoint** on your Windows Virtual Desktop VM
 
 ### Microsoft Endpoint Manager integration with Intune
 
-The Microsoft 365 stack includes Microsoft Endpoint Manager. Configuration Manager, Microsoft Intune, Desktop Analytics, co-management, and Windows Autopilot are all services included in Endpoint Manager.
+Microsoft 365 includes support for Microsoft Endpoint Manager admin center, and Microsoft Endpoint Configuration Manager.
 
 Microsoft Intune can be used to create and check for compliance, and deploy apps, features, and settings to your devices using Azure. Intune is also integrated with Azure AD for authentication and authorization. It also integrates with Azure Information Protection for data protection. You can use Intune with the Microsoft 365 suite of products. The following table describes some of the main functionalities of Intune.
 
@@ -48,7 +48,7 @@ Windows 10 introduced Windows Defender Application Control, which organizations 
 
 ### AppLocker
 
-AppLocker should be part of your overall application control strategy by allowing predefined applications to run on your systems.
+AppLocker is recommended to be part of your overall application control strategy by allowing predefined applications to run on your systems.
 
 AppLocker control policies restriction rules are based on:
 
