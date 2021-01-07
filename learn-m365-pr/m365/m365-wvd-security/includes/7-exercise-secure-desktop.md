@@ -19,13 +19,6 @@ In this exercise, you'll use a Windows Server 2016 VM running in Azure. Because 
 > To complete the Exercise unit, you need to have an active Azure subscription. If you choose to perform the exercise in this module, you might incur costs in your Azure subscription. To estimate the cost, refer to 
 [Windows Virtual Machines Pricing](https://azure.microsoft.com/pricing/details/virtual-machines/windows/?azure-portal=true). The steps outlined in this lab are for a Windows Server 2016 environment.
 
-#### Pre-requisites
-
-To do this exercise, you require:
-
-- An Azure subscription
-
-- The Remote Desktop app for Windows. If you are using an OS other than Windows, you will need to use your favorite Remote Desktop software
 
 You can define and deploy VMs on Azure in several ways. This exercise uses the Azure Command Line Interface in Azure Cloud Shell. The steps outlined here are for Windows server environments.
 
