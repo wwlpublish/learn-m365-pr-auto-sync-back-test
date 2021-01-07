@@ -28,16 +28,16 @@ To deploy **Microsoft Defender for Endpoint** on your Windows Virtual Desktop VM
 > [!NOTE]
 > Enable auto-provisioning of the Log Analytics agent. When automatic provisioning is turned on for the Log Analytics agent, Security Center deploys the agent on all supported Azure VMs and any new ones that are created.
 
-### Microsoft Endpoint Manager integration with Intune
+### Microsoft Endpoint Manager integration with Microsoft Intune
 
 Microsoft 365 includes support for Microsoft Endpoint Manager admin center, and Microsoft Endpoint Configuration Manager.
 
-Microsoft Intune can be used to create and check for compliance, and deploy apps, features, and settings to your devices using Azure. Intune is also integrated with Azure AD for authentication and authorization. It also integrates with Azure Information Protection for data protection. You can use Intune with the Microsoft 365 suite of products. The following table describes some of the main functionalities of Intune.
+Microsoft Intune can be used to create and check for compliance, and deploy apps, features, and settings to your devices using Azure. Microsoft Intune is also integrated with Azure AD for authentication and authorization. It also integrates with Azure Information Protection for data protection. You can use Microsoft Intune with the Microsoft 365 suite of products. The following table describes some of the main functionalities of Microsoft Intune.
 
 |**Functionality**| **Description**|
 | --------------------------------- | ------------------------------------------------------------ |
-|Device management|BYOD or organization-owned enrolled devices in Intune receive rules and settings through policies that you configure to match your organization's security policies. |
-|App management|Mobile application management (MAM) in Intune can bring app management on organization-owned devices and personal devices.|
+|Device management|BYOD or organization-owned enrolled devices in Microsoft Intune receive rules and settings through policies that you configure to match your organization's security policies. |
+|App management|Mobile application management (MAM) in Microsoft Intune can bring app management on organization-owned devices and personal devices.|
 |Compliance and conditional access|Intune integrates with Azure AD to enable a broad set of access control scenarios.|
 
 Application control moves from an application trust model that assumes all applications are trustworthy. The new model demands that applications must earn trust before they can run. Windows 10 includes two technologies that are used for application control: Windows Defender Application Control and AppLocker.
