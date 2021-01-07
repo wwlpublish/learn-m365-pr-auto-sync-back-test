@@ -77,7 +77,6 @@ To use an MSIX app attach in your Windows Virtual Desktop environment:
 You can use an SMB network share in your Windows Virtual Desktop environment to host the MSIX image. The network share can be on an IaaS file share, an Azure Files share, or Azure NetApp Files.
 
 > [!Note]
-
 > Your host pool must be granted Read permission on the file share that hosts the MSIX image.
 
 ### Upload the MSIX image to the file share
