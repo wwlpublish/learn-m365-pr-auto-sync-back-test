@@ -114,7 +114,7 @@ The next step is to add a standard user to the **myVM** server.
 
 1. Close the **Computer Management** console.
 
-### Task 6: Enable the AppIDsrv
+### Task 6: Enable the AppIDsrv service
 
 The Application Identity service determines and verifies the identity of an app. Stopping this service will prevent AppLocker policies from being enforced.
 
