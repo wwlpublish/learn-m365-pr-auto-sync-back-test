@@ -109,7 +109,5 @@ You can automate the process of repacking the applications with the command-line
 
 >[!NOTE]
 > The following versions of Windows support MSIX:
-
 > - Windows 10, version 1709 and later
-
 > - Windows Server 2019 LTSC and later
