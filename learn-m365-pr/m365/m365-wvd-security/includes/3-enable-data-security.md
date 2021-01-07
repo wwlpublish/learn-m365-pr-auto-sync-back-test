@@ -1,6 +1,5 @@
 A user profile is a collection of configurations that the user or administrator made, which represent the state of a system. Different system components bind to a user's profile, for example, applications, registry entries and other customized entries. Windows 10 offers several types of user profiles. The following table describes the four traditional types of Windows profiles.
 
-
 | **Types of profiles** | **Description**                             |
 | --------------------- | ---------------------------------- |
 | Local user profile|A local user profile is  stored on the disk of the device. If a different device is used, the  customization isn't synchronized between devices.|
@@ -21,6 +20,12 @@ FSLogix addresses key issues with non-persistent profiles. In summary, FSLogix e
 - Support for Microsoft OneDrive for Business, including Files on Demand. Previously, this support wasn't included in non-persistent virtualized environments.
 
 - SMB folders. FSLogix provides for extending user profiles to provision enterprise-grade SMB volumes by using the Azure NetApp Files service. Azure NetApp Files supports SMB 2.1 and SMB 3.1.
+
+### FSLogix profile containers with Azure Files
+
+Azure Files supports Server Message Block (SMB) identity-based authentication using  on-premises Active Directory Domain Services (AD DS) with Azure Active Directory Domain Services (Azure AD DS). Azure file shares leverages Kerberos protocol for authenticating with either on-premises AD DS or Azure AD DS. Enabling identity-based access for your Azure file shares allows you to replace existing on-premises file servers with Azure file shares while maintaining  your existing directory service.
+
+The file shares will be hosted in a Azure virtual machine residing on the virtual network of your Windows Virtual Desktop host pool. The virtual machine that is the file share needs to be joined to the Domain of the AD on the virtual network. Once domain joined the virtual machine can act as a FSLogix profile container share for a host pool. We strongly recommend using Azure Files instead of file shares.
 
 ### Secure your Windows Virtual Desktop data with Azure Disk Encryption
 
