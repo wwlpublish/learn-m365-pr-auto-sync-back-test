@@ -50,9 +50,9 @@ You’ll then need to expand the MSIX package in the newly created VHD. To unpac
 1. Open a command prompt as Administrator and navigate to the folder where you downloaded and unzipped the msixmgr tool.
 2. Run the following cmdlet to unpack the MSIX into the VHD you created and mounted in the previous section:
 
-```
-msixmgr.exe -Unpack -packagePath <package>.msix -destination "f:\<name of folder you created earlier>" -applyacls
-```
+    ```
+    msixmgr.exe -Unpack -packagePath <package>.msix -destination "f:\<name of folder you created earlier>" -applyacls
+    ```
 
 3. Navigate to the mounted VHD, open the app folder, and confirm the package content is present.
 4. Unmount the VHD.
