@@ -13,9 +13,9 @@ Follow the steps below to create and initialize the VHD or VHDS disk by using Po
 
 1. Run the following cmdlet in PowerShell to create a VHD:
 
-  ```
- New-VHD -SizeBytes <size>MB -Path c:\temp\<name>.vhd -Dynamic -Confirm:$false
-  ```
+    ```
+    New-VHD -SizeBytes <size>MB -Path c:\temp\<name>.vhd -Dynamic -Confirm:$false
+    ```
 
 2. To mount the newly created VHD, run:
 
