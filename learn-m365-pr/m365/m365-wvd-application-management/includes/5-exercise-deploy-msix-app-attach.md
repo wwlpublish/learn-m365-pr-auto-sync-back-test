@@ -41,7 +41,7 @@ You will:
     |**Registration type**|**On-demand**|
     |**State**|**Active**|
 
-:::image type="content" source="../media/04-Screenshot-of-Add-MSIX-package-in-WVD.PNG" alt-text="Screenshot of MSIX package in WVD." border="true":::
+:::image type="content" source="../media/04-Screenshot-of-Add-MSIX-package.PNG" alt-text="Screenshot of MSIX package." border="true":::
 
 8. Select **Add** to add the MSIX image into the host pool.
 
