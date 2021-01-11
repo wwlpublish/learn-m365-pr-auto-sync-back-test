@@ -1,6 +1,6 @@
 As a senior administrator working for Contoso, you've been asked to adopt the application delivery method and to use the MSIX app attach in your Windows Virtual Desktop environment.
 
-## Exercise: Use MSIX app attach in Windows Virtual Desktop
+## Use MSIX app attach in Windows Virtual Desktop
 
 You decide to implement MSIX app attach delivery of the new applications in your Windows Virtual Desktop.
 
