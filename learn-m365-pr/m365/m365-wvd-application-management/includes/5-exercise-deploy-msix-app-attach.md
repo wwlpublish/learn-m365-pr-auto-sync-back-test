@@ -31,15 +31,15 @@ You will:
 
 7. After you add the UNC path of your MSIX image, provide the following information:
 
-|||
-|---|---|
-|**MSIX image path**|UNC path of the MSIX image|
-|**MSIX package**|MSIX package, loaded from the MSIX image|
-|**Package applications**|MSIX applications loaded from MSIX package|
-|**Display name**|Enter a descriptive name |
-|**Version**|Retrieved from the MSIX package|
-|**Registration type**|**On-demand**|
-|**State**|**Active**|
+    |||
+    |---|---|
+    |**MSIX image path**|UNC path of the MSIX image|
+    |**MSIX package**|MSIX package, loaded from the MSIX image|
+    |**Package applications**|MSIX applications loaded from MSIX package|
+    |**Display name**|Enter a descriptive name |
+    |**Version**|Retrieved from the MSIX package|
+    |**Registration type**|**On-demand**|
+    |**State**|**Active**|
 
 :::image type="content" source="../media/04-Screenshot-of-Add-MSIX-package-in-WVD.PNG" alt-text="Screenshot of MSIX package in WVD." border="true":::
 
@@ -53,13 +53,13 @@ You will:
 4. On the **_your application group_ | Applications** page from the toolbar, select **+ Add**.
 5. On the **Add application** windows, provide the following information:
 
-|||
-| --- | --- |
-|**Application source**|MSIX package|
-|**MSIX package**|Select one of the MSIX packages|
-|**Application name**|Enter a descriptive name|
-|**Display name**|Enter a descriptive name|
-|**Description**|Provide a descriptive name for the MSIX package|
+    |||
+    | --- | --- |
+    |**Application source**|MSIX package|
+    |**MSIX package**|Select one of the MSIX packages|
+    |**Application name**|Enter a descriptive name|
+    |**Display name**|Enter a descriptive name|
+    |**Description**|Provide a descriptive name for the MSIX package|
 
 :::image type="content" source="../media/05-Screenshot-of-add-app-application-group.PNG" alt-text="Screenshot of adding an MSIX package in Application Group." border="true":::
 
@@ -79,28 +79,28 @@ You will:
 2. On the **Windows Virtual Desktop | Application groups** page, from the toolbar, select **+ Add**.
 3. On the **Create an application group**, in **Basics**, provide the following information:
 
-|||
-| --- | --- |
-|**Subscription**|Select your Azure subscription.|
-|**Resource Group**|Select your existing resource group that contains your host pool.|
-|**Location**|Region will be automatically selected from the location of the host pool.|
-|**Application group type**|RemoteApp|
-|**Application group name**|Provide a descriptive name such as **ContosoApps**.|
+    |||
+    | --- | --- |
+    |**Subscription**|Select your Azure subscription.|
+    |**Resource Group**|Select your existing resource group that contains your host pool.|
+    |**Location**|Region will be automatically selected from the location of the host pool.|
+    |**Application group type**|RemoteApp|
+    |**Application group name**|Provide a descriptive name such as **ContosoApps**.|
 
 4. Select **Next: Applications >**.
 5. On the **Applications** tab, select **+ Add applications**, and in the **Add application** grid, provide the following information:
 
-|||
-|---|---|
-|**Application source**|MSIX package|
-|**MSIX package**|Select one of the packages that you add into your host pool.|
-|**MSIX application**|Select one of the MSIX applications|
-|**Application name**|Provide a descriptive name.|
-|**Display name**|Provide a descriptive name.|
-|**Description**|Provide a description of the application.|
-|**Icon path**|You can add a path to your custom icon.|
-|**Icon index**|Add an index of the icon.|
-|**Show in web feed**|Yes|
+    |||
+    |---|---|
+    |**Application source**|MSIX package|
+    |**MSIX package**|Select one of the packages that you add into your host pool.|
+    |**MSIX application**|Select one of the MSIX applications|
+    |**Application name**|Provide a descriptive name.|
+    |**Display name**|Provide a descriptive name.|
+    |**Description**|Provide a description of the application.|
+    |**Icon path**|You can add a path to your custom icon.|
+    |**Icon index**|Add an index of the icon.|
+    |**Show in web feed**|Yes|
 
 6. Select **Save** to add application, and then select **Next: Assignments >**.
 7. On the **Assignment** tab, select **+ Add Azure AD users or user groups**, then select one or multiple users or groups from Azure AD, and then choose **Select**.
@@ -117,8 +117,8 @@ You will:
 2. Sign in with the credentials of the user which has been assigned access to application group that contains MSIX app attach.
 3. Select the **SessionDesktop** icon and sign in with the credentials of the user.
 
-> [!NOTE]
-> You might be prompted with a security warning to "Allow local resources." Select which local resources you want to allow the remote computer to access and then select **Allow**.
+    > [!NOTE]
+    > You might be prompted with a security warning to "Allow local resources." Select which local resources you want to allow the remote computer to access and then select **Allow**.
 
 4. After you remotely access the virtual machine, open the **Start** menu, and notice the shortcut of the published app.
 5. Close the Remote Desktop session.
