@@ -30,7 +30,7 @@ You can define and deploy VMs on Azure in several ways. This exercise uses the A
 
 1. You may also receive a prompt stating you have no storage mounted, prompting you to select a subscription and to create storage. Select your subscription and choose to **Create storage** if prompted.
 
-1. In the Azure Cloud Shell terminal window, ensure Powershell is chosen as the selected environment. Select **PowerShell**.
+1. In the Azure Cloud Shell terminal window, ensure PowerShell is chosen as the selected environment. Select **PowerShell**.
 
 ### Task 2: Create a resource group
 
