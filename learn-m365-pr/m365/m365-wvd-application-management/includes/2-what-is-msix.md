@@ -30,7 +30,7 @@ Applications packaged in MSIX format are installed in the **c:\Program Files\Win
 >[!TIP]
 >To extract the contents of the MSIX package, change the **.msix** file extension to **.zip**, then extract the files using File Explorer.
 
-## MSIX Containers
+## MSIX containers
 
 Apps prepared in MSIX format run in a lightweight container. An MSIX app writes to its own virtual registry and application data folder, and all MSIX app processes run inside that container.
 
@@ -83,9 +83,9 @@ In the MSIX packaging tool (MPT), use the following steps to repackage an applic
 
 2. Choose the installer you want to package. This step varies based on the installers that you choose to convert. The last part of this step is to sign the package using one of the following options:
 
- - Sign with Device Guard signing
- - Sign with a certificate (.pfx)
- - Specify a .cer file. This does not sign the package but matches the subject of the certificate that will be used for signing.
+- Sign with Device Guard signing
+- Sign with a certificate (.pfx)
+- Specify a .cer file. This does not sign the package but matches the subject of the certificate that will be used for signing.
 
 4. Detail the package information. The MSIX package tool will attempt to autofill information about the app based on the installer that is used. You can customize the input with your own values as needed.
 
