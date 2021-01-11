@@ -119,7 +119,7 @@ From the toolbar, select **+ ADD** and in the MSIX image path, provide the UNC p
 
 A remote desktop agent on a randomly selected VM from the host pool will access the MSIX image from the UNC path and will load it in the host pool.
 
-:::image type="content" source="../media/04-Screenshot-of-Add-MSIX-package-in-WVD.PNG" alt-text="Screenshot of MSIX package in WVD." border="true":::
+:::image type="content" source="../media/04-Screenshot-of-Add-MSIX-package.PNG" alt-text="Screenshot of adding and MSIX package." border="true":::
 
 ### Publish applications
 
@@ -129,7 +129,7 @@ If you're publishing MSIX app attach to remote desktops, select the existing **D
 To publish MSIX applications to a remote application group (RAG), follow a similar procedure to select **Application Group**.
 From the toolbar, select **+ Add**, provide the name of the remote application group, and then in the Applications tab, add the existing MSIX application by selecting the application source to be the MSIX package.
 
-:::image type="content" source="../media/04-Screenshot-of-Application-groups-in-WVD.PNG" alt-text="Screenshot of Application groups in WVD." border="true":::
+:::image type="content" source="../media/04-Screenshot-of-Application-groups.PNG" alt-text="Screenshot of Application groups." border="true":::
 
 ### Assign users or groups
 
