@@ -1,6 +1,6 @@
 As the lead system engineer and Azure administrator tasked with evaluating Windows Virtual Desktop, it is important to understand its architecture and security capabilities. You also need to have a clear understanding of Microsoft's and the customer's responsibilities.
 
-### Windows Virtual Desktop architecture
+## Windows Virtual Desktop architecture
 
 Windows Virtual Desktop is a desktop and app virtualization service that runs in Azure, and:
 

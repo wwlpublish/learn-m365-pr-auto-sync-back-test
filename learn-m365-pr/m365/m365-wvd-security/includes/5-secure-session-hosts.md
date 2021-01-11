@@ -19,7 +19,7 @@ Customers can take several actions and use multiple tools to help secure their W
 |Restrict operating system capabilities|Strengthen the security of your session hosts.|
 |In the Windows Virtual Desktop host pools, limit device redirection under RDP Properties|Prevent data leakage.|
 
-### Enable endpoint protection by using Microsoft Defender for Endpoint
+## Enable endpoint protection by using Microsoft Defender for Endpoint
 
 To help secure a company's endpoints, it is recommended to configure Microsoft Defender for Endpoint, previously known as Microsoft Defender Advanced Threat Protection. Microsoft Defender for Endpoint is typically used on-premises but can also be used in a VDI environment.
 

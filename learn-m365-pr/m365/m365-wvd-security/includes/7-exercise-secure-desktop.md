@@ -16,9 +16,8 @@ In this exercise, you'll use a Windows Server 2016 VM running in Azure. Because 
 - Clean up the resources
 
 >[!NOTE]
-> To complete the Exercise unit, you need to have an active Azure subscription. If you choose to perform the exercise in this module, you might incur costs in your Azure subscription. To estimate the cost, refer to 
+> To complete the Exercise unit, you need to have an active Azure subscription. If you choose to perform the exercise in this module, you might incur costs in your Azure subscription. To estimate the cost, refer to
 [Windows Virtual Machines Pricing](https://azure.microsoft.com/pricing/details/virtual-machines/windows/?azure-portal=true). The steps outlined in this lab are for a Windows Server 2016 environment.
-
 
 You can define and deploy VMs on Azure in several ways. This exercise uses the Azure Command Line Interface in Azure Cloud Shell. The steps outlined here are for Windows server environments.
 
@@ -165,8 +164,8 @@ To show the power of AppLocker, we need to disable the Enhanced Security Configu
 
 1. In the **Enforcement** tab, these default rules aren't enabled. Select the **Executable rules: Configured** check box to enable executable rules.
 
->[!NOTE]
->Ensure the setting is set to **Enforce rules**, *not* **Audit only**.
+    >[!NOTE]
+    >Ensure the setting is set to **Enforce rules**, *not* **Audit only**.
 >The **Audit only** setting  will not block any apps, and you may not experience the exercise as written if this setting is selected.
 
 6. Repeat the previous step for **Windows Installer rules:**, **Script rules:**, and **Packaged app Rules:**.
@@ -229,7 +228,7 @@ When AppLocker rules are enforced in the production environment, any apps that a
 	```PowerShell
 	az group delete --name myResourceGroup
 	```
-1. This process will take 2 to 3 minutes.
+    This process will take 2 to 3 minutes.
 
 ### Demo: Using AppLocker in a Windows Virtual Desktop environment
 

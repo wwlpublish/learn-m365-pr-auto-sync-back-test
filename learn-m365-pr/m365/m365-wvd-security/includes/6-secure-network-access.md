@@ -16,7 +16,7 @@ No inbound ports are opened. In this version, the Gateway is acting as an intell
 
 :::image type="content" source="../media/6-windows-virtual-desktop-sign-on-flow.png" alt-text="The Windows Virtual Desktop architecture with access requests and the resulting data flow. The arrows show the five steps described in the preceding text." border="true":::
 
-### Limit Windows Virtual Desktop traffic with NSG service tags
+## Limit Windows Virtual Desktop traffic with NSG service tags
 
 Service tags simplify security for Azure VMs. Since Azure virtual networks are used in a Windows Virtual Desktop deployment, the Service tags make it easy to restrict network access to just the Azure services. Service tags can be used in your network security group (NSG) rules to allow or deny traffic to a specific Azure service globally or per Azure region.
 

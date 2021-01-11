@@ -7,7 +7,7 @@ A user profile is a collection of configurations that the user or administrator 
 |Mandatory profile| A mandatory profile is a roaming user profile that has been preconfigured by an administrator to specify settings for users. With mandatory user profiles, a user can modify their desktop, but the changes aren't saved when the user signs out. The next time the user signs in, the mandatory user profile created by the administrator is downloaded. Mandatory profiles are typically used in a kiosk environment.|
 |Temporary profile|A fail-safe profile that is created when a user’s roaming profile has issues loading. It's discarded at sign-out.|
 
-### FSLogix profile containers
+## FSLogix profile containers
 
 In a Windows Virtual Desktop environment, Microsoft recommends FSLogix Profile Containers for storing the whole user profile. Profile containers aren't a traditional profile management solution but are a full remote profile solution for non-persistent environments. Profile containers redirect the entire user profile to a remote location. Profile container configuration defines how and where the profile is redirected. When used with Windows Virtual Desktop, the profile container can be stored in an Azure storage account.
 

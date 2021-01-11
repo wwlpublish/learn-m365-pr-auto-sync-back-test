@@ -1,6 +1,6 @@
 Learn about the Microsoft security capabilities that help keep your applications and data secure in your Microsoft Windows Virtual Desktop deployment.
 
-### Scenario
+## Scenario
 
 Contoso, Ltd., is a growing financial services company that is based in London and has a branch office in New York. The company uses Microsoft 365 and Active Directory Domain Services (AD DS). Their on-premises Active Directory is syncing to Azure Active Directory (Azure AD) with the use of Azure AD Connect.
 
