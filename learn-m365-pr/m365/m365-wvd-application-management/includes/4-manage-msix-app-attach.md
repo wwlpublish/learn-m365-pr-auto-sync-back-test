@@ -19,27 +19,27 @@ Follow the steps below to create and initialize the VHD or VHDS disk by using Po
 
 2. To mount the newly created VHD, run:
 
-```
- $vhdObject = Mount-VHD c:\temp\<name>.vhd -Passthru
-```
+    ```
+    $vhdObject = Mount-VHD c:\temp\<name>.vhd -Passthru
+    ```
 
 3. To initialize the VHD, run:
 
-```
- $disk = Initialize-Disk -Passthru -Number $vhdObject.Number
-```
+    ```
+    $disk = Initialize-Disk -Passthru -Number $vhdObject.Number
+    ```
 
 4. To create a new partition, run:
 
-```
- $partition = New-Partition -AssignDriveLetter -UseMaximumSize -DiskNumber $disk.Number
-```
+    ```
+    $partition = New-Partition -AssignDriveLetter -UseMaximumSize -DiskNumber $disk.Number
+    ```
 
 5. To format the partition, run:
 
-```
- Format-Volume -FileSystem NTFS -Confirm:$false -DriveLetter $partition.DriveLetter -Force
-```
+    ```
+    Format-Volume -FileSystem NTFS -Confirm:$false -DriveLetter $partition.DriveLetter -Force
+    ```
 
 6. Create a parent folder on the mounted VHD.
 
