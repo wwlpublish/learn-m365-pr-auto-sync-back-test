@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.wvd-security.2-enable-security
+title: Enable security services of a Windows Virtual Desktop deployment
+metadata:
+  title: Enable security services of a Windows Virtual Desktop deployment
+  description: After you complete this unit, you’ll understand the Windows Virtual Desktop architecture and areas of responsibility for securing the deployment.
+  ms.date: 12/02/2020
+  author: ndelgado
+  ms.author: nedelgad
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 9
+content: |
+  [!include[](includes/2-enable-security.md)]
