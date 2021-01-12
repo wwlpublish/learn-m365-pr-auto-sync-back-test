@@ -41,7 +41,7 @@ You will:
     |**Registration type**|**On-demand**|
     |**State**|**Active**|
 
-:::image type="content" source="../media/04-Screenshot-of-Add-MSIX-package.PNG" alt-text="Screenshot of MSIX package." border="true":::
+:::image type="content" source="../media/04-screenshot-of-add-msix-package.png" alt-text="screenshot of msix package." border="true":::
 
 8. Select **Add** to add the MSIX image into the host pool.
 
@@ -61,7 +61,7 @@ You will:
     |**Display name**|Enter a descriptive name|
     |**Description**|Provide a descriptive name for the MSIX package|
 
-    :::image type="content" source="../media/05-Screenshot-of-add-app-application-group.PNG" alt-text="Screenshot of adding an MSIX package in Application Group." border="true":::
+    :::image type="content" source="../media/05-screenshot-of-add-app-application-group.png" alt-text="screenshot of adding an msix package in application group." border="true":::
 
 6. Select **Save** to add the MSIX image in the application group.
 
@@ -123,4 +123,4 @@ You will:
 4. After you remotely access the virtual machine, open the **Start** menu, and notice the shortcut of the published app.
 5. Close the Remote Desktop session.
 
-:::image type="content" source="../media/05-Screenshot-of-Edge-Dev.PNG" alt-text="Screenshot of published MSIX app attach" border="true":::
+:::image type="content" source="../media/05-screenshot-of-edge-dev.png" alt-text="screenshot of published msix app attach" border="true":::
