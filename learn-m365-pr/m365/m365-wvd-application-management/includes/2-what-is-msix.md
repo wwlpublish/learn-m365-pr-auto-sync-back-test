@@ -72,7 +72,7 @@ When you run the MSIX Packaging tool on the clean computer, you’ll be prompted
 - Modification package. Use this option to modify existing MSIX packages. This option might require you to go through the initial packaging steps.
 - Package editor. Use this option to make changes to the existing package without running the installers again. For example, you can edit the manifest of the package.
 
-:::image type="content" source="../media/02-Screenshot-MSIX-packaging-tool.PNG" alt-text="Screenshot of MSIX packaging tool." border="true":::
+:::image type="content" source="../media/02-screenshot-msix-packaging-tool.png" alt-text="screenshot of msix packaging tool." border="true":::
 
 > [!NOTE]
 > MSIX app attach does not support modification package.
