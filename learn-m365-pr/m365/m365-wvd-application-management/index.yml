@@ -2,27 +2,25 @@
 uid: learn-m365.wvd-msix-app-attach
 metadata:
   title: Deploy applications using MSIX app attach
-  description: Learn how to deliver applications using MSIX app attach technology. MSIX app attach is Microsoft's application delivery technology that enables you to separate applications and their state from the operating system and assign applications to users dynamically.
+  description: Learn how to deliver applications using MSIX app attach technology. MSIX app attach is an application delivery technology that separates applications and their state from the operating system and assigns applications to users dynamically.
   ms.date: 12/04/2020
   author: ndelgado
   ms.author: nedelgad
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Deploy applications using MSIX app attach
-summary: Learn how to deliver applications using MSIX app attach technology. MSIX app attach is Microsoft's application delivery technology that enables you to separate applications and their state from the operating system and assign applications to users dynamically.
+summary: Learn how to deliver applications using MSIX app attach technology. MSIX app attach is an application delivery technology that separates applications and their state from the operating system and assigns applications to users dynamically.
 abstract: |
-  At the end of this module, you should be able to:
+  At the end of this module, you'll be able to:
   - Transform existing applications with the MSIX packaging tool.
   - Deploy MSIX app attach.
 prerequisites: |
   To get the best learning experience from this module, you should have intermediate-level experience with:
   - Server and client management concepts and tools.
-  - Windows virtualization technologies, like Remote Desktop Services
+  - Windows virtualization technologies, such as Remote Desktop Services.
   - Common Windows Server management tools.
   - Core Microsoft compute, storage, networking, and virtualization technologies.
-  You should have beginner-level experience with:
-  - Application deployment 
-  - Windows Virtual Desktop
+  - You should have beginner-level experience with Application deployment, and Windows Virtual Desktop.
 iconUrl: /learn/achievements/generic-badge.svg
 ratingEnabled: true
 levels:
