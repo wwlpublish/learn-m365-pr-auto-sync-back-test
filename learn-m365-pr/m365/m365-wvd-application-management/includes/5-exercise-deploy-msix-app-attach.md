@@ -45,7 +45,7 @@ You will:
 
 8. Select **Add** to add the MSIX image into the host pool.
 
-### Task 2: Publish MSIX app attach to desktop application group (DAG)
+### Task 2: Publish MSIX app attach to desktop application group
 
 1. On the **Windows Virtual Desktop** page, in the navigation menu on the left side, select **Application groups**.
 2. On the **Windows Virtual Desktop | Application groups** page, select the desired application group.
@@ -61,7 +61,7 @@ You will:
     |**Display name**|Enter a descriptive name|
     |**Description**|Provide a descriptive name for the MSIX package|
 
-:::image type="content" source="../media/05-Screenshot-of-add-app-application-group.PNG" alt-text="Screenshot of adding an MSIX package in Application Group." border="true":::
+    :::image type="content" source="../media/05-Screenshot-of-add-app-application-group.PNG" alt-text="Screenshot of adding an MSIX package in Application Group." border="true":::
 
 6. Select **Save** to add the MSIX image in the application group.
 
