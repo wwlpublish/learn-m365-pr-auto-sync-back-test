@@ -21,7 +21,7 @@ prerequisites: |
   - Common Windows Server management tools.
   - Core Microsoft compute, storage, networking, and virtualization technologies.
   - You should have beginner-level experience with Application deployment, and Windows Virtual Desktop.
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/wvd-msix-app-attach.svg
 ratingEnabled: true
 levels:
 - intermediate
