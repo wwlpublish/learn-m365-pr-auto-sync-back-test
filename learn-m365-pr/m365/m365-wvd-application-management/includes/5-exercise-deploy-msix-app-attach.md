@@ -123,4 +123,4 @@ You will:
 4. After you remotely access the virtual machine, open the **Start** menu, and notice the shortcut of the published app.
 5. Close the Remote Desktop session.
 
-:::image type="content" source="../media/05-screenshot-of-edge-dev.png" alt-text="screenshot of published msix app attach" border="true":::
+    :::image type="content" source="../media/05-screenshot-of-edge-dev.png" alt-text="screenshot of published msix app attach" border="true":::
