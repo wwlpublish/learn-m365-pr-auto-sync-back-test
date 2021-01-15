@@ -107,7 +107,4 @@ You can automate the process of repacking the applications with the command-line
 >[!NOTE]
 > You can find sample PowerShell and Bash scripts that demonstrate how to automate the process of packaging, signing, managing, and distributing MSIX packages in the [scripts](https://github.com/microsoft/MSIX-Toolkit/tree/master/Scripts) folder of the MSIX Toolkit.
 
->[!NOTE]
-> The following versions of Windows support MSIX:
-> - Windows 10, version 1709 and later
-> - Windows Server 2019 LTSC and later
+
