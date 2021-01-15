@@ -41,7 +41,7 @@ You will:
     |**Registration type**|**On-demand**|
     |**State**|**Active**|
 
-:::image type="content" source="../media/04-screenshot-of-add-msix-package.png" alt-text="screenshot of msix package." border="true":::
+    :::image type="content" source="../media/04-screenshot-of-add-msix-package.png" alt-text="screenshot of msix package." border="true":::
 
 8. Select **Add** to add the MSIX image into the host pool.
 
