@@ -234,4 +234,4 @@ When AppLocker rules are enforced in the production environment, any apps that a
 
 The following video shows how AppLocker can be used to secure your Windows Virtual Desktop deployment.
 
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4Lt59]
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4M709]
