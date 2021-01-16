@@ -1,6 +1,6 @@
 Customers can take several actions and use multiple tools to help secure their Windows Virtual Desktop deployment. The following table lists some tested suggestions for securing your Windows Virtual Desktop deployment.
 
-|**Best Practice**| **Result**                                                   |
+|**Best practice**| **Result**                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 |Enable Azure Security Center for its cloud security posture management (CSPM) features| Use the CSPM feature of the security score to improve your overall security.|
 |Require multi-factor authentication|Enhance user authentication.|
