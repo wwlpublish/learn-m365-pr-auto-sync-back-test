@@ -4,7 +4,7 @@ title: Exercise - Deploy MSIX app attach
 metadata:
   title: Exercise - Deploy MSIX app attach
   description: Exercise to prepare WVD environment, prepare host pool and share, publish an MSIX app attach, and test MSIX app attach.
-  ms.date: 12/04/2020
+  ms.date: 01/15/2021
   author: ndelgado
   ms.author: nedelgad
   ms.topic: interactive-tutorial
