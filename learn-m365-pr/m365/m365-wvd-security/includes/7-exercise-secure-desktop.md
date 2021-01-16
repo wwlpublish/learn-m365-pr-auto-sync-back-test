@@ -172,7 +172,7 @@ To show the power of AppLocker, we need to disable the Enhanced Security Configu
 
 7. Select **OK**.
 
-### Task 10: Enable Default AppLocker Rules
+### Task 10: Enable default AppLocker rules
 
 1. In the **Local Security Policy** console under **Security Setting** > **Application Control Policies** > **AppLocker**, right-click **Packaged app Rules**, then select **Create Default Rules**.
 
