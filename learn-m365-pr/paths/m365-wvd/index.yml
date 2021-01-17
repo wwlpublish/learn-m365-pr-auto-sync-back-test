@@ -27,5 +27,7 @@ modules:
 - learn-m365.prepare-for-wvd
 - learn-m365.deploy-wvd
 - learn-m365.optimize-wvd
+- learn-m365.wvd-security
+- learn-m365.wvd-msix-app-attach
 trophy: 
   uid: learn-m365.windows-virtual-desktop.trophy
