@@ -4,7 +4,7 @@ Privacy is about being accountable for and respecting a customer's choices. It i
 
 Microsoft has six primary privacy principles:
 * **Control**. This means putting everyone in control of their own privacy with easy to use tools and clear choices.
-* **Transparency**. Being transparent abut data collection, and how data is being used, so that everyone can make informed decisions.
+* **Transparency**. Being transparent about data collection, and how data is being used, so that everyone can make informed decisions.
 * **Security**. Protecting the data that is entrusted to Microsoft through strong security and encryption.
 * **Strong legal protections**. Respecting local privacy laws and fighting for legal protection of users' privacy as a fundamental human right.
 * **No content-based targeting**. Not using email, chat, files, or other personal content to target advertising.
