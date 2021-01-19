@@ -13,7 +13,7 @@ summary: Introduction to Microsoft security capabilities that can keep your appl
 abstract: |
   After completing this module, you’ll be able to:
   - Secure the user’s identity used to access their Windows Virtual Desktop environment.
-  - Use AppLocker to secure the downloaded desktop.
+  - Use AppLocker to secure the accessed desktop.
 prerequisites: |
   - Intermediate knowledge of Microsoft Azure services such as Core Azure compute, storage, networking, and virtualization technologies.
   - Intermediate knowledge of Azure operational concepts, such as monitoring, logging, and alerting.
