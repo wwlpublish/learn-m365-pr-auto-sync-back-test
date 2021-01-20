@@ -13,14 +13,14 @@ durationInMinutes: 5
 quiz:
    title: Check your knowledge
    questions:
-   - content: "Which of these steps is not part of testing an MSIX app attach?"
+   - content: "Which of these steps is not part of testing MSIX app attach?"
      choices:
      - content: "Destage"
        isCorrect: false
-       explanation: "Destage is part of testing an MSIX app attach and removes the application from the computer."
+       explanation: "Destage is part of testing MSIX app attach and removes the application from the computer."
      - content: "Register"
        isCorrect: false
-       explanation: "Register is part of testing an MSIX app attach and makes the app available for the user."
+       explanation: "Register is part of testing MSIX app attach and makes the app available for the user."
      - content: "Publish"
        isCorrect: true
        explanation: "You don't publish the application in the test phase."
@@ -28,13 +28,13 @@ quiz:
      choices:
      - content: "Windows 7 Enterprise Edition"
        isCorrect: false
-       explanation: "MSIX app attach is currently supported on Windows 10, version 2004, and later."
-     - content: "Windows 10, version 2004, and later"
+       explanation: "MSIX app attach is currently supported on Windows 10, version 2004 and later."
+     - content: "Windows 10, version 2004 and later"
        isCorrect: true
-       explanation: "MSIX app attach is currently supported on Windows 10, version 2004, and later."
+       explanation: "MSIX app attach is currently supported on Windows 10, version 2004 and later."
      - content: "Windows 8.1"
        isCorrect: false
-       explanation: "MSIX app attach is currently supported on Windows 10, version 2004, and later."
+       explanation: "MSIX app attach is currently supported on Windows 10, version 2004 and later."
    - content: "What is MSIX app attach?"
      choices:
      - content: "Application virtualization technology"
