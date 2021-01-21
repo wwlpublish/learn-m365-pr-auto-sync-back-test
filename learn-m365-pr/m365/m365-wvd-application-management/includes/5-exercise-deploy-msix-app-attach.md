@@ -3,7 +3,7 @@ As a senior administrator working for Contoso, you've been asked to adopt the ap
 In this exercise, you'll add and test MSIX app attach.
 
 > [!NOTE]
-> To complete this exercise, you need to have an active Azure subscription and run a Windows Virtual Desktop environment. You can identify all the prerequisites for this exercise in the previouis unit of this module, "Manage MSIX app attach."
+> To complete this exercise, you need to have an active Azure subscription and run a Windows Virtual Desktop environment. You can identify all the prerequisites for this exercise in the previous unit of this module, "Manage MSIX app attach."
 
 ## Add MSIX app attach in Windows Virtual Desktop
 
@@ -47,13 +47,13 @@ In this exercise, you'll add and test MSIX app attach.
     |**MSIX package**|Select one of the MSIX packages.|
     |**Application name**|Enter a descriptive name.|
     |**Display name**|Enter a descriptive name.|
-    |**Description**|Provide a descriptive name for the MSIX package.|
+    |**Description**|Provide a description of the MSIX package.|
 
     :::image type="content" source="../media/05-screenshot-of-add-app-application-group.png" alt-text="Screenshot of adding an M S I X package to an application group." border="true":::
 
 6. Select **Save** to add the MSIX image to the application group.
 
-## Assign users to an app group
+## Assign users to an application group
 
 1. On the **Windows Virtual Desktop** page, on left menu, select **Application groups**.
 2. On the **Windows Virtual Desktop | Application groups** page, select the desired application group.
@@ -75,7 +75,7 @@ In this exercise, you'll add and test MSIX app attach.
     |**Application group type**|Enter **RemoteApp**.|
     |**Application group name**|Provide a descriptive name, such as **ContosoApps**.|
 
-4. Select **Next: Applications**.
+4. Select **Next: Applications >**.
 5. On the **Applications** tab, select **+ Add applications**. Then provide the following information in the **Add application** grid:
 
     |||
@@ -90,25 +90,25 @@ In this exercise, you'll add and test MSIX app attach.
     |**Icon index**|Add an index of the icon.|
     |**Show in web feed**|Select **Yes**.|
 
-6. Select **Save** to add application, and then select **Next: Assignments >**.
-7. On the **Assignment** tab, select **+ Add Azure AD users or user groups**, then select one or multiple users or groups from Azure AD, and then choose **Select**.
+6. Select **Save** to add the application, and then select **Next: Assignments >**.
+7. On the **Assignment** tab, select **+ Add Azure AD users or user groups**. Select one or multiple users or groups from Azure AD, and then choose **Select**.
 8. Select **Next: Workspace >**.
-9. On the **Workspace** tab, select **Yes** for **Register application group** and then from the **Register application group** drop-down menu, select one of the RemoteApp groups.
+9. On the **Workspace** tab, select **Yes** for **Register application group**. Then, from the **Register application group** drop-down menu, select one of the RemoteApp groups.
 10. Select **Next: Tags >**.
-11. On the **Tags** tab, provide a **Name** and **Value** for the tags and select **Next: Review + create >**.
-12. Once the validation completes, select **Create** to finish creating the RemoteApp group.
-13. Wait for the deployment to complete.
+11. On the **Tags** tab, provide **Name** and **Value** information for the tags. Then select **Next: Review + create >**.
+12. After the validation is complete, select **Create** to finish creating the RemoteApp group.
+13. Wait for the deployment to finish.
 
-## Test the MSIX app attach
+## Test MSIX app attach
 
-1. From any computer, open a browser and then open the remote desktop web client by using the following URL [https://rdweb.wvd.microsoft.com/arm/webclient/index.html](https://rdweb.wvd.microsoft.com/arm/webclient/index.html).
-2. Sign in with the credentials of the user which has been assigned access to application group that contains MSIX app attach.
+1. From any computer, open a browser and then open the [Remote Desktop web client](https://rdweb.wvd.microsoft.com/arm/webclient/index.html).
+2. Sign in with the credentials of the user who has been assigned access to the application group that contains MSIX app attach.
 3. Select the **SessionDesktop** icon and sign in with the credentials of the user.
 
     > [!NOTE]
-    > You might be prompted with a security warning to "Allow local resources." Select which local resources you want to allow the remote computer to access and then select **Allow**.
+    > You might be prompted with a security warning to "allow local resources." Select which local resources you want to allow the remote computer to access, and then select **Allow**.
 
-4. After you remotely access the virtual machine, open the **Start** menu, and notice the shortcut of the published app.
+4. After you remotely access the virtual machine, open the **Start** menu and notice the shortcut of the published app.
 5. Close the Remote Desktop session.
 
-    :::image type="content" source="../media/05-screenshot-of-edge-dev.png" alt-text="screenshot of published msix app attach" border="true":::
+    :::image type="content" source="../media/05-screenshot-of-edge-dev.png" alt-text="Screenshot of published M S I X app attach." border="true":::
