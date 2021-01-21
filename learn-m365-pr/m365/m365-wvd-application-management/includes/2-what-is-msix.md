@@ -14,7 +14,7 @@ The benefits of MSIX include:
 - Resistance to tampering. After an MSIX package has been expanded into an MSIX image, the latter is read-only and locked down for modification by the operating system.
 
 > [!TIP]
-> With MSIX, you can package and distribute Win32 applications by using Microsoft Store.
+> With MSIX, you can package and distribute Win32 applications by using the Microsoft Store.
 
 ## What's inside an MSIX package?
 
@@ -57,7 +57,7 @@ You can get access to the MSIX Packaging Tool from either the Microsoft Store or
 You can use either an interactive UI or a command line to convert an existing package to MSIX package format. It's important that prior to running the MSIX Packaging Tool, you:
 
 - Use a supported Windows 10 version, minimum 1809.
-- Work from a clean computer, without additional services and applications running on the computer.
+- Work from a clean computer, without additional services and applications running on it.
 - Prepare the environment for conversion, ensuring that it's similar to the one that will host the newly created MSIX package.
 - Ensure that the architecture on the computer used for conversion is the same as the computer that will deploy the application.
 - Use a virtual machine with checkpoints, so you can easily test and revert the changes for every modification of the package.
@@ -68,9 +68,9 @@ You can use either an interactive UI or a command line to convert an existing pa
 
 When you run the MSIX Packaging Tool on the clean computer, you'll be prompted to choose one of the following three options:
 
-- Application package. Use this option to create an MSIX package either from existing installers or through manual installation of the application payload.
-- Modification package. Use this option to modify existing MSIX packages. This option might require you to go through the initial packaging steps.
-- Package editor. Use this option to make changes to the existing package without running the installers again. For example, you can edit the manifest of the package.
+- **Application package**. Use this option to create an MSIX package either from existing installers or through manual installation of the application payload.
+- **Modification package**. Use this option to modify existing MSIX packages. This option might require you to go through the initial packaging steps.
+- **Package editor**. Use this option to make changes to the existing package without running the installers again. For example, you can edit the manifest of the package.
 
 :::image type="content" source="../media/02-screenshot-msix-packaging-tool.png" alt-text="Screenshot of the M S I X Packaging Tool." border="true":::
 
@@ -85,13 +85,13 @@ In the MSIX Packaging Tool, use the following steps to repackage an application 
 
     - Sign with Device Guard signing.
     - Sign with a certificate (.pfx).
-    - Specify a .cer file. This does not sign the package but matches the subject of the certificate that will be used for signing.
+    - Specify a .cer file. This option doesn't sign the package but matches the subject of the certificate that will be used for signing.
 
 4. Detail the package information. The MSIX Packaging Tool tries to autofill information about the app based on the installer that's used. You can customize the input with your own values as needed.
 
 5. Run the installation. The tool starts to monitor the installation phase and capture all installation options. If the installer requires a restart, you can restart the computer and continue the process of conversion.
 
-6. Manage first launch tasks. This page captures the first run experience launch by selecting **run**.
+6. Manage the tasks that determine the user experience the first time you run the tool.
 
 7. Review the services report. This step is used for installers that register services on the computers. Supported services are listed in the **Included** table. Services that aren't supported appear in the **Excluded** table.
 

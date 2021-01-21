@@ -10,7 +10,7 @@ In this exercise, you'll add and test MSIX app attach.
 1. Open the Azure portal. In **Search resources, services and docs (G+I)**, enter and then select **Windows Virtual Desktop**.
 2. On the **Windows Virtual Desktop** page, on the left menu, select **Host pools**.
 3. On the **Windows Virtual Desktop | Host pools** page, select the desired host pool.
-4. On the **_your host pool_** page on the left menu, from the **Manage** section, select **MSIX packages**.
+4. On the **_your host pool_** page, from the **Manage** section of the left menu, select **MSIX packages**.
 5. On the **_your host pool_ | MSIX packages** page from the toolbar, select **+ Add**.
 6. In the **Add MSIX package** window, in the **MSIX image path** field, add the UNC path of your MSIX image.
 
@@ -91,7 +91,7 @@ In this exercise, you'll add and test MSIX app attach.
     |**Show in web feed**|Select **Yes**.|
 
 6. Select **Save** to add the application, and then select **Next: Assignments >**.
-7. On the **Assignment** tab, select **+ Add Azure AD users or user groups**. Select one or multiple users or groups from Azure AD, and then choose **Select**.
+7. On the **Assignment** tab, select **+ Add Azure AD users or user groups**. Select one or multiple users or groups from Azure Active Directory, and then choose **Select**.
 8. Select **Next: Workspace >**.
 9. On the **Workspace** tab, select **Yes** for **Register application group**. Then, from the **Register application group** drop-down menu, select one of the RemoteApp groups.
 10. Select **Next: Tags >**.
@@ -105,10 +105,12 @@ In this exercise, you'll add and test MSIX app attach.
 2. Sign in with the credentials of the user who has been assigned access to the application group that contains MSIX app attach.
 3. Select the **SessionDesktop** icon and sign in with the credentials of the user.
 
-    > [!NOTE]
-    > You might be prompted with a security warning to "allow local resources." Select which local resources you want to allow the remote computer to access, and then select **Allow**.
+   > [!NOTE]
+   > You might be prompted with a security warning to "allow local resources." Select which local resources you want to allow the remote computer to access, and then select **Allow**.
 
 4. After you remotely access the virtual machine, open the **Start** menu and notice the shortcut of the published app.
+
+   :::image type="content" source="../media/05-screenshot-of-edge-dev.png" alt-text="Screenshot of published M S I X app attach." border="true":::
+
 5. Close the Remote Desktop session.
 
-    :::image type="content" source="../media/05-screenshot-of-edge-dev.png" alt-text="Screenshot of published M S I X app attach." border="true":::

@@ -28,11 +28,11 @@ MSIX app attach follows several steps or actions:
 | Registration|MSIX app attach uses a per-user process to make the application available to you.|
 | Delayed registration|Complete registration of the application is delayed until you decide to run the application.|
 | Deregistration|The application is no longer available to you after you sign out. |
-| Destage|The application is no longer available from the VM after VM shutdown or restart.|
+| Destage|The application is no longer available from the virtual machine after shutdown or restart of the machine.|
 
 After you open MSIX app attach, you experience the following process:
 
-1. From the Windows Virtual Desktop client, you sign in and select the host pool for which you have access. The process is similar to opening published RemoteApps from the Windows Virtual Desktop environment.
+1. From the Windows Virtual Desktop client, you sign in and select the host pool for which you have access. The process is similar to opening published RemoteApp programs from the Windows Virtual Desktop environment.
 2. You're assigned a virtual machine within the host pool, on which a RemoteApp or Remote Desktop session is created. The Windows Virtual Desktop client interacts with that session.
 3. If the user profile is configured, the FSLogix agent on the session host provides the user profile from the file share. The file share can be Azure Files, Azure NetApp Files, or an infrastructure as a service (IaaS) file server.
 4. Applications that are assigned to you are read from Windows Virtual Desktop.

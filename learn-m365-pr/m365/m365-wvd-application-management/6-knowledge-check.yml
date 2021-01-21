@@ -28,13 +28,13 @@ quiz:
      choices:
      - content: "Windows 7 Enterprise Edition"
        isCorrect: false
-       explanation: "MSIX app attach is currently supported on Windows 10, version 2004 and later."
-     - content: "Windows 10, version 2004 and later"
+       explanation: "MSIX app attach is currently supported on Windows 10 version 2004 and later."
+     - content: "Windows 10 version 2004 and later"
        isCorrect: true
-       explanation: "MSIX app attach is currently supported on Windows 10, version 2004 and later."
+       explanation: "MSIX app attach is currently supported on Windows 10 version 2004 and later."
      - content: "Windows 8.1"
        isCorrect: false
-       explanation: "MSIX app attach is currently supported on Windows 10, version 2004 and later."
+       explanation: "MSIX app attach is currently supported on Windows 10 version 2004 and later."
    - content: "What is MSIX app attach?"
      choices:
      - content: "Application virtualization technology"

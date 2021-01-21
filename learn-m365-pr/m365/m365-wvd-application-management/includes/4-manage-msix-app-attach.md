@@ -137,7 +137,7 @@ To assign specific users or groups to receive MSIX apps, select them on the **As
 
 You can manage new versions of MSIX applications by uploading a new VHD on a file share. The process is similar to publishing a new MSIX application.
 
-You can get the new version of a MSIX application by signing out and signing in again. After you sign in, the new application is staged and registered.
+You can get the new version of an MSIX application by signing out and signing in again. After you sign in, the new application is staged and registered.
 
 You can change the MSIX package registration type by opening the MSIX package. Then, in **Registration Type**, select **On-demand** or **Log on blocking**, as desired.
 
