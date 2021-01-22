@@ -1,12 +1,14 @@
-Contoso wanted to deploy a solution that supported their employees working remotely. This solution needed to be up-to-date, secure, and highly scalable. You found that Windows Virtual Desktop provided its users with access to every system that a physical desktop would.
+Contoso wanted to deploy a solution that would support its employees who work remotely. This solution needed to be up to date, secure, and highly scalable. You found that Windows Virtual Desktop provided its users with access to every system that a physical desktop would.
 
-This module addressed how to add strict identity and device verification regardless of the location of the user accessing company resources. This is the basis of the Zero Trust security model. In this module, you learned how to protect corporate data and resources while ensuring that organizations can build a modern workplace by using technologies such as Windows Virtual Desktop that empower employees to be productive anytime, anywhere.
+This module addressed how to add strict identity and device verification regardless of the location of a user who's accessing company resources. This is the basis of the Zero Trust security model. 
 
-In this module, you reviewed many of the security features that create an extra layer of security that doesn’t rely only on the device itself. The main points were:
+In this module, you learned how to protect corporate data and resources. You also learned how an organization can build a modern workplace by using technologies that empower employees to be productive anytime, anywhere. These technologies include Windows Virtual Desktop.
+
+In this module, you reviewed features that create an extra layer of security that doesn't rely only on the device itself. The main points were:
 
 - Security aspects of Windows Virtual Desktop architecture, including a shared responsibility model
 
-- Utilizing Azure AD identity management services
+- Using Azure Active Directory identity management services
 
 - Securing session hosts and applications
 
@@ -16,11 +18,11 @@ In this module, you reviewed many of the security features that create an extra 
 
 - Threat protection and analytics
 
-Windows Virtual Desktop offers significant benefits to businesses. One of the key benefits is the flexibility to scale up or down by using the scaling tool built with Azure Automation and Azure Logic App that automatically scales session host VMs in your Windows Virtual Desktop environment. Windows Virtual Desktop also helps to increase security, create an infrastructure, and reduce labor costs.
+Windows Virtual Desktop offers significant benefits to businesses. One of the key benefits is the flexibility to scale up or down by using the scaling tool built with Azure Automation and Azure Logic Apps. This tool automatically scales session host VMs in your Windows Virtual Desktop environment. Windows Virtual Desktop also helps to increase security, create an infrastructure, and reduce labor costs.
 
 ## Learn more
 
-You can learn more by reviewing the following documents.
+You can learn more by reviewing the following resources:
 
 - [What is Windows Virtual Desktop?](https://docs.microsoft.com/azure/virtual-desktop/overview?azure-portal=true)
 
@@ -30,4 +32,4 @@ You can learn more by reviewing the following documents.
 
 - [Set up the PowerShell module for Windows Virtual Desktop](https://docs.microsoft.com/azure/virtual-desktop/powershell-module?azure-portal=true)
 
-- [Use Azure Firewall to protect Window Virtual Desktop deployments](https://docs.microsoft.com/azure/firewall/protect-windows-virtual-desktop?azure-portal=true)
+- [Use Azure Firewall to protect Windows Virtual Desktop deployments](https://docs.microsoft.com/azure/firewall/protect-windows-virtual-desktop?azure-portal=true)

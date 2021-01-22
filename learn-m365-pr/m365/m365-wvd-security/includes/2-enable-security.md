@@ -47,7 +47,7 @@ The customer manages the following components for a successful Windows Virtual D
 
 Windows Virtual Desktop requires integration with Azure AD. It permits the incorporation of identity and access capabilities from Azure AD. 
 
-This integration with Azure AD is key in a layered *zero-trust security* strategy. The zero-trust security model removes the concept of a "walled garden." This model assumes that every service, user, application, and system is open to the internet. This approach focuses on building strong authentication, authorization, and encryption, while also providing better operational agility.
+This integration with Azure AD is key in a layered *Zero Trust* security model. The Zero Trust security model removes the concept of a "walled garden." This model assumes that every service, user, application, and system is open to the internet. This approach focuses on building strong authentication, authorization, and encryption, while also providing better operational agility.
 
 Security processes and components contribute to this Azure AD identity as a service (IaaS) architecture. Consider:
 
