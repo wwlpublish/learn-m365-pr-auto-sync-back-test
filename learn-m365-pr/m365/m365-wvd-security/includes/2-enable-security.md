@@ -13,7 +13,7 @@ The following diagram shows the components of a typical enterprise deployment ar
 
 :::image type="content" source="../media/2-windows-virtual-desktop-at-scale.png" alt-text="Windows Virtual Desktop deployment that consists of Azure A D D S, synchronization to Azure A D via Azure A D Connect, and a network gateway." border="true":::
 
-Windows Virtual Desktop is deployed in a hierarchical workspace. In a traditional on-premises Virtual Desktop Infrastructure (VDI) deployment, the customer is responsible for all aspects of security. With Windows Virtual Desktop, these responsibilities are shared between the customer and Microsoft. 
+Windows Virtual Desktop is deployed in a hierarchical workspace. In a traditional on-premises virtual desktop infrastructure (VDI) deployment, the customer is responsible for all aspects of security. With Windows Virtual Desktop, these responsibilities are shared between the customer and Microsoft. 
 
 Microsoft helps secure the physical datacenters, the physical network, and the physical hosts that Azure runs on. Microsoft is also responsible for securing the virtualization control plane, which includes Windows Virtual Desktop services running in Azure.
 
@@ -26,7 +26,7 @@ Microsoft manages the Windows Virtual Desktop services described in the followin
 | **Service**                   | **Description**                                              |
 | ----------------------------- | ------------------------------------------------------------ |
 | Azure Web Access              | This service enables Windows Virtual Desktop users to access virtual desktops and remote apps through an HTMLv5-compatible web browser. |
-| Gateway                       | This service connects remote clients to a gateway, which then establishes a connection from a VM back to the same gateway. |
+| Gateway                       | This service connects remote clients to a gateway, and then establishes a connection from a VM back to the same gateway. |
 | Broker                        | The Broker service provides load-balancing and reconnection to virtual desktops and remote apps in existing user sessions. |
 | Diagnostics                   | The Remote Desktop Diagnostics service logs events of actions on the Windows Virtual Desktop deployment as a success or failure. This information is useful for troubleshooting errors. |
 | Azure infrastructure services | Microsoft manages networking, storage, and compute Azure infrastructure services. |
@@ -51,7 +51,7 @@ This integration with Azure AD is key in a layered *Zero Trust* security model. 
 
 Security processes and components contribute to this Azure AD identity as a service (IaaS) architecture. Consider:
 
-- Using static and dynamic conditional access policies.
+- Using static and dynamic Conditional Access policies.
 - Using authentication that's enhanced with multifactor authentication.
 - Subscribing to Azure Security Center or Azure Defender for its integrated vulnerability assessment.
 - Using strong credential management services and policies.
@@ -67,4 +67,4 @@ Several Remote Desktop clients and the most popular partner OS devices include s
 - Access only the application from a preconfigured application group in a host pool. Use Azure AD and role-based access controls to provide fine-grained authorization.
 
 >[!NOTE]
->Windows Virtual Desktop requires AD DS. An AD DS domain-joined session host takes advantage of Azure AD security features. These features include conditional access, multifactor authentication, and Intelligent Security Graph.
+>Windows Virtual Desktop requires Active Directory Domain Services (AD DS). An AD DS domain-joined session host takes advantage of Azure AD security features. These features include conditional access, multifactor authentication, and Intelligent Security Graph.

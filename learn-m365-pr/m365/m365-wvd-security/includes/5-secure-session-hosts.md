@@ -4,7 +4,7 @@ Customers can take several actions and use multiple tools to help secure their W
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 |Enable Azure Security Center for its cloud security posture management (CSPM) features| Use the CSPM feature of the security score to improve your overall security.|
 |Require multifactor authentication|Enhance user authentication.|
-|Enable conditional access|Manage risks before you grant users access.|
+|Enable Conditional Access|Manage risks before you grant users access.|
 |Collect audit logs|Review user and administrator activity.|
 |Use RemoteApp|Reduce risk by letting the user work with only a subset of the remote machine exposed.|
 |Monitor usage with Azure Monitor| Create service health alerts to receive notifications for the Windows Virtual Desktop service.|
@@ -38,13 +38,13 @@ You can use Microsoft Intune to create and check for compliance. You can also us
 
 Microsoft Intune is integrated with Azure Active Directory (Azure AD) for authentication and authorization. It also integrates with Azure Information Protection for data protection. You can use Microsoft Intune with the Microsoft 365 suite of products. 
 
-The following table describes some of the main functionalities of Microsoft Intune:
+The following table describes some of the main functionalities of Microsoft Intune.
 
 |**Functionality**| **Description**|
 | --------------------------------- | ------------------------------------------------------------ |
 |Device management|User-owned and organization-owned enrolled devices in Microsoft Intune receive rules and settings through policies that you configure to match your organization's security policies. |
 |App management|Mobile application management in Microsoft Intune can bring app management on organization-owned devices and personal devices.|
-|Compliance and conditional access|Intune integrates with Azure AD to enable a broad set of access control scenarios.|
+|Compliance and Conditional Access|Intune integrates with Azure AD to enable a broad set of access control scenarios.|
 
 Application control moves from an application trust model that assumes all applications are trustworthy. The new model demands that applications earn trust before they can run. Windows 10 includes two technologies for application control: Windows Defender Application Control and AppLocker.
 

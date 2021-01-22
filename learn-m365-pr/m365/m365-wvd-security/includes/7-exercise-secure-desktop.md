@@ -1,4 +1,4 @@
-As a senior administrator working for Contoso, you've been asked to test Microsoft AppLocker for future deployment in your Windows Virtual Desktop environment. In an enterprise, this process would normally be done through Group Policy objects, Intune, or Configuration Manager. This exercise doesn't include access to those tools or an Active Directory domain controller.
+As a senior administrator working for Contoso, you've been asked to test Microsoft AppLocker for future deployment in your Windows Virtual Desktop environment. In an enterprise, this process is normally done through Group Policy objects, Intune, or Configuration Manager. This exercise doesn't include access to those tools or an Active Directory domain controller.
 
 In this exercise, you'll use a Windows Server 2016 VM running in Azure. Because this isn't a Windows Virtual Desktop environment for the lab, Windows 10 Enterprise is not available. You will:
 
@@ -28,7 +28,7 @@ You can define and deploy VMs on Azure in several ways. This exercise uses the A
 
 1. Select the **Cloud Shell** icon next to the search box. A **Welcome to Azure Cloud Shell** banner opens.
 
-1. You might receive a prompt that says you have no storage mounted, and that prompts you to select a subscription and create storage. Select your subscription and choose **Create storage** if you're prompted.
+1. You might receive a prompt that says you have no storage mounted, and that asks you to select a subscription and create storage. Select your subscription and choose **Create storage** if you're prompted.
 
 1. In the Azure Cloud Shell terminal window, select **PowerShell** as the environment.
 
@@ -76,7 +76,7 @@ You now need to create a resource group. An Azure resource group is a logical co
     }
     ```
 
-1. Use the public address in your RDP connection. Note the address with your administrator password.
+1. Use the public address in your Remote Desktop connection. Note the address with your administrator password.
 
 ## Connect to the VM
 
@@ -187,7 +187,7 @@ To show the power of AppLocker, we need to disable Enhanced Security Configurati
 
 1. Click **Select**.
 
-1. The **Select User or Group** panel appears. In the **Enter the object name to select** box, enter the standard user name that you created previously.
+1. The **Select User or Group** panel appears. In the **Enter the object name to select** box, enter the standard username that you created previously.
 
 1. Select **Check Names**. You should see **myVM\\"your standard users login name"**.
 
@@ -195,7 +195,7 @@ To show the power of AppLocker, we need to disable Enhanced Security Configurati
 
 1. Select **Next**, select **Path**, and then select **Next**.
 
-1. Select **Browse Folders**. The **Browse For Folder** file explorer is displayed.
+1. Select **Browse Folders**. The **Browse For Folder** file explorer appears.
 
 1. Select **Program Files (x86)** > **Microsoft Visual Studio** > **2019**. Then select **OK**.
 
@@ -228,7 +228,7 @@ You can use the following command to remove the resource group, VM, and all rela
 ```PowerShell
 az group delete --name myResourceGroup
 ```
-This process will take 2 to 3 minutes.
+This process takes 2 to 3 minutes.
 
 ## Demo: Use AppLocker in a Windows Virtual Desktop environment
 

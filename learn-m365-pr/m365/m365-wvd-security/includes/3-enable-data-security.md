@@ -1,4 +1,4 @@
-A user profile is a collection of configurations that the user or administrator made and that represent the state of a system. Various system components bind to a user's profile. These components include applications, registry entries, and other customized entries. 
+A user profile is a collection of configurations that the user or administrator made to represent the state of a system. Various system components bind to a user's profile. These components include applications, registry entries, and other customized entries. 
 
 Windows 10 offers several types of user profiles. The following table describes the four traditional types of Windows profiles.
 
