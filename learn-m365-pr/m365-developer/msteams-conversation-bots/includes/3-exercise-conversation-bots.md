@@ -299,8 +299,6 @@ This will download the app package as a ZIP. Unpack the zip and open the **manif
 
 In the **./src/manifest/manifest.json** file, verify `icons` property's values, and update if necessary, file names to match what's in the project
 
-Locate the property `id`. Change its value to match the GUID of the Azure AD app that was created when creating the bot in the Azure portal.
-
 Locate the property `bots`. Verify it contains the following JSON that includes the new command added in App Studio:
 
 ```json
@@ -330,7 +328,7 @@ Locate the property `bots`. Verify it contains the following JSON that includes 
 ```
 
 > [!IMPORTANT]
-> Notice the `botId` property value. This will be replaced with the value listed in the **./.env** file when you build the project.
+> Notice the `botId` property value. If you see a GUID, the manifest has already been configured with the Bot App ID. If you see `{{MICROSOFT_APP_ID}}`, then this will be replaced with the value listed in the **./.env** file when you build the project.
 
 At this point, your bot is ready to test!
 
@@ -349,7 +347,7 @@ This gulp task will run many other tasks all displayed within the command-line c
 
 ![Screenshot of gulp ngrok-serve](../media/03-test-01.png)
 
-Note the URL of the Ngrok URL displayed in the console. In the previous screenshot, NGrok has created the temporary URL **ec7d937d.ngrok.io** that will map to our locally running web server. In order for the Bot Framework to route messages from Microsoft Teams to our locally running bot, you need to update the bot's messaging endpoint in the Azure portal.
+Note the URL of the Ngrok URL displayed in the console. In the previous screenshot, NGrok has created the temporary URL **5f1f02998d18.ngrok.io** that will map to our locally running web server. In order for the Bot Framework to route messages from Microsoft Teams to our locally running bot, you need to update the bot's messaging endpoint in the Azure portal.
 
 Open a browser and navigate to the [Azure portal](https://portal.azure.com) and sign in using a **Work or School Account** that has rights to create resources in your Azure subscription.
 
@@ -357,7 +355,9 @@ Locate the bot by selecting the Azure Resource Group and Bot Channels Registrati
 
 Using the left-hand navigation, select **Bot management** > **Settings**.
 
-Locate the property **Configuration** > **Messaging endpoint** and set the domain to the NGrok domain.
+Locate the property **Configuration** > **Messaging endpoint** and set the domain to the NGrok domain, pointing to the `/api/messages` endpoint. Using the example above, the endpoint will be `https://5f1f02998d18.ngrok.io/api/messages`
+
+![The messaging endpoint set to https://5f1f02998d18.ngrok.io/api/messages](../media/03-test-07.png)
 
 Finally, save your changes to the bot configuration using the **Save** button at the top of the page.
 
