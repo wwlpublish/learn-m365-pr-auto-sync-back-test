@@ -60,17 +60,17 @@ quiz:
       - content: "Automatically when they sign in"
         isCorrect: true
         explanation: "Yes, Outlook users get their Autodiscover profile settings when they sign in for the first time."
-    - content: "Where do you run the Microsoft Exchange Remote Connectivity Analyzer?"
+    - content: "Where do you run the Microsoft Remote Connectivity Analyzer?"
       choices:
-      - content: "From the Microsoft Exchange Remote Connectivity Analyzer website."
+      - content: "From the Microsoft Connectivity Analyzer website."
         isCorrect: true
-        explanation: "Yes. You can run tests to check for Microsoft Exchange ActiveSync, Exchange Web Services, Microsoft Outlook, and Internet email connectivity from the ExRCA website."
+        explanation: "Yes. You can run tests to check for Microsoft Exchange ActiveSync, Exchange Web Services, Microsoft Outlook, and Internet email connectivity from the analyzer website."
       - content: "From the Outlook client"
         isCorrect: false
-        explanation: "No, you run the ExRCA analyzer on the Microsoft Exchange Remote Connectivity website."
+        explanation: "No, you run the analyzer on the Microsoft Remote Connectivity website."
       - content: "From the Exchange Online service"
         isCorrect: false
-        explanation: "No, you run the ExRCA analyzer on the Microsoft Exchange Remote Connectivity website."
+        explanation: "No, you run the analyzer on the Microsoft Remote Connectivity website."
     - content: "How are users authenticated with Exchange Online?"
       choices:
       - content: "Using a client certificate"
