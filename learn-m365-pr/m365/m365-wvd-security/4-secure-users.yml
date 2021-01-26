@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.wvd-security.4-secure-users
-title: Secure user identity used to access their Windows Virtual Desktop environment
+title: Secure the user identity that accesses the Windows Virtual Desktop environment
 metadata:
-  title: Secure user identity used to access their Windows Virtual Desktop environment
-  description: Learn how to increase the security of Windows Virtual Desktop deployment with Identity controls.
+  title: Secure the user identity that accesses the Windows Virtual Desktop environment
+  description: Learn how to increase the security of Windows Virtual Desktop deployment with identity controls.
   ms.date:  01/15/2021
   author: ndelgado
   ms.author: nedelgad

@@ -3,7 +3,7 @@ uid: learn-m365.wvd-security.5-secure-session-hosts
 title: Secure session hosts and applications
 metadata:
   title: Secure session hosts and applications
-  description: Learn how to protect and monitor the session hosts including RemoteApp groups and host pools.
+  description: Learn how to protect and monitor session hosts, including RemoteApp groups and host pools.
   ms.date:  01/15/2021
   author: ndelgado
   ms.author: nedelgad
