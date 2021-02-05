@@ -1,6 +1,3 @@
->[!IMPORTANT]
->Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813). We'll be updating names in products and in the Learn content in the near future.
-
 Email is one of the most pervasive and powerful forms of communication and collaboration. It’s also the most prolific attack vector that we see today. Emails can compromise users and penetrate organizations. The most common way attackers use emails to breach your organization includes:
 
 - **Spam**
@@ -17,16 +14,16 @@ Email is one of the most pervasive and powerful forms of communication and colla
    - Malicious code often distributed in email to a recipient; for example, spyware, key loggers, and RAM scrapers.
    - Payload can be delivered as an attachment or URL.
 
-Office 365 Advanced Threat Protection (ATP) is an email filtering service that provides additional protection on top of existing Exchange Online Protection. ATP helps protect against unknown malware and viruses and provides better zero-day protection to safeguard your messaging system. ATP includes:
+Microsoft Defender for Office 365 is an email filtering service that provides additional protection on top of existing Exchange Online Protection. Microsoft Defender for Office 365 helps protect against unknown malware and viruses and provides better zero-day protection to safeguard your messaging system. Microsoft Defender for Office 365 includes:
 
 - **Threat protection policies** - Define threat-protection policies to set the appropriate level of protection for your organization.
-- **Reports** - View real-time reports to monitor ATP performance in your organization.
+- **Reports** - View real-time reports to monitor Microsoft Defender for Office 365 performance in your organization.
 - **Threat investigation and response capabilities** - Use leading-edge tools to investigate, understand, simulate, and prevent threats.
 - **Automated investigation and response capabilities** - Save time and effort investigating and mitigating threats.
 
-ATP anti-phishing applies a set of machine learning models together with impersonation detection algorithms to incoming messages to provide protection for commodity and spear phishing attacks. ATP anti-phishing protects your organization according to policies that are set by your global or security administrators.
+Microsoft Defender for Office 365 anti-phishing applies a set of machine learning models together with impersonation detection algorithms to incoming messages to provide protection for commodity and spear phishing attacks. Microsoft Defender for Office 365 anti-phishing protects your organization according to policies that are set by your global or security administrators.
 
-Other ATP features include:
+Other Microsoft Defender for Office 365 features include:
 
 - **Safe Attachments** - Protect against unknown malware and viruses by opening attachments in cordoned-off virtual environments to detect malicious behavior.
 - **Safe Links** - Provide real-time, time-of-click protection against malicious URLs by wrapping external links in special URLs that check the destination URL for threats before opening them.

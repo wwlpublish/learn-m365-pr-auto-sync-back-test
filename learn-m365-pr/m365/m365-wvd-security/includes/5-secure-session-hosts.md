@@ -21,7 +21,7 @@ Customers can take several actions and use multiple tools to help secure their W
 
 ## Enable endpoint protection by using Microsoft Defender for Endpoint
 
-To help secure a company's endpoints, we recommend that you configure Microsoft Defender for Endpoint. It was previously known as Microsoft Defender Advanced Threat Protection. Microsoft Defender for Endpoint is typically used on-premises but can also be used in a virtual desktop infrastructure (VDI) environment.
+To help secure a company's endpoints, we recommend that you configure Microsoft Defender for Endpoint. It was previously known as Microsoft Defender for Endpoint. Microsoft Defender for Endpoint is typically used on-premises but can also be used in a virtual desktop infrastructure (VDI) environment.
 
 To deploy Microsoft Defender for Endpoint on your Windows Virtual Desktop VMs, enroll the VMs into Azure Security Center. Security Center provides a license as part of its standard offering. 
 
