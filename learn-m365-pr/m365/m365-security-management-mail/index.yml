@@ -1,21 +1,19 @@
 ### YamlMime:Module
 uid: learn-m365.m365-security-management-mail
 metadata:
-  title: Protect mail with Advanced Threat Protection
-  description: Learn how Advanced Threat Protection (ATP) helps safeguard your organization against unknown malware, viruses, and harmful email links and attachments.
+  title: Protect mail with Microsoft Defender for Endpoint
+  description: Learn how Microsoft Defender for Endpoint helps safeguard your organization against unknown malware, viruses, and harmful email links and attachments.
   ms.date: 2/24/20
   author: AlexandraHrt
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Protect mail with Advanced Threat Protection
-summary: Learn how Advanced Threat Protection (ATP) helps safeguard your organization against unknown malware, viruses, and harmful email links and attachments.
+title: Protect mail with Microsoft Defender for Endpoint
+summary: Learn how Microsoft Defender for Endpoint helps safeguard your organization against unknown malware, viruses, and harmful email links and attachments.
 abstract: |
   In this module, you will learn how to:
-  - Understand the protection available using ATP policies
-  - Define mail protection using ATP policies
-
-  **IMPORTANT**: Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813). We'll be updating names in products and in the Learn content in the near future.  
+  - Understand the protection available using Microsoft Defender for Endpoint policies
+  - Define mail protection using Microsoft Defender for Endpoint policies
 prerequisites: | 
  - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
 iconUrl: /learn/achievements/protect-mail-with-office-365-advanced-threat-protection.svg

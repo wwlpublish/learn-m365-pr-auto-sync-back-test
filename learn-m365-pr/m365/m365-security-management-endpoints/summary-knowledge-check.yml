@@ -17,9 +17,9 @@ quiz:
     questions:
     - content: "An end user in the finance department has reported unusual behavior that when they launch a PowerPoint file they notice a command prompt gets launched in the background. As a security administrator what can you implement to prevent unknown or malicious behavior like this from occurring?"
       choices:
-      - content: "Microsoft Defender Advanced Threat Protection"
+      - content: "Microsoft Defender for Endpoint"
         isCorrect: false
-        explanation: "Microsoft Defender ATP contains many protection features, including what should be used here, but simply having Microsoft Defender ATP would not prevent this behavior."
+        explanation: "Microsoft Defender for Endpoint contains many protection features, including what should be used here, but simply having Microsoft Defender for Endpoint would not prevent this behavior."
       - content: "Windows Defender Firewall"
         isCorrect: false
         explanation: "Windows Defender Firewall blocks unauthorized network traffic flowing into or out of the local device, working with Network Awareness to apply security settings appropriate to the types of networks to which the device is connected."

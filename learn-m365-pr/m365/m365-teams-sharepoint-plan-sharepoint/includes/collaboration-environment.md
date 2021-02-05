@@ -31,7 +31,7 @@ Microsoft 365 provides a variety of tools that you can use in conjunction with S
 - **Manage devices.** Use device management to ensure your organization's information is accessed only from compliant devices and apps that you trust.
 - **Review users.** Use Azure Active Directory access reviews to automate a periodic review of group and team ownership and membership.
 - **Manage risk.** Use Microsoft Cloud App Security to monitor activity that you consider to be risky for your organization's data.
-- **Protect against malware.** Use Office 365 Advanced Threat Protection to protect against users uploading malicious files to SharePoint or Teams.
+- **Protect against malware.** Use Microsoft Defender for Office 365 to protect against users uploading malicious files to SharePoint or Teams.
 - **Monitor information.** Use reports to ensure your governance requirements are met and sensitive information is being kept secure.
 
 As you plan for SharePoint, consider which of these tools best enable you to create the collaboration environment that you need. The module **Collaborate with files and folders in SharePoint** includes an in-depth look at how file collaboration works in SharePoint.
