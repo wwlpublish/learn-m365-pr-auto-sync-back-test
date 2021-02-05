@@ -1,9 +1,6 @@
->[!IMPORTANT]
->Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813). We'll be updating names in products and in the Learn content in the near future.
+Microsoft Defender for Identity security alerts explain the suspicious activities detected by Microsoft Defender for Identity sensors on your network, and the actors and computers involved in each threat. Alert evidence lists contain direct links to the involved users and computers, to help make your investigations easy and direct.
 
-Azure ATP security alerts explain the suspicious activities detected by Azure ATP sensors on your network, and the actors and computers involved in each threat. Alert evidence lists contain direct links to the involved users and computers, to help make your investigations easy and direct.
-
-Azure ATP security alerts are divided into the following categories or phases, like the phases seen in a typical cyber-attack kill chain:
+Microsoft Defender for Identity security alerts are divided into the following categories or phases, like the phases seen in a typical cyber-attack kill chain:
 
 - Reconnaissance phase alerts
 - Compromised credential phase alerts
@@ -11,14 +8,14 @@ Azure ATP security alerts are divided into the following categories or phases, l
 - Domain dominance phase alerts
 - Exfiltration phase alerts
 
-Each Azure ATP security alert includes:
+Each Microsoft Defender for Identity security alert includes:
 
-- **Alert title.** Official Azure ATP name of the alert.
+- **Alert title.** Official Microsoft Defender for Identity name of the alert.
 - **Description.** Brief explanation of what happened.
 - **Evidence.** Additional relevant information and related data about what happened to help in the investigation process.
 - **Excel download.** Detailed Excel download report for analysis
 
-![Azure ATP security alert](../media/security-alert.png)
+![Microsoft Defender for Identity security alert](../media/security-alert.png)
 
 Alerts can also be viewed within Microsoft Cloud App Security:
 
@@ -46,7 +43,7 @@ The next alert shows a **Suspected identity theft (pass-the-ticket)**.
 
 [ ![Pass-the-ticket alert](../media/pass-ticket-alert.png) ](../media/pass-ticket-alert-magnify.png#lightbox)
 
-Azure ATP has detected theft of a ticket from a domain administrator to the infiltrated PC. The Cloud App Security portal shows exactly which resources were accessed using the stolen tickets.
+Microsoft Defender for Identity has detected theft of a ticket from a domain administrator to the infiltrated PC. The Cloud App Security portal shows exactly which resources were accessed using the stolen tickets.
 
 [ ![More information on the pass-the-ticket alert](../media/alert-pass-ticket.png) ](../media/alert-pass-ticket-magnify.png#lightbox)
 

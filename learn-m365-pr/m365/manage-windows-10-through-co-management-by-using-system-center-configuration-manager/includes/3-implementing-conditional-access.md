@@ -9,7 +9,7 @@ With co-management, Intune evaluates every device in your network to determine h
 
 1. Intune ensures a device or app is managed and secure, based on any way you choose to set your organization’s compliance policies (for example, make sure all devices have encryption enabled and are not jailbroken).
 
-1. Intune detects active security incidents on a device thanks to the intelligent security of Windows Defender Advanced Threat Protection and other mobile threat defense providers.
+1. Intune detects active security incidents on a device thanks to the intelligent security of Microsoft Defender for Endpoint and other mobile threat defense providers.
 
 Conditional Access also provides you with a centralized place to see the health of all network-connected devices, and you get the advantages of cloud scale – which is especially valuable for testing ConfigMgr production instances.
 

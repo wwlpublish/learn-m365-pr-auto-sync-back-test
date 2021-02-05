@@ -9,7 +9,7 @@ Here, you'll learn about the advanced protection tools that are available in Tea
 
 ## Manage security
 
-**Microsoft Advanced Threat Protection (ATP)** is a unified platform for detecting and blocking files identified as malicious. Microsoft Defender ATP protects endpoints from cyber threats, detects advanced attacks and data breaches, and automates the handling of security incidents. It's available for Microsoft Teams, and SharePoint and OneDrive, which are used by Teams for content management. ATP allows you to identify malicious content in any of these applications and block the content from user access.
+**Microsoft Defender for Endpoint** is a unified platform for detecting and blocking files identified as malicious. Microsoft Defender for Endpoint protects endpoints from cyber threats, detects advanced attacks and data breaches, and automates the handling of security incidents. It's available for Microsoft Teams, and SharePoint and OneDrive, which are used by Teams for content management. Microsoft Defender for Office 365 allows you to identify malicious content in any of these applications and block the content from user access.
 
 **Safe attachments** detects malicious attachments. Global or security administrators create policies for handling these suspected malicious attachments to prevent them from being sent to users, clicked, and acted upon. Safe attachment protection is available to SharePoint, OneDrive, and Microsoft Teams.
 

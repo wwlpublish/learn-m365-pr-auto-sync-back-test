@@ -2,17 +2,17 @@
 uid: learn-m365.teams.defends-against-threats
 metadata:
   title: Defend against threats in Teams
-  description: Learn about the powerful tools that can help identify and protect your cloud-based services using Advanced Threat Protection (ATP), Cloud App Security, and Conditional Access.
+  description: Learn about the powerful tools that can help identify and protect your cloud-based services using Microsoft Defender for Endpoint, Cloud App Security, and Conditional Access.
   ms.date: 09/03/2020
   ms.author: elizapo
   author: lizap
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 title: Defend against threats in Teams
-summary: Learn about the powerful tools that can help identify and protect your cloud-based services using Advanced Threat Protection (ATP), Cloud App Security, and Conditional Access.
+summary: Learn about the powerful tools that can help identify and protect your cloud-based services using Microsoft Defender for Endpoint, Cloud App Security, and Conditional Access.
 abstract: |
   At the end of this module, you should be able to:
-  - Describe the Advanced Threat Protection (ATP) features within Teams.
+  - Describe the Microsoft Defender for Endpoint features within Teams.
   - Describe how security is implemented for cloud applications.
   - Explain how to restrict and control access to Teams resources using Conditional Access.
 

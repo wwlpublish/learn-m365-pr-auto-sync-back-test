@@ -1,6 +1,3 @@
->[!IMPORTANT]
->Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813). We'll be updating names in products and in the Learn content in the near future.
-
 ## Threat and vulnerability management
 
  [ ![Threat and Vulnerability Management dashboard](../media/threat-vulnerability-management-dashboard.png) ](../media/threat-vulnerability-management-dashboard-magnify.png#lightbox)
@@ -15,7 +12,7 @@ It provides the following solutions to gaps across security operations, security
 
 - Real-time endpoint detection and response (EDR) insights correlated with endpoint vulnerabilities
 - Linked machine vulnerability and security configuration assessment data in the context of exposure discovery
-- Built-in remediation processes through Microsoft Intune and Microsoft Microsoft Endpoint Manager
+- Built-in remediation processes through Microsoft Intune and Microsoft Endpoint Manager
 
 For example, using the security recommendations present in the portal, an administrator could request that an application be updated, which would then notify the Intune team to remediate the request.
 
@@ -53,19 +50,19 @@ Microsoft Defender Antivirus is a built-in antimalware solution that provides ne
 
 The following proxy and network settings should be considered:
 
-- The Microsoft Defender ATP sensor requires Microsoft Windows HTTP (WinHTTP) to report sensor data and communicate with the Microsoft Defender ATP service. 
-- The embedded Microsoft Defender ATP sensor runs in system context using the LocalSystem account. The sensor uses Microsoft Windows HTTP Services (WinHTTP) to enable communication with the Microsoft Defender ATP cloud service. 
+- The Microsoft Defender for Endpoint sensor requires Microsoft Windows HTTP (WinHTTP) to report sensor data and communicate with the Microsoft Defender for Endpoint service. 
+- The embedded Microsoft Defender for Endpoint sensor runs in system context using the LocalSystem account. The sensor uses Microsoft Windows HTTP Services (WinHTTP) to enable communication with the Microsoft Defender for Endpoint cloud service. 
 - The WinHTTP configuration setting is independent of the Windows Internet (WinINet) internet browsing proxy settings and can only discover a proxy server by using the following auto discovery methods: 
   - Transparent proxy
   - Web Proxy Auto-discovery Protocol (WPAD)
 
 ## Endpoint detection and response
 
-Microsoft Defender ATP endpoint detection and response capabilities provide advanced attack detections that are near real-time and actionable. Security analysts can prioritize alerts effectively, gain visibility into the full scope of a breach, and take response actions to remediate threats.
+Microsoft Defender for Endpoint endpoint detection and response capabilities provide advanced attack detections that are near real-time and actionable. Security analysts can prioritize alerts effectively, gain visibility into the full scope of a breach, and take response actions to remediate threats.
 
 When a threat is detected, alerts are created in the system for an analyst to investigate. Alerts with the same attack techniques or attributed to the same attacker are aggregated into an entity called an **incident**. Aggregating alerts in this manner makes it easy for analysts to collectively investigate and respond to threats.
 
-Inspired by the "assume breach" mindset, Microsoft Defender ATP continuously collects behavioral cyber telemetry. This includes process information, network activities, deep optics into the kernel and memory manager, user login activities, registry and file system changes, and others. The information is stored for six months, enabling an analyst to travel back in time to the start of an attack. The analyst can then pivot using various views and approach an investigation through multiple vectors.
+Inspired by the "assume breach" mindset, Microsoft Defender for Endpoint continuously collects behavioral cyber telemetry. This includes process information, network activities, deep optics into the kernel and memory manager, user login activities, registry and file system changes, and others. The information is stored for six months, enabling an analyst to travel back in time to the start of an attack. The analyst can then pivot using various views and approach an investigation through multiple vectors.
 
 The Security operations dashboard (below) is where the endpoint detection and response capabilities are surfaced. It provides a high-level overview of where detections were seen and highlights where response actions are needed. 
 
@@ -73,7 +70,7 @@ The Security operations dashboard (below) is where the endpoint detection and re
 
 ## Automated investigation and remediation
 
-Microsoft Defender ATP offers a wide breadth of visibility on multiple machines. With this kind of optics, the service generates a multitude of alerts. The volume of alerts generated can be challenging for a typical security operations team to individually address. To address this challenge, Microsoft Defender ATP uses automated investigation and remediation capabilities to significantly reduce the volume of alerts that must be investigated individually.
+Microsoft Defender for Endpoint offers a wide breadth of visibility on multiple machines. With this kind of optics, the service generates a multitude of alerts. The volume of alerts generated can be challenging for a typical security operations team to individually address. To address this challenge, Microsoft Defender for Endpoint uses automated investigation and remediation capabilities to significantly reduce the volume of alerts that must be investigated individually.
 
  [ ![Automated investigations](../media/automated-investigations.png) ](../media/automated-investigations-magnify.png#lightbox)
 

@@ -27,17 +27,17 @@ quiz:
       isCorrect: false
       explanation: "That's incorrect. The Cloud App Security framework doesn't allow you to assess compliance. It does allow you to sanction or unsanction Shadow IT apps."
  
-  - content: "Which three services are part of Advanced Threat Protection?"
+  - content: "Which three services are part of Microsoft Defender?"
     choices:
-    - content: "Microsoft Defender ATP, Azure ATP, Microsoft Cloud App Security"
+    - content: "Microsoft Defender for Endpoint, Microsoft Defender for Identity, Microsoft Cloud App Security"
       isCorrect: true
       explanation: "That's correct. These four technologies work together to allow you to protect users, endpoints and data. (**IMPORTANT**: Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813).)"
-    - content: "Microsoft 365 ATP, Conditional Access, Microsoft Cloud App Security"
+    - content: "Microsoft Defender for Endpoint, Conditional Access, Microsoft Cloud App Security"
       isCorrect: false
-      explanation: "That's incorrect. Conditional Access isn't part of Microsoft Advanced Threat Protection."
+      explanation: "That's incorrect. Conditional Access isn't part of Microsoft Defender."
     - content: "Conditional Access, Compliance and Security, Microsoft Cloud App Security"
       isCorrect: false
-      explanation: "That's incorrect. Conditional Access isn't part of Microsoft Advanced Threat Protection. Compliance and Security isn't a specific Microsoft technology."
+      explanation: "That's incorrect. Conditional Access isn't part of Microsoft Defender. Compliance and Security isn't a specific Microsoft technology."
 
   - content: "What security model does Conditional Access comply with?"
     choices:
@@ -56,9 +56,9 @@ quiz:
     - content: "Conditional Access"
       isCorrect: false
       explanation: "That's incorrect. Conditional Access doesn't include antivirus protection."
-    - content: "Advanced Threat Protection (ATP)"
+    - content: "Microsoft 365 Defender"
       isCorrect: true
-      explanation: "That's correct. ATP includes next generation antivirus protection."
+      explanation: "That's correct. Microsoft 365 Defender includes next generation antivirus protection."
     - content: "Cloud app security"
       isCorrect: false
       explanation: "That's incorrect. Cloud app security doesn't include antivirus protection."

@@ -17,7 +17,7 @@ quiz:
 
   - content: "What would you use to determine whether a PDF file sent to a user is malicious?"
     choices:
-    - content: Microsoft Advanced Threat Protection (ATP)
+    - content: Microsoft Defender for Endpoint
       isCorrect: false
       explanation: "That's incorrect. Safe Links doesn't check and identify malicious attachments."
     - content: "Data loss prevention"
