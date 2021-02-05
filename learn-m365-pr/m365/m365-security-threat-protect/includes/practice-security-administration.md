@@ -84,7 +84,7 @@ The automated investigation feature uses various inspection algorithms, and proc
 
 ### Explore how to reduce organizational risk with Threat and Vulnerability Management
 
-View a [video version](https://www.microsoft.com/en-us/videoplayer/embed/RE4AFt9) of the interactive guide (captions available in more languages).
+View a [video version](https://www.microsoft.com/videoplayer/embed/RE4AFt9) of the interactive guide (captions available in more languages).
 
 <a href="https://mslearn.cloudguides.com/guides/Reduce%20organizational%20risk%20with%20Threat%20and%20Vulnerability%20Management">![Reduce organizational risk with Threat and Vulnerability Management](../media/reduce-organizational-risk.png)</a>  
 

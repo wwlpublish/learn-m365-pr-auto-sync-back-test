@@ -1,6 +1,3 @@
->[!IMPORTANT]
->Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813). We'll be updating names in products and in the Learn content in the near future.
-
 **Microsoft Defender for Identity** is a cloud-based security solution that leverages your on-premises Active Directory signals to identify, detect, and investigate advanced threats, compromised identities, and malicious insider actions directed at your organization.
 
 ![The benefits of Microsoft Defender for Identity](../media/azure-benefits.png)
@@ -44,6 +41,6 @@ This is not the complete set of detections, but it shows the breadth of detectio
 
 View a [video version](https://www.microsoft.com/videoplayer/embed/RE4Gq4n) of the interactive guide (captions available in more languages).
 
-<a href="https://mslearn.cloudguides.com/en-us/guides/Detect%20suspicious%20activities%20and%20potential%20attacks%20with%20Microsoft%20Defender%20for%20Identity">![Detect suspicious activities and potential attacks with Microsoft Defender for Identity](../media/detect-suspicious-activities.png)</a> 
+<a href="https://mslearn.cloudguides.com/guides/Detect%20suspicious%20activities%20and%20potential%20attacks%20with%20Microsoft%20Defender%20for%20Identity">![Detect suspicious activities and potential attacks with Microsoft Defender for Identity](../media/detect-suspicious-activities.png)</a> 
 
 Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 

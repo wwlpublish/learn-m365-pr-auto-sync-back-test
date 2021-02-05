@@ -2,9 +2,9 @@ Advanced hunting within Microsoft Defender for Endpoint allows you to hunt for p
 
 ### Explore how to investigate and remediate threats with Microsoft Defender for Endpoint
 
-View a [video version](https://www.microsoft.com/en-us/videoplayer/embed/RE4GfeG) of the interactive guide (captions available in more languages).
+View a [video version](https://www.microsoft.com/videoplayer/embed/RE4GfeG) of the interactive guide (captions available in more languages).
 
-<a href="https://mslearn.cloudguides.com/en-us/guides/Investigate%20and%20remediate%20threats%20with%20Microsoft%20Defender%20for%20Endpoint">![Microsoft Defender for Endpoint](../media/investigate-remediate.png)</a>  
+<a href="https://mslearn.cloudguides.com/guides/Investigate%20and%20remediate%20threats%20with%20Microsoft%20Defender%20for%20Endpoint">![Microsoft Defender for Endpoint](../media/investigate-remediate.png)</a>  
 
 Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
 

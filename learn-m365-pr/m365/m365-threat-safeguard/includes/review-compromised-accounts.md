@@ -68,7 +68,7 @@ With domain administrative permissions, the attacker has effectively compromised
 
 ### Explore how to investigate and respond to attacks with Microsoft Defender for Identity
 
-View a [video version](https://www.microsoft.com/en-us/videoplayer/embed/RE4GiZJ) of the interactive guide (captions available in more languages).
+View a [video version](https://www.microsoft.com/videoplayer/embed/RE4GiZJ) of the interactive guide (captions available in more languages).
 
 <a href="https://mslearn.cloudguides.com/guides/Investigate%20and%20respond%20to%20attacks%20with%20Microsoft%20Defender%20for%20Identity">![Microsoft Defender for Identity](../media/investigate-respond.png)</a>  
 
