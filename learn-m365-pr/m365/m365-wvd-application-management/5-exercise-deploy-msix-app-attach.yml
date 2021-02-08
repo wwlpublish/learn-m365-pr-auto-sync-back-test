@@ -3,7 +3,7 @@ uid: learn-m365.wvd-msix-app-attach.exercise-deploy-msix-app-attach
 title: Exercise - Deploy MSIX app attach
 metadata:
   title: Exercise - Deploy MSIX app attach
-  description: Exercise to prepare WVD environment, prepare host pool and share, publish an MSIX app attach, and test MSIX app attach.
+  description: Exercise to prepare a Windows Virtual Desktop environment, prepare and share a host pool, publish MSIX app attach, and test MSIX app attach.
   ms.date: 01/15/2021
   author: ndelgado
   ms.author: nedelgad
