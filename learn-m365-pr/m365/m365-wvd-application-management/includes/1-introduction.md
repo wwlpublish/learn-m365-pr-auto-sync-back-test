@@ -1,4 +1,4 @@
-Learn how to deliver applications by using MSIX app attach. MSIX app attach is Microsoft technology that enables you to separate applications and their state from the operating system and assign applications to users dynamically.
+Learn how to deliver applications by using MSIX app attach. MSIX app attach is Microsoft application delivery technology that enables you to separate applications and their state from the operating system and assign applications to users dynamically.
 
 Suppose you work as a senior administrator at Contoso, Ltd., a midsize financial services company in London with a branch office in New York. Contoso has migrated existing Remote Desktop Services to Windows Virtual Desktop, so it no longer needs to manage basic infrastructure components like Remote Desktop Session Host servers and gateways. Contoso is also using Microsoft 365 and Azure for file management options at the user and file share levels.
 

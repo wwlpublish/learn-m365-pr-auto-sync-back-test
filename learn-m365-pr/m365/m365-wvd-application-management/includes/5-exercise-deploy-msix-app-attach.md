@@ -8,9 +8,9 @@ In this exercise, you'll add and test MSIX app attach.
 ## Add MSIX app attach in Windows Virtual Desktop
 
 1. Open the Azure portal. In **Search resources, services and docs (G+I)**, enter and then select **Windows Virtual Desktop**.
-2. On the **Windows Virtual Desktop** page, on the left menu, select **Host pools**.
+2. On the **Windows Virtual Desktop** page, select **Host pools** from the left menu.
 3. On the **Windows Virtual Desktop | Host pools** page, select the desired host pool.
-4. On the **_your host pool_** page, from the **Manage** section of the left menu, select **MSIX packages**.
+4. On the **_your host pool_** page, on the left menu, select **MSIX packages** under the **Manage** section.
 5. On the **_your host pool_ | MSIX packages** page from the toolbar, select **+ Add**.
 6. In the **Add MSIX package** window, in the **MSIX image path** field, add the UNC path of your MSIX image.
 
@@ -21,7 +21,7 @@ In this exercise, you'll add and test MSIX app attach.
 
     |||
     |---|---|
-    |**MSIX image path**|Select the UNC path of the MSIX image.|
+    |**MSIX image path**|The UNC path of the MSIX image.|
     |**MSIX package**|Select the MSIX package loaded from the MSIX image.|
     |**Package applications**|The names of the MSIX applications loaded from the MSIX package are already selected.|
     |**Display name**|Enter a descriptive name. |
@@ -37,7 +37,7 @@ In this exercise, you'll add and test MSIX app attach.
 
 1. On the **Windows Virtual Desktop** page, on the left menu, select **Application groups**.
 2. On the **Windows Virtual Desktop | Application groups** page, select the desired application group.
-3. On the application group page, in the **Manage** section of the left menu, select **Applications**.
+3. On the application group page, on the left menu, select **Applications** under the **Manage** section.
 4. On the **_your application group_ | Applications** page from the toolbar, select **+ Add**.
 5. In the **Add application** window, provide the following information:
 
@@ -57,7 +57,7 @@ In this exercise, you'll add and test MSIX app attach.
 
 1. On the **Windows Virtual Desktop** page, on left menu, select **Application groups**.
 2. On the **Windows Virtual Desktop | Application groups** page, select the desired application group.
-3. On the application group page, in the **Manage** section of the left menu, select **Assignments**.
+3. On the application group page, on the left menu, select **Assignments** under the **Manage** section.
 4. On the **_your application group_ | Assignments** page, from the toolbar, select **+ Add**.
 5. On the **Select Azure AD users or user groups** page, select your users or groups, and then choose **Select**.
 
