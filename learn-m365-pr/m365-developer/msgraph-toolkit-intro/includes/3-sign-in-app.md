@@ -42,4 +42,4 @@ If you have an existing authentication mechanism in your application to access M
 
 ## What is the purpose of adding Login component in your application
 
-Once the right provider is initialized in your application, you can add Login component of the Toolkit to implement login and logout functionality and all the authentication mechanism associated with it using one line of code for the component.
+Once the right provider is initialized in your application, you can add Login component of the Toolkit to implement login and logout functionality and all the authentication logic associated with it using one line of code in the application.
