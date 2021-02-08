@@ -38,9 +38,9 @@ quiz:
       - content: "Microsoft Cloud App Security (MCAS)"
         isCorrect: false
         explanation: "MCAS features alerts in the Microsoft 365 security center."
-      - content: "Office Defender Advanced Threat Protection"
+      - content: "Microsoft Defender for Endpoint"
         isCorrect: true
-        explanation: "Correct. Office Defender ATP is not an available solution. Office 365 ATP and Windows Defender ATP are featured in the Microsoft 365 security center."
+        explanation: "Correct. Microsoft Defender for Office 365 is not an available solution. Microsoft Defender for Endpoint is featured in the Microsoft 365 security center."
       - content: "Intune device compliance"
         isCorrect: false
         explanation: "Device compliance features reporting and alerts in the Microsoft 365 security center."

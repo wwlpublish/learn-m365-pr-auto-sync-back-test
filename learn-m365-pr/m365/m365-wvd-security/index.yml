@@ -2,25 +2,25 @@
 uid: learn-m365.wvd-security
 metadata:
   title: "Secure a Windows Virtual Desktop deployment"
-  description: Introduction to Microsoft security capabilities that can keep your applications and data secure in your Windows Virtual Desktop deployment.
+  description: Introduction to Microsoft security capabilities that can help keep your applications and data secure in your Windows Virtual Desktop deployment.
   ms.date: 01/15/2021
   author: ndelgado
   ms.author: nedelgad
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: "Secure a Windows Virtual Desktop deployment"
-summary: Introduction to Microsoft security capabilities that can keep your applications and data secure in your Windows Virtual Desktop deployment.
+summary: Introduction to Microsoft security capabilities that can help keep your applications and data secure in your Windows Virtual Desktop deployment.
 abstract: |
-  After completing this module, you’ll be able to:
-  - Secure the user’s identity used to access their Windows Virtual Desktop environment.
+  After completing this module, you'll be able to:
+  - Secure the user identity that can access the Windows Virtual Desktop environment.
   - Use AppLocker to secure the accessed desktop.
 prerequisites: |
-  - Intermediate knowledge of Microsoft Azure services such as Core Azure compute, storage, networking, and virtualization technologies.
+  - Intermediate knowledge of Microsoft Azure services such as core Azure compute, storage, networking, and virtualization technologies.
   - Intermediate knowledge of Azure operational concepts, such as monitoring, logging, and alerting.
   - Familiarity with Windows Virtual Desktop.
   - Knowledge of security concepts at a fundamental level.
-  - An Azure subscription to enable a Windows Virtual Desktop deployment using setup scripts. 
-  - The Remote Desktop app for Windows. If you are using an OS other than Windows, you will need to download the appropriate Remote Desktop client by using the links found at <https://aka.ms/wvd/clients>
+  - An Azure subscription to enable a Windows Virtual Desktop deployment by using setup scripts. 
+  - The Remote Desktop app for Windows. If you're using an operating system other than Windows, download the appropriate Remote Desktop client by using the links in the [Remote Desktop clients](https://docs.microsoft.com/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients) article.
 iconUrl: /learn/achievements/wvd-security.svg
 ratingEnabled: true
 levels:
