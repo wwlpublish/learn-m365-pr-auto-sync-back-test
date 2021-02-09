@@ -1,14 +1,12 @@
 # Exercise - Sign in your app with the Microsoft Graph Toolkit Components
 
-In this exercise you will create a web application that uses Login component and MSAL provider of Microsoft Graph Toolkit to sign in users to access Microsoft Graph.
+Inq this exercise you will create a web application that uses Login component and MSAL provider of Microsoft Graph Toolkit to sign in users to access Microsoft Graph.
 
 ## Set up the app structure of your web app
 
 ### Create a new folder
 
 ### Create a HTML file
-
-### Install Visual Studio Code extension
 
 ## Add code to sign in app with Login component
 
