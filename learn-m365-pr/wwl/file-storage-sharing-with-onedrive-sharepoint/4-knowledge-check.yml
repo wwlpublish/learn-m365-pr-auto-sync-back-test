@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 08/12/2020
+  ms.date: 02/09/2021
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -31,10 +31,10 @@ quiz:
     choices:
     - content: "Skype"
       isCorrect: false
-      explanation: "That's incorrect. From the SharePoint Online home screen, you can create Team sites or Communication sites."
+      explanation: "That's incorrect. From the SharePoint home screen, you can create Team sites or Communication sites."
     - content: "Team"
       isCorrect: true
-      explanation: "That's correct. From the SharePoint Online home screen, you can create Team sites or Communication sites."
+      explanation: "That's correct. From the SharePoint home screen, you can create Team sites or Communication sites."
     - content: "OneDrive"
       isCorrect: false
-      explanation: "That's incorrect. From the SharePoint Online home screen, you can create Team sites or Communication sites."
+      explanation: "That's incorrect. From the SharePoint home screen, you can create Team sites or Communication sites."
