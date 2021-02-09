@@ -1,14 +1,14 @@
 # Sign in your app using Microsoft Graph Toolkit components
 
-Upon completing this module, you will learn how to authenticate your application to access Microsoft Graph using the Login component of the Toolkit.
+Upon completing this module, you'll learn how to authenticate your application to access Microsoft Graph using the Login component of the Toolkit.
 
 ## What is the purpose of adding Login component in your application
 
 You can add Login component of the Toolkit to implement login and logout functionality and all the authentication logic associated with it using one line of code in the application.
-A Toolkit provider needs to be initialized to use the login component to work.
+Initialize a Toolkit provider to use the login component in your application.
 
 ## What are providers in Microsoft Graph Toolkit
 
 Providers simplify implementing authentication for your application and make calls to Microsoft Graph using the JavaScript client SDK.
-Providers are required and needs to be initialized before using any web components in the Toolkit.However, providers can be used on their own, without components to implement authentication for your application.
-Providers vary depending on the platform in which you are using the Toolkit components in your application, here we use the widely used MSAL provider.
+Initialize a provider before you use any other Toolkit component. However, they can also be used on their own, without components to implement authentication for your application.
+There are different providers, depending on the platform in which you're using the Toolkit components in your application, here you'll set up the widely used MSAL provider.
