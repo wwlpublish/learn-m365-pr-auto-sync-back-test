@@ -2,8 +2,8 @@
 uid: learn.wwl.describe-service-life-cycle-microsoft-365
 metadata:
   title: Describe the service life cycle in Microsoft 365
-  description: "Learn about the service lifecycle in Microsoft 365."
-  ms.date: 08/12/2020
+  description: "Describe the service life cycle in Microsoft 365"
+  ms.date: 02/09/2021
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -14,7 +14,6 @@ abstract: |
   Upon completion of this module, the learner will be able to:
   - Describe the service lifecycle in Microsoft 365
   - Describe private, public preview, and General Availability (GA) options
-  - Describe the correlation between lifecycle options and pricing
   - Describe use cases and capabilities for the Microsoft 365 Roadmap portal
 prerequisites: |
   None
