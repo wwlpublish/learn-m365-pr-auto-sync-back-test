@@ -17,16 +17,25 @@ Now, we would like to show upcoming calendar events for signed-in user in our ap
 
 Final version of your HTML file will be as shown below:
 
-:::image type="content" source="../media/.." alt-text="HTML with Agenda component":::
+```html
+<!DOCTYPE html>
+<html lang="en">
+    <head>    
+        <script src="https://unpkg.com/@microsoft/mgt/dist/bundle/mgt-loader.js"></script>
+    </head>
+    <body>    
+        <mgt-msal-provider client-id="YOUR-CLIENT-ID"></mgt-msal-provider>    
+        <mgt-login></mgt-login>
+        <mgt-agenda></mgt-agenda>
+    </body>
+</html>
+```
 
 ## Test your app in browser
 
-1. Open **Command Palette** in Visual Studio Code with **`CTRL + Shift + P`**.
+1. In Visual Studio Code, run **Live Server** to test your app. Open your browser and go to http://localhost:3000.
 
-2. Select **Live Server: Open with Live Server** to run your app locally:
-:::image type="content" source="../media/06-LiveServer.png" alt-text="Live Server":::
+2. Sign in with your Microsoft 365 developer tenant. Consent required calendar permissions and select **Accept**.
 
-3. Now, your app is running on `http://localhost:3000`, sign-in with your account and consent permissions:
-:::image type="content" source="../media/..." alt-text="Permissions":::
-
-4. 
+3. Finally, your app will show user's upcoming calendar events:
+:::image type="content" source="../media/06-final.gif" alt-text="Microsoft Graph Toolkit project final result":::
