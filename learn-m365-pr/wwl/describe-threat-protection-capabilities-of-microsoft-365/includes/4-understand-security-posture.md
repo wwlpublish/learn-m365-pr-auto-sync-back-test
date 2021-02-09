@@ -7,7 +7,7 @@ Enter Microsoft 365 security center, the new home for monitoring and managing se
 
 :::image type="content" source="../media/4-security-center-v3.png" alt-text="Welcome to Microsoft 365 Security Center":::
 
-For more information, read [Overview of the Microsoft 365 security center](https://docs.microsoft.com/microsoft-365/security/mtp/overview-security-center?view=o365-worldwide)
+For more information, read [Overview of the Microsoft 365 security center](https://docs.microsoft.com/microsoft-365/security/mtp/overview-security-center?view=o365-worldwide).
 
 ## Microsoft Secure Score
 
@@ -28,7 +28,7 @@ In the Microsoft Secure Score overview page, you can see how points are split be
 
 :::image type="content" source="../media/4-secure-score-v4.png" alt-text="Microsoft Secure Score":::
 
-For more information, read [Microsoft Secure Score](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score?view=o365-worldwide)
+For more information, read [Microsoft Secure Score](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score?view=o365-worldwide).
 
 
 

@@ -28,7 +28,7 @@ MSDI enables security professionals struggling to detect advanced attacks in hyb
 * Identify suspicious activities and advanced attacks across the cyber-attack kill-chain - Typically, attacks are launched against any accessible entity, such as a low-privileged user, and then quickly move laterally until the attacker gains access to valuable assets – such as sensitive accounts, domain administrators, and highly sensitive data.  MSDI identifies these advanced threats at the source throughout the entire cyber-attack kill chain.
 * Investigate alerts and user activities - MSDI is designed to reduce general alert noise, providing only relevant, important security alerts in a simple, real-time organizational attack timeline.
 
-For more information, read What is [Azure Advanced Threat Protection?](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp)
+For more information, read [What is Microsoft Defender for Identity?](https://docs.microsoft.com/defender-for-identity/what-is)
 
 ## Microsoft Defender for Endpoint
 
@@ -45,7 +45,7 @@ Microsoft Defender for Endpoint (MSDE) is a platform designed to help enterprise
 There are seven pillars to Microsoft Defender for Endpoint (MSDE):
 
 * Threat & vulnerability management - Threat and vulnerability management is a risk-based approach to the discovery, prioritization, and remediation of endpoint vulnerabilities and misconfigurations. It uses sensors on devices to avoid the need for agents or scans and prioritizes vulnerabilities.
-* Attack surface reduction - Attack surface reduction reduces the places where your organization is vulnerable to cyberthreats and attacks.. You can ensure that only allowed apps can run and prevent apps from accessing dangerous locations.
+* Attack surface reduction - Attack surface reduction reduces the places where your organization is vulnerable to cyberthreats and attacks. You can ensure that only allowed apps can run and prevent apps from accessing dangerous locations.
 * Next Generation protection - Microsoft Defender Antivirus is the next-generation protection component of MSDE. Next-generation protection brings together machine learning, big-data analysis, in-depth threat resistance research, and the Microsoft cloud infrastructure to protect devices in your enterprise organization.
 * Endpoint detection and response - MSDE endpoint detection and response capabilities provide advanced attack detections that are near real-time and actionable. Security analysts can prioritize alerts, gain visibility into the full scope of a breach, and take response actions to remediate threats.
 * Automated investigation & remediation - The automated investigation feature uses various inspection algorithms, and processes used by analysts (such as playbooks) to examine alerts and take immediate remediation action to resolve breaches. This significantly reduces the volume of alerts that must be investigated individually.
@@ -56,7 +56,7 @@ In this video, you'll learn more about Microsoft Defender for Endpoint:
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4zwew]
 
-For more information, read [Microsoft Defender Advanced Threat Protection](https://www.microsoft.com/videoplayer/embed/RE4zwew)
+For more information, read [Microsoft Defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
 
 ## Microsoft Cloud App Security
 
@@ -100,4 +100,4 @@ Microsoft Defender for Office 365 comes in two flavors, as shown in the table be
 | [ATP anti-phishing protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies?view=o365-worldwide#exclusive-settings-in-atp-anti-phishing-policies) - Detects attempts to impersonate your users and internal or custom domains.                                                                                                | [Attack Simulator](https://docs.microsoft.com/microsoft-365/security/office-365-security/attack-simulator?view=o365-worldwide) - allows you to run realistic attack scenarios in your organization to identify vulnerabilities.                                               |
 | [Real-time detections](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer?view=o365-worldwide) - a real-time report that allows you to identify and analyze recent threats.                                                                                                        |                                                                                                                                                                 |
 
-To learn more, see [Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide).
+To learn more, see [Microsoft Defender for Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide).

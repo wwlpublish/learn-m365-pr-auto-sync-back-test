@@ -2,9 +2,9 @@
 uid: learn.wwl.describe-threat-protection-capabilities-of-microsoft-365.describe-value-that-intelligent-security-graph-provides-securing-organizations-f
 title: Describe Microsoft's Intelligent Security Graph and Azure Sentinel
 metadata:
-  title: Describe the value that the intelligent security graph provides in securing organizations from threats
-  description: "Define your security posture with Microsoft Security Center and Secure Score"
-  ms.date: 09/25/2020
+  title: Describe Microsoft's Intelligent Security Graph and Azure Sentinel
+  description: "Describe Microsoft's Intelligent Security Graph and Azure Sentinel"
+  ms.date: 02/09/2021
   author: wwlpublish
   ms.author: ceperezb
   ms.topic: interactive-tutorial
