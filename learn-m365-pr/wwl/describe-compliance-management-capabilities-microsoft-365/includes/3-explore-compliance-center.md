@@ -9,7 +9,7 @@ The Microsoft 365 compliance center home page shows you, at a glance, how your o
 
 The default Microsoft compliance center view is likely to contain, but is not limited to, these cards:
 
-- The **Microsoft Compliance Score** card, takes you to the new [Compliance Score](https://docs.microsoft.com/microsoft-365/compliance/compliance-score?view=o365-worldwide) solution. It calculates a risk-based score that measures your progress toward completing recommended actions that help reduce risks around data protection and regulatory standards. It also provides workflow capabilities and built-in control mapping to help you efficiently carry out those actions.
+- The **Microsoft Compliance Score** card, takes you to the new [Compliance Score](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager?view=o365-worldwide#understanding-your-compliance-score) solution. It calculates a risk-based score that measures your progress toward completing recommended actions that help reduce risks around data protection and regulatory standards. It also provides workflow capabilities and built-in control mapping to help you efficiently carry out those actions.
   
    :::image type="content" source="../media/3-compliance-score-card-v3.png" alt-text="Screenshot showing the Compliance Score card":::
 
