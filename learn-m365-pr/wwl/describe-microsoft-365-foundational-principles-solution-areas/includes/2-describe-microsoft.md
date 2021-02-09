@@ -14,7 +14,7 @@ We build our technology based on these three foundational principles:
 ## Built-in experiences that work across platforms 
 Microsoft provides a built-in approach to security that provides simplified experiences for users and admins from any device, from anywhere, on any platform. 
 
-We’ve created built-in multi-factor authentication, passwordless sign-on, and single sign-on so people can have only one set of protected credentials. These credentials work seamlessly access everything they need without interrupting their workflows. A unified security platform not only helps improve end-user productivity, it also helps to deliver coverage across your entire environment. 
+We’ve created built-in multi-factor authentication, passwordless sign-on, and single sign-on so people can have only one set of protected credentials. These credentials work to seamlessly access everything they need without interrupting their workflows. A unified security platform not only helps improve end-user productivity, it also helps to deliver coverage across your entire environment. 
 
 We help to extend intelligent access policies to your corporate resources and give end users the consistent, frictionless experience they demand. This empowers IT admins to uniformly manage access to resources and enforce governance controls, regardless of platform. 
 
