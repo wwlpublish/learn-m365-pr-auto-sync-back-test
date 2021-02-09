@@ -55,18 +55,17 @@ These three elements are designed to let you create, share, and consume business
 
 ### Power BI licenses
 
-There are two kinds of Power BI per-user licenses: free and Pro. Which type of license a user needs determines where content is stored and how they'll interact with that content.
-One type of subscription, Power BI Premium, allows users with a free license to act on content in workspaces that are assigned to Premium capacity. Outside of Premium capacity, a user with a free license can only use the Power BI service to connect to data and create reports and dashboards in My Workspace. They can't share content with others or publish content to other workspaces.
+There are a few kinds of Power BI per-user licenses: free,  Pro, and Premium per-user. Which type of license a user needs determines where content is stored and how they'll interact with that content.
+Power BI Premium, allows users to act on content in workspaces that are assigned to Premium capacity. Outside of Premium capacity, a user with a free license can only use the Power BI service to connect to data and create reports and dashboards in My Workspace. They can't share content with others or publish content to other workspaces unless they have a Power BI Premium per-user license.
 
 A standard Power BI subscription uses shared capacity. If the content is stored in shared capacity, users who are assigned a Power BI Pro license can collaborate only with other Power BI Pro users. They can consume content shared by other users, publish content to app workspaces, share dashboards, and subscribe to dashboards and reports. When workspaces are in Premium capacity, Pro users may distribute content to users who don't have a Power BI Pro license.
 
 The table below summarizes the basic capabilities of each license type ;
 
-| License type    | Capabilities when the workspace is in shared capacity                                                                                | Additional capabilities when a workspace is in Premium capacity |
+| License type    | Not in Premium capacity                                                                                | Premium capacity |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
-| Power BI (free) | Access to content in My Workspace.                                                                                                   | Consume content shared with them.                               |
-| Power BI Pro    | Publish content to other workspaces, share dashboards, subscribe to dashboards and reports, share with users who have a Pro license. | Distribute content to users who have free licenses.             |
-|                 |                                                                                                                                      |                                                                 |
+| Power BI (free) | Use as a personal sandbox where you create content for yourself and interact with that content. A free license is a great way to try out the Power BI service. You can't consume content from anyone else or share your content with others.                                                                                                   | Interact with content assigned to Premium capacity and shared with you. Free, Premium per-user, and Pro users can collaborate without requiring the free users to have Pro accounts.                               |
+| Power BI Pro    | Collaborate with Premium per-user and Pro users by creating and sharing content.             | Collaborate with free, Premium per user, and Pro users by creating and sharing content.             |                                                                         |                                                                 |                                      |
 
 ## Analyze in Excel
 
