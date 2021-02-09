@@ -22,8 +22,6 @@ Workplace Analytics identifies collaboration patterns that may impact productivi
 
 Workspace Analytics has been designed to help organizations identify trends across countries, departments, or teams. Organizational culture plays a large part in how we work. With Microsoft 365 Workplace Analytics, organizations can identify working patterns across similar groups, and consider changes that might help people work more effectively.
 
-:::image type="content" source="../media/2-introduce-workplace-analytics.png" alt-text="Introduction to Workplace Analytics"::: 
-
 Watch the video below for an introduction to Workplace Analytics.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4xfQk?autoplay=true]
@@ -38,7 +36,7 @@ Workplace Analytics roles are assigned so that administrators can set system def
 To learn more about Workplace Analytics, have a look at these resources:
 
 - [Workplace Analytics](https://www.microsoft.com/microsoft-365/business/workplace-analytics)
-- [Explore](https://docs.microsoft.com/Workplace-Analytics/use/explore-intro)
+- [Explore Workplace Analytics](https://docs.microsoft.com/Workplace-Analytics/use/explore-intro)
 
 ## MyAnalytics
 
