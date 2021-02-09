@@ -1,19 +1,19 @@
 ### YamlMime:Module
 uid: learn-m365.m365-security-management-mail
 metadata:
-  title: Protect mail with Microsoft Defender for Endpoint
-  description: Learn how Microsoft Defender for Endpoint helps safeguard your organization against unknown malware, viruses, and harmful email links and attachments.
-  ms.date: 2/24/20
+  title: Protect mail with Microsoft Defender for Office 365
+  description: Learn how Microsoft Defender for Office 365 helps safeguard your organization against unknown malware, viruses, and harmful email links and attachments.
+  ms.date: 2/24/2020
   author: AlexandraHrt
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Protect mail with Microsoft Defender for Endpoint
-summary: Learn how Microsoft Defender for Endpoint helps safeguard your organization against unknown malware, viruses, and harmful email links and attachments.
+title: Protect mail with Microsoft Defender for Office 365
+summary: Learn how Microsoft Defender for Office 365 helps safeguard your organization against unknown malware, viruses, and harmful email links and attachments.
 abstract: |
   In this module, you will learn how to:
-  - Understand the protection available using Microsoft Defender for Endpoint policies
-  - Define mail protection using Microsoft Defender for Endpoint policies
+  - Understand the protection available using Microsoft Defender for Office 365 policies
+  - Define mail protection using Microsoft Defender for Office 365 policies
 prerequisites: | 
  - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
 iconUrl: /learn/achievements/protect-mail-with-office-365-advanced-threat-protection.svg
