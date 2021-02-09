@@ -13,7 +13,7 @@ For some situations, this gives the organizations significant benefits:
 
 - **Deploy** Windows desktops and apps in minutes.
 - **Scale** easily by provisioning access to data across devices fast.
-- Provide access to data whist adhering to **security and compliance regulations**.
+- Provide access to data while adhering to **security and compliance regulations**.
 - Gives users the **same look and feel** as running Office apps on a dedicated machine.
 - The organization **pays only for what it uses** with the Azure Virtual Machines and Azure storage consumed by users.
 - When your storage needs differ seasonally, you only pay for what you need when you need it.
