@@ -11,4 +11,4 @@ Initialize a Toolkit provider to use the login component in your application.
 
 Providers simplify implementing authentication for your application and make calls to Microsoft Graph using the JavaScript client SDK.
 Initialize a provider before you use any other Toolkit component. However, they can also be used on their own, without components to implement authentication for your application.
-There are different providers, depending on the platform in which you're using the Toolkit components in your application, here you'll set up the widely used MSAL provider.
+There are different providers, depending on the platform in which you're using the Toolkit components in your application. Here you'll set up the widely used MSAL provider.
