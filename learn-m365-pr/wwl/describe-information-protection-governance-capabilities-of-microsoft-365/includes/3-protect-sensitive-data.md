@@ -37,7 +37,7 @@ With **Office 365 Message Encryption**, your organization can send and receive e
 
 Office 365 Message Encryption is an online service that's built on **Microsoft Azure Rights Management (Azure RMS)**, which is used by Azure Information Protection (AIP).  OME includes encryption, identity, and authorization policies to help secure your email.
 
-With OME, users can then encrypt email messages and a variety of attachments. For more information, visit [Introduction to IRM for email messages](https://docs.microsoft.com/microsoft-365/compliance/ome?view=o365-worldwide).
+With OME, users can then encrypt email messages and a variety of attachments. For more information, visit [How Office 365 Message Encryption works](https://docs.microsoft.com/microsoft-365/compliance/ome?view=o365-worldwide).
 
 ## Data loss prevention (DLP)
 
