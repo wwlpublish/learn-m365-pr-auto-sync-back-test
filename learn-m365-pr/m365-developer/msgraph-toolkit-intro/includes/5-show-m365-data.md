@@ -4,21 +4,33 @@ In this unit, we'll discover Microsoft Graph Toolkit components and learn how to
 
 ## What are Microsoft Graph Toolkit components?
 
-The Microsoft Graph Toolkit provides a collection of web components powered by Microsoft Graph APIs. Components give us the opportunity of building experiences with Microsoft 365.
+Microsoft Graph Toolkit components (web components) are actually HTML tags. Components work with providers to get user access token and call Microsoft Graph APIs for getting required data. Basically, these reusable HTML tags have complete functionality to help us fetch data from Microsoft 365.
 
-Suppose you would like to show upcoming calendar events for signed-in user in your application. You can easily implement calendar events by using `mgt-agenda` component in your application. The **Agenda** component will return calendar events from Microsoft Graph by default.
+There are many components available to get the most popular Microsoft 365 datasets in your application such as people, tasks, agenda. Let's discover components with some scenarios:
 
-## Benefits of using the components
+### Scenario 1:
 
-Microsoft Graph Toolkit components make implementing Microsoft 365 experiences in your application simple and easy.
+Suppose you would like to show upcoming calendar events for signed-in user in your application. You can easily implement calendar events by using `mgt-agenda` component in your app. The **Agenda** component will return calendar events from Microsoft Graph `/me/calendarview` endpoint by default.
 
-### Less coding, more features
+```html
+<mgt-agenda></mgt-agenda>
+```
 
-The components are designed to work with Microsoft Graph in a simple way. Each component provides M365 experiences with pre-built UI and it requires no customization.  
+:::image type="content" source="../media/05-mgt-agenda.png" alt-text="Microsoft Graph Toolkit Agenda":::
 
-As a developer, you'll only need to add a single line of code to implement a component in your app and, show data from Microsoft 365.
+### Scenario 2:
 
-For example, if you want to provide people search ability and show list of results in your app, you can use **People Picker** component. The `mgt-people-picker` will show user's data with pre-built UI that looks and feels like Microsoft 365 experience:
+Let's say we would like to build a web page to show user's tasks. We can use **Tasks** component to get data from Microsoft Planner. The `mgt-tasks` will show user's data with pre-built UI that looks and feels like Microsoft 365 experience:
+
+```html
+<mgt-tasks></mgt-tasks>
+```
+
+:::image type="content" source="../media/05-mgt-tasks.png" alt-text="Microsoft Graph Toolkit Tasks":::
+
+### Scenario 3:
+
+For example, if you want to provide people search ability and show list of results in your app, you can use **People Picker** component.
 
 ```html
 <mgt-people-picker></mgt-people-picker>
@@ -26,14 +38,10 @@ For example, if you want to provide people search ability and show list of resul
 
 :::image type="content" source="../media/05-peoplepicker.gif" alt-text="Microsoft Graph Toolkit People Picker":::
 
-### Works with every modern browser and web framework
+You can customize the results by using attributes available for `mgt-people-picker` such as limiting the maximum number of people showing in the list:
 
-Microsoft Graph Toolkit components are built based on web standards.
+```html
+<mgt-people-picker show-max="3"></mgt-people-picker>
+```
 
-The components are compatible with any modern browser such as Microsoft Edge, Firefox, Chrome, Safari, and more.
-
-Any modern web framework can be used for building apps with Microsoft Graph Toolkit components, some examples for the web frameworks are React, Angular and, Vue.
-
-### Flexible for customization
-
-The components are designed to give unique Microsoft 365 experiences with their pre-built UI. However, they're flexible to be customized and adapted in your application's design guidelines.
+:::image type="content" source="../media/05-mgt-peoplepicker-showmax.png" alt-text="Microsoft Graph Toolkit People Picker show-max attribute":::
