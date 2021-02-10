@@ -7,7 +7,7 @@ To create a policy to block unauthorized browsers from accessing corporate web a
 1. Navigate to <https://portal.cloudappsecurity.com>.
 2. Select **Control** and select **Policies**.
 
-    :::image type="content" source="../media/4-mcas-policies.png" alt-text="Policies":::
+    :::image type="content" source="../media/4-microsoft-cloud-app-security-policies.png" alt-text="Policies":::
 
 3. Follow the steps from a previous unit in this module to create a policy with a **Category** of **Access control**.
 4. In **ACTIVITIES MATCHING ALL OF THE FOLLOWING** add the following filters:

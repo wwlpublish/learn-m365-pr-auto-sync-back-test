@@ -11,7 +11,7 @@ To configure an admin quarantine policy for payment card information, perform th
 1. Navigate to <https://portal.cloudappsecurity.com>.
 2. Select **Control** and select **Policies**.
 
-    :::image type="content" source="../media/4-mcas-policies.png" alt-text="Policies":::
+    :::image type="content" source="../media/4-microsoft-cloud-app-security-policies.png" alt-text="Policies":::
 
 3. Select **Create policy** and select **File policy**.
 4. In **Policy template**, select **File containing PCI detected in the cloud (built-in DLP engine)**.

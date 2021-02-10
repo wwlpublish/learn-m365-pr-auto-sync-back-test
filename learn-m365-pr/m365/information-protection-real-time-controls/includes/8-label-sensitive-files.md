@@ -9,7 +9,7 @@ To create a policy to set up data protection on files that contain credit card i
 1. Navigate to <https://portal.cloudappsecurity.com>.
 2. Select **Control** and select **Policies**.
 
-    :::image type="content" source="../media/4-mcas-policies.png" alt-text="Policies":::
+    :::image type="content" source="../media/4-microsoft-cloud-app-security-policies.png" alt-text="Policies":::
 
 3. Select **Create policy** and select **File policy**.
 

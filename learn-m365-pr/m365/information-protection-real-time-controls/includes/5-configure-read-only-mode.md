@@ -14,7 +14,7 @@ To create a policy to block downloads, perform the following steps:
 1. Navigate to <https://portal.cloudappsecurity.com>.
 2. Select **Control** and select **Policies**.
 
-    :::image type="content" source="../media/4-mcas-policies.png" alt-text="Policies":::
+    :::image type="content" source="../media/4-microsoft-cloud-app-security-policies.png" alt-text="Policies":::
 
 3. Select **Create policy** and select **Session policy**.
 
@@ -40,7 +40,7 @@ To create a policy to block cut, copy, and print, perform the following steps:
 1. Navigate to <https://portal.cloudappsecurity.com>.
 2. Select **Control** and select **Policies**.
 
-    :::image type="content" source="../media/4-mcas-policies.png" alt-text="Policies":::
+    :::image type="content" source="../media/4-microsoft-cloud-app-security-policies.png" alt-text="Policies":::
 
 3. Select **Create policy** and select **Session policy**.
 
