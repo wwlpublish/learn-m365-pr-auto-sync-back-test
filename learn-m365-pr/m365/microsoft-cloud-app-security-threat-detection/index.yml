@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn-m365.mcas-threat-detection
+metadata:
+  title: Introduction to Microsoft Cloud App Security threat detection
+  description: Introduction to Microsoft Cloud App Security threat detection
+  ms.date: 12/17/2020
+  author: geoffallix
+  ms.author: v-gea
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Introduction to Microsoft Cloud App Security threat detection
+summary: Learn about the threat detection capabilities of Microsoft Cloud App Security.
+abstract: | 
+  In this module, you will:
+  - Describe Microsoft Cloud App Security threat detection capabilities
+  - Implement User and Entity Behavioral Analytics
+  - Discover and manage OAuth applications
+
+prerequisites: | 
+    - Basic security knowledge
+    - Basic Azure knowledge 
+
+iconUrl: /learn-m365-pr/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- administrator
+products:
+- m365-ems-cloud-app-security
+units:
+- learn-m365.mcas-threat-detection.1-introduction
+- learn-m365.mcas-threat-detection.2-threat-detection-capabilities
+- learn-m365.mcas-threat-detection.3-ueba
+- learn-m365.mcas-threat-detection.4-manage-oauth-apps
+- learn-m365.mcas-threat-detection.5-knowledge-check
+- learn-m365.mcas-threat-detection.6-summary
+badge:
+  uid: learn-m365.mcas-threat-detection.badge
