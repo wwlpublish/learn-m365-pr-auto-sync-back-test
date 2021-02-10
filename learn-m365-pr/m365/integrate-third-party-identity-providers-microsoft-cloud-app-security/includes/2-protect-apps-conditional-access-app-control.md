@@ -47,8 +47,7 @@ Certificates work in a different way. When a client certificate is used, Cloud A
 > [!IMPORTANT]
 > You must upload certificates in the PEM format.
 
-> [!div class="mx-imgBorder"]
-> ![A screenshot that displays the Device identification page in the Cloud App Security portal.](../media/device-identification.png)
+:::image type="content" source="../media/device-identification.png" alt-text="A screenshot that displays the Device identification page in the Cloud App Security portal.":::
 
 ## Onboard and deploy Conditional Access App Control for any app
 

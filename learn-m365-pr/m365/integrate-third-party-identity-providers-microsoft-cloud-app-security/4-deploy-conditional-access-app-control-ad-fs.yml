@@ -11,4 +11,4 @@ metadata:
 title: Deploy Conditional Access App Control with AD FS as the identity provider
 durationInMinutes: 13
 content: |
-  [!include[](includes/4-deploy-conditional-access-app-control-adfs.md)]
+  [!include[](includes/4-deploy-conditional-access-app-control-ad-fs.md)]

@@ -67,8 +67,7 @@ To limit end-user downtime and preserve your existing known good configuration, 
 1. Open the federation metadata file and record the AD FS **SingleSignOnService Location** value. You'll need this location later.
 1. In the **AD FS** console, expand **Service** and then select **Certificates**. Right-click the AD FS signing certificate and select **View Certificate**.
 
-    > [!div class="mx-imgBorder"]
-    > ![A screenshot that displays the Device identification page in the Cloud App Security portal.](../media/adfs-cert.png)
+    :::image type="content" source="../media/ad-fs-certificate.png" alt-text="A screenshot that displays the Device identification page in the Cloud App Security portal":::
 
 1. In the Certificate dialog box, select the Details tab.
 1. Select **Copy to File** to export the certificate as a **Base-64 encoded X.509 (.CER)** file.
