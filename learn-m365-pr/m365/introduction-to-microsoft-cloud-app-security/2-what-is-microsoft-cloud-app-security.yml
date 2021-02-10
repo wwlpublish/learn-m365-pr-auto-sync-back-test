@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.introduction-to-microsoft-cloud-app-security.2-what-is-microsoft-cloud-app-security
+metadata:
+  title: What is Microsoft Cloud App Security?
+  description: Learn what Microsoft Cloud App Security can do for your organization
+  ms.date: 12/17/2020
+  author: geoffallix
+  ms.author: v-gea
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: What is Microsoft Cloud App Security?
+durationInMinutes: 12
+content: |
+  [!include[](includes/2-what-is-microsoft-cloud-app-security.md)]
