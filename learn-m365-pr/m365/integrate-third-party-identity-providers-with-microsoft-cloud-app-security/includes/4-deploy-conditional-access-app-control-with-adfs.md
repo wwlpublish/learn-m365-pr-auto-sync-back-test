@@ -11,7 +11,7 @@ AD FS enables organizations to provide their users with the flexibility to sign 
 By using AD FS, your organization can manage its own user accounts, and users can take advantage of SSO, saving them the need to remember multiple sets of credentials.  
 
 > [!NOTE]
-> Refer to the following document if you require more guidance on AD FS: [Understanding Key AD FS Concepts]( https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/technical-reference/understanding-key-ad-fs-concepts).
+> Refer to the following document if you require more guidance on AD FS: [Understanding Key AD FS Concepts]( https://docs.microsoft.com/windows-server/identity/ad-fs/technical-reference/understanding-key-ad-fs-concepts).
 
 ## Overview
 
@@ -67,7 +67,7 @@ To limit end-user downtime and preserve your existing known good configuration, 
 4. Open the federation metadata file and record the AD FS **SingleSignOnService Location** value. You'll also need this later.
 5. In the **AD FS** console, expand **Service** and then select **Certificates**. Right-click the AD FS signing certificate and select **View Certificate**.
 
-   :::image type="content" source="../media/adfs-cert.png" alt-text="A screenshot that displays the Device identification page in the Cloud App Security portal.":::
+   :::image type="content" source="../media/adfs-cert.png" alt-text="A screenshot that displays the Device identification page in the Cloud App Security portal.":::
 
 6. In the Certificate dialog box, select the Details tab. 
 7. Select **Copy to File** to export the certificate as a **Base-64 encoded X.509 (.CER)** file.

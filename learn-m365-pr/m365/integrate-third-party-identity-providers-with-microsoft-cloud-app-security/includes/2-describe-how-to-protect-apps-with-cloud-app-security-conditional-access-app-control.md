@@ -47,7 +47,7 @@ Certificates work in a different way. When a client certificate is used, Cloud A
 > [!IMPORTANT]
 > You must upload certificates in the PEM format. 
 
-:::image type="content" source="../media/device-identification.png" alt-text="A screenshot that displays the Device identification page in the Cloud App Security portal.":::
+:::image type="content" source="../media/device-identification.png" alt-text="A screenshot that displays the Device identification page in the Cloud App Security portal.":::
 
 
 ## Onboard and deploy Conditional Access App Control for any app
@@ -73,4 +73,4 @@ To deploy any app so that it is controlled by Cloud App Security Conditional Acc
 6. Update the Azure AD policy
 
 > [!NOTE]
-> You can review more detail in the following document: [To deploy any app](https://docs.microsoft.com/en-us/cloud-app-security/proxy-deployment-any-app#to-deploy-any-app?aure-portal=true).
+> You can review more detail in the following document: [To deploy any app](https://docs.microsoft.com/cloud-app-security/proxy-deployment-any-app#to-deploy-any-app?aure-portal=true).
