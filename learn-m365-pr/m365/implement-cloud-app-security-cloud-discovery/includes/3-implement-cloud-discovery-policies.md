@@ -25,7 +25,7 @@ The following table describes the available policy types.
 
 To create policies, you use the Cloud App Security **Control** node. Select **Policies** to review existing, default policies. 
 
-:::image type="content" source="../media/policies1.png" alt-text="A screenshot of the Policies page in Cloud App Security, displaying a list of policies sorted by Category.":::
+:::image type="content" source="../media/policies-1.png" alt-text="A screenshot of the Policies page in Cloud App Security, displaying a list of policies sorted by Category.":::
 
 To create a new policy, you can either:
 
@@ -43,8 +43,7 @@ For example, if you’re working in an Activity log, with files, or investigatin
 1. In **Activity log**, enter your query. 
 2. When you have defined the query, select **New policy from search**. 
 
-
-:::image type="content" source="../media/new-policy.png" alt-text="A screenshot an Activity log query.":::
+    :::image type="content" source="../media/new-policy.png" alt-text="A screenshot an Activity log query." lightbox="../media/new-policy.png":::
 
 ## Create an app discovery policy
 
@@ -82,7 +81,7 @@ As mentioned, app discovery policies enable you to set notification alerts when 
 
    8. In the **Alerts** section, you can enable an alert by email or text message (or both) for each matching event. 
    
-   > [TIP]
+   > [!TIP]
    > You’ll need to define the email addresses and phone numbers in the appropriate text boxes. 
 
    9. Finally, in the Governance section, choose to tag discovered apps as:
@@ -99,7 +98,7 @@ For example, the following screenshot displays the settings for an app discovery
 - A policy match is triggered only if there are more than 100 users a day using the apps discovered
 - When a match is triggered, email the user `admin@contoso.com`, but only up to five times per day
 
-   :::image type="content" source="../media/policies2.png" alt-text="a screenshot of the Create app discovery policy page. The administrator is creating a policy with the conditions listed in the preceding text.":::
+   :::image type="content" source="../media/policies-2.png" alt-text="a screenshot of the Create app discovery policy page. The administrator is creating a policy with the conditions listed in the preceding text.":::
 
 ## Create a Cloud Discovery anomaly detection policy
 
@@ -116,8 +115,8 @@ In addition to app discovery, you can use Cloud Discovery anomaly detection poli
     6. Then specify whether you want to filter usage based on user name, IP addresses, or both. Consider that selecting both might generate duplicate alerts as often, the same user is associated with the same IP.
     7. You can also specify a date from when you want to detect anomalous activity. Activity prior to the date is disregarded. 
 
-    >[!NOTE]
-    >Activity prior to the specified date is used to establish the normal usage pattern.
+        >[!NOTE]
+        >Activity prior to the specified date is used to establish the normal usage pattern.
 
     8. In the **Alerts** section, set the **Select anomaly detection sensitivity** value. 
     9. You can then enable an alert by email or text message (or both) for each matching event. 

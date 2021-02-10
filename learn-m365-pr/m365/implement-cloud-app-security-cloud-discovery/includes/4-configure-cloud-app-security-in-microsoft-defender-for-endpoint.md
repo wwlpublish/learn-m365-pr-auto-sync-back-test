@@ -37,7 +37,7 @@ To enable integration, you don’t need to perform extra deployment or complex c
 3. Enable **Microsoft Cloud App Security**.
 4. Select **Apply**.
 
-   :::image type="content" source="../media/enable-integration1.png" alt-text="A screenshot of the Settings page in the Microsoft Defender Security Center. The administrator has enabled Microsoft Cloud App Security integration.":::
+   :::image type="content" source="../media/enable-integration-1.png" alt-text="A screenshot of the Settings page in the Microsoft Defender Security Center. The administrator has enabled Microsoft Cloud App Security integration.":::
 
 5. Next, switch to **Cloud App Security** and select **Settings**. 
 6. Select the **Microsoft Defender for Endpoint** tab. 
@@ -45,11 +45,11 @@ To enable integration, you don’t need to perform extra deployment or complex c
 8. You can also **Configure the severity for signals sent to Microsoft Defender for Endpoint**. 
 9. Select **Save**. 
 
-   :::image type="content" source="../media/enable-integration2.png" alt-text="A screenshot of the Settings page in the Cloud App Security. The administrator is configuring Microsoft Defender for Endpoint integration.":::
+   :::image type="content" source="../media/enable-integration-2.png" alt-text="A screenshot of the Settings page in the Cloud App Security. The administrator is configuring Microsoft Defender for Endpoint integration.":::
 
 After you have configured integration, you can use the Cloud Discovery dashboard to review discovered device data. 
 
-   :::image type="content" source="../media/win10-dashboard-report.png" alt-text="A screenshot of the Discovery dashboard in Cloud App Security. ":::
+   :::image type="content" source="../media/windows-10-dashboard-report.png" alt-text="A screenshot of the Discovery dashboard in Cloud App Security. ":::
 
 1. To access the data, in the dashboard, under **Continuous reports**, select **Win10 Endpoint Users**. You can review the number of discovered devices in the upper area of the dashboard.
 2. Select the **Machines** tab. For listed devices, you can review each device on the **Overview** tab. This information includes device risk level, transactions, total traffic, and both uploads and downloads. 

@@ -56,7 +56,7 @@ After you’ve deployed the log collector, you must define it in the Cloud App S
 2. First, define your data sources. Select the **Data sources** tab, and then select **Add data source**.
 3. In the **Add data source** dialog box, enter a name, and then select the **Source** and **Receiver** **type**. The Source represents the appliance, such as a proxy or firewall. The Receiver type is the type of log file: FTP or Syslog. 
 
-   :::image type="content" source="../media/log1.png" alt-text="A screenshot of the Add data source dialog box. The administrator has selected Cisco ASA firewall and Syslog: TCP.":::
+   :::image type="content" source="../media/log-1.png" alt-text="A screenshot of the Add data source dialog box. The administrator has selected Cisco ASA firewall and Syslog: TCP.":::
 
 4. Select **Add**.
 5. Next, on the **Automatic log upload** page, select the **Log collectors** tab. 
@@ -69,7 +69,7 @@ After you’ve deployed the log collector, you must define it in the Cloud App S
 
 8. A section called **Next steps** appears. Follow the instructions provided to complete configuration. You can export the required configuration by selecting the **Export** button above the list of data sources. 
 
-   :::image type="content" source="../media/log2.png" alt-text="A screenshot of the Create log collector dialog box. The administrator has defined the data source as matching that defined earlier in the procedure. A section labeled Next steps contains a list of collector configuration data.":::
+   :::image type="content" source="../media/log-2.png" alt-text="A screenshot of the Create log collector dialog box. The administrator has defined the data source as matching that defined earlier in the procedure. A section labeled Next steps contains a list of collector configuration data.":::
 
 Having completed the configuration procedure for Cloud App Security, you must now configure the log collector itself. As mentioned earlier, you can deploy in two modes: as a container, or a virtual appliance. 
 
@@ -78,9 +78,9 @@ For example, to use a Windows computer with Docker, you would complete the proce
 1. Sign in to Windows as a local administrator. 
 2. Download the Windows Docker installer PowerShell script by running the following command in an elevated PowerShell window: 
 
-```powershell
-Invoke-WebRequest https://adaprodconsole.blob.core.windows.net/public-files/LogCollectorInstaller.ps1 -OutFile (Join-Path $Env:Temp LogCollectorInstaller.ps1)
-```
+    ```powershell
+    Invoke-WebRequest https://adaprodconsole.blob.core.windows.net/public-files/LogCollectorInstaller.ps1 -OutFile (Join-Path $Env:Temp LogCollectorInstaller.ps1)
+    ```
 
 3. Set the execution policy to remote signed: `Set-ExecutionPolicy RemoteSigned`
 4. Install Docker client: `& (Join-Path $Env:Temp LogCollectorInstaller.ps1)`
@@ -89,7 +89,7 @@ Invoke-WebRequest https://adaprodconsole.blob.core.windows.net/public-files/LogC
    > While the log collector container is installed, your computer restarts twice. You’ll have to sign in again each time. Make sure the Docker client is set to use Linux containers.
 
 5. After each restart, rerun the `& (Join-Path $Env:Temp LogCollectorInstaller.ps1)` command.
-\6. Next, import the configuration information from the Next steps section of the Create log collector dialog box.
+6. Next, import the configuration information from the Next steps section of the Create log collector dialog box.
 
    > [!TIP] 
    > You can verify successful deployment on the Log collectors tab in the Cloud App Security portal. If your log collector shows as **Connected**, you have successfully completed deployment. 
