@@ -20,7 +20,7 @@ Suppose you would like to show upcoming calendar events for signed-in user in yo
 
 :::image type="content" source="../media/05-mgt-agenda.png" alt-text="Microsoft Graph Toolkit Agenda":::
 
-### Scenario 2: Show tasks from Microsoft Planner
+### Scenario 2: Show tasks from planner
 
 Let's say you would like to build a web page to show user's tasks. You can use **Tasks** component to get data from Microsoft Planner. The `mgt-tasks` will show user's data with pre-built UI that looks and feels like Microsoft 365 experience:
 
@@ -48,4 +48,4 @@ You can process the results by using attributes available for `mgt-people-picker
 
 :::image type="content" source="../media/05-mgt-peoplepicker-showmax.png" alt-text="Microsoft Graph Toolkit People Picker show-max attribute":::
 
-In summary, all components in Microsoft Graph Toolkit share the same structure. They work with Providers to handle the authentication, get data using Microsoft Graph and show the results with pre-built UI. Components also handle the the exceptions and errors.
+In summary, all components in Microsoft Graph Toolkit share the same structure. They work with Providers to handle the authentication, get data using Microsoft Graph APIs and show the results with pre-built UI.
