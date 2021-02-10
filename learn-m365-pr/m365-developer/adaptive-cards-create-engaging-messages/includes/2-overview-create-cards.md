@@ -37,7 +37,7 @@ Adaptive Cards are great for card authors:
 
 ### For experience owners
 
-If you are an app developer who wants to tap into an ecosystem of third-party content, you will love Adaptive Cards because:
+If you're an app developer who wants to tap into an ecosystem of third-party content, you'll love Adaptive Cards because:
 
 - **Consistent user experience**: You guarantee a consistent experience for your users, because you own the style of the rendered card.
 - **Native performance**: You get native performance as it targets your UI framework directly.

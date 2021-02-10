@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.workplace-analytics-onboard.roles-responsibilities
+title: Understand the roles and responsibilities in the onboarding of Workplace Analytics
+metadata:
+  title: Understand the roles and responsibilities in the onboarding of Workplace Analytics
+  description: Learn about the roles and responsibilities for onboarding to Workplace Analytics.
+  ms.date: 11/30/2020
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 3
+content: |
+  [!include[](includes/roles-responsibilities.md)]

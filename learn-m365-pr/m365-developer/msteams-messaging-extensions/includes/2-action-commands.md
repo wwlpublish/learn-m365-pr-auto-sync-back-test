@@ -4,7 +4,7 @@ In this unit, you’ll learn what messaging extensions are, what scenarios where
 
 ## What are messaging extensions?
 
-Messaging extensions allow users to interact with your web service through buttons and forms in the Microsoft Teams client. They can search, or initiate actions, in an external system from the compose message area, the command box, or directly from a message. You can then send the results of that interaction back to the Microsoft Teams client, typically in the form of a richly formatted card.
+Messaging extensions allow users to interact with your web service through buttons and forms in the Microsoft Teams client. They can search, or start actions, in an external system from the compose message area, the command box, or directly from a message. You can then send the results of that interaction back to the Microsoft Teams client, typically in the form of a richly formatted card.
 
 ![Screenshot of invoke locations for messaging extensions](../media/02-messaging-extension-invoke-locations.png)
 
@@ -12,7 +12,7 @@ Messaging extensions allow users to interact with your web service through butto
 
 What kind of scenarios do messaging extensions enable?
 
-One example is that the user needs to perform an action in an external system and have the results added to the conversation. For instance, when two employees are chatting about a customer issue, it can be helpful if the customer's history or issue details are added to the conversation timeline from data in an external bug tracking or CRM system.
+One example is that the user needs to do an action in an external system and have the results added to the conversation. For instance, when two employees are chatting about a customer issue, it can be helpful if the customer's history or issue details are added to the conversation timeline from data in an external bug tracking or CRM system.
 
 Another example is when you need to complete a complex task or one that involves multiple steps and share the results. For instance, consider a user that wants to request approval for a business trip. This involves finding a flight, hotel, and transportation options. After finding the wanted options, they need to submit out of office and expense approval requests to their manager. A messaging extension can be used to guide the user through a wizard experience to collect information, then use that to start an approval process and display a summary in the conversation.
 

@@ -1,0 +1,48 @@
+### YamlMime:Module
+uid: learn-m365.wvd-security
+metadata:
+  title: "Secure a Windows Virtual Desktop deployment"
+  description: Introduction to Microsoft security capabilities that can help keep your applications and data secure in your Windows Virtual Desktop deployment.
+  ms.date: 01/15/2021
+  author: ndelgado
+  ms.author: nedelgad
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: "Secure a Windows Virtual Desktop deployment"
+summary: Introduction to Microsoft security capabilities that can help keep your applications and data secure in your Windows Virtual Desktop deployment.
+abstract: |
+  After completing this module, you'll be able to:
+  - Secure the user identity that can access the Windows Virtual Desktop environment.
+  - Use AppLocker to secure the accessed desktop.
+prerequisites: |
+  - Intermediate knowledge of Microsoft Azure services such as core Azure compute, storage, networking, and virtualization technologies.
+  - Intermediate knowledge of Azure operational concepts, such as monitoring, logging, and alerting.
+  - Familiarity with Windows Virtual Desktop.
+  - Knowledge of security concepts at a fundamental level.
+  - An Azure subscription to enable a Windows Virtual Desktop deployment by using setup scripts. 
+  - The Remote Desktop app for Windows. If you're using an operating system other than Windows, download the appropriate Remote Desktop client by using the links in the [Remote Desktop clients](https://docs.microsoft.com/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients) article.
+iconUrl: /learn/achievements/wvd-security.svg
+ratingEnabled: true
+levels:
+- beginner
+roles:
+- administrator
+- security-engineer
+- solution-architect
+- technology-manager
+products:
+- m365
+- azure
+- windows-virtual-desktop
+units:
+- learn-m365.wvd-security.1-introduction
+- learn-m365.wvd-security.2-enable-security
+- learn-m365.wvd-security.3-enable-data-security
+- learn-m365.wvd-security.4-secure-users
+- learn-m365.wvd-security.5-secure-session-hosts
+- learn-m365.wvd-security.6-secure-network-access
+- learn-m365.wvd-security.7-exercise-secure-desktop 
+- learn-m365.wvd-security.8-knowledge-check
+- learn-m365.wvd-security.9-summary
+badge: 
+  uid: learn-m365.wvd-security.badges

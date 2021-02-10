@@ -115,7 +115,7 @@ Navigate to the following url: **http://localhost:5000/api/notifications**. This
 
 Open a browser and navigate to the [Microsoft 365 admin center (https://admin.microsoft.com/AdminPortal)](https://admin.microsoft.com/AdminPortal).
 
-If you are prompted to sign-in, sign-in using an admin account.
+If you're prompted to sign-in, sign-in using an admin account.
 
 Select **Users > Active users**.
 

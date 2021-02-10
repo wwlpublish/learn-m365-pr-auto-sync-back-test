@@ -20,7 +20,7 @@ You'll use Node.js to create a custom Microsoft Teams app in this module. The ex
 - NPM (installed with Node.js) - v6.\* (or higher)
 - [Gulp](https://gulpjs.com/) - v4.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.15.0 (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.16.0 (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
@@ -42,13 +42,13 @@ Select **Create a resource** in the left-hand navigation:
 
 Enter **resource group** in the **Search the marketplace** input box, and select **Resource group**.
 
-![Screenshot of creating a resource group](../media/03-azure-portal-02.png)
+![Screenshot of creating a resource group - create a resource menu item](../media/03-azure-portal-02.png)
 
 On the **Resource Group** page, select the **Create** button to create a new resource group.
 
 Select a valid subscription, enter a name for the resource group, and select the wanted region. _None of these choices will impact the bot registration and are up to you._
 
-![Screenshot of creating a resource group](../media/03-azure-portal-03.png)
+![Screenshot of creating a resource group - search for the resource group option](../media/03-azure-portal-03.png)
 
 Complete the wizard to create the resource group. Once Azure has completed the resource group creation process, navigate to the resource group.
 
@@ -76,7 +76,7 @@ In the **Bot Channels Registration** blade, enter the following values and then 
 
 Azure will start to provision the new resource. This will take a moment or two. Once it's finished, navigate to the bot resource in the resource group.
 
-![Screenshot of searching for the bot registration resource](../media/03-azure-bot-registration-03.png)
+![Screenshot of the created bot channels registration resource](../media/03-azure-bot-registration-03.png)
 
 ### Enable the Microsoft Teams channel for the bot
 
@@ -145,11 +145,12 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project?**: Conversational Bot
 - **Your (company) name? (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: v1.6
+- **Which manifest version would you like to use?**: v1.8
 - **Enter your Microsoft Partner Id, if you have one?**: (Leave blank to skip)
-- **What features do you want to add to your project?**: A Bot
+- **What features do you want to add to your project?**: A bot
 - **The URL where you will host this solution?**: (Accept the default option)
 - **Would you like show a loading indicator when your app/tab loads?**: No
+- **Would you like personal apps to be rendered without a tab header-bar?** No
 - **Would you like to include Test framework and initial tests?**: No
 - **Would you like to use Azure Applications Insights for telemetry?**: No
 - **What type of Bot would you like to use?** A new Bot Framework bot
@@ -157,13 +158,14 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **What is the Microsoft App ID for the Bot. It's found in the Bot Framework portal (https://dev.botframework.com).** (Enter the application ID of the bot you created in the previous step)
 - **Do you want to add a static tab to your bot?** No
 - **Do you want to support file upload to the bot?** No
+- **Do you want to include bot calling support?** No
 
 > [!NOTE]
 > Most of the answers to these questions can be changed after creating the project. For example, the URL where the project will be hosted isn't important at the time of creating or testing the project.
 
 After answering the generator's questions, the generator will create the scaffolding for the project and then execute `npm install` that downloads all the dependencies required by the project.
 
-### Ensure the project is using the latest version of Teams manifest & SDK
+### Ensure the project is using the latest version of Teams SDK
 
 Run the npm command to install the latest version of the SDK
 
@@ -171,22 +173,9 @@ Run the npm command to install the latest version of the SDK
 npm i @microsoft/teams-js
 ```
 
-Locate and open the `manifest.json` file in the `manifest`  folder of the project. 
-- Change the `$schema` property to **https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json**
-- Change the `manifestVersion` property to **1.7**.
-
-Open the `gulp.config.js` file in the root folder of the project. Add the following to the **SCHEMAS** property.
-
-```json
-{
-  version: "1.7",
-  schema: "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json"
-}
-```
-
 ### Update the default bot
 
-The first version of this bot will respond to the message **MentionMe** in a 1:1 chat conversation. The response will mention the user who initiated the conversation.
+The first version of this bot will respond to the message **MentionMe** in a 1:1 chat conversation. The response will mention the user who started the conversation.
 
 To implement this functionality, locate and open the **./src/app/conversationalBot/ConversationalBot.ts** file and add the following method to the `ConversationalBot` class:
 
@@ -270,7 +259,7 @@ Using the app bar navigation menu, select the **More added apps** button. Then s
 
 Select the **Manifest editor** tab and then the **Create a new app** button:
 
-![Screenshot of App studio manifest editor screen](../media/03-app-studio-03.png)
+![Screenshot of App studio manifest editor screen - create new app](../media/03-app-studio-03.png)
 
 Provide a short name.
 
@@ -280,7 +269,7 @@ Provide a Package Name and Version.
 
 Provide a Short Description and Full Description.
 
-![Screenshot of App studio manifest editor screen](../media/03-app-studio-04.png)
+![Screenshot of App studio - app details screen](../media/03-app-studio-04.png)
 
 From the **(2) Capabilities** > **Bots** page, select **Set up** to add a bot to the manifest.
 
@@ -306,11 +295,9 @@ On the **New command** dialog, enter the following values and select **Save**:
 
 With the bot added to the Teams app, you need to update the manifest in your project. From the **(3) Finish** > **Test and distribute** section, select the **Download** button from the **Download** section.
 
-This will download the app package as a ZIP. Unpack the zip and copy the **manifest.json** file in it to your project, updating the existing **./src/manifest/manifest.json** file. 
+This will download the app package as a ZIP. Unpack the zip and open the **manifest.json** file in it. Copy the updated information to your project, updating the existing **./src/manifest/manifest.json** file. 
 
 In the **./src/manifest/manifest.json** file, verify `icons` property's values, and update if necessary, file names to match what's in the project
-
-Locate the property `id`. Change its value to match the GUID of the Azure AD app that was created when creating the bot in the Azure portal.
 
 Locate the property `bots`. Verify it contains the following JSON that includes the new command added in App Studio:
 
@@ -341,7 +328,7 @@ Locate the property `bots`. Verify it contains the following JSON that includes 
 ```
 
 > [!IMPORTANT]
-> Notice the `botId` property value. This will be replaced with the value listed in the **./.env** file when you build the project.
+> Notice the `botId` property value. If you see a GUID, the manifest has already been configured with the Bot App ID. If you see `{{MICROSOFT_APP_ID}}`, then this will be replaced with the value listed in the **./.env** file when you build the project.
 
 At this point, your bot is ready to test!
 
@@ -360,7 +347,7 @@ This gulp task will run many other tasks all displayed within the command-line c
 
 ![Screenshot of gulp ngrok-serve](../media/03-test-01.png)
 
-Note the URL of the Ngrok URL displayed in the console. In the previous screenshot, NGrok has created the temporary URL **ec7d937d.ngrok.io** that will map to our locally running web server. In order for the Bot Framework to route messages from Microsoft Teams to our locally running bot, you need to update the bot's messaging endpoint in the Azure portal.
+Note the URL of the Ngrok URL displayed in the console. In the previous screenshot, NGrok has created the temporary URL **5f1f02998d18.ngrok.io** that will map to our locally running web server. In order for the Bot Framework to route messages from Microsoft Teams to our locally running bot, you need to update the bot's messaging endpoint in the Azure portal.
 
 Open a browser and navigate to the [Azure portal](https://portal.azure.com) and sign in using a **Work or School Account** that has rights to create resources in your Azure subscription.
 
@@ -368,12 +355,14 @@ Locate the bot by selecting the Azure Resource Group and Bot Channels Registrati
 
 Using the left-hand navigation, select **Bot management** > **Settings**.
 
-Locate the property **Configuration** > **Messaging endpoint** and set the domain to the NGrok domain.
+Locate the property **Configuration** > **Messaging endpoint** and set the domain to the NGrok domain, pointing to the `/api/messages` endpoint. Using the example above, the endpoint will be `https://5f1f02998d18.ngrok.io/api/messages`
+
+![The messaging endpoint set to https://5f1f02998d18.ngrok.io/api/messages](../media/03-test-07.png)
 
 Finally, save your changes to the bot configuration using the **Save** button at the top of the page.
 
 > [!IMPORTANT]
-> The free version of Ngrok will create a new URL each time you restart the web server. Make sure you update the **Messaging endpoint** of your URL each time you restart the web server when you are testing the app.
+> The free version of Ngrok will create a new URL each time you restart the web server. Make sure you update the **Messaging endpoint** of your URL each time you restart the web server when you're testing the app.
 
 ### Install the custom app in Microsoft Teams
 
@@ -406,7 +395,7 @@ Select the **MentionMe** command, or manually type **mentionme** in the compose 
 
 After a few seconds, you should see the bot respond mentioning the user you are signed in with:
 
-![Screenshot of the installed Microsoft Teams app](../media/03-test-06.png)
+![Screenshot of the working Microsoft Teams app](../media/03-test-06.png)
 
 At this point, we have a working bot that is responding when it's mentioned.
 

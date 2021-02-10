@@ -104,7 +104,7 @@ foreach (var resource in results)
 
 ## Required permissions
 
-In order to access insights on files in OneDrive, you'll need one of the following permissions. The specific permission required will depend on the operation you want to perform.
+To access insights on files in OneDrive, you'll need one of the following permissions. The specific permission required will depend on the operation you want to do.
 
 - Delegated permissions (granted by users)
   - Sites.Read.All

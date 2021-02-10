@@ -11,18 +11,18 @@ In the browser, navigate to **https://teams.microsoft.com** and sign in with the
 
 Select the **More added apps** menu item from the left-hand navigation and select the **App Studio** app:
 
-![Screenshot of the App Studio app listed in the More Added Apps dialog](../media/05-appstudio-01.png)
+![Screenshot of the App Studio app listed in the More Added Apps dialog](../media/05-app-studio-01.png)
 
 > [!TIP]
 > If App Studio is not listed in the **More added apps** dialog as shown above, select **More apps** at the bottom of the dialog.
 >
 > Search for **App Studio** and select it from the search results to install it:
 >
-> ![Screenshot of installing App Studio from the available apps](../media/05-appstudio-02.png)
+> ![Screenshot of installing App Studio from the available apps](../media/05-app-studio-02.png)
 
 In App Studio, select the **Card editor** tab and then select the **Create a new card** button.
 
-![Screenshot of the Card editor initial experience](../media/05-appstudio-03.png)
+![Screenshot of the Card editor initial experience](../media/05-app-studio-03.png)
 
 Select the **Create** button for an **Adaptive Card** in the list of card types you can create in the **Create a new card** dialog.
 
@@ -72,7 +72,7 @@ From the **json** tab, replace the contents of the default card with the followi
 }
 ```
 
-![Screenshot of the YouTube Video Selector card](../media/05-appstudio-04.png)
+![Screenshot of the YouTube Video Selector card](../media/05-app-studio-04.png)
 
 This JSON code instructs Microsoft Teams to render a textbox and button. When the button is selected, it will submit the card.
 
@@ -191,7 +191,7 @@ In Microsoft teams, go to a channel, select the **Conversations** tab, and selec
 
 Enter a message to post to the channel. Select some of the text and use the **Link** feature to add the deep link to the message:
 
-![Screenshot of the new message experience in a Conversations tab](../media/05-test-03.png)
+![Screenshot of the new message experience in a Conversations tab - adding a link](../media/05-test-03.png)
 
 ![Screenshot of the new message experience in a Conversations tab](../media/05-test-04.png)
 

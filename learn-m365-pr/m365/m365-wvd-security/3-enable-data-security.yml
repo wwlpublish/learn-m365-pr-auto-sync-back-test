@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.wvd-security.3-enable-data-security
+title: Enable data security
+metadata:
+  title: Enable data security
+  description: Learn how to use Azure files as persistent, stateful containers.
+  ms.date:  01/15/2021
+  author: ndelgado
+  ms.author: nedelgad
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 6
+content: |
+  [!include[](includes/3-enable-data-security.md)]

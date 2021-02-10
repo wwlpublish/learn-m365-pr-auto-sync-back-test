@@ -1,7 +1,7 @@
 In this module you learned about Windows Virtual Desktop, the desktop and app virtualization service in Microsoft Azure. Specifically you learned:
 
 - Benefits of Windows Virtual Desktop
-- What microsoft manages and what you manage
+- What Microsoft manages and what you manage
 - Infrastructure and system requirements
 - When to choose Windows Virtual Desktop
 

@@ -40,9 +40,12 @@ Update-Package bootstrap
 Install-Package Microsoft.Owin.Host.SystemWeb
 Install-Package Microsoft.Owin.Security.OpenIdConnect
 Install-Package Microsoft.Owin.Security.Cookies
-Install-Package Microsoft.Identity.Client -Version 4.18.0
-Install-Package Microsoft.Graph -Version 3.12.0
+Install-Package Microsoft.Identity.Client -Version 4.22.0
+Install-Package Microsoft.Graph -Version 3.21.0
 ```
+
+> [!IMPORTANT]
+> There is currently an issue with Visual Studio tooling when using versions of the Microsoft.Identity.Client package later that 4.22.0. There is a workaround for this issue but it involves manually editing the project file and thus is not covered in this tutorial. For more information, please see [ASP.NET Classic projects fail to build because of MSAL's WinRT reference (Must use PackageReference)](https://github.com/AzureAD/microsoft-authentication-library-for-dotnet/issues/2247).
 
 ## Design the app
 
@@ -185,7 +188,7 @@ body {
 }
 ```
 
-Open the **Views/Home/index.cshtml** file and replace its contents with the following.
+Open the **Views/Home/Index.cshtml** file and replace its contents with the following.
 
 ```html
 @{
@@ -254,11 +257,17 @@ Determine your ASP.NET app's SSL URL. In Visual Studio's Solution Explorer, sele
 
 ![Screenshot of the Visual Studio Properties window](../media/03-vs-project-url.png)
 
-Open a browser and navigate to the [Azure Active Directory admin center](https://aad.portal.azure.com). Login using a **Work or School Account**.
+Open a browser and navigate to the [Azure Active Directory admin center (https://aad.portal.azure.com)](https://aad.portal.azure.com). Sign in using a **Work or School Account** that has global administrator rights to the tenancy.
 
-Select **Azure Active Directory** in the left-hand navigation, then select **App registrations** under **Manage**.
+Select **Azure Active Directory** in the left-hand navigation.
 
-![A screenshot of the App registrations](../media/03-aad-portal-app-registrations.png)
+Select **Manage > App registrations** in the left-hand navigation.
+
+  ![Screenshot of the App registrations](../media/azure-ad-portal-home.png)
+
+On the **App registrations** page, select **New registration**.
+
+  ![Screenshot of App Registrations page](../media/azure-ad-portal-new-app-00.png)
 
 Select **New registration**. On the **Register an application** page, set the values as follows.
 
@@ -266,28 +275,28 @@ Select **New registration**. On the **Register an application** page, set the va
 - Set **Supported account types** to **Accounts in any organizational directory and personal Microsoft accounts**.
 - Under **Redirect URI**, set the first drop-down to **Web** and set the value to the ASP.NET app URL you previously obtained in this section.
 
-![A screenshot of the Register an application page](../media/03-aad-register-an-app.png)
+![A screenshot of the Register an application page](../media/azure-ad-portal-new-app-01.png)
 
 Select **Register**. On the **ASP.NET Graph Tutorial** page, copy the value of the **Application (client) ID** and save it, you'll need it in the next step.
 
-![A screenshot of the application ID of the new app registration](../media/03-aad-application-id.png)
+![A screenshot of the application ID of the new app registration](../media/azure-ad-portal-new-app-details.png)
 
 Select **Authentication** under **Manage**. Locate the **Implicit grant** section and enable **ID tokens**.
 
 Select **Save** in the top menu to save your changes.
 
-![A screenshot of the Implicit grant section](../media/03-aad-implicit-grant.png)
+![A screenshot of the Implicit grant section](../media/azure-ad-portal-implicit-grant.png)
 
 Select **Certificates & secrets** under **Manage**. Select the **New client secret** button. Enter a value in **Description** and select one of the options for **Expires** and select **Add**.
 
-![A screenshot of the Add a client secret dialog](../media/03-aad-new-client-secret.png)
+![A screenshot of the Add a client secret dialog](../media/azure-ad-portal-new-app-secret.png)
 
 Copy the client secret value before you leave this page. You'll need it in the next step.
 
 > [!IMPORTANT]
 > This client secret is never shown again, so make sure you copy it now.
 
-![A screenshot of the newly added client secret](../media/03-aad-copy-client-secret.png)
+![A screenshot of the newly added client secret](../media/azure-ad-portal-new-app-secret-02.png)
 
 ## Summary
 

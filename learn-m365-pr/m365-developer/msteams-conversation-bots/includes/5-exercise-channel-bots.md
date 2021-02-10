@@ -21,7 +21,7 @@ You must increment the version of the app to upgrade an existing installed versi
 
 The next step is to update the bot's code.
 
-In the previous exercise, our code was looking for the specific message `MentionMe` in order to respond. This works in a 1:1 personal chat because the bot isn't mentioned in the conversation.
+In the previous exercise, our code was looking for the specific message `MentionMe` to respond. This works in a 1:1 personal chat because the bot isn't mentioned in the conversation.
 
 However, in a channel conversation, a user must @mention the bot to trigger it. This results in a message containing a reference to the bot, not just the message submitted.
 
@@ -54,7 +54,7 @@ if (text.startsWith("mentionme")) {
   const dc = await this.dialogs.createContext(context);
   await dc.beginDialog("help");
 } else {
-  await context.sendActivity(`I\'m terribly sorry, but my master hasn\'t trained me to do anything yet...`);
+  await context.sendActivity(`I\'m terribly sorry, but my developer hasn\'t trained me to do anything yet...`);
 }
 ```
 

@@ -3,7 +3,7 @@ uid: learn-m365.msgraph-access-file-data.5-exercise-upload-files-onedrive
 metadata:
   title: Exercise - Upload files to OneDrive
   description: In this exercise, you’ll learn how to upload files to OneDrive using Microsoft Graph, including both small and large files.
-  ms.date: 09/10/2020
+  ms.date: 12/10/2020
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
@@ -23,7 +23,7 @@ quiz:
     - content: "Developers can upload files of any size using either option, but can get additional progress reporting when using the large file upload option."
       isCorrect: true
       explanation: "Correct!"
-    - content: "Large file uploads are resumable in the case of an interrupted connection while simple file uploads aren't resumable."
+    - content: "Large file uploads are resumable if there's an interrupted connection while simple file uploads aren't resumable."
       isCorrect: false
       explanation: "Resumable uploads are unique to large file uploads; simple file uploads aren't resumable."
   - content: "Developers can upload files of any size using either the simple upload or large file upload approach."
@@ -31,6 +31,6 @@ quiz:
     - content: "False - simple file uploads are limited to files smaller than 4 MB."
       isCorrect: true
       explanation: "Correct, simple file uploads are limited to files up to 4 MB."
-    - content: "True - file size is not a factor in the two options, rather resumable uploads and progress reporting are additional capabilities for large file uploads."
+    - content: "True - file size isn't a factor in the two options, rather resumable uploads and progress reporting are additional capabilities for large file uploads."
       isCorrect: false
       explanation: "The file size is a differentiating factor between large file uploads and simple uploads."

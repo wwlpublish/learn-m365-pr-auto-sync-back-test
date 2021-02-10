@@ -6,7 +6,7 @@ The process to create a subscription to receive change notifications from Micros
 
 ### Register and configure Azure AD app
 
-The first step to receiving change notifications from Microsoft Graph is to register an Azure AD application and configure it with the necessary permissions. The app needs the permissions required to perform the query to return a data set that is used in the change notification. For example, if you want to be notified when new emails are received, your app needs to read emails, or the **Mail.Read** permission.
+The first step to receiving change notifications from Microsoft Graph is to register an Azure AD application and configure it with the necessary permissions. The app needs the permissions required to do the query to return a data set that is used in the change notification. For example, if you want to be notified when new emails are received, your app needs to read emails, or the **Mail.Read** permission.
 
 After creating the Azure AD app, the code in your web app must obtain an access token to submit requests to Microsoft Graph. Use the same process to obtain an access token for creating and managing change notification subscriptions that you would for any other type of request to Microsoft Graph.
 
@@ -26,7 +26,7 @@ You should have a process that is going to monitor the subscriptions to ensure t
 
 If the subscription does expire, you can create a new subscription. However, you can proactively renew existing subscriptions with no interruption in notifications as long as the subscription hasn't expired. Your application just needs to  keep track of when the subscription will expire.
 
-One option you can implement is to check the expiration timestamp on the subscription for each change notification your application receives. If the expiration is within a certain time frame, in addition to handling the change notification, your application can also renew the subscription. While this solution will work in scenarios that receive a high number of change notifications, it breaks down if no change notifications are received in the specified subscription window.
+One option you can implement is to check the expiration timestamp on the subscription for each change notification your application receives. If the expiration is within a certain time frame, also to handling the change notification, your application can also renew the subscription. While this solution will work in scenarios that receive a high number of change notifications, it breaks down if no change notifications are received in the specified subscription window.
 
 To address this, you could have another process on a timer that verifies notifications are received within the subscription window. If not, you can assume the subscription has likely expired and needs to be recreated.
 

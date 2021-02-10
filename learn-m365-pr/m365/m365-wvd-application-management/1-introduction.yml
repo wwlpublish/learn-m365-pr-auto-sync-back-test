@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.wvd-msix-app-attach.introduction
+title: Introduction
+metadata:
+  title: Introduction
+  description: Learn about MSIX app attach technology.
+  ms.date:  01/15/2021
+  author: ndelgado
+  ms.author: nedelgad
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 4
+content: |
+  [!include[](includes/1-introduction.md)]

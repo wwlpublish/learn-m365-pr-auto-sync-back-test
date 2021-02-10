@@ -82,7 +82,7 @@ You can determine the specific resource type of a `DriveItem` by the presence of
 
 ## Microsoft Graph OneDrive permissions
 
-In order to perform OneDrive operations, you'll need one of the following permissions. The specific permission required will depend on the operation you want to perform.
+To do OneDrive operations, you'll need one of the following permissions. The specific permission required will depend on the operation you want to do.
 
 For example, if you're creating, editing or deleting Drives or DriveItems, one of the write permissions is required. Some permissions can be granted by a user while others must be granted to the app by an administrator:
 

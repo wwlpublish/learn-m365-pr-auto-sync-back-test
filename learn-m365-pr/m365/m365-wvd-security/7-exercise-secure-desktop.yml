@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.wvd-security.7-exercise-secure-desktop
+title: Exercise - Enable AppLocker in a Windows Server 2016 VM running in Azure
+metadata:
+  title: Exercise - Enable AppLocker in a Windows Server 2016 VM running in Azure
+  description: Learn how to increase the security of your Windows Virtual Desktop host.
+  ms.date:  01/15/2021
+  author: ndelgado
+  ms.author: nedelgad
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 10
+content: |
+  [!include[](includes/7-exercise-secure-desktop.md)]

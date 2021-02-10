@@ -6,7 +6,7 @@ Adding Microsoft Graph support to an ASP.NET MVC web application is simple. The 
 
 ### Obtain an access token for Microsoft Graph
 
-All communication with Microsoft Graph is handled though the `GraphServiceClient`. The `GraphServiceClient` must be configured to include an access token in each request. Therefore, the first step is for the web application to obtain an access token once the user has signed-in. This can be done using following code that demonstrates how to obtain an access token:
+All communication with Microsoft Graph is handled though the `GraphServiceClient`. The `GraphServiceClient` must be configured to include an access token in each request. So, the first step is for the web application to obtain an access token once the user has signed-in. This can be done using following code that demonstrates how to obtain an access token:
 
 ```csharp
 public async Task<string> GetUserAccessTokenAsync()
