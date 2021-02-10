@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn-m365.mcas-siem-integration
+metadata:
+  title: Microsoft Cloud App Security SIEM integration
+  description: Connect Azure Sentinel and other SIEM solutions to Microsoft Cloud App Security
+  ms.date: 02/04/2021
+  author: geoffallix
+  ms.author: v-gea
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Microsoft Cloud App Security SIEM integration
+summary: Connect Azure Sentinel and other SIEM solutions to Microsoft Cloud App Security
+abstract: | 
+  In this module, you will:
+  - Connect Azure Sentinel to Microsoft Cloud App Security
+  - Enrich incidents in Azure Sentinel with playbooks
+  - Triage infrequent country requests with Microsoft Cloud App Security and Azure Sentinel
+  - Connect a non-Microsoft security information and event management solution to Microsoft Cloud App Security
+
+prerequisites: | 
+  - Experience working with Microsoft 365 services
+  - Experience working with Azure 
+  - Experience working with Azure Sentinel
+  - Knowledge of security concepts, risks, and mitigations
+  - Microsoft Cloud App Security intermediate or equivalent  
+iconUrl: /achievements/generic-badge.svg
+levels:
+- advanced
+roles:
+- administrator
+products:
+- m365-ems-cloud-app-security
+units:
+- learn-m365.mcas-siem-integration.1-introduction
+- learn-m365.mcas-siem-integration.2-connect-azure-sentinel
+- learn-m365.mcas-siem-integration.3-enrich-incidents
+- learn-m365.mcas-siem-integration.4-triage-infrequent-country-requests
+- learn-m365.mcas-siem-integration.5-connect-siem
+- learn-m365.mcas-siem-integration.6-knowledge-check
+- learn-m365.mcas-siem-integration.7-summary
+badge:
+  uid: learn-m365.mcas-siem-integration.badge
