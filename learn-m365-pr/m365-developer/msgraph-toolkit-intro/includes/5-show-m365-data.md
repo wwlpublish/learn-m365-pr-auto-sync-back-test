@@ -6,11 +6,11 @@ In this unit, we'll discover Microsoft Graph Toolkit components and learn how to
 
 Microsoft Graph Toolkit components (web components) are actually HTML tags. Components work with providers to get user access token, call Microsoft Graph APIs for getting required data and show this data with Fluent UI.
 
-Basically, these reusable HTML tags have complete functionality to help us create full Microsoft 365 experience.
+Basically, these reusable HTML tags have complete functionality to help us integrate pieces of Microsoft 365.
 
 There are many components available to get the most popular Microsoft 365 datasets in your application such as people, tasks, agenda. Let's discover components with some scenarios:
 
-### Scenario 1:
+### Scenario 1: Get events from calendar
 
 Suppose you would like to show upcoming calendar events for signed-in user in your application. You can easily implement calendar events by using `mgt-agenda` component in your app. The **Agenda** component will return calendar events from Microsoft Graph `/me/calendarview` API endpoint by default.
 
@@ -20,7 +20,7 @@ Suppose you would like to show upcoming calendar events for signed-in user in yo
 
 :::image type="content" source="../media/05-mgt-agenda.png" alt-text="Microsoft Graph Toolkit Agenda":::
 
-### Scenario 2:
+### Scenario 2: Show tasks from Microsoft Planner
 
 Let's say you would like to build a web page to show user's tasks. You can use **Tasks** component to get data from Microsoft Planner. The `mgt-tasks` will show user's data with pre-built UI that looks and feels like Microsoft 365 experience:
 
@@ -30,7 +30,7 @@ Let's say you would like to build a web page to show user's tasks. You can use *
 
 :::image type="content" source="../media/05-mgt-tasks.png" alt-text="Microsoft Graph Toolkit Tasks":::
 
-### Scenario 3:
+### Scenario 3: Integrate people search
 
 If you want to show list of people in your app where you can search for a person, you can use **People Picker** component.
 
@@ -47,3 +47,5 @@ You can process the results by using attributes available for `mgt-people-picker
 ```
 
 :::image type="content" source="../media/05-mgt-peoplepicker-showmax.png" alt-text="Microsoft Graph Toolkit People Picker show-max attribute":::
+
+In summary, all components in Microsoft Graph Toolkit share the same structure. They work with Providers to handle the authentication, get data using Microsoft Graph and show the results with pre-built UI. Components also handle the the exceptions and errors.
