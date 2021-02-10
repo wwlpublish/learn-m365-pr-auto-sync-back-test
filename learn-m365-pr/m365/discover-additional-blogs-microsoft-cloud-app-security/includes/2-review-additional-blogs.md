@@ -1,6 +1,6 @@
 It’s important for any security administrator to be able to keep up to date with the technologies they work with. If you’re using Microsoft Cloud App Security, you’ll want to learn more about new and existing features. Microsoft and the Cloud App Security team have curated content relating to cloud app technologies, and presented this material in a series of blogs and websites. 
 
-## Cloud App Security Broker (CASB) Ninja Blog Series
+## Cloud App Security Broker (CASB) ninja blog series
 
 The CASB Ninja Blog Series contains articles that will help to arm you with the skills and knowledge you need to be successful with a Cloud Access Security Broker (CASB). Ultimately, perhaps, giving you the skills to be a CASB ninja within your organization.
 
@@ -16,7 +16,7 @@ In the blogs, you’ll learn how you can use Cloud App Security in the following
 
 The blog is located just off the Microsoft Security and Compliance website. You can review the content here: [Welcome to the MCAS Ninja Blog Series!]( https://techcommunity.microsoft.com/t5/microsoft-security-and/welcome-to-the-mcas-ninja-blog-series/ba-p/1775379?azure-portal=true).
 
-## MCAS Data Protection Blog Series
+## MCAS data protection blog series
 
 This blog is written by Sarahzin Chowdhury. She’s one of the Cloud App Security and Defender for Identity Program Managers on the Cloud + AI Security Customer Experience Engineering team. Throughout this series, she’ll be explaining how to protect your data using Microsoft Cloud App Security.
 
@@ -39,7 +39,7 @@ The following articles are already available for your review:
 1. [Protect Box (Part 2: Real-Time Data Protection)](https://techcommunity.microsoft.com/t5/microsoft-security-and/mcas-data-protection-blog-series-box-real-time-protections/ba-p/1943256?azure-portal=true).
 1. [Do I use MCAS or MIP?](https://techcommunity.microsoft.com/t5/microsoft-security-and/mcas-data-protection-blog-series-do-i-use-mcas-or-mip/ba-p/2011039?azure-portal=true).
 
-## Securing Administrative Access to Microsoft Cloud App Security and Defender for Identities
+## Securing administrative access to Microsoft Cloud App Security and Defender for Identities
 
 Security administrators often focus on best practices for securing their organization’s users, apps, services, and devices. But it’s easy to forget that Security Administrators are also users. And it’s at least, if not more, important to secure these administrative accounts within your organization.
 
@@ -47,7 +47,7 @@ This blog seeks to highlight this issue, and to identify best practices to help 
 
 You can review the content in this blog here: [Securing Administrative Access to Microsoft Cloud App Security and Defender for Identities](https://techcommunity.microsoft.com/t5/microsoft-security-and/securing-administrative-access-to-microsoft-cloud-app-security/ba-p/1754139?azure-portal=true).
 
-## Limiting Inherited Roles from Azure Active Directory in MCAS
+## Limiting inherited roles from Azure Active Directory in Microsoft Cloud App Security
 
 In this article, the authors discuss how to restrict accesses in line with your organization’s security best practices and observe the principle of least privilege. Access to Cloud App Security is granted through inherited roles from Azure AD or through Azure role-based access control (RBAC) assignments from within the Cloud App Security portal itself.
 
