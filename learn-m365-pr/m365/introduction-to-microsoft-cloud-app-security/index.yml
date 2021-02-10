@@ -1,0 +1,36 @@
+### YamlMime:Module
+uid: learn-m365.introduction-to-microsoft-cloud-app-security
+metadata:
+  title: Introduction to Microsoft Cloud App Security
+  description: Introduction to Microsoft Cloud App Security
+  ms.date: 12/17/2020
+  author: geoffallix
+  ms.author: v-gea
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Introduction to Microsoft Cloud App Security
+summary: Learn how Microsoft Cloud App Security can help secure your organization’s data. Select an appropriate Cloud App Security licensing option, and access the Cloud App Security tech community.
+abstract: | 
+  In this module, you will:
+  - Describe Cloud App Security 
+  - Select an appropriate licensing option
+  - Access the Cloud App Security tech community 
+prerequisites: | 
+  - Knowledge of security fundamentals
+  - Knowledge of Microsoft Azure and Microsoft 365 fundamentals
+iconUrl: http://via.placeholder.com/120x120
+levels:
+- beginner
+roles:
+- administrator
+products:
+- m365-ems-cloud-app-security
+units:
+- learn-m365.introduction-to-microsoft-cloud-app-security.1-introduction
+- learn-m365.introduction-to-microsoft-cloud-app-security.2-what-is-microsoft-cloud-app-security
+- learn-m365.introduction-to-microsoft-cloud-app-security.3-license-cloud-app-security
+- learn-m365.introduction-to-microsoft-cloud-app-security.4-access-cloud-app-security-tech-community
+- learn-m365.introduction-to-microsoft-cloud-app-security.5-knowledge-check
+- learn-m365.introduction-to-microsoft-cloud-app-security.6-summary
+badge:
+  uid: learn-m365.introduction-to-microsoft-cloud-app-security.badge
