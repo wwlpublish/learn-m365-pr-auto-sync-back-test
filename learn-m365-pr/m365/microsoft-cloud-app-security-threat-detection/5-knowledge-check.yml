@@ -26,7 +26,7 @@ quiz:
       explanation: "That's correct. Reverse proxy enables you to implement conditional access app control over your data."
     - content: "API connectors."
       isCorrect: false
-      explanation: "That's incorrect. API connectors enable you to connect Cloud App Security to both Microsoft and third party SaaS platforms."
+      explanation: "That's incorrect. API connectors enable you to connect Cloud App Security to both Microsoft and third-party SaaS platforms."
 
 
   - content: "Which cloud discovery feature does Microsoft Cloud App Security provide that Azure AD Cloud App Discovery doesn’t?"

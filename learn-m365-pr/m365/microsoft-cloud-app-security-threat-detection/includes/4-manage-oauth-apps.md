@@ -10,20 +10,17 @@ If a user is tricked into authorizing a malicious OAuth app, their data could be
 
 To manage OAuth apps in Cloud App Security, go to the Cloud App Security portal, select **Investigate**, and select **OAuth apps**.
 
-[!div class="mx-imgBorder"]
-![OAuth apps](../media/4-oauthapps.png)
+![OAuth apps](../media/4-oauth-apps.png)
 
 From the Manage OAuth apps page, you can manage all of the OAuth apps that were authorized by users in your organization.
 
-[!div class="mx-imgBorder"]
-![Manage OAuth apps](../media/4-manageoauthapps.png)
+![Manage OAuth apps](../media/4-manage-oauth-apps.png)
 
 Each app has further details, if selected, and you can list the permissions that have been delegated to the app and how common the app is in the global community. Common apps are typically less risky.
 
-You can filter the list of apps, for example, to find apps with a high permission level that are rarely used in the community. If you find an app that you want to block, you can select **Mark app as banned**. This blocks the app for all users and presents users with a custom notification.
+You can filter the list of apps, for example, to find apps with a high permission level that are rarely used in the community. If you find an app that you want to block, you can select **Mark app as banned**. This action blocks the app for all users and presents users with a custom notification.
 
-[!div class="mx-imgBorder"]
-![Mark app as banned](../media/4-markappasbanned.png)
+![Mark app as banned](../media/4-mark-app-banned.png)
 
 ## OAuth app policies
 
@@ -33,8 +30,7 @@ The most straightforward method for creating an OAuth app policy is to create a 
 
 Follow the steps from the previous section to create a filter that displays apps that you want to block. Once you have finalized the filter, select **New policy from search**.
 
-[!div class="mx-imgBorder"]
-![New policy from search](../media/4-newpolicyfromsearch.png)
+![New policy from search](../media/4-new-policy-search.png)
 
 You can then choose to be alerted by email, text message, or a Microsoft Flow alert and choose to automatically revoke an app.
 
@@ -42,4 +38,4 @@ You can create multiple policies allowing you to have one policy to alert you if
 
 The following video walks through the steps to manage OAuth apps in Microsoft Cloud App Security:
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4MANe]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4MANe]
