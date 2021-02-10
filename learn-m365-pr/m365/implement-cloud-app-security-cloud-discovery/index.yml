@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn-m365.implement-mcas-cloud-discovery
+metadata:
+  title: Implement Microsoft Cloud App Security Cloud Discovery
+  description: Implement Microsoft Cloud App Security Cloud Discovery
+  ms.date: 01/30/2021
+  author: geoffallix
+  ms.author: v-gea
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Implement Microsoft Cloud App Security Cloud Discovery
+summary: Learn to configure Cloud Discovery with Microsoft Cloud App Security. Learn to integrate Cloud App Security with Microsoft Defender for Endpoint, and to integrate Cloud App Security Cloud Discovery with non-Microsoft systems.
+abstract: | 
+  In this module, you will:
+  - Use the Cloud Discovery interactive guide to help protect your apps
+  - Implement Cloud Discovery policies
+  - Configure Cloud App Security in Microsoft Defender for Endpoint
+  - Configure the Cloud App Security log collector
+  - Integrate Cloud App Security with non-Microsoft systems
+prerequisites: | 
+  - Experience working with Microsoft 365 services
+  - Experience working with Azure 
+  - Knowledge of security concepts, risks, and mitigations
+  - Microsoft Cloud App Security fundamentals or equivalent
+iconUrl: /learn-m365-pr/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365-ems-cloud-app-security
+units:
+- learn-m365.implement-mcas-cloud-discovery.1-introduction
+- learn-m365.implement-mcas-cloud-discovery.2-what-is-cloud-discovery-in-cloud-app-security
+- learn-m365.implement-mcas-cloud-discovery.3-implement-cloud-discovery-policies
+- learn-m365.implement-mcas-cloud-discovery.4-configure-cloud-app-security-in-microsoft-defender-for-endpoint
+- learn-m365.implement-mcas-cloud-discovery.5-configure-cloud-app-security-log-collector
+- learn-m365.implement-mcas-cloud-discovery.6-integrate-cloud-app-security-with-non-microsoft-systems
+- learn-m365.implement-mcas-cloud-discovery.7-knowledge-check
+- learn-m365.implement-mcas-cloud-discovery.8-summary
+badge:
+  uid: learn-m365.implement-mcas-cloud-discovery.badge
