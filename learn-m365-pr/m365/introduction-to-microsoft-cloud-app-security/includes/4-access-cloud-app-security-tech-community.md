@@ -1,4 +1,4 @@
-There’s an increasing userbase for Microsoft Cloud App Security. This is good news when you’re looking for help or guidance. One great place to start searching for help is the Microsoft Cloud App Security tech community. 
+There’s an increasing user base for Microsoft Cloud App Security. This is good news when you’re looking for help or guidance. One great place to start searching for help is the Microsoft Cloud App Security tech community. 
 
 ## Overview of the Microsoft Cloud App Security tech community
 
