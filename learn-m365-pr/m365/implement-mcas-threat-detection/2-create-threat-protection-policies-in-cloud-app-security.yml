@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.implement-mcas-threat-detection.2-create-threat-protection-policies-in-cloud-app-security
+metadata:
+  title: Create threat protection policies in Cloud App Security
+  description: Microsoft Cloud App Security provides policy-driven mechanisms to help manage your users' behavior in the cloud
+  ms.date: 01/30/2021
+  author: geoffallix
+  ms.author: v-gea
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Create threat protection policies in Cloud App Security
+durationInMinutes: 12
+content: |
+  [!include[](includes/2-create-threat-protection-policies-in-cloud-app-security.md)]
