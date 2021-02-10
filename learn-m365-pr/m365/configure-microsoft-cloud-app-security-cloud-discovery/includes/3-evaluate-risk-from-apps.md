@@ -46,7 +46,7 @@ Since there are so many apps to review, you can filter the results. There are bo
 | Apps and  domains       | Enables you  to search for apps used in specified domains.   |
 | Compliance  risk factor | Search for a  specific standards, certification, and compliance with which the app must  comply. For example: HIPAA, ISO 27001, SOC 2, and PCI-DSS. |
 | General risk  factor    | Search for  general risk factors including: Consumer popularity, Data center, Data types,  Domain, Founded, Headquarters, and others. |
-| Legal risk  factor      | Search for  legal risk factors including: DMCA, Data ownership, Data retention policy,  GDPR, and others. |
+| Legal risk  factor      | Search for  legal risk factors including: DMCA, Data ownership, Data retention policy, and others. |
 | Risk score              | Select a  range of risk scores from zero through 10. 10 represents a more secure  score. |
 | Security risk  factor   | Search for  security risk factors including: Admin audit trail, Data-at-rest encryption  method, File sharing, and others. |
 
@@ -78,8 +78,6 @@ The following screenshot displays the **Actions** context menu for a selected ap
 
 :::image type="content" source="../media/app-actions.png" alt-text="A screenshot of the Cloud app catalog page. The administrator has select the Actions button for the Microsoft Tech Community app.":::
 
- 
-
 ### Request an app review
 
 It’s possible that you might discover an app within your organization for which there is no score in Cloud App Security. If this happens, you can request a review of that app. To do so, use the following procedure:
@@ -97,4 +95,4 @@ It’s possible that you might discover an app within your organization for whic
 
 The following video describes how to use app risk scoring in Cloud App Security:
 
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4MAMu]
+>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4MAMu]

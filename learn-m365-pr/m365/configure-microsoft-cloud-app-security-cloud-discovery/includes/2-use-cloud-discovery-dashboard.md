@@ -60,9 +60,8 @@ Use this at-a-glance overview to review the overall cloud app usage in your orga
 - Review the risk score of the discovered apps in the App risk overview. 
 - Review discovery alerts status to check how many open alerts should be investigated.
 
-
 ## Use the Cloud App Discovery feature
 
 The following video demonstrates how to use Cloud App Discovery Feature:
 
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4MDaU]
+>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4MDaU]
