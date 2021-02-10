@@ -1,0 +1,39 @@
+### YamlMime:Module
+uid: learn-m365.enable-conditional-access-app-control-third-party-apps
+metadata:
+  title: Enable Conditional Access App Control for third-party apps
+  description: Configure Conditional Access App Control for Workplace from Facebook, Box, and Slack.
+  ms.date: 02/04/2021
+  author: alistairmatthews
+  ms.author: v-alimat
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Enable Conditional Access App Control for third-party apps
+summary: Learn to enable conditional access app control for third-party apps in Microsoft Cloud App Security.
+abstract: | 
+  In this module, you will:
+  - Configure Conditional Access App Control steps for Workplace for Facebook.
+  - Configure Conditional Access App Control steps for Box.
+  - Configure Conditional Access App Control steps for Slack.
+prerequisites: | 
+  - Experience working with Microsoft 365 services
+  - Experience working with Azure 
+  - Knowledge of security concepts, risks, and mitigations
+  - Microsoft Cloud App Security intermediate or equivalent
+iconUrl: http://via.placeholder.com/120x120
+levels:
+- advanced
+roles:
+- administrator
+products:
+- m365-ems-cloud-app-security
+units:
+- learn-m365.enable-conditional-access-app-control-third-party-apps.1-introduction
+- learn-m365.enable-conditional-access-app-control-third-party-apps.2-protect-apps-cloud-app-security-conditional-access-app-control
+- learn-m365.enable-conditional-access-app-control-third-party-apps.3-configure-conditional-access-app-control-workplace-facebook
+- learn-m365.enable-conditional-access-app-control-third-party-apps.4-configure-conditional-access-app-control-box
+- learn-m365.enable-conditional-access-app-control-third-party-apps.5-configure-conditional-access-app-control-slack
+- learn-m365.enable-conditional-access-app-control-third-party-apps.6-knowledge-check
+- learn-m365.enable-conditional-access-app-control-third-party-apps.7-summary
+badge:
+  uid: learn-m365.enable-conditional-access-app-control-third-party-apps.badge
