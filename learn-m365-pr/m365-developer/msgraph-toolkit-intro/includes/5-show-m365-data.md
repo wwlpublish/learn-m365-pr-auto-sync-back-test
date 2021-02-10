@@ -12,7 +12,7 @@ There are many components available to get the most popular Microsoft 365 datase
 
 ### Scenario 1:
 
-Suppose you would like to show upcoming calendar events for signed-in user in your application. You can easily implement calendar events by using `mgt-agenda` component in your app. The **Agenda** component will return calendar events from Microsoft Graph `/me/calendarview` endpoint by default.
+Suppose you would like to show upcoming calendar events for signed-in user in your application. You can easily implement calendar events by using `mgt-agenda` component in your app. The **Agenda** component will return calendar events from Microsoft Graph `/me/calendarview` API endpoint by default.
 
 ```html
 <mgt-agenda></mgt-agenda>
@@ -22,7 +22,7 @@ Suppose you would like to show upcoming calendar events for signed-in user in yo
 
 ### Scenario 2:
 
-Let's say we would like to build a web page to show user's tasks. We can use **Tasks** component to get data from Microsoft Planner. The `mgt-tasks` will show user's data with pre-built UI that looks and feels like Microsoft 365 experience:
+Let's say you would like to build a web page to show user's tasks. You can use **Tasks** component to get data from Microsoft Planner. The `mgt-tasks` will show user's data with pre-built UI that looks and feels like Microsoft 365 experience:
 
 ```html
 <mgt-tasks></mgt-tasks>
@@ -32,7 +32,7 @@ Let's say we would like to build a web page to show user's tasks. We can use **T
 
 ### Scenario 3:
 
-For example, if you want to provide people search ability and show list of results in your app, you can use **People Picker** component.
+If you want to show list of people in your app where you can search for a person, you can use **People Picker** component.
 
 ```html
 <mgt-people-picker></mgt-people-picker>
@@ -40,7 +40,7 @@ For example, if you want to provide people search ability and show list of resul
 
 :::image type="content" source="../media/05-peoplepicker.gif" alt-text="Microsoft Graph Toolkit People Picker":::
 
-You can customize the results by using attributes available for `mgt-people-picker` such as limiting the maximum number of people showing in the list:
+You can process the results by using attributes available for `mgt-people-picker` such as limiting the maximum number of people showing in the list:
 
 ```html
 <mgt-people-picker show-max="3"></mgt-people-picker>

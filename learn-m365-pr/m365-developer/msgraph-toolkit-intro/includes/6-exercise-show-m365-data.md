@@ -9,7 +9,7 @@ As a pre-requisite for this exercise, you'll need to complete the first exercise
 
 We already completed the steps for building the authentication in the previous exercise.
 
-Now, we would like to show upcoming calendar events for signed-in user in our application. Add your **Agenda** component in the `body` of your HTML file:
+Now, Let's show upcoming calendar events for signed-in user in our application. Add the **Agenda** component in the `body` of your HTML file:
 
 ```html
 <mgt-agenda></mgt-agenda>
@@ -35,7 +35,8 @@ Final version of your HTML file will be as shown below:
 
 1. In Visual Studio Code, run **Live Server** to test your app. Open your browser and go to http://localhost:3000.
 
-2. Sign in with your Microsoft 365 developer tenant. Consent required calendar permissions and select **Accept**.
+2. Sign in with your Microsoft 365 developer tenant. Consent to the required calendar permissions and select **Accept**.
 
 3. Finally, your app will show user's upcoming calendar events:
+
 :::image type="content" source="../media/06-final.gif" alt-text="Microsoft Graph Toolkit project final result":::
