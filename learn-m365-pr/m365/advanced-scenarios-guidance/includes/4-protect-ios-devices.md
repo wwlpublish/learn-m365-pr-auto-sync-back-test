@@ -27,7 +27,7 @@ If you have Microsoft Intune in your organization, and the iOS devices are enrol
     :::image type="content" source="../media/04-install-ios-app.png" alt-text="A screenshot of the Microsoft Endpoint manager admin center showing how to push an iOS app to iOS devices.":::
 
 1. In the **Add app** page, search for **Microsoft Defender ATP**, and then in the results select **Microsoft Defender ATP**.
-1. In the **Minimum operating system** list, select **iOS 11.0**, and then select ***Next**.
+1. In the **Minimum operating system** list, select **iOS 11.0**, and then select **Next**.
 1. In the **Assignments** page, in the **Required** section, select a group of iOS device users, and then select **Next**.
 1. On the **Review + create** page, select **Create**.
 1. Intune displays the app information page. To view installations of the app, under **Monitor**, select **Device install status**.

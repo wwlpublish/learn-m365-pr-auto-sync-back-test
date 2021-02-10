@@ -4,7 +4,7 @@ In Contoso, your roll out of Microsoft Cloud App Security is complete but you ha
 
 Here, you’ll learn about a common problem caused by misconfigured certificates that may affect your log collectors.
 
-##Proxy server challenges
+## Proxy server challenges
 
 In Microsoft Cloud App Security, log collectors run on-premises to gather information about the Shadow IT websites and apps that are in use. The collectors obtain web logs from firewalls and proxy servers by using either File Transfer Protocol (FTP) or the Syslog protocol. They transfer these logs to the Cloud App Security portal, where they can be analyzed and the results can be displayed to administrators. This system is an important component in Cloud Discovery.
 
