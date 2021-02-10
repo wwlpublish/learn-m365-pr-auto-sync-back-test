@@ -16,13 +16,13 @@ abstract: |
   -	Observe security threats detected by Microsoft Cloud App Security in Microsoft 365 security center.
   -	Block apps and websites on iOS devices by using Defender for Endpoint and Microsoft Cloud App Security.
   -	Ensure that a log collector can communicate with Microsoft Cloud App Security from behind a proxy server.
-  -	Interact with Microsoft Cloud App Security by using the REST MCAS API.
+  -	Interact with Microsoft Cloud App Security by using the REST API.
 prerequisites: | 
   - Experience working with Microsoft 365 services
   - Experience working with Azure 
   - Knowledge of security concepts, risks, and mitigations
   - Microsoft Cloud App Security fundamentals or equivalent
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /achievements/generic-badge.svg
 levels:
 - advanced
 roles:

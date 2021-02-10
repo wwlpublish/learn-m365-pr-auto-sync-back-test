@@ -2,7 +2,7 @@ Microsoft Cloud App Security includes several advanced features that you can use
 
 You're an administrator for Contoso, a large multi-national organization, which is using Microsoft Cloud App Security to identify and mitigate security risks in its on-premises and cloud infrastructure. Although the security tools have proved effective, you’re aware that some potential weaknesses remain. For example, you want to ensure that iOS devices can be protected and you want to be able to respond quickly to new threats.
 
-In this module, you’ll learn about advanced features, such as custom indicators of compromise, integration with Microsoft 365 security center, and programmatic access to Cloud App Security through the MCAS REST API.
+In this module, you’ll learn about advanced features, such as custom indicators of compromise, integration with Microsoft 365 security center, and programmatic access to Cloud App Security through the Microsoft Cloud App Security REST API.
 
 ## Learning objectives
 
@@ -11,4 +11,4 @@ After completing this module, you’ll be able to:
 - Observe security threats detected by Microsoft Cloud App Security in Microsoft 365 security center.
 - Block apps and websites on iOS devices by using Defender for Endpoint and Microsoft Cloud App Security.
 - Ensure that a log collector can communicate with Microsoft Cloud App Security from behind a proxy server.
-- Interact with Microsoft Cloud App Security by using the REST MCAS API.
+- Interact with Microsoft Cloud App Security by using the REST API.

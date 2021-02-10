@@ -6,12 +6,11 @@ Now that you've completed this module, you should be able to:
 - Observe security threats detected by Microsoft Cloud App Security in Microsoft 365 security center.
 - Block apps and websites on iOS devices by using Defender for Endpoint and Microsoft Cloud App Security.
 - Ensure that a log collector can communicate with Microsoft Cloud App Security from behind a proxy server.
-- Interact with Microsoft Cloud App Security by using the MCAS API.
+- Interact with Microsoft Cloud App Security by using the Microsoft Cloud App Security API.
 
 ## Learn more
 
 - [File policies](https://docs.microsoft.com/cloud-app-security/data-protection-policies)
-- [Custom indicators of compromise](https://www.youtube.com/watch?v=UAbLyEVCGGg)
 - [Overview of the Microsoft 365 security center](https://docs.microsoft.com/microsoft-365/security/mtp/overview-security-center)
 - [Microsoft Defender for Endpoint for iOS](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-atp-ios)
 - [Getting started with Kusto]( https://docs.microsoft.com/azure/data-explorer/kusto/concepts/)

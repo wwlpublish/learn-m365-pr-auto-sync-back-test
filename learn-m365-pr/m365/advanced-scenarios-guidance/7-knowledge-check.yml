@@ -42,7 +42,7 @@ quiz:
     - content: "Use a new file policy to implement a custom indicator of compromise."
       isCorrect: true
       explanation: "That’s correct. In the Microsoft Cloud App Security portal, you can create policies to match new indicators of compromise quickly and use them to delete or quarantine files."
-    - content: "Write a custom app that uses the MCAS REST API to define a custom indicator of compromise."
+    - content: "Write a custom app that uses the Microsoft Cloud App Security REST API to define a custom indicator of compromise."
       isCorrect: false
       explanation: "That’s incorrect. It would take time to develop and test custom code that calls the REST API. You need a quicker method to respond to this threat before the file enters your systems."
     - content: "Configure all log collectors to block the executable file."
@@ -63,10 +63,10 @@ quiz:
     choices:
     - content: "Include a filter in your query"
       isCorrect: false
-      explanation: "That’s incorrect. A filter is used to return more relevant results. You’ve been denied access because you haven’t authenticated with the MCAS REST API."
+      explanation: "That’s incorrect. A filter is used to return more relevant results. You’ve been denied access because you haven’t authenticated with the Microsoft Cloud App Security REST API."
     - content: "Include an authorization token in your command"
       isCorrect: true
-      explanation: "That’s correct. You’ve been denied access because you haven’t authenticated with the MCAS REST API. To authenticate, include an authorization token."
+      explanation: "That’s correct. You’ve been denied access because you haven’t authenticated with the Microsoft Cloud App Security REST API. To authenticate, include an authorization token."
     - content: "Send the query from custom code instead of from the curl command-line tool."
       isCorrect: false
-      explanation: "That’s incorrect. You can send requests with either curl or custom code. You’ve been denied access because you haven’t authenticated with the MCAS REST API."
+      explanation: "That’s incorrect. You can send requests with either curl or custom code. You’ve been denied access because you haven’t authenticated with the Microsoft Cloud App Security REST API."

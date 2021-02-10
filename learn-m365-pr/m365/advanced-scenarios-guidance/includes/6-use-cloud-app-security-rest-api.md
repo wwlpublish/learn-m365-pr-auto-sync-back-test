@@ -2,9 +2,9 @@ If you want to integrate Microsoft Cloud App Security with custom apps or web to
 
 In Contoso, for example, you have a mobile app that administrators use to make common changes to security settings in Azure and Microsoft 365 from any location. You’d like to be able to display alerts from Cloud App Security in this application.
 
-Here, you’ll learn how to access and change security data and settings by using the MCAS REST API.
+Here, you’ll learn how to access and change security data and settings by using the Microsoft Cloud App Security REST API.
 
-## What is the MCAS REST API?
+## What is the Microsoft Cloud App Security REST API?
 
 An Application Programming Interface (API) is a set of objects and methods that a developer can call from code to access and interact with a piece of software. Representational State Transfer (REST) APIs are interfaces that conform to a set of common requirements that make them easy to call over the internet. Web services often publish their methods and properties as REST APIs. 
 
@@ -14,11 +14,11 @@ REST APIs usually satisfy these criteria:
 - A REST API is stateless – that is, it doesn’t store any state information between calls. Instead, every call includes all the information needed to communicate with the API.
 - The response is in a well-known generalized text format such as JavaScript Object Notation (JSON)
 
-The MCAS REST API is a web service that you can use to call methods in Microsoft Cloud App Security. For example, you could develop a custom app that uses the MCAS REST API to obtain data on indicators of compromise and displays that information to a user. The app could also call the REST API to modify those indicators of compromise.
+The Cloud App Security REST API is a web service that you can use to call methods in Microsoft Cloud App Security. For example, you could develop a custom app that uses the REST API to obtain data on indicators of compromise and displays that information to a user. The app could also call the REST API to modify those indicators of compromise.
 
-The MCAS REST API is used by developers who write custom code that accesses and manipulates Cloud App Security objects.
+The Cloud App Security REST API is used by developers who write custom code that accesses and manipulates Cloud App Security objects.
 
-## Query the MCAS REST API
+## Query the Cloud App Security REST API
 
 Queries against the REST API are usually formulated in code, however you can use the `curl` command-line tool to make requests and observe results.
 
@@ -62,7 +62,7 @@ These commands return responses in JSON format. This format is commonly used and
 
 ## Generate an authentication token
 
-All the queries to the MCAS REST API must authenticate by including an authorization token.
+All the queries to the Microsoft Cloud App Security REST API must authenticate by including an authorization token.
 
 > [!NOTE]
 > The token is associated with the user who generated it and inherits that user’s permissions and access to Microsoft Cloud App Security.

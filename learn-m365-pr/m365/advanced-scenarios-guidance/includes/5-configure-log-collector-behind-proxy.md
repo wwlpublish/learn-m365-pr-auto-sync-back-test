@@ -74,8 +74,6 @@ Now that the certificate is copied into the log collector container, you must in
 
     The list of certificates should include one named **SelfSignedCert**.
 
-    :::image type="content" source="../media/05-check-certificate.png" alt-text="A screenshot of the output from the keytool command, showing the new CA certificate.":::
-
 ### Configure the log collector to use the new configuration
 
 Before the new certificate can be used, you must update the log collector’s configuration:
