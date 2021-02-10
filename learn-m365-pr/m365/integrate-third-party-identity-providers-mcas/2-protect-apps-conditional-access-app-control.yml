@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.integrate-third-party-identity-providers-with-microsoft-cloud-app-security.2-describe-how-to-protect-apps-with-cloud-app-security-conditional-access-app-control
+uid: learn-m365.integrate-third-party-identity-providers-mcas.2-protect-apps-conditional-access-app-control
 metadata:
   title: Describe how to protect apps with Cloud App Security Conditional Access App Control
   description: Use Microsoft Cloud App Security to implement access and session controls with any supported identity provider
-  ms.date: 01/30/2021
-  author: AllixG
-  ms.author: v-gea
+  ms.date: 02/04/2021
+  author: alistairmatthews
+  ms.author: v-alimat
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Describe how to protect apps with Cloud App Security Conditional Access App Control
 durationInMinutes: 8
 content: |
-  [!include[](includes/2-describe-how-to-protect-apps-with-cloud-app-security-conditional-access-app-control.md)]
+  [!include[](includes/2-protect-apps-conditional-access-app-control.md)]

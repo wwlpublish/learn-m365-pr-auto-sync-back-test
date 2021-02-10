@@ -1,11 +1,11 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.integrate-third-party-identity-providers-with-microsoft-cloud-app-security.5-knowledge-check
+uid: learn-m365.integrate-third-party-identity-providers-mcas.5-knowledge-check
 metadata:
   title: Knowledge check
   description: Knowledge check
   ms.date: 01/30/2021
-  author: AllixG
-  ms.author: v-gea
+  author: alistairmatthews
+  ms.author: v-alimat
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Knowledge check
@@ -22,8 +22,8 @@ quiz:
       isCorrect: false
       explanation: " That's incorrect. A device must also be Azure AD joined. In other words, a device must be Hybrid Azure AD joined"
     - content: "Whether a device is Azure AD joined."
-      isCorrect: false
-      explanation: "That's incorrect. A device must also be AD DS joined. In other words, a device must be Hybrid Azure AD joined"
+      isCorrect: true
+      explanation: "That's correct. A device must also be AD DS joined. In other words, a device must be Hybrid Azure AD joined"
     - content: "Whether a device is Azure AD registered."
       isCorrect: false
       explanation: "That's incorrect. A device must be Hybrid Azure AD joined."

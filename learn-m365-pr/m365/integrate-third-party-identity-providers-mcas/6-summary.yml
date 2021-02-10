@@ -1,11 +1,11 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.integrate-third-party-identity-providers-with-microsoft-cloud-app-security.6-summary
+uid: learn-m365.integrate-third-party-identity-providers-mcas.6-summary
 metadata:
   title: Summary
   description: Summary
-  ms.date: 01/30/2021
-  author: AllixG
-  ms.author: v-gea
+  ms.date: 02/04/2021
+  author: alistairmatthews
+  ms.author: v-alimat
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Summary
