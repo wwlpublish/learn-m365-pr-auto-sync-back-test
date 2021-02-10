@@ -4,7 +4,9 @@ In this unit, we'll discover Microsoft Graph Toolkit components and learn how to
 
 ## What are Microsoft Graph Toolkit components?
 
-Microsoft Graph Toolkit components (web components) are actually HTML tags. Components work with providers to get user access token and call Microsoft Graph APIs for getting required data. Basically, these reusable HTML tags have complete functionality to help us fetch data from Microsoft 365.
+Microsoft Graph Toolkit components (web components) are actually HTML tags. Components work with providers to get user access token, call Microsoft Graph APIs for getting required data and show this data with Fluent UI.
+
+Basically, these reusable HTML tags have complete functionality to help us create full Microsoft 365 experience.
 
 There are many components available to get the most popular Microsoft 365 datasets in your application such as people, tasks, agenda. Let's discover components with some scenarios:
 
