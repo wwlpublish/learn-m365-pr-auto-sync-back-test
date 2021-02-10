@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.integrate-third-party-identity-providers-with-microsoft-cloud-app-security.3-deploy-conditional-access-app-control-with-pingone
+metadata:
+  title: Deploy Conditional Access App Control with PingOne as the identity provider
+  description: Configure session controls in Microsoft Cloud App Security to work with any web app using third-party identity providers
+  ms.date: 01/30/2021
+  author: AllixG
+  ms.author: v-gea
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Deploy Conditional Access App Control with PingOne as the identity provider
+durationInMinutes: 10
+content: |
+  [!include[](includes/3-deploy-conditional-access-app-control-with-pingone.md)]

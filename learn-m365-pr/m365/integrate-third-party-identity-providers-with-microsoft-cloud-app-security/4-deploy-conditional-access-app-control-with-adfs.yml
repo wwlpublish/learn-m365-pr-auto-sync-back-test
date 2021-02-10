@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.integrate-third-party-identity-providers-with-microsoft-cloud-app-security.4-deploy-conditional-access-app-control-with-adfs
+metadata:
+  title: Deploy Conditional Access App Control with AD FS as the identity provider
+  description: Configure session controls in Cloud App Security using AD FS
+  ms.date: 01/30/2021
+  author: AllixG
+  ms.author: v-gea
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Deploy Conditional Access App Control with AD FS as the identity provider
+durationInMinutes: 13
+content: |
+  [!include[](includes/4-deploy-conditional-access-app-control-with-adfs.md)]
