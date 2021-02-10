@@ -17,10 +17,10 @@ To remove sensitive file sharing after requesting user validation with Power Aut
 
 4. An **If no** can then be added to create a message.
 
-    :::image type="content" source="../media/2-if_no.png" alt-text="Power Automate if no.":::
+    :::image type="content" source="../media/2-if-no.png" alt-text="Power Automate if no.":::
 
 5. This message can then be posted to Teams for the Security Operations Center (SOC) team to resolve.
 
-    :::image type="content" source="../media/2-soc_team.png" alt-text="Power Automate message for SOC team.":::
+    :::image type="content" source="../media/2-soc-team.png" alt-text="Power Automate message for SOC team.":::
 
 6. A sample Power Automate flow can be downloaded from the link in the **Learn more** section of the **Summary** unit of this module.

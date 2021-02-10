@@ -25,8 +25,8 @@ To request manager validation for failed login attempts with Power Automate, per
 
 3. Create a policy in Microsoft Cloud App Security, which has filters to only act only repeated activity with an **Activity type** equal to **Failed log on**.
 
-    :::image type="content" source="../media/4_logon_policy.png" alt-text="Create filters for the policy.":::
+    :::image type="content" source="../media/4-logon-policy.png" alt-text="Create filters for the policy.":::
 
 4. In **Alerts**, select **Create an alert for each matching event with the policy's severity**, select **Send alerts to Power Automate**, and select the Power Automate flow that you created to handle these alerts.
 
-    :::image type="content" source="../media/4_alerts.png" alt-text="Alerts.":::
+    :::image type="content" source="../media/4-alerts.png" alt-text="Alerts.":::
