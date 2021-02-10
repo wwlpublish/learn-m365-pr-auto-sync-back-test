@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.configure-microsoft-cloud-app-security-initial-settings.4-configure-admin-roles
+metadata:
+  title: Configure admin roles
+  description: Learn to configure admin roles in Cloud App Security.
+  ms.date: 12/17/2020
+  author: geoffallix
+  ms.author: v-gea
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Configure admin roles
+durationInMinutes: 10
+content: |
+  [!include[](includes/4-configure-admin-roles.md)]

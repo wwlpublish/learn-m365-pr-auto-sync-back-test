@@ -1,0 +1,67 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.configure-microsoft-cloud-app-security-initial-settings.5-knowledge-check
+metadata:
+  title: Knowledge check
+  description: Knowledge check
+  ms.date: 12/17/2020
+  author: geoffallix
+  ms.author: v-gea
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Knowledge check
+durationInMinutes: 4
+content: |
+  [!include[](includes/5-knowledge-check.md)]
+quiz:
+  title: Check your knowledge
+  questions:
+
+  - content: "An administrator at Contoso creates a new IP address range in the Cloud App Security portal. The administrator enters a name, the IP address ranges required, chooses a category and then selects Create. The following message displays: A rule with the same IP address range already exists. IP address ranges are normalized to IPv6 and have to be unique. What is the problem?"
+    choices:
+    - content: "The administrator didn’t enter a tag."
+      isCorrect: false
+      explanation: "That's incorrect. The administrator doesn’t have to enter a tag."
+    - content: "The administrator entered an overlapping IP address range."
+      isCorrect: true
+      explanation: "That's correct. The administrator has entered an IP address ranges with overlapping addresses."
+    - content: "The administrator selected the wrong Category."
+      isCorrect: false
+      explanation: "That's incorrect. Selecting the wrong category does not generate this error."
+
+  - content: "A Contoso administrator is working with user groups in the Cloud App Security portal. The administrator notices a group called External users. What type of group is this?"
+    choices:
+    - content: "The External users group is an automatic group that consolidates all users from all connected apps that are external to your organization."
+      isCorrect: true
+      explanation: "That's correct. These users have access to files in your organization, or performed user activities in your tenant."
+    - content: "The External users group is an imported group that consolidates all users from all connected apps that are external to your organization."
+      isCorrect: false
+      explanation: "That's incorrect. The External users group is an automatic group."
+    - content: "The External users group is an imported group that consolidates all users from your Office 365 tenant."
+      isCorrect: false
+      explanation: "That's incorrect. The External users group is an automatic group that consolidates all users from all connected apps that are external to your organization."
+
+  - content: "Which of the following built-in Office 365 and Azure AD roles have read-only permissions and can manage alerts within Cloud App Security?"
+    choices:
+    - content: "Global administrator."
+      isCorrect: false
+      explanation: "That's incorrect. Members are admins with Full access have full permissions in Cloud App Security."
+    - content: "Compliance administrator."
+      isCorrect: true
+      explanation: "That's correct. Members have read-only permissions and can manage alerts. Also, members cannot access Security recommendations for cloud platforms."
+    - content: "Security administrator."
+      isCorrect: false
+      explanation: "That's incorrect. Members are admins with Full access have full permissions in Cloud App Security."
+
+  - content: "A Contoso administrator in Cloud App Security wants to add additional admins to Contoso’s Cloud App Security. The user is external to the Contoso organization. In the Cloud App Security portal, where does the administrator perform this task, and what information does the administrator require to complete the task?"
+    choices:
+    - content: "The administrator must navigate to the Manage admin access page and add the new admin. The administrator requires either the new admin’s email address or their distinguished name to complete the task."
+      isCorrect: false
+      explanation: "That's incorrect. The administrator does use the Manage admin access page to create the new admin, but requires either the email address or the UPN for the new admin."
+    - content: "The administrator must navigate to the Manage admin access page and add the new admin. The administrator requires either the new admin’s email address or their UPN to complete the task."
+      isCorrect: true
+      explanation: "That's correct. The administrator uses the Manage admin access page to create the new admin, and requires either the UPN or email address for the new admin."
+    - content: "The administrator must navigate to the User groups page and add the new admin. The administrator requires either the new admin’s email address or their UPN to complete the task."
+      isCorrect: false
+      explanation: "That's incorrect. You cannot add a new admin from the User groups page."
+
+
