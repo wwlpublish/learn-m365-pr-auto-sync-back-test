@@ -46,12 +46,3 @@ java -jar mcas-siemagent-0.87.20-signed.jar \[\--logsDirectory DIRNAME\] \[\--pr
 > ADDRESS\[:PORT\] is the proxy server address and port that the server uses to connect to the internet.
 >
 > TOKEN is the SIEM agent token you saved in the previous step.
-
-
-<!--The following video walks through the steps to connect Microsoft Cloud App Security to a 3^rd^ party SIEM:
-
-THIS VIDEO MUST BE HOSTED ON RED TIGER 
-
-WE NEED PERMISSIONS TO USE THIS VIDEO 
-
-Add video: [(88) Connect SIEM to Microsoft Cloud App Security - YouTube](https://www.youtube.com/watch?app=desktop&v=Y9-PCEdkxJg)-->

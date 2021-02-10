@@ -40,11 +40,3 @@ To connect Azure Sentinel to Microsoft Cloud App Security, perform the following
 13. Select **Apply Changes**.
 14. Ensure that **Create incidents** is **Enabled**.
 15. You will now see incidents from Microsoft Cloud App Security in Azure Sentinel.
-
-<!--The following video gives you an overview of connecting Microsoft Cloud App Security to Azure Sentinel:
-
-THIS VIDEO MUST BE HOSTED ON RED TIGER 
-
-WE NEED PERMISSIONS TO USE THIS VIDEO 
-
-Add video: [(88) Connect Sentinel to Microsoft Cloud App Security - YouTube](https://www.youtube.com/watch?app=desktop&v=NsgpvNRsscg)-->

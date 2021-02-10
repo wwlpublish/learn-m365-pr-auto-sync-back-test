@@ -9,7 +9,6 @@ Now that you've completed this module, you should be able to:
 
 ## Learn more
 
-- [Azure Sentinel entities enrichment](https://www.youtube.com/watch?app=desktop&v=YZr-New3yCI&ab_channel=SebastienMolendijk) video
 - [Azure Sentinel Playbook sample](https://github.com/Sebmolendijk/ARMLogicApps/tree/master/EntitiesEnrichment) on GitHub
 - [Generic SIEM integration](https://docs.microsoft.com/cloud-app-security/siem)
 - [Network requirements](https://docs.microsoft.com/cloud-app-security/network-requirements)
