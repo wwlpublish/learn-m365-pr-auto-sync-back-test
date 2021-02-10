@@ -8,7 +8,7 @@ To request manager validation for failed login attempts with Power Automate, per
 
 1. Create a flow in Power Automate to handle the alert.
 
-    :::image type="content" source="../media/4-power-automate.png" alt-text="Power Automate flow":::
+    :::image type="content" source="../media/4-power-automate.png" alt-text="Power Automate flow.":::
 
 2. This alert should include several components:
 
@@ -16,25 +16,17 @@ To request manager validation for failed login attempts with Power Automate, per
     1. The flow gathers user information from their profile and Azure Active Directory.
     1. The flow requests manager input by email and has options for how the manager can respond to the alert.
 
-    :::image type="content" source="../media/4-request-manager-input.png" alt-text="Request manager input":::
+        :::image type="content" source="../media/4-request-manager-input.png" alt-text="Request manager input.":::
 
     1. There is a switch, which takes the manager input and acts depending upon which action the manager chooses.
     1. The switch dismisses the Microsoft Cloud App Security alert if the manager chooses **Ignore alert**.
 
-    :::image type="content" source="../media/4-dismiss-alert.png" alt-text="Dismiss alert":::
+        :::image type="content" source="../media/4-dismiss-alert.png" alt-text="Dismiss alert.":::
 
 3. Create a policy in Microsoft Cloud App Security, which has filters to only act only repeated activity with an **Activity type** equal to **Failed log on**.
 
-    :::image type="content" source="../media/4_logon_policy.png" alt-text="Create filters for the policy":::
+    :::image type="content" source="../media/4_logon_policy.png" alt-text="Create filters for the policy.":::
 
 4. In **Alerts**, select **Create an alert for each matching event with the policy's severity**, select **Send alerts to Power Automate**, and select the Power Automate flow that you created to handle these alerts.
 
-    :::image type="content" source="../media/4_alerts.png" alt-text="Alerts":::
-
-<!-- The following video gives you an overview of requesting manager validation for Microsoft Cloud App Security alerts:
-
-THESE VIDEOS MUST BE HOSTED ON RED TIGER 
-
-WE NEED PERMISSIONS TO USE THESE VIDEOS 
-
-Add video: [(83) Request for Manager Action using Power Automate & MCAS - YouTube](https://www.youtube.com/watch?app=desktop&v=HzxxcI_-7Rw&feature=emb_logo) -->
+    :::image type="content" source="../media/4_alerts.png" alt-text="Alerts.":::

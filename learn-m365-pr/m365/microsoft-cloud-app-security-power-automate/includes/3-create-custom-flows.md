@@ -11,13 +11,13 @@ To create a custom flow alert with Power Automate to remove sensitive file shari
 1. Create a file policy in Microsoft Cloud App Security that includes filters that match the specifics of the sensitive files.
 2. In the policy, under **Alerts**, select **Send Alerts to Power Automate** and select the Power Automate playbook to send the alert to.
 
-:::image type="content" source="../media/3_send_alerts_to_power_automate.png" alt-text="Send alerts to Power Automate":::
+:::image type="content" source="../media/3_send_alerts_to_power_automate.png" alt-text="Send alerts to Power Automate.":::
 
 3. In Power Automate ensure that there is a step to ask the user for validation.
 
-:::image type="content" source="../media/3_ask_user_validation.png" alt-text="User validation":::
+:::image type="content" source="../media/3_ask_user_validation.png" alt-text="User validation.":::
 
 4. Note that there are **User Options** that the user can select.
 5. Create a switch that will depend upon which user option is selected in the email.
 
-:::image type="content" source="../media/3_user_options_switch.png" alt-text="User options switch":::
+:::image type="content" source="../media/3_user_options_switch.png" alt-text="User options switch.":::
