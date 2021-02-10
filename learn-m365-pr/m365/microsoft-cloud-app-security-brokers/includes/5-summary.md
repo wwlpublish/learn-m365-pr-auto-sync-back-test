@@ -15,7 +15,7 @@ Key acronyms relevant to this module:
 |  SaaS    |Software as a Service                  |
 |  IaaS    |Infrastructure as a Service            |
 |  PaaS    |Platform as a Service                  |
-|  UEBA    |User and entity behavioural analytics  |
+|  UEBA    |User and entity behavioral analytics  |
 |  AWS     |Amazon Web Services                    |
 |  GCP     |Google Cloud Platform                  |
 

@@ -2,11 +2,11 @@ Microsoft Cloud App Security can protect your organization, but it important to 
 
 ## Discover and assess cloud apps
 
-You should integrate Microsoft Cloud App Security with Microsoft Defender to be able to use Cloud Discovery outside of your corporate network. This will enable you to identify risky users and devices and track their actions.
+You can integrate Microsoft Cloud App Security with Microsoft Defender to be able to use Cloud Discovery outside of your corporate network. This approach will enable you to identify risky users and devices and track their actions.
 
-You should enable App Discovery to identify risky apps.
+Consider enabling App Discovery to identify risky apps.
 
-You should monitor the permissions that users are giving to OAuth apps.
+Also monitor the permissions that users are giving to OAuth apps.
 
 ## Apply cloud governance policies
 
@@ -28,7 +28,7 @@ Create policies to prevent users from sharing files with their personal accounts
 
 Connect Azure Information Protection to Microsoft Cloud App Security to automatically apply classification labels to files and apply encryption, where necessary.
 
-Create file policies to detect confidential data or unauthorised sharing.
+Create file policies to detect confidential data or unauthorized sharing.
 
 Connect Software as a Service (SaaS) apps to Microsoft Cloud App Security to be able to investigate the data stored by these apps.
 
@@ -46,7 +46,7 @@ Use Conditional App Access Control to monitor internal users' interactions with 
 
 ## Detect cloud threats, compromised accounts, malicious insiders, and ransomware
 
-Use anomaly detection policies to apply user and entity behavioural analytics (UEBA) and machine learning to detect unusual activity across your cloud environment.
+Use anomaly detection policies to apply user and entity behavioral analytics (UEBA) and machine learning to detect unusual activity across your cloud environment.
 
 Create an activity policy to detect activity from unexpected locations.
 
@@ -58,8 +58,8 @@ Investigate alerts and view the audit trail of the alert to view activities from
 
 ## Secure IaaS services and custom apps
 
-Connect Microsoft Azure, Amazon Web Services (AWS) and Google Cloud Platform (GCP) to Microsoft Cloud App Security to monitor administrative or sign in activities for these services.
+Connect Microsoft Azure, Amazon Web Services (AWS), and Google Cloud Platform (GCP) to Microsoft Cloud App Security to monitor administrative or sign in activities for these services.
 
 Use the security configuration recommendations of Azure, AWS, and GCP to ensure that you meet the best practices of those services.
 
-Onboard custom apps to Microsoft Cloud App Security to gain additional insights into actions performed with or by these apps.
+Onboard custom apps to Microsoft Cloud App Security to gain extra insights into actions performed with or by these apps.

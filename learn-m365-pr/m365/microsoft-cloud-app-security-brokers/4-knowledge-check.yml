@@ -20,20 +20,20 @@ quiz:
     choices: 
     - content: "Reverse proxy." 
       isCorrect: true 
-      explanation: "That's correct. Traffic is routed via a revers proxy infrastructure which minimizes user impact while maintaining the highest level of control." 
+      explanation: "That's correct. Traffic is routed via a reverse proxy infrastructure, which minimizes user impact while maintaining the highest level of control." 
     - content: "TCP/IP." 
       isCorrect: false 
       explanation: "That's incorrect. TCP/IP is a set of communication protocols. " 
     - content: "Proxy." 
       isCorrect: false 
-      explanation: "That's incorrect. If a proxy server was utilized it would require all client devices to be configured to use it."
+      explanation: "That's incorrect. If a proxy server was utilized, it would require all client devices to be configured to use it."
 
 
   - content: "Using Microsoft Cloud App Security, how can you protect confidential data from being shared with external users?" 
     choices: 
     - content: "By encrypting all files." 
       isCorrect: false 
-      explanation: "That's incorrect. Encrypting all files would prevent access to any files, not just confidential ones.." 
+      explanation: "That's incorrect. Encrypting all files would prevent access to any files, not just confidential ones." 
     - content: "By updating the firewall." 
       isCorrect: false 
       explanation: "That's incorrect. A firewall would prevent access to any files, not just confidential ones. " 
