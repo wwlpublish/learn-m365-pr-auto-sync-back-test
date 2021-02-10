@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.mcas-threat-detection.3-ueba
+metadata:
+  title: User and Entity Behavioral Analytics
+  description: Learn about User and Entity Behavioral Analytics
+  ms.date: 12/17/2020
+  author: geoffallix
+  ms.author: v-gea
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: User and Entity Behavioral Analytics
+durationInMinutes: 9
+content: |
+  [!include[](includes/3-ueba.md)]
