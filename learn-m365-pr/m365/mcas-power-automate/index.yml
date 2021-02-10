@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn-m365.mcas-power-automate
+metadata:
+  title: Automate Microsoft Cloud App Security with Power Automate
+  description: Add automation to Microsoft Cloud App Security with Power Automate
+  ms.date: 02/04/2021
+  author: geoffallix
+  ms.author: v-gea
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Automate Microsoft Cloud App Security with Power Automate
+summary: Add automation to Microsoft Cloud App Security with Power Automate.
+abstract: | 
+  In this module, you will:
+  - Automatically remediate Microsoft Cloud App Security infrequent country alerts using Power Automate.
+  - Creating custom flows for Microsoft Cloud App Security alerts using Power Automate.
+  - Request manager validation for Microsoft Cloud App Security alerts using Power Automate.
+  - Remove a malicious inbox forwarding rule using Power Automate.
+prerequisites: | 
+  - Experience working with Microsoft 365 services
+  - Experience working with Azure 
+  - Experience working with Power Automate
+  - Knowledge of security concepts, risks, and mitigations
+  - Microsoft Cloud App Security intermediate or equivalent  
+iconUrl: http://via.placeholder.com/120x120
+levels:
+- advanced
+roles:
+- administrator
+products:
+- m365-ems-cloud-app-security
+units:
+- learn-m365.mcas-power-automate.1-introduction
+- learn-m365.mcas-power-automate.2-remediate-country-alerts
+- learn-m365.mcas-power-automate.3-create-custom-flows
+- learn-m365.mcas-power-automate.4-request-manager-validation
+- learn-m365.mcas-power-automate.5-remove-forwarding-rule
+- learn-m365.mcas-power-automate.6-knowledge-check
+- learn-m365.mcas-power-automate.7-summary
+badge:
+  uid: learn-m365.mcas-power-automate.badge
