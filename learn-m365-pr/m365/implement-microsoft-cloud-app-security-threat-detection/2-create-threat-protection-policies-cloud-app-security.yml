@@ -11,4 +11,4 @@ metadata:
 title: Create threat protection policies in Cloud App Security
 durationInMinutes: 12
 content: |
-  [!include[](includes/2-create-threat-protection-policies-in-cloud-app-security.md)]
+  [!include[](includes/2-create-threat-protection-policies-cloud-app-security.md)]

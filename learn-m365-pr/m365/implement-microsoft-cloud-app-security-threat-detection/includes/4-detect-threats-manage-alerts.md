@@ -17,7 +17,7 @@ To help you monitor and investigate suspicious or malicious activity, there are 
 
 You can easily review your apps by selecting **Alerts** in the navigation pane of the Cloud App Security portal. 
 
-:::image type="content" source="../media/alerts2.png" alt-text="A screenshot of the Alerts page in the Cloud App Security portal.":::
+:::image type="content" source="../media/alerts-2.png" alt-text="A screenshot of the Alerts page in the Cloud App Security portal.":::
 
 If you can tell at a glance that the alert is of little interest, you can select the **Action** (ellipsis) button. Choose between:
 

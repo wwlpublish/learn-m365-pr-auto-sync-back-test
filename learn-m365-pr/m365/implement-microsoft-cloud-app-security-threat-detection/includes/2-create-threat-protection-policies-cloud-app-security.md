@@ -22,7 +22,7 @@ Threat protection policies are designed to help you:
 
 The following screenshot displays the high severity threat detection policies that are available by default.
 
-:::image type="content" source="../media/policies1.png" alt-text="A screenshot of the Policies page in Cloud App Security, displaying a list of policies in the Threat detection category.":::
+:::image type="content" source="../media/policies-1.png" alt-text="A screenshot of the Policies page in Cloud App Security, displaying a list of policies in the Threat detection category.":::
 
 When establishing threat protection policies, there are three types of policies you can implement, described in the following table.  
 
@@ -83,7 +83,7 @@ For example, the following screenshot displays the settings for an activity poli
 - Administrative activity is true
 - IP address category is risky
 
-   :::image type="content" source="../media/policies2.png" alt-text="A screenshot of the Create activity policy page. The administrator is creating a policy with the conditions listed in the preceding text.":::
+   :::image type="content" source="../media/policies-2.png" alt-text="A screenshot of the Create activity policy page. The administrator is creating a policy with the conditions listed in the preceding text.":::
 
 
 ### Anomaly detection policies
