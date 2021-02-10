@@ -11,8 +11,7 @@ To configure Conditional Access App Control policies for Workplace from Facebook
 1. In the **Single sign-on (SSO) setup** dialog box, scroll down and locate the **SAML configurations** section.
 1. Copy the **Audience URL** and **ACS (Assertion Consumer Service) URL** strings. You’ll need these URLs later.
 
-    > [!div class="mx-imgBorder"]
-    > ![A screenshot showing the SAML configuration settings in a trial Workplace from Facebook tenant.](../media/saml-config.png)
+    :::image type="content" source="../media/saml-configuration.png" alt-text="A screenshot showing the SAML configuration settings in a trial Workplace from Facebook tenant.":::
 
 ## Configure the identity provider
 
@@ -28,8 +27,7 @@ Next, you’ll need to configure the identity provider. In this case, we’ll ad
 1. On the **Add Assignment** page, select **None Selected**, and then, in the **Users and Groups** page, select the desired users or groups, and then select the **Select** button.
 1. On the **Add Assignment** page, select **Assign**.
 
-    > [!div class="mx-imgBorder"]
-    > ![A screenshot displaying the Users and groups page in the Azure AD portal. The administrator is adding users to the Workplace from Facebook app.](../media/users-groups.png)
+    :::image type="content" source="../media/users-groups.png" alt-text="A screenshot displaying the Users and groups page in the Azure AD portal. The administrator is adding users to the Workplace from Facebook app.":::
 
 ## Create a conditional access policy for the app
 
@@ -41,8 +39,7 @@ The next step is to create a conditional access policy in Azure AD.
 1. Select **Users and groups** and then choose the users or groups to which the policy is assigned.
 1. Select **Cloud apps or actions**. Notice that one app is already included – Workspace from Facebook.
 
-    > [!div class="mx-imgBorder"]
-    > ![A screenshot displaying the Cloud apps or actions page. Workplace from Facebook is displayed.](../media/cloud-app.png)
+    :::image type="content" source="../media/cloud-app.png" alt-text="A screenshot displaying the Cloud apps or actions page. Workplace from Facebook is displayed.":::
 
 1. In the **Access Controls** section, select **Session**, and then on the **Session** page, select the **Use Conditional Access App Control** check box.
 1. In the drop-down list, select **Use custom policy**. 
@@ -52,8 +49,7 @@ The next step is to create a conditional access policy in Azure AD.
     > [!NOTE]
     > You can configure additional conditions, such as device state. 
 
-    > [!div class="mx-imgBorder"]
-    > ![A screenshot displaying the Session page of a new conditional access policy in the Azure Active Directory admin center.](../media/session.png)
+    :::image type="content" source="../media/session.png" alt-text="A screenshot displaying the Session page of a new conditional access policy in the Azure Active Directory admin center.":::
 
 ## Configure Workplace from Facebook SSO settings
 
@@ -96,8 +92,7 @@ The next stage is to create the Conditional Access App Control policy. In a new 
 1. In the **Single sign-on service URL** text box, paste the **Login URL** you recorded in the Azure portal earlier.
 1. Select **Next**, **Finish**, and then select **Close**.
 
-    > [!div class="mx-imgBorder"]
-    > ![A screenshot of the Conditional Access App Control apps tab. The Workplace by Facebook app is displayed. Available controls are Access control and Session control.](../media/connected-app.png)
+    :::image type="content" source="../media/connected-app.png" alt-text="A screenshot of the Conditional Access App Control apps tab. The Workplace by Facebook app is displayed. Available controls are Access control and Session control.":::
 
 ## Configure a session policy
 
@@ -110,15 +105,4 @@ The final stage is to create the Access control or Session control policies. In 
 1. Select **Apply template**. The various fields are updated with suitable values based on the template. If you want to modify any fields, you can do so.
 1. When you’re finished, select **Create**.
 
-    > [!div class="mx-imgBorder"]
-    > ![A screenshot of a session policy with the Block sending of messages based on real-time content inspection template selected.](../media/add-session-policy.png)
-
-## Block or apply DLP to file downloads in Workplace from Facebook using Microsoft Cloud App Security
-
-The following video demonstrates how to use DLP for file downloads in Workplace from Facebook using Cloud App Security.
-
-THIS VIDEO MUST BE HOSTED ON RED TIGER
-
-WE NEED PERMISSIONS TO USE THIS VIDEO
-
-> [!VIDEO https://youtu.be/S-Q44fMOSLk]
+    :::image type="content" source="../media/add-session-policy.png" alt-text="A screenshot of a session policy with the Block sending of messages based on real-time content inspection template selected.":::
