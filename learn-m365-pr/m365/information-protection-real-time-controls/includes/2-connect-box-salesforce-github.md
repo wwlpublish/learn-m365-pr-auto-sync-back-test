@@ -32,7 +32,7 @@ To connect Box to Cloud App Security, perform the following steps:
 
 7. Select **Investigate**, and select **Add an app**.
 
-    :::image type="content" source="../media/2-mcas-portal.png" alt-text="Add an app":::
+    :::image type="content" source="../media/2-microsoft-cloud-app-security-portal.png" alt-text="Add an app":::
 
 8. Select **+** and select **Box**.
 
@@ -51,11 +51,3 @@ To connect Box to Cloud App Security, perform the following steps:
     :::image type="content" source="../media/2-grant-box-access.png" alt-text="Grant access to Box":::
 
 13. Box is now being protected by Microsoft Cloud App Security.
-
-The following video gives you an overview of connecting Box to Microsoft Cloud App Security:
-
-THESE VIDEOS MUST BE HOSTED ON RED TIGER 
-
-WE NEED PERMISSIONS TO USE THESE VIDEOS 
-
-Add video: [(49) Microsoft Cloud App Security: Connecting Box - YouTube](https://www.youtube.com/watch?v=XQubblL4Viw&feature=emb_logo)

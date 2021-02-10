@@ -24,13 +24,3 @@ To create a policy to block unauthorized browsers from accessing corporate web a
 
 > [!NOTE]
 > It is possible to change a user agent string and, therefore, this should not be the only method of security.
-
-The following video gives you an overview of how to block unauthorized browsers from accessing corporate web apps with Microsoft Cloud App Security:
-
-THESE VIDEOS MUST BE HOSTED ON RED TIGER
-
-WE NEED PERMISSIONS TO USE THESE VIDEOS
-
-1ST 30 SECONDS NEEDS TO BE CUT FROM VIDEO
-
-Add video: [(50) CASB: Block unauthorized browsers from accessing corporate web apps - YouTube](https://www.youtube.com/watch?app=desktop&v=LkP0UGBswsQ)

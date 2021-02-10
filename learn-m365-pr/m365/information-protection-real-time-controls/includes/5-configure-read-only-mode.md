@@ -1,7 +1,7 @@
 
 Business to business (B2B) communication is widespread in organizations today. This brings security challenges because it is difficult to monitor or control external users, however you want to give external users access to internal content.
 
-To solve this problem Microsoft Cloud App Security can limit external users to read-only access for Microsoft web apps, 3^rd^ party web apps, and custom apps.
+To solve this problem Microsoft Cloud App Security can limit external users to read-only access for Microsoft web apps, third party web apps, and custom apps.
 
 To apply read-only mode, you must create a policy to block downloads and another policy to block cutting, copying, or printing.
 
@@ -50,17 +50,9 @@ To create a policy to block cut, copy, and print, perform the following steps:
 5. In **Category**, select **DLP** for data loss prevention.
 6. In **Session control type**, select **Block activities**.
 7. In **Add activity filters to the policy**, enter a name for the external user that you want to control. You can remove the filter for apps if you want the policy to apply to all apps.
-8. In Activity type,** select **Cut/Copy item** and select **Print**.
+8. In Activity type, select **Cut/Copy item** and select **Print**.
 
     :::image type="content" source="../media/5-activity-filters-cut-copy.png" alt-text="Cut, copy, and print":::
 
 9. In **Actions** select **Block** and, optionally, **Customize block message**.
 10. Click **Create**.
-
-The following video gives you an overview of how to configure read-only mode for external users apps with Microsoft Cloud App Security:
-
-THESE VIDEOS MUST BE HOSTED ON RED TIGER
-
-WE NEED PERMISSIONS TO USE THESE VIDEOS
-
-Add video: [(50) Configuring a read-only mode for external users with Microsoft Cloud App Security - YouTube](https://www.youtube.com/watch?app=desktop&v=F3WTTKcKmGk)

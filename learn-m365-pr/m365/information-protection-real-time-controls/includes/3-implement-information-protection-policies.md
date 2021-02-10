@@ -8,7 +8,6 @@ Microsoft Cloud App Security file policies continually monitor files to protect 
 - Detect externally shared source code.
 - Detect unauthorized access to group data.
 - Detect publicly accessible Amazon Web Services S3 buckets.
-- Detect and protect GDPR-related data across file storage apps.
 - Block downloads for external users in real time.
 - Enforce read-only mode for external users in real time.
 - Block upload of unclassified documents in real time.
