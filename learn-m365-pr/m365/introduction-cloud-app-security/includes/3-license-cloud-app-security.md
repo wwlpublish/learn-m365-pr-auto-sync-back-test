@@ -32,7 +32,7 @@ Alternatively, you can opt to use the following licensing plans:
 > [!IMPORTANT]
 > Doesn't include the reverse proxy/session control aspects of Conditional Access.
 
-### US Government licensing 
+### US government licensing 
 
 Microsoft provides three US Government licensing plans. These are described in the following table.
 
