@@ -1,0 +1,36 @@
+### YamlMime:Module
+uid: learn-m365.information-protection-microsoft-cloud-app-security
+metadata:
+  title: Information protection in Microsoft Cloud App Security
+  description: Information protection in Microsoft Cloud App Security
+  ms.date: 12/17/2020
+  author: geoffallix
+  ms.author: v-gea
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Information protection in Microsoft Cloud App Security
+summary: Learn how to to connect apps to Microsoft Cloud App Security and deploy Conditional App Access Control. | 
+abstract: | 
+  In this module, you will:
+  - Connect apps to Microsoft Cloud App Security
+  - Deploy Conditional Access App Control
+  - Configure real-time monitoring and control across cloud apps
+prerequisites: | 
+  - Knowledge of security fundamentals
+  - Knowledge of Microsoft Azure and Microsoft 365 fundamentals
+iconUrl: /learn-m365-pr/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- administrator
+products:
+- m365-ems-cloud-app-security
+units:
+- learn-m365.information-protection-microsoft-cloud-app-security.1-introduction
+- learn-m365.information-protection-microsoft-cloud-app-security.2-connect-cloud-app-security
+- learn-m365.information-protection-microsoft-cloud-app-security.3-deploy-conditional-access-app-control
+- learn-m365.information-protection-microsoft-cloud-app-security.4-configure-real-time-monitoring-control
+- learn-m365.information-protection-microsoft-cloud-app-security.5-knowledge-check
+- learn-m365.information-protection-microsoft-cloud-app-security.6-summary
+badge:
+  uid: learn-m365.information-protection-microsoft-cloud-app-security.badge
