@@ -134,7 +134,7 @@ As with any communications and adoption campaign you will want to identify your 
 ## Training resources
 
 - [Instructor-led end-user training for Teams](https://docs.microsoft.com/MicrosoftTeams/instructor-led-training-teams-landing-page)
-- [Administrator training for Teams](https://docs.microsoft.com/en-us/MicrosoftTeams/itadmin-readiness)
+- [Administrator training for Teams](https://docs.microsoft.com/MicrosoftTeams/itadmin-readiness)
 - [Online End-user video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 - [Coffee in the Cloud online training for champions & IT pros](https://aka.ms/CoffeeintheCloud)
 - [Adoption Tools](https://aka.ms/O365AdoptionTools)
