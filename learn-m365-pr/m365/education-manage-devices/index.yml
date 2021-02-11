@@ -9,13 +9,13 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Manage devices used for education 
-summary: This module will introduce some of the tools you can leverage to deploy and manage devices used for education.
+summary: This module will introduce some of the tools you can use to deploy and manage devices used for education.
 abstract: |
  Upon completion of this module, you should be able to:
  - Access Intune for Education.
  - Use express configuration.
  - Plan and deploy Microsoft School Data Sync.
- - Configure Take a Test profiles.
+ - Configure Take a Test profile.
 prerequisites: |
  - Introduction to modern management in Microsoft 365 module  
 iconUrl: https://docs.microsoft.com/media/learn/module.svg
