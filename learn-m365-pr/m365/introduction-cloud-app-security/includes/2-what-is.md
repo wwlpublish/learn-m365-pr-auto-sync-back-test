@@ -48,8 +48,8 @@ By implementing Cloud App Security, you get a better understanding of what’s h
 
     - Respond to classification labels on content
 
-> [!NOTE]
-> Data classification labels enable you to categorize your data based on sensitivity
+    > [!NOTE]
+    > Data classification labels enable you to categorize your data based on sensitivity
 
 - Threat protection:
     - Implement adaptive access control
@@ -73,15 +73,6 @@ In the following diagram, Cloud App Security sites as an intermediary layer betw
 
 :::image type="content" source="../media/proxy-architecture.png" alt-text="A diagram that describes the role of Cloud App Security architecture as detailed in the preceding text.":::
 
-<!-- The following video describes Cloud App Security.
-
-THIS VIDEO MUST BE EDITED TO INCLUDE ONLY FIRST 4:15 AND MUST BE HOSTED ON RED TIGER
-
-WE NEED PERMISSIONS TO USE THIS VIDEO 
-
- >[!VIDEO https://add-link]
-
--->
 
 ### Discovery capabilities of Cloud App Security versus Azure Active Directory
 
