@@ -18,10 +18,10 @@ You can start express configuration by doing the following:
 
 1. Select **Launch Express Configuration** in the dashboard.
 
-    > [!NOTE]
-    You won’t see configuration options for iOS device management until you set up your tenant to manage iOS devices. To enable iOS management, review the instructions in the *Set up iOS device management* link in the *Learn more* section.
+   > [!NOTE]
+   > You won’t see configuration options for iOS device management until you set up your tenant to manage iOS devices. To enable iOS management, review the instructions in the *Set up iOS device management* link in the *Learn more* section.
 
-    :::image type="content" source="../media/2-select-get-started.png" alt-text="Select get started.":::
+   :::image type="content" source="../media/2-select-get-started.png" alt-text="Select get started.":::
 
 1. Select **Get started**.
 
@@ -168,9 +168,9 @@ There are some limits you should take into account for successful synchronizatio
 
 During sync profile configuration, you'll get the chance to enable integration with Intune for Education. You can select a single checkbox that will ensure the following actions are carried out for you:
 
-1. Create an **All Teachers** group and an **All Students**  group.
-1. Create a **Teachers of each school** group, and a **Students of each school** group.
-1. Assign a license to each user within the profile.
+- Create an **All Teachers** group and an **All Students** group.
+- Create a **Teachers of each school** group, and a **Students of each school** group.
+- Assign a license to each user within the profile.
 
 > [!NOTE]
 > You should only select this checkbox if you are sure that you want all of these steps to be carried out. For example, you might not have enough licenses to cover all of your users, in which case you shouldn't select this checkbox until you have enough licenses.
