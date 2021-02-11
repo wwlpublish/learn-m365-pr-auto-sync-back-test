@@ -87,4 +87,4 @@ To add an external administrator, for example, from a Managed Security Service P
 
 The following video demonstrates how to configure admin roles and manage RBAC in Cloud App Security:
 
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4MALF]
+>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4MALF]

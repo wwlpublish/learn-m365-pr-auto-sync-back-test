@@ -98,5 +98,4 @@ For example, in the following screenshot, the administrator has defined the foll
 
 The following video describes the benefits of configuring IP address ranges, and demonstrates how to set up IP address ranges:
 
- >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4MGkV]
- 
+ >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4MGkV]

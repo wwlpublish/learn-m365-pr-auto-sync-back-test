@@ -47,9 +47,9 @@ To import user groups, use the following procedure:
 After you complete the import, you can review the imported group from the User groups page. To review the properties of a group, whether automatic or imported, select the group from the list.
 
 
-:::image type="content" source="../media/view-groups.png" alt-text="A screenshot displays the list of User groups. These are All Employees (Imported), and three automatic groups: Office 365 administrator, External users, and Application (Cloud App Security).":::
+:::image type="content" source="../media/view-groups.png" alt-text="A screenshot displays the list of User groups. These are All Employees (Imported), and three automatic groups: Office 365 administrator, External users, and Application (Cloud App Security)." lightbox="../media/view-groups.png":::
 
 ### Import user groups
 The following video demonstrates how to import user groups.
 
- >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4MDah]
+ >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4MDah]
