@@ -1,6 +1,6 @@
 One of the traditional approaches for deploying Windows, services, and applications configured to your school network is to build a machine, create an image of it, and apply that image to the target computer. This can be time-consuming to create and deploy.
 
-Microsoft provides provisioning packages, which can be used to configure a Windows device without using an image.  Instead, as the IT administrator for your school, you'll specify the preferred configurations and settings. This will speed up the enrollment of new devices from hours to minutes, when applying configuration settings to the target device.
+Microsoft provides provisioning packages, which can be used to configure a Windows device without reimaging.  Instead, as the IT administrator for your school, you'll specify the preferred configurations and settings. This will speed up the enrollment of new devices from hours to minutes, when applying configuration settings to the target device.
 
 Here, you'll learn about provisioning packages, share PC mode policies, creation of provisioning packages and different ways that they can be applied.
 
@@ -15,25 +15,6 @@ Provisioning packages can be distributed in multiple ways:
 - Sent via an email.
 - Deployed from NFC tags or barcodes.
 
-### Shared PC Mode policies
-
-Share PC mode lets you designate a Windows device that will allow multiple students to access the machine, but only one can be logged on at a time.  A device that operates in Shared PC mode requires a different set of policies.  These policies determine how the device manages accounts and student access.  The policies available are:
-
-- Enabled Shared PC mode, this policy lets the PC be configured into Shared PC mode.
-- Set education policies, optimizes PC usage so that it's appropriate for an educational environment.
-- Account Model, controls how students and other users can sign into the PC.
-- Deletion policy, sets the disk space threshold when the PC will automatically start deleting accounts.
-- Disk level caching, which allocates the amount of disk space set aside for accounts.  This is usually 50% of the total disk space available.
-- Disk level deletion, allocates how much of the disk space is used by each account, before it starts deleting data. For Shared PCs this is 25%.
-- Enable account manager, enables automatic account management.
-- Inactive threshold, defines the period of inactivity after which the account will automatically be deleted.  The options are 30 or 180 days.
-- Kiosk Mode AMUID, use this when you want to set the device to allow students to only Take a Test through a secure assessment browser.
-- Restrict local storage, this option requires students to save their work to the cloud.
-- Maintenance start time, typically midnight.
-- Set Power Policies, prevents the user from changing power settings, and turns off hibernate, 
-- Sign in on resume, requires the student to sign in with a password when the PC wakes from sleep.
-- Sleep timeout, sets the idle time before the PC will switch to sleep mode.
-
 ### Apps installed and uninstalled from Windows 10 devices
 
 A provisioning package can be used to add educational packages to a device. It can also be used to remove any applications or features that aren't conducive to an educational setting.
@@ -45,6 +26,8 @@ These school relevant applications can be installed on a Windows 10 device as pa
 - OneDrive
 - OneNote
 - Sway
+
+These applications are included by default, but you also have the option to add Microsoft Office, Minecraft: Education Edition, Microsoft Whiteboard, and any apps already in your Microsoft Store for Education inventory.
 
 ### Apps removed from a Windows 10 device
 
@@ -65,7 +48,7 @@ A new Windows device comes with many applications that aren't suited to the clas
 
 ## Create a provisioning package using Windows Configuration Designer
 
-To create a provisioning package, you can use Windows Configuration Designer. This can be downloaded from the Microsoft Store or as a Windows ADK.
+To create a provisioning package, you can use Windows Configuration Designer. This can be downloaded from the Microsoft Store or as part of the Windows Assessment and Deployment Kit (ADK).
 
 > [!NOTE]
 > If you install both the ADK version of Windows Configuration Designer and the Microsoft Store version, the Store app will not open.
@@ -78,7 +61,7 @@ Downloading and installing Windows Configuration Designer is outside this unit's
 - [Microsoft ADK for Windows 10, version 2004](https://go.microsoft.com/fwlink/?linkid=2120254)
 
 1. Launch Windows Configuration Designer.
-1. From the Start page, select the provisioning package you want to create.
+1. From the Start page, select the provisioning package you want to create. Select *Provision desktop devices* for a guided setup flow, or select *Advanced provisioning* for more customizations or the option to import a package from Set Up School PCs. If you select *Advanced provisioning*, make sure that you also select *All Windows desktop editions*.
 
    :::image type="content" source="../media/3-icd-create-options-1703.png" alt-text="A screenshot showing the Windows Configuration Designer Start page six options: provision desktop devices, provision Windows mobile devices, Provision HoloLens devices, Provision Surface Hub devices, Provision kiosk devices, and advanced provisioning":::
 
@@ -90,6 +73,9 @@ Downloading and installing Windows Configuration Designer is outside this unit's
    - Common to Windows 10 Team edition
 1. Select Finish to create your project.
 1. From the Available customizations pane, you can now configure the settings for your package.
+
+> [!NOTE]
+> If you choose to perform *Advanced provisioning* with an imported package, you will see the items already configured on the right of the screen. You can select each configuration to see the values that are configured.
 
 ### Interactive guide on creating provisioning packages
 
@@ -113,6 +99,9 @@ The following table provides some suggested estimates depending on the intended 
 ## Applying a provisioning package
 
 A provisioning package can be deployed either during the out-of-box first-run experience or to an existing machine. To apply a provisioning package, you'll need to have administrator privileges on the device.  The provisioning package can be installed either during the first-run experience setup or afterward.
+
+> [!NOTE]
+> It is recommended that you only apply a provisioning package to a device with a clean image.
 
 ### During initial setup, from a USB drive
 

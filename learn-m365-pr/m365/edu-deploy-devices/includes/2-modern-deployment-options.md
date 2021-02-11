@@ -6,7 +6,11 @@ Here, you'll explore two deployment options, Set up School PCs app and Windows A
 
 ## What is Set up School PCs app
 
-The Set up School PCs app allows IT administrators to set up and configure school-optimized Windows 10 devices for students and teachers in your school. You'd use the Set up School PCs app to decide which apps and features each device will need and which ones aren't required.
+The Set up School PCs app allows IT administrators to set up and configure school-optimized Windows 10 devices for students and teachers in your school. You'd use the Set up School PCs app to decide which apps and features each device will need and which ones aren't required. The app is free and available in the Microsoft Store for Education.
+
+The Set up School PCs app can work with Azure Active Directory to join a device and enroll it into Intune. The app also enables an administrator to install an initial configuration on devices. You can put the provisioning package for the app on a USB stick and plug it into devices to provision them.
+
+It is recommended that you remove the guest account from the list of features installed by the app.
 
 ### Set up School PCs features
 
@@ -20,9 +24,7 @@ Set up School PCs app comes with a number of features:
 - Single sign-on to Microsoft 365, requires a Microsoft 365 subscription, lets the student use their Microsoft ID to access Office applications.
 - Take a Test app, requires an Azure AD Premium subscription, lets the device run quizzes and assessments through test providers.
 
-### Share PC mode for school devices
-
-You can configure the Windows 10 device to support Shared PC mode, which is ideally suited to PCs that are in communal areas such as libraries and classrooms.  It can reduce the maintenance and management of these devices.  Only one student/user can use a shared PC at a time, and when they sign out, any data, history, or associated personal data is automatically removed.
+The app sets up school-optimized defaults for devices. If you need to change any of the customizations installed by the app, you can import a Set up School PCs package into the Windows Configuration Designer and make any changes required.
 
 ## What is Windows Autopilot
 
