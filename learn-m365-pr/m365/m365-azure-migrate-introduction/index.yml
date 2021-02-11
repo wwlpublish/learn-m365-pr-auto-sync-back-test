@@ -5,7 +5,7 @@ metadata:
   description: Discover how Azure Migrate helps you realize the benefits of moving your on-premises VMware or Hyper-V server workloads to Azure infrastructure as a service (IaaS). Learn the process for migrating your workload agent-less, all within the hub. 
   ms.date: 04/23/2020
   author: ericweisberg
-  ms.author: v-erwe
+  ms.author: v-iakens
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Introduction to Azure Migrate for server migration 
@@ -16,7 +16,7 @@ abstract: |
   - List the steps of the migration process. 
   
 prerequisites: | 
- - Basic understanding of Microsoft Azure. If you are unfamiliar with this, we recommend you take [Microsoft Azure Fundamentals](https://docs.microsoft.com/en-us/learn/paths/azure-fundamentals/)
+ - Basic understanding of Microsoft Azure. If you are unfamiliar with this, we recommend you take [Microsoft Azure Fundamentals](https://docs.microsoft.com/learn/paths/azure-fundamentals/)
 iconUrl: /learn/achievements/introduction-azure-migrate-server-migration.svg
 ratingEnabled: true
 levels:
