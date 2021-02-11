@@ -110,7 +110,7 @@ In addition to app discovery, you can use Cloud Discovery anomaly detection poli
     1. Policy name
     2. **Category** is already defined as **Cloud Discovery**
     3. Optionally, enter a description
-    4d. Select filter options. These are the same as for an app discovery policy.
+    4. Select filter options. These are the same as for an app discovery policy.
     5. Apply the policy to either **All continuous reports** or **Specific continuous reports**.
     6. Then specify whether you want to filter usage based on user name, IP addresses, or both. Consider that selecting both might generate duplicate alerts as often, the same user is associated with the same IP.
     7. You can also specify a date from when you want to detect anomalous activity. Activity prior to the date is disregarded. 
