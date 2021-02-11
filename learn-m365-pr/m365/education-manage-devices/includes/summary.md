@@ -17,5 +17,4 @@ Now that you've completed this module, you should be able to:
 - [Microsoft School Data Sync product page](https://sds.microsoft.com/)
 - [Planning checklist for School Data Sync](https://docs.microsoft.com/schooldatasync/planning-checklist)
 - [Install the School Data Sync Toolkit](https://docs.microsoft.com/schooldatasync/install-the-school-data-sync-toolkit)
-- [Deploy Settings with School Data Sync](https://school-data-sync.immersivelearning.online/)
 - [Take a Test app technical reference](https://docs.microsoft.com/education/windows/take-a-test-app-technical)

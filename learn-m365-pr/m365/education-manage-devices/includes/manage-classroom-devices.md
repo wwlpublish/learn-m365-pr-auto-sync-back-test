@@ -164,9 +164,6 @@ There are some limits you should take into account for successful synchronizatio
 |Maximum number of users or rosters for each sync profile|If you're using CSV files for synchronization, don't go over 250,000 students per sync profile. If you want to go higher than this number, then you can reach out to Microsoft's SDS Onboarding Team.|
 |Maximum number of errors for each sync profile|If you experience more than 15,000 errors for a sync profile, synchronization will stop. You'll then have to address those errors, and restart the process.|
 
-<!-- ################## START
-Question for the customer: The following steps are in the documentation, but the setting doesn't show up when configuring SDS. Is it still relevant? -->
-
 #### Integration with Intune for Education
 
 During sync profile configuration, you'll get the chance to enable integration with Intune for Education. You can select a single checkbox that will ensure the following actions are carried out for you:
@@ -177,7 +174,6 @@ During sync profile configuration, you'll get the chance to enable integration w
 
 > [!NOTE]
 > You should only select this checkbox if you are sure that you want all of these steps to be carried out. For example, you might not have enough licenses to cover all of your users, in which case you shouldn't select this checkbox until you have enough licenses.
-<!--- ################### END  -->
 
 ### Deploy SDS
 
@@ -204,20 +200,20 @@ The method you choose dictates the steps you'll perform for deployment. For exam
 
 1. Make sure to sign in with your Global Administrator credentials for your Microsoft 365 Education tenant.
 
-#### Choose a synch method
+#### Choose a sync method
 
 1. After successful sign-in, select **+ Add Profile** on the left of the dashboard.
 
-    :::image type="content" source="../media/2-deploy-sds-add-profile.png" alt-text="Select Add profile.":::
+    :::image type="content" source="../media/2-deploy-add-profile.png" alt-text="Select Add profile.":::
 1. In the form that appears, give your profile a name, and select **Upload CSV files**, and **CSV files: Clever format**. Then select **Start** at the bottom of the form.
 
-    :::image type="content" source="../media/2-deploy-sds-create-profile.png" alt-text="Create profile.":::
+    :::image type="content" source="../media/2-deploy-create-profile.png" alt-text="Create profile.":::
 
 #### Choose sync options
 
 1. The sync options form appears:
 
-    :::image type="content" source="../media/2-deploy-sds-sync-options.png" alt-text="Set sync options.":::
+    :::image type="content" source="../media/2-deploy-sync-options.png" alt-text="Set sync options.":::
 
 1. You'll provide the following information:
 
@@ -239,7 +235,7 @@ The method you choose dictates the steps you'll perform for deployment. For exam
 
 In the teacher options form, you set the identity matching attributes for teachers:
 
-:::image type="content" source="../media/2-deploy-sds-teacher-options.png" alt-text="Set teachers options.":::
+:::image type="content" source="../media/2-deploy-teacher-options.png" alt-text="Set teachers options.":::
 
 1. Select an attribute from your source directory in the **Primary key (Source Directory)** field.
 1. Select a matching attribute from the target directory in the **Primary key (Azure Active Directory**) field.
@@ -250,7 +246,7 @@ In the teacher options form, you set the identity matching attributes for teache
 
 1. Next up, you'll perform the same steps as above to set the identity matching attributes for students:
 
-    :::image type="content" source="../media/2-deploy-sds-student-options.png" alt-text="Set student options.":::
+    :::image type="content" source="../media/2-deploy-student-options.png" alt-text="Set student options.":::
 
 2. When you're done, select **Next**.
 
@@ -258,7 +254,7 @@ In the teacher options form, you set the identity matching attributes for teache
 
 The review form appears. You're ready to review your selections:
 
-:::image type="content" source="../media/2-deploy-sds-review.png" alt-text="Review selections.":::
+:::image type="content" source="../media/2-deploy-review.png" alt-text="Review selections.":::
 
 If everything looks good, select **Create profile** to start synchronization. If any errors occur concerning your CSV files, synchronization will be paused for you. You'll be able to fix those issues, upload your files again, and resume synchronization.
 

@@ -12,7 +12,7 @@ Microsoft Intune is a service designed to facilitate mobile device management an
 - Ensure that organization's data is always protected and isolated from personal data on your user's devices.
 - Track compliance for devices and users.
 - Selectively remove from devices in case a device is stolen, lost, or just no longer needed.
-- Deploy applications that require complex installation logic. 
+- Deploy applications that require complex installation logic.
 
 ## What is Intune for Education?
 
@@ -31,17 +31,17 @@ Intune for Education is designed for the management of devices used for educatio
 
 ### How to access Intune for Education
 
-To access Intune for Education, you need to go to the Intune for Education product page (link is available in the *Learn more* section) and sign up for an Intune for Education subscription by selecting one of the options available to you. For example, if you've already got a Microsoft 365 Education subscription, but you've never used Intune for Education before, you can start with a free trial:
+1. To access Intune for Education, you need to go to the Intune for Education product page (link is available in the *Learn more* section) and sign up for an Intune for Education subscription by selecting one of the options available to you. For example, if you've already got a Microsoft 365 Education subscription, but you've never used Intune for Education before, you can start with a free trial:
 
-:::image type="content" source="../media/1-intune-education-product-page.png" alt-text="Intune for Education product page.":::
+   :::image type="content" source="../media/1-intune-education-product-page.png" alt-text="Intune for Education product page.":::
 
-In the form that appears, set up your subscription by providing your details:
+1. In the form that appears, set up your subscription by providing your details:
 
-:::image type="content" source="../media/1-sign-up-form.png" alt-text="Sign up form.":::
+   :::image type="content" source="../media/1-sign-up-form.png" alt-text="Sign up form.":::
 
-After you've finished setting up your subscription, you can access the Intune for Education portal from your internet browser (link is available in the *Learn more* section):
+1. After you've finished setting up your subscription, you can access the Intune for Education portal from your internet browser (link is available in the *Learn more* section):
 
-:::image type="content" source="../media/1-intune-education-portal.png" alt-text="Intune for Education portal":::
+   :::image type="content" source="../media/1-intune-education-portal.png" alt-text="Intune for Education portal.":::
 
 > [!NOTE]
 > To sign in successfully, you need to use an account that has Global Administrator permissions or Intune Service Administrator permissions.
