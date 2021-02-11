@@ -3,7 +3,7 @@ uid: learn-m365.configure-microsoft-cloud-app-security-initial-settings
 metadata:
   title: Configure Microsoft Cloud App Security initial settings
   description: Configure Microsoft Cloud App Security initial settings
-  ms.date: 12/17/2020
+  ms.date: 02/11/2021
   author: geoffallix
   ms.author: v-gea
   ms.topic: interactive-tutorial
@@ -18,7 +18,7 @@ abstract: |
 prerequisites: | 
   - Knowledge of security fundamentals
   - Knowledge Microsoft Azure and Microsoft 365 fundamentals
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn-m365-pr/achievements/generic-badge.svg
 levels:
 - beginner
 roles:
