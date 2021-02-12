@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.m365-messaging-manage-hygiene.safe-attachments-links
-title: Configure and manage ATP safe attachments and links
+title: Configure and manage safe attachments and links
 metadata:
-  title: Configure and manage ATP safe attachments and links
+  title: Configure and manage safe attachments and links
   description: Learn how to plan, implement, and configure policies to protect your organization from malware, spam, and phishing.  
   ms.date: 05/01/2020
   author: AlexandraHrt

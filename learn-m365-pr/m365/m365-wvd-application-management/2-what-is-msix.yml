@@ -3,7 +3,7 @@ uid: learn-m365.wvd-msix-app-attach.what-is-msix
 title: What is MSIX?
 metadata:
   title: What is MSIX?
-  description: Learn about MSIX, a Windows app package format. Learn how to transform existing application with MSIX packaging tool.
+  description: Learn about MSIX, a Windows app package format. Learn how to transform existing applications by using the MSIX packaging tool.
   ms.date: 01/15/2021
   author: ndelgado
   ms.author: nedelgad

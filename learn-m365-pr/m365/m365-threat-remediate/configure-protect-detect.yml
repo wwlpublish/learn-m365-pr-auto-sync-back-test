@@ -3,7 +3,7 @@ uid: learn-m365.m365-threat-remediate.configure-protect-detect
 title: Configure, protect, and detect
 metadata:
   title: Configure, protect, and detect
-  description: Learn about the Office 365 Advanced Threat Protection component of Microsoft Threat Protection. 
+  description: Learn about the Microsoft Defender for Office 365 component of Microsoft 365 Defender. 
   ms.date: 06/24/2020
   author: AlexandraHrt
   ms.author: elizapo

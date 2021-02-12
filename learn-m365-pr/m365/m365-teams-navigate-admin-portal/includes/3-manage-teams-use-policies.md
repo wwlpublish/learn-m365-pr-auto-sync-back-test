@@ -164,5 +164,5 @@ For more information about the topics covered in this unit, see:
 - [Assign policies to your users in Microsoft Teams](https://docs.microsoft.com/microsoftteams/assign-policies).
 - [Assign a policy package to a batch of users](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-package-to-a-batch-of-users).
 - [Manage meeting settings and policies](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams).
-- [Change participant settings for a Teams meeting](https://support.microsoft.com/en-us/office/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e).
+- [Change participant settings for a Teams meeting](https://support.microsoft.com/office/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e).
 - [Manage messaging policies in Teams](https://docs.microsoft.com/microsoftteams/messaging-policies-in-teams).

@@ -15,17 +15,17 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Which of the following threat protection features require an ATP subscription?"
+    - content: "Which of the following threat protection features require a subscription?"
       choices:
       - content: "Anti-malware protection"
         isCorrect: false
-        explanation: "No, this feature requires Exchange Online Protection, not ATP."
+        explanation: "No, this feature requires Exchange Online Protection, not Microsoft Defender for Endpoint."
       - content: "Protection from malicious URLs"
         isCorrect: true
-        explanation: "Yes, this feature requires an ATP subscription."
+        explanation: "Yes, this feature requires a subscription."
       - content: "Zero-hour auto purge"
         isCorrect: false
-        explanation: "No, this feature requires Exchange Online Protection, not ATP."
+        explanation: "No, this feature requires Exchange Online Protection, not Microsoft Defender for Endpoint."
 
     - content: "What setting should you configure to skip spam filtering for all incoming messages, when they come from source email servers you've identified?"
       choices:
@@ -55,9 +55,9 @@ quiz:
       - content: "Exchange Online Protection"
         isCorrect: false
         explanation: "No, Exchange Online Protection can't create fake phishing messages."
-      - content: "Advanced Threat Protection"
+      - content: "Microsoft Defender for Endpoint"
         isCorrect: true
-        explanation: "Yes, you can use the Attack simulator in Advanced Threat Protection to create and send fake phishing mails."
+        explanation: "Yes, you can use the Attack simulator in Microsoft Defender for Endpoint to create and send fake phishing mails."
       - content: "Microsoft 365"
         isCorrect: false
         explanation: "No, Microsoft 365 can't create and send fake phishing emails without using additional tools."      
