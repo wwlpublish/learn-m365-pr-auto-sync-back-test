@@ -1,15 +1,15 @@
 ### YamlMime:Module
 uid: learn-m365.information-protection-real-time-controls
 metadata:
-  title: Information protection and real-time controls with Microsoft Cloud App Security
-  description: Information protection and real-time controls with Microsoft Cloud App Security
+  title: Protect information in real time with Microsoft Cloud App Security
+  description: Learn to configure information protection in Microsoft Cloud App Security and protect data stored in all locations, including non-Microsoft services.
   ms.date: 02/02/2021
   author: geoffallix
   ms.author: v-gea
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Information protection and real-time controls with Microsoft Cloud App Security
-summary: Learn to connect non-Microsoft services to Microsoft Cloud App Security and protect data stored in all locations. Learn how to restrict external users and unauthorized browsers, how to label or quarantine files, and how to apply information protection policies.
+title: Protect information in real time with Microsoft Cloud App Security
+summary: Learn to configure information protection in Microsoft Cloud App Security and protect data stored in all locations, including non-Microsoft services. Learn how to restrict external users and unauthorized browsers, how to label or quarantine files, and how to apply information protection policies.
 abstract: | 
   In this module, you will:
   - Connect Box, Salesforce, and GitHub to Microsoft Cloud App Security.
