@@ -9,7 +9,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Information protection in Microsoft Cloud App Security
-summary: Learn how to to connect apps to Microsoft Cloud App Security and deploy Conditional App Access Control. | 
+summary: Learn how to to connect apps to Microsoft Cloud App Security and deploy Conditional App Access Control. 
 abstract: | 
   In this module, you will:
   - Connect apps to Microsoft Cloud App Security
@@ -18,7 +18,7 @@ abstract: |
 prerequisites: | 
   - Knowledge of security fundamentals
   - Knowledge of Microsoft Azure and Microsoft 365 fundamentals
-iconUrl: /learn-m365-pr/achievements/generic-badge.svg
+iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - beginner
 roles:
