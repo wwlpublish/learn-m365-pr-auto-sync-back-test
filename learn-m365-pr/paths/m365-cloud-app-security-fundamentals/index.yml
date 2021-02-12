@@ -5,7 +5,7 @@ metadata:
   description: Learn how Microsoft Cloud App Security can help you proactively identify and defeat app-based security threats across your organization, in Microsoft cloud services, and those services provided by other vendors. 
   ms.date: 02/12/2021
   author: IanKensey
-  ms.author: iankensey
+  ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Secure cloud apps using Microsoft Cloud App Security
