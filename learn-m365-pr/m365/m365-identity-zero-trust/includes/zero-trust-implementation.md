@@ -32,7 +32,7 @@ Once you have the Azure AD foundation in order, you can begin enacting the princ
 
 First principle--*verify explicitly*--provide Azure AD with a rich set of credentials and controls that it can use to verify users:
 
-- Roll out Azure multi-factor authentication (MFA).
+- Roll out Azure Active Directory Multi-Factor Authentication.
 - Enable Azure AD Hybrid Join or Azure AD Join.
 - Enable Microsoft Intune for managing users mobile devices (EMS).
 - Start rolling out passwordless credentials.
