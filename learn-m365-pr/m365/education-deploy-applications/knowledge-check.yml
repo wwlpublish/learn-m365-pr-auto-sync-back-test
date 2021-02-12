@@ -1,0 +1,48 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.edu-deploy-applications.knowledge-check
+metadata:
+  title: Knowledge Check
+  description: Check your knowledge
+  ms.date: 10/15/2020
+  author: iankensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Knowledge Check
+durationInMinutes: 4
+content: |
+quiz:
+    questions:
+    - content: "Which of the following is a valid administrator role?"
+      choices:
+      - content: "Global Administrator"
+        isCorrect: true
+        explanation: "Global Administrator is one of the two types discussed in this course."
+      - content: "Universal Administrator"
+        isCorrect: false
+        explanation: "Universal Administrator is not one of the two types discussed in this course."
+      - content: "Accounts Administrator"
+        isCorrect: false
+        explanation: "Account Administrator is not one of the two types discussed in this course."
+    - content: "Which of the following statements about VPP tokens is true?"
+      choices:
+      - content: "VPP tokens are only used with fee apps"
+        isCorrect: false
+        explanation: "VPP tokens can be used with both free and paid apps."
+      - content: "Intune silently installs VPP-purchased apps."
+        isCorrect: true
+        explanation: "This is a true statement."
+      - content: "Apple ID is required with VPP paid apps"
+        isCorrect: false
+        explanation: "This statement is false. All VPP-purchased apps do not require Apple ID to authenticate."
+    - content: "Which describes the minimum version of Internet Explorer an administrator would need to work with Microsoft Store for Education?"
+      choices:
+      - content: "Internet Explorer 8."
+        isCorrect: false
+        explanation: "This statement is incorrect, you need at least IE 10."
+      - content: "Internet Explorer 9."
+        isCorrect: false
+        explanation: "This statement is incorrect, you need at least IE 10."
+      - content: "Internet Explorer 10."
+        isCorrect: true
+        explanation: "This statement is correct, you need at least IE 10."
