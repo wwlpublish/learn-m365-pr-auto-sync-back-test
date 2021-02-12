@@ -1,6 +1,3 @@
->[!IMPORTANT]
->Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813). We'll be updating names in products and in the Learn content in the near future.
-
 Companies considering a migration to Microsoft Teams need to know that their data will be protected with industry-leading tools. They also need to comply with data protection regulations in force wherever they operate.
 
 Suppose you've reassured yourself that Microsoft has built Teams with secure principals but you're still concerned about malicious or disgruntled internal users and the use of attachments to chat messages. You also want to know how you'll comply with regulations in your jurisdiction, if legal action is taken against you.
@@ -9,7 +6,7 @@ Here, you'll learn about the advanced protection tools that are available in Tea
 
 ## Manage security
 
-**Microsoft Advanced Threat Protection (ATP)** is a unified platform for detecting and blocking files identified as malicious. Microsoft Defender ATP protects endpoints from cyber threats, detects advanced attacks and data breaches, and automates the handling of security incidents. It's available for Microsoft Teams, and SharePoint and OneDrive, which are used by Teams for content management. ATP allows you to identify malicious content in any of these applications and block the content from user access.
+**Microsoft Defender for Endpoint** is a unified platform for detecting and blocking files identified as malicious. Microsoft Defender for Endpoint protects endpoints from cyber threats, detects advanced attacks and data breaches, and automates the handling of security incidents. It's available for Microsoft Teams, and SharePoint and OneDrive, which are used by Teams for content management. Microsoft Defender for Office 365 allows you to identify malicious content in any of these applications and block the content from user access.
 
 **Safe attachments** detects malicious attachments. Global or security administrators create policies for handling these suspected malicious attachments to prevent them from being sent to users, clicked, and acted upon. Safe attachment protection is available to SharePoint, OneDrive, and Microsoft Teams.
 

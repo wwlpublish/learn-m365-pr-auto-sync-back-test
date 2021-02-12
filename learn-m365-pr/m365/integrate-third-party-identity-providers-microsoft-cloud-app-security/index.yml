@@ -2,14 +2,14 @@
 uid: learn-m365.integrate-third-party-identity-providers-mcas
 metadata:
   title: Integrate third-party identity providers with Microsoft Cloud App Security
-  description: Onboard and configure Conditional Access Control for any app using third-party identity providers
+  description: Learn how to integrate and manage third-party identity providers with Microsoft Cloud App Security.
   ms.date: 02/04/2021
   author: alistairmatthews
   ms.author: v-alimat
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Integrate third-party identity providers with Microsoft Cloud App Security
-summary: Learn how to integrate third-party identity providers with Microsoft Cloud App Security, and learn how to manage those providers using the Cloud App Security portal.
+summary: Learn how to integrate and manage third-party identity providers with Microsoft Cloud App Security.
 abstract: | 
   In this module, you will:
   - Integrate PingOne with Cloud App Security.

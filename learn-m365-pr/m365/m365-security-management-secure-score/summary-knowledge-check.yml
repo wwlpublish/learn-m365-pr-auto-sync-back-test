@@ -52,9 +52,9 @@ quiz:
       - content: "Office Security Center"
         isCorrect: true
         explanation: "Correct. Office Security Center does not exist, the Microsoft 365 security center is the centralized location for security administrators and security operations teams."
-      - content: "Microsoft Defender ATP"
+      - content: "Microsoft Defender for Endpoint"
         isCorrect: false
-        explanation: "Microsoft Secure Score includes recommendations from Microsoft Defender ATP."
+        explanation: "Microsoft Secure Score includes recommendations from Microsoft Defender for Endpoint."
       - content: "Azure Security Center"
         isCorrect: false
         explanation: "Microsoft Secure Score includes recommendations from Azure Security Center."

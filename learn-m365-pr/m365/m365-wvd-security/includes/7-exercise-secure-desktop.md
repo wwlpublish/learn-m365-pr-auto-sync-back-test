@@ -234,4 +234,4 @@ This process takes 2 to 3 minutes.
 
 The following video shows how you can use AppLocker to help secure your Windows Virtual Desktop deployment.
 
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4M709]
+>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4M709]

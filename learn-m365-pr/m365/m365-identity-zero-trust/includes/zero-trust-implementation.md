@@ -1,6 +1,3 @@
->[!IMPORTANT]
->Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813). We'll be updating names in products and in the Learn content in the near future.
-
 A Zero Trust strategy requires that you verify explicitly, use least privileged access principles, and assume breach. Azure Active Directory can act as the policy decision point to enforce your access policies based on user, device, target resource, and environment insights. 
 
 To do this, we need to put Azure Active Directory in the path of every access request—connecting every user and every app or resource through this identity control plane. In addition to productivity gains and improved user experiences from single sign-on (SSO) and consistent policy guardrails, connecting all users and apps provides Azure AD with the signal to make the best possible decisions about the authentication/authorization risk.
@@ -35,7 +32,7 @@ Once you have the Azure AD foundation in order, you can begin enacting the princ
 
 First principle--*verify explicitly*--provide Azure AD with a rich set of credentials and controls that it can use to verify users:
 
-- Roll out Azure multi-factor authentication (MFA).
+- Roll out Azure Active Directory Multi-Factor Authentication.
 - Enable Azure AD Hybrid Join or Azure AD Join.
 - Enable Microsoft Intune for managing users mobile devices (EMS).
 - Start rolling out passwordless credentials.
@@ -55,10 +52,10 @@ Third principle--*assume breach*--consider configuring the following tools to pr
 - Enable restricted session to use in access decisions.
 - Enable Conditional Access integration with Microsoft Cloud App Security.
 - Enable Microsoft Cloud App Security integration with identity protection.
-- Integrate Azure Advanced Threat Protection with Microsoft Cloud App Security.
-- Enable Microsoft Defender ATP.
+- Integrate Microsoft Defender for Identity with Microsoft Cloud App Security.
+- Enable Microsoft Defender for Endpoint.
 
-Within your organization, consider creating a Conditional Access policy requiring Azure multi-factor authentication for administrators for quick wins in your journey towards Zero Trust. To create a Conditional Access policy:
+Within your organization, consider creating a Conditional Access policy requiring Azure Active Directory Multi-Factor Authentication for administrators for quick wins in your journey towards Zero Trust. To create a Conditional Access policy:
 
 1. Within Azure AD, create a new Conditional Access policy with Directory roles targeted. 
 2. If your organization has a “break-glass” global administrator account, remember to add the account to the **Exclude** section. In the following screenshot, the global administrator role is selected. Consider also adding these roles:
