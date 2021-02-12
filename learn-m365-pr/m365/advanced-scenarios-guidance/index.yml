@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn-m365.advanced-scenarios-guidance
+metadata:
+  title: Advanced scenarios and guidance with Microsoft Cloud App Security
+  description: Advanced scenarios and guidance with Microsoft Cloud App Security
+  ms.date: 02/04/2021
+  author: alistairmatthews
+  ms.author: v-alimat
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Advanced scenarios and guidance with Microsoft Cloud App Security
+summary: Use advanced features of Microsoft Cloud App Security to protect more devices, integrate with other products, and customize security tools.
+abstract: | 
+  After completing this module, you’ll be able to:
+  -	Create a custom indicator of compromise in Microsoft Cloud App Security.
+  -	Observe security threats detected by Microsoft Cloud App Security in Microsoft 365 security center.
+  -	Block apps and websites on iOS devices by using Defender for Endpoint and Microsoft Cloud App Security.
+  -	Ensure that a log collector can communicate with Microsoft Cloud App Security from behind a proxy server.
+  -	Interact with Microsoft Cloud App Security by using the REST API.
+prerequisites: | 
+  - Experience working with Microsoft 365 services
+  - Experience working with Azure 
+  - Knowledge of security concepts, risks, and mitigations
+  - Microsoft Cloud App Security fundamentals or equivalent
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- advanced
+roles:
+- administrator
+products:
+- m365-ems-cloud-app-security
+units:
+- learn-m365.advanced-scenarios-guidance.1-introduction
+- learn-m365.advanced-scenarios-guidance.2-configure-custom-indicators-compromise
+- learn-m365.advanced-scenarios-guidance.3-integrate-security-center
+- learn-m365.advanced-scenarios-guidance.4-protect-ios-devices
+- learn-m365.advanced-scenarios-guidance.5-configure-log-collector-behind-proxy
+- learn-m365.advanced-scenarios-guidance.6-use-mcas-rest-api
+- learn-m365.advanced-scenarios-guidance.7-knowledge-check
+- learn-m365.advanced-scenarios-guidance.8-summary
+badge:
+  uid: learn-m365.advanced-scenarios-guidance.badge
