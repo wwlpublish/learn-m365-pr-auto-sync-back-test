@@ -1,4 +1,4 @@
-## What is a scope tag
+## What is a scope tag?
 
 Scope tags define which objects admins can see. Each object can have up to 100 scope tags defined.
 

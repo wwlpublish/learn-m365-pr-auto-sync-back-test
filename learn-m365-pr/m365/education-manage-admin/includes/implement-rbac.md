@@ -1,5 +1,3 @@
-## What are roles?
-
 A role is a system of grouping users and granting them rights.
 
 There are two types of role specifically for Intune: built-in and custom.
