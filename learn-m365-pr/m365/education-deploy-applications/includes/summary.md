@@ -18,7 +18,7 @@ By using Intune for Education, you can assign apps to just those users who shoul
 - [REST API reference for Microsoft Store for Business](https://docs.microsoft.com/windows/client-management/mdm/rest-api-reference-windows-store-for-business)
 - [Use Intune for Education to manage groups, apps, and settings](https://docs.microsoft.com/microsoft-365/education/deploy/use-intune-for-education)
 - [Use Intune for Education to buy apps from the Microsoft Store for Education](https://docs.microsoft.com/microsoft-365/education/deploy/use-intune-for-education#add-apps-bought-from-microsoft-store-for-education)
-- [Deploy apps to devices](https://docs.microsoft.com/microsoft-365/managed-desktop/get-started/deploy-apps?view=o365-worldwide)
+- [Deploy apps to devices](https://docs.microsoft.com/microsoft-365/managed-desktop/get-started/deploy-apps)
 - [Installing apps on school devices](https://docs.microsoft.com/intune-education/assign-apps#:~:text=From%20the%20Intune%20for%20Education%20dashboard%2C%20click%20Groups.,or%20more%20apps%20to%20deploy%20to%20your%20group.)
 - [Get apps from the Microsoft Store for Education](https://docs.microsoft.com/intune-education/acquire-store-apps)
 - [Purchase free app from the App Store](https://docs.microsoft.com/intune-education/add-apps-ios)

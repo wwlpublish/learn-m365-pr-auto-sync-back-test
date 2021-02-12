@@ -117,7 +117,7 @@ Intune for Education supports Win32 apps packaged as *msi* files; this is the fo
 
 1. In the Intune for Education console, select **Apps** from the menu on the left.
 
-:::image type="content" source="../media/3-intune-apps-menu.png" alt-text="Intune for Education Apps":::
+:::image type="content" source="../media/3-intune-apps-menu.png" alt-text="Screenshot of Intune for Education Apps":::
 
 1. On the Apps screen, select **New App**, and then select **New desktop app**. This will take you to the Microsoft Store for Education portal and you'll already be signed in.
 
@@ -139,11 +139,11 @@ After you've added an app to the dashboard, use Intune for Education to specify 
 
 1. In the Intune for Education console, select **Apps** from the menu on the left.
 
-    :::image type="content" source="../media/3-intune-apps-menu.png" alt-text="Intune for Education Apps":::
+    :::image type="content" source="../media/3-intune-apps-menu.png" alt-text="Screenshot of Apps in Intune for Education":::
 
 1. On the Apps page, select the app you want to install. You may need to select **Load more** if your app doesn't appear.
 
-    :::image type="content" source="../media/3-intune-apps.png" alt-text="Intune for Education Apps":::
+    :::image type="content" source="../media/3-intune-apps.png" alt-text="Screenshot of using Apps in Intune for Education":::
 
 1. On the page for your app, select **Group assignments**.
 
