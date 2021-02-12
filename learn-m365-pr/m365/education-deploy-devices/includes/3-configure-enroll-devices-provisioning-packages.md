@@ -63,7 +63,7 @@ Downloading and installing Windows Configuration Designer is outside this unit's
 1. Launch Windows Configuration Designer.
 1. From the Start page, select the provisioning package you want to create. Select *Provision desktop devices* for a guided setup flow, or select *Advanced provisioning* for more customizations or the option to import a package from Set Up School PCs. If you select *Advanced provisioning*, make sure that you also select *All Windows desktop editions*.
 
-   :::image type="content" source="../media/3-icd-create-options-1703.png" alt-text="A screenshot showing the Windows Configuration Designer Start page six options: provision desktop devices, provision Windows mobile devices, Provision HoloLens devices, Provision Surface Hub devices, Provision kiosk devices, and advanced provisioning":::
+   :::image type="content" source="../media/3-icd-create-options-1703.png" alt-text="A screenshot showing the Windows Configuration Designer Start page six options.":::
 
 1. Enter a project name, and select the settings you want to configure based on the type of device.
    - All Windows editions
@@ -109,7 +109,7 @@ This approach only works if the computer has been reset or is new and is going t
 
 1. Insert the USB drive that contains the provisioning package you want to install. Windows Setup will detect this and ask if you want to set up the device.
 
-   :::image type="content" source="../media/3-setupmsg.png" alt-text="Windows Set up confirmation message to install a provisioning package":::
+   :::image type="content" source="../media/3-setupmsg.png" alt-text="Windows Set up confirmation message to install a provisioning package.":::
 
 1. Choose the source of the provisioning package. In this instance, select Removable Media.
 1. Now choose the provisioning package you want to apply to this device, and select Next.
@@ -130,4 +130,4 @@ You can apply a provisioning package to any of the existing Windows devices in y
 1. Select Add a package and navigate to the location of the provisioning package.
 1. Double-click the provisioning package to begin the installation.
 
-   :::image type="content" source="../media/3-package.png" alt-text="Screen shot showing the addition of a provisioning package to an existing Windows machine.":::
+   :::image type="content" source="../media/3-package.png" alt-text="Screenshot showing the addition of a provisioning package to an existing Windows machine.":::

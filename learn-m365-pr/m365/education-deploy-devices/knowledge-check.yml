@@ -1,15 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.edu-deploy-devices.knowledge-check
 metadata:
-  title: kKnowledge Check
+  title: Knowledge check
   description: Check your knowledge
   ms.date: 10/09/2020
   author: iankensey
   ms.author: v-iakens
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-  ROBOTS: NOINDEX
-title: knowledge check
+title: Knowledge check
 durationInMinutes: 5
 content: |
 quiz:

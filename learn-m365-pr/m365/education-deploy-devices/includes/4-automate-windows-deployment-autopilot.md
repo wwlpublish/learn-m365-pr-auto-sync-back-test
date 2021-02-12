@@ -8,7 +8,7 @@ Here, you'll learn about Windows Autopilot and Autopilot Reset.
 
 Windows Autopilot allows you to deploy devices at scale across your whole school.  Windows Autopilot can reduce the time and resources needed by deploying and managing Windows devices across your school.
 
-:::image type="content" source="../media/4-autopilot-for-education.png" alt-text="Diagram showing the steps to follow to deploy classroom-ready Windows devices using Windows Autopilot for Edu":::
+:::image type="content" source="../media/4-autopilot-for-education.png" alt-text="Diagram showing the steps to follow to deploy classroom-ready Windows devices using Windows Autopilot for Edu.":::
 
 ### Windows Autopilot deployment in user-driven mode
 
