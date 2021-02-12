@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn-m365.advanced-scenarios-guidance
 metadata:
-  title: Advanced scenarios and guidance with Microsoft Cloud App Security
-  description: Advanced scenarios and guidance with Microsoft Cloud App Security
+  title: Configure advanced scenarios in Microsoft Cloud App Security
+  description: Use advanced features of Microsoft Cloud App Security to protect more devices, integrate with other products, and customize security tools.
   ms.date: 02/04/2021
   author: alistairmatthews
   ms.author: v-alimat
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Advanced scenarios and guidance with Microsoft Cloud App Security
+title: Configure advanced scenarios in Microsoft Cloud App Security
 summary: Use advanced features of Microsoft Cloud App Security to protect more devices, integrate with other products, and customize security tools.
 abstract: | 
   After completing this module, you’ll be able to:
