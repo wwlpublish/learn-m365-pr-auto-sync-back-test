@@ -8,7 +8,7 @@ The Intune for Education portal only supports Win32 applications packaged as MSI
 
 A Win32 application must not be greater than 8 GB in size. Additionally, Win32 apps only run on Windows devices; make sure that the devices to which you deploy a Win32 app are running Windows 10 version 1607 or later.
 
-Before you upload a Win32 app, you must prepare it for use by Intune using the Win32 Content Prep Tool, **IntuneWinAppUtil.exe**. Download this tool from the Microsoft GitHub repository at [https://go.microsoft.com/fwlink/?linkid=2065730](https://go.microsoft.com/fwlink/?linkid=2065730).
+Before you upload a Win32 app, you must prepare it for use by Intune using the Win32 Content Prep Tool, **IntuneWinAppUtil.exe**. Download this tool from the Microsoft GitHub repository at [Intune GitHub repository](https://go.microsoft.com/fwlink/?linkid=2065730).
 
 Run the tool, and provide the following information:
 
@@ -22,7 +22,7 @@ Run the tool, and provide the following information:
 
 The tool creates a file with the extension *.intunewin*. You upload this file to Intune as follows:
 
-1. Using a browser, connect to the Microsoft Endpoint Manager admin center at [https://endpoint.microsoft.com](https://endpoint.microsoft.com).
+1. Using a browser, connect to the [Microsoft Endpoint Manager admin center](https://endpoint.microsoft.com).
 
 1. On the **Home** page, select **Apps** from the menu on the left.
    :::image type="content" source="../media/3-mem-apps-menu.png" alt-text="Microsoft Endpoint Manager admin center":::
@@ -64,7 +64,7 @@ The tool creates a file with the extension *.intunewin*. You upload this file to
    | Owner | The name of the person in your organization who manages licensing or is the point-of-contact for this app. |
    | Notes | Any additional notes about the app. |
    | Logo |  A logo image file that's associated with the app |
-   
+
 1. On the **Add App | Program** page, provide the information needed to install the app, and then select **Next**.
 
    | Field | Value |
@@ -95,13 +95,13 @@ The tool creates a file with the extension *.intunewin*. You upload this file to
 
 1. On the **Add App | Dependencies** page, list the software dependencies specifying applications that must be installed before this app, and then select **Next**.
 
- 1. On the **Add App | Assignments** page, provide the information needed to assign the app to devices and users, and then select **Next**.
+1. On the **Add App | Assignments** page, provide the information needed to assign the app to devices and users, and then select **Next**.
 
-   | Field | Value |
-   |-|-|
-   | Required | Select the groups for which you want to make this app required. Required apps are installed automatically on enrolled devices. |
-   | Available for enrolled devices | Select the groups for which you want to make this app available. Available for enrolled devices apps are displayed in the Company Portal app and website for users to optionally install.|
-   | Uninstall | Select the groups for which you want to uninstall the app. Apps with this assignment are uninstalled from managed devices in the selected groups if Intune has previously installed the application onto the device via an "Available for enrolled devices" or "Required" assignment on the same deployment. |
+    | Field | Value |
+    |-|-|
+    | Required | Select the groups for which you want to make this app required. Required apps are installed automatically on enrolled devices. |
+    | Available for enrolled devices | Select the groups for which you want to make this app available. Available for enrolled devices apps are displayed in the Company Portal app and website for users to optionally install.|
+    | Uninstall | Select the groups for which you want to uninstall the app. Apps with this assignment are uninstalled from managed devices in the selected groups if Intune has previously installed the application onto the device via an "Available for enrolled devices" or "Required" assignment on the same deployment. |
 
 1. On the **Add App | Review + create** page, review the configuration. If you are happy to proceed, select **Create**. When the app has been unloaded, select **Overview** to verify that it has been added correctly.
 
@@ -113,7 +113,7 @@ After it has been uploaded, the Win32 app will appear in the Intune for Educatio
 
 Intune for Education supports Win32 apps packaged as *msi* files; this is the format recognized by Windows Installer, the standard Microsoft technology used for deploying applications. This example walks through the steps to perform this task.
 
-1. Using a browser, connect to Intune for Education at [https://intuneeducation.portal.azure.com](https://intuneeducation.portal.azure.com).
+1. Using a browser, connect to Intune for Education at [Intune education portal](https://intuneeducation.portal.azure.com).
 
 1. In the Intune for Education console, select **Apps** from the menu on the left.
 
@@ -135,15 +135,15 @@ Intune for Education supports Win32 apps packaged as *msi* files; this is the fo
 
 After you've added an app to the dashboard, use Intune for Education to specify the group to install the app for. Here, we'll show you how to install the app for all devices used by all users in your tenant.
 
-1. If you haven't already opened the Intune for Education portal, using a browser, connect to Intune for Education at [https://intuneeducation.portal.azure.com](https://intuneeducation.portal.azure.com).
+1. If you haven't already opened the Intune for Education portal, using a browser, connect to Intune for Education at [Intune education portal](https://intuneeducation.portal.azure.com).
 
 1. In the Intune for Education console, select **Apps** from the menu on the left.
 
-   :::image type="content" source="../media/3-intune-apps-menu.png" alt-text="Intune for Education Apps":::
+    :::image type="content" source="../media/3-intune-apps-menu.png" alt-text="Intune for Education Apps":::
 
 1. On the Apps page, select the app you want to install. You may need to select **Load more** if your app doesn't appear.
 
-   :::image type="content" source="../media/3-intune-apps.png" alt-text="Intune for Education Apps":::
+    :::image type="content" source="../media/3-intune-apps.png" alt-text="Intune for Education Apps":::
 
 1. On the page for your app, select **Group assignments**.
 

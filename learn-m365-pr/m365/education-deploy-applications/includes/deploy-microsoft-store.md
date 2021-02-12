@@ -39,7 +39,7 @@ In order to sign in to Microsoft Store for Education, you must be a global admin
 
 #### Create an Azure AD account through Store for Education
 
-1. Open a browser and go to [https://www.microsoft.com/education-store](https://www.microsoft.com/education-store) and then select **Sign-up**.
+1. Open a browser and go to [education store](https://www.microsoft.com/education-store) and then select **Sign-up**.
 1. On the **Welcome, Let's get to know you screen**, type in the required information and then select **Next**
 1. On the **Create your user ID** screen, examine the information that was created from the first screen, and then select **Next**.
 1. On the **Prove. You're. Not. A. Robot.** screen, select either the **Text me** or **Call me** buttons, enter a phone number, and then select either **Text me** or **Call me**.
@@ -50,7 +50,7 @@ At this point, you'll have an Azure AD directory created with one user account a
 
 #### Sign in to Store for Education
 
-1. Open a browser and go to [https://www.microsoft.com/education-store](https://www.microsoft.com/education-store) and then select **Sign-up**.
+1. Open a browser and go to [education store](https://www.microsoft.com/education-store) and then select **Sign-up**.
 1. Sign in with your Azure AD account credentials.
 1. Read and accept Microsoft Store for Business and Education terms.
 
