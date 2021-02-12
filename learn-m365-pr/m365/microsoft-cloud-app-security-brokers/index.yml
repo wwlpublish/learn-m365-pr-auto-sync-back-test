@@ -1,15 +1,15 @@
 ### YamlMime:Module
 uid: learn-m365.mcas-casbs
 metadata:
-  title: Understanding Cloud App Security Brokers
-  description: Understanding Cloud App Security Brokers
-  ms.date: 12/17/2020
+  title: Implement app security best practices with Cloud Access Security Brokers
+  description: Learn about Cloud Access Security Brokers, including use cases and best practices.
+  ms.date: 02/12/2021
   author: geoffallix
   ms.author: v-gea
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Understanding Cloud App Security Brokers
-summary: Learn about Microsoft Cloud App Security use cases and best practices.
+title: Implement app security best practices with Cloud Access Security Brokers
+summary: Learn about Cloud Access Security Brokers, including use cases and best practices.
 abstract: | 
   In this module, you will:
   - Describe Cloud App Security Broker use cases

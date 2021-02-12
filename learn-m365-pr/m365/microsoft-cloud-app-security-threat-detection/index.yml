@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn-m365.mcas-threat-detection
 metadata:
-  title: Introduction to Microsoft Cloud App Security threat detection
-  description: Introduction to Microsoft Cloud App Security threat detection
-  ms.date: 12/17/2020
+  title: Implement threat detection using Microsoft Cloud App Security
+  description: Learn about the threat detection capabilities of Microsoft Cloud App Security.
+  ms.date: 02/12/2021
   author: geoffallix
   ms.author: v-gea
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Introduction to Microsoft Cloud App Security threat detection
+title: Implement threat detection using Microsoft Cloud App Security
 summary: Learn about the threat detection capabilities of Microsoft Cloud App Security.
 abstract: | 
   In this module, you will:
