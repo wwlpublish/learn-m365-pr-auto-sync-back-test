@@ -35,9 +35,9 @@ This blog series’ initial focus will be discussing the end user’s experience
 
 The following articles are already available for your review:
 
-1. [Protect Box (Part 1: Near Real-Time Data Protection)](https://techcommunity.microsoft.com/t5/microsoft-security-and/protect-box-part-1-near-real-time-data-protection/ba-p/1797206?azure-portal=true).
-1. [Protect Box (Part 2: Real-Time Data Protection)](https://techcommunity.microsoft.com/t5/microsoft-security-and/mcas-data-protection-blog-series-box-real-time-protections/ba-p/1943256?azure-portal=true).
-1. [Do I use MCAS or MIP?](https://techcommunity.microsoft.com/t5/microsoft-security-and/mcas-data-protection-blog-series-do-i-use-mcas-or-mip/ba-p/2011039?azure-portal=true).
+- [Protect Box (Part 1: Near Real-Time Data Protection)](https://techcommunity.microsoft.com/t5/microsoft-security-and/protect-box-part-1-near-real-time-data-protection/ba-p/1797206?azure-portal=true).
+- [Protect Box (Part 2: Real-Time Data Protection)](https://techcommunity.microsoft.com/t5/microsoft-security-and/mcas-data-protection-blog-series-box-real-time-protections/ba-p/1943256?azure-portal=true).
+- [Do I use MCAS or MIP?](https://techcommunity.microsoft.com/t5/microsoft-security-and/mcas-data-protection-blog-series-do-i-use-mcas-or-mip/ba-p/2011039?azure-portal=true).
 
 ## Securing administrative access to Microsoft Cloud App Security and Defender for Identities
 
