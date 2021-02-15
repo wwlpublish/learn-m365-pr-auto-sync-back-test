@@ -4,7 +4,7 @@ To simplify this process, Microsoft released Microsoft Graph Toolkit - a set of 
 
 In this unit, you'll learn about what Microsoft Graph Toolkit is, and why would you want to use it. You'll also learn about different kinds of apps that can use the toolkit.
 
-## What is Microsoft Graph Toolkit?
+## Microsoft Graph Toolkit overview
 
 Microsoft Graph Toolkit is a set of web components, that you can use with any JavaScript framework to easily connect your app to Microsoft 365. After loading the toolkit in your app, you get access to a set of custom HTML tags. These tags allow you to easily load data from Microsoft 365.
 
@@ -24,33 +24,18 @@ Agenda is just one of the many components available in Microsoft Graph Toolkit. 
 
 Did you notice, how in the previous example, you haven't issued a single web request? This is exactly why you should consider using Microsoft Graph Toolkit.
 
-### Focus on building your own web app
-
-Microsoft Graph Toolkit abstracts away authorizing and connecting to Microsoft Graph - the API to retrieve data stored in Microsoft 365. You don't need to worry about authorization, building web requests, handling responses, and dealing with exceptions. When using Microsoft Graph Toolkit, you can focus on building your app.
-
-### Customize rendering to match your web app
-
-All Microsoft Graph Toolkit components are ready-to-use. By default, they show data using Fluent UI - the Microsoft 365 design language. Each component also exposes a template, which you can configure to show data differently.
+- **Focus on building your own web app**. Microsoft Graph Toolkit abstracts away authorizing and connecting to Microsoft Graph - the API to retrieve data stored in Microsoft 365. You don't need to worry about authorization, building web requests, handling responses, and dealing with exceptions. When using Microsoft Graph Toolkit, you can focus on building your app.
+- **Customize rendering to match your web app**. All Microsoft Graph Toolkit components are ready-to-use. By default, they show data using Fluent UI - the Microsoft 365 design language. Each component also exposes a template, which you can configure to show data differently.
 
 ## When would you use Microsoft Graph Toolkit?
 
 Microsoft Graph Toolkit is a set of web components that you can use when building web apps and extensions for Microsoft 365.
 
-### Use Microsoft Graph Toolkit in web apps
+- **Use Microsoft Graph Toolkit in web apps**. Microsoft Graph Toolkit is best suited for use in web applications. With minimal configuration, it will let people sign in to your app with their Microsoft 365 account. Using the different components, you can load data directly from Microsoft 365 increasing the value of your app.
+- **Build Microsoft 365 extensions with Microsoft Graph Toolkit**. You can also use Microsoft Graph Toolkit when building extensions for Microsoft 365, such as Teams tabs or SharePoint Framework web parts. For building these extensions, the toolkit comes with providers to use the existing authentication information exposed by Microsoft 365.
+- **Use Microsoft Graph Toolkit in any JavaScript framework**. Microsoft Graph Toolkit web components work with any JavaScript framework. If you build web apps using React, there's a specific toolkit package made for React. This package wraps toolkit's components in React components, making it easier to pass complex data into components and configure event handlers.
 
-Microsoft Graph Toolkit is best suited for use in web applications. With minimal configuration, it will let people sign in to your app with their Microsoft 365 account. Using the different components, you can load data directly from Microsoft 365 increasing the value of your app.
-
-### Build Microsoft 365 extensions with Microsoft Graph Toolkit
-
-You can also use Microsoft Graph Toolkit when building extensions for Microsoft 365, such as Teams tabs or SharePoint Framework web parts. For building these extensions, the toolkit comes with providers to use the existing authentication information exposed by Microsoft 365.
-
-### Use Microsoft Graph Toolkit in any JavaScript framework
-
-Microsoft Graph Toolkit web components work with any JavaScript framework.
-
-If you build web apps using React, there's a specific toolkit package made for React. This package wraps toolkit's components in React components, making it easier to pass complex data into components and configure event handlers.
-
-### Load Microsoft Graph Toolkit in your web app
+## Load Microsoft Graph Toolkit in your web app
 
 If you build a simple web app and don't use any bundler, you can load Microsoft Graph Toolkit directly from the CDN. To load the toolkit from the CDN, add the following code snippet to your web app:
 
