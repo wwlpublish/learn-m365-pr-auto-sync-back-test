@@ -1,5 +1,3 @@
-# Sign in your app using Microsoft Graph Toolkit login component
-
 You've familiarized yourself with the concepts of the toolkit. Now you must be ready to see how to put something together.
 Let's say you want to load any data from Microsoft 365. You'll need to sign in your application to access Microsoft Graph.
 

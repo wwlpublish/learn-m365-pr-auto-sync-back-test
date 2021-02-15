@@ -1,5 +1,3 @@
-# Exercise - Sign in your app with Microsoft Graph Toolkit login component
-
 In this unit, you'll create a web application and explore a starter project. Then you'll go ahead and use the login component of the toolkit to sign in your application to access Microsoft Graph.
 
 ## Set up the app structure for your web app
