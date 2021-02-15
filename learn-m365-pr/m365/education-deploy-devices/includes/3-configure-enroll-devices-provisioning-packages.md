@@ -109,7 +109,7 @@ This approach only works if the computer has been reset or is new and is going t
 
 1. Insert the USB drive that contains the provisioning package you want to install. Windows Setup will detect this and ask if you want to set up the device.
 
-   :::image type="content" source="../media/3-setupmsg.png" alt-text="Windows Set up confirmation message to install a provisioning package.":::
+   :::image type="content" source="../media/3-setup-msg.png" alt-text="Windows Set up confirmation message to install a provisioning package.":::
 
 1. Choose the source of the provisioning package. In this instance, select Removable Media.
 1. Now choose the provisioning package you want to apply to this device, and select Next.

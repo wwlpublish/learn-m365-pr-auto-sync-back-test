@@ -56,7 +56,7 @@ Each profile will require specific Device Management Settings.  One of the first
 
 Next, you can decide what the Setup Assistant will show to the user during the initial setup.  This is presented as a show or hide list.  If you select hide, the user won't see the option during the initial installation but can access it via the settings.
 
-:::image type="content" source="../media/5-setupassistantcustom.png" alt-text="Screenshot showing the Setup Assistance Customization options.":::
+:::image type="content" source="../media/5-setup-assistant-custom.png" alt-text="Screenshot showing the Setup Assistance Customization options.":::
 
 The following table shows all of the Setup Assistant options.
 
