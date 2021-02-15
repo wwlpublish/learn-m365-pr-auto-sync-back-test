@@ -1,5 +1,3 @@
-# Show data from Microsoft 365
-
 In this unit, we'll discover Microsoft Graph Toolkit components and learn how to show data from Microsoft 365 using the components.
 
 ## What are Microsoft Graph Toolkit components?
