@@ -2,8 +2,6 @@ As enterprises move more of their workloads to the cloud, your enterprise can no
 
 At the end of this module, you should be able to:
 
-- Explore the benefits of modern management
-- Discover Microsoft Endpoint Manager
-- Explore Microsoft Intune
-- Discover Microsoft Endpoint Configuration Manager
-- Explore Windows Autopilot
+- Explain modern device and application management concepts.
+- Explain the value of the Microsoft Endpoint Manager (MEM), including Microsoft Intune and Configuration Manager.
+- Describe how Autopilot can help streamline new device acquisition and setup.
