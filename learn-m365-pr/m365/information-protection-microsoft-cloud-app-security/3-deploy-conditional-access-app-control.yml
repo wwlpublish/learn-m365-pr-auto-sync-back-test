@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.information-protection-microsoft-cloud-app-security.3-deploy-conditional-access-app-control
+metadata:
+  title: Deploy Conditional Access App Control
+  description: Deploy Conditional Access App Control
+  ms.date: 12/17/2020
+  author: geoffallix
+  ms.author: v-gea
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Deploy Conditional Access App Control
+durationInMinutes: 7
+content: |
+  [!include[](includes/3-deploy-conditional-access-app-control.md)]
