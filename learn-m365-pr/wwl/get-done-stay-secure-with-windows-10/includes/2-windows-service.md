@@ -10,7 +10,6 @@ Feature updates are released twice a year. Because these updates are more freque
 
 - There is less disruption and effort to apply new features.
 - Users are more productive with earlier access to new Windows features.
-- The organization is and better security.
 - Users take less time to adapt to smaller changes.
 - The workload and cost impact of updating Windows is reduced.
 
