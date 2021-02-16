@@ -13,7 +13,7 @@ Microsoft 365 Workplace Analytics uses data from how people are currently workin
 
 :::image type="content" source="../media/2-workspace-analytics.png" alt-text="Workspace Analytics":::
 
-Workplace Analytics identifies collaboration patterns that may impact productivity, workforce effectiveness, and employee engagement. It has several benefits:
+Workplace Analytics identifies collaboration patterns that may impact productivity, workforce effectiveness, and employee engagement. It has several benefits: 
 
 - The data is generated from people’s actual working patterns.
 - There is no disruption or additional work required.
