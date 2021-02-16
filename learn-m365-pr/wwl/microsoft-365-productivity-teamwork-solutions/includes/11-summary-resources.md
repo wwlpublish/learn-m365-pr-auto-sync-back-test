@@ -9,7 +9,6 @@ In this module3 you have learned about:
 For more information about all of the topics discussed in this module, follow these links:
 
 - [Microsoft 365](https://www.microsoft.com/microsoft-365/products-apps-services)
-- [Microsoft Employee Engagement site](https://resources.techcommunity.microsoft.com/employee-engagement-communications/)
 - [Microsoft Stream](https://docs.microsoft.com/stream/portal-get-started)
 - [Instant Messaging with Teams](https://www.microsoft.com/microsoft-365/microsoft-teams/instant-messaging)
 - [Microsoft Teams for Online Meetings](https://www.microsoft.com/microsoft-365/microsoft-teams/online-meeting-solutions)
