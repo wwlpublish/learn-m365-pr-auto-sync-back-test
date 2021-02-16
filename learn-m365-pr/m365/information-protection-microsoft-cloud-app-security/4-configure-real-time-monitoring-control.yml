@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.information-protection-microsoft-cloud-app-security.4-configure-real-time-monitoring-control
+metadata:
+  title: Configure real-time monitoring and control across cloud apps
+  description: Configure real-time monitoring and control across cloud apps
+  ms.date: 12/17/2020
+  author: geoffallix
+  ms.author: v-gea
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Configure real-time monitoring and control across cloud apps
+durationInMinutes: 6
+content: |
+  [!include[](includes/4-configure-real-time-monitoring-control.md)]
