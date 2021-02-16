@@ -1,0 +1,57 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.information-protection-microsoft-cloud-app-security.5-knowledge-check
+metadata:
+  title: Knowledge check
+  description: Knowledge check
+  ms.date: 12/17/2020
+  author: geoffallix
+  ms.author: v-gea
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Knowledge check
+durationInMinutes: 4
+content: |
+  [!include[](includes/5-knowledge-check.md)]
+quiz:
+  title: Check your knowledge
+  questions:
+
+
+
+  - content: "Which Azure Active Directory directory role should you assign to a Cloud App Security administrator to give them the minimum required permissions?"
+    choices:
+    - content: "Security Administrator."
+      isCorrect: true
+      explanation: "That's correct. A Security Administrator has the minimum required permissions to administer Cloud App Security."
+    - content: "Global Administrator."
+      isCorrect: false
+      explanation: "That's incorrect. A Global Administrator has more than the minimum required permissions to administer Cloud App Security. "
+    - content: "Application Administrator."
+      isCorrect: false
+      explanation: "That's incorrect. An Application Administrator does not have the required permissions to administer Cloud App Security."
+
+
+  - content: "What component of Conditional Access App Control do you need to create to restrict downloads to unmanaged devices?"
+    choices:
+    - content: "A policy."
+      isCorrect: true
+      explanation: "That's correct. You control user access based on a conditional access policy."
+    - content: "A rule."
+      isCorrect: false
+      explanation: "That's incorrect. A rule is not a Conditional Access App Control component. "
+    - content: "A filter."
+      isCorrect: false
+      explanation: "That's incorrect. A filter is not a Conditional Access App Control component."
+
+
+  - content: "Which of the following identity protocols is valid to configure a cloud app for SSO so that you can use Conditional Access App Control to block the download of sensitive information?"
+    choices:
+    - content: "CHAP."
+      isCorrect: false
+      explanation: "That's incorrect. Challenge-Handshake-Authentication-Protocol (CHAP) is not supported for web apps. "
+    - content: "SAML 2.0."
+      isCorrect: true
+      explanation: "That's correct. Any web app that uses Security Assertion Markup Language (SAML) 2.0, Open ID Connect or on-premises web that apps Azure AD App Proxy is supported for Conditional Access App Control."
+    - content: "RADIUS."
+      isCorrect: false
+      explanation: "That's incorrect. Remote Authentication Dial-In User Service (RADIUS) is not supported for web apps."
