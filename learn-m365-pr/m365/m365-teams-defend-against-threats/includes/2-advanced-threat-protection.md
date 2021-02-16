@@ -1,20 +1,17 @@
->[!IMPORTANT]
->Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813). We'll be updating names in products and in the Learn content in the near future.
+As systems such as Microsoft Teams become easier to use and more flexible, the extra complexity can result in greater opportunities for malicious attacks. Microsoft continually guards against such problems by providing industry-leading security features. Microsoft 365 Defender is a sophisticated security tool you can use in Teams.
 
-As systems such as Microsoft Teams become easier to use and more flexible, the extra complexity can result in greater opportunities for malicious attacks. Microsoft continually guards against such problems by providing industry-leading security features. Advanced Threat Protection is a sophisticated security tool you can use in Teams.
+## What is Microsoft 365 Defender?
 
-## What is Advanced Threat Protection?
+Microsoft Defender is a unified platform for detecting and blocking files that have been identified as malicious. Microsoft 365 Defender protects endpoints from cyber threats, detects advanced attacks and data breaches, and automates the handling of security incidents. It's available for Microsoft Teams, and SharePoint and OneDrive, which are used by Teams for content management. Microsoft 365 Defender allows you to identify malicious content in any of these applications and block it from user access.
 
-Microsoft Advanced Threat Protection (ATP) is a unified platform for detecting and blocking files that have been identified as malicious. Microsoft Defender ATP protects endpoints from cyber threats, detects advanced attacks and data breaches, and automates the handling of security incidents. It's available for Microsoft Teams, and SharePoint and OneDrive, which are used by Teams for content management. ATP allows you to identify malicious content in any of these applications and block it from user access.
+After a problem is detected, how the content is managed depends on the settings in Microsoft 365. Microsoft recommends that you configure Microsoft 365 Defender for all applications.
 
-After a problem is detected, how the content is managed depends on the settings in Microsoft 365. Microsoft recommends that you configure ATP for all applications.
+## Microsoft Defender for Endpoint
+Microsoft Defender for Endpoint is an enterprise endpoint security platform designed to help prevent, detect, investigate, and respond to advanced threats.
 
-## Defender Advanced Threat Protection
-Microsoft Defender Advanced Threat Protection is an enterprise endpoint security platform designed to help prevent, detect, investigate, and respond to advanced threats.
+:::image type="content" border="false" source="../media/2-defender-advanced-threat-protection.png" alt-text="Microsoft Defender for Endpoint":::
 
-:::image type="content" border="false" source="../media/2-defender-advanced-threat-protection.png" alt-text="Microsoft Defender Advanced Threat Protection":::
-
-Microsoft Defender Advanced Threat Protection uses a combination of technologies:
+Microsoft Defender for Endpoint uses a combination of technologies:
 
 - **Threat and vulnerability management**. A risk-based approach that works in real time. Reduces vulnerability exposure and improves the discovery, threat detection, business prioritization, and automated compensation and remediation of endpoint threats.
 
@@ -30,15 +27,15 @@ Microsoft Defender Advanced Threat Protection uses a combination of technologies
 
 - **Management and APIs**. This feature allows you to integrate with other solutions by using Microsoft's APIs, providing full flexibility and allowing you to keep your existing security infrastructure. Use Microsoft Endpoint Manager to configure a baseline and manage the security settings of your endpoints.
 
-## Activate ATP for Teams
+## Activate Microsoft Defender for Teams
 
-ATP is available for Microsoft Teams, along with SharePoint and OneDrive, which integrate with it to manage content. ATP allows you to determine if content in these applications is malicious in nature and block it from user access.
+Microsoft Defender for Office 365 is available for Microsoft Teams, along with SharePoint and OneDrive, which integrate with it to manage content. Microsoft Defender for Office 365 allows you to determine if content in these applications is malicious in nature and block it from user access.
 
-How the affected content is managed after detection is determined by your settings in Microsoft 365. Don't consider Teams in isolation when you configure ATP. It's best practice to configure all applications together.
+How the affected content is managed after detection is determined by your settings in Microsoft 365. Don't consider Teams in isolation when you configure Microsoft Defender for Office 365. It's best practice to configure all applications together.
 
-**Safe attachments** is an ATP feature that's designed to enhance security by checking and identifying malicious attachments. Global Admins or Security Admins create policies to prevent malicious attachments from being sent to users, clicked, or acted on. Safe attachment protection is available in SharePoint, OneDrive, and Microsoft Teams. Microsoft 365 Advanced Threat Protection Plan 1 and 2 have this capability.  
+**Safe attachments** is an Microsoft Defender for Office 365 feature that's designed to enhance security by checking and identifying malicious attachments. Global Admins or Security Admins create policies to prevent malicious attachments from being sent to users, clicked, or acted on. Safe attachment protection is available in SharePoint, OneDrive, and Microsoft Teams. Microsoft Defender for Endpoint Plan 1 and 2 have this capability.  
 
 ## Learn more
-- [ATP for SharePoint, OneDrive, and Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams?view=o365-worldwide)
+- [Microsoft Defender for SharePoint, OneDrive, and Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams?view=o365-worldwide)
 - [Safe Attachments](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide)
-- [Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)
+- [Microsoft Defender for Endpoint](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)

@@ -20,9 +20,9 @@ quiz:
     - content: Conditional Access
       isCorrect: false
       explanation: "Conditional Access isn't designed to prevent the accidental sharing of sensitive information."
-    - content: Advanced Threat Protection
+    - content: Microsoft Defender for Office 365
       isCorrect: false
-      explanation: "Advanced Threat Protection monitors suspicious activity. It doesn't prevent the accidental sharing of sensitive information."
+      explanation: "Microsoft Defender for Office 365 monitors suspicious activity. It doesn't prevent the accidental sharing of sensitive information."
     - content: Data loss prevention
       isCorrect: true
       explanation: "Data loss prevention policies prevent the accidental sharing of sensitive information."      

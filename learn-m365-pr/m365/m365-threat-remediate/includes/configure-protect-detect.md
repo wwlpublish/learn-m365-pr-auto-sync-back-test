@@ -1,11 +1,8 @@
->[!IMPORTANT]
->Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813). We'll be updating names in products and in the Learn content in the near future.
-
-With Office 365 ATP, your organization's security team can configure protection by defining policies in the Security and Compliance Center. The policies that are defined for your organization determine the behavior and protection level for predefined threats. Policy options are extremely flexible. For example, your organization's security team can set fine-grained threat protection at the user, organization, recipient, and domain level. It is important to review your policies regularly because new threats and challenges emerge daily.
+With Microsoft Defender for Office 365, your organization's security team can configure protection by defining policies in the Security and Compliance Center. The policies that are defined for your organization determine the behavior and protection level for predefined threats. Policy options are extremely flexible. For example, your organization's security team can set fine-grained threat protection at the user, organization, recipient, and domain level. It is important to review your policies regularly because new threats and challenges emerge daily.
 
 ## Safe Attachments
 
-ATP Safe Attachments protects against unknown malware and viruses, and provides zero-day protection to safeguard your messaging system. All messages and attachments that don't have a known virus/malware signature are routed to a special environment where ATP uses a variety of machine learning and analysis techniques to detect malicious intent. If no suspicious activity is detected, the message is released for delivery to the mailbox.
+Microsoft Defender for Office 365 Safe Attachments protects against unknown malware and viruses, and provides zero-day protection to safeguard your messaging system. All messages and attachments that don't have a known virus/malware signature are routed to a special environment where Microsoft Defender for Office 365 uses a variety of machine learning and analysis techniques to detect malicious intent. If no suspicious activity is detected, the message is released for delivery to the mailbox.
 
 When creating a Safe Attachments policy, the following options can be selected:
  
@@ -29,7 +26,7 @@ Sometimes it is useful to allow mail to flow without delay from internal senders
 
 ## Safe Links
 
-The ATP Safe Links feature proactively protects your users from malicious URLs in a message or in an Office document. The protection remains every time they select the link, as malicious links are dynamically blocked while good links can be accessed.
+The Microsoft Defender for Office 365 Safe Links feature proactively protects your users from malicious URLs in a message or in an Office document. The protection remains every time they select the link, as malicious links are dynamically blocked while good links can be accessed.
 
 Safe Links is available for URLs in the following apps:
 
@@ -40,7 +37,7 @@ Safe Links is available for URLs in the following apps:
 
 Safe links is both client and location agnostic, in that the location and device being used by the end user will not affect the behavior of wrapped links. Additionally, Safe links can be configured to support links in Office 2016 clients where the user is signed in with their Office 365 credential.
 
-Safe links includes a default policy that controls global settings such as which links to block and which links to wrap. You can’t delete this policy, but you can edit it in your environment as needed, such as blocking a malicious link specific to your environment. It is recommended that you apply ATP safe links policies to ALL users in your organization.
+Safe links includes a default policy that controls global settings such as which links to block and which links to wrap. You can’t delete this policy, but you can edit it in your environment as needed, such as blocking a malicious link specific to your environment. It is recommended that you apply Microsoft Defender for Office 365 safe links policies to ALL users in your organization.
 
 The following options can be configured as part of the Safe Links policy:
 
@@ -57,14 +54,14 @@ Similar to bypassing safe attachments, you can also create a transport rule to b
 
 ## Anti-phishing policies
 
-ATP anti-phishing checks incoming messages for indicators that a message might be a phishing attempt. When users are covered by ATP policies (Safe Attachments, Safe Links, or anti-phishing), incoming messages are evaluated by multiple machine learning models that analyze messages. The appropriate action is taken, based on the configured policies. 
+Microsoft Defender for Office 365 anti-phishing checks incoming messages for indicators that a message might be a phishing attempt. When users are covered by Microsoft Defender for Office 365 policies (Safe Attachments, Safe Links, or anti-phishing), incoming messages are evaluated by multiple machine learning models that analyze messages. The appropriate action is taken, based on the configured policies. 
 
-There is no default ATP anti-phishing policy. When creating one, only targeting is originally configured. Impersonation settings play a large role in ATP anti-phishing policies. Impersonation is where the sender or the sender's email domain in a message looks very similar to a real sender or domain:
+There is no default Microsoft Defender for Office 365 anti-phishing policy. When creating one, only targeting is originally configured. Impersonation settings play a large role in Microsoft Defender for Office 365 anti-phishing policies. Impersonation is where the sender or the sender's email domain in a message looks very similar to a real sender or domain:
 
 - An example impersonation of the domain contoso.com is ćóntoso.com.
 - An example impersonation of the user michelle@contoso.com is michele@contoso.com.
 
-An impersonated domain might otherwise be considered legitimate (registered domain, configured email authentication records, etc.), except its intent is to deceive recipients. In the ATP anti-phishing policy, you can configure a set of users to protect, domains to protect, actions for protected users (such as redirect messages or sending to junk folders), safety tips, trusted senders and domains and more. These settings are exclusive to ATP anti-phishing. Anti-spoofing settings are also included in ATP anti-phishing policies.
+An impersonated domain might otherwise be considered legitimate (registered domain, configured email authentication records, etc.), except its intent is to deceive recipients. In the Microsoft Defender for Office 365 anti-phishing policy, you can configure a set of users to protect, domains to protect, actions for protected users (such as redirect messages or sending to junk folders), safety tips, trusted senders and domains and more. These settings are exclusive to Microsoft Defender for Office 365 anti-phishing. Anti-spoofing settings are also included in Microsoft Defender for Office 365 anti-phishing policies.
 
 ![Anti-phishing policy](../media/anti-phishing-policy.png)
 

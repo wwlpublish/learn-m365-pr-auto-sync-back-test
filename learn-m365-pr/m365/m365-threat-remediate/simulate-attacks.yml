@@ -3,7 +3,7 @@ uid: learn-m365.m365-threat-remediate.simulate-attacks
 title: Simulate attacks
 metadata:
   title: Simulate attacks
-  description: Learn how Office 365 ATP can help train your defenders with threat simulations.
+  description: Learn how Microsoft Defender for Office 365 can help train your defenders with threat simulations.
   ms.date: 06/25/2020
   author: AlexandraHrt
   ms.author: elizapo

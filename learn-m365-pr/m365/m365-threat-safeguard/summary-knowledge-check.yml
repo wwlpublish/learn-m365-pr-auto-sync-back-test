@@ -3,7 +3,7 @@ uid: learn-m365.m365-threat-safeguard.summary-knowledge-check
 title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
-  description: Learn about the Azure Advanced Threat Protection component of Microsoft Threat Protection. 
+  description: Learn about the Microsoft Defender for Identity component of Microsoft 365 Defender. 
   ms.date: 06/24/2020
   author: AlexandraHrt
   ms.author: elizapo
@@ -15,36 +15,36 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Azure ATP requires an on-premises Active Directory environment."
+    - content: "Microsoft Defender for Identity requires an on-premises Active Directory environment."
       choices:
       - content: "True"
         isCorrect: true
-        explanation: "Correct! Azure ATP is a cloud-based security solution that leverages your on-premises Active Directory."
+        explanation: "Correct! Microsoft Defender for Identity is a cloud-based security solution that leverages your on-premises Active Directory."
       - content: "False"
         isCorrect: false
-        explanation: "Incorrect. Azure ATP is a cloud-based security solution that leverages your on-premises Active Directory."
+        explanation: "Incorrect. Microsoft Defender for Identity is a cloud-based security solution that leverages your on-premises Active Directory."
 
-    - content: "Which of the following describes advanced threats Azure ATP detects along the cyber-attack kill-chain?"
+    - content: "Which of the following describes advanced threats Microsoft Defender for Identity detects along the cyber-attack kill-chain?"
       choices:
       - content: "Reconnaissance "
         isCorrect: true
-        explanation: "Correct! Azure ATP can identify rogue users and attackers' attempts to gain information such as usernames, users' group membership, IP addresses assigned to devices, resources, and more, using a variety of methods."
+        explanation: "Correct! Microsoft Defender for Identity can identify rogue users and attackers' attempts to gain information such as usernames, users' group membership, IP addresses assigned to devices, resources, and more, using a variety of methods."
       - content: "Vertical movements"
         isCorrect: false
-        explanation: "Incorrect. Azure ATP detects reconnaissance, compromised credentials, lateral movements, and domain dominance threats."
+        explanation: "Incorrect. Microsoft Defender for Identity detects reconnaissance, compromised credentials, lateral movements, and domain dominance threats."
       - content: "Bitcoin mining"
         isCorrect: false
-        explanation: "Incorrect. Azure ATP detects reconnaissance, compromised credentials, lateral movements, and domain dominance threats."
+        explanation: "Incorrect. Microsoft Defender for Identity detects reconnaissance, compromised credentials, lateral movements, and domain dominance threats."
       
-    - content: "Which of the following is **not** a supported integration for Azure ATP?"
+    - content: "Which of the following is **not** a supported integration for Azure Microsoft Defender for Office 365?"
       choices:
-      - content: "Microsoft Defender ATP"
+      - content: "Microsoft Defender for Endpoint"
         isCorrect: false
-        explanation: "Incorrect. Azure ATP supports integration with Microsoft Defender ATP and Microsoft Cloud App Security."
+        explanation: "Incorrect. Microsoft Defender for Identity supports integration with Microsoft Defender for Endpoint and Microsoft Cloud App Security."
       - content: "Microsoft Cloud App Security"
         isCorrect: false
-        explanation: "Incorrect. Azure ATP supports integration with Microsoft Defender ATP and Microsoft Cloud App Security."
+        explanation: "Incorrect. Microsoft Defender for Identity supports integration with Microsoft Defender for Endpoint and Microsoft Cloud App Security."
       - content: "Intune"
         isCorrect: true
-        explanation: "Correct! Currently, there is no supported integration with Azure ATP and Microsoft Intune."
+        explanation: "Correct! Currently, there is no supported integration with Microsoft Defender for Identity and Microsoft Intune."
       
