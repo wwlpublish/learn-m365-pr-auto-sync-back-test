@@ -60,7 +60,7 @@ Power BI Premium, allows users to act on content in workspaces that are assigned
 
 A standard Power BI subscription uses shared capacity. If the content is stored in shared capacity, users who are assigned a Power BI Pro license can collaborate only with other Power BI Pro users. They can consume content shared by other users, publish content to app workspaces, share dashboards, and subscribe to dashboards and reports. When workspaces are in Premium capacity, Pro users may distribute content to users who don't have a Power BI Pro license.
 
-The table below summarizes the basic capabilities of each license type ;
+The table below summarizes the basic capabilities of each license type:
 
 | License type    | Not in Premium capacity                                                                                | Premium capacity |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
