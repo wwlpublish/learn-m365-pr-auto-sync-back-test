@@ -1,4 +1,4 @@
-Microsoft offers free trials for many of different services, and you can sign-up for a free 30-day Microsoft 365 Business Premium subscription at the links below. Your free trial includes up to 25 users. Experience how Microsoft 365 empowers employees to create their best work, simplifies business processes, and helps protect users, data, and customer information.
+Microsoft offers free trials for many different services, and you can sign-up for a free 30-day Microsoft 365 Business Premium subscription at the links below. Your free trial includes up to 25 users. Experience how Microsoft 365 empowers employees to create their best work, simplifies business processes, and helps protect users, data, and customer information.
 
 - [Signup for a free trial of Microsoft 365 Business Premium](https://go.microsoft.com/fwlink/p/?LinkID=2102309&clcid=0x409&cultures&country=US)
 
@@ -31,3 +31,20 @@ After you have acquired your free trial, explore the Microsoft 365 and Azure Act
 Checkout the video below to see the Microsoft 365 admin center in action.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWfvDL]
+
+#### Exercise 4: Explore the Microsoft Teams admin center
+1. Expand the **Admin centers** and then select the **Teams** admin center.
+2. In the Teams admin center, the dashboard shows cards for recent activity, helpful links, user searches, and more.
+3. Use the navigation pane on the left to manage settings for **Teams**, **Users**, **Meetings**, **Locations**, and more.
+4. Select **Teams** from the navigation pane to configure settings for features such as email integration, cloud storage options, organization tab, meeting room device setup, and search scope. When you make changes to these settings, they apply to all the teams in your organization.
+5. The Teams admin center lets admins configure **policies** for Teams, including **Meeting policies**, **Messaging policies**, **Update policies**, as well as create **Policy packages**. 
+    - **Policies** are used across the Microsoft Teams service to ensure the experience end-users receive conforms to the needs of the organization.
+    - A **policy package** is a collection of predefined policies and settings.
+    - **Meeting policies** control the features that are available to participants in meetings.
+    - **Messaging policies** control which chat and channel messaging features are available to users.
+6. Under **Org-wide settings**, administrators can configure global settings for **External access** and **Guest access**.
+
+    - **External access**, formerly known as federation, lets Teams and Skype for Business users communicate with users who are outside of your organization.
+    - **Guest access** lets individuals outside your organization access teams and channels.
+
+7. Explore the additional parts of the **Teams admin center** like the **Call quality dashboard**, **Analytics &amp; reports**, and **Voice** to explore the additional capabilities of Microsoft Teams.

@@ -4,11 +4,11 @@ Knowing the health status of Microsoft 365 services used by an organization is c
 
 Your organization’s administrators can use the Microsoft 365 admin center to view the current health status of your Microsoft 365 services and tenant, and information about outages or disruptions to services. This makes it possible to quickly check the health status of services to find out whether you’re dealing with a known issue that has a resolution that is being implemented without having to spend time troubleshooting or calling support.
 
-Your administrator’s can use the service health page of the Microsoft 365 admin center to view the health status of each service:
+Your administrators can use the service health page of the Microsoft 365 admin center to view the health status of each service:
 
 :::image type="content" source="../media/3-service-health.png" alt-text="Screenshot of the service health page, showing all services":::
 
-Your administrators can also report an issue if organization has experiencing service issues. Administrators can also view specific details about service issues to understand what kind of impact an issue is having on the service and the current status of the issue:
+Your administrators can report an issue if the organization is experiencing service issues, as well as view specific details about service issues to understand what kind of impact an issue may be having on the service:
 
 :::image type="content" source="../media/3-service-health-advisories.png" alt-text="Screnshot showing the service health, advisories page":::
 
