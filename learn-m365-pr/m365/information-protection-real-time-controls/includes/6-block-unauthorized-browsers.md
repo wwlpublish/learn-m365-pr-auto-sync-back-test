@@ -15,7 +15,7 @@ To create a policy to block unauthorized browsers from accessing corporate web a
     b.  Add a **Client app** filter and select **Browser**.
     c.  Add a **User agent string** filter and select **does not contain** and then the user agent string of the approved browser.
 
-        :::image type="content" source="../media/6-edit-access-policy.png" alt-text="User agent string":::
+    :::image type="content" source="../media/6-edit-access-policy.png" alt-text="User agent string":::
 
 5. Select **Block** and add a message for users that are blocked.
 
