@@ -11,7 +11,7 @@ To connect Phone System to the PSTN, you can choose one of the following options
 
 Phone System with Calling Plan is Microsoft's all-in-the-cloud solution that provides Private Branch Exchange (PBX) functionality and calls to the Public Switched Telephone Network (PSTN), as shown in the following diagram. With this solution, Microsoft is your PSTN carrier.
 
-:::image type="content” source="../media/2-phone-system-calling-plan-with-pstn.png " alt-text="Phone System with Calling Plan.":::
+:::image type="content" source="../media/2-phone-system-calling-plan-with-pstn.png" alt-text="Phone System with Calling plan.":::
 
 Phone System with Calling Plan might be the right solution for you if you can answer yes to the following questions:
 
@@ -108,7 +108,7 @@ Depending on your requirements you might need:
 
 :::image type="content" source="../media/2-additional-considerations.png " alt-text="Phone System Additional Considerations":::
 
-|     Depending on your requirements               |     Description                                                                                                                                                                                                                                                                                                                                                                |
+|     Depending on your requirements               |     Description                                                                                                                                             |
 |--------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |     Phone numbers from Microsoft                 |     How to get and manage phone numbers from Microsoft, and how to   transfer existing numbers to Microsoft. Read this if you need to obtain phone numbers for Microsoft Calling Plan, transfer existing numbers, obtain service   numbers, and so on.                                                                                                                       |
 |     Dial plans and call routing                  |     How to configure and manage dial plans that translate dialed phone   numbers into an alternate format (typically E.164 format) for call  authorization and call routing. Read this if you need to understand what dial   plans are and whether you need to specify dial plans for your organization.                                                                      |
