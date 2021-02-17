@@ -12,6 +12,6 @@ There are three types of reports:
 
 You can use the pre-built dashboard to show cross-product usage. The dashboard also allows you to get more detail from several pre-built reports, and you can create custom reports.
 
-You can also use Power BI with Microsoft 365 usage analytics to get more insight into how your organization is working. For more information, see [Enable Microsoft 365 usage analytics](https://docs.microsoft.com/microsoft-365/admin/usage-analytics/enable-usage-analytics?view=o365-worldwide).
+You can also use Power BI with Microsoft 365 usage analytics to get more insight into how your organization is working. For more information, see [Enable Microsoft 365 usage analytics](https://docs.microsoft.com/microsoft-365/admin/usage-analytics/enable-usage-analytics).
 
 The Microsoft 365 admin center also gives you access to open separate admin centers for specific services, such as Exchange, Yammer, and others. To access the admin center, go to [admin.microsoft.com](https://admin.microsoft.com/) and sign in with your admin account. Alternatively, you can access the Microsoft 365 admin mobile app.
