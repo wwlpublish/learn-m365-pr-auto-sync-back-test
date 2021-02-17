@@ -6,7 +6,7 @@ Microsoft 365 empowers users with the latest innovation across new and familiar 
 
 |Capability|Description|
 |-|-|
-|Productivity and Teamwork|Includes instant messaging and online meetings with Microsoft Teams, email and calendaring with Outlook, familiar Office apps on all devices, advanced file storage and sharing with OneDrive for Business, intranet and team sites, and enterprise social networks with Yammer. |
+|Productivity and Teamwork|Includes instant messaging and online meetings with Microsoft Teams, email and calendaring with Outlook, familiar Office apps on all devices, advanced file storage and sharing with OneDrive, intranet and team sites, and enterprise social networks with Yammer. |
 |Business Management|Includes simplified IT management with Microsoft Endpoint Manager, business process automation, extensibility with Teams and Power Platform, business voice and phone system with Teams, Forms and workflow management, business intelligence with Workplace Analytics, and work management with Project Online. | 
 |Security and Compliance|Includes solutions for identity and access management, information protection and governance, threat protection, security management, insider risk management, compliance management, and eDiscovery.| 
 

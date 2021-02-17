@@ -24,4 +24,4 @@ Initially, information barriers apply to Microsoft Teams chats and channels only
 - Sharing a screen
 - Placing a call
 
-If the people involved are included in an information barrier policy to prevent the activity, they won't be able to proceed. For more information, see [Information Barriers in Microsoft Teams](https://docs.microsoft.com/microsoftteams/information-barriers-in-teams).
+If the people involved are included in an information barrier policy to prevent the activity, they won't be able to proceed. For more information, see [Information barriers in Microsoft Teams](https://docs.microsoft.com/microsoftteams/information-barriers-in-teams).
