@@ -19,10 +19,10 @@ In this module, you have learned how to:
 ## Learn more
 
 
-* [Microsoft Defender for Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide)
+* [Microsoft Defender for Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)
 * [Microsoft Defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
-* [Overview of the Microsoft 365 security center](https://docs.microsoft.com/microsoft-365/security/mtp/overview-security-center?view=o365-worldwide)
-* [Microsoft Secure Score](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score?view=o365-worldwide)
+* [Overview of the Microsoft 365 security center](https://docs.microsoft.com/microsoft-365/security/mtp/overview-security-center)
+* [Microsoft Secure Score](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score)
 * [What is Microsoft Defender for Identity?](https://docs.microsoft.com/defender-for-identity/what-is)
 * [Microsoft Cloud App Security](https://www.microsoft.com/microsoft-365/enterprise-mobility-security/cloud-app-security)
 * [Microsoft Graph Security API overview](https://docs.microsoft.com/graph/security-concept-overview)
