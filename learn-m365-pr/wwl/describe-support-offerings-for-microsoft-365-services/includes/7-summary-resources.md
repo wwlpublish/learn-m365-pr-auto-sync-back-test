@@ -2,10 +2,11 @@ You’ve learned how your organization can get support with Microsoft 365 servic
 
 Now that you’ve reviewed this module, you should be able to:
 
-- Describe how your organization can get support with service issues
-- Explain what a Service Level Agreement is
-- Describe how service health status can be checked for services
-- Explain feedback is provided through UserVoice
+- Describe support offerings for Microsoft 365 services.
+- Describe how to create a support request for Microsoft 365 services.
+- Describe service level agreements (SLAs) concepts, use cases for SLAs, SLA tiers, roles, and responsibilities.
+- Determine service health status by using the Microsoft 365 dashboard or the tenant dashboard.
+- Describe how organizations can communicate with Microsoft by using UserVoice.
 
 **Learn more**
 

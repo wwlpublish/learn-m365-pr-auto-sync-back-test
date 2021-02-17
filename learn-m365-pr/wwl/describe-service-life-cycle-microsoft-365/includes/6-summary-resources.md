@@ -1,8 +1,8 @@
 Now that you've reviewed this module, you can:
 
-- Describe the private preview, public preview, and general availability phases of a product lifecycle
-- Describe the support implications of the lifecycle policy
-- Describe the Microsoft 365 Roadmap
+- Describe the service lifecycle in Microsoft 365.
+- Describe private, public preview, and General Availability (GA) options.
+- Describe use cases and capabilities for the Microsoft 365 Roadmap portal.
 
 ## Learn more
 

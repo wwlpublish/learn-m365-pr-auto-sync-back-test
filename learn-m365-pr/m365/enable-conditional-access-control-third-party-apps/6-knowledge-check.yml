@@ -1,0 +1,53 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.enable-conditional-access-app-control-third-party-apps.6-knowledge-check
+metadata:
+  title: Knowledge check
+  description: Knowledge check
+  ms.date: 02/04/2021
+  author: alistairmatthews
+  ms.author: v-alimat
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Knowledge check
+durationInMinutes: 4
+content: |
+  [!include[](includes/6-knowledge-check.md)]
+quiz:
+  title: Check your knowledge
+  questions:
+
+  - content: "An administrator is attempting to create Conditional Access App Control policies for a cloud app in Microsoft Cloud App Security. The identity provider is not Azure AD. To which standard from the following list should the identity provider conform in order to enable the administrator to continue with the plan to create the required policies?"
+    choices:
+    - content: "NTLM."
+      isCorrect: false
+      explanation: " That's incorrect. NTLM is an older local area network, on-premises authentication protocol."
+    - content: "SAML 2.0."
+      isCorrect: true
+      explanation: "That's correct. In addition to SAML 2.0, identity providers can also support OpenID Connect."
+    - content: "Kerberos."
+      isCorrect: false
+      explanation: "That's incorrect. Kerberos is an on-premises authentication protocol used in AD DS."
+
+  - content: "An administrator is planning to create a session policy to control access to a Workplace from Facebook. In which of the following portals should the administrator perform the step of creating a conditional access policy?"
+    choices:
+    - content: "Cloud App Security."
+      isCorrect: false
+      explanation: " That's incorrect. You use the Cloud App Security portal to create the Conditional Access App Control policy."
+    - content: " Azure Active Directory admin center."
+      isCorrect: true
+      explanation: "That's correct. You use this portal to create the conditional access policy, and to configure most other settings that relate to configuring Conditional Access App Control policies."
+    - content: "Workplace from Facebook."
+      isCorrect: false
+      explanation: "That's incorrect. You use this portal to configure some of the SSO settings."
+
+  - content: "An administrator is configuring the final stages of Conditional Access App Control for Slack. They have added the app, assigned users, configured SSO, and created the conditional access policy. The administrator wants to block access to non-compliant devices to Slack. They create an access policy. In an access policy, by default, which of these options is unselected?"
+    choices:
+    - content: "Valid client certificate."
+      isCorrect: true
+      explanation: " That's correct. By default, Valid client certificate is unselected."
+    - content: "Hybrid Azure AD joined."
+      isCorrect: false
+      explanation: "That's incorrect. This requirement is selected."
+    - content: "Intune compliant."
+      isCorrect: false
+      explanation: "That's incorrect. This requirement is selected."
