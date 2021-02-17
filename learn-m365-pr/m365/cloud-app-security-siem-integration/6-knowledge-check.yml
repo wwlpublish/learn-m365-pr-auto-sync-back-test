@@ -1,0 +1,67 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.mcas-siem-integration.6-knowledge-check
+metadata:
+  title: Knowledge check
+  description: Knowledge check
+  ms.date: 02/04/2021
+  author: geoffallix
+  ms.author: v-gea
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Knowledge check
+durationInMinutes: 4
+content: |
+  [!include[](includes/6-knowledge-check.md)]
+quiz:
+  title: Check your knowledge
+  questions:
+
+  - content: "What level of logs and alerts can Microsoft Cloud App Security send to Azure Sentinel?" 
+    choices: 
+    - content: "Microsoft Cloud App Security can send all logs and alerts to Azure Sentinel." 
+      isCorrect: true 
+      explanation: "That's correct. Microsoft Cloud App Security can send all logs and alerts to Azure Sentinel. " 
+    - content: "Critical logs and alerts." 
+      isCorrect: false 
+      explanation: "That's incorrect. Logs and alerts can be filtered, but this is optional."
+    - content: "No logs or alerts." 
+      isCorrect: false 
+      explanation: "That's incorrect. Microsoft Cloud App Security can send logs and alerts to Azure Sentinel."
+
+
+  - content: "How does Azure Sentinel gather additional information about an alert?" 
+    choices: 
+    - content: "Azure Sentinel playbooks can call APIs to gather additional information about an alert."
+      isCorrect: true 
+      explanation: "That's correct. Azure Sentinel playbooks can call APIs to gather additional information about an alert." 
+    - content: "Azure Sentinel Playbooks are automatically fed high priority alert data." 
+      isCorrect: false 
+      explanation: "That's incorrect. Azure Sentinel Playbooks are not automatically fed high priority alert data. " 
+    - content: "Alerts create log files that Azure Sentinel can read." 
+      isCorrect: false 
+      explanation: "That's incorrect. Alerts do not typically create log files."
+
+  - content: "How does Azure Sentinel automate the triage of infrequent country requests?" 
+    choices: 
+    - content: "Azure Active Directory automatically triggers Azure Sentinel when infrequent country requests occur and provides all user information to Azure Sentinel." 
+      isCorrect: false 
+      explanation: "That's incorrect. Azure Active Directory does not  automatically trigger Azure Sentinel when infrequent country requests occur."
+    - content: "Azure Sentinel is triggered by Microsoft Cloud App Security and makes API calls to gather additional information." 
+      isCorrect: true 
+      explanation: "That's correct. Azure Sentinel is triggered by Microsoft Cloud App Security and makes API calls to gather additional information." 
+    - content: "Microsoft Cloud App Security is triggered by Azure Sentinel and makes API calls to gather additional information." 
+      isCorrect: false 
+      explanation: "That's incorrect. Microsoft Cloud App Security does not make API calls to gather additional information." 
+
+
+  - content: "What operating system can the syslog server run to connect Microsoft Cloud App Security to a 3rd party SIEM solution?" 
+    choices: 
+    - content: "Windows only." 
+      isCorrect: false 
+      explanation: "That's incorrect. Syslog servers are not required to only run Windows."
+    - content: "Linux only." 
+      isCorrect: false 
+      explanation: "That's incorrect. Syslog servers are not required to only run Linux." 
+    - content: "Windows or Linux." 
+      isCorrect: true 
+      explanation: "That's correct. Syslog servers are required to run either Windows or Linux."

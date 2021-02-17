@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.information-protection-real-time-controls.3-implement-information-protection-policies
+metadata:
+  title: Implement information protection policies with Microsoft Cloud App Security
+  description: Implement information protection policies with Microsoft Cloud App Security
+  ms.date: 02/02/2021
+  author: geoffallix
+  ms.author: v-gea
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Implement information protection policies with Microsoft Cloud App Security
+durationInMinutes: 1
+content: |
+  [!include[](includes/3-implement-information-protection-policies.md)]

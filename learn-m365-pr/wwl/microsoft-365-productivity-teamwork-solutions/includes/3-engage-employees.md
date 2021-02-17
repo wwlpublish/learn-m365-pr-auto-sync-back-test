@@ -28,6 +28,4 @@ Communicate effectively using SharePoint, Yammer, and Teams to react to what you
 
 Find out more about [Microsoft Stream](https://docs.microsoft.com/stream/portal-get-started) for your company videos.
 
-Visit the [Microsoft Employee Engagement site](https://resources.techcommunity.microsoft.com/employee-engagement-communications/) for ideas, case studies, and resources about how companies are using Microsoft 365 to improve employee engagement.
-
 Also watch the video from [Microsoft's Employee Engagement Summit](https://www.youtube.com/watch?v=Q8rFd6mueJw). The video includes interviews from six major companies, including Microsoft, and is rich in ideas about employee engagement ideas that really work.

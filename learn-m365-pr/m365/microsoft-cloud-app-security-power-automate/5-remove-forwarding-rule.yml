@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.mcas-power-automate.5-remove-forwarding-rule
+metadata:
+  title: Remove a malicious inbox forwarding rule using Power Automate
+  description: Learn to remove a malicious inbox forwarding rule using Power Automate
+  ms.date: 01/30/2021
+  author: geoffallix
+  ms.author: v-gea
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Remove a malicious inbox forwarding rule using Power Automate
+durationInMinutes: 8
+content: |
+  [!include[](includes/5-remove-forwarding-rule.md)]

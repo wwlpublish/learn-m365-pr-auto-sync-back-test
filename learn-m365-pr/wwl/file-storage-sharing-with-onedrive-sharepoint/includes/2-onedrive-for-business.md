@@ -1,6 +1,6 @@
-## OneDrive for Business
+## OneDrive
 
-OneDrive for Business is a cloud- based service that enables you to store and protect files, share files with others, access files from anywhere using an app or web-browser, and restore all files to a previous date and time. You can easily and securely store and access your files from all your devices. You can work with others regardless of whether they're inside or outside your organization and terminate that sharing whenever you want. OneDrive helps protect your work through advanced encryption while the data is in transit and at rest in data centers.
+OneDrive is a cloud- based service that enables you to store and protect files, share files with others, access files from anywhere using an app or web-browser, and restore all files to a previous date and time. You can easily and securely store and access your files from all your devices. You can work with others regardless of whether they're inside or outside your organization and terminate that sharing whenever you want. OneDrive helps protect your work through advanced encryption while the data is in transit and at rest in data centers.
 
 ## Why deploy OneDrive
 
@@ -22,7 +22,7 @@ The features listed in this section address common customer concerns or specific
 - **Real-time team collaboration.** Coauthoring in full versions of Microsoft Word, Excel, and PowerPoint.
 - **OneDrive files restore.** Enables users to restore files to any point over the past 30 days. To select the desired recovery time, OneDrive presents users with a histogram that shows file activity so they can determine which recovered time meets their needs. From there, users just select the file history entry to which they want to restore, and all changes after that point will be rolled back.
 - **Recycle bin**. A recycle bin similar to the one available on the Windows desktop. Deleted files are moved to the recycle bin and kept for a designated time before being permanently deleted. For work or school accounts, deleted files are purged after 93 days unless configured otherwise.
-- **Auditing and reporting.** Detailed reporting and auditing capabilities for files OneDrive stores, as well as for files stored through other services, such as Microsoft SharePoint Online. You can also audit individual file actions, including downloads, renames, and views.
+- **Auditing and reporting.** Detailed reporting and auditing capabilities for files OneDrive stores, as well as for files stored through other services, such as Microsoft SharePoint. You can also audit individual file actions, including downloads, renames, and views.
 - **Encryption of data in transit and at rest.** OneDrive uses advanced data encryption methods between your client and the data center, between servers in the data center, and at rest. At rest, OneDrive uses disk encryption through BitLocker Drive Encryption and file encryption to secure your data. Each file is encrypted with its own encryption key; anything larger than 64 KB is split into individual chunks, each of which has its own encryption key locked in a key store.
 - **Customer-controlled encryption keys.** By using an Office 365 feature called service encryption with Customer Key, you can upload your own encryption keys to Azure Key Vault. Use these keys for encrypting your data at rest in Azure data centers. Even though this encryption is done natively through BitLocker, customers might require the use of their own key to meet security compliance requirements. Should users lose their key, they can retrieve a deleted key from the recycle bin for up to 90 days (based on your configuration).
 - **Microsoft 365 Customer Lockbox.** If a Microsoft support engineer needs to access your data to resolve an issue, they must obtain approval from a Microsoft manager first. The Office 365 Customer Lockbox feature adds a requirement to that process: you must approve or reject that access before the support engineer can access your data. With Customer Lockbox, you also set boundaries on how long the engineer can access your data, and all activity during that time is logged for auditing purposes.
@@ -58,7 +58,7 @@ A variety of factors can impact the amount of network bandwidth used by OneDrive
 
 ### Multi-Geo
 
-If you have data residency requirements, consider OneDrive Multi-Geo. With OneDrive Multi-Geo, you can specify a preferred data location (PDL), from available locations around the world, for each user's OneDrive. For detailed information about OneDrive Multi-Geo, see [Multi-Geo Capabilities in OneDrive and SharePoint Online in Microsoft 365](https://docs.microsoft.com/office365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365/).
+If you have data residency requirements, consider OneDrive Multi-Geo. With OneDrive Multi-Geo, you can specify a preferred data location (PDL), from available locations around the world, for each user's OneDrive. For detailed information about OneDrive Multi-Geo, see [Multi-Geo Capabilities in OneDrive and SharePoint in Microsoft 365](https://docs.microsoft.com/office365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365/).
 
 Users who have started using OneDrive, either before or after you configure OneDrive Multi-Geo, are supported.
 
