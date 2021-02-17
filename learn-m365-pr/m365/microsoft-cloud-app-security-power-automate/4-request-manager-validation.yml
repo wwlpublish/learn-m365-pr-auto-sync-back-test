@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.mcas-power-automate.4-request-manager-validation
+metadata:
+  title: Request manager validation for Microsoft Cloud App Security alerts
+  description: Learn to request manager validation for Microsoft Cloud App Security alerts
+  ms.date: 02/04/2021
+  author: geoffallix
+  ms.author: v-gea
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Request manager validation for Microsoft Cloud App Security alerts
+durationInMinutes: 8
+content: |
+  [!include[](includes/4-request-manager-validation.md)]

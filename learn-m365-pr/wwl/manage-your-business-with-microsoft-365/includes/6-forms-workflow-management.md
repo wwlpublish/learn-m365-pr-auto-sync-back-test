@@ -25,7 +25,7 @@ Bookings has three primary components:
 - A web-based, business-facing page where Bookings calendar owners and administrators within an organization can define appointment types and details, manage staff schedules and availability, set business hours, and customize how appointments are scheduled. 
 - A business-facing mobile app where Bookings calendar owners and administrators can see all of their appointments, access customer lists and contact information, and make manual bookings on the go.
 
-By leveraging the power of Microsoft Bookings can provide you with:
+Microsoft Bookings can provide you with:
 
 - Improved convenience for customers – Online appointment scheduling gives customers the freedom to find a timeslot that suits them, and to reschedule if needed.
 - Improved buffer time between appointments – When scheduling back-to-back appointments for your staff, you can now build in any required pre or post activities.
