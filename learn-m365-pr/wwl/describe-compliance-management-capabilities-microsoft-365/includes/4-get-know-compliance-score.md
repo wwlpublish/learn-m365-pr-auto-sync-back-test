@@ -28,7 +28,7 @@ Compliance Score uses several components to help you manage your compliance acti
   - **Customer-Managed Controls** - This is the collection of controls that are managed by your organization. Your organization is responsible for customer-managed control implementation as part of your compliance process for a given standard or regulation. Customer-managed controls are organized into control families for the corresponding certification or regulation. Use the customer-managed controls to implement the recommended actions suggested by Microsoft as part of your compliance activities. 
 
 - **Assessments** - An assessment is an evaluation of a template that initiates the scoring process for your organization. Assessments group the actions necessary to meet the requirements of a standard, regulation, or law. For example, you may have an assessment that, when you complete all actions within it, brings your Office 365 settings in line with ISO 27001 requirements.
-  Compliance Score provides your organization with an initial assessment based on the Microsoft 365 data protection baseline. This assessment is a recommendation for reducing your data protection and compliance risks ([learn more](https://docs.microsoft.com/microsoft-365/compliance/compliance-score-methodology?view=o365-worldwide#initial-score-based-on-microsoft-365-data-protection-baseline)).
+  Compliance Score provides your organization with an initial assessment based on the Microsoft 365 data protection baseline. This assessment is a recommendation for reducing your data protection and compliance risks ([learn more](https://docs.microsoft.com/microsoft-365/compliance/compliance-score-methodology#initial-score-based-on-microsoft-365-data-protection-baseline)).
 
   Assessments have several components:
 
@@ -36,7 +36,7 @@ Compliance Score uses several components to help you manage your compliance acti
   - **Microsoft-managed controls**: controls that Microsoft implemented and tested
   - **Customer-managed controls**: controls that you manage
   - **Assessment score**: the percentage of the points achieved by completing actions within that assessment
-    Compliance Score becomes more powerful once you add assessments that are more relevant to your organization. For example, if your organization belongs to the financial services industry, you may want to add the FFIEC assessment. Learn how to [add assessments in Compliance Manager](https://docs.microsoft.com/microsoft-365/compliance/working-with-compliance-manager?view=o365-worldwide#assessments).
+    Compliance Score becomes more powerful once you add assessments that are more relevant to your organization. For example, if your organization belongs to the financial services industry, you may want to add the FFIEC assessment. Learn how to [add assessments in Compliance Manager](https://docs.microsoft.com/microsoft-365/compliance/working-with-compliance-manager#assessments).
 
   > [!NOTE]
   > During public preview you will be directed to Compliance Manager to manage your assessments.
@@ -78,7 +78,7 @@ Compliance Score shares the same backend with Compliance Manager, so any data yo
 
 Some functionality remains solely in Compliance Manager during public preview, such as managing assessments and creating templates. We recommend beginning all of your compliance management activities in Compliance Score. When you come to functions handled by Compliance Manager, you'll be guided to that tool.
 
-To learn more, visit [Microsoft Compliance Manager](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-overview?view=o365-worldwide)
+To learn more, visit [Microsoft Compliance Manager](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-overview)
 
 ## Walkthrough
 
