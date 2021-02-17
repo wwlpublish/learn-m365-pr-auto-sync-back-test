@@ -32,7 +32,7 @@ Once you have the Azure AD foundation in order, you can begin enacting the princ
 
 First principle--*verify explicitly*--provide Azure AD with a rich set of credentials and controls that it can use to verify users:
 
-- Roll out Azure multi-factor authentication (MFA).
+- Roll out Azure Active Directory Multi-Factor Authentication.
 - Enable Azure AD Hybrid Join or Azure AD Join.
 - Enable Microsoft Intune for managing users mobile devices (EMS).
 - Start rolling out passwordless credentials.
@@ -55,7 +55,7 @@ Third principle--*assume breach*--consider configuring the following tools to pr
 - Integrate Microsoft Defender for Identity with Microsoft Cloud App Security.
 - Enable Microsoft Defender for Endpoint.
 
-Within your organization, consider creating a Conditional Access policy requiring Azure multi-factor authentication for administrators for quick wins in your journey towards Zero Trust. To create a Conditional Access policy:
+Within your organization, consider creating a Conditional Access policy requiring Azure Active Directory Multi-Factor Authentication for administrators for quick wins in your journey towards Zero Trust. To create a Conditional Access policy:
 
 1. Within Azure AD, create a new Conditional Access policy with Directory roles targeted. 
 2. If your organization has a “break-glass” global administrator account, remember to add the account to the **Exclude** section. In the following screenshot, the global administrator role is selected. Consider also adding these roles:

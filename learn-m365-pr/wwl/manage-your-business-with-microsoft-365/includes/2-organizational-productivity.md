@@ -17,7 +17,7 @@ Workplace Analytics will supply you with AI based insights that create actionabl
 
 ## Benefits of using Workplace Analytics
 
-Using Workplace Analytics in your organization can provide you with:
+Using Workplace Analytics in your organization can provide context to data, helping to:
 
 - Address wasteful collaboration and meeting cultures.
 - Enhance process efficiency and effectiveness

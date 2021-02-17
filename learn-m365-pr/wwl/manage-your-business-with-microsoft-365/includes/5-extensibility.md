@@ -25,11 +25,12 @@ Office add-ins provide several options for how your solution can interact with a
 
 ## Task pane add-ins
 
-Task pane add-ins allow user interaction through a panel displayed within an Office application. Through the task pane interface, you can enable the user to modify documents or emails, view data from a data source, and more. In the following image, the task pane is the panel that's displayed to the right of the document.
+Task pane add-ins allow user interaction through a panel displayed within an Office application. Through the task pane interface, you can enable the user to modify documents or emails, view data from a data source, and more.
 
 ## Content add-ins
 
-Content add-ins can be used to insert an object into an Excel spreadsheet or PowerPoint presentation. That object can be a web-based data visualization, media, or other external content. In the following image, the content add-in is displayed near the center of the document.
+Content add-ins can be used to insert an object into an Excel spreadsheet or PowerPoint presentation. That object can be a web-based data visualization, media, or other external content.
+
 The Office add-ins platform enables you to display a dialog for your users to:
 
 - Sign into an integrated service, for example, authenticate with Microsoft Account, Google, or Facebook.

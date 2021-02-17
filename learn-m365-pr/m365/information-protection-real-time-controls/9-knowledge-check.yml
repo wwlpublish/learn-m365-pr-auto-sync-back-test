@@ -1,0 +1,110 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.information-protection-real-time-controls.9-knowledge-check
+metadata:
+  title: Knowledge check
+  description: Knowledge check
+  ms.date: 02/02/2021
+  author: geoffallix
+  ms.author: v-gea
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Knowledge check
+durationInMinutes: 7
+content: |
+  [!include[](includes/9-knowledge-check.md)]
+quiz:
+  title: Check your knowledge
+  questions:
+
+
+  - content: "What additional configuration is necessary once you have connected GitHub before you create Microsoft Cloud App Security Policies?" 
+    choices:
+    - content: "You must encrypt the GitHub API." 
+      isCorrect: false 
+      explanation: "That's incorrect. An API cannot be encrypted. " 
+    - content: "You must host the GitHub service in Microsoft Azure." 
+      isCorrect: false 
+      explanation: "That's incorrect. It is not possible to host he GitHub service in Microsoft Azure."
+    - content: "No additional steps are necessary." 
+      isCorrect: true 
+      explanation: "That's correct. Once a connection is made, you can create Cloud App Security policies."
+
+
+  - content: "How often do Microsoft Cloud App Security file policies scan files?" 
+    choices: 
+    - content: "Continually." 
+      isCorrect: true 
+      explanation: "That's correct. Microsoft Cloud App Security file policies scan files continually. " 
+    - content: "Daily." 
+      isCorrect: false 
+      explanation: "That's incorrect. Microsoft Cloud App Security file policies do not scan files daily." 
+    - content: "Weekly."
+      isCorrect: false 
+      explanation: "That's incorrect. Microsoft Cloud App Security file policies do not scan files weekly."
+
+
+  - content: "What is the most straightforward way to create a malware detection policy in Microsoft Cloud App Security?" 
+    choices: 
+    - content: "A malware detection policy already exists but must be enabled." 
+      isCorrect: true 
+      explanation: "That's correct. A malware detection policy already exists but must be enabled. " 
+    - content: "You must create a new policy with a Malware type." 
+      isCorrect: false 
+      explanation: "That's incorrect. You do not need to create a new policy." 
+    - content: " A malware detection policy already exists and is already enabled."
+      isCorrect: false 
+      explanation: "That's incorrect. There is not a malware detection policy enabled by default."
+
+
+  - content: "To effectively configure read-only mode for external users what is the minimum number of policies that you should create?" 
+    choices: 
+    - content: "1." 
+      isCorrect: false 
+      explanation: "That's incorrect. One policy would not restrict external users enough. " 
+    - content: "2." 
+      isCorrect: true 
+      explanation: "That's correct. To apply read-only mode, you must create a policy to block downloads and another policy to block cutting, copying or printing."
+    - content: "3." 
+      isCorrect: false 
+      explanation: "That's incorrect. You do not need as many as three policies."
+
+
+  - content: "How can TOR browsers be blocked from accessing corporate resources from any device?" 
+    choices: 
+    - content: "Create a policy that blocks the dark web." 
+      isCorrect: false 
+      explanation: "That's incorrect. It is not possible to create a policy that blocks the dark web. " 
+    - content: "By creating a policy with a user agent string that filters out all browser requests not matching an approved browser." 
+      isCorrect: true 
+      explanation: "That's correct. You can create a policy with a user agent string that filters out all browser requests not matching an approved browser."
+    - content: "Block installation of TOR browsers." 
+      isCorrect: false 
+      explanation: "That's incorrect. If you blocked installation of TOR browsers it would not affect personally-owned devices."
+
+
+
+  - content: "What happens when a file is quarantined?" 
+    choices: 
+    - content: "It is deleted." 
+      isCorrect: false 
+      explanation: "That's incorrect. Files that are quarantined are not deleted." 
+    - content: "It depends on the file storage solution."
+      isCorrect: true 
+      explanation: "That's correct. The available actions that can be performed on quarantined files depend on the file storage solution."
+    - content: "It is scanned by anti-virus software." 
+      isCorrect: false 
+      explanation: "That's incorrect. Quarantined files are not scanned by anti-virus software."
+
+
+
+  - content: "What happens to Azure Information Protection classification labels when a file is shared outside of your organization?" 
+    choices: 
+    - content: "The classification labels are retained if the file is exported." 
+      isCorrect: true 
+      explanation: "That's correct. The classification labels are retained if the file is exported." 
+    - content: "The classification labels are altered to notes."
+      isCorrect: false 
+      explanation: "That's incorrect. The classification labels are not altered."
+    - content: "The classification labels are deleted." 
+      isCorrect: false 
+      explanation: "That's incorrect. The classification labels are not deleted."
