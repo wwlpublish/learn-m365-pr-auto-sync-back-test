@@ -31,4 +31,4 @@ Workplace Analytics provides decision makers with a powerful tool to identify op
 
 ## Learn more
 
-[Introducing Workplace Analytics](https://docs.microsoft.com/en-us/workplace-analytics/index-orig?azure-portal=true)
+[Introducing Workplace Analytics](https://docs.microsoft.com/workplace-analytics/index-orig?azure-portal=true)
