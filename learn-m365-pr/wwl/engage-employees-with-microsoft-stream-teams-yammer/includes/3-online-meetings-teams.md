@@ -14,9 +14,9 @@ Microsoft Teams is designed to help you have more productive meetings. Microsoft
 - **Record and publish with Microsoft Stream**: Users can record meetings and publish them to Microsoft Stream for archiving and wider usage.
 - **Automatic transcription of videos**: Microsoft Teams can automatically transcript your recorded meetings through artificial intelligence-powered translation.
 - **Live events**: Microsoft Teams works with Microsoft Stream to enable your users to easily organize live events for thousands of attendees:<br />:::image type="content" source="../media/3-live-events.png" alt-text="Live Events":::
-    - **Real-time captions**: Microsoft Teams can detect what's said in a meeting and present real-time captions with speaker attribution.
-        > [!NOTE]
-        > Captions are only available in English (US) at this time.
+- **Real-time captions**: Microsoft Teams can detect what's said in a meeting and present real-time captions with speaker attribution.
+    > [!NOTE]
+    > Captions are only available in English (US) at this time.
 
 ## Manage meetings through Microsoft Teams
 
