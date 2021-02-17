@@ -12,7 +12,7 @@ Workplace Analytics users can analyze and explore the data in multiple ways:
 
 The figure below shows how these outputs can be used to create executive presentations and business intelligence tools to drive transformational outcomes.
 
-[!div class="centered"]
+> [!div class="centered"]
 > ![The flow of data](../media/data-flowpath.png)
 
 ## Workplace Analytics data sources
