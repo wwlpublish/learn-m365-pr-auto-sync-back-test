@@ -34,8 +34,7 @@ Workplace Analytics joins the organizational data to the collaboration data to g
 
 After the Workplace Analytics data sources are processed, the data is pseudonymized and filtered, creating a large library of behavioral base metrics related to workplace behaviors, time use, and networks. 
 
-> [!div class="centered"]
-> ![Data to metrics](../media/data-metrics.png)
+![Data to metrics](../media/data-to-metrics.png)
 
 The Home page provides a high-level look at Workplace Analytics metrics for nine themed business outcomes aimed at giving leaders visibility into how work gets done.
 
