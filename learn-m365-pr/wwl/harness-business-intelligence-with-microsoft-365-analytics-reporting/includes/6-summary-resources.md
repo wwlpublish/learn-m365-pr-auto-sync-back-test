@@ -14,6 +14,6 @@ For more information about all of the topics discussed in this module, have a lo
 
 - [Workplace Analytics](https://www.microsoft.com/microsoft-365/business/workplace-analytics)
 - [MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page)
-- [About the Microsoft 365 admin center](https://docs.microsoft.com/microsoft-365/admin/admin-overview/about-the-admin-center?view=o365-worldwide)
-- [Reports in the Security & Compliance center](https://docs.microsoft.com/microsoft-365/compliance/reports-in-security-and-compliance?view=o365-worldwide)
-- [Microsoft 365 Reports in the admin center](https://docs.microsoft.com/microsoft-365/admin/activity-reports/activity-reports?view=o365-worldwide)
+- [About the Microsoft 365 admin center](https://docs.microsoft.com/microsoft-365/admin/admin-overview/about-the-admin-center)
+- [Reports in the Security & Compliance center](https://docs.microsoft.com/microsoft-365/compliance/reports-in-security-and-compliance)
+- [Microsoft 365 Reports in the admin center](https://docs.microsoft.com/microsoft-365/admin/activity-reports/activity-reports)

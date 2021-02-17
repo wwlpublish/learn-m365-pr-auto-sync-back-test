@@ -60,4 +60,4 @@ Find out more here:
 - [MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page)
 - [MyAnalytics dashboard](https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard-2)
 - [Setting MyAnalytics goals](https://docs.microsoft.com/workplace-analytics/myanalytics/use/mya-adoption/indiv-adopt-set-goals)
-- [Steps to enable Microsoft 365 usage analytics](https://docs.microsoft.com/microsoft-365/admin/usage-analytics/enable-usage-analytics?view=o365-worldwide)
+- [Steps to enable Microsoft 365 usage analytics](https://docs.microsoft.com/microsoft-365/admin/usage-analytics/enable-usage-analytics)

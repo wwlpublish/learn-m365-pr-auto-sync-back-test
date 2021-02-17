@@ -18,14 +18,14 @@ Watch the video below about how to act on Microsoft 365 usage reports, allowing 
 
 Now that you’ve practiced with the click-through guide, get more details about the reports available from the Microsoft 365 admin center:
 
-- [Microsoft 365 Reports in the admin center](https://docs.microsoft.com/microsoft-365/admin/activity-reports/activity-reports?view=o365-worldwide)
-- [Microsoft 365 admin center help](https://docs.microsoft.com/microsoft-365/admin/?view=o365-worldwide)
+- [Microsoft 365 Reports in the admin center](https://docs.microsoft.com/microsoft-365/admin/activity-reports/activity-reports)
+- [Microsoft 365 admin center help](https://docs.microsoft.com/microsoft-365/admin/)
 
 For more information, see:
 
-- [Specialist admin centers](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-worldwide#what-about-the-specific-types-of-it-roles-and-other-workspaces-like-security-device-management-or-exchange)
-- [Reports in the Security & Compliance Center](https://docs.microsoft.com/microsoft-365/security/office-365-security/reports-and-insights-in-security-and-compliance?view=o365-worldwide)
-- [SharePoint admin center reports](https://docs.microsoft.com/microsoft-365/admin/activity-reports/sharepoint-site-usage?view=o365-worldwide)
-- [Teams admin center reports](https://docs.microsoft.com/microsoft-365/admin/activity-reports/microsoft-teams-user-activity?view=o365-worldwide)
-- [Exchange email activity](https://docs.microsoft.com/microsoft-365/admin/activity-reports/email-activity?view=o365-worldwide)
+- [Specialist admin centers](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview#what-about-the-specific-types-of-it-roles-and-other-workspaces-like-security-device-management-or-exchange)
+- [Reports in the Security & Compliance Center](https://docs.microsoft.com/microsoft-365/security/office-365-security/reports-and-insights-in-security-and-compliance)
+- [SharePoint admin center reports](https://docs.microsoft.com/microsoft-365/admin/activity-reports/sharepoint-site-usage)
+- [Teams admin center reports](https://docs.microsoft.com/microsoft-365/admin/activity-reports/microsoft-teams-user-activity)
+- [Exchange email activity](https://docs.microsoft.com/microsoft-365/admin/activity-reports/email-activity)
 - [Intune reports](https://docs.microsoft.com/mem/intune/fundamentals/reports)
