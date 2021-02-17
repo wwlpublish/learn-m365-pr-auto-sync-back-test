@@ -9,19 +9,19 @@ The Microsoft 365 compliance center home page shows you, at a glance, how your o
 
 The default Microsoft compliance center view is likely to contain, but is not limited to, these cards:
 
-- The **Microsoft Compliance Score** card, takes you to the new [Compliance Score](https://docs.microsoft.com/microsoft-365/compliance/compliance-score?view=o365-worldwide) solution. It calculates a risk-based score that measures your progress toward completing recommended actions that help reduce risks around data protection and regulatory standards. It also provides workflow capabilities and built-in control mapping to help you efficiently carry out those actions.
+- The **Microsoft Compliance Score** card, takes you to the new [Compliance Score](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager#understanding-your-compliance-score) solution. It calculates a risk-based score that measures your progress toward completing recommended actions that help reduce risks around data protection and regulatory standards. It also provides workflow capabilities and built-in control mapping to help you efficiently carry out those actions.
   
    :::image type="content" source="../media/3-compliance-score-card-v3.png" alt-text="Screenshot showing the Compliance Score card":::
 
-- The new **Solution catalog** card, links to collections of [integrated solutions](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-solution-catalog?view=o365-worldwide) you can use to help you manage end-to-end compliance scenarios. A solution's capabilities and tools might include a combination of policies, alerts, reports, and more.
+- The new **Solution catalog** card, links to collections of [integrated solutions](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-solution-catalog) you can use to help you manage end-to-end compliance scenarios. A solution's capabilities and tools might include a combination of policies, alerts, reports, and more.
 
    :::image type="content" source="../media/3-compliance-solutions-card-v3.png" alt-text="Screenshot showing the compliance solutions card":::
 
-- The **Active alerts** card, includes a summary of the most [active alerts](https://docs.microsoft.com/microsoft-365/compliance/alert-policies?view=o365-worldwide) and includes a link where you can view more detailed information, such as Severity, Status, Category, and more.
+- The **Active alerts** card, includes a summary of the most [active alerts](https://docs.microsoft.com/microsoft-365/compliance/alert-policies) and includes a link where you can view more detailed information, such as Severity, Status, Category, and more.
 
    :::image type="content" source="../media/3-active-alerts-v3.png" alt-text="Screenshot showing sample active alerts":::
 
-In addition the cards on the home page, you'll see a navigation pane on the left side of the screen that gives you easy access to your [alerts](https://docs.microsoft.com/microsoft-365/security/office-365-security/alerts?view=o365-worldwide), [reports](https://docs.microsoft.com/microsoft-365/compliance/reports-in-security-and-compliance?view=o365-worldwide), [policies](https://docs.microsoft.com/microsoft-365/compliance/alert-policies?view=o365-worldwide), compliance solutions, and more. To add or remove options for a customized navigation pane, you can use the **Customize navigation** control on the navigation pane to configure which items appear in the navigation pane.
+In addition the cards on the home page, you'll see a navigation pane on the left side of the screen that gives you easy access to your [alerts](https://docs.microsoft.com/microsoft-365/security/office-365-security/alerts), [reports](https://docs.microsoft.com/microsoft-365/compliance/reports-in-security-and-compliance), [policies](https://docs.microsoft.com/microsoft-365/compliance/alert-policies), compliance solutions, and more. To add or remove options for a customized navigation pane, you can use the **Customize navigation** control on the navigation pane to configure which items appear in the navigation pane.
 
 :::image type="content" source="../media/3-compliance-center.png" alt-text="Screenshot showing the compliance center home page":::
 
