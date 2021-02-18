@@ -1,0 +1,36 @@
+### YamlMime:Module
+uid: learn-m365.msgraph-intro-overview
+metadata:
+  title: What is Microsoft Graph?
+  description: Learn about Microsoft Graph.
+  ms.date: 02/17/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: What is Microsoft Graph?
+summary: Learn about Microsoft Graph.
+abstract: |
+  At the end of this module, you should be able to:
+  - Learn about what Microsoft Graph is and how it can be used
+  - Understand the benefits Graph offers
+  - Use the Graph Explorer to retrieve organizational data
+prerequisites: |
+  - Access to a Microsoft 365 tenant
+  - Basic knowledge of REST services and APIs
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- developer
+products:
+- m365
+- ms-graph
+units:
+- learn-m365.msgraph-intro-overview.1-introduction
+- learn-m365.msgraph-intro-overview.2-what-is-microsoft-graph
+- learn-m365.msgraph-intro-overview.3-microsoft-graph-services
+- learn-m365.msgraph-intro-overview.4-access-user-information
+- learn-m365.msgraph-intro-overview.5-summary
+badge:
+  uid: learn-m365.msgraph-intro-overview.badge
