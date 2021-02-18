@@ -1,0 +1,50 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msgraph-intro-overview.5-summary
+metadata:
+  title: Summary
+  description: This unit summarizes what you learned in this module.
+  ms.date: 02/17/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Summary
+durationInMinutes: 1
+content: |
+  [!include[](includes/5-summary.md)]
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Question 1?"
+      choices:
+      - content: "Choice A."
+        isCorrect: false
+        explanation: "Explanation A."
+      - content: "Choice B."
+        isCorrect: true
+        explanation: "Explanation B."
+      - content: "Choice B."
+        isCorrect: false
+        explanation: "Explanation C."
+    - content: "Question 2?"
+      choices:
+      - content: "Choice A."
+        isCorrect: false
+        explanation: "Explanation A."
+      - content: "Choice B."
+        isCorrect: true
+        explanation: "Explanation B."
+      - content: "Choice B."
+        isCorrect: false
+        explanation: "Explanation C."
+    - content: "Question 3?"
+      choices:
+      - content: "Choice A."
+        isCorrect: false
+        explanation: "Explanation A."
+      - content: "Choice B."
+        isCorrect: true
+        explanation: "Explanation B."
+      - content: "Choice B."
+        isCorrect: false
+        explanation: "Explanation C."
