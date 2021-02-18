@@ -16,7 +16,7 @@ Suppose you would like to show upcoming calendar events for signed-in user in yo
 <mgt-agenda></mgt-agenda>
 ```
 
-:::image type="content" source="../media/05-mgt-agenda.png" alt-text="Microsoft Graph Toolkit Agenda":::
+:::image type="content" source="../media/05-agenda.png" alt-text="Microsoft Graph Toolkit Agenda":::
 
 ### Scenario 2: Show tasks from planner
 
@@ -26,7 +26,7 @@ Let's say you would like to build a web page to show user's tasks. You can use *
 <mgt-tasks></mgt-tasks>
 ```
 
-:::image type="content" source="../media/05-mgt-tasks.png" alt-text="Microsoft Graph Toolkit Tasks":::
+:::image type="content" source="../media/05-tasks.png" alt-text="Microsoft Graph Toolkit Tasks":::
 
 ### Scenario 3: Integrate people search
 
@@ -44,6 +44,6 @@ You can process the results by using attributes available for `mgt-people-picker
 <mgt-people-picker show-max="3"></mgt-people-picker>
 ```
 
-:::image type="content" source="../media/05-mgt-peoplepicker-showmax.png" alt-text="Microsoft Graph Toolkit People Picker show-max attribute":::
+:::image type="content" source="../media/05-peoplepicker-showmax.png" alt-text="Microsoft Graph Toolkit People Picker show-max attribute":::
 
 In summary, all components in Microsoft Graph Toolkit share the same structure. They work with Providers to handle the authentication, get data using Microsoft Graph APIs and show the results with pre-built UI.
