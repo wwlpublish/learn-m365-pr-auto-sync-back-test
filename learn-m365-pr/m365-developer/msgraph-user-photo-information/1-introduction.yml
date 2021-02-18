@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msgraph-user-photo-information.1-introduction
+metadata:
+  title: Introduction
+  description: This unit introduces you to the module and explains what you'll learn.
+  ms.date: 02/17/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Introduction
+durationInMinutes: 1
+content: |
+  [!include[](includes/1-introduction.md)]
