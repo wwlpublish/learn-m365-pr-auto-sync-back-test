@@ -1,4 +1,4 @@
-Workplace Analytics provides users with multiple ways to customize analysis.
+You can customize analysis a multiple of ways with Workplace Analytics.
 
 ## Workplace Analytics Analyze page
 
@@ -6,18 +6,18 @@ In addition to the business outcomes and associated insights on the Home page, t
 
 ### Analyze > Peer analysis
 
-The **Peer analysis** feature in Workplace Analytics provides a way to compare the collaboration behaviors of two different groups. This can be useful to understand how two teams in the same function work differently, or how the work-life activities differ across the organization.
+The **Peer analysis** feature in Workplace Analytics provides a way to compare the collaboration behaviors of two different groups. This can help you understand how two teams in the same function work differently, or how the work-life activities differ across the organization.
 
-There are four steps to complete to create a new peer analysis. To begin, go to **Analyze > Peer analysis** and select **New analysis**.
+There are four steps to creating peer analysis. To begin, go to **Analyze > Peer analysis** and select **New analysis**.
 
 1. Choose your **Reference group**. Provide a name and desired date range, name the reference group, and select employees to include by uploading a .csv file with email addresses or applying desired filters using attributes from the organizational data.
 1. Choose your **Other group**. This is your comparison group. Name this group and select employees to include by uploading a .csv file with email addresses or applying desired filters using attributes from the organizational data.
-1. Apply **Conditions** (optional). Use filters to specify the attributes that should be similar when comparing groups. For example, to compare managers in the "Reference group" to managers in the "Other group", add a conditional filter to include only managers in the output.
-1. **Submit**. you can access your results in the **Peer analysis** page. Select the **View** (eye) icon to see the output.
+1. Apply **Conditions** (optional). Use filters to specify the attributes that should be similar when comparing groups. For example, to compare managers in the "Reference group" to managers in the "Other group," add a conditional filter to include only managers in the output.
+1. **Submit**. You can access your results in the **Peer analysis** page. Select the **View** (eye) icon to see the output.
 
 ![New Peer analysis](../media/peer-new-analysis.png)
 
-**Peer analysis** output includes the date range, a **Highlights** section with differences int eh three most variant metrics between groups, and charts comparing raw averages for multiple metrics.
+**Peer analysis** output includes the date range, a **Highlights** section with differences in the three most variant metrics between groups, and charts that compare raw averages for multiple metrics.
 
 ### Peer analysis example scenario
 
@@ -45,7 +45,7 @@ Queries report the same underlying data, but the type of query determines the st
 There are multiple steps to run a query.
 
 1. Select the query you’d like to run.
-1. In the **Description** field, enter the name of your query. 
+1. In the **Description** field, enter the name of your query.
 1. (Optional) Adjust the granularity of the timeframe (day, week, or month) and the date range.
 1. (Optional) Select a set of rules excluding irrelevant calendar activity (meeting and attendee exclusions).
 
@@ -67,7 +67,7 @@ After you’ve made these selections, do the following to further refine the dat
 
 **Step 4. Run the query**.
 
-You can access your query results on the **Queries > Results** page. You can choose to view your results or all results in your organization. This page is where you can download the data in a csv format, copy the OData link to load the data into business intelligence applications, and for some queries, visualize the results directly within Workplace Analytics.
+You can access your query results on the **Queries > Results** page. You can choose to view your results or all results in your organization. This page is where you can download the data in a .csv format, copy the OData link to load the data into business intelligence applications, and for some queries, visualize the results directly within Workplace Analytics.
 
 ![Step 4 is run the query](../media/step-4-run-query.png)
 
@@ -79,17 +79,17 @@ You also have the option of selecting from a list of queries with preselected fi
 
 ## Workplace Analytics Plans
 
-You gain a lot of information from the insights, Peer analysis and Queries about how employees in your organization get work done. With Workplace Analytics Plans, you can transform these insights into actions.
+You gain a lot of information from the insights, Peer analysis, and Queries about how employees in your organization get work done. With Workplace Analytics Plans, you can transform these insights into actions.
 
-Enrollment in a Plan requires that an employee has access to MyAnalytics. A Plan combines team goal-setting and tracking with useful nudges in MyAnalytics to shift ways of working.
+Enrollment in a Plan requires that an employee has access to MyAnalytics. A Plan combines team goal setting and tracking with useful suggestions in MyAnalytics to shift ways of working.
 
 ![Plans page](../media/plans-page.png)
 
 Microsoft currently offers the following plans:
 
-- **Focus plan**. Helps participants get more time to do deep dive work and reclaim their calendar for work that matters most.
+- **Focus plan**. Helps participants get more time to do deep-dive work and reclaim their calendar for work that matters most.
 - **Collaboration plan**. Helps participants reduce the number of excessive meetings that the group schedules.
-- **Wellbeing plan**. Helps participants unwind and protect their personal time by disconnecting in their off-hours.
+- **Wellbeing plan**. Helps participants unwind and protect their personal time by disconnecting outside of work.
 - **Seller success plan**. Helps participants prioritize time, increase network quality and size, and connect with the right roles.
 
 ![Available plans](../media/available-plans.png)
@@ -120,7 +120,7 @@ You open the **Sources** page and look at the collaboration data over time for t
 
 ## Exclusions
 
-Not all scheduled meetings are business-related. People often have personal appointments and block out time on their calendar. When doing analysis in Workplace Analytics, there also may be excessively long or large meetings you don’t want to include, or attendees who haven't responded or have responded as "tentative."
+Not all scheduled meetings are business-related. People often have personal appointments and block out time on their calendar. When doing analysis in Workplace Analytics, you might want to exclude excessively long or large meetings, or attendees who haven't responded or have responded as "tentative."
 
 Workplace Analytics has a built-in solution to address these issues called **Exclusions**. Analysts can use meeting or attendee exclusions to create specific rules for which meetings or attendees to include while adding each rule to a dropdown list of rules for specific analyses.
 
@@ -135,7 +135,7 @@ With meeting exclusions, you can:
 
 ![Meeting exclusions](../media/meeting-exclusions.png)
 
-Workplace Analytics has a default meeting exclusion rule which excludes meetings with only one attendee, meetings longer than eight hours, meetings with 250 or more participants, and canceled meetings. This rule is used if no other meeting exclusion is selected.
+Workplace Analytics has a default meeting exclusion rule that excludes meetings with only one attendee, meetings longer than eight hours, meetings with 250 or more participants, and canceled meetings. This rule is used if no other meeting exclusion is selected.
 
 With attendee exclusions, you can:
 

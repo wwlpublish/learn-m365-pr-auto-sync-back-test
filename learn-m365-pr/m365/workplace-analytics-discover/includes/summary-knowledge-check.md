@@ -6,7 +6,7 @@ With Workplace Analytics features, you can:
 - Analyze insights using the Home page, Explore the stats, and Plans.
 - Compare metrics between groups using the Peer analysis feature.
 - Run queries using existing and custom filtered metrics to extract data for tailored analysis.
-- Select targeted change plans to improve focus, collaboration, well-being, and seller success.
+- Select targeted change plans to improve focus, collaboration, wellbeing, and seller success.
 - Use Settings to validate uploaded data, identify dates for analysis and define which meetings, if any, to exclude.
 
 Privacy is key. Workplace Analytics looks at header level metadata. Attachments and text in the body of email and meetings are never used by Workplace Analytics. Furthermore, rights-managed, confidential, and private email and meetings are excluded altogether.

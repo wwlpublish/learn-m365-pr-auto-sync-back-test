@@ -22,10 +22,10 @@ The nine available business outcomes are:
 - **Develop effective managers**. Investigate how managers collaborate to improve employee engagement, development, and performance.
 - **Enhance operational effectiveness**. Improve collaboration habits to transform organizational productivity.
 - **Accelerate change**. Leverage influential groups to drive change in your organization.
-- **Transform meeting culture**. Explore and optimize meeting habits to reduce collaboration overload and promote well-being.
+- **Transform meeting culture**. Explore and optimize meeting habits to reduce collaboration overload and promote wellbeing.
 - **Increase customer focus**. Target behaviors that engage employees and prioritize customer relationships.
 
-Click into any of the business outcomes and you'll see each contains high-level analysis for key leading indicators. The following example is a glimpse into the **Develop effective managers** outcome.
+Click any of the business outcomes and you'll see each contains high-level analysis for key leading indicators. The following example is a glimpse into the **Develop effective managers** outcome.
 
 ![Develop effective managers outcome](../media/develop-managers.png)
 
@@ -62,7 +62,7 @@ Within the Explore the stats dashboards, you have the option to filter the data.
 
 As an executive on the HR team, you've just received word that according to a recent engagement survey, some employees at Contoso are not feeling empowered in their work. You decide to dive deeper into Workplace Analytics metrics related to manager-employee relationships and investigate opportunities to improve manager effectiveness.
 
-In **Develop effective managers > Promote coaching and development > See your insights**, you select **Explore the stats** to view the **Management and coaching** dashboard. You would like a recent snapshot of the data, so in the upper right corner of the dashboard, you confirm the date range in **Settings and filters** is set to the last three months, group by Organization, and click **Apply**. In the **Meeting hours with direct manager present** bar chart, you notice that over half of the Sales group's meeting time is spent with their manager present, indicating an opportunity to simultaneously empower employees through delegation and free up manager time for strategic tasks.
+In **Develop effective managers > Promote coaching and development > See your insights**, you select **Explore the stats** to view the **Management and coaching** dashboard. You would like a recent snapshot of the data, so in the upper right corner of the dashboard, you confirm the date range in **Settings and filters** is set to the last three months, group by **Organization**, and click **Apply**. In the **Meeting hours with direct manager present** bar chart, you notice that over half of the Sales group's meeting time is spent with their manager present, indicating an opportunity to simultaneously empower employees through delegation and free up manager time for strategic tasks.
 
 ![Co-attendance scenario](../media/co-attendance-scenario.png)
 
