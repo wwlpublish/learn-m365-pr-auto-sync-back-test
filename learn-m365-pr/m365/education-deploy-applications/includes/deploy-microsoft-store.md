@@ -18,7 +18,7 @@ Before you sign up for Microsoft Store for Education, you'll need an Azure Activ
 - Admins need Azure AD accounts to sign up for Store for Business and Education, and then to sign in, get apps, distribute apps, and manage app licenses. You can sign up for Azure AD accounts as part of signing up for Store for Business and Education.
 - Employees need Azure AD account when they access Store for Business content from Windows devices.
 - If you use a management tool to distribute and manage online-licensed apps, all employees will need an Azure AD account
-- For offline-licensed apps, Azure AD accounts are not required for employees.
+- For offline-licensed apps, Azure AD accounts aren't required for employees.
 Admins can add or remove user accounts in the Microsoft 365 admin center, even if you don’t have an Office 365 subscription. You can access the Office 365 admin portal directly from the Store for Business and Education.
 
 ### Software

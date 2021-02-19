@@ -64,7 +64,7 @@ Free apps are made available for purchase directly from the portal. However, the
 
 ### View app details
 
-Apps appear in the app list, under **iOS Apps**. Select the app to view its:
+Apps appear in the app list, under **iOS Apps**. Select the app to view:
 
 - **Overview**: Lists app name, publisher, and date you added it to Intune. Also lists the number of licenses available to assign.
 - **Groups**: Lists all groups that are assigned the app. Change group assignments here or go to the details page for a specific group.
