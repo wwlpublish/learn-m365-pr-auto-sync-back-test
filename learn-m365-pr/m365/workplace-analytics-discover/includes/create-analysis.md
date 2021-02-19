@@ -15,7 +15,7 @@ There are four steps to creating peer analysis. To begin, go to **Analyze > Peer
 1. Apply **Conditions** (optional). Use filters to specify the attributes that should be similar when comparing groups. For example, to compare managers in the "Reference group" to managers in the "Other group," add a conditional filter to include only managers in the output.
 1. **Submit**. You can access your results in the **Peer analysis** page. Select the **View** (eye) icon to see the output.
 
-![New Peer analysis](../media/peer-new-analysis.png)
+![New Peer analysis](../media/new-peer-analysis.png)
 
 **Peer analysis** output includes the date range, a **Highlights** section with differences in the three most variant metrics between groups, and charts that compare raw averages for multiple metrics.
 
