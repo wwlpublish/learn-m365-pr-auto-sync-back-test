@@ -1,0 +1,36 @@
+### YamlMime:Module
+uid: learn.windows.manage-windows-updates
+metadata:
+  title: Manage Windows updates in the cloud
+  description: Learn about how to manage updates for your devices.
+  ms.date: 04/02/2020
+  author: v-iankens
+  ms.author: v-iankens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-windows
+title: Manage Windows updates in the cloud
+summary: In this module you'll learn about how to manage updates for your devices.
+abstract: |
+  By the end of this module you will be able to:
+  - Describe the tools you can use to update Windows devices
+  - Manage quality, feature, and driver updates for Windows devices
+  - Manage the post-deployment experience for updates
+prerequisites: None
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+- mem-intune
+units:
+- learn.windows.manage-windows-updates.1-introduction
+- learn.windows.manage-windows-updates.2-get-updates-windows-devices
+- learn.windows.manage-windows-updates.3-manage-updates-offered-windows-update
+- learn.windows.manage-windows-updates.4-manage-device-experience-after-deployment
+- learn.windows.manage-windows-updates.5-control-user-experience-after-update
+- learn.windows.manage-windows-updates.6-knowledge-check
+- learn.windows.manage-windows-updates.7-summary
+badge:
+  uid: learn.windows.manage-windows-updates.badge
