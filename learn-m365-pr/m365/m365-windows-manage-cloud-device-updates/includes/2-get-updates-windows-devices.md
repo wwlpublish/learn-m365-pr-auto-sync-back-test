@@ -1,5 +1,5 @@
 
-You want to protect your organization, and facilitate productivity across the organization. You've decided that all Windows devices should stay in line the latest Windows updates. Microsoft offers different sets of tools and services that empower you with the flexibility and capabilities you need to update your devices.
+You want to protect your organization, and facilitate productivity across the organization. You've decided that all Windows devices should stay in line the latest Windows updates. Microsoft offers different sets of tools and services that empower you with the flexibility and capabilities you need to update your devices. 
 
 In this unit, you’ll explore the tools and services you can use to update your Windows devices.
 

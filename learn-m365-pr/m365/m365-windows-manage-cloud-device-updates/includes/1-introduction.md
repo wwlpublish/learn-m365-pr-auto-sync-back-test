@@ -1,4 +1,4 @@
-Keeping Windows up to date is vital to the security of the devices in your organization and can help improve productivity across the organization through new feature and capabilities. 
+Keeping Windows up to date is vital to the security of the devices in your organization and can help improve productivity across the organization through new feature and capabilities.
 
 After an investigation, it has emerged that many devices in your organization are not up to date with the latest Windows versions. This has resulted in potential security risks. Additionally, users across your organization have been unable to take advantage of the latest features, which has caused some frustration.
 

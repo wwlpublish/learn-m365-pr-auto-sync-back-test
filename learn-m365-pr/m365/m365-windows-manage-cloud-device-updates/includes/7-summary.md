@@ -1,5 +1,5 @@
 You’ve explored the best practices and options available to keep your devices up to date with Windows updates. Keeping your devices up to date helps you to manage employee productivity, cost, and critical business activities and ensures the security of the devices in your organization. Without the right tools and practices, your devices might not be up to date with the latest Windows updates. These devices might be at risk of threats, which might also affect your users.
-
+ 
 Implementing the recommendations in this module provides a good balance between protection and productivity. To achieve all of Microsoft’s recommendations without configuring each policy individually, we recommend using the [Update Baseline](https://www.microsoft.com/download/details.aspx?id=101056) tool to automatically configure these policy recommendations.
 
 Now that you’ve completed this module, you should be able to:

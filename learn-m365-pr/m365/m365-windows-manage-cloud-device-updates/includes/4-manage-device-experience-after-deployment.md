@@ -1,4 +1,5 @@
-You're aware that a poor device experience with updates can result in devices that are in line with the latest Windows updates. You want to make sure you manage the device experience for updates to provide a consistent update experience across your devices. 
+You're aware that a poor device experience with updates can result in devices that are in line with the latest Windows updates. You want to make sure you manage the device experience for updates to provide a consistent update experience across your devices.
+
 You'll investigate the controls for device experience that are available to you, and you will see how these controls positively or negatively affect productivity and device security. With this information, you can make decisions about how best to configure policies for your organization.
 
 In this unit, you will learn about how to best manage the device experience for updates.

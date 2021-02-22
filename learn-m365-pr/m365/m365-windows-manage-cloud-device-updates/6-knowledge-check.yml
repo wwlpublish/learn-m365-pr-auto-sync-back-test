@@ -11,7 +11,7 @@ metadata:
   ms.prod: learning-windows
 durationInMinutes: 5
 quiz:
-  title: Check your knowledge
+  title:  Check your knowledge
   questions:
   #Question 1
   - content: Mobile devices are used regularly across your organization. Which mobile device management tool will you use to control device behavior and Windows update distribution?

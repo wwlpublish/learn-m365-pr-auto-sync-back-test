@@ -1,4 +1,4 @@
-You know from experience that users can become frustrated with the update process if it negatively affects their day-to-day work. You want to ensure that your users have a positive experience with all updates. You can control which options you want to give to users so they can decide when to install an update. You can choose whether you want to allow users to pause updates, specify active hours for auto-restarts, download updates over metered connections, and more.
+You know from experience that users can become frustrated with the update process if it negatively affects their day-to-day work. You want to ensure that your users have a positive experience with all updates. You can control which options you want to give to users so they can decide when to install an update. You can choose whether you want to allow users to pause updates, specify active hours for auto-restarts, download updates over metered connections, and more. 
 
 In this unit, you’ll learn about how to control the user experience after a user’s device receives an update.
 

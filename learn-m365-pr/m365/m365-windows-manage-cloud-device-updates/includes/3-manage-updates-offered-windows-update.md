@@ -1,4 +1,4 @@
-Windows Update offers different types of updates, including feature updates and quality updates. As the admin for your organization, you want to control how these updates are provided to your devices.
+Windows Update offers different types of updates, including feature updates and quality updates. As the admin for your organization, you want to control how these updates are provided to your devices. 
 
 In this unit, you’ll learn about how to manage which updates are offered from Windows Update.
 
