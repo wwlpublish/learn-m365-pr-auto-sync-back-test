@@ -1,0 +1,34 @@
+### YamlMime:Module
+uid: learn-m365.msgraph-user-photo-information
+metadata:
+  title: Access user photo information with Microsoft Graph
+  description: Learn how to use Microsoft Graph to access user photo information.
+  ms.date: 02/17/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Access user photo information with Microsoft Graph
+summary: Learn how to use Microsoft Graph to access user photo information.
+abstract: |
+  At the end of this module, you should be able to:
+  - Understand how to access user profile photos
+  - Configure your sample application to retrieve the user photo information
+prerequisites: |
+  - Access to a Microsoft 365 tenant
+  - Basic knowledge of REST services and APIs
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- developer
+products:
+- m365
+- ms-graph
+units:
+- learn-m365.msgraph-user-photo-information.1-introduction
+- learn-m365.msgraph-user-photo-information.2-access-user-profile-photo
+- learn-m365.msgraph-user-photo-information.3-exercise-access-user-profile-photo
+- learn-m365.msgraph-user-photo-information.4-summary
+badge:
+  uid: learn-m365.msgraph-user-photo-information.badge
