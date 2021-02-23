@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.mgt-intro.4-exercise-sign-into-app
 metadata:
-  title: Exercise - Sign into your app with the Login component
+  title: Exercise - Sign in your app using Microsoft Graph Toolkit login component
   description: In this exercise, you’ll practice using the Login component of the Graph Toolkit to sign into your app.
   ms.date: 02/02/2021
-  author: lizap
-  ms.author: elizapo
+  author: rabwill
+  ms.author: rwilliams
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
-title: Exercise - Sign into your app with the Login component
-durationInMinutes: 5
+title: Exercise - Sign in your app using Microsoft Graph Toolkit login component
+durationInMinutes: 12
 content: |
-  [!include[](includes/4-exercise-sign-into-app.md)]
+  [!include[](includes/4-exercise-sign-in-app.md)]
