@@ -1,12 +1,12 @@
 Custom SharePoint Framework solutions can incorporate data from external resources by calling APIs including the SharePoint REST API, Microsoft Graph, and third-party APIs that are open to anonymous requests or secured with Azure AD.
 
-In this unit, you'll learn how the SharePoint Framework enables developers to incorporate data from external systems, surface customizations in other experiences like Microsoft Teams, and incorporate UI components with the Office UI Fabric.
+In this unit, you'll learn how the SharePoint Framework enables developers to incorporate data from external systems, surface customizations in other experiences like Microsoft Teams, and incorporate UI components with the Office UI Fabric (Fluent UI).
 
-## Create appealing solutions with the Office UI Fabric
+## Create appealing solutions with the Office UI Fabric (Fluent UI)
 
 Office UI Fabric React is the front-end framework for building experiences for Office and Office 365. It includes a robust collection of responsive, mobile-first components that make it easy for you to create web experiences by using the Office Design Language.
 
-The new modern experiences in SharePoint use Office UI Fabric and Office UI Fabric React as the default front-end framework for building the new experiences. As a result, SharePoint Framework ships with a default version of Office UI Fabric and Fabric React that matches the version available in SharePoint. This ensures that the web part you're building uses the right version of the Fabric styles and components when deployed to SharePoint.
+The new modern experiences in SharePoint use Office UI Fabric (Fluent UI) and Office UI Fabric React as the default front-end framework for building the new experiences. As a result, SharePoint Framework ships with a default version of Office UI Fabric (Fluent UI) and Fabric React that matches the version available in SharePoint. This ensures that the web part you're building uses the right version of the Fabric styles and components when deployed to SharePoint.
 
 ```typescript
 public render(): JSX.Element {
@@ -39,9 +39,9 @@ public render(): JSX.Element {
 }
 ```
 
-If you select React as the web framework when creating a new project using the SharePoint Framework Yeoman generator, the project will be provisioned with the correct version of Office UI Fabric React. You can then directly import the Fabric components in your react components without any additional work.
+If you select React as the web framework when creating a new project using the SharePoint Framework Yeoman generator, the project will be provisioned with the correct version of Office UI Fabric React. You can then directly import the Fabric components in your react components without any extra work.
 
-![Screenshot of the Office UI Fabric card control](../media/04-office-iu-fabric.png)
+![Screenshot of the Office UI Fabric (Fluent UI) card control](../media/04-office-iu-fabric.png)
 
 ## Incorporate enterprise data with APIs
 
@@ -53,7 +53,7 @@ The following sections list some of the endpoints the SharePoint Framework API n
 
 The SharePoint REST API is the primary API for accessing data in a SharePoint site. The API is available to both client-side and server-side solutions. Client-side solutions mean it's available to SharePoint Framework components and server-side solutions are those that run on a server but external to your SharePoint environment, such as an Azure Function or web app.
 
-The SharePoint Framework includes an API that simplifies submitting request to the SharePoint REST API. The `SPHttpClient` API is available in all SharePoint Framework solutions on the `context` object. The `SPHttpClient` extends the to the `HttpClient` API, which is a wrapper to the Fetch API included in all modern browsers and includes a polyfill for older browsers that don't support the Fetch API.
+The SharePoint Framework includes an API that simplifies submitting request to the SharePoint REST API. The `SPHttpClient` API is available in all SharePoint Framework solutions on the `context` object. The `SPHttpClient` extends the `HttpClient` API, which is a wrapper to the Fetch API included in all modern browsers and includes a polyfill for older browsers that don't support the Fetch API.
 
 The `HttpClient` is also included in the SharePoint Framework API. Developers can use it to submit HTTP requests to any REST API.
 
@@ -83,7 +83,7 @@ private _getListItems(): Promise<ICountryListItem[]> {
 
 The Microsoft Graph is the gateway to your data in the Microsoft cloud.
 
-![Microsoft Graph - gateway to your data in the Microsoft cloud](../media/04-msgraph-gateway.png)
+![Microsoft Graph - gateway to your data in the Microsoft cloud](../media/04-microsoft-graph-gateway.png)
 
 The Microsoft cloud is included of multiple services and data types that we can take advantage of from Office 365, and it's all considered part of the Microsoft 365 platform.
 
@@ -93,7 +93,7 @@ Microsoft Graph is accessible as a REST API so developers can use any technology
 
 One of the options offered by Microsoft is the [Microsoft Graph JavaScript SDK](https://github.com/microsoftgraph/msgraph-sdk-javascript). After initializing the SDK with an OAuth 2.0 access token, you can use the SDK to submit requests to Microsoft Graph. The SDK communicates directly with the Microsoft Graph REST API and returns the results as well-known objects. Microsoft also provides TypeScript type declarations for the SDK for TypeScript-based projects.
 
-You can use Microsoft Graph in your custom SharePoint Framework solutions. Microsoft Graph is a service that is secured with Azure AD. The SharePoint Framework leverages the same infrastructure for requesting and granting permissions to Azure AD secured APIs as it does for custom Azure AD secured APIs. The unit on **Call Azure AD secured third-party REST APIs** explains how the SharePoint Framework API can be used to call Azure AD secured endpoints.
+You can use Microsoft Graph in your custom SharePoint Framework solutions. Microsoft Graph is a service that is secured with Azure AD. The SharePoint Framework uses the same infrastructure for requesting and granting permissions to Azure AD secured APIs as it does for custom Azure AD secured APIs. The unit on **Call Azure AD secured third-party REST APIs** explains how the SharePoint Framework API can be used to call Azure AD secured endpoints.
 
 The SharePoint Framework API includes the Microsoft Graph JavaScript SDK and also handles the initialization of the client. This is handled using the existing Azure AD support to obtain an access token.
 
@@ -185,7 +185,7 @@ To request a permission when a SharePoint Framework package is deployed to the A
 }
 ```
 
-When an administrator deploys the SharePoint Framework component to the tenant App Catalog, they're presented with an additional message in the trust dialog prompt:
+When an administrator deploys the SharePoint Framework component to the tenant App Catalog, they're presented with another message in the trust dialog prompt:
 
 ![Screenshot of the trust dialog](../media/04-deploy-app-prompt-approve-scopes.png)
 
@@ -211,13 +211,13 @@ Another option for developers is to create a custom bot that can receive and rep
 
 In 2019, Microsoft introduced the capability to use a SharePoint Framework client-side web part as a tab in Microsoft Teams. As we've previously covered, a Microsoft Teams tab is just a web page loaded in an Iframe.
 
-The development process of a Microsoft Teams tab that's implemented using a SharePoint client-side web part is nearly identical to creating a web part for a SharePoint site. Any web part can be exposed as a tab in Microsoft teams.
+The development process of a Microsoft Teams tab that's implemented using a SharePoint client-side web part is nearly identical to creating a web part for a SharePoint site. Any web part can be exposed as a tab in Microsoft Teams.
 
 To enable a client-side web part to be used as a tab in Microsoft Teams, you'll need to update a single property in the component's manifest.
 
 When you use a client-side web part as the host for a Microsoft Teams tab, the URL for the tab is a page in SharePoint Online that contains a single canvas no the page. The URL parameters tell the SharePoint page which web part to load into the canvas. This URL is used to in the Iframe that implements the tab.
 
-The tab, or client-side web part, executes in the context of the underlying SharePoint site behind the team that the tab is added to. The implication of hosting the tab in SharePoint means developers can leverage the SharePoint Framework API in their custom tabs. For example, because the client-side web part is running in SharePoint Online, you can access the SharePoint REST API, Microsoft Graph, and Azure AD secured endpoints all from the SharePoint Framework API without needing to force the user to authenticate again.
+The tab, or client-side web part, executes in the context of the underlying SharePoint site behind the team that the tab is added to. The implication of hosting the tab in SharePoint means developers can use the SharePoint Framework API in their custom tabs. For example, because the client-side web part is running in SharePoint Online, you can access the SharePoint REST API, Microsoft Graph, and Azure AD secured endpoints all from the SharePoint Framework API without needing to force the user to authenticate again.
 
 ### How to surface SharePoint Framework web parts as Microsoft Teams tabs
 
@@ -239,4 +239,4 @@ Once the solution has been deployed to SharePoint and Microsoft Teams, you can a
 
 ## Summary
 
-In this unit, you learned how the SharePoint Framework enables developers to incorporate data from external systems, surface customizations in other experiences like Microsoft Teams, and incorporate UI components with the Office UI Fabric.
+In this unit, you learned how the SharePoint Framework enables developers to incorporate data from external systems, surface customizations in other experiences like Microsoft Teams, and incorporate UI components with the Office UI Fabric (Fluent UI).
