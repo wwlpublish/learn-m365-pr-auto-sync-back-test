@@ -1,20 +1,18 @@
-In this exercise, we'll practice using Microsoft Graph Toolkit components in our application and show data from Microsoft 365.
+In this exercise, we'll practice using Microsoft Graph Toolkit components in your application and show data from Microsoft 365.
 
 ## Before you start
 
-As a pre-requisite for this exercise, you'll need to complete the first exercise in this module: **Exercise - Sign in your app with the Microsoft Graph Toolkit Components**.
+As a pre-requisite for this exercise, you'll need to complete the first exercise in this module: **Exercise - Sign in your app with the Microsoft Graph Toolkit Components**.
 
-## Add Agenda component in your app
+## Add the Agenda component in your app
 
-We already completed the steps for building the authentication in the previous exercise.
-
-Now, Let's show upcoming calendar events for signed-in user in our application. Add the **Agenda** component in the `body` of your HTML file:
+You already completed the steps required for handling authentication in the previous exercise. Now, you'll show upcoming calendar events in the application for a signed-in user. Add the **Agenda** component in the body of your **index.html** file:
 
 ```html
 <mgt-agenda></mgt-agenda>
 ```
 
-Final version of your HTML file will be as shown below:
+The final version of your **index.html** file will look as followed:
 
 ```html
 <!DOCTYPE html>
@@ -32,10 +30,12 @@ Final version of your HTML file will be as shown below:
 
 ## Test your app in browser
 
-1. In Visual Studio Code, run **Live Server** to test your app. Open your browser and go to http://localhost:3000.
+1. In Visual Studio Code, run **Live Server** to test your app.  
 
-2. Sign in with your Microsoft 365 developer tenant. Consent to the required calendar permissions and select **Accept**.
+2. Open your browser and navigate to http://localhost:3000. 
 
-3. Finally, your app will show user's upcoming calendar events:
+3. Sign in with your Microsoft 365 developer tenant. Consent to the required calendar permissions and select **Accept**. 
+
+4. Your app should show the user's upcoming calendar events: 
 
 :::image type="content" source="../media/06-final.gif" alt-text="Microsoft Graph Toolkit project final result":::
