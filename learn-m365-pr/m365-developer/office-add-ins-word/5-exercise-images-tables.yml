@@ -3,7 +3,7 @@ uid: learn-m365.office-add-ins-word.5-exercise-images-tables
 metadata:
   title: Exercise - Insert and replace images, HTML, and tables
   description: In this exercise, you'll update the add-in you created in a previous exercise to add images, HTML, and tables to a Word document.
-  ms.date: 11/25/2020
+  ms.date: 02/25/2021
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
@@ -19,11 +19,11 @@ quiz:
     choices:
     - content: "After obtaining a reference to the document with the `context.document` property, call the `getRange(RangeType.SelectedText)` method."
       isCorrect: false
-      explanation: "The `getRange()` method doesn't exist. Use the `getSelectedText()` method to get the currently selected text."
+      explanation: "The `getRange()` method doesn't exist. Use the `getSelection()` method to get the currently selected text."
     - content: "After obtaining a reference to the document with the `context.document` property, call the `getSelectedRange()` method on the document."
       isCorrect: false
-      explanation: "The `getSelectedRange()` method doesn't exist. Use the `getSelectedText()` method to get the currently selected text."
-    - content: "After obtaining a reference to the document with the `context.document` property, call the `getSelectedText()` method on the document."
+      explanation: "The `getSelectedRange()` method doesn't exist. Use the `getSelection()` method to get the currently selected text."
+    - content: "After obtaining a reference to the document with the `context.document` property, call the `getSelection()` method on the document."
       isCorrect: true
       explanation: "Correct!"
   - content: "Which of the following options will insert a new image from a base 64 string at the end of a Word document?"
