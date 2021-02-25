@@ -20,7 +20,7 @@ Developers can create worksheets using the `workbook.worksheets.add()` method.
 
 ### Advanced worksheets operations
 
-There are a number of advanced worksheet operations, including worksheet events for `onActivated`, `onAdded`, `onDeactivated`, and `onDeleted`.
+There are many advanced worksheet operations, including worksheet events for `onActivated`, `onAdded`, `onDeactivated`, and `onDeleted`.
 
 Developers can also freeze worksheet panes and protect or unprotect worksheets.
 
@@ -124,7 +124,7 @@ Each button in the ribbon is defined using a `Control` element. A control can be
 
 Within a control, developers can define *actions* or *items*. An `Action` element is used to do an action, such as showing a task pane or executing a custom function.
 
-The `Items` collection allows developers to add additional menu items to the ribbon button as shown in the following image. Notice each sub menu item also has a `Action` element as well:
+The `Items` collection allows developers to add more menu items to the ribbon button as shown in the following image. Notice each sub menu item also has a `Action` element as well:
 
 ![Screenshot of add-in manifest and an Office application](../media/04-manifest-05.png)
 
