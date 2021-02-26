@@ -1,4 +1,4 @@
-In this exercise, we'll practice using Microsoft Graph Toolkit components in your application and show data from Microsoft 365.
+In this exercise, you'll practice using Microsoft Graph Toolkit components in your application and show data from Microsoft 365.
 
 ## Before you start
 
