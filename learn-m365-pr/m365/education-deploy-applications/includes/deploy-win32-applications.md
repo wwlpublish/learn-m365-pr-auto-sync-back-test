@@ -4,7 +4,7 @@ Here, you'll learn how to install Win32 and MSI applications using Intune and In
 
 ## Use MEM for Intune to install a Win32 app
 
-The Intune for Education portal only supports Win32 applications packaged as MSI files. If your application is deployed using an executable file (EXE), you must use MEM. 
+The Intune for Education portal only supports Win32 applications packaged as MSI files. If your application is deployed using an executable file (EXE), you must use MEM.
 
 A Win32 application must not be greater than 8 GB in size. Additionally, Win32 apps only run on Windows devices; make sure that the devices to which you deploy a Win32 app are running Windows 10 version 1607 or later.
 
@@ -117,11 +117,11 @@ Intune for Education supports Win32 apps packaged as *msi* files; this is the fo
 
 1. In the Intune for Education console, select **Apps** from the menu on the left.
 
-    :::image type="content" source="../media/3-intune-apps-menu.png" alt-text="Screenshot of Intune for Education Apps":::
+   :::image type="content" source="../media/3-intune-apps-menu.png" alt-text="Screenshot of Intune for Education Apps":::
 
 1. On the Apps screen, select **New App**, and then select **New desktop app**. This will take you to the Microsoft Store for Education portal and you'll already be signed in.
 
-    :::image type="content" source="../media/3-intune-new-apps.png" alt-text="Intune for Education New App":::
+   :::image type="content" source="../media/3-intune-new-apps.png" alt-text="Intune for Education New App":::
 
 1. In the New desktop app pane, select the MSI file containing the installer for the desktop app you want to add. You can use the browse button to navigate to the file.
 

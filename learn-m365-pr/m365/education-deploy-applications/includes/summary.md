@@ -1,6 +1,6 @@
 You have seen how you can deliver applications to teachers, students, and administrators in this new environment. You can find both free and paid-for apps in the Microsoft Store for Education and you can deploy and manage both win32 and iOS apps.
 
-By using Intune for Education, you can assign apps to just those users who should have access. You can make certain apps either voluntary or compulsory.  And you have seen how you can use the Volume Purchase Program to manage application licenses.
+By using Intune for Education, you can assign apps to just those users who should have access. You can make certain apps either voluntary or compulsory.  And you've seen how you can use the Volume Purchase Program to manage application licenses.
 
 ## Learn more
 
