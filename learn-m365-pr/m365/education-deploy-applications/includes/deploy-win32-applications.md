@@ -117,11 +117,11 @@ Intune for Education supports Win32 apps packaged as *msi* files; this is the fo
 
 1. In the Intune for Education console, select **Apps** from the menu on the left.
 
-:::image type="content" source="../media/3-intune-apps-menu.png" alt-text="Screenshot of Intune for Education Apps":::
+   :::image type="content" source="../media/3-intune-apps-menu.png" alt-text="Screenshot of Intune for Education Apps":::
 
 1. On the Apps screen, select **New App**, and then select **New desktop app**. This will take you to the Microsoft Store for Education portal and you'll already be signed in.
 
-:::image type="content" source="../media/3-intune-new-apps.png" alt-text="Intune for Education New App":::
+   :::image type="content" source="../media/3-intune-new-apps.png" alt-text="Intune for Education New App":::
 
 1. In the New desktop app pane, select the MSI file containing the installer for the desktop app you want to add. You can use the browse button to navigate to the file.
 
