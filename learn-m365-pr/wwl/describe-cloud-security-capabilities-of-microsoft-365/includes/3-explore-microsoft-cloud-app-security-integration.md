@@ -16,7 +16,7 @@ In this video, you'll see how Microsoft Cloud App Security integrates with Micro
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4zrf3]
 
 
-For more information, read [Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection).
+For more information, read [Microsoft Defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection).
 
 ## Integration with Azure AD and Azure Information Protection
 

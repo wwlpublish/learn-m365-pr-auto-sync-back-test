@@ -12,7 +12,7 @@ The ability to apply sensitivity labels to content automatically is important be
 - Rely on users to classify all content correctly.
 - Ensure users know about your policies. Instead, they can focus on their work.
 
-To learn more, visit [Apply a sensitivity label to content automatically](https://docs.microsoft.com/microsoft-365/compliance/apply-sensitivity-label-automatically?view=o365-worldwide).
+To learn more, visit [Apply a sensitivity label to content automatically](https://docs.microsoft.com/microsoft-365/compliance/apply-sensitivity-label-automatically).
 
 **Use sensitivity labels to apply encryption**.  You can restrict access to content to which a sensitivity label is applied. For example, with the encryption settings for a sensitivity label, you can protect content so that:
 
@@ -27,7 +27,7 @@ When a document or email is encrypted, access to the content is restricted, so t
 - Remains encrypted no matter where it resides, inside or outside your organization, even if the file's renamed.
 - It is encrypted both at rest (for example, in a OneDrive account) and in transit (for example, email as it traverses the internet).
 
-The encryption settings are available when you [create a sensitivity label](https://docs.microsoft.com/microsoft-365/compliance/create-sensitivity-labels?view=o365-worldwide) in the Microsoft 365 compliance center or the Microsoft 365 security center.
+The encryption settings are available when you [create a sensitivity label](https://docs.microsoft.com/microsoft-365/compliance/create-sensitivity-labels) in the Microsoft 365 compliance center or the Microsoft 365 security center.
 
 ## Office 365 Message Encryption (OME)
 
@@ -37,11 +37,11 @@ With **Office 365 Message Encryption**, your organization can send and receive e
 
 Office 365 Message Encryption is an online service that's built on **Microsoft Azure Rights Management (Azure RMS)**, which is used by Azure Information Protection (AIP).  OME includes encryption, identity, and authorization policies to help secure your email.
 
-With OME, users can then encrypt email messages and a variety of attachments. For more information, visit [Introduction to IRM for email messages](https://docs.microsoft.com/microsoft-365/compliance/ome?view=o365-worldwide).
+With OME, users can then encrypt email messages and a variety of attachments. For more information, visit [How Office 365 Message Encryption works](https://docs.microsoft.com/microsoft-365/compliance/ome).
 
 ## Data loss prevention (DLP)
 
-Data Loss Prevention (DLP) is designed to protect sensitive information and prevent its inadvertent disclosure and is implemented through policies.  With DLP policies, you can identify, monitor, and automatically protect sensitive information across Office 365. Data loss prevention policies can use sensitivity labels and [sensitive information types](https://docs.microsoft.com/microsoft-365/compliance/sensitive-information-type-entity-definitions?view=o365-worldwide) to identify sensitive information.
+Data Loss Prevention (DLP) is designed to protect sensitive information and prevent its inadvertent disclosure and is implemented through policies.  With DLP policies, you can identify, monitor, and automatically protect sensitive information across Office 365. Data loss prevention policies can use sensitivity labels and [sensitive information types](https://docs.microsoft.com/microsoft-365/compliance/sensitive-information-type-entity-definitions) to identify sensitive information.
 
 With a DLP policy, you can:
 
@@ -53,7 +53,7 @@ With a DLP policy, you can:
 
 DLP detects sensitive information by using deep content analysis and not just a simple text scan. This deep content analysis uses keyword matches, dictionary matches, the evaluation of regular expressions, internal functions, and other methods to detect content that matches your DLP policies. Potentially only a small percentage of your data is considered sensitive. A DLP policy can identify, monitor, and automatically protect just that data, without impeding or affecting people who work with the rest of your content.
 
-For more information, visit [Overview of data loss prevention](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies?view=o365-worldwide).
+For more information, visit [Overview of data loss prevention](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies).
 
 ## Windows Information Protection
 

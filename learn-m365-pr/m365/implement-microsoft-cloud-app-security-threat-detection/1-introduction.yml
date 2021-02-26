@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.implement-mcas-threat-detection.1-introduction
+metadata:
+  title: Introduction
+  description: Implement threat detection with Microsoft Cloud App Security
+  ms.date: 01/30/2021
+  author: geoffallix
+  ms.author: v-gea
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Introduction
+durationInMinutes: 2
+content: |
+  [!include[](includes/1-introduction.md)]

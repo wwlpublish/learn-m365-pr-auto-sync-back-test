@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.implement-mcas-cloud-discovery.3-implement-cloud-discovery-policies
+metadata:
+  title: Implement Cloud Discovery policies
+  description: Microsoft Cloud App Security provides policy-driven mechanisms to help manage your users behavior in the cloud
+  ms.date: 01/30/2021
+  author: geoffallix
+  ms.author: v-gea
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Implement Cloud Discovery policies
+durationInMinutes: 9
+content: |
+  [!include[](includes/3-implement-cloud-discovery-policies.md)]
