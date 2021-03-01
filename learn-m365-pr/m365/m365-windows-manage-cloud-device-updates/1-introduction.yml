@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.m365-windows.manage-windows-updates-cloud.1-introduction
+title: Introduction
+metadata:
+  title: Introduction
+  description: Introduction
+  ms.date: 03/01/2020
+  author: v-iankens
+  ms.author: v-iankens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-windows
+durationInMinutes: 1
+content: |
+  [!include[](includes/1-introduction.md)]
