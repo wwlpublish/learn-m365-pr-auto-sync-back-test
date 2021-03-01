@@ -1,17 +1,27 @@
-You've familiarized yourself with the concepts of the toolkit. Now you must be ready to see how to put something together.
-Let's say you want to load any data from Microsoft 365. You'll need to sign in your application to access Microsoft Graph.
-
-Let's walk through this unit and figure out how toolkit will make authentication to your application simple, so you can focus on just building the experience.
+Now that you've seen an overview of the toolkit, let's learn how you can use it to load data from Microsoft 365 services. You'll first need to provide a way for users to sign in to your application. Fortunately, the toolkit greatly simplifies the authentication process so that you can focus on building the overall user experience. 
 
 ## What is the purpose of adding Login component in your application
 
-Imagine how easy app development will be, if the most time consuming aspect like authentication logic is just an HTML tag you can add.
-You can use the login component of the toolkit to your app and forget writing or maintaining code for authentication. The login and logout functionality is pre-baked into the component.
+Imagine how simple and secure your app development process will be if one of the most time-consuming aspects is handled for you. By using the toolkit, authentication logic and access token retrieval is handled by adding a simple HTML tag.
+
+```html
+<mgt-login></mgt-login>
+```
+
+You can use the toolkit login component in your app and forget about writing and maintaining authentication code. The login and logout functionality is pre-baked into the component!
 
 ## What are providers in Microsoft Graph Toolkit
 
-Providers simplify implementing authentication for your application and make calls to Microsoft Graph using the JavaScript client SDK.
-Initialize a provider before you use any other toolkit component, like the login component we saw earlier. However, they can also be used on their own, to implement authentication for your application.
-There are different providers, depending on the platform in which you're using the toolkit components in your application.
+Providers simplify implementing authentication in your application and handle making calls to Microsoft Graph using the JavaScript client SDK. You'll initialize a provider before using any toolkit components such as the login component. It's also possible to use providers on their own, in an application to handle authentication. There are several different providers that can be used depending on the platform you're targeting with the toolkit components:
 
-In the next exercise, you'll figure out how to use login component with MSAL provider, which is the widely used provider in the toolkit.
+- Microsoft Authentication Library (MSAL) provider – For general use by single-page applications that will authenticate from the browser.
+
+- Proxy provider – For use by web applications that will authenticate on the backend server.
+
+- SharePoint provider – For use in the SharePoint Framework.
+
+- Microsoft Teams provider – For use by single-page applications that will run as Teams tabs.
+
+- Custom provider – Allows you to build your own authentication.
+
+In the next exercise, you'll learn how to use the toolkit's login component with the Microsoft Authentication Library (MSAL) provider, which is the most widely used provider in the toolkit.
