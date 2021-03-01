@@ -1,4 +1,4 @@
-Windows Update offers different types of updates, including feature updates and quality updates. As the admin for your organization, you want to control how these updates are provided to your devices. 
+Windows Update offers different types of updates, including feature updates and quality updates. As the admin for your organization, you want to control how these updates are provided to your devices.
 
 In this unit, you’ll learn about how to manage which updates are offered from Windows Update.
 
@@ -48,41 +48,6 @@ To configure deferrals:
 >[!warning]
 >Ensure that you are not configuring Target Release Version (Feature Update Preview) and Feature Update Deferrals. If you do, you will not deploy the version you specified until you reach the number of deferral days.
 
-## Quality Updates
-
-Microsoft releases quality updates containing security and critical fixes every second Tuesday of each month, and they are cumulative. There are also preview quality updates that release on the third Tuesday of each month, which are optional. By default, security quality updates are automatically deployed to the device as soon as they are released.
-
-### Defer quality updates deployment
-
-You can specify how long after a quality update is released before it is offered to your devices—from zero to 30 days. This is great for administrators because devices that use deferrals only receive security or critically marked quality updates. Deferrals are an easy and predictable way to automatically deploy the latest cumulative update (LCU) at specific times after it is released. You can also pause a quality update deployment if you find an issue after deployment. Unlike a deferral, a pause can only last for up to 35 days from the specified start date or until you remove the policy.
-We recommend deploying quality updates at different times. To do this, group devices and then assign different deferral values to each group. For example, see the following:
-
-- IT Admin Group: zero-day deferral (gets the update the day it is released).
-- Early adopters’ group: two-day deferral (gets the update two days after it is released).
-- Broad phase 1: seven-day deferral (gets the update a week after it is released).
-- Broad phase 2: nine-day deferral (gets the update nine days after it is released).
-
-#### Select a deferral period in Microsoft Endpoint Manager
-
-1. Open [Microsoft Endpoint Manager](https://endpoint.microsoft.com/#home?azure-portal=true), and select **Devices**.
-1. In the **Quality update deferral period (days)** box, type the numbers of days (0-30 days).
-
-    :::image type="content" source="../media/3-choose-quality-update-deferral-expanded.png" lightbox="../media/3-choose-quality-update-deferral-inline.png" alt-text="Figure 7. Choose deferral period using a GP.":::
-
-#### Select a deferral period using a Group Policy tool
-
-You can also use Group Policy to specify deferrals. For example, you can use the **Select when Quality Updates are received** Group Policy to defer quality updates:
-
-:::image type="content" source="../media/3-choose-deferral-period-group-policy-expanded.png" lightbox="../media/3-choose-deferral-period-group-policy-inline.png" alt-text="Figure 7. Choose deferral period using a GP.":::
-
-### Avoid consecutive quality updates
-
-If you pause your updates, adjust your deferrals to avoid consecutive restarts; see the scenario depicted below.
-
-:::image type="content" source="../media/3-consecutive-quality-update-scenario.png" alt-text="Figure 8. Consecutive quality update scenario.":::
-
-In the consecutive quality update scenario (Figure 8), a device has a five-day quality update deferral. The administrator pauses the deployment of the December quality update before the deferral period ends. This means that the December quality update was not offered to the device. Later, Microsoft releases the January quality update. Quality update deployment resumes. However, the January quality update is not yet old enough to meet the deferral requirements (it has not been released for five or more days). Therefore, the December quality update is offered to the device. Then, three days later, the January quality update, which now meets the deferral requirements, is offered to the device. This results in two restarts in the period of a single week, which is a poor user experience.
-
 ## Control driver updates
 
 By default, driver updates automatically deploy to devices; we recommend that you leave automatic driver update deployment turned on. However, you can turn them off in one of the following ways:
@@ -91,11 +56,29 @@ By default, driver updates automatically deploy to devices; we recommend that yo
 
     :::image type="content" source="../media/3-turn-off-driver-updates-through-group-policy-expanded.png" lightbox="../media/3-turn-off-driver-updates-through-group-policy-inline.png" alt-text="Figure 9. Turn off driver updates using a GP.":::
 
-- CSP: Configure the [Update/ExcludeWUDriversInQualityUpdate]( https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update) policy.
+- CSP: Configure the [Update/ExcludeWUDriversInQualityUpdate](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update) policy.
 
 ## Manage other Microsoft product updates
 
-Windows Update for Business only offers Windows updates to devices. Updates for other Microsoft products, such as Microsoft Office, Teams, or Microsoft Edge do not deploy automatically. To manage these products, do one of the following:
+Windows Update for Business only offers Windows updates to devices. Updates for other Microsoft products do not deploy automatically. These products include applications like Visual Studio and Microsoft Edge. To manage updates for these kinds of products, do one of the following:
 
 - On the **Configure Automatic Update** Group Policy template page, check the **Install updates for other Microsoft products** box.
 - Configure the [Update/AllowMUUpdateService](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update) CSP policy to **1 (Allow)**.
+
+## Use update rings
+
+The number of groups you have and who is in the various groups will vary by size and type of organization, but there are some best practices you can keep in mind as you think about how to group and rollout to various devices within your organization. There are two key factors to grouping devices:
+
+:::image type="content" source="../media/3-risk-tolerance.png" alt-text="Risk and tolerance":::
+
+Risk tolerance can also be based upon device type such as airplanes, ATMs, or other machines that cannot be taken offline due to the critical nature of the job they perform. Let’s take a look at an example organization with 54,000 employees running a variety of hardware, apps, etc. in a variety of buildings. –
+
+:::image type="content" source="../media/3-organization-summary-expanded.png" lightbox="../media/3-organization-summary-inline" alt-text="Organization summary":::
+
+- **Yellow**: There is an insider group of IT Admins and a representative set of devices used by tech friendly folks.
+- **Blue**: A representative set of devices used by tech friendly folks across the organization in multiple locations with a high risk tolerance.
+- **Green**: People with a medium risk tolerance.
+- **Pink, Purple**: The broad deployment waves.
+
+> [!NOTE]
+> For Quality updates you may need fewer groups. For example, you may want to combine the early adopters and broad wave.

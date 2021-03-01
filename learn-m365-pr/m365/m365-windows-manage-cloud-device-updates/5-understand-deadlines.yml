@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.m365-windows.manage-windows-updates-cloud.5-understand-deadlines
+title: Understand deadlines
+metadata:
+  title: Understand deadlines
+  description: Learn about deadlines
+  ms.date: 03/01/2020
+  author: v-iankens
+  ms.author: v-iankens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-windows
+durationInMinutes: 9
+content: |
+  [!include[](includes/5-understand-deadlines.md)]

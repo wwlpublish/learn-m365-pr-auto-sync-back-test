@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
-uid: learn.windows.manage-windows-update.5-control-user-experience-after-update
+uid: learn-m365-pr.m365-windows.manage-windows-updates-cloud.7-control-user-experience-after-update
 title: Control the user experience after receiving an update
 metadata:
-  title:  Control the user experience after receiving an update
+  title: Control the user experience after receiving an update
   description: Learn about how to control what the user can do when an update has been received.
-  ms.date: 04/02/2020
+  ms.date: 03/01/2020
   author: v-iankens
   ms.author: v-iankens
   ms.topic: interactive-tutorial
   ms.prod: learning-windows
 durationInMinutes: 2
 content: |
-  [!include[](includes/5-control-user-experience-after-update.md)]
+  [!include[](includes/7-control-user-experience-after-update.md)]

@@ -1,9 +1,9 @@
 ### YamlMime:Module
-uid: learn.windows.manage-windows-updates
+uid: learn-m365-pr.m365-windows.manage-windows-updates-cloud
 metadata:
   title: Manage Windows updates in the cloud
-  description:  Learn about how to manage updates for your devices.
-  ms.date: 04/02/2020
+  description: Learn about how to manage updates for your devices.
+  ms.date: 03/01/2020
   author: v-iankens
   ms.author: v-iankens
   ms.topic: interactive-tutorial
@@ -18,19 +18,21 @@ abstract: |
 prerequisites: None
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
-- beginner
+- intermediate
 roles:
 - administrator
 products:
 - windows
 - mem-intune
 units:
-- learn.windows.manage-windows-updates.1-introduction
-- learn.windows.manage-windows-updates.2-get-updates-windows-devices
-- learn.windows.manage-windows-updates.3-manage-updates-offered-windows-update
-- learn.windows.manage-windows-updates.4-manage-device-experience-after-deployment
-- learn.windows.manage-windows-updates.5-control-user-experience-after-update
-- learn.windows.manage-windows-updates.6-knowledge-check
-- learn.windows.manage-windows-updates.7-summary
+- learn-m365-pr.m365-windows.manage-windows-updates-cloud.1-introduction
+- learn-m365-pr.m365-windows.manage-windows-updates-cloud.2-get-updates-windows-devices
+- learn-m365-pr.m365-windows.manage-windows-updates-cloud.3-manage-updates-offered-windows-update
+- learn-m365-pr.m365-windows.manage-windows-updates-cloud.4-manage-quality-updates
+- learn-m365-pr.m365-windows.manage-windows-updates-cloud.5-understand-deadlines
+- learn-m365-pr.m365-windows.manage-windows-updates-cloud.6-manage-device-experience-after-deployment
+- learn-m365-pr.m365-windows.manage-windows-updates-cloud.7-control-user-experience-after-update
+- learn-m365-pr.m365-windows.manage-windows-updates-cloud.8-knowledge-check
+- learn-m365-pr.m365-windows.manage-windows-updates-cloud.9-summary
 badge:
-  uid: learn.windows.manage-windows-updates.badge
+  uid: learn-m365-pr.m365-windows.manage-windows-updates-cloud.badge

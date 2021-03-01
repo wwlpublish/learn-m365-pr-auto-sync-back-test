@@ -1,8 +1,15 @@
-You're aware that a poor device experience with updates can result in devices that are in line with the latest Windows updates. You want to make sure you manage the device experience for updates to provide a consistent update experience across your devices.
-
+You're aware that a poor device experience with updates can result in devices that are in line with the latest Windows updates. You want to make sure you manage the device experience for updates to provide a consistent update experience across your devices. 
 You'll investigate the controls for device experience that are available to you, and you will see how these controls positively or negatively affect productivity and device security. With this information, you can make decisions about how best to configure policies for your organization.
 
 In this unit, you will learn about how to best manage the device experience for updates.
+
+:::row:::
+   :::column span="2":::
+   :::column-end:::
+   :::column span="":::
+      :::image type="content" source="../media/6-bookmark-one.png" border="false" alt-text="Manage scan frequency and downloads bookmark":::
+   :::column-end:::
+:::row-end:::
 
 ## Manage scan frequency
 
@@ -23,7 +30,7 @@ By default, the update will download automatically at a time that the Update Orc
 
 ### Microsoft recommendation
 
-Microsoft recommends that you allow updates to download automatically; do not configure any policies.
+Microsoft recommends that you avoid configuring these policies. As you're the administrator for your organization, you should allow updates to download automatically.
 
 ### Optimize downloads and manage bandwidth
 
@@ -36,6 +43,14 @@ Delivery Optimization also offers a feature called *Microsoft Connected Cache*. 
 - To get started, see the [Set up Delivery Optimization for Windows 10 updates](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization-setup?azure-portal=true).
 - For a comprehensive list of settings to fine tune behaviors, see Delivery Optimization reference.
 - Learn more about [Microsoft Connected Cache](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization-reference).
+
+:::row:::
+   :::column span="2":::
+   :::column-end:::
+   :::column span="":::
+      :::image type="content" source="../media/6-bookmark-two.png" border="false" alt-text="Bookmark for the manage installations section.":::
+   :::column-end:::
+:::row-end:::
 
 ## Manage installations
 
@@ -97,7 +112,7 @@ Microsoft recommends that you do not try to install on a specific day or week an
 
 ## Restart
 
-By default, the device will automatically attempt to restart outside of active hours when the user is away. However, the following Group Policy controls are available:
+By default, the device will automatically attempt to restart outside of active hours when the user is away. Active hours are defined as when the device is in use by a user. However, the following Group Policy controls are available:
 
 - **GP: Specify active hours range for auto-restarts.**
 - **GP: Turn off auto-restart for updates during active hours.**
@@ -105,7 +120,7 @@ By default, the device will automatically attempt to restart outside of active h
 
 ### Active hours
 
-Active hours are defined as when the device is in use by a user. By default, we avoid restarting devices during active hours to minimize disturbance to users.
+By default, we avoid restarting devices during active hours to minimize disturbance to users.
 
 #### Intelligent active hours
 
@@ -130,11 +145,11 @@ Use the  **Specify active hours range for auto-restarts** policy to set the rang
 
 You can enable the policy and configure it for the number of hours you want to allow users to have as a maximum active hours range. The allowed values are between eight and 18 hours; the default is 18 hours. We recommend configuring a maximum range of 12 hours to balance the user’s usage and to ensure enough time to update outside of active hours.
 
-### Microsoft recommendation
+#### Microsoft recommendation
 
 Microsoft recommends that you do not configure this policy and allow Intelligent active hours to take effect, or allow your users to configure active hours for a better user experience.
 
-#### Use an MDM to set the active hours range for auto-restarts
+### Use an MDM to set the active hours range for auto-restarts
 
 Alternatively, you can use an MDM to configure the [Update/ActiveHoursMaxRange]( https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update) CSP for the number of hours you want to allow as the maximum active hours range. The allowed range is between eight and 18 hours; 18 is the default.
 
@@ -150,83 +165,6 @@ This GP will only work for devices running the educational (EDU) versions of Win
 
 >[!Warning] This policy causes scan, download, install, and restart to occur outside of active hours. This policy might slow update adoption and diminish compliance.
 
-## Deadlines
-
-We provide the following deadline controls:
-
-- Compliance deadline (recommended).
-- Engaged restart deadline.
-- Specify deadline before auto-restart for update installations.
-
-We only recommend compliance deadline for devices running Windows 10, version 1803 and above. The other two deadline types are best for devices running Windows 10, version 1709 and below.
-
-### Compliance deadlines
-
-There are different ways you can configure compliance deadlines:
-
-#### GP: Specify deadlines for automatic updates and restarts
-
-Enable the **Specify deadlines for automatic updates and restarts** Group Policy and configure as follows:
-
-- seven-day deadline for feature updates.
-- three-day deadline for quality updates.
-- two-day grace period.
-
-#### Use an MDM to configure deadlines
-
-For CSP, you can use the following policies:
-
-- Update/ConfigureDeadlineForFeatureUpdates
-- Update/ConfigureDeadlineForQualityUpdates
-- Update/ConfigureDeadlineGracePeriod
-
-You can configure the CSPs as follows:
-
-- seven-day deadline for feature updates.
-- three-day deadline for quality updates.
-- two-day grace period.
-  
-Microsoft Intune has only implemented the compliance deadline policy.
-
-:::image type="content" source="../media/4-compliance-deadline-settings-expanded.png" lightbox="../media/4-compliance-deadline-settings-inline.png" alt-text="Figure 15. Microsoft Intune compliance deadline settings.":::
-
-#### Compliance deadline behavior for feature updates
-
-The deadline and grace periods begin their countdowns from the time of the pending restart. The device:
-
-- Notifies the user when the effective deadline is reached. We calculate the effective deadline as the restart pending date + deadline or the restart pending date + grace period, whichever is greater.
-- Attempts to update outside of active hours.
-- Attempts to update during active hours.
-- Forces a restart once the deadline countdown reaches 0.
-
-#### Compliance deadline behavior for quality updates
-
-The deadline starts to count down from the time the update is offered; the grace period starts to count down from the time of the pending restart. The device:
-
-- Attempts to download and install at a convenient time based on UOS logic.
-- Notifies the user when the pending restart is reached.
-- Attempts to update outside of active hours.
-- Attempts to update during active hours when it reaches the effective deadline (calculated as quality update deployment date + deadline, reboot pending date + grace period).
-- Forces a restart when the deadline has passed.
-
-#### Deadlines and deployment policies
-
-Deadlines work in coordination with your pause and deferral settings. For example, if you set a quality update deadline of two days and a quality update deferral of seven days, users will not receive the quality update until day seven. The deadline will not force restart until day nine.
-
-|Deadline  |Deferral  |User experience  |Result  |
-|---------|---------|---------|---------|
-|Two days |Seven days|Receives update on day seven.|Forced restart on day nine.|
-
-Similarly, if you (or the user) pause quality updates, the deadline will not begin until after the pause has elapsed and a quality update is offered to the device. For example, if a user pauses all updates for seven days and the quality update deadline is set to two days, as soon as the pause period is over on day seven, the deadline begins and the device will immediately download, install, and restart to complete the update.
-
-|Pause  |Deadline  |Deferral  |User experience  |Result  |
-|---------|---------|---------|---------|---------|
-|Seven days|Two days|Not applicable|Receives the quality update on day eight. |Forced to install and restart on day ten.|
-
->[!Note] We recommend that you allow the compliance policy and configure it as described in Compliance deadlines.
-
-Additionally, set **Auto reboot before deadline** to **Yes**. This allows a device to automatically restart overnight, which provides a better user experience and improves compliance.
-
 ### Monitor Updates
 
-After configuring your devices, you might want to monitor updates in your organization to identify any devices that have encountered an update failure and need remediation.[Intune provides reporting capability within the management tool](https://docs.microsoft.com/mem/intune/protect/windows-update-compliance-reports?azure-portal=true). [Update Compliance](https://docs.microsoft.com/windows/deployment/update/update-compliance-get-started?azure-portal=true) provides a standalone Microsoft Azure solution for monitoring updates as well. You can then use [Azure Monitor Workbooks](https://docs.microsoft.com/azure/azure-monitor/platform/workbooks-overview?azure-portal=true) to build customer reporting solutions on top of the data Update Compliance provides.
+After configuring your devices, you want to monitor updates in your organization to identify any devices that have encountered an update failure and need remediation.[Intune provides reporting capability within the management tool](https://docs.microsoft.com/mem/intune/protect/windows-update-compliance-reports?azure-portal=true). [Update Compliance](https://docs.microsoft.com/windows/deployment/update/update-compliance-get-started?azure-portal=true) provides a standalone Microsoft Azure solution for monitoring updates as well. You can then use [Azure Monitor Workbooks](https://docs.microsoft.com/azure/azure-monitor/platform/workbooks-overview?azure-portal=true) to build customer reporting solutions on top of the data Update Compliance provides.
