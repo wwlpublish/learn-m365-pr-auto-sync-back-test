@@ -107,7 +107,7 @@ The final stage is to create the Access control or Session control policies. In 
 
     :::image type="content" source="../media/add-session-policy.png" alt-text="A screenshot of a session policy with the Block sending of messages based on real-time content inspection template selected.":::
     
-### Block or apply DLP to file downloads in Workplace from Facebook using Microsoft Cloud App Security
+## Block or apply DLP to file downloads in Workplace from Facebook using Microsoft Cloud App Security
 
 The following video demonstrates how to use DLP for file downloads in Workplace from Facebook using Cloud App Security:
 
