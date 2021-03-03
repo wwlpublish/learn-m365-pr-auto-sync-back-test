@@ -46,3 +46,7 @@ To remove a malicious inbox forwarding rule using Power Automate, perform the fo
 
 3. Enable the Microsoft Cloud App Security policy **Suspicious inbox forwarding**.
 4. Edit the **Suspicious inbox forwarding** policy, select **Send alerts to Power Automate**, and select the Power Automate flow that you created to handle these alerts.
+
+The following video gives you an overview of removing a malicious inbox forwarding rule using Power Automate:
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWyvLF]
