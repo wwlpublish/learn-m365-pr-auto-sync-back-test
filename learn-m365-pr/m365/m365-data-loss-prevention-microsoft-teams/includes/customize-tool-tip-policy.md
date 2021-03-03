@@ -15,11 +15,11 @@ These permissions are required only to create and apply a DLP policy. Policy enf
 
 ## Customize a tool tip
 
-Within the General Data Protection Regulation policy, there exists a specific rule, Low volume of content detected General Data Protection Regulation. In this walkthrough, you'll see how to create a custom tool tip for this rule.
+In this walkthrough, you'll see how to create a custom tool tip for a rule.
 
 1. In the left navigation of the Microsoft 365 Compliance, at the bottom of the page under Solutions, select **Show all**.  
 1. Choose **Data loss prevention**.
-1. On the **Data loss prevention** page, select the **U.S. Health Insurance Act (HIPPA)** radio button, and then select **Edit Policy**.
+1. On the **Data loss prevention** page, select the **U.S. Health Insurance Act (HIPAA)** radio button, and then select **Edit Policy**.
 :::image type="content" source="../media/6-edit-policy-inline.png" lightbox="../media/6-edit-policy-expanded.png" alt-text="Edit a policy.":::
 1. On the **Name your DLP policy** page, select **Next**.
 1. On the **Choose locations to apply the policy** page, select **Next**.

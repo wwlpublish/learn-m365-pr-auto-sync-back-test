@@ -14,9 +14,9 @@ Account information: For all of the walkthroughs in this learning path, you will
 1. On the **Start with a template or create a custom policy page**, under **Categories**, select **Medical and health**.
 1. In the **Templates** list, select **U.S. Health Insurance Act (HIPAA)**.
 1. Review the U.S. Health Insurance Act (HIPAA) template description and then select **Next**.
-:::image type="content" source="../media/5-start-template-hipaa-inline.png" lightbox="../media/5-start-template-hipaa-expanded.png" alt-text="Start HIPPA template.":::
+:::image type="content" source="../media/5-start-template-hipaa-inline.png" lightbox="../media/5-start-template-hipaa-expanded.png" alt-text="Start HIPAA template.":::
 1. On the **Name your DLP policy** page, review the default name and description and then select **Next**.
-1. On the **Choose locations to apply the policy page**, select Exchange email, SharePoint sites, OneDrive accounts, Teams chat and channel messages**.
+1. On the **Choose locations to apply the policy page**, select **Exchange email, SharePoint sites, OneDrive accounts, Teams chat and channel messages**.
 :::image type="content" source="../media/5-template-locations-inline.png" lightbox="../media/5-template-locations-expanded.png" alt-text="Choose locations.":::
 
 ## Customize the policy
