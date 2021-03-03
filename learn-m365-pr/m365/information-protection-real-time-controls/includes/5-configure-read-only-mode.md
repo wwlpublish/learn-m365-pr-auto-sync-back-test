@@ -56,3 +56,7 @@ To create a policy to block cut, copy, and print, perform the following steps:
 
 9. In **Actions** select **Block** and, optionally, **Customize block message**.
 10. Click **Create**.
+
+The following video gives you an overview of how to configure read-only mode for external users apps with Microsoft Cloud App Security:
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWyfA5]
