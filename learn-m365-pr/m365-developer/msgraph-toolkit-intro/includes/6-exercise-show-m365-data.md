@@ -1,4 +1,4 @@
-In this exercise, you'll practice using Microsoft Graph Toolkit components in your application and show data from Microsoft 365.
+In this exercise, we'll practice using Microsoft Graph Toolkit components in your application and showing data from Microsoft 365.
 
 ## Before you start
 
@@ -30,12 +30,10 @@ The final version of your **index.html** file will look as followed:
 
 ## Test your app in browser
 
-1. In Visual Studio Code, run **Live Server** to test your app.  
+1. In Visual Studio Code, run **Live Server** to test your app. Open your browser and navigate to http://localhost:3000. 
 
-2. Open your browser and navigate to http://localhost:3000. 
+2. Sign in with your Microsoft 365 developer tenant. Consent to the required calendar permissions and select **Accept**. 
 
-3. Sign in with your Microsoft 365 developer tenant. Consent to the required calendar permissions and select **Accept**. 
-
-4. Your app should show the user's upcoming calendar events: 
+3. Your app should show the user's upcoming calendar events: 
 
 :::image type="content" source="../media/06-final.gif" alt-text="Microsoft Graph Toolkit project final result":::
