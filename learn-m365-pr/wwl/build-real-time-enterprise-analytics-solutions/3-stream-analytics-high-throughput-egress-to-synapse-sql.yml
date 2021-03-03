@@ -4,7 +4,7 @@ title: Stream Analytics high-throughput egress to Synapse SQL
 metadata:
   title: Stream Analytics high-throughput egress to Synapse SQL
   description: "Stream Analytics high-throughput egress to Synapse SQL"
-  ms.date: 12/03/2020
+  ms.date: 02/26/2021
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial

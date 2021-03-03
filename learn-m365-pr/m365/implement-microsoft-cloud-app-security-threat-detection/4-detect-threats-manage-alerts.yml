@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.implement-mcas-threat-detection.4-detect-threats-and-manage-alerts
+metadata:
+  title: Detect threats and manage alerts
+  description: Cloud App Security alerts are your entry point into identifying potential security threats and other issues within your apps
+  ms.date: 01/30/2021
+  author: geoffallix
+  ms.author: v-gea
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Detect threats and manage alerts
+durationInMinutes: 5
+content: |
+  [!include[](includes/4-detect-threats-manage-alerts.md)]
