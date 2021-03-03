@@ -44,9 +44,9 @@ Your web application will have one HTML file and a folder for **Live Server** se
 
 These settings will ensure smooth testing of application locally when using **Live Server**.
 
-## Add code to sign in app with Login component
+## Add code to sign in to your app with Login component
 
-Before you start adding code to use toolkit in your web application, you'll need to set up an Azure Active Directory application.
+Before you start adding code to use the toolkit in your web application, you'll need to set up an Azure Active Directory application.
 
 You'll use the details of the Azure Active Directory application, to authenticate your application using the MSAL provider.
 
@@ -90,7 +90,7 @@ Add the following snippet into the body of your **index.html** file.
 
 Replace `YOUR-CLIENT-ID` with the **Application(client)ID** that you saved in the previous section.
 
-### Add Login component into your web app
+### Add Login component to your web app
 
 To add the login component of the toolkit to the application, add the following element in the body of the **index.html** file.
 
@@ -132,4 +132,4 @@ You'll be asked to consent to the required permissions the first time. Once you'
 
 :::image type="content" source="../media/4-exercise-sign-in-app/application-sign-in.gif" alt-text="Signed in application":::
 
-You've successfully implemented authentication mechanism to access Microsoft 365 data using the toolkit's Login component!
+You've successfully implemented an authentication mechanism to access Microsoft 365 data using the toolkit's Login component!
