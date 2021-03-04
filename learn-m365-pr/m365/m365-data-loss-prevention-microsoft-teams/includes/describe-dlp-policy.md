@@ -18,7 +18,7 @@ Rules are conditions and actions that you use to define when and how to protect 
 
 A rule is created to enforce a specific protection requirement. A DLP policy is used to group together common protection requirements.
 
-For example, imagine a set of rules designed to meet the Health Insurance Portability and Accountability Act (HIPPA) across all SharePoint Online sites and all OneDrive for Business sites. The policy looks for any document containing sensitive information that is shared with people outside your organization (the conditions) and then blocks access to document (the actions).
+For example, imagine a set of rules designed to meet the Health Insurance Portability and Accountability Act (HIPAA) across all SharePoint Online sites and all OneDrive for Business sites. The policy looks for any document containing sensitive information that is shared with people outside your organization (the conditions) and then blocks access to document (the actions).
 
 :::image type="content" source="../media/2-data-loss-prevention-policy.png" alt-text="Data loss prevention policy.":::
 
@@ -67,7 +67,7 @@ The email notification and policy tip provide the user with information about wh
 
 ## Grouping and logical operators
 
-Some DLP policies are very straightforward, for example, recognizing US Social Security Numbers. At other times, your DLP policy might need to recognize more loosely defined data. For example, if you need to identify content that is subject to the Health Insurance Portability and Accountability Act of 1996 (HIPPA), you would need to look for:
+Some DLP policies are very straightforward, for example, recognizing US Social Security Numbers. At other times, your DLP policy might need to recognize more loosely defined data. For example, if you need to identify content that is subject to the Health Insurance Portability and Accountability Act of 1996 (HIPAA), you would need to look for:
 
 - Content that contains specific types of sensitive information, such as a U.S. Social Security Number or Drug Enforcement Agency (DEA) Number.
 
