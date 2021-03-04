@@ -1,0 +1,40 @@
+### YamlMime:Module
+uid: learn-m365-pr.teams-calling-implement-calling-plans
+metadata:
+  title: Implementing Microsoft Calling Plans
+  description: This module will introduce you to the steps required implement Calling Plans. You will learn how to determine availability, proper licensing, and how to obtain phone numbers.
+  ms.date: 02/12/2021
+  author: iankensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Implementing Microsoft Calling Plans
+summary: This module will introduce you to the steps required implement Calling Plans. You will learn how to determine availability, proper licensing, and how to obtain phone numbers.
+abstract: |
+  Upon completion of this module, you`ll be able to:
+  - Understand the steps necessary to set up calling plans
+  - Understand how to transfer and port numbers
+  - Understand how to configure emergency numbers for both Calling Plans and Direct Routing
+prerequisites: |
+ - An understanding of Microsoft Teams Client
+ - An understanding of Microsoft Phone System
+ - An awareness of Microsoft Direct Routing
+iconUrl: https://docs.microsoft.com/media/learn/module.svg
+levels: 
+- advanced
+roles: 
+- administrator
+products: 
+- m365
+units:
+- learn-m365-pr.teams-calling-implement-calling-plans.introduction
+- learn-m365-pr.teams-calling-implement-calling-plans.step-one-find-calling-plans-available-country-region
+- learn-m365-pr.teams-calling-implement-calling-plans.step-two-buy-assign-licenses
+- learn-m365-pr.teams-calling-implement-calling-plans.step-three-get-phone-numbers
+- learn-m365-pr.teams-calling-implement-calling-plans.step-four-emergency-addresses-locations-organization
+- learn-m365-pr.teams-calling-implement-calling-plans.step-five-assign-emergency-phone-number-user
+- learn-m365-pr.teams-calling-implement-calling-plans.step-six-tell-users-about-new-phone-numbers
+- learn-m365-pr.teams-calling-implement-calling-plans.knowledge-check
+- learn-m365-pr.teams-calling-implement-calling-plans.summary
+badge:
+  uid: learn-m365-pr.teams-calling-implement-calling-plans.badge
