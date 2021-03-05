@@ -62,7 +62,7 @@ Below is an example of query output. It includes selected human resource attribu
 
 ![Query output](../media/flexible-query-outputs.png)
 
-Query output is available as a downloadable .csv file or as an OData link which can be loaded into business intelligence tools, such as PowerBI, to create impactful reports and presentations. For some queries, you can also visualize the results directly within Workplace Analytics.
+Query output is available as a downloadable .csv file or as an OData link which can be loaded into business intelligence tools, such as Power BI, to create impactful reports and presentations. For some queries, you can also visualize the results directly within Workplace Analytics.
 
 ## Learn more
 
