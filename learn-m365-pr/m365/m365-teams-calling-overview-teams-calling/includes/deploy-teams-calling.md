@@ -12,7 +12,7 @@ If your organization is implementing location-based routing for Direct Routing, 
 You can define network regions, network sites, and subnets using the Teams admin center. Alternatively, you can use PowerShell. For details, read [Manage your network topology for cloud voice features in Microsoft Teams](https://docs.microsoft.com/microsoftteams/manage-your-network-topology)
 
 Verify that all locations can connect to Office 365 or Microsoft 365.
-For additional information on network requirements, see [Prepare your organization's network for Microsoft Teams](https://docs.microsoft.com/microsoftteams/prepare-network).
+For more information on network requirements, see [Prepare your organization's network for Microsoft Teams](https://docs.microsoft.com/microsoftteams/prepare-network).
 
 ## Configure Calling Plan if not using Direct Routing
 
@@ -31,7 +31,7 @@ Configure the default bridge number, set up languages for conference bridge phon
 
 ## Configure auto attendants and call queues
 
-Determine how you are going to use these features in your organization. For example, what languages must be supported, should you allow voice inputs or only enable dialling inputs, how are calls routed during off hours and holidays, do you want to record your own messages or use the system-generated voice.
+Determine how you are going to use these features in your organization. For example, what languages must be supported, should you allow voice inputs or only enable dialing inputs, how are calls routed during off hours and holidays, do you want to record your own messages or use the system-generated voice.
 Configure the call routing flow for auto attendants. For example, should the call be transferred directly to a specific person that can receive voice calls, should the target be a voice app, voicemail, or an external number. Alternatively, should the call be directed based on dial options such as an extension number or by spelling a person’s name.
 
 For call queues, determine how to handle call overflow (if the number of calls exceeds a preconfigured limit), and call timeouts.

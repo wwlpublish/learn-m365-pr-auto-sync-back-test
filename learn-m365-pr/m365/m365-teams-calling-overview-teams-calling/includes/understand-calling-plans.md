@@ -16,4 +16,4 @@ An administrator can purchase a calling plan using the Microsoft 365 Admin Cente
 
 :::image type="content" source="../media/6-pricing-plan.png" alt-text="Pricing plan":::
 
-For current information on pricing, visit [Pricing for Calling Plans and Phone System](https://www.microsoft.com/microsoft-365/microsoft-teams/voice-calling)
+The pricing in this image is provided as an example. For current information on pricing, visit [Pricing for Calling Plans and Phone System](https://www.microsoft.com/microsoft-365/microsoft-teams/voice-calling)

@@ -15,7 +15,7 @@ The right-hand pane enables you to add speed dial icons.
 
 Teams Client enables the meeting owner (usually the person that started the call) to record a conversation. Other members of a team can replay this recording if they were unable to be present for a call.
 
-Teams can generate captions in real time, using voice recognition algorithms. A profanity filter detects and removes cuss words. The text is displayed at the bottom of the Teams pane. This service is currently only available for English, but other languages will soon be available.
+Teams can generate captions in real time, using voice recognition algorithms. A profanity filter detects and removes cuss words. The text is displayed at the bottom of the Teams pane. This service is currently only available for English.
 
 The captions aren’t saved. Captioning has to be enabled by a user in the conversation. An administrator can set Teams meeting policy controls to determine whether users can create captions for meetings.
 

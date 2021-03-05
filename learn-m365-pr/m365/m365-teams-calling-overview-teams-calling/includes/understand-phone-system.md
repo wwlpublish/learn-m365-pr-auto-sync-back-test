@@ -3,7 +3,7 @@ Microsoft Phone System acts like a virtual PBX for your business. You can use it
 > [!NOTE]
 > In some countries and regions, it's illegal to bypass the PSTN provider to decrease long-distance calling costs. Location-Based Routing for Direct Routing enables you to restrict toll bypass for Microsoft Teams users based on their geographic location. For more information, read [Plan Location-Based Routing for Direct Routing]( https://docs.microsoft.com/microsoftteams/location-based-routing-plan).
 
-## Calling Users
+## Calling users
 
 Phone System is integrated with Teams and Office 365. To make a call, a user can select a name from their address book and click. Phone System users can place calls using a mobile device, a laptop or PC, or any of the IP phones that can operate with Teams.
 
