@@ -2,7 +2,7 @@ Workplace Analytics provides organizations with high-level insights into how emp
 
 ## Workplace Analytics Home page
 
-The Workplace Analytics **Home** provides a quick look at leadership ready insights related to nine business outcomes. Each outcome provides a high-level look at relevant metrics, with links to supporting evidence and deeper analysis. These insights are useful to quickly identify patterns you want to investigate further.
+The Workplace Analytics **Home** page provides a quick look at leadership ready insights related to nine business outcomes. Each outcome provides a high-level look at relevant metrics, with links to supporting evidence and deeper analysis. These insights are useful to quickly identify patterns you want to investigate further.
 
 In the upper right, **Your organization’s data** gives you a high-level look at your organization’s Workplace Analytics data, including the date range and measured employees included in the analysis. (**Measured employees** are defined as employees with a Workplace Analytics license.)
 
