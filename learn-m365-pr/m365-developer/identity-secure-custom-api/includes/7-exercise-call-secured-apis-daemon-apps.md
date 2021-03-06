@@ -17,38 +17,26 @@ On the **App registrations** page, locate the application registration that repr
 
 ![Screenshot of the application ID of the new app registration for the API app](../media/03-azure-ad-portal-new-app-details.png)
 
-To expose application permissions for the web API, you need to edit the manifest. In the application registration for your application, select **Manifest**.
+Select **App roles** in the left-hand navigation.
 
-In the manifest editor, find the name **appRoles**. The default value is an empty array. Replace the **appRoles** node with the following JSON:
+Select **Create app role**.
 
-```json
-"appRoles": [
-  {
-    "allowedMemberTypes": [ "Application" ],
-    "description": "Accesses the Product Catalog API as an application.",
-    "displayName": "access_as_application",
-    "id": "<NEW-GUID>",
-    "isEnabled": true,
-    "lang": null,
-    "origin": "Application",
-    "value": "access_as_application"
-  }
-],
-```
+On the **Create app role** panel, set the values as follows:
 
-![Screenshot of the application registration with the manifest link highlighted](../media/07-azure-ad-portal-app-reg-manifest.png)
+- **Display name**: access_as_application
+- **Allowed member types**: Applications
+- **Value**: access_as_application
+- **Description**: Accesses the Product Catalog API as an application.
+- **Do you want to enable this app role?**: Checked
 
-When updating the manifest, consider the following requirements:
+Select **Apply**.
+
+![Screenshot of the app roles of the app registration](../media/07-azure-ad-portal-app-roles.png)
+
+When creating an app role, consider the following requirements:
 
 - Leave allowedMemberTypes set to "Application" only.
 - Make sure displayName and value don't contain spaces.
-- Replace the string `<NEW-GUID>` with a new GUID. Make sure its a unique GUID. The following PowerShell will generate a new GUID:
-
-```powershell
-New-Guid
-```
-
-Save the manifest by selecting the **Save** button.
 
 ## Register daemon app to call a protected web API
 

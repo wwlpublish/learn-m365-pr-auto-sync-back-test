@@ -44,7 +44,7 @@ On the **Configure Web** panel, use the following values to configure the applic
 
 - **Redirect URIs**: https://localhost:5001/signin-oidc
 - **Logout URL**: https://localhost:5001/signout-oidc
-- **Implicit grant**: select **ID tokens**
+- **Implicit grant and hybrid flows**: select **ID tokens (used for implicit and hybrid flows)**
 
 Select **Configure** when finished setting these values.
 
@@ -136,44 +136,19 @@ namespace Constants
 
 Locate and open the **./Startup.cs** file in the ASP.NET Core project.
 
-Add the following `using` statements after the existing `using` statements:
+Within the `ConfigureServices()` method, locate the following line:
 
 ```csharp
-using Microsoft.AspNetCore.Http;
-using Microsoft.Identity.Web;
-using Microsoft.Identity.Web.TokenCacheProviders.InMemory;
-using Microsoft.Identity.Web.UI;
+services.AddAuthentication(OpenIdConnectDefaults.AuthenticationScheme)
+    .AddMicrosoftIdentityWebApp(Configuration.GetSection("AzureAd"));
 ```
-
-Locate the method `ConfigureServices()`.
-
-Replace the body of the method with the following code. This code will configure the web app's middleware to support Azure AD for authentication and to obtain an ID token:
+Update the line to the following. This will configure the web app's middleware to add support for the Microsoft Graph:
 
 ```csharp
-services.Configure<CookiePolicyOptions>(options =>
-{
-  // This lambda determines whether user consent for non-essential cookies is needed for a given request.
-  options.CheckConsentNeeded = context => true;
-  options.MinimumSameSitePolicy = SameSiteMode.Unspecified;
-  // Handling SameSite cookie according to https://docs.microsoft.com/en-us/aspnet/core/security/samesite?view=aspnetcore-3.1
-  options.HandleSameSiteCookieCompatibility();
-});
-
-services.AddOptions();
-
-services.AddMicrosoftIdentityWebAppAuthentication(Configuration)
-  .EnableTokenAcquisitionToCallDownstreamApi(Constants.ProductCatalogAPI.SCOPES)
-  .AddInMemoryTokenCaches();
-
-services.AddControllersWithViews(options =>
-{
-  var policy = new AuthorizationPolicyBuilder()
-                .RequireAuthenticatedUser()
-                .Build();
-  options.Filters.Add(new AuthorizeFilter(policy));
-}).AddMicrosoftIdentityUI();
-
-services.AddRazorPages();
+services.AddAuthentication(OpenIdConnectDefaults.AuthenticationScheme)
+    .AddMicrosoftIdentityWebApp(Configuration.GetSection("AzureAd"))
+    .EnableTokenAcquisitionToCallDownstreamApi(Constants.ProductCatalogAPI.SCOPES)
+    .AddInMemoryTokenCaches();
 ```
 
 ### Add a Categories model, controller, and view to the web app
