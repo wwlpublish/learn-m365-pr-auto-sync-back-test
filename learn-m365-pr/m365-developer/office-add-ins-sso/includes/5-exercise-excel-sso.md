@@ -232,4 +232,4 @@ Select the **Show Taskpane** button, then select the **Get last 10 emails** butt
 
 Because you're already signed in, after a moment, you'll see the recent emails appear in the worksheet without having to sign in.
 
-![Screenshot of the add-in in Excel](../media/05-test-app-03.png)
+![Screenshot of the final add-in in Excel](../media/05-test-app-03.png)
