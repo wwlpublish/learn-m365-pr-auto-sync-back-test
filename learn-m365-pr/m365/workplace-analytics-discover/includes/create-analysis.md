@@ -124,7 +124,7 @@ Not all scheduled meetings are business-related. People often have personal appo
 
 Workplace Analytics has a built-in solution to address these issues called **Exclusions**. Analysts can use meeting or attendee exclusions to create specific rules for which meetings or attendees to include while adding each rule to a dropdown list of rules for specific analyses.
 
-![Exclusions](../media/exclusion-type.png)
+![Exclusions](../media/exclusion-types.png)
 
 With meeting exclusions, you can:
 
@@ -142,7 +142,7 @@ With attendee exclusions, you can:
 - Exclude invitees who accepted meeting invitations as Tentative.
 - Exclude invitees who did not respond to meeting invitations.
 
-![Attendee exclusions](../media/attendee-exclusions.png)
+![Attendee exclusions](../media/attendee-exclusion.png)
 
 Use meeting or attendee exclusion rules in Workplace Analytics to exclude meetings or attendees you don’t want to include in your analysis (or include meetings excluded in the default meeting exclusion rule).
 

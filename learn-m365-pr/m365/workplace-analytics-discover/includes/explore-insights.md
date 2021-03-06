@@ -27,7 +27,7 @@ The nine available business outcomes are:
 
 Click any of the business outcomes and you'll see each contains high-level analysis for key leading indicators. The following example is a glimpse into the **Develop effective managers** outcome.
 
-![Develop effective managers outcome](../media/develop-managers.png)
+![Develop effective managers outcome](../media/develop-manager.png)
 
 For additional resources and analyses, you can explore the following links:
 
@@ -38,11 +38,11 @@ For additional resources and analyses, you can explore the following links:
 
 You are an HR executive at Contoso Corporation, and have been asked to work with your team to determine if managers are spending enough time developing employees in the organization. Using Workplace Analytics, you navigate to the Home page, select the **Develop effective managers** outcome, and scroll down to the **Promote coaching and development** insight. There, you find that over 60 percent of employees at Contoso get less than 15 minutes of one-on-one time with their manager in a month, indicating a need for more coaching.
 
-![Coaching scenario](../media/coaching-scenario.png)
+![Coaching scenario](../media/coaching-scenarios.png)
 
 In the **Take action** section of the insight, you can select **See your insights** to see impactful next steps you can take to drive change in your organization. For example, in **Develop effective managers > Increase frequency of coaching > See your insights**, you'll see recommendations, such as scheduling recurring one-on-one meetings, and groups that could benefit the most from these recommendations. This example also provides a link to an **Explore the stats** dashboard to investigate further.
 
-![Take action](../media/take-action-to-best-practices.png)
+![Take action](../media/take-action-to-best-practice.png)
 
 > [!NOTE]
 > In addition to recommendations in the **Take action** section, you may see links to **Explore the stats** dashboards, additional reports in **Explore in Power BI**, or options to create **Plans** and track success. The combination of links available depends on the chosen insight and user role.
