@@ -58,36 +58,47 @@ With the app registered in Azure AD, the next step is to configure the web app. 
 }
 ```
 
-Next, you need to modify the web app startup process to configure the support for signing-in with Azure AD and obtaining an ID token.
-
-In an ASP.NET Core web application, locate the `ConfigureServices()` method and replace its contents with the following:
+The first line in the scaffolded `ConfigureServices()` method in an ASP.NET Core web application adds Microsoft.Identity.Web using the `AddMicrosoftIdentityWebApp` method. This enables authentication with Azure AD:
 
 ```csharp
-// This lambda determines whether user consent for non-essential cookies is needed for a given request.
-options.CheckConsentNeeded = context => true;
-options.MinimumSameSitePolicy = SameSiteMode.Unspecified;
-// Handling SameSite cookie according to https://docs.microsoft.com/en-us/aspnet/core/security/samesite?view=aspnetcore-3.1
-options.HandleSameSiteCookieCompatibility();
+public void ConfigureServices(IServiceCollection services)
+{
+  services.AddAuthentication(OpenIdConnectDefaults.AuthenticationScheme)
+      .AddMicrosoftIdentityWebApp(Configuration.GetSection("AzureAd"));
+
+  services.AddControllersWithViews(options =>
+  {
+    var policy = new AuthorizationPolicyBuilder()
+              .RequireAuthenticatedUser()
+              .Build();
+    options.Filters.Add(new AuthorizeFilter(policy));
+  });
+  services.AddRazorPages()
+        .AddMicrosoftIdentityUI();
+}
 ```
 
-Then add the following code to the end of the `ConfigureServices()` method. This will complete the Azure AD configuration by doing the following steps:
-
-- Configure the web app to use the NuGet package's Microsoft.Identity.Web utility methods
-- Set up the controllers
-- configure the authentication to use the Microsoft identity UI
+You can update the code in the `ConfigureServices()` method to add support for the Microsoft Graph. This will configure the application to automatically handle token acquisition and to make a `GraphServiceClient` object available to all controllers via dependency injection:
 
 ```csharp
-services.AddOptions();
-services.AddMicrosoftIdentityWebAppAuthentication(Configuration)
-        .EnableTokenAcquisitionToCallDownstreamApi(new string[] { "User.Read" })
-        .AddInMemoryTokenCaches();
-services.AddControllersWithViews(options => {
-  var policy = new AuthorizationPolicyBuilder()
-                .RequireAuthenticatedUser()
-                .Build();
-  options.Filters.Add(new AuthorizeFilter(policy));
-}).AddMicrosoftIdentityUI();
-services.AddRazorPages();
+public void ConfigureServices(IServiceCollection services)
+{
+  services.AddAuthentication(OpenIdConnectDefaults.AuthenticationScheme)
+      .AddMicrosoftIdentityWebApp(Configuration.GetSection("AzureAd"))
+      .EnableTokenAcquisitionToCallDownstreamApi(new string[] { "User.Read" })
+      .AddMicrosoftGraph("https://graph.microsoft.com/v1.0", "User.Read")
+      .AddInMemoryTokenCaches();
+
+  services.AddControllersWithViews(options =>
+  {
+    var policy = new AuthorizationPolicyBuilder()
+              .RequireAuthenticatedUser()
+              .Build();
+    options.Filters.Add(new AuthorizeFilter(policy));
+  });
+  services.AddRazorPages()
+        .AddMicrosoftIdentityUI();
+}
 ```
 
 ## Signing-in & acquiring tokens
@@ -96,15 +107,7 @@ The sign-in process is handled by redirecting the user to the Azure AD sign-in p
 
 The sign-in process uses the values from the **appsettings.json** file and the configuration defined in the previous setup to create the Azure AD URL to send the user to. This URL specifies things like the Azure AD application's ID, the tenant ID, and the scopes required by the web application.
 
-When a user signs-in to Azure AD and is redirected back to the web application, the web app can use the MSAL.NET library to obtain an access token:
-
-```csharp
-List<string> scopes = new List<string>();
-IAccount account = {};
-var accessToken = await application.AcquireTokenSilent(scopes, account).ExecuteAsync();
-```
-
-The account is retrieved from the currently signed-in user. The token can then be used to call a secured endpoint.
+When a user signs-in to Azure AD and is redirected back to the web application, the web app uses the MSAL.NET library to obtain an access token. This is handled for you by the Microsoft.Identity.Web library.
 
 ## Calling APIs (MS Graph)
 
@@ -114,23 +117,19 @@ The last part of the process is to use the access code in a request to a secured
 [Authorize]
 public class UserController : Controller
 {
-  private readonly ITokenAcquisition _tokenAcquisition;
+  private readonly ILogger<UserController> _logger;
+  private readonly GraphServiceClient _graphServiceClient;
 
-  public UserController(ITokenAcquisition tokenAcquisition)
+  public UserController(ILogger<UserController> logger, GraphServiceClient graphServiceClient)
   {
-    _tokenAcquisition = tokenAcquisition;
+    _logger = logger;
+    _graphServiceClient = graphServiceClient;
   }
 
   [AuthorizeForScopes(Scopes = new[] { "User.Read" })]
   public async Task<IActionResult> Index()
   {
-    var graphServiceClient = new GraphServiceClient(
-        new DelegateAuthenticationProvider(async (request) =>
-        {
-          var accessToken = await _tokenAcquisition.GetAccessTokenForUserAsync(new[] { "User.Read" });
-          request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
-        }));
-    var user = await graphServiceClient.Me.Request().GetAsync();
+    var user = await _graphServiceClient.Me.Request().GetAsync();
 
     return View(user);
   }
