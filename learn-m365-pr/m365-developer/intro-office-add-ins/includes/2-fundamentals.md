@@ -147,7 +147,7 @@ You can configure an add-in so that a user can run it by selecting:
 - Context menu item
   - Key manifest setting: `<ExtensionPoint xsi:type="ContextMenu">`.
 
-An add-in command can also open a submenu with additional commands.
+An add-in command can also open a submenu with more commands.
 
 > [!NOTE]
 > Content add-ins don't currently support add-in commands.
@@ -171,7 +171,7 @@ You can configure an add-in so that a user can run it by selecting a button in t
 - Viewing a meeting as an attendee.
   - Key manifest setting: `<ExtensionPoint xsi:type="AppointmentAttendeeCommandSurface">`.
 
-An add-in command can also open a submenu with additional commands.
+An add-in command can also open a submenu with more commands.
 
 The following images show three add-in commands (custom buttons) added to the ribbon in Outlook. In the first image, the buttons are rendered in a regular state; in the second image, the buttons are rendered in a collapsed state.
 

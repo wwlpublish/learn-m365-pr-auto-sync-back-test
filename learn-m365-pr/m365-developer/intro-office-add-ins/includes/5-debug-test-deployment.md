@@ -46,7 +46,7 @@ You can debug your add-in using the following methods:
 - Visual Studio Code for custom functions projects only
 - Runtime logging on Windows and Mac
 
-If you need to debug your add-in on a specific platform, there are additional tools that may help you. A few options for Windows and Mac are mentioned next in this section.
+If you need to debug your add-in on a specific platform, there are more tools that may help you. A few options for Windows and Mac are mentioned next in this section.
 
 #### Windows
 
