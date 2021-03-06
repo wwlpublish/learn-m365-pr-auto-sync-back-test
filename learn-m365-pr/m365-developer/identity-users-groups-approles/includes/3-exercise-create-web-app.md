@@ -34,7 +34,7 @@ On the **Configure Web** panel, use the following values to configure the applic
 
 - **Redirect URIs**: https://localhost:5001/signin-oidc
 - **Logout URL**: https://localhost:5001/signout-oidc
-- **Implicit grant**: select **ID tokens**
+- **Implicit grant and hybrid flows**: select **ID tokens (used for implicit and hybrid flows)**
 
 Select **Configure** when finished setting these values.
 
@@ -69,63 +69,6 @@ Set the `AzureAd.Domain` property to the domain of your Azure AD tenant where yo
 Set the `AzureAd.TenantId` property to the **Directory (tenant) ID** you copied when creating the Azure AD application in the previous section.
 
 Set the `AzureAd.ClientId` property to the **Application (client) ID** you copied when creating the Azure AD application in the previous section.
-
-### Configure web application middleware
-
-Locate and open the **./Startup.cs** file in the ASP.NET Core project.
-
-Add the following `using` statement after the existing `using` statements:
-
-```csharp
-using Microsoft.AspNetCore.Http;
-using Microsoft.Identity.Web;
-using Microsoft.Identity.Web.UI;
-using Microsoft.AspNetCore.Authentication.OpenIdConnect;
-```
-
-Locate the method `ConfigureServices()`.
-
-Replace the body of the method with the following code. This code will configure the web app's middleware to support Azure AD for authentication and to obtain an ID token:
-
-```csharp
-services.Configure<CookiePolicyOptions>(options =>
-{
-  // This lambda determines whether user consent for non-essential cookies is needed for a given request.
-  options.CheckConsentNeeded = context => true;
-  options.MinimumSameSitePolicy = SameSiteMode.Unspecified;
-  // Handling SameSite cookie according to https://docs.microsoft.com/en-us/aspnet/core/security/samesite?view=aspnetcore-3.1
-  options.HandleSameSiteCookieCompatibility();
-});
-
-services.AddOptions();
-
-services.AddMicrosoftIdentityWebAppAuthentication(Configuration);
-
-services.AddControllersWithViews(options =>
-{
-  var policy = new AuthorizationPolicyBuilder()
-                .RequireAuthenticatedUser()
-                .Build();
-  options.Filters.Add(new AuthorizeFilter(policy));
-}).AddMicrosoftIdentityUI();
-
-services.AddRazorPages();
-```
-
-Within the method `ConfigureServices()`, locate the following line:
-
-```csharp
-services.AddMicrosoftIdentityWebAppAuthentication(Configuration);
-```
-
-Add the following code after this line. This code will configure the web app's middleware to support the v2 tokens from Microsoft identity:
-
-```csharp
-services.Configure<OpenIdConnectOptions>(AzureADDefaults.OpenIdScheme, options =>
-{
-  options.Authority = options.Authority + "/v2.0/";
-});
-```
 
 ### Update the user experience
 
