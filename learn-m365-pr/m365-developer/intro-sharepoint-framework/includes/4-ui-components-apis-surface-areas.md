@@ -199,7 +199,7 @@ To approve or reject permission requests, navigate to the **API Management** pag
 
 Select the permission request to view its details and use the buttons at the bottom of the panel to approve or reject the request:
 
-![Screencast of the API management page in the SharePoint Admin Center](../media/04-api-management-02.png)
+![Screencast of the API management dialog in the SharePoint Admin Center](../media/04-api-management-02.png)
 
 ## Extend Microsoft Teams with the SharePoint Framework
 
