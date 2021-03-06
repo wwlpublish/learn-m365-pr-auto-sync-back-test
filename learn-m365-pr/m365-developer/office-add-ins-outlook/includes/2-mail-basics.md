@@ -34,7 +34,7 @@ Modern Office add-ins are just web app applications. Office clients include Offi
 
 The web applications that implement a modern Office add-in are hosted by the developer, which results in a greatly simplified deployment, installation, and upgrade experience for end users. There's zero client footprint on installation. In fact, when the add-in is installed in one Office client, provided the user is signed into their Office 365 account, the add-in will be available in the desktop, mobile, and web Office client applications.
 
-![Screenshot of historical challenges with add-ins](../media/02-modern-add-in-value-proposition.png)
+![Screenshot of add-in structure](../media/02-modern-add-in-value-proposition.png)
 
 A single XML manifest file is used to define the requirements, limitations, and metadata about the add-in. This manifest file is used by Office to determine integration points such as the type of add-in, buttons to add to the ribbon, the location of the web application, and other metadata including the title and description of the add-in.
 
