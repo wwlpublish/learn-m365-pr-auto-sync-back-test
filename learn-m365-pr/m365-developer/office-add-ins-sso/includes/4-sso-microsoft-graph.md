@@ -89,7 +89,7 @@ const response = await sso.getGraphData(exchangeResponse.access_token, endpoint,
 
 As previously mentioned, if the user hasn't granted consent to Microsoft Graph for the necessary permissions, or if they need to sign in, all the code snippets above can be wrapped in a `try-catch` block that handles authentication and authorization errors returned by Azure AD. In those cases, it implements the fallback authorization dialog system:
 
-```java
+```javascript
 const fallbackAuthHelper = require("./fallbackAuthHelper");
 
 // ...
