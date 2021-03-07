@@ -1,4 +1,4 @@
-The Microsoft Teams Platform is a powerful, flexible platform for creating apps for Microsoft Teams. However, that doesn't mean it will fit all scenarios. In this unit, we discuss some key scenarios where Teams apps excel.
+The Microsoft Teams Platform is a powerful, flexible platform for creating apps for Microsoft Teams. That doesn't mean it will fit all scenarios. In this unit, we discuss some key scenarios where Teams apps excel.
 
 ## When to use a Teams app
 
@@ -12,7 +12,7 @@ Apps that focus on encouraging social interactions between team members work als
 
 ### Starting & helping common business processes
 
-Teams can be an effective platform for launching, and helping the completion of, common business processes. Things like creating and sharing a sales call report, tracking your time against a project, reserving common resources, submitting help desk requests and more can make for effective Teams apps. Often there is already some other system responsible for completing these actions. In those cases, using Teams as a bridge to initiate the process, and for communicating during the process can create an effective hybrid app.
+Teams can be an effective platform for launching, and helping the completion of, common business processes. Things like creating and sharing a sales call report, tracking your time against a project, reserving common resources, submitting help desk requests and more can make for effective Teams apps. Often there is already some other system responsible for completing these actions. In those cases, using Teams as a bridge to start the process, and for communicating during the process can create an effective hybrid app.
 
 ### Surfacing some (or all) of your existing app
 
@@ -26,8 +26,8 @@ One-to-one conversational bots are one of the more open-ended extensibility poin
 
 ### There's already a good way to do that
 
-If there's already a good way to accomplish the task your potential Teams app is trying to perform, and/or your users are already used to accomplishing it with an existing system, converting the experience to within the Microsoft Teams client may be difficult. Instead you should look for ways to make the existing application and Microsoft Teams work together. It might make sense to send notifications to users or channels, or initiate workflows from within Teams, but complete the workflow in another app.
+If there's already a good way to accomplish the task your potential Teams app is trying to perform, and/or your users are already used to accomplishing it with an existing system, converting the experience to within the Microsoft Teams client may be difficult. Instead you should look for ways to make the existing application and Microsoft Teams work together. It might make sense to send notifications to users or channels, or start workflows from within Teams, but complete the workflow in another app.
 
 ### Apps that aren't designed to be used regularly
 
-In general, apps built for Microsoft Teams fit seamlessly into the Teams client. This is good for your users, typically they don't think about the thing that they're using as an "app"; they just select a button, search for a thing, and the correct card shows up in a conversation. However, this means that in most cases your app is not featured in any particular context. If your app is only designed to be used rarely, it can be easy for users to forget it is there. Most successful apps stay top-of-mind for users through regular use.
+In general, apps built for Microsoft Teams fit seamlessly into the Teams client. This is good for your users, typically they don't think about the thing that they're using as an "app"; they just select a button, search for a thing, and the correct card shows up in a conversation. However, this means that in most cases your app isn't featured in any particular context. If your app is only designed to be used rarely, it can be easy for users to forget its there. Most successful apps stay top-of-mind for users through regular use.
