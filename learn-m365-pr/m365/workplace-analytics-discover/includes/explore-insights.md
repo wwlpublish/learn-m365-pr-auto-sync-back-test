@@ -49,7 +49,7 @@ In the **Take action** section of the insight, you can select **See your insight
 
 **Explore the stats** dashboards provide a quick way to look at Workplace Analytics metrics summarized by group over time. While the Home page provides high-level insights related to business outcomes, the **Explore the stats** dashboards cover a wider range of metrics. 
 
-![Explore the stats](../media/explore-the-stats.png)
+![Explore the stats](../media/explore-stats.png)
 
 > [!NOTE]
 > **Explore the stats** dashboards reflect a rolling window of the six most recent months of weekly collaboration data.
