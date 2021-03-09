@@ -31,4 +31,4 @@ Use these resources to discover more.
 - Access [How to shift to a Windows 10 and Microsoft 365 Apps for enterprise](https://techcommunity.microsoft.com/t5/IT-Resources-Training-Blog/How-to-shift-to-a-modern-desktop/ba-p/259907) to read more and find resources to help plan and deploy. 
 - Access [Device Management dashboard](https://devicemanagement.portal.azure.com/) to see how you can manage mobile devices and the services used for device management, Intune, and Azure Active Directory.
 - Access [Co-management for Windows 10 devices](https://docs.microsoft.com/sccm/core/clients/manage/co-management-overview) to learn more about supporting desktops with traditional and modern workplace tools.
-- Access [Microsoft Autopilot](https://docs.microsoft.com/windows/deployment/windows-10-auto-pilot) or [Microsoft Intune](https://docs.microsoft.com/en-us/mem/intune/fundamentals/what-is-intune) for more information on these products.
+- Access [Microsoft Autopilot](https://docs.microsoft.com/windows/deployment/windows-10-auto-pilot) or [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune) for more information on these products.
