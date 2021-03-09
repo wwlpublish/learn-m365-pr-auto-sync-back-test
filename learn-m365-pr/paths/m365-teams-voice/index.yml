@@ -1,0 +1,34 @@
+### YamlMime:LearningPath
+uid: learn-m365-pr.m365-teams-calling
+metadata:
+  title: Microsoft Teams Calling with Phone System
+  description: Use Microsoft Teams to implement telephony in your business and integrate it with video conferences, chats, and other Teams features. 
+  ms.date: 02/17/2021
+  author: iankensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Microsoft Teams Calling with Phone System
+summary: "Microsoft Teams Phone System is a private branch exchange (PBX) system that you can use to build a telephone system without complicated and expensive equipment. Phone System seamlessly integrates with Microsoft Teams, bringing together telephony, video conference, and chats in one unified application. Through Teams Calling, any user can make and receive calls from any location using their work number. Phone System supports Microsoft Calling Plans and Direct Routing depending on whether your company has an existing carrier or their own on-premises PBX. Support for voicemail and other features can be managed through the Teams Admin Center."
+prerequisites: |
+  - Familiarity with Microsoft Teams
+  - Familiarity with Voice over IP (VOIP)
+  - Familiarity with private branch exchange (PBS)
+  - Familiarity with public switched telephony network (PSTN)
+iconUrl: /learn/achievements/manage-teams-calling-with-microsoft-teams.svg
+levels: 
+- advanced
+roles:
+- administrator
+products: 
+- m365
+modules:
+- learn-m365-pr.m365-teams-calling-overview
+- learn-m365-pr.teams-calling-plan-teams-calling-solution
+- learn-m365-pr.m365-teams-calling-setup-phone-system-for-teams
+- learn-m365-pr.teams-calling-implement-calling-plans
+- learn-m365.teams.plan-direct-routing
+- learn-m365.teams.configure-manage-direct-routing
+- learn-m365-pr.m365-teams-calling-onboard-manage-users
+trophy: 
+  uid: learn-m365-pr.m365-teams-calling.trophy
