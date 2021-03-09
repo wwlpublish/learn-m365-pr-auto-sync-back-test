@@ -72,6 +72,9 @@ In the **Configured Permissions** panel, select the button **Grant admin consent
 
 ## Create .NET Core console application
 
+> [!NOTE]
+> The instructions below assume you are using .NET 5. They were last tested using v5.0.102 of the .NET 5 SDK.
+
 Open your command prompt, navigate to a directory where you have rights to create your project, and run the following command to create a new .NET Core console application:
 
 ```console
@@ -393,6 +396,12 @@ if (successRequests != totalRequests)
 ```
 
 ### Build and test the application
+
+Run the following command to ensure the developer certificate has been trusted:
+
+```console
+dotnet dev-certs https --trust
+```
 
 Run the following command in a command prompt to compile the console application:
 
