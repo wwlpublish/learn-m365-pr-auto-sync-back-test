@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.m365-teams-calling-setup-phone-system-for-teams.setup-emergency-calling
+metadata:
+  title: Set up emergency calling
+  description: ...
+  ms.date: 02/12/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+title: Set up emergency calling
+durationInMinutes: 6
+content: |
+  [!include[](includes/setup-emergency-calling.md)]

@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.m365-teams-calling-setup-phone-system-for-teams.setup-capabilities
+metadata:
+  title: Set up key capabilities
+  description: ...
+  ms.date: 02/12/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+title: Set up key capabilities
+durationInMinutes: 5
+content: |
+  [!include[](includes/setup-key-capabilities.md)]
