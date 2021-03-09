@@ -126,12 +126,7 @@ Copy the value of the secret as you'll need it later.
 
 In this section, you will create a new Node.js project.
 
-> [!NOTE]
-> At the time of publication of this module, there are plans to update the Yeoman generator for Microsoft Teams to scaffold new bot projects using the  the Bot Framework v4 SDK. However, at the time of publication of this module, the default project uses an older version of the Bot Framework SDK.
->
-> Therefore, the steps in this section may change over time because the Yeoman generator may simplify the creation of bots. This exercise will guide you through creating a bot and configuring the project manually to use the Bot Framework v4 SDK because this is the current recommended approach.
-
-Open your command prompt, navigate to a directory where you want to save your work, create a new folder **learn-msteams-bots**, and change directory into that folder.
+Open your command prompt, navigate to a directory where you want to save your work, create a new folder **learn-msteams-msgext**, and change directory into that folder.
 
 Run the Yeoman Generator for Microsoft Teams by running the following command:
 
@@ -146,13 +141,10 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Title of your Microsoft Teams App project?**: Planet Messaging
 - **Your (company) name? (max 32 characters)**: Contoso
 - **Which manifest version would you like to use?**: v1.8
-- **Enter your Microsoft Partner Id, if you have one?**: (Leave blank to skip)
+- **Quick scaffolding**: Yes
 - **What features do you want to add to your project?**: *(uncheck the default option **A Tab** using the <kbd>space</kbd> key and press <kbd>enter</kbd>)*
 - **The URL where you will host this solution?**: (Accept the default option)
 - **Would you like show a loading indicator when your app/tab loads?**: No
-- **Would you like personal apps to be rendered without a tab header-bar?** No
-- **Would you like to include Test framework and initial tests?**: No
-- **Would you like to use Azure Applications Insights for telemetry?**: No
 
 > [!NOTE]
 > Most of the answers to these questions can be changed after creating the project. For example, the URL where the project will be hosted isn't important at the time of creating or testing the project.
@@ -163,9 +155,9 @@ After answering the generator's questions, the generator will create the scaffol
 
 In this section, you'll manually add a bot to the project.
 
-Create a new folder **planetBot** in the **./src/app** folder.
+Create a new folder **planetBot** in the **./src/server** folder.
 
-Create a new file **planetBot.ts** in this new folder **./src/app/planetBot/planetBot.ts**.
+Create a new file **planetBot.ts** in this new folder **./src/server/planetBot/planetBot.ts**.
 
 Add the following code to the **planetBot.ts** file:
 
@@ -193,7 +185,7 @@ export class PlanetBot extends TeamsActivityHandler {
 
 After creating the bot, the next step is to expose it as part of the app's REST API.
 
-First, add the bot to the **./src/app/TeamsAppsComponents.ts** file by adding the following code to the end of that file:
+First, add the bot to the **./src/server/TeamsAppsComponents.ts** file by adding the following code to the end of that file:
 
 ```typescript
 export * from "./planetBot/planetBot";
@@ -201,7 +193,7 @@ export * from "./planetBot/planetBot";
 
 This file is used in the core web server file. This file needs to be updated to expose the bot to the app's API and to configure a bot adapter for the app.
 
-Locate and open the web server file, **./src/app/server.ts**.
+Locate and open the web server file, **./src/server/server.ts**.
 
 Add the following two `import` statements after the existing `import` statements in the file:
 
@@ -219,7 +211,7 @@ import { PlanetBot } from "./planetBot/planetBot";
 > express.use(MsTeamsApiRouter(allComponents));
 > ```
 
-The last step is to configure the bot framework and call the bot when requests are received through the `/api/messages` path. Add the following code to the end of the **./src/app/server.ts** file:
+The last step is to configure the bot framework and call the bot when requests are received through the `/api/messages` path. Add the following code to the end of the **./src/server/server.ts** file:
 
 ```typescript
 // register and load the bot
@@ -295,14 +287,6 @@ Locate the property `composeExtensions`. Add a new action command messaging exte
 
 At this point, your project is configured to host a messaging extension and your Microsoft Teams app has a single action command registered. Now you can code the action command.
 
-## Update the Teams SDK
-
-Run the npm command to install the latest version of the SDK
-
-```console
-npm install @microsoft/teams-js -S
-```
-
 ## Code the messaging extension
 
 In this section, you'll code the action command for the messaging extension. Your action command, when triggered, will present the user with a modal dialog where they can select a planet from our solar system. The modal dialog is implemented using an Adaptive Card. After submitting the dialog, the action command will use another adaptive card to add details about the selected planet.
@@ -311,7 +295,7 @@ In this section, you'll code the action command for the messaging extension. You
 
 A production application would typically retrieve data from an external source such as a REST API or a database. However, for simplicity in this exercise, you'll use an in-memory dataset.
 
-Add a new file **planets.json** to the **./src/app/planetBot** folder and add the following JSON to it:
+Add a new file **planets.json** to the **./src/server/planetBot** folder and add the following JSON to it:
 
 ```json
 [
@@ -408,7 +392,7 @@ Add a new file **planets.json** to the **./src/app/planetBot** folder and add th
 
 ### Add an Adaptive Card to display the modal dialog
 
-Add a new file **planetSelectorCard.json** to the **./src/app/planetBot** folder and add the following JSON to it. This file contains the Adaptive Card used to display the modal dialog:
+Add a new file **planetSelectorCard.json** to the **./src/server/planetBot** folder and add the following JSON to it. This file contains the Adaptive Card used to display the modal dialog:
 
 ```json
 {
@@ -455,7 +439,7 @@ npm install lodash -S
 npm install @types/lodash -D
 ```
 
-In the **./src/app/planetBot/planetBot.ts** file, add the following `import` statement to import two functions from Lodash into the bot:
+In the **./src/server/planetBot/planetBot.ts** file, add the following `import` statement to import two functions from Lodash into the bot:
 
 ```typescript
 import { find, sortBy } from "lodash";
@@ -463,7 +447,7 @@ import { find, sortBy } from "lodash";
 
 ### Add the action command fetch handler to the bot
 
-Implement the action command messaging extension by implementing a well-known method to the bot. Within the **./src/app/planetBot/planetBot.ts** file, update the `import` statement for the **botbuilder** package to include the objects `CardFactory`, `MessagingExtensionAction`, `MessagingExtensionActionResponse`, & `MessagingExtensionAttachment`:
+Implement the action command messaging extension by implementing a well-known method to the bot. Within the **./src/server/planetBot/planetBot.ts** file, update the `import` statement for the **botbuilder** package to include the objects `CardFactory`, `MessagingExtensionAction`, `MessagingExtensionActionResponse`, & `MessagingExtensionAttachment`:
 
 ```typescript
 import {
@@ -516,7 +500,7 @@ At this point, the first part of the action command is complete that will prompt
 
 ### Add an Adaptive Card to display the modal dialog
 
-Add a new file **planetDisplayCard.json** to the **./src/app/planetBot** folder and add the following JSON to it. This file contains the Adaptive Card used to generate the details of the planet:
+Add a new file **planetDisplayCard.json** to the **./src/server/planetBot** folder and add the following JSON to it. This file contains the Adaptive Card used to generate the details of the planet:
 
 ```json
 {
@@ -610,7 +594,7 @@ Add a new file **planetDisplayCard.json** to the **./src/app/planetBot** folder 
 
 ### Add the action command submit handler to the bot
 
-Next, add a handler to process the message when the messaging extension's Adaptive Card is submitted. Add the following method to the `PlanetBot` class in the **./scr/app/planetBot/planetBot.ts**:
+Next, add a handler to process the message when the messaging extension's Adaptive Card is submitted. Add the following method to the `PlanetBot` class in the **./scr/server/planetBot/planetBot.ts**:
 
 ```typescript
 protected handleTeamsMessagingExtensionSubmitAction(context: TurnContext, action: MessagingExtensionAction): Promise<MessagingExtensionActionResponse> {
@@ -639,7 +623,7 @@ protected handleTeamsMessagingExtensionSubmitAction(context: TurnContext, action
 
 The `handleTeamsMessagingExtensionSubmitAction()` method first retrieves the planet selected in the selector Adaptive Card from the in-memory planets data set. It then uses a utility function to load and update the display Adaptive Card with the planet's details. Finally, it returns a `MessagingExtensionActionResponse` object that sets the Adaptive Card on the `composeExtension` property. Microsoft Teams will use this to display the details of the planet selected.
 
-Lastly, add the utility method `getPlanetDetailCard()` to the `PlanetBot` class in the **./scr/app/planetBot/planetBot.ts**:
+Lastly, add the utility method `getPlanetDetailCard()` to the `PlanetBot` class in the **./scr/server/planetBot/planetBot.ts**:
 
 ```typescript
 private getPlanetDetailCard(selectedPlanet: any): MessagingExtensionAttachment {

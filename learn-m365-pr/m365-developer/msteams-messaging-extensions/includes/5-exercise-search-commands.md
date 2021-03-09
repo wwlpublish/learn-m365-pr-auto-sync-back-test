@@ -36,7 +36,7 @@ Next, locate the `composeExtensions.commands` array. Add the following object to
 
 The next step is to update the bot's code.
 
-Locate and open the bot in the file **./src/app/planetBot/planetBot.ts**.
+Locate and open the bot in the file **./src/server/planetBot/planetBot.ts**.
 
 Update the `import` statement for the **botbuilder** package to include the objects `MessagingExtensionQuery` and `MessagingExtensionResponse`:
 
