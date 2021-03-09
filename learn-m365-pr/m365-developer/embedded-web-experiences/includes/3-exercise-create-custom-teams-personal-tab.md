@@ -17,7 +17,7 @@ You'll use Node.js to create custom Microsoft Teams tabs in this module. The exe
 - NPM (installed with Node.js) - v6.\* (or higher)
 - [Gulp](https://gulpjs.com/) - v4.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.16.0 (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v3.0.\* (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 
 *You must have the minimum versions of these prerequisites installed on your workstation.
@@ -41,13 +41,10 @@ Yeoman starts and asks you a series of questions. Answer the questions with the 
 - **Title of your Microsoft Teams App project**: Learn MSTeams Tabs
 - **Your (company) name (max 32 characters)**: Contoso
 - **Which manifest version would you like to use?**: v1.8
-- **Enter your Microsoft Partner ID, if you have one**: (Leave blank to skip)
+- **Quick scaffolding**: Yes
 - **What features do you want to add to your project?**: A tab
 - **The URL where you will host this solution?**: (Accept the default option)
 - **Would you like to show a loading indicator when your app/tab loads?** No
-- **Would you like personal apps to be rendered without a tab header-bar?** No
-- **Would you like to include Test framework and initial tests?**: No
-- **Would you like to use Azure Applications Insights for telemetry?**: No
 - **Default Tab name (max 16 characters)**: LearnPersonalTab
 - **What kind of Tab would you like to create?**: Personal (static)
 - **Do you require Azure AD Single-Sign-On support for the tab?** No
@@ -133,7 +130,7 @@ Next, stop the local web server by selecting <kbd>Ctrl</kbd>+<kbd>C</kbd> in the
 
 Now you can implement the user interface for the tab. The simple tab has a basic interface. It presents a list of items, and users can add items to the list.
 
-Locate and open the file that contains the React component used in the project: **./src/app/scripts/learnPersonalTab/LearnPersonalTab.tsx**.
+Locate and open the file that contains the React component used in the project: **./src/client/learnPersonalTab/LearnPersonalTab.tsx**.
 
 Update the import statements in this file to add components from the Fluent UI - React library. Find the following import statement at the top of the file that imports components from the Fluent UI - React library:
 
@@ -144,110 +141,42 @@ import { Provider, Flex, Text, Button, Header } from "@fluentui/react-northstar"
 Replace the previous statement with the following import statement:
 
 ```typescript
-import {
-  Provider,
-  Flex,
-  Text,
-  Header,
-  List,
-  Alert,
-  teamsTheme,
-  teamsDarkTheme,
-  teamsHighContrastTheme,
-  ThemePrepared,
-  WindowMaximizeIcon,
-  ExclamationTriangleIcon,
-  Label,
-  Button,
-  Input,
-  ToDoListIcon
+import { Provider, Flex, Text, Button, Header,
+  List, Alert, WindowMaximizeIcon, ExclamationTriangleIcon, 
+  Label, Input, ToDoListIcon
 } from "@fluentui/react-northstar";
 ```
 
-Next, update the state of the component to contain a list of items and a property for a new item. Locate the `ILearnPersonalTabState` interface in the **LearnPersonalTab.tsx** file, and add the following properties to it:
+Next, update the state of the component to contain a list of to do items and a property for a new item. Add the following statements after the existing `useState` statements in the **LearnPersonalTab.tsx** file:
 
 ```typescript
-teamsTheme: ThemePrepared;
-todoItems: string[];
-newTodoValue: string;
+const [todoItems, setTodoItems] = useState<string[] | undefined>();
+const [newTodoValue, setNewTodoValue] = useState<string | undefined>();
 ```
 
-Add the following method to the `LearnPersonalTab` class that updates the component state to the theme that matches the currently selected Microsoft Teams client theme:
-
-```typescript
-private updateComponentTheme = (currentThemeName: string = "default"): void => {
-  let theme: ThemePrepared;
-
-  switch (currentThemeName) {
-    case "default":
-      theme = teamsTheme;
-      break;
-    case "dark":
-      theme = teamsDarkTheme;
-      break;
-    case "contrast":
-      theme = teamsHighContrastTheme;
-      break;
-    default:
-      theme = themes.teams;
-      break;
-  }
-  // update the state
-  this.setState(Object.assign({}, this.state, {
-    teamsTheme: theme
-  }));
-}
-```
-
-Initialize the current theme and state of the component. Locate the line `this.updateTheme(this.getQueryVariable("theme"));` and replace it with the following code in the `componentWillMount()` method:
-
-```typescript
-this.updateComponentTheme(this.getQueryVariable("theme"));
-this.setState(Object.assign({}, this.state, {
-  todoItems: ["Submit time sheet", "Submit expense report"],
-  newTodoValue: ""
-}));
-```
-
-Within the `componentWillMount()` method, locate the following line:
-
-```typescript
-microsoftTeams.registerOnThemeChangeHandler(this.updateTheme);
-```
-
-This code registers an event handler to update the component's theme to match the theme of the current Microsoft Teams client when this page is loaded as a tab. Update this line to call the new handler in the following line to register another handler to update the component theme:
-
-```typescript
-microsoftTeams.registerOnThemeChangeHandler(this.updateComponentTheme);
-```
-
-With the theme management and state initialized, we can now implement the user interface.
-
-Locate the `render()` method, and update the return statement to the following code. The `render()` method now displays the list of items in our state output with a brief copyright statement.
+Locate the `return` statement, and update it to the following code. The component now displays the list of items in our state with a brief copyright statement.
 
 ```tsx
-public render() {
-  return (
-    <Provider theme={ this.state.teamsTheme }>
-      <Flex column gap="gap.smaller">
-        <Header>This is your tab</Header>
-        <Alert icon={<ExclamationTriangleIcon />} content={this.state.entityId} dismissible></Alert>
-        <Text content="These are your to-do items:" size="medium"></Text>
-        <List selectable>
-          { this.state.todoItems.map((todoItem, i) => (
-            <List.Item media={<WindowMaximizeIcon outline />}
-                       content={ todoItem } index={i} >
-            </List.Item> ))
-          }
-        </List>
+return (
+  <Provider theme={theme}>
+    <Flex column gap="gap.smaller">
+      <Header content="This is your tab" />
+      <Alert icon={<ExclamationTriangleIcon />} content={entityId} dismissible></Alert>
+      <Text content="These are your to-do items:" size="medium"></Text>
+      <List selectable>
+        {todoItems.map((todoItem, i) => (
+          <List.Item media={<WindowMaximizeIcon outline />}
+            content={todoItem} index={i} >
+          </List.Item>))
+        }
+      </List>
 
-        TODO: add new list item form here
+      TODO: add new list item form here
 
-        <Text content="(C) Copyright Contoso" size="smallest"></Text>
-      </Flex>
-    </Provider>
-  );
-}
+      <Text content="(C) Copyright Contoso" size="smallest"></Text>
+    </Flex>
+  </Provider>
+);
 ```
 
 > [!TIP]
@@ -262,18 +191,15 @@ public render() {
 The next step is to add some interactivity to the tab. Add the following methods to the `LearnPersonalTab` class. These methods handle updating the state when specific events happen on the form that you'll add to the component.
 
 ```typescript
-private handleOnChanged = (event): void => {
-  this.setState(Object.assign({}, this.state, { newTodoValue: event.target.value }));
+const handleOnChanged = (event): void => {
+  setNewTodoValue(event.target.value);
 }
 
-private handleOnClick = (event: React.MouseEvent<HTMLButtonElement>): void  => {
-  const newTodoItems = this.state.todoItems;
-  newTodoItems.push(this.state.newTodoValue);
-
-  this.setState(Object.assign({}, this.state, {
-    todoItems: newTodoItems,
-    newTodoValue: ""
-  }));
+const handleOnClick = (event: React.MouseEvent<HTMLButtonElement>): void => {
+  const newTodoItems = todoItems;
+  newTodoItems.push(newTodoValue);
+  setTodoItems(newTodoItems);
+  setNewTodoValue("");
 }
 ```
 
