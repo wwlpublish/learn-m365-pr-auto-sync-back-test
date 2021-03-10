@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-your-tenant-microsoft-365.determine-best-subscription-for-your-organization
+title: Determine the best subscription for your organization in Microsoft 365
+metadata:
+  title: Determine the best subscription for your organization in Microsoft 365
+  description: "Determine the best subscription for your organization in Microsoft 365"
+  ms.date: 03/10/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/5-determine-best-subscription-for-your-organization.md)]

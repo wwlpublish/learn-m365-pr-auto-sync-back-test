@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-your-tenant-microsoft-365.knowledge-check1
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 03/10/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/7-knowledge-check1.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "You're the Enterprise Administrator for Contoso, which is planning to migrate to Microsoft 365. What’s the first thing you should do when planning Contoso's tenant setup and creating its tenant account?"
+    choices:
+    - content: "Inventory the current environment in the organization"
+      isCorrect: false
+      explanation: "That's incorrect. This is the second step in the overall process for creating a tenant account for Microsoft 365. The first thing you should do is decide which Microsoft 365 plan(s) meet your organization’s requirements."
+    - content: "Decide which Microsoft 365 plan(s) meet your organization’s requirements"
+      isCorrect: true
+      explanation: "That's correct. The first step in the overall process for creating a tenant account for Microsoft 365 is deciding which Microsoft 365 plan(s) meet your organization’s requirements."
+    - content: "Fix potential deployment blockers and clean up your organization"
+      isCorrect: false
+      explanation: "That's incorrect. This is the fourth step in the overall process for creating a tenant account for Microsoft 365. The first thing you should do is decide which Microsoft 365 plan(s) meet your organization’s requirements."

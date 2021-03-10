@@ -1,0 +1,40 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-your-tenant-microsoft-365.knowledge-check0
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 03/10/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/4-knowledge-check0.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "You're the Enterprise Administrator for Contoso, which is planning to migrate to Microsoft 365. They've narrowed down the Microsoft 365 plan to the business plans that take advantage of support for unlimited users. The company has also identified the following requirements:- Ability to install Office 2019 apps on Mac computers- Ability to install Office on smartphones and tablets- Support business-class emailYou have been asked to identify the Microsoft 365 plan that meets these requirements while minimizing the total cost. Which plan should you use?"
+    choices:
+    - content: "Office 365 E3"
+      isCorrect: false
+      explanation: "That's incorrect. Only Microsoft 365 Apps for enterprise provides the ability to install Office 2019 apps locally, whether it's on a Mac or Windows computer."
+    - content: "Office 365 F3"
+      isCorrect: false
+      explanation: "That's incorrect. Only Microsoft 365 Apps for enterprise provides the ability to install Office 2019 apps locally, whether it's on a Mac or Windows computer."
+    - content: "Microsoft 365 Apps for enterprise"
+      isCorrect: true
+      explanation: "That's correct. Only Microsoft 365 Apps for enterprise provides the ability to install Office 2019 apps locally, whether it's a Mac or Windows computer."
+  - content: "Which of the following Enterprise Mobility + Security components provides identity management for on-premises users, remote users, and hybrid users accessing applications both locally and over the cloud?"
+    choices:
+    - content: "Azure AD Identity Protection"
+      isCorrect: false
+      explanation: "That's incorrect. Azure AD Premium P1 provides identity management for on-premises users, remote users, and hybrid users accessing applications both locally and over the cloud."
+    - content: "Azure AD Privileged Identity Management"
+      isCorrect: false
+      explanation: "That's incorrect. Azure AD Premium P1 provides identity management for on-premises users, remote users, and hybrid users accessing applications both locally and over the cloud."
+    - content: "Azure AD Premium P1"
+      isCorrect: true
+      explanation: "That's correct. Azure AD Premium P1 is an enterprise-level edition that provides identity management for on-premises users, remote users, and hybrid users accessing applications both locally and over the cloud."
