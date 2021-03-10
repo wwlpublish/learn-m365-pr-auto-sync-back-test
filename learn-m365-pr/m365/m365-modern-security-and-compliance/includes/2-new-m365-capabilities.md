@@ -1,7 +1,3 @@
->[!IMPORTANT]
->Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813). We'll be updating names in products and in the Learn content in the near future.
-
-
 ![step-5-wheel](../media/step-5-wheel.png)
 
 ![step-5-icon](../media/step-5-icon.png)
@@ -36,7 +32,7 @@ Along with the Microsoft Intelligent Security Graph, you have faster access to b
 
 - **Windows Defender Application Control** in Windows 10 operates from an approved allow and deny list of applications that Microsoft has checked for safety. It is managed by endpoint protection policies using Microsoft Intune.
 
-- **Windows Defender Advanced Threat Protection** is a unified platform for preventative protection, post-breach detection, automated investigation, and response. It protects endpoints from cyber threats; detects advanced attacks and data breaches, automates security incidents, and improves security posture.
+- **Microsoft Defender for Endpoint** is a unified platform for preventative protection, post-breach detection, automated investigation, and response. It protects endpoints from cyber threats; detects advanced attacks and data breaches, automates security incidents, and improves security posture.
 
 - **Exploit Guard** helps reduce the attack surface for running applications by preventing malware from getting into Windows and blocking untrusted processes from accessing protected folders.
 
@@ -47,5 +43,5 @@ Along with the Microsoft Intelligent Security Graph, you have faster access to b
 ![step-5-1](../media/step-5-1.png)
 
 ## Learn more
-- [Advanced Threat Protection ](https://docs.microsoft.com/windows/security/threat-protection/?azure-portal=true)
+- [Microsoft Defender for Endpoint ](https://docs.microsoft.com/windows/security/threat-protection/?azure-portal=true)
 - [Identity and access management fundamentals](https://docs.microsoft.com/azure/security/fundamentals/overview#identity-and-access-management?azure-portal=true)

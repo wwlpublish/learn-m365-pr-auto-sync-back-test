@@ -10,15 +10,15 @@ While Microsoft Teams is there to help you work with teammates on projects, Yamm
 
 A Yammer network is used to represent people who are all part of a single organization, and regularly collaborate. All users who are part of the same Microsoft 365 tenant (with a valid Yammer subscription) can use Yammer to work together.
 
-Your organization can set up a domain in Microsoft 365 before to start using Yammer. For example, if your organization's domain is contoso.com, your organization's users can access the Yammer network by going to [https://www.yammer.com/contoso.com](https://www.yammer.com/contoso.com).
+Your organization can set up a domain in Microsoft 365 to start using Yammer. For example, if your organization's domain is contoso.com, your organization's users can access the Yammer network by going to [https://www.yammer.com/contoso.com](https://www.yammer.com/contoso.com).
 
-Yammer networks come with many settings that can your organization set, to help decide how your users should access Yammer, including:
+Yammer networks come with many settings that your organization can set to help decide how your users should access Yammer, including:
 
 - Setting a name for your Yammer network
 - Deciding who is allowed to upload files, and enforce file format limitations
 - Allowing or restricting which third-party applications can be used
 - Deciding whether Yammer should fetch details about links in messages
-- Choosing whether to give users the option for Yammer to auto-translate messages.
+- Choosing whether to give users the option for Yammer to auto-translate messages
 - Configuring a default language for system-wide messages
 
 Your organization can have more than one Yammer network.

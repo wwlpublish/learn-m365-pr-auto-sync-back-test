@@ -1,20 +1,20 @@
 ### YamlMime:Module
 uid: learn-m365.m365-threat-safeguard
 metadata:
-  title: Safeguard your environment with Azure Advanced Threat Protection
-  description: Learn about the Azure Advanced Threat Protection component of Microsoft Threat Protection. 
+  title: Safeguard your environment with Microsoft Defender for Identity
+  description: Learn about the Microsoft Defender for Identity component of Microsoft 365 Defender. 
   ms.date: 06/24/2020
   author: AlexandraHrt
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Safeguard your environment with Azure Advanced Threat Protection
-summary: Learn about the Azure Advanced Threat Protection component of Microsoft Threat Protection. 
+title: Safeguard your environment with Microsoft Defender for Identity
+summary: Learn about the Microsoft Defender for Identity component of Microsoft 365 Defender. 
 abstract: |
   Upon completion of this module, you should be able to: 
-  - Define the capabilities of Azure Advanced Threat Protection.
-  - Understand how to configure Azure Advanced Threat Protection sensors.
-  - Explain how Azure Advanced Threat Protection can remediate risks in your environment.  
+  - Define the capabilities of Microsoft Defender for Identity.
+  - Understand how to configure Microsoft Defender for Identity sensors.
+  - Explain how Microsoft Defender for Identity can remediate risks in your environment.  
 
 prerequisites: | 
  - Intermediate understanding of Microsoft 365

@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.dlp-for-teams-and-microsoft-365.describe-dlp-policy
+metadata:
+  title: Describe DLP Policy
+  description: Learn about location and rules that are the foundation of a DLP policy.
+  ms.date: 02/18/2021
+  author: iankensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+title: Describe DLP Policy
+durationInMinutes: 7
+content: |
+  [!include[](includes/describe-dlp-policy.md)]

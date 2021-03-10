@@ -8,8 +8,8 @@ Now that you have reviewed this module, you should be able to:
 ## Learn more
 
 - [Access the Secure Trust Portal](https://servicetrust.microsoft.com/)  
-- [Use the Compliance Score to meet your organizations compliance requirements](https://docs.microsoft.com/microsoft-365/compliance/compliance-score?view=o365-worldwide)
-- [Getting started with Service Trust Portal](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-service-trust-portal?view=o365-worldwide)
-- [Microsoft 365 compliance center](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center?view=o365-worldwide)
-- [Microsoft Compliance score](https://docs.microsoft.com/microsoft-365/compliance/compliance-score?view=o365-worldwide)
-- [Microsoft Compliance Manager](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-overview?view=o365-worldwide)
+- [Use the Compliance Score to meet your organizations compliance requirements](https://docs.microsoft.com/microsoft-365/compliance/compliance-score)
+- [Getting started with Service Trust Portal](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-service-trust-portal)
+- [Microsoft 365 compliance center](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center)
+- [Microsoft Compliance score](https://docs.microsoft.com/microsoft-365/compliance/compliance-score)
+- [Microsoft Compliance Manager](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-overview)

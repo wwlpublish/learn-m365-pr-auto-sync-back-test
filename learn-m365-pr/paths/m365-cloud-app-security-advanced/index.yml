@@ -1,0 +1,33 @@
+### YamlMime:LearningPath
+uid: learn-m365.m365-cloud-app-security-advanced
+metadata:
+  title: Configure Microsoft Cloud App Security for advanced scenarios
+  description: This learning path investigates Microsoft Cloud App Security integration and advanced scenarios and guidance at an advanced level.  
+  ms.date: 02/12/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Configure Microsoft Cloud App Security for advanced scenarios
+summary: This learning path investigates Microsoft Cloud App Security integration and advanced scenarios and guidance at an advanced level. 
+prerequisites: | 
+  - Experience working with Microsoft 365 services
+  - Experience working with Microsoft Azure 
+  - Intermediate knowledge of Microsoft Cloud App Security  
+iconUrl: /learn/achievements/generic-trophy.svg
+levels: 
+- advanced
+roles:
+- administrator
+products: 
+- m365
+- m365-ems-cloud-app-security
+modules:
+  - learn-m365.mcas-power-automate
+  - learn-m365.integrate-third-party-identity-providers-mcas
+  - learn-m365.enable-conditional-access-app-control-third-party-apps
+  - learn-m365.mcas-siem-integration
+  - learn-m365.advanced-scenarios-guidance
+  - learn-m365.discover-additional-blogs-mcas
+trophy: 
+  uid: learn-m365.m365-cloud-app-security-advanced.trophy

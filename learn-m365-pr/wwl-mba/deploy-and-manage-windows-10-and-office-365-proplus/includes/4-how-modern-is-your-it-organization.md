@@ -1,10 +1,10 @@
 
-Windows 10 and Office 365 ProPlus together provide the most productive and most secure computing experience for users, lower the total cost of ownership for the organization, and reduce complexity for IT teams.
+Windows 10 and Microsoft 365 Apps for enterprise together provide the most productive and most secure computing experience for users, lower the total cost of ownership for the organization, and reduce complexity for IT teams.
 
-The best way to realize the benefits of this modern experience is to do three things today: ?
+The best way to realize the benefits of this modern experience is to do three things today: 
 
 1. Consider upgrading your devices to Windows 10, or refresh your environment with new Windows 10 devices.
-2. Learn about the benefits of moving from perpetual Office to the rich client apps of Office 365 ProPlus.
+2. Learn about the benefits of moving from perpetual Office to the rich client apps of Microsoft 365 Apps for enterprise.
 3. Utilize Windows and Office servicing to deploy regular security and feature updates.
 
 :::row:::

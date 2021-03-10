@@ -1,8 +1,8 @@
-## SharePoint Online
+## SharePoint
 
-SharePoint Online is the cloud evolution of Microsoft SharePoint Server. It's a cloud service that enables you to store, organize, and add third-party apps, access information from almost any device, and allow sharing with external people by default, all by using a web-browser. It helps you create team or communication-focused sites for efficient collaboration and communication. Internal users with an appropriate Microsoft 365 or SharePoint Online license can use SharePoint Online. They can share files or folders with others inside or outside the organization. Sharing outside the organization can be controlled by site administrators.
+SharePoint is the cloud evolution of Microsoft SharePoint Server. It's a cloud service that enables you to store, organize, and add third-party apps, access information from almost any device, and allow sharing with external people by default, all by using a web-browser. It helps you create team or communication-focused sites for efficient collaboration and communication. Internal users with an appropriate Microsoft 365 or SharePoint license can use SharePoint. They can share files or folders with others inside or outside the organization. Sharing outside the organization can be controlled by site administrators.
 
-With SharePoint Online, users:
+With SharePoint, users can:
 
 - Build sites and pages, document libraries, and lists.
 - Add web parts to customize their pages.
@@ -17,22 +17,24 @@ With SharePoint Online, users:
 
 SharePoint provides a rich collaboration environment where people inside and outside your organization can work together, coauthoring document. Microsoft 365 provides a variety of options to help you create a secure and productive file collaboration environment that meets the needs of your organization.
 
-### SharePoint Intranet sites
+### SharePoint - the intelligent intranet
+Harness the power of the intelligent intranet to communicate effectively across the organization, engage employees, and connect with relevant information and knowledge. Transform employee communications and digital experiences with a 4-stage approach to getting your teams connected online with Microsoft 365.
 
-SharePoint Online provides several types of sites you can create from the home page. Here are some of the site types, and how to identify them:
+#### Explore
 
-#### SharePoint Online home page
+Explore ways to build an intelligent and engaging intranet that connects your people to colleagues, news, knowledge, and apps. To build a beautiful, powerful intranet, all you need to get started is a little inspiration. Check out the fresh designs and modern experiences with the [SharePoint look book](https://lookbook.microsoft.com/?source=PortalDigitalExpSite).
 
-:::image type="content" source="../media/3-sharepoint-online-home-page.png" alt-text="SharePoint Online Home Page":::
+#### Align
 
-#### Team site
+Align with your team and overcome common obstacles with stakeholder alignment by first understanding your business and stakeholder goals. Then identify the intranet scenarios that showcase the ways your people will use SharePoint and Microsoft 365 to address your goals. Lastly, determine the highest impact and easiest scenario to implement and you’ll find your your starting point.
 
-:::image type="content" source="../media/3-team-site.png" alt-text="Team Site":::
+#### Implement
 
-#### Communication Site
+Accelerate your time to value with out-of-the-box capabilities and scenarios that will help you implement with ease.  Microsoft 365 provides templates to help you define your objectives, personas, experiences and metrics, so you can design and implement your intranet experience with minimal effort.
 
-:::image type="content" source="../media/3-communication-site.png" alt-text="Communication Site":::
+#### Engage
 
-#### SharePoint Online Classic Experience
+Launch your new intranet with an adoption plan that will have your staff ready to successfully engage. Before you launch, you’ll want to have an adoption plan to ensure you make employees aware of the intranet, and how you’ll drive regular engagement. Microsoft 365 created the SharePoint Adoption Playbook, Project, and Training plans to help organizations prepare a successful roll-out.
 
-:::image type="content" source="../media/3-sharepoint-online-classic-experience.png" alt-text="Classic Experience":::
+> [!NOTE]
+>For more information on the intelligent intranet with SharePoint, including a 4-part web series covering each stage, see [The intelligent intranet](https://resources.techcommunity.microsoft.com/intelligent-intranet/)

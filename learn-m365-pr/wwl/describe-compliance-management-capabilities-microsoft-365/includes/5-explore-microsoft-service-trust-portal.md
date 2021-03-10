@@ -8,7 +8,7 @@ The Service Trust Portal features and content are accessible from the main menu.
 The items from the main menu are as follows:
 
 - **Service Trust Portal** - The **Service Trust Portal** link displays the home page and provides a quick way to get back to the home page
-- **Compliance Manager** - Compliance Manager is a workflow-based risk assessment tool that helps you track, assign, and verify your organization's regulatory compliance activities related to Microsoft Cloud services, such as Microsoft 365, Dynamics 365, and Azure. Use Compliance Manager to manage regulatory compliance within the shared responsibility model of the cloud. To learn more visit [Microsoft Compliance Manager (preview)](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-overview?view=o365-worldwide).
+- **Compliance Manager** - Compliance Manager is a workflow-based risk assessment tool that helps you track, assign, and verify your organization's regulatory compliance activities related to Microsoft Cloud services, such as Microsoft 365, Dynamics 365, and Azure. Use Compliance Manager to manage regulatory compliance within the shared responsibility model of the cloud. To learn more visit [Microsoft Compliance Manager](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-overview).
 - **Trust Documents** - Provides a wealth of security implementation and design information with the goal of making it easier for you to meet regulatory compliance objectives by understanding how Microsoft Cloud services keep your data secure. To review content, select one of the following options on the **Trust Documents** pull-down menu.
   - **Audit Reports**: A list of independent audit and assessment reports on Microsoft's Cloud services is displayed. These reports provide information about Microsoft Cloud services compliance with data protection standards and regulatory requirements.
   - **Data Protection**: Contains a wealth of resources such as audited controls, white papers, FAQs, penetration tests, risk assessment tools, and compliance guides.
@@ -24,7 +24,7 @@ The items from the main menu are as follows:
   - Information about Microsoft Global Datacenters
   - Frequently asked questions
 
-- **My Library** - This new feature lets you save (or *pin*) documents so that you can quickly access them on your My Library page. You can also set up notifications so that Microsoft sends you an email message when documents in your My Library are updated. For more information, see the [My Library](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-service-trust-portal?view=o365-worldwide#my-library-1)
+- **My Library** - This new feature lets you save (or *pin*) documents so that you can quickly access them on your My Library page. You can also set up notifications so that Microsoft sends you an email message when documents in your My Library are updated. For more information, see the [My Library](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-service-trust-portal#my-library-1)
 - **More -> Admin** – This gives access to administrative functions that are only available to the global administrator account and is only visible if the user is signed in as a global administrator.
 
 The Service Trust Portal enables you to view the page content in different languages. To change the page language, simply click on the globe icon in the lower left corner of the page and select the language of your choice.
@@ -50,7 +50,7 @@ The **Service Trust Portal** contains details about Microsoft's implementation o
 1. When you’re ready, from the menu bar, select Service Trust Portal.
 
 1. From the menu bar, select **Compliance Manager**, then from the drop-down menu, select **Compliance Manager**. We will only focus on Compliance Manager, not Compliance Manager (Classic), as users are encouraged to use Microsoft Compliance Score instead of Compliance Manger (Classic).
-    - Notice the different tabs available:  **Assessments**, **Templates,**, **Action iItems**, and **Controls Info**.  Explore the various options and information available for each.  At this point you may be wondering what is the difference with Microsoft Compliance Score.  To learn more, visit, [What is the difference between Compliance Score and Compliance Manager?](https://docs.microsoft.com/microsoft-365/compliance/compliance-score-faq?view=o365-worldwide#what-is-the-difference-between-compliance-score-and-compliance-manager)
+    - Notice the different tabs available:  **Assessments**, **Templates,**, **Action iItems**, and **Controls Info**.  Explore the various options and information available for each.  At this point you may be wondering what is the difference with Microsoft Compliance Score.  To learn more, visit, [What is the difference between Compliance Score and Compliance Manager?](https://docs.microsoft.com/microsoft-365/compliance/compliance-score-faq#what-is-the-difference-between-compliance-score-and-compliance-manager)
 
 
 1. From the menu bar, select **Trust Documents**, Notice the available options.  Select **Data Protection** from the drop-down.  

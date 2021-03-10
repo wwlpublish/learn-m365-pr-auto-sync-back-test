@@ -1,6 +1,3 @@
->[!IMPORTANT]
->Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813). We'll be updating names in products and in the Learn content in the near future.
-
 ## Windows Defender Antivirus
 
 Microsoft next-gen technologies in Windows Defender Antivirus provide near-instant, automated protection against new and emerging threats. To dynamically identify new threats, these technologies work with large sets of interconnected data in the Microsoft Intelligent Security Graph and powerful artificial intelligence (AI) systems driven by advanced machine learning models.
@@ -10,7 +7,7 @@ Windows Defender Antivirus includes:
 - Always-on scanning, using advanced file and process behavior monitoring and other heuristics (also known as "real-time protection")
 - Dedicated protection updates based on machine-learning, human and automated big-data analysis, and in-depth threat resistance research
 
-![Microsoft Defender ATP protection engines](../media/atp-engines.png)
+![Microsoft Defender for Endpoint protection engines](../media/atp-engines.png)
 
 Always-on protection consists of real-time protection, behavior monitoring, and methods to identify malware based on known suspicious and malicious activities. These activities include events such as processes making unusual changes to existing files, modifying or creating automatic startup registry keys and startup locations (also known as auto-start extensibility points, or ASEPs), and other changes to the file system or file structure.
 
@@ -37,6 +34,6 @@ Application Guard has been created to target several types of systems:
 - [Implement and manage Windows Defender Application Guard](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-guard/wd-app-guard-overview?azure-portal=true)
 - [Implement and manage Windows Defender Credential Guard](https://docs.microsoft.com/windows/security/identity-protection/credential-guard/credential-guard-requirements?azure-portal=true)
 - [Implement and manage Windows Defender Exploit Guard](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-attack-surface-reduction?azure-portal=true)
-- [Implement Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection?azure-portal=true)
+- [Implement Microsoft Defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection?azure-portal=true)
 - [Integrate Windows Defender Application Control](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control-deployment-guide?azure-portal=true)	
 - [Manage Windows Defender Antivirus](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/deploy-manage-report-microsoft-defender-antivirus?azure-portal=true)

@@ -1,0 +1,48 @@
+### YamlMime:Module
+uid: learn-m365.information-protection-real-time-controls
+metadata:
+  title: Protect information in real time with Microsoft Cloud App Security
+  description: Learn to configure information protection in Microsoft Cloud App Security and protect data stored in all locations, including non-Microsoft services.
+  ms.date: 02/02/2021
+  author: geoffallix
+  ms.author: v-gea
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Protect information in real time with Microsoft Cloud App Security
+summary: Learn to configure information protection in Microsoft Cloud App Security and protect data stored in all locations, including non-Microsoft services. Learn how to restrict external users and unauthorized browsers, how to label or quarantine files, and how to apply information protection policies.
+abstract: | 
+  In this module, you will:
+  - Connect Box, Salesforce, and GitHub to Microsoft Cloud App Security.
+  - Protect storage apps and implement malware detection.
+  - Configure read-only mode for external users.
+  - Block unauthorized browsers form accessing corporate web apps.
+  - Use admin quarantine to investigate files.
+  - Automatically apply labels to sensitive files.
+  - Implement information protection policies.
+
+prerequisites: | 
+  - Experience working with Microsoft 365 services
+  - Experience working with Azure 
+  - Knowledge of security concepts, risks, and mitigations
+  - Microsoft Cloud App Security fundamentals or equivalent
+
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365-ems-cloud-app-security
+units:
+- learn-m365.information-protection-real-time-controls.1-introduction
+- learn-m365.information-protection-real-time-controls.2-connect-box-salesforce-github
+- learn-m365.information-protection-real-time-controls.3-implement-information-protection-policies
+- learn-m365.information-protection-real-time-controls.4-protect-storage-apps
+- learn-m365.information-protection-real-time-controls.5-configure-read-only-mode
+- learn-m365.information-protection-real-time-controls.6-block-unauthorized-browsers
+- learn-m365.information-protection-real-time-controls.7-admin-quarantine
+- learn-m365.information-protection-real-time-controls.8-label-sensitive-files
+- learn-m365.information-protection-real-time-controls.9-knowledge-check
+- learn-m365.information-protection-real-time-controls.10-summary
+badge:
+  uid: learn-m365.information-protection-real-time-controls.badge

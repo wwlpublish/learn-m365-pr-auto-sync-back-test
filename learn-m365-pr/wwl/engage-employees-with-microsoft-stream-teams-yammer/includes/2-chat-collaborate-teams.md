@@ -14,7 +14,7 @@ Microsoft Teams comes with many features and functionalities to help your users 
 
 Microsoft Teams encourages your users to organize and collaborate across projects and workloads. It does this by introducing the following concepts to help teamwork:
 
-- Teams. A team is a collection of people, their content, and the tools they need to work on projects. A team can be private, where users have to be invited. A team can also be public and open to anyone who wants to jump on. A team has a limit of up to 5000 simultaneous members.
+- Teams. A team is a collection of people, their content, and the tools they need to work on projects. A team can be private, where users have to be invited. A team can also be public and open to anyone who wants to jump on. A team has a limit of up to 10,000 simultaneous members.
 - Channels. A channel is where users can discuss and get hands-on with work. Channels facilitate features like tabs. Tabs make it possible for users to access and work on the same content. For instance, users in a team could have a channel with a tab for a specific report that they are all contributing to, and are working on together.
 
 ### Chat
@@ -34,7 +34,7 @@ Microsoft Teams comes with different features and capabilities designed to let y
 
 - Meet anyone. Users can host one-to-one voice and video calls, calls and conferences with all members of a team, and live events for up to 10,000 people.
 - Screen sharing. Users can decide what they want to show in a chat or meeting. For example, the whole desktop, a specific screen, or a specific application.
-- Background blurring. Users can blur their backgrounds during meetings to avoid distractions, and ensure privacy.
+- Custom backgrounds. Users can blur their backgrounds or use custom backgrounds during meetings to avoid distractions, set the tone and ensure privacy.
 - Share meeting notes. Users can share meeting recordings, and notes for audio, or voice calls in the meeting thread for a meeting.
 
 ### Security and compliance
@@ -49,7 +49,7 @@ Microsoft Teams is built on Microsoft 365 delivering enterprise-grade security a
 
 ### Remote collaboration and distance learning
 
-More and more organizations are making the move to remote working. A single team can consist of members that are located in different geographical locations and time zones. Remote working can help organizations to save costs, improve productivity, and even save lives in global pandemics. Microsoft Teams facilitates remote working by encouraging your users to connect, and empowering them easily share ideas and workloads. Microsoft Teams is designed to help your teams to work together and stay connected as though they were in the same office. For example, a user can share their screen and other users can request control of their computer to help their colleague to resolve issues on their device.
+More and more organizations are making the move to remote working. A single team can consist of members that are located in different geographical locations and time zones. Remote working can help organizations to save costs, improve productivity, and even save lives in global pandemics. Microsoft Teams facilitates remote working by encouraging your users to connect and empowering them to easily share ideas and workloads. Microsoft Teams is designed to help your teams to work together and stay connected as though they were in the same office. For example, a user can share their screen and other users can request control of their computer to help their colleague to resolve issues on their device.
 
 Microsoft Teams is also designed to help improve learning through classroom-style experiences. Microsoft Teams makes it possible for your users to learn from a distance through virtual classrooms. Users can engage in lectures, one-to-one, or group discussions and share assignments and materials.
 

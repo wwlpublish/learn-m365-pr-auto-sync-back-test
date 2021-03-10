@@ -332,6 +332,12 @@ Console.WriteLine(requestAllUsers.GetHttpRequestMessage().RequestUri);
 
 ### Build and test the application
 
+Run the following command in a command prompt to ensure the developer certificate has been trusted:
+
+```console
+dotnet dev-certs https --trust
+```
+
 Run the following command in a command prompt to compile the console application:
 
 ```console
