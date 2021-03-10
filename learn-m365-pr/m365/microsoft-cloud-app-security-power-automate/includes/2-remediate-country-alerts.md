@@ -24,3 +24,7 @@ To remove sensitive file sharing after requesting user validation with Power Aut
     :::image type="content" source="../media/2-soc-team.png" alt-text="Power Automate message for SOC team.":::
 
 6. A sample Power Automate flow can be downloaded from the link in the **Learn more** section of the **Summary** unit of this module.
+
+The following video gives you an overview of automating infrequent country alerts with Power Automate:
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWyGlc]

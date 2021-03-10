@@ -20,3 +20,7 @@ To manage policies, perform the following steps:
     :::image type="content" source="../media/4-microsoft-cloud-app-security-policies.png" alt-text="Policies":::
 
 3. Examples of managing specific policies are in subsequent units of this module.
+
+The following video gives you an overview of how to protect cloud storage apps with Microsoft Cloud App Security:
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWyfzX]

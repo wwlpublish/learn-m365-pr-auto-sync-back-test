@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn-wwl.deploy-and-manage-windows-10-and-office-365-proplus.2-windows-10-and-office-365-proplus
-title: Windows 10 and Office 365 ProPlus
+title: Windows 10 and Microsoft 365 Apps for enterprise
 metadata:
-  title: Windows 10 and Office 365 ProPlus
-  description: "Windows 10 and Office 365"
-  ms.date: 09/11/2020
+  title: Windows 10 and Microsoft 365 Apps for enterprise
+  description: "Windows 10 and Microsoft 365 Apps for enterprise"
+  ms.date: 03/09/2021
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -12,4 +12,4 @@ metadata:
 azureSandbox: false
 durationInMinutes: 9
 content: |
-  [!include[](includes/2-windows-10-and-office-365-proplus.md)]
+  [!include[](includes/2-windows-10-and-microsoft-365-apps-enterprise.md)]
