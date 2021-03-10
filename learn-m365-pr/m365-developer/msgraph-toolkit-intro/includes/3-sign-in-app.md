@@ -16,6 +16,8 @@ Providers simplify implementing authentication in your application and handle ma
 
 - Microsoft Authentication Library (MSAL) provider – For general use by single-page applications that will authenticate from the browser.
 
+- Electron provider – For use in Electron apps.
+
 - Proxy provider – For use by web applications that will authenticate on the backend server.
 
 - SharePoint provider – For use in the SharePoint Framework.
