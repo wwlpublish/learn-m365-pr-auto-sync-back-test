@@ -126,7 +126,7 @@ In step 4, you will have gotten your service numbers. This means you can assign 
 
 - For **call queues**: Assign dedicated numbers by setting the caller ID for members of a call queue to the service number of an auto attendant. You specify this in your caller ID policy (more on caller ID later in the module):
 
-    :::image type="content" source="../media/changing-caller-id-policy.png" alt-text="Screenshot of changing the caller ID policy for service numbers":::
+    :::image type="content" source="../media/change-caller-id-policy.png" alt-text="Screenshot of changing the caller ID policy for service numbers":::
 
 ### Step 10: Set up Communication Credits for your organization (optional)
 
