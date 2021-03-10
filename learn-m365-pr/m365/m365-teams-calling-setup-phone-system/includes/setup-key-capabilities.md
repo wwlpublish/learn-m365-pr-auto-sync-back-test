@@ -19,13 +19,13 @@ Let's go through what these capabilities are and see how you can set them up.
 
 When a Microsoft Teams user makes a call to a public switched telephone network (PSTN) telephone, the Teams user's phone number is visible. Similarly, a PSTN caller's phone number is visible when they call a Microsoft Teams user. Caller ID policies enable you to show alternative phone numbers for Microsoft Teams users in your organization when they make a call, or prevent phone numbers of incoming calls from being visible. For instance, you can ensure that your organization's main phone number is displayed instead of individual users' numbers. You can configure caller ID using either PowerShell or the Teams admin center. For instance, you can create and configure caller ID policies using the admin center to configure caller ID across your organization:
 
-:::image type="content" source="../media/setup-callerid-policy.png" alt-text="Screenshot of setting up the caller ID policy":::
+:::image type="content" source="../media/setup-caller-id-policy.png" alt-text="Screenshot of setting up the caller ID policy":::
 
 You can block incoming caller ID, replace your users' caller ID with "Anonymous", or replace it with a service number.
 
 The steps you carry out to configure caller ID are covered in detail in the **Control caller ID information** unit in the **Secure Microsoft Teams voice functionality** module (link in the **Learn more** section).
 
-### Set up Voicemail
+### Set up voicemail
 
 Any voicemail might include personal, or confidential business-critical information. So you must ensure that voicemail is protected across your organization. When protected voicemail is implemented, your users can listen to their encrypted messages by calling into their voicemail boxes, or open their messages from Outlook (web or desktop client), or mobile Outlook on iOS or Android. Voicemail is also transcribed automatically,which can be disabled, and you can also enable profanity masking to meet organizational policies and protect users.
 
@@ -75,12 +75,12 @@ In order for your policy to take effect, you assign it to users either on a per-
 
 Call sharing enables your Microsoft Teams users to share incoming calls with their colleagues so that colleagues can answer calls when they're unavailable. Calls sharing in Microsoft Teams can be done in different ways:
 
-- Trough call forwarding -  where calls are forwarded to another person or voicemail
+- Through call forwarding -  where calls are forwarded to another person or voicemail
 - Through simultaneous ringing - where two people are notified at the same time to answer calls.
 - Through group call pickup - which enables:
 
-    -	Call forwarding to a group
-    -	Simultaneous ringing to a group
+  - Call forwarding to a group
+  - Simultaneous ringing to a group
 
 With group call pickup, your users can also decide how they should be notified of incoming calls. For example, through visual and audio notifications, visual only notifications, or the banner in the Microsoft Teams app.  This is less intrusive than regular call forwarding and simultaneous ring.
 

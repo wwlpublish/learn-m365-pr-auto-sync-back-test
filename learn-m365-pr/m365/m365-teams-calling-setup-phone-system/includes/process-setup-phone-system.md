@@ -40,7 +40,7 @@ Get phone numbers for your users. You can get new numbers for your users using t
 1. Sign in to the [Microsoft Teams admin center](https://admin.teams.microsoft.com/).
 1. In the navigation pane on the left, select **Voice > Phone numbers**.
 
-    :::image type="content" source="../media/add-phone-numers-teams-calling.png" alt-text="Screenshot of adding phone numbers to Calling for Microsoft Teams":::
+    :::image type="content" source="../media/add-phone-numbers-teams-calling.png" alt-text="Screenshot of adding phone numbers to Calling for Microsoft Teams":::
 
 1. Select **Add** to add new numbers or **Port** to port numbers, and then follow the prompts.
 
@@ -122,11 +122,11 @@ In step 4, you will have gotten your service numbers. This means you can assign 
 
 - For **Auto Attendants**: Assign a dedicated number for an auto attendant by going to **Org-wide settings > Resource accounts**, select your auto attendant's **resource account**, then select **Assign/unassign** and follow the prompts in the pane that appears.
 
-    :::image type="content" source="../media/assign-numnber-auto-attendant.png" alt-text="Screenshot of assigning a number to an auto attendant":::
+    :::image type="content" source="../media/assign-number-auto-attendant.png" alt-text="Screenshot of assigning a number to an auto attendant":::
 
 - For **call queues**: Assign dedicated numbers by setting the caller ID for members of a call queue to the service number of an auto attendant. You specify this in your caller ID policy (more on caller ID later in the module):
 
-    :::image type="content" source="../media/changing-callerid-policy.png" alt-text="Screenshot of changing the caller ID policy for service numbers":::
+    :::image type="content" source="../media/changing-caller-id-policy.png" alt-text="Screenshot of changing the caller ID policy for service numbers":::
 
 ### Step 10: Set up Communication Credits for your organization (optional)
 

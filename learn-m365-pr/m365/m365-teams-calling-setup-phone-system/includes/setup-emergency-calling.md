@@ -34,7 +34,7 @@ You can add an emergency location using either the Teams admin center or through
 New-CsOnlineLisCivicAddress -HouseNumber 1031 -StreetName Greenstreet -StreetSuffix Street -PostDirectional NE -City Redmond -StateorProvince Washington -Country US -PostalCode 98052 -Description "Headquarters" -CompanyName Contoso
 ```
 
-You use the different parameters such as **-StreetName** or ** -PostalCode**, to specify the relevant details of your address.
+You use the different parameters such as **-StreetName** or **-PostalCode**, to specify the relevant details of your address.
 
 > [!NOTE]
 > Exactly when you add emergency locations, varies between countries and regions. For example, if your organization is located in the United States, you associate emergency locations when you assign phone numbers to users. In the UK this would be done when you get the phone numbers from your service provider, from Office 365, or Microsoft 365.
@@ -221,8 +221,8 @@ Use the **Plan and Configure dynamic emergency calling** link in the **Learn mor
 
 ## Learn more
 
-[Plan and configure dynamic emergency calling](https://docs.microsoft.com/microsoftteams/configure-dynamic-emergency-calling)
-[Emergency call routing](https://docs.microsoft.com/microsoftteams/what-are-emergency-locations-addresses-and-call-routing#emergency-call-routing)
-[Configure Direct Routing](https://docs.microsoft.com/microsoftteams/direct-routing-configure)
-[Considerations for Calling Plans](https://docs.microsoft.com/microsoftteams/what-are-emergency-locations-addresses-and-call-routing#considerations-for-calling-plans)
-[Considerations for Direct Routing](https://docs.microsoft.com/microsoftteams/what-are-emergency-locations-addresses-and-call-routing#considerations-for-direct-routing)
+- [Plan and configure dynamic emergency calling](https://docs.microsoft.com/microsoftteams/configure-dynamic-emergency-calling)
+- [Emergency call routing](https://docs.microsoft.com/microsoftteams/what-are-emergency-locations-addresses-and-call-routing#emergency-call-routing)
+- [Configure Direct Routing](https://docs.microsoft.com/microsoftteams/direct-routing-configure)
+- [Considerations for Calling Plans](https://docs.microsoft.com/microsoftteams/what-are-emergency-locations-addresses-and-call-routing#considerations-for-calling-plans)
+- [Considerations for Direct Routing](https://docs.microsoft.com/microsoftteams/what-are-emergency-locations-addresses-and-call-routing#considerations-for-direct-routing)
