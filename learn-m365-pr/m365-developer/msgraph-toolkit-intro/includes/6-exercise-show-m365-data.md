@@ -36,4 +36,4 @@ The final version of your **index.html** file will look as followed:
 
 3. Your app should show the user's upcoming calendar events: 
 
-:::image type="content" source="../media/06-final.gif" alt-text="Microsoft Graph Toolkit project final result":::
+:::image type="content" source="../media/06-final.gif" alt-text="Microsoft Graph Toolkit the project final result.":::

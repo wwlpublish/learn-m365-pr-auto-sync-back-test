@@ -16,7 +16,7 @@ Suppose you would like to show upcoming calendar events for a signed-in user in 
 <mgt-agenda></mgt-agenda>
 ```
 
-:::image type="content" source="../media/05-agenda.png" alt-text="Microsoft Graph Toolkit Agenda":::
+:::image type="content" source="../media/05-agenda.png" alt-text="Microsoft Graph Toolkit the Agenda component.":::
 
 ### Scenario 2: Show tasks from planner
 
@@ -26,7 +26,7 @@ Let's say you would like to build a web page to show a user's tasks. You can use
 <mgt-tasks></mgt-tasks>
 ```
 
-:::image type="content" source="../media/05-tasks.png" alt-text="Microsoft Graph Toolkit Tasks":::
+:::image type="content" source="../media/05-tasks.png" alt-text="Microsoft Graph Toolkit the Tasks component.":::
 
 ### Scenario 3: Integrate people search
 
@@ -36,7 +36,7 @@ If you want to show a list of people in your app and search for a specific perso
 <mgt-people-picker></mgt-people-picker>
 ```
 
-:::image type="content" source="../media/05-people-picker.gif" alt-text="Microsoft Graph Toolkit People Picker":::
+:::image type="content" source="../media/05-people-picker.gif" alt-text="Microsoft Graph Toolkit the People Picker component.":::
 
 You can process the results by using attributes supported by the `mgt-people-picker` component such as limiting the maximum number of people shown in the list:
 
@@ -44,6 +44,6 @@ You can process the results by using attributes supported by the `mgt-people-p
 <mgt-people-picker show-max="3"></mgt-people-picker>
 ```
 
-:::image type="content" source="../media/05-people-picker-max.png" alt-text="Microsoft Graph Toolkit People Picker show-max attribute":::
+:::image type="content" source="../media/05-people-picker-max.png" alt-text="Microsoft Graph Toolkit the People Picker component show-max attribute.":::
 
 In summary, all components in Microsoft Graph Toolkit share the same structure. They work with Providers to handle the authentication, get data using Microsoft Graph APIs, and show the results using a pre-built UI.

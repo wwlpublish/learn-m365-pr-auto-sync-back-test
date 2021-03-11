@@ -1,6 +1,6 @@
 Now that you've seen an overview of the toolkit, let's learn how you can use it to load data from Microsoft 365 services. You'll first need to provide a way for users to sign in to your application. Fortunately, the toolkit greatly simplifies the authentication process so that you can focus on building the overall user experience.
 
-## What is the purpose of adding Login component in your application?
+## What is the purpose of adding the Login component in your application?
 
 Imagine how simple and secure your app development process will be if one of the most time-consuming aspects is handled for you. By using the toolkit, authentication logic and access token retrieval is handled by adding a simple HTML tag.
 
