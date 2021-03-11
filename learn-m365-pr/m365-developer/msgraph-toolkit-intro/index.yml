@@ -30,9 +30,9 @@ products:
 - ms-graph
 units:
 - learn-m365.mgt-intro.1-introduction
-- learn-m365.mgt-intro.2-what-is-graph-toolkit
+- learn-m365.mgt-intro.2-what-graph-toolkit
 - learn-m365.mgt-intro.3-sign-in-app
-- learn-m365.mgt-intro.4-exercise-sign-into-app
+- learn-m365.mgt-intro.4-exercise-sign-in-app
 - learn-m365.mgt-intro.5-show-m365-data
 - learn-m365.mgt-intro.6-exercise-show-m365-data
 - learn-m365.mgt-intro.7-summary

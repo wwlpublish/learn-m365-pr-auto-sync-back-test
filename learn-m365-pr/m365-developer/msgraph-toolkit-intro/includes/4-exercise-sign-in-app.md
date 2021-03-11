@@ -6,12 +6,12 @@ In this unit, you'll create a web application and explore a starter project. You
 
 1. Open Visual Studio Code and notice the Welcome page that appears. Select **Open folder**.  You can also accomplish creating a folder by going to **File > Open folder**.
 
-    :::image type="content" source="../media/4-exercise-sign-in-app/vscode-open-folder.png" alt-text="v s code open folder.":::
+    :::image type="content" source="../media/4-exercise-sign-in-app/vscode-open-folder.png" alt-text="Open the folder using Visual Studio Code.":::
 
 1. When opening a folder, the operating system provides a button to create a **New folder**.
 1. Navigate to the location where you want to create the new folder and select **New Folder**. Name the folder mgt-app and select the button **Select folder**.
 
-    :::image type="content" source="../media/4-exercise-sign-in-app/open-folder-dialog.png" alt-text="Open folder dialog.":::
+    :::image type="content" source="../media/4-exercise-sign-in-app/open-folder-dialog.png" alt-text="Open folder dialog to find new folder created for the project.":::
 
 ### Create files and folders under the project folder
 
@@ -54,18 +54,18 @@ You'll use the details of the Azure Active Directory application, to authenticat
 
 1. In the browser,go to [Azure portal(https://portal.azure.com)](https://portal.azure.com), login to the portal and go to the Azure Active Directory service.
 1. Select **App registrations** from the left-hand navigation and select **New Registration**.
-    :::image type="content" source="../media/4-exercise-sign-in-app/select-new-registration.PNG" alt-text="App registration":::
+    :::image type="content" source="../media/4-exercise-sign-in-app/select-new-registration.png" alt-text="Select App registration to create new app registration.":::
 1. In the **Register an application** page, enter the **Name** for your Azure Active Directory app; for example, mgt-aad-app.
 1. For the type of **Supported account types**, select **Accounts in any organizational directory (Any Azure AD directory - Multitenant) and personal Microsoft accounts (for example Skype, Xbox)**.
 1. In the **Redirect URI field**, in the dropdown, select **Web**, and in the URL field, enter http://localhost:3000.
 1. Confirm changes by selecting the **Register** button.
-    :::image type="content" source="../media/4-exercise-sign-in-app/register-application.PNG" alt-text="Register application":::
+    :::image type="content" source="../media/4-exercise-sign-in-app/register-application.png" alt-text="Register your application in Azure Active Directory.":::
 1. After registration is complete, you'll have landed on the **Overview** page of the Azure Active Directory app. Save the **Application(client)ID**. You'll need it in the up coming section.
 1. In the same page, from the left-hand navigation, select **authentication** under **Manage**.
-    :::image type="content" source="../media/4-exercise-sign-in-app/authentication-left-nav.PNG" alt-text="Application implicit grant":::
+    :::image type="content" source="../media/4-exercise-sign-in-app/authentication-left-nav.png" alt-text="Enable Application implicit grant for the app.":::
 1. Locate the **Implicit grant and hybrid flows** section and enable **Access Tokens** and **ID tokens**.
 1. Select **Save** in the top menu to save your changes.
-    :::image type="content" source="../media/4-exercise-sign-in-app/implicit-grant.PNG" alt-text="Save authentication settings":::
+    :::image type="content" source="../media/4-exercise-sign-in-app/implicit-grant.png" alt-text="Save the authentication settings for your app.":::
 
 Now that you have successfully set up the Azure Active directory application, let's add some code!
 
@@ -130,6 +130,6 @@ Once the Live server is up and running, open [http://localhost:3000](http://loca
 Select **Sign in** button and login with using the global admin credentials of the Microsoft 365 tenant.
 You'll be asked to consent to the required permissions the first time. Once you've consented, the application will display your login information.
 
-:::image type="content" source="../media/4-exercise-sign-in-app/application-sign-in.gif" alt-text="Signed in application":::
+:::image type="content" source="../media/4-exercise-sign-in-app/application-sign-in.gif" alt-text="Final results of your application after the user sign in.":::
 
 You've successfully implemented an authentication mechanism to access Microsoft 365 data using the toolkit's Login component!

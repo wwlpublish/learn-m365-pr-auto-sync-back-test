@@ -16,7 +16,7 @@ For example, to show the list of upcoming meetings for the current user, you wou
 
 Your app would then render:
 
-:::image type="content" source="../media/02-agenda.png" alt-text="List of upcoming meetings rendered by the Microsoft Graph Toolkit Agenda component":::
+:::image type="content" source="../media/02-agenda.png" alt-text="List of upcoming meetings rendered by the Microsoft Graph Toolkit Agenda component.":::
 
 Agenda is just one of the many components available in Microsoft Graph Toolkit. Microsoft Graph Toolkit is updated regularly with new components and features.
 
