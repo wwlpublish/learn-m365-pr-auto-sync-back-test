@@ -36,7 +36,7 @@ If you want to show a list of people in your app and search for a specific perso
 <mgt-people-picker></mgt-people-picker>
 ```
 
-:::image type="content" source="../media/05-peoplepicker.gif" alt-text="Microsoft Graph Toolkit People Picker":::
+:::image type="content" source="../media/05-people-picker.gif" alt-text="Microsoft Graph Toolkit People Picker":::
 
 You can process the results by using attributes supported by the `mgt-people-picker` component such as limiting the maximum number of people shown in the list:
 
@@ -44,6 +44,6 @@ You can process the results by using attributes supported by the `mgt-people-p
 <mgt-people-picker show-max="3"></mgt-people-picker>
 ```
 
-:::image type="content" source="../media/05-peoplepicker-showmax.png" alt-text="Microsoft Graph Toolkit People Picker show-max attribute":::
+:::image type="content" source="../media/05-people-picker-max.png" alt-text="Microsoft Graph Toolkit People Picker show-max attribute":::
 
 In summary, all components in Microsoft Graph Toolkit share the same structure. They work with Providers to handle the authentication, get data using Microsoft Graph APIs, and show the results using a pre-built UI.
