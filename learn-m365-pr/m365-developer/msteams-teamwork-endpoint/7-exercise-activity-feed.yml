@@ -1,0 +1,47 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msteams-teamwork-endpoint.7-exercise-activity-feed
+metadata:
+  title: Use Microsoft Graph to post to the activity feed
+  description: In this exercise, you'll learn how to use Microsoft Graph to submit notifications to the Microsoft Teams activity feed.
+  ms.date: 03/12/2021
+  author: andrewconnell
+  ms.author: suzanz
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Use Microsoft Graph to post to the activity feed
+durationInMinutes: 11
+content: |
+  [!include[](includes/7-exercise-activity-feed.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "Which of the following permission(s) must the user grant consent to an app in order to send activity notifications to users?"
+    choices:
+    - content: "TeamsActivity.Send"
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Team.Activity.Send.All & Team.Activity.Read.All"
+      isCorrect: false
+      explanation: "These aren't valid Microsoft Graph permissions."
+    - content: "TeamsActivity.Send.All & TeamsActivity.Read.All"
+      isCorrect: false
+      explanation: "These aren't valid Microsoft Graph permissions."
+  - content: "Developers can use the Microsoft Graph to send notifications in which of the following scenarios?"
+    choices:
+    - content: "Sending notifications to users in a chat, users in a team, to an installed app, or directly to users"
+      isCorrect: false
+      explanation: "Notifications are for users, not apps; you can't send notifications to apps."
+    - content: "Sending notifications to users in a chat or users in a team"
+      isCorrect: false
+      explanation: "You can also send notifications directly to users."
+    - content: "Sending notifications to users in a chat, users in a team, or directly to users"
+      isCorrect: true
+      explanation: "Correct!"
+  - content: "Why is it considered a good practice to preauthorize all Microsoft Teams clients on the Azure AD app?"
+    choices:
+    - content: "Preauthorizing all Microsoft Teams clients ensures your custom app can be used in the maximum scenarios possible."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "This is obsolete - all Microsoft Teams clients are automatically authorized to access the custom app's Azure AD app."
+      isCorrect: false
+      explanation: "Microsoft Teams clients aren't automatically authorized to access any Azure AD app."
