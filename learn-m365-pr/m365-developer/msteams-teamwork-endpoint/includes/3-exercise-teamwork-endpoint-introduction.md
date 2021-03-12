@@ -55,7 +55,7 @@ ngrok http https://localhost:3000
 
 When ngrok starts, it will display the temporary subdomain. In this case, the URL https://d4fa28c4e203.ngrok.io is forwarding all requests to https://localhost:3000 that you'll start later in the exercise.
 
-![](../media/03-vscode-create-project-03.png)
+![Screenshot of the running ngrok process](../media/03-vscode-create-project-03.png)
 
 Enter the full ngrok address, excluding the protocol, in the **Configure project** dialog for the domain name and select **Register**.
 
