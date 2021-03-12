@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msteams-auth-sso.4-tabs-sso
+metadata:
+  title: Single sign-on (SSO) with Microsoft Teams tabs
+  description: In this unit, learn how single sign-on works and how to create a tab that uses single sign-on (SSO).
+  ms.date: 03/15/2021
+  author: andrewconnell
+  ms.author: suzanz
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Single sign-on (SSO) with Microsoft Teams tabs
+durationInMinutes: 8
+content: |
+  [!include[](includes/4-tabs-sso.md)]

@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn-m365.msteams-auth-sso
+metadata:
+  title: Microsoft Teams – Authentication and Single Sign-on
+  description: In this module, you'll learn about the different authentication flows supported by Microsoft Teams that you can use in your custom apps.
+  ms.date: 03/15/2021
+  author: andrewconnell
+  ms.author: suzanz
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Microsoft Teams – Authentication and Single Sign-on
+summary: Developers can create Microsoft Teams apps to create new experiences for their users and integrate with existing business solutions. When custom applications need to access user information protected by Azure AD, and data from other services, apps will need to establish a trusted connection with these providers. In this module, you'll learn about the different authentication flows supported by Microsoft Teams that you can use in your custom apps.
+abstract: |
+  At the end of this module, you should be able to:
+  - Understand the authentication options available to developers creating custom Microsoft Teams tabs and bots
+  - Create a Microsoft Teams tab that uses SSO authentication
+  - Create a bot for Microsoft Teams that uses SSO authentication
+prerequisites: |
+  - Basic knowledge of REST services & APIs
+  - Basic knowledge of Microsoft Graph
+  - Experience using Visual Studio Code at the beginner level
+  - Valid Microsoft 365 Subscription
+iconUrl: /learn/achievements/msteams-auth-sso.svg
+levels:
+  - intermediate
+roles:
+  - developer
+products:
+  - m365
+  - office-teams
+units:
+  - learn-m365.msteams-auth-sso.1-introduction
+  - learn-m365.msteams-auth-sso.2-authentication-single-sign-on
+  - learn-m365.msteams-auth-sso.3-exercise-single-sign-on
+  - learn-m365.msteams-auth-sso.4-tabs-sso
+  - learn-m365.msteams-auth-sso.5-exercise-tabs-sso
+  - learn-m365.msteams-auth-sso.6-bots-sso
+  - learn-m365.msteams-auth-sso.7-exercise-bots-sso
+  - learn-m365.msteams-auth-sso.8-summary
+badge:
+  uid: learn-m365.msteams-auth-sso.badge
