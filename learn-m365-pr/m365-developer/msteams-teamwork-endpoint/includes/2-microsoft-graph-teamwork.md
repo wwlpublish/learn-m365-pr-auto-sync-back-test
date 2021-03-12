@@ -20,7 +20,7 @@ Use application permissions to work with teams, channels, and tabs without human
 
 Let customers create new teams and channels. Install your Teams app in the new teams. Pin your app to a tab in the new channel. Send messages to the channel linking back to your website.
 
-## #Create and manage multiple teams and channels
+### Create and manage multiple teams and channels
 
 Microsoft Graph makes it easy to create large numbers of teams and populate them with users and channels, by automate creating and managing teams, channels, tabs, and apps. Microsoft Graph also lets you find and archive the teams you're no longer using. This is the same API that the Microsoft Teams Admin Center and Teams PowerShell commandlets are built on.
 
