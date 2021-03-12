@@ -10,7 +10,7 @@ In Microsoft Teams, you can show your desktop, a specific app, presentation, or 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2MK6J]
 
-1.  Select **Share** :::image type="content" source="../media/sharescreenbutton-99e8e6ba.png" alt-text="share content button during meeting":::
+1.  Select **Share** :::image type="content" source="../media/share-screen-button.png" alt-text="share content button during meeting":::
      .
 2.  Select what you want to share:
     
@@ -40,7 +40,7 @@ In Microsoft Teams, you can keep working even while you're in a meeting.<br>
 
 Teams can detect what’s said in a meeting and present real-time captions. And, if you've turned on the new meeting experience, your captions will include speaker attribution—so you'll see not only what's being said, but who's saying it.
 
-:::image type="content" source="../media/captionsduringmeeting-02990287.png" alt-text="captions displayed at the bottom of the screen":::
+:::image type="content" source="../media/captions-during-meeting.png" alt-text="captions displayed at the bottom of the screen":::
 
 
 > [!NOTE]
@@ -53,13 +53,13 @@ Live captions can make your meeting more inclusive to participants who are deaf 
 
 ### Turn captions on and off
 
-To use live captions in a meeting, go to your meeting controls and select **More options :::image type="content" source="../media/moreoptionsbutton-ba03677a.png" alt-text="more options ellipse button":::
+To use live captions in a meeting, go to your meeting controls and select **More options :::image type="content" source="../media/more-options-button.png" alt-text="more options ellipse button":::
 &gt; Turn on live captions**.
 
-:::image type="content" source="../media/captionsonoff-4b965856.png" alt-text="The option to turn live captions on in a meeting's call controls":::
+:::image type="content" source="../media/captions-on-off.png" alt-text="The option to turn live captions on in a meeting's call controls":::
 
 
-To stop using live captions, go to the meeting controls and select **More options :::image type="content" source="../media/moreoptionsbutton-ba03677a.png" alt-text="more options ellipse button":::
+To stop using live captions, go to the meeting controls and select **More options :::image type="content" source="../media/more-options-button.png" alt-text="more options ellipse button":::
 &gt; Turn off live captions**.
 
 ### Get the most out of your captions<br>
@@ -74,11 +74,11 @@ To make sure your live captions are as accurate as possible, try to follow these
 
 During a meeting, you can raise a virtual hand to let people know you want to contribute without interrupting the conversation.
 
-Just select **Show reactions** :::image type="content" source="../media/livereactionsbutton-38ef2256.png" alt-text="show reaction button in meeting controls":::
- in the meeting controls, and then choose **Raise your hand**:::image type="content" source="../media/raiseyourhand-e06c54f3.png" alt-text="Raise your hand options":::
+Just select **Show reactions** :::image type="content" source="../media/live-reactions-button.png" alt-text="show reaction button in meeting controls":::
+ in the meeting controls, and then choose **Raise your hand**:::image type="content" source="../media/raise-your-hand.png" alt-text="Raise your hand options":::
  . Everyone in the meeting will see that you've got your hand up.
 
-:::image type="content" source="../media/raiseyourhand_flyout-2c212dd3.png" alt-text="Raise your hand menu with flyout options":::
+:::image type="content" source="../media/raise-your-hand-flyout.png" alt-text="Raise your hand menu with flyout options":::
 
 
 Meeting presenters will also receive a notification that your hand is raised. In meetings where attendees can't unmute themselves, a presenter can then allow you to unmute.

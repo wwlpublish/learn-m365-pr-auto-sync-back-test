@@ -8,7 +8,7 @@ The following video provides an overview of how to view your calendar and manage
 
 Select **Calendar** to view your appointments and meetings for the day or work week. These appointments stay synchronized with your Outlook calendar.
 
-:::image type="content" source="../media/calendarmeetingoptions-383ad552.png" alt-text="image showing calendar with ability to accept or decline meeting":::
+:::image type="content" source="../media/calendar-meeting-options.png" alt-text="image showing calendar with ability to accept or decline meeting":::
 
 
 Right-click an event in your calendar to RSVP, remove it if it's canceled, or open the invitation to view the meeting details. If the event is a Teams meeting, you'll also get options to **Join online** and **Chat with participants**.
@@ -21,7 +21,7 @@ Join Teams meetings anytime, anywhere, from any device. Teams meetings are best 
 
 All you need to join a Teams meeting is a link.
 
-:::image type="content" source="../media/meetinglink-96f0c201.png" alt-text="Select Click here to join the meeting":::
+:::image type="content" source="../media/meeting-link.png" alt-text="Select Click here to join the meeting":::
 
 
 Select **Click here to join the meeting** in your meeting invite to be taken to a page where you can choose to either join on the web or download the desktop app. If you already have the Teams app, the meeting will open there automatically.
@@ -33,7 +33,7 @@ If you don’t have a Teams account and the organizer has allowed it, you may ha
 1.  Select **Calendar** on the left side of Teams to view your meetings.
 2.  Find the meeting you want and select Join.
 
-:::image type="content" source="../media/calendar-84cf62d4.png" alt-text="Calendar view":::
+:::image type="content" source="../media/calendar.png" alt-text="Calendar view":::
 
 
 Or, if someone starts the meeting, you'll get a notification you can use to join.
@@ -42,14 +42,14 @@ Or, if someone starts the meeting, you'll get a notification you can use to join
 
 If a meeting takes place in a channel, you’ll see an invitation to join, relevant content, and who’s in the meeting right in the channel. The meeting appears on the **Posts** tab along with any notes or files shared. Just select **Join**.
 
-:::image type="content" source="../media/channelmeeting-b591e1be.png" alt-text="A meeting in a channel with a Join button":::
+:::image type="content" source="../media/channel-meeting.png" alt-text="A meeting in a channel with a Join button":::
 
 
 ### Join from chat
 
 If the meeting has already begun, it appears in your recent chat list. To join, navigate to **Chat,** select the meeting in your chat list and then select **Join** at the top of the chat.
 
-:::image type="content" source="../media/Joinfromchat-87451bdc.png" alt-text="Join meeting from chat":::
+:::image type="content" source="../media/join-from-chat.png" alt-text="Join meeting from chat":::
 
 
 ### Call in
@@ -58,7 +58,7 @@ If you're unable to use the Teams app or Teams on the web, you can join some mee
 
 If there's a phone number and conference ID in the meeting invite, just dial the number to join.
 
-:::image type="content" source="../media/dialin-86c7b798.png" alt-text="Teams meeting information showing Telephone numbers for calling in to meeting":::
+:::image type="content" source="../media/dial-in.png" alt-text="Teams meeting information showing Telephone numbers for calling in to meeting":::
 
 
 Depending on meeting settings, you'll get in right away, or go to a lobby where someone in the meeting will admit you.
@@ -81,15 +81,15 @@ Your calendar in Teams is connected to your Exchange calendar. In other words, w
 
 There are several ways to schedule a meeting in Teams:
 
- *  Select **Schedule a meeting :::image type="content" source="../media/meetingsbutton-60ee9b82.png" alt-text="Schedule a meeting button":::**
+ *  Select **Schedule a meeting :::image type="content" source="../media/meetings-button.png" alt-text="Schedule a meeting button":::**
      in a chat (below the box whIere you type a new message) to book a meeting with the people in the chat.
- *  Go to **Calendar** :::image type="content" source="../media/meetingsbutton-60ee9b82.png" alt-text="calendar button":::
+ *  Go to **Calendar** :::image type="content" source="../media/meetings-button.png" alt-text="calendar button":::
      on the left side of the app and select **New meeting** in the top right corner.
  *  Select a range of time in the calendar. A scheduling form will pop open.
 
 The scheduling form is where you'll give your meeting a title, invite people, and add meeting details. Use the **Scheduling Assistant** to find a time that works for everyone.
 
-:::image type="content" source="../media/schedulingform-1b789325.png" alt-text="new meeting details in scheduling assistant":::
+:::image type="content" source="../media/scheduling-form.png" alt-text="new meeting details in scheduling assistant":::
 
 
 Once you're done filling out the details, select **Save**. This will close the scheduling form and send an invite to everyone's Outlook inbox.
@@ -103,7 +103,7 @@ Meetings that you schedule can be private, available only to invited participant
 
 To make a meeting a channel meeting, select the **Add channel** field in the New meeting form and enter the name of the desired channel. Channels can't be edited or added once the invite is sent. You'll need to send a new invite with the updated channel.
 
-:::image type="content" source="../media/addchannel-4db495cf.png" alt-text="add channel field in new meeting form":::
+:::image type="content" source="../media/add-channel.png" alt-text="add channel field in new meeting form":::
 
 
 If your meeting gets posted in a channel, it'll appear under the **Posts** tab. Team members can set agendas, share files, or add comments.
@@ -120,7 +120,7 @@ If you want to kick off a meeting immediately instead of scheduling it ahead, yo
 
 To start an impromptu meeting:
 
- *  From your calendar: Go to **Calendar** :::image type="content" source="../media/meetingsbutton-60ee9b82.png" alt-text="Meetings button":::
+ *  From your calendar: Go to **Calendar** :::image type="content" source="../media/meetings-button.png" alt-text="Meetings button":::
      on the left side of Teams, then select **Meet now** :::image type="content" source="../media/meet-now.png" alt-text="Meet now button":::
      in the upper right corner.
  *  In a channel: In the **Posts** tab, look for **Meet now :::image type="content" source="../media/meet-now.png" alt-text="Meet now button":::**

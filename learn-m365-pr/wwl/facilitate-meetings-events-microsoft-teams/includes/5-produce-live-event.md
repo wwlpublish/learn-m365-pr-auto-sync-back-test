@@ -6,7 +6,7 @@ Teams live events is an extension of Teams meetings, enabling you to produce eve
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3eTQ3]
 
-1.  To create a live event in Teams, select **Meetings** :::image type="content" source="../media/meetingsbutton-60ee9b82.png" alt-text="meeting button":::
+1.  To create a live event in Teams, select **Meetings** :::image type="content" source="../media/meetings-button.png" alt-text="meeting button":::
     on the left side of the app and then **New meeting**.
 2.  At the top of the dialog box, select **New meeting &gt; New live event**.
 3.  Add the meeting title, date and time information, and other details.
@@ -17,7 +17,7 @@ Teams live events is an extension of Teams meetings, enabling you to produce eve
 8.  Select **Schedule**.
 9.  Select the **Get attendee link** to copy the unique code. This is what you post or send to anyone attending the event.
 
-:::image type="content" source="../media/liveeventpermissions-38e1c845.PNG" alt-text="Live event permissions":::
+:::image type="content" source="../media/live-event-permissions.PNG" alt-text="Live event permissions":::
 
 
 > [!NOTE]
@@ -29,7 +29,7 @@ Before you go live, let's get everything set up with your Teams live event. The 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3lHs1]
 
-1.  Select **Calendar** :::image type="icon" source="../media/meetingsbutton-60ee9b82.png":::
+1.  Select **Calendar** :::image type="icon" source="../media/meetings-button.png":::
     , select the live event, and **Join**.
 2.  To share your desktop or a window, select **Share** and add the content you'd like to share.
 3.  Select what content you want your audience to see from at the bottom of the screen to preview it in your queue (on the left) before sending it to what's live (on the right).
@@ -51,7 +51,7 @@ Teams live events provide flexible options for event producers:
 
 Producer capabilities can vary depending on the production method you use:
 
-<br>:::image type="content" source="../media/producercapabilitytablesm-535aafbe.PNG" alt-text="live event producer capabilities chart":::
+<br>:::image type="content" source="../media/producer-capability-tables.PNG" alt-text="live event producer capabilities chart":::
 
 
 ## Attend or watch a live event
@@ -69,7 +69,7 @@ You can watch Teams live events live or on-demand.
 
 The Q&amp;A panel only appears only if organizers have set it up. To ask a question:
 
-1.  Select **Q&amp;A** :::image type="icon" source="../media/qabutton-9a45f72a.png":::
+1.  Select **Q&amp;A** :::image type="icon" source="../media/qa-button.png":::
     on the right side of the screen.
 2.  Type your question in the compose box, and then select **Send**. If you want to ask your question anonymously, select **Ask anonymously**.
 
