@@ -9,7 +9,7 @@ In this module, you'll learn what Microsoft Graph Toolkit is and why you would w
 - Access to a [Microsoft 365 tenant](https://developer.microsoft.com/office/dev-program?ocid=MSlearn)
 - Basic understanding of authentication and authorization on Microsoft 365
 - Basic understanding of HTML
-- Visual Studio Code
+- [Visual Studio Code](https://code.visualstudio.com/)
 - [Visual Studio Code Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
 ## Learning objectives
