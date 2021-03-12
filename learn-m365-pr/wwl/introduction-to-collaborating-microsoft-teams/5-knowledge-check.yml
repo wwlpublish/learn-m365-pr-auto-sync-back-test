@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.introduction-to-collaborating-with-microsoft-teams.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 03/12/2021
+  author: wwlpublish
+  ms.author: tishaha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/5-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which of the following most accurately describes Microsoft Teams?"
+    choices:
+    - content: "A team event planning app available on web and mobile."
+      isCorrect: false
+      explanation: "Incorrect. While Microsoft Teams allows users to create an event, it is a collaboration app."
+    - content: "A collaboration app available on desktop, web, and mobile."
+      isCorrect: true
+      explanation: "That's correct. Microsoft Teams is a workspace for real-time collaboration and communication that is available on desktop, web and mobile."
+    - content: "A web-based time management tool for teams."
+      isCorrect: false
+      explanation: "Incorrect. While Microsoft Teams is offered via web, it is not a time management tool."
+  - content: "Which of the following most accurately describes the value of collaborating using Microsoft Teams?"
+    choices:
+    - content: "Provide enhanced and personalized calendar viewing options for meetings and appointments."
+      isCorrect: false
+      explanation: "Incorrect. Microsoft Teams let’s everyone work together no matter where they are."
+    - content: "Integrate team conversations, meetings, files, and tools on one platform."
+      isCorrect: true
+      explanation: "That’s correct. Microsoft Teams is a platform for teams to stay organized and easily find, share, and edit files in real time using familiar apps like Word, PowerPoint, and Excel."
+    - content: "Advanced options for phone calls, such as voicemail and call forwarding."
+      isCorrect: false
+      explanation: "Incorrect. Microsoft Teams includes options for calls, however Teams is a hub for teamwork."
+  - content: "Which of the following are options for accessing Microsoft Teams?"
+    choices:
+    - content: "Use Microsoft Teams as part of an Azure subscription."
+      isCorrect: false
+      explanation: "Incorrect. Microsoft Teams is not a part of an Azure subscription."
+    - content: "Use Microsoft Teams as part of an M365 subscription."
+      isCorrect: true
+      explanation: "That’s correct. Microsoft Teams can be used as part of an M365 subscription."
+    - content: "Use Microsoft Teams with an enhanced account."
+      isCorrect: false
+      explanation: "Incorrect. There is no official enhanced account option related to using Microsoft Teams."

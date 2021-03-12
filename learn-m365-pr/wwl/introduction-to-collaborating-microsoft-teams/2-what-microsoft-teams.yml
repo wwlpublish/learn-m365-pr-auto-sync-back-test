@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.introduction-to-collaborating-with-microsoft-teams.what-is
+title: What is Microsoft Teams?
+metadata:
+  title: What is Microsoft Teams?
+  description: "What is Microsoft Teams?"
+  ms.date: 03/12/2021
+  author: wwlpublish
+  ms.author: tishaha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/2-what-microsoft-teams.md)]
