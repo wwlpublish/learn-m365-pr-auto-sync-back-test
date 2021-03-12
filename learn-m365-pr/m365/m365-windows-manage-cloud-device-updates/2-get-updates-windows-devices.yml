@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.m365-windows.manage-windows-updates-cloud.2-get-updates-windows-devices
+title: Get updates for your Windows devices
+metadata:
+  title: Get updates for your Windows devices
+  description: Learn about how to get updates for your Windows devices
+  ms.date: 03/01/2020
+  author: v-iankens
+  ms.author: v-iankens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-windows
+durationInMinutes: 2
+content: |
+  [!include[](includes/2-get-updates-windows-devices.md)]
