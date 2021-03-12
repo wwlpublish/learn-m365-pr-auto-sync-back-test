@@ -18,8 +18,9 @@ abstract: |
 prerequisites: |
   - Basic knowledge of authentication
   - Basic knowledge of HTML
-  - Access to a Microsoft 365 tenant
-  - Experience using Visual Studio Code at the beginner level
+  - Access to a [Microsoft 365 tenant](https://developer.microsoft.com/en-us/microsoft-365/dev-program?ocid=MSlearn)
+  - [Visual Studio Code](https://code.visualstudio.com/)
+  - [Visual Studio Code Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - beginner
