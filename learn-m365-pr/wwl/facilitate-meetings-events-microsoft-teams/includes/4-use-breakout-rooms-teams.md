@@ -12,19 +12,15 @@ Only meeting organizers on the desktop versions of Teams (Windows and Mac) can c
 
 ## Create breakout rooms
 
-1. Start the meeting.<br>2. In the meeting controls, select **Breakout rooms** :::image type="content" source="../media/breakoutroomicon-dddcf742.png" alt-text="Breakout rooms icon":::
-.
-
+1. Start the meeting.
+2. In the meeting controls, select **Breakout rooms** :::image type="content" source="../media/breakoutroomicon-dddcf742.png" alt-text="Breakout rooms icon":::
 :::image type="content" source="../media/toolbarwithbreakoutroomsicon-58f4227b.png" alt-text="Select Breakout rooms in meeting controls":::
-
 
 3. Select the number of rooms you want (50 max), and whether you want Teams to assign people to rooms (**Automatically**) or you want to choose the people for each room yourself (**Manually**).
 
-:::image type="content" source="../media/createbreakoutroomsscreenshot-02b2b4ef.png" alt-text="select number of rooms needed from breakout rooms options":::
-
-
-> [!NOTE]
-> This is the only time you can choose to have people automatically assigned to breakout rooms. You won't be able to change this option later in the meeting.
+    :::image type="content" source="../media/createbreakoutroomsscreenshot-02b2b4ef.png" alt-text="select number of rooms needed from breakout rooms options":::
+    > [!NOTE]
+    > This is the only time you can choose to have people automatically assigned to breakout rooms. You won't be able to change this option later in the meeting.
 
 4. Select **Create Rooms**.<br><br>
 
@@ -35,13 +31,15 @@ If you chose **Automatically** in the previous procedure, participants will be a
 > [!NOTE]
 > Currently, participants who joined the meeting via PSTN or Teams devices can't be assigned to rooms. We suggest using the main meeting as a breakout room for these people.
 
-1. Select **Assign participants**.<br>2. Choose the people who will share a breakout room by selecting the check boxes next to their names.
+1. Select **Assign participants**.
 
-:::image type="content" source="../media/breakoutroomselectpeopletoassigntoroomsm-5eb00d9a.png" alt-text="Manually select people to assign to a room":::
-<br>3. Select **Assign** and then select a room for those people.
+2. Choose the people who will share a breakout room by selecting the check boxes next to their names.
 
-:::image type="content" source="../media/breakoutroomselectroomsm-9cda7d2f.png" alt-text="Manually select room to assign to people":::
-<br>4. Repeat steps 2 and 3 until everyone has been assigned to a room.
+    :::image type="content" source="../media/breakoutroomselectpeopletoassigntoroomsm-5eb00d9a.png" alt-text="Manually select people to assign to a room":::
+3. Select **Assign** and then select a room for those people.
+
+    :::image type="content" source="../media/breakoutroomselectroomsm-9cda7d2f.png" alt-text="Manually select room to assign to people":::
+4. Repeat steps 2 and 3 until everyone has been assigned to a room.
 
 ## Rename the breakout rooms
 
@@ -52,8 +50,7 @@ If you want, rename each room to reflect the group of people it contains, what t
 
 2. Enter the new name and select **Rename room**.
 
-:::image type="content" source="../media/breakoutroomrenameroom-f1ae4ddf.png" alt-text="rename breakout room":::
-
+    :::image type="content" source="../media/breakoutroomrenameroom-f1ae4ddf.png" alt-text="rename breakout room":::
 
 > [!TIP]
 > During the meeting you can decide to delete all the existing breakout rooms and set them up differently; see [Recreate breakout rooms from scratch](https://support.microsoft.com/en-us/office/use-breakout-rooms-in-teams-meetings-7de1f48a-da07-466c-a5ab-4ebace28e461#bkmk_recreateroom?azure-portal=true) for details.<br>
@@ -66,7 +63,7 @@ By default, meeting participants are moved to their assigned rooms as soon as yo
  *  To open a single room, select **More options**:::image type="content" source="../media/moreoptionsbutton-ba03677a.png" alt-text="more options ellipse button":::
      next to the room and then **Open room**.
 
-:::image type="content" source="../media/breakoutroomselectopenroom-024eb5bb.png" alt-text="select open room":::
+    :::image type="content" source="../media/breakoutroomselectopenroom-024eb5bb.png" alt-text="select open room":::
 
 
 You can open and close breakout rooms more than once during a meeting.
@@ -88,7 +85,7 @@ You may want to send announcements to give time updates, for example, or share d
 1. Select **More options**:::image type="content" source="../media/moreoptionsbutton-ba03677a.png" alt-text="more options ellipse button":::
  at the top of the Breakout rooms pane and then select **Make an announcement**.
 
-:::image type="content" source="../media/breakoutroommakeannouncement-f0003594.png" alt-text="Select Make an announcement to send announcement to all breakout rooms":::
+    :::image type="content" source="../media/breakoutroommakeannouncement-f0003594.png" alt-text="Select Make an announcement to send announcement to all breakout rooms":::
 
 
 2. Enter your announcement and select **Send**.
@@ -139,10 +136,9 @@ By default, participants are automatically moved into breakout rooms when they'r
 1. Select **More options** :::image type="icon" source="../media/moreoptionsbutton-ba03677a.png":::
  at the top of the Breakout rooms pane and then select **Rooms settings**.
 
-:::image type="content" source="../media/breakoutroomsroomsettings-d536dfae.png" alt-text="room settings options with breakout rooms pane":::
+    :::image type="content" source="../media/breakoutroomsroomsettings-d536dfae.png" alt-text="room settings options with breakout rooms pane":::
 
-
-<br>2. Switch the toggle next to **Automatically move people into opened rooms** to off.
+2. Switch the toggle next to **Automatically move people into opened rooms** to off.
 
 Meeting attendees can learn more about joining and participating in breakout rooms here: [Join a breakout room in a Teams meeting](https://support.microsoft.com/en-us/office/join-a-breakout-room-in-a-teams-meeting-428e95a6-bd4d-49ba-bbeb-ed62098ee0f9?azure-portal=true).
 
@@ -151,17 +147,23 @@ Meeting attendees can learn more about joining and participating in breakout roo
 By default, this setting is off. Turning it on gives participants the option to leave their breakout rooms and return to the original meeting to rejoin the larger discussion.
 
 1. Select **More options**:::image type="content" source="../media/moreoptionsbutton-ba03677a.png" alt-text="more options ellipse button":::
- at the top of the Breakout rooms pane and then select **Rooms settings**.<br>2. Switch the toggle next to **Participants can return to the main meeting** to on.<br>
+ at the top of the Breakout rooms pane and then select **Rooms settings**.
+
+2. Switch the toggle next to **Participants can return to the main meeting** to on.<br>
 
 ### Move someone to a different breakout room
 
 > [!NOTE]
 > Currently, participants can be moved only when breakout rooms are closed.
 
-1. Expand the list of participants under a breakout room.<br>2. Point to someones name and select the check box that appears.<br>3. Select **More options**:::image type="content" source="../media/moreoptionsbutton-ba03677a.png" alt-text="more options ellipse button":::
+1. Expand the list of participants under a breakout room.
+
+2. Point to someones name and select the check box that appears.
+
+3. Select **More options**:::image type="content" source="../media/moreoptionsbutton-ba03677a.png" alt-text="more options ellipse button":::
  and then the breakout room you want to move that person to.<br>
 
-:::image type="content" source="../media/breakoutroomsselectroomtomoveparticipant-9ea3104a.png" alt-text="select a room to move participant to":::
+    :::image type="content" source="../media/breakoutroomsselectroomtomoveparticipant-9ea3104a.png" alt-text="select a room to move participant to":::
 
 
 ### Add an additional breakout room
@@ -178,4 +180,6 @@ By default, this setting is off. Turning it on gives participants the option to 
 During a meeting, you can return to the beginning of the breakout rooms process to reconfigure the rooms and assignments.
 
 1. Select **More options**:::image type="content" source="../media/moreoptionsbutton-ba03677a.png" alt-text="more options ellipse button":::
- at the top of the Breakout rooms pane and then select **Recreate rooms**.<br>2. Follow the instructions above to create new breakout rooms and assign people to them.<br>
+ at the top of the Breakout rooms pane and then select **Recreate rooms**.
+
+2. Follow the instructions above to create new breakout rooms and assign people to them.<br>
