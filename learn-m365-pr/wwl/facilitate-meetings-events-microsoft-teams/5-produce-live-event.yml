@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.facilitate-meetings-events-with-microsoft-teams.produce-live-event
+title: Produce a live event
+metadata:
+  title: Produce a live event
+  description: "Produce a live event"
+  ms.date: 03/12/2021
+  author: wwlpublish
+  ms.author: tishaha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 9
+content: |
+  [!include[](includes/5-produce-live-event.md)]
