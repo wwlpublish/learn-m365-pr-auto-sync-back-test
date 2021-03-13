@@ -14,9 +14,9 @@ durationInMinutes: 3
 content: |
   [!include[](includes/5-implement-azure-ad-connect-pass-through-authentication.md)]
 quiz:
-  title: "Check your knowledge"
+  title: "Check your knowledgeChoose the best response for the following question. Then select “Check your answers.”"
   questions:
-  - content: "Choose the best response for the following question. Then select “Check your answers.”As the Enterprise Administrator for Contoso, you're planning its Microsoft 365 deployment. You're currently investigating authentication strategies. While you're interested in Azure AD Connect Pass-through authentication, you're concerned whether Contoso's environment can support it. If you implement pass-through authentication, which of the following scenarios will it support?"
+  - content: "As the Enterprise Administrator for Contoso, you're planning its Microsoft 365 deployment. You're currently investigating authentication strategies. While you're interested in Azure AD Connect Pass-through authentication, you're concerned whether Contoso's environment can support it. If you implement pass-through authentication, which of the following scenarios will it support?"
     choices:
     - content: "Users sign in to Outlook clients using legacy protocols such as Exchange ActiveSync, SMTP, POP, and IMAP"
       isCorrect: true

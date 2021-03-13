@@ -14,9 +14,9 @@ durationInMinutes: 3
 content: |
   [!include[](includes/3-evaluate-multi-factor-authentication-for-your-deployment.md)]
 quiz:
-  title: "Check your knowledge"
+  title: "Check your knowledgeChoose the best response for the following question. Then select “Check your answers.”"
   questions:
-  - content: "Choose the best response for the following question. Then select “Check your answers.”You're the Enterprise Administrator for Tailspin Toys, Inc. Your company’s Microsoft 365 tenant is deployed in a Cloud Only environment. You're interested in enabling Azure Active Directory multi-factor authentication (MFA). Which of the following authentication options can Tailspin Toys use as a second type of authentication for MFA?"
+  - content: "You're the Enterprise Administrator for Tailspin Toys, Inc. Your company’s Microsoft 365 tenant is deployed in a Cloud Only environment. You're interested in enabling Azure Active Directory multi-factor authentication (MFA). Which of the following authentication options can Tailspin Toys use as a second type of authentication for MFA?"
     choices:
     - content: "Physical or virtual smart card"
       isCorrect: false
