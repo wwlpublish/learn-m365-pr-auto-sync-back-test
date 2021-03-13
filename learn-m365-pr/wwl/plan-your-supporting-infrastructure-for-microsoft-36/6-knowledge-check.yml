@@ -32,7 +32,7 @@ quiz:
     - content: "The burst packet loss from clients to Microsoft Edge is greater than 1% during any 15-second interval"
       isCorrect: false
       explanation: "That's incorrect. Organizations will experience degraded performance if they do not open the correct ports or if they actively block specific ports."
-    - content: "The Round-trip time from clients to Microsoft Edge is greater than 50-ms"
+    - content: "The Round-trip time from clients to Microsoft Edge is greater than 50 ms"
       isCorrect: false
       explanation: "That's incorrect. Organizations will experience degraded performance if they do not open the correct ports or if they actively block specific ports."
     - content: "They actively block specific ports or they do not open the correct ports"
@@ -45,10 +45,10 @@ quiz:
       explanation: "That's correct. Azure AD Connect Health provides robust health monitoring and a central location in the Azure portal to view this activity."
     - content: "Azure AD Federation service"
       isCorrect: false
-      explanation: "That's incorrect. The correct anser is Azure AD Connect Health, which provides robust health monitoring and a central location in the Azure portal to view this activity."
+      explanation: "That's incorrect. The correct answer is Azure AD Connect Health, which provides robust health monitoring and a central location in the Azure portal to view this activity."
     - content: "Azure AD Pass-through Authentication service"
       isCorrect: false
-      explanation: "That's incorrect. The correct anser is Azure AD Connect Health, which provides robust health monitoring and a central location in the Azure portal to view this activity."
+      explanation: "That's incorrect. The correct answer is Azure AD Connect Health, which provides robust health monitoring and a central location in the Azure portal to view this activity."
   - content: "As the Enterprise Administrator for Fabrikam, you're trying to decide which migration option will be the best fit for the company. Fabrikam currently uses a third-party mail system. Given this requirement, which of the following migration options must Fabrikam use?"
     choices:
     - content: "Cutover migration"
