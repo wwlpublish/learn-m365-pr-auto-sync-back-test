@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 03/12/2021
+  ms.date: 03/13/2021
   author: wwlpublish
   ms.author: tishaha
   ms.topic: interactive-tutorial
@@ -16,29 +16,29 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "Which of the following is true about participant options for meetings in Microsoft Teams?"
+  - content: "Which of the following statements is true about participant options for meetings in Microsoft Teams?"
     choices:
     - content: "Participants must have a Teams account to join any meeting in Microsoft Teams."
       isCorrect: false
       explanation: "Incorrect. Even without a Teams account, participants can join a meeting by either downloading the app or joining on the web."
     - content: "Participants without a Teams account may join a Teams meeting using an invite link if the organizer has allowed it."
       isCorrect: true
-      explanation: "correct choice"
+      explanation: "That’s correct. Participants with an invitation link may join with the organizer’s permission."
     - content: "You may only invite participants from your own organization to your Teams meeting."
       isCorrect: false
-      explanation: "incorrect choice"
+      explanation: "Incorrect. You can invite guests from outside of your organization to join a Teams meeting."
   - content: "When joining a meeting, where would you go to select a custom background or blur your background?"
     choices:
     - content: "Background filters."
       isCorrect: true
       explanation: "That’s correct. You can select an existing background, upload your own or blur your background within background filters."
-    - content: "Device settings.{ {Incorrect. Device settings, found under computer audio, allows you to test and change your speaker and microphone options.}}"
+    - content: "Device settings."
       isCorrect: false
-      explanation: "incorrect choice"
+      explanation: "Incorrect. Device settings, found under computer audio, allows you to test and change your speaker and microphone options."
     - content: "Room audio."
       isCorrect: false
       explanation: "Incorrect. Room audio searches for rooms in which to host your meetings."
-  - content: "When screensharing during a Teams meeting, what should you share to show the one thing you want to share while keeping the rest of the screen private?"
+  - content: "When screen sharing during a Teams meeting, what should you share to show the one thing you want to share while keeping the rest of the screen private?"
     choices:
     - content: "Desktop."
       isCorrect: false
@@ -49,7 +49,7 @@ quiz:
     - content: "Window."
       isCorrect: true
       explanation: "That’s correct. Window shows just one window with no other desktop activity."
-  - content: "Which of the following is an option for scheduling a meeting in Teams?"
+  - content: "Which of the following responses is an option for scheduling a meeting in Teams?"
     choices:
     - content: "Meet in a channel."
       isCorrect: true
