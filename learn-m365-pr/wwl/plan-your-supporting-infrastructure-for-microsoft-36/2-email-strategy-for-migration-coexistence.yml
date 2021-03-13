@@ -14,9 +14,9 @@ durationInMinutes: 3
 content: |
   [!include[](includes/2-email-strategy-for-migration-coexistence.md)]
 quiz:
-  title: "Check your knowledge"
+  title: "Check your knowledgeChoose the best response for the following question. Then select “Check your answers.”"
   questions:
-  - content: "Choose the best response for the following question. Then select “Check your answers.\"As the Enterprise Administrator for Lucerne Publishing, you're trying to decide which migration option to use. Lucerne wants to keep its on-premises Exchange servers. Based on this requirement, which of the following migration options should you recommend?"
+  - content: "As the Enterprise Administrator for Lucerne Publishing, you're trying to decide which migration option to use. Lucerne wants to keep its on-premises Exchange servers. Based on this requirement, which of the following migration options should you recommend?"
     choices:
     - content: "Hybrid configuration"
       isCorrect: true

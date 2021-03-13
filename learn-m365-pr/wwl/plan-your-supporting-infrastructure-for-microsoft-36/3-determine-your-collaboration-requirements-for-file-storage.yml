@@ -14,9 +14,9 @@ durationInMinutes: 3
 content: |
   [!include[](includes/3-determine-your-collaboration-requirements-for-file-storage.md)]
 quiz:
-  title: "Check your knowledge"
+  title: "Check your knowledgeChoose the best response for the following question. Then select “Check your answers.”"
   questions:
-  - content: "Choose the best response for the following question. Then select “Check your answers.\"You're the owner, CTO, Enterprise Administrator, and all-around \"computer person\" of Margie's Travel. The company is a sole proprietorship located in Florida that recently deployed Microsoft 365. You want to create a file storage and sharing strategy that fits your company's needs, but you're not sure what approach to take. It has since come to your attention that Microsoft 365 provides file storage and sharing strategies that are based on industry type. Which of the following file storage and sharing strategies is recommended for sole proprietorships like Margie's Travel?"
+  - content: "You're the owner, CTO, Enterprise Administrator, and all-around \"computer person\" of Margie's Travel. The company is a sole proprietorship located in Florida that recently deployed Microsoft 365. You want to create a file storage and sharing strategy that fits your company's needs, but you're not sure what approach to take. It has since come to your attention that Microsoft 365 provides file storage and sharing strategies that are based on industry type. Which of the following file storage and sharing strategies is recommended for sole proprietorships like Margie's Travel?"
     choices:
     - content: "Create a Microsoft 365 team site to store shared documents, and create a private Microsoft 365 team subsite to store files that you want to keep private from the rest of the team"
       isCorrect: false
