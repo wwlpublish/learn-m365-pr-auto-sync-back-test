@@ -14,9 +14,9 @@ durationInMinutes: 3
 content: |
   [!include[](includes/5-validate-your-network-readiness-by-using-microsoft-network-tools.md)]
 quiz:
-  title: "Check your knowledge"
+  title: "Check your knowledgeChoose the best response for the following question. Then select “Check your answers.”"
   questions:
-  - content: "Choose the best response for the following question. Then select “Check your answers.”As Fabrikam's Enterprise Administrator, you're reviewing the company's network readiness. You know that Microsoft provides several tools to help organizations analyze their networks. Because Fabrikam has experienced several network issues over the past year, you're especially interested in finding an effective tool for troubleshooting network problems. Which of the following tools will help Fabrikam troubleshoot any network issues it may experience after deploying Microsoft 365?"
+  - content: "As Fabrikam's Enterprise Administrator, you're reviewing the company's network readiness. You know that Microsoft provides several tools to help organizations analyze their networks. Because Fabrikam has experienced several network issues over the past year, you're especially interested in finding an effective tool for troubleshooting network problems. Which of the following tools will help Fabrikam troubleshoot any network issues it may experience after deploying Microsoft 365?"
     choices:
     - content: "Microsoft Remote Connectivity Analyzer"
       isCorrect: false

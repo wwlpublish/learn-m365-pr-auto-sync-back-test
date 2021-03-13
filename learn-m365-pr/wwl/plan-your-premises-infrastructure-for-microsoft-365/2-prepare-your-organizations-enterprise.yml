@@ -14,16 +14,16 @@ durationInMinutes: 3
 content: |
   [!include[](includes/2-prepare-your-organizations-enterprise.md)]
 quiz:
-  title: "Check your knowledge"
+  title: "Check your knowledgeChoose the best response for the following question. Then select “Check your answers.”"
   questions:
-  - content: "Choose the best response for the following question. Then select “Check your answers.”In your role as Enterprise Administrator for Lucerne Publishing, Inc., you're cleaning up the company's on-premises Active Directory environment by running the IdFix tool. The IdFix tool detects a topleveldomain error. Which of the following changes would be representative of a fix that you would make for this type of error?"
+  - content: "In your role as Enterprise Administrator for Lucerne Publishing, Inc., you're cleaning up the company's on-premises Active Directory environment by running the IdFix tool. The IdFix tool detects a topleveldomain error. Which of the following changes would be representative of a fix that you would make for this type of error?"
     choices:
     - content: "Change myaddress@lucerne publishing.com to myaddress@lucernepublishing.com"
       isCorrect: false
-      explanation: "That's incorrect. This is an example of a domain part error. The correct answer is Change myaddress@lucernepublishing.local to myaddress@lucernepublishing.com."
+      explanation: "That's incorrect. This error is an example of a domain part error. The correct answer is Change myaddress@lucernepublishing.local to myaddress@lucernepublishing.com."
     - content: "Change myaddress@lucernepublishing.local to myaddress@lucernepublishing.com"
       isCorrect: true
-      explanation: "That's correct. This is an example of a topleveldomain error, which can be fixed by changing the .local value to an internet routable domain such as .com or .net."
+      explanation: "That's correct. This error is an example of a topleveldomain error, which can be fixed by changing the \".local\" value to an internet routable domain such as .COM or .NET."
     - content: "Change my”work”address@lucernepublishing.com to myworkaddress@lucernepublishing.com"
       isCorrect: false
-      explanation: "That's incorrect. This is an example of a domainpart_localpart error. The correct answer is Change myaddress@lucernepublishing.local to myaddress@lucernepublishing.com."
+      explanation: "That's incorrect. This error is an example of a domainpart_localpart error. The correct answer is Change myaddress@lucernepublishing.local to myaddress@lucernepublishing.com."

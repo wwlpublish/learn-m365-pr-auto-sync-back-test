@@ -14,9 +14,9 @@ durationInMinutes: 3
 content: |
   [!include[](includes/3-manage-your-transition-to-by-using-deployment-planning-checklist.md)]
 quiz:
-  title: "Check your knowledge"
+  title: "Check your knowledgeChoose the best response for the following question. Then select “Check your answers.”"
   questions:
-  - content: "Choose the best response for the following question. Then select “Check your answers.”As Fabrikam's Enterprise Administrator, you're using Microsoft's Deployment Planning Checklist to help keep your Microsoft 365 deployment on schedule. You have determined your deployment goals and inventoried your current environment. Which of the following tasks should you do next?"
+  - content: "As Fabrikam's Enterprise Administrator, you're using Microsoft's Deployment Planning Checklist to help keep your Microsoft 365 deployment on schedule. You have determined your deployment goals and inventoried your current environment. Which of the following tasks should you do next?"
     choices:
     - content: "Collect details about any intranet sites that you plan to migrate"
       isCorrect: false

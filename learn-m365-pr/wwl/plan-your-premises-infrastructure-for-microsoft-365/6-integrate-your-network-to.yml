@@ -14,9 +14,9 @@ durationInMinutes: 3
 content: |
   [!include[](includes/6-integrate-your-network-to.md)]
 quiz:
-  title: "Check your knowledge"
+  title: "Check your knowledgeChoose the best response for the following question. Then select “Check your answers.”"
   questions:
-  - content: "Choose the best response for the following question. Then select “Check your answers.”When planning network requirements for a Microsoft 365 deployment, what should you always do?"
+  - content: "When planning network requirements for a Microsoft 365 deployment, what should you always do?"
     choices:
     - content: "Avoid VPN tunneling through other company locations"
       isCorrect: true
