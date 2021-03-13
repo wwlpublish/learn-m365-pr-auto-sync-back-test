@@ -34,9 +34,10 @@ units:
 - learn-m365.m365-compliance-information-prevent-data-loss.identify-content
 - learn-m365.m365-compliance-information-prevent-data-loss.configure-data-loss-prevention-policy
 - learn-m365.m365-compliance-information-prevent-data-loss.define-policy-settings
+- learn-m365.m365-compliance-information-prevent-data-loss.test-policy-settings
 - learn-m365.m365-compliance-information-prevent-data-loss.prepare-endpoint-dlp
 - learn-m365.m365-compliance-information-prevent-data-loss.manage-monitor-remediate
-- learn-m365.m365-compliance-information-prevent-data-loss.view-reports
+- learn-m365.m365-compliance-information-prevent-data-loss.view-dlp-reports
 - learn-m365.m365-compliance-information-prevent-data-loss.knowledge-check
 - learn-m365.m365-compliance-information-prevent-data-loss.summary
 

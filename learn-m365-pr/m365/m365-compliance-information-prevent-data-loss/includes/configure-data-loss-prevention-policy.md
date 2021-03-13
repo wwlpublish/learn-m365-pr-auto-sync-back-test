@@ -48,3 +48,5 @@ You can further refine the scope for the policy via inclusion or exclusion setti
 The image below shows all the locations selected and all data in each location included in the policy. Notice that the inclusion and exclusion settings vary by location. For Exchange, it is distribution groups, while it is sites for SharePoint.
  
  source="../media/choose-locations.png" alt-text="A screenshot of the locations section of the DLP solution, with all the options selected.":::
+
+In the next step, you'll choose which policy workflow (simple vs advanced) to use and, if needed, make changes to the policy to match your environment.

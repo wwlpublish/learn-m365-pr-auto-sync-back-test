@@ -3,13 +3,13 @@ uid: learn-m365.m365-compliance-information-prevent-data-loss.define-policy-sett
 title: Define policy settings for your DLP policy
 metadata:
   title:  Define policy settings for your DLP policy
-  description: Learn about the two workflow branches to set the policy settings for your new DLP policy. 
+  description: Learn about the two workflow branches and how to customize the policy settings for your new DLP policy. 
   ms.date: 03/07/2021
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 
-durationInMinutes: 15
+durationInMinutes: 7
 content: |
   [!include[](includes/configure-data-loss-prevention-policy.md)]
