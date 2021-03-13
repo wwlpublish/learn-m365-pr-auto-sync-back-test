@@ -14,9 +14,9 @@ durationInMinutes: 3
 content: |
   [!include[](includes/3-examine-components-enterprise-mobility-security.md)]
 quiz:
-  title: "Check your knowledge"
+  title: "Check your knowledgeChoose the best response for the following question. Then select “Check your answers.”"
   questions:
-  - content: "Choose the best response for the following question. Then select “Check your answers.”Which of the following Enterprise Mobility + Security components provides identity management for on-premises users, remote users, and hybrid users accessing applications both locally and over the cloud?"
+  - content: "Which of the following Enterprise Mobility + Security components provides identity management for on-premises users, remote users, and hybrid users accessing applications both locally and over the cloud?"
     choices:
     - content: "Azure AD Identity Protection"
       isCorrect: false
