@@ -1,6 +1,6 @@
 Microsoft Teams live events enable users to broadcast video and meeting content to a large online audience. Live events are meant for one-to-many communications where the host of the event is leading the interactions and audience participation is primarily to view the content shared by host.<br>
 
-## Plan and schedule a live event<br>
+## Plan and schedule a live event
 
 Teams live events is an extension of Teams meetings, enabling you to produce events for large online audiences with more control over video, audience interaction, and reporting.
 
@@ -17,11 +17,11 @@ Teams live events is an extension of Teams meetings, enabling you to produce eve
 8.  Select **Schedule**.
 9.  Select the **Get attendee link** to copy the unique code. This is what you post or send to anyone attending the event.
 
-:::image type="content" source="../media/live-event-permissions.PNG" alt-text="Live event permissions":::
+:::image type="content" source="../media/live-event-permissions.png" alt-text="Live event permissions":::
 
 
 > [!NOTE]
-> Once the event is scheduled, be sure to make any changes in Teams. Don't edit this event in Outlook.<br>
+> Once the event is scheduled, be sure to make any changes in Teams. Don't edit this event in Outlook.
 
 ## Produce a live event
 
@@ -51,7 +51,7 @@ Teams live events provide flexible options for event producers:
 
 Producer capabilities can vary depending on the production method you use:
 
-<br>:::image type="content" source="../media/producer-capability-tables.PNG" alt-text="live event producer capabilities chart":::
+<br>:::image type="content" source="../media/producer-capability-tables.png" alt-text="live event producer capabilities chart":::
 
 
 ## Attend or watch a live event
