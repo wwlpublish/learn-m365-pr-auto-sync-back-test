@@ -16,11 +16,11 @@ content: |
 quiz:
   title: "Check your knowledgeChoose the best response for the following question. Then select “Check your answers.”"
   questions:
-  - content: "You're the Enterprise Administrator for Tailspin Toys, Inc. As you plan your Microsoft 365 deployment, you want to select the most appropriate strategy for Tailspin Toys when migrating mail, calendar, and contact information to the cloud. You want to move your entire email organization (3000 mailboxes) to Microsoft 365 and manage user accounts in Microsoft 365. You realize it may take more than a few days to migrate batches of on-premises mailboxes to Microsoft 365; in fact, it may take a few weeks or months. Which migration strategy should you employ to meet these business requirements?"
+  - content: "You're the Enterprise Administrator for Tailspin Toys, Inc. As you plan your Microsoft 365 deployment, you want to select the most appropriate strategy for Tailspin Toys when migrating mail, calendar, and contact information to the cloud. You want to move your entire email organization (3000 mailboxes) to Microsoft 365 and manage user accounts in Microsoft 365. You realize it may take more than a few days to migrate batches of on-premises mailboxes to Microsoft 365. In fact, it may take a few weeks or months. Which migration strategy should you employ to meet these business requirements?"
     choices:
     - content: "Cutover migration"
       isCorrect: false
-      explanation: "That's incorrect. A cutover migration can migrate all on-premises mailboxes to Microsoft 365 over a few days, but you can only migrate a maximum of 2000 mailboxes, with a recommended maximum of 150 before you see performance degredation. The correct answer is staged migration, which will migrate the 3000 mailboxes in batches over the course of a few weeks or months."
+      explanation: "That's incorrect. A cutover migration can migrate all on-premises mailboxes to Microsoft 365 over a few days, but you can only migrate a maximum of 2000 mailboxes, with a recommended maximum of 150 before performance begins to suffer. The correct answer is staged migration, which will migrate the 3000 mailboxes in batches over the course of a few weeks or months."
     - content: "IMAP migration"
       isCorrect: false
       explanation: "That's incorrect. An IMAP migration migrates the contents of users' mailboxes from an IMAP messaging system to their Microsoft 365 mailboxes, which is not the case at Tailspin Toys. The correct answer is staged migration, which will migrate the 3000 mailboxes in batches over the course of a few weeks or months."
