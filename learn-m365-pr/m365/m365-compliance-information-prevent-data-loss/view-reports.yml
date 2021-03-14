@@ -12,4 +12,4 @@ metadata:
 
 durationInMinutes: 8
 content: |
-  [!include[](includes/view-dlp-settings.md)]
+  [!include[](includes/view-dlp-reports.md)]

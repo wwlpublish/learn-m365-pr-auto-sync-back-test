@@ -3,15 +3,15 @@ uid: learn-m365.m365-compliance-information-prevent-data-loss
 metadata:
   title: Prevent data loss in Microsoft 365
   description: Learn how to discover, classify, and protect sensitive and business-critical content throughout its lifecycle across your organization. 
-  ms.date: 03/07/2021
-  author: ericweisberg
-  ms.author: v-erwe
+  ms.date: 03/14/2021
+  author: lizap
+  ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Prevent data loss in Microsoft 365
 summary: Learn how to discover, classify, and protect sensitive and business-critical content throughout its lifecycle across your organization. 
 abstract: |
-When you finish with this module, you'll be able to: 
+  When you finish with this module, you'll be able to: 
   - Discuss the data loss prevention solution and its benefits.
   - Describe the data loss prevention configuration process.
   - Explain what users will experience when the solution is implemented.
