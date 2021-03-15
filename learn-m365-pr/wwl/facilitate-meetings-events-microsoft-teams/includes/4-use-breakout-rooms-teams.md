@@ -158,7 +158,7 @@ By default, this setting is off. Turning it on gives participants the option to 
 
 1. Expand the list of participants under a breakout room.
 
-2. Point to someones name and select the check box that appears.
+2. Point to someone's name and select the check box that appears.
 
 3. Select **More options**:::image type="content" source="../media/more-options-button.png" alt-text="more options ellipse button":::
  and then the breakout room you want to move that person to.<br>

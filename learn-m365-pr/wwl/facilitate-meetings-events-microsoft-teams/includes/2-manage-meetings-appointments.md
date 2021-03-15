@@ -71,7 +71,7 @@ If your device doesn’t detect the room nearby, select **Add a room** under **O
 
 ### Demo
 
-The following video demosntrates how to join meetings in Teams:
+The following video demonstrates how to join meetings in Teams:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3Oz24]
 
