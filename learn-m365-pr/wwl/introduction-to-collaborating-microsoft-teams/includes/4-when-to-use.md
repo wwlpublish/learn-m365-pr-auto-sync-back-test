@@ -12,7 +12,7 @@ Financial technology innovator PayPal is constantly on the lookout for new ways 
 
 In the following video, leaders from Paypal describe how employees use Microsoft Teams to collaborate more effectively:
 
-> [!VIDEO //play.vidyard.com/estB7Kuv2yCRcB82wYWKWg.jpg]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWzl0m]
 
 Read the full case study: [Microsoft Customer Story-PayPal enhances employee collaboration and reduces data silos with Microsoft Teams](https://customers.microsoft.com/en-us/story/794051-paypal-banking-capital-markets-teams?azure-portal=true)
 
