@@ -45,4 +45,4 @@ To select your update source, WSUS or WU, you must configure the source properly
 If you have specified an intranet Microsoft update service location, please ensure that you do enable one of the following:
 - **GP: Specify preview builds and Feature Updates are received** or the [Update/DeferFeatureUpdatesPeriodInDays](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update?azure-portal=true) CSP policy.
 - **GP: Specify when Quality Updates are received** or the [Update/DeferQualityUpdatesPeriodInDays]( https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update?azure-portal=true) CSP policy.
-Once you have configured the scan source correctly to ensure your devices are connecting directly to Windows Update, you are now ready to manage what updates are offered.
+Once you have configured the scan source correctly to ensure your devices are connecting directly to Windows Update, you are now ready to manage what updates are offered. 

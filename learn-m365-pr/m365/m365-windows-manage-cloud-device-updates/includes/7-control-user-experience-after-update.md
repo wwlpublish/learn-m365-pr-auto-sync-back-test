@@ -15,7 +15,7 @@ The following controls are available to control update options for users:
 
 Configuring the following will affect user Group Policy controls on the Windows Update Settings page as follows:
 
--**Specify active hours range for auto-restarts**; this will remove the user’s ability to configure active hours from the Windows Update Settings page. 
+-**Specify active hours range for auto-restarts**; this will remove the user’s ability to configure active hours from the Windows Update Settings page.
 -**Allow download automatically over a metered network** will make **Receive updates for other Microsoft products when you update Windows** unavailable.
 
 ### Group Policy (GP): Remove access to "Pause updates" feature

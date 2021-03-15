@@ -4,12 +4,13 @@ title: Check your knowledge
 metadata:
   title: Check your knowledge
   description: Check your knowledge
-  ms.date: 03/01/2020
-  author: v-iankens
-  ms.author: v-iankens
+  ms.date: 03/09/2021
+  author: iankensey
+  ms.author: v-iakens
   ms.topic: interactive-tutorial
   ms.prod: learning-windows
 durationInMinutes: 5
+content: |
 quiz:
   title: Check your knowledge
   questions:

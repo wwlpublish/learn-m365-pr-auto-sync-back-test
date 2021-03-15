@@ -27,7 +27,7 @@ We recommend deploying quality updates at different times. To do this, group dev
 
 You can also use Group Policy to specify deferrals. For example, you can use the **Select when Quality Updates are received** Group Policy to defer quality updates:
 
-:::image type="content" source="../media/3-choose-deferral-period-group-policy-expanded.png" lightbox="../media/3-choose-deferral-period-group-policy-inline.png" alt-text="Figure 7. Choose deferral period using a GP.":::
+:::image type="content" source="../media/3-choose-deferral-period-group-policy-expanded.png" lightbox="../media/3-choose-deferral-period-group-policy-inline.png" alt-text="Figure 8. Choose deferral period using a GP.":::
 
 ### Avoid consecutive quality updates
 

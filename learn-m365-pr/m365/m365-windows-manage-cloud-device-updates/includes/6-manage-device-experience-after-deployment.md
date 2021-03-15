@@ -23,7 +23,7 @@ By default, devices scan for new updates daily (roughly every 22 hours) or when 
 By default, the update will download automatically at a time that the Update Orchestrator Service (UOS) determines is minimally disruptive. However, the following Group Policy controls are available:
 
 - **GP: Allow download automatically over a metered network** policy.
-   - Configuring this policy can improve update compliance because the device will be more available to download the update. However, there is an additional cost for your data plan. Think carefully before configuring it.
+  - Configuring this policy can improve update compliance because the device will be more available to download the update. However, there is an additional cost for your data plan. Think carefully before configuring it.
 - **GP: Require end user action to download updates policy**; this notifies the user about the download.
   - You can find this setting under the Group Policy path **Computer Configuration > Administrative Templates > Windows Components > Windows Update > Configure Automatic Updates**.
   - Configuring this policy will prevent the update from downloading until a user acts by selecting a notification or going to the Windows Update Settings page. If the user takes no action, the update will not download until the deadline you have configured is reached. This policy will likely provide a poor user experience and slow update adoption. Think carefully before configuring.
@@ -69,13 +69,15 @@ The **Configure Automatic Updates** Group Policy controls multiple stages of the
 
 Configuring **Require end user action to install updates** will prevent the update from installing until the user acts by selecting a notification or going to the Windows Update Settings page.
 
->[!Warning] If the user takes no action, the update will not install until the deadline you have configured is reached. This policy will likely provide a poor user experience and slow update adoption. Think carefully before configuring.
+> [!WARNING]
+> If the user takes no action, the update will not install until the deadline you have configured is reached. This policy will likely provide a poor user experience and slow update adoption. Think carefully before configuring.
 
 #### Scheduled install time
 
 Configuring **Schedule install time** means the device only attempts to install when the user acts or at the specified time, day, or week.
 
->[!Warning] The device might not complete the installation at the specified time because of power policies, user absence, and so on. In this case, it will not attempt installation until the specified time occurs again or until a deadline you have specified is reached. At that time, the device will attempt to install outside of the specified time. This policy might slow update adoption and diminish compliance especially if you do not schedule the installation time to recur daily.
+> [!WARNING]
+> The device might not complete the installation at the specified time because of power policies, user absence, and so on. In this case, it will not attempt installation until the specified time occurs again or until a deadline you have specified is reached. At that time, the device will attempt to install outside of the specified time. This policy might slow update adoption and diminish compliance especially if you do not schedule the installation time to recur daily.
 
 If you do choose to configure this policy, for the best user experience, which minimizes disturbances and streamlines the update process, we recommend the following:
 
@@ -92,7 +94,8 @@ The CSP equivalent of the recommended configuration is as follows:
   - 0 = Every day
 - **Update/ScheduledInstallEveryWeek = 1**
 
->[!Warning] If you choose to use option values 2 or 3 of the **Configure Automatic Updates** GP, the potential policy conflicts listed below might arise. These conflicts might prevent the successful installation of an update or significantly degrade the user experience.
+> [!WARNING]
+> If you choose to use option values 2 or 3 of the **Configure Automatic Updates** GP, the potential policy conflicts listed below might arise. These conflicts might prevent the successful installation of an update or significantly degrade the user experience.
 
 
 |Configuration  |Conflict  |
@@ -125,7 +128,8 @@ By default, we avoid restarting devices during active hours to minimize disturba
 #### Intelligent active hours
 
 Windows configures the active hours based on user behavior.
->[!Note] Intelligent active hours are an option only available on Windows 10, version 1903 and above.
+> [!NOTE]
+> Intelligent active hours are an option only available on Windows 10, version 1903 and above.
 
 #### User-configured active hours
 
@@ -157,13 +161,15 @@ Microsoft Intune does not currently provide the ability to configure the maximum
 
 :::image type="content" source="../media/4-set-active-hour-range-for-auto-restarts-expanded.png" lightbox="../media/4-set-active-hour-range-for-auto-restarts-inline.png" alt-text="Figure 14. Set active hour range for auto-restarts in Microsoft Intune.":::
 
->[!Warning] Configuring the **Turn off auto-restart for updates during active hours** GP will override intelligent active hours or user-configured active hours. When configured, this will remove the active hours setting from the user’s Windows Update Settings page.
+> [!WARNING]
+> Configuring the **Turn off auto-restart for updates during active hours** GP will override intelligent active hours or user-configured active hours. When configured, this will remove the active hours setting from the user’s Windows Update Settings page.
 
 ### GP: Update Power Policy for Cart Restarts
 
 This GP will only work for devices running the educational (EDU) versions of Windows 10. Use this policy only for education devices that are plugged in to charging carts overnight.
 
->[!Warning] This policy causes scan, download, install, and restart to occur outside of active hours. This policy might slow update adoption and diminish compliance.
+> [!WARNING]
+> This policy causes scan, download, install, and restart to occur outside of active hours. This policy might slow update adoption and diminish compliance.
 
 ### Monitor Updates
 

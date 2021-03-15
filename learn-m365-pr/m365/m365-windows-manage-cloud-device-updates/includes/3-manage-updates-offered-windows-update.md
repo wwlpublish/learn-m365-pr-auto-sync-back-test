@@ -19,7 +19,8 @@ Additionally, if the feature update version the device is on is close to its end
 1. Select the group you want to assign it to.
     :::image type="content" source="../media/3-select-group-expanded.png" lightbox="../media/3-select-group-inline.png" alt-text="Figure 3. Select the group or groups that will be offered the feature release.":::
 
->[!Note] Once you configure this setting, the Windows Update service receives and applies the setting within 10 hours. The next time the devices in the selected group(s) check for updates, they will begin receiving the specified Windows 10 feature update version.
+> [!NOTE]
+> Once you configure this setting, the Windows Update service receives and applies the setting within 10 hours. The next time the devices in the selected group(s) check for updates, they will begin receiving the specified Windows 10 feature update version.
 
 ### Get access to pre-release feature updates
 
@@ -71,9 +72,9 @@ The number of groups you have and who is in the various groups will vary by size
 
 :::image type="content" source="../media/3-risk-tolerance.png" alt-text="Risk and tolerance":::
 
-Risk tolerance can also be based upon device type such as airplanes, ATMs, or other machines that cannot be taken offline due to the critical nature of the job they perform. Let’s take a look at an example organization with 54,000 employees running a variety of hardware, apps, etc. in a variety of buildings. –
+Risk tolerance can also be based upon device type such as airplanes, ATMs, or other machines that cannot be taken offline due to the critical nature of the job they perform. Let’s take a look at an example organization with 54,000 employees running a variety of hardware, apps, etc. in a variety of buildings.
 
-:::image type="content" source="../media/3-organization-summary-expanded.png" lightbox="../media/3-organization-summary-inline" alt-text="Organization summary":::
+:::image type="content" source="../media/3-organization-summary-expanded.png" lightbox="../media/3-organization-summary-inline.png" alt-text="Organization summary":::
 
 - **Yellow**: There is an insider group of IT Admins and a representative set of devices used by tech friendly folks.
 - **Blue**: A representative set of devices used by tech friendly folks across the organization in multiple locations with a high risk tolerance.
