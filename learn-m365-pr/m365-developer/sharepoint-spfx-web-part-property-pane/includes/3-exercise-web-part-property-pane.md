@@ -113,7 +113,7 @@ If the local web server isn't running, start it by executing **gulp serve**. Onc
 
 ![Screenshot of HelloPropertyPane with a new text field](../media/03-edit-property-pane-add-property-03.png)
 
-Next, add a slider control to the property pane, connected to the **numContinentsVisited** property. In the **HelloPropertyPaneWebPart.ts**, at the top of the file, add a `PropertyPaneSlider` reference to the existing `import` statement for the `@microsoft/sp-webpart-base` package.
+Next, add a slider control to the property pane, connected to the **numContinentsVisited** property. In the **HelloPropertyPaneWebPart.ts**, at the top of the file, add a `PropertyPaneSlider` reference to the existing `import` statement for the `@microsoft/sp-property-pane` package.
 
 Scroll down to the method `getPropertyPaneConfiguration()` and within it, locate the `groupFields` array.
 
