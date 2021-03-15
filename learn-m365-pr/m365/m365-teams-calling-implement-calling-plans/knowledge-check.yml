@@ -1,0 +1,48 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.teams-calling-implement-calling-plans.knowledge-check
+metadata:
+  title: Knowledge check
+  description: Test what you have learned in this module.
+  ms.date: 02/12/2021
+  author: iankensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Knowledge check
+durationInMinutes: 3
+content: |
+quiz:
+    questions:
+    - content: "You are ready to transfer 1,200 numbers from your service provider. Which of the following describes how you would accomplish this task?"
+      choices:
+      - content: "Use the porting wizard in the Microsoft Teams admin center."
+        isCorrect: false
+        explanation: "The porting wizard cannot handle more than 999 numbers."
+      - content: "Submit a port order."
+        isCorrect: true
+        explanation: "When attempting to port or transfer more than 999 numbers you must submit a port order."
+      - content: "Contact your service provider who will then initiate the transfer."
+        isCorrect: false
+        explanation: "Your provider is unable to provide this service."
+    - content: "You have just purchased and assigned the appropriate Phone System addon-on license for a particular feature that you wanted. Which of the following describes the next step you would take?"
+      choices:
+      - content: "Use the appropriate PowerShell script to install the new feature."
+        isCorrect: false
+        explanation: "This step is not needed or used."
+      - content: "Purchase the associated Microsoft Teams add-on license"
+        isCorrect: false
+        explanation: "This is not part of the procedure. Microsoft Teams add-on licenses are for Teams features."
+      - content: "Assign a Calling Plan to the people in your organization."
+        isCorrect: true
+        explanation: "First you assign the license then assign a Calling Plan."
+    - content: "When you opened one of your offices in the United States, the office was located in an un-incorporated portion of the county and thus, addressed off the county’s addressing scheme. Now the local city has annexed the property your office is on and changed the address to match the city’s address scheme. You need to change Emergency Address for your office. Which of the following best describes what you need to do to change the Emergency Address?"
+      choices:
+      - content: "Go into the Microsoft Teams admin center and edit the Emergency Address."
+        isCorrect: false
+        explanation: "You cannot modify a validated address, you must enter a new address."
+      - content: "You must enter the new address and revalidate."
+        isCorrect: true
+        explanation: "After you enter a new address, that address must also be revalidated."
+      - content: "Because the geo code (latitude and longitude) has not changed, there is no action required on your part. The Emergency Routing Service Providers has updated the system."
+        isCorrect: false
+        explanation: "Emergency addresses are not based off geo codes. You must enter a new address."

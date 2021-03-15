@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.m365-teams-calling-overview.direct-routing-overview
+title: What is Direct Routing?
+metadata:
+  title: What is Direct Routing?
+  description: Learn about Direct Routing
+  ms.date: 04/02/2020
+  author: iankensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 3
+content: |
+  [!include[](includes/direct-routing-overview.md)]
