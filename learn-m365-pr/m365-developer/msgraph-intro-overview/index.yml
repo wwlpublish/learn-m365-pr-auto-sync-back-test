@@ -30,7 +30,8 @@ units:
 - learn-m365.msgraph-intro-overview.1-introduction
 - learn-m365.msgraph-intro-overview.2-what-is-microsoft-graph
 - learn-m365.msgraph-intro-overview.3-microsoft-graph-services
-- learn-m365.msgraph-intro-overview.4-access-user-information
-- learn-m365.msgraph-intro-overview.5-summary
+- learn-m365.msgraph-intro-overview.4-graph-explorer
+- learn-m365.msgraph-intro-overview.5-exercise-graph-explorer
+- learn-m365.msgraph-intro-overview.6-summary
 badge:
   uid: learn-m365.msgraph-intro-overview.badge

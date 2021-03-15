@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msgraph-intro-overview.5-exercise-graph-explorer
+metadata:
+  title: Access user information from Microsoft Graph using Graph Explorer
+  description: This unit summarizes what you learned in this module.
+  ms.date: 02/17/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Summary
+durationInMinutes: 1
+content: |
+  [!include[](includes/5-exercise-graph-explorer.md)]
