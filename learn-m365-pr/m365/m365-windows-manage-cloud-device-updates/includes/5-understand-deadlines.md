@@ -76,7 +76,8 @@ Similarly, if you (or the user) pause quality updates, the deadline will not beg
 |---------|---------|---------|---------|---------|
 |Seven days|Two days|Not applicable|Receives the quality update on day eight. |Forced to install and restart on day ten.|
 
->[!Note] We recommend that you allow the compliance policy and configure it as described in Compliance deadlines.
+> [!NOTE]
+> We recommend that you allow the compliance policy and configure it as described in Compliance deadlines.
 
 Additionally, set **Auto reboot before deadline** to **Yes**. This allows a device to automatically restart overnight, which provides a better user experience and improves compliance.
 
