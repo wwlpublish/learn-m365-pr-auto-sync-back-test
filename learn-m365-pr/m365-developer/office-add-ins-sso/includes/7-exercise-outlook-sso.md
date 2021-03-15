@@ -204,11 +204,11 @@ Previous exercises in this module have used the **configure-sso** utility script
 
 Open a browser and navigate to the [Azure Active Directory admin center (https://aad.portal.azure.com)](https://aad.portal.azure.com). Sign in using a **Work or School Account** that has global administrator rights to the tenancy.
 
-Select **Azure Active Directory** in the left-hand navigation.
+Select **Azure Active Directory** in the leftmost navigation.
 
 ### App registration
 
-Select **Manage > App registrations** in the left-hand navigation.
+Select **Manage > App registrations** in the leftmost navigation.
 
   ![Screenshot of the App registrations](../media/03-azure-ad-portal-home.png)
 
@@ -222,7 +222,7 @@ On the **App registrations** page, select **New registration** and set the follo
 
 The next step is to configure the app's registration details.
 
-Next, in the left-hand navigation, select **Manage > Authentication**.
+Next, in the leftmost navigation, select **Manage > Authentication**.
 
 On the **Authentication** screen, select **Add a platform**. Then select the **Web** platform from the list of options:
 
@@ -245,7 +245,7 @@ Select **Save** at the top of the screen to save your changes.
 
 Now you need to create a client secret for the application
 
-Select **Certificates & secrets** from the left-hand navigation panel.
+Select **Certificates & secrets** from the leftmost navigation panel.
 
 Select the **New client secret** button:
 
@@ -262,7 +262,7 @@ The **Certificate & Secrets** page will display the new secret.
 
 ![Screenshot showing the new secret](../media/07-azure-ad-app-secret-03.png)
 
-After copying the client secret, let's copy the client ID as well. In the left-hand navigation, select **Manage > Overview**.
+After copying the client secret, let's copy the client ID as well. In the leftmost navigation, select **Manage > Overview**.
 
 ![Screenshot showing the client ID](../media/07-azure-ad-app-secret-04.png)
 
@@ -270,7 +270,7 @@ After copying the client secret, let's copy the client ID as well. In the left-h
 
 Next, you need to grant the application permissions to Microsoft Graph.
 
-In the left-hand navigation, select **Manage > API permissions**.
+In the leftmost navigation, select **Manage > API permissions**.
 
 It's a good practice to only request permissions that your app needs. So, let's remove the initial **User.Read** permission by selecting it, then select **Remove permission**, followed by **Yes, remove** to confirm.
 
@@ -294,7 +294,7 @@ Next, select the **Grant admin consent for Contoso** followed by accepting the c
 
 ### Expose an API: Application ID URI
 
-Finally, select **Manage > Expose an API** in the left-hand navigation. There are multiple things to do on this page:
+Finally, select **Manage > Expose an API** in the leftmost navigation. There are multiple things to do on this page:
 
 First, select **Set** next to the **Application ID URI**. This is the unique ID of our application. Add **localhost:3000/** just before the protocol and the ID of the application so it looks similar to the following and select **Save**:
 

@@ -104,7 +104,7 @@ The registered Azure AD app must first be granted permissions to the app.
 
 Open a browser and navigate to the [Azure Active Directory admin center (https://aad.portal.azure.com)](https://aad.portal.azure.com). Sign in using a **Work or School Account** that has global administrator rights to the tenancy.
 
-In the left-hand navigation, select **Manage > API permissions**.
+In the leftmost navigation, select **Manage > API permissions**.
 
 Add a new permission by selecting **Add a permission**.
 

@@ -92,11 +92,11 @@ Let's examine the work the **configure-sso** script performed.
 
 Open a browser and navigate to the [Azure Active Directory admin center (https://aad.portal.azure.com)](https://aad.portal.azure.com). Sign in using a **Work or School Account** that has global administrator rights to the tenancy.
 
-Select **Azure Active Directory** in the left-hand navigation.
+Select **Azure Active Directory** in the leftmost navigation.
 
 ### App registration
 
-Select **Manage > App registrations** in the left-hand navigation.
+Select **Manage > App registrations** in the leftmost navigation.
 
   ![Screenshot of the App registrations](../media/03-azure-ad-portal-home.png)
 
@@ -115,7 +115,7 @@ SCOPE=User.Read
 
 ### Authentication
 
-Next, in the left-hand navigation, select **Manage > Authentication**. Notice the **Redirect URIs** are set to the **taskpane.html** and **fallbackauthdialog.html** pages in our app.
+Next, in the leftmost navigation, select **Manage > Authentication**. Notice the **Redirect URIs** are set to the **taskpane.html** and **fallbackauthdialog.html** pages in our app.
 
 ![Screenshot of the redirect URI section](../media/03-azure-ad-authentication-redirect-uri.png)
 
@@ -125,19 +125,19 @@ Also note the section **Implicit grand and hybrid flows** has been updated to en
 
 ### Certificates & secrets
 
-Next, in the left-hand navigation, select **Manage > Authentication**. Notice the **Redirect URIs** are In the left-hand navigation, select **Manage > Certificates & secrets**.
+Next, in the leftmost navigation, select **Manage > Authentication**. Notice the **Redirect URIs** are In the leftmost navigation, select **Manage > Certificates & secrets**.
 
 The **configure-sso** script created a client secret for the app. This was displayed in the command prompt as you saw previously, and added your developer workstation's secret store.
 
 ### API permissions
 
-In the left-hand navigation, select **Manage > API permissions**. Notice how multiple delegated permissions have been configured for the app. The **console-sso** script also granted admin consent to all users in the tenant so they won't be prompted to consent the app the first time they use the app.
+In the leftmost navigation, select **Manage > API permissions**. Notice how multiple delegated permissions have been configured for the app. The **console-sso** script also granted admin consent to all users in the tenant so they won't be prompted to consent the app the first time they use the app.
 
 ![Screenshot of permissions configured and granted on the app](../media/03-azure-ad-api-permissions.png)
 
 ### Expose an API: Application ID URI
 
-Finally, select **Manage > Expose an API** in the left-hand navigation. There are multiple things to take note of on this page:
+Finally, select **Manage > Expose an API** in the leftmost navigation. There are multiple things to take note of on this page:
 
 First, notice the application ID URI. This is the unique ID of our application. Notice it has the ID of the application in the full string.
 

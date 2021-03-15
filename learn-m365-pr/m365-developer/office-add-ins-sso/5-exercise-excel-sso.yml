@@ -37,7 +37,7 @@ quiz:
       - content: "The Azure AD app registered for the add-in, the permissions the app requires, and the app's URI."
         isCorrect: true
         explanation: "Correct!"
-  - content: "What's the purpose of the `allowSignInPrompt` authorization option on the `getAccessToken() method?"
+  - content: "What's the purpose of the `allowSignInPrompt` authorization option on the `getAccessToken()` method?"
     choices:
       - content: "When set to `true`, Office will prompt the user to sign in and consent to the requested Microsoft Graph permissions if they haven't previously done so."
         isCorrect: false
