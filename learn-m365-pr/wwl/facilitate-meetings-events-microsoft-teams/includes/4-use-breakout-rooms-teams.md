@@ -14,7 +14,7 @@ Only meeting organizers on the desktop versions of Teams (Windows and Mac) can c
 
 1. Start the meeting.
 2. In the meeting controls, select **Breakout rooms** :::image type="content" source="../media/breakout-room-icon.png" alt-text="Breakout rooms icon":::
-:::image type="content" source="../media/toolbar-with-breakoutrooms-icon.png" alt-text="Select Breakout rooms in meeting controls":::
+    :::image type="content" source="../media/toolbar-with-breakoutrooms-icon.png" alt-text="Select Breakout rooms in meeting controls":::
 
 3. Select the number of rooms you want (50 max), and whether you want Teams to assign people to rooms (**Automatically**) or you want to choose the people for each room yourself (**Manually**).
 
