@@ -12,4 +12,4 @@ metadata:
 
 durationInMinutes: 7
 content: |
-  [!include[](includes/configure-data-loss-prevention-policy.md)]
+  [!include[](includes/define-policy-settings.md)]
