@@ -4,14 +4,10 @@ In this unit, you'll create a web application and explore a starter project. You
 
 ### Create a new folder for the project
 
-1. Open Visual Studio Code and notice the Welcome page that appears. Select **Open folder**.  You can also accomplish creating a folder by going to **File > Open folder**.
-
-    :::image type="content" source="../media/4-exercise-sign-in-app/vscode-open-folder.png" alt-text="Open the folder using Visual Studio Code.":::
-
+1. Open Visual Studio Code. If you are in a Windows machine, select **File > Open Folder** from the command menu. If you are using macOS, select **File** > **Open Workspace** to open the folder.
 1. When opening a folder, the operating system provides a button to create a **New folder**.
-1. Navigate to the location where you want to create the new folder and select **New Folder**. Name the folder mgt-app and select the button **Select folder**.
-
-    :::image type="content" source="../media/4-exercise-sign-in-app/open-folder-dialog.png" alt-text="Open folder dialog to find new folder created for the project.":::
+1. Navigate to the location where you want to create the new folder and select **New Folder**. Name the folder **mgt-app**.
+1. Open the folder **mgt-app** in Visual Studio Code.
 
 ### Create files and folders under the project folder
 
@@ -116,7 +112,7 @@ Save the file and let's test the results!
 
 ## Test your app in browser
 
-To test the application in a browser, you can run the **Live Server** from Visual Studio Code.
+To test your application in browser, you will need to have installed the Visual Studio Code extension called **Live Server**. See prerequisites, if you have missed it.
 
 To run your application in Live Server, press the following key combination in Visual Studio Code and search for Live Server:  
 
@@ -125,9 +121,10 @@ Windows: CTRL-SHIFT-P
 macOS: CMD-SHIFT-P
 
 Open with Live Server, select the option and press enter.
-Once the Live server is up and running, open [http://localhost:3000](http://localhost:3000) in your browser.
 
-Select **Sign in** button and login with using the global admin credentials of the Microsoft 365 tenant.
+Once the Live Server is up and running, it may open the page [http://localhost:3000/index.html](http://localhost:3000/index.html) but open [http://localhost:3000](http://localhost:3000) in the browser.
+
+Select **Sign in** button and login with your Microsoft 365 developer tenant account.
 You'll be asked to consent to the required permissions the first time. Once you've consented, the application will display your login information.
 
 :::image type="content" source="../media/4-exercise-sign-in-app/application-sign-in.gif" alt-text="Final results of your application after the user sign in.":::
