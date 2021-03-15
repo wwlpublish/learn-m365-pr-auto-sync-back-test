@@ -4,8 +4,8 @@ metadata:
   title: Register an application with Azure Active Directory
   description: Learn how to register your JavaScript application with Azure Active Directory.
   ms.date: 02/17/2021
-  author: lizap
-  ms.author: elizapo
+  author: aycabas
+  ms.author: aycabas
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
 title: Register an application with Azure Active Directory
