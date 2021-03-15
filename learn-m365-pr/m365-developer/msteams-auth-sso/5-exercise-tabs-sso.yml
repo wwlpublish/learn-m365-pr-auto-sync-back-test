@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.msteams-auth-sso.5-exercise-tabs-sso
 metadata:
-  title: Exercise - single sign-on (SSO) with Microsoft Teams tabs
+  title: Exercise - Single sign-on (SSO) with Microsoft Teams tabs
   description: In this exercise, you'll add a custom tab to the existing Microsoft Teams app and use single sign-on (SSO) to obtain an access token to submit requests to Microsoft Graph.
   ms.date: 03/15/2021
   author: andrewconnell
   ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Exercise - single sign-on (SSO) with Microsoft Teams tabs
+title: Exercise - Single sign-on (SSO) with Microsoft Teams tabs
 durationInMinutes: 15
 content: |
   [!include[](includes/5-exercise-tabs-sso.md)]
