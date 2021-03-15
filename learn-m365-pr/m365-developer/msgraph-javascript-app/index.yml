@@ -33,7 +33,7 @@ units:
 - learn-m365.msgraph-javascript-app.4-register-application
 - learn-m365.msgraph-javascript-app.5-exercise-register-application
 - learn-m365.msgraph-javascript-app.6-retrieve-access-token
-- learn-m365.msgraph-javascript-app.7-exercise-access-token
+- learn-m365.msgraph-javascript-app.7-exercise-retrieve-access-token
 - learn-m365.msgraph-javascript-app.8-summary
 badge:
   uid: learn-m365.msgraph-javascript-app.badge
