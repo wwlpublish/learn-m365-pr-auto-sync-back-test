@@ -4,7 +4,7 @@ In this unit, you'll create a web application and explore a starter project. You
 
 ### Create a new folder for the project
 
-1. Open Visual Studio Code. If you are in a Windows machine, select **File > Open Folder** from the command menu. If you are using macOS, select **File** > **Open Workspace** to open the folder.
+1. Open Visual Studio Code. If you are in a Windows machine, select **File > Open Folder** from the command menu. If you are using macOS, select **File** > **Open** to open the folder.
 1. When opening a folder, the operating system provides a button to create a **New folder**.
 1. Navigate to the location where you want to create the new folder and select **New Folder**. Name the folder **mgt-app**.
 1. Open the folder **mgt-app** in Visual Studio Code.
