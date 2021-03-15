@@ -14,17 +14,23 @@ There are two ways to enable Teams users to have a real phone number to make and
 
 Calling plans are currently supported in 16 regions:
 
-| Currently supported regions  |  |
-|---------|---------|
-| **Austria** | **Portugal** |
-| **Belgium** | **Puerto Rico** |
-| **Canada** | **Netherlands** |
-| **Denmark** | **Spain** |
-| **France** | **Sweden** |
-| **Germany** | **Switzerland** |
-| **Ireland** | **United Kingdom** |
-| **Italy** | **United States**|
-
+- Austria
+- Belgium
+- Canada
+- Denmark
+- France
+- Germany
+- Ireland
+- Italy
+- Portugal
+- Puerto Rico
+- Netherlands
+- Spain
+- Sweden
+- Switzerland
+- United Kingdom
+- United States
+  
 If your country isn't currently supported, you'll need to consider deploying Direct Routing.
 
 ### Can I use my existing phone numbers?
