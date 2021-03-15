@@ -37,19 +37,19 @@ You can use Microsoft Graph Toolkit when building web apps and extensions for Mi
 
 ## Load Microsoft Graph Toolkit in your web app
 
-If you build a simple web app and don't use a bundler, you can load Microsoft Graph Toolkit directly from the Content Delivery Network (CDN). To load the toolkit from the CDN, add the following code snippet to your web app:
+If you build web apps without using a bundler, you can load Microsoft Graph Toolkit directly from the Content Delivery Network (CDN). To load the toolkit from the CDN, add the following code snippet to your web app:
 
 ```html
 <script src="https://unpkg.com/@microsoft/mgt/dist/bundle/mgt-loader.js"></script>
 ```
 
-If you use a package manager like npm, you add Microsoft Graph Toolkit to your web app, by installing the `@microsoft/mgt` package:
+If you work on projects that use a package manager like npm, you add Microsoft Graph Toolkit to your web app, by installing the `@microsoft/mgt` package:
 
 ```console
 npm install @microsoft/mgt
 ```
 
-If you build a React app, you install the `@microsoft/mgt-react` package instead:
+If you build React apps, you install the `@microsoft/mgt-react` package instead:
 
 ```console
 npm install @microsoft/mgt-react
