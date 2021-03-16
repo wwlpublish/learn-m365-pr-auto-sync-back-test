@@ -30,10 +30,12 @@ The final version of your **index.html** file will look as followed:
 
 ## Test your app in browser
 
-1. In Visual Studio Code, run **Live Server** to test your app. Open your browser and navigate to http://localhost:3000. 
+1. If it is your first time using **Microsoft 365 developer tenant**, you may not have any events in your Microsoft 365 developer tenant account's calendar. Before you start testing your app, visit https://outlook.office.com/calendar and sign in with your **Microsoft 365 developer tenant** account. Add sample events for upcoming days in your calendar.
 
-2. Sign in with your Microsoft 365 developer tenant. Consent to the required calendar permissions and select **Accept**. 
+2. In Visual Studio Code, run **Live Server** to test your app. Open your browser and navigate to http://localhost:3000. 
 
-3. Your app should show the user's upcoming calendar events: 
+3. Make sure to sign in with your **Microsoft 365 developer tenant** account. Consent to the required calendar permissions and select **Accept**.
+
+4. Your app will show your upcoming calendar events:
 
 :::image type="content" source="../media/06-final.gif" alt-text="Microsoft Graph Toolkit the project final result.":::
