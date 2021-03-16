@@ -14,8 +14,8 @@ The following table provides an overview of the Enterprise Mobility + Security c
   :::column-end:::
   :::column:::
     <p>Azure AD provides a full suite of identity management capabilities including multi-factor authentication, device registration, self-service password management, self-service group management, role-based access control, application usage monitoring, rich auditing, and security monitoring and alerting. Azure AD includes the following premium editions:</p>  
-   * **Azure AD Premium P1**. This enterprise-level edition provides identity management for on-premises users, remote users, and hybrid users accessing applications both locally and over the cloud. This edition includes support for self-service identity, access management, administration of dynamic groups including self-service group management, and Microsoft Identity Manager, which is a suite of on-premise identity and access management tools.
-   * **Azure AD Premium P2**. This edition includes all of the features of Azure AD Premium P1, plus Azure AD Identity Protection and Azure AD Privileged Identity Management, each of which is described below.
+  - **Azure AD Premium P1**. This enterprise-level edition provides identity management for on-premises users, remote users, and hybrid users accessing applications both locally and over the cloud. This edition includes support for self-service identity, access management, administration of dynamic groups including self-service group management, and Microsoft Identity Manager, which is a suite of on-premise identity and access management tools.
+  - **Azure AD Premium P2**. This edition includes all of the features of Azure AD Premium P1, plus Azure AD Identity Protection and Azure AD Privileged Identity Management, each of which is described below.
   :::column-end:::
 :::row-end:::
 :::row:::
