@@ -24,7 +24,7 @@ The simplest example of a delegated permission scope is *User.Read* used in  `/m
 
 **Application Permissions** on the other hand do not require a signed-in user in the application. The permissions are pre-consented to by an administrator. An example of an application permission scope is *Calendars.ReadWrite*, which allows the app to create, read, update, and delete events of all calendars without a signed-in user. You cannot use `/me` API for an application scope as there is no signed-in user to pull out that information.
 
-## Microsoft Graph Permission
+## Microsoft Graph permission
 
 A Microsoft Graph permission controls the access your app has to specific resources such as users, mail, files, and more. An example of the pattern used to define a permission for a Microsoft Graph resource is shown next:
 
@@ -34,7 +34,7 @@ For example, *User.Read.All* grants an application the permission to read the pr
 
 Similarly, to read the profile of a signed in user, the permission required is *User.Read*.
 
-## Access Token
+## Access token
 
 Now that we have a general idea of permissions and consent in Microsoft Graph, let’s look at another concept we need to know to ensure our application can talk to Microsoft Graph.
 

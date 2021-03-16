@@ -17,4 +17,5 @@ The authentication flow for an application that uses MSAL is as follows:
 1. Graph validates the token and sends the response back.
 
 The authentication flow is shown in the following diagram:
-:::image type="content" source="../media/6-auth-flow.png" alt-text="The following picture shows the authentication flow"::: 
+
+:::image type="content" source="../media/6-auth-flow.png" alt-text="The diagram of the authentication flow."::: 

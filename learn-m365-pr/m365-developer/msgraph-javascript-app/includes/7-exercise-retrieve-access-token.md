@@ -29,8 +29,8 @@ This exercise gets you started running an application that logs a user into Azur
 
     - **signIn()** - Signs in the user and uses Microsoft Graph to retrieve the user's profile.
     - **getToken()** - Handles getting an access token that can be used by Microsoft Graph.
- 
-1. Open the **graph.js** file and note that it grabs an access token, calls Microsoft Graph's `/me` API, and selects the user's id and displayName values. Notice how the access token is retrieved and added to the authorization header that is sent with the request to `/me`.
+
+1. Open the **graph.js** file and note that it grabs an access token, calls Microsoft Graph's `/me` API, and selects the user's ID and displayName values. Notice how the access token is retrieved and added to the authorization header that is sent with the request to `/me`.
 1. Finally, open **ui.js** and take a moment to explore the **displayUI()** function. It is responsible for showing and hiding elements in **index.html** and displaying the users name after they login.
  
 ## Run the app
@@ -38,20 +38,25 @@ This exercise gets you started running an application that logs a user into Azur
 It’s time to see your application run locally.  
 
 1. In the terminal window, go to the project folder where the source code is located.
-1. Run the following script in the command line, which will start your app locally.
+1. Run the following script in the command line, which will start your app locally, opening [http://localhost:8080](http://localhost:8080) in the browser.
 
     ```powershell
-    npx http-server -c-1 
+    npm start
     ```
-1. Browse to [http://localhost:8080](http://localhost:8080).
-1. If the app is configured correctly, you will see a sign-in button as shown next:
-    :::image type="content" source="../media/7-sign-in-button.png" alt-text="The following picture shows the sign in button":::
+1. If the app is configured correctly, you will see a sign-in button as shown below:
+
+    :::image type="content" source="../media/7-sign-in-button.png" alt-text="The screenshot of the sign in button.":::
+
 1. Sign in using an account in the same Microsoft 365 developer tenant, used in unit 4, where you registered the Azure Active Directory Application.
-1. After successfully signing in, you will be prompted to give consent as shown next:
-     :::image type="content" source="../media/7-consent-page.png" alt-text="The following picture shows the consent page":::
+1. After successfully signing in, you will be prompted to give consent as shown below:
+
+     :::image type="content" source="../media/7-consent-page.png" alt-text="The screenshot of the consent page.":::
+
 1. Select **Accept** to give consent for the application to do operations on behalf of the user.
 1. Once you've consented, the application will try to get an access token using the validated account information. This is handled for you by the MSAL library.
 1. After successfully getting the token back in the application, a GET request is made to the Microsoft Graph `/me` endpoint and the access token is passed in the Authorization Header. The call to `/me` will then retrieve the data securely from the service.
-1. After the response is received from Microsoft Graph, you will see the name of the signed in user displayed in the browser as shown next:
-     :::image type="content" source="../media/7-welcome-message.png" alt-text="The following picture shows the welcome message":::
+1. After the response is received from Microsoft Graph, you will see the name of the signed in user displayed in the browser as shown below:
+
+     :::image type="content" source="../media/7-welcome-message.png" alt-text="The screenshot of the welcome message.":::
+
 You have successfully built an application that uses Microsoft Graph to retrieve Microsoft 365 data!

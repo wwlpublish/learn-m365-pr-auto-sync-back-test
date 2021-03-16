@@ -4,12 +4,12 @@ Azure Active Directory provides an app registration service for web apps, single
 
 During the app registration process, there are several configuration options that you will need to set up: 
 
-1. Specify who can access your application by selecting one of the following supported account types. Some of the account types below set the relationship between your app and tenants that represent organizations in Azure Active Directory. You can determine if you want your app to be accessible only for your organization (Single tenant) or for all organizations in Azure Active Directory (Multitenant) by choosing any of the following options:
+- Specify who can access your application by selecting one of the following supported account types. Some of the account types below set the relationship between your app and tenants that represent organizations in Azure Active Directory. You can determine if you want your app to be accessible only for your organization (Single tenant) or for all organizations in Azure Active Directory (Multitenant) by choosing any of the following options:
 
     1. **Accounts in this organizational directory only (Single tenant):** Select this option if you want your application to be used only by users in your tenant. 
     1. **Accounts in any organizational directory (Multitenant):** Select this option if you want your application to be accessible by users in any Azure Active Directory tenant.  
     1. **Accounts in any organizational directory (Multitenant) and personal Microsoft accounts:** This option targets the widest set of customers. Select this option if you want your application to be accessible by users in any Azure Active Directory tenant and users who have personal Microsoft accounts. 
     1. **Personal Microsoft accounts only:** Select this option if you want your application to be used only by users who have personal Microsoft accounts. 
 
-2. Web and single-page applications will require **a redirect URI** that is the location where the Microsoft identity platform redirects a user's client and sends security tokens after authentication. 
+- Web and single-page applications will require **a redirect URI** that is the location where the Microsoft identity platform redirects a user's client and sends security tokens after authentication. 
  
