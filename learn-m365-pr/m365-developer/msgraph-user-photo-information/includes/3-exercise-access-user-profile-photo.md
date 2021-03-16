@@ -91,18 +91,21 @@ Now that you’ve added the extra functions and code snippets to get the photo f
 
 To run the application locally, follow these steps:
 
-1. In the terminal window, go to the project folder where the source code is located.  
-1. Run the following command in the terminal window to startup a local server:
+1. In the terminal window, go to the project folder where the source code is located.
+1. Run the following script in the command line, which will start your app locally, opening [http://localhost:8080](http://localhost:8080) in the browser.
 
     ```powershell
-    npx http-server -c-1 
+    npm start
     ```
-1. Browse to [http://localhost:8080](http://localhost:8080)
-1. If the app is configured correctly, you will see a sign-in button as shown next:
-    :::image type="content" source="../media/3-sign-in-button.png" alt-text="The screenshot of the sign in button":::
+1. If the app is configured correctly, you'll see a sign-in button as shown below:
+
+    :::image type="content" source="../media/3-sign-in-button.png" alt-text="The screenshot of the sign in button.":::
+
 1. Sign in using an account in the same Microsoft 365 developer tenant, where you registered the Azure Active Directory Application.
-1. Once signed in successfully, you will see a welcome message and a button to show a profile photo:
-    :::image type="content" source="../media/3-show-profile-button.png" alt-text="The screenshot of the show profile picture button":::
+1. Once signed in successfully, you'll see a welcome message and a button to show a profile photo as shown below:
+
+    :::image type="content" source="../media/3-show-profile-button.png" alt-text="The screenshot of the show profile picture button.":::
+
 1. Select the **Show profile picture** button. You'll see the profile picture of the signed in user displayed. Here is a screenshot of how it looks.
 
-    :::image type="content" source="../media/3-profile-picture.png" alt-text="The screenshot of the profile picture":::
+    :::image type="content" source="../media/3-profile-picture.png" alt-text="The screenshot of the profile picture.":::
