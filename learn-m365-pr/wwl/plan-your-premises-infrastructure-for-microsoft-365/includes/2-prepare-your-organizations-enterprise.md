@@ -153,6 +153,5 @@ The following table describes the errors that are detected by IdFix, provides th
   :::column-end:::
 :::row-end:::
 
-## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”
