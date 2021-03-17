@@ -751,6 +751,6 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
   :::column-end:::
 :::row-end:::
 
-
+## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”

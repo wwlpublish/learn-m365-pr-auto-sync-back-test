@@ -20,10 +20,10 @@ quiz:
     choices:
     - content: "Collect details about any intranet sites that you plan to migrate"
       isCorrect: false
-      explanation: "That's incorrect. This task would be performed when you inventory your current environment."
+      explanation: "That's incorrect. This task would be performed when you inventory your current environment. Try again."
     - content: "Prepare for directory synchronization"
       isCorrect: false
-      explanation: "That's incorrect. This task would be performed when you set up Microsoft 365 services to work for your organization."
+      explanation: "That's incorrect. This task would be performed when you set up Microsoft 365 services to work for your organization. Try again."
     - content: "Update client software versions"
       isCorrect: true
       explanation: "That's correct. After determining your deployment goals and taking inventory of your current environment, the next step in the Deployment Planning Checklist is to fix potential deployment blockers. Updating client software versions is one of the tasks that should be completed within this step."
