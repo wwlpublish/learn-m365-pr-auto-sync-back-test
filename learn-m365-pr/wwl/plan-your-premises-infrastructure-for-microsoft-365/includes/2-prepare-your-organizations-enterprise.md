@@ -163,9 +163,9 @@ Choose the best response for the following question. Then select “Check your a
 
 In your role as Enterprise Administrator for Lucerne Publishing, Inc., you're cleaning up the company's on-premises Active Directory environment by running the IdFix tool. The IdFix tool detects a topleveldomain error. Which of the following changes would be representative of a fix that you would make for this type of error? 
 
-() Change myaddress@lucerne publishing.com to myaddress@lucernepublishing.com {{That's incorrect. This error is an example of a domain part error. The correct answer is Change myaddress@lucernepublishing.local to myaddress@lucernepublishing.com. }}
+() Change myaddress@lucerne publishing.com to myaddress@lucernepublishing.com {{That's incorrect. This error is an example of a domain part error.  }}
 (x) Change myaddress@lucernepublishing.local to myaddress@lucernepublishing.com {{That's correct. This error is an example of a topleveldomain error, which can be fixed by changing the ".local" value to an internet routable domain such as .COM or .NET.  }}
-() Change my”work”address@lucernepublishing.com to myworkaddress@lucernepublishing.com {{That's incorrect. This error is an example of a domainpart_localpart error. The correct answer is Change myaddress@lucernepublishing.local to myaddress@lucernepublishing.com. }}
+() Change my”work”address@lucernepublishing.com to myworkaddress@lucernepublishing.com {{That's incorrect. This error is an example of a domainpart_localpart error.  }}
 
 
  
