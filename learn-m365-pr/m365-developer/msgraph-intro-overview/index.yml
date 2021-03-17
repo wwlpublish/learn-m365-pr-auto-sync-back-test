@@ -2,25 +2,25 @@
 uid: learn-m365.msgraph-intro-overview
 metadata:
   title: What is Microsoft Graph?
-  description: Learn about Microsoft Graph.
+  description: Microsoft Graph provides access to data stored across Microsoft 365 services. Custom applications can use Microsoft Graph's API to connect to data and use it in custom applications to enhance organizational productivity. 
   ms.date: 02/17/2021
-  author: lizap
-  ms.author: elizapo
+  author: aycabas
+  ms.author: aycabas
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
 title: What is Microsoft Graph?
-summary: Learn about Microsoft Graph.
+summary: Microsoft Graph provides access to data stored across Microsoft 365 services. Custom applications can use Microsoft Graph's API to connect to data and use it in custom applications to enhance organizational productivity. 
 abstract: |
   At the end of this module, you should be able to:
   - Learn about what Microsoft Graph is and how it can be used
   - Understand the benefits Graph offers
   - Use the Graph Explorer to retrieve organizational data
 prerequisites: |
-  - Access to a Microsoft 365 tenant
+  - Access to a [Microsoft 365 tenant](https://developer.microsoft.com/microsoft-365/dev-program/?WT.mc_id=m365-16105-cxa)
   - Basic knowledge of REST services and APIs
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
-- intermediate
+- beginner
 roles:
 - developer
 products:
