@@ -20,21 +20,21 @@ quiz:
     choices:
     - content: "Password Hash Synchronization"
       isCorrect: false
-      explanation: "That's incorrect. Cloud Only has the least setup compared to the other identity strategies - all that is needed is a subscription and a sign-in account."
+      explanation: "That's incorrect. This strategy has more setup requirements than the correct answer. Try again."
     - content: "Cloud Only"
       isCorrect: true
       explanation: "That's correct. This strategy has the least setup compared to the other identity strategies - all that is needed is a subscription and a sign-in account."
     - content: "Azure AD Pass-through Authentication"
       isCorrect: false
-      explanation: "That's incorrect. Cloud Only has the least setup compared to the other identity strategies - all that is needed is a subscription and a sign-in account."
+      explanation: "That's incorrect. This strategy has more setup requirements than the correct answer. Try again."
   - content: "As Fabrikam's Enterprise Administrator, you're planning a migration to Microsoft 365. You plan to authenticate all users in Azure Active Directory. As part of this process, the hashes of your users’ passwords must be replicated between Fabrikam's on-premises environment and Microsoft 365. Which of the following identity types should you use?"
     choices:
     - content: "Cloud Only"
       isCorrect: false
-      explanation: "That's incorrect. With synchronized identities, hashes of user passwords are replicated from on-premises Active Directory to Azure AD. When passwords are changed or reset on-premises, the new password hashes are immediately synchronized to Azure AD so that users can always use the same password for cloud resources and on-premises resources."
+      explanation: "That's incorrect. This strategy does not replicate hashes of user passwords from on-premises Active Directory to Azure AD. Try again."
     - content: "Federated identity"
       isCorrect: false
-      explanation: "That's incorrect. With synchronized identities, hashes of user passwords are replicated from on-premises Active Directory to Azure AD. When passwords are changed or reset on-premises, the new password hashes are immediately synchronized to Azure AD so that users can always use the same password for cloud resources and on-premises resources."
+      explanation: "That's incorrect. This strategy does not replicate hashes of user passwords from on-premises Active Directory to Azure AD. Try again."
     - content: "Synchronized identity"
       isCorrect: true
       explanation: "That's correct. With synchronized identities, hashes of user passwords are replicated from on-premises Active Directory to Azure AD. When passwords are changed or reset on-premises, the new password hashes are immediately synchronized to Azure AD so that users can always use the same password for cloud resources and on-premises resources."

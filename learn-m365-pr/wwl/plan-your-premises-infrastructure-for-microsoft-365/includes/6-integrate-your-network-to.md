@@ -39,3 +39,7 @@ The following diagram shows that all locations should use a direct connection to
 
  *  [Managing Office 365 endpoints](https://support.office.com/article/managing-office-365-endpoints%20-99cab9d4-ef59-4207-9f2b-3728eb46bf9a?azure-portal=true) for detailed guidance on configuring your network to handle Microsoft 365 as a trusted Internet service on your network.
  *  [Office 365 network connectivity principals](https://aka.ms/o365networkingprinciples?azure-portal=true).
+
+## Knowledge check
+
+Choose the best response for the following question. Then select “Check your answers.”

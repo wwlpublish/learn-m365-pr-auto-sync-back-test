@@ -230,3 +230,8 @@ The following table compares the different deployment strategies for implementin
 In summary, regardless of the deployment strategy used to implement Microsoft 365 services, all resources are bound to the Azure AD user, and the Azure AD user is the "source" for all other resources. This concept is depicted in the following diagram.
 
 :::image type="content" source="../media/user-resources-in-azure-ad-bff0b1b9.jpg" alt-text="diagram shows that all resources are bound to the Azure AD user and that the Azure AD user is the source for all other resources":::
+
+
+## Knowledge check
+
+Choose the best response for the following question. Then select “Check your answers.”
