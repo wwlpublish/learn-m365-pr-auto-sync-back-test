@@ -21,10 +21,10 @@ By using Microsoft Graph, you can enhance new or existing applications and autom
 
 Here are several resources where you can learn more about Microsoft Graph and other concepts covered in this module. 
 
-- [Microsoft Graph on Microsoft Docs](https://docs.microsoft.com/graph)
-- [Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program)
-- [Microsoft Graph Explorer](https://aka.ms/ge) 
-- [Microsoft Graph SDKs](https://docs.microsoft.com/graph/sdks/sdks-overview)  
-- [Microsoft 365 Services](https://docs.microsoft.com/office365/servicedescriptions/office-365-service-descriptions-technet-library)  
-- [Enterprise Mobility and Security Services](https://docs.microsoft.com/enterprise-mobility-security/)  
-- [Dynamics 365 Business Central Services](https://docs.microsoft.com/dynamics365/)  
+- [Microsoft Graph on Microsoft Docs](https://docs.microsoft.com/graph/?WT.mc_id=m365-16105-cxa)
+- [Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program/?WT.mc_id=m365-16105-cxa)
+- [Microsoft Graph Explorer](https://aka.ms/ge/?WT.mc_id=m365-16105-cxa) 
+- [Microsoft Graph SDKs](https://docs.microsoft.com/graph/sdks/sdks-overview/?WT.mc_id=m365-16105-cxa)  
+- [Microsoft 365 Services](https://docs.microsoft.com/office365/servicedescriptions/office-365-service-descriptions-technet-library/?WT.mc_id=m365-16105-cxa)  
+- [Enterprise Mobility and Security Services](https://docs.microsoft.com/enterprise-mobility-security/?WT.mc_id=m365-16105-cxa)  
+- [Dynamics 365 Business Central Services](https://docs.microsoft.com/dynamics365/?WT.mc_id=m365-16105-cxa)  
