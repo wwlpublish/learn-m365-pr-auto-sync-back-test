@@ -6,14 +6,16 @@ Now it's time to build something using all the concepts you have learned up to t
 
 This exercise gets you started running an application that logs a user into Azure AD and makes a call to Microsoft Graph. You'll clone a GitHub repository and then configure the application to run locally on your machine.
 
-1. Open a terminal window on your computer and go to the folder where you want to clone the app.
-1. Clone the GitHub repository to your computer using the following command. 
- 	
+1. Open a terminal window on your computer and go to the folder where you want to save the app.
+1. To get the source code, visit [https://github.com/MicrosoftDocs/mslearn-retrieve-m365-data-with-msgraph-quickstart.git](https://github.com/MicrosoftDocs/mslearn-retrieve-m365-data-with-msgraph-quickstart.git) and choose from one of the following options:
+    - If you use **git**, clone the project using the git clone command as below:
+    
     ```powershell
-       git clone https://github.com/MicrosoftDocs/mslearn-retrieve-m365-data-with-msgraph-quickstart.git 
-     ```
-
-1. Open the cloned **mslearn-retrieve-m365-data-with-msgraph-quickstart** folder in your favorite editor.
+    git clone https://github.com/MicrosoftDocs/mslearn-retrieve-m365-data-with-msgraph-quickstart.git
+    ```
+    
+    - If you don't use **git**,  select the **Code** button followed by **Download ZIP**. Extract the ZIP file to your machine.
+1. Open the downloaded or cloned project's root folder **mslearn-retrieve-m365-data-with-msgraph-quickstart** in your favorite editor.
 
 1. The application contains the following files:
 

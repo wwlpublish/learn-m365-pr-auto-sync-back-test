@@ -21,7 +21,6 @@ prerequisites: |
   - Ability to develop JavaScript applications using [Visual Studio Code](https://code.visualstudio.com/).
   - Basic understanding of Azure Active Directory and Microsoft Identity concepts is recommended but not mandatory.
   - [Node.js](https://nodejs.org/en/)
-  - [Git](https://git-scm.com/)
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - beginner
