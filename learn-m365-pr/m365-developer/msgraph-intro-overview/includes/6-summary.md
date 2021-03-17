@@ -17,7 +17,6 @@ This data can be retrieved by calling a single endpoint as opposed to learning m
 By using Microsoft Graph, you can enhance new or existing applications and automate workflows. You can also increase overall efficiency and productivity by tapping into data that employees need. This type of data and intelligence can be included in your own custom applications by calling Microsoft Graph REST APIs or using client libraries. As a result, you can focus on building key app features while integrating organizational data that helps employees be successful. 
 
 ## Additional resources 
- 
 
 Here are several resources where you can learn more about Microsoft Graph and other concepts covered in this module. 
 
