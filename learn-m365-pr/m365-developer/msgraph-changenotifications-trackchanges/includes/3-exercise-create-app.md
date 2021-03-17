@@ -109,6 +109,7 @@ After creating the application, run the following commands to ensure your new pr
 cd msgraphapp
 dotnet add package Microsoft.Identity.Client
 dotnet add package Microsoft.Graph
+dotnet dev-certs https --trust
 dotnet run
 ```
 

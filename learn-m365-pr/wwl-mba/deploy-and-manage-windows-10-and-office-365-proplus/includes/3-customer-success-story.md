@@ -14,4 +14,4 @@ The City of Corona, California, is the municipal government for more than 160,00
 
 As you saw in the video, the benefits to the City of Corona were immediate and tangible, including freeing up precious time for IT, cutting costs, and tearing down workflow silos.
 
-Now that you've seen how modern deployment and management transformed the City of Corona, let's explore what you can do to move towards Windows 10 and Office 365 ProPlus.
+Now that you've seen how modern deployment and management transformed the City of Corona, let's explore what you can do to move towards Windows 10 and Microsoft 365 Apps for enterprise.

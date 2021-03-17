@@ -19,6 +19,7 @@ levels:
 roles:
 - business-owner
 - business-user
+- auditor
 products:
 - m365
 modules:

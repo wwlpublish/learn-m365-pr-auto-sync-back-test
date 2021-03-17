@@ -51,3 +51,7 @@ To connect Box to Cloud App Security, perform the following steps:
     :::image type="content" source="../media/2-grant-box-access.png" alt-text="Grant access to Box":::
 
 13. Box is now being protected by Microsoft Cloud App Security.
+
+The following video gives you an overview of connecting Box to Microsoft Cloud App Security:
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWyaJP]

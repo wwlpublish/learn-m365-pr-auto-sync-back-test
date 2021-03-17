@@ -40,9 +40,9 @@ Client-side web parts, built using the SharePoint Framework, are the cornerstone
 
 They're configurable, reusable, and purpose-built components that page designers and site owners can use to create unique experiences for their users.
 
-![Screenshot of client-side web parts](../media/02-sp-client-side-web-parts.png)
+![Screenshot of client-side web parts](../media/02-client-side-web-parts.png)
 
-Client-side web parts are build using the SharePoint Framework that provides additional capabilities, including access to Microsoft Graph for incorporating personal and organizational information into page experiences.
+Client-side web parts are build using the SharePoint Framework that provides extra capabilities, including access to Microsoft Graph for incorporating personal and organizational information into page experiences.
 
 Web parts are also context aware, in the sense that they have access to contextual information about the current page. For instance, at runtime, the web part can get information about the current user and the current page and site the web part is currently running in.
 
@@ -124,7 +124,7 @@ Library components give developers an alternative option to create shared code, 
 
 ## SharePoint Framework availability
 
-The SharePoint Framework was introduced in 2017 to SharePoint Online. Microsoft is continuously updating and improving the SharePoint Framework in SharePoint Online. Developers can build custom components that leverage the most recent version of the SharePoint Framework.
+The SharePoint Framework was introduced in 2017 to SharePoint Online. Microsoft is continuously updating and improving the SharePoint Framework in SharePoint Online. Developers can build custom components that use the most recent version of the SharePoint Framework.
 
 SharePoint Online contains not only the latest version of the SharePoint Framework, but it will also load any previously published version of the SharePoint Framework if a component on the page uses an older version. This capability ensures that developers aren't required to always update previously deployed components every time a new version of the SharePoint Framework is released.
 

@@ -30,3 +30,7 @@ To request manager validation for failed login attempts with Power Automate, per
 4. In **Alerts**, select **Create an alert for each matching event with the policy's severity**, select **Send alerts to Power Automate**, and select the Power Automate flow that you created to handle these alerts.
 
     :::image type="content" source="../media/4-alerts.png" alt-text="Alerts.":::
+
+The following video gives you an overview of requesting manager validation for Microsoft Cloud App Security alerts:
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWyOGb]
