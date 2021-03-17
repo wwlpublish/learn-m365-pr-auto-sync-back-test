@@ -9,7 +9,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
 title: Fundamentals of Microsoft Graph
-summary: "**Fundamentals of Microsoft Graph ** is a multi-part series that teaches you basic concepts of Microsoft Graph. It will guide you with hands-on exercises on how to use Microsoft Graph API requests to start developing or enhancing your applications with Microsoft 365 data."
+summary: "**Fundamentals of Microsoft Graph** is a multi-part series that teaches you basic concepts of Microsoft Graph. It will guide you with hands-on exercises on how to use Microsoft Graph API requests to start developing or enhancing your applications with Microsoft 365 data."
 prerequisites: | 
  - Basic understanding of Microsoft 365.
  - Access to Microsoft 365 tenant.
