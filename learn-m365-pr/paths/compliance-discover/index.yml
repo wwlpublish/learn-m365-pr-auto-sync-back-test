@@ -20,6 +20,7 @@ levels:
 - intermediate
 roles:
 - administrator
+- auditor
 products: 
 - m365
 modules:

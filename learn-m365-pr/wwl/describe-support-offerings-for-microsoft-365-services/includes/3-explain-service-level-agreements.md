@@ -1,4 +1,4 @@
-It’s vital that organizations to know that the services they’re using are reliable and secure. This way, they can achieve peace of mind about the services they use on a daily basis. With Microsoft 365 services, your organization benefits from guaranteed levels of service, detailed in a legal agreement referred to as a Service Level Agreement. 
+It’s vital that organizations know that the services they’re using are reliable and secure. This way, they can achieve peace of mind about the services they use on a daily basis. With Microsoft 365 services, your organization benefits from guaranteed levels of service, detailed in a legal agreement referred to as a Service Level Agreement. 
 
 **Microsoft Online Services Level Agreement**
 

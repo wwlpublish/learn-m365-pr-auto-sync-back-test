@@ -16,12 +16,12 @@ Developers can also implement a custom property pane field when you want to cust
 
 ## Implement custom property pane field controls
 
-To implement a custom property pane field control, you'll first import the `PropertyPaneCustomField` class from the **@microsoft/sp-webpart-base** class.
+To implement a custom property pane field control, you'll first import the `PropertyPaneCustomField` class from the **@microsoft/sp-property-pane** class.
 
 Next, add a property to your web part's interface and map it to the field control. This is done the same way you map one of the provided controls to a property: specify the property by name as the first argument in the control:
 
 ```typescript
-import { PropertyPaneCustomField } from '@microsoft/sp-webpart-base';
+import { PropertyPaneCustomField } from '@microsoft/sp-property-pane';
 
 export interface IHelloPropertyPaneWebPartProps {
   customField: string;

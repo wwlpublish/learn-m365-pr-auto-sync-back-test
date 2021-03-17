@@ -40,12 +40,9 @@ Update-Package bootstrap
 Install-Package Microsoft.Owin.Host.SystemWeb
 Install-Package Microsoft.Owin.Security.OpenIdConnect
 Install-Package Microsoft.Owin.Security.Cookies
-Install-Package Microsoft.Identity.Client -Version 4.22.0
-Install-Package Microsoft.Graph -Version 3.21.0
+Install-Package Microsoft.Identity.Client -Version 4.27.0
+Install-Package Microsoft.Graph -Version 3.25.0
 ```
-
-> [!IMPORTANT]
-> There is currently an issue with Visual Studio tooling when using versions of the Microsoft.Identity.Client package later that 4.22.0. There is a workaround for this issue but it involves manually editing the project file and thus is not covered in this tutorial. For more information, please see [ASP.NET Classic projects fail to build because of MSAL's WinRT reference (Must use PackageReference)](https://github.com/AzureAD/microsoft-authentication-library-for-dotnet/issues/2247).
 
 ## Design the app
 
@@ -281,7 +278,7 @@ Select **Register**. On the **ASP.NET Graph Tutorial** page, copy the value of t
 
 ![A screenshot of the application ID of the new app registration](../media/azure-ad-portal-new-app-details.png)
 
-Select **Authentication** under **Manage**. Locate the **Implicit grant** section and enable **ID tokens**.
+Select **Authentication** under **Manage**. Locate the **Implicit grant and hybrid flows** section and enable **ID tokens (used for implicit and hybrid flows)**.
 
 Select **Save** in the top menu to save your changes.
 
