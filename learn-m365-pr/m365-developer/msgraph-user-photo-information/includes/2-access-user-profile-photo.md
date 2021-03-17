@@ -1,6 +1,6 @@
 Now that you have identified the need to display photo of the salesperson in your application, let’s pause for a moment and understand why you need Microsoft Graph to access this information. 
 
-Your profile photo is an identity of who you are. It's a personal branding that allows people to instantly associate a name with a face and make it easier for people to know who they're interacting with in an application. A profile photo can be of a user, group, or an Outlook contact in the Microsoft 365 eco-system. Let’s look at some of the common components where profile photos are used effectively: 
+Your profile photo is an identity of who you are. It's a personal branding that allows people to instantly associate a name with a face and make it easier for people to know who they're interacting with in an application. A profile photo can be of a user, group, or an Outlook contact in the Microsoft 365 eco-system. Let’s look at some of the common components where profile photos are used effectively:
 
 - Login control
 - People picker
