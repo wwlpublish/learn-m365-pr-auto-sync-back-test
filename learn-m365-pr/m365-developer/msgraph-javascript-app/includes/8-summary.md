@@ -11,4 +11,4 @@ Here are several resources where you can learn more about Microsoft Graph and ot
 
 - [Microsoft Graph on Microsoft Docs](https://docs.microsoft.com/graph/?WT.mc_id=m365-16105-cxa)
 - [Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program/?WT.mc_id=m365-16105-cxa)
-- [Getting Started with Microsoft Identity](https://docs.microsoft.com/en-us/learn/modules/getting-started-identity/?WT.mc_id=m365-16105-cxa)
+- [Getting Started with Microsoft Identity](https://docs.microsoft.com/learn/modules/getting-started-identity/?WT.mc_id=m365-16105-cxa)
