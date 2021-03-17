@@ -4,7 +4,7 @@ title: Manage your transition to Microsoft 365 by using the Deployment Planning 
 metadata:
   title: Manage your transition to Microsoft 365 by using the Deployment Planning Checklist
   description: "Manage your transition to Microsoft 365 by using the Deployment Planning Checklist"
-  ms.date: 03/15/2021
+  ms.date: 03/17/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -13,17 +13,3 @@ azureSandbox: false
 durationInMinutes: 3
 content: |
   [!include[](includes/3-manage-your-transition-to-by-using-deployment-planning-checklist.md)]
-quiz:
-  title: "Check your knowledgeChoose the best response for the following question. Then select “Check your answers.”"
-  questions:
-  - content: "As Fabrikam's Enterprise Administrator, you're using Microsoft's Deployment Planning Checklist to help keep your Microsoft 365 deployment on schedule. You have determined your deployment goals and inventoried your current environment. Which of the following tasks should you do next?"
-    choices:
-    - content: "Collect details about any intranet sites that you plan to migrate"
-      isCorrect: false
-      explanation: "That's incorrect. This task would be performed when you inventory your current environment. The correct answer is updating client software versions. After determining your deployment goals and taking inventory of your current environment, the next step in the Deployment Planning Checklist is to fix potential deployment blockers. Updating client software versions is one of the tasks that should be completed within this step."
-    - content: "Prepare for directory synchronization"
-      isCorrect: false
-      explanation: "That's incorrect. This task would be performed when you set up Microsoft 365 services to work for your organization. The correct answer is updating client software versions. After determining your deployment goals and taking inventory of your current environment, the next step in the Deployment Planning Checklist is to fix potential deployment blockers. Updating client software versions is one of the tasks that should be completed within this step."
-    - content: "Update client software versions"
-      isCorrect: true
-      explanation: "That's correct. After determining your deployment goals and taking inventory of your current environment, the next step in the Deployment Planning Checklist is to fix potential deployment blockers. Updating client software versions is one of the tasks that should be completed within this step."

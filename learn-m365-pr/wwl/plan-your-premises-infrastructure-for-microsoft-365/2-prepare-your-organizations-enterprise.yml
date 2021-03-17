@@ -4,7 +4,7 @@ title: Prepare your organization's infrastructure for Microsoft 365 Enterprise
 metadata:
   title: Prepare your organization's infrastructure for Microsoft 365 Enterprise
   description: "Prepare your organization's infrastructure for Microsoft 365 Enterprise"
-  ms.date: 03/15/2021
+  ms.date: 03/17/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -14,7 +14,7 @@ durationInMinutes: 3
 content: |
   [!include[](includes/2-prepare-your-organizations-enterprise.md)]
 quiz:
-  title: "Check your knowledgeChoose the best response for the following question. Then select “Check your answers.”"
+  title: "Check your knowledge"
   questions:
   - content: "In your role as Enterprise Administrator for Lucerne Publishing, Inc., you're cleaning up the company's on-premises Active Directory environment by running the IdFix tool. The IdFix tool detects a topleveldomain error. Which of the following changes would be representative of a fix that you would make for this type of error?"
     choices:

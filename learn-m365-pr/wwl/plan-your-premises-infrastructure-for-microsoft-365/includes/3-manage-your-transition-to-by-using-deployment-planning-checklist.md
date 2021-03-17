@@ -750,3 +750,18 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
     
   :::column-end:::
 :::row-end:::
+
+
+## Knowledge check
+
+Choose the best response for the following question. Then select “Check your answers.”
+
+## Multiple Choice
+
+Choose the best response for the following question. Then select “Check your answers.”
+
+As Fabrikam's Enterprise Administrator, you're using Microsoft's Deployment Planning Checklist to help keep your Microsoft 365 deployment on schedule. You have determined your deployment goals and inventoried your current environment. Which of the following tasks should you do next?
+
+() Collect details about any intranet sites that you plan to migrate {{That's incorrect. This task would be performed when you inventory your current environment. The correct answer is updating client software versions. After determining your deployment goals and taking inventory of your current environment, the next step in the Deployment Planning Checklist is to fix potential deployment blockers. Updating client software versions is one of the tasks that should be completed within this step. }}
+() Prepare for directory synchronization {{That's incorrect. This task would be performed when you set up Microsoft 365 services to work for your organization. The correct answer is updating client software versions. After determining your deployment goals and taking inventory of your current environment, the next step in the Deployment Planning Checklist is to fix potential deployment blockers. Updating client software versions is one of the tasks that should be completed within this step.  }}
+(x) Update client software versions {{That's correct. After determining your deployment goals and taking inventory of your current environment, the next step in the Deployment Planning Checklist is to fix potential deployment blockers. Updating client software versions is one of the tasks that should be completed within this step. }}
