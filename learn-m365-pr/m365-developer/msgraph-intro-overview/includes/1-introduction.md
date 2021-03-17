@@ -2,7 +2,7 @@ Microsoft Graph provides access to data stored across Microsoft 365 services. Cu
 
 ## Prerequisites
 
-- Access to a [Microsoft 365 tenant](https://developer.microsoft.com/microsoft-365/dev-program/)
+- Access to a [Microsoft 365 tenant](https://developer.microsoft.com/microsoft-365/dev-program/?WT.mc_id=m365-16105-cxa)
 - Basic knowledge of REST services and APIs
 
 ## Learning objectives
