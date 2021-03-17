@@ -78,7 +78,7 @@ export interface IHelloPropertyPaneWebPartProps {
 }
 ```
 
-Next, you need to import the field control objects into your web part's class. These controls are located in the **@microsoft/sp-webpart-base** package.
+Next, you need to import the field control objects into your web part's class. These controls are located in the **@microsoft/sp-property-pane** package.
 
 ```typescript
 import {
