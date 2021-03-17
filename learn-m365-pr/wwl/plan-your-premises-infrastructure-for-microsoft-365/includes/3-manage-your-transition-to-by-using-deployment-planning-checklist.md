@@ -756,7 +756,10 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 
 Choose the best response for the following question. Then select “Check your answers.”
 
-## Multiple Choice
+#### quiz title: Check your knowledge
+
+#### Multiple Choice
+
 
 Choose the best response for the following question. Then select “Check your answers.”
 
