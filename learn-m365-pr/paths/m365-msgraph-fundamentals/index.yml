@@ -1,0 +1,32 @@
+### YamlMime:LearningPath
+uid: learn-m365.m365-msgraph-fundamentals
+metadata:
+  title: Fundamentals of Microsoft Graph
+  description: New to Microsoft Graph? Fundamentals of Microsoft Graph is a multi-part series that teaches you basic concepts of Microsoft Graph. It will guide you with hands-on exercises on how to use Microsoft Graph API requests to start developing or enhancing your applications with Microsoft 365 data. 
+  ms.date: 03/17/2021
+  author: rabwill
+  ms.author: rwilliams
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Fundamentals of Microsoft Graph
+summary: "**Fundamentals of Microsoft Graph ** is a multi-part series that teaches you basic concepts of Microsoft Graph. It will guide you with hands-on exercises on how to use Microsoft Graph API requests to start developing or enhancing your applications with Microsoft 365 data."
+prerequisites: | 
+ - Basic understanding of Microsoft 365.
+ - Access to Microsoft 365 tenant.
+ - Basic knowledge of REST services and APIs (Application Program Interfaces). 
+ - Ability to develop applications using Visual Studio Code.
+ - Basic understanding of Azure Active Directory and Microsoft Identity concepts is preferred but not mandatory. 
+iconUrl: /learn/achievements/generic-badge.svg
+levels: 
+- beginner
+roles:
+- developer
+products: 
+- m365
+- ms-graph
+modules:
+- learn-m365.msgraph-intro-overview
+- learn-m365.msgraph-javascript-app
+- learn-m365.msgraph-user-photo-information
+trophy: 
+  uid: learn-m365.msgraph-fundamentals.badge
