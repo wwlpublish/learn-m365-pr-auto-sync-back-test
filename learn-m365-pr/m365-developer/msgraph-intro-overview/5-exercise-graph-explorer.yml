@@ -8,7 +8,7 @@ metadata:
   ms.author: aycabas
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
-title: Summary
-durationInMinutes: 1
+title: Exercise - Access user information from Microsoft Graph using Graph Explorer
+durationInMinutes: 8
 content: |
   [!include[](includes/5-exercise-graph-explorer.md)]

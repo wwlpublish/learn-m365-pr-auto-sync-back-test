@@ -10,4 +10,4 @@ Quick overview of Microsoft Graph Explorer tool:
 6. **Selected query** will automatically run and show the results in Graph Explorer. 
 7. **Documentation links** are available on the right side of each sample query and direct you at the related API documentation link. 
 
-:::image type="content" source="../media/4-ge.png" alt-text="Microsoft Graph Explorer quick overview.":::
+:::image type="content" source="../media/4-graph-explorer.png" alt-text="Screenshot showing Microsoft Graph Explorer quick overview.":::
