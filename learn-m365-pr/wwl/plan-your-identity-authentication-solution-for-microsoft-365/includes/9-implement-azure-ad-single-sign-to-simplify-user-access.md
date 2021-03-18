@@ -10,7 +10,7 @@ SSO can be combined with either the Password Hash Synchronization or Pass-throug
 
 The second option is recommended as it's easier to implement and maintain. To ensure that no data is retained beyond 48 hours, check the contents of the %ProgramData%\\AADConnect folder and delete the trace log contents (trace-\*.log files) of this folder within 48 hours of installing or upgrading Azure AD Connect or modifying Seamless SSO configuration, as this action may create data covered by GDPR.
 
-[!IMPORTANT]
+> [!IMPORTANT]
 Do **NOT** delete the **PersistedState.xml** file in this folder. This file is used to maintain the state of the previous installation of Azure AD Connect and is used when an upgrade installation is performed. This file will never contain any data about a person and should never be deleted.
 
 You can either review and delete these trace log files using Windows Explorer, or you can use the following PowerShell script to perform the necessary actions:
