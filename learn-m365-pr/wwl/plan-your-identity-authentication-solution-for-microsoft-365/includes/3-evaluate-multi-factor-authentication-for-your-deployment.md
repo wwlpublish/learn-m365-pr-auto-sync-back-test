@@ -59,3 +59,8 @@ The Office 2013 device apps support multi-factor authentication by using the [Ac
 The following figure shows how the updated Office 2019 device apps (on Windows) enable users to sign in with MFA.
 
 :::image type="content" source="../media/mfa-login-with-office2019-apps-e1814b0a.png" alt-text="graphic shows how the updated Office 2013 device apps (on Windows) enable users to sign in with MFA":::
+
+
+## Knowledge check
+
+Choose the best response for the following question. Then select “Check your answers.”

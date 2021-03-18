@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 03/13/2021
+  ms.date: 03/18/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -23,18 +23,18 @@ quiz:
       explanation: "That's correct. This option is recommended because it's the easiest policy to implement and maintain and yet still improve data privacy."
     - content: "Purge log files as they come available"
       isCorrect: false
-      explanation: "That's incorrect. Ensuring no data is kept beyond 48 hours is recommended because it's the easiest policy to implement and maintain and yet still improve data privacy."
+      explanation: "That's incorrect. This process will not improve the privacy of the data that's stored in these files. Try again."
     - content: "Request a custom policy from Microsoft Support services"
       isCorrect: false
-      explanation: "That's incorrect. Ensuring no data is kept beyond 48 hours is recommended because it's the easiest policy to implement and maintain and yet still improve data privacy."
+      explanation: "That's incorrect. This process will not improve the privacy of the data that's stored in these files. Try again."
   - content: "As the Enterprise Administrator for Tailspin Toys, you want to restrict traffic in your AD FS deployment. Of the available options for restricting traffic, you are interested in the one that is less costly and provides the simpler initial configuration. Which option should you choose?"
     choices:
     - content: "Barracuda NG firewall"
       isCorrect: false
-      explanation: "That's incorrect. The major disadvantage of this option is its increased cost and initial setup complexity. The correct answer is Azure network ACLs."
+      explanation: "That's incorrect. The major disadvantage of this option is its increased cost and initial setup complexity. Try again."
     - content: "Web Application Proxy service"
       isCorrect: false
-      explanation: "That's incorrect. This service provides high availability and load balancing in an AD FS deployment. It's not an option for restricting traffic in an AD FS configuration. The correct answer is Azure network ACLs."
+      explanation: "That's incorrect. This service provides high availability and load balancing in an AD FS deployment. It's not an option for restricting traffic in an AD FS configuration. Try again."
     - content: "Azure network ACLs"
       isCorrect: true
       explanation: "That's correct. The major advantage to using this option is that it's less costly and has a simple initial configuration."

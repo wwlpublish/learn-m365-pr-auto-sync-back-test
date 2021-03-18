@@ -69,3 +69,7 @@ The following scenarios are **not** supported:
  *  Azure AD Domain Services needs Password Hash Synchronization to be enabled on the tenant. For tenants that use Pass-through Authentication only, PTA won't work in scenarios that require Azure AD Domain Services.
  *  Pass-through Authentication is not integrated with [Azure AD Connect Health](https://docs.microsoft.com/azure/active-directory/connect-health/active-directory-aadconnect-health?azure-portal=true).
  *  The Apple Device Enrollment Program (Apple DEP) using the iOS Setup Assistant doesn't support modern authentication. This service will fail to enroll Apple DEP devices into Intune for managed domains using Pass-through Authentication. Consider using the [Company Portal app](https://blogs.technet.microsoft.com/intunesupport/2018/02/08/support-for-multi-token-dep-and-authentication-with-company-portal/?azure-portal=true) as an alternative.
+
+## Knowledge check
+
+Choose the best response for the following question. Then select “Check your answers.”
