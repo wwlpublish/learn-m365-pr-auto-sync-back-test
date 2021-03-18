@@ -1,0 +1,50 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.office-add-ins-sso.7-exercise-outlook-sso
+metadata:
+  title: Exercise - Create an Office Add-in for Outlook that implements Single Sign-On
+  description: In this exercise, you'll build an Outlook add-in that adds a list of the recent emails received by the currently logged in user with Microsoft Graph in a worksheet. This process uses the single sign-on (SSO) authentication scheme.
+  ms.date: 03/05/2021
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Create an Office Add-in for Outlook that implements Single Sign-On
+durationInMinutes: 15
+content: |
+  [!include[](includes/7-exercise-outlook-sso.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "The Azure AD application registered for an Office Add-in automatically trust which of the Office clients to call it?"
+    choices:
+      - content: "The Office web clients, except Outlook.com, are automatically trusted by the Azure AD application because they're hosted web applications maintained by Microsoft."
+        isCorrect: false
+        explanation: "This isn't correct - none of the Office clients are automatically trusted by the add-in."
+      - content: "The Office web clients, including Outlook.com, are automatically trusted by the Azure AD application because they're hosted web applications maintained by Microsoft."
+        isCorrect: false
+        explanation: "This isn't correct - none of the Office clients are automatically trusted by the add-in."
+      - content: "All Office clients, including Outlook.com, web clients, and desktop clients, are automatically trusted by the Azure AD application."
+        isCorrect: false
+        explanation: "This isn't correct - none of the Office clients are automatically trusted by the add-in."
+      - content: "None of the Office clients are automatically trusted by the Azure AD application. You must add the `access_as_user` scope for each of the Office clients you want trust."
+        isCorrect: true
+        explanation: "Correct!"
+  - content: "Which of the following application types are supported for Office Add-ins?"
+    choices:
+      - content: "Multitenant"
+        isCorrect: true
+        explanation: "Correct!"
+      - content: "Single tenant, multitenant, and personal accounts."
+        isCorrect: false
+        explanation: "Single tenant applications aren't supported."
+      - content: "Single tenant and personal accounts"
+        isCorrect: false
+        explanation: "Single tenant applications aren't supported; multitenant applications are supported."
+  - content: "Why is it considered a good practice to preauthorize all Office clients on the Azure AD app?"
+    choices:
+      - content: "Preauthorizing all Office clients ensures your add-in can be used in the maximum scenarios possible."
+        isCorrect: true
+        explanation: "Correct!"
+      - content: "This is obsolete - all Office clients are automatically authorized to access the add-in's Azure AD app."
+        isCorrect: false
+        explanation: "Office clients aren't automatically authorized to access any Azure AD app."
