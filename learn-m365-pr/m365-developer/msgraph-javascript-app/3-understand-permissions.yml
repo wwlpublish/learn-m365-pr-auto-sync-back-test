@@ -9,6 +9,6 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
 title: Understand Microsoft Graph permissions and consent
-durationInMinutes: 2
+durationInMinutes: 6
 content: |
   [!include[](includes/3-understand-permissions.md)]
