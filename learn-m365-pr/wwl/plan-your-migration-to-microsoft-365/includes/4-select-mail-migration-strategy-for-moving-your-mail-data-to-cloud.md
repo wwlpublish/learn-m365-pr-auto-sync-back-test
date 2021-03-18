@@ -7,3 +7,7 @@ There are five different migration strategies you can use to move your organizat
  *  **Staged migration.** A staged migration is similar to a cutover migration in that it ultimately enables you to migrate all your organization's mailboxes to Microsoft 365. However, while a cutover migration takes place over a couple of days, a staged migration migrates batches of on-premises mailboxes to Microsoft 365 over the course of a few weeks or months.
  *  **Hybrid deployment.** A hybrid deployment enables organizations to extend the feature-rich experience and administrative control they have with their existing on-premises Exchange organization to the cloud. A hybrid deployment provides the seamless look and feel of a single Exchange organization between Microsoft 365 and an on-premises Exchange Server 2013 or Microsoft Exchange Server 2010. In addition, a hybrid deployment can serve as an intermediate step to moving completely to a Microsoft 365 organization.
  *  **Third-party migration.** There are many tools available from third-parties. They use distinctive protocols and approaches to conduct email migrations from email platforms like IBM Lotus Notes and Novell GroupWise.
+
+## Knowledge check
+
+Choose the best response for the following question. Then select “Check your answers.”

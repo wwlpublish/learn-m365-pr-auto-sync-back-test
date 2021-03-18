@@ -57,3 +57,7 @@ Work with your internal and external stakeholders to resolve the following key d
  *  Migrate [DNS settings to point to Microsoft 365](https://go.microsoft.com/fwlink/?LinkId=534835?azure-portal=true)
  *  Tell your users when they can [start using Microsoft 365](https://support.office.com/article/office-365-basics-video-training-396b8d9e-e118-42d0-8a0d-87d1f2f055fb?ui=en-US&amp;rs=en-US&amp;ad=US?azure-portal=true)
  *  Reconfigure your client systems (Office, Outlook, Outlook for Mac, and mobile devices) to connect to Microsoft 365
+
+## Knowledge check
+
+Choose the best response for the following question. Then select “Check your answers.”

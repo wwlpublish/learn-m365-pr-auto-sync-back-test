@@ -4,7 +4,7 @@ title: Create a deployment planning checklist for migrating to Microsoft 365
 metadata:
   title: Create a deployment planning checklist for migrating to Microsoft 365
   description: "Create a deployment planning checklist for migrating to Microsoft 365"
-  ms.date: 03/14/2021
+  ms.date: 03/18/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -14,16 +14,16 @@ durationInMinutes: 3
 content: |
   [!include[](includes/2-create-deployment-planning-checklist-for-migrating.md)]
 quiz:
-  title: "Check your knowledgeChoose the best response for the following question. Then select “Check your answers.”"
+  title: "Check your knowledge"
   questions:
   - content: "As the Enterprise Administrator for Tailspin Toys, you're planning a migration to Microsoft 365. You're following Microsoft’s Deployment Planning Checklist for Microsoft 365. You have finished determining your organization’s deployment goals to meet its business requirements. What task should you do next?"
     choices:
     - content: "Fix potential deployment blockers"
       isCorrect: false
-      explanation: "That's incorrect. Once you've determined your organization's goals, the next step is to inventory your current environment."
+      explanation: "That's incorrect. Fixing potential deployment blockers isn't the next step once you've determined your organization's goals. Try again."
     - content: "Set up Microsoft 365 services to work for your organization"
       isCorrect: false
-      explanation: "That's incorrect. Once you've determined your organization's goals, the next step is to inventory your current environment."
+      explanation: "That's incorrect. Setting up Microsoft 365 services isn't the next step once you've determined your organization's goals. Try again."
     - content: "Inventory the current environment"
       isCorrect: true
       explanation: "That's correct. Once you've determined your organization's goals, the next step is to inventory your current environment."
