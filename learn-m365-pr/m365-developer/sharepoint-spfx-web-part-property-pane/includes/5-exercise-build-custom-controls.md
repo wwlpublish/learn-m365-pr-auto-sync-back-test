@@ -169,7 +169,7 @@ import * as ReactDom from 'react-dom';
 import {
   IPropertyPaneField,
   PropertyPaneFieldType
-} from '@microsoft/sp-webpart-base';
+} from '@microsoft/sp-property-pane';
 import { IDropdownOption } from 'office-ui-fabric-react/lib/components/Dropdown';
 import { IContinentSelectorProps } from './components/IContinentSelectorProps';
 import ContinentSelector from './components/ContinentSelector';

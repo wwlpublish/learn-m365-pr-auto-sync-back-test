@@ -3,7 +3,7 @@ uid: learn-m365.m365-office-add-in-associate
 metadata:
   title: Extend Office clients with Office add-ins – Associate
   description: The Office add-ins platform enables you to extend the functionality of Office applications including Excel, Outlook, and Word. In this learning path, you'll explore various ways you can use add-ins to extend and interact with Office applications.
-  ms.date: 04/08/2020
+  ms.date: 03/05/2021
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
@@ -23,5 +23,6 @@ modules:
 - learn-m365.office-add-ins-word
 - learn-m365.office-add-ins-excel
 - learn-m365.office-add-ins-outlook
+- learn-m365.office-add-ins-sso
 trophy:
   uid: learn-m365.m365-office-add-in-associate.trophy
