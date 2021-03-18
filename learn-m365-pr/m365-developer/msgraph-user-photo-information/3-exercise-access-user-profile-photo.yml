@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.msgraph-user-photo-information.3-exercise-access-user-profile-photo
 metadata:
-  title: Exercise - use Microsoft Graph in your web application to retrieve a user profile photo
+  title: Exercise - Use Microsoft Graph in your web application to retrieve a user profile photo
   description: Learn about Microsoft Graph and how the service uses users and groups.
   ms.date: 03/16/2021
   author: rabwill
   ms.author: rwilliams
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
-title: Exercise - use Microsoft Graph in your web application to retrieve a user profile photo
+title: Exercise - Use Microsoft Graph in your web application to retrieve a user profile photo
 durationInMinutes: 10
 content: |
   [!include[](includes/3-exercise-access-user-profile-photo.md)]
