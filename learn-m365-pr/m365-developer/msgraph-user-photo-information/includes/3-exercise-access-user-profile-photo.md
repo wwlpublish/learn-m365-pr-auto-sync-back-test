@@ -22,8 +22,8 @@ In this exercise, you'll clone a GitHub repository, add Azure Active Directory I
     - **ui.js** - Handles user interface elements defined in **index.html**.
     
 1. Open the **auth.js** file, locate the constant `msalConfig` on line 4
-1. Replace the value of the clientId property with the copied **Application (client) ID** from the Azure AD application (spa-aad-app) which was registered earlier. You can get this from the overview page of the Azure AD application (spa-aad-app).
-1. In the same **auth.js** file, locate the authority property on line 6 and replace the <your directory ID here> value with the **Directory (tenant) ID** of the Azure AD application (spa-aad-app) that was registered earlier. You can get this from the overview page of the Azure AD application (spa-aad-app).
+1. Replace the value of the clientId property with the copied **Application (client) ID** from the Azure AD application (spa-aad-app) which was registered in the previous module **Configure a JavaScript application to retrieve Microsoft 365 data using Microsoft Graph**. You can get this from the overview page of the Azure AD application (spa-aad-app).
+1. In the same **auth.js** file, locate the authority property on line 6 and replace the <your directory ID here> value with the **Directory (tenant) ID** of the Azure AD application (spa-aad-app) that was registered in the previous module **Configure a JavaScript application to retrieve Microsoft 365 data using Microsoft Graph**. You can get this from the overview page of the Azure AD application (spa-aad-app).
 1. Open the **index.html** file and add the following code immediately under the welcome message in the body to create a button and image element.
 
     ```html
