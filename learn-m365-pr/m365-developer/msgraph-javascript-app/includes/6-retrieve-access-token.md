@@ -6,7 +6,7 @@ The Microsoft Authentication Library (MSAL) enables developers to acquire to
 
 ## Authentication flow
 
-One of the authentication flow for the application that uses MSAL, which we'll use in our exercise is as follows:
+One of the authentication flows for the application that uses MSAL, which we'll use in our exercise, is as follows:
 
 1. The application redirects the user to sign in.
 1. The user signs in successfully, requesting an authorization code.
