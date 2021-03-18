@@ -35,57 +35,57 @@ The following table identifies the storage locations you should consider when pl
 
 :::row:::
   :::column:::
-    <p><b>Storage Location</b></p>
+    <b>Storage Location</b>
   :::column-end:::
   :::column:::
-    <p><b>What it's for</b></p>
+    <b>What it's for</b>
   :::column-end:::
   :::column:::
-    <p><b>What to store there</b></p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p>OneDrive for Business</p>
-  :::column-end:::
-  :::column:::
-    <p>All files that you store in OneDrive for Business are private unless you decide to share them. You can <a href="https://support.office.com/article/share-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07?azure-portal=true"><span style="color: blue;">share files and folders</span></a> with coworkers so that you can collaborate on projects. If you’re signed-in to Microsoft 365, you may even be able to share with partners outside of your organization, depending on what your company allows.</p>
-  :::column-end:::
-  :::column:::
-    <p>Business files that other team members do not need to collaborate on or access regularly.</p>
+    <b>What to store there</b>
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>Microsoft 365 Team site</p>
+    OneDrive for Business
   :::column-end:::
   :::column:::
-    <p>A Microsoft 365 team site is like a website, but by default it's not public; it's accessible only to people you give permissions to.<br></p>  <p>It's ideal for sharing and collaborating on files.</p>
+    All files that you store in OneDrive for Business are private unless you decide to share them. You can <a href="https://support.office.com/article/share-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07?azure-portal=true"><span style="color: blue;">share files and folders</span></a> with coworkers so that you can collaborate on projects. If you’re signed-in to Microsoft 365, you may even be able to share with partners outside of your organization, depending on what your company allows.
   :::column-end:::
   :::column:::
-    <p>Shared documents that all your employees can access and collaborate on. For example, if you collaborate on a PowerPoint presentation, you can store team plans that everyone updates, or publish meeting agendas.</p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p>Microsoft 365 Team subsite</p>
-  :::column-end:::
-  :::column:::
-    <p>A Microsoft 365 team subsite is like a separate section on your team site with a unique look or unique permissions for access.<br></p>  <p>It's ideal for sharing and collaborating on files with a customer or partner external to your business.<br></p>  <p>It's also good for storing files you want to keep private from the rest of the people in your business who have access to the team site. You can set up a subsite so only you (and if needed, one or two others) can access it.</p>
-  :::column-end:::
-  :::column:::
-    <p>Files you want to share with people external to your business.<br></p>  <p>Files you want to keep private from others in your business. For example, you might want to store personnel and financial information here.</p>
+    Business files that other team members do not need to collaborate on or access regularly.
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>Microsoft 365 Site Collections</p>
+    Microsoft 365 Team site
   :::column-end:::
   :::column:::
-    <p>A Microsoft 365 site collection is separate from your existing team site.<br></p>  <p>A site collection has its own address and permissions, and it can be used for internal or external collaboration.<br></p>  <p>Larger businesses use site collections in the same way small businesses use subsites. A small business with advanced security needs and strong technical skills might also want to <a href="https://support.office.com/article/create-a-site-collection-3a3d7ab9-5d21-41f1-b4bd-5200071dd539?azure-portal=true"><span style="color: blue;">create a site collection</span></a>.</p>
+    A Microsoft 365 team site is like a website, but by default it's not public; it's accessible only to people you give permissions to.<br>  It's ideal for sharing and collaborating on files.
   :::column-end:::
   :::column:::
-    <p>Store the same shared files in a site collection as you would in a team site and subsite.</p>
+    Shared documents that all your employees can access and collaborate on. For example, if you collaborate on a PowerPoint presentation, you can store team plans that everyone updates, or publish meeting agendas.
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    Microsoft 365 Team subsite
+  :::column-end:::
+  :::column:::
+    A Microsoft 365 team subsite is like a separate section on your team site with a unique look or unique permissions for access.<br>  It's ideal for sharing and collaborating on files with a customer or partner external to your business.<br>  It's also good for storing files you want to keep private from the rest of the people in your business who have access to the team site. You can set up a subsite so only you (and if needed, one or two others) can access it.
+  :::column-end:::
+  :::column:::
+    Files you want to share with people external to your business.<br>  Files you want to keep private from others in your business. For example, you might want to store personnel and financial information here.
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    Microsoft 365 Site Collections
+  :::column-end:::
+  :::column:::
+    A Microsoft 365 site collection is separate from your existing team site.<br>  A site collection has its own address and permissions, and it can be used for internal or external collaboration.<br>  Larger businesses use site collections in the same way small businesses use subsites. A small business with advanced security needs and strong technical skills might also want to <a href="https://support.office.com/article/create-a-site-collection-3a3d7ab9-5d21-41f1-b4bd-5200071dd539?azure-portal=true"><span style="color: blue;">create a site collection</span></a>.
+  :::column-end:::
+  :::column:::
+    Store the same shared files in a site collection as you would in a team site and subsite.
   :::column-end:::
 :::row-end:::
 

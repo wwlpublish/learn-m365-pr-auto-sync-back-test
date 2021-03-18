@@ -41,79 +41,79 @@ For the two defining network segments (Client to Microsoft Edge and Customer Edg
 
 :::row:::
   :::column:::
-    <p><b>Value</b></p>
+    <b>Value</b>
   :::column-end:::
   :::column:::
-    <p><b>Client to Microsoft Edge</b></p>
+    <b>Client to Microsoft Edge</b>
   :::column-end:::
   :::column:::
-    <p><b>Customer Edge to Microsoft Edge</b></p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p>Latency (one way) *</p>
-  :::column-end:::
-  :::column:::
-    <p>&lt; 50 ms</p>
-  :::column-end:::
-  :::column:::
-    <p>&lt; 30 ms</p>
+    <b>Customer Edge to Microsoft Edge</b>
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>Latency (RTT or Round-trip Time) *</p>
+    Latency (one way) *
   :::column-end:::
   :::column:::
-    <p>&lt; 100 ms</p>
+    &lt; 50 ms
   :::column-end:::
   :::column:::
-    <p>&lt; 60 ms</p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p>Burst packet loss</p>
-  :::column-end:::
-  :::column:::
-    <p>&lt;10% during any 200 ms interval</p>
-  :::column-end:::
-  :::column:::
-    <p>&lt;1% during any 200 ms interval</p>
+    &lt; 30 ms
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>Packet loss</p>
+    Latency (RTT or Round-trip Time) *
   :::column-end:::
   :::column:::
-    <p>&lt;1% during any 15 s interval</p>
+    &lt; 100 ms
   :::column-end:::
   :::column:::
-    <p>&lt;0.1% during any 15 s interval</p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p>Packet inter-arrival Jitter</p>
-  :::column-end:::
-  :::column:::
-    <p>&lt;30 ms during any 15 s interval</p>
-  :::column-end:::
-  :::column:::
-    <p>&lt;15 ms during any 15 s interval</p>
+    &lt; 60 ms
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>Packet reorder</p>
+    Burst packet loss
   :::column-end:::
   :::column:::
-    <p>&lt;0.05% out-of-order packets</p>
+    &lt;10% during any 200 ms interval
   :::column-end:::
   :::column:::
-    <p>&lt;0.01% out-of-order packets</p>
+    &lt;1% during any 200 ms interval
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    Packet loss
+  :::column-end:::
+  :::column:::
+    &lt;1% during any 15 s interval
+  :::column-end:::
+  :::column:::
+    &lt;0.1% during any 15 s interval
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    Packet inter-arrival Jitter
+  :::column-end:::
+  :::column:::
+    &lt;30 ms during any 15 s interval
+  :::column-end:::
+  :::column:::
+    &lt;15 ms during any 15 s interval
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    Packet reorder
+  :::column-end:::
+  :::column:::
+    &lt;0.05% out-of-order packets
+  :::column-end:::
+  :::column:::
+    &lt;0.01% out-of-order packets
   :::column-end:::
 :::row-end:::
 
@@ -134,66 +134,66 @@ Teams is always conservative on bandwidth utilization and can deliver HD video q
 
 :::row:::
   :::column:::
-    <p><b>Bandwidth(up/down)</b></p>
+    <b>Bandwidth(up/down)</b>
   :::column-end:::
   :::column:::
-    <p><b>Scenarios</b></p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p>30 kbps</p>
-  :::column-end:::
-  :::column:::
-    <p>Peer-to-peer audio calling</p>
+    <b>Scenarios</b>
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>130 kbps</p>
+    30 kbps
   :::column-end:::
   :::column:::
-    <p>Peer-to-peer audio calling and screen sharing</p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p>500 kbps</p>
-  :::column-end:::
-  :::column:::
-    <p>Peer-to-peer quality video calling 360p at 30 fps</p>
+    Peer-to-peer audio calling
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>1.2 Mbps</p>
+    130 kbps
   :::column-end:::
   :::column:::
-    <p>Peer-to-peer HD quality video calling with resolution of HD 720p at 30 fps</p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p>1.5 Mbps</p>
-  :::column-end:::
-  :::column:::
-    <p>Peer-to-peer HD quality video calling with resolution of HD 1080p at 30 fps</p>
+    Peer-to-peer audio calling and screen sharing
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>500 kbps/1 Mbps</p>
+    500 kbps
   :::column-end:::
   :::column:::
-    <p>Group Video calling</p>
+    Peer-to-peer quality video calling 360p at 30 fps
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>1 Mbps/2 Mbps</p>
+    1.2 Mbps
   :::column-end:::
   :::column:::
-    <p>HD Group video calling (540p videos on 1080p screen)</p>
+    Peer-to-peer HD quality video calling with resolution of HD 720p at 30 fps
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    1.5 Mbps
+  :::column-end:::
+  :::column:::
+    Peer-to-peer HD quality video calling with resolution of HD 1080p at 30 fps
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    500 kbps/1 Mbps
+  :::column-end:::
+  :::column:::
+    Group Video calling
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    1 Mbps/2 Mbps
+  :::column-end:::
+  :::column:::
+    HD Group video calling (540p videos on 1080p screen)
   :::column-end:::
 :::row-end:::
 
