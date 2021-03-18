@@ -29,3 +29,7 @@ Depending on the migration option you select to migrate your messages to Microso
  *  **Staged Migration.** Because Azure AD Connect synchronizes your Active Directory to Microsoft 365, your DNS MX record must point to the on-premises environment during your migration. Do not change the DNS MX record to point to Microsoft 365 until all your migration batches are complete.
  *  **Full or Minimal Hybrid Configuration.** Because the Hybrid Configuration Wizard configures the mail flow to be seamless between Exchange on-premises and Exchange Online, you can decide when to switch the DNS MX record to Microsoft 365. This switch usually occurs once most of the mailboxes have been migrated, but you might encounter reasons to switch earlier, such as if you want to use EOP to scan messages on your on-premises servers. Conversely, you may determine that you should not switch the DNS MX record, such as if you have a required 3rd-party mail archiving system on-premises.
  *  **IMAP Migration.** Using this method, you pre-stage your mailboxes in Microsoft 365 and synchronize mail between the two systems. Once your mail is synchronized and you want to make the switch, you should change the DNS MX records to point towards Microsoft 365. After making this change, you must wait for it to propagate and then stop the synchronization.
+
+## Knowledge check
+
+Choose the best response for the following question. Then select “Check your answers.”

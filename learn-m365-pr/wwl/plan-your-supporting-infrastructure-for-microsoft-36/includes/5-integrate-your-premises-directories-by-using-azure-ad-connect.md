@@ -4,7 +4,7 @@ Microsoft 365 provides many ways to manage your user and group synchronization, 
 
 Integrating your on-premises directories with Azure AD provides a common identity for accessing both cloud and on-premises resources. The following diagram depicts how Azure AD Connect creates a copy of an organization's on-premises AD users in Azure AD. When users access their on-premises resources, access is accomplished using their on-premises identities. Conversely, when users access Microsoft 365 services such as Exchange Online and SharePoint Online, they use their connected Azure AD user accounts.
 
-:::image type="content" source="../media/azure-ad-connect-sync-bc8f920c.jpg" alt-text="diagram depicts how Azure AD Connect creates a copy of an organization's on-premises AD users in Azure AD":::
+:::image type="content" source="../media/azure-ad-connect-sync-diagram-cc339a1f.jpg":::
 
 
 Users and organizations can take advantage of the following Azure AD Connect features:
@@ -20,4 +20,4 @@ Azure Active Directory Connect is made up of two primary components:
  *  **Synchronization services.** This component is responsible for synchronizing users, groups, and other objects. It is also responsible for making sure identity information for your on-premises users and groups is matching the cloud.
  *  **Azure AD Connect Health.** Azure AD Connect Health provides robust health monitoring and a central location in the Azure portal to view this activity. For more information, see [Azure Active Directory Connect Health](https://docs.microsoft.com/azure/active-directory/connect-health/active-directory-aadconnect-health?azure-portal=true).
 
-:::image type="content" source="../media/aad-connect-sync-services-e02fe3af.png" alt-text="image of Azure AD Connect Sync Services - Directory synchronization, Azure AD Sync, and FIM + Azure AD Connector":::
+:::image type="content" source="../media/aad-connect-sync-services-e02fe3af.png" alt-text="image of Azure AD Connect Sync Services - Directory synchronization, Azure AD Sync, and FIM plus Azure AD Connector":::

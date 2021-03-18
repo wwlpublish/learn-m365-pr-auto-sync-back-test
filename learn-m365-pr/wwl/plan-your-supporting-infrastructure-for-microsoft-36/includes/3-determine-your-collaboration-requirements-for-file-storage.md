@@ -93,3 +93,8 @@ The following table identifies the storage locations you should consider when pl
 It's important to understand that accessing a file server from a company notebook is not that different from accessing SharePoint and OneDrive resources with an Azure AD user, and that these legacy file servers and home drives can be migrated to SharePoint Online and OneDrive for Business. This relationship is displayed in the following diagram.
 
 :::image type="content" source="../media/accessing-file-server-from-notebook-572b7281.jpg" alt-text="graphic shows how accessing a file server from a company notebook is not that different from accessing SharePoint and OneDrive resources with an Azure AD user":::
+
+
+## Knowledge check
+
+Choose the best response for the following question. Then select “Check your answers.”
