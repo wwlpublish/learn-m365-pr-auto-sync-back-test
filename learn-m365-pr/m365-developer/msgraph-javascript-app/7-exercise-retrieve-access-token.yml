@@ -8,7 +8,7 @@ metadata:
   ms.author: rwilliams
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
-title: Retrieve an access token using MSAL
+title: Exercise - Retrieve an access token using MSAL
 durationInMinutes: 10
 content: |
   [!include[](includes/7-exercise-retrieve-access-token.md)]
