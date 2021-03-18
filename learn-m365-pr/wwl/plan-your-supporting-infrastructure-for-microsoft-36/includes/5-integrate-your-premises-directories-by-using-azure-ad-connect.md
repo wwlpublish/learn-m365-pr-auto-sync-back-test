@@ -2,9 +2,9 @@ Microsoft 365 provides many ways to manage your user and group synchronization, 
 
 ### Why use Azure AD Connect?
 
-Integrating your on-premises directories with Azure AD provides a common identity for accessing both cloud and on-premises resources. The following diagram depicts how Azure AD Connect creates a copy of an organization's on-premises AD users in Azure AD. When users access their on-premises resources, access is accomplished using their on-premises identities. Conversely, when users access Microsoft 365 services such as Exchange Online and SharePoint Online, they use their connected Azure AD user accounts.
+Integrating your on-premises directories with Azure AD provides a common identity for accessing both cloud and on-premises resources. The following diagram shows how Azure AD Connect creates a copy of an organization's on-premises AD users in Azure AD. When users access their on-premises resources, access is accomplished using their on-premises identities. Conversely, when users access Microsoft 365 services such as Exchange Online and SharePoint Online, they use their connected Azure AD user accounts.
 
-:::image type="content" source="../media/azure-ad-connect-sync-diagram-cc339a1f.jpg":::
+:::image type="content" source="../media/azure-ad-connect-sync-diagram-cc339a1f.jpg" alt-text="diagram shows how Azure AD Connect creates a copy of an organization's on-premises AD users in Azure AD":::
 
 
 Users and organizations can take advantage of the following Azure AD Connect features:
