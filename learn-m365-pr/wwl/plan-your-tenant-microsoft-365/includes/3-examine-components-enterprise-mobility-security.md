@@ -51,4 +51,6 @@ The following table provides an overview of the Enterprise Mobility + Security c
   :::column-end:::
 :::row-end:::
 
+## Knowledge check
+
 Choose the best response for the following question. Then select “Check your answers.”
