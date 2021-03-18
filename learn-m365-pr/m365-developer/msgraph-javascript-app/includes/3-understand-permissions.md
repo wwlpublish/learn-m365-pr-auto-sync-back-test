@@ -2,37 +2,37 @@ For you to develop the customer application, which retrieves Microsoft 365 data,
 
 Suppose you want to show a signed in salesperson’s upcoming meetings, you would want your application to only have access to this data. You wouldn't want your application to unnecessarily be granted access to the user’s mails.  
 
-**Permissions** provide a way for your application to interact with the Microsoft Graph API to access Microsoft 365 data. A user or an administrator can grant specific permissions to an application. The process of granting access to different Graph API resources is called **Consent**.  
+**Permissions** provide a way for your application to interact with the Microsoft Graph API to access Microsoft 365 data. A user or an administrator can grant specific permissions to an application. The process of granting access to different Graph API resources is called **Consent**.
 
 In a nutshell, there are three main concepts to understand when your application needs to interact with Microsoft Graph:
 
-- Permission scope
-- Microsoft Graph Permission
+- Microsoft Graph permissions or scopes
+- Permission types
 - Access Token
 
-## Permission scope
+## Microsoft Graph permissions or scopes
 
-There are two types of permission scopes in Microsoft Graph:
-
-- Delegated Permission
-
-- Application Permission
-
-**Delegated Permission** is used when your application is making a Graph call on behalf of the user. Some permissions such as *User.Read* can be consented by the user whereas some high-privileged permissions such as Channel.Delete.All (which deletes channels in any team on behalf of the signed-in user), requires consent from an administrator.
-
-The simplest example of a delegated permission scope is *User.Read* used in  `/me` API end point.  In Microsoft Graph, all API calls with `/me` use the currently signed in user’s context.
-
-**Application Permissions** on the other hand do not require a signed-in user in the application. The permissions are pre-consented to by an administrator. An example of an application permission scope is *Calendars.ReadWrite*, which allows the app to create, read, update, and delete events of all calendars without a signed-in user. You cannot use `/me` API for an application scope as there is no signed-in user to pull out that information.
-
-## Microsoft Graph permission
-
-A Microsoft Graph permission controls the access your app has to specific resources such as users, mail, files, and more. An example of the pattern used to define a permission for a Microsoft Graph resource is shown next:
+A Microsoft Graph *permissions* or *scopes* controls the access your app has to specific resources such as users, mail, files, and more. An example of the pattern used to define a permission or a scope for a Microsoft Graph resource is shown next:
 
 **Resource-name.operation.constraint**
 
 For example, *User.Read.All* grants an application the permission to read the profile of all users in a directory.  
 
-Similarly, to read the profile of a signed in user, the permission required is *User.Read*.
+Similarly, to read the profile of a signed in user, the permission or the scope required is *User.Read*.
+
+## Permission types
+
+There are two types of permissions in Microsoft Graph:
+
+- Delegated Permission
+
+- Application Permission
+
+**Delegated Permission** is used when your application is making a Graph call on behalf of the user. Some permission scopes such as *User.Read* can be consented by the user whereas some high-privileged ones such as Channel.Delete.All (which deletes channels in any team on behalf of the signed-in user), requires consent from an administrator.
+
+The simplest example of a delegated permission scope is *User.Read* used in  `/me` API end point.  In Microsoft Graph, all API calls with `/me` use the currently signed in user’s context.
+
+**Application Permissions** on the other hand do not require a signed-in user in the application. The permissions are pre-consented to by an administrator. An example of an application permission scope is *Calendars.ReadWrite*, which allows the app to create, read, update, and delete events of all calendars without a signed-in user. You cannot use `/me` API for an application permission scope as there is no signed-in user to pull out that information.
 
 ## Access token
 
