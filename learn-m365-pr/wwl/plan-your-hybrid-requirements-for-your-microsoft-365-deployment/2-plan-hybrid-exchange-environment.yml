@@ -4,7 +4,7 @@ title: Plan a hybrid Exchange environment
 metadata:
   title: Plan a hybrid Exchange environment
   description: "Plan a hybrid Exchange environment"
-  ms.date: 03/13/2021
+  ms.date: 03/18/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -16,14 +16,14 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "Choose the best response for the following question. Then select “Check your answers.”As the Enterprise Administrator for Tailspin Toys, you're planning your Microsoft 365 deployment. For your mail system, you plan to configure a hybrid Exchange environment. You want to document what the Exchange features will be like both before and after the hybrid deployment. Which of the following scenarios will result after configuring your hybrid deployment?"
+  - content: "As the Enterprise Administrator for Tailspin Toys, you're planning your Microsoft 365 deployment. For your mail system, you plan to configure a hybrid Exchange environment. You want to document what the Exchange features will be like both before and after the hybrid deployment. Which of the following scenarios will result after configuring your hybrid deployment?"
     choices:
     - content: "Mailboxes will be on-premises and in Microsoft 365"
       isCorrect: true
       explanation: "That's correct. Mailboxes will be on-premises only before the hybrid deployment, and they will be on-premises and in Microsoft 365 after the hybrid deployment."
     - content: "On-premises Mailbox servers receive all Outlook on the web requests and displays mailbox information"
       isCorrect: false
-      explanation: "That's incorrect. This is the configuration of Outlook on the web before the hybrid deployment. The correct answer is mailboxes will be on-premises and in Microsoft 365 after the hybrid deployment."
+      explanation: "That's incorrect. This is the configuration of Outlook on the web before the hybrid deployment. Try again."
     - content: "Free/busy sharing between on-premises users only"
       isCorrect: false
-      explanation: "That's incorrect. This is the configuration of free/busy sharing before the hybrid deployment. The correct answer is mailboxes will be on-premises and in Microsoft 365 after the hybrid deployment."
+      explanation: "That's incorrect. This is the configuration of free/busy sharing before the hybrid deployment. Try again."
