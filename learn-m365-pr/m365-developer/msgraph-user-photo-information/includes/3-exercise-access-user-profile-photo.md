@@ -5,7 +5,7 @@ To successfully complete this unit, you'll need a user account (from your Micros
 In this exercise, you'll clone a GitHub repository, add Azure Active Directory IDs into the app, and add code to access a photo using Microsoft Graph. If you haven't created an Azure Active Directory app registration yet, complete the prerequisite module before continuing.
 
 1. Open a terminal window on your computer and go to the folder where you want to save the app.
-1. To get the source code, visit [https://github.com/MicrosoftDocs/mslearn-retrieve-m365-data-with-msgraph-quickstart.git](https://github.com/MicrosoftDocs/mslearn-retrieve-m365-data-with-msgraph-quickstart.git) and choose from one of the following options:
+1. To get the source code, visit [https://github.com/MicrosoftDocs/mslearn-retrieve-m365-data-with-msgraph-quickstart](https://github.com/MicrosoftDocs/mslearn-retrieve-m365-data-with-msgraph-quickstart) and choose from one of the following options:
     - If you use **git**, clone the project using the git clone command as below:
     
     ```powershell
