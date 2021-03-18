@@ -1,0 +1,43 @@
+### YamlMime:Module
+uid: learn-m365.office-add-ins-sso
+metadata:
+  title: Using Single Sign-On (SSO) with Office Add-ins
+  description: This module explains how to use single sign-on in Office Add-ins.
+  ms.date: 03/05/2021
+  author: andrewconnell
+  ms.author: suzanz
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Using Single Sign-On (SSO) with Office Add-ins
+summary: Office Add-ins can access information from anywhere on the internet, whether from the server that hosts the add-in, from your internal network, or from somewhere else in the cloud. If that information is protected, your add-in needs a way to authenticate your user. Office Add-ins provide a number of different methods to authenticate using single sign-on (SSO), depending on your specific scenario. In this module, you'll learn how to implement single sign-on (SSO) and call the Microsoft Graph in Word, Excel, and Outlook Add-ins.
+abstract: |
+  By the end of this module, you'll be able to:
+  - Understand how Office Add-ins can leverage SSO to call Microsoft Graph
+  - Create Word add-in that leverages SSO to call Microsoft Graph
+  - Create an Excel add-in that leverages SSO to call Microsoft Graph
+  - Create an Outlook add-in that leverages SSO to call Microsoft Graph
+prerequisites: |
+  - Experience developing web applications
+  - Experience using Microsoft Word, Excel, and Outlook
+  - Ability to program with JavaScript and Node.js
+  - Experience using Visual Studio Code at the beginner level
+  - Valid Microsoft 365 subscription
+iconUrl: /learn/achievements/office-add-ins-sso.svg
+levels:
+  - intermediate
+roles:
+  - developer
+products:
+  - m365
+  - office-add-ins
+units:
+  - learn-m365.office-add-ins-sso.1-introduction
+  - learn-m365.office-add-ins-sso.2-office-add-in-single-sign-on
+  - learn-m365.office-add-ins-sso.3-exercise-word-sso
+  - learn-m365.office-add-ins-sso.4-sso-microsoft-graph
+  - learn-m365.office-add-ins-sso.5-exercise-excel-sso
+  - learn-m365.office-add-ins-sso.6-azure-ad-app-registration-guidance
+  - learn-m365.office-add-ins-sso.7-exercise-outlook-sso
+  - learn-m365.office-add-ins-sso.8-summary
+badge:
+  uid: learn-m365.office-add-ins-sso.badge
