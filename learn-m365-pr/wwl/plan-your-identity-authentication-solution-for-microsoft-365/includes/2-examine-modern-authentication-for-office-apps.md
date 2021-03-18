@@ -33,104 +33,104 @@ The following table describes the authentication behavior for Office 2013 or Off
 
 :::row:::
   :::column:::
-    <p><b>Office client app version </b></p>
+    <b>Office client app version </b>
   :::column-end:::
   :::column:::
-    <p><b>Is the Registry key present? </b></p>
+    <b>Is the Registry key present? </b>
   :::column-end:::
   :::column:::
-    <p><b>Is modern authentication turned on? </b></p>
+    <b>Is modern authentication turned on? </b>
   :::column-end:::
   :::column:::
-    <p><b>Authentication behavior with modern authentication turned on for the tenant (default) </b></p>
+    <b>Authentication behavior with modern authentication turned on for the tenant (default) </b>
   :::column-end:::
   :::column:::
-    <p><b>Authentication behavior with modern authentication turned off for the tenant </b></p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p>Office 2016</p>
-  :::column-end:::
-  :::column:::
-    <p>No, or EnableADAL = 1</p>
-  :::column-end:::
-  :::column:::
-    <p>Yes</p>
-  :::column-end:::
-  :::column:::
-    <p>Modern authentication is attempted first. If the server refuses a modern authentication connection, then basic authentication is used. Server refuses modern authentication when the tenant is not enabled.</p>
-  :::column-end:::
-  :::column:::
-    <p>Modern authentication is attempted first. If the server refuses a modern authentication connection, then basic authentication is used. Server refuses modern authentication when the tenant is not enabled.</p>
+    <b>Authentication behavior with modern authentication turned off for the tenant </b>
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>Office 2016</p>
+    Office 2016
   :::column-end:::
   :::column:::
-    <p>Yes, EnableADAL = 1</p>
+    No, or EnableADAL = 1
   :::column-end:::
   :::column:::
-    <p>Yes</p>
+    Yes
   :::column-end:::
   :::column:::
-    <p>Modern authentication is attempted first. If the server refuses a modern authentication connection, then basic authentication is used. Server refuses modern authentication when the tenant is not enabled.</p>
+    Modern authentication is attempted first. If the server refuses a modern authentication connection, then basic authentication is used. Server refuses modern authentication when the tenant is not enabled.
   :::column-end:::
   :::column:::
-    <p>Modern authentication is attempted first. If the server refuses a modern authentication connection, then basic authentication is used. Server refuses modern authentication when the tenant is not enabled.</p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p>Office 2016</p>
-  :::column-end:::
-  :::column:::
-    <p>Yes, EnableADAL=0</p>
-  :::column-end:::
-  :::column:::
-    <p>No</p>
-  :::column-end:::
-  :::column:::
-    <p>Basic authentication</p>
-  :::column-end:::
-  :::column:::
-    <p>Basic authentication</p>
+    Modern authentication is attempted first. If the server refuses a modern authentication connection, then basic authentication is used. Server refuses modern authentication when the tenant is not enabled.
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>Office 2013</p>
+    Office 2016
   :::column-end:::
   :::column:::
-    <p>No</p>
+    Yes, EnableADAL = 1
   :::column-end:::
   :::column:::
-    <p>No</p>
+    Yes
   :::column-end:::
   :::column:::
-    <p>Basic authentication</p>
+    Modern authentication is attempted first. If the server refuses a modern authentication connection, then basic authentication is used. Server refuses modern authentication when the tenant is not enabled.
   :::column-end:::
   :::column:::
-    <p>Basic authentication</p>
+    Modern authentication is attempted first. If the server refuses a modern authentication connection, then basic authentication is used. Server refuses modern authentication when the tenant is not enabled.
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>Office 2013</p>
+    Office 2016
   :::column-end:::
   :::column:::
-    <p>Yes, EnableADAL = 1</p>
+    Yes, EnableADAL=0
   :::column-end:::
   :::column:::
-    <p>Yes</p>
+    No
   :::column-end:::
   :::column:::
-    <p>Modern authentication is attempted first. If the server refuses a modern authentication connection, then basic authentication is used. Server refuses modern authentication when the tenant is not enabled.</p>
+    Basic authentication
   :::column-end:::
   :::column:::
-    <p>Modern authentication is attempted first. If the server refuses a modern authentication connection, then basic authentication is used. Server refuses modern authentication when the tenant is not enabled.</p>
+    Basic authentication
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    Office 2013
+  :::column-end:::
+  :::column:::
+    No
+  :::column-end:::
+  :::column:::
+    No
+  :::column-end:::
+  :::column:::
+    Basic authentication
+  :::column-end:::
+  :::column:::
+    Basic authentication
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    Office 2013
+  :::column-end:::
+  :::column:::
+    Yes, EnableADAL = 1
+  :::column-end:::
+  :::column:::
+    Yes
+  :::column-end:::
+  :::column:::
+    Modern authentication is attempted first. If the server refuses a modern authentication connection, then basic authentication is used. Server refuses modern authentication when the tenant is not enabled.
+  :::column-end:::
+  :::column:::
+    Modern authentication is attempted first. If the server refuses a modern authentication connection, then basic authentication is used. Server refuses modern authentication when the tenant is not enabled.
   :::column-end:::
 :::row-end:::
 
@@ -141,104 +141,104 @@ The following table describes the authentication behavior for Office 2013 or Off
 
 :::row:::
   :::column:::
-    <p><b>Office client app version</b></p>
+    <b>Office client app version</b>
   :::column-end:::
   :::column:::
-    <p><b>Is the Registry key present?</b></p>
+    <b>Is the Registry key present?</b>
   :::column-end:::
   :::column:::
-    <p><b>Is modern authentication turned on?</b></p>
+    <b>Is modern authentication turned on?</b>
   :::column-end:::
   :::column:::
-    <p><b>Authentication behavior with modern authentication turned on for the tenant (default) </b></p>
+    <b>Authentication behavior with modern authentication turned on for the tenant (default) </b>
   :::column-end:::
   :::column:::
-    <p><b>Authentication behavior with modern authentication turned off for the tenant </b></p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p>Office 2016</p>
-  :::column-end:::
-  :::column:::
-    <p>No, or EnableADAL = 1</p>
-  :::column-end:::
-  :::column:::
-    <p>Yes</p>
-  :::column-end:::
-  :::column:::
-    <p>Modern authentication only.</p>
-  :::column-end:::
-  :::column:::
-    <p>Failure to connect.</p>
+    <b>Authentication behavior with modern authentication turned off for the tenant </b>
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>Office 2016</p>
+    Office 2016
   :::column-end:::
   :::column:::
-    <p>Yes, EnableADAL = 1</p>
+    No, or EnableADAL = 1
   :::column-end:::
   :::column:::
-    <p>Yes</p>
+    Yes
   :::column-end:::
   :::column:::
-    <p>Modern authentication only.</p>
+    Modern authentication only.
   :::column-end:::
   :::column:::
-    <p>Failure to connect.</p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p>Office 2016</p>
-  :::column-end:::
-  :::column:::
-    <p>Yes, EnableADAL = 0</p>
-  :::column-end:::
-  :::column:::
-    <p>No</p>
-  :::column-end:::
-  :::column:::
-    <p>Microsoft Online Sign in Assistant only.</p>
-  :::column-end:::
-  :::column:::
-    <p>Microsoft Online Sign in Assistant only.</p>
+    Failure to connect.
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>Office 2013</p>
+    Office 2016
   :::column-end:::
   :::column:::
-    <p>No</p>
+    Yes, EnableADAL = 1
   :::column-end:::
   :::column:::
-    <p>No</p>
+    Yes
   :::column-end:::
   :::column:::
-    <p>Microsoft Online Sign in Assistant only.</p>
+    Modern authentication only.
   :::column-end:::
   :::column:::
-    <p>Microsoft Online Sign in Assistant only.</p>
+    Failure to connect.
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>Office 2013</p>
+    Office 2016
   :::column-end:::
   :::column:::
-    <p>Yes, EnableADAL = 1</p>
+    Yes, EnableADAL = 0
   :::column-end:::
   :::column:::
-    <p>Yes</p>
+    No
   :::column-end:::
   :::column:::
-    <p>Modern authentication only.</p>
+    Microsoft Online Sign in Assistant only.
   :::column-end:::
   :::column:::
-    <p>Failure to connect.</p>
+    Microsoft Online Sign in Assistant only.
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    Office 2013
+  :::column-end:::
+  :::column:::
+    No
+  :::column-end:::
+  :::column:::
+    No
+  :::column-end:::
+  :::column:::
+    Microsoft Online Sign in Assistant only.
+  :::column-end:::
+  :::column:::
+    Microsoft Online Sign in Assistant only.
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    Office 2013
+  :::column-end:::
+  :::column:::
+    Yes, EnableADAL = 1
+  :::column-end:::
+  :::column:::
+    Yes
+  :::column-end:::
+  :::column:::
+    Modern authentication only.
+  :::column-end:::
+  :::column:::
+    Failure to connect.
   :::column-end:::
 :::row-end:::
 
@@ -249,103 +249,103 @@ The following table describes the authentication behavior for Office 2013 or Off
 
 :::row:::
   :::column:::
-    <p><b>Office client app version </b></p>
+    <b>Office client app version </b>
   :::column-end:::
   :::column:::
-    <p><b>Is the Registry key present?</b></p>
+    <b>Is the Registry key present?</b>
   :::column-end:::
   :::column:::
-    <p><b>Is modern authentication turned on?</b></p>
+    <b>Is modern authentication turned on?</b>
   :::column-end:::
   :::column:::
-    <p><b>Authentication behavior with modern authentication turned on for the tenant </b></p>
+    <b>Authentication behavior with modern authentication turned on for the tenant </b>
   :::column-end:::
   :::column:::
-    <p><b>Authentication behavior with modern authentication turned off for the tenant (default) </b></p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p>Office 2016</p>
-  :::column-end:::
-  :::column:::
-    <p>No, or EnableADAL = 1</p>
-  :::column-end:::
-  :::column:::
-    <p>Yes</p>
-  :::column-end:::
-  :::column:::
-    <p>Modern authentication is attempted first. If the server refuses a modern authentication connection, then Microsoft Online Sign in Assistant is used. Server refuses modern authentication when Skype for Business Online tenants are not enabled.</p>
-  :::column-end:::
-  :::column:::
-    <p>Modern authentication is attempted first. If the server refuses a modern authentication connection, then Microsoft Online Sign in Assistant is used. Server refuses modern authentication when Skype for Business Online tenants are not enabled.</p>
+    <b>Authentication behavior with modern authentication turned off for the tenant (default) </b>
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>Office 2016</p>
+    Office 2016
   :::column-end:::
   :::column:::
-    <p>Yes, EnableADAL = 1</p>
+    No, or EnableADAL = 1
   :::column-end:::
   :::column:::
-    <p>Yes</p>
+    Yes
   :::column-end:::
   :::column:::
-    <p>Modern authentication is attempted first. If the server refuses a modern authentication connection, then Microsoft Online Sign in Assistant is used. Server refuses modern authentication when Skype for Business Online tenants are not enabled.</p>
+    Modern authentication is attempted first. If the server refuses a modern authentication connection, then Microsoft Online Sign in Assistant is used. Server refuses modern authentication when Skype for Business Online tenants are not enabled.
   :::column-end:::
   :::column:::
-    <p>Modern authentication is attempted first. If the server refuses a modern authentication connection, then Microsoft Online Sign in Assistant is used. Server refuses modern authentication when Skype for Business Online tenants are not enabled.</p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p>Office 2016</p>
-  :::column-end:::
-  :::column:::
-    <p>Yes, EnableADAL = 0</p>
-  :::column-end:::
-  :::column:::
-    <p>No</p>
-  :::column-end:::
-  :::column:::
-    <p>Microsoft Online Sign in Assistant only.</p>
-  :::column-end:::
-  :::column:::
-    <p>Microsoft Online Sign in Assistant only.</p>
+    Modern authentication is attempted first. If the server refuses a modern authentication connection, then Microsoft Online Sign in Assistant is used. Server refuses modern authentication when Skype for Business Online tenants are not enabled.
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>Office 2013</p>
+    Office 2016
   :::column-end:::
   :::column:::
-    <p>No</p>
+    Yes, EnableADAL = 1
   :::column-end:::
   :::column:::
-    <p>No</p>
+    Yes
   :::column-end:::
   :::column:::
-    <p>Microsoft Online Sign in Assistant only.</p>
+    Modern authentication is attempted first. If the server refuses a modern authentication connection, then Microsoft Online Sign in Assistant is used. Server refuses modern authentication when Skype for Business Online tenants are not enabled.
   :::column-end:::
   :::column:::
-    <p>Microsoft Online Sign in Assistant only.</p>
+    Modern authentication is attempted first. If the server refuses a modern authentication connection, then Microsoft Online Sign in Assistant is used. Server refuses modern authentication when Skype for Business Online tenants are not enabled.
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>Office 2013</p>
+    Office 2016
   :::column-end:::
   :::column:::
-    <p>Yes, EnableADAL = 1</p>
+    Yes, EnableADAL = 0
   :::column-end:::
   :::column:::
-    <p>Yes</p>
+    No
   :::column-end:::
   :::column:::
-    <p>Modern authentication is attempted first. If the server refuses a modern authentication connection, then Microsoft Online Sign in Assistant is used. Server refuses modern authentication when Skype for Business Online tenants are not enabled.</p>
+    Microsoft Online Sign in Assistant only.
   :::column-end:::
   :::column:::
-    <p>Microsoft Online Sign in Assistant only.</p>
+    Microsoft Online Sign in Assistant only.
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    Office 2013
+  :::column-end:::
+  :::column:::
+    No
+  :::column-end:::
+  :::column:::
+    No
+  :::column-end:::
+  :::column:::
+    Microsoft Online Sign in Assistant only.
+  :::column-end:::
+  :::column:::
+    Microsoft Online Sign in Assistant only.
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    Office 2013
+  :::column-end:::
+  :::column:::
+    Yes, EnableADAL = 1
+  :::column-end:::
+  :::column:::
+    Yes
+  :::column-end:::
+  :::column:::
+    Modern authentication is attempted first. If the server refuses a modern authentication connection, then Microsoft Online Sign in Assistant is used. Server refuses modern authentication when Skype for Business Online tenants are not enabled.
+  :::column-end:::
+  :::column:::
+    Microsoft Online Sign in Assistant only.
   :::column-end:::
 :::row-end:::

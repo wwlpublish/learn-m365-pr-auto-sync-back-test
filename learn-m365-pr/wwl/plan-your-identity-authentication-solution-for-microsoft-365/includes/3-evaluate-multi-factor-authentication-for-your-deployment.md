@@ -23,26 +23,26 @@ You get a different subset of capabilities depending on whether you have a cloud
 
 :::row:::
   :::column:::
-    <p><b>Where do you manage your Microsoft 365 tenant?</b></p>
+    <b>Where do you manage your Microsoft 365 tenant?</b>
   :::column-end:::
   :::column:::
-    <p><b>MFA second factor options</b></p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p>Cloud only</p>
-  :::column-end:::
-  :::column:::
-    <p>Azure Active Directory MFA (text, phone call, or App)</p>
+    <b>MFA second factor options</b>
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>Hybrid setup, managed on-premises</p>
+    Cloud only
   :::column-end:::
   :::column:::
-    <p>If you manage user identity on-premises, you have the following choices:</p>  Physical or virtual smart card (AD FS)  [Azure MFA](https://go.microsoft.com/fwlink/p/?LinkId=526677?azure-portal=true) (module for AD FS)  Azure AD MFA
+    Azure Active Directory MFA (text, phone call, or App)
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    Hybrid setup, managed on-premises
+  :::column-end:::
+  :::column:::
+    If you manage user identity on-premises, you have the following choices:  Physical or virtual smart card (AD FS)  [Azure MFA](https://go.microsoft.com/fwlink/p/?LinkId=526677?azure-portal=true) (module for AD FS)  Azure AD MFA
   :::column-end:::
 :::row-end:::
 

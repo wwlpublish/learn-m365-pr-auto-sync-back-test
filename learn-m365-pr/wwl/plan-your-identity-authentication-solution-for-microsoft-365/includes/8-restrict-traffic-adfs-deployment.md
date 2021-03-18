@@ -2,35 +2,35 @@ Because Azure does not provide a native, full-featured firewall capability, othe
 
 :::row:::
   :::column:::
-    <p><b>Option </b></p>
+    <b>Option </b>
   :::column-end:::
   :::column:::
-    <p><b>Advantage </b></p>
+    <b>Advantage </b>
   :::column-end:::
   :::column:::
-    <p><b>Disadvantage </b></p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p><u><a href="https://docs.microsoft.com/azure/virtual-network/virtual-networks-acl?azure-portal=true"><span style="color: blue;">Azure network ACLs</span></a></u></p>
-  :::column-end:::
-  :::column:::
-    <p>Less costly and simpler initial configuration</p>
-  :::column-end:::
-  :::column:::
-    <p>Another network ACL configuration is required if any new VMs are added to the deployment.</p>
+    <b>Disadvantage </b>
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p><u><a href="https://www.barracuda.com/products/ngfirewallvx/index?azure-portal=true"><span style="color: blue;">Barracuda NG firewall</span></a></u></p>
+    <u><a href="https://docs.microsoft.com/azure/virtual-network/virtual-networks-acl?azure-portal=true"><span style="color: blue;">Azure network ACLs</span></a></u>
   :::column-end:::
   :::column:::
-    <p>Safelist mode of operation that requires no network ACL configuration</p>
+    Less costly and simpler initial configuration
   :::column-end:::
   :::column:::
-    <p>Increased cost and complexity for initial setup.</p>
+    Another network ACL configuration is required if any new VMs are added to the deployment.
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    <u><a href="https://www.barracuda.com/products/ngfirewallvx/index?azure-portal=true"><span style="color: blue;">Barracuda NG firewall</span></a></u>
+  :::column-end:::
+  :::column:::
+    Safelist mode of operation that requires no network ACL configuration
+  :::column-end:::
+  :::column:::
+    Increased cost and complexity for initial setup.
   :::column-end:::
 :::row-end:::
 
