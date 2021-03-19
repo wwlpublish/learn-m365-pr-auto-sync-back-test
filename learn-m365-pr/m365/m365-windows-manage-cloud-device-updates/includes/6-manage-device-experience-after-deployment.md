@@ -3,28 +3,20 @@ You'll investigate the controls for device experience that are available to you,
 
 In this unit, you will learn about how to best manage the device experience for updates.
 
-:::row:::
-   :::column span="2":::
-   :::column-end:::
-   :::column span="":::
-      :::image type="content" source="../media/6-bookmark-one.png" border="false" alt-text="Manage scan frequency and downloads bookmark":::
-   :::column-end:::
-:::row-end:::
-
 ## Manage scan frequency
 
-By default, devices scan for new updates daily (roughly every 22 hours) or when needed for the update process. If a user selects **Check for updates** on the Windows Update Settings page, the device will perform a scan on demand. Currently, there is no way to reliably change the scan frequency for devices that update directly from Windows Update. Configuring either of the policies below **will not** make devices scan at the specified frequency if updating from WU:
+By default, devices scan for new updates daily (roughly every 22 hours) or when needed for the update process. If a user selects **Check for updates** on the Windows Update Settings page, the device will perform a scan on demand. Currently, there is no way to reliably change the scan frequency for devices that update directly from Windows Update. Configuring either of the policies below **will not** make devices scan at the specified frequency if updating from Windows Update:
 
 - Configuration Service Provider (CSP) policy: [Update/DetectionFrequency](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update) policy.
-- Group Policy (GP): **Automatic Updates detection frequency** policy.
+- Group Policy: **Automatic Updates detection frequency** policy.
 
 ## Manage downloads
 
 By default, the update will download automatically at a time that the Update Orchestrator Service (UOS) determines is minimally disruptive. However, the following Group Policy controls are available:
 
-- **GP: Allow download automatically over a metered network** policy.
+- **Group Policy: Allow download automatically over a metered network** policy.
   - Configuring this policy can improve update compliance because the device will be more available to download the update. However, there is an additional cost for your data plan. Think carefully before configuring it.
-- **GP: Require end user action to download updates policy**; this notifies the user about the download.
+- **Group Policy: Require end user action to download updates policy**; this notifies the user about the download.
   - You can find this setting under the Group Policy path **Computer Configuration > Administrative Templates > Windows Components > Windows Update > Configure Automatic Updates**.
   - Configuring this policy will prevent the update from downloading until a user acts by selecting a notification or going to the Windows Update Settings page. If the user takes no action, the update will not download until the deadline you have configured is reached. This policy will likely provide a poor user experience and slow update adoption. Think carefully before configuring.
 
@@ -44,24 +36,16 @@ Delivery Optimization also offers a feature called *Microsoft Connected Cache*. 
 - For a comprehensive list of settings to fine tune behaviors, see Delivery Optimization reference.
 - Learn more about [Microsoft Connected Cache](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization-reference).
 
-:::row:::
-   :::column span="2":::
-   :::column-end:::
-   :::column span="":::
-      :::image type="content" source="../media/6-bookmark-two.png" border="false" alt-text="Bookmark for the manage installations section.":::
-   :::column-end:::
-:::row-end:::
-
 ## Manage installations
 
 By default, installation occurs automatically at a time that the Update Orchestrator Service determines is minimally disruptive. However, the following Group Policy controls are available:
 
-- **GP: Configure Automatic Updates** policy
+- **Group Policy: Configure Automatic Updates** policy
   - *Require end user action to install updates*. This tells the user to install the update.
   - *Install at a scheduled time*. This installs the update a scheduled time.
-- **GP: Windows Update Power Management to automatically wake up the system to install scheduled updates** policy
+- **Group Policy: Windows Update Power Management to automatically wake up the system to install scheduled updates** policy
 
-### GP: Configure Automatic Updates
+### Group Policy: Configure Automatic Updates
 
 The **Configure Automatic Updates** Group Policy controls multiple stages of the update process, such as scheduling the update installation or requiring the user to download or install the update. If misconfigured, this policy can slow the update process. That’s why we recommend leaving this policy as **Not Configured**. The Group Policy path for this policy is **Computer Configuration > Administrative Templates > Windows Components > Windows Update > Configure Automatic Updates**.
 
@@ -95,17 +79,16 @@ The CSP equivalent of the recommended configuration is as follows:
 - **Update/ScheduledInstallEveryWeek = 1**
 
 > [!WARNING]
-> If you choose to use option values 2 or 3 of the **Configure Automatic Updates** GP, the potential policy conflicts listed below might arise. These conflicts might prevent the successful installation of an update or significantly degrade the user experience.
-
+> If you choose to use option values 2 or 3 of the **Configure Automatic Updates** Group Policy, the potential policy conflicts listed below might arise. These conflicts might prevent the successful installation of an update or significantly degrade the user experience.
 
 |Configuration  |Conflict  |
 |---------|---------|
 |**Configure Automatic Updates** set to **2** OR **3** AND set **Remove access to use all Windows Update features** to **Enabled**. Group Policy Path is:  **Computer Configuration > Administrative Templates > Windows Components > Windows Update > Remove access to use all Windows Update features**|This prevents users from acting on notifications; users cannot download or install the update before a deadline. When the deadline is reached, the update will automatically download and install.|
 |**Configure Automatic Updates** set to **2** OR **3** AND set **Display options for update notifications** to **(2) Disable all notifications including restart notifications.** Group Policy Path is:  **Computer Configuration > Administrative Templates > Windows Components > Windows Update > Display options for update notifications**|The user will not see notifications and, therefore, cannot act without going to the Windows Update Settings page. Users might be less likely to download or install an update before a deadline, at which time the device will be forced to restart.|
 
-### GP: Enabling Windows Update Power Management to automatically wake up the system to install scheduled updates
+### Group Policy: Enabling Windows Update Power Management to automatically wake up the system to install scheduled updates
 
-When a device is plugged in, this GP will wake the system automatically to install scheduled updates.  You can configure this using the **Enabling Windows Update Power Management to automatically wake up the system to install scheduled updates** policy. There is no CSP equivalent.
+When a device is plugged in, this Group Policy will wake the system automatically to install scheduled updates.  You can configure this using the **Enabling Windows Update Power Management to automatically wake up the system to install scheduled updates** policy. There is no CSP equivalent.
 
 :::image type="content" source="../media/4-wake-system-expanded.png" lightbox="../media/4-wake-system-inline.png" alt-text="Figure 11. Wake the system to install updates when plugged in.":::
 
@@ -113,21 +96,21 @@ When a device is plugged in, this GP will wake the system automatically to insta
 
 Microsoft recommends that you do not try to install on a specific day or week and allow updates to install automatically; do not configure any policies.
 
-## Restart
+## Manage restarts
 
 By default, the device will automatically attempt to restart outside of active hours when the user is away. Active hours are defined as when the device is in use by a user. However, the following Group Policy controls are available:
 
-- **GP: Specify active hours range for auto-restarts.**
-- **GP: Turn off auto-restart for updates during active hours.**
-- **GP: Update Power Policy for Cart Restarts.**
+- **Group Policy: Specify active hours range for auto-restarts.**
+- **Group Policy: Turn off auto-restart for updates during active hours.**
+- **Group Policy: Update Power Policy for Cart Restarts.**
 
-### Active hours
+### Understand active hours
 
 By default, we avoid restarting devices during active hours to minimize disturbance to users.
 
 #### Intelligent active hours
 
-Windows configures the active hours based on user behavior.
+With intelligent active hours, Windows configures the active hours based on user behavior.
 > [!NOTE]
 > Intelligent active hours are an option only available on Windows 10, version 1903 and above.
 
@@ -141,7 +124,7 @@ Instead of relying on Intelligent active hours, users can configure their own ac
 
 Microsoft recommends that you allow updates to restart automatically outside of active hours. Do not configure any policies or only specify the active hours range.
 
-### GP: Specify active hours range for auto-restarts
+### Group Policy: Specify active hours range for auto-restarts
 
 Use the  **Specify active hours range for auto-restarts** policy to set the range for auto-restarts.
 
@@ -162,15 +145,15 @@ Microsoft Intune does not currently provide the ability to configure the maximum
 :::image type="content" source="../media/4-set-active-hour-range-for-auto-restarts-expanded.png" lightbox="../media/4-set-active-hour-range-for-auto-restarts-inline.png" alt-text="Figure 14. Set active hour range for auto-restarts in Microsoft Intune.":::
 
 > [!WARNING]
-> Configuring the **Turn off auto-restart for updates during active hours** GP will override intelligent active hours or user-configured active hours. When configured, this will remove the active hours setting from the user’s Windows Update Settings page.
+> Configuring the **Turn off auto-restart for updates during active hours** Group Policy will override intelligent active hours or user-configured active hours. When configured, this will remove the active hours setting from the user’s Windows Update Settings page.
 
-### GP: Update Power Policy for Cart Restarts
+### Group Policy: Update Power Policy for Cart Restarts
 
-This GP will only work for devices running the educational (EDU) versions of Windows 10. Use this policy only for education devices that are plugged in to charging carts overnight.
+This Group Policy will only work for devices running the educational (EDU) versions of Windows 10. Use this policy only for education devices that are plugged in to charging carts overnight.
 
 > [!WARNING]
 > This policy causes scan, download, install, and restart to occur outside of active hours. This policy might slow update adoption and diminish compliance.
 
-### Monitor Updates
+## Monitor updates
 
-After configuring your devices, you want to monitor updates in your organization to identify any devices that have encountered an update failure and need remediation.[Intune provides reporting capability within the management tool](https://docs.microsoft.com/mem/intune/protect/windows-update-compliance-reports?azure-portal=true). [Update Compliance](https://docs.microsoft.com/windows/deployment/update/update-compliance-get-started?azure-portal=true) provides a standalone Microsoft Azure solution for monitoring updates as well. You can then use [Azure Monitor Workbooks](https://docs.microsoft.com/azure/azure-monitor/platform/workbooks-overview?azure-portal=true) to build customer reporting solutions on top of the data Update Compliance provides.
+After configuring your devices, you want to monitor updates in your organization to identify any devices that have encountered an update failure and need remediation. [Intune provides reporting capability within the management tool](https://docs.microsoft.com/mem/intune/protect/windows-update-compliance-reports?azure-portal=true). [Update Compliance](https://docs.microsoft.com/windows/deployment/update/update-compliance-get-started?azure-portal=true) provides a standalone Microsoft Azure solution for monitoring updates as well. You can then use [Azure Monitor Workbooks](https://docs.microsoft.com/azure/azure-monitor/platform/workbooks-overview?azure-portal=true) to build customer reporting solutions on top of the data Update Compliance provides.

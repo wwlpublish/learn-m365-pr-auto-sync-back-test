@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365-pr.m365-windows.manage-windows-updates-cloud.6-manage-device-experience-after-deployment
-title: Manage the device experience after deployment of an update
+title: Manage the update experience for devices
 metadata:
-  title: Manage the device experience after deployment of an update
+  title: Manage the update experience for devices
   description: Learn about how to manage the device experience after you've successfully deployed an update.
   ms.date: 03/09/2021
   author: iankensey

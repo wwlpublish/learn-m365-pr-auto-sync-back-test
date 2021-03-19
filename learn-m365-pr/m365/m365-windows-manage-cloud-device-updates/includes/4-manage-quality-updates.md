@@ -2,7 +2,7 @@ As the administrator, you want to ensure that quality updates are deployed prope
 
 In this unit, you'll learn about how to best manage quality updates.
 
-## Quality Updates
+## Understand quality updates
 
 Microsoft releases quality updates containing security and critical fixes every second Tuesday of each month, and they are cumulative. There are also preview quality updates that release on the third Tuesday of each month, which are optional. By default, security quality updates are automatically deployed to the device as soon as they are released.
 
@@ -21,13 +21,13 @@ We recommend deploying quality updates at different times. To do this, group dev
 1. Open [Microsoft Endpoint Manager](https://endpoint.microsoft.com/#home?azure-portal=true), and select **Devices**.
 1. In the **Quality update deferral period (days)** box, type the numbers of days (0-30 days).
 
-    :::image type="content" source="../media/3-choose-quality-update-deferral-expanded.png" lightbox="../media/3-choose-quality-update-deferral-inline.png" alt-text="Figure 7. Choose deferral period using a GP.":::
+    :::image type="content" source="../media/3-choose-quality-update-deferral-expanded.png" lightbox="../media/3-choose-quality-update-deferral-inline.png" alt-text="Figure 7. Choose deferral period using a Group Policy.":::
 
 #### Select a deferral period using a Group Policy tool
 
-You can also use Group Policy to specify deferrals. For example, you can use the **Select when Quality Updates are received** Group Policy to defer quality updates:
+You can also use Group Policy to specify deferrals. For example, you can use the **Select when quality updates are received** Group Policy to defer quality updates:
 
-:::image type="content" source="../media/3-choose-deferral-period-group-policy-expanded.png" lightbox="../media/3-choose-deferral-period-group-policy-inline.png" alt-text="Figure 8. Choose deferral period using a GP.":::
+:::image type="content" source="../media/3-choose-deferral-period-group-policy-expanded.png" lightbox="../media/3-choose-deferral-period-group-policy-inline.png" alt-text="Figure 8. Choose deferral period using a Group Policy.":::
 
 ### Avoid consecutive quality updates
 
@@ -35,4 +35,4 @@ If you pause your updates, adjust your deferrals to avoid consecutive restarts; 
 
 :::image type="content" source="../media/3-consecutive-quality-update-scenario.png" alt-text="Figure 8. Consecutive quality update scenario.":::
 
-In the consecutive quality update scenario (Figure 8), a device has a five-day quality update deferral. The administrator pauses the deployment of the December quality update before the deferral period ends. This means that the December quality update was not offered to the device. Later, Microsoft releases the January quality update. Quality update deployment resumes. However, the January quality update is not yet old enough to meet the deferral requirements (it has not been released for five or more days). Therefore, the December quality update is offered to the device. Then, three days later, the January quality update, which now meets the deferral requirements, is offered to the device. This results in two restarts in the period of a single week, which is a poor user experience.
+In the consecutive quality update scenario (Figure 8), a device has a five-day quality update deferral. The administrator pauses the deployment of the December quality update before the deferral period ends. This means that the December quality update was not offered to the device. Later, Microsoft releases the January quality update. quality update deployment resumes. However, the January quality update is not yet old enough to meet the deferral requirements (it has not been released for five or more days). Therefore, the December quality update is offered to the device. Then, three days later, the January quality update, which now meets the deferral requirements, is offered to the device. This results in two restarts in the period of a single week, which is a poor user experience.
