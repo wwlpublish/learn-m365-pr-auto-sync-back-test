@@ -1,10 +1,10 @@
 Microsoft Graph services are centered around users and groups.  
 
-A user’s data is the core of Microsoft 365 cloud services. Think about a salesperson planning to create a calendar event with a customer. Any device or platform the salesperson chooses to use, the meeting invite can be scheduled using the user’s protected identity. As the meeting invite is scheduled, the calendar event will be accessible across all platforms and applications to act upon if needed. The following image shows the types of information that Microsoft Graph can access for a user.
+A user’s data is the core of Microsoft 365 cloud services. Think about a salesperson planning to create a calendar event with a customer. The meeting invite can be scheduled using the user’s protected identity with any device or platform the salesperson chooses. As the meeting invite is scheduled, the calendar event will be accessible across all platforms and applications to act upon if needed. The following image shows the types of information that Microsoft Graph can access for a user.
 
 :::image type="content" source="../media/3-user.png" alt-text="Diagram showing the types of information that Microsoft Graph can access for a user.":::
 
-Groups are the base environment for user’s collaboration and teamwork in Microsoft 365. Imagine a group of users in a sales team. They can use Microsoft 365 services to collaborate with their colleagues, have conversations, share files, calendar events, and notes. 
+Groups are the base environment for a user’s collaboration and teamwork in Microsoft 365. Imagine a group of users in a sales team. They can use Microsoft 365 services to collaborate with their colleagues, have conversations, share files, calendar events, and notes. 
 
 Accessing that type of functionality is key to the sales application scenario as multiple salespeople may have reached out to a customer over time. Having access to a group information enables salespeople across the organization to make better decisions.
 
@@ -15,7 +15,7 @@ Graph services support scenarios related to identity, security, productivity, co
 For example, to access a specific user’s profile based on their alias, you can consume the Graph REST API below: 
 
 ```http
-GET /users/michellec
+GET /users/michellec@M365x214355.OnMicrosoft.com
 ```
 
 Graph REST API call above will return profile information about Michelle that can be displayed in the application.
@@ -40,7 +40,7 @@ Graph REST API call above will return profile information about Michelle that ca
 Information about Michelle’s direct reports can be retrieved using the API call shown below:
 
 ```http
-GET /users/michellec/directReports
+GET /users/michellec@M365x214355.OnMicrosoft.com/directReports
 ```
 
 This call will return data as shown below:

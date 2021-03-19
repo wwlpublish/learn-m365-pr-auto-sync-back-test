@@ -30,7 +30,7 @@ To better understand the benefits of Microsoft Graph, let’s revisit the custom
 
 :::image type="content" source="../media/2-sales-app-summary.png" alt-text="Sales application summary":::
 
-If your development team didn’t use Microsoft Graph, they would need to learn the Outlook mail API for mail, calendar, and meetings. To access chat, they would need to learn the Microsoft Teams APIs and for files they would need to learn the OneDrive and SharePoint APIs. Finally, Active Directory queries would be needed to gain access to people in the organization, the org chart, and individual skills. That is many APIs to learn which is further complicated when you factor in management and maintenance of the application over time. 
+If your development team didn’t use Microsoft Graph, they would need to learn the Outlook mail API for mail, calendar, and meetings. To access files they would need to learn the OneDrive and SharePoint APIs. Finally, Active Directory queries would be needed to gain access to people in the organization, the org chart, and individual skills. That is many APIs to learn which is further complicated when you factor in management and maintenance of the application over time. 
 
 By using Microsoft Graph, your development team can use a single endpoint and unified API to retrieve all the customer interaction data needed by the application. This ranges from accessing customer messages sent by different salespeople to viewing relevant files. Developers can securely access this information using Microsoft Graph’s REST APIs. Client libraries are also available for a variety of languages.  
 
