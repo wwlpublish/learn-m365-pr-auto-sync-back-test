@@ -34,7 +34,7 @@ For configuration service provider (CSP), use the following policies:
 - [Update/ManagePreviewBuilds](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-managepreviewbuilds?azure-portal=true)
 - [Update/BranchReadinessLevel](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-branchreadinesslevel?azure-portal=true)
 
-Validating the preview release on at least 1% of the devices in your organization will help to increase your confidence about the upcoming feature update. You can report any problems you find for free to Microsoft’s customer service representatives or the Feedback Hub so that they are fixed before release.
+Validating the preview release on at least 1% of the devices in your organization will help to increase your confidence about the upcoming feature update. You can report any problems you find for free to Microsoft’s customer service representatives or the Feedback Hub so that they fixed before release.
 
 ### Defer a feature update deployment
 
@@ -72,7 +72,7 @@ The number of groups you have and who is in the various groups will vary by size
 
 :::image type="content" source="../media/3-risk-tolerance.png" alt-text="Risk and tolerance":::
 
-Risk tolerance can also be based upon device type such as airplanes, ATMs, or other machines that cannot be taken offline due to the critical nature of the job they perform. Let’s take a look at an example organization with 54,000 employees running a variety of hardware, apps, etc. in a variety of buildings.
+Risk tolerance can also be based upon device type such as airplanes, ATMs, or other machines that cannot be taken offline due to the critical nature of the job they perform. Let’s take a look at an example organization with 54,000 employees running a variety of hardware, apps, etc. in various buildings.
 
 :::image type="content" source="../media/3-organization-summary-expanded.png" lightbox="../media/3-organization-summary-inline.png" alt-text="Organization summary":::
 

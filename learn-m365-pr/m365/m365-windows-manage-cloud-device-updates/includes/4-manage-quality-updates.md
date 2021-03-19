@@ -4,7 +4,7 @@ In this unit, you'll learn about how to best manage quality updates.
 
 ## Understand quality updates
 
-Microsoft releases quality updates containing security and critical fixes every second Tuesday of each month, and they are cumulative. There are also preview quality updates that release on the third Tuesday of each month, which are optional. By default, security quality updates are automatically deployed to the device as soon as they are released.
+Microsoft releases quality updates containing security and critical fixes every second Tuesday of each month, and they are cumulative. There are also preview quality updates that release on the third Tuesday of each month, which is optional. By default, security quality updates are automatically deployed to the device as soon as they are released.
 
 ### Defer quality updates deployment
 
@@ -14,7 +14,7 @@ We recommend deploying quality updates at different times. To do this, group dev
 - IT Admin Group: zero-day deferral (gets the update the day it is released).
 - Early adopters’ group: two-day deferral (gets the update two days after it is released).
 - Broad phase 1: seven-day deferral (gets the update a week after it is released).
-- Broad phase 2: nine-day deferral (gets the update nine days after it is released).
+- Broad phase 2: nine-day deferral (gets the update nine days after it's released).
 
 #### Select a deferral period in Microsoft Endpoint Manager
 
@@ -31,8 +31,8 @@ You can also use Group Policy to specify deferrals. For example, you can use the
 
 ### Avoid consecutive quality updates
 
-If you pause your updates, adjust your deferrals to avoid consecutive restarts; see the scenario depicted below.
+If you pause your updates, adjust your deferrals to avoid consecutive restarts; see the scenario shown below.
 
 :::image type="content" source="../media/3-consecutive-quality-update-scenario.png" alt-text="Figure 8. Consecutive quality update scenario.":::
 
-In the consecutive quality update scenario (Figure 8), a device has a five-day quality update deferral. The administrator pauses the deployment of the December quality update before the deferral period ends. This means that the December quality update was not offered to the device. Later, Microsoft releases the January quality update. quality update deployment resumes. However, the January quality update is not yet old enough to meet the deferral requirements (it has not been released for five or more days). Therefore, the December quality update is offered to the device. Then, three days later, the January quality update, which now meets the deferral requirements, is offered to the device. This results in two restarts in the period of a single week, which is a poor user experience.
+In the consecutive quality update scenario (Figure 8), a device has a five-day quality update deferral. The administrator pauses the deployment of the December quality update before the deferral period ends. This means that the December quality update wasn't offered to the device. Later, Microsoft releases the January quality update. quality update deployment resumes. However, the January quality update isn't yet old enough to meet the deferral requirements (it hasn't been released for five or more days). Therefore, the December quality update is offered to the device. Then, three days later, the January quality update, which now meets the deferral requirements, is offered to the device. This results in two restarts in the period of a single week, which is a poor user experience.

@@ -33,7 +33,7 @@ Delivery Optimization can significantly reduce the amount of network traffic to 
 Delivery Optimization also offers a feature called *Microsoft Connected Cache*. It allows you to configure a dedicated in-network transparent cache for files requested through Delivery Optimization and works in parallel with peers. By setting up the Connected Cache at the WAN or internet access point, you can minimize file downloads across your WAN or a limited bandwidth internet connection.
 
 - To get started, see the [Set up Delivery Optimization for Windows 10 updates](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization-setup?azure-portal=true).
-- For a comprehensive list of settings to fine tune behaviors, see Delivery Optimization reference.
+- For a comprehensive list of settings to fine-tune behaviors, see Delivery Optimization reference.
 - Learn more about [Microsoft Connected Cache](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization-reference).
 
 ## Manage installations
@@ -41,7 +41,7 @@ Delivery Optimization also offers a feature called *Microsoft Connected Cache*. 
 By default, installation occurs automatically at a time that the Update Orchestrator Service determines is minimally disruptive. However, the following Group Policy controls are available:
 
 - **Group Policy: Configure Automatic Updates** policy
-  - *Require end user action to install updates*. This tells the user to install the update.
+  - *Require end-user action to install updates*. This tells the user to install the update.
   - *Install at a scheduled time*. This installs the update a scheduled time.
 - **Group Policy: Windows Update Power Management to automatically wake up the system to install scheduled updates** policy
 
@@ -49,9 +49,9 @@ By default, installation occurs automatically at a time that the Update Orchestr
 
 The **Configure Automatic Updates** Group Policy controls multiple stages of the update process, such as scheduling the update installation or requiring the user to download or install the update. If misconfigured, this policy can slow the update process. That’s why we recommend leaving this policy as **Not Configured**. The Group Policy path for this policy is **Computer Configuration > Administrative Templates > Windows Components > Windows Update > Configure Automatic Updates**.
 
-#### Require end user action to install updates
+#### Require end-user action to install updates
 
-Configuring **Require end user action to install updates** will prevent the update from installing until the user acts by selecting a notification or going to the Windows Update Settings page.
+Configuring **Require end-user action to install updates** will prevent the update from installing until the user acts by selecting a notification or going to the Windows Update Settings page.
 
 > [!WARNING]
 > If the user takes no action, the update will not install until the deadline you have configured is reached. This policy will likely provide a poor user experience and slow update adoption. Think carefully before configuring.
@@ -65,15 +65,15 @@ Configuring **Schedule install time** means the device only attempts to install 
 
 If you do choose to configure this policy, for the best user experience, which minimizes disturbances and streamlines the update process, we recommend the following:
 
-- Select the option **4 – Auto download and schedule the install**. This allows the update to download and install in the background and only notifies the user once it is time to restart. 
+- Select the option **4 – Auto download and schedule the install**. This allows the update to download and install in the background and only notifies the user once it's time to restart.
 - Set the install time to **Automatic** rather than a specific time to restart. The device will then use the configured restart policies to find the optimal time to schedule the restart (such as when the user is away).
 
-:::image type="content" source="../media/4-configure-automatic-updates.png" alt-text="FIgure 19. Configure Automatic Updates.":::
+:::image type="content" source="../media/4-configure-automatic-updates.png" alt-text="Configure Automatic Updates.":::
 
 The CSP equivalent of the recommended configuration is as follows:
 
 - **Update/AllowAutoUpdate = 2**
-  - 2 = Auto install and restart. Updates are downloaded automatically and installed when the device is not in use.
+  - 2 = Auto install and restart. Updates are downloaded automatically and installed when the device isn't in use.
 - **Update/ScheduledInstallDay = 0**
   - 0 = Every day
 - **Update/ScheduledInstallEveryWeek = 1**
@@ -83,25 +83,25 @@ The CSP equivalent of the recommended configuration is as follows:
 
 |Configuration  |Conflict  |
 |---------|---------|
-|**Configure Automatic Updates** set to **2** OR **3** AND set **Remove access to use all Windows Update features** to **Enabled**. Group Policy Path is:  **Computer Configuration > Administrative Templates > Windows Components > Windows Update > Remove access to use all Windows Update features**|This prevents users from acting on notifications; users cannot download or install the update before a deadline. When the deadline is reached, the update will automatically download and install.|
-|**Configure Automatic Updates** set to **2** OR **3** AND set **Display options for update notifications** to **(2) Disable all notifications including restart notifications.** Group Policy Path is:  **Computer Configuration > Administrative Templates > Windows Components > Windows Update > Display options for update notifications**|The user will not see notifications and, therefore, cannot act without going to the Windows Update Settings page. Users might be less likely to download or install an update before a deadline, at which time the device will be forced to restart.|
+|**Configure Automatic Updates** set to **2** OR **3** AND set **Remove access to use all Windows Update features** to **Enabled**. Group Policy Path is:  **Computer Configuration > Administrative Templates > Windows Components > Windows Update > Remove access to use all Windows Update features**|This prevents users from acting on notifications; users can't download or install the update before a deadline. When the deadline is reached, the update will automatically download and install.|
+|**Configure Automatic Updates** set to **2** OR **3** AND set **Display options for update notifications** to **(2) Disable all notifications including restart notifications.** Group Policy Path is:  **Computer Configuration > Administrative Templates > Windows Components > Windows Update > Display options for update notifications**|The user won't see notifications and, therefore, can't act without going to the Windows Update Settings page. Users might be less likely to download or install an update before a deadline, at which time the device will be forced to restart.|
 
 ### Group Policy: Enabling Windows Update Power Management to automatically wake up the system to install scheduled updates
 
 When a device is plugged in, this Group Policy will wake the system automatically to install scheduled updates.  You can configure this using the **Enabling Windows Update Power Management to automatically wake up the system to install scheduled updates** policy. There is no CSP equivalent.
 
-:::image type="content" source="../media/4-wake-system-expanded.png" lightbox="../media/4-wake-system-inline.png" alt-text="Figure 11. Wake the system to install updates when plugged in.":::
+:::image type="content" source="../media/4-wake-system-expanded.png" lightbox="../media/4-wake-system-inline.png" alt-text="Wake the system to install updates when plugged in.":::
 
 #### Microsoft recommendation
 
-Microsoft recommends that you do not try to install on a specific day or week and allow updates to install automatically; do not configure any policies.
+Microsoft recommends that you don't try to install on a specific day or week and allow updates to install automatically; don't configure any policies.
 
 ## Manage restarts
 
 By default, the device will automatically attempt to restart outside of active hours when the user is away. Active hours are defined as when the device is in use by a user. However, the following Group Policy controls are available:
 
-- **Group Policy: Specify active hours range for auto-restarts.**
-- **Group Policy: Turn off auto-restart for updates during active hours.**
+- **Group Policy: Specify active hours range for auto restarts.**
+- **Group Policy: Turn off auto restart for updates during active hours.**
 - **Group Policy: Update Power Policy for Cart Restarts.**
 
 ### Understand active hours
@@ -118,17 +118,17 @@ With intelligent active hours, Windows configures the active hours based on user
 
 Instead of relying on Intelligent active hours, users can configure their own active hours. The default is 8AM to 5PM.
 
-:::image type="content" source="../media/4-user-configured-active-hours-expanded.png" lightbox="../media/4-user-configured-active-hours-inline.png" alt-text="Figure 12. User-configured active hours.":::
+:::image type="content" source="../media/4-user-configured-active-hours-expanded.png" lightbox="../media/4-user-configured-active-hours-inline.png" alt-text="User-configured active hours.":::
 
 #### Microsoft recommendation
 
-Microsoft recommends that you allow updates to restart automatically outside of active hours. Do not configure any policies or only specify the active hours range.
+Microsoft recommends that you allow updates to restart automatically outside of active hours. Don't configure any policies or only specify the active hours range.
 
-### Group Policy: Specify active hours range for auto-restarts
+### Group Policy: Specify active hours range for auto restarts
 
-Use the  **Specify active hours range for auto-restarts** policy to set the range for auto-restarts.
+Use the  **Specify active hours range for auto restarts** policy to set the range for auto restarts.
 
-:::image type="content" source="../media/4-specify-active-hours-expanded.png" lightbox="../media/4-specify-active-hours-inline.png" alt-text="Figure 13. Specify active hours range for auto-restarts.":::
+:::image type="content" source="../media/4-specify-active-hours-expanded.png" lightbox="../media/4-specify-active-hours-inline.png" alt-text="Specify active hours range for auto restarts.":::
 
 You can enable the policy and configure it for the number of hours you want to allow users to have as a maximum active hours range. The allowed values are between eight and 18 hours; the default is 18 hours. We recommend configuring a maximum range of 12 hours to balance the user’s usage and to ensure enough time to update outside of active hours.
 
@@ -136,13 +136,13 @@ You can enable the policy and configure it for the number of hours you want to a
 
 Microsoft recommends that you do not configure this policy and allow Intelligent active hours to take effect, or allow your users to configure active hours for a better user experience.
 
-### Use an MDM to set the active hours range for auto-restarts
+### Use an MDM to set the active hours range for auto restarts
 
 Alternatively, you can use an MDM to configure the [Update/ActiveHoursMaxRange]( https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update) CSP for the number of hours you want to allow as the maximum active hours range. The allowed range is between eight and 18 hours; 18 is the default.
 
 Microsoft Intune does not currently provide the ability to configure the maximum range for active hours. In Microsoft Intune, you can configure active hours if you set **Automatic update behavior** to **Auto install at maintenance time** or **Auto install and restart at maintenance time**. We recommend that you set **Automatic update behavior** to **Reset to default**. See Figure 13.
 
-:::image type="content" source="../media/4-set-active-hour-range-for-auto-restarts-expanded.png" lightbox="../media/4-set-active-hour-range-for-auto-restarts-inline.png" alt-text="Figure 14. Set active hour range for auto-restarts in Microsoft Intune.":::
+:::image type="content" source="../media/4-set-active-hour-range-for-auto-restarts-expanded.png" lightbox="../media/4-set-active-hour-range-for-auto-restarts-inline.png" alt-text="Set active hour range for auto restarts in Microsoft Intune.":::
 
 > [!WARNING]
 > Configuring the **Turn off auto-restart for updates during active hours** Group Policy will override intelligent active hours or user-configured active hours. When configured, this will remove the active hours setting from the user’s Windows Update Settings page.

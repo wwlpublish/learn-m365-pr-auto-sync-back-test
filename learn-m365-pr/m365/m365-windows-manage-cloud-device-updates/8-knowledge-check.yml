@@ -37,7 +37,7 @@ quiz:
       explanation: This program doesn’t exist.
     - content: You'll join the Windows Insider Program and enable the "Do not connect to any Windows Update Internet locations" Group Policy.
       isCorrect: false
-      explanation: Do not enable that policy. It will stop devices from connecting to Windows Update.
+      explanation: Don't enable that policy. It will stop devices from connecting to Windows Update.
 
  # Question 3
   - content: After configuring your devices, you want to monitor updates in your organization to identify any devices that have encountered an update failure. How will you do this?
@@ -71,10 +71,10 @@ quiz:
     choices:
     - content: Only updates that were approved by the admin (directly or via policy) are offered to the user.
       isCorrect: true
-      explanation: Only updates that the device would have received during its next scan (roughly every 22 hours) would be offered. The end user checking for updates does NOT influence which updates they are offered. That is controlled by admin policy.
+      explanation: Only updates that the device would have received during its next scan (roughly every 22 hours) would be offered. The end-user checking for updates does NOT influence which updates they are offered. That is controlled by admin policy.
     - content: The latest updates available are offered to the user.
       isCorrect: false
       explanation: The user won’t necessarily receive the latest updates. Only updates that were approved by the admin are offered to the device.
-    - content: No updates are offered are offered to the user.
+    - content: No updates are offered to the user.
       isCorrect: false
       explanation: Updates that were approved by the admin are offered to the user’s device.
