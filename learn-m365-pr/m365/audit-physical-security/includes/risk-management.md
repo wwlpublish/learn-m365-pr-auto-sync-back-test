@@ -23,4 +23,4 @@ Microsoft is committed to continuously updating its risk assessments and methodo
 
 ## Learn more
 
-- [Monetary Authority of Singapore (MAS)’s Technology Risk Management Guidelines](https://www.mas.gov.sg/~/media/MAS/Regulations%20and%20Financial%20Stability/Regulatory%20and%20Supervisory%20Framework/Risk%20Management/TRM%20Guidelines%20%2021%20June%202013.pdf?azure-portal=true)
+- [Monetary Authority of Singapore (MAS)’s Technology Risk Management Guidelines](https://www.mas.gov.sg/-/media/MAS/Regulations-and-Financial-Stability/Regulatory-and-Supervisory-Framework/Risk-Management/TRM-Guidelines-18-January-2021.pdf?azure-portal=true)
