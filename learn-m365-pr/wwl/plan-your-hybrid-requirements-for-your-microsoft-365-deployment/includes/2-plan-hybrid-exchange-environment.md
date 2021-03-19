@@ -18,90 +18,90 @@ Implementing the changes outlined in these considerations will result in the fol
 
 :::row:::
   :::column:::
-    <p><b>Configuration </b></p>
+    <b>Configuration </b>
   :::column-end:::
   :::column:::
-    <p><b>Before hybrid deployment </b></p>
+    <b>Before hybrid deployment </b>
   :::column-end:::
   :::column:::
-    <p><b>After hybrid deployment </b></p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p>Mailbox location</p>
-  :::column-end:::
-  :::column:::
-    <p>Mailboxes on-premises only.</p>
-  :::column-end:::
-  :::column:::
-    <p>Mailboxes on-premises and in Microsoft 365.</p>
+    <b>After hybrid deployment </b>
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>Message transport</p>
+    Mailbox location
   :::column-end:::
   :::column:::
-    <p>On-premises Mailbox servers handle all inbound and outbound message routing.</p>
+    Mailboxes on-premises only.
   :::column-end:::
   :::column:::
-    <p>On-premises Mailbox servers handle internal message routing between the on-premises and Microsoft 365 organization.</p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p>Outlook on the web</p>
-  :::column-end:::
-  :::column:::
-    <p>On-premises Mailbox servers receive all Outlook on the web requests and displays mailbox information.</p>
-  :::column-end:::
-  :::column:::
-    <p>On-premises Mailbox servers redirect Outlook on the web requests to either on-premises Exchange 2016 Mailbox servers or provides a link to sign into Microsoft 365.</p>
+    Mailboxes on-premises and in Microsoft 365.
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>Unified GAL for both organizations</p>
+    Message transport
   :::column-end:::
   :::column:::
-    <p>Not applicable; single organization only.</p>
+    On-premises Mailbox servers handle all inbound and outbound message routing.
   :::column-end:::
   :::column:::
-    <p>On-premises Active Directory synchronization server replicates Active Directory information for mail-enabled objects to Microsoft 365.</p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p>Single-sign on used for both organizations</p>
-  :::column-end:::
-  :::column:::
-    <p>Not applicable; single organization only.</p>
-  :::column-end:::
-  :::column:::
-    <p>On-premises Active Directory and Microsoft 365 use the same username and password for mailboxes located either on-premises or in Microsoft 365.</p>
+    On-premises Mailbox servers handle internal message routing between the on-premises and Microsoft 365 organization.
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>Organization relationship established and a federation trust with Azure AD authentication system</p>
+    Outlook on the web
   :::column-end:::
   :::column:::
-    <p>Trust relationship with the Azure AD authentication system and organization relationships with other federated Exchange organizations may be configured.</p>
+    On-premises Mailbox servers receive all Outlook on the web requests and displays mailbox information.
   :::column-end:::
   :::column:::
-    <p>Trust relationship with the Azure AD authentication system is required. Organization relationships are established between the on-premises and Microsoft 365.</p>
+    On-premises Mailbox servers redirect Outlook on the web requests to either on-premises Exchange 2016 Mailbox servers or provides a link to sign into Microsoft 365.
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>Free/busy sharing</p>
+    Unified GAL for both organizations
   :::column-end:::
   :::column:::
-    <p>Free/busy sharing between on-premises users only.</p>
+    Not applicable; single organization only.
   :::column-end:::
   :::column:::
-    <p>Free/busy sharing between both on-premises and Microsoft 365 users.</p>
+    On-premises Active Directory synchronization server replicates Active Directory information for mail-enabled objects to Microsoft 365.
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    Single-sign on used for both organizations
+  :::column-end:::
+  :::column:::
+    Not applicable; single organization only.
+  :::column-end:::
+  :::column:::
+    On-premises Active Directory and Microsoft 365 use the same username and password for mailboxes located either on-premises or in Microsoft 365.
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    Organization relationship established and a federation trust with Azure AD authentication system
+  :::column-end:::
+  :::column:::
+    Trust relationship with the Azure AD authentication system and organization relationships with other federated Exchange organizations may be configured.
+  :::column-end:::
+  :::column:::
+    Trust relationship with the Azure AD authentication system is required. Organization relationships are established between the on-premises and Microsoft 365.
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    Free/busy sharing
+  :::column-end:::
+  :::column:::
+    Free/busy sharing between on-premises users only.
+  :::column-end:::
+  :::column:::
+    Free/busy sharing between both on-premises and Microsoft 365 users.
   :::column-end:::
 :::row-end:::
 

@@ -71,11 +71,11 @@ Customers with deployments of Skype for Business in multiple forests must first 
 
 In addition to the port requirements for internal communication, you must also configure the following ports to enable hybrid connectivity:
 
-    | <p><b>Protocol</b></p> | <p><b>TCP or UDP</b></p> | <p><b>Source IP</b></p> | <p><b>Destination IP</b></p> | <p><b>Source Port</b></p> | <p><b>Destination Port</b></p> | <p><b>Notes</b></p>                                        |
+    | <b>Protocol</b> | <b>TCP or UDP</b> | <b>Source IP</b> | <b>Destination IP</b> | <b>Source Port</b> | <b>Destination Port</b> | <b>Notes</b>                                        |
     |:----------------------:|:------------------------:|:-----------------------:|:----------------------------:|:-------------------------:|:------------------------------:|:---------------------------------------------------------- |
-    |   <p>SIP (MTLS)</p>    |        <p>TCP</p>        |   <p>Access Edge</p>    |     <p>Microsoft 365</p>     |        <p>Any</p>         |          <p>5061</p>           | <p>Signaling</p>                                           |
-    |   <p>SIP (MTLS)</p>    |        <p>TCP</p>        |  <p>Microsoft 365</p>   |      <p>Access Edge</p>      |        <p>Any</p>         |          <p>5061</p>           | <p>Signaling</p>                                           |
-    |      <p>STUN</p>       |        <p>TCP</p>        |     <p>A/V Edge</p>     |     <p>Microsoft 365</p>     |    <p>50000-59999</p>     |           <p>443</p>           | <p>Open for audio, video, application sharing sessions</p> |
-    |      <p>STUN</p>       |        <p>TCP</p>        |  <p>Microsoft 365</p>   |       <p>A/V Edge</p>        |    <p>50000-59999</p>     |           <p>443</p>           | <p>Open for audio, video, application sharing sessions</p> |
-    |      <p>STUN</p>       |        <p>UDP</p>        |     <p>A/V Edge</p>     |     <p>Microsoft 365</p>     |        <p>3478</p>        |          <p>3478</p>           | <p>Open for audio, video sessions</p>                      |
-    |      <p>STUN</p>       |        <p>UDP</p>        |  <p>Microsoft 365</p>   |       <p>A/V Edge</p>        |        <p>3478</p>        |          <p>3478</p>           | <p>Open for audio, video sessions</p>                      |
+    |   SIP (MTLS)    |        TCP        |   Access Edge    |     Microsoft 365     |        Any         |          5061           | Signaling                                           |
+    |   SIP (MTLS)    |        TCP        |  Microsoft 365   |      Access Edge      |        Any         |          5061           | Signaling                                           |
+    |      STUN       |        TCP        |     A/V Edge     |     Microsoft 365     |    50000-59999     |           443           | Open for audio, video, application sharing sessions |
+    |      STUN       |        TCP        |  Microsoft 365   |       A/V Edge        |    50000-59999     |           443           | Open for audio, video, application sharing sessions |
+    |      STUN       |        UDP        |     A/V Edge     |     Microsoft 365     |        3478        |          3478           | Open for audio, video sessions                      |
+    |      STUN       |        UDP        |  Microsoft 365   |       A/V Edge        |        3478        |          3478           | Open for audio, video sessions                      |
