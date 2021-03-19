@@ -1,4 +1,4 @@
-There are several features in Microsoft Teams that help you facilitate better meetings and be a better meeting participant. In this unit, you'll learn how to show your screen during a meeting, work in Teams during a meeting, use live captions, and use whiteboard during meetings.<br>
+There are several features in Microsoft Teams that help you facilitate better meetings and be a better meeting participant. In this unit, you'll learn how to show your screen during a meeting, work in Teams during a meeting, use live captions, and use whiteboard during meetings.
 
 The following video provides an overview of Teams meeting features you can use to improve Teams meetings:
 
@@ -10,28 +10,31 @@ In Microsoft Teams, you can show your desktop, a specific app, presentation, or 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2MK6J]
 
-1.  Select **Share** :::image type="content" source="../media/share-screen-button.png" alt-text="share content button during meeting":::
-     .
-2.  Select what you want to share:
-    
-     *  **Desktop** lets you show everything on your screen.
-     *  **Window** lets you show a specific app.
-     *  **PowerPoint** lets you show a presentation.
-     *  **Browse** lets you find the file you want to show.
-3.  After you select what you want to show, a red border surrounds what you're sharing.
-4.  Select **Stop sharing** to stop showing your screen.
+1. Select **Share** :::image type="content" source="../media/share-screen-button.png" alt-text="share content button during meeting":::.
+
+2. Select what you want to share:
+
+    * **Desktop** lets you show everything on your screen.
+    * **Window** lets you show a specific app.
+    * **PowerPoint** lets you show a presentation.
+    * **Browse** lets you find the file you want to show.
+
+3. After you select what you want to show, a red border surrounds what you're sharing.
+
+4. Select **Stop sharing** to stop showing your screen.
 
 > [!NOTE]
-> Linux users won't see the red border surrounding what they are sharing. Also, window sharing isn't available for Linux users.<br>
+> Linux users won't see the red border surrounding what they are sharing. Also, window sharing isn't available for Linux users.
 
 ## Keep working during a meeting
 
-In Microsoft Teams, you can keep working even while you're in a meeting.<br>
+In Microsoft Teams, you can keep working even while you're in a meeting.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2MPhE]
 
-1.  While in a meeting, select outside the meeting. For example, reply to a message or check the latest activity. The meeting window becomes a smaller window at the top of the app.
-2.  Select the smaller meeting window to make it full screen again.
+1. While in a meeting, select outside the meeting. For example, reply to a message or check the latest activity. The meeting window becomes a smaller window at the top of the app.
+
+2. Select the smaller meeting window to make it full screen again.
 
 > [!NOTE]
 > You always have access to the meeting controls, like muting or unmuting your microphone.
@@ -42,11 +45,10 @@ Teams can detect what’s said in a meeting and present real-time captions. And,
 
 :::image type="content" source="../media/captions-during-meeting.png" alt-text="captions displayed at the bottom of the screen":::
 
-
 > [!NOTE]
 > Captions are only available in English (US) for now.
 
-Live captions can make your meeting more inclusive to participants who are deaf or hard-of-hearing, people with different levels of language proficiency, and participants in loud places by giving them another way to follow along.<br>
+Live captions can make your meeting more inclusive to participants who are deaf or hard-of-hearing, people with different levels of language proficiency, and participants in loud places by giving them another way to follow along.
 
 > [!NOTE]
 > Teams doesn't save captions.
@@ -58,17 +60,16 @@ To use live captions in a meeting, go to your meeting controls and select **More
 
 :::image type="content" source="../media/captions-on-off.png" alt-text="The option to turn live captions on in a meeting's call controls":::
 
-
 To stop using live captions, go to the meeting controls and select **More options :::image type="content" source="../media/more-options-button.png" alt-text="more options ellipse button":::
 &gt; Turn off live captions**.
 
-### Get the most out of your captions<br>
+### Get the most out of your captions
 
 To make sure your live captions are as accurate as possible, try to follow these best practices:
 
- *  Speak clearly, slowly, and directly into the mic. As your distance from the mic increases, captions may become less accurate.
- *  Avoid locations with background noise.
- *  Avoid having multiple people speak at the same time.
+* Speak clearly, slowly, and directly into the mic. As your distance from the mic increases, captions may become less accurate.
+* Avoid locations with background noise.
+* Avoid having multiple people speak at the same time.
 
 ## Raise your hand
 
@@ -79,7 +80,6 @@ Just select **Show reactions** :::image type="content" source="../media/live-rea
  . Everyone in the meeting will see that you've got your hand up.
 
 :::image type="content" source="../media/raise-your-hand-flyout.png" alt-text="Raise your hand menu with flyout options":::
-
 
 Meeting presenters will also receive a notification that your hand is raised. In meetings where attendees can't unmute themselves, a presenter can then allow you to unmute.
 
@@ -101,8 +101,9 @@ Whiteboard integration in Microsoft Teams meetings is powered by Whiteboard for 
 
 You can share a whiteboard to make it available to all participants in a Teams meeting. That same whiteboard is simultaneously available in the Whiteboard applications on Windows 10, iOS, and on the web.
 
-1.  After joining a Teams meeting, click the **Share** icon in the share tray of that meeting.
-2.  In the **Whiteboard** section, select **Microsoft Whiteboard**.
+1. After joining a Teams meeting, click the **Share** icon in the share tray of that meeting.
+
+2. In the **Whiteboard** section, select **Microsoft Whiteboard**.
 
 > [!NOTE]
 > The ability to start a new whiteboard is currently limited to the Microsoft Teams clients on Windows 10, macOS, and for the web. The Teams apps for iOS and Android cannot initiate sharing a whiteboard, but they can collaborate once a whiteboard is shared.
@@ -145,4 +146,4 @@ We will provide additional information to customers when this becomes available.
 
 ### How can I enable Microsoft Whiteboard in Teams meetings for my organization?
 
-Whiteboard is automatically enabled for applicable Microsoft 365 tenants and customers are able to use Whiteboard in Teams meetings with the Microsoft Teams clients on Windows 10, Mac, iOS, Android, and on the web. If Whiteboard is not available for you in Teams, contact your organization’s Microsoft 365 administrator. See [Enable Microsoft Whiteboard for your organization](https://go.microsoft.com/fwlink/?linkid=2084066?azure-portal=true) for detailed instructions for administrators.<br>
+Whiteboard is automatically enabled for applicable Microsoft 365 tenants and customers are able to use Whiteboard in Teams meetings with the Microsoft Teams clients on Windows 10, Mac, iOS, Android, and on the web. If Whiteboard is not available for you in Teams, contact your organization’s Microsoft 365 administrator. See [Enable Microsoft Whiteboard for your organization](https://go.microsoft.com/fwlink/?linkid=2084066?azure-portal=true) for detailed instructions for administrators.
