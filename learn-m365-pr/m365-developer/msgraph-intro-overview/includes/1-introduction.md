@@ -29,4 +29,4 @@ You have also proposed that information about the sales organization should be i
 
 :::image type="content" source="../media/1-sales-app.png" alt-text="Sales application overview":::
 
-Fortunately, Microsoft Graph provides a single endpoint that can be used by the app to connect to the required data and simplify the overall development process. 
+Microsoft Graph provides a single endpoint that can be used by the app to access the required data and simplify the overall development process. 
