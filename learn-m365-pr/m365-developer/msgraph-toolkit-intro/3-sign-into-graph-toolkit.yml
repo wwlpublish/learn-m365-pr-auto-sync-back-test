@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.mgt-intro.3-sign-in-app
+metadata:
+  title: Sign in to your app using Microsoft Graph Toolkit login component
+  description: Learn how to use the login component to sign into your app.
+  ms.date: 02/02/2021
+  author: rabwill
+  ms.author: rwilliams
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Sign in your app using Microsoft Graph Toolkit login component
+durationInMinutes: 1
+content: |
+  [!include[](includes/3-sign-in-app.md)]

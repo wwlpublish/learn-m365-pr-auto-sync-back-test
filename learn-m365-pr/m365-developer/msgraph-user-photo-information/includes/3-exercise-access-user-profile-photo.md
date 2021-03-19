@@ -4,15 +4,16 @@ To successfully complete this unit, you'll need a user account (from your Micros
 
 In this exercise, you'll clone a GitHub repository, add Azure Active Directory IDs into the app, and add code to access a photo using Microsoft Graph. If you haven't created an Azure Active Directory app registration yet, complete the prerequisite module before continuing.
 
-1. Open a terminal window on your computer and go to the folder where you want to clone the app.
-1. Clone the GitHub repository to your computer using the following command.
- 	
+1. Open a terminal window on your computer and go to the folder where you want to save the app.
+1. To get the source code, visit [https://github.com/MicrosoftDocs/mslearn-retrieve-m365-data-with-msgraph-quickstart](https://github.com/MicrosoftDocs/mslearn-retrieve-m365-data-with-msgraph-quickstart) and choose from one of the following options:
+    - If you use **git**, clone the project using the git clone command as below:
+    
     ```powershell
-       git clone https://github.com/MicrosoftDocs/mslearn-retrieve-m365-data-with-msgraph-quickstart.git 
-     ```
-
-1. Open the cloned **mslearn-retrieve-m365-data-with-msgraph-quickstart** folder in your favorite editor.
-
+    git clone https://github.com/MicrosoftDocs/mslearn-retrieve-m365-data-with-msgraph-quickstart.git
+    ```
+    
+    - If you don't use **git**,  select the **Code** button followed by **Download ZIP**. Extract the ZIP file to your machine.
+1. Open the downloaded or cloned project's root folder **mslearn-retrieve-m365-data-with-msgraph-quickstart** in your favorite editor.
 1. The application contains the following files:
 
     - **index.html** - Defines the user interface displayed to an end user when they access the website. It loads the MSAL script and custom application scripts, provides a way for a user to login, and displays the user's name after they login.
@@ -21,8 +22,8 @@ In this exercise, you'll clone a GitHub repository, add Azure Active Directory I
     - **ui.js** - Handles user interface elements defined in **index.html**.
     
 1. Open the **auth.js** file, locate the constant `msalConfig` on line 4
-1. Replace the value of the clientId property with the copied **Application (client) ID** from the Azure AD application (spa-aad-app) which was registered earlier. You can get this from the overview page of the Azure AD application (spa-aad-app).
-1. In the same **auth.js** file, locate the authority property on line 6 and replace the <your directory ID here> value with the **Directory (tenant) ID** of the Azure AD application (spa-aad-app) that was registered earlier. You can get this from the overview page of the Azure AD application (spa-aad-app).
+1. Replace the value of the clientId property with the copied **Application (client) ID** from the Azure AD application (spa-aad-app) which was registered in the previous module **Configure a JavaScript application to retrieve Microsoft 365 data using Microsoft Graph**. You can get this from the overview page of the Azure AD application (spa-aad-app).
+1. In the same **auth.js** file, locate the authority property on line 6 and replace the \<your directory ID here> value with the **Directory (tenant) ID** of the Azure AD application (spa-aad-app) that was registered in the previous module **Configure a JavaScript application to retrieve Microsoft 365 data using Microsoft Graph**. You can get this from the overview page of the Azure AD application (spa-aad-app).
 1. Open the **index.html** file and add the following code immediately under the welcome message in the body to create a button and image element.
 
     ```html

@@ -23,11 +23,10 @@ The sales application will support assigning a given customer to a salesperson a
 - Meetings attended
 - Notes
 - Key contacts 
-
-Files related to a customer that may be useful during interactions and presentations 
+- Files related to a customer that may be useful during interactions and presentations 
 
 You have also proposed that information about the sales organization should be integrated into the app. Integrating data will make it easier for salespeople to find help as they prepare for and join customer calls. 
 
 :::image type="content" source="../media/1-sales-app.png" alt-text="Sales application overview":::
 
-Although you can write custom code to access the organizational information required by the app, Microsoft Graph provides a unified programmability model. It offers a single endpoint that can be used to connect to data and simplify the overall development process. 
+Microsoft Graph provides a single endpoint that can be used by the app to access the required data and simplify the overall development process. 
