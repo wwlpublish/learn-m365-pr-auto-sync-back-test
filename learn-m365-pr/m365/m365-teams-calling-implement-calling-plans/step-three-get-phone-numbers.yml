@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.teams-calling-implement-calling-plans.step-three-get-phone-numbers
+metadata:
+  title: Step 3 - Get phone numbers
+  description: Learn how to get new phone numbers for your users. In addition you will learn how to port over existing numbers.
+  ms.date: 02/12/2021
+  author: iankensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Step 3 - Get phone numbers
+durationInMinutes: 18
+content: |
+  [!include[](includes/step-three-get-phone-numbers.md)]
