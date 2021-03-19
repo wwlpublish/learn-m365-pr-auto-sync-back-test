@@ -1,4 +1,4 @@
-You know from experience that users can become frustrated with the update process if it negatively affects their day-to-day work. You want to ensure that your users have a positive experience with all updates. You can control which options you want to give to users so they can decide when to install an update. You can choose whether you want to allow users to pause updates, specify active hours for auto-restarts, download updates over metered connections, and more.
+You know from experience that users can become frustrated with the update process if it negatively affects their day-to-day work. You want to ensure that your users have a positive experience with all updates. You can control which options you want to give to users so they can decide when to install an update. You can choose whether you want to allow users to pause updates, specify active hours for auto restarts, download updates over metered connections, and more.
 
 In this unit, you’ll learn about how to control the user experience after a user’s device receives an update.
 
@@ -11,12 +11,12 @@ The Windows Update Settings page is where users can control things like active h
 The following controls are available to control update options for users:
 
 - **Pause**
--**Remove access to windows update features**
+- **Remove access to windows update features**
 
 Configuring the following will affect user Group Policy controls on the Windows Update Settings page as follows:
 
--**Specify active hours range for auto-restarts**; this will remove the user’s ability to configure active hours from the Windows Update Settings page.
--**Allow download automatically over a metered network** will make **Receive updates for other Microsoft products when you update Windows** unavailable.
+- **Specify active hours range for auto restarts**; this will remove the user’s ability to configure active hours from the Windows Update Settings page.
+- **Allow download automatically over a metered network** will make **Receive updates for other Microsoft products when you update Windows** unavailable.
 
 ### Group Policy: Remove access to "Pause updates" feature
 
@@ -32,13 +32,13 @@ Alternatively, you can use set the **Option to pause Windows updates** to **Disa
 
 ### Microsoft recommendation
 
-For the best experience, Microsoft recommends that you do not remove the user’s ability to use Windows Update Settings features.
+For the best experience, Microsoft recommends that you don't remove the user’s ability to use Windows Update Settings features.
 
 ## Try it – Restrict access
 
 In your pursuit of ensuring that all devices receive updates according to a set schedule, you might be tempted to prevent user from checking for Windows updates. However, in the click-through demonstration below, you'll see that this can negatively affect the user experience.
 
-For the purpose of this demonstration, we will configure the setting in Local Group Policy, to mirror the effect of what would result if you had set this configuration with your preferred management tooling.
+For the purpose of this demonstration, we'll configure the setting in Local Group Policy, to mirror the effect of what would result if you had set this configuration with your preferred management tooling.
 
 Click on the image below to get started.
 

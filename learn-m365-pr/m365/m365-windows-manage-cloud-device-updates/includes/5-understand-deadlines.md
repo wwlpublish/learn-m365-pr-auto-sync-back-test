@@ -9,7 +9,7 @@ We provide the following deadline controls:
 
 - Compliance deadline (recommended).
 - Engaged restart deadline.
-- Specify deadline before auto-restart for update installations.
+- Specify deadline before auto restart for update installations.
 
 We only recommend compliance deadline for devices running Windows 10, version 1803 and above. The other two deadline types are best for devices running Windows 10, version 1709 and below.
 
@@ -64,17 +64,17 @@ The deadline starts to count down from the time the update is offered; the grace
 
 #### Understand deadlines and deployment policies
 
-Deadlines work in coordination with your pause and deferral settings. For example, if you set a quality update deadline of two days and a quality update deferral of seven days, users will not receive the quality update until day seven. The deadline will not force restart until day nine.
+Deadlines work in coordination with your pause and deferral settings. For example, if you set a quality update deadline of two days and a quality update deferral of seven days, users won't receive the quality update until day seven. The deadline won't force restart until day nine.
 
 |Deadline  |Deferral  |User experience  |Result  |
 |---------|---------|---------|---------|
 |Two days |Seven days|Receives update on day seven.|Forced restart on day nine.|
 
-Similarly, if you (or the user) pause quality updates, the deadline will not begin until after the pause has elapsed and a quality update is offered to the device. For example, if a user pauses all updates for seven days and the quality update deadline is set to two days, as soon as the pause period is over on day seven, the deadline begins and the device will immediately download, install, and restart to complete the update.
+Similarly, if you (or the user) pause quality updates, the deadline won't begin until after the pause has elapsed and a quality update is offered to the device. For example, if a user pauses all updates for seven days and the quality update deadline is set to two days, as soon as the pause period is over on day seven, the deadline begins and the device will immediately download, install, and restart to complete the update.
 
 |Pause  |Deadline  |Deferral  |User experience  |Result  |
 |---------|---------|---------|---------|---------|
-|Seven days|Two days|Not applicable|Receives the quality update on day eight. |Forced to install and restart on day ten.|
+|Seven days|Two days|Not applicable|Receives the quality update on day eight. |Forced to install and restart on day 10.|
 
 > [!NOTE]
 > We recommend that you allow the compliance policy and configure it as described in Compliance deadlines.
@@ -83,6 +83,6 @@ Additionally, set **Auto reboot before deadline** to **Yes**. This allows a devi
 
 ## Try it – Deploy updates in the cloud
 
-The following interactive click-through will help you bring together what you've learned so far, and demonstrate how you can deploy updates using Microsoft's recommended values for Windows 10 update management in Microsoft Intune. Click on the image below to get started.
+The following interactive click-through will help you bring together what you've learned so far, and demonstrate how you can deploy updates using Microsoft's recommended values for Windows 10 update management in Microsoft Intune. Select the image below to get started.
 
 [![Interactive guide](../media/5-interactive-guide.png)](https://edxinteractivepage.blob.core.windows.net/edxpages/cloud-managed-devices-learning-module/Deploy-updates-for-Windows-10-using-Microsoft-Intune/index.html?azure-portal=true)
