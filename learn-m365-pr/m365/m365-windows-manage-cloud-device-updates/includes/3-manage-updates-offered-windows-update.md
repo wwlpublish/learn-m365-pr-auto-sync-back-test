@@ -2,7 +2,7 @@ Windows Update offers different types of updates, including feature updates and 
 
 In this unit, you’ll learn about how to manage which updates are offered from Windows Update.
 
-## Feature updates
+## Understand feature updates
 
 Every six months, Microsoft releases a new feature update. By default, a device is not offered a feature update until the user looks for it (using the **Check for updates** option) on the Windows Update Settings page.
 
@@ -25,7 +25,7 @@ Additionally, if the feature update version the device is on is close to its end
 ### Get access to pre-release feature updates
 
 In addition to deploying a specific feature update, you can validate upcoming feature updates by enrolling some devices for Release Preview. To do this, you must first join the [Windows Insider Program for Business](https://insider.windows.com/for-business?azure-portal=true); also see [Get started with the Windows Insider Program](https://docs.microsoft.com/windows-insider/get-started?azure-portal=true). This will give you early access to the addressed issues and features that will be released soon. To receive the latest feature update before it’s generally available, configure the following:
-For Group Policy (GP), enable the **Manage preview builds** policy and specify when to receive preview builds and feature updates.
+For Group Policy, enable the **Manage preview builds** policy and specify when to receive preview builds and feature updates.
 
 :::image type="content" source="../media/3-manage-preview-builds-expanded.png" lightbox="../media/3-manage-preview-builds-inline.png" alt-text="Figure 4. Manage preview builds.":::
 
@@ -46,16 +46,16 @@ To configure deferrals:
 
 :::image type="content" source="../media/3-choose-deferral-expanded.png" lightbox="../media/3-choose-deferral-inline.png" alt-text="Figure 5. Choose feature update deferral period in MEM.":::
 
->[!warning]
+>[!WARNING]
 >Ensure that you are not configuring Target Release Version (Feature Update Preview) and Feature Update Deferrals. If you do, you will not deploy the version you specified until you reach the number of deferral days.
 
 ## Control driver updates
 
 By default, driver updates automatically deploy to devices; we recommend that you leave automatic driver update deployment turned on. However, you can turn them off in one of the following ways:
 
-- Group Policy: Enable the **Do not include drivers with Windows Quality Updates** policy.
+- Group Policy: Enable the **Do not include drivers with Windows quality updates** policy.
 
-    :::image type="content" source="../media/3-turn-off-driver-updates-through-group-policy-expanded.png" lightbox="../media/3-turn-off-driver-updates-through-group-policy-inline.png" alt-text="Figure 9. Turn off driver updates using a GP.":::
+    :::image type="content" source="../media/3-turn-off-driver-updates-through-group-policy-expanded.png" lightbox="../media/3-turn-off-driver-updates-through-group-policy-inline.png" alt-text="Figure 9. Turn off driver updates using a Group Policy.":::
 
 - CSP: Configure the [Update/ExcludeWUDriversInQualityUpdate](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update) policy.
 
@@ -82,4 +82,4 @@ Risk tolerance can also be based upon device type such as airplanes, ATMs, or ot
 - **Pink, Purple**: The broad deployment waves.
 
 > [!NOTE]
-> For Quality updates you may need fewer groups. For example, you may want to combine the early adopters and broad wave.
+> For quality updates you may need fewer groups. For example, you may want to combine the early adopters and broad wave.

@@ -2,7 +2,7 @@ You know from experience that users can become frustrated with the update proces
 
 In this unit, you’ll learn about how to control the user experience after a user’s device receives an update.
 
-## Windows Update settings page
+## Control the Windows Update settings page
 
 The Windows Update Settings page is where users can control things like active hours, see their update history, and more. You can control which options are visible to users on this page.
 
@@ -18,11 +18,11 @@ Configuring the following will affect user Group Policy controls on the Windows 
 -**Specify active hours range for auto-restarts**; this will remove the user’s ability to configure active hours from the Windows Update Settings page.
 -**Allow download automatically over a metered network** will make **Receive updates for other Microsoft products when you update Windows** unavailable.
 
-### Group Policy (GP): Remove access to "Pause updates" feature
+### Group Policy: Remove access to "Pause updates" feature
 
 You can use the **Remove access to "Pause updates" feature** Group Policy to prevent users from being able to pause updates:
 
-:::image type="content" source="../media/5-gp-prevent-users-pause-updates-expanded.png" lightbox="../media/5-gp-prevent-users-pause-updates-inline.png" alt-text="Figure 17. Prevent users from pausing updates using a GP.":::
+:::image type="content" source="../media/5-gp-prevent-users-pause-updates-expanded.png" lightbox="../media/5-gp-prevent-users-pause-updates-inline.png" alt-text="Figure 17. Prevent users from pausing updates using a Group Policy.":::
 
 ### Use an MDM to prevent users from pausing updates
 
@@ -34,7 +34,7 @@ Alternatively, you can use set the **Option to pause Windows updates** to **Disa
 
 For the best experience, Microsoft recommends that you do not remove the user’s ability to use Windows Update Settings features.
 
-## Interactive guide
+## Try it – Restrict access
 
 In your pursuit of ensuring that all devices receive updates according to a set schedule, you might be tempted to prevent user from checking for Windows updates. However, in the click-through demonstration below, you'll see that this can negatively affect the user experience.
 

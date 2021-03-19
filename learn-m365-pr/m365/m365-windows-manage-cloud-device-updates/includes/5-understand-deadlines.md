@@ -3,7 +3,7 @@ You can use deadlines to make sure that devices are migrated to newer versions o
 
 In this unit, you'll learn about deadlines and how to configure them.
 
-## Deadlines
+## Use deadline controls
 
 We provide the following deadline controls:
 
@@ -13,11 +13,11 @@ We provide the following deadline controls:
 
 We only recommend compliance deadline for devices running Windows 10, version 1803 and above. The other two deadline types are best for devices running Windows 10, version 1709 and below.
 
-### Compliance deadlines
+### Use compliance deadlines
 
 There are different ways you can configure compliance deadlines:
 
-#### GP: Specify deadlines for automatic updates and restarts
+#### Group Policy: Specify deadlines for automatic updates and restarts
 
 Enable the **Specify deadlines for automatic updates and restarts** Group Policy and configure as follows:
 
@@ -43,7 +43,7 @@ Microsoft Intune has only implemented the compliance deadline policy.
 
 :::image type="content" source="../media/4-compliance-deadline-settings-expanded.png" lightbox="../media/4-compliance-deadline-settings-inline.png" alt-text="Figure 15. Microsoft Intune compliance deadline settings.":::
 
-#### Compliance deadline behavior for feature updates
+#### Understand the compliance deadline behavior for feature updates
 
 The deadline and grace periods begin their countdowns from the time of the pending restart. The device:
 
@@ -52,7 +52,7 @@ The deadline and grace periods begin their countdowns from the time of the pendi
 - Attempts to update during active hours.
 - Forces a restart once the deadline countdown reaches 0.
 
-#### Compliance deadline behavior for quality updates
+#### Understand the compliance deadline behavior for quality updates
 
 The deadline starts to count down from the time the update is offered; the grace period starts to count down from the time of the pending restart. The device:
 
@@ -62,7 +62,7 @@ The deadline starts to count down from the time the update is offered; the grace
 - Attempts to update during active hours when it reaches the effective deadline (calculated as quality update deployment date + deadline, reboot pending date + grace period).
 - Forces a restart when the deadline has passed.
 
-#### Deadlines and deployment policies
+#### Understand deadlines and deployment policies
 
 Deadlines work in coordination with your pause and deferral settings. For example, if you set a quality update deadline of two days and a quality update deferral of seven days, users will not receive the quality update until day seven. The deadline will not force restart until day nine.
 
@@ -81,7 +81,7 @@ Similarly, if you (or the user) pause quality updates, the deadline will not beg
 
 Additionally, set **Auto reboot before deadline** to **Yes**. This allows a device to automatically restart overnight, which provides a better user experience and improves compliance.
 
-## Interactive guide
+## Try it – Deploy updates in the cloud
 
 The following interactive click-through will help you bring together what you've learned so far, and demonstrate how you can deploy updates using Microsoft's recommended values for Windows 10 update management in Microsoft Intune. Click on the image below to get started.
 
