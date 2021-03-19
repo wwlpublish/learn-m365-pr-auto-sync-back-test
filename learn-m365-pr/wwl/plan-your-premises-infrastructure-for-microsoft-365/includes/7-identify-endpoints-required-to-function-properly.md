@@ -6,214 +6,214 @@ The **Row** column identifies whether there's a specific subnet you must use if 
 
 :::row:::
   :::column:::
-    <p><b>Row</b></p>
+    <b>Row</b>
   :::column-end:::
   :::column:::
-    <p><b>Purpose / Destination</b></p>
+    <b>Purpose / Destination</b>
   :::column-end:::
   :::column:::
-    <p><b>ExpressRoute for Microsoft 365 BGP Communities</b></p>
+    <b>ExpressRoute for Microsoft 365 BGP Communities</b>
   :::column-end:::
   :::column:::
-    <p><b>CIDR Address</b></p>
+    <b>CIDR Address</b>
   :::column-end:::
   :::column:::
-    <p><b>Port</b></p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p>1</p>
-  :::column-end:::
-  :::column:::
-    <p><b>Required:</b> Internet egress and DNS resolution as close to the user as possible. Ensure public resources such as certificate revocation lists are accessible.<br></p>  <p><b>Destination<u>:</u></b> Microsoft 365 uses many different certificate providers. See the <a href="https://support.office.com/article/Office-365-Certificate-Chains-0c03e6b3-e73f-4316-9e2b-bf4091ae96bb?azure-portal=true">Office 365 Certificate Chains</a> site for the complete list of known Microsoft 365 root certificates that customers may come across when accessing Microsoft 365.</p>
-  :::column-end:::
-  :::column:::
-    <p>No</p>
-  :::column-end:::
-  :::column:::
-    <p>N/A</p>
-  :::column-end:::
-  :::column:::
-    <p>TCP 80 and 443</p>
+    <b>Port</b>
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>2</p>
+    1
   :::column-end:::
   :::column:::
-    <p><b>Required:</b> Microsoft 365 portal<br></p>  <p><b>Destination:</b><br></p>  <p>*.office365.com<br></p>  <p>admin.microsoft.com</p>
+    <b>Required:</b> Internet egress and DNS resolution as close to the user as possible. Ensure public resources such as certificate revocation lists are accessible.<br>  <b>Destination<u>:</u></b> Microsoft 365 uses many different certificate providers. See the <a href="https://support.office.com/article/Office-365-Certificate-Chains-0c03e6b3-e73f-4316-9e2b-bf4091ae96bb?azure-portal=true">Office 365 Certificate Chains</a> site for the complete list of known Microsoft 365 root certificates that customers may come across when accessing Microsoft 365.
   :::column-end:::
   :::column:::
-    <p>No</p>
+    No
   :::column-end:::
   :::column:::
-    <p><a href="https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_portal_ip?azure-portal=true">portal and shared IP ranges</a></p>
+    N/A
   :::column-end:::
   :::column:::
-    <p>TCP 443</p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p>3</p>
-  :::column-end:::
-  :::column:::
-    <p><b>Required:</b> Microsoft 365 portal and shared infrastructure (including <a href="https://www.microsoft.com/microsoft-365/blog/2016/02/25/new-security-management-and-transparency-capabilities-coming-to-office-365/?azure-portal=true">Cloud App Security</a> and Delve)<br></p>  <p><b>Destination:</b><br></p>  <p>*.portal.cloudappsecurity.com<br></p>  <p>*.us.portal.cloudappsecurity.com<br></p>  <p>*.eu.portal.cloudappsecurity.com<br></p>  <p>*.eu2.portal.cloudappsecurity.com<br></p>  <p>*.us2.portal.cloudappsecurity.com<br></p>  <p>*.us3.portal.cloudappsecurity.com<br></p>  <p>&lt;tenant&gt;.onmicrosoft.com<br></p>  <p>account.office.net<br></p>  <p>agent.office.net<br></p>  <p>apc.delve.office.com<br></p>  <p>aus.delve.office.com<br></p>  <p>can.delve.office.com<br></p>  <p>delve.office.com<br></p>  <p>eur.delve.office.com<br></p>  <p>gbr.delve.office.com<br></p>  <p>home.office.com<br></p>  <p>ind.delve.office.com<br></p>  <p>jpn.delve.office.com<br></p>  <p>kor.delve.office.com<br></p>  <p>lam.delve.office.com<br></p>  <p>nam.delve.office.com<br></p>  <p>portal.office.com<br></p>  <p>outlook.office365.com<br></p>  <p>suite.office.net<br></p>  <p>webshell.suite.office.com<br></p>  <p>www.office.com</p>
-  :::column-end:::
-  :::column:::
-    <p>Yes</p>
-  :::column-end:::
-  :::column:::
-    <p><a href="https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_portal_ip?azure-portal=true">portal and shared IP ranges</a> and <a href="https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_exo_ip?azure-portal=true">Exchange Online IP ranges</a>.</p>
-  :::column-end:::
-  :::column:::
-    <p>TCP 443</p>
+    TCP 80 and 443
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>4</p>
+    2
   :::column-end:::
   :::column:::
-    <p><b>Required:</b> Microsoft 365 Aria service (used with Skype for Business Online, Microsoft Teams, StaffHub, Outlook App, and other services).<br></p>  <p><b>Destination:</b><br></p>  <p>*.aria.microsoft.com<br></p>  <p>browser.pipe.aria.microsoft.com<br></p>  <p>mobile.pipe.aria.microsoft.com<br></p>
+    <b>Required:</b> Microsoft 365 portal<br>  <b>Destination:</b><br>  *.office365.com<br>  admin.microsoft.com
   :::column-end:::
   :::column:::
-    <p>Yes</p>
+    No
   :::column-end:::
   :::column:::
-    <p><a href="https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_sfb_ip?azure-portal=true">Skype for Business IP ranges</a>.</p>
+    <a href="https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_portal_ip?azure-portal=true">portal and shared IP ranges</a>
   :::column-end:::
   :::column:::
-    <p>TCP 443</p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p>5</p>
-  :::column-end:::
-  :::column:::
-    <p><b>Required:</b> Microsoft 365 portal (including shared Telemetry)<br></p>  <p><b>Destination:</b><br></p>  <p>portal.microsoftonline.com<br></p>  <p>clientlog.portal.office.com<br></p>  <p>nexus.officeapps.live.com<br></p>  <p>nexusrules.officeapps.live.com</p>
-  :::column-end:::
-  :::column:::
-    <p>No</p>
-  :::column-end:::
-  :::column:::
-    <p><a href="https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_portal_ip?azure-portal=true">portal and shared IP ranges</a> - Internet-only IPs.</p>
-  :::column-end:::
-  :::column:::
-    <p>TCP 443</p>
+    TCP 443
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>6</p>
+    3
   :::column-end:::
   :::column:::
-    <p><b>Required:</b> shared infrastructure, help, and CDNs<br></p>  <p><b>Destination:</b><br></p>  <p>amp.azure.net<br></p>  <p>*.o365weve.com<br></p>  <p>auth.gfx.ms<br></p>  <p>appsforoffice.microsoft.com<br></p>  <p>assets.onestore.ms<br></p>  <p>az826701.vo.msecnd.net<br></p>  <p>c.microsoft.com<br></p>  <p>c1.microsoft.com<br></p>  <p>client.hip.live.com<br></p>  <p>contentstorage.osi.office.net<br></p>  <p>dgps.support.microsoft.com<br></p>  <p>docs.microsoft.com<br></p>  <p>groupsapi-prod.outlookgroups.ms<br></p>  <p>groupsapi2-prod.outlookgroups.ms<br></p>  <p>groupsapi3-prod.outlookgroups.ms<br></p>  <p>groupsapi4-prod.outlookgroups.ms<br></p>  <p>msdn.microsoft.com<br></p>  <p>platform.linkedin.com<br></p>  <p>products.office.com<br></p>  <p>prod.msocdn.com<br></p>  <p>r1.res.office365.com<br></p>  <p>r4.res.office365.com<br></p>  <p>res.delve.office.com<br></p>  <p>shellprod.msocdn.com<br></p>  <p>support.content.office.net<br></p>  <p>support.microsoft.com<br></p>  <p>support.office.com<br></p>  <p>technet.microsoft.com<br></p>  <p>templates.office.com<br></p>  <p>video.osi.office.net<br></p>  <p>videocontent.osi.office.net<br></p>  <p>videoplayercdn.osi.office.net</p>
+    <b>Required:</b> Microsoft 365 portal and shared infrastructure (including <a href="https://www.microsoft.com/microsoft-365/blog/2016/02/25/new-security-management-and-transparency-capabilities-coming-to-office-365/?azure-portal=true">Cloud App Security</a> and Delve)<br>  <b>Destination:</b><br>  *.portal.cloudappsecurity.com<br>  *.us.portal.cloudappsecurity.com<br>  *.eu.portal.cloudappsecurity.com<br>  *.eu2.portal.cloudappsecurity.com<br>  *.us2.portal.cloudappsecurity.com<br>  *.us3.portal.cloudappsecurity.com<br>  &lt;tenant&gt;.onmicrosoft.com<br>  account.office.net<br>  agent.office.net<br>  apc.delve.office.com<br>  aus.delve.office.com<br>  can.delve.office.com<br>  delve.office.com<br>  eur.delve.office.com<br>  gbr.delve.office.com<br>  home.office.com<br>  ind.delve.office.com<br>  jpn.delve.office.com<br>  kor.delve.office.com<br>  lam.delve.office.com<br>  nam.delve.office.com<br>  portal.office.com<br>  outlook.office365.com<br>  suite.office.net<br>  webshell.suite.office.com<br>  www.office.com
   :::column-end:::
   :::column:::
-    <p>No</p>
+    Yes
   :::column-end:::
   :::column:::
-    <p>N/A</p>
+    <a href="https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_portal_ip?azure-portal=true">portal and shared IP ranges</a> and <a href="https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_exo_ip?azure-portal=true">Exchange Online IP ranges</a>.
   :::column-end:::
   :::column:::
-    <p>TCP 443</p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p>7</p>
-  :::column-end:::
-  :::column:::
-    <p><b>Required: </b>Security and Compliance Center, including audit APIs, and Advanced eDiscovery<br></p>  <p><b>Destination:</b><br></p>  <p>*.manage.office.com<br></p>  <p>*.protection.office.com<br></p>  <p>manage.office.com<br></p>  <p>protection.office.com</p>
-  :::column-end:::
-  :::column:::
-    <p>Yes</p>
-  :::column-end:::
-  :::column:::
-    <p><a href="https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_portal_ip?azure-portal=true">portal and shared IP ranges</a></p>
-  :::column-end:::
-  :::column:::
-    <p>TCP 443</p>
+    TCP 443
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>8</p>
+    4
   :::column-end:::
   :::column:::
-    <p><b>Optional: </b>Security and Compliance Center PST Import and eDiscovery Export<br></p>  <p><b>Destination:</b><br></p>  <p>*.blob.core.windows.net</p>
+    <b>Required:</b> Microsoft 365 Aria service (used with Skype for Business Online, Microsoft Teams, StaffHub, Outlook App, and other services).<br>  <b>Destination:</b><br>  *.aria.microsoft.com<br>  browser.pipe.aria.microsoft.com<br>  mobile.pipe.aria.microsoft.com<br>
   :::column-end:::
   :::column:::
-    <p>No</p>
+    Yes
   :::column-end:::
   :::column:::
-    <p>N/A</p>
+    <a href="https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_sfb_ip?azure-portal=true">Skype for Business IP ranges</a>.
   :::column-end:::
   :::column:::
-    <p>TCP 443</p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p>9</p>
-  :::column-end:::
-  :::column:::
-    <p><b>Optional: </b>third-party Office integration (including CDNs)<br></p>  <p><b>Destination:</b><br></p>  <p>*.helpshift.com<br></p>  <p>*.localytics.com<br></p>  <p>analytics.localytics.com<br></p>  <p>api.localytics.com<br></p>  <p>connect.facebook.net<br></p>  <p>firstpartyapps.oaspapps.com<br></p>  <p>outlook.uservoice.com<br></p>  <p>prod.firstpartyapps.oaspapps.com.akadns.net<br></p>  <p>rink.hockeyapp.net<br></p>  <p>sdk.hockeyapp.net<br></p>  <p>telemetryservice.firstpartyapps.oaspapps.com<br></p>  <p>web.localytics.com<br></p>  <p>webanalytics.localytics.com<br></p>  <p>wus-firstpartyapps.oaspapps.com</p>
-  :::column-end:::
-  :::column:::
-    <p>No</p>
-  :::column-end:::
-  :::column:::
-    <p>N/A</p>
-  :::column-end:::
-  :::column:::
-    <p>TCP 443</p>
+    TCP 443
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>10</p>
+    5
   :::column-end:::
   :::column:::
-    <p><b>Optional:</b> some Microsoft 365 features require endpoints within these domains. (including CDNs)<br></p>  <p><b>Note:</b> Many specific FQDNs within these wildcards have been published recently as Microsoft works to either remove or better explain its guidance relating to these wildcards.<br></p>  <p><b>Destination:</b><br></p>  <p>*.microsoft.com<br></p>  <p>*.msocdn.com<br></p>  <p>*.office.com<br></p>  <p>*.office.net<br></p>  <p>*.onmicrosoft.com</p>
+    <b>Required:</b> Microsoft 365 portal (including shared Telemetry)<br>  <b>Destination:</b><br>  portal.microsoftonline.com<br>  clientlog.portal.office.com<br>  nexus.officeapps.live.com<br>  nexusrules.officeapps.live.com
   :::column-end:::
   :::column:::
-    <p>No</p>
+    No
   :::column-end:::
   :::column:::
-    <p>N/A</p>
+    <a href="https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_portal_ip?azure-portal=true">portal and shared IP ranges</a> - Internet-only IPs.
   :::column-end:::
   :::column:::
-    <p>TCP 80 and 443</p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p>11</p>
-  :::column-end:::
-  :::column:::
-    <p><b>Optional: </b><a href="https://azure.microsoft.com/documentation/articles/remoteapp-officesubscription/?azure-portal=true">Microsoft Azure RemoteApp</a><br></p>  <p><b>Destination:</b><br></p>  <p>liverdcxstorage.blob.core.windowsazure.com<br></p>  <p>telemetry.remoteapp.windowsazure.com<br></p>  <p>vortex.data.microsoft.com<br></p>  <p>www.remoteapp.windowsazure.com</p>
-  :::column-end:::
-  :::column:::
-    <p>No</p>
-  :::column-end:::
-  :::column:::
-    <p>N/A</p>
-  :::column-end:::
-  :::column:::
-    <p>TCP 443</p>
+    TCP 443
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>12</p>
+    6
   :::column-end:::
   :::column:::
-    <p><b>Optional:</b></p> 
+    <b>Required:</b> shared infrastructure, help, and CDNs<br>  <b>Destination:</b><br>  amp.azure.net<br>  *.o365weve.com<br>  auth.gfx.ms<br>  appsforoffice.microsoft.com<br>  assets.onestore.ms<br>  az826701.vo.msecnd.net<br>  c.microsoft.com<br>  c1.microsoft.com<br>  client.hip.live.com<br>  contentstorage.osi.office.net<br>  dgps.support.microsoft.com<br>  docs.microsoft.com<br>  groupsapi-prod.outlookgroups.ms<br>  groupsapi2-prod.outlookgroups.ms<br>  groupsapi3-prod.outlookgroups.ms<br>  groupsapi4-prod.outlookgroups.ms<br>  msdn.microsoft.com<br>  platform.linkedin.com<br>  products.office.com<br>  prod.msocdn.com<br>  r1.res.office365.com<br>  r4.res.office365.com<br>  res.delve.office.com<br>  shellprod.msocdn.com<br>  support.content.office.net<br>  support.microsoft.com<br>  support.office.com<br>  technet.microsoft.com<br>  templates.office.com<br>  video.osi.office.net<br>  videocontent.osi.office.net<br>  videoplayercdn.osi.office.net
+  :::column-end:::
+  :::column:::
+    No
+  :::column-end:::
+  :::column:::
+    N/A
+  :::column-end:::
+  :::column:::
+    TCP 443
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    7
+  :::column-end:::
+  :::column:::
+    <b>Required: </b>Security and Compliance Center, including audit APIs, and Advanced eDiscovery<br>  <b>Destination:</b><br>  *.manage.office.com<br>  *.protection.office.com<br>  manage.office.com<br>  protection.office.com
+  :::column-end:::
+  :::column:::
+    Yes
+  :::column-end:::
+  :::column:::
+    <a href="https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_portal_ip?azure-portal=true">portal and shared IP ranges</a>
+  :::column-end:::
+  :::column:::
+    TCP 443
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    8
+  :::column-end:::
+  :::column:::
+    <b>Optional: </b>Security and Compliance Center PST Import and eDiscovery Export<br>  <b>Destination:</b><br>  *.blob.core.windows.net
+  :::column-end:::
+  :::column:::
+    No
+  :::column-end:::
+  :::column:::
+    N/A
+  :::column-end:::
+  :::column:::
+    TCP 443
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    9
+  :::column-end:::
+  :::column:::
+    <b>Optional: </b>third-party Office integration (including CDNs)<br>  <b>Destination:</b><br>  *.helpshift.com<br>  *.localytics.com<br>  analytics.localytics.com<br>  api.localytics.com<br>  connect.facebook.net<br>  firstpartyapps.oaspapps.com<br>  outlook.uservoice.com<br>  prod.firstpartyapps.oaspapps.com.akadns.net<br>  rink.hockeyapp.net<br>  sdk.hockeyapp.net<br>  telemetryservice.firstpartyapps.oaspapps.com<br>  web.localytics.com<br>  webanalytics.localytics.com<br>  wus-firstpartyapps.oaspapps.com
+  :::column-end:::
+  :::column:::
+    No
+  :::column-end:::
+  :::column:::
+    N/A
+  :::column-end:::
+  :::column:::
+    TCP 443
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    10
+  :::column-end:::
+  :::column:::
+    <b>Optional:</b> some Microsoft 365 features require endpoints within these domains. (including CDNs)<br>  <b>Note:</b> Many specific FQDNs within these wildcards have been published recently as Microsoft works to either remove or better explain its guidance relating to these wildcards.<br>  <b>Destination:</b><br>  *.microsoft.com<br>  *.msocdn.com<br>  *.office.com<br>  *.office.net<br>  *.onmicrosoft.com
+  :::column-end:::
+  :::column:::
+    No
+  :::column-end:::
+  :::column:::
+    N/A
+  :::column-end:::
+  :::column:::
+    TCP 80 and 443
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    11
+  :::column-end:::
+  :::column:::
+    <b>Optional: </b><a href="https://azure.microsoft.com/documentation/articles/remoteapp-officesubscription/?azure-portal=true">Microsoft Azure RemoteApp</a><br>  <b>Destination:</b><br>  liverdcxstorage.blob.core.windowsazure.com<br>  telemetry.remoteapp.windowsazure.com<br>  vortex.data.microsoft.com<br>  www.remoteapp.windowsazure.com
+  :::column-end:::
+  :::column:::
+    No
+  :::column-end:::
+  :::column:::
+    N/A
+  :::column-end:::
+  :::column:::
+    TCP 443
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    12
+  :::column-end:::
+  :::column:::
+    <b>Optional:</b> 
   - [Graph.windows.net](https://azure.microsoft.com/documentation/articles/active-directory-graph-api-quickstart/?azure-portal=true)
   - [Office 365 Management Pack for Operations Manager](https://www.microsoft.com/download/details.aspx?id=43708?azure-portal=true)
   - [SecureScore](https://www.microsoft.com/microsoft-365/blog/2017/02/10/new-office-365-capabilities-helps-you-proactively-manage-security-and-compliance-risk/?azure-portal=true)
@@ -223,24 +223,24 @@ The **Row** column identifies whether there's a specific subnet you must use if 
   - [Application Insights](https://docs.microsoft.com/azure/application-insights/app-insights-ip-addresses?azure-portal=true)
   - captcha services
   
-  <p><b>Destination:</b><br></p>  <p>*.blob.core.windows.net<br></p>  <p>*.hockeyapp.net<br></p>  <p>*.sharepointonline.com<br></p>  <p>*.staffhub.office.com<br></p>  <p>api.office.com<br></p>  <p>enterpriseregistration.windows.net<br></p>  <p>dc.applicationinsights.microsoft.com<br></p>  <p>dc.services.visualstudio.com<br></p>  <p>forms.microsoft.com<br></p>  <p>forms.office.com<br></p>  <p>graph.windows.net<br></p>  <p>manage.office.com<br></p>  <p>mem.gfx.ms<br></p>  <p>office365servicehealthcommunications.cloudapp.net<br></p>  <p>securescore.office.com<br></p>  <p>signup.microsoft.com<br></p>  <p>staffhub.ms<br></p>  <p>staffhubweb.azureedge.net<br></p>  <p>staffhub.office.com<br></p>  <p>staffhub.uservoice.com<br></p>  <p>weu-000.forms.osi.office.net<br></p>  <p>wus-000.forms.osi.office.net<br></p>  <p>neu-000.forms.osi.office.net<br></p>  <p>eus2-000.forms.osi.office.net<br></p>  <p>ea-000.forms.osi.office.net<br></p>  <p>watson.telemetry.microsoft.com<br></p>  <p>wu.client.hip.live.com</p>
+  <b>Destination:</b><br>  *.blob.core.windows.net<br>  *.hockeyapp.net<br>  *.sharepointonline.com<br>  *.staffhub.office.com<br>  api.office.com<br>  enterpriseregistration.windows.net<br>  dc.applicationinsights.microsoft.com<br>  dc.services.visualstudio.com<br>  forms.microsoft.com<br>  forms.office.com<br>  graph.windows.net<br>  manage.office.com<br>  mem.gfx.ms<br>  office365servicehealthcommunications.cloudapp.net<br>  securescore.office.com<br>  signup.microsoft.com<br>  staffhub.ms<br>  staffhubweb.azureedge.net<br>  staffhub.office.com<br>  staffhub.uservoice.com<br>  weu-000.forms.osi.office.net<br>  wus-000.forms.osi.office.net<br>  neu-000.forms.osi.office.net<br>  eus2-000.forms.osi.office.net<br>  ea-000.forms.osi.office.net<br>  watson.telemetry.microsoft.com<br>  wu.client.hip.live.com
   :::column-end:::
   :::column:::
-    <p>No</p>
+    No
   :::column-end:::
   :::column:::
-    <p>N/A</p>
+    N/A
   :::column-end:::
   :::column:::
-    <p>TCP 443</p>
+    TCP 443
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>13</p>
+    13
   :::column-end:::
   :::column:::
-    <p><b>Optional: </b><a href="https://support.office.com/article/Use-network-upload-to-import-PST-files-to-Office-365-103f940c-0468-4e1a-b527-cc8ad13a5ea6?azure-portal=true">Import Service</a> for PST and file ingestion<br></p>  <p><b>Destination: </b>refer to the <a href="https://support.office.com/article/Use-network-upload-to-import-PST-files-to-Office-365-103f940c-0468-4e1a-b527-cc8ad13a5ea6?azure-portal=true">import service</a> for more requirements.</p>
+    <b>Optional: </b><a href="https://support.office.com/article/Use-network-upload-to-import-PST-files-to-Office-365-103f940c-0468-4e1a-b527-cc8ad13a5ea6?azure-portal=true">Import Service</a> for PST and file ingestion<br>  <b>Destination: </b>refer to the <a href="https://support.office.com/article/Use-network-upload-to-import-PST-files-to-Office-365-103f940c-0468-4e1a-b527-cc8ad13a5ea6?azure-portal=true">import service</a> for more requirements.
   :::column-end:::
   :::column:::
     
@@ -254,55 +254,55 @@ The **Row** column identifies whether there's a specific subnet you must use if 
 :::row-end:::
 :::row:::
   :::column:::
-    <p>14</p>
+    14
   :::column-end:::
   :::column:::
-    <p><b>Optional: </b><a href="https://testconnectivity.microsoft.com/?azure-portal=true">Remote Connectivity Analyzer</a> - Initiate connectivity tests.<br></p>  <p><b>Destination:</b><br></p>  <p>testconnectivity.microsoft.com</p>
+    <b>Optional: </b><a href="https://testconnectivity.microsoft.com/?azure-portal=true">Remote Connectivity Analyzer</a> - Initiate connectivity tests.<br>  <b>Destination:</b><br>  testconnectivity.microsoft.com
   :::column-end:::
   :::column:::
-    <p>No</p>
+    No
   :::column-end:::
   :::column:::
-    <p>13.67.59.89/32<br></p>  <p>40.69.150.142/32<br></p>  <p>40.85.91.8/32<br></p>  <p>104.211.54.99/32<br></p>  <p>104.211.54.134/32</p>
+    13.67.59.89/32<br>  40.69.150.142/32<br>  40.85.91.8/32<br>  104.211.54.99/32<br>  104.211.54.134/32
   :::column-end:::
   :::column:::
-    <p>TCP 80 and 443</p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p>15</p>
-  :::column-end:::
-  :::column:::
-    <p><b>Optional:</b><a href="https://testconnectivity.microsoft.com/?azure-portal=true">Remote Connectivity Analyzer</a> - Execution of the tests selected by the customer.<br></p>  <p><b>Source of network requests:</b> testconnectivity.microsoft.com<br></p>  <p><b>Destination: </b>on-premises systems for email and collaboration.</p>
-  :::column-end:::
-  :::column:::
-    <p>No</p>
-  :::column-end:::
-  :::column:::
-    <p>customer IP ranges</p>
-  :::column-end:::
-  :::column:::
-    <p>80, 443, 25, POP3 on 110, 995, or Custom, IMAP4 on 143, 993, or Custom</p>
+    TCP 80 and 443
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>16</p>
+    15
   :::column-end:::
   :::column:::
-    <p><b>Optional:</b><a href="https://diagnostics.office.com/?azure-portal=true">Microsoft Support and Recover Assistant for Office 365</a> - validate single sign-on user credentials. Source:</p>
+    <b>Optional:</b><a href="https://testconnectivity.microsoft.com/?azure-portal=true">Remote Connectivity Analyzer</a> - Execution of the tests selected by the customer.<br>  <b>Source of network requests:</b> testconnectivity.microsoft.com<br>  <b>Destination: </b>on-premises systems for email and collaboration.
+  :::column-end:::
+  :::column:::
+    No
+  :::column-end:::
+  :::column:::
+    customer IP ranges
+  :::column-end:::
+  :::column:::
+    80, 443, 25, POP3 on 110, 995, or Custom, IMAP4 on 143, 993, or Custom
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    16
+  :::column-end:::
+  :::column:::
+    <b>Optional:</b><a href="https://diagnostics.office.com/?azure-portal=true">Microsoft Support and Recover Assistant for Office 365</a> - validate single sign-on user credentials. Source:
   - o365diagnosticsbasic-eus.cloudapp.net (104.211.54.99)
-  - o365diagnosticworker-eus.cloudapp.net (104.211.54.134)  <p><b>Destination: </b>on-premises STS</p>
+  - o365diagnosticworker-eus.cloudapp.net (104.211.54.134)  <b>Destination: </b>on-premises STS
   :::column-end:::
   :::column:::
-    <p>No</p>
+    No
   :::column-end:::
   :::column:::
-    <p>customer IP ranges</p>
+    customer IP ranges
   :::column-end:::
   :::column:::
-    <p>customer configurable. Typically TCP 443</p>
+    customer configurable. Typically TCP 443
   :::column-end:::
 :::row-end:::
 
