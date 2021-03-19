@@ -1,4 +1,4 @@
-You can think of Microsoft Teams as your modern, digital workspace. It's where you'll store and access files, meet, have conversations and use apps that help you get things done. In this unit, you'll learn about the core features of Microsoft Teams and how they can help you collaborate with your team.<br>
+You can think of Microsoft Teams as your modern, digital workspace. It's where you'll store and access files, meet, have conversations and use apps that help you get things done. In this unit, you'll learn about the core features of Microsoft Teams and how they can help you collaborate with your team.
 
 ## Create teams and channels to reflect your work
 
@@ -22,5 +22,5 @@ The following video provides an overview of how to collaborate with Microsoft Te
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWeqWC]
 
-> [!NOTE] 
-> If your organization is interested in a social networking or community building platform consider Yammer.<br>
+> [!NOTE]
+> If your organization is interested in a social networking or community building platform consider Yammer.

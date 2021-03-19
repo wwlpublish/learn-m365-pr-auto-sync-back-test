@@ -1,4 +1,4 @@
-Microsoft Teams is an app that serves as the hub for team collaboration in Microsoft 365, integrating the people, content, and tools your team needs to be more engaged and effective. Teams provides a platform for communicating, collaborating and managing work with your teammates.<br>
+Microsoft Teams is an app that serves as the hub for team collaboration in Microsoft 365, integrating the people, content, and tools your team needs to be more engaged and effective. Teams provides a platform for communicating, collaborating and managing work with your teammates.
 
 The following video provides an overview of Microsoft Teams:
 
