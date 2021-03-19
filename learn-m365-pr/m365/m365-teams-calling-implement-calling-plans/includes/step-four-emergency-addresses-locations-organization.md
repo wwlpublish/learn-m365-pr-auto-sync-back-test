@@ -63,7 +63,7 @@ When a Teams Calling Plan user dials an emergency number, how the call is routed
 
 ### Emergency call enablement and configuration for Direct Routing
 
-You must define emergency calling policies for Direct Routing users by using a Teams emergency call routing policy (TeamsEmergencyCallRoutingPolicy) to define emergency numbers and their associated routing destination. (Note that registered emergency locations aren't supported for Direct Routing users.)
+You must define emergency calling policies for Direct Routing users by using a Teams emergency call routing policy (TeamsEmergencyCallRoutingPolicy) to define emergency numbers and their associated routing destination. (Be aware that registered emergency locations aren't supported for Direct Routing users.)
 
 You can assign an emergency call routing policy to a Teams Direct Routing user account, a network site, or both. When a Teams client starts or changes a network connection, Teams performs a lookup of the network site where the client is located as follows:
 
@@ -240,7 +240,10 @@ Some Emergency Routing Service Providers (ERSPs) in the United States offer an e
 ### Emergency call routing for Direct Routing
 
 The emergency call routing policy references an online PSTN usage, which must have the appropriate Direct Routing configuration to properly route the emergency calls to the appropriate PSTN gateway(s). In particular, you must ensure that there is an OnlineVoiceRoute for the emergency dial string. For more information, see Configure Direct Routing in the **Additional resources** section in the Summary.
-(Note: Teams clients prepend the "+" sign in front of emergency numbers in a similar manner that Skype for Business client does; that is, +911.)
+
+>[!NOTE]
+>Teams clients prepend the "+" sign in front of emergency numbers in a similar manner that Skype for Business client does; that is, +911.)
+
 The ability to dynamically route emergency calls for Direct Routing users varies depending on the emergency calling network within a given country. There are two solutions available:
 
 - Emergency Routing Service Providers (US only)

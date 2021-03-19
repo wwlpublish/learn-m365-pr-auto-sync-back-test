@@ -20,19 +20,19 @@ quiz:
     - content: Direct Routing and a Session Border Controller to a PBX 
       isCorrect: false
       explanation: This doesn't cover the different methods for PSTN implementation.
-    - content: Calling Plan and a Session Border Controller to a PBX (incorrect)
+    - content: Calling Plan and a Session Border Controller to a PBX.
       isCorrect: false
       explanation: This doesn't cover the different methods for PSTN implementation.
-    - content: Direct Routing and Calling Plan (correct)
+    - content: Direct Routing and Calling Plan.
       isCorrect: true
       explanation: You can use either options to implement PSTN with Microsoft Teams.
  # Question 2 
   - content: What is a primary motivation for using a Microsoft Calling Plan?
     choices:
-    - content: You want to retain your existing PSTN carrier (incorrect)  
+    - content: You want to retain your existing PSTN carrier.  
       isCorrect: false
       explanation: With Calling Plans, Microsoft becomes your carrier.
-    - content: You don’t want to purchase or deploy any additional equipment to connect to the PSTN (correct)
+    - content: You don’t want to purchase or deploy any additional equipment to connect to the PSTN.
       isCorrect: true
       explanation: With Calling Plans you can use your existing equipment to connect to the PSTN.
     - content: You need to support voice mail 
@@ -41,12 +41,12 @@ quiz:
  # Question 3
   - content: When should you consider using Direct Routing rather than any other option?
     choices:
-    - content: You need to interoperate with third-party PBXs and/or equipment such as overhead pagers, and other analog devices. (correct)
+    - content: You need to interoperate with third-party PBXs and/or equipment such as overhead pagers, and other analog devices.
       isCorrect: true
       explanation: Direct Routing enables you to take advantage of third-party PBXs and equipment.
-    - content: You want to allow users to enable captioning and transcriptions when making a call (incorrect)
+    - content: You want to allow users to enable captioning and transcriptions when making a call.
       isCorrect: false
       explanation: You don't need Direct Routing for these features.
-    - content: You need to enable users to transfer calls between devices (incorrect)
+    - content: You need to enable users to transfer calls between devices.
       isCorrect: false
       explanation: You don't need Direct Routing for these features.

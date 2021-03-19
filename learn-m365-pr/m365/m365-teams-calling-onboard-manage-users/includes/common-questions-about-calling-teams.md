@@ -12,27 +12,6 @@ Microsoft Teams is included in all Microsoft 365 subscriptions, and supports use
 
 There are two ways to enable Teams users to have a real phone number to make and receive calls. One method is to implement Direct Routing that allows an organization to connect their existing telecom voice trunks. The simpler way is to subscribe to a Microsoft Calling plan that combines a phone number a bundle of domestic or international calling minutes. If you're familiar with PSTN services, you can think of a calling plan as a light-touch hosted private branch exchange (PBX).
 
-Calling plans are currently supported in 16 regions:
-
-- Austria
-- Belgium
-- Canada
-- Denmark
-- France
-- Germany
-- Ireland
-- Italy
-- Portugal
-- Puerto Rico
-- Netherlands
-- Spain
-- Sweden
-- Switzerland
-- United Kingdom
-- United States
-  
-If your country isn't currently supported, you'll need to consider deploying Direct Routing.
-
 ### Can I use my existing phone numbers?
 
 Microsoft supports transferring your existing phone numbers into a calling plan, once transferred Microsoft will become your service provider.
