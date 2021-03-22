@@ -19,14 +19,10 @@ Add the following method to the `SpFxTeamsTogetherWebPart` class to run when the
 ```typescript
 protected onInit(): Promise<void> {
   return new Promise<void>((resolve, reject) => {
-    if (this.context.microsoftTeams) {
-      this.context.microsoftTeams.getContext(context => {
-        this.teamsContext = context;
-        resolve();
-      });
-    } else {
-      resolve();
+    if (this.context.sdks.microsoftTeams) {
+      this.teamsContext = this.context.sdks.microsoftTeams.context;
     }
+    resolve();
   });
 }
 ```

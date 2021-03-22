@@ -1,0 +1,62 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.create-manage-teams-channels-with-microsoft-teams.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 03/19/2021
+  author: wwlpublish
+  ms.author: tishaha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/7-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which of the following is NOT a way to create a team?"
+    choices:
+    - content: "From scratch."
+      isCorrect: false
+      explanation: "Incorrect. It is possible to create a team from scratch."
+    - content: "From a template."
+      isCorrect: false
+      explanation: "Incorrect. It is possible to create a team from a template."
+    - content: "From a tab."
+      isCorrect: true
+      explanation: "That’s correct. Creating a team from a tab is not currently an option."
+  - content: "Which team role can accept or deny membership requests?"
+    choices:
+    - content: "Owner."
+      isCorrect: true
+      explanation: "That’s correct. A team owner can accept or deny membership requests."
+    - content: "Member."
+      isCorrect: false
+      explanation: "Incorrect. A member can submit a request but they can’t accept or deny."
+    - content: "Guest."
+      isCorrect: false
+      explanation: "Incorrect. Guests are people from outside of your organization and cannot accept or deny membership requests."
+  - content: "What type of channel does every team get by default?"
+    choices:
+    - content: "Tasks."
+      isCorrect: false
+      explanation: "Incorrect. Tasks (or Tasks by Planner) is an app that can be added as a tab once the channel is created."
+    - content: "Wiki."
+      isCorrect: false
+      explanation: "Incorrect. A wiki tab can be added to a channel."
+    - content: "General."
+      isCorrect: true
+      explanation: "That’s correct. By default, every team gets a General channel."
+  - content: "What are the ways to use the command box?"
+    choices:
+    - content: "Search, slash commands and @ command."
+      isCorrect: true
+      explanation: "That’s correct. All of these options are ways to use the command box."
+    - content: "Search, @ command and tabs."
+      isCorrect: false
+      explanation: "Incorrect. While search and @ command are viable ways to use the command box, tabs is not."
+    - content: "Search, slash commands and messages."
+      isCorrect: false
+      explanation: "Incorrect. Both Search and slash commands are ways to use the command box; messages is not a viable option."
