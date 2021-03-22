@@ -13,7 +13,7 @@ The following table provides an overview of the Enterprise Mobility + Security c
     <a href="https://docs.microsoft.com/azure/active-directory/active-directory-whatis?azure-portal=true">Microsoft Azure Active Directory</a>
   :::column-end:::
   :::column:::
-    Azure AD provides a full suite of identity management capabilities including multi-factor authentication, device registration, self-service password management, self-service group management, role-based access control, application usage monitoring, rich auditing, and security monitoring and alerting. Azure AD includes the following premium editions:  
+    Azure Active Directory (Azure AD) provides a full suite of identity management capabilities including multi-factor authentication, device registration, self-service password management, self-service group management, role-based access control, application usage monitoring, rich auditing, and security monitoring and alerting. Azure AD includes the following premium editions:  
   - **Azure AD Premium P1.** This enterprise-level edition provides identity management for on-premises users, remote users, and hybrid users accessing applications both locally and over the cloud. This edition includes support for self-service identity, access management, administration of dynamic groups including self-service group management, and Microsoft Identity Manager, which is a suite of on-premise identity and access management tools.
   - **Azure AD Premium P2.** This edition includes all of the features of Azure AD Premium P1, plus Azure AD Identity Protection and Azure AD Privileged Identity Management, each of which is described below.
   :::column-end:::
@@ -44,7 +44,7 @@ The following table provides an overview of the Enterprise Mobility + Security c
 :::row-end:::
 :::row:::
   :::column:::
-    <a href="https://www.microsoft.com/en-us/microsoft-365/enterprise-mobility-security/microsoft-intune?azure-portal=true">Microsoft Intune</a>
+    <a href="https://www.microsoft.com/microsoft-365/enterprise-mobility-security/microsoft-intune?azure-portal=true">Microsoft Intune</a>
   :::column-end:::
   :::column:::
     Intune is a cloud-based Enterprise Mobility Management (EMM) service that enables an organization’s workforce to be productive while keeping its corporate data protected. Intune integrates closely with Azure AD for identity and access control and is used for device and application management. <a href="https://docs.microsoft.com/mem/intune/fundamentals/what-is-device-management?azure-portal=true">Intune's device management</a> capabilities are used to configure and protect user's devices, including Windows PCs. Intune device management capabilities support both <a href="https://docs.microsoft.com/enterprise-mobility-security/solutions/enable-byod?azure-portal=true">Bring Your Own Device (BYOD)</a> enrollment, which lets users enroll their personal phones, tablets, or PCs, and <a href="https://docs.microsoft.com/enterprise-mobility-security/solutions/issue-corp-devices?azure-portal=true">Corporate-owned Device (COD)</a> enrollment, which enables management scenarios like automatic enrollment, shared devices, and pre-authorized enrollment requirement configurations. For added security, organizations can even require Multi-Factor Authentication to enroll a device. Once enrolled into management, Intune can configure device features and settings to enable secure access to company resources.
