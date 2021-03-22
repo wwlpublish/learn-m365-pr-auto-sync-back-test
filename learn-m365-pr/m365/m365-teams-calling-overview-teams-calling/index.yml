@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn-m365-pr.m365-teams-calling-overview
+metadata:
+  title: Overview of Microsoft Teams Calling
+  description: Learn about Microsoft Teams Calling.
+  ms.date: 04/02/2020
+  author: iankensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+title: Overview of Microsoft Teams Calling
+summary: In this module you'll learn about Teams Calling architecture, Phone System, Direct Routing and Microsoft Calling Plans.
+abstract: |
+  By the end of this module you will be able to:
+  -	Understand the architecture of Teams Calling.
+  -	Have a clear understanding of the capabilities of Phone System.
+  -	Understand the benefits of Direct Routing.
+  - Understand the different Calling Plans available to your organization.
+prerequisites: None
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- administrator
+products:
+- office-teams
+units:
+- learn-m365-pr.m365-teams-calling-overview.introduction
+- learn-m365-pr.m365-teams-calling-overview.teams-calling-architecture
+- learn-m365-pr.m365-teams-calling-overview.understand-phone-system
+- learn-m365-pr.m365-teams-calling-overview.direct-routing-overview
+- learn-m365-pr.m365-teams-calling-overview.use-teams-client
+- learn-m365-pr.m365-teams-calling-overview.understand-calling-plans
+- learn-m365-pr.m365-teams-calling-overview.deploy-teams-calling
+- learn-m365-pr.m365-teams-calling-overview.knowledge-check
+- learn-m365-pr.m365-teams-calling-overview.summary
+badge:
+  uid: learn-m365-pr.m365-teams-calling-overview.badge
