@@ -68,7 +68,7 @@ This call will return data as shown below:
         "displayName": "Bridgette Johnson", 
         "givenName": "Bridgette", 
         "jobTitle": "Designer", 
-        "mail": PradeepG@M365x214355.onmicrosoft.com, 
+        "mail": BridgetteJ@M365x214355.onmicrosoft.com, 
         ... 
         }     
     ] 
