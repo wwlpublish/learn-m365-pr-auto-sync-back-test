@@ -60,7 +60,7 @@ The **Row** column identifies whether there's a specific subnet you must use if 
     3
   :::column-end:::
   :::column:::
-    <b>Required:</b> Microsoft 365 portal and shared infrastructure (including <a href="https://www.microsoft.com/microsoft-365/blog/2016/02/25/new-security-management-and-transparency-capabilities-coming-to-office-365/?azure-portal=true">Cloud App Security</a> and Delve)<br>  <b>Destination:</b><br>  *.portal.cloudappsecurity.com<br>  *.us.portal.cloudappsecurity.com<br>  *.eu.portal.cloudappsecurity.com<br>  *.eu2.portal.cloudappsecurity.com<br>  *.us2.portal.cloudappsecurity.com<br>  *.us3.portal.cloudappsecurity.com<br>  &lt;tenant&gt;.onmicrosoft.com<br>  account.office.net<br>  agent.office.net<br>  apc.delve.office.com<br>  aus.delve.office.com<br>  can.delve.office.com<br>  delve.office.com<br>  eur.delve.office.com<br>  gbr.delve.office.com<br>  home.office.com<br>  ind.delve.office.com<br>  jpn.delve.office.com<br>  kor.delve.office.com<br>  lam.delve.office.com<br>  nam.delve.office.com<br>  portal.office.com<br>  outlook.office365.com<br>  suite.office.net<br>  webshell.suite.office.com<br>  www.office.com
+    <b>Required:</b> Microsoft 365 portal and shared infrastructure (including <a href="https://www.microsoft.com/microsoft-365/blog/2016/02/25/new-security-management-and-transparency-capabilities-coming-to-office-365/?azure-portal=true">Cloud App Security</a> and Delve)<br>  <b>Destination:</b><br>  *.portal.cloudappsecurity.com<br>  *.us.portal.cloudappsecurity.com<br>  *.eu.portal.cloudappsecurity.com<br>  *.eu2.portal.cloudappsecurity.com<br>  *.us2.portal.cloudappsecurity.com<br>  *.us3.portal.cloudappsecurity.com<br>  &lt;tenant&gt;.onmicrosoft.com<br>  account.office.net<br>  agent.office.net<br>  apc.delve.office.com<br>  aus.delve.office.com<br>  can.delve.office.com<br>  delve.office.com<br>  eur.delve.office.com<br>  gbr.delve.office.com<br>  home.office.com<br>  ind.delve.office.com<br>  jpn.delve.office.com<br>  kor.delve.office.com<br>  lam.delve.office.com<br>  nam.delve.office.com<br>  portal.office.com<br>  outlook.office365.com<br>  suite.office.net<br>  webshell.suite.office.com<br>  office.com
   :::column-end:::
   :::column:::
     Yes
@@ -196,7 +196,7 @@ The **Row** column identifies whether there's a specific subnet you must use if 
     11
   :::column-end:::
   :::column:::
-    <b>Optional: </b><a href="https://azure.microsoft.com/documentation/articles/remoteapp-officesubscription/?azure-portal=true">Microsoft Azure RemoteApp</a><br>  <b>Destination:</b><br>  liverdcxstorage.blob.core.windowsazure.com<br>  telemetry.remoteapp.windowsazure.com<br>  vortex.data.microsoft.com<br>  www.remoteapp.windowsazure.com
+    <b>Optional: </b><a href="https://azure.microsoft.com/documentation/articles/remoteapp-officesubscription/?azure-portal=true">Microsoft Azure RemoteApp</a><br>  <b>Destination:</b><br>  liverdcxstorage.blob.core.windowsazure.com<br>  telemetry.remoteapp.windowsazure.com<br>  vortex.data.microsoft.com
   :::column-end:::
   :::column:::
     No
@@ -215,7 +215,7 @@ The **Row** column identifies whether there's a specific subnet you must use if 
   :::column:::
     <b>Optional:</b> 
   - [Graph.windows.net](https://azure.microsoft.com/documentation/articles/active-directory-graph-api-quickstart/?azure-portal=true)
-  - [Office 365 Management Pack for Operations Manager](https://www.microsoft.com/download/details.aspx?id=43708?azure-portal=true)
+  - Microsoft System Center Management Pack for Office 365
   - [SecureScore](https://www.microsoft.com/microsoft-365/blog/2017/02/10/new-office-365-capabilities-helps-you-proactively-manage-security-and-compliance-risk/?azure-portal=true)
   -[Azure AD Device Registration](https://support.office.com/article/azure-ad-device-registration-028d73d7-4b86-4ee0-8fb7-9a209434b04e?azure-portal=true)
   - Forms

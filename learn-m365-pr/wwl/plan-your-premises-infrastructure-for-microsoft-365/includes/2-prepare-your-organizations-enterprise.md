@@ -65,7 +65,7 @@ The following table describes the errors that are detected by IdFix, provides th
     The suggested Update will show the value with any invalid characters removed. If there are no invalid characters, the Update and Value will appear the same. Determine what you really want in the update. The tool doesn't provide a suggested fix for all formatting errors.
   :::column-end:::
   :::column:::
-    For example, SMTP addresses must follow RFC 2822 and mailNickName can't start or end with a period. For more information about format requirements for directory attributes, see "Directory object and attribute preparation" in <a href="https://support.office.com/en-us/article/prepare-to-provision-users-through-directory-synchronization-to-office-365-01920974-9e6f-4331-a370-13aea4e82b3e?azure-portal=true">Prepare to provision users through directory synchronization to Microsoft 365</a>.
+    For example, SMTP addresses must follow RFC 2822 and mailNickName can't start or end with a period. For more information about format requirements for directory attributes, see "Directory object and attribute preparation" in <a href="https://support.office.com/article/prepare-to-provision-users-through-directory-synchronization-to-office-365-01920974-9e6f-4331-a370-13aea4e82b3e?azure-portal=true">Prepare to provision users through directory synchronization to Microsoft 365</a>.
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -79,7 +79,7 @@ The following table describes the errors that are detected by IdFix, provides th
     Change the value to an internet routable domain such as .COM or .NET.
   :::column-end:::
   :::column:::
-    Change myaddress@fourthcoffee.local to fourthcoffee.com or another internet routable domain.<br>  For instructions, see <a href="https://support.office.com/en-us/article/how-to-prepare-a-nonroutable-domain-such-as-local-domain-for-directory-synchronization-e7968303-c234-46c4-b8b0-b5c93c6d57a7?azure-portal=true">How to prepare a non-routable domain (such as .local domain) for directory synchronization</a>.
+    Change myaddress@fourthcoffee.local to fourthcoffee.com or another internet routable domain.<br>  For instructions, see <a href="https://support.office.com/article/how-to-prepare-a-nonroutable-domain-such-as-local-domain-for-directory-synchronization-e7968303-c234-46c4-b8b0-b5c93c6d57a7?azure-portal=true">How to prepare a non-routable domain (such as .local domain) for directory synchronization</a>.
   :::column-end:::
 :::row-end:::
 :::row:::

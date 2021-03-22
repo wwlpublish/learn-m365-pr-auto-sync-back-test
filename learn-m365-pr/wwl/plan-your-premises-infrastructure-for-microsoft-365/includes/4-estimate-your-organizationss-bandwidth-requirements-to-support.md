@@ -13,4 +13,4 @@ Complete the following steps to estimate your network’s bandwidth:
 4.  Use the measurements from the pilot group to extrapolate the entire organization's needs.
 5.  Retest to validate the estimations before making any changes to your network.
 
-**Additional reading.** For more information, see the following article regarding [planning your network with Office 365](https://support.office.com/en-us/article/network-planning-and-performance-tuning-for-office-365-e5f1228c-da3c-4654-bf16-d163daee8848?azure-portal=true).
+**Additional reading.** For more information, see the following article regarding [planning your network with Office 365](https://support.office.com/article/network-planning-and-performance-tuning-for-office-365-e5f1228c-da3c-4654-bf16-d163daee8848?azure-portal=true).
