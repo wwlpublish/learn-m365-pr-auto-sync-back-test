@@ -90,11 +90,6 @@ if (response) {
 }
 ```
 
-> [!CAUTION]
-> At the time of writing, the activity feed support in Microsoft Graph is only available in Microsoft Graph's beta endpoint. This means the syntax and format may change in the future.
->
-> This exercise will be updated in the future when support for the activity feed is prompted to the Microsoft Graph v1 endpoint.
-
 Next, replace the `// TODO` commend with the following code. This code creates the request that's submitted to Microsoft Graph.
 
 ```typescript

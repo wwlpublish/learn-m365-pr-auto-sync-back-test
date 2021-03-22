@@ -12,10 +12,10 @@ In this module, you'll learn how to use Microsoft Graph to interact with Microso
 
 ## Learning objectives
 
-1. Understand how to use Microsoft Graph to communicate with Microsoft Teams
-1. Demonstrate how to get a list of all teams and a specific team with Microsoft Graph
-1. Demonstrate how to configure build-in tabs within a Microsoft Teams team with Microsoft Graph
-1. Demonstrate how to send a notification to a user or a channel using the Microsoft Teams activity feed with Microsoft Graph
+- Understand how to use Microsoft Graph to communicate with Microsoft Teams
+- Demonstrate how to get a list of all teams and a specific team with Microsoft Graph
+- Demonstrate how to configure build-in tabs within a Microsoft Teams team with Microsoft Graph
+- Demonstrate how to send a notification to a user or a channel using the Microsoft Teams activity feed with Microsoft Graph
 
 ## Additional resources
 

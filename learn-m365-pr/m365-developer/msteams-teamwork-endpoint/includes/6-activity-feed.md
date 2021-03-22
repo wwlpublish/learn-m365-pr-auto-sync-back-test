@@ -29,9 +29,9 @@ The activity feed notifications are used to inform a user of something. Microsof
 
 To send a notification to a user from your custom Microsoft Teams app, you must meet the following requirements:
 
-1. For a user to receive the notification, the custom Microsoft Teams app must be installed for the recipient of the notification. This can be done by the recipient (such as a Personal app), or in a team or group chat they're associated with.
-1. The custom Microsoft Teams app must be associated with an Azure Active Directory (Azure AD) application.
-1. Notification activity types supported by your application must be defined in the application's manifest.
+- For a user to receive the notification, the custom Microsoft Teams app must be installed for the recipient of the notification. This can be done by the recipient (such as a Personal app), or in a team or group chat they're associated with.
+- The custom Microsoft Teams app must be associated with an Azure Active Directory (Azure AD) application.
+- Notification activity types supported by your application must be defined in the application's manifest.
 
 The first requirement is self-explanatory, so let's look at the other two requirements in more depth.
 
@@ -89,9 +89,6 @@ Each activity has a `type` property that must be unique in the app's manifest. T
 ## Sending activity feed notifications
 
 Activity feed notifications are sent to users with the Microsoft Graph's `/teams/{groupId}/sendActivityNotification` beta endpoint using an HTTP POST.
-
-> [!CAUTION]
-> At the time of writing, the activity feed support in Microsoft Graph is only available in Microsoft Graph's beta endpoint. This means the syntax and format may change in the future.
 
 The body of the http request contains the details of the notification. Take the following example HTTP request payload:
 

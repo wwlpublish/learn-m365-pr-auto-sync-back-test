@@ -27,25 +27,25 @@ Let's start by creating a Microsoft Teams app project. To do this, you'll use th
 
 Start by launching Visual Studio Code, and then select the **Microsoft Teams Toolkit** from the activity bar:
 
-![Screenshot of the Teams Toolkit in VSCode's activity bar](../media/03-vscode-activity-bar-microsoft-teams.png)
+![Screenshot of the Teams Toolkit in VSCode's activity bar](../media/03-vs-code-activity-bar-microsoft-teams.png)
 
 From the list of **Microsoft Teams: Commands**, select **Create a new Teams app**.
 
 The Teams Toolkit will prompt you to sign in to your Microsoft account. This will be used to register the Teams app in both your Microsoft 365 tenant's Microsoft Teams app store and Azure Active Directory (Azure AD). Select **Allow** and sign-in using your Microsoft 365 Work & school account.
 
-![Screenshot of the Microsoft sign in dialog](../media/03-vscode-microsoft-365-signin.png)
+![Screenshot of the Microsoft sign in dialog](../media/03-vs-code-microsoft-365-sign-in.png)
 
 After signing in, the toolkit prompts you to select a project type to create. Because this project will use the Microsoft Graph, which requires all requests to include OAuth2 access token for authorization, create a new tab project using the single sign-on (SSO) capability supported by Microsoft Teams. Select the **TypeScript** option for **Channel and group app with single sign-on (SSO)** app type:
 
-![Screenshot of the project creation option](../media/03-vscode-create-project-01.png)
+![Screenshot of the project creation option](../media/03-vs-code-create-project-01.png)
 
 On the **Configure project** screen, you're prompted for the **Application name** and **Azure AD single sign-on** domain name:
 
-![Screenshot of the configure project dialog](../media/03-vscode-create-project-02.png)
+![Screenshot of the configure project dialog](../media/03-vs-code-create-project-02.png)
 
 Set the **Application name** to **MSGraph Playground**.
 
-For the domain name, this must be a fully qualified domain name that will serve the custom app, it must be HTTPS, and the domain can't be localhost. You can address these requirements during development with the tool [ngrok](https://www.ngrok.com). Ngrok creates a secure routatable URL to your local HTTP webserver. For example, ngrok can route requests from https://something.ngrok.io to http://localhost:3000.
+For the domain name, this must be a fully qualified domain name that will serve the custom app, it must be HTTPS, and the domain can't be localhost. You can address these requirements during development with the tool [ngrok](https://www.ngrok.com). Ngrok creates a secure routable URL to your local HTTP webserver. For example, ngrok can route requests from `https://something.ngrok.io` to `http://localhost:3000`.
 
 While we don't have a local webserver running yet because we're still creating the project, we can still start ngrok now and leave it running during the exercise. In the console, run the following command to start ngrok:
 
@@ -53,20 +53,20 @@ While we don't have a local webserver running yet because we're still creating t
 ngrok http https://localhost:3000
 ```
 
-When ngrok starts, it will display the temporary subdomain. In this case, the URL https://d4fa28c4e203.ngrok.io is forwarding all requests to https://localhost:3000 that you'll start later in the exercise.
+When ngrok starts, it will display the temporary subdomain. In this case, the URL `https://d4fa28c4e203.ngrok.io` is forwarding all requests to `https://localhost:3000` that you'll start later in the exercise.
 
-![Screenshot of the running ngrok process](../media/03-vscode-create-project-03.png)
+![Screenshot of the running ngrok process](../media/03-vs-code-create-project-03.png)
 
 Enter the full ngrok address, excluding the protocol, in the **Configure project** dialog for the domain name and select **Register**.
 
-![Screenshot of the completed configure project dialog](../media/03-vscode-create-project-04.png)
+![Screenshot of the completed configure project dialog](../media/03-vs-code-create-project-04.png)
 
 The toolkit will create a new Azure AD application using the values you've provided as shown in the following screenshot. It's a good idea to copy all of this information into a text file.
 
 > [!IMPORTANT]
 > Each time ngrok is started, it will generate a new dynamic subdomain for the URL. **If you restart ngrok, you'll need to update anywhere you've referenced the dynamic subdomain.** The optional licensed version of ngrok allows you to define and reuse the same subdomain.
 
-![Screenshot of the Azure AD app creation summary](../media/03-vscode-create-project-05.png)
+![Screenshot of the Azure AD app creation summary](../media/03-vs-code-create-project-05.png)
 
 When you select **Finish**, the toolkit will prompt you for the location where to create the project. Select a folder on your local workstation. The toolkit will create a new folder the specified location and create all the project scaffolding required.
 
@@ -78,7 +78,7 @@ Let's explore a few parts of the project created by the toolkit in VS Code.
 
 The initial project actually contains two separate web applications that you'll use:
 
-![Screenshot of the custom Teams app project](../media/03-vscode-create-project-06.png)
+![Screenshot of the custom Teams app project](../media/03-vs-code-create-project-06.png)
 
 ### Microsoft Teams tab web application
 
