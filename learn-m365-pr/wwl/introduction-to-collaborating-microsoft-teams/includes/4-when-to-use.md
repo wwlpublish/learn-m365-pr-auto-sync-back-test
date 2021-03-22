@@ -15,19 +15,3 @@ In the following video, leaders from PayPal describe how employees use Microsoft
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWzl0m]
 
 Read the full case study: [Microsoft Customer Story-PayPal enhances employee collaboration and reduces data silos with Microsoft Teams](https://customers.microsoft.com/story/794051-paypal-banking-capital-markets-teams?azure-portal=true)
-
-### Common scenarios
-
-The following table lists examples of how Microsoft Teams can be used in different scenarios, with examples of teams and their associated channels and apps/tabs.
-
-| Types of Teams<br><br> | Potential Channels<br><br>                                                                                              | Apps (Tabs/Connectors/Bots)                                                                 |
-| ---------------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| Sales                  | <p>Annual Sales Meeting<br><br>Quarterly Business Review<br><br>Monthly Sales Pipeline Review<br><br>Sales Playbook</p> | <p>Power BI<br><br>Trello<br><br>CRM<br><br>Summarize Bot</p>                               |
-| Public Relations       | Press Releases<br><br>News and Updates<br><br>Fact Checking                                                             | <p>RSS Feed<br><br>Twitter</p>                                                              |
-| Event Planning         | Marketing<br><br>Logistics and Scheduling<br><br>Venue<br><br>Budget                                                    | Twitter<br><br>Facebook<br><br>Planner<br><br>PDF                                           |
-| Marketing/Go to Market | Market Research<br><br>Messaging Pillars<br><br>Communications Plan<br><br>Marketing Bill of Materials                  | YouTube<br><br>Microsoft Stream<br><br>Twitter<br><br>MailChimp                             |
-| Technical Operations   | Incident Management<br><br>Sprint Planning<br><br>Work Items<br><br>Infrastructure and Operations                       | Team Services<br><br>Jira<br><br>AzureBot                                                   |
-| Product Team           | Strategy<br><br>Marketing<br><br>Sales<br><br>Operations<br><br>Insights<br><br>Services &amp; Support                  | Power BI<br><br>Team Services                                                               |
-| Finance                | Current Fiscal<br><br>FY Planning<br><br>Forecasting<br><br>Accounts Receivable<br><br>Accounts Payable                 | Power BI<br><br>Google Analytics                                                            |
-| Logistics              | Warehouse Operations<br><br>Vehicle Maintenance<br><br>Driver Rosters                                                   | Weather Service<br><br>Travel / Road Disruptions<br><br>Planner<br><br>UPS Bot |
-| HR                     | Talent Management<br><br>Recruiting<br><br>Performance Review Planning<br><br>Morale                                    | HR Tools<br><br>External Job Posting Sites                                   |
