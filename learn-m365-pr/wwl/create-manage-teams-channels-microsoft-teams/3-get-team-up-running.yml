@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.create-manage-teams-channels-with-microsoft-teams.get-your-team-up-running
+title: Get your team up and running
+metadata:
+  title: Get your team up and running
+  description: "Get your team up and running"
+  ms.date: 03/19/2021
+  author: wwlpublish
+  ms.author: tishaha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 10
+content: |
+  [!include[](includes/3-get-team-up-running.md)]

@@ -10,7 +10,7 @@ Use the Microsoft Teams admin center to obtain new phone numbers for your users.
 
 1. Go to the Microsoft Teams Admin Center.
 1. In the left navigation, go to **Voice** > **Phone numbers**, and then select **Add**.
-1. Under Order name,** enter a description for the order.
+1. Under **Order name**, enter a description for the order.
 1. Under **Location and quantity**, do the following:
     1. Under **Country or region**, select a country or region.
     1. Under **Number type**, select **User (subscriber)**.
@@ -30,7 +30,7 @@ If you need to port more than 999 numbers, you must manually submit  a port orde
 
 ### Transfer phone numbers to Teams
 
-> [NOTE]
+> [!NOTE]
 > This is a preview or early release feature
 Use the porting wizard in the Microsoft Teams admin center to transfer your phone numbers from your current service provider to Teams. After you port your phone numbers to Teams, Microsoft will become your service provider and will bill you for those phone numbers.
 If you have service numbers for dial-in conferencing bridges, auto attendants or other service numbers, toll-free phone numbers, or have more than 999 user (subscriber) phone numbers that you need to transfer to Teams, see the **Manage phone numbers for your organization** web page in the **Additional resources** section below to download the correct forms and send them to us.
@@ -48,7 +48,7 @@ After you port your phone numbers over to Teams, Microsoft becomes your service 
     - Type of phone numbers: Type of number, such as geographic or toll-free numbers.
     - Numbers assigned to: What the numbers are assigned to. For example, users, or conferencing or voice features.
 
-    :::image type="content" source="../media/4-select-country-region-number-type.png " alt-text="Porting Wizard – Select country/region and number type.":::
+    :::image type="content" source="../media/select-country-region-number-type.png " alt-text="Porting Wizard – Select country/region and number type.":::
 
 1. On the Add account information page, complete the following, and then select Next.
 
@@ -78,10 +78,10 @@ After you port your phone numbers over to Teams, Microsoft becomes your service 
 1. On the **Complete your order** page, select **Upload a signed Letter of Authorization** to upload a scanned copy of the signed Letter of Authorization (LOA).
 
     If you haven't already downloaded and signed the LOA, do the following:
-      a) Select Download the template to download the LOA for your country or region.
-      b) Print the LOA.
-      c) Have the LOA signed by the person who is authorized to make changes to the account.
-      d) Scan the signed LOA, and then select Upload a signed Letter of Authorization to upload it.
+      1. Select Download the template to download the LOA for your country or region.
+      2. Print the LOA.
+      3. Have the LOA signed by the person who is authorized to make changes to the account.
+      4. Scan the signed LOA, and then select Upload a signed Letter of Authorization to upload it.
 
     > [!NOTE]
     > After you upload your LOA, submit your order. Just uploading the LOA isn't sufficient. You have to also submit the order for it be processed.
@@ -95,13 +95,13 @@ In general, you can transfer any phone number that's from a supported provider, 
 - Land line phone numbers.
 - Mobile device phone numbers such as those used for cell phone and tablets.
   
-  >[NOTE]
+  >[!NOTE]
   >Transferring mobile numbers is only available in the United States and Puerto Rico.
 
 - Toll phone numbers.
 - Toll-free phone numbers.
 
-  >[ NOTE]
+  >[!NOTE]
   >Universal International Freephone Number (UIFN) can't be transferred to us.
 
 - Service phone numbers such as those used for conference bridges, auto attendants, etc.
@@ -111,7 +111,7 @@ In general, you can transfer any phone number that's from a supported provider, 
 
 **You can't transfer:**
 
->[NOTE]
+>[!NOTE]
 >At this time, you can't transfer any phone number or numbers that aren't from a supported country or region, including phone numbers from a VoIP phone provider. For a list of supported countries/regions, see **Country and region availability for Audio Conferencing and Calling Plans** in the **Additional resources** section in the Summary.
 
 - Phone numbers used for data connections like for DSL lines or broadband Internet connections.
@@ -120,7 +120,7 @@ In general, you can transfer any phone number that's from a supported provider, 
 If you have existing dedicated phone numbers that are being used for faxing, you can transfer these numbers over to Teams but your fax services won't continue to work as expected. Faxing services aren't available to Teams customers, even if you have licenses for Phone System, Domestic Calling Plan, or International Calling Plan.
 
 If you port the phone number to Teams, you can assign this phone number to a user in your organization instead of using it for faxing.
- >[NOTE]
+ >[!NOTE]
  >At this time in the United Kingdom, we currently don't support transferring UK non-geographic numbers including shared cost numbers for area codes 0843, 0844, 0845, 0870, 0871, 0872.
 
 #### What information do I need to provide

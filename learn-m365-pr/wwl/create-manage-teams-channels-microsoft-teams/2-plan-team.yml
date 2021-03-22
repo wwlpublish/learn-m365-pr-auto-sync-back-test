@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.create-manage-teams-channels-with-microsoft-teams.plan-your-team
+title: Plan your team
+metadata:
+  title: Plan your team
+  description: "Plan your team"
+  ms.date: 03/19/2021
+  author: wwlpublish
+  ms.author: tishaha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/2-plan-team.md)]

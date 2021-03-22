@@ -14,6 +14,4 @@ A calling plan includes a number of pre-paid minutes. Once the minutes in a call
 
 An administrator can purchase a calling plan using the Microsoft 365 Admin Center. You can buy different calling plans and assign them to users as appropriate, depending on their requirements.
 
-:::image type="content" source="../media/6-pricing-plan.png" alt-text="Pricing plan":::
-
-The pricing in this image is provided as an example. For current information on pricing, visit [Pricing for Calling Plans and Phone System](https://www.microsoft.com/microsoft-365/microsoft-teams/voice-calling)
+For current information on pricing, visit [Pricing for Calling Plans and Phone System](https://www.microsoft.com/microsoft-365/microsoft-teams/voice-calling)

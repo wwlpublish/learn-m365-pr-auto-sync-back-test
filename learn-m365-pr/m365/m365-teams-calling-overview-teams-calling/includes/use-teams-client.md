@@ -9,7 +9,6 @@ The middle pane provides a call history. You can filter this list to obtain a re
 
 The right-hand pane enables you to add speed dial icons.
 
-:::image type="content" source="../media/5-teams-client-calls.png" alt-text="Make calls through the Teams client":::
 
 ## Record a conversation
 
