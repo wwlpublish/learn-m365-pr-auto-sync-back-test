@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msteams-teamwork-endpoint.2-microsoft-graph-teamwork
+metadata:
+  title: Use Microsoft Graph with Microsoft Teams
+  description: Microsoft Graph can be used to integrate your custom applications and processes. Developers can use Microsoft graph to create new teams and channels, install apps in new teams and pin apps to a tab in new channels among other things. In this unit, you'll learn how to create an application that interacts with Microsoft Teams using Microsoft Graph.
+  ms.date: 03/12/2021
+  author: andrewconnell
+  ms.author: suzanz
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Use Microsoft Graph with Microsoft Teams
+durationInMinutes: 6
+content: |
+  [!include[](includes/2-microsoft-graph-teamwork.md)]
