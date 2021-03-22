@@ -8,7 +8,7 @@ The first step in your planning effort is determining the service you’re migra
 
 These questions will help determine the strategy your organization should use to migrate its email to Microsoft 365.
 
-### How to Decide for the right Migration Option
+### How to decide for the right migration option
 
 As you decide on the best migration or coexistence option for your company, you must keep in mind the following considerations:
 
