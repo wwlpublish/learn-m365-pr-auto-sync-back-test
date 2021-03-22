@@ -4,7 +4,7 @@ There are a couple of things to keep in mind when planning an implementation of 
 
 To help ensure a smooth transition to Microsoft 365 by using synchronization, it's highly recommended that you prepare your Active Directory forest first before you begin your Microsoft 365 directory synchronization deployment.
 
-When you [set up directory synchronization in Microsoft 365](https://support.office.com/article/set-up-directory-synchronization-in-office-365-1b3b5318-6977-42ed-b5c7-96fa74b08846?azure-portal=true), one of the steps is to [download and run the IdFix tool](https://support.office.com/article/download-and-run-the-idfix-tool-f4bd2439-3e41-4169-99f6-3fabdfa326ac?azure-portal=true). You can use the IdFix tool to help with the [directory cleanup](https://support.office.com/article/directory-cleanup-497593cf-24c6-491c-940b-7c86dcde9de0?azure-portal=true).
+When you [set up directory synchronization in Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization?view=o365-worldwide?azure-portal=true), one of the steps is to [download and run the IdFix tool](https://microsoft.github.io/idfix/installation/?azure-portal=true). You can use the [IdFix tool](https://microsoft.github.io/idfix/?azure-portal=true) to help with cleaning up your Active Directory.
 
 Your directory cleanup should focus on the following tasks:
 
@@ -18,7 +18,7 @@ When planning for directory synchronization, you should consider the following i
  *  Multi-forest deployment scenario
  *  Azure AD Connect synchronization features
 
-### Multi-forest Deployment Considerations
+### Multi-forest deployment considerations
 
 For multiple forests and Single Sign-on (SSO) options, use [Custom Installation of Azure AD Connect](https://go.microsoft.com/fwlink/p/?LinkId=698430?azure-portal=true).
 
@@ -35,9 +35,9 @@ Multi-forest hybrid deployment prerequisites are identical to the hybrid deploym
  *  **Certificates.** All hybrid deployments require a digital certificate issued by trusted third-party certificate authority (CA). For a multi-forest hybrid deployment, a single digital certificate cannot be used for multiple Active Directory forests. Each forest must use a globally trusted, dedicated CA-issued certificate for secure mail transport to function correctly in a hybrid deployment. The certificate used for hybrid deployment features for each forest in a multi-forest organization must differ in at least one of the following properties:
     
      *  **Common Name.** The common name (CN) of the digital certificate is part of the certificate subject. The common name must match the host being authenticated and is typically the external hostname for the Client Access server in the Active Directory forest. For example, mail.contoso.com. You should use the CN as the differentiating property between Active Directory certificates used in multi-forest hybrid deployments.
-     *  **Issuer.** The issuer is the third-party CA that verified the organization information and issued the certificate, such as VeriSign or Go Daddy. For example, one forest could have a certificate issued by VeriSign, and one forest could have a certificate issued by Go Daddy. **Note:** In this situation, it's critical that you identify when the certificates expire so that you can renew them appropriately. If you let the certificates expire, then their corresponding services will become untrusted.
+     *  **Issuer.** The issuer is the third-party CA that verified the organization information and issued the certificate, such as VeriSign or Go Daddy. For example, one forest could have a certificate issued by VeriSign, and one forest could have a certificate issued by Go Daddy. In this situation, it's critical that you identify when the certificates expire so that you can renew them appropriately. If you let the certificates expire, then their corresponding services will become untrusted.
 
-### Multi-forest Deployment Scenario
+### Multi-forest deployment scenario
 
 Consider the following scenario. It's an example of a topology that provides an overview of a typical Exchange 2013 deployment. Contoso, Ltd. is a multi-forest, multi-domain organization with two Active Directory forests configured as follows:
 

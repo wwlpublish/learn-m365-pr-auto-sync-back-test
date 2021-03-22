@@ -4,7 +4,7 @@ The following summarization describes how a federated authentication solution wo
 
 When a user must access a Web application from one of its federation partners, the user's organization is responsible for authenticating the user and providing identity information in the form of "claims" to the partner that hosts the Web application. The hosting partner uses its trust policy to map the incoming claims to claims that are understood by its Web application, which uses the claims to make authorization decisions.
 
-### Federated Authentication features
+### Federated authentication features
 
 A federated authentication system can provide extra advanced authentication requirements. Examples are smartcard-based authentication or third-party multifactor authentication. For more information, see [Deploying Active Directory Federation Services](https://docs.microsoft.com/windows-server/identity/ad-fs/deployment/windows-server-2012-r2-ad-fs-deployment-guide?azure-portal=true).
 

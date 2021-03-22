@@ -9,7 +9,7 @@ Designing a Microsoft 365 tenant begins with planning for your on-premises infra
 
 This module also examines the key areas that organizations must plan for to either move their Microsoft 365 service completely to the cloud or to hybridize their environment.
 
-After completing this module, you'll be able to:<br>
+After completing this module, you'll be able to:
 
  *  Describe authentication behavior for Office client apps when they connect with or without modern authentication to Exchange Online, SharePoint Online, and Skype for Business Online
  *  Explain multi-factor authentication in Microsoft 365 deployments

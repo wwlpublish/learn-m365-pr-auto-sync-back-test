@@ -9,26 +9,22 @@ When planning for Azure AD Connect Pass-through Authentication, you should keep 
  *  Supported scenarios
  *  Unsupported scenarios
 
-### Key Benefits of Using Azure AD Pass-Through Authentication
+### Key benefits of using Azure AD Pass-Through Authentication
 
 Key benefits of using Azure AD Pass-through Authentication include:
 
- *  User Benefits
-    
+ *  User benefits    
      *  Users use the same passwords to sign into both on-premises and cloud-based applications.
      *  Users spend less time talking to the IT helpdesk resolving password-related issues.
- *  Administrator Benefits
-    
+ *  Administrator benefits    
      *  No need for complex on-premises deployments or network configuration.
      *  Needs just a lightweight agent to be installed on-premises.
      *  No management overhead. The agent automatically receives improvements and bug fixes.
- *  Security Benefits
-    
+ *  Security benefits    
      *  On-premises passwords are never stored in the cloud in any form.
      *  The agent only makes outbound connections from within your network. Therefore, there is no requirement to install the agent in a perimeter network.
      *  Protects your user accounts by working seamlessly with [Azure AD Conditional Access policies](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal?azure-portal=true), including Multi-Factor Authentication (MFA), and by [filtering out brute force password attacks](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-smart-lockout?azure-portal=true).
- *  Sign-In Benefits
-    
+ *  Sign-In benefits    
      *  Extra agents can be installed on multiple on-premises servers to provide high availability of sign-in requests.
 
 ### Feature highlights

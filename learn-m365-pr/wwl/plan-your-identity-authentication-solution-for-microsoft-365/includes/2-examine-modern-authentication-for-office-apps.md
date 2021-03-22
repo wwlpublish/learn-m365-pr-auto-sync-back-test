@@ -21,13 +21,13 @@ To use modern authentication with Office 2013 client apps, prerequisite software
 
 To turn it on for Office 2013 client apps, see [Enable Modern Authentication for Office 2013 on Windows devices](https://support.office.com/article/enable-modern-authentication-for-office-2013-on-windows-devices-7dc1c01a-090f-4971-9677-f1b192d6c910?azure-portal=true).
 
-If you are using Active Directory Federation Services (AD FS) 2.0), you should first review the caveats with modern authentication as described in the following article titled [Office 2013 and Office 365 ProPlus modern authentication and client access filtering policies: Things to know before onboarding](https://go.microsoft.com/fwlink/p/?LinkId=717374?azure-portal=true).
+If you are using Active Directory Federation Services (AD FS) 2.0, you should first review the caveats with modern authentication as described in the following article titled [Office 2013 and Office 365 ProPlus modern authentication and client access filtering policies: Things to know before onboarding](https://go.microsoft.com/fwlink/p/?LinkId=717374?azure-portal=true).
 
 ### Authentication behavior
 
 The remainder of this unit examines authentication behavior for Office 2013 client apps (or later) when they connect with or without modern authentication to Exchange Online, SharePoint Online, and Skype for Business Online.
 
-#### Exchange Online<br>
+#### Exchange Online
 
 The following table describes the authentication behavior for Office 2013 or Office 2016 client apps when they connect to Exchange Online with or without modern authentication.
 
