@@ -33,21 +33,21 @@ Let's start by creating a Microsoft Teams app project. To do this, you'll use th
 
 Start by launching Visual Studio Code, and then select the **Microsoft Teams Toolkit** from the activity bar:
 
-![Screenshot of the Teams Toolkit in VSCode's activity bar](../media/05-vscode-activity-bar-microsoft-teams.png)
+![Screenshot of the Teams Toolkit in VSCode's activity bar](../media/05-vs-code-activity-bar-microsoft-teams.png)
 
 From the list of **Microsoft Teams: Commands**, select **Create a new Teams app**.
 
 The Teams Toolkit will prompt you to sign in to your Microsoft account. This will be used to register the Teams app in both your Microsoft 365 tenant's Microsoft Teams app store and Azure Active Directory (Azure AD). Select **Allow** and sign-in using your Microsoft 365 Work & school account.
 
-![Screenshot of the Microsoft sign in dialog](../media/05-vscode-microsoft-365-signin.png)
+![Screenshot of the Microsoft sign in dialog](../media/05-vs-code-microsoft-365-sign-in.png)
 
 After signing in, the toolkit prompts you to select a project type to create. Because this project will use the Microsoft Graph, which requires all requests to include OAuth2 access token for authorization, create a new bot project using the single sign-on (SSO) capability supported by Microsoft Teams. Select the **JavaScript** option for **Conversation Bot SSO quick-start** app type:
 
-![Screenshot of the project creation option](../media/07-vscode-create-project-01.png)
+![Screenshot of the project creation option](../media/07-vs-code-create-project-01.png)
 
 On the **Configure project** screen, you're prompted for the **Application name** and **Azure AD single sign-on** domain name:
 
-![Screenshot of the configure project dialog](../media/07-vscode-create-project-02.png)
+![Screenshot of the configure project dialog](../media/07-vs-code-create-project-02.png)
 
 Set the **Application name** to **My SSO Bot** and select **Finish**
 
@@ -97,7 +97,7 @@ In the console, run the following command to start ngrok:
 ngrok http host-header=rewrite 3978
 ```
 
-When ngrok starts, it will display the temporary subdomain. In this case, the URL https://d278172570e1.ngrok.io is forwarding all requests to https://localhost:3978 that you'll start later in the exercise.
+When ngrok starts, it will display the temporary subdomain. In this case, the URL `https://d278172570e1.ngrok.io` is forwarding all requests to `https://localhost:3978` that you'll start later in the exercise.
 
 ![Screenshot of the running ngrok process](../media/07-ngrok-01.png)
 
@@ -139,7 +139,7 @@ In the **Bot Channels Registration** screen, enter the following values, but don
 - **Resource group**: *Select the resource group you created previously*
 - **Location**: *Select your preferred Azure region*
 - **Pricing tier**: *Select a preferred pricing tier; the F0 tier is free*
-- **Messaging endpoint**: https://REPLACE_THIS.ngrok.io/api/messages
+- **Messaging endpoint**: `https://REPLACE_THIS.ngrok.io/api/messages`
 
   > The bot registration needs to know the endpoint of the web service where the bot is implemented. This will change each time you start the ngrok utility used in previous exercises.
 

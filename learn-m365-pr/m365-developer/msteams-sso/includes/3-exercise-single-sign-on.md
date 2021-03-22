@@ -14,7 +14,7 @@ On the **Register an application** page, set the values as follows, and then sel
 
 - **Name**: My Teams SSO App
 - **Supported account types**: Accounts in any organizational directory (Any Azure AD directory - Multitenant)
-- **Redirect URI**: Web & https://REPLACE.ngrok.io/auth-end
+- **Redirect URI**: Web & `https://REPLACE.ngrok.io/auth-end`
 
 ![Screenshot of the Register an application page](../media/03-azure-ad-app-registration-02.png)
 

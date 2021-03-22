@@ -1,5 +1,5 @@
 ### YamlMime:Module
-uid: learn-m365.msteams-auth-sso
+uid: learn-m365.msteams-sso
 metadata:
   title: Microsoft Teams – Authentication and Single Sign-on
   description: In this module, you'll learn about the different authentication flows supported by Microsoft Teams that you can use in your custom apps.
@@ -20,7 +20,7 @@ prerequisites: |
   - Basic knowledge of Microsoft Graph
   - Experience using Visual Studio Code at the beginner level
   - Valid Microsoft 365 Subscription
-iconUrl: /learn/achievements/msteams-auth-sso.svg
+iconUrl: /learn/achievements/msteams-sso.svg
 levels:
   - intermediate
 roles:
@@ -29,13 +29,13 @@ products:
   - m365
   - office-teams
 units:
-  - learn-m365.msteams-auth-sso.1-introduction
-  - learn-m365.msteams-auth-sso.2-authentication-single-sign-on
-  - learn-m365.msteams-auth-sso.3-exercise-single-sign-on
-  - learn-m365.msteams-auth-sso.4-tabs-sso
-  - learn-m365.msteams-auth-sso.5-exercise-tabs-sso
-  - learn-m365.msteams-auth-sso.6-bots-sso
-  - learn-m365.msteams-auth-sso.7-exercise-bots-sso
-  - learn-m365.msteams-auth-sso.8-summary
+  - learn-m365.msteams-sso.1-introduction
+  - learn-m365.msteams-sso.2-authentication-single-sign-on
+  - learn-m365.msteams-sso.3-exercise-single-sign-on
+  - learn-m365.msteams-sso.4-tabs-sso
+  - learn-m365.msteams-sso.5-exercise-tabs-sso
+  - learn-m365.msteams-sso.6-bots-sso
+  - learn-m365.msteams-sso.7-exercise-bots-sso
+  - learn-m365.msteams-sso.8-summary
 badge:
-  uid: learn-m365.msteams-auth-sso.badge
+  uid: learn-m365.msteams-sso.badge
