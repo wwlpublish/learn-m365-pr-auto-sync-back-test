@@ -4,12 +4,12 @@ title: Plan a hybrid Teams and Skype for Business environment
 metadata:
   title: Plan a hybrid Teams and Skype for Business environment
   description: "Plan a hybrid Teams and Skype for Business environment"
-  ms.date: 03/19/2021
+  ms.date: 03/22/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-durationInMinutes: 3
+durationInMinutes: 10
 content: |
   [!include[](includes/4-plan-hybrid-skype-for-business-environment.md)]

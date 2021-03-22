@@ -10,7 +10,7 @@ Creating a SharePoint hybrid environment is about using both SharePoint Server o
 
 Most of these functions can be addressed by using the SharePoint Online Hybrid Picker, which can be downloaded from the SharePoint Online Admin Center. The Enterprise Administrator can use the Hybrid Picker wizard to redirect OneDrive for Business to SharePoint Online, apply hybrid site features or the app launcher, and add some extra integration between on-premises SharePoint Server and an extra-net site that was created in Microsoft 365. The Hybrid Picker also creates a Server-to-Server (S2S)/OAuth connection for your SharePoint Hybrid features.
 
-> Note: Before using the Hybrid Picker tool, [.NET Framework 4.6.2](https://www.microsoft.com/download/details.aspx?id=53321?azure-portal=true) must be installed.
+> Note: Before using the Hybrid Picker tool, [.NET Framework 4.6.2](https://www.microsoft.com/download/details.aspx?id=53345?azure-portal=true) must be installed.
 
 For the enterprise administrator, you must satisfy several account requirements before you can run the Hybrid Picker tool. These requirements include being:
 
