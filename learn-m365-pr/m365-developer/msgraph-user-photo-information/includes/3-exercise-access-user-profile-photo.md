@@ -78,7 +78,7 @@ In this exercise, you'll clone a GitHub repository, add Azure Active Directory I
         imgPhoto.style = "display: block"; 
     } 
     ```
-1. Open the **auth.js** file and append the following code into the existing **signIn()** function. This code will show a button that a signed-in user can select to view their profile photo. The button will remain hidden if the user is not signed in.
+1. Open the **ui.js** file and append the following code into the existing **displayUI()** function. This code will show a button that a signed-in user can select to view their profile photo. The button will remain hidden if the user is not signed in.
 
     ```javascript
     var showPhotoButton= document.getElementById('showProfilePhoto'); 

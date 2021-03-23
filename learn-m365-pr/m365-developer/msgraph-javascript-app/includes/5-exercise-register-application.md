@@ -18,4 +18,4 @@ In this exercise, you'll learn how to register a single-page application in Azur
 
 10.	After your application is successfully registered, select **Overview**.
 11.	Copy the **Application (client) ID** and **Directory (tenant) ID** and save the values somewhere. You'll need them in the upcoming steps. 
-:::image type="content" source="../media/5-register-app.png" alt-text="Screenshot showing how to copy app and directory IDs.":::
+:::image type="content" source="../media/5-app-id.png" alt-text="Screenshot showing how to copy app and directory IDs.":::

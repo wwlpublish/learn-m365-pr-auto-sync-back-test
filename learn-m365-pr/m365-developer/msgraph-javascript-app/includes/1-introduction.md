@@ -18,9 +18,9 @@ In this module, you will:
 
 ## Scenario
 
-Your development team is in the initial planning stages for building a customer application. The application will allow salespeople to access historical information about previous customer interactions such as emails, chats, files, and meetings so that better decisions can be made when interacting with customers.  Your company currently uses Microsoft Identity to authenticate employees and your team plans to use that along with Microsoft Graph to access customer interaction data and display it in the application. 
+Your development team is in the initial planning stages for building a customer application. The application will allow salespeople to access historical information about previous customer interactions such as emails, chats, files, and meetings so that better decisions can be made when interacting with customers. Because Microsoft 365 uses Microsoft Identity to authenticate users, your team plans to use that along with Microsoft Graph to access customer interaction data and display it in the application. 
 
-You have created a simple prototype application to help get your team started using Microsoft Identity and Microsoft Graph together to retrieve the required data. The application uses the Microsoft Authentication Library (MSAL) to authenticate users and with the initial prototype application ready to go, your team plans to: 
+You have created a simple prototype application to help get your team started using Microsoft Identity and Microsoft Graph together to retrieve the required data. The application uses the Microsoft Authentication Library (MSAL) to authenticate users and, with the initial prototype application ready to go, your team plans to: 
 
 - Register the application in Azure Active Directory (Azure AD). 
 - Test the process of authenticating application users and receiving an access token (step 1 below). 
