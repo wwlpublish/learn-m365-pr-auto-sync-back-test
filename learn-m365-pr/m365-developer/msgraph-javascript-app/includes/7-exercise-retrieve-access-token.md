@@ -29,13 +29,15 @@ This exercise gets you started running an application that logs a user into Azur
 1. In the same **auth.js** file, locate the authority property on line 6 and replace the <your directory ID here> value with the **Directory (tenant) ID** of the Azure AD application (spa-aad-app) that was registered earlier. You can get this from the overview page of the Azure AD application (spa-aad-app).
 1. Now that you've added the appropriate Azure AD IDs into **auth.js**, take a moment to explore the code in the file. Notice that it contains the following functions:
 
-    - **signIn()** - Signs in the user and uses Microsoft Graph to retrieve the user's profile.
+    - **signIn()** - Signs in the user.
     - **getToken()** - Handles getting an access token that can be used by Microsoft Graph.
 
 1. Open the **graph.js** file and note that it grabs an access token, calls Microsoft Graph's `/me` API, and selects the user's ID and displayName values. Notice how the access token is retrieved and added to the authorization header that is sent with the request to `/me`.
 1. Finally, open **ui.js** and take a moment to explore the **displayUI()** function. It is responsible for showing and hiding elements in **index.html** and displaying the users name after they login.
  
 ## Run the app
+
+For this step, make sure you have Node.js installed in your machine.
 
 It’s time to see your application run locally.  
 
@@ -49,7 +51,7 @@ It’s time to see your application run locally.
 
     :::image type="content" source="../media/7-sign-in-button.png" alt-text="The screenshot of the sign in button.":::
 
-1. Sign in using an account in the same Microsoft 365 developer tenant, used in unit 4, where you registered the Azure Active Directory Application.
+1. Sign in using an account in the same Microsoft 365 developer tenant used in unit 4, where you registered the Azure Active Directory Application.
 1. After successfully signing in, you will be prompted to give consent as shown below:
 
      :::image type="content" source="../media/7-consent-page.png" alt-text="The screenshot of the consent page.":::
