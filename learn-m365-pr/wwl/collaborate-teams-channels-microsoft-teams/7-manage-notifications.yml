@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.collaborate-teams-channels-with-microsoft-teams.manage-notifications
+title: Manage notifications
+metadata:
+  title: Manage notifications
+  description: "Manage notifications"
+  ms.date: 03/23/2021
+  author: wwlpublish
+  ms.author: tishaha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/7-manage-notifications.md)]
