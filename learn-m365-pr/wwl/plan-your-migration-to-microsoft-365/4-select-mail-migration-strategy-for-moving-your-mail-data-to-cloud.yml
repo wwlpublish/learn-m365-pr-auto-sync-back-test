@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-your-migration-to-microsoft-365.select-mail-migration-strategy-for-moving-your-mail-data-to-cloud
+title: Select the mail migration strategy for moving your mail data to the cloud
+metadata:
+  title: Select the mail migration strategy for moving your mail data to the cloud
+  description: "Select the mail migration strategy for moving your mail data to the cloud"
+  ms.date: 03/24/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/4-select-mail-migration-strategy-for-moving-your-mail-data-to-cloud.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "You're the Enterprise Administrator for Tailspin Toys, Inc. As you plan your Microsoft 365 deployment, you want to select the most appropriate strategy for Tailspin Toys when migrating mail, calendar, and contact information to the cloud. You want to move your entire email organization (3000 mailboxes) to Microsoft 365 and manage user accounts in Microsoft 365. You realize it may take more than a few days to migrate batches of on-premises mailboxes to Microsoft 365. In fact, it may take a few weeks or months. Which migration strategy should you employ to meet these business requirements?"
+    choices:
+    - content: "Cutover migration"
+      isCorrect: false
+      explanation: "That's incorrect. A cutover migration can migrate all on-premises mailboxes to Microsoft 365 over a few days, but you can only migrate a maximum of 2000 mailboxes, with a recommended maximum of 150 before performance begins to suffer. Try again."
+    - content: "IMAP migration"
+      isCorrect: false
+      explanation: "That's incorrect. An IMAP migration migrates the contents of users' mailboxes from an IMAP messaging system to their Microsoft 365 mailboxes, which is not the case at Tailspin Toys. Try again."
+    - content: "Staged migration"
+      isCorrect: true
+      explanation: "That's correct. A staged migration migrates batches of on-premises mailboxes to Microsoft 365 over the course of a few weeks or months, and it ultimately allows you to manage user accounts in Microsoft 365."
