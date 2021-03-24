@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.teams-calling-implement-calling-plans.introduction
+metadata:
+  title: Introduction
+  description: Explore the steps necessary to implement Calling Plans. You will learn how to determine Call Plan availability, how to set up Call Plans, and some considerations for deploying both Call Plans and Direct Routing.
+  ms.date: 02/12/2021
+  author: iankensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Introduction
+durationInMinutes: 1
+content: |
+  [!include[](includes/introduction.md)]

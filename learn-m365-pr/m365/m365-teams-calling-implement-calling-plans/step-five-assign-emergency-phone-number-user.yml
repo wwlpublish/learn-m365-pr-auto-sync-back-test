@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.teams-calling-implement-calling-plans.step-five-assign-emergency-phone-number-user
+metadata:
+  title: Step 5 - Assign an emergency address and a phone number to a user
+  description: Learn how to setup an emergency address for each phone number or user.
+  ms.date: 02/12/2021
+  author: iankensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Step 5 - Assign an emergency address and a phone number to a user
+durationInMinutes: 3
+content: |
+  [!include[](includes/step-five-assign-emergency-phone-number-user.md)]

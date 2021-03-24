@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.m365-teams-calling-setup-phone-system-for-teams.knowledge-check
+metadata:
+  title: Knowledge check
+  description: Knowledge check
+  ms.date: 03/10/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+title: Knowledge check
+durationInMinutes: 3
+content: |
+quiz:
+  title: Check your knowledge
+  questions:
+
+  - content: "Staff in your organization often work outside of the office. Sometimes, your users might not have access to a Microsoft Teams client. You want to make it possible for users to dial into meetings without having to use the Microsoft Teams client. What will you do to meet this need?"
+    choices:
+    - content: "Set up Audio Conferencing"
+      isCorrect: true
+      explanation: "That's correct. This will enable your users to dial in to meetings without having to use the Microsoft Teams app on their mobile or their desktop device."
+    - content: "Set up call queues" 
+      isCorrect: false
+      explanation: "That's incorrect. Call queues are useful for organizing and routing large numbers of incoming calls. But this doesn't address the problem. You still need to find a way to enable users to dial into meetings without their Teams client."
+    - content: "Set up auto attendants"
+      isCorrect: false
+      explanation: "That's incorrect. Auto attendants enable users to be directed through a menu system that will take them to the right department or person. But this doesn't address the problem. You still need to find a way to enable users to dial into meetings without their Teams client."
+
+  - content: "Users in your organization make daily calls to customers and partners. To help support your company's brand, you want to make sure that your office's main number is shown when your users make calls to a PSTN number through Microsoft Teams. Which key capability of Phone System will you implement?"
+    choices:
+    - content: "Call blocking" 
+      isCorrect: false
+      explanation: "That's incorrect. Call blocking will help you to block calls. But it doesn't enable you to replace the callers' numbers."
+    - content: "Call parking" 
+      isCorrect: false
+      explanation: "That's incorrect. Call parking will make it possible for users to place a call on hold so that other users can retrieve the call later down the line. But this doesn't enable you to replace callers' numbers."
+    - content: "Caller ID"
+      isCorrect: true
+      explanation: "That's correct. Caller ID policies enable you to show alternative phone numbers for Microsoft Teams users in your organization when they make a call, or prevent phone numbers of incoming calls from being visible."
+
+  - content: "You want to update an emergency calling policy to use a new email address to notify the security desk team of emergency calls. Using PowerShell, how will update the policy?"
+    choices:
+    - content: "Use the **Update-CsTeamsEmergencyCallingPolicy** cmdlet."
+      isCorrect: false
+      explanation: "That's incorrect. This cmdlet isn't valid, so it wouldn't work."
+    - content: "Use the **Set-CsTeamsEmergencyCallingPolicy** cmdlet."
+      isCorrect: true
+      explanation: "This cmdlet will let enable you to update the email address using through its **-NotificationGroup** parameter."
+    - content: "Use the **New-CsTeamsEmergencyCallingPolicy** cmdlet." 
+      isCorrect: false
+      explanation: "That's incorrect.	You use this cmdlet to create a new policy, not to update one that already exists."

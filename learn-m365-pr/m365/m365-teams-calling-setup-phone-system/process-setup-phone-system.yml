@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.m365-teams-calling-setup-phone-system-for-teams.process-setup-phone-system
+metadata:
+  title: Use the 10-step process to set up Phone System
+  description: Go through the process for setting up Phone System across your organization.
+  ms.date: 03/10/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+title: Use the 10-step process to set up Phone System
+durationInMinutes: 8
+content: |
+  [!include[](includes/process-setup-phone-system.md)]

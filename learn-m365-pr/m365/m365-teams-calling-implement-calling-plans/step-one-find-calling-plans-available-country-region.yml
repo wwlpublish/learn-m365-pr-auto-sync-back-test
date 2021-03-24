@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.teams-calling-implement-calling-plans.step-one-find-calling-plans-available-country-region
+metadata:
+  title: Step 1 - Find out if Calling Plans are available for your country or region
+  description: Learn how to find out if Calling Plans are available in your country and region. 
+  ms.date: 02/12/2021
+  author: iankensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Step 1 - Find out if Calling Plans are available for your country or region
+durationInMinutes: 1
+content: |
+  [!include[](includes/step-one-find-calling-plans-available-country-region.md)]
