@@ -64,7 +64,7 @@ Microsoft supports the following multi-forest hybrid scenarios:
 
 Customers with deployments of Skype for Business in multiple forests must first fully migrate each Skype for Business forest individually into the Microsoft 365 tenant using split-domain (Shared SIP Address Space) functionality. Once that is complete, they can then disable hybrid with the on-premises deployment, and then move on to migrate the next on-premises Skype for Business deployment.
 
-> ![Note]
+> [!NOTE]
 > Prior to being migrated to the cloud, on-premises users remain in a federated state with any users that are not represented in the same user’s on-premises directory. For more information, see [Cloud consolidation for Teams and Skype for Business](https://aka.ms/AA4jrup?azure-portal=true).
 
 ### Port and protocol requirements
