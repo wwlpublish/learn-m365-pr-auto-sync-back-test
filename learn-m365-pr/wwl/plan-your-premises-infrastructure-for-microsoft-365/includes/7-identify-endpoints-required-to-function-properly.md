@@ -49,7 +49,7 @@ The **Row** column identifies whether there's a specific subnet you must use if 
     No
   :::column-end:::
   :::column:::
-    <a href="https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_portal_ip?azure-portal=true">portal and shared IP ranges</a>
+    <a href="https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2;ad=US#bkmk_portal_ip?azure-portal=true">portal and shared IP ranges</a>
   :::column-end:::
   :::column:::
     TCP 443
@@ -66,7 +66,7 @@ The **Row** column identifies whether there's a specific subnet you must use if 
     Yes
   :::column-end:::
   :::column:::
-    <a href="https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_portal_ip?azure-portal=true">portal and shared IP ranges</a> and <a href="https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_exo_ip?azure-portal=true">Exchange Online IP ranges</a>.
+    <a href="https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2;ad=US#bkmk_portal_ip?azure-portal=true">portal and shared IP ranges</a> and <a href="https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2;ad=US#bkmk_exo_ip?azure-portal=true">Exchange Online IP ranges</a>.
   :::column-end:::
   :::column:::
     TCP 443
@@ -83,7 +83,7 @@ The **Row** column identifies whether there's a specific subnet you must use if 
     Yes
   :::column-end:::
   :::column:::
-    <a href="https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_sfb_ip?azure-portal=true">Skype for Business IP ranges</a>.
+    <a href="https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2;ad=US#bkmk_sfb_ip?azure-portal=true">Skype for Business IP ranges</a>.
   :::column-end:::
   :::column:::
     TCP 443
@@ -100,7 +100,7 @@ The **Row** column identifies whether there's a specific subnet you must use if 
     No
   :::column-end:::
   :::column:::
-    <a href="https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_portal_ip?azure-portal=true">portal and shared IP ranges</a> - Internet-only IPs.
+    <a href="https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2;ad=US#bkmk_portal_ip?azure-portal=true">portal and shared IP ranges</a> - Internet-only IPs.
   :::column-end:::
   :::column:::
     TCP 443
@@ -134,7 +134,7 @@ The **Row** column identifies whether there's a specific subnet you must use if 
     Yes
   :::column-end:::
   :::column:::
-    <a href="https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_portal_ip?azure-portal=true">portal and shared IP ranges</a>
+    <a href="https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2;ad=US#bkmk_portal_ip?azure-portal=true">portal and shared IP ranges</a>
   :::column-end:::
   :::column:::
     TCP 443
@@ -307,4 +307,4 @@ The **Row** column identifies whether there's a specific subnet you must use if 
 :::row-end:::
 
 
-**Additional reading.** For more information, see the following article on [optional URL’s and IP address ranges](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US?azure-portal=true).
+**Additional reading.** For more information, see the following article on [optional URL’s and IP address ranges](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?azure-portal=true).
