@@ -1,0 +1,43 @@
+### YamlMime:Module
+uid: learn-m365.msteams-teamwork-endpoint
+metadata:
+  title: Microsoft Teams – Use the teamwork Microsoft Graph endpoint
+  description: Learn how to use Microsoft Graph to interact with Microsoft Teams
+  ms.date: 03/12/2021
+  author: andrewconnell
+  ms.author: suzanz
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Microsoft Teams – Use the teamwork Microsoft Graph endpoint
+summary: Microsoft Teams is the ultimate hub for teamwork & intelligent communications. Microsoft Teams delivers chat-based collaboration, meetings, calling, and enterprise voice features. Developers can tap into the power of Microsoft Teams with Microsoft Graph to integrate your custom applications. In this module, you'll learn how to use Microsoft Graph to interact with Microsoft Teams.
+abstract: |
+  At the end of this module, you should be able to:
+  - Understand how to use Microsoft Graph to communicate with Microsoft Teams
+  - Demonstrate how to get a list of all teams and a specific team with Microsoft Graph
+  - Demonstrate how to configure build-in tabs within a Microsoft Teams team with Microsoft Graph
+  - Demonstrate how to send a notification to a user or a channel using the Microsoft Teams activity feed with Microsoft Graph
+prerequisites: |
+  - Experience using Microsoft Teams at the intermediate level
+  - Ability to program with JavaScript, TypeScript, and Node.js
+  - Experience using Visual Studio Code at the intermediate level
+  - Intermediate knowledge of Microsoft Graph
+  - Access to a Microsoft 365 tenant
+iconUrl: /learn/achievements/msteams-teamwork-endpoint.svg
+levels:
+  - intermediate
+roles:
+  - developer
+products:
+  - m365
+  - office-teams
+units:
+  - learn-m365.msteams-teamwork-endpoint.1-introduction
+  - learn-m365.msteams-teamwork-endpoint.2-microsoft-graph-teamwork
+  - learn-m365.msteams-teamwork-endpoint.3-exercise-teamwork-endpoint-introduction
+  - learn-m365.msteams-teamwork-endpoint.4-manage-configurable-tabs
+  - learn-m365.msteams-teamwork-endpoint.5-exercise-configure-tab
+  - learn-m365.msteams-teamwork-endpoint.6-activity-feed
+  - learn-m365.msteams-teamwork-endpoint.7-exercise-activity-feed
+  - learn-m365.msteams-teamwork-endpoint.8-summary
+badge:
+  uid: learn-m365.msteams-teamwork-endpoint.badge

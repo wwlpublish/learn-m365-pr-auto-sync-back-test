@@ -1,0 +1,39 @@
+### YamlMime:Module
+uid: learn.wwl.introduction-to-collaborating-with-microsoft-teams
+metadata:
+  title: Introduction to collaborating with Microsoft Teams
+  description: "Learn how you can use Microsoft Teams to communicate and collaborate more effectively with the people you work with."
+  ms.date: 03/22/2021
+  author: wwlpublish
+  ms.author: tishaha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Introduction to collaborating with Microsoft Teams
+summary: Learn how you can use Microsoft Teams to communicate and collaborate more effectively with the people you work with.
+abstract: |
+  After completing this module, you should be able to:
+  - Describe the value of using Microsoft Teams for collaboration
+  - Identify the core features of Microsoft Teams
+  - Identify scenarios appropriate for using Microsoft Teams
+prerequisites: |
+  - Familiarity with Microsoft Teams.
+iconUrl: /learn/achievements/get-started-with-microsoft-teams.svg
+levels:
+- beginner
+roles:
+- business-analyst
+- business-owner
+- business-user
+- student
+products:
+- m365
+- office-teams
+units:
+- learn.wwl.introduction-to-collaborating-with-microsoft-teams.introduction
+- learn.wwl.introduction-to-collaborating-with-microsoft-teams.what-is
+- learn.wwl.introduction-to-collaborating-with-microsoft-teams.how-to-collaborate
+- learn.wwl.introduction-to-collaborating-with-microsoft-teams.when-to-use
+- learn.wwl.introduction-to-collaborating-with-microsoft-teams.knowledge-check
+- learn.wwl.introduction-to-collaborating-with-microsoft-teams.summary
+badge:
+  uid: learn.wwl.introduction-to-collaborating-with-microsoft-teams.badge

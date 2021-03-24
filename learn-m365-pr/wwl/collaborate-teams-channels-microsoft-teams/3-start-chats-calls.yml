@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.collaborate-teams-channels-with-microsoft-teams.start-chats-calls
+title: Start chats and calls
+metadata:
+  title: Start chats and calls
+  description: "Start chats and calls"
+  ms.date: 03/23/2021
+  author: wwlpublish
+  ms.author: tishaha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/3-start-chats-calls.md)]
