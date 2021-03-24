@@ -50,7 +50,7 @@ To deploy AD FS in this limited firewall case, you should complete the following
     4. Update claims-based web sites to use the external FQDN for their claims provider.
 8.  Restrict access between Web Application Proxy to any machine in the AD FS virtual network. To restrict traffic, the load-balanced set for the Azure internal load balancer needs to be configured for only traffic to TCP ports 80 and 443, and all other traffic to the internal DIP of the load balanced set is dropped.
 
-:::image type="content" source="../media/adfs-network-alc-19cbf873.png" alt-text="graphic showing ADFS Network ACLs":::
+  :::image type="content" source="../media/adfs-network-alc-19cbf873.png" alt-text="graphic showing ADFS Network ACLs":::
 
 
 Traffic to the AD FS servers would be permitted only by the following sources:

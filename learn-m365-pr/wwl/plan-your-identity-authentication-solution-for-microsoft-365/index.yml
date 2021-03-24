@@ -19,7 +19,7 @@ abstract: |
   - Contrast the options available for restricting traffic in an AD FS deployment
   - Plan for Azure AD Seamless Single Sign-On
 prerequisites: ""
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/plan-your-identity-and-authentication-solution-for-microsoft-365.svg
 levels:
 - intermediate
 roles:
