@@ -4,7 +4,7 @@ Now it's time to build something using all the concepts you have learned up to t
 
 ## Set up the app
 
-This exercise gets you started running an application that logs a user into Azure AD and makes a call to Microsoft Graph. You'll clone a GitHub repository and then configure the application to run locally on your machine.
+This exercise gets you started running an application that logs a user into Azure AD and makes a call to Microsoft Graph. You'll access a GitHub repository and then configure the application to run locally on your machine.
 
 1. Open a terminal window on your computer and go to the folder where you want to save the app.
 1. To get the source code, visit [https://github.com/MicrosoftDocs/mslearn-retrieve-m365-data-with-msgraph-quickstart](https://github.com/MicrosoftDocs/mslearn-retrieve-m365-data-with-msgraph-quickstart) and choose from one of the following options:
@@ -25,8 +25,8 @@ This exercise gets you started running an application that logs a user into Azur
     - **ui.js** - Handles user interface elements defined in **index.html**.
     
 1. Open the **auth.js** file, locate the constant `msalConfig` on line 4
-1. Replace the value of the clientId property with the copied **Application (client) ID** from the Azure AD application (spa-aad-app) which was registered earlier. You can get this from the overview page of the Azure AD application (spa-aad-app).
-1. In the same **auth.js** file, locate the authority property on line 6 and replace the <your directory ID here> value with the **Directory (tenant) ID** of the Azure AD application (spa-aad-app) that was registered earlier. You can get this from the overview page of the Azure AD application (spa-aad-app).
+1. Replace the value of the **clientId** property with the copied **Application (client) ID** from the Azure AD application (spa-aad-app) which was registered earlier. You can get this from the overview page of the Azure AD application (spa-aad-app).
+1. In the same **auth.js** file, locate the **authority** property on line 6 and replace the <your directory ID here> value with the **Directory (tenant) ID** of the Azure AD application (spa-aad-app) that was registered earlier. You can get this from the overview page of the Azure AD application (spa-aad-app).
 1. Now that you've added the appropriate Azure AD IDs into **auth.js**, take a moment to explore the code in the file. Notice that it contains the following functions:
 
     - **signIn()** - Signs in the user.

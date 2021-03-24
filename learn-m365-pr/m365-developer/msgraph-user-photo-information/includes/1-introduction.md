@@ -6,6 +6,7 @@ Microsoft Graph provides access to data stored across Microsoft 365 services. Cu
 - Ability to develop JavaScript applications
 - Basic understanding of Azure Active Directory and [Microsoft Identity](https://docs.microsoft.com/learn/modules/getting-started-identity/?WT.mc_id=m365-16105-cxa) concepts is recommended. 
 - [Node.js](https://nodejs.org)
+- Complete module [Configure a JavaScript application to retrieve Microsoft 365 data using Microsoft Graph](https://docs.microsoft.com/learn/modules/msgraph-javascript-app/?WT.mc_id=m365-16105-cxa)
 
 ## Learning objectives
 

@@ -1,4 +1,4 @@
-Now that you have identified the need to display photo of the salesperson in your application, let’s pause for a moment and understand why you need Microsoft Graph to access this information. 
+Now that you have identified the need to display a salesperson photo in your application, let’s pause for a moment and understand why you need Microsoft Graph to access this information. 
 
 Your profile photo is an identity of who you are. It's a personal branding that allows people to instantly associate a name with a face and make it easier for people to know who they're interacting with in an application. A profile photo can be of a user, group, or an Outlook contact in the Microsoft 365 eco-system. Let’s look at some of the common components where profile photos are used effectively:
 
@@ -28,4 +28,4 @@ If you would like to retrieve the metadata of the photo for a signed in user, yo
 ```http
 GET https://graph.microsoft.com/v1.0/me/photo
 ```
-The Microsoft Graph endpoints are not limited to the signed in user’s photo. You can retrieve the photo of any user, group, or contact.
+The Microsoft Graph endpoints are not limited to the signed in user’s photo. You can securely retrieve the photo of users, groups, or contacts.
