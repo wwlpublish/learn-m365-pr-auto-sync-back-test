@@ -16,7 +16,7 @@ To use modern authentication with Office 2013 client apps, prerequisite software
 2.  On the **File** menu, choose **Office Account**.
 3.  For Outlook 2013 Click-to-Run installations, an **Update Options** item is displayed. For MSI-based installations, the **Update Options** item is not displayed.
 
-  :::image type="content" source="../media/outlook2013-click-to-run-e8aa57de.png" alt-text="screen shots that compare Outlook 2013 Click-to-Run installations showing the Update Options item versus Outlook 2013 for MSI-based installations that do not show the Update Options item":::
+    :::image type="content" source="../media/outlook2013-click-to-run-e8aa57de.png" alt-text="screen shots that compare Outlook 2013 Click-to-Run installations showing the Update Options item versus Outlook 2013 for MSI-based installations that do not show the Update Options item":::
 
 
 To turn it on for Office 2013 client apps, see [Enable Modern Authentication for Office 2013 on Windows devices](https://support.office.com/article/enable-modern-authentication-for-office-2013-on-windows-devices-7dc1c01a-090f-4971-9677-f1b192d6c910?azure-portal=true).
