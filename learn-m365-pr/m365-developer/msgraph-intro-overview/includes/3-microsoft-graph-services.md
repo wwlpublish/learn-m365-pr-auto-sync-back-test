@@ -12,13 +12,13 @@ Accessing that type of functionality is key to the sales application scenario as
 
 Graph services support scenarios related to identity, security, productivity, collaboration, workspace intelligence, and more. 
 
-For example, to access a specific user’s profile based on their alias, you can consume the Graph REST API below: 
+For example, to access a specific user’s profile the following Microsoft Graph REST API call can be used:
 
 ```http
 GET /users/michellec@M365x214355.OnMicrosoft.com
 ```
 
-Graph REST API call above will return profile information about Michelle that can be displayed in the application.
+The REST API call shown above will return profile information about Michelle that can be displayed in the application.
 
 ```json
 { 
@@ -37,7 +37,7 @@ Graph REST API call above will return profile information about Michelle that ca
 } 
 ```
 
-Information about Michelle’s direct reports can be retrieved using the API call shown below:
+Information about Michelle’s direct reports can be retrieved using the REST API call shown below:
 
 ```http
 GET /users/michellec@M365x214355.OnMicrosoft.com/directReports
@@ -75,15 +75,15 @@ This call will return data as shown below:
 } 
 ```
 
-In addition to making direct calls to Microsoft Graph REST APIs, you can also use the Microsoft Graph SDK (Software Developer Kit) client libraries to simplify the process of calling an API. Next modules in this Learn path provide examples of using the SDK. 
+In addition to making direct calls to Microsoft Graph REST APIs, you can also use the Microsoft Graph SDK (Software Developer Kit) client libraries to simplify the process of calling an API. The next modules in this Learn path provide examples of using the SDK. 
 
 There are many different services that can be called using Microsoft Graph as mentioned earlier. Let’s look at three specific areas where Microsoft Graph can help you integrate Microsoft 365 data into your apps. 
 
 ## Identity and Access Management
 
-Imagine a large sales company with hundreds of employees. Everyone in the company needs to access many apps, devices, and services throughout the day. So that, the company requires a secure identity and access flow in place across the entire organization.  
+Imagine a large sales company with hundreds of employees. Everyone in the company needs to access many apps, devices, and services throughout the day. The company requires a secure identity and access flow in place across the entire organization.
 
-Microsoft Graph API for Azure AD (Azure Active Directory) help organizations build a secure identity and access foundation. Developers can use Microsoft Graph to connect to Azure AD identity management services and automate administrative workflows. It can be a time saver for admins if processes like profile maintenance, employment onboarding/termination, or tracking assignments are automated using Microsoft Graph. 
+The Microsoft Graph API for Azure AD (Azure Active Directory) helps organizations build a secure identity and access foundation. Developers can use Microsoft Graph to connect to Azure AD identity management services and automate administrative workflows. It can be a time saver for admins if processes like profile maintenance, employment onboarding/termination, or tracking assignments are automated using Microsoft Graph. 
 
 ## Productivity and Collaboration 
  

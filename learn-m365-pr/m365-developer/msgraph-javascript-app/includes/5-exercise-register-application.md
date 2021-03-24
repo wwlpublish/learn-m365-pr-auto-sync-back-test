@@ -10,10 +10,10 @@ In this exercise, you'll learn how to register a single-page application in Azur
 :::image type="content" source="../media/5-new-registration.png" alt-text="Screenshot showing trending documents around the user.":::
 
 5.	**Name:** give a name for your application such as “spa-aad-app”.
-6.	**Supported account types:** select access type for your application as “Accounts in this organizational directory only (Single tenant)”.
+6.	**Supported account types:** select “Accounts in this organizational directory only (Single tenant)”.
 7.	**Redirect URI type:** select “Single page application (SPA)”.
 8.	**Redirect URI:** enter http://localhost:8080.
-9.	Select on **Register**.
+9.	Select the **Register** button.
 :::image type="content" source="../media/5-register-app.png" alt-text="Screenshot showing how to register app to Azure Active Directory.":::
 
 10.	After your application is successfully registered, select **Overview**.

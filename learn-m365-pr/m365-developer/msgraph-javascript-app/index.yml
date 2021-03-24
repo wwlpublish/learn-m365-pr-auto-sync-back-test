@@ -11,7 +11,7 @@ metadata:
 title: Configure a JavaScript application to retrieve Microsoft 365 data using Microsoft Graph
 summary: Learn how to create a custom JavaScript application to retrieve Microsoft 365 data using Microsoft Graph.
 abstract: |
-  At the end of this module, you will be able to:
+  In this module, you will:
   - Understand the role of Azure Active Directory with Microsoft Graph 
   - Understand basic concepts of Microsoft Graph permissions 
   - Demonstrate registering an Azure Active Directory application 

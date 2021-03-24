@@ -1,8 +1,8 @@
-You have learned all the concepts needed to access user profile with Microsoft Graph. Now, it’s time to build an application, which will retrieve and display the photo of a signed in salesperson in your customer application. 
+You have learned all the concepts needed to access a user’s profile with Microsoft Graph. Now, it’s time to build an application, which will retrieve and display the photo of a signed in salesperson in your customer application. 
 
 To successfully complete this unit, you'll need a user account (from your Microsoft 365 developer tenant for example) with a profile picture available to use in the application.
 
-In this exercise, you'll clone a GitHub repository, add Azure Active Directory IDs into the app, and add code to access a photo using Microsoft Graph. If you haven't created an Azure Active Directory app registration yet, complete the prerequisite module before continuing.
+In this exercise, you'll access a GitHub repository, add Azure Active Directory IDs into the app, and add code to access a photo using Microsoft Graph. If you haven't created an Azure Active Directory app registration yet, complete the prerequisite module before continuing.
 
 1. Open a terminal window on your computer and go to the folder where you want to save the app.
 1. To get the source code, visit [https://github.com/MicrosoftDocs/mslearn-retrieve-m365-data-with-msgraph-quickstart](https://github.com/MicrosoftDocs/mslearn-retrieve-m365-data-with-msgraph-quickstart) and choose from one of the following options:
@@ -22,8 +22,8 @@ In this exercise, you'll clone a GitHub repository, add Azure Active Directory I
     - **ui.js** - Handles user interface elements defined in **index.html**.
     
 1. Open the **auth.js** file, locate the constant `msalConfig` on line 4
-1. Replace the value of the clientId property with the copied **Application (client) ID** from the Azure AD application (spa-aad-app) which was registered in the previous module **Configure a JavaScript application to retrieve Microsoft 365 data using Microsoft Graph**. You can get this from the overview page of the Azure AD application (spa-aad-app).
-1. In the same **auth.js** file, locate the authority property on line 6 and replace the \<your directory ID here> value with the **Directory (tenant) ID** of the Azure AD application (spa-aad-app) that was registered in the previous module **Configure a JavaScript application to retrieve Microsoft 365 data using Microsoft Graph**. You can get this from the overview page of the Azure AD application (spa-aad-app).
+1. Replace the value of the **clientId** property with the copied **Application (client) ID** from the Azure AD application (spa-aad-app) which was registered in the previous module **Configure a JavaScript application to retrieve Microsoft 365 data using Microsoft Graph**. You can get this from the overview page of the Azure AD application (spa-aad-app).
+1. In the same **auth.js** file, locate the **authority** property on line 6 and replace the \<your directory ID here> value with the **Directory (tenant) ID** of the Azure AD application (spa-aad-app) that was registered in the previous module **Configure a JavaScript application to retrieve Microsoft 365 data using Microsoft Graph**. You can get this from the overview page of the Azure AD application (spa-aad-app).
 1. Open the **index.html** file and add the following code immediately under the welcome message in the body to create a button and image element.
 
     ```html
@@ -84,7 +84,7 @@ In this exercise, you'll clone a GitHub repository, add Azure Active Directory I
     var showPhotoButton= document.getElementById('showProfilePhoto'); 
     showPhotoButton.style = "display: block"; 
     ```
-Now that you’ve added the extra functions and code snippets to get the photo for a signed -in user, the next step is to run the app locally.
+Now that you’ve added the extra functions and code snippets to get the photo for a signed-in user, the next step is to run the app locally.
 
 ## Run the app
 

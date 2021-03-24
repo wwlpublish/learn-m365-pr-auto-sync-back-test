@@ -55,7 +55,7 @@ Every time a new salesperson is added in the sales team channel on Teams, you ca
 
 Microsoft Graph Explorer has many other features that can help you connect your apps with Microsoft Graph.
 
-1.	**Access token:** is used by Microsoft Graph APIs to establish the user's identity to perform authentication and authorization. From the Access token tab, you can copy your own access/authentication token.
+1.	**Access token:** Used by Microsoft Graph APIs to establish the user's identity to perform authentication and authorization. From the Access token tab, you can copy your own access/authentication token.
 2.	**Code snippets:** If you test any Graph query in Graph Explorer and you would like to consume the same query in your app, you can go to the Code snippets section to get the related code to add in your app. Code snippets are available in C#, JavaScript, Java, and Objective-C   for all sample queries. 
 3.	**Toolkit component:** Microsoft Graph Toolkit components are framework-agnostic web components that help you access Microsoft Graph. You can use the Toolkit component tab to test these HTML components and consume them in your web apps for retrieving Microsoft 365 data through Microsoft Graph. When you run a query and a Toolkit component is available for the query, a blue dot appears on the right side of the tab.
 4.	**Adaptive cards:** Adaptive cards are platform-agnostic UI components that are usually used in bots. If you wish to consume Microsoft Graph in your chatbots such as the calendar bot example given earlier, you can use the Adaptive cards tab to get the UI snippet. If you run a query and an adaptive card is available for the query, a blue dot appears on the right side of the tab. 
