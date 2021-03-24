@@ -2,9 +2,9 @@ Microsoft Graph provides access to data stored across Microsoft 365 services. Cu
 
 ## Prerequisites
 
-- Global Administrator Access to a [Microsoft 365 tenant](https://developer.microsoft.com/microsoft-365/dev-program?ocid=MSlearn&WT.mc_id=m365-16105-cxa).
-- Ability to develop JavaScript applications using [Visual Studio Code](https://code.visualstudio.com/).
-- Basic understanding of Azure Active Directory and Microsoft Identity concepts is recommended but not mandatory.
+- Global Administrator Access to a [Microsoft 365 tenant](https://developer.microsoft.com/microsoft-365/dev-program?ocid=MSlearn&WT.mc_id=m365-16105-cxa)
+- Ability to develop JavaScript applications
+- Basic understanding of Azure Active Directory and [Microsoft Identity](https://docs.microsoft.com/en-us/learn/modules/getting-started-identity/?WT.mc_id=m365-16105-cxa) concepts is recommended
 - [Node.js](https://nodejs.org/en/)
 
 ## Learning objectives
