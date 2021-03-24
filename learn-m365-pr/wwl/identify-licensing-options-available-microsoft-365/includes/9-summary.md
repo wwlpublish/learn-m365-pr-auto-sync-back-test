@@ -4,11 +4,13 @@ Microsoft 365 is available in a wide range of subscriptions for home, business, 
 
 Now that you have reviewed this module, you should be able to:
 
-- Compare home, enterprise, and business options for Microsoft 365.
-- List additional capabilities for Microsoft 365 with Azure.
-- Describe the cloud solution provider model.
-- Describe bill management with Microsoft 365.
-- Describe how Microsoft 365 helps to optimize costs.
+- Identify licensing options available in Microsoft 365.
+- Describe the available licensing and management options for Microsoft 365.
+- Describe additional capabilities available when a customer purchases Azure Active Directory P1, Azure Active Directory P2, and Azure AD Basic.
+- Plan, predict, and compare pricing.
+- Describe the Cloud Solution Provider (CSP) pricing model for Windows and Microsoft cloud services.
+- Explain available billing and bill management options including billing frequency and methods of payment.
+- Optimize costs based on licensing options.
 
 ### Learn more
 

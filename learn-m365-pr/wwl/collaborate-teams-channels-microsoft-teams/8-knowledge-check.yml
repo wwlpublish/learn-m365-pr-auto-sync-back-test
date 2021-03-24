@@ -1,0 +1,62 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.collaborate-teams-channels-with-microsoft-teams.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 03/23/2021
+  author: wwlpublish
+  ms.author: tishaha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/8-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Microsoft Teams offers which two types of chats?"
+    choices:
+    - content: "One-on-one and group."
+      isCorrect: true
+      explanation: "That’s correct. Teams offers both one-on-one and group chats. You can start the type of chat that’s best for your conversation."
+    - content: "Group and team."
+      isCorrect: false
+      explanation: "Incorrect. Group chat is a type of chat; however, team is not. Team-oriented conversations happen in channels."
+    - content: "Private and channel."
+      isCorrect: false
+      explanation: "Incorrect. Neither private or channel are chat options within Teams."
+  - content: "Which of the following is a valid method to upload and share a file in Microsoft Teams?"
+    choices:
+    - content: "In the Files tab, select Sync."
+      isCorrect: false
+      explanation: "Incorrect. Sync will update or sync files already uploaded to a channel."
+    - content: "In the Files tab, select Upload."
+      isCorrect: true
+      explanation: "That’s correct. While in the Files tab, select Upload to share a file."
+    - content: "Add an app to manage uploads."
+      isCorrect: false
+      explanation: "Incorrect. Teams offers several ways to upload and share a file but not through an app."
+  - content: "How does Microsoft Teams help organize channels?"
+    choices:
+    - content: "Show and hide."
+      isCorrect: true
+      explanation: "That’s correct. Teams flexibility allows channels to show or be hidden so you see what’s important to you."
+    - content: "Connectors."
+      isCorrect: false
+      explanation: "Incorrect. Connectors can help you stay updated but won’t help to organize channels."
+    - content: "Adding tabs."
+      isCorrect: false
+      explanation: "Incorrect. Tabs are reflected across the top navigation for you team and do not impact channel organization."
+  - content: "Which tab in Microsoft Teams can host channel conversations?"
+    choices:
+    - content: "Files."
+      isCorrect: false
+      explanation: "Incorrect. Files is the tab to go to when you want to share or collaborate on a file."
+    - content: "Posts."
+      isCorrect: true
+      explanation: "That’s correct. Posts is the tab to host channel conversations."
+    - content: "OneNote."
+      isCorrect: false
+      explanation: "Incorrect. OneNote can be added as a tab where you can store meeting notes and more."

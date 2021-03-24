@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.m365-teams-calling-overview.understand-phone-system
+title: Understand the Microsoft Phone System
+metadata:
+  title: Understand the Microsoft Phone System
+  description: Learn about the Microsoft Phone System.
+  ms.date: 04/02/2020
+  author: iankensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 4
+content: |
+  [!include[](includes/understand-phone-system.md)]
