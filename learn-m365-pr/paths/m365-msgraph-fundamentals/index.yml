@@ -11,9 +11,9 @@ metadata:
 title: Fundamentals of Microsoft Graph
 summary: "**Fundamentals of Microsoft Graph** is a multi-part series that teaches you basic concepts of Microsoft Graph. It will guide you with hands-on exercises on how to use Microsoft Graph API requests to start developing or enhancing your applications with Microsoft 365 data."
 prerequisites: | 
-  - Global Administrator Access to a [Microsoft 365 tenant](https://developer.microsoft.com/microsoft-365/dev-program?ocid=MSlearn&WT.mc_id=m365-16105-cxa).
-  - Ability to develop JavaScript applications using [Visual Studio Code](https://code.visualstudio.com/).
-  - Basic understanding of Azure Active Directory and Microsoft Identity concepts is recommended but not mandatory.
+  - Global Administrator Access to a [Microsoft 365 tenant](https://developer.microsoft.com/microsoft-365/dev-program?ocid=MSlearn&WT.mc_id=m365-16105-cxa)
+  - Ability to develop JavaScript applications
+  - Basic understanding of Azure Active Directory and [Microsoft Identity](https://docs.microsoft.com/learn/modules/getting-started-identity/?WT.mc_id=m365-16105-cxa) concepts is recommended
   - [Node.js](https://nodejs.org/en/) 
 iconUrl: /learn/achievements/generic-badge.svg
 levels: 
