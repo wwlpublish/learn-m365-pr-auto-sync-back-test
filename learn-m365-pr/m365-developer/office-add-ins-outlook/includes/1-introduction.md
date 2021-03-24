@@ -17,6 +17,6 @@ In this module, you'll learn how to build an Outlook add-in that will render but
 
 ## Additional resources
 
-Refer to the following repository for additional resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [Build add-ins for Microsoft Outlook](https://github.com/OfficeDev/TrainingContent/tree/master/OfficeAddin/04%20Building%20Add-ins%20for%20Microsoft%20Outlook).
+Refer to the following repository for extra resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [Build add-ins for Microsoft Outlook](https://github.com/OfficeDev/TrainingContent/tree/master/OfficeAddin/04%20Building%20Add-ins%20for%20Microsoft%20Outlook).
 
 This module is also available as a screencast: [Build add-ins for Microsoft Outlook](https://www.youtube.com/watch?v=ZWw-fJ7eldU)

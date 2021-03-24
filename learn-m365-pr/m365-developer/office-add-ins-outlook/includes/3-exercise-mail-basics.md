@@ -110,7 +110,7 @@ The add-in that you'll create in this tutorial will read [gists](https://gist.gi
 
 ### Update the manifest
 
-The manifest for an add-in controls how it appears in Outlook. It defines the way the add-in appears in the add-in list and the buttons that appear on the ribbon, and it sets the URLs for the HTML and JavaScript files used by the add-in.
+The manifest for an add-in influences how it appears in Outlook. It defines the way the add-in appears in the add-in list and the buttons that appear on the ribbon, and it sets the URLs for the HTML and JavaScript files used by the add-in.
 
 #### Specify basic information
 
