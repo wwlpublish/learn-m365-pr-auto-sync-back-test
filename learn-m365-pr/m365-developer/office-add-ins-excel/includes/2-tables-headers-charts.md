@@ -2,13 +2,13 @@ The Excel JavaScript API makes programmatic control over text, tables, and chart
 
 ## Office 365 Platform Overview
 
-The Microsoft Office 365 platform offers a number of canvases for developers to embed customizations and Office add-ins are one of three canvases: documents, conversations  and pages.
+The Microsoft Office 365 platform offers many canvases for developers to embed customizations and Office add-ins are one of three canvases: documents, conversations  and pages.
 
 Microsoft Teams makes conversations between users and enables developers to extend the experience using messaging extensions, conversational bots, and other customization options.
 
 Developers customize pages in SharePoint Server and SharePoint online using the SharePoint Framework.
 
-Office clients, such as Word, Excel, PowerPoint, OneNote, and Outlook can also be extended to implement custom task panes, actions, and additional customizations using add-ins.
+Office clients, such as Word, Excel, PowerPoint, OneNote, and Outlook can also be extended to implement custom task panes, actions, and other customizations using add-ins.
 
 ![Screenshot overview of the Office 365 Platform](../media/02-office-365-platform.png)
 
@@ -36,7 +36,7 @@ Office.js provides context to an Excel workbook through `Excel.run()` and the `c
 
 ![Screenshot of Excel object hierarchy](../media/02-excel-object-hierarchy.png)
 
-The workbook contains worksheets that contain a number of collections. These collections include things such as charts, tables, and pivotTables.
+The workbook contains worksheets that contain many collections. These collections include things such as charts, tables, and pivotTables.
 
 Many objects within a worksheet can be accessed directly from the workbook object, including tables and pivotTables.
 
@@ -46,7 +46,7 @@ Worksheets are aware of their siblings using `getNext()` and `getPrevious()` met
 
 You can get the active worksheet using the `workbook.worksheets.getActiveWorkshee()` method and set the active worksheet using `worksheet.activate()` method.
 
-Office.js also offers a number of worksheet events such as `onActivated`, `onDeactivated`, and `onSelectionChanged` that developers can use in their custom add-ins.
+Office.js also offers many worksheet events such as `onActivated`, `onDeactivated`, and `onSelectionChanged` that developers can use in their custom add-ins.
 
 ## Tables and headers
 
@@ -204,9 +204,9 @@ Charts exist within worksheets, but can also be accessed directly from the workb
 
 ![Screenshot of Excel workbook with a chart](../media/02-excel-workbook-02.png)
 
-Charts have a number of complex relational properties that can be used to fine-tune the look of a chart. These include titles, legends, axes, series, labels, and format.
+Charts have many complex relational properties that can be used to fine-tune the look of a chart. These include titles, legends, axes, series, labels, and format.
 
-Users and developers can create a chart based on a data range and are often created in conjunction with tables.
+Users and developers can create a chart based on a data range and are often created with tables.
 
 The `worksheet.charts.add()` function is used to create a chart, which accepts a chart `type`, a data `range`, and `seriesBy`. The `seriesBy` argument supports the following values
 
