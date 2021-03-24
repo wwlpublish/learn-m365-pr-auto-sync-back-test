@@ -1,0 +1,32 @@
+### YamlMime:LearningPath
+uid: learn.wwl.teamwork-specialist
+metadata:
+  title: Collaborating with Microsoft Teams
+  description: Collaborating with Microsoft Teams
+  ms.date: 03/23/2021
+  author: wwlpublish
+  ms.author: tishaha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Collaborating with Microsoft Teams
+prerequisites: |
+  - Familiarity with Microsoft Teams and Microsoft Office products.
+summary: |
+  Collaboration is a vital skill for today's work force. Learn how the robust features within Microsoft Teams allow you to stay connected and to work more efficiently with your team.
+iconUrl: /learn/achievements/teamwork-specialist.svg
+levels:
+- beginner
+roles:
+- business-analyst
+- business-owner
+- business-user
+- student
+products:
+- office-teams
+modules:
+- learn.wwl.introduction-to-collaborating-with-microsoft-teams
+- learn.wwl.create-manage-teams-channels-with-microsoft-teams
+- learn.wwl.collaborate-teams-channels-with-microsoft-teams
+- learn.wwl.facilitate-meetings-events-with-microsoft-teams
+trophy:
+  uid: learn.wwl.teamwork-specialist.trophy
