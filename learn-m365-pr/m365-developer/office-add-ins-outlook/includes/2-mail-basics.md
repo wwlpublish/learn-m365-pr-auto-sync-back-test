@@ -2,13 +2,13 @@ In this unit, you'll learn the basics of an Outlook mail add-in.
 
 ## Office 365 Platform Overview
 
-The Microsoft Office 365 platform offers a number of canvases for developers to embed customizations and Office add-ins are one of three canvases: documents, conversations  and pages.
+The Microsoft Office 365 platform offers many canvases for developers to embed customizations and Office add-ins are one of three canvases: documents, conversations  and pages.
 
 Microsoft Teams makes conversations between users and enables developers to extend the experience using messaging extensions, conversational bots, and other customization options.
 
 Developers customize pages in SharePoint Server and SharePoint online using the SharePoint Framework.
 
-Office clients, such as Word, Excel, PowerPoint, OneNote, and Outlook can also be extended to implement custom task panes, actions, and additional customizations using add-ins.
+Office clients, such as Word, Excel, PowerPoint, OneNote, and Outlook can also be extended to implement custom task panes, actions, and more customizations using add-ins.
 
 ![Screenshot overview of the Office 365 Platform](../media/02-office-365-platform.png)
 
@@ -34,7 +34,7 @@ Modern Office add-ins are just web app applications. Office clients include Offi
 
 The web applications that implement a modern Office add-in are hosted by the developer, which results in a greatly simplified deployment, installation, and upgrade experience for end users. There's zero client footprint on installation. In fact, when the add-in is installed in one Office client, provided the user is signed into their Office 365 account, the add-in will be available in the desktop, mobile, and web Office client applications.
 
-![Screenshot of historical challenges with add-ins](../media/02-modern-add-in-value-proposition.png)
+![Screenshot of add-in structure](../media/02-modern-add-in-value-proposition.png)
 
 A single XML manifest file is used to define the requirements, limitations, and metadata about the add-in. This manifest file is used by Office to determine integration points such as the type of add-in, buttons to add to the ribbon, the location of the web application, and other metadata including the title and description of the add-in.
 
@@ -52,7 +52,7 @@ Start specific add-in actions from the ribbon by adding buttons or drop-down men
 
 Custom buttons in the Office ribbon, called add-in commands, can launch a task pane add-in with context to the selected message. These task panes can also be pinned to stay open.
 
-Add-in commands can execute a JavaScript function for scenarios where the user doesn't need to make any additional selections to start the action.
+Add-in commands can execute a JavaScript function for scenarios where the user doesn't need to make any other selections to start the action.
 
 ### Message compose add-ins
 
@@ -82,7 +82,7 @@ Microsoft gives developers multiple options for creating Office add-ins.
 
 The Visual Studio installer includes an optional Office/SharePoint development feature for doing add-in development.
 
-The other option for developers is to use the Office Yeoman Generator, which uses a command-line workflow for provisioning add-in projects using a number of popular frameworks including TypeScript. The Yeoman Generator can create the complete project or just the manifest file for an existing web project.
+The other option for developers is to use the Office Yeoman Generator, which uses a command-line workflow for provisioning add-in projects using many popular frameworks including TypeScript. The Yeoman Generator can create the complete project or just the manifest file for an existing web project.
 
 Office add-ins must be hosted using HTTPS, and both these project provisioning methods handle the self-signed certificated needed to do this locally.
 
