@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn-m365.mgt-intro
+metadata:
+  title: Get started with Microsoft Graph Toolkit
+  description: Learn how to use the Microsoft Graph Toolkit, a set of web components and authentication providers to connect your web app to Microsoft Graph and load data from Microsoft 365. You can use Microsoft Graph Toolkit in any JavaScript framework.
+  ms.date: 03/10/2021
+  author: aycabas
+  ms.author: aycabas
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Get started with Microsoft Graph Toolkit
+summary: Learn how to use the Microsoft Graph Toolkit, a set of web components and authentication providers to connect your web app to Microsoft Graph and load data from Microsoft 365. You can use Microsoft Graph Toolkit in any JavaScript framework.
+abstract: |
+  At the end of this module, you should be able to:
+  - Understand what the Microsoft Graph Toolkit is and how to use it
+  - Sign into Microsoft 365 with the Microsoft Graph Toolkit
+  - Show data from Microsoft 365 with the Microsoft Graph Toolkit
+prerequisites: |
+  - Basic knowledge of authentication
+  - Basic knowledge of HTML
+  - Access to a [Microsoft 365 tenant](https://developer.microsoft.com/microsoft-365/dev-program?ocid=MSlearn)
+  - [Visual Studio Code](https://code.visualstudio.com/)
+  - [Visual Studio Code Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- developer
+products:
+- m365
+- ms-graph
+units:
+- learn-m365.mgt-intro.1-introduction
+- learn-m365.mgt-intro.2-what-graph-toolkit
+- learn-m365.mgt-intro.3-sign-in-app
+- learn-m365.mgt-intro.4-exercise-sign-in-app
+- learn-m365.mgt-intro.5-show-m365-data
+- learn-m365.mgt-intro.6-exercise-show-m365-data
+- learn-m365.mgt-intro.7-summary
+badge:
+  uid: learn-m365.mgt-intro.badge

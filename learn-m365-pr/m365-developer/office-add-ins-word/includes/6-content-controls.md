@@ -16,7 +16,7 @@ The document body and any table, inline picture, paragraph, or range can be wrap
 
 Create a content control by first getting reference to a supported object and using the `insertContentControl()` method. This method returns an instance of the `ContentControl` object.
 
-Content controls have a number of properties that make them easier to use and to reference or update their contents at a later date.
+Content controls have many properties that make them easier to use and to reference or update their contents at a later date.
 
 ### Update content in content controls
 
@@ -28,7 +28,7 @@ The content in a content control can be accessed using `get*()` and `insert*()` 
 
 The following table contains a list of properties available to developers on the `ContentControl` object. Each of these properties can be set using Office.js.
 
-Notice a number of the properties determine the appearance of the content. Many of the properties are used to easily reference the control, such as the `tag` property.
+Notice many the properties determine the appearance of the content. Many of the properties are used to easily reference the control, such as the `tag` property.
 
 |      Property       |                                                                    Description                                                                     |
 | ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |

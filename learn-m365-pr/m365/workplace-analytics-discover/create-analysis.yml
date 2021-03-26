@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.workplace-analytics-discover.create-analysis
+title: Create customized analysis with Workplace Analytics
+metadata:
+  title: Create customized analysis with Workplace Analytics
+  description: Learn what Workplace Analytics is, how it works, and key features that allow you to generate insights and improve collaboration in your organization.
+  ms.date: 06/02/2020
+  author: jelathro
+  ms.author: jelathro
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 16
+content: |
+  [!include[](includes/create-analysis.md)]

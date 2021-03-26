@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.mgt-intro.7-summary
+metadata:
+  title: Summary
+  description: This unit summarizes what you learned in this module.
+  ms.date: 02/02/2021
+  author: waldekmastykarz
+  ms.author: wmastyka
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Summary
+durationInMinutes: 1
+content: |
+  [!include[](includes/7-summary.md)]

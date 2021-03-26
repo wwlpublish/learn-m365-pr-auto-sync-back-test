@@ -1,4 +1,4 @@
-In this exercise, you'll add additional functionality to the add-in you created in a previous exercise. You'll create two new buttons that insert a specific gist or a default gist into a message. You'll also implement a first-run experience, prompting the user for their credentials to authenticate with GitHub to retrieve your gists.
+In this exercise, you'll add extra functionality to the add-in you created in a previous exercise. You'll create two new buttons that insert a specific gist or a default gist into a message. You'll also implement a first-run experience, prompting the user for their credentials to authenticate with GitHub to retrieve your gists.
 
 > [!IMPORTANT]
 > This exercise assumes you have created the Office Outlook add-in project with the Yeoman generator and tested it works in Outlook in a previous exercise in this module.
@@ -752,4 +752,4 @@ If the server isn't already running, save all of your changes and run **npm run 
 
 ## Summary
 
-In this exercise, you added additional functionality to the add-in you created in a previous exercise. You created two new buttons that inserted a specific gist or a default gist into a message. You also implemented a first-run experience, prompting the user for their credentials to authenticate with GitHub to retrieve your gists.
+In this exercise, you added extra functionality to the add-in you created in a previous exercise. You created two new buttons that inserted a specific gist or a default gist into a message. You also implemented a first-run experience, prompting the user for their credentials to authenticate with GitHub to retrieve your gists.

@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.collaborate-teams-channels-with-microsoft-teams.share-work-with-files
+title: Share and work with files
+metadata:
+  title: Share and work with files
+  description: "Share and work with files"
+  ms.date: 03/23/2021
+  author: wwlpublish
+  ms.author: tishaha
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/5-share-work-files.md)]

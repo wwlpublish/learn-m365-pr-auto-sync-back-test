@@ -1,0 +1,44 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msteams-sso.7-exercise-bots-sso
+metadata:
+  title: Exercise - Single sign-on (SSO) with Microsoft Teams bots
+  description: In this exercise, you'll add a custom bot to the existing Microsoft Teams app and use single sign-on (SSO) to obtain an access token to submit requests to Microsoft Graph.
+  ms.date: 03/15/2021
+  author: andrewconnell
+  ms.author: suzanz
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Single sign-on (SSO) with Microsoft Teams bots
+durationInMinutes: 15
+content: |
+  [!include[](includes/7-exercise-bots-sso.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "What must you do to configure a bot to support OAuth authentication, such as in the case when it supports SSO with Microsoft Teams?"
+    choices:
+    - content: "Nothing - the Bot Framework uses the associated Azure AD app to handle all authentication and authorization tasks."
+      isCorrect: false
+      explanation: "This isn't correct - you must define the OAuth connection settings in the bot's configuration within the Azure Bot Framework."
+    - content: "After registering the bot in the Azure Bot Framework, you must define the OAuth connection settings in the bot's configuration."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "After registering the bot in the Azure Bot Framework, you must select the 'Enable OAuth' and 'Enable SSO' options in the bot's configuration. The connection settings are automatically retrieved by the Bot Framework from the Azure AD app associated with the bot."
+      isCorrect: false
+      explanation: "You must define the OAuth connection settings in the bot's configuration. Also, the 'Enable OAuth' and 'Enable SSO' options don't exist."
+  - content: "In order for a bot used by Microsoft Teams to obtain an access token to submit authorized requests to Microsoft Graph, an administrator must first grant consent to all defined permissions before users access the bot."
+    choices:
+    - content: "False"
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "True"
+      isCorrect: false
+      explanation: "This isn't correct. While administrators can proactively grant admin consent to permissions to an Azure AD app before users access the bot, Microsoft Teams and the Bot Framework can prompt the user to consent as well when necessary."
+  - content: "Why is it considered a good practice to preauthorize all Microsoft Teams clients on the Azure AD app?"
+    choices:
+      - content: "Preauthorizing all Microsoft Teams clients ensures your app can be used in the maximum scenarios possible."
+        isCorrect: true
+        explanation: "Correct!"
+      - content: "This is obsolete - all Microsoft Teams clients are automatically authorized to access the app's Azure AD app."
+        isCorrect: false
+        explanation: "Microsoft Teams clients aren't automatically authorized to access any Azure AD app."

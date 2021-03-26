@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-your-supporting-infrastructure-for-microsoft-365.determine-your-collaboration-requirements-for-file-storage
+title: Determine your collaboration requirements for file storage
+metadata:
+  title: Determine your collaboration requirements for file storage
+  description: "Determine your collaboration requirements for file storage"
+  ms.date: 03/24/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/3-determine-your-collaboration-requirements-for-file-storage.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "You're the owner, CTO, Enterprise Administrator, and all-around \"computer person\" of Margie's Travel. The company is a sole proprietorship located in Florida that recently deployed Microsoft 365. You want to create a file storage and sharing strategy that fits your company's needs, but you're not sure what approach to take. It has since come to your attention that Microsoft 365 provides file storage and sharing strategies that are based on industry type. Which of the following file storage and sharing strategies is recommended for sole proprietorships like Margie's Travel?"
+    choices:
+    - content: "Create a Microsoft 365 team site to store shared documents, and create a private Microsoft 365 team subsite to store files that you want to keep private from the rest of the team"
+      isCorrect: false
+      explanation: "That's incorrect. This strategy is recommended for small businesses rather than sole proprietorships. Try again."
+    - content: "Use Microsoft 365 team subsites to store and share documents intended for a specific customer"
+      isCorrect: false
+      explanation: "That's incorrect. This strategy is recommended for businesses with external clients or partners who need access to files. Try again."
+    - content: "Use OneDrive for Business to store your own files and share them with customers on a case-by-case basis"
+      isCorrect: true
+      explanation: "That's correct. The recommended file storage and sharing strategy for sole proprietorships is to use OneDrive for Business to store your own files and share them with customers on a case-by-case basis."
