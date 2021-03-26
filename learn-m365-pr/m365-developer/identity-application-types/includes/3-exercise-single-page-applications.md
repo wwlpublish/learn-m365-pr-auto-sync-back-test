@@ -61,7 +61,7 @@ In the current folder, add a new file named **index.html**. Add the following co
 <head>
   <title>Getting Started with Microsoft identity</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.7.2/bluebird.min.js"></script>
-  <script src="https://alcdn.msauth.net/browser/2.6.0/js/msal-browser.js"></script>
+  <script src="https://alcdn.msauth.net/browser/2.11.1/js/msal-browser.js"></script>
 </head>
 
 <body>

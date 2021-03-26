@@ -328,14 +328,6 @@ Console.WriteLine("\nGraph Request:");
 Console.WriteLine(requestUserEmail.GetHttpRequestMessage().RequestUri);
 ```
 
-### Build and test the application
-
-Run the following command in a command prompt to compile the console application:
-
-```console
-dotnet build
-```
-
 ### Obtain the ID of a user to use in the test
 
 Using the [Azure AD admin center](https://aad.portal.azure.com/), select **Users**, and then select one of the users from the organization:
@@ -346,7 +338,19 @@ Locate the **Object ID** property and copy the value.
 
 In the **appsettings.json** file in the console application, replace  `TARGET_USER_ID_HERE` value with the user's Object ID property you copied.
 
-### Run the daemon application
+### Build and test the application
+
+Run the following command in a command prompt to ensure the developer certificate has been trusted:
+
+```console
+dotnet dev-certs https --trust
+```
+
+Run the following command in a command prompt to compile the console application:
+
+```console
+dotnet build
+```
 
 Run the following command to run the console application:
 

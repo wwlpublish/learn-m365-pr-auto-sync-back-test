@@ -31,7 +31,7 @@ Next, ensure the redirect URI of the app points to the URL of the SPA. This URL 
 Load the MSAL.js 2.x library from the Microsoft-hosted content delivery network (CDN):
 
 ```html
-<script src="https://alcdn.msauth.net/browser/2.4.0/js/msal-browser.js"></script>
+<script src="https://alcdn.msauth.net/browser/2.11.1/js/msal-browser.js"></script>
 ```
 
 After adding the script reference to the page, add the following code to obtain an instance of the application:
