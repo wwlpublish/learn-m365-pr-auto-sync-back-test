@@ -94,10 +94,14 @@ Next, use the existing **Startup.cs** file to configure the authentication setti
 ```csharp
 public void ConfigureServices(IServiceCollection services)
 {
-  services.AddMicrosoftIdentityWebApiAuthentication(Configuration);
-  services.AddControllers();
+    services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+        .AddMicrosoftIdentityWebApi(Configuration.GetSection("AzureAd"));
 
-  services.AddSingleton(SampleData.Initialize());
+    services.AddControllers();
+    services.AddSwaggerGen(c =>
+    {
+        c.SwaggerDoc("v1", new OpenApiInfo { Title = "ProductCatalog", Version = "v1" });
+    });
 }
 ```
 
