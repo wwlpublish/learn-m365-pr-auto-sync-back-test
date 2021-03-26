@@ -10,9 +10,9 @@ Isolation controls are built into the architecture of Microsoft 365 Services. Th
 
 Personnel controls protect against insider threats and enforce separation of duties. They also ensure adequate training for Microsoft personnel who support Microsoft 365 Services. The Identity Management Tool (IDM) enforces personnel control requirements before allowing creation of service team accounts or authorizing access to any Microsoft 365 resources.
 
-Technology controls enable Microsoft to implement the principle of Zero Standing Access (ZSA) using Just-In-Time (JIT) and Just-Enough-Access (JEA). Multi-factor authentication (MFA), Secure Access Workstations (SAWs), and centralizing logging and auditing provide additional technology-based protections against unauthorized access.
+Technology controls enable Microsoft to implement the principle of Zero Standing Access (ZSA) using Just-In-Time (JIT) and Just-Enough-Access (JEA). Multi-factor authentication (MFA), Secure Access Workstations (SAWs), and centralizing logging and auditing provide extra technology-based protections against unauthorized access.
 
 ## Learn more
 
-- [Microsoft 365 Technology Controls](https://docs.microsoft.com/office365/Enterprise/office-365-technology-controls?azure-portal=true)
+- [Microsoft 365 Technology Controls](https://docs.microsoft.com/compliance/assurance/assurance-technology-controls?azure-portal=true)
 - [Microsoft 365 Personnel Controls](https://docs.microsoft.com/office365/Enterprise/office-365-personnel-controls?azure-portal=true)
