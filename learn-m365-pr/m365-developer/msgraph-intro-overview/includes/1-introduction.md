@@ -27,7 +27,7 @@ The sales application will support assigning a customer to a salesperson and pro
 - Key contacts 
 - Related files
 
-You have also proposed that information about the sales organization should be integrated into the app. Integrating data will make it easier for salespeople to find help as they prepare for and join customer calls. 
+You've also proposed integrating information about the sales organization into the app. Integrating data will make it easier for salespeople to find help as they prepare for and join customer calls. 
 
 :::image type="content" source="../media/1-sales-app.png" alt-text="Overview diagram that shows how components of the sales application interact.":::
 

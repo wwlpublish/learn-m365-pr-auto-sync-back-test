@@ -17,7 +17,7 @@ Let's say a salesperson wants to see profile information that includes name, job
 
 For this exercise, let's assume that a salesperson is looking for documents shared in meetings, Teams chats, or e-mail. The sales company also wants to have an easier way to view trending documents around users. As a developer, you can test getting trending items by using the Microsoft Graph API for insights in Graph Explorer.  
 
-Microsoft Graph Explorer uses sample account data by default. To test queries that get your own data, you can sign in with your account. You can accomplish the test by using the authentication feature in Graph Explorer.
+Graph Explorer uses sample account data by default. To test queries that get your own data, you can sign in with your account. You can accomplish the test by using the authentication feature in Graph Explorer.
 
 > [!NOTE]
 > Make sure that you've created a Microsoft 365 developer tenant. It's one of the prerequisites for this module.
@@ -34,7 +34,7 @@ Microsoft Graph Explorer uses sample account data by default. To test queries th
 
 1. Select **Run query**.
 1. After the Insights API runs, you get an **OK – 200** message.
-1. You see your own trending items as a result in the **Response query**.
+1. You see your own trending items as a result on the **Response preview** tab.
 
    :::image type="content" source="../media/5-test-queries-result.png" alt-text="Screenshot that shows how to get a query result with your own account in Graph Explorer.":::
 
@@ -63,10 +63,10 @@ Every time a new salesperson is added in the sales team channel on Teams, you ca
 Graph Explorer has other features that can help you connect your apps with Microsoft Graph:
 
 1.	**Access token**: Microsoft Graph APIs use access tokens to establish the user's identity and to perform authentication and authorization. From the **Access token** tab, you can copy your own access/authentication token.
-2.	**Code snippets**: If you test any Microsoft Graph query in Graph Explorer and you want to consume the same query in your app, you can go to the **Code snippets** section to get the related code to add in your app. Code snippets are available in C#, JavaScript, Java, and Objective-C for all sample queries. 
+2.	**Code snippets**: If you test any Microsoft Graph query in Graph Explorer and you want to consume the same query in your app, you can go to the **Code snippets** tab to get the related code to add in your app. Code snippets are available in C#, JavaScript, Java, and Objective-C for all sample queries. 
 3.	**Toolkit component**: Microsoft Graph Toolkit components are web components that aren't tied to any framework and that help you access Microsoft Graph. You can use the **Toolkit component** tab to test these HTML components and consume them in your web apps for retrieving Microsoft 365 data through Microsoft Graph. When you run a query and a toolkit component is available for the query, a blue dot appears on the right side of the tab.
 4.	**Adaptive cards**: Adaptive cards are UI components that aren't tied to any platform and that are usually used in bots. If you want to consume Microsoft Graph in your chatbots, such as the calendar bot example given earlier, you can use the **Adaptive cards** tab to get the UI snippet. If you run a query and an adaptive card is available for the query, a blue dot appears on the right side of the tab. 
 
 :::image type="content" source="../media/5-consuming-graph.png" alt-text="Screenshot that shows how to consume Microsoft Graph in your apps with the help of Graph Explorer.":::
 
-Graph Explorer is a continuously evolving tool with many features that aim to make learning and practicing easy for people who are discovering Microsoft Graph features.
+Graph Explorer is a continuously evolving tool with many features that help make learning and practicing easy for people who are discovering Microsoft Graph features.

@@ -1,4 +1,4 @@
-Microsoft Graph services are centered around users and groups.  
+Microsoft Graph services are centered on users and groups.  
 
 A user's data is the core of Microsoft 365 cloud services. Think about a salesperson planning to create a calendar event with a customer. The salesperson can schedule the meeting invitation by using the user's protected identity with any device or platform that the salesperson chooses. As the meeting is scheduled, the calendar event will be accessible across all platforms and applications to act upon if needed. 
 
@@ -87,7 +87,7 @@ The Microsoft Graph API for Azure Active Directory (Azure AD) helps organization
 
 ## Productivity and collaboration 
  
-In the salesperson application scenario, a salesperson needs solutions to increase their productivity throughout the day. 
+In the salesperson application scenario, salespeople need solutions to increase their productivity throughout the day. 
 
 Developers can enhance the app experience by adding a chatbot that can schedule meetings between colleagues and customers, check calendar availability, and remind salespeople about the to-do list for the day. 
 

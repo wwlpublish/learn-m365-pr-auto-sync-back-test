@@ -16,7 +16,8 @@ Data and intelligence like the following types can be accessed through the Micro
 
 :::image type="content" source="../media/2-microsoft-graph.png" alt-text="Diagram that shows an overview of the connections in Microsoft Graph.":::
 
-It's important to mention that Microsoft Graph is used to access Microsoft 365 data and isn't related to other graph technologies, such as graph databases or GraphQL. 
+> [!NOTE]
+> Microsoft Graph is used to access Microsoft 365 data and isn't related to other graph technologies, such as graph databases or GraphQL. 
  
 
 ## Benefits of using Microsoft Graph in your application  
@@ -26,7 +27,7 @@ To better understand the benefits of Microsoft Graph, let's revisit the customer
 - Get a history of interactions between salespeople and customers
 - See messages that a salesperson sent to a customer (Microsoft Teams chat or email)
 - Access information about prior meetings and notes
-- Identify key people within the organization that can help with customer questions
+- Identify key people within the organization who can help with customer questions
 - Review files related to a customer 
 
 :::image type="content" source="../media/2-sales-app-summary.png" alt-text="Diagram of the components of the sales application.":::
@@ -38,7 +39,7 @@ By using Microsoft Graph, your development team can use a single endpoint and un
 As the salesperson application grows, it can include data from other services: 
 
 - Microsoft 365 services: Delve, Excel, Microsoft Bookings, Microsoft Teams, OneDrive, OneNote, Outlook/Exchange, Planner, SharePoint, Workplace Analytics
-- Enterprise Mobility + Security services: Advanced Threat Analytics, Advanced Threat Protection, Azure Active Directory, Identity Manager, and Intune
+- Enterprise Mobility + Security services: Advanced Threat Analytics, Advanced Threat Protection, Azure Active Directory, Identity Manager, Intune
 - Windows 10 services: activities, devices, notifications
 - Dynamics 365 Business Central
 

@@ -22,7 +22,7 @@ To learn more about Microsoft Graph and other concepts covered in this module, s
 
 - [Microsoft Graph on Microsoft Docs](https://docs.microsoft.com/graph/?WT.mc_id=m365-16105-cxa)
 - [Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program/?WT.mc_id=m365-16105-cxa)
-- [Microsoft Graph Explorer](https://aka.ms/ge/?WT.mc_id=m365-16105-cxa) 
+- [Graph Explorer](https://aka.ms/ge/?WT.mc_id=m365-16105-cxa) 
 - [Microsoft Graph SDKs](https://docs.microsoft.com/graph/sdks/sdks-overview/?WT.mc_id=m365-16105-cxa)  
 - [Microsoft 365 services](https://docs.microsoft.com/office365/servicedescriptions/office-365-service-descriptions-technet-library/?WT.mc_id=m365-16105-cxa)  
 - [Enterprise Mobility + Security services](https://docs.microsoft.com/enterprise-mobility-security/?WT.mc_id=m365-16105-cxa)  
