@@ -1004,6 +1004,41 @@
       "source_path": "learn-m365-pr/wwl-mba/deploy-and-manage-windows-10-and-office-365-proplus/2-windows-10-and-office-365-proplus.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/deploy-and-manage-windows-10-and-office-365-proplus/2-windows-10-and-microsoft-365-apps-enterprise",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/describe-microsoft-365-foundational-principles-solution-areas/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-microsoft-security-compliance-principles/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/describe-microsoft-365-foundational-principles-solution-areas/2-describe-microsoft.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-microsoft-security-compliance-principles/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/describe-microsoft-365-foundational-principles-solution-areas/4-privacy-principles.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-microsoft-security-compliance-principles/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/describe-microsoft-365-foundational-principles-solution-areas/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-microsoft-security-compliance-principles/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/describe-microsoft-365-foundational-principles-solution-areas/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-microsoft-security-compliance-principles/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/describe-microsoft-365-foundational-principles-solution-areas/3-review-microsoft.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-microsoft-security-compliance-principles/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/describe-microsoft-365-foundational-principles-solution-areas/6-summary-resources.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/describe-microsoft-security-compliance-principles/",
+      "redirect_document_id": false
     }
   ]
 }
