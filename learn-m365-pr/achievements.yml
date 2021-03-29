@@ -25,3 +25,13 @@ achievements:
   title: Microsoft 365 Fundamentals
   summary: Microsoft 365 Fundamentals
   iconUrl: /learn/achievements/m365-fundamentals.svg
+- uid: learn.wwl.describe-microsoft-365-security-principles-solution-areas.badge
+  type: badge
+  title: Describe Microsoft 365 security principles and solution areas
+  summary: Describe Microsoft 365 security principles and solution areas
+  iconUrl: /learn/achievements/understand-microsoft-365-foundational-principles-and-solution-areas.svg
+- uid: learn.wwl.describe-compliance-management-capabilities-of-microsoft-365.badge
+  type: badge
+  title: Describe the compliance management capabilities of Microsoft 365
+  summary: Describe the compliance management capabilities of Microsoft 365
+  iconUrl: /learn/achievements/describe-the-compliance-management-capabilities-of-microsoft-365.svg

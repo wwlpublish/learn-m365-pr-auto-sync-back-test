@@ -24,12 +24,10 @@ products:
 - m365
 modules:
 - learn-m365.what-is-m365
-- learn.wwl.describe-microsoft-365-security-principles-solution-areas
 - learn.wwl.describe-identity-access-management-capabilities-of-microsoft-365
 - learn.wwl.describe-threat-protection-capabilities-of-microsoft-365
 - learn.wwl.describe-cloud-security-capabilities-of-microsoft-365
 - learn.wwl.describe-information-protection-governance-capabilities-of-microsoft-365
-- learn.wwl.describe-compliance-management-capabilities-of-microsoft-365
 - learn.wwl.reduce-risk-simplify-discovery-audit-process
 trophy:
   uid: learn.wwl.m365-security-compliance-capabilities.trophy
