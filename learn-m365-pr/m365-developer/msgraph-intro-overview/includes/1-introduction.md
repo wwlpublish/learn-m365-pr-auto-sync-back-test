@@ -1,4 +1,4 @@
-Microsoft Graph provides access to data stored across Microsoft 365 services. Custom applications can use the Microsoft Graph API (application programming interface) to connect to data and use it in custom applications to enhance organizational productivity. 
+Microsoft Graph provides access to data stored across Microsoft 365 services. Custom applications can use the Microsoft Graph API (application programming interface) to connect to data and to enhance organizational productivity. 
 
 ## Prerequisites
 
