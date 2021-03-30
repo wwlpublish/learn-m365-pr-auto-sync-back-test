@@ -14,7 +14,7 @@ In this module, you will:
 - Understand the role of Azure Active Directory with Microsoft Graph
 - Understand basic concepts of Microsoft Graph permissions
 - Demonstrate registering an Azure Active Directory application
-- Demonstrate the ability to create a JavaScript application to connect to Microsoft Graph to retrieve Microsoft 365 data
+- Demonstrate the ability to create a JavaScript application to connect to Microsoft Graph and retrieve Microsoft 365 data
 
 ## Scenario
 

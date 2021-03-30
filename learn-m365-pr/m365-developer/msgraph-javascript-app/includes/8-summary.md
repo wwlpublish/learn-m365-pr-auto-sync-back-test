@@ -11,4 +11,4 @@ To learn more about Microsoft Graph and other concepts covered in this module, s
 
 - [Microsoft Graph on Microsoft Docs](https://docs.microsoft.com/graph/?WT.mc_id=m365-16105-cxa)
 - [Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program/?WT.mc_id=m365-16105-cxa)
-- [Getting Started with Microsoft identity](https://docs.microsoft.com/learn/modules/getting-started-identity/?WT.mc_id=m365-16105-cxa)
+- [Getting started with Microsoft identity](https://docs.microsoft.com/learn/modules/getting-started-identity/?WT.mc_id=m365-16105-cxa)

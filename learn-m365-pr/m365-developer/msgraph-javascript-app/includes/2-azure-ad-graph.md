@@ -8,7 +8,7 @@ To use Microsoft Graph in your application, you must:
 1. Add Azure AD application registration IDs into your application's MSAL code to associate the application with the proper Azure AD directory.
 1. Provide a way for a user to sign in to the application (by selecting a button, for example). 
 
-After a user signs in, your application's MSAL code will receive an access token. 
+After a user signs in, your application's MSAL code receives an access token. 
 
 :::image type="content" source="../media/2-app-access-token.png" alt-text="Diagram that shows the access token flow between an app and Microsoft identity.":::
 

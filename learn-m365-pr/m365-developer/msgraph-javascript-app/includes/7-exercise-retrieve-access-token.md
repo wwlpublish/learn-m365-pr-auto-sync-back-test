@@ -36,7 +36,7 @@ This exercise gets you started with running an application that signs in a user 
  
 ## Run the app
 
-For this step, make sure you have Node.js installed on your machine.
+For this procedure, make sure you have Node.js installed on your machine.
 
 It's time to see your application run locally.  
 
