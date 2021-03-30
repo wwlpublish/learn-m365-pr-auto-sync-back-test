@@ -3,7 +3,7 @@ uid: learn.wwl.m365-security-compliance-capabilities
 metadata:
   title: Demonstrate fundamental knowledge of Microsoft 365 security and compliance capabilities
   description: Demonstrate fundamental knowledge of Microsoft 365 security and compliance capabilities
-  ms.date: 09/05/2020
+  ms.date: 03/30/2021
   author: wwlpublish
   ms.author: ceperezb
   ms.topic: interactive-tutorial
@@ -19,15 +19,16 @@ levels:
 roles:
 - business-owner
 - business-user
-- auditor
 products:
 - m365
 modules:
 - learn-m365.what-is-m365
+- learn.wwl.describe-microsoft-security-compliance-principles
 - learn.wwl.describe-identity-access-management-capabilities-of-microsoft-365
 - learn.wwl.describe-threat-protection-capabilities-of-microsoft-365
 - learn.wwl.describe-cloud-security-capabilities-of-microsoft-365
 - learn.wwl.describe-information-protection-governance-capabilities-of-microsoft-365
+- learn.wwl.describe-compliance-management-capabilities-microsoft
 - learn.wwl.reduce-risk-simplify-discovery-audit-process
 trophy:
   uid: learn.wwl.m365-security-compliance-capabilities.trophy
