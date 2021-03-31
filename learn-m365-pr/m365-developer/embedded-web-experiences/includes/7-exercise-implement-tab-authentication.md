@@ -17,7 +17,7 @@ You'll use Node.js to create custom Microsoft Teams tabs in this module. The exe
 - NPM (installed with Node.js) - v6.\* (or higher)
 - [Gulp](https://gulpjs.com/) - v4.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.16.0 (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v3.0.\* (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 
 *You must have the minimum versions of these prerequisites installed on your workstation.
@@ -104,13 +104,10 @@ Yeoman starts and asks you a series of questions. Answer the questions with the 
 - **Title of your Microsoft Teams App project**: Learn MSTeams Auth Tabs
 - **Your (company) name (max 32 characters)**: Contoso
 - **Which manifest version would you like to use?**: v1.8
-- **Enter your Microsoft Partner ID, if you have one**: (Leave blank to skip)
+- **Quick scaffolding**: Yes
 - **What features do you want to add to your project?**: A tab
 - **The URL where you will host this solution?**: (Accept the default option)
 - **Would you like to show a loading indicator when your app/tab loads?** No
-- **Would you like personal apps to be rendered without a tab header-bar?** No
-- **Would you like to include Test framework and initial tests?**: No
-- **Would you like to use Azure Applications Insights for telemetry?**: No
 - **Default Tab name (max 16 characters)**: LearnAuthTab
 - **Do you want to create a configurable or static tab?**: Configurable
 - **What scopes do you intend to use for your tab?**: In a Team
@@ -137,7 +134,7 @@ npm i @microsoft/teams-js
 
 ## Update the tab to use the current Theme
 
-Locate and open the file that contains the React component used in the project: **./src/app/scripts/learnAuthTab/LearnAuthTab.tsx**.
+Locate and open the file that contains the React component used in the project: **./src/client/learnAuthTab/LearnAuthTab.tsx**.
 
 Update the `import` statements in this file to include the components used in the configuration tab. Find the following `import` statement that imports the Fluent UI - React library:
 
@@ -148,18 +145,7 @@ import { Provider, Flex, Text, Button, Header } from "@fluentui/react-northstar"
 Replace the previous statement with the following import statement:
 
 ```typescript
-import {
-  Provider,
-  Flex,
-  Text,
-  Button,
-  Header,
-  ThemePrepared,
-  teamsTheme,
-  teamsDarkTheme,
-  teamsHighContrastTheme,
-  List
-} from "@fluentui/react-northstar";
+import { Provider, Flex, Text, Button, Header, List } from "@fluentui/react-northstar";
 ```
 
 Add the following import statement:
@@ -167,59 +153,6 @@ Add the following import statement:
 ```typescript
 import { EmailIcon } from "@fluentui/react-icons-northstar";
 ```
-
-Update the state of the component to contain a property for the current theme. Locate the `ILearnAuthTabState` interface in the LearnAuthTab.tsx file, and add the following member to it:
-
-```typescript
-teamsTheme: ThemePrepared;
-```
-
-Add the following method to the `LearnAuthTab` class that updates the component state to the theme that matches the currently selected Microsoft Teams client theme:
-
-```typescript
-private updateComponentTheme = (currentThemeName: string = "default"): void => {
-  let componentTheme: ThemePrepared;
-
-  switch (currentThemeName) {
-    case "default":
-      componentTheme = teamsTheme;
-      break;
-    case "dark":
-      componentTheme = teamsDarkTheme;
-      break;
-    case "contrast":
-      componentTheme = teamsHighContrastTheme;
-      break;
-    default:
-      componentTheme = teamsTheme;
-      break;
-  }
-  // update the state
-  this.setState(Object.assign({}, this.state, {
-    teamsTheme: componentTheme
-  }));
-}
-```
-
-Initialize the current theme and state of the component. Locate the line `this.updateTheme(this.getQueryVariable("theme"));` and replace it with the following code in the `componentWillMount()` method:
-
-```typescript
-this.updateComponentTheme(this.getQueryVariable("theme"));
-```
-
-Within the `componentWillMount()` method, locate the following line:
-
-```typescript
-microsoftTeams.registerOnThemeChangeHandler(this.updateTheme);
-```
-
-This code registers an event handler to update the component's theme to match the theme of the current Microsoft Teams client when this page is loaded as a tab. Update this line to call the new handler in the following line to register another handler to update the component theme:
-
-```typescript
-microsoftTeams.registerOnThemeChangeHandler(this.updateComponentTheme);
-```
-
-With the theme management and state initialized, we can now implement the user interface.
 
 ## Implement the tab's logic and user interface
 
@@ -232,53 +165,42 @@ import * as MicrosoftGraphClient from "@microsoft/microsoft-graph-client";
 import * as MicrosoftGraph from "microsoft-graph";
 ```
 
-Locate the `ILearnAuthTabState` interface, and add the following members to it. These properties are used to store the OAuth access token used to authenticate with and the email messages returned from Microsoft Graph.
+Next, update the state of the component to store the OAuth access token used to authenticate with and the email messages returned from Microsoft Graph.
 
 ```typescript
-accessToken: string;
-messages: MicrosoftGraph.Message[];
+const [accessToken, setAccessToken] = useState<string>("");
+const [messages, setMessages] = useState<MicrosoftGraph.Message[]>([]);
 ```
 
-Add the following code to the top of the `LearnAuthTab` class. This action creates a new class-scoped member of the Microsoft Graph client and initializes the state of the component.
+Add the following code to the top of the `LearnAuthTab` component. This action creates a new class-scoped member of the Microsoft Graph client and initializes the state of the component.
 
 ```typescript
-private msGraphClient: MicrosoftGraphClient.Client;
-
-constructor(props: ILearnAuthTabProps, state: ILearnAuthTabState) {
-  super(props, state);
-
-  state.messages = [];
-  state.accessToken = "";
-
-  this.state = state;
-}
+var msGraphClient: MicrosoftGraphClient.Client;
 ```
 
-Locate the `render()` method, and update the return statement to the following code. The `render()` method displays a button for the user to select to sign in and request their emails from Microsoft Graph. It then displays the email messages in a list.
+Locate the `return` statement, and update it to the following code. The component displays a button for the user to select to sign in and request their emails from Microsoft Graph. It then displays the email messages in a list.
 
 ```tsx
-public render() {
-  return (
-    <Provider theme={teamsTheme}>
-      <Flex column gap="gap.small">
-        <Header>Recent messages in current user's mailbox</Header>
-        <Button primary
-                content="Get My Messages"
-                onClick={this.handleGetMyMessagesOnClick}></Button>
-        <List selectable>
-          {
-            this.state.messages.map((message, i) => (
-              <List.Item media={<EmailIcon></EmailIcon>}
-                header={message.receivedDateTime}
-                content={message.subject} index={i}>
-              </List.Item>
-            ))
-          }
-        </List>
-      </Flex>
-    </Provider>
-  );
-}
+return (
+  <Provider theme={theme}>
+    <Flex column gap="gap.small">
+      <Header>Recent messages in current user's mailbox</Header>
+      <Button primary
+              content="Get My Messages"
+              onClick={handleGetMyMessagesOnClick}></Button>
+      <List selectable>
+        {
+          messages.map((message, i) => (
+            <List.Item media={<EmailIcon></EmailIcon>}
+              header={message.receivedDateTime}
+              content={message.subject} index={i}>
+            </List.Item>
+          ))
+        }
+      </List>
+    </Flex>
+  </Provider>
+);
 ```
 
 Add the `onclick` event handler for the button to the `LearnAuthTab` class.
@@ -293,45 +215,42 @@ private handleGetMyMessagesOnClick = async (event): Promise<void> => {
 
 At this point, the tab is ready to add the logic necessary to request the email messages for the current user. Before you request email messages from Microsoft Graph, you need the user to sign in and obtain an access token from Azure AD. There are multiple steps to do to implement the authentication routine.
 
-Start by adding the following code to the end of `componentWillMount()` to initialize the Microsoft Graph client:
+Start by adding the following code to the component to initialize the Microsoft Graph client:
 
 ```typescript
-// init the graph client
-this.msGraphClient = MicrosoftGraphClient.Client.init({
-  authProvider: async (done) => {
-    if (!this.state.accessToken) {
-      const token = await this.getAccessToken();
-      this.setState({
-        accessToken: token
-      });
+useEffect(() => {
+  msGraphClient = MicrosoftGraphClient.Client.init({
+    authProvider: async (done) => {
+      if (!accessToken) {
+        const token = await getAccessToken();
+        setAccessToken(token);
+      }
+      done(null, accessToken);
     }
-    done(null, this.state.accessToken);
-  }
-});
+  });
+}, []);
 ```
 
-Next, add the following method to the `LearnAuthTab` class:
+Next, add the following method to the `LearnAuthTab` component:
 
 ```typescript
-private async getMessages(promptConsent: boolean = false): Promise<void> {
-  if (promptConsent || this.state.accessToken === "") {
-    await this.signin(promptConsent);
+const getMessages = async (promptConsent: boolean = false): Promise<void> => {
+  if (promptConsent || accessToken === "") {
+    await signin(promptConsent);
   }
 
-  this.msGraphClient
+  msGraphClient
     .api("me/messages")
     .select(["receivedDateTime", "subject"])
     .top(15)
     .get(async (error: any, rawMessages: any, rawResponse?: any) => {
       if (!error) {
-        this.setState(Object.assign({}, this.state, {
-          messages: rawMessages.value
-        }));
+        setMessages(rawMessages.value);
         Promise.resolve();
       } else {
         console.error("graph error", error);
         // re-sign in but this time force consent
-        await this.getMessages(true);
+        await getMessages(true);
       }
     });
 }
@@ -342,13 +261,9 @@ The `getMessages()` method first checks if the component has an access token. If
 Add the following code to implement the `signin()` method:
 
 ```typescript
-private async signin(promptConsent: boolean = false): Promise<void> {
-  const token = await this.getAccessToken(promptConsent);
-
-  this.setState({
-    accessToken: token
-  });
-
+const signin = async (promptConsent: boolean = false): Promise<void> => {
+  const token = await getAccessToken(promptConsent);
+  setAccessToken(token);
   Promise.resolve();
 }
 ```
@@ -373,7 +288,7 @@ private async getAccessToken(promptConsent: boolean = false): Promise<string> {
 }
 ```
 
-Create the new file **./src/app/web/auth-start.html** in the project, and add the following code to it. This file uses the Microsoft Teams JavaScript SDK and Azure Active Directory Authentication Library JavaScript (ADAL.js) libraries to configure ADAL for the Azure AD application created previously in this exercise. It then redirects the user to the Azure AD sign-in page and instructs the page to redirect the user back to **auth-end.html** on our site.
+Create the new file **./src/public/auth-start.html** in the project, and add the following code to it. This file uses the Microsoft Teams JavaScript SDK and Azure Active Directory Authentication Library JavaScript (ADAL.js) libraries to configure ADAL for the Azure AD application created previously in this exercise. It then redirects the user to the Azure AD sign-in page and instructs the page to redirect the user back to **auth-end.html** on our site.
 
 ```html
 <!DOCTYPE html>
@@ -433,7 +348,7 @@ Create the new file **./src/app/web/auth-start.html** in the project, and add th
 </html>
 ```
 
-Create the new file **./src/app/web/auth-end.html** in the project, and add the following code to it. Like the auth-start.html file, this file uses the Microsoft Teams JavaScript SDK and ADAL.js libraries to configure ADAL for the Azure AD application created previously in this exercise. It parses the results received from Azure AD. If the user successfully authenticated, this page requests an access token for Microsoft Graph from Azure AD and then notifies Microsoft Teams that the authentication process succeeded or failed.
+Create the new file **./src/public/auth-end.html** in the project, and add the following code to it. Like the auth-start.html file, this file uses the Microsoft Teams JavaScript SDK and ADAL.js libraries to configure ADAL for the Azure AD application created previously in this exercise. It parses the results received from Azure AD. If the user successfully authenticated, this page requests an access token for Microsoft Graph from Azure AD and then notifies Microsoft Teams that the authentication process succeeded or failed.
 
 The notification process triggers Microsoft Teams to close the pop-up window and run the registered callback handlers in our tab:
 
