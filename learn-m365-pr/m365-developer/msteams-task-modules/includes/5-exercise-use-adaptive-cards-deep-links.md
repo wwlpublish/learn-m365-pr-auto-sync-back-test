@@ -76,24 +76,24 @@ From the **json** tab, replace the contents of the default card with the followi
 
 This JSON code instructs Microsoft Teams to render a textbox and button. When the button is selected, it will submit the card.
 
-Copy and paste this JSON into a new file, **YouTubeSelectorCard.json**, into the folder in the existing project **./src/app/scripts/youTubePlayer1Tab/**.
+Copy and paste this JSON into a new file, **YouTubeSelectorCard.json**, into the folder in the existing project **./src/client/youTubePlayer1Tab/**.
 
 ## Create a new task module that uses the Adaptive Card
 
 After creating the Adaptive Card, the next step is to create a task module that will display it and handle the submission action.
 
-Within the existing Microsoft Teams app project, locate the file **./src/app/scripts/youTubePlayer1Tab/YouTubePlayer1Tab.tsx** that contains the custom personal tab.
+Within the existing Microsoft Teams app project, locate the file **./src/client/youTubePlayer1Tab/YouTubePlayer1Tab.tsx** that contains the custom personal tab.
 
-Locate the `render()` method and add the following code to add a button after one of the existing buttons:
+Locate the `return` statement and add the following code to add a button after one of the existing buttons:
 
 ```tsx
-<Button content="Change Video ID (AdaptiveCard)" onClick={this.onChangeVideoAdaptiveCard}></Button>
+<Button content="Change Video ID (AdaptiveCard)" onClick={() => onChangeVideoAdaptiveCard()}></Button>
 ```
 
 Next, add the following method to the `YouTubePlayer1Tab` class:
 
 ```typescript
-private onChangeVideoAdaptiveCard = (event: React.MouseEvent<HTMLButtonElement>): void => {
+private onChangeVideoAdaptiveCard = (): void => {
   const taskModuleInfo = {
     title: "YouTube Video Selector",
     width: 350,
@@ -117,19 +117,19 @@ adaptiveCard.body.forEach((container: any) => {
   if (container.type === "Container") {
     container.items.forEach((item: any) => {
       if (item.id && item.id === "youTubeVideoId") {
-        item.value = this.state.youTubeVideoId;
+        item.value = youTubeVideoId;
       }
     });
   }
 });
 ```
 
-Next, implement the callback. When the Adaptive Card executes the submit action, it will send an object back with all the input objects as properties. Add the following code to the existing `submitHandler()` in the `onChangeVideoAdaptiveCard()` function. This code will update the state with the value of the video ID specified in the Adaptive Card:
+Next, implement the callback. When the Adaptive Card executes the submit action, it will send an object back with all the input objects as properties. Update the existing `submitHandler()` in the `onChangeVideoAdaptiveCard()` function. This code will update the state with the value of the video ID specified in the Adaptive Card:
 
 ```typescript
-this.setState(Object.assign({}, this.state, {
-  youTubeVideoId: result.youTubeVideoId
-}));
+const submitHandler = (err: string, result: any): void => {
+  setYouTubeVideoId(result.youTubeVideoId);
+};
 ```
 
 Lastly, add a new `card` property to the `taskModuleInfo` object, and set its value to the adaptive card. The resulting `taskModuleInfo` should look like the following code:
@@ -185,7 +185,7 @@ The deep link for to launch the video player task module would be the following 
 https://teams.microsoft.com/l/task/3386faf0-109f-11ea-9799-77a28170bd5d?url=https://{{REPLACE_WITH_YOUR_NGROK_URL}}/youTubePlayer1Tab/player.html?vid=VlEH4vtaxp4&height=700&width=1000&title=YouTube%20Player:%20Overview%20of%20teams%20and%20channels
 ```
 
-In Microsoft teams, go to a channel, select the **Conversations** tab, and select the **Format** button in the message dialog:
+In Microsoft Teams, go to a channel, select the **Conversations** tab, and select the **Format** button in the message dialog:
 
 ![Screenshot of the message dialog](../media/05-test-02.png)
 
