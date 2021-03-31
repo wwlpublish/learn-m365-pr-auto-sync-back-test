@@ -56,7 +56,7 @@ The modal popup triggered by the messaging extension is implemented as a task mo
 > [!NOTE]
 > The last option for implementing a task module, *static parameters*, is unique to messaging extensions.
 
-If you use either the embedded web view or Adaptive card option to implement your task module, your web service must respond to the invoice event from the user with the task module that the Microsoft Teams client will render for the user.
+If you use either the embedded web view or Adaptive card option to implement your task module, your web service must respond to the invoked event from the user with the task module that the Microsoft Teams client will render for the user.
 
 ### Registering action command messaging extensions
 
