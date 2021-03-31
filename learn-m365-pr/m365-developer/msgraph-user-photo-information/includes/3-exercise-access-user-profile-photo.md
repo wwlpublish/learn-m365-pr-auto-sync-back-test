@@ -1,30 +1,29 @@
-You have learned all the concepts needed to access a user’s profile with Microsoft Graph. Now, it’s time to build an application, which will retrieve and display the photo of a signed in salesperson in your customer application. 
+You've learned all the concepts needed to access a user's profile by using Microsoft Graph. Now it's time to build a customer application that will retrieve and display the photo of a signed-in salesperson. 
 
-To successfully complete this unit, you'll need a user account (from your Microsoft 365 developer tenant for example) with a profile picture available to use in the application.
+To successfully complete this unit, you need a user account (from your Microsoft 365 developer tenant, for example) with a profile picture available to use in the application.
 
-In this exercise, you'll access a GitHub repository, add Azure Active Directory IDs into the app, and add code to access a photo using Microsoft Graph. If you haven't created an Azure Active Directory app registration yet, complete the prerequisite module before continuing.
+In this exercise, you'll access a GitHub repository, add Azure Active Directory (Azure AD) IDs into the app, and add code to access a photo by using Microsoft Graph. If you haven't created an Azure AD app registration yet, complete the prerequisite module before continuing.
 
 1. Open a terminal window on your computer and go to the folder where you want to save the app.
-1. To get the source code, visit [https://github.com/MicrosoftDocs/mslearn-retrieve-m365-data-with-msgraph-quickstart](https://github.com/MicrosoftDocs/mslearn-retrieve-m365-data-with-msgraph-quickstart) and choose from one of the following options:
-    - If you use **git**, clone the project using the git clone command as below:
+1. To get the source code, visit the [GitHub repository](https://github.com/MicrosoftDocs/mslearn-retrieve-m365-data-with-msgraph-quickstart) and choose one of the following options:
+    - If you use Git, clone the project by using the `git clone` command:
     
-    ```powershell
-    git clone https://github.com/MicrosoftDocs/mslearn-retrieve-m365-data-with-msgraph-quickstart.git
-    ```
+      ```powershell
+      git clone https://github.com/MicrosoftDocs/mslearn-retrieve-m365-data-with-msgraph-quickstart.git
+      ```
     
-    - If you don't use **git**,  select the **Code** button followed by **Download ZIP**. Extract the ZIP file to your machine.
-1. Open the downloaded or cloned project's root folder **mslearn-retrieve-m365-data-with-msgraph-quickstart** in your favorite editor.
+    - If you don't use Git,  select the **Code** button followed by **Download ZIP**. Extract the .zip file to your machine.
+1. Open the downloaded or cloned project's root folder *mslearn-retrieve-m365-data-with-msgraph-quickstart* in your favorite editor.
 1. The application contains the following files:
 
-    - **index.html** - Defines the user interface displayed to an end user when they access the website. It loads the MSAL script and custom application scripts, provides a way for a user to login, and displays the user's name after they login.
-    - **auth.js** - Defines the MSAL configuration to associate the application with Azure AD, signs a user into the application, and handles retrieving an access token that can be used by Microsoft Graph.
-    - **graph.js** - Calls into Microsoft 365 to access the signed in `/me` profile. It relies on **auth.js** to retrieve the access token that is used for the Microsoft Graph API call.
-    - **ui.js** - Handles user interface elements defined in **index.html**.
+    - *index.html*: Defines the interface that appears to a user when they access the website. It loads the Microsoft Authentication Library (MSAL) script and custom application scripts, provides a way for a user to sign in, and displays the user's name after they sign in.
+    - *auth.js*: Defines the MSAL configuration to associate the application with Azure AD, signs in a user to the application, and handles retrieving an access token that Microsoft Graph can use.
+    - *graph.js*: Calls in to Microsoft 365 to access the signed-in `/me` profile. It relies on *auth.js* to retrieve the access token that's used for the Microsoft Graph API call.
+    - *ui.js*: Handles user interface elements defined in *index.html*.
     
-1. Open the **auth.js** file, locate the constant `msalConfig` on line 4
-1. Replace the value of the **clientId** property with the copied **Application (client) ID** from the Azure AD application (spa-aad-app) which was registered in the previous module **Configure a JavaScript application to retrieve Microsoft 365 data using Microsoft Graph**. You can get this from the overview page of the Azure AD application (spa-aad-app).
-1. In the same **auth.js** file, locate the **authority** property on line 6 and replace the \<your directory ID here> value with the **Directory (tenant) ID** of the Azure AD application (spa-aad-app) that was registered in the previous module **Configure a JavaScript application to retrieve Microsoft 365 data using Microsoft Graph**. You can get this from the overview page of the Azure AD application (spa-aad-app).
-1. Open the **index.html** file and add the following code immediately under the welcome message in the body to create a button and image element.
+1. Open the *auth.js* file and find the constant `msalConfig` on line 4. Replace the value of the `clientId` property with the **Application (client) ID** value from the Azure AD application named *spa-aad-app*. (You registered that application in the previous module, *Configure a JavaScript application to retrieve Microsoft 365 data by using Microsoft Graph*.) You can get this value from the overview page of the *spa-aad-app* application.
+1. In the same *auth.js* file, find the `authority` property on line 6. Replace the `<your directory ID here>` value with the **Directory (tenant) ID** value from the overview page of the *spa-aad-app* application.
+1. Open the *index.html* file. Add the following code immediately under the welcome message in the body to create a button and image element:
 
     ```html
     <div>
@@ -32,7 +31,7 @@ In this exercise, you'll access a GitHub repository, add Azure Active Directory 
     </div> 
     <img id="userPhoto" class="user" alt="User photo" style="display: none;" />  
     ```
-1. In the same **index.html** file, locate the `<head>` tag and add the following code to style the image element you added in the previous step.
+1. In the same *index.html* file, find the `<head>` tag. Add the following code to style the image element that you added in the previous step:
 
     ```html
     <style> 
@@ -46,8 +45,8 @@ In this exercise, you'll access a GitHub repository, add Azure Active Directory 
     </style> 
 
     ```
-1. Save the **index.html** file.
-1. Open the **graph.js** file. Add a new function named **getUserPhoto()** into the file as shown below. This function will get the photo of the signed  in user, using the `/me/photo/$value` Microsoft Graph API endpoint.
+1. Save the *index.html* file.
+1. Open the *graph.js* file. Add a new function named `getUserPhoto()` into the file as shown in the following code. This function will get the photo of the signed-in user by using the `/me/photo/$value` Microsoft Graph API endpoint.
 
     ```javascript
     async function getUserPhoto() {
@@ -57,8 +56,8 @@ In this exercise, you'll access a GitHub repository, add Azure Active Directory 
             .get(); 
     } 
     ```
-1. Save the **graph.js** file.
-1. Open the **ui.js** file and add a new function named **displayProfilePhoto()** as shown below. This function will display the image response received from Microsoft Graph in the image element you created earlier.
+1. Save the *graph.js* file.
+1. Open the *ui.js* file and add a new function named `displayProfilePhoto()` as shown in the following code. This function will display the image response received from Microsoft Graph in the image element that you created earlier.
      
     ```javascript
     async function displayProfilePhoto() {    
@@ -67,7 +66,7 @@ In this exercise, you'll access a GitHub repository, add Azure Active Directory 
             return;  
         }     
     
-        //convert blob object to a local url
+        //convert blob to a local URL
         const urlObject = URL.createObjectURL(userPhoto); 
         // show user photo  
         const userPhotoElement = document.getElementById('userPhoto'); 
@@ -78,35 +77,33 @@ In this exercise, you'll access a GitHub repository, add Azure Active Directory 
         imgPhoto.style = "display: block"; 
     } 
     ```
-1. Open the **ui.js** file and append the following code into the existing **displayUI()** function. This code will show a button that a signed-in user can select to view their profile photo. The button will remain hidden if the user is not signed in.
+1. Open the *ui.js* file and append the following code to the existing `displayUI()` function. This code will show a button that a signed-in user can select to view their profile photo. The button will remain hidden if the user is not signed in.
 
     ```javascript
     var showPhotoButton= document.getElementById('showProfilePhoto'); 
     showPhotoButton.style = "display: block"; 
     ```
-Now that you’ve added the extra functions and code snippets to get the photo for a signed-in user, the next step is to run the app locally.
+Now that you've added the extra functions and code snippets to get the photo for a signed-in user, the next step is to run the app locally.
 
 ## Run the app
 
-> Before you test the app, make sure the user account with which you'll sign in has a profile picture already available.
-
-To run the application locally, follow these steps:
+To run the application locally, use the following steps. Make sure that the user account with which you'll sign in has a profile picture already available.
 
 1. In the terminal window, go to the project folder where the source code is located.
-1. Run the following script in the command line, which will start your app locally, opening [http://localhost:8080](http://localhost:8080) in the browser.
+1. Run the following script on the command line. The script will start your app locally and open [http://localhost:8080](http://localhost:8080) in the browser.
 
     ```powershell
     npm start
     ```
-1. If the app is configured correctly, you'll see a sign-in button as shown below:
+1. If the app is configured correctly, a sign-in button appears.
 
-    :::image type="content" source="../media/3-sign-in-button.png" alt-text="The screenshot of the sign in button.":::
+    :::image type="content" source="../media/3-sign-in-button.png" alt-text="Screenshot of the sign-in button.":::
 
-1. Sign in using an account in the same Microsoft 365 developer tenant, where you registered the Azure Active Directory Application.
-1. Once signed in successfully, you'll see a welcome message and a button to show a profile photo as shown below:
+1. Sign in by using an account in the same Microsoft 365 developer tenant where you registered the Azure AD application.
+1. After you're signed in successfully, confirm that a welcome message and a button to show a profile photo appear.
 
-    :::image type="content" source="../media/3-show-profile-button.png" alt-text="The screenshot of the show profile picture button.":::
+    :::image type="content" source="../media/3-show-profile-button.png" alt-text="Screenshot of the button to show a profile picture.":::
 
-1. Select the **Show profile picture** button. You'll see the profile picture of the signed in user displayed. Here is a screenshot of how it looks.
+1. Select the **Show profile picture** button. The profile picture of the signed-in user appears.
 
-    :::image type="content" source="../media/3-profile-picture.png" alt-text="The screenshot of the profile picture.":::
+    :::image type="content" source="../media/3-profile-picture.png" alt-text="Screenshot of a profile picture.":::
