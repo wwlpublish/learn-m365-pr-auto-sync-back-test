@@ -29,13 +29,13 @@ quiz:
       
     - content: "Too many DLP policy false positives can have a negative effect on business production. Additionally, too many false positives can result in security teams ignoring the warnings. Microsoft sensitive information types are thoroughly tested. There is still a chance your organization may have specific needs not met by built-in sensitive information types. What do you do if your DLP incident report returns too many false positives? "
       choices:
-      - content: "Modify the DLP policy"
+      - content: "Modify the DLP policy."
         isCorrect: true
         explanation: "Correct. When identifying information to protect, you need to configure the conditions that will result in a policy being triggered via rules. Data loss prevention includes policy templates that include rules for detecting many common sensitive information types. You can modify these rules using the rule editor if they are resulting in too many false positives."
       - content: Create a new retention policy and attach it to the DLP policy."
         isCorrect: false
         explanation: "Sorry, this is incorrect. Retention policies are used to decide proactively whether to retain content, delete content, or both. They have nothing to do with data loss prevention."
-      - content: "Design a new DLP policy"
+      - content: "Design a new DLP policy."
         isCorrect: false
         explanation: "While you certainly can design a new policy, modifying the existing policy is the best practice."
         
@@ -44,10 +44,10 @@ quiz:
       - content: "Create a custom policy to identify HIPAA-protected information. "
         isCorrect: false
         explanation: "Sorry, this is incorrect. Microsoft data loss prevention policy templates are thoroughly tested. Create a custom policy only if none of the built-in policies meet your requirements."
-      - content: "Turn on the policy right away"
+      - content: "Turn on the policy right away."
         isCorrect: false
-        explanation: "Sorry, this is incorrect. It' i's always a good practice to test the DLP policy first to validate functionality and alignment with your specific organizational needs."
-      - content: "Test the policy before releasing it"
+        explanation: "Sorry, this is incorrect. It's always a good practice to test the DLP policy first to validate functionality and alignment with your specific organizational needs."
+      - content: "Test the policy before releasing it."
         isCorrect: true
         explanation: "Correct. In most cases, you will want to test the DLP policy to make sure it is functioning as expected and meets your specific organization’s needs. "
 
@@ -56,9 +56,9 @@ quiz:
       - content: "Make sure each device is Azure AD registered."
         isCorrect: false
         explanation: "Sorry, this is incorrect. Each device that will be protected must be Azure AD joined or Hybrid Azure AD joined. Azure AD registered devices are not supported."
-      - content: "Onboard each device"
+      - content: "Onboard each device."
         isCorrect: true
-        explanation: "Correct. Device onboarding enables the collection of telemetry from devices for incorporation into Endpoint DLP. All devices must be onboarded to be included in DLP policies that include Windows devices."
-      - content: "Once created, you cannot add locations to a DLP policy, so this scenario is not valid."
+        explanation: "Correct. Device onboarding enables collecting data from devices to incorporate into Endpoint DLP. Only devices that have been onboarded can be included in DLP policies that target Windows devices."
+      - content: "Once created, you can't add locations to a DLP policy, so this isn't a valid scenario."
         isCorrect: false
         explanation: "Sorry, this is incorrect. Locations can be added or removed from DLP policies."
