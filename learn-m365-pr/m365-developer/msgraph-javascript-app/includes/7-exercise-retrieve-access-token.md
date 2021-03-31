@@ -25,7 +25,7 @@ This exercise gets you started with running an application that signs in a user 
     - *ui.js*: Handles user interface elements defined in *index.html*.
     
 1. Open the *auth.js* file and find the constant `msalConfig` on line 4. Replace the value of the `clientId` property with the copied **Application (client) ID** value from the Azure AD application (*spa-aad-app*) that you registered earlier. You can get this value from the overview page of the Azure AD application (*spa-aad-app*).
-1. In the same *auth.js* file, find the `authority` property on line 6. Replace the <your directory ID here> value with the **Directory (tenant) ID** value of the Azure AD application (*spa-aad-app*) that you registered earlier. You can get this value from the overview page of the Azure AD application (*spa-aad-app*).
+1. In the same *auth.js* file, find the `authority` property on line 6. Replace the `<your directory ID here>` value with the **Directory (tenant) ID** value of the Azure AD application (*spa-aad-app*) that you registered earlier. You can get this value from the overview page of the Azure AD application (*spa-aad-app*).
 1. Now that you've added the appropriate Azure AD IDs into *auth.js*, take a moment to explore the code in the file. Notice that it contains the following functions:
 
     - `signIn()`: Signs in the user.
