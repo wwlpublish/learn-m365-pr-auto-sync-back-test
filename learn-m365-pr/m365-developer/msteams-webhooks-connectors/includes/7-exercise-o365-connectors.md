@@ -43,13 +43,10 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Title of your Microsoft Teams App project?**: My First Teams Connector
 - **Your (company) name? (max 32 characters)**: Contoso
 - **Which manifest version would you like to use?**: v1.8
-- **Enter your Microsoft Partner Id, if you have one?**: (Leave blank to skip)
+- **Quick scaffolding**: Yes
 - **What features do you want to add to your project?**: A Connector
 - **The URL where you will host this solution?**: (Accept the default option)
 - **Would you like show a loading indicator when your app/tab loads?**: No
-- **Would you like personal apps to be rendered without a tab header-bar?** No
-- **Would you like to include Test framework and initial tests?**: No
-- **Would you like to use Azure Applications Insights for telemetry?**: No
 - **What type of Connector would you like to include?**: A new Connector hosted in this solution
 - **What is the Id of your Connector (found in the Connector Developer Portal)?**: (Enter the ID of the Connector you copied in the last step)
 - **What is the name of your Connector?** My First Teams Connector
@@ -78,7 +75,7 @@ Within this file, locate the `connectors` array. Notice a single connector is li
 ```
 
 > [!IMPORTANT]
-> Notice the scope of the Connector ID will be replaced by the build process. This ID can be found in the `./.env` file that's used for development.
+> Notice the value of the Connector ID will be replaced by the build process. This ID can be found in the `./.env` file that's used for development.
 
 A default manifest has a few empty array properties that must be removed to add the Connector to a team. Locate the following properties and delete them from the **manifest.json** file:
 
@@ -96,7 +93,7 @@ Finally, let's explore the code in the default project to see how it works. The 
 
 ### Examine the configuration page
 
-The configuration page is an HTML page that contains a React control. Locate and open the React control file **./src/app/scripts/myFirstTeamsConnector/MyFirstTeamsConnectorConfig.tsx**.
+The configuration page is an HTML page that contains a React control. Locate and open the React control file **./src/client/myFirstTeamsConnector/MyFirstTeamsConnectorConfig.tsx**.
 
 You need to make one edit to this file before building the project. Within the `componentWillMount()` React lifecycle event handler, locate the following code:
 
@@ -128,7 +125,7 @@ The code does the following things:
 - Update the settings for the Connector in Microsoft Teams
 - Submit an HTTP POST to the Connector's `/api/connector/connect` endpoint with a payload that contains necessary information the Connector web service needs to store
 
-Notice before the HTTP POST is executed, the code is calls the `getSettings()` method to retrieve the settings from Microsoft Teams:
+Notice before the HTTP POST is executed, the code calls the `getSettings()` method to retrieve the settings from Microsoft Teams:
 
 ```typescript
 microsoftTeams.settings.getSettings((s: any) => {
@@ -150,7 +147,7 @@ When the HTTP POST request succeeds, the `notifySuccess()` method is called on t
 
 ### Examine the web service
 
-The Connector is implemented as a web service that is hosted within the Microsoft Teams project. Locate and open the file **./src/app/myFirstTeamsConnector/MyFirstTeamsConnector.ts**.
+The Connector is implemented as a web service that is hosted within the Microsoft Teams project. Locate and open the file **./src/server/myFirstTeamsConnector/MyFirstTeamsConnector.ts**.
 
 The web service exposes two endpoints, both represented by methods with the endpoint's respective names. The endpoints are:
 
