@@ -6,9 +6,8 @@ Setting|Value
 -------|-----
 Name|My app
 Platform|Single-page application
-Redirect URIs|http://localhost
+Redirect URIs|`http://localhost:8080`
 Supported account types|Accounts in this organizational directory only (Single tenant)
 API permissions|Microsoft Graph `User.Read` (delegated)
 
-> [!NOTE]
-> If you need help registering your app in Azure AD, please refer to the prerequisites module on Microsoft Identity and complete the steps in Exercise: Different types of tokens used in Microsoft identity.
+[!INCLUDE [Register Azure AD application](../../includes/exercise-register-aad-application.md)]
