@@ -20,7 +20,7 @@ You'll use Node.js to create a custom Microsoft Teams app in this module. The ex
 - NPM (installed with Node.js) - v6.\* (or higher)
 - [Gulp](https://gulpjs.com/) - v4.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.16.0 (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v3.0.\* (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
@@ -96,9 +96,7 @@ Once this process is complete, you should see both the **Web Chat** and **Micros
 
 When Azure created the bot, it also registered a new Azure AD app for the bot. Generate this new bot app a secret and copy the app's credentials.
 
-Select **Settings** from the left-hand navigation. Scroll down to the **Microsoft App ID** section.
-
-Copy the ID of the bot as you'll need it later.
+Select **Configuration** from the left-hand navigation. Copy the **Microsoft App ID** of the bot as you'll need it later.
 
 Select **Manage** to navigate to the Azure AD app blade:
 
@@ -126,11 +124,6 @@ Copy the value of the secret as you'll need it later.
 
 In this section, you'll create a new Node.js project.
 
-> [!NOTE]
-> At the time of publication of this module, there are plans to update the Yeoman generator for Microsoft Teams to scaffold new bot projects using the the Bot Framework v4 SDK. However, at the time of publication of this module, the default project uses an older version of the Bot Framework SDK.
->
-> Therefore, the steps in this section may change over time because the Yeoman generator may simplify the creation of bots. This exercise will guide you through creating a bot and configuring the project manually to use the Bot Framework v4 SDK because this is the current recommended approach.
-
 Open your command prompt, navigate to a directory where you want to save your work, create a new folder **learn-msteams-bots**, and change directory into that folder.
 
 Run the Yeoman Generator for Microsoft Teams by running the following command:
@@ -146,13 +139,10 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Title of your Microsoft Teams App project?**: Conversational Bot
 - **Your (company) name? (max 32 characters)**: Contoso
 - **Which manifest version would you like to use?**: v1.8
-- **Enter your Microsoft Partner Id, if you have one?**: (Leave blank to skip)
+- **Quick scaffolding**: Yes
 - **What features do you want to add to your project?**: A bot
 - **The URL where you will host this solution?**: (Accept the default option)
 - **Would you like show a loading indicator when your app/tab loads?**: No
-- **Would you like personal apps to be rendered without a tab header-bar?** No
-- **Would you like to include Test framework and initial tests?**: No
-- **Would you like to use Azure Applications Insights for telemetry?**: No
 - **What type of Bot would you like to use?** A new Bot Framework bot
 - **What is the name of your bot?** Conversational Bot
 - **What is the Microsoft App ID for the Bot. It's found in the Bot Framework portal (https://dev.botframework.com).** (Enter the application ID of the bot you created in the previous step)
@@ -177,7 +167,7 @@ npm i @microsoft/teams-js
 
 The first version of this bot will respond to the message **MentionMe** in a 1:1 chat conversation. The response will mention the user who started the conversation.
 
-To implement this functionality, locate and open the **./src/app/conversationalBot/ConversationalBot.ts** file and add the following method to the `ConversationalBot` class:
+To implement this functionality, locate and open the **./src/server/conversationalBot/ConversationalBot.ts** file and add the following method to the `ConversationalBot` class:
 
 ```typescript
 private async handleMessageMentionMeOneOnOne(context: TurnContext): Promise<void> {
