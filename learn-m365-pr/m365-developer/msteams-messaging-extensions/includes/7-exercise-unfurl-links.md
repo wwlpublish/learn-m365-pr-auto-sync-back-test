@@ -36,7 +36,7 @@ Next, locate the `validDomains` property. Add the following domain to the array 
 
 The next step is to update the bot's code.
 
-Locate and open the bot in the file **./src/app/planetBot/planetBot.ts**.
+Locate and open the bot in the file **./src/server/planetBot/planetBot.ts**.
 
 Update the `import` statement for the **botbuilder** package to include the object `AppBasedLinkQuery`:
 

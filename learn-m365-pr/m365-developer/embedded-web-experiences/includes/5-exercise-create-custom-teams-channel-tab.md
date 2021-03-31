@@ -19,9 +19,11 @@ yo teams
 Yeoman starts and asks you a series of questions. Answer the questions with the following values:
 
 - **You are running the generator on an already existing project... are you sure you want to continue?**: Yes
+- **Do you want to change the current manifest version (1.8)?**: No
+- **Quick scaffolding**: Yes
 - **What features do you want to add to your project?**: A Tab
 - **Default tab name (max 16 characters)**: ConfigMathTab
-- **Do you want to create a configurable or static tab?**: Configurable
+- **What kind of Tab would you like to create?**: Configurable
 - **What scopes do you intend to use for your tab?**: In a Team
 - **Do you require Azure AD Single-Sign-On support for the tab?** No
 - **Do you want this tab to be available in SharePoint Online?**: Yes
@@ -77,138 +79,77 @@ On the tab you create in this exercise, the user can select a math operation to 
 
 The first step is to modify the configuration page.
 
-Locate and open the file **./src/app/scripts/configMathTab/ConfigMathTabConfig.tsx**.
-
-### Update the configuration tab to use the current Theme
+Locate and open the file **./src/client/configMathTab/ConfigMathTabConfig.tsx**.
 
 Update the `import` statements in this file to include the components used in the configuration tab.
 
-1. Find the following `import` statement that imports the Fluent UI - React library:
-
-    ```typescript
-    import { Provider, Flex, Header, Input} from "@fluentui/react-northstar";
-    ```
-
-1. Replace the previous statement with the following import statement:
-
-    ```typescript
-    import {
-      Provider,
-      Flex,
-      Header,
-      Input,
-      ThemePrepared,
-      teamsTheme,
-      teamsDarkTheme,
-      teamsHighContrastTheme,
-      DropdownProps,
-      Dropdown
-    } from "@fluentui/react-northstar";
-    ```
-
-Locate the `IConfigMathTabConfigState` interface, and replace its contents with the following two members:
+Find the following `import` statement that imports the Fluent UI - React library:
 
 ```typescript
-teamsTheme: ThemePrepared;
-mathOperator: string;
+import { Provider, Flex, Header, Input} from "@fluentui/react-northstar";
 ```
 
-Add the following method to the `ConfigMathTabConfig` class that will update the component state to match the currently selected Microsoft Teams client theme:
+Replace the previous statement with the following import statement:
 
 ```typescript
-private updateComponentTheme = (currentThemeName: string = "default"): void => {
-  let componentTheme: ThemePrepared;
-
-  switch (currentThemeName) {
-    case "default":
-      componentTheme = teamsTheme;
-      break;
-    case "dark":
-      componentTheme = teamsDarkTheme;
-      break;
-    case "contrast":
-      componentTheme = teamsHighContrastTheme;
-      break;
-    default:
-      componentTheme = themes.teams;
-      break;
-  }
-  // update the state
-  this.setState(Object.assign({}, this.state, {
-    teamsTheme: componentTheme
-  }));
-}
+import { Provider, Flex, Header, Input, DropdownProps, Dropdown } from "@fluentui/react-northstar";
 ```
 
-Initialize the current theme and state of the component.
-
-Locate the line `this.updateTheme(this.getQueryVariable("theme"));` and replace it with the following code in the `componentWillMount()` method:
+Find the following `useState` statement:
 
 ```typescript
-this.updateComponentTheme(this.getQueryVariable("theme"));
+const [text, setText] = useState<string>();
 ```
 
-### Implement the configuration page logic
+Replace the previous statement with the following:
+
+```typescript
+const [mathOperator, setMathOperator] = useState<string>();
+```
+
+### Implement the configuration page logic and user interface
 
 The configuration page displays a drop-down list of four math operators to select from. After an operator is selected, it's saved to the tab's `entityId` property with the string **MathPage** appended to it. This value is used by the tab page to determine what operation to perform in the tab.
 
-Locate the line in the `componentWillMount()` method that contains the call to `microsoftTeams.getContext`. The function passed into this method sets the state of the React component. Replace the `this.setState` method with the following code. (Leave the rest of get getContext delegate unchanged.) This new code takes the value of the `entityId` property on the tab, removes the **MathPage** string, and leaves only the operator.
+Locate the `useEffect` method that depends upon the `context` variable. This method sets the state of the React component. Change the statement that contains the `setText` method with the following code. This new code takes the value of the `entityId` property on the tab, removes the **MathPage** string, and leaves only the operator.
 
 ```typescript
-this.setState(Object.assign({}, this.state, {
-  mathOperator: context.entityId.replace("MathPage", "")
-}));
+useEffect(() => {
+  if (context) {
+    setMathOperator(context.entityId.replace("MathPage", ""));
+    entityId.current = context.entityId;
+    microsoftTeams.settings.registerOnSaveHandler(onSaveHandler);
+    microsoftTeams.settings.setValidityState(true);
+    microsoftTeams.appInitialization.notifySuccess();
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [context]);
 ```
 
-Next, locate the following line in the `componentWillMount()` method: `microsoftTeams.settings.registerOnSaveHandler()`. This method lets you provide the function to execute when the user selects the **Save** button on the configuration page. This code should save any settings you need to save and notify Microsoft Teams that the configuration page saved the settings successfully.
-
-Update this code to save the selected math operation and change the name of the tab.
-
-```typescript
-microsoftTeams.settings.registerOnSaveHandler((saveEvent: microsoftTeams.settings.SaveEvent) => {
-  // Calculate host dynamically to enable local debugging
-  const host = "https://" + window.location.host;
-  microsoftTeams.settings.setSettings({
-    contentUrl: host + "/configMathTab/?data=",
-    suggestedDisplayName: "Config Math Tab",
-    removeUrl: host + "/configMathTab/remove.html",
-    entityId: `${this.state.mathOperator}MathPage`
-  });
-  saveEvent.notifySuccess();
-});
-```
-
-Add the following event handler to the `ConfigMathTabConfig` class, which updates the component state to be the value of the selected operator:
-
-```typescript
-private handleOnSelectedChange = (event, props: DropdownProps): void => {
-  this.setState(Object.assign({}, this.state, {
-    mathOperator: (props.value) ? props.value.toString() : "add"
-  }));
-}
-```
-
-### Implement the configuration page user interface
-
-Locate the `render()` method. Replace it with the following code, which adds a drop-down list for the user to select the operator they want to use:
+Locate the `return` statement. Replace it with the following code, which adds a drop-down list for the user to select the operator they want to use:
 
 ```tsx
-public render() {
-  return (
-    <Provider theme={this.state.teamsTheme}>
-      <Flex gap="gap.smaller" style={{ height: "300px" }}>
-        <Dropdown placeholder="Select the math operator"
-          items={[
-            "add",
-            "subtract",
-            "multiply",
-            "divide"
-          ]}
-          onChange={this.handleOnSelectedChange}></Dropdown>
-      </Flex>
-    </Provider>
-  );
-}
+return (
+  <Provider theme={theme}>
+    <Flex gap="gap.smaller" style={{ height: "300px" }}>
+      <Dropdown placeholder="Select the math operator"
+        items={[
+          "add",
+          "subtract",
+          "multiply",
+          "divide"
+        ]}
+        onChange={(e, data) => {
+          if (data) {
+            let op = (data.value) ? data.value.toString() : "add";
+            setMathOperator(op);
+            entityId.current = `${op}MathPage`
+          }
+        }}
+        value={mathOperator}></Dropdown>
+    </Flex>
+  </Provider>
+);
 ```
 
 ### Test the configuration page
@@ -229,7 +170,7 @@ Select one of the math operators, and save your changes by selecting **Save**. T
 
 The last step is to implement the channel tab.
 
-Locate and open the file **./src/app/scripts/configMathTab/ConfigMathTab.tsx**.
+Locate and open the file **./src/client/configMathTab/ConfigMathTab.tsx**.
 
 ### Update the channel tab to use the Stardust UI library
 
@@ -242,177 +183,128 @@ import { Provider, Flex, Text, Button, Header } from "@fluentui/react-northstar"
 Replace the previous statement with the following import statement:
 
 ```typescript
-import {
-  Provider,
-  Flex,
-  Text,
-  Button,
-  Header,
-  ThemePrepared,
-  teamsTheme,
-  teamsDarkTheme,
-  teamsHighContrastTheme,
-  Input
-} from "@fluentui/react-northstar";
+import { Provider, Flex, Text, Button, Header, Input } from "@fluentui/react-northstar";
 ```
 
-Locate the `IConfigMathTabState` interface, and replace its contents with the following:
+Add an interface to define the state our component will use. Add the following after the `import` statements:
 
 ```typescript
-teamsTheme: ThemePrepared;
-mathOperator?: string;
-operandA: number;
-operandB: number;
-result: string;
-```
-
-Add the following method to the `ConfigMathTab` class that will update the component state to match the currently selected Microsoft Teams client theme:
-
-```typescript
-private updateComponentTheme = (currentThemeName: string = "default"): void => {
-  let componentTheme: ThemePrepared;
-
-  switch (currentThemeName) {
-    case "default":
-      componentTheme = teamsTheme;
-      break;
-    case "dark":
-      componentTheme = teamsDarkTheme;
-      break;
-    case "contrast":
-      componentTheme = teamsHighContrastTheme;
-      break;
-    default:
-      componentTheme = teamsTheme;
-      break;
-  }
-  // update the state
-  this.setState(Object.assign({}, this.state, {
-    teamsTheme: componentTheme
-  }));
+export interface IConfigMathTabState {
+  mathOperator ?: string;
+  operandA: number;
+  operandB: number;
+  result: string;
 }
 ```
 
-Initialize the current theme and state of the component. Locate the line `this.updateTheme(this.getQueryVariable("theme"));` and replace it with the following code in the `componentWillMount()` method:
+Add the following after the existing `useState` statements. This code defines a variable to contain the component state.
 
 ```typescript
-this.updateComponentTheme(this.getQueryVariable("theme"));
-```
-
-Within the `componentWillMount()` method, locate the following line:
-
-```typescript
-microsoftTeams.registerOnThemeChangeHandler(this.updateTheme);
-```
-
-This code registers an event handler to update the component's theme to match the theme of the current Microsoft Teams client when this page is loaded as a tab. Update this line to call the new handler in the following line to register another handler to update the component theme.
-
-```typescript
-microsoftTeams.registerOnThemeChangeHandler(this.updateComponentTheme);
+const [mathTabState, setMathTabState] = useState<IConfigMathTabState>({ mathOperator: "add" } as IConfigMathTabState);
 ```
 
 ### Implement the channel page logic
 
-Locate the following line in the `componentWillMount()` method: `microsoftTeams.getContext()`. The function passed into this method sets the state of the React component. Replace the `this.setState()` method with the following code. This new code takes the value of the `entityId` property on the tab, removes the **MathPage** string, and leaves only the operator.
+Locate the `useEffect` hook that depends upon the Microsoft Teams context. This new code takes the value of the `entityId` property on the tab, removes the **MathPage** string, and leaves only the operator.
 
 ```typescript
-this.setState(Object.assign({}, this.state, {
-  mathOperator: context.entityId.replace("MathPage", "")
-}));
-```
-
-Locate the following code in the `componetWillMount()` method:
-
-```typescript
-this.setState({
-  entityId: "This is not hosted in Microsoft Teams"
-});
-```
-
-Replace this code with the following code. This new code will cause the math operator to add two numbers by default in case this page is loaded outside of a Microsoft Teams client.
-
-```typescript
-this.setState(Object.assign({}, this.state, {
-  mathOperator: "add"
-}));
+useEffect(() => {
+  if (context) {
+    setEntityId(context.entityId);
+    setMathTabState(state => ({ 
+      ...state, 
+      mathOperator: context.entityId.replace("MathPage", "")
+    } as IConfigMathTabState));
+  }
+}, [context]);
 ```
 
 Add the following event handlers to the `ConfigMathTab` class. These event handlers will update the state with the values from the controls and do the calculation of the two numbers by using the operator specified on the configuration page.
 
 ```typescript
-private handleOnChangedOperandA = (event): void => {
-  this.setState(Object.assign({}, this.state, { operandA: event.target.value }));
+const handleOnChangedOperandA = (data?: InputProps): void => {
+  if (data && !isNaN(Number(data.value))) {
+    setMathTabState(state => ({
+      ...state,
+      operandA: data.value
+    } as IConfigMathTabState));
+  }
 }
 
-private handleOnChangedOperandB = (event): void => {
-  this.setState(Object.assign({}, this.state, { operandB: event.target.value }));
+const handleOnChangedOperandB = (data?: InputProps): void => {
+  if (data && !isNaN(Number(data.value))) {
+    setMathTabState(state => ({
+      ...state,
+      operandB: data.value
+    } as IConfigMathTabState));
+  }
 }
 
-private handleOperandChange = (): void => {
+const handleOperandChange = (): void => {
   let stringResult: string = "n/a";
 
-  if (!isNaN(Number(this.state.operandA)) && !isNaN(Number(this.state.operandB))) {
-    switch (this.state.mathOperator) {
-      case "add":
-        stringResult = (Number(this.state.operandA) + Number(this.state.operandB)).toString();
-        break;
-      case "subtract":
-        stringResult = (Number(this.state.operandA) - Number(this.state.operandB)).toString();
-        break;
-      case "multiply":
-        stringResult = (Number(this.state.operandA) * Number(this.state.operandB)).toString();
-        break;
-      case "divide":
-        stringResult = (Number(this.state.operandA) / Number(this.state.operandB)).toString();
-        break;
-      default:
-        stringResult = "n/a";
-        break;
+  if (mathTabState) {
+    if (!isNaN(Number(mathTabState.operandA)) && !isNaN(Number(mathTabState.operandB))) {
+      switch (mathTabState.mathOperator) {
+        case "add":
+          stringResult = (Number(mathTabState.operandA) + Number(mathTabState.operandB)).toString();
+          break;
+        case "subtract":
+          stringResult = (Number(mathTabState.operandA) - Number(mathTabState.operandB)).toString();
+          break;
+        case "multiply":
+          stringResult = (Number(mathTabState.operandA) * Number(mathTabState.operandB)).toString();
+          break;
+        case "divide":
+          stringResult = (Number(mathTabState.operandA) / Number(mathTabState.operandB)).toString();
+          break;
+        default:
+          stringResult = "n/a";
+          break;
+      }
     }
   }
-
-  this.setState(Object.assign({}, this.state, {
+  setMathTabState(state => ({
+    ...state,
     result: stringResult
-  }));
+  } as IConfigMathTabState));
 }
 ```
 
 ### Implement the channel page user interface
 
-Locate the `render()` method in the `ConfigMathTab` class. Replace the existing method implementation with the following code. This new code adds two input boxes and a button to the page. When the button is selected, it does the math operation selected on the configuration page to the two values and displays the results.
+Locate the `return` statement in the `ConfigMathTab` component. Replace the existing statement with the following code. This new code adds two input boxes and a button to the page. When the button is selected, it does the math operation selected on the configuration page to the two values and displays the results.
 
 ```typescript
-public render() {
-  return (
-    <Provider theme={this.state.teamsTheme}>
-      <Flex column gap="gap.smaller">
-        <Header>This is your tab</Header>
-        <Text content="Enter the values to calculate" size="medium"></Text>
+return (
+  <Provider theme={theme}>
+    <Flex column gap="gap.smaller">
+      <Header>This is your tab</Header>
+      <Text content="Enter the values to calculate" size="medium"></Text>
 
-        <Flex gap="gap.smaller">
-          <Flex.Item>
-            <Flex gap="gap.smaller">
-              <Flex.Item>
-                <Input autoFocus
-                        value={this.state.operandA}
-                        onChange={this.handleOnChangedOperandA}></Input>
-              </Flex.Item>
-              <Text content={this.state.mathOperator}></Text>
-              <Flex.Item>
-                <Input value={this.state.operandB}
-                        onChange={this.handleOnChangedOperandB}></Input>
-              </Flex.Item>
-            </Flex>
-          </Flex.Item>
-          <Button content="Calculate" primary
-                  onClick={this.handleOperandChange}></Button>
-          <Text content={this.state.result}></Text>
-        </Flex>
-        <Text content="(C) Copyright Contoso" size="smallest"></Text>
+      <Flex gap="gap.smaller">
+        <Flex.Item>
+          <Flex gap="gap.smaller">
+            <Flex.Item>
+              <Input autoFocus
+                value={this.state.operandA}
+                onChange={(e, data) => handleOnChangedOperandA(data)}></Input>
+            </Flex.Item>
+            <Text content={this.state.mathOperator}></Text>
+            <Flex.Item>
+              <Input value={this.state.operandB}
+                onChange={(e, data) => handleOnChangedOperandB(data)}></Input>
+            </Flex.Item>
+          </Flex>
+        </Flex.Item>
+        <Button content="Calculate" primary
+                onClick={this.handleOperandChange}></Button>
+        <Text content={this.state.result}></Text>
       </Flex>
-    </Provider>
-  );
-}
+      <Text content="(C) Copyright Contoso" size="smallest"></Text>
+    </Flex>
+  </Provider>
+);
 ```
 
 ### Test the channel tab page
