@@ -8,3 +8,5 @@ After completing this module, you'll be able to:
  *  Plan the DNS zones used in a custom domain
  *  Plan the DNS record requirements for a custom domain
  *  Add a custom domain to your Microsoft 365 deployment
+
+**This is a test line to be removed.**
