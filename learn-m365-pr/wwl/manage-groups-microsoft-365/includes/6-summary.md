@@ -1,0 +1,5 @@
+Once you've created the user accounts for your Microsoft 365 tenant, you can optionally create groups for collaboration between users, both inside and outside your company. Since Microsoft 365 provides various group types, enterprise administrators must have a firm understanding of the features associated with each group type. Having completed this module, you should be able to describe the different types of groups available in Microsoft 365.
+
+In this module, you examined how to create groups for distributing email to multiple users within Exchange Online. You also learned how to create groups to encourage collaboration in SharePoint Online. In each case, you learned how to add people from outside your organization to a group as long as this permission was enabled by the administrator.
+
+This module also showed you how to complete these group management tasks using various tools. For example, you learned how to create and manage groups using the Microsoft 365 admin center and Windows PowerShell. You also learned how to create and manage groups in Exchange Online and SharePoint Online.
