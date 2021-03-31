@@ -1,0 +1,40 @@
+### YamlMime:Module
+uid: learn.wwl.configure-your-microsoft-365-experience
+metadata:
+  title: Configure your Microsoft 365 experience
+  description: "Configure your Microsoft 365 experience"
+  ms.date: 03/31/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Configure your Microsoft 365 experience
+summary: This module examines each of the tasks that must be completed by an organization to successfully configure its Microsoft 365 experience.
+abstract: |
+  By the end of this module, you will be able to:
+  - Configure your company’s organization profile which is essential for setting up for your company’s tenant
+  - Maintain minimum subscription requirements for your company
+  - Manage your services and add-ins by assigning more licenses, purchasing more storage, and so on
+  - Create a checklist that enables you to confirm your Microsoft 365 tenant meets your business needs
+prerequisites: ""
+iconUrl: /learn/achievements/m365-configure-experience.svg
+levels:
+- intermediate
+roles:
+- administrator
+- solution-architect
+- technology-manager
+products:
+- azure-active-directory
+- m365
+- office-365
+units:
+- learn.wwl.configure-your-microsoft-365-experience.introduction
+- learn.wwl.configure-your-microsoft-365-experience.configure-your-organizational-profile
+- learn.wwl.configure-your-microsoft-365-experience.manage-your-tenant-subscriptions
+- learn.wwl.configure-your-microsoft-365-experience.integrate-with-customer-engagement-apps
+- learn.wwl.configure-your-microsoft-365-experience.finalize-your-tenant-configuration
+- learn.wwl.configure-your-microsoft-365-experience.knowledge-check
+- learn.wwl.configure-your-microsoft-365-experience.summary
+badge:
+  uid: learn.wwl.configure-your-microsoft-365-experience.badge
