@@ -9,7 +9,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Manage groups in Microsoft 365
-summary: This module provides instruction on how to create groups for distributing email to multiple users within Exchange Online, as well as creating groups to facilitate collaboration in SharePoint Online.
+summary: This module provides instruction on how to create groups for distributing email to multiple users within Exchange Online, and how to create groups to support collaboration in SharePoint Online.
 abstract: |
   By the end of this module, you will be able to:
   - Describe the various types of groups available in Microsoft 365
