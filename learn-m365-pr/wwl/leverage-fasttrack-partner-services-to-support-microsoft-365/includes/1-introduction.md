@@ -10,5 +10,3 @@ After completing this module, you'll be able to:<br>
  *  Describe the FastTrack implementation process
  *  Identify which steps in the implementation process are Microsoft's responsibility, and which are the customers
  *  Request a partner to assist you with the FastTrack process
-
-**This is a test line that should be removed.**

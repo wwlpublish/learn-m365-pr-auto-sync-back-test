@@ -4,7 +4,7 @@ All customers can sign into the FastTrack online portal to access planning resou
     
      *  Microsoft 365 customers with 50+ seats have access to FastTrack services for questions and answers on Microsoft 365.
      *  Education and nonprofit plans require 1000+ paid seats to access FastTrack specialists.
- *  **500+ licenses.** For customers with 500+ seats, FastTrack can perform the data/email migration for you, which frees up time for you to deploy more products at one time. See the [FastTrack service description](http://aka.ms/fasttrackservicedescription?azure-portal=true) for details on data migration for Exchange Online and OneDrive for Business.
+ *  **500+ licenses.** For customers with 500+ seats, FastTrack can perform the data/email migration for you, which frees up time for you to deploy more products at one time. See the [FastTrack service description](https://aka.ms/fasttrackservicedescription?azure-portal=true) for details on data migration for Exchange Online and OneDrive for Business.
 
 The FastTrack Center provides assistance for the following [Microsoft 365 services](https://technet.microsoft.com/library/office-365-service-descriptions.aspx?azure-portal=true):
 
