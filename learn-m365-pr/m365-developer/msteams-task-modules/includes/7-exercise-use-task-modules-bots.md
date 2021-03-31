@@ -79,9 +79,7 @@ Once this process is complete, you should see both the **Web Chat** and **Micros
 
 When Azure created the bot, it also registered a new Azure AD app for the bot. You need to generate this new bot app a secret and copy the app's credentials.
 
-Select **Settings** from the left-hand navigation. Scroll down to the **Microsoft App ID** section.
-
-Copy the ID of the bot as you'll need it later.
+Select **Configuration** from the left-hand navigation. Copy the **Microsoft App ID** of the bot as you'll need it later.
 
 Select **Manage** to navigate to the Azure AD app blade:
 
@@ -153,9 +151,9 @@ The next step is to add the code to implement the bot.
 
 ### Code the bot
 
-Create a new folder **learningTeamsBot** in the **./src/app** folder.
+Create a new folder **learningTeamsBot** in the **./src/server** folder.
 
-Create a new file **learningTeamsBot.ts** in the new folder: **./src/app/learningTeamsBot**
+Create a new file **learningTeamsBot.ts** in the new folder: **./src/server/learningTeamsBot**
 
 Add the following code to the **learningTeamsBot.ts** file:
 
@@ -174,24 +172,26 @@ const TextEncoder = Util.TextEncoder;
 @BotDeclaration(
   "/api/messages",
   new MemoryStorage(),
+  // eslint-disable-next-line no-undef
   process.env.MICROSOFT_APP_ID,
+  // eslint-disable-next-line no-undef
   process.env.MICROSOFT_APP_PASSWORD)
 export class LearningTeamsBot extends TeamsActivityHandler {
   constructor() {
     super();
 
     // create handlers
-    this.onMessage(async (context, next) => {
+    this.onMessage(async (context: TurnContext): Promise<void> => {
       switch (context.activity.text.trim().toLowerCase()) {
-        case "mentionme":
+        case "mentionme": {
           await this.mentionActivity(context);
-          break;
-        default:
-          const card = CardFactory.heroCard("Learn Microsoft Teams", undefined, [ ]);
+          return;
+        }
+        default: {
+          const card = CardFactory.heroCard("Learn Microsoft Teams", undefined, []);
           await context.sendActivity({ attachments: [card] });
-          break;
+        }
       }
-      await next();
     });
   }
 
@@ -209,7 +209,7 @@ export class LearningTeamsBot extends TeamsActivityHandler {
 }
 ```
 
-Add the bot to the app components file (**./src/app/TeamsAppsComponents.ts**) so the bot will be loaded when the web server starts up. Add the following line to the **./src/app/TeamsAppsComponents.ts** file:
+Add the bot to the app components file (**./src/server/TeamsAppsComponents.ts**) so the bot will be loaded when the web server starts up. Add the following line to the **./src/server/TeamsAppsComponents.ts** file:
 
 ```typescript
 export * from "./learningTeamsBot/learningTeamsBot";
@@ -231,7 +231,7 @@ In the console, locate the dynamic URL created by ngrok:
 
 Go back to the bot registration in the Azure portal.
 
-Select **Settings** from the left-hand navigation. Update the **Messaging endpoint** of the bot to match the ngrok URL. The resulting URL should be **https://{{REPLACE_THIS}}.ngrok.io/api/messages**.
+Select **Configuration** from the left-hand navigation. Update the **Messaging endpoint** of the bot to match the ngrok URL. The resulting URL should be **https://{{REPLACE_THIS}}.ngrok.io/api/messages**.
 
 ![Screenshot of updating the messaging enpoint URL with the ngrok URL](../media/07-test-bot-02.png)
 
@@ -276,7 +276,7 @@ At this point, the bot is working. Move onto the next section to add task module
 
 In this section, you'll add a task module to the bot. First, let's update the Hero card to add a button the user can select.
 
-In the bot file, **./src/app/learningTeamsBot/learningTeamsBot.ts**, locate the class constructor. Locate Hero card statement in the `switch` statement's `default` path in the `onMessage()` handler:
+In the bot file, **./src/server/learningTeamsBot/learningTeamsBot.ts**, locate the class constructor. Locate Hero card statement in the `switch` statement's `default` path in the `onMessage()` handler:
 
 ```typescript
 const card = CardFactory.heroCard("Learn Microsoft Teams", undefined, [ ]);
@@ -376,7 +376,7 @@ The next step is to add a task module that submits data.
 
 In this section, you'll add an action to the Hero card that displays a task module using an Adaptive Card. This task module will submit data back to the bot that will use the value to display the specified video in the player task module.
 
-In the bot file, **./src/app/learningTeamsBot/learningTeamsBot.ts**, locate the code in the `learningTeamsBot` class constructor that created the Hero card. Add another action to the end, but notice this action specifies a different `value.taskModule` property:
+In the bot file, **./src/server/learningTeamsBot/learningTeamsBot.ts**, locate the code in the `learningTeamsBot` class constructor that created the Hero card. Add another action to the end, but notice this action specifies a different `value.taskModule` property:
 
 ```typescript
 {
