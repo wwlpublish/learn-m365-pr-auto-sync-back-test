@@ -27,7 +27,7 @@ However, in a channel conversation, a user must @mention the bot to trigger it. 
 
 While there are multiple ways to address this, let's check the type of conversation the message is from and handle it correctly.
 
-Locate and open the bot in the file **./src/app/conversationalBot/ConversationalBot.ts**. Locate the existing `onMessage()` handler in the class constructor and find the `if` statement that checks for the `mentionme` string. Replace the contents of the `if` statement to check the type of conversation the message was sent from to call the corresponding handler:
+Locate and open the bot in the file **./src/server/conversationalBot/ConversationalBot.ts**. Locate the existing `onMessage()` handler in the class constructor and find the `if` statement that checks for the `mentionme` string. Replace the contents of the `if` statement to check the type of conversation the message was sent from to call the corresponding handler:
 
 ```typescript
 if (context.activity.conversation.conversationType == "personal") {
@@ -41,7 +41,7 @@ The complete `if` statement in the `onMessage()` handler should now look like th
 
 ```typescript
 if (text.startsWith("mentionme")) {
-  if (context.activity.conversation.conversationType == "personal") {
+  if (context.activity.conversation.conversationType === "personal") {
     await this.handleMessageMentionMeOneOnOne(context);
   } else {
     await this.handleMessageMentionMeChannelConversation(context);
@@ -70,7 +70,7 @@ private async handleMessageMentionMeChannelConversation(context: TurnContext): P
 
   const replyActivity = MessageFactory.text(`Hi ${mention.text}!`);
   replyActivity.entities = [mention];
-  const followupActivity = MessageFactory.text(`*We are in a channel conversation*`);
+  const followupActivity = MessageFactory.text("*We are in a channel conversation*");
   await context.sendActivities([replyActivity, followupActivity]);
 }
 ```
@@ -125,44 +125,44 @@ After installing the bot, when you @mention it and include the message `mentionm
 
 In this section, you'll update the bot to respond to unknown messages using an Adaptive card. The card's single action will trigger the bot to update the existing message with a new Adaptive card. The updated message will include an additional action that will trigger the bot to delete the message.
 
-Locate and open the bot in the file **./src/app/conversationalBot/ConversationalBot.ts**.
+Locate and open the bot in the file **./src/server/conversationalBot/ConversationalBot.ts**.
 
 Locate the existing `onMessage()` handler in the class constructor. Replace the `else` statement's contents with the following code to the existing `if` statement to respond with an adaptive card if the bot receives an unknown command:
 
 ```typescript
 const value = { cardAction: "update", count: 0 };
 const card = CardFactory.adaptiveCard({
-  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-  "type": "AdaptiveCard",
-  "version": "1.0",
-  "body": [
+  $schema: "http://adaptivecards.io/schemas/adaptive-card.json",
+  type: "AdaptiveCard",
+  version: "1.0",
+  body: [
     {
-      "type": "Container",
-      "items": [
+      type: "Container",
+      items: [
         {
-          "type": "TextBlock",
-          "text": "Adaptive card response",
-          "weight": "bolder",
-          "size": "large"
+          type: "TextBlock",
+          text: "Adaptive card response",
+          weight: "bolder",
+          size: "large"
         }
       ]
     },
     {
-      "type": "Container",
-      "items": [
+      type: "Container",
+      items: [
         {
-          "type": "TextBlock",
-          "text": "Demonstrates how to respond with a card, update the card & ultimately delete the response.",
-          "wrap": true
+          type: "TextBlock",
+          text: "Demonstrates how to respond with a card, update the card & ultimately delete the response.",
+          wrap: true
         }
       ]
     }
   ],
-  "actions": [
+  actions: [
     {
-      "type": "Action.Submit",
-      "title": "Update card",
-      "data": value
+      type: "Action.Submit",
+      title: "Update card",
+      data: value
     }
   ]
 });
@@ -205,42 +205,42 @@ private async updateCardActivity(context): Promise<void> {
     count: context.activity.value.count + 1
   };
   const card = CardFactory.adaptiveCard({
-    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-    "type": "AdaptiveCard",
-    "version": "1.0",
-    "body": [
+    $schema: "http://adaptivecards.io/schemas/adaptive-card.json",
+    type: "AdaptiveCard",
+    version: "1.0",
+    body: [
       {
-        "type": "Container",
-        "items": [
+        type: "Container",
+        items: [
           {
-            "type": "TextBlock",
-            "text": "Adaptive card response",
-            "weight": "bolder",
-            "size": "large"
+            type: "TextBlock",
+            text: "Adaptive card response",
+            weight: "bolder",
+            size: "large"
           }
         ]
       },
       {
-        "type": "Container",
-        "items": [
+        type: "Container",
+        items: [
           {
-            "type": "TextBlock",
-            "text": `Updated count: ${ value.count }`,
-            "wrap": true
+            type: "TextBlock",
+            text: `Updated count: ${ value.count }`,
+            wrap: true
           }
         ]
       }
     ],
-    "actions": [
+    actions: [
       {
-        "type": "Action.Submit",
-        "title": "Update card",
-        "data": value
+        type: "Action.Submit",
+        title: "Update card",
+        data: value
       },
       {
-        "type": "Action.Submit",
-        "title": "Delete card",
-        "data": { cardAction: "delete"}
+        type: "Action.Submit",
+        title: "Delete card",
+        data: { cardAction: "delete"}
       }
     ]
   });
@@ -386,7 +386,7 @@ Finally, select the **Delete card** button. After a few seconds, the card will b
 
 In this section, you'll update the bot to respond when someone likes a message from the bot.
 
-Locate and open the bot in the file **./src/app/conversationalBot/ConversationalBot.ts**.
+Locate and open the bot in the file **./src/server/conversationalBot/ConversationalBot.ts**.
 
 Locate the existing `this.onMessageReaction()` handler in the class constructor method and replace its contents with the following code:
 

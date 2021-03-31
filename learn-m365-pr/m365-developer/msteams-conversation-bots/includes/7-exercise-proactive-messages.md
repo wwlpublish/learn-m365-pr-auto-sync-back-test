@@ -5,20 +5,17 @@ In this exercise, you’ll update the existing Teams app to send a proactive mes
 
 ## Start a proactive message from the bot
 
-Locate and open the bot in the file **./src/app/conversationalBot/ConversationalBot.ts**.
+Locate and open the bot in the file **./src/server/conversationalBot/ConversationalBot.ts**.
 
 Add the following objects to the existing `import {...} from "botbuilder";` statement you'll need:
 
 ```typescript
 import {
-  ChannelInfo,
-  TeamsChannelData,
+  ConversationReference,
   ConversationParameters,
   teamsGetChannelId,
   Activity,
   BotFrameworkAdapter,
-  ConversationReference,
-  ConversationResourceResponse,
   // existing imports omitted for clarity
 } from "botbuilder";
 ```
@@ -29,9 +26,9 @@ Add a second action button to the card that will trigger the creation of a new m
 
 ```typescript
 {
-  "type": "Action.Submit",
-  "title": "Create new thread in this channel",
-  "data": { cardAction: "newconversation" }
+  type: "Action.Submit",
+  title: "Create new thread in this channel",
+  data: { cardAction: "newconversation" }
 }
 ```
 
@@ -39,42 +36,42 @@ The card should now look like the following:
 
 ```typescript
 const card = CardFactory.adaptiveCard({
-  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-  "type": "AdaptiveCard",
-  "version": "1.0",
-  "body": [
+  $schema: "http://adaptivecards.io/schemas/adaptive-card.json",
+  type: "AdaptiveCard",
+  version: "1.0",
+  body: [
     {
-      "type": "Container",
-      "items": [
+      type: "Container",
+      items: [
         {
-          "type": "TextBlock",
-          "text": "Adaptive card response",
-          "weight": "bolder",
-          "size": "large"
+          type: "TextBlock",
+          text: "Adaptive card response",
+          weight: "bolder",
+          size: "large"
         }
       ]
     },
     {
-      "type": "Container",
-      "items": [
+      type: "Container",
+      items: [
         {
-          "type": "TextBlock",
-          "text": "Demonstrates how to respond with a card, update the card & ultimately delete the response.",
-          "wrap": true
+          type: "TextBlock",
+          text: "Demonstrates how to respond with a card, update the card & ultimately delete the response.",
+          wrap: true
         }
       ]
     }
   ],
-  "actions": [
+  actions: [
     {
-      "type": "Action.Submit",
-      "title": "Update card",
-      "data": value
+      type: "Action.Submit",
+      title: "Update card",
+      data: value
     },
     {
-      "type": "Action.Submit",
-      "title": "Create new thread in this channel",
-      "data": { cardAction: "newconversation" }
+      type: "Action.Submit",
+      title: "Create new thread in this channel",
+      data: { cardAction: "newconversation" }
     }
   ]
 });
@@ -85,24 +82,33 @@ Next, add another `case` statement to the `switch (context.activity.value.cardAc
 ```typescript
 case "newconversation":
   const message = MessageFactory.text("This will be the first message in a new thread");
-  await this.createConversation(context, message);
+  await this.teamsCreateConversation(context, message);
   break;
 ```
 
-The last step is to add the `createConversation()` method that will create the new conversation. Add the following method to the `ConversationalBot` class:
+The last step is to add the `teamsCreateConversation()` method that will create the new conversation. Add the following method to the `ConversationalBot` class:
 
 ```typescript
-private async createConversation(context: TurnContext, message: Partial<Activity>): Promise<void> {
+private async teamsCreateConversation(context: TurnContext, message: Partial<Activity>): Promise<void> {
   // get a reference to the bot adapter & create a connection to the Teams API
   const adapter = <BotFrameworkAdapter>context.adapter;
+  const connectorClient = adapter.createConnectorClient(context.activity.serviceUrl);
 
-  // create a new conversation and get a reference to it
-  const conversationReference = <ConversationReference>TurnContext.getConversationReference(context.activity);
-
-  // send message
-  await adapter.continueConversation(conversationReference, async turnContext => {
-    await turnContext.sendActivity(message);
-  });
+  // set current teams channel in new conversation parameters
+  const teamsChannelId = teamsGetChannelId(context.activity);
+  const conversationParameters: ConversationParameters = {
+    isGroup: true,
+    channelData: {
+      channel: {
+        id: teamsChannelId
+      }
+    },
+    activity: message as Activity,
+    bot: context.activity.recipient
+  };
+  
+  // create conversation and send message
+  await connectorClient.conversations.createConversation(conversationParameters);
 }
 ```
 

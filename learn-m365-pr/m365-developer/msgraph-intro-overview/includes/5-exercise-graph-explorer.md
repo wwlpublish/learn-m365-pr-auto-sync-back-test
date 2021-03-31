@@ -31,7 +31,7 @@ Microsoft Graph Explorer uses sample account data by default. However, to test q
 8.	You'll see your own trending items around you as a result in the **Response query**.
 :::image type="content" source="../media/5-test-queries-result.png" alt-text="Screenshot showing how to get query result with your own account in Graph Explorer.":::
 
-<!-- ## Try a POST request in Graph Explorer
+## Try a POST request in Graph Explorer
 
 Every time a new salesperson is added in the sales team channel on Teams, you can automate sending a message to the channel to welcome the new salesperson. To send a message to a channel on Microsoft Teams, you can use a POST request in Graph Explorer: 
 
@@ -49,7 +49,7 @@ Every time a new salesperson is added in the sales team channel on Teams, you ca
 :::image type="content" source="../media/5-post-request-result.png" alt-text="Screenshot showing post request result in Microsoft Graph Explorer.":::
 
 10.	To see the results, go to https://teams.microsoft.com and select **Teams** on the left-hand side menu. Find the team and channel you picked to send a message and select on the channel name. You should see the "Hello world” message sent by you under the channel **Posts**:
-:::image type="content" source="../media/5-post-request-result-teams.png" alt-text="Screenshot showing post request result in Microsoft Teams."::: -->
+:::image type="content" source="../media/5-post-request-result-teams.png" alt-text="Screenshot showing post request result in Microsoft Teams.":::
 
 ## Consume Microsoft Graph in your apps with the help of Graph Explorer
 
