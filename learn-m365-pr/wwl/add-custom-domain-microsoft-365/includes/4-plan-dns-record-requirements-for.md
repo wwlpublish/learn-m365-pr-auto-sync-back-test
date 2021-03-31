@@ -388,4 +388,4 @@ The following diagram shows how an organization only needs to configure pointers
 :::image type="content" source="../media/config-pointers-to-m365-78535a6b.jpg" alt-text="diagram depicts how an organization only needs to configure pointers to Microsoft 365 to use their custom domain names in Microsoft 365":::
 
 
-**Additional reading.** For more information, see [External Domain Name System records for Microsoft 365](http://aka.ms/d67qkh?azure-portal=true).
+**Additional reading.** For more information, see [External Domain Name System records for Microsoft 365](https://aka.ms/d67qkh?azure-portal=true).
