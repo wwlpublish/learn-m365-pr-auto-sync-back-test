@@ -185,7 +185,7 @@ The deep link for to launch the video player task module would be the following 
 https://teams.microsoft.com/l/task/3386faf0-109f-11ea-9799-77a28170bd5d?url=https://{{REPLACE_WITH_YOUR_NGROK_URL}}/youTubePlayer1Tab/player.html?vid=VlEH4vtaxp4&height=700&width=1000&title=YouTube%20Player:%20Overview%20of%20teams%20and%20channels
 ```
 
-In Microsoft teams, go to a channel, select the **Conversations** tab, and select the **Format** button in the message dialog:
+In Microsoft Teams, go to a channel, select the **Conversations** tab, and select the **Format** button in the message dialog:
 
 ![Screenshot of the message dialog](../media/05-test-02.png)
 

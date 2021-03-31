@@ -115,7 +115,7 @@ Select the app to navigate to the new tab:
 
 ![Screenshot of the installed Microsoft Teams app personal tab](../media/03-yo-teams-08.png)
 
-Notice that when the content page is loaded in a tab within the Microsoft teams client, it's displaying the value of the `entityId` property of the tab, not the message "This isn't hosted in Microsoft Teams" as you saw when viewing the content page in the browser. The tab can detect if it's loaded within the Microsoft Teams client using the Microsoft Teams JavaScript SDK.
+Notice that when the content page is loaded in a tab within the Microsoft Teams client, it's displaying the value of the `entityId` property of the tab, not the message "This isn't hosted in Microsoft Teams" as you saw when viewing the content page in the browser. The tab can detect if it's loaded within the Microsoft Teams client using the Microsoft Teams JavaScript SDK.
 
 The next step is to make some changes to the project.
 
@@ -139,7 +139,7 @@ Replace the previous statement with the following import statement:
 import { Provider, Flex, Text, Button, Header, Input } from "@fluentui/react-northstar";
 ```
 
-Update the state of the component to contain a video id. Add the following statement after the existing `useState` statements in the **YouTubePlayer1Tab.tsx** file:
+Update the state of the component to contain a video ID. Add the following statement after the existing `useState` statements in the **YouTubePlayer1Tab.tsx** file:
 
 ```typescript
 const [youTubeVideoId, setYouTubeVideoId] = useState<string | undefined>("VlEH4vtaxp4");
