@@ -2,6 +2,8 @@ You've learned all the concepts needed to access a user's profile by using Micro
 
 To successfully complete this unit, you need a user account (from your Microsoft 365 developer tenant, for example) with a profile picture available to use in the application.
 
+## Set up the app
+
 In this exercise, you'll access a GitHub repository, add Azure Active Directory (Azure AD) IDs into the app, and add code to access a photo by using Microsoft Graph. If you haven't created an Azure AD app registration yet, complete the prerequisite module before continuing.
 
 1. Open a terminal window on your computer and go to the folder where you want to save the app.
@@ -83,11 +85,11 @@ In this exercise, you'll access a GitHub repository, add Azure Active Directory 
     var showPhotoButton= document.getElementById('showProfilePhoto'); 
     showPhotoButton.style = "display: block"; 
     ```
-Now that you've added the extra functions and code snippets to get the photo for a signed-in user, the next step is to run the app locally.
+Now that you've added the extra functions and code snippets to get the photo for a signed-in user, the next step is to run the app.
 
 ## Run the app
 
-To run the application locally, use the following steps. Make sure that the user account with which you'll sign in has a profile picture already available.
+Test the application by running it locally.
 
 1. In the terminal window, go to the project folder where the source code is located.
 1. Run the following script on the command line. The script will start your app locally and open [http://localhost:8080](http://localhost:8080) in the browser.
