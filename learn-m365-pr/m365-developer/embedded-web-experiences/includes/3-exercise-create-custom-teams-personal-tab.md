@@ -114,7 +114,7 @@ Select the app to go to the new tab.
 
 ![Screenshot of the installed Microsoft Teams app personal tab](../media/03-yo-teams-08.png)
 
-Notice that when the content page is loaded in a tab within the Microsoft teams client, it displays the `entityId` property of the tab, not the message "This isn't hosted in Microsoft Teams" as you saw when you viewed the content page in the browser. The tab can detect if it's loaded within the Microsoft Teams client by using the Microsoft Teams JavaScript SDK.
+Notice that when the content page is loaded in a tab within the Microsoft Teams client, it displays the `entityId` property of the tab, not the message "This isn't hosted in Microsoft Teams" as you saw when you viewed the content page in the browser. The tab can detect if it's loaded within the Microsoft Teams client by using the Microsoft Teams JavaScript SDK.
 
 The next step is to make some changes to the project.
 

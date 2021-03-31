@@ -111,7 +111,7 @@ const [mathOperator, setMathOperator] = useState<string>();
 
 The configuration page displays a drop-down list of four math operators to select from. After an operator is selected, it's saved to the tab's `entityId` property with the string **MathPage** appended to it. This value is used by the tab page to determine what operation to perform in the tab.
 
-Locate the `useEffect` method that depends upon the `context` variable. This method sets the state of the React component. Change the statment that contains the `setText` method with the following code. This new code takes the value of the `entityId` property on the tab, removes the **MathPage** string, and leaves only the operator.
+Locate the `useEffect` method that depends upon the `context` variable. This method sets the state of the React component. Change the statement that contains the `setText` method with the following code. This new code takes the value of the `entityId` property on the tab, removes the **MathPage** string, and leaves only the operator.
 
 ```typescript
 useEffect(() => {
