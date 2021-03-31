@@ -61,3 +61,9 @@ The next step is to create a conditional access policy in Azure AD.
 ## Configure an access or session policy
 
 The final stage is to create the Access control or Session control policies. You complete these steps in the **Cloud App Security** portal. As they do not differ greatly from the preceding apps, we won’t repeat them here.
+
+## Block chats with sensitive data using Microsoft Cloud App Security
+
+The following video demonstrates how to use Conditional Access App Control policies to control message content in Slack:
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWyyLQ]

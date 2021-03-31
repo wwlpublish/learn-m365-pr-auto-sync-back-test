@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msgraph-javascript-app.3-understand-permissions
+metadata:
+  title: Understand Microsoft Graph permissions and consent
+  description: Learn about permissions and consent work in Microsoft Graph.
+  ms.date: 03/16/2021
+  author: rabwill
+  ms.author: rwilliams
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Understand Microsoft Graph permissions and consent
+durationInMinutes: 6
+content: |
+  [!include[](includes/3-understand-permissions.md)]

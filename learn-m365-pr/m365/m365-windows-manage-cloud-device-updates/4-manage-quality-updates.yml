@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.m365-windows.manage-windows-updates-cloud.4-manage-quality-updates
+title: Manage quality updates
+metadata:
+  title: Manage quality updates
+  description: Manage quality updates
+  ms.date: 03/09/2021
+  author: iankensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-windows
+durationInMinutes: 4
+content: |
+  [!include[](includes/4-manage-quality-updates.md)]

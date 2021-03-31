@@ -17,7 +17,7 @@ You'll use Node.js to create custom Microsoft Teams tabs in this module. The exe
 - NPM (installed with Node.js) - v6.\* (or higher)
 - [Gulp](https://gulpjs.com/) - v4.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.16.0 (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v3.0.\* (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 - [ngrok](https://ngrok.io)
 
@@ -42,13 +42,10 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Title of your Microsoft Teams App project?**: Teams Webhooks
 - **Your (company) name? (max 32 characters)**: Contoso
 - **Which manifest version would you like to use?**: v1.8
-- **Enter your Microsoft Partner Id, if you have one?**: (Leave blank to skip)
+- **Quick scaffolding**: Yes
 - **What features do you want to add to your project?**: An Outgoing Webhook
 - **The URL where you will host this solution?**: (Accept the default option)
 - **Would you like show a loading indicator when your app/tab loads?**: No
-- **Would you like personal apps to be rendered without a tab header-bar?** No
-- **Would you like to include Test framework and initial tests?**: No
-- **Would you like to use Azure Applications Insights for telemetry?**: No
 - **Name of your outgoing webhook?**: Teams Webhooks Outgoing Webhook
 
 > [!NOTE]
@@ -64,7 +61,7 @@ npm install lodash -S
 
 ## Code the outgoing webhook
 
-The Yeoman Generator for Microsoft Teams created a stub web service endpoint for our outgoing webhook. Locate and open the file **./src/app/teamsWebhooksOutgoingWebhook/TeamsWebhooksOutgoingWebhook.ts**. It listens for HTTPS requests at the endpoint **/api/webhook**.
+The Yeoman Generator for Microsoft Teams created a stub web service endpoint for our outgoing webhook. Locate and open the file **./src/server/teamsWebhooksOutgoingWebhook/TeamsWebhooksOutgoingWebhook.ts**. It listens for HTTPS requests at the endpoint **/api/webhook**.
 
 Find the `requestHander()` method in the `TeamsWebhooksOutgoingWebhook` class. The method first checks the HMAC value in the authorization header against the security token that you'll obtain when you add the webhook to a team.
 
@@ -80,7 +77,7 @@ Let's update this code to add some real functionality. When a user @mentions the
 
 Let's start by adding two resource files to the project.
 
-Create a new file **planets.json** in the **./src/app/teamsWebhooksOutgoingWebhook** folder and add the following JSON to it. This file will contain an array of planet details:
+Create a new file **planets.json** in the **./src/server/teamsWebhooksOutgoingWebhook** folder and add the following JSON to it. This file will contain an array of planet details:
 
 ```json
 [
@@ -267,7 +264,7 @@ Next, create a new file **planetDisplayCard.json** in the **./src/app/teamsWebho
 }
 ```
 
-Add the following `import` statement to the **./src/app/teamsWebhooksOutgoingWebhook/TeamsWebhooksOutgoingWebhook.ts** file, just after the existing `import` statements:
+Add the following `import` statement to the **./src/server/teamsWebhooksOutgoingWebhook/TeamsWebhooksOutgoingWebhook.ts** file, just after the existing `import` statements:
 
 ```typescript
 import { find, sortBy } from "lodash";
@@ -290,9 +287,9 @@ private static getPlanetDetailCard(selectedPlanet: any): builder.Attachment {
   const cardDetails: any = find(cardBody.items, { id: "planetDetails" });
   cardDetails.columns[0].items[0].url = selectedPlanet.imageLink;
   find(cardDetails.columns[1].items[0].facts, { id: "orderFromSun" }).value = selectedPlanet.id;
-  find(cardDetails.columns[1].items[0].facts, { id: "planetNumSatellites" }).value = selectedPlanet.numSatellites;
-  find(cardDetails.columns[1].items[0].facts, { id: "solarOrbitYears" }).value = selectedPlanet.solarOrbitYears;
-  find(cardDetails.columns[1].items[0].facts, { id: "solarOrbitAvgDistanceKm" }).value = Number(selectedPlanet.solarOrbitAvgDistanceKm).toLocaleString();
+  find(cardDetails.columns[1].items[0].facts, { id: "planetNumSatellites" }).value = `${selectedPlanet.numSatellites}`;
+  find(cardDetails.columns[1].items[0].facts, { id: "solarOrbitYears" }).value = `${selectedPlanet.solarOrbitYears}`;
+  find(cardDetails.columns[1].items[0].facts, { id: "solarOrbitAvgDistanceKm" }).value = `${Number(selectedPlanet.solarOrbitAvgDistanceKm).toLocaleString()}`;
 
   // return the adaptive card
   return builder.CardFactory.adaptiveCard(adaptiveCardSource);
@@ -355,7 +352,7 @@ Finally, update the `requestHandler()` method:
   with the following code:
 
     ```typescript
-    const scrubbedText = TeamsWebhooksOutgoingWebhook.scrubMessage(incoming.text)
+    const scrubbedText = TeamsWebhooksOutgoingWebhook.scrubMessage(incoming.text);
     message = TeamsWebhooksOutgoingWebhook.processAuthenticatedRequest(scrubbedText);
     ```
 

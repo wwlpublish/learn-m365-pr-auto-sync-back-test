@@ -38,7 +38,7 @@ In the **Authentication** page, select **Add a platform**. When the **Configure 
 
 ![Screenshot of the Configure platforms panel](../media/07-azure-ad-portal-new-app-details-02.png)
 
-In the **Configure Web** panel, add **https://localhost:3007** under **Redirect URIs**, add **https://localhost:3007/signout-oidc** under **Logout URL**, select **ID tokens** under **Implicit grant**, and select **Configure**.
+In the **Configure Web** panel, add **https://localhost:3007** under **Redirect URIs**, add **https://localhost:3007/signout-oidc** under **Logout URL**, select **ID tokens (used for implicit and hybrid flows)** under **Implicit grant and hybrid flows**, and select **Configure**.
 
 ![Screenshot of the Configure Web panel](../media/07-azure-ad-portal-new-app-details-03.png)
 
@@ -56,7 +56,13 @@ Execute the following command to create a new ASP.NET Core MVC web application:
 dotnet new mvc --auth SingleOrg -o TopologyOptions
 ```
 
-Open the project folder of the new ASP.NET core application using a text editor such as **Visual Studio Code**.
+Open the application in Visual Studio Code using the following command:
+
+```console
+code .
+```
+
+If Visual Studio code displays a dialog box asking if you want to add required assets to the project, select **Yes**.
 
 ### Configure the web application with the Azure AD application you created
 
@@ -116,11 +122,11 @@ dotnet run
 
 Open a browser and navigate to the url **https://localhost:5001**. The web application will redirect you to the Azure AD sign in page.
 
-Sign in using a Work and School account from your Azure AD directory. Azure AD will redirect you back to the web application. Notice some of the details from the claims included in the ID token.
+Sign in using a Work and School account from your Azure AD directory. Azure AD will redirect you back to the web application. 
 
 ![Screenshot of the web application with user details](../media/07-test-01.png)
 
-Take special note of the **tenantid** and **upn** claim. These claims indicate the ID of the Azure AD directory and ID of the user that signed in. Make a note of these values to compare them to other options in a minute.
+Notice some of the details from the claims included in the ID token. Take special note of the **preferred_username** and **tenantid** claim. These claims indicate the ID of the Azure AD directory and ID of the user that signed in. Make a note of these values to compare them to the values displayed later in this exercise.
 
 Now try logging in as a user from a different organization. Select the **Sign out** link in the top left. Wait for Azure AD and the web application signs out the current user. When the web application reloads, repeat the sign in process, except this time try signing in as a user from a different organization or use a Microsoft Account.
 

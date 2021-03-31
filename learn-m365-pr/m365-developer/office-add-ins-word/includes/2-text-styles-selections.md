@@ -2,13 +2,13 @@ The Word JavaScript API enables programmatic control over text, formatting, sele
 
 ## Office 365 Platform Overview
 
-The Microsoft Office 365 platform offers a number of canvases for developers to embed customizations and Office add-ins are one of three canvases: documents, conversations  and pages.
+The Microsoft Office 365 platform offers many canvases for developers to embed customizations and Office add-ins are one of three canvases: documents, conversations  and pages.
 
 Microsoft Teams makes conversations between users and enables developers to extend the experience using messaging extensions, conversational bots, and other customization options.
 
 Developers customize pages in SharePoint Server and SharePoint online using the SharePoint Framework.
 
-Office clients, such as Word, Excel, PowerPoint, OneNote, and Outlook can also be extended to implement custom task panes, actions, and additional customizations using add-ins.
+Office clients, such as Word, Excel, PowerPoint, OneNote, and Outlook can also be extended to implement custom task panes, actions, and other customizations using add-ins.
 
 ![Screenshot overview of the Office 365 Platform](../media/02-office-365-platform.png)
 
@@ -33,7 +33,7 @@ Word add-in developers should understand a Word document's hierarchy and how tha
 ![Word document hierarchy](../media/02-word-document-anatomy.png)
 
 Office.js provides context to a Word document through Word.run and the `context.document` property.
-The document contains a body, which contains a number of collections, including paragraphs, tables, and more.
+The document contains a body, which contains many collections, including paragraphs, tables, and more.
 
 The relationships in this hierarchy are exposed as properties in the API allowing traversal up (ex: `paragraph.parentBody`), down (ex: `body.paragraphs`), and horizontal (ex: `paragraph.getNext()` or `paragraph.getPrevious()`).
 
@@ -129,7 +129,7 @@ Like styles, fonts can be applied to an entire paragraph or range of text.
 
 ### Paragraph formatting
 
-In addition to styles and fonts, paragraphs offer additional formatting through Office.js such as alignment, indention, and line spacing.
+In addition to styles and fonts, paragraphs offer more formatting through Office.js such as alignment, indention, and line spacing.
 
 The following code snippets demonstrate working examples of applying styles and formatting to text and paragraphs using the Word JavaScript API:
 
@@ -167,7 +167,7 @@ The following code snippets demonstrate working examples of applying styles and 
 
 When working with Office add-ins, developers will often hear the term *range*. A range is any contiguous area of a document in Microsoft Word.
 
-Ranges can be established through a number of ways, including search, selection, or through a conversion. For example, the `paragraph.getRange()` method will return the paragraph as a range.
+Ranges can be established through many ways, including search, selection, or through a conversion. For example, the `paragraph.getRange()` method will return the paragraph as a range.
 
 ![Screenshot of Microsoft Word with selected text](../media/02-selection-range.png)
 

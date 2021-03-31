@@ -104,42 +104,6 @@ Open this file and set the three values you collected from registering the Azure
 }
 ```
 
-#### Configure web application middleware
-
-Next, you need to modify the web app startup process to configure the support for signing-in with Azure AD and obtaining an ID token. This is handled by the **Microsoft.Identity.Web** NuGet package.
-
-Within the method `ConfigureServices()` in the **Startup.cs** file, use the following code to configure the web app's middleware to support the v2 tokens from Microsoft identity:
-
-```csharp
-services.Configure<CookiePolicyOptions>(options =>
-{
-  // This lambda determines whether user consent for non-essential cookies is needed for a given request.
-  options.CheckConsentNeeded = context => true;
-  options.MinimumSameSitePolicy = SameSiteMode.Unspecified;
-  // Handling SameSite cookie according to https://docs.microsoft.com/en-us/aspnet/core/security/samesite?view=aspnetcore-3.1
-  options.HandleSameSiteCookieCompatibility();
-});
-
-services.AddOptions();
-
-services.AddMicrosoftIdentityWebAppAuthentication(Configuration);
-
-services.Configure<OpenIdConnectOptions>(AzureADDefaults.OpenIdScheme, options =>
-{
-  options.Authority = options.Authority + "/v2.0/";
-});
-
-services.AddControllersWithViews(options =>
-{
-  var policy = new AuthorizationPolicyBuilder()
-                .RequireAuthenticatedUser()
-                .Build();
-  options.Filters.Add(new AuthorizeFilter(policy));
-}).AddMicrosoftIdentityUI();
-
-services.AddRazorPages();
-```
-
 #### Display the user's claims
 
 Finally, update the user experience of the web application to display all the claims in the OpenID Connect ID token that is provided by Azure AD when the user signed in.

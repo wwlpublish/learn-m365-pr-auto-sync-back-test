@@ -5,3 +5,7 @@ You can implement Power Automate to increase the sophistication of the response 
 Once you have gathered all of the required information, you can implement logic to automatically resolve the alert in Microsoft Cloud App Security.
 
 By using Azure Sentinel, you have the ability to add granular control to the infrequent country request process. For example, you can exclude automatic resolution from members of administrator groups because there is extra risk to your systems if these accounts are compromised.
+
+The following video includes details of using Azure Sentinel to add sophistication to a Microsoft Cloud App Security infrequent country request alert:
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWyyLY]

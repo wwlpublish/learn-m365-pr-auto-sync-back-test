@@ -24,3 +24,7 @@ To create a policy to block unauthorized browsers from accessing corporate web a
 
 > [!NOTE]
 > It is possible to change a user agent string and, therefore, this should not be the only method of security.
+
+The following video gives you an overview of how to block unauthorized browsers from accessing corporate web apps with Microsoft Cloud App Security:
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWyaKG]
