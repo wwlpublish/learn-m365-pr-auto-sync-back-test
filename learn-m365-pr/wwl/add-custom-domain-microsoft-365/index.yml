@@ -1,0 +1,40 @@
+### YamlMime:Module
+uid: learn.wwl.add-custom-domain-microsoft-365
+metadata:
+  title: Add a custom domain in Microsoft 365
+  description: "Add a custom domain in Microsoft 365"
+  ms.date: 03/31/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Add a custom domain in Microsoft 365
+summary: This module provides insight and instruction on how to add a custom domain to your Microsoft 365 deployment, including the DNS requirements that are necessary to support a new domain.
+abstract: |
+  By the end of this module, you will be able to:
+  - Identify the factors that must be considered when adding a custom domain to Microsoft 365
+  - Plan the DNS zones used in a custom domain
+  - Plan the DNS record requirements for a custom domain
+  - Add a custom domain to your Microsoft 365 deployment
+prerequisites: ""
+iconUrl: /learn/achievements/add-a-custom-domain-in-microsoft-365.svg
+levels:
+- intermediate
+roles:
+- administrator
+- solution-architect
+- technology-manager
+products:
+- azure-active-directory
+- m365
+- office-365
+units:
+- learn.wwl.add-custom-domain-microsoft-365.introduction
+- learn.wwl.add-custom-domain-microsoft-365.plan-custom-domain-for-your-deployment
+- learn.wwl.add-custom-domain-microsoft-365.plan-dns-zones-for
+- learn.wwl.add-custom-domain-microsoft-365.plan-dns-record-requirements-for
+- learn.wwl.add-custom-domain-microsoft-365.create
+- learn.wwl.add-custom-domain-microsoft-365.knowledge-check
+- learn.wwl.add-custom-domain-microsoft-365.summary
+badge:
+  uid: learn.wwl.add-custom-domain-microsoft-365.badge
