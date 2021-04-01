@@ -1,6 +1,6 @@
 Before a user can download a file, we need to show a list of available files. In this Learn module, the files will be in the root of the user’s OneDrive for Business; you may want to drop a file or two there to start. You can access your OneDrive for Business by browsing to https://www.office.com/, signing in, and selecting the OneDrive icon.
 
-:::image type="content" source="../media/5-Files.png" alt-text="File list":::
+:::image type="content" source="../media/5-Files.png" alt-text="File list" border="false":::
 
 ## Decide which permissions your app requires
 

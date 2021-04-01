@@ -71,18 +71,18 @@ async function uploadFile(file) {
 
 Refresh your browser; when you log in, you should see an upload button.
 
-:::image type="content" source="../media/6-Upload1.png" alt-text="File upload button in browser":::
+:::image type="content" source="../media/6-Upload1.png" alt-text="File upload button in browser" border="false":::
 
 Click the button and choose a file from your computer. You may notice that the first time you upload you see a new consent pop-up requesting permission to write as well as read files. When the file begins uploading, a message will be displayed.
 
-:::image type="content" source="../media/7-Upload2.png" alt-text="Choosing a file to upload":::
+:::image type="content" source="../media/7-Upload2.png" alt-text="Choosing a file to upload" border="false":::
 
 The first time you do this, you'll see an additional consent pop-up because now you're asking to write files.
 
-:::image type="content" source="../media/8-Consent3.png" alt-text="Choosing a file to upload":::
+:::image type="content" source="../media/8-Consent3.png" alt-text="Choosing a file to upload" border="false":::
 
 When the upload is complete, the message will show the number of bytes uploaded and the file will appear in the files list.
 
-:::image type="content" source="../media/10-Upload4.png" alt-text="File list with upload button":::
+:::image type="content" source="../media/10-Upload4.png" alt-text="File list with upload button" border="false" :::
 
 Stop your Node.js server by pressing Control + C in your terminal window.

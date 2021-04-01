@@ -99,11 +99,11 @@ npm start
 
 1. If you’re running the app for the first time, you will be prompted to grant the app access to your files. To continue, consent the request.
 
-:::image type="content" source="../media/4-Consent2.png" alt-text="Consent form to allow reading files":::
+:::image type="content" source="../media/4-Consent2.png" alt-text="Consent form to allow reading files" border="false":::
 
 1. You should see the list of files.
 
-:::image type="content" source="../media/5-Files.png" alt-text="List of files":::
+:::image type="content" source="../media/5-Files.png" alt-text="List of files" border="false":::
 
 1. Keep your Node.js server running as you’ll use it in the next part of the exercise.
 
