@@ -1,108 +1,33 @@
-<!-- 1. Topic sentence(s) --------------------------------------------------------------------------------
+A list of files with no way to download them is sure to disappoint users, so we need to add a download feature! You might think those files would have simple hyperlinks, but remember that Microsoft 365 is a secure environment, so the download needs to be secured. Microsoft Graph handles this by providing a short-lived download URL that has the security built right in, but that needs to be used immediately.
 
-    Goal: remind the learner of the core idea(s) from the preceding learning-content unit (without mentioning the details of the exercise or the scenario)
+To handle this when retrieving the list of files, instead of retrieving URLs that would be invalid before a user could click them, the code requests the ID of each file. The file ID is exchanged for a download URL at the instant the user clicks the link. Here’s that call again for your reference:
 
-    Heading: do not add an H1 or H2 title here, an auto-generated H1 will appear above this content
+```javascript
+const response = await graphClient
+    .api('/me/drive/root/children')
+    .select('id,name,folder,package')
+    .get();
+```
 
-    Example: "A storage account represents a collection of settings that implement a business policy."
+When a user clicks on a file link, an `onClick` event will send the user to a function named `downloadFile()` that retrieves the short-lived URL and downloads the file immediately.
 
-    [Exercise introduction guidance](https://review.docs.microsoft.com/learn-docs/docs/id-guidance-introductions?branch=master#rule-use-the-standard-exercise-unit-introduction-format)
--->
-TODO: add your topic sentences(s)
+```javascript
+async function downloadFile(file) {
+    try {
+        const response = await graphClient
+            .api(`/me/drive/items/${file.id}`)
+            .select('@microsoft.graph.downloadUrl')
+            .get();
+        const downloadUrl =
+            response["@microsoft.graph.downloadUrl"];
+        window.open(downloadUrl, "_self");
+    } catch (error) {
+        console.error(error);
+     }
+}
+```
 
-<!-- 2. Scenario sub-task --------------------------------------------------------------------------------
+The `/me/drive/items/<file ID>` call retrieves metadata about the specified file; notice the `select()` option requesting `@microsoft.graph.downloadUrl`; this property needs to be explicitly requested for the short-lived download URL as it’s not returned by default.
 
-    Goal: Describe the part of the scenario covered in this exercise
+The `window.open()` call with a target of `_self` instructs the browser to download the file rather than navigating to it.
 
-    Heading: a separate heading is optional; you can combine this with the topic sentence into a single paragraph
-
-    Example: "Recall that in the chocolate-manufacturer example, there would be a separate storage account for the private business data. There were two key requirements for this account: geographically-redundant storage because the data is business-critical and at least one location close to the main factory."
-
-    Recommended: image that summarizes the entire scenario with a highlight of the area implemented in this exercise
--->
-TODO: add your scenario sub-task
-TODO: add your scenario image
-
-<!-- 3. Task performed in the exercise ---------------------------------------------------------------------
-
-    Goal: State concisely what they'll implement here; that is, describe the end-state after completion
-
-    Heading: a separate heading is optional; you can combine this with the sub-task into a single paragraph
-
-    Example: "Here, you will create a storage account with settings appropriate to hold this mission-critical business data."
-
-    Optional: a video that shows the end-state
--->
-TODO: describe the end-state
-
-<!-- 4. Chunked steps -------------------------------------------------------------------------------------
-
-    Goal: List the steps they'll do to complete the exercise.
-
-    Structure: Break the steps into 'chunks' where each chunk has three things:
-        1. A heading describing the goal of the chunk
-        2. An introductory paragraph describing the goal of the chunk at a high level
-        3. Numbered steps (target 7 steps or fewer in each chunk)
-
-    Example:
-        Heading:
-            "Use a template for your Azure logic app"
-        Introduction:
-             "When you create an Azure logic app in the Azure portal, you have the option of selecting a starter template. Let's select a blank template so that we can build our logic app from scratch."
-        Steps:
-             "1. In the left navigation bar, select Resource groups.
-              2. Select the existing Resource group [sandbox resource group name].
-              3. Select the ShoeTracker logic app.
-              4. Scroll down to the Templates section and select Blank Logic App."
--->
-
-## [Chunk 1 heading]
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
-
-## [Chunk 2 heading]
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
-
-## [Chunk n heading]
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
-
-<!-- 5. Validation chunk -------------------------------------------------------------------------------------
-
-    Goal: Helps the learner to evaluate if they completed the exercise correctly.
-
-    Structure: Break the steps into 'chunks' where each chunk has three things:
-        1. A heading of "Check your work"
-        2. An introductory paragraph describing how they'll validate their work at a high level
-        3. Numbered steps (when the learner needs to perform multiple steps to verify if they were successful)
-        4. Video of an expert performing the exact steps of the exercise (optional)
-
-    Example:
-        Heading:
-            "Examine the results of your Twitter trigger"
-        Introduction:
-             "At this point, our logic app is scanning Twitter every minute for tweets containing the search text. To verify the app is running and working correctly, we'll look at the Runs history table."
-        Steps:
-             "1. Select Overview in the navigation menu.
-              2. Select Refresh once a minute until you see a row in the Runs history table.
-              ...
-              6. Examine the data in the OUTPUTS section. For example, locate the text of the matching tweet."
--->
-
-## Check your work
-<!-- Introduction paragraph -->
-1. <!-- Step 1 (if multiple steps are needed) -->
-1. <!-- Step 2 (if multiple steps are needed) -->
-1. <!-- Step n (if multiple steps are needed) -->
-Optional "exercise-solution" video
-
-<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-
-<!-- Do not add a unit summary or references/links -->

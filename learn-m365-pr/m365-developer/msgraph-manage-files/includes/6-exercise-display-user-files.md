@@ -1,108 +1,107 @@
-<!-- 1. Topic sentence(s) --------------------------------------------------------------------------------
+In this exercise, you'll extend the app to display a list of files in the user’s root folder in OneDrive for Business.
 
-    Goal: remind the learner of the core idea(s) from the preceding learning-content unit (without mentioning the details of the exercise or the scenario)
+## Get the list of files
 
-    Heading: do not add an H1 or H2 title here, an auto-generated H1 will appear above this content
+Start by adding the Microsoft Graph call to the application.
 
-    Example: "A storage account represents a collection of settings that implement a business policy."
+1.	In your code editor, open the **graph.js** file.
 
-    [Exercise introduction guidance](https://review.docs.microsoft.com/learn-docs/docs/id-guidance-introductions?branch=master#rule-use-the-standard-exercise-unit-introduction-format)
--->
-TODO: add your topic sentences(s)
+1.	At the end of the file, add a new async function named `getFiles()` to retrieve the list of files. Use the select function to retrieve the  `id`, `name`, `folder`, and `package` properties for each file.
 
-<!-- 2. Scenario sub-task --------------------------------------------------------------------------------
+```javascript
+// Get files in root of user's OneDrive
+async function getFiles() {
+    ensureScope('files.read');
+    try {
+        const response = await graphClient
+            .api('/me/drive/root/children')
+            .select('id,name,folder,package')
+            .get();
+        return response.value;
+    } catch (error) {
+        console.error(error);
+    }
+}
+```
 
-    Goal: Describe the part of the scenario covered in this exercise
+## Add an HTML placeholder to show the files
 
-    Heading: a separate heading is optional; you can combine this with the topic sentence into a single paragraph
+Next, add HTML that will display the list of files.
 
-    Example: "Recall that in the chocolate-manufacturer example, there would be a separate storage account for the private business data. There were two key requirements for this account: geographically-redundant storage because the data is business-critical and at least one location close to the main factory."
+1. In your code editor, open the **index.html** file.
 
-    Recommended: image that summarizes the entire scenario with a highlight of the area implemented in this exercise
--->
-TODO: add your scenario sub-task
-TODO: add your scenario image
+1. Extend the `content` block with a horizontal rule, label, and unordered list as shown next.
 
-<!-- 3. Task performed in the exercise ---------------------------------------------------------------------
+```html
+    <div id="content" style="display: none;">
+      <h4>Welcome <span id="userName"></span></h4>
+      <!-- Add for file download -->
+      <hr />
+      <label>Files in your OneDrive root folder:</label>
+      <ul id="downloadLinks"></ul>
+    </div>
+```
 
-    Goal: State concisely what they'll implement here; that is, describe the end-state after completion
+## Display files in the app
 
-    Heading: a separate heading is optional; you can combine this with the sub-task into a single paragraph
+The last step is to add a small amount of code to call the function you added earlier and display the list of files.
 
-    Example: "Here, you will create a storage account with settings appropriate to hold this mission-critical business data."
+1. In your code editor, open the **ui.js** file.
 
-    Optional: a video that shows the end-state
--->
-TODO: describe the end-state
+1. At the end of the file, add the `displayFiles()` function.
 
-<!-- 4. Chunked steps -------------------------------------------------------------------------------------
+```javascript
+async function displayFiles() {
+    
+    const files = await getFiles();
+    const ul = document.getElementById('downloadLinks');
+    while (ul.firstChild) {
+        ul.removeChild(ul.firstChild);
+    }
+    for (let file of files) {
+        if (!file.folder && !file.package) {
+            let a = document.createElement('a');
+            a.href = '#';
+            a.appendChild(document.createTextNode(file.name));
+            let li = document.createElement('li');
+            li.appendChild(a);
+            ul.appendChild(li);
+        }
+    }
+}
+```
 
-    Goal: List the steps they'll do to complete the exercise.
+Notice the `if` statement skips over any folders or packages to only show the files; there is no way to filter these in the API at this time. Also note that the files are rendered as anchor tags (hyperlinks); in the next exercise you will add a feature to download each file when this link is clicked.
 
-    Structure: Break the steps into 'chunks' where each chunk has three things:
-        1. A heading describing the goal of the chunk
-        2. An introductory paragraph describing the goal of the chunk at a high level
-        3. Numbered steps (target 7 steps or fewer in each chunk)
+3. At the end of the `displayUI()` function, right before the closing brace, add a call to `displayFiles()`:
 
-    Example:
-        Heading:
-            "Use a template for your Azure logic app"
-        Introduction:
-             "When you create an Azure logic app in the Azure portal, you have the option of selecting a starter template. Let's select a blank template so that we can build our logic app from scratch."
-        Steps:
-             "1. In the left navigation bar, select Resource groups.
-              2. Select the existing Resource group [sandbox resource group name].
-              3. Select the ShoeTracker logic app.
-              4. Scroll down to the Templates section and select Blank Logic App."
--->
+```javascript
+    // beginning of function omitted for brevity
+    content.style = "display: block";
 
-## [Chunk 1 heading]
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
+    displayFiles();
+}
+```
 
-## [Chunk 2 heading]
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
+## Run your app
 
-## [Chunk n heading]
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
+You’ve now extended your app to show some of the user’s files using Microsoft Graph! Ensure there are some files in the root folder of the user’s OneDrive, and then run the app locally.
 
-<!-- 5. Validation chunk -------------------------------------------------------------------------------------
+1. Preview the web app by executing in the terminal:
 
-    Goal: Helps the learner to evaluate if they completed the exercise correctly.
+```bash
+npm start
+```
 
-    Structure: Break the steps into 'chunks' where each chunk has three things:
-        1. A heading of "Check your work"
-        2. An introductory paragraph describing how they'll validate their work at a high level
-        3. Numbered steps (when the learner needs to perform multiple steps to verify if they were successful)
-        4. Video of an expert performing the exact steps of the exercise (optional)
+2. Your browser should be pointing to `http://localhost:8080`.
 
-    Example:
-        Heading:
-            "Examine the results of your Twitter trigger"
-        Introduction:
-             "At this point, our logic app is scanning Twitter every minute for tweets containing the search text. To verify the app is running and working correctly, we'll look at the Runs history table."
-        Steps:
-             "1. Select Overview in the navigation menu.
-              2. Select Refresh once a minute until you see a row in the Runs history table.
-              ...
-              6. Examine the data in the OUTPUTS section. For example, locate the text of the matching tweet."
--->
+1. Click the Sign in with Microsoft button to sign in with your Microsoft 365 account.
 
-## Check your work
-<!-- Introduction paragraph -->
-1. <!-- Step 1 (if multiple steps are needed) -->
-1. <!-- Step 2 (if multiple steps are needed) -->
-1. <!-- Step n (if multiple steps are needed) -->
-Optional "exercise-solution" video
+1. After signing in with your account, you should see a list of files.
 
-<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+1. If you’re running the app for the first time, you will be prompted to grant the app access to your files. To continue, consent the request.
 
-<!-- Do not add a unit summary or references/links -->
+1. You should see the list of files.
+
+1. Keep your Node.js server running as you’ll use it in the next part of the exercise.
+

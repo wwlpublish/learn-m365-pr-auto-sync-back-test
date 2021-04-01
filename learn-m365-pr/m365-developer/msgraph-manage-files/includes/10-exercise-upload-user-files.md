@@ -1,108 +1,84 @@
-<!-- 1. Topic sentence(s) --------------------------------------------------------------------------------
+Here are the steps to add an upload feature to your app:
 
-    Goal: remind the learner of the core idea(s) from the preceding learning-content unit (without mentioning the details of the exercise or the scenario)
+## Display a browser input element and event handler for the upload
 
-    Heading: do not add an H1 or H2 title here, an auto-generated H1 will appear above this content
+1. , open the `index.html` file.
 
-    Example: "A storage account represents a collection of settings that implement a business policy."
+1. Extend the `content` block with the content shown below the Add for file upload comment.
 
-    [Exercise introduction guidance](https://review.docs.microsoft.com/learn-docs/docs/id-guidance-introductions?branch=master#rule-use-the-standard-exercise-unit-introduction-format)
--->
-TODO: add your topic sentences(s)
+```html
+<div id="content" style="display: none;">
+    <h4>Welcome <span id="userName"></span></h4>
+    <!-- Add for file download -->
+    <hr />
+    <label>Files in your OneDrive root folder:</label>
+    <ul id="downloadLinks"></ul>
+    <!-- Add for file upload -->
+    <hr />
+    <input type="file" onchange="fileSelected(this);" />
+    <div id="uploadMessage"></div>
+</div>
+```
 
-<!-- 2. Scenario sub-task --------------------------------------------------------------------------------
+3. Now open the **ui.js** file in your code editor and add these functions at the bottom:
 
-    Goal: Describe the part of the scenario covered in this exercise
+```javascript
+function fileSelected(e) {
+    displayUploadMessage(`Uploading ${e.files[0].name}...`);
+    uploadFile(e.files[0])
+    .then((response) => {
+      displayUploadMessage(`File ${response.name} of ${response.size} bytes uploaded`);
+      displayFiles();
+    });
+}
 
-    Heading: a separate heading is optional; you can combine this with the topic sentence into a single paragraph
+function displayUploadMessage(message) {
+    const messageElement = document.getElementById('uploadMessage');
+    messageElement.innerText = message;
+}
+```
 
-    Example: "Recall that in the chocolate-manufacturer example, there would be a separate storage account for the private business data. There were two key requirements for this account: geographically-redundant storage because the data is business-critical and at least one location close to the main factory."
+## Add a function to upload the file using the Microsoft Graph SDK
 
-    Recommended: image that summarizes the entire scenario with a highlight of the area implemented in this exercise
--->
-TODO: add your scenario sub-task
-TODO: add your scenario image
+1. Open the graph.js file in your code editor
 
-<!-- 3. Task performed in the exercise ---------------------------------------------------------------------
+1. Add this function at the bottom of the file:
 
-    Goal: State concisely what they'll implement here; that is, describe the end-state after completion
+```javascript
+async function uploadFile(file) {
+    try {
+        ensureScope('files.readwrite');
+        let options = {
+            path: "/",
+            fileName: file.name,
+            rangeSize: 1024 * 1024 // must be a multiple of 320 KiB
+        };
+        const uploadTask = 
+            await MicrosoftGraph.OneDriveLargeFileUploadTask
+              .create(graphClient, file, options);
+        const response = await uploadTask.upload();
+        console.log(`File ${response.name} of ${response.size} bytes uploaded`);
+        return response;
+    } catch (error) {
+        console.error(error);
+    }
+}
+```
 
-    Heading: a separate heading is optional; you can combine this with the sub-task into a single paragraph
+3. Ensure you save the graph.js file before continuing.
 
-    Example: "Here, you will create a storage account with settings appropriate to hold this mission-critical business data."
+## Run the App
 
-    Optional: a video that shows the end-state
--->
-TODO: describe the end-state
+Refresh your browser; when you log in, you should see an upload button.
 
-<!-- 4. Chunked steps -------------------------------------------------------------------------------------
+:::image type="content" source="../media/Upload-1.png" alt-text="File upload button in browser":::
 
-    Goal: List the steps they'll do to complete the exercise.
+Click the button and choose a file from your computer. You may notice that the first time you upload you see a new consent pop-up requesting permission to write as well as read files. When the file begins uploading, a message will be displayed.
 
-    Structure: Break the steps into 'chunks' where each chunk has three things:
-        1. A heading describing the goal of the chunk
-        2. An introductory paragraph describing the goal of the chunk at a high level
-        3. Numbered steps (target 7 steps or fewer in each chunk)
+:::image type="content" source="../media/Upload-2.png" alt-text="File upload button win browser with upload in progress message":::
 
-    Example:
-        Heading:
-            "Use a template for your Azure logic app"
-        Introduction:
-             "When you create an Azure logic app in the Azure portal, you have the option of selecting a starter template. Let's select a blank template so that we can build our logic app from scratch."
-        Steps:
-             "1. In the left navigation bar, select Resource groups.
-              2. Select the existing Resource group [sandbox resource group name].
-              3. Select the ShoeTracker logic app.
-              4. Scroll down to the Templates section and select Blank Logic App."
--->
+When the upload is complete, the message will show the number of bytes uploaded and the file will appear in the files list.
 
-## [Chunk 1 heading]
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
+:::image type="content" source="../media/Upload-3.png" alt-text="File list with upload button":::
 
-## [Chunk 2 heading]
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
-
-## [Chunk n heading]
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
-
-<!-- 5. Validation chunk -------------------------------------------------------------------------------------
-
-    Goal: Helps the learner to evaluate if they completed the exercise correctly.
-
-    Structure: Break the steps into 'chunks' where each chunk has three things:
-        1. A heading of "Check your work"
-        2. An introductory paragraph describing how they'll validate their work at a high level
-        3. Numbered steps (when the learner needs to perform multiple steps to verify if they were successful)
-        4. Video of an expert performing the exact steps of the exercise (optional)
-
-    Example:
-        Heading:
-            "Examine the results of your Twitter trigger"
-        Introduction:
-             "At this point, our logic app is scanning Twitter every minute for tweets containing the search text. To verify the app is running and working correctly, we'll look at the Runs history table."
-        Steps:
-             "1. Select Overview in the navigation menu.
-              2. Select Refresh once a minute until you see a row in the Runs history table.
-              ...
-              6. Examine the data in the OUTPUTS section. For example, locate the text of the matching tweet."
--->
-
-## Check your work
-<!-- Introduction paragraph -->
-1. <!-- Step 1 (if multiple steps are needed) -->
-1. <!-- Step 2 (if multiple steps are needed) -->
-1. <!-- Step n (if multiple steps are needed) -->
-Optional "exercise-solution" video
-
-<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-
-<!-- Do not add a unit summary or references/links -->
+Stop your Node.js server by pressing Control + C in your terminal window.

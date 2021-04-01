@@ -1,108 +1,89 @@
-<!-- 1. Topic sentence(s) --------------------------------------------------------------------------------
+Before a user can download a file, we need to show a list of available files. In this Learn module, the files will be in the root of the user’s OneDrive for Business; you may want to drop a file or two there to start. You can access your OneDrive for Business by browsing to https://www.office.com/, signing in, and selecting the OneDrive icon.
 
-    Goal: remind the learner of the core idea(s) from the preceding learning-content unit (without mentioning the details of the exercise or the scenario)
+## Decide which permissions your app requires
 
-    Heading: do not add an H1 or H2 title here, an auto-generated H1 will appear above this content
+All data exposed by Microsoft Graph is secured and your app needs to have the right permissions granted to access it. The permission needed depends on the type of information that your app needs to access. For example, to access the user’s calendar your app needs to have the Calendars.Read permission. To read a user’s files, your app needs the Files.Read permission. Later, when it’s time to upload files, your app will need the Files.ReadWrite permission. The exact list of the permissions required for each operation is available in the Microsoft Graph API reference.
 
-    Example: "A storage account represents a collection of settings that implement a business policy."
+If your app loads different types of data, people using it will need to grant it multiple permissions required to access this information. It’s recommended that in your app you request only permissions that you need. You’ll notice that in this module your app will request permission to read your files initially and will only ask for read/write permission when you try to upload a file. This pattern is named dynamic consent and it’s the recommended way to request permissions because it allows users to control the data they share with apps they use and to minimize security risks.
 
-    [Exercise introduction guidance](https://review.docs.microsoft.com/learn-docs/docs/id-guidance-introductions?branch=master#rule-use-the-standard-exercise-unit-introduction-format)
--->
-TODO: add your topic sentences(s)
+## Specify the necessary permissions
 
-<!-- 2. Scenario sub-task --------------------------------------------------------------------------------
+The list of permissions granted to your app is baked right into the access token. The OAuth standard calls them “scopes”. When your application uses MSAL to get the access token it needs to include a list of scopes in the request to Azure Active Directory. Each operation in Microsoft Graph has its own list of scopes organized from least to most privileged; any one of them will work, so choose the least privileged scopes that will work across the operations used in your application.
 
-    Goal: Describe the part of the scenario covered in this exercise
+The sample application stores the current MSAL request in a global variable called `msalRequest`.  Initially, it contains an empty array of scopes.
 
-    Heading: a separate heading is optional; you can combine this with the topic sentence into a single paragraph
+```javascript
+const msalRequest = { scopes: [] };
+```
 
-    Example: "Recall that in the chocolate-manufacturer example, there would be a separate storage account for the private business data. There were two key requirements for this account: geographically-redundant storage because the data is business-critical and at least one location close to the main factory."
+Here is the helper function used by the sample application to add more scopes to the request.
 
-    Recommended: image that summarizes the entire scenario with a highlight of the area implemented in this exercise
--->
-TODO: add your scenario sub-task
-TODO: add your scenario image
+```javascript
+function ensureScope (scope) {
+    if (!msalRequest.scopes.some((s) => s.toLowerCase() === scope.toLowerCase())) {
+        msalRequest.scopes.push(scope);
+    }
+}
+```
 
-<!-- 3. Task performed in the exercise ---------------------------------------------------------------------
+The idea is that the application will request permissions when it needs them; for example, here is the code to download a list of files from the root folder in a user’s OneDrive for Business:
 
-    Goal: State concisely what they'll implement here; that is, describe the end-state after completion
+```javascript
+async function getFiles() {
+    ensureScope('files.read');
+    try {
+        const response = await graphClient
+            .api('/me/drive/root/children')
+            .select('id,name,folder,package')
+            .get();
+        return response.value;
+    } catch (error) {
+        console.error(error);
+    }
+}
+```
 
-    Heading: a separate heading is optional; you can combine this with the sub-task into a single paragraph
+The call to `ensureScope()` ensures that `files.read` permission is included in the access token that will be used to call the Microsoft Graph.
 
-    Example: "Here, you will create a storage account with settings appropriate to hold this mission-critical business data."
+The Microsoft Graph SDK takes care of calling MSAL using the `msalRequest` object and it will do that for every Graph call. While this might seem wasteful it’s not; MSAL will automatically reuse the same access token until the old one expires or the permission scopes change. At the top of **graph.js** you can see the code where this is set up:
 
-    Optional: a video that shows the end-state
--->
-TODO: describe the end-state
+```javascript
+const authProvider = {
+    getAccessToken: async () => {
+        return await getToken();
+    }
+};
+const graphClient =
+    MicrosoftGraph.Client.initWithMiddleware({ authProvider });
+```
 
-<!-- 4. Chunked steps -------------------------------------------------------------------------------------
+First, the code declares an auth provider, which is a JSON object containing a function `getAccessToken()`. This function calls `getToken()`, which is a function in the **auth.js** file that calls MSAL; you can check that out if you wish. The auth provider object is passed to the Microsoft SDK, which will call `getAccessToken()` whenever it needs to, so your code doesn’t need to worry about it. 
 
-    Goal: List the steps they'll do to complete the exercise.
+## Retrieve the files in the user’s OneDrive root directory using Microsoft Graph
 
-    Structure: Break the steps into 'chunks' where each chunk has three things:
-        1. A heading describing the goal of the chunk
-        2. An introductory paragraph describing the goal of the chunk at a high level
-        3. Numbered steps (target 7 steps or fewer in each chunk)
+To get this list of files, use the `/me/drive/root/children` resource. It’s a bit easier to get the files in the root folder of the current user’s OneDrive because Microsoft Graph provides shortcuts like `/me` and `/root`; for example, to enumerate files in another user’s Documents folder would require looking up the user’s user ID and the item ID of their /Documents folder and then accessing `/users/{user-id}/drive/items/{item-id}/children`.
 
-    Example:
-        Heading:
-            "Use a template for your Azure logic app"
-        Introduction:
-             "When you create an Azure logic app in the Azure portal, you have the option of selecting a starter template. Let's select a blank template so that we can build our logic app from scratch."
-        Steps:
-             "1. In the left navigation bar, select Resource groups.
-              2. Select the existing Resource group [sandbox resource group name].
-              3. Select the ShoeTracker logic app.
-              4. Scroll down to the Templates section and select Blank Logic App."
--->
+> [!TIP]
+> The Microsoft Graph provides access to files in OneDrive, OneDrive for Business, and SharePoint Online. Microsoft Teams and other Microsoft 365 services store files in OneDrive for Business and SharePoint Online. The file operations are the same, but the resources (URLs) are a little different for each of these.
 
-## [Chunk 1 heading]
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
+This GET request is expressed in the Microsoft Graph SDK as:
 
-## [Chunk 2 heading]
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
+```javascript
+const response = await graphClient
+    .api('/me/drive/root/children')
+    .get();
 
-## [Chunk n heading]
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
+```
 
-<!-- 5. Validation chunk -------------------------------------------------------------------------------------
+You can make the call more efficient by specifying the specific data columns needed. This is handled using the $select= query string parameter in REST (based on the OData standard), but the SDK makes it easier by providing a select() function. Notice that the functions can be chained to make the request easy to read.
 
-    Goal: Helps the learner to evaluate if they completed the exercise correctly.
+```javascript
+        const response = await graphClient
+            .api('/me/drive/root/children')
+            .select('id,name,folder,package')
+            .get();
+```
 
-    Structure: Break the steps into 'chunks' where each chunk has three things:
-        1. A heading of "Check your work"
-        2. An introductory paragraph describing how they'll validate their work at a high level
-        3. Numbered steps (when the learner needs to perform multiple steps to verify if they were successful)
-        4. Video of an expert performing the exact steps of the exercise (optional)
+## Next steps
 
-    Example:
-        Heading:
-            "Examine the results of your Twitter trigger"
-        Introduction:
-             "At this point, our logic app is scanning Twitter every minute for tweets containing the search text. To verify the app is running and working correctly, we'll look at the Runs history table."
-        Steps:
-             "1. Select Overview in the navigation menu.
-              2. Select Refresh once a minute until you see a row in the Runs history table.
-              ...
-              6. Examine the data in the OUTPUTS section. For example, locate the text of the matching tweet."
--->
-
-## Check your work
-<!-- Introduction paragraph -->
-1. <!-- Step 1 (if multiple steps are needed) -->
-1. <!-- Step 2 (if multiple steps are needed) -->
-1. <!-- Step n (if multiple steps are needed) -->
-Optional "exercise-solution" video
-
-<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-
-<!-- Do not add a unit summary or references/links -->
+Let’s put everything you’ve learned to practice and extend your app to show a list of files in the user’s OneDrive for Business root folder.
