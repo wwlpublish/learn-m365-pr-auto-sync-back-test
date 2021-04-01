@@ -1,4 +1,4 @@
-In this exercise, you will create a JavaScript app connected to Microsoft 365. You will use the MSAL JS library to let users sign in to your app with their Microsoft 365 account and show their name using the Microsoft Graph JavaScript SDK. 
+In this exercise, you will create a JavaScript app connected to Microsoft 365. You'll use the MSAL JS library to let users sign in to your app with their Microsoft 365 account and show their name using the Microsoft Graph JavaScript SDK.
 
 ## Run your app
 
