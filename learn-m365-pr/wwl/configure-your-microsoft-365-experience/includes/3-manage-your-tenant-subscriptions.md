@@ -9,8 +9,8 @@ The Enterprise Administrator (EA) can review all active and deprovisioned licens
 
 The EA can also assign licenses from this page, remove licenses from user accounts, and purchase extra licenses.
 
-> > [!NOTE]
-> > Purchasing additional licenses changes the monthly billing date for those specific licenses. For example, if the main subscription was purchased on May 14<sup>th</sup> and there was an additional purchase that was completed on May 15<sup>th</sup>, then the next billing cycle would show subscriptions with due dates of June 15<sup>th</sup> and 16<sup>th</sup>, respectively.
+> [!NOTE]
+> Purchasing additional licenses changes the monthly billing date for those specific licenses. For example, if the main subscription was purchased on May 14<sup>th</sup> and there was an additional purchase that was completed on May 15<sup>th</sup>, then the next billing cycle would show subscriptions with due dates of June 15<sup>th</sup> and 16<sup>th</sup>, respectively.
 
 All the information regarding an organization's existing subscriptions, including billing and payment information, is available within the Billing group in the Microsoft 365 admin center. This group includes the following pages:
 
