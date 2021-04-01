@@ -21,53 +21,53 @@ The following table identifies the requirements for the MX and CNAME records for
 
 :::row:::
   :::column:::
-    <p><b>Type</b></p>
+    **Type**
   :::column-end:::
   :::column:::
-    <p><b>Priority</b></p>
+    **Priority**
   :::column-end:::
   :::column:::
-    <p><b>Host name</b></p>
+    **Host name**
   :::column-end:::
   :::column:::
-    <p><b>Points to address</b></p>
+    **Points to address**
   :::column-end:::
   :::column:::
-    <p><b>TTL</b></p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p><b>MX</b></p>
-  :::column-end:::
-  :::column:::
-    <p>0</p>
-  :::column-end:::
-  :::column:::
-    <p>@</p>
-  :::column-end:::
-  :::column:::
-    <p>Adatum-com.mail.protection.outlook.com</p>
-  :::column-end:::
-  :::column:::
-    <p>1 Hour</p>
+    **TTL**
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p><b>CNAME</b></p>
+    **MX**
   :::column-end:::
   :::column:::
-    <p>-</p>
+    0
   :::column-end:::
   :::column:::
-    <p>autodiscover</p>
+    @
   :::column-end:::
   :::column:::
-    <p>autodiscover.outlook.com</p>
+    Adatum-com.mail.protection.outlook.com
   :::column-end:::
   :::column:::
-    <p>1 Hour</p>
+    1 Hour
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    **CNAME**
+  :::column-end:::
+  :::column:::
+    -
+  :::column-end:::
+  :::column:::
+    autodiscover
+  :::column-end:::
+  :::column:::
+    autodiscover.outlook.com
+  :::column-end:::
+  :::column:::
+    1 Hour
   :::column-end:::
 :::row-end:::
 
@@ -76,44 +76,44 @@ The following table identifies the requirements for the TXT records for Exchange
 
 :::row:::
   :::column:::
-    <p><b>Type</b></p>
+    **Type**
   :::column-end:::
   :::column:::
-    <p><b>TXT name</b></p>
+    **TXT name**
   :::column-end:::
   :::column:::
-    <p><b>TXT Value</b></p>
+    **TXT Value**
   :::column-end:::
   :::column:::
-    <p><b>TTL</b></p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p><b>TXT</b></p>
-  :::column-end:::
-  :::column:::
-    <p>@</p>
-  :::column-end:::
-  :::column:::
-    <p>v=spf1 include:spf.protection.outlook.com -all</p>
-  :::column-end:::
-  :::column:::
-    <p>1 Hour</p>
+    **TTL**
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p><b>TXT</b></p>
+    **TXT**
   :::column-end:::
   :::column:::
-    <p>@</p>
+    @
   :::column-end:::
   :::column:::
-    <p>Custom-generated, domain-proof hash text</p>
+    v=spf1 include:spf.protection.outlook.com -all
   :::column-end:::
   :::column:::
-    <p>1 Hour</p>
+    1 Hour
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    **TXT**
+  :::column-end:::
+  :::column:::
+    @
+  :::column-end:::
+  :::column:::
+    Custom-generated, domain-proof hash text
+  :::column-end:::
+  :::column:::
+    1 Hour
   :::column-end:::
 :::row-end:::
 
@@ -129,89 +129,89 @@ The following table identifies the requirements for the SRV records for Skype fo
 
 :::row:::
   :::column:::
-    <p><b>Type</b></p>
+    Type
   :::column-end:::
   :::column:::
-    <p><b>Service</b></p>
+    Service
   :::column-end:::
   :::column:::
-    <p><b>Protocol</b></p>
+    Protocol
   :::column-end:::
   :::column:::
-    <p><b>Port</b></p>
+    Port
   :::column-end:::
   :::column:::
-    <p><b>Weight</b></p>
+    Weight
   :::column-end:::
   :::column:::
-    <p><b>Priority</b></p>
+    Priority
   :::column-end:::
   :::column:::
-    <p><b>TTL</b></p>
+    TTL
   :::column-end:::
   :::column:::
-    <p><b>Name</b></p>
+    Name
   :::column-end:::
   :::column:::
-    <p><b>Target</b></p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p><b>SRV</b></p>
-  :::column-end:::
-  :::column:::
-    <p>_sip</p>
-  :::column-end:::
-  :::column:::
-    <p>_tls</p>
-  :::column-end:::
-  :::column:::
-    <p>443</p>
-  :::column-end:::
-  :::column:::
-    <p>1</p>
-  :::column-end:::
-  :::column:::
-    <p>100</p>
-  :::column-end:::
-  :::column:::
-    <p>1 Hour</p>
-  :::column-end:::
-  :::column:::
-    <p>@</p>
-  :::column-end:::
-  :::column:::
-    <p>sipdir.online.lync.com</p>
+    Target
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p><b>SRV</b></p>
+    SRV
   :::column-end:::
   :::column:::
-    <p>_sipfederationtls</p>
+    \_sip
   :::column-end:::
   :::column:::
-    <p>_tcp</p>
+    \_tls
   :::column-end:::
   :::column:::
-    <p>5061</p>
+    443
   :::column-end:::
   :::column:::
-    <p>1</p>
+    1
   :::column-end:::
   :::column:::
-    <p>100</p>
+    100
   :::column-end:::
   :::column:::
-    <p>1 Hour</p>
+    1 Hour
   :::column-end:::
   :::column:::
-    <p>@</p>
+    @
   :::column-end:::
   :::column:::
-    <p>sipfed.online.lync.com</p>
+    sipdir.online.lync.com
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    SRV
+  :::column-end:::
+  :::column:::
+    \_sipfederationtls
+  :::column-end:::
+  :::column:::
+    \_tcp
+  :::column-end:::
+  :::column:::
+    5061
+  :::column-end:::
+  :::column:::
+    1
+  :::column-end:::
+  :::column:::
+    100
+  :::column-end:::
+  :::column:::
+    1 Hour
+  :::column-end:::
+  :::column:::
+    @
+  :::column-end:::
+  :::column:::
+    sipfed.online.lync.com
   :::column-end:::
 :::row-end:::
 
@@ -220,44 +220,44 @@ The following table identifies the requirements for the CNAME records for Skype 
 
 :::row:::
   :::column:::
-    <p><b>Type</b></p>
+    Type
   :::column-end:::
   :::column:::
-    <p><b>Host name</b></p>
+    Host name
   :::column-end:::
   :::column:::
-    <p><b>Points to address</b></p>
+    Points to address
   :::column-end:::
   :::column:::
-    <p><b>TTL</b></p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p><b>CNAME</b></p>
-  :::column-end:::
-  :::column:::
-    <p>sip</p>
-  :::column-end:::
-  :::column:::
-    <p>sipdir.online.lync.com</p>
-  :::column-end:::
-  :::column:::
-    <p>1 Hour</p>
+    TTL
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p><b>CNAME</b></p>
+    CNAME
   :::column-end:::
   :::column:::
-    <p>lyncdiscover</p>
+    sip
   :::column-end:::
   :::column:::
-    <p>webdir.online.lync.com</p>
+    sipdir.online.lync.com
   :::column-end:::
   :::column:::
-    <p>1 Hour</p>
+    1 Hour
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    CNAME
+  :::column-end:::
+  :::column:::
+    lyncdiscover
+  :::column-end:::
+  :::column:::
+    webdir.online.lync.com
+  :::column-end:::
+  :::column:::
+    1 Hour
   :::column-end:::
 :::row-end:::
 
@@ -268,30 +268,30 @@ The following table identifies the requirements for the Address (A) record for M
 
 :::row:::
   :::column:::
-    <p><b>Type</b></p>
+    Type
   :::column-end:::
   :::column:::
-    <p><b>Host name</b></p>
+    Host name
   :::column-end:::
   :::column:::
-    <p><b>Points to address</b></p>
+    Points to address
   :::column-end:::
   :::column:::
-    <p><b>TTL</b></p>
+    TTL
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p><b>Host (A)</b></p>
+    Host (A)
   :::column-end:::
   :::column:::
-    <p>sip</p>
+    sip
   :::column-end:::
   :::column:::
-    <p>sipdir.online.lync.com</p>
+    sipdir.online.lync.com
   :::column-end:::
   :::column:::
-    <p>1 Hour</p>
+    1 Hour
   :::column-end:::
 :::row-end:::
 
@@ -307,44 +307,44 @@ The following table identifies the requirements for the CNAME records for Mobile
 
 :::row:::
   :::column:::
-    <p><b>Type</b></p>
+    Type
   :::column-end:::
   :::column:::
-    <p><b>Host name</b></p>
+    Host name
   :::column-end:::
   :::column:::
-    <p><b>Points to address</b></p>
+    Points to address
   :::column-end:::
   :::column:::
-    <p><b>TTL</b></p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p><b>CNAME</b></p>
-  :::column-end:::
-  :::column:::
-    <p>enterpriseregistration</p>
-  :::column-end:::
-  :::column:::
-    <p>enterpriseregistration.windows.net</p>
-  :::column-end:::
-  :::column:::
-    <p>1 Hour</p>
+    TTL
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p><b>CNAME</b></p>
+    CNAME
   :::column-end:::
   :::column:::
-    <p>enterpriseenrollment</p>
+    enterpriseregistration
   :::column-end:::
   :::column:::
-    <p>enterpriseenrollment.manage.microsoft.com</p>
+    enterpriseregistration.windows.net
   :::column-end:::
   :::column:::
-    <p>1 Hour</p>
+    1 Hour
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    CNAME
+  :::column-end:::
+  :::column:::
+    enterpriseenrollment
+  :::column-end:::
+  :::column:::
+    enterpriseenrollment.manage.microsoft.com
+  :::column-end:::
+  :::column:::
+    1 Hour
   :::column-end:::
 :::row-end:::
 
@@ -355,30 +355,30 @@ The following table identifies the requirements for the CNAME record for Microso
 
 :::row:::
   :::column:::
-    <p><b>Type</b></p>
+    Type
   :::column-end:::
   :::column:::
-    <p><b>Host name</b></p>
+    Host name
   :::column-end:::
   :::column:::
-    <p><b>Points to address</b></p>
+    Points to address
   :::column-end:::
   :::column:::
-    <p><b>TTL</b></p>
+    TTL
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p><b>CNAME</b></p>
+    CNAME
   :::column-end:::
   :::column:::
-    <p>msoid</p>
+    msoid
   :::column-end:::
   :::column:::
-    <p>clientconfig.microsoftonline-p.net</p>
+    clientconfig.microsoftonline-p.net
   :::column-end:::
   :::column:::
-    <p>1 Hour</p>
+    1 Hour
   :::column-end:::
 :::row-end:::
 
