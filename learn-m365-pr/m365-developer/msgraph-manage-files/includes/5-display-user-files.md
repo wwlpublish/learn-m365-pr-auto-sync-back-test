@@ -1,5 +1,7 @@
 Before a user can download a file, we need to show a list of available files. In this Learn module, the files will be in the root of the user’s OneDrive for Business; you may want to drop a file or two there to start. You can access your OneDrive for Business by browsing to https://www.office.com/, signing in, and selecting the OneDrive icon.
 
+:::image type="content" source="../media/5-Files.png" alt-text="File list":::
+
 ## Decide which permissions your app requires
 
 All data exposed by Microsoft Graph is secured and your app needs to have the right permissions granted to access it. The permission needed depends on the type of information that your app needs to access. For example, to access the user’s calendar your app needs to have the Calendars.Read permission. To read a user’s files, your app needs the Files.Read permission. Later, when it’s time to upload files, your app will need the Files.ReadWrite permission. The exact list of the permissions required for each operation is available in the Microsoft Graph API reference.

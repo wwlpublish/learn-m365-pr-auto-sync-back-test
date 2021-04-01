@@ -97,11 +97,13 @@ npm start
 
 1. Click the Sign in with Microsoft button to sign in with your Microsoft 365 account.
 
-1. After signing in with your account, you should see a list of files.
-
 1. If you’re running the app for the first time, you will be prompted to grant the app access to your files. To continue, consent the request.
 
+:::image type="content" source="../media/4-Consent2.png" alt-text="Consent form to allow reading files":::
+
 1. You should see the list of files.
+
+:::image type="content" source="../media/5-Files.png" alt-text="List of files":::
 
 1. Keep your Node.js server running as you’ll use it in the next part of the exercise.
 
