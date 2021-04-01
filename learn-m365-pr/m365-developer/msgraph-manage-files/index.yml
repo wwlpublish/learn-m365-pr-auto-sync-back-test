@@ -16,11 +16,11 @@ abstract: |
   - Download files from OneDrive for Business using Microsoft Graph
   - Upload user files from a browser into OneDrive for Business using Microsoft Graph
 prerequisites: |
-  - Microsoft 365 developer tenant
-  - Basic understanding of authentication and authorization on Microsoft 365
+  - [Microsoft 365 developer tenant](https://developer.microsoft.com/office/dev-program?ocid=MSlearn)
+  - Basic understanding of authentication and authorization on Microsoft 365 ([Getting Started with Microsoft Identity Learn Module](https://docs.microsoft.com/learn/modules/getting-started-identity/3-exercise-different-token-types?WT.mc_id=m365-16105-cxa))
   - Basic understanding of HTML and JavaScript
   - Basic understanding of Microsoft Graph
-  - Node.js LTS
+  - [Node.js LTS](https://nodejs.org)
 iconUrl: /learn/achievements/msgraph-show-user-emails.svg
 levels:
 - beginner

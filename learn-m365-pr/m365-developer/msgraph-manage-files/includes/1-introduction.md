@@ -14,7 +14,7 @@ To add this feature, you’ll use Microsoft Graph to list, download, and upload 
 - Basic understanding of authentication and authorization on Microsoft 365 ([Getting Started with Microsoft Identity Learn Module](https://docs.microsoft.com/learn/modules/getting-started-identity/3-exercise-different-token-types?WT.mc_id=m365-16105-cxa))
 - Basic understanding of HTML and JavaScript
 - Basic understanding of Microsoft Graph
-- Node.js LTS (https://nodejs.org)
+- [Node.js LTS](https://nodejs.org)
 
 ## Learning objectives
 
