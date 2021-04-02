@@ -13,7 +13,7 @@ In this exercise, you will create a JavaScript app connected to Microsoft 365. Y
     If you don't use git, navigate to [https://github.com/MicrosoftDocs/mslearn-retrieve-m365-data-with-msgraph-quickstart](https://github.com/MicrosoftDocs/mslearn-retrieve-m365-data-with-msgraph-quickstart) in the web browser, and select the Code button followed by Download ZIP. Extract the ZIP file to your machine.
 
 1. Open the folder in your code editor
-1. In your code editor, open the `auth.js` file
+1. In your code editor, open the **auth.js** file
 1. In line 4, change the value of the `clientId` property to the **Application (client) ID** you copied earlier after creating the Azure AD application
 1. In line 6, change the value of the `authority` property to the **Directory (tenant) ID** you copied earlier after creating the Azure AD application
 1. Preview the web app by executing in the terminal:

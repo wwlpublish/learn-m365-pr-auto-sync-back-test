@@ -2,7 +2,7 @@ Here are the steps to add an upload feature to your app:
 
 ## Display a browser input element and event handler for the upload
 
-1. , open the `index.html` file.
+1. Open the **index.html** file.
 
 1. Extend the `content` block with the content shown below the Add for file upload comment.
 
