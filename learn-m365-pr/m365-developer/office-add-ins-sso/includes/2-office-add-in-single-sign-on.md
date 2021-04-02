@@ -17,7 +17,7 @@ You have a choice of two ways to accomplish authentication and authorization.
 
 Microsoft added support for SSO to Office Add-ins in 2020. This capability reduces how often a user is prompted to login to third-party services.
 
-Office SSO support is implemented in combination with code in your custom Add-ins, support for SSO in the Office runtime JavaScript SDK, and Azure AD. To support SSO, an Office Add-in must have a corresponding Azure AD application registration. This app registration defines what permissions the add-in supports and trusts Office client applications to act on behalf of the user.
+Office SSO support is implemented in combination with code in your custom add-ins, support for SSO in the Office runtime JavaScript SDK, and Azure AD. To support SSO, an Office Add-in must have a corresponding Azure AD application registration. This app registration defines what permissions the add-in supports and trusts Office client applications to act on behalf of the user.
 
 Using this support for SSO, add-ins can request the user's profile information or information from Microsoft Graph.
 
