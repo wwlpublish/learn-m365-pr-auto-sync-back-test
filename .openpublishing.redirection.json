@@ -1,12 +1,12 @@
 {
   "redirections": [
     {
-      "source_path": "learn-m365-pr/m365/m365-security-data-loss/configure-data-loss-prevention-policy.yml",
+      "source_path": "learn-m365-pr/m365/m365-compliance-information-prevent-data-loss/configure-data-loss-prevention-policy.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-security-data-loss/define-policy-settings",
       "redirect_document_id": false
     },
     {
-      "source_path": "learn-m365-pr/m365/m365-security-data-loss/summary-knowledge-check.yml",
+      "source_path": "learn-m365-pr/m365/m365-compliance-information-prevent-data-loss/summary-knowledge-check.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-security-data-loss/summary",
       "redirect_document_id": false
     },
