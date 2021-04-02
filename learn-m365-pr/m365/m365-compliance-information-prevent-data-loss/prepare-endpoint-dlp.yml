@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-compliance-information-prevent-data-loss.prepare-endpoint-dlp
+title: Prepare Endpoint DLP
+metadata:
+  title:  Prepare Endpoint DLP
+  description: Learn how to configure data loss prevention for endpoints, Windows 10 devices. 
+  ms.date: 03/14/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+
+durationInMinutes: 2
+content: |
+  [!include[](includes/prepare-endpoint-dlp.md)]
