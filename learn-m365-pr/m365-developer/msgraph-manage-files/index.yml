@@ -23,7 +23,7 @@ prerequisites: |
   - [Node.js](https://nodejs.org/en/)
 iconUrl: /learn/achievements/msgraph-manage-files.svg
 levels:
-- beginner
+- intermediate
 roles:
 - developer
 products:

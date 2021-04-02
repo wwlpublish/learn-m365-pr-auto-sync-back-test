@@ -8,7 +8,7 @@ Please check out the other modules in this series to learn how to do even more w
 
 ## Graph calls used in this module:
 
-* [Microsoft Graph API reference](https://docs.microsoft.com/graph/api/overview?view=graph-rest-1.0?WT.mc_id=m365-0000016105-cxa)
+* [Microsoft Graph API reference](https://docs.microsoft.com/graph/api/overview?WT.mc_id=m365-0000016105-cxa)
 * [List children of a drive item](https://docs.microsoft.com/graph/api/driveitem-list-children?WT.mc_id=m365-0000016105-cxa)
 * [Get a drive item](https://docs.microsoft.com/graph/api/driveitem-get?WT.mc_id=m365-0000016105-cxa)
 * [Upload a file <4 MB (single request)](https://docs.microsoft.com/graph/api/driveitem-put-content?WT.mc_id=m365-0000016105-cxa)

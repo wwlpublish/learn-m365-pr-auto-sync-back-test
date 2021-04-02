@@ -7,7 +7,7 @@ In this exercise, you will create a JavaScript app connected to Microsoft 365. Y
     If you use git, clone the project using the git clone command:
 
     ```cmd
-    git clone
+    git clone https://github.com/MicrosoftDocs/mslearn-retrieve-m365-data-with-msgraph-quickstart.git
     ```
 
     If you don't use git, navigate to [https://github.com/MicrosoftDocs/mslearn-retrieve-m365-data-with-msgraph-quickstart](https://github.com/MicrosoftDocs/mslearn-retrieve-m365-data-with-msgraph-quickstart) in the web browser, and select the Code button followed by Download ZIP. Extract the ZIP file to your machine.
