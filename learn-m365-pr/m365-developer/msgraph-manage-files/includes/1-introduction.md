@@ -10,11 +10,11 @@ To add this feature, you’ll use Microsoft Graph to list, download, and upload 
 
 ## Prerequisites
 
-- [Microsoft 365 developer tenant](https://developer.microsoft.com/office/dev-program?ocid=MSlearn)
-- Basic understanding of authentication and authorization on Microsoft 365 ([Getting Started with Microsoft Identity Learn Module](https://docs.microsoft.com/learn/modules/getting-started-identity/3-exercise-different-token-types?WT.mc_id=m365-16105-cxa))
+- Global Administrator Access to a [Microsoft 365 tenant](https://developer.microsoft.com/microsoft-365/dev-program?ocid=MSlearn&WT.mc_id=m365-16105-cxa).
+- [Basic understanding of authentication and authorization on Microsoft 365](https://docs.microsoft.com/learn/modules/msgraph-javascript-app/?WT.mc_id=m365-16105-cxa)
 - Basic understanding of HTML and JavaScript
-- Basic understanding of Microsoft Graph
-- [Node.js LTS](https://nodejs.org)
+- [Basic understanding of Microsoft Graph](https://docs.microsoft.com/learn/modules/msgraph-intro-overview/?WT.mc_id=m365-16105-cxa)
+- [Node.js](https://nodejs.org/en/)
 
 ## Learning objectives
 
