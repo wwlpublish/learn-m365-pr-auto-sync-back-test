@@ -79,7 +79,7 @@ Click the button and choose a file from your computer. You may notice that the f
 
 The first time you do this, you'll see an additional consent pop-up because now you're asking to write files.
 
-:::image type="content" source="../media/8-Consent3.png" alt-text="Choosing a file to upload" border="false":::
+:::image type="content" source="../media/8-Consent3.png" alt-text="Consenting to upload files" border="false":::
 
 When the upload is complete, the message will show the number of bytes uploaded and the file will appear in the files list.
 
