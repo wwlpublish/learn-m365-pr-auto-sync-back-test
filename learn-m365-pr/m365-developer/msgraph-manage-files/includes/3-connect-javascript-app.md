@@ -8,7 +8,7 @@ Your application needs to get an access token from Azure Active Directory and in
 
 Once this is set up, people will be able to sign into your app using their existing Microsoft 365 account. This is great, because it frees you from having to implement authentication in your app and maintain users’ credentials. It also benefits people by not having to use yet another credential to access your app. What’s more, it allows organizations to control their employees’ access to different applications, which is an important requirement these days.
 
-This diagram shows the access token flow between Microsoft Identity, your app, and Microsoft Graph.
+This diagram shows the access token flow between Microsoft identity, your app, and Microsoft Graph.
 
 :::image type="content" source="../media/1-app-token-flow.png" alt-text="Application access token flow between Azure AD and Microsoft Graph.":::
 

@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.msgraph-show-user-emails.2-exercise-configure-azuread-app
+uid: learn-m365.msgraph-manage-files.2-exercise-configure-azuread-app
 metadata:
   title: Exercise - Configure Azure AD app to connect to Microsoft 365
   description: In this unit, you'll create a new Azure Active Directory application registration necessary to complete exercises in this module.
