@@ -41,7 +41,7 @@ Messages are the heart of collaboration in Teams. With a **messaging extension a
 
 ### Writing messages
 
-Your app can help users craft more effect messages by enabling them to search, or take action, in an external system, and insert the results in a rich, structured format complete with actionable buttons.
+Your app can help users craft more effective messages by enabling them to search, or take action, in an external system, and insert the results in a rich, structured format complete with actionable buttons.
 
 There are three ways your app can help users create better messages:
 
@@ -70,7 +70,7 @@ Your app can create URL deep links to help navigate your user through your app, 
 A web content page is a webpage you host that can be embedded in a tab or a task module. To enable your webpage to be embedded in a Microsoft Teams client, it must:
 
 - Be hosted on an HTTPS.
-- Can be embedded in an `<iframe>` by the Teams client.
+- Be embeddable in an `<iframe>` by the Teams client.
 - Include the Microsoft Teams JavaScript client SDK, and invoke the SDK's `initialize()` method on page load.
 
 ## Summary
