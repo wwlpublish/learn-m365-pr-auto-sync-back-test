@@ -3,7 +3,5 @@ In this module, you learned how to detect sensitive content as it's used and sha
 
 Now that you have completed this module, you should be able to:
 - Discuss the data loss prevention solution and its benefits.
-- List the customer scenarios the data loss prevention solution addresses.
 - Describe the data loss prevention configuration process.
 - Explain what users will experience when the solution is implemented.
-- Articulate deployment and adoption best practices.
