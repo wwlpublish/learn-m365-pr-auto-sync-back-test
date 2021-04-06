@@ -16,14 +16,14 @@ abstract: |
   - Retrieve a user’s emails from Microsoft Graph
   - Break large data sets from Microsoft Graph into pages
 prerequisites: |
-  - Microsoft 365 developer tenant
+  - Global Administrator access to a  Microsoft 365 tenant
   - Basic understanding of authentication and authorization on Microsoft 365
   - Basic understanding of HTML and JavaScript
   - Basic understanding of Microsoft Graph
   - Node.js LTS
 iconUrl: /learn/achievements/msgraph-show-user-emails.svg
 levels:
-- beginner
+- intermediate
 roles:
 - developer
 products:
