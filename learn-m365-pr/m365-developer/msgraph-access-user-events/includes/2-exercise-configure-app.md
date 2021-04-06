@@ -11,5 +11,5 @@ To start, you need to register your Microsoft 365 application. You can do that b
 | **Supported account types**  | Accounts in this organizational directory only (Single tenant)  | 
 | **API permissions**  |Microsoft Graph User.Read (delegated)  | 
 
-[!INCLUDE [Register Azure AD application](../../msgraph-javascript-app/includes/5-exercise-register-application.md)]
+[!INCLUDE [Register Azure AD application](../../../includes/exercise-register-aad-application.md)]
 
