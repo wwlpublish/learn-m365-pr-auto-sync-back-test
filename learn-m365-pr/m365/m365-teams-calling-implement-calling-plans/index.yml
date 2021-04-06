@@ -26,6 +26,7 @@ roles:
 - administrator
 products: 
 - m365
+- office-teams
 units:
 - learn-m365-pr.teams-calling-implement-calling-plans.introduction
 - learn-m365-pr.teams-calling-implement-calling-plans.step-one-find-calling-plans-available-country-region

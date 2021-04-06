@@ -23,6 +23,7 @@ roles:
 - administrator
 products: 
 - office-teams
+- m365
 units:
 - learn-m365-pr.m365-teams-calling-setup-phone-system-for-teams.introduction
 - learn-m365-pr.m365-teams-calling-setup-phone-system-for-teams.process-setup-phone-system
