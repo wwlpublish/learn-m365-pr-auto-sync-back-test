@@ -1,4 +1,4 @@
-**Microsoft Graph** provides a unified programmability model that you can use to build apps that interact with the data availbale in Microsoft 365. In this module, you will learn how to retrieve a list of calendar events from a user's calendar using Microsoft Graph.
+**Microsoft Graph** provides a unified programmability model that you can use to build apps that interact with the data available in Microsoft 365. In this module, you will learn how to retrieve a list of calendar events from a user's calendar using Microsoft Graph.
 
 ## Learning Objectives
 
@@ -13,7 +13,7 @@ In this module, you'll:
 - [Basic understanding of authentication and authorization on Microsoft 365](https://docs.microsoft.com/learn/modules/msgraph-javascript-app/?WT.mc_id=m365-16105-cxa)
 - Basic understanding of HTML and JavaScript
 - [Basic understanding of Microsoft Graph](https://docs.microsoft.com/learn/modules/msgraph-intro-overview/?WT.mc_id=m365-16105-cxa)
-- [Node.js](https://nodejs.org/en/)
+- [Node.js LTS](https://nodejs.org/en/)
 
 ## Scenario
 
