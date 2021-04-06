@@ -1,6 +1,6 @@
 Developers can create bots for Microsoft Teams that display user information using Microsoft Graph. Because users sign in to Microsoft Teams via their Azure AD accounts in Microsoft 365, developers can take advantage of this by implementing single sign-on (SSO) to authorize the bot.
 
-Single sign-on authentication in Azure Active Directory (Azure AD) minimizes the number of times users need to enter their sign-in credentials by silently refreshing the authentication token. If users agree to use your app, they need not provide consent again on another device and can sign in automatically. The flow is similar to that of Microsoft Teams tab SSO support, however, the difference is in the protocol for how a bot requests tokens and receives responses.
+Single sign-on authentication in Azure Active Directory (Azure AD) minimizes the number of times users need to enter their sign-in credentials by silently refreshing the authentication token. If users agree to use your app, they don't need to consent again on another device and can sign in automatically. The flow is similar to that of Microsoft Teams tab SSO support, however, the difference is in the protocol for how a bot requests tokens and receives responses.
 
 In this section, learn how SSO works and how to create a conversational bot for Microsoft Teams that uses SSO.
 
@@ -52,9 +52,9 @@ All of these characteristics of an Azure AD app registration are shared requirem
 
 Bots have some unique characteristics because of their server-side-based interactive experience compared to the client-side nature of tabs.
 
-For example, the **Redirect URI** for the app should point to the Azure Bot Framework's token endpoint: **https://token.botframework.com/.auth/web/redirect**
+For example, the **Redirect URI** for the app should point to the Azure Bot Framework's token endpoint: `https://token.botframework.com/.auth/web/redirect`
 
-Also, when exposing the API permission `access_as_user`, the **Application ID URI** should include the string **botid-** instead of the domain where the bot service is hosted: **api://botid-023adcaa-4fef-4a4d-a94a-0cde3a0c5b31**
+Also, when exposing the API permission `access_as_user`, the **Application ID URI** should include the string **botid-** instead of the domain where the bot service is hosted: `api://botid-023adcaa-4fef-4a4d-a94a-0cde3a0c5b31`.
 
 ## Configure the bot's OAuth connection settings
 
@@ -66,7 +66,7 @@ This is done within the bot's settings screen in the Azure Bot Framework:
 
 ## Implement SSO in a bot for Microsoft Teams
 
-Let's now look at the code and how to you can implement.
+Let's now look at the code and how to you can implement an SSO enabled bot.
 
 ### Associate the Azure AD app with the Microsoft Teams app
 
@@ -86,7 +86,7 @@ There are two parts of this section that must be updated for your application:
 
 ### Code the bot to request and receive an access token
 
-The request to get access token involves submitting an HTTP POST message request using the existing message schema. Its included in the attachments of an OAuthCard. The schema for the OAuthCard class is defined in Microsoft Bot Schema 4.0 and Its similar to a sign-in card.
+The request to get access token involves submitting an HTTP POST message request using the existing message schema. Its included in the attachments of an *OAuthCard*. The schema for the [OAuthCard](https://docs.microsoft.com/dotnet/api/microsoft.bot.schema.oauthcard) class is defined in Microsoft Bot Schema 4.0 and Its similar to a sign-in card.
 
 Microsoft Teams treats the request as a silent token acquisition if the `TokenExchangeResource` property is populated on the card. For Microsoft Teams channels, only the `ID` property, which uniquely identifies a token request, is honored.
 
@@ -162,7 +162,7 @@ async loginStep(stepContext) {
 
 ![Screenshot of the bot displaying the user's information](../media/07-test-03.png)
 
-In this example, notice after the `loginStep`, we included two more steps: `ensureOAuth()` and `displayToken()`. These will fire if the user accepts the `prompt` step returned by the `loginStep()` method.
+In this example, notice after the `loginStep()`, we included two more steps: `ensureOAuth()` and `displayToken()`. These will fire if the user accepts the `prompt` returned by the `loginStep()` method.
 
 The `ensureOAuth()` step is recommended to prompt for an access token again:
 
