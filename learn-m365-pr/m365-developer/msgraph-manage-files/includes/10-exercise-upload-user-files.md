@@ -6,37 +6,37 @@ Here are the steps to add an upload feature to your app:
 
 1. Extend the `content` block with the content shown below the Add for file upload comment.
 
-```html
-<div id="content" style="display: none;">
-    <h4>Welcome <span id="userName"></span></h4>
-    <!-- Add for file download -->
-    <hr />
-    <label>Files in your OneDrive root folder:</label>
-    <ul id="downloadLinks"></ul>
-    <!-- Add for file upload -->
-    <hr />
-    <input type="file" onchange="fileSelected(this);" />
-    <div id="uploadMessage"></div>
-</div>
-```
-
+    ```html
+    <div id="content" style="display: none;">
+        <h4>Welcome <span id="userName"></span></h4>
+        <!-- Add for file download -->
+        <hr />
+        <label>Files in your OneDrive root folder:</label>
+        <ul id="downloadLinks"></ul>
+        <!-- Add for file upload -->
+        <hr />
+        <input type="file" onchange="fileSelected(this);" />
+        <div id="uploadMessage"></div>
+    </div>
+    ```
+    
 3. Now open the **ui.js** file in your code editor and add these functions at the bottom:
 
-```javascript
-function fileSelected(e) {
-    displayUploadMessage(`Uploading ${e.files[0].name}...`);
-    uploadFile(e.files[0])
-    .then((response) => {
-      displayUploadMessage(`File ${response.name} of ${response.size} bytes uploaded`);
-      displayFiles();
-    });
-}
-
-function displayUploadMessage(message) {
-    const messageElement = document.getElementById('uploadMessage');
-    messageElement.innerText = message;
-}
-```
+    ```javascript
+    function fileSelected(e) {
+        displayUploadMessage(`Uploading ${e.files[0].name}...`);
+        uploadFile(e.files[0])
+        .then((response) => {
+          displayUploadMessage(`File ${response.name} of ${response.size} bytes uploaded`);
+          displayFiles();
+        });
+    }
+    
+    function displayUploadMessage(message) {
+        const messageElement = document.getElementById('uploadMessage');
+        messageElement.innerText = message;
+    }
+    ```
 
 ## Add a function to upload the file using the Microsoft Graph SDK
 
@@ -44,26 +44,26 @@ function displayUploadMessage(message) {
 
 1. Add this function at the bottom of the file:
 
-```javascript
-async function uploadFile(file) {
-    try {
-        ensureScope('files.readwrite');
-        let options = {
-            path: "/",
-            fileName: file.name,
-            rangeSize: 1024 * 1024 // must be a multiple of 320 KiB
-        };
-        const uploadTask = 
-            await MicrosoftGraph.OneDriveLargeFileUploadTask
-              .create(graphClient, file, options);
-        const response = await uploadTask.upload();
-        console.log(`File ${response.name} of ${response.size} bytes uploaded`);
-        return response;
-    } catch (error) {
-        console.error(error);
+    ```javascript
+    async function uploadFile(file) {
+        try {
+            ensureScope('files.readwrite');
+            let options = {
+                path: "/",
+                fileName: file.name,
+                rangeSize: 1024 * 1024 // must be a multiple of 320 KiB
+            };
+            const uploadTask = 
+                await MicrosoftGraph.OneDriveLargeFileUploadTask
+                  .create(graphClient, file, options);
+            const response = await uploadTask.upload();
+            console.log(`File ${response.name} of ${response.size} bytes uploaded`);
+            return response;
+        } catch (error) {
+            console.error(error);
+        }
     }
-}
-```
+    ```
 
 3. Ensure you save the graph.js file before continuing.
 
