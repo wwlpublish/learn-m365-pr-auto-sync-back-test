@@ -1,4 +1,4 @@
-In this exercise, you'll add a custom tab to the existing Microsoft Teams app and use single sign-on (SSO) to obtain an access token to submit requests to Microsoft Graph.
+In this exercise, you'll add a custom tab to a Microsoft Teams app and use single sign-on (SSO) to obtain an access token to submit requests to Microsoft Graph.
 
 > [!IMPORTANT]
 > This exercise assumes you have created the Azure AD app from the previous exercise in this module.
@@ -38,7 +38,9 @@ The Teams Toolkit will prompt you to sign in to your Microsoft account. This wil
 
 ![Screenshot of the Microsoft sign in dialog](../media/05-vs-code-microsoft-365-sign-in.png)
 
-After signing in, the toolkit prompts you to select a project type to create. Because this project will use the Microsoft Graph, which requires all requests to include OAuth2 access token for authorization, create a new tab project using the single sign-on (SSO) capability supported by Microsoft Teams. Select the **TypeScript** option for **Channel and group app with single sign-on (SSO)** app type:
+After signing in, the toolkit prompts you to select a project type to create. Because this project will use the Microsoft Graph, which requires all requests to include OAuth2 access token for authorization, create a new tab project using the single sign-on (SSO) capability supported by Microsoft Teams.
+
+Select the **TypeScript** option for **Channel and group app with single sign-on (SSO)** app type:
 
 ![Screenshot of the project creation option](../media/05-vs-code-create-project-01.png)
 
@@ -50,13 +52,15 @@ Set the **Application name** to **My SSO Tab**.
 
 For the domain name, this must be a fully qualified domain name that will serve the custom app, it must be HTTPS, and the domain can't be localhost. You can address these requirements during development with the tool [ngrok](https://www.ngrok.com). Ngrok creates a secure routable URL to your local HTTP webserver. For example, ngrok can route requests from `https://something.ngrok.io` to `http://localhost:3000`.
 
-While we don't have a local webserver running yet because we're still creating the project, we can still start ngrok now and leave it running during the exercise. In the console, run the following command to start ngrok:
+While you don't have a local webserver running yet because you're still creating the project, you can still start ngrok now and leave it running during the exercise.
+
+In the console, run the following command to start ngrok:
 
 ```console
 ngrok http https://localhost:3000
 ```
 
-When ngrok starts, it will display the temporary subdomain. In this case, the URL https://d4fa28c4e203.ngrok.io is forwarding all requests to https://localhost:3000 that you'll start later in the exercise.
+When ngrok starts, it will display the temporary subdomain. In this case, the URL `https://d4fa28c4e203.ngrok.io` is forwarding all requests to `https://localhost:3000` that you'll start later in the exercise.
 
 ![Screenshot of the running ngrok process](../media/05-vs-code-create-project-03.png)
 
@@ -73,7 +77,7 @@ The toolkit will create a new Azure AD application using the values you've provi
 
 When you select **Finish**, the toolkit will prompt you for the location where to create the project. Select a folder on your local workstation. The toolkit will create a new folder the specified location and create all the project scaffolding required.
 
-Once the project has been created, the toolkit will load it in VS Code.
+Once the project has been created, the toolkit will load it in Visual Studio Code.
 
 ## Update the previously registered Azure AD application
 
@@ -86,20 +90,20 @@ To use this, you'll need the client ID and the client secret.
 >
 > The client ID is found on the app's **Overview** page.
 
-The previous exercise used a temporary URL, **REPLACE.ngrok.io**, for the address where our custom Microsoft Teams app would be served from. Now that you've started ngrok and have a dynamic subdomain, you need to update the Azure AD application to use the new domain.
+The previous exercise used a temporary URL, `REPLACE.ngrok.io`, for the address where our custom Microsoft Teams app would be served from. Now that you've started ngrok and have a dynamic subdomain, you need to update the Azure AD application to use the new domain.
 
 Open a browser and navigate to the [Azure Active Directory admin center (https://aad.portal.azure.com)](https://aad.portal.azure.com). Sign in using a **Work or School Account** that has global administrator rights to the tenancy.
 
 Select **Manage > App registrations** in the left-hand navigation and select the **My Teams SSO App**.
 
-Use the following list to find the **REPLACE.ngrok.io** domain with the dynamic subdomain. For example, ngrok created **d4fa28c4e203.ngrok.io**:
+Use the following list to find the `REPLACE.ngrok.io` domain with the dynamic subdomain. For example, ngrok created `d4fa28c4e203.ngrok.io`:
 
 - **Manage > Authentication**: Redirect URIs
 - **Manage > Expose an API**: Application ID URI
 
 ## Explore the initial project
 
-Let's explore a few parts of the project created by the toolkit in VS Code.
+Let's explore a few parts of the project created by the toolkit in Visual Studio Code.
 
 The initial project actually contains two separate web applications that you'll use:
 
@@ -107,7 +111,7 @@ The initial project actually contains two separate web applications that you'll 
 
 ### Microsoft Teams tab web application
 
-The root files in the project, the **public**, and the **src** folders represent the web app that implements the custom Microsoft Teams tab app.
+The root files in the project, the **./public**, and the **./src** folders represent the web app that implements the custom Microsoft Teams tab app.
 
 Open the **./.env** file that contains environment variables used by the project. Take note of the following properties that were set from the project creation process:
 
@@ -201,7 +205,7 @@ API server is listening on port 5000
 ```
 
 > [!TIP]
-> If you need to stop the process in the future, press <kbd>CTRL</kbd>+<kbd>C</kbd>
+> If you need to stop either processes in the future, press <kbd>CTRL</kbd>+<kbd>C</kbd> in the console.
 
 ### Install the dependencies & start the React web app project
 
