@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn.wwl.manage-user-accounts-licenses-microsoft-365
+metadata:
+  title: Manage user accounts and licenses in Microsoft 365
+  description: "Manage user accounts and licenses in Microsoft 365"
+  ms.date: 04/06/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage user accounts and licenses in Microsoft 365
+summary: This module provides instruction on how to manage user accounts and licenses in Microsoft 365, including how to create and manage user accounts, assign Microsoft 365 licenses to users, and recover deleted user accounts.
+abstract: |
+  By the end of this module, you will be able to:
+  - Identify which user identity model best suited for your organization
+  - Create user accounts from both the Microsoft 365 admin center and Windows PowerShell
+  - Manage user accounts and licenses in Microsoft 365
+  - Recover deleted user accounts in Microsoft 365
+prerequisites: ""
+iconUrl: /learn/achievements/manage-user-accounts-and-licenses-in-microsoft-365.svg
+levels:
+- intermediate
+roles:
+- administrator
+- solution-architect
+- technology-manager
+products:
+- azure-active-directory
+- m365
+- office-365
+units:
+- learn.wwl.manage-user-accounts-licenses-microsoft-365.introduction
+- learn.wwl.manage-user-accounts-licenses-microsoft-365.determine-user-identity-model-for-your-organization
+- learn.wwl.manage-user-accounts-licenses-microsoft-365.create-user-accounts
+- learn.wwl.manage-user-accounts-licenses-microsoft-365.manage-user-account-settings
+- learn.wwl.manage-user-accounts-licenses-microsoft-365.manage-user
+- learn.wwl.manage-user-accounts-licenses-microsoft-365.recover-deleted-user-accounts
+- learn.wwl.manage-user-accounts-licenses-microsoft-365.knowledge-check
+- learn.wwl.manage-user-accounts-licenses-microsoft-365.summary
+badge:
+  uid: learn.wwl.manage-user-accounts-licenses-microsoft-365.badge
