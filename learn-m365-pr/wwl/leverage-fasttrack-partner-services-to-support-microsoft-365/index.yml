@@ -16,7 +16,8 @@ abstract: |
   - Describe the FastTrack implementation process
   - Identify which steps in the implementation process are Microsoft's responsibility, and which are the customers
   - Request a partner to assist you with the FastTrack process
-prerequisites: ""
+prerequisites: |
+  None
 iconUrl: /learn/achievements/leverage-fasttrack-and-partner-services-to-support-microsoft-365.svg
 levels:
 - intermediate
