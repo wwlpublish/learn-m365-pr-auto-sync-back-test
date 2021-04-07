@@ -96,7 +96,7 @@ The body of the http request contains the details of the notification. Take the 
 {
   "topic": {
     "source": "entityUrl",
-    "value": `https://graph.microsoft.com/beta/teams/{groupId}`
+    "value": "https://graph.microsoft.com/beta/teams/{groupId}"
   },
   "activityType": "userMention",
   "previewText": {

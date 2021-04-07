@@ -47,7 +47,9 @@ Set the **Application name** to **MSGraph Playground**.
 
 For the domain name, this must be a fully qualified domain name that will serve the custom app, it must be HTTPS, and the domain can't be localhost. You can address these requirements during development with the tool [ngrok](https://www.ngrok.com). Ngrok creates a secure routable URL to your local HTTP webserver. For example, ngrok can route requests from `https://something.ngrok.io` to `http://localhost:3000`.
 
-While we don't have a local webserver running yet because we're still creating the project, we can still start ngrok now and leave it running during the exercise. In the console, run the following command to start ngrok:
+While you don't have a local webserver running yet because you're still creating the project, you can still start ngrok now and leave it running during the exercise.
+
+In the console, run the following command to start ngrok:
 
 ```console
 ngrok http https://localhost:3000
@@ -70,11 +72,11 @@ The toolkit will create a new Azure AD application using the values you've provi
 
 When you select **Finish**, the toolkit will prompt you for the location where to create the project. Select a folder on your local workstation. The toolkit will create a new folder the specified location and create all the project scaffolding required.
 
-Once the project has been created, the toolkit will load it in VS Code.
+Once the project has been created, the toolkit will load it in Visual Studio Code.
 
 ## Explore the initial project
 
-Let's explore a few parts of the project created by the toolkit in VS Code.
+Let's explore a few parts of the project created by the toolkit in Visual Studio Code.
 
 The initial project actually contains two separate web applications that you'll use:
 
@@ -82,7 +84,7 @@ The initial project actually contains two separate web applications that you'll 
 
 ### Microsoft Teams tab web application
 
-The root files in the project, as well as the **public** and **src** folders represent the web app that implements the custom Microsoft Teams tab app.
+The root files in the project, as well as the **./public** and **./src** folders represent the web app that implements the custom Microsoft Teams tab app.
 
 Open the **./.env** file that contains environment variables used by the project. Take note of the following properties that were set from the project creation process:
 
@@ -103,11 +105,11 @@ REACT_APP_GRAPH_SCOPES=User.Read
 > [!IMPORTANT]
 > If you restart ngrok and get a new dynamic subdomain, you'll need to update everywhere you've seen the **\*.ngrok.io** URL.
 
-The **src** folder contains a client-side React application that is used for the custom Teams tab.
+The **./src** folder contains a client-side React application that is used for the custom Teams tab.
 
 ### Authentication web API
 
-The **./api_server** folder contains a Node.js-based web API that's used to implement the OAuth2 on-behalf-of flow to exchange the access token obtained by the Microsoft Teams client that implements SSO to obtain an access token that can be used to call Microsoft Graph.
+The **./api_server** folder contains a Node.js-based web API that's used to implement the OAuth2 On-Behalf-Of flow to exchange the access token obtained by the Microsoft Teams client that implements SSO to obtain an access token that can be used to call Microsoft Graph.
 
 Open the **./api_server/.env** file that contains environment variables used by this web API project. Take note of the following properties that were set from the project creation process:
 
@@ -239,7 +241,7 @@ API server is listening on port 5000
 ```
 
 > [!TIP]
-> If you need to stop the process in the future, press <kbd>CTRL</kbd>+<kbd>C</kbd>
+> If you need to stop either processes in the future, press <kbd>CTRL</kbd>+<kbd>C</kbd> in the console.
 
 ### Install the dependencies & start the React web app project
 

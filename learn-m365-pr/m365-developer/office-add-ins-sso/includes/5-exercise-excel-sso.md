@@ -2,7 +2,7 @@ In this exercise, you'll build an Excel add-in that adds a list of the recent em
 
 ## Prerequisites
 
-Developing Office add-ins for Microsoft Excel requires the web client or the following desktop clients:
+Developing Office Add-ins for Microsoft Excel requires the web client or the following desktop clients:
 
 - Windows v16.0.12215.20006 (*or higher*)
 - macOS v16.32.19102902 (*or higher*)
@@ -42,15 +42,12 @@ When prompted, provide the following information to create your add-in project:
 
 After you complete prompts, the generator creates the project and installs supporting Node components.
 
-> [!TIP]
-> When installing dependencies, you can ignore any warnings or errors the Yeoman generator displays. The remainder of this unit include all the steps you'll need to follow.
-
 ## Register the Azure Active Directory (Azure AD) app
 
 Next, register the Azure AD application and update the project to use the Azure AD application.
 
 > [!TIP]
-> For details on registering the Azure AD application manually refer to the following in the Office Add-in developer documentation: **[Create a Node.js Office Add-in that uses single sign-on: Register the add-in with Azure AD v2.0 endpoint](https://docs.microsoft.com/office/dev/add-ins/develop/create-sso-office-add-ins-nodejs#register-the-add-in-with-azure-ad-v20-endpoint)**.
+> For details on registering the Azure AD application manually, see: **[Create a Node.js Office Add-in that uses single sign-on: Register the add-in with Azure AD v2.0 endpoint](https://docs.microsoft.com/office/dev/add-ins/develop/create-sso-office-add-ins-nodejs#register-the-add-in-with-azure-ad-v20-endpoint)**.
 
 From the command prompt, ensure you're currently in the root folder of the project. Then execute the following command:
 
@@ -82,7 +79,7 @@ npm start
 
 ### Test the add-in in the Excel desktop client
 
-After a moment, the Excel will load with the add-in's button in the button and loaded in the task pane.
+After a moment, the Excel will load with the add-in's button in the ribbon and loaded in the task pane.
 
 ![Screenshot of the add-in in Excel](../media/05-test-app-01.png)
 
@@ -120,17 +117,21 @@ The next step is to update the code in the add-in.
 
 ### Update the task pane
 
-First, update the task pane.
-
 Locate and open the **./src/taskpane/taskpane.html**.
 
-Locate the first bullet in the HTML and change `span` tag's contents to:
+Locate the following HTML element in the task pane:
+
+```html
+<div class="ms-firstrun-instructionstep__welcome-body">
+```
+
+Locate the first bullet in the HTML and change `span` element's contents to:
 
 ```html
 <span class="ms-ListItem-primaryText">Click the <b>Get my last 10 emails</b> button.</span>
 ```
 
-Locate the last bullet in the HTML and change `span` tag's contents to:
+Locate the last bullet in the HTML and change `span` element's contents to:
 
 ```html
 <span class="ms-ListItem-primaryText">Your last 10 emails will be displayed in the document.</span>
@@ -160,7 +161,7 @@ const response = await sso.getGraphData(exchangeResponse.access_token, endpoint,
 
 Next, locate and open the **./src/helpers/documentHelper.js** file.
 
-Find the method `writeDataToExcel()`. You'll replace most the code in this method, but you do want to keep the basic structure. Delete the contents of the file and replace it with the following code:
+Find the method `writeDataToExcel()`. You'll replace most the code in this method, but you do want to keep the basic structure. Delete the contents of the method and replace it with the following code:
 
 ```javascript
 return Excel.run(function(context) {
@@ -172,7 +173,7 @@ return Excel.run(function(context) {
 });
 ```
 
-First, add the following code after the `// TODO` to create a few column headings in the sheet:
+First, replace the `// TODO` with the following code to create a few column headings in the sheet:
 
 ```javascript
 const rangeHeading = sheet.getRange("A1:D1");
@@ -214,7 +215,7 @@ npm start
 
 ### Test the add-in in Excel
 
-After a moment, the Excel will load with the add-in's button in the button and loaded in the task pane. Let's test this in the Excel web client.
+After a moment, the Excel will load with the add-in's button in the ribbon and loaded in the task pane. Let's test this in the Excel web client.
 
 Open a browser and navigate to the [OneDrive (https://onedrive.com)](https://onedrive.com). Sign in using a **Work or School Account**.
 

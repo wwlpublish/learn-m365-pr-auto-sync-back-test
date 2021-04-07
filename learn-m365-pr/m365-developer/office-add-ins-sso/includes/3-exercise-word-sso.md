@@ -2,7 +2,7 @@ In this exercise, you'll build a Word add-in that inserts details about the curr
 
 ## Prerequisites
 
-Developing Office add-ins for Microsoft Word requires the web client or the following desktop clients:
+Developing Office Add-ins for Microsoft Word requires the web client or the following desktop clients:
 
 - Windows v16.0.12215.20006 (*or higher*)
 - macOS v16.32.19102902 (*or higher*)
@@ -42,12 +42,9 @@ When prompted, provide the following information to create your add-in project:
 
 After you complete prompts, the generator creates the project and installs supporting Node components.
 
-> [!TIP]
-> When installing dependencies, you can ignore any warnings or errors the Yeoman generator displays. The remainder of this unit include all the steps you'll need to follow.
-
 ## Explore the initial project
 
-All Word Add-in projects include various folders and files that implement an add-in for Microsoft Word. The add-in is mostly implemented in the **./src/commands** and **./src/taskpane** folders. The files in these two folders implement the basic task pane add-in and optional commands to trigger the add-in.
+All Word add-in projects include various folders and files that implement an add-in for Microsoft Word. The add-in is mostly implemented in the **./src/commands** and **./src/taskpane** folders. The files in these two folders implement the basic task pane add-in and optional commands to trigger the add-in.
 
 Let's take a look at some of the other files added to the project that support implementing an SSO experience for users. These files can be found in the **./src/helpers** folder.
 
@@ -64,7 +61,7 @@ You learned in a previous unit that an Office Add-in must have an associated Azu
 Before you can test the project, you'll need to register the Azure AD application and then update the project to use the Azure AD application.
 
 > [!TIP]
-> For details on registering the Azure AD application manually refer to the following in the Office Add-in developer documentation: **[Create a Node.js Office Add-in that uses single sign-on: Register the add-in with Azure AD v2.0 endpoint](https://docs.microsoft.com/office/dev/add-ins/develop/create-sso-office-add-ins-nodejs#register-the-add-in-with-azure-ad-v20-endpoint)**.
+> For details on registering the Azure AD application manually, see: **[Create a Node.js Office Add-in that uses single sign-on: Register the add-in with Azure AD v2.0 endpoint](https://docs.microsoft.com/office/dev/add-ins/develop/create-sso-office-add-ins-nodejs#register-the-add-in-with-azure-ad-v20-endpoint)**.
 
 The Office Add-in project includes a utility that can create the Azure AD app registration and update the project.
 
@@ -155,7 +152,7 @@ The ID of the scope will match the ID of your application. Notice the end of the
 
 The last section indicates the API will automatically trust these specific applications and not prompt the user for consent when the application calls this API.
 
-This effectively authorizes the Office desktop and web applications to call your add-in's API.
+This authorizes the Office desktop and web applications to call your add-in's API.
 
 The applications listed are as follows:
 
@@ -188,7 +185,7 @@ The **start** script will do three things:
 
 ### Test the add-in in the Word desktop client
 
-After a moment, the Word will load with the add-in's button in the button and loaded in the task pane.
+After a moment, Word will load with the add-in's button in the ribbon and loaded in the task pane.
 
 ![Screenshot of the add-in in Word](../media/03-test-app-01.png)
 
@@ -224,11 +221,21 @@ Because you're already signed in, after a moment, you'll see the same profile in
 
 ## Explore the project
 
-Now let's explore how the Word Add-in uses SSO to connect to Microsoft Graph and display the currently signed in user's profile information in the document.
+Now let's explore how the Word add-in uses SSO to connect to Microsoft Graph and display the currently signed in user's profile information in the document.
 
 Open the project you created at the beginning of this exercise in Visual Studio Code.
 
-Locate and open the **./manifest.xml** file. Within the add-in manifest, locate the following element: `OfficeApp` > `DefaultSettings` > `SourceLocation`. The value in this element tells the hosting Office client the URL to load in the task pane IFRAME.
+Locate and open the **./manifest.xml** file. Within the add-in manifest, locate the `SourceLocation` element:
+
+```xml
+<OfficeApp>
+  <DefaultSettings>
+    <SourceLocation />
+  </DefaultSettings>
+</OfficeApp>
+```
+
+The value in this element tells the hosting Office client the URL to load in the task pane IFRAME.
 
 Locate and open the **./src/taskpane/taskpane.html** file. There are two things to notice in this file:
 

@@ -1,8 +1,8 @@
-In this exercise, you'll build an Outlook add-in that adds a list of the recent emails received by the currently logged in user with Microsoft Graph in a worksheet. This process uses the single sign-on (SSO) authentication scheme.
+In this exercise, you'll build an Outlook add-in that adds a list of upcoming calendar events to the body of an email by the currently logged in user with Microsoft Graph. This process uses the single sign-on (SSO) authentication scheme.
 
 ## Prerequisites
 
-Developing Office add-ins for Microsoft Outlook requires the web client or the following desktop clients:
+Developing Office Add-ins for Microsoft Outlook requires the web client or the following desktop clients:
 
 - Windows v16.0.12215.20006 (*or higher*)
 - macOS v16.32.19102902 (*or higher*)
@@ -42,15 +42,12 @@ When prompted, provide the following information to create your add-in project:
 
 After you complete prompts, the generator creates the project and installs supporting Node components.
 
-> [!TIP]
-> When installing dependencies, you can ignore any warnings or errors the Yeoman generator displays. The remainder of this unit include all the steps you'll need to follow.
-
 ## Register the Azure Active Directory (Azure AD) app
 
 Next, register the Azure AD application and update the project to use the Azure AD application.
 
 > [!TIP]
-> For details on registering the Azure AD application manually refer to the following in the Office Add-in developer documentation: **[Create a Node.js Office Add-in that uses single sign-on: Register the add-in with Azure AD v2.0 endpoint](https://docs.microsoft.com/office/dev/add-ins/develop/create-sso-office-add-ins-nodejs#register-the-add-in-with-azure-ad-v20-endpoint)**.
+> For details on registering the Azure AD application manually, see: **[Create a Node.js Office Add-in that uses single sign-on: Register the add-in with Azure AD v2.0 endpoint](https://docs.microsoft.com/office/dev/add-ins/develop/create-sso-office-add-ins-nodejs#register-the-add-in-with-azure-ad-v20-endpoint)**.
 
 From the command prompt, ensure you're currently in the root folder of the project. Then execute the following command:
 
@@ -98,7 +95,7 @@ On the **My add-ins** screen, select the **Add a custom add-in > Add from file..
 
 ![Screenshot of the screen to sideload a custom add-in](../media/07-test-app-02.png)
 
-Select the **manifest.xml** file in the root of your project and select **Upload**.
+Select the **manifest.xml** file in the root of your project folder and select **Upload**.
 
 When prompted, select the **Install** button on the **Warning** dialog.
 
@@ -108,7 +105,7 @@ Close the dialog and select the **...** button at the bottom of the email. Notic
 
 Select the add-in to open the task pane. When the task pane appears, select the **Get My user profile information** button.
 
-Because you're already signed in, after a moment, you'll see the recent emails appear in the email without having to sign in.
+Because you're already signed in, after a moment, you'll see the user's basic profile information appear in the email without having to sign in.
 
 ![Screenshot of the add-in task pane in the new Outlook email](../media/07-test-app-04.png)
 
@@ -118,11 +115,9 @@ Now, let's update the task pane app display a list of upcoming meetings for the 
 
 ### Update the task pane
 
-First, update the task pane.
-
 Locate and open the **./src/taskpane/taskpane.html**.
 
-Replace the `<body>` element with the following HTML. This will update the task page's rendering:
+Replace the `<body>` element with the following HTML. This will update the task pane's rendering:
 
 ```html
 <body class="ms-font-m ms-welcome ms-Fabric">
@@ -152,7 +147,7 @@ Replace the `<body>` element with the following HTML. This will update the task 
 
 ### Update the task pane's code
 
-Now, update the code that will get the user's last 10 emails.
+Now, update the code that will get the user's next few calendar events.
 
 Locate and open the **./src/helpers/ssoauthhelper.js** file.
 
@@ -181,7 +176,7 @@ Next, locate and open the **./src/helpers/documentHelper.js** file.
 
 Find the method `writeDataToOutlook()`. You'll replace the contents of this method to build an HTML string of the upcoming meetings returned from the Microsoft Graph request and add the list to the current email.
 
-Delete & replace the contents of the `writeDataToOutlook()` method with the following code:
+Replace the contents of the `writeDataToOutlook()` method with the following code:
 
 ```javascript
 let emailMessage = "";
@@ -280,7 +275,7 @@ Add a new permission by selecting **Add permission**.
 
 On the **Select an API** screen, select **Microsoft Graph**, then select **Delegated permissions**. Select the following permissions from the following sections, or use the search box to find these permissions:
 
-- openid permissions
+- OpenID permissions
   - openid
   - profile
 - Calendars
@@ -303,7 +298,7 @@ api://localhost:3000/f7b53c32-c205-40d8-84dc-0c15b662054c
 ```
 
 > [!NOTE]
-> The GUID the ID is unique for each app. Yours will not match the one shown in this exercise.
+> The GUID is the unique ID for each app. Your ID won't match the one shown in this exercise.
 
 ### Expose an API: Scopes defined by the API
 
@@ -384,7 +379,7 @@ Execute the following in the console, after updating the first three values:
 SSOAPPNAME="MyOutlookSsoAddin"
 USER="myusername"
 SECRET="...."
-sudo security add-generic-password -a $USER -s $SSOAPPNAME -w $SECRET
+sudo security add-generic-password -a $USER -s $SSOAPPNAME -w $SECRET -U
 ```
 
 ## Build and retest the application
@@ -399,7 +394,7 @@ npm start
 
 Open a browser and navigate to the [Outlook (https://outlook.office.com)](https://outlook.office.com). Sign in using a **Work or School Account**.
 
-Repeat the process of testing the add-in that you did at the beginning of this exercise. However, before activating the add-in, you need to remove it because the current one is still using the old **manifest.xml** file with the old Azure AD application registration.
+Repeat the process of testing the add-in that you did at the beginning of this exercise. However, before activating the add-in, you need to remove it because the currently installed add-in is still using the old **manifest.xml** file with the old Azure AD application registration.
 
 To remove the add-in, follow the same steps to install a new add-in, except before uploading your custom **manifest.xml** file, remove the previously installed add-in:
 

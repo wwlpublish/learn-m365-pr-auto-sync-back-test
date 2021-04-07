@@ -90,7 +90,7 @@ Repeating the previous section, remember what you learned in a previous lesson. 
 
 When Azure AD receives this, it does an another check to see if the user has already consented to the requested Microsoft Graph permissions. If they haven't, Azure AD responds with a specific error code that your add-in can handle in the fallback authorization system to prompt the user to consent to the Microsoft Graph permissions.
 
-### Pre authorize all Office clients with your add-in
+### Preauthorize all Office clients with your add-in
 
 As shown in this unit, you can preauthorize your Azure AD application registration used by your Office Add-in to trust all Office client apps. This includes all desktop, mobile, and web Office clients.
 
