@@ -14,17 +14,17 @@ Let's look at how the SSO process works at runtime in Microsoft Teams tabs:
 ![Screenshot of SSO in Microsoft Teams tabs](../media/04-tabs-sso-diagram.png)
 
 1. In the tab, a JavaScript call is made to `getAuthToken()`. This tells Microsoft Teams to obtain an authentication token for the tab application.
-1. If this is the first time the current user has used your tab application, there's a request prompt to consent if consent is required or to handle step-up authentication such as two-factor authentication.
+1. If this is the first time the current user has used your tab application, the user is prompted prompt to consent (*if consent is required*), or to handle step-up authentication (*such as two-factor authentication*).
 1. Microsoft Teams requests the tab application token from the Azure AD endpoint for the current user.
 1. Azure AD sends the tab application token to the Microsoft Teams application.
 1. Microsoft Teams sends the tab application token to the tab as part of the result object returned by the `getAuthToken()` call.
-1. The token is parsed in the tab application using JavaScript, to extract required information, such as the user's email address.
+1. The token is parsed in the tab application using JavaScript to extract required information, such as the user's email address.
 
 ### Microsoft Teams can't prompt for to consent Microsoft Graph permissions
 
 The steps outlined above state that Microsoft Teams can prompt the user to consent the app permissions to sign them in. However, it's worth noting that Microsoft Teams can only prompt for consent for the OpenID `profile` scope. Microsoft Teams can't prompt the user to consent any of the Microsoft Graph permissions.
 
-This can introduce a challenge with your app because it can't know if this initial bootstrap token can be used in the OBO OAuth2 to obtain an access token to call Microsoft Graph.
+This can introduce a challenge with your app because it can't know if this initial bootstrap token can be used in the OAuth2 On-Behalf-Of flow to obtain an access token to call Microsoft Graph.
 
 If your code needs permissions to Microsoft Graph, or more permissions that the user hasn't consented to yet, when Microsoft Graph receives the bootstrap token, it will fail with a specific error code: **AADSTS65001**. This error code indicates consent to the requested Microsoft Graph permissions hasn't been granted yet.
 
@@ -62,7 +62,7 @@ Also, when exposing the API permission `access_as_user`, the **Application ID UR
 
 ## Implement SSO in Microsoft Teams tabs
 
-Let's now look at the code and how to you can implement.
+Let's now look at the code and how to you can implement a tab the uses SSO.
 
 ### Associate the Azure AD app with the Microsoft Teams app
 
@@ -93,7 +93,7 @@ microsoftTeams.authentication.getAuthToken({
 });
 ```
 
-The `result object` passed to the `successCallback` method contains the access token returned by Azure AD.
+The `result` object passed to the `successCallback` method contains the access token returned by Azure AD.
 
 This token can be used to identify the user within your tab or your own back-end system.
 
@@ -113,7 +113,7 @@ The OAuth2 on behalf of flow requirements are as follows:
 - Set the **scope** to a space-delimited list of all permissions your app needs to call Microsoft Graph
 - use the registered Azure AD app's client ID and client secret to authenticate the service with Azure AD
 
-This request is sent to the Azure AD token endpoint, **https://login.microsoftonline.com/${tenantId}/oauth2/v2.0/token**. The tenant ID can be retrieved from the `tid` claim that's included in the ID token retrieved by Microsoft Teams.
+This request is sent to the Azure AD token endpoint, `https://login.microsoftonline.com/${tenantId}/oauth2/v2.0/token`. The tenant ID can be retrieved from the `tid` claim that's included in the ID token retrieved by Microsoft Teams.
 
 Azure AD will respond with a valid access token if the user has consented to the requested permissions.
 

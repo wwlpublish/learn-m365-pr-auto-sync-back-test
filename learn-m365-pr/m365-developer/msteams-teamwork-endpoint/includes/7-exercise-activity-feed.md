@@ -76,7 +76,7 @@ if (response) {
 }
 ```
 
-In the inner `if` statement, add an else statement and update the value of the `endpoint` parameter:
+In the inner `if` statement, add an `else` statement and update the value of the `endpoint` parameter:
 
 ```typescript
 if (response) {
@@ -159,7 +159,7 @@ API server is listening on port 5000
 ```
 
 > [!TIP]
-> If you need to stop the process in the future, press <kbd>CTRL</kbd>+<kbd>C</kbd>
+> If you need to stop either processes in the future, press <kbd>CTRL</kbd>+<kbd>C</kbd> in the console.
 
 ### Start the React web app project
 
