@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn-m365.workplace-analytics-r-package
+metadata:
+  title: Analyze Microsoft Workplace Analytics data using the wpa R package
+  description: Learn how to install and load the wpa R package. Validate and explore Microsoft Workplace Analytics data, and learn how you can use wpa R package functions to create your own analysis.  
+  ms.date: 04/07/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Analyze Microsoft Workplace Analytics data using the wpa R package
+summary: Learn how to install and load the wpa R package. Validate and explore Microsoft Workplace Analytics data, and learn how you can use wpa R package functions to create your own analysis.  
+abstract: |
+  At the end of this module, you should be able to:
+  - Explain what the wpa R package is, and how it can be useful when analyzing Workplace Analytics data 
+  - Install R, RStudio Desktop, and set up the wpa R package 
+  - Validate Workplace Analytics data using the wpa R package  
+  - Use the functions in the wpa R package to explore the data and create your own analysis  
+prerequisites: |
+ - Familiarity with Workplace Analytics data sources and metrics 
+ - Basic knowledge of Workplace Analytics queries and query structure 
+ - Basic understanding of data manipulation in R. Knowledge of the basic verbs in the dplyr package is recommended. 
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- business-analyst
+- data-scientist
+products:
+- m365
+- m365-workplace-analytics
+units:
+- learn-m365.workplace-analytics-r-package.introduction
+- learn-m365.workplace-analytics-r-package.r-package
+- learn-m365.workplace-analytics-r-package.r-package-setup
+- learn-m365.workplace-analytics-r-package.validate-data-in-r
+- learn-m365.workplace-analytics-r-package.explore-data-in-r
+- learn-m365.workplace-analytics-r-package.knowledge-check
+- learn-m365.workplace-analytics-r-package.summary
+badge: 
+  uid: learn-m365.workplace-analytics-r-package.badge
