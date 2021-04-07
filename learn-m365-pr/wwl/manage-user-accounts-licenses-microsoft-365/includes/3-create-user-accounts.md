@@ -1,6 +1,6 @@
 Depending on your needs, you can use the following methods to provision user accounts:
 
- *  **Microsoft 365 admin center.** This poratal provides a simple web interface for individually creating and managing users. Is also available as an app for mobile devices or tables as Microsoft 365 admin app.
+ *  **Microsoft 365 admin center.** This portal provides a simple web interface for individually creating and managing users. Is also available as an app for mobile devices or tables as Microsoft 365 admin app.
  *  **Import multiple users.** This option provides a method for the bulk importation of multiple users into the Microsoft 365 admin center through a comma-separated value (CSV) file.
  *  **Windows PowerShell.** You can use this cmdlet-based and script-based interface to create and manage single and multiple users.
  *  **Directory synchronization.** This option requires you to provision and manage users by synchronizing Microsoft 365 with an on-premises directory service such as Active Directory. You can use the Azure AD Connect tool to synchronize on-premises Active Directory objects with Azure AD in Microsoft 365.
