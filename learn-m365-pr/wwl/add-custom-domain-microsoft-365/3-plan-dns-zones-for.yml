@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.add-custom-domain-microsoft-365.plan-dns-zones-for
+title: Plan the DNS zones for a custom domain
+metadata:
+  title: Plan the DNS zones for a custom domain
+  description: "Plan the DNS zones for a custom domain"
+  ms.date: 04/07/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/3-plan-dns-zones-for.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Administrator for Tailspin Toys, you're planning a Microsoft 365 deployment. You want to add a new custom domain where the internal DNS zone and external DNS zone have the same name. You want to design a DNS solution for the new domain that enables Microsoft 365 connectivity and meets this DNS requirement. What should you do?"
+    choices:
+    - content: "Configure split brain DNS"
+      isCorrect: true
+      explanation: "That's correct. Split brain DNS is a configuration in which the internal and external DNS environments provide different IP addresses to requests for the same host name, depending on which server is used for name resolution."
+    - content: "Use DNS zones that are Active Directory integrated"
+      isCorrect: false
+      explanation: "That's incorrect. This action won't meet your DNS requirements. Try again."
+    - content: "Use a primary zone for the domain for external use and a secondary zone that points to the primary zone for the internal use"
+      isCorrect: false
+      explanation: "That's incorrect. This action won't meet your DNS requirements. Try again."
