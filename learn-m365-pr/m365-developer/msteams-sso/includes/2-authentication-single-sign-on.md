@@ -1,12 +1,12 @@
 Custom Microsoft Teams apps that incorporate user data protected by Azure AD will need to implement an authentication process. Single sign-on (SSO) provides a seamless way for your Microsoft Teams apps to authenticate users.
 
-In this unit, you'll learn about the different authentication supported by Microsoft Teams and how the single sign-on (SSO) works with custom tabs and bots.
+In this unit, you'll learn about the different authentication options supported by Microsoft Teams and how the single sign-on (SSO) works with custom tabs and bots.
 
 ## Authentication and authorization in Microsoft Teams apps
 
-In Microsoft Teams, there are two different authentication flows for the app. Perform a traditional web-based authentication flow in a content page embedded in a tab, a configuration page, or a task module. If the app contains a conversational bot, use the OAuthPrompt flow and optionally the Azure Bot Framework's token service to authenticate a user as part of a conversation. You can require that your users be logged in with a Microsoft account, or work and school account. This task is called user authentication because it enables the app to know who the user is.
+In Microsoft Teams, there are two different authentication flows for the app. Perform a traditional web-based authentication flow in a content page embedded in a tab, a configuration page, or a task module. If the app contains a conversational bot, use the *OAuthPrompt* flow and optionally the Azure Bot Framework's token service to authenticate a user as part of a conversation. You can require that your users be logged in with a Microsoft account, or work and school account. This task is called user authentication because it enables the app to know who the user is.
 
-Your app can also get the user's consent to access their Microsoft Graph data (such as their Microsoft 365 profile, OneDrive files, and SharePoint data) or to data in other external sources such as Google, Facebook, LinkedIn, SalesForce, and GitHub. This task is called or app authorization, because the app that is being authorized, not the user.
+Your app can also get the user's consent to access their Microsoft Graph accessible data (such as their Microsoft 365 profile, OneDrive files, and SharePoint data) or to data in other external sources such as Google, Facebook, LinkedIn, SalesForce, and GitHub. This task is called app authorization, because the app that is being authorized, not the user.
 
 ### Web-based authentication flow
 
@@ -20,7 +20,7 @@ The Azure Bot Framework’s OAuthPrompt makes authentication easier for apps usi
 
 Microsoft added support for SSO to Microsoft Teams in 2020. This capability reduces how often a user is prompted to log in to third-party services.
 
-Microsoft Teams SSO support is implemented in combination with code in your custom app and Azure AD. To support SSO, a Microsoft Teams app must have a corresponding Azure AD application registration. This app registration defines what permissions the app supports and trusts the Microsoft Teams client applications to act for the user.
+Microsoft Teams SSO support is implemented in combination with code in your custom app and Azure AD. To support SSO, a Microsoft Teams app must have a corresponding Azure AD application registration. This app registration defines what permissions the app supports and trusts the Microsoft Teams client applications to act on behalf of the user.
 
 Using this support for SSO, apps can request the user's profile information or information from Microsoft Graph.
 
@@ -54,7 +54,7 @@ You'll also need to specify the **Redirect URL** where Azure AD should send the 
 
 Azure AD applications used to support SSO in Microsoft Teams have many requirements. For example, they must be multitenant applications, they expose the `access_as_user` permission, and should also trust all Microsoft Teams client applications calling the app.
 
-Creating and configuring this permission is done in the **Expose an API** section of the Azure AD app configuration. Here you specify a unique URI for the application in the format of **api://DOMAIN-<appID>**.
+Creating and configuring this permission is done in the **Expose an API** section of the Azure AD app configuration. Here you specify a unique URI for the application in the format of **api://APP_HOST_DOMAIN/APP_ID**.
 
 ![Screenshot of the Expose an API - Add a scope dialog in Azure AD](../media/03-azure-ad-app-registration-08.png)
 
@@ -102,6 +102,6 @@ If you use the access token in your own API, you should implement accepted best 
 
 #### Use the access token to access Microsoft Graph
 
-In the scenario where your app needs to access Microsoft Graph, your code can use this token provided by Microsoft Teams to your app to start the OAuth2 on-behalf-of (OBO) flow. When the token is used in this way, it's referred to as the "bootstrap token" because it's only used to obtain an access token that can be used to call Microsoft Graph.
+In the scenario where your app needs to access Microsoft Graph, your code can use this token provided by Microsoft Teams to your app to start the [OAuth2 On-Behalf-Of (OBO) flow](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth2-on-behalf-of-flow). When the token is used in this way, it's referred to as the "bootstrap token" because it's only used to obtain an access token that can be used to call Microsoft Graph.
 
 Other units in this module will focus on the specifics of each implementation of SSO in tabs and bots.
