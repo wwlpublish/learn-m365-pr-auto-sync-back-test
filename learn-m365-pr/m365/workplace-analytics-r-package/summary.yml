@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.workplace-analytics-r-package.summary
+title: Summary
+metadata:
+  title: Summary
+  description: Review what you've learned about using the wpa R package with Workplace Analytics.
+  ms.date: 04/07/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/summary.md)]
