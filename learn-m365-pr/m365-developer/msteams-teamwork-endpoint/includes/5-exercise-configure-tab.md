@@ -59,7 +59,7 @@ https://m365x285179.sharepoint.com/sites/TestTeam/Shared%20Documents/Forms/AllIt
 > [!NOTE]
 > Line breaks have been added for readability.
 
-From this, you get the URL of the document library: **https://m365x285179.sharepoint.com/sites/TestTeam/Shared%20Documents**. From this, you can also see the folder is **General**, so the URL to this folder is: **https://m365x285179.sharepoint.com/sites/TestTeam/Shared%20Documents**.
+From this, you get the URL of the document library: `https://m365x285179.sharepoint.com/sites/TestTeam/Shared%20Documents`. From this, you can also see the folder is **General**, so the URL to this folder is: `https://m365x285179.sharepoint.com/sites/TestTeam/Shared%20Documents`.
 
 Now, select the Word document to load it in the Microsoft Office Word web client. If you look at the URL in the browser's address bar, it should look similar to the following:
 
@@ -110,67 +110,67 @@ Also notice how each one's `configuration` property sets the file's document ID 
 Locate the `render()` method and add the following code immediately before it:
 
 ```typescript
-  _handleWordOnClick = async () => {
-    let endpoint = `https://graph.microsoft.com/v1.0/teams/${this.state.context?.groupId}/channels/${this.state.context?.channelId}/tabs`;
-    let graphRequestParams = {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        "authorization": "bearer " + this.state.graphAccessToken
-      },
-      body: JSON.stringify({
-        "displayName": "Word",
-        "teamsApp@odata.bind" : "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps/com.microsoft.teamspace.tab.file.staticviewer.word",
-        "configuration": {
-           "entityId": "CA2E9D19-3FE7-4E60-82DF-F73BD3B8D302",
-           "contentUrl": "https://m365x285179.sharepoint.com/sites/TestTeam/Shared Documents/General/sample.docx",
-           "removeUrl": null,
-           "websiteUrl": null
-        }
-      })
-    };
-
-    // submit request to Microsoft Graph
-    let response = await fetch(endpoint, graphRequestParams).catch(this.unhandledFetchError);
-
-    if (response) {
-      if(!response.ok){
-        console.error("ERROR: ", response);
-        this.setState({error:true});
+_handleWordOnClick = async () => {
+  let endpoint = `https://graph.microsoft.com/v1.0/teams/${this.state.context?.groupId}/channels/${this.state.context?.channelId}/tabs`;
+  let graphRequestParams = {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      "authorization": "bearer " + this.state.graphAccessToken
+    },
+    body: JSON.stringify({
+      "displayName": "Word",
+      "teamsApp@odata.bind" : "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps/com.microsoft.teamspace.tab.file.staticviewer.word",
+      "configuration": {
+          "entityId": "CA2E9D19-3FE7-4E60-82DF-F73BD3B8D302",
+          "contentUrl": "https://m365x285179.sharepoint.com/sites/TestTeam/Shared Documents/General/sample.docx",
+          "removeUrl": null,
+          "websiteUrl": null
       }
+    })
+  };
+
+  // submit request to Microsoft Graph
+  let response = await fetch(endpoint, graphRequestParams).catch(this.unhandledFetchError);
+
+  if (response) {
+    if(!response.ok){
+      console.error("ERROR: ", response);
+      this.setState({error:true});
     }
   }
+}
 
-  _handleExcelOnClick = async () => {
-    let endpoint = `https://graph.microsoft.com/v1.0/teams/${this.state.context?.groupId}/channels/${this.state.context?.channelId}/tabs`;
-    let graphRequestParams = {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        "authorization": "bearer " + this.state.graphAccessToken
-      },
-      body: JSON.stringify({
-        "displayName": "Excel",
-        "teamsApp@odata.bind" : "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps/com.microsoft.teamspace.tab.file.staticviewer.excel",
-        "configuration": {
-           "entityId": "2A451F2C-5BC0-4EEF-B986-671705798A54",
-           "contentUrl": "https://m365x285179.sharepoint.com/sites/TestTeam/Shared Documents/General/Book.xlsx",
-           "removeUrl": null,
-           "websiteUrl": null
-        }
-      })
-    };
-
-    // submit request to Microsoft Graph
-    let response = await fetch(endpoint, graphRequestParams).catch(this.unhandledFetchError);
-
-    if (response) {
-      if(!response.ok){
-        console.error("ERROR: ", response);
-        this.setState({error:true});
+_handleExcelOnClick = async () => {
+  let endpoint = `https://graph.microsoft.com/v1.0/teams/${this.state.context?.groupId}/channels/${this.state.context?.channelId}/tabs`;
+  let graphRequestParams = {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      "authorization": "bearer " + this.state.graphAccessToken
+    },
+    body: JSON.stringify({
+      "displayName": "Excel",
+      "teamsApp@odata.bind" : "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps/com.microsoft.teamspace.tab.file.staticviewer.excel",
+      "configuration": {
+          "entityId": "2A451F2C-5BC0-4EEF-B986-671705798A54",
+          "contentUrl": "https://m365x285179.sharepoint.com/sites/TestTeam/Shared Documents/General/Book.xlsx",
+          "removeUrl": null,
+          "websiteUrl": null
       }
+    })
+  };
+
+  // submit request to Microsoft Graph
+  let response = await fetch(endpoint, graphRequestParams).catch(this.unhandledFetchError);
+
+  if (response) {
+    if(!response.ok){
+      console.error("ERROR: ", response);
+      this.setState({error:true});
     }
   }
+}
 ```
 
 Now add the buttons to the user interface that will execute these methods. Locate the following line in the `render()` method:
@@ -215,7 +215,7 @@ API server is listening on port 5000
 ```
 
 > [!TIP]
-> If you need to stop the process in the future, press <kbd>CTRL</kbd>+<kbd>C</kbd>
+> If you need to stop either processes in the future, press <kbd>CTRL</kbd>+<kbd>C</kbd> in the console.
 
 ### Start the React web app project
 

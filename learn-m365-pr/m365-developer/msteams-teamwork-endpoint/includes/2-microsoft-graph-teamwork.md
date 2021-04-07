@@ -1,4 +1,4 @@
-Microsoft Graph can be used to integrate your custom applications and processes. Developers can use Microsoft graph to create new teams and channels, install apps in new teams and pin apps to a tab in new channels among other things.
+Microsoft Graph can be used to integrate your custom applications and processes. Developers can use Microsoft Graph to create new teams and channels, install apps in new teams, and pin apps to a tab in new channels, among other things.
 
 In this unit, you'll learn how to create an application that interacts with Microsoft Teams using Microsoft Graph.
 
@@ -38,7 +38,7 @@ These collaboration tools include Microsoft Graph-enabled tabs or bots running i
 
 ### Get notified about changes
 
-Microsoft Teams supports subscribing to changes (create, update, and delete) to messages in channels and chats to allow apps to get near-instant updates. For details about how to subscribe to changes, see Get change notifications for messages in channels and chats.
+Microsoft Teams supports subscribing to changes (create, update, and delete) to messages in channels and chats to allow apps to get near-instant updates.
 
 ## Microsoft Graph's teamwork endpoint
 
@@ -49,15 +49,15 @@ Let's explore some of the things you can do with Microsoft Graph's teamwork endp
 
 ### Create teams
 
-You can use the Microsoft Teams API in Microsoft Graph to create teams in multiple ways. This article describes the approach that we recommend for the best results.
+You can use the Microsoft Teams API in Microsoft Graph to create teams in multiple ways.
 
 All teams are backed by Microsoft 365 groups. The quickest way to get your team up and running when you create new teams with Microsoft Graph is to set up a new Microsoft 365 group, all owners and members, and convert that into a team.
 
 When creating a new group that will be converted to a team, you must do the following:
 
-- set the `groupTypes` array to **Unified**
-- set the `mailEnabled` property to **true**
-- set the `securityEnabled` property to **false**
+- set `groupTypes` = **Unified**
+- set `mailEnabled` = **true**
+- set `securityEnabled` = **false**
 
 Create the group using the Microsoft Graph v1 `/groups` endpoint by submitting an HTTP POST with the group's details:
 
@@ -101,7 +101,7 @@ To list all teams in an organization (tenant), you find all groups that have tea
 
 Start by submitting a request for a list of all groups. To get a list of all groups in the organization that have teams, get a list of all groups and then in code find the ones that have a `resourceProvisioningOptions` property that contains **Team**.
 
-Keep in mind that groups are large objects, so you may want to use the `$select` query parameter to only get the properties of the group you care about:
+Groups are large objects, so you may want to use the `$select` query parameter to only get the properties of the group you care about:
 
 ```http
 GET https://graph.microsoft.com/v1.0/groups?$select=id,resourceProvisioningOptions
