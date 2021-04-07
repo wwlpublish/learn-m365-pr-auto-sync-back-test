@@ -31,7 +31,7 @@ products:
 - ms-graph
 units:
 - learn-m365.msgraph-manage-files.1-introduction
-- learn-m365.msgraph-manage-files.2-exercise-configure-azuread-app
+- learn-m365.msgraph-manage-files.2-exercise-configure-azure-active-directory-app
 - learn-m365.msgraph-manage-files.3-connect-javascript-app
 - learn-m365.msgraph-manage-files.4-exercise-connect-javascript-app
 - learn-m365.msgraph-manage-files.5-display-user-files
