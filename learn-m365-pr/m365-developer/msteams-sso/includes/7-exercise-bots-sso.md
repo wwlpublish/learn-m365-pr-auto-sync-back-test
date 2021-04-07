@@ -1,4 +1,4 @@
-In this exercise, you'll add a custom bot to the existing Microsoft Teams app and use single sign-on (SSO) to obtain an access token to submit requests to Microsoft Graph.
+In this exercise, you'll add a custom bot in a new existing Microsoft Teams app and use single sign-on (SSO) to obtain an access token to submit requests to Microsoft Graph.
 
 > [!IMPORTANT]
 > This exercise assumes you have created the Azure AD app from the previous exercise in this module.
@@ -63,7 +63,7 @@ Select **Manage > App registrations** in the left-hand navigation and select the
 
 Next, select **Manage > Authentication** in the left-hand navigation.
 
-Change the **RedirectURI** to **https://token.botframework.com/.auth/web/redirect**.
+Change the **RedirectURI** to `https://token.botframework.com/.auth/web/redirect`.
 
 ### Update the exposed API settings
 
@@ -87,9 +87,9 @@ Notice that the values of the **Scopes defined by this API** and **Authorized cl
 
 With the Azure AD app configuration updated, the next step is to register the bot with Azure Bot Framework.
 
-## Register the bot with Microsoft Azure's Bot Framework
+## Register the bot with the Microsoft Azure Bot Framework
 
-Before registering the bot with the Azure Bot Framework, you need to get the URL where the bot will run. Bots, like tabs, must be served from a publically accessible domain served over HTTPS. Like the previous exercises in this module, you'll use ngrok to expose the local web server to the Azure Bot Framework.
+Before registering the bot with the Azure Bot Framework, you need to get the URL where the bot will run. Bots, like tabs, must be served from a publicly accessible domain served over HTTPS. Like the previous exercises in this module, you'll use ngrok to expose the local web server to the Azure Bot Framework.
 
 In the console, run the following command to start ngrok:
 
@@ -118,7 +118,7 @@ Enter **resource group** in the **Search the marketplace** input box, and select
 
 On the **Resource Group** page, select the **Create** button to create a new resource group.
 
-Select a valid subscription, enter a name for the resource group, and select the wanted region. *None of these choices will affect the bot registration and are up to you.*
+Select a valid subscription, enter a name for the resource group, and select your preferred region. *None of these choices will affect the bot registration and are up to you.*
 
 ![Screenshot of creating a resource group - search for the resource group option](../media/07-azure-portal-03.png)
 
