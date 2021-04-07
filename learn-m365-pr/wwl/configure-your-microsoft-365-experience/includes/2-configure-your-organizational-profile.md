@@ -5,7 +5,7 @@ Completing your company’s organization profile is the starting point when sett
 
 Perform the following steps to edit your organization’s profile information:
 
-1.  Go to the [Microsoft 365 Admin Center](https://portal.office.com/adminportal/home?azure-portal=true). **Note:** You must have a Microsoft 365 tenant for this link to work.
+1.  Go to the [Microsoft 365 Admin Center](https://portal.office.com/adminportal/home?azure-portal=true). 
 2.  In the left-hand navigation pane, select the **Show All** ellipsis … icon to display all the navigation menu options.
 3.  In the left-hand navigation pane, select **Settings** and then select **Org settings**.
 4.  On the **Org settings** page, select the **Organization profile** tab.
