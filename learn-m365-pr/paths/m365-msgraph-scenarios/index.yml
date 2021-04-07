@@ -27,6 +27,7 @@ products:
 modules:
 - learn-m365.msgraph-show-user-emails
 - learn-m365.msgraph-access-user-events
+- learn-m365.msgraph-manage-files
 
 trophy: 
   uid: learn-m365.msgraph-scenarios.badge

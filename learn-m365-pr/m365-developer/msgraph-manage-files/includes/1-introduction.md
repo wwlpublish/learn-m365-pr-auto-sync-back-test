@@ -14,7 +14,7 @@ To add this feature, you’ll use Microsoft Graph to list, download, and upload 
 - [Basic understanding of authentication and authorization on Microsoft 365](https://docs.microsoft.com/learn/modules/msgraph-javascript-app/?WT.mc_id=m365-16105-cxa)
 - Basic understanding of HTML and JavaScript
 - [Basic understanding of Microsoft Graph](https://docs.microsoft.com/learn/modules/msgraph-intro-overview/?WT.mc_id=m365-16105-cxa)
-- [Node.js](https://nodejs.org/en/)
+- [Node.js LTS](https://nodejs.org/en/)
 
 ## Learning objectives
 
