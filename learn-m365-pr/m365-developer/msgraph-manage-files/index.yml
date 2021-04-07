@@ -21,7 +21,7 @@ prerequisites: |
   - Basic understanding of HTML and JavaScript
   - [Basic understanding of Microsoft Graph](https://docs.microsoft.com/learn/modules/msgraph-intro-overview/?WT.mc_id=m365-16105-cxa)
   - [Node.js](https://nodejs.org/en/)
-iconUrl: /learn/achievements/msgraph-manage-files.svg
+iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - intermediate
 roles:
