@@ -67,7 +67,7 @@ Here are the steps to add an upload feature to your app:
 
 3. Ensure you save the graph.js file before continuing.
 
-## Run the App
+## Run the app
 
 Refresh your browser; when you log in, you should see an upload button.
 

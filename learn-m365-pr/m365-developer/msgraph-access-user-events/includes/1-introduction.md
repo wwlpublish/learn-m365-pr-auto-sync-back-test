@@ -1,6 +1,6 @@
 **Microsoft Graph** provides a unified programmability model that you can use to build apps that interact with the data available in Microsoft 365. In this module, you will learn how to retrieve a list of calendar events from a user's calendar using Microsoft Graph.
 
-## Learning Objectives
+## Learning objectives
 
 In this module, you'll:
 
