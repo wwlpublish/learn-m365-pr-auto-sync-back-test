@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.viva-topics-intro.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: Check what you've learned about data loss prevention in Microsoft 365. 
+  ms.date: 04/08/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+ 
+durationInMinutes: 4
+content: |
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "How does Viva Topics benefit employee experiences?"
+      choices:
+      - content: "Microsoft Viva Topics uses Microsoft Graph and AI to identify topics in your organization. A topic is a phrase or term with a specific meaning and has resources related to it to find more information."
+        isCorrect: false
+        explanation: "Sorry, this is incorrect. Viva Topics is part of Microsoft Viva, a platform that helps employees learn, find knowledge, engage, and work."
+      - content: "Microsoft Viva Topics is one of four modules for Microsoft Viva, an employee experience platform (EXP)."
+        isCorrect: true
+        explanation: "Correct. Viva Topics is part of Microsoft Viva, a platform that helps employees learn, find knowledge, engage, and work."
+      - content: "Microsoft Viva uses Microsoft AI technology, Microsoft 365, Microsoft Graph, Search, and other components and services in Microsoft 365 apps, starting with SharePoint modern pages and Microsoft Search."
+        isCorrect: false
+        explanation: "Sorry, this is incorrect. Viva Topics is part of Microsoft Viva, a platform that helps employees learn, find knowledge, engage, and work."
+      
+    - content: "How does Microsoft Viva Topics work differently in classic Sharepoint versus modern SharePoint experiences?"
+      choices:
+      - content: "Topic highlights are only available on modern SharePoint pages."
+        isCorrect: true
+        explanation: "Correct. Topics are discovered from files and pages stored in modern or classic sites. However, topic highlights only appear on modern SharePoint pages or where a classic site has modern pages added."
+      - content: "Topics are only discovered on pages and files stored in modern SharePoint."
+        isCorrect: false
+        explanation: "Sorry, this is incorrect. Topics are discovered from files and pages stored in modern or classic sites. However, topic highlights only appear on modern SharePoint pages or where a classic site has modern pages added."
+      - content: "Topic highlights appear through Graph content connectors to index third-party data, so it appears in Microsoft Search results."
+        isCorrect: false
+        explanation: "Sorry, this is incorrect. Topics are discovered from files and pages stored in modern or classic sites. However, topic highlights only appear on modern SharePoint pages or where a classic site has modern pages added."
+        
+    - content: "What is the difference between Topic cards and Topic pages?"
+      choices:
+      - content: "Topic cards are rolled up from Topic pages for a personalized view of relevant topics and open questions, based on AI and your experts."
+        isCorrect: false
+        explanation: "Sorry, this is incorrect. Topic cards are powered by Topic pages. Topic pages are created automatically, using AI, and present your users with a list of all the topic-relevant content."
+      - content: "Topic cards in Microsoft 365, powered by Topics pages can be used in other Office 365 applications such as Microsoft Teams, Outlook, or Word while Topic pages roll up to Topic centers."
+        isCorrect: false
+        explanation: "Sorry, this is incorrect. Both Topics cards and pages are used in Microsoft SharePoint."
+      - content: "Topic cards are powered by Topic pages. Topic pages are created automatically, using AI, and present your users with a list of all the topic-relevant content."
+        isCorrect: true
+        explanation: "Correct. Topic cards are a feature in Microsoft 365, powered by Microsoft Viva Topics. Topic pages are automatically based on your content, using AI for users to find a list of all the topic-relevant content and experts and their relationship to the specified topic."
