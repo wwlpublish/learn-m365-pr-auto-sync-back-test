@@ -1,0 +1,37 @@
+### YamlMime:LearningPath
+uid: learn.wwl.configure-your-microsoft-365-tenant
+metadata:
+  title: Configure your Microsoft 365 tenant
+  description: Configure your Microsoft 365 tenant
+  ms.date: 04/07/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Configure your Microsoft 365 tenant
+prerequisites: |
+  - Students should have completed a role-based administrator training collection such as Messaging, Teamwork, Security and Compliance, or Collaboration.
+  - Students should have a proficient understanding of DNS and basic functional experience with Microsoft 365 services.
+  - Students must have a proficient understanding of general IT practices.
+summary: |
+  This learning path provides instruction on how to configure your Microsoft 365 tenant, including your organizational profile, tenant subscriptions, user accounts and licenses, groups, custom domains, and client connectivity.
+iconUrl: /learn/achievements/configure-your-microsoft-365-tenant.svg
+levels:
+- intermediate
+roles:
+- administrator
+- solution-architect
+- technology-manager
+products:
+- azure-active-directory
+- m365
+- office-365
+modules:
+- learn.wwl.configure-your-microsoft-365-experience
+- learn.wwl.manage-user-accounts-licenses-microsoft-365
+- learn.wwl.manage-groups-microsoft-365
+- learn.wwl.add-custom-domain-microsoft-365
+- learn.wwl.configure-client-aconnectivity-to-microsoft-365
+- learn.wwl.leverage-fasttrack-partner-services-to-support-microsoft-365
+trophy:
+  uid: learn.wwl.configure-your-microsoft-365-tenant.trophy
