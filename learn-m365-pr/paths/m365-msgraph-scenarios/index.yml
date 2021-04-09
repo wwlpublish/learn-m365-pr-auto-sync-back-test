@@ -2,14 +2,14 @@
 uid: learn-m365.m365-msgraph-scenarios
 metadata:
   title: Explore Microsoft Graph scenarios for JavaScript development
-  description: Explore Microsoft Graph scenarios for JavaScript development is a series of learning modules that will help you explore many scenarios for applications using Microsoft Graph. It will guide you with hands-on exercises on how to use Microsoft Graph API requests to start developing or enhancing your applications with the scenarios covered in this learning path.
+  description: This learning path includes hands-on exercises that will show you how to perform common tasks, such as showing a user's emails, accessing calendar events, and downloading and uploading files, in a JavaScript app using Microsoft Graph APIs.
   ms.date: 04/05/2021
   author: rabwill
   ms.author: rwilliams
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
 title: Explore Microsoft Graph scenarios for JavaScript development
-summary: "**Explore Microsoft Graph scenarios for JavaScript development** is a series of learning modules that will help you explore many scenarios for applications using Microsoft Graph. It will guide you with hands-on exercises on how to use Microsoft Graph API requests to start developing or enhancing your applications with the scenarios covered in this learning path."
+summary: "This learning path includes hands-on exercises that will show you how to perform common tasks, such as showing a user's emails, accessing calendar events, and downloading and uploading files, in a JavaScript app using Microsoft Graph APIs."
 prerequisites: | 
   - Global Administrator access to a [Microsoft 365 tenant](https://developer.microsoft.com/microsoft-365/dev-program?ocid=MSlearn&WT.mc_id=m365-16105-cxa).
   - [Basic understanding of authentication and authorization on Microsoft 365](https://docs.microsoft.com/learn/modules/msgraph-javascript-app/?WT.mc_id=m365-16105-cxa)
