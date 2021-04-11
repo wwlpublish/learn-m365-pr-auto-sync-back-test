@@ -1,0 +1,64 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.viva-topics-planning.knowledge-check
+metadata:
+  title: Knowledge check
+  description: Knowledge check
+  ms.date: 04/10/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+title: Knowledge check
+durationInMinutes: 4
+content: |
+quiz:
+  title: Check your knowledge
+  questions:
+
+  - content: "What are the Viva Topics roles?"
+    choices:
+    - content: "Topic viewer, Topic contributor, Knowledge manager, and Knowledge admin"
+      isCorrect: true
+      explanation: "That's correct. These are the roles you'll need to successfully run Viva Topics in your organization."
+    - content: "Global administrator, SharePoint administrator, and Knowledge administrator" 
+      isCorrect: false
+      explanation: "Sorry, that's incorrect. The Viva Topics roles are Topic viewer, Topic contributor, Knowledge manager, and Knowledge admin."
+    - content: "Knowledge administrator and Knowledge manager."
+      isCorrect: false
+      explanation: "Sorry, that's incorrect. Knowledge administrator and Knowledge manager are just two of the roles you need. The other two are Topic viewer and Topic contributor."
+
+  - content: "Which option best describes the Topic viewer role?"
+    choices:
+    - content: "Topic viewers can update and publish a topic." 
+      isCorrect: false
+      explanation: "Sorry, that's incorrect. Topic viewers can search for and view and use topics, they can't edit or publish new topics."
+    - content: "Topic viewers can access all topics available across your organization, including Knowledge manager topics." 
+      isCorrect: false
+      explanation: "Sorry, that's incorrect. Topic viewers can only discover topics for the files and pages that they already have access to."
+    - content: "Topic viewers can see information on topic pages, search for specific knowledge, and view highlighted topics in content like SharePoint pages."
+      isCorrect: true
+      explanation: "That's correct. Topic viewers can view and search for knowledge for the content in your organization that they have access to, based on their role."
+
+  - content: "Which option best describes the Topic contributor role?"
+    choices:
+    - content: "Knowledge managers who coordinate with all Viva Topics stakeholders to configure the service."
+      isCorrect: false
+      explanation: "Sorry, that's incorrect. Topic contributors can create and edit topics; they're not involved with configuring the service."
+    - content: "SMEs that create and edit topics. They curate content and add resources to topics."
+      isCorrect: true
+      explanation: "Correct. Topic contributors are champions in your organization that help ensure the accuracy and effectiveness of your knowledge content."
+    - content: "Topic viewers with Microsoft 365 global or SharePoint administrator roles." 
+      isCorrect: false
+      explanation: "That's incorrect.	Topic contributors create and edit topics. That doesn't require administrator or global access."
+
+  - content: "Which of the following skills is helpful for administering your Viva Topics deployment?"
+    choices:
+    - content: "Using SharePoint modernization scanner"
+      isCorrect: true
+      explanation: "Correct. You can use the SharePoint scanner to prepare your classic sites for Modern SharePoint, which is required to use Viva Topics."
+    - content: "Training other users in security topics" 
+      isCorrect: false
+      explanation: "Sorry, that's incorrect. While understanding and being able to communicate how security works in your environment is important, it's not specific to Viva Topics."      
+    - content: "??"
+      isCorrect: false
+      explanation: "Sorry, that's incorrect."
