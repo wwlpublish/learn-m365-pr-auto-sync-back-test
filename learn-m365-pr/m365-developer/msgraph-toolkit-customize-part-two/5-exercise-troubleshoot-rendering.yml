@@ -8,7 +8,7 @@ metadata:
   ms.author: aycabas
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
-title: Exercise - Style components to match your branding
+title: Exercise - Troubleshoot rendering
 durationInMinutes: 8
 content: |
   [!include[](includes/5-exercise-troubleshoot-rendering.md)]
