@@ -1,0 +1,64 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.viva-topics-prepare.knowledge-check
+metadata:
+  title: Knowledge check
+  description: Knowledge check
+  ms.date: 04/11/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+title: Knowledge check
+durationInMinutes: 4
+content: |
+quiz:
+  title: Check your knowledge
+  questions:
+
+  - content: "Why do you need to use modern SharePoint pages?"
+    choices:
+    - content: "Topic cards can only be surfaced on modern pages."
+      isCorrect: true
+      explanation: "That's correct. If you have high-profile classic pages that you want to use with Viva Topics, you'll need to modernize them."
+    - content: "Modern SharePoint pages have better permission management between administrators and content owners." 
+      isCorrect: false
+      explanation: "Sorry, that's incorrect. Viva Topics requires modern SharePoint pages because you can only surface topic cards on modern pages."
+    - content: "Microsoft Search only indexes modern SharePoint pages."
+      isCorrect: false
+      explanation: "Sorry, that's incorrect. Viva Topics requires modern SharePoint pages because you can only surface topic cards on modern pages."
+
+  - content: "How do you manage permission for Viva Topics?"
+    choices:
+    - content: "Through the Microsoft 365 admin center." 
+      isCorrect: true
+      explanation: "That's correct. You can manage who can see topic highlights and topic cards."
+    - content: "Through user permissions." 
+      isCorrect: false
+      explanation: "Sorry, that's incorrect. You use the Microsoft 365 admin center to manage who can see topic highlights and topic cards."
+    - content: "(Need a third option that's parallel in structure to the other two)"
+      isCorrect: false
+      explanation: "That's correct. Topic viewers can view and search for knowledge for the content in your organization that they have access to, based on their role."
+
+  - content: "What do Topics discovery settings define?"
+    choices:
+    - content: "?"
+      isCorrect: false
+      explanation: "Sorry, that's incorrect. The discovery settings specify which SharePoint sites are used as source for topics."
+    - content: "Which SharePoint sites are used as source for topics."
+      isCorrect: true
+      explanation: "Correct. The discovery settings specify which SharePoint sites are used as source for topics."
+    - content: "?" 
+      isCorrect: false
+      explanation: "That's incorrect.	The discovery settings specify which SharePoint sites are used as source for topics."
+
+  - content: "Who can edit topics?"
+    choices:
+    - content: "?"
+      isCorrect: true
+      explanation: "Correct. (Explanation)"
+    - content: "?" 
+      isCorrect: false
+      explanation: "Sorry, that's incorrect. (Explanation)"      
+    - content: "?"
+      isCorrect: false
+      explanation: "Sorry, that's incorrect. (Explanation)"
