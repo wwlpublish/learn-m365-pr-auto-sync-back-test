@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msgraph-toolkit-customize-part-two.3-exercise-change-presentation-using-templates
+metadata:
+  title: Exercise - Change the presentation of data using templates
+  description: This unit is to show you how to use templates with Microsoft Graph Toolkit components.
+  ms.date: 02/17/2021
+  author: aycabas
+  ms.author: aycabas
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Exercise - Change the behavior of components using attributes
+durationInMinutes: 2
+content: |
+  [!include[](includes/3-exercise-change-presentation-using-templates.md)]
