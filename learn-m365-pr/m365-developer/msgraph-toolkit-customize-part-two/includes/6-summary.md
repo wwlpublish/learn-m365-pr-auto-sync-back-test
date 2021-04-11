@@ -4,4 +4,4 @@ If you want to match your branding with the components and change the way they l
 
 ## More resources
 - [Explore Microsoft Graph Toolkit components in an interactive playground](https://mgt.dev/)
-- [Templating components documentation](https://docs.microsoft.com/en-us/graph/toolkit/customize-components/templates)
+- [Templating components documentation](https://docs.microsoft.com/graph/toolkit/customize-components/templates)
