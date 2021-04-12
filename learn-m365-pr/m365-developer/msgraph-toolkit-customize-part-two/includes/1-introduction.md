@@ -10,7 +10,7 @@ The components provide access to popular Microsoft 365 datasets with the power o
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Visual Studio Code Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
-## Learning Objectives
+## Learning objectives
 By completing this module, you'll be able to:    
 - Customize component templates
 - Troubleshoot components’ rendering

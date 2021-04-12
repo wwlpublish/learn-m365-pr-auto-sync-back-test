@@ -103,4 +103,4 @@ and run **Live Server** to test your app.
 2. Open your browser and go to http://localhost:3000.
 3. Sign in with your Microsoft 365 developer account. Consent to the required permissions and select **Accept**.
 4. Finally, the signed in button's content will show the user's email address after signing in:
-:::image type="content" source="../media/3-result.png" alt-text="A screenshot that shows the result of the exercise.":::
+:::image type="content" source="../media/3-result.png" alt-text="A screenshot that shows the result of the exercise":::
