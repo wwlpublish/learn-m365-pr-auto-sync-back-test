@@ -20,7 +20,7 @@ The AI in Viva Topics could take two weeks or more to index and show topics thro
 
 Viva Topics makes Microsoft Search more effective with Microsoft Graphs.* Microsoft Search is a secure, easily managed, enterprise search experience that works across Microsoft 365 to deliver more relevant search results and increase productivity.  
 
-:::image type="content" source="../media/search-topics-answer.png" alt-text="A screenshot of the Viva Topics interface that shows search results for the search term Saturn.":::
+:::image type="content" source="../media/search-topic-answer.png" alt-text="A screenshot of the Viva Topics interface that shows search results for the search term Saturn.":::
 
 When your search query relates to a topic, the topic card returns as the primary answer. Viva Topics connects people to recommended experts. Expertise is added to user profiles and extended to people cards throughout Microsoft 365—another way for knowledge to find you as you work. 
 
