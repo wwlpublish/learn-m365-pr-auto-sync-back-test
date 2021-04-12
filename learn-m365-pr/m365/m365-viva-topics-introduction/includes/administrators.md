@@ -57,7 +57,7 @@ You can create a new topic from two locations:
 - **Topic center** home page:
    :::image type="content" source="../media/new-topic-topic-center.png" alt-text="A screenshot shows a portion of the Topic center home page":::
 
-- **Manage topics** page:  
+- **Manage topics** page:
    :::image type="content" source="../media/new-topic.png" alt-text="A screenshot shows a portion of the Manage topics page.":::
 
 Any licensed user with the Who can create or edit topics permission (Topics contributors) can create a new topic from the Topic center by selecting the New menu and Topic page.  
