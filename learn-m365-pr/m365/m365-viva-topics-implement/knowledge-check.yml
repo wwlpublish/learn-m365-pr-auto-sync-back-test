@@ -1,0 +1,64 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.viva-topics-implement.knowledge-check
+metadata:
+  title: Knowledge check
+  description: Knowledge check
+  ms.date: 04/11/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+title: Knowledge check
+durationInMinutes: 4
+content: |
+quiz:
+  title: Check your knowledge
+  questions:
+
+  - content: "How do you exclude topics on the administrator level?"
+    choices:
+    - content: "On the **Topic permissions** tab."
+      isCorrect: false
+      explanation: "Sorry, that's incorrect. You can exclude topics on the administrator level by using a .csv file."
+    - content: "Using a .csv file, either during setup or later." 
+      isCorrect: true
+      explanation: "Correct. The .csv file identifies the content you want to exclude."
+    - content: "Select **No sites** when you configure topic discovery."
+      isCorrect: false
+      explanation: "Sorry, that's incorrect. You can exclude topics on the administrator level by using a .csv file."
+
+  - content: "How do you set up Topics?"
+    choices:
+    - content: "?" 
+      isCorrect: false
+      explanation: "Sorry, that's incorrect. Explanation"
+    - content: "?" 
+      isCorrect: false
+      explanation: "Sorry, that's incorrect. Explanation"
+    - content: "?"
+      isCorrect: true
+      explanation: "That's correct. Explanation"
+
+  - content: "How is Topics security and privacy determined?"
+    choices:
+    - content: "?" 
+      isCorrect: false
+      explanation: "Sorry, that's incorrect. Explanation"
+    - content: "?" 
+      isCorrect: false
+      explanation: "Sorry, that's incorrect. Explanation"
+    - content: "?"
+      isCorrect: true
+      explanation: "That's correct. Explanation"
+
+  - content: "Why do you set up change management for Topics workflow?"
+    choices:
+    - content: "?" 
+      isCorrect: false
+      explanation: "Sorry, that's incorrect. Explanation"
+    - content: "?" 
+      isCorrect: false
+      explanation: "Sorry, that's incorrect. Explanation"
+    - content: "?"
+      isCorrect: true
+      explanation: "That's correct. Explanation"
