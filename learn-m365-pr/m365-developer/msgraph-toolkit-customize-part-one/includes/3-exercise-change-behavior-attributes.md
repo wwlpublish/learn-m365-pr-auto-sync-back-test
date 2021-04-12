@@ -82,7 +82,7 @@ Add these attributes to the existing **mgt-agenda** component in **index.html**.
  		date="March 9, 2021"
   		days="3"
   		group-by-day>
- </mgt-agenda>
+        </mgt-agenda>
 
     </body>
 </html>
