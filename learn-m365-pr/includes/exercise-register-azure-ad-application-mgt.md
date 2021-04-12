@@ -6,7 +6,7 @@ ms.prod: learning-graph
 ms.topic: include
 ---
 
-1. In the browser,go to [Azure portal(https://portal.azure.com)](https://portal.azure.com), login to the portal and go to the Azure Active Directory service.
+1. In the browser, go to the [Azure portal(https://portal.azure.com)](https://portal.azure.com), sign in to the portal, and go to the Azure Active Directory service.
 1. Select **App registrations** from the left-hand navigation and select **New Registration**.
     :::image type="content" source="../media/exercise-register-azure-ad-application-mgt/select-new-registration.png" alt-text="Select App registration to create new app registration.":::
 1. In the **Register an application** page, enter the **Name** for your Azure Active Directory app; for example, mgt-aad-app.
