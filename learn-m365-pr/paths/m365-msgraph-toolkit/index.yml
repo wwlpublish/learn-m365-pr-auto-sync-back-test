@@ -25,7 +25,7 @@ products:
 - m365
 - ms-graph
 modules:
-- learn-m365.msgraph-toolkit-intro
+- learn-m365.mgt-intro
 - learn-m365.msgraph-toolkit-customize-part-one
 - learn-m365.msgraph-toolkit-customize-part-two
 - learn-m365.msgraph-toolkit-improve-performance
