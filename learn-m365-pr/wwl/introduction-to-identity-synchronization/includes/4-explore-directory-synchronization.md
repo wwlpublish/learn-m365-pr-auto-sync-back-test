@@ -1,4 +1,4 @@
-Directory synchronization is the synchronization of identities or objects (users, groups, contacts, and computers) between two different directories. For Microsoft 365 deployments, synchronization is typically between your on-premises Active Directory environment and Azure AD. Drectory synchronization isn't limited to any one specific directory. In fact, it can include other directories such as HR databases and an LDAP directory, as seen in the following diagram.
+Directory synchronization is the synchronization of identities or objects (users, groups, contacts, and computers) between two different directories. For Microsoft 365 deployments, synchronization is typically between your on-premises Active Directory environment and Azure AD. Directory synchronization isn't limited to any one specific directory. In fact, it can include other directories such as HR databases and an LDAP directory, as seen in the following diagram.
 
 :::image type="content" source="../media/identity-management-components-8be36e51.png" alt-text="graphic of the various components involved in Identity Management":::
 
