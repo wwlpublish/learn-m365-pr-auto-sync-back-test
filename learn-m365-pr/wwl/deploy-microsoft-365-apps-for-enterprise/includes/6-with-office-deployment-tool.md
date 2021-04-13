@@ -38,7 +38,7 @@ The following example displays a sample of the Microsoft 365 client configuratio
 The following example displays this same configuration file that has been customized. The channel has been changed to Broad, which is a semiannual update. Japanese and English have been added as the available product languages, and Visio has been added as part of the deployment.
 
 ```
-&lt;Add SourcePath="\\Server\Share"
+<Add SourcePath="\\Server\Share"
 
     OfficeClientEdition="32"
 
@@ -46,25 +46,25 @@ The following example displays this same configuration file that has been custom
 
     Version="16.0.8201.2193"
 
-    ForceUpgrade="FALSE"&gt;
+    ForceUpgrade="FALSE">
 
-    &lt;Product ID="O365ProPlusRetail"&gt;
+    <Product ID="O365ProPlusRetail">
 
-    &lt;Language ID="en-us" /&gt;
+    <Language ID="en-us" />
 
-    &lt;Language ID="ja-jp" /&gt;
+    <Language ID="ja-jp" />
 
-    &lt;/Product&gt;
+    </Product&gt;
 
-    &lt;Product ID="VisioProRetail"&gt;
+    <Product ID="VisioProRetail">;
 
-    &lt;Language ID="en-us" /&gt;
+    <Language ID="en-us" />
 
-    &lt;Language ID="ja-jp" /&gt;
+    <Language ID="ja-jp" />
 
-    &lt;/Product&gt;
+    </Product>
 
-    &lt;/Add&gt;
+    </Add>
 ```
 
 By specifying different settings in the configuration.xml file, users can be pointed to an internal file share location for downloading updates for Microsoft 365 Apps for enterprise. You can also exclude some of the Office applications. For example, if you don’t want your users to create Microsoft Access databases, Microsoft Access can be removed from the deployment in your organization.

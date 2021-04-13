@@ -27,7 +27,7 @@ The following graphic shows that Microsoft 365 Apps for enterprise clients can b
 Administrators can configure update behavior by using the Office Deployment Tool's configuration.xml file options. For example, you can turn on updates and direct them to the shared folder using the following configuration script:
 
 ```
-&lt;Updates Enabled="TRUE" UpdatePath="\\Server\Share\Office\" /&gt;
+<Updates Enabled="TRUE" UpdatePath="\\Server\Share\Office\" />
 ```
 
 where:
