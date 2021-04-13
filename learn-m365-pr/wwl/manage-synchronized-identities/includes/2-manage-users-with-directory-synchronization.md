@@ -29,7 +29,7 @@ If you accidentally delete a user account and a directory synchronization cycle 
 > [!CAUTION]
 > After the cloud recycle bin is purged (hard delete), you won't be able to restore any accounts that were previously deleted.
 
-**Additional reading.** For more information, please see the following site on [how to troubleshoot deleted user accounts in Office 365](http://aka.ms/cmof9n?azure-portal=true).
+**Additional reading.** For more information, please see the following site on [how to troubleshoot deleted user accounts in Office 365](https://aka.ms/cmof9n?azure-portal=true).
 
 ### Recovering from unsynchronized deletes
 
