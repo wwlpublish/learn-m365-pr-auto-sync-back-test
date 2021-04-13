@@ -17,7 +17,7 @@ After the Readiness Report Creator has finished running, the Toolkit will genera
 
 The following image shows the overview page of the Readiness Report Creator.
 
-:::image type="content" source="../media/office-readiness-report-a210c46b.png":::
+:::image type="content" source="../media/office-readiness-report-a210c46b.png" alt-text="screenshot of the Office Readiness report":::
 
 
 The Excel spread sheet that’s created by the Readiness Toolkit includes the following workbook tabs:<br>
@@ -47,7 +47,7 @@ Questions such as these will help determine the type of report that you want to 
 
 The following image shows the Readiness Toolkit web UI.
 
-:::image type="content" source="../media/readiness-toolkit-19e44296.png":::
+:::image type="content" source="../media/readiness-toolkit-19e44296.png" alt-text="screenshot of the Readiness Toolkit web user interface":::
 
 
 After selecting the information that'll be used to create your report, you must specify a location to save your report and choose whether to create a basic report or an advanced report.
