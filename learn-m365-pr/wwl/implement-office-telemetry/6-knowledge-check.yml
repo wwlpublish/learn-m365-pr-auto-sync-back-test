@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 04/12/2021
+  ms.date: 04/13/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -29,23 +29,23 @@ quiz:
       explanation: "That's incorrect. Windows XP computers don't support the Telemetry Agent, but Windows 8 computers do. Try again."
   - content: "As the Enterprise Administrator for Tailspin Toys, you're considering implementing Office Telemetry. As you plan your implementation, what is the minimum amount of free space for temporary storage that you should have available on all computers with installed Telemetry Agents?"
     choices:
-    - content: "6-GB"
+    - content: "6 GB"
       isCorrect: false
-      explanation: "That's incorrect. This is not the minimum amount of free space that should be available on all computers with installed Telemetry Agents. Try again."
-    - content: "11-GB"
+      explanation: "That's incorrect. This item isn't the minimum amount of free space that should be available on all computers with installed Telemetry Agents. Try again."
+    - content: "11 GB"
       isCorrect: true
-      explanation: "That's correct. Even with small upload sizes, significant data collections can result in larger organizations. Make sure that all computers with installed agents have at least 11-GB of free space for temporary storage of data."
-    - content: "20-GB"
+      explanation: "That's correct. Even with small upload sizes, significant data collections can result in larger organizations. Make sure that all computers with installed agents have at least 11 GB of free space for temporary storage of data."
+    - content: "20 GB"
       isCorrect: false
-      explanation: "That's incorrect. This is not the minimum amount of free space that should be available on all computers with installed Telemetry Agents. Try again."
+      explanation: "That's incorrect. This item isn't the minimum amount of free space that should be available on all computers with installed Telemetry Agents. Try again."
   - content: "As the Enterprise Administrator for Tailspin Toys, you're considering implementing Office Telemetry. As you plan your implementation, what step should you complete during the Office Telemetry installation once you've prepared the database?"
     choices:
     - content: "Connect the dashboard to the database"
       isCorrect: false
-      explanation: "That's incorrect. This step creates and populates other worksheets. It's also required to enable viewing of the data. However, this is not the step that should be performed after preparing the database. Try again."
+      explanation: "That's incorrect. This step creates and populates other worksheets. It's also required to enable viewing of the data. However, this item isn't the step that should be performed after preparing the database. Try again."
     - content: "Configure required privacy settings"
       isCorrect: false
-      explanation: "That's incorrect. This is not the step that should be performed after preparing the database. In fact, this is the final configuration step. By default, data collection includes full file names, file paths, and document titles. However, if you complete this step, you can obscure this information if you don't want to make it available for some of your administrators. Try again."
+      explanation: "That's incorrect. This item isn't the step that should be performed after preparing the database. In fact, this is the final configuration step. By default, data collection includes full file names, file paths, and document titles. However, if you complete this step, you can obscure this information if you don't want to make it available for some of your administrators. Try again."
     - content: "Set up the Office Telemetry Processor"
       isCorrect: true
       explanation: "That's correct. After preparing the database, the next step is to set up the Office Telemetry Processor. The processor reads information that Office Telemetry Agents store in the shared folder. It then connects and adds records to the Office Telemetry database."
