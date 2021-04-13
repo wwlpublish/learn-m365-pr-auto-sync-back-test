@@ -15,7 +15,8 @@ abstract: |
   - Monitor your organization's Microsoft 365 service health in the Microsoft 365 admin center
   - Develop an incident response plan to deal with incidents that may occur with your Microsoft 365 service
   - Request assistance from Microsoft to address technical, pre-sales, billing, and subscription support issues
-prerequisites: ""
+prerequisites: |
+  None
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - intermediate
