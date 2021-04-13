@@ -30,7 +30,7 @@ If necessary, you can reset a password for one or more users on the Active users
 If you forget your own administrator password, the two available options are:
 
  *  **Ask another administrator to reset it for you.** In this case, the other administrator must be a global admin, a user management admin, or a password admin. However, if your account is a global admin account, you must get another administrator with a global admin account to reset it for you.
- *  **Reset the password yourself.** On the sign-in page for Microsoft 365, the **Can’t access your account?** link enables you to reset your password. When you follow the instructions provided by the link, you're sent an email with a link that enables you to reset your password.
+ *  **Reset the password yourself.** On the sign-in page for Microsoft 365, the "**Can’t access your account?"** link enables you to reset your password. When you follow the instructions provided by the link, you're sent an email with a link that enables you to reset your password.
 
 To reset the password yourself, you must have previously supplied an alternative email address in your account settings. The email address can't be your Microsoft 365 email address. Additionally, if you use a custom domain name or you're using directory synchronization, you must have supplied a phone number in your account details that can receive text notifications. An automatically generated code will be sent in a text message to your mobile phone. Once you receive the message, you must enter this code on the mobile phone verification page.
 
