@@ -62,7 +62,7 @@ Some of the key responsibilities assigned to the Microsoft 365 Security Administ
 
 The following graphic shows that the Security Administrator and Compliance Administrator roles are both included in the Global Admin role, while the eDiscovery Administrator role is not. The eDiscovery role isn't assigned to any admin role by default, not even the Global Admin role.
 
-:::image type="content" source="../media/MS100-M03-L01-07-d943ff15.jpg" alt-text="graphic shows that the Security and Compliance admin roles are both included in the Global Admin role, but the eDiscovery role is not.":::
+:::image type="content" source="../media/security-and-compliance-admin-roles-1ac52813.jpg" alt-text="graphic shows that the Security and Compliance admin roles are both included in the Global Admin role, but the eDiscovery role is not.":::
 
 
 ## Knowledge check
