@@ -39,8 +39,8 @@ units:
 - learn-m365.msgraph-toolkit-improve-performance.1-introduction
 - learn-m365.msgraph-toolkit-improve-performance.2-cache-data-loaded-components
 - learn-m365.msgraph-toolkit-improve-performance.3-exercise-cache-data-loaded-components
-- learn-m365.msgraph-toolkit-improve-performance.4-optimize-graph-optimize
-- learn-m365.msgraph-toolkit-improve-performance.5-exercise-optimize-graph-optimize
+- learn-m365.msgraph-toolkit-improve-performance.4-optimize-graph-queries
+- learn-m365.msgraph-toolkit-improve-performance.5-exercise-optimize-graph-queries
 - learn-m365.msgraph-toolkit-improve-performance.6-summary
 badge:
   uid: learn-m365.msgraph-toolkit-improve-performance.badge
