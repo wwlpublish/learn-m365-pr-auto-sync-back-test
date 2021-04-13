@@ -20,10 +20,10 @@ quiz:
     choices:
     - content: "On-premises"
       isCorrect: false
-      explanation: "That's incorrect. This provisioning option isn't the one that companies prefer when they want more administrative versatility and another disaster recovery backup option. Try again."
+      explanation: "That's incorrect. This provisioning option isn't the one companies prefer when they want more administrative versatility and another disaster recovery backup option. Try again."
     - content: "Cloud"
       isCorrect: false
-      explanation: "That's incorrect. This provisioning option isn't the one that companies prefer when they want more administrative versatility and another disaster recovery backup option. Try again."
+      explanation: "That's incorrect. This provisioning option isn't the one companies prefer when they want more administrative versatility and another disaster recovery backup option. Try again."
     - content: "Hybrid"
       isCorrect: true
       explanation: "That's correct. Companies prefer the hybrid option when they want more administrative versatility and another disaster recovery backup option."

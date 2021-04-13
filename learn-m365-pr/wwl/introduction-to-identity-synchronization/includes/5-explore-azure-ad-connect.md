@@ -48,4 +48,5 @@ Azure AD Connect comes with several features you can optionally turn on or are e
  *  **SSO using AD FS.** Configures an Active Directory Federated Services environment to support single-sign on (SSO) in Microsoft 365.
  *  **Seamless single sign-on (SSO) using Pass-through authentication (PTA).** Allows sign in to Azure AD by directly validating the users’ passwords directly against on-premises Active Directory.
 
-**Note:** As Azure AD Connect features continuously improve and change, it's important to regularly visit the [Azure AD Connect: Version release history](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-version-history?azure-portal=true) site for information on recent changes.
+> [!TIP]
+> As Azure AD Connect features continuously improve and change, it's important to regularly visit the [Azure AD Connect: Version release history](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-version-history?azure-portal=true) site for information on recent changes.
