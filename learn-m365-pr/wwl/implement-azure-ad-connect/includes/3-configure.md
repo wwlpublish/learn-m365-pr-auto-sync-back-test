@@ -20,7 +20,7 @@ When installing Azure AD Connect using the Express Settings option, you can opti
 
 The following graphic shows the three primary operations that are completed in any Azure AD Connect server installation: Configuring Active Directory, Azure AD, and the local machine for identity synchronization.
 
-:::image type="content" source="../media/installing-aad-connect-operations-930b112c.jpg":::
+:::image type="content" source="../media/installing-aad-connect-operations-930b112c.jpg" alt-text="graphic shows the three primary operations performed in any Azure AD Connect server installation, which are Configuring Active Directory, Azure AD, and the local machine for identity synchronization":::
 
 
 ### Azure AD Connect custom setup

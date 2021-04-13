@@ -28,4 +28,4 @@ When you first access Azure AD Connect Health, you'll be presented with the **Qu
      *  **Auto update to automatically update the Azure AD Connect Health agent to the latest version.** This option automatically updates the agent on your server to the latest version of the Azure AD Connect Health Agent when they become available. If this option isn't enabled, you should enable it to automatically install Azure AD Connect updates.
      *  **Allow Microsoft access to your Azure AD directory’s health data for troubleshooting purposes only.** When this option is enabled, Microsoft can see the same data that you're seeing. This option, which can help with troubleshooting and assistance with issues, is disabled by default.
 
-**Additional reading.** For more information, see [Monitor your on-premises identity infrastructure and synchronization services in the cloud](http://aka.ms/dqaaps?azure-portal=true).
+**Additional reading.** For more information, see [Monitor your on-premises identity infrastructure and synchronization services in the cloud](https://aka.ms/dqaaps?azure-portal=true).
