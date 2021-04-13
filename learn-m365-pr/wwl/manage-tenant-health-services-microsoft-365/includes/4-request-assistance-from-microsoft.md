@@ -108,7 +108,7 @@ Microsoft support’s role is to:
 
 To Submit a Service Request:
 
-1.  In the Microsoft 365 admin center, in the left-hand navigation pane, select **Show all**, select **Support**, and then select **N****ew service request**.
+1.  In the Microsoft 365 admin center, in the left-hand navigation pane, select **Show all**, select **Support**, and then select **New service request**.
 2.  Fill out the required fields and be as descriptive as possible with what you're experiencing.
 3.  Select **submit**.
 
