@@ -16,7 +16,8 @@ abstract: |
   - Describe the typical deployment requirements and issues when deploying Office Telemetry
   - Describe the types of data collected by the Office Telemetry Agent
   - Install and configure Office Telemetry
-prerequisites: ""
+prerequisites: |
+  None
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - intermediate
