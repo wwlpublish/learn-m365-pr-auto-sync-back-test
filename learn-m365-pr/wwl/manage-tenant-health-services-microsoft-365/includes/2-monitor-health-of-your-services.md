@@ -13,7 +13,7 @@ Each online service’s health will display one of the following statuses:
  *  **Restoring service.** This status indicates the service incident is being resolved.
 
 > > [!NOTE]
-> > In the unlikely event the Microsoft 365 admin center is unavailable, navigate to the Service Health dashboard. If the issue relates to Azure Active Directory - for example, sign-in issues - refer to the [Azure Status](http://aka.ms/kfxpxv?azure-portal=true) site.
+> > In the unlikely event the Microsoft 365 admin center is unavailable, navigate to the Service Health dashboard. If the issue relates to Azure Active Directory - for example, sign-in issues - refer to the [Azure Status](https://aka.ms/kfxpxv?azure-portal=true) site.
 
 The following graphic shows that Microsoft 365 tracks the health of each of its services. In the Health portal, a check mark indicates a healthy status, an X indicates an unavailable service, and an exclamation point indicates a degraded service. For this reason, it's important that organizations constantly monitor the health status of each service.
 
