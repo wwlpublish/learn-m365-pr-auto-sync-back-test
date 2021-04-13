@@ -20,10 +20,10 @@ quiz:
     choices:
     - content: "Customize the configuration.xml file using the Office Deployment Tool"
       isCorrect: false
-      explanation: "That's incorrect. This is not one of the steps that you should do to create a customized installation of Microsoft 365 Apps for enterprise. Try again."
+      explanation: "That's incorrect. This item isn't one of the steps that you should do to create a customized installation of Microsoft 365 Apps for enterprise. Try again."
     - content: "Customize the configuration.xml file using the Office Customization Tool"
       isCorrect: true
       explanation: "That's correct. You must first customize the configuration.xml file using the Office Customization Tool. When you're done, the configuration file can be exported and then used with the Office Deployment Tool to deploy Microsoft 365 Apps for enterprise in your organization."
     - content: "Run the Office Deployment Tool and respond to the user prompts to define your customized settings"
       isCorrect: false
-      explanation: "That's incorrect. This is not one of the steps that you should do to create a customized installation of Microsoft 365 Apps for enterprise. Try again."
+      explanation: "That's incorrect. This item isn't one of the steps that you should do to create a customized installation of Microsoft 365 Apps for enterprise. Try again."
