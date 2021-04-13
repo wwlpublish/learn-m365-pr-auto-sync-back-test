@@ -27,7 +27,7 @@ In this scenario, after the first synchronization cycle has completed, the sourc
 
 The following graphic show that Azure AD Connect reads user objects from the on-premises Active Directory, and it then creates exact copies in Azure AD with the same Active Directory attributes, but non-writable/write protected.
 
-:::image type="content" source="../media/aad-connect-writing-objects-to-aad-bd871e3e.jpg":::
+:::image type="content" source="../media/aad-connect-writing-objects-to-aad-bd871e3e.jpg" alt-text="graphic shows that Azure AD Connect reads user objects from the on-premises Active Directory and it then creates exact copies in Azure AD with the same Active Directory attributes":::
 
 
 ### Azure AD Connect features
