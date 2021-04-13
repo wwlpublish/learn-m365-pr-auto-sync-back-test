@@ -27,7 +27,7 @@ To customize the configuration.xml file, go to the Office Customization Tool and
 
 The following graphic shows how the Office Customization Tool can run in any browser to create a custom installation package, which can then be deployed to workstations.
 
-:::image type="content" source="../media/m365-deployment-using-odt-dc68e320.jpg" alt-text="graphic shows that the Office Customization Tool can run in any browser to create a custom installation packag":::
+:::image type="content" source="../media/m365-deployment-using-odt-dc68e320.jpg" alt-text="graphic shows that the Office Customization Tool can run in any browser to create a custom installation package":::
 
 
 The following example displays a sample of the Microsoft 365 client configuration file.
