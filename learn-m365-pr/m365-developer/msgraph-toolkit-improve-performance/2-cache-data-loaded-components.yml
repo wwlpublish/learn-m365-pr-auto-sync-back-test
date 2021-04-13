@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msgraph-toolkit-improve-performance.2-cache-data-loaded-components
+metadata:
+  title: Cache data loaded by components
+  description: Learn how Microsoft Graph Toolkit components cache their data.
+  ms.date: 04/09/2021
+  author: aycabas
+  ms.author: aycabas
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Cache data loaded by components
+durationInMinutes: 5
+content: |
+  [!include[](includes/2-cache-data-loaded-components.md)]
