@@ -49,7 +49,7 @@ The account used to install and configure Azure AD Connect must have the followi
 If you create a dedicated service account in Microsoft 365 for directory synchronization in place of the default sync account, you must disable the default 90-day password expiration. If the default 90-day password expiration isn't disabled, the synchronization service will stop working when the password expires for the account. In this scenario, you must reconfigure Azure AD Connect to update the password. To disable password expiration for the service account in Microsoft 365 by using the Azure Active Directory Module for Windows PowerShell, type the following command, and then press Enter:
 
 ```
-Set-MsolUser -UserPrincipalName &lt;service account&gt;@&lt;domain&gt;.onmicrosoft.com -PasswordNeverExpires $true
+Set-MsolUser -UserPrincipalName <service account>@<domain>.onmicrosoft.com -PasswordNeverExpires $true
 ```
 
 The Enterprise Administrator account is only required when installing and configuring Azure AD Connect, and the Enterprise Administrator credential is not stored or saved by the configuration wizard. The Enterprise Administrator account is required to:
@@ -68,7 +68,8 @@ The following accounts are created in your on-premises Active Directory during A
  *  **MSOL\_\[id\].** This account is created during installation of Azure AD Connect, and it’s configured to synchronize objects to Azure AD. The account has directory replication permissions in your on-premises Active Directory and write permission on certain attributes to enable the Exchange Hybrid Deployment.
  *  **AAD\_\[id\].** This account is the service account for the synchronization engine, and it’s created with a randomly generated complex password automatically configured to never expire. When the directory synchronization service runs, it uses the service account credentials to read from your on-premises Active Directory and then to write the contents of the synchronization database to Azure AD by using the Microsoft 365 global administrator credentials specified during configuration of Azure AD Connect.
 
-Don't change the service account after installing Azure AD Connect. If you do, directory synchronization will try to use the service account created during synchronization. If the account is changed, directory synchronization will stop running and scheduled directory synchronizations will no longer occur.
+>[!WARNING]
+>Don't change the service account after installing Azure AD Connect. If you do, directory synchronization will try to use the service account created during synchronization. If the account is changed, directory synchronization will stop running and scheduled directory synchronizations will no longer occur.
 
 ### Database requirements
 
