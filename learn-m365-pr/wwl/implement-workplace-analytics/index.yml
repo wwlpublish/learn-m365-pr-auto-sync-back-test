@@ -16,7 +16,8 @@ abstract: |
   - Describe how data protection is maintained in Workplace Analytics
   - Describe how data privacy is maintained in Workplace Analytics
   - Configure Workplace Analytics
-prerequisites: ""
+prerequisites: |
+  None
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - intermediate
