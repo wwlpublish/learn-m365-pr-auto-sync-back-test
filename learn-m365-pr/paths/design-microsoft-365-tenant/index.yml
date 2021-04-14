@@ -3,7 +3,7 @@ uid: learn.wwl.design-your-microsoft-365-tenant
 metadata:
   title: Design your Microsoft 365 tenant
   description: Design your Microsoft 365 tenant
-  ms.date: 03/26/2021
+  ms.date: 04/14/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -15,7 +15,7 @@ prerequisites: |
   - Students must have a proficient understanding of general IT practices.
 summary: |
   This learning path examines the key features that organizations must plan for when designing their Microsoft 365 tenant.
-iconUrl: /learn/achievements/migrate-java-apps-to-aks.svg
+iconUrl: /learn/achievements/design-your-microsoft-365-tenant.svg
 levels:
 - intermediate
 roles:
