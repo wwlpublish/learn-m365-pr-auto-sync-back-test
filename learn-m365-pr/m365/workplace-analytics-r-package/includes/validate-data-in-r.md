@@ -93,7 +93,7 @@ hrvar_count(sq_data, hrvar = "LevelDesignation")
 
 ```
 
-![hrvar output](../media/hrvar_count.png)
+![hrvar output](../media/hrvar-count.png)
 
 To run a blanket analysis for all the organizational attributes in the dataset, you can run `hrvar_count_all()` instead.
 
