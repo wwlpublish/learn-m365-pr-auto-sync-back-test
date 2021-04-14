@@ -4,7 +4,7 @@ The Microsoft 365 Apps for enterprise suite provides users with the most up-to-d
 
 In this module, you’ll learn how a Microsoft 365 Apps for enterprise installation is enabled if the user has an appropriate license. With the default installation of Microsoft 365 Apps for enterprise, the Office products are updated immediately as soon as Microsoft releases enhancements. Once a user leaves an organization and their license is removed, the Microsoft 365 apps that are located on the user's device will be available in a restricted functionality mode.
 
-After completing this module, you’ll be able to:
+After completing this module, you’ll be able to: 
 
  *  Describe the Microsoft 365 Apps for enterprise functionality
  *  Configure the Readiness Toolkit
