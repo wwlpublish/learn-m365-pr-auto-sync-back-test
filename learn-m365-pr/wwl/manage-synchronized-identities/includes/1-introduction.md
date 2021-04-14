@@ -2,7 +2,7 @@ Once you implement Azure AD Connect, it’s important to remember that you can n
 
 In this module, you'll learn about managing user identities when Azure AD Connect is configured. You'll also examine how to manage users and groups in Microsoft 365 with Azure AD Connect. Finally, you'll learn how to maintain directory synchronization.
 
-After completing this module, you'll be able to:
+After completing this module, you'll be able to: 
 
  *  Ensure your users synchronize efficiently
  *  Deploy Azure AD Connect
