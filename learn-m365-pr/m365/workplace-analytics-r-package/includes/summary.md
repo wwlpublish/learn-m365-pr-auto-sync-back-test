@@ -1,8 +1,8 @@
 In the introductory scenario, as a data analyst for HR business intelligence, you were interested in finding advanced analysis techniques and new ways to visualize Workplace Analytics data. You saw an opportunity to use the wpa R package to create more flexible analysis and incorporate new techniques into your current process. 
 
-It would otherwise be time-consuming and cumbersome to create this analysis from scratch. If you were to build a tool to validate and explore the data on your own, you could create custom Power BI reports by using advanced DAX code, or write your own code to create the analysis in R, but this work would require much time and advanced programming expertise.
+It would otherwise be time-consuming and cumbersome to create this analysis from scratch. To build a tool to validate and explore the data on your own, you could create custom Power BI reports by using advanced DAX code, or write your own code to create the analysis in R, but this work would require much time and advanced programming expertise.
 
-The wpa R package provides a way to easily incorporate more advanced collaboration analysis into a data science workflow. You now understand how including the wpa R package in your Workplace Analytics workflow enables greater flexibility for advanced analysis. And you can see how it provides the ability to share deeper insights about the employee working patterns with leaders in your organization.
+The wpa R package provides a way to easily incorporate more advanced collaboration analysis into a data science workflow. You now understand how including the wpa R package in your Workplace Analytics workflow enables greater flexibility for advanced analysis. And you can see how it empowers you to share deeper insights about the employee working patterns with leaders in your organization.
 
 Now that you have finished this module, you should be able to:
 
