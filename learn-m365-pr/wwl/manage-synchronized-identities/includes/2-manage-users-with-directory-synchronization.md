@@ -62,7 +62,7 @@ Azure AD Connect offers enhanced user management features, including password wr
 
 Users can change their passwords through the login page or through user settings in Microsoft 365 and have them written back to the organization’s on-premises Active Directory. The following prerequisites are required to enable this feature:
 
- *  Windows Server 2008 or higher Domain Controllers in your on-premises Active Directory. Windows 2008 and Windows 2008 R2 Domain Controllers also require [KB2386717](https://support.microsoft.com/kb/2386717?azure-portal=true)
+ *  Windows Server 2008 or higher Domain Controllers in your on-premises Active Directory. 
  *  Azure Active Directory Premium license
  *  Configured the Self-Service Password Reset (SSPR) option in your Microsoft 365 tenant
 

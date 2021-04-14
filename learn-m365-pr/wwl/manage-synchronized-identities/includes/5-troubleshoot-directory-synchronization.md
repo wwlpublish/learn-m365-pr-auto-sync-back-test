@@ -134,7 +134,7 @@ Passwords are synchronized in near real time, specifically every two minutes. Th
 
 You can get an overview of your password hash synchronization configuration with a PowerShell script provided by Microsoft.
 
-If you're experiencing issues with one object, ensure the **User must change password at next logon** option isn't selected for the user in Active Directory Users and Computers**.** This option shouldn't be selected because temporary passwords aren't synchronized to Azure AD. You can also check the **In from AD – User AccountEnabled** rule in the Azure AD Connect Synchronization Service Manager if there's an inbound rule with PasswordSync set to True. The same must be configured for the **Out to Azure AD – User Join sync** outbound rule.
+If you're experiencing issues with one object, ensure the **User must change password at next logon** option isn't selected for the user in Active Directory Users and Computers. This option shouldn't be selected because temporary passwords aren't synchronized to Azure AD. You can also check the **In from AD – User AccountEnabled** rule in the Azure AD Connect Synchronization Service Manager if there's an inbound rule with PasswordSync set to True. The same must be configured for the **Out to Azure AD – User Join sync** outbound rule.
 
 **Additional reading.** For more information, see the following article on [troubleshooting password hash synchronization with Azure AD Connect sync](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-troubleshoot-password-hash-synchronization?azure-portal=true).
 
