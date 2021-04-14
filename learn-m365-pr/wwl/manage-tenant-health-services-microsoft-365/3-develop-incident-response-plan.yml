@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-tenant-health-services-microsoft-365.develop-incident-response-plan
+title: Develop an incident response plan
+metadata:
+  title: Develop an incident response plan
+  description: "Develop an incident response plan"
+  ms.date: 04/14/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/3-develop-incident-response-plan.md)]
