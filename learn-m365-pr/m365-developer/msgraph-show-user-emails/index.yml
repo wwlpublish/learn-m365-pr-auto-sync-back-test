@@ -2,14 +2,14 @@
 uid: learn-m365.msgraph-show-user-emails
 metadata:
   title: Show a user's emails in a JavaScript app with Microsoft Graph
-  description: Learn how to show a user's emails in JavaScript apps with Microsoft Graph. Also, learn about optimizing Microsoft Graph queries and paging through large datasets.
+  description: Learn how to show a user's emails in JavaScript apps with Microsoft Graph. Also, learn how to optimize Microsoft Graph queries and page through large datasets.
   ms.date: 03/30/2021
   author: waldekmastykarz
   ms.author: wmastyka
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
 title: Show a user's emails in a JavaScript app with Microsoft Graph
-summary: Learn how to show a user's emails in JavaScript apps with Microsoft Graph. Also, learn about optimizing Microsoft Graph queries and paging through large datasets.
+summary: Learn how to show a user's emails in JavaScript apps with Microsoft Graph. Also, learn how to optimize Microsoft Graph queries and page through large datasets.
 abstract: |
   After completing this module, you'll be able to:
   - Configure a JavaScript app to retrieve emails by using Microsoft Graph.

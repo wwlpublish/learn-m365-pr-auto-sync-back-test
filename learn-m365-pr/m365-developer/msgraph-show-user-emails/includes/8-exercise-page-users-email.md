@@ -1,8 +1,8 @@
-In this exercise, you'll extend the app to let you browse through a user's emails in pages of 10.
+In this exercise, you'll extend the app to let you browse through a user's emails in batches of 10 pages.
 
-## Load emails in pages of 10
+## Load emails in batches of 10 pages
 
-Start by updating the `getEmails` function to load emails in pages of 10. The page to be loaded is passed as a parameter to the function.
+Start by updating the `getEmails` function to load emails in batches of 10 pages. The page to be loaded is passed as a parameter to the function.
 
 1. In your code editor, open the `graph.js` file.
 1. Extend the `getEmails` function's signature with the `page` argument.
@@ -162,7 +162,7 @@ With the app updated to let users navigate through the paged results, the final 
 
 ## Run your app
 
-You've extended your app to show a user's emails by using Microsoft Graph in pages of 10 and let them navigate between the paged data. Let's run the app locally.
+You've extended your app to show a user's emails by using Microsoft Graph in batches of 10 pages and let them navigate between the paged data. Let's run the app locally.
 
 1. Preview the web app by executing the following command in the terminal.
 
