@@ -7,15 +7,15 @@ There are a few steps you need to complete to set up the wpa R package:
 
 ## 1. Download and install the open-source R software
 
-To begin, install R on your machine from the R project website, [www.r-project.org](https://www.r-project.org?azure-portal=true). When you get to the R project site, you will be prompted to choose a Comprehensive R Archive Network (CRAN) mirror. The Comprehensive R Archive Network, or CRAN, is a network of servers distributed around the world used to distribute R software and packages.
+To begin, install R on your machine from the R project website, [www.r-project.org](https://www.r-project.org?azure-portal=true). When you get to the R project site, you'll be prompted to choose a Comprehensive R Archive Network (CRAN) mirror. The Comprehensive R Archive Network, or CRAN, is a network of servers distributed around the world used to distribute R software and packages.
 
-Select the CRAN mirror link. Do not choose a mirror that is close to you geographically: instead, select the cloud mirror, which automatically detects the optimal mirror for you. After  you have chosen the cloud mirror, download R.
+Select the CRAN mirror link. Don't choose a mirror that is close to you geographically: instead, select the cloud mirror, which automatically detects the optimal mirror for you. After  you have chosen the cloud mirror, download R.
 
 ![Install R](../media/get-r.png)
 
 ## 2. Download and install the RStudio Desktop IDE
 
-You can analyze data using the installed R software, but you also have the option of downloading an integrated development environment (IDE) to improve your programming experience. IDEs provide useful features such as code auto-complete, syntax checks, and viewing panels that are not available with a plain text notepad.
+You can analyze data using the installed R software, but you also have the option of downloading an integrated development environment (IDE) to improve you aren't available with a plain text notepad.
 
 RStudio Desktop is the recommended IDE for R. You can download RStudio from the RStudio website,[www.rstudio.com](https://www.rstudio.com?azure-portal=true). RStudio is updated a couple of times a year, and when a new version is available, RStudio will let you know. Upgrade regularly to take advantage of the latest features.
 
@@ -36,7 +36,7 @@ The wpa package is dependent on multiple other R packages.  If you are prompted 
 
 ## 4. Load the wpa R package
 
-Before you can use the wpa R package, you need to load the package at the beginning of each R session. This is analogous to installing and loading an app, except that it occurs within the R environment. For this purpose, you can think of R packages as apps for R.
+Before you can use the wpa R package, you need to load the package at the beginning of each R session. Loading the package is analogous to installing and loading an app, except that it occurs within the R environment. For this purpose, you can think of R packages as apps for R.
 
 Each R package is stored in a directory called a library. After the installation is complete, load the wpa R package in your session with the following:
 
@@ -47,7 +47,7 @@ library(wpa)
 > [!IMPORTANT]
 > You only need to install the package one time; however, you will need to load it every time you start a new R session.
 
-The wpa R package is designed to work side by side with other R packages from tidyverse. Tidyverse is a collection of R packages designed for data science. We generally recommend loading the tidyverse packages alongside wpa, as a lot of our examples use the data manipulation and plotting functions from tidyverse.
+The wpa R package is designed to work side by side with other R packages from tidyverse. Tidyverse is a collection of R packages designed for data science. We generally recommend loading the tidyverse packages alongside wpa, as many of our examples use the data manipulation and plotting functions from tidyverse.
 
 Run the following to install the complete tidyverse:
 
@@ -68,7 +68,7 @@ To complete the exercise:
 
 ![Create a script in R](../media/hello-world.png)
 
-After you run the script, you will be able to see the output in the console:
+After you run the script, you'll be able to see the output in the console:
 
 ![Hello World output](../media/hello-world-2.png)
 

@@ -1,10 +1,10 @@
-An R package is a collection of functions, data, and documentation that extends the capabilities of R. R packages allow you to take advantage of visualization capabilities, machine learning, and data wrangling, and are key to success with R. At the time of this writing, over 17,000 R packages are listed on the Comprehensive R Archive Network (CRAN), and even more on GitHub.
+An R package is a collection of functions, data, and documentation that extends the capabilities of R. R packages allow you to take advantage of visualization capabilities, machine learning, and data wrangling, and are key to success with R. At the time of this writing, over 17,000 R packages are listed on the Comprehensive R Archive Network (CRAN). There are even more on GitHub.
 
 The wpa R package is a set of tools and functions to analyze and visualize data from  Workplace Analytics.
 
 ![wpa package in R](../media/r-package-wpa.png)
 
-The functions in the wpa R package provide low-code pre-built analyses and are designed to help analysts customize their analysis and go beyond the insights gained from what’s available with Power BI templates and Workplace Analytics queries.
+The functions in the wpa R package provide low-code, pre-built analyses. These analyses are designed to help analysts customize their analysis and go beyond the insights gained from what’s available with Power BI templates and Workplace Analytics queries.
 
 ## Why use R for Workplace Analytics?
 
@@ -13,13 +13,13 @@ There are multiple reasons to use R for Workplace Analytics:
 - **Cutting edge data science** - A  wide range of packages in R enable quick and effective implementation of data science techniques.
 - **Reproducibility** - Code-based workflows make it easy to replicate analysis. R as a tool promotes this good practice.
 - **Efficiency and scalability** - You can use R to analyze large datasets. Applying the R functions and automated processes reduce routine analysis time.
-- **Integration and extensibility** - R offers access to a wide range of packages with advanced functions that you can use to create advanced, in-depth analysis and seamlessly add to an R workflow.
+- **Integration and extensibility** - R offers access to a wide range of packages with advanced functions. You can use these functions to create advanced, in-depth analysis and seamlessly add to an R workflow.
 
 ## What can you do with the wpa R package?
 
-The wpa R package includes many essential and advanced functions and features to help you deliver advanced analytics using cutting edge data science and create and maintain a streamlined data science workflow without switching over to a different solution.
+The wpa R package includes many essential and advanced functions and features. These functions and features use cutting edge data science to help you deliver advanced analytics and create and maintain a streamlined data science workflow without switching over to a different solution.
 
-There are over 160 different functions in the wpa R package. The image below summarizes the available features in the package. It includes essential features analysts find useful regardless of the level of complexity of their analysis, and more advanced features that make use of advanced capabilities in the R ecosystem.
+There are over 160 different functions in the wpa R package. The image below summarizes the available features in the package. It includes essential features analysts find useful regardless of the level of complexity of their analysis, and more advanced features that make use of advanced data science capabilities in R.
 
 > [!div class="centered"]
 > ![Summary of wpa functions](../media/wpa-function-summary.png)

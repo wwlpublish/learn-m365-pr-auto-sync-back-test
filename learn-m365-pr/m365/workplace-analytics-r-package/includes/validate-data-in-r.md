@@ -1,18 +1,18 @@
-Before using R functions to analyze Workplace Analytics data and start looking for insights, it is recommended that you validate the data. This is a best practice whether your aim is to explore the data, establish a baseline, or create advanced analytics.
+Before using R functions to analyze Workplace Analytics data and start looking for insights, it is recommended you validate the data. Validation is a best practice whether your aim is to explore the data, establish a baseline, or create advanced analytics.
 
 ## Why validate?
 
-Data validation is essential for every analyst because it ensures trust that the data you are using is accurate, clean, and helpful. The following are just a few of many important reasons to validate your Workplace Analytics data:
+Data validation is essential for every analyst because it ensures trust that the data you're using is accurate, clean, and helpful. The following are just a few of many important reasons to validate your Workplace Analytics data:
 
 - Data validation ensures a dataset is a good basis for analyses, and acts as a proactive intervention to safeguard your analyses from the start.
-- There might be gaps, anomalies, or errors in the organizational data, such as missing data, or the data might not have the right level of granularity. This might require fixing the data at the source, or interpreting the data differently. Any data biases should be caveated or accounted for.
-- Outliers might exist in Workplace Analytics data, and often for very legitimate reasons. For example, collaboration hours for a specific week or employee might be low because of a public holiday or paid time off. If these outliers are not addressed, the interpretation of the data might be incorrect.
+- There might be gaps, anomalies, or errors in the organizational data, such as missing data, or the data might not have the right level of granularity. These issues might require fixing the data at the source, or interpreting the data differently. Any data biases should be caveated or accounted for.
+- Outliers might exist in Workplace Analytics data, and often for legitimate reasons. For example, collaboration hours for a specific week or employee might be low because of a public holiday or paid time off. If these outliers aren't addressed, the interpretation of the data might be incorrect.
 
-It is a good practice to have a comprehensive understanding of the data and perform checks for common biases, errors, and anomalies prior to analysis. Otherwise, the quality and reliability of the analysis might be at risk. 
+It is a good practice to have a comprehensive understanding of the data and perform checks for common biases, errors, and anomalies before analysis. Otherwise, the quality and reliability of the analysis might be at risk. 
 
 ## Know your data
 
-Before you begin with data validation, it is helpful to know more about your dataset, including:
+Before you begin with data validation, it's helpful to know more about your dataset, including:
 
 - Type of query loaded (person query, meeting query, and so on)
 - Number of unique employees in the dataset
@@ -39,7 +39,7 @@ The following functions are helpful for initially exploring your data (the examp
 - `dplyr::glimpse(sq_data)` or `skimr::skim(sq_data)` - Get an overview of the data.
 - `view(sq_data)` - View the entire dataset (not recommended for large datasets).
 
-Validating the structure of the data is just as important as validating the data. You might check that the data is correctly imported into R if you observe any anomalies, such as:
+Validating the structure of the data is as important as validating the data. You might check that the data is correctly imported into R if you observe any anomalies, such as:
 
 - Unexpected or misspelled column names
 - Unexpected number of rows in the data
@@ -68,7 +68,7 @@ The `validation_report()` only runs with person query output from Workplace Anal
 validation_report(sq_data, meeting data = mt_data)
 ```
 
-The data validation report provides recommendations on whether to adjust settings or consider specific assumptions before proceeding with your analysis. After you make the relevant adjustments, run the `validation_report()` again on the 'clean' dataset to make sure any potential issues have been identified.
+The data validation report provides recommendations on whether to adjust settings or consider specific assumptions before you proceed with your analysis. After you make the relevant adjustments, run the `validation_report()` again on the 'clean' dataset to make sure any potential issues have been identified.
 
 Note that `validation_report()` only provides recommendations based on common scenarios observed with Workplace Analytics data. When deciding whether to make an adjustment, you should consider factors such as the quality of organizational data, context, and other known collaboration norms within the organization.
 
@@ -76,7 +76,7 @@ In addition to the validation report, you can also run a report to validate whet
 
 ## Individual functions
 
-The wpa R package provides additional data validation functions you can use prior to embarking on a new analysis. These functions make up the majority of the automated checks of `validation_report()`, that you can run individually to extract more detailed information. For example, the report might identify certain employees as “non-knowledge workers,” which can help you confirm if the distribution of these workers with respect to the organization make sense. The following are the key data validation functions included in this package.
+The wpa R package provides more data validation functions you can use prior to embarking on a new analysis. These functions make up most of the automated checks of `validation_report()`, that you can run individually to extract more detailed information. For example, the report might identify certain employees as “non-knowledge workers,” which can help you confirm if the distribution of these workers with respect to the organization make sense. The following are the key data validation functions included in this package.
 
 ## Organizational attributes
 
@@ -102,8 +102,8 @@ To run a blanket analysis for all the organizational attributes in the dataset, 
 There are three common reasons for removing certain employees or weeks from the data:
 
 - A given week is likely a public holiday that impacts a significant proportion of the organization, such as Christmas or New Year’s day.
-- An employee is a non-knowledge worker who doesn’t typically collaborate with email and meetings. 
-- An employee is off work for certain weeks due to annual leave, sabbaticals, etc., which do not necessarily coincide with public holidays.
+- An employee is a non-knowledge worker who doesn’t typically collaborate with email and meetings.
+- An employee is off work for certain weeks because of annual leave, sabbaticals, and so on, which do not necessarily coincide with public holidays.
 
 You can use a function in wpa to address each of the following:
 

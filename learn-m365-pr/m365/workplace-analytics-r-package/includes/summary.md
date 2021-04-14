@@ -1,8 +1,8 @@
 In the introductory scenario, as a data analyst for HR business intelligence, you were interested in finding advanced analysis techniques and new ways to visualize Workplace Analytics data. You saw an opportunity to use the wpa R package to create more flexible analysis and incorporate new techniques into your current process. 
 
-It would otherwise be time-consuming and cumbersome to create this analyses from scratch. If you were to build a tool to validate and explore the data on your own, you could create custom Power BI reports by using advanced DAX code, or write your own code to create the analysis in R, but this would require a lot of time and advanced programming expertise.
+It would otherwise be time-consuming and cumbersome to create this analysis from scratch. If you were to build a tool to validate and explore the data on your own, you could create custom Power BI reports by using advanced DAX code, or write your own code to create the analysis in R, but this work would require much time and advanced programming expertise.
 
-The wpa R package provides a way to easily incorporate more advanced collaboration analysis into a data science workflow. You now know how including wpa in your Workplace Analytics analysis process enables greater flexibility for advanced analysis, and the ability to share deeper insights about employee work patterns with leaders in your organization.
+The wpa R package provides a way to easily incorporate more advanced collaboration analysis into a data science workflow. You now know that including wpa in your Workplace Analytics analysis process enables greater flexibility for advanced analysis and the ability to share deeper insights about the employee working patterns with leaders in your organization.
 
 Now that you have finished this module, you should be able to:
 
@@ -17,7 +17,7 @@ The wpa R package is continuously evolving and integrating more new features. Ch
 - A bug you would like to report.
 - Documentation that you would like to improve.
 
-…you are welcome to submit an issue on GitHub. Experienced R users are welcome to create pull requests directly to GitHub. Please see the links in the Learn more section to find new features, submit issues, or create new pull requests.
+…you are welcome to submit an issue on GitHub. Experienced R users are welcome to create pull requests directly to GitHub. See the links in the Learn more section to find new features, submit issues, or create new pull requests.
 
 ## Learn more
 

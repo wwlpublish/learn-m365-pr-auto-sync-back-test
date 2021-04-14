@@ -36,11 +36,11 @@ quiz:
       - content: "library(wpa)"
         isCorrect: true
         explanation: "Correct. To load the wpa R package in your R session, enter library(wpa) and run."
-    - content: "Which is the recommended function to help you validate your data prior to analysis?"
+    - content: "Which is the recommended function to help you validate your data before analysis?"
       choices:
       - content: "collaboration_report()"
         isCorrect: false
-        explanation: "Sorry, that's incorrect. The collaboration_report() function is not used to validate data prior to analysis, rather, it gives a summary and analysis on collaboration metrics such as email and meeting hours."
+        explanation: "Sorry, that's incorrect. The collaboration_report() function is not used to validate data before analysis, rather. It gives a summary and analysis on collaboration metrics such as email and meeting hours."
       - content: "check_query()"
         isCorrect: false
         explanation: "Sorry, that's incorrect. The check_query() function provides a high level summary of the data used for analysis, but it does not provide complete checks to validate the data."
@@ -49,7 +49,7 @@ quiz:
         explanation: "Sorry, that's incorrect. There isn't a data_validate() function in the wpa R package."
       - content: "validation_report()"
         isCorrect: true
-        explanation: "Correct. The validation report function performs a series of checks against your data, including Workplace Analytics settings, organizational data quality, and Microsoft 365 data quality."
+        explanation: "Correct. The validation report function performs a series of checks against your dat. This includes checks on Workplace Analytics settings, organizational data quality, and Microsoft 365 data quality."
     - content: "What are some examples of quick start reports that are available for creating a baseline analysis?"
       choices:
       - content: "Report on Collaboration, Validation Report, Subject Line Validation Report, Report on Connectivity"
