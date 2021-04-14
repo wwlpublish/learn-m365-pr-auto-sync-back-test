@@ -29,4 +29,4 @@ The multi-factor authentication methods can be configured in the service setting
 :::image type="content" source="../media/difference-between-auth-factors-685e0450.jpg" alt-text="graphic depicts the difference between the different authentication factors":::
 
 
-**Additional reading.** For more information, see the following article on how to [Deploy cloud-based Azure Multi-Factor Authentication](https://go.microsoft.com/fwlink/?LinkId=627442?azure-portal=true).
+**Additional reading.** For more information, see [How it works: Azure AD Multi-Factor Authentication](https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks?azure-portal=true).

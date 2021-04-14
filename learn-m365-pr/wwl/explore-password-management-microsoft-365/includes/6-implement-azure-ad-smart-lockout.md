@@ -16,7 +16,7 @@ Using Smart Lockout doesn't guarantee that a genuine user will never be locked o
 
 Smart Lockout can be integrated with hybrid deployments, using password hash sync or pass-through authentication to protect on-premises Active Directory accounts from being locked out by attackers. By setting Smart Lockout policies in Azure AD appropriately, attacks can be filtered out before they reach on-premises Active Directory.
 
-### Smart Lockout integration with Pass-Through Authentication
+### Smart Lockout integration with pass-through authentication
 
 When using pass-through authentication, you must ensure that:
 
@@ -50,7 +50,8 @@ To check or modify the Smart Lockout values for your organization, use the follo
 2.  Set the **Lockout threshold**, based on how many failed sign-ins are allowed on an account before its first lockout. The default is 10.
 3.  Set the **Lockout duration in seconds**, to the length in seconds of each lockout. The default is 60 seconds.
 
-**Note:** If the first sign-in after a lockout also fails, the account locks out again. When an account locks repeatedly, the lockout duration is increased.
+> [!WARNING]
+> If the first sign-in after a lockout also fails, the account locks out again. When an account locks repeatedly, the lockout duration is increased.
 
 ### How to determine if Smart Lockout is working
 
