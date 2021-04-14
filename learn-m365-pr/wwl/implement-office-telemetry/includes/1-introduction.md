@@ -6,7 +6,7 @@ This module examines the five components of the Office Telemetry Dashboard and t
 
 The module concludes by examining the data that is collected by the Telemetry Agent, and how to install and configure Office Telemetry.
 
-After completing this module, you'll be able to:
+After completing this module, you'll be able to: 
 
  *  Identify the five components of the Office Telemetry Dashboard
  *  Describe the typical deployment requirements and issues when deploying Office Telemetry
