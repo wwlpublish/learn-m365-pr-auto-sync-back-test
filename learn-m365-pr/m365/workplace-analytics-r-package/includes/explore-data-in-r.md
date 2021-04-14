@@ -18,6 +18,7 @@ sq_data %>% keymetrics_scan(hrvar = "Organization", return = "plot")
 ```
 
 Output:
+
 ![Keymetrics scan heat map visual](../media/heatmap.png)
 
 To save the output as a plot to your working directory, run the following:
@@ -85,6 +86,7 @@ sq_data %>% collaboration_summary()
 
 
 Output:
+
 ![Collaboration summary](../media/collaboration-summary.png)
 
 
@@ -96,6 +98,7 @@ sq_data %>% collaboration_summary(hrvar = "LevelDesignation")
 
 
 Output:
+
 ![Collaboration summary by LevelDesignation](../media/collab-summary-level.png)
 
 
@@ -113,6 +116,7 @@ sq_data %>% collaboration_summary(hrvar = "LevelDesignation", return = "table")
 
 
 Output:
+
 ![Collaboration summary table](../media/collab-summary-table.png)
 
 
@@ -136,6 +140,7 @@ sq_data %>% afterhours_summary()
 
 
 Output:
+
 ![Afterhours summary chart](../media/after-hours-summary.png)
 
 
@@ -149,6 +154,7 @@ sq_data %>% create_bar(metric = "Generated_workload_email_hours")
 
 
 Output:
+
 ![Generated workload email hours summary](../media/gen-workload-summary.png)
 
 
@@ -166,6 +172,7 @@ sq_data %>% collaboration_summary() + ggtitle("This is a custom title")
 
 
 Output:
+
 ![Customize a plot example](../media/customize-plot.png)
 
 
