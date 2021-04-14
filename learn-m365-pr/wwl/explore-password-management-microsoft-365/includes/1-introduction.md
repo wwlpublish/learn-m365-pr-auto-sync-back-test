@@ -5,7 +5,7 @@ Organizations must ensure that access to their company data on Microsoft 365 is 
  *  resetting their own passwords
  *  signing in with multi-factor authentication
 
-In this module, you'll learn about these various password-related tasks.<br>
+In this module, you'll learn about these various password-related tasks.
 
 After completing this module, you'll be able to:
 
