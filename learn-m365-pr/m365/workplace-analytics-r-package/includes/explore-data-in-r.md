@@ -17,6 +17,7 @@ The `keymetrics_scan()` function creates a summary table with a wide range of me
 sq_data %>% keymetrics_scan(hrvar = "Organization", return = "plot")
 ```
 
+Output:
 ![Keymetrics scan heat map visual](../media/heatmap.png)
 
 To save the output as a plot to your working directory, run the following:
@@ -82,8 +83,10 @@ The `collaboration_summary()` function generates a stacked bar plot summarizing 
 sq_data %>% collaboration_summary()
 ```
 
+
 Output:
 ![Collaboration summary](../media/collaboration-summary.png)
+
 
 By changing the `hrvar()`argument, you can change the groups being shown easily:
 
@@ -91,7 +94,10 @@ By changing the `hrvar()`argument, you can change the groups being shown easily:
 sq_data %>% collaboration_summary(hrvar = "LevelDesignation")
 ```
 
+
+Output:
 ![Collaboration summary by LevelDesignation](../media/collab-summary-level.png)
+
 
 By default, all summary functions exclude groups with less than five individuals. This is also something that can be adjusted, using the `mingroup()` argument:
 
@@ -105,8 +111,10 @@ Finally, you can use `"table"` in the `return` argument to get a summary table i
 sq_data %>% collaboration_summary(hrvar = "LevelDesignation", return = "table")
 ```
 
+
 Output:
 ![Collaboration summary table](../media/collab-summary-table.png)
+
 
 ## Other summary functions
 
@@ -126,8 +134,10 @@ Use the following to get a summary of after-hours collaboration:
 sq_data %>% afterhours_summary()
 ```
 
+
 Output:
 ![Afterhours summary chart](../media/after-hours-summary.png)
+
 
 ## Advanced functionalities for custom bar charts and tables
 
@@ -137,8 +147,10 @@ For other metrics, the `create_bar()` function is a good way to get a summary ba
 sq_data %>% create_bar(metric = "Generated_workload_email_hours")
 ```
 
+
 Output:
 ![Generated workload email hours summary](../media/gen-workload-summary.png)
+
 
 The `create_bar()` function also accepts the `hrvar()`, `return()`, and `mingroup()` arguments.
 
@@ -152,8 +164,10 @@ library(ggplot2)
 sq_data %>% collaboration_summary() + ggtitle("This is a custom title")
 ```
 
+
 Output:
 ![Customize a plot example](../media/customize-plot.png)
+
 
 The wpa R package has over 150 functions with different options. See the Learn more section for details about:
 
