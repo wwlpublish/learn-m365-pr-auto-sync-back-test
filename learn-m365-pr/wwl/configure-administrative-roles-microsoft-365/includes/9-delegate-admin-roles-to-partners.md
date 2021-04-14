@@ -10,25 +10,25 @@ To assign an administrator role in the Microsoft 365 Admin Center, you should co
 To assign an administrator role in Windows PowerShell, at the command prompt, type the following cmdlet, and then press Enter:
 
 ```
-Add-MsolRoleMember -RoleName “nameofrole” –RoleMemberEmailAddress “useremailaddress”
+Add-MsolRoleMember -RoleName "nameofrole" –RoleMemberEmailAddress "useremailaddress"
 ```
 
 For example:
 
 ```
-Add-MsolRoleMember –RoleName “Exchange Administrator” –RoleMemberEmailAddress “melissa@Adatum.onmicrosoft.com”
+Add-MsolRoleMember –RoleName "Exchange Administrator" –RoleMemberEmailAddress "melissa@Adatum.onmicrosoft.com"
 ```
 
 To view a user’s assigned administrator role, at the command prompt, type the following cmdlet, and then press Enter:
 
 ```
-Get-MsolUserRole –UserPrincipalName “userprincipalname”
+Get-MsolUserRole –UserPrincipalName "userprincipalname"
 ```
 
 To view all users who are assigned to a specific administrator role, at the command prompt, type the following cmdlets, pressing Enter after each:
 
 ```
-$role = Get-MsolRole –RoleName “Exchange Administrator”
+$role = Get-MsolRole –RoleName "Exchange Administrator"
    
 Get-MsolRoleMember –RoleObjectId $role.ObjectId
 ```
@@ -36,14 +36,14 @@ Get-MsolRoleMember –RoleObjectId $role.ObjectId
 To remove an administrator role in Windows PowerShell, at the command prompt, type the following cmdlet, and then press Enter:
 
 ```
-Remove-MsolRoleMember -RoleName “nameofrole” –RoleMemberEmailAddress “useremailaddress”
+Remove-MsolRoleMember -RoleName "nameofrole" –RoleMemberEmailAddress "useremailaddress"
 ```
 
 ### Delegating roles to partners
 
 If you don't have in-house administrators, you can outsource your administration to a Microsoft partner. For example, if your organization is small and doesn't need specialized IT administration roles, you might rely on a Microsoft partner to provide IT administrative functionality.
 
-Outsourcing your administration to a Microsoft partner is referred to in MIcrosoft 365 as delegated administration. It begins by a partner sending your organization an email message requesting that you give them permission to act as an administrator on your behalf.
+Outsourcing your administration to a Microsoft partner is referred to in Microsoft 365 as delegated administration. It begins by a partner sending your organization an email message requesting that you give them permission to act as an administrator on your behalf.
 
 To accept the delegated administration offer, you should complete the following steps:
 
