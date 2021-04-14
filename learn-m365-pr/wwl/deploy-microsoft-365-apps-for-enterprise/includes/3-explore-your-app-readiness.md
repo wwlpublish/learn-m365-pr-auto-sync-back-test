@@ -7,7 +7,7 @@ The Readiness Toolkit can be downloaded for free at the Microsoft Download Cente
 > [!NOTE]
 > The Readiness Toolkit doesn't repair or fix the code in your VBA macros. If you create an advanced report, the report provides guidance, when available, for remediating your VBA macro code.
 
-### Creating the Readiness report
+### Creating the readiness report
 
 The Readiness Toolkit includes a tool called the Readiness Report Creator. Selecting this tool starts a wizard that creates the Readiness report. There's also a standalone executable that can run from the command line or be used with scripts. This executable is useful if you want to collect readiness information from users throughout your enterprise in a more automated manner. The Readiness Report Creator can scan for VBA macros in Word, Excel, PowerPoint, Outlook, Access, Project, Visio, and Publisher files, for Office versions as far back as Office 2003. It can also scan for certain types of add-ins used with Office. Add-ins for all Office applications are identified, but web add-ins aren't included.
 
@@ -32,7 +32,7 @@ The Excel spread sheet that’s created by the Readiness Toolkit includes the fo
  *  **Add-in Details.** This tab displays metadata information about the add-ins found (for example, publisher and version number), the total number of installs of each add-in, and the readiness status.
  *  **By computer name.** This tab displays information similar to what’s on the Add-in Details worksheet. But while the Add-in Details worksheet displays the total number of installs for each add-in, this tab lists every computer in which the add-ins are installed.
 
-### Configuring the Readiness report
+### Configuring the readiness report
 
 Before creating a readiness report, you must first determine the type of information you want to collect. For example, you may ask yourself questions such as:
 
@@ -58,13 +58,6 @@ It’s strongly recommended that you create an advanced report, which provides a
  *  Readiness status for add-ins. For example, the report may indicate the software provider has a supported version of the add-in for Microsoft 365 Apps.
 
 To provide you with the most up-to-date remediation advice and readiness status, the Readiness Report Creator contacts Microsoft when it creates the report. Some information about your VBA macros and add-ins is sent to Microsoft.
-
-> [!WARNING]
-> If you're creating an advanced report, make sure the computer on which you're running the Readiness Toolkit has access to the Internet. The Readiness Toolkit calls a publicly available web-service, so the following URLs must be allowlisted in your firewall:
-
- *  https://officeclient.microsoft.com/serverconfig16
- *  https://ready.osi.office.net/orfo/api/readinesssummary
- *  https://ready.osi.office.net/orfo/api/vbareportsummary
 
 **Additional reading.** For more information about the information that's sent to Microsoft, see [Examples of the information sent to Microsoft when creating an advanced report](https://docs.microsoft.com/deployoffice/readiness-toolkit-application-compatibility-microsoft-365-apps#BKMK_InfoSent?azure-portal=true).
 
