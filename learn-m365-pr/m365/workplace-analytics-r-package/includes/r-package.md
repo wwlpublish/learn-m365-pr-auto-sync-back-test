@@ -4,7 +4,7 @@ The wpa R package is a set of tools and functions to analyze and visualize data 
 
 ![wpa package in R](../media/r-package-wpa.png)
 
-The functions in the wpa R package provide low-code, pre-built analyses. These analyses are designed to help analysts customize their analysis and go beyond the insights gained from what’s available with Power BI templates and Workplace Analytics queries.
+The functions in the wpa R package provide low-code, pre-built analyses. These functions are designed to help analysts customize their analysis and go beyond the insights gained from the Power BI templates and Workplace Analytics queries.
 
 ## Why use R for Workplace Analytics?
 
@@ -17,9 +17,9 @@ There are multiple reasons to use R for Workplace Analytics:
 
 ## What can you do with the wpa R package?
 
-The wpa R package includes many essential and advanced functions and features. These functions and features use cutting edge data science to help you deliver advanced analytics and create and maintain a streamlined data science workflow without switching over to a different solution.
+The wpa R package includes many essential and advanced functions and features. These functions and features use data science techniques to help you deliver advanced analytics and create and maintain a streamlined data science workflow without switching over to a different solution.
 
-There are over 160 different functions in the wpa R package. The image below summarizes the available features in the package. It includes essential features analysts find useful regardless of the level of complexity of their analysis, and more advanced features that make use of advanced data science capabilities in R.
+There are over 160 different functions in the wpa R package. The image below summarizes the available features in the package. It includes essential features analysts find useful whatever the complexity of their analysis, and more advanced features that make use of advanced data science capabilities in R.
 
 > [!div class="centered"]
 > ![Summary of wpa functions](../media/wpa-function-summary.png)
