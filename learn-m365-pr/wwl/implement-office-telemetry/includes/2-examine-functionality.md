@@ -38,7 +38,7 @@ The Office Telemetry Log is an tool for developers and experienced users who wan
 
 The following graphic shows the important steps involved in collecting telemetry data from clients.
 
-:::image type="content" source="../media/collecting-telemetry-data-56d53609.jpg" alt-text="graphic shows the important steps involved in collecting telemetry data from clients":::
+:::image type="content" source="../media/collect-telemetry-data-56d53609.jpg" alt-text="graphic shows the important steps involved in collecting telemetry data from clients":::
 
 
 ### Office Telemetry uses
