@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn.wwl.implement-office-telemetry.introduction
+uid: learn.wwl.manage-synchronized-identities.introduction
 title: Introduction
 metadata:
   title: Introduction
@@ -10,6 +10,6 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-durationInMinutes: 2
+durationInMinutes: 1
 content: |
   [!include[](includes/1-introduction.md)]
