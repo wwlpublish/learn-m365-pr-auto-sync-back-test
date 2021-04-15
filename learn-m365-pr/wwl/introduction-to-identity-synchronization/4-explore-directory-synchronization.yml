@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.introduction-to-identity-synchronization.explore-directory-synchronization
+title: Explore directory synchronization
+metadata:
+  title: Explore directory synchronization
+  description: "Explore directory synchronization"
+  ms.date: 04/15/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/4-explore-directory-synchronization.md)]
