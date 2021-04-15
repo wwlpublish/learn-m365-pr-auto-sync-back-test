@@ -69,7 +69,7 @@ The following example displays this same configuration file that has been custom
 
 By specifying different settings in the configuration.xml file, users can be pointed to an internal file share location for downloading updates for Microsoft 365 Apps for enterprise. You can also exclude some of the Office applications. For example, if you don’t want your users to create Microsoft Access databases, Microsoft Access can be removed from the deployment in your organization.
 
-**Additional reading.** For a complete reference to the settings that are available in the configuration.xml file, see [Configuration options for the Office Deployment Tool](https://go.microsoft.com/fwlink/?linkid=831357?azure-portal=true).
+**Additional reading.** For a complete reference to the settings that are available in the configuration.xml file, see [Configuration options for the Office Deployment Tool](https://docs.microsoft.com/deployoffice/office-deployment-tool-configuration-options#:~:text=Example%20of%20a%20standard%20configuration%20file%20%20,365%20App%20...%20%204%20more%20rows%20?azure-portal=true).
 
 ## Knowledge check
 
