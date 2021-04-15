@@ -63,7 +63,7 @@ To complete the exercise:
 
 1. Open RStudio.
 1. Select **File** > **New File** > **R Script**.
-1. Enter `print(“Hello World!”)`
+1. Enter `print("Hello World!")`
 1. Select **Ctrl**+**Enter** or **Run**.
 
 ![Create a script in R](../media/hello-world.png)
@@ -75,7 +75,7 @@ After you run the script, you'll be able to see the output in the console:
 Now that you have downloaded and installed R and RStudio, and loaded the wpa R package, you are ready to analyze Workplace Analytics data. The wpa R package has multiple built-in sample datasets, including the `sq_data` person query output and the `mt_data` meeting query output. You’ll see these sample datasets demonstrated in many of the wpa R package functions in the following units.
 
 > [!IMPORTANT]
-> Note that sq_data and mt_data are the names of demo datasets that are pre-loaded with the wpa R package. Avoid assigning demo dataset names to imported data, as it makes it easy to accidentally analyze the demo data instead of analyzing your imported dataset.
+> Note that `sq_data` and `mt_data` are the names of demo datasets that are pre-loaded with the wpa R package. Avoid assigning demo dataset names to imported data, as it makes it easy to accidentally analyze the demo data instead of analyzing your imported dataset.
 
 ## Learn more
 

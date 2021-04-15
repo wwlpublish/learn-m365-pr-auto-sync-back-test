@@ -8,7 +8,7 @@ Data validation is essential for every analyst because it ensures trust that the
 - There might be gaps, anomalies, or errors in the organizational data, such as missing data, or the data might not have the right level of granularity. These issues might require fixing the data at the source, or interpreting the data differently. Any data biases should be caveated or accounted for.
 - Outliers might exist in Workplace Analytics data, and often for legitimate reasons. For example, collaboration hours for a specific week or employee might be low because of a public holiday or paid time off. If these outliers aren't addressed, the interpretation of the data might be incorrect.
 
-It is a good practice to have a comprehensive understanding of the data and perform checks for common biases, errors, and anomalies before analysis. Otherwise, the quality and reliability of the analysis might be at risk. 
+It is a good practice to have a comprehensive understanding of the data and perform checks for common biases, errors, and anomalies before analysis. Otherwise, the quality and reliability of the analysis might be at risk.
 
 ## Know your data
 
@@ -37,7 +37,7 @@ The following functions are helpful for initially exploring your data (the examp
 - `summary(sq_data)` - Gets summary statistics. 
 - `length(unique(sq_data$PersonId))` - Computes the number of unique values (this example computes the unique number of PersonIds).
 - `dplyr::glimpse(sq_data)` or `skimr::skim(sq_data)` - Get an overview of the data.
-- `view(sq_data)` - View the entire dataset (not recommended for large datasets).
+- `View(sq_data)` - View the entire dataset (not recommended for large datasets).
 
 Validating the structure of the data is as important as validating the data. You might check that the data is correctly imported into R if you observe any anomalies, such as:
 
@@ -86,7 +86,7 @@ The `check_query()` function checks the query (data frame) and gives you a diagn
 check_query(sq_data)
 ```
 
-The `hrvar_count()` function counts the distinct people by the specified HR attribute, and returns a bar chart for it The following example shows a bar chart for “LevelDesignation”.
+The `hrvar_count()` function counts the distinct people by the specified HR attribute, and returns a bar chart. The following example shows a bar chart for “LevelDesignation”.
 
 ```R
 hrvar_count(sq_data, hrvar = "LevelDesignation")

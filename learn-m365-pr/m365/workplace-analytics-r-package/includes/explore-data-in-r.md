@@ -44,7 +44,7 @@ If at any point you want to understand more about the functions, you can:
 
 - Enter a question mark in the console followed by the function name and run it.
 For example: `?keymetrics_scan`
-- View the underlying source code of the function with `view()`.
+- View the underlying source code of the function with `View()`.
 For example: `view(keymetrics_scan)`
 - Visit the function reference page online (see **Learn more** section).
 
@@ -78,7 +78,7 @@ See the links in the **Learn more** section for more information on quick start 
 
 In addition to running reports, you can also create individual analysis.
 
-The `collaboration_summary()` function generates a stacked bar plot summarizing the email and meeting hours by an HR attribute you specify. If no HR attribute is specified, "organization" will be used by default:
+The `collaboration_summary()` function generates a stacked bar plot summarizing the email and meeting hours by an HR attribute you specify. If no HR attribute is specified, "Organization" will be used by default:
 
 ```R
 sq_data %>% collaboration_summary()
@@ -90,7 +90,7 @@ Output:
 ![Collaboration summary](../media/collaboration-summary.png)
 
 
-By changing the `hrvar()`argument, you can change the groups being shown easily:
+By changing the `hrvar`argument, you can change the groups being shown easily:
 
 ```R
 sq_data %>% collaboration_summary(hrvar = "LevelDesignation")
@@ -102,7 +102,7 @@ Output:
 ![Collaboration summary by LevelDesignation](../media/collab-summary-level.png)
 
 
-By default, all summary functions exclude groups with less than five individuals. This is also something that can be adjusted, using the `mingroup()` argument:
+By default, all summary functions exclude groups with less than five individuals. This is also something that can be adjusted, using the `mingroup` argument:
 
 ```R
 sq_data %>% collaboration_summary(hrvar = "LevelDesignation", mingroup = 10)
@@ -158,7 +158,7 @@ Output:
 ![Generated workload email hours summary](../media/gen-workload-summary.png)
 
 
-The `create_bar()` function also accepts the `hrvar()`, `return()`, and `mingroup()` arguments.
+The `create_bar()` function also accepts the `hrvar`, `return()`, and `mingroup` arguments.
 
 
 ## Advanced functionalities for custom plots
@@ -182,7 +182,7 @@ The wpa R package has over 150 functions with different options. See the Learn m
 - Required and available arguments and parameters for each function.
 - Output returned when you use each function.
 
-For a guided tour on the available visualization functions, see the following link for the wpa R package introduction. 
+For a guided tour on the available visualization functions, see the following link for the wpa R package introduction.
 
 ## Learn more
 
