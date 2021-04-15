@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn.wwl.implement-office-telemetry.summary
+uid: learn.wwl.introduction-to-identity-synchronization.summary
 title: Summary
 metadata:
   title: Summary
@@ -10,6 +10,6 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-durationInMinutes: 2
+durationInMinutes: 1
 content: |
   [!include[](includes/7-summary.md)]
