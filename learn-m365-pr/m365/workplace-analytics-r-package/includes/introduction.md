@@ -9,7 +9,7 @@ To enable this flexibility and advanced analysis, you install R and begin to use
 In this module, you’ll learn to:
 
 - Explain what the wpa R package is, and how it can be useful when analyzing Workplace Analytics data
-- Install R, RStudio Desktop, and set up the wpa R package
+- Install R and set up the wpa R package
 - Validate and explore Workplace Analytics data with the wpa R package
 - Use the functions in the wpa R package to create your own analysis
 
