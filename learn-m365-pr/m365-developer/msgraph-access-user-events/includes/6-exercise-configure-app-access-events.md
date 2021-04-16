@@ -1,6 +1,6 @@
 Let's use all the concepts discussed up to this point and make changes to the sample app to access the calendar events.
 
-1. Locate the *index.html* file in your code editor. Add the following html code in the `<main>` tag just before its closing `</main>` tag.
+1. Locate the *index.html* file in your code editor. Add the following HTML code in the `<main>` tag just before its closing `</main>` tag.
 
     ```HTML
        <button id="btnShowEvents" style="display: none;" onclick="displayEvents();">Show events</button> 
