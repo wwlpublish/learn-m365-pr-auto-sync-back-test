@@ -1,0 +1,40 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.introduction-to-identity-synchronization.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 04/15/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/6-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Azure AD Connect provides which of the following features?"
+    choices:
+    - content: "Migrates Exchange public folders from your on-premises organization to Exchange Online"
+      isCorrect: false
+      explanation: "That's incorrect. Azure AD Connect doesn't provide this feature. Try again."
+    - content: "Password writeback that enables your users to change and reset their passwords in the cloud and have your on-premises password policy applied"
+      isCorrect: true
+      explanation: "That's correct. Azure AD Connect provides password writeback functionality that allows your users to change and reset their passwords in the cloud and have your on-premises password policy applied."
+    - content: "Determines the on-premises domain suffixes, identifies whether any domains are already verified with Microsoft 365, and validates the appropriate DNS records"
+      isCorrect: false
+      explanation: "That's incorrect. Azure AD Connect doesn't provide this feature. Try again."
+  - content: "Azure AD Connect includes an optional group writeback feature. Group writeback writes groups from Azure AD to on-premises Active Directory. Which type of groups can be written back from Azure AD to your on-premises Active Directory?"
+    choices:
+    - content: "Distribution groups"
+      isCorrect: false
+      explanation: "That's incorrect. The group writeback feature in Azure AD Connect doesn't write back Distribution groups from Azure AD to your on-premises Active Directory. Try again."
+    - content: "Mail-enabled security groups"
+      isCorrect: false
+      explanation: "That's incorrect. The group writeback feature in Azure AD Connect doesn't write back Mail-enabled security groups from Azure AD to your on-premises Active Directory. Try again."
+    - content: "Microsoft 365 groups"
+      isCorrect: true
+      explanation: "That's correct. The group writeback feature in Azure AD Connect allows all Microsoft 365 groups to be synchronized from Azure AD to your on-premises Active Directory."
