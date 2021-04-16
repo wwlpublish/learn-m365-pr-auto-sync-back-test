@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 02/17/2021
+  ms.date: 04/16/2021
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -49,6 +49,17 @@ quiz:
     - content: "Yammer device usage reports."
       isCorrect: true
       explanation: "That's correct. These reports provide information about devices types, the number of devices, operating system type, and more across the organization, or on an individual user level."
+  - content: "Microsoft Viva Insights bring together which Microsoft 365 services to empower individuals, managers, and leaders to improve organizational productivity and wellbeing?"
+    choices:
+    - content: "MyAnalytics, SharePoint, Yammer"
+      isCorrect: false
+      explanation: "That's incorrect. MyAnalytics is used for Viva Insights, but not SharePoint or Yammer."
+    - content: "Workplace Analytics, MyAnalytics, Delve"
+      isCorrect: false
+      explanation: "That's incorrect. Workplace Analytics and MyAnalytics are used for Viva Insights, but not Delve."
+    - content: "MyAnalytics, Workplace Analytics, Glint"
+      isCorrect: true
+      explanation: "That's correct! In addition to using Workplace Analytics and MyAnalytics, Viva Insights also uses Glint through LinkedIn."
   - content: "Which extensibility feature of Microsoft Teams allows for applications like GitHub to be integrated into a Teams channel?"
     choices:
     - content: "Message extensions."
