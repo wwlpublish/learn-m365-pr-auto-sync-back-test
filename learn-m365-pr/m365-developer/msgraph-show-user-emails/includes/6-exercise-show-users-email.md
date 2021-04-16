@@ -4,7 +4,7 @@ In this exercise, you'll extend the app to let users view their last 10 emails.
 
 Start by adding a call to Microsoft Graph to load the current user's last 10 emails.
 
-1. In your code editor, open the `graph.js` file.
+1. In your code editor, open the *graph.js* file.
 1. At the end of the file, add a new async function to retrieve the 10 last emails. Load each email's subject and the date and time when it was received.
 
     ```javascript
@@ -24,7 +24,7 @@ Start by adding a call to Microsoft Graph to load the current user's last 10 ema
 
 Next, extend the app with a button to load emails and add a placeholder to display them.
 
-1. In your code editor, open the `index.html` file.
+1. In your code editor, open the *index.html* file.
 1. Extend the content block with a button to load emails and a placeholder to display them.
 
     ```html
@@ -39,7 +39,7 @@ Next, extend the app with a button to load emails and add a placeholder to displ
 
 The last step is to request emails by using Microsoft Graph and show them in the placeholder.
 
-1. In your code editor, open the `ui.js` file.
+1. In your code editor, open the *ui.js* file.
 1. At the end of the file, add the `displayEmail` function.
 
     ```javascript

@@ -1,4 +1,4 @@
-You built a JavaScript app, connected it to Microsoft 365, and displayed the user's last 10 emails by using Microsoft Graph. Now let's extend the app so that users can browse through their emails in batches of 10 pages.
+You built a JavaScript app, connected it to Microsoft 365, and displayed the user's last 10 emails by using Microsoft Graph. Now let's extend the app so that users can browse through their emails in batches of 10 items.
 
 ## Retrieve paged data by using Microsoft Graph
 
