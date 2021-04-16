@@ -1,6 +1,6 @@
-In this exercise, you will complete the download capability in your app so you can click a filename to download the file.
+In this exercise, you'll complete the download capability in your app so you can select a filename to download the file.
 
-1.	Add this function at the bottom of **graph.js**:
+1.	Add this function at the bottom of *graph.js*.
 
     ```javascript
     async function downloadFile(file) {
@@ -18,7 +18,7 @@ In this exercise, you will complete the download capability in your app so you c
     }
     ```
     
-2.	In ui.js, add this line below the a.href = assignment statement:
+1.	In *ui.js*, add this line underneath the a.href = assignment statement.
 
     ```javascript
                 a.onclick = () => { downloadFile(file); };
@@ -48,4 +48,4 @@ In this exercise, you will complete the download capability in your app so you c
     }
     ```
 
-3. Now refresh the page; you should be able to click on a file to download it.
+1. Now refresh the page. You should be able to select a file to download it.

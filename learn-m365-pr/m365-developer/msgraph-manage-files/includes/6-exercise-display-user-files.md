@@ -1,12 +1,12 @@
-In this exercise, you'll extend the app to display a list of files in the user’s root folder in OneDrive for Business.
+In this exercise, you'll extend the app to display a list of files in the user's root folder in OneDrive for Business.
 
 ## Get the list of files
 
 Start by adding the Microsoft Graph call to the application.
 
-1.	In your code editor, open the **graph.js** file.
+1.	In your code editor, open the *graph.js* file.
 
-1.	At the end of the file, add a new async function named `getFiles()` to retrieve the list of files. Use the select function to retrieve the  `id`, `name`, `folder`, and `package` properties for each file.
+1.	At the end of the file, add a new async function named `getFiles()` to retrieve the list of files. Use the select function to retrieve the `id`, `name`, `folder`, and `package` properties for each file.
 
     ```javascript
     // Get files in root of user's OneDrive
@@ -23,14 +23,14 @@ Start by adding the Microsoft Graph call to the application.
         }
     }
     ```
-    
+
 ## Add an HTML placeholder to show the files
 
 Next, add HTML that will display the list of files.
 
-1. In your code editor, open the **index.html** file.
+1. In your code editor, open the *index.html* file.
 
-1. Extend the `content` block with a horizontal rule, label, and unordered list as shown next.
+1. Extend the `content` block with a horizontal rule, label, and unordered list, as shown next.
 
     ```html
     <div id="content" style="display: none;">
@@ -46,7 +46,7 @@ Next, add HTML that will display the list of files.
 
 The last step is to add a small amount of code to call the function you added earlier and display the list of files.
 
-1. In your code editor, open the **ui.js** file.
+1. In your code editor, open the *ui.js* file.
 
 1. At the end of the file, add the `displayFiles()` function.
 
@@ -71,9 +71,9 @@ The last step is to add a small amount of code to call the function you added ea
     }
     ```
 
-    Notice the `if` statement skips over any folders or packages to only show the files; there is no way to filter these in the API at this time. Also note that the files are rendered as anchor tags (hyperlinks); in the next exercise you will add a feature to download each file when this link is clicked.
+    Notice the `if` statement skips over any folders or packages to only show the files. There's no way to filter these files in the API at this time. Also note that the files are rendered as anchor tags (hyperlinks). In the next exercise, you'll add a feature to download each file when this link is selected.
 
-3. At the end of the `displayUI()` function, right before the closing brace, add a call to `displayFiles()`:
+1. At the end of the `displayUI()` function, right before the closing brace, add a call to `displayFiles()`.
 
     ```javascript
         // beginning of function omitted for brevity
@@ -82,27 +82,27 @@ The last step is to add a small amount of code to call the function you added ea
         displayFiles();
     }
     ```
-    
+
 ## Run your app
 
-You’ve now extended your app to show some of the user’s files using Microsoft Graph! Ensure there are some files in the root folder of the user’s OneDrive, and then run the app locally.
+You've now extended your app to show some of the user's files by using Microsoft Graph. Ensure there are some files in the root folder of the user's instance of OneDrive, and then run the app locally.
 
-1. Preview the web app by executing in the terminal:
+1. Preview the web app by executing the following command in the terminal:
 
     ```bash
     npm start
     ```
 
-2. Your browser should be pointing to `http://localhost:8080`.
+1. Your browser should point to `http://localhost:8080`.
 
-3. Click the Sign in with Microsoft button to sign in with your Microsoft 365 account.
+1. Select the **Sign in with Microsoft** button to sign in with your Microsoft 365 account.
 
-4. If you’re running the app for the first time, you will be prompted to grant the app access to your files. To continue, consent the request.
+1. If you're running the app for the first time, you'll be prompted to grant the app access to your files. To continue, consent to the request.
 
-    :::image type="content" source="../media/4-consent-2.png" alt-text="Consent form to allow reading files" border="false":::
+    :::image type="content" source="../media/4-consent-2.png" alt-text="Screenshot that shows the consent form to allow reading files." border="false":::
 
-5. You should see the list of files.
+1. You should see the list of files.
 
-    :::image type="content" source="../media/5-files.png" alt-text="List of files" border="false":::
+    :::image type="content" source="../media/5-files.png" alt-text="Screenshot that shows the list of files." border="false":::
 
-6. Keep your Node.js server running as you’ll use it in the next part of the exercise.
+1. Keep your Node.js server running because you'll use it in the next part of the exercise.
