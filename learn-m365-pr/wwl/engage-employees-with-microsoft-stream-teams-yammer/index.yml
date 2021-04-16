@@ -2,13 +2,13 @@
 uid: learn.wwl.engage-employees-with-microsoft-stream-teams-yammer
 metadata:
   title: Engage employees with Microsoft Stream, Teams, and Yammer
-  description: "Engage employees with Microsoft Stream, Teams, and Yammer"
-  ms.date: 02/17/2021
+  description: "Engage employees with Microsoft Teams, Viva, and Yammer"
+  ms.date: 04/16/2021
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Engage employees with Microsoft Stream, Teams, and Yammer
+title: Engage employees with Microsoft Teams, Viva, and Yammer
 summary: Learn about the solutions offered as a part of Microsoft 365 and how they can help foster connections and engage employees.
 abstract: |
   Upon completion of this module, the learner will be able to:
@@ -32,6 +32,7 @@ units:
 - learn.wwl.engage-employees-with-microsoft-stream-teams-yammer.introduction
 - learn.wwl.engage-employees-with-microsoft-stream-teams-yammer.chat-collaborate-teams
 - learn.wwl.engage-employees-with-microsoft-stream-teams-yammer.online-meetings-teams
+- learn.wwl.engage-employees-with-microsoft-stream-teams-yammer.employee-experience-viva
 - learn.wwl.engage-employees-with-microsoft-stream-teams-yammer.connect-yammer
 - use-stream-to-share-knowledge...tdb
 - learn.wwl.engage-employees-with-microsoft-stream-teams-yammer.extend-teams-with-power-platform-apps
