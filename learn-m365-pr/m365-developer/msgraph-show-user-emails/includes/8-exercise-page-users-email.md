@@ -38,7 +38,7 @@ Start by updating the `getEmails` function to load emails in batches of 10 items
     return await query.get();
     ```
 
-1. The complete getEmails function should look as follows:
+1. The complete `getEmails` function should look as follows:
 
     ```javascript
     async function getEmails(page) {
@@ -79,7 +79,7 @@ You've extended the `getEmails` function to load emails with support for paging.
 
 With the app updated to let users navigate through the paged results, the final step is to add functionality to handle changing pages.
 
-1. In your code editor, open the `ui.js` file.
+1. In your code editor, open the *ui.js* file.
 1. Before the `displayEmail` function, define a new variable named `page` and set its value to `1`.
 1. In the `displayEmail` function, update the call to get the `getEmails` function to include the current page number.
 
@@ -116,7 +116,7 @@ With the app updated to let users navigate through the paged results, the final 
     nextEmailsButton.style = `display: ${!emails['@odata.nextLink'] ? 'none' : 'inline'}`;
     ```
 
-1. The complete displayEmail function should look as follows:
+1. The complete `displayEmail` function should look as follows:
 
     ```javascript
     var page = 1;
@@ -175,4 +175,4 @@ You've extended your app to show a user's emails by using Microsoft Graph in bat
 1. After you sign in with your account, select the **Show email** button.
 1. You should see a list of the user's last 10 emails displayed in the app.
 1. If there are more than 10 emails in your mailbox, you'll see buttons that allow you to view the next or previous 10 messages.
-1. Stop the Node.js server by selecting **Ctrl+C** in the terminal window.
+1. Stop the Node.js server by selecting Ctrl+C in the terminal window.
