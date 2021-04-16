@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-synchronized-identities.manage-users-with-directory-synchronization
+title: Manage users with directory synchronization
+metadata:
+  title: Manage users with directory synchronization
+  description: "Manage users with directory synchronization"
+  ms.date: 04/15/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 9
+content: |
+  [!include[](includes/2-manage-users-with-directory-synchronization.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Administrator for Northwind Traders, you accidentally deleted a user account in your on-premises Active Directory. Because the deletion was synchronized to Microsoft 365, the user object was put in a deleted state and no longer appears in the Microsoft 365 Active Users list. Since you prefer to use Windows PowerShell to do system maintenance, which PowerShell cmdlet should you use to recover the deleted user?"
+    choices:
+    - content: "Recover-MsolUser"
+      isCorrect: false
+      explanation: "That's incorrect. This cmdlet won't recover the deleted user. Try again."
+    - content: "Recycle-MsolUser"
+      isCorrect: false
+      explanation: "That's incorrect. This cmdlet won't recover the deleted user. Try again."
+    - content: "Restore-MsolUser"
+      isCorrect: true
+      explanation: "That's correct. Restore-MsolUser will restore the deleted user to an active state."
