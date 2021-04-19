@@ -140,4 +140,5 @@ As a prerequisite for this exercise, make sure that you completed the previous e
 4.	Open your browser and go to http://localhost:3000
 5.	Sign in with your Microsoft 365 developer account. Consent to the required permissions and select **Accept**.
 6.	A list of files will appear in your app with information about the person who shared the file with you and the last modified time:
+
 :::image type="content" source="../media/5-final.png" alt-text="A screenshot that shows how Microsoft Graph Toolkit People component.":::
