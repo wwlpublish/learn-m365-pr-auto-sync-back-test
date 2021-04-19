@@ -37,7 +37,8 @@ The wpa R package includes the following essential and advanced features:
 - **Information value** - Determine important features with employee sentiment data.
 - **Working patterns and flexibility** - Measure and benchmark working patterns. 
 
-
+ 
+ 
 The R logo is © 2016 The R Foundation. No changes have been made to the R logo in this module. [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/?azure-portal=true)
 
 ## Learn more
