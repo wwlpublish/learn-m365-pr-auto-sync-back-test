@@ -55,4 +55,4 @@ Microsoft Intune enables organizations to manage devices and applications. The P
 
 ### Power BI URLs for allowlisting
 
-The Power BI online service, also known as the Power BI SaaS (Software as a Service) application, requires connectivity to the internet. As such, certain endpoints must be reachable when using the Power BI online service. For more information, see [Power BI URLs for allowlisting](https://docs.microsoft.com/power-bi/power-bi-whitelist-urls?view=powerbi-ps?azure-portal=true).
+The Power BI online service, also known as the Power BI SaaS (Software as a Service) application, requires connectivity to the internet. As such, certain endpoints must be reachable when using the Power BI online service. For more information, see [Add Power BI URLs to your allow list](https://docs.microsoft.com/power-bi/admin/power-bi-allow-list-urls?azure-portal=true).
