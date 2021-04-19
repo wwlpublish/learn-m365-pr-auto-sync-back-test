@@ -3,5 +3,5 @@ The Microsoft Graph Toolkit components provide a pre-built UI that looks and fee
 If you want to match your branding with the components and change the way they look or the type of data shown, you can customize the components by using attributes, CSS custom properties, and templating.
 
 ## More resources
-- Explore Microsoft Graph Toolkit components in an interactive playground
-- Styling components documentation
+- [Explore Microsoft Graph Toolkit components in an interactive playground](https://mgt.dev)
+- [Styling components documentation](https://docs.microsoft.com/graph/toolkit/customize-components/style?WT.mc_id=m365-19989-cxa)
