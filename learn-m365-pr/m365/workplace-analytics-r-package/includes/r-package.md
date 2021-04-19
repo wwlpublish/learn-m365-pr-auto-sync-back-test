@@ -4,10 +4,6 @@ The wpa R package is a set of tools and functions to analyze and visualize data 
 
 ![wpa package in R](../media/r-package-wpa.png)
 
-> [!NOTE]
-> The R logo is © 2016 The R Foundation. No changes have been made to the R logo in this module. [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/?azure-portal=true)
-
-
 The functions in the wpa R package provide low-code, pre-built analyses. These functions are designed to help analysts customize their analysis and go beyond the insights gained from the Power BI templates and Workplace Analytics queries.
 
 ## Why use R for Workplace Analytics?
@@ -39,7 +35,9 @@ The wpa R package includes the following essential and advanced features:
 - **Text mining** - Analyze meeting subject lines using the text mining function.
 - **Clustering and community detection** - Identify organically formed communities in your organization.
 - **Information value** - Determine important features with employee sentiment data.
-- **Working patterns and flexibility** - Measure and benchmark working patterns.
+- **Working patterns and flexibility** - Measure and benchmark working patterns. 
+
+The R logo is © 2016 The R Foundation. No changes have been made to the R logo in this module. [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/?azure-portal=true)
 
 ## Learn more
 
