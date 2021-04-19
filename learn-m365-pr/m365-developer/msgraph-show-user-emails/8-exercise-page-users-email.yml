@@ -2,7 +2,7 @@
 uid: learn-m365.msgraph-show-user-emails.8-exercise-page-users-email
 metadata:
   title: Exercise – Page through a user's email
-  description: In this exercise, you'll learn how to page through a large collections of data exposed through Microsoft Graph.
+  description: In this exercise, you'll learn how to page through a large collection of data exposed through Microsoft Graph.
   ms.date: 03/30/2021
   author: waldekmastykarz
   ms.author: wmastyka
