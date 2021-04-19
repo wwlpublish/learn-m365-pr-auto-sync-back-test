@@ -14,7 +14,7 @@ Select the CRAN mirror link. Don't choose a mirror that is close to you geograph
 ![Install R](../media/get-r.png)
 
 > [!NOTE]
-> You also have the option to download and install an integrated development environment (IDE) to improve your programming experience. IDEs provide useful features such as code auto-complete, syntax checks, and viewing panels not available with a plain text notepad. RStudio is an IDE commonly used for R.
+> You also have the option to download and install an integrated development environment (IDE) to improve your programming experience. IDEs provide useful features such as code auto-complete, syntax checks, and viewing panels not available with a plain text notepad. RStudio is a commonly used IDE for R.
 
 ## 2. Install the wpa R package
 
@@ -76,7 +76,6 @@ Now that you have downloaded and installed R and loaded the wpa R package, you a
 
 - [Download and install R](http://www.r-project.org?azure-portal=true)
 - [Download and install RStudio Desktop](https://www.rstudio.com/products/rstudio/download?azure-portal=true)
-- [Download and install Visual Studio](https://visualstudio.microsoft.com/downloads/?azure-portal=true)
 - [Download an installation file and install it locally](https://github.com/microsoft/wpa/releases?azure-portal=true)
 - [Learn more about tidyverse](https://www.tidyverse.org?azure-portal=true)
 - [wpa R package cheat sheet](https://github.com/microsoft/wpa/blob/main/man/figures/wpa%20cheatsheet.pdf?azure-portal=true)
