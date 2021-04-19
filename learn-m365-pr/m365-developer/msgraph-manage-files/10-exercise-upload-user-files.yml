@@ -1,7 +1,7 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.msgraph-manage-files.10-exercise-upload-user-files
 metadata:
-  title: Exercise – Connect a JavaScript app to Microsoft 365
+  title: Exercise - Connect a JavaScript app to Microsoft 365
   description: In this exercise, you'll create a simple JavaScript app. You'll configure it to use your Azure Active Directory application registration and let users sign in with their work account by using the Microsoft Authentication Library SDK.
   ms.date: 03/31/2021
   author: BobGerman
