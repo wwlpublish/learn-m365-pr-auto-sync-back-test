@@ -16,7 +16,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As the Enterprisse Administrator for Contoso, you want to create chatbots for your customers to engage with. Which version of Power Virtual Agents should you use?"
+  - content: "As the Enterprise Administrator for Contoso, you want to create chatbots for your customers to engage with. Which version of Power Virtual Agents should you use?"
     choices:
     - content: "Microsoft Teams app"
       isCorrect: false
@@ -26,4 +26,4 @@ quiz:
       explanation: "That's correct. You would use this app when you're an IT admin, and you want to create chatbots for your customers to engage with."
     - content: "Power Pro app"
       isCorrect: false
-      explanation: "That's incorrect. This isn't a version of Power Virtual Agents. Try again."
+      explanation: "That's incorrect. This item isn't a version of Power Virtual Agents. Try again."
