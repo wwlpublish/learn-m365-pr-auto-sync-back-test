@@ -38,7 +38,7 @@ The following scenarios describe different ways a hybrid environment can distrib
 **Recommendation:**  The MX record for your domain needs to point to your on-premises IP address. To accomplish this task, use the following best practices:
 
 1.  Add your custom domains in Microsoft 365. To prove that you own the domains, follow the instructions in [Add users and domains](https://go.microsoft.com/fwlink/p/?LinkId=708999?azure-portal=true).
-2.  [Create user mailboxes in Exchange Online](https://technet.microsoft.com/en-us/library/jj907304%28v=exchg.150%29.aspx) or [move all users' mailboxes to Office 365](https://go.microsoft.com/fwlink/p/?LinkId=524030?azure-portal=true).
+2.  [Create user mailboxes in Exchange Online](https://technet.microsoft.com/library/jj907304%28v=exchg.150%29.aspx) or [move all users' mailboxes to Office 365](https://go.microsoft.com/fwlink/p/?LinkId=524030?azure-portal=true).
 3.  Update the DNS records for the domains that you added in step 1. (If you're unsure how to do update the DNS records, follow the instructions on [this page](https://go.microsoft.com/fwlink/p/?LinkID=534835?azure-portal=true).) The following DNS records control mail flow:
     
      *  **MX record**: Point your MX record to your on-premises server in the following format: mail.&lt;domainKey&gt;.com For example, if your domain is contoso.com, the MX record should be: .mail.contoso.com.
