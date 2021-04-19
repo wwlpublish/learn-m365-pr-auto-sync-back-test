@@ -45,7 +45,7 @@ If at any point you want to understand more about the functions, you can:
 - Enter a question mark in the console followed by the function name and run it.
 For example: `?keymetrics_scan`
 - View the underlying source code of the function with `View()`.
-For example: `view(keymetrics_scan)`
+For example: `View(keymetrics_scan)`
 - Visit the function reference page online (see **Learn more** section).
 
 ## Explore data with reports
@@ -158,7 +158,7 @@ Output:
 ![Generated workload email hours summary](../media/gen-workload-summary.png)
 
 
-The `create_bar()` function also accepts the `hrvar`, `return()`, and `mingroup` arguments.
+The `create_bar()` function also accepts the `hrvar`, `return`, and `mingroup` arguments.
 
 
 ## Advanced functionalities for custom plots
