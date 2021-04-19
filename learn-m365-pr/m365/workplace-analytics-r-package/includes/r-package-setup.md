@@ -21,13 +21,13 @@ Select the CRAN mirror link. Don't choose a mirror that is close to you geograph
 Before you can get started with the wpa package in R, you need to do a one-time install of the package to ensure it is downloaded and set up on your computer. The wpa R package is available on the CRAN. To automatically install it, run the following in R:
 
 ```R
-install.packages(wpa)
+install.packages("wpa")
 ```
 
 > [!IMPORTANT]
 > It is a best practice to restart your R session both before and after running this installation.
 
-The wpa package is dependent on multiple other R packages.  If you are prompted to update the wpa package, it is recommended you update all CRAN packages.
+The wpa package is dependent on multiple other R packages. If you are prompted to update the wpa package, it is recommended you update all CRAN packages.
 
 ## 3. Load the wpa R package
 
