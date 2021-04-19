@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-azure-ad-application-proxy.explore
+title: Explore Azure AD Application Proxy
+metadata:
+  title: Explore Azure AD Application Proxy
+  description: "Explore Azure AD Application Proxy"
+  ms.date: 04/19/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/2-explore.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which of the following items is a key benefit of using Azure Active Directory Application Proxy?"
+    choices:
+    - content: "It helps on-premises workers by publishing on-premises applications to be accessed over the internet"
+      isCorrect: false
+      explanation: "That's incorrect. This is not a key benefit of using Azure Active Directory Application Proxy. Try again."
+    - content: "It makes user access to company applications more secure by requiring VPN tunneling"
+      isCorrect: false
+      explanation: "That's incorrect. This is not a key benefit of using Azure Active Directory Application Proxy. Try again."
+    - content: "It supports remote workers by publishing on-premises applications to be accessed over the internet"
+      isCorrect: true
+      explanation: "That's correct. Azure Active Directory Application Proxy helps you support remote workers by publishing on-premises applications to be accessed over the internet. You can publish these applications through the Azure portal to provide secure remote access from outside your network."
