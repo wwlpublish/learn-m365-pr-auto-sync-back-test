@@ -11,10 +11,10 @@ metadata:
 title: Explore Power Apps
 summary: This module examines the key features of Power Apps and provides instruction on how to manage the Power Apps environment, connect to data sources, and create, test, monitor, and run a Power App.
 abstract: |
-  By the end of this module, you will be able to:
-  - Describe what Power Apps are, including their business impact and primary components
+  By the end of this module, you'll be able to:
+  - Describe Power Apps functionality, including its business impact and primary components
   - Manage the Power Apps environment in the Power Apps admin center and with Windows PowerShell
-  - Describe how Power Apps connect to data sources
+  - Describe how Power Apps connects to data sources
   - Create, test, and monitor a canvas Power App
   - Run canvas and mobile Power Apps
 prerequisites: |
