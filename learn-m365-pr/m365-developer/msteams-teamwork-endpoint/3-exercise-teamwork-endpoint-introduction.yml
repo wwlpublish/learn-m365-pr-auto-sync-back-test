@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.msteams-teamwork-endpoint.3-exercise-teamwork-endpoint-introduction
 metadata:
-  title: Teamwork endpoint introduction
+  title: Exercise - Teamwork endpoint introduction
   description: In this exercise, you’ll learn how to create a project using the Microsoft Teams Toolkit for Visual Studio and configure the custom Microsoft Teams app with single sign-on to submit requests to Microsoft Graph.
-  ms.date: 03/12/2021
+  ms.date: 04/06/2021
   author: andrewconnell
   ms.author: suzanz
   ms.topic: interactive-tutorial

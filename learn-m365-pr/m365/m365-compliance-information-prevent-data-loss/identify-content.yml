@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-compliance-information-prevent-data-loss.identify-content
+title: Identify content to protect
+metadata:
+  title: Identify content to protect
+  description: Learn how to identify which content you need to protect in your organization. 
+  ms.date: 03/07/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+
+durationInMinutes: 5
+content: |
+  [!include[](includes/identify-content.md)]
