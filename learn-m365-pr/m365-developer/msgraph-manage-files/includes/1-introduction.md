@@ -22,7 +22,7 @@ After completing this module, you'll be able to:
 
 - Configure a JavaScript app to access the Microsoft Graph API.
 - List and download files from a user's instance of OneDrive for Business from a single-page JavaScript application.
-- Upload files from a user's instance of OneDrive for Business from a single-page JavaScript application.
+- Upload files to a user's instance of OneDrive for Business from a single-page JavaScript application.
 
 > [!TIP]
 > If you use Microsoft 365 in your daily work and plan to do this exercise in a development tenant, which is suggested, you might find it useful to work in private or in "incognito" mode in the browser. You might even choose to use a different browser or browser profile than you normally use in production. Microsoft Edge, Google Chrome, and Mozilla Firefox all support browser profiles that maintain separate browser cookies, favorites, and history, and they're very handy when you need to switch tenants.

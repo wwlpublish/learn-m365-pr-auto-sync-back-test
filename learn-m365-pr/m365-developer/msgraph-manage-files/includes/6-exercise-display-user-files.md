@@ -71,7 +71,7 @@ The last step is to add a small amount of code to call the function you added ea
     }
     ```
 
-    Notice the `if` statement skips over any folders or packages to only show the files. There's no way to filter these files in the API at this time. Also note that the files are rendered as anchor tags (hyperlinks). In the next exercise, you'll add a feature to download each file when this link is selected.
+    Notice the `if` statement skips over any folders or packages to only show the files. There's no way to filter these items in the API at this time. Also note that the files are rendered as anchor tags (hyperlinks). In the next exercise, you'll add a feature to download each file when this link is selected.
 
 1. At the end of the `displayUI()` function, right before the closing brace, add a call to `displayFiles()`.
 
