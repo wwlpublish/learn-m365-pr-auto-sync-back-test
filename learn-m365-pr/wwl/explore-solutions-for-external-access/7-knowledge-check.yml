@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-solutions-for-external-access.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 04/19/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/7-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Administrator for Contoso, you want to implement Azure Active Directory (Azure AD) Business-to-Business (B2B) collaboration. Azure AD B2B will enable Contoso to maintain control over its corporate data while securely sharing its applications and services with guest users from another organization. You want to enable guest users to sign in to your apps and services with their own work, school, or social identities. What happens if a guest user doesn't have a Microsoft account or an Azure AD account?"
+    choices:
+    - content: "A Contoso admin with User Management permissions must create a Microsoft 365 account for the guest user"
+      isCorrect: false
+      explanation: "That's incorrect. A Contoso admin with User Management permissions does not have to create a Microsoft 365 account for the guest user. Try again."
+    - content: "An account is created for the guest user when they redeem their invitation"
+      isCorrect: true
+      explanation: "That's correct. If the guest user doesn't have a Microsoft account or an Azure AD account, one is created for them when they redeem their invitation."
+    - content: "Contoso must manage the external account and password of the guest user"
+      isCorrect: false
+      explanation: "That's incorrect. With Azure AD B2B, there's no external administrative overhead required by your organization. Try again."
+  - content: "Microsoft Teams enables communication and collaboration with people outside your organization. Which of the following methods is a way in which Teams can make that happen?"
+    choices:
+    - content: "External access (federation)"
+      isCorrect: true
+      explanation: "That's correct. Teams provides two different ways to enable communication and collaboration with people outside your organization - external access (federation) and guest access."
+    - content: "Kerberos authentication"
+      isCorrect: false
+      explanation: "That's incorrect. Kerberos authentication isn't a way in which Teams enables communication and collaboration with people outside your organization. Try again."
+    - content: "OAuth 2.0 authentication"
+      isCorrect: false
+      explanation: "That's incorrect. The Consent Framework is built on OAuth 2.0 authentication. It's not a way in which Teams enables communication and collaboration with people outside your organization. Try again."
+  - content: "As the Enterprise Administrator for Northwind Traders, you're concerned about data security when requesting support from Microsoft. If you need a Microsoft support engineer to help troubleshoot and fix an issue, the engineer will have unlimited access to your data. What can you do to control the support engineer's access to your data?"
+    choices:
+    - content: "Create a DLP policy that provides limited access to the support engineer once a support case is opened"
+      isCorrect: false
+      explanation: "That's incorrect. That's not what you should do to control the support engineer's access to your data. Try again."
+    - content: "Require the support engineer submit a customer lockbox request"
+      isCorrect: true
+      explanation: "That's correct. Customer lockbox requests enable you to control whether to give the support engineer access to your data for a specified period of time."
+    - content: "Give the support engineer remote access to your computer so that you can monitor every action the engineer takes"
+      isCorrect: false
+      explanation: "That's incorrect. That's not what you should do to control the support engineer's access to your data.  Try again."
