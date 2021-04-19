@@ -1,0 +1,40 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-power-virtual-agents.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 04/19/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/5-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Administrator for Lucerne Publishing, you're interested in using Power Virtual Agents to create chatbots. You want to use advanced concepts, such as entities and variables, but only have the chatbots available internally. Which version of Power Virtual Agents should you use?"
+    choices:
+    - content: "Microsoft Teams app"
+      isCorrect: true
+      explanation: "That's correct. You would use this app when you want to use advanced concepts, such as entities and variables, but have the chatbots available only internally."
+    - content: "Web app"
+      isCorrect: false
+      explanation: "That's incorrect. You would use this app when you're familiar with advanced chatbot concepts, such as entities and variables, and you want to create complex chatbots. But this version is for creating chatbots that your customers will engage with. Try again."
+    - content: "Power Premium app"
+      isCorrect: false
+      explanation: "That's incorrect. This isn't a version of Power Virtual Agents. Try again."
+  - content: "As the Enterprise Administrator for Contoso, you want to use Power Virtual Agents to create a chatbot. You've completed the first step in the process, which is creating the bot. What must you do next before you can define bot responses and the overall bot conversation?"
+    choices:
+    - content: "Specify a custom Power Apps environment for your Power Virtual Agents"
+      isCorrect: false
+      explanation: "That's incorrect. This is one of the optional things that you can do in the first step when you created the bot. Try again."
+    - content: "Interact with your bot using the Test Canvas"
+      isCorrect: false
+      explanation: "That's incorrect. This is one of the optional things that you can do in the first step when you created the bot. Try again."
+    - content: "Create a topic for the bot"
+      isCorrect: true
+      explanation: "That's correct. Once you create the bot, you'll create the topic for that bot. A topic is the dialog tree that specifies how your bot responds to a user's question."
