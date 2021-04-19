@@ -242,7 +242,7 @@ If you:
   :::column:::
     
 
-Third-party migration (for example, IBM Domino and Novell Groupwise)
+Third-party migration (for example, IBM Domino and Novell Group wise)
 
 
   :::column-end:::
@@ -263,7 +263,7 @@ Third-party migration tool for migration.
   :::column:::
     
 
-If none of the previously mentioned options work for you and you want to migrate your user’s mailboxes to Microsoft365.
+If none of the previously mentioned options work for you and you want to migrate your user’s mailboxes to Microsoft 365.
 
 
   :::column-end:::
