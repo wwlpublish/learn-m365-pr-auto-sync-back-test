@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-power-apps.manage-environment
+title: Manage the Power Apps environment
+metadata:
+  title: Manage the Power Apps environment
+  description: "Manage the Power Apps environment"
+  ms.date: 04/19/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/3-manage-environment.md)]
