@@ -14,7 +14,7 @@ Select the CRAN mirror link. Don't choose a mirror that is close to you geograph
 ![Install R](../media/get-r.png)
 
 > [!NOTE]
-> You also have the option to download and install an integrated development environment (IDE) to improve your programming experience. IDEs provide useful features such as code auto-complete, syntax checks, and viewing panels not available with a plain text notepad. RStudio and Visual Studio are recommended IDEs for R.
+> You also have the option to download and install an integrated development environment (IDE) to improve your programming experience. IDEs provide useful features such as code auto-complete, syntax checks, and viewing panels not available with a plain text notepad. RStudio is an IDE commonly used for R.
 
 ## 2. Install the wpa R package
 
