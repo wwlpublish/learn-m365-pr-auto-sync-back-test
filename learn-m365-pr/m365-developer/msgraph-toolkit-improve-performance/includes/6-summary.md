@@ -4,5 +4,5 @@ When loading arbitrary data with the **Get** component, you also ensured that yo
 
 ## Additional resources
 - [Explore Microsoft Graph Toolkit components in an interactive playground](https://mgt.dev/)
-- [Caching Microsoft Graph calls in components](https://docs.microsoft.com/en-us/graph/toolkit/customize-components/cache?WT.mc_id=m365-19989-cxa)
+- [Caching Microsoft Graph calls in components](https://docs.microsoft.com/graph/toolkit/customize-components/cache?WT.mc_id=m365-19989-cxa)
 - [Microsoft Graph Toolkit Get component](https://docs.microsoft.com/graph/toolkit/components/get?WT.mc_id=m365-19989-cxa)
