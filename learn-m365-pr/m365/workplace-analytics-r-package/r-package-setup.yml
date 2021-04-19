@@ -4,11 +4,11 @@ title: Set up the wpa R package
 metadata:
   title: Set up the wpa R package
   description: Learn how to set up the wpa R package. 
-  ms.date: 04/07/2021
-  author: lizap
-  ms.author: elizapo
+  ms.date: 04/09/2021
+  author: jelathro
+  ms.author: jelathro
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 5
+durationInMinutes: 8
 content: |
   [!include[](includes/r-package-setup.md)]

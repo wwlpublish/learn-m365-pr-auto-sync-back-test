@@ -4,11 +4,11 @@ title: Summary
 metadata:
   title: Summary
   description: Review what you've learned about using the wpa R package with Workplace Analytics.
-  ms.date: 04/07/2021
-  author: lizap
-  ms.author: elizapo
+  ms.date: 04/09/2021
+  author: jelathro
+  ms.author: jelathro
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 1
+durationInMinutes: 3
 content: |
   [!include[](includes/summary.md)]
