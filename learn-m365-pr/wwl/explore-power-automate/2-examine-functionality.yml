@@ -21,9 +21,9 @@ quiz:
     - content: "The user was attempting to create a UI flow"
       isCorrect: false
       explanation: "That's incorrect. The flow type wouldn't explain why the user can't create this flow. Try again."
-    - content: "Automated daily data uploads can only made to Exchange"
+    - content: "Automated daily data uploads can only be made to Exchange"
       isCorrect: false
-      explanation: "That's incorrect. This isn't a valid reason as to why the user couldn't create the flow. Try again."
+      explanation: "That's incorrect. This item isn't a valid reason as to why the user couldn't create the flow. Try again."
     - content: "The user doesn't have permission to schedule an automated daily data upload to SharePoint"
       isCorrect: true
       explanation: "That's correct. Power Automate doesn't circumvent security in any way. If the user doesn't have permission to do a certain action, the user can't build a flow to do that same action."
