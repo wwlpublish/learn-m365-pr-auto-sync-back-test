@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-microsoft-teams.analyze-teams-infrastructure
+title: Analyze the Teams infrastructure
+metadata:
+  title: Analyze the Teams infrastructure
+  description: "Analyze the Teams infrastructure"
+  ms.date: 04/19/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/2-analyze-teams-infrastructure.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Administrator for Contoso, you're planning to implement Microsoft Teams in the next phase of your Microsoft 365 deployment. After discussing your plans with Contoso's senior leadership team, you were contacted by the VP of Manufacturing, who wants to use Microsoft Teams to invite a select group of Contoso scientists to work together on a top-secret project. You were asked to make this happen. What can you create in Microsoft Teams to support this effort?"
+    choices:
+    - content: "A channel"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't what you would create in Teams to invite a select group of users to work together. Try again."
+    - content: "A public team"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't what you would create in Teams to invite a select group of users to work together. Try again."
+    - content: "A private team"
+      isCorrect: true
+      explanation: "That's correct. A private team is closed to only invited users. This item is what you would create in Teams to invite a select group of users to work together."

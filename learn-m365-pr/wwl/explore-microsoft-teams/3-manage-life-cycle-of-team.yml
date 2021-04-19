@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-microsoft-teams.manage-life-cycle-of-team
+title: Manage the life cycle of a team
+metadata:
+  title: Manage the life cycle of a team
+  description: "Manage the life cycle of a team"
+  ms.date: 04/19/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/3-manage-life-cycle-of-team.md)]
