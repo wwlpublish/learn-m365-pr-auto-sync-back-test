@@ -1,0 +1,45 @@
+### YamlMime:Module
+uid: learn.wwl.explore-exchange-online
+metadata:
+  title: Explore Exchange Online
+  description: "Explore Exchange Online"
+  ms.date: 04/19/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Explore Exchange Online
+summary: This module examines the key features of Exchange Online, including how to create and manage recipients, anti-malware policies, and anti-spam policies, and how to migrate mailboxes in a hybrid deployment.
+abstract: |
+  By the end of this module, you will be able to:
+  - Describe the most common recipient types that are available in Exchange Online
+  - Manage anti-malware and anti-spam policies in Exchange Online
+  - Describe migration and coexistence strategies and understand the differences between them
+  - Select the right mail migration strategy for your organization
+  - Determine when you want to change the DNS MX record for a domain in a Microsoft 365 migration to point to Exchange Online
+  - Describe the different ways to migrate mailboxes to Microsoft 365 in a hybrid Exchange environment
+prerequisites: |
+  None
+iconUrl: /learn/achievements/exchange-online-explore.svg
+levels:
+- intermediate
+roles:
+- administrator
+- solution-architect
+- technology-manager
+products:
+- azure-active-directory
+- m365
+- office-365
+units:
+- learn.wwl.explore-exchange-online.introduction
+- learn.wwl.explore-exchange-online.create-manage-recipients
+- learn.wwl.explore-exchange-online.manage-anti-malware-anti-spam-policies
+- learn.wwl.explore-exchange-online.plan-migration-strategies
+- learn.wwl.explore-exchange-online.select-right-migration-option-for-your-organization
+- learn.wwl.explore-exchange-online.change-dns-mx-records-during-microsoft-365-migration
+- learn.wwl.explore-exchange-online.migrate-mailboxes-to-microsoft-365-hybrid-deployment
+- learn.wwl.explore-exchange-online.knowledge-check
+- learn.wwl.explore-exchange-online.summary
+badge:
+  uid: learn.wwl.explore-exchange-online.badge
