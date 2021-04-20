@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.workplace-analytics-r-package.validate-data-in-r
+title: Validate Workplace Analytics data in R
+metadata:
+  title: Validate Workplace Analytics data in R
+  description: Learn how to validate your Workplace Analytics data using the wpa r package.
+  ms.date: 04/09/2021
+  author: jelathro
+  ms.author: jelathro
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 12
+content: |
+  [!include[](includes/validate-data-in-r.md)]
