@@ -9,3 +9,5 @@ After completing this module, you'll be able to:
  *  Implement the Power Platform Center of Excellence starter kit.
  *  Describe the basic features of the Power Platform Admin center.
  *  Describe the Power Platform security model.
+
+ 
