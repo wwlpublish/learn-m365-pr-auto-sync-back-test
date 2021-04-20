@@ -23,7 +23,7 @@ quiz:
       explanation: "That's correct. The focus of the Microsoft Power Platform CoE Starter Kit is on Power Apps and Power Automate."
     - content: "Power BI"
       isCorrect: false
-      explanation: "That's incorrect. This is not one of the Power Platform components the Microsoft Power Platform CoE Starter Kit focuses on. Try again."
+      explanation: "That's incorrect. This item isn't one of the Power Platform components the Microsoft Power Platform CoE Starter Kit focuses on. Try again."
     - content: "Power Virtual Agents"
       isCorrect: false
-      explanation: "That's incorrect. This is not one of the Power Platform components the Microsoft Power Platform CoE Starter Kit focuses on. Try again."
+      explanation: "That's incorrect. This item isn't one of the Power Platform components the Microsoft Power Platform CoE Starter Kit focuses on. Try again."
