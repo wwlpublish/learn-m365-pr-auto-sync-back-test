@@ -30,7 +30,7 @@ To prepare your environment for Azure AD Application Proxy, you first need to en
      *  mscrl.microsoft.com:80
      *  crl.microsoft.com:80
      *  ocsp.msocsp.com:80
-     *  www.microsoft.com:80
+     *  https://www.microsoft.com:80
 7.  Your connector needs access to **login.windows.net** and **login.microsoftonline.com** for the registration process.
 
 ## Knowledge check
