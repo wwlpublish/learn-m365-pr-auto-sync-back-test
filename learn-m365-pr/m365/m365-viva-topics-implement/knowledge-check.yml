@@ -32,10 +32,10 @@ quiz:
     - content: "With Topics admin permissions in the Microsoft 365 admin center." 
       isCorrect: false
       explanation: "Sorry, that's incorrect. Viva Topics uses both admin permissions in the Microsoft 365 admin center and the existing Microsoft 365 security settings on the content to control who can access topic content."
-    - content: "Existing security settings for content in Microsoft 365." 
+    - content: "With existing security settings for content in Microsoft 365." 
       isCorrect: false
       explanation: "Sorry, that's incorrect. Viva Topics uses both admin permissions in the Microsoft 365 admin center and the existing Microsoft 365 security settings on the content to control who can access topic content."
-    - content: "Both Topics admin permissions in the Microsoft 365 admin center and existing security settings."
+    - content: "By using both Topics admin permissions in the Microsoft 365 admin center and existing security settings."
       isCorrect: true
       explanation: "That's correct. Viva Topics uses both admin permissions in the Microsoft 365 admin center and the existing Microsoft 365 security settings on the content to control who can access topic content."
 
