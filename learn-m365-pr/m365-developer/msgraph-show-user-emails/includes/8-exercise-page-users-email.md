@@ -1,11 +1,11 @@
-In this exercise, you'll extend the app to let you browse through a user’s emails in pages of 10.
+In this exercise, you'll extend the app to let you browse through a user's emails in batches of 10 items.
 
-## Load emails in pages of 10
+## Load emails in batches of 10 items
 
-Start, by updating the `getEmails` function to load emails in pages of 10. The page to be loaded is passed as a parameter to the function.
+Start by updating the `getEmails` function to load emails in batches of 10 items. The page to be loaded is passed as a parameter to the function.
 
-1. In your code editor, open the `graph.js` file
-1. Extend the `getEmails` function’s signature with the `page` argument:
+1. In your code editor, open the *graph.js* file.
+1. Extend the `getEmails` function's signature with the `page` argument.
 
     ```javascript
     async function getEmails(page) {
@@ -13,8 +13,8 @@ Start, by updating the `getEmails` function to load emails in pages of 10. The p
     }
     ```
 
-1. Before building the Graph query, define a new variable named `pageSize` and set its value to `10`
-1. Rather than calling Microsoft Graph directly, define the first portion of the query:
+1. Before you build the Microsoft Graph query, define a new variable named `pageSize` and set its value to `10`.
+1. Rather than calling Microsoft Graph directly, define the first portion of the query.
 
     ```javascript
     var query = graphClient
@@ -24,7 +24,7 @@ Start, by updating the `getEmails` function to load emails in pages of 10. The p
       .top(pageSize);
     ```
 
-1. If a page was specified in the function, and the page number is greater than 1, extend the query to skip the number of items from previous pages
+1. If a page was specified in the function and the page number is greater than one, extend the query to skip the number of items from previous pages.
 
     ```javascript
     if (page && page > 1) {
@@ -32,13 +32,13 @@ Start, by updating the `getEmails` function to load emails in pages of 10. The p
     }
     ```
 
-1. Finish the function by executing the query and calling Microsoft Graph
+1. Finish the function by executing the query and calling Microsoft Graph.
 
     ```javascript
     return await query.get();
     ```
 
-1. The complete getEmails function should look as follows:
+1. The complete `getEmails` function should look as follows:
 
     ```javascript
     async function getEmails(page) {
@@ -62,10 +62,10 @@ Start, by updating the `getEmails` function to load emails in pages of 10. The p
 
 ## Extend the template to allow users to page through emails
 
-You’ve extended the `getEmails` function to load emails with support for paging. The next step is to show buttons that will let users browse through the paged results.
+You've extended the `getEmails` function to load emails with support for paging. The next step is to show buttons that will let users browse through the paged results.
 
-1. In your code editor, open the `index.html` file
-1. Right after the unordered list with emails, add buttons that allow users to browse through pages of emails
+1. In your code editor, open the *index.html* file.
+1. Right after the unordered list with emails, add buttons that allow users to browse through pages of emails.
 
     ```html
     <div id="emailsPaging" style="display: none;">
@@ -79,15 +79,15 @@ You’ve extended the `getEmails` function to load emails with support for pagin
 
 With the app updated to let users navigate through the paged results, the final step is to add functionality to handle changing pages.
 
-1. In your code editor, open the `ui.js` file.
-1. Before the `displayEmail` function, define a new variable named `page` and set its value to `1`
-1. In the `displayEmail` function, update the call to get `getEmails` function to include the current page number
+1. In your code editor, open the *ui.js* file.
+1. Before the `displayEmail` function, define a new variable named `page` and set its value to `1`.
+1. In the `displayEmail` function, update the call to get the `getEmails` function to include the current page number.
 
     ```javascript
     var emails = await getEmails(page);
     ```
 
-1. In the `displayEmail` function, at the end add information about the current page so that it’s displayed and check if there are more emails for the user to see in the UI.
+1. In the `displayEmail` function, at the end add information about the current page so that it's displayed and checks if there are more emails for the user to see in the UI.
 
     ```javascript
     var pageNumber = document.getElementById('pageNumber');
@@ -100,7 +100,7 @@ With the app updated to let users navigate through the paged results, the final 
     }
     ```
 
-1. Show paging buttons so that users can navigate between paged data. If a user is on the first page hide the _previous_ button. If a user is on the last page hide the _next_ button.
+1. Show paging buttons so that users can navigate between paged data. If a user is on the first page, hide the _previous_ button. If a user is on the last page, hide the _next_ button.
 
     ```javascript
     var emailsPagingButtons = document.getElementById('emailsPaging');
@@ -116,7 +116,7 @@ With the app updated to let users navigate through the paged results, the final 
     nextEmailsButton.style = `display: ${!emails['@odata.nextLink'] ? 'none' : 'inline'}`;
     ```
 
-1. The complete displayEmail function should look as follows:
+1. The complete `displayEmail` function should look as follows:
 
     ```javascript
     var page = 1;
@@ -162,17 +162,17 @@ With the app updated to let users navigate through the paged results, the final 
 
 ## Run your app
 
-You’ve extended your app to show a user’s emails using Microsoft Graph in pages of 10 and let them navigate between the paged data. Let’s run the app locally.
+You've extended your app to show a user's emails by using Microsoft Graph in batches of 10 items and let them navigate between the paged data. Let's run the app locally.
 
-1. Preview the web app by executing the following command in the terminal:
+1. Preview the web app by executing the following command in the terminal.
 
     ```cmd
     npm start
     ```
 
 1. Your browser should be pointing to `http://localhost:8080`.
-1. Choose the **Sign in with Microsoft** button to sign in with your Microsoft 365 account
-1. After signing in with your account, choose the **Show email** button.
-1. You should see a list of the user’s last 10 emails displayed in the app.
+1. Select the **Sign in with Microsoft** button to sign in with your Microsoft 365 account.
+1. After you sign in with your account, select the **Show email** button.
+1. You should see a list of the user's last 10 emails displayed in the app.
 1. If there are more than 10 emails in your mailbox, you'll see buttons that allow you to view the next or previous 10 messages.
-1. Stop the Node.js server by pressing `Control + c` in the terminal window.
+1. Stop the Node.js server by selecting Ctrl+C in the terminal window.
