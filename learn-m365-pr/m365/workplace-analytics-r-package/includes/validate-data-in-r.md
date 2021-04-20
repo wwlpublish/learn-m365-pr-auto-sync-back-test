@@ -97,7 +97,7 @@ hrvar_count(sq_data, hrvar = "LevelDesignation")
 
 To run a blanket analysis for all the organizational attributes in the dataset, you can run `hrvar_count_all()` instead.
 
-## M365 data quality
+## Microsoft 365 data quality
 
 There are three common reasons for removing certain employees or weeks from the data:
 

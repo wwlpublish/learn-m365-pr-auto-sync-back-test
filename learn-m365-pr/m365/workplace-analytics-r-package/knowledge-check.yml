@@ -63,4 +63,4 @@ quiz:
         explanation: "Sorry, that's incorrect. The Report on Capacity and Report on Connectivity provide baseline analysis. The Meeting Text Mining report is for analyzing meeting subject lines, and the Validation Report is for data validation."
       - content: "Report on Coaching, Report on Connectivity, Meeting Text Mining Report, Validation Report"
         isCorrect: false
-        explanation: "Sorry, that's incorrect. The Report on Coaching and Report on Connectivity provide baseline analysis. The Meeting Text Mining report is for analyzing meeting subject lines, and the Validation Report is for data validation.."
+        explanation: "Sorry, that's incorrect. The Report on Coaching and Report on Connectivity provide baseline analysis. The Meeting Text Mining report is for analyzing meeting subject lines, and the Validation Report is for data validation."
