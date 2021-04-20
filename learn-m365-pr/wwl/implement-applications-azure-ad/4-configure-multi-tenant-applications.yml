@@ -4,7 +4,7 @@ title: Configure multi-tenant applications
 metadata:
   title: Configure multi-tenant applications
   description: "Configure multi-tenant applications"
-  ms.date: 04/19/2021
+  ms.date: 04/20/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -20,10 +20,10 @@ quiz:
     choices:
     - content: "It must be tenant-specific"
       isCorrect: false
-      explanation: "That's incorrect. This isn't how the App ID URL must be configured for a multi-tenant app. Try again."
+      explanation: "That's incorrect. This item isn't how the App ID URL must be configured for a multi-tenant app. Try again."
     - content: "It must be globally unique"
       isCorrect: true
       explanation: "That's correct. For a multi-tenant application, the App ID URL must be globally unique so that Azure AD can find the application across all tenants."
     - content: "It must be tenant unique"
       isCorrect: false
-      explanation: "That's incorrect. This isn't how the App ID URL must be configured for a multi-tenant app. Try again."
+      explanation: "That's incorrect. This item isn't how the App ID URL must be configured for a multi-tenant app. Try again."

@@ -4,7 +4,7 @@ title: Add an application within your Azure AD tenant
 metadata:
   title: Add an application within your Azure AD tenant
   description: "Add an application within your Azure AD tenant"
-  ms.date: 04/19/2021
+  ms.date: 04/20/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -20,10 +20,10 @@ quiz:
     choices:
     - content: "The application is a Web-based client app that is installed locally on a device"
       isCorrect: false
-      explanation: "That's incorrect. This isn't the description for a native application. Try again."
+      explanation: "That's incorrect. This description doesn't apply to the Native option. Try again."
     - content: "The application is a Resource application that is installed on a secure server"
       isCorrect: false
-      explanation: "That's incorrect. This isn't the description for the Native option. This description applies to the Web app/API option, which is for for Web app/API client applications and resource/API applications installed on a secure server. Try again."
+      explanation: "That's incorrect. This description doesn't apply to the Native option. This description applies to the Web app/API option, which is for Web app/API client applications and resource/API applications installed on a secure server. Try again."
     - content: "The application is a Client application that is installed locally on a device"
       isCorrect: true
       explanation: "That's correct. The Native option applies to client applications that are installed locally on a device. This setting is used for OAuth public native clients."
