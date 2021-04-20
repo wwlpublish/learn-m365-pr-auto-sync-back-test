@@ -15,7 +15,7 @@ Learn about the different capabilities of Viva Topics for various users:
 
 All Viva Topics users can discover and manually curate topics with Viva Topics to identify people and content connected to the topic, and if enough is discovered, it becomes a suggested topic.  
 
-Viva Topics uses Microsoft Graph* and AI to identify topics in your organization. A topic is a phrase or term for a specific meaning to the organization, and has resources related to it to help people understand what it is and find more information about it. Different types of topics will be important to your organization.  
+Viva Topics uses Microsoft Graph and AI to identify topics in your organization. A topic is a phrase or term for a specific meaning to the organization, and has resources related to it to help people understand what it is and find more information about it. Different types of topics will be important to your organization.  
 
 Initially, the types of topics identified are: 
 

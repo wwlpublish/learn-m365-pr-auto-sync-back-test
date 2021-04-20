@@ -18,7 +18,7 @@ The AI in Viva Topics could take two weeks or more to index and show topics thro
 
 ## Find topics using Microsoft Search  
 
-Viva Topics makes Microsoft Search more effective with Microsoft Graphs.* Microsoft Search is a secure, easily managed, enterprise search experience that works across Microsoft 365 to deliver more relevant search results and increase productivity.  
+Viva Topics makes Microsoft Search more effective with Microsoft Graphs. Microsoft Search is a secure, easily managed, enterprise search experience that works across Microsoft 365 to deliver more relevant search results and increase productivity.  
 
 :::image type="content" source="../media/search-topic-answer.png" alt-text="A screenshot of the Viva Topics interface that shows search results for the search term Saturn.":::
 

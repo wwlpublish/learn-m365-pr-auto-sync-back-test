@@ -7,31 +7,14 @@ If you are the expert on the topic highlights, you can contribute and edit Viva 
  
 There are four steps to move from classic SharePoint site to a modern SharePoint site:
 
-1. Assess your SharePoint sites.
-2. Pick your strategy to modernize SharePoint. 
-3. Transform with scanner. 
-4. Get support for modern SharePoint 
+|Step|Description|
+|----|-----------|
+|**Assess your SharePoint sites**|To assess SharePoint sites to be modernized, you need to understand the scope of the work. During the assessment phase, you'll learn how to run the SharePoint Modernization scanner.| 
+|**Strategize for modern SharePoint**|To transform a classic SharePoint site into a modern SharePoint site, you’ll need to understand the Microsoft 365 group naming strategy, set up tenant themes, and configure Office 365.|
+|**Transform with scanner**|To use the scan results from step 1 to build your modernization plan, you'll learn how to use the scan output to identify the sites to modernize and how to structure them in waves with the Modernize SharePoint scanner in the Microsoft library.<br><br>Next, you'll review and tailor the modernization scripts, prepare and validate the scripts' input, and finally run the modernization scripts. <br><br>The scan results will help you identify site collections that are good candidates for Teamwork Transformation.|
+|**Get support for modern SharePoint**|The final step is help for the open-source modernization guidance and provide some ideas about potential next steps in the Microsoft library.|
 
-## Step 1: Assess your SharePoint sites 
-
-To assess SharePoint sites to be modernized, you need to understand the scope of the work. During the assessment phase, you'll learn how to run the SharePoint Modernization scanner. 
-
-## Step 2: Strategize for modern SharePoint 
-
-To transform a classic SharePoint site into a modern SharePoint site, you’ll need to understand the Microsoft 365 group naming strategy, set up tenant themes, and configure Office 365. 
-
-## Step 3: Transform with scanner*  
-
-To use the scan results from step 1 to build your modernization plan, you'll learn how to use the scan output to identify the sites to modernize and how to structure them in waves with the Modernize SharePoint scanner in the Microsoft library.
-
-Next, you'll review and tailor the modernization scripts, prepare and validate the scripts' input, and finally run the modernization scripts. 
-
-The scan results will help you identify site collections that are good candidates for Teamwork Transformation.  
-
-## Step 4: Get support for modern SharePoint 
-The final step is help for the open-source modernization guidance and provide some ideas about potential next steps in the Microsoft library.
-
-## Steps to add modern SharePoint pages for classic sites 
+## Add modern SharePoint pages to classic sites 
  
 Before you create a modern page, you should activate the Site Pages feature on your SharePoint site:
 

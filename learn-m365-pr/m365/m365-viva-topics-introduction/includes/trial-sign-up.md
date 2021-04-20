@@ -48,12 +48,12 @@ In your Microsoft 365 account, select **Topics Experience**. Scroll down under *
 7. Review your settings and finish.  
 
 ## Step 4: Plan your Viva Topics strategies 
-Planning is essential to completing an effective trial for Viva Topics. Given the time-limited nature of a trial, this period must include discovering topics, as well as exploring topic quality, management, and end-user experiences. 
+Planning is essential to completing an effective trial for Viva Topics. Given the time-limited nature of a trial, this period must include discovering topics and exploring topic quality, management, and end-user experiences. 
 
 ### Discover Topics 
 There are two high-level strategies for Topic discovery during a trial: 
 1. Index all content, or most of the content, in SharePoint Online: 
-   - Large tenants may take 2 weeks or more to fully index. While topics will be generated incrementally through this period, a full index could consume up to half of a trial period. 
+   - Large tenants may take two weeks or more to fully index. While topics will be generated incrementally through this period, a full index could consume up to half of a trial period. 
    - There could be many topics for tenants with a significant volume of data, perhaps tens of thousands. 
 2. Identify a subset of SharePoint sites to index. 
 
@@ -95,7 +95,7 @@ Once the trial is activated, the topic discovery process will begin.
 ## Step 6: Evaluate your Viva Topics trial 
 For the best result, use your trial period to evaluate two components of Viva Topics: 
 - The AI suggested topics and topic content 
-- The end user experiences, surfacing topic cards on modern SharePoint pages, and in Microsoft Search 
+- The end-user experiences, surfacing topic cards on modern SharePoint pages, and in Microsoft Search 
 
 Consider the following items: 
 
@@ -103,7 +103,7 @@ Consider the following items:
 - All user experiences are permission-trimmed (including the Knowledge manager's view on the **Manage Topics** page). A user will only see a topic if they have permissions to view some of the resources used to generate the topic. This also means users may see different content on the same topic page 
 - You may see topics on the **Manage Topics** page with the same name. These aren't necessarily duplicated; it could be due to a single term being used in multiple contexts in the data. For example, the same project name being used by two distinct projects. 
 
-## Step 7: Convert to a production deployment of Viva Topics activation 
+## Step 7: Convert to a production deployment of Viva Topics 
 You can convert your trial deployment of Viva Topics into a production deployment. To do so, purchase the required number of licenses and assign them to your users. Trial users who don't have a full license at the end of the trial period won't be able to access any Viva Topics experiences. Viva Topics is an add-on and available for select Microsoft 365 accounts. 
 
 To convert your trial, go to your Microsoft 365 account. Select **Topics Experience**, and then scroll down to **Topics Experience**. Select **View Viva Topics Setup Details** to continue setting up and configuring Viva Topics for your organization. 
