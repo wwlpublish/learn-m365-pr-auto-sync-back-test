@@ -18,7 +18,7 @@ Complete the following steps to create a bot:
      *  interact with your bot using the Test Canvas.
 6.  The banner changes when the bot creation process completes. You now have full functionality in the bot and can modify any User or System topic, test out your content changes, or deploy your bot.
 
-**Additional reading.** For more information on creating bots using Power BI Virtual Agents, see [Authoring key concepts](https://docs.microsoft.com/power-virtual-agents/authoring-fundamentals).
+**Additional reading.** For more information on creating bots using Power BI Virtual Agents, see [Authoring key concepts](https://docs.microsoft.com/power-virtual-agents/authoring-fundamentals?azure-portal=true).
 
 ### Step 2 - Create a topic for a bot
 

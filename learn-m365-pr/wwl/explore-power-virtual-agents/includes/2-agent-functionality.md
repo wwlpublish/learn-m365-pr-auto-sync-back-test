@@ -30,7 +30,7 @@ Key features of Power Virtual Agents include:
  *  **Enable bots to take action.** Bots that can chat with your users are great, but bots that can act on their behalf are even better. With Power Virtual Agents, users creating the bot can easily integrate with services and back-end systems without having to configure the integration. They can also integrate with hundreds of easy-to-add custom connectors using Power Automate. This process makes it simple to create a bot that not only responds to the user, but also takes action on their behalf.
  *  **Monitor and improve bot performance.** Power Virtual Agents lets bot creators keep an eye on how their bots are performing using powerful metrics and AI-driven dashboards. They can easily see which topics are doing well and where the bot can be improved, and then quickly make adjustments to improve performance.
 
-**Additional reading.** For more information, see [Quickstart: Create and deploy a Power Virtual Agents bot](https://docs.microsoft.com/power-virtual-agents/fundamentals-get-started).
+**Additional reading.** For more information, see [Quickstart: Create and deploy a Power Virtual Agents bot](https://docs.microsoft.com/power-virtual-agents/fundamentals-get-started?azure-portal=true).
 
 ### Versions of Power Virtual Agents
 
