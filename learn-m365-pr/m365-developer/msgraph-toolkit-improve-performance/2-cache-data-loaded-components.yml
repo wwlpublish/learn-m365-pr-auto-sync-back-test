@@ -4,11 +4,11 @@ metadata:
   title: Cache data loaded by components
   description: Learn how Microsoft Graph Toolkit components cache their data.
   ms.date: 04/09/2021
-  author: aycabas
-  ms.author: aycabas
+  author: waldekmastykarz
+  ms.author: wmastyka
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
 title: Cache data loaded by components
-durationInMinutes: 5
+durationInMinutes: 4
 content: |
   [!include[](includes/2-cache-data-loaded-components.md)]

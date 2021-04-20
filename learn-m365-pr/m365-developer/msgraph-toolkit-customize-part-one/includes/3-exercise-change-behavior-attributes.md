@@ -6,16 +6,16 @@ Complete the below steps as prerequisites for this exercise.
 
 ### 1. Configure Azure Active Directory App  
 
-Before you start this exercise, you need to register an application to Azure Active Directory. You can do that, by visiting https://portal.azure.com and selecting **Azure Active Directory > App registration > New registration** from the menu. For this module, you'll need an application with the following settings: 
-    - **Name:** My app
-    - **Platform:** Web
-    - **Supported account types:** Accounts in any organizational directory (Any Azure AD directory - Multitenant) and personal Microsoft accounts (e.g. Skype, Xbox)
-    - **Redirect URIs:** http://localhost:3000
- 
-Once the new app registration is successfully completed, select **Authentication** from the menu, Locate the Implicit grant and hybrid flows section and enable **Access tokens** and **ID tokens**.
+For this module, you'll need an application with the following settings:
 
-Finally, select **Overview** from the menu and copy **Application (client) ID**.
+- **Name:** My app
+- **Platform:** Web
+- **Supported account types:** Accounts in any organizational directory (Any Azure AD directory - Multitenant) and personal Microsoft accounts (e.g. Skype, Xbox)
+- **Redirect URIs:** http://localhost:3000
 
+You can create this applications by following these steps:
+
+[!INCLUDE [Register Azure AD application](../../../includes/exercise-register-azure-ad-application-mgt.md)]
 
 ### 2. Set up your environment
 
