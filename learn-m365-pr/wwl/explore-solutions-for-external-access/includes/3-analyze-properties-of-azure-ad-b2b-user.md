@@ -34,7 +34,7 @@ This guided demonstration is a recorded click-through simulation. Select the lin
 
 #### **Scenario:**
 
-The Contoso Bug Bashers group is Contoso's internal security user group. This group's dedicated to cross-platform testing and quality assurance. Contoso has started a large project where the testing must be performed in collaboration with a partner organization.
+Contoso's internal security user group is dedicated to cross-platform testing and quality assurance. Contoso has started a large project where the testing must be performed in collaboration with a partner organization.
 
 During this project, Contoso's users and its partner must access the same assets online. As Contoso's Enterprise Administrator, you must ensure this partner's access is properly configured.
 
