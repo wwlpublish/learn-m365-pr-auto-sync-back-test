@@ -24,17 +24,15 @@ The pages related to *Collaboration culture* will shed light on employee collabo
 
 ## Report: How is collaboration load impacting after hours?
 
-The *Collaboration & after-hours* report helps you uncover how much time each team spends collaborating outside working hours. It shows how after-hours time differs by level and collaboration mode.
+The *Collaboration & after-hours* report helps you uncover how much time each team spends collaborating outside working hours. It shows how after-hours time differs by level.
 
-- The metrics across the top of the page display the average weekly hours spent in meetings, email, Teams chats, and adhoc calls during the analyzed time period.
+- The metrics across the top of the page display the average weekly hours spent in collaboration during the analyzed time period.
 
 - The chart on the left displays the average weekly collaboration hours for each Organization. 
 
 - The chart on the right displays the average weekly after-hours collaboration hours for each Organization. 
 
-- Collaboration and after-hours collaboration are broken down into meetings, email, Teams chats and adhoc calls.
-
-- In the example here, employees in the Strategy team spend about 79% of their workweek in collaboration. It also looks like a significant chunk of that collaboration, 5.6 hours, is being pushed into after hours and consists mainly of meetings.
+- In the example here, employees in the Strategy team spend about 73% of their workweek in collaboration. It also looks like a significant chunk of that collaboration, 5.4 hours, is being pushed into after hours.
 
 > [!NOTE]
 > The percentage of workweek spent in collaboration is calculated using a standard 40-hour workweek.
