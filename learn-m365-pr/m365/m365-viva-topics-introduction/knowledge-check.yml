@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.viva-topics-intro.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: Check what you've learned about data loss prevention in Microsoft 365. 
+  ms.date: 04/20/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+ 
+durationInMinutes: 4
+content: |
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "How many trials of Viva Topics can you run?"
+      choices:
+      - content: "One per quarter"
+        isCorrect: false
+        explanation: "Sorry, this is incorrect. You're limited to one trial per Microsoft 365 tenant. Extended trials may be available for customers that have engaged Microsoft partners."
+      - content: "One per year"
+        isCorrect: false
+        explanation: "Sorry, this is incorrect. You're limited to one trial per Microsoft 365 tenant. Extended trials may be available for customers that have engaged Microsoft partners."
+      - content: "One per tenant"
+        isCorrect: true
+        explanation: "Correct! You're limited to one trial per Microsoft 365 tenant. Extended trials may be available for customers that have engaged Microsoft partners."
+      
+    - content: "How does Viva Topics make it easier for your employees to do their jobs?"
+      choices:
+      - content: "It improves security by using Microsoft AI technology."
+        isCorrect: false
+        explanation: "Sorry, this is incorrect. Viva Topics brings the knowledge your employees need to do their job directly into the flow of work."
+      - content: "It brings the knowledge an employee needs to do a task directly into the flow of work."
+        isCorrect: true
+        explanation: "Correct! Viva Topics brings the knowledge your employees need directly into the flow of work. This saves time because they no longer have to mine disparate apps for information."
+      - content: "It helps employees submit HR forms more efficiently."
+        isCorrect: false
+        explanation: "Sorry, this is incorrect. Viva Topics brings the knowledge your employees need to do their job directly into the flow of work."
+        
+    - content: "Why do you need modern SharePoint pages to use Viva Topics?"
+      choices:
+      - content: "Topic highlights can only display on modern SharePoint pages or sites"
+        isCorrect: true
+        explanation: "Correct. Viva Topics relies on functionality available in modern pages to display topic highlights. If you're using a classic SharePoint site, you can only use topic highlights on any modern pages you've added to the site."
+      - content: "Viva Topics uses modern SharePoint site permissions to control who can view content."
+        isCorrect: false
+        explanation: "Sorry, this is incorrect. Viva Topics respects your existing Microsoft 365 permissions, not just the permissions for modern SharePoint sites and pages."
+      - content: "Viva Topics requires support for videos, which aren't available on classic SharePoint pages."
+        isCorrect: false
+        explanation: "Sorry, this is incorrect in two ways. First, classic SharePoint sites support videos; second, you can include video in your Viva Topics content, but it's not required."
