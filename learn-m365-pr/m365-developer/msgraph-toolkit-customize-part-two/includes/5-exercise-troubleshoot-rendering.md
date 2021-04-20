@@ -31,7 +31,8 @@ Now that you've confirmed that the web app works, let’s adjust how the agenda 
       <template>{{ event.title }}</template>
     </mgt-agenda>
     ```
-Notice, that the agenda component isn't showing anything now. Let’s fix it!
+
+   Notice, that the agenda component isn't showing anything now. Let’s  it!
 
 2.	Since you want to change the rendering of `events`, let’s use the event template by using the `data-type` attribute:
 
@@ -101,7 +102,8 @@ Now, let’s change the font color in the web app.
 
 4.	In **Visual Studio Code**, run **Live Server** to test your app. Open your browser and go to http://localhost:3000. You should see a list of events.
 :::image type="content" source="../media/5-styling.png" alt-text="A screenshot that shows the result of the styling":::
-Notice that the list of events isn't using the font color you've defined. Let’s fix it!
+
+      Notice that the list of events isn't using the font color you've defined. Let’s  it!
 
 5. In **Visual Studio Code**, extend the `style` definition to include the CSS custom properties for styling events:
     ```html
