@@ -23,5 +23,5 @@ By completing this module, you will be able to: 
 - Basic understanding of Microsoft Graph Toolkit components
 - Basic understanding of Azure Active Directory app registration
 - Basic understanding of HTML
-- Visual Studio Code
-- Visual Studio Code Live Server
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Visual Studio Code Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)

@@ -31,7 +31,7 @@ Here's an example of using the **Get** component:
 <mgt-get></mgt-get>
 ```
 
-The following attributes can be added to the <mgt-get> tag to define the type of Microsoft Graph query you want to make:
+The following attributes can be added to the `<mgt-get>` tag to define the type of Microsoft Graph query you want to make:
 - **resource:** the preferred Microsoft Graph API query for the request
 - **scopes:** required scopes for the request
 - **version:** Microsoft Graph API version for the request (v1.0 or beta)
@@ -39,4 +39,3 @@ The following attributes can be added to the <mgt-get> tag to define the type of
 Unlike other components in Microsoft Graph Toolkit, the **Get** component doesn't provide any pre-built UI. You must configure a template that will be used to display the data.
 
 In the next exercise, you'll learn how to use the Get component and display Notebooks from OneNote for the signed-in user.
-

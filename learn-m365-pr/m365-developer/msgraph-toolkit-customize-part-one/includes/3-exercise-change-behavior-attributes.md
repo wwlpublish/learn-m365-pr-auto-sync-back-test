@@ -24,31 +24,31 @@ You can create this applications by following these steps:
 3. In Visual Studio Code, create a file named **index.html** in the **customize-mgt** folder.
 4. Copy the following code into **index.html** and replace `YOUR-CLIENT-ID` with your copied **Application (client) ID** from your Azure Active Directory app that was created earlier.
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-    <head>    
-        <script src="https://unpkg.com/@microsoft/mgt/dist/bundle/mgt-loader.js"></script>
-    </head>
-    <body>    
-        <mgt-msal-provider client-id="YOUR-CLIENT-ID"></mgt-msal-provider>    
-        <mgt-login></mgt-login>
-        <mgt-agenda></mgt-agenda>
-    </body>
-</html>
-
-```
+    ```html
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>    
+            <script src="https://unpkg.com/@microsoft/mgt/dist/bundle/mgt-loader.js"></script>
+        </head>
+        <body>    
+            <mgt-msal-provider client-id="YOUR-CLIENT-ID"></mgt-msal-provider>    
+            <mgt-login></mgt-login>
+            <mgt-agenda></mgt-agenda>
+        </body>
+    </html>
+    
+    ```
 
 5.	Add a folder named **.vscode** into the root of your project folder.
 6.	Add a file named **settings.json** into the **.vscode** folder. Copy and paste the following code into **settings.json** and save the file.
 
-```json
-{
-    "liveServer.settings.host": "localhost",
-    "liveServer.settings.port": 3000
-}   
-
-```
+    ```json
+    {
+        "liveServer.settings.host": "localhost",
+        "liveServer.settings.port": 3000
+    }   
+    
+    ```
 
 ## Use attributes to change the behavior of the Agenda component 
 
@@ -57,14 +57,14 @@ There are several different attributes available for the Agenda component.   Let
 2. **days** attribute can be used for displaying a list of events for a specific number of days.
 3. **group-by-day** attribute can be used to list events under the related day and displayed date.
 
-```html
-<mgt-agenda
-  date="March 9, 2021"
-  days="3"
-  group-by-day>
-</mgt-agenda>
-
-```
+    ```html
+    <mgt-agenda
+      date="March 9, 2021"
+      days="3"
+      group-by-day>
+    </mgt-agenda>
+    
+    ```
 
 Add these attributes to the existing **mgt-agenda** component in **index.html**. The final version of **index.html** will look like below:
 
@@ -86,7 +86,6 @@ Add these attributes to the existing **mgt-agenda** component in **index.html**.
 
     </body>
 </html>
-
 ```
 
 ## Test your app in the browser
