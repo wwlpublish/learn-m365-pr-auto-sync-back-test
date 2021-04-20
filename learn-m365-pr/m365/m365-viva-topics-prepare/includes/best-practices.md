@@ -10,7 +10,7 @@ Use this seven-step checklist of best practices to launch Viva Topics, identify 
 
 There are several key questions to consider before launching Viva Topics: 
 - Are there specific sites with sensitive data you don’t want Topics to be discovered from  **All Sites** or **All except** sites with sensitive data? 
-- Is there sensitive data that need sensitivity labels* you want to ensure isn’t discovered? 
+- Is there sensitive data that need sensitivity labels to ensure it isn’t discovered? 
 - Who should be able to see the Topic insights? 
 - Who will be managing and creating Topics where required? 
 - What do you want to be the URL of your Topic center? You will need to provide a SharePoint address.  
@@ -24,7 +24,7 @@ Understand and define the business problems and objectives to address for your k
 - What are the different common types of topics? Some options include project names, customers, and products.
 
 ## Step 2: Perform permissions planning  
-Viva Topics respects the permissions already set for your content across Microsoft 365. Beyond standard team or site permissions, use sensitivity labels* or data loss prevention* to restrict access to content. Also, periodically review user access to sensitive information. Use these tools to ensure your content permissions are set appropriately inside your organization. Then Topic experiences can provide useful and appropriate information. 
+Viva Topics respects the permissions already set for your content across Microsoft 365. Beyond standard team or site permissions, use sensitivity labels or data loss prevention to restrict access to content. Also, periodically review user access to sensitive information. Use these tools to ensure your content permissions are set appropriately inside your organization. Then Topic experiences can provide useful and appropriate information. 
 
 The content inventory and user access across current content need to be managed correctly and secured. For example, a new product for a project with information about company investments should only have authorized people with access to this. If the content is on SharePoint and permissions are set to a broader group of people, sensitive information could be accidentally shared when it should be confidential.
 
@@ -71,7 +71,7 @@ The reports are broken down per usage event type. The default usage event types 
 ## Step 6: Review search connectors & search improvements  
 Viva Topics uses Graph content connectors in the Microsoft and partner ecosystem to connect and push items into the Microsoft Search index. The basic process includes the following steps: 
 
-1. Add a Graph content connector* in the Microsoft 365 admin center.
+1. Add a Graph content connector in the Microsoft 365 admin center.
 2. Name the connection. 
 3. Configure the connection settings.
 4. Manage search permissions.

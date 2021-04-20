@@ -21,7 +21,7 @@ Make the most of your migration with the following tasks:
 - **Make service account names descriptive** – In some cases, maintaining usernames isn't possible. For example, if you're migrating content created by someone who is no longer an employee of the organization. In this instance, most migration tools will move a file as if it was created by an admin account or a service account. If this happens frequently, the service account could be listed on topics as an expert. This is where the naming of that account becomes important. If you make it descriptive, the presence of these non-human accounts will be understandable for users consuming topics. 
 
 ## Step 2: Connect information to Microsoft Graph 
-Microsoft Search indexes all your Microsoft 365 data to make it searchable for users. With Microsoft Graph content connectors*, your organization can index third-party data, so it appears in Microsoft Search results. If you can’t migrate some content, then connect it with Microsoft Graph content connectors.*  
+Microsoft Search indexes all your Microsoft 365 data to make it searchable for users. With Microsoft Graph content connectors*, your organization can index third-party data, so it appears in Microsoft Search results. If you can’t migrate some content, then connect it with Microsoft Graph content connectors. 
 
 View the list of resources at the end of this module for information on how to configure Graph content connectors.  
 

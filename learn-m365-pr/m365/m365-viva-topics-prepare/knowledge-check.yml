@@ -15,50 +15,38 @@ quiz:
   title: Check your knowledge
   questions:
 
-  - content: "Why do you need to use modern SharePoint pages?"
+  - content: "Which of the following statements is not a best practice for planning your Viva Topics deployment?"
     choices:
-    - content: "Topic cards can only be surfaced on modern pages."
+    - content: "Recruit knowledge managers from different areas of your organization with various experiences."
+      isCorrect: false
+      explanation: "Sorry, that's incorrect. This is one of our recommended best practices - Your knowledge managers should have a wide variety of areas of expertise."
+    - content: "Use your existing permissions strategy for your Microsoft 365 content." 
       isCorrect: true
-      explanation: "That's correct. If you have high-profile classic pages that you want to use with Viva Topics, you'll need to modernize them."
-    - content: "Modern SharePoint pages have better permission management between administrators and content owners." 
+      explanation: "Correct, this is not a recommended best practice. While you can use standard team or site permissions, you can also use sensitivity labels and data loss prevention policies to restrict access to Viva Topics content."
+    - content: "Determine who your topic contributors are early in the process."
       isCorrect: false
-      explanation: "Sorry, that's incorrect. Viva Topics requires modern SharePoint pages because you can only surface topic cards on modern pages."
-    - content: "Microsoft Search only indexes modern SharePoint pages."
-      isCorrect: false
-      explanation: "Sorry, that's incorrect. Viva Topics requires modern SharePoint pages because you can only surface topic cards on modern pages."
+      explanation: "Sorry, that's incorrect. This is one of our recommended best practices - Identifying topic contributors is a key step for planning your deployment."
 
-  - content: "How do you manage permission for Viva Topics?"
+  - content: "Which of the following statements is true for topic cards in Modern SharePoint pages?"
     choices:
-    - content: "Through the Microsoft 365 admin center." 
+    - content: "Topics cards are only available for modern SharePoint pages." 
       isCorrect: true
-      explanation: "That's correct. You can manage who can see topic highlights and topic cards."
-    - content: "Through user permissions." 
+      explanation: "That's correct. If you want to include topics cards and highlights for your classic SharePoint site, and you can't migrate to a modern site, add modern pages that contain the content you want to include.."
+    - content: "Modern SharePoint pages control who can access the content for topic cards." 
       isCorrect: false
-      explanation: "Sorry, that's incorrect. You use the Microsoft 365 admin center to manage who can see topic highlights and topic cards."
-    - content: "(Need a third option that's parallel in structure to the other two)"
+      explanation: "Sorry, that's incorrect. Viva Topics uses your existing Microsoft 365 security and permissions settings to control who can view and edit content. "
+    - content: "Microsoft Search, which is used to index topic cards, can only search modern SharePoint pages."
       isCorrect: false
-      explanation: "That's correct. Topic viewers can view and search for knowledge for the content in your organization that they have access to, based on their role."
+      explanation: "Sorry, that's incorrect. Microsoft Search can index both classic and modern SharePoint pages and sites."
 
-  - content: "What do Topics discovery settings define?"
+  - content: "How does Viva Topics control access to knowledge content?"
     choices:
-    - content: "?"
+    - content: "Viva Topics lets all users see all content."
       isCorrect: false
-      explanation: "Sorry, that's incorrect. The discovery settings specify which SharePoint sites are used as source for topics."
-    - content: "Which SharePoint sites are used as source for topics."
+      explanation: "Sorry, that's incorrect. Topics cards and highlights are only visible for the files and pages that a user has permission to access."
+    - content: "Viva Topics are only visible to Knowledge managers."
+      isCorrect: false
+      explanation: "Sorry, that's incorrect. Topics cards and highlights are visible to anyone that has access to the source content."
+    - content: "Viva Topics respects your existing permissions and access settings." 
       isCorrect: true
-      explanation: "Correct. The discovery settings specify which SharePoint sites are used as source for topics."
-    - content: "?" 
-      isCorrect: false
-      explanation: "That's incorrect.	The discovery settings specify which SharePoint sites are used as source for topics."
-
-  - content: "Who can edit topics?"
-    choices:
-    - content: "?"
-      isCorrect: true
-      explanation: "Correct. (Explanation)"
-    - content: "?" 
-      isCorrect: false
-      explanation: "Sorry, that's incorrect. (Explanation)"      
-    - content: "?"
-      isCorrect: false
-      explanation: "Sorry, that's incorrect. (Explanation)"
+      explanation: "Correct! Viva Topics uses your existing Microsoft 365 permissions and access settings."
