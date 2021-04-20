@@ -29,19 +29,17 @@ The templates for Microsoft Graph Toolkit components help you select and display
 1. The Login component will pass a `{personDetails}` object to the component at runtime. The `{personDetails}` object provides all the details about the user.
 2. The `{personDetails}` object can then be used in the template to display any user data you'd like. For example, to display the user's given name, `{personDetails.givenName}` can be added in the template.
 
-```html
-<mgt-login>
-	<template data-type=”signed-in-button-content”> 
-		<div>{{personDetails.givenName}}</div>
-	</template>
-</mgt-login>
+    ```html
+    <mgt-login>
+    	<template data-type=”signed-in-button-content”> 
+    		<div>{{personDetails.givenName}}</div>
+    	</template>
+    </mgt-login>
+    
+    ```
 
-```
-
-### Tip
-To see what data is available in the template, type `{{ this }}`. This will show you the whole object bound to the template.
-If the `{personDetails.givenName}` value is Megan, the button content will look like the following:
-
-:::image type="content" source="../media/2-tip.png" alt-text="A screenshot that shows how Microsoft Graph Toolkit components with templates.":::
+> [!Tip]
+>To see what data is available in the template, type `{{ this }}`. This will show you the whole object bound to the template. If the `{personDetails.givenName}` value is Megan, the button content will look like the following:
+>:::image type="content" source="../media/2-tip.png" alt-text="A screenshot that shows how Microsoft Graph Toolkit components with templates.":::
 
 In the next exercise, you'll learn how to use templates with Microsoft Graph Toolkit components to modify the presentation of data.

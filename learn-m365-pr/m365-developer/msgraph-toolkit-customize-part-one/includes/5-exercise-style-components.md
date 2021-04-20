@@ -30,43 +30,43 @@ Let’s say you would like to change the appearance of the signed in button cont
     - **--event-background-color** to change the event background color to **slategrey**.
     - **--event-box-shadow** to change the event box shadow to **grey**.
 
-```html
-<head>
-<style>
- 	body {
-            background-color:black;   
-        }
-        mgt-login {
-            --padding: 30px ; 
-            --button-color--hover:grey;
-            --button-background-color:slategrey;
-            --popup-color:slategrey;
-        }
-        mgt-agenda{
-            --agenda-header-font-size:24px;
-            --event-padding:20px;
-            --event-background-color:slategrey;
-            --event-box-shadow:grey;   
-        }
-</style>
-</head>
-
-
-```      
+    ```html
+    <head>
+    <style>
+     	body {
+                background-color:black;   
+            }
+            mgt-login {
+                --padding: 30px ; 
+                --button-color--hover:grey;
+                --button-background-color:slategrey;
+                --popup-color:slategrey;
+            }
+            mgt-agenda{
+                --agenda-header-font-size:24px;
+                --event-padding:20px;
+                --event-background-color:slategrey;
+                --event-box-shadow:grey;   
+            }
+    </style>
+    </head>
+    
+    
+    ```      
 
 4.	Let’s add a dark global theme to the HTML page by using `class="mgt-dark"`. Open the **index.html** file and add the following **class** attribute to the `<body>` tag:
-
-```html
-<html>
-    <head>
-    	...
-    </head>
-    <body class="mgt-dark"> 
-    	...
-    </body>
-</html>
-
-```
+    
+    ```html
+    <html>
+        <head>
+        	...
+        </head>
+        <body class="mgt-dark"> 
+        	...
+        </body>
+    </html>
+    
+    ```
 
 The final version of the **index.html** file will look like below:
 

@@ -24,31 +24,31 @@ You can create this applications by following these steps:
 3. In Visual Studio Code, create a file named **index.html** in the **customize-mgt** folder.
 4. Copy the following code into **index.html** and replace `YOUR-CLIENT-ID` with your copied **Application (client) ID** from your Azure Active Directory app that was created earlier.
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-    <head>    
-        <script src="https://unpkg.com/@microsoft/mgt/dist/bundle/mgt-loader.js"></script>
-    </head>
-    <body>    
-        <mgt-msal-provider client-id="YOUR-CLIENT-ID"></mgt-msal-provider>    
-        <mgt-login></mgt-login>
-        <mgt-agenda></mgt-agenda>
-    </body>
-</html>
-
-```
+    ```html
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>    
+            <script src="https://unpkg.com/@microsoft/mgt/dist/bundle/mgt-loader.js"></script>
+        </head>
+        <body>    
+            <mgt-msal-provider client-id="YOUR-CLIENT-ID"></mgt-msal-provider>    
+            <mgt-login></mgt-login>
+            <mgt-agenda></mgt-agenda>
+        </body>
+    </html>
+    
+    ```
 
 5.	Add a folder named **.vscode** into the root of your project folder.
 6.	Add a file named **settings.json** into the **.vscode** folder. Copy and paste the following code into **settings.json** and save the file.
-
-```json
-{
-    "liveServer.settings.host": "localhost",
-    "liveServer.settings.port": 3000
-}   
-
-```
+    
+    ```json
+    {
+        "liveServer.settings.host": "localhost",
+        "liveServer.settings.port": 3000
+    }   
+    
+    ```
 
 ## Use templates in the Login component
 
@@ -63,8 +63,8 @@ Suppose you want to show a user’s email address as the content of a signed in 
 
 ```
 
-### Tip
-If you use Microsoft Graph Toolkit (MGT) with a JavaScript library that already uses `{{ }}` itself, you can configure MGT to use other characters like `[[ ]]` to denote templates and avoid colliding with your JavaScript framework.
+>[!Tip]
+>If you use Microsoft Graph Toolkit (MGT) with a JavaScript library that already uses `{{ }}` itself, you can configure MGT to use other characters like `[[ ]]` to denote templates and avoid colliding with your JavaScript framework.
 
 The final version of the **index.html** will look like below:
 

@@ -5,19 +5,19 @@ Prepare the web app
 1.	In **Visual Studio Code**, open the **index.html** file
 2.	Reset its contents to the following HTML content. Note that you'll need to replace YOUR-CLIENT-ID with the **Application (client) ID** from the Azure Active Directory app that you created earlier.
 
-```html
-<html>
-    <head>
-      <script src="https://unpkg.com/@microsoft/mgt/dist/bundle/mgt-loader.js"></script>
-    </head>
-    
-    <body>
-      <mgt-msal-provider client-id="YOUR-CLIENT-ID"></mgt-msal-provider>
-      <mgt-login></mgt-login>
-      <mgt-agenda days="3" group-by-day></mgt-agenda>
-    </body>   
-</html>
-```
+    ```html
+    <html>
+        <head>
+          <script src="https://unpkg.com/@microsoft/mgt/dist/bundle/mgt-loader.js"></script>
+        </head>
+        
+        <body>
+          <mgt-msal-provider client-id="YOUR-CLIENT-ID"></mgt-msal-provider>
+          <mgt-login></mgt-login>
+          <mgt-agenda days="3" group-by-day></mgt-agenda>
+        </body>   
+    </html>
+    ```
 
 3.	Verify, that the web app works as expected. In Visual Studio Code, run **Live Server** to test your app. Open your browser and go to http://localhost:3000. You should see a list of events.
 
@@ -26,38 +26,39 @@ Prepare the web app
 Now that you've confirmed that the web app works, let’s adjust how the agenda component displays events.
 1.	Change the agenda component to only show an event's title by specifying the following in the `template`:
 
-```html
-<mgt-agenda days="3" group-by-day>
-  <template>{{ event.title }}</template>
-</mgt-agenda>
-```
-Notice, that the agenda component isn't showing anything now. Let’s fix it!
+    ```html
+    <mgt-agenda days="3" group-by-day>
+      <template>{{ event.title }}</template>
+    </mgt-agenda>
+    ```
+
+   Notice, that the agenda component isn't showing anything now. Let’s  it!
 
 2.	Since you want to change the rendering of `events`, let’s use the event template by using the `data-type` attribute:
 
-```html
-<mgt-agenda days="3" group-by-day>
-  <template data-type="event">{{ event.title }}</template>
-</mgt-agenda>
-```
+    ```html
+    <mgt-agenda days="3" group-by-day>
+      <template data-type="event">{{ event.title }}</template>
+    </mgt-agenda>
+    ```
 
 3.	While you’re seeing a list of days now, the component still doesn’t show events’ titles. Let’s see what data is available in the template, by changing it to:
-
-```html
-<mgt-agenda days="3" group-by-day>
-  <template data-type="event">{{ console.log(this) }}</template>
-</mgt-agenda>
-```
+    
+    ```html
+    <mgt-agenda days="3" group-by-day>
+      <template data-type="event">{{ console.log(this) }}</template>
+    </mgt-agenda>
+    ```
 
 4.	After examining the data logged to the console in the browser’s developers’ tools, you can see that the event’s title is stored in the `subject` property.
 :::image type="content" source="../media/5-exercise.png" alt-text="A screenshot that shows the result of the console":::
 
 5.	Update the template so that it refers to the `subject` property instead of `title`:
-```html
-<mgt-agenda days="3" group-by-day>
-  <template data-type="event">{{ event.subject }}</template>
-</mgt-agenda>
-```
+    ```html
+    <mgt-agenda days="3" group-by-day>
+      <template data-type="event">{{ event.subject }}</template>
+    </mgt-agenda>
+    ```
 
 6.	You should now see the title for each event:
 :::image type="content" source="../media/5-result.png" alt-text="A screenshot that shows the result of the exercise":::
@@ -65,58 +66,59 @@ Notice, that the agenda component isn't showing anything now. Let’s fix it!
 
 Now, let’s change the font color in the web app.
 1.	In **Visual Studio** Code, open the **index.html** file. Change the global font color of the web app by adding the following `style` element in the `head` section:
-```html
-<style>
-  body {
-    color: blue;
-  }
-</style>
-```
+    ```html
+    <style>
+      body {
+        color: blue;
+      }
+    </style>
+    ```
 
 2.	In the **body**, add a greeting to welcome the user:
-```html
-<h1>Hello</h1>
-```
+    ```html
+    <h1>Hello</h1>
+    ```
 
 3.	In the **mgt-agenda** component, remove the custom template you’ve added in the previous exercise. The complete HTML of your web app should look as follows:
-```html
-<html>
-    <head>
-      <script src="https://unpkg.com/@microsoft/mgt/dist/bundle/mgt-loader.js"></script>
-      <style>
-        body {
-          color: blue;
-        }
-      </style>
-    </head>
-    
-    <body>
-      <h1>Hello</h1>
-      <mgt-msal-provider client-id="YOUR-CLIENT-ID"></mgt-msal-provider>
-      <mgt-login></mgt-login>
-      <mgt-agenda days="3" group-by-day></mgt-agenda>
-    </body>
-</html>
-```
+    ```html
+    <html>
+        <head>
+          <script src="https://unpkg.com/@microsoft/mgt/dist/bundle/mgt-loader.js"></script>
+          <style>
+            body {
+              color: blue;
+            }
+          </style>
+        </head>
+        
+        <body>
+          <h1>Hello</h1>
+          <mgt-msal-provider client-id="YOUR-CLIENT-ID"></mgt-msal-provider>
+          <mgt-login></mgt-login>
+          <mgt-agenda days="3" group-by-day></mgt-agenda>
+        </body>
+    </html>
+    ```
 
 4.	In **Visual Studio Code**, run **Live Server** to test your app. Open your browser and go to http://localhost:3000. You should see a list of events.
 :::image type="content" source="../media/5-styling.png" alt-text="A screenshot that shows the result of the styling":::
-Notice that the list of events isn't using the font color you've defined. Let’s fix it!
+
+      Notice that the list of events isn't using the font color you've defined. Let’s  it!
 
 5. In **Visual Studio Code**, extend the `style` definition to include the CSS custom properties for styling events:
-```html
-<style>
-  body {
-    color: blue;
-  }
-  mgt-agenda {
-    --agenda-header-color: blue;
-    --event-time-color: blue;
-    --event-subject-color: blue;
-    --event-subject-color: blue;
-  }
-</style>
-```
+    ```html
+    <style>
+      body {
+        color: blue;
+      }
+      mgt-agenda {
+        --agenda-header-color: blue;
+        --event-time-color: blue;
+        --event-subject-color: blue;
+        --event-subject-color: blue;
+      }
+    </style>
+    ```
 
 6. In **Visual Studio Code**, run **Live Server** to test your app. Open your browser and go to http://localhost:3000. You should see a list of events displayed using your web app’s font color.
 :::image type="content" source="../media/5-final-result.png" alt-text="A screenshot that shows the final result of the exercise":::
