@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: Check what you've learned about data loss prevention in Microsoft 365. 
-  ms.date: 04/08/2021
+  ms.date: 04/20/2021
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
@@ -15,38 +15,38 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "How does Viva Topics benefit employee experiences?"
+    - content: "How many trials of Viva Topics can you run?"
       choices:
-      - content: "Microsoft Viva Topics uses Microsoft Graph and AI to identify topics in your organization. A topic is a phrase or term with a specific meaning and has resources related to it to find more information."
+      - content: "One per quarter"
         isCorrect: false
-        explanation: "Sorry, this is incorrect. Viva Topics is part of Microsoft Viva, a platform that helps employees learn, find knowledge, engage, and work."
-      - content: "Microsoft Viva Topics is one of four modules for Microsoft Viva, an employee experience platform (EXP)."
+        explanation: "Sorry, this is incorrect. You're limited to one trial per Microsoft 365 tenant. Extended trials may be available for customers that have engaged Microsoft partners."
+      - content: "One per year"
+        isCorrect: false
+        explanation: "Sorry, this is incorrect. You're limited to one trial per Microsoft 365 tenant. Extended trials may be available for customers that have engaged Microsoft partners."
+      - content: "One per tenant"
         isCorrect: true
-        explanation: "Correct. Viva Topics is part of Microsoft Viva, a platform that helps employees learn, find knowledge, engage, and work."
-      - content: "Microsoft Viva uses Microsoft AI technology, Microsoft 365, Microsoft Graph, Search, and other components and services in Microsoft 365 apps, starting with SharePoint modern pages and Microsoft Search."
-        isCorrect: false
-        explanation: "Sorry, this is incorrect. Viva Topics is part of Microsoft Viva, a platform that helps employees learn, find knowledge, engage, and work."
+        explanation: "Correct! You're limited to one trial per Microsoft 365 tenant. Extended trials may be available for customers that have engaged Microsoft partners."
       
-    - content: "How does Microsoft Viva Topics work differently in classic Sharepoint versus modern SharePoint experiences?"
+    - content: "How does Viva Topics make it easier for your employees to do their jobs?"
       choices:
-      - content: "Topic highlights are only available on modern SharePoint pages."
+      - content: "It improves security by using Microsoft AI technology."
+        isCorrect: false
+        explanation: "Sorry, this is incorrect. Viva Topics brings the knowledge your employees need to do their job directly into the flow of work."
+      - content: "It brings the knowledge an employee needs to do a task directly into the flow of work."
         isCorrect: true
-        explanation: "Correct. Topics are discovered from files and pages stored in modern or classic sites. However, topic highlights only appear on modern SharePoint pages or where a classic site has modern pages added."
-      - content: "Topics are only discovered on pages and files stored in modern SharePoint."
+        explanation: "Correct! Viva Topics brings the knowledge your employees need directly into the flow of work. This saves time because they no longer have to mine disparate apps for information."
+      - content: "It helps employees submit HR forms more efficiently."
         isCorrect: false
-        explanation: "Sorry, this is incorrect. Topics are discovered from files and pages stored in modern or classic sites. However, topic highlights only appear on modern SharePoint pages or where a classic site has modern pages added."
-      - content: "Topic highlights appear through Graph content connectors to index third-party data, so it appears in Microsoft Search results."
-        isCorrect: false
-        explanation: "Sorry, this is incorrect. Topics are discovered from files and pages stored in modern or classic sites. However, topic highlights only appear on modern SharePoint pages or where a classic site has modern pages added."
+        explanation: "Sorry, this is incorrect. Viva Topics brings the knowledge your employees need to do their job directly into the flow of work."
         
-    - content: "What is the difference between Topic cards and Topic pages?"
+    - content: "Why do you need modern SharePoint pages to use Viva Topics?"
       choices:
-      - content: "Topic cards are rolled up from Topic pages for a personalized view of relevant topics and open questions, based on AI and your experts."
-        isCorrect: false
-        explanation: "Sorry, this is incorrect. Topic cards are powered by Topic pages. Topic pages are created automatically, using AI, and present your users with a list of all the topic-relevant content."
-      - content: "Topic cards in Microsoft 365, powered by Topics pages can be used in other Office 365 applications such as Microsoft Teams, Outlook, or Word while Topic pages roll up to Topic centers."
-        isCorrect: false
-        explanation: "Sorry, this is incorrect. Both Topics cards and pages are used in Microsoft SharePoint."
-      - content: "Topic cards are powered by Topic pages. Topic pages are created automatically, using AI, and present your users with a list of all the topic-relevant content."
+      - content: "Topic highlights can only display on modern SharePoint pages or sites"
         isCorrect: true
-        explanation: "Correct. Topic cards are a feature in Microsoft 365, powered by Microsoft Viva Topics. Topic pages are automatically based on your content, using AI for users to find a list of all the topic-relevant content and experts and their relationship to the specified topic."
+        explanation: "Correct. Viva Topics relies on functionality available in modern pages to display topic highlights. If you're using a classic SharePoint site, you can only use topic highlights on any modern pages you've added to the site."
+      - content: "Viva Topics uses modern SharePoint site permissions to control who can view content."
+        isCorrect: false
+        explanation: "Sorry, this is incorrect. Viva Topics respects your existing Microsoft 365 permissions, not just the permissions for modern SharePoint sites and pages."
+      - content: "Viva Topics requires support for videos, which aren't available on classic SharePoint pages."
+        isCorrect: false
+        explanation: "Sorry, this is incorrect in two ways. First, classic SharePoint sites support videos; second, you can include video in your Viva Topics content, but it's not required."
