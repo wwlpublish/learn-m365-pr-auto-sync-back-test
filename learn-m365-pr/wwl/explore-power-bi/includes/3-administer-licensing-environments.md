@@ -31,7 +31,7 @@ Microsoft 365 user management administrators assign users to the Power BI admin 
 
 Power BI enables administrators to script common tasks with PowerShell cmdlets. It also exposes REST APIs and provides a .NET SDK for developing administrative solutions.
 
-**Additional reading.** For more information, see [PowerShell cmdlets, REST APIs, and .NET SDK for Power BI administration](https://docs.microsoft.com/power-bi/service-admin-reference?view=powerbi-ps?azure-portal=true).
+**Additional reading.** For more information, see [PowerShell cmdlets, REST APIs, and .NET SDK for Power BI administration](https://docs.microsoft.com/power-bi/service-admin-reference?azure-portal=true).
 
 For more information about the Power BI service administrator role, see [Understanding the Power BI admin role](https://docs.microsoft.com/power-bi/service-admin-role?azure-portal=true).
 
