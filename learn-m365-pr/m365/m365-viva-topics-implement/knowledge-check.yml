@@ -3,7 +3,7 @@ uid: learn-m365-pr.viva-topics-implement.knowledge-check
 metadata:
   title: Knowledge check
   description: Knowledge check
-  ms.date: 04/11/2021
+  ms.date: 04/20/2021
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
@@ -15,50 +15,38 @@ quiz:
   title: Check your knowledge
   questions:
 
-  - content: "How do you exclude topics on the administrator level?"
+  - content: "Which of the following isn't one of the five steps to launch Viva Topics in your organization?"
     choices:
-    - content: "On the **Topic permissions** tab."
+    - content: "Select sources to discover."
       isCorrect: false
-      explanation: "Sorry, that's incorrect. You can exclude topics on the administrator level by using a .csv file."
-    - content: "Using a .csv file, either during setup or later." 
+      explanation: "Sorry, that's incorrect. Choosing which sites to search for topic content is the second step."
+    - content: "Enable guest access for your tenant." 
       isCorrect: true
-      explanation: "Correct. The .csv file identifies the content you want to exclude."
-    - content: "Select **No sites** when you configure topic discovery."
+      explanation: "Correct, this is not part of the five-step process."
+    - content: "Monitor, administer, and use reporting."
       isCorrect: false
-      explanation: "Sorry, that's incorrect. You can exclude topics on the administrator level by using a .csv file."
+      explanation: "Sorry, that's incorrect. This is the fourth step of the launch process."
 
-  - content: "How do you set up Topics?"
+  - content: "How are permissions and access controlled in Viva Topics?"
     choices:
-    - content: "?" 
+    - content: "With Topics admin permissions in the Microsoft 365 admin center." 
       isCorrect: false
-      explanation: "Sorry, that's incorrect. Explanation"
-    - content: "?" 
+      explanation: "Sorry, that's incorrect. Viva Topics uses both admin permissions in the Microsoft 365 admin center and the existing Microsoft 365 security settings on the content to control who can access topic content."
+    - content: "Existing security settings for content in Microsoft 365." 
       isCorrect: false
-      explanation: "Sorry, that's incorrect. Explanation"
-    - content: "?"
+      explanation: "Sorry, that's incorrect. Viva Topics uses both admin permissions in the Microsoft 365 admin center and the existing Microsoft 365 security settings on the content to control who can access topic content."
+    - content: "Both Topics admin permissions in the Microsoft 365 admin center and existing security settings."
       isCorrect: true
-      explanation: "That's correct. Explanation"
+      explanation: "That's correct. Viva Topics uses both admin permissions in the Microsoft 365 admin center and the existing Microsoft 365 security settings on the content to control who can access topic content."
 
-  - content: "How is Topics security and privacy determined?"
+  - content: "Why is it a good idea to run a test pilot for Viva Topics?"
     choices:
-    - content: "?" 
+    - content: "To test how to assign permissions." 
       isCorrect: false
-      explanation: "Sorry, that's incorrect. Explanation"
-    - content: "?" 
-      isCorrect: false
-      explanation: "Sorry, that's incorrect. Explanation"
-    - content: "?"
+      explanation: "Sorry, that's incorrect. A test pilot lets you test topic management and content processing features before you roll them out to your organization."
+    - content: "To test topic management and content processing features." 
       isCorrect: true
-      explanation: "That's correct. Explanation"
-
-  - content: "Why do you set up change management for Topics workflow?"
-    choices:
-    - content: "?" 
+      explanation: "Correct! During a test pilot, you test topic management and content processing features, as well as choose champions and develop your onboarding and communications plans."
+    - content: "To help choose the right contribution model for your knowledge content - authoritative or crowd-sourced."
       isCorrect: false
-      explanation: "Sorry, that's incorrect. Explanation"
-    - content: "?" 
-      isCorrect: false
-      explanation: "Sorry, that's incorrect. Explanation"
-    - content: "?"
-      isCorrect: true
-      explanation: "That's correct. Explanation"
+      explanation: "Sorry, that's incorrect. You need to choose which contribution model you'll follow earlier in the process, when you're planning your deployment, not testing it."
