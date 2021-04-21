@@ -72,7 +72,7 @@ You can manage the set of users who can see topic highlights, topic cards, and t
 ### Manage topic permissions
 Manage topic permissions settings and topic discovery settings in the Microsoft 365 admin center as a global administrator, SharePoint administrator or Knowledge administrator.
 
-#$ Step 4: Monitor, administer, and use reporting  
+## Step 4: Monitor, administer, and use reporting  
 
 - Configure indexing in the Microsoft 365 admin center under **Knowledge Management**. 
 - Look at abandoned queries in Search where the user did not find a good result. As Admin, continue to review the Search metrics to determine potential useful Topics for your people. Are people finding appropriate Topics with Search? If not, then create a Topic for it to enable search results for this.
@@ -82,4 +82,3 @@ Manage topic permissions settings and topic discovery settings in the Microsoft 
 ## Step 5: Change management/adoption 
 Decide on high-quality Topics to be shown to your users and they have the right permissions to consume and contribute knowledge. Plan your approach and target scenarios, engage your organization, train your organization, and build a champion network.  
 
-(Insert graphic)
