@@ -1,0 +1,36 @@
+### YamlMime:Module
+uid: learn-m365-pr.viva-topics-implement
+metadata:
+  title: Implement Viva Topics in your organization
+  description: Learn how to implement Viva Topics in your organization. Learn about key usage scenarios, how to secure your Topics deployment, and how to set up a change management process.
+  ms.date: 04/11/2021
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Implement Viva Topics in your organization
+summary: Learn how to implement Viva Topics in your organization. Learn about discover scenarios and how to secure your Topics deployment.  
+abstract: |
+  By the end of this module, you should be able to:
+  - Launch Viva Topics in 5 steps.
+  - Discover scenarios for Viva Topics.
+  - Establish security and privacy settings.
+  - Run a pilot to test your Viva Topics implementation.
+prerequisites: None
+iconUrl: /learn/achievements/generic-badge.svg
+levels: 
+- beginner
+roles: 
+- administrator
+products: 
+- m365
+units:
+- learn-m365-pr.viva-topics-implement.introduction
+- learn-m365-pr.viva-topics-implement.launch
+- learn-m365-pr.viva-topics-implement.scenarios
+- learn-m365-pr.viva-topics-implement.security-privacy
+- learn-m365-pr.viva-topics-implement.test-pilot
+- learn-m365-pr.viva-topics-implement.knowledge-check
+- learn-m365-pr.viva-topics-implement.summary
+badge:
+  uid: learn-m365-pr.viva-topics-implement.badge
