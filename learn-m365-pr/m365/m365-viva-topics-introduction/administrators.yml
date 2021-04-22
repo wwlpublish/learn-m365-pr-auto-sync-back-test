@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.viva-topics-intro.administrators
+title: How to use Viva Topics for administrators
+metadata:
+  title:  How to use Viva Topics for administrators
+  description: Learn about administrator scenarios to get Viva Topics set up in your environment. 
+  ms.date: 04/08/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+
+durationInMinutes: 6
+content: |
+  [!include[](includes/administrators.md)]
