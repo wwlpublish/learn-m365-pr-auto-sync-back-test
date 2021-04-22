@@ -2,7 +2,7 @@ Microsoft datacenters are designed to implement a strategy of Defense-In-Depth, 
 
 ## Availability
 
-Microsoft datacenters comply with industry standards for availability and are designed to run 24x7x365. To achieve this, Microsoft datacenters employ measures to protect operations from physical intrusion, network failures, and power outages.
+Microsoft datacenters comply with industry availability standards and are designed to run 24x7x365. To achieve this, Microsoft datacenters employ measures to protect operations from physical intrusion, network failures, and power outages.
 
 Building and electrical management systems are proactively monitored to ensure service uptime in accordance with our service level agreements. Business continuity plans are documented and ensure critical services meet availability and recovery time objectives.
 
@@ -20,4 +20,4 @@ Microsoft's datacenters have dedicated 24x7 uninterruptible power supplies (UPS)
 
 ## Maintenance
 
-Microsoft datacenters rely on a computerized maintenance system to manage schedules and work orders. Work orders are generated based on OEM guidelines and are assigned for completion. Maintenance steps following approved instructions are captured in a Method of Procedure document. Datacenter management provides approval before work can begin, and signs off on finished work to indicate completion. Maintenance records are retained in the automated system.
+Microsoft datacenters rely on a computerized maintenance system to manage schedules and work orders. Work orders are generated based on OEM guidelines and are assigned for completion. Maintenance steps following approved instructions are captured in a Method of Procedure document. Datacenter management provides approval before work can begin and signs off on finished work to indicate completion. Maintenance records are retained in the automated system.
