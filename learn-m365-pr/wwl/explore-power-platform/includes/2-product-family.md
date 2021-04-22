@@ -9,7 +9,7 @@ Power Platform is composed of the following four key products:
     
  *  **Power Automate.** Enables users to create automated workflows between applications and services. It helps automate repetitive business processes such as communication, data collections, and decision approvals.
     
- *  **Power BI(Business Intelligence)**. Delivers insight for analyzing data through the business analytics service. It can share those insights through data visualizations in reports and dashboards, which can help users make fast, informed decisions. Consider Power BI as the analysis and insights leg of the Power Platform. It enables users to display business data in ways that makes the most sense.
+ *  **Power BI(Business Intelligence).** Delivers insight for analyzing data through the business analytics service. It can share those insights through data visualizations in reports and dashboards, which can help users make fast, informed decisions. Consider Power BI as the analysis and insights leg of the Power Platform. It enables users to display business data in ways that makes the most sense.
  *  **Power Virtual Agents.** Enables anyone to create powerful chatbots using a guided, no-code graphical interface, without the need for data scientists or developers.
 
 The platform upon which these four key products are built includes the following components:
