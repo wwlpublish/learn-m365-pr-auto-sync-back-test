@@ -4,7 +4,7 @@ title: Explore the encryption services used by SharePoint Online
 metadata:
   title: Explore the encryption services used by SharePoint Online
   description: "Explore the encryption services used by SharePoint Online"
-  ms.date: 04/21/2021
+  ms.date: 04/22/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -24,6 +24,6 @@ quiz:
     - content: "Per-file encryption"
       isCorrect: false
       explanation: "That's incorrect. This encryption method encrypts every individual file stored in SharePoint Online and OneDrive for Business with its own unique key. Try again."
-    - content: "Bitlocker encryption"
+    - content: "BitLocker encryption"
       isCorrect: true
       explanation: "That's correct. Encryption at rest provides BitLocker encryption by default on all customer document libraries, users' OneDrive for Business data, and site data that's stored in the Microsoft 365 datacenter."
