@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.viva-topics-implement.scenarios
+metadata:
+  title: Discover scenarios for Viva Topics
+  description: Learn how to identify your key usage scenarios for Viva Topics.
+  ms.date: 04/10/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Discover scenarios for Viva Topics
+durationInMinutes: 5
+content: |
+  [!include[](includes/scenarios.md)]

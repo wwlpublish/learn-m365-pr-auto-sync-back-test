@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.viva-topics-implement.security-privacy
+metadata:
+  title: Establish security and privacy settings for Viva Topics
+  description: Learn about security and privacy settings for Viva Topics.
+  ms.date: 04/10/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+title: Establish security and privacy settings for Viva Topics
+durationInMinutes: 2
+content: |
+  [!include[](includes/security-privacy.md)]
