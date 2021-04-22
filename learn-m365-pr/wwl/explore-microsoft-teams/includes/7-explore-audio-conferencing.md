@@ -88,7 +88,7 @@ The meeting ends after 4 hours.
 
 The following graphic shows that participants of a meeting can join through the Teams app on different devices, or through a phone from any device that can call into PSTN.
 
-:::image type="content" source="../media/joining-a-meeting-in-microsoft-teams-b4b69b73.jpg" alt-text="graphic shows that participants of a meeting can join through the Teams app on different devices, or through a phone from any device that can call into PSTN":::
+:::image type="content" source="../media/join-a-meeting-in-microsoft-teams-b4b69b73.jpg" alt-text="graphic shows that participants of a meeting can join through the Teams app on different devices, or through a phone from any device that can call into PSTN":::
 
 
 ### Manage audio conferencing

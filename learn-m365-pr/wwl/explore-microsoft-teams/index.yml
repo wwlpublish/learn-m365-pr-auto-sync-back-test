@@ -3,7 +3,7 @@ uid: learn.wwl.explore-microsoft-teams
 metadata:
   title: Explore Microsoft Teams
   description: "Explore Microsoft Teams"
-  ms.date: 04/21/2021
+  ms.date: 04/22/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -38,7 +38,7 @@ units:
 - learn.wwl.explore-microsoft-teams.analyze-teams-infrastructure
 - learn.wwl.explore-microsoft-teams.manage-life-cycle-of-team
 - learn.wwl.explore-microsoft-teams.compare-apps-used-for-collaboration-microsoft-365
-- learn.wwl.explore-microsoft-teams.manage-authentication-access-to
+- learn.wwl.explore-microsoft-teams.manage-authentication-access
 - learn.wwl.explore-microsoft-teams.implement-guest-access
 - learn.wwl.explore-microsoft-teams.explore-audio-conferencing
 - learn.wwl.explore-microsoft-teams.implement-phone-system
