@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.viva-topics-planning.knowledge-check
+metadata:
+  title: Knowledge check
+  description: Knowledge check
+  ms.date: 04/20/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+title: Knowledge check
+durationInMinutes: 4
+content: |
+quiz:
+  title: Check your knowledge
+  questions:
+
+  - content: "Viva Topics can be used for many business scenarios. Which of the following is *not* a scenario for Viva Topics?"
+    choices:
+    - content: "Help with employee onboarding, training, and knowledge sharing, especially working remotely."
+      isCorrect: false
+      explanation: "Sorry, that answer's not correct. You can use Viva Topics to help with employee onboarding - it helps employees find the information they need without having to search across multiple repositories or leave the applications they’re already using."
+    - content: "Share information to improve productivity and reduce costs." 
+      isCorrect: false
+      explanation: "Sorry, that answer's not correct. When topics are managed and shared, people can more easily find information and experts to help them in their work. This enables them to make decisions more easily and shave time off projects."
+    - content: "Delivering third-party educational services."
+      isCorrect: true
+      explanation: "Correct, this is not a Viva Topics usage scenario."
+
+  - content: "Which statement is most accurate for users with the topic viewer role?"
+    choices:
+    - content: "Topic viewers can view the topics they’ve been granted access to." 
+      isCorrect: true
+      explanation: "That’s correct. Users can view topics they’ve been granted access in modern SharePoint pages, Microsoft Search in SharePoint, and Office.com."
+    - content: "Topic viewers are guests who have been granted access." 
+      isCorrect: false
+      explanation: "Sorry, that's incorrect. All Viva Topics users are topic viewers and can discover and manually curate topics with Viva Topics."
+    - content: "Topic viewers can edit topic pages they’ve been granted access."
+      isCorrect: false
+      explanation: "Sorry, that’s incorrect. Only topics contributors, Knowledge managers, and Knowledge admins can edit."
+
+  - content: "Which option best describes the topic contributor role?"
+    choices:
+    - content: "All topic contributors have admin permissions to view topics, including sensitive data."
+      isCorrect: false
+      explanation: "Sorry, that's incorrect. Topic contributors don't have admin permission. They have topic viewer permissions to edit an existing topic or to create a new topic."
+    - content: "Topic contributors are people in your organization with subject matter expertise to author topics."
+      isCorrect: true
+      explanation: "Correct. Topic contributors are champions in your organization that help create and edit knowledge content."
+    - content: "Topic contributors access Microsoft 365 admin center to coordinate with subject matter experts to curate content." 
+      isCorrect: false
+      explanation: "That's incorrect.	Topic contributors don't have access to the Microsoft 365 admin center - they create, edit, and curate content through Viva Topics."
