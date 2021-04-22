@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.msgraph-manage-files.4-exercise-connect-javascript-app
 metadata:
-  title: Exercise – Connect JavaScript app to Microsoft 365
-  description: In this exercise, you'll create a simple JavaScript app. You'll configure it to use your Azure Active Directory application registration and let users sign in with their work account using the Microsoft Authentication Libraries (MSAL) SDK.
+  title: Exercise - Connect a JavaScript app to Microsoft 365
+  description: In this exercise, you'll create a simple JavaScript app. You'll configure it to use your Azure Active Directory application registration and let users sign in with their work account by using the Microsoft Authentication Library SDK.
   ms.date: 03/31/2021
   author: BobGerman
   ms.author: rogerman
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
-title: Exercise – Connect JavaScript app to Microsoft 365
+title: Exercise - Connect a JavaScript app to Microsoft 365
 durationInMinutes: 3
 content: |
   [!include[](includes/4-exercise-connect-javascript-app.md)]
