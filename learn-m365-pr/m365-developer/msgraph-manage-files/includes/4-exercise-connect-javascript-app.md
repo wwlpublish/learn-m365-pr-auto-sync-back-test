@@ -4,13 +4,13 @@ In this exercise, you'll create a JavaScript app connected to Microsoft 365. You
 
 1. To get the initial app code used in this exercise, choose from one of the following options:
 
-    If you use git, clone the project by using the git clone command:
+    If you use Git, clone the project by using the `git clone` command:
 
     ```cmd
     git clone https://github.com/MicrosoftDocs/mslearn-retrieve-m365-data-with-msgraph-quickstart.git
     ```
 
-    If you don't use git, go to [https://github.com/MicrosoftDocs/mslearn-retrieve-m365-data-with-msgraph-quickstart](https://github.com/MicrosoftDocs/mslearn-retrieve-m365-data-with-msgraph-quickstart) in the web browser. Select the **Code** button followed by **Download ZIP**. Extract the zip file to your machine.
+    If you don't use Git, go to [https://github.com/MicrosoftDocs/mslearn-retrieve-m365-data-with-msgraph-quickstart](https://github.com/MicrosoftDocs/mslearn-retrieve-m365-data-with-msgraph-quickstart) in the web browser. Select the **Code** button followed by **Download ZIP**. Extract the zip file to your machine.
 
 1. Open the folder in your code editor.
 1. In your code editor, open the *auth.js* file.
