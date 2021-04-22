@@ -18,7 +18,7 @@ In this exercise, you'll complete the download capability in your app so you can
     }
     ```
     
-1.	In *ui.js*, add this line underneath the a.href = assignment statement.
+1.	In *ui.js*, add this line underneath the `a.href = assignment` statement.
 
     ```javascript
                 a.onclick = () => { downloadFile(file); };
