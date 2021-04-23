@@ -1,4 +1,4 @@
-Business units and product groups at Microsoft are responsible for specific implementations of Microsoft security policies, standards, and requirements. Microsoft 365 documents security implementations in the Microsoft 365 Information Security Policy. This policy aligns with the Microsoft Security Policy and governs the Microsoft 365 information system, including all Microsoft 365 environments and all resources involved in the collection, processing, maintenance, use, sharing, dissemination, and disposal of data.
+Business units and product groups at Microsoft are responsible for implementing the security policies, standards, and requirements of the Microsoft Security Policy and Standards Program. Microsoft 365 documents these security implementations in the Microsoft 365 Information Security Policy. This policy aligns with the Microsoft Security Policy and governs the Microsoft 365 information system, including all Microsoft 365 environments and all resources involved in the collection, processing, maintenance, use, sharing, dissemination, and disposal of data.
 
 ## Scope
 
@@ -50,6 +50,10 @@ Each service team within Microsoft 365 designates individuals responsible for dr
 | EVP, Experience + Devices | Top manager responsible for setting strategic direction for the Engineering Group, including security and compliance objectives. |
 | Service Team Compliance Champs | Specialists in each service team who assist service team members in implementing policy and standard requirements. |
 | Service Team Members | Members of service teams responsible and accountable for implementing policy and standard requirements. |
+
+## Microsoft 365 Control Framework Updates
+
+The Microsoft 365 Trust team works to maintain the internal Microsoft 365 Control Framework on an ongoing basis. Several scenarios may require the Trust team to update the control framework, including: changes in relevant regulations or laws, emerging threats, penetration test results, security incidents, audit feedback, and new compliance requirements. When a framework change is required, the Trust team identifies key stakeholders responsible for approving and implementing the change to ensure it is feasible and will not cause unintended issues with Microsoft 365 services. Once the Trust team and relevant stakeholders agree on what the change requires, the workloads responsible for implementing the change set target completion dates and work to implement the change within their respective services. After implementation targets have been met, the Trust team updates the control framework with the new or updated controls.
 
 ## Exception process
 
