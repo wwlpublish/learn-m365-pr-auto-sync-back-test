@@ -15,3 +15,5 @@ After completing this module, you'll be able to:
  *  Describe the levels of encryption for data at rest and data in transit within SharePoint Online.
  *  Identify the options available in SharePoint Online to maintain and recover content that has either been deleted or misplaced in the intranet.
  *  Describe the different options that provide anti-malware protection in SharePoint Online.
+
+ 
