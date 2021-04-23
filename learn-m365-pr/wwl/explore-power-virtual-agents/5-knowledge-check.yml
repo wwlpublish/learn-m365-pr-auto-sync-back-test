@@ -16,7 +16,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As the Enterprise Administrator for Lucerne Publishing, Nestor Wilke is interested in using Power Virtual Agents to create chatbots. Nestor wants to use advanced concepts, such as entities and variables, but only have the chatbots available internally. Which version of Power Virtual Agents should Nestor use?"
+  - content: "As the Enterprise Administrator for Lucerne Publishing, Patti Fernandez is interested in using Power Virtual Agents to create chatbots. Patti wants to use advanced concepts, such as entities and variables, but only have the chatbots available internally. Which version of Power Virtual Agents should Patti use?"
     choices:
     - content: "Microsoft Teams app"
       isCorrect: true
