@@ -6,7 +6,7 @@ metadata:
   description: Learn how Microsoft 365 builds resilient services to meet customer expectations in the face of faults and challenges to normal operations, maintains optimal service availability, and fulfills business continuity requirements.
   ms.date: 06/05/2020
   author: NamrahK
-  ms.author: v-nakhu
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 5
