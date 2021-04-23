@@ -1,6 +1,6 @@
-In the next exercise, you'll extend the app to support file uploads. There are two ways to upload a file using Microsoft Graph. The easiest way is to use a single PUT request with a resource such as `/me/drive/root:/FolderA/FileB.txt:/content`. However, this method is limited to 4 MB. The more complex method involves a series of HTTP requests as an “upload session”.
+In the next exercise, you'll extend the app to support file uploads. There are two ways to upload a file by using Microsoft Graph. The easiest way is to use a single PUT request with a resource such as `/me/drive/root:/FolderA/FileB.txt:/content`. This method is limited to 4 MB. The more complex method involves a series of HTTP requests as an *upload session*.
 
-Fortunately, the Microsoft Graph SDK makes the complex method easy! The aptly named OneDriveLargeFileUploadTask object handles all the details.
+Fortunately, the Microsoft Graph SDK makes the complex method easy. The aptly named `OneDriveLargeFileUploadTask` object handles all the details.
 
 ```javascript
 const uploadTask = await
@@ -13,13 +13,13 @@ const uploadTask = await
 const response = await uploadTask.upload();
 ```
 
-The file argument is a file stream object; in the web browser it’s the one returned by the browser file input element:
+The file argument is a file stream object. In the web browser, it's the one returned by the browser file input element.
 
 ```html
 <input type="file" onchange="fileSelected(this);" />
 ```
 
-When the user selects a file, the `onchange` event handler can access the selected file:
+When the user selects a file, the `onchange` event handler can access the selected file.
 
 ```javascript
 function fileSelected(e) {
