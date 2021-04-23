@@ -14,4 +14,5 @@ After completing this module, you'll be able to:
  *  Describe audio conferencing functionality that's available in Microsoft Teams.
  *  Assign an audio conferencing license and a conference ID to each user to support audio conferencing.
  *  Implement phone systems in Microsoft Teams.
-    
+
+   
