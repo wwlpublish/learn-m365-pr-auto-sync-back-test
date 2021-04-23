@@ -1,6 +1,6 @@
-A list of files with no way to download them is sure to disappoint users, so we need to add a download feature! You might think those files would have simple hyperlinks, but remember that Microsoft 365 is a secure environment, so the download needs to be secured. Microsoft Graph handles this by providing a short-lived download URL that has the security built right in, but that needs to be used immediately.
+A list of files with no way to download them is sure to disappoint users, so we need to add a download feature. You might think those files would have simple hyperlinks, but remember that Microsoft 365 is a secure environment, so the download needs to be secured. Microsoft Graph provides a short-lived download URL that has the security built right in, but it needs to be used immediately.
 
-To handle this when retrieving the list of files, instead of retrieving URLs that would be invalid before a user could click them, the code requests the ID of each file. The file ID is exchanged for a download URL at the instant the user clicks the link. Here’s that call again for your reference:
+When you retrieve a list of files, instead of retrieving URLs that would be invalid before a user could select them, the code requests the ID of each file. The file ID is exchanged for a download URL at the instant the user selects the link. Here's that call again for your reference:
 
 ```javascript
 const response = await graphClient
@@ -9,7 +9,7 @@ const response = await graphClient
     .get();
 ```
 
-When a user clicks on a file link, an `onClick` event will send the user to a function named `downloadFile()` that retrieves the short-lived URL and downloads the file immediately.
+When a user selects a file link, an `onClick` event sends the user to the `downloadFile()` function that retrieves the short-lived URL and downloads the file immediately.
 
 ```javascript
 async function downloadFile(file) {
@@ -27,7 +27,6 @@ async function downloadFile(file) {
 }
 ```
 
-The `/me/drive/items/<file ID>` call retrieves metadata about the specified file; notice the `select()` option requesting `@microsoft.graph.downloadUrl`; this property needs to be explicitly requested for the short-lived download URL as it’s not returned by default.
+The `/me/drive/items/<file ID>` call retrieves metadata about the specified file. Notice the `select()` option that requests `@microsoft.graph.downloadUrl`. This property must be explicitly requested for the short-lived download URL because it isn't returned by default.
 
-The `window.open()` call with a target of `_self` instructs the browser to download the file rather than navigating to it.
-
+The `window.open()` call with a target of `_self` instructs the browser to download the file instead of navigating to it.
