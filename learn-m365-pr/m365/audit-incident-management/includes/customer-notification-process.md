@@ -48,6 +48,6 @@ Customers share responsibility with Microsoft for reporting security incidents. 
 
 ## Learn more
 
-- [Incident Management Overview](https://aka.ms/Office365SIM?azure-portal=true)
+- [Incident Management Overview](https://docs.microsoft.com/compliance/assurance/assurance-incident-management?azure-portal=true)
 - [Microsoft Online Services Data Protection Addendum](https://www.microsoft.com/licensing/product-licensing/products?azure-portal=true)
 - [Microsoft Secure Score](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score?azure-portal=true)
