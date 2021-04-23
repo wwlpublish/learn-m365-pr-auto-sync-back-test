@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 04/22/2021
+  ms.date: 04/23/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -16,7 +16,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As the Enterprise Administrator for Contoso, you want to connect and organize your SharePoint sites so that your users can search across all associated sites and apply common navigation, branding, and site structure across associated sites. Which type of SharePoint site should you create?"
+  - content: "As the Enterprise Administrator for Contoso, Patti Fernandez wants to connect and organize Contoso's SharePoint sites so that its users can search across all associated sites and apply common navigation, branding, and site structure across associated sites. Which type of SharePoint site should Patti create?"
     choices:
     - content: "Team site"
       isCorrect: false
@@ -38,7 +38,7 @@ quiz:
     - content: "93 days after the item was placed in the Local Recycle Bin"
       isCorrect: true
       explanation: "That's correct. Items are automatically purged from the Site Collection Recycle Bin after 93 days. The time at which 93 days begin is from the time an item is placed in the Local Recycle Bin."
-  - content: "As the Enterprise Administrator for Tailspin Toys, you created a team site in SharePoint Online. What happened when you created this site?"
+  - content: "As the Enterprise Administrator for Tailspin Toys, Allan Deyoung created a team site in SharePoint Online. What happened when Allan created this site?"
     choices:
     - content: "A SharePoint hub site was automatically created"
       isCorrect: false
