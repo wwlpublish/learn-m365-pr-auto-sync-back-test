@@ -4,7 +4,7 @@ title: Connect flows to data sources
 metadata:
   title: Connect flows to data sources
   description: "Connect flows to data sources"
-  ms.date: 04/22/2021
+  ms.date: 04/23/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -16,7 +16,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As the Enterprise Administrator for Northwind Traders, you're implementing Power Automate flows. What must you do in Power Platform to enable a Power Automate flow to call a publicly available API?"
+  - content: "As the Enterprise Administrator for Northwind Traders, Patti Fernandez is implementing Power Automate flows. What must Patti do in Microsoft Power Platform to enable a Power Automate flow to call a publicly available API?"
     choices:
     - content: "Build a custom connector"
       isCorrect: true
