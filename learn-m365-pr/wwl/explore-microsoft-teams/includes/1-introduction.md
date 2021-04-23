@@ -4,7 +4,7 @@ The Microsoft Teams design is built on a new, modern infrastructure for enterpri
 
 Teams has evolved into the primary client for intelligent communications in Microsoft 365, replacing the Skype for Business client.
 
-After completing this module, you'll be able to:
+After completing this module, you'll be able to: 
 
  *  Describe basic Teams functionality and the infrastructure that supports its goals.
  *  Describe how Teams compares to the other collaboration apps in Microsoft 365.
