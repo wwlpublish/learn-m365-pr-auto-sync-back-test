@@ -4,7 +4,7 @@ title: Create and manage recipients
 metadata:
   title: Create and manage recipients
   description: "Create and manage recipients"
-  ms.date: 04/22/2021
+  ms.date: 04/23/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -16,7 +16,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As the Enterprise Admin for Contoso, you're trying to understand the difference between a Dynamic Distribution Group and a Distribution Group. What is the difference between these two types of groups?"
+  - content: "As the Enterprise Admin for Contoso, Holly Dickson is trying to understand the difference between a Dynamic Distribution Group and a Distribution Group. What is the difference between these two types of groups?"
     choices:
     - content: "A Dynamic Distribution Group is the most common form of a globally available distribution list for sending out one-to-many e-mail messages. A Distribution Group is commonly used to create a global company distribution list using attributes in the company address book, such as region, office, department, or roles."
       isCorrect: false

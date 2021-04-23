@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 04/22/2021
+  ms.date: 04/23/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -16,7 +16,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "Which of the following filters is the main component against malware or other harmful email attachments that want to grab your personal information from your computer?"
+  - content: "Which of the following filters is the main component against malware or other harmful email attachments that want to grab a user's personal information from the user's computer?"
     choices:
     - content: "Malware filtering"
       isCorrect: false
@@ -38,7 +38,7 @@ quiz:
     - content: "Whether its email system provides a POP3 protocol"
       isCorrect: false
       explanation: "That's incorrect. This item isn't the final deciding factor that Fabrikam should consider to determine its migration option. Try again."
-  - content: "Contoso is planning to migrate its Exchange environment to Microsoft 365. It has an Exchange 2016 Server on-premises deployment with about 1500 users. As Contoso's Enterprise Administrator, you want to migrate all your data over a weekend. Which of the following migration strategies would be best for Contoso?"
+  - content: "Contoso is planning to migrate its Exchange environment to Microsoft 365. It has an Exchange 2016 Server on-premises deployment with about 1500 users. As Contoso's Enterprise Administrator, Holly Dickson wants to migrate all of Contoso's data over a weekend. Which of the following migration strategies would be best for Contoso?"
     choices:
     - content: "Cutover migration"
       isCorrect: true
