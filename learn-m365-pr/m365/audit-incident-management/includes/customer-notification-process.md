@@ -10,7 +10,7 @@ The notification timeline commitment begins when the official security incident 
 
 Customer notification for security incidents occurs via appropriate channels based on the nature and scope of the incident. These channels may include one or more of the following notifications:
 
-- Notification in the [Message Center of the Microsoft 365 Admin center](https://docs.microsoft.com/microsoft-365/admin/manage/message-center?view=o365-worldwide&azure-portal=true)
+- Notification in the [Message Center of the Microsoft 365 Admin center](https://docs.microsoft.com/microsoft-365/admin/manage/message-center?azure-portal=true)
 - Email to the customer’s tenant administrator
 - Email to the customer’s designated [Global Privacy Contact](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-properties-area?azure-portal=true) (if the tenant Admin has defined it in the Azure Active Directory Admin center)
 - Direct outreach by phone call to the customer’s tenant administrator by a specially trained Support team member
@@ -37,8 +37,8 @@ Microsoft’s customer notification commitments are detailed in two sections of 
 
 To ensure notifications are received promptly by the correct customer contacts, the customer must maintain accurate contact information in their tenant profiles.
 
-- Customers should ensure their contact information is up to date in the [Microsoft 365 Admin center](https://docs.microsoft.com/microsoft-365/admin/admin-overview/about-the-admin-center?view=o365-worldwide&azure-portal=true).
-- Customer administrators should [configure the options](https://docs.microsoft.com/microsoft-365/admin/manage/message-center?view=o365-worldwide&azure-portal=true) for how Data Privacy messages are displayed in the Message Center to ensure relevant customer administrators are made aware of incident notifications.
+- Customers should ensure their contact information is up to date in the [Microsoft 365 Admin center](https://docs.microsoft.com/microsoft-365/admin/admin-overview/about-the-admin-center?azure-portal=true).
+- Customer administrators should [configure the options](https://docs.microsoft.com/microsoft-365/admin/manage/message-center?azure-portal=true) for how Data Privacy messages are displayed in the Message Center to ensure relevant customer administrators are made aware of incident notifications.
 
    ![A screenshot of Microsoft 365 admin center](../media/microsoft365-admin-center.png)]
 
@@ -48,6 +48,6 @@ Customers share responsibility with Microsoft for reporting security incidents. 
 
 ## Learn more
 
-- [Security Incident Management in Microsoft 365 White Paper](https://aka.ms/Office365SIM?azure-portal=true)
+- [Incident Management Overview](https://aka.ms/Office365SIM?azure-portal=true)
 - [Microsoft online services Data Protection Addendum](https://www.microsoft.com/licensing/product-licensing/products?azure-portal=true)
-- [Microsoft Secure Score](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score?view=o365-worldwide&azure-portal=true)
+- [Microsoft Secure Score](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score?azure-portal=true)
