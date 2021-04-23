@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 04/22/2021
+  ms.date: 04/23/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -16,7 +16,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As the Enterprise Administrator for Northwind Traders, you recently implemented Power BI. There were several benefits of Power BI that attracted you to the product. One such benefit is the fact that your Power BI Pro users can distribute dashboards and reports, and the users who view the content don't need a Power BI Pro license. Which Power BI licensing option enables this feature?"
+  - content: "As the Enterprise Administrator for Northwind Traders, Allan Deyoung recently implemented Power BI. There were several benefits of Power BI that attracted Allan to the product. One such benefit is that it will enable Northwind's Power BI Pro users to distribute dashboards and reports. Allan also liked the fact that the users who view the content won't need a Power BI Pro license. Which Power BI licensing option enables these features?"
     choices:
     - content: "Power BI (free) license"
       isCorrect: false
@@ -27,7 +27,7 @@ quiz:
     - content: "Power BI Mobile App license"
       isCorrect: false
       explanation: "That's incorrect. This isn't a valid Power BI license. Try again."
-  - content: "As the Enterprise Administrator for Tailspin Toys, you want to create a report in Power BI Desktop. What's the first step you must complete when creating a Power BI report?"
+  - content: "As the Enterprise Administrator for Tailspin Toys, Patti Fernandez wants to create a report in Power BI Desktop. What's the first step that Patti must complete when creating a Power BI report?"
     choices:
     - content: "Select the data source for the report"
       isCorrect: true
@@ -38,7 +38,7 @@ quiz:
     - content: "Select the workspace to which the report will be published"
       isCorrect: false
       explanation: "That's incorrect. This is the final step in creating a Power BI report. Try again."
-  - content: "As the Enterprise Administrator for Fabrikam, you want to create a Power BI Dashboard. What's the first step in creating a dashboard?"
+  - content: "As the Enterprise Administrator for Fabrikam, Diego Siciliani wants to create a Power BI Dashboard. What's the first step that Diego must complete to create a dashboard?"
     choices:
     - content: "Hover over a visual on the report that will be used in the dashboard to reveal the pin icon"
       isCorrect: false
@@ -46,6 +46,6 @@ quiz:
     - content: "Select whether the visual on the report that will be used to create the dashboard is to be pinned to a new or existing dashboard"
       isCorrect: false
       explanation: "That's incorrect. This is the final step in creating a Power BI dashboard. Try again."
-    - content: "Access a report you either own or have been given edit privileges to"
+    - content: "Access a report Diego either owns or has been given edit privileges to"
       isCorrect: true
       explanation: "That's correct. To create a dashboard, the user must first access a report they either own or have been given edit privileges to."
