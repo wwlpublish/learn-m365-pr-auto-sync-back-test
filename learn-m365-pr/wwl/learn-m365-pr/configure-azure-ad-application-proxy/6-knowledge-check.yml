@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 04/22/2021
+  ms.date: 04/23/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -27,7 +27,7 @@ quiz:
     - content: "External endpoint"
       isCorrect: false
       explanation: "That's incorrect. An external endpoint is how your users reach your applications while outside of your network. Try again."
-  - content: "As the Enterprise Administrator for Adventure Works Cycles, you want to publish on-premises applications for remote access by your customers and partners. Because you have a large deployment, you want to improve latency for tenants that have applications hosted in different regions. Which of the following items is required when publishing on-premises applications for remote access that will achieve this goal?"
+  - content: "As the Enterprise Administrator for Adventure Works Cycles, Holly Spencer wants to publish on-premises applications for remote access by Adventure Works' customers and partners. Because Adventure Works has a large deployment, Holly wants to improve latency for tenants that have applications hosted in different regions. Which of the following items is required when publishing on-premises applications for remote access that will achieve this goal?"
     choices:
     - content: "DNS TXT file"
       isCorrect: false
@@ -38,14 +38,14 @@ quiz:
     - content: "Location-based connector groups"
       isCorrect: true
       explanation: "That's correct. Connector groups make it easier to manage large deployments. Because location-based connector groups can be created to serve only local applications, they can improve latency for tenants that have applications hosted in different regions."
-  - content: "As the Enterprise Administrator for Northwind Traders, you implemented Azure AD Application Proxy. Doing so enables Northwind to support remote workers by publishing on-premises applications to be accessed over the internet. You've organized your connectors into connector groups, with each group handling traffic to specific applications. To optimize your network structure, you also want to implement load-balancing. Which of the following steps should you do to load-balance this traffic to specific applications?"
+  - content: "As the Enterprise Administrator for Northwind Traders, Allan Deyoung has implemented Azure AD Application Proxy. Doing so enables Northwind to support remote workers by publishing on-premises applications to be accessed over the internet. Allan has organized Northwind's connectors into connector groups, with each group handling traffic to specific applications. To optimize Northwind's network structure, Allan also wants to implement load-balancing. What should Allan do next to load-balance this traffic to specific applications?"
     choices:
-    - content: "You should deploy at least two connectors"
+    - content: "Allan should deploy at least two connectors"
       isCorrect: false
       explanation: "That's incorrect. Deploying at least two connectors helps support high availability. Try again."
-    - content: "Verify the Microsoft AAD Application Proxy Connector service is running"
+    - content: "Allan should verify the Microsoft AAD Application Proxy Connector service is running"
       isCorrect: false
       explanation: "That's incorrect. This service enables connectivity but does not impact load-balancing. Try again."
-    - content: "No more steps are required"
+    - content: "There's nothing else that Allan must do"
       isCorrect: true
       explanation: "That's correct. No more steps are required because connectors load-balance automatically."

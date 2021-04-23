@@ -4,7 +4,7 @@ title: Examine Azure AD Application Proxy prerequisites
 metadata:
   title: Examine Azure AD Application Proxy prerequisites
   description: "Examine Azure AD Application Proxy prerequisites"
-  ms.date: 04/22/2021
+  ms.date: 04/23/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -16,7 +16,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As the Enterprise Administrator for Fabrikam, you're preparing its environment for Azure AD Application Proxy. You must begin your preparation by enabling communication to which of the following items?"
+  - content: "As the Enterprise Administrator for Fabrikam, Allan Deyoung is preparing Fabrikam's environment for Azure AD Application Proxy. Allan must prepare for Azure AD Application Proxy by enabling communication to which of the following items?"
     choices:
     - content: "Azure data centers"
       isCorrect: true

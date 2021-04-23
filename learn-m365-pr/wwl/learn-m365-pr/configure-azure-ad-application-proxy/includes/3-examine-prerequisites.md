@@ -24,7 +24,7 @@ To prepare your environment for Azure AD Application Proxy, you first need to en
      *  9352
      *  10100–10120
 4.  For information about updating your connectors to the newest version, see [Understand Azure AD Application Proxy connectors](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-connectors?azure-portal=true).
-5.  If your firewall or proxy allows DNS allowlisting, you can use allowlist connections to msappproxy.net and servicebus.windows.net. If not, you must allow access to the [Azure DataCenter IP ranges](https://www.microsoft.com/download/details.aspx?id=41653?azure-portal=true), which are updated each week.
+5.  If your firewall or proxy allows DNS allowlisting, you can use allowlist connections to msappproxy.net and servicebus.windows.net. If not, you can use the IP ranges for each cloud, broken down by region and by the tagged services in that cloud. These IP ranges are now available on MS Download by searching for "Azure IP Ranges and Service Tags." These JSON files are updated weekly and include versioning both for the full file and each individual service tag in that file. The “AzureCloud” tag provides the IP ranges for that entire cloud (Public, USGov, Germany, China) and is also broken out by region within that cloud. The list of service tags in the file will be increasing as Microsoft's constantly onboarding new Azure teams to service tags.
 6.  Microsoft uses four addresses to verify certificates. Allow access to the following URLs if you haven't done so for other products:
     
      *  mscrl.microsoft.com:80
