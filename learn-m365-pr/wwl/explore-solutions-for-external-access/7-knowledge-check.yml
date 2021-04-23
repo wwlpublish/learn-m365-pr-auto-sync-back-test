@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 04/22/2021
+  ms.date: 04/23/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -16,7 +16,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As the Enterprise Administrator for Contoso, you want to implement Azure Active Directory (Azure AD) Business-to-Business (B2B) collaboration. Azure AD B2B will enable Contoso to maintain control over its corporate data while securely sharing its applications and services with guest users from another organization. You want to enable guest users to sign in to your apps and services with their own work, school, or social identities. What happens if a guest user doesn't have a Microsoft account or an Azure AD account?"
+  - content: "As the Enterprise Administrator for Contoso, Holly Dickson wants to implement Azure Active Directory (Azure AD) Business-to-Business (B2B) collaboration. Azure AD B2B will enable Contoso to maintain control over its corporate data while securely sharing its applications and services with guest users from another organization. Holly wants to enable guest users to sign in to Contoso's apps and services with their own work, school, or social identities. What happens if a guest user doesn't have a Microsoft account or an Azure AD account?"
     choices:
     - content: "A Contoso admin with User Management permissions must create a Microsoft 365 account for the guest user"
       isCorrect: false
@@ -27,7 +27,7 @@ quiz:
     - content: "Contoso must manage the external account and password of the guest user"
       isCorrect: false
       explanation: "That's incorrect. With Azure AD B2B, there's no external administrative overhead required by your organization. Try again."
-  - content: "Microsoft Teams enables communication and collaboration with people outside your organization. Which of the following methods is a way in which Teams can make that happen?"
+  - content: "Microsoft Teams enables communication and collaboration with people outside of an organization. Which of the following methods is a way in which Teams can make that happen?"
     choices:
     - content: "External access (federation)"
       isCorrect: true
@@ -38,7 +38,7 @@ quiz:
     - content: "OAuth 2.0 authentication"
       isCorrect: false
       explanation: "That's incorrect. The Consent Framework is built on OAuth 2.0 authentication. It's not a way in which Teams enables communication and collaboration with people outside your organization. Try again."
-  - content: "As the Enterprise Administrator for Northwind Traders, you're concerned about data security when requesting support from Microsoft. If you need a Microsoft support engineer to help troubleshoot and fix an issue, the engineer will have unlimited access to your data. What can you do to control the support engineer's access to your data?"
+  - content: "As the Enterprise Administrator for Northwind Traders, Patti Fernandez is concerned about data security when requesting support from Microsoft. If Patti needs a Microsoft support engineer to help troubleshoot and fix an issue, the engineer will have unlimited access to Northwind's data. What can Patti do to control the support engineer's access to Northwind's data?"
     choices:
     - content: "Create a DLP policy that provides limited access to the support engineer once a support case is opened"
       isCorrect: false
@@ -46,6 +46,6 @@ quiz:
     - content: "Require the support engineer submit a customer lockbox request"
       isCorrect: true
       explanation: "That's correct. Customer lockbox requests enable you to control whether to give the support engineer access to your data for a specified period of time."
-    - content: "Give the support engineer remote access to your computer so that you can monitor every action the engineer takes"
+    - content: "Give the support engineer remote access to Patti's computer so that Patti can monitor every action the engineer takes"
       isCorrect: false
       explanation: "That's incorrect. That's not what you should do to control the support engineer's access to your data.  Try again."
