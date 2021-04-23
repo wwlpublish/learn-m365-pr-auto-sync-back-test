@@ -4,7 +4,7 @@ title: Explore audio conferencing
 metadata:
   title: Explore audio conferencing
   description: "Explore audio conferencing"
-  ms.date: 04/22/2021
+  ms.date: 04/23/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -16,7 +16,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "Contoso is planning to implement audio conferencing. You don't want your users to have to remember a specific conference ID that's assigned to them when they create meeting requests. What type of conference ID should you assign to your users?"
+  - content: "Contoso is planning to implement audio conferencing. As Contoso's Enterprise Administrator, Patti Fernandez doesn't want Contoso's users to have to remember a specific conference ID that's assigned to them when they create meeting requests. What type of conference ID should Patti assign to Contoso's users to satisfy this requirement?"
     choices:
     - content: "A dynamic conference ID"
       isCorrect: true
