@@ -24,6 +24,6 @@ quiz:
     - content: "Holly must have a Power BI Pro license"
       isCorrect: true
       explanation: "That's correct. A Power BI Pro license is required to share content."
-    - content: "Holly must have an admin role in the workspace from which the daskboard is being shared"
+    - content: "Holly must have an admin role in the workspace from which the dashboard is being shared"
       isCorrect: false
       explanation: "That's incorrect. Users can share from other workspaces if they have the Admin, Member, or Contributor role in the workspace. Try again."
