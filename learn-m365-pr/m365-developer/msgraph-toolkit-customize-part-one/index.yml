@@ -1,15 +1,15 @@
 ### YamlMime:Module
 uid: learn-m365.msgraph-toolkit-customize-part-one
 metadata:
-  title: Customize Microsoft Graph Toolkit components using attributes and CSS custom properties
-  description: Microsoft Graph Toolkit components are flexible for customization. You can change the behavior of the components using attributes and customize components styling to match with your app's branding.
+  title: Customize Microsoft Graph Toolkit components using attributes and CSS
+  description: Microsoft Graph Toolkit components are flexible for customization. You can change the behavior of the components using attributes and customize components' styling using CSS custom properties to match with your app's branding.
   ms.date: 04/09/2021
   author: aycabas
   ms.author: aycabas
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
-title: Customize Microsoft Graph Toolkit components using attributes and CSS custom properties
-summary: Microsoft Graph Toolkit components are flexible for customization. You can change the behavior of the components using attributes and customize components styling to match with your app's branding.
+title: Customize Microsoft Graph Toolkit components using attributes and CSS
+summary: Microsoft Graph Toolkit components are flexible for customization. You can change the behavior of the components using attributes and customize components' styling using CSS custom properties to match with your app's branding.
 abstract: |
   In this module, you will:
   - Change the behavior of Microsoft Graph Toolkit components using attributes
