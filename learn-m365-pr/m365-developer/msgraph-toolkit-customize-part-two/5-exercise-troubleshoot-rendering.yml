@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msgraph-toolkit-customize-part-two.5-exercise-troubleshoot-rendering
+metadata:
+  title: Exercise - Troubleshoot rendering
+  description: This unit shows you how to troubleshoot rendering of Microsoft Graph Toolkit components.
+  ms.date: 04/09/2021
+  author: aycabas
+  ms.author: aycabas
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Exercise - Troubleshoot rendering
+durationInMinutes: 8
+content: |
+  [!include[](includes/5-exercise-troubleshoot-rendering.md)]

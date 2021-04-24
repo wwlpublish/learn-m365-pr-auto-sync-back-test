@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.msgraph-show-user-emails.6-exercise-show-users-email
 metadata:
-  title: Exercise – Show a user’s emails
-  description: In this unit, you'll learn how to load a user's 10 last emails from Microsoft 365 using Microsoft Graph.
+  title: Exercise - Show a user's emails
+  description: In this unit, you'll learn how to load a user's 10 last emails from Microsoft 365 by using Microsoft Graph.
   ms.date: 03/30/2021
   author: waldekmastykarz
   ms.author: wmastyka
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
-title: Exercise – Show a user’s emails
+title: Exercise - Show a user's emails
 durationInMinutes: 4
 content: |
   [!include[](includes/6-exercise-show-users-email.md)]
