@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msgraph-toolkit-customize-part-two.2-change-presentation-using-templates
+metadata:
+  title: Change the presentation of data using templates
+  description: Learn how to change the presentation of data using templates with the Microsoft Graph Toolkit components.
+  ms.date: 04/09/2021
+  author: aycabas
+  ms.author: aycabas
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Change the presentation of data using templates
+durationInMinutes: 5
+content: |
+  [!include[](includes/2-change-presentation-using-templates.md)]
