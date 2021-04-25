@@ -13,8 +13,8 @@ summary: Learn about caching features offered with Microsoft Graph Toolkit and d
 abstract: |
   In this module, you will:
   - Configure caching for Microsoft Graph Toolkit components
-  - Manage MGT components cache
-  - Load and show arbitrary data from Microsoft Graph using MGT components
+  - Manage Microsoft Graph Toolkit components' cache
+  - Load and show arbitrary data from Microsoft Graph using Microsoft Graph Toolkit components
   - Optimize queries for loading data from Microsoft Graph
 
 
