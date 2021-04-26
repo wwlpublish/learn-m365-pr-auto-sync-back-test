@@ -4,8 +4,6 @@ The Microsoft Security Policy and Standards Program is part of the Microsoft Pol
 
 The Microsoft Security Policy and Standards Program is organized into policies, standards, requirements, and baselines. Policies, standards, and requirements provide enterprise-wide guidance to support consistent security and privacy practices across Microsoft. Individual business units, such as Microsoft 365, use standard operating procedures (SOPs) to detail how their business units implement the requirements.
 
-![a graphic representation of Microsoft Security Policy and Standards Program structure from top to bottom](../media/security-policy-standards-program.png)
-
 The Microsoft Security Policy and Standards Program and its related security requirements include:
 
 - **Microsoft Security Policy (MSP):** The MSP is a non-technical collection of security objectives that apply to all Microsoft staff. The objectives in the MSP guide all security policies, standards, and requirements throughout Microsoft.

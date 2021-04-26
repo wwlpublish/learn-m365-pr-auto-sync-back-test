@@ -51,7 +51,7 @@ Each service team within Microsoft 365 designates individuals responsible for dr
 | Service Team Compliance Champs | Specialists in each service team who assist service team members in implementing policy and standard requirements. |
 | Service Team Members | Members of service teams responsible and accountable for implementing policy and standard requirements. |
 
-## Microsoft 365 Control Framework Updates
+## Microsoft 365 Control Framework updates
 
 The Microsoft 365 Trust team works to maintain the internal Microsoft 365 Control Framework on an ongoing basis. Several scenarios may require the Trust team to update the control framework, including: changes in relevant regulations or laws, emerging threats, penetration test results, security incidents, audit feedback, and new compliance requirements. When a framework change is required, the Trust team identifies key stakeholders responsible for approving and implementing the change to ensure it is feasible and will not cause unintended issues with Microsoft 365 services. Once the Trust team and relevant stakeholders agree on what the change requires, the workloads responsible for implementing the change set target completion dates and work to implement the change within their respective services. After implementation targets have been met, the Trust team updates the control framework with the new or updated controls.
 
