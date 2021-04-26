@@ -44,7 +44,7 @@ Customer responsibilities for resilience vary based on the specific Microsoft 36
 
 - [Microsoft 365 Monitoring and Self-Healing](https://docs.microsoft.com/compliance/assurance/assurance-monitoring-and-self-healing?azure-portal=true)
 - [Built in resiliency](https://docs.microsoft.com/compliance/assurance/assurance-m365-service-resiliency?azure-portal=true)
-- [Data Resilience in Microsoft 365](https://docs.microsoft.com/compliance/assurance/assurance-data-resiliency-overview?azure-portal=true)
+- [Data Resiliency in Microsoft 365](https://docs.microsoft.com/compliance/assurance/assurance-data-resiliency-overview?azure-portal=true)
 - [Dealing with Data Corruption in Microsoft 365](https://docs.microsoft.com/compliance/assurance/assurance-dealing-with-data-corruption?azure-portal=true)
 - [Exchange Online Data Resiliency in Microsoft 365](https://docs.microsoft.com/compliance/assurance/assurance-exchange-data-resiliency?azure-portal=true)
 - [SharePoint and OneDrive data resiliency in Microsoft 365](https://docs.microsoft.com/compliance/assurance/assurance-sharepoint-onedrive-data-resiliency?azure-portal=true)
