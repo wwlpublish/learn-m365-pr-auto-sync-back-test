@@ -23,7 +23,6 @@ Microsoft protects availability keys in access-controlled, internal secret store
 
 ## Learn more
 
-- [Encryption for Skype for Business, OneDrive for Business, SharePoint Online, and Exchange Online](https://docs.microsoft.com/microsoft-365/compliance/office-365-encryption-for-skype-onedrive-sharepoint-and-exchange?azure-portal=true)
 - [Service encryption with Customer Key](https://docs.microsoft.com/microsoft-365/compliance/customer-key-overview?azure-portal=true)
 - [Learn about the availability key for Customer Key](https://docs.microsoft.com/microsoft-365/compliance/customer-key-availability-key-understand?azure-portal=true)
 - [Online Services Terms (OST)](https://aka.ms/OST?azure-portal=true)
