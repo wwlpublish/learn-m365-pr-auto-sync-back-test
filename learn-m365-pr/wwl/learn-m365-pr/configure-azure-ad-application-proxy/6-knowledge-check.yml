@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-azure-ad-application-proxy.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 04/25/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/6-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which of the following items is a lightweight agent that sits on-premises and supports the outbound connection to the Application Proxy service?"
+    choices:
+    - content: "Kerberos Constrained Delegation"
+      isCorrect: false
+      explanation: "That's incorrect. If an application uses Integrated Windows Authentication, Application Proxy provides single sign-on to the app by impersonating the user using Kerberos Constrained Delegation. Kerberos Constrained Delegation isn't the lightweight agent that supports outbound connect to the Application Proxy. Try again."
+    - content: "Connector"
+      isCorrect: true
+      explanation: "That's correct. The connector is a lightweight agent that sits on a Windows Server inside your network. The connector controls the traffic flow from the Application Proxy service in the cloud to your application on-premises. It only uses outbound connections, so you don't have to open any inbound ports or put anything in the perimeter network."
+    - content: "External endpoint"
+      isCorrect: false
+      explanation: "That's incorrect. An external endpoint is how your users reach your applications while outside of your network. Try again."
+  - content: "As the Enterprise Administrator for Adventure Works Cycles, Holly Spencer wants to publish on-premises applications for remote access by Adventure Works' customers and partners. Because Adventure Works has a large deployment, Holly wants to improve latency for tenants that have applications hosted in different regions. Which of the following items is required when publishing on-premises applications for remote access that will achieve this goal?"
+    choices:
+    - content: "DNS TXT file"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't required to publish on-premises applications for remote access. Try again."
+    - content: "Short Backend Application Timeout"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't required to publish on-premises applications for remote access.   Try again."
+    - content: "Location-based connector groups"
+      isCorrect: true
+      explanation: "That's correct. Connector groups make it easier to manage large deployments. Because location-based connector groups can be created to serve only local applications, they can improve latency for tenants that have applications hosted in different regions."
+  - content: "As the Enterprise Administrator for Northwind Traders, Allan Deyoung has implemented Azure AD Application Proxy. Doing so enables Northwind to support remote workers by publishing on-premises applications to be accessed over the internet. Allan has organized Northwind's connectors into connector groups, with each group handling traffic to specific applications. To optimize Northwind's network structure, Allan also wants to implement load-balancing. What should Allan do next to load-balance this traffic to specific applications?"
+    choices:
+    - content: "Allan should deploy at least two connectors"
+      isCorrect: false
+      explanation: "That's incorrect. Deploying at least two connectors helps support high availability. Try again."
+    - content: "Allan should verify the Microsoft AAD Application Proxy Connector service is running"
+      isCorrect: false
+      explanation: "That's incorrect. This service enables connectivity but does not impact load-balancing. Try again."
+    - content: "There's nothing else that Allan must do"
+      isCorrect: true
+      explanation: "That's correct. No more steps are required because connectors load-balance automatically."
