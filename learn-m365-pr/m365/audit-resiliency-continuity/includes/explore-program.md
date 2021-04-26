@@ -1,6 +1,6 @@
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4yqwE]
 
-Resilience is a critical component of Microsoft service availability, but even resilient services can be impacted by unexpected events. Microsoft’s Enterprise Business Continuity Management (EBCM) Program helps to ensure our online services are prepared to recover quickly from unexpected events using detailed, validated business continuity plans.
+Resilience is a critical component of Microsoft service availability, but even resilient services can be impacted by unexpected events. Microsoft’s Enterprise Business Continuity Management (EBCM) Program helps to ensure our online services are prepared to recover quickly from unexpected events.
 
 ## EBCM team structure
 
@@ -35,4 +35,4 @@ The BCM lifecycle includes three high-level phases. It begins with an initial **
 
 ## Learn more
 
-[Microsoft Enterprise Business Continuity Management Program Description](https://aka.ms/EBCMProgramDesc?azure-portal=true)
+- [Microsoft Enterprise Business Continuity Management Program Description](https://aka.ms/EBCMProgramDesc?azure-portal=true)

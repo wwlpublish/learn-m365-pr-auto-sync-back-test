@@ -19,4 +19,4 @@ As part of capacity planning, each service team designates a Capacity Project Ma
 - [SLA commitments for online services](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37&azure-portal=true)
 - [Microsoft 365 Service Health](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/service-health-and-continuity?azure-portal=true)
 - [Capacity Planning and Load Testing in SharePoint Online](https://docs.microsoft.com/office365/enterprise/capacity-planning-and-load-testing-sharepoint-online?azure-portal=true)
-- [Exchange Online (EXO) High Availability](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/high-availability-and-business-continuity?redirectedfrom=MSDN&azure-portal=true)
+- [Exchange Online (EXO) High Availability](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/high-availability-and-business-continuity?azure-portal=true)
