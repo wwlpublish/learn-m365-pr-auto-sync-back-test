@@ -4,6 +4,6 @@ Once a build has passed all required testing and review, it is ready to be intro
 
 1. Ring 1 is comprised of all Microsoft employees. This ring exposes the build to significantly more users for thorough testing prior to customer release. Builds stay in this ring for an appropriate number of days containing high load periods.
 
-1. Ring 2 is the first exposure of the build to users outside Microsoft. This ring is often called a SIP, or "Slice In Production". A SIP is typically a unit of capacity about an order of magnitude larger than Ring 1. Builds stay in this ring for an appropriate number of days containing high load periods.
+1. Ring 2 is the first exposure of the build to users outside Microsoft. This ring is often called a SIP, or "Slice In Production." A SIP is typically a unit of capacity about an order of magnitude larger than Ring 1. Builds stay in this ring for an appropriate number of days containing high load periods.
 
 1. Ring 3-N, where N represents the final deployment ring, exposes the build to progressively larger percentages of the total service until the entire service has been updated. Because the build has already been exercised at scale in prior rings, the build progresses through these rings more quickly, waiting long enough to ensure stability before deploying the next unit of capacity.
