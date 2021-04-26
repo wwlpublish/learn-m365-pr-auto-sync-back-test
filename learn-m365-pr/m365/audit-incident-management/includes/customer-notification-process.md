@@ -10,12 +10,12 @@ The notification timeline commitment begins when the official security incident 
 
 Customer notification for security incidents occurs via appropriate channels based on the nature and scope of the incident. These channels may include one or more of the following notifications:
 
-- Notification in the [Message Center of the Microsoft 365 Admin center](https://docs.microsoft.com/microsoft-365/admin/manage/message-center?view=o365-worldwide&azure-portal=true)
+- Notification in the [Message Center of the Microsoft 365 Admin center](https://docs.microsoft.com/microsoft-365/admin/manage/message-center?azure-portal=true)
 - Email to the customer’s tenant administrator
 - Email to the customer’s designated [Global Privacy Contact](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-properties-area?azure-portal=true) (if the tenant Admin has defined it in the Azure Active Directory Admin center)
 - Direct outreach by phone call to the customer’s tenant administrator by a specially trained Support team member
 
-Microsoft’s customer notification commitments are detailed in two sections of the [Microsoft online services Data Protection Addendum.](https://www.microsoft.com/licensing/product-licensing/products?azure-portal=true)
+Microsoft’s customer notification commitments are detailed in two sections of the [Microsoft Online Services Data Protection Addendum.](https://www.microsoft.com/licensing/product-licensing/products?azure-portal=true)
 
 ### Security incident notification
 
@@ -37,17 +37,17 @@ Microsoft’s customer notification commitments are detailed in two sections of 
 
 To ensure notifications are received promptly by the correct customer contacts, the customer must maintain accurate contact information in their tenant profiles.
 
-- Customers should ensure their contact information is up to date in the [Microsoft 365 Admin center](https://docs.microsoft.com/microsoft-365/admin/admin-overview/about-the-admin-center?view=o365-worldwide&azure-portal=true).
-- Customer administrators should [configure the options](https://docs.microsoft.com/microsoft-365/admin/manage/message-center?view=o365-worldwide&azure-portal=true) for how Data Privacy messages are displayed in the Message Center to ensure relevant customer administrators are made aware of incident notifications.
+- Customers should ensure their contact information is up to date in the [Microsoft 365 Admin center](https://docs.microsoft.com/microsoft-365/admin/admin-overview/about-the-admin-center?azure-portal=true).
+- Customer administrators should [configure the options](https://docs.microsoft.com/microsoft-365/admin/manage/message-center?azure-portal=true) for how Data Privacy messages are displayed in the Message Center to ensure relevant customer administrators are made aware of incident notifications.
 
-   ![A screenshot of Microsoft 365 admin center](../media/microsoft365-admin-center.png)]
+   ![Screenshot of Microsoft 365 admin center](../media/microsoft365-admin-center.png)]
 
 - If necessary, Global Admins can configure additional roles with access to Message Center content to avoid granting unnecessary administrative rights to non-administrators who require access to incident notifications.
 
-Customers share responsibility with Microsoft for reporting security incidents. In the context of Microsoft Commercial services (as opposed to Consumer services), Microsoft is the Data Processor, while the customer is the Data Controller. If a security incident where Microsoft serves as the Data Processor, Microsoft will notify affected customers, who are then responsible for notifying their Data Protection Authorities, regulatory bodies, and affected users as required by any relevant regulations or laws. In addition, if a customer becomes aware of a security incident involving its own user accounts or any Microsoft online service, the customer must notify Microsoft promptly as described in the [Microsoft online services Data Protection Addendum](https://www.microsoft.com/licensing/product-licensing/products?azure-portal=true).
+Customers share responsibility with Microsoft for reporting security incidents. In the context of Microsoft Commercial services (as opposed to Consumer services), Microsoft is the Data Processor, while the customer is the Data Controller. If a security incident where Microsoft serves as the Data Processor, Microsoft will notify affected customers, who are then responsible for notifying their Data Protection Authorities, regulatory bodies, and affected users as required by any relevant regulations or laws. In addition, if a customer becomes aware of a security incident involving its own user accounts or any Microsoft online service, the customer must notify Microsoft promptly as described in the [Microsoft Online Services Data Protection Addendum](https://www.microsoft.com/licensing/product-licensing/products?azure-portal=true).
 
 ## Learn more
 
-- [Security Incident Management in Microsoft 365 White Paper](https://aka.ms/Office365SIM?azure-portal=true)
-- [Microsoft online services Data Protection Addendum](https://www.microsoft.com/licensing/product-licensing/products?azure-portal=true)
-- [Microsoft Secure Score](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score?view=o365-worldwide&azure-portal=true)
+- [Incident Management Overview](https://docs.microsoft.com/compliance/assurance/assurance-incident-management?azure-portal=true)
+- [Microsoft Online Services Data Protection Addendum](https://www.microsoft.com/licensing/product-licensing/products?azure-portal=true)
+- [Microsoft Secure Score](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score?azure-portal=true)
