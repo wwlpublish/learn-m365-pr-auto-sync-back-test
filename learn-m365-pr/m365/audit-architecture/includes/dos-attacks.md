@@ -8,7 +8,7 @@ To better handle the risk of multiple simultaneous DDoS attacks, Microsoft has s
 
 Once detected, DDoS attacks are handled using standard mitigation techniques such as SYN cookies, rate limiting, and connection limits. DDoS attacks most often target the Network (L3) and Transport (L4) layers of the Open System Interconnection (OSI) model, saturating network lines and device resources. Microsoft designed a solution specifically focused on protecting these layers to ensure attack traffic does not interfere with or cause damage to legitimate customer traffic. Traffic sampling data from datacenter routers is ingested and analyzed by Microsoft’s monitoring systems, equipping automated defense mechanisms to activate if a DDoS attack on these high-risk layers is detected.   
 
-As part of a multi-tiered approach to DDoS defense, applications such as Exchange Online and SharePoint can throttle users based on the resources they consume. A common example is throttling a user or service performing too many actions in a short amount of time. This provides an additional layer of defense against DDoS attacks. 
+As part of a multi-tiered approach to DDoS defense, applications such as Exchange Online and SharePoint Online can throttle users based on the resources they consume. A common example is throttling a user or service performing too many actions in a short amount of time. This provides an additional layer of defense against DDoS attacks. 
 
 ## Learn more:
 
