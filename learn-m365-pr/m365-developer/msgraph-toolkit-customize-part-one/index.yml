@@ -8,7 +8,7 @@ metadata:
   ms.author: aycabas
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
-title: Configure and style Microsoft Graph Toolkit components using attributes and CSS
+title: Configure and style Microsoft Graph Toolkit components by using attributes and CSS
 summary: Microsoft Graph Toolkit components are flexible for customization. You can change the behavior of components by using attributes. You can also customize component styling by using CSS custom properties to match your app's branding.
 abstract: |
   In this module, you'll:
