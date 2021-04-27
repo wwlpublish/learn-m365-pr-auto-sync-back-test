@@ -20,10 +20,10 @@ quiz:
     choices:
     - content: "Elevate access for a Global Administrator"
       isCorrect: false
-      explanation: "That's incorrect. This is the final step in the setup process. Try again."
+      explanation: "That's incorrect. This action is the final step in the setup process. Try again."
     - content: "Assign other users to the Privileged Role Administrator role"
       isCorrect: true
       explanation: "That's correct. To delegate access to PIM, a Global Administrator can assign other users to the Privileged Role Administrator role. By default, Security administrators and Security readers have read-only access to Privileged Identity Management. To grant access to Privileged Identity Management, the first user can assign others to the Privileged Role Administrator role."
     - content: "Respond to user requests for a role"
       isCorrect: false
-      explanation: "That's incorrect. This is one of the ongoing tasks for a Privileged Role Admin once PIM is set up. Try again."
+      explanation: "That's incorrect. This action is one of the ongoing tasks for a Privileged Role Admin once PIM is set up. Try again."
