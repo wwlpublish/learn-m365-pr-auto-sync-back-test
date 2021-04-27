@@ -1,19 +1,19 @@
 ### YamlMime:Module
 uid: learn-m365.msgraph-toolkit-customize-part-two
 metadata:
-  title: Customize the presentation of Microsoft Graph Toolkit components using templates
+  title: Customize the presentation of Microsoft Graph Toolkit components by using templates
   description: Microsoft Graph Toolkit components are flexible for customization. You can change the presentation of Microsoft Graph Toolkit components using templates and learn troubleshooting techniques for rendering.
   ms.date: 04/09/2021
   author: aycabas
   ms.author: aycabas
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
-title: Customize the presentation of Microsoft Graph Toolkit components using templates
-summary: Microsoft Graph Toolkit components are flexible for customization. You can change the presentation of Microsoft Graph Toolkit components using templates and learn troubleshooting techniques for rendering.
+title: Customize the presentation of Microsoft Graph Toolkit components by using templates
+summary: Microsoft Graph Toolkit components are flexible for customization. You can change the presentation of Microsoft Graph Toolkit components by using templates and learn troubleshooting techniques for rendering.
 abstract: |
-  In this module, you will:
-  - Customize Microsoft Graph Toolkit components using templates
-  - Troubleshoot Microsoft Graph Toolkit components’ rendering
+  In this module, you'll:
+  - Customize Microsoft Graph Toolkit components by using templates.
+  - Troubleshoot Microsoft Graph Toolkit component rendering.
 
 
 prerequisites: |
