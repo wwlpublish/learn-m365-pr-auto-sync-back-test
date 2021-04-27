@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.introduction-to-azure-identity-protection.plan-your-identity-investigation
+title: Plan your identity investigation
+metadata:
+  title: Plan your identity investigation
+  description: "Plan your identity investigation"
+  ms.date: 04/27/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/5-plan-your-identity-investigation.md)]

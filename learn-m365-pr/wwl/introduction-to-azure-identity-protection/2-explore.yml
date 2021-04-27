@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.introduction-to-azure-identity-protection.explore
+title: Explore Azure Identity Protection
+metadata:
+  title: Explore Azure Identity Protection
+  description: "Explore Azure Identity Protection"
+  ms.date: 04/27/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/2-explore.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "How does Azure Identity Protection investigate risk events?"
+    choices:
+    - content: "It uses Conditional Access autoremediation to intercept the risk event with an adaptive two-factor challenge"
+      isCorrect: false
+      explanation: "That's incorrect. This isn't how Azure Identity Protection investigates risk events. Try again."
+    - content: "It uses advanced machine learning to detect suspicious activities based on signals"
+      isCorrect: true
+      explanation: "That's correct. It uses advanced machine learning to detect suspicious activities based on signals including brute force attacks, leaked credentials, sign-in from unfamiliar locations, and infected devices."
+    - content: "It triggers Risk-Based Conditional Access policies"
+      isCorrect: false
+      explanation: "That's incorrect. This isn't how Azure Identity Protection investigates risk events. Try again."
