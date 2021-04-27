@@ -16,7 +16,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As Enterprise Administrator for Contoso, Holly Dickson wants to implement Microsoft Defender for Endpoint. What attracted Holly to Defender for Endpoint is that it uses a combination of Microsoft's robust cloud service along technology that's built into Windows 10. Which Windows 10 technology does Defender for Endpoint use that will enable it to collect and process behavioral signals from the operating system and send this sensor data to Contoso's private, isolated, cloud instance of Microsoft Defender for Endpoint?"
+  - content: "As Enterprise Administrator for Contoso, Holly Dickson wants to implement Microsoft Defender for Endpoint. Holly likes the fact that Defender for Endpoint combines Microsoft's robust cloud service and Windows 10 technology. Which Windows 10 technology does Defender for Endpoint use that will enable it to collect and process behavioral signals from the operating system and send this sensor data to Contoso's private, isolated, cloud instance of Microsoft Defender for Endpoint?"
     choices:
     - content: "Threat intelligence"
       isCorrect: false
