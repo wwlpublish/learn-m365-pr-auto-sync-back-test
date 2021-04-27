@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.audit-architecture.architecture-validation
-title: Explore how Microsoft 365 performs architecture validation
+uid: learn-m365.audit-architecture.dos-attacks
+title: Understand how Microsoft defends from DoS attacks
 metadata:
-  title: Explore how Microsoft 365 performs architecture validation
+  title: Understand how Microsoft defends from DoS attacks
   description: Learn how the architecture of Microsoft 365 implements security and privacy features to protect customers who use Microsoft 365 multi-tenant services.
-  ms.date: 04/27/2021
+  ms.date: 04/26/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 3
+durationInMinutes: 7
 content: |
-  [!include[](includes/architecture-validation.md)]
+  [!include[](includes/dos-attacks.md)]
