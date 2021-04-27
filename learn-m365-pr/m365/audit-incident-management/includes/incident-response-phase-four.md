@@ -13,3 +13,7 @@ After the incident has been resolved, select security incidents, especially thos
 ## Continuous improvement
 
 Lessons learned from the security incident are implemented with coordination from the Microsoft 365 Security Response team to help prevent future incidents and improve detection and response capabilities. Continuous improvement is paramount for effective and efficient incident response. Post-incident activities ensure that lessons learned from the security incident are successfully implemented across the enterprise to defend Microsoft and its customers against evolving threats.
+
+## Learn more
+
+- [Microsoft 365 security incident management: Post-incident activity](https://docs.microsoft.com/compliance/assurance/assurance-sim-post-incident-activity?azure-portal=true)
