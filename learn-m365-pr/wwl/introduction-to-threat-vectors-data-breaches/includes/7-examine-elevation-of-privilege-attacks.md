@@ -4,7 +4,7 @@ Another common pivot at this point is for the hacker to create a new account and
 
 ### Preventing an elevation of privilege attack
 
-In an elevation of privilege attack, user accounts are at the center of the attack pattern. As such, attackers target protection controls just as they do with an account breach. To counter these attacks, it's recommended that you implement multi-factor authentication (MFA), especially with admin accounts or accounts with access to sensitive content.
+In an elevation of privilege attack, user accounts are at the center of the attack pattern. As such, attackers target protection controls just as they do with an account breach. To counter these attacks, it's recommended that you implement Azure AD multi-factor authentication (MFA). It's especially important to implement MFA on admin accounts and accounts with access to sensitive content.
 
 Besides MFA, one of the best protections you can employ is to keep the number of global administrators small. It's recommended that organizations have a minimum of two and a maximum of five global admins for any size of tenant. By doing so, you keep the target area small, which makes it difficult for an attacker to hide. It's also recommended that you implement a set of processes to regularly review the community of global admins and their activity, including auditing and alerts.
 

@@ -16,14 +16,14 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As Enterprise Administrator for Lucerne Publishing, Inc., Holly Dickson is concerned about several users having recently fallen for elevation of privilege attacks. Which of the following strategies can Holly implement at Lucerne Publishing to help prevent malicious elevation of privilege attacks?"
+  - content: "As Enterprise Administrator for Lucerne Publishing, Inc., Holly Dickson is concerned about several users who recently fell for elevation of privilege attacks. Which of the following strategies can Holly implement to help prevent future elevation of privilege attacks?"
     choices:
     - content: "Account isolation"
       isCorrect: false
-      explanation: "That's incorrect. This isn't a strategy to help prevent malicious elevation of privilege attacks. Try again."
+      explanation: "That's incorrect. This item isn't a strategy to help prevent malicious elevation of privilege attacks. Try again."
     - content: "Variable password mitigation"
       isCorrect: false
-      explanation: "That's incorrect. This isn't a strategy to help prevent malicious elevation of privilege attacks. Try again."
-    - content: "Multi-factor authentication"
+      explanation: "That's incorrect. This item isn't a strategy to help prevent malicious elevation of privilege attacks. Try again."
+    - content: "Azure AD multi-factor authentication"
       isCorrect: true
       explanation: "That's correct. To counter elevation of privilege attacks, it's recommended that you implement multi-factor authentication, especially with admin accounts or accounts with access to sensitive content."

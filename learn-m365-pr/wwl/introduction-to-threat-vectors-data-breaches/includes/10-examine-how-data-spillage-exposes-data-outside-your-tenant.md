@@ -11,7 +11,7 @@ The following instructions describe how to manage a data spillage event by perma
 
 ### Step 1 (Optional): Manage who can access the case and set compliance boundaries.
 
-Depending on your organizational practice, you must control who can access the eDiscovery case used to investigate a data spillage incident and set up compliance boundaries. The easiest way to control who can access a case is to add investigators as members of an existing role group in the Security &amp; Compliance Center and then add the role group as a member of the eDiscovery case. For information about the built-in eDiscovery role groups and how to add members to an eDiscovery case, see [Assign eDiscovery permissions](https://docs.microsoft.com/microsoft-365/compliance/assign-ediscovery-permissions?view=o365-worldwide?azure-portal=true).
+Depending on your organizational practice, you must control who can access the eDiscovery case used to investigate a data spillage incident and set up compliance boundaries. The easiest way to control who can access a case is to add investigators as members of an existing role group in the Security &amp; Compliance Center and then add the role group as a member of the eDiscovery case. For information about the built-in eDiscovery role groups and how to add members to an eDiscovery case, see [Assign eDiscovery permissions](https://docs.microsoft.com/microsoft-365/compliance/assign-ediscovery-permissions?azure-portal=true).
 
 You can also create a new role group that aligns with your organizational needs. For example, by completing the following steps, you can create a group of data spillage investigators in the organization to access and collaborate on all data spillage cases:
 
@@ -20,7 +20,7 @@ You can also create a new role group that aligns with your organizational needs.
 3.  Add the data spillage investigators to the role group.
 4.  Add the role group as a member of the data spillage eDiscovery case.
 
-**Additional reading.** For more information, see [Set up compliance boundaries for eDiscovery investigations in Office 365](https://docs.microsoft.com/microsoft-365/compliance/tagging-and-assessment-in-advanced-ediscovery?view=o365-worldwide?azure-portal=true).
+**Additional reading.** For more information, see [Set up compliance boundaries for eDiscovery investigations in Office 365](https://docs.microsoft.com/microsoft-365/compliance/tagging-and-assessment-in-advanced-ediscovery?azure-portal=true).
 
 ### Step 2: Create an eDiscovery case.
 
