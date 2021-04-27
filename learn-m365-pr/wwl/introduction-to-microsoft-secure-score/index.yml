@@ -1,0 +1,43 @@
+### YamlMime:Module
+uid: learn.wwl.introduction-to-microsoft-secure-score
+metadata:
+  title: Examine Microsoft Secure Score
+  description: "Examine Microsoft Secure Score"
+  ms.date: 04/27/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Examine Microsoft Secure Score
+summary: This module examines how Microsoft Secure Score helps organizations understand what they have done to reduce the risk to their data and show them what they can do to further reduce that risk.
+abstract: |
+  By the end of this module, you will be able to:
+  - Describe the benefits of Secure Score and what kind of services can be analyzed
+  - Describe how to collect data using the Secure Score API
+  - Describe how to use the tool to identify gaps between your current state and where you would like to be regarding security
+  - Identify actions that will increase your security by mitigating risks
+  - Explain where to look to determine the threats each action will mitigate and the impact it has on users
+prerequisites: |
+  None
+iconUrl: /learn/achievements/secure-score-reduce-risk.svg
+levels:
+- intermediate
+roles:
+- administrator
+- security-engineer
+- solution-architect
+- technology-manager
+products:
+- azure-active-directory
+- m365
+- office-365
+units:
+- learn.wwl.introduction-to-microsoft-secure-score.introduction
+- learn.wwl.introduction-to-microsoft-secure-score.explore
+- learn.wwl.introduction-to-microsoft-secure-score.examine-dashboard
+- learn.wwl.introduction-to-microsoft-secure-score.collect-data-using-api
+- learn.wwl.introduction-to-microsoft-secure-score.improve-your-security-posture
+- learn.wwl.introduction-to-microsoft-secure-score.knowledge-check
+- learn.wwl.introduction-to-microsoft-secure-score.summary
+badge:
+  uid: learn.wwl.introduction-to-microsoft-secure-score.badge
