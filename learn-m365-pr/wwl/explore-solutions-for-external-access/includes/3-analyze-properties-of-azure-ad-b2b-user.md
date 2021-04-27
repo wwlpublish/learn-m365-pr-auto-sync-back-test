@@ -23,7 +23,7 @@ There are two key properties of an Azure AD B2B collaboration user - UserType an
      *  **Windows Server Active Directory.** This user is signed in from on-premises Active Directory that belongs to this organization. This type of sign-in corresponds to State 3.
      *  **Azure Active Directory.** This user authenticates by using an Azure AD account that belongs to this organization. This type of sign-in corresponds to State 4.
 
-:::image type="content" source="../media/guest-users-in-azure-ad-ab9bbdb7.jpg" alt-text="Diagram showing the properties of a guest user versus that of a member user in Azure AD":::
+[![Diagram showing the properties of a guest user versus that of a member user in Azure AD](../media/guest-users-in-azure-ad-ab9bbdb7.jpg)](../media/guest-users-in-azure-ad-ab9bbdb7.jpg#lightbox)
 
 
 **Additional reading:** To learn more about members versus guests, see [Can Azure AD B2B users be added as members instead of guests?](https://docs.microsoft.com/azure/active-directory/b2b/user-properties?azure-portal=true)
