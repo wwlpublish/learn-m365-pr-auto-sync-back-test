@@ -14,7 +14,7 @@ As defenders ourselves, Microsoft is a passionate proponent of the Zero Trust mi
 
 Microsoft is deeply inspired to enable people everywhere to do the important work of defending their communities and their organizations in an ever-evolving threat landscape. In this module, you'll learn about the concepts and principles of the Zero Trust model and how Microsoft 365 supports it.
 
-After this lesson, you'll be able to:
+After completing this module, you'll be able to:
 
  *  Describe the Zero Trust approach to security in Microsoft 365.
  *  Describe the principles and components of the Zero Trust security model.
