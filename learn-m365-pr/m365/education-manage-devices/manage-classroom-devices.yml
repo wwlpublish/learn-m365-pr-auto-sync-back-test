@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.edu-manage-devices.manage-classroom-devices
+metadata:
+  title: Manage Classroom Devices
+  description: See how to use express configuration in Intune for Education. You'll also explore how to plan and deploy School Data Sync (SDS) to sync your school data with Intune for Education. And you'll see how to configure a Take a Test profile to ensure online tests are administered securely.
+  ms.date: 10/14/2020
+  author: iankensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage Classroom Devices
+durationInMinutes: 13
+content: |
+  [!include[](includes/manage-classroom-devices.md)]
