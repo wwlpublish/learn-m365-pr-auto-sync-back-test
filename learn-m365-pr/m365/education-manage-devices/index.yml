@@ -1,0 +1,35 @@
+### YamlMime:Module
+uid: learn-m365.edu-manage-devices
+metadata:
+  title: Manage devices used for education 
+  description: This module will introduce some of the tools you can leverage to deploy and manage devices used for education.
+  ms.date: 10/14/2020
+  author: iankensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage devices used for education 
+summary: This module will introduce some of the tools you can use to deploy and manage devices used for education.
+abstract: |
+ Upon completion of this module, you should be able to:
+ - Access Intune for Education.
+ - Use express configuration.
+ - Plan and deploy Microsoft School Data Sync.
+ - Configure Take a Test profile.
+prerequisites: |
+ - Introduction to modern management in Microsoft 365 module  
+iconUrl: https://docs.microsoft.com/media/learn/module.svg
+levels: 
+- beginner
+roles: 
+- administrator
+products: 
+- m365
+units:
+- learn-m365.edu-manage-devices.introduction
+- learn-m365.edu-manage-devices.access-intune-education
+- learn-m365.edu-manage-devices.manage-classroom-devices
+- learn-m365.edu-manage-devices.knowledge-check
+- learn-m365.edu-manage-devices.summary
+badge:
+  uid: learn-m365.edu-manage-devices.badge
