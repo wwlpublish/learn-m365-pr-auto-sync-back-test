@@ -13,7 +13,7 @@ A mitigation is an action to limit the ability of an attacker to exploit a compr
 
 To mitigate risky sign-in attempts automatically, you can configure sign-in risk security policies. Using these policies, you consider the risk level of the user or the sign-in to block risky sign-in attempts or require the user to do multi-factor authentication. These actions may prevent an attacker from exploiting a stolen identity to cause damage. They may also give you some time to secure the identity.
 
-#### Mitigation Best Practices
+#### Mitigation best practices
 
 Choosing a **High** threshold reduces the number of times a policy is triggered and minimizes the impact to users. However, it also excludes **Low** and **Medium** sign-ins flagged for risk from the policy, which may not block an attacker from exploiting a compromised identity.
 
