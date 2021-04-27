@@ -9,7 +9,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Examine Azure Identity Protection
-summary: This module examines how Azure Identity Protection provides organizations the same protection systems used by Microsoft to asecure identities.
+summary: This module examines how Azure Identity Protection provides organizations the same protection systems used by Microsoft to secure identities.
 abstract: |
   By the end of this module, you will be able to:
   - Describe Azure Identity Protection (AIP) and what kind of identities can be protected
