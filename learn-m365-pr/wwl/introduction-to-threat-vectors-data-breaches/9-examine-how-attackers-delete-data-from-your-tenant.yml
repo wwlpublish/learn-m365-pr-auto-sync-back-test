@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.introduction-to-threat-vectors-data-breaches.examine-how-attackers-delete-data-from-your-tenant
+title: Examine how attackers delete data from your tenant
+metadata:
+  title: Examine how attackers delete data from your tenant
+  description: "Examine how attackers delete data from your tenant"
+  ms.date: 04/27/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/9-examine-how-attackers-delete-data-from-your-tenant.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As Enterprise Administrator for Lucerne Publishing, Inc., Holly Dickson is concerned about the recent data deletion attacks that have affected the company. To address these attacks, Holly wants to focus Lucerne's initial data protection mechanisms on preventing account breaches and elevation of privilege. If a data deletion attack is still successful, which of the following strategies can Holly use to minimize the impact of the attack?"
+    choices:
+    - content: "Back up critical data to online stores"
+      isCorrect: false
+      explanation: "That's incorrect. This strategy won't minimize the impact of data deletion. Try again."
+    - content: "Build redundancies into data management processes"
+      isCorrect: true
+      explanation: "That's correct. Organizations typically focus their initial data protection mechanisms on preventing account breaches and elevation of privilege. They should then enhance their core prevention strategy by ensuring they have sufficient redundancies built into their data management processes to minimize the impact of data deletion."
+    - content: "Implement role-based delegation"
+      isCorrect: false
+      explanation: "That's incorrect. This strategy won't minimize the impact of data deletion. Try again."

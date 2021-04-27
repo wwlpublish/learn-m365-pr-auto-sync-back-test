@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.introduction-to-threat-vectors-data-breaches.examine-how-phishing-retrieves-sensitive-information
+title: Examine how phishing retrieves sensitive information
+metadata:
+  title: Examine how phishing retrieves sensitive information
+  description: "Examine how phishing retrieves sensitive information"
+  ms.date: 04/27/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/3-examine-how-phishing-retrieves-sensitive-information.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which of the following payloads can be delivered through malware?"
+    choices:
+    - content: "Spam"
+      isCorrect: false
+      explanation: "That's incorrect. This isn't a payload delivered through malware. Try again."
+    - content: "Spyware"
+      isCorrect: true
+      explanation: "That's correct. Spyware is often used to gather information about internet activity, keystrokes, passwords, and other sensitive data. Spyware can also be used as adware, where the software delivers pop-up ads and tracks user behavior."
+    - content: "Data exfiltration"
+      isCorrect: false
+      explanation: "That's incorrect. This isn't a payload delivered through malware. Try again."

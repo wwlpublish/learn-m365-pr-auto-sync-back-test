@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.introduction-to-threat-vectors-data-breaches.examine-how-account-breach-compromises-user-account
+title: Examine how an account breach compromises a user account
+metadata:
+  title: Examine how an account breach compromises a user account
+  description: "Examine how an account breach compromises a user account"
+  ms.date: 04/27/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/6-examine-how-account-breach-compromises-user-account.md)]
