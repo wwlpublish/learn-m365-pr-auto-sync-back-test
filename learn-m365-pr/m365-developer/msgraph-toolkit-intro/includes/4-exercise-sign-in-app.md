@@ -1,4 +1,4 @@
-In this unit, you'll create a web application and explore a starter project. You'll then use the component from the toolkit to sign into your application, and access Microsoft Graph functionality.
+In this unit, you'll create a web application and explore a starter project. You'll then use the component from the toolkit to sign in to your application, and access Microsoft Graph functionality.
 
 ## Set up the app structure for your web app
 
@@ -54,7 +54,7 @@ Now that you have successfully set up the application, let's add some code!
 
 ### Add the Microsoft Graph Toolkit to your project
 
-Earlier you saw that you can reference the toolkit directly from Azure Content Delivery Network. To do that, add the following code snippet to the head (between the `<head></head>`) tags of your *index.html* file.
+Earlier you learned that you can reference the toolkit directly from Azure Content Delivery Network. To do that, add the following code snippet to the head (between the `<head></head>`) tags of your *index.html* file.
 
 ```html
 <script src="https://unpkg.com/@microsoft/mgt/dist/bundle/mgt-loader.js"></script>
