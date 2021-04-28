@@ -22,7 +22,7 @@ To see what actions a specific user took in various resources, you can view the 
     
 6.  Select a specific role activation to see details and corresponding Azure resource activity that occurred while that user was active.
     
-    :::image type="content" source="../media/export-membership-1d4deb71.png" alt-text="screenshot showing Role activation selected and activity details":::
+    [![screenshot showing Role activation selected and activity details](../media/export-membership-1d4deb71.png)](../media/export-membership-1d4deb71.png#lightbox)
     
 
 ### Navigate to audit history
@@ -41,12 +41,12 @@ Resource audit gives you a view of all role activity for a resource.
     
 5.  Filter the history using a predefined date or custom range.
     
-    :::image type="content" source="../media/rbac-resource-audit-1422928c.png" alt-text="screenshot showing Resource audit list with filters":::
+    [![screenshot showing Resource audit list with filters](../media/rbac-resource-audit-1422928c.png)](../media/rbac-resource-audit-1422928c.png#lightbox)
     
     
 6.  For Audit type, select **Activate (Assigned + Activated)**.
     
-    :::image type="content" source="../media/rbac-audit-activity-557d60a0.png" alt-text="screenshot showing Resource audit list filtered by Activate audit type":::
+    [![screenshot showing Resource audit list filtered by Activate audit type](../media/rbac-audit-activity-557d60a0.png)](../media/rbac-audit-activity-557d60a0.png#lightbox)
     
     
 7.  Under **Action**, select **(activity)** for a user to see that user's activity detail in Azure resources.
@@ -71,5 +71,5 @@ An organization may have a compliance requirement where it must provide a comple
 5.  Select **Export** to open the **Export membership** pane.
 6.  Select **Export all members** to export all role assignments in a CSV file.
     
-    :::image type="content" source="../media/export-csv-b8c5cb76.png" alt-text="screenshot of a csv file showing all role assignments that were exported":::
+    [![screenshot of a csv file showing all role assignments that were exported](../media/export-csv-b8c5cb76.png)](../media/export-csv-b8c5cb76.png#lightbox)
     
