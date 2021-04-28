@@ -16,7 +16,7 @@ Microsoft Secure Score is available directly from the [Microsoft 365 security co
 :::image type="content" source="../media/secure-score-e22dd9fa.png" alt-text="screenshot of the Microsoft Secure Score home page in the Microsoft 365 Security console":::
 
 
-### How secure score works
+### How Secure Score works
 
 An organization receives points for configuring recommended security features, completing security-related tasks (such as viewing reports), or addressing the improvement action with a third-party application or software. Some improvement actions only give points when fully completed, and some give partial points if they're completed for certain devices or users.
 
