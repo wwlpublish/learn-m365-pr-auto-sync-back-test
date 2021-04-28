@@ -2,7 +2,7 @@ Now that you've seen an overview of the toolkit, let's learn how you can use it 
 
 ## What is the purpose of adding the ability to sign in?
 
-Imagine how simple and secure your app development process will be if one of the most time-consuming aspects is handled for you. By using the toolkit, authentication logic and access token retrieval is handled by adding a simple HTML tag.
+Imagine how simple and secure your app development process will be if one of the most time-consuming aspects is handled for you. By using the toolkit, authentication logic and access token retrieval are handled by adding a simple HTML tag.
 
 ```html
 <mgt-login></mgt-login>
