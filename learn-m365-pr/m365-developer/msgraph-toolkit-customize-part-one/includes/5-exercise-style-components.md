@@ -1,13 +1,13 @@
-In this exercise, you’ll learn how to use custom CSS properties with Microsoft Graph Toolkit components to change the styling of your application.
+In this exercise, you'll learn how to use custom CSS properties with Microsoft Graph Toolkit components to change the styling of your application.
 
 ## Before you start
 
-As a pre-requisite for this exercise, you’ll need to complete the previous exercise **
-**“Change the behavior of components using attributes”**.
+As a prerequisite for this exercise, you'll need to complete the previous exercise:
+"Change the behavior of components by using attributes."
 
 ## Style the Login component to match your branding
 
-Let’s say you would like to change the appearance of the signed in button content for the **Login** component. In **index.html**, you can use the `<style>` tag inside `<head>` to customize components:
+Let's say you want to change the appearance of the button content for the **Login** component. In **index.html**, you can use the `<style>` tag inside `<head>` to customize components.
 
 ```html
 <head>
@@ -17,18 +17,18 @@ Let’s say you would like to change the appearance of the signed in button cont
 
 ```
 
-1. To customize the body of the page, add **body{}** between the `<style>` tags and use the following CSS property inside the **body{}** selector:
-    - **background-color** to change the background color of the page to **black**.
-2. To customize the **Login** component, add **mgt-login{}** between the `<style>` tags and use the following CSS properties inside the **mgt-login{}** selector:
-    - **--padding** to modify the spacing inside “user’s mail” element. Define it as **30px** to give space equally from top, bottom, left, and right.
-    - **--button-color--hover** to change the button hover color to **grey**.
-    - **--button-background-color** to change the button background color to **slategrey**.
-    - **--popup-color** to change the user profile pop-up font color to **slategrey**.
-3. To customize the **Agenda** component, add **mgt-agenda{}** between the `<style>` tags and use the following CSS properties inside the **mgt-agenda{}** selector:
-    - **--agenda-header-font-size** to change the font size of the agenda header to **24px**.
-    - **--event-padding** to modify spacing inside the events to **20px**.
-    - **--event-background-color** to change the event background color to **slategrey**.
-    - **--event-box-shadow** to change the event box shadow to **grey**.
+1. To customize the body of the page, add **body{}** between the `<style>` tags. Use the following CSS property inside the **body{}** selector:
+    - **background-color** changes the background color of the page to **black**.
+1. To customize the **Login** component, add **mgt-login{}** between the `<style>` tags. Use the following CSS properties inside the **mgt-login{}** selector:
+    - **--padding** modifies the spacing inside the "user's mail" element. Define it as **30px** for equal space from top, bottom, left, and right.
+    - **--button-color--hover** changes the button hover color to **grey**.
+    - **--button-background-color** changes the button background color to **slategrey**.
+    - **--popup-color** changes the user profile pop-up font color to **slategrey**.
+1. To customize the **Agenda** component, add **mgt-agenda{}** between the `<style>` tags. Use the following CSS properties inside the **mgt-agenda{}** selector:
+    - **--agenda-header-font-size** changes the font size of the agenda header to **24px**.
+    - **--event-padding** modifies spacing inside the events to **20px**.
+    - **--event-background-color** changes the event background color to **slategrey**.
+    - **--event-box-shadow** changes the event box shadow to **grey**.
 
     ```html
     <head>
@@ -54,7 +54,7 @@ Let’s say you would like to change the appearance of the signed in button cont
     
     ```      
 
-4.	Let’s add a dark global theme to the HTML page by using `class="mgt-dark"`. Open the **index.html** file and add the following **class** attribute to the `<body>` tag:
+1. Let's add a dark global theme to the HTML page by using `class="mgt-dark"`. Open the **index.html** file, and add the following **class** attribute to the `<body>` tag.
     
     ```html
     <html>
@@ -68,7 +68,7 @@ Let’s say you would like to change the appearance of the signed in button cont
     
     ```
 
-The final version of the **index.html** file will look like below:
+The final version of the **index.html** file will look like this example:
 
 ```html
 <!DOCTYPE html>
@@ -120,13 +120,16 @@ The final version of the **index.html** file will look like below:
 
 ## Test your app in the browser
 
-1. In Visual Studio Code, press the following key combination in Visual Studio Code and search for **Live Server**:
-    - Windows: CTRL-SHIFT-P
-    - macOS: CMD-SHIFT-P 
-and run **Live Server** to test your app. 
-2. Open your browser and go to http://localhost:3000.
-3. Sign in with your Microsoft 365 developer account. Consent to the required permissions and select **Accept**.
-4. Finally, you'll see that the components are automatically adapted to the dark theme and the signed in button style has changed as shown below:
+1. In Visual Studio Code, select the following key combination, and search for Live Server:
+
+    - **Windows**: Ctrl+Shift+P
+    - **macOS**: Cmd+Shift+P
+
+    Run Live Server to test your app.
+1. Open your browser, and go to http://localhost:3000.
+1. Sign in with your Microsoft 365 developer account. Consent to the required permissions, and select **Accept**.
+1. Finally, you'll see that the components are automatically adapted to the dark theme and the signed-in button style has changed.
+
 :::image type="content" source="../media/5-final.png" alt-text="This image shows the final version of the application.":::
 
-Overall, the Microsoft Graph Toolkit components are flexible when it comes to customization. You can modify the way the components look using custom CSS properties and match them with your application’s branding. 
+Overall, the Microsoft Graph Toolkit components are flexible when it comes to customization. You can modify the way the components look by using custom CSS properties and match them with your application's branding.
