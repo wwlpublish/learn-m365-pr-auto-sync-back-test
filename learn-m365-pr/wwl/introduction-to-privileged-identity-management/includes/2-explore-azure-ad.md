@@ -8,7 +8,7 @@ Some of the key features of PIM include:
  *  Providing just-in-time privileged access to Azure AD and Azure resources.
  *  Assigning time-bound access to resources by using start and end dates.
  *  Requiring approval to activate privileged roles.
- *  Enforcing Azure Multi-Factor Authentication (MFA) to activate any role.
+ *  Enforcing Azure AD Multi-Factor Authentication (MFA) to activate any role.
  *  Using justification to understand why users activate.
  *  Getting notifications when privileged roles are activated.
  *  Conducting access reviews to ensure that users still need roles.
