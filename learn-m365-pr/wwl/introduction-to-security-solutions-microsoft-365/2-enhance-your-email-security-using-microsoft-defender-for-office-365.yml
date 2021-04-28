@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.introduction-to-security-solutions-microsoft-365.enhance-your-email-security-using-microsoft-defender-for-office-365
+title: Enhance your email security using Microsoft Defender for Office 365
+metadata:
+  title: Enhance your email security using Microsoft Defender for Office 365
+  description: "Enhance your email security using Microsoft Defender for Office 365"
+  ms.date: 04/28/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/2-enhance-your-email-security-using-microsoft-defender-for-office-365.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Administrator for Lucerne Publishing, Inc., Allan Deyoung is interested in implementing Microsoft Defender for Office 365. Allan is especially interested in providing time-of-click protection, which prevents users from going to malicious web sites. Which Microsoft Defender for Office 365 feature provides this functionality?"
+    choices:
+    - content: "Safe Links"
+      isCorrect: true
+      explanation: "That's correct. Safe Links provides time-of-click protection, which prevents users from going to malicious web sites and phishing scams when they select links in email and documents."
+    - content: "Spoof intelligence"
+      isCorrect: false
+      explanation: "That's incorrect. Spoof intelligence detects when a sender appears to be sending mail on behalf of one or more user accounts within one of your organization's domains. Try again."
+    - content: "Anti-phishing"
+      isCorrect: false
+      explanation: "That's incorrect. Anti-phishing applies a set of machine learning models together with impersonation detection algorithms to incoming messages to provide protection for commodity and spear phishing attacks. Try again."
