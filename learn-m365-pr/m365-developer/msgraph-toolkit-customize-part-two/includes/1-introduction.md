@@ -8,7 +8,7 @@ Suppose you're building a web app that shows a user's upcoming meetings stored i
 
 :::image type="content" source="../media/1-graph-toolkit-overview.png" alt-text="Overview diagram that shows how Microsoft Graph Toolkit components interact with your application.":::
 
-In this module, you'll learn how to change the presentation of data by using templates available for all Microsoft Graph Toolkit components. You'll also explore how to troubleshoot component rendering.
+In this module, you'll learn how to change the presentation of data by using templates available for all Microsoft Graph Toolkit components. You'll also explore how to troubleshoot components' rendering.
 
 ## Prerequisites
 
@@ -24,4 +24,4 @@ In this module, you'll learn how to change the presentation of data by using tem
 By completing this module, you'll be able to:
 
 - Customize component templates.
-- Troubleshoot component rendering.
+- Troubleshoot components' rendering.

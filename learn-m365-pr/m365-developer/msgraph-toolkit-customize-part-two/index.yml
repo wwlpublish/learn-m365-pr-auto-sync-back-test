@@ -13,7 +13,7 @@ summary: Microsoft Graph Toolkit components are flexible for customization. You 
 abstract: |
   In this module, you'll:
   - Customize Microsoft Graph Toolkit components by using templates.
-  - Troubleshoot Microsoft Graph Toolkit component rendering.
+  - Troubleshoot Microsoft Graph Toolkit components' rendering.
 
 
 prerequisites: |
