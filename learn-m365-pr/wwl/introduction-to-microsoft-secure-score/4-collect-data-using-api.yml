@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.introduction-to-microsoft-secure-score.collect-data-using-api
+title: Collect Secure Score data using the Secure Score API
+metadata:
+  title: Collect Secure Score data using the Secure Score API
+  description: "Collect Secure Score data using the Secure Score API"
+  ms.date: 04/29/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/4-collect-data-using-api.md)]
