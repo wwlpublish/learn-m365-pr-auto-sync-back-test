@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.introduction-to-threat-vectors-data-breaches.examine-elevation-of-privilege-attacks
+title: Examine elevation of privilege attacks
+metadata:
+  title: Examine elevation of privilege attacks
+  description: "Examine elevation of privilege attacks"
+  ms.date: 04/29/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/7-examine-elevation-of-privilege-attacks.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As Enterprise Administrator for Lucerne Publishing, Inc., Holly Dickson is concerned about several users who recently fell for elevation of privilege attacks. Which of the following strategies can Holly implement to help prevent future elevation of privilege attacks?"
+    choices:
+    - content: "Account isolation"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't a strategy to help prevent malicious elevation of privilege attacks. Try again."
+    - content: "Variable password mitigation"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't a strategy to help prevent malicious elevation of privilege attacks. Try again."
+    - content: "Azure AD multi-factor authentication"
+      isCorrect: true
+      explanation: "That's correct. To counter elevation of privilege attacks, it's recommended that you implement multi-factor authentication, especially with admin accounts or accounts with access to sensitive content."
