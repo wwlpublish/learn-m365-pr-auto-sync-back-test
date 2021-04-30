@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.introduction-to-microsoft-secure-score.examine-dashboard
+title: Examine the Secure Score Dashboard
+metadata:
+  title: Examine the Secure Score Dashboard
+  description: "Examine the Secure Score Dashboard"
+  ms.date: 04/29/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/3-examine-dashboard.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Administrator for Fabrikam, Holly Spencer is interested in implementing Microsoft Secure Score. Holly has researched this product and discovered that the Secure Score framework is based on a score relative to three factors. The first two factors are the features that have been enabled by the organization, and the features that are available in the service. What is the third factor upon which the Secure Score framework is built?"
+    choices:
+    - content: "What the risks might look like"
+      isCorrect: true
+      explanation: "That's correct. The Secure Score framework is based in part on a score relative to what the risks might look like."
+    - content: "The roadmap of recommended actions"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't the third factor upon which the Secure Score framework is built. Try again."
+    - content: "The security recommendations that address possible attack surfaces"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't the third factor upon which the Secure Score framework is built.  Try again."
