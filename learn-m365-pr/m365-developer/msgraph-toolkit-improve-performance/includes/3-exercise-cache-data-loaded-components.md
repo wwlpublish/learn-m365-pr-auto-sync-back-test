@@ -68,7 +68,7 @@ First, let’s look at how Microsoft Graph Toolkit components cache data by defa
     </html>
     ```
 
-1. Open the command palette by pressing Ctrl+Shift+P on Windows, or Command+Shift+P on iOS. From the command palette, choose **Live Server: Open with Live Server** to test your app.
+1. Open the command palette by pressing Ctrl+Shift+P on Windows, or Command+Shift+P on macOS. From the command palette, choose **Live Server: Open with Live Server** to test your app.
 1. In the web browser, go to `http://localhost:3000`.
 1. Choose the **Sign in** button, and sign in with your Microsoft 365 developer account. Consent to the required permissions and select **Accept**. You should see a list of people.
 
@@ -80,7 +80,7 @@ First, let’s look at how Microsoft Graph Toolkit components cache data by defa
 
 1. Expand the **mgt-people** database and choose **peopleQuery**. In the details pane, expand the data stored in the cache:
 
-    :::image type="content" source="../media/3-indexeddb-peoplequery.png" alt-text="Screenshot of IndexedDB section with cached data highlighted in the browser's developer tools.":::
+    :::image type="content" source="../media/3-indexeddb-peoplequery.png" alt-text="Screenshot of the IndexedDB section with cached data highlighted in the browser's developer tools.":::
 
 1. In the developer tools, switch to the **Network** tab. Choose to show only **XHR** requests and refresh the page. Notice that while your app is showing data, it hasn’t run a single request to Microsoft Graph. All data is loaded from the cache.
 

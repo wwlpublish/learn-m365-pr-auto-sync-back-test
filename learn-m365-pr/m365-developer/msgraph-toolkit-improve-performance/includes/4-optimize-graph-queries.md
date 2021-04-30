@@ -24,7 +24,7 @@ Suppose you want to get a user’s e-mails by using the following Microsoft Grap
 GET /me/messages
 ```
 
-Although this functionality isn't one of the toolkit components, it's possible to  consume any Microsoft Graph query to reach hundreds of different datasets available in Microsoft 365. By using the Get component, you can call any Microsoft Graph query to retrieve required data directly in HTML.
+Although this functionality isn't one of the toolkit components, it's possible to consume any Microsoft Graph query to reach hundreds of different datasets available in Microsoft 365. By using the Get component, you can call any Microsoft Graph query to retrieve required data directly in HTML.
 
 Here's an example of using the Get component: 
 ```html
@@ -35,8 +35,8 @@ You can add the following attributes to the `<mgt-get>` tag to define the type o
 
 - **`resource`:** The preferred Microsoft Graph API query for the request.
 - **`scopes`:** The required scopes for the request.
-- **`version`:** The Microsoft Graph API version for the request (v1.0 or beta).
+- **`version`:** The Microsoft Graph API version for the request.
 
 Unlike other components in Microsoft Graph Toolkit, the Get component doesn't provide any pre-built UI. You must configure a template that will be used to display the data.
 
-In the next exercise, you'll learn how to use the Get component and display Notebooks from OneNote for the signed-in user.
+In the next exercise, you'll learn how to use the Get component and display notebooks from OneNote for the signed-in user.
