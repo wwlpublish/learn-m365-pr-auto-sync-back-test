@@ -1,6 +1,6 @@
 Microsoft Graph Toolkit provides support for creating custom templates that can change how data is displayed by components.
 
-Suppose you're planning to build a web application to show upcoming events to the signed-in user. For this project, instead of using the default Microsoft Graph Toolkit Login component experience, you want to modify the signed-in button that shows the user's profile.
+Suppose you're planning to build a web application to show upcoming events to the signed-in user. For this project, instead of using the default Microsoft Graph Toolkit Login component experience, you want to modify the sign in button that shows the user's profile.
 
 You can use the Login component's templating to easily change the presentation of the signed-in user's profile. You can also choose the specific data to display, such as the user's display name, given name, job title, mail, or phone number.
 
