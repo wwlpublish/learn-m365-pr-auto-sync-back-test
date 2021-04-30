@@ -3,7 +3,7 @@ uid: learn.wwl.introduction-to-azure-identity-protection
 metadata:
   title: Examine Azure Identity Protection
   description: "Examine Azure Identity Protection"
-  ms.date: 04/29/2021
+  ms.date: 04/30/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -34,8 +34,8 @@ products:
 units:
 - learn.wwl.introduction-to-azure-identity-protection.introduction
 - learn.wwl.introduction-to-azure-identity-protection.explore
-- learn.wwl.introduction-to-azure-identity-protection.enable-default-protection-policies-aip
-- learn.wwl.introduction-to-azure-identity-protection.explore-vulnerabilities-risk-events-detected-by-aip
+- learn.wwl.introduction-to-azure-identity-protection.enable-default-protection-policies
+- learn.wwl.introduction-to-azure-identity-protection.explore-vulnerabilities-risk-events
 - learn.wwl.introduction-to-azure-identity-protection.plan-your-identity-investigation
 - learn.wwl.introduction-to-azure-identity-protection.knowledge-check
 - learn.wwl.introduction-to-azure-identity-protection.summary
