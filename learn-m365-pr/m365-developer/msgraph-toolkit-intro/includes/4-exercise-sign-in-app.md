@@ -1,4 +1,4 @@
-In this unit, you'll create a web application and explore a starter project. You'll then use the component from the toolkit to sign in to your application, and access Microsoft Graph functionality.
+In this unit, you'll create a web application and explore a starter project. You'll then use the Login component from the toolkit to sign in to your application, and access Microsoft Graph functionality.
 
 ## Set up the app structure for your web app
 
@@ -40,7 +40,7 @@ Your web application will have one HTML file and a folder for Live Server settin
 
 These settings ensure the smooth testing of the application locally, when you're using Live Server.
 
-## Add code to sign in to your app
+## Add code to sign in to your app with the Login component
 
 Before you start adding code to use the toolkit in your web application, you'll need to set up an Azure Active Directory (Azure AD) application.
 
@@ -54,7 +54,7 @@ Now that you have successfully set up the application, let's add some code!
 
 ### Add the Microsoft Graph Toolkit to your project
 
-Earlier you learned that you can reference the toolkit directly from Azure Content Delivery Network. To do that, add the following code snippet to the head (between the `<head></head>`) tags of your *index.html* file.
+Earlier you learned that you can reference the toolkit directly from the content delivery network. To do that, add the following code snippet just before the </head> tag in your *index.html* file.
 
 ```html
 <script src="https://unpkg.com/@microsoft/mgt/dist/bundle/mgt-loader.js"></script>
@@ -73,9 +73,9 @@ Add the following snippet into the body of your *index.html* file.
 
 Replace `YOUR-CLIENT-ID` with the **Application(client)ID** that you saved in the previous section.
 
-### Add the component to your web app
+### Add the Login component to your web app
 
-To add the component that enables signing in, add the following element in the body of the *index.html* file.
+To add the Login component, add the following element in the body of the *index.html* file.
 
 ```html
 <mgt-login></mgt-login>

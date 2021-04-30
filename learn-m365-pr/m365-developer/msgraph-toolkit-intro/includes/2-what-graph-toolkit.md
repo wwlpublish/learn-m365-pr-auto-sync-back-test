@@ -37,7 +37,7 @@ You can use Microsoft Graph Toolkit when you're building web apps and extensions
 
 ## Load Microsoft Graph Toolkit in your web app
 
-If you build web apps without using a bundler, you can load Microsoft Graph Toolkit directly from the Azure Content Delivery Network. To load the toolkit from the Content Delivery Network, add the following code snippet to your web app:
+If you build web apps without using a bundler, you can load Microsoft Graph Toolkit directly from the content delivery network. To load the toolkit from the content delivery network, add the following code snippet to your web app:
 
 ```html
 <script src="https://unpkg.com/@microsoft/mgt/dist/bundle/mgt-loader.js"></script>
