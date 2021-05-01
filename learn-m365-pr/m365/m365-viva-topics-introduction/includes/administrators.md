@@ -54,7 +54,8 @@ Users can create a new topic if AI does not discover through indexing or if the 
 - Have permissions to Who can create or edit topics. Knowledge admins can give users this permission in the Viva Topics topic permissions settings. 
 
 You can create a new topic from two locations: 
-- **Topic center** home page: 
+- **Topic center** home page:  
+
    :::image type="content" source="../media/new-topic.png" alt-text="A screenshot shows a portion of the Manage topics page.":::
 
 - **Manage topics** page: 
