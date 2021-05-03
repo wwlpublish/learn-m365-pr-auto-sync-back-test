@@ -7,3 +7,5 @@ After completing this module, you'll be able to:
  -  Configure a Safe Links policy.
  -  Describe how a transport rule can disable a Safe Links policy.
  -  Describe the end-user experience when Safe Links identifies a link to a malicious website embedded in email, and a link to a malicious file hosted on a website.
+
+ 
