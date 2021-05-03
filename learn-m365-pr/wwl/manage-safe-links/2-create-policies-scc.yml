@@ -20,7 +20,7 @@ quiz:
     choices:
     - content: "Create a Safe Links rule"
       isCorrect: false
-      explanation: "That's incorrect. When you create a Safe Links policy in the SCC, you're actually creating a safe links rule and the associated safe links policy at the same time using the same name for both. You don't create a Safe Links rule sepately from the Safe Links policy. Try again."
+      explanation: "That's incorrect. When you create a Safe Links policy in the SCC, you're actually creating a safe links rule and the associated safe links policy at the same time using the same name for both. You don't create a Safe Links rule separately from the Safe Links policy. Try again."
     - content: "Enable the ATP Safe Links option in the org-wide settings page of the SCC"
       isCorrect: false
       explanation: "That's incorrect. No such setting exists. Try again."

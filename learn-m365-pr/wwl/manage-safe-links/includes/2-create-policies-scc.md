@@ -35,18 +35,18 @@ Creating a custom Safe Links policy in the Security &amp; Compliance Center crea
      -  **Wait for URL scanning to complete before delivering the message.** Select this setting to wait for real-time URL scanning to complete before delivering the message.
      -  **Apply Safe Links to email messages sent within the organization.** Select this setting to apply the Safe Links policy to messages between internal senders and internal recipients.
      -  **Do not track user clicks.** Leave this setting unselected to enable the tracking user selections on URLs in email messages.
-     -  **Do not allow users to click through to original URL.** Select this setting to block users from selecting through to the original URL in [warning pages](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-links?view=o365-worldwide#warning-pages-from-safe-links?azure-portal=true).
+     -  **Do not allow users to click through to original URL.** Select this setting to block users from selecting through to the original URL in [warning pages](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-links?azure-portal=true).
      -  **Do not rewrite the following URLs.** Allows access the specified URLs that would otherwise be blocked by Safe Links.
         
         In the box, type the URL or value that you want, and then select the plus sign (+).
         
         To remove an existing entry, select it and then select the trash can (delete) icon.
         
-        For entry syntax, see [Entry syntax for the "Do not rewrite the following URLs" list](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-links?view=o365-worldwide#entry-syntax-for-the-do-not-rewrite-the-following-urls-list?azure-portal=true).
+        For entry syntax, see [Entry syntax for the "Do not rewrite the following URLs" list](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-links?azure-portal=true).
     
-    For detailed information about these settings, see [Safe Links settings for email messages](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-links?view=o365-worldwide#safe-links-settings-for-email-messages?azure-portal=true) and [Safe Links settings for Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-links?view=o365-worldwide#safe-links-settings-for-microsoft-teams?azure-portal=true).
+    For detailed information about these settings, see [Safe Links settings for email messages](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-links?azure-portal=true) and [Safe Links settings for Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-links?azure-portal=true).
     
-    For more the recommended values for Standard and Strict policy settings, see [Safe Links policy settings](https://docs.microsoft.com/microsoft-365/security/office-365-security/recommended-settings-for-eop-and-office365?view=o365-worldwide#safe-links-policy-settings?azure-portal=true).
+    For more the recommended values for Standard and Strict policy settings, see [Safe Links policy settings](https://docs.microsoft.com/microsoft-365/security/office-365-security/recommended-settings-for-eop-and-office365?azure-portal=true).
     
     When you're finished, select **Next.**
 6.  On the **Applied to** page that appears, identify the internal recipients that the policy applies to.
