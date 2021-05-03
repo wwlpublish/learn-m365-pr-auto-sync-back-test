@@ -37,10 +37,10 @@ Creating a custom Safe Attachments policy in the Security &amp; Compliance Cente
          -  **Replace.** Removes detected malware attachments and notifies recipients that attachments have been removed. Messages are quarantined where only admins (not end users) can review, release, or delete the messages. Delivery of safe messages may be delayed because of Safe Attachments scanning.
          -  **Dynamic Delivery (Preview Feature).** Delivers messages immediately, but replaces attachments with placeholders until Safe Attachments scanning is complete.
         
-        These values are explained in greater detail in [Safe Attachments policy settings](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-attachments?view=o365-worldwide#safe-attachments-policy-settings?azure-portal=true).
+        These values are explained in greater detail in [Safe Attachments policy settings](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-attachments?azure-portal=true).
      -  **Send the attachment to the following email address.** For the action values Block, Monitor, or Replace, you can select **Enable redirect** to send messages that contain malware attachments to the specified internal or external email address for analysis and investigation.
         
-        The recommendation for Standard and Strict policy settings is to enable redirection. For more information, see [Safe Attachments settings](https://docs.microsoft.com/microsoft-365/security/office-365-security/recommended-settings-for-eop-and-office365?view=o365-worldwide#safe-attachments-settings?azure-portal=true).
+        The recommendation for Standard and Strict policy settings is to enable redirection. For more information, see [Safe Attachments settings](https://docs.microsoft.com/microsoft-365/security/office-365-security/recommended-settings-for-eop-and-office365?azure-portal=true).
      -  **Apply the above selection if malware scanning for attachments times out or error occurs.** The action specified by **Safe Attachments unknown malware response** is taken on messages even when Safe Attachments scanning can't complete. If you selected this option, always select **Enabled redirect**; otherwise, messages may be lost.
     
     When you're finished, select **Next**.
