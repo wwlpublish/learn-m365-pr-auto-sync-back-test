@@ -26,7 +26,7 @@ CacheService.config.defaultInvalidationPeriod = 1800000;
 ```
 
 > [!NOTE]
-> If you load Microsoft Graph Toolkit from Azure Content Delivery Network, you can access the `CacheService` configuration through the global `mgt` variable, as follows:
+> If you load Microsoft Graph Toolkit from a content delivery network, you can access the `CacheService` configuration through the global `mgt` variable, as follows:
 >
 > ```html
 > <script src="https://unpkg.com/@microsoft/mgt/dist/bundle/mgt-loader.js"></script> 

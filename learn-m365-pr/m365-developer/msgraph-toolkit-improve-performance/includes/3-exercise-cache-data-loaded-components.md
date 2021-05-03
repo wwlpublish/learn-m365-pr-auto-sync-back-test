@@ -10,7 +10,7 @@ For this module, you'll need an application with the following settings:
 
 - **Name:** My app
 - **Platform:** Web
-- **Supported account types:** Accounts in any organizational directory (for example, any multitenant directory in Azure Active Directory). Personal Microsoft accounts are also supported (for example, Skype and Xbox).
+- **Supported account types:** Accounts in any organizational directory (Any Azure AD directory - Multitenant) and personal Microsoft accounts (for example, Skype, Xbox)
 - **Redirect URIs:** `http://localhost:3000`
 
 You can create this application by following these steps:

@@ -32,7 +32,7 @@ Follow these steps to consume the Get component, to display a user's notebooks i
     ```
     
 3. To get a list of OneNote notebooks and display them in the app, perform the following tasks:
-    - Add `<template></template` between the `<mgt-get></mgt-get>` tags.
+    - Add `<template></template>` between the `<mgt-get></mgt-get>` tags.
     - Add `<div></div>` between the `<template></template>` tags.
     - Add a `data-for` attribute on the `<div>` to loop through each notebook in the list of notebooks. Give the attribute a value of `note in value`.
     
