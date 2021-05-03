@@ -9,12 +9,12 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Examine Exchange Online Protection
-summary: This module examines how Exchange Online Protection protects organizations from phishing and spoofing, and how it blocks spam, bulk email, and malware before they arrive in users’ mailboxes.
+summary: This module examines how Exchange Online Protection (EOP) protects organizations from phishing and spoofing. It also explores how EOP blocks spam, bulk email, and malware before they arrive in users’ mailboxes.
 abstract: |
-  By the end of this module, you will be able to:
+  By the end of this module, you'll be able to:
   - Describe how Exchange Online Protection (EOP) analyzes email to provide anti-malware pipeline protection
   - List several mechanisms used by EOP to filter spam and malware
-  - Describe additional solutions administrators may implement to provide additional protection against phishing and spoofing
+  - Describe other solutions administrators may implement to provide extra protection against phishing and spoofing
   - Describe the benefits of the Spoof Intelligence feature in the Security &amp; Compliance Center
 prerequisites: |
   None
