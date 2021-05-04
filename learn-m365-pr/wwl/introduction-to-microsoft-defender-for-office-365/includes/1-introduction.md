@@ -18,7 +18,7 @@ When integrated together, EOP and Microsoft Defender for Office 365 represent th
 
 This module focuses on Microsoft Defender for Office 365. This product protects users from advanced threats through features such as Safe Attachments and Safe Links. It also generates reports that provide administrators with insight into attacks targeting their tenants through email.
 
-In this module, you'll be introduced to the Microsoft Defender for Office 365 ferature set. These products include Safe Attachments, Safe Links, and capabilities such as Dynamic Delivery and URL Detonation.
+In this module, you'll be introduced to the Microsoft Defender for Office 365 feature set. These products include Safe Attachments, Safe Links, and capabilities such as Dynamic Delivery and URL Detonation.
 
 After completing this module, you'll be able to:
 

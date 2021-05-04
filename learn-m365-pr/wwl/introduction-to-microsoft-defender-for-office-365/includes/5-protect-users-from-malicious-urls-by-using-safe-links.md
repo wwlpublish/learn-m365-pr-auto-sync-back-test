@@ -2,10 +2,10 @@ Safe Links is a feature in Microsoft Defender for Office 365 that protects users
 
 When an email with an embedded URL is delivered to a recipient, the web page or attachment on the other side of the link may be safe to view at the time of delivery. However, it may not be safe when the user opens the email and selects the link. Safe Links protects the user by rewriting the link in the message body so that the link is checked at the time it’s selected, instead of when the message is delivered.
 
-When a user selects a link in a message or document, Safe Links checks to see if the link is malicious. It does so by redirecting the URL to a secure server in the Microsoft 365 environment that checks the URL against a block list of known malicious web sites.
+When a user selects a link in a message or document, Safe Links checks to see if the link is malicious. It does so by redirecting the URL to a secure server in the Microsoft 365 environment that checks the URL against a blocklist of known malicious web sites.
 
  -  If the site is safe, the browser is redirected to the original destination web site.
- -  If the site is on the block list, the user is blocked from continuing to the site, and the browser displays a warning page like the image below.
+ -  If the site is on the blocklist, the user is blocked from continuing to the site, and the browser displays a warning page like the image below.
 
 :::image type="content" source="../media/warning-message-malicious-website-ca2920ef.png" alt-text="screenshot of warning message saying website is classified as malicious":::
 
