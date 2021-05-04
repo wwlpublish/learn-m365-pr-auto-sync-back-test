@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn.wwl.explore-reporting-microsoft-365-security-services.examine-atp-message-disposition-report
-title: Examine the ATP Message Disposition report
+title: Examine the Defender for Office 365 Message Disposition report
 metadata:
-  title: Examine the ATP Message Disposition report
-  description: "Examine the ATP Message Disposition report"
-  ms.date: 05/03/2021
+  title: Examine the Defender for Office 365 Message Disposition report
+  description: "Examine the Defender for Office 365 Message Disposition report"
+  ms.date: 05/04/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
