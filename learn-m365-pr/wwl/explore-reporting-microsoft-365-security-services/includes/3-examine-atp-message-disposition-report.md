@@ -44,4 +44,5 @@ The following views are a sample of the views available for the Defender for Off
     :::image type="content" source="../media/atp-file-types-report-file-view-47c3624e.png" alt-text="screenshot of the file types report file view":::
 
 
-        When you hover over a particular day (data point), you can see the breakdown of types of malicious files that were detected by Safe Attachments and anti-malware protection in EOP.
+> [!NOTE]
+> When you hover over a particular day (data point), you can see the breakdown of types of malicious files that were detected by Safe Attachments and anti-malware protection in EOP.
