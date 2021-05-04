@@ -168,7 +168,7 @@ Complete the following steps to display the list of senders who are spoofing you
 6.  In the tabs at the top of the page, you can view either senders within your domains, or senders from external domains.
 7.  Each row represents a sender that is spoofing one or more users in your organization.
 8.  If a sender is spoofing multiple users and you want to allow that sender to spoof some users but not others, select **Choose users**. The **Detailed** tab is displayed with the list of users being spoofed. The list is split into individual rows. You can then choose whether to allow or block the sender from spoofing each user individually.
-9.  To add a sender to the **allow list** for a user, choose **Yes** from the **Allowed to spoof?** To add a sender to the **block list** for a user, choose **No**.
+9.  To add a sender to the **allowlist** for a user, choose **Yes** from the **Allowed to spoof?** To add a sender to the **blocklist** for a user, choose **No**.
 10. Select **Save** to save any changes.
 
 ## Knowledge check
