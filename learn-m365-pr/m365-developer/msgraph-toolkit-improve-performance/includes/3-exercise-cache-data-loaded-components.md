@@ -1,10 +1,10 @@
-In this exercise, you’ll see how Microsoft Graph Toolkit components cache their data. You’ll also control cache configuration and see how it affects loading data from Microsoft Graph. 
+In this exercise, you'll see how Microsoft Graph Toolkit components cache their data. You’ll also control cache configuration and see how it affects loading data from Microsoft Graph. 
 
 ## Before you start
 
 Complete the following steps as prerequisites for this exercise.
 
-### 1. Configure Azure Active Directory App  
+### 1. Configure an Azure Active Directory app  
 
 For this module, you'll need an application with the following settings:
 
@@ -68,9 +68,9 @@ First, let’s look at how Microsoft Graph Toolkit components cache data by defa
     </html>
     ```
 
-1. Open the command palette by pressing Ctrl+Shift+P on Windows, or Command+Shift+P on macOS. From the command palette, choose **Live Server: Open with Live Server** to test your app.
+1. Open the command palette by pressing Ctrl+Shift+P on Windows, or Command+Shift+P on macOS. From the command palette, select **Live Server: Open with Live Server** to test your app.
 1. In the web browser, go to `http://localhost:3000`.
-1. Choose the **Sign in** button, and sign in with your Microsoft 365 developer account. Consent to the required permissions and select **Accept**. You should see a list of people.
+1. Select the **Sign in** button, and sign in with your Microsoft 365 developer account. Consent to the required permissions and select **Accept**. You should see a list of people.
 
     :::image type="content" source="../media/3-mgt-people.png" alt-text="Screenshot of the People component, showing information about people.":::
 
@@ -78,7 +78,7 @@ First, let’s look at how Microsoft Graph Toolkit components cache data by defa
 
     :::image type="content" source="../media/3-indexeddb-with-data.png" alt-text="Screenshot of the IndexedDB section with data highlighted in browser's developer tools.":::
 
-1. Expand the **mgt-people** database and choose **peopleQuery**. In the details pane, expand the data stored in the cache:
+1. Expand the **mgt-people** database and select **peopleQuery**. In the details pane, expand the data stored in the cache:
 
     :::image type="content" source="../media/3-indexeddb-peoplequery.png" alt-text="Screenshot of the IndexedDB section with cached data highlighted in the browser's developer tools.":::
 
@@ -90,7 +90,7 @@ First, let’s look at how Microsoft Graph Toolkit components cache data by defa
 
 You saw how Microsoft Graph Toolkit components cache and load data from cache by default. Now, let’s disable the cache and see how it affects the behavior of your app.
 
-1. In the web browser, open the developer tools and choose the **Console** tab.
+1. In the web browser, open the developer tools and select the **Console** tab.
 1. Clear the Microsoft Graph Toolkit cache, by running the following statement in the console:
 
     ```javascript
