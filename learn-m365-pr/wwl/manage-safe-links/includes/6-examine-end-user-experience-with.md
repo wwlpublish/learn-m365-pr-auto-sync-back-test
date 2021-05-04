@@ -3,7 +3,7 @@ When a user selects a link in an email and the target web site is later identifi
 1.  Someone sends a user an email message that contains a URL to a web site.
 2.  The message flows through the anti-malware pipeline. Assuming the message passes through all the initial checks, it eventually arrives in the recipient’s inbox.
 3.  The user opens the message and selects the link.
-4.  When the user selects the link, the URL is redirected to a secure server that checks the URL against a block list of known malicious web sites.
+4.  When the user selects the link, the URL is redirected to a secure server that checks the URL against a blocklist of known malicious web sites.
     
      -  If the link is safe, the user’s browser navigates to the target web site.
      -  If the link is malicious, the user’s browser displays a warning page.
