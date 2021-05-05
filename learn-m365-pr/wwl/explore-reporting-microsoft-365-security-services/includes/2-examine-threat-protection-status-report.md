@@ -14,7 +14,7 @@ In the left-hand navigation pane of the Security &amp; Compliance Center, select
 
 In the body of the screen, hover over the **Threat protection status** tile to get a quick view of some statistics. By default, the chart shows data for the past 7 days. If you click Filters, you can select a 90 day date range (trial subscriptions might be limited to 30 days). The details table view allows filtering for 30 days.
 
-:::image type="content" source="../media/threat-protection-status-report-widget-016eb1dc.png":::
+:::image type="content" source="../media/threat-protection-status-report-widget-016eb1dc.png" alt-text="screenshot of the threat protection status report tile":::
 
 
 To get detailed status for a day, hover over the graph. The report provides an aggregated count of unique email messages with malicious content (files or links) blocked by EOP and Microsoft Defender for Office 365 features. EOP features that block malicious content include the anti-malware engine and zero-hour auto purge. Features within Microsoft Defender for Office 365 include Safe Links and Safe Attachments.
@@ -31,7 +31,7 @@ The following views are a sample of the views available for the Threat Protectio
      -  Email phish
      -  Content malware
 
-    :::image type="content" source="../media/threat-protection-status-report-overview-view-f3a1261e.png":::
+    :::image type="content" source="../media/threat-protection-status-report-overview-view-f3a1261e.png" alt-text="screenshot of the threat protection status report overview view":::
 
 
  -  **View data by: Message Override.** The following override reason information is shown:
@@ -46,7 +46,7 @@ The following views are a sample of the views available for the Threat Protectio
      -  User Safe Sender
      -  User Safe Domain
 
-    :::image type="content" source="../media/threat-protection-status-report-message-override-view-d0042f54.png":::
+    :::image type="content" source="../media/threat-protection-status-report-message-override-view-d0042f54.png" alt-text="screenshot of the threat protection status report message override view":::
 
 
  -  **Break down by: Detection technology** and **View data by: Email &gt; Phish.** The following information is shown:
@@ -65,7 +65,7 @@ The following views are a sample of the views available for the Threat Protectio
      -  URL detonation
      -  User impersonation: Impersonation of users defined by admin or learned through mailbox intelligence.
 
-    :::image type="content" source="../media/threat-protection-status-report-phishing-detection-tech-view-eadd2e7b.png":::
+    :::image type="content" source="../media/threat-protection-status-report-phishing-detection-tech-view-eadd2e7b.png" alt-text="screenshot of the threat protection status report phishing detection technology view":::
 
 
  -  **Break down by: Policy type** and **View data by: Email &gt; Phish** or **View data by: Email &gt; Malware:** The following information is shown:
@@ -77,7 +77,7 @@ The following views are a sample of the views available for the Threat Protectio
      -  Mail flow rule (also known as a transport rule)
      -  Others
 
-    :::image type="content" source="../media/threat-protection-status-report-phishing-policy-type-view-7468a248.png":::
+    :::image type="content" source="../media/threat-protection-status-report-phishing-policy-type-view-7468a248.png" alt-text="screenshot of the threat protection status report phishing policy type view":::
 
 
  -  **Break down by: Delivery status** and **View data by: Email &gt; Phish** or **View data by: Email &gt; Malware.** The following information is shown:
@@ -92,7 +92,7 @@ The following views are a sample of the views available for the Threat Protectio
      -  On-premises server: Delivered
      -  Quarantine
 
-    :::image type="content" source="../media/threat-protection-status-report-phishing-delivery-status-view-f9818063.png":::
+    :::image type="content" source="../media/threat-protection-status-report-phishing-delivery-status-view-f9818063.png" alt-text="screenshot of the threat protection status report phishing delivery status view":::
 
 
 For all other views, you can modify the report with the following filters:
