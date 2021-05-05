@@ -9,7 +9,7 @@ Complete the following steps as prerequisites for this exercise.
 For this module, you'll need an application with the following settings:
 
 - **Name**: My app
-- **Platform**: Web
+- **Platform**: Single Page Application (SPA)
 - **Supported account types**: Accounts in any organizational directory (Any Azure AD directory - Multitenant) and personal Microsoft accounts (e.g. Skype, Xbox)
 - **Redirect URIs**: http://localhost:3000
 
@@ -31,12 +31,11 @@ To create this application, follow these steps:
             <script src="https://unpkg.com/@microsoft/mgt/dist/bundle/mgt-loader.js"></script>
         </head>
         <body>    
-            <mgt-msal-provider client-id="YOUR-CLIENT-ID"></mgt-msal-provider>    
+            <mgt-msal2-provider client-id="YOUR-CLIENT-ID"></mgt-msal2-provider>
             <mgt-login></mgt-login>
             <mgt-agenda></mgt-agenda>
         </body>
     </html>
-    
     ```
 
 1. Add a folder named **.vscode** into the root of your project folder.
@@ -46,8 +45,7 @@ To create this application, follow these steps:
     {
         "liveServer.settings.host": "localhost",
         "liveServer.settings.port": 3000
-    }   
-    
+    }
     ```
 
 ## Use attributes to change the behavior of the Agenda component
@@ -64,7 +62,6 @@ Several different attributes are available for the Agenda component. Let's look 
       days="3"
       group-by-day>
     </mgt-agenda>
-    
     ```
 
 Add these attributes to the existing **mgt-agenda** component in **index.html**. The final version of **index.html** will look like this example:
@@ -76,13 +73,13 @@ Add these attributes to the existing **mgt-agenda** component in **index.html**.
         <script src="https://unpkg.com/@microsoft/mgt/dist/bundle/mgt-loader.js"></script>
     </head>
     <body>    
-        <mgt-msal-provider client-id="YOUR-CLIENT-ID"></mgt-msal-provider>    
+        <mgt-msal2-provider client-id="YOUR-CLIENT-ID"></mgt-msal2-provider>
         <mgt-login></mgt-login>
 
         <mgt-agenda
- 		date="March 9, 2021"
-  		days="3"
-  		group-by-day>
+            date="March 9, 2021"
+            days="3"
+            group-by-day>
         </mgt-agenda>
 
     </body>
