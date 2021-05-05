@@ -3,12 +3,12 @@ uid: learn-m365.msteams-teamwork-endpoint.7-exercise-activity-feed
 metadata:
   title: Exercise - Use Microsoft Graph to post to the activity feed
   description: In this exercise, you'll learn how to use Microsoft Graph to submit notifications to the Microsoft Teams activity feed.
-  ms.date: 04/06/2021
+  ms.date: 05/11/2021
   author: andrewconnell
   ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Use Microsoft Graph to post to the activity feed
+title: Exercise - Use Microsoft Graph to post to the activity feed
 durationInMinutes: 11
 content: |
   [!include[](includes/7-exercise-activity-feed.md)]

@@ -15,7 +15,7 @@ Select **Azure Active Directory** in the left-hand navigation.
 
 Select **Manage > App registrations** in the left-hand navigation.
 
-On the **App registrations** page, select the app **Toolkit SSO: MSGraph Playground**. This is the name of the app you entered when creating the project with the toolkit, prefixed with **Toolkit SSO:**.
+On the **App registrations** page, select the app **My Teams SSO App**.
 
 In the left-hand navigation, select **Manage > API permissions**.
 
@@ -26,6 +26,16 @@ Search for, and select the permission **TeamsTab.ReadWriteForTeam**, then select
 ![Screenshot adding a new permission to the app](../media/05-azure-ad-add-api-permissions.png)
 
 To simplify the testing process, select **Grant admin consent for Contoso** to consent this new permission for all users in your tenant.
+
+### Update the list of permissions requested by the tab
+
+With the permission added to the Azure AD app, you now need to update the list of permissions the server-side API will include in the request for the access token.
+
+Locate and open the **./.env**. At the end of the file, locate the environment variable that contains the space-delimited permissions and add the following permission you just added so it now looks like the following:
+
+```txt
+MSGRAPHTEAMWORK_APP_SCOPES=https://graph.microsoft.com/User.Read https://graph.microsoft.com/Team.ReadBasic.All https://graph.microsoft.com/TeamsTab.ReadWriteForTeam email openid profile offline_access
+```
 
 ## Add documents to the channel
 
@@ -87,157 +97,107 @@ Repeat this process to get the same values for the Excel file.
 
 Now, let's update the project's existing tab. This button will create a new tab that will load a Microsoft Word document from the team in the tab.
 
-In Visual Studio Code, locate and open the **./src/components/tab.tsx** file.
+In Visual Studio Code, locate and open the **./src/client/msGraphTeamworkTab/MsGraphTeamworkTab.tsx** file.
 
-At the top of the file, update the `import` statement for the **@fluentui/react-northstar** package to import a **Button** control in addition to the other controls:
-
-```typescript
-import { Avatar, Loader, List, Button } from '@fluentui/react-northstar'
-```
-
-Next, add the following code immediately after the existing `import` statements to import the icons for Word and Excel:
+At the top of the file, add the following code immediately after the existing `import` statements to import the icons for Word and Excel:
 
 ```typescript
 import { WordIcon, ExcelIcon } from "@fluentui/react-icons-northstar";
 ```
 
-Next, let's add two event handlers. These will get executed when the user selects a button that you'll add to the user interface of the tab in a moment. Each one submits a request to Microsoft Graph's **tab** endpoint to create a new tab.
+Next, let's add two event handlers with the `useCallback()` hooks. These will get executed when the user selects a button that you'll add to the user interface of the tab in a moment. Each one submits a request to Microsoft Graph's **tab** endpoint to create a new tab.
 
 Notice each one uses a specific `teamsApp@odata.bind` string for each tab type.
 
 Also notice how each one's `configuration` property sets the file's document ID to the `entityId` property of the tab, and the `contentUrl` property is set to the document's fully qualified URL.
 
-Locate the `render()` method and add the following code immediately before it:
+Next, add the following `useCallback()` hook that will be used to submit a request to Microsoft Graph for all the teams the current user has joined:
+
+Locate the `return` statement and add the following code immediately before it:
 
 ```typescript
-_handleWordOnClick = async () => {
-  let endpoint = `https://graph.microsoft.com/v1.0/teams/${this.state.context?.groupId}/channels/${this.state.context?.channelId}/tabs`;
-  let graphRequestParams = {
+const handleWordOnClick = useCallback(async() => {
+  if (!msGraphOboToken || !context) { return; }
+
+  const endpoint = `https://graph.microsoft.com/v1.0/teams/${context.groupId}/channels/${context.channelId}/tabs`;
+  const requestObject = {
     method: 'POST',
     headers: {
-      'Content-Type': 'application/json',
-      "authorization": "bearer " + this.state.graphAccessToken
+      authorization: `bearer ${msGraphOboToken}`,
+      "content-type": 'application/json'
     },
     body: JSON.stringify({
-      "displayName": "Word",
+      displayName: "Word",
       "teamsApp@odata.bind" : "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps/com.microsoft.teamspace.tab.file.staticviewer.word",
-      "configuration": {
-          "entityId": "CA2E9D19-3FE7-4E60-82DF-F73BD3B8D302",
-          "contentUrl": "https://m365x285179.sharepoint.com/sites/TestTeam/Shared Documents/General/sample.docx",
-          "removeUrl": null,
-          "websiteUrl": null
+      configuration: {
+        entityId: "CA2E9D19-3FE7-4E60-82DF-F73BD3B8D302",
+        contentUrl: "https://m365x285179.sharepoint.com/sites/TestTeam/Shared Documents/General/sample.docx",
+        removeUrl: null,
+        websiteUrl: null
       }
     })
   };
 
-  // submit request to Microsoft Graph
-  let response = await fetch(endpoint, graphRequestParams).catch(this.unhandledFetchError);
+  await fetch(endpoint, requestObject);
+}, [context, msGraphOboToken]);
 
-  if (response) {
-    if(!response.ok){
-      console.error("ERROR: ", response);
-      this.setState({error:true});
-    }
-  }
-}
+const handleExcelOnClick = useCallback(async() => {
+  if (!msGraphOboToken || !context) { return; }
 
-_handleExcelOnClick = async () => {
-  let endpoint = `https://graph.microsoft.com/v1.0/teams/${this.state.context?.groupId}/channels/${this.state.context?.channelId}/tabs`;
-  let graphRequestParams = {
+  const endpoint = `https://graph.microsoft.com/v1.0/teams/${context.groupId}/channels/${context.channelId}/tabs`;
+  const requestObject = {
     method: 'POST',
     headers: {
-      'Content-Type': 'application/json',
-      "authorization": "bearer " + this.state.graphAccessToken
+      authorization: `bearer ${msGraphOboToken}`,
+      "content-type": 'application/json'
     },
     body: JSON.stringify({
-      "displayName": "Excel",
-      "teamsApp@odata.bind" : "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps/com.microsoft.teamspace.tab.file.staticviewer.excel",
-      "configuration": {
-          "entityId": "2A451F2C-5BC0-4EEF-B986-671705798A54",
-          "contentUrl": "https://m365x285179.sharepoint.com/sites/TestTeam/Shared Documents/General/Book.xlsx",
-          "removeUrl": null,
-          "websiteUrl": null
+      displayName: "Excel",
+      "teamsApp@odata.bind" : "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps/com.microsoft.teamspace.tab.file.staticviewer.word",
+      configuration: {
+        entityId: "2A451F2C-5BC0-4EEF-B986-671705798A54",
+        contentUrl: "https://m365x285179.sharepoint.com/sites/TestTeam/Shared Documents/General/Book.xlsx",
+        removeUrl: null,
+        websiteUrl: null
       }
     })
   };
 
-  // submit request to Microsoft Graph
-  let response = await fetch(endpoint, graphRequestParams).catch(this.unhandledFetchError);
-
-  if (response) {
-    if(!response.ok){
-      console.error("ERROR: ", response);
-      this.setState({error:true});
-    }
-  }
-}
+  await fetch(endpoint, requestObject);
+}, [context, msGraphOboToken]);
 ```
 
-Now add the buttons to the user interface that will execute these methods. Locate the following line in the `render()` method:
+Now add the buttons to the user interface that will execute these methods. Locate the following line in the `return` statement:
 
 ```tsx
-<List items={joinedTeams} />
+{joinedTeams && <div><h3>You belong to the following teams:</h3><List items={joinedTeams} /></div>}
 ```
 
 Add the following lines to add two buttons after the list of teams the current user has joined:
 
 ```tsx
-<Button icon={<WordIcon />} content="Add Word tab" onClick={this._handleWordOnClick} />
-<Button icon={<ExcelIcon />} content="Add Excel tab" onClick={this._handleExcelOnClick} />
+<Button icon={<WordIcon />} content="Add Word tab" onClick={handleWordOnClick} />
+<Button icon={<ExcelIcon />} content="Add Excel tab" onClick={handleExcelOnClick} />
 ```
 
-Finally, save all your edits to the **tab.tsx** file.
+Finally, save all your edits to the **MsGraphTeamworkTab.tsx** file.
 
 ## Build and test the application
 
-To test the application, you must do the following:
+Now let's test the new functionality added in this exercise.
 
-1. Start the web API project
-1. Start the React web app project
+From the command line, navigate to the root folder for the project and execute the following command:
 
-> [!TIP]
-> The following steps assume ngrok is still running from a previous exercise. If not, make sure you start ngrok following the same process outlined above. The ngrok URL points to the React web app project.
+```console
+gulp ngrok-serve
+```
+
+> [!IMPORTANT]
+> If the **ngrok-serve** stopped for any reason, remember when you start/restart the **gulp ngrok-serve** task, the dynamic ngrok URL will change.
 >
-> Remember, if you restart the ngrok process, the dynamic subdomain will change and you'll need to make the appropriate updates in the registered Azure AD application, custom Microsoft Teams app, environment variables in the web API project, and  environment variables in the React web app project.
-
-### Start the web API project
-
-Open a new console, change to current folder to the **./api-server** folder in the project and execute the following command to start the web API project:
-
-```console
-npm start
-```
-
-You'll know it's working when returns the following in the console:
-
-```console
-API server is listening on port 5000
-```
-
-> [!TIP]
-> If you need to stop either processes in the future, press <kbd>CTRL</kbd>+<kbd>C</kbd> in the console.
-
-### Start the React web app project
-
-Open a new console, change to current folder to the **./** folder in the project and execute the following command to start the React web app project:
-
-```console
-npm start
-```
-
-You'll know it's working when returns the following in the console:
-
-```console
-Compiled successfully!
-
-You can now view microsoft-teams-app in the browser.
-
-  Local:            https://localhost:3000
-  On Your Network:  https://###.###.###.###:3000
-
-Note that the development build is not optimized.
-To create a production build, use npm run build.
-```
+> You'll need to update all the locations where you set the URL in your project as well as in the Azure AD app registration as previously explained.
+>
+> In addition, you'll need to reinstall your app package because the Microsoft Teams app manifest contains the URL. To do this, you'll first need to increment the `version` property in the app's **./manifest/manifest.json** file. This value is dynamically set using the `version` property from the **./package.json** file. When you repeat the installation process of the app, it will update the existing installation.
 
 Once the app starts, go back to the browser and navigate back to your tab that you previously installed. You'll now see the two buttons appear below the list of joined teams:
 

@@ -19,7 +19,7 @@ The notification object contains the following components, as shown in the image
 - A time stamp
 - The location of the activity
 
-The activity feed notifications are used to inform a user of something. Microsoft Teams apps can be installed for users, teams, and group chats that means there are three different contexts that your app can send a notification to a user:
+The activity feed notifications are used to inform a user of something. Microsoft Teams apps can be installed for users, teams, and group chats that mean there are three different contexts that your app can send a notification to a user:
 
 - notify a user
 - notify a user in a team
@@ -81,7 +81,7 @@ The activity registration, like the Azure AD app association, is done in the Mic
 }
 ```
 
-Each activity has a `type` property that must be unique in the app's manifest. This is how your API will send consistent notifications to your users. The `templateText` property contains the string that's used to display the alert message. You'll notice this is a parameterized string where your app can to define the parameters. Parameters are indicated with the `{` and `}` characters.
+Each activity has a `type` property that must be unique in the app's manifest. This is how your API will send consistent notifications to your users. The `templateText` property contains the string that's used to display the alert message. You'll notice this is a parameterized string where your app can define the parameters. Parameters are indicated with the `{` and `}` characters.
 
 > [!NOTE]
 > A special parameter, `{actor}`, is always inserted by Microsoft Teams. It represents the name of the caller which is either the user or app that sent the activity feed notification.
@@ -96,7 +96,7 @@ The body of the http request contains the details of the notification. Take the 
 {
   "topic": {
     "source": "entityUrl",
-    "value": "https://graph.microsoft.com/beta/teams/{groupId}"
+    "value": "https://graph.microsoft.com/v1.0/teams/{groupId}"
   },
   "activityType": "userMention",
   "previewText": {
