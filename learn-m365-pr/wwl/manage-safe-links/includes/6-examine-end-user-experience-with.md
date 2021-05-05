@@ -8,9 +8,9 @@ When a user selects a link in an email and the target web site is later identifi
      -  If the link is safe, the user’s browser navigates to the target web site.
      -  If the link is malicious, the user’s browser displays a warning page.
 
-Now consider the scenario when a user receives a message from an external sender that contains two URLs, one to the malicious **www.spamlink.contoso.com** site and another to the legitimate **www.bing.com** site.
+Now consider the scenario when a user receives a message from an external sender that contains two URLs, one to the malicious `www.spamlink.contoso.com` site and another to the legitimate **www.bing.com** site.
 
-1.  The user selects the **www.spamlink.contoso.com** link. The user doesn't know that this URL is a phishing link that was previously identified by the service as malicious.
+1.  The user selects the `www.spamlink.contoso.com` link. The user doesn't know that this URL is a phishing link that was previously identified by the service as malicious.
 2.  The organization’s Safe Links policy detects the link and redirects it to the secure server in Microsoft 365. The secure server determines the URL is malicious.
 3.  Because the link is malicious, the user is redirected to a protective shell. The shell alerts the user about the classification of the URL (see the following graphic).<br><br>:::image type="content" source="../media/malicious-website-warning-message-4bab9b14.png" alt-text="screenshot of warning message saying the website is malicious":::
     <br><br>
