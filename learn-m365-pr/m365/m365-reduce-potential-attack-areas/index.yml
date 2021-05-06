@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn-m365-pr.reduce-potential-attack-areas-with-microsoft-defender-for-endpoint
+metadata:
+  moduleType: standard
+  title: Reduce potential attack areas with Microsoft Defender for Endpoint
+  description: Learn about how to reduce potential attack surfaces across your environment with Microsoft Defender for Endpoint.
+  ms.date: 05/04/2021
+  author: alistairmatthews
+  ms.author: v-alimat
+  ms.topic: interactive-tutorial
+title: Reduce potential attack areas with Microsoft Defender for Endpoint
+summary: Learn about how to reduce potential attack surfaces across your environment with Microsoft Defender for Endpoint.
+abstract: | 
+  By the end of this module, you'll be able to:
+    - Describe attack surface reduction in Microsoft Defender for Endpoint.
+    - Describe how to use attack surface reduction rules.
+    - Describe the different surface attack reduction protections in Microsoft Defender for Endpoint.
+prerequisites: | 
+  - Basic familiarity with Microsoft Defender for Endpoint.
+iconUrl: https://docs.microsoft.com/media/learn/module.svg
+levels: 
+  - beginner
+roles: 
+  - security-operations-analyst
+  - security-engineer
+products:
+  - m365
+  - m365-security-center
+  - mdatp
+units:
+- learn-m365-pr.reduce-potential-attack-areas-with-microsoft-defender-for-endpoint.introduction
+- learn-m365-pr.reduce-potential-attack-areas-with-microsoft-defender-for-endpoint.minimize-potential-attack-areas
+- learn-m365-pr.reduce-potential-attack-areas-with-microsoft-defender-for-endpoint.use-surface-attack-reduction-protections
+- learn-m365-pr.reduce-potential-attack-areas-with-microsoft-defender-for-endpoint.enable-attack-surface-reduction-rules
+- learn-m365-pr.reduce-potential-attack-areas-with-microsoft-defender-for-endpoint.knowledge-check
+- learn-m365-pr.reduce-potential-attack-areas-with-microsoft-defender-for-endpoint.summary
+badge:
+  uid: learn-m365-pr.reduce-potential-attack-areas-with-microsoft-defender-for-endpoint.badge

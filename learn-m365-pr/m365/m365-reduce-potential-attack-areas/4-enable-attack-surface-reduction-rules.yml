@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.reduce-potential-attack-areas-with-microsoft-defender-for-endpoint.enable-attack-surface-reduction-rules
+title: Enable attack surface reduction rules
+metadata:
+  unitType: learning-content 
+  title: Enable attack surface reduction rules
+  description: Here, you'll learn how to configure various attack surface reduction rules in Microsoft Defender for Endpoint.
+  ms.date: 05/04/2021 
+  author: alistairmatthews 
+  ms.author: v-alimat 
+  ms.topic: interactive-tutorial
+durationInMinutes: 7
+content: |
+  [!include[](includes/4-enable-attack-surface-reduction-rules.md)]
