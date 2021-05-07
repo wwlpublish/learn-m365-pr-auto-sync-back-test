@@ -103,4 +103,4 @@ A reset can also be applied to a group of devices.
 The selected device(s) will reset the next time they connect to the school network, either in the classroom or remotely.
 
 > [!NOTE]
-> You cannot use Autopilot Reset to reset an entire group. Autopilot Reset can reset up to 2000 devices at a time, and you can select the devices you want to reset either from the device list in a group or the full device list in the *Devices* blade. If you choose to use the *Devices* blade, you can apply filters to the device list to limit te operation to 2000 or fewer devices. Use the *Select all* box at the top to select the entire filtered list.
+> You cannot use Autopilot Reset to reset an entire group. Autopilot Reset can reset up to 2000 devices at a time, and you can select the devices you want to reset either from the device list in a group or the full device list in the *Devices* blade. If you choose to use the *Devices* blade, you can apply filters to the device list to limit the operation to 2000 or fewer devices. Use the *Select all* box at the top to select the entire filtered list.

@@ -63,7 +63,7 @@ Once your administrator has signed up into Store for Education, they can assign 
 
 The following lists the global user accounts and permissions.
 
-|                                                        | Global Administrator | Billing Administrator |
+| Task | Global Administrator | Billing Administrator |
 |--------------------------------------------------------|----------------------|-----------------------|
 | Sign up for Microsoft Store for Business and Education | X                    |                       |
 | Modify company profile settings                        | X                    |                       |
@@ -103,7 +103,7 @@ For more information, see **Manage user accounts** in the Learn more section.
 
 ## Get apps and content
 
-You can browse and search for all products in the Store for Education catalog. There are both free and paid-for applications. Applications are added to the Store for Education so you should check back from time to time. Currently, you can pay for apps with a credit card, and some items can be paid for with an invoice. Additional payment options are planned for future releases.
+You can browse and search for all products in the Store for Education catalog. There are both free and paid-for applications. Applications are added to the Store for Education so you should check back from time to time. Currently, you can pay for apps with a credit card, and some items can be paid for with an invoice. 
 
 There are two applications types in the Store for Education
 

@@ -6,7 +6,7 @@ Suppose you work in your school's IT department. The school has recently migrate
 
 In this module, you'll explore different technology options offered by Microsoft, including the *Set up School PCs* app and *Windows Autopilot*. You'll learn how to configure and enroll devices for use in the classroom by using provisioning packages. Also, you'll learn how to automate deployment across the school using Windows Autopilot. Finally, you'll see how to enable automatic enrollment for iOS devices.
 
-## Learning objective
+## Learning objectives
 
 1. Select the right deployment options for your school, using either the Set up School PCs app or Windows Autopilot.
 1. Configure provisioning packages to improve device enrollment.
