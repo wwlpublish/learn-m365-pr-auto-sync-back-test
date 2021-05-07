@@ -2,14 +2,14 @@
 uid: learn-m365.msgraph-toolkit-improve-performance
 metadata:
   title: Improve your app’s performance when using Microsoft Graph Toolkit
-  description: Learn about caching features offered with Microsoft Graph Toolkit and discover how to quickly display any additional data you might need in Microsoft Graph Toolkit components.
+  description: Learn about caching features offered with Microsoft Graph Toolkit, and discover how to quickly display any additional data you might need in Microsoft Graph Toolkit components.
   ms.date: 04/09/2021
   author: aycabas
   ms.author: aycabas
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
 title: Improve your app’s performance when using Microsoft Graph Toolkit
-summary: Learn about caching features offered with Microsoft Graph Toolkit and discover how to quickly display any additional data you might need in Microsoft Graph Toolkit components.
+summary: Learn about caching features offered with Microsoft Graph Toolkit, and discover how to quickly display any additional data you might need in Microsoft Graph Toolkit components.
 abstract: |
   In this module, you will:
   - Configure caching for Microsoft Graph Toolkit components
