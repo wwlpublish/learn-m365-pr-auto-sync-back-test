@@ -107,87 +107,59 @@ Dialogs simplify the sequential steps of signing in, interacting with the user a
 
 The following example demonstrates using a waterfall dialog
 
-```javascript
+```typescript
 this.addDialog(new WaterfallDialog(MAIN_WATERFALL_DIALOG, [
   this.promptStep.bind(this),
-  this.loginStep.bind(this),
-  this.ensureOAuth.bind(this),
-  this.displayToken.bind(this)
+  this.displayMicrosoftGraphDataStep.bind(this)
 ]));
 ```
 
 This first step in the waterfall dialog prompts the user and bot to authenticate:
 
-```javascript
-async promptStep(stepContext) {
+```typescript
+public async promptStep(stepContext: WaterfallStepContext): Promise<DialogTurnResult> {
   try {
-    return await stepContext.beginDialog(OAUTH_PROMPT);
+    return await stepContext.beginDialog(OAUTH_PROMPT_ID);
   } catch (err) {
     console.error(err);
   }
+  return await stepContext.endDialog();
 }
 ```
 
 Next, the login step will attempt to obtain an access token using the bot's authentication support. If successful, it uses the access token obtained in the OAuth process to submit a request to Microsoft Graph to display information returned from Microsoft Graph:
 
-```javascript
-async loginStep(stepContext) {
+```typescript
+public async displayMicrosoftGraphDataStep(stepContext: WaterfallStepContext): Promise<DialogTurnResult> {
+  // get token from prev step (or directly from the prompt itself)
   const tokenResponse = stepContext.result;
-  if (!tokenResponse || !tokenResponse.token) {
-    await stepContext.context.sendActivity('Login was not successful please try again.');
+  if (!tokenResponse?.token) {
+    await stepContext.context.sendActivity("Login not successful, please try again.");
   } else {
-    const microsoftGraphClient = new MicrosoftGraphClient(tokenResponse.token);
+    const msGraphClient = new MsGraphHelper(tokenResponse?.token);
 
-    // get user's basic profile information
-    const me = await microsoftGraphClient.getMe();
-    const title = me ? me.jobTitle : 'UnKnown';
-    // respond to Microsoft Teams with an activity message
-    await stepContext.context.sendActivity(
-        `You're logged in as ${me.displayName} (${me.userPrincipalName});
-         your job title is: ${title}; your photo is: `
-    );
+    const user = await msGraphClient.getCurrentUser();
+    await stepContext.context.sendActivity(`Thank you for signing in ${user.displayName as string} (${user.userPrincipalName as string})!`);
+    await stepContext.context.sendActivity(`I can retrieve your details from Microsoft Graph using my support for SSO! For example...`);
 
-    // get user's profile photo
-    const photoBase64 = await microsoftGraphClient.GetPhotoAsync(tokenResponse.token);
-    const card = CardFactory.thumbnailCard("", CardFactory.images([photoBase64]));
-    // respond to Microsoft Teams with an activity message
-    await stepContext.context.sendActivity({attachments: [card]});
-
-    // add a prompt message, offering the user to review their token
-    return await stepContext.prompt(CONFIRM_PROMPT, 'Would you like to view your token?');
+    const email = await msGraphClient.getMostRecentEmail();
+    await stepContext.context.sendActivity(`Your most recent email about "${email.subject as string}" was received at ${new Date(email.receivedDateTime as string).toLocaleString()}.`);
   }
+
   return await stepContext.endDialog();
 }
 ```
 
-![Screenshot of the bot displaying the user's information](../media/07-test-03.png)
+When you run the bot, the first time the user interacts with the bot, they'll be prompted to consent to a sign-in experience:
 
-In this example, notice after the `loginStep()`, we included two more steps: `ensureOAuth()` and `displayToken()`. These will fire if the user accepts the `prompt` returned by the `loginStep()` method.
+![Screenshot of the sign in prompt](../media/07-test-06.png)
 
-The `ensureOAuth()` step is recommended to prompt for an access token again:
+Once they consent by selecting the **Continue** button, the bot will display information about the currently signed in user.
 
-```javascript
-async ensureOAuth(stepContext) {
-  await stepContext.context.sendActivity('Thank you.');
+This information was retrieved using the SSO support in Microsoft Teams to obtain an ID token for the currently signed in user, exchanging this ID token for an access token, and using that to submit requests to Microsoft Graph:
 
-  const result = stepContext.result;
-  if (result) {
-    return await stepContext.beginDialog(OAUTH_PROMPT);
-  }
-  return await stepContext.endDialog();
-}
-```
+![Screenshot of the bot displaying the user's information](../media/07-test-07.png)
 
-If the user is already logged in, the bot doesn't need to store the token locally and handle the token refresh if necessary. Instead, the bot can just call the prompt again to get the token. The other more important case is that you can't know how long the user will take to respond. If they want a long time, the token may expire which would require another prompt to log in again.
+Finally, when the user submits the message **logout**, it will complete the sign-out process:
 
-The final step, `displayToken()`, receives the step context that will contain the token:
-
-```javascript
-async displayToken(stepContext) {
-  const tokenResponse = stepContext.result;
-  if (tokenResponse && tokenResponse.token) {
-    await stepContext.context.sendActivity(`Here is your token ${tokenResponse.token}`);
-  }
-  return await stepContext.endDialog();
-}
-```
+![Screenshot of the bot displaying the logout process](../media/07-test-08.png)
