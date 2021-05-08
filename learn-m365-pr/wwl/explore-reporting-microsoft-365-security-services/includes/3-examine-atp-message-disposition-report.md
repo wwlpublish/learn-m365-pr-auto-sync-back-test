@@ -5,7 +5,7 @@ The **Defender for Office 365 Message Disposition** report (formerly the ATP Mes
 
 To view this report, go to the Security &amp; Compliance Center and then select **Reports &gt; Dashboard &gt; Defender for Office 365 Message Disposition.**
 
-:::image type="content" source="../media/atp-message-disposition-report-widget-60f35ed3.png" alt-text="screenshot of the message disposition report tile":::
+:::image type="content" source="../media/atp-message-disposition-report-widget-60f35ed3.png" alt-text="screenshot of the message disposition report tile.":::
 
 
 Select the **Defender for Office 365 Message Disposition** tile to open it in a new browser window. This window will display a more detailed view of the report. Below the chart, you'll see a list of detected messages and the actions that were taken. These actions were based on the policies that were defined for your organization.
@@ -24,7 +24,7 @@ The following views are a sample of the views available for the Defender for Off
          -  Start date and End date
          -  The same message disposition values that are available in the chart, and the additional Messages passed value.
 
-    :::image type="content" source="../media/atp-file-types-report-message-view-974b956e.png" alt-text="screenshot of the file types report message view":::
+    :::image type="content" source="../media/atp-file-types-report-message-view-974b956e.png" alt-text="screenshot of the file types report message view.":::
 
 
  -  **View data by: File.** The chart contains the following information:
@@ -41,7 +41,7 @@ The following views are a sample of the views available for the Defender for Off
          -  Start date and End date
          -  The same message disposition values that are available in the chart, and the additional Messages passed value.
 
-    :::image type="content" source="../media/atp-file-types-report-file-view-47c3624e.png" alt-text="screenshot of the file types report file view":::
+    :::image type="content" source="../media/atp-file-types-report-file-view-47c3624e.png" alt-text="screenshot of the file types report file view.":::
 
 
 > [!NOTE]
