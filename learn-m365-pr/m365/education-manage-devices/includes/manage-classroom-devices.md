@@ -123,7 +123,7 @@ Put together a checklist to ensure you're covering key configuration items and o
 > [!NOTE]
 > Use the planning checklist for School Data Sync link in the *Learn more* section for an extensive checklist.
 
-#### Identity Matching
+#### Identity matching
 
 During SDS configuration, every teacher and student identity from your source directory will be matched against an appropriate user in your target directory, which is Azure Active Directory. When you're synchronizing existing users, you'll need to choose an attribute that will always have the same exact value across both directories. This helps SDS know how to match a student or teacher, and sync their identity appropriately.
 
