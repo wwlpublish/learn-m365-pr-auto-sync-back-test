@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.edu-deploy-devices.3-configure-enroll-devices-provisioning-packages
+metadata:
+  title: Configure and enroll devices with provisioning packages
+  description: Learn about provisioning packages, share PC mode policies, creation of provisioning packages and different ways that they can be applied.
+  ms.date: 10/09/2020
+  author: iankensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Configure and enroll devices with provisioning packages
+durationInMinutes: 6
+content: |
+  [!include[](includes/3-configure-enroll-devices-provisioning-packages.md)]
