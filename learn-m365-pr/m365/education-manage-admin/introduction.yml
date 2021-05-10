@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.edu-manage-admin.introduction
+metadata:
+  title: Introduction
+  description: Explore scoped administration with Microsoft Intune.
+  ms.date: 10/15/2020
+  author: iankensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Introduction
+durationInMinutes: 1
+content: |
+  [!include[](includes/introduction.md)]

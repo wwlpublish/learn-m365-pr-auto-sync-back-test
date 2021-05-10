@@ -17,7 +17,7 @@ abstract: |
  - Plan and deploy Microsoft School Data Sync.
  - Configure Take a Test profile.
 prerequisites: |
- - Introduction to modern management in Microsoft 365 module  
+   - Basic understanding of modern management in Microsoft 365  
 iconUrl: https://docs.microsoft.com/media/learn/module.svg
 levels: 
 - beginner
