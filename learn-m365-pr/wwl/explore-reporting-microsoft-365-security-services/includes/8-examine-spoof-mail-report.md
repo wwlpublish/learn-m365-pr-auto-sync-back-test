@@ -6,7 +6,7 @@ The Spoof Mail report shows how many spoof mail messages were detected. Of that 
 
 To view this report, go to the Security &amp; Compliance Center and select **Reports &gt; Dashboard &gt; Spoof Mail.**
 
-:::image type="content" source="../media/spoof-mail-report-5ee095a9.png" alt-text="screenshot of the spoof mail report":::
+:::image type="content" source="../media/spoof-mail-report-5ee095a9.png" alt-text="screenshot of the spoof mail report.":::
 
 
 When you hover over a day in the chart, you can see how many spoof mail messages came through. The counts are aggregated based on whether the spoof message was marked as spam (Caught as spam) or non-spam (Good mail).
