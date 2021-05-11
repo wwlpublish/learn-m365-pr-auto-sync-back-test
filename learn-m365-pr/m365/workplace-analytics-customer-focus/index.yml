@@ -16,7 +16,7 @@ abstract: |
   - Understand the many ways you can analyze collaboration data to improve customer focus.
   - Determine project scoping, data requirements, and how you can create value with your customer focus analysis.
   - Know which Microsoft 365 tools you can use to effectively track and manage customer focus initiatives.
-prerequisites: 
+prerequisites: |
   - Familiarity with Workplace Analytics data sources and metrics
   - Basic knowledge of Workplace Analytics queries and query structure
   - Familiarity with the analyses in the Workplace Analytics Ways of working assessment
