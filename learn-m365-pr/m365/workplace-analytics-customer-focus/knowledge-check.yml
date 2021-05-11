@@ -1,0 +1,49 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.workplace-analytics-customer-focus.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: Confirm what you've learned about customer focus in Workplace Analytics.
+  ms.date: 05/11/2021
+  author: jelathro
+  ms.author: jelathro
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Question 1?"
+      choices:
+      - content: "Option 1"
+        isCorrect: true
+        explanation: "Explanation"
+      - content: "Option 2"
+        isCorrect: false
+        explanation: "Explanation"
+      - content: "Option 3"
+        isCorrect: false
+        explanation: "Explanation"
+    - content: "Question 2?"
+      choices:
+      - content: "Option 1"
+        isCorrect: true
+        explanation: "Explanation"
+      - content: "Option 2"
+        isCorrect: false
+        explanation: "Explanation"
+      - content: "Option 3"
+        isCorrect: false
+        explanation: "Explanation"
+    - content: "Question 3?"
+      choices:
+      - content: "Option 1"
+        isCorrect: true
+        explanation: "Explanation"
+      - content: "Option 2"
+        isCorrect: false
+        explanation: "Explanation"
+      - content: "Option 3"
+        isCorrect: false
+        explanation: "Explanation"
