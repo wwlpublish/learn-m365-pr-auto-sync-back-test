@@ -3,7 +3,7 @@ uid: learn.wwl.introduction-to-microsoft-365-threat-intelligence
 metadata:
   title: Explore threat intelligence in Microsoft 365
   description: "Explore threat intelligence in Microsoft 365"
-  ms.date: 05/05/2021
+  ms.date: 05/11/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -16,8 +16,8 @@ abstract: |
   - Describe how the threat dashboard can benefit C-level security officers
   - Understand how Threat Explorer can be used to investigate threats and help to protect your tenant
   - Describe the Threat Tracker widgets and views that provide you with intelligence on different cybersecurity issues that might impact your company
-  - Run realistic attack scenarios using Attack Simulator to help identify vulnerable users before a real attack impacts your organization
-  - Describe how threat hunting enables security operators to cybersecurity threats
+  - Run realistic attack scenarios using Attack simulation training to help identify vulnerable users before a real attack impacts your organization
+  - Describe how threat hunting in Microsoft Threat Protection enables security operators to identify cybersecurity threats
   - Describe how Advanced hunting in Microsoft 365 Defender proactively inspects events in your network to locate threat indicators and entities
 prerequisites: |
   None

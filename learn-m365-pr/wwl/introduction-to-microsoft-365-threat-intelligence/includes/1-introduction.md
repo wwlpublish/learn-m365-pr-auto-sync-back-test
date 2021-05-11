@@ -18,6 +18,10 @@ In this module, you'll learn about the Microsoft Intelligent Security Graph. Thi
 
 You'll also be introduced to the two main features of threat intelligence in Microsoft 365, the Security Dashboard and Threat Explorer. These tools provide admins with evidence-based knowledge and actionable advice. Admins can use this information to make informed decisions about protecting and responding to cyber-attacks against their tenant.
 
+This module also introduces you to Attack simulation training, which provides realistic attack scenarios to help organizations identify vulnerable users before a real attack happens. The goal of Attack simulation training is to make employees aware of various threat attacks and change their behavior so they learn what not to do when receiving email with links and attachments and so on.
+
+The module concludes with an introduction to threat hunting in Microsoft Threat Protection and advanced hunting in Microsoft 365 Defender. Threat hunting enables security operators to identify cybersecurity threats. Advanced hunting in Microsoft 365 Defender proactively inspects events in your network using Kusto-based queries to locate threat indicators and entities.
+
 After completing this module, you'll be able to:
 
  -  Describe how threat intelligence in Microsoft 365 is powered by the Microsoft Intelligent Security Graph.
@@ -25,5 +29,5 @@ After completing this module, you'll be able to:
  -  Understand how Threat Explorer can be used to investigate threats and help to protect your tenant.
  -  Describe the Threat Tracker widgets and views that provide you with intelligence on different cybersecurity issues that might impact your company.
  -  Run realistic attack scenarios using Attack Simulator to help identify vulnerable users before a real attack impacts your organization
- -  Describe how threat hunting enables security operators to cybersecurity threats.
+ -  Describe how threat hunting enables security operators to identify cybersecurity threats.
  -  Describe how Advanced hunting in Microsoft 365 Defender proactively inspects events in your network to locate threat indicators and entities.
