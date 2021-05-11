@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.edu-deploy-applications.deploy-ios-applications
+metadata:
+  title: Deploy iOS applications
+  description: Learn how to deploy free and paid-for iOS applications to Intune for Education.
+  ms.date: 10/15/2020
+  author: iankensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Deploy iOS applications
+durationInMinutes: 4
+content: |
+  [!include[](includes/deploy-ios-applications.md)]
