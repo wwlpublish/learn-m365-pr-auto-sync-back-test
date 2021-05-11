@@ -12,4 +12,4 @@ After completing this module, you'll be able to:
  -  Explain how Office 365 Message Encryption works.
  -  Compare Office 365 Message Encryption and S/MIME.
  -  Explain how Office 365 Advanced Message Encryption offers additional capabilities on top of the standard Office 365 Message Encryption capabilities.
- -  Identify additional encryption capabilities that can be configured to meet certain compliance or legal requirements. 
+ -  Identify additional encryption capabilities that can be configured to meet certain compliance or legal requirements.
