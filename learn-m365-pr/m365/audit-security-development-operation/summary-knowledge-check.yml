@@ -4,9 +4,9 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Learn how Microsoft 365 follows Microsoft’s Security Development Lifecycle (SDL) to build security and privacy into our products and services.
-  ms.date: 05/29/2020
+  ms.date: 04/26/2021
   author: NamrahK
-  ms.author: v-nakhu
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 6
@@ -45,17 +45,17 @@ quiz:
         isCorrect: false
         explanation: "Microsoft detects security incidents through security monitoring and responds using the incident response process."
       
-    - content: "What category of automated tools does Microsoft use to test and validate how code handles unexpected or untrusted inputs during execution?"
+    - content: "What category of automated tools does Microsoft use to test and validate whether source code contains vulnerabilities?"
       choices:
       - content: "Static code analysis tools"
-        isCorrect: false
+        isCorrect: true
         explanation: "Static code analysis tools check source code for vulnerabilities."
       - content: "Binary analysis tools"
         isCorrect: false
         explanation: "Binary analysis tools check builds at the binary level for security flaws."
-      - content: "Fuzz testing tools"
-        isCorrect: true
-        explanation: "Correct. Fuzz testing tools simulate malformed inputs to validate how code handles unexpected or untrusted inputs during execution."
+      - content: "Ring deployment"
+        isCorrect: false
+        explanation: "Ring deployment is used to securely test and deploy code changes."
       - content: "Component Governance"
         isCorrect: false
         explanation: "Component Governance is used to detect and track open-source components."
@@ -83,9 +83,9 @@ quiz:
       - content: "Binary analysis tools"
         isCorrect: false
         explanation: "Binary analysis tools check builds at the binary level for security flaws."
-      - content: "Fuzz testing tools"
+      - content: "Ring deployment"
         isCorrect: false
-        explanation: "Fuzz testing tools simulate malformed inputs to validate how code handles unexpected or untrusted inputs during execution."
+        explanation: "Ring deployment is used to securely test and deploy code changes."
       - content: "Component Governance"
         isCorrect: true
         explanation: "Correct. Component Governance is used to detect and track open-source components."

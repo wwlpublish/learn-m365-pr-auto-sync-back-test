@@ -30,4 +30,4 @@ Lessons learned from internal incidents also support business continuity improve
 
 ## Learn more
 
-[Business Continuity and Disaster Recovery Plan Validation Report](https://aka.ms/EBCM_BCP_Test_Report?azure-portal=true)
+- [Business Continuity and Disaster Recovery Plan Validation Report](https://aka.ms/EBCM_BCP_Test_Report?azure-portal=true)

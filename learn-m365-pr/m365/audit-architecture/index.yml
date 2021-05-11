@@ -3,9 +3,9 @@ uid: learn-m365.audit-architecture
 metadata:
   title: Understand Microsoft 365 cloud architecture
   description: Learn how the architecture of Microsoft 365 implements security and privacy features to protect customers who use Microsoft 365 multi-tenant services.
-  ms.date: 06/18/2020
-  author: NamrahK
-  ms.author: v-nakhu
+  ms.date: 04/26/2021
+  author: beccarobins
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Understand Microsoft 365 cloud architecture
@@ -15,6 +15,7 @@ abstract: |
  - Describe the high-level architecture of Microsoft 365 services and dependencies.
  - List the security principles built into Microsoft 365 architecture.
  - Explain how Microsoft 365 implements network, service, and tenant isolation.
+ - Explain how Microsoft 365 protects its infrastructure from DDoS attacks. 
  - Describe how Microsoft 365 maintains service, data, and network resiliency.
  - Explain how Microsoft 365 performs architecture validation to verify the security posture of Microsoft 365 services.
 
@@ -33,6 +34,7 @@ units:
 - learn-m365.audit-architecture.introduction
 - learn-m365.audit-architecture.security-principles
 - learn-m365.audit-architecture.understand-isolation
+- learn-m365.audit-architecture.dos-attacks
 - learn-m365.audit-architecture.resiliency
 - learn-m365.audit-architecture.architecture-validation
 - learn-m365.audit-architecture.summary-knowledge-check
