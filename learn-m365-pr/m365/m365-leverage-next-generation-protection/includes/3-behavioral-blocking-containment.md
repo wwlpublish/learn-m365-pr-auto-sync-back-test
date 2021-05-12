@@ -1,4 +1,4 @@
-Security on client Windows computers has often been guaranteed using antivirus scanning software, which detects malware by comparing file signatures. Many modern attacks don't really on executable files or code in scripts or documents and so can evade this defense.
+Security on client Windows computers has often been guaranteed using antivirus scanning software, which detects malware by comparing file signatures. Many modern attacks don't rely on executable files or code in scripts or documents and so can evade this defense.
 
 Suppose you're responsible for security in your organization. You're worried that rapidly evolving attacks that don't use executable files may be able to compromise your client computers. You want to find out how Microsoft Defender for Endpoint can detect and mitigate such attacks.
 

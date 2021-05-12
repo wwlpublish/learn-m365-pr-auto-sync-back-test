@@ -14,7 +14,7 @@ The traditional method of protecting devices against viruses and other malware i
 
 This system works well in most cases but relies on the antivirus provider responding rapidly with signatures for new threats. Users must also download the latest signatures often and, although downloads are often automated, protection for new threats is not instantaneous. The user may also decide to disregard the warnings they receive from their antivirus software and run the dangerous code anyway.
 
-Microsoft Defender Antivirus is the next-generation protection component of Microsoft Defender for Endpoint. Next-generation antivirus technologies provide automatic, instantaneous protection against new and emerging threats that closes the loop holes in the traditional antivirus model.
+Microsoft Defender Antivirus is the next-generation protection component of Microsoft Defender for Endpoint. Next-generation antivirus technologies provide automatic, instantaneous protection against new and emerging threats and close the loop holes in the traditional antivirus model.
 
 Let's examine some of the methods Microsoft Defender Antivirus uses deliver next-generation protection.
 
@@ -24,7 +24,7 @@ New viruses and other threats appear all the time and the tight connections betw
 
 The Microsoft Intelligent Security Graph is one tool that you can use to accelerate threat detection. The Security Graph analyses billions of connection events and signals everyday and uses AI pattern matching and machine learning to identify malicious communications without waiting for human involvement. It can also identify previously unknown security vulnerabilities in common software. Developers can connect to the Security Graph through its Application Programming Interface (API) to take advantage of its threat detection in their own software.
 
-Microsoft Defender Antivirus uses the Security Graph as a source of information about new virus so it can respond to new threats very fast. 
+Microsoft Defender Antivirus uses the Security Graph as a source of information about new virus so it can respond to new threats fast. 
 
 As well as using the Intelligent Security Graph, Defender Antivirus uses other cloud sources for security information, including:
 
@@ -51,7 +51,7 @@ A Potentially Unwanted Application (PUA) is one that is not considered to be a v
 - Bundling software that offers to install software that is not digitally signed by the same entity.
 - Evasion software that circumvents security products by behaving differently in their presence.
 
-To use Microsoft Defender for Antivirus to block PUAs, you must being running Windows 10 and then use Microsoft Intune, Endpoint Manager, Group Policy, or PowerShell to block the apps.
+To use Microsoft Defender for Antivirus to block PUAs, you must be running Windows 10 and then use Microsoft Intune, Endpoint Manager, Group Policy, or PowerShell to block the apps.
 
 To use PowerShell to enable PUA protection, run this command:
 
@@ -59,7 +59,7 @@ To use PowerShell to enable PUA protection, run this command:
 Set-MpPreference -PUAProtection Enabled
 ```
 
-Once PUA protection is enable, you can use the `Get-MpThreat` PowerShell cmdlet to view blocking events. The information looks like this:
+Once PUA protection is enabled, you can use the `Get-MpThreat` PowerShell cmdlet to view blocking events. The information looks like this:
 
 ```powershell
 CategoryID       : 27
@@ -96,7 +96,7 @@ Block at first sight reduces the response to a new and potentially dangerous fil
 
 ## Always-on protection
 
-Microsoft Defender for Endpoint and Microsoft Defender Antivirus use always-on protection to scan files and processes on the protected computer and intercept threats before they can run code. Always-on protection includes:
+Microsoft Defender for Endpoint and Microsoft Defender Antivirus both use always-on protection to scan files and processes on the protected computer and intercept threats before they can run code. Always-on protection includes:
 
 - **Real-time protection.** Files are scanned as soon as they are downloaded and any processes are scanned rapidly. The user doesn't experience any significant delays caused by this scanning but remains well protected.
 - **Behavior monitoring.** As well as being scanned for virus signatures, processes have their behavior tracked to spot suspicious patterns of behavior.
