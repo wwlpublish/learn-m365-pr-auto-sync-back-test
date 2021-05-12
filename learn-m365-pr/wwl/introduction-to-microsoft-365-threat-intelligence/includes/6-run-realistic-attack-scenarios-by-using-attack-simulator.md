@@ -1,7 +1,7 @@
 Organizations that have Microsoft 365 E5 or Microsoft Defender for Office 365 Plan 2 (which includes [Threat Investigation and Response capabilities](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-ti?azure-portal=true)) can use Attack simulation training in the Microsoft Security Center to run realistic attack scenarios. These simulated attacks can help identify vulnerable users and change their behaviors before a real attack impacts an organization's bottom line.
 
 > [!NOTE]
-> Attack simulation training replaces the old Attack Simulator experience that's described in [Attack Simulator in Microsoft Defender for Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/attack-simulatorhttps://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-ti?azure-portal=true).
+> Attack simulation training replaces the old Attack Simulator experience that's described in Attack Simulator in Microsoft Defender for Office 365.
 
 Attack simulation training in Microsoft Defender for Office 365 lets an organization run benign cyberattack simulations to test its security policies and practices. It's also used to train employees to increase their awareness and reduce their susceptibility to attacks.
 
@@ -15,7 +15,7 @@ An organization must meet the following prerequisites to run Attack simulation t
      -  **Attack Simulator Administrators.** Create and manage all aspects of attack simulation campaigns.
      -  **Attack Simulator Payload Authors.** Create attack payloads that an admin can start later.
  -  The organization's email is hosted in Exchange Online. Attack simulation training isn't available for on-premises email servers.<br>
- -  Attack simulation data and training-related data are stored with other customer data for Microsoft 365 services. For more information, see [Microsoft 365 data locations](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locationshttps://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-ti?azure-portal=true).
+ -  Attack simulation data and training-related data are stored with other customer data for Microsoft 365 services. For more information, see Microsoft 365 data locations.
 
 ### Understanding user behavior
 
