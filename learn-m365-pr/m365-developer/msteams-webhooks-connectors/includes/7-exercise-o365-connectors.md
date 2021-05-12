@@ -95,27 +95,16 @@ Finally, let's explore the code in the default project to see how it works. The 
 
 The configuration page is an HTML page that contains a React control. Locate and open the React control file **./src/client/myFirstTeamsConnector/MyFirstTeamsConnectorConfig.tsx**.
 
-You need to make one edit to this file before building the project. Within the `componentWillMount()` React lifecycle event handler, locate the following code:
+You need to make one edit to this file before building the project. Within the `useEffect()` React hooks method, locate the following code:
 
 ```typescript
-microsoftTeams.getContext((context: microsoftTeams.Context) => {
-  this.setState({
-    color: availableColors.find(c => c.code === context.entityId),
-  });
-  this.setValidityState(this.state.color !== undefined);
-});
+setColor(availableColors.find(c => c.code === context.entityId));
 ```
 
-The `find()` method needs to be replaced with a `filter()` method. Update this line:
+The `find()` method needs to be replaced with a `filter()` method. Update this to the following:
 
 ```typescript
-color: availableColors.find(c => c.code === context.entityId),
-```
-
-... to the following:
-
-```typescript
-color: availableColors.filter(c => c.code === context.entityId)[0],
+setColor(availableColors.filter(c => c.code === context.entityId)[0]),
 ```
 
 The important part of this component to take note of is in the call to the `microsoftTeams.settings.registerOnSaveHandler()` handler that is called when the user selects the **Save**  button on the config page. Selecting **Save** will save the configuration of the Connector in Microsoft Teams and notify the Connector's web service that it has been added to a team.
@@ -180,7 +169,7 @@ Select the **Apps** tab and then the **More apps** button:
 
 ![Screenshot of the Manage team page](../media/07-test-setup-app-02.png)
 
-From the **Browse available apps and services**, select the **Upload a custom app > Upload for [tenant]** at the bottom of the **Apps** panel of categories. Select the Microsoft Teams app package, the **MyFirstTeamsConnector.zip** file in the **./package** folder of your project.
+From the **Browse available apps and services**, select the **Upload a custom app > Upload for my org** at the bottom of the **Apps** panel of categories. Select the Microsoft Teams app package, the **MyFirstTeamsConnector.zip** file in the **./package** folder of your project.
 
 After uploading the app, Microsoft Teams will display it on the list of apps installed under the **Build for [tenant]** category page:
 

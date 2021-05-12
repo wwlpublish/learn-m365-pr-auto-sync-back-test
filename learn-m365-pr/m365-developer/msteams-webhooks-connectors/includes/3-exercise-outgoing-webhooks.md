@@ -4,7 +4,7 @@ In this exercise, you’ll learn how to create a web service and register it as 
 
 Developing Microsoft Teams apps requires an Office 365 tenant, Microsoft Teams configured for development, and the necessary tools installed on your workstation.
 
-For the Office 365 tenant, follow the instructions on [Microsoft Teams: Prepare your Office 365 tenant](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-tenant) for obtaining a developer tenant if you don't currently have an Office 365 account. Make sure you have also enabled Microsoft Teams for your organization.
+For the Office 365 tenant, follow the instructions on [Microsoft Teams: Prepare your Office 365 tenant](/microsoftteams/platform/get-started/get-started-tenant) for obtaining a developer tenant if you don't currently have an Office 365 account. Make sure you have also enabled Microsoft Teams for your organization.
 
 Microsoft Teams must be configured to enable custom apps and allow custom apps to be uploaded to your tenant to build custom apps for Microsoft Teams. Follow the instructions on the same **Prepare your Office 365 tenant** page mentioned above.
 
@@ -172,7 +172,7 @@ Create a new file **planets.json** in the **./src/server/teamsWebhooksOutgoingWe
 ]
 ```
 
-Next, create a new file **planetDisplayCard.json** in the **./src/app/teamsWebhooksOutgoingWebhook** folder and add the following JSON to it. This file will contain a template of the adaptive card the web service will respond with:
+Next, create a new file **planetDisplayCard.json** in the **./src/server/teamsWebhooksOutgoingWebhook** folder and add the following JSON to it. This file will contain a template of the adaptive card the web service will respond with:
 
 ```json
 {
