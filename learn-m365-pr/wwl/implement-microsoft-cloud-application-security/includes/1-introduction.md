@@ -6,7 +6,7 @@ Microsoft Cloud App Security natively integrates with leading Microsoft solution
 
 In this module, you'll learn how to implement Microsoft Cloud App Security. You'll examine how to deploy Cloud App Security, how to control your cloud apps with policies, and how to troubleshoot Cloud App Security.
 
-After completing this module, you'll be able to:
+After completing this module, you'll be able to: 
 
  -  Describe how Cloud App Security provides improved visibility into network cloud activity and increases the protection of critical data across cloud applications.
  -  Explain how to deploy Cloud App Security.
