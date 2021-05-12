@@ -114,7 +114,7 @@ The body of the http request contains the details of the notification. Take the 
 }
 ```
 
-The `topic` object represents the subject of the notification - it specifies the resource being talked about in the notification. This can be either `entityUrl` or `text`. Learn more about the `topic` type: [Microsoft Graph: teamworkActivityTopic resource type](https://docs.microsoft.com/graph/api/resources/teamworkactivitytopic).
+The `topic` object represents the subject of the notification - it specifies the resource being talked about in the notification. This can be either `entityUrl` or `text`. Learn more about the `topic` type: [Microsoft Graph: teamworkActivityTopic resource type](/graph/api/resources/teamworkactivitytopic).
 
 The `activity` property must match one of the activities listed in the Microsoft Teams app's manifest file.
 

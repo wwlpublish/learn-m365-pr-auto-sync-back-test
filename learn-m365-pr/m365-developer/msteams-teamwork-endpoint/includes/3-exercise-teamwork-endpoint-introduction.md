@@ -4,7 +4,7 @@ In this exercise, you’ll learn how to create a project using the Yeoman Genera
 
 Developing Microsoft Teams apps requires a Microsoft 365 tenant, Microsoft Teams configured for development, and the necessary tools installed on your workstation.
 
-For the Microsoft 365 tenant, follow the instructions on [Microsoft Teams: Prepare your Microsoft 365 tenant](https://docs.microsoft.com/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant) for obtaining a developer tenant if you don't currently have a Microsoft 365 account. Make sure you've also enabled Microsoft Teams for your organization.
+For the Microsoft 365 tenant, follow the instructions on [Microsoft Teams: Prepare your Microsoft 365 tenant](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant) for obtaining a developer tenant if you don't currently have a Microsoft 365 account. Make sure you've also enabled Microsoft Teams for your organization.
 
 Microsoft Teams must be configured to enable custom apps and allow custom apps to be uploaded to your tenant to build custom apps for Microsoft Teams.
 
@@ -263,7 +263,7 @@ In this section, we'll update the Microsoft Teams app to add support for submitt
 
 When submitting requests to Microsoft Graph, you must include an OAuth access token in the header of each request. This is not the same ID token Microsoft Teams received previously as part of the SSO support, but that same ID token can be used to obtain an access token for use with Microsoft Graph.
 
-This is done by implementing the [OAuth2 On-Behalf-Of (OBO) flow](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth2-on-behalf-of-flow), but this can't be done client-side, rather it must be done server-side.
+This is done by implementing the [OAuth2 On-Behalf-Of (OBO) flow](/azure/active-directory/develop/v2-oauth2-on-behalf-of-flow), but this can't be done client-side, rather it must be done server-side.
 
 ### Update the Azure AD app credentials and permissions
 
@@ -294,11 +294,11 @@ By default, the app has the **User.Read** permission. When Microsoft Teams reque
   - openid
   - profile
 
-![Screenshot adding permissions to the app](../media/03-azure-ad-api-permissions-01.png)
+![Screenshot configuring permissions to the app](../media/03-azure-ad-api-permissions-01.png)
 
 Once you've added the permissions, select the **Grant admin consent for ...** to consent these permissions for all users in the tenant.
 
-![Screenshot of consented permissions](../media/03-azure-ad-api-permissions.png)
+![Screenshot of the consented permissions](../media/03-azure-ad-api-permissions.png)
 
 ### Update project to obtain access tokens for Microsoft Graph via the OAuth2 OBO flow
 
