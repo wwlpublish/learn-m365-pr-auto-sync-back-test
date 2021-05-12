@@ -11,7 +11,7 @@ Next to **Global weekly threat detections** is a heat-map that shows where attac
 The **Top targeted users** tile gives you quick insight into who is being targeted in your organization. It’s also another launch point for investigating threats in your tenant. Selecting a user opens a flyout page where you can learn more details about the user, such as:
 
  -  The location and time of their last sign-in attempt.
- -  If they’re a member of an administrative group.
+ -  Their membership in an any administrative group.
  -  A brief snapshot of their activities in Microsoft 365.
 
 > [!IMPORTANT]

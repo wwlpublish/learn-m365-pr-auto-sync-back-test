@@ -10,7 +10,7 @@ Depending on what your organization's subscription includes, the Security Dashbo
 
 The Threat Management Summary tile tells you at a glance how your organization was protected from threats over the past seven days.
 
-:::image type="content" source="../media/threat-management-summary-7d8a8371.png" alt-text="screenshot of the Threat Management Summary tile":::
+:::image type="content" source="../media/threat-management-summary-tile-2798383f.png" alt-text="screenshot of the Threat Management Summary tile":::
 
 
 The information you'll see in the Threat Management Summary depends on what your subscription includes. The following table describes what information is included for Office 365 E3 and Office 365 E5 licenses.
@@ -70,7 +70,7 @@ The details that are displayed depend on whether your Microsoft 365 subscription
   :::column:::
     Malicious email that was detected and blocked by EOP.
 
-See [Threat Protection Status report (EOP)](https://docs.microsoft.com/microsoft-365/security/office-365-security/view-email-security-reports?view=o365-worldwide#threat-protection-status-report?azure-portal=true).
+See [Threat Protection Status report (EOP)](https://docs.microsoft.com/microsoft-365/security/office-365-security/view-email-security-reports?azure-portal=true).
 
 
   :::column-end:::
@@ -84,7 +84,7 @@ See [Threat Protection Status report (EOP)](https://docs.microsoft.com/microsoft
 
 Aggregated count of unique email messages with malicious content blocked by the anti-malware engine, zero-hour auto purge, and Defender for Office 365 features (including Safe Links, Safe Attachments, and Anti-phishing in Defender for Office 365).
 
-See [Threat protection status report](https://docs.microsoft.com/microsoft-365/security/office-365-security/view-reports-for-mdo?view=o365-worldwide#threat-protection-status-report?azure-portal=true).
+See [Threat protection status report](https://docs.microsoft.com/microsoft-365/security/office-365-security/view-reports-for-mdo?azure-portal=true).
 
 
   :::column-end:::
@@ -148,7 +148,7 @@ The metrics are calculated as described in the following table:
 
 The Malware tiles show details about malware trends and malware family types over the past seven days.
 
-:::image type="content" source="../media/malware-trends-and-families-detected-d36c0727.png" alt-text="screenshot of the Malware tiles":::
+:::image type="content" source="../media/malware-trends-and-families-detected-tile-3f0ec116.png" alt-text="screenshot of the Malware tiles":::
 
 
 ### Insights
@@ -170,7 +170,7 @@ To learn more, see [Get started using Automated investigation and response (AIR)
 
 The bottom of the Security Dashboard includes a Trends section, which summarizes email flow trends for your organization. Reports provide information about email categorized as spam, malware, phishing attempts, and good email. Select a tile to view more detailed information in the report.
 
-:::image type="content" source="../media/trends-1c881626.png" alt-text="screenshot of the Trends tiles":::
+:::image type="content" source="../media/email-flow-trends-7d170ba1.png" alt-text="screenshot of the Trends tile that shows email flow trends for the organization":::
 
 
 If your organization's subscription includes Defender for Office 365 Plan 2, a **Recent threat management alerts** report will be available in this section. This report enables your security team to view and take action on high-priority security alerts.
