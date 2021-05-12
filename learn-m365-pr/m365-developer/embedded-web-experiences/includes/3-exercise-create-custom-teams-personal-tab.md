@@ -150,8 +150,8 @@ import { Provider, Flex, Text, Button, Header,
 Next, update the state of the component to contain a list of to do items and a property for a new item. Add the following statements after the existing `useState` statements in the **LearnPersonalTab.tsx** file:
 
 ```typescript
-const [todoItems, setTodoItems] = useState<string[] | undefined>();
-const [newTodoValue, setNewTodoValue] = useState<string | undefined>();
+const [todoItems, setTodoItems] = useState<string[]>(["Submit time sheet","Submit expense report"]);
+const [newTodoValue, setNewTodoValue] = useState<string>("");
 ```
 
 Locate the `return` statement, and update it to the following code. The component now displays the list of items in our state with a brief copyright statement.
@@ -217,13 +217,13 @@ Finally, locate the string `TODO: add new list item form here` in the `render()`
              }}></Label>
       <Flex.Item grow>
         <Input placeholder="New todo item" fluid
-               value={this.state.newTodoValue}
-               onChange={this.handleOnChanged}></Input>
+               value={newTodoValue}
+               onChange={handleOnChanged}></Input>
       </Flex.Item>
     </Flex>
   </Flex.Item>
   <Button content="Add Todo" primary
-          onClick={this.handleOnClick}></Button>
+          onClick={handleOnClick}></Button>
 </Flex>
 ```
 

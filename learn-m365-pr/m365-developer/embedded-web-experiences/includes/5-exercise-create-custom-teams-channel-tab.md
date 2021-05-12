@@ -141,9 +141,9 @@ return (
         ]}
         onChange={(e, data) => {
           if (data) {
-            let op = (data.value) ? data.value.toString() : "add";
+            const op = (data.value) ? data.value.toString() : "add";
             setMathOperator(op);
-            entityId.current = `${op}MathPage`
+            entityId.current = `${op}MathPage`;
           }
         }}
         value={mathOperator}></Dropdown>
@@ -183,7 +183,7 @@ import { Provider, Flex, Text, Button, Header } from "@fluentui/react-northstar"
 Replace the previous statement with the following import statement:
 
 ```typescript
-import { Provider, Flex, Text, Button, Header, Input } from "@fluentui/react-northstar";
+import { Provider, Flex, Text, Button, Header, Input, InputProps } from "@fluentui/react-northstar";
 ```
 
 Add an interface to define the state our component will use. Add the following after the `import` statements:
@@ -287,19 +287,19 @@ return (
           <Flex gap="gap.smaller">
             <Flex.Item>
               <Input autoFocus
-                value={this.state.operandA}
+                value={mathTabState.operandA}
                 onChange={(e, data) => handleOnChangedOperandA(data)}></Input>
             </Flex.Item>
-            <Text content={this.state.mathOperator}></Text>
+            <Text content={mathTabState.mathOperator}></Text>
             <Flex.Item>
-              <Input value={this.state.operandB}
+              <Input value={mathTabState.operandB}
                 onChange={(e, data) => handleOnChangedOperandB(data)}></Input>
             </Flex.Item>
           </Flex>
         </Flex.Item>
         <Button content="Calculate" primary
-                onClick={this.handleOperandChange}></Button>
-        <Text content={this.state.result}></Text>
+          onClick={handleOperandChange}></Button>
+        <Text content={mathTabState.result}></Text>
       </Flex>
       <Text content="(C) Copyright Contoso" size="smallest"></Text>
     </Flex>

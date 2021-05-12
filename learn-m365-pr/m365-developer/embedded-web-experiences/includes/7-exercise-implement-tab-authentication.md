@@ -165,17 +165,10 @@ import * as MicrosoftGraphClient from "@microsoft/microsoft-graph-client";
 import * as MicrosoftGraph from "microsoft-graph";
 ```
 
-Next, update the state of the component to store the OAuth access token used to authenticate with and the email messages returned from Microsoft Graph.
+Next, update the state of the component to store the email messages returned from Microsoft Graph.
 
 ```typescript
-const [accessToken, setAccessToken] = useState<string>("");
 const [messages, setMessages] = useState<MicrosoftGraph.Message[]>([]);
-```
-
-Add the following code to the top of the `LearnAuthTab` component. This action creates a new class-scoped member of the Microsoft Graph client and initializes the state of the component.
-
-```typescript
-var msGraphClient: MicrosoftGraphClient.Client;
 ```
 
 Locate the `return` statement, and update it to the following code. The component displays a button for the user to select to sign in and request their emails from Microsoft Graph. It then displays the email messages in a list.
@@ -184,7 +177,7 @@ Locate the `return` statement, and update it to the following code. The componen
 return (
   <Provider theme={theme}>
     <Flex column gap="gap.small">
-      <Header>Recent messages in current user's mailbox</Header>
+      <Header>Recent messages in current user&apos;s mailbox</Header>
       <Button primary
               content="Get My Messages"
               onClick={handleGetMyMessagesOnClick}></Button>
@@ -206,8 +199,8 @@ return (
 Add the `onclick` event handler for the button to the `LearnAuthTab` class.
 
 ```typescript
-private handleGetMyMessagesOnClick = async (event): Promise<void> => {
-  await this.getMessages();
+const handleGetMyMessagesOnClick = async (event): Promise<void> => {
+  await getMessages();
 }
 ```
 
@@ -215,29 +208,17 @@ private handleGetMyMessagesOnClick = async (event): Promise<void> => {
 
 At this point, the tab is ready to add the logic necessary to request the email messages for the current user. Before you request email messages from Microsoft Graph, you need the user to sign in and obtain an access token from Azure AD. There are multiple steps to do to implement the authentication routine.
 
-Start by adding the following code to the component to initialize the Microsoft Graph client:
-
-```typescript
-useEffect(() => {
-  msGraphClient = MicrosoftGraphClient.Client.init({
-    authProvider: async (done) => {
-      if (!accessToken) {
-        const token = await getAccessToken();
-        setAccessToken(token);
-      }
-      done(null, accessToken);
-    }
-  });
-}, []);
-```
-
-Next, add the following method to the `LearnAuthTab` component:
+Start by adding the following method to the `LearnAuthTab` component:
 
 ```typescript
 const getMessages = async (promptConsent: boolean = false): Promise<void> => {
-  if (promptConsent || accessToken === "") {
-    await signin(promptConsent);
-  }
+  const token = await getAccessToken();
+
+  const msGraphClient: MicrosoftGraphClient.Client = MicrosoftGraphClient.Client.init({
+    authProvider: async (done) => {
+      done(null, token);
+    }
+  });
 
   msGraphClient
     .api("me/messages")
@@ -249,29 +230,17 @@ const getMessages = async (promptConsent: boolean = false): Promise<void> => {
         Promise.resolve();
       } else {
         console.error("graph error", error);
-        // re-sign in but this time force consent
-        await getMessages(true);
       }
     });
 }
 ```
 
-The `getMessages()` method first checks if the component has an access token. If so, it submits the request to Microsoft Graph for the top 15 email messages. Otherwise, if the component doesn't have an access token, it calls the `signin()` method.
+The `getMessages()` method first acquires an access token. It then submits the request to Microsoft Graph for the top 15 email messages.
 
-Add the following code to implement the `signin()` method:
-
-```typescript
-const signin = async (promptConsent: boolean = false): Promise<void> => {
-  const token = await getAccessToken(promptConsent);
-  setAccessToken(token);
-  Promise.resolve();
-}
-```
-
-This method calls the `getAccessToken()` method that uses the Microsoft Teams JavaScript SDK to start the authentication process. It opens a pop-up window that loads the **auth-start.html** page to start the authentication process with Azure AD. Ultimately, the authentication process ends in the pop-up window and results in either a successful or failed authentication process. In either case, the associated callback handlers are registered in the `authenticate()` method in the following code:
+The `getAccessToken()` method uses the Microsoft Teams JavaScript SDK to start the authentication process. It opens a pop-up window that loads the **auth-start.html** page to start the authentication process with Azure AD. Ultimately, the authentication process ends in the pop-up window and results in either a successful or failed authentication process. In either case, the associated callback handlers are registered in the `authenticate()` method in the following code:
 
 ```typescript
-private async getAccessToken(promptConsent: boolean = false): Promise<string> {
+const getAccessToken = async (promptConsent: boolean = false): Promise < string > => {
   return new Promise<string>((resolve, reject) => {
     microsoftTeams.authentication.authenticate({
       url: window.location.origin + "/auth-start.html",
