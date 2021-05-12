@@ -406,7 +406,7 @@ The four activities identified in this diagram include:
 
 Cloud Discovery uses your traffic logs to dynamically discover and analyze the cloud apps that your organization uses. To create a snapshot report of your organization's cloud use, you can manually upload log files from your firewalls or proxies for analysis. To set up continuous reports, use Cloud App Security log collectors to periodically forward your logs.
 
-:::image type="content" source="../media/cloud-discovery-dashboard-68115066.png" alt-text="screenshot showing the Cloud Discovery dashboard within Cloud App Security":::
+:::image type="content" source="../media/cloud-discovery-dashboard-68115066.png" alt-text="screenshot showing the Cloud Discovery dashboard within Cloud App Security" lightbox="image-file-expanded.png":::
 
 
 ### App connectors
