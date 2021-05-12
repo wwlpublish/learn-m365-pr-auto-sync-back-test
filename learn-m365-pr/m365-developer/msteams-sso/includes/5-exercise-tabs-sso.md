@@ -7,7 +7,7 @@ In this exercise, you'll add a custom tab to a Microsoft Teams app and use singl
 
 Developing Microsoft Teams apps requires a Microsoft 365 tenant, Microsoft Teams configured for development, and the necessary tools installed on your workstation.
 
-For the Microsoft 365 tenant, follow the instructions on [Microsoft Teams: Prepare your Microsoft 365 tenant](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-tenant) for obtaining a developer tenant if you don't currently have a Microsoft 365 account. Make sure you have also enabled Microsoft Teams for your organization.
+For the Microsoft 365 tenant, follow the instructions on [Microsoft Teams: Prepare your Microsoft 365 tenant](/microsoftteams/platform/get-started/get-started-tenant) for obtaining a developer tenant if you don't currently have a Microsoft 365 account. Make sure you have also enabled Microsoft Teams for your organization.
 
 Microsoft Teams must be configured to enable custom apps and allow custom apps to be uploaded to your tenant to build custom apps for Microsoft Teams. Follow the instructions on the same **Prepare your Microsoft 365 tenant** page mentioned above.
 
@@ -190,7 +190,7 @@ When the tab loads, it will initiate the SSO process with Azure AD and obtain an
 
 At this point, our tab uses Microsoft Teams' SSO support to obtain an ID token for the current user. This ID token can only be used to identify the user, but it can't be used to authenticate requests with Microsoft Graph.
 
-To submit requests to Microsoft Graph, you must include an access token with the necessary permissions for Microsoft Graph for the current user to. You can update the project to submit the ID token to Azure AD's token endpoint to exchange it for an access token that can be used to authenticate requests to Microsoft Graph. This is done by implementing the [OAuth2 On-Behalf-Of (OBO) flow](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth2-on-behalf-of-flow), but this can't be done client-side, rather it must be done server-side.
+To submit requests to Microsoft Graph, you must include an access token with the necessary permissions for Microsoft Graph for the current user to. You can update the project to submit the ID token to Azure AD's token endpoint to exchange it for an access token that can be used to authenticate requests to Microsoft Graph. This is done by implementing the [OAuth2 On-Behalf-Of (OBO) flow](/azure/active-directory/develop/v2-oauth2-on-behalf-of-flow), but this can't be done client-side, rather it must be done server-side.
 
 ### Update project to obtain access tokens for Microsoft Graph via the OAuth2 OBO flow
 

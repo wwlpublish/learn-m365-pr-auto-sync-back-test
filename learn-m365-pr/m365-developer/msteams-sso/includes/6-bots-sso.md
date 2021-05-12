@@ -86,7 +86,7 @@ There are two parts of this section that must be updated for your application:
 
 ### Code the bot to request and receive an access token
 
-The request to get access token involves submitting an HTTP POST message request using the existing message schema. Its included in the attachments of an *OAuthCard*. The schema for the [OAuthCard](https://docs.microsoft.com/dotnet/api/microsoft.bot.schema.oauthcard) class is defined in Microsoft Bot Schema 4.0 and Its similar to a sign-in card.
+The request to get access token involves submitting an HTTP POST message request using the existing message schema. Its included in the attachments of an *OAuthCard*. The schema for the [OAuthCard](/dotnet/api/microsoft.bot.schema.oauthcard) class is defined in Microsoft Bot Schema 4.0 and Its similar to a sign-in card.
 
 Microsoft Teams treats the request as a silent token acquisition if the `TokenExchangeResource` property is populated on the card. For Microsoft Teams channels, only the `ID` property, which uniquely identifies a token request, is honored.
 
@@ -103,7 +103,7 @@ When the user selects **Continue**, the following events occur:
 
 When building a bot that that requires an authenticated user, consider using dialogs. Dialogs provide a state-based model to manage a long-running conversation with the user. The nature of the sequential conversation that depends on authentication makes dialogs well suited for this scenario.
 
-Dialogs simplify the sequential steps of signing in, interacting with the user and secured resources requiring user and bot authorization, and ultimately signing out. Learn more from the [Bot Framework documentation: Dialogs](https://docs.microsoft.com/composer/concept-dialog) and [Bot Framework SDK: Dialogs library](https://docs.microsoft.com/azure/bot-service/bot-builder-concept-dialog).
+Dialogs simplify the sequential steps of signing in, interacting with the user and secured resources requiring user and bot authorization, and ultimately signing out. Learn more from the [Bot Framework documentation: Dialogs](/composer/concept-dialog) and [Bot Framework SDK: Dialogs library](/azure/bot-service/bot-builder-concept-dialog).
 
 The following example demonstrates using a waterfall dialog
 
