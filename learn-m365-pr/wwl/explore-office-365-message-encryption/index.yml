@@ -9,13 +9,13 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Explore Office 365 Message Encryption
-summary: This module examines how Office 365 Message Encryption (OME) encrypts email messages, thereby allowing email users to send confidential business communications with an added level of protection against unauthorized access.
+summary: This module examines how Office 365 Message Encryption (OME) encrypts email messages, which allows users to send confidential business communications with an added level of protection against unauthorized access.
 abstract: |
   By the end of this module, you will be able to:
   - Describe when you can use Office 365 Message Encryption
   - Explain how Office 365 Message Encryption works
   - Compare Office 365 Message Encryption and S/MIME
-  - Explain how Office 365 Advanced Message Encryption offers additional capabilities on top of the standard Office 365 Message Encryption capabilities.
+  - Explain how Office 365 Advanced Message Encryption offers more features on top of the standard Office 365 Message Encryption capabilities.
   - Identify other encryption capabilities that can be configured to meet certain compliance or legal requirements.
 prerequisites: |
   None
