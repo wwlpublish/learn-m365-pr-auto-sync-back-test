@@ -12,7 +12,7 @@ The other task module is implemented using React, the same way custom tabs are i
 
 Developing Microsoft Teams apps requires an Office 365 tenant, Microsoft Teams configured for development, and the necessary tools installed on your workstation.
 
-For the Office 365 tenant, follow the instructions on [Microsoft Teams: Prepare your Office 365 tenant](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-tenant) for obtaining a developer tenant if you don't currently have an Office 365 account. Make sure you've also enabled Microsoft Teams for your organization.
+For the Office 365 tenant, follow the instructions on [Microsoft Teams: Prepare your Office 365 tenant](/microsoftteams/platform/get-started/get-started-tenant) for obtaining a developer tenant if you don't currently have an Office 365 account. Make sure you've also enabled Microsoft Teams for your organization.
 
 Microsoft Teams must be configured to enable custom apps and allow custom apps to be uploaded to your tenant to build custom apps for Microsoft Teams. Follow the instructions on the same **Prepare your Office 365 tenant** page mentioned above.
 
@@ -383,7 +383,7 @@ import { PreventIframe } from "express-msteams-host";
 export class VideoSelectorTaskModule { }
 ```
 
-Now register the page by adding the following line to the end of the **./src/client/client.ts** file:
+Now register the page by adding the following line to the end of the **./src/server/TeamsAppComponents.ts** file:
 
 ```typescript
 export * from "./youTubePlayer1Tab/VideoSelectorTaskModule";
@@ -428,13 +428,13 @@ export const VideoSelectorTaskModule = () => {
 
   return (
   );
-}
+};
 ```
 
 Implement the user interface of the task module by adding the following code to the `render()` method:
 
 ```tsx
-<Provider theme={this.state.teamsTheme}>
+<Provider theme={theme}>
   <Flex column gap="gap.smaller">
     <Text size="medium">
       Enter the ID of a YouTube video to show in the task module player.
@@ -454,7 +454,7 @@ const handleOnChanged = (event): void => {
 
 const handleOnClick = (): void => {
   microsoftTeams.tasks.submitTask(youTubeVideoId, undefined);
-}
+};
 ```
 
 The `handleOnChanged()` method updates the state with the value specified in the input control, while the `handleOnClick()` method uses the Microsoft Teams SDK to pass the ID of the video back to the personal tab.
@@ -476,6 +476,7 @@ const taskModuleInfo = {
 };
 
 const submitHandler = (err: string, result: string): void => {
+  console.log(`Submit handler - err: ${err}`);
   setYouTubeVideoId(result);
 };
 
