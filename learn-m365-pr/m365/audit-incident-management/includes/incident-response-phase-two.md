@@ -23,3 +23,7 @@ At the beginning of the investigation, the Microsoft 365 Security Response team 
 - Recommended next steps and actions
 
 When a potential security incident is escalated, the corresponding investigation team includes only personnel who are critical to the investigation. Non-Microsoft full-time employees, such as subprocessors or staff augmentation, are disengaged. These personnel are only re-engaged if necessary and in a capacity with limited scope.
+
+## Learn more
+
+- [Microsoft 365 security incident management: Detection and analysis](https://docs.microsoft.com/compliance/assurance/assurance-sim-detection-analysis?azure-portal=true)
