@@ -47,7 +47,7 @@ Microsoft's Defender for Identity research team constantly works on implementing
 
 These detections are tagged with a preview badge to help you identify the new detections and know that they're new to the product. If you turn off preview detections, they won't be displayed in the Defender for Identity console - not in the timeline or in entity profiles - and new alerts won't be opened.
 
-:::image type="content" source="../media/defender-for-identity-preview-detection-0c06372e.png" alt-text="screenshot showing preview badges in the Defender for Identity portal":::
+:::image type="content" source="../media/defender-for-identity-preview-detection-0c06372e.png" alt-text="screenshot showing preview badges in the Defender for Identity portal" lightbox="../media/defender-for-identity-preview-detection-0c06372e.png":::
 
 
 Preview detections are enabled by default in Defender for Identity.
@@ -58,7 +58,7 @@ A search bar is located in the top menu. It can be used to search for a specific
 
 By selecting the number of search results found, the administrator can filter results by entity type for further investigation.
 
-:::image type="content" source="../media/defender-for-identity-search-bar-2a811ba5.png" alt-text="screenshot of the seach results pane in the Defender for Identity portal":::
+:::image type="content" source="../media/defender-for-identity-search-bar-2a811ba5.png" alt-text="screenshot of the seach results pane in the Defender for Identity portal" lightbox="../media/defender-for-identity-search-bar-2a811ba5.png":::
 
 
 ### Monitoring the Health center
