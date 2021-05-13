@@ -68,9 +68,9 @@ quiz:
       - content: "Business Continuity Council"
         isCorrect: true
         explanation: "Correct. The Business Continuity Council of Microsoft senior management representatives is chartered to drive business continuity sponsorship, awareness, resource allocation, and program accountability across their respective business units."
-      - content: "EBCM Program Management Office"
+      - content: "EBCM Program Office"
         isCorrect: false
-        explanation: "The EBCM Program Management Office provides governance, oversight, and support for business continuity management across Microsoft."
+        explanation: "The EBCM Program Office provides governance, oversight, and support for business continuity management across Microsoft."
       - content: "Service teams"
         isCorrect: false
         explanation: "Service teams implement business continuity management using the BCM lifecycle."

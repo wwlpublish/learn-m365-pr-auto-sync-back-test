@@ -14,7 +14,7 @@ In this module, we will focus on how Microsoft 365 investigates, manages, and re
 
 Microsoft defines a security incident in its online services as a confirmed breach of security leading to the accidental or unlawful destruction, loss, alteration, unauthorized disclosure of, or access to customer data or personal data while being processed by Microsoft. For example, unauthorized access to Microsoft 365 infrastructure systems and exfiltration of customer data constitutes a security incident, while compliance events that do not affect confidentiality, integrity, or availability of services or customer data are not considered security incidents.
 
-Whenever there is a security incident, Microsoft 365 strives to respond quickly and effectively to protect Microsoft 365 services and customer data. Microsoft’s customer notification commitments are detailed in the Microsoft online services Data Protection Addendum:
+Whenever there is a security incident, Microsoft 365 strives to respond quickly and effectively to protect Microsoft 365 services and customer data. Microsoft’s customer notification commitments are detailed in the [Microsoft Online Services Data Protection Addendum](https://www.microsoft.com/licensing/product-licensing/products):
 
 *If Microsoft becomes aware of a breach of security leading to the accidental or unlawful destruction, loss, alteration, unauthorized disclosure of, or access to Customer Data or Personal Data while processed by Microsoft (each a “Security Incident”), Microsoft will promptly and without undue delay (1) notify Customer of the Security Incident; (2) investigate the Security Incident and provide Customer with detailed information about the Security Incident; (3) take reasonable steps to mitigate the effects and to minimize any damage resulting from the Security Incident.*
 
@@ -38,7 +38,7 @@ Within Microsoft 365, responsibilities for security incident response are shared
 
 Our incident response strategy, which is based on the NIST 800-61 response management phases, proceeds through four phases of interconnected activity: preparation; detection and analysis; containment, eradication, and recovery; and post-incident activity.
 
-   ![A visual diagram of NIST phases](../media/visual-representation-phases.png)
+   ![A visual diagram of NIST phases](../media/assurance-sim-phases.png)
 
 Each phase of the response management process is important for effective incident response.
 
@@ -46,4 +46,5 @@ Each phase of the response management process is important for effective inciden
 
 - [Shared Responsibilities for Cloud Computing](https://docs.microsoft.com/azure/security/fundamentals/shared-responsibility?azure-portal=true)
 - [National Institute of Standards and Technology (NIST) Special Publication (SP) 800-61](https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final?azure-portal=true)
-- [Microsoft Secure Score](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score-new?view=o365-worldwide&azure-portal=true)
+- [Microsoft Secure Score](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score-new?azure-portal=true)
+- [Microsoft 365 security incident management](https://docs.microsoft.com/compliance/assurance/assurance-security-incident-management?azure-portal=true)

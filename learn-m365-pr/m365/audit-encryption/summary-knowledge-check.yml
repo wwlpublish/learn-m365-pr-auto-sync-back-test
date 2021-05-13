@@ -23,7 +23,7 @@ quiz:
       - content: "It helps mitigate the impact of data theft."
         isCorrect: true
         explanation: "Correct. When data is encrypted with strong encryption, it cannot reasonably be deciphered without the correct encryption key."
-      - content: "It renders data unreadable."
+      - content: "It renders data permanently unreadable."
         isCorrect: false
         explanation: "Encryption is a two-way process. Anyone with the correct encryption key can decipher encrypted data, making key management an important part of implementing strong encryption."
       - content: "It meets all access control requirements."
