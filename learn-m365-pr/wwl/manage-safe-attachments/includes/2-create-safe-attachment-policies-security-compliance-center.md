@@ -71,6 +71,7 @@ Creating a custom Safe Attachments policy in the Security &amp; Compliance Cente
     
     When you're done, select **Finish**.
 
+
 ## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”
