@@ -52,7 +52,7 @@ You can also work with your PSTN provider to get additional insight into issues 
 
 ## Common SBC configuration issues
 
-Some SBC configuration issues are common and have known solutions for dealing with them. For example, the **failed to verify peer certificate** issue is common. SBCs rely on TLS to make sure that the device or person on the other end is indeed who they claim to be. To communicate successfully with the Microsoft Phone System, you'll need to make sure you import the Baltimore Root Certificate into your SBC. All vendor documentation for configuring your SBC will have a step that covers this area. If you forget to import this certificate, the SBC won't trust the service. That's why you'll have received an error.
+Some SBC configuration issues are common and have known solutions for dealing with them. For example, the **failed to verify peer certificate** issue is common. SBCs rely on TLS to make sure that the device or person on the other end is indeed who they claim to be. To communicate successfully with the Microsoft Teams Phone, you'll need to make sure you import the Baltimore Root Certificate into your SBC. All vendor documentation for configuring your SBC will have a step that covers this area. If you forget to import this certificate, the SBC won't trust the service. That's why you'll have received an error.
 
 Here are some other configuration issues, along with common solutions to resolve them:
 

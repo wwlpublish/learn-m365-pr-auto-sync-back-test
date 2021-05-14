@@ -15,7 +15,7 @@ quiz:
   title: Check your knowledge
   questions:
   #Question 1
-  - content: What are the two methods available with Microsoft Phone System for implementing PSTN connectivity with Microsoft Teams?
+  - content: What are the two methods available with Microsoft Teams Phone for implementing PSTN connectivity with Microsoft Teams?
     choices:
     - content: Direct Routing and a Session Border Controller to a PBX 
       isCorrect: false
