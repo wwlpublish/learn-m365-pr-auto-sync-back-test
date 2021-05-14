@@ -170,7 +170,7 @@ To learn more, see [Get started using Automated investigation and response (AIR)
 
 The bottom of the Security Dashboard includes a Trends section, which summarizes email flow trends for your organization. Reports provide information about email categorized as spam, malware, phishing attempts, and good email. Select a tile to view more detailed information in the report.
 
-:::image type="content" source="../media/email-flow-trends-7d170ba1.png" alt-text="screenshot of the Trends tile that shows email flow trends for the organization":::
+:::image type="content" source="../media/trends-tile-730155c3.png" alt-text="screenshot of the Trends tile that shows email flow trends for the organization":::
 
 
 If your organization's subscription includes Defender for Office 365 Plan 2, a **Recent threat management alerts** report will be available in this section. This report enables your security team to view and take action on high-priority security alerts.

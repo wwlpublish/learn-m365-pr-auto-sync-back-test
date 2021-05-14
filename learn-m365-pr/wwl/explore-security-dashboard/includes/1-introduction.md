@@ -14,7 +14,7 @@ In this module, you'll examine the Security Dashboard, which is broken down into
  -  Threat intelligence
  -  Alerts and trends
 
-After completing this module, you'll be able to: 
+After completing this module, you'll be able to:
 
  -  Describe how the Security Dashboard gives C-level executives insight into top risks, global trends, protection quality, and the organization’s exposure to threats.
  -  Explain how to use the Security Dashboard to quickly understand details about trends, where threats originate, and who the top targeted users are in your organization.
