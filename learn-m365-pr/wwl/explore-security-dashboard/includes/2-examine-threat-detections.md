@@ -4,16 +4,16 @@ To launch the Security Dashboard, go to the Microsoft 365 Security and Complianc
 
 The Security Dashboard includes tiles you can select to provide summarized and detailed information on your organization's threat protection status. These tiles provide a quick view into the top malware families targeting your tenant and how Microsoft 365 is protecting your tenant.
 
-Depending on what your organization's subscription includes, the Security Dashboard includes tiles such as Threat Management Summary, Threat Protection Status, Global Weekly Threat Detections, Malware, and more, as described in the following sections.
+Depending on what your organization's subscription includes, the Security Dashboard includes tiles such as Threat management summary, Threat protection status, Global weekly threat detections, Malware, and more, as described in the following sections.
 
-### Threat Management Summary
+### Threat management summary
 
-The Threat Management Summary tile tells you at a glance how your organization was protected from threats over the past seven days.
+The Threat management summary tile tells you at a glance how your organization was protected from threats over the past seven days.
 
-:::image type="content" source="../media/threat-management-summary-tile-2798383f.png" alt-text="screenshot of the Threat Management Summary tile":::
+:::image type="content" source="../media/threat-management-summary-tile-2798383f.png" alt-text="screenshot of the Threat management summary tile":::
 
 
-The information you'll see in the Threat Management Summary depends on what your subscription includes. The following table describes what information is included for Office 365 E3 and Office 365 E5 licenses.
+The information you'll see in the Threat management summary depends on what your subscription includes. The following table describes what information is included for Office 365 E3 and Office 365 E5 licenses.
 
 :::row:::
   :::column:::
@@ -44,13 +44,13 @@ Malicious URLs blocked
 :::row-end:::
 
 
-To view or access the Threat Management Summary widget, you must have permissions to view Defender for Office 365 reports.
+To view or access the Threat management summary tile, you must have permissions to view Defender for Office 365 reports.
 
-### Threat Protection Status
+### Threat protection status
 
-The Threat Protection Status tile shows threat protection effectiveness with a trending and detailed view of phish and malware.
+The Threat protection status tile shows threat protection effectiveness with a trending and detailed view of phish and malware.
 
-:::image type="content" source="../media/threat-protection-status-36ef37ab.png" alt-text="screenshot of the Threat Protection Status tile":::
+:::image type="content" source="../media/threat-protection-status-36ef37ab.png" alt-text="screenshot of the Threat protection status tile":::
 
 
 The details that are displayed depend on whether your Microsoft 365 subscription includes Exchange Online Protection (EOP) with or without Microsoft Defender for Office 365.
@@ -93,11 +93,11 @@ See [Threat protection status report](https://docs.microsoft.com/microsoft-365/s
 
 To view or access the Threat Protection Status tile, you must have permissions to view Defender for Office 365 reports.
 
-### Global Weekly Threat Detections
+### Global weekly threat detections
 
-The Global Weekly Threat Detections tile shows how many threats were detected in email messages over the past seven days.
+The Global weekly threat detections tile shows how many threats were detected in email messages over the past seven days.
 
-:::image type="content" source="../media/global-weekly-threat-detections-1701053f.png" alt-text="screenshot of the Global Weekly Threat Detections tile":::
+:::image type="content" source="../media/global-weekly-threat-detections-1701053f.png" alt-text="screenshot of the Global weekly threat detections tile":::
 
 
 The metrics are calculated as described in the following table:
