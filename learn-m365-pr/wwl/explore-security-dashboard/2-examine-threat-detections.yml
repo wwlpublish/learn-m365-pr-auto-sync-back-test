@@ -18,12 +18,12 @@ quiz:
   questions:
   - content: "As the Enterprise Administrator for Contoso, Holly Dickson wants to see at a glance how Contoso was protected from threats over the past seven days. Which tile should Holly select on the Security Dashboard to see this information?"
     choices:
-    - content: "Threat protection status"
+    - content: "Threat Protection Status"
       isCorrect: false
-      explanation: "That's incorrect. The Threat protection status tile shows threat protection effectiveness with a trending and detailed view of phish and malware. Try again."
-    - content: "Global weekly threat detections"
+      explanation: "That's incorrect. The Threat Protection Status tile shows threat protection effectiveness with a trending and detailed view of phish and malware. Try again."
+    - content: "Global Weekly Threat Detections"
       isCorrect: false
-      explanation: "That's incorrect. The Global weekly threat detections tile shows how many threats were detected in email messages over the past seven days. Try again."
-    - content: "Threat management summary"
+      explanation: "That's incorrect. The Global Weekly Threat Detections tile shows how many threats were detected in email messages over the past seven days. Try again."
+    - content: "Threat Management Summary"
       isCorrect: true
-      explanation: "That's correct. The Threat management summary tile tells you at a glance how your organization was protected from threats over the past seven days."
+      explanation: "That's correct. The Threat Management Summary tile tells you at a glance how your organization was protected from threats over the past seven days."
