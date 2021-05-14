@@ -13,7 +13,7 @@ The Threat Management Summary tile tells you at a glance how your organization w
 :::image type="content" source="../media/threat-management-summary-tile-2798383f.png" alt-text="screenshot of the Threat Management Summary tile":::
 
 
-The information you'll see in the Threat Management Summary depends on what your subscription includes. The following table describes what information is included for Office 365 E3 and Office 365 E5 licenses.
+The information you'll see in the Threat Management Summary depends on what your subscription includes. The following table describes the messages that are displayed for Office 365 E3 and Office 365 E5 licenses.
 
 :::row:::
   :::column:::
@@ -25,21 +25,29 @@ The information you'll see in the Threat Management Summary depends on what your
 :::row-end:::
 :::row:::
   :::column:::
-    Malware messages blocked
-Phishing messages blocked
-Messages reported by users
+    
 
-
+ -  Malware messages blocked
+ -  Phishing messages blocked
+ -  Messages reported by users
+    
+    
+    
+    
 
 
   :::column-end:::
   :::column:::
-    Malware messages blocked
-Phishing messages blocked
-Messages reported by users
-Zero-day malware blocked
-Advanced phishing messages detected
-Malicious URLs blocked
+    
+
+ -  Malware messages blocked
+ -  Phishing messages blocked
+ -  Messages reported by users
+ -  Zero-day malware blocked
+ -  Advanced phishing messages detected
+ -  Malicious URLs blocked
+
+
   :::column-end:::
 :::row-end:::
 
