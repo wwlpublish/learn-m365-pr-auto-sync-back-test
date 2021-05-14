@@ -20,7 +20,7 @@ quiz:
     choices:
     - content: "Threat protection status"
       isCorrect: false
-      explanation: "That's incorrect. The Threat protection ptatus tile shows threat protection effectiveness with a trending and detailed view of phish and malware. Try again."
+      explanation: "That's incorrect. The Threat protection status tile shows threat protection effectiveness with a trending and detailed view of phish and malware. Try again."
     - content: "Global weekly threat detections"
       isCorrect: false
       explanation: "That's incorrect. The Global weekly threat detections tile shows how many threats were detected in email messages over the past seven days. Try again."
