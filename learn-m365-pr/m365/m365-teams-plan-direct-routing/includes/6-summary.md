@@ -6,11 +6,11 @@ You learned about the advantages and disadvantages of self-hosted SBC compared t
 
 You learned that while Microsoft certifies the SBC devices, they don't certify partner organizations. Finally, you looked at the importance of understanding all the costs relating to each scenario during the planning stage.
 
-Then you considered licensing and endpoints, including the additional licenses required. At a minimum, each user requires the Microsoft Teams Phone license.
+Then you considered licensing and endpoints, including the other licenses required. At a minimum, each user requires the Microsoft Teams Phone license.
 You learned about Session Border Controllers (SBCs) and the role they play in configuring direct routing. You saw how SBCs' built-in intelligence translates legacy system instructions to the Microsoft Teams Phone. You also learned about fully qualified domain names, certificates, and the trade-off between cost and security when purchasing certificates.
 
 You then looked at the IP address ranges required to configure Direct Routing and the main voice routing components.
-Finally, you saw how to optimize media flow using media bypass and local media optimization. You learned that these are options for users in the same location or on the same network as the SBC. You also found out about the additional port and IP address requirements.
+Finally, you saw how to optimize media flow using media bypass and local media optimization. You learned that these are options for users in the same location or on the same network as the SBC. You also found out about the other port and IP address requirements.
 
 The following diagram provides a high-level summary of Direct Routing.
 
