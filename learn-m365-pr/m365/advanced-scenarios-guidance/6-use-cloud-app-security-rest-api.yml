@@ -3,9 +3,9 @@ uid: learn-m365.advanced-scenarios-guidance.6-use-mcas-rest-api
 metadata:
   title: Use the Microsoft Cloud App Security REST API to interact with security information
   description: Advanced scenarios and guidance with Microsoft Cloud App Security
-  ms.date: 02/04/2021
+  ms.date: 05/14/2021
   author: alistairmatthews
-  ms.author: v-alimat
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Use the Microsoft Cloud App Security REST API to interact with security information
