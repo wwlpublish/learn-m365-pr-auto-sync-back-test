@@ -4,7 +4,7 @@ The Microsoft Defender for identity portal is used for administrators to monitor
 
 The Attack timeline is the default landing page you're taken to when you sign in to the Defender for Identity portal. By default, all open suspicious activities are shown on the attack timeline in chronological order, with the newest alert on the top of the timeline. You can filter the attack timeline to show all, Open, Dismissed or Suppressed suspicious activities. You can also see the severity assigned to each activity.
 
-:::image type="content" source="../media/defender-for-identity-attack-timeline-1b1a84f9.png" alt-text="screenshot of the timeline page in the Defender for Identity portal":::
+:::image type="content" source="../media/defender-for-identity-timeline-992f99b7.png" alt-text="screenshot of the timeline page in the Defender for Identity portal":::
 
 
 Each security alert has the following information:
@@ -47,7 +47,7 @@ Microsoft's Defender for Identity research team constantly works on implementing
 
 These detections are tagged with a preview badge to help you identify the new detections and know that they're new to the product. If you turn off preview detections, they won't be displayed in the Defender for Identity console - not in the timeline or in entity profiles - and new alerts won't be opened.
 
-:::image type="content" source="../media/defender-for-identity-preview-detection-0c06372e.png" alt-text="screenshot showing preview badges in the Defender for Identity portal" lightbox="../media/defender-for-identity-preview-detection-0c06372e.png":::
+:::image type="content" source="../media/defender-for-identity-preview-detection-0c06372e.png" alt-text="screenshot showing preview badges in the Defender for Identity portal":::
 
 
 Preview detections are enabled by default in Defender for Identity.
@@ -58,11 +58,11 @@ A search bar is located in the top menu. It can be used to search for a specific
 
 By selecting the number of search results found, the administrator can filter results by entity type for further investigation.
 
-:::image type="content" source="../media/defender-for-identity-search-bar-2a811ba5.png" alt-text="screenshot of the seach results pane in the Defender for Identity portal" lightbox="../media/defender-for-identity-search-bar-2a811ba5.png":::
+:::image type="content" source="../media/defender-for-identity-search-1eeccc31.png" alt-text="screenshot of the seach results pane in the Defender for Identity portal":::
 
 
 ### Monitoring the Health center
 
 The Health center provides alerts when something isn't working properly in the Defender for Identity instance. Whenever the system finds a problem, such as a connectivity error or a disconnected Defender for Identity standalone sensor, the Health Center icon lets the administrator know by displaying a red dot in the Health Center (heart) icon.
 
-:::image type="content" source="../media/defender-for-identity-health-center-icon-2c4e24d9.png" alt-text="screenshot of the health center icon on the Defender for Identity portal showing a red dot in the heart icon":::
+:::image type="content" source="../media/defender-for-identity-health-center-bar-aafec89c.png" alt-text="screenshot of the health center icon on the Defender for Identity portal showing a red dot in the heart icon":::
