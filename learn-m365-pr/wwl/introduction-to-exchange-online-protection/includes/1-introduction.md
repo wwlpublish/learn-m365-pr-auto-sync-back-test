@@ -9,4 +9,4 @@ After completing this module, you'll be able to:
  -  Describe how Exchange Online Protection (EOP) analyzes email to provide anti-malware pipeline protection.
  -  List several mechanisms used by EOP to filter spam and malware.
  -  Describe other solutions administrators may implement to provide extra protection against phishing and spoofing.
- -  Describe the benefits of the Spoof Intelligence feature in the Security and Compliance Center.
+ -  Describe the benefits of the Spoof Intelligence feature in the Security and Compliance Center. 

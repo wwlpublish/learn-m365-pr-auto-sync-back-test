@@ -1,0 +1,38 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.edu-manage-admin.knowledge-check
+metadata:
+  title: Knowledge check
+  description: Check your knowledge
+  ms.date: 10/15/2020
+  author: iankensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Knowledge check
+durationInMinutes: 3
+content: |
+quiz:
+  title: Check your knowledge
+  questions:
+  - content: "In built-in roles, who manages compliance policy?"
+    choices:
+    - content: Help Desk Operator
+      isCorrect: false
+      explanation: "Help Desk Operators can assign policies and applications to users and devices."
+    - content: Policy and Profile Manager
+      isCorrect: true
+      explanation: "Policy and Profile Managers can manage policies and profiles, including compliance policy."
+    - content: School Administrator
+      isCorrect: false
+      explanation: "School Administrators can manage Intune for Education Windows 10 devices."
+  - content: "What does a scope tag determine for an object?"
+    choices:
+    - content: Who can manage the object
+      isCorrect: false
+      explanation: "Scope tags do not define who can manage an object."
+    - content: What can the object manage
+      isCorrect: false
+      explanation: "Scope tags do not define what an object can manage."
+    - content: Whether admins can see the object
+      isCorrect: true
+      explanation: "Scope tags define which objects admins can see."
