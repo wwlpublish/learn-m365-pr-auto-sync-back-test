@@ -21,3 +21,5 @@ After completing this module, you'll be able to:
  -  Identify how the dashboard can be used as a launching point to enable security analysts to drill down for more details by using Threat Explorer.
  -  Describe the built-in alert policies in Microsoft 365.
  -  Describe the global weekly threat detections displayed in the Security Dashboard.
+
+ 
