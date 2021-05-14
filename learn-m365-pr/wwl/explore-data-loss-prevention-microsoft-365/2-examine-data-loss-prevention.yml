@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
-uid: learn.wwl.explore-data-loss-prevention-microsoft-365.explore-data-loss-prevention-microsoft-365
-title: Explore Data Loss Prevention in Microsoft 365
+uid: learn.wwl.explore-data-loss-prevention-microsoft-365.examine-data-loss-prevention
+title: Examine Data Loss Prevention
 metadata:
-  title: Explore Data Loss Prevention in Microsoft 365
-  description: "Explore Data Loss Prevention in Microsoft 365"
-  ms.date: 05/13/2021
+  title: Examine Data Loss Prevention
+  description: "Examine Data Loss Prevention"
+  ms.date: 05/14/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -12,7 +12,7 @@ metadata:
 azureSandbox: false
 durationInMinutes: 8
 content: |
-  [!include[](includes/2-explore-data-loss-prevention-microsoft-365.md)]
+  [!include[](includes/2-examine-data-loss-prevention.md)]
 quiz:
   title: "Check your knowledge"
   questions:
