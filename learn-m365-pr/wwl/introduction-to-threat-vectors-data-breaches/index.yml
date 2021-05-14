@@ -1,0 +1,50 @@
+### YamlMime:Module
+uid: learn.wwl.introduction-to-threat-vectors-data-breaches
+metadata:
+  title: Examine threat vectors and data breaches
+  description: "Examine threat vectors and data breaches"
+  ms.date: 04/29/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Examine threat vectors and data breaches
+summary: This module examines the types of threat vectors and their potential outcomes that organizations must deal with on a daily basis and how users can enable hackers to access targets by unwittingly executing malicious content.
+abstract: |
+  By the end of this module, you will be able to:
+  - Describe techniques hackers use to compromise user accounts through email
+  - Describe techniques hackers use to gain control over resources
+  - Describe techniques hackers use to compromise data
+  - Mitigate an account breach
+  - Prevent an elevation of privilege attack
+  - Prevent data exfiltration, data deletion, and data spillage
+prerequisites: |
+  None
+iconUrl: /learn/achievements/azure-ad-threat-vectors.svg
+levels:
+- intermediate
+roles:
+- administrator
+- security-engineer
+- solution-architect
+- technology-manager
+products:
+- azure-active-directory
+- m365
+- office-365
+units:
+- learn.wwl.introduction-to-threat-vectors-data-breaches.introduction
+- learn.wwl.introduction-to-threat-vectors-data-breaches.explore-todays-work-threat-landscape
+- learn.wwl.introduction-to-threat-vectors-data-breaches.examine-how-phishing-retrieves-sensitive-information
+- learn.wwl.introduction-to-threat-vectors-data-breaches.examine-how-spoofing-deceives-users-compromises-data-security
+- learn.wwl.introduction-to-threat-vectors-data-breaches.compare-spam-malware
+- learn.wwl.introduction-to-threat-vectors-data-breaches.examine-how-account-breach-compromises-user-account
+- learn.wwl.introduction-to-threat-vectors-data-breaches.examine-elevation-of-privilege-attacks
+- learn.wwl.introduction-to-threat-vectors-data-breaches.examine-how-data-exfiltration-moves-data-out-of-your-tenant
+- learn.wwl.introduction-to-threat-vectors-data-breaches.examine-how-attackers-delete-data-from-your-tenant
+- learn.wwl.introduction-to-threat-vectors-data-breaches.examine-how-data-spillage-exposes-data-outside-your-tenant
+- learn.wwl.introduction-to-threat-vectors-data-breaches.examine-other-types-of-attacks
+- learn.wwl.introduction-to-threat-vectors-data-breaches.knowledge-check
+- learn.wwl.introduction-to-threat-vectors-data-breaches.summary
+badge:
+  uid: learn.wwl.introduction-to-threat-vectors-data-breaches.badge

@@ -1,0 +1,33 @@
+### YamlMime:LearningPath
+uid: learn-m365.m365-msgraph-toolkit
+metadata:
+  title: Develop apps with the Microsoft Graph Toolkit
+  description: New to Microsoft Graph Toolkit? Develop Apps with Microsoft Graph Toolkit helps you learn basic concepts of Microsoft Graph Toolkit. It will guide you with hands-on exercises on how to use the Microsoft Graph Toolkit, a set of web components and authentication providers to connect your web app to Microsoft Graph and load data from Microsoft 365.
+  ms.date: 03/17/2021
+  author: aycabas
+  ms.author: aycabas
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Develop apps with the Microsoft Graph Toolkit
+summary: "**Develop apps with the Microsoft Graph Toolkit** helps you learn basic concepts of Microsoft Graph Toolkit. It will guide you with hands-on exercises on how to use the Microsoft Graph Toolkit, a set of web components and authentication providers to connect your web app to Microsoft Graph and load data from Microsoft 365."
+prerequisites: | 
+  - Basic knowledge of authentication
+  - Basic knowledge of HTML
+  - Access to a [Microsoft 365 tenant](https://developer.microsoft.com/microsoft-365/dev-program?ocid=MSlearn)
+  - [Visual Studio Code](https://code.visualstudio.com/)
+  - [Visual Studio Code Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+iconUrl: /learn/achievements/generic-badge.svg
+levels: 
+- beginner
+roles:
+- developer
+products: 
+- m365
+- ms-graph
+modules:
+- learn-m365.mgt-intro
+- learn-m365.msgraph-toolkit-customize-part-one
+- learn-m365.msgraph-toolkit-customize-part-two
+- learn-m365.msgraph-toolkit-improve-performance
+trophy: 
+  uid: learn-m365.msgraph-toolkit.badge
