@@ -122,7 +122,7 @@ New-CsOnlinePSTNGateway –Identity IDsbc.contoso.com –SipSignalingPort 5061 �
 |SipSignalingPort|Port to use for communicating with Direct Routing services using Transport Layer Security (TLS) protocol.|
 |ProxySBC|The fully qualified domain name of the proxy SBC, if you're configuring a downstream SBC.|
 |GatewaySiteID|The site ID for this gateway.|
-|MediaBypass|Whether to use MediaBypass for this SBC. MediaBypass improves performance and ensures media stays between the SBC and client, and doesn't go to the Microsoft Phone System. |
+|MediaBypass|Whether to use MediaBypass for this SBC. MediaBypass improves performance and ensures media stays between the SBC and client, and doesn't go to the Microsoft Teams Phone. |
 |BypassMode|Set to "OnlyForLocalUsers", to ensure media will flow through the SBC where the user is located. |
 | | |
 
