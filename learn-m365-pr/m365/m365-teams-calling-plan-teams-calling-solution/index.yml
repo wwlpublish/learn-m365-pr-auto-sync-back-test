@@ -17,7 +17,7 @@ abstract: |
   - Review the planning process from a fictional Contoso case study.
 prerequisites: |
  - An understanding of Microsoft Teams Client
- - An understanding of Microsoft Phone System
+ - An understanding of Microsoft Teams Phone
  - An awareness of Microsoft Direct Routing
 iconUrl: https://docs.microsoft.com/media/learn/module.svg
 levels: 

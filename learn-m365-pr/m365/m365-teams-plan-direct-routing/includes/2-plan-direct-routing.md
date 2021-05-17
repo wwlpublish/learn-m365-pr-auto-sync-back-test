@@ -37,7 +37,7 @@ Direct Routing supports the following **endpoints**:
 
 ## SBC
 
-A SBC is the interface between Microsoft Phone System and Teams, and third-party systems, such as a public switched telephone network (PSTN) or legacy private branch exchange (PBX). The SBC is a powerful network device with built-in intelligence that translates signals from legacy systems to Microsoft Phone System. An SBC has three main functions:
+A SBC is the interface between Microsoft Teams Phone and Teams, and third-party systems, such as a public switched telephone network (PSTN) or legacy private branch exchange (PBX). The SBC is a powerful network device with built-in intelligence that translates signals from legacy systems to Microsoft Teams Phone. An SBC has three main functions:
 
 - **Connectivity** - allows Teams to interconnect with other voice components.
 - **Security** - acts as a firewall for Session Initiation Protocol (SIP)) traffic.

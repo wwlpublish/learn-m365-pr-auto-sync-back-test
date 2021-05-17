@@ -47,7 +47,7 @@ For a full list of all the capabilities and features of the Phone System see: [h
 
 For an organization to use Direct Routing they'll need to be using Microsoft 365 and have the following licenses assigned to their subscription:
 
-- Microsoft Phone System
+- Microsoft Teams Phone
 - Microsoft Teams
 - Skype for Business Plan 2 (if already included in any licensing agreement)
 - Microsoft Audio Conferencing (if you need to add external callers by dialing out or allowing them to dial in)
