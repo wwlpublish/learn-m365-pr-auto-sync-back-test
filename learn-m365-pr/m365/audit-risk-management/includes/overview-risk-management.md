@@ -7,4 +7,4 @@ Microsoft 365 Trust is responsible for supporting assurance operations related t
 Microsoft 365 risk management activities fall into four phases: identification, assessment, response, and monitoring and reporting. Risk management in Microsoft 365 is an ongoing, iterative process that incorporates feedback from risk owners, critical services, and key business areas, as well as analysis of audit findings and control implementations. Regular risk review meetings with risk owners enable Microsoft 365 Trust to update and manage action plans as needed. Risk assessment results are reviewed and validated with Microsoft 365 management and incorporated into ERM’s Risk Assessment Report for the Microsoft Board of Directors.
 
 ## Learn more
-- [Microsoft 365 Risk Management program](https://docs.microsoft.com/compliance/assurance/assurance-risk-management-program)
+- [Microsoft 365 Risk Management program](https://docs.microsoft.com/compliance/assurance/assurance-risk-management-program?azure-portal=true)
