@@ -1,6 +1,6 @@
 In Microsoft Teams Direct Routing, Session Border Controllers (SBCs) route calls from the public switched telephone network (PSTN) to Teams.
 
-In your clothing retailer, you're ready to begin to configure Direct Routing. To start, you'll need to configure your Session Border Controller (SBC) and connect it to the Microsoft Phone System.
+In your clothing retailer, you're ready to begin to configure Direct Routing. To start, you'll need to configure your Session Border Controller (SBC) and connect it to the Microsoft Teams Phone.
 
 Here, you'll learn how to configure SBCs.
 
@@ -20,7 +20,7 @@ At a high level, configuration of the SBC will generally require you to:
 
 ## Connect the SBC
 
-After the SBC is configured, you connect it with the Microsoft Phone System, using either the Microsoft Teams admin center, or PowerShell. For example, you can connect it through PowerShell by running the **New-CsOnlinePSTNGateway** command, using the following basic minimum parameters:
+After the SBC is configured, you connect it with the Microsoft Teams Phone, using either the Microsoft Teams admin center, or PowerShell. For example, you can connect it through PowerShell by running the **New-CsOnlinePSTNGateway** command, using the following basic minimum parameters:
 
 Parameter|Description|
 |---------|---------|

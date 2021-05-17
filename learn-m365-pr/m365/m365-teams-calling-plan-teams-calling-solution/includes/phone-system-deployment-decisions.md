@@ -21,7 +21,7 @@ Phone System with Calling Plan might be the right solution for you if you can an
 
 With this option:
 
-- You get Microsoft Phone System with added Domestic or International Calling Plans that enable calling to phones around the world (depending on the level of service being licensed).
+- You get Microsoft Teams Phone with added Domestic or International Calling Plans that enable calling to phones around the world (depending on the level of service being licensed).
 - You do not require deployment or maintenance of an on-premises deployment—because Calling Plan operates out of Microsoft 365 or Office 365.
 - If necessary, you can choose to connect a supported Session Border Controller (SBC) through Direct Routing for interoperability with third-party PBXs, analog devices, and other third-party telephony equipment supported by the SBC.
 
@@ -42,10 +42,10 @@ If you answer yes to the following questions, then Phone System with Direct Rout
 
 With this option:
 
-- You connect your own supported Session Border Controller (SBC) to Microsoft Phone System without the need for additional on-premises software.
-- You can use virtually any telephone carrier with Microsoft Phone System.
+- You connect your own supported Session Border Controller (SBC) to Microsoft Teams Phone without the need for additional on-premises software.
+- You can use virtually any telephone carrier with Microsoft Teams Phone.
 - You can choose to configure and manage this option, or it can be configured and managed by your carrier or partner (ask if your carrier or partner provides this option).
-- You can configure interoperability between your telephony equipment—such as a third-party PBX and analog devices—and Microsoft Phone System.
+- You can configure interoperability between your telephony equipment—such as a third-party PBX and analog devices—and Microsoft Teams Phone.
 
 This option requires the following:
 
