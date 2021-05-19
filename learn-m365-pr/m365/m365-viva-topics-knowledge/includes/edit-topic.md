@@ -1,6 +1,6 @@
 Topics contributors, Knowledge managers and Knowledge admins can edit a topic. These users can edit an existing topic. They may need to do this to correct or add additional information to an existing topic page. 
 
-> [VIDEO https://www.microsoft.com/videoplayer/embed/RE4LA4n]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4LA4n]
 
 To edit an existing topic, you need:
 - A Viva Topics license 
