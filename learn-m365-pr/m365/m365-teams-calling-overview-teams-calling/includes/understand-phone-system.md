@@ -1,4 +1,4 @@
-Microsoft Phone System acts like a virtual PBX for your business. You can use it in place of an on-premises PBX to connect to the PSTN. Internal calls are routed through Phone System and do not reach the PSTN. This includes long-distance calls between offices in different regions.
+Microsoft Teams Phone acts like a virtual PBX for your business. You can use it in place of an on-premises PBX to connect to the PSTN. Internal calls are routed through Phone System and do not reach the PSTN. This includes long-distance calls between offices in different regions.
 
 > [!NOTE]
 > In some countries and regions, it's illegal to bypass the PSTN provider to decrease long-distance calling costs. Location-Based Routing for Direct Routing enables you to restrict toll bypass for Microsoft Teams users based on their geographic location. For more information, read [Plan Location-Based Routing for Direct Routing]( https://docs.microsoft.com/microsoftteams/location-based-routing-plan).

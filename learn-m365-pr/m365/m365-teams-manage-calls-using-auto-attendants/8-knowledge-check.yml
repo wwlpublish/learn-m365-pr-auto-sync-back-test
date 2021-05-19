@@ -14,7 +14,7 @@ content: |
 quiz:
   title: Check your knowledge
   questions:
-  - content: "Which component of a traditional phone network does Microsoft Phone System replace?"
+  - content: "Which component of a traditional phone network does Microsoft Teams Phone replace?"
     choices:
     - content: PSTN
       isCorrect: false
