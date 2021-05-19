@@ -3,9 +3,9 @@ uid: learn-m365-pr.m365-teams-calling-onboard-manage-users
 metadata:
   title: Onboard and manage users of Calling for Microsoft Teams
   description: Get answers to frequently asked questions about Calling for Microsoft Teams and learn you how to use the Call Quality Dashboard together with Power BI to build a suite of reports to manage call quality in your organization.
-  ms.date: 02/12/2021
+  ms.date: 05/12/2021
   ms.author: elizapo
-  author: lizap
+  author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 title: Onboard and manage users of Calling for Microsoft Teams
@@ -16,7 +16,7 @@ abstract: |
   -	Monitor call quality and calling issues.
   -	Review reports and metrics on usage of Calling for Microsoft Teams.
 prerequisites: None
-iconUrl: https://docs.microsoft.com/media/learn/module.svg
+iconUrl: /learn/achievements/onboard-and-manage-users-of-calling-for-microsoft-teams.svg
 levels: 
 - advanced
 roles: 

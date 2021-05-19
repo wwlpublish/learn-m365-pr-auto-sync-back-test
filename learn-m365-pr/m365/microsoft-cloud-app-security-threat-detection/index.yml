@@ -3,7 +3,7 @@ uid: learn-m365.mcas-threat-detection
 metadata:
   title: Implement threat detection using Microsoft Cloud App Security
   description: Learn about the threat detection capabilities of Microsoft Cloud App Security.
-  ms.date: 05/14/2021
+  ms.date: 05/12/2021
   author: geoffallix
   ms.author: beccarobins
   ms.topic: interactive-tutorial
@@ -20,7 +20,7 @@ prerequisites: |
     - Basic security knowledge
     - Basic Azure knowledge 
 
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/implement-threat-detection-using-microsoft-cloud-app-security.svg
 levels:
 - beginner
 roles:
