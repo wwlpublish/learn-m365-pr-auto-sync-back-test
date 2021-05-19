@@ -19,7 +19,7 @@ Confirmed topics will be removed from the **Suggested** list and instead display
 
 Rejected topics are removed from the **Suggested** list and instead display in the **Removed** tab. 
 
-:::image type="content" source="../media/Suggested-items.png" alt-text="A screenshot shows the Suggested topics list on the Manage topics page in Viva Topics.":::
+:::image type="content" source="../media/viva-suggested-items.png" alt-text="A screenshot shows the Suggested topics list on the Manage topics page in Viva Topics.":::
 
 ## Manage confirmed topics
 Once an AI-indexed topic is validated by the Knowledge manager, it moves to the next lifecycle stage, appearing in the list of **Confirmed** topics. It can take some time for a suggested or confirmed topic that has been published to move to the **Published** list in Manage topics:
@@ -39,7 +39,7 @@ To review a confirmed topic:
 
 You can still reject a confirmed topic. To do this, go to the selected topic in the **Confirmed** list, and select the x to reject the topic. 
 
-:::image type="content" source="../media/confirmed.png" alt-text="A screenshot shows the Confirmed topics list on the Manage topics page in Viva Topics.":::
+:::image type="content" source="../media/viva-confirmed.png" alt-text="A screenshot shows the Confirmed topics list on the Manage topics page in Viva Topics.":::
 
 ## Manage published topics
 The final lifecycle stage of a topic is **Published.** For a topic to appear in this stage, a user or Knowledge manager must manually edit the contents of the topic page.  
@@ -48,9 +48,9 @@ Published topics have been edited so specific information will always appear on 
 
 For Knowledge admins and Knowledge managers, the **Topic Center graph** in Viva Topics displays impressions and provides insight on how well Topics are being adopted.
 
-:::image type="content" source="../media/published.png" alt-text="A screenshot shows the Published topics list on the Manage topics page in Viva Topics.":::
+:::image type="content" source="../media/viva-published.png" alt-text="A screenshot shows the Published topics list on the Manage topics page in Viva Topics.":::
 
 ## Manage removed topics
 Topics in the **Removed** stage aren't discoverable by users. The Knowledge manager and others with a direct link to the topic can work on the topic page without fear of users stumbling upon it. When you're done making corrections, you can restore the topic to its previous lifecycle stage from this stage.  
 
-:::image type="content" source="../media/removed.png" alt-text="A screenshot shows the Removed topics list on the Manage topics page in Viva Topics.":::
+:::image type="content" source="../media/viva-removed.png" alt-text="A screenshot shows the Removed topics list on the Manage topics page in Viva Topics.":::

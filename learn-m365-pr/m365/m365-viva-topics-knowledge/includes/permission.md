@@ -4,11 +4,11 @@ When a topic is created through AI or manual curation, it can contain a descript
 
 For example, when User 1 views the Neptune topic page, they might see this view of the topic page. 
 
-:::image type="content" source="../media/user1-topic-view.png" alt-text="A screenshot shows a topic page about a fictitious company Neptune.":::
+:::image type="content" source="../media/user-1-topic-view.png" alt-text="A screenshot shows a topic page about a fictitious company Neptune.":::
 
 When User 2 looks at the same topic page, their view differs from User 1. User 2 can see the *DG-2000 Product Overview* file in the **Pinned files and pages** section of the topic page, which does not appear for User 1. 
 
-:::image type="content" source="../media/user2-topic-view.png" alt-text="A screenshot shows the Neptune topic page but with an additional file listed under Pinned files and pages.":::
+:::image type="content" source="../media/user-2-topic-view.png" alt-text="A screenshot shows the Neptune topic page but with an additional file listed under Pinned files and pages.":::
 
 Viva Topics respects the permissions that are set on items in a topic and cannot change access to them. In our example, User 1 doesn't see the DG-2000 Product Overview file in their topic page for Neptune because User 1 doesn't have Office 365 permissions to view the file. 
 

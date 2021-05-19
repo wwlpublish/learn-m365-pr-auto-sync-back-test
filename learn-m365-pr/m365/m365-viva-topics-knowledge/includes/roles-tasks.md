@@ -4,7 +4,7 @@ Knowledge managers must be licensed for Viva Topics. If not, admins will need to
 
 |Knowledge administrator (Tenant administrator)|Knowledge manager|Topic contributor (SME)|
 |-|-|-|
-|- Sets up Topic experiences <br>- Ensures security and compliance standards are enforced <br>Understands licensing agreement|- Owns quality of Topics and curation <br>- Performs topic management tasks such as create, edit, delete and reject topics|Contributes to topics, curating pinned people and resources.|
+|- Sets up Topic experiences <br>- Ensures security and compliance standards are enforced <br>- Understands licensing agreement|- Owns quality of Topics and curation <br>- Performs topic management tasks such as create, edit, delete and reject topics|- Contributes to topics, curating pinned people and resources.|
 
 The following table outlines the tasks the knowledge manager can perform by using the **Manage Topics** feature.
 
@@ -24,7 +24,7 @@ Knowledge managers can access the management tools on the **Manage Topics** tab 
 
 Admins can control the quality threshold when topics start to become broadly visible to the org. When a topic becomes discoverable, topic highlights will start appearing wherever the topic name appears in SharePoint and the topic will also appear in Search results.
 
-:::image type="content" source="../media/suggested.png" alt-text="A screenshot shows Suggested topics view in the Manage topics section of the Topics Center.":::
+:::image type="content" source="../media/viva-suggested.png" alt-text="A screenshot shows Suggested topics view in the Manage topics section of the Topics Center.":::
 
 ## Sort metadata columns 
 You'll see helpful metadata columns for sorting. These sorting options enable Knowledge managers to focus on the topics in the knowledge network that are most critical to triage. For example, the Knowledge manager might sort this list by impressions. Impressions reflect how often users in the organization mention a given topic and how often these mentions are seen by other users. Knowledge managers would want to spend their time reviewing topics with the highest usage first. Knowledge managers can review the topics most recently discovered by the AI by sorting this list with the Discovered date column.  
@@ -41,7 +41,7 @@ The impressions column displays the number of times a topic has been shown to us
 
 Knowledge managers help to guide discovered topics through various topic lifecycle stages: 
 
-:::image type="content" source="../media/flow.png" alt-text="A workflow diagram that shows four phases of the topic lifecycle: Suggested, Confirmed, Published, and Rejected.":::
+:::image type="content" source="../media/viva-flow.png" alt-text="A workflow diagram that shows four phases of the topic lifecycle: Suggested, Confirmed, Published, and Rejected.":::
 
 - **Suggested**: A topic has been identified by AI and has enough supporting resources, connections, and properties to be included in this list. 
 - **Confirmed**: A topic that has been suggested by AI is validated. Validation is done by confirmation from a Knowledge manager. If there are net two positive votes (upvotes) from users, the topic is automatically confirmed. A net two negative votes (downvotes) from users means that the topic is rejected. 
