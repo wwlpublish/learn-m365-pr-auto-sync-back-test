@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.viva-topics-knowledge.permissions
+metadata:
+  title: Review what users can see in Viva Topics
+  description: Learn how security trimming affects user views for topics in Viva Topics.
+  ms.date: 05/03/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+title: Review what users can see in Viva Topics
+durationInMinutes: 4
+content: |
+  [!include[](includes/permission.md)]
