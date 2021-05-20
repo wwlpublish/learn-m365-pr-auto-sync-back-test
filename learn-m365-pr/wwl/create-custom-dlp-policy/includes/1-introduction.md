@@ -29,4 +29,3 @@ After completing this module, you' be able to:
  -  Describe how to change user notifications and policy tips.
  -  Configure the user override option to a DLP rule.
  -  Explain how incident reports are sent by a DLP rule violation.
-  
