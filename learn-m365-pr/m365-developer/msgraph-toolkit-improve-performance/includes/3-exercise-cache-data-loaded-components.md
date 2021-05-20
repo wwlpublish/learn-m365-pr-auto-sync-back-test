@@ -9,7 +9,7 @@ Complete the following steps as prerequisites for this exercise.
 For this module, you'll need an application with the following settings:
 
 - **Name:** My app
-- **Platform:** Web
+- **Platform:** Single Page Application (SPA)
 - **Supported account types:** Accounts in any organizational directory (Any Azure AD directory - Multitenant) and personal Microsoft accounts (for example, Skype, Xbox)
 - **Redirect URIs:** `http://localhost:3000`
 
@@ -31,7 +31,7 @@ You can create this application by following these steps:
         <script src="https://unpkg.com/@microsoft/mgt/dist/bundle/mgt-loader.js"></script>
       </head>
       <body>    
-        <mgt-msal-provider client-id="YOUR-CLIENT-ID"></mgt-msal-provider>    
+        <mgt-msal2-provider client-id="YOUR-CLIENT-ID"></mgt-msal2-provider>
         <mgt-login></mgt-login>
       </body>
     </html>
@@ -61,7 +61,7 @@ First, let’s look at how Microsoft Graph Toolkit components cache data by defa
         <script src="https://unpkg.com/@microsoft/mgt/dist/bundle/mgt-loader.js"></script>
       </head>
       <body>
-        <mgt-msal-provider client-id="YOUR-CLIENT-ID"></mgt-msal-provider>
+        <mgt-msal2-provider client-id="YOUR-CLIENT-ID"></mgt-msal2-provider>
         <mgt-login></mgt-login>
         <mgt-people></mgt-people>
       </body>
