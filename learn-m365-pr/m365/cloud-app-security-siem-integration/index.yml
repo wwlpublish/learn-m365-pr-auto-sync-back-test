@@ -3,7 +3,7 @@ uid: learn-m365.mcas-siem-integration
 metadata:
   title: Connect Security Information and Event Management solutions to Microsoft Cloud App Security
   description: Learn how to connect Azure Sentinel and other SIEM solutions to Microsoft Cloud App Security.
-  ms.date: 05/14/2021
+  ms.date: 05/12/2021
   author: geoffallix
   ms.author: beccarobins
   ms.topic: interactive-tutorial
@@ -23,7 +23,7 @@ prerequisites: |
   - Experience working with Azure Sentinel
   - Knowledge of security concepts, risks, and mitigations
   - Microsoft Cloud App Security intermediate or equivalent  
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/microsoft-cloud-app-security-siem-integration.svg
 levels:
 - advanced
 roles:

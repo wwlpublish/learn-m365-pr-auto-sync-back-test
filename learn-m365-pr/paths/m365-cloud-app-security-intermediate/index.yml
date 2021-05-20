@@ -3,9 +3,9 @@ uid: learn-m365.m365-cloud-app-security-intermediate
 metadata:
   title: Detect threats and protect information in cloud apps using Microsoft Cloud App Security
   description: This learning path investigates Microsoft Cloud App Security, discovery, information protection and threat detection at an intermediate level.  
-  ms.date: 02/12/2021
+  ms.date: 05/12/2021
   author: lizap
-  ms.author: elizapo
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Detect threats and protect information in cloud apps using Microsoft Cloud App Security
@@ -14,7 +14,7 @@ prerequisites: |
   - Experience working with Microsoft 365 services
   - Experience working with Microsoft Azure 
   - Fundamental knowledge of Microsoft Cloud App Security
-iconUrl: /learn/achievements/generic-trophy.svg
+iconUrl: /learn/achievements/detect-threats-and-protect-information-in-cloud-apps-using-mcas.svg
 levels: 
 - intermediate
 roles:
