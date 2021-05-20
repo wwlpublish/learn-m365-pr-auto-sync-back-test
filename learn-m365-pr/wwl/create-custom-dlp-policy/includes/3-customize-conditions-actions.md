@@ -17,7 +17,7 @@ In the continuing example, let’s assume that your organization requires protec
 7.  In the prior unit, you left off in the **Low volume of content detected** window. In the list of tabs across the top of the window, select **Conditions**.
 8.  The **Conditions** section displays the list of three sensitive information types that were assigned to this policy by default. Below this list, select the **Add** button. This button displays a drop-down menu of data types that you can add to the policy. In the drop-down menu, select **Sensitive info types**.
 9.  On the **Sensitive info types** window, select **+ Add**. This option displays the list of sensitive information types that you can choose from.
-10. While you can scroll down through the list to the **U.S. Driver's License Number**, it will be quicker toenter **U.S.** in the search box. Entering **U.S.** in the search box will display the list of U.S.-specific information types.
+10. While you can scroll down through the list to the **U.S. Driver's License Number**, it will be quicker to enter **U.S.** in the search box. Entering **U.S.** in the search box will display the list of U.S.-specific information types.
 11. Select the **U.S. Driver's License Number** checkbox and then select **Add**.
 12. Select **Done**.
 13. You should now see **U.S. Driver's License Number** appear as a fourth sensitive information type assigned to this policy.
