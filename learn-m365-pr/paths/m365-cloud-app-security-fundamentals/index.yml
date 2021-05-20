@@ -3,9 +3,9 @@ uid: learn-m365.m365-cloud-app-security
 metadata:
   title: Secure cloud apps using Microsoft Cloud App Security
   description: Learn how Microsoft Cloud App Security can help you proactively identify and defeat app-based security threats across your organization, in Microsoft cloud services, and those services provided by other vendors. 
-  ms.date: 02/12/2021
+  ms.date: 05/12/2021
   author: lizap
-  ms.author: elizapo
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Secure cloud apps using Microsoft Cloud App Security
@@ -13,7 +13,7 @@ summary: Learn how Microsoft Cloud App Security can help you proactively identif
 prerequisites: | 
   - An understanding of basic security concepts
   - Familiarity with the Microsoft Azure and the Azure portal
-iconUrl: /learn/achievements/generic-trophy.svg
+iconUrl: /learn/achievements/secure-cloud-apps-using-microsoft-cloud-app-security.svg
 levels: 
 - beginner
 roles:
