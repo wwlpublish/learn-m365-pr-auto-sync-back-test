@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.audit-security-development-operation.safe-deployment-process
+title: Explore Microsoft 365’s safe deployment process (SDP)
+metadata:
+  title: Explore Microsoft 365’s safe deployment process (SDP)
+  description: Learn how Microsoft 365 follows Microsoft’s Security Development Lifecycle (SDL) to build security and privacy into our products and services.
+  ms.date: 04/26/2021
+  author: NamrahK
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 4
+content: |
+  [!include[](includes/safe-deployment-process.md)]
