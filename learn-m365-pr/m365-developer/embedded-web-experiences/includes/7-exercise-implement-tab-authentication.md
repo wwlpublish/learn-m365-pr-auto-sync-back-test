@@ -2,18 +2,18 @@ In this exercise, you'll create a custom channel tab that displays information a
 
 ## Prerequisites
 
-Developing Microsoft Teams apps requires an Office 365 tenant, Microsoft Teams configured for development, and the necessary tools installed on your workstation.
+Developing Microsoft Teams apps requires a Microsoft 365 tenant, Microsoft Teams configured for development, and the necessary tools installed on your workstation.
 
-For the Office 365 tenant, follow the instructions in [Microsoft Teams: Prepare your Office 365 tenant](/microsoftteams/platform/get-started/get-started-tenant) to obtain a developer tenant if you don't currently have an Office 365 account. Make sure you've also enabled Microsoft Teams for your organization.
+For the Microsoft 365 tenant, follow the instructions in [Microsoft Teams: Prepare your Microsoft 365 tenant](/microsoftteams/platform/get-started/get-started-tenant) to obtain a developer tenant if you don't currently have a Microsoft 365 account. Make sure you've also enabled Microsoft Teams for your organization.
 
-Microsoft Teams must be configured to enable custom apps and allow custom apps to be uploaded to your tenant to build custom apps for Microsoft Teams. Follow the instructions in "Prepare your Office 365 tenant" mentioned previously.
+Microsoft Teams must be configured to enable custom apps and allow custom apps to be uploaded to your tenant to build custom apps for Microsoft Teams. Follow the instructions in "Prepare your Microsoft 365 tenant" mentioned previously.
 
 You'll use Node.js to create custom Microsoft Teams tabs in this module. The exercises in this module assume you have the following tools installed on your developer workstation.
 
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/) - v10.\* (or higher)
+- [Node.js](https://nodejs.org/) - v12.\* (or higher)
 - NPM (installed with Node.js) - v6.\* (or higher)
 - [Gulp](https://gulpjs.com/) - v4.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
@@ -42,7 +42,7 @@ On the **Register an application** page, set the values as follows:
 
 - **Name**: Teams Calendar Graph Tab
 - **Supported account types**: Accounts in this organizational directory only (Contoso only - Single tenant)
-- **Redirect URI**: Web = *https:\//XXXX.ngrok.io/auth-end.html*
+- **Redirect URI**: Web = `https://XXXX.ngrok.io/auth-end.html`
 
     > [!NOTE]
     > Each time ngrok starts, it generates a new random subdomain. Azure AD requires that the redirect URI is specified in the app registration. You'll need to return to this Azure AD app registration to add or change the redirect URI after you start the ngrok utility.
@@ -112,8 +112,7 @@ Yeoman starts and asks you a series of questions. Answer the questions with the 
 - **Do you want to create a configurable or static tab?**: Configurable
 - **What scopes do you intend to use for your tab?**: In a Team
 - **Do you require Azure AD Single-Sign-On support for the tab?** No
-- **Do you want this tab to be available in SharePoint Online?**: Yes
-- **How do you want your tab to be available in SharePoint?**: As a full-page application, as a web part
+- **Do you want this tab to be available in SharePoint Online?**: No
 
 After you answer the generator's questions, the generator creates the scaffolding for the project. The generator then runs `npm install` that downloads all the dependencies required by the project.
 
@@ -122,14 +121,6 @@ The tab you'll create in this exercise will get the latest emails from the curre
 ```console
 npm install @microsoft/microsoft-graph-client
 npm install @types/microsoft-graph --save-dev
-```
-
-### Ensure the project is using the latest version of Teams SDK
-
-Run the npm command to install the latest version of the SDK
-
-```console
-npm i @microsoft/teams-js
 ```
 
 ## Update the tab to use the current Theme
@@ -263,7 +254,7 @@ Create the new file **./src/public/auth-start.html** in the project, and add the
 <!DOCTYPE html>
 <html>
 <body>
-  <script src="https://statics.teams.cdn.office.net/sdk/v1.5.2/js/MicrosoftTeams.min.js" crossorigin="anonymous"></script>
+  <script src="https://statics.teams.cdn.office.net/sdk/v1.9.0/js/MicrosoftTeams.min.js" crossorigin="anonymous"></script>
   <script src="https://secure.aadcdn.microsoftonline-p.com/lib/1.0.17/js/adal.min.js" crossorigin="anonymous"></script>
   <script type="text/javascript">
     microsoftTeams.initialize();
@@ -317,7 +308,7 @@ Create the new file **./src/public/auth-start.html** in the project, and add the
 </html>
 ```
 
-Create the new file **./src/public/auth-end.html** in the project, and add the following code to it. Like the auth-start.html file, this file uses the Microsoft Teams JavaScript SDK and ADAL.js libraries to configure ADAL for the Azure AD application created previously in this exercise. It parses the results received from Azure AD. If the user successfully authenticated, this page requests an access token for Microsoft Graph from Azure AD and then notifies Microsoft Teams that the authentication process succeeded or failed.
+Create the new file **./src/public/auth-end.html** in the project, and add the following code to it. Like the **auth-start.html** file, this file uses the Microsoft Teams JavaScript SDK and ADAL.js libraries to configure ADAL for the Azure AD application created previously in this exercise. It parses the results received from Azure AD. If the user successfully authenticated, this page requests an access token for Microsoft Graph from Azure AD and then notifies Microsoft Teams that the authentication process succeeded or failed.
 
 The notification process triggers Microsoft Teams to close the pop-up window and run the registered callback handlers in our tab:
 
@@ -325,7 +316,7 @@ The notification process triggers Microsoft Teams to close the pop-up window and
 <!DOCTYPE html>
 <html>
 <body>
-  <script src="https://statics.teams.cdn.office.net/sdk/v1.5.2/js/MicrosoftTeams.min.js" crossorigin="anonymous"></script>
+  <script src="https://statics.teams.cdn.office.net/sdk/v1.9.0/js/MicrosoftTeams.min.js" crossorigin="anonymous"></script>
   <script src="https://secure.aadcdn.microsoftonline-p.com/lib/1.0.17/js/adal.min.js" crossorigin="anonymous"></script>
 
   <script type="text/javascript">
@@ -390,7 +381,7 @@ Using the app bar on the left, select the **More added apps** button. Then selec
 
 On the **Browse available apps and services** page, select **Upload a custom app** > **Upload for me or my teams**.
 
-In the file dialog box that appears, select the Microsoft Teams package in your project. This app package is a zip file that can be found in the project's ./package folder.
+In the file dialog box that appears, select the Microsoft Teams package in your project. This app package is a zip file that can be found in the project's **./package** folder.
 
 After the package is uploaded, Microsoft Teams displays a summary of the app. Select the **Add to a team** button to install the app. Select a team to add the channel to, and select **Save** on the configuration page.
 

@@ -26,18 +26,9 @@ Yeoman starts and asks you a series of questions. Answer the questions with the 
 - **What kind of Tab would you like to create?**: Configurable
 - **What scopes do you intend to use for your tab?**: In a Team
 - **Do you require Azure AD Single-Sign-On support for the tab?** No
-- **Do you want this tab to be available in SharePoint Online?**: Yes
-- **How do you want your tab to be available in SharePoint?**: As a full-page application, as a web part
+- **Do you want this tab to be available in SharePoint Online?**: No
 
 After you answer the generator's questions, the generator adds the additional files for a new component. Then it runs `npm install` to ensure that any new dependencies are downloaded for the project.
-
-### Ensure the project is using the latest version of Teams manifest & SDK
-
-Run the npm command to install the latest version of the SDK
-
-```console
-npm i @microsoft/teams-js
-```
 
 ## Test the channel tab
 
