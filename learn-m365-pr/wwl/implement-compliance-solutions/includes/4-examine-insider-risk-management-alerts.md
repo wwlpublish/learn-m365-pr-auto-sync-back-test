@@ -13,7 +13,7 @@ Alert risk scores are automatically calculated from several risk activity attrib
 
 The alert risk score drives the programmatic assignment of a risk severity level for each alert. It can't be customized. If alerts remain untriaged and risk activities continue to accrue to the alert, the risk severity level will increase. Risk analysts and investigators use the alert risk severity to help triage alerts in accordance to an organization's risk policies and standards.
 
-**Additional reading.** For more information on how to triage insider risk management alerts and create a case, see [Triage alerts](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-alertshttps://docs.microsoft.com/microsoft-365/compliance/compliance-score-setuphttps://docs.microsoft.com/microsoft-365/compliance/compliance-score-calculation?azure-portal=true).
+**Additional reading.** For more information on how to triage insider risk management alerts and create a case, see [Triage alerts](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-alerts?azure-portal=true).
 
 ### Cases
 
@@ -27,4 +27,4 @@ Each case is scoped to a single employee. Multiple alerts for the employee can b
 
 Deeper investigation into insider risk management alerts is critical to taking proper corrective actions. Insider risk management cases are the central management tool for investigating employee risk activity history and alert details. It's also used to explore the content and messages exposed to risks. Risk analysts and investigators also use cases to centralize review feedback and notes and to process case resolution.
 
-**Additional reading.** For more information on investigating insider risk cases, see [Investigate a case](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-caseshttps://docs.microsoft.com/microsoft-365/compliance/compliance-score-setuphttps://docs.microsoft.com/microsoft-365/compliance/compliance-score-calculation?azure-portal=true).
+**Additional reading.** For more information on investigating insider risk cases, see [Investigate a case](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-cases?azure-portal=true).
