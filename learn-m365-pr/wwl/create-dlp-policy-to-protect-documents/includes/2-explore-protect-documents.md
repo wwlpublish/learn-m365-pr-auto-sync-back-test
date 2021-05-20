@@ -27,7 +27,7 @@ The organization will then create a DLP policy with the following rules. Each ru
  -  **Rule 1: FCI PII content - High**. The first rule restricts access to the document if the FCI classification property **Personally Identifiable Information** equals **High** or **Moderate,** and the document is shared with people outside the organization.
  -  **Rule 2: FCI PII content - Low**. The second rule sends a notification to the document owner if the FCI classification property **Personally Identifiable Information** equals **Low,** and the document is shared with people outside the organization.
 
-### Creating a Managed property in SharePoint
+### Creating a managed property in SharePoint
 
 Before you can use a Windows Server FCI property or another property in a DLP policy, you must first create a managed property in the SharePoint admin center. This property is required because:
 
