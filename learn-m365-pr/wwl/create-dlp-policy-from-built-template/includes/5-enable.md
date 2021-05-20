@@ -2,7 +2,7 @@ The previous unit examined the steps that must be completed in the New DLP polic
 
 The last two pages of the New DLP policy wizard ask about the status of the DLP policy after the wizard finishes. They also display a review of the policy's settings.
 
-:::image type="content" source="../media/dlp-policy-wizard-policy-settings-turn-off-on-eeb57b67.png":::
+:::image type="content" source="../media/dlp-policy-wizard-policy-settings-turn-off-on-eeb57b67.png" alt-text="screenshot of new DLP policy window and turn on and off policy settings option":::
 
 
 When an organization creates its DLP policies, it should consider rolling them out gradually. Doing so enables it to assess their impact and test their effectiveness before fully enforcing them. For example, you don’t want a new DLP policy to unintentionally block access to thousands of documents that people need to access to get their work done.
