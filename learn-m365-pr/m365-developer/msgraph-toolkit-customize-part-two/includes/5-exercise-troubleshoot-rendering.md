@@ -12,7 +12,7 @@ In this exercise, you'll learn how to examine data available in Microsoft Graph 
         </head>
         
         <body>
-          <mgt-msal-provider client-id="YOUR-CLIENT-ID"></mgt-msal-provider>
+          <mgt-msal2-provider client-id="YOUR-CLIENT-ID"></mgt-msal2-provider>
           <mgt-login></mgt-login>
           <mgt-agenda days="3" group-by-day></mgt-agenda>
         </body>   
@@ -44,7 +44,7 @@ Now that you've confirmed that the web app works, let's adjust how the Agenda co
     ```
 
 1. You see a list of days now, but the component still doesn't show the events' titles. Let's see what data is available in the template by changing it.
-    
+
     ```html
     <mgt-agenda days="3" group-by-day>
       <template data-type="event">{{ console.log(this) }}</template>
@@ -100,7 +100,7 @@ Now, let's change the font color in the web app.
         
         <body>
           <h1>Hello</h1>
-          <mgt-msal-provider client-id="YOUR-CLIENT-ID"></mgt-msal-provider>
+          <mgt-msal2-provider client-id="YOUR-CLIENT-ID"></mgt-msal2-provider>
           <mgt-login></mgt-login>
           <mgt-agenda days="3" group-by-day></mgt-agenda>
         </body>
