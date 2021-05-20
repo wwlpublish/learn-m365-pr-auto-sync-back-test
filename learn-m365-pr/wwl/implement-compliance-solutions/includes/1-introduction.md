@@ -6,7 +6,7 @@ This module then examines insider risk management alerts. These alerts are autom
 
 You'll then explore communication compliance in the Compliance Center. Communication compliance policies scan and capture messages across several communication channels to help organizations quickly review and remediate compliance issues. Communication compliance helps organizations address common pain points associated with following internal policies and regulatory compliance requirements.
 
-The module concludes with a review of the toolset provided by Microsoft 365 to address data protection and compliance. You will be introduced to the Service Trust Portal, Compliance Manager, and the GDPR toolbox.
+The module concludes with a review of the toolset provided by Microsoft 365 to address data protection and compliance. You will be introduced to the Service Trust Portal, Compliance Manager, and other tools.
 
 After completing this module, you'll be able to:
 
